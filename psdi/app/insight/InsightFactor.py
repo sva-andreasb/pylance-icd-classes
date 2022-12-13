@@ -1,4 +1,3 @@
 def InsightFactor():
-'''public InsightFactor(final MboSet ms)
-'''
-pass
+    '''    public InsightFactor(final MboSet ms)
+    '''

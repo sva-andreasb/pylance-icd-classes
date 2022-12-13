@@ -1,73 +1,55 @@
 def PlusPClassStructure():
-'''public PlusPClassStructure(final MboSet arg0)
-'''
-pass
+    '''    public PlusPClassStructure(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def adjustCustomerReadOnly():
-'''public void adjustCustomerReadOnly()
-'''
-pass
+    '''    public void adjustCustomerReadOnly()
+    '''
 def canAddCustomer():
-'''public void canAddCustomer()
-public void canAddCustomer(final String s)
-'''
-pass
+    '''    public void canAddCustomer()
+    public void canAddCustomer(final String s)
+    '''
 def setRollUpCustomerAction():
-'''public void setRollUpCustomerAction(final boolean rollUpCustomerAction)
-'''
-pass
+    '''    public void setRollUpCustomerAction(final boolean rollUpCustomerAction)
+    '''
 def setRollUpCaller():
-'''public void setRollUpCaller(final long rollUpCaller, final HashMap<String, Integer> dialogAnswers)
-'''
-pass
+    '''    public void setRollUpCaller(final long rollUpCaller, final HashMap<String, Integer> dialogAnswers)
+    '''
 def getDialogAnswer():
-'''public int getDialogAnswer(final String key)
-'''
-pass
+    '''    public int getDialogAnswer(final String key)
+    '''
 def putDialogAnswer():
-'''public void putDialogAnswer(final String key, final Integer value)
-'''
-pass
+    '''    public void putDialogAnswer(final String key, final Integer value)
+    '''
 def postAddCustomer():
-'''public void postAddCustomer(final MboRemote mboRemote)
-'''
-pass
+    '''    public void postAddCustomer(final MboRemote mboRemote)
+    '''
 def postRemoveCustomer():
-'''public void postRemoveCustomer(final MboRemote mboRemote)
-'''
-pass
+    '''    public void postRemoveCustomer(final MboRemote mboRemote)
+    '''
 def getDirectParent():
-'''public MboRemote getDirectParent()
-'''
-pass
+    '''    public MboRemote getDirectParent()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def cancelAddModifyCustDialog():
-'''public void cancelAddModifyCustDialog(final boolean b)
-'''
-pass
+    '''    public void cancelAddModifyCustDialog(final boolean b)
+    '''
 def getCustomerListToRestrictCommonLookups():
-'''public String getCustomerListToRestrictCommonLookups()
-'''
-pass
+    '''    public String getCustomerListToRestrictCommonLookups()
+    '''
 def getUseWith():
-'''public MboRemote getUseWith(final String objectName)
-'''
-pass
+    '''    public MboRemote getUseWith(final String objectName)
+    '''

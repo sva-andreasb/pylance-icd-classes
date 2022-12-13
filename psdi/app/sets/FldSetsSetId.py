@@ -1,8 +1,6 @@
 def FldSetsSetId():
-'''public FldSetsSetId(final MboValue mbv)
-'''
-pass
+    '''    public FldSetsSetId(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

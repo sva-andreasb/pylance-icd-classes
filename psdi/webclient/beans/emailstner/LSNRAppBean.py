@@ -1,16 +1,12 @@
 def PURGE():
-'''public int PURGE()
-'''
-pass
+    '''    public int PURGE()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def ACTIVATE():
-'''public int ACTIVATE()
-'''
-pass
+    '''    public int ACTIVATE()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''

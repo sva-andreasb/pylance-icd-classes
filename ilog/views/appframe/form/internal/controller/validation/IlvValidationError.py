@@ -3,42 +3,32 @@ FATAL = "int  2"
 STATUS_MESSAGE_TYPE = "int  1"
 PROMPT_MESSAGE_TYPE = "int  2"
 def IlvValidationError():
-'''public IlvValidationError(final IlvControlValidator e, final String b, final int n, final Object a, final int c)
-'''
-pass
+    '''    public IlvValidationError(final IlvControlValidator e, final String b, final int n, final Object a, final int c)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getControl():
-'''public Object getControl()
-'''
-pass
+    '''    public Object getControl()
+    '''
 def setControl():
-'''public void setControl(final Object a)
-'''
-pass
+    '''    public void setControl(final Object a)
+    '''
 def getSeverity():
-'''public int getSeverity()
-'''
-pass
+    '''    public int getSeverity()
+    '''
 def setSeverity():
-'''public void setSeverity(final int c)
-'''
-pass
+    '''    public void setSeverity(final int c)
+    '''
 def getEditor():
-'''public IlvFormEditor getEditor()
-'''
-pass
+    '''    public IlvFormEditor getEditor()
+    '''
 def getValidator():
-'''public IlvControlValidator getValidator()
-'''
-pass
+    '''    public IlvControlValidator getValidator()
+    '''
 def getForm():
-'''public IlvForm getForm()
-'''
-pass
+    '''    public IlvForm getForm()
+    '''
 def getMessageType():
-'''public int getMessageType()
-'''
-pass
+    '''    public int getMessageType()
+    '''

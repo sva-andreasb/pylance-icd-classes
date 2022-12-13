@@ -1,8 +1,6 @@
 def getInstance():
-'''public static JSONAnalyzerFactory getInstance()
-'''
-pass
+    '''    public static JSONAnalyzerFactory getInstance()
+    '''
 def getAnalyzer():
-'''public JSONAnalyzer getAnalyzer(final String type)
-'''
-pass
+    '''    public JSONAnalyzer getAnalyzer(final String type)
+    '''

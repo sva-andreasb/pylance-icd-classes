@@ -1,152 +1,115 @@
 def IlvWizardPanel():
-'''public IlvWizardPanel(final LayoutManager layout)
-public IlvWizardPanel()
-'''
-pass
+    '''    public IlvWizardPanel(final LayoutManager layout)
+    public IlvWizardPanel()
+    '''
 def setFormModel():
-'''public void setFormModel(final IlvFormModel formModel)
-'''
-pass
+    '''    public void setFormModel(final IlvFormModel formModel)
+    '''
 def getFormModel():
-'''public IlvFormModel getFormModel()
-'''
-pass
+    '''    public IlvFormModel getFormModel()
+    '''
 def commit():
-'''public boolean commit()
-'''
-pass
+    '''    public boolean commit()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String g)
-'''
-pass
+    '''    public void setTitle(final String g)
+    '''
 def askForCommit():
-'''public void askForCommit(final IlvWizardPage ilvWizardPage)
-'''
-pass
+    '''    public void askForCommit(final IlvWizardPage ilvWizardPage)
+    '''
 def addPage():
-'''public int addPage(final IlvWizardPage ilvWizardPage)
-'''
-pass
+    '''    public int addPage(final IlvWizardPage ilvWizardPage)
+    '''
 def removePage():
-'''public boolean removePage(final IlvWizardPage ilvWizardPage)
-'''
-pass
+    '''    public boolean removePage(final IlvWizardPage ilvWizardPage)
+    '''
 def getPageCount():
-'''public int getPageCount()
-'''
-pass
+    '''    public int getPageCount()
+    '''
 def getPage():
-'''public IlvWizardPage getPage(final int n)
-public IlvWizardPage getPage()
-'''
-pass
+    '''    public IlvWizardPage getPage(final int n)
+    public IlvWizardPage getPage()
+    '''
 def setActivePage():
-'''public boolean setActivePage(final int a)
-public boolean setActivePage(final IlvWizardPage ilvWizardPage)
-'''
-pass
+    '''    public boolean setActivePage(final int a)
+    public boolean setActivePage(final IlvWizardPage ilvWizardPage)
+    '''
 def getPageIndex():
-'''public int getPageIndex(final IlvWizardPage ilvWizardPage)
-'''
-pass
+    '''    public int getPageIndex(final IlvWizardPage ilvWizardPage)
+    '''
 def getServicesProvider():
-'''public IlvServicesProvider getServicesProvider()
-'''
-pass
+    '''    public IlvServicesProvider getServicesProvider()
+    '''
 def setServicesProvider():
-'''public void setServicesProvider(final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void setServicesProvider(final IlvServicesProvider ilvServicesProvider)
+    '''
 def getCurrentPageIndex():
-'''public int getCurrentPageIndex()
-'''
-pass
+    '''    public int getCurrentPageIndex()
+    '''
 def getCurrentPage():
-'''public IlvWizardPage getCurrentPage()
-'''
-pass
+    '''    public IlvWizardPage getCurrentPage()
+    '''
 def addWizardPanelListener():
-'''public void addWizardPanelListener(final WizardPanelListener wizardPanelListener)
-'''
-pass
+    '''    public void addWizardPanelListener(final WizardPanelListener wizardPanelListener)
+    '''
 def removeWizardPanelListener():
-'''public boolean removeWizardPanelListener(final WizardPanelListener wizardPanelListener)
-'''
-pass
+    '''    public boolean removeWizardPanelListener(final WizardPanelListener wizardPanelListener)
+    '''
 def getPageErrors():
-'''public Iterator getPageErrors(final IlvWizardPage ilvWizardPage)
-'''
-pass
+    '''    public Iterator getPageErrors(final IlvWizardPage ilvWizardPage)
+    '''
 def hasErrors():
-'''public boolean hasErrors(final IlvWizardPage ilvWizardPage)
-public boolean hasErrors()
-'''
-pass
+    '''    public boolean hasErrors(final IlvWizardPage ilvWizardPage)
+    public boolean hasErrors()
+    '''
 def addWizardError():
-'''public void addWizardError(final IlvWizardError ilvWizardError)
-'''
-pass
+    '''    public void addWizardError(final IlvWizardError ilvWizardError)
+    '''
 def removeWizardError():
-'''public boolean removeWizardError(final IlvWizardError ilvWizardError)
-'''
-pass
+    '''    public boolean removeWizardError(final IlvWizardError ilvWizardError)
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''
 def validationErrorAdded():
-'''public void validationErrorAdded(final ValidationEvent validationEvent)
-'''
-pass
+    '''    public void validationErrorAdded(final ValidationEvent validationEvent)
+    '''
 def validationErrorRemoved():
-'''public void validationErrorRemoved(final ValidationEvent validationEvent)
-'''
-pass
+    '''    public void validationErrorRemoved(final ValidationEvent validationEvent)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def PageNode():
-'''public PageNode(final IlvWizardPage a)
-'''
-pass
+    '''    public PageNode(final IlvWizardPage a)
+    '''
 def getPageContainer():
-'''public Container getPageContainer()
-'''
-pass
+    '''    public Container getPageContainer()
+    '''
 def getForm():
-'''public IlvForm getForm()
-'''
-pass
+    '''    public IlvForm getForm()
+    '''
 def isInitialized():
-'''public boolean isInitialized()
-'''
-pass
+    '''    public boolean isInitialized()
+    '''
 def setInitialized():
-'''public void setInitialized(final boolean b)
-'''
-pass
+    '''    public void setInitialized(final boolean b)
+    '''
 def addError():
-'''public void addError(final IlvWizardError ilvWizardError)
-'''
-pass
+    '''    public void addError(final IlvWizardError ilvWizardError)
+    '''
 def removeError():
-'''public boolean removeError(final IlvWizardError ilvWizardError)
-'''
-pass
+    '''    public boolean removeError(final IlvWizardError ilvWizardError)
+    '''
 def getErrors():
-'''public List getErrors()
-'''
-pass
+    '''    public List getErrors()
+    '''

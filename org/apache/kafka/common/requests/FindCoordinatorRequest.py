@@ -1,42 +1,32 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def FindCoordinatorRequest():
-'''public FindCoordinatorRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public FindCoordinatorRequest(final Struct struct, final short version)
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def coordinatorKey():
-'''public String coordinatorKey()
-public String coordinatorKey()
-'''
-pass
+    '''    public String coordinatorKey()
+    public String coordinatorKey()
+    '''
 def coordinatorType():
-'''public CoordinatorType coordinatorType()
-public CoordinatorType coordinatorType()
-'''
-pass
+    '''    public CoordinatorType coordinatorType()
+    public CoordinatorType coordinatorType()
+    '''
 def parse():
-'''public static FindCoordinatorRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static FindCoordinatorRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder(final CoordinatorType coordinatorType, final String coordinatorKey)
-'''
-pass
+    '''    public Builder(final CoordinatorType coordinatorType, final String coordinatorKey)
+    '''
 def build():
-'''public FindCoordinatorRequest build(final short version)
-'''
-pass
+    '''    public FindCoordinatorRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def forId():
-'''public static CoordinatorType forId(final byte id)
-'''
-pass
+    '''    public static CoordinatorType forId(final byte id)
+    '''

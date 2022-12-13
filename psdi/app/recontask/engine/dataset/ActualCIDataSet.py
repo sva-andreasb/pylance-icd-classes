@@ -1,55 +1,42 @@
-ROOTMAXVAR = "String  CICLASS""
-OBJECT_ACTCI = "String  ACTCI""
-OBJECT_ACTCISPEC = "String  ACTCISPEC""
+ROOTMAXVAR = "String  \"CICLASS\""
+OBJECT_ACTCI = "String  \"ACTCI\""
+OBJECT_ACTCISPEC = "String  \"ACTCISPEC\""
 def ActualCIDataSet():
-'''public ActualCIDataSet()
-'''
-pass
+    '''    public ActualCIDataSet()
+    '''
 def getMainObjectName():
-'''public String getMainObjectName()
-'''
-pass
+    '''    public String getMainObjectName()
+    '''
 def getObjectNameDomainID():
-'''public String getObjectNameDomainID()
-'''
-pass
+    '''    public String getObjectNameDomainID()
+    '''
 def getTaskFilterAttributesDomainID():
-'''public String getTaskFilterAttributesDomainID()
-'''
-pass
+    '''    public String getTaskFilterAttributesDomainID()
+    '''
 def getTableJoinWhereClauseForComparison():
-'''public String getTableJoinWhereClauseForComparison(final String tableName, final Map uidKeys)
-'''
-pass
+    '''    public String getTableJoinWhereClauseForComparison(final String tableName, final Map uidKeys)
+    '''
 def getReconResultAttributeNamesForComparison():
-'''public ResultTableAttributes getReconResultAttributeNamesForComparison(final boolean isDataSet1)
-'''
-pass
+    '''    public ResultTableAttributes getReconResultAttributeNamesForComparison(final boolean isDataSet1)
+    '''
 def getReconLinkAttributeNamesForLink():
-'''public ResultTableAttributes getReconLinkAttributeNamesForLink(final boolean isDataSet1)
-'''
-pass
+    '''    public ResultTableAttributes getReconLinkAttributeNamesForLink(final boolean isDataSet1)
+    '''
 def getReconResultAttributeNamesForLink():
-'''public ResultTableAttributes getReconResultAttributeNamesForLink(final boolean isDataSet1)
-'''
-pass
+    '''    public ResultTableAttributes getReconResultAttributeNamesForLink(final boolean isDataSet1)
+    '''
 def getRootSpecMaxVar():
-'''public String getRootSpecMaxVar(final String objectname)
-'''
-pass
+    '''    public String getRootSpecMaxVar(final String objectname)
+    '''
 def getAttributesExcludeList():
-'''public String[] getAttributesExcludeList(final String objectname)
-'''
-pass
+    '''    public String[] getAttributesExcludeList(final String objectname)
+    '''
 def getObjectSpecPairs():
-'''public String[][] getObjectSpecPairs()
-'''
-pass
+    '''    public String[][] getObjectSpecPairs()
+    '''
 def getObjectNameDomainExcludeList():
-'''public String[] getObjectNameDomainExcludeList(final String objectName)
-'''
-pass
+    '''    public String[] getObjectNameDomainExcludeList(final String objectName)
+    '''
 def getFixedTaskFilterWhereClause():
-'''public String getFixedTaskFilterWhereClause()
-'''
-pass
+    '''    public String getFixedTaskFilterWhereClause()
+    '''

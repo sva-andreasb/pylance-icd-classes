@@ -1,16 +1,12 @@
 def OMAbstractIterator():
-'''public OMAbstractIterator(final OMNode firstNode)
-'''
-pass
+    '''    public OMAbstractIterator(final OMNode firstNode)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

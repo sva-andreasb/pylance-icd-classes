@@ -1,73 +1,55 @@
 def IlvBPMNActivityShape():
-'''public IlvBPMNActivityShape(final IlvRect ilvRect)
-public IlvBPMNActivityShape(final IlvBPMNActivityShape ilvBPMNActivityShape)
-'''
-pass
+    '''    public IlvBPMNActivityShape(final IlvRect ilvRect)
+    public IlvBPMNActivityShape(final IlvBPMNActivityShape ilvBPMNActivityShape)
+    '''
 def copy():
-'''public IlvGraphic copy()
-'''
-pass
+    '''    public IlvGraphic copy()
+    '''
 def applyTransform():
-'''public void applyTransform(final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public void applyTransform(final IlvTransformer ilvTransformer)
+    '''
 def setTransaction():
-'''public void setTransaction(final boolean a)
-'''
-pass
+    '''    public void setTransaction(final boolean a)
+    '''
 def getTransaction():
-'''public boolean getTransaction()
-'''
-pass
+    '''    public boolean getTransaction()
+    '''
 def draw():
-'''public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public void draw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''
 def isCollapsed():
-'''public boolean isCollapsed()
-'''
-pass
+    '''    public boolean isCollapsed()
+    '''
 def setCollapsed():
-'''public void setCollapsed(final boolean b)
-'''
-pass
+    '''    public void setCollapsed(final boolean b)
+    '''
 def isExpanded():
-'''public boolean isExpanded()
-'''
-pass
+    '''    public boolean isExpanded()
+    '''
 def setExpanded():
-'''public void setExpanded(final boolean b)
-'''
-pass
+    '''    public void setExpanded(final boolean b)
+    '''
 def isAdHoc():
-'''public boolean isAdHoc()
-'''
-pass
+    '''    public boolean isAdHoc()
+    '''
 def setAdHoc():
-'''public void setAdHoc(final boolean g)
-'''
-pass
+    '''    public void setAdHoc(final boolean g)
+    '''
 def isCompensation():
-'''public boolean isCompensation()
-'''
-pass
+    '''    public boolean isCompensation()
+    '''
 def setCompensation():
-'''public void setCompensation(final boolean f)
-'''
-pass
+    '''    public void setCompensation(final boolean f)
+    '''
 def isLoop():
-'''public boolean isLoop()
-'''
-pass
+    '''    public boolean isLoop()
+    '''
 def setLoop():
-'''public void setLoop(final boolean d)
-'''
-pass
+    '''    public void setLoop(final boolean d)
+    '''
 def isParallel():
-'''public boolean isParallel()
-'''
-pass
+    '''    public boolean isParallel()
+    '''
 def setParallel():
-'''public void setParallel(final boolean e)
-'''
-pass
+    '''    public void setParallel(final boolean e)
+    '''

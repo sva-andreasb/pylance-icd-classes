@@ -1,16 +1,12 @@
 def LabelToNodeMap():
-'''public LabelToNodeMap()
-'''
-pass
+    '''    public LabelToNodeMap()
+    '''
 def asNode():
-'''public Node asNode(final String label)
-'''
-pass
+    '''    public Node asNode(final String label)
+    '''
 def allocNode():
-'''public Node allocNode()
-'''
-pass
+    '''    public Node allocNode()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

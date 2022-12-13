@@ -1,14 +1,11 @@
-ELEMENT = "String  compressed""
-NAMESPACE = "String  http://jabber.org/protocol/compress""
+ELEMENT = "String  \"compressed\""
+NAMESPACE = "String  \"http://jabber.org/protocol/compress\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''

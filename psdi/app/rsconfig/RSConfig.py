@@ -1,8 +1,6 @@
 def RSConfig():
-'''public RSConfig(final MboSet ms)
-'''
-pass
+    '''    public RSConfig(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

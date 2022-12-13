@@ -1,8 +1,6 @@
 def FldSupportCombineView():
-'''public FldSupportCombineView(final MboValue mbv)
-'''
-pass
+    '''    public FldSupportCombineView(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,43 +1,33 @@
 def GenericXmlInputStream():
-'''public GenericXmlInputStream()
-'''
-pass
+    '''    public GenericXmlInputStream()
+    '''
 def next():
-'''public XMLEvent next()
-'''
-pass
+    '''    public XMLEvent next()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def skip():
-'''public void skip()
-public boolean skip(final int eventType)
-public boolean skip(final XMLName name)
-public boolean skip(final XMLName name, final int eventType)
-'''
-pass
+    '''    public void skip()
+    public boolean skip(final int eventType)
+    public boolean skip(final XMLName name)
+    public boolean skip(final XMLName name, final int eventType)
+    '''
 def skipElement():
-'''public void skipElement()
-'''
-pass
+    '''    public void skipElement()
+    '''
 def peek():
-'''public XMLEvent peek()
-'''
-pass
+    '''    public XMLEvent peek()
+    '''
 def getSubStream():
-'''public XMLInputStream getSubStream()
-'''
-pass
+    '''    public XMLInputStream getSubStream()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getReferenceResolver():
-'''public ReferenceResolver getReferenceResolver()
-'''
-pass
+    '''    public ReferenceResolver getReferenceResolver()
+    '''
 def setReferenceResolver():
-'''public void setReferenceResolver(final ReferenceResolver resolver)
-'''
-pass
+    '''    public void setReferenceResolver(final ReferenceResolver resolver)
+    '''

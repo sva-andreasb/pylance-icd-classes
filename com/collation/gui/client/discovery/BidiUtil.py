@@ -1,41 +1,31 @@
 def getBidiFormat():
-'''public String getBidiFormat()
-'''
-pass
+    '''    public String getBidiFormat()
+    '''
 def setBidiFormat():
-'''public void setBidiFormat(final String bidiFormat)
-'''
-pass
+    '''    public void setBidiFormat(final String bidiFormat)
+    '''
 def getBidiFormatFromMenu():
-'''public static String getBidiFormatFromMenu(final int order, final int Direction, final int Swapping, final int Shaping, final int numShaping)
-'''
-pass
+    '''    public static String getBidiFormatFromMenu(final int order, final int Direction, final int Swapping, final int Shaping, final int numShaping)
+    '''
 def getOrderMenuItem():
-'''public String getOrderMenuItem()
-'''
-pass
+    '''    public String getOrderMenuItem()
+    '''
 def getDirectionMenuItem():
-'''public String getDirectionMenuItem()
-'''
-pass
+    '''    public String getDirectionMenuItem()
+    '''
 def getSwapingMenuItem():
-'''public String getSwapingMenuItem()
-'''
-pass
+    '''    public String getSwapingMenuItem()
+    '''
 def getShapingMenuItem():
-'''public String getShapingMenuItem()
-'''
-pass
+    '''    public String getShapingMenuItem()
+    '''
 def getNumShapingMenuItem():
-'''public String getNumShapingMenuItem()
-'''
-pass
+    '''    public String getNumShapingMenuItem()
+    '''
 def normalizeContextual():
-'''public static String normalizeContextual(final String inStr)
-public static String[] normalizeContextual(final String[] inStr)
-'''
-pass
+    '''    public static String normalizeContextual(final String inStr)
+    public static String[] normalizeContextual(final String[] inStr)
+    '''
 def unNormalizeContextual():
-'''public static String unNormalizeContextual(final String inStr)
-'''
-pass
+    '''    public static String unNormalizeContextual(final String inStr)
+    '''

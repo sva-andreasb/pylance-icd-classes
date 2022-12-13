@@ -1,75 +1,57 @@
 def PutInstructionFileRequest():
-'''public PutInstructionFileRequest(final S3ObjectId s3ObjectId, final Map<String, String> matDesc, final String suffix)
-public PutInstructionFileRequest(final S3ObjectId s3ObjectId, final EncryptionMaterials encryptionMaterials, final String suffix)
-'''
-pass
+    '''    public PutInstructionFileRequest(final S3ObjectId s3ObjectId, final Map<String, String> matDesc, final String suffix)
+    public PutInstructionFileRequest(final S3ObjectId s3ObjectId, final EncryptionMaterials encryptionMaterials, final String suffix)
+    '''
 def getS3ObjectId():
-'''public S3ObjectId getS3ObjectId()
-'''
-pass
+    '''    public S3ObjectId getS3ObjectId()
+    '''
 def getMaterialsDescription():
-'''public Map<String, String> getMaterialsDescription()
-'''
-pass
+    '''    public Map<String, String> getMaterialsDescription()
+    '''
 def getEncryptionMaterials():
-'''public EncryptionMaterials getEncryptionMaterials()
-'''
-pass
+    '''    public EncryptionMaterials getEncryptionMaterials()
+    '''
 def getSuffix():
-'''public String getSuffix()
-'''
-pass
+    '''    public String getSuffix()
+    '''
 def getCannedAcl():
-'''public CannedAccessControlList getCannedAcl()
-'''
-pass
+    '''    public CannedAccessControlList getCannedAcl()
+    '''
 def setCannedAcl():
-'''public void setCannedAcl(final CannedAccessControlList cannedAcl)
-'''
-pass
+    '''    public void setCannedAcl(final CannedAccessControlList cannedAcl)
+    '''
 def withCannedAcl():
-'''public PutInstructionFileRequest withCannedAcl(final CannedAccessControlList cannedAcl)
-'''
-pass
+    '''    public PutInstructionFileRequest withCannedAcl(final CannedAccessControlList cannedAcl)
+    '''
 def getAccessControlList():
-'''public AccessControlList getAccessControlList()
-'''
-pass
+    '''    public AccessControlList getAccessControlList()
+    '''
 def setAccessControlList():
-'''public void setAccessControlList(final AccessControlList accessControlList)
-'''
-pass
+    '''    public void setAccessControlList(final AccessControlList accessControlList)
+    '''
 def withAccessControlList():
-'''public PutInstructionFileRequest withAccessControlList(final AccessControlList accessControlList)
-'''
-pass
+    '''    public PutInstructionFileRequest withAccessControlList(final AccessControlList accessControlList)
+    '''
 def getRedirectLocation():
-'''public String getRedirectLocation()
-'''
-pass
+    '''    public String getRedirectLocation()
+    '''
 def setRedirectLocation():
-'''public void setRedirectLocation(final String redirectLocation)
-'''
-pass
+    '''    public void setRedirectLocation(final String redirectLocation)
+    '''
 def withRedirectLocation():
-'''public PutInstructionFileRequest withRedirectLocation(final String redirectLocation)
-'''
-pass
+    '''    public PutInstructionFileRequest withRedirectLocation(final String redirectLocation)
+    '''
 def getStorageClass():
-'''public String getStorageClass()
-'''
-pass
+    '''    public String getStorageClass()
+    '''
 def setStorageClass():
-'''public void setStorageClass(final String storageClass)
-public void setStorageClass(final StorageClass storageClass)
-'''
-pass
+    '''    public void setStorageClass(final String storageClass)
+    public void setStorageClass(final StorageClass storageClass)
+    '''
 def withStorageClass():
-'''public PutInstructionFileRequest withStorageClass(final String storageClass)
-public PutInstructionFileRequest withStorageClass(final StorageClass storageClass)
-'''
-pass
+    '''    public PutInstructionFileRequest withStorageClass(final String storageClass)
+    public PutInstructionFileRequest withStorageClass(final StorageClass storageClass)
+    '''
 def createPutObjectRequest():
-'''public PutObjectRequest createPutObjectRequest(final S3Object s3Object)
-'''
-pass
+    '''    public PutObjectRequest createPutObjectRequest(final S3Object s3Object)
+    '''

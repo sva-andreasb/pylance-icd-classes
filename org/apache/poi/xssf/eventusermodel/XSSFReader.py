@@ -1,80 +1,60 @@
 def XSSFReader():
-'''public XSSFReader(final OPCPackage pkg)
-'''
-pass
+    '''    public XSSFReader(final OPCPackage pkg)
+    '''
 def getSharedStringsTable():
-'''public SharedStringsTable getSharedStringsTable()
-'''
-pass
+    '''    public SharedStringsTable getSharedStringsTable()
+    '''
 def getStylesTable():
-'''public StylesTable getStylesTable()
-'''
-pass
+    '''    public StylesTable getStylesTable()
+    '''
 def getSharedStringsData():
-'''public InputStream getSharedStringsData()
-'''
-pass
+    '''    public InputStream getSharedStringsData()
+    '''
 def getStylesData():
-'''public InputStream getStylesData()
-'''
-pass
+    '''    public InputStream getStylesData()
+    '''
 def getThemesData():
-'''public InputStream getThemesData()
-'''
-pass
+    '''    public InputStream getThemesData()
+    '''
 def getWorkbookData():
-'''public InputStream getWorkbookData()
-'''
-pass
+    '''    public InputStream getWorkbookData()
+    '''
 def getSheet():
-'''public InputStream getSheet(final String relId)
-'''
-pass
+    '''    public InputStream getSheet(final String relId)
+    '''
 def getSheetsData():
-'''public Iterator<InputStream> getSheetsData()
-'''
-pass
+    '''    public Iterator<InputStream> getSheetsData()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public InputStream next()
-'''
-pass
+    '''    public InputStream next()
+    '''
 def getSheetName():
-'''public String getSheetName()
-'''
-pass
+    '''    public String getSheetName()
+    '''
 def getSheetComments():
-'''public CommentsTable getSheetComments()
-'''
-pass
+    '''    public CommentsTable getSheetComments()
+    '''
 def getShapes():
-'''public List<XSSFShape> getShapes()
-'''
-pass
+    '''    public List<XSSFShape> getShapes()
+    '''
 def getSheetPart():
-'''public PackagePart getSheetPart()
-'''
-pass
+    '''    public PackagePart getSheetPart()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def XSSFSheetRef():
-'''public XSSFSheetRef(final String id, final String name)
-'''
-pass
+    '''    public XSSFSheetRef(final String id, final String name)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def startElement():
-'''public void startElement(final String uri, final String localName, final String qName, final Attributes attrs)
-'''
-pass
+    '''    public void startElement(final String uri, final String localName, final String qName, final Attributes attrs)
+    '''

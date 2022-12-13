@@ -1,4 +1,3 @@
 def FldMainObjectName():
-'''public FldMainObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldMainObjectName(final MboValue mbv)
+    '''

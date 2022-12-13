@@ -1,8 +1,6 @@
 def getInstance():
-'''public static GrayScaleColorConverter getInstance()
-'''
-pass
+    '''    public static GrayScaleColorConverter getInstance()
+    '''
 def convert():
-'''public Color convert(final Color color)
-'''
-pass
+    '''    public Color convert(final Color color)
+    '''

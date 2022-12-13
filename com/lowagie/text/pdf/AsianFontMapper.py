@@ -1,8 +1,6 @@
 def AsianFontMapper():
-'''public AsianFontMapper(final String font, final String encoding)
-'''
-pass
+    '''    public AsianFontMapper(final String font, final String encoding)
+    '''
 def awtToPdf():
-'''public BaseFont awtToPdf(final Font font)
-'''
-pass
+    '''    public BaseFont awtToPdf(final Font font)
+    '''

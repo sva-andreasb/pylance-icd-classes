@@ -1,96 +1,73 @@
 def SOAPContext():
-'''public SOAPContext()
-'''
-pass
+    '''    public SOAPContext()
+    '''
 def addBodyPart():
-'''public void addBodyPart(final MimeBodyPart mimeBodyPart)
-public void addBodyPart(final MimeBodyPart mimeBodyPart, final int n)
-'''
-pass
+    '''    public void addBodyPart(final MimeBodyPart mimeBodyPart)
+    public void addBodyPart(final MimeBodyPart mimeBodyPart, final int n)
+    '''
 def findBodyPart():
-'''public MimeBodyPart findBodyPart(final String s)
-'''
-pass
+    '''    public MimeBodyPart findBodyPart(final String s)
+    '''
 def findPartByLocation():
-'''public MimeBodyPart findPartByLocation(String normalizeURI)
-'''
-pass
+    '''    public MimeBodyPart findPartByLocation(String normalizeURI)
+    '''
 def getBaseURI():
-'''public String getBaseURI()
-'''
-pass
+    '''    public String getBaseURI()
+    '''
 def getBodyPart():
-'''public MimeBodyPart getBodyPart(final int n)
-public MimeBodyPart getBodyPart(final String s)
-'''
-pass
+    '''    public MimeBodyPart getBodyPart(final int n)
+    public MimeBodyPart getBodyPart(final String s)
+    '''
 def getClassLoader():
-'''public ClassLoader getClassLoader()
-'''
-pass
+    '''    public ClassLoader getClassLoader()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def getProperty():
-'''public Object getProperty(final String key)
-'''
-pass
+    '''    public Object getProperty(final String key)
+    '''
 def getPropertyNames():
-'''public Enumeration getPropertyNames()
-'''
-pass
+    '''    public Enumeration getPropertyNames()
+    '''
 def getRootPart():
-'''public MimeBodyPart getRootPart()
-'''
-pass
+    '''    public MimeBodyPart getRootPart()
+    '''
 def isRootPartSet():
-'''public boolean isRootPartSet()
-'''
-pass
+    '''    public boolean isRootPartSet()
+    '''
 def loadClass():
-'''public Class loadClass(final String s)
-'''
-pass
+    '''    public Class loadClass(final String s)
+    '''
 def readMultipart():
-'''public void readMultipart(final DataSource dataSource)
-'''
-pass
+    '''    public void readMultipart(final DataSource dataSource)
+    '''
 def removeBodyPart():
-'''public void removeBodyPart(final MimeBodyPart mimeBodyPart)
-'''
-pass
+    '''    public void removeBodyPart(final MimeBodyPart mimeBodyPart)
+    '''
 def removeProperty():
-'''public Object removeProperty(final String key)
-'''
-pass
+    '''    public Object removeProperty(final String key)
+    '''
 def setClassLoader():
-'''public void setClassLoader(final ClassLoader loader)
-'''
-pass
+    '''    public void setClassLoader(final ClassLoader loader)
+    '''
 def setProperty():
-'''public void setProperty(final String key, final Object value)
-'''
-pass
+    '''    public void setProperty(final String key, final Object value)
+    '''
 def setRootPart():
-'''public void setRootPart(final String s, final String s2)
-public void setRootPart(final MimeBodyPart mimeBodyPart)
-public void setRootPart(final byte[] array, final String s)
-'''
-pass
+    '''    public void setRootPart(final String s, final String s2)
+    public void setRootPart(final MimeBodyPart mimeBodyPart)
+    public void setRootPart(final byte[] array, final String s)
+    '''
 def setSubType():
-'''public void setSubType(final String subType)
-'''
-pass
+    '''    public void setSubType(final String subType)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outputStream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outputStream)
+    '''

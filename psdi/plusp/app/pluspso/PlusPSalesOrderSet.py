@@ -1,16 +1,12 @@
 def PlusPSalesOrderSet():
-'''public PlusPSalesOrderSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPSalesOrderSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def setSkipInit():
-'''public void setSkipInit(final boolean skipInit)
-'''
-pass
+    '''    public void setSkipInit(final boolean skipInit)
+    '''
 def isSkipInit():
-'''public boolean isSkipInit()
-'''
-pass
+    '''    public boolean isSkipInit()
+    '''

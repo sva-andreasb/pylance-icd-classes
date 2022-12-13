@@ -1,12 +1,9 @@
 def PlusPSetTransactionPayerSet():
-'''public PlusPSetTransactionPayerSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPSetTransactionPayerSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def populateSetWithTransactions():
-'''public void populateSetWithTransactions()
-'''
-pass
+    '''    public void populateSetWithTransactions()
+    '''

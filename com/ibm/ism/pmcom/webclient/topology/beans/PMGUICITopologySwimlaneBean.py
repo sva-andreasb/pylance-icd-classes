@@ -1,12 +1,9 @@
 def removeClassificationGroup():
-'''public int removeClassificationGroup()
-'''
-pass
+    '''    public int removeClassificationGroup()
+    '''
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''

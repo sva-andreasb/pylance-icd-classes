@@ -1,4 +1,3 @@
 def AssetLocUserCustSet():
-'''public AssetLocUserCustSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetLocUserCustSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def ReorderMutex():
-'''public ReorderMutex(final MboSet ms)
-'''
-pass
+    '''    public ReorderMutex(final MboSet ms)
+    '''

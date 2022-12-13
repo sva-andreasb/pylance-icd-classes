@@ -1,8 +1,6 @@
 def PlusCFldNoAdjLimit():
-'''public PlusCFldNoAdjLimit(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldNoAdjLimit(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

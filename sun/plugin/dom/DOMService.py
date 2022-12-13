@@ -1,8 +1,6 @@
 def invokeAndWait():
-'''public Object invokeAndWait(final DOMAction domAction)
-'''
-pass
+    '''    public Object invokeAndWait(final DOMAction domAction)
+    '''
 def invokeLater():
-'''public void invokeLater(final DOMAction domAction)
-'''
-pass
+    '''    public void invokeLater(final DOMAction domAction)
+    '''

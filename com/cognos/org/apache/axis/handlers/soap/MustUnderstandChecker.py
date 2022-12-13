@@ -1,8 +1,6 @@
 def MustUnderstandChecker():
-'''public MustUnderstandChecker(final SOAPService service)
-'''
-pass
+    '''    public MustUnderstandChecker(final SOAPService service)
+    '''
 def invoke():
-'''public void invoke(final MessageContext msgContext)
-'''
-pass
+    '''    public void invoke(final MessageContext msgContext)
+    '''

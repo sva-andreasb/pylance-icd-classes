@@ -1,20 +1,15 @@
 def getProxyHost():
-'''public String getProxyHost()
-'''
-pass
+    '''    public String getProxyHost()
+    '''
 def getNonProxyHosts():
-'''public String getNonProxyHosts()
-'''
-pass
+    '''    public String getNonProxyHosts()
+    '''
 def getProxyPort():
-'''public String getProxyPort()
-'''
-pass
+    '''    public String getProxyPort()
+    '''
 def getProxyUser():
-'''public String getProxyUser()
-'''
-pass
+    '''    public String getProxyUser()
+    '''
 def getProxyPassword():
-'''public String getProxyPassword()
-'''
-pass
+    '''    public String getProxyPassword()
+    '''

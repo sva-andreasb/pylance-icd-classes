@@ -1,68 +1,52 @@
 def BasicHttpClientConnectionManager():
-'''public BasicHttpClientConnectionManager(final Lookup<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final SchemePortResolver schemePortResolver, final DnsResolver dnsResolver)
-public BasicHttpClientConnectionManager(final HttpClientConnectionOperator httpClientConnectionOperator, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)
-public BasicHttpClientConnectionManager(final Lookup<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)
-public BasicHttpClientConnectionManager(final Lookup<ConnectionSocketFactory> socketFactoryRegistry)
-public BasicHttpClientConnectionManager()
-'''
-pass
+    '''    public BasicHttpClientConnectionManager(final Lookup<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory, final SchemePortResolver schemePortResolver, final DnsResolver dnsResolver)
+    public BasicHttpClientConnectionManager(final HttpClientConnectionOperator httpClientConnectionOperator, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)
+    public BasicHttpClientConnectionManager(final Lookup<ConnectionSocketFactory> socketFactoryRegistry, final HttpConnectionFactory<HttpRoute, ManagedHttpClientConnection> connFactory)
+    public BasicHttpClientConnectionManager(final Lookup<ConnectionSocketFactory> socketFactoryRegistry)
+    public BasicHttpClientConnectionManager()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getSocketConfig():
-'''public synchronized SocketConfig getSocketConfig()
-'''
-pass
+    '''    public synchronized SocketConfig getSocketConfig()
+    '''
 def setSocketConfig():
-'''public synchronized void setSocketConfig(final SocketConfig socketConfig)
-'''
-pass
+    '''    public synchronized void setSocketConfig(final SocketConfig socketConfig)
+    '''
 def getConnectionConfig():
-'''public synchronized ConnectionConfig getConnectionConfig()
-'''
-pass
+    '''    public synchronized ConnectionConfig getConnectionConfig()
+    '''
 def setConnectionConfig():
-'''public synchronized void setConnectionConfig(final ConnectionConfig connConfig)
-'''
-pass
+    '''    public synchronized void setConnectionConfig(final ConnectionConfig connConfig)
+    '''
 def requestConnection():
-'''public final ConnectionRequest requestConnection(final HttpRoute route, final Object state)
-'''
-pass
+    '''    public final ConnectionRequest requestConnection(final HttpRoute route, final Object state)
+    '''
 def cancel():
-'''public boolean cancel()
-'''
-pass
+    '''    public boolean cancel()
+    '''
 def get():
-'''public HttpClientConnection get(final long timeout, final TimeUnit tunit)
-'''
-pass
+    '''    public HttpClientConnection get(final long timeout, final TimeUnit tunit)
+    '''
 def releaseConnection():
-'''public synchronized void releaseConnection(final HttpClientConnection conn, final Object state, final long keepalive, final TimeUnit tunit)
-'''
-pass
+    '''    public synchronized void releaseConnection(final HttpClientConnection conn, final Object state, final long keepalive, final TimeUnit tunit)
+    '''
 def connect():
-'''public void connect(final HttpClientConnection conn, final HttpRoute route, final int connectTimeout, final HttpContext context)
-'''
-pass
+    '''    public void connect(final HttpClientConnection conn, final HttpRoute route, final int connectTimeout, final HttpContext context)
+    '''
 def upgrade():
-'''public void upgrade(final HttpClientConnection conn, final HttpRoute route, final HttpContext context)
-'''
-pass
+    '''    public void upgrade(final HttpClientConnection conn, final HttpRoute route, final HttpContext context)
+    '''
 def routeComplete():
-'''public void routeComplete(final HttpClientConnection conn, final HttpRoute route, final HttpContext context)
-'''
-pass
+    '''    public void routeComplete(final HttpClientConnection conn, final HttpRoute route, final HttpContext context)
+    '''
 def closeExpiredConnections():
-'''public synchronized void closeExpiredConnections()
-'''
-pass
+    '''    public synchronized void closeExpiredConnections()
+    '''
 def closeIdleConnections():
-'''public synchronized void closeIdleConnections(final long idletime, final TimeUnit tunit)
-'''
-pass
+    '''    public synchronized void closeIdleConnections(final long idletime, final TimeUnit tunit)
+    '''
 def shutdown():
-'''public synchronized void shutdown()
-'''
-pass
+    '''    public synchronized void shutdown()
+    '''

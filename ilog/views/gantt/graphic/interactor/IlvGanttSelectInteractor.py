@@ -3,42 +3,32 @@ HORIZONTAL = "int  1"
 VERTICAL = "int  2"
 AUTO_DETECT = "int  3"
 def IlvGanttSelectInteractor():
-'''public IlvGanttSelectInteractor()
-'''
-pass
+    '''    public IlvGanttSelectInteractor()
+    '''
 def getMovementAxis():
-'''public int getMovementAxis()
-'''
-pass
+    '''    public int getMovementAxis()
+    '''
 def setMovementAxis():
-'''public void setMovementAxis(final int e)
-'''
-pass
+    '''    public void setMovementAxis(final int e)
+    '''
 def isMovementDetectionEnabled():
-'''public boolean isMovementDetectionEnabled()
-'''
-pass
+    '''    public boolean isMovementDetectionEnabled()
+    '''
 def setMovementDetectionEnabled():
-'''public void setMovementDetectionEnabled(final boolean b)
-'''
-pass
+    '''    public void setMovementDetectionEnabled(final boolean b)
+    '''
 def getReservationDuplicationModifier():
-'''public int getReservationDuplicationModifier()
-'''
-pass
+    '''    public int getReservationDuplicationModifier()
+    '''
 def getReservationDuplicationModifierEx():
-'''public final int getReservationDuplicationModifierEx()
-'''
-pass
+    '''    public final int getReservationDuplicationModifierEx()
+    '''
 def setReservationDuplicationModifier():
-'''public void setReservationDuplicationModifier(final int b)
-'''
-pass
+    '''    public void setReservationDuplicationModifier(final int b)
+    '''
 def isDuplicationAllowed():
-'''public boolean isDuplicationAllowed()
-'''
-pass
+    '''    public boolean isDuplicationAllowed()
+    '''
 def setDuplicationAllowed():
-'''public void setDuplicationAllowed(final boolean d)
-'''
-pass
+    '''    public void setDuplicationAllowed(final boolean d)
+    '''

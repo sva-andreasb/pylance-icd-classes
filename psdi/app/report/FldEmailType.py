@@ -1,12 +1,9 @@
 def FldEmailType():
-'''public FldEmailType(final MboValue mbv)
-'''
-pass
+    '''    public FldEmailType(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

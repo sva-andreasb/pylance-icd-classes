@@ -1,8 +1,6 @@
 def FldNotifType():
-'''public FldNotifType(final MboValue mbv)
-'''
-pass
+    '''    public FldNotifType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,16 +1,12 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def deleteassign():
-'''public int deleteassign()
-'''
-pass
+    '''    public int deleteassign()
+    '''
 def viewactive():
-'''public int viewactive()
-'''
-pass
+    '''    public int viewactive()
+    '''
 def workflowstop():
-'''public int workflowstop()
-'''
-pass
+    '''    public int workflowstop()
+    '''

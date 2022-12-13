@@ -1,80 +1,60 @@
 def getRowIndex():
-'''public int getRowIndex()
-'''
-pass
+    '''    public int getRowIndex()
+    '''
 def setRowIndex():
-'''public void setRowIndex(final int n)
-'''
-pass
+    '''    public void setRowIndex(final int n)
+    '''
 def getSectionRowIndex():
-'''public int getSectionRowIndex()
-'''
-pass
+    '''    public int getSectionRowIndex()
+    '''
 def setSectionRowIndex():
-'''public void setSectionRowIndex(final int n)
-'''
-pass
+    '''    public void setSectionRowIndex(final int n)
+    '''
 def getCells():
-'''public HTMLCollection getCells()
-'''
-pass
+    '''    public HTMLCollection getCells()
+    '''
 def setCells():
-'''public void setCells(final HTMLCollection collection)
-'''
-pass
+    '''    public void setCells(final HTMLCollection collection)
+    '''
 def insertCell():
-'''public HTMLElement insertCell(int n)
-'''
-pass
+    '''    public HTMLElement insertCell(int n)
+    '''
 def deleteCell():
-'''public void deleteCell(int n)
-'''
-pass
+    '''    public void deleteCell(int n)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getBgColor():
-'''public String getBgColor()
-'''
-pass
+    '''    public String getBgColor()
+    '''
 def setBgColor():
-'''public void setBgColor(final String s)
-'''
-pass
+    '''    public void setBgColor(final String s)
+    '''
 def getCh():
-'''public String getCh()
-'''
-pass
+    '''    public String getCh()
+    '''
 def setCh():
-'''public void setCh(String substring)
-'''
-pass
+    '''    public void setCh(String substring)
+    '''
 def getChOff():
-'''public String getChOff()
-'''
-pass
+    '''    public String getChOff()
+    '''
 def setChOff():
-'''public void setChOff(final String s)
-'''
-pass
+    '''    public void setChOff(final String s)
+    '''
 def getVAlign():
-'''public String getVAlign()
-'''
-pass
+    '''    public String getVAlign()
+    '''
 def setVAlign():
-'''public void setVAlign(final String s)
-'''
-pass
+    '''    public void setVAlign(final String s)
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def HTMLTableRowElementImpl():
-'''public HTMLTableRowElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLTableRowElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

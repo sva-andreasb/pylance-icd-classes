@@ -1,12 +1,9 @@
 def FldWpToolLocation():
-'''public FldWpToolLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldWpToolLocation(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

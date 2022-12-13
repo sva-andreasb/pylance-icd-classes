@@ -1,120 +1,90 @@
 def getClientEventCtrl():
-'''public MapControlClientEvent getClientEventCtrl()
-'''
-pass
+    '''    public MapControlClientEvent getClientEventCtrl()
+    '''
 def OpenMapControl():
-'''public OpenMapControl()
-'''
-pass
+    '''    public OpenMapControl()
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def isContextPersistent():
-'''public Boolean isContextPersistent()
-'''
-pass
+    '''    public Boolean isContextPersistent()
+    '''
 def getZoomLevel():
-'''public String getZoomLevel()
-'''
-pass
+    '''    public String getZoomLevel()
+    '''
 def isMapViewOnly():
-'''public Boolean isMapViewOnly()
-'''
-pass
+    '''    public Boolean isMapViewOnly()
+    '''
 def getInitialX():
-'''public Double getInitialX()
-'''
-pass
+    '''    public Double getInitialX()
+    '''
 def getInitialY():
-'''public Double getInitialY()
-'''
-pass
+    '''    public Double getInitialY()
+    '''
 def isMobile():
-'''public boolean isMobile()
-'''
-pass
+    '''    public boolean isMobile()
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def getRefreshMapInterval():
-'''public String getRefreshMapInterval()
-'''
-pass
+    '''    public String getRefreshMapInterval()
+    '''
 def getMapConfiguration():
-'''public JSONObject getMapConfiguration()
-'''
-pass
+    '''    public JSONObject getMapConfiguration()
+    '''
 def loadGISMapConfiguration():
-'''public void loadGISMapConfiguration()
-'''
-pass
+    '''    public void loadGISMapConfiguration()
+    '''
 def storeUserLocation():
-'''public int storeUserLocation()
-'''
-pass
+    '''    public int storeUserLocation()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getCurrentState():
-'''public JSONArray getCurrentState()
-'''
-pass
+    '''    public JSONArray getCurrentState()
+    '''
 def getCurrentRecordData():
-'''public JSONObject getCurrentRecordData()
-'''
-pass
+    '''    public JSONObject getCurrentRecordData()
+    '''
 def getMainRecordMbo():
-'''public MboRemote getMainRecordMbo()
-'''
-pass
+    '''    public MboRemote getMainRecordMbo()
+    '''
 def showMaxMessage():
-'''public int showMaxMessage()
-'''
-pass
+    '''    public int showMaxMessage()
+    '''
 def showErrorsParamObject():
-'''public int showErrorsParamObject()
-'''
-pass
+    '''    public int showErrorsParamObject()
+    '''
 def showErrors():
-'''public int showErrors()
-'''
-pass
+    '''    public int showErrors()
+    '''
 def createMapCallback():
-'''public void createMapCallback(final String actionName, final JSONObject data)
-'''
-pass
+    '''    public void createMapCallback(final String actionName, final JSONObject data)
+    '''
 def addRecordsToLayer():
-'''public void addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)
-'''
-pass
+    '''    public void addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)
+    '''
 def addEventToMap():
-'''public void addEventToMap(final String eventName, final JSONObject action)
-'''
-pass
+    '''    public void addEventToMap(final String eventName, final JSONObject action)
+    '''
 def removeRecordsFromLayer():
-'''public void removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)
+    '''
 def removeCommentsFromJson():
-'''public static String removeCommentsFromJson(final String isStr)
-'''
-pass
+    '''    public static String removeCommentsFromJson(final String isStr)
+    '''
 def clearNextEventData():
-'''public void clearNextEventData()
-'''
-pass
+    '''    public void clearNextEventData()
+    '''
 def getOpenMapReturnAttribute():
-'''public String getOpenMapReturnAttribute()
-'''
-pass
+    '''    public String getOpenMapReturnAttribute()
+    '''
 def getOriginalApp():
-'''public String getOriginalApp(final String app)
-'''
-pass
+    '''    public String getOriginalApp(final String app)
+    '''
 def pushMapControlClientEventHandler():
-'''public int pushMapControlClientEventHandler()
-'''
-pass
+    '''    public int pushMapControlClientEventHandler()
+    '''

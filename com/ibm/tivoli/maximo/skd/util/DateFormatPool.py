@@ -1,4 +1,3 @@
 def DateFormatPool():
-'''public DateFormatPool(final String pattern)
-'''
-pass
+    '''    public DateFormatPool(final String pattern)
+    '''

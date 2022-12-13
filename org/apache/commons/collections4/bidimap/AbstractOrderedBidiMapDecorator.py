@@ -1,24 +1,18 @@
 def mapIterator():
-'''public OrderedMapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public OrderedMapIterator<K, V> mapIterator()
+    '''
 def firstKey():
-'''public K firstKey()
-'''
-pass
+    '''    public K firstKey()
+    '''
 def lastKey():
-'''public K lastKey()
-'''
-pass
+    '''    public K lastKey()
+    '''
 def nextKey():
-'''public K nextKey(final K key)
-'''
-pass
+    '''    public K nextKey(final K key)
+    '''
 def previousKey():
-'''public K previousKey(final K key)
-'''
-pass
+    '''    public K previousKey(final K key)
+    '''
 def inverseBidiMap():
-'''public OrderedBidiMap<V, K> inverseBidiMap()
-'''
-pass
+    '''    public OrderedBidiMap<V, K> inverseBidiMap()
+    '''

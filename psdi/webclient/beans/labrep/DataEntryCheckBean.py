@@ -1,12 +1,9 @@
 def bylaborcheckaclabor():
-'''public int bylaborcheckaclabor()
-'''
-pass
+    '''    public int bylaborcheckaclabor()
+    '''
 def wocheckaclaborwo():
-'''public int wocheckaclaborwo()
-'''
-pass
+    '''    public int wocheckaclaborwo()
+    '''
 def wocheckselectlaboronactuals():
-'''public int wocheckselectlaboronactuals()
-'''
-pass
+    '''    public int wocheckselectlaboronactuals()
+    '''

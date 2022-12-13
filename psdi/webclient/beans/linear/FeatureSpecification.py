@@ -1,8 +1,6 @@
 def FeatureSpecification():
-'''public FeatureSpecification(final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final DataSet parent)
-'''
-pass
+    '''    public FeatureSpecification(final LinearClientSession session, final MboRemote parentMbo, final DataSetInfo setInfo, final DataSet parent)
+    '''
 def resolveMboSet():
-'''public void resolveMboSet()
-'''
-pass
+    '''    public void resolveMboSet()
+    '''

@@ -1,33 +1,25 @@
 def AuditLevelEnumProp():
-'''public AuditLevelEnumProp()
-public AuditLevelEnumProp(final SchemaInfo schemaInfo, final AuditLevelEnum value)
-'''
-pass
+    '''    public AuditLevelEnumProp()
+    public AuditLevelEnumProp(final SchemaInfo schemaInfo, final AuditLevelEnum value)
+    '''
 def getValue():
-'''public AuditLevelEnum getValue()
-'''
-pass
+    '''    public AuditLevelEnum getValue()
+    '''
 def setValue():
-'''public void setValue(final AuditLevelEnum value)
-'''
-pass
+    '''    public void setValue(final AuditLevelEnum value)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

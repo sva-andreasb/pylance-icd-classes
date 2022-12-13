@@ -1,4 +1,3 @@
 def DMMapDef():
-'''public DMMapDef(final MboSet ms)
-'''
-pass
+    '''    public DMMapDef(final MboSet ms)
+    '''

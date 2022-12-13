@@ -1,8 +1,6 @@
 def JSONResourceAPI():
-'''public JSONResourceAPI(final MboSet ms)
-'''
-pass
+    '''    public JSONResourceAPI(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

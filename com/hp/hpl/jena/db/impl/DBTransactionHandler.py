@@ -1,20 +1,15 @@
 def DBTransactionHandler():
-'''public DBTransactionHandler(final IRDBDriver driver, final GraphRDB graphRDB)
-'''
-pass
+    '''    public DBTransactionHandler(final IRDBDriver driver, final GraphRDB graphRDB)
+    '''
 def transactionsSupported():
-'''public boolean transactionsSupported()
-'''
-pass
+    '''    public boolean transactionsSupported()
+    '''
 def begin():
-'''public void begin()
-'''
-pass
+    '''    public void begin()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

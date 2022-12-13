@@ -1,12 +1,9 @@
 def getInstance():
-'''public static IfaceTables getInstance()
-'''
-pass
+    '''    public static IfaceTables getInstance()
+    '''
 def getIfaceTablesMap():
-'''public HashMap getIfaceTablesMap()
-'''
-pass
+    '''    public HashMap getIfaceTablesMap()
+    '''
 def setIfaceTablesMap():
-'''public void setIfaceTablesMap(final String table, final ArrayList columns)
-'''
-pass
+    '''    public void setIfaceTablesMap(final String table, final ArrayList columns)
+    '''

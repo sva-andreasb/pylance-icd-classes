@@ -1,8 +1,6 @@
 def IoTFeedMapNPSet():
-'''public IoTFeedMapNPSet(final MboServerInterface ms)
-'''
-pass
+    '''    public IoTFeedMapNPSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

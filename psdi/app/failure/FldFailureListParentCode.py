@@ -1,8 +1,6 @@
 def FldFailureListParentCode():
-'''public FldFailureListParentCode(final MboValue mbv)
-'''
-pass
+    '''    public FldFailureListParentCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

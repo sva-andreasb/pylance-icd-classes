@@ -1,12 +1,9 @@
 def FldWOReportedByID():
-'''public FldWOReportedByID(final MboValue mbv)
-'''
-pass
+    '''    public FldWOReportedByID(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

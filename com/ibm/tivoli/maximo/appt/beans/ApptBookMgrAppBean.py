@@ -1,8 +1,6 @@
 def APPLYWINS():
-'''public int APPLYWINS()
-'''
-pass
+    '''    public int APPLYWINS()
+    '''
 def DUPLICATEWORKZONE():
-'''public int DUPLICATEWORKZONE()
-'''
-pass
+    '''    public int DUPLICATEWORKZONE()
+    '''

@@ -1,8 +1,6 @@
 def FldInvUseLinePoLineNum():
-'''public FldInvUseLinePoLineNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUseLinePoLineNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

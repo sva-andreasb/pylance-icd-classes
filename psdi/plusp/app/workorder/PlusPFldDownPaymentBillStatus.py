@@ -1,4 +1,3 @@
 def PlusPFldDownPaymentBillStatus():
-'''public PlusPFldDownPaymentBillStatus(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldDownPaymentBillStatus(final MboValue mv)
+    '''

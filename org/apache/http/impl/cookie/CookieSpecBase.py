@@ -1,12 +1,9 @@
 def CookieSpecBase():
-'''public CookieSpecBase()
-'''
-pass
+    '''    public CookieSpecBase()
+    '''
 def validate():
-'''public void validate(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''
 def match():
-'''public boolean match(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''

@@ -1,218 +1,164 @@
 def XDGFShape():
-'''public XDGFShape(final ShapeSheetType shapeSheet, final XDGFBaseContents parentPage, final XDGFDocument document)
-public XDGFShape(final XDGFShape parent, final ShapeSheetType shapeSheet, final XDGFBaseContents parentPage, final XDGFDocument document)
-'''
-pass
+    '''    public XDGFShape(final ShapeSheetType shapeSheet, final XDGFBaseContents parentPage, final XDGFDocument document)
+    public XDGFShape(final XDGFShape parent, final ShapeSheetType shapeSheet, final XDGFBaseContents parentPage, final XDGFDocument document)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getXmlObject():
-'''public ShapeSheetType getXmlObject()
-'''
-pass
+    '''    public ShapeSheetType getXmlObject()
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getTextAsString():
-'''public String getTextAsString()
-'''
-pass
+    '''    public String getTextAsString()
+    '''
 def hasText():
-'''public boolean hasText()
-'''
-pass
+    '''    public boolean hasText()
+    '''
 def getCell():
-'''public XDGFCell getCell(final String cellName)
-'''
-pass
+    '''    public XDGFCell getCell(final String cellName)
+    '''
 def getGeometryByIdx():
-'''public GeometrySection getGeometryByIdx(final long idx)
-'''
-pass
+    '''    public GeometrySection getGeometryByIdx(final long idx)
+    '''
 def getShapes():
-'''public List<XDGFShape> getShapes()
-'''
-pass
+    '''    public List<XDGFShape> getShapes()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getShapeType():
-'''public String getShapeType()
-'''
-pass
+    '''    public String getShapeType()
+    '''
 def getSymbolName():
-'''public String getSymbolName()
-'''
-pass
+    '''    public String getSymbolName()
+    '''
 def getMasterShape():
-'''public XDGFShape getMasterShape()
-'''
-pass
+    '''    public XDGFShape getMasterShape()
+    '''
 def getParentShape():
-'''public XDGFShape getParentShape()
-'''
-pass
+    '''    public XDGFShape getParentShape()
+    '''
 def getTopmostParentShape():
-'''public XDGFShape getTopmostParentShape()
-'''
-pass
+    '''    public XDGFShape getTopmostParentShape()
+    '''
 def hasMaster():
-'''public boolean hasMaster()
-'''
-pass
+    '''    public boolean hasMaster()
+    '''
 def hasMasterShape():
-'''public boolean hasMasterShape()
-'''
-pass
+    '''    public boolean hasMasterShape()
+    '''
 def hasParent():
-'''public boolean hasParent()
-'''
-pass
+    '''    public boolean hasParent()
+    '''
 def hasShapes():
-'''public boolean hasShapes()
-'''
-pass
+    '''    public boolean hasShapes()
+    '''
 def isTopmost():
-'''public boolean isTopmost()
-'''
-pass
+    '''    public boolean isTopmost()
+    '''
 def isShape1D():
-'''public boolean isShape1D()
-'''
-pass
+    '''    public boolean isShape1D()
+    '''
 def isDeleted():
-'''public boolean isDeleted()
-'''
-pass
+    '''    public boolean isDeleted()
+    '''
 def getText():
-'''public XDGFText getText()
-'''
-pass
+    '''    public XDGFText getText()
+    '''
 def getPinX():
-'''public Double getPinX()
-'''
-pass
+    '''    public Double getPinX()
+    '''
 def getPinY():
-'''public Double getPinY()
-'''
-pass
+    '''    public Double getPinY()
+    '''
 def getWidth():
-'''public Double getWidth()
-'''
-pass
+    '''    public Double getWidth()
+    '''
 def getHeight():
-'''public Double getHeight()
-'''
-pass
+    '''    public Double getHeight()
+    '''
 def getLocPinX():
-'''public Double getLocPinX()
-'''
-pass
+    '''    public Double getLocPinX()
+    '''
 def getLocPinY():
-'''public Double getLocPinY()
-'''
-pass
+    '''    public Double getLocPinY()
+    '''
 def getBeginX():
-'''public Double getBeginX()
-'''
-pass
+    '''    public Double getBeginX()
+    '''
 def getBeginY():
-'''public Double getBeginY()
-'''
-pass
+    '''    public Double getBeginY()
+    '''
 def getEndX():
-'''public Double getEndX()
-'''
-pass
+    '''    public Double getEndX()
+    '''
 def getEndY():
-'''public Double getEndY()
-'''
-pass
+    '''    public Double getEndY()
+    '''
 def getAngle():
-'''public Double getAngle()
-'''
-pass
+    '''    public Double getAngle()
+    '''
 def getFlipX():
-'''public Boolean getFlipX()
-'''
-pass
+    '''    public Boolean getFlipX()
+    '''
 def getFlipY():
-'''public Boolean getFlipY()
-'''
-pass
+    '''    public Boolean getFlipY()
+    '''
 def getTxtPinX():
-'''public Double getTxtPinX()
-'''
-pass
+    '''    public Double getTxtPinX()
+    '''
 def getTxtPinY():
-'''public Double getTxtPinY()
-'''
-pass
+    '''    public Double getTxtPinY()
+    '''
 def getTxtLocPinX():
-'''public Double getTxtLocPinX()
-'''
-pass
+    '''    public Double getTxtLocPinX()
+    '''
 def getTxtLocPinY():
-'''public Double getTxtLocPinY()
-'''
-pass
+    '''    public Double getTxtLocPinY()
+    '''
 def getTxtAngle():
-'''public Double getTxtAngle()
-'''
-pass
+    '''    public Double getTxtAngle()
+    '''
 def getTxtWidth():
-'''public Double getTxtWidth()
-'''
-pass
+    '''    public Double getTxtWidth()
+    '''
 def getTxtHeight():
-'''public Double getTxtHeight()
-'''
-pass
+    '''    public Double getTxtHeight()
+    '''
 def getLineCap():
-'''public Integer getLineCap()
-'''
-pass
+    '''    public Integer getLineCap()
+    '''
 def getLineColor():
-'''public Color getLineColor()
-'''
-pass
+    '''    public Color getLineColor()
+    '''
 def getLinePattern():
-'''public Integer getLinePattern()
-'''
-pass
+    '''    public Integer getLinePattern()
+    '''
 def getLineWeight():
-'''public Double getLineWeight()
-'''
-pass
+    '''    public Double getLineWeight()
+    '''
 def getFontColor():
-'''public Color getFontColor()
-'''
-pass
+    '''    public Color getFontColor()
+    '''
 def getFontSize():
-'''public Double getFontSize()
-'''
-pass
+    '''    public Double getFontSize()
+    '''
 def getStroke():
-'''public Stroke getStroke()
-'''
-pass
+    '''    public Stroke getStroke()
+    '''
 def getGeometrySections():
-'''public Iterable<GeometrySection> getGeometrySections()
-'''
-pass
+    '''    public Iterable<GeometrySection> getGeometrySections()
+    '''
 def hasGeometry():
-'''public boolean hasGeometry()
-'''
-pass
+    '''    public boolean hasGeometry()
+    '''
 def visitShapes():
-'''public void visitShapes(final ShapeVisitor visitor, AffineTransform tr, final int level)
-public void visitShapes(final ShapeVisitor visitor, final int level)
-'''
-pass
+    '''    public void visitShapes(final ShapeVisitor visitor, AffineTransform tr, final int level)
+    public void visitShapes(final ShapeVisitor visitor, final int level)
+    '''

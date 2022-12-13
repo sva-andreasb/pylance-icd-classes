@@ -1,40 +1,30 @@
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''

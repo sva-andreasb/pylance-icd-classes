@@ -1,48 +1,36 @@
 def SelectionCriteriaImpl():
-'''public SelectionCriteriaImpl(final Identity identity, final Map map)
-'''
-pass
+    '''    public SelectionCriteriaImpl(final Identity identity, final Map map)
+    '''
 def getIdentity():
-'''public Identity getIdentity()
-'''
-pass
+    '''    public Identity getIdentity()
+    '''
 def getAttributes():
-'''public Map getAttributes()
-'''
-pass
+    '''    public Map getAttributes()
+    '''
 def match():
-'''public void match(final List modifiedMembers)
-'''
-pass
+    '''    public void match(final List modifiedMembers)
+    '''
 def select():
-'''public Target select()
-'''
-pass
+    '''    public Target select()
+    '''
 def isAffinityKeyPresent():
-'''public boolean isAffinityKeyPresent()
-'''
-pass
+    '''    public boolean isAffinityKeyPresent()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def handleNotification():
-'''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
-'''
-pass
+    '''    public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getTargetFromIdentity():
-'''public TargetImpl getTargetFromIdentity(final ArrayList<Identity> clusters, final ClusterMemberDescription memberDescription)
-'''
-pass
+    '''    public TargetImpl getTargetFromIdentity(final ArrayList<Identity> clusters, final ClusterMemberDescription memberDescription)
+    '''
 def getTargetsCached():
-'''public Collection<Target> getTargetsCached()
-'''
-pass
+    '''    public Collection<Target> getTargetsCached()
+    '''

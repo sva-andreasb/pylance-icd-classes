@@ -1,36 +1,27 @@
 def toString():
-'''public String toString(final String field)
-'''
-pass
+    '''    public String toString(final String field)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def visit():
-'''public void visit(final QueryVisitor visitor)
-'''
-pass
+    '''    public void visit(final QueryVisitor visitor)
+    '''
 def createWeight():
-'''public Weight createWeight(final IndexSearcher searcher, final ScoreMode scoreMode, final float boost)
-'''
-pass
+    '''    public Weight createWeight(final IndexSearcher searcher, final ScoreMode scoreMode, final float boost)
+    '''
 def scorer():
-'''public Scorer scorer(final LeafReaderContext context)
-'''
-pass
+    '''    public Scorer scorer(final LeafReaderContext context)
+    '''
 def matches():
-'''public boolean matches()
-'''
-pass
+    '''    public boolean matches()
+    '''
 def matchCost():
-'''public float matchCost()
-'''
-pass
+    '''    public float matchCost()
+    '''
 def isCacheable():
-'''public boolean isCacheable(final LeafReaderContext ctx)
-'''
-pass
+    '''    public boolean isCacheable(final LeafReaderContext ctx)
+    '''

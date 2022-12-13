@@ -1,16 +1,12 @@
 def CommandAssistanceNotifier():
-'''public CommandAssistanceNotifier(final String commandArg, final String descriptionArg)
-'''
-pass
+    '''    public CommandAssistanceNotifier(final String commandArg, final String descriptionArg)
+    '''
 def getCommand():
-'''public String getCommand()
-'''
-pass
+    '''    public String getCommand()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

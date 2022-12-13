@@ -1,21 +1,16 @@
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-public String toString(final ConstantPool cp)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    public String toString(final ConstantPool cp)
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def setIndex():
-'''public void setIndex(final int index)
-'''
-pass
+    '''    public void setIndex(final int index)
+    '''
 def getType():
-'''public Type getType(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cpg)
+    '''

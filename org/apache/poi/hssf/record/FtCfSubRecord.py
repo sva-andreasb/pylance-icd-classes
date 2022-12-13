@@ -4,31 +4,24 @@ METAFILE_BIT = "short  2"
 BITMAP_BIT = "short  9"
 UNSPECIFIED_BIT = "short  -1"
 def FtCfSubRecord():
-'''public FtCfSubRecord()
-public FtCfSubRecord(final LittleEndianInput in, final int size)
-'''
-pass
+    '''    public FtCfSubRecord()
+    public FtCfSubRecord(final LittleEndianInput in, final int size)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public FtCfSubRecord clone()
-'''
-pass
+    '''    public FtCfSubRecord clone()
+    '''
 def getFlags():
-'''public short getFlags()
-'''
-pass
+    '''    public short getFlags()
+    '''
 def setFlags():
-'''public void setFlags(final short flags)
-'''
-pass
+    '''    public void setFlags(final short flags)
+    '''

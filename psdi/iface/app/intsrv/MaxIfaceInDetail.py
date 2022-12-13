@@ -1,24 +1,18 @@
 def MaxIfaceInDetail():
-'''public MaxIfaceInDetail(final MboSet ms)
-'''
-pass
+    '''    public MaxIfaceInDetail(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def checkUniqueEntries():
-'''public void checkUniqueEntries()
-'''
-pass
+    '''    public void checkUniqueEntries()
+    '''

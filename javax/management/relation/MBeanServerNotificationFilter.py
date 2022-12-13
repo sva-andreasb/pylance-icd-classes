@@ -1,32 +1,24 @@
 def MBeanServerNotificationFilter():
-'''public MBeanServerNotificationFilter()
-'''
-pass
+    '''    public MBeanServerNotificationFilter()
+    '''
 def disableAllObjectNames():
-'''public synchronized void disableAllObjectNames()
-'''
-pass
+    '''    public synchronized void disableAllObjectNames()
+    '''
 def enableAllObjectNames():
-'''public synchronized void enableAllObjectNames()
-'''
-pass
+    '''    public synchronized void enableAllObjectNames()
+    '''
 def getDisabledObjectNames():
-'''public synchronized Vector getDisabledObjectNames()
-'''
-pass
+    '''    public synchronized Vector getDisabledObjectNames()
+    '''
 def getEnabledObjectNames():
-'''public synchronized Vector getEnabledObjectNames()
-'''
-pass
+    '''    public synchronized Vector getEnabledObjectNames()
+    '''
 def isNotificationEnabled():
-'''public synchronized boolean isNotificationEnabled(final Notification notification)
-'''
-pass
+    '''    public synchronized boolean isNotificationEnabled(final Notification notification)
+    '''
 def disableObjectName():
-'''public synchronized void disableObjectName(final ObjectName objectName)
-'''
-pass
+    '''    public synchronized void disableObjectName(final ObjectName objectName)
+    '''
 def enableObjectName():
-'''public synchronized void enableObjectName(final ObjectName objectName)
-'''
-pass
+    '''    public synchronized void enableObjectName(final ObjectName objectName)
+    '''

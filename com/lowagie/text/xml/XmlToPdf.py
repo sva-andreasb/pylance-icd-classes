@@ -1,9 +1,7 @@
 def XmlToPdf():
-'''public XmlToPdf()
-public XmlToPdf(final String pageSize)
-'''
-pass
+    '''    public XmlToPdf()
+    public XmlToPdf(final String pageSize)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

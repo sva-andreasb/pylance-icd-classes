@@ -1,20 +1,15 @@
 def Pool():
-'''public Pool()
-'''
-pass
+    '''    public Pool()
+    '''
 def valid():
-'''public boolean valid()
-'''
-pass
+    '''    public boolean valid()
+    '''
 def evoke():
-'''public Poolable evoke()
-'''
-pass
+    '''    public Poolable evoke()
+    '''
 def reclaim():
-'''public void reclaim(final int nextProbable)
-'''
-pass
+    '''    public void reclaim(final int nextProbable)
+    '''
 def init():
-'''public boolean init(final Class elementClass, final int poolSize)
-'''
-pass
+    '''    public boolean init(final Class elementClass, final int poolSize)
+    '''

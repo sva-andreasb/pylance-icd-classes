@@ -1,25 +1,19 @@
 def MutableObject():
-'''public MutableObject()
-public MutableObject(final T value)
-'''
-pass
+    '''    public MutableObject()
+    public MutableObject(final T value)
+    '''
 def getValue():
-'''public T getValue()
-'''
-pass
+    '''    public T getValue()
+    '''
 def setValue():
-'''public void setValue(final T value)
-'''
-pass
+    '''    public void setValue(final T value)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

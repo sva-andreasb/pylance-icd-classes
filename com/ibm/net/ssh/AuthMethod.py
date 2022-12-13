@@ -1,28 +1,21 @@
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def getPublicKeyFile():
-'''public PublicKeyFile getPublicKeyFile()
-'''
-pass
+    '''    public PublicKeyFile getPublicKeyFile()
+    '''
 def isPublicKeyCopied():
-'''public boolean isPublicKeyCopied()
-'''
-pass
+    '''    public boolean isPublicKeyCopied()
+    '''
 def isAuthenticated():
-'''public boolean isAuthenticated()
-'''
-pass
+    '''    public boolean isAuthenticated()
+    '''
 def isPartialSuccess():
-'''public boolean isPartialSuccess()
-'''
-pass
+    '''    public boolean isPartialSuccess()
+    '''
 def getAuthentications():
-'''public String[] getAuthentications()
-'''
-pass
+    '''    public String[] getAuthentications()
+    '''
 def getBannerMessage():
-'''public String getBannerMessage()
-'''
-pass
+    '''    public String getBannerMessage()
+    '''

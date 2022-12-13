@@ -1,20 +1,15 @@
 def UnicastSocketTimeout():
-'''public UnicastSocketTimeout(final int timeout)
-'''
-pass
+    '''    public UnicastSocketTimeout(final int timeout)
+    '''
 def getTimeout():
-'''public int getTimeout()
-'''
-pass
+    '''    public int getTimeout()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def FldErrQueue():
-'''public FldErrQueue(final MboValue mbv)
-'''
-pass
+    '''    public FldErrQueue(final MboValue mbv)
+    '''

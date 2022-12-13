@@ -1,45 +1,34 @@
 def FileDownloadInputStream():
-'''public FileDownloadInputStream()
-public FileDownloadInputStream(final File file)
-'''
-pass
+    '''    public FileDownloadInputStream()
+    public FileDownloadInputStream(final File file)
+    '''
 def getOptions():
-'''public FileTransferOptions getOptions()
-'''
-pass
+    '''    public FileTransferOptions getOptions()
+    '''
 def setOptions():
-'''public void setOptions(final FileTransferOptions options)
-'''
-pass
+    '''    public void setOptions(final FileTransferOptions options)
+    '''
 def getFileTransferConfig():
-'''public FileTransferConfig getFileTransferConfig()
-'''
-pass
+    '''    public FileTransferConfig getFileTransferConfig()
+    '''
 def setFileTransferConfig():
-'''public void setFileTransferConfig(final FileTransferConfig config)
-'''
-pass
+    '''    public void setFileTransferConfig(final FileTransferConfig config)
+    '''
 def setCompress():
-'''public void setCompress(final boolean compress)
-'''
-pass
+    '''    public void setCompress(final boolean compress)
+    '''
 def setDeleteSourceOnCompletion():
-'''public void setDeleteSourceOnCompletion(final boolean delete)
-'''
-pass
+    '''    public void setDeleteSourceOnCompletion(final boolean delete)
+    '''
 def isCompress():
-'''public boolean isCompress()
-'''
-pass
+    '''    public boolean isCompress()
+    '''
 def isDeleteSourceOnCompletion():
-'''public boolean isDeleteSourceOnCompletion()
-'''
-pass
+    '''    public boolean isDeleteSourceOnCompletion()
+    '''
 def connect():
-'''public void connect()
-'''
-pass
+    '''    public void connect()
+    '''
 def getStream():
-'''public InputStream getStream()
-'''
-pass
+    '''    public InputStream getStream()
+    '''

@@ -1,8 +1,6 @@
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def selectterms():
-'''public int selectterms()
-'''
-pass
+    '''    public int selectterms()
+    '''

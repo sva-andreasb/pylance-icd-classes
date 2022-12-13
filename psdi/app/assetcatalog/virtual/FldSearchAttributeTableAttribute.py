@@ -1,8 +1,6 @@
 def FldSearchAttributeTableAttribute():
-'''public FldSearchAttributeTableAttribute(final MboValue mbv)
-'''
-pass
+    '''    public FldSearchAttributeTableAttribute(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

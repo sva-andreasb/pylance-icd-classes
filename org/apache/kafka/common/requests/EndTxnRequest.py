@@ -1,48 +1,36 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def EndTxnRequest():
-'''public EndTxnRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public EndTxnRequest(final Struct struct, final short version)
+    '''
 def transactionalId():
-'''public String transactionalId()
-'''
-pass
+    '''    public String transactionalId()
+    '''
 def producerId():
-'''public long producerId()
-'''
-pass
+    '''    public long producerId()
+    '''
 def producerEpoch():
-'''public short producerEpoch()
-'''
-pass
+    '''    public short producerEpoch()
+    '''
 def command():
-'''public TransactionResult command()
-'''
-pass
+    '''    public TransactionResult command()
+    '''
 def getErrorResponse():
-'''public EndTxnResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public EndTxnResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def parse():
-'''public static EndTxnRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static EndTxnRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder(final String transactionalId, final long producerId, final short producerEpoch, final TransactionResult result)
-'''
-pass
+    '''    public Builder(final String transactionalId, final long producerId, final short producerEpoch, final TransactionResult result)
+    '''
 def result():
-'''public TransactionResult result()
-'''
-pass
+    '''    public TransactionResult result()
+    '''
 def build():
-'''public EndTxnRequest build(final short version)
-'''
-pass
+    '''    public EndTxnRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

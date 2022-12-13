@@ -1,4 +1,3 @@
 def PlusPBSItemListSet():
-'''public PlusPBSItemListSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPBSItemListSet(final MboServerInterface mboServerInterface)
+    '''

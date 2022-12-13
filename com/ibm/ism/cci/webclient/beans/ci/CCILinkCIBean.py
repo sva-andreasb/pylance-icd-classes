@@ -1,8 +1,6 @@
 def dolink():
-'''public int dolink()
-'''
-pass
+    '''    public int dolink()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

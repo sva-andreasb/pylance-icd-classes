@@ -1,4 +1,3 @@
 def FldWFAppToolbarSeq():
-'''public FldWFAppToolbarSeq(final MboValue mbv)
-'''
-pass
+    '''    public FldWFAppToolbarSeq(final MboValue mbv)
+    '''

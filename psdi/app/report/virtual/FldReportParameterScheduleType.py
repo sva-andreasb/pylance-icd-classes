@@ -1,8 +1,6 @@
 def FldReportParameterScheduleType():
-'''public FldReportParameterScheduleType(final MboValue mbv)
-'''
-pass
+    '''    public FldReportParameterScheduleType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

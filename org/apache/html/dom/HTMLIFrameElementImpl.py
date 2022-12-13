@@ -1,84 +1,63 @@
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getFrameBorder():
-'''public String getFrameBorder()
-'''
-pass
+    '''    public String getFrameBorder()
+    '''
 def setFrameBorder():
-'''public void setFrameBorder(final String s)
-'''
-pass
+    '''    public void setFrameBorder(final String s)
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final String s)
-'''
-pass
+    '''    public void setHeight(final String s)
+    '''
 def getLongDesc():
-'''public String getLongDesc()
-'''
-pass
+    '''    public String getLongDesc()
+    '''
 def setLongDesc():
-'''public void setLongDesc(final String s)
-'''
-pass
+    '''    public void setLongDesc(final String s)
+    '''
 def getMarginHeight():
-'''public String getMarginHeight()
-'''
-pass
+    '''    public String getMarginHeight()
+    '''
 def setMarginHeight():
-'''public void setMarginHeight(final String s)
-'''
-pass
+    '''    public void setMarginHeight(final String s)
+    '''
 def getMarginWidth():
-'''public String getMarginWidth()
-'''
-pass
+    '''    public String getMarginWidth()
+    '''
 def setMarginWidth():
-'''public void setMarginWidth(final String s)
-'''
-pass
+    '''    public void setMarginWidth(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getScrolling():
-'''public String getScrolling()
-'''
-pass
+    '''    public String getScrolling()
+    '''
 def setScrolling():
-'''public void setScrolling(final String s)
-'''
-pass
+    '''    public void setScrolling(final String s)
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''
 def setSrc():
-'''public void setSrc(final String s)
-'''
-pass
+    '''    public void setSrc(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''
 def HTMLIFrameElementImpl():
-'''public HTMLIFrameElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLIFrameElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

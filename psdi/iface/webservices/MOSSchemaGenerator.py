@@ -1,37 +1,28 @@
 def MOSSchemaGenerator():
-'''public MOSSchemaGenerator(final String mosName)
-public MOSSchemaGenerator(final String mosName, final Map<String, Element> schemaElements)
-'''
-pass
+    '''    public MOSSchemaGenerator(final String mosName)
+    public MOSSchemaGenerator(final String mosName, final Map<String, Element> schemaElements)
+    '''
 def generateSchema():
-'''public void generateSchema()
-'''
-pass
+    '''    public void generateSchema()
+    '''
 def getMosQueryElementName():
-'''public String getMosQueryElementName()
-'''
-pass
+    '''    public String getMosQueryElementName()
+    '''
 def getMosElementName():
-'''public String getMosElementName()
-'''
-pass
+    '''    public String getMosElementName()
+    '''
 def getMosSetElementName():
-'''public String getMosSetElementName()
-'''
-pass
+    '''    public String getMosSetElementName()
+    '''
 def getSchemaFolder():
-'''public File getSchemaFolder()
-'''
-pass
+    '''    public File getSchemaFolder()
+    '''
 def getSchemaFileName():
-'''public String getSchemaFileName()
-'''
-pass
+    '''    public String getSchemaFileName()
+    '''
 def getSchemaElementFor():
-'''public String getSchemaElementFor(final String identifier)
-'''
-pass
+    '''    public String getSchemaElementFor(final String identifier)
+    '''
 def getSchemaUrl():
-'''public String getSchemaUrl()
-'''
-pass
+    '''    public String getSchemaUrl()
+    '''

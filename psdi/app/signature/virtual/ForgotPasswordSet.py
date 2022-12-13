@@ -1,12 +1,9 @@
 def ForgotPasswordSet():
-'''public ForgotPasswordSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ForgotPasswordSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

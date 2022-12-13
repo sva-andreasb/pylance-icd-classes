@@ -1,8 +1,6 @@
 def SignalOmemoStore():
-'''public SignalOmemoStore()
-'''
-pass
+    '''    public SignalOmemoStore()
+    '''
 def keyUtil():
-'''public OmemoKeyUtil<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> keyUtil()
-'''
-pass
+    '''    public OmemoKeyUtil<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> keyUtil()
+    '''

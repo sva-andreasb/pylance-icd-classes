@@ -1,9 +1,7 @@
-LAYOUT_CONSTRAINT_PROPERTY = "String  JAppFrame:LayoutConstraintProperty""
+LAYOUT_CONSTRAINT_PROPERTY = "String  \"JAppFrame:LayoutConstraintProperty\""
 def IlvControlReader():
-'''public IlvControlReader()
-'''
-pass
+    '''    public IlvControlReader()
+    '''
 def createObject():
-'''public Object createObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)
-'''
-pass
+    '''    public Object createObject(final Class clazz, final Element element, final IlvFormReaderContext ilvFormReaderContext)
+    '''

@@ -1,24 +1,19 @@
 def getCustomSiteOrExternalSite():
-'''public List<Object> getCustomSiteOrExternalSite()
-'''
-pass
+    '''    public List<Object> getCustomSiteOrExternalSite()
+    '''
 def getName():
-'''public String getName()
-public String getName()
-'''
-pass
+    '''    public String getName()
+    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    public void setName(final String value)
+    '''
 def getPermission():
-'''public SitePermissionString getPermission()
-public SitePermissionString getPermission()
-'''
-pass
+    '''    public SitePermissionString getPermission()
+    public SitePermissionString getPermission()
+    '''
 def setPermission():
-'''public void setPermission(final SitePermissionString value)
-public void setPermission(final SitePermissionString value)
-'''
-pass
+    '''    public void setPermission(final SitePermissionString value)
+    public void setPermission(final SitePermissionString value)
+    '''

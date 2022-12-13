@@ -1,4 +1,3 @@
 def PlusPAboutUs():
-'''public PlusPAboutUs(final MboSet ms)
-'''
-pass
+    '''    public PlusPAboutUs(final MboSet ms)
+    '''

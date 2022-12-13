@@ -1,4 +1,3 @@
 def PlusPBillUpdateCustRef():
-'''public PlusPBillUpdateCustRef(final MboSet ms)
-'''
-pass
+    '''    public PlusPBillUpdateCustRef(final MboSet ms)
+    '''

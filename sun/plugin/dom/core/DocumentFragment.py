@@ -1,24 +1,18 @@
 def DocumentFragment():
-'''public DocumentFragment(final DOMObject domObject)
-'''
-pass
+    '''    public DocumentFragment(final DOMObject domObject)
+    '''
 def getOwnerDocument():
-'''public Document getOwnerDocument()
-'''
-pass
+    '''    public Document getOwnerDocument()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String s)
-'''
-pass
+    '''    public void setNodeValue(final String s)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''

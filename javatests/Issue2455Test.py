@@ -1,8 +1,6 @@
 def Issue2455Test():
-'''public Issue2455Test()
-'''
-pass
+    '''    public Issue2455Test()
+    '''
 def testJavaModule():
-'''public void testJavaModule()
-'''
-pass
+    '''    public void testJavaModule()
+    '''

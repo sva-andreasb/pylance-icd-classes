@@ -1,48 +1,36 @@
 def ToolbarActions():
-'''public ToolbarActions()
-'''
-pass
+    '''    public ToolbarActions()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def hasButtons():
-'''public boolean hasButtons()
-'''
-pass
+    '''    public boolean hasButtons()
+    '''
 def setLastSep():
-'''public void setLastSep(final boolean sep)
-'''
-pass
+    '''    public void setLastSep(final boolean sep)
+    '''
 def wasLastSep():
-'''public boolean wasLastSep()
-'''
-pass
+    '''    public boolean wasLastSep()
+    '''
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def setSaveButtonId():
-'''public void setSaveButtonId(final String id)
-'''
-pass
+    '''    public void setSaveButtonId(final String id)
+    '''
 def getSaveButtonId():
-'''public String getSaveButtonId()
-'''
-pass
+    '''    public String getSaveButtonId()
+    '''
 def createShowEventList():
-'''public void createShowEventList()
-'''
-pass
+    '''    public void createShowEventList()
+    '''
 def showOnToolbar():
-'''public boolean showOnToolbar(final String eventName)
-'''
-pass
+    '''    public boolean showOnToolbar(final String eventName)
+    '''
 def addrenderScript():
-'''public void addrenderScript(final String script)
-'''
-pass
+    '''    public void addrenderScript(final String script)
+    '''
 def getRenderScripts():
-'''public JSONArray getRenderScripts()
-'''
-pass
+    '''    public JSONArray getRenderScripts()
+    '''

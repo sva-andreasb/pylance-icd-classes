@@ -1,72 +1,54 @@
 def DBInfoAttributeView():
-'''public DBInfoAttributeView(final MboSet ms)
-'''
-pass
+    '''    public DBInfoAttributeView(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def validateChanges():
-'''public void validateChanges()
-'''
-pass
+    '''    public void validateChanges()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getMasterMboValueInfo():
-'''public MboValueInfo getMasterMboValueInfo()
-'''
-pass
+    '''    public MboValueInfo getMasterMboValueInfo()
+    '''
 def validateRequired():
-'''public void validateRequired()
-'''
-pass
+    '''    public void validateRequired()
+    '''
 def validateMaxType():
-'''public void validateMaxType()
-'''
-pass
+    '''    public void validateMaxType()
+    '''
 def validateLength():
-'''public void validateLength()
-'''
-pass
+    '''    public void validateLength()
+    '''
 def validateESigEnabled():
-'''public void validateESigEnabled()
-'''
-pass
+    '''    public void validateESigEnabled()
+    '''
 def validateEAuditEnabled():
-'''public void validateEAuditEnabled()
-'''
-pass
+    '''    public void validateEAuditEnabled()
+    '''
 def validateDomainId():
-'''public void validateDomainId()
-'''
-pass
+    '''    public void validateDomainId()
+    '''
 def validateAutoKey():
-'''public void validateAutoKey()
-'''
-pass
+    '''    public void validateAutoKey()
+    '''
 def fillExtAttributes():
-'''public MboSetRemote fillExtAttributes(final MboSetRemote extSet)
-'''
-pass
+    '''    public MboSetRemote fillExtAttributes(final MboSetRemote extSet)
+    '''
 def getExtendedLookup():
-'''public String getExtendedLookup()
-'''
-pass
+    '''    public String getExtendedLookup()
+    '''
 def getValueFromLookup():
-'''public void getValueFromLookup(final String maxType, final int length, final boolean isMaxType)
-'''
-pass
+    '''    public void getValueFromLookup(final String maxType, final int length, final boolean isMaxType)
+    '''

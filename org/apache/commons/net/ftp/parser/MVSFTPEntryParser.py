@@ -1,8 +1,6 @@
 def MVSFTPEntryParser():
-'''public MVSFTPEntryParser()
-'''
-pass
+    '''    public MVSFTPEntryParser()
+    '''
 def parseFTPEntry():
-'''public FTPFile parseFTPEntry(final String entry)
-'''
-pass
+    '''    public FTPFile parseFTPEntry(final String entry)
+    '''

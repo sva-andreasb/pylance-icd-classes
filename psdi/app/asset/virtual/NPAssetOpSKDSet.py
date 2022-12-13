@@ -1,8 +1,6 @@
 def NPAssetOpSKDSet():
-'''public NPAssetOpSKDSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NPAssetOpSKDSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

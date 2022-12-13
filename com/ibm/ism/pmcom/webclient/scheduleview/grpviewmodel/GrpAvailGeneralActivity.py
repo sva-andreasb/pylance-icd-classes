@@ -1,40 +1,30 @@
 def getStartdate():
-'''public String getStartdate()
-'''
-pass
+    '''    public String getStartdate()
+    '''
 def setStartdate():
-'''public void setStartdate(final String startdate)
-'''
-pass
+    '''    public void setStartdate(final String startdate)
+    '''
 def getEnddate():
-'''public String getEnddate()
-'''
-pass
+    '''    public String getEnddate()
+    '''
 def setEnddate():
-'''public void setEnddate(final String enddate)
-'''
-pass
+    '''    public void setEnddate(final String enddate)
+    '''
 def getDuration():
-'''public String getDuration()
-'''
-pass
+    '''    public String getDuration()
+    '''
 def setDuration():
-'''public void setDuration(final String duration)
-'''
-pass
+    '''    public void setDuration(final String duration)
+    '''
 def getColorCode():
-'''public String getColorCode()
-'''
-pass
+    '''    public String getColorCode()
+    '''
 def setColorCode():
-'''public void setColorCode(final String colorCode)
-'''
-pass
+    '''    public void setColorCode(final String colorCode)
+    '''
 def getPersonName():
-'''public String getPersonName()
-'''
-pass
+    '''    public String getPersonName()
+    '''
 def setPersonName():
-'''public void setPersonName(final String personName)
-'''
-pass
+    '''    public void setPersonName(final String personName)
+    '''

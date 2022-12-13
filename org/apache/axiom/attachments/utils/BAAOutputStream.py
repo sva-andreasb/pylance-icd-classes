@@ -1,26 +1,20 @@
 def BAAOutputStream():
-'''public BAAOutputStream()
-'''
-pass
+    '''    public BAAOutputStream()
+    '''
 def write():
-'''public void write(final byte[] b, int off, final int len)
-public void write(final byte[] b)
-public void write(final int b)
-'''
-pass
+    '''    public void write(final byte[] b, int off, final int len)
+    public void write(final byte[] b)
+    public void write(final int b)
+    '''
 def buffers():
-'''public ArrayList buffers()
-'''
-pass
+    '''    public ArrayList buffers()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def receive():
-'''public long receive(final InputStream is, final long maxRead)
-'''
-pass
+    '''    public long receive(final InputStream is, final long maxRead)
+    '''
 def readFrom():
-'''public long readFrom(final InputStream is, long maxRead)
-'''
-pass
+    '''    public long readFrom(final InputStream is, long maxRead)
+    '''

@@ -1,9 +1,7 @@
-CACHE_NAME = "String  BMX.MAXIMODD.IXI""
+CACHE_NAME = "String  \"BMX.MAXIMODD.IXI\""
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''
 def getKeys():
-'''public String[] getKeys()
-'''
-pass
+    '''    public String[] getKeys()
+    '''

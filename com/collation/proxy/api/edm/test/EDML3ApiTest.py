@@ -1,24 +1,18 @@
 def EDML3ApiTest():
-'''public EDML3ApiTest(final String testName)
-'''
-pass
+    '''    public EDML3ApiTest(final String testName)
+    '''
 def testApiTest1():
-'''public void testApiTest1()
-'''
-pass
+    '''    public void testApiTest1()
+    '''
 def testApiTest2():
-'''public void testApiTest2()
-'''
-pass
+    '''    public void testApiTest2()
+    '''
 def testApiNegativeTest():
-'''public void testApiNegativeTest()
-'''
-pass
+    '''    public void testApiNegativeTest()
+    '''
 def testFindByFilter():
-'''public void testFindByFilter()
-'''
-pass
+    '''    public void testFindByFilter()
+    '''
 def testFindWithDomains():
-'''public void testFindWithDomains()
-'''
-pass
+    '''    public void testFindWithDomains()
+    '''

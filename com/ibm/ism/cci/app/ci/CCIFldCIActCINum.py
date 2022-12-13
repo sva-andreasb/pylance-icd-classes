@@ -1,8 +1,6 @@
 def CCIFldCIActCINum():
-'''public CCIFldCIActCINum(final MboValue mbv)
-'''
-pass
+    '''    public CCIFldCIActCINum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def DefaultClassLoaderReference():
-'''public DefaultClassLoaderReference(final ClassLoader classLoader)
-'''
-pass
+    '''    public DefaultClassLoaderReference(final ClassLoader classLoader)
+    '''
 def getClassLoader():
-'''public ClassLoader getClassLoader()
-'''
-pass
+    '''    public ClassLoader getClassLoader()
+    '''

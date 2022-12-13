@@ -1,24 +1,18 @@
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def LIVEREF():
-'''public int LIVEREF()
-'''
-pass
+    '''    public int LIVEREF()
+    '''
 def RESTOREDEF():
-'''public int RESTOREDEF()
-'''
-pass
+    '''    public int RESTOREDEF()
+    '''
 def RESTOREGLB():
-'''public int RESTOREGLB()
-'''
-pass
+    '''    public int RESTOREGLB()
+    '''
 def CLEAR():
-'''public int CLEAR()
-'''
-pass
+    '''    public int CLEAR()
+    '''

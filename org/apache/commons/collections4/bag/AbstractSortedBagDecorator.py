@@ -1,8 +1,6 @@
 def first():
-'''public E first()
-'''
-pass
+    '''    public E first()
+    '''
 def last():
-'''public E last()
-'''
-pass
+    '''    public E last()
+    '''

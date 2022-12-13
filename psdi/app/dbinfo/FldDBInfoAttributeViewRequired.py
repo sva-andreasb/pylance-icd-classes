@@ -1,8 +1,6 @@
 def FldDBInfoAttributeViewRequired():
-'''public FldDBInfoAttributeViewRequired(final MboValue mbv)
-'''
-pass
+    '''    public FldDBInfoAttributeViewRequired(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

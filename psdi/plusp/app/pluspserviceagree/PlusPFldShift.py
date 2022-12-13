@@ -1,8 +1,6 @@
 def PlusPFldShift():
-'''public PlusPFldShift(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldShift(final MboValue arg0)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

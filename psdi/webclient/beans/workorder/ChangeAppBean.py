@@ -1,8 +1,6 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def createChange():
-'''public int createChange()
-'''
-pass
+    '''    public int createChange()
+    '''

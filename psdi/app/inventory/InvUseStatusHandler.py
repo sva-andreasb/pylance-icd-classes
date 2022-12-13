@@ -1,28 +1,21 @@
 def InvUseStatusHandler():
-'''public InvUseStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public InvUseStatusHandler(final StatefulMbo sm)
+    '''
 def checkStatusChangeAuthorization():
-'''public void checkStatusChangeAuthorization(final String desiredStatus)
-'''
-pass
+    '''    public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''
 def canChangeStatus():
-'''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
-'''
-pass
+    '''    public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''
 def canStaged():
-'''public void canStaged()
-'''
-pass
+    '''    public void canStaged()
+    '''
 def canCancelled():
-'''public void canCancelled()
-'''
-pass
+    '''    public void canCancelled()
+    '''
 def changeStatus():
-'''public void changeStatus(final String currentStatus, String desiredStatus, final Date asOfDate, final String memo)
-'''
-pass
+    '''    public void changeStatus(final String currentStatus, String desiredStatus, final Date asOfDate, final String memo)
+    '''
 def chkPickListMbo():
-'''public boolean chkPickListMbo(final MboRemote owner)
-'''
-pass
+    '''    public boolean chkPickListMbo(final MboRemote owner)
+    '''

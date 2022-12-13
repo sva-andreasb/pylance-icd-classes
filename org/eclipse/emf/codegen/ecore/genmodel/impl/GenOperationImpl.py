@@ -1,202 +1,152 @@
 def getGenClass():
-'''public GenClass getGenClass()
-'''
-pass
+    '''    public GenClass getGenClass()
+    '''
 def setGenClass():
-'''public void setGenClass(final GenClass newGenClass)
-'''
-pass
+    '''    public void setGenClass(final GenClass newGenClass)
+    '''
 def getEcoreOperation():
-'''public EOperation getEcoreOperation()
-'''
-pass
+    '''    public EOperation getEcoreOperation()
+    '''
 def basicGetEcoreOperation():
-'''public EOperation basicGetEcoreOperation()
-'''
-pass
+    '''    public EOperation basicGetEcoreOperation()
+    '''
 def setEcoreOperation():
-'''public void setEcoreOperation(final EOperation newEcoreOperation)
-'''
-pass
+    '''    public void setEcoreOperation(final EOperation newEcoreOperation)
+    '''
 def getGenParameters():
-'''public EList getGenParameters()
-'''
-pass
+    '''    public EList getGenParameters()
+    '''
 def eInverseAdd():
-'''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''
 def eInverseRemove():
-'''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''
 def eBasicRemoveFromContainer():
-'''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def getEcoreTypedElement():
-'''public ETypedElement getEcoreTypedElement()
-'''
-pass
+    '''    public ETypedElement getEcoreTypedElement()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCapName():
-'''public String getCapName()
-'''
-pass
+    '''    public String getCapName()
+    '''
 def getFormattedName():
-'''public String getFormattedName()
-'''
-pass
+    '''    public String getFormattedName()
+    '''
 def isVoid():
-'''public boolean isVoid()
-'''
-pass
+    '''    public boolean isVoid()
+    '''
 def getTypeClassifierAccessorName():
-'''public String getTypeClassifierAccessorName()
-'''
-pass
+    '''    public String getTypeClassifierAccessorName()
+    '''
 def getTypeGenPackage():
-'''public GenPackage getTypeGenPackage()
-'''
-pass
+    '''    public GenPackage getTypeGenPackage()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getImportedType():
-'''public String getImportedType()
-'''
-pass
+    '''    public String getImportedType()
+    '''
 def getObjectType():
-'''public String getObjectType()
-'''
-pass
+    '''    public String getObjectType()
+    '''
 def getImportedInternalType():
-'''public String getImportedInternalType()
-'''
-pass
+    '''    public String getImportedInternalType()
+    '''
 def isFeatureMapType():
-'''public boolean isFeatureMapType()
-'''
-pass
+    '''    public boolean isFeatureMapType()
+    '''
 def getListItemType():
-'''public String getListItemType()
-'''
-pass
+    '''    public String getListItemType()
+    '''
 def getQualifiedListItemType():
-'''public String getQualifiedListItemType()
-'''
-pass
+    '''    public String getQualifiedListItemType()
+    '''
 def isPrimitiveType():
-'''public boolean isPrimitiveType()
-'''
-pass
+    '''    public boolean isPrimitiveType()
+    '''
 def getPrimitiveValueFunction():
-'''public String getPrimitiveValueFunction()
-'''
-pass
+    '''    public String getPrimitiveValueFunction()
+    '''
 def isStringType():
-'''public boolean isStringType()
-'''
-pass
+    '''    public boolean isStringType()
+    '''
 def isStringBasedType():
-'''public boolean isStringBasedType()
-'''
-pass
+    '''    public boolean isStringBasedType()
+    '''
 def getReturnTypeClassifier():
-'''public String getReturnTypeClassifier()
-'''
-pass
+    '''    public String getReturnTypeClassifier()
+    '''
 def getReturnTypeGenPackage():
-'''public GenPackage getReturnTypeGenPackage()
-'''
-pass
+    '''    public GenPackage getReturnTypeGenPackage()
+    '''
 def getReturnType():
-'''public String getReturnType()
-'''
-pass
+    '''    public String getReturnType()
+    '''
 def getImportedReturnType():
-'''public String getImportedReturnType()
-'''
-pass
+    '''    public String getImportedReturnType()
+    '''
 def getObjectReturnType():
-'''public String getObjectReturnType()
-'''
-pass
+    '''    public String getObjectReturnType()
+    '''
 def isPrimitiveReturnType():
-'''public boolean isPrimitiveReturnType()
-'''
-pass
+    '''    public boolean isPrimitiveReturnType()
+    '''
 def getParameters():
-'''public String getParameters()
-'''
-pass
+    '''    public String getParameters()
+    '''
 def getParameterTypes():
-'''public String getParameterTypes(final String separator)
-public String getParameterTypes(final String separator, final boolean qualified)
-'''
-pass
+    '''    public String getParameterTypes(final String separator)
+    public String getParameterTypes(final String separator, final boolean qualified)
+    '''
 def getImportedMetaType():
-'''public String getImportedMetaType()
-'''
-pass
+    '''    public String getImportedMetaType()
+    '''
 def getGenPackage():
-'''public GenPackage getGenPackage()
-'''
-pass
+    '''    public GenPackage getGenPackage()
+    '''
 def initialize():
-'''public void initialize(final EOperation eOperation)
-'''
-pass
+    '''    public void initialize(final EOperation eOperation)
+    '''
 def getModelInfo():
-'''public String getModelInfo()
-'''
-pass
+    '''    public String getModelInfo()
+    '''
 def reconcile():
-'''public boolean reconcile(final GenOperation oldGenOperationVersion)
-public boolean reconcile()
-'''
-pass
+    '''    public boolean reconcile(final GenOperation oldGenOperationVersion)
+    public boolean reconcile()
+    '''
 def hasBody():
-'''public boolean hasBody()
-'''
-pass
+    '''    public boolean hasBody()
+    '''
 def getBody():
-'''public String getBody(final String indentation)
-'''
-pass
+    '''    public String getBody(final String indentation)
+    '''
 def getGenExceptions():
-'''public List getGenExceptions()
-'''
-pass
+    '''    public List getGenExceptions()
+    '''
 def getThrows():
-'''public String getThrows()
-'''
-pass
+    '''    public String getThrows()
+    '''
 def isInvariant():
-'''public boolean isInvariant()
-'''
-pass
+    '''    public boolean isInvariant()
+    '''
 def getParameterNames():
-'''public String getParameterNames(final String separator)
-'''
-pass
+    '''    public String getParameterNames(final String separator)
+    '''

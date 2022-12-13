@@ -1,20 +1,15 @@
 def ChildNode():
-'''public ChildNode()
-'''
-pass
+    '''    public ChildNode()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def getParentNode():
-'''public Node getParentNode()
-'''
-pass
+    '''    public Node getParentNode()
+    '''
 def getNextSibling():
-'''public Node getNextSibling()
-'''
-pass
+    '''    public Node getNextSibling()
+    '''
 def getPreviousSibling():
-'''public Node getPreviousSibling()
-'''
-pass
+    '''    public Node getPreviousSibling()
+    '''

@@ -1,4 +1,3 @@
 def MaxIfaceInDetailSet():
-'''public MaxIfaceInDetailSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIfaceInDetailSet(final MboServerInterface ms)
+    '''

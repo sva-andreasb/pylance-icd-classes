@@ -1,8 +1,6 @@
 def FldPersonLocationSite():
-'''public FldPersonLocationSite(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonLocationSite(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

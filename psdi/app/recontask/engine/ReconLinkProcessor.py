@@ -1,24 +1,18 @@
 def ReconLinkProcessor():
-'''public ReconLinkProcessor(final ReconInfo reconInfo)
-'''
-pass
+    '''    public ReconLinkProcessor(final ReconInfo reconInfo)
+    '''
 def link():
-'''public Map[][] link()
-'''
-pass
+    '''    public Map[][] link()
+    '''
 def isSaveResult():
-'''public boolean isSaveResult()
-'''
-pass
+    '''    public boolean isSaveResult()
+    '''
 def setSaveResult():
-'''public void setSaveResult(final boolean saveResult)
-'''
-pass
+    '''    public void setSaveResult(final boolean saveResult)
+    '''
 def getLinkResult():
-'''public LinkResult getLinkResult()
-'''
-pass
+    '''    public LinkResult getLinkResult()
+    '''
 def getUnlinked():
-'''public List<ReconValue> getUnlinked()
-'''
-pass
+    '''    public List<ReconValue> getUnlinked()
+    '''

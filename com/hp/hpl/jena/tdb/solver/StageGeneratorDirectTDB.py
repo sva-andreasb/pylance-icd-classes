@@ -1,8 +1,6 @@
 def StageGeneratorDirectTDB():
-'''public StageGeneratorDirectTDB(final StageGenerator original)
-'''
-pass
+    '''    public StageGeneratorDirectTDB(final StageGenerator original)
+    '''
 def execute():
-'''public QueryIterator execute(final BasicPattern pattern, final QueryIterator input, final ExecutionContext execCxt)
-'''
-pass
+    '''    public QueryIterator execute(final BasicPattern pattern, final QueryIterator input, final ExecutionContext execCxt)
+    '''

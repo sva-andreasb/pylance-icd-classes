@@ -1,4 +1,3 @@
 def SFWViewChgStatSet():
-'''public SFWViewChgStatSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SFWViewChgStatSet(final MboServerInterface ms)
+    '''

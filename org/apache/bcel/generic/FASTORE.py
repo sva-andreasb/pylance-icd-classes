@@ -1,8 +1,6 @@
 def FASTORE():
-'''public FASTORE()
-'''
-pass
+    '''    public FASTORE()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

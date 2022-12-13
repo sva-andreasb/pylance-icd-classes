@@ -1,8 +1,6 @@
 def FldSimulationMultiAssetLocCIUnitId():
-'''public FldSimulationMultiAssetLocCIUnitId(final MboValue mbv)
-'''
-pass
+    '''    public FldSimulationMultiAssetLocCIUnitId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

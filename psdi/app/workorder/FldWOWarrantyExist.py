@@ -1,20 +1,15 @@
 def FldWOWarrantyExist():
-'''public FldWOWarrantyExist(final MboValue mbv)
-'''
-pass
+    '''    public FldWOWarrantyExist(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def WarrantyDateListener():
-'''public WarrantyDateListener(final MboValue mbv)
-'''
-pass
+    '''    public WarrantyDateListener(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

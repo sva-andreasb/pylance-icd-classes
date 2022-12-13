@@ -1,36 +1,27 @@
 def create():
-'''public EObject create(final EClass eClass)
-'''
-pass
+    '''    public EObject create(final EClass eClass)
+    '''
 def createCommandData():
-'''public CommandData createCommandData()
-'''
-pass
+    '''    public CommandData createCommandData()
+    '''
 def createCommandStepData():
-'''public CommandStepData createCommandStepData()
-'''
-pass
+    '''    public CommandStepData createCommandStepData()
+    '''
 def createTaskCommandData():
-'''public TaskCommandData createTaskCommandData()
-'''
-pass
+    '''    public TaskCommandData createTaskCommandData()
+    '''
 def createUserData():
-'''public UserData createUserData()
-'''
-pass
+    '''    public UserData createUserData()
+    '''
 def createGenericObjectValue():
-'''public GenericObjectValue createGenericObjectValue()
-'''
-pass
+    '''    public GenericObjectValue createGenericObjectValue()
+    '''
 def createCommandResults():
-'''public CommandResults createCommandResults()
-'''
-pass
+    '''    public CommandResults createCommandResults()
+    '''
 def getCommandDataPackage():
-'''public CommandDataPackage getCommandDataPackage()
-'''
-pass
+    '''    public CommandDataPackage getCommandDataPackage()
+    '''
 def getPackage():
-'''public static CommandDataPackage getPackage()
-'''
-pass
+    '''    public static CommandDataPackage getPackage()
+    '''

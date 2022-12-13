@@ -1,12 +1,9 @@
 def PlusPSWWorkOrder():
-'''public PlusPSWWorkOrder(final MboSet set)
-'''
-pass
+    '''    public PlusPSWWorkOrder(final MboSet set)
+    '''
 def isWorkOrderInTable():
-'''public boolean isWorkOrderInTable()
-'''
-pass
+    '''    public boolean isWorkOrderInTable()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

@@ -1,4 +1,3 @@
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''

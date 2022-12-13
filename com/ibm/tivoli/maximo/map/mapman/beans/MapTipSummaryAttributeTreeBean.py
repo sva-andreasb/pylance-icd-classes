@@ -1,4 +1,3 @@
 def MapTipSummaryAttributeTreeBean():
-'''public MapTipSummaryAttributeTreeBean()
-'''
-pass
+    '''    public MapTipSummaryAttributeTreeBean()
+    '''

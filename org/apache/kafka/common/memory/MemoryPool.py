@@ -1,24 +1,18 @@
 def tryAllocate():
-'''public ByteBuffer tryAllocate(final int sizeBytes)
-'''
-pass
+    '''    public ByteBuffer tryAllocate(final int sizeBytes)
+    '''
 def release():
-'''public void release(final ByteBuffer previouslyAllocated)
-'''
-pass
+    '''    public void release(final ByteBuffer previouslyAllocated)
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''
 def availableMemory():
-'''public long availableMemory()
-'''
-pass
+    '''    public long availableMemory()
+    '''
 def isOutOfMemory():
-'''public boolean isOutOfMemory()
-'''
-pass
+    '''    public boolean isOutOfMemory()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def InvalidRASyntaxException():
-'''public InvalidRASyntaxException(final String error)
-'''
-pass
+    '''    public InvalidRASyntaxException(final String error)
+    '''
 def getSyntaxError():
-'''public String getSyntaxError()
-'''
-pass
+    '''    public String getSyntaxError()
+    '''

@@ -1,4 +1,3 @@
 def PlusCTPAssociatedAssetSet():
-'''public PlusCTPAssociatedAssetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCTPAssociatedAssetSet(final MboServerInterface ms)
+    '''

@@ -1,16 +1,12 @@
 def AssetNumTree():
-'''public AssetNumTree()
-'''
-pass
+    '''    public AssetNumTree()
+    '''
 def insertAssetNum():
-'''public void insertAssetNum(final String assetnum)
-'''
-pass
+    '''    public void insertAssetNum(final String assetnum)
+    '''
 def existAssetNum():
-'''public boolean existAssetNum(final String assetnum)
-'''
-pass
+    '''    public boolean existAssetNum(final String assetnum)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

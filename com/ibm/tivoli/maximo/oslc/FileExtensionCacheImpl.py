@@ -1,29 +1,22 @@
 def FileExtensionCacheImpl():
-'''public FileExtensionCacheImpl()
-'''
-pass
+    '''    public FileExtensionCacheImpl()
+    '''
 def forFileName():
-'''public String forFileName(final String docFileName)
-'''
-pass
+    '''    public String forFileName(final String docFileName)
+    '''
 def forFileExtension():
-'''public String forFileExtension(final String extension)
-'''
-pass
+    '''    public String forFileExtension(final String extension)
+    '''
 def getDefaultContentType():
-'''public String getDefaultContentType()
-'''
-pass
+    '''    public String getDefaultContentType()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

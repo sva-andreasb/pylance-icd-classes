@@ -1,8 +1,6 @@
 def FldLaborHireDate():
-'''public FldLaborHireDate(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborHireDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

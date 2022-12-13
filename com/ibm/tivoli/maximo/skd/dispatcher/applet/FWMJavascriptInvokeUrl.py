@@ -1,4 +1,3 @@
 def FWMJavascriptInvokeUrl():
-'''public FWMJavascriptInvokeUrl(final String url)
-'''
-pass
+    '''    public FWMJavascriptInvokeUrl(final String url)
+    '''

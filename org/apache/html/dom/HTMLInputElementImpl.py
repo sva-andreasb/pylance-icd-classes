@@ -1,152 +1,114 @@
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String s)
-'''
-pass
+    '''    public void setDefaultValue(final String s)
+    '''
 def getDefaultChecked():
-'''public boolean getDefaultChecked()
-'''
-pass
+    '''    public boolean getDefaultChecked()
+    '''
 def setDefaultChecked():
-'''public void setDefaultChecked(final boolean b)
-'''
-pass
+    '''    public void setDefaultChecked(final boolean b)
+    '''
 def getAccept():
-'''public String getAccept()
-'''
-pass
+    '''    public String getAccept()
+    '''
 def setAccept():
-'''public void setAccept(final String s)
-'''
-pass
+    '''    public void setAccept(final String s)
+    '''
 def getAccessKey():
-'''public String getAccessKey()
-'''
-pass
+    '''    public String getAccessKey()
+    '''
 def setAccessKey():
-'''public void setAccessKey(String substring)
-'''
-pass
+    '''    public void setAccessKey(String substring)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getAlt():
-'''public String getAlt()
-'''
-pass
+    '''    public String getAlt()
+    '''
 def setAlt():
-'''public void setAlt(final String s)
-'''
-pass
+    '''    public void setAlt(final String s)
+    '''
 def getChecked():
-'''public boolean getChecked()
-'''
-pass
+    '''    public boolean getChecked()
+    '''
 def setChecked():
-'''public void setChecked(final boolean b)
-'''
-pass
+    '''    public void setChecked(final boolean b)
+    '''
 def getDisabled():
-'''public boolean getDisabled()
-'''
-pass
+    '''    public boolean getDisabled()
+    '''
 def setDisabled():
-'''public void setDisabled(final boolean b)
-'''
-pass
+    '''    public void setDisabled(final boolean b)
+    '''
 def getMaxLength():
-'''public int getMaxLength()
-'''
-pass
+    '''    public int getMaxLength()
+    '''
 def setMaxLength():
-'''public void setMaxLength(final int i)
-'''
-pass
+    '''    public void setMaxLength(final int i)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getReadOnly():
-'''public boolean getReadOnly()
-'''
-pass
+    '''    public boolean getReadOnly()
+    '''
 def setReadOnly():
-'''public void setReadOnly(final boolean b)
-'''
-pass
+    '''    public void setReadOnly(final boolean b)
+    '''
 def getSize():
-'''public String getSize()
-'''
-pass
+    '''    public String getSize()
+    '''
 def setSize():
-'''public void setSize(final String s)
-'''
-pass
+    '''    public void setSize(final String s)
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''
 def setSrc():
-'''public void setSrc(final String s)
-'''
-pass
+    '''    public void setSrc(final String s)
+    '''
 def getTabIndex():
-'''public int getTabIndex()
-'''
-pass
+    '''    public int getTabIndex()
+    '''
 def setTabIndex():
-'''public void setTabIndex(final int i)
-'''
-pass
+    '''    public void setTabIndex(final int i)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getUseMap():
-'''public String getUseMap()
-'''
-pass
+    '''    public String getUseMap()
+    '''
 def setUseMap():
-'''public void setUseMap(final String s)
-'''
-pass
+    '''    public void setUseMap(final String s)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String s)
-'''
-pass
+    '''    public void setValue(final String s)
+    '''
 def blur():
-'''public void blur()
-'''
-pass
+    '''    public void blur()
+    '''
 def focus():
-'''public void focus()
-'''
-pass
+    '''    public void focus()
+    '''
 def select():
-'''public void select()
-'''
-pass
+    '''    public void select()
+    '''
 def click():
-'''public void click()
-'''
-pass
+    '''    public void click()
+    '''
 def HTMLInputElementImpl():
-'''public HTMLInputElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLInputElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

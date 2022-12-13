@@ -1,8 +1,6 @@
 def setupBean():
-'''public void setupBean(final WebClientSession sessionContext)
-'''
-pass
+    '''    public void setupBean(final WebClientSession sessionContext)
+    '''
 def copyObjectsToMapTips():
-'''public void copyObjectsToMapTips()
-'''
-pass
+    '''    public void copyObjectsToMapTips()
+    '''

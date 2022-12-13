@@ -1,24 +1,18 @@
 def Dyadic():
-'''public Dyadic(final Graph L, final Graph R)
-'''
-pass
+    '''    public Dyadic(final Graph L, final Graph R)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def dependsOn():
-'''public boolean dependsOn(final Graph other)
-'''
-pass
+    '''    public boolean dependsOn(final Graph other)
+    '''
 def union():
-'''public Union union(final Graph X)
-'''
-pass
+    '''    public Union union(final Graph X)
+    '''
 def getL():
-'''public Object getL()
-'''
-pass
+    '''    public Object getL()
+    '''
 def getR():
-'''public Object getR()
-'''
-pass
+    '''    public Object getR()
+    '''

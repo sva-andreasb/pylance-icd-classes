@@ -1,29 +1,22 @@
 def ClassLoaderWeavingAdaptor():
-'''public ClassLoaderWeavingAdaptor()
-public ClassLoaderWeavingAdaptor(final ClassLoader deprecatedLoader, final IWeavingContext deprecatedContext)
-'''
-pass
+    '''    public ClassLoaderWeavingAdaptor()
+    public ClassLoaderWeavingAdaptor(final ClassLoader deprecatedLoader, final IWeavingContext deprecatedContext)
+    '''
 def initialize():
-'''public void initialize(final ClassLoader classLoader, final IWeavingContext context)
-'''
-pass
+    '''    public void initialize(final ClassLoader classLoader, final IWeavingContext context)
+    '''
 def getContextId():
-'''public String getContextId()
-'''
-pass
+    '''    public String getContextId()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def generatedClassesExistFor():
-'''public boolean generatedClassesExistFor(final String className)
-'''
-pass
+    '''    public boolean generatedClassesExistFor(final String className)
+    '''
 def flushGeneratedClasses():
-'''public void flushGeneratedClasses()
-'''
-pass
+    '''    public void flushGeneratedClasses()
+    '''
 def acceptClass():
-'''public void acceptClass(final String name, final byte[] originalBytes, final byte[] wovenBytes)
-'''
-pass
+    '''    public void acceptClass(final String name, final byte[] originalBytes, final byte[] wovenBytes)
+    '''

@@ -1,8 +1,6 @@
 def GRProjectManager():
-'''public GRProjectManager()
-'''
-pass
+    '''    public GRProjectManager()
+    '''
 def loadProject():
-'''public GRSchedule loadProject(final String projectId, final IProjectManagerCallback callback)
-'''
-pass
+    '''    public GRSchedule loadProject(final String projectId, final IProjectManagerCallback callback)
+    '''

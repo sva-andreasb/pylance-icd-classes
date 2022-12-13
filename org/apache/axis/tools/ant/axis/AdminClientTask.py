@@ -1,60 +1,45 @@
 def AdminClientTask():
-'''public AdminClientTask()
-'''
-pass
+    '''    public AdminClientTask()
+    '''
 def setDebug():
-'''public void setDebug(final boolean debug)
-'''
-pass
+    '''    public void setDebug(final boolean debug)
+    '''
 def setNewPassword():
-'''public void setNewPassword(final String newPassword)
-'''
-pass
+    '''    public void setNewPassword(final String newPassword)
+    '''
 def setUrl():
-'''public void setUrl(final String url)
-'''
-pass
+    '''    public void setUrl(final String url)
+    '''
 def setFileProtocol():
-'''public void setFileProtocol(final String fileProtocol)
-'''
-pass
+    '''    public void setFileProtocol(final String fileProtocol)
+    '''
 def setHostname():
-'''public void setHostname(final String hostname)
-'''
-pass
+    '''    public void setHostname(final String hostname)
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''
 def setPort():
-'''public void setPort(final int port)
-'''
-pass
+    '''    public void setPort(final int port)
+    '''
 def setServletPath():
-'''public void setServletPath(final String servletPath)
-'''
-pass
+    '''    public void setServletPath(final String servletPath)
+    '''
 def setXmlFile():
-'''public void setXmlFile(final File xmlFile)
-'''
-pass
+    '''    public void setXmlFile(final File xmlFile)
+    '''
 def setTransportChain():
-'''public void setTransportChain(final String transportChain)
-'''
-pass
+    '''    public void setTransportChain(final String transportChain)
+    '''
 def setUsername():
-'''public void setUsername(final String username)
-'''
-pass
+    '''    public void setUsername(final String username)
+    '''
 def setFailOnError():
-'''public void setFailOnError(final boolean fail)
-'''
-pass
+    '''    public void setFailOnError(final boolean fail)
+    '''
 def traceParams():
-'''public void traceParams(final int logLevel)
-'''
-pass
+    '''    public void traceParams(final int logLevel)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

@@ -1,8 +1,6 @@
 def FldMaxAttributeCfgCanAutoNum():
-'''public FldMaxAttributeCfgCanAutoNum(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxAttributeCfgCanAutoNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

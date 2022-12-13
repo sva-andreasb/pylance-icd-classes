@@ -1,4 +1,3 @@
 def TempChangeStatusSet():
-'''public TempChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TempChangeStatusSet(final MboServerInterface ms)
+    '''

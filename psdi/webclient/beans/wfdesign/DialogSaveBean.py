@@ -1,12 +1,9 @@
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def wfexpbuilder():
-'''public int wfexpbuilder()
-'''
-pass
+    '''    public int wfexpbuilder()
+    '''

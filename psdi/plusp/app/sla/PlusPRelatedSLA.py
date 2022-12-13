@@ -1,8 +1,6 @@
 def PlusPRelatedSLA():
-'''public PlusPRelatedSLA(final MboSet arg0)
-'''
-pass
+    '''    public PlusPRelatedSLA(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

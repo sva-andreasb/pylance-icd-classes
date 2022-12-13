@@ -1,56 +1,42 @@
 def StyleSheet():
-'''public StyleSheet()
-'''
-pass
+    '''    public StyleSheet()
+    '''
 def setMedia():
-'''public void setMedia(final SACMediaList m)
-'''
-pass
+    '''    public void setMedia(final SACMediaList m)
+    '''
 def getMedia():
-'''public SACMediaList getMedia()
-'''
-pass
+    '''    public SACMediaList getMedia()
+    '''
 def getParent():
-'''public StyleSheet getParent()
-'''
-pass
+    '''    public StyleSheet getParent()
+    '''
 def setParent():
-'''public void setParent(final StyleSheet ss)
-'''
-pass
+    '''    public void setParent(final StyleSheet ss)
+    '''
 def setAlternate():
-'''public void setAlternate(final boolean b)
-'''
-pass
+    '''    public void setAlternate(final boolean b)
+    '''
 def isAlternate():
-'''public boolean isAlternate()
-'''
-pass
+    '''    public boolean isAlternate()
+    '''
 def setTitle():
-'''public void setTitle(final String t)
-'''
-pass
+    '''    public void setTitle(final String t)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getRule():
-'''public Rule getRule(final int i)
-'''
-pass
+    '''    public Rule getRule(final int i)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def append():
-'''public void append(final Rule r)
-'''
-pass
+    '''    public void append(final Rule r)
+    '''
 def toString():
-'''public String toString(final CSSEngine eng)
-'''
-pass
+    '''    public String toString(final CSSEngine eng)
+    '''

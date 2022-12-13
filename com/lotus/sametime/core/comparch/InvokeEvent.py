@@ -1,8 +1,6 @@
 def getRunnable():
-'''public Runnable getRunnable()
-'''
-pass
+    '''    public Runnable getRunnable()
+    '''
 def getTimeToInvoke():
-'''public long getTimeToInvoke()
-'''
-pass
+    '''    public long getTimeToInvoke()
+    '''

@@ -1,48 +1,36 @@
 def DMCollectionAppBean():
-'''public DMCollectionAppBean()
-'''
-pass
+    '''    public DMCollectionAppBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def saveEvents():
-'''public int saveEvents()
-'''
-pass
+    '''    public int saveEvents()
+    '''
 def VALDTCOLL():
-'''public int VALDTCOLL()
-'''
-pass
+    '''    public int VALDTCOLL()
+    '''
 def isValidateInProgress():
-'''public boolean isValidateInProgress()
-'''
-pass
+    '''    public boolean isValidateInProgress()
+    '''
 def refreshCollObj():
-'''public int refreshCollObj()
-'''
-pass
+    '''    public int refreshCollObj()
+    '''
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''
 def deleteorphans():
-'''public int deleteorphans()
-'''
-pass
+    '''    public int deleteorphans()
+    '''
 def deletedupls():
-'''public int deletedupls()
-'''
-pass
+    '''    public int deletedupls()
+    '''
 def deleteall():
-'''public int deleteall()
-'''
-pass
+    '''    public int deleteall()
+    '''
 def DELFILES():
-'''public int DELFILES()
-'''
-pass
+    '''    public int DELFILES()
+    '''
 def CREATEPKG():
-'''public int CREATEPKG()
-'''
-pass
+    '''    public int CREATEPKG()
+    '''

@@ -1,45 +1,34 @@
 def getThreadID():
-'''public String getThreadID()
-'''
-pass
+    '''    public String getThreadID()
+    '''
 def getParticipant():
-'''public EntityJid getParticipant()
-'''
-pass
+    '''    public EntityJid getParticipant()
+    '''
 def sendMessage():
-'''public void sendMessage(final String text)
-public void sendMessage(final Message message)
-'''
-pass
+    '''    public void sendMessage(final String text)
+    public void sendMessage(final Message message)
+    '''
 def addMessageListener():
-'''public void addMessageListener(final ChatMessageListener listener)
-'''
-pass
+    '''    public void addMessageListener(final ChatMessageListener listener)
+    '''
 def removeMessageListener():
-'''public void removeMessageListener(final ChatMessageListener listener)
-'''
-pass
+    '''    public void removeMessageListener(final ChatMessageListener listener)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getListeners():
-'''public Set<ChatMessageListener> getListeners()
-'''
-pass
+    '''    public Set<ChatMessageListener> getListeners()
+    '''
 def createCollector():
-'''public StanzaCollector createCollector()
-'''
-pass
+    '''    public StanzaCollector createCollector()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

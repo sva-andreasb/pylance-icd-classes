@@ -1,261 +1,196 @@
 def ModuleCaptureImpl():
-'''public ModuleCaptureImpl()
-public ModuleCaptureImpl(final Map m)
-'''
-pass
+    '''    public ModuleCaptureImpl()
+    public ModuleCaptureImpl(final Map m)
+    '''
 def getParent():
-'''public Template getParent()
-'''
-pass
+    '''    public Template getParent()
+    '''
 def hasParent():
-'''public boolean hasParent()
-'''
-pass
+    '''    public boolean hasParent()
+    '''
 def setParent():
-'''public void setParent(final Template parent)
-'''
-pass
+    '''    public void setParent(final Template parent)
+    '''
 def getMaxSize():
-'''public int getMaxSize()
-'''
-pass
+    '''    public int getMaxSize()
+    '''
 def hasMaxSize():
-'''public boolean hasMaxSize()
-'''
-pass
+    '''    public boolean hasMaxSize()
+    '''
 def setMaxSize():
-'''public void setMaxSize(final int maxSize)
-'''
-pass
+    '''    public void setMaxSize(final int maxSize)
+    '''
 def getPathName():
-'''public String getPathName()
-'''
-pass
+    '''    public String getPathName()
+    '''
 def hasPathName():
-'''public boolean hasPathName()
-'''
-pass
+    '''    public boolean hasPathName()
+    '''
 def setPathName():
-'''public void setPathName(final String pathName)
-'''
-pass
+    '''    public void setPathName(final String pathName)
+    '''
 def getStatOnly():
-'''public boolean getStatOnly()
-'''
-pass
+    '''    public boolean getStatOnly()
+    '''
 def hasStatOnly():
-'''public boolean hasStatOnly()
-'''
-pass
+    '''    public boolean hasStatOnly()
+    '''
 def setStatOnly():
-'''public void setStatOnly(final boolean statOnly)
-'''
-pass
+    '''    public void setStatOnly(final boolean statOnly)
+    '''
 def getPathPrefix():
-'''public String getPathPrefix()
-'''
-pass
+    '''    public String getPathPrefix()
+    '''
 def hasPathPrefix():
-'''public boolean hasPathPrefix()
-'''
-pass
+    '''    public boolean hasPathPrefix()
+    '''
 def setPathPrefix():
-'''public void setPathPrefix(final String pathPrefix)
-'''
-pass
+    '''    public void setPathPrefix(final String pathPrefix)
+    '''
 def getRecurseDirectory():
-'''public boolean getRecurseDirectory()
-'''
-pass
+    '''    public boolean getRecurseDirectory()
+    '''
 def hasRecurseDirectory():
-'''public boolean hasRecurseDirectory()
-'''
-pass
+    '''    public boolean hasRecurseDirectory()
+    '''
 def setRecurseDirectory():
-'''public void setRecurseDirectory(final boolean recurse)
-'''
-pass
+    '''    public void setRecurseDirectory(final boolean recurse)
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def hasGuid():
-'''public boolean hasGuid()
-'''
-pass
+    '''    public boolean hasGuid()
+    '''
 def setGuid():
-'''public void setGuid(final Guid guid)
-'''
-pass
+    '''    public void setGuid(final Guid guid)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def hasDisplayName():
-'''public boolean hasDisplayName()
-'''
-pass
+    '''    public boolean hasDisplayName()
+    '''
 def getContextIp():
-'''public String getContextIp()
-'''
-pass
+    '''    public String getContextIp()
+    '''
 def hasContextIp():
-'''public boolean hasContextIp()
-'''
-pass
+    '''    public boolean hasContextIp()
+    '''
 def setContextIp():
-'''public void setContextIp(final String ctx)
-'''
-pass
+    '''    public void setContextIp(final String ctx)
+    '''
 def getObjectType():
-'''public String getObjectType()
-'''
-pass
+    '''    public String getObjectType()
+    '''
 def hasObjectType():
-'''public boolean hasObjectType()
-'''
-pass
+    '''    public boolean hasObjectType()
+    '''
 def setObjectType():
-'''public void setObjectType(final String type)
-'''
-pass
+    '''    public void setObjectType(final String type)
+    '''
 def getCDMSource():
-'''public String getCDMSource()
-'''
-pass
+    '''    public String getCDMSource()
+    '''
 def hasCDMSource():
-'''public boolean hasCDMSource()
-'''
-pass
+    '''    public boolean hasCDMSource()
+    '''
 def setCDMSource():
-'''public void setCDMSource(final String source)
-'''
-pass
+    '''    public void setCDMSource(final String source)
+    '''
 def getSourceToken():
-'''public String getSourceToken()
-'''
-pass
+    '''    public String getSourceToken()
+    '''
 def hasSourceToken():
-'''public boolean hasSourceToken()
-'''
-pass
+    '''    public boolean hasSourceToken()
+    '''
 def setSourceToken():
-'''public void setSourceToken(final String sourceToken)
-'''
-pass
+    '''    public void setSourceToken(final String sourceToken)
+    '''
 def getCmdbSource():
-'''public Guid getCmdbSource()
-'''
-pass
+    '''    public Guid getCmdbSource()
+    '''
 def hasCmdbSource():
-'''public boolean hasCmdbSource()
-'''
-pass
+    '''    public boolean hasCmdbSource()
+    '''
 def setCmdbSource():
-'''public void setCmdbSource(final Guid cmdbsource)
-'''
-pass
+    '''    public void setCmdbSource(final Guid cmdbsource)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def hasLabel():
-'''public boolean hasLabel()
-'''
-pass
+    '''    public boolean hasLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def hasDescription():
-'''public boolean hasDescription()
-'''
-pass
+    '''    public boolean hasDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getAdminState():
-'''public int getAdminState()
-'''
-pass
+    '''    public int getAdminState()
+    '''
 def hasAdminState():
-'''public boolean hasAdminState()
-'''
-pass
+    '''    public boolean hasAdminState()
+    '''
 def setAdminState():
-'''public void setAdminState(final int state)
-'''
-pass
+    '''    public void setAdminState(final int state)
+    '''
 def getBidiFlag():
-'''public int getBidiFlag()
-'''
-pass
+    '''    public int getBidiFlag()
+    '''
 def hasBidiFlag():
-'''public boolean hasBidiFlag()
-'''
-pass
+    '''    public boolean hasBidiFlag()
+    '''
 def setBidiFlag():
-'''public void setBidiFlag(final int bidiflag)
-'''
-pass
+    '''    public void setBidiFlag(final int bidiflag)
+    '''
 def getBidiFormat():
-'''public String getBidiFormat()
-'''
-pass
+    '''    public String getBidiFormat()
+    '''
 def hasBidiFormat():
-'''public boolean hasBidiFormat()
-'''
-pass
+    '''    public boolean hasBidiFormat()
+    '''
 def setBidiFormat():
-'''public void setBidiFormat(final String bidiformat)
-'''
-pass
+    '''    public void setBidiFormat(final String bidiformat)
+    '''
 def getAllAttributes():
-'''public Map getAllAttributes()
-'''
-pass
+    '''    public Map getAllAttributes()
+    '''
 def getCreatedBy():
-'''public String getCreatedBy()
-'''
-pass
+    '''    public String getCreatedBy()
+    '''
 def hasCreatedBy():
-'''public boolean hasCreatedBy()
-'''
-pass
+    '''    public boolean hasCreatedBy()
+    '''
 def getLastModifiedTime():
-'''public long getLastModifiedTime()
-'''
-pass
+    '''    public long getLastModifiedTime()
+    '''
 def hasLastModifiedTime():
-'''public boolean hasLastModifiedTime()
-'''
-pass
+    '''    public boolean hasLastModifiedTime()
+    '''
 def getLastModifiedBy():
-'''public String getLastModifiedBy()
-'''
-pass
+    '''    public String getLastModifiedBy()
+    '''
 def hasLastModifiedBy():
-'''public boolean hasLastModifiedBy()
-'''
-pass
+    '''    public boolean hasLastModifiedBy()
+    '''
 def getExtendedAttributes():
-'''public byte[] getExtendedAttributes()
-'''
-pass
+    '''    public byte[] getExtendedAttributes()
+    '''
 def hasExtendedAttributes():
-'''public boolean hasExtendedAttributes()
-'''
-pass
+    '''    public boolean hasExtendedAttributes()
+    '''
 def setExtendedAttributes():
-'''public void setExtendedAttributes(final byte[] eAttribMap)
-'''
-pass
+    '''    public void setExtendedAttributes(final byte[] eAttribMap)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

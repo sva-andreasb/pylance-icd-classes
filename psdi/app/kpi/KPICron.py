@@ -1,12 +1,9 @@
 def KPICron():
-'''public KPICron()
-'''
-pass
+    '''    public KPICron()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

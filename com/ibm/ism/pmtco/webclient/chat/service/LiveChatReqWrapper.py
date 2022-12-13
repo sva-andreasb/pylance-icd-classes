@@ -1,8 +1,6 @@
 def LiveChatReqWrapper():
-'''public LiveChatReqWrapper(final HttpServletRequest request)
-'''
-pass
+    '''    public LiveChatReqWrapper(final HttpServletRequest request)
+    '''
 def getRemoteAddr():
-'''public String getRemoteAddr()
-'''
-pass
+    '''    public String getRemoteAddr()
+    '''

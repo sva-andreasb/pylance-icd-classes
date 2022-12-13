@@ -1,20 +1,15 @@
 def DecompressingEntity():
-'''public DecompressingEntity(final HttpEntity wrapped, final InputStreamFactory inputStreamFactory)
-'''
-pass
+    '''    public DecompressingEntity(final HttpEntity wrapped, final InputStreamFactory inputStreamFactory)
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outstream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outstream)
+    '''
 def getContentEncoding():
-'''public Header getContentEncoding()
-'''
-pass
+    '''    public Header getContentEncoding()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''

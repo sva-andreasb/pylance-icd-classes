@@ -1,12 +1,9 @@
 def PlusPFldBSActUseUsageMeter():
-'''public PlusPFldBSActUseUsageMeter(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBSActUseUsageMeter(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

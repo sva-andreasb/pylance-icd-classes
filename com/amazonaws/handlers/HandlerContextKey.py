@@ -1,16 +1,12 @@
 def HandlerContextKey():
-'''public HandlerContextKey(final String name)
-'''
-pass
+    '''    public HandlerContextKey(final String name)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

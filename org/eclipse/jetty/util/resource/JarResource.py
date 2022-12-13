@@ -1,28 +1,21 @@
 def release():
-'''public synchronized void release()
-'''
-pass
+    '''    public synchronized void release()
+    '''
 def exists():
-'''public boolean exists()
-'''
-pass
+    '''    public boolean exists()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def copyTo():
-'''public void copyTo(final File directory)
-'''
-pass
+    '''    public void copyTo(final File directory)
+    '''
 def newJarResource():
-'''public static Resource newJarResource(final Resource resource)
-'''
-pass
+    '''    public static Resource newJarResource(final Resource resource)
+    '''

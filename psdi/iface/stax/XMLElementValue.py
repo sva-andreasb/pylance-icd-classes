@@ -1,8 +1,6 @@
 def getElementValue():
-'''public String getElementValue()
-'''
-pass
+    '''    public String getElementValue()
+    '''
 def getAttrbuteValueMap():
-'''public Map<QName, String> getAttrbuteValueMap()
-'''
-pass
+    '''    public Map<QName, String> getAttrbuteValueMap()
+    '''

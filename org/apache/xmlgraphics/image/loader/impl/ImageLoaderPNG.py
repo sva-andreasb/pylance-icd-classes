@@ -1,12 +1,9 @@
 def loadImage():
-'''public Image loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)
-'''
-pass
+    '''    public Image loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)
+    '''
 def getTargetFlavor():
-'''public ImageFlavor getTargetFlavor()
-'''
-pass
+    '''    public ImageFlavor getTargetFlavor()
+    '''
 def getUsagePenalty():
-'''public int getUsagePenalty()
-'''
-pass
+    '''    public int getUsagePenalty()
+    '''

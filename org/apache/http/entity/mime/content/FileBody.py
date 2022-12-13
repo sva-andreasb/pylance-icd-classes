@@ -1,35 +1,27 @@
 def FileBody():
-'''public FileBody(final File file, final String filename, final String mimeType, final String charset)
-public FileBody(final File file, final String mimeType, final String charset)
-public FileBody(final File file, final String mimeType)
-public FileBody(final File file)
-'''
-pass
+    '''    public FileBody(final File file, final String filename, final String mimeType, final String charset)
+    public FileBody(final File file, final String mimeType, final String charset)
+    public FileBody(final File file, final String mimeType)
+    public FileBody(final File file)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''
 def getTransferEncoding():
-'''public String getTransferEncoding()
-'''
-pass
+    '''    public String getTransferEncoding()
+    '''
 def getCharset():
-'''public String getCharset()
-'''
-pass
+    '''    public String getCharset()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''

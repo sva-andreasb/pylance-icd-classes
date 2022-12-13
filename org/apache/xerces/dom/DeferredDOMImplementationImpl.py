@@ -1,4 +1,3 @@
 def getDOMImplementation():
-'''public static DOMImplementation getDOMImplementation()
-'''
-pass
+    '''    public static DOMImplementation getDOMImplementation()
+    '''

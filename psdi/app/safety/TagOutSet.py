@@ -1,8 +1,6 @@
 def TagOutSet():
-'''public TagOutSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TagOutSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

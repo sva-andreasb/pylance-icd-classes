@@ -1,8 +1,6 @@
 def BALOAD():
-'''public BALOAD()
-'''
-pass
+    '''    public BALOAD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

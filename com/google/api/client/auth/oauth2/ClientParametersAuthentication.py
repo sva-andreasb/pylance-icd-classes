@@ -1,20 +1,15 @@
 def ClientParametersAuthentication():
-'''public ClientParametersAuthentication(final String clientId, final String clientSecret)
-'''
-pass
+    '''    public ClientParametersAuthentication(final String clientId, final String clientSecret)
+    '''
 def initialize():
-'''public void initialize(final HttpRequest request)
-'''
-pass
+    '''    public void initialize(final HttpRequest request)
+    '''
 def intercept():
-'''public void intercept(final HttpRequest request)
-'''
-pass
+    '''    public void intercept(final HttpRequest request)
+    '''
 def getClientId():
-'''public final String getClientId()
-'''
-pass
+    '''    public final String getClientId()
+    '''
 def getClientSecret():
-'''public final String getClientSecret()
-'''
-pass
+    '''    public final String getClientSecret()
+    '''

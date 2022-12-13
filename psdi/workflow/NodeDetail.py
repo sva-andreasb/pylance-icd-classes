@@ -1,36 +1,27 @@
 def NodeDetail():
-'''public NodeDetail()
-'''
-pass
+    '''    public NodeDetail()
+    '''
 def getNodeDetail():
-'''public static NodeDetail getNodeDetail(final WFNode node)
-'''
-pass
+    '''    public static NodeDetail getNodeDetail(final WFNode node)
+    '''
 def getNode():
-'''public WFNode getNode()
-'''
-pass
+    '''    public WFNode getNode()
+    '''
 def isTask():
-'''public boolean isTask()
-'''
-pass
+    '''    public boolean isTask()
+    '''
 def isStop():
-'''public boolean isStop()
-'''
-pass
+    '''    public boolean isStop()
+    '''
 def isStart():
-'''public boolean isStart()
-'''
-pass
+    '''    public boolean isStart()
+    '''
 def isInput():
-'''public boolean isInput()
-'''
-pass
+    '''    public boolean isInput()
+    '''
 def isInteractive():
-'''public boolean isInteractive()
-'''
-pass
+    '''    public boolean isInteractive()
+    '''
 def isWait():
-'''public boolean isWait()
-'''
-pass
+    '''    public boolean isWait()
+    '''

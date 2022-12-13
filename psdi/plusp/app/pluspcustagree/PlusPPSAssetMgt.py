@@ -1,16 +1,12 @@
 def PlusPPSAssetMgt():
-'''public PlusPPSAssetMgt(final MboSet set)
-'''
-pass
+    '''    public PlusPPSAssetMgt(final MboSet set)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

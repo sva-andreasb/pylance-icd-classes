@@ -1,31 +1,24 @@
-EXTSCHEMADIR = "String  external""
-EXTRQSCHEMANSPREFIX = "String  nsexrq""
-EXTRSSCHEMANSPREFIX = "String  nsexrs""
+EXTSCHEMADIR = "String  \"external\""
+EXTRQSCHEMANSPREFIX = "String  \"nsexrq\""
+EXTRSSCHEMANSPREFIX = "String  \"nsexrs\""
 def ExternalSchemaGenerator():
-'''public ExternalSchemaGenerator(final String extSchemaFileName)
-'''
-pass
+    '''    public ExternalSchemaGenerator(final String extSchemaFileName)
+    '''
 def createSchemaDcoument():
-'''public Document createSchemaDcoument()
-'''
-pass
+    '''    public Document createSchemaDcoument()
+    '''
 def getSchemaFileName():
-'''public String getSchemaFileName()
-'''
-pass
+    '''    public String getSchemaFileName()
+    '''
 def getSchemaFolder():
-'''public File getSchemaFolder()
-'''
-pass
+    '''    public File getSchemaFolder()
+    '''
 def getSchemaFile():
-'''public File getSchemaFile()
-'''
-pass
+    '''    public File getSchemaFile()
+    '''
 def getSchemaTNS():
-'''public String getSchemaTNS()
-'''
-pass
+    '''    public String getSchemaTNS()
+    '''
 def getSchemaUrl():
-'''public String getSchemaUrl()
-'''
-pass
+    '''    public String getSchemaUrl()
+    '''

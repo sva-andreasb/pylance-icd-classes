@@ -1,70 +1,53 @@
 def FileProvider():
-'''public FileProvider(final String filename)
-public FileProvider(final String basepath, final String filename)
-public FileProvider(final InputStream is)
-'''
-pass
+    '''    public FileProvider(final String filename)
+    public FileProvider(final String basepath, final String filename)
+    public FileProvider(final InputStream is)
+    '''
 def setInputStream():
-'''public void setInputStream(final InputStream is)
-'''
-pass
+    '''    public void setInputStream(final InputStream is)
+    '''
 def getDeployment():
-'''public WSDDDeployment getDeployment()
-'''
-pass
+    '''    public WSDDDeployment getDeployment()
+    '''
 def setDeployment():
-'''public void setDeployment(final WSDDDeployment deployment)
-'''
-pass
+    '''    public void setDeployment(final WSDDDeployment deployment)
+    '''
 def setSearchClasspath():
-'''public void setSearchClasspath(final boolean searchClasspath)
-'''
-pass
+    '''    public void setSearchClasspath(final boolean searchClasspath)
+    '''
 def configureEngine():
-'''public void configureEngine(final AxisEngine engine)
-'''
-pass
+    '''    public void configureEngine(final AxisEngine engine)
+    '''
 def writeEngineConfig():
-'''public void writeEngineConfig(final AxisEngine engine)
-'''
-pass
+    '''    public void writeEngineConfig(final AxisEngine engine)
+    '''
 def getHandler():
-'''public Handler getHandler(final QName qname)
-'''
-pass
+    '''    public Handler getHandler(final QName qname)
+    '''
 def getService():
-'''public SOAPService getService(final QName qname)
-'''
-pass
+    '''    public SOAPService getService(final QName qname)
+    '''
 def getServiceByNamespaceURI():
-'''public SOAPService getServiceByNamespaceURI(final String namespace)
-'''
-pass
+    '''    public SOAPService getServiceByNamespaceURI(final String namespace)
+    '''
 def getTransport():
-'''public Handler getTransport(final QName qname)
-'''
-pass
+    '''    public Handler getTransport(final QName qname)
+    '''
 def getTypeMappingRegistry():
-'''public TypeMappingRegistry getTypeMappingRegistry()
-'''
-pass
+    '''    public TypeMappingRegistry getTypeMappingRegistry()
+    '''
 def getGlobalRequest():
-'''public Handler getGlobalRequest()
-'''
-pass
+    '''    public Handler getGlobalRequest()
+    '''
 def getGlobalResponse():
-'''public Handler getGlobalResponse()
-'''
-pass
+    '''    public Handler getGlobalResponse()
+    '''
 def getGlobalOptions():
-'''public Hashtable getGlobalOptions()
-'''
-pass
+    '''    public Hashtable getGlobalOptions()
+    '''
 def getDeployedServices():
-'''public Iterator getDeployedServices()
-'''
-pass
+    '''    public Iterator getDeployedServices()
+    '''
 def getRoles():
-'''public List getRoles()
-'''
-pass
+    '''    public List getRoles()
+    '''

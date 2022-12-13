@@ -1,4 +1,3 @@
 def htmlEntityEncode():
-'''public static String htmlEntityEncode(final String value)
-'''
-pass
+    '''    public static String htmlEntityEncode(final String value)
+    '''

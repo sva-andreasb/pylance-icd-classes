@@ -1,33 +1,25 @@
 def ConstantString():
-'''public ConstantString(final ConstantString c)
-public ConstantString(final int string_index)
-'''
-pass
+    '''    public ConstantString(final ConstantString c)
+    public ConstantString(final int string_index)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getStringIndex():
-'''public final int getStringIndex()
-'''
-pass
+    '''    public final int getStringIndex()
+    '''
 def setStringIndex():
-'''public final void setStringIndex(final int string_index)
-'''
-pass
+    '''    public final void setStringIndex(final int string_index)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def getConstantValue():
-'''public Object getConstantValue(final ConstantPool cp)
-'''
-pass
+    '''    public Object getConstantValue(final ConstantPool cp)
+    '''
 def getBytes():
-'''public String getBytes(final ConstantPool cp)
-'''
-pass
+    '''    public String getBytes(final ConstantPool cp)
+    '''

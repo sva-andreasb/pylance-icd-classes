@@ -1,12 +1,9 @@
 def getIdentifier():
-'''public final ASN1Identifier getIdentifier()
-'''
-pass
+    '''    public final ASN1Identifier getIdentifier()
+    '''
 def dupRequest():
-'''public final RfcRequest dupRequest(final String s, final String s2, final boolean b)
-'''
-pass
+    '''    public final RfcRequest dupRequest(final String s, final String s2, final boolean b)
+    '''
 def getRequestDN():
-'''public final String getRequestDN()
-'''
-pass
+    '''    public final String getRequestDN()
+    '''

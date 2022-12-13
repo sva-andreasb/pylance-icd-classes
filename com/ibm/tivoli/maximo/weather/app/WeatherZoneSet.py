@@ -1,4 +1,3 @@
 def WeatherZoneSet():
-'''public WeatherZoneSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WeatherZoneSet(final MboServerInterface ms)
+    '''

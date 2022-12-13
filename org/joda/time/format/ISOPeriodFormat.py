@@ -1,20 +1,15 @@
 def standard():
-'''public static PeriodFormatter standard()
-'''
-pass
+    '''    public static PeriodFormatter standard()
+    '''
 def alternate():
-'''public static PeriodFormatter alternate()
-'''
-pass
+    '''    public static PeriodFormatter alternate()
+    '''
 def alternateExtended():
-'''public static PeriodFormatter alternateExtended()
-'''
-pass
+    '''    public static PeriodFormatter alternateExtended()
+    '''
 def alternateWithWeeks():
-'''public static PeriodFormatter alternateWithWeeks()
-'''
-pass
+    '''    public static PeriodFormatter alternateWithWeeks()
+    '''
 def alternateExtendedWithWeeks():
-'''public static PeriodFormatter alternateExtendedWithWeeks()
-'''
-pass
+    '''    public static PeriodFormatter alternateExtendedWithWeeks()
+    '''

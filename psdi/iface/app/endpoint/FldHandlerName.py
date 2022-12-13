@@ -1,8 +1,6 @@
 def FldHandlerName():
-'''public FldHandlerName(final MboValue mbv)
-'''
-pass
+    '''    public FldHandlerName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

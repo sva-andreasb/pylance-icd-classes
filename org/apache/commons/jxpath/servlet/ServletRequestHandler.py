@@ -1,12 +1,9 @@
 def getPropertyNames():
-'''public String[] getPropertyNames(final Object request)
-'''
-pass
+    '''    public String[] getPropertyNames(final Object request)
+    '''
 def getProperty():
-'''public Object getProperty(final Object request, final String property)
-'''
-pass
+    '''    public Object getProperty(final Object request, final String property)
+    '''
 def setProperty():
-'''public void setProperty(final Object request, final String property, final Object value)
-'''
-pass
+    '''    public void setProperty(final Object request, final String property, final Object value)
+    '''

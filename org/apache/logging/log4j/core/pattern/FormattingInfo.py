@@ -1,37 +1,28 @@
 def FormattingInfo():
-'''public FormattingInfo(final boolean leftAlign, final int minLength, final int maxLength, final boolean leftTruncate)
-public FormattingInfo(final boolean leftAlign, final int minLength, final int maxLength, final boolean leftTruncate, final boolean zeroPad)
-'''
-pass
+    '''    public FormattingInfo(final boolean leftAlign, final int minLength, final int maxLength, final boolean leftTruncate)
+    public FormattingInfo(final boolean leftAlign, final int minLength, final int maxLength, final boolean leftTruncate, final boolean zeroPad)
+    '''
 def getDefault():
-'''public static FormattingInfo getDefault()
-'''
-pass
+    '''    public static FormattingInfo getDefault()
+    '''
 def isLeftAligned():
-'''public boolean isLeftAligned()
-'''
-pass
+    '''    public boolean isLeftAligned()
+    '''
 def isLeftTruncate():
-'''public boolean isLeftTruncate()
-'''
-pass
+    '''    public boolean isLeftTruncate()
+    '''
 def isZeroPad():
-'''public boolean isZeroPad()
-'''
-pass
+    '''    public boolean isZeroPad()
+    '''
 def getMinLength():
-'''public int getMinLength()
-'''
-pass
+    '''    public int getMinLength()
+    '''
 def getMaxLength():
-'''public int getMaxLength()
-'''
-pass
+    '''    public int getMaxLength()
+    '''
 def format():
-'''public void format(final int fieldStart, final StringBuilder buffer)
-'''
-pass
+    '''    public void format(final int fieldStart, final StringBuilder buffer)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

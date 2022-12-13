@@ -1,8 +1,6 @@
 def FldJobToolSiteId():
-'''public FldJobToolSiteId(final MboValue mbv)
-'''
-pass
+    '''    public FldJobToolSiteId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

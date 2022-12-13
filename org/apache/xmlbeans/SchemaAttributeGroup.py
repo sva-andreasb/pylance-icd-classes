@@ -1,13 +1,10 @@
 def Ref():
-'''public Ref(final SchemaAttributeGroup attributeGroup)
-public Ref(final SchemaTypeSystem system, final String handle)
-'''
-pass
+    '''    public Ref(final SchemaAttributeGroup attributeGroup)
+    public Ref(final SchemaTypeSystem system, final String handle)
+    '''
 def getComponentType():
-'''public final int getComponentType()
-'''
-pass
+    '''    public final int getComponentType()
+    '''
 def get():
-'''public final SchemaAttributeGroup get()
-'''
-pass
+    '''    public final SchemaAttributeGroup get()
+    '''

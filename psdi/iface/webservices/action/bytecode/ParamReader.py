@@ -1,22 +1,17 @@
 def ParamReader():
-'''public ParamReader(final Class c)
-public ParamReader(final byte[] b)
-'''
-pass
+    '''    public ParamReader(final Class c)
+    public ParamReader(final byte[] b)
+    '''
 def readCode():
-'''public void readCode()
-'''
-pass
+    '''    public void readCode()
+    '''
 def getParameterNames():
-'''public String[] getParameterNames(final Constructor ctor)
-public String[] getParameterNames(final Method method)
-'''
-pass
+    '''    public String[] getParameterNames(final Constructor ctor)
+    public String[] getParameterNames(final Method method)
+    '''
 def readLocalVariableTable():
-'''public void readLocalVariableTable()
-'''
-pass
+    '''    public void readLocalVariableTable()
+    '''
 def MethodInfo():
-'''public MethodInfo(final int maxLocals)
-'''
-pass
+    '''    public MethodInfo(final int maxLocals)
+    '''

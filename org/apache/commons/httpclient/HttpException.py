@@ -1,32 +1,25 @@
 def HttpException():
-'''public HttpException()
-public HttpException(final String message)
-public HttpException(final String message, final Throwable cause)
-'''
-pass
+    '''    public HttpException()
+    public HttpException(final String message)
+    public HttpException(final String message, final Throwable cause)
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''
 def printStackTrace():
-'''public void printStackTrace()
-public void printStackTrace(final PrintStream s)
-public void printStackTrace(final PrintWriter s)
-'''
-pass
+    '''    public void printStackTrace()
+    public void printStackTrace(final PrintStream s)
+    public void printStackTrace(final PrintWriter s)
+    '''
 def setReason():
-'''public void setReason(final String reason)
-'''
-pass
+    '''    public void setReason(final String reason)
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def setReasonCode():
-'''public void setReasonCode(final int code)
-'''
-pass
+    '''    public void setReasonCode(final int code)
+    '''
 def getReasonCode():
-'''public int getReasonCode()
-'''
-pass
+    '''    public int getReasonCode()
+    '''

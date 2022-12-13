@@ -1,5 +1,4 @@
 def AuthorizationManagerException():
-'''public AuthorizationManagerException()
-public AuthorizationManagerException(final String s)
-'''
-pass
+    '''    public AuthorizationManagerException()
+    public AuthorizationManagerException(final String s)
+    '''

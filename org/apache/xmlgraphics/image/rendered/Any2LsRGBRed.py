@@ -1,12 +1,9 @@
 def Any2LsRGBRed():
-'''public Any2LsRGBRed(final CachableRed src)
-'''
-pass
+    '''    public Any2LsRGBRed(final CachableRed src)
+    '''
 def sRGBToLsRGB():
-'''public static final double sRGBToLsRGB(final double value)
-'''
-pass
+    '''    public static final double sRGBToLsRGB(final double value)
+    '''
 def copyData():
-'''public WritableRaster copyData(final WritableRaster wr)
-'''
-pass
+    '''    public WritableRaster copyData(final WritableRaster wr)
+    '''

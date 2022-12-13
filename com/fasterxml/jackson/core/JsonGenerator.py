@@ -1,220 +1,167 @@
 def configure():
-'''public final JsonGenerator configure(final Feature f, final boolean state)
-'''
-pass
+    '''    public final JsonGenerator configure(final Feature f, final boolean state)
+    '''
 def overrideStdFeatures():
-'''public JsonGenerator overrideStdFeatures(final int values, final int mask)
-'''
-pass
+    '''    public JsonGenerator overrideStdFeatures(final int values, final int mask)
+    '''
 def getFormatFeatures():
-'''public int getFormatFeatures()
-'''
-pass
+    '''    public int getFormatFeatures()
+    '''
 def overrideFormatFeatures():
-'''public JsonGenerator overrideFormatFeatures(final int values, final int mask)
-'''
-pass
+    '''    public JsonGenerator overrideFormatFeatures(final int values, final int mask)
+    '''
 def setSchema():
-'''public void setSchema(final FormatSchema schema)
-'''
-pass
+    '''    public void setSchema(final FormatSchema schema)
+    '''
 def getSchema():
-'''public FormatSchema getSchema()
-'''
-pass
+    '''    public FormatSchema getSchema()
+    '''
 def setPrettyPrinter():
-'''public JsonGenerator setPrettyPrinter(final PrettyPrinter pp)
-'''
-pass
+    '''    public JsonGenerator setPrettyPrinter(final PrettyPrinter pp)
+    '''
 def getPrettyPrinter():
-'''public PrettyPrinter getPrettyPrinter()
-'''
-pass
+    '''    public PrettyPrinter getPrettyPrinter()
+    '''
 def setHighestNonEscapedChar():
-'''public JsonGenerator setHighestNonEscapedChar(final int charCode)
-'''
-pass
+    '''    public JsonGenerator setHighestNonEscapedChar(final int charCode)
+    '''
 def getHighestEscapedChar():
-'''public int getHighestEscapedChar()
-'''
-pass
+    '''    public int getHighestEscapedChar()
+    '''
 def getCharacterEscapes():
-'''public CharacterEscapes getCharacterEscapes()
-'''
-pass
+    '''    public CharacterEscapes getCharacterEscapes()
+    '''
 def setCharacterEscapes():
-'''public JsonGenerator setCharacterEscapes(final CharacterEscapes esc)
-'''
-pass
+    '''    public JsonGenerator setCharacterEscapes(final CharacterEscapes esc)
+    '''
 def setRootValueSeparator():
-'''public JsonGenerator setRootValueSeparator(final SerializableString sep)
-'''
-pass
+    '''    public JsonGenerator setRootValueSeparator(final SerializableString sep)
+    '''
 def getOutputTarget():
-'''public Object getOutputTarget()
-'''
-pass
+    '''    public Object getOutputTarget()
+    '''
 def getOutputBuffered():
-'''public int getOutputBuffered()
-'''
-pass
+    '''    public int getOutputBuffered()
+    '''
 def getCurrentValue():
-'''public Object getCurrentValue()
-'''
-pass
+    '''    public Object getCurrentValue()
+    '''
 def setCurrentValue():
-'''public void setCurrentValue(final Object v)
-'''
-pass
+    '''    public void setCurrentValue(final Object v)
+    '''
 def canUseSchema():
-'''public boolean canUseSchema(final FormatSchema schema)
-'''
-pass
+    '''    public boolean canUseSchema(final FormatSchema schema)
+    '''
 def canWriteObjectId():
-'''public boolean canWriteObjectId()
-'''
-pass
+    '''    public boolean canWriteObjectId()
+    '''
 def canWriteTypeId():
-'''public boolean canWriteTypeId()
-'''
-pass
+    '''    public boolean canWriteTypeId()
+    '''
 def canWriteBinaryNatively():
-'''public boolean canWriteBinaryNatively()
-'''
-pass
+    '''    public boolean canWriteBinaryNatively()
+    '''
 def canOmitFields():
-'''public boolean canOmitFields()
-'''
-pass
+    '''    public boolean canOmitFields()
+    '''
 def canWriteFormattedNumbers():
-'''public boolean canWriteFormattedNumbers()
-'''
-pass
+    '''    public boolean canWriteFormattedNumbers()
+    '''
 def writeStartArray():
-'''public void writeStartArray(final int size)
-'''
-pass
+    '''    public void writeStartArray(final int size)
+    '''
 def writeStartObject():
-'''public void writeStartObject(final Object forValue)
-'''
-pass
+    '''    public void writeStartObject(final Object forValue)
+    '''
 def writeFieldId():
-'''public void writeFieldId(final long id)
-'''
-pass
+    '''    public void writeFieldId(final long id)
+    '''
 def writeArray():
-'''public void writeArray(final int[] array, final int offset, final int length)
-public void writeArray(final long[] array, final int offset, final int length)
-public void writeArray(final double[] array, final int offset, final int length)
-'''
-pass
+    '''    public void writeArray(final int[] array, final int offset, final int length)
+    public void writeArray(final long[] array, final int offset, final int length)
+    public void writeArray(final double[] array, final int offset, final int length)
+    '''
 def writeString():
-'''public void writeString(final Reader reader, final int len)
-'''
-pass
+    '''    public void writeString(final Reader reader, final int len)
+    '''
 def writeRaw():
-'''public void writeRaw(final SerializableString raw)
-'''
-pass
+    '''    public void writeRaw(final SerializableString raw)
+    '''
 def writeRawValue():
-'''public void writeRawValue(final SerializableString raw)
-'''
-pass
+    '''    public void writeRawValue(final SerializableString raw)
+    '''
 def writeBinary():
-'''public void writeBinary(final byte[] data, final int offset, final int len)
-public void writeBinary(final byte[] data)
-public int writeBinary(final InputStream data, final int dataLength)
-'''
-pass
+    '''    public void writeBinary(final byte[] data, final int offset, final int len)
+    public void writeBinary(final byte[] data)
+    public int writeBinary(final InputStream data, final int dataLength)
+    '''
 def writeNumber():
-'''public void writeNumber(final short v)
-'''
-pass
+    '''    public void writeNumber(final short v)
+    '''
 def writeEmbeddedObject():
-'''public void writeEmbeddedObject(final Object object)
-'''
-pass
+    '''    public void writeEmbeddedObject(final Object object)
+    '''
 def writeObjectId():
-'''public void writeObjectId(final Object id)
-'''
-pass
+    '''    public void writeObjectId(final Object id)
+    '''
 def writeObjectRef():
-'''public void writeObjectRef(final Object id)
-'''
-pass
+    '''    public void writeObjectRef(final Object id)
+    '''
 def writeTypeId():
-'''public void writeTypeId(final Object id)
-'''
-pass
+    '''    public void writeTypeId(final Object id)
+    '''
 def writeTypePrefix():
-'''public WritableTypeId writeTypePrefix(final WritableTypeId typeIdDef)
-'''
-pass
+    '''    public WritableTypeId writeTypePrefix(final WritableTypeId typeIdDef)
+    '''
 def writeTypeSuffix():
-'''public WritableTypeId writeTypeSuffix(final WritableTypeId typeIdDef)
-'''
-pass
+    '''    public WritableTypeId writeTypeSuffix(final WritableTypeId typeIdDef)
+    '''
 def writeStringField():
-'''public void writeStringField(final String fieldName, final String value)
-'''
-pass
+    '''    public void writeStringField(final String fieldName, final String value)
+    '''
 def writeBooleanField():
-'''public final void writeBooleanField(final String fieldName, final boolean value)
-'''
-pass
+    '''    public final void writeBooleanField(final String fieldName, final boolean value)
+    '''
 def writeNullField():
-'''public final void writeNullField(final String fieldName)
-'''
-pass
+    '''    public final void writeNullField(final String fieldName)
+    '''
 def writeNumberField():
-'''public final void writeNumberField(final String fieldName, final int value)
-public final void writeNumberField(final String fieldName, final long value)
-public final void writeNumberField(final String fieldName, final double value)
-public final void writeNumberField(final String fieldName, final float value)
-public final void writeNumberField(final String fieldName, final BigDecimal value)
-'''
-pass
+    '''    public final void writeNumberField(final String fieldName, final int value)
+    public final void writeNumberField(final String fieldName, final long value)
+    public final void writeNumberField(final String fieldName, final double value)
+    public final void writeNumberField(final String fieldName, final float value)
+    public final void writeNumberField(final String fieldName, final BigDecimal value)
+    '''
 def writeBinaryField():
-'''public final void writeBinaryField(final String fieldName, final byte[] data)
-'''
-pass
+    '''    public final void writeBinaryField(final String fieldName, final byte[] data)
+    '''
 def writeArrayFieldStart():
-'''public final void writeArrayFieldStart(final String fieldName)
-'''
-pass
+    '''    public final void writeArrayFieldStart(final String fieldName)
+    '''
 def writeObjectFieldStart():
-'''public final void writeObjectFieldStart(final String fieldName)
-'''
-pass
+    '''    public final void writeObjectFieldStart(final String fieldName)
+    '''
 def writeObjectField():
-'''public final void writeObjectField(final String fieldName, final Object pojo)
-'''
-pass
+    '''    public final void writeObjectField(final String fieldName, final Object pojo)
+    '''
 def writeOmittedField():
-'''public void writeOmittedField(final String fieldName)
-'''
-pass
+    '''    public void writeOmittedField(final String fieldName)
+    '''
 def copyCurrentEvent():
-'''public void copyCurrentEvent(final JsonParser p)
-'''
-pass
+    '''    public void copyCurrentEvent(final JsonParser p)
+    '''
 def copyCurrentStructure():
-'''public void copyCurrentStructure(final JsonParser p)
-'''
-pass
+    '''    public void copyCurrentStructure(final JsonParser p)
+    '''
 def collectDefaults():
-'''public static int collectDefaults()
-'''
-pass
+    '''    public static int collectDefaults()
+    '''
 def enabledByDefault():
-'''public boolean enabledByDefault()
-'''
-pass
+    '''    public boolean enabledByDefault()
+    '''
 def enabledIn():
-'''public boolean enabledIn(final int flags)
-'''
-pass
+    '''    public boolean enabledIn(final int flags)
+    '''
 def getMask():
-'''public int getMask()
-'''
-pass
+    '''    public int getMask()
+    '''

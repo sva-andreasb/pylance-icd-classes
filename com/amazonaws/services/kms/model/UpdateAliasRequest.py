@@ -1,40 +1,30 @@
 def setAliasName():
-'''public void setAliasName(final String aliasName)
-'''
-pass
+    '''    public void setAliasName(final String aliasName)
+    '''
 def getAliasName():
-'''public String getAliasName()
-'''
-pass
+    '''    public String getAliasName()
+    '''
 def withAliasName():
-'''public UpdateAliasRequest withAliasName(final String aliasName)
-'''
-pass
+    '''    public UpdateAliasRequest withAliasName(final String aliasName)
+    '''
 def setTargetKeyId():
-'''public void setTargetKeyId(final String targetKeyId)
-'''
-pass
+    '''    public void setTargetKeyId(final String targetKeyId)
+    '''
 def getTargetKeyId():
-'''public String getTargetKeyId()
-'''
-pass
+    '''    public String getTargetKeyId()
+    '''
 def withTargetKeyId():
-'''public UpdateAliasRequest withTargetKeyId(final String targetKeyId)
-'''
-pass
+    '''    public UpdateAliasRequest withTargetKeyId(final String targetKeyId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public UpdateAliasRequest clone()
-'''
-pass
+    '''    public UpdateAliasRequest clone()
+    '''

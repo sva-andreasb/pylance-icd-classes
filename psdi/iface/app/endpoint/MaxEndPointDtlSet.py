@@ -1,4 +1,3 @@
 def MaxEndPointDtlSet():
-'''public MaxEndPointDtlSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxEndPointDtlSet(final MboServerInterface ms)
+    '''

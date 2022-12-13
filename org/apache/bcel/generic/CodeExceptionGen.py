@@ -1,56 +1,42 @@
 def CodeExceptionGen():
-'''public CodeExceptionGen(final InstructionHandle start_pc, final InstructionHandle end_pc, final InstructionHandle handler_pc, final ObjectType catch_type)
-'''
-pass
+    '''    public CodeExceptionGen(final InstructionHandle start_pc, final InstructionHandle end_pc, final InstructionHandle handler_pc, final ObjectType catch_type)
+    '''
 def getCodeException():
-'''public CodeException getCodeException(final ConstantPoolGen cp)
-'''
-pass
+    '''    public CodeException getCodeException(final ConstantPoolGen cp)
+    '''
 def setStartPC():
-'''public void setStartPC(final InstructionHandle start_pc)
-'''
-pass
+    '''    public void setStartPC(final InstructionHandle start_pc)
+    '''
 def setEndPC():
-'''public void setEndPC(final InstructionHandle end_pc)
-'''
-pass
+    '''    public void setEndPC(final InstructionHandle end_pc)
+    '''
 def setHandlerPC():
-'''public void setHandlerPC(final InstructionHandle handler_pc)
-'''
-pass
+    '''    public void setHandlerPC(final InstructionHandle handler_pc)
+    '''
 def updateTarget():
-'''public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
-'''
-pass
+    '''    public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
+    '''
 def containsTarget():
-'''public boolean containsTarget(final InstructionHandle ih)
-'''
-pass
+    '''    public boolean containsTarget(final InstructionHandle ih)
+    '''
 def setCatchType():
-'''public void setCatchType(final ObjectType catch_type)
-'''
-pass
+    '''    public void setCatchType(final ObjectType catch_type)
+    '''
 def getCatchType():
-'''public ObjectType getCatchType()
-'''
-pass
+    '''    public ObjectType getCatchType()
+    '''
 def getStartPC():
-'''public InstructionHandle getStartPC()
-'''
-pass
+    '''    public InstructionHandle getStartPC()
+    '''
 def getEndPC():
-'''public InstructionHandle getEndPC()
-'''
-pass
+    '''    public InstructionHandle getEndPC()
+    '''
 def getHandlerPC():
-'''public InstructionHandle getHandlerPC()
-'''
-pass
+    '''    public InstructionHandle getHandlerPC()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

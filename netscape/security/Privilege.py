@@ -7,45 +7,35 @@ SCOPE = "int  16"
 SESSION = "int  32"
 FOREVER = "int  64"
 def findPrivilege():
-'''public static Privilege findPrivilege(final int n, final int n2)
-'''
-pass
+    '''    public static Privilege findPrivilege(final int n, final int n2)
+    '''
 def add():
-'''public static int add(final int n, final int n2)
-public static Privilege add(final Privilege privilege, final Privilege privilege2)
-'''
-pass
+    '''    public static int add(final int n, final int n2)
+    public static Privilege add(final Privilege privilege, final Privilege privilege2)
+    '''
 def samePermission():
-'''public boolean samePermission(final Privilege privilege)
-public boolean samePermission(final int n)
-'''
-pass
+    '''    public boolean samePermission(final Privilege privilege)
+    public boolean samePermission(final int n)
+    '''
 def sameDuration():
-'''public boolean sameDuration(final Privilege privilege)
-public boolean sameDuration(final int n)
-'''
-pass
+    '''    public boolean sameDuration(final Privilege privilege)
+    public boolean sameDuration(final int n)
+    '''
 def isAllowed():
-'''public boolean isAllowed()
-'''
-pass
+    '''    public boolean isAllowed()
+    '''
 def isForbidden():
-'''public boolean isForbidden()
-'''
-pass
+    '''    public boolean isForbidden()
+    '''
 def isBlank():
-'''public boolean isBlank()
-'''
-pass
+    '''    public boolean isBlank()
+    '''
 def getPermission():
-'''public int getPermission()
-'''
-pass
+    '''    public int getPermission()
+    '''
 def getDuration():
-'''public int getDuration()
-'''
-pass
+    '''    public int getDuration()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

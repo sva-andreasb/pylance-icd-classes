@@ -1,36 +1,27 @@
 def LaborQual():
-'''public LaborQual(final MboSet ms)
-'''
-pass
+    '''    public LaborQual(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def calculateEndDate():
-'''public Date calculateEndDate(final Date inDate)
-'''
-pass
+    '''    public Date calculateEndDate(final Date inDate)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def changeStatus():
-'''public void changeStatus(final String newStatus, final Date date, final String memo)
-'''
-pass
+    '''    public void changeStatus(final String newStatus, final Date date, final String memo)
+    '''

@@ -1,4 +1,3 @@
 def ScriptEnginesNPSet():
-'''public ScriptEnginesNPSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ScriptEnginesNPSet(final MboServerInterface ms)
+    '''

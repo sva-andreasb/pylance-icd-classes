@@ -1,1 +1,1 @@
-TAG_ID = "String  MultiTermRewriteMethodConfiguration""
+TAG_ID = "String  \"MultiTermRewriteMethodConfiguration\""

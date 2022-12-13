@@ -1,8 +1,6 @@
 def FldAppenderImpl():
-'''public FldAppenderImpl(final MboValue mbv)
-'''
-pass
+    '''    public FldAppenderImpl(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

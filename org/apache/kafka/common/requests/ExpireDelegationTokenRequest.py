@@ -1,36 +1,27 @@
 def ExpireDelegationTokenRequest():
-'''public ExpireDelegationTokenRequest(final Struct struct, final short versionId)
-'''
-pass
+    '''    public ExpireDelegationTokenRequest(final Struct struct, final short versionId)
+    '''
 def parse():
-'''public static ExpireDelegationTokenRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static ExpireDelegationTokenRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def hmac():
-'''public ByteBuffer hmac()
-'''
-pass
+    '''    public ByteBuffer hmac()
+    '''
 def expiryTimePeriod():
-'''public long expiryTimePeriod()
-'''
-pass
+    '''    public long expiryTimePeriod()
+    '''
 def Builder():
-'''public Builder(final ByteBuffer hmac, final long expiryTimePeriod)
-'''
-pass
+    '''    public Builder(final ByteBuffer hmac, final long expiryTimePeriod)
+    '''
 def build():
-'''public ExpireDelegationTokenRequest build(final short version)
-'''
-pass
+    '''    public ExpireDelegationTokenRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def FldTaxCode():
-'''public FldTaxCode(final MboValue mbv)
-'''
-pass
+    '''    public FldTaxCode(final MboValue mbv)
+    '''

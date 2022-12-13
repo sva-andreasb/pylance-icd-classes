@@ -1,8 +1,6 @@
 def FldDowntimeReportDate():
-'''public FldDowntimeReportDate(final MboValue mbv)
-'''
-pass
+    '''    public FldDowntimeReportDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

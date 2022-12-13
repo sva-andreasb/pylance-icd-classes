@@ -1,8 +1,6 @@
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''

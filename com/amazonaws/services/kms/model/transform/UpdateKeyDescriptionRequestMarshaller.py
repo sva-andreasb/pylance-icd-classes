@@ -1,8 +1,6 @@
 def UpdateKeyDescriptionRequestMarshaller():
-'''public UpdateKeyDescriptionRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public UpdateKeyDescriptionRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<UpdateKeyDescriptionRequest> marshall(final UpdateKeyDescriptionRequest updateKeyDescriptionRequest)
-'''
-pass
+    '''    public Request<UpdateKeyDescriptionRequest> marshall(final UpdateKeyDescriptionRequest updateKeyDescriptionRequest)
+    '''

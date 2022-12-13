@@ -1,5 +1,4 @@
-KEY_FACTORY_CLASS = "String  net.fortuna.ical4j.parser""
+KEY_FACTORY_CLASS = "String  \"net.fortuna.ical4j.parser\""
 def getInstance():
-'''public static Supplier<CalendarParser> getInstance()
-'''
-pass
+    '''    public static Supplier<CalendarParser> getInstance()
+    '''

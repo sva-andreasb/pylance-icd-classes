@@ -1,4 +1,3 @@
 def preview():
-'''public int preview()
-'''
-pass
+    '''    public int preview()
+    '''

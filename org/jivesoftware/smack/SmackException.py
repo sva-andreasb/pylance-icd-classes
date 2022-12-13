@@ -1,86 +1,67 @@
 def SmackException():
-'''public SmackException(final Throwable wrappedThrowable)
-public SmackException(final String message)
-public SmackException(final String message, final Throwable wrappedThrowable)
-'''
-pass
+    '''    public SmackException(final Throwable wrappedThrowable)
+    public SmackException(final String message)
+    public SmackException(final String message, final Throwable wrappedThrowable)
+    '''
 def getFilter():
-'''public StanzaFilter getFilter()
-'''
-pass
+    '''    public StanzaFilter getFilter()
+    '''
 def newWith():
-'''public static NoResponseException newWith(final XMPPConnection connection, final String waitingFor)
-public static NoResponseException newWith(final XMPPConnection connection, final StanzaCollector collector)
-public static NoResponseException newWith(final long timeout, final StanzaCollector collector)
-public static NoResponseException newWith(final XMPPConnection connection, final StanzaFilter filter)
-public static NoResponseException newWith(final long timeout, final StanzaFilter filter)
-'''
-pass
+    '''    public static NoResponseException newWith(final XMPPConnection connection, final String waitingFor)
+    public static NoResponseException newWith(final XMPPConnection connection, final StanzaCollector collector)
+    public static NoResponseException newWith(final long timeout, final StanzaCollector collector)
+    public static NoResponseException newWith(final XMPPConnection connection, final StanzaFilter filter)
+    public static NoResponseException newWith(final long timeout, final StanzaFilter filter)
+    '''
 def NotLoggedInException():
-'''public NotLoggedInException()
-'''
-pass
+    '''    public NotLoggedInException()
+    '''
 def AlreadyLoggedInException():
-'''public AlreadyLoggedInException()
-'''
-pass
+    '''    public AlreadyLoggedInException()
+    '''
 def AlreadyConnectedException():
-'''public AlreadyConnectedException()
-'''
-pass
+    '''    public AlreadyConnectedException()
+    '''
 def NotConnectedException():
-'''public NotConnectedException()
-public NotConnectedException(final String optionalHint)
-public NotConnectedException(final XMPPConnection connection, final String details)
-public NotConnectedException(final XMPPConnection connection, final StanzaFilter stanzaFilter)
-'''
-pass
+    '''    public NotConnectedException()
+    public NotConnectedException(final String optionalHint)
+    public NotConnectedException(final XMPPConnection connection, final String details)
+    public NotConnectedException(final XMPPConnection connection, final StanzaFilter stanzaFilter)
+    '''
 def SecurityRequiredException():
-'''public SecurityRequiredException(final String message)
-'''
-pass
+    '''    public SecurityRequiredException(final String message)
+    '''
 def SecurityRequiredByClientException():
-'''public SecurityRequiredByClientException()
-'''
-pass
+    '''    public SecurityRequiredByClientException()
+    '''
 def SecurityRequiredByServerException():
-'''public SecurityRequiredByServerException()
-'''
-pass
+    '''    public SecurityRequiredByServerException()
+    '''
 def SecurityNotPossibleException():
-'''public SecurityNotPossibleException(final String message)
-'''
-pass
+    '''    public SecurityNotPossibleException(final String message)
+    '''
 def ConnectionException():
-'''public ConnectionException(final Throwable wrappedThrowable)
-'''
-pass
+    '''    public ConnectionException(final Throwable wrappedThrowable)
+    '''
 def from():
-'''public static ConnectionException from(final List<HostAddress> failedAddresses)
-'''
-pass
+    '''    public static ConnectionException from(final List<HostAddress> failedAddresses)
+    '''
 def getFailedAddresses():
-'''public List<HostAddress> getFailedAddresses()
-'''
-pass
+    '''    public List<HostAddress> getFailedAddresses()
+    '''
 def FeatureNotSupportedException():
-'''public FeatureNotSupportedException(final String feature)
-public FeatureNotSupportedException(final String feature, final Jid jid)
-'''
-pass
+    '''    public FeatureNotSupportedException(final String feature)
+    public FeatureNotSupportedException(final String feature, final Jid jid)
+    '''
 def getFeature():
-'''public String getFeature()
-'''
-pass
+    '''    public String getFeature()
+    '''
 def getJid():
-'''public Jid getJid()
-'''
-pass
+    '''    public Jid getJid()
+    '''
 def ResourceBindingNotOfferedException():
-'''public ResourceBindingNotOfferedException()
-'''
-pass
+    '''    public ResourceBindingNotOfferedException()
+    '''
 def SmackWrappedException():
-'''public SmackWrappedException(final Exception exception)
-'''
-pass
+    '''    public SmackWrappedException(final Exception exception)
+    '''

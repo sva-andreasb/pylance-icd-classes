@@ -1,4 +1,3 @@
 def NumOfHitsSet():
-'''public NumOfHitsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NumOfHitsSet(final MboServerInterface ms)
+    '''

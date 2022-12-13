@@ -1,16 +1,12 @@
 def IdentityEndpointBuilder():
-'''public IdentityEndpointBuilder(final URI endpoint)
-'''
-pass
+    '''    public IdentityEndpointBuilder(final URI endpoint)
+    '''
 def getServiceEndpoint():
-'''public URI getServiceEndpoint()
-'''
-pass
+    '''    public URI getServiceEndpoint()
+    '''
 def withRegion():
-'''public DefaultServiceEndpointBuilder withRegion(final Region region)
-'''
-pass
+    '''    public DefaultServiceEndpointBuilder withRegion(final Region region)
+    '''
 def getRegion():
-'''public Region getRegion()
-'''
-pass
+    '''    public Region getRegion()
+    '''

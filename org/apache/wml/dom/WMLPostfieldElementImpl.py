@@ -1,36 +1,27 @@
 def WMLPostfieldElementImpl():
-'''public WMLPostfieldElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLPostfieldElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setValue():
-'''public void setValue(final String s)
-'''
-pass
+    '''    public void setValue(final String s)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

@@ -1,16 +1,12 @@
 def getInstance():
-'''public static synchronized EnterpriseServiceCache getInstance()
-'''
-pass
+    '''    public static synchronized EnterpriseServiceCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getEnterpriseServiceMap():
-'''public Map<String, EnterpriseServiceInfo> getEnterpriseServiceMap()
-'''
-pass
+    '''    public Map<String, EnterpriseServiceInfo> getEnterpriseServiceMap()
+    '''
 def getEnterpriseServiceInfo():
-'''public EnterpriseServiceInfo getEnterpriseServiceInfo(final String name)
-'''
-pass
+    '''    public EnterpriseServiceInfo getEnterpriseServiceInfo(final String name)
+    '''

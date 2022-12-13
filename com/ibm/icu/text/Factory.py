@@ -1,8 +1,6 @@
 def forLocale():
-'''public final PluralRules forLocale(final ULocale locale)
-'''
-pass
+    '''    public final PluralRules forLocale(final ULocale locale)
+    '''
 def getDefaultFactory():
-'''public static PluralRulesLoader getDefaultFactory()
-'''
-pass
+    '''    public static PluralRulesLoader getDefaultFactory()
+    '''

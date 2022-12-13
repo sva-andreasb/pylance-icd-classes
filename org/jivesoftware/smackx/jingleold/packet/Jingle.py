@@ -1,79 +1,61 @@
-NAMESPACE = "String  urn:xmpp:tmp:jingle""
-NODENAME = "String  jingle""
+NAMESPACE = "String  \"urn:xmpp:tmp:jingle\""
+NODENAME = "String  \"jingle\""
 def Jingle():
-'''public Jingle(final List<JingleContent> contents, final JingleContentInfo mi, final String sid)
-public Jingle(final JingleContent content)
-public Jingle(final JingleContentInfo info)
-public Jingle(final JingleActionEnum action)
-public Jingle(final String sid)
-public Jingle()
-'''
-pass
+    '''    public Jingle(final List<JingleContent> contents, final JingleContentInfo mi, final String sid)
+    public Jingle(final JingleContent content)
+    public Jingle(final JingleContentInfo info)
+    public Jingle(final JingleActionEnum action)
+    public Jingle(final String sid)
+    public Jingle()
+    '''
 def setSid():
-'''public final void setSid(final String sid)
-'''
-pass
+    '''    public final void setSid(final String sid)
+    '''
 def getSid():
-'''public String getSid()
-'''
-pass
+    '''    public String getSid()
+    '''
 def getElementName():
-'''public static String getElementName()
-'''
-pass
+    '''    public static String getElementName()
+    '''
 def getNamespace():
-'''public static String getNamespace()
-'''
-pass
+    '''    public static String getNamespace()
+    '''
 def getContentInfo():
-'''public JingleContentInfo getContentInfo()
-'''
-pass
+    '''    public JingleContentInfo getContentInfo()
+    '''
 def setContentInfo():
-'''public void setContentInfo(final JingleContentInfo contentInfo)
-'''
-pass
+    '''    public void setContentInfo(final JingleContentInfo contentInfo)
+    '''
 def getContents():
-'''public Iterator<JingleContent> getContents()
-'''
-pass
+    '''    public Iterator<JingleContent> getContents()
+    '''
 def getContentsList():
-'''public List<JingleContent> getContentsList()
-'''
-pass
+    '''    public List<JingleContent> getContentsList()
+    '''
 def addContent():
-'''public void addContent(final JingleContent content)
-'''
-pass
+    '''    public void addContent(final JingleContent content)
+    '''
 def addContents():
-'''public void addContents(final List<JingleContent> contentList)
-'''
-pass
+    '''    public void addContents(final List<JingleContent> contentList)
+    '''
 def getAction():
-'''public JingleActionEnum getAction()
-'''
-pass
+    '''    public JingleActionEnum getAction()
+    '''
 def setAction():
-'''public void setAction(final JingleActionEnum action)
-'''
-pass
+    '''    public void setAction(final JingleActionEnum action)
+    '''
 def getInitiator():
-'''public Jid getInitiator()
-'''
-pass
+    '''    public Jid getInitiator()
+    '''
 def setInitiator():
-'''public void setInitiator(final Jid initiator)
-'''
-pass
+    '''    public void setInitiator(final Jid initiator)
+    '''
 def getResponder():
-'''public Jid getResponder()
-'''
-pass
+    '''    public Jid getResponder()
+    '''
 def setResponder():
-'''public void setResponder(final Jid resp)
-'''
-pass
+    '''    public void setResponder(final Jid resp)
+    '''
 def getSessionHash():
-'''public static int getSessionHash(final String sid, final Jid initiator)
-'''
-pass
+    '''    public static int getSessionHash(final String sid, final Jid initiator)
+    '''

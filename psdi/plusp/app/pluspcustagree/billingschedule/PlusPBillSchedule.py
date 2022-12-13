@@ -1,40 +1,30 @@
 def isCopying():
-'''public boolean isCopying()
-'''
-pass
+    '''    public boolean isCopying()
+    '''
 def setCopying():
-'''public void setCopying(final boolean isCopying)
-'''
-pass
+    '''    public void setCopying(final boolean isCopying)
+    '''
 def PlusPBillSchedule():
-'''public PlusPBillSchedule(final MboSet ms)
-'''
-pass
+    '''    public PlusPBillSchedule(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String s, final String s2)
-'''
-pass
+    '''    public void propagateKeyValue(final String s, final String s2)
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

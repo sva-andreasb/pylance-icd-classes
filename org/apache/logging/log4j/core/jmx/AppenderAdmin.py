@@ -1,28 +1,21 @@
 def AppenderAdmin():
-'''public AppenderAdmin(final String contextName, final Appender appender)
-'''
-pass
+    '''    public AppenderAdmin(final String contextName, final Appender appender)
+    '''
 def getObjectName():
-'''public ObjectName getObjectName()
-'''
-pass
+    '''    public ObjectName getObjectName()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getLayout():
-'''public String getLayout()
-'''
-pass
+    '''    public String getLayout()
+    '''
 def isIgnoreExceptions():
-'''public boolean isIgnoreExceptions()
-'''
-pass
+    '''    public boolean isIgnoreExceptions()
+    '''
 def getErrorHandler():
-'''public String getErrorHandler()
-'''
-pass
+    '''    public String getErrorHandler()
+    '''
 def getFilter():
-'''public String getFilter()
-'''
-pass
+    '''    public String getFilter()
+    '''

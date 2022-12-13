@@ -1,16 +1,12 @@
 def BasicEofSensorWatcher():
-'''public BasicEofSensorWatcher(final ManagedClientConnection conn, final boolean reuse)
-'''
-pass
+    '''    public BasicEofSensorWatcher(final ManagedClientConnection conn, final boolean reuse)
+    '''
 def eofDetected():
-'''public boolean eofDetected(final InputStream wrapped)
-'''
-pass
+    '''    public boolean eofDetected(final InputStream wrapped)
+    '''
 def streamClosed():
-'''public boolean streamClosed(final InputStream wrapped)
-'''
-pass
+    '''    public boolean streamClosed(final InputStream wrapped)
+    '''
 def streamAbort():
-'''public boolean streamAbort(final InputStream wrapped)
-'''
-pass
+    '''    public boolean streamAbort(final InputStream wrapped)
+    '''

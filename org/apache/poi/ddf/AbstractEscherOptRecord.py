@@ -1,48 +1,36 @@
 def AbstractEscherOptRecord():
-'''public AbstractEscherOptRecord()
-'''
-pass
+    '''    public AbstractEscherOptRecord()
+    '''
 def addEscherProperty():
-'''public void addEscherProperty(final EscherProperty prop)
-'''
-pass
+    '''    public void addEscherProperty(final EscherProperty prop)
+    '''
 def fillFields():
-'''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
-'''
-pass
+    '''    public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''
 def getEscherProperties():
-'''public List<EscherProperty> getEscherProperties()
-'''
-pass
+    '''    public List<EscherProperty> getEscherProperties()
+    '''
 def getEscherProperty():
-'''public EscherProperty getEscherProperty(final int index)
-'''
-pass
+    '''    public EscherProperty getEscherProperty(final int index)
+    '''
 def getRecordSize():
-'''public int getRecordSize()
-'''
-pass
+    '''    public int getRecordSize()
+    '''
 def lookup():
-'''public <T extends EscherProperty> T lookup(final int propId)
-'''
-pass
+    '''    public <T extends EscherProperty> T lookup(final int propId)
+    '''
 def serialize():
-'''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
-'''
-pass
+    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''
 def sortProperties():
-'''public void sortProperties()
-'''
-pass
+    '''    public void sortProperties()
+    '''
 def compare():
-'''public int compare(final EscherProperty p1, final EscherProperty p2)
-'''
-pass
+    '''    public int compare(final EscherProperty p1, final EscherProperty p2)
+    '''
 def setEscherProperty():
-'''public void setEscherProperty(final EscherProperty value)
-'''
-pass
+    '''    public void setEscherProperty(final EscherProperty value)
+    '''
 def removeEscherProperty():
-'''public void removeEscherProperty(final int num)
-'''
-pass
+    '''    public void removeEscherProperty(final int num)
+    '''

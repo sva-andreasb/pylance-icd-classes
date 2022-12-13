@@ -1,4 +1,3 @@
 def MapControlSecurityGroupMbo():
-'''public MapControlSecurityGroupMbo(final MboSet ms)
-'''
-pass
+    '''    public MapControlSecurityGroupMbo(final MboSet ms)
+    '''

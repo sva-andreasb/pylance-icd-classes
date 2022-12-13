@@ -1,61 +1,46 @@
 def getXMLSchemaType():
-'''public QName getXMLSchemaType()
-'''
-pass
+    '''    public QName getXMLSchemaType()
+    '''
 def getYears():
-'''public int getYears()
-'''
-pass
+    '''    public int getYears()
+    '''
 def getMonths():
-'''public int getMonths()
-'''
-pass
+    '''    public int getMonths()
+    '''
 def getDays():
-'''public int getDays()
-'''
-pass
+    '''    public int getDays()
+    '''
 def getHours():
-'''public int getHours()
-'''
-pass
+    '''    public int getHours()
+    '''
 def getMinutes():
-'''public int getMinutes()
-'''
-pass
+    '''    public int getMinutes()
+    '''
 def getSeconds():
-'''public int getSeconds()
-'''
-pass
+    '''    public int getSeconds()
+    '''
 def getTimeInMillis():
-'''public long getTimeInMillis(final Calendar calendar)
-public long getTimeInMillis(final Date time)
-'''
-pass
+    '''    public long getTimeInMillis(final Calendar calendar)
+    public long getTimeInMillis(final Date time)
+    '''
 def addTo():
-'''public void addTo(final Date time)
-'''
-pass
+    '''    public void addTo(final Date time)
+    '''
 def subtract():
-'''public Duration subtract(final Duration duration)
-'''
-pass
+    '''    public Duration subtract(final Duration duration)
+    '''
 def multiply():
-'''public Duration multiply(final int n)
-'''
-pass
+    '''    public Duration multiply(final int n)
+    '''
 def isLongerThan():
-'''public boolean isLongerThan(final Duration duration)
-'''
-pass
+    '''    public boolean isLongerThan(final Duration duration)
+    '''
 def isShorterThan():
-'''public boolean isShorterThan(final Duration duration)
-'''
-pass
+    '''    public boolean isShorterThan(final Duration duration)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

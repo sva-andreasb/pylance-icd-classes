@@ -1,30 +1,23 @@
-DEFAULT = "String  DefaultAccessCollection""
+DEFAULT = "String  \"DefaultAccessCollection\""
 def Resource():
-'''public Resource(final String name, final String guid)
-public Resource(final Resource resource)
-'''
-pass
+    '''    public Resource(final String name, final String guid)
+    public Resource(final Resource resource)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setGuid():
-'''public void setGuid(final String guid)
-'''
-pass
+    '''    public void setGuid(final String guid)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getGuid():
-'''public String getGuid()
-'''
-pass
+    '''    public String getGuid()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

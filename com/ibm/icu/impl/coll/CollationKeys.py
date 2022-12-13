@@ -1,29 +1,22 @@
 def writeSortKeyUpToQuaternary():
-'''public static void writeSortKeyUpToQuaternary(final CollationIterator iter, final boolean[] compressibleBytes, final CollationSettings settings, final SortKeyByteSink sink, final int minLevel, final LevelCallback callback, final boolean preflight)
-'''
-pass
+    '''    public static void writeSortKeyUpToQuaternary(final CollationIterator iter, final boolean[] compressibleBytes, final CollationSettings settings, final SortKeyByteSink sink, final int minLevel, final LevelCallback callback, final boolean preflight)
+    '''
 def SortKeyByteSink():
-'''public SortKeyByteSink(final byte[] dest)
-'''
-pass
+    '''    public SortKeyByteSink(final byte[] dest)
+    '''
 def setBufferAndAppended():
-'''public void setBufferAndAppended(final byte[] dest, final int app)
-'''
-pass
+    '''    public void setBufferAndAppended(final byte[] dest, final int app)
+    '''
 def Append():
-'''public void Append(final byte[] bytes, final int n)
-public void Append(final int b)
-'''
-pass
+    '''    public void Append(final byte[] bytes, final int n)
+    public void Append(final int b)
+    '''
 def NumberOfBytesAppended():
-'''public int NumberOfBytesAppended()
-'''
-pass
+    '''    public int NumberOfBytesAppended()
+    '''
 def GetRemainingCapacity():
-'''public int GetRemainingCapacity()
-'''
-pass
+    '''    public int GetRemainingCapacity()
+    '''
 def Overflowed():
-'''public boolean Overflowed()
-'''
-pass
+    '''    public boolean Overflowed()
+    '''

@@ -1,83 +1,63 @@
 def isEnabled():
-'''public final boolean isEnabled(final MapperFeature f)
-'''
-pass
+    '''    public final boolean isEnabled(final MapperFeature f)
+    '''
 def hasMapperFeatures():
-'''public final boolean hasMapperFeatures(final int featureMask)
-'''
-pass
+    '''    public final boolean hasMapperFeatures(final int featureMask)
+    '''
 def isAnnotationProcessingEnabled():
-'''public final boolean isAnnotationProcessingEnabled()
-'''
-pass
+    '''    public final boolean isAnnotationProcessingEnabled()
+    '''
 def canOverrideAccessModifiers():
-'''public final boolean canOverrideAccessModifiers()
-'''
-pass
+    '''    public final boolean canOverrideAccessModifiers()
+    '''
 def shouldSortPropertiesAlphabetically():
-'''public final boolean shouldSortPropertiesAlphabetically()
-'''
-pass
+    '''    public final boolean shouldSortPropertiesAlphabetically()
+    '''
 def compileString():
-'''public SerializableString compileString(final String src)
-'''
-pass
+    '''    public SerializableString compileString(final String src)
+    '''
 def getClassIntrospector():
-'''public ClassIntrospector getClassIntrospector()
-'''
-pass
+    '''    public ClassIntrospector getClassIntrospector()
+    '''
 def getAnnotationIntrospector():
-'''public AnnotationIntrospector getAnnotationIntrospector()
-'''
-pass
+    '''    public AnnotationIntrospector getAnnotationIntrospector()
+    '''
 def getPropertyNamingStrategy():
-'''public final PropertyNamingStrategy getPropertyNamingStrategy()
-'''
-pass
+    '''    public final PropertyNamingStrategy getPropertyNamingStrategy()
+    '''
 def getHandlerInstantiator():
-'''public final HandlerInstantiator getHandlerInstantiator()
-'''
-pass
+    '''    public final HandlerInstantiator getHandlerInstantiator()
+    '''
 def getTypeFactory():
-'''public final TypeFactory getTypeFactory()
-'''
-pass
+    '''    public final TypeFactory getTypeFactory()
+    '''
 def constructType():
-'''public final JavaType constructType(final Class<?> cls)
-public final JavaType constructType(final TypeReference<?> valueTypeRef)
-'''
-pass
+    '''    public final JavaType constructType(final Class<?> cls)
+    public final JavaType constructType(final TypeReference<?> valueTypeRef)
+    '''
 def constructSpecializedType():
-'''public JavaType constructSpecializedType(final JavaType baseType, final Class<?> subclass)
-'''
-pass
+    '''    public JavaType constructSpecializedType(final JavaType baseType, final Class<?> subclass)
+    '''
 def introspectClassAnnotations():
-'''public BeanDescription introspectClassAnnotations(final Class<?> cls)
-public BeanDescription introspectClassAnnotations(final JavaType type)
-'''
-pass
+    '''    public BeanDescription introspectClassAnnotations(final Class<?> cls)
+    public BeanDescription introspectClassAnnotations(final JavaType type)
+    '''
 def introspectDirectClassAnnotations():
-'''public BeanDescription introspectDirectClassAnnotations(final Class<?> cls)
-public final BeanDescription introspectDirectClassAnnotations(final JavaType type)
-'''
-pass
+    '''    public BeanDescription introspectDirectClassAnnotations(final Class<?> cls)
+    public final BeanDescription introspectDirectClassAnnotations(final JavaType type)
+    '''
 def getDateFormat():
-'''public final DateFormat getDateFormat()
-'''
-pass
+    '''    public final DateFormat getDateFormat()
+    '''
 def getLocale():
-'''public final Locale getLocale()
-'''
-pass
+    '''    public final Locale getLocale()
+    '''
 def getTimeZone():
-'''public final TimeZone getTimeZone()
-'''
-pass
+    '''    public final TimeZone getTimeZone()
+    '''
 def getBase64Variant():
-'''public Base64Variant getBase64Variant()
-'''
-pass
+    '''    public Base64Variant getBase64Variant()
+    '''
 def typeIdResolverInstance():
-'''public TypeIdResolver typeIdResolverInstance(final Annotated annotated, final Class<? extends TypeIdResolver> resolverClass)
-'''
-pass
+    '''    public TypeIdResolver typeIdResolverInstance(final Annotated annotated, final Class<? extends TypeIdResolver> resolverClass)
+    '''

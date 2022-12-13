@@ -1,9 +1,7 @@
 def FldVUsageDisplayText():
-'''public FldVUsageDisplayText()
-public FldVUsageDisplayText(final MboValue mbv)
-'''
-pass
+    '''    public FldVUsageDisplayText()
+    public FldVUsageDisplayText(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

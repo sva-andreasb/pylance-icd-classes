@@ -1,56 +1,42 @@
 def TableDataRow():
-'''public TableDataRow()
-'''
-pass
+    '''    public TableDataRow()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def isCurrentRow():
-'''public boolean isCurrentRow()
-'''
-pass
+    '''    public boolean isCurrentRow()
+    '''
 def setCurrentRow():
-'''public void setCurrentRow(final boolean currentRow)
-'''
-pass
+    '''    public void setCurrentRow(final boolean currentRow)
+    '''
 def shouldRenderRow():
-'''public boolean shouldRenderRow()
-'''
-pass
+    '''    public boolean shouldRenderRow()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def renderDataRow():
-'''public int renderDataRow(final int row)
-'''
-pass
+    '''    public int renderDataRow(final int row)
+    '''
 def setCurrent():
-'''public void setCurrent()
-'''
-pass
+    '''    public void setCurrent()
+    '''
 def isRowDeleted():
-'''public String isRowDeleted()
-'''
-pass
+    '''    public String isRowDeleted()
+    '''
 def getRowType():
-'''public int getRowType()
-'''
-pass
+    '''    public int getRowType()
+    '''
 def rowVisible():
-'''public boolean rowVisible()
-'''
-pass
+    '''    public boolean rowVisible()
+    '''
 def getUrlValue():
-'''public String getUrlValue(final String urlattribute)
-'''
-pass
+    '''    public String getUrlValue(final String urlattribute)
+    '''
 def getErrorLevel():
-'''public int getErrorLevel()
-'''
-pass
+    '''    public int getErrorLevel()
+    '''
 def maintainControlId():
-'''public boolean maintainControlId()
-'''
-pass
+    '''    public boolean maintainControlId()
+    '''

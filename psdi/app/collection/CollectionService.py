@@ -1,5 +1,4 @@
 def CollectionService():
-'''public CollectionService()
-public CollectionService(final MXServer mxServer)
-'''
-pass
+    '''    public CollectionService()
+    public CollectionService(final MXServer mxServer)
+    '''

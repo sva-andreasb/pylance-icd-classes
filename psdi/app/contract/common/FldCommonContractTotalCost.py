@@ -1,8 +1,6 @@
 def FldCommonContractTotalCost():
-'''public FldCommonContractTotalCost(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonContractTotalCost(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

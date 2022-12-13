@@ -1,9 +1,7 @@
-ATTR_MARKER = "String  marker""
+ATTR_MARKER = "String  \"marker\""
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def createFilter():
-'''public static MarkerFilter createFilter(@PluginAttribute("marker") final String marker, @PluginAttribute("onMatch") final Filter.Result match, @PluginAttribute("onMismatch") final Filter.Result mismatch)
-'''
-pass
+    '''    public static MarkerFilter createFilter(@PluginAttribute("marker") final String marker, @PluginAttribute("onMatch") final Filter.Result match, @PluginAttribute("onMismatch") final Filter.Result mismatch)
+    '''

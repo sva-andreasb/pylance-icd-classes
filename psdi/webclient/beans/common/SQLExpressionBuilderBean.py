@@ -1,8 +1,6 @@
 def setDotNotation():
-'''public void setDotNotation(final boolean flag)
-'''
-pass
+    '''    public void setDotNotation(final boolean flag)
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

@@ -1,12 +1,9 @@
 def FldTenantDbUserId():
-'''public FldTenantDbUserId(final MboValue mbv)
-'''
-pass
+    '''    public FldTenantDbUserId(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def tenantDatabaseUserIdValidator():
-'''public boolean tenantDatabaseUserIdValidator(final String databaseUserId, final String posZeroRegex, final String regex)
-'''
-pass
+    '''    public boolean tenantDatabaseUserIdValidator(final String databaseUserId, final String posZeroRegex, final String regex)
+    '''

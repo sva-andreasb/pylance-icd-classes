@@ -1,4 +1,3 @@
 def RelatedWorkCenterSet():
-'''public RelatedWorkCenterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RelatedWorkCenterSet(final MboServerInterface ms)
+    '''

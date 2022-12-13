@@ -1,8 +1,6 @@
 def TicketGrandTotal():
-'''public TicketGrandTotal(final MboSet ms)
-'''
-pass
+    '''    public TicketGrandTotal(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

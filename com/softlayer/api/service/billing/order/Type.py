@@ -1,60 +1,45 @@
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''
 def isTypeSpecified():
-'''public boolean isTypeSpecified()
-'''
-pass
+    '''    public boolean isTypeSpecified()
+    '''
 def unsetType():
-'''public void unsetType()
-'''
-pass
+    '''    public void unsetType()
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def type():
-'''public Mask type()
-'''
-pass
+    '''    public Mask type()
+    '''

@@ -1,44 +1,33 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def appendTo():
-'''public <A extends Appendable> A appendTo(final A appendable)
-'''
-pass
+    '''    public <A extends Appendable> A appendTo(final A appendable)
+    '''
 def charAt():
-'''public char charAt(final int index)
-'''
-pass
+    '''    public char charAt(final int index)
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def subSequence():
-'''public CharSequence subSequence(final int start, final int end)
-'''
-pass
+    '''    public CharSequence subSequence(final int start, final int end)
+    '''
 def nextPosition():
-'''public boolean nextPosition(final ConstrainedFieldPosition cfpos)
-'''
-pass
+    '''    public boolean nextPosition(final ConstrainedFieldPosition cfpos)
+    '''
 def toCharacterIterator():
-'''public AttributedCharacterIterator toCharacterIterator()
-'''
-pass
+    '''    public AttributedCharacterIterator toCharacterIterator()
+    '''
 def getFirstBigDecimal():
-'''public BigDecimal getFirstBigDecimal()
-'''
-pass
+    '''    public BigDecimal getFirstBigDecimal()
+    '''
 def getSecondBigDecimal():
-'''public BigDecimal getSecondBigDecimal()
-'''
-pass
+    '''    public BigDecimal getSecondBigDecimal()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''

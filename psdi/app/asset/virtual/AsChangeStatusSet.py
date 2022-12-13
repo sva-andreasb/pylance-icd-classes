@@ -1,17 +1,13 @@
 def AsChangeStatusSet():
-'''public AsChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AsChangeStatusSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-public void execute(final MboRemote mbo)
-'''
-pass
+    '''    public void execute()
+    public void execute(final MboRemote mbo)
+    '''
 def setAsyncProcess():
-'''public MboRemote setAsyncProcess()
-'''
-pass
+    '''    public MboRemote setAsyncProcess()
+    '''
 def getParameters():
-'''public ArrayList<String[]> getParameters()
-'''
-pass
+    '''    public ArrayList<String[]> getParameters()
+    '''

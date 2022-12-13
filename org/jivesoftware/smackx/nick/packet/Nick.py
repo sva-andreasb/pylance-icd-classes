@@ -1,30 +1,23 @@
-NAMESPACE = "String  http://jabber.org/protocol/nick""
-ELEMENT_NAME = "String  nick""
+NAMESPACE = "String  \"http://jabber.org/protocol/nick\""
+ELEMENT_NAME = "String  \"nick\""
 def Nick():
-'''public Nick(final String name)
-'''
-pass
+    '''    public Nick(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''
 def parse():
-'''public Nick parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public Nick parse(final XmlPullParser parser, final int initialDepth)
+    '''

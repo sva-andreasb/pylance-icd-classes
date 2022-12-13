@@ -1,12 +1,9 @@
 def FldWpToolLineCost():
-'''public FldWpToolLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldWpToolLineCost(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,95 +1,72 @@
 def ImportObject():
-'''public ImportObject()
-'''
-pass
+    '''    public ImportObject()
+    '''
 def runExtension():
-'''public boolean runExtension(final String extensionNames, final int mode, final Connection con, final Element e)
-'''
-pass
+    '''    public boolean runExtension(final String extensionNames, final int mode, final Connection con, final Element e)
+    '''
 def importObjectData():
-'''public void importObjectData(final Connection con, final Element objectElement)
-'''
-pass
+    '''    public void importObjectData(final Connection con, final Element objectElement)
+    '''
 def getColumnValue():
-'''public String getColumnValue(final Element elem)
-'''
-pass
+    '''    public String getColumnValue(final Element elem)
+    '''
 def getColumnOriginalValue():
-'''public String getColumnOriginalValue(final Element elem)
-'''
-pass
+    '''    public String getColumnOriginalValue(final Element elem)
+    '''
 def getValueText():
-'''public String getValueText(final Element elem, final String nodename)
-'''
-pass
+    '''    public String getValueText(final Element elem, final String nodename)
+    '''
 def isNull():
-'''public static boolean isNull(final String a)
-'''
-pass
+    '''    public static boolean isNull(final String a)
+    '''
 def replaceQuery():
-'''public void replaceQuery(final Connection conn, final Element element)
-'''
-pass
+    '''    public void replaceQuery(final Connection conn, final Element element)
+    '''
 def executeSql():
-'''public void executeSql(final Connection conn, final Element element)
-'''
-pass
+    '''    public void executeSql(final Connection conn, final Element element)
+    '''
 def deletion():
-'''public void deletion(final Connection conn, final Element element)
-'''
-pass
+    '''    public void deletion(final Connection conn, final Element element)
+    '''
 def importFile():
-'''public void importFile(final Connection c, final InputStream inputFile, final String filepath, final boolean validateXml)
-public int importFile(final ImportFileTag importFileTag, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
-'''
-pass
+    '''    public void importFile(final Connection c, final InputStream inputFile, final String filepath, final boolean validateXml)
+    public int importFile(final ImportFileTag importFileTag, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
+    '''
 def importDocument():
-'''public void importDocument(final Connection c, final Document doc)
-'''
-pass
+    '''    public void importDocument(final Connection c, final Document doc)
+    '''
 def accept():
-'''public boolean accept(final File dir, final String name)
-'''
-pass
+    '''    public boolean accept(final File dir, final String name)
+    '''
 def importFiles():
-'''public void importFiles(final RootTag rootTag, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
-'''
-pass
+    '''    public void importFiles(final RootTag rootTag, final MaximoResolver maximoResolver, final IProgressMonitor monitor)
+    '''
 def importFromFile():
-'''public int importFromFile(final String filename, final boolean validateXml)
-public int importFromFile(final InputStream fileToImport, final String filepath, final ImportOptions options, final MaximoResolver maximoResolver)
-public int importFromFile(final InputStream fileToImport, final String filepath, final boolean validateXml, final MaximoResolver maximoResolver)
-'''
-pass
+    '''    public int importFromFile(final String filename, final boolean validateXml)
+    public int importFromFile(final InputStream fileToImport, final String filepath, final ImportOptions options, final MaximoResolver maximoResolver)
+    public int importFromFile(final InputStream fileToImport, final String filepath, final boolean validateXml, final MaximoResolver maximoResolver)
+    '''
 def importFromDirectory():
-'''public int importFromDirectory(final String importDirectory)
-'''
-pass
+    '''    public int importFromDirectory(final String importDirectory)
+    '''
 def importFromFileList():
-'''public int importFromFileList(final String importXmlFileList, final boolean validateXml)
-'''
-pass
+    '''    public int importFromFileList(final String importXmlFileList, final boolean validateXml)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def setVerbose():
-'''public void setVerbose(final boolean shouldVerbose)
-'''
-pass
+    '''    public void setVerbose(final boolean shouldVerbose)
+    '''
 def setOutput():
-'''public void setOutput(final PrintStream newOutput)
-'''
-pass
+    '''    public void setOutput(final PrintStream newOutput)
+    '''
 def doReplacementLookup():
-'''public static final String doReplacementLookup(final String lookup)
-'''
-pass
+    '''    public static final String doReplacementLookup(final String lookup)
+    '''
 def addColumnValueReplacements():
-'''public void addColumnValueReplacements(final Map<String, String> newColumnValueReplacements)
-'''
-pass
+    '''    public void addColumnValueReplacements(final Map<String, String> newColumnValueReplacements)
+    '''
 def resetOptionsToDefaults():
-'''public void resetOptionsToDefaults()
-'''
-pass
+    '''    public void resetOptionsToDefaults()
+    '''

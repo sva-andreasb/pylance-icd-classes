@@ -1,32 +1,24 @@
 def WFCtrlNodeCfg():
-'''public WFCtrlNodeCfg(final MboSet ms)
-'''
-pass
+    '''    public WFCtrlNodeCfg(final MboSet ms)
+    '''
 def activate():
-'''public void activate(final boolean isActive)
-'''
-pass
+    '''    public void activate(final boolean isActive)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''

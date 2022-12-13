@@ -1,8 +1,6 @@
 def FldPurShipTo():
-'''public FldPurShipTo(final MboValue mbv)
-'''
-pass
+    '''    public FldPurShipTo(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

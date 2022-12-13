@@ -1,8 +1,6 @@
 def FldScrObjectProcess():
-'''public FldScrObjectProcess(final MboValue mbv)
-'''
-pass
+    '''    public FldScrObjectProcess(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,4 +1,3 @@
 def getPropertyDescriptors():
-'''public PropertyDescriptor[] getPropertyDescriptors()
-'''
-pass
+    '''    public PropertyDescriptor[] getPropertyDescriptors()
+    '''

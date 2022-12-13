@@ -1,12 +1,9 @@
 def AddItemsBean():
-'''public AddItemsBean()
-'''
-pass
+    '''    public AddItemsBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def addtoInventory():
-'''public void addtoInventory(final MboSetRemote invSetRemote)
-'''
-pass
+    '''    public void addtoInventory(final MboSetRemote invSetRemote)
+    '''

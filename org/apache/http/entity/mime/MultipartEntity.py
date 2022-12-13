@@ -1,47 +1,36 @@
 def MultipartEntity():
-'''public MultipartEntity(HttpMultipartMode mode, String boundary, final Charset charset)
-public MultipartEntity(final HttpMultipartMode mode)
-public MultipartEntity()
-'''
-pass
+    '''    public MultipartEntity(HttpMultipartMode mode, String boundary, final Charset charset)
+    public MultipartEntity(final HttpMultipartMode mode)
+    public MultipartEntity()
+    '''
 def addPart():
-'''public void addPart(final FormBodyPart bodyPart)
-public void addPart(final String name, final ContentBody contentBody)
-'''
-pass
+    '''    public void addPart(final FormBodyPart bodyPart)
+    public void addPart(final String name, final ContentBody contentBody)
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def isChunked():
-'''public boolean isChunked()
-'''
-pass
+    '''    public boolean isChunked()
+    '''
 def isStreaming():
-'''public boolean isStreaming()
-'''
-pass
+    '''    public boolean isStreaming()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getContentType():
-'''public Header getContentType()
-'''
-pass
+    '''    public Header getContentType()
+    '''
 def getContentEncoding():
-'''public Header getContentEncoding()
-'''
-pass
+    '''    public Header getContentEncoding()
+    '''
 def consumeContent():
-'''public void consumeContent()
-'''
-pass
+    '''    public void consumeContent()
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outstream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outstream)
+    '''

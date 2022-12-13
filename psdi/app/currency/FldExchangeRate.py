@@ -1,8 +1,6 @@
 def FldExchangeRate():
-'''public FldExchangeRate(final MboValue mbv)
-'''
-pass
+    '''    public FldExchangeRate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

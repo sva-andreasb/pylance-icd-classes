@@ -1,50 +1,38 @@
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getFile():
-'''public String getFile()
-'''
-pass
+    '''    public String getFile()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def getProtocol():
-'''public String getProtocol()
-'''
-pass
+    '''    public String getProtocol()
+    '''
 def getRef():
-'''public String getRef()
-'''
-pass
+    '''    public String getRef()
+    '''
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def URLName():
-'''public URLName(final String url)
-public URLName(final URL url)
-public URLName(final String protocol, final String host, final int port, final String file, final String username, final String password)
-'''
-pass
+    '''    public URLName(final String url)
+    public URLName(final URL url)
+    public URLName(final String protocol, final String host, final int port, final String file, final String username, final String password)
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''

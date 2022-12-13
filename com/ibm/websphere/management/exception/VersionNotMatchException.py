@@ -1,4 +1,3 @@
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

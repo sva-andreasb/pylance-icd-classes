@@ -1,1 +1,1 @@
-ELEMENT_TYPE = "String  layout""
+ELEMENT_TYPE = "String  \"layout\""

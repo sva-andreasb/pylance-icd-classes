@@ -1,12 +1,9 @@
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def FldContractLineNewOrderQty():
-'''public FldContractLineNewOrderQty(final MboValue mbv)
-'''
-pass
+    '''    public FldContractLineNewOrderQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

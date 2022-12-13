@@ -1,4 +1,3 @@
 def InvalidAliasNameException():
-'''public InvalidAliasNameException(final String message)
-'''
-pass
+    '''    public InvalidAliasNameException(final String message)
+    '''

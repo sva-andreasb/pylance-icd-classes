@@ -1,120 +1,90 @@
 def ItemCOMPONENT():
-'''public ItemCOMPONENT()
-'''
-pass
+    '''    public ItemCOMPONENT()
+    '''
 def resolveRerefences():
-'''public void resolveRerefences(final Parser project, final long flags)
-'''
-pass
+    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''
 def spaceFromAttribute():
-'''public boolean spaceFromAttribute(final Parser project, final String name)
-'''
-pass
+    '''    public boolean spaceFromAttribute(final Parser project, final String name)
+    '''
 def levelFromAttribute():
-'''public boolean levelFromAttribute(final Parser project, final String name)
-'''
-pass
+    '''    public boolean levelFromAttribute(final Parser project, final String name)
+    '''
 def skip():
-'''public boolean skip(final Parser parser, final long flags)
-'''
-pass
+    '''    public boolean skip(final Parser parser, final long flags)
+    '''
 def getAssetIdentifier():
-'''public String getAssetIdentifier()
-'''
-pass
+    '''    public String getAssetIdentifier()
+    '''
 def getBarCode():
-'''public String getBarCode()
-'''
-pass
+    '''    public String getBarCode()
+    '''
 def getFloorReference():
-'''public ItemFLOOR getFloorReference()
-'''
-pass
+    '''    public ItemFLOOR getFloorReference()
+    '''
 def getInstallationDate():
-'''public String getInstallationDate()
-'''
-pass
+    '''    public String getInstallationDate()
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def getSerialNumber():
-'''public String getSerialNumber()
-'''
-pass
+    '''    public String getSerialNumber()
+    '''
 def getSpace():
-'''public String getSpace()
-'''
-pass
+    '''    public String getSpace()
+    '''
 def getSpaceReference():
-'''public ItemSPACE getSpaceReference()
-'''
-pass
+    '''    public ItemSPACE getSpaceReference()
+    '''
 def getTypeReference():
-'''public ItemTYPE getTypeReference()
-'''
-pass
+    '''    public ItemTYPE getTypeReference()
+    '''
 def getTagNumber():
-'''public String getTagNumber()
-'''
-pass
+    '''    public String getTagNumber()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''
 def getUniqueIdLoc():
-'''public String getUniqueIdLoc()
-'''
-pass
+    '''    public String getUniqueIdLoc()
+    '''
 def getVendorReference():
-'''public ItemCONTACT getVendorReference()
-'''
-pass
+    '''    public ItemCONTACT getVendorReference()
+    '''
 def getWarrantyStartDate():
-'''public String getWarrantyStartDate()
-'''
-pass
+    '''    public String getWarrantyStartDate()
+    '''
 def setAssetIdentifier():
-'''public void setAssetIdentifier(final String assetIdentifier)
-'''
-pass
+    '''    public void setAssetIdentifier(final String assetIdentifier)
+    '''
 def setBarCode():
-'''public void setBarCode(final String barCode)
-'''
-pass
+    '''    public void setBarCode(final String barCode)
+    '''
 def setInstallationDate():
-'''public void setInstallationDate(final String installationDate)
-'''
-pass
+    '''    public void setInstallationDate(final String installationDate)
+    '''
 def setSerialNumber():
-'''public void setSerialNumber(final String serialNumber)
-'''
-pass
+    '''    public void setSerialNumber(final String serialNumber)
+    '''
 def setSpace():
-'''public void setSpace(final String space)
-'''
-pass
+    '''    public void setSpace(final String space)
+    '''
 def setSpaceNames():
-'''public void setSpaceNames(final String space)
-'''
-pass
+    '''    public void setSpaceNames(final String space)
+    '''
 def setTagNumber():
-'''public void setTagNumber(final String tagNumber)
-'''
-pass
+    '''    public void setTagNumber(final String tagNumber)
+    '''
 def setTypeName():
-'''public void setTypeName(final String typeName)
-'''
-pass
+    '''    public void setTypeName(final String typeName)
+    '''
 def setUniqueIdLoc():
-'''public void setUniqueIdLoc(final String uniqueId)
-'''
-pass
+    '''    public void setUniqueIdLoc(final String uniqueId)
+    '''
 def setWarrantyStartDate():
-'''public void setWarrantyStartDate(final String warrantyStartDate)
-'''
-pass
+    '''    public void setWarrantyStartDate(final String warrantyStartDate)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

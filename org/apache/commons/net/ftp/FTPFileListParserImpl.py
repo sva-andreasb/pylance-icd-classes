@@ -1,4 +1,3 @@
 def FTPFileListParserImpl():
-'''public FTPFileListParserImpl(final String regex)
-'''
-pass
+    '''    public FTPFileListParserImpl(final String regex)
+    '''

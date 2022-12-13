@@ -1,57 +1,43 @@
 def SqlTable():
-'''public SqlTable(final String name)
-public SqlTable(final String aliasName, final String tableName)
-'''
-pass
+    '''    public SqlTable(final String name)
+    public SqlTable(final String aliasName, final String tableName)
+    '''
 def isTable():
-'''public boolean isTable()
-'''
-pass
+    '''    public boolean isTable()
+    '''
 def asTable():
-'''public SqlTable asTable()
-'''
-pass
+    '''    public SqlTable asTable()
+    '''
 def usesColumn():
-'''public boolean usesColumn(final SqlColumn c)
-'''
-pass
+    '''    public boolean usesColumn(final SqlColumn c)
+    '''
 def getTableName():
-'''public String getTableName()
-'''
-pass
+    '''    public String getTableName()
+    '''
 def visit():
-'''public void visit(final SqlNodeVisitor visitor)
-'''
-pass
+    '''    public void visit(final SqlNodeVisitor visitor)
+    '''
 def getIdScope():
-'''public Scope getIdScope()
-'''
-pass
+    '''    public Scope getIdScope()
+    '''
 def getNodeScope():
-'''public Scope getNodeScope()
-'''
-pass
+    '''    public Scope getNodeScope()
+    '''
 def setIdColumnForVar():
-'''public void setIdColumnForVar(final Var var, final SqlColumn thisCol)
-'''
-pass
+    '''    public void setIdColumnForVar(final Var var, final SqlColumn thisCol)
+    '''
 def setValueColumnForVar():
-'''public void setValueColumnForVar(final Var var, final SqlColumn thisCol)
-'''
-pass
+    '''    public void setValueColumnForVar(final Var var, final SqlColumn thisCol)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def apply():
-'''public SqlNode apply(final SqlTransform transform)
-'''
-pass
+    '''    public SqlNode apply(final SqlTransform transform)
+    '''
 def copy():
-'''public SqlNode copy()
-'''
-pass
+    '''    public SqlNode copy()
+    '''

@@ -1,37 +1,28 @@
 def IlvLinearTimeConverter():
-'''public IlvLinearTimeConverter(final Date referenceTime, final IlvDuration unitDuration)
-public IlvLinearTimeConverter()
-'''
-pass
+    '''    public IlvLinearTimeConverter(final Date referenceTime, final IlvDuration unitDuration)
+    public IlvLinearTimeConverter()
+    '''
 def getReferenceTime():
-'''public Date getReferenceTime()
-'''
-pass
+    '''    public Date getReferenceTime()
+    '''
 def setReferenceTime():
-'''public void setReferenceTime(final Date a)
-'''
-pass
+    '''    public void setReferenceTime(final Date a)
+    '''
 def getUnitDuration():
-'''public IlvDuration getUnitDuration()
-'''
-pass
+    '''    public IlvDuration getUnitDuration()
+    '''
 def setUnitDuration():
-'''public void setUnitDuration(final IlvDuration c)
-'''
-pass
+    '''    public void setUnitDuration(final IlvDuration c)
+    '''
 def getUnits():
-'''public double getUnits(final Date date)
-'''
-pass
+    '''    public double getUnits(final Date date)
+    '''
 def getTime():
-'''public Date getTime(final double n)
-'''
-pass
+    '''    public Date getTime(final double n)
+    '''
 def isLinear():
-'''public boolean isLinear()
-'''
-pass
+    '''    public boolean isLinear()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def FldAssetExpectedLife():
-'''public FldAssetExpectedLife(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetExpectedLife(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

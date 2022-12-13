@@ -1,8 +1,6 @@
 def TLOAMContSfwLicSet():
-'''public TLOAMContSfwLicSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TLOAMContSfwLicSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def selectall():
-'''public int selectall()
-'''
-pass
+    '''    public int selectall()
+    '''

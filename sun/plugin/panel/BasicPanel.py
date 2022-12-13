@@ -1,8 +1,6 @@
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

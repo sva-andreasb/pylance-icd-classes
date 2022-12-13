@@ -1,24 +1,18 @@
 def MfMailCleanupCronTask():
-'''public MfMailCleanupCronTask()
-'''
-pass
+    '''    public MfMailCleanupCronTask()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isOKToRun():
-'''public boolean isOKToRun(final MXServerRemote server)
-'''
-pass
+    '''    public boolean isOKToRun(final MXServerRemote server)
+    '''
 def getCronTaskLogger():
-'''public MXLogger getCronTaskLogger()
-'''
-pass
+    '''    public MXLogger getCronTaskLogger()
+    '''

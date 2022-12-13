@@ -1,16 +1,12 @@
 def MaxLicChangeStatus():
-'''public MaxLicChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public MaxLicChangeStatus(final MboSet ms)
+    '''
 def setFromResult():
-'''public void setFromResult(final boolean flag)
-'''
-pass
+    '''    public void setFromResult(final boolean flag)
+    '''
 def getFromResult():
-'''public boolean getFromResult()
-'''
-pass
+    '''    public boolean getFromResult()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,17 +1,13 @@
 def PdfStream():
-'''public PdfStream(final byte[] bytes)
-public PdfStream(final InputStream inputStream, final PdfWriter writer)
-'''
-pass
+    '''    public PdfStream(final byte[] bytes)
+    public PdfStream(final InputStream inputStream, final PdfWriter writer)
+    '''
 def writeLength():
-'''public void writeLength()
-'''
-pass
+    '''    public void writeLength()
+    '''
 def flateCompress():
-'''public void flateCompress()
-'''
-pass
+    '''    public void flateCompress()
+    '''
 def toPdf():
-'''public void toPdf(final PdfWriter writer, final OutputStream os)
-'''
-pass
+    '''    public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''

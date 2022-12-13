@@ -1,8 +1,6 @@
 def PlusPFldSOGeoCode():
-'''public PlusPFldSOGeoCode(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldSOGeoCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

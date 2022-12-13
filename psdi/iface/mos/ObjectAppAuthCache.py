@@ -1,12 +1,9 @@
 def getAuthApp():
-'''public String getAuthApp(final String context, final String objectName)
-'''
-pass
+    '''    public String getAuthApp(final String context, final String objectName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstance():
-'''public static final ObjectAppAuthCache getInstance()
-'''
-pass
+    '''    public static final ObjectAppAuthCache getInstance()
+    '''

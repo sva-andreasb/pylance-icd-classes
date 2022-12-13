@@ -1,4 +1,3 @@
 def Lucene50TermVectorsFormat():
-'''public Lucene50TermVectorsFormat()
-'''
-pass
+    '''    public Lucene50TermVectorsFormat()
+    '''

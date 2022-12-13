@@ -1,36 +1,27 @@
 def IlvGraphicAnimator():
-'''public IlvGraphicAnimator(final IlvGraphic a)
-'''
-pass
+    '''    public IlvGraphicAnimator(final IlvGraphic a)
+    '''
 def getOldBoundingBox():
-'''public IlvRect getOldBoundingBox()
-'''
-pass
+    '''    public IlvRect getOldBoundingBox()
+    '''
 def getNewBoundingBox():
-'''public IlvRect getNewBoundingBox()
-'''
-pass
+    '''    public IlvRect getNewBoundingBox()
+    '''
 def setResizeAllowed():
-'''public void setResizeAllowed(final boolean e)
-'''
-pass
+    '''    public void setResizeAllowed(final boolean e)
+    '''
 def isResizeAllowed():
-'''public boolean isResizeAllowed()
-'''
-pass
+    '''    public boolean isResizeAllowed()
+    '''
 def recordState():
-'''public void recordState()
-'''
-pass
+    '''    public void recordState()
+    '''
 def animInit():
-'''public void animInit()
-'''
-pass
+    '''    public void animInit()
+    '''
 def animCleanup():
-'''public void animCleanup()
-'''
-pass
+    '''    public void animCleanup()
+    '''
 def animStep():
-'''public boolean animStep(final IlvManager ilvManager, final int n, final int n2)
-'''
-pass
+    '''    public boolean animStep(final IlvManager ilvManager, final int n, final int n2)
+    '''

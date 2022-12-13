@@ -1,8 +1,6 @@
 def MaxInvVendorProcess():
-'''public MaxInvVendorProcess()
-'''
-pass
+    '''    public MaxInvVendorProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules()
-'''
-pass
+    '''    public int checkBusinessRules()
+    '''

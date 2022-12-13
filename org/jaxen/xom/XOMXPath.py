@@ -1,4 +1,3 @@
 def XOMXPath():
-'''public XOMXPath(final String xpathExpr)
-'''
-pass
+    '''    public XOMXPath(final String xpathExpr)
+    '''

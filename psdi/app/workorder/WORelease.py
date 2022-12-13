@@ -1,12 +1,9 @@
 def WORelease():
-'''public WORelease(final MboSet ms)
-'''
-pass
+    '''    public WORelease(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def loadSkipFieldCopyHashSet():
-'''public void loadSkipFieldCopyHashSet()
-'''
-pass
+    '''    public void loadSkipFieldCopyHashSet()
+    '''

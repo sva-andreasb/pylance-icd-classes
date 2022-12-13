@@ -1,4 +1,3 @@
 def viewxml():
-'''public int viewxml()
-'''
-pass
+    '''    public int viewxml()
+    '''

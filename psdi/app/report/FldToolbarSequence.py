@@ -1,8 +1,6 @@
 def FldToolbarSequence():
-'''public FldToolbarSequence(final MboValue mbv)
-'''
-pass
+    '''    public FldToolbarSequence(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

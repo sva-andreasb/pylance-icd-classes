@@ -1,33 +1,25 @@
 def MixedGraphMem():
-'''public MixedGraphMem()
-public MixedGraphMem(final ReificationStyle style)
-'''
-pass
+    '''    public MixedGraphMem()
+    public MixedGraphMem(final ReificationStyle style)
+    '''
 def performAdd():
-'''public void performAdd(final Triple t)
-'''
-pass
+    '''    public void performAdd(final Triple t)
+    '''
 def performDelete():
-'''public void performDelete(final Triple t)
-'''
-pass
+    '''    public void performDelete(final Triple t)
+    '''
 def graphBaseSize():
-'''public int graphBaseSize()
-'''
-pass
+    '''    public int graphBaseSize()
+    '''
 def graphBaseContains():
-'''public boolean graphBaseContains(final Triple t)
-'''
-pass
+    '''    public boolean graphBaseContains(final Triple t)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def graphBaseFind():
-'''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
-'''
-pass
+    '''    public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
+    '''

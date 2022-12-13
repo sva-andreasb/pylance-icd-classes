@@ -1,24 +1,18 @@
 def SelectionEvent():
-'''public SelectionEvent(final Object source, final boolean a)
-'''
-pass
+    '''    public SelectionEvent(final Object source, final boolean a)
+    '''
 def isObjectSelected():
-'''public boolean isObjectSelected()
-'''
-pass
+    '''    public boolean isObjectSelected()
+    '''
 def isSelected():
-'''public boolean isSelected()
-'''
-pass
+    '''    public boolean isSelected()
+    '''
 def isAdjusting():
-'''public boolean isAdjusting()
-'''
-pass
+    '''    public boolean isAdjusting()
+    '''
 def setAdjusting():
-'''public void setAdjusting(final boolean b)
-'''
-pass
+    '''    public void setAdjusting(final boolean b)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

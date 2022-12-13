@@ -1,18 +1,14 @@
 def JdoPrimaryKey():
-'''public JdoPrimaryKey()
-public JdoPrimaryKey(final String guid)
-public JdoPrimaryKey(final Guid guid)
-'''
-pass
+    '''    public JdoPrimaryKey()
+    public JdoPrimaryKey(final String guid)
+    public JdoPrimaryKey(final Guid guid)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

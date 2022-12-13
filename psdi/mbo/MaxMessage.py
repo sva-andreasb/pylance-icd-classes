@@ -1,104 +1,79 @@
 def MaxMessage():
-'''public MaxMessage(final String language)
-'''
-pass
+    '''    public MaxMessage(final String language)
+    '''
 def setKey():
-'''public void setKey(final String keyInput)
-'''
-pass
+    '''    public void setKey(final String keyInput)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setGroup():
-'''public void setGroup(final String groupInput)
-'''
-pass
+    '''    public void setGroup(final String groupInput)
+    '''
 def getGroup():
-'''public String getGroup()
-'''
-pass
+    '''    public String getGroup()
+    '''
 def setId():
-'''public void setId(final String id)
-'''
-pass
+    '''    public void setId(final String id)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setValue():
-'''public void setValue(final String msg)
-'''
-pass
+    '''    public void setValue(final String msg)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setOptions():
-'''public void setOptions(final int op)
-'''
-pass
+    '''    public void setOptions(final int op)
+    '''
 def getOptions():
-'''public int getOptions()
-'''
-pass
+    '''    public int getOptions()
+    '''
 def setButtonText():
-'''public void setButtonText(final String btInput)
-'''
-pass
+    '''    public void setButtonText(final String btInput)
+    '''
 def getButtonText():
-'''public String getButtonText()
-'''
-pass
+    '''    public String getButtonText()
+    '''
 def setDisplayMethod():
-'''public void setDisplayMethod(final String method)
-'''
-pass
+    '''    public void setDisplayMethod(final String method)
+    '''
 def getDisplaymethod():
-'''public String getDisplaymethod()
-'''
-pass
+    '''    public String getDisplaymethod()
+    '''
 def getLanguage():
-'''public String getLanguage()
-'''
-pass
+    '''    public String getLanguage()
+    '''
 def setLanguage():
-'''public void setLanguage(final String language)
-'''
-pass
+    '''    public void setLanguage(final String language)
+    '''
 def setMLInsensitivePart():
-'''public void setMLInsensitivePart(final MaxMessageBase.MLInsensitivePart obj)
-'''
-pass
+    '''    public void setMLInsensitivePart(final MaxMessageBase.MLInsensitivePart obj)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getMessage():
-'''public String getMessage()
-public String getMessage(final Object param)
-public String getMessage(final Object[] params)
-'''
-pass
+    '''    public String getMessage()
+    public String getMessage(final Object param)
+    public String getMessage(final Object[] params)
+    '''
 def getTaggedMessage():
-'''public String getTaggedMessage()
-public String getTaggedMessage(final Object param)
-public String getTaggedMessage(final Object[] params)
-'''
-pass
+    '''    public String getTaggedMessage()
+    public String getTaggedMessage(final Object param)
+    public String getTaggedMessage(final Object[] params)
+    '''
 def isPrefix():
-'''public boolean isPrefix()
-'''
-pass
+    '''    public boolean isPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final boolean prefix)
-'''
-pass
+    '''    public void setPrefix(final boolean prefix)
+    '''
 def getReference():
-'''public MaxMessageBase getReference()
-'''
-pass
+    '''    public MaxMessageBase getReference()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

@@ -1,5 +1,4 @@
 def PlusPFldPriceType():
-'''public PlusPFldPriceType()
-public PlusPFldPriceType(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceType()
+    public PlusPFldPriceType(final MboValue mbv)
+    '''

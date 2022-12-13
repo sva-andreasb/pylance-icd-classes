@@ -1,12 +1,9 @@
 def InvLifoFifoCostSet():
-'''public InvLifoFifoCostSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvLifoFifoCostSet(final MboServerInterface ms)
+    '''
 def getDefaultIssueCostNewCost():
-'''public double getDefaultIssueCostNewCost()
-'''
-pass
+    '''    public double getDefaultIssueCostNewCost()
+    '''
 def getDefaultIssueCost():
-'''public double getDefaultIssueCost()
-'''
-pass
+    '''    public double getDefaultIssueCost()
+    '''

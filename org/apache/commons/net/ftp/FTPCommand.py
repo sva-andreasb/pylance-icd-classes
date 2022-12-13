@@ -62,6 +62,5 @@ SITE_PARAMETERS = "int  28"
 SYSTEM = "int  29"
 STATUS = "int  30"
 def getCommand():
-'''public static final String getCommand(final int command)
-'''
-pass
+    '''    public static final String getCommand(final int command)
+    '''

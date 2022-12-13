@@ -1,12 +1,9 @@
 def SurveyReportBean():
-'''public SurveyReportBean()
-'''
-pass
+    '''    public SurveyReportBean()
+    '''
 def highlightrow():
-'''public int highlightrow(final int row)
-'''
-pass
+    '''    public int highlightrow(final int row)
+    '''
 def nextrow():
-'''public int nextrow()
-'''
-pass
+    '''    public int nextrow()
+    '''

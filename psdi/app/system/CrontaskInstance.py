@@ -1,64 +1,48 @@
 def CrontaskInstance():
-'''public CrontaskInstance(final MboSet ms)
-'''
-pass
+    '''    public CrontaskInstance(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getParameterList():
-'''public CrontaskParamInfo[] getParameterList()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameterList()
+    '''
 def getCrontaskClass():
-'''public String getCrontaskClass()
-'''
-pass
+    '''    public String getCrontaskClass()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def requestReload():
-'''public void requestReload()
-'''
-pass
+    '''    public void requestReload()
+    '''
 def requestReloadAndFirstRunNow():
-'''public void requestReloadAndFirstRunNow()
-'''
-pass
+    '''    public void requestReloadAndFirstRunNow()
+    '''
 def getParameterSet():
-'''public CrontaskParamSetRemote getParameterSet()
-'''
-pass
+    '''    public CrontaskParamSetRemote getParameterSet()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getCrontaskDef():
-'''public CrontaskDefRemote getCrontaskDef()
-'''
-pass
+    '''    public CrontaskDefRemote getCrontaskDef()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''

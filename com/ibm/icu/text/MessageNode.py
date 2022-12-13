@@ -1,8 +1,6 @@
 def getContents():
-'''public List<MessageContentsNode> getContents()
-'''
-pass
+    '''    public List<MessageContentsNode> getContents()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

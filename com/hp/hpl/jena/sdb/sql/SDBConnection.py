@@ -1,108 +1,82 @@
 def SDBConnection():
-'''public SDBConnection(final DataSource ds)
-public SDBConnection(final String url, final String user, final String password)
-public SDBConnection(final Connection jdbcConnection)
-public SDBConnection(final Connection jdbcConnection, final String url)
-'''
-pass
+    '''    public SDBConnection(final DataSource ds)
+    public SDBConnection(final String url, final String user, final String password)
+    public SDBConnection(final Connection jdbcConnection)
+    public SDBConnection(final Connection jdbcConnection, final String url)
+    '''
 def none():
-'''public static SDBConnection none()
-'''
-pass
+    '''    public static SDBConnection none()
+    '''
 def hasSQLConnection():
-'''public boolean hasSQLConnection()
-'''
-pass
+    '''    public boolean hasSQLConnection()
+    '''
 def getTransactionHandler():
-'''public TransactionHandler getTransactionHandler()
-'''
-pass
+    '''    public TransactionHandler getTransactionHandler()
+    '''
 def execQuery():
-'''public ResultSetJDBC execQuery(final String sqlString)
-public ResultSetJDBC execQuery(final String sqlString, final int fetchSize)
-'''
-pass
+    '''    public ResultSetJDBC execQuery(final String sqlString)
+    public ResultSetJDBC execQuery(final String sqlString, final int fetchSize)
+    '''
 def executeInTransaction():
-'''public Object executeInTransaction(final Command c)
-'''
-pass
+    '''    public Object executeInTransaction(final Command c)
+    '''
 def executeSQL():
-'''public Object executeSQL(final SQLCommand c)
-'''
-pass
+    '''    public Object executeSQL(final SQLCommand c)
+    '''
 def execUpdate():
-'''public int execUpdate(final String sqlString)
-'''
-pass
+    '''    public int execUpdate(final String sqlString)
+    '''
 def exec():
-'''public ResultSetJDBC exec(final String sqlString)
-'''
-pass
+    '''    public ResultSetJDBC exec(final String sqlString)
+    '''
 def execSilent():
-'''public ResultSetJDBC execSilent(final String sqlString)
-'''
-pass
+    '''    public ResultSetJDBC execSilent(final String sqlString)
+    '''
 def prepareStatement():
-'''public PreparedStatement prepareStatement(final String sqlString)
-'''
-pass
+    '''    public PreparedStatement prepareStatement(final String sqlString)
+    '''
 def closePreparedStatement():
-'''public void closePreparedStatement(final PreparedStatement ps)
-'''
-pass
+    '''    public void closePreparedStatement(final PreparedStatement ps)
+    '''
 def getTableNames():
-'''public List<String> getTableNames()
-'''
-pass
+    '''    public List<String> getTableNames()
+    '''
 def getSqlConnection():
-'''public Connection getSqlConnection()
-'''
-pass
+    '''    public Connection getSqlConnection()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def loggingSQLExceptions():
-'''public boolean loggingSQLExceptions()
-'''
-pass
+    '''    public boolean loggingSQLExceptions()
+    '''
 def setLogSQLExceptions():
-'''public void setLogSQLExceptions(final boolean thisLogSQLExceptions)
-'''
-pass
+    '''    public void setLogSQLExceptions(final boolean thisLogSQLExceptions)
+    '''
 def loggingSQLQueries():
-'''public boolean loggingSQLQueries()
-'''
-pass
+    '''    public boolean loggingSQLQueries()
+    '''
 def setLogSQLQueries():
-'''public void setLogSQLQueries(final boolean thisLogSQLQueries)
-'''
-pass
+    '''    public void setLogSQLQueries(final boolean thisLogSQLQueries)
+    '''
 def loggingSQLStatements():
-'''public boolean loggingSQLStatements()
-'''
-pass
+    '''    public boolean loggingSQLStatements()
+    '''
 def setLogSQLStatements():
-'''public void setLogSQLStatements(final boolean thisLogSQLStatements)
-'''
-pass
+    '''    public void setLogSQLStatements(final boolean thisLogSQLStatements)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def getJdbcURL():
-'''public String getJdbcURL()
-'''
-pass
+    '''    public String getJdbcURL()
+    '''
 def setJdbcURL():
-'''public void setJdbcURL(final String jdbcURL)
-'''
-pass
+    '''    public void setJdbcURL(final String jdbcURL)
+    '''

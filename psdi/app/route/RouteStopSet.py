@@ -1,12 +1,9 @@
 def RouteStopSet():
-'''public RouteStopSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RouteStopSet(final MboServerInterface ms)
+    '''
 def setOwner():
-'''public void setOwner(final MboRemote mbo)
-'''
-pass
+    '''    public void setOwner(final MboRemote mbo)
+    '''
 def initDataDictionary():
-'''public void initDataDictionary()
-'''
-pass
+    '''    public void initDataDictionary()
+    '''

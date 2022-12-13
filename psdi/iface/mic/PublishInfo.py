@@ -1,76 +1,57 @@
 def PublishInfo():
-'''public PublishInfo(final String pubChannelName, final String ifaceType, final String mosName, final String ifaceExitClassName, final String ifaceUserExitClassName, final String ifaceMapName, final boolean listener, final String eventFilterClassName, final String ifacetbName, final boolean retainMbos, final String messageType, final boolean txnTrkEnabled, final boolean storeMsg, final String extMsgIDField, final String searchField, final boolean skipDiffObject, final boolean publishJSON, final String templateName)
-'''
-pass
+    '''    public PublishInfo(final String pubChannelName, final String ifaceType, final String mosName, final String ifaceExitClassName, final String ifaceUserExitClassName, final String ifaceMapName, final boolean listener, final String eventFilterClassName, final String ifacetbName, final boolean retainMbos, final String messageType, final boolean txnTrkEnabled, final boolean storeMsg, final String extMsgIDField, final String searchField, final boolean skipDiffObject, final boolean publishJSON, final String templateName)
+    '''
 def isSkipDiffObject():
-'''public boolean isSkipDiffObject()
-'''
-pass
+    '''    public boolean isSkipDiffObject()
+    '''
 def getMessageType():
-'''public String getMessageType()
-'''
-pass
+    '''    public String getMessageType()
+    '''
 def isListener():
-'''public boolean isListener()
-'''
-pass
+    '''    public boolean isListener()
+    '''
 def isRetainMbos():
-'''public boolean isRetainMbos()
-'''
-pass
+    '''    public boolean isRetainMbos()
+    '''
 def getIfaceTbName():
-'''public String getIfaceTbName()
-'''
-pass
+    '''    public String getIfaceTbName()
+    '''
 def getEventFilterClassName():
-'''public String getEventFilterClassName()
-'''
-pass
+    '''    public String getEventFilterClassName()
+    '''
 def getPublishChannelName():
-'''public String getPublishChannelName()
-'''
-pass
+    '''    public String getPublishChannelName()
+    '''
 def getIfaceType():
-'''public String getIfaceType()
-'''
-pass
+    '''    public String getIfaceType()
+    '''
 def getMosName():
-'''public String getMosName()
-'''
-pass
+    '''    public String getMosName()
+    '''
 def getIfaceExitClassName():
-'''public String getIfaceExitClassName()
-'''
-pass
+    '''    public String getIfaceExitClassName()
+    '''
 def getIfaceUserExitClassName():
-'''public String getIfaceUserExitClassName()
-'''
-pass
+    '''    public String getIfaceUserExitClassName()
+    '''
 def getIfaceMapName():
-'''public String getIfaceMapName()
-'''
-pass
+    '''    public String getIfaceMapName()
+    '''
 def isTxnTrkEnabled():
-'''public boolean isTxnTrkEnabled()
-'''
-pass
+    '''    public boolean isTxnTrkEnabled()
+    '''
 def isStoreMsg():
-'''public boolean isStoreMsg()
-'''
-pass
+    '''    public boolean isStoreMsg()
+    '''
 def publishJSON():
-'''public boolean publishJSON()
-'''
-pass
+    '''    public boolean publishJSON()
+    '''
 def getExtMsgIDField():
-'''public String getExtMsgIDField()
-'''
-pass
+    '''    public String getExtMsgIDField()
+    '''
 def getSearchField():
-'''public String getSearchField()
-'''
-pass
+    '''    public String getSearchField()
+    '''
 def getTemplateName():
-'''public String getTemplateName()
-'''
-pass
+    '''    public String getTemplateName()
+    '''

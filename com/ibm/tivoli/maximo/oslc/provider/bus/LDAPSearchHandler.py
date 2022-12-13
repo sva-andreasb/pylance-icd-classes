@@ -1,8 +1,6 @@
 def LDAPSearchHandler():
-'''public LDAPSearchHandler(final BusResourceInfo resInfo, final String contextURI)
-'''
-pass
+    '''    public LDAPSearchHandler(final BusResourceInfo resInfo, final String contextURI)
+    '''
 def handleRequest():
-'''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
-'''
-pass
+    '''    public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''

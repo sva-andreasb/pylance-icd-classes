@@ -1,20 +1,15 @@
 def LinkedIterator():
-'''public LinkedIterator()
-'''
-pass
+    '''    public LinkedIterator()
+    '''
 def addIterator():
-'''public void addIterator(final Iterator i)
-'''
-pass
+    '''    public void addIterator(final Iterator i)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

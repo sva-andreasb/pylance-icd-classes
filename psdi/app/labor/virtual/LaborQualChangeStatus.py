@@ -1,4 +1,3 @@
 def LaborQualChangeStatus():
-'''public LaborQualChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public LaborQualChangeStatus(final MboSet ms)
+    '''

@@ -1,12 +1,9 @@
 def PMReforecastSkdAction():
-'''public PMReforecastSkdAction()
-'''
-pass
+    '''    public PMReforecastSkdAction()
+    '''
 def executeAction():
-'''public Object executeAction(final Object actionObject)
-'''
-pass
+    '''    public Object executeAction(final Object actionObject)
+    '''
 def setSKDActionContext():
-'''public void setSKDActionContext(final SKDActionContext context)
-'''
-pass
+    '''    public void setSKDActionContext(final SKDActionContext context)
+    '''

@@ -1,80 +1,61 @@
 ROLLBACK_VERSION = "int  -1"
 def staticDriverPropertiesApplied():
-'''public synchronized boolean staticDriverPropertiesApplied()
-'''
-pass
+    '''    public synchronized boolean staticDriverPropertiesApplied()
+    '''
 def getStaticDriverProfileApplied():
-'''public synchronized boolean getStaticDriverProfileApplied()
-'''
-pass
+    '''    public synchronized boolean getStaticDriverProfileApplied()
+    '''
 def setStaticDriverProfileApplied():
-'''public synchronized void setStaticDriverProfileApplied()
-'''
-pass
+    '''    public synchronized void setStaticDriverProfileApplied()
+    '''
 def getInstance():
-'''public static ControlDriver getInstance()
-'''
-pass
+    '''    public static ControlDriver getInstance()
+    '''
 def updateDriverDescriptorMapWithWASData():
-'''public void updateDriverDescriptorMapWithWASData(final String s, final String s2)
-'''
-pass
+    '''    public void updateDriverDescriptorMapWithWASData(final String s, final String s2)
+    '''
 def getDriverDescriptorMap():
-'''public Map<String, Object> getDriverDescriptorMap()
-'''
-pass
+    '''    public Map<String, Object> getDriverDescriptorMap()
+    '''
 def sendPushDownErrors():
-'''public void sendPushDownErrors(final ArrayList<PushDownError> list, final String s)
-'''
-pass
+    '''    public void sendPushDownErrors(final ArrayList<PushDownError> list, final String s)
+    '''
 def sendApplicationException():
-'''public void sendApplicationException(final String s, final SQLException ex)
-'''
-pass
+    '''    public void sendApplicationException(final String s, final SQLException ex)
+    '''
 def getUUID():
-'''public String getUUID()
-'''
-pass
+    '''    public String getUUID()
+    '''
 def getDriverID():
-'''public String getDriverID()
-'''
-pass
+    '''    public String getDriverID()
+    '''
 def doLogStatisticsLookup():
-'''public void doLogStatisticsLookup()
-'''
-pass
+    '''    public void doLogStatisticsLookup()
+    '''
 def setDriverProfileVersion():
-'''public void setDriverProfileVersion(final long lastAppliedDriverProfileVersion_)
-'''
-pass
+    '''    public void setDriverProfileVersion(final long lastAppliedDriverProfileVersion_)
+    '''
 def getRollbackGlobalDynamicProperties():
-'''public HashMap getRollbackGlobalDynamicProperties()
-'''
-pass
+    '''    public HashMap getRollbackGlobalDynamicProperties()
+    '''
 def setMonConnection():
-'''public void setMonConnection(final int i, final Connection connection)
-'''
-pass
+    '''    public void setMonConnection(final int i, final Connection connection)
+    '''
 def isMonConnectionset():
-'''public boolean isMonConnectionset(final int i)
-'''
-pass
+    '''    public boolean isMonConnectionset(final int i)
+    '''
 def run():
-'''public void run()
-public void run()
-public Thread run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public Thread run()
+    public void run()
+    '''
 def cancel():
-'''public boolean cancel()
-'''
-pass
+    '''    public boolean cancel()
+    '''
 def ShutdownHookAction():
-'''public ShutdownHookAction(final TimerTask timerTask_, final String threadName_)
-'''
-pass
+    '''    public ShutdownHookAction(final TimerTask timerTask_, final String threadName_)
+    '''
 def ShutdownHookRunnable():
-'''public ShutdownHookRunnable(final TimerTask timerTask_)
-'''
-pass
+    '''    public ShutdownHookRunnable(final TimerTask timerTask_)
+    '''

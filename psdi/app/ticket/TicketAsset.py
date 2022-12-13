@@ -1,16 +1,12 @@
 def TicketAsset():
-'''public TicketAsset(final MboSet ms)
-'''
-pass
+    '''    public TicketAsset(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getLocForAsset():
-'''public void getLocForAsset()
-'''
-pass
+    '''    public void getLocForAsset()
+    '''

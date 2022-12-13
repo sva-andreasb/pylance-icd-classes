@@ -1,68 +1,51 @@
 def ContractImpl():
-'''public ContractImpl()
-'''
-pass
+    '''    public ContractImpl()
+    '''
 def getFrequency():
-'''public int getFrequency()
-'''
-pass
+    '''    public int getFrequency()
+    '''
 def setFrequency():
-'''public void setFrequency(final int frequency)
-'''
-pass
+    '''    public void setFrequency(final int frequency)
+    '''
 def getEvents():
-'''public Set getEvents()
-'''
-pass
+    '''    public Set getEvents()
+    '''
 def addEvent():
-'''public void addEvent(final TriggerInfo event)
-'''
-pass
+    '''    public void addEvent(final TriggerInfo event)
+    '''
 def addAllEvents():
-'''public void addAllEvents(final Set events)
-'''
-pass
+    '''    public void addAllEvents(final Set events)
+    '''
 def removeEvent():
-'''public void removeEvent(final TriggerInfo event)
-'''
-pass
+    '''    public void removeEvent(final TriggerInfo event)
+    '''
 def match():
-'''public boolean match(final TriggerInfo event)
-'''
-pass
+    '''    public boolean match(final TriggerInfo event)
+    '''
 def getInterest():
-'''public Concern getInterest()
-'''
-pass
+    '''    public Concern getInterest()
+    '''
 def setInterest():
-'''public void setInterest(final Concern interest)
-'''
-pass
+    '''    public void setInterest(final Concern interest)
+    '''
 def subset():
-'''public boolean subset(final Contract contract)
-'''
-pass
+    '''    public boolean subset(final Contract contract)
+    '''
 def getUnion():
-'''public Contract getUnion(final Contract contract)
-'''
-pass
+    '''    public Contract getUnion(final Contract contract)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput out)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput out)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput in)
-'''
-pass
+    '''    public void readExternal(final ObjectInput in)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

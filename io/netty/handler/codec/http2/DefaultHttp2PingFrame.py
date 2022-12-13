@@ -1,29 +1,22 @@
 def DefaultHttp2PingFrame():
-'''public DefaultHttp2PingFrame(final long content)
-public DefaultHttp2PingFrame(final long content, final boolean ack)
-'''
-pass
+    '''    public DefaultHttp2PingFrame(final long content)
+    public DefaultHttp2PingFrame(final long content, final boolean ack)
+    '''
 def ack():
-'''public boolean ack()
-'''
-pass
+    '''    public boolean ack()
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def content():
-'''public long content()
-'''
-pass
+    '''    public long content()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

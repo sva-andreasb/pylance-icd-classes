@@ -1,8 +1,6 @@
 def MapSketchSet():
-'''public MapSketchSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MapSketchSet(final MboServerInterface ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

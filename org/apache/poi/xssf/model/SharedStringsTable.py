@@ -1,33 +1,25 @@
 def SharedStringsTable():
-'''public SharedStringsTable()
-public SharedStringsTable(final PackagePart part)
-'''
-pass
+    '''    public SharedStringsTable()
+    public SharedStringsTable(final PackagePart part)
+    '''
 def readFrom():
-'''public void readFrom(final InputStream is)
-'''
-pass
+    '''    public void readFrom(final InputStream is)
+    '''
 def getEntryAt():
-'''public CTRst getEntryAt(final int idx)
-'''
-pass
+    '''    public CTRst getEntryAt(final int idx)
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def getUniqueCount():
-'''public int getUniqueCount()
-'''
-pass
+    '''    public int getUniqueCount()
+    '''
 def addEntry():
-'''public int addEntry(final CTRst st)
-'''
-pass
+    '''    public int addEntry(final CTRst st)
+    '''
 def getItems():
-'''public List<CTRst> getItems()
-'''
-pass
+    '''    public List<CTRst> getItems()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''

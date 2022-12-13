@@ -1,4 +1,3 @@
 def LiveChatMessage():
-'''public LiveChatMessage(final MboSet ms)
-'''
-pass
+    '''    public LiveChatMessage(final MboSet ms)
+    '''

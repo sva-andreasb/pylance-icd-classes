@@ -1,16 +1,12 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def attributeSearch():
-'''public int attributeSearch()
-'''
-pass
+    '''    public int attributeSearch()
+    '''
 def multiSelectRecords():
-'''public int multiSelectRecords()
-'''
-pass
+    '''    public int multiSelectRecords()
+    '''
 def featureCancel():
-'''public int featureCancel()
-'''
-pass
+    '''    public int featureCancel()
+    '''

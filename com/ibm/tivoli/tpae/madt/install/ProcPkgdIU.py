@@ -1,40 +1,30 @@
 def ProcPkgdIU():
-'''public ProcPkgdIU()
-'''
-pass
+    '''    public ProcPkgdIU()
+    '''
 def getIndSolnName():
-'''public String getIndSolnName()
-'''
-pass
+    '''    public String getIndSolnName()
+    '''
 def getIndSolnVersion():
-'''public String getIndSolnVersion()
-'''
-pass
+    '''    public String getIndSolnVersion()
+    '''
 def getIndSolnUUID():
-'''public String getIndSolnUUID()
-'''
-pass
+    '''    public String getIndSolnUUID()
+    '''
 def isIndSolnFP():
-'''public boolean isIndSolnFP()
-'''
-pass
+    '''    public boolean isIndSolnFP()
+    '''
 def doesIndSolnHavePrivateInstFile():
-'''public boolean doesIndSolnHavePrivateInstFile()
-'''
-pass
+    '''    public boolean doesIndSolnHavePrivateInstFile()
+    '''
 def getIndSolnPrivateInstSteps():
-'''public String getIndSolnPrivateInstSteps()
-'''
-pass
+    '''    public String getIndSolnPrivateInstSteps()
+    '''
 def getIndSolnFpBaseMinReq():
-'''public String getIndSolnFpBaseMinReq()
-'''
-pass
+    '''    public String getIndSolnFpBaseMinReq()
+    '''
 def getIndSolnFpBaseMaxReq():
-'''public String getIndSolnFpBaseMaxReq()
-'''
-pass
+    '''    public String getIndSolnFpBaseMaxReq()
+    '''
 def procIndSolnZip():
-'''public void procIndSolnZip(final String[] array)
-'''
-pass
+    '''    public void procIndSolnZip(final String[] array)
+    '''

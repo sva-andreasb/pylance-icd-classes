@@ -1,20 +1,15 @@
 def SimpleModelData():
-'''public SimpleModelData(final String id)
-'''
-pass
+    '''    public SimpleModelData(final String id)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setProperty():
-'''public void setProperty(final String key, final Object value)
-'''
-pass
+    '''    public void setProperty(final String key, final Object value)
+    '''
 def getProperty():
-'''public <T> T getProperty(final String key)
-'''
-pass
+    '''    public <T> T getProperty(final String key)
+    '''
 def setId():
-'''public void setId(String id)
-'''
-pass
+    '''    public void setId(String id)
+    '''

@@ -1,40 +1,30 @@
 def XSLFSlideLayout():
-'''public XSLFSlideLayout(final PackagePart part)
-'''
-pass
+    '''    public XSLFSlideLayout(final PackagePart part)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getXmlObject():
-'''public CTSlideLayout getXmlObject()
-'''
-pass
+    '''    public CTSlideLayout getXmlObject()
+    '''
 def getSlideMaster():
-'''public XSLFSlideMaster getSlideMaster()
-'''
-pass
+    '''    public XSLFSlideMaster getSlideMaster()
+    '''
 def getMasterSheet():
-'''public XSLFSlideMaster getMasterSheet()
-'''
-pass
+    '''    public XSLFSlideMaster getMasterSheet()
+    '''
 def getTheme():
-'''public XSLFTheme getTheme()
-'''
-pass
+    '''    public XSLFTheme getTheme()
+    '''
 def getFollowMasterGraphics():
-'''public boolean getFollowMasterGraphics()
-'''
-pass
+    '''    public boolean getFollowMasterGraphics()
+    '''
 def getBackground():
-'''public XSLFBackground getBackground()
-'''
-pass
+    '''    public XSLFBackground getBackground()
+    '''
 def copyLayout():
-'''public void copyLayout(final XSLFSlide slide)
-'''
-pass
+    '''    public void copyLayout(final XSLFSlide slide)
+    '''
 def getType():
-'''public SlideLayout getType()
-'''
-pass
+    '''    public SlideLayout getType()
+    '''

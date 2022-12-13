@@ -1,8 +1,6 @@
 def PlusPFldStartDate():
-'''public PlusPFldStartDate(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldStartDate(final MboValue arg0)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

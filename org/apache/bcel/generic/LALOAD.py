@@ -1,8 +1,6 @@
 def LALOAD():
-'''public LALOAD()
-'''
-pass
+    '''    public LALOAD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

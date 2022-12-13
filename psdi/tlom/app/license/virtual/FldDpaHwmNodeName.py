@@ -1,20 +1,15 @@
 def FldDpaHwmNodeName():
-'''public FldDpaHwmNodeName(final MboValue mbv)
-'''
-pass
+    '''    public FldDpaHwmNodeName(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,8 +1,6 @@
 def FldSkdQueryHeavyItems():
-'''public FldSkdQueryHeavyItems(final MboValue mbv)
-'''
-pass
+    '''    public FldSkdQueryHeavyItems(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

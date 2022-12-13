@@ -1,21 +1,16 @@
 def getGeneralTreeTableModel():
-'''public TreeTableModel getGeneralTreeTableModel()
-'''
-pass
+    '''    public TreeTableModel getGeneralTreeTableModel()
+    '''
 def getFunctionalGroupTreeTableModels():
-'''public List getFunctionalGroupTreeTableModels()
-'''
-pass
+    '''    public List getFunctionalGroupTreeTableModels()
+    '''
 def ApplicationTreeTableModel():
-'''public ApplicationTreeTableModel()
-public ApplicationTreeTableModel(final TreeTableModel generalTreeTableModel, final List functionalGroupTreeTableModel)
-'''
-pass
+    '''    public ApplicationTreeTableModel()
+    public ApplicationTreeTableModel(final TreeTableModel generalTreeTableModel, final List functionalGroupTreeTableModel)
+    '''
 def setGeneralTreeTableModel():
-'''public void setGeneralTreeTableModel(final TreeTableModel generalTreeTableModel)
-'''
-pass
+    '''    public void setGeneralTreeTableModel(final TreeTableModel generalTreeTableModel)
+    '''
 def setFunctionalGroupTreeTableModel():
-'''public void setFunctionalGroupTreeTableModel(final List functionalGroupTreeTableModel)
-'''
-pass
+    '''    public void setFunctionalGroupTreeTableModel(final List functionalGroupTreeTableModel)
+    '''

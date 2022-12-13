@@ -22,97 +22,75 @@ UDTYPE = "int  99"
 DEFAULMAXLENGTH = "int  -1"
 DEFAULTSCALE = "int  2"
 def setMaxLength():
-'''public void setMaxLength(final int l)
-'''
-pass
+    '''    public void setMaxLength(final int l)
+    '''
 def getMaxLength():
-'''public int getMaxLength()
-'''
-pass
+    '''    public int getMaxLength()
+    '''
 def getScale():
-'''public int getScale()
-'''
-pass
+    '''    public int getScale()
+    '''
 def setScale():
-'''public void setScale(final int s)
-'''
-pass
+    '''    public void setScale(final int s)
+    '''
 def setValue():
-'''public void setValue(final Date value)
-public void setValue(final byte[] value)
-public void setValue(final double value)
-public void setValue(final float value)
-public void setValue(final int value)
-public void setValue(final long value)
-public void setValue(final boolean value)
-'''
-pass
+    '''    public void setValue(final Date value)
+    public void setValue(final byte[] value)
+    public void setValue(final double value)
+    public void setValue(final float value)
+    public void setValue(final int value)
+    public void setValue(final long value)
+    public void setValue(final boolean value)
+    '''
 def asDate():
-'''public Date asDate()
-'''
-pass
+    '''    public Date asDate()
+    '''
 def asDouble():
-'''public double asDouble()
-'''
-pass
+    '''    public double asDouble()
+    '''
 def asFloat():
-'''public float asFloat()
-'''
-pass
+    '''    public float asFloat()
+    '''
 def asInt():
-'''public int asInt()
-'''
-pass
+    '''    public int asInt()
+    '''
 def asLong():
-'''public long asLong()
-'''
-pass
+    '''    public long asLong()
+    '''
 def asBoolean():
-'''public boolean asBoolean()
-'''
-pass
+    '''    public boolean asBoolean()
+    '''
 def asBytes():
-'''public byte[] asBytes()
-'''
-pass
+    '''    public byte[] asBytes()
+    '''
 def isNull():
-'''public boolean isNull()
-'''
-pass
+    '''    public boolean isNull()
+    '''
 def setValueNull():
-'''public void setValueNull()
-'''
-pass
+    '''    public void setValueNull()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setAftercheckLengthAndScale():
-'''public void setAftercheckLengthAndScale(final String val)
-'''
-pass
+    '''    public void setAftercheckLengthAndScale(final String val)
+    '''
 def overrideStringData():
-'''public void overrideStringData(final String newValue)
-'''
-pass
+    '''    public void overrideStringData(final String newValue)
+    '''
 def createMaxType():
-'''public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type)
-public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type, final int length, final int scale)
-'''
-pass
+    '''    public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type)
+    public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type, final int length, final int scale)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def setAttributeName():
-'''public void setAttributeName(final String attributeName)
-'''
-pass
+    '''    public void setAttributeName(final String attributeName)
+    '''

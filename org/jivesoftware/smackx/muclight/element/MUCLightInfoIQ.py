@@ -1,18 +1,14 @@
-ELEMENT = "String  query""
-NAMESPACE = "String  urn:xmpp:muclight:0#info""
+ELEMENT = "String  \"query\""
+NAMESPACE = "String  \"urn:xmpp:muclight:0#info\""
 def MUCLightInfoIQ():
-'''public MUCLightInfoIQ(final String version, final MUCLightRoomConfiguration configuration, final HashMap<Jid, MUCLightAffiliation> occupants)
-'''
-pass
+    '''    public MUCLightInfoIQ(final String version, final MUCLightRoomConfiguration configuration, final HashMap<Jid, MUCLightAffiliation> occupants)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getConfiguration():
-'''public MUCLightRoomConfiguration getConfiguration()
-'''
-pass
+    '''    public MUCLightRoomConfiguration getConfiguration()
+    '''
 def getOccupants():
-'''public HashMap<Jid, MUCLightAffiliation> getOccupants()
-'''
-pass
+    '''    public HashMap<Jid, MUCLightAffiliation> getOccupants()
+    '''

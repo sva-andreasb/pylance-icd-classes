@@ -1,8 +1,6 @@
 def StoreSimpleHSQL():
-'''public StoreSimpleHSQL(final SDBConnection sdb, final StoreDesc desc)
-'''
-pass
+    '''    public StoreSimpleHSQL(final SDBConnection sdb, final StoreDesc desc)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

@@ -1,4 +1,4 @@
-cmxComponentName__ = "String  CMX""
+cmxComponentName__ = "String  \"CMX\""
 cmxMajorVersion__ = "int  11"
 cmxClientMajorVersion__ = "int  11"
 cmxMinorVersion__ = "int  0"

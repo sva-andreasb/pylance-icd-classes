@@ -1,12 +1,9 @@
 def ConnectionTimer():
-'''public ConnectionTimer(final long n)
-'''
-pass
+    '''    public ConnectionTimer(final long n)
+    '''
 def scheduleTimeout():
-'''public void scheduleTimeout(final TimedConnection timedConnection, final boolean value)
-'''
-pass
+    '''    public void scheduleTimeout(final TimedConnection timedConnection, final boolean value)
+    '''
 def cancelTimeout():
-'''public boolean cancelTimeout(final TimedConnection timedConnection)
-'''
-pass
+    '''    public boolean cancelTimeout(final TimedConnection timedConnection)
+    '''

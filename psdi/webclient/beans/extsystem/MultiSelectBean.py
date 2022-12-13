@@ -1,8 +1,6 @@
 def MultiSelectBean():
-'''public MultiSelectBean()
-'''
-pass
+    '''    public MultiSelectBean()
+    '''
 def callMethod():
-'''public int callMethod(final WebClientEvent event)
-'''
-pass
+    '''    public int callMethod(final WebClientEvent event)
+    '''

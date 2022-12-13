@@ -1,4 +1,3 @@
 def CatalogSet():
-'''public CatalogSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CatalogSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def PlusPCompMasterSet():
-'''public PlusPCompMasterSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPCompMasterSet(final MboServerInterface arg0)
+    '''

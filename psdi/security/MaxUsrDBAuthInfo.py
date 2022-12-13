@@ -1,4 +1,3 @@
 def MaxUsrDBAuthInfo():
-'''public MaxUsrDBAuthInfo(final MboSet ms)
-'''
-pass
+    '''    public MaxUsrDBAuthInfo(final MboSet ms)
+    '''

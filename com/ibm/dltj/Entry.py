@@ -1,131 +1,100 @@
 def Entry():
-'''public Entry()
-public Entry(final GlossCollection collection)
-'''
-pass
+    '''    public Entry()
+    public Entry(final GlossCollection collection)
+    '''
 def set():
-'''public final void set(final GlossCollection collection)
-'''
-pass
+    '''    public final void set(final GlossCollection collection)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getDT():
-'''public final int getDT()
-'''
-pass
+    '''    public final int getDT()
+    '''
 def getGrammar():
-'''public final long getGrammar(final int n)
-'''
-pass
+    '''    public final long getGrammar(final int n)
+    '''
 def getGrammarN():
-'''public final int getGrammarN()
-'''
-pass
+    '''    public final int getGrammarN()
+    '''
 def getJKOM():
-'''public final int getJKOM()
-'''
-pass
+    '''    public final int getJKOM()
+    '''
 def getJPOS():
-'''public final int getJPOS()
-'''
-pass
+    '''    public final int getJPOS()
+    '''
 def getJPSTART():
-'''public final int getJPSTART()
-'''
-pass
+    '''    public final int getJPSTART()
+    '''
 def getLanguage():
-'''public final String getLanguage()
-'''
-pass
+    '''    public final String getLanguage()
+    '''
 def getLemma():
-'''public final String getLemma(final CharacterIterator characterIterator, final int n, final int n2)
-public final StringBuffer getLemma(final StringBuffer sb, final CharacterIterator characterIterator, final int n, final int n2)
-public final String getLemma(final String text, final int beginIndex, final int endIndex)
-public final StringBuffer getLemma(final StringBuffer sb, final String text, final int n, final int n2)
-'''
-pass
+    '''    public final String getLemma(final CharacterIterator characterIterator, final int n, final int n2)
+    public final StringBuffer getLemma(final StringBuffer sb, final CharacterIterator characterIterator, final int n, final int n2)
+    public final String getLemma(final String text, final int beginIndex, final int endIndex)
+    public final StringBuffer getLemma(final StringBuffer sb, final String text, final int n, final int n2)
+    '''
 def getMT():
-'''public final int getMT()
-'''
-pass
+    '''    public final int getMT()
+    '''
 def getPOS():
-'''public final int getPOS()
-'''
-pass
+    '''    public final int getPOS()
+    '''
 def getSW():
-'''public final int getSW()
-'''
-pass
+    '''    public final int getSW()
+    '''
 def getSynCount():
-'''public final int getSynCount()
-'''
-pass
+    '''    public final int getSynCount()
+    '''
 def getSynonym():
-'''public final String getSynonym(final int n)
-'''
-pass
+    '''    public final String getSynonym(final int n)
+    '''
 def getType():
-'''public final int getType()
-'''
-pass
+    '''    public final int getType()
+    '''
 def getCposFromZhMidGloss():
-'''public static int getCposFromZhMidGloss(final MidGloss midGloss)
-'''
-pass
+    '''    public static int getCposFromZhMidGloss(final MidGloss midGloss)
+    '''
 def getCPOS():
-'''public final int getCPOS()
-'''
-pass
+    '''    public final int getCPOS()
+    '''
 def getCatName():
-'''public final String getCatName()
-'''
-pass
+    '''    public final String getCatName()
+    '''
 def getStem():
-'''public final String getStem(final CharacterIterator characterIterator, final int n, final int n2)
-public final StringBuffer getStem(final StringBuffer sb, final CharacterIterator characterIterator, final int n, final int n2)
-public final StringBuffer getStem(final StringBuffer sb, final String text, final int n, final int n2)
-public final String getStem(final String text, final int n, final int n2)
-'''
-pass
+    '''    public final String getStem(final CharacterIterator characterIterator, final int n, final int n2)
+    public final StringBuffer getStem(final StringBuffer sb, final CharacterIterator characterIterator, final int n, final int n2)
+    public final StringBuffer getStem(final StringBuffer sb, final String text, final int n, final int n2)
+    public final String getStem(final String text, final int n, final int n2)
+    '''
 def getInt():
-'''public final int getInt()
-'''
-pass
+    '''    public final int getInt()
+    '''
 def getTCRRule():
-'''public final String getTCRRule()
-'''
-pass
+    '''    public final String getTCRRule()
+    '''
 def getTCRCost():
-'''public final int getTCRCost()
-'''
-pass
+    '''    public final int getTCRCost()
+    '''
 def getPcode():
-'''public final String getPcode()
-'''
-pass
+    '''    public final String getPcode()
+    '''
 def getTCRType():
-'''public final int getTCRType()
-'''
-pass
+    '''    public final int getTCRType()
+    '''
 def getUserData():
-'''public final byte[] getUserData(final int n)
-'''
-pass
+    '''    public final byte[] getUserData(final int n)
+    '''
 def next():
-'''public final void next()
-'''
-pass
+    '''    public final void next()
+    '''
 def getGlossType():
-'''public final int getGlossType()
-'''
-pass
+    '''    public final int getGlossType()
+    '''
 def valid():
-'''public boolean valid()
-'''
-pass
+    '''    public boolean valid()
+    '''
 def getCurrentGloss():
-'''public Gloss getCurrentGloss()
-'''
-pass
+    '''    public Gloss getCurrentGloss()
+    '''

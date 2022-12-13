@@ -1,86 +1,65 @@
 def DBReifierGraph():
-'''public DBReifierGraph(final GraphRDB parent, final List<SpecializedGraphReifier> reifiers)
-'''
-pass
+    '''    public DBReifierGraph(final GraphRDB parent, final List<SpecializedGraphReifier> reifiers)
+    '''
 def add():
-'''public void add(final Triple t)
-'''
-pass
+    '''    public void add(final Triple t)
+    '''
 def delete():
-'''public void delete(final Triple t)
-'''
-pass
+    '''    public void delete(final Triple t)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final Triple t)
-public boolean contains(final Node s, final Node p, final Node o)
-'''
-pass
+    '''    public boolean contains(final Triple t)
+    public boolean contains(final Node s, final Node p, final Node o)
+    '''
 def getStatisticsHandler():
-'''public GraphStatisticsHandler getStatisticsHandler()
-'''
-pass
+    '''    public GraphStatisticsHandler getStatisticsHandler()
+    '''
 def find():
-'''public ExtendedIterator<Triple> find(final TripleMatch m)
-public ExtendedIterator<Triple> find(final Node s, final Node p, final Node o)
-'''
-pass
+    '''    public ExtendedIterator<Triple> find(final TripleMatch m)
+    public ExtendedIterator<Triple> find(final Node s, final Node p, final Node o)
+    '''
 def getPrefixMapping():
-'''public PrefixMapping getPrefixMapping()
-'''
-pass
+    '''    public PrefixMapping getPrefixMapping()
+    '''
 def getTransactionHandler():
-'''public TransactionHandler getTransactionHandler()
-'''
-pass
+    '''    public TransactionHandler getTransactionHandler()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getEventManager():
-'''public GraphEventManager getEventManager()
-'''
-pass
+    '''    public GraphEventManager getEventManager()
+    '''
 def dependsOn():
-'''public boolean dependsOn(final Graph other)
-'''
-pass
+    '''    public boolean dependsOn(final Graph other)
+    '''
 def queryHandler():
-'''public QueryHandler queryHandler()
-'''
-pass
+    '''    public QueryHandler queryHandler()
+    '''
 def getBulkUpdateHandler():
-'''public BulkUpdateHandler getBulkUpdateHandler()
-'''
-pass
+    '''    public BulkUpdateHandler getBulkUpdateHandler()
+    '''
 def getCapabilities():
-'''public Capabilities getCapabilities()
-'''
-pass
+    '''    public Capabilities getCapabilities()
+    '''
 def getReifier():
-'''public Reifier getReifier()
-'''
-pass
+    '''    public Reifier getReifier()
+    '''
 def isIsomorphicWith():
-'''public boolean isIsomorphicWith(final Graph g)
-'''
-pass
+    '''    public boolean isIsomorphicWith(final Graph g)
+    '''
 def capabilities():
-'''public int capabilities()
-'''
-pass
+    '''    public int capabilities()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,12 +1,9 @@
 def ATHROW():
-'''public ATHROW()
-'''
-pass
+    '''    public ATHROW()
+    '''
 def getExceptions():
-'''public Class[] getExceptions()
-'''
-pass
+    '''    public Class[] getExceptions()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

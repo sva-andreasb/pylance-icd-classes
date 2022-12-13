@@ -1,8 +1,6 @@
 def FldNotifIntObjectName():
-'''public FldNotifIntObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldNotifIntObjectName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

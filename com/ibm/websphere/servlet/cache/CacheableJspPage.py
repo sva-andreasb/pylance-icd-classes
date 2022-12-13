@@ -1,8 +1,6 @@
 def getId():
-'''public String getId(final HttpServletRequest request)
-'''
-pass
+    '''    public String getId(final HttpServletRequest request)
+    '''
 def getSharingPolicy():
-'''public int getSharingPolicy(final HttpServletRequest request)
-'''
-pass
+    '''    public int getSharingPolicy(final HttpServletRequest request)
+    '''

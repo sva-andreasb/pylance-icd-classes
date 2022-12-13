@@ -1,12 +1,9 @@
 def FldItemConditionCommodity():
-'''public FldItemConditionCommodity(final MboValue mbv)
-'''
-pass
+    '''    public FldItemConditionCommodity(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

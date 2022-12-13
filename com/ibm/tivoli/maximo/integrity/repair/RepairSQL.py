@@ -1,8 +1,6 @@
 def RepairSQL():
-'''public RepairSQL(final Connection dc, final String sql)
-'''
-pass
+    '''    public RepairSQL(final Connection dc, final String sql)
+    '''
 def doRepair():
-'''public void doRepair()
-'''
-pass
+    '''    public void doRepair()
+    '''

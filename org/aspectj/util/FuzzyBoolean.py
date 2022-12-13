@@ -1,60 +1,51 @@
 def fromBoolean():
-'''public static final FuzzyBoolean fromBoolean(final boolean b)
-'''
-pass
+    '''    public static final FuzzyBoolean fromBoolean(final boolean b)
+    '''
 def alwaysFalse():
-'''public boolean alwaysFalse()
-public boolean alwaysFalse()
-public boolean alwaysFalse()
-public boolean alwaysFalse()
-'''
-pass
+    '''    public boolean alwaysFalse()
+    public boolean alwaysFalse()
+    public boolean alwaysFalse()
+    public boolean alwaysFalse()
+    '''
 def alwaysTrue():
-'''public boolean alwaysTrue()
-public boolean alwaysTrue()
-public boolean alwaysTrue()
-public boolean alwaysTrue()
-'''
-pass
+    '''    public boolean alwaysTrue()
+    public boolean alwaysTrue()
+    public boolean alwaysTrue()
+    public boolean alwaysTrue()
+    '''
 def maybeFalse():
-'''public boolean maybeFalse()
-public boolean maybeFalse()
-public boolean maybeFalse()
-public boolean maybeFalse()
-'''
-pass
+    '''    public boolean maybeFalse()
+    public boolean maybeFalse()
+    public boolean maybeFalse()
+    public boolean maybeFalse()
+    '''
 def maybeTrue():
-'''public boolean maybeTrue()
-public boolean maybeTrue()
-public boolean maybeTrue()
-public boolean maybeTrue()
-'''
-pass
+    '''    public boolean maybeTrue()
+    public boolean maybeTrue()
+    public boolean maybeTrue()
+    public boolean maybeTrue()
+    '''
 def and():
-'''public FuzzyBoolean and(final FuzzyBoolean other)
-public FuzzyBoolean and(final FuzzyBoolean other)
-public FuzzyBoolean and(final FuzzyBoolean other)
-public FuzzyBoolean and(final FuzzyBoolean other)
-'''
-pass
+    '''    public FuzzyBoolean and(final FuzzyBoolean other)
+    public FuzzyBoolean and(final FuzzyBoolean other)
+    public FuzzyBoolean and(final FuzzyBoolean other)
+    public FuzzyBoolean and(final FuzzyBoolean other)
+    '''
 def not():
-'''public FuzzyBoolean not()
-public FuzzyBoolean not()
-public FuzzyBoolean not()
-public FuzzyBoolean not()
-'''
-pass
+    '''    public FuzzyBoolean not()
+    public FuzzyBoolean not()
+    public FuzzyBoolean not()
+    public FuzzyBoolean not()
+    '''
 def or():
-'''public FuzzyBoolean or(final FuzzyBoolean other)
-public FuzzyBoolean or(final FuzzyBoolean other)
-public FuzzyBoolean or(final FuzzyBoolean other)
-public FuzzyBoolean or(final FuzzyBoolean other)
-'''
-pass
+    '''    public FuzzyBoolean or(final FuzzyBoolean other)
+    public FuzzyBoolean or(final FuzzyBoolean other)
+    public FuzzyBoolean or(final FuzzyBoolean other)
+    public FuzzyBoolean or(final FuzzyBoolean other)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    '''

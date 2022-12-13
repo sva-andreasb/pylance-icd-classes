@@ -1,16 +1,12 @@
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''
 def setUsername():
-'''public void setUsername(final String username)
-'''
-pass
+    '''    public void setUsername(final String username)
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''

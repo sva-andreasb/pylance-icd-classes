@@ -1,24 +1,18 @@
 def IlvTextDocument():
-'''public IlvTextDocument()
-'''
-pass
+    '''    public IlvTextDocument()
+    '''
 def initializeDocument():
-'''public boolean initializeDocument(final Object o)
-'''
-pass
+    '''    public boolean initializeDocument(final Object o)
+    '''
 def clean():
-'''public void clean()
-'''
-pass
+    '''    public void clean()
+    '''
 def writeDocument():
-'''public boolean writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
-'''
-pass
+    '''    public boolean writeDocument(final Writer writer, final IlvFileFilter ilvFileFilter)
+    '''
 def getTextDocument():
-'''public Document getTextDocument()
-'''
-pass
+    '''    public Document getTextDocument()
+    '''
 def undoableEditHappened():
-'''public void undoableEditHappened(final UndoableEditEvent undoableEditEvent)
-'''
-pass
+    '''    public void undoableEditHappened(final UndoableEditEvent undoableEditEvent)
+    '''

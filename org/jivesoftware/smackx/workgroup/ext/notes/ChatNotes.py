@@ -1,30 +1,23 @@
-ELEMENT_NAME = "String  chat-notes""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"chat-notes\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def ChatNotes():
-'''public ChatNotes()
-'''
-pass
+    '''    public ChatNotes()
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def setSessionID():
-'''public void setSessionID(final String sessionID)
-'''
-pass
+    '''    public void setSessionID(final String sessionID)
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def replace():
-'''public static final String replace(final String string, final String oldString, final String newString)
-'''
-pass
+    '''    public static final String replace(final String string, final String oldString, final String newString)
+    '''
 def parse():
-'''public ChatNotes parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public ChatNotes parse(final XmlPullParser parser, final int initialDepth)
+    '''

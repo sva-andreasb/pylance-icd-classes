@@ -1,8 +1,6 @@
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def testtarget():
-'''public int testtarget()
-'''
-pass
+    '''    public int testtarget()
+    '''

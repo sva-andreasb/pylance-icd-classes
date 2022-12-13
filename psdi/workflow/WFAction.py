@@ -1,41 +1,31 @@
 def WFAction():
-'''public WFAction(final MboSet ms)
-'''
-pass
+    '''    public WFAction(final MboSet ms)
+    '''
 def setCurrentMemo():
-'''public void setCurrentMemo(final String currentMemo)
-'''
-pass
+    '''    public void setCurrentMemo(final String currentMemo)
+    '''
 def getCurrentMemo():
-'''public String getCurrentMemo()
-'''
-pass
+    '''    public String getCurrentMemo()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def applyWorkflowAction():
-'''public void applyWorkflowAction(final String memo)
-'''
-pass
+    '''    public void applyWorkflowAction(final String memo)
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def wfValidate():
-'''public void wfValidate(final Vector<MXException> errs)
-'''
-pass
+    '''    public void wfValidate(final Vector<MXException> errs)
+    '''
 def evaluateCondition():
-'''public boolean evaluateCondition()
-public boolean evaluateCondition(final WFAssignmentRemote assignment)
-'''
-pass
+    '''    public boolean evaluateCondition()
+    public boolean evaluateCondition(final WFAssignmentRemote assignment)
+    '''

@@ -1,48 +1,37 @@
 def DefaultFlowMessageFactory():
-'''public DefaultFlowMessageFactory()
-public DefaultFlowMessageFactory(final String entryText, final String exitText)
-'''
-pass
+    '''    public DefaultFlowMessageFactory()
+    public DefaultFlowMessageFactory(final String entryText, final String exitText)
+    '''
 def getEntryText():
-'''public String getEntryText()
-'''
-pass
+    '''    public String getEntryText()
+    '''
 def getExitText():
-'''public String getExitText()
-'''
-pass
+    '''    public String getExitText()
+    '''
 def newEntryMessage():
-'''public EntryMessage newEntryMessage(final Message message)
-'''
-pass
+    '''    public EntryMessage newEntryMessage(final Message message)
+    '''
 def newExitMessage():
-'''public ExitMessage newExitMessage(final EntryMessage message)
-public ExitMessage newExitMessage(final Object result, final EntryMessage message)
-public ExitMessage newExitMessage(final Object result, final Message message)
-'''
-pass
+    '''    public ExitMessage newExitMessage(final EntryMessage message)
+    public ExitMessage newExitMessage(final Object result, final EntryMessage message)
+    public ExitMessage newExitMessage(final Object result, final Message message)
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    public String getFormattedMessage()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def getMessage():
-'''public Message getMessage()
-'''
-pass
+    '''    public Message getMessage()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''

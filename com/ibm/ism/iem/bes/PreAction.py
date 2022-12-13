@@ -1,88 +1,66 @@
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setText():
-'''public void setText(final String value)
-'''
-pass
+    '''    public void setText(final String value)
+    '''
 def isAskToSaveWork():
-'''public Boolean isAskToSaveWork()
-'''
-pass
+    '''    public Boolean isAskToSaveWork()
+    '''
 def setAskToSaveWork():
-'''public void setAskToSaveWork(final Boolean value)
-'''
-pass
+    '''    public void setAskToSaveWork(final Boolean value)
+    '''
 def isShowActionButton():
-'''public Boolean isShowActionButton()
-'''
-pass
+    '''    public Boolean isShowActionButton()
+    '''
 def setShowActionButton():
-'''public void setShowActionButton(final Boolean value)
-'''
-pass
+    '''    public void setShowActionButton(final Boolean value)
+    '''
 def isShowCancelButton():
-'''public Boolean isShowCancelButton()
-'''
-pass
+    '''    public Boolean isShowCancelButton()
+    '''
 def setShowCancelButton():
-'''public void setShowCancelButton(final Boolean value)
-'''
-pass
+    '''    public void setShowCancelButton(final Boolean value)
+    '''
 def getDeadlineBehavior():
-'''public ActionDeadlineBehavior getDeadlineBehavior()
-'''
-pass
+    '''    public ActionDeadlineBehavior getDeadlineBehavior()
+    '''
 def setDeadlineBehavior():
-'''public void setDeadlineBehavior(final ActionDeadlineBehavior value)
-'''
-pass
+    '''    public void setDeadlineBehavior(final ActionDeadlineBehavior value)
+    '''
 def getDeadlineType():
-'''public String getDeadlineType()
-'''
-pass
+    '''    public String getDeadlineType()
+    '''
 def setDeadlineType():
-'''public void setDeadlineType(final String value)
-'''
-pass
+    '''    public void setDeadlineType(final String value)
+    '''
 def getDeadlineInterval():
-'''public Duration getDeadlineInterval()
-'''
-pass
+    '''    public Duration getDeadlineInterval()
+    '''
 def setDeadlineInterval():
-'''public void setDeadlineInterval(final Duration value)
-'''
-pass
+    '''    public void setDeadlineInterval(final Duration value)
+    '''
 def getDeadlineOffset():
-'''public Duration getDeadlineOffset()
-'''
-pass
+    '''    public Duration getDeadlineOffset()
+    '''
 def setDeadlineOffset():
-'''public void setDeadlineOffset(final Duration value)
-'''
-pass
+    '''    public void setDeadlineOffset(final Duration value)
+    '''
 def getDeadlineLocalOffset():
-'''public Duration getDeadlineLocalOffset()
-'''
-pass
+    '''    public Duration getDeadlineLocalOffset()
+    '''
 def setDeadlineLocalOffset():
-'''public void setDeadlineLocalOffset(final Duration value)
-'''
-pass
+    '''    public void setDeadlineLocalOffset(final Duration value)
+    '''
 def isShowConfirmation():
-'''public Boolean isShowConfirmation()
-'''
-pass
+    '''    public Boolean isShowConfirmation()
+    '''
 def setShowConfirmation():
-'''public void setShowConfirmation(final Boolean value)
-'''
-pass
+    '''    public void setShowConfirmation(final Boolean value)
+    '''
 def getConfirmation():
-'''public String getConfirmation()
-'''
-pass
+    '''    public String getConfirmation()
+    '''
 def setConfirmation():
-'''public void setConfirmation(final String value)
-'''
-pass
+    '''    public void setConfirmation(final String value)
+    '''

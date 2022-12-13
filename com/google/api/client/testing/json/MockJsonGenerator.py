@@ -1,54 +1,42 @@
 def getFactory():
-'''public JsonFactory getFactory()
-'''
-pass
+    '''    public JsonFactory getFactory()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def writeStartArray():
-'''public void writeStartArray()
-'''
-pass
+    '''    public void writeStartArray()
+    '''
 def writeEndArray():
-'''public void writeEndArray()
-'''
-pass
+    '''    public void writeEndArray()
+    '''
 def writeStartObject():
-'''public void writeStartObject()
-'''
-pass
+    '''    public void writeStartObject()
+    '''
 def writeEndObject():
-'''public void writeEndObject()
-'''
-pass
+    '''    public void writeEndObject()
+    '''
 def writeFieldName():
-'''public void writeFieldName(final String name)
-'''
-pass
+    '''    public void writeFieldName(final String name)
+    '''
 def writeNull():
-'''public void writeNull()
-'''
-pass
+    '''    public void writeNull()
+    '''
 def writeString():
-'''public void writeString(final String value)
-'''
-pass
+    '''    public void writeString(final String value)
+    '''
 def writeBoolean():
-'''public void writeBoolean(final boolean state)
-'''
-pass
+    '''    public void writeBoolean(final boolean state)
+    '''
 def writeNumber():
-'''public void writeNumber(final int v)
-public void writeNumber(final long v)
-public void writeNumber(final BigInteger v)
-public void writeNumber(final float v)
-public void writeNumber(final double v)
-public void writeNumber(final BigDecimal v)
-public void writeNumber(final String encodedValue)
-'''
-pass
+    '''    public void writeNumber(final int v)
+    public void writeNumber(final long v)
+    public void writeNumber(final BigInteger v)
+    public void writeNumber(final float v)
+    public void writeNumber(final double v)
+    public void writeNumber(final BigDecimal v)
+    public void writeNumber(final String encodedValue)
+    '''

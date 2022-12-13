@@ -1,4 +1,3 @@
 def FldRFQNum():
-'''public FldRFQNum(final MboValue mbv)
-'''
-pass
+    '''    public FldRFQNum(final MboValue mbv)
+    '''

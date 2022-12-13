@@ -1,16 +1,12 @@
 def getInstance():
-'''public static final LastError getInstance()
-'''
-pass
+    '''    public static final LastError getInstance()
+    '''
 def getError():
-'''public final int getError()
-'''
-pass
+    '''    public final int getError()
+    '''
 def get():
-'''public final int get()
-'''
-pass
+    '''    public final int get()
+    '''
 def set():
-'''public final void set(final int value)
-'''
-pass
+    '''    public final void set(final int value)
+    '''

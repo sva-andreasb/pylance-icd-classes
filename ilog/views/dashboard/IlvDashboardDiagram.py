@@ -1,387 +1,292 @@
 def IlvDashboardDiagram():
-'''public IlvDashboardDiagram(final IlvDashboardContext b)
-public IlvDashboardDiagram(final IlvDashboardContext b, final IlvSDMView ilvSDMView)
-'''
-pass
+    '''    public IlvDashboardDiagram(final IlvDashboardContext b)
+    public IlvDashboardDiagram(final IlvDashboardContext b, final IlvSDMView ilvSDMView)
+    '''
 def getContext():
-'''public IlvDashboardContext getContext()
-'''
-pass
+    '''    public IlvDashboardContext getContext()
+    '''
 def setQuadtreeEnabled():
-'''public void setQuadtreeEnabled(final boolean b)
-'''
-pass
+    '''    public void setQuadtreeEnabled(final boolean b)
+    '''
 def prepareForEditing():
-'''public void prepareForEditing()
-'''
-pass
+    '''    public void prepareForEditing()
+    '''
 def objectRemoved():
-'''public void objectRemoved(final SDMModelEvent sdmModelEvent)
-'''
-pass
+    '''    public void objectRemoved(final SDMModelEvent sdmModelEvent)
+    '''
 def dataChanged():
-'''public void dataChanged(final SDMModelEvent sdmModelEvent)
-'''
-pass
+    '''    public void dataChanged(final SDMModelEvent sdmModelEvent)
+    '''
 def canEdit():
-'''public boolean canEdit()
-'''
-pass
+    '''    public boolean canEdit()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def cut():
-'''public void cut()
-'''
-pass
+    '''    public void cut()
+    '''
 def copy():
-'''public void copy()
-'''
-pass
+    '''    public void copy()
+    '''
 def paste():
-'''public void paste()
-'''
-pass
+    '''    public void paste()
+    '''
 def canPaste():
-'''public boolean canPaste()
-'''
-pass
+    '''    public boolean canPaste()
+    '''
 def duplicate():
-'''public void duplicate()
-'''
-pass
+    '''    public void duplicate()
+    '''
 def selectAll():
-'''public void selectAll()
-'''
-pass
+    '''    public void selectAll()
+    '''
 def canSelect():
-'''public boolean canSelect()
-'''
-pass
+    '''    public boolean canSelect()
+    '''
 def canGroup():
-'''public boolean canGroup()
-'''
-pass
+    '''    public boolean canGroup()
+    '''
 def group():
-'''public void group()
-'''
-pass
+    '''    public void group()
+    '''
 def canUngroup():
-'''public boolean canUngroup()
-'''
-pass
+    '''    public boolean canUngroup()
+    '''
 def ungroup():
-'''public void ungroup()
-'''
-pass
+    '''    public void ungroup()
+    '''
 def canAlign():
-'''public boolean canAlign()
-'''
-pass
+    '''    public boolean canAlign()
+    '''
 def canDistribute():
-'''public boolean canDistribute()
-'''
-pass
+    '''    public boolean canDistribute()
+    '''
 def alignBottom():
-'''public void alignBottom()
-'''
-pass
+    '''    public void alignBottom()
+    '''
 def alignHorizontalCenter():
-'''public void alignHorizontalCenter()
-'''
-pass
+    '''    public void alignHorizontalCenter()
+    '''
 def alignLeft():
-'''public void alignLeft()
-'''
-pass
+    '''    public void alignLeft()
+    '''
 def alignRight():
-'''public void alignRight()
-'''
-pass
+    '''    public void alignRight()
+    '''
 def alignTop():
-'''public void alignTop()
-'''
-pass
+    '''    public void alignTop()
+    '''
 def alignVerticalCenter():
-'''public void alignVerticalCenter()
-'''
-pass
+    '''    public void alignVerticalCenter()
+    '''
 def distributeHorizontally():
-'''public void distributeHorizontally()
-'''
-pass
+    '''    public void distributeHorizontally()
+    '''
 def compare():
-'''public int compare(final Object o, final Object o2)
-public int compare(final Object o, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o, final Object o2)
+    public int compare(final Object o, final Object o2)
+    '''
 def distributeVertically():
-'''public void distributeVertically()
-'''
-pass
+    '''    public void distributeVertically()
+    '''
 def getBackgroundGraphics():
-'''public IlvDashboardGraphicIterator getBackgroundGraphics()
-'''
-pass
+    '''    public IlvDashboardGraphicIterator getBackgroundGraphics()
+    '''
 def writeDataFile():
-'''public void writeDataFile(final URL url)
-'''
-pass
+    '''    public void writeDataFile(final URL url)
+    '''
 def writeData():
-'''public void writeData()
-'''
-pass
+    '''    public void writeData()
+    '''
 def writeDashboardFiles():
-'''public void writeDashboardFiles()
-'''
-pass
+    '''    public void writeDashboardFiles()
+    '''
 def writeBackgroundFile():
-'''public void writeBackgroundFile(final String name)
-'''
-pass
+    '''    public void writeBackgroundFile(final String name)
+    '''
 def writeBackground():
-'''public void writeBackground(final OutputStream outputStream)
-'''
-pass
+    '''    public void writeBackground(final OutputStream outputStream)
+    '''
 def readBackground():
-'''public void readBackground(final InputStream inputStream)
-'''
-pass
+    '''    public void readBackground(final InputStream inputStream)
+    '''
 def writeProjectFile():
-'''public void writeProjectFile(final URL url)
-'''
-pass
+    '''    public void writeProjectFile(final URL url)
+    '''
 def setProject():
-'''public void setProject(final IlvDiagrammerProject project)
-'''
-pass
+    '''    public void setProject(final IlvDiagrammerProject project)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def setModified():
-'''public void setModified(final boolean b)
-'''
-pass
+    '''    public void setModified(final boolean b)
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def isBackgroundObject():
-'''public boolean isBackgroundObject(final IlvGraphic ilvGraphic)
-'''
-pass
+    '''    public boolean isBackgroundObject(final IlvGraphic ilvGraphic)
+    '''
 def addSymbol():
-'''public void addSymbol(final IlvDashboardSymbol e)
-'''
-pass
+    '''    public void addSymbol(final IlvDashboardSymbol e)
+    '''
 def removeSymbol():
-'''public void removeSymbol(final IlvDashboardSymbol ilvDashboardSymbol)
-'''
-pass
+    '''    public void removeSymbol(final IlvDashboardSymbol ilvDashboardSymbol)
+    '''
 def getObjectSymbol():
-'''public IlvDashboardSymbol getObjectSymbol(final Object o)
-'''
-pass
+    '''    public IlvDashboardSymbol getObjectSymbol(final Object o)
+    '''
 def getGraphicSymbol():
-'''public IlvDashboardSymbol getGraphicSymbol(final IlvGraphic ilvGraphic)
-'''
-pass
+    '''    public IlvDashboardSymbol getGraphicSymbol(final IlvGraphic ilvGraphic)
+    '''
 def hasSelectedSymbols():
-'''public boolean hasSelectedSymbols()
-'''
-pass
+    '''    public boolean hasSelectedSymbols()
+    '''
 def getSelectedSymbols():
-'''public IlvDashboardSymbolIterator getSelectedSymbols()
-'''
-pass
+    '''    public IlvDashboardSymbolIterator getSelectedSymbols()
+    '''
 def getSymbol():
-'''public IlvDashboardSymbol getSymbol(final String s)
-'''
-pass
+    '''    public IlvDashboardSymbol getSymbol(final String s)
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def setURL():
-'''public void setURL(final URL d)
-'''
-pass
+    '''    public void setURL(final URL d)
+    '''
 def writeDashboard():
-'''public void writeDashboard(final URL url)
-'''
-pass
+    '''    public void writeDashboard(final URL url)
+    '''
 def readDashboard():
-'''public void readDashboard(final URL url)
-public void readDashboard(final Document document, final boolean b, final float n, final float n2)
-'''
-pass
+    '''    public void readDashboard(final URL url)
+    public void readDashboard(final Document document, final boolean b, final float n, final float n2)
+    '''
 def readBinary():
-'''public void readBinary(final URL url)
-public void readBinary(final InputStream inputStream)
-'''
-pass
+    '''    public void readBinary(final URL url)
+    public void readBinary(final InputStream inputStream)
+    '''
 def writeBinary():
-'''public void writeBinary(final URL url)
-public void writeBinary(final OutputStream outputStream)
-'''
-pass
+    '''    public void writeBinary(final URL url)
+    public void writeBinary(final OutputStream outputStream)
+    '''
 def isUndoingEnabled():
-'''public boolean isUndoingEnabled()
-'''
-pass
+    '''    public boolean isUndoingEnabled()
+    '''
 def setUndoingEnabled():
-'''public void setUndoingEnabled(final boolean f)
-'''
-pass
+    '''    public void setUndoingEnabled(final boolean f)
+    '''
 def addUndoableEdit():
-'''public void addUndoableEdit(final UndoableEdit undoableEdit)
-'''
-pass
+    '''    public void addUndoableEdit(final UndoableEdit undoableEdit)
+    '''
 def setCompoundEditMode():
-'''public void setCompoundEditMode(final boolean compoundMode)
-'''
-pass
+    '''    public void setCompoundEditMode(final boolean compoundMode)
+    '''
 def canUndo():
-'''public boolean canUndo()
-'''
-pass
+    '''    public boolean canUndo()
+    '''
 def undo():
-'''public void undo()
-public void undo()
-'''
-pass
+    '''    public void undo()
+    public void undo()
+    '''
 def canRedo():
-'''public boolean canRedo()
-'''
-pass
+    '''    public boolean canRedo()
+    '''
 def redo():
-'''public void redo()
-public void redo()
-'''
-pass
+    '''    public void redo()
+    public void redo()
+    '''
 def setSelectManager():
-'''public void setSelectManager(final IlvDashboardKeySelectManager h)
-'''
-pass
+    '''    public void setSelectManager(final IlvDashboardKeySelectManager h)
+    '''
 def getSelectManager():
-'''public IlvDashboardKeySelectManager getSelectManager()
-'''
-pass
+    '''    public IlvDashboardKeySelectManager getSelectManager()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def setEditingAllowed():
-'''public void setEditingAllowed(final boolean editingAllowed)
-'''
-pass
+    '''    public void setEditingAllowed(final boolean editingAllowed)
+    '''
 def isContained():
-'''public boolean isContained(final IlvDashboardSymbol o)
-'''
-pass
+    '''    public boolean isContained(final IlvDashboardSymbol o)
+    '''
 def getSymbolIndex():
-'''public int getSymbolIndex(final IlvDashboardSymbol o)
-'''
-pass
+    '''    public int getSymbolIndex(final IlvDashboardSymbol o)
+    '''
 def setSymbolIndex():
-'''public void setSymbolIndex(final IlvDashboardSymbol element, final int index)
-'''
-pass
+    '''    public void setSymbolIndex(final IlvDashboardSymbol element, final int index)
+    '''
 def addSymbolParameterListener():
-'''public void addSymbolParameterListener(final IlvDashboardSymbolParameterListener e)
-'''
-pass
+    '''    public void addSymbolParameterListener(final IlvDashboardSymbolParameterListener e)
+    '''
 def removeSymbolParameterListener():
-'''public void removeSymbolParameterListener(final IlvDashboardSymbolParameterListener o)
-'''
-pass
+    '''    public void removeSymbolParameterListener(final IlvDashboardSymbolParameterListener o)
+    '''
 def fireSymbolParameterChanged():
-'''public void fireSymbolParameterChanged(final IlvDashboardSymbol ilvDashboardSymbol, final IlvDashboardSymbol.Parameter parameter, final Object o, final Object o2, final String s, final String s2)
-'''
-pass
+    '''    public void fireSymbolParameterChanged(final IlvDashboardSymbol ilvDashboardSymbol, final IlvDashboardSymbol.Parameter parameter, final Object o, final Object o2, final String s, final String s2)
+    '''
 def getPrintingController():
-'''public IlvManagerPrintingController getPrintingController()
-'''
-pass
+    '''    public IlvManagerPrintingController getPrintingController()
+    '''
 def setBaseTextDirection():
-'''public void setBaseTextDirection(final int n)
-'''
-pass
+    '''    public void setBaseTextDirection(final int n)
+    '''
 def getBaseTextDirection():
-'''public int getBaseTextDirection()
-'''
-pass
+    '''    public int getBaseTextDirection()
+    '''
 def isLinkLayoutEnabled():
-'''public boolean isLinkLayoutEnabled()
-'''
-pass
+    '''    public boolean isLinkLayoutEnabled()
+    '''
 def setLinkLayoutEnabled():
-'''public void setLinkLayoutEnabled(final boolean b)
-'''
-pass
+    '''    public void setLinkLayoutEnabled(final boolean b)
+    '''
 def getSerializableProperties():
-'''public ArrayList<Object> getSerializableProperties()
-'''
-pass
+    '''    public ArrayList<Object> getSerializableProperties()
+    '''
 def setSerializableProperties():
-'''public void setSerializableProperties(final ArrayList<Object> p)
-'''
-pass
+    '''    public void setSerializableProperties(final ArrayList<Object> p)
+    '''
 def getSymbols():
-'''public IlvDashboardSymbolIterator getSymbols()
-'''
-pass
+    '''    public IlvDashboardSymbolIterator getSymbols()
+    '''
 def iterator():
-'''public Iterator<IlvDashboardSymbol> iterator()
-'''
-pass
+    '''    public Iterator<IlvDashboardSymbol> iterator()
+    '''
 def addStyleSheet():
-'''public void addStyleSheet(final URL url)
-'''
-pass
+    '''    public void addStyleSheet(final URL url)
+    '''
 def contentsChanged():
-'''public void contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)
-'''
-pass
+    '''    public void contentsChanged(final ManagerContentChangedEvent managerContentChangedEvent)
+    '''
 def layerChanged():
-'''public void layerChanged(final ManagerLayerEvent managerLayerEvent)
-'''
-pass
+    '''    public void layerChanged(final ManagerLayerEvent managerLayerEvent)
+    '''
 def layerInserted():
-'''public void layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)
-'''
-pass
+    '''    public void layerInserted(final ManagerLayerInsertedEvent managerLayerInsertedEvent)
+    '''
 def layerMoved():
-'''public void layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)
-'''
-pass
+    '''    public void layerMoved(final ManagerLayerMovedEvent managerLayerMovedEvent)
+    '''
 def layerRemoved():
-'''public void layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)
-'''
-pass
+    '''    public void layerRemoved(final ManagerLayerRemovedEvent managerLayerRemovedEvent)
+    '''
 def getDocumentBase():
-'''public URL getDocumentBase()
-'''
-pass
+    '''    public URL getDocumentBase()
+    '''
 def createInputStream():
-'''public IlvInputStream createInputStream(final InputStream inputStream)
-'''
-pass
+    '''    public IlvInputStream createInputStream(final InputStream inputStream)
+    '''
 def createOutputStream():
-'''public IlvOutputStream createOutputStream(final OutputStream outputStream)
-'''
-pass
+    '''    public IlvOutputStream createOutputStream(final OutputStream outputStream)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public IlvDashboardSymbol next()
-'''
-pass
+    '''    public IlvDashboardSymbol next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

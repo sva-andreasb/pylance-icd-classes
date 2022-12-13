@@ -1,17 +1,13 @@
 def AdjustedRangeInputStream():
-'''public AdjustedRangeInputStream(final InputStream objectContents, final long rangeBeginning, final long rangeEnd)
-'''
-pass
+    '''    public AdjustedRangeInputStream(final InputStream objectContents, final long rangeBeginning, final long rangeEnd)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] buffer, final int offset, int length)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] buffer, final int offset, int length)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

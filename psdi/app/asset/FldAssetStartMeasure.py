@@ -1,8 +1,6 @@
 def FldAssetStartMeasure():
-'''public FldAssetStartMeasure(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetStartMeasure(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

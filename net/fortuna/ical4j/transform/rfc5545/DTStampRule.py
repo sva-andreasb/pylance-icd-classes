@@ -1,8 +1,6 @@
 def applyTo():
-'''public void applyTo(final DtStamp element)
-'''
-pass
+    '''    public void applyTo(final DtStamp element)
+    '''
 def getSupportedType():
-'''public Class<DtStamp> getSupportedType()
-'''
-pass
+    '''    public Class<DtStamp> getSupportedType()
+    '''

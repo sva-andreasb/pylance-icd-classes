@@ -1,9 +1,7 @@
-SECURITY_CREDENTIALS_RESOURCE = "String  /latest/meta-data/iam/security-credentials/""
+SECURITY_CREDENTIALS_RESOURCE = "String  \"/latest/meta-data/iam/security-credentials/\""
 def getDefaultCredentials():
-'''public String getDefaultCredentials()
-'''
-pass
+    '''    public String getDefaultCredentials()
+    '''
 def readResource():
-'''public String readResource(final String resourcePath)
-'''
-pass
+    '''    public String readResource(final String resourcePath)
+    '''

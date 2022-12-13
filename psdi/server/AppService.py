@@ -1,146 +1,110 @@
 def isRunning():
-'''public boolean isRunning()
-'''
-pass
+    '''    public boolean isRunning()
+    '''
 def setRunning():
-'''public void setRunning(final boolean value)
-'''
-pass
+    '''    public void setRunning(final boolean value)
+    '''
 def AppService():
-'''public AppService()
-public AppService(final MXServer mxServer)
-'''
-pass
+    '''    public AppService()
+    public AppService(final MXServer mxServer)
+    '''
 def configure():
-'''public void configure(final Properties cf)
-'''
-pass
+    '''    public void configure(final Properties cf)
+    '''
 def setProxy():
-'''public void setProxy(final Remote proxy)
-'''
-pass
+    '''    public void setProxy(final Remote proxy)
+    '''
 def getProxy():
-'''public Remote getProxy()
-'''
-pass
+    '''    public Remote getProxy()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def getMXServer():
-'''public MXServer getMXServer()
-'''
-pass
+    '''    public MXServer getMXServer()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def setURL():
-'''public void setURL(final String url)
-'''
-pass
+    '''    public void setURL(final String url)
+    '''
 def getLoad():
-'''public int getLoad()
-'''
-pass
+    '''    public int getLoad()
+    '''
 def isAppService():
-'''public boolean isAppService()
-'''
-pass
+    '''    public boolean isAppService()
+    '''
 def isSingletonService():
-'''public boolean isSingletonService()
-'''
-pass
+    '''    public boolean isSingletonService()
+    '''
 def getServiceInfo():
-'''public String getServiceInfo()
-'''
-pass
+    '''    public String getServiceInfo()
+    '''
 def getMaxVar():
-'''public MaxVarServiceRemote getMaxVar()
-'''
-pass
+    '''    public MaxVarServiceRemote getMaxVar()
+    '''
 def getProfile():
-'''public ProfileRemote getProfile(final UserInfo userInfo)
-'''
-pass
+    '''    public ProfileRemote getProfile(final UserInfo userInfo)
+    '''
 def getMaximoDD():
-'''public MaximoDD getMaximoDD()
-'''
-pass
+    '''    public MaximoDD getMaximoDD()
+    '''
 def getSchemaOwner():
-'''public String getSchemaOwner()
-'''
-pass
+    '''    public String getSchemaOwner()
+    '''
 def getSetFromKeys():
-'''public MboSetRemote getSetFromKeys(final String setName, final String[] keyNames, final String[][] keyValues, final UserInfo user)
-'''
-pass
+    '''    public MboSetRemote getSetFromKeys(final String setName, final String[] keyNames, final String[][] keyValues, final UserInfo user)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String setName, final UserInfo user)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String setName, final UserInfo user)
+    '''
 def freeMboSet():
-'''public synchronized void freeMboSet()
-'''
-pass
+    '''    public synchronized void freeMboSet()
+    '''
 def getLiveObjCount():
-'''public synchronized int getLiveObjCount()
-'''
-pass
+    '''    public synchronized int getLiveObjCount()
+    '''
 def getDBConnection():
-'''public Connection getDBConnection(final ConnectionKey conKey)
-'''
-pass
+    '''    public Connection getDBConnection(final ConnectionKey conKey)
+    '''
 def freeDBConnection():
-'''public void freeDBConnection(final ConnectionKey conKey)
-'''
-pass
+    '''    public void freeDBConnection(final ConnectionKey conKey)
+    '''
 def getCurrentState():
-'''public String getCurrentState()
-'''
-pass
+    '''    public String getCurrentState()
+    '''
 def getStateList():
-'''public String[] getStateList()
-'''
-pass
+    '''    public String[] getStateList()
+    '''
 def getStateCmdList():
-'''public String[] getStateCmdList()
-'''
-pass
+    '''    public String[] getStateCmdList()
+    '''
 def restart():
-'''public void restart()
-'''
-pass
+    '''    public void restart()
+    '''
 def initCriteriaList():
-'''public void initCriteriaList(final Hashtable criteriaTable)
-'''
-pass
+    '''    public void initCriteriaList(final Hashtable criteriaTable)
+    '''
 def getCriteria():
-'''public String getCriteria(final String criteriaName)
-'''
-pass
+    '''    public String getCriteria(final String criteriaName)
+    '''
 def verifyUser():
-'''public void verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo)
-public boolean verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo, final String app, final String reason, final String transid, final String[] keyvalue)
-'''
-pass
+    '''    public void verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo)
+    public boolean verifyUser(final String loginCheck, final String passCheck, final UserInfo userinfo, final String app, final String reason, final String transid, final String[] keyvalue)
+    '''
 def getSetForRelationship():
-'''public MboSetRemote getSetForRelationship(final String relOwner, final String relName, final String[] relColumn, final String[] relValue, final UserInfo userInfo)
-'''
-pass
+    '''    public MboSetRemote getSetForRelationship(final String relOwner, final String relName, final String[] relColumn, final String[] relValue, final UserInfo userInfo)
+    '''
 def getServiceLogger():
-'''public MXLogger getServiceLogger()
-'''
-pass
+    '''    public MXLogger getServiceLogger()
+    '''
 def checkSecurity():
-'''public boolean checkSecurity(final String methodname, final UserInfo userInfo)
-'''
-pass
+    '''    public boolean checkSecurity(final String methodname, final UserInfo userInfo)
+    '''

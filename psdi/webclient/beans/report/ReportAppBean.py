@@ -1,48 +1,36 @@
 def generateallxmlLongOp():
-'''public int generateallxmlLongOp()
-'''
-pass
+    '''    public int generateallxmlLongOp()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def generateallxml():
-'''public int generateallxml()
-'''
-pass
+    '''    public int generateallxml()
+    '''
 def importXML():
-'''public void importXML(final String presentationXML)
-'''
-pass
+    '''    public void importXML(final String presentationXML)
+    '''
 def generatexmlLongOp():
-'''public int generatexmlLongOp()
-'''
-pass
+    '''    public int generatexmlLongOp()
+    '''
 def generatexml():
-'''public int generatexml()
-'''
-pass
+    '''    public int generatexml()
+    '''
 def previewxml():
-'''public int previewxml()
-'''
-pass
+    '''    public int previewxml()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def COGNOSADM():
-'''public void COGNOSADM()
-'''
-pass
+    '''    public void COGNOSADM()
+    '''
 def UPDREPORT():
-'''public int UPDREPORT()
-'''
-pass
+    '''    public int UPDREPORT()
+    '''
 def REPEXPREP():
-'''public int REPEXPREP()
-'''
-pass
+    '''    public int REPEXPREP()
+    '''
 def VIEWREPDEP():
-'''public int VIEWREPDEP()
-'''
-pass
+    '''    public int VIEWREPDEP()
+    '''

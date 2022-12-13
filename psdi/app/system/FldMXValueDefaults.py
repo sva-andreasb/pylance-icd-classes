@@ -1,8 +1,6 @@
 def FldMXValueDefaults():
-'''public FldMXValueDefaults(final MboValue mbv)
-'''
-pass
+    '''    public FldMXValueDefaults(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

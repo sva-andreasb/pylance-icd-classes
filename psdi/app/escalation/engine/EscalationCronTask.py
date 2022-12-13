@@ -1,16 +1,12 @@
 def EscalationCronTask():
-'''public EscalationCronTask()
-'''
-pass
+    '''    public EscalationCronTask()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstanceName():
-'''public String getInstanceName()
-'''
-pass
+    '''    public String getInstanceName()
+    '''

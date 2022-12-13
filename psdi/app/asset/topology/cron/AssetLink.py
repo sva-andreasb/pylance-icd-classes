@@ -1,28 +1,21 @@
 def getFromAsset():
-'''public AssetNode getFromAsset()
-'''
-pass
+    '''    public AssetNode getFromAsset()
+    '''
 def setFromAsset():
-'''public void setFromAsset(final AssetNode fromAsset)
-'''
-pass
+    '''    public void setFromAsset(final AssetNode fromAsset)
+    '''
 def getToAsset():
-'''public AssetNode getToAsset()
-'''
-pass
+    '''    public AssetNode getToAsset()
+    '''
 def setToAsset():
-'''public void setToAsset(final AssetNode toAsset)
-'''
-pass
+    '''    public void setToAsset(final AssetNode toAsset)
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def setPath():
-'''public void setPath(final String path)
-'''
-pass
+    '''    public void setPath(final String path)
+    '''
 def AssetLink():
-'''public AssetLink(final AssetNode fromAsset, final AssetNode toAsset, final String path)
-'''
-pass
+    '''    public AssetLink(final AssetNode fromAsset, final AssetNode toAsset, final String path)
+    '''

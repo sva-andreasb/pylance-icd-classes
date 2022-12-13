@@ -1,20 +1,15 @@
 def MaxValueSeriesVisitor():
-'''public MaxValueSeriesVisitor(final String field)
-'''
-pass
+    '''    public MaxValueSeriesVisitor(final String field)
+    '''
 def each():
-'''public boolean each(final Series s, final int i, final JSONObject point)
-'''
-pass
+    '''    public boolean each(final Series s, final int i, final JSONObject point)
+    '''
 def doubleValue():
-'''public double doubleValue()
-'''
-pass
+    '''    public double doubleValue()
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def longValue():
-'''public long longValue()
-'''
-pass
+    '''    public long longValue()
+    '''

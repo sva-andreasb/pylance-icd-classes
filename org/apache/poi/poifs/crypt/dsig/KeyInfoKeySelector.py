@@ -1,20 +1,15 @@
 def KeyInfoKeySelector():
-'''public KeyInfoKeySelector()
-'''
-pass
+    '''    public KeyInfoKeySelector()
+    '''
 def select():
-'''public KeySelectorResult select(final KeyInfo keyInfo, final Purpose purpose, final AlgorithmMethod method, final XMLCryptoContext context)
-'''
-pass
+    '''    public KeySelectorResult select(final KeyInfo keyInfo, final Purpose purpose, final AlgorithmMethod method, final XMLCryptoContext context)
+    '''
 def getKey():
-'''public Key getKey()
-'''
-pass
+    '''    public Key getKey()
+    '''
 def getSigner():
-'''public X509Certificate getSigner()
-'''
-pass
+    '''    public X509Certificate getSigner()
+    '''
 def getCertChain():
-'''public List<X509Certificate> getCertChain()
-'''
-pass
+    '''    public List<X509Certificate> getCertChain()
+    '''

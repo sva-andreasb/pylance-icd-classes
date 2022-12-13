@@ -1,85 +1,64 @@
 def getConstantSet():
-'''public static ConstantSet getConstantSet(final String name)
-'''
-pass
+    '''    public static ConstantSet getConstantSet(final String name)
+    '''
 def getConstant():
-'''public Constant getConstant(final String name)
-public Constant getConstant(final int value)
-'''
-pass
+    '''    public Constant getConstant(final String name)
+    public Constant getConstant(final int value)
+    '''
 def getValue():
-'''public int getValue(final String name)
-'''
-pass
+    '''    public int getValue(final String name)
+    '''
 def getName():
-'''public String getName(final int value)
-'''
-pass
+    '''    public String getName(final int value)
+    '''
 def minValue():
-'''public long minValue()
-'''
-pass
+    '''    public long minValue()
+    '''
 def maxValue():
-'''public long maxValue()
-'''
-pass
+    '''    public long maxValue()
+    '''
 def iterator():
-'''public Iterator<Constant> iterator()
-'''
-pass
+    '''    public Iterator<Constant> iterator()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def value():
-'''public int value()
-'''
-pass
+    '''    public int value()
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def longValue():
-'''public long longValue()
-'''
-pass
+    '''    public long longValue()
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def defined():
-'''public boolean defined()
-'''
-pass
+    '''    public boolean defined()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def next():
-'''public Constant next()
-'''
-pass
+    '''    public Constant next()
+    '''

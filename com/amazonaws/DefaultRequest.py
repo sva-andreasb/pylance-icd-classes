@@ -1,121 +1,91 @@
 def DefaultRequest():
-'''public DefaultRequest(final AmazonWebServiceRequest originalRequest, final String serviceName)
-public DefaultRequest(final String serviceName)
-'''
-pass
+    '''    public DefaultRequest(final AmazonWebServiceRequest originalRequest, final String serviceName)
+    public DefaultRequest(final String serviceName)
+    '''
 def getOriginalRequest():
-'''public AmazonWebServiceRequest getOriginalRequest()
-'''
-pass
+    '''    public AmazonWebServiceRequest getOriginalRequest()
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def getHeaders():
-'''public Map<String, String> getHeaders()
-'''
-pass
+    '''    public Map<String, String> getHeaders()
+    '''
 def setResourcePath():
-'''public void setResourcePath(final String resourcePath)
-'''
-pass
+    '''    public void setResourcePath(final String resourcePath)
+    '''
 def getResourcePath():
-'''public String getResourcePath()
-'''
-pass
+    '''    public String getResourcePath()
+    '''
 def addParameter():
-'''public void addParameter(final String name, final String value)
-'''
-pass
+    '''    public void addParameter(final String name, final String value)
+    '''
 def addParameters():
-'''public void addParameters(final String name, final List<String> values)
-'''
-pass
+    '''    public void addParameters(final String name, final List<String> values)
+    '''
 def getParameters():
-'''public Map<String, List<String>> getParameters()
-'''
-pass
+    '''    public Map<String, List<String>> getParameters()
+    '''
 def withParameter():
-'''public Request<T> withParameter(final String name, final String value)
-'''
-pass
+    '''    public Request<T> withParameter(final String name, final String value)
+    '''
 def getHttpMethod():
-'''public HttpMethodName getHttpMethod()
-'''
-pass
+    '''    public HttpMethodName getHttpMethod()
+    '''
 def setHttpMethod():
-'''public void setHttpMethod(final HttpMethodName httpMethod)
-'''
-pass
+    '''    public void setHttpMethod(final HttpMethodName httpMethod)
+    '''
 def setEndpoint():
-'''public void setEndpoint(final URI endpoint)
-'''
-pass
+    '''    public void setEndpoint(final URI endpoint)
+    '''
 def getEndpoint():
-'''public URI getEndpoint()
-'''
-pass
+    '''    public URI getEndpoint()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def setContent():
-'''public void setContent(final InputStream content)
-'''
-pass
+    '''    public void setContent(final InputStream content)
+    '''
 def setHeaders():
-'''public void setHeaders(final Map<String, String> headers)
-'''
-pass
+    '''    public void setHeaders(final Map<String, String> headers)
+    '''
 def setParameters():
-'''public void setParameters(final Map<String, List<String>> parameters)
-'''
-pass
+    '''    public void setParameters(final Map<String, List<String>> parameters)
+    '''
 def getTimeOffset():
-'''public int getTimeOffset()
-'''
-pass
+    '''    public int getTimeOffset()
+    '''
 def setTimeOffset():
-'''public void setTimeOffset(final int timeOffset)
-'''
-pass
+    '''    public void setTimeOffset(final int timeOffset)
+    '''
 def withTimeOffset():
-'''public Request<T> withTimeOffset(final int timeOffset)
-'''
-pass
+    '''    public Request<T> withTimeOffset(final int timeOffset)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getAWSRequestMetrics():
-'''public AWSRequestMetrics getAWSRequestMetrics()
-'''
-pass
+    '''    public AWSRequestMetrics getAWSRequestMetrics()
+    '''
 def setAWSRequestMetrics():
-'''public void setAWSRequestMetrics(final AWSRequestMetrics metrics)
-'''
-pass
+    '''    public void setAWSRequestMetrics(final AWSRequestMetrics metrics)
+    '''
 def addHandlerContext():
-'''public <X> void addHandlerContext(final HandlerContextKey<X> key, final X value)
-'''
-pass
+    '''    public <X> void addHandlerContext(final HandlerContextKey<X> key, final X value)
+    '''
 def getHandlerContext():
-'''public <X> X getHandlerContext(final HandlerContextKey<X> key)
-'''
-pass
+    '''    public <X> X getHandlerContext(final HandlerContextKey<X> key)
+    '''
 def getContentUnwrapped():
-'''public InputStream getContentUnwrapped()
-'''
-pass
+    '''    public InputStream getContentUnwrapped()
+    '''
 def getReadLimitInfo():
-'''public ReadLimitInfo getReadLimitInfo()
-'''
-pass
+    '''    public ReadLimitInfo getReadLimitInfo()
+    '''
 def getOriginalRequestObject():
-'''public Object getOriginalRequestObject()
-'''
-pass
+    '''    public Object getOriginalRequestObject()
+    '''

@@ -1,24 +1,18 @@
 def FldLabTransEnterByTicketID():
-'''public FldLabTransEnterByTicketID(final MboValue mbv)
-'''
-pass
+    '''    public FldLabTransEnterByTicketID(final MboValue mbv)
+    '''
 def validateTicketAndClass():
-'''public void validateTicketAndClass(final String ticketFieldName, final String ticketClassFieldName)
-'''
-pass
+    '''    public void validateTicketAndClass(final String ticketFieldName, final String ticketClassFieldName)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

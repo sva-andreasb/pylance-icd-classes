@@ -1,15 +1,12 @@
 def TransformerFactoryConfigurationError():
-'''public TransformerFactoryConfigurationError()
-public TransformerFactoryConfigurationError(final String message)
-public TransformerFactoryConfigurationError(final Exception exception)
-public TransformerFactoryConfigurationError(final Exception exception, final String message)
-'''
-pass
+    '''    public TransformerFactoryConfigurationError()
+    public TransformerFactoryConfigurationError(final String message)
+    public TransformerFactoryConfigurationError(final Exception exception)
+    public TransformerFactoryConfigurationError(final Exception exception, final String message)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getException():
-'''public Exception getException()
-'''
-pass
+    '''    public Exception getException()
+    '''

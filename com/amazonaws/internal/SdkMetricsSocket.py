@@ -1,12 +1,9 @@
 def SdkMetricsSocket():
-'''public SdkMetricsSocket(final Socket sock)
-'''
-pass
+    '''    public SdkMetricsSocket(final Socket sock)
+    '''
 def setMetrics():
-'''public void setMetrics(final AWSRequestMetrics metrics)
-'''
-pass
+    '''    public void setMetrics(final AWSRequestMetrics metrics)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''

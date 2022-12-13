@@ -1,4 +1,3 @@
 def setCredentials():
-'''public void setCredentials(final AWSCredentials awsCredentials)
-'''
-pass
+    '''    public void setCredentials(final AWSCredentials awsCredentials)
+    '''

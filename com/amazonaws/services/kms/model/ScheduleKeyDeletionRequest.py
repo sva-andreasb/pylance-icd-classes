@@ -1,40 +1,30 @@
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public ScheduleKeyDeletionRequest withKeyId(final String keyId)
-'''
-pass
+    '''    public ScheduleKeyDeletionRequest withKeyId(final String keyId)
+    '''
 def setPendingWindowInDays():
-'''public void setPendingWindowInDays(final Integer pendingWindowInDays)
-'''
-pass
+    '''    public void setPendingWindowInDays(final Integer pendingWindowInDays)
+    '''
 def getPendingWindowInDays():
-'''public Integer getPendingWindowInDays()
-'''
-pass
+    '''    public Integer getPendingWindowInDays()
+    '''
 def withPendingWindowInDays():
-'''public ScheduleKeyDeletionRequest withPendingWindowInDays(final Integer pendingWindowInDays)
-'''
-pass
+    '''    public ScheduleKeyDeletionRequest withPendingWindowInDays(final Integer pendingWindowInDays)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public ScheduleKeyDeletionRequest clone()
-'''
-pass
+    '''    public ScheduleKeyDeletionRequest clone()
+    '''

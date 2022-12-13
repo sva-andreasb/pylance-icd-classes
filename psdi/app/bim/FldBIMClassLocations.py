@@ -1,8 +1,6 @@
 def FldBIMClassLocations():
-'''public FldBIMClassLocations(final MboValue mbv)
-'''
-pass
+    '''    public FldBIMClassLocations(final MboValue mbv)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

@@ -1,8 +1,6 @@
 def FldInvoiceLineIsDistributed():
-'''public FldInvoiceLineIsDistributed(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceLineIsDistributed(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

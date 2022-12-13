@@ -1,4 +1,3 @@
 def FldWOInspector():
-'''public FldWOInspector(final MboValue mbv)
-'''
-pass
+    '''    public FldWOInspector(final MboValue mbv)
+    '''

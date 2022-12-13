@@ -1,50 +1,39 @@
 DEFAULT_CODEPAGE = "int  1252"
 def Property():
-'''public Property()
-public Property(final Property p)
-public Property(final long id, final long type, final Object value)
-public Property(final long id, final byte[] src, final long offset, final int length, final int codepage)
-public Property(final long id, final LittleEndianByteArrayInputStream leis, final int length, final int codepage)
-'''
-pass
+    '''    public Property()
+    public Property(final Property p)
+    public Property(final long id, final long type, final Object value)
+    public Property(final long id, final byte[] src, final long offset, final int length, final int codepage)
+    public Property(final long id, final LittleEndianByteArrayInputStream leis, final int length, final int codepage)
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def setID():
-'''public void setID(final long id)
-'''
-pass
+    '''    public void setID(final long id)
+    '''
 def getType():
-'''public long getType()
-'''
-pass
+    '''    public long getType()
+    '''
 def setType():
-'''public void setType(final long type)
-'''
-pass
+    '''    public void setType(final long type)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-public String toString(final int codepage, final PropertyIDMap idMap)
-'''
-pass
+    '''    public String toString()
+    public String toString(final int codepage, final PropertyIDMap idMap)
+    '''
 def write():
-'''public int write(final OutputStream out, final int codepage)
-'''
-pass
+    '''    public int write(final OutputStream out, final int codepage)
+    '''

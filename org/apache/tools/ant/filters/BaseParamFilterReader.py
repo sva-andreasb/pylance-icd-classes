@@ -1,9 +1,7 @@
 def BaseParamFilterReader():
-'''public BaseParamFilterReader()
-public BaseParamFilterReader(final Reader in)
-'''
-pass
+    '''    public BaseParamFilterReader()
+    public BaseParamFilterReader(final Reader in)
+    '''
 def setParameters():
-'''public final void setParameters(final Parameter[] parameters)
-'''
-pass
+    '''    public final void setParameters(final Parameter[] parameters)
+    '''

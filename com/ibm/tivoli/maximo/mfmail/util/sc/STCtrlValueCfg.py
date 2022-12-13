@@ -1,40 +1,30 @@
 def STCtrlValueCfg():
-'''public STCtrlValueCfg(final MboSet ms)
-'''
-pass
+    '''    public STCtrlValueCfg(final MboSet ms)
+    '''
 def activate():
-'''public void activate(final boolean isActive)
-'''
-pass
+    '''    public void activate(final boolean isActive)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def setRequiredToReplyTemplate():
-'''public void setRequiredToReplyTemplate()
-'''
-pass
+    '''    public void setRequiredToReplyTemplate()
+    '''
 def undeleteWithValidate():
-'''public void undeleteWithValidate()
-'''
-pass
+    '''    public void undeleteWithValidate()
+    '''

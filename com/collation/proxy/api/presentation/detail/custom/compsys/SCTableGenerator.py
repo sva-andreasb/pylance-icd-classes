@@ -1,12 +1,9 @@
 def SCTableGenerator():
-'''public SCTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
-'''
-pass
+    '''    public SCTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
+    '''
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''
 def getModelForSC():
-'''public DetailTableModel getModelForSC()
-'''
-pass
+    '''    public DetailTableModel getModelForSC()
+    '''

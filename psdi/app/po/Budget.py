@@ -1,92 +1,69 @@
 def Budget():
-'''public Budget(final MboSet ms)
-'''
-pass
+    '''    public Budget(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getBudgetNum():
-'''public String getBudgetNum()
-'''
-pass
+    '''    public String getBudgetNum()
+    '''
 def updateBudget():
-'''public void updateBudget()
-'''
-pass
+    '''    public void updateBudget()
+    '''
 def getRules():
-'''public BudgetRuleSetRemote getRules()
-'''
-pass
+    '''    public BudgetRuleSetRemote getRules()
+    '''
 def canGenerateBudget():
-'''public boolean canGenerateBudget(final boolean deleteExistingRows)
-'''
-pass
+    '''    public boolean canGenerateBudget(final boolean deleteExistingRows)
+    '''
 def generateBudget():
-'''public void generateBudget(final boolean deleteExistingRows)
-'''
-pass
+    '''    public void generateBudget(final boolean deleteExistingRows)
+    '''
 def isCancelled():
-'''public boolean isCancelled()
-'''
-pass
+    '''    public boolean isCancelled()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def isDraft():
-'''public boolean isDraft()
-'''
-pass
+    '''    public boolean isDraft()
+    '''
 def isApproved():
-'''public boolean isApproved()
-'''
-pass
+    '''    public boolean isApproved()
+    '''
 def isWaitingForApproval():
-'''public boolean isWaitingForApproval()
-'''
-pass
+    '''    public boolean isWaitingForApproval()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def getOrgID():
-'''public String getOrgID()
-'''
-pass
+    '''    public String getOrgID()
+    '''
 def getSiteID():
-'''public String getSiteID()
-'''
-pass
+    '''    public String getSiteID()
+    '''
 def getBudgetAnalysisAxes():
-'''public BudgetAnalysisAxisNumberSetRemote getBudgetAnalysisAxes()
-'''
-pass
+    '''    public BudgetAnalysisAxisNumberSetRemote getBudgetAnalysisAxes()
+    '''
 def getLines():
-'''public BudgetLineSetRemote getLines()
-'''
-pass
+    '''    public BudgetLineSetRemote getLines()
+    '''
 def getSupervisor():
-'''public String getSupervisor()
-'''
-pass
+    '''    public String getSupervisor()
+    '''
 def removeAllLines():
-'''public void removeAllLines()
-'''
-pass
+    '''    public void removeAllLines()
+    '''

@@ -1,28 +1,21 @@
 def LineIterator():
-'''public LineIterator(final Reader reader)
-'''
-pass
+    '''    public LineIterator(final Reader reader)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public String next()
-'''
-pass
+    '''    public String next()
+    '''
 def nextLine():
-'''public String nextLine()
-'''
-pass
+    '''    public String nextLine()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def closeQuietly():
-'''public static void closeQuietly(final LineIterator iterator)
-'''
-pass
+    '''    public static void closeQuietly(final LineIterator iterator)
+    '''

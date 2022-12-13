@@ -1,8 +1,6 @@
 def FSNProvider():
-'''public FSNProvider(final MboSet ms)
-'''
-pass
+    '''    public FSNProvider(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

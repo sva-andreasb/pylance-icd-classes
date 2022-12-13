@@ -1,16 +1,12 @@
 def SpanQueryBuilderFactory():
-'''public SpanQueryBuilderFactory()
-'''
-pass
+    '''    public SpanQueryBuilderFactory()
+    '''
 def getQuery():
-'''public Query getQuery(final Element e)
-'''
-pass
+    '''    public Query getQuery(final Element e)
+    '''
 def addBuilder():
-'''public void addBuilder(final String nodeName, final SpanQueryBuilder builder)
-'''
-pass
+    '''    public void addBuilder(final String nodeName, final SpanQueryBuilder builder)
+    '''
 def getSpanQuery():
-'''public SpanQuery getSpanQuery(final Element e)
-'''
-pass
+    '''    public SpanQuery getSpanQuery(final Element e)
+    '''

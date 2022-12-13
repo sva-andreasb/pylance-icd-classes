@@ -1,4 +1,3 @@
 def FldPOBuyerCompany():
-'''public FldPOBuyerCompany(final MboValue mbv)
-'''
-pass
+    '''    public FldPOBuyerCompany(final MboValue mbv)
+    '''

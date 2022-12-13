@@ -7,74 +7,57 @@ DICTIONARY = "int  6"
 STREAM = "int  7"
 NULL = "int  8"
 INDIRECT = "int  10"
-NOTHING = "String  "
-TEXT_PDFDOCENCODING = "String  PDF""
-TEXT_UNICODE = "String  UnicodeBig""
+NOTHING = "String  \"\""
+TEXT_PDFDOCENCODING = "String  \"PDF\""
+TEXT_UNICODE = "String  \"UnicodeBig\""
 def toPdf():
-'''public void toPdf(final PdfWriter writer, final OutputStream os)
-'''
-pass
+    '''    public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''
 def getBytes():
-'''public byte[] getBytes()
-'''
-pass
+    '''    public byte[] getBytes()
+    '''
 def canBeInObjStm():
-'''public boolean canBeInObjStm()
-'''
-pass
+    '''    public boolean canBeInObjStm()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def isNull():
-'''public boolean isNull()
-'''
-pass
+    '''    public boolean isNull()
+    '''
 def isBoolean():
-'''public boolean isBoolean()
-'''
-pass
+    '''    public boolean isBoolean()
+    '''
 def isNumber():
-'''public boolean isNumber()
-'''
-pass
+    '''    public boolean isNumber()
+    '''
 def isString():
-'''public boolean isString()
-'''
-pass
+    '''    public boolean isString()
+    '''
 def isName():
-'''public boolean isName()
-'''
-pass
+    '''    public boolean isName()
+    '''
 def isArray():
-'''public boolean isArray()
-'''
-pass
+    '''    public boolean isArray()
+    '''
 def isDictionary():
-'''public boolean isDictionary()
-'''
-pass
+    '''    public boolean isDictionary()
+    '''
 def isStream():
-'''public boolean isStream()
-'''
-pass
+    '''    public boolean isStream()
+    '''
 def isIndirect():
-'''public boolean isIndirect()
-'''
-pass
+    '''    public boolean isIndirect()
+    '''
 def getIndRef():
-'''public PRIndirectReference getIndRef()
-'''
-pass
+    '''    public PRIndirectReference getIndRef()
+    '''
 def setIndRef():
-'''public void setIndRef(final PRIndirectReference indRef)
-'''
-pass
+    '''    public void setIndRef(final PRIndirectReference indRef)
+    '''

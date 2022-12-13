@@ -1,8 +1,6 @@
 def SystemConnectionKey():
-'''public SystemConnectionKey()
-'''
-pass
+    '''    public SystemConnectionKey()
+    '''
 def getLoginUserName():
-'''public String getLoginUserName()
-'''
-pass
+    '''    public String getLoginUserName()
+    '''

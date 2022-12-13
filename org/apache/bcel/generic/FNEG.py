@@ -1,8 +1,6 @@
 def FNEG():
-'''public FNEG()
-'''
-pass
+    '''    public FNEG()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

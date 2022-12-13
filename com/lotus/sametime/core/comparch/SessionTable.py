@@ -1,8 +1,6 @@
 def getSessionTable():
-'''public static SessionTable getSessionTable()
-'''
-pass
+    '''    public static SessionTable getSessionTable()
+    '''
 def getSession():
-'''public STSession getSession(final String key)
-'''
-pass
+    '''    public STSession getSession(final String key)
+    '''

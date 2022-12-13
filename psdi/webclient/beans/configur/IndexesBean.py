@@ -1,8 +1,6 @@
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def deleteKey():
-'''public synchronized void deleteKey(final int nRow)
-'''
-pass
+    '''    public synchronized void deleteKey(final int nRow)
+    '''

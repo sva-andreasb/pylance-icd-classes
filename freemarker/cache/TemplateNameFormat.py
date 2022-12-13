@@ -1,5 +1,4 @@
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''

@@ -1,31 +1,24 @@
 def RESTParamInfo():
-'''public RESTParamInfo(final String paramName, final Object paramDefaultValue)
-public RESTParamInfo(final String paramName, final String paramDataType, final Object paramDefaultValue)
-public RESTParamInfo(final String paramName, final String paramDataType, final Object paramDefaultValue, final boolean isRequired)
-public RESTParamInfo(final String paramName, final String paramDataType, final Object paramDefaultValue, final boolean isRequired, final List<Object> enumValues)
-'''
-pass
+    '''    public RESTParamInfo(final String paramName, final Object paramDefaultValue)
+    public RESTParamInfo(final String paramName, final String paramDataType, final Object paramDefaultValue)
+    public RESTParamInfo(final String paramName, final String paramDataType, final Object paramDefaultValue, final boolean isRequired)
+    public RESTParamInfo(final String paramName, final String paramDataType, final Object paramDefaultValue, final boolean isRequired, final List<Object> enumValues)
+    '''
 def getParamName():
-'''public String getParamName()
-'''
-pass
+    '''    public String getParamName()
+    '''
 def getParamDataType():
-'''public Object getParamDataType()
-'''
-pass
+    '''    public Object getParamDataType()
+    '''
 def getParamDefaultValue():
-'''public Object getParamDefaultValue()
-'''
-pass
+    '''    public Object getParamDefaultValue()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def toJSON():
-'''public JSONObject toJSON()
-'''
-pass
+    '''    public JSONObject toJSON()
+    '''
 def toOASParam():
-'''public JSONObject toOASParam(final String in)
-'''
-pass
+    '''    public JSONObject toOASParam(final String in)
+    '''

@@ -1,28 +1,21 @@
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def getErrorNumber():
-'''public int getErrorNumber()
-'''
-pass
+    '''    public int getErrorNumber()
+    '''
 def getErrorState():
-'''public int getErrorState()
-'''
-pass
+    '''    public int getErrorState()
+    '''
 def getErrorSeverity():
-'''public int getErrorSeverity()
-'''
-pass
+    '''    public int getErrorSeverity()
+    '''
 def getServerName():
-'''public String getServerName()
-'''
-pass
+    '''    public String getServerName()
+    '''
 def getProcedureName():
-'''public String getProcedureName()
-'''
-pass
+    '''    public String getProcedureName()
+    '''
 def getLineNumber():
-'''public long getLineNumber()
-'''
-pass
+    '''    public long getLineNumber()
+    '''

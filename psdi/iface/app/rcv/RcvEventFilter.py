@@ -1,8 +1,6 @@
 def RcvEventFilter():
-'''public RcvEventFilter(final PublishInfo pubInfo)
-'''
-pass
+    '''    public RcvEventFilter(final PublishInfo pubInfo)
+    '''
 def getEventObjects():
-'''public Set<String> getEventObjects()
-'''
-pass
+    '''    public Set<String> getEventObjects()
+    '''

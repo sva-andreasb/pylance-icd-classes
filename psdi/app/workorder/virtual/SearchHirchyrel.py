@@ -1,12 +1,9 @@
 def SearchHirchyrel():
-'''public SearchHirchyrel(final MboSet ms)
-'''
-pass
+    '''    public SearchHirchyrel(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setShowFlags():
-'''public void setShowFlags()
-'''
-pass
+    '''    public void setShowFlags()
+    '''

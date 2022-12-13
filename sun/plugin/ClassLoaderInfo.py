@@ -1,52 +1,39 @@
 def reset():
-'''public static synchronized void reset()
-'''
-pass
+    '''    public static synchronized void reset()
+    '''
 def clearClassLoaderCache():
-'''public static synchronized void clearClassLoaderCache()
-'''
-pass
+    '''    public static synchronized void clearClassLoaderCache()
+    '''
 def dumpClassLoaderCache():
-'''public static synchronized void dumpClassLoaderCache(final PrintStream printStream)
-'''
-pass
+    '''    public static synchronized void dumpClassLoaderCache(final PrintStream printStream)
+    '''
 def markNotCachable():
-'''public static synchronized void markNotCachable(final URL url, final String s)
-'''
-pass
+    '''    public static synchronized void markNotCachable(final URL url, final String s)
+    '''
 def find():
-'''public static synchronized ClassLoaderInfo find(final URL url, final String s)
-'''
-pass
+    '''    public static synchronized ClassLoaderInfo find(final URL url, final String s)
+    '''
 def getLocalJarsLoaded():
-'''public boolean getLocalJarsLoaded()
-'''
-pass
+    '''    public boolean getLocalJarsLoaded()
+    '''
 def setLocalJarsLoaded():
-'''public void setLocalJarsLoaded(final boolean localJarsLoaded)
-'''
-pass
+    '''    public void setLocalJarsLoaded(final boolean localJarsLoaded)
+    '''
 def lock():
-'''public final synchronized void lock()
-'''
-pass
+    '''    public final synchronized void lock()
+    '''
 def unlock():
-'''public final synchronized void unlock()
-'''
-pass
+    '''    public final synchronized void unlock()
+    '''
 def checkListsValidity():
-'''public static synchronized boolean checkListsValidity()
-'''
-pass
+    '''    public static synchronized boolean checkListsValidity()
+    '''
 def LoaderReference():
-'''public LoaderReference(final ClassLoader referent)
-'''
-pass
+    '''    public LoaderReference(final ClassLoader referent)
+    '''
 def getCodebase():
-'''public String getCodebase()
-'''
-pass
+    '''    public String getCodebase()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''

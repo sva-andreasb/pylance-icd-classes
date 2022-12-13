@@ -1,90 +1,68 @@
 def get():
-'''public int get(final DateTimeFieldType dateTimeFieldType)
-'''
-pass
+    '''    public int get(final DateTimeFieldType dateTimeFieldType)
+    '''
 def getEra():
-'''public int getEra()
-'''
-pass
+    '''    public int getEra()
+    '''
 def getCenturyOfEra():
-'''public int getCenturyOfEra()
-'''
-pass
+    '''    public int getCenturyOfEra()
+    '''
 def getYearOfEra():
-'''public int getYearOfEra()
-'''
-pass
+    '''    public int getYearOfEra()
+    '''
 def getYearOfCentury():
-'''public int getYearOfCentury()
-'''
-pass
+    '''    public int getYearOfCentury()
+    '''
 def getYear():
-'''public int getYear()
-'''
-pass
+    '''    public int getYear()
+    '''
 def getWeekyear():
-'''public int getWeekyear()
-'''
-pass
+    '''    public int getWeekyear()
+    '''
 def getMonthOfYear():
-'''public int getMonthOfYear()
-'''
-pass
+    '''    public int getMonthOfYear()
+    '''
 def getWeekOfWeekyear():
-'''public int getWeekOfWeekyear()
-'''
-pass
+    '''    public int getWeekOfWeekyear()
+    '''
 def getDayOfYear():
-'''public int getDayOfYear()
-'''
-pass
+    '''    public int getDayOfYear()
+    '''
 def getDayOfMonth():
-'''public int getDayOfMonth()
-'''
-pass
+    '''    public int getDayOfMonth()
+    '''
 def getDayOfWeek():
-'''public int getDayOfWeek()
-'''
-pass
+    '''    public int getDayOfWeek()
+    '''
 def getHourOfDay():
-'''public int getHourOfDay()
-'''
-pass
+    '''    public int getHourOfDay()
+    '''
 def getMinuteOfDay():
-'''public int getMinuteOfDay()
-'''
-pass
+    '''    public int getMinuteOfDay()
+    '''
 def getMinuteOfHour():
-'''public int getMinuteOfHour()
-'''
-pass
+    '''    public int getMinuteOfHour()
+    '''
 def getSecondOfDay():
-'''public int getSecondOfDay()
-'''
-pass
+    '''    public int getSecondOfDay()
+    '''
 def getSecondOfMinute():
-'''public int getSecondOfMinute()
-'''
-pass
+    '''    public int getSecondOfMinute()
+    '''
 def getMillisOfDay():
-'''public int getMillisOfDay()
-'''
-pass
+    '''    public int getMillisOfDay()
+    '''
 def getMillisOfSecond():
-'''public int getMillisOfSecond()
-'''
-pass
+    '''    public int getMillisOfSecond()
+    '''
 def toCalendar():
-'''public Calendar toCalendar(Locale default1)
-'''
-pass
+    '''    public Calendar toCalendar(Locale default1)
+    '''
 def toGregorianCalendar():
-'''public GregorianCalendar toGregorianCalendar()
-'''
-pass
+    '''    public GregorianCalendar toGregorianCalendar()
+    '''
 def toString():
-'''public String toString()
-public String toString(final String s)
-public String toString(final String s, final Locale locale)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String s)
+    public String toString(final String s, final Locale locale)
+    '''

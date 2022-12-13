@@ -1,8 +1,6 @@
 def CDUISearchHelper():
-'''public CDUISearchHelper(final boolean useOfSpecialCharacters)
-'''
-pass
+    '''    public CDUISearchHelper(final boolean useOfSpecialCharacters)
+    '''
 def search():
-'''public void search(final MboSetRemote mboSet, final String mboClass, final String searchText, final String extraWhere)
-'''
-pass
+    '''    public void search(final MboSetRemote mboSet, final String mboClass, final String searchText, final String extraWhere)
+    '''

@@ -1,8 +1,6 @@
 def FldCalcStartDate():
-'''public FldCalcStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldCalcStartDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

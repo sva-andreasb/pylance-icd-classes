@@ -1,17 +1,13 @@
 def StringBufferMonitor():
-'''public StringBufferMonitor()
-'''
-pass
+    '''    public StringBufferMonitor()
+    '''
 def getOutput():
-'''public String getOutput()
-'''
-pass
+    '''    public String getOutput()
+    '''
 def setError():
-'''public void setError(final String arg0)
-public void setError(final String arg0, final Throwable arg1)
-'''
-pass
+    '''    public void setError(final String arg0)
+    public void setError(final String arg0, final Throwable arg1)
+    '''
 def setTask():
-'''public void setTask(final String arg0)
-'''
-pass
+    '''    public void setTask(final String arg0)
+    '''

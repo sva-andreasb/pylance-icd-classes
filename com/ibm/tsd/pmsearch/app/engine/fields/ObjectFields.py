@@ -1,25 +1,19 @@
 def ObjectFields():
-'''public ObjectFields()
-'''
-pass
+    '''    public ObjectFields()
+    '''
 def getValues():
-'''public Collection<String> getValues()
-'''
-pass
+    '''    public Collection<String> getValues()
+    '''
 def getKeyValues():
-'''public Collection<String> getKeyValues()
-'''
-pass
+    '''    public Collection<String> getKeyValues()
+    '''
 def setValues():
-'''public void setValues(final Collection<String> v)
-'''
-pass
+    '''    public void setValues(final Collection<String> v)
+    '''
 def setKeyValues():
-'''public void setKeyValues(final Collection<String> v)
-'''
-pass
+    '''    public void setKeyValues(final Collection<String> v)
+    '''
 def getMLFieldName():
-'''public String getMLFieldName(final UserInfo user)
-public String getMLFieldName()
-'''
-pass
+    '''    public String getMLFieldName(final UserInfo user)
+    public String getMLFieldName()
+    '''

@@ -1,139 +1,105 @@
 def ClassStructureSet():
-'''public ClassStructureSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ClassStructureSet(final MboServerInterface ms)
+    '''
 def concatAll():
-'''public String concatAll(final String[] sa)
-'''
-pass
+    '''    public String concatAll(final String[] sa)
+    '''
 def setAnyLevel():
-'''public void setAnyLevel(final boolean anyLevelValue)
-'''
-pass
+    '''    public void setAnyLevel(final boolean anyLevelValue)
+    '''
 def getAnyLevel():
-'''public boolean getAnyLevel()
-'''
-pass
+    '''    public boolean getAnyLevel()
+    '''
 def getChildren():
-'''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def getParent():
-'''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
-public String getParent()
-'''
-pass
+    '''    public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    public String getParent()
+    '''
 def getSiblings():
-'''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def getTop():
-'''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''
 def getPathToTop():
-'''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def reSetForNewUniqueId():
-'''public void reSetForNewUniqueId(final String key)
-'''
-pass
+    '''    public void reSetForNewUniqueId(final String key)
+    '''
 def setOriginatingObjectAndAttribute():
-'''public void setOriginatingObjectAndAttribute(String origObjectName, String origAttribute, final MboRemote origMbo)
-'''
-pass
+    '''    public void setOriginatingObjectAndAttribute(String origObjectName, String origAttribute, final MboRemote origMbo)
+    '''
 def setOriginatingObject():
-'''public void setOriginatingObject(final MboRemote origObject, final boolean inClassify)
-public void setOriginatingObject(final String actualObjectForUseWith)
-public void setOriginatingObject(final MboRemote origObject)
-'''
-pass
+    '''    public void setOriginatingObject(final MboRemote origObject, final boolean inClassify)
+    public void setOriginatingObject(final String actualObjectForUseWith)
+    public void setOriginatingObject(final MboRemote origObject)
+    '''
 def getMboValueDataForNoTreeNodes():
-'''public MboValueData[][] getMboValueDataForNoTreeNodes(final String[] attribute, final String reason)
-'''
-pass
+    '''    public MboValueData[][] getMboValueDataForNoTreeNodes(final String[] attribute, final String reason)
+    '''
 def getUseWithSql():
-'''public String getUseWithSql()
-'''
-pass
+    '''    public String getUseWithSql()
+    '''
 def hasAFakeTreeNode():
-'''public boolean hasAFakeTreeNode()
-'''
-pass
+    '''    public boolean hasAFakeTreeNode()
+    '''
 def setIsLookup():
-'''public void setIsLookup(final boolean is)
-'''
-pass
+    '''    public void setIsLookup(final boolean is)
+    '''
 def isLookup():
-'''public boolean isLookup()
-'''
-pass
+    '''    public boolean isLookup()
+    '''
 def getbjectNameForUseWith():
-'''public String getbjectNameForUseWith()
-'''
-pass
+    '''    public String getbjectNameForUseWith()
+    '''
 def getoriginatingOrgId():
-'''public String getoriginatingOrgId()
-'''
-pass
+    '''    public String getoriginatingOrgId()
+    '''
 def originatingSiteId():
-'''public String originatingSiteId()
-'''
-pass
+    '''    public String originatingSiteId()
+    '''
 def setCheckIfClassUsedByObject():
-'''public void setCheckIfClassUsedByObject(final boolean toSet)
-'''
-pass
+    '''    public void setCheckIfClassUsedByObject(final boolean toSet)
+    '''
 def getMaxAppsWhere():
-'''public String getMaxAppsWhere()
-'''
-pass
+    '''    public String getMaxAppsWhere()
+    '''
 def qbeStartRemoved():
-'''public String qbeStartRemoved(final String qbeStr)
-'''
-pass
+    '''    public String qbeStartRemoved(final String qbeStr)
+    '''
 def saveTransaction():
-'''public void saveTransaction(final MXTransaction txn)
-'''
-pass
+    '''    public void saveTransaction(final MXTransaction txn)
+    '''
 def reprocessSortOrder():
-'''public void reprocessSortOrder()
-'''
-pass
+    '''    public void reprocessSortOrder()
+    '''
 def SortableClassstructure():
-'''public SortableClassstructure(final Integer id, final String parent, final Integer sortOrder)
-'''
-pass
+    '''    public SortableClassstructure(final Integer id, final String parent, final Integer sortOrder)
+    '''
 def getId():
-'''public Integer getId()
-'''
-pass
+    '''    public Integer getId()
+    '''
 def setId():
-'''public void setId(final Integer id)
-'''
-pass
+    '''    public void setId(final Integer id)
+    '''
 def setParent():
-'''public void setParent(final String parent)
-'''
-pass
+    '''    public void setParent(final String parent)
+    '''
 def getSortOrder():
-'''public Integer getSortOrder()
-'''
-pass
+    '''    public Integer getSortOrder()
+    '''
 def setSortOrder():
-'''public void setSortOrder(final Integer sortOrder)
-'''
-pass
+    '''    public void setSortOrder(final Integer sortOrder)
+    '''
 def compareTo():
-'''public int compareTo(final SortableClassstructure o)
-'''
-pass
+    '''    public int compareTo(final SortableClassstructure o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

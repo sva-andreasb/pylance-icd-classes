@@ -1,16 +1,12 @@
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''

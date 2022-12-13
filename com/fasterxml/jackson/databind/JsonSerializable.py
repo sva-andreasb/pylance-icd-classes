@@ -1,4 +1,3 @@
 def isEmpty():
-'''public boolean isEmpty(final SerializerProvider serializers)
-'''
-pass
+    '''    public boolean isEmpty(final SerializerProvider serializers)
+    '''

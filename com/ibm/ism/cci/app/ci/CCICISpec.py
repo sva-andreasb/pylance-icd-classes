@@ -1,12 +1,9 @@
 def CCICISpec():
-'''public CCICISpec(final MboSet ms)
-'''
-pass
+    '''    public CCICISpec(final MboSet ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def getMboValueData():
-'''public MboValueData getMboValueData(final String attribute)
-'''
-pass
+    '''    public MboValueData getMboValueData(final String attribute)
+    '''

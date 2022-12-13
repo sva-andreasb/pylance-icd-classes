@@ -1,21 +1,16 @@
 def AntiSamyDOMScanner():
-'''public AntiSamyDOMScanner(final Policy policy)
-public AntiSamyDOMScanner()
-'''
-pass
+    '''    public AntiSamyDOMScanner(final Policy policy)
+    public AntiSamyDOMScanner()
+    '''
 def scan():
-'''public CleanResults scan(String html)
-'''
-pass
+    '''    public CleanResults scan(String html)
+    '''
 def call():
-'''public String call()
-'''
-pass
+    '''    public String call()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def getResults():
-'''public CleanResults getResults()
-'''
-pass
+    '''    public CleanResults getResults()
+    '''

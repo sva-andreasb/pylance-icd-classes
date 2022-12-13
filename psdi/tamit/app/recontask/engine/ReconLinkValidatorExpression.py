@@ -1,8 +1,6 @@
 def ReconLinkValidatorExpression():
-'''public ReconLinkValidatorExpression(final ReconInfo reconInfo)
-'''
-pass
+    '''    public ReconLinkValidatorExpression(final ReconInfo reconInfo)
+    '''
 def validateInfoLinkExpressionTree():
-'''public boolean validateInfoLinkExpressionTree(final MboRemote validateObject)
-'''
-pass
+    '''    public boolean validateInfoLinkExpressionTree(final MboRemote validateObject)
+    '''

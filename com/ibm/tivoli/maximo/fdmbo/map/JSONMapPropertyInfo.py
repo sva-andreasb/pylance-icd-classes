@@ -1,28 +1,21 @@
 def JSONMapPropertyInfo():
-'''public JSONMapPropertyInfo(final String attributeName, final String propertyName, final String dateFormatType, final String dateFormat, final String type)
-'''
-pass
+    '''    public JSONMapPropertyInfo(final String attributeName, final String propertyName, final String dateFormatType, final String dateFormat, final String type)
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getPropertyName():
-'''public String getPropertyName()
-'''
-pass
+    '''    public String getPropertyName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getDateFormatType():
-'''public String getDateFormatType()
-'''
-pass
+    '''    public String getDateFormatType()
+    '''
 def getDateFormat():
-'''public String getDateFormat()
-'''
-pass
+    '''    public String getDateFormat()
+    '''
 def getPropertyValues():
-'''public List<JSONMapPropertyValuesInfo> getPropertyValues()
-'''
-pass
+    '''    public List<JSONMapPropertyValuesInfo> getPropertyValues()
+    '''

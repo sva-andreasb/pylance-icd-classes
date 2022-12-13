@@ -1,12 +1,9 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def WOAssetsToMove():
-'''public WOAssetsToMove(final MboSet ms)
-'''
-pass
+    '''    public WOAssetsToMove(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

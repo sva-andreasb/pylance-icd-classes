@@ -1,16 +1,12 @@
 def CrontaskParam():
-'''public CrontaskParam(final MboSet ms)
-'''
-pass
+    '''    public CrontaskParam(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getCrontaskInstance():
-'''public CrontaskInstanceRemote getCrontaskInstance()
-'''
-pass
+    '''    public CrontaskInstanceRemote getCrontaskInstance()
+    '''

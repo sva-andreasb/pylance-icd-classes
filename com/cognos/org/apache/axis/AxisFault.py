@@ -1,164 +1,125 @@
 def makeFault():
-'''public static AxisFault makeFault(Exception e)
-'''
-pass
+    '''    public static AxisFault makeFault(Exception e)
+    '''
 def AxisFault():
-'''public AxisFault(final String code, final String faultString, final String actor, final Element[] details)
-public AxisFault(final QName code, final String faultString, final String actor, final Element[] details)
-public AxisFault(final QName code, final QName[] subcodes, final String faultString, final String actor, final String node, final Element[] details)
-public AxisFault(final String message)
-public AxisFault()
-public AxisFault(final String message, final Throwable t)
-'''
-pass
+    '''    public AxisFault(final String code, final String faultString, final String actor, final Element[] details)
+    public AxisFault(final QName code, final String faultString, final String actor, final Element[] details)
+    public AxisFault(final QName code, final QName[] subcodes, final String faultString, final String actor, final String node, final Element[] details)
+    public AxisFault(final String message)
+    public AxisFault()
+    public AxisFault(final String message, final Throwable t)
+    '''
 def clearFaultDetails():
-'''public void clearFaultDetails()
-'''
-pass
+    '''    public void clearFaultDetails()
+    '''
 def dump():
-'''public void dump()
-'''
-pass
+    '''    public void dump()
+    '''
 def dumpToString():
-'''public String dumpToString()
-'''
-pass
+    '''    public String dumpToString()
+    '''
 def setFaultCode():
-'''public void setFaultCode(final QName code)
-public void setFaultCode(final String code)
-'''
-pass
+    '''    public void setFaultCode(final QName code)
+    public void setFaultCode(final String code)
+    '''
 def setFaultCodeAsString():
-'''public void setFaultCodeAsString(final String code)
-'''
-pass
+    '''    public void setFaultCodeAsString(final String code)
+    '''
 def getFaultCode():
-'''public QName getFaultCode()
-'''
-pass
+    '''    public QName getFaultCode()
+    '''
 def addFaultSubCodeAsString():
-'''public void addFaultSubCodeAsString(final String code)
-'''
-pass
+    '''    public void addFaultSubCodeAsString(final String code)
+    '''
 def addFaultSubCode():
-'''public void addFaultSubCode(final QName code)
-'''
-pass
+    '''    public void addFaultSubCode(final QName code)
+    '''
 def clearFaultSubCodes():
-'''public void clearFaultSubCodes()
-'''
-pass
+    '''    public void clearFaultSubCodes()
+    '''
 def getFaultSubCodes():
-'''public QName[] getFaultSubCodes()
-'''
-pass
+    '''    public QName[] getFaultSubCodes()
+    '''
 def setFaultString():
-'''public void setFaultString(final String str)
-'''
-pass
+    '''    public void setFaultString(final String str)
+    '''
 def getFaultString():
-'''public String getFaultString()
-'''
-pass
+    '''    public String getFaultString()
+    '''
 def setFaultReason():
-'''public void setFaultReason(final String str)
-'''
-pass
+    '''    public void setFaultReason(final String str)
+    '''
 def getFaultReason():
-'''public String getFaultReason()
-'''
-pass
+    '''    public String getFaultReason()
+    '''
 def setFaultActor():
-'''public void setFaultActor(final String actor)
-'''
-pass
+    '''    public void setFaultActor(final String actor)
+    '''
 def getFaultActor():
-'''public String getFaultActor()
-'''
-pass
+    '''    public String getFaultActor()
+    '''
 def getFaultRole():
-'''public String getFaultRole()
-'''
-pass
+    '''    public String getFaultRole()
+    '''
 def setFaultRole():
-'''public void setFaultRole(final String role)
-'''
-pass
+    '''    public void setFaultRole(final String role)
+    '''
 def getFaultNode():
-'''public String getFaultNode()
-'''
-pass
+    '''    public String getFaultNode()
+    '''
 def setFaultNode():
-'''public void setFaultNode(final String node)
-'''
-pass
+    '''    public void setFaultNode(final String node)
+    '''
 def setFaultDetail():
-'''public void setFaultDetail(final Element[] details)
-'''
-pass
+    '''    public void setFaultDetail(final Element[] details)
+    '''
 def setFaultDetailString():
-'''public void setFaultDetailString(final String details)
-'''
-pass
+    '''    public void setFaultDetailString(final String details)
+    '''
 def addFaultDetailString():
-'''public void addFaultDetailString(final String detail)
-'''
-pass
+    '''    public void addFaultDetailString(final String detail)
+    '''
 def addFaultDetail():
-'''public void addFaultDetail(final Element detail)
-public void addFaultDetail(final QName qname, final String body)
-'''
-pass
+    '''    public void addFaultDetail(final Element detail)
+    public void addFaultDetail(final QName qname, final String body)
+    '''
 def getFaultDetails():
-'''public Element[] getFaultDetails()
-'''
-pass
+    '''    public Element[] getFaultDetails()
+    '''
 def lookupFaultDetail():
-'''public Element lookupFaultDetail(final QName qname)
-'''
-pass
+    '''    public Element lookupFaultDetail(final QName qname)
+    '''
 def removeFaultDetail():
-'''public boolean removeFaultDetail(final QName qname)
-'''
-pass
+    '''    public boolean removeFaultDetail(final QName qname)
+    '''
 def output():
-'''public void output(final SerializationContext context)
-'''
-pass
+    '''    public void output(final SerializationContext context)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def printStackTrace():
-'''public void printStackTrace(final PrintStream ps)
-public void printStackTrace(final PrintWriter pw)
-'''
-pass
+    '''    public void printStackTrace(final PrintStream ps)
+    public void printStackTrace(final PrintWriter pw)
+    '''
 def addHeader():
-'''public void addHeader(final SOAPHeaderElement header)
-'''
-pass
+    '''    public void addHeader(final SOAPHeaderElement header)
+    '''
 def getHeaders():
-'''public ArrayList getHeaders()
-'''
-pass
+    '''    public ArrayList getHeaders()
+    '''
 def clearHeaders():
-'''public void clearHeaders()
-'''
-pass
+    '''    public void clearHeaders()
+    '''
 def writeDetails():
-'''public void writeDetails(final QName qname, final SerializationContext context)
-'''
-pass
+    '''    public void writeDetails(final QName qname, final SerializationContext context)
+    '''
 def addHostnameIfNeeded():
-'''public void addHostnameIfNeeded()
-'''
-pass
+    '''    public void addHostnameIfNeeded()
+    '''
 def addHostname():
-'''public void addHostname(final String hostname)
-'''
-pass
+    '''    public void addHostname(final String hostname)
+    '''
 def removeHostname():
-'''public void removeHostname()
-'''
-pass
+    '''    public void removeHostname()
+    '''

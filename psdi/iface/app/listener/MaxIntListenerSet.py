@@ -1,8 +1,6 @@
 def MaxIntListenerSet():
-'''public MaxIntListenerSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIntListenerSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

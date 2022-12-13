@@ -1,45 +1,34 @@
 def FileLoaderProcess():
-'''public FileLoaderProcess(final ExtSystemInfo extSysInfo, final MaxExtIfaceInInfo extIfaceInInfo, final boolean preview, final boolean fromClientImport, final boolean isFileExtract, final String fileFormat, final String fileName, final String delimiter, final String textQualifier, final String colHeader, final String processOwner)
-'''
-pass
+    '''    public FileLoaderProcess(final ExtSystemInfo extSysInfo, final MaxExtIfaceInInfo extIfaceInInfo, final boolean preview, final boolean fromClientImport, final boolean isFileExtract, final String fileFormat, final String fileName, final String delimiter, final String textQualifier, final String colHeader, final String processOwner)
+    '''
 def writeToQueue():
-'''public void writeToQueue(final byte[] extData, final Map<String, String> props)
-public void writeToQueue(final byte[] extData)
-'''
-pass
+    '''    public void writeToQueue(final byte[] extData, final Map<String, String> props)
+    public void writeToQueue(final byte[] extData)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def processData():
-'''public void processData(byte[] data, final int intCurrentNoun, final MboRemote npMbo)
-'''
-pass
+    '''    public void processData(byte[] data, final int intCurrentNoun, final MboRemote npMbo)
+    '''
 def markDBExtractComplete():
-'''public void markDBExtractComplete()
-'''
-pass
+    '''    public void markDBExtractComplete()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def isErrorOccured():
-'''public boolean isErrorOccured()
-'''
-pass
+    '''    public boolean isErrorOccured()
+    '''
 def getTempFiles():
-'''public List<String> getTempFiles()
-'''
-pass
+    '''    public List<String> getTempFiles()
+    '''
 def getMasterDoc():
-'''public Document getMasterDoc()
-'''
-pass
+    '''    public Document getMasterDoc()
+    '''
 def processCleanup():
-'''public void processCleanup()
-'''
-pass
+    '''    public void processCleanup()
+    '''

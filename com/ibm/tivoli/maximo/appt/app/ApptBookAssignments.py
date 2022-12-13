@@ -1,20 +1,15 @@
 def ApptBookAssignments():
-'''public ApptBookAssignments(final MboSet ms)
-'''
-pass
+    '''    public ApptBookAssignments(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def releaseLockedRecords():
-'''public void releaseLockedRecords(final Date selectedWorkDate)
-'''
-pass
+    '''    public void releaseLockedRecords(final Date selectedWorkDate)
+    '''

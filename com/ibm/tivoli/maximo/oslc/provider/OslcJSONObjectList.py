@@ -1,90 +1,69 @@
 def OslcJSONObjectList():
-'''public OslcJSONObjectList()
-public OslcJSONObjectList(final JSONArray c, final String osName, final String objectPath, final String messageType, final UserInfo userInfo, final boolean leanJson)
-'''
-pass
+    '''    public OslcJSONObjectList()
+    public OslcJSONObjectList(final JSONArray c, final String osName, final String objectPath, final String messageType, final UserInfo userInfo, final boolean leanJson)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def toArray():
-'''public Object[] toArray()
-public Object[] toArray(Object[] a)
-'''
-pass
+    '''    public Object[] toArray()
+    public Object[] toArray(Object[] a)
+    '''
 def get():
-'''public Object get(final int index)
-'''
-pass
+    '''    public Object get(final int index)
+    '''
 def remove():
-'''public Object remove(final int index)
-public boolean remove(final Object o)
-'''
-pass
+    '''    public Object remove(final int index)
+    public boolean remove(final Object o)
+    '''
 def add():
-'''public void add(final int index, final Object element)
-public boolean add(final Object o)
-'''
-pass
+    '''    public void add(final int index, final Object element)
+    public boolean add(final Object o)
+    '''
 def indexOf():
-'''public int indexOf(final Object o)
-'''
-pass
+    '''    public int indexOf(final Object o)
+    '''
 def lastIndexOf():
-'''public int lastIndexOf(final Object o)
-'''
-pass
+    '''    public int lastIndexOf(final Object o)
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def addAll():
-'''public boolean addAll(final int index, final Collection c)
-public boolean addAll(final Collection c)
-'''
-pass
+    '''    public boolean addAll(final int index, final Collection c)
+    public boolean addAll(final Collection c)
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection c)
-'''
-pass
+    '''    public boolean containsAll(final Collection c)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection c)
-'''
-pass
+    '''    public boolean removeAll(final Collection c)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection c)
-'''
-pass
+    '''    public boolean retainAll(final Collection c)
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def subList():
-'''public List subList(final int fromIndex, final int toIndex)
-'''
-pass
+    '''    public List subList(final int fromIndex, final int toIndex)
+    '''
 def listIterator():
-'''public ListIterator listIterator()
-public ListIterator listIterator(final int index)
-'''
-pass
+    '''    public ListIterator listIterator()
+    public ListIterator listIterator(final int index)
+    '''
 def set():
-'''public Object set(final int index, final Object element)
-'''
-pass
+    '''    public Object set(final int index, final Object element)
+    '''
 def toJSONCollection():
-'''public Collection<JSONObject> toJSONCollection(final Collection c)
-'''
-pass
+    '''    public Collection<JSONObject> toJSONCollection(final Collection c)
+    '''
 def getList():
-'''public List getList()
-'''
-pass
+    '''    public List getList()
+    '''

@@ -1,18 +1,14 @@
 sid = "short  134"
 def WriteProtectRecord():
-'''public WriteProtectRecord()
-public WriteProtectRecord(final RecordInputStream in)
-'''
-pass
+    '''    public WriteProtectRecord()
+    public WriteProtectRecord(final RecordInputStream in)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''

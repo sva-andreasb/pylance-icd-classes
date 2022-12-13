@@ -1,58 +1,45 @@
 def STAttribute():
-'''public STAttribute(final int key, final byte[] val)
-public STAttribute(final int key, final String str)
-public STAttribute(final int key, final int v)
-public STAttribute(final int key, final long v)
-public STAttribute(final int key, final boolean v)
-public STAttribute(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public STAttribute(final int key, final byte[] val)
+    public STAttribute(final int key, final String str)
+    public STAttribute(final int key, final int v)
+    public STAttribute(final int key, final long v)
+    public STAttribute(final int key, final boolean v)
+    public STAttribute(final NdrInputStream ndrInputStream)
+    '''
 def dump():
-'''public void dump(final NdrOutputStream ndrOutputStream)
-public void dump(final NdrOutputStream ndrOutputStream, final boolean b)
-'''
-pass
+    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    public void dump(final NdrOutputStream ndrOutputStream, final boolean b)
+    '''
 def load():
-'''public void load(final NdrInputStream ndrInputStream, final boolean b)
-'''
-pass
+    '''    public void load(final NdrInputStream ndrInputStream, final boolean b)
+    '''
 def getKey():
-'''public int getKey()
-'''
-pass
+    '''    public int getKey()
+    '''
 def getValue():
-'''public byte[] getValue()
-'''
-pass
+    '''    public byte[] getValue()
+    '''
 def getInt():
-'''public int getInt()
-'''
-pass
+    '''    public int getInt()
+    '''
 def getLong():
-'''public long getLong()
-'''
-pass
+    '''    public long getLong()
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def getBoolean():
-'''public boolean getBoolean()
-'''
-pass
+    '''    public boolean getBoolean()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''

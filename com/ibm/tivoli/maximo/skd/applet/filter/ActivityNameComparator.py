@@ -1,12 +1,9 @@
 def ActivityNameComparator():
-'''public ActivityNameComparator()
-'''
-pass
+    '''    public ActivityNameComparator()
+    '''
 def compare():
-'''public int compare(final IlvActivity a1, final IlvActivity a2)
-'''
-pass
+    '''    public int compare(final IlvActivity a1, final IlvActivity a2)
+    '''
 def changesSortOrder():
-'''public boolean changesSortOrder(final ActivityPropertyEvent event)
-'''
-pass
+    '''    public boolean changesSortOrder(final ActivityPropertyEvent event)
+    '''

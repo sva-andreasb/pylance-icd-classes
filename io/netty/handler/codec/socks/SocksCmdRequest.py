@@ -1,24 +1,18 @@
 def SocksCmdRequest():
-'''public SocksCmdRequest(final SocksCmdType cmdType, final SocksAddressType addressType, String host, final int port)
-'''
-pass
+    '''    public SocksCmdRequest(final SocksCmdType cmdType, final SocksAddressType addressType, String host, final int port)
+    '''
 def cmdType():
-'''public SocksCmdType cmdType()
-'''
-pass
+    '''    public SocksCmdType cmdType()
+    '''
 def addressType():
-'''public SocksAddressType addressType()
-'''
-pass
+    '''    public SocksAddressType addressType()
+    '''
 def host():
-'''public String host()
-'''
-pass
+    '''    public String host()
+    '''
 def port():
-'''public int port()
-'''
-pass
+    '''    public int port()
+    '''
 def encodeAsByteBuf():
-'''public void encodeAsByteBuf(final ByteBuf byteBuf)
-'''
-pass
+    '''    public void encodeAsByteBuf(final ByteBuf byteBuf)
+    '''

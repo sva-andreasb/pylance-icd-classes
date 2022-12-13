@@ -1,4 +1,3 @@
 def JDOMXPath():
-'''public JDOMXPath(final String xpathExpr)
-'''
-pass
+    '''    public JDOMXPath(final String xpathExpr)
+    '''

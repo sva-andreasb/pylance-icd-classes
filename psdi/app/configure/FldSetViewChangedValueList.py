@@ -1,8 +1,6 @@
 def FldSetViewChangedValueList():
-'''public FldSetViewChangedValueList(final MboValue mbv)
-'''
-pass
+    '''    public FldSetViewChangedValueList(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

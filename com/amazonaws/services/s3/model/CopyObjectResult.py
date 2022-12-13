@@ -1,48 +1,36 @@
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String etag)
-'''
-pass
+    '''    public void setETag(final String etag)
+    '''
 def getLastModifiedDate():
-'''public Date getLastModifiedDate()
-'''
-pass
+    '''    public Date getLastModifiedDate()
+    '''
 def setLastModifiedDate():
-'''public void setLastModifiedDate(final Date lastModifiedDate)
-'''
-pass
+    '''    public void setLastModifiedDate(final Date lastModifiedDate)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''
 def getExpirationTime():
-'''public Date getExpirationTime()
-'''
-pass
+    '''    public Date getExpirationTime()
+    '''
 def setExpirationTime():
-'''public void setExpirationTime(final Date expirationTime)
-'''
-pass
+    '''    public void setExpirationTime(final Date expirationTime)
+    '''
 def getExpirationTimeRuleId():
-'''public String getExpirationTimeRuleId()
-'''
-pass
+    '''    public String getExpirationTimeRuleId()
+    '''
 def setExpirationTimeRuleId():
-'''public void setExpirationTimeRuleId(final String expirationTimeRuleId)
-'''
-pass
+    '''    public void setExpirationTimeRuleId(final String expirationTimeRuleId)
+    '''
 def isRequesterCharged():
-'''public boolean isRequesterCharged()
-'''
-pass
+    '''    public boolean isRequesterCharged()
+    '''
 def setRequesterCharged():
-'''public void setRequesterCharged(final boolean isRequesterCharged)
-'''
-pass
+    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''

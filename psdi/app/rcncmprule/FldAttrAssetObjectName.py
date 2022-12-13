@@ -1,8 +1,6 @@
 def FldAttrAssetObjectName():
-'''public FldAttrAssetObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldAttrAssetObjectName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

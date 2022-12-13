@@ -1,8 +1,6 @@
 def open():
-'''public Object open(final Assembler a, final Resource root, final Mode irrelevant)
-'''
-pass
+    '''    public Object open(final Assembler a, final Resource root, final Mode irrelevant)
+    '''
 def getOntModelSpecField():
-'''public static OntModelSpec getOntModelSpecField(final String name)
-'''
-pass
+    '''    public static OntModelSpec getOntModelSpecField(final String name)
+    '''

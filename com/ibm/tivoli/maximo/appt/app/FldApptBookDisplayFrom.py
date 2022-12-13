@@ -1,20 +1,15 @@
 def FldApptBookDisplayFrom():
-'''public FldApptBookDisplayFrom(final MboValue mbv)
-'''
-pass
+    '''    public FldApptBookDisplayFrom(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def saveYesNoCheck():
-'''public boolean saveYesNoCheck(final MboSetRemote apptBookWindowAvailSet)
-'''
-pass
+    '''    public boolean saveYesNoCheck(final MboSetRemote apptBookWindowAvailSet)
+    '''

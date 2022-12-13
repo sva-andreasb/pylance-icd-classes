@@ -1,8 +1,6 @@
 def IASTORE():
-'''public IASTORE()
-'''
-pass
+    '''    public IASTORE()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

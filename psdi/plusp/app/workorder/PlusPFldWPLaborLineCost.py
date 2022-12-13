@@ -1,12 +1,9 @@
 def PlusPFldWPLaborLineCost():
-'''public PlusPFldWPLaborLineCost(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWPLaborLineCost(final MboValue arg0)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,4 +1,3 @@
 def MapSymbologyDefault():
-'''public MapSymbologyDefault(final MboSet ms)
-'''
-pass
+    '''    public MapSymbologyDefault(final MboSet ms)
+    '''

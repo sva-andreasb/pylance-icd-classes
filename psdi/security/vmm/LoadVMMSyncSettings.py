@@ -1,40 +1,30 @@
 def LoadVMMSyncSettings():
-'''public LoadVMMSyncSettings()
-'''
-pass
+    '''    public LoadVMMSyncSettings()
+    '''
 def getGroupSettings():
-'''public GroupSettings getGroupSettings()
-'''
-pass
+    '''    public GroupSettings getGroupSettings()
+    '''
 def setGroupSettings():
-'''public void setGroupSettings(final GroupSettings settings)
-'''
-pass
+    '''    public void setGroupSettings(final GroupSettings settings)
+    '''
 def getSynchronizerSettings():
-'''public VMMSynchronizerSettings getSynchronizerSettings()
-'''
-pass
+    '''    public VMMSynchronizerSettings getSynchronizerSettings()
+    '''
 def setSynchronizerSettings():
-'''public void setSynchronizerSettings(final VMMSynchronizerSettings settings)
-'''
-pass
+    '''    public void setSynchronizerSettings(final VMMSynchronizerSettings settings)
+    '''
 def getUserSettings():
-'''public UserSettings getUserSettings()
-'''
-pass
+    '''    public UserSettings getUserSettings()
+    '''
 def setUserSettings():
-'''public void setUserSettings(final UserSettings settings)
-'''
-pass
+    '''    public void setUserSettings(final UserSettings settings)
+    '''
 def getVMMContextSettings():
-'''public VMMContextSettings getVMMContextSettings()
-'''
-pass
+    '''    public VMMContextSettings getVMMContextSettings()
+    '''
 def setVMMContextSettings():
-'''public void setVMMContextSettings(final VMMContextSettings vmmContextSettings)
-'''
-pass
+    '''    public void setVMMContextSettings(final VMMContextSettings vmmContextSettings)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def PmScSSNewCartTemplateBean():
-'''public PmScSSNewCartTemplateBean()
-'''
-pass
+    '''    public PmScSSNewCartTemplateBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''

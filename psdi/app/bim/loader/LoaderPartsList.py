@@ -1,4 +1,3 @@
 def LoaderPartsList():
-'''public LoaderPartsList(final LoaderBase<ItemTYPE, ModelLoaderBase> loader, final MboRemote productMbo)
-'''
-pass
+    '''    public LoaderPartsList(final LoaderBase<ItemTYPE, ModelLoaderBase> loader, final MboRemote productMbo)
+    '''

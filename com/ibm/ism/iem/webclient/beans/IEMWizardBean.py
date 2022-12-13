@@ -1,24 +1,18 @@
 def IEMWizardBean():
-'''public IEMWizardBean()
-'''
-pass
+    '''    public IEMWizardBean()
+    '''
 def nexttab():
-'''public int nexttab()
-'''
-pass
+    '''    public int nexttab()
+    '''
 def prevtab():
-'''public int prevtab()
-'''
-pass
+    '''    public int prevtab()
+    '''
 def complete():
-'''public int complete()
-'''
-pass
+    '''    public int complete()
+    '''
 def cancelchanges():
-'''public int cancelchanges()
-'''
-pass
+    '''    public int cancelchanges()
+    '''
 def insert():
-'''public synchronized void insert()
-'''
-pass
+    '''    public synchronized void insert()
+    '''

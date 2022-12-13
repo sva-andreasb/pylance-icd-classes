@@ -1,12 +1,9 @@
 def createMultiImageWriter():
-'''public MultiImageWriter createMultiImageWriter(final OutputStream out)
-'''
-pass
+    '''    public MultiImageWriter createMultiImageWriter(final OutputStream out)
+    '''
 def isFunctional():
-'''public boolean isFunctional()
-'''
-pass
+    '''    public boolean isFunctional()
+    '''
 def supportsMultiImageWriter():
-'''public boolean supportsMultiImageWriter()
-'''
-pass
+    '''    public boolean supportsMultiImageWriter()
+    '''

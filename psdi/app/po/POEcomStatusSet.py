@@ -1,4 +1,3 @@
 def POEcomStatusSet():
-'''public POEcomStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public POEcomStatusSet(final MboServerInterface ms)
+    '''

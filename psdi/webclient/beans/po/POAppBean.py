@@ -1,36 +1,27 @@
 def CREATECHG():
-'''public int CREATECHG()
-'''
-pass
+    '''    public int CREATECHG()
+    '''
 def COPYPRLNPO():
-'''public int COPYPRLNPO()
-'''
-pass
+    '''    public int COPYPRLNPO()
+    '''
 def CREATECONT():
-'''public int CREATECONT()
-'''
-pass
+    '''    public int CREATECONT()
+    '''
 def COMPLRECPT():
-'''public int COMPLRECPT()
-'''
-pass
+    '''    public int COMPLRECPT()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def REVPO():
-'''public int REVPO()
-'''
-pass
+    '''    public int REVPO()
+    '''
 def ROUTEWF():
-'''public int ROUTEWF()
-'''
-pass
+    '''    public int ROUTEWF()
+    '''
 def CREATECOMM():
-'''public int CREATECOMM()
-'''
-pass
+    '''    public int CREATECOMM()
+    '''

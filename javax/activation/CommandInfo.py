@@ -1,16 +1,12 @@
 def getCommandClass():
-'''public String getCommandClass()
-'''
-pass
+    '''    public String getCommandClass()
+    '''
 def getCommandName():
-'''public String getCommandName()
-'''
-pass
+    '''    public String getCommandName()
+    '''
 def CommandInfo():
-'''public CommandInfo(final String verb, final String className)
-'''
-pass
+    '''    public CommandInfo(final String verb, final String className)
+    '''
 def getCommandObject():
-'''public Object getCommandObject(final DataHandler dh, final ClassLoader loader)
-'''
-pass
+    '''    public Object getCommandObject(final DataHandler dh, final ClassLoader loader)
+    '''

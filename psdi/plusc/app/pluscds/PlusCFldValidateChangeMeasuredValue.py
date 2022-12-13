@@ -1,8 +1,6 @@
 def PlusCFldValidateChangeMeasuredValue():
-'''public PlusCFldValidateChangeMeasuredValue(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldValidateChangeMeasuredValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,16 +1,12 @@
 def registerMetricAdminMBean():
-'''public boolean registerMetricAdminMBean(final String objectName)
-'''
-pass
+    '''    public boolean registerMetricAdminMBean(final String objectName)
+    '''
 def unregisterMBean():
-'''public boolean unregisterMBean(final String objectName)
-'''
-pass
+    '''    public boolean unregisterMBean(final String objectName)
+    '''
 def isMBeanRegistered():
-'''public boolean isMBeanRegistered(final String objectName)
-'''
-pass
+    '''    public boolean isMBeanRegistered(final String objectName)
+    '''
 def getMBeanRegistry():
-'''public static SdkMBeanRegistry getMBeanRegistry()
-'''
-pass
+    '''    public static SdkMBeanRegistry getMBeanRegistry()
+    '''

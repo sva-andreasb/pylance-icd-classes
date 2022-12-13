@@ -1,20 +1,15 @@
 def CCICISyncCIsError():
-'''public CCICISyncCIsError(final MXException exception, final String cinum)
-'''
-pass
+    '''    public CCICISyncCIsError(final MXException exception, final String cinum)
+    '''
 def getMXException():
-'''public MXException getMXException()
-'''
-pass
+    '''    public MXException getMXException()
+    '''
 def setMXException():
-'''public void setMXException(final MXException exception)
-'''
-pass
+    '''    public void setMXException(final MXException exception)
+    '''
 def getCINum():
-'''public String getCINum()
-'''
-pass
+    '''    public String getCINum()
+    '''
 def setCINum():
-'''public void setCINum(final String cinum)
-'''
-pass
+    '''    public void setCINum(final String cinum)
+    '''

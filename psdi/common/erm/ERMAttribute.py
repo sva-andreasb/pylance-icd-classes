@@ -1,28 +1,21 @@
 def ERMAttribute():
-'''public ERMAttribute(final String name)
-'''
-pass
+    '''    public ERMAttribute(final String name)
+    '''
 def getEntity():
-'''public ERMEntity getEntity()
-'''
-pass
+    '''    public ERMEntity getEntity()
+    '''
 def setEntity():
-'''public void setEntity(final ERMEntity entity)
-'''
-pass
+    '''    public void setEntity(final ERMEntity entity)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean required)
-'''
-pass
+    '''    public void setRequired(final boolean required)
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''

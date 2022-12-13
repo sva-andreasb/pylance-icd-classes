@@ -1,24 +1,18 @@
 def ActionInboundProc():
-'''public ActionInboundProc()
-'''
-pass
+    '''    public ActionInboundProc()
+    '''
 def delete():
-'''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
-'''
-pass
+    '''    public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''
 def afterReplace():
-'''public void afterReplace(final MboRemote child)
-'''
-pass
+    '''    public void afterReplace(final MboRemote child)
+    '''
 def isNull():
-'''public boolean isNull(final String t)
-'''
-pass
+    '''    public boolean isNull(final String t)
+    '''
 def createMboSet():
-'''public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
-'''
-pass
+    '''    public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

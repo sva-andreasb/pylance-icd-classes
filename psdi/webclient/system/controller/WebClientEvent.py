@@ -4,206 +4,157 @@ ERROR_CHECKED_NONE = "int  0"
 ERROR_CHECKED_PAGE = "int  1"
 ERROR_CHECKED_APP = "int  2"
 def WebClientEvent():
-'''public WebClientEvent(final String type, final String targetId, final Object value, final WebClientSession wcs)
-public WebClientEvent(final String type, final String targetId, final Object value, final String row, final WebClientSession wcs)
-public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final long uniqueid, final WebClientSession wcs)
-public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final String additionalEventValue, final long uniqueid, final WebClientSession wcs)
-public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final String additionalEventValue, final long uniqueid, final WebClientSession wcs, final BaseInstance creatingInstance)
-public WebClientEvent(final String type, final String targetId, final Object value, final WebClientSession wcs, final ComponentInstance source)
-public WebClientEvent(final String type, final String targetId, final Object value, final SessionContext sessionContext)
-public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final long uniqueid, final SessionContext sessionContext)
-'''
-pass
+    '''    public WebClientEvent(final String type, final String targetId, final Object value, final WebClientSession wcs)
+    public WebClientEvent(final String type, final String targetId, final Object value, final String row, final WebClientSession wcs)
+    public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final long uniqueid, final WebClientSession wcs)
+    public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final String additionalEventValue, final long uniqueid, final WebClientSession wcs)
+    public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final String additionalEventValue, final long uniqueid, final WebClientSession wcs, final BaseInstance creatingInstance)
+    public WebClientEvent(final String type, final String targetId, final Object value, final WebClientSession wcs, final ComponentInstance source)
+    public WebClientEvent(final String type, final String targetId, final Object value, final SessionContext sessionContext)
+    public WebClientEvent(final String type, final String targetId, final Object value, final String row, final String additionalEvent, final long uniqueid, final SessionContext sessionContext)
+    '''
 def getSourceControlInstance():
-'''public ControlInstance getSourceControlInstance()
-'''
-pass
+    '''    public ControlInstance getSourceControlInstance()
+    '''
 def getSourceControl():
-'''public ControlHandler getSourceControl()
-'''
-pass
+    '''    public ControlHandler getSourceControl()
+    '''
 def setSourceControl():
-'''public void setSourceControl(final ControlInstance sourceControl)
-public void setSourceControl(final ControlHandler sourceControl)
-'''
-pass
+    '''    public void setSourceControl(final ControlInstance sourceControl)
+    public void setSourceControl(final ControlHandler sourceControl)
+    '''
 def getSourceComponentInstance():
-'''public ComponentInstance getSourceComponentInstance()
-'''
-pass
+    '''    public ComponentInstance getSourceComponentInstance()
+    '''
 def setSourceComponent():
-'''public void setSourceComponent(final ComponentInstance sourceComponent)
-'''
-pass
+    '''    public void setSourceComponent(final ComponentInstance sourceComponent)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getTargetId():
-'''public String getTargetId()
-'''
-pass
+    '''    public String getTargetId()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def getRow():
-'''public int getRow()
-'''
-pass
+    '''    public int getRow()
+    '''
 def getValueString():
-'''public String getValueString()
-'''
-pass
+    '''    public String getValueString()
+    '''
 def setValue():
-'''public void setValue(final Object eventvalue)
-'''
-pass
+    '''    public void setValue(final Object eventvalue)
+    '''
 def getEventStatus():
-'''public int getEventStatus()
-'''
-pass
+    '''    public int getEventStatus()
+    '''
 def setStatus():
-'''public void setStatus(final int eventStatus)
-'''
-pass
+    '''    public void setStatus(final int eventStatus)
+    '''
 def addParameter():
-'''public void addParameter(final Object key, final Object value)
-'''
-pass
+    '''    public void addParameter(final Object key, final Object value)
+    '''
 def getParameters():
-'''public Hashtable<Object, Object> getParameters()
-'''
-pass
+    '''    public Hashtable<Object, Object> getParameters()
+    '''
 def getWebClientSession():
-'''public WebClientSession getWebClientSession()
-'''
-pass
+    '''    public WebClientSession getWebClientSession()
+    '''
 def getMessageReturn():
-'''public int getMessageReturn()
-'''
-pass
+    '''    public int getMessageReturn()
+    '''
 def setMessageReturn():
-'''public void setMessageReturn(final int msgReturn)
-'''
-pass
+    '''    public void setMessageReturn(final int msgReturn)
+    '''
 def getMessageReturnId():
-'''public String getMessageReturnId()
-'''
-pass
+    '''    public String getMessageReturnId()
+    '''
 def setMessageReturnId():
-'''public void setMessageReturnId(final String msgReturnId)
-'''
-pass
+    '''    public void setMessageReturnId(final String msgReturnId)
+    '''
 def wasProcessed():
-'''public boolean wasProcessed()
-'''
-pass
+    '''    public boolean wasProcessed()
+    '''
 def setProcessed():
-'''public void setProcessed()
-'''
-pass
+    '''    public void setProcessed()
+    '''
 def getAdditionalEvent():
-'''public String getAdditionalEvent()
-'''
-pass
+    '''    public String getAdditionalEvent()
+    '''
 def getUniqueId():
-'''public long getUniqueId()
-'''
-pass
+    '''    public long getUniqueId()
+    '''
 def getAdditionalEventValue():
-'''public String getAdditionalEventValue()
-'''
-pass
+    '''    public String getAdditionalEventValue()
+    '''
 def setRow():
-'''public void setRow(final int row)
-'''
-pass
+    '''    public void setRow(final int row)
+    '''
 def getSessionContext():
-'''public SessionContext getSessionContext()
-'''
-pass
+    '''    public SessionContext getSessionContext()
+    '''
 def cancelRender():
-'''public void cancelRender()
-'''
-pass
+    '''    public void cancelRender()
+    '''
 def canRender():
-'''public boolean canRender()
-'''
-pass
+    '''    public boolean canRender()
+    '''
 def isPassedSigCheck():
-'''public boolean isPassedSigCheck()
-'''
-pass
+    '''    public boolean isPassedSigCheck()
+    '''
 def setPassedSigCheck():
-'''public void setPassedSigCheck(final boolean passedSigCheck)
-'''
-pass
+    '''    public void setPassedSigCheck(final boolean passedSigCheck)
+    '''
 def setAdditionalEventValue():
-'''public void setAdditionalEventValue(final String eventValue)
-'''
-pass
+    '''    public void setAdditionalEventValue(final String eventValue)
+    '''
 def setAdditionalEvent():
-'''public void setAdditionalEvent(final String event)
-'''
-pass
+    '''    public void setAdditionalEvent(final String event)
+    '''
 def setTransformedValue():
-'''public void setTransformedValue(final Object transformedValue)
-'''
-pass
+    '''    public void setTransformedValue(final Object transformedValue)
+    '''
 def getTransformedValue():
-'''public Object getTransformedValue()
-'''
-pass
+    '''    public Object getTransformedValue()
+    '''
 def hasTransformedValue():
-'''public boolean hasTransformedValue()
-'''
-pass
+    '''    public boolean hasTransformedValue()
+    '''
 def getParameter():
-'''public Object getParameter(final Object key)
-'''
-pass
+    '''    public Object getParameter(final Object key)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getLevelCheckedForErrors():
-'''public int getLevelCheckedForErrors()
-'''
-pass
+    '''    public int getLevelCheckedForErrors()
+    '''
 def setLevelCheckedForErrors():
-'''public void setLevelCheckedForErrors(final int level)
-'''
-pass
+    '''    public void setLevelCheckedForErrors(final int level)
+    '''
 def conditionalReqChecked():
-'''public boolean conditionalReqChecked()
-'''
-pass
+    '''    public boolean conditionalReqChecked()
+    '''
 def setConditionalReqChecked():
-'''public void setConditionalReqChecked(final boolean conditionalReqChecked)
-'''
-pass
+    '''    public void setConditionalReqChecked(final boolean conditionalReqChecked)
+    '''
 def getRequestType():
-'''public String getRequestType()
-'''
-pass
+    '''    public String getRequestType()
+    '''
 def setRequestType():
-'''public void setRequestType(final String requestType)
-'''
-pass
+    '''    public void setRequestType(final String requestType)
+    '''
 def getEventMap():
-'''public Map<String, Object> getEventMap()
-'''
-pass
+    '''    public Map<String, Object> getEventMap()
+    '''
 def setEventMap():
-'''public void setEventMap(final Map<String, Object> eventMap)
-'''
-pass
+    '''    public void setEventMap(final Map<String, Object> eventMap)
+    '''
 def isClientEvent():
-'''public boolean isClientEvent()
-'''
-pass
+    '''    public boolean isClientEvent()
+    '''
 def setClientEvent():
-'''public void setClientEvent(final boolean clientEvent)
-'''
-pass
+    '''    public void setClientEvent(final boolean clientEvent)
+    '''

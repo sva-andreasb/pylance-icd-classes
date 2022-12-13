@@ -1,4 +1,3 @@
 def HexDumpEncoder():
-'''public HexDumpEncoder()
-'''
-pass
+    '''    public HexDumpEncoder()
+    '''

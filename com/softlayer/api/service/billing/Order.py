@@ -1,525 +1,394 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getBrand():
-'''public Brand getBrand()
-'''
-pass
+    '''    public Brand getBrand()
+    '''
 def setBrand():
-'''public void setBrand(final Brand brand)
-'''
-pass
+    '''    public void setBrand(final Brand brand)
+    '''
 def getCart():
-'''public Cart getCart()
-'''
-pass
+    '''    public Cart getCart()
+    '''
 def setCart():
-'''public void setCart(final Cart cart)
-'''
-pass
+    '''    public void setCart(final Cart cart)
+    '''
 def getCoreRestrictedItems():
-'''public List<Item> getCoreRestrictedItems()
-'''
-pass
+    '''    public List<Item> getCoreRestrictedItems()
+    '''
 def getCreditCardTransactions():
-'''public List<Transaction> getCreditCardTransactions()
-'''
-pass
+    '''    public List<Transaction> getCreditCardTransactions()
+    '''
 def getExchangeRate():
-'''public ExchangeRate getExchangeRate()
-'''
-pass
+    '''    public ExchangeRate getExchangeRate()
+    '''
 def setExchangeRate():
-'''public void setExchangeRate(final ExchangeRate exchangeRate)
-'''
-pass
+    '''    public void setExchangeRate(final ExchangeRate exchangeRate)
+    '''
 def getInitialInvoice():
-'''public Invoice getInitialInvoice()
-'''
-pass
+    '''    public Invoice getInitialInvoice()
+    '''
 def setInitialInvoice():
-'''public void setInitialInvoice(final Invoice initialInvoice)
-'''
-pass
+    '''    public void setInitialInvoice(final Invoice initialInvoice)
+    '''
 def getItems():
-'''public List<Item> getItems()
-'''
-pass
+    '''    public List<Item> getItems()
+    '''
 def getOrderApprovalDate():
-'''public GregorianCalendar getOrderApprovalDate()
-'''
-pass
+    '''    public GregorianCalendar getOrderApprovalDate()
+    '''
 def setOrderApprovalDate():
-'''public void setOrderApprovalDate(final GregorianCalendar orderApprovalDate)
-'''
-pass
+    '''    public void setOrderApprovalDate(final GregorianCalendar orderApprovalDate)
+    '''
 def getOrderNonServerMonthlyAmount():
-'''public BigDecimal getOrderNonServerMonthlyAmount()
-'''
-pass
+    '''    public BigDecimal getOrderNonServerMonthlyAmount()
+    '''
 def setOrderNonServerMonthlyAmount():
-'''public void setOrderNonServerMonthlyAmount(final BigDecimal orderNonServerMonthlyAmount)
-'''
-pass
+    '''    public void setOrderNonServerMonthlyAmount(final BigDecimal orderNonServerMonthlyAmount)
+    '''
 def getOrderServerMonthlyAmount():
-'''public BigDecimal getOrderServerMonthlyAmount()
-'''
-pass
+    '''    public BigDecimal getOrderServerMonthlyAmount()
+    '''
 def setOrderServerMonthlyAmount():
-'''public void setOrderServerMonthlyAmount(final BigDecimal orderServerMonthlyAmount)
-'''
-pass
+    '''    public void setOrderServerMonthlyAmount(final BigDecimal orderServerMonthlyAmount)
+    '''
 def getOrderTopLevelItems():
-'''public List<Item> getOrderTopLevelItems()
-'''
-pass
+    '''    public List<Item> getOrderTopLevelItems()
+    '''
 def getOrderTotalAmount():
-'''public BigDecimal getOrderTotalAmount()
-'''
-pass
+    '''    public BigDecimal getOrderTotalAmount()
+    '''
 def setOrderTotalAmount():
-'''public void setOrderTotalAmount(final BigDecimal orderTotalAmount)
-'''
-pass
+    '''    public void setOrderTotalAmount(final BigDecimal orderTotalAmount)
+    '''
 def getOrderTotalOneTime():
-'''public BigDecimal getOrderTotalOneTime()
-'''
-pass
+    '''    public BigDecimal getOrderTotalOneTime()
+    '''
 def setOrderTotalOneTime():
-'''public void setOrderTotalOneTime(final BigDecimal orderTotalOneTime)
-'''
-pass
+    '''    public void setOrderTotalOneTime(final BigDecimal orderTotalOneTime)
+    '''
 def getOrderTotalOneTimeAmount():
-'''public BigDecimal getOrderTotalOneTimeAmount()
-'''
-pass
+    '''    public BigDecimal getOrderTotalOneTimeAmount()
+    '''
 def setOrderTotalOneTimeAmount():
-'''public void setOrderTotalOneTimeAmount(final BigDecimal orderTotalOneTimeAmount)
-'''
-pass
+    '''    public void setOrderTotalOneTimeAmount(final BigDecimal orderTotalOneTimeAmount)
+    '''
 def getOrderTotalOneTimeTaxAmount():
-'''public BigDecimal getOrderTotalOneTimeTaxAmount()
-'''
-pass
+    '''    public BigDecimal getOrderTotalOneTimeTaxAmount()
+    '''
 def setOrderTotalOneTimeTaxAmount():
-'''public void setOrderTotalOneTimeTaxAmount(final BigDecimal orderTotalOneTimeTaxAmount)
-'''
-pass
+    '''    public void setOrderTotalOneTimeTaxAmount(final BigDecimal orderTotalOneTimeTaxAmount)
+    '''
 def getOrderTotalRecurring():
-'''public BigDecimal getOrderTotalRecurring()
-'''
-pass
+    '''    public BigDecimal getOrderTotalRecurring()
+    '''
 def setOrderTotalRecurring():
-'''public void setOrderTotalRecurring(final BigDecimal orderTotalRecurring)
-'''
-pass
+    '''    public void setOrderTotalRecurring(final BigDecimal orderTotalRecurring)
+    '''
 def getOrderTotalRecurringAmount():
-'''public BigDecimal getOrderTotalRecurringAmount()
-'''
-pass
+    '''    public BigDecimal getOrderTotalRecurringAmount()
+    '''
 def setOrderTotalRecurringAmount():
-'''public void setOrderTotalRecurringAmount(final BigDecimal orderTotalRecurringAmount)
-'''
-pass
+    '''    public void setOrderTotalRecurringAmount(final BigDecimal orderTotalRecurringAmount)
+    '''
 def getOrderTotalRecurringTaxAmount():
-'''public BigDecimal getOrderTotalRecurringTaxAmount()
-'''
-pass
+    '''    public BigDecimal getOrderTotalRecurringTaxAmount()
+    '''
 def setOrderTotalRecurringTaxAmount():
-'''public void setOrderTotalRecurringTaxAmount(final BigDecimal orderTotalRecurringTaxAmount)
-'''
-pass
+    '''    public void setOrderTotalRecurringTaxAmount(final BigDecimal orderTotalRecurringTaxAmount)
+    '''
 def getOrderTotalSetupAmount():
-'''public BigDecimal getOrderTotalSetupAmount()
-'''
-pass
+    '''    public BigDecimal getOrderTotalSetupAmount()
+    '''
 def setOrderTotalSetupAmount():
-'''public void setOrderTotalSetupAmount(final BigDecimal orderTotalSetupAmount)
-'''
-pass
+    '''    public void setOrderTotalSetupAmount(final BigDecimal orderTotalSetupAmount)
+    '''
 def setOrderType():
-'''public void setOrderType(final com.softlayer.api.service.billing.order.Type orderType)
-'''
-pass
+    '''    public void setOrderType(final com.softlayer.api.service.billing.order.Type orderType)
+    '''
 def getPresaleEvent():
-'''public Event getPresaleEvent()
-'''
-pass
+    '''    public Event getPresaleEvent()
+    '''
 def setPresaleEvent():
-'''public void setPresaleEvent(final Event presaleEvent)
-'''
-pass
+    '''    public void setPresaleEvent(final Event presaleEvent)
+    '''
 def getQuote():
-'''public Quote getQuote()
-'''
-pass
+    '''    public Quote getQuote()
+    '''
 def setQuote():
-'''public void setQuote(final Quote quote)
-'''
-pass
+    '''    public void setQuote(final Quote quote)
+    '''
 def getReferralPartner():
-'''public Account getReferralPartner()
-'''
-pass
+    '''    public Account getReferralPartner()
+    '''
 def setReferralPartner():
-'''public void setReferralPartner(final Account referralPartner)
-'''
-pass
+    '''    public void setReferralPartner(final Account referralPartner)
+    '''
 def getUpgradeRequestFlag():
-'''public Boolean getUpgradeRequestFlag()
-'''
-pass
+    '''    public Boolean getUpgradeRequestFlag()
+    '''
 def setUpgradeRequestFlag():
-'''public void setUpgradeRequestFlag(final Boolean upgradeRequestFlag)
-'''
-pass
+    '''    public void setUpgradeRequestFlag(final Boolean upgradeRequestFlag)
+    '''
 def getUserRecord():
-'''public Customer getUserRecord()
-'''
-pass
+    '''    public Customer getUserRecord()
+    '''
 def setUserRecord():
-'''public void setUserRecord(final Customer userRecord)
-'''
-pass
+    '''    public void setUserRecord(final Customer userRecord)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getImpersonatingUserRecordId():
-'''public Long getImpersonatingUserRecordId()
-'''
-pass
+    '''    public Long getImpersonatingUserRecordId()
+    '''
 def setImpersonatingUserRecordId():
-'''public void setImpersonatingUserRecordId(final Long impersonatingUserRecordId)
-'''
-pass
+    '''    public void setImpersonatingUserRecordId(final Long impersonatingUserRecordId)
+    '''
 def isImpersonatingUserRecordIdSpecified():
-'''public boolean isImpersonatingUserRecordIdSpecified()
-'''
-pass
+    '''    public boolean isImpersonatingUserRecordIdSpecified()
+    '''
 def unsetImpersonatingUserRecordId():
-'''public void unsetImpersonatingUserRecordId()
-'''
-pass
+    '''    public void unsetImpersonatingUserRecordId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getOrderQuoteId():
-'''public Long getOrderQuoteId()
-'''
-pass
+    '''    public Long getOrderQuoteId()
+    '''
 def setOrderQuoteId():
-'''public void setOrderQuoteId(final Long orderQuoteId)
-'''
-pass
+    '''    public void setOrderQuoteId(final Long orderQuoteId)
+    '''
 def isOrderQuoteIdSpecified():
-'''public boolean isOrderQuoteIdSpecified()
-'''
-pass
+    '''    public boolean isOrderQuoteIdSpecified()
+    '''
 def unsetOrderQuoteId():
-'''public void unsetOrderQuoteId()
-'''
-pass
+    '''    public void unsetOrderQuoteId()
+    '''
 def getOrderTypeId():
-'''public Long getOrderTypeId()
-'''
-pass
+    '''    public Long getOrderTypeId()
+    '''
 def setOrderTypeId():
-'''public void setOrderTypeId(final Long orderTypeId)
-'''
-pass
+    '''    public void setOrderTypeId(final Long orderTypeId)
+    '''
 def isOrderTypeIdSpecified():
-'''public boolean isOrderTypeIdSpecified()
-'''
-pass
+    '''    public boolean isOrderTypeIdSpecified()
+    '''
 def unsetOrderTypeId():
-'''public void unsetOrderTypeId()
-'''
-pass
+    '''    public void unsetOrderTypeId()
+    '''
 def getPresaleEventId():
-'''public Long getPresaleEventId()
-'''
-pass
+    '''    public Long getPresaleEventId()
+    '''
 def setPresaleEventId():
-'''public void setPresaleEventId(final Long presaleEventId)
-'''
-pass
+    '''    public void setPresaleEventId(final Long presaleEventId)
+    '''
 def isPresaleEventIdSpecified():
-'''public boolean isPresaleEventIdSpecified()
-'''
-pass
+    '''    public boolean isPresaleEventIdSpecified()
+    '''
 def unsetPresaleEventId():
-'''public void unsetPresaleEventId()
-'''
-pass
+    '''    public void unsetPresaleEventId()
+    '''
 def getPrivateCloudOrderFlag():
-'''public Boolean getPrivateCloudOrderFlag()
-'''
-pass
+    '''    public Boolean getPrivateCloudOrderFlag()
+    '''
 def setPrivateCloudOrderFlag():
-'''public void setPrivateCloudOrderFlag(final Boolean privateCloudOrderFlag)
-'''
-pass
+    '''    public void setPrivateCloudOrderFlag(final Boolean privateCloudOrderFlag)
+    '''
 def isPrivateCloudOrderFlagSpecified():
-'''public boolean isPrivateCloudOrderFlagSpecified()
-'''
-pass
+    '''    public boolean isPrivateCloudOrderFlagSpecified()
+    '''
 def unsetPrivateCloudOrderFlag():
-'''public void unsetPrivateCloudOrderFlag()
-'''
-pass
+    '''    public void unsetPrivateCloudOrderFlag()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def isStatusSpecified():
-'''public boolean isStatusSpecified()
-'''
-pass
+    '''    public boolean isStatusSpecified()
+    '''
 def unsetStatus():
-'''public void unsetStatus()
-'''
-pass
+    '''    public void unsetStatus()
+    '''
 def getUserRecordId():
-'''public Long getUserRecordId()
-'''
-pass
+    '''    public Long getUserRecordId()
+    '''
 def setUserRecordId():
-'''public void setUserRecordId(final Long userRecordId)
-'''
-pass
+    '''    public void setUserRecordId(final Long userRecordId)
+    '''
 def isUserRecordIdSpecified():
-'''public boolean isUserRecordIdSpecified()
-'''
-pass
+    '''    public boolean isUserRecordIdSpecified()
+    '''
 def unsetUserRecordId():
-'''public void unsetUserRecordId()
-'''
-pass
+    '''    public void unsetUserRecordId()
+    '''
 def getCoreRestrictedItemCount():
-'''public Long getCoreRestrictedItemCount()
-'''
-pass
+    '''    public Long getCoreRestrictedItemCount()
+    '''
 def setCoreRestrictedItemCount():
-'''public void setCoreRestrictedItemCount(final Long coreRestrictedItemCount)
-'''
-pass
+    '''    public void setCoreRestrictedItemCount(final Long coreRestrictedItemCount)
+    '''
 def getCreditCardTransactionCount():
-'''public Long getCreditCardTransactionCount()
-'''
-pass
+    '''    public Long getCreditCardTransactionCount()
+    '''
 def setCreditCardTransactionCount():
-'''public void setCreditCardTransactionCount(final Long creditCardTransactionCount)
-'''
-pass
+    '''    public void setCreditCardTransactionCount(final Long creditCardTransactionCount)
+    '''
 def getItemCount():
-'''public Long getItemCount()
-'''
-pass
+    '''    public Long getItemCount()
+    '''
 def setItemCount():
-'''public void setItemCount(final Long itemCount)
-'''
-pass
+    '''    public void setItemCount(final Long itemCount)
+    '''
 def getOrderTopLevelItemCount():
-'''public Long getOrderTopLevelItemCount()
-'''
-pass
+    '''    public Long getOrderTopLevelItemCount()
+    '''
 def setOrderTopLevelItemCount():
-'''public void setOrderTopLevelItemCount(final Long orderTopLevelItemCount)
-'''
-pass
+    '''    public void setOrderTopLevelItemCount(final Long orderTopLevelItemCount)
+    '''
 def getPaypalTransactionCount():
-'''public Long getPaypalTransactionCount()
-'''
-pass
+    '''    public Long getPaypalTransactionCount()
+    '''
 def setPaypalTransactionCount():
-'''public void setPaypalTransactionCount(final Long paypalTransactionCount)
-'''
-pass
+    '''    public void setPaypalTransactionCount(final Long paypalTransactionCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def orderApprovalDate():
-'''public Mask orderApprovalDate()
-'''
-pass
+    '''    public Mask orderApprovalDate()
+    '''
 def orderNonServerMonthlyAmount():
-'''public Mask orderNonServerMonthlyAmount()
-'''
-pass
+    '''    public Mask orderNonServerMonthlyAmount()
+    '''
 def orderServerMonthlyAmount():
-'''public Mask orderServerMonthlyAmount()
-'''
-pass
+    '''    public Mask orderServerMonthlyAmount()
+    '''
 def orderTotalAmount():
-'''public Mask orderTotalAmount()
-'''
-pass
+    '''    public Mask orderTotalAmount()
+    '''
 def orderTotalOneTime():
-'''public Mask orderTotalOneTime()
-'''
-pass
+    '''    public Mask orderTotalOneTime()
+    '''
 def orderTotalOneTimeAmount():
-'''public Mask orderTotalOneTimeAmount()
-'''
-pass
+    '''    public Mask orderTotalOneTimeAmount()
+    '''
 def orderTotalOneTimeTaxAmount():
-'''public Mask orderTotalOneTimeTaxAmount()
-'''
-pass
+    '''    public Mask orderTotalOneTimeTaxAmount()
+    '''
 def orderTotalRecurring():
-'''public Mask orderTotalRecurring()
-'''
-pass
+    '''    public Mask orderTotalRecurring()
+    '''
 def orderTotalRecurringAmount():
-'''public Mask orderTotalRecurringAmount()
-'''
-pass
+    '''    public Mask orderTotalRecurringAmount()
+    '''
 def orderTotalRecurringTaxAmount():
-'''public Mask orderTotalRecurringTaxAmount()
-'''
-pass
+    '''    public Mask orderTotalRecurringTaxAmount()
+    '''
 def orderTotalSetupAmount():
-'''public Mask orderTotalSetupAmount()
-'''
-pass
+    '''    public Mask orderTotalSetupAmount()
+    '''
 def upgradeRequestFlag():
-'''public Mask upgradeRequestFlag()
-'''
-pass
+    '''    public Mask upgradeRequestFlag()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def impersonatingUserRecordId():
-'''public Mask impersonatingUserRecordId()
-'''
-pass
+    '''    public Mask impersonatingUserRecordId()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def orderQuoteId():
-'''public Mask orderQuoteId()
-'''
-pass
+    '''    public Mask orderQuoteId()
+    '''
 def orderTypeId():
-'''public Mask orderTypeId()
-'''
-pass
+    '''    public Mask orderTypeId()
+    '''
 def presaleEventId():
-'''public Mask presaleEventId()
-'''
-pass
+    '''    public Mask presaleEventId()
+    '''
 def privateCloudOrderFlag():
-'''public Mask privateCloudOrderFlag()
-'''
-pass
+    '''    public Mask privateCloudOrderFlag()
+    '''
 def status():
-'''public Mask status()
-'''
-pass
+    '''    public Mask status()
+    '''
 def userRecordId():
-'''public Mask userRecordId()
-'''
-pass
+    '''    public Mask userRecordId()
+    '''
 def coreRestrictedItemCount():
-'''public Mask coreRestrictedItemCount()
-'''
-pass
+    '''    public Mask coreRestrictedItemCount()
+    '''
 def creditCardTransactionCount():
-'''public Mask creditCardTransactionCount()
-'''
-pass
+    '''    public Mask creditCardTransactionCount()
+    '''
 def itemCount():
-'''public Mask itemCount()
-'''
-pass
+    '''    public Mask itemCount()
+    '''
 def orderTopLevelItemCount():
-'''public Mask orderTopLevelItemCount()
-'''
-pass
+    '''    public Mask orderTopLevelItemCount()
+    '''
 def paypalTransactionCount():
-'''public Mask paypalTransactionCount()
-'''
-pass
+    '''    public Mask paypalTransactionCount()
+    '''

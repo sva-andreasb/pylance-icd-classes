@@ -1,16 +1,12 @@
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''

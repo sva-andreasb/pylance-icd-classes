@@ -1,264 +1,198 @@
 def getDiskImage():
-'''public Image getDiskImage()
-'''
-pass
+    '''    public Image getDiskImage()
+    '''
 def setDiskImage():
-'''public void setDiskImage(final Image diskImage)
-'''
-pass
+    '''    public void setDiskImage(final Image diskImage)
+    '''
 def getGuest():
-'''public Guest getGuest()
-'''
-pass
+    '''    public Guest getGuest()
+    '''
 def setGuest():
-'''public void setGuest(final Guest guest)
-'''
-pass
+    '''    public void setGuest(final Guest guest)
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final Status status)
-'''
-pass
+    '''    public void setStatus(final Status status)
+    '''
 def getBootableFlag():
-'''public Long getBootableFlag()
-'''
-pass
+    '''    public Long getBootableFlag()
+    '''
 def setBootableFlag():
-'''public void setBootableFlag(final Long bootableFlag)
-'''
-pass
+    '''    public void setBootableFlag(final Long bootableFlag)
+    '''
 def isBootableFlagSpecified():
-'''public boolean isBootableFlagSpecified()
-'''
-pass
+    '''    public boolean isBootableFlagSpecified()
+    '''
 def unsetBootableFlag():
-'''public void unsetBootableFlag()
-'''
-pass
+    '''    public void unsetBootableFlag()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDevice():
-'''public String getDevice()
-'''
-pass
+    '''    public String getDevice()
+    '''
 def setDevice():
-'''public void setDevice(final String device)
-'''
-pass
+    '''    public void setDevice(final String device)
+    '''
 def isDeviceSpecified():
-'''public boolean isDeviceSpecified()
-'''
-pass
+    '''    public boolean isDeviceSpecified()
+    '''
 def unsetDevice():
-'''public void unsetDevice()
-'''
-pass
+    '''    public void unsetDevice()
+    '''
 def getDiskImageId():
-'''public Long getDiskImageId()
-'''
-pass
+    '''    public Long getDiskImageId()
+    '''
 def setDiskImageId():
-'''public void setDiskImageId(final Long diskImageId)
-'''
-pass
+    '''    public void setDiskImageId(final Long diskImageId)
+    '''
 def isDiskImageIdSpecified():
-'''public boolean isDiskImageIdSpecified()
-'''
-pass
+    '''    public boolean isDiskImageIdSpecified()
+    '''
 def unsetDiskImageId():
-'''public void unsetDiskImageId()
-'''
-pass
+    '''    public void unsetDiskImageId()
+    '''
 def getGuestId():
-'''public Long getGuestId()
-'''
-pass
+    '''    public Long getGuestId()
+    '''
 def setGuestId():
-'''public void setGuestId(final Long guestId)
-'''
-pass
+    '''    public void setGuestId(final Long guestId)
+    '''
 def isGuestIdSpecified():
-'''public boolean isGuestIdSpecified()
-'''
-pass
+    '''    public boolean isGuestIdSpecified()
+    '''
 def unsetGuestId():
-'''public void unsetGuestId()
-'''
-pass
+    '''    public void unsetGuestId()
+    '''
 def getHotPlugFlag():
-'''public Long getHotPlugFlag()
-'''
-pass
+    '''    public Long getHotPlugFlag()
+    '''
 def setHotPlugFlag():
-'''public void setHotPlugFlag(final Long hotPlugFlag)
-'''
-pass
+    '''    public void setHotPlugFlag(final Long hotPlugFlag)
+    '''
 def isHotPlugFlagSpecified():
-'''public boolean isHotPlugFlagSpecified()
-'''
-pass
+    '''    public boolean isHotPlugFlagSpecified()
+    '''
 def unsetHotPlugFlag():
-'''public void unsetHotPlugFlag()
-'''
-pass
+    '''    public void unsetHotPlugFlag()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getMountMode():
-'''public String getMountMode()
-'''
-pass
+    '''    public String getMountMode()
+    '''
 def setMountMode():
-'''public void setMountMode(final String mountMode)
-'''
-pass
+    '''    public void setMountMode(final String mountMode)
+    '''
 def isMountModeSpecified():
-'''public boolean isMountModeSpecified()
-'''
-pass
+    '''    public boolean isMountModeSpecified()
+    '''
 def unsetMountMode():
-'''public void unsetMountMode()
-'''
-pass
+    '''    public void unsetMountMode()
+    '''
 def getMountType():
-'''public String getMountType()
-'''
-pass
+    '''    public String getMountType()
+    '''
 def setMountType():
-'''public void setMountType(final String mountType)
-'''
-pass
+    '''    public void setMountType(final String mountType)
+    '''
 def isMountTypeSpecified():
-'''public boolean isMountTypeSpecified()
-'''
-pass
+    '''    public boolean isMountTypeSpecified()
+    '''
 def unsetMountType():
-'''public void unsetMountType()
-'''
-pass
+    '''    public void unsetMountType()
+    '''
 def getStatusId():
-'''public Long getStatusId()
-'''
-pass
+    '''    public Long getStatusId()
+    '''
 def setStatusId():
-'''public void setStatusId(final Long statusId)
-'''
-pass
+    '''    public void setStatusId(final Long statusId)
+    '''
 def isStatusIdSpecified():
-'''public boolean isStatusIdSpecified()
-'''
-pass
+    '''    public boolean isStatusIdSpecified()
+    '''
 def unsetStatusId():
-'''public void unsetStatusId()
-'''
-pass
+    '''    public void unsetStatusId()
+    '''
 def getUuid():
-'''public String getUuid()
-'''
-pass
+    '''    public String getUuid()
+    '''
 def setUuid():
-'''public void setUuid(final String uuid)
-'''
-pass
+    '''    public void setUuid(final String uuid)
+    '''
 def isUuidSpecified():
-'''public boolean isUuidSpecified()
-'''
-pass
+    '''    public boolean isUuidSpecified()
+    '''
 def unsetUuid():
-'''public void unsetUuid()
-'''
-pass
+    '''    public void unsetUuid()
+    '''
 def bootableFlag():
-'''public Mask bootableFlag()
-'''
-pass
+    '''    public Mask bootableFlag()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def device():
-'''public Mask device()
-'''
-pass
+    '''    public Mask device()
+    '''
 def diskImageId():
-'''public Mask diskImageId()
-'''
-pass
+    '''    public Mask diskImageId()
+    '''
 def guestId():
-'''public Mask guestId()
-'''
-pass
+    '''    public Mask guestId()
+    '''
 def hotPlugFlag():
-'''public Mask hotPlugFlag()
-'''
-pass
+    '''    public Mask hotPlugFlag()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def mountMode():
-'''public Mask mountMode()
-'''
-pass
+    '''    public Mask mountMode()
+    '''
 def mountType():
-'''public Mask mountType()
-'''
-pass
+    '''    public Mask mountType()
+    '''
 def statusId():
-'''public Mask statusId()
-'''
-pass
+    '''    public Mask statusId()
+    '''
 def uuid():
-'''public Mask uuid()
-'''
-pass
+    '''    public Mask uuid()
+    '''

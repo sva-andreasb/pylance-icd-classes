@@ -1,24 +1,18 @@
 def WogenForecastSet():
-'''public WogenForecastSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WogenForecastSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def getMbo():
-'''public MboRemote getMbo(final int index)
-'''
-pass
+    '''    public MboRemote getMbo(final int index)
+    '''
 def getMboTest():
-'''public MboRemote getMboTest(final int index)
-'''
-pass
+    '''    public MboRemote getMboTest(final int index)
+    '''
 def dispose():
-'''public void dispose()
-'''
-pass
+    '''    public void dispose()
+    '''
 def count():
-'''public int count()
-'''
-pass
+    '''    public int count()
+    '''

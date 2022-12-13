@@ -1,24 +1,18 @@
 def ConstantInitializer():
-'''public ConstantInitializer(final T obj)
-'''
-pass
+    '''    public ConstantInitializer(final T obj)
+    '''
 def getObject():
-'''public final T getObject()
-'''
-pass
+    '''    public final T getObject()
+    '''
 def get():
-'''public T get()
-'''
-pass
+    '''    public T get()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

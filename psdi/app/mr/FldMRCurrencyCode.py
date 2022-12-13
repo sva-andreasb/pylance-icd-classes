@@ -1,8 +1,6 @@
 def FldMRCurrencyCode():
-'''public FldMRCurrencyCode(final MboValue mbv)
-'''
-pass
+    '''    public FldMRCurrencyCode(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,63 +1,48 @@
 def setOwningTarget():
-'''public void setOwningTarget(final Target target)
-'''
-pass
+    '''    public void setOwningTarget(final Target target)
+    '''
 def getOwningTarget():
-'''public Target getOwningTarget()
-'''
-pass
+    '''    public Target getOwningTarget()
+    '''
 def setTaskName():
-'''public void setTaskName(final String name)
-'''
-pass
+    '''    public void setTaskName(final String name)
+    '''
 def getTaskName():
-'''public String getTaskName()
-'''
-pass
+    '''    public String getTaskName()
+    '''
 def setTaskType():
-'''public void setTaskType(final String type)
-'''
-pass
+    '''    public void setTaskType(final String type)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def getRuntimeConfigurableWrapper():
-'''public RuntimeConfigurable getRuntimeConfigurableWrapper()
-'''
-pass
+    '''    public RuntimeConfigurable getRuntimeConfigurableWrapper()
+    '''
 def setRuntimeConfigurableWrapper():
-'''public void setRuntimeConfigurableWrapper(final RuntimeConfigurable wrapper)
-'''
-pass
+    '''    public void setRuntimeConfigurableWrapper(final RuntimeConfigurable wrapper)
+    '''
 def maybeConfigure():
-'''public void maybeConfigure()
-'''
-pass
+    '''    public void maybeConfigure()
+    '''
 def reconfigure():
-'''public void reconfigure()
-'''
-pass
+    '''    public void reconfigure()
+    '''
 def log():
-'''public void log(final String msg)
-public void log(final String msg, final int msgLevel)
-public void log(final Throwable t, final int msgLevel)
-public void log(final String msg, final Throwable t, final int msgLevel)
-'''
-pass
+    '''    public void log(final String msg)
+    public void log(final String msg, final int msgLevel)
+    public void log(final Throwable t, final int msgLevel)
+    public void log(final String msg, final Throwable t, final int msgLevel)
+    '''
 def perform():
-'''public final void perform()
-'''
-pass
+    '''    public final void perform()
+    '''
 def getTaskType():
-'''public String getTaskType()
-'''
-pass
+    '''    public String getTaskType()
+    '''
 def bindToOwner():
-'''public final void bindToOwner(final Task owner)
-'''
-pass
+    '''    public final void bindToOwner(final Task owner)
+    '''

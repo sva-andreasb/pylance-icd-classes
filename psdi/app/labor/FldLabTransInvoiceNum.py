@@ -1,8 +1,6 @@
 def FldLabTransInvoiceNum():
-'''public FldLabTransInvoiceNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLabTransInvoiceNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

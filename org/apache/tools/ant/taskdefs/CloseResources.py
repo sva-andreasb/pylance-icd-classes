@@ -1,12 +1,9 @@
 def CloseResources():
-'''public CloseResources()
-'''
-pass
+    '''    public CloseResources()
+    '''
 def add():
-'''public void add(final ResourceCollection rc)
-'''
-pass
+    '''    public void add(final ResourceCollection rc)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

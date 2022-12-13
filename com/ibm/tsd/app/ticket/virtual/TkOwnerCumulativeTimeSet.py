@@ -1,64 +1,48 @@
 def TkOwnerCumulativeTimeSet():
-'''public TkOwnerCumulativeTimeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TkOwnerCumulativeTimeSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def compare():
-'''public int compare(final OwnershipInformationHolder o1, final OwnershipInformationHolder o2)
-'''
-pass
+    '''    public int compare(final OwnershipInformationHolder o1, final OwnershipInformationHolder o2)
+    '''
 def fromStatusHistory():
-'''public static OwnershipInformationHolder fromStatusHistory(final PmTKStatusRemote statusHistory)
-'''
-pass
+    '''    public static OwnershipInformationHolder fromStatusHistory(final PmTKStatusRemote statusHistory)
+    '''
 def fromAssingedOwnerGroupTicketStatus():
-'''public static OwnershipInformationHolder fromAssingedOwnerGroupTicketStatus(final PmTKStatusRemote statusHistory)
-'''
-pass
+    '''    public static OwnershipInformationHolder fromAssingedOwnerGroupTicketStatus(final PmTKStatusRemote statusHistory)
+    '''
 def getCumulativeTime():
-'''public Long getCumulativeTime()
-'''
-pass
+    '''    public Long getCumulativeTime()
+    '''
 def addCumulativeTime():
-'''public void addCumulativeTime(final Long cumulativeTime)
-'''
-pass
+    '''    public void addCumulativeTime(final Long cumulativeTime)
+    '''
 def getOwner():
-'''public String getOwner()
-'''
-pass
+    '''    public String getOwner()
+    '''
 def setOwner():
-'''public void setOwner(final String owner)
-'''
-pass
+    '''    public void setOwner(final String owner)
+    '''
 def getOwnergroup():
-'''public String getOwnergroup()
-'''
-pass
+    '''    public String getOwnergroup()
+    '''
 def setOwnergroup():
-'''public void setOwnergroup(final String ownergroup)
-'''
-pass
+    '''    public void setOwnergroup(final String ownergroup)
+    '''
 def getAssignedOwnerGroup():
-'''public String getAssignedOwnerGroup()
-'''
-pass
+    '''    public String getAssignedOwnerGroup()
+    '''
 def SetAssignedOwnerGroup():
-'''public void SetAssignedOwnerGroup(final String aOwnerGroup)
-'''
-pass
+    '''    public void SetAssignedOwnerGroup(final String aOwnerGroup)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

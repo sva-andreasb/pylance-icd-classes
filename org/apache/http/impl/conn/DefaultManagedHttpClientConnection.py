@@ -1,37 +1,28 @@
 def DefaultManagedHttpClientConnection():
-'''public DefaultManagedHttpClientConnection(final String id, final int buffersize, final int fragmentSizeHint, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
-public DefaultManagedHttpClientConnection(final String id, final int buffersize)
-'''
-pass
+    '''    public DefaultManagedHttpClientConnection(final String id, final int buffersize, final int fragmentSizeHint, final CharsetDecoder chardecoder, final CharsetEncoder charencoder, final MessageConstraints constraints, final ContentLengthStrategy incomingContentStrategy, final ContentLengthStrategy outgoingContentStrategy, final HttpMessageWriterFactory<HttpRequest> requestWriterFactory, final HttpMessageParserFactory<HttpResponse> responseParserFactory)
+    public DefaultManagedHttpClientConnection(final String id, final int buffersize)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def getAttribute():
-'''public Object getAttribute(final String id)
-'''
-pass
+    '''    public Object getAttribute(final String id)
+    '''
 def removeAttribute():
-'''public Object removeAttribute(final String id)
-'''
-pass
+    '''    public Object removeAttribute(final String id)
+    '''
 def setAttribute():
-'''public void setAttribute(final String id, final Object obj)
-'''
-pass
+    '''    public void setAttribute(final String id, final Object obj)
+    '''
 def bind():
-'''public void bind(final Socket socket)
-'''
-pass
+    '''    public void bind(final Socket socket)
+    '''
 def getSocket():
-'''public Socket getSocket()
-'''
-pass
+    '''    public Socket getSocket()
+    '''
 def getSSLSession():
-'''public SSLSession getSSLSession()
-'''
-pass
+    '''    public SSLSession getSSLSession()
+    '''

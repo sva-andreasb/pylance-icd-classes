@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def parseStatus():
-'''public String[] parseStatus(final String status)
-'''
-pass
+    '''    public String[] parseStatus(final String status)
+    '''

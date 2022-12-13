@@ -1,8 +1,6 @@
 def IUSHR():
-'''public IUSHR()
-'''
-pass
+    '''    public IUSHR()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

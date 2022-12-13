@@ -1,25 +1,19 @@
 def StateMatrix():
-'''public StateMatrix()
-public StateMatrix(final int[] array, final int[] array2, final int[] array3)
-'''
-pass
+    '''    public StateMatrix()
+    public StateMatrix(final int[] array, final int[] array2, final int[] array3)
+    '''
 def add():
-'''public void add(final int[] array, final int[] array2, final int[] array3)
-'''
-pass
+    '''    public void add(final int[] array, final int[] array2, final int[] array3)
+    '''
 def get():
-'''public StateArray get(final int n)
-'''
-pass
+    '''    public StateArray get(final int n)
+    '''
 def getAll():
-'''public StateArray[] getAll()
-'''
-pass
+    '''    public StateArray[] getAll()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

@@ -1,48 +1,36 @@
 def Section():
-'''public Section()
-'''
-pass
+    '''    public Section()
+    '''
 def canInsert():
-'''public boolean canInsert(final ControlInstance newControl)
-'''
-pass
+    '''    public boolean canInsert(final ControlInstance newControl)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def toggleexpand():
-'''public void toggleexpand()
-'''
-pass
+    '''    public void toggleexpand()
+    '''
 def isExpanded():
-'''public String isExpanded()
-'''
-pass
+    '''    public String isExpanded()
+    '''
 def hasExpandedChanged():
-'''public boolean hasExpandedChanged()
-'''
-pass
+    '''    public boolean hasExpandedChanged()
+    '''
 def setExpandedChanged():
-'''public void setExpandedChanged(final boolean changed)
-'''
-pass
+    '''    public void setExpandedChanged(final boolean changed)
+    '''
 def setDesignerSelected():
-'''public ControlInstance setDesignerSelected(final boolean selected)
-'''
-pass
+    '''    public ControlInstance setDesignerSelected(final boolean selected)
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def setOutertId():
-'''public void setOutertId(final String id)
-'''
-pass
+    '''    public void setOutertId(final String id)
+    '''
 def getOuterId():
-'''public String getOuterId()
-'''
-pass
+    '''    public String getOuterId()
+    '''
 def childHasErrorFocus():
-'''public void childHasErrorFocus()
-'''
-pass
+    '''    public void childHasErrorFocus()
+    '''

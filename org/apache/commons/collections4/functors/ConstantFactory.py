@@ -1,16 +1,12 @@
 def constantFactory():
-'''public static <T> Factory<T> constantFactory(final T constantToReturn)
-'''
-pass
+    '''    public static <T> Factory<T> constantFactory(final T constantToReturn)
+    '''
 def ConstantFactory():
-'''public ConstantFactory(final T constantToReturn)
-'''
-pass
+    '''    public ConstantFactory(final T constantToReturn)
+    '''
 def create():
-'''public T create()
-'''
-pass
+    '''    public T create()
+    '''
 def getConstant():
-'''public T getConstant()
-'''
-pass
+    '''    public T getConstant()
+    '''

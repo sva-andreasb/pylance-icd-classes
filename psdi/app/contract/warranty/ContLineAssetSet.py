@@ -1,4 +1,3 @@
 def ContLineAssetSet():
-'''public ContLineAssetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContLineAssetSet(final MboServerInterface ms)
+    '''

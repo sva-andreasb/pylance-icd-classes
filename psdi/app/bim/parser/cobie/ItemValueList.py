@@ -1,16 +1,12 @@
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def values():
-'''public Iterator<String> values()
-'''
-pass
+    '''    public Iterator<String> values()
+    '''
 def match():
-'''public boolean match(final HashSet<String> valueSet)
-'''
-pass
+    '''    public boolean match(final HashSet<String> valueSet)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

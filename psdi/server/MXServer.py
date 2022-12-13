@@ -1,712 +1,543 @@
 serverTimeStampUpdateRate = "int  60"
-HTML_CONTENT = "String  text/html""
-TEXT_CONTENT = "String  text/plain""
-MTENABLEDPROPERTY = "String  mxe.mt.enabled""
-REQ_PARAM_S2STOKEN = "String  s2stoken""
-API_KEY = "String  apikey""
+HTML_CONTENT = "String  \"text/html\""
+TEXT_CONTENT = "String  \"text/plain\""
+MTENABLEDPROPERTY = "String  \"mxe.mt.enabled\""
+REQ_PARAM_S2STOKEN = "String  \"s2stoken\""
+API_KEY = "String  \"apikey\""
 def getMXServer():
-'''public static MXServer getMXServer()
-'''
-pass
+    '''    public static MXServer getMXServer()
+    '''
 def getUID():
-'''public static synchronized Object getUID()
-'''
-pass
+    '''    public static synchronized Object getUID()
+    '''
 def getMaxSessionID():
-'''public static synchronized long getMaxSessionID()
-'''
-pass
+    '''    public static synchronized long getMaxSessionID()
+    '''
 def getGuid():
-'''public UUID getGuid()
-'''
-pass
+    '''    public UUID getGuid()
+    '''
 def getServerHost():
-'''public String getServerHost()
-'''
-pass
+    '''    public String getServerHost()
+    '''
 def setServerHost():
-'''public void setServerHost(final String address)
-'''
-pass
+    '''    public void setServerHost(final String address)
+    '''
 def addToMaximoCache():
-'''public void addToMaximoCache(final String name, final MaximoCache obj)
-'''
-pass
+    '''    public void addToMaximoCache(final String name, final MaximoCache obj)
+    '''
 def removeFromMaximoCache():
-'''public void removeFromMaximoCache(final String name)
-'''
-pass
+    '''    public void removeFromMaximoCache(final String name)
+    '''
 def getFromMaximoCache():
-'''public Object getFromMaximoCache(final String name)
-'''
-pass
+    '''    public Object getFromMaximoCache(final String name)
+    '''
 def reloadMaximoCache():
-'''public void reloadMaximoCache(final boolean flag)
-public void reloadMaximoCache(final String cacheName, final boolean updateAllServers)
-public void reloadMaximoCache(final String cacheName, final String key, final boolean flag)
-'''
-pass
+    '''    public void reloadMaximoCache(final boolean flag)
+    public void reloadMaximoCache(final String cacheName, final boolean updateAllServers)
+    public void reloadMaximoCache(final String cacheName, final String key, final boolean flag)
+    '''
 def unloadTenantCache():
-'''public void unloadTenantCache()
-public void unloadTenantCache(final String cacheName)
-'''
-pass
+    '''    public void unloadTenantCache()
+    public void unloadTenantCache(final String cacheName)
+    '''
 def unloadInactiveCaches():
-'''public void unloadInactiveCaches(final long interval)
-'''
-pass
+    '''    public void unloadInactiveCaches(final long interval)
+    '''
 def getLoadedTenants():
-'''public Map<String, Set<String>> getLoadedTenants()
-public Set<String> getLoadedTenants(final String cacheName)
-'''
-pass
+    '''    public Map<String, Set<String>> getLoadedTenants()
+    public Set<String> getLoadedTenants(final String cacheName)
+    '''
 def reloadAdminModeByThread():
-'''public void reloadAdminModeByThread(final String key, final MboRemote listenerMbo)
-'''
-pass
+    '''    public void reloadAdminModeByThread(final String key, final MboRemote listenerMbo)
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def getValidApps():
-'''public HashSet getValidApps()
-'''
-pass
+    '''    public HashSet getValidApps()
+    '''
 def isValidApp():
-'''public boolean isValidApp(final String app)
-'''
-pass
+    '''    public boolean isValidApp(final String app)
+    '''
 def addApp():
-'''public void addApp(final String app)
-'''
-pass
+    '''    public void addApp(final String app)
+    '''
 def removeApp():
-'''public void removeApp(final String app)
-'''
-pass
+    '''    public void removeApp(final String app)
+    '''
 def getLicenseKeys():
-'''public HashSet getLicenseKeys()
-'''
-pass
+    '''    public HashSet getLicenseKeys()
+    '''
 def isReadOnlyApp():
-'''public boolean isReadOnlyApp(final String app)
-'''
-pass
+    '''    public boolean isReadOnlyApp(final String app)
+    '''
 def getSystemType():
-'''public String getSystemType()
-'''
-pass
+    '''    public String getSystemType()
+    '''
 def isPermanentLicense():
-'''public boolean isPermanentLicense()
-'''
-pass
+    '''    public boolean isPermanentLicense()
+    '''
 def getProductKeys():
-'''public HashSet getProductKeys()
-'''
-pass
+    '''    public HashSet getProductKeys()
+    '''
 def getEvalDaysRemaining():
-'''public int getEvalDaysRemaining()
-'''
-pass
+    '''    public int getEvalDaysRemaining()
+    '''
 def getBranding():
-'''public int getBranding()
-'''
-pass
+    '''    public int getBranding()
+    '''
 def getPackagingInfo():
-'''public void getPackagingInfo(final UserInfo ui)
-'''
-pass
+    '''    public void getPackagingInfo(final UserInfo ui)
+    '''
 def getMaxupgValue():
-'''public String getMaxupgValue()
-'''
-pass
+    '''    public String getMaxupgValue()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name, final UserInfo user)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name, final UserInfo user)
+    '''
 def init():
-'''public void init(final Connection sysCon)
-'''
-pass
+    '''    public void init(final Connection sysCon)
+    '''
 def getEventTopicTree():
-'''public static EventTopicTree getEventTopicTree()
-'''
-pass
+    '''    public static EventTopicTree getEventTopicTree()
+    '''
 def getEventTopicsCache():
-'''public static Map getEventTopicsCache()
-'''
-pass
+    '''    public static Map getEventTopicsCache()
+    '''
 def getGlobalEventTopicsCache():
-'''public static Map getGlobalEventTopicsCache()
-'''
-pass
+    '''    public static Map getGlobalEventTopicsCache()
+    '''
 def getMaximoCacheNames():
-'''public Set<String> getMaximoCacheNames()
-'''
-pass
+    '''    public Set<String> getMaximoCacheNames()
+    '''
 def run():
-'''public void run()
-public void run()
-public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public void run()
+    public void run()
+    '''
 def getDBManager():
-'''public DBManager getDBManager()
-'''
-pass
+    '''    public DBManager getDBManager()
+    '''
 def getCronTaskManager():
-'''public CronTaskManager getCronTaskManager()
-'''
-pass
+    '''    public CronTaskManager getCronTaskManager()
+    '''
 def getNewCronTaskManager():
-'''public CronTaskManager getNewCronTaskManager()
-'''
-pass
+    '''    public CronTaskManager getNewCronTaskManager()
+    '''
 def isAdminModeOn():
-'''public boolean isAdminModeOn(final boolean allInstances)
-'''
-pass
+    '''    public boolean isAdminModeOn(final boolean allInstances)
+    '''
 def isAdminModeOff():
-'''public boolean isAdminModeOff(final boolean allInstances)
-'''
-pass
+    '''    public boolean isAdminModeOff(final boolean allInstances)
+    '''
 def isAdminModePending():
-'''public boolean isAdminModePending()
-'''
-pass
+    '''    public boolean isAdminModePending()
+    '''
 def listenToAdmin():
-'''public void listenToAdmin(final MboRemote listenerMbo, final boolean listen)
-'''
-pass
+    '''    public void listenToAdmin(final MboRemote listenerMbo, final boolean listen)
+    '''
 def getMaximoDD():
-'''public MaximoDD getMaximoDD()
-'''
-pass
+    '''    public MaximoDD getMaximoDD()
+    '''
 def getMaximoMLDD():
-'''public MaximoMLDD getMaximoMLDD()
-'''
-pass
+    '''    public MaximoMLDD getMaximoMLDD()
+    '''
 def getMaxMessageCache():
-'''public MaxMessageCache getMaxMessageCache()
-'''
-pass
+    '''    public MaxMessageCache getMaxMessageCache()
+    '''
 def getAutoKeyCache():
-'''public AutoKeyCache getAutoKeyCache()
-'''
-pass
+    '''    public AutoKeyCache getAutoKeyCache()
+    '''
 def getAppServiceNames():
-'''public String[] getAppServiceNames()
-'''
-pass
+    '''    public String[] getAppServiceNames()
+    '''
 def lookup():
-'''public ServiceRemote lookup(final String name)
-public ServiceRemote lookup(final String name, final UserInfo ui)
-'''
-pass
+    '''    public ServiceRemote lookup(final String name)
+    public ServiceRemote lookup(final String name, final UserInfo ui)
+    '''
 def lookupLocal():
-'''public ServiceRemote lookupLocal(final String name)
-'''
-pass
+    '''    public ServiceRemote lookupLocal(final String name)
+    '''
 def getLocalAppList():
-'''public String[] getLocalAppList()
-'''
-pass
+    '''    public String[] getLocalAppList()
+    '''
 def getSrvComm():
-'''public SrvCommRemote getSrvComm(final String name, final String passwd)
-'''
-pass
+    '''    public SrvCommRemote getSrvComm(final String name, final String passwd)
+    '''
 def getRemoteUsers():
-'''public Hashtable getRemoteUsers()
-'''
-pass
+    '''    public Hashtable getRemoteUsers()
+    '''
 def getDate():
-'''public Date getDate()
-public Date getDate(final Locale l, final TimeZone tz)
-'''
-pass
+    '''    public Date getDate()
+    public Date getDate(final Locale l, final TimeZone tz)
+    '''
 def isRMIEnabled():
-'''public static boolean isRMIEnabled()
-'''
-pass
+    '''    public static boolean isRMIEnabled()
+    '''
 def start():
-'''public static void start(final Properties propsFromFile)
-'''
-pass
+    '''    public static void start(final Properties propsFromFile)
+    '''
 def isMTEnabled():
-'''public static boolean isMTEnabled()
-'''
-pass
+    '''    public static boolean isMTEnabled()
+    '''
 def isBotcInstalled():
-'''public static boolean isBotcInstalled()
-'''
-pass
+    '''    public static boolean isBotcInstalled()
+    '''
 def isInlineThreadLog():
-'''public static boolean isInlineThreadLog()
-'''
-pass
+    '''    public static boolean isInlineThreadLog()
+    '''
 def useClassicMaximo():
-'''public static boolean useClassicMaximo()
-'''
-pass
+    '''    public static boolean useClassicMaximo()
+    '''
 def hasFeatureToggle():
-'''public static boolean hasFeatureToggle()
-'''
-pass
+    '''    public static boolean hasFeatureToggle()
+    '''
 def setTenantRegContext():
-'''public static void setTenantRegContext(final Integer tenantID)
-'''
-pass
+    '''    public static void setTenantRegContext(final Integer tenantID)
+    '''
 def isTenantRegContext():
-'''public static boolean isTenantRegContext()
-'''
-pass
+    '''    public static boolean isTenantRegContext()
+    '''
 def setTenantContext():
-'''public static void setTenantContext(final UserInfo ui)
-public static int setTenantContext(final UserInfo ui, final int tenantID)
-'''
-pass
+    '''    public static void setTenantContext(final UserInfo ui)
+    public static int setTenantContext(final UserInfo ui, final int tenantID)
+    '''
 def clearTenantContext():
-'''public static void clearTenantContext()
-'''
-pass
+    '''    public static void clearTenantContext()
+    '''
 def getTenantContext():
-'''public static int getTenantContext()
-public static int getTenantContext(final boolean tenantNotSetCheck)
-'''
-pass
+    '''    public static int getTenantContext()
+    public static int getTenantContext(final boolean tenantNotSetCheck)
+    '''
 def isMasterContext():
-'''public static boolean isMasterContext()
-'''
-pass
+    '''    public static boolean isMasterContext()
+    '''
 def removeMaxSessionEntriesDeadForAnHour():
-'''public void removeMaxSessionEntriesDeadForAnHour(final Connection con)
-'''
-pass
+    '''    public void removeMaxSessionEntriesDeadForAnHour(final Connection con)
+    '''
 def retryAsyncTask():
-'''public void retryAsyncTask(final Connection con, final String serverName, final String serverHost)
-'''
-pass
+    '''    public void retryAsyncTask(final Connection con, final String serverName, final String serverHost)
+    '''
 def getMAXUPGValue():
-'''public String getMAXUPGValue(final Connection con, final String name)
-'''
-pass
+    '''    public String getMAXUPGValue(final Connection con, final String name)
+    '''
 def needToRunUpdateDB():
-'''public void needToRunUpdateDB(final String product, final String maxupg, final String newRelDBVersion, final String lastRelDBVersion, final String varName, final boolean checkHF)
-'''
-pass
+    '''    public void needToRunUpdateDB(final String product, final String maxupg, final String newRelDBVersion, final String lastRelDBVersion, final String varName, final boolean checkHF)
+    '''
 def getConfig():
-'''public Properties getConfig()
-public Properties getConfig(final UserInfo userInfo)
-'''
-pass
+    '''    public Properties getConfig()
+    public Properties getConfig(final UserInfo userInfo)
+    '''
 def getProperty():
-'''public String getProperty(final String propName)
-public String getProperty(final String propName, final boolean checkExists)
-public String getProperty(final String propName, final UserInfo userInfo)
-public String getProperty(final String propName, final String lang)
-public String getProperty(final String propName, final String lang, final UserInfo userInfo)
-'''
-pass
+    '''    public String getProperty(final String propName)
+    public String getProperty(final String propName, final boolean checkExists)
+    public String getProperty(final String propName, final UserInfo userInfo)
+    public String getProperty(final String propName, final String lang)
+    public String getProperty(final String propName, final String lang, final UserInfo userInfo)
+    '''
 def getPublicProperty():
-'''public String getPublicProperty(final String propName)
-public String getPublicProperty(final String propName, final String lang)
-'''
-pass
+    '''    public String getPublicProperty(final String propName)
+    public String getPublicProperty(final String propName, final String lang)
+    '''
 def getSystemUserInfo():
-'''public UserInfo getSystemUserInfo()
-'''
-pass
+    '''    public UserInfo getSystemUserInfo()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo(final String userIdentity)
-'''
-pass
+    '''    public UserInfo getUserInfo(final String userIdentity)
+    '''
 def enableService():
-'''public void enableService(final String svc)
-'''
-pass
+    '''    public void enableService(final String svc)
+    '''
 def disableService():
-'''public void disableService(final String svc)
-'''
-pass
+    '''    public void disableService(final String svc)
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def getRegistryHostName():
-'''public String getRegistryHostName()
-'''
-pass
+    '''    public String getRegistryHostName()
+    '''
 def getRegistryPort():
-'''public String getRegistryPort()
-'''
-pass
+    '''    public String getRegistryPort()
+    '''
 def getMXServerInfo():
-'''public MXServerInfo getMXServerInfo()
-'''
-pass
+    '''    public MXServerInfo getMXServerInfo()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def validateS2stokenConfigValue():
-'''public void validateS2stokenConfigValue()
-'''
-pass
+    '''    public void validateS2stokenConfigValue()
+    '''
 def validateThisApiKeyConfigValue():
-'''public String validateThisApiKeyConfigValue(final String apiKey)
-'''
-pass
+    '''    public String validateThisApiKeyConfigValue(final String apiKey)
+    '''
 def resolveApiKey():
-'''public String resolveApiKey(final String apikey)
-'''
-pass
+    '''    public String resolveApiKey(final String apikey)
+    '''
 def validateApiKeyConfigValue():
-'''public String validateApiKeyConfigValue()
-'''
-pass
+    '''    public String validateApiKeyConfigValue()
+    '''
 def isLocal():
-'''public boolean isLocal(final String serviceUrl)
-'''
-pass
+    '''    public boolean isLocal(final String serviceUrl)
+    '''
 def createMXTransaction():
-'''public MXTransaction createMXTransaction()
-'''
-pass
+    '''    public MXTransaction createMXTransaction()
+    '''
 def getBulletinBoard():
-'''public static BulletinBoardServiceRemote getBulletinBoard()
-'''
-pass
+    '''    public static BulletinBoardServiceRemote getBulletinBoard()
+    '''
 def sendEMail():
-'''public static void sendEMail(final String to, final String from, final String subject, final Throwable t)
-public static void sendEMail(final String to, final String from, final String subject, final String message)
-public static void sendEMail(final String to, final String from, final String subject, final String message, final String attachment, final String filename)
-public static void sendEMail(final String[] to, final String from, final String subject, final Throwable t)
-public static void sendEMail(final String[] to, final String from, final String subject, final String message)
-public static void sendEMail(final String[] to, final String from, String subject, String message, final String attachment, final String filename)
-public static void sendEMail(final String to, final String cc, final String bcc, final String from, final String subject, final String message, final String ReplyTo, final String[] fileName, final String[] urlName)
-public static void sendEMail(final String to, final String cc, final String bcc, final String from, String subject, String message, final String ReplyTo, final String[] fileName, final String[] urlName, final Properties overrideProps)
-'''
-pass
+    '''    public static void sendEMail(final String to, final String from, final String subject, final Throwable t)
+    public static void sendEMail(final String to, final String from, final String subject, final String message)
+    public static void sendEMail(final String to, final String from, final String subject, final String message, final String attachment, final String filename)
+    public static void sendEMail(final String[] to, final String from, final String subject, final Throwable t)
+    public static void sendEMail(final String[] to, final String from, final String subject, final String message)
+    public static void sendEMail(final String[] to, final String from, String subject, String message, final String attachment, final String filename)
+    public static void sendEMail(final String to, final String cc, final String bcc, final String from, final String subject, final String message, final String ReplyTo, final String[] fileName, final String[] urlName)
+    public static void sendEMail(final String to, final String cc, final String bcc, final String from, String subject, String message, final String ReplyTo, final String[] fileName, final String[] urlName, final Properties overrideProps)
+    '''
 def getSystemProperties():
-'''public Properties getSystemProperties()
-'''
-pass
+    '''    public Properties getSystemProperties()
+    '''
 def getDatabaseProductName():
-'''public String getDatabaseProductName()
-'''
-pass
+    '''    public String getDatabaseProductName()
+    '''
 def getDatabaseProductSimpleVersion():
-'''public String getDatabaseProductSimpleVersion()
-'''
-pass
+    '''    public String getDatabaseProductSimpleVersion()
+    '''
 def getDatabaseProductVersion():
-'''public String getDatabaseProductVersion()
-'''
-pass
+    '''    public String getDatabaseProductVersion()
+    '''
 def getDBPlatform():
-'''public int getDBPlatform()
-'''
-pass
+    '''    public int getDBPlatform()
+    '''
 def getDBConnUsed():
-'''public int getDBConnUsed()
-'''
-pass
+    '''    public int getDBConnUsed()
+    '''
 def getFreeMemory():
-'''public String[] getFreeMemory()
-'''
-pass
+    '''    public String[] getFreeMemory()
+    '''
 def getUserLicenseKey():
-'''public String getUserLicenseKey()
-'''
-pass
+    '''    public String getUserLicenseKey()
+    '''
 def getAppServerNameandVersion():
-'''public String getAppServerNameandVersion()
-'''
-pass
+    '''    public String getAppServerNameandVersion()
+    '''
 def getMEAServerVersion():
-'''public ArrayList getMEAServerVersion()
-'''
-pass
+    '''    public ArrayList getMEAServerVersion()
+    '''
 def getMXServerVersion():
-'''public String[] getMXServerVersion()
-'''
-pass
+    '''    public String[] getMXServerVersion()
+    '''
 def isValidSite():
-'''public boolean isValidSite(final String siteId)
-'''
-pass
+    '''    public boolean isValidSite(final String siteId)
+    '''
 def isValidOrganization():
-'''public boolean isValidOrganization(final String orgId)
-'''
-pass
+    '''    public boolean isValidOrganization(final String orgId)
+    '''
 def isSiteInOrganization():
-'''public boolean isSiteInOrganization(final String siteId, final String orgId)
-'''
-pass
+    '''    public boolean isSiteInOrganization(final String siteId, final String orgId)
+    '''
 def getOrganization():
-'''public String getOrganization(final String siteId)
-'''
-pass
+    '''    public String getOrganization(final String siteId)
+    '''
 def isMxserverStarted():
-'''public boolean isMxserverStarted()
-'''
-pass
+    '''    public boolean isMxserverStarted()
+    '''
 def checkAdminRestart():
-'''public void checkAdminRestart()
-'''
-pass
+    '''    public void checkAdminRestart()
+    '''
 def checkFailedTenants():
-'''public void checkFailedTenants()
-'''
-pass
+    '''    public void checkFailedTenants()
+    '''
 def getMXCipher():
-'''public MXCipher getMXCipher()
-'''
-pass
+    '''    public MXCipher getMXCipher()
+    '''
 def encData():
-'''public byte[] encData(final String in, final int type)
-'''
-pass
+    '''    public byte[] encData(final String in, final int type)
+    '''
 def getMXCipherX():
-'''public MXCipherX getMXCipherX()
-'''
-pass
+    '''    public MXCipherX getMXCipherX()
+    '''
 def getNativeSql():
-'''public String getNativeSql(final String jdbcSql)
-'''
-pass
+    '''    public String getNativeSql(final String jdbcSql)
+    '''
 def getBulletin():
-'''public UserInputBulletin getBulletin()
-'''
-pass
+    '''    public UserInputBulletin getBulletin()
+    '''
 def postUserInput():
-'''public void postUserInput(final String id, final Object value, final UserInfo ui)
-'''
-pass
+    '''    public void postUserInput(final String id, final Object value, final UserInfo ui)
+    '''
 def getUserInput():
-'''public Object getUserInput(final String id, final UserInfo ui)
-'''
-pass
+    '''    public Object getUserInput(final String id, final UserInfo ui)
+    '''
 def removeUserInput():
-'''public void removeUserInput(final String id, final UserInfo ui)
-'''
-pass
+    '''    public void removeUserInput(final String id, final UserInfo ui)
+    '''
 def clearUserInput():
-'''public void clearUserInput(final UserInfo ui)
-'''
-pass
+    '''    public void clearUserInput(final UserInfo ui)
+    '''
 def getBaseLang():
-'''public String getBaseLang()
-'''
-pass
+    '''    public String getBaseLang()
+    '''
 def getLanguageList():
-'''public String[][] getLanguageList()
-'''
-pass
+    '''    public String[][] getLanguageList()
+    '''
 def getMessage():
-'''public String getMessage(final String group, final String key, String langCode)
-public String getMessage(final MXException mxe, final String langCode)
-'''
-pass
+    '''    public String getMessage(final String group, final String key, String langCode)
+    public String getMessage(final MXException mxe, final String langCode)
+    '''
 def getTaggedMessage():
-'''public String getTaggedMessage(final String group, final String key, String langCode)
-public String getTaggedMessage(final MXException mxe, final String langCode)
-'''
-pass
+    '''    public String getTaggedMessage(final String group, final String key, String langCode)
+    public String getTaggedMessage(final MXException mxe, final String langCode)
+    '''
 def getMessages():
-'''public String[] getMessages(final String group, final String[] key, final String langCode)
-'''
-pass
+    '''    public String[] getMessages(final String group, final String[] key, final String langCode)
+    '''
 def getMasterModifiedObjects():
-'''public Map<String, String> getMasterModifiedObjects()
-'''
-pass
+    '''    public Map<String, String> getMasterModifiedObjects()
+    '''
 def getMasterMboValueInfo():
-'''public MboValueInfo getMasterMboValueInfo(final MboRemote tenantMbo)
-'''
-pass
+    '''    public MboValueInfo getMasterMboValueInfo(final MboRemote tenantMbo)
+    '''
 def getWarnings():
-'''public ArrayList getWarnings(final Object id)
-'''
-pass
+    '''    public ArrayList getWarnings(final Object id)
+    '''
 def clearWarnings():
-'''public void clearWarnings(final Object id)
-'''
-pass
+    '''    public void clearWarnings(final Object id)
+    '''
 def addWarning():
-'''public void addWarning(final MXException e, final Object id)
-'''
-pass
+    '''    public void addWarning(final MXException e, final Object id)
+    '''
 def hasWarnings():
-'''public boolean hasWarnings(final Object id)
-'''
-pass
+    '''    public boolean hasWarnings(final Object id)
+    '''
 def incrementMboCount():
-'''public void incrementMboCount(final String name, final int tenantID)
-'''
-pass
+    '''    public void incrementMboCount(final String name, final int tenantID)
+    '''
 def decrementMboCount():
-'''public void decrementMboCount(final String name, final int tenantID)
-'''
-pass
+    '''    public void decrementMboCount(final String name, final int tenantID)
+    '''
 def incrementMbosetCount():
-'''public void incrementMbosetCount(final String name, final int tenantID)
-'''
-pass
+    '''    public void incrementMbosetCount(final String name, final int tenantID)
+    '''
 def decrementMbosetCount():
-'''public void decrementMbosetCount(final String name)
-public void decrementMbosetCount(final String name, final int tenantID)
-'''
-pass
+    '''    public void decrementMbosetCount(final String name)
+    public void decrementMbosetCount(final String name, final int tenantID)
+    '''
 def incrementMbosetIPCount():
-'''public void incrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)
-'''
-pass
+    '''    public void incrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)
+    '''
 def decrementMbosetIPCount():
-'''public void decrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)
-'''
-pass
+    '''    public void decrementMbosetIPCount(String objName, final String clientHost, final String clientAddr)
+    '''
 def getMboSetIPCount():
-'''public int getMboSetIPCount(String objName, final String clientHost, final String clientAddr)
-'''
-pass
+    '''    public int getMboSetIPCount(String objName, final String clientHost, final String clientAddr)
+    '''
 def printMaxsessionInfo():
-'''public String printMaxsessionInfo()
-'''
-pass
+    '''    public String printMaxsessionInfo()
+    '''
 def getMboCount():
-'''public String getMboCount()
-'''
-pass
+    '''    public String getMboCount()
+    '''
 def getMboSetCount():
-'''public int getMboSetCount(String objName)
-'''
-pass
+    '''    public int getMboSetCount(String objName)
+    '''
 def getAllTenantsMboCountAsJSON():
-'''public JSONObject getAllTenantsMboCountAsJSON()
-'''
-pass
+    '''    public JSONObject getAllTenantsMboCountAsJSON()
+    '''
 def getConditionCache():
-'''public MaxConditionCache getConditionCache()
-'''
-pass
+    '''    public MaxConditionCache getConditionCache()
+    '''
 def getDataRestrictionCache():
-'''public DataRestrictionCache getDataRestrictionCache()
-'''
-pass
+    '''    public DataRestrictionCache getDataRestrictionCache()
+    '''
 def getMaxDomainCache():
-'''public MaxDomainCache getMaxDomainCache()
-'''
-pass
+    '''    public MaxDomainCache getMaxDomainCache()
+    '''
 def setupLongOpPipe():
-'''public InputStream setupLongOpPipe()
-'''
-pass
+    '''    public InputStream setupLongOpPipe()
+    '''
 def clearLongOpPipe():
-'''public void clearLongOpPipe()
-'''
-pass
+    '''    public void clearLongOpPipe()
+    '''
 def writeLongOpMsg():
-'''public void writeLongOpMsg(String msg)
-'''
-pass
+    '''    public void writeLongOpMsg(String msg)
+    '''
 def getSQLServerPrefetchRows():
-'''public int getSQLServerPrefetchRows()
-'''
-pass
+    '''    public int getSQLServerPrefetchRows()
+    '''
 def getSecurityContext():
-'''public SecurityContextFlag getSecurityContext()
-'''
-pass
+    '''    public SecurityContextFlag getSecurityContext()
+    '''
 def clearSecurityContext():
-'''public void clearSecurityContext()
-'''
-pass
+    '''    public void clearSecurityContext()
+    '''
 def setSecurityCheck():
-'''public void setSecurityCheck(final SecurityContextFlag securityFlag)
-'''
-pass
+    '''    public void setSecurityCheck(final SecurityContextFlag securityFlag)
+    '''
 def isSQLServerPrefetchRowsNeeded():
-'''public boolean isSQLServerPrefetchRowsNeeded()
-'''
-pass
+    '''    public boolean isSQLServerPrefetchRowsNeeded()
+    '''
 def getMxServerConfig():
-'''public Properties getMxServerConfig()
-'''
-pass
+    '''    public Properties getMxServerConfig()
+    '''
 def getServerCommandRemote():
-'''public SrvCommRemote getServerCommandRemote(final String name, final String passwd)
-public SrvCommRemote getServerCommandRemote(final UserInfo userInfo)
-'''
-pass
+    '''    public SrvCommRemote getServerCommandRemote(final String name, final String passwd)
+    public SrvCommRemote getServerCommandRemote(final UserInfo userInfo)
+    '''
 def getMboCounts():
-'''public ArrayList getMboCounts()
-public ArrayList getMboCounts(final int tenantID)
-'''
-pass
+    '''    public ArrayList getMboCounts()
+    public ArrayList getMboCounts(final int tenantID)
+    '''
 def getMailAuth():
-'''public static SmtpAuthenticator getMailAuth()
-'''
-pass
+    '''    public static SmtpAuthenticator getMailAuth()
+    '''
 def getBaseCalendar():
-'''public String getBaseCalendar()
-'''
-pass
+    '''    public String getBaseCalendar()
+    '''
 def getTenantIdsList():
-'''public List<Integer> getTenantIdsList(final UserInfo landlordInfo, final int status)
-'''
-pass
+    '''    public List<Integer> getTenantIdsList(final UserInfo landlordInfo, final int status)
+    '''
 def getAllTenantIdsList():
-'''public List<Integer> getAllTenantIdsList(final UserInfo landlordInfo)
-'''
-pass
+    '''    public List<Integer> getAllTenantIdsList(final UserInfo landlordInfo)
+    '''
 def collectTenantDBConnInfo():
-'''public void collectTenantDBConnInfo(final UserInfo info)
-'''
-pass
+    '''    public void collectTenantDBConnInfo(final UserInfo info)
+    '''
 def collectTenantDBConForThisServer():
-'''public void collectTenantDBConForThisServer(final UserInfo info)
-'''
-pass
+    '''    public void collectTenantDBConForThisServer(final UserInfo info)
+    '''
 def setProxy():
-'''public void setProxy(final Remote proxy)
-'''
-pass
+    '''    public void setProxy(final Remote proxy)
+    '''
 def getProxy():
-'''public Remote getProxy()
-'''
-pass
+    '''    public Remote getProxy()
+    '''
 def getTenantRealmMap():
-'''public HashMap<String, String> getTenantRealmMap()
-'''
-pass
+    '''    public HashMap<String, String> getTenantRealmMap()
+    '''
 def clearTenantRealmMap():
-'''public void clearTenantRealmMap()
-'''
-pass
+    '''    public void clearTenantRealmMap()
+    '''
 def loadCustomApps():
-'''public void loadCustomApps()
-public void loadCustomApps(final Connection con)
-'''
-pass
+    '''    public void loadCustomApps()
+    public void loadCustomApps(final Connection con)
+    '''
 def AdminModeThread():
-'''public AdminModeThread()
-'''
-pass
+    '''    public AdminModeThread()
+    '''
 def setKey():
-'''public void setKey(final String value)
-'''
-pass
+    '''    public void setKey(final String value)
+    '''
 def UnloadInactiveCachesThread():
-'''public UnloadInactiveCachesThread()
-'''
-pass
+    '''    public UnloadInactiveCachesThread()
+    '''
 def SmtpAuthenticator():
-'''public SmtpAuthenticator(final String user, final String password)
-'''
-pass
+    '''    public SmtpAuthenticator(final String user, final String password)
+    '''
 def DBConnStatThread():
-'''public DBConnStatThread(final UserInfo infoT)
-'''
-pass
+    '''    public DBConnStatThread(final UserInfo infoT)
+    '''

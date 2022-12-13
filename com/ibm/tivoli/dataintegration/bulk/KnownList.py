@@ -1,60 +1,45 @@
 def KnownList():
-'''public KnownList()
-'''
-pass
+    '''    public KnownList()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getEntry():
-'''public KnownEntry getEntry(final String id)
-'''
-pass
+    '''    public KnownEntry getEntry(final String id)
+    '''
 def write():
-'''public void write(final String myId, final long myFileOffset, final String myClassType, final String srcTok)
-'''
-pass
+    '''    public void write(final String myId, final long myFileOffset, final String myClassType, final String srcTok)
+    '''
 def writeAbstract():
-'''public KnownEntry writeAbstract(final String myId, final long myFileOffset, final String myClassType, final HashMap parsedMO, final String srcTok)
-'''
-pass
+    '''    public KnownEntry writeAbstract(final String myId, final long myFileOffset, final String myClassType, final HashMap parsedMO, final String srcTok)
+    '''
 def isInList():
-'''public KnownEntry isInList(final String id)
-'''
-pass
+    '''    public KnownEntry isInList(final String id)
+    '''
 def incrementWritten():
-'''public void incrementWritten()
-'''
-pass
+    '''    public void incrementWritten()
+    '''
 def getNumWritten():
-'''public int getNumWritten()
-'''
-pass
+    '''    public int getNumWritten()
+    '''
 def bottomOffsetAdjust():
-'''public void bottomOffsetAdjust(final long currentFilepos)
-'''
-pass
+    '''    public void bottomOffsetAdjust(final long currentFilepos)
+    '''
 def iterator():
-'''public Iterator<KnownEntry> iterator()
-'''
-pass
+    '''    public Iterator<KnownEntry> iterator()
+    '''
 def compare():
-'''public int compare(final KnownEntry o1, final KnownEntry o2)
-'''
-pass
+    '''    public int compare(final KnownEntry o1, final KnownEntry o2)
+    '''
 def myIt():
-'''public myIt(final Iterator<Map.Entry<String, KnownEntry>> _it)
-'''
-pass
+    '''    public myIt(final Iterator<Map.Entry<String, KnownEntry>> _it)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public KnownEntry next()
-'''
-pass
+    '''    public KnownEntry next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

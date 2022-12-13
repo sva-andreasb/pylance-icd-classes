@@ -1,36 +1,27 @@
 def FileTransferRequest():
-'''public FileTransferRequest(final FileTransferManager manager, final StreamInitiation si)
-'''
-pass
+    '''    public FileTransferRequest(final FileTransferManager manager, final StreamInitiation si)
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def getFileSize():
-'''public long getFileSize()
-'''
-pass
+    '''    public long getFileSize()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def getRequestor():
-'''public Jid getRequestor()
-'''
-pass
+    '''    public Jid getRequestor()
+    '''
 def getStreamID():
-'''public String getStreamID()
-'''
-pass
+    '''    public String getStreamID()
+    '''
 def accept():
-'''public IncomingFileTransfer accept()
-'''
-pass
+    '''    public IncomingFileTransfer accept()
+    '''
 def reject():
-'''public void reject()
-'''
-pass
+    '''    public void reject()
+    '''

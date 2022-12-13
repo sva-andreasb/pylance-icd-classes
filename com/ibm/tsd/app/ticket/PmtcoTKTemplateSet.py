@@ -1,4 +1,3 @@
 def PmtcoTKTemplateSet():
-'''public PmtcoTKTemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmtcoTKTemplateSet(final MboServerInterface ms)
+    '''

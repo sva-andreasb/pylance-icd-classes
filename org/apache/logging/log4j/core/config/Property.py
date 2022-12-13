@@ -1,20 +1,15 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def isValueNeedsLookup():
-'''public boolean isValueNeedsLookup()
-'''
-pass
+    '''    public boolean isValueNeedsLookup()
+    '''
 def createProperty():
-'''public static Property createProperty(@PluginAttribute("name") final String name, @PluginValue("value") final String value)
-'''
-pass
+    '''    public static Property createProperty(@PluginAttribute("name") final String name, @PluginValue("value") final String value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

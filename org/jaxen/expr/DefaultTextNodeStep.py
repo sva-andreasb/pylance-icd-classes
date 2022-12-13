@@ -1,16 +1,12 @@
 def DefaultTextNodeStep():
-'''public DefaultTextNodeStep(final IterableAxis axis, final PredicateSet predicateSet)
-'''
-pass
+    '''    public DefaultTextNodeStep(final IterableAxis axis, final PredicateSet predicateSet)
+    '''
 def matches():
-'''public boolean matches(final Object node, final ContextSupport support)
-'''
-pass
+    '''    public boolean matches(final Object node, final ContextSupport support)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def accept():
-'''public void accept(final Visitor visitor)
-'''
-pass
+    '''    public void accept(final Visitor visitor)
+    '''

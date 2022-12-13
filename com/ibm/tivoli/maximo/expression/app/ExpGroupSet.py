@@ -1,8 +1,6 @@
 def ExpGroupSet():
-'''public ExpGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ExpGroupSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

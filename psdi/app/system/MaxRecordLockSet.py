@@ -1,8 +1,6 @@
 def MaxRecordLockSet():
-'''public MaxRecordLockSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxRecordLockSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

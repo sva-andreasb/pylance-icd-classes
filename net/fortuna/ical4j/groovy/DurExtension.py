@@ -1,12 +1,9 @@
 def DurExtension():
-'''public DurExtension()
-'''
-pass
+    '''    public DurExtension()
+    '''
 def plus():
-'''public static Dur plus(final Dur self, final Dur duration)
-'''
-pass
+    '''    public static Dur plus(final Dur self, final Dur duration)
+    '''
 def negative():
-'''public static Dur negative(final Dur self)
-'''
-pass
+    '''    public static Dur negative(final Dur self)
+    '''

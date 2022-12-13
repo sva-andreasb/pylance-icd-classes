@@ -1,152 +1,115 @@
 def ConfigEntry():
-'''public ConfigEntry(final com.ibm.ws.cache.config.ConfigEntry ce)
-'''
-pass
+    '''    public ConfigEntry(final com.ibm.ws.cache.config.ConfigEntry ce)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getAllNames():
-'''public HashSet getAllNames()
-'''
-pass
+    '''    public HashSet getAllNames()
+    '''
 def getSharingPolicy():
-'''public int getSharingPolicy()
-'''
-pass
+    '''    public int getSharingPolicy()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getProperties():
-'''public ArrayList getProperties()
-public ArrayList getProperties()
-'''
-pass
+    '''    public ArrayList getProperties()
+    public ArrayList getProperties()
+    '''
 def getCacheIds():
-'''public CacheId[] getCacheIds()
-'''
-pass
+    '''    public CacheId[] getCacheIds()
+    '''
 def getDependencyIds():
-'''public DependencyId[] getDependencyIds()
-'''
-pass
+    '''    public DependencyId[] getDependencyIds()
+    '''
 def getInvalidations():
-'''public Invalidation[] getInvalidations()
-'''
-pass
+    '''    public Invalidation[] getInvalidations()
+    '''
 def Property():
-'''public Property(final com.ibm.ws.cache.config.Property prop)
-'''
-pass
+    '''    public Property(final com.ibm.ws.cache.config.Property prop)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getExcludeList():
-'''public String[] getExcludeList()
-'''
-pass
+    '''    public String[] getExcludeList()
+    '''
 def CacheId():
-'''public CacheId(final com.ibm.ws.cache.config.CacheId ci)
-'''
-pass
+    '''    public CacheId(final com.ibm.ws.cache.config.CacheId ci)
+    '''
 def getTimeout():
-'''public int getTimeout()
-'''
-pass
+    '''    public int getTimeout()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def getInactivity():
-'''public int getInactivity()
-'''
-pass
+    '''    public int getInactivity()
+    '''
 def getIdGenerator():
-'''public String getIdGenerator()
-'''
-pass
+    '''    public String getIdGenerator()
+    '''
 def getMetaDataGenerator():
-'''public String getMetaDataGenerator()
-'''
-pass
+    '''    public String getMetaDataGenerator()
+    '''
 def getComponents():
-'''public Component[] getComponents()
-public Component[] getComponents()
-public Component[] getComponents()
-'''
-pass
+    '''    public Component[] getComponents()
+    public Component[] getComponents()
+    public Component[] getComponents()
+    '''
 def Component():
-'''public Component(final com.ibm.ws.cache.config.Component c)
-'''
-pass
+    '''    public Component(final com.ibm.ws.cache.config.Component c)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getIgnoreValue():
-'''public boolean getIgnoreValue()
-'''
-pass
+    '''    public boolean getIgnoreValue()
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''
 def getField():
-'''public String getField()
-'''
-pass
+    '''    public String getField()
+    '''
 def getRequired():
-'''public boolean getRequired()
-'''
-pass
+    '''    public boolean getRequired()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def getMultipleIds():
-'''public boolean getMultipleIds()
-'''
-pass
+    '''    public boolean getMultipleIds()
+    '''
 def getValues():
-'''public ArrayList getValues()
-'''
-pass
+    '''    public ArrayList getValues()
+    '''
 def getNotValues():
-'''public ArrayList getNotValues()
-'''
-pass
+    '''    public ArrayList getNotValues()
+    '''
 def getValueRanges():
-'''public ArrayList getValueRanges()
-'''
-pass
+    '''    public ArrayList getValueRanges()
+    '''
 def getNotValueRanges():
-'''public ArrayList getNotValueRanges()
-'''
-pass
+    '''    public ArrayList getNotValueRanges()
+    '''
 def DependencyId():
-'''public DependencyId(final com.ibm.ws.cache.config.DependencyId di)
-'''
-pass
+    '''    public DependencyId(final com.ibm.ws.cache.config.DependencyId di)
+    '''
 def getBaseName():
-'''public String getBaseName()
-public String getBaseName()
-'''
-pass
+    '''    public String getBaseName()
+    public String getBaseName()
+    '''
 def Invalidation():
-'''public Invalidation(final com.ibm.ws.cache.config.Invalidation i)
-'''
-pass
+    '''    public Invalidation(final com.ibm.ws.cache.config.Invalidation i)
+    '''
 def getInvalidationGenerator():
-'''public String getInvalidationGenerator()
-'''
-pass
+    '''    public String getInvalidationGenerator()
+    '''

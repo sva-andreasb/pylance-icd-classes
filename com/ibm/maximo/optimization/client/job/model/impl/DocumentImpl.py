@@ -1,32 +1,24 @@
 def getRev():
-'''public String getRev()
-'''
-pass
+    '''    public String getRev()
+    '''
 def setRev():
-'''public void setRev(final String rev)
-'''
-pass
+    '''    public void setRev(final String rev)
+    '''
 def getId():
-'''public ObjectId getId()
-'''
-pass
+    '''    public ObjectId getId()
+    '''
 def setId():
-'''public void setId(final ObjectId id)
-'''
-pass
+    '''    public void setId(final ObjectId id)
+    '''
 def getDeleted():
-'''public Boolean getDeleted()
-'''
-pass
+    '''    public Boolean getDeleted()
+    '''
 def setDeleted():
-'''public void setDeleted(final Boolean deleted)
-'''
-pass
+    '''    public void setDeleted(final Boolean deleted)
+    '''
 def getConflicts():
-'''public List<String> getConflicts()
-'''
-pass
+    '''    public List<String> getConflicts()
+    '''
 def setConflicts():
-'''public void setConflicts(final List<String> conflicts)
-'''
-pass
+    '''    public void setConflicts(final List<String> conflicts)
+    '''

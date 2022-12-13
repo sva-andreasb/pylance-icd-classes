@@ -1,8 +1,6 @@
 def FormTest():
-'''public FormTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public FormTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def testFilloutForm():
-'''public void testFilloutForm()
-'''
-pass
+    '''    public void testFilloutForm()
+    '''

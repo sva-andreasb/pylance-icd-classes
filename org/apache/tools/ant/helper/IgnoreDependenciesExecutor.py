@@ -1,8 +1,6 @@
 def executeTargets():
-'''public void executeTargets(final Project project, final String[] targetNames)
-'''
-pass
+    '''    public void executeTargets(final Project project, final String[] targetNames)
+    '''
 def getSubProjectExecutor():
-'''public Executor getSubProjectExecutor()
-'''
-pass
+    '''    public Executor getSubProjectExecutor()
+    '''

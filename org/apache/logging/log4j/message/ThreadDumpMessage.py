@@ -1,32 +1,24 @@
 def ThreadDumpMessage():
-'''public ThreadDumpMessage(final String title)
-'''
-pass
+    '''    public ThreadDumpMessage(final String title)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder sb)
-'''
-pass
+    '''    public void formatTo(final StringBuilder sb)
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def createThreadInfo():
-'''public Map<ThreadInformation, StackTraceElement[]> createThreadInfo()
-'''
-pass
+    '''    public Map<ThreadInformation, StackTraceElement[]> createThreadInfo()
+    '''

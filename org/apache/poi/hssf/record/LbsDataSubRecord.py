@@ -3,53 +3,41 @@ STYLE_COMBO_DROPDOWN = "int  0"
 STYLE_COMBO_EDIT_DROPDOWN = "int  1"
 STYLE_COMBO_SIMPLE_DROPDOWN = "int  2"
 def LbsDataSubRecord():
-'''public LbsDataSubRecord(final LittleEndianInput in, final int cbFContinued, final int cmoOt)
-'''
-pass
+    '''    public LbsDataSubRecord(final LittleEndianInput in, final int cbFContinued, final int cmoOt)
+    '''
 def newAutoFilterInstance():
-'''public static LbsDataSubRecord newAutoFilterInstance()
-'''
-pass
+    '''    public static LbsDataSubRecord newAutoFilterInstance()
+    '''
 def isTerminating():
-'''public boolean isTerminating()
-'''
-pass
+    '''    public boolean isTerminating()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    public void serialize(final LittleEndianOutput out)
+    '''
 def clone():
-'''public LbsDataSubRecord clone()
-'''
-pass
+    '''    public LbsDataSubRecord clone()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def getFormula():
-'''public Ptg getFormula()
-'''
-pass
+    '''    public Ptg getFormula()
+    '''
 def getNumberOfItems():
-'''public int getNumberOfItems()
-'''
-pass
+    '''    public int getNumberOfItems()
+    '''
 def LbsDropData():
-'''public LbsDropData()
-public LbsDropData(final LittleEndianInput in)
-'''
-pass
+    '''    public LbsDropData()
+    public LbsDropData(final LittleEndianInput in)
+    '''
 def setStyle():
-'''public void setStyle(final int style)
-'''
-pass
+    '''    public void setStyle(final int style)
+    '''
 def setNumLines():
-'''public void setNumLines(final int num)
-'''
-pass
+    '''    public void setNumLines(final int num)
+    '''
 def getDataSize():
-'''public int getDataSize()
-'''
-pass
+    '''    public int getDataSize()
+    '''

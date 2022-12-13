@@ -1,20 +1,15 @@
 def RenderedMessage():
-'''public RenderedMessage(final ObjectRenderer renderer, final Object object)
-'''
-pass
+    '''    public RenderedMessage(final ObjectRenderer renderer, final Object object)
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''

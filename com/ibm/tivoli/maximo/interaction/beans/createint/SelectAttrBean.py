@@ -1,8 +1,6 @@
 def SelectAttrBean():
-'''public SelectAttrBean()
-'''
-pass
+    '''    public SelectAttrBean()
+    '''
 def selectattr():
-'''public int selectattr()
-'''
-pass
+    '''    public int selectattr()
+    '''

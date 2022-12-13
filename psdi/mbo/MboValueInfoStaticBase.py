@@ -1,93 +1,70 @@
 def MboValueInfoStaticBase():
-'''public MboValueInfoStaticBase(final long uniqueID)
-'''
-pass
+    '''    public MboValueInfoStaticBase(final long uniqueID)
+    '''
 def getRemarks():
-'''public String getRemarks()
-'''
-pass
+    '''    public String getRemarks()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def setFromMboValueInfo():
-'''public void setFromMboValueInfo(final MboValueInfo mvi)
-'''
-pass
+    '''    public void setFromMboValueInfo(final MboValueInfo mvi)
+    '''
 def getTypeAsInt():
-'''public int getTypeAsInt()
-'''
-pass
+    '''    public int getTypeAsInt()
+    '''
 def getLength():
-'''public int getLength()
-public int getLength(final boolean addSeparators)
-'''
-pass
+    '''    public int getLength()
+    public int getLength(final boolean addSeparators)
+    '''
 def getScale():
-'''public int getScale()
-'''
-pass
+    '''    public int getScale()
+    '''
 def isNumeric():
-'''public boolean isNumeric()
-'''
-pass
+    '''    public boolean isNumeric()
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def isExtended():
-'''public boolean isExtended()
-'''
-pass
+    '''    public boolean isExtended()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getEntityName():
-'''public String getEntityName()
-'''
-pass
+    '''    public String getEntityName()
+    '''
 def getEntityColumnName():
-'''public String getEntityColumnName()
-'''
-pass
+    '''    public String getEntityColumnName()
+    '''
 def hasLongDescription():
-'''public boolean hasLongDescription()
-'''
-pass
+    '''    public boolean hasLongDescription()
+    '''
 def getSearchTypeAsInt():
-'''public int getSearchTypeAsInt()
-'''
-pass
+    '''    public int getSearchTypeAsInt()
+    '''
 def getTextdirection():
-'''public String getTextdirection()
-'''
-pass
+    '''    public String getTextdirection()
+    '''
 def setTextdirection():
-'''public void setTextdirection(final String string)
-'''
-pass
+    '''    public void setTextdirection(final String string)
+    '''
 def getComplexexpression():
-'''public String getComplexexpression()
-'''
-pass
+    '''    public String getComplexexpression()
+    '''
 def setComplexexpression():
-'''public void setComplexexpression(final String string)
-'''
-pass
+    '''    public void setComplexexpression(final String string)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

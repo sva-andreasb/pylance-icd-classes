@@ -1,68 +1,51 @@
 def LocationAppBean():
-'''public LocationAppBean()
-'''
-pass
+    '''    public LocationAppBean()
+    '''
 def ROUTEWF():
-'''public int ROUTEWF()
-'''
-pass
+    '''    public int ROUTEWF()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def APPLYIAS():
-'''public int APPLYIAS()
-'''
-pass
+    '''    public int APPLYIAS()
+    '''
 def ADDSYS():
-'''public int ADDSYS()
-'''
-pass
+    '''    public int ADDSYS()
+    '''
 def METREAD():
-'''public int METREAD()
-'''
-pass
+    '''    public int METREAD()
+    '''
 def METRESET():
-'''public int METRESET()
-'''
-pass
+    '''    public int METRESET()
+    '''
 def METHIST():
-'''public int METHIST()
-'''
-pass
+    '''    public int METHIST()
+    '''
 def VIEWWOPM():
-'''public int VIEWWOPM()
-'''
-pass
+    '''    public int VIEWWOPM()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def convertsachildtoparent():
-'''public int convertsachildtoparent()
-'''
-pass
+    '''    public int convertsachildtoparent()
+    '''
 def createNewSA():
-'''public int createNewSA()
-'''
-pass
+    '''    public int createNewSA()
+    '''
 def addNewSAusingTempData():
-'''public int addNewSAusingTempData()
-'''
-pass
+    '''    public int addNewSAusingTempData()
+    '''
 def changeTemplateState():
-'''public int changeTemplateState()
-'''
-pass
+    '''    public int changeTemplateState()
+    '''
 def LOCSTATUS():
-'''public int LOCSTATUS()
-'''
-pass
+    '''    public int LOCSTATUS()
+    '''
 def STATUSSUB():
-'''public int STATUSSUB()
-'''
-pass
+    '''    public int STATUSSUB()
+    '''

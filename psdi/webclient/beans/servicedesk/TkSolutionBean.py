@@ -1,28 +1,21 @@
 def TkSolutionBean():
-'''public TkSolutionBean()
-'''
-pass
+    '''    public TkSolutionBean()
+    '''
 def filterrows():
-'''public int filterrows()
-'''
-pass
+    '''    public int filterrows()
+    '''
 def commonQbe():
-'''public MboSetRemote commonQbe(final MboSetRemote solutionSet, final String description, final String classstructureid)
-'''
-pass
+    '''    public MboSetRemote commonQbe(final MboSetRemote solutionSet, final String description, final String classstructureid)
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def updateClassstructure():
-'''public void updateClassstructure(final String hierarchypath)
-'''
-pass
+    '''    public void updateClassstructure(final String hierarchypath)
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def getQbe():
-'''public synchronized String getQbe(final String attribute)
-'''
-pass
+    '''    public synchronized String getQbe(final String attribute)
+    '''

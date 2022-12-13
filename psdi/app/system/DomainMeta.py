@@ -1,4 +1,3 @@
 def DomainMeta():
-'''public DomainMeta(final MboSet ms)
-'''
-pass
+    '''    public DomainMeta(final MboSet ms)
+    '''

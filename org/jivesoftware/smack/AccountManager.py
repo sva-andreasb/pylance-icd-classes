@@ -1,33 +1,25 @@
 def AccountManager():
-'''public AccountManager(final Connection connection)
-'''
-pass
+    '''    public AccountManager(final Connection connection)
+    '''
 def supportsAccountCreation():
-'''public boolean supportsAccountCreation()
-'''
-pass
+    '''    public boolean supportsAccountCreation()
+    '''
 def getAccountAttributes():
-'''public Collection<String> getAccountAttributes()
-'''
-pass
+    '''    public Collection<String> getAccountAttributes()
+    '''
 def getAccountAttribute():
-'''public String getAccountAttribute(final String name)
-'''
-pass
+    '''    public String getAccountAttribute(final String name)
+    '''
 def getAccountInstructions():
-'''public String getAccountInstructions()
-'''
-pass
+    '''    public String getAccountInstructions()
+    '''
 def createAccount():
-'''public void createAccount(final String username, final String password)
-public void createAccount(final String username, final String password, final Map<String, String> attributes)
-'''
-pass
+    '''    public void createAccount(final String username, final String password)
+    public void createAccount(final String username, final String password, final Map<String, String> attributes)
+    '''
 def changePassword():
-'''public void changePassword(final String newPassword)
-'''
-pass
+    '''    public void changePassword(final String newPassword)
+    '''
 def deleteAccount():
-'''public void deleteAccount()
-'''
-pass
+    '''    public void deleteAccount()
+    '''

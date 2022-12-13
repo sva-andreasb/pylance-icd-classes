@@ -1,4 +1,3 @@
 def SKDODMEConstraintInfo():
-'''public SKDODMEConstraintInfo(final MboSet ms)
-'''
-pass
+    '''    public SKDODMEConstraintInfo(final MboSet ms)
+    '''

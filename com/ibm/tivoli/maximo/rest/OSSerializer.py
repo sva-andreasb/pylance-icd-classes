@@ -1,8 +1,6 @@
 def OSSerializer():
-'''public OSSerializer()
-'''
-pass
+    '''    public OSSerializer()
+    '''
 def serialize():
-'''public ResourceResponse serialize(final Resource res, final ResourceRequest req)
-'''
-pass
+    '''    public ResourceResponse serialize(final Resource res, final ResourceRequest req)
+    '''

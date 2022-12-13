@@ -1,13 +1,10 @@
 def parse():
-'''public static RegionMetadata parse(final InputStream input)
-'''
-pass
+    '''    public static RegionMetadata parse(final InputStream input)
+    '''
 def RegionMetadataParser():
-'''public RegionMetadataParser()
-'''
-pass
+    '''    public RegionMetadataParser()
+    '''
 def parseRegionMetadata():
-'''public List<Region> parseRegionMetadata(final InputStream input)
-public List<Region> parseRegionMetadata(final InputStream input, final boolean endpointVerification)
-'''
-pass
+    '''    public List<Region> parseRegionMetadata(final InputStream input)
+    public List<Region> parseRegionMetadata(final InputStream input, final boolean endpointVerification)
+    '''

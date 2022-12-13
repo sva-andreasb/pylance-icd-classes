@@ -1,12 +1,9 @@
 def WebAppEnv():
-'''public WebAppEnv()
-'''
-pass
+    '''    public WebAppEnv()
+    '''
 def getEnvEntryValue():
-'''public static String getEnvEntryValue(final String envEntryName)
-'''
-pass
+    '''    public static String getEnvEntryValue(final String envEntryName)
+    '''
 def useAppServerSecurity():
-'''public static boolean useAppServerSecurity()
-'''
-pass
+    '''    public static boolean useAppServerSecurity()
+    '''

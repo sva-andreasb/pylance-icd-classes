@@ -1,8 +1,6 @@
 def TloamPerson():
-'''public TloamPerson(final MboSet ms)
-'''
-pass
+    '''    public TloamPerson(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

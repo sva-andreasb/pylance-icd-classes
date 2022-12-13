@@ -1,60 +1,45 @@
 def Task():
-'''public Task(final TaskID taskID, final TaskAction taskAction)
-'''
-pass
+    '''    public Task(final TaskID taskID, final TaskAction taskAction)
+    '''
 def getTaskID():
-'''public TaskID getTaskID()
-'''
-pass
+    '''    public TaskID getTaskID()
+    '''
 def getTaskIDStr():
-'''public String getTaskIDStr()
-'''
-pass
+    '''    public String getTaskIDStr()
+    '''
 def getTaskAction():
-'''public TaskAction getTaskAction()
-'''
-pass
+    '''    public TaskAction getTaskAction()
+    '''
 def getTaskActionStr():
-'''public String getTaskActionStr()
-'''
-pass
+    '''    public String getTaskActionStr()
+    '''
 def getTaskResults():
-'''public List<TaskResult> getTaskResults()
-'''
-pass
+    '''    public List<TaskResult> getTaskResults()
+    '''
 def getTaskStatus():
-'''public TaskStatus getTaskStatus()
-'''
-pass
+    '''    public TaskStatus getTaskStatus()
+    '''
 def getTaskStatusStr():
-'''public String getTaskStatusStr()
-'''
-pass
+    '''    public String getTaskStatusStr()
+    '''
 def getStopFlag():
-'''public boolean getStopFlag()
-'''
-pass
+    '''    public boolean getStopFlag()
+    '''
 def getTaskWeight():
-'''public int getTaskWeight()
-'''
-pass
+    '''    public int getTaskWeight()
+    '''
 def getTaskDescription():
-'''public String getTaskDescription()
-'''
-pass
+    '''    public String getTaskDescription()
+    '''
 def setTaskDescriptionString():
-'''public void setTaskDescriptionString(final String description)
-'''
-pass
+    '''    public void setTaskDescriptionString(final String description)
+    '''
 def setTaskWeight():
-'''public void setTaskWeight(final int taskTime)
-'''
-pass
+    '''    public void setTaskWeight(final int taskTime)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

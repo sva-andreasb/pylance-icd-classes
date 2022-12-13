@@ -1,16 +1,12 @@
 def DemuxInputStream():
-'''public DemuxInputStream()
-'''
-pass
+    '''    public DemuxInputStream()
+    '''
 def bindStream():
-'''public InputStream bindStream(final InputStream input)
-'''
-pass
+    '''    public InputStream bindStream(final InputStream input)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''

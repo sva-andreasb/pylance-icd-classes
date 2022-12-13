@@ -1,83 +1,63 @@
-publicIDString = "String  -//Sun Microsystems Inc.//DTD JavaHelp Favorites Version 2.0//EN""
+publicIDString = "String  \"-//Sun Microsystems Inc.//DTD JavaHelp Favorites Version 2.0//EN\""
 def FavoritesView():
-'''public FavoritesView(final HelpSet set, final String s, final String s2, final Hashtable hashtable)
-public FavoritesView(final HelpSet set, final String s, final String s2, final Locale locale, final Hashtable hashtable)
-'''
-pass
+    '''    public FavoritesView(final HelpSet set, final String s, final String s2, final Hashtable hashtable)
+    public FavoritesView(final HelpSet set, final String s, final String s2, final Locale locale, final Hashtable hashtable)
+    '''
 def createNavigator():
-'''public Component createNavigator(final HelpModel helpModel)
-'''
-pass
+    '''    public Component createNavigator(final HelpModel helpModel)
+    '''
 def getMergeType():
-'''public String getMergeType()
-'''
-pass
+    '''    public String getMergeType()
+    '''
 def getDataAsTree():
-'''public FavoritesNode getDataAsTree()
-'''
-pass
+    '''    public FavoritesNode getDataAsTree()
+    '''
 def parse():
-'''public FavoritesNode parse(final HelpSet set, final Locale locale, final TreeItemFactory treeItemFactory)
-'''
-pass
+    '''    public FavoritesNode parse(final HelpSet set, final Locale locale, final TreeItemFactory treeItemFactory)
+    '''
 def saveFavorites():
-'''public void saveFavorites(final FavoritesNode favoritesNode)
-'''
-pass
+    '''    public void saveFavorites(final FavoritesNode favoritesNode)
+    '''
 def DefaultFavoritesFactory():
-'''public DefaultFavoritesFactory()
-'''
-pass
+    '''    public DefaultFavoritesFactory()
+    '''
 def parsingStarted():
-'''public void parsingStarted(final URL source)
-'''
-pass
+    '''    public void parsingStarted(final URL source)
+    '''
 def processDOCTYPE():
-'''public void processDOCTYPE(final String s, final String s2, final String s3)
-'''
-pass
+    '''    public void processDOCTYPE(final String s, final String s2, final String s3)
+    '''
 def processPI():
-'''public void processPI(final HelpSet set, final String s, final String s2)
-'''
-pass
+    '''    public void processPI(final HelpSet set, final String s, final String s2)
+    '''
 def createItem():
-'''public TreeItem createItem(final String s, final Hashtable hashtable, final HelpSet set, final Locale locale)
-public TreeItem createItem()
-'''
-pass
+    '''    public TreeItem createItem(final String s, final Hashtable hashtable, final HelpSet set, final Locale locale)
+    public TreeItem createItem()
+    '''
 def reportMessage():
-'''public void reportMessage(final String obj, final boolean b)
-'''
-pass
+    '''    public void reportMessage(final String obj, final boolean b)
+    '''
 def listMessages():
-'''public Enumeration listMessages()
-'''
-pass
+    '''    public Enumeration listMessages()
+    '''
 def parsingEnded():
-'''public DefaultMutableTreeNode parsingEnded(final DefaultMutableTreeNode defaultMutableTreeNode)
-'''
-pass
+    '''    public DefaultMutableTreeNode parsingEnded(final DefaultMutableTreeNode defaultMutableTreeNode)
+    '''
 def tagFound():
-'''public void tagFound(final ParserEvent parserEvent)
-'''
-pass
+    '''    public void tagFound(final ParserEvent parserEvent)
+    '''
 def piFound():
-'''public void piFound(final ParserEvent parserEvent)
-'''
-pass
+    '''    public void piFound(final ParserEvent parserEvent)
+    '''
 def doctypeFound():
-'''public void doctypeFound(final ParserEvent parserEvent)
-'''
-pass
+    '''    public void doctypeFound(final ParserEvent parserEvent)
+    '''
 def textFound():
-'''public void textFound(final ParserEvent parserEvent)
-'''
-pass
+    '''    public void textFound(final ParserEvent parserEvent)
+    '''
 def commentFound():
-'''public void commentFound(final ParserEvent parserEvent)
-'''
-pass
+    '''    public void commentFound(final ParserEvent parserEvent)
+    '''
 def errorFound():
-'''public void errorFound(final ParserEvent parserEvent)
-'''
-pass
+    '''    public void errorFound(final ParserEvent parserEvent)
+    '''

@@ -1,24 +1,18 @@
 def getUserJID():
-'''public Jid getUserJID()
-'''
-pass
+    '''    public Jid getUserJID()
+    '''
 def getUserID():
-'''public Jid getUserID()
-'''
-pass
+    '''    public Jid getUserID()
+    '''
 def getWorkgroupName():
-'''public Jid getWorkgroupName()
-'''
-pass
+    '''    public Jid getWorkgroupName()
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def getTimestamp():
-'''public Date getTimestamp()
-'''
-pass
+    '''    public Date getTimestamp()
+    '''

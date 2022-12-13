@@ -1,17 +1,13 @@
 def Nullable():
-'''public Nullable()
-public Nullable(final E value)
-'''
-pass
+    '''    public Nullable()
+    public Nullable(final E value)
+    '''
 def getValue():
-'''public E getValue()
-'''
-pass
+    '''    public E getValue()
+    '''
 def hasValue():
-'''public boolean hasValue()
-'''
-pass
+    '''    public boolean hasValue()
+    '''
 def nullify():
-'''public void nullify()
-'''
-pass
+    '''    public void nullify()
+    '''

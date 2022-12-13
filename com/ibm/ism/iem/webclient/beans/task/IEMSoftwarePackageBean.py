@@ -1,8 +1,6 @@
 def selectSoftwarePackage():
-'''public void selectSoftwarePackage()
-'''
-pass
+    '''    public void selectSoftwarePackage()
+    '''
 def refreshList():
-'''public void refreshList(final String filter)
-'''
-pass
+    '''    public void refreshList(final String filter)
+    '''

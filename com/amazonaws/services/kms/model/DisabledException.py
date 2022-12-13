@@ -1,4 +1,3 @@
 def DisabledException():
-'''public DisabledException(final String message)
-'''
-pass
+    '''    public DisabledException(final String message)
+    '''

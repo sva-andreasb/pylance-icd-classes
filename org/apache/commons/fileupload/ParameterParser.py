@@ -1,19 +1,15 @@
 def ParameterParser():
-'''public ParameterParser()
-'''
-pass
+    '''    public ParameterParser()
+    '''
 def isLowerCaseNames():
-'''public boolean isLowerCaseNames()
-'''
-pass
+    '''    public boolean isLowerCaseNames()
+    '''
 def setLowerCaseNames():
-'''public void setLowerCaseNames(final boolean b)
-'''
-pass
+    '''    public void setLowerCaseNames(final boolean b)
+    '''
 def parse():
-'''public Map<String, String> parse(final String str, final char[] separators)
-public Map<String, String> parse(final String str, final char separator)
-public Map<String, String> parse(final char[] charArray, final char separator)
-public Map<String, String> parse(final char[] charArray, final int offset, final int length, final char separator)
-'''
-pass
+    '''    public Map<String, String> parse(final String str, final char[] separators)
+    public Map<String, String> parse(final String str, final char separator)
+    public Map<String, String> parse(final char[] charArray, final char separator)
+    public Map<String, String> parse(final char[] charArray, final int offset, final int length, final char separator)
+    '''

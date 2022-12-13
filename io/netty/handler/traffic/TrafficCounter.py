@@ -1,99 +1,75 @@
 def milliSecondFromNano():
-'''public static long milliSecondFromNano()
-'''
-pass
+    '''    public static long milliSecondFromNano()
+    '''
 def start():
-'''public synchronized void start()
-'''
-pass
+    '''    public synchronized void start()
+    '''
 def stop():
-'''public synchronized void stop()
-'''
-pass
+    '''    public synchronized void stop()
+    '''
 def TrafficCounter():
-'''public TrafficCounter(final ScheduledExecutorService executor, final String name, final long checkInterval)
-public TrafficCounter(final AbstractTrafficShapingHandler trafficShapingHandler, final ScheduledExecutorService executor, final String name, final long checkInterval)
-'''
-pass
+    '''    public TrafficCounter(final ScheduledExecutorService executor, final String name, final long checkInterval)
+    public TrafficCounter(final AbstractTrafficShapingHandler trafficShapingHandler, final ScheduledExecutorService executor, final String name, final long checkInterval)
+    '''
 def configure():
-'''public void configure(final long newCheckInterval)
-'''
-pass
+    '''    public void configure(final long newCheckInterval)
+    '''
 def checkInterval():
-'''public long checkInterval()
-'''
-pass
+    '''    public long checkInterval()
+    '''
 def lastReadThroughput():
-'''public long lastReadThroughput()
-'''
-pass
+    '''    public long lastReadThroughput()
+    '''
 def lastWriteThroughput():
-'''public long lastWriteThroughput()
-'''
-pass
+    '''    public long lastWriteThroughput()
+    '''
 def lastReadBytes():
-'''public long lastReadBytes()
-'''
-pass
+    '''    public long lastReadBytes()
+    '''
 def lastWrittenBytes():
-'''public long lastWrittenBytes()
-'''
-pass
+    '''    public long lastWrittenBytes()
+    '''
 def currentReadBytes():
-'''public long currentReadBytes()
-'''
-pass
+    '''    public long currentReadBytes()
+    '''
 def currentWrittenBytes():
-'''public long currentWrittenBytes()
-'''
-pass
+    '''    public long currentWrittenBytes()
+    '''
 def lastTime():
-'''public long lastTime()
-'''
-pass
+    '''    public long lastTime()
+    '''
 def cumulativeWrittenBytes():
-'''public long cumulativeWrittenBytes()
-'''
-pass
+    '''    public long cumulativeWrittenBytes()
+    '''
 def cumulativeReadBytes():
-'''public long cumulativeReadBytes()
-'''
-pass
+    '''    public long cumulativeReadBytes()
+    '''
 def lastCumulativeTime():
-'''public long lastCumulativeTime()
-'''
-pass
+    '''    public long lastCumulativeTime()
+    '''
 def getRealWrittenBytes():
-'''public AtomicLong getRealWrittenBytes()
-'''
-pass
+    '''    public AtomicLong getRealWrittenBytes()
+    '''
 def getRealWriteThroughput():
-'''public long getRealWriteThroughput()
-'''
-pass
+    '''    public long getRealWriteThroughput()
+    '''
 def resetCumulativeTime():
-'''public void resetCumulativeTime()
-'''
-pass
+    '''    public void resetCumulativeTime()
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def readTimeToWait():
-'''public long readTimeToWait(final long size, final long limitTraffic, final long maxTime)
-public long readTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)
-'''
-pass
+    '''    public long readTimeToWait(final long size, final long limitTraffic, final long maxTime)
+    public long readTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)
+    '''
 def writeTimeToWait():
-'''public long writeTimeToWait(final long size, final long limitTraffic, final long maxTime)
-public long writeTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)
-'''
-pass
+    '''    public long writeTimeToWait(final long size, final long limitTraffic, final long maxTime)
+    public long writeTimeToWait(final long size, final long limitTraffic, final long maxTime, final long now)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

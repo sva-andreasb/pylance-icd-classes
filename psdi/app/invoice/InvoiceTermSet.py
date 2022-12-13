@@ -1,4 +1,3 @@
 def InvoiceTermSet():
-'''public InvoiceTermSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvoiceTermSet(final MboServerInterface ms)
+    '''

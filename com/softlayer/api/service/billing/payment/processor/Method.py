@@ -1,52 +1,39 @@
 def getPaymentProcessor():
-'''public Processor getPaymentProcessor()
-'''
-pass
+    '''    public Processor getPaymentProcessor()
+    '''
 def setPaymentProcessor():
-'''public void setPaymentProcessor(final Processor paymentProcessor)
-'''
-pass
+    '''    public void setPaymentProcessor(final Processor paymentProcessor)
+    '''
 def setPaymentType():
-'''public void setPaymentType(final com.softlayer.api.service.billing.payment.Type paymentType)
-'''
-pass
+    '''    public void setPaymentType(final com.softlayer.api.service.billing.payment.Type paymentType)
+    '''
 def getMethodKey():
-'''public String getMethodKey()
-'''
-pass
+    '''    public String getMethodKey()
+    '''
 def setMethodKey():
-'''public void setMethodKey(final String methodKey)
-'''
-pass
+    '''    public void setMethodKey(final String methodKey)
+    '''
 def isMethodKeySpecified():
-'''public boolean isMethodKeySpecified()
-'''
-pass
+    '''    public boolean isMethodKeySpecified()
+    '''
 def unsetMethodKey():
-'''public void unsetMethodKey()
-'''
-pass
+    '''    public void unsetMethodKey()
+    '''
 def getMultipleCurrencyFlag():
-'''public Boolean getMultipleCurrencyFlag()
-'''
-pass
+    '''    public Boolean getMultipleCurrencyFlag()
+    '''
 def setMultipleCurrencyFlag():
-'''public void setMultipleCurrencyFlag(final Boolean multipleCurrencyFlag)
-'''
-pass
+    '''    public void setMultipleCurrencyFlag(final Boolean multipleCurrencyFlag)
+    '''
 def isMultipleCurrencyFlagSpecified():
-'''public boolean isMultipleCurrencyFlagSpecified()
-'''
-pass
+    '''    public boolean isMultipleCurrencyFlagSpecified()
+    '''
 def unsetMultipleCurrencyFlag():
-'''public void unsetMultipleCurrencyFlag()
-'''
-pass
+    '''    public void unsetMultipleCurrencyFlag()
+    '''
 def methodKey():
-'''public Mask methodKey()
-'''
-pass
+    '''    public Mask methodKey()
+    '''
 def multipleCurrencyFlag():
-'''public Mask multipleCurrencyFlag()
-'''
-pass
+    '''    public Mask multipleCurrencyFlag()
+    '''

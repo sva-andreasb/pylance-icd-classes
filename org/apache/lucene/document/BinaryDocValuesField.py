@@ -1,4 +1,3 @@
 def BinaryDocValuesField():
-'''public BinaryDocValuesField(final String name, final BytesRef value)
-'''
-pass
+    '''    public BinaryDocValuesField(final String name, final BytesRef value)
+    '''

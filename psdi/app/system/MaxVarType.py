@@ -1,8 +1,6 @@
 def MaxVarType():
-'''public MaxVarType(final MboSet ms)
-'''
-pass
+    '''    public MaxVarType(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

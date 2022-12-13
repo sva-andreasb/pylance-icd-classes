@@ -1,4 +1,3 @@
 def LVCSymbologyDefaultSet():
-'''public LVCSymbologyDefaultSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LVCSymbologyDefaultSet(final MboServerInterface ms)
+    '''

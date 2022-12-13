@@ -1,37 +1,28 @@
 def Page():
-'''public Page(final int pageNumber, final JSONArray items, final int pageSize)
-public Page()
-'''
-pass
+    '''    public Page(final int pageNumber, final JSONArray items, final int pageSize)
+    public Page()
+    '''
 def getPageNumber():
-'''public int getPageNumber()
-'''
-pass
+    '''    public int getPageNumber()
+    '''
 def setPageNumber():
-'''public void setPageNumber(final int pageNumber)
-'''
-pass
+    '''    public void setPageNumber(final int pageNumber)
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def setCount():
-'''public void setCount(final int count)
-'''
-pass
+    '''    public void setCount(final int count)
+    '''
 def getPageSize():
-'''public int getPageSize()
-'''
-pass
+    '''    public int getPageSize()
+    '''
 def setPageSize():
-'''public void setPageSize(final int pageSize)
-'''
-pass
+    '''    public void setPageSize(final int pageSize)
+    '''
 def getItems():
-'''public JSONArray getItems()
-'''
-pass
+    '''    public JSONArray getItems()
+    '''
 def setItems():
-'''public void setItems(final JSONArray items)
-'''
-pass
+    '''    public void setItems(final JSONArray items)
+    '''

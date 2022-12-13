@@ -1,36 +1,27 @@
 def LabTransEnterBy():
-'''public LabTransEnterBy(final MboSet ms)
-'''
-pass
+    '''    public LabTransEnterBy(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def fillTemporaryMbos():
-'''public void fillTemporaryMbos(final WORemote wo)
-'''
-pass
+    '''    public void fillTemporaryMbos(final WORemote wo)
+    '''
 def existLabTransRecord():
-'''public boolean existLabTransRecord(final WMAssignmentRemote wmassign)
-'''
-pass
+    '''    public boolean existLabTransRecord(final WMAssignmentRemote wmassign)
+    '''
 def existToolTransRecord():
-'''public boolean existToolTransRecord(final WMAssignmentRemote wmassign)
-'''
-pass
+    '''    public boolean existToolTransRecord(final WMAssignmentRemote wmassign)
+    '''
 def cleanMainRecord():
-'''public void cleanMainRecord(final String excludedField)
-'''
-pass
+    '''    public void cleanMainRecord(final String excludedField)
+    '''
 def rangeWorkDate():
-'''public Date rangeWorkDate(final boolean up)
-'''
-pass
+    '''    public Date rangeWorkDate(final boolean up)
+    '''
 def getCurrentShiftStartDate():
-'''public Date getCurrentShiftStartDate(final Date workdate)
-'''
-pass
+    '''    public Date getCurrentShiftStartDate(final Date workdate)
+    '''
 def getCurrentShiftEndate():
-'''public Date getCurrentShiftEndate(final Date workdate)
-'''
-pass
+    '''    public Date getCurrentShiftEndate(final Date workdate)
+    '''

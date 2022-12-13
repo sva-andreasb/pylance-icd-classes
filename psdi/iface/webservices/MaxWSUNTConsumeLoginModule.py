@@ -1,20 +1,15 @@
 def initialize():
-'''public void initialize(final Subject subject, final CallbackHandler handler, final Map sharedState, final Map options)
-'''
-pass
+    '''    public void initialize(final Subject subject, final CallbackHandler handler, final Map sharedState, final Map options)
+    '''
 def login():
-'''public boolean login()
-'''
-pass
+    '''    public boolean login()
+    '''
 def commit():
-'''public boolean commit()
-'''
-pass
+    '''    public boolean commit()
+    '''
 def abort():
-'''public boolean abort()
-'''
-pass
+    '''    public boolean abort()
+    '''
 def logout():
-'''public boolean logout()
-'''
-pass
+    '''    public boolean logout()
+    '''

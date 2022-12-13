@@ -1,28 +1,21 @@
 def getGroup():
-'''public List<Group> getGroup()
-'''
-pass
+    '''    public List<Group> getGroup()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def getDN():
-'''public String getDN()
-'''
-pass
+    '''    public String getDN()
+    '''
 def setDN():
-'''public void setDN(final String value)
-'''
-pass
+    '''    public void setDN(final String value)
+    '''
 def getServerID():
-'''public String getServerID()
-'''
-pass
+    '''    public String getServerID()
+    '''
 def setServerID():
-'''public void setServerID(final String value)
-'''
-pass
+    '''    public void setServerID(final String value)
+    '''

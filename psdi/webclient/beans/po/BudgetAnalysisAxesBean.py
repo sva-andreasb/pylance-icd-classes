@@ -1,8 +1,6 @@
 def BudgetAnalysisAxesBean():
-'''public BudgetAnalysisAxesBean()
-'''
-pass
+    '''    public BudgetAnalysisAxesBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

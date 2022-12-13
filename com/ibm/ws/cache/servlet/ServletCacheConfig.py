@@ -1,12 +1,9 @@
 def getInstance():
-'''public static ServletCacheConfig getInstance()
-'''
-pass
+    '''    public static ServletCacheConfig getInstance()
+    '''
 def moduleStarting():
-'''public void moduleStarting(final DeployedModule moduleConfig)
-'''
-pass
+    '''    public void moduleStarting(final DeployedModule moduleConfig)
+    '''
 def moduleStopping():
-'''public void moduleStopping(final DeployedModule moduleConfig)
-'''
-pass
+    '''    public void moduleStopping(final DeployedModule moduleConfig)
+    '''

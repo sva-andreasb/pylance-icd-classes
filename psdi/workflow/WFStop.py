@@ -1,28 +1,21 @@
 def WFStop():
-'''public WFStop(final MboSet ms)
-'''
-pass
+    '''    public WFStop(final MboSet ms)
+    '''
 def stopWorkflow():
-'''public void stopWorkflow()
-'''
-pass
+    '''    public void stopWorkflow()
+    '''
 def wfValidate():
-'''public void wfValidate(final Vector errs, final Hashtable hinfo)
-'''
-pass
+    '''    public void wfValidate(final Vector errs, final Hashtable hinfo)
+    '''
 def canTakePositive():
-'''public boolean canTakePositive()
-'''
-pass
+    '''    public boolean canTakePositive()
+    '''
 def canTakeNegative():
-'''public boolean canTakeNegative()
-'''
-pass
+    '''    public boolean canTakeNegative()
+    '''
 def addedAction():
-'''public void addedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void addedAction(final boolean wasPositive)
+    '''
 def removedAction():
-'''public void removedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void removedAction(final boolean wasPositive)
+    '''

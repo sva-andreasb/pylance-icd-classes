@@ -1,40 +1,30 @@
 def newInstance():
-'''public static RecordHover newInstance(final ComponentInstance sourceComponent, final Element element, final PageInstance page)
-'''
-pass
+    '''    public static RecordHover newInstance(final ComponentInstance sourceComponent, final Element element, final PageInstance page)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def renderContent():
-'''public String renderContent()
-'''
-pass
+    '''    public String renderContent()
+    '''
 def getSourceComponent():
-'''public ComponentInstance getSourceComponent()
-'''
-pass
+    '''    public ComponentInstance getSourceComponent()
+    '''
 def setSourceComponent():
-'''public void setSourceComponent(final ComponentInstance sourceComponent)
-'''
-pass
+    '''    public void setSourceComponent(final ComponentInstance sourceComponent)
+    '''
 def getPage():
-'''public PageInstance getPage()
-'''
-pass
+    '''    public PageInstance getPage()
+    '''
 def getCompleteAppLinkList():
-'''public Map<String, String> getCompleteAppLinkList()
-'''
-pass
+    '''    public Map<String, String> getCompleteAppLinkList()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def getHoverEventRow():
-'''public int getHoverEventRow()
-'''
-pass
+    '''    public int getHoverEventRow()
+    '''

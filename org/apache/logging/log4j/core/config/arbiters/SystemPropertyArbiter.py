@@ -1,26 +1,20 @@
-ATTR_PROPERTY_NAME = "String  propertyName""
-ATTR_PROPERTY_VALUE = "String  propertyValue""
+ATTR_PROPERTY_NAME = "String  \"propertyName\""
+ATTR_PROPERTY_VALUE = "String  \"propertyValue\""
 def isCondition():
-'''public boolean isCondition()
-'''
-pass
+    '''    public boolean isCondition()
+    '''
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def setPropertyName():
-'''public Builder setPropertyName(final String propertyName)
-'''
-pass
+    '''    public Builder setPropertyName(final String propertyName)
+    '''
 def setPropertyValue():
-'''public Builder setPropertyValue(final String propertyValue)
-'''
-pass
+    '''    public Builder setPropertyValue(final String propertyValue)
+    '''
 def asBuilder():
-'''public Builder asBuilder()
-'''
-pass
+    '''    public Builder asBuilder()
+    '''
 def build():
-'''public SystemPropertyArbiter build()
-'''
-pass
+    '''    public SystemPropertyArbiter build()
+    '''

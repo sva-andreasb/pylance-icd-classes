@@ -1,4 +1,3 @@
 def TloamSoftwareCatalogSet():
-'''public TloamSoftwareCatalogSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TloamSoftwareCatalogSet(final MboServerInterface ms)
+    '''

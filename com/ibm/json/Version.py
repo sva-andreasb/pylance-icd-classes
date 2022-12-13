@@ -1,40 +1,30 @@
 def main():
-'''public static void main(final String[] array)
-'''
-pass
+    '''    public static void main(final String[] array)
+    '''
 def Version():
-'''public Version()
-'''
-pass
+    '''    public Version()
+    '''
 def getBuildDate():
-'''public String getBuildDate()
-'''
-pass
+    '''    public String getBuildDate()
+    '''
 def getSpecificationVersion():
-'''public String getSpecificationVersion()
-'''
-pass
+    '''    public String getSpecificationVersion()
+    '''
 def getSpecificationTitle():
-'''public String getSpecificationTitle()
-'''
-pass
+    '''    public String getSpecificationTitle()
+    '''
 def getSpecificationVendor():
-'''public String getSpecificationVendor()
-'''
-pass
+    '''    public String getSpecificationVendor()
+    '''
 def getImplementationVersion():
-'''public String getImplementationVersion()
-'''
-pass
+    '''    public String getImplementationVersion()
+    '''
 def getImplementationTitle():
-'''public String getImplementationTitle()
-'''
-pass
+    '''    public String getImplementationTitle()
+    '''
 def getImplementationVendor():
-'''public String getImplementationVendor()
-'''
-pass
+    '''    public String getImplementationVendor()
+    '''
 def getFile():
-'''public String getFile()
-'''
-pass
+    '''    public String getFile()
+    '''

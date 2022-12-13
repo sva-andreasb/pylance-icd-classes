@@ -1,74 +1,57 @@
 def BasicHttpProcessor():
-'''public BasicHttpProcessor()
-'''
-pass
+    '''    public BasicHttpProcessor()
+    '''
 def addRequestInterceptor():
-'''public void addRequestInterceptor(final HttpRequestInterceptor itcp)
-public void addRequestInterceptor(final HttpRequestInterceptor itcp, final int index)
-'''
-pass
+    '''    public void addRequestInterceptor(final HttpRequestInterceptor itcp)
+    public void addRequestInterceptor(final HttpRequestInterceptor itcp, final int index)
+    '''
 def addResponseInterceptor():
-'''public void addResponseInterceptor(final HttpResponseInterceptor itcp, final int index)
-public void addResponseInterceptor(final HttpResponseInterceptor itcp)
-'''
-pass
+    '''    public void addResponseInterceptor(final HttpResponseInterceptor itcp, final int index)
+    public void addResponseInterceptor(final HttpResponseInterceptor itcp)
+    '''
 def removeRequestInterceptorByClass():
-'''public void removeRequestInterceptorByClass(final Class<? extends HttpRequestInterceptor> clazz)
-'''
-pass
+    '''    public void removeRequestInterceptorByClass(final Class<? extends HttpRequestInterceptor> clazz)
+    '''
 def removeResponseInterceptorByClass():
-'''public void removeResponseInterceptorByClass(final Class<? extends HttpResponseInterceptor> clazz)
-'''
-pass
+    '''    public void removeResponseInterceptorByClass(final Class<? extends HttpResponseInterceptor> clazz)
+    '''
 def addInterceptor():
-'''public final void addInterceptor(final HttpRequestInterceptor interceptor)
-public final void addInterceptor(final HttpRequestInterceptor interceptor, final int index)
-public final void addInterceptor(final HttpResponseInterceptor interceptor)
-public final void addInterceptor(final HttpResponseInterceptor interceptor, final int index)
-'''
-pass
+    '''    public final void addInterceptor(final HttpRequestInterceptor interceptor)
+    public final void addInterceptor(final HttpRequestInterceptor interceptor, final int index)
+    public final void addInterceptor(final HttpResponseInterceptor interceptor)
+    public final void addInterceptor(final HttpResponseInterceptor interceptor, final int index)
+    '''
 def getRequestInterceptorCount():
-'''public int getRequestInterceptorCount()
-'''
-pass
+    '''    public int getRequestInterceptorCount()
+    '''
 def getRequestInterceptor():
-'''public HttpRequestInterceptor getRequestInterceptor(final int index)
-'''
-pass
+    '''    public HttpRequestInterceptor getRequestInterceptor(final int index)
+    '''
 def clearRequestInterceptors():
-'''public void clearRequestInterceptors()
-'''
-pass
+    '''    public void clearRequestInterceptors()
+    '''
 def getResponseInterceptorCount():
-'''public int getResponseInterceptorCount()
-'''
-pass
+    '''    public int getResponseInterceptorCount()
+    '''
 def getResponseInterceptor():
-'''public HttpResponseInterceptor getResponseInterceptor(final int index)
-'''
-pass
+    '''    public HttpResponseInterceptor getResponseInterceptor(final int index)
+    '''
 def clearResponseInterceptors():
-'''public void clearResponseInterceptors()
-'''
-pass
+    '''    public void clearResponseInterceptors()
+    '''
 def setInterceptors():
-'''public void setInterceptors(final List<?> list)
-'''
-pass
+    '''    public void setInterceptors(final List<?> list)
+    '''
 def clearInterceptors():
-'''public void clearInterceptors()
-'''
-pass
+    '''    public void clearInterceptors()
+    '''
 def process():
-'''public void process(final HttpRequest request, final HttpContext context)
-public void process(final HttpResponse response, final HttpContext context)
-'''
-pass
+    '''    public void process(final HttpRequest request, final HttpContext context)
+    public void process(final HttpResponse response, final HttpContext context)
+    '''
 def copy():
-'''public BasicHttpProcessor copy()
-'''
-pass
+    '''    public BasicHttpProcessor copy()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

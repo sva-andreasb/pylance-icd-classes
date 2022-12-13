@@ -1,28 +1,21 @@
 def setactivityqbe():
-'''public int setactivityqbe()
-'''
-pass
+    '''    public int setactivityqbe()
+    '''
 def qbeclear():
-'''public int qbeclear()
-'''
-pass
+    '''    public int qbeclear()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def qbecancel():
-'''public int qbecancel()
-'''
-pass
+    '''    public int qbecancel()
+    '''
 def setqbeAttributesPasstoApplet():
-'''public String setqbeAttributesPasstoApplet(final Hashtable newQbeAttributes)
-'''
-pass
+    '''    public String setqbeAttributesPasstoApplet(final Hashtable newQbeAttributes)
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def setQbeDefaults():
-'''public synchronized void setQbeDefaults()
-'''
-pass
+    '''    public synchronized void setQbeDefaults()
+    '''

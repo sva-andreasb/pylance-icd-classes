@@ -1,5 +1,4 @@
 def AppletActionRequest():
-'''public AppletActionRequest()
-public AppletActionRequest(final long uid)
-'''
-pass
+    '''    public AppletActionRequest()
+    public AppletActionRequest(final long uid)
+    '''

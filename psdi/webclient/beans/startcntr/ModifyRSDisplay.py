@@ -1,12 +1,9 @@
 def ModifyRSDisplay():
-'''public ModifyRSDisplay()
-'''
-pass
+    '''    public ModifyRSDisplay()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def currentStartCenterId():
-'''public long currentStartCenterId()
-'''
-pass
+    '''    public long currentStartCenterId()
+    '''

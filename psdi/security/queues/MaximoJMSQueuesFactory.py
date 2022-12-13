@@ -1,8 +1,6 @@
 def getInstance():
-'''public static MaximoJMSQueues getInstance()
-'''
-pass
+    '''    public static MaximoJMSQueues getInstance()
+    '''
 def isActiveSpecAvailable():
-'''public static boolean isActiveSpecAvailable()
-'''
-pass
+    '''    public static boolean isActiveSpecAvailable()
+    '''

@@ -1,4 +1,3 @@
 def findNextSequenceNumber():
-'''public static int findNextSequenceNumber(final Mbo object, final String sequenceColumnName)
-'''
-pass
+    '''    public static int findNextSequenceNumber(final Mbo object, final String sequenceColumnName)
+    '''

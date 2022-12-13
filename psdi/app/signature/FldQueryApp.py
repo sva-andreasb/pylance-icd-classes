@@ -1,4 +1,3 @@
 def FldQueryApp():
-'''public FldQueryApp(final MboValue mbv)
-'''
-pass
+    '''    public FldQueryApp(final MboValue mbv)
+    '''

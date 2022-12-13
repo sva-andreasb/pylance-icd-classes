@@ -1,4 +1,3 @@
 def PersonChangeStatusSet():
-'''public PersonChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PersonChangeStatusSet(final MboServerInterface ms)
+    '''

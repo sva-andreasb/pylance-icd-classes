@@ -1,20 +1,15 @@
 def PmCfgLifecycleAssignment():
-'''public PmCfgLifecycleAssignment(final MboSet ms)
-'''
-pass
+    '''    public PmCfgLifecycleAssignment(final MboSet ms)
+    '''
 def getLifecycle():
-'''public PmCfgLifecycleRemote getLifecycle()
-'''
-pass
+    '''    public PmCfgLifecycleRemote getLifecycle()
+    '''
 def getCIs():
-'''public PmCfgCISetRemote getCIs()
-'''
-pass
+    '''    public PmCfgCISetRemote getCIs()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''

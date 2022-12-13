@@ -1,8 +1,6 @@
 def ReportList():
-'''public ReportList(final MboSet ms)
-'''
-pass
+    '''    public ReportList(final MboSet ms)
+    '''
 def sigopGranted():
-'''public boolean sigopGranted(final String app, final String optionname)
-'''
-pass
+    '''    public boolean sigopGranted(final String app, final String optionname)
+    '''

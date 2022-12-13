@@ -1,13 +1,10 @@
 def ZipCodeWriter():
-'''public ZipCodeWriter(final OutputStream target)
-'''
-pass
+    '''    public ZipCodeWriter(final OutputStream target)
+    '''
 def close():
-'''public void close()
-public void close()
-'''
-pass
+    '''    public void close()
+    public void close()
+    '''
 def openBinary():
-'''public OutputStream openBinary(final JPackage pkg, final String fileName)
-'''
-pass
+    '''    public OutputStream openBinary(final JPackage pkg, final String fileName)
+    '''

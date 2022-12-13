@@ -1,16 +1,12 @@
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    '''
 def setKey():
-'''public K setKey(final K key)
-'''
-pass
+    '''    public K setKey(final K key)
+    '''

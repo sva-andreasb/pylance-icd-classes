@@ -1,8 +1,6 @@
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def requiresLayout():
-'''public boolean requiresLayout()
-'''
-pass
+    '''    public boolean requiresLayout()
+    '''

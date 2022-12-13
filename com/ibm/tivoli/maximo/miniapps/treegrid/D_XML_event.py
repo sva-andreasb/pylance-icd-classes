@@ -1,2 +1,2 @@
-NodeName = "String  D_XML_event""
-OnGroup = "String  OnGroup""
+NodeName = "String  \"D_XML_event\""
+OnGroup = "String  \"OnGroup\""

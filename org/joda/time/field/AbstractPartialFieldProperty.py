@@ -1,71 +1,54 @@
 def getFieldType():
-'''public DateTimeFieldType getFieldType()
-'''
-pass
+    '''    public DateTimeFieldType getFieldType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getAsString():
-'''public String getAsString()
-'''
-pass
+    '''    public String getAsString()
+    '''
 def getAsText():
-'''public String getAsText()
-public String getAsText(final Locale locale)
-'''
-pass
+    '''    public String getAsText()
+    public String getAsText(final Locale locale)
+    '''
 def getAsShortText():
-'''public String getAsShortText()
-public String getAsShortText(final Locale locale)
-'''
-pass
+    '''    public String getAsShortText()
+    public String getAsShortText(final Locale locale)
+    '''
 def getDurationField():
-'''public DurationField getDurationField()
-'''
-pass
+    '''    public DurationField getDurationField()
+    '''
 def getRangeDurationField():
-'''public DurationField getRangeDurationField()
-'''
-pass
+    '''    public DurationField getRangeDurationField()
+    '''
 def getMinimumValueOverall():
-'''public int getMinimumValueOverall()
-'''
-pass
+    '''    public int getMinimumValueOverall()
+    '''
 def getMinimumValue():
-'''public int getMinimumValue()
-'''
-pass
+    '''    public int getMinimumValue()
+    '''
 def getMaximumValueOverall():
-'''public int getMaximumValueOverall()
-'''
-pass
+    '''    public int getMaximumValueOverall()
+    '''
 def getMaximumValue():
-'''public int getMaximumValue()
-'''
-pass
+    '''    public int getMaximumValue()
+    '''
 def getMaximumTextLength():
-'''public int getMaximumTextLength(final Locale locale)
-'''
-pass
+    '''    public int getMaximumTextLength(final Locale locale)
+    '''
 def getMaximumShortTextLength():
-'''public int getMaximumShortTextLength(final Locale locale)
-'''
-pass
+    '''    public int getMaximumShortTextLength(final Locale locale)
+    '''
 def compareTo():
-'''public int compareTo(final ReadableInstant readableInstant)
-public int compareTo(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public int compareTo(final ReadableInstant readableInstant)
+    public int compareTo(final ReadablePartial readablePartial)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

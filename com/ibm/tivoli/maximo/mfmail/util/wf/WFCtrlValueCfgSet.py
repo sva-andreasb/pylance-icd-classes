@@ -1,32 +1,24 @@
 def WFCtrlValueCfgSet():
-'''public WFCtrlValueCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFCtrlValueCfgSet(final MboServerInterface ms)
+    '''
 def activate():
-'''public void activate(final boolean isActive)
-'''
-pass
+    '''    public void activate(final boolean isActive)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def hasSetValueEnabled():
-'''public boolean hasSetValueEnabled()
-'''
-pass
+    '''    public boolean hasSetValueEnabled()
+    '''
 def undeleteAll():
-'''public void undeleteAll()
-'''
-pass
+    '''    public void undeleteAll()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setSelAttrRequiredAndReadOnly():
-'''public void setSelAttrRequiredAndReadOnly()
-'''
-pass
+    '''    public void setSelAttrRequiredAndReadOnly()
+    '''
 def sumValueType():
-'''public int sumValueType(final MboRemote requestOwner)
-'''
-pass
+    '''    public int sumValueType(final MboRemote requestOwner)
+    '''

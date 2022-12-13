@@ -1,4 +1,3 @@
 def SolChangeStatusSet():
-'''public SolChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SolChangeStatusSet(final MboServerInterface ms)
+    '''

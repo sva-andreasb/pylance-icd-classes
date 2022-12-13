@@ -1,4 +1,3 @@
 def SKDLaborModParamSet():
-'''public SKDLaborModParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDLaborModParamSet(final MboServerInterface ms)
+    '''

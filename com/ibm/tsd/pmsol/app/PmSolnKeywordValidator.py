@@ -1,4 +1,3 @@
 def PmSolnKeywordValidator():
-'''public PmSolnKeywordValidator(final MboValue mbv)
-'''
-pass
+    '''    public PmSolnKeywordValidator(final MboValue mbv)
+    '''

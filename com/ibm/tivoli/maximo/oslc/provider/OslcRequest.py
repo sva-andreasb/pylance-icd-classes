@@ -1,562 +1,422 @@
 def OslcRequest():
-'''public OslcRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL)
-public OslcRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL, final UserInfo userInfo)
-public OslcRequest(final HttpServletRequest request)
-'''
-pass
+    '''    public OslcRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL)
+    public OslcRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost, final List<String> resPath, final String requestURL, final UserInfo userInfo)
+    public OslcRequest(final HttpServletRequest request)
+    '''
 def setProcessUserInfo():
-'''public void setProcessUserInfo(final UserInfo processUserInfo)
-'''
-pass
+    '''    public void setProcessUserInfo(final UserInfo processUserInfo)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def setParts():
-'''public void setParts(final Map<String, MPPartInfo> parts)
-'''
-pass
+    '''    public void setParts(final Map<String, MPPartInfo> parts)
+    '''
 def isBranchFilterOn():
-'''public boolean isBranchFilterOn()
-'''
-pass
+    '''    public boolean isBranchFilterOn()
+    '''
 def isIgnoreRowstamp():
-'''public boolean isIgnoreRowstamp()
-'''
-pass
+    '''    public boolean isIgnoreRowstamp()
+    '''
 def isIgnoreKeyref():
-'''public boolean isIgnoreKeyref()
-'''
-pass
+    '''    public boolean isIgnoreKeyref()
+    '''
 def getPart():
-'''public MPPartInfo getPart(final String partKey)
-'''
-pass
+    '''    public MPPartInfo getPart(final String partKey)
+    '''
 def isAddSchema():
-'''public boolean isAddSchema()
-'''
-pass
+    '''    public boolean isAddSchema()
+    '''
 def isAddAction():
-'''public boolean isAddAction()
-'''
-pass
+    '''    public boolean isAddAction()
+    '''
 def isEnableSession():
-'''public boolean isEnableSession()
-'''
-pass
+    '''    public boolean isEnableSession()
+    '''
 def isNewSession():
-'''public boolean isNewSession()
-'''
-pass
+    '''    public boolean isNewSession()
+    '''
 def isAddLocalizedRep():
-'''public boolean isAddLocalizedRep()
-'''
-pass
+    '''    public boolean isAddLocalizedRep()
+    '''
 def getUseView():
-'''public String getUseView()
-'''
-pass
+    '''    public String getUseView()
+    '''
 def getApiKey():
-'''public String getApiKey()
-'''
-pass
+    '''    public String getApiKey()
+    '''
 def getApps():
-'''public String getApps()
-'''
-pass
+    '''    public String getApps()
+    '''
 def isApiCall():
-'''public boolean isApiCall()
-'''
-pass
+    '''    public boolean isApiCall()
+    '''
 def isClientCertMode():
-'''public boolean isClientCertMode()
-'''
-pass
+    '''    public boolean isClientCertMode()
+    '''
 def isBatchError():
-'''public boolean isBatchError()
-'''
-pass
+    '''    public boolean isBatchError()
+    '''
 def verifyCsrfToken():
-'''public boolean verifyCsrfToken()
-'''
-pass
+    '''    public boolean verifyCsrfToken()
+    '''
 def getCsrfTokenFromRequest():
-'''public String getCsrfTokenFromRequest()
-'''
-pass
+    '''    public String getCsrfTokenFromRequest()
+    '''
 def getCsrfToken():
-'''public String getCsrfToken()
-'''
-pass
+    '''    public String getCsrfToken()
+    '''
 def getGuestId():
-'''public String getGuestId()
-'''
-pass
+    '''    public String getGuestId()
+    '''
 def isQueryLocalized():
-'''public boolean isQueryLocalized()
-'''
-pass
+    '''    public boolean isQueryLocalized()
+    '''
 def isCsrfSession():
-'''public boolean isCsrfSession()
-'''
-pass
+    '''    public boolean isCsrfSession()
+    '''
 def isProcessAsSelfReferencing():
-'''public boolean isProcessAsSelfReferencing()
-'''
-pass
+    '''    public boolean isProcessAsSelfReferencing()
+    '''
 def isAllowSelfRefDup():
-'''public boolean isAllowSelfRefDup()
-'''
-pass
+    '''    public boolean isAllowSelfRefDup()
+    '''
 def getProcessAsSelfRefRelName():
-'''public String getProcessAsSelfRefRelName()
-'''
-pass
+    '''    public String getProcessAsSelfRefRelName()
+    '''
 def isLocalizedDate():
-'''public boolean isLocalizedDate()
-'''
-pass
+    '''    public boolean isLocalizedDate()
+    '''
 def getResponseCookiesToSet():
-'''public Map<String, String> getResponseCookiesToSet()
-'''
-pass
+    '''    public Map<String, String> getResponseCookiesToSet()
+    '''
 def serializeToBytes():
-'''public byte[] serializeToBytes()
-'''
-pass
+    '''    public byte[] serializeToBytes()
+    '''
 def getTransactionId():
-'''public String getTransactionId()
-'''
-pass
+    '''    public String getTransactionId()
+    '''
 def resurrectRequest():
-'''public static OslcRequest resurrectRequest(final byte[] reqBytes)
-'''
-pass
+    '''    public static OslcRequest resurrectRequest(final byte[] reqBytes)
+    '''
 def getHttpServletRequest():
-'''public HttpServletRequest getHttpServletRequest()
-'''
-pass
+    '''    public HttpServletRequest getHttpServletRequest()
+    '''
 def setInteractiveRequest():
-'''public void setInteractiveRequest()
-'''
-pass
+    '''    public void setInteractiveRequest()
+    '''
 def isFileLoad():
-'''public boolean isFileLoad()
-'''
-pass
+    '''    public boolean isFileLoad()
+    '''
 def isAsyncRequest():
-'''public boolean isAsyncRequest()
-'''
-pass
+    '''    public boolean isAsyncRequest()
+    '''
 def isInteractiveRequest():
-'''public boolean isInteractiveRequest()
-'''
-pass
+    '''    public boolean isInteractiveRequest()
+    '''
 def isCheckEsig():
-'''public boolean isCheckEsig()
-'''
-pass
+    '''    public boolean isCheckEsig()
+    '''
 def isIgnoreCollectionRef():
-'''public boolean isIgnoreCollectionRef()
-'''
-pass
+    '''    public boolean isIgnoreCollectionRef()
+    '''
 def isInlineDoc():
-'''public boolean isInlineDoc()
-'''
-pass
+    '''    public boolean isInlineDoc()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def readRequestBody():
-'''public byte[] readRequestBody()
-'''
-pass
+    '''    public byte[] readRequestBody()
+    '''
 def setHttpServletResponse():
-'''public void setHttpServletResponse(final HttpServletResponse response)
-'''
-pass
+    '''    public void setHttpServletResponse(final HttpServletResponse response)
+    '''
 def getHttpServletResponse():
-'''public HttpServletResponse getHttpServletResponse()
-'''
-pass
+    '''    public HttpServletResponse getHttpServletResponse()
+    '''
 def setInMemorySort():
-'''public void setInMemorySort(final boolean inmemsort)
-'''
-pass
+    '''    public void setInMemorySort(final boolean inmemsort)
+    '''
 def isInMemorySort():
-'''public boolean isInMemorySort()
-'''
-pass
+    '''    public boolean isInMemorySort()
+    '''
 def invlaidateSession():
-'''public void invlaidateSession()
-'''
-pass
+    '''    public void invlaidateSession()
+    '''
 def bindMboToSession():
-'''public String bindMboToSession(final String osName, final MboRemote mbo)
-'''
-pass
+    '''    public String bindMboToSession(final String osName, final MboRemote mbo)
+    '''
 def unbindMboFromSession():
-'''public MboRemote unbindMboFromSession(final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote unbindMboFromSession(final MboRemote mbo)
+    '''
 def getHeader():
-'''public String getHeader(final String headerName)
-'''
-pass
+    '''    public String getHeader(final String headerName)
+    '''
 def copy():
-'''public OslcRequest copy(final Map<String, List<String>> bulkHeaders, final Map<String, String[]> bulkQueryParams)
-'''
-pass
+    '''    public OslcRequest copy(final Map<String, List<String>> bulkHeaders, final Map<String, String[]> bulkQueryParams)
+    '''
 def isRelatedRef():
-'''public boolean isRelatedRef()
-'''
-pass
+    '''    public boolean isRelatedRef()
+    '''
 def isLocalRef():
-'''public boolean isLocalRef()
-'''
-pass
+    '''    public boolean isLocalRef()
+    '''
 def getAbsoluteURI():
-'''public String getAbsoluteURI()
-'''
-pass
+    '''    public String getAbsoluteURI()
+    '''
 def getDistinctClause():
-'''public String getDistinctClause()
-'''
-pass
+    '''    public String getDistinctClause()
+    '''
 def isDistinct():
-'''public boolean isDistinct()
-'''
-pass
+    '''    public boolean isDistinct()
+    '''
 def isAction():
-'''public boolean isAction()
-'''
-pass
+    '''    public boolean isAction()
+    '''
 def isMaxSSO():
-'''public boolean isMaxSSO()
-'''
-pass
+    '''    public boolean isMaxSSO()
+    '''
 def isCollectionCount():
-'''public boolean isCollectionCount()
-'''
-pass
+    '''    public boolean isCollectionCount()
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def getTemplate():
-'''public String getTemplate()
-'''
-pass
+    '''    public String getTemplate()
+    '''
 def isBulkOperation():
-'''public boolean isBulkOperation()
-'''
-pass
+    '''    public boolean isBulkOperation()
+    '''
 def setResourcePath():
-'''public void setResourcePath(final List<String> resPath)
-'''
-pass
+    '''    public void setResourcePath(final List<String> resPath)
+    '''
 def addIDToURI():
-'''public void addIDToURI(final String id)
-'''
-pass
+    '''    public void addIDToURI(final String id)
+    '''
 def replaceIDToURI():
-'''public void replaceIDToURI(final String id)
-'''
-pass
+    '''    public void replaceIDToURI(final String id)
+    '''
 def getAbsolutePath():
-'''public List<String> getAbsolutePath()
-'''
-pass
+    '''    public List<String> getAbsolutePath()
+    '''
 def truncateAbsolutePath():
-'''public void truncateAbsolutePath(final int num)
-'''
-pass
+    '''    public void truncateAbsolutePath(final int num)
+    '''
 def getRequestPublicURI():
-'''public String getRequestPublicURI()
-'''
-pass
+    '''    public String getRequestPublicURI()
+    '''
 def isAllowEvents():
-'''public boolean isAllowEvents()
-'''
-pass
+    '''    public boolean isAllowEvents()
+    '''
 def isListTemplate():
-'''public boolean isListTemplate()
-'''
-pass
+    '''    public boolean isListTemplate()
+    '''
 def isChangePasswordSession():
-'''public boolean isChangePasswordSession()
-'''
-pass
+    '''    public boolean isChangePasswordSession()
+    '''
 def isRegUserSession():
-'''public boolean isRegUserSession()
-'''
-pass
+    '''    public boolean isRegUserSession()
+    '''
 def getResourcePath():
-'''public List<String> getResourcePath()
-'''
-pass
+    '''    public List<String> getResourcePath()
+    '''
 def getRequestURL():
-'''public String getRequestURL()
-'''
-pass
+    '''    public String getRequestURL()
+    '''
 def isLeanJSON():
-'''public boolean isLeanJSON()
-'''
-pass
+    '''    public boolean isLeanJSON()
+    '''
 def getAttachmentDocType():
-'''public String[] getAttachmentDocType()
-'''
-pass
+    '''    public String[] getAttachmentDocType()
+    '''
 def getLinkHeader():
-'''public String getLinkHeader()
-'''
-pass
+    '''    public String getLinkHeader()
+    '''
 def getContentLocationHeader():
-'''public String getContentLocationHeader()
-'''
-pass
+    '''    public String getContentLocationHeader()
+    '''
 def getAttachmentDescription():
-'''public String getAttachmentDescription()
-'''
-pass
+    '''    public String getAttachmentDescription()
+    '''
 def getAttachmentEncDescription():
-'''public String getAttachmentEncDescription()
-'''
-pass
+    '''    public String getAttachmentEncDescription()
+    '''
 def getAttachmentExternalID():
-'''public String getAttachmentExternalID()
-'''
-pass
+    '''    public String getAttachmentExternalID()
+    '''
 def isEditMode():
-'''public boolean isEditMode()
-'''
-pass
+    '''    public boolean isEditMode()
+    '''
 def isSetValueMode():
-'''public boolean isSetValueMode()
-'''
-pass
+    '''    public boolean isSetValueMode()
+    '''
 def getSelfRef():
-'''public String getSelfRef()
-'''
-pass
+    '''    public String getSelfRef()
+    '''
 def isShowHidden():
-'''public boolean isShowHidden()
-'''
-pass
+    '''    public boolean isShowHidden()
+    '''
 def isDropNulls():
-'''public boolean isDropNulls()
-'''
-pass
+    '''    public boolean isDropNulls()
+    '''
 def getSavedQueryParams():
-'''public Map<String, String> getSavedQueryParams()
-'''
-pass
+    '''    public Map<String, String> getSavedQueryParams()
+    '''
 def isSubmitSession():
-'''public boolean isSubmitSession()
-'''
-pass
+    '''    public boolean isSubmitSession()
+    '''
 def isInitiateStablePaging():
-'''public boolean isInitiateStablePaging()
-'''
-pass
+    '''    public boolean isInitiateStablePaging()
+    '''
 def isCount():
-'''public boolean isCount()
-'''
-pass
+    '''    public boolean isCount()
+    '''
 def isAllowedActions():
-'''public boolean isAllowedActions()
-'''
-pass
+    '''    public boolean isAllowedActions()
+    '''
 def getSavedQuery():
-'''public String getSavedQuery()
-'''
-pass
+    '''    public String getSavedQuery()
+    '''
 def getOslcResourceURI():
-'''public String getOslcResourceURI()
-'''
-pass
+    '''    public String getOslcResourceURI()
+    '''
 def getOslcRequestURI():
-'''public String getOslcRequestURI()
-'''
-pass
+    '''    public String getOslcRequestURI()
+    '''
 def getOslcQuery():
-'''public OslcQuery getOslcQuery()
-'''
-pass
+    '''    public OslcQuery getOslcQuery()
+    '''
 def getResourceQBE():
-'''public Map<String, String> getResourceQBE()
-'''
-pass
+    '''    public Map<String, String> getResourceQBE()
+    '''
 def isGETByPOST():
-'''public boolean isGETByPOST()
-'''
-pass
+    '''    public boolean isGETByPOST()
+    '''
 def getResponseFormatMimeTypeMap():
-'''public Map<String, String> getResponseFormatMimeTypeMap()
-'''
-pass
+    '''    public Map<String, String> getResponseFormatMimeTypeMap()
+    '''
 def getRequestFormatMimeTypeMap():
-'''public Map<String, String> getRequestFormatMimeTypeMap()
-'''
-pass
+    '''    public Map<String, String> getRequestFormatMimeTypeMap()
+    '''
 def getDefaultFormat():
-'''public String getDefaultFormat()
-'''
-pass
+    '''    public String getDefaultFormat()
+    '''
 def getStableResourceId():
-'''public String getStableResourceId()
-'''
-pass
+    '''    public String getStableResourceId()
+    '''
 def useFetchLimit():
-'''public boolean useFetchLimit()
-'''
-pass
+    '''    public boolean useFetchLimit()
+    '''
 def getGBFilter():
-'''public String getGBFilter()
-'''
-pass
+    '''    public String getGBFilter()
+    '''
 def getGroupByAttributes():
-'''public String getGroupByAttributes()
-'''
-pass
+    '''    public String getGroupByAttributes()
+    '''
 def getGroupBySortOrder():
-'''public String getGroupBySortOrder()
-'''
-pass
+    '''    public String getGroupBySortOrder()
+    '''
 def getGroupByRelations():
-'''public String getGroupByRelations()
-'''
-pass
+    '''    public String getGroupByRelations()
+    '''
 def getGroupByRelationProperties():
-'''public String getGroupByRelationProperties()
-'''
-pass
+    '''    public String getGroupByRelationProperties()
+    '''
 def getGroupByTemplate():
-'''public String getGroupByTemplate()
-'''
-pass
+    '''    public String getGroupByTemplate()
+    '''
 def getGroupByRange():
-'''public String getGroupByRange()
-'''
-pass
+    '''    public String getGroupByRange()
+    '''
 def getQueryTemplate():
-'''public String getQueryTemplate()
-'''
-pass
+    '''    public String getQueryTemplate()
+    '''
 def getSchemaSearchTerm():
-'''public String getSchemaSearchTerm()
-'''
-pass
+    '''    public String getSchemaSearchTerm()
+    '''
 def getSchemaOrderBy():
-'''public String getSchemaOrderBy()
-'''
-pass
+    '''    public String getSchemaOrderBy()
+    '''
 def isGroupBy():
-'''public boolean isGroupBy()
-'''
-pass
+    '''    public boolean isGroupBy()
+    '''
 def isQueryTemplate():
-'''public boolean isQueryTemplate()
-'''
-pass
+    '''    public boolean isQueryTemplate()
+    '''
 def internalValues():
-'''public boolean internalValues()
-'''
-pass
+    '''    public boolean internalValues()
+    '''
 def getDependentSubSelects():
-'''public Map<String, String> getDependentSubSelects()
-'''
-pass
+    '''    public Map<String, String> getDependentSubSelects()
+    '''
 def getSubSelectRefs():
-'''public Map<String, String[]> getSubSelectRefs()
-'''
-pass
+    '''    public Map<String, String[]> getSubSelectRefs()
+    '''
 def invalidateSession():
-'''public void invalidateSession()
-'''
-pass
+    '''    public void invalidateSession()
+    '''
 def getQueryString():
-'''public Object getQueryString()
-'''
-pass
+    '''    public Object getQueryString()
+    '''
 def getTimeLineAttribute():
-'''public String getTimeLineAttribute()
-'''
-pass
+    '''    public String getTimeLineAttribute()
+    '''
 def getTimeLineRange():
-'''public String getTimeLineRange()
-'''
-pass
+    '''    public String getTimeLineRange()
+    '''
 def isSetLocalizedRep():
-'''public boolean isSetLocalizedRep()
-'''
-pass
+    '''    public boolean isSetLocalizedRep()
+    '''
 def getUserWhere():
-'''public String getUserWhere()
-'''
-pass
+    '''    public String getUserWhere()
+    '''
 def getMaxRowStamp():
-'''public Long getMaxRowStamp()
-'''
-pass
+    '''    public Long getMaxRowStamp()
+    '''
 def isFetchModeDelta():
-'''public boolean isFetchModeDelta()
-'''
-pass
+    '''    public boolean isFetchModeDelta()
+    '''
 def isAddQueryMeta():
-'''public boolean isAddQueryMeta()
-'''
-pass
+    '''    public boolean isAddQueryMeta()
+    '''
 def getNpFilter():
-'''public String getNpFilter()
-'''
-pass
+    '''    public String getNpFilter()
+    '''
 def isAddID():
-'''public boolean isAddID()
-'''
-pass
+    '''    public boolean isAddID()
+    '''
 def getTimeLineFilter():
-'''public String getTimeLineFilter()
-'''
-pass
+    '''    public String getTimeLineFilter()
+    '''
 def isResourceMeta():
-'''public boolean isResourceMeta()
-'''
-pass
+    '''    public boolean isResourceMeta()
+    '''
 def isContentLocalized():
-'''public boolean isContentLocalized()
-'''
-pass
+    '''    public boolean isContentLocalized()
+    '''
 def getQbeFilter():
-'''public String getQbeFilter()
-'''
-pass
+    '''    public String getQbeFilter()
+    '''
 def isAddDomainMeta():
-'''public boolean isAddDomainMeta()
-'''
-pass
+    '''    public boolean isAddDomainMeta()
+    '''
 def getCanChangeExternalStatus():
-'''public String[] getCanChangeExternalStatus(final String objectName)
-'''
-pass
+    '''    public String[] getCanChangeExternalStatus(final String objectName)
+    '''
 def getCanChangeMaxStatus():
-'''public String[] getCanChangeMaxStatus(final String objectName)
-'''
-pass
+    '''    public String[] getCanChangeMaxStatus(final String objectName)
+    '''
 def isWhoAmIApi():
-'''public boolean isWhoAmIApi()
-'''
-pass
+    '''    public boolean isWhoAmIApi()
+    '''
 def getSetValueEvalChild():
-'''public Map<String, Set<String>> getSetValueEvalChild()
-'''
-pass
+    '''    public Map<String, Set<String>> getSetValueEvalChild()
+    '''
 def isTlModeDate():
-'''public boolean isTlModeDate()
-'''
-pass
+    '''    public boolean isTlModeDate()
+    '''
 def isStrictSchema():
-'''public boolean isStrictSchema()
-'''
-pass
+    '''    public boolean isStrictSchema()
+    '''

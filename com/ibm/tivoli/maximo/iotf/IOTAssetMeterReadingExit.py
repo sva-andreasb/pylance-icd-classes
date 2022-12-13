@@ -1,12 +1,9 @@
 def IOTAssetMeterReadingExit():
-'''public IOTAssetMeterReadingExit()
-'''
-pass
+    '''    public IOTAssetMeterReadingExit()
+    '''
 def mapRTIData():
-'''public StructureData mapRTIData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)
-'''
-pass
+    '''    public StructureData mapRTIData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)
+    '''
 def mapHistorianData():
-'''public StructureData mapHistorianData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)
-'''
-pass
+    '''    public StructureData mapHistorianData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTFDeviceTypeInfo deviceTypeInfo)
+    '''

@@ -1,17 +1,13 @@
 def f():
-'''public f(final InputStream inputStream, final FromDiagramsOptions a)
-'''
-pass
+    '''    public f(final InputStream inputStream, final FromDiagramsOptions a)
+    '''
 def a():
-'''public Diagram a()
-public FromDiagramsOptions a()
-'''
-pass
+    '''    public Diagram a()
+    public FromDiagramsOptions a()
+    '''
 def getPagesCount():
-'''public int getPagesCount()
-'''
-pass
+    '''    public int getPagesCount()
+    '''
 def bindSaveOptions():
-'''public ILoader<Diagram, FromDiagramsOptions> bindSaveOptions(final SaveOptions saveOptions)
-'''
-pass
+    '''    public ILoader<Diagram, FromDiagramsOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''

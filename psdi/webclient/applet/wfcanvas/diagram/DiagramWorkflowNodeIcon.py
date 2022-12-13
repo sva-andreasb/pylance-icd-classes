@@ -1,4 +1,3 @@
 def DiagramWorkflowNodeIcon():
-'''public DiagramWorkflowNodeIcon(final DiagramWorkflowNode node)
-'''
-pass
+    '''    public DiagramWorkflowNodeIcon(final DiagramWorkflowNode node)
+    '''

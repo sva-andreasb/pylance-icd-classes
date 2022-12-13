@@ -1,4 +1,3 @@
 def FldSiteLaborcode():
-'''public FldSiteLaborcode(final MboValue mbv)
-'''
-pass
+    '''    public FldSiteLaborcode(final MboValue mbv)
+    '''

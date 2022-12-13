@@ -1,36 +1,27 @@
 def getChartBean():
-'''public SimpleChartBean getChartBean()
-'''
-pass
+    '''    public SimpleChartBean getChartBean()
+    '''
 def getChart():
-'''public Chart getChart(final ChartRequestOptions options)
-'''
-pass
+    '''    public Chart getChart(final ChartRequestOptions options)
+    '''
 def getChartIds():
-'''public Map<String, String> getChartIds()
-'''
-pass
+    '''    public Map<String, String> getChartIds()
+    '''
 def getSupportedChartTypes():
-'''public JSONArray getSupportedChartTypes()
-'''
-pass
+    '''    public JSONArray getSupportedChartTypes()
+    '''
 def getSupportedChartThemes():
-'''public JSONArray getSupportedChartThemes()
-'''
-pass
+    '''    public JSONArray getSupportedChartThemes()
+    '''
 def async_get_chart_data():
-'''public int async_get_chart_data()
-'''
-pass
+    '''    public int async_get_chart_data()
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def toEmulatedBidi():
-'''public static String toEmulatedBidi(final String rtlString)
-'''
-pass
+    '''    public static String toEmulatedBidi(final String rtlString)
+    '''

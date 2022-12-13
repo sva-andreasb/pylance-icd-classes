@@ -1,75 +1,58 @@
-STOPPED = "String  STOPPED""
-FAILED = "String  FAILED""
-STARTING = "String  STARTING""
-STARTED = "String  STARTED""
-STOPPING = "String  STOPPING""
-RUNNING = "String  RUNNING""
+STOPPED = "String  \"STOPPED\""
+FAILED = "String  \"FAILED\""
+STARTING = "String  \"STARTING\""
+STARTED = "String  \"STARTED\""
+STOPPING = "String  \"STOPPING\""
+RUNNING = "String  \"RUNNING\""
 def AbstractLifeCycle():
-'''public AbstractLifeCycle()
-'''
-pass
+    '''    public AbstractLifeCycle()
+    '''
 def start():
-'''public final void start()
-'''
-pass
+    '''    public final void start()
+    '''
 def stop():
-'''public final void stop()
-'''
-pass
+    '''    public final void stop()
+    '''
 def isRunning():
-'''public boolean isRunning()
-'''
-pass
+    '''    public boolean isRunning()
+    '''
 def isStarted():
-'''public boolean isStarted()
-'''
-pass
+    '''    public boolean isStarted()
+    '''
 def isStarting():
-'''public boolean isStarting()
-'''
-pass
+    '''    public boolean isStarting()
+    '''
 def isStopping():
-'''public boolean isStopping()
-'''
-pass
+    '''    public boolean isStopping()
+    '''
 def isStopped():
-'''public boolean isStopped()
-'''
-pass
+    '''    public boolean isStopped()
+    '''
 def isFailed():
-'''public boolean isFailed()
-'''
-pass
+    '''    public boolean isFailed()
+    '''
 def addLifeCycleListener():
-'''public void addLifeCycleListener(final Listener listener)
-'''
-pass
+    '''    public void addLifeCycleListener(final Listener listener)
+    '''
 def removeLifeCycleListener():
-'''public void removeLifeCycleListener(final Listener listener)
-'''
-pass
+    '''    public void removeLifeCycleListener(final Listener listener)
+    '''
 def getState():
-'''public String getState()
-public static String getState(final LifeCycle lc)
-'''
-pass
+    '''    public String getState()
+    public static String getState(final LifeCycle lc)
+    '''
 def lifeCycleFailure():
-'''public void lifeCycleFailure(final LifeCycle event, final Throwable cause)
-'''
-pass
+    '''    public void lifeCycleFailure(final LifeCycle event, final Throwable cause)
+    '''
 def lifeCycleStarted():
-'''public void lifeCycleStarted(final LifeCycle event)
-'''
-pass
+    '''    public void lifeCycleStarted(final LifeCycle event)
+    '''
 def lifeCycleStarting():
-'''public void lifeCycleStarting(final LifeCycle event)
-'''
-pass
+    '''    public void lifeCycleStarting(final LifeCycle event)
+    '''
 def lifeCycleStopped():
-'''public void lifeCycleStopped(final LifeCycle event)
-'''
-pass
+    '''    public void lifeCycleStopped(final LifeCycle event)
+    '''
 def lifeCycleStopping():
-'''public void lifeCycleStopping(final LifeCycle event)
-'''
-pass
+    '''    public void lifeCycleStopping(final LifeCycle event)
+    '''

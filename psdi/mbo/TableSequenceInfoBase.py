@@ -1,8 +1,6 @@
 def getSequenceName():
-'''public String getSequenceName(final String columnName)
-'''
-pass
+    '''    public String getSequenceName(final String columnName)
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

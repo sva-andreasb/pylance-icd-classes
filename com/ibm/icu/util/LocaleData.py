@@ -10,53 +10,41 @@ ALT_QUOTATION_START = "int  2"
 ALT_QUOTATION_END = "int  3"
 DELIMITER_COUNT = "int  4"
 def getExemplarSet():
-'''public static UnicodeSet getExemplarSet(final ULocale locale, final int options)
-public static UnicodeSet getExemplarSet(final ULocale locale, final int options, final int extype)
-public UnicodeSet getExemplarSet(final int options, final int extype)
-'''
-pass
+    '''    public static UnicodeSet getExemplarSet(final ULocale locale, final int options)
+    public static UnicodeSet getExemplarSet(final ULocale locale, final int options, final int extype)
+    public UnicodeSet getExemplarSet(final int options, final int extype)
+    '''
 def getInstance():
-'''public static final LocaleData getInstance(final ULocale locale)
-public static final LocaleData getInstance()
-'''
-pass
+    '''    public static final LocaleData getInstance(final ULocale locale)
+    public static final LocaleData getInstance()
+    '''
 def setNoSubstitute():
-'''public void setNoSubstitute(final boolean setting)
-'''
-pass
+    '''    public void setNoSubstitute(final boolean setting)
+    '''
 def getNoSubstitute():
-'''public boolean getNoSubstitute()
-'''
-pass
+    '''    public boolean getNoSubstitute()
+    '''
 def getDelimiter():
-'''public String getDelimiter(final int type)
-'''
-pass
+    '''    public String getDelimiter(final int type)
+    '''
 def getMeasurementSystem():
-'''public static final MeasurementSystem getMeasurementSystem(final ULocale locale)
-'''
-pass
+    '''    public static final MeasurementSystem getMeasurementSystem(final ULocale locale)
+    '''
 def getPaperSize():
-'''public static final PaperSize getPaperSize(final ULocale locale)
-'''
-pass
+    '''    public static final PaperSize getPaperSize(final ULocale locale)
+    '''
 def getLocaleDisplayPattern():
-'''public String getLocaleDisplayPattern()
-'''
-pass
+    '''    public String getLocaleDisplayPattern()
+    '''
 def getLocaleSeparator():
-'''public String getLocaleSeparator()
-'''
-pass
+    '''    public String getLocaleSeparator()
+    '''
 def getCLDRVersion():
-'''public static VersionInfo getCLDRVersion()
-'''
-pass
+    '''    public static VersionInfo getCLDRVersion()
+    '''
 def getHeight():
-'''public int getHeight()
-'''
-pass
+    '''    public int getHeight()
+    '''
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''

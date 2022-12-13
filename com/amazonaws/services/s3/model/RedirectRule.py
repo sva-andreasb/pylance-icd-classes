@@ -1,60 +1,45 @@
 def setProtocol():
-'''public void setProtocol(final String protocol)
-'''
-pass
+    '''    public void setProtocol(final String protocol)
+    '''
 def getprotocol():
-'''public String getprotocol()
-'''
-pass
+    '''    public String getprotocol()
+    '''
 def withProtocol():
-'''public RedirectRule withProtocol(final String protocol)
-'''
-pass
+    '''    public RedirectRule withProtocol(final String protocol)
+    '''
 def setHostName():
-'''public void setHostName(final String hostName)
-'''
-pass
+    '''    public void setHostName(final String hostName)
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def withHostName():
-'''public RedirectRule withHostName(final String hostName)
-'''
-pass
+    '''    public RedirectRule withHostName(final String hostName)
+    '''
 def setReplaceKeyPrefixWith():
-'''public void setReplaceKeyPrefixWith(final String replaceKeyPrefixWith)
-'''
-pass
+    '''    public void setReplaceKeyPrefixWith(final String replaceKeyPrefixWith)
+    '''
 def getReplaceKeyPrefixWith():
-'''public String getReplaceKeyPrefixWith()
-'''
-pass
+    '''    public String getReplaceKeyPrefixWith()
+    '''
 def withReplaceKeyPrefixWith():
-'''public RedirectRule withReplaceKeyPrefixWith(final String replaceKeyPrefixWith)
-'''
-pass
+    '''    public RedirectRule withReplaceKeyPrefixWith(final String replaceKeyPrefixWith)
+    '''
 def setReplaceKeyWith():
-'''public void setReplaceKeyWith(final String replaceKeyWith)
-'''
-pass
+    '''    public void setReplaceKeyWith(final String replaceKeyWith)
+    '''
 def getReplaceKeyWith():
-'''public String getReplaceKeyWith()
-'''
-pass
+    '''    public String getReplaceKeyWith()
+    '''
 def withReplaceKeyWith():
-'''public RedirectRule withReplaceKeyWith(final String replaceKeyWith)
-'''
-pass
+    '''    public RedirectRule withReplaceKeyWith(final String replaceKeyWith)
+    '''
 def setHttpRedirectCode():
-'''public void setHttpRedirectCode(final String httpRedirectCode)
-'''
-pass
+    '''    public void setHttpRedirectCode(final String httpRedirectCode)
+    '''
 def getHttpRedirectCode():
-'''public String getHttpRedirectCode()
-'''
-pass
+    '''    public String getHttpRedirectCode()
+    '''
 def withHttpRedirectCode():
-'''public RedirectRule withHttpRedirectCode(final String httpRedirectCode)
-'''
-pass
+    '''    public RedirectRule withHttpRedirectCode(final String httpRedirectCode)
+    '''

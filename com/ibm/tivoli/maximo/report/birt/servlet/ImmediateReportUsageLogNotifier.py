@@ -1,88 +1,66 @@
 def ImmediateReportUsageLogNotifier():
-'''public ImmediateReportUsageLogNotifier()
-'''
-pass
+    '''    public ImmediateReportUsageLogNotifier()
+    '''
 def setStatus():
-'''public void setStatus(final String status, final String msg)
-'''
-pass
+    '''    public void setStatus(final String status, final String msg)
+    '''
 def setMXServerRemote():
-'''public void setMXServerRemote(final MXServerRemote mxServerRemote)
-'''
-pass
+    '''    public void setMXServerRemote(final MXServerRemote mxServerRemote)
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def setReportLogger():
-'''public void setReportLogger(final ReportLogger reportLogger)
-'''
-pass
+    '''    public void setReportLogger(final ReportLogger reportLogger)
+    '''
 def getBirtAdminService():
-'''public ReportAdminServiceRemote getBirtAdminService()
-'''
-pass
+    '''    public ReportAdminServiceRemote getBirtAdminService()
+    '''
 def setBirtAdminService():
-'''public void setBirtAdminService(final ReportAdminServiceRemote birtAdminService)
-'''
-pass
+    '''    public void setBirtAdminService(final ReportAdminServiceRemote birtAdminService)
+    '''
 def setAppName():
-'''public void setAppName(final String appName)
-'''
-pass
+    '''    public void setAppName(final String appName)
+    '''
 def setReportName():
-'''public void setReportName(final String reportName)
-'''
-pass
+    '''    public void setReportName(final String reportName)
+    '''
 def setEnterDate():
-'''public void setEnterDate(final Date enterDate)
-'''
-pass
+    '''    public void setEnterDate(final Date enterDate)
+    '''
 def setStartDate():
-'''public void setStartDate(final Date startDate)
-'''
-pass
+    '''    public void setStartDate(final Date startDate)
+    '''
 def setEndDate():
-'''public void setEndDate(final Date endDate)
-'''
-pass
+    '''    public void setEndDate(final Date endDate)
+    '''
 def setRuntime():
-'''public void setRuntime(final long runtime)
-'''
-pass
+    '''    public void setRuntime(final long runtime)
+    '''
 def setSuccess():
-'''public void setSuccess(final boolean success)
-'''
-pass
+    '''    public void setSuccess(final boolean success)
+    '''
 def setReportFailed():
-'''public void setReportFailed()
-'''
-pass
+    '''    public void setReportFailed()
+    '''
 def setUserId():
-'''public void setUserId(final String userId)
-'''
-pass
+    '''    public void setUserId(final String userId)
+    '''
 def setHostName():
-'''public void setHostName(final String hostName)
-'''
-pass
+    '''    public void setHostName(final String hostName)
+    '''
 def setServerName():
-'''public void setServerName(final String serverName)
-'''
-pass
+    '''    public void setServerName(final String serverName)
+    '''
 def setTransientReport():
-'''public void setTransientReport(final boolean isTransientReport)
-'''
-pass
+    '''    public void setTransientReport(final boolean isTransientReport)
+    '''
 def setReportExecuted():
-'''public void setReportExecuted()
-'''
-pass
+    '''    public void setReportExecuted()
+    '''
 def createUsageLog():
-'''public void createUsageLog()
-'''
-pass
+    '''    public void createUsageLog()
+    '''
 def setReportCancelled():
-'''public void setReportCancelled()
-'''
-pass
+    '''    public void setReportCancelled()
+    '''

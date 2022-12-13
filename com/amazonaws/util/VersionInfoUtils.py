@@ -1,12 +1,9 @@
 def getVersion():
-'''public static String getVersion()
-'''
-pass
+    '''    public static String getVersion()
+    '''
 def getPlatform():
-'''public static String getPlatform()
-'''
-pass
+    '''    public static String getPlatform()
+    '''
 def getUserAgent():
-'''public static String getUserAgent()
-'''
-pass
+    '''    public static String getUserAgent()
+    '''

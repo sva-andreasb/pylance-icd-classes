@@ -1,32 +1,24 @@
 def getVersion():
-'''public static String getVersion()
-'''
-pass
+    '''    public static String getVersion()
+    '''
 def getFullVersion():
-'''public static String getFullVersion()
-'''
-pass
+    '''    public static String getFullVersion()
+    '''
 def getVersionMajor():
-'''public static int getVersionMajor()
-'''
-pass
+    '''    public static int getVersionMajor()
+    '''
 def getVersionMinor():
-'''public static int getVersionMinor()
-'''
-pass
+    '''    public static int getVersionMinor()
+    '''
 def getVersionRevision():
-'''public static int getVersionRevision()
-'''
-pass
+    '''    public static int getVersionRevision()
+    '''
 def getBuildTime():
-'''public static long getBuildTime()
-'''
-pass
+    '''    public static long getBuildTime()
+    '''
 def getBuildId():
-'''public static String getBuildId()
-'''
-pass
+    '''    public static String getBuildId()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

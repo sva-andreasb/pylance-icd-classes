@@ -1,12 +1,9 @@
 def FldSLAVendor():
-'''public FldSLAVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldSLAVendor(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

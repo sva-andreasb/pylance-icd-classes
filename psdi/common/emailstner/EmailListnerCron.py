@@ -1,20 +1,15 @@
 def EmailListnerCron():
-'''public EmailListnerCron()
-'''
-pass
+    '''    public EmailListnerCron()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstanceName():
-'''public String getInstanceName()
-'''
-pass
+    '''    public String getInstanceName()
+    '''
 def getRunAsUserName():
-'''public String getRunAsUserName()
-'''
-pass
+    '''    public String getRunAsUserName()
+    '''

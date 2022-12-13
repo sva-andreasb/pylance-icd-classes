@@ -1,13 +1,10 @@
 def Holder():
-'''public Holder()
-public Holder(final V defaultValue)
-'''
-pass
+    '''    public Holder()
+    public Holder(final V defaultValue)
+    '''
 def set():
-'''public void set(final V value)
-'''
-pass
+    '''    public void set(final V value)
+    '''
 def get():
-'''public V get()
-'''
-pass
+    '''    public V get()
+    '''

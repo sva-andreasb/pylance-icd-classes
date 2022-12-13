@@ -1,24 +1,18 @@
 def WhereUsed():
-'''public WhereUsed(final MboSet ms)
-'''
-pass
+    '''    public WhereUsed(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def deleteAssociatedSparePart():
-'''public void deleteAssociatedSparePart()
-'''
-pass
+    '''    public void deleteAssociatedSparePart()
+    '''

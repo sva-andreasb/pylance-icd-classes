@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def HeaderSideEffect():
-'''public HeaderSideEffect(final String name, final String value, final boolean set)
-'''
-pass
+    '''    public HeaderSideEffect(final String name, final String value, final boolean set)
+    '''
 def performSideEffect():
-'''public void performSideEffect(final HttpServletResponse response)
-'''
-pass
+    '''    public void performSideEffect(final HttpServletResponse response)
+    '''

@@ -1,202 +1,153 @@
 def OslcJSONStructureData():
-'''public OslcJSONStructureData(final JSONArtifact data, final String mosName, final String path, final UserInfo userInfo, final String messageType, final boolean leanJson)
-'''
-pass
+    '''    public OslcJSONStructureData(final JSONArtifact data, final String mosName, final String path, final UserInfo userInfo, final String messageType, final boolean leanJson)
+    '''
 def isBroken():
-'''public boolean isBroken()
-'''
-pass
+    '''    public boolean isBroken()
+    '''
 def addObjectStructure():
-'''public void addObjectStructure()
-'''
-pass
+    '''    public void addObjectStructure()
+    '''
 def moveToNextObjectStructure():
-'''public boolean moveToNextObjectStructure()
-'''
-pass
+    '''    public boolean moveToNextObjectStructure()
+    '''
 def moveToPrevObjectStructure():
-'''public boolean moveToPrevObjectStructure()
-'''
-pass
+    '''    public boolean moveToPrevObjectStructure()
+    '''
 def moveToFirstObjectStruture():
-'''public void moveToFirstObjectStruture()
-'''
-pass
+    '''    public void moveToFirstObjectStruture()
+    '''
 def removeCurrentObjectStructure():
-'''public void removeCurrentObjectStructure()
-'''
-pass
+    '''    public void removeCurrentObjectStructure()
+    '''
 def removeChildrenFromPrimaryObject():
-'''public void removeChildrenFromPrimaryObject()
-'''
-pass
+    '''    public void removeChildrenFromPrimaryObject()
+    '''
 def getData():
-'''public Document getData()
-'''
-pass
+    '''    public Document getData()
+    '''
 def hasDocument():
-'''public boolean hasDocument()
-'''
-pass
+    '''    public boolean hasDocument()
+    '''
 def getDataAsBytes():
-'''public byte[] getDataAsBytes()
-'''
-pass
+    '''    public byte[] getDataAsBytes()
+    '''
 def getOriginalByteData():
-'''public byte[] getOriginalByteData()
-'''
-pass
+    '''    public byte[] getOriginalByteData()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def breakData():
-'''public void breakData()
-'''
-pass
+    '''    public void breakData()
+    '''
 def breakObjectStructure():
-'''public void breakObjectStructure()
-'''
-pass
+    '''    public void breakObjectStructure()
+    '''
 def setMicData():
-'''public StructureObject setMicData(final Element data)
-'''
-pass
+    '''    public StructureObject setMicData(final Element data)
+    '''
 def createChildrenData():
-'''public void createChildrenData(final String name, final boolean setAsCurrent)
-'''
-pass
+    '''    public void createChildrenData(final String name, final boolean setAsCurrent)
+    '''
 def setParentAsCurrent():
-'''public boolean setParentAsCurrent()
-'''
-pass
+    '''    public boolean setParentAsCurrent()
+    '''
 def getPrimaryObjectList():
-'''public List getPrimaryObjectList()
-'''
-pass
+    '''    public List getPrimaryObjectList()
+    '''
 def getHierarchyObjectList():
-'''public List getHierarchyObjectList()
-'''
-pass
+    '''    public List getHierarchyObjectList()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def isMultiObjectStructure():
-'''public boolean isMultiObjectStructure()
-'''
-pass
+    '''    public boolean isMultiObjectStructure()
+    '''
 def getPrimaryObjectName():
-'''public String getPrimaryObjectName()
-'''
-pass
+    '''    public String getPrimaryObjectName()
+    '''
 def getLanguage():
-'''public String getLanguage()
-'''
-pass
+    '''    public String getLanguage()
+    '''
 def getTransLanguage():
-'''public String getTransLanguage()
-'''
-pass
+    '''    public String getTransLanguage()
+    '''
 def getPrimaryObject():
-'''public Element getPrimaryObject()
-'''
-pass
+    '''    public Element getPrimaryObject()
+    '''
 def getPrimaryObjectAsObject():
-'''public Object getPrimaryObjectAsObject()
-'''
-pass
+    '''    public Object getPrimaryObjectAsObject()
+    '''
 def getStructureObject():
-'''public StructureObject getStructureObject(final int pos)
-public StructureObject getStructureObject(final String xPathExpression)
-'''
-pass
+    '''    public StructureObject getStructureObject(final int pos)
+    public StructureObject getStructureObject(final String xPathExpression)
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def isActionNull():
-'''public boolean isActionNull()
-'''
-pass
+    '''    public boolean isActionNull()
+    '''
 def getMessageID():
-'''public String getMessageID()
-'''
-pass
+    '''    public String getMessageID()
+    '''
 def removeCurrentData():
-'''public void removeCurrentData()
-'''
-pass
+    '''    public void removeCurrentData()
+    '''
 def setPrimaryObject():
-'''public void setPrimaryObject(final Element h)
-public void setPrimaryObject(final String name)
-'''
-pass
+    '''    public void setPrimaryObject(final Element h)
+    public void setPrimaryObject(final String name)
+    '''
 def setCurrentPosition():
-'''public void setCurrentPosition(final int pos)
-'''
-pass
+    '''    public void setCurrentPosition(final int pos)
+    '''
 def getCurrentPosition():
-'''public int getCurrentPosition()
-'''
-pass
+    '''    public int getCurrentPosition()
+    '''
 def getRootName():
-'''public String getRootName()
-'''
-pass
+    '''    public String getRootName()
+    '''
 def setAction():
-'''public void setAction(final String action)
-'''
-pass
+    '''    public void setAction(final String action)
+    '''
 def setActionNull():
-'''public void setActionNull()
-'''
-pass
+    '''    public void setActionNull()
+    '''
 def setChildrenData():
-'''public void setChildrenData(final List<Element> l)
-'''
-pass
+    '''    public void setChildrenData(final List<Element> l)
+    '''
 def setAsCurrent():
-'''public StructureObject setAsCurrent(final Element data)
-public StructureObject setAsCurrent(final Object data)
-public void setAsCurrent(final List data, final int i)
-public StructureObject setAsCurrent()
-public StructureObject setAsCurrent(final String xPathExpression)
-'''
-pass
+    '''    public StructureObject setAsCurrent(final Element data)
+    public StructureObject setAsCurrent(final Object data)
+    public void setAsCurrent(final List data, final int i)
+    public StructureObject setAsCurrent()
+    public StructureObject setAsCurrent(final String xPathExpression)
+    '''
 def getXPathData():
-'''public String getXPathData(final String xPathExpression)
-'''
-pass
+    '''    public String getXPathData(final String xPathExpression)
+    '''
 def getStructureObjectList():
-'''public List getStructureObjectList(final String xPathExpression)
-'''
-pass
+    '''    public List getStructureObjectList(final String xPathExpression)
+    '''
 def setMessageID():
-'''public void setMessageID(final String id)
-'''
-pass
+    '''    public void setMessageID(final String id)
+    '''
 def getBuild():
-'''public String getBuild()
-'''
-pass
+    '''    public String getBuild()
+    '''
 def getCurrentObject():
-'''public StructureObject getCurrentObject()
-'''
-pass
+    '''    public StructureObject getCurrentObject()
+    '''
 def getJsonRequest():
-'''public OslcRequest getJsonRequest()
-'''
-pass
+    '''    public OslcRequest getJsonRequest()
+    '''
 def getMboFromMemory():
-'''public MboRemote getMboFromMemory()
-'''
-pass
+    '''    public MboRemote getMboFromMemory()
+    '''
 def setJsonRequest():
-'''public void setJsonRequest(final OslcRequest jsonRequest)
-'''
-pass
+    '''    public void setJsonRequest(final OslcRequest jsonRequest)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

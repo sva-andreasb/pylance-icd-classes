@@ -1,64 +1,48 @@
 def getFactory():
-'''public JsonFactory getFactory()
-'''
-pass
+    '''    public JsonFactory getFactory()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def nextToken():
-'''public JsonToken nextToken()
-'''
-pass
+    '''    public JsonToken nextToken()
+    '''
 def getCurrentToken():
-'''public JsonToken getCurrentToken()
-'''
-pass
+    '''    public JsonToken getCurrentToken()
+    '''
 def getCurrentName():
-'''public String getCurrentName()
-'''
-pass
+    '''    public String getCurrentName()
+    '''
 def skipChildren():
-'''public JsonParser skipChildren()
-'''
-pass
+    '''    public JsonParser skipChildren()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getByteValue():
-'''public byte getByteValue()
-'''
-pass
+    '''    public byte getByteValue()
+    '''
 def getShortValue():
-'''public short getShortValue()
-'''
-pass
+    '''    public short getShortValue()
+    '''
 def getIntValue():
-'''public int getIntValue()
-'''
-pass
+    '''    public int getIntValue()
+    '''
 def getFloatValue():
-'''public float getFloatValue()
-'''
-pass
+    '''    public float getFloatValue()
+    '''
 def getLongValue():
-'''public long getLongValue()
-'''
-pass
+    '''    public long getLongValue()
+    '''
 def getDoubleValue():
-'''public double getDoubleValue()
-'''
-pass
+    '''    public double getDoubleValue()
+    '''
 def getBigIntegerValue():
-'''public BigInteger getBigIntegerValue()
-'''
-pass
+    '''    public BigInteger getBigIntegerValue()
+    '''
 def getDecimalValue():
-'''public BigDecimal getDecimalValue()
-'''
-pass
+    '''    public BigDecimal getDecimalValue()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''

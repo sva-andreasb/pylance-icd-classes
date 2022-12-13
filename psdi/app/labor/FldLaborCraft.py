@@ -1,8 +1,6 @@
 def FldLaborCraft():
-'''public FldLaborCraft(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborCraft(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

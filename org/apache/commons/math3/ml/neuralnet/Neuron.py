@@ -1,28 +1,21 @@
 def copy():
-'''public synchronized Neuron copy()
-'''
-pass
+    '''    public synchronized Neuron copy()
+    '''
 def getIdentifier():
-'''public long getIdentifier()
-'''
-pass
+    '''    public long getIdentifier()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getFeatures():
-'''public double[] getFeatures()
-'''
-pass
+    '''    public double[] getFeatures()
+    '''
 def compareAndSetFeatures():
-'''public boolean compareAndSetFeatures(final double[] expect, final double[] update)
-'''
-pass
+    '''    public boolean compareAndSetFeatures(final double[] expect, final double[] update)
+    '''
 def getNumberOfAttemptedUpdates():
-'''public long getNumberOfAttemptedUpdates()
-'''
-pass
+    '''    public long getNumberOfAttemptedUpdates()
+    '''
 def getNumberOfSuccessfulUpdates():
-'''public long getNumberOfSuccessfulUpdates()
-'''
-pass
+    '''    public long getNumberOfSuccessfulUpdates()
+    '''

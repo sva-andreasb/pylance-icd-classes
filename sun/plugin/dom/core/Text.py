@@ -1,12 +1,9 @@
 def Text():
-'''public Text(final DOMObject domObject)
-'''
-pass
+    '''    public Text(final DOMObject domObject)
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''

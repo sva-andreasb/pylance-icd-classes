@@ -1,16 +1,12 @@
 def FldLocationParent():
-'''public FldLocationParent(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationParent(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

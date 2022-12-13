@@ -1,17 +1,13 @@
 def ValidationRule():
-'''public ValidationRule(final ValidationType type, final String... instances)
-public ValidationRule(final ValidationType type, final boolean relaxedModeSupported, final String... instances)
-'''
-pass
+    '''    public ValidationRule(final ValidationType type, final String... instances)
+    public ValidationRule(final ValidationType type, final boolean relaxedModeSupported, final String... instances)
+    '''
 def getType():
-'''public ValidationType getType()
-'''
-pass
+    '''    public ValidationType getType()
+    '''
 def getInstances():
-'''public List<String> getInstances()
-'''
-pass
+    '''    public List<String> getInstances()
+    '''
 def isRelaxedModeSupported():
-'''public boolean isRelaxedModeSupported()
-'''
-pass
+    '''    public boolean isRelaxedModeSupported()
+    '''

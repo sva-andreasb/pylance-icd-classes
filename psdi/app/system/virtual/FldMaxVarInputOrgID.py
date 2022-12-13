@@ -1,8 +1,6 @@
 def FldMaxVarInputOrgID():
-'''public FldMaxVarInputOrgID(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxVarInputOrgID(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

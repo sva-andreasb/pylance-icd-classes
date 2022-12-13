@@ -1,4 +1,3 @@
 def ReportOutputCntSet():
-'''public ReportOutputCntSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportOutputCntSet(final MboServerInterface ms)
+    '''

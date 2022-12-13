@@ -1,92 +1,69 @@
 def WMLImgElementImpl():
-'''public WMLImgElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLImgElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setXmlLang():
-'''public void setXmlLang(final String s)
-'''
-pass
+    '''    public void setXmlLang(final String s)
+    '''
 def getXmlLang():
-'''public String getXmlLang()
-'''
-pass
+    '''    public String getXmlLang()
+    '''
 def setLocalSrc():
-'''public void setLocalSrc(final String s)
-'''
-pass
+    '''    public void setLocalSrc(final String s)
+    '''
 def getLocalSrc():
-'''public String getLocalSrc()
-'''
-pass
+    '''    public String getLocalSrc()
+    '''
 def setHeight():
-'''public void setHeight(final String s)
-'''
-pass
+    '''    public void setHeight(final String s)
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setVspace():
-'''public void setVspace(final String s)
-'''
-pass
+    '''    public void setVspace(final String s)
+    '''
 def getVspace():
-'''public String getVspace()
-'''
-pass
+    '''    public String getVspace()
+    '''
 def setAlt():
-'''public void setAlt(final String s)
-'''
-pass
+    '''    public void setAlt(final String s)
+    '''
 def getAlt():
-'''public String getAlt()
-'''
-pass
+    '''    public String getAlt()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setHspace():
-'''public void setHspace(final String s)
-'''
-pass
+    '''    public void setHspace(final String s)
+    '''
 def getHspace():
-'''public String getHspace()
-'''
-pass
+    '''    public String getHspace()
+    '''
 def setSrc():
-'''public void setSrc(final String s)
-'''
-pass
+    '''    public void setSrc(final String s)
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''

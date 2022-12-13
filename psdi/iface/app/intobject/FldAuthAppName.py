@@ -1,8 +1,6 @@
 def FldAuthAppName():
-'''public FldAuthAppName(final MboValue mbv)
-'''
-pass
+    '''    public FldAuthAppName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

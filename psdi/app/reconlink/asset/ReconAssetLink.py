@@ -1,4 +1,3 @@
 def ReconAssetLink():
-'''public ReconAssetLink(final MboSet ms)
-'''
-pass
+    '''    public ReconAssetLink(final MboSet ms)
+    '''

@@ -1,52 +1,39 @@
 def ScriptHTTPReq():
-'''public ScriptHTTPReq(final byte[] data, final Map metaData, final String endPointName)
-'''
-pass
+    '''    public ScriptHTTPReq(final byte[] data, final Map metaData, final String endPointName)
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def getSData():
-'''public String getSData()
-'''
-pass
+    '''    public String getSData()
+    '''
 def getMetaData():
-'''public Map getMetaData()
-'''
-pass
+    '''    public Map getMetaData()
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def setURL():
-'''public void setURL(final String url)
-'''
-pass
+    '''    public void setURL(final String url)
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def getHeaderProps():
-'''public Map<String, String> getHeaderProps()
-'''
-pass
+    '''    public Map<String, String> getHeaderProps()
+    '''
 def getUrlProps():
-'''public Map<String, String> getUrlProps()
-'''
-pass
+    '''    public Map<String, String> getUrlProps()
+    '''
 def getFormProps():
-'''public Map<String, String> getFormProps()
-'''
-pass
+    '''    public Map<String, String> getFormProps()
+    '''
 def addUrlProp():
-'''public void addUrlProp(final String name, final String value)
-'''
-pass
+    '''    public void addUrlProp(final String name, final String value)
+    '''
 def addFormProp():
-'''public void addFormProp(final String name, final String value)
-'''
-pass
+    '''    public void addFormProp(final String name, final String value)
+    '''

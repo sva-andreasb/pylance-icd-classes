@@ -1,4 +1,3 @@
 def ApplyNonWorkTime():
-'''public ApplyNonWorkTime(final MboSet ms)
-'''
-pass
+    '''    public ApplyNonWorkTime(final MboSet ms)
+    '''

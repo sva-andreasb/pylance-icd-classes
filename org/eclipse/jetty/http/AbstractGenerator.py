@@ -3,138 +3,104 @@ STATE_CONTENT = "int  2"
 STATE_FLUSHING = "int  3"
 STATE_END = "int  4"
 def AbstractGenerator():
-'''public AbstractGenerator(final Buffers buffers, final EndPoint io)
-'''
-pass
+    '''    public AbstractGenerator(final Buffers buffers, final EndPoint io)
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def returnBuffers():
-'''public void returnBuffers()
-'''
-pass
+    '''    public void returnBuffers()
+    '''
 def resetBuffer():
-'''public void resetBuffer()
-'''
-pass
+    '''    public void resetBuffer()
+    '''
 def getContentBufferSize():
-'''public int getContentBufferSize()
-'''
-pass
+    '''    public int getContentBufferSize()
+    '''
 def increaseContentBufferSize():
-'''public void increaseContentBufferSize(final int contentBufferSize)
-'''
-pass
+    '''    public void increaseContentBufferSize(final int contentBufferSize)
+    '''
 def getUncheckedBuffer():
-'''public Buffer getUncheckedBuffer()
-'''
-pass
+    '''    public Buffer getUncheckedBuffer()
+    '''
 def getSendServerVersion():
-'''public boolean getSendServerVersion()
-'''
-pass
+    '''    public boolean getSendServerVersion()
+    '''
 def setSendServerVersion():
-'''public void setSendServerVersion(final boolean sendServerVersion)
-'''
-pass
+    '''    public void setSendServerVersion(final boolean sendServerVersion)
+    '''
 def getState():
-'''public int getState()
-'''
-pass
+    '''    public int getState()
+    '''
 def isState():
-'''public boolean isState(final int state)
-'''
-pass
+    '''    public boolean isState(final int state)
+    '''
 def isComplete():
-'''public boolean isComplete()
-'''
-pass
+    '''    public boolean isComplete()
+    '''
 def isIdle():
-'''public boolean isIdle()
-'''
-pass
+    '''    public boolean isIdle()
+    '''
 def isCommitted():
-'''public boolean isCommitted()
-'''
-pass
+    '''    public boolean isCommitted()
+    '''
 def isHead():
-'''public boolean isHead()
-'''
-pass
+    '''    public boolean isHead()
+    '''
 def setContentLength():
-'''public void setContentLength(final long value)
-'''
-pass
+    '''    public void setContentLength(final long value)
+    '''
 def setHead():
-'''public void setHead(final boolean head)
-'''
-pass
+    '''    public void setHead(final boolean head)
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def setPersistent():
-'''public void setPersistent(final boolean persistent)
-'''
-pass
+    '''    public void setPersistent(final boolean persistent)
+    '''
 def setVersion():
-'''public void setVersion(final int version)
-'''
-pass
+    '''    public void setVersion(final int version)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def setDate():
-'''public void setDate(final Buffer timeStampBuffer)
-'''
-pass
+    '''    public void setDate(final Buffer timeStampBuffer)
+    '''
 def setRequest():
-'''public void setRequest(final String method, final String uri)
-'''
-pass
+    '''    public void setRequest(final String method, final String uri)
+    '''
 def setResponse():
-'''public void setResponse(final int status, final String reason)
-'''
-pass
+    '''    public void setResponse(final int status, final String reason)
+    '''
 def completeUncheckedAddContent():
-'''public void completeUncheckedAddContent()
-'''
-pass
+    '''    public void completeUncheckedAddContent()
+    '''
 def isBufferFull():
-'''public boolean isBufferFull()
-'''
-pass
+    '''    public boolean isBufferFull()
+    '''
 def isWritten():
-'''public boolean isWritten()
-'''
-pass
+    '''    public boolean isWritten()
+    '''
 def isAllContentWritten():
-'''public boolean isAllContentWritten()
-'''
-pass
+    '''    public boolean isAllContentWritten()
+    '''
 def complete():
-'''public void complete()
-'''
-pass
+    '''    public void complete()
+    '''
 def flush():
-'''public void flush(final long maxIdleTime)
-'''
-pass
+    '''    public void flush(final long maxIdleTime)
+    '''
 def sendError():
-'''public void sendError(final int code, final String reason, final String content, final boolean close)
-'''
-pass
+    '''    public void sendError(final int code, final String reason, final String content, final boolean close)
+    '''
 def getContentWritten():
-'''public long getContentWritten()
-'''
-pass
+    '''    public long getContentWritten()
+    '''
 def blockForOutput():
-'''public void blockForOutput(final long maxIdleTime)
-'''
-pass
+    '''    public void blockForOutput(final long maxIdleTime)
+    '''

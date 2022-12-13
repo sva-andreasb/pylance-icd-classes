@@ -1,12 +1,9 @@
 def FldKeyValue():
-'''public FldKeyValue(final MboValue mbv)
-'''
-pass
+    '''    public FldKeyValue(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''

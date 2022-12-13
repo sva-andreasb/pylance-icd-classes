@@ -1,4 +1,3 @@
 def invoke():
-'''public void invoke(final MessageContext messageContext)
-'''
-pass
+    '''    public void invoke(final MessageContext messageContext)
+    '''

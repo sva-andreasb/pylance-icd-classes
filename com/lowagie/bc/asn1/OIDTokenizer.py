@@ -1,12 +1,9 @@
 def OIDTokenizer():
-'''public OIDTokenizer(final String oid)
-'''
-pass
+    '''    public OIDTokenizer(final String oid)
+    '''
 def hasMoreTokens():
-'''public boolean hasMoreTokens()
-'''
-pass
+    '''    public boolean hasMoreTokens()
+    '''
 def nextToken():
-'''public String nextToken()
-'''
-pass
+    '''    public String nextToken()
+    '''

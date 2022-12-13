@@ -1,16 +1,12 @@
 def MetricFilterInputStream():
-'''public MetricFilterInputStream(final ThroughputMetricType type, final InputStream in)
-'''
-pass
+    '''    public MetricFilterInputStream(final ThroughputMetricType type, final InputStream in)
+    '''
 def read():
-'''public int read(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public int read(final byte[] b, final int off, final int len)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isMetricActivated():
-'''public final boolean isMetricActivated()
-'''
-pass
+    '''    public final boolean isMetricActivated()
+    '''

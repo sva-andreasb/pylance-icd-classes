@@ -1,4 +1,3 @@
 def FldSeqQueueIn():
-'''public FldSeqQueueIn(final MboValue mbv)
-'''
-pass
+    '''    public FldSeqQueueIn(final MboValue mbv)
+    '''

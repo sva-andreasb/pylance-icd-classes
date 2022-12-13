@@ -1,44 +1,33 @@
 def MboSetRetainMboPositionData():
-'''public MboSetRetainMboPositionData()
-'''
-pass
+    '''    public MboSetRetainMboPositionData()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setMboUID():
-'''public void setMboUID(final Long mboUID)
-'''
-pass
+    '''    public void setMboUID(final Long mboUID)
+    '''
 def getMboUID():
-'''public Long getMboUID()
-'''
-pass
+    '''    public Long getMboUID()
+    '''
 def setCurrentRow():
-'''public void setCurrentRow(final int currentRow)
-'''
-pass
+    '''    public void setCurrentRow(final int currentRow)
+    '''
 def getCurrentRow():
-'''public int getCurrentRow()
-'''
-pass
+    '''    public int getCurrentRow()
+    '''
 def getRelatedData():
-'''public MboSetRetainMboPositionData getRelatedData(final String relationName)
-'''
-pass
+    '''    public MboSetRetainMboPositionData getRelatedData(final String relationName)
+    '''
 def getRelations():
-'''public Iterator<String> getRelations()
-'''
-pass
+    '''    public Iterator<String> getRelations()
+    '''
 def addRelatedData():
-'''public void addRelatedData(final String relationName, final MboSetRetainMboPositionData retainState)
-'''
-pass
+    '''    public void addRelatedData(final String relationName, final MboSetRetainMboPositionData retainState)
+    '''
 def getMboSetRetainState():
-'''public static MboSetRetainMboPositionData getMboSetRetainState(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public static MboSetRetainMboPositionData getMboSetRetainState(final MboSetRemote mboSetRemote)
+    '''
 def positionState():
-'''public static MboSetRetainMboPositionResult positionState(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public static MboSetRetainMboPositionResult positionState(final MboSetRemote mboSetRemote)
+    '''

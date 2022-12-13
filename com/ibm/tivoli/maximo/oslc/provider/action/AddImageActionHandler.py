@@ -1,20 +1,15 @@
 def action():
-'''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
-'''
-pass
+    '''    public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''
 def saveImage():
-'''public void saveImage(final MboRemote img, final OslcRequest request, byte[] actionData)
-'''
-pass
+    '''    public void saveImage(final MboRemote img, final OslcRequest request, byte[] actionData)
+    '''
 def isJSON():
-'''public boolean isJSON(final byte[] data)
-'''
-pass
+    '''    public boolean isJSON(final byte[] data)
+    '''
 def getRequestSchema():
-'''public JSONObject getRequestSchema()
-'''
-pass
+    '''    public JSONObject getRequestSchema()
+    '''
 def getRequestHeaders():
-'''public Map<String, RESTParamInfo> getRequestHeaders()
-'''
-pass
+    '''    public Map<String, RESTParamInfo> getRequestHeaders()
+    '''

@@ -1,4 +1,3 @@
 def NmrClassMappingSet():
-'''public NmrClassMappingSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NmrClassMappingSet(final MboServerInterface ms)
+    '''

@@ -1,80 +1,60 @@
 def XMLDocumentFragmentScannerImpl():
-'''public XMLDocumentFragmentScannerImpl()
-'''
-pass
+    '''    public XMLDocumentFragmentScannerImpl()
+    '''
 def setInputSource():
-'''public void setInputSource(final XMLInputSource xmlInputSource)
-'''
-pass
+    '''    public void setInputSource(final XMLInputSource xmlInputSource)
+    '''
 def scanDocument():
-'''public boolean scanDocument(final boolean b)
-'''
-pass
+    '''    public boolean scanDocument(final boolean b)
+    '''
 def reset():
-'''public void reset(final XMLComponentManager xmlComponentManager)
-'''
-pass
+    '''    public void reset(final XMLComponentManager xmlComponentManager)
+    '''
 def getRecognizedFeatures():
-'''public String[] getRecognizedFeatures()
-'''
-pass
+    '''    public String[] getRecognizedFeatures()
+    '''
 def setFeature():
-'''public void setFeature(final String s, final boolean fNotifyBuiltInRefs)
-'''
-pass
+    '''    public void setFeature(final String s, final boolean fNotifyBuiltInRefs)
+    '''
 def getRecognizedProperties():
-'''public String[] getRecognizedProperties()
-'''
-pass
+    '''    public String[] getRecognizedProperties()
+    '''
 def setProperty():
-'''public void setProperty(final String s, final Object o)
-'''
-pass
+    '''    public void setProperty(final String s, final Object o)
+    '''
 def getFeatureDefault():
-'''public Boolean getFeatureDefault(final String anObject)
-'''
-pass
+    '''    public Boolean getFeatureDefault(final String anObject)
+    '''
 def getPropertyDefault():
-'''public Object getPropertyDefault(final String anObject)
-'''
-pass
+    '''    public Object getPropertyDefault(final String anObject)
+    '''
 def setDocumentHandler():
-'''public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
-'''
-pass
+    '''    public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
+    '''
 def getDocumentHandler():
-'''public XMLDocumentHandler getDocumentHandler()
-'''
-pass
+    '''    public XMLDocumentHandler getDocumentHandler()
+    '''
 def startEntity():
-'''public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
-'''
-pass
+    '''    public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''
 def endEntity():
-'''public void endEntity(final String s, final Augmentations augmentations)
-'''
-pass
+    '''    public void endEntity(final String s, final Augmentations augmentations)
+    '''
 def getDispatcherName():
-'''public String getDispatcherName(final Dispatcher dispatcher)
-'''
-pass
+    '''    public String getDispatcherName(final Dispatcher dispatcher)
+    '''
 def dispatch():
-'''public boolean dispatch(final boolean b)
-'''
-pass
+    '''    public boolean dispatch(final boolean b)
+    '''
 def ElementStack():
-'''public ElementStack()
-'''
-pass
+    '''    public ElementStack()
+    '''
 def pushElement():
-'''public QName pushElement(final QName values)
-'''
-pass
+    '''    public QName pushElement(final QName values)
+    '''
 def popElement():
-'''public void popElement(final QName qName)
-'''
-pass
+    '''    public void popElement(final QName qName)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

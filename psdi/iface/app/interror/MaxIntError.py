@@ -1,48 +1,36 @@
 def MaxIntError():
-'''public MaxIntError(final MboSet ms)
-'''
-pass
+    '''    public MaxIntError(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def markForDelete():
-'''public boolean markForDelete(final String state)
-'''
-pass
+    '''    public boolean markForDelete(final String state)
+    '''
 def canContinue():
-'''public void canContinue()
-'''
-pass
+    '''    public void canContinue()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def writeToQueue():
-'''public void writeToQueue()
-'''
-pass
+    '''    public void writeToQueue()
+    '''
 def getJMSHeader():
-'''public Map<String, String> getJMSHeader()
-'''
-pass
+    '''    public Map<String, String> getJMSHeader()
+    '''

@@ -1,16 +1,12 @@
 def ShowActivityHierarchyViewBean():
-'''public ShowActivityHierarchyViewBean()
-'''
-pass
+    '''    public ShowActivityHierarchyViewBean()
+    '''
 def getLayoutUI():
-'''public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
-'''
-pass
+    '''    public JSONObject getLayoutUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("projectid") final String projectId)
+    '''
 def loadSchedulerProject():
-'''public JSONObject loadSchedulerProject(final WebClientSession sess)
-'''
-pass
+    '''    public JSONObject loadSchedulerProject(final WebClientSession sess)
+    '''
 def createUIOptions():
-'''public UIOptions createUIOptions(final String projectId)
-'''
-pass
+    '''    public UIOptions createUIOptions(final String projectId)
+    '''

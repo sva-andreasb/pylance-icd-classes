@@ -1,36 +1,27 @@
 def getLineNumber():
-'''public int getLineNumber()
-'''
-pass
+    '''    public int getLineNumber()
+    '''
 def setLineNumber():
-'''public void setLineNumber(final int lineNumber_)
-'''
-pass
+    '''    public void setLineNumber(final int lineNumber_)
+    '''
 def getColumnNumber():
-'''public int getColumnNumber()
-'''
-pass
+    '''    public int getColumnNumber()
+    '''
 def setColumnNumber():
-'''public void setColumnNumber(final int columnNumber_)
-'''
-pass
+    '''    public void setColumnNumber(final int columnNumber_)
+    '''
 def getStartPosition():
-'''public int getStartPosition()
-'''
-pass
+    '''    public int getStartPosition()
+    '''
 def setStartPosition():
-'''public void setStartPosition(final int startPosition_)
-'''
-pass
+    '''    public void setStartPosition(final int startPosition_)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def setLength():
-'''public void setLength(final int length_)
-'''
-pass
+    '''    public void setLength(final int length_)
+    '''
 def getSqlStmt():
-'''public String getSqlStmt()
-'''
-pass
+    '''    public String getSqlStmt()
+    '''

@@ -1,12 +1,9 @@
 def ReconComparisonProcessor():
-'''public ReconComparisonProcessor(final ReconInfo reconInfo, final Map[][] linkedPairs)
-'''
-pass
+    '''    public ReconComparisonProcessor(final ReconInfo reconInfo, final Map[][] linkedPairs)
+    '''
 def calculateResultOption():
-'''public void calculateResultOption()
-'''
-pass
+    '''    public void calculateResultOption()
+    '''
 def compare():
-'''public void compare()
-'''
-pass
+    '''    public void compare()
+    '''

@@ -1,4 +1,3 @@
 def PlusPFldGBTransKPIName():
-'''public PlusPFldGBTransKPIName(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransKPIName(final MboValue mbv)
+    '''

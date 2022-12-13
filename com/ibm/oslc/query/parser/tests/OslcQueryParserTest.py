@@ -1,16 +1,12 @@
 def testOslcWhereParser():
-'''public void testOslcWhereParser()
-'''
-pass
+    '''    public void testOslcWhereParser()
+    '''
 def testOslcSelectParser():
-'''public void testOslcSelectParser()
-'''
-pass
+    '''    public void testOslcSelectParser()
+    '''
 def testOslcSearchTermsParser():
-'''public void testOslcSearchTermsParser()
-'''
-pass
+    '''    public void testOslcSearchTermsParser()
+    '''
 def testOslcOrderByParser():
-'''public void testOslcOrderByParser()
-'''
-pass
+    '''    public void testOslcOrderByParser()
+    '''

@@ -1,35 +1,27 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def ApiVersionsRequest():
-'''public ApiVersionsRequest(final short version)
-public ApiVersionsRequest(final short version, final Short unsupportedRequestVersion)
-public ApiVersionsRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public ApiVersionsRequest(final short version)
+    public ApiVersionsRequest(final short version, final Short unsupportedRequestVersion)
+    public ApiVersionsRequest(final Struct struct, final short version)
+    '''
 def hasUnsupportedRequestVersion():
-'''public boolean hasUnsupportedRequestVersion()
-'''
-pass
+    '''    public boolean hasUnsupportedRequestVersion()
+    '''
 def getErrorResponse():
-'''public ApiVersionsResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public ApiVersionsResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def parse():
-'''public static ApiVersionsRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static ApiVersionsRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder()
-public Builder(final short version)
-'''
-pass
+    '''    public Builder()
+    public Builder(final short version)
+    '''
 def build():
-'''public ApiVersionsRequest build(final short version)
-'''
-pass
+    '''    public ApiVersionsRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

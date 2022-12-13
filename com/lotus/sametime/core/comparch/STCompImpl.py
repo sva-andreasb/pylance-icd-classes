@@ -1,8 +1,6 @@
 def STCompImpl():
-'''public STCompImpl(final String s, final STSession stSession)
-'''
-pass
+    '''    public STCompImpl(final String s, final STSession stSession)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

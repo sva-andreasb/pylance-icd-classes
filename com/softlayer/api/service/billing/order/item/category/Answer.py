@@ -1,76 +1,57 @@
 def getOrderItem():
-'''public Item getOrderItem()
-'''
-pass
+    '''    public Item getOrderItem()
+    '''
 def setOrderItem():
-'''public void setOrderItem(final Item orderItem)
-'''
-pass
+    '''    public void setOrderItem(final Item orderItem)
+    '''
 def getQuestion():
-'''public Question getQuestion()
-'''
-pass
+    '''    public Question getQuestion()
+    '''
 def setQuestion():
-'''public void setQuestion(final Question question)
-'''
-pass
+    '''    public void setQuestion(final Question question)
+    '''
 def getAnswer():
-'''public String getAnswer()
-'''
-pass
+    '''    public String getAnswer()
+    '''
 def setAnswer():
-'''public void setAnswer(final String answer)
-'''
-pass
+    '''    public void setAnswer(final String answer)
+    '''
 def isAnswerSpecified():
-'''public boolean isAnswerSpecified()
-'''
-pass
+    '''    public boolean isAnswerSpecified()
+    '''
 def unsetAnswer():
-'''public void unsetAnswer()
-'''
-pass
+    '''    public void unsetAnswer()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getQuestionId():
-'''public Long getQuestionId()
-'''
-pass
+    '''    public Long getQuestionId()
+    '''
 def setQuestionId():
-'''public void setQuestionId(final Long questionId)
-'''
-pass
+    '''    public void setQuestionId(final Long questionId)
+    '''
 def isQuestionIdSpecified():
-'''public boolean isQuestionIdSpecified()
-'''
-pass
+    '''    public boolean isQuestionIdSpecified()
+    '''
 def unsetQuestionId():
-'''public void unsetQuestionId()
-'''
-pass
+    '''    public void unsetQuestionId()
+    '''
 def answer():
-'''public Mask answer()
-'''
-pass
+    '''    public Mask answer()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def questionId():
-'''public Mask questionId()
-'''
-pass
+    '''    public Mask questionId()
+    '''

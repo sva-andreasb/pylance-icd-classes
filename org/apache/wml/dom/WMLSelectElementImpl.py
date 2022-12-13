@@ -1,84 +1,63 @@
 def WMLSelectElementImpl():
-'''public WMLSelectElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLSelectElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setMultiple():
-'''public void setMultiple(final boolean b)
-'''
-pass
+    '''    public void setMultiple(final boolean b)
+    '''
 def getMultiple():
-'''public boolean getMultiple()
-'''
-pass
+    '''    public boolean getMultiple()
+    '''
 def setValue():
-'''public void setValue(final String s)
-'''
-pass
+    '''    public void setValue(final String s)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setTabIndex():
-'''public void setTabIndex(final int n)
-'''
-pass
+    '''    public void setTabIndex(final int n)
+    '''
 def getTabIndex():
-'''public int getTabIndex()
-'''
-pass
+    '''    public int getTabIndex()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setXmlLang():
-'''public void setXmlLang(final String s)
-'''
-pass
+    '''    public void setXmlLang(final String s)
+    '''
 def getXmlLang():
-'''public String getXmlLang()
-'''
-pass
+    '''    public String getXmlLang()
+    '''
 def setTitle():
-'''public void setTitle(final String s)
-'''
-pass
+    '''    public void setTitle(final String s)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setIValue():
-'''public void setIValue(final String s)
-'''
-pass
+    '''    public void setIValue(final String s)
+    '''
 def getIValue():
-'''public String getIValue()
-'''
-pass
+    '''    public String getIValue()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setIName():
-'''public void setIName(final String s)
-'''
-pass
+    '''    public void setIName(final String s)
+    '''
 def getIName():
-'''public String getIName()
-'''
-pass
+    '''    public String getIName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

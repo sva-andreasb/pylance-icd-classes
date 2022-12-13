@@ -1,21 +1,16 @@
 def ECAConnection():
-'''public ECAConnection()
-public ECAConnection(final Socket s)
-'''
-pass
+    '''    public ECAConnection()
+    public ECAConnection(final Socket s)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getInetAddress():
-'''public InetAddress getInetAddress()
-'''
-pass
+    '''    public InetAddress getInetAddress()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

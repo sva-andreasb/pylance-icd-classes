@@ -1,4 +1,3 @@
 def updateCalculatedFees():
-'''public int updateCalculatedFees()
-'''
-pass
+    '''    public int updateCalculatedFees()
+    '''

@@ -1,8 +1,6 @@
 def AHInspectionResultFilter():
-'''public AHInspectionResultFilter(final PublishInfo pubInfo)
-'''
-pass
+    '''    public AHInspectionResultFilter(final PublishInfo pubInfo)
+    '''
 def filterEvent():
-'''public boolean filterEvent(final MboRemote mbo)
-'''
-pass
+    '''    public boolean filterEvent(final MboRemote mbo)
+    '''

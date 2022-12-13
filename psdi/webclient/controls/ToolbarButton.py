@@ -1,55 +1,42 @@
-ACTION_PREVIOUS = "String  PREVIOUS""
-ACTION_NEXT = "String  NEXT""
-ACTION_STRECLOCK = "String  STRECLOCK""
+ACTION_PREVIOUS = "String  \"PREVIOUS\""
+ACTION_NEXT = "String  \"NEXT\""
+ACTION_STRECLOCK = "String  \"STRECLOCK\""
 def ToolbarButton():
-'''public ToolbarButton()
-'''
-pass
+    '''    public ToolbarButton()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def isDisabled():
-'''public boolean isDisabled()
-'''
-pass
+    '''    public boolean isDisabled()
+    '''
 def needsSep():
-'''public boolean needsSep()
-'''
-pass
+    '''    public boolean needsSep()
+    '''
 def addSep():
-'''public void addSep()
-'''
-pass
+    '''    public void addSep()
+    '''
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def dynamicButtonHandling():
-'''public void dynamicButtonHandling()
-'''
-pass
+    '''    public void dynamicButtonHandling()
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def eventCheck():
-'''public void eventCheck()
-'''
-pass
+    '''    public void eventCheck()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def setVisibility():
-'''public void setVisibility(final boolean visible)
-'''
-pass
+    '''    public void setVisibility(final boolean visible)
+    '''
 def isFirstButton():
-'''public boolean isFirstButton()
-'''
-pass
+    '''    public boolean isFirstButton()
+    '''
 def setIsFirstButton():
-'''public void setIsFirstButton(final boolean aBool)
-'''
-pass
+    '''    public void setIsFirstButton(final boolean aBool)
+    '''

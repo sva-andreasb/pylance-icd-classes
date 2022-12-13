@@ -1,28 +1,21 @@
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def selectquery():
-'''public int selectquery()
-'''
-pass
+    '''    public int selectquery()
+    '''
 def define_wo_qry():
-'''public int define_wo_qry()
-'''
-pass
+    '''    public int define_wo_qry()
+    '''
 def skdquickquerybuilder():
-'''public int skdquickquerybuilder()
-'''
-pass
+    '''    public int skdquickquerybuilder()
+    '''
 def skdprojectassetsclear():
-'''public int skdprojectassetsclear()
-'''
-pass
+    '''    public int skdprojectassetsclear()
+    '''
 def skdprojectlocsclear():
-'''public int skdprojectlocsclear()
-'''
-pass
+    '''    public int skdprojectlocsclear()
+    '''
 def skdqueryobjectsclear():
-'''public int skdqueryobjectsclear()
-'''
-pass
+    '''    public int skdqueryobjectsclear()
+    '''

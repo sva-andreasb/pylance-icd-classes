@@ -1,12 +1,9 @@
 def PMSequenceSet():
-'''public PMSequenceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PMSequenceSet(final MboServerInterface ms)
+    '''
 def setOwner():
-'''public void setOwner(final MboRemote mbo)
-'''
-pass
+    '''    public void setOwner(final MboRemote mbo)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

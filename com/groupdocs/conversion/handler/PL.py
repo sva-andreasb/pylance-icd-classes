@@ -1,24 +1,18 @@
 def getFamily():
-'''public String getFamily()
-'''
-pass
+    '''    public String getFamily()
+    '''
 def kg():
-'''public String kg()
-'''
-pass
+    '''    public String kg()
+    '''
 def getProduct():
-'''public String getProduct()
-'''
-pass
+    '''    public String getProduct()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def kh():
-'''public String kh()
-'''
-pass
+    '''    public String kh()
+    '''
 def ki():
-'''public String ki()
-'''
-pass
+    '''    public String ki()
+    '''

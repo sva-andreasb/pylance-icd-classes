@@ -1,8 +1,6 @@
 def FldSchLeaseViewTotalCostDue():
-'''public FldSchLeaseViewTotalCostDue(final MboValue mbv)
-'''
-pass
+    '''    public FldSchLeaseViewTotalCostDue(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

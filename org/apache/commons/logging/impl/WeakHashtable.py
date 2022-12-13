@@ -1,86 +1,65 @@
 def WeakHashtable():
-'''public WeakHashtable()
-'''
-pass
+    '''    public WeakHashtable()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def elements():
-'''public Enumeration elements()
-'''
-pass
+    '''    public Enumeration elements()
+    '''
 def entrySet():
-'''public Set entrySet()
-'''
-pass
+    '''    public Set entrySet()
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def keys():
-'''public Enumeration keys()
-'''
-pass
+    '''    public Enumeration keys()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def keySet():
-'''public Set keySet()
-'''
-pass
+    '''    public Set keySet()
+    '''
 def put():
-'''public synchronized Object put(final Object key, final Object value)
-'''
-pass
+    '''    public synchronized Object put(final Object key, final Object value)
+    '''
 def putAll():
-'''public void putAll(final Map t)
-'''
-pass
+    '''    public void putAll(final Map t)
+    '''
 def values():
-'''public Collection values()
-'''
-pass
+    '''    public Collection values()
+    '''
 def remove():
-'''public synchronized Object remove(final Object key)
-'''
-pass
+    '''    public synchronized Object remove(final Object key)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def setValue():
-'''public Object setValue(final Object value)
-'''
-pass
+    '''    public Object setValue(final Object value)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def getKey():
-'''public Object getKey()
-'''
-pass
+    '''    public Object getKey()
+    '''

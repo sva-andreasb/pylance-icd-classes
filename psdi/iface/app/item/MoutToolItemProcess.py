@@ -1,8 +1,6 @@
 def MoutToolItemProcess():
-'''public MoutToolItemProcess()
-'''
-pass
+    '''    public MoutToolItemProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-'''
-pass
+    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''

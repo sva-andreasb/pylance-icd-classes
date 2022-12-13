@@ -1,12 +1,9 @@
 def testImportFromFileStringBoolean():
-'''public void testImportFromFileStringBoolean()
-'''
-pass
+    '''    public void testImportFromFileStringBoolean()
+    '''
 def testImportFromFileListStringBoolean():
-'''public void testImportFromFileListStringBoolean()
-'''
-pass
+    '''    public void testImportFromFileListStringBoolean()
+    '''
 def testImportFromDirectoryString():
-'''public void testImportFromDirectoryString()
-'''
-pass
+    '''    public void testImportFromDirectoryString()
+    '''

@@ -1,132 +1,99 @@
 def MatUseTransSet():
-'''public MatUseTransSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MatUseTransSet(final MboServerInterface ms)
+    '''
 def copyInvReserveSet():
-'''public void copyInvReserveSet(final MboSetRemote invReserveSet)
-'''
-pass
+    '''    public void copyInvReserveSet(final MboSetRemote invReserveSet)
+    '''
 def copySparePartSet():
-'''public void copySparePartSet(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySparePartSet(final MboSetRemote sparePartSet)
+    '''
 def addMatUseFromInvReserve():
-'''public MboRemote addMatUseFromInvReserve(final MboRemote invRes)
-'''
-pass
+    '''    public MboRemote addMatUseFromInvReserve(final MboRemote invRes)
+    '''
 def copyMatUseTransSet():
-'''public void copyMatUseTransSet(final MboSetRemote matUseSet)
-'''
-pass
+    '''    public void copyMatUseTransSet(final MboSetRemote matUseSet)
+    '''
 def setDateRange():
-'''public void setDateRange(final int type)
-'''
-pass
+    '''    public void setDateRange(final int type)
+    '''
 def getDateRange():
-'''public int getDateRange()
-'''
-pass
+    '''    public int getDateRange()
+    '''
 def setLastNDays():
-'''public void setLastNDays(final int nDays)
-'''
-pass
+    '''    public void setLastNDays(final int nDays)
+    '''
 def getLastNDays():
-'''public int getLastNDays()
-'''
-pass
+    '''    public int getLastNDays()
+    '''
 def setStartDate():
-'''public void setStartDate(final Date startDateActLab)
-'''
-pass
+    '''    public void setStartDate(final Date startDateActLab)
+    '''
 def setEndDate():
-'''public void setEndDate(final Date endDateActLab)
-'''
-pass
+    '''    public void setEndDate(final Date endDateActLab)
+    '''
 def getStartDate():
-'''public Date getStartDate()
-'''
-pass
+    '''    public Date getStartDate()
+    '''
 def getEndDate():
-'''public Date getEndDate()
-'''
-pass
+    '''    public Date getEndDate()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''
 def addDates():
-'''public Date addDates(final Date date, final int days)
-'''
-pass
+    '''    public Date addDates(final Date date, final int days)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def addAtIndex():
-'''public MboRemote addAtIndex(final long accessModifier, final int index)
-'''
-pass
+    '''    public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''
 def remove():
-'''public void remove(final MboRemote mbo)
-'''
-pass
+    '''    public void remove(final MboRemote mbo)
+    '''
 def addListener():
-'''public void addListener(final MboSetListener l)
-'''
-pass
+    '''    public void addListener(final MboSetListener l)
+    '''
 def removeListener():
-'''public void removeListener(final MboSetListener l)
-'''
-pass
+    '''    public void removeListener(final MboSetListener l)
+    '''
 def reportModifiedMbo():
-'''public void reportModifiedMbo(final MboRemote modifiedMbo)
-'''
-pass
+    '''    public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''
 def returnIPCParts():
-'''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
-'''
-pass
+    '''    public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''
 def preValidateIpcBom():
-'''public void preValidateIpcBom(final IpcBomSetRemote bomset)
-'''
-pass
+    '''    public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''
 def addDeltaCurbal():
-'''public void addDeltaCurbal(final MboRemote invBal, final double quantity, final MboRemote currentMatUse)
-'''
-pass
+    '''    public void addDeltaCurbal(final MboRemote invBal, final double quantity, final MboRemote currentMatUse)
+    '''
 def addDeltaIssueYTD():
-'''public void addDeltaIssueYTD(final MboRemote inventory, final double quantity, final MboRemote currentMatUse)
-'''
-pass
+    '''    public void addDeltaIssueYTD(final MboRemote inventory, final double quantity, final MboRemote currentMatUse)
+    '''
 def transCommitted():
-'''public void transCommitted()
-'''
-pass
+    '''    public void transCommitted()
+    '''
 def getInvReserveVector():
-'''public Vector getInvReserveVector()
-'''
-pass
+    '''    public Vector getInvReserveVector()
+    '''
 def getUncommittedTransVector():
-'''public Vector getUncommittedTransVector()
-'''
-pass
+    '''    public Vector getUncommittedTransVector()
+    '''
 def setUncommittedTransVector():
-'''public void setUncommittedTransVector(final Vector uncommitted)
-'''
-pass
+    '''    public void setUncommittedTransVector(final Vector uncommitted)
+    '''
 def clearVectors():
-'''public void clearVectors()
-'''
-pass
+    '''    public void clearVectors()
+    '''
 def storeToRotatingAssetHash():
-'''public void storeToRotatingAssetHash(final MboRemote matUse)
-'''
-pass
+    '''    public void storeToRotatingAssetHash(final MboRemote matUse)
+    '''
 def rotAssetExists():
-'''public MboRemote rotAssetExists(final MboRemote matUse)
-'''
-pass
+    '''    public MboRemote rotAssetExists(final MboRemote matUse)
+    '''
 def getLifoFifoInHash():
-'''public Hashtable getLifoFifoInHash()
-'''
-pass
+    '''    public Hashtable getLifoFifoInHash()
+    '''

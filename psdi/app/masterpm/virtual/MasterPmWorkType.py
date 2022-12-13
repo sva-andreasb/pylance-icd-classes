@@ -1,4 +1,3 @@
 def MasterPmWorkType():
-'''public MasterPmWorkType(final MboSet ms)
-'''
-pass
+    '''    public MasterPmWorkType(final MboSet ms)
+    '''

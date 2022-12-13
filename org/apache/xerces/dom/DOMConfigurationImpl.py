@@ -1,80 +1,60 @@
 def parse():
-'''public void parse(final XMLInputSource xmlInputSource)
-'''
-pass
+    '''    public void parse(final XMLInputSource xmlInputSource)
+    '''
 def setDocumentHandler():
-'''public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
-'''
-pass
+    '''    public void setDocumentHandler(final XMLDocumentHandler fDocumentHandler)
+    '''
 def getDocumentHandler():
-'''public XMLDocumentHandler getDocumentHandler()
-'''
-pass
+    '''    public XMLDocumentHandler getDocumentHandler()
+    '''
 def setDTDHandler():
-'''public void setDTDHandler(final XMLDTDHandler xmldtdHandler)
-'''
-pass
+    '''    public void setDTDHandler(final XMLDTDHandler xmldtdHandler)
+    '''
 def getDTDHandler():
-'''public XMLDTDHandler getDTDHandler()
-'''
-pass
+    '''    public XMLDTDHandler getDTDHandler()
+    '''
 def setDTDContentModelHandler():
-'''public void setDTDContentModelHandler(final XMLDTDContentModelHandler xmldtdContentModelHandler)
-'''
-pass
+    '''    public void setDTDContentModelHandler(final XMLDTDContentModelHandler xmldtdContentModelHandler)
+    '''
 def getDTDContentModelHandler():
-'''public XMLDTDContentModelHandler getDTDContentModelHandler()
-'''
-pass
+    '''    public XMLDTDContentModelHandler getDTDContentModelHandler()
+    '''
 def setEntityResolver():
-'''public void setEntityResolver(final XMLEntityResolver value)
-'''
-pass
+    '''    public void setEntityResolver(final XMLEntityResolver value)
+    '''
 def getEntityResolver():
-'''public XMLEntityResolver getEntityResolver()
-'''
-pass
+    '''    public XMLEntityResolver getEntityResolver()
+    '''
 def setErrorHandler():
-'''public void setErrorHandler(final XMLErrorHandler value)
-'''
-pass
+    '''    public void setErrorHandler(final XMLErrorHandler value)
+    '''
 def getErrorHandler():
-'''public XMLErrorHandler getErrorHandler()
-'''
-pass
+    '''    public XMLErrorHandler getErrorHandler()
+    '''
 def getFeature():
-'''public boolean getFeature(final String s)
-'''
-pass
+    '''    public boolean getFeature(final String s)
+    '''
 def setFeature():
-'''public void setFeature(final String s, final boolean b)
-'''
-pass
+    '''    public void setFeature(final String s, final boolean b)
+    '''
 def setProperty():
-'''public void setProperty(final String s, final Object o)
-'''
-pass
+    '''    public void setProperty(final String s, final Object o)
+    '''
 def setLocale():
-'''public void setLocale(final Locale locale)
-'''
-pass
+    '''    public void setLocale(final Locale locale)
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def setParameter():
-'''public void setParameter(final String s, final Object o)
-'''
-pass
+    '''    public void setParameter(final String s, final Object o)
+    '''
 def getParameter():
-'''public Object getParameter(final String s)
-'''
-pass
+    '''    public Object getParameter(final String s)
+    '''
 def canSetParameter():
-'''public boolean canSetParameter(final String s, final Object o)
-'''
-pass
+    '''    public boolean canSetParameter(final String s, final Object o)
+    '''
 def getParameterNames():
-'''public DOMStringList getParameterNames()
-'''
-pass
+    '''    public DOMStringList getParameterNames()
+    '''

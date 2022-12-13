@@ -1,12 +1,9 @@
 def FldSpecificationValue():
-'''public FldSpecificationValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSpecificationValue(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

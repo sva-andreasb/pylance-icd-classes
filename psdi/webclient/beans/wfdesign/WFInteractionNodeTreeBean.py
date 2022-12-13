@@ -1,16 +1,12 @@
 def WFInteractionNodeTreeBean():
-'''public WFInteractionNodeTreeBean()
-'''
-pass
+    '''    public WFInteractionNodeTreeBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def setRelationshipTreeObject():
-'''public synchronized void setRelationshipTreeObject()
-'''
-pass
+    '''    public synchronized void setRelationshipTreeObject()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession sc)
-'''
-pass
+    '''    public void setupBean(final WebClientSession sc)
+    '''

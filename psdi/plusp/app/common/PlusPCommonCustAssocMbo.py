@@ -1,44 +1,33 @@
 def PlusPCommonCustAssocMbo():
-'''public PlusPCommonCustAssocMbo(final MboSet ms)
-'''
-pass
+    '''    public PlusPCommonCustAssocMbo(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def isNotPrimaryAssociation():
-'''public boolean isNotPrimaryAssociation()
-'''
-pass
+    '''    public boolean isNotPrimaryAssociation()
+    '''
 def copyCustomerToOwner():
-'''public void copyCustomerToOwner()
-'''
-pass
+    '''    public void copyCustomerToOwner()
+    '''
 def shouldBePrimary():
-'''public boolean shouldBePrimary()
-'''
-pass
+    '''    public boolean shouldBePrimary()
+    '''
 def setExecuteCustAssocEvents():
-'''public void setExecuteCustAssocEvents(final boolean executeCustAssocEvents)
-'''
-pass
+    '''    public void setExecuteCustAssocEvents(final boolean executeCustAssocEvents)
+    '''
 def getCustAssocOwner():
-'''public MboRemote getCustAssocOwner()
-'''
-pass
+    '''    public MboRemote getCustAssocOwner()
+    '''

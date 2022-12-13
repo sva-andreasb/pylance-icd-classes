@@ -1,8 +1,6 @@
 def newInstance():
-'''public CookieSpec newInstance(final HttpParams params)
-'''
-pass
+    '''    public CookieSpec newInstance(final HttpParams params)
+    '''
 def create():
-'''public CookieSpec create(final HttpContext context)
-'''
-pass
+    '''    public CookieSpec create(final HttpContext context)
+    '''

@@ -1,148 +1,111 @@
 def HTMLObjectElement():
-'''public HTMLObjectElement(final DOMObject domObject, final HTMLDocument htmlDocument)
-'''
-pass
+    '''    public HTMLObjectElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+    '''
 def getForm():
-'''public HTMLFormElement getForm()
-'''
-pass
+    '''    public HTMLFormElement getForm()
+    '''
 def getCode():
-'''public String getCode()
-'''
-pass
+    '''    public String getCode()
+    '''
 def setCode():
-'''public void setCode(final String s)
-'''
-pass
+    '''    public void setCode(final String s)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getArchive():
-'''public String getArchive()
-'''
-pass
+    '''    public String getArchive()
+    '''
 def setArchive():
-'''public void setArchive(final String s)
-'''
-pass
+    '''    public void setArchive(final String s)
+    '''
 def getBorder():
-'''public String getBorder()
-'''
-pass
+    '''    public String getBorder()
+    '''
 def setBorder():
-'''public void setBorder(final String s)
-'''
-pass
+    '''    public void setBorder(final String s)
+    '''
 def getCodeBase():
-'''public String getCodeBase()
-'''
-pass
+    '''    public String getCodeBase()
+    '''
 def setCodeBase():
-'''public void setCodeBase(final String s)
-'''
-pass
+    '''    public void setCodeBase(final String s)
+    '''
 def getCodeType():
-'''public String getCodeType()
-'''
-pass
+    '''    public String getCodeType()
+    '''
 def setCodeType():
-'''public void setCodeType(final String s)
-'''
-pass
+    '''    public void setCodeType(final String s)
+    '''
 def getData():
-'''public String getData()
-'''
-pass
+    '''    public String getData()
+    '''
 def setData():
-'''public void setData(final String s)
-'''
-pass
+    '''    public void setData(final String s)
+    '''
 def getDeclare():
-'''public boolean getDeclare()
-'''
-pass
+    '''    public boolean getDeclare()
+    '''
 def setDeclare():
-'''public void setDeclare(final boolean b)
-'''
-pass
+    '''    public void setDeclare(final boolean b)
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final String s)
-'''
-pass
+    '''    public void setHeight(final String s)
+    '''
 def getHspace():
-'''public String getHspace()
-'''
-pass
+    '''    public String getHspace()
+    '''
 def setHspace():
-'''public void setHspace(final String s)
-'''
-pass
+    '''    public void setHspace(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getStandby():
-'''public String getStandby()
-'''
-pass
+    '''    public String getStandby()
+    '''
 def setStandby():
-'''public void setStandby(final String s)
-'''
-pass
+    '''    public void setStandby(final String s)
+    '''
 def getTabIndex():
-'''public int getTabIndex()
-'''
-pass
+    '''    public int getTabIndex()
+    '''
 def setTabIndex():
-'''public void setTabIndex(final int n)
-'''
-pass
+    '''    public void setTabIndex(final int n)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String s)
-'''
-pass
+    '''    public void setType(final String s)
+    '''
 def getUseMap():
-'''public String getUseMap()
-'''
-pass
+    '''    public String getUseMap()
+    '''
 def setUseMap():
-'''public void setUseMap(final String s)
-'''
-pass
+    '''    public void setUseMap(final String s)
+    '''
 def getVspace():
-'''public String getVspace()
-'''
-pass
+    '''    public String getVspace()
+    '''
 def setVspace():
-'''public void setVspace(final String s)
-'''
-pass
+    '''    public void setVspace(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''
 def getContentDocument():
-'''public Document getContentDocument()
-'''
-pass
+    '''    public Document getContentDocument()
+    '''

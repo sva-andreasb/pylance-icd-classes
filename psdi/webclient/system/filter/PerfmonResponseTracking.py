@@ -1,20 +1,15 @@
 def trackPerfMonResponseData():
-'''public static void trackPerfMonResponseData(final String url, final String value)
-'''
-pass
+    '''    public static void trackPerfMonResponseData(final String url, final String value)
+    '''
 def getPerfMonResponseData():
-'''public static LinkedHashMap<String, HashMap<String, Integer>> getPerfMonResponseData()
-'''
-pass
+    '''    public static LinkedHashMap<String, HashMap<String, Integer>> getPerfMonResponseData()
+    '''
 def reset():
-'''public static void reset()
-'''
-pass
+    '''    public static void reset()
+    '''
 def enable():
-'''public static void enable()
-'''
-pass
+    '''    public static void enable()
+    '''
 def disable():
-'''public static void disable()
-'''
-pass
+    '''    public static void disable()
+    '''

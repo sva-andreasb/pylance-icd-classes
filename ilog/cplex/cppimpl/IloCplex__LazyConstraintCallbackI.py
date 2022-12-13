@@ -1,29 +1,22 @@
 def IloCplex__LazyConstraintCallbackI():
-'''public IloCplex__LazyConstraintCallbackI(final long cPtr, final boolean cMemoryOwn)
-'''
-pass
+    '''    public IloCplex__LazyConstraintCallbackI(final long cPtr, final boolean cMemoryOwn)
+    '''
 def getCPtr():
-'''public static long getCPtr(final IloCplex__LazyConstraintCallbackI obj)
-'''
-pass
+    '''    public static long getCPtr(final IloCplex__LazyConstraintCallbackI obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def getSolutionSource():
-'''public SWIGTYPE_p_IloCplex__IncumbentCallbackI__SolutionSource getSolutionSource()
-'''
-pass
+    '''    public SWIGTYPE_p_IloCplex__IncumbentCallbackI__SolutionSource getSolutionSource()
+    '''
 def isUnboundedNode():
-'''public boolean isUnboundedNode()
-'''
-pass
+    '''    public boolean isUnboundedNode()
+    '''
 def add():
-'''public IloConstraint add(final IloConstraint con, final SWIGTYPE_p_IloCplex__CutManagement purgeable)
-public IloConstraint add(final IloConstraint con)
-'''
-pass
+    '''    public IloConstraint add(final IloConstraint con, final SWIGTYPE_p_IloCplex__CutManagement purgeable)
+    public IloConstraint add(final IloConstraint con)
+    '''
 def addLocal():
-'''public IloConstraint addLocal(final IloConstraint con)
-'''
-pass
+    '''    public IloConstraint addLocal(final IloConstraint con)
+    '''

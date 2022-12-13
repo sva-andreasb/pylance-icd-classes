@@ -1,33 +1,25 @@
 def CookieSpecRegistry():
-'''public CookieSpecRegistry()
-'''
-pass
+    '''    public CookieSpecRegistry()
+    '''
 def register():
-'''public void register(final String name, final CookieSpecFactory factory)
-'''
-pass
+    '''    public void register(final String name, final CookieSpecFactory factory)
+    '''
 def unregister():
-'''public void unregister(final String id)
-'''
-pass
+    '''    public void unregister(final String id)
+    '''
 def getCookieSpec():
-'''public CookieSpec getCookieSpec(final String name, final HttpParams params)
-public CookieSpec getCookieSpec(final String name)
-'''
-pass
+    '''    public CookieSpec getCookieSpec(final String name, final HttpParams params)
+    public CookieSpec getCookieSpec(final String name)
+    '''
 def getSpecNames():
-'''public List<String> getSpecNames()
-'''
-pass
+    '''    public List<String> getSpecNames()
+    '''
 def setItems():
-'''public void setItems(final Map<String, CookieSpecFactory> map)
-'''
-pass
+    '''    public void setItems(final Map<String, CookieSpecFactory> map)
+    '''
 def lookup():
-'''public CookieSpecProvider lookup(final String name)
-'''
-pass
+    '''    public CookieSpecProvider lookup(final String name)
+    '''
 def create():
-'''public CookieSpec create(final HttpContext context)
-'''
-pass
+    '''    public CookieSpec create(final HttpContext context)
+    '''

@@ -1,8 +1,6 @@
 def ClassAncestorSet():
-'''public ClassAncestorSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ClassAncestorSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

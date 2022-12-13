@@ -1,29 +1,22 @@
 def Dimension2dDouble():
-'''public Dimension2dDouble()
-public Dimension2dDouble(final double width, final double height)
-'''
-pass
+    '''    public Dimension2dDouble()
+    public Dimension2dDouble(final double width, final double height)
+    '''
 def getWidth():
-'''public double getWidth()
-'''
-pass
+    '''    public double getWidth()
+    '''
 def getHeight():
-'''public double getHeight()
-'''
-pass
+    '''    public double getHeight()
+    '''
 def setSize():
-'''public void setSize(final double width, final double height)
-'''
-pass
+    '''    public void setSize(final double width, final double height)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

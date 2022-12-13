@@ -1,72 +1,54 @@
 def FldCommonWonum():
-'''public FldCommonWonum(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonWonum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setAssetnumField():
-'''public void setAssetnumField(String assetnumField)
-'''
-pass
+    '''    public void setAssetnumField(String assetnumField)
+    '''
 def setLocationField():
-'''public void setLocationField(String locationField)
-'''
-pass
+    '''    public void setLocationField(String locationField)
+    '''
 def setGLDebitAcctField():
-'''public void setGLDebitAcctField(String gldebitacctField)
-'''
-pass
+    '''    public void setGLDebitAcctField(String gldebitacctField)
+    '''
 def setChargeStoreField():
-'''public void setChargeStoreField(String chargestoreField)
-'''
-pass
+    '''    public void setChargeStoreField(String chargestoreField)
+    '''
 def setItemnumField():
-'''public void setItemnumField(String itemnumField)
-'''
-pass
+    '''    public void setItemnumField(String itemnumField)
+    '''
 def setItemsetidField():
-'''public void setItemsetidField(String itemsetidField)
-'''
-pass
+    '''    public void setItemsetidField(String itemsetidField)
+    '''
 def setStoreLocField():
-'''public void setStoreLocField(String storelocField, final boolean clearStorelocField)
-'''
-pass
+    '''    public void setStoreLocField(String storelocField, final boolean clearStorelocField)
+    '''
 def setLaborcodeField():
-'''public void setLaborcodeField(String laborcodeField)
-'''
-pass
+    '''    public void setLaborcodeField(String laborcodeField)
+    '''
 def setCraftField():
-'''public void setCraftField(String craftField)
-'''
-pass
+    '''    public void setCraftField(String craftField)
+    '''
 def setSkilllevelField():
-'''public void setSkilllevelField(String skilllevelField)
-'''
-pass
+    '''    public void setSkilllevelField(String skilllevelField)
+    '''
 def setVendorField():
-'''public void setVendorField(String vendorField)
-'''
-pass
+    '''    public void setVendorField(String vendorField)
+    '''
 def setContractnumField():
-'''public void setContractnumField(String contractField)
-'''
-pass
+    '''    public void setContractnumField(String contractField)
+    '''
 def setToolnumField():
-'''public void setToolnumField(String toolnumField)
-'''
-pass
+    '''    public void setToolnumField(String toolnumField)
+    '''
 def setMRField():
-'''public void setMRField(String mrnumField, final String mrlinenumField)
-'''
-pass
+    '''    public void setMRField(String mrnumField, final String mrlinenumField)
+    '''
 def getWoOwner():
-'''public MboRemote getWoOwner()
-'''
-pass
+    '''    public MboRemote getWoOwner()
+    '''

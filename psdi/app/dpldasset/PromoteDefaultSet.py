@@ -1,4 +1,3 @@
 def PromoteDefaultSet():
-'''public PromoteDefaultSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PromoteDefaultSet(final MboServerInterface ms)
+    '''

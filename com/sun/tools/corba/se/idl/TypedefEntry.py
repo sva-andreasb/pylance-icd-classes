@@ -1,25 +1,19 @@
 def arrayInfo():
-'''public Vector arrayInfo()
-'''
-pass
+    '''    public Vector arrayInfo()
+    '''
 def addArrayInfo():
-'''public void addArrayInfo(final Expression obj)
-'''
-pass
+    '''    public void addArrayInfo(final Expression obj)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def generate():
-'''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
-'''
-pass
+    '''    public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''
 def isReferencable():
-'''public boolean isReferencable()
-public void isReferencable(final boolean b)
-'''
-pass
+    '''    public boolean isReferencable()
+    public void isReferencable(final boolean b)
+    '''
 def generator():
-'''public Generator generator()
-'''
-pass
+    '''    public Generator generator()
+    '''

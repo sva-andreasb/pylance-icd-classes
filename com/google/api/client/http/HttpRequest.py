@@ -1,208 +1,157 @@
-VERSION = "String  1.25.0""
-USER_AGENT_SUFFIX = "String  Google-HTTP-Java-Client/1.25.0 (gzip)""
+VERSION = "String  \"1.25.0\""
+USER_AGENT_SUFFIX = "String  \"Google-HTTP-Java-Client/1.25.0 (gzip)\""
 DEFAULT_NUMBER_OF_RETRIES = "int  10"
 def getTransport():
-'''public HttpTransport getTransport()
-'''
-pass
+    '''    public HttpTransport getTransport()
+    '''
 def getRequestMethod():
-'''public String getRequestMethod()
-'''
-pass
+    '''    public String getRequestMethod()
+    '''
 def setRequestMethod():
-'''public HttpRequest setRequestMethod(final String requestMethod)
-'''
-pass
+    '''    public HttpRequest setRequestMethod(final String requestMethod)
+    '''
 def getUrl():
-'''public GenericUrl getUrl()
-'''
-pass
+    '''    public GenericUrl getUrl()
+    '''
 def setUrl():
-'''public HttpRequest setUrl(final GenericUrl url)
-'''
-pass
+    '''    public HttpRequest setUrl(final GenericUrl url)
+    '''
 def getContent():
-'''public HttpContent getContent()
-'''
-pass
+    '''    public HttpContent getContent()
+    '''
 def setContent():
-'''public HttpRequest setContent(final HttpContent content)
-'''
-pass
+    '''    public HttpRequest setContent(final HttpContent content)
+    '''
 def getEncoding():
-'''public HttpEncoding getEncoding()
-'''
-pass
+    '''    public HttpEncoding getEncoding()
+    '''
 def setEncoding():
-'''public HttpRequest setEncoding(final HttpEncoding encoding)
-'''
-pass
+    '''    public HttpRequest setEncoding(final HttpEncoding encoding)
+    '''
 def getBackOffPolicy():
-'''public BackOffPolicy getBackOffPolicy()
-'''
-pass
+    '''    public BackOffPolicy getBackOffPolicy()
+    '''
 def setBackOffPolicy():
-'''public HttpRequest setBackOffPolicy(final BackOffPolicy backOffPolicy)
-'''
-pass
+    '''    public HttpRequest setBackOffPolicy(final BackOffPolicy backOffPolicy)
+    '''
 def getContentLoggingLimit():
-'''public int getContentLoggingLimit()
-'''
-pass
+    '''    public int getContentLoggingLimit()
+    '''
 def setContentLoggingLimit():
-'''public HttpRequest setContentLoggingLimit(final int contentLoggingLimit)
-'''
-pass
+    '''    public HttpRequest setContentLoggingLimit(final int contentLoggingLimit)
+    '''
 def isLoggingEnabled():
-'''public boolean isLoggingEnabled()
-'''
-pass
+    '''    public boolean isLoggingEnabled()
+    '''
 def setLoggingEnabled():
-'''public HttpRequest setLoggingEnabled(final boolean loggingEnabled)
-'''
-pass
+    '''    public HttpRequest setLoggingEnabled(final boolean loggingEnabled)
+    '''
 def isCurlLoggingEnabled():
-'''public boolean isCurlLoggingEnabled()
-'''
-pass
+    '''    public boolean isCurlLoggingEnabled()
+    '''
 def setCurlLoggingEnabled():
-'''public HttpRequest setCurlLoggingEnabled(final boolean curlLoggingEnabled)
-'''
-pass
+    '''    public HttpRequest setCurlLoggingEnabled(final boolean curlLoggingEnabled)
+    '''
 def getConnectTimeout():
-'''public int getConnectTimeout()
-'''
-pass
+    '''    public int getConnectTimeout()
+    '''
 def setConnectTimeout():
-'''public HttpRequest setConnectTimeout(final int connectTimeout)
-'''
-pass
+    '''    public HttpRequest setConnectTimeout(final int connectTimeout)
+    '''
 def getReadTimeout():
-'''public int getReadTimeout()
-'''
-pass
+    '''    public int getReadTimeout()
+    '''
 def setReadTimeout():
-'''public HttpRequest setReadTimeout(final int readTimeout)
-'''
-pass
+    '''    public HttpRequest setReadTimeout(final int readTimeout)
+    '''
 def getHeaders():
-'''public HttpHeaders getHeaders()
-'''
-pass
+    '''    public HttpHeaders getHeaders()
+    '''
 def setHeaders():
-'''public HttpRequest setHeaders(final HttpHeaders headers)
-'''
-pass
+    '''    public HttpRequest setHeaders(final HttpHeaders headers)
+    '''
 def getResponseHeaders():
-'''public HttpHeaders getResponseHeaders()
-'''
-pass
+    '''    public HttpHeaders getResponseHeaders()
+    '''
 def setResponseHeaders():
-'''public HttpRequest setResponseHeaders(final HttpHeaders responseHeaders)
-'''
-pass
+    '''    public HttpRequest setResponseHeaders(final HttpHeaders responseHeaders)
+    '''
 def getInterceptor():
-'''public HttpExecuteInterceptor getInterceptor()
-'''
-pass
+    '''    public HttpExecuteInterceptor getInterceptor()
+    '''
 def setInterceptor():
-'''public HttpRequest setInterceptor(final HttpExecuteInterceptor interceptor)
-'''
-pass
+    '''    public HttpRequest setInterceptor(final HttpExecuteInterceptor interceptor)
+    '''
 def getUnsuccessfulResponseHandler():
-'''public HttpUnsuccessfulResponseHandler getUnsuccessfulResponseHandler()
-'''
-pass
+    '''    public HttpUnsuccessfulResponseHandler getUnsuccessfulResponseHandler()
+    '''
 def setUnsuccessfulResponseHandler():
-'''public HttpRequest setUnsuccessfulResponseHandler(final HttpUnsuccessfulResponseHandler unsuccessfulResponseHandler)
-'''
-pass
+    '''    public HttpRequest setUnsuccessfulResponseHandler(final HttpUnsuccessfulResponseHandler unsuccessfulResponseHandler)
+    '''
 def getIOExceptionHandler():
-'''public HttpIOExceptionHandler getIOExceptionHandler()
-'''
-pass
+    '''    public HttpIOExceptionHandler getIOExceptionHandler()
+    '''
 def setIOExceptionHandler():
-'''public HttpRequest setIOExceptionHandler(final HttpIOExceptionHandler ioExceptionHandler)
-'''
-pass
+    '''    public HttpRequest setIOExceptionHandler(final HttpIOExceptionHandler ioExceptionHandler)
+    '''
 def getResponseInterceptor():
-'''public HttpResponseInterceptor getResponseInterceptor()
-'''
-pass
+    '''    public HttpResponseInterceptor getResponseInterceptor()
+    '''
 def setResponseInterceptor():
-'''public HttpRequest setResponseInterceptor(final HttpResponseInterceptor responseInterceptor)
-'''
-pass
+    '''    public HttpRequest setResponseInterceptor(final HttpResponseInterceptor responseInterceptor)
+    '''
 def getNumberOfRetries():
-'''public int getNumberOfRetries()
-'''
-pass
+    '''    public int getNumberOfRetries()
+    '''
 def setNumberOfRetries():
-'''public HttpRequest setNumberOfRetries(final int numRetries)
-'''
-pass
+    '''    public HttpRequest setNumberOfRetries(final int numRetries)
+    '''
 def setParser():
-'''public HttpRequest setParser(final ObjectParser parser)
-'''
-pass
+    '''    public HttpRequest setParser(final ObjectParser parser)
+    '''
 def getParser():
-'''public final ObjectParser getParser()
-'''
-pass
+    '''    public final ObjectParser getParser()
+    '''
 def getFollowRedirects():
-'''public boolean getFollowRedirects()
-'''
-pass
+    '''    public boolean getFollowRedirects()
+    '''
 def setFollowRedirects():
-'''public HttpRequest setFollowRedirects(final boolean followRedirects)
-'''
-pass
+    '''    public HttpRequest setFollowRedirects(final boolean followRedirects)
+    '''
 def getThrowExceptionOnExecuteError():
-'''public boolean getThrowExceptionOnExecuteError()
-'''
-pass
+    '''    public boolean getThrowExceptionOnExecuteError()
+    '''
 def setThrowExceptionOnExecuteError():
-'''public HttpRequest setThrowExceptionOnExecuteError(final boolean throwExceptionOnExecuteError)
-'''
-pass
+    '''    public HttpRequest setThrowExceptionOnExecuteError(final boolean throwExceptionOnExecuteError)
+    '''
 def getRetryOnExecuteIOException():
-'''public boolean getRetryOnExecuteIOException()
-'''
-pass
+    '''    public boolean getRetryOnExecuteIOException()
+    '''
 def setRetryOnExecuteIOException():
-'''public HttpRequest setRetryOnExecuteIOException(final boolean retryOnExecuteIOException)
-'''
-pass
+    '''    public HttpRequest setRetryOnExecuteIOException(final boolean retryOnExecuteIOException)
+    '''
 def getSuppressUserAgentSuffix():
-'''public boolean getSuppressUserAgentSuffix()
-'''
-pass
+    '''    public boolean getSuppressUserAgentSuffix()
+    '''
 def setSuppressUserAgentSuffix():
-'''public HttpRequest setSuppressUserAgentSuffix(final boolean suppressUserAgentSuffix)
-'''
-pass
+    '''    public HttpRequest setSuppressUserAgentSuffix(final boolean suppressUserAgentSuffix)
+    '''
 def execute():
-'''public HttpResponse execute()
-'''
-pass
+    '''    public HttpResponse execute()
+    '''
 def executeAsync():
-'''public Future<HttpResponse> executeAsync(final Executor executor)
-public Future<HttpResponse> executeAsync()
-'''
-pass
+    '''    public Future<HttpResponse> executeAsync(final Executor executor)
+    public Future<HttpResponse> executeAsync()
+    '''
 def call():
-'''public HttpResponse call()
-'''
-pass
+    '''    public HttpResponse call()
+    '''
 def handleRedirect():
-'''public boolean handleRedirect(final int statusCode, final HttpHeaders responseHeaders)
-'''
-pass
+    '''    public boolean handleRedirect(final int statusCode, final HttpHeaders responseHeaders)
+    '''
 def getSleeper():
-'''public Sleeper getSleeper()
-'''
-pass
+    '''    public Sleeper getSleeper()
+    '''
 def setSleeper():
-'''public HttpRequest setSleeper(final Sleeper sleeper)
-'''
-pass
+    '''    public HttpRequest setSleeper(final Sleeper sleeper)
+    '''

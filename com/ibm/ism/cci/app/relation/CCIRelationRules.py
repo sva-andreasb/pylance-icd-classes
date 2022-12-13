@@ -1,8 +1,6 @@
 def CCIRelationRules():
-'''public CCIRelationRules(final MboSet ms)
-'''
-pass
+    '''    public CCIRelationRules(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

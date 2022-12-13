@@ -1,4 +1,3 @@
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

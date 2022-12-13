@@ -1,8 +1,6 @@
 def getExceptionType():
-'''public ObjectType getExceptionType()
-'''
-pass
+    '''    public ObjectType getExceptionType()
+    '''
 def getHandlerStart():
-'''public InstructionHandle getHandlerStart()
-'''
-pass
+    '''    public InstructionHandle getHandlerStart()
+    '''

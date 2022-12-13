@@ -1,108 +1,83 @@
 def MultiMap():
-'''public MultiMap()
-public MultiMap(final Map<K, Object> map)
-public MultiMap(final MultiMap<K> map)
-public MultiMap(final int capacity)
-public MultiMap(final boolean concurrent)
-'''
-pass
+    '''    public MultiMap()
+    public MultiMap(final Map<K, Object> map)
+    public MultiMap(final MultiMap<K> map)
+    public MultiMap(final int capacity)
+    public MultiMap(final boolean concurrent)
+    '''
 def getValues():
-'''public List<Object> getValues(final Object name)
-'''
-pass
+    '''    public List<Object> getValues(final Object name)
+    '''
 def getValue():
-'''public Object getValue(final Object name, final int i)
-'''
-pass
+    '''    public Object getValue(final Object name, final int i)
+    '''
 def getString():
-'''public String getString(final Object name)
-'''
-pass
+    '''    public String getString(final Object name)
+    '''
 def get():
-'''public Object get(final Object name)
-'''
-pass
+    '''    public Object get(final Object name)
+    '''
 def put():
-'''public Object put(final K name, final Object value)
-'''
-pass
+    '''    public Object put(final K name, final Object value)
+    '''
 def putValues():
-'''public Object putValues(final K name, final List<?> values)
-public Object putValues(final K name, final String... values)
-'''
-pass
+    '''    public Object putValues(final K name, final List<?> values)
+    public Object putValues(final K name, final String... values)
+    '''
 def add():
-'''public void add(final K name, final Object value)
-'''
-pass
+    '''    public void add(final K name, final Object value)
+    '''
 def addValues():
-'''public void addValues(final K name, final List<?> values)
-public void addValues(final K name, final String[] values)
-'''
-pass
+    '''    public void addValues(final K name, final List<?> values)
+    public void addValues(final K name, final String[] values)
+    '''
 def removeValue():
-'''public boolean removeValue(final K name, final Object value)
-'''
-pass
+    '''    public boolean removeValue(final K name, final Object value)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ?> m)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ?> m)
+    '''
 def toStringArrayMap():
-'''public Map<K, String[]> toStringArrayMap()
-'''
-pass
+    '''    public Map<K, String[]> toStringArrayMap()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def remove():
-'''public Object remove(final Object key)
-public boolean remove(final Object key, final Object value)
-'''
-pass
+    '''    public Object remove(final Object key)
+    public boolean remove(final Object key, final Object value)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def values():
-'''public Collection<Object> values()
-'''
-pass
+    '''    public Collection<Object> values()
+    '''
 def putIfAbsent():
-'''public Object putIfAbsent(final K key, final Object value)
-'''
-pass
+    '''    public Object putIfAbsent(final K key, final Object value)
+    '''
 def replace():
-'''public boolean replace(final K key, final Object oldValue, final Object newValue)
-public Object replace(final K key, final Object value)
-'''
-pass
+    '''    public boolean replace(final K key, final Object oldValue, final Object newValue)
+    public Object replace(final K key, final Object value)
+    '''

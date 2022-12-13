@@ -1,12 +1,9 @@
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''
 def deleteInteractionGroupAppMenu():
-'''public void deleteInteractionGroupAppMenu(final MboRemote mbo)
-'''
-pass
+    '''    public void deleteInteractionGroupAppMenu(final MboRemote mbo)
+    '''
 def selectmenu():
-'''public int selectmenu()
-'''
-pass
+    '''    public int selectmenu()
+    '''

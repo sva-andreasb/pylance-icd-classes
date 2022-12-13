@@ -1,58 +1,44 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloGoalBreakdownFactoryImpl():
-'''public IloGoalBreakdownFactoryImpl(final IloOplArgumentDescEvaluatorContext context, final IloMessageParameterFormatter messageFormater, final IloBreakdownVariableFactory factory, final IloObjectiveModel model, final String modelId)
-public IloGoalBreakdownFactoryImpl(final IloOplArgumentDescEvaluatorContext context, final IloMessageParameterFormatter messageFormater, final IloBreakdownVariableFactory factory, final IloObjectiveModel goalModel, final String modelId, final IloSolveAnywayCallback monitor)
-'''
-pass
+    '''    public IloGoalBreakdownFactoryImpl(final IloOplArgumentDescEvaluatorContext context, final IloMessageParameterFormatter messageFormater, final IloBreakdownVariableFactory factory, final IloObjectiveModel model, final String modelId)
+    public IloGoalBreakdownFactoryImpl(final IloOplArgumentDescEvaluatorContext context, final IloMessageParameterFormatter messageFormater, final IloBreakdownVariableFactory factory, final IloObjectiveModel goalModel, final String modelId, final IloSolveAnywayCallback monitor)
+    '''
 def onSearchFeasibleSolution():
-'''public boolean onSearchFeasibleSolution(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges, final boolean isHighestRelaxablePriority)
-'''
-pass
+    '''    public boolean onSearchFeasibleSolution(final String model, final IloPriority maxRelaxablePriorityLevel, final Collection<?> relaxblesRanges, final boolean isHighestRelaxablePriority)
+    '''
 def onSearchOptimalSolution():
-'''public boolean onSearchOptimalSolution(final String model, final IloPriority maxRelaxablePriorityLevel)
-'''
-pass
+    '''    public boolean onSearchOptimalSolution(final String model, final IloPriority maxRelaxablePriorityLevel)
+    '''
 def onBuildModel():
-'''public boolean onBuildModel(final String modelingType, final String model, final String label)
-'''
-pass
+    '''    public boolean onBuildModel(final String modelingType, final String model, final String label)
+    '''
 def onPublishSolution():
-'''public boolean onPublishSolution(final String publicationType, final String model, final String label)
-'''
-pass
+    '''    public boolean onPublishSolution(final String publicationType, final String model, final String label)
+    '''
 def getMonitor():
-'''public IloSolveAnywayCallback getMonitor()
-'''
-pass
+    '''    public IloSolveAnywayCallback getMonitor()
+    '''
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''
 def isEvalutingKey():
-'''public boolean isEvalutingKey()
-'''
-pass
+    '''    public boolean isEvalutingKey()
+    '''
 def publishGoalsBreakdown():
-'''public void publishGoalsBreakdown()
-'''
-pass
+    '''    public void publishGoalsBreakdown()
+    '''
 def addLeafDecisionVariableValue():
-'''public void addLeafDecisionVariableValue(final IloBreakdownVariable rootVariable, final DexprDesc desc, final Parameter parameter, final double value)
-'''
-pass
+    '''    public void addLeafDecisionVariableValue(final IloBreakdownVariable rootVariable, final DexprDesc desc, final Parameter parameter, final double value)
+    '''
 def makeTopDecisionVariableValue():
-'''public IloBreakdownVariable makeTopDecisionVariableValue(final DexprDesc desc, final double value)
-'''
-pass
+    '''    public IloBreakdownVariable makeTopDecisionVariableValue(final DexprDesc desc, final double value)
+    '''
 def getDexprDesc():
-'''public DexprDesc getDexprDesc(final String name)
-'''
-pass
+    '''    public DexprDesc getDexprDesc(final String name)
+    '''
 def getEvaluatorContext():
-'''public IloOplArgumentDescEvaluatorContext getEvaluatorContext()
-'''
-pass
+    '''    public IloOplArgumentDescEvaluatorContext getEvaluatorContext()
+    '''
 def setSubModelDesc():
-'''public void setSubModelDesc(final SubModelDesc subModelDesc)
-'''
-pass
+    '''    public void setSubModelDesc(final SubModelDesc subModelDesc)
+    '''

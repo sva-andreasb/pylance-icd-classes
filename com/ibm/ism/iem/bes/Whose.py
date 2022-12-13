@@ -1,24 +1,18 @@
 def getProperty():
-'''public String getProperty()
-'''
-pass
+    '''    public String getProperty()
+    '''
 def setProperty():
-'''public void setProperty(final String value)
-'''
-pass
+    '''    public void setProperty(final String value)
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def setRelation():
-'''public void setRelation(final String value)
-'''
-pass
+    '''    public void setRelation(final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''

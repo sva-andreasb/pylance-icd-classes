@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def filterrows():
-'''public int filterrows()
-'''
-pass
+    '''    public int filterrows()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''

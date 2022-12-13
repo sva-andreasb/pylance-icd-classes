@@ -1,4 +1,3 @@
 def parse():
-'''public Unfriend parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public Unfriend parse(final XmlPullParser parser, final int initialDepth)
+    '''

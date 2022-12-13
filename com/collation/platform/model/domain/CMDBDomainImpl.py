@@ -1,357 +1,268 @@
 def CMDBDomainImpl():
-'''public CMDBDomainImpl()
-public CMDBDomainImpl(final Map m)
-'''
-pass
+    '''    public CMDBDomainImpl()
+    public CMDBDomainImpl(final Map m)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def hasName():
-'''public boolean hasName()
-'''
-pass
+    '''    public boolean hasName()
+    '''
 def setHostname():
-'''public void setHostname(final String hostName)
-'''
-pass
+    '''    public void setHostname(final String hostName)
+    '''
 def getHostname():
-'''public String getHostname()
-'''
-pass
+    '''    public String getHostname()
+    '''
 def hasHostname():
-'''public boolean hasHostname()
-'''
-pass
+    '''    public boolean hasHostname()
+    '''
 def setPort():
-'''public void setPort(final int port)
-'''
-pass
+    '''    public void setPort(final int port)
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def hasPort():
-'''public boolean hasPort()
-'''
-pass
+    '''    public boolean hasPort()
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def hasPassword():
-'''public boolean hasPassword()
-'''
-pass
+    '''    public boolean hasPassword()
+    '''
 def setWebPort():
-'''public void setWebPort(final int port)
-'''
-pass
+    '''    public void setWebPort(final int port)
+    '''
 def getWebPort():
-'''public int getWebPort()
-'''
-pass
+    '''    public int getWebPort()
+    '''
 def hasWebPort():
-'''public boolean hasWebPort()
-'''
-pass
+    '''    public boolean hasWebPort()
+    '''
 def setWebsslPort():
-'''public void setWebsslPort(final int port)
-'''
-pass
+    '''    public void setWebsslPort(final int port)
+    '''
 def getWebsslPort():
-'''public int getWebsslPort()
-'''
-pass
+    '''    public int getWebsslPort()
+    '''
 def hasWebsslPort():
-'''public boolean hasWebsslPort()
-'''
-pass
+    '''    public boolean hasWebsslPort()
+    '''
 def setRmiPort():
-'''public void setRmiPort(final int port)
-'''
-pass
+    '''    public void setRmiPort(final int port)
+    '''
 def getRmiPort():
-'''public int getRmiPort()
-'''
-pass
+    '''    public int getRmiPort()
+    '''
 def hasRmiPort():
-'''public boolean hasRmiPort()
-'''
-pass
+    '''    public boolean hasRmiPort()
+    '''
 def setSynchSchedules():
-'''public void setSynchSchedules(final SyncSchedule[] policies)
-'''
-pass
+    '''    public void setSynchSchedules(final SyncSchedule[] policies)
+    '''
 def getSynchSchedules():
-'''public SyncSchedule[] getSynchSchedules()
-'''
-pass
+    '''    public SyncSchedule[] getSynchSchedules()
+    '''
 def hasSynchSchedules():
-'''public boolean hasSynchSchedules()
-'''
-pass
+    '''    public boolean hasSynchSchedules()
+    '''
 def setLastSynchTimestamp():
-'''public void setLastSynchTimestamp(final long timestamp)
-'''
-pass
+    '''    public void setLastSynchTimestamp(final long timestamp)
+    '''
 def getLastSynchTimestamp():
-'''public long getLastSynchTimestamp()
-'''
-pass
+    '''    public long getLastSynchTimestamp()
+    '''
 def hasLastSynchTimestamp():
-'''public boolean hasLastSynchTimestamp()
-'''
-pass
+    '''    public boolean hasLastSynchTimestamp()
+    '''
 def setSynchQuery():
-'''public void setSynchQuery(final SyncQuery query)
-'''
-pass
+    '''    public void setSynchQuery(final SyncQuery query)
+    '''
 def getSynchQuery():
-'''public SyncQuery getSynchQuery()
-'''
-pass
+    '''    public SyncQuery getSynchQuery()
+    '''
 def hasSynchQuery():
-'''public boolean hasSynchQuery()
-'''
-pass
+    '''    public boolean hasSynchQuery()
+    '''
 def setDefaultDomain():
-'''public void setDefaultDomain(final boolean isDefault)
-'''
-pass
+    '''    public void setDefaultDomain(final boolean isDefault)
+    '''
 def getDefaultDomain():
-'''public boolean getDefaultDomain()
-'''
-pass
+    '''    public boolean getDefaultDomain()
+    '''
 def hasDefaultDomain():
-'''public boolean hasDefaultDomain()
-'''
-pass
+    '''    public boolean hasDefaultDomain()
+    '''
 def setDomainScope():
-'''public void setDomainScope(final Scope scope)
-'''
-pass
+    '''    public void setDomainScope(final Scope scope)
+    '''
 def getDomainScope():
-'''public Scope getDomainScope()
-'''
-pass
+    '''    public Scope getDomainScope()
+    '''
 def hasDomainScope():
-'''public boolean hasDomainScope()
-'''
-pass
+    '''    public boolean hasDomainScope()
+    '''
 def getManagedSystemName():
-'''public String getManagedSystemName()
-'''
-pass
+    '''    public String getManagedSystemName()
+    '''
 def hasManagedSystemName():
-'''public boolean hasManagedSystemName()
-'''
-pass
+    '''    public boolean hasManagedSystemName()
+    '''
 def setManagedSystemName():
-'''public void setManagedSystemName(final String x)
-'''
-pass
+    '''    public void setManagedSystemName(final String x)
+    '''
 def getRoles():
-'''public Role[] getRoles()
-'''
-pass
+    '''    public Role[] getRoles()
+    '''
 def hasRoles():
-'''public boolean hasRoles()
-'''
-pass
+    '''    public boolean hasRoles()
+    '''
 def setRoles():
-'''public void setRoles(final Role[] x)
-'''
-pass
+    '''    public void setRoles(final Role[] x)
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def hasGuid():
-'''public boolean hasGuid()
-'''
-pass
+    '''    public boolean hasGuid()
+    '''
 def setGuid():
-'''public void setGuid(final Guid guid)
-'''
-pass
+    '''    public void setGuid(final Guid guid)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def hasDisplayName():
-'''public boolean hasDisplayName()
-'''
-pass
+    '''    public boolean hasDisplayName()
+    '''
 def getContextIp():
-'''public String getContextIp()
-'''
-pass
+    '''    public String getContextIp()
+    '''
 def hasContextIp():
-'''public boolean hasContextIp()
-'''
-pass
+    '''    public boolean hasContextIp()
+    '''
 def setContextIp():
-'''public void setContextIp(final String ctx)
-'''
-pass
+    '''    public void setContextIp(final String ctx)
+    '''
 def getObjectType():
-'''public String getObjectType()
-'''
-pass
+    '''    public String getObjectType()
+    '''
 def hasObjectType():
-'''public boolean hasObjectType()
-'''
-pass
+    '''    public boolean hasObjectType()
+    '''
 def setObjectType():
-'''public void setObjectType(final String type)
-'''
-pass
+    '''    public void setObjectType(final String type)
+    '''
 def getCDMSource():
-'''public String getCDMSource()
-'''
-pass
+    '''    public String getCDMSource()
+    '''
 def hasCDMSource():
-'''public boolean hasCDMSource()
-'''
-pass
+    '''    public boolean hasCDMSource()
+    '''
 def setCDMSource():
-'''public void setCDMSource(final String source)
-'''
-pass
+    '''    public void setCDMSource(final String source)
+    '''
 def getSourceToken():
-'''public String getSourceToken()
-'''
-pass
+    '''    public String getSourceToken()
+    '''
 def hasSourceToken():
-'''public boolean hasSourceToken()
-'''
-pass
+    '''    public boolean hasSourceToken()
+    '''
 def setSourceToken():
-'''public void setSourceToken(final String sourceToken)
-'''
-pass
+    '''    public void setSourceToken(final String sourceToken)
+    '''
 def getCmdbSource():
-'''public Guid getCmdbSource()
-'''
-pass
+    '''    public Guid getCmdbSource()
+    '''
 def hasCmdbSource():
-'''public boolean hasCmdbSource()
-'''
-pass
+    '''    public boolean hasCmdbSource()
+    '''
 def setCmdbSource():
-'''public void setCmdbSource(final Guid cmdbsource)
-'''
-pass
+    '''    public void setCmdbSource(final Guid cmdbsource)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def hasLabel():
-'''public boolean hasLabel()
-'''
-pass
+    '''    public boolean hasLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def hasDescription():
-'''public boolean hasDescription()
-'''
-pass
+    '''    public boolean hasDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getAdminState():
-'''public int getAdminState()
-'''
-pass
+    '''    public int getAdminState()
+    '''
 def hasAdminState():
-'''public boolean hasAdminState()
-'''
-pass
+    '''    public boolean hasAdminState()
+    '''
 def setAdminState():
-'''public void setAdminState(final int state)
-'''
-pass
+    '''    public void setAdminState(final int state)
+    '''
 def getBidiFlag():
-'''public int getBidiFlag()
-'''
-pass
+    '''    public int getBidiFlag()
+    '''
 def hasBidiFlag():
-'''public boolean hasBidiFlag()
-'''
-pass
+    '''    public boolean hasBidiFlag()
+    '''
 def setBidiFlag():
-'''public void setBidiFlag(final int bidiflag)
-'''
-pass
+    '''    public void setBidiFlag(final int bidiflag)
+    '''
 def getBidiFormat():
-'''public String getBidiFormat()
-'''
-pass
+    '''    public String getBidiFormat()
+    '''
 def hasBidiFormat():
-'''public boolean hasBidiFormat()
-'''
-pass
+    '''    public boolean hasBidiFormat()
+    '''
 def setBidiFormat():
-'''public void setBidiFormat(final String bidiformat)
-'''
-pass
+    '''    public void setBidiFormat(final String bidiformat)
+    '''
 def getAllAttributes():
-'''public Map getAllAttributes()
-'''
-pass
+    '''    public Map getAllAttributes()
+    '''
 def getCreatedBy():
-'''public String getCreatedBy()
-'''
-pass
+    '''    public String getCreatedBy()
+    '''
 def hasCreatedBy():
-'''public boolean hasCreatedBy()
-'''
-pass
+    '''    public boolean hasCreatedBy()
+    '''
 def getLastModifiedTime():
-'''public long getLastModifiedTime()
-'''
-pass
+    '''    public long getLastModifiedTime()
+    '''
 def hasLastModifiedTime():
-'''public boolean hasLastModifiedTime()
-'''
-pass
+    '''    public boolean hasLastModifiedTime()
+    '''
 def getLastModifiedBy():
-'''public String getLastModifiedBy()
-'''
-pass
+    '''    public String getLastModifiedBy()
+    '''
 def hasLastModifiedBy():
-'''public boolean hasLastModifiedBy()
-'''
-pass
+    '''    public boolean hasLastModifiedBy()
+    '''
 def getExtendedAttributes():
-'''public byte[] getExtendedAttributes()
-'''
-pass
+    '''    public byte[] getExtendedAttributes()
+    '''
 def hasExtendedAttributes():
-'''public boolean hasExtendedAttributes()
-'''
-pass
+    '''    public boolean hasExtendedAttributes()
+    '''
 def setExtendedAttributes():
-'''public void setExtendedAttributes(final byte[] eAttribMap)
-'''
-pass
+    '''    public void setExtendedAttributes(final byte[] eAttribMap)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,26 +1,20 @@
-ELEMENT = "String  UNFRIEND""
-NAMESPACE = "String  urn:xmpp:iot:provisioning""
+ELEMENT = "String  \"UNFRIEND\""
+NAMESPACE = "String  \"urn:xmpp:iot:provisioning\""
 def Unfriend():
-'''public Unfriend(final BareJid jid)
-'''
-pass
+    '''    public Unfriend(final BareJid jid)
+    '''
 def getJid():
-'''public BareJid getJid()
-'''
-pass
+    '''    public BareJid getJid()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def from():
-'''public static Unfriend from(final Message message)
-'''
-pass
+    '''    public static Unfriend from(final Message message)
+    '''

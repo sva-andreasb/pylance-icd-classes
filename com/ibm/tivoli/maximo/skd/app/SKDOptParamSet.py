@@ -1,4 +1,3 @@
 def SKDOptParamSet():
-'''public SKDOptParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDOptParamSet(final MboServerInterface ms)
+    '''

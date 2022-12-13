@@ -1,12 +1,9 @@
 def FldUserSecurGroupGroupName():
-'''public FldUserSecurGroupGroupName(final MboValue mbv)
-'''
-pass
+    '''    public FldUserSecurGroupGroupName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

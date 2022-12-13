@@ -1,16 +1,12 @@
 def ExtHashIterator():
-'''public ExtHashIterator(final ExtHash extHash)
-'''
-pass
+    '''    public ExtHashIterator(final ExtHash extHash)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Record next()
-'''
-pass
+    '''    public Record next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

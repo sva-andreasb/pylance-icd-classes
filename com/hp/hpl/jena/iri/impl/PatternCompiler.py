@@ -1,8 +1,6 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def errorCode():
-'''public static int errorCode(final String s)
-'''
-pass
+    '''    public static int errorCode(final String s)
+    '''

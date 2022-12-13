@@ -1,8 +1,6 @@
 def AnswerAppBean():
-'''public AnswerAppBean()
-'''
-pass
+    '''    public AnswerAppBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

@@ -1,4 +1,3 @@
 def KPIScheduleSet():
-'''public KPIScheduleSet(final MboServerInterface ms)
-'''
-pass
+    '''    public KPIScheduleSet(final MboServerInterface ms)
+    '''

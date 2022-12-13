@@ -1,4 +1,3 @@
 def AnalyticAuthSet():
-'''public AnalyticAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AnalyticAuthSet(final MboServerInterface ms)
+    '''

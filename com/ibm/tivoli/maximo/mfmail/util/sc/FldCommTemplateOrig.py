@@ -1,12 +1,9 @@
 def FldCommTemplateOrig():
-'''public FldCommTemplateOrig(final MboValue mbv)
-'''
-pass
+    '''    public FldCommTemplateOrig(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

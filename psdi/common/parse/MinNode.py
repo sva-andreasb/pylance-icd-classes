@@ -1,8 +1,6 @@
 def MinNode():
-'''public MinNode(final Vector operands)
-'''
-pass
+    '''    public MinNode(final Vector operands)
+    '''
 def getDouble():
-'''public double getDouble(final MboRemote mbo)
-'''
-pass
+    '''    public double getDouble(final MboRemote mbo)
+    '''

@@ -1,4 +1,3 @@
 def Y():
-'''public Y(final InputStream inputStream)
-'''
-pass
+    '''    public Y(final InputStream inputStream)
+    '''

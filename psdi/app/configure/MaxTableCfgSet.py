@@ -1,16 +1,12 @@
 def MaxTableCfgSet():
-'''public MaxTableCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxTableCfgSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setOwner():
-'''public void setOwner(final MboRemote mbo)
-'''
-pass
+    '''    public void setOwner(final MboRemote mbo)
+    '''
 def getValueCHANGE():
-'''public String getValueCHANGE()
-'''
-pass
+    '''    public String getValueCHANGE()
+    '''

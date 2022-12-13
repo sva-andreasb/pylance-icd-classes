@@ -1,8 +1,6 @@
 def getStackTraceElement():
-'''public static StackTraceElement getStackTraceElement(final int depth)
-'''
-pass
+    '''    public static StackTraceElement getStackTraceElement(final int depth)
+    '''
 def calcLocation():
-'''public static StackTraceElement calcLocation(final String fqcnOfLogger)
-'''
-pass
+    '''    public static StackTraceElement calcLocation(final String fqcnOfLogger)
+    '''

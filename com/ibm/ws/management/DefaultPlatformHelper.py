@@ -1,98 +1,74 @@
 def getServantToken():
-'''public String getServantToken()
-'''
-pass
+    '''    public String getServantToken()
+    '''
 def getUniqueId():
-'''public String getUniqueId()
-public String getUniqueId(final String uuid)
-'''
-pass
+    '''    public String getUniqueId()
+    public String getUniqueId(final String uuid)
+    '''
 def getSystemName():
-'''public String getSystemName()
-'''
-pass
+    '''    public String getSystemName()
+    '''
 def getGlobalORB():
-'''public ORB getGlobalORB()
-'''
-pass
+    '''    public ORB getGlobalORB()
+    '''
 def register_initial_reference():
-'''public void register_initial_reference(final String serviceName, final Object corbaObj)
-'''
-pass
+    '''    public void register_initial_reference(final String serviceName, final Object corbaObj)
+    '''
 def isZOS():
-'''public boolean isZOS()
-'''
-pass
+    '''    public boolean isZOS()
+    '''
 def isServantJvm():
-'''public boolean isServantJvm()
-'''
-pass
+    '''    public boolean isServantJvm()
+    '''
 def isClientJvm():
-'''public boolean isClientJvm()
-'''
-pass
+    '''    public boolean isClientJvm()
+    '''
 def isControlJvm():
-'''public boolean isControlJvm()
-'''
-pass
+    '''    public boolean isControlJvm()
+    '''
 def isCRAJvm():
-'''public boolean isCRAJvm()
-'''
-pass
+    '''    public boolean isCRAJvm()
+    '''
 def isBaseServantJvm():
-'''public boolean isBaseServantJvm()
-'''
-pass
+    '''    public boolean isBaseServantJvm()
+    '''
 def isOS400():
-'''public boolean isOS400()
-'''
-pass
+    '''    public boolean isOS400()
+    '''
 def runningWhereConfigured():
-'''public boolean runningWhereConfigured()
-'''
-pass
+    '''    public boolean runningWhereConfigured()
+    '''
 def getStoken():
-'''public byte[] getStoken()
-'''
-pass
+    '''    public byte[] getStoken()
+    '''
 def getSysplexName():
-'''public String getSysplexName()
-'''
-pass
+    '''    public String getSysplexName()
+    '''
 def doECAService():
-'''public int doECAService(final byte[] bytes)
-'''
-pass
+    '''    public int doECAService(final byte[] bytes)
+    '''
 def registerListener():
-'''public void registerListener(final JVMListenerInterface listener)
-public void registerListener(final ServantInitializationListener listener)
-'''
-pass
+    '''    public void registerListener(final JVMListenerInterface listener)
+    public void registerListener(final ServantInitializationListener listener)
+    '''
 def getCRAId():
-'''public String getCRAId()
-'''
-pass
+    '''    public String getCRAId()
+    '''
 def setCRAId():
-'''public void setCRAId(final String s)
-'''
-pass
+    '''    public void setCRAId(final String s)
+    '''
 def setRestartFlag():
-'''public void setRestartFlag()
-'''
-pass
+    '''    public void setRestartFlag()
+    '''
 def isServerShuttingDown():
-'''public boolean isServerShuttingDown()
-'''
-pass
+    '''    public boolean isServerShuttingDown()
+    '''
 def isServantActive():
-'''public boolean isServantActive(final byte[] sToken)
-'''
-pass
+    '''    public boolean isServantActive(final byte[] sToken)
+    '''
 def isServerPaused():
-'''public boolean isServerPaused()
-'''
-pass
+    '''    public boolean isServerPaused()
+    '''
 def getCPUTimes():
-'''public long[] getCPUTimes()
-'''
-pass
+    '''    public long[] getCPUTimes()
+    '''

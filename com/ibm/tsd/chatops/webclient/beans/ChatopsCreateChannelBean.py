@@ -1,16 +1,12 @@
 def loadTeams():
-'''public void loadTeams()
-'''
-pass
+    '''    public void loadTeams()
+    '''
 def loadUsers():
-'''public void loadUsers(final int row)
-'''
-pass
+    '''    public void loadUsers(final int row)
+    '''
 def createChannel():
-'''public synchronized int createChannel()
-'''
-pass
+    '''    public synchronized int createChannel()
+    '''
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''

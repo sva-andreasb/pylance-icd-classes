@@ -1,36 +1,27 @@
 def EntrySetMapIterator():
-'''public EntrySetMapIterator(final Map<K, V> map)
-'''
-pass
+    '''    public EntrySetMapIterator(final Map<K, V> map)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public K next()
-'''
-pass
+    '''    public K next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

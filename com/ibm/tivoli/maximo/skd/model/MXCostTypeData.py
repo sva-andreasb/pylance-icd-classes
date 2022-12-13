@@ -1,172 +1,129 @@
 def MXCostTypeData():
-'''public MXCostTypeData()
-'''
-pass
+    '''    public MXCostTypeData()
+    '''
 def setEsttotalcost():
-'''public void setEsttotalcost(final double inEsttotalcost)
-'''
-pass
+    '''    public void setEsttotalcost(final double inEsttotalcost)
+    '''
 def getEstTotalCost():
-'''public double getEstTotalCost()
-'''
-pass
+    '''    public double getEstTotalCost()
+    '''
 def setEstatapprtotalcost():
-'''public void setEstatapprtotalcost(final double inEstatapprtotalcost)
-'''
-pass
+    '''    public void setEstatapprtotalcost(final double inEstatapprtotalcost)
+    '''
 def getEstatapprtotalcost():
-'''public double getEstatapprtotalcost()
-'''
-pass
+    '''    public double getEstatapprtotalcost()
+    '''
 def setActtotalcost():
-'''public void setActtotalcost(final double inActtotalcost)
-'''
-pass
+    '''    public void setActtotalcost(final double inActtotalcost)
+    '''
 def getActtotalcost():
-'''public double getActtotalcost()
-'''
-pass
+    '''    public double getActtotalcost()
+    '''
 def setEstlabcost():
-'''public void setEstlabcost(final double inEstlabcost)
-'''
-pass
+    '''    public void setEstlabcost(final double inEstlabcost)
+    '''
 def getEstlabcost():
-'''public double getEstlabcost()
-'''
-pass
+    '''    public double getEstlabcost()
+    '''
 def setEstatapprlabcost():
-'''public void setEstatapprlabcost(final double inEstatapprlabcost)
-'''
-pass
+    '''    public void setEstatapprlabcost(final double inEstatapprlabcost)
+    '''
 def getEstatapprlabcost():
-'''public double getEstatapprlabcost()
-'''
-pass
+    '''    public double getEstatapprlabcost()
+    '''
 def setActlabcost():
-'''public void setActlabcost(final double inActlabcost)
-'''
-pass
+    '''    public void setActlabcost(final double inActlabcost)
+    '''
 def getActlabcost():
-'''public double getActlabcost()
-'''
-pass
+    '''    public double getActlabcost()
+    '''
 def setEstintlabcost():
-'''public void setEstintlabcost(final double inEstintlabcost)
-'''
-pass
+    '''    public void setEstintlabcost(final double inEstintlabcost)
+    '''
 def getEstintlabcost():
-'''public double getEstintlabcost()
-'''
-pass
+    '''    public double getEstintlabcost()
+    '''
 def setEstatapprintlabcost():
-'''public void setEstatapprintlabcost(final double inEstatapprintlabcost)
-'''
-pass
+    '''    public void setEstatapprintlabcost(final double inEstatapprintlabcost)
+    '''
 def getEstatapprintlabcost():
-'''public double getEstatapprintlabcost()
-'''
-pass
+    '''    public double getEstatapprintlabcost()
+    '''
 def setActintlabcost():
-'''public void setActintlabcost(final double inActintlabcost)
-'''
-pass
+    '''    public void setActintlabcost(final double inActintlabcost)
+    '''
 def getActintlabcost():
-'''public double getActintlabcost()
-'''
-pass
+    '''    public double getActintlabcost()
+    '''
 def setEstoutlabcost():
-'''public void setEstoutlabcost(final double inEstoutlabcost)
-'''
-pass
+    '''    public void setEstoutlabcost(final double inEstoutlabcost)
+    '''
 def getEstoutlabcost():
-'''public double getEstoutlabcost()
-'''
-pass
+    '''    public double getEstoutlabcost()
+    '''
 def setEstatapproutlabcost():
-'''public void setEstatapproutlabcost(final double inEstatapproutlabcost)
-'''
-pass
+    '''    public void setEstatapproutlabcost(final double inEstatapproutlabcost)
+    '''
 def getEstatapproutlabcost():
-'''public double getEstatapproutlabcost()
-'''
-pass
+    '''    public double getEstatapproutlabcost()
+    '''
 def setActoutlabcost():
-'''public void setActoutlabcost(final double inActoutlabcost)
-'''
-pass
+    '''    public void setActoutlabcost(final double inActoutlabcost)
+    '''
 def getActoutlabcost():
-'''public double getActoutlabcost()
-'''
-pass
+    '''    public double getActoutlabcost()
+    '''
 def setEsttoolcost():
-'''public void setEsttoolcost(final double inEsttoolcost)
-'''
-pass
+    '''    public void setEsttoolcost(final double inEsttoolcost)
+    '''
 def getEsttoolcost():
-'''public double getEsttoolcost()
-'''
-pass
+    '''    public double getEsttoolcost()
+    '''
 def setEstatapprtoolcost():
-'''public void setEstatapprtoolcost(final double inEstatapprtoolcost)
-'''
-pass
+    '''    public void setEstatapprtoolcost(final double inEstatapprtoolcost)
+    '''
 def getEstatapprtoolcost():
-'''public double getEstatapprtoolcost()
-'''
-pass
+    '''    public double getEstatapprtoolcost()
+    '''
 def setActtoolcost():
-'''public void setActtoolcost(final double inActtoolcost)
-'''
-pass
+    '''    public void setActtoolcost(final double inActtoolcost)
+    '''
 def getActtoolcost():
-'''public double getActtoolcost()
-'''
-pass
+    '''    public double getActtoolcost()
+    '''
 def setEstmatcost():
-'''public void setEstmatcost(final double inEstmatcost)
-'''
-pass
+    '''    public void setEstmatcost(final double inEstmatcost)
+    '''
 def getEstmatcost():
-'''public double getEstmatcost()
-'''
-pass
+    '''    public double getEstmatcost()
+    '''
 def setEstatapprmatcost():
-'''public void setEstatapprmatcost(final double inEstatapprmatcost)
-'''
-pass
+    '''    public void setEstatapprmatcost(final double inEstatapprmatcost)
+    '''
 def getEstatapprmatcost():
-'''public double getEstatapprmatcost()
-'''
-pass
+    '''    public double getEstatapprmatcost()
+    '''
 def setActmatcost():
-'''public void setActmatcost(final double inActmatcost)
-'''
-pass
+    '''    public void setActmatcost(final double inActmatcost)
+    '''
 def getActmatcost():
-'''public double getActmatcost()
-'''
-pass
+    '''    public double getActmatcost()
+    '''
 def setEstservcost():
-'''public void setEstservcost(final double inEstservcost)
-'''
-pass
+    '''    public void setEstservcost(final double inEstservcost)
+    '''
 def getEstservcost():
-'''public double getEstservcost()
-'''
-pass
+    '''    public double getEstservcost()
+    '''
 def setEstatapprservcost():
-'''public void setEstatapprservcost(final double inEstatapprservcost)
-'''
-pass
+    '''    public void setEstatapprservcost(final double inEstatapprservcost)
+    '''
 def getEstatapprservcost():
-'''public double getEstatapprservcost()
-'''
-pass
+    '''    public double getEstatapprservcost()
+    '''
 def setActservcost():
-'''public void setActservcost(final double inActservcost)
-'''
-pass
+    '''    public void setActservcost(final double inActservcost)
+    '''
 def getActservcost():
-'''public double getActservcost()
-'''
-pass
+    '''    public double getActservcost()
+    '''

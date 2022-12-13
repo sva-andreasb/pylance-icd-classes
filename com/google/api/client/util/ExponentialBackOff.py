@@ -4,83 +4,64 @@ DEFAULT_MULTIPLIER = "double  1.5"
 DEFAULT_MAX_INTERVAL_MILLIS = "int  60000"
 DEFAULT_MAX_ELAPSED_TIME_MILLIS = "int  900000"
 def ExponentialBackOff():
-'''public ExponentialBackOff()
-'''
-pass
+    '''    public ExponentialBackOff()
+    '''
 def reset():
-'''public final void reset()
-'''
-pass
+    '''    public final void reset()
+    '''
 def nextBackOffMillis():
-'''public long nextBackOffMillis()
-'''
-pass
+    '''    public long nextBackOffMillis()
+    '''
 def getInitialIntervalMillis():
-'''public final int getInitialIntervalMillis()
-public final int getInitialIntervalMillis()
-'''
-pass
+    '''    public final int getInitialIntervalMillis()
+    public final int getInitialIntervalMillis()
+    '''
 def getRandomizationFactor():
-'''public final double getRandomizationFactor()
-public final double getRandomizationFactor()
-'''
-pass
+    '''    public final double getRandomizationFactor()
+    public final double getRandomizationFactor()
+    '''
 def getCurrentIntervalMillis():
-'''public final int getCurrentIntervalMillis()
-'''
-pass
+    '''    public final int getCurrentIntervalMillis()
+    '''
 def getMultiplier():
-'''public final double getMultiplier()
-public final double getMultiplier()
-'''
-pass
+    '''    public final double getMultiplier()
+    public final double getMultiplier()
+    '''
 def getMaxIntervalMillis():
-'''public final int getMaxIntervalMillis()
-public final int getMaxIntervalMillis()
-'''
-pass
+    '''    public final int getMaxIntervalMillis()
+    public final int getMaxIntervalMillis()
+    '''
 def getMaxElapsedTimeMillis():
-'''public final int getMaxElapsedTimeMillis()
-public final int getMaxElapsedTimeMillis()
-'''
-pass
+    '''    public final int getMaxElapsedTimeMillis()
+    public final int getMaxElapsedTimeMillis()
+    '''
 def getElapsedTimeMillis():
-'''public final long getElapsedTimeMillis()
-'''
-pass
+    '''    public final long getElapsedTimeMillis()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public ExponentialBackOff build()
-'''
-pass
+    '''    public ExponentialBackOff build()
+    '''
 def setInitialIntervalMillis():
-'''public Builder setInitialIntervalMillis(final int initialIntervalMillis)
-'''
-pass
+    '''    public Builder setInitialIntervalMillis(final int initialIntervalMillis)
+    '''
 def setRandomizationFactor():
-'''public Builder setRandomizationFactor(final double randomizationFactor)
-'''
-pass
+    '''    public Builder setRandomizationFactor(final double randomizationFactor)
+    '''
 def setMultiplier():
-'''public Builder setMultiplier(final double multiplier)
-'''
-pass
+    '''    public Builder setMultiplier(final double multiplier)
+    '''
 def setMaxIntervalMillis():
-'''public Builder setMaxIntervalMillis(final int maxIntervalMillis)
-'''
-pass
+    '''    public Builder setMaxIntervalMillis(final int maxIntervalMillis)
+    '''
 def setMaxElapsedTimeMillis():
-'''public Builder setMaxElapsedTimeMillis(final int maxElapsedTimeMillis)
-'''
-pass
+    '''    public Builder setMaxElapsedTimeMillis(final int maxElapsedTimeMillis)
+    '''
 def getNanoClock():
-'''public final NanoClock getNanoClock()
-'''
-pass
+    '''    public final NanoClock getNanoClock()
+    '''
 def setNanoClock():
-'''public Builder setNanoClock(final NanoClock nanoClock)
-'''
-pass
+    '''    public Builder setNanoClock(final NanoClock nanoClock)
+    '''

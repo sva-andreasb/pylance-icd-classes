@@ -1,4 +1,3 @@
 def CoreOperationCompare():
-'''public CoreOperationCompare(final Expression arg1, final Expression arg2)
-'''
-pass
+    '''    public CoreOperationCompare(final Expression arg1, final Expression arg2)
+    '''

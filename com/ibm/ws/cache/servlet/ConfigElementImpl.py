@@ -1,41 +1,31 @@
 def ConfigElementImpl():
-'''public ConfigElementImpl(final int type)
-public ConfigElementImpl(final int type, final String id, final String method, final boolean excludeAll, final HashSet exclude, final String dataId, final String invalidate, final boolean ignoreValue, final boolean required)
-'''
-pass
+    '''    public ConfigElementImpl(final int type)
+    public ConfigElementImpl(final int type, final String id, final String method, final boolean excludeAll, final HashSet exclude, final String dataId, final String invalidate, final boolean ignoreValue, final boolean required)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''
 def getDataId():
-'''public String getDataId()
-'''
-pass
+    '''    public String getDataId()
+    '''
 def getInvalidate():
-'''public String getInvalidate()
-'''
-pass
+    '''    public String getInvalidate()
+    '''
 def getExclude():
-'''public HashSet getExclude()
-'''
-pass
+    '''    public HashSet getExclude()
+    '''
 def getExcludeAll():
-'''public boolean getExcludeAll()
-'''
-pass
+    '''    public boolean getExcludeAll()
+    '''
 def getRequired():
-'''public boolean getRequired()
-'''
-pass
+    '''    public boolean getRequired()
+    '''
 def getIgnoreValue():
-'''public boolean getIgnoreValue()
-'''
-pass
+    '''    public boolean getIgnoreValue()
+    '''

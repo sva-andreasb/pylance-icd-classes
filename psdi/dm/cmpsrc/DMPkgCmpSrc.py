@@ -1,8 +1,6 @@
 def DMPkgCmpSrc():
-'''public DMPkgCmpSrc(final MboSet ms)
-'''
-pass
+    '''    public DMPkgCmpSrc(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

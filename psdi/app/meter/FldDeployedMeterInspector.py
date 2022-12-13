@@ -1,8 +1,6 @@
 def FldDeployedMeterInspector():
-'''public FldDeployedMeterInspector(final MboValue mbv)
-'''
-pass
+    '''    public FldDeployedMeterInspector(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

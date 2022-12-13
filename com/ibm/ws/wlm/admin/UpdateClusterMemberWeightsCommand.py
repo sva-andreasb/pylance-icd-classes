@@ -1,52 +1,40 @@
 def UpdateClusterMemberWeightsCommand():
-'''public UpdateClusterMemberWeightsCommand(final TaskCommandMetadata metadata)
-public UpdateClusterMemberWeightsCommand(final CommandData inCommandData)
-'''
-pass
+    '''    public UpdateClusterMemberWeightsCommand(final TaskCommandMetadata metadata)
+    public UpdateClusterMemberWeightsCommand(final CommandData inCommandData)
+    '''
 def validate():
-'''public void validate()
-public void validate()
-'''
-pass
+    '''    public void validate()
+    public void validate()
+    '''
 def afterStepsExecuted():
-'''public void afterStepsExecuted()
-'''
-pass
+    '''    public void afterStepsExecuted()
+    '''
 def MembersStep():
-'''public MembersStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-public MembersStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
-'''
-pass
+    '''    public MembersStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
+    public MembersStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''
 def stepModified():
-'''public void stepModified(final String stepName)
-'''
-pass
+    '''    public void stepModified(final String stepName)
+    '''
 def ClusterMember():
-'''public ClusterMember(final String node, final String name, final Integer memberWeight)
-public ClusterMember(final String node, final String name, final ObjectName objName)
-'''
-pass
+    '''    public ClusterMember(final String node, final String name, final Integer memberWeight)
+    public ClusterMember(final String node, final String name, final ObjectName objName)
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getMemberName():
-'''public String getMemberName()
-'''
-pass
+    '''    public String getMemberName()
+    '''
 def getWeight():
-'''public Integer getWeight()
-'''
-pass
+    '''    public Integer getWeight()
+    '''
 def getObjectName():
-'''public ObjectName getObjectName()
-'''
-pass
+    '''    public ObjectName getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final ObjectName objName)
-'''
-pass
+    '''    public void setObjectName(final ObjectName objName)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

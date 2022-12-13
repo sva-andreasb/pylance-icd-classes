@@ -1,123 +1,93 @@
 def Instruction():
-'''public Instruction(final short opcode)
-'''
-pass
+    '''    public Instruction(final short opcode)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def copy():
-'''public final Instruction copy()
-'''
-pass
+    '''    public final Instruction copy()
+    '''
 def readInstruction():
-'''public static final Instruction readInstruction(final ByteSequence bytes)
-'''
-pass
+    '''    public static final Instruction readInstruction(final ByteSequence bytes)
+    '''
 def consumeStack():
-'''public int consumeStack(final ConstantPool cpg)
-'''
-pass
+    '''    public int consumeStack(final ConstantPool cpg)
+    '''
 def produceStack():
-'''public int produceStack(final ConstantPool cpg)
-'''
-pass
+    '''    public int produceStack(final ConstantPool cpg)
+    '''
 def getOpcode():
-'''public short getOpcode()
-'''
-pass
+    '''    public short getOpcode()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getType():
-'''public Type getType()
-public Type getType(final ConstantPool cp)
-'''
-pass
+    '''    public Type getType()
+    public Type getType(final ConstantPool cp)
+    '''
 def getValue():
-'''public Number getValue()
-public Object getValue(final ConstantPool cpg)
-'''
-pass
+    '''    public Number getValue()
+    public Object getValue(final ConstantPool cpg)
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def setIndex():
-'''public void setIndex(final int i)
-'''
-pass
+    '''    public void setIndex(final int i)
+    '''
 def isLoadInstruction():
-'''public boolean isLoadInstruction()
-'''
-pass
+    '''    public boolean isLoadInstruction()
+    '''
 def isASTORE():
-'''public boolean isASTORE()
-'''
-pass
+    '''    public boolean isASTORE()
+    '''
 def isALOAD():
-'''public boolean isALOAD()
-'''
-pass
+    '''    public boolean isALOAD()
+    '''
 def isStoreInstruction():
-'''public boolean isStoreInstruction()
-'''
-pass
+    '''    public boolean isStoreInstruction()
+    '''
 def isJsrInstruction():
-'''public boolean isJsrInstruction()
-'''
-pass
+    '''    public boolean isJsrInstruction()
+    '''
 def isConstantInstruction():
-'''public boolean isConstantInstruction()
-'''
-pass
+    '''    public boolean isConstantInstruction()
+    '''
 def isConstantPoolInstruction():
-'''public boolean isConstantPoolInstruction()
-'''
-pass
+    '''    public boolean isConstantPoolInstruction()
+    '''
 def isStackProducer():
-'''public boolean isStackProducer()
-'''
-pass
+    '''    public boolean isStackProducer()
+    '''
 def isStackConsumer():
-'''public boolean isStackConsumer()
-'''
-pass
+    '''    public boolean isStackConsumer()
+    '''
 def isIndexedInstruction():
-'''public boolean isIndexedInstruction()
-'''
-pass
+    '''    public boolean isIndexedInstruction()
+    '''
 def isArrayCreationInstruction():
-'''public boolean isArrayCreationInstruction()
-'''
-pass
+    '''    public boolean isArrayCreationInstruction()
+    '''
 def getLoadClassType():
-'''public ObjectType getLoadClassType(final ConstantPool cpg)
-'''
-pass
+    '''    public ObjectType getLoadClassType(final ConstantPool cpg)
+    '''
 def isReturnInstruction():
-'''public boolean isReturnInstruction()
-'''
-pass
+    '''    public boolean isReturnInstruction()
+    '''
 def isLocalVariableInstruction():
-'''public boolean isLocalVariableInstruction()
-'''
-pass
+    '''    public boolean isLocalVariableInstruction()
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-public String toString()
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    public String toString()
+    '''

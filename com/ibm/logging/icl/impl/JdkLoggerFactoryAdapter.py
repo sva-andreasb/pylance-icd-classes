@@ -1,16 +1,12 @@
 def JdkLoggerFactoryAdapter():
-'''public JdkLoggerFactoryAdapter()
-'''
-pass
+    '''    public JdkLoggerFactoryAdapter()
+    '''
 def getLogger():
-'''public synchronized Logger getLogger(final String name)
-'''
-pass
+    '''    public synchronized Logger getLogger(final String name)
+    '''
 def getLevel():
-'''public Level getLevel(final String level)
-'''
-pass
+    '''    public Level getLevel(final String level)
+    '''
 def getWASVersion():
-'''public String getWASVersion()
-'''
-pass
+    '''    public String getWASVersion()
+    '''

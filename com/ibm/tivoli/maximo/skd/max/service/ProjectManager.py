@@ -1,8 +1,6 @@
 def ProjectManager():
-'''public ProjectManager()
-'''
-pass
+    '''    public ProjectManager()
+    '''
 def loadProject():
-'''public Schedule loadProject(final String projectId, final IProjectManagerCallback callback)
-'''
-pass
+    '''    public Schedule loadProject(final String projectId, final IProjectManagerCallback callback)
+    '''

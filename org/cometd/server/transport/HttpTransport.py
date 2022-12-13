@@ -1,90 +1,68 @@
-JSON_DEBUG_OPTION = "String  jsonDebug""
-MESSAGE_PARAM = "String  message""
+JSON_DEBUG_OPTION = "String  \"jsonDebug\""
+MESSAGE_PARAM = "String  \"message\""
 def setCurrentRequest():
-'''public void setCurrentRequest(final HttpServletRequest request)
-'''
-pass
+    '''    public void setCurrentRequest(final HttpServletRequest request)
+    '''
 def getCurrentRequest():
-'''public HttpServletRequest getCurrentRequest()
-'''
-pass
+    '''    public HttpServletRequest getCurrentRequest()
+    '''
 def getCurrentLocalAddress():
-'''public InetSocketAddress getCurrentLocalAddress()
-'''
-pass
+    '''    public InetSocketAddress getCurrentLocalAddress()
+    '''
 def getCurrentRemoteAddress():
-'''public InetSocketAddress getCurrentRemoteAddress()
-'''
-pass
+    '''    public InetSocketAddress getCurrentRemoteAddress()
+    '''
 def getContext():
-'''public BayeuxContext getContext()
-'''
-pass
+    '''    public BayeuxContext getContext()
+    '''
 def getUserPrincipal():
-'''public Principal getUserPrincipal()
-'''
-pass
+    '''    public Principal getUserPrincipal()
+    '''
 def isUserInRole():
-'''public boolean isUserInRole(final String role)
-'''
-pass
+    '''    public boolean isUserInRole(final String role)
+    '''
 def getRemoteAddress():
-'''public InetSocketAddress getRemoteAddress()
-'''
-pass
+    '''    public InetSocketAddress getRemoteAddress()
+    '''
 def getLocalAddress():
-'''public InetSocketAddress getLocalAddress()
-'''
-pass
+    '''    public InetSocketAddress getLocalAddress()
+    '''
 def getHeader():
-'''public String getHeader(final String name)
-'''
-pass
+    '''    public String getHeader(final String name)
+    '''
 def getHeaderValues():
-'''public List<String> getHeaderValues(final String name)
-'''
-pass
+    '''    public List<String> getHeaderValues(final String name)
+    '''
 def getParameter():
-'''public String getParameter(final String name)
-'''
-pass
+    '''    public String getParameter(final String name)
+    '''
 def getParameterValues():
-'''public List<String> getParameterValues(final String name)
-'''
-pass
+    '''    public List<String> getParameterValues(final String name)
+    '''
 def getCookie():
-'''public String getCookie(final String name)
-'''
-pass
+    '''    public String getCookie(final String name)
+    '''
 def getHttpSessionId():
-'''public String getHttpSessionId()
-'''
-pass
+    '''    public String getHttpSessionId()
+    '''
 def getHttpSessionAttribute():
-'''public Object getHttpSessionAttribute(final String name)
-'''
-pass
+    '''    public Object getHttpSessionAttribute(final String name)
+    '''
 def setHttpSessionAttribute():
-'''public void setHttpSessionAttribute(final String name, final Object value)
-'''
-pass
+    '''    public void setHttpSessionAttribute(final String name, final Object value)
+    '''
 def invalidateHttpSession():
-'''public void invalidateHttpSession()
-'''
-pass
+    '''    public void invalidateHttpSession()
+    '''
 def getRequestAttribute():
-'''public Object getRequestAttribute(final String name)
-'''
-pass
+    '''    public Object getRequestAttribute(final String name)
+    '''
 def getContextAttribute():
-'''public Object getContextAttribute(final String name)
-'''
-pass
+    '''    public Object getContextAttribute(final String name)
+    '''
 def getContextInitParameter():
-'''public String getContextInitParameter(final String name)
-'''
-pass
+    '''    public String getContextInitParameter(final String name)
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''

@@ -1,12 +1,9 @@
 def Keyword():
-'''public Keyword(final MboSet ms)
-'''
-pass
+    '''    public Keyword(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

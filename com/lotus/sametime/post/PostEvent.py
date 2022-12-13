@@ -2,22 +2,17 @@ USER_RESPONDED = "int  1"
 SEND_FAILED = "int  2"
 POSTED = "int  3"
 def getPostedUser():
-'''public STUser getPostedUser()
-'''
-pass
+    '''    public STUser getPostedUser()
+    '''
 def getReason():
-'''public int getReason()
-'''
-pass
+    '''    public int getReason()
+    '''
 def getResponseCode():
-'''public int getResponseCode()
-'''
-pass
+    '''    public int getResponseCode()
+    '''
 def getResponseMessage():
-'''public String getResponseMessage()
-'''
-pass
+    '''    public String getResponseMessage()
+    '''
 def getPost():
-'''public Post getPost()
-'''
-pass
+    '''    public Post getPost()
+    '''

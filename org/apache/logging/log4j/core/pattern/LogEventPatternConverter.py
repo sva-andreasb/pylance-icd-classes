@@ -1,12 +1,9 @@
 def format():
-'''public void format(final Object obj, final StringBuilder output)
-'''
-pass
+    '''    public void format(final Object obj, final StringBuilder output)
+    '''
 def handlesThrowable():
-'''public boolean handlesThrowable()
-'''
-pass
+    '''    public boolean handlesThrowable()
+    '''
 def isVariable():
-'''public boolean isVariable()
-'''
-pass
+    '''    public boolean isVariable()
+    '''

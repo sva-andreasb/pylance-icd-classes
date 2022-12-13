@@ -1,8 +1,6 @@
 def FldReportDialogDetCustom():
-'''public FldReportDialogDetCustom(final MboValue mbv)
-'''
-pass
+    '''    public FldReportDialogDetCustom(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

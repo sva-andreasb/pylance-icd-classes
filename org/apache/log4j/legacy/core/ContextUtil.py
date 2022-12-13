@@ -1,4 +1,3 @@
 def reconfigure():
-'''public static void reconfigure(final LoggerContext ctx)
-'''
-pass
+    '''    public static void reconfigure(final LoggerContext ctx)
+    '''

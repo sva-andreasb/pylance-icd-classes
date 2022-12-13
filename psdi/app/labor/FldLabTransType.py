@@ -1,24 +1,18 @@
 def FldLabTransType():
-'''public FldLabTransType(final MboValue mbv)
-'''
-pass
+    '''    public FldLabTransType(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

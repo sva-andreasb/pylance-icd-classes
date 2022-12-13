@@ -1,48 +1,36 @@
 def LicenseDistribution():
-'''public LicenseDistribution(final MboSet ms)
-'''
-pass
+    '''    public LicenseDistribution(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getTargetObject():
-'''public static String getTargetObject(final String relationship)
-'''
-pass
+    '''    public static String getTargetObject(final String relationship)
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def getObjectNum():
-'''public String getObjectNum()
-'''
-pass
+    '''    public String getObjectNum()
+    '''
 def getGLAccount():
-'''public String getGLAccount()
-'''
-pass
+    '''    public String getGLAccount()
+    '''
 def delete():
-'''public void delete(final long flags)
-'''
-pass
+    '''    public void delete(final long flags)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def populateTrans():
-'''public void populateTrans()
-'''
-pass
+    '''    public void populateTrans()
+    '''
 def getSelectLicKeysWhere():
-'''public String getSelectLicKeysWhere()
-'''
-pass
+    '''    public String getSelectLicKeysWhere()
+    '''

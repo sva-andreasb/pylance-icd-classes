@@ -1,20 +1,15 @@
 def fromBinary():
-'''public static Small fromBinary(final ValueWidth valueWidth, final ByteBuffer bytes)
-'''
-pass
+    '''    public static Small fromBinary(final ValueWidth valueWidth, final ByteBuffer bytes)
+    '''
 def getType():
-'''public final Type getType()
-'''
-pass
+    '''    public final Type getType()
+    '''
 def stringIterator():
-'''public final StringIterator stringIterator(final CharSequence s, final int sIndex)
-'''
-pass
+    '''    public final StringIterator stringIterator(final CharSequence s, final int sIndex)
+    '''
 def next():
-'''public boolean next()
-'''
-pass
+    '''    public boolean next()
+    '''
 def previous():
-'''public boolean previous()
-'''
-pass
+    '''    public boolean previous()
+    '''

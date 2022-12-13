@@ -1,64 +1,48 @@
 def LinkResult():
-'''public LinkResult()
-'''
-pass
+    '''    public LinkResult()
+    '''
 def getAssetnum():
-'''public String getAssetnum()
-'''
-pass
+    '''    public String getAssetnum()
+    '''
 def getOrgid():
-'''public String getOrgid()
-'''
-pass
+    '''    public String getOrgid()
+    '''
 def getSiteid():
-'''public String getSiteid()
-'''
-pass
+    '''    public String getSiteid()
+    '''
 def getCinum():
-'''public String getCinum()
-'''
-pass
+    '''    public String getCinum()
+    '''
 def getNodeid():
-'''public String getNodeid()
-'''
-pass
+    '''    public String getNodeid()
+    '''
 def getActcinum():
-'''public String getActcinum()
-'''
-pass
+    '''    public String getActcinum()
+    '''
 def getDisguid():
-'''public String getDisguid()
-'''
-pass
+    '''    public String getDisguid()
+    '''
 def getLinkRule():
-'''public String getLinkRule()
-'''
-pass
+    '''    public String getLinkRule()
+    '''
 def getConflictAssetnum():
-'''public String getConflictAssetnum()
-'''
-pass
+    '''    public String getConflictAssetnum()
+    '''
 def getConflictSiteid():
-'''public String getConflictSiteid()
-'''
-pass
+    '''    public String getConflictSiteid()
+    '''
 def getConflictCinum():
-'''public String getConflictCinum()
-'''
-pass
+    '''    public String getConflictCinum()
+    '''
 def getConflictNodeid():
-'''public String getConflictNodeid()
-'''
-pass
+    '''    public String getConflictNodeid()
+    '''
 def isSaveFailed():
-'''public boolean isSaveFailed()
-'''
-pass
+    '''    public boolean isSaveFailed()
+    '''
 def isMultiLink():
-'''public boolean isMultiLink()
-'''
-pass
+    '''    public boolean isMultiLink()
+    '''
 def setSaveFailed():
-'''public void setSaveFailed(final boolean saveFailed)
-'''
-pass
+    '''    public void setSaveFailed(final boolean saveFailed)
+    '''

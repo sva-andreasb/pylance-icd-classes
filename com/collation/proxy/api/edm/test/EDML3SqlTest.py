@@ -1,48 +1,36 @@
 def EDML3SqlTest():
-'''public EDML3SqlTest(final String testName)
-'''
-pass
+    '''    public EDML3SqlTest(final String testName)
+    '''
 def testEDMInterface():
-'''public void testEDMInterface()
-'''
-pass
+    '''    public void testEDMInterface()
+    '''
 def testAdapter():
-'''public void testAdapter()
-'''
-pass
+    '''    public void testAdapter()
+    '''
 def atestDataViewNegative():
-'''public void atestDataViewNegative()
-'''
-pass
+    '''    public void atestDataViewNegative()
+    '''
 def testDataView1():
-'''public void testDataView1()
-'''
-pass
+    '''    public void testDataView1()
+    '''
 def testDataView3():
-'''public void testDataView3()
-'''
-pass
+    '''    public void testDataView3()
+    '''
 def testDataViewHelper3():
-'''public void testDataViewHelper3(final Properties spec, final String[] expect)
-'''
-pass
+    '''    public void testDataViewHelper3(final Properties spec, final String[] expect)
+    '''
 def testDataView4():
-'''public void testDataView4()
-'''
-pass
+    '''    public void testDataView4()
+    '''
 def testDataView5():
-'''public void testDataView5()
-'''
-pass
+    '''    public void testDataView5()
+    '''
 def testDataView6():
-'''public void testDataView6()
-'''
-pass
+    '''    public void testDataView6()
+    '''
 def testDataView7():
-'''public void testDataView7()
-'''
-pass
+    '''    public void testDataView7()
+    '''
 def test8():
-'''public void test8()
-'''
-pass
+    '''    public void test8()
+    '''

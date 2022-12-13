@@ -1,54 +1,41 @@
 def SubscribeForm():
-'''public SubscribeForm(final DataForm configDataForm)
-public SubscribeForm(final Form subscribeOptionsForm)
-public SubscribeForm(final DataForm.Type formType)
-'''
-pass
+    '''    public SubscribeForm(final DataForm configDataForm)
+    public SubscribeForm(final Form subscribeOptionsForm)
+    public SubscribeForm(final DataForm.Type formType)
+    '''
 def isDeliverOn():
-'''public boolean isDeliverOn()
-'''
-pass
+    '''    public boolean isDeliverOn()
+    '''
 def setDeliverOn():
-'''public void setDeliverOn(final boolean deliverNotifications)
-'''
-pass
+    '''    public void setDeliverOn(final boolean deliverNotifications)
+    '''
 def isDigestOn():
-'''public boolean isDigestOn()
-'''
-pass
+    '''    public boolean isDigestOn()
+    '''
 def setDigestOn():
-'''public void setDigestOn(final boolean digestOn)
-'''
-pass
+    '''    public void setDigestOn(final boolean digestOn)
+    '''
 def getDigestFrequency():
-'''public int getDigestFrequency()
-'''
-pass
+    '''    public int getDigestFrequency()
+    '''
 def setDigestFrequency():
-'''public void setDigestFrequency(final int frequency)
-'''
-pass
+    '''    public void setDigestFrequency(final int frequency)
+    '''
 def getExpiry():
-'''public Date getExpiry()
-'''
-pass
+    '''    public Date getExpiry()
+    '''
 def setExpiry():
-'''public void setExpiry(final Date expire)
-'''
-pass
+    '''    public void setExpiry(final Date expire)
+    '''
 def isIncludeBody():
-'''public boolean isIncludeBody()
-'''
-pass
+    '''    public boolean isIncludeBody()
+    '''
 def setIncludeBody():
-'''public void setIncludeBody(final boolean include)
-'''
-pass
+    '''    public void setIncludeBody(final boolean include)
+    '''
 def getShowValues():
-'''public List<PresenceState> getShowValues()
-'''
-pass
+    '''    public List<PresenceState> getShowValues()
+    '''
 def setShowValues():
-'''public void setShowValues(final Collection<PresenceState> stateValues)
-'''
-pass
+    '''    public void setShowValues(final Collection<PresenceState> stateValues)
+    '''

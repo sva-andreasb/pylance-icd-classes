@@ -1,587 +1,444 @@
-TIMEZONE_PM_WOGEN_PROCESS = "String  PMWOGEN""
-PLUSCAPPNAME = "String  PM""
-GENERATING_WORK = "String  PM.GeneratingWork""
+TIMEZONE_PM_WOGEN_PROCESS = "String  \"PMWOGEN\""
+PLUSCAPPNAME = "String  \"PM\""
+GENERATING_WORK = "String  \"PM.GeneratingWork\""
 def PM():
-'''public PM(final MboSet ms)
-'''
-pass
+    '''    public PM(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final boolean rollToAllChildren)
-public void changeStatus(final String status, final boolean rollToAllChildren, final Hashtable changedStatusPMs)
-'''
-pass
+    '''    public void changeStatus(final String status, final boolean rollToAllChildren)
+    public void changeStatus(final String status, final boolean rollToAllChildren, final Hashtable changedStatusPMs)
+    '''
 def updateUponCompletion():
-'''public void updateUponCompletion(final MboRemote completedWO)
-'''
-pass
+    '''    public void updateUponCompletion(final MboRemote completedWO)
+    '''
 def updateUponCancellation():
-'''public void updateUponCancellation(final MboRemote cancelledWO)
-'''
-pass
+    '''    public void updateUponCancellation(final MboRemote cancelledWO)
+    '''
 def updateForecastUponCancellation():
-'''public void updateForecastUponCancellation(final MboRemote cancelledWO)
-'''
-pass
+    '''    public void updateForecastUponCancellation(final MboRemote cancelledWO)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def canGenerateWork():
-'''public void canGenerateWork()
-'''
-pass
+    '''    public void canGenerateWork()
+    '''
 def generateWork():
-'''public MboSetRemote generateWork(final boolean useFreqCrit, final int leadTime, final boolean forecast)
-public void generateWork(final boolean useFreqCrit, final int leadTime)
-public void generateWork(final String useFreqCritLeadTime)
-'''
-pass
+    '''    public MboSetRemote generateWork(final boolean useFreqCrit, final int leadTime, final boolean forecast)
+    public void generateWork(final boolean useFreqCrit, final int leadTime)
+    public void generateWork(final String useFreqCritLeadTime)
+    '''
 def calculateWork():
-'''public MboSetRemote calculateWork(final boolean useFreqCrit, final Date generateUntil)
-'''
-pass
+    '''    public MboSetRemote calculateWork(final boolean useFreqCrit, final Date generateUntil)
+    '''
 def calcWork():
-'''public MboSetRemote calcWork(final boolean useFreqCrit, final int leadTime)
-'''
-pass
+    '''    public MboSetRemote calcWork(final boolean useFreqCrit, final int leadTime)
+    '''
 def calculateTodaysDateWithObjectTimeZoneRule():
-'''public Date calculateTodaysDateWithObjectTimeZoneRule()
-'''
-pass
+    '''    public Date calculateTodaysDateWithObjectTimeZoneRule()
+    '''
 def checkSeason():
-'''public Date checkSeason(final Date origGenDate, final int totalLeadTime)
-'''
-pass
+    '''    public Date checkSeason(final Date origGenDate, final int totalLeadTime)
+    '''
 def setLinearAssetFieldsReadOnly():
-'''public void setLinearAssetFieldsReadOnly(final boolean readonlystate)
-'''
-pass
+    '''    public void setLinearAssetFieldsReadOnly(final boolean readonlystate)
+    '''
 def clearLinearAssetFields():
-'''public void clearLinearAssetFields()
-'''
-pass
+    '''    public void clearLinearAssetFields()
+    '''
 def getJobPlanToUse():
-'''public void getJobPlanToUse()
-'''
-pass
+    '''    public void getJobPlanToUse()
+    '''
 def validateAssetLoc():
-'''public void validateAssetLoc(boolean newAssetNum, boolean newLocation)
-'''
-pass
+    '''    public void validateAssetLoc(boolean newAssetNum, boolean newLocation)
+    '''
 def updateTimeBasedNextDueDate():
-'''public void updateTimeBasedNextDueDate()
-'''
-pass
+    '''    public void updateTimeBasedNextDueDate()
+    '''
 def checkDate():
-'''public Date checkDate()
-'''
-pass
+    '''    public Date checkDate()
+    '''
 def setPMCounter():
-'''public void setPMCounter(final int count)
-'''
-pass
+    '''    public void setPMCounter(final int count)
+    '''
 def updateJpSeqInUse():
-'''public void updateJpSeqInUse()
-'''
-pass
+    '''    public void updateJpSeqInUse()
+    '''
 def copyNextJobPlan():
-'''public void copyNextJobPlan()
-'''
-pass
+    '''    public void copyNextJobPlan()
+    '''
 def canViewJpSequence():
-'''public void canViewJpSequence()
-'''
-pass
+    '''    public void canViewJpSequence()
+    '''
 def viewJpSequence():
-'''public MboSetRemote viewJpSequence()
-'''
-pass
+    '''    public MboSetRemote viewJpSequence()
+    '''
 def clearNextDueDate():
-'''public void clearNextDueDate()
-'''
-pass
+    '''    public void clearNextDueDate()
+    '''
 def setNextDueDate():
-'''public void setNextDueDate()
-'''
-pass
+    '''    public void setNextDueDate()
+    '''
 def getGeneratedWonum():
-'''public String getGeneratedWonum(final int priority)
-'''
-pass
+    '''    public String getGeneratedWonum(final int priority)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def isChangeByUserWhenSetFromLookup():
-'''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
-'''
-pass
+    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''
 def checkForOpenWO():
-'''public boolean checkForOpenWO()
-'''
-pass
+    '''    public boolean checkForOpenWO()
+    '''
 def floatingPMHasOpenWOs():
-'''public boolean floatingPMHasOpenWOs()
-'''
-pass
+    '''    public boolean floatingPMHasOpenWOs()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def getParents():
-'''public MboSetRemote getParents()
-'''
-pass
+    '''    public MboSetRemote getParents()
+    '''
 def getTop():
-'''public MboSetRemote getTop()
-'''
-pass
+    '''    public MboSetRemote getTop()
+    '''
 def getHierarchies():
-'''public String[] getHierarchies()
-'''
-pass
+    '''    public String[] getHierarchies()
+    '''
 def getMeterNextDueDate():
-'''public Date getMeterNextDueDate(final MboRemote pmMeter, final boolean assetMeter)
-'''
-pass
+    '''    public Date getMeterNextDueDate(final MboRemote pmMeter, final boolean assetMeter)
+    '''
 def addJobPlanDuration():
-'''public Date addJobPlanDuration(Date dueDate, final MboRemote retWOGen)
-'''
-pass
+    '''    public Date addJobPlanDuration(Date dueDate, final MboRemote retWOGen)
+    '''
 def getMeterNextDueDateNoForecast():
-'''public Date getMeterNextDueDateNoForecast(final MboRemote pmMeter, final boolean assetMeter)
-'''
-pass
+    '''    public Date getMeterNextDueDateNoForecast(final MboRemote pmMeter, final boolean assetMeter)
+    '''
 def getTimeDate():
-'''public Date getTimeDate()
-'''
-pass
+    '''    public Date getTimeDate()
+    '''
 def validateMetersinMasterPM():
-'''public void validateMetersinMasterPM(final String assetnum, final String location, final String masterpm)
-'''
-pass
+    '''    public void validateMetersinMasterPM(final String assetnum, final String location, final String masterpm)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def checkFrequency():
-'''public Date checkFrequency(final int frequency, final Date nextDueDate, final int unit)
-'''
-pass
+    '''    public Date checkFrequency(final int frequency, final Date nextDueDate, final int unit)
+    '''
 def validateTimeBasedFreq():
-'''public void validateTimeBasedFreq(final double frequency)
-'''
-pass
+    '''    public void validateTimeBasedFreq(final double frequency)
+    '''
 def setEarliestNextDueDate():
-'''public void setEarliestNextDueDate()
-'''
-pass
+    '''    public void setEarliestNextDueDate()
+    '''
 def woCancel():
-'''public void woCancel(final WORemote newWO)
-'''
-pass
+    '''    public void woCancel(final WORemote newWO)
+    '''
 def truncateHierarchy():
-'''public boolean truncateHierarchy(final boolean forecast)
-'''
-pass
+    '''    public boolean truncateHierarchy(final boolean forecast)
+    '''
 def includeInForecast():
-'''public boolean includeInForecast()
-'''
-pass
+    '''    public boolean includeInForecast()
+    '''
 def getDueDateForOpenWO():
-'''public Date getDueDateForOpenWO(final MboRemote openWo)
-'''
-pass
+    '''    public Date getDueDateForOpenWO(final MboRemote openWo)
+    '''
 def getDueDateForOpenWOWithoutFrequency():
-'''public Date getDueDateForOpenWOWithoutFrequency(final MboRemote openWo)
-'''
-pass
+    '''    public Date getDueDateForOpenWOWithoutFrequency(final MboRemote openWo)
+    '''
 def controlScheduleEarlyOnFreqConflictFlag():
-'''public void controlScheduleEarlyOnFreqConflictFlag(final boolean reset)
-'''
-pass
+    '''    public void controlScheduleEarlyOnFreqConflictFlag(final boolean reset)
+    '''
 def isFrequencyValidForEarlySchedConflict():
-'''public boolean isFrequencyValidForEarlySchedConflict()
-public boolean isFrequencyValidForEarlySchedConflict(final long frequency)
-'''
-pass
+    '''    public boolean isFrequencyValidForEarlySchedConflict()
+    public boolean isFrequencyValidForEarlySchedConflict(final long frequency)
+    '''
 def enableScheduleEarlyOnFreqConflict():
-'''public void enableScheduleEarlyOnFreqConflict(final boolean enable, final boolean reset)
-'''
-pass
+    '''    public void enableScheduleEarlyOnFreqConflict(final boolean enable, final boolean reset)
+    '''
 def getActiveDaysAddOn():
-'''public Date getActiveDaysAddOn(final Date dtDate)
-'''
-pass
+    '''    public Date getActiveDaysAddOn(final Date dtDate)
+    '''
 def generateForecast():
-'''public void generateForecast(final String genDuration)
-public void generateForecast(final int genDuration)
-'''
-pass
+    '''    public void generateForecast(final String genDuration)
+    public void generateForecast(final int genDuration)
+    '''
 def throwForecastWarning():
-'''public void throwForecastWarning(final MXException exception)
-'''
-pass
+    '''    public void throwForecastWarning(final MXException exception)
+    '''
 def setPMForReForecast():
-'''public int setPMForReForecast(final PM tempPM, final int genDuration)
-'''
-pass
+    '''    public int setPMForReForecast(final PM tempPM, final int genDuration)
+    '''
 def getReForecastingNextDate():
-'''public Date getReForecastingNextDate(final Date fromDate)
-'''
-pass
+    '''    public Date getReForecastingNextDate(final Date fromDate)
+    '''
 def getLastPMForecastRecord():
-'''public MboRemote getLastPMForecastRecord()
-'''
-pass
+    '''    public MboRemote getLastPMForecastRecord()
+    '''
 def getLastPMForecastDate():
-'''public Date getLastPMForecastDate()
-'''
-pass
+    '''    public Date getLastPMForecastDate()
+    '''
 def getFirstPMForecastRecord():
-'''public MboRemote getFirstPMForecastRecord()
-'''
-pass
+    '''    public MboRemote getFirstPMForecastRecord()
+    '''
 def getFirstPMForecastDate():
-'''public Date getFirstPMForecastDate()
-'''
-pass
+    '''    public Date getFirstPMForecastDate()
+    '''
 def isFirstForecastRecord():
-'''public boolean isFirstForecastRecord(final PMForecast pmForecast)
-'''
-pass
+    '''    public boolean isFirstForecastRecord(final PMForecast pmForecast)
+    '''
 def canReforecastForUntilDate():
-'''public void canReforecastForUntilDate(final Date lastForecastDate, final Date untilDate)
-'''
-pass
+    '''    public void canReforecastForUntilDate(final Date lastForecastDate, final Date untilDate)
+    '''
 def deleteSetForecast():
-'''public void deleteSetForecast()
-'''
-pass
+    '''    public void deleteSetForecast()
+    '''
 def canDeletePMForecast():
-'''public void canDeletePMForecast()
-'''
-pass
+    '''    public void canDeletePMForecast()
+    '''
 def deleteForecast():
-'''public void deleteForecast()
-public void deleteForecast(final String nullValue)
-'''
-pass
+    '''    public void deleteForecast()
+    public void deleteForecast(final String nullValue)
+    '''
 def deletePMForecast():
-'''public void deletePMForecast()
-'''
-pass
+    '''    public void deletePMForecast()
+    '''
 def deleteForecastForPMHierarchy():
-'''public void deleteForecastForPMHierarchy()
-'''
-pass
+    '''    public void deleteForecastForPMHierarchy()
+    '''
 def deleteForecastForHierarchyChange():
-'''public void deleteForecastForHierarchyChange()
-'''
-pass
+    '''    public void deleteForecastForHierarchyChange()
+    '''
 def canDeleteForecast():
-'''public boolean canDeleteForecast(final String message)
-public boolean canDeleteForecast(final String message, final MboValue fieldValue)
-'''
-pass
+    '''    public boolean canDeleteForecast(final String message)
+    public boolean canDeleteForecast(final String message, final MboValue fieldValue)
+    '''
 def canDisplayForecast():
-'''public boolean canDisplayForecast()
-'''
-pass
+    '''    public boolean canDisplayForecast()
+    '''
 def rolldownLockForecastFlagToChildren():
-'''public void rolldownLockForecastFlagToChildren(final boolean torf)
-'''
-pass
+    '''    public void rolldownLockForecastFlagToChildren(final boolean torf)
+    '''
 def rolldownInclForecastFlagToChildren():
-'''public void rolldownInclForecastFlagToChildren(final boolean torf)
-'''
-pass
+    '''    public void rolldownInclForecastFlagToChildren(final boolean torf)
+    '''
 def rolldownFieldValueToChildrens():
-'''public void rolldownFieldValueToChildrens(final String fieldname, final String fieldvalue, final long accessModifier)
-'''
-pass
+    '''    public void rolldownFieldValueToChildrens(final String fieldname, final String fieldvalue, final long accessModifier)
+    '''
 def canGenerateChildPMForecast():
-'''public void canGenerateChildPMForecast()
-'''
-pass
+    '''    public void canGenerateChildPMForecast()
+    '''
 def setCanDeleteForecastFlag():
-'''public void setCanDeleteForecastFlag(final boolean flag)
-'''
-pass
+    '''    public void setCanDeleteForecastFlag(final boolean flag)
+    '''
 def getCanDeleteForecastFlag():
-'''public boolean getCanDeleteForecastFlag()
-'''
-pass
+    '''    public boolean getCanDeleteForecastFlag()
+    '''
 def reforecastSubsequentDates():
-'''public void reforecastSubsequentDates()
-public void reforecastSubsequentDates(final PMForecast newDatePMForecast)
-public void reforecastSubsequentDates(final MboRemote newDatePMForecast, final MboSetRemote pmForecastSet)
-public void reforecastSubsequentDates(final String nullValue)
-'''
-pass
+    '''    public void reforecastSubsequentDates()
+    public void reforecastSubsequentDates(final PMForecast newDatePMForecast)
+    public void reforecastSubsequentDates(final MboRemote newDatePMForecast, final MboSetRemote pmForecastSet)
+    public void reforecastSubsequentDates(final String nullValue)
+    '''
 def setPMForReforecastSubsequentDates():
-'''public void setPMForReforecastSubsequentDates(final Date newDate)
-'''
-pass
+    '''    public void setPMForReforecastSubsequentDates(final Date newDate)
+    '''
 def getDurationToForecast():
-'''public int getDurationToForecast(final MboRemote pmForecast, final MboSetRemote pmForecastSet)
-'''
-pass
+    '''    public int getDurationToForecast(final MboRemote pmForecast, final MboSetRemote pmForecastSet)
+    '''
 def getCalendarTime():
-'''public Calendar getCalendarTime(final Date date)
-'''
-pass
+    '''    public Calendar getCalendarTime(final Date date)
+    '''
 def getDurationBetweenTwoDates():
-'''public int getDurationBetweenTwoDates(final Date toDate, final Date fromDate)
-'''
-pass
+    '''    public int getDurationBetweenTwoDates(final Date toDate, final Date fromDate)
+    '''
 def canReforecast():
-'''public boolean canReforecast()
-'''
-pass
+    '''    public boolean canReforecast()
+    '''
 def setUserChoiceForReforecast():
-'''public void setUserChoiceForReforecast(final int userChoiceForReforecast)
-'''
-pass
+    '''    public void setUserChoiceForReforecast(final int userChoiceForReforecast)
+    '''
 def getUserChoiceForReforecast():
-'''public int getUserChoiceForReforecast()
-'''
-pass
+    '''    public int getUserChoiceForReforecast()
+    '''
 def canReforecastSubsequentDates():
-'''public int canReforecastSubsequentDates(final PMForecast newDatePMForecast)
-'''
-pass
+    '''    public int canReforecastSubsequentDates(final PMForecast newDatePMForecast)
+    '''
 def clearReforecast():
-'''public void clearReforecast()
-'''
-pass
+    '''    public void clearReforecast()
+    '''
 def isReforecastPending():
-'''public boolean isReforecastPending()
-'''
-pass
+    '''    public boolean isReforecastPending()
+    '''
 def editOnlyFirstPMForecastRecord():
-'''public boolean editOnlyFirstPMForecastRecord()
-'''
-pass
+    '''    public boolean editOnlyFirstPMForecastRecord()
+    '''
 def throwOKCANCELMessage():
-'''public boolean throwOKCANCELMessage(final String message)
-'''
-pass
+    '''    public boolean throwOKCANCELMessage(final String message)
+    '''
 def setOnSKDPMListTab():
-'''public void setOnSKDPMListTab(final boolean listTab)
-'''
-pass
+    '''    public void setOnSKDPMListTab(final boolean listTab)
+    '''
 def onSKDPMListTab():
-'''public boolean onSKDPMListTab()
-'''
-pass
+    '''    public boolean onSKDPMListTab()
+    '''
 def resetlastPMForecastRecord():
-'''public void resetlastPMForecastRecord()
-'''
-pass
+    '''    public void resetlastPMForecastRecord()
+    '''
 def setDeleteForecastFlag():
-'''public void setDeleteForecastFlag(final boolean flag)
-'''
-pass
+    '''    public void setDeleteForecastFlag(final boolean flag)
+    '''
 def getDeleteForecastFlag():
-'''public boolean getDeleteForecastFlag()
-'''
-pass
+    '''    public boolean getDeleteForecastFlag()
+    '''
 def editPMDeleteForecast():
-'''public void editPMDeleteForecast()
-public void editPMDeleteForecast(final MboValue fieldValue)
-'''
-pass
+    '''    public void editPMDeleteForecast()
+    public void editPMDeleteForecast(final MboValue fieldValue)
+    '''
 def canUpdateForecastJobPlans():
-'''public boolean canUpdateForecastJobPlans()
-'''
-pass
+    '''    public boolean canUpdateForecastJobPlans()
+    '''
 def updateForecastJobPlans():
-'''public void updateForecastJobPlans()
-'''
-pass
+    '''    public void updateForecastJobPlans()
+    '''
 def addPlusCPMExtDate():
-'''public void addPlusCPMExtDate(final boolean setPrevDate, final Date extdate, final boolean hasToSave, final String comments, final String commentsLD)
-public void addPlusCPMExtDate(final boolean setPrevDate, final Date extdate, final boolean hasToSave, final String comments)
-'''
-pass
+    '''    public void addPlusCPMExtDate(final boolean setPrevDate, final Date extdate, final boolean hasToSave, final String comments, final String commentsLD)
+    public void addPlusCPMExtDate(final boolean setPrevDate, final Date extdate, final boolean hasToSave, final String comments)
+    '''
 def canAddPMExtDate():
-'''public boolean canAddPMExtDate()
-'''
-pass
+    '''    public boolean canAddPMExtDate()
+    '''
 def getAsset():
-'''public AssetRemote getAsset()
-'''
-pass
+    '''    public AssetRemote getAsset()
+    '''
 def getLocation():
-'''public LocationRemote getLocation()
-'''
-pass
+    '''    public LocationRemote getLocation()
+    '''
 def canOverride():
-'''public void canOverride()
-'''
-pass
+    '''    public void canOverride()
+    '''
 def getWorkType():
-'''public String getWorkType()
-'''
-pass
+    '''    public String getWorkType()
+    '''
 def getWorkTypeCal():
-'''public String getWorkTypeCal()
-'''
-pass
+    '''    public String getWorkTypeCal()
+    '''
 def isCalibrationInstalled():
-'''public boolean isCalibrationInstalled()
-'''
-pass
+    '''    public boolean isCalibrationInstalled()
+    '''
 def regenerateForecast():
-'''public int regenerateForecast(final String message)
-'''
-pass
+    '''    public int regenerateForecast(final String message)
+    '''
 def forecastDateBeforeToday():
-'''public boolean forecastDateBeforeToday(final MboRemote pmforecast)
-'''
-pass
+    '''    public boolean forecastDateBeforeToday(final MboRemote pmforecast)
+    '''
 def checkForecastForGenWork():
-'''public void checkForecastForGenWork()
-'''
-pass
+    '''    public void checkForecastForGenWork()
+    '''
 def canGenerateForecastWork():
-'''public int canGenerateForecastWork(final boolean useFreqCrit)
-'''
-pass
+    '''    public int canGenerateForecastWork(final boolean useFreqCrit)
+    '''
 def lockUnlockForecast():
-'''public void lockUnlockForecast(final boolean lockForecast)
-'''
-pass
+    '''    public void lockUnlockForecast(final boolean lockForecast)
+    '''
 def checkJPSeq():
-'''public boolean checkJPSeq()
-'''
-pass
+    '''    public boolean checkJPSeq()
+    '''
 def AddPMForecastJPRecord():
-'''public void AddPMForecastJPRecord(final String rootancestor, final MboRemote cancelledWO)
-'''
-pass
+    '''    public void AddPMForecastJPRecord(final String rootancestor, final MboRemote cancelledWO)
+    '''
 def canLockUnlockChildPMForecast():
-'''public void canLockUnlockChildPMForecast()
-'''
-pass
+    '''    public void canLockUnlockChildPMForecast()
+    '''
 def hasForecast():
-'''public boolean hasForecast()
-'''
-pass
+    '''    public boolean hasForecast()
+    '''
 def clearPmDeleteForecastVector():
-'''public void clearPmDeleteForecastVector()
-'''
-pass
+    '''    public void clearPmDeleteForecastVector()
+    '''
 def isListSelected():
-'''public boolean isListSelected()
-'''
-pass
+    '''    public boolean isListSelected()
+    '''
 def setListSelected():
-'''public void setListSelected(final boolean isListSelected)
-'''
-pass
+    '''    public void setListSelected(final boolean isListSelected)
+    '''
 def getTargStartDate():
-'''public Date getTargStartDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getTargStartDate(final Date date, final String calledFromFlag)
+    '''
 def getPMNextDate():
-'''public Date getPMNextDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMNextDate(final Date date, final String calledFromFlag)
+    '''
 def getPMLastCompDate():
-'''public Date getPMLastCompDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMLastCompDate(final Date date, final String calledFromFlag)
+    '''
 def getPMLastStartDate():
-'''public Date getPMLastStartDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMLastStartDate(final Date date, final String calledFromFlag)
+    '''
 def getPMDueDate():
-'''public Date getPMDueDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMDueDate(final Date date, final String calledFromFlag)
+    '''
 def getPMExtDate():
-'''public Date getPMExtDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMExtDate(final Date date, final String calledFromFlag)
+    '''
 def getPMForecastDate():
-'''public Date getPMForecastDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMForecastDate(final Date date, final String calledFromFlag)
+    '''
 def getDateWithTimeZone():
-'''public Date getDateWithTimeZone(final Date date)
-'''
-pass
+    '''    public Date getDateWithTimeZone(final Date date)
+    '''
 def getDateWithServerTimeZone():
-'''public Date getDateWithServerTimeZone(Date date)
-'''
-pass
+    '''    public Date getDateWithServerTimeZone(Date date)
+    '''
 def getDateWithObjectTimeZone():
-'''public Date getDateWithObjectTimeZone(Date date)
-'''
-pass
+    '''    public Date getDateWithObjectTimeZone(Date date)
+    '''
 def storeResourceDataForForecast():
-'''public void storeResourceDataForForecast()
-'''
-pass
+    '''    public void storeResourceDataForForecast()
+    '''
 def getResourcesForForecastSegement():
-'''public void getResourcesForForecastSegement(final MboRemote jobplan, final MboRemote pmforecastJP)
-'''
-pass
+    '''    public void getResourcesForForecastSegement(final MboRemote jobplan, final MboRemote pmforecastJP)
+    '''
 def getGeneratedWonumAndWorkOrderId():
-'''public Object[] getGeneratedWonumAndWorkOrderId(final int priority)
-'''
-pass
+    '''    public Object[] getGeneratedWonumAndWorkOrderId(final int priority)
+    '''
 def getJPNumWithDate():
-'''public String getJPNumWithDate(final Date date, final String jpnum)
-'''
-pass
+    '''    public String getJPNumWithDate(final Date date, final String jpnum)
+    '''
 def getWOSavedInDB():
-'''public MboRemote getWOSavedInDB(final MboRemote woGenerated)
-'''
-pass
+    '''    public MboRemote getWOSavedInDB(final MboRemote woGenerated)
+    '''

@@ -1,21 +1,16 @@
 def XPathSyntaxException():
-'''public XPathSyntaxException(final org.jaxen.saxpath.XPathSyntaxException e)
-public XPathSyntaxException(final String xpath, final int position, final String message)
-'''
-pass
+    '''    public XPathSyntaxException(final org.jaxen.saxpath.XPathSyntaxException e)
+    public XPathSyntaxException(final String xpath, final int position, final String message)
+    '''
 def getPosition():
-'''public int getPosition()
-'''
-pass
+    '''    public int getPosition()
+    '''
 def getXPath():
-'''public String getXPath()
-'''
-pass
+    '''    public String getXPath()
+    '''
 def getPositionMarker():
-'''public String getPositionMarker()
-'''
-pass
+    '''    public String getPositionMarker()
+    '''
 def getMultilineMessage():
-'''public String getMultilineMessage()
-'''
-pass
+    '''    public String getMultilineMessage()
+    '''

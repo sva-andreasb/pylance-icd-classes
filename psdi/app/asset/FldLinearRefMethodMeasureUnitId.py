@@ -1,8 +1,6 @@
 def FldLinearRefMethodMeasureUnitId():
-'''public FldLinearRefMethodMeasureUnitId(final MboValue mbv)
-'''
-pass
+    '''    public FldLinearRefMethodMeasureUnitId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

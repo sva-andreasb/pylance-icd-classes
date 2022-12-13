@@ -1,12 +1,9 @@
 def OSLCBusResource():
-'''public OSLCBusResource(final MboSet ms)
-'''
-pass
+    '''    public OSLCBusResource(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

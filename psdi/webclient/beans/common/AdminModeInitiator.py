@@ -1,4 +1,3 @@
 def ADMINMODE():
-'''public int ADMINMODE()
-'''
-pass
+    '''    public int ADMINMODE()
+    '''

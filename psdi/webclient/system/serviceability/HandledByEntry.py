@@ -1,4 +1,3 @@
 def HandledByEntry():
-'''public HandledByEntry(final Object handler)
-'''
-pass
+    '''    public HandledByEntry(final Object handler)
+    '''

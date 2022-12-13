@@ -1,20 +1,15 @@
 def StructureToFlat():
-'''public StructureToFlat()
-'''
-pass
+    '''    public StructureToFlat()
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def convertToFlat():
-'''public List<List<Map<String, ColumnInfo>>> convertToFlat(final String mosName, final byte[] data)
-'''
-pass
+    '''    public List<List<Map<String, ColumnInfo>>> convertToFlat(final String mosName, final byte[] data)
+    '''
 def getActionsForPrimaryTable():
-'''public List<String> getActionsForPrimaryTable()
-'''
-pass
+    '''    public List<String> getActionsForPrimaryTable()
+    '''
 def getTransLanguage():
-'''public String getTransLanguage()
-'''
-pass
+    '''    public String getTransLanguage()
+    '''

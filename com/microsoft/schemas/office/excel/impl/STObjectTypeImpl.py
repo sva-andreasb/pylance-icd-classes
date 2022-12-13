@@ -1,4 +1,3 @@
 def STObjectTypeImpl():
-'''public STObjectTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public STObjectTypeImpl(final SchemaType schemaType)
+    '''

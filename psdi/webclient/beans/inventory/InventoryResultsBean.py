@@ -1,12 +1,9 @@
 def InventoryResultsBean():
-'''public InventoryResultsBean()
-'''
-pass
+    '''    public InventoryResultsBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getSavedInventoryQbe():
-'''public Hashtable getSavedInventoryQbe()
-'''
-pass
+    '''    public Hashtable getSavedInventoryQbe()
+    '''

@@ -2,120 +2,94 @@ HARD = "int  0"
 SOFT = "int  1"
 WEAK = "int  2"
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def get():
-'''public V get(final Object key)
-'''
-pass
+    '''    public V get(final Object key)
+    '''
 def put():
-'''public V put(final K key, final V value)
-'''
-pass
+    '''    public V put(final K key, final V value)
+    '''
 def remove():
-'''public V remove(final Object key)
-public void remove()
-'''
-pass
+    '''    public V remove(final Object key)
+    public void remove()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def mapIterator():
-'''public MapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public MapIterator<K, V> mapIterator()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def createEntry():
-'''public HashEntry<K, V> createEntry(final HashEntry<K, V> next, final int hashCode, final K key, final V value)
-'''
-pass
+    '''    public HashEntry<K, V> createEntry(final HashEntry<K, V> next, final int hashCode, final K key, final V value)
+    '''
 def toArray():
-'''public Object[] toArray()
-public <T> T[] toArray(final T[] arr)
-public Object[] toArray()
-public <T> T[] toArray(final T[] arr)
-public Object[] toArray()
-public <T> T[] toArray(final T[] arr)
-'''
-pass
+    '''    public Object[] toArray()
+    public <T> T[] toArray(final T[] arr)
+    public Object[] toArray()
+    public <T> T[] toArray(final T[] arr)
+    public Object[] toArray()
+    public <T> T[] toArray(final T[] arr)
+    '''
 def ReferenceEntry():
-'''public ReferenceEntry(final AbstractReferenceMap<K, V> parent, final ReferenceEntry<K, V> next, final int hashCode, final K key, final V value)
-'''
-pass
+    '''    public ReferenceEntry(final AbstractReferenceMap<K, V> parent, final ReferenceEntry<K, V> next, final int hashCode, final K key, final V value)
+    '''
 def getKey():
-'''public K getKey()
-public K getKey()
-'''
-pass
+    '''    public K getKey()
+    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-public V getValue()
-'''
-pass
+    '''    public V getValue()
+    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V obj)
-public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V obj)
+    public V setValue(final V value)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    '''
 def ReferenceIteratorBase():
-'''public ReferenceIteratorBase(final AbstractReferenceMap<K, V> parent)
-'''
-pass
+    '''    public ReferenceIteratorBase(final AbstractReferenceMap<K, V> parent)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def superNext():
-'''public ReferenceEntry<K, V> superNext()
-'''
-pass
+    '''    public ReferenceEntry<K, V> superNext()
+    '''
 def ReferenceEntrySetIterator():
-'''public ReferenceEntrySetIterator(final AbstractReferenceMap<K, V> abstractReferenceMap)
-'''
-pass
+    '''    public ReferenceEntrySetIterator(final AbstractReferenceMap<K, V> abstractReferenceMap)
+    '''
 def next():
-'''public ReferenceEntry<K, V> next()
-public K next()
-public V next()
-public K next()
-'''
-pass
+    '''    public ReferenceEntry<K, V> next()
+    public K next()
+    public V next()
+    public K next()
+    '''
 def SoftRef():
-'''public SoftRef(final int hash, final T r, final ReferenceQueue q)
-'''
-pass
+    '''    public SoftRef(final int hash, final T r, final ReferenceQueue q)
+    '''
 def WeakRef():
-'''public WeakRef(final int hash, final T r, final ReferenceQueue q)
-'''
-pass
+    '''    public WeakRef(final int hash, final T r, final ReferenceQueue q)
+    '''

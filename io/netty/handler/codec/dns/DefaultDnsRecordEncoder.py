@@ -1,8 +1,6 @@
 def encodeQuestion():
-'''public final void encodeQuestion(final DnsQuestion question, final ByteBuf out)
-'''
-pass
+    '''    public final void encodeQuestion(final DnsQuestion question, final ByteBuf out)
+    '''
 def encodeRecord():
-'''public void encodeRecord(final DnsRecord record, final ByteBuf out)
-'''
-pass
+    '''    public void encodeRecord(final DnsRecord record, final ByteBuf out)
+    '''

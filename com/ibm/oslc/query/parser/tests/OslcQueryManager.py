@@ -1,50 +1,38 @@
 def OslcQueryManager():
-'''public OslcQueryManager()
-public OslcQueryManager(final boolean verbose)
-'''
-pass
+    '''    public OslcQueryManager()
+    public OslcQueryManager(final boolean verbose)
+    '''
 def getWhereQueryParameter():
-'''public String getWhereQueryParameter()
-'''
-pass
+    '''    public String getWhereQueryParameter()
+    '''
 def getSearchTermsQueryParameter():
-'''public String getSearchTermsQueryParameter()
-'''
-pass
+    '''    public String getSearchTermsQueryParameter()
+    '''
 def getOrderByQueryParameter():
-'''public String getOrderByQueryParameter()
-'''
-pass
+    '''    public String getOrderByQueryParameter()
+    '''
 def getSelectQueryParameter():
-'''public String getSelectQueryParameter()
-'''
-pass
+    '''    public String getSelectQueryParameter()
+    '''
 def whereTerm():
-'''public void whereTerm(final String identifier, final String operator, final String value)
-public void whereTerm(final String identifier, final String[] values)
-'''
-pass
+    '''    public void whereTerm(final String identifier, final String operator, final String value)
+    public void whereTerm(final String identifier, final String[] values)
+    '''
 def whereScopedTerm():
-'''public void whereScopedTerm(final String identifier, final List<IOslcTerm> terms)
-'''
-pass
+    '''    public void whereScopedTerm(final String identifier, final List<IOslcTerm> terms)
+    '''
 def selectProperty():
-'''public void selectProperty(final String identifier)
-'''
-pass
+    '''    public void selectProperty(final String identifier)
+    '''
 def selectNestedProperty():
-'''public void selectNestedProperty(final String identifier, final List<IOslcProperty> properties)
-'''
-pass
+    '''    public void selectNestedProperty(final String identifier, final List<IOslcProperty> properties)
+    '''
 def searchTerm():
-'''public void searchTerm(final String searchTerm)
-'''
-pass
+    '''    public void searchTerm(final String searchTerm)
+    '''
 def orderBySortTerm():
-'''public void orderBySortTerm(final String sortOrder, final String identifier)
-'''
-pass
+    '''    public void orderBySortTerm(final String sortOrder, final String identifier)
+    '''
 def orderByScopedSortTerm():
-'''public void orderByScopedSortTerm(final String identifier, final List<IOslcSortTerm> sortTerms)
-'''
-pass
+    '''    public void orderByScopedSortTerm(final String identifier, final List<IOslcSortTerm> sortTerms)
+    '''

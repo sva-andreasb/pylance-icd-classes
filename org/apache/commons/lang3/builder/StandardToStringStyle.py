@@ -1,160 +1,120 @@
 def isUseClassName():
-'''public boolean isUseClassName()
-'''
-pass
+    '''    public boolean isUseClassName()
+    '''
 def setUseClassName():
-'''public void setUseClassName(final boolean useClassName)
-'''
-pass
+    '''    public void setUseClassName(final boolean useClassName)
+    '''
 def isUseShortClassName():
-'''public boolean isUseShortClassName()
-'''
-pass
+    '''    public boolean isUseShortClassName()
+    '''
 def setUseShortClassName():
-'''public void setUseShortClassName(final boolean useShortClassName)
-'''
-pass
+    '''    public void setUseShortClassName(final boolean useShortClassName)
+    '''
 def isUseIdentityHashCode():
-'''public boolean isUseIdentityHashCode()
-'''
-pass
+    '''    public boolean isUseIdentityHashCode()
+    '''
 def setUseIdentityHashCode():
-'''public void setUseIdentityHashCode(final boolean useIdentityHashCode)
-'''
-pass
+    '''    public void setUseIdentityHashCode(final boolean useIdentityHashCode)
+    '''
 def isUseFieldNames():
-'''public boolean isUseFieldNames()
-'''
-pass
+    '''    public boolean isUseFieldNames()
+    '''
 def setUseFieldNames():
-'''public void setUseFieldNames(final boolean useFieldNames)
-'''
-pass
+    '''    public void setUseFieldNames(final boolean useFieldNames)
+    '''
 def isDefaultFullDetail():
-'''public boolean isDefaultFullDetail()
-'''
-pass
+    '''    public boolean isDefaultFullDetail()
+    '''
 def setDefaultFullDetail():
-'''public void setDefaultFullDetail(final boolean defaultFullDetail)
-'''
-pass
+    '''    public void setDefaultFullDetail(final boolean defaultFullDetail)
+    '''
 def isArrayContentDetail():
-'''public boolean isArrayContentDetail()
-'''
-pass
+    '''    public boolean isArrayContentDetail()
+    '''
 def setArrayContentDetail():
-'''public void setArrayContentDetail(final boolean arrayContentDetail)
-'''
-pass
+    '''    public void setArrayContentDetail(final boolean arrayContentDetail)
+    '''
 def getArrayStart():
-'''public String getArrayStart()
-'''
-pass
+    '''    public String getArrayStart()
+    '''
 def setArrayStart():
-'''public void setArrayStart(final String arrayStart)
-'''
-pass
+    '''    public void setArrayStart(final String arrayStart)
+    '''
 def getArrayEnd():
-'''public String getArrayEnd()
-'''
-pass
+    '''    public String getArrayEnd()
+    '''
 def setArrayEnd():
-'''public void setArrayEnd(final String arrayEnd)
-'''
-pass
+    '''    public void setArrayEnd(final String arrayEnd)
+    '''
 def getArraySeparator():
-'''public String getArraySeparator()
-'''
-pass
+    '''    public String getArraySeparator()
+    '''
 def setArraySeparator():
-'''public void setArraySeparator(final String arraySeparator)
-'''
-pass
+    '''    public void setArraySeparator(final String arraySeparator)
+    '''
 def getContentStart():
-'''public String getContentStart()
-'''
-pass
+    '''    public String getContentStart()
+    '''
 def setContentStart():
-'''public void setContentStart(final String contentStart)
-'''
-pass
+    '''    public void setContentStart(final String contentStart)
+    '''
 def getContentEnd():
-'''public String getContentEnd()
-'''
-pass
+    '''    public String getContentEnd()
+    '''
 def setContentEnd():
-'''public void setContentEnd(final String contentEnd)
-'''
-pass
+    '''    public void setContentEnd(final String contentEnd)
+    '''
 def getFieldNameValueSeparator():
-'''public String getFieldNameValueSeparator()
-'''
-pass
+    '''    public String getFieldNameValueSeparator()
+    '''
 def setFieldNameValueSeparator():
-'''public void setFieldNameValueSeparator(final String fieldNameValueSeparator)
-'''
-pass
+    '''    public void setFieldNameValueSeparator(final String fieldNameValueSeparator)
+    '''
 def getFieldSeparator():
-'''public String getFieldSeparator()
-'''
-pass
+    '''    public String getFieldSeparator()
+    '''
 def setFieldSeparator():
-'''public void setFieldSeparator(final String fieldSeparator)
-'''
-pass
+    '''    public void setFieldSeparator(final String fieldSeparator)
+    '''
 def isFieldSeparatorAtStart():
-'''public boolean isFieldSeparatorAtStart()
-'''
-pass
+    '''    public boolean isFieldSeparatorAtStart()
+    '''
 def setFieldSeparatorAtStart():
-'''public void setFieldSeparatorAtStart(final boolean fieldSeparatorAtStart)
-'''
-pass
+    '''    public void setFieldSeparatorAtStart(final boolean fieldSeparatorAtStart)
+    '''
 def isFieldSeparatorAtEnd():
-'''public boolean isFieldSeparatorAtEnd()
-'''
-pass
+    '''    public boolean isFieldSeparatorAtEnd()
+    '''
 def setFieldSeparatorAtEnd():
-'''public void setFieldSeparatorAtEnd(final boolean fieldSeparatorAtEnd)
-'''
-pass
+    '''    public void setFieldSeparatorAtEnd(final boolean fieldSeparatorAtEnd)
+    '''
 def getNullText():
-'''public String getNullText()
-'''
-pass
+    '''    public String getNullText()
+    '''
 def setNullText():
-'''public void setNullText(final String nullText)
-'''
-pass
+    '''    public void setNullText(final String nullText)
+    '''
 def getSizeStartText():
-'''public String getSizeStartText()
-'''
-pass
+    '''    public String getSizeStartText()
+    '''
 def setSizeStartText():
-'''public void setSizeStartText(final String sizeStartText)
-'''
-pass
+    '''    public void setSizeStartText(final String sizeStartText)
+    '''
 def getSizeEndText():
-'''public String getSizeEndText()
-'''
-pass
+    '''    public String getSizeEndText()
+    '''
 def setSizeEndText():
-'''public void setSizeEndText(final String sizeEndText)
-'''
-pass
+    '''    public void setSizeEndText(final String sizeEndText)
+    '''
 def getSummaryObjectStartText():
-'''public String getSummaryObjectStartText()
-'''
-pass
+    '''    public String getSummaryObjectStartText()
+    '''
 def setSummaryObjectStartText():
-'''public void setSummaryObjectStartText(final String summaryObjectStartText)
-'''
-pass
+    '''    public void setSummaryObjectStartText(final String summaryObjectStartText)
+    '''
 def getSummaryObjectEndText():
-'''public String getSummaryObjectEndText()
-'''
-pass
+    '''    public String getSummaryObjectEndText()
+    '''
 def setSummaryObjectEndText():
-'''public void setSummaryObjectEndText(final String summaryObjectEndText)
-'''
-pass
+    '''    public void setSummaryObjectEndText(final String summaryObjectEndText)
+    '''

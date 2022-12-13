@@ -1,20 +1,15 @@
 def AnnouncementComp():
-'''public AnnouncementComp(final STSession stSession)
-'''
-pass
+    '''    public AnnouncementComp(final STSession stSession)
+    '''
 def multiCastReceived():
-'''public void multiCastReceived(final MultiCastEvent multiCastEvent)
-'''
-pass
+    '''    public void multiCastReceived(final MultiCastEvent multiCastEvent)
+    '''
 def addAnnouncementListener():
-'''public synchronized void addAnnouncementListener(final AnnouncementListener obj)
-'''
-pass
+    '''    public synchronized void addAnnouncementListener(final AnnouncementListener obj)
+    '''
 def removeAnnouncementListener():
-'''public synchronized void removeAnnouncementListener(final AnnouncementListener obj)
-'''
-pass
+    '''    public synchronized void removeAnnouncementListener(final AnnouncementListener obj)
+    '''
 def sendAnnouncement():
-'''public void sendAnnouncement(final STObject[] array, final boolean v, final String str)
-'''
-pass
+    '''    public void sendAnnouncement(final STObject[] array, final boolean v, final String str)
+    '''

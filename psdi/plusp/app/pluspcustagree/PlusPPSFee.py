@@ -1,20 +1,15 @@
 def PlusPPSFee():
-'''public PlusPPSFee(final MboSet set)
-'''
-pass
+    '''    public PlusPPSFee(final MboSet set)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def setFieldFlagRules():
-'''public void setFieldFlagRules()
-'''
-pass
+    '''    public void setFieldFlagRules()
+    '''
 def calculateSpecialFeeLinePrice():
-'''public double calculateSpecialFeeLinePrice(final MboRemote mboRemote)
-'''
-pass
+    '''    public double calculateSpecialFeeLinePrice(final MboRemote mboRemote)
+    '''

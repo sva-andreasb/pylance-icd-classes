@@ -1,4 +1,3 @@
 def DConfigBeanVersionUnsupportedException():
-'''public DConfigBeanVersionUnsupportedException(final String s)
-'''
-pass
+    '''    public DConfigBeanVersionUnsupportedException(final String s)
+    '''

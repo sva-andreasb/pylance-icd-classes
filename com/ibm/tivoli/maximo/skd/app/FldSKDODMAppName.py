@@ -1,4 +1,3 @@
 def FldSKDODMAppName():
-'''public FldSKDODMAppName(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDODMAppName(final MboValue mbv)
+    '''

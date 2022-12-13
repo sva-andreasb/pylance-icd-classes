@@ -1,8 +1,6 @@
 def getDOMImplementation():
-'''public static DOMImplementation getDOMImplementation()
-'''
-pass
+    '''    public static DOMImplementation getDOMImplementation()
+    '''
 def hasFeature():
-'''public boolean hasFeature(String substring, final String s)
-'''
-pass
+    '''    public boolean hasFeature(String substring, final String s)
+    '''

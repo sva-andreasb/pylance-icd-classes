@@ -1,21 +1,16 @@
 def SingletonIterator():
-'''public SingletonIterator(final E object)
-public SingletonIterator(final E object, final boolean removeAllowed)
-'''
-pass
+    '''    public SingletonIterator(final E object)
+    public SingletonIterator(final E object, final boolean removeAllowed)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

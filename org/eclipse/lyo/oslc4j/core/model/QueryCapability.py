@@ -1,61 +1,46 @@
 def QueryCapability():
-'''public QueryCapability()
-public QueryCapability(final String title, final URI queryBase)
-'''
-pass
+    '''    public QueryCapability()
+    public QueryCapability(final String title, final URI queryBase)
+    '''
 def addResourceType():
-'''public void addResourceType(final URI resourceType)
-'''
-pass
+    '''    public void addResourceType(final URI resourceType)
+    '''
 def addUsage():
-'''public void addUsage(final URI usage)
-'''
-pass
+    '''    public void addUsage(final URI usage)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def getQueryBase():
-'''public URI getQueryBase()
-'''
-pass
+    '''    public URI getQueryBase()
+    '''
 def getResourceShape():
-'''public URI getResourceShape()
-'''
-pass
+    '''    public URI getResourceShape()
+    '''
 def getResourceTypes():
-'''public URI[] getResourceTypes()
-'''
-pass
+    '''    public URI[] getResourceTypes()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getUsages():
-'''public URI[] getUsages()
-'''
-pass
+    '''    public URI[] getUsages()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def setQueryBase():
-'''public void setQueryBase(final URI queryBase)
-'''
-pass
+    '''    public void setQueryBase(final URI queryBase)
+    '''
 def setResourceShape():
-'''public void setResourceShape(final URI resourceShape)
-'''
-pass
+    '''    public void setResourceShape(final URI resourceShape)
+    '''
 def setResourceTypes():
-'''public void setResourceTypes(final URI[] resourceTypes)
-'''
-pass
+    '''    public void setResourceTypes(final URI[] resourceTypes)
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def setUsages():
-'''public void setUsages(final URI[] usages)
-'''
-pass
+    '''    public void setUsages(final URI[] usages)
+    '''

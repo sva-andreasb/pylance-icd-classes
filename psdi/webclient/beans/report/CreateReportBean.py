@@ -1,108 +1,81 @@
 def CreateReportBean():
-'''public CreateReportBean()
-'''
-pass
+    '''    public CreateReportBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def addAll():
-'''public int addAll()
-'''
-pass
+    '''    public int addAll()
+    '''
 def addSelectedAttributesSum():
-'''public int addSelectedAttributesSum()
-'''
-pass
+    '''    public int addSelectedAttributesSum()
+    '''
 def addSelectedAttributes():
-'''public int addSelectedAttributes()
-'''
-pass
+    '''    public int addSelectedAttributes()
+    '''
 def removeSelectedAttributes():
-'''public int removeSelectedAttributes()
-'''
-pass
+    '''    public int removeSelectedAttributes()
+    '''
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''
 def refreshCalc():
-'''public int refreshCalc()
-'''
-pass
+    '''    public int refreshCalc()
+    '''
 def removeAll():
-'''public int removeAll()
-'''
-pass
+    '''    public int removeAll()
+    '''
 def removeGroupFields():
-'''public int removeGroupFields()
-'''
-pass
+    '''    public int removeGroupFields()
+    '''
 def removeSortFields():
-'''public int removeSortFields()
-'''
-pass
+    '''    public int removeSortFields()
+    '''
 def removeFilterFields():
-'''public int removeFilterFields()
-'''
-pass
+    '''    public int removeFilterFields()
+    '''
 def runAndSaveReport():
-'''public int runAndSaveReport()
-'''
-pass
+    '''    public int runAndSaveReport()
+    '''
 def previewReport():
-'''public int previewReport()
-'''
-pass
+    '''    public int previewReport()
+    '''
 def createuserreport():
-'''public int createuserreport()
-'''
-pass
+    '''    public int createuserreport()
+    '''
 def evaluateExpression():
-'''public boolean evaluateExpression(final boolean suppressValidate)
-'''
-pass
+    '''    public boolean evaluateExpression(final boolean suppressValidate)
+    '''
 def testExpression():
-'''public int testExpression()
-'''
-pass
+    '''    public int testExpression()
+    '''
 def mathEvent():
-'''public int mathEvent()
-'''
-pass
+    '''    public int mathEvent()
+    '''
 def sumEvent():
-'''public int sumEvent()
-'''
-pass
+    '''    public int sumEvent()
+    '''
 def addSelectedAttributesCalc():
-'''public int addSelectedAttributesCalc()
-'''
-pass
+    '''    public int addSelectedAttributesCalc()
+    '''
 def addExpression():
-'''public int addExpression()
-'''
-pass
+    '''    public int addExpression()
+    '''
 def getJdbcTypeName():
-'''public static String getJdbcTypeName(final int jdbcType)
-'''
-pass
+    '''    public static String getJdbcTypeName(final int jdbcType)
+    '''
 def addSummary():
-'''public int addSummary()
-'''
-pass
+    '''    public int addSummary()
+    '''
 def cancelExpression():
-'''public int cancelExpression()
-'''
-pass
+    '''    public int cancelExpression()
+    '''
 def cancelSummary():
-'''public int cancelSummary()
-'''
-pass
+    '''    public int cancelSummary()
+    '''
 def clearCalculateTabFields():
-'''public void clearCalculateTabFields()
-'''
-pass
+    '''    public void clearCalculateTabFields()
+    '''
 def clearSummaryTabFields():
-'''public void clearSummaryTabFields()
-'''
-pass
+    '''    public void clearSummaryTabFields()
+    '''

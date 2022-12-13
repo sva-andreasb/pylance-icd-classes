@@ -1,8 +1,6 @@
 def MissingRecordAwareHSSFListener():
-'''public MissingRecordAwareHSSFListener(final HSSFListener listener)
-'''
-pass
+    '''    public MissingRecordAwareHSSFListener(final HSSFListener listener)
+    '''
 def processRecord():
-'''public void processRecord(final Record record)
-'''
-pass
+    '''    public void processRecord(final Record record)
+    '''

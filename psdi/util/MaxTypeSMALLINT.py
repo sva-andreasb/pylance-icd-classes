@@ -1,12 +1,9 @@
 def MaxTypeSMALLINT():
-'''public MaxTypeSMALLINT(final Locale locale)
-'''
-pass
+    '''    public MaxTypeSMALLINT(final Locale locale)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

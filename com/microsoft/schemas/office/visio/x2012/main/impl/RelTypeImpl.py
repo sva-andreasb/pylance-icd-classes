@@ -1,20 +1,15 @@
 def RelTypeImpl():
-'''public RelTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public RelTypeImpl(final SchemaType schemaType)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def xgetId():
-'''public STRelationshipId xgetId()
-'''
-pass
+    '''    public STRelationshipId xgetId()
+    '''
 def setId():
-'''public void setId(final String stringValue)
-'''
-pass
+    '''    public void setId(final String stringValue)
+    '''
 def xsetId():
-'''public void xsetId(final STRelationshipId stRelationshipId)
-'''
-pass
+    '''    public void xsetId(final STRelationshipId stRelationshipId)
+    '''

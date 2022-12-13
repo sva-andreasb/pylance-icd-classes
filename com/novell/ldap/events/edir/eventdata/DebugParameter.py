@@ -1,16 +1,12 @@
 def DebugParameter():
-'''public DebugParameter(final ASN1Tagged asn1Tagged)
-'''
-pass
+    '''    public DebugParameter(final ASN1Tagged asn1Tagged)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getData():
-'''public Object getData()
-'''
-pass
+    '''    public Object getData()
+    '''

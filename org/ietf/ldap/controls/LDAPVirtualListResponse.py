@@ -1,20 +1,15 @@
 def LDAPVirtualListResponse():
-'''public LDAPVirtualListResponse(final String s, final boolean b, final byte[] array)
-'''
-pass
+    '''    public LDAPVirtualListResponse(final String s, final boolean b, final byte[] array)
+    '''
 def getContentCount():
-'''public int getContentCount()
-'''
-pass
+    '''    public int getContentCount()
+    '''
 def getFirstPosition():
-'''public int getFirstPosition()
-'''
-pass
+    '''    public int getFirstPosition()
+    '''
 def getResultCode():
-'''public int getResultCode()
-'''
-pass
+    '''    public int getResultCode()
+    '''
 def getContext():
-'''public String getContext()
-'''
-pass
+    '''    public String getContext()
+    '''

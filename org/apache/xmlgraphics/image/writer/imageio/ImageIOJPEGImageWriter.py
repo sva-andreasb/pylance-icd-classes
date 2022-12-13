@@ -1,4 +1,3 @@
 def ImageIOJPEGImageWriter():
-'''public ImageIOJPEGImageWriter()
-'''
-pass
+    '''    public ImageIOJPEGImageWriter()
+    '''

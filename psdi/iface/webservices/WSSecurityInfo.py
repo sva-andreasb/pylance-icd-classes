@@ -1,20 +1,15 @@
 def WSSecurityInfo():
-'''public WSSecurityInfo(final String wsname, final String param, final String value, final boolean isInbound)
-'''
-pass
+    '''    public WSSecurityInfo(final String wsname, final String param, final String value, final boolean isInbound)
+    '''
 def getWSName():
-'''public String getWSName()
-'''
-pass
+    '''    public String getWSName()
+    '''
 def getParam():
-'''public String getParam()
-'''
-pass
+    '''    public String getParam()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def isInbound():
-'''public boolean isInbound()
-'''
-pass
+    '''    public boolean isInbound()
+    '''

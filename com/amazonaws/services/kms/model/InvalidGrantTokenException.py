@@ -1,4 +1,3 @@
 def InvalidGrantTokenException():
-'''public InvalidGrantTokenException(final String message)
-'''
-pass
+    '''    public InvalidGrantTokenException(final String message)
+    '''

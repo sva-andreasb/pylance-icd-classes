@@ -1,16 +1,12 @@
 def MimeEnabledImageFlavor():
-'''public MimeEnabledImageFlavor(final ImageFlavor parentFlavor, final String mime)
-'''
-pass
+    '''    public MimeEnabledImageFlavor(final ImageFlavor parentFlavor, final String mime)
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

@@ -1,34 +1,26 @@
 def getNextStream():
-'''public synchronized BoundaryDelimitedStream getNextStream()
-'''
-pass
+    '''    public synchronized BoundaryDelimitedStream getNextStream()
+    '''
 def read():
-'''public synchronized int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-public int read()
-'''
-pass
+    '''    public synchronized int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    public int read()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def mark():
-'''public void mark(final int readlimit)
-'''
-pass
+    '''    public void mark(final int readlimit)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def printarry():
-'''public static void printarry(final byte[] b, final int start, final int end)
-'''
-pass
+    '''    public static void printarry(final byte[] b, final int start, final int end)
+    '''

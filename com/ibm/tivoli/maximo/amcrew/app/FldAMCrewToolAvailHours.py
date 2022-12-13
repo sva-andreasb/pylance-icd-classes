@@ -1,8 +1,6 @@
 def FldAMCrewToolAvailHours():
-'''public FldAMCrewToolAvailHours(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewToolAvailHours(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

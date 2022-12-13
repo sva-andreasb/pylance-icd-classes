@@ -1,8 +1,6 @@
 def AvailabilityDataManager():
-'''public AvailabilityDataManager()
-'''
-pass
+    '''    public AvailabilityDataManager()
+    '''
 def fetchAndWaitDelegated():
-'''public Availability fetchAndWaitDelegated(final RequestData req)
-'''
-pass
+    '''    public Availability fetchAndWaitDelegated(final RequestData req)
+    '''

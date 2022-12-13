@@ -1,24 +1,18 @@
 def LoadBean():
-'''public LoadBean()
-'''
-pass
+    '''    public LoadBean()
+    '''
 def load():
-'''public int load()
-'''
-pass
+    '''    public int load()
+    '''
 def importdata():
-'''public int importdata()
-'''
-pass
+    '''    public int importdata()
+    '''
 def loadData():
-'''public int loadData()
-'''
-pass
+    '''    public int loadData()
+    '''
 def loadImport():
-'''public void loadImport(final UploadFile file)
-'''
-pass
+    '''    public void loadImport(final UploadFile file)
+    '''
 def showPreview():
-'''public void showPreview()
-'''
-pass
+    '''    public void showPreview()
+    '''

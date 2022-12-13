@@ -1,4 +1,3 @@
 def PlusPFldSetMultiTransactionCustPayer():
-'''public PlusPFldSetMultiTransactionCustPayer(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldSetMultiTransactionCustPayer(final MboValue mbv)
+    '''

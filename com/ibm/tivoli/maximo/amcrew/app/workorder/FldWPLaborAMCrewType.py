@@ -1,20 +1,15 @@
 def FldWPLaborAMCrewType():
-'''public FldWPLaborAMCrewType(final MboValue mbv)
-'''
-pass
+    '''    public FldWPLaborAMCrewType(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

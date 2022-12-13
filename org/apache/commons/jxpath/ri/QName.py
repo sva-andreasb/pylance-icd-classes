@@ -1,25 +1,19 @@
 def QName():
-'''public QName(final String qualifiedName)
-public QName(final String prefix, final String localName)
-'''
-pass
+    '''    public QName(final String qualifiedName)
+    public QName(final String prefix, final String localName)
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''

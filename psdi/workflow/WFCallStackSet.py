@@ -1,37 +1,28 @@
 def WFCallStackSet():
-'''public WFCallStackSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFCallStackSet(final MboServerInterface ms)
+    '''
 def pushWFCallStack():
-'''public WFCallStackRemote pushWFCallStack(final WFProcessRemote wfProcess)
-'''
-pass
+    '''    public WFCallStackRemote pushWFCallStack(final WFProcessRemote wfProcess)
+    '''
 def popWFCallStack():
-'''public WFCallStackRemote popWFCallStack()
-'''
-pass
+    '''    public WFCallStackRemote popWFCallStack()
+    '''
 def getWFCallStack():
-'''public WFCallStack getWFCallStack()
-'''
-pass
+    '''    public WFCallStack getWFCallStack()
+    '''
 def initiateWorkflow():
-'''public WFActionSetRemote initiateWorkflow(final String memo, final WFProcess wfProcess)
-'''
-pass
+    '''    public WFActionSetRemote initiateWorkflow(final String memo, final WFProcess wfProcess)
+    '''
 def stopWorkflow():
-'''public void stopWorkflow(final String memo)
-'''
-pass
+    '''    public void stopWorkflow(final String memo)
+    '''
 def applyWorkflowAction():
-'''public final WFActionSetRemote applyWorkflowAction(final WFAction action)
-public WFActionSetRemote applyWorkflowAction(WFAction action, final String memo)
-'''
-pass
+    '''    public final WFActionSetRemote applyWorkflowAction(final WFAction action)
+    public WFActionSetRemote applyWorkflowAction(WFAction action, final String memo)
+    '''
 def getWFDiagramInfo():
-'''public WFViewInfo getWFDiagramInfo(int requestedCallSeq)
-'''
-pass
+    '''    public WFViewInfo getWFDiagramInfo(int requestedCallSeq)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

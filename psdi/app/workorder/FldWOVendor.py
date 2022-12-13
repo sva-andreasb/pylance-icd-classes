@@ -1,4 +1,3 @@
 def FldWOVendor():
-'''public FldWOVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldWOVendor(final MboValue mbv)
+    '''

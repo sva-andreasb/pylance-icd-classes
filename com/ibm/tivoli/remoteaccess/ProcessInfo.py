@@ -1,32 +1,24 @@
 def getID():
-'''public int getID()
-'''
-pass
+    '''    public int getID()
+    '''
 def getParentID():
-'''public int getParentID()
-'''
-pass
+    '''    public int getParentID()
+    '''
 def getOwner():
-'''public String getOwner()
-'''
-pass
+    '''    public String getOwner()
+    '''
 def getState():
-'''public String getState()
-'''
-pass
+    '''    public String getState()
+    '''
 def getProcessState():
-'''public ProcessState getProcessState()
-'''
-pass
+    '''    public ProcessState getProcessState()
+    '''
 def getMemorySize():
-'''public int getMemorySize()
-'''
-pass
+    '''    public int getMemorySize()
+    '''
 def getCPUUsage():
-'''public int getCPUUsage()
-'''
-pass
+    '''    public int getCPUUsage()
+    '''
 def getProgramName():
-'''public String getProgramName()
-'''
-pass
+    '''    public String getProgramName()
+    '''

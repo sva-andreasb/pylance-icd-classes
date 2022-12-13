@@ -1,29 +1,22 @@
 def PlusPCopyService():
-'''public PlusPCopyService()
-public PlusPCopyService(final MXServer mxServer)
-'''
-pass
+    '''    public PlusPCopyService()
+    public PlusPCopyService(final MXServer mxServer)
+    '''
 def copy():
-'''public boolean copy(final PlusPCopyUtil plusPCopyUtil)
-'''
-pass
+    '''    public boolean copy(final PlusPCopyUtil plusPCopyUtil)
+    '''
 def getNameByMessage():
-'''public String getNameByMessage(final PlusPCopyUtil plusPCopyUtil)
-'''
-pass
+    '''    public String getNameByMessage(final PlusPCopyUtil plusPCopyUtil)
+    '''
 def createBillLine():
-'''public PlusPBillLineRemote createBillLine(final MboRemote mboRemote, final PlusPCopyUtil plusPCopyUtil)
-'''
-pass
+    '''    public PlusPBillLineRemote createBillLine(final MboRemote mboRemote, final PlusPCopyUtil plusPCopyUtil)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def iterator():
-'''public Iterator<String[]> iterator()
-'''
-pass
+    '''    public Iterator<String[]> iterator()
+    '''

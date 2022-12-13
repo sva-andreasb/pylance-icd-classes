@@ -1,68 +1,51 @@
 def setValue():
-'''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-'''
-pass
+    '''    public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''
 def appgrant_read():
-'''public int appgrant_read()
-'''
-pass
+    '''    public int appgrant_read()
+    '''
 def appgrant_insert():
-'''public int appgrant_insert()
-'''
-pass
+    '''    public int appgrant_insert()
+    '''
 def appgrant_save():
-'''public int appgrant_save()
-'''
-pass
+    '''    public int appgrant_save()
+    '''
 def appgrant_delete():
-'''public int appgrant_delete()
-'''
-pass
+    '''    public int appgrant_delete()
+    '''
 def apprevoke_read():
-'''public int apprevoke_read()
-'''
-pass
+    '''    public int apprevoke_read()
+    '''
 def apprevoke_insert():
-'''public int apprevoke_insert()
-'''
-pass
+    '''    public int apprevoke_insert()
+    '''
 def apprevoke_save():
-'''public int apprevoke_save()
-'''
-pass
+    '''    public int apprevoke_save()
+    '''
 def apprevoke_delete():
-'''public int apprevoke_delete()
-'''
-pass
+    '''    public int apprevoke_delete()
+    '''
 def appgrant_all():
-'''public int appgrant_all()
-'''
-pass
+    '''    public int appgrant_all()
+    '''
 def apprevoke_all():
-'''public int apprevoke_all()
-'''
-pass
+    '''    public int apprevoke_all()
+    '''
 def allsigoauthorized():
-'''public int allsigoauthorized()
-'''
-pass
+    '''    public int allsigoauthorized()
+    '''
 def allsigorevoke():
-'''public int allsigorevoke()
-'''
-pass
+    '''    public int allsigorevoke()
+    '''
 def wcaddmodsig():
-'''public int wcaddmodsig()
-'''
-pass
+    '''    public int wcaddmodsig()
+    '''
 def template():
-'''public int template()
-'''
-pass
+    '''    public int template()
+    '''
 def wcosauthorize():
-'''public int wcosauthorize()
-'''
-pass
+    '''    public int wcosauthorize()
+    '''
 def setPageStartIndex():
-'''public void setPageStartIndex(final int nRow)
-'''
-pass
+    '''    public void setPageStartIndex(final int nRow)
+    '''

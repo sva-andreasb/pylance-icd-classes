@@ -1,42 +1,32 @@
 def PresentationCache():
-'''public PresentationCache()
-'''
-pass
+    '''    public PresentationCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-public void init(final MXServer mxs)
-'''
-pass
+    '''    public void init()
+    public void init(final MXServer mxs)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def presentationsInvalid():
-'''public boolean presentationsInvalid()
-'''
-pass
+    '''    public boolean presentationsInvalid()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def repLibraryInvalid():
-'''public boolean repLibraryInvalid()
-'''
-pass
+    '''    public boolean repLibraryInvalid()
+    '''
 def setUISessionCount():
-'''public void setUISessionCount(final int count)
-'''
-pass
+    '''    public void setUISessionCount(final int count)
+    '''
 def getUISessionCount():
-'''public int getUISessionCount()
-'''
-pass
+    '''    public int getUISessionCount()
+    '''
 def getDomainLastUpdate():
-'''public String getDomainLastUpdate(final String domainId)
-'''
-pass
+    '''    public String getDomainLastUpdate(final String domainId)
+    '''

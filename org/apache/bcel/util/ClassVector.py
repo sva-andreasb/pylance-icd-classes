@@ -1,20 +1,15 @@
 def ClassVector():
-'''public ClassVector()
-'''
-pass
+    '''    public ClassVector()
+    '''
 def addElement():
-'''public void addElement(final JavaClass clazz)
-'''
-pass
+    '''    public void addElement(final JavaClass clazz)
+    '''
 def elementAt():
-'''public JavaClass elementAt(final int index)
-'''
-pass
+    '''    public JavaClass elementAt(final int index)
+    '''
 def removeElementAt():
-'''public void removeElementAt(final int index)
-'''
-pass
+    '''    public void removeElementAt(final int index)
+    '''
 def toArray():
-'''public JavaClass[] toArray()
-'''
-pass
+    '''    public JavaClass[] toArray()
+    '''

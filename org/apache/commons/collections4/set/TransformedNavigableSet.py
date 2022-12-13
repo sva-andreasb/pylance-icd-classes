@@ -1,52 +1,39 @@
 def transformingNavigableSet():
-'''public static <E> TransformedNavigableSet<E> transformingNavigableSet(final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer)
-'''
-pass
+    '''    public static <E> TransformedNavigableSet<E> transformingNavigableSet(final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer)
+    '''
 def transformedNavigableSet():
-'''public static <E> TransformedNavigableSet<E> transformedNavigableSet(final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer)
-'''
-pass
+    '''    public static <E> TransformedNavigableSet<E> transformedNavigableSet(final NavigableSet<E> set, final Transformer<? super E, ? extends E> transformer)
+    '''
 def lower():
-'''public E lower(final E e)
-'''
-pass
+    '''    public E lower(final E e)
+    '''
 def floor():
-'''public E floor(final E e)
-'''
-pass
+    '''    public E floor(final E e)
+    '''
 def ceiling():
-'''public E ceiling(final E e)
-'''
-pass
+    '''    public E ceiling(final E e)
+    '''
 def higher():
-'''public E higher(final E e)
-'''
-pass
+    '''    public E higher(final E e)
+    '''
 def pollFirst():
-'''public E pollFirst()
-'''
-pass
+    '''    public E pollFirst()
+    '''
 def pollLast():
-'''public E pollLast()
-'''
-pass
+    '''    public E pollLast()
+    '''
 def descendingSet():
-'''public NavigableSet<E> descendingSet()
-'''
-pass
+    '''    public NavigableSet<E> descendingSet()
+    '''
 def descendingIterator():
-'''public Iterator<E> descendingIterator()
-'''
-pass
+    '''    public Iterator<E> descendingIterator()
+    '''
 def subSet():
-'''public NavigableSet<E> subSet(final E fromElement, final boolean fromInclusive, final E toElement, final boolean toInclusive)
-'''
-pass
+    '''    public NavigableSet<E> subSet(final E fromElement, final boolean fromInclusive, final E toElement, final boolean toInclusive)
+    '''
 def headSet():
-'''public NavigableSet<E> headSet(final E toElement, final boolean inclusive)
-'''
-pass
+    '''    public NavigableSet<E> headSet(final E toElement, final boolean inclusive)
+    '''
 def tailSet():
-'''public NavigableSet<E> tailSet(final E fromElement, final boolean inclusive)
-'''
-pass
+    '''    public NavigableSet<E> tailSet(final E fromElement, final boolean inclusive)
+    '''

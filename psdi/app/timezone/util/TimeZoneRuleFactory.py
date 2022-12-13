@@ -1,8 +1,6 @@
 def getInstance():
-'''public static TimeZoneRuleFactory getInstance()
-'''
-pass
+    '''    public static TimeZoneRuleFactory getInstance()
+    '''
 def getTimeZoneRule():
-'''public TimeZoneRuleInterface getTimeZoneRule(final String className)
-'''
-pass
+    '''    public TimeZoneRuleInterface getTimeZoneRule(final String className)
+    '''

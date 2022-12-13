@@ -1,8 +1,6 @@
 def PlusPFldNoChargeLabor():
-'''public PlusPFldNoChargeLabor(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldNoChargeLabor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

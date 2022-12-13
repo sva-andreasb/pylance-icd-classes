@@ -1,4 +1,3 @@
 def ActivationEvent():
-'''public ActivationEvent(final Object o)
-'''
-pass
+    '''    public ActivationEvent(final Object o)
+    '''

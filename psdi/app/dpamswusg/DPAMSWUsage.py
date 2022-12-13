@@ -1,16 +1,12 @@
 def DPAMSWUsage():
-'''public DPAMSWUsage(final MboSet ms)
-'''
-pass
+    '''    public DPAMSWUsage(final MboSet ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''

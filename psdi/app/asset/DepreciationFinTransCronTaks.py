@@ -1,8 +1,6 @@
 def DepreciationFinTransCronTaks():
-'''public DepreciationFinTransCronTaks()
-'''
-pass
+    '''    public DepreciationFinTransCronTaks()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

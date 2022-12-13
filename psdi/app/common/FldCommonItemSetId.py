@@ -1,8 +1,6 @@
 def FldCommonItemSetId():
-'''public FldCommonItemSetId(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonItemSetId(final MboValue mbv)
+    '''
 def getCriteria():
-'''public String getCriteria()
-'''
-pass
+    '''    public String getCriteria()
+    '''

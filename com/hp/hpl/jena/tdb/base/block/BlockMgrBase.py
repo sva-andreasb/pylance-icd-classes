@@ -1,24 +1,18 @@
 def blockSize():
-'''public final int blockSize()
-'''
-pass
+    '''    public final int blockSize()
+    '''
 def finishUpdate():
-'''public void finishUpdate()
-'''
-pass
+    '''    public void finishUpdate()
+    '''
 def startUpdate():
-'''public void startUpdate()
-'''
-pass
+    '''    public void startUpdate()
+    '''
 def startRead():
-'''public void startRead()
-'''
-pass
+    '''    public void startRead()
+    '''
 def finishRead():
-'''public void finishRead()
-'''
-pass
+    '''    public void finishRead()
+    '''
 def sync():
-'''public void sync()
-'''
-pass
+    '''    public void sync()
+    '''

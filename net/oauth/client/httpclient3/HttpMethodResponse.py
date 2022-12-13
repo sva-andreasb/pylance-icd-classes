@@ -1,16 +1,12 @@
 def HttpMethodResponse():
-'''public HttpMethodResponse(final HttpMethod method, final byte[] requestBody, final String requestEncoding)
-'''
-pass
+    '''    public HttpMethodResponse(final HttpMethod method, final byte[] requestBody, final String requestEncoding)
+    '''
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''
 def openBody():
-'''public InputStream openBody()
-'''
-pass
+    '''    public InputStream openBody()
+    '''
 def dump():
-'''public void dump(final Map<String, Object> into)
-'''
-pass
+    '''    public void dump(final Map<String, Object> into)
+    '''

@@ -1,8 +1,6 @@
 def FldPOLineContRefLineNum():
-'''public FldPOLineContRefLineNum(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineContRefLineNum(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,8 +1,6 @@
 def CatalogTableBean():
-'''public CatalogTableBean()
-'''
-pass
+    '''    public CatalogTableBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

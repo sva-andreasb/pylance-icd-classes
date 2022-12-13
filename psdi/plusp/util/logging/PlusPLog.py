@@ -1,78 +1,60 @@
 def getInstance():
-'''public static PlusPLog getInstance(final UserInfo userInfo)
-public static PlusPLog getInstance()
-'''
-pass
+    '''    public static PlusPLog getInstance(final UserInfo userInfo)
+    public static PlusPLog getInstance()
+    '''
 def fatal():
-'''public void fatal(final Exception ex)
-'''
-pass
+    '''    public void fatal(final Exception ex)
+    '''
 def error():
-'''public void error(final Exception ex)
-'''
-pass
+    '''    public void error(final Exception ex)
+    '''
 def warn():
-'''public void warn(final Exception ex)
-public void warn(final MboRemote mboRemote)
-'''
-pass
+    '''    public void warn(final Exception ex)
+    public void warn(final MboRemote mboRemote)
+    '''
 def info():
-'''public void info(final Exception ex)
-public void info(final String s)
-public void info(final MboRemote mboRemote)
-'''
-pass
+    '''    public void info(final Exception ex)
+    public void info(final String s)
+    public void info(final MboRemote mboRemote)
+    '''
 def debug():
-'''public void debug(final Exception ex)
-public void debug(final String s)
-public void debug(final MboRemote mboRemote)
-'''
-pass
+    '''    public void debug(final Exception ex)
+    public void debug(final String s)
+    public void debug(final MboRemote mboRemote)
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def isDebugEnabled():
-'''public boolean isDebugEnabled()
-'''
-pass
+    '''    public boolean isDebugEnabled()
+    '''
 def isErrorEnabled():
-'''public boolean isErrorEnabled()
-'''
-pass
+    '''    public boolean isErrorEnabled()
+    '''
 def isFatalEnabled():
-'''public boolean isFatalEnabled()
-'''
-pass
+    '''    public boolean isFatalEnabled()
+    '''
 def isInfoEnabled():
-'''public boolean isInfoEnabled()
-'''
-pass
+    '''    public boolean isInfoEnabled()
+    '''
 def isWarnEnabled():
-'''public boolean isWarnEnabled()
-'''
-pass
+    '''    public boolean isWarnEnabled()
+    '''
 def setDebugLevelOn():
-'''public void setDebugLevelOn()
-'''
-pass
+    '''    public void setDebugLevelOn()
+    '''
 def setErrorLevelOn():
-'''public void setErrorLevelOn()
-'''
-pass
+    '''    public void setErrorLevelOn()
+    '''
 def setFatalLevelOn():
-'''public void setFatalLevelOn()
-'''
-pass
+    '''    public void setFatalLevelOn()
+    '''
 def setInfoLevelOn():
-'''public void setInfoLevelOn()
-'''
-pass
+    '''    public void setInfoLevelOn()
+    '''
 def setWarnLevelOn():
-'''public void setWarnLevelOn()
-'''
-pass
+    '''    public void setWarnLevelOn()
+    '''
 def formatElapsedTime():
-'''public static String formatElapsedTime(final long duration)
-'''
-pass
+    '''    public static String formatElapsedTime(final long duration)
+    '''

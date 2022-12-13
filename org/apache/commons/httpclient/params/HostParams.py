@@ -1,14 +1,11 @@
-DEFAULT_HEADERS = "String  http.default-headers""
+DEFAULT_HEADERS = "String  \"http.default-headers\""
 def HostParams():
-'''public HostParams()
-public HostParams(final HttpParams defaults)
-'''
-pass
+    '''    public HostParams()
+    public HostParams(final HttpParams defaults)
+    '''
 def setVirtualHost():
-'''public void setVirtualHost(final String hostname)
-'''
-pass
+    '''    public void setVirtualHost(final String hostname)
+    '''
 def getVirtualHost():
-'''public String getVirtualHost()
-'''
-pass
+    '''    public String getVirtualHost()
+    '''

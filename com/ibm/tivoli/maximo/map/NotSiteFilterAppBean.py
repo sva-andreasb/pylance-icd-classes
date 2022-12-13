@@ -1,13 +1,10 @@
 def NotSiteFilterAppBean():
-'''public NotSiteFilterAppBean()
-public NotSiteFilterAppBean(final Map<String, Object> parameters)
-'''
-pass
+    '''    public NotSiteFilterAppBean()
+    public NotSiteFilterAppBean(final Map<String, Object> parameters)
+    '''
 def getParameters():
-'''public Map<String, Object> getParameters()
-'''
-pass
+    '''    public Map<String, Object> getParameters()
+    '''
 def setQueryBySiteQbe():
-'''public void setQueryBySiteQbe()
-'''
-pass
+    '''    public void setQueryBySiteQbe()
+    '''

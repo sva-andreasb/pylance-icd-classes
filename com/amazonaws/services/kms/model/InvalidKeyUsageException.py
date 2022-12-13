@@ -1,4 +1,3 @@
 def InvalidKeyUsageException():
-'''public InvalidKeyUsageException(final String message)
-'''
-pass
+    '''    public InvalidKeyUsageException(final String message)
+    '''

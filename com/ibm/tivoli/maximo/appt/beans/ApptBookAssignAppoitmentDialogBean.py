@@ -1,20 +1,15 @@
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def complete():
-'''public int complete()
-'''
-pass
+    '''    public int complete()
+    '''

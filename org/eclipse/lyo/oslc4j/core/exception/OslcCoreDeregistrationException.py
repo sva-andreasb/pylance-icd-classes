@@ -1,16 +1,12 @@
 def OslcCoreDeregistrationException():
-'''public OslcCoreDeregistrationException(final URI serviceProviderURI, final int statusCode, final String responseMessage)
-'''
-pass
+    '''    public OslcCoreDeregistrationException(final URI serviceProviderURI, final int statusCode, final String responseMessage)
+    '''
 def getResponseMessage():
-'''public String getResponseMessage()
-'''
-pass
+    '''    public String getResponseMessage()
+    '''
 def getServiceProviderURI():
-'''public URI getServiceProviderURI()
-'''
-pass
+    '''    public URI getServiceProviderURI()
+    '''
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''

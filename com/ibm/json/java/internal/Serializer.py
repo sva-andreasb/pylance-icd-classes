@@ -1,64 +1,48 @@
 def Serializer():
-'''public Serializer(final Writer writer)
-'''
-pass
+    '''    public Serializer(final Writer writer)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def writeRawString():
-'''public Serializer writeRawString(final String str)
-'''
-pass
+    '''    public Serializer writeRawString(final String str)
+    '''
 def writeNull():
-'''public Serializer writeNull()
-'''
-pass
+    '''    public Serializer writeNull()
+    '''
 def writeNumber():
-'''public Serializer writeNumber(final Number n)
-'''
-pass
+    '''    public Serializer writeNumber(final Number n)
+    '''
 def writeBoolean():
-'''public Serializer writeBoolean(final Boolean b)
-'''
-pass
+    '''    public Serializer writeBoolean(final Boolean b)
+    '''
 def writeString():
-'''public Serializer writeString(final String s)
-'''
-pass
+    '''    public Serializer writeString(final String s)
+    '''
 def writeObject():
-'''public Serializer writeObject(final JSONObject jsonObject)
-'''
-pass
+    '''    public Serializer writeObject(final JSONObject jsonObject)
+    '''
 def writeArray():
-'''public Serializer writeArray(final JSONArray obj)
-'''
-pass
+    '''    public Serializer writeArray(final JSONArray obj)
+    '''
 def space():
-'''public void space()
-'''
-pass
+    '''    public void space()
+    '''
 def newLine():
-'''public void newLine()
-'''
-pass
+    '''    public void newLine()
+    '''
 def indent():
-'''public void indent()
-'''
-pass
+    '''    public void indent()
+    '''
 def indentPush():
-'''public void indentPush()
-'''
-pass
+    '''    public void indentPush()
+    '''
 def indentPop():
-'''public void indentPop()
-'''
-pass
+    '''    public void indentPop()
+    '''
 def getPropertyNames():
-'''public List getPropertyNames(final Map map)
-'''
-pass
+    '''    public List getPropertyNames(final Map map)
+    '''

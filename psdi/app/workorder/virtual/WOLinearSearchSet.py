@@ -1,4 +1,3 @@
 def WOLinearSearchSet():
-'''public WOLinearSearchSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOLinearSearchSet(final MboServerInterface ms)
+    '''

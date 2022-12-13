@@ -1,8 +1,6 @@
 def OaasLogFormatter():
-'''public OaasLogFormatter()
-'''
-pass
+    '''    public OaasLogFormatter()
+    '''
 def format():
-'''public String format(final LogRecord record)
-'''
-pass
+    '''    public String format(final LogRecord record)
+    '''

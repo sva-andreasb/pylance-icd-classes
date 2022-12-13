@@ -25,6 +25,5 @@ VERIFY = "int  8"
 EXPAND = "int  9"
 LOGOUT = "int  13"
 def getCommand():
-'''public static final String getCommand(final int command)
-'''
-pass
+    '''    public static final String getCommand(final int command)
+    '''

@@ -1,12 +1,9 @@
 def JEAppService():
-'''public JEAppService(final MXServer mxServer)
-'''
-pass
+    '''    public JEAppService(final MXServer mxServer)
+    '''
 def getJEMaxMessages():
-'''public static HashMap<String, JEMessage> getJEMaxMessages(final UserInfo userInfo)
-'''
-pass
+    '''    public static HashMap<String, JEMessage> getJEMaxMessages(final UserInfo userInfo)
+    '''
 def getJEUserLocaleData():
-'''public static JEUserLocaleData getJEUserLocaleData(final UserInfo userInfo)
-'''
-pass
+    '''    public static JEUserLocaleData getJEUserLocaleData(final UserInfo userInfo)
+    '''

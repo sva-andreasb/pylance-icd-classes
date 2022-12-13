@@ -1,55 +1,43 @@
-PROPERTY_CONTEXTFILTER = "String  context-filter""
-PROPERTY_NAMINGATTR = "String  naming-attribute""
-PROPERTY_SUBVAR = "String  substitution-variable""
-PROPERTY_CMSERVICE = "String  ContextMenuService""
-PROPERTY_LAUNCHINGAPP = "String  launchingApp""
+PROPERTY_CONTEXTFILTER = "String  \"context-filter\""
+PROPERTY_NAMINGATTR = "String  \"naming-attribute\""
+PROPERTY_SUBVAR = "String  \"substitution-variable\""
+PROPERTY_CMSERVICE = "String  \"ContextMenuService\""
+PROPERTY_LAUNCHINGAPP = "String  \"launchingApp\""
 def CmsMenuDescriptor():
-'''public CmsMenuDescriptor()
-public CmsMenuDescriptor(final Element el)
-'''
-pass
+    '''    public CmsMenuDescriptor()
+    public CmsMenuDescriptor(final Element el)
+    '''
 def addContextFilter():
-'''public void addContextFilter(final String name, final String value)
-'''
-pass
+    '''    public void addContextFilter(final String name, final String value)
+    '''
 def getContextFilters():
-'''public Map<String, String> getContextFilters()
-'''
-pass
+    '''    public Map<String, String> getContextFilters()
+    '''
 def addNamingAttribute():
-'''public void addNamingAttribute(final String name, final String value)
-'''
-pass
+    '''    public void addNamingAttribute(final String name, final String value)
+    '''
 def getNamingAttributes():
-'''public Map<String, String> getNamingAttributes()
-'''
-pass
+    '''    public Map<String, String> getNamingAttributes()
+    '''
 def addSubstitutionVariable():
-'''public void addSubstitutionVariable(final String name, final String value)
-public void addSubstitutionVariable(final String ic)
-'''
-pass
+    '''    public void addSubstitutionVariable(final String name, final String value)
+    public void addSubstitutionVariable(final String ic)
+    '''
 def getSubstitutionVariables():
-'''public Map<String, String> getSubstitutionVariables()
-'''
-pass
+    '''    public Map<String, String> getSubstitutionVariables()
+    '''
 def getInstanceClass():
-'''public String getInstanceClass()
-'''
-pass
+    '''    public String getInstanceClass()
+    '''
 def loadDynamicValues():
-'''public void loadDynamicValues(final String menuId, final DataBean bean)
-'''
-pass
+    '''    public void loadDynamicValues(final String menuId, final DataBean bean)
+    '''
 def loadXMLValues():
-'''public void loadXMLValues(final Element el)
-'''
-pass
+    '''    public void loadXMLValues(final Element el)
+    '''
 def initialize():
-'''public void initialize(final Element el)
-'''
-pass
+    '''    public void initialize(final Element el)
+    '''
 def getValuesAsObject():
-'''public JSONObject getValuesAsObject(final DataBean bean)
-'''
-pass
+    '''    public JSONObject getValuesAsObject(final DataBean bean)
+    '''

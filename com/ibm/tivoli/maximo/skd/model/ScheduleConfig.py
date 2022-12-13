@@ -1,12 +1,9 @@
 def ScheduleConfig():
-'''public ScheduleConfig()
-'''
-pass
+    '''    public ScheduleConfig()
+    '''
 def isUndoEnabled():
-'''public boolean isUndoEnabled()
-'''
-pass
+    '''    public boolean isUndoEnabled()
+    '''
 def setUndoEnabled():
-'''public void setUndoEnabled(final boolean undoEnabled)
-'''
-pass
+    '''    public void setUndoEnabled(final boolean undoEnabled)
+    '''

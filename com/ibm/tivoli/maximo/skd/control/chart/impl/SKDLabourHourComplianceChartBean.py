@@ -1,4 +1,3 @@
 def getChart():
-'''public Chart getChart(final ChartRequestOptions options)
-'''
-pass
+    '''    public Chart getChart(final ChartRequestOptions options)
+    '''

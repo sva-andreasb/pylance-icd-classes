@@ -1,18 +1,14 @@
 ALERT = "int  1"
 NOTICE = "int  2"
 def getMessageType():
-'''public int getMessageType()
-'''
-pass
+    '''    public int getMessageType()
+    '''
 def dispatch():
-'''public void dispatch(final Object listener)
-'''
-pass
+    '''    public void dispatch(final Object listener)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def StoreEvent():
-'''public StoreEvent(final Store store, final int type, final String message)
-'''
-pass
+    '''    public StoreEvent(final Store store, final int type, final String message)
+    '''

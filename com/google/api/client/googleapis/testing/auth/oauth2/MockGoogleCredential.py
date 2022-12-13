@@ -1,34 +1,26 @@
-ACCESS_TOKEN = "String  access_xyz""
-REFRESH_TOKEN = "String  refresh123""
+ACCESS_TOKEN = "String  \"access_xyz\""
+REFRESH_TOKEN = "String  \"refresh123\""
 def MockGoogleCredential():
-'''public MockGoogleCredential(final Builder builder)
-'''
-pass
+    '''    public MockGoogleCredential(final Builder builder)
+    '''
 def newMockHttpTransportWithSampleTokenResponse():
-'''public static MockHttpTransport newMockHttpTransportWithSampleTokenResponse()
-'''
-pass
+    '''    public static MockHttpTransport newMockHttpTransportWithSampleTokenResponse()
+    '''
 def setTransport():
-'''public Builder setTransport(final HttpTransport transport)
-'''
-pass
+    '''    public Builder setTransport(final HttpTransport transport)
+    '''
 def setClientAuthentication():
-'''public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-'''
-pass
+    '''    public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''
 def setJsonFactory():
-'''public Builder setJsonFactory(final JsonFactory jsonFactory)
-'''
-pass
+    '''    public Builder setJsonFactory(final JsonFactory jsonFactory)
+    '''
 def setClock():
-'''public Builder setClock(final Clock clock)
-'''
-pass
+    '''    public Builder setClock(final Clock clock)
+    '''
 def build():
-'''public MockGoogleCredential build()
-'''
-pass
+    '''    public MockGoogleCredential build()
+    '''
 def intercept():
-'''public void intercept(final HttpRequest request)
-'''
-pass
+    '''    public void intercept(final HttpRequest request)
+    '''

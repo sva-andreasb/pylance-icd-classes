@@ -1,176 +1,132 @@
 def ItemCONTACT():
-'''public ItemCONTACT()
-'''
-pass
+    '''    public ItemCONTACT()
+    '''
 def isAddressValid():
-'''public boolean isAddressValid()
-'''
-pass
+    '''    public boolean isAddressValid()
+    '''
 def makeAdminContact():
-'''public void makeAdminContact()
-'''
-pass
+    '''    public void makeAdminContact()
+    '''
 def isAdminContact():
-'''public boolean isAdminContact()
-'''
-pass
+    '''    public boolean isAdminContact()
+    '''
 def isManufacture():
-'''public boolean isManufacture()
-'''
-pass
+    '''    public boolean isManufacture()
+    '''
 def isTypeContact():
-'''public boolean isTypeContact()
-'''
-pass
+    '''    public boolean isTypeContact()
+    '''
 def makeTypeContact():
-'''public void makeTypeContact()
-'''
-pass
+    '''    public void makeTypeContact()
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def getCompany():
-'''public String getCompany()
-'''
-pass
+    '''    public String getCompany()
+    '''
 def setCompany():
-'''public void setCompany(final String company)
-'''
-pass
+    '''    public void setCompany(final String company)
+    '''
 def getCompanyReference():
-'''public ItemCompany getCompanyReference()
-'''
-pass
+    '''    public ItemCompany getCompanyReference()
+    '''
 def setCompanyReference():
-'''public void setCompanyReference(final ItemCompany companyRef)
-'''
-pass
+    '''    public void setCompanyReference(final ItemCompany companyRef)
+    '''
 def setExternalIdentifier():
-'''public void setExternalIdentifier(final String externalIdentifier)
-'''
-pass
+    '''    public void setExternalIdentifier(final String externalIdentifier)
+    '''
 def setExternalObject():
-'''public void setExternalObject(final String externalObject)
-'''
-pass
+    '''    public void setExternalObject(final String externalObject)
+    '''
 def setExternalSystem():
-'''public void setExternalSystem(final String externalSystem)
-'''
-pass
+    '''    public void setExternalSystem(final String externalSystem)
+    '''
 def setManufacturer():
-'''public void setManufacturer(final boolean manufacture)
-'''
-pass
+    '''    public void setManufacturer(final boolean manufacture)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPhone():
-'''public String getPhone()
-'''
-pass
+    '''    public String getPhone()
+    '''
 def setPhone():
-'''public void setPhone(final String phone)
-'''
-pass
+    '''    public void setPhone(final String phone)
+    '''
 def getDepartment():
-'''public String getDepartment()
-'''
-pass
+    '''    public String getDepartment()
+    '''
 def setDepartment():
-'''public void setDepartment(final String department)
-'''
-pass
+    '''    public void setDepartment(final String department)
+    '''
 def getOrganizationCode():
-'''public String getOrganizationCode()
-'''
-pass
+    '''    public String getOrganizationCode()
+    '''
 def setOrganizationCode():
-'''public void setOrganizationCode(final String organizationCode)
-'''
-pass
+    '''    public void setOrganizationCode(final String organizationCode)
+    '''
 def getGivenName():
-'''public String getGivenName()
-'''
-pass
+    '''    public String getGivenName()
+    '''
 def setGivenName():
-'''public void setGivenName(final String givenName)
-'''
-pass
+    '''    public void setGivenName(final String givenName)
+    '''
 def getFamilyName():
-'''public String getFamilyName()
-'''
-pass
+    '''    public String getFamilyName()
+    '''
 def setFamilyName():
-'''public void setFamilyName(final String familyName)
-'''
-pass
+    '''    public void setFamilyName(final String familyName)
+    '''
 def getStreet():
-'''public String getStreet()
-'''
-pass
+    '''    public String getStreet()
+    '''
 def setStreet():
-'''public void setStreet(final String street)
-'''
-pass
+    '''    public void setStreet(final String street)
+    '''
 def getPostalBox():
-'''public String getPostalBox()
-'''
-pass
+    '''    public String getPostalBox()
+    '''
 def setPostalBox():
-'''public void setPostalBox(final String postalBox)
-'''
-pass
+    '''    public void setPostalBox(final String postalBox)
+    '''
 def getTown():
-'''public String getTown()
-'''
-pass
+    '''    public String getTown()
+    '''
 def setTown():
-'''public void setTown(final String town)
-'''
-pass
+    '''    public void setTown(final String town)
+    '''
 def getStateRegion():
-'''public String getStateRegion()
-'''
-pass
+    '''    public String getStateRegion()
+    '''
 def setStateRegion():
-'''public void setStateRegion(final String stateRegion)
-'''
-pass
+    '''    public void setStateRegion(final String stateRegion)
+    '''
 def getPostalCode():
-'''public String getPostalCode()
-'''
-pass
+    '''    public String getPostalCode()
+    '''
 def setPostalCode():
-'''public void setPostalCode(final String postalCode)
-'''
-pass
+    '''    public void setPostalCode(final String postalCode)
+    '''
 def getCountry():
-'''public String getCountry()
-'''
-pass
+    '''    public String getCountry()
+    '''
 def setCountry():
-'''public void setCountry(final String country)
-'''
-pass
+    '''    public void setCountry(final String country)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

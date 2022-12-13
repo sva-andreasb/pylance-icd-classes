@@ -1,40 +1,30 @@
 def unmodifiableBidiMap():
-'''public static <K, V> BidiMap<K, V> unmodifiableBidiMap(final BidiMap<? extends K, ? extends V> map)
-'''
-pass
+    '''    public static <K, V> BidiMap<K, V> unmodifiableBidiMap(final BidiMap<? extends K, ? extends V> map)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def put():
-'''public V put(final K key, final V value)
-'''
-pass
+    '''    public V put(final K key, final V value)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ? extends V> mapToCopy)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ? extends V> mapToCopy)
+    '''
 def remove():
-'''public V remove(final Object key)
-'''
-pass
+    '''    public V remove(final Object key)
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def values():
-'''public Set<V> values()
-'''
-pass
+    '''    public Set<V> values()
+    '''
 def removeValue():
-'''public K removeValue(final Object value)
-'''
-pass
+    '''    public K removeValue(final Object value)
+    '''
 def mapIterator():
-'''public MapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public MapIterator<K, V> mapIterator()
+    '''
 def inverseBidiMap():
-'''public synchronized BidiMap<V, K> inverseBidiMap()
-'''
-pass
+    '''    public synchronized BidiMap<V, K> inverseBidiMap()
+    '''

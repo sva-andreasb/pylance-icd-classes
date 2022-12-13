@@ -1,12 +1,9 @@
 def queryAllRecs():
-'''public void queryAllRecs()
-'''
-pass
+    '''    public void queryAllRecs()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def fetchTableData():
-'''public int fetchTableData()
-'''
-pass
+    '''    public int fetchTableData()
+    '''

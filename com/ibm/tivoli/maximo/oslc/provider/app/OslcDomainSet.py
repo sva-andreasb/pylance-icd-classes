@@ -1,8 +1,6 @@
 def OslcDomainSet():
-'''public OslcDomainSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OslcDomainSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

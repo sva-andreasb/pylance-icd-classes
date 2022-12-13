@@ -1,24 +1,18 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDefault():
-'''public String getDefault()
-'''
-pass
+    '''    public String getDefault()
+    '''
 def setName():
-'''public void setName(final String nameIn)
-'''
-pass
+    '''    public void setName(final String nameIn)
+    '''
 def setDefault():
-'''public void setDefault(final String def)
-'''
-pass
+    '''    public void setDefault(final String def)
+    '''
 def setDescription():
-'''public void setDescription(final String group, final String key)
-'''
-pass
+    '''    public void setDescription(final String group, final String key)
+    '''
 def getDescription():
-'''public String getDescription(final MboSetRemote remoteObj)
-'''
-pass
+    '''    public String getDescription(final MboSetRemote remoteObj)
+    '''

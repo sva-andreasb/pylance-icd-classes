@@ -1,24 +1,18 @@
 def push():
-'''public static boolean push(final String uuid)
-'''
-pass
+    '''    public static boolean push(final String uuid)
+    '''
 def peek():
-'''public static String peek()
-'''
-pass
+    '''    public static String peek()
+    '''
 def pop():
-'''public static String pop()
-'''
-pass
+    '''    public static String pop()
+    '''
 def isEmpty():
-'''public static boolean isEmpty()
-'''
-pass
+    '''    public static boolean isEmpty()
+    '''
 def exportStack():
-'''public static Stack exportStack()
-'''
-pass
+    '''    public static Stack exportStack()
+    '''
 def importStack():
-'''public static void importStack(Stack stack)
-'''
-pass
+    '''    public static void importStack(Stack stack)
+    '''

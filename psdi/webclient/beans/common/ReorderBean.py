@@ -1,36 +1,27 @@
 def ReorderBean():
-'''public ReorderBean()
-'''
-pass
+    '''    public ReorderBean()
+    '''
 def reorderpad():
-'''public void reorderpad(final boolean direct)
-'''
-pass
+    '''    public void reorderpad(final boolean direct)
+    '''
 def reorderresults():
-'''public void reorderresults(final boolean direct, final boolean async)
-'''
-pass
+    '''    public void reorderresults(final boolean direct, final boolean async)
+    '''
 def reorderpaddirect():
-'''public int reorderpaddirect()
-'''
-pass
+    '''    public int reorderpaddirect()
+    '''
 def reorderresultsdirect():
-'''public int reorderresultsdirect()
-'''
-pass
+    '''    public int reorderresultsdirect()
+    '''
 def reorderpaditem():
-'''public int reorderpaditem()
-'''
-pass
+    '''    public int reorderpaditem()
+    '''
 def reorderresultsitem():
-'''public int reorderresultsitem()
-'''
-pass
+    '''    public int reorderresultsitem()
+    '''
 def getInventorySet():
-'''public MboSetRemote getInventorySet()
-'''
-pass
+    '''    public MboSetRemote getInventorySet()
+    '''
 def getReorderItemsSet():
-'''public MboSetRemote getReorderItemsSet()
-'''
-pass
+    '''    public MboSetRemote getReorderItemsSet()
+    '''

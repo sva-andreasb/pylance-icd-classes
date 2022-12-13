@@ -1,12 +1,9 @@
 def SimilarTicketsBean():
-'''public SimilarTicketsBean()
-'''
-pass
+    '''    public SimilarTicketsBean()
+    '''
 def relate():
-'''public int relate()
-'''
-pass
+    '''    public int relate()
+    '''
 def relateglobal():
-'''public int relateglobal()
-'''
-pass
+    '''    public int relateglobal()
+    '''

@@ -1,44 +1,33 @@
 def BLComp():
-'''public BLComp(final STSession stSession)
-'''
-pass
+    '''    public BLComp(final STSession stSession)
+    '''
 def getBuddyList():
-'''public void getBuddyList()
-'''
-pass
+    '''    public void getBuddyList()
+    '''
 def stringToBuddyList():
-'''public BL stringToBuddyList(final String s)
-'''
-pass
+    '''    public BL stringToBuddyList(final String s)
+    '''
 def buddyListToString():
-'''public String buddyListToString(final BL bl)
-'''
-pass
+    '''    public String buddyListToString(final BL bl)
+    '''
 def setBuddyList():
-'''public void setBuddyList(final BL bl)
-'''
-pass
+    '''    public void setBuddyList(final BL bl)
+    '''
 def deleteBuddyList():
-'''public void deleteBuddyList()
-'''
-pass
+    '''    public void deleteBuddyList()
+    '''
 def addBLServiceListener():
-'''public synchronized void addBLServiceListener(final BLServiceListener obj)
-'''
-pass
+    '''    public synchronized void addBLServiceListener(final BLServiceListener obj)
+    '''
 def removeBLServiceListener():
-'''public synchronized void removeBLServiceListener(final BLServiceListener obj)
-'''
-pass
+    '''    public synchronized void removeBLServiceListener(final BLServiceListener obj)
+    '''
 def setXmlBL():
-'''public void setXmlBL()
-'''
-pass
+    '''    public void setXmlBL()
+    '''
 def setSametimeBL():
-'''public void setSametimeBL()
-'''
-pass
+    '''    public void setSametimeBL()
+    '''
 def isSametimeBL():
-'''public boolean isSametimeBL()
-'''
-pass
+    '''    public boolean isSametimeBL()
+    '''

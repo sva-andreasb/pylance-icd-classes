@@ -1,17 +1,13 @@
-TAG = "String  antlib""
+TAG = "String  \"antlib\""
 def Antlib():
-'''public Antlib()
-'''
-pass
+    '''    public Antlib()
+    '''
 def createAntlib():
-'''public static Antlib createAntlib(final Project project, final URL antlibUrl, final String uri)
-'''
-pass
+    '''    public static Antlib createAntlib(final Project project, final URL antlibUrl, final String uri)
+    '''
 def addTask():
-'''public void addTask(final Task nestedTask)
-'''
-pass
+    '''    public void addTask(final Task nestedTask)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

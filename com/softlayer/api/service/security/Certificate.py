@@ -1,317 +1,238 @@
 def getAssociatedServiceCount():
-'''public Long getAssociatedServiceCount()
-'''
-pass
+    '''    public Long getAssociatedServiceCount()
+    '''
 def setAssociatedServiceCount():
-'''public void setAssociatedServiceCount(final Long associatedServiceCount)
-'''
-pass
+    '''    public void setAssociatedServiceCount(final Long associatedServiceCount)
+    '''
 def getLoadBalancerVirtualIpAddresses():
-'''public List<VirtualIpAddress> getLoadBalancerVirtualIpAddresses()
-'''
-pass
+    '''    public List<VirtualIpAddress> getLoadBalancerVirtualIpAddresses()
+    '''
 def getCertificate():
-'''public String getCertificate()
-'''
-pass
+    '''    public String getCertificate()
+    '''
 def setCertificate():
-'''public void setCertificate(final String certificate)
-'''
-pass
+    '''    public void setCertificate(final String certificate)
+    '''
 def isCertificateSpecified():
-'''public boolean isCertificateSpecified()
-'''
-pass
+    '''    public boolean isCertificateSpecified()
+    '''
 def unsetCertificate():
-'''public void unsetCertificate()
-'''
-pass
+    '''    public void unsetCertificate()
+    '''
 def getCertificateSigningRequest():
-'''public String getCertificateSigningRequest()
-'''
-pass
+    '''    public String getCertificateSigningRequest()
+    '''
 def setCertificateSigningRequest():
-'''public void setCertificateSigningRequest(final String certificateSigningRequest)
-'''
-pass
+    '''    public void setCertificateSigningRequest(final String certificateSigningRequest)
+    '''
 def isCertificateSigningRequestSpecified():
-'''public boolean isCertificateSigningRequestSpecified()
-'''
-pass
+    '''    public boolean isCertificateSigningRequestSpecified()
+    '''
 def unsetCertificateSigningRequest():
-'''public void unsetCertificateSigningRequest()
-'''
-pass
+    '''    public void unsetCertificateSigningRequest()
+    '''
 def getCommonName():
-'''public String getCommonName()
-'''
-pass
+    '''    public String getCommonName()
+    '''
 def setCommonName():
-'''public void setCommonName(final String commonName)
-'''
-pass
+    '''    public void setCommonName(final String commonName)
+    '''
 def isCommonNameSpecified():
-'''public boolean isCommonNameSpecified()
-'''
-pass
+    '''    public boolean isCommonNameSpecified()
+    '''
 def unsetCommonName():
-'''public void unsetCommonName()
-'''
-pass
+    '''    public void unsetCommonName()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getIntermediateCertificate():
-'''public String getIntermediateCertificate()
-'''
-pass
+    '''    public String getIntermediateCertificate()
+    '''
 def setIntermediateCertificate():
-'''public void setIntermediateCertificate(final String intermediateCertificate)
-'''
-pass
+    '''    public void setIntermediateCertificate(final String intermediateCertificate)
+    '''
 def isIntermediateCertificateSpecified():
-'''public boolean isIntermediateCertificateSpecified()
-'''
-pass
+    '''    public boolean isIntermediateCertificateSpecified()
+    '''
 def unsetIntermediateCertificate():
-'''public void unsetIntermediateCertificate()
-'''
-pass
+    '''    public void unsetIntermediateCertificate()
+    '''
 def getKeySize():
-'''public Long getKeySize()
-'''
-pass
+    '''    public Long getKeySize()
+    '''
 def setKeySize():
-'''public void setKeySize(final Long keySize)
-'''
-pass
+    '''    public void setKeySize(final Long keySize)
+    '''
 def isKeySizeSpecified():
-'''public boolean isKeySizeSpecified()
-'''
-pass
+    '''    public boolean isKeySizeSpecified()
+    '''
 def unsetKeySize():
-'''public void unsetKeySize()
-'''
-pass
+    '''    public void unsetKeySize()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def isNotesSpecified():
-'''public boolean isNotesSpecified()
-'''
-pass
+    '''    public boolean isNotesSpecified()
+    '''
 def unsetNotes():
-'''public void unsetNotes()
-'''
-pass
+    '''    public void unsetNotes()
+    '''
 def getOrganizationName():
-'''public String getOrganizationName()
-'''
-pass
+    '''    public String getOrganizationName()
+    '''
 def setOrganizationName():
-'''public void setOrganizationName(final String organizationName)
-'''
-pass
+    '''    public void setOrganizationName(final String organizationName)
+    '''
 def isOrganizationNameSpecified():
-'''public boolean isOrganizationNameSpecified()
-'''
-pass
+    '''    public boolean isOrganizationNameSpecified()
+    '''
 def unsetOrganizationName():
-'''public void unsetOrganizationName()
-'''
-pass
+    '''    public void unsetOrganizationName()
+    '''
 def getPrivateKey():
-'''public String getPrivateKey()
-'''
-pass
+    '''    public String getPrivateKey()
+    '''
 def setPrivateKey():
-'''public void setPrivateKey(final String privateKey)
-'''
-pass
+    '''    public void setPrivateKey(final String privateKey)
+    '''
 def isPrivateKeySpecified():
-'''public boolean isPrivateKeySpecified()
-'''
-pass
+    '''    public boolean isPrivateKeySpecified()
+    '''
 def unsetPrivateKey():
-'''public void unsetPrivateKey()
-'''
-pass
+    '''    public void unsetPrivateKey()
+    '''
 def getValidityBegin():
-'''public GregorianCalendar getValidityBegin()
-'''
-pass
+    '''    public GregorianCalendar getValidityBegin()
+    '''
 def setValidityBegin():
-'''public void setValidityBegin(final GregorianCalendar validityBegin)
-'''
-pass
+    '''    public void setValidityBegin(final GregorianCalendar validityBegin)
+    '''
 def isValidityBeginSpecified():
-'''public boolean isValidityBeginSpecified()
-'''
-pass
+    '''    public boolean isValidityBeginSpecified()
+    '''
 def unsetValidityBegin():
-'''public void unsetValidityBegin()
-'''
-pass
+    '''    public void unsetValidityBegin()
+    '''
 def getValidityDays():
-'''public Long getValidityDays()
-'''
-pass
+    '''    public Long getValidityDays()
+    '''
 def setValidityDays():
-'''public void setValidityDays(final Long validityDays)
-'''
-pass
+    '''    public void setValidityDays(final Long validityDays)
+    '''
 def isValidityDaysSpecified():
-'''public boolean isValidityDaysSpecified()
-'''
-pass
+    '''    public boolean isValidityDaysSpecified()
+    '''
 def unsetValidityDays():
-'''public void unsetValidityDays()
-'''
-pass
+    '''    public void unsetValidityDays()
+    '''
 def getValidityEnd():
-'''public GregorianCalendar getValidityEnd()
-'''
-pass
+    '''    public GregorianCalendar getValidityEnd()
+    '''
 def setValidityEnd():
-'''public void setValidityEnd(final GregorianCalendar validityEnd)
-'''
-pass
+    '''    public void setValidityEnd(final GregorianCalendar validityEnd)
+    '''
 def isValidityEndSpecified():
-'''public boolean isValidityEndSpecified()
-'''
-pass
+    '''    public boolean isValidityEndSpecified()
+    '''
 def unsetValidityEnd():
-'''public void unsetValidityEnd()
-'''
-pass
+    '''    public void unsetValidityEnd()
+    '''
 def getLoadBalancerVirtualIpAddressCount():
-'''public Long getLoadBalancerVirtualIpAddressCount()
-'''
-pass
+    '''    public Long getLoadBalancerVirtualIpAddressCount()
+    '''
 def setLoadBalancerVirtualIpAddressCount():
-'''public void setLoadBalancerVirtualIpAddressCount(final Long loadBalancerVirtualIpAddressCount)
-'''
-pass
+    '''    public void setLoadBalancerVirtualIpAddressCount(final Long loadBalancerVirtualIpAddressCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def associatedServiceCount():
-'''public Mask associatedServiceCount()
-'''
-pass
+    '''    public Mask associatedServiceCount()
+    '''
 def certificate():
-'''public Mask certificate()
-'''
-pass
+    '''    public Mask certificate()
+    '''
 def certificateSigningRequest():
-'''public Mask certificateSigningRequest()
-'''
-pass
+    '''    public Mask certificateSigningRequest()
+    '''
 def commonName():
-'''public Mask commonName()
-'''
-pass
+    '''    public Mask commonName()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def intermediateCertificate():
-'''public Mask intermediateCertificate()
-'''
-pass
+    '''    public Mask intermediateCertificate()
+    '''
 def keySize():
-'''public Mask keySize()
-'''
-pass
+    '''    public Mask keySize()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def notes():
-'''public Mask notes()
-'''
-pass
+    '''    public Mask notes()
+    '''
 def organizationName():
-'''public Mask organizationName()
-'''
-pass
+    '''    public Mask organizationName()
+    '''
 def privateKey():
-'''public Mask privateKey()
-'''
-pass
+    '''    public Mask privateKey()
+    '''
 def validityBegin():
-'''public Mask validityBegin()
-'''
-pass
+    '''    public Mask validityBegin()
+    '''
 def validityDays():
-'''public Mask validityDays()
-'''
-pass
+    '''    public Mask validityDays()
+    '''
 def validityEnd():
-'''public Mask validityEnd()
-'''
-pass
+    '''    public Mask validityEnd()
+    '''
 def loadBalancerVirtualIpAddressCount():
-'''public Mask loadBalancerVirtualIpAddressCount()
-'''
-pass
+    '''    public Mask loadBalancerVirtualIpAddressCount()
+    '''

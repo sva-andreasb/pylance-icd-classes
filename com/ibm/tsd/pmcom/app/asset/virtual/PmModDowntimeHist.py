@@ -1,36 +1,27 @@
 def PmModDowntimeHist():
-'''public PmModDowntimeHist(final MboSet ms)
-'''
-pass
+    '''    public PmModDowntimeHist(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setAssetMbo():
-'''public void setAssetMbo(final AssetRemote asset)
-'''
-pass
+    '''    public void setAssetMbo(final AssetRemote asset)
+    '''
 def getAssetMbo():
-'''public AssetRemote getAssetMbo()
-'''
-pass
+    '''    public AssetRemote getAssetMbo()
+    '''
 def setStartAssetStatus():
-'''public void setStartAssetStatus(final MboRemote assetStatus)
-'''
-pass
+    '''    public void setStartAssetStatus(final MboRemote assetStatus)
+    '''
 def setEndAssetStatus():
-'''public void setEndAssetStatus(final MboRemote assetStatus)
-'''
-pass
+    '''    public void setEndAssetStatus(final MboRemote assetStatus)
+    '''
 def makeStartAssetStatusReadonly():
-'''public void makeStartAssetStatusReadonly()
-'''
-pass
+    '''    public void makeStartAssetStatusReadonly()
+    '''
 def makeEndAssetStatusReadonly():
-'''public void makeEndAssetStatusReadonly()
-'''
-pass
+    '''    public void makeEndAssetStatusReadonly()
+    '''
 def writeChangesToAssetStatus():
-'''public void writeChangesToAssetStatus()
-'''
-pass
+    '''    public void writeChangesToAssetStatus()
+    '''

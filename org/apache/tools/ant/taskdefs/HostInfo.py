@@ -1,16 +1,12 @@
 def HostInfo():
-'''public HostInfo()
-'''
-pass
+    '''    public HostInfo()
+    '''
 def setPrefix():
-'''public void setPrefix(final String aPrefix)
-'''
-pass
+    '''    public void setPrefix(final String aPrefix)
+    '''
 def setHost():
-'''public void setHost(final String aHost)
-'''
-pass
+    '''    public void setHost(final String aHost)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

@@ -1,9 +1,7 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Output():
-'''public Output()
-public Output(final T value)
-'''
-pass
+    '''    public Output()
+    public Output(final T value)
+    '''

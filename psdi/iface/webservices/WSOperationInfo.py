@@ -1,32 +1,24 @@
 def getOperation():
-'''public String getOperation()
-'''
-pass
+    '''    public String getOperation()
+    '''
 def setOperation():
-'''public void setOperation(final String c)
-'''
-pass
+    '''    public void setOperation(final String c)
+    '''
 def getMessageType():
-'''public String getMessageType()
-'''
-pass
+    '''    public String getMessageType()
+    '''
 def setMessageType():
-'''public void setMessageType(final String mt)
-'''
-pass
+    '''    public void setMessageType(final String mt)
+    '''
 def getInput():
-'''public String getInput()
-'''
-pass
+    '''    public String getInput()
+    '''
 def setInput():
-'''public void setInput(final String e)
-'''
-pass
+    '''    public void setInput(final String e)
+    '''
 def getOutput():
-'''public String getOutput()
-'''
-pass
+    '''    public String getOutput()
+    '''
 def setOutput():
-'''public void setOutput(final String e)
-'''
-pass
+    '''    public void setOutput(final String e)
+    '''

@@ -1,8 +1,6 @@
 def set():
-'''public ObjectMatcher set(final ObjectMatcher toInverse)
-'''
-pass
+    '''    public ObjectMatcher set(final ObjectMatcher toInverse)
+    '''
 def matches():
-'''public boolean matches(final Object value)
-'''
-pass
+    '''    public boolean matches(final Object value)
+    '''

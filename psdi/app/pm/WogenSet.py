@@ -1,16 +1,12 @@
 def WogenSet():
-'''public WogenSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WogenSet(final MboServerInterface ms)
+    '''
 def setupWogen():
-'''public void setupWogen(final Wogen mbo)
-'''
-pass
+    '''    public void setupWogen(final Wogen mbo)
+    '''
 def giveRun():
-'''public void giveRun()
-'''
-pass
+    '''    public void giveRun()
+    '''
 def dispose():
-'''public void dispose()
-'''
-pass
+    '''    public void dispose()
+    '''

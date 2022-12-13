@@ -1,16 +1,12 @@
 def FormatterSimpleMySQL():
-'''public FormatterSimpleMySQL(final SDBConnection connection, final MySQLEngineType tableType)
-'''
-pass
+    '''    public FormatterSimpleMySQL(final SDBConnection connection, final MySQLEngineType tableType)
+    '''
 def truncate():
-'''public void truncate()
-'''
-pass
+    '''    public void truncate()
+    '''
 def format():
-'''public void format()
-'''
-pass
+    '''    public void format()
+    '''
 def dropIndexes():
-'''public void dropIndexes()
-'''
-pass
+    '''    public void dropIndexes()
+    '''

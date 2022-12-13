@@ -1,4 +1,3 @@
 def ConnectionClosedException():
-'''public ConnectionClosedException(final String message)
-'''
-pass
+    '''    public ConnectionClosedException(final String message)
+    '''

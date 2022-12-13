@@ -1,8 +1,6 @@
 def NumericDomain():
-'''public NumericDomain(final MboValue mbv)
-'''
-pass
+    '''    public NumericDomain(final MboValue mbv)
+    '''
 def chooseActualDomainValues():
-'''public void chooseActualDomainValues()
-'''
-pass
+    '''    public void chooseActualDomainValues()
+    '''

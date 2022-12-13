@@ -1,136 +1,102 @@
 def getDiskImage():
-'''public Image getDiskImage()
-'''
-pass
+    '''    public Image getDiskImage()
+    '''
 def setDiskImage():
-'''public void setDiskImage(final Image diskImage)
-'''
-pass
+    '''    public void setDiskImage(final Image diskImage)
+    '''
 def getGroup():
-'''public Group getGroup()
-'''
-pass
+    '''    public Group getGroup()
+    '''
 def setGroup():
-'''public void setGroup(final Group group)
-'''
-pass
+    '''    public void setGroup(final Group group)
+    '''
 def getDevice():
-'''public String getDevice()
-'''
-pass
+    '''    public String getDevice()
+    '''
 def setDevice():
-'''public void setDevice(final String device)
-'''
-pass
+    '''    public void setDevice(final String device)
+    '''
 def isDeviceSpecified():
-'''public boolean isDeviceSpecified()
-'''
-pass
+    '''    public boolean isDeviceSpecified()
+    '''
 def unsetDevice():
-'''public void unsetDevice()
-'''
-pass
+    '''    public void unsetDevice()
+    '''
 def getDiskImageId():
-'''public Long getDiskImageId()
-'''
-pass
+    '''    public Long getDiskImageId()
+    '''
 def setDiskImageId():
-'''public void setDiskImageId(final Long diskImageId)
-'''
-pass
+    '''    public void setDiskImageId(final Long diskImageId)
+    '''
 def isDiskImageIdSpecified():
-'''public boolean isDiskImageIdSpecified()
-'''
-pass
+    '''    public boolean isDiskImageIdSpecified()
+    '''
 def unsetDiskImageId():
-'''public void unsetDiskImageId()
-'''
-pass
+    '''    public void unsetDiskImageId()
+    '''
 def getDiskSpace():
-'''public BigDecimal getDiskSpace()
-'''
-pass
+    '''    public BigDecimal getDiskSpace()
+    '''
 def setDiskSpace():
-'''public void setDiskSpace(final BigDecimal diskSpace)
-'''
-pass
+    '''    public void setDiskSpace(final BigDecimal diskSpace)
+    '''
 def isDiskSpaceSpecified():
-'''public boolean isDiskSpaceSpecified()
-'''
-pass
+    '''    public boolean isDiskSpaceSpecified()
+    '''
 def unsetDiskSpace():
-'''public void unsetDiskSpace()
-'''
-pass
+    '''    public void unsetDiskSpace()
+    '''
 def getGroupId():
-'''public Long getGroupId()
-'''
-pass
+    '''    public Long getGroupId()
+    '''
 def setGroupId():
-'''public void setGroupId(final Long groupId)
-'''
-pass
+    '''    public void setGroupId(final Long groupId)
+    '''
 def isGroupIdSpecified():
-'''public boolean isGroupIdSpecified()
-'''
-pass
+    '''    public boolean isGroupIdSpecified()
+    '''
 def unsetGroupId():
-'''public void unsetGroupId()
-'''
-pass
+    '''    public void unsetGroupId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getUnits():
-'''public String getUnits()
-'''
-pass
+    '''    public String getUnits()
+    '''
 def setUnits():
-'''public void setUnits(final String units)
-'''
-pass
+    '''    public void setUnits(final String units)
+    '''
 def isUnitsSpecified():
-'''public boolean isUnitsSpecified()
-'''
-pass
+    '''    public boolean isUnitsSpecified()
+    '''
 def unsetUnits():
-'''public void unsetUnits()
-'''
-pass
+    '''    public void unsetUnits()
+    '''
 def device():
-'''public Mask device()
-'''
-pass
+    '''    public Mask device()
+    '''
 def diskImageId():
-'''public Mask diskImageId()
-'''
-pass
+    '''    public Mask diskImageId()
+    '''
 def diskSpace():
-'''public Mask diskSpace()
-'''
-pass
+    '''    public Mask diskSpace()
+    '''
 def groupId():
-'''public Mask groupId()
-'''
-pass
+    '''    public Mask groupId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def units():
-'''public Mask units()
-'''
-pass
+    '''    public Mask units()
+    '''

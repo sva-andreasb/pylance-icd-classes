@@ -1,48 +1,36 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setModelName():
-'''public void setModelName(final String name)
-'''
-pass
+    '''    public void setModelName(final String name)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final int version)
-'''
-pass
+    '''    public void setVersion(final int version)
+    '''
 def getModelType():
-'''public ModelType getModelType()
-'''
-pass
+    '''    public ModelType getModelType()
+    '''
 def setModelType():
-'''public void setModelType(final ModelType modelType)
-'''
-pass
+    '''    public void setModelType(final ModelType modelType)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def getProjectId():
-'''public ObjectId getProjectId()
-'''
-pass
+    '''    public ObjectId getProjectId()
+    '''
 def setProjectId():
-'''public void setProjectId(final ObjectId projectId)
-'''
-pass
+    '''    public void setProjectId(final ObjectId projectId)
+    '''

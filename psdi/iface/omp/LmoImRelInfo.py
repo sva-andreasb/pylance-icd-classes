@@ -1,36 +1,27 @@
 def LmoImRelInfo():
-'''public LmoImRelInfo(final String lmoName, final String lmoNamespace, final String description, final String sourceMbo, final String responseMbo, final String invocPattern, final String imName, final String imVersion)
-'''
-pass
+    '''    public LmoImRelInfo(final String lmoName, final String lmoNamespace, final String description, final String sourceMbo, final String responseMbo, final String invocPattern, final String imName, final String imVersion)
+    '''
 def getLmoName():
-'''public String getLmoName()
-'''
-pass
+    '''    public String getLmoName()
+    '''
 def getLmoNamespace():
-'''public String getLmoNamespace()
-'''
-pass
+    '''    public String getLmoNamespace()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getSourceMbo():
-'''public String getSourceMbo()
-'''
-pass
+    '''    public String getSourceMbo()
+    '''
 def getResponseMbo():
-'''public String getResponseMbo()
-'''
-pass
+    '''    public String getResponseMbo()
+    '''
 def getInvocPattern():
-'''public String getInvocPattern()
-'''
-pass
+    '''    public String getInvocPattern()
+    '''
 def getImName():
-'''public String getImName()
-'''
-pass
+    '''    public String getImName()
+    '''
 def getImVersion():
-'''public String getImVersion()
-'''
-pass
+    '''    public String getImVersion()
+    '''

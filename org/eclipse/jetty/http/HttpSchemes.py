@@ -1,2 +1,2 @@
-HTTP = "String  http""
-HTTPS = "String  https""
+HTTP = "String  \"http\""
+HTTPS = "String  \"https\""

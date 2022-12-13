@@ -1,12 +1,9 @@
 def FldWOUserCustAssetnum():
-'''public FldWOUserCustAssetnum(final MboValue mbv)
-'''
-pass
+    '''    public FldWOUserCustAssetnum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

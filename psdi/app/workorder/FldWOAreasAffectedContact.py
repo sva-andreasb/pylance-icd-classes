@@ -1,8 +1,6 @@
 def FldWOAreasAffectedContact():
-'''public FldWOAreasAffectedContact(final MboValue mbv)
-'''
-pass
+    '''    public FldWOAreasAffectedContact(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

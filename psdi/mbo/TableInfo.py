@@ -1,4 +1,4 @@
-CACHE_NAME = "String  BMX.MAXIMODD.TI""
+CACHE_NAME = "String  \"BMX.MAXIMODD.TI\""
 MT_TENANT_TABLE = "int  0"
 MT_DELTA_TABLE = "int  1"
 MT_SYSTEM_TABLE = "int  2"
@@ -7,186 +7,142 @@ MT_LANDLORDONLY_TABLE = "int  4"
 MT_TEMPLATE2_TABLE = "int  6"
 MT_DELTA2_TABLE = "int  5"
 def getEAuditTableName():
-'''public String getEAuditTableName()
-'''
-pass
+    '''    public String getEAuditTableName()
+    '''
 def isUsedForAuditing():
-'''public boolean isUsedForAuditing()
-'''
-pass
+    '''    public boolean isUsedForAuditing()
+    '''
 def isUsedForMLang():
-'''public boolean isUsedForMLang()
-'''
-pass
+    '''    public boolean isUsedForMLang()
+    '''
 def isRowStampColumnExists():
-'''public boolean isRowStampColumnExists()
-'''
-pass
+    '''    public boolean isRowStampColumnExists()
+    '''
 def getTableName():
-'''public String getTableName()
-public String getTableName(final String entityColumnName)
-'''
-pass
+    '''    public String getTableName()
+    public String getTableName(final String entityColumnName)
+    '''
 def getExtTableName():
-'''public String getExtTableName()
-'''
-pass
+    '''    public String getExtTableName()
+    '''
 def isTextSearchEnabled():
-'''public boolean isTextSearchEnabled()
-'''
-pass
+    '''    public boolean isTextSearchEnabled()
+    '''
 def getTables():
-'''public Iterator getTables()
-'''
-pass
+    '''    public Iterator getTables()
+    '''
 def getTableCount():
-'''public int getTableCount()
-'''
-pass
+    '''    public int getTableCount()
+    '''
 def getTablesInHierarchyOrder():
-'''public Iterator getTablesInHierarchyOrder()
-'''
-pass
+    '''    public Iterator getTablesInHierarchyOrder()
+    '''
 def getTablesInReverseHierarchyOrder():
-'''public Iterator getTablesInReverseHierarchyOrder()
-'''
-pass
+    '''    public Iterator getTablesInReverseHierarchyOrder()
+    '''
 def getColumnName():
-'''public String getColumnName(final String entityColumnName)
-public String getColumnName(final String entityColumnName, final String tableName)
-'''
-pass
+    '''    public String getColumnName(final String entityColumnName)
+    public String getColumnName(final String entityColumnName, final String tableName)
+    '''
 def getEntityColumnName():
-'''public String getEntityColumnName(final String tableColumnName, final String tableName)
-'''
-pass
+    '''    public String getEntityColumnName(final String tableColumnName, final String tableName)
+    '''
 def getRowStampInfo():
-'''public RowStampInfo getRowStampInfo()
-'''
-pass
+    '''    public RowStampInfo getRowStampInfo()
+    '''
 def getTenantIdInfo():
-'''public TenantIdInfo getTenantIdInfo()
-'''
-pass
+    '''    public TenantIdInfo getTenantIdInfo()
+    '''
 def hasRowStamp():
-'''public boolean hasRowStamp()
-'''
-pass
+    '''    public boolean hasRowStamp()
+    '''
 def getAuditTable():
-'''public String getAuditTable(final String tableName)
-'''
-pass
+    '''    public String getAuditTable(final String tableName)
+    '''
 def getLangTBName():
-'''public String getLangTBName()
-'''
-pass
+    '''    public String getLangTBName()
+    '''
 def addMLInUseColumn():
-'''public void addMLInUseColumn()
-'''
-pass
+    '''    public void addMLInUseColumn()
+    '''
 def removeMLInUseColumn():
-'''public void removeMLInUseColumn()
-'''
-pass
+    '''    public void removeMLInUseColumn()
+    '''
 def isMLInUse():
-'''public boolean isMLInUse()
-'''
-pass
+    '''    public boolean isMLInUse()
+    '''
 def getUniqueColumnName():
-'''public String getUniqueColumnName()
-'''
-pass
+    '''    public String getUniqueColumnName()
+    '''
 def getContentAttrName():
-'''public String getContentAttrName()
-'''
-pass
+    '''    public String getContentAttrName()
+    '''
 def getAltIxName():
-'''public String getAltIxName()
-'''
-pass
+    '''    public String getAltIxName()
+    '''
 def getLangColumnName():
-'''public String getLangColumnName()
-public String getLangColumnName(final String tableName)
-'''
-pass
+    '''    public String getLangColumnName()
+    public String getLangColumnName(final String tableName)
+    '''
 def getStorageType():
-'''public int getStorageType()
-'''
-pass
+    '''    public int getStorageType()
+    '''
 def getMLParent():
-'''public String getMLParent()
-'''
-pass
+    '''    public String getMLParent()
+    '''
 def hasImplicitTenantId():
-'''public boolean hasImplicitTenantId(final String tableName)
-public boolean hasImplicitTenantId()
-'''
-pass
+    '''    public boolean hasImplicitTenantId(final String tableName)
+    public boolean hasImplicitTenantId()
+    '''
 def addColumnInfo():
-'''public void addColumnInfo(final TableColumnInfo columnInfo)
-'''
-pass
+    '''    public void addColumnInfo(final TableColumnInfo columnInfo)
+    '''
 def getColumnInfo():
-'''public TableColumnInfo getColumnInfo(final String columnName)
-'''
-pass
+    '''    public TableColumnInfo getColumnInfo(final String columnName)
+    '''
 def getKeyColumns():
-'''public Iterator getKeyColumns()
-public Iterator getKeyColumns(final String tableName)
-'''
-pass
+    '''    public Iterator getKeyColumns()
+    public Iterator getKeyColumns(final String tableName)
+    '''
 def getColumns():
-'''public Iterator getColumns()
-public Iterator getColumns(final String tableName)
-'''
-pass
+    '''    public Iterator getColumns()
+    public Iterator getColumns(final String tableName)
+    '''
 def getEntityColumns():
-'''public Iterator getEntityColumns()
-'''
-pass
+    '''    public Iterator getEntityColumns()
+    '''
 def getTypedReference():
-'''public TableInfoBase getTypedReference()
-'''
-pass
+    '''    public TableInfoBase getTypedReference()
+    '''
 def getTypedReferenceForSet():
-'''public TableInfoBase getTypedReferenceForSet()
-'''
-pass
+    '''    public TableInfoBase getTypedReferenceForSet()
+    '''
 def isTenantOwned():
-'''public boolean isTenantOwned()
-'''
-pass
+    '''    public boolean isTenantOwned()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''
 def compare():
-'''public int compare(final Object o1, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o1, final Object o2)
+    '''
 def TableIterator():
-'''public TableIterator(final Iterator iterator)
-'''
-pass
+    '''    public TableIterator(final Iterator iterator)
+    '''
 def remove():
-'''public void remove()
-public void remove()
-public void remove()
-'''
-pass
+    '''    public void remove()
+    public void remove()
+    public void remove()
+    '''
 def ColumnIterator():
-'''public ColumnIterator(final Iterator iterator)
-'''
-pass
+    '''    public ColumnIterator(final Iterator iterator)
+    '''
 def KeyColumnIterator():
-'''public KeyColumnIterator(final Iterator iterator)
-'''
-pass
+    '''    public KeyColumnIterator(final Iterator iterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

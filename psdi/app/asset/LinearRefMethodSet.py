@@ -1,4 +1,3 @@
 def LinearRefMethodSet():
-'''public LinearRefMethodSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LinearRefMethodSet(final MboServerInterface ms)
+    '''

@@ -1,13 +1,10 @@
 def getTargetFlavor():
-'''public ImageFlavor getTargetFlavor()
-'''
-pass
+    '''    public ImageFlavor getTargetFlavor()
+    '''
 def loadImage():
-'''public Image loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)
-'''
-pass
+    '''    public Image loadImage(final ImageInfo info, final Map hints, final ImageSessionContext session)
+    '''
 def read():
-'''public int read(final byte[] b, final int off, final int len)
-public int read()
-'''
-pass
+    '''    public int read(final byte[] b, final int off, final int len)
+    public int read()
+    '''

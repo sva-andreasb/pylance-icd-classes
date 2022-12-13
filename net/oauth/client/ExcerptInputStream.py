@@ -1,8 +1,6 @@
 def ExcerptInputStream():
-'''public ExcerptInputStream(final InputStream in)
-'''
-pass
+    '''    public ExcerptInputStream(final InputStream in)
+    '''
 def getExcerpt():
-'''public byte[] getExcerpt()
-'''
-pass
+    '''    public byte[] getExcerpt()
+    '''

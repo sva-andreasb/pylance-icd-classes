@@ -1,63 +1,48 @@
 def clear():
-'''public static void clear()
-'''
-pass
+    '''    public static void clear()
+    '''
 def exists():
-'''public static boolean exists(final String key)
-'''
-pass
+    '''    public static boolean exists(final String key)
+    '''
 def getMarker():
-'''public static Marker getMarker(final String name)
-public static Marker getMarker(final String name, final String parent)
-public static Marker getMarker(final String name, final Marker parent)
-'''
-pass
+    '''    public static Marker getMarker(final String name)
+    public static Marker getMarker(final String name, final String parent)
+    public static Marker getMarker(final String name, final Marker parent)
+    '''
 def Log4jMarker():
-'''public Log4jMarker(final String name)
-'''
-pass
+    '''    public Log4jMarker(final String name)
+    '''
 def addParents():
-'''public synchronized Marker addParents(final Marker... parentMarkers)
-'''
-pass
+    '''    public synchronized Marker addParents(final Marker... parentMarkers)
+    '''
 def remove():
-'''public synchronized boolean remove(final Marker parent)
-'''
-pass
+    '''    public synchronized boolean remove(final Marker parent)
+    '''
 def setParents():
-'''public Marker setParents(final Marker... markers)
-'''
-pass
+    '''    public Marker setParents(final Marker... markers)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getParents():
-'''public Marker[] getParents()
-'''
-pass
+    '''    public Marker[] getParents()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def isInstanceOf():
-'''public boolean isInstanceOf(final Marker marker)
-public boolean isInstanceOf(final String markerName)
-'''
-pass
+    '''    public boolean isInstanceOf(final Marker marker)
+    public boolean isInstanceOf(final String markerName)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder sb)
-'''
-pass
+    '''    public void formatTo(final StringBuilder sb)
+    '''

@@ -1,45 +1,34 @@
 def LocalVariableTag():
-'''public LocalVariableTag(final String signature, final String name, final int slot, final int startPosition)
-public LocalVariableTag(final Type type, final String signature, final String name, final int slot, final int startPosition)
-'''
-pass
+    '''    public LocalVariableTag(final String signature, final String name, final int slot, final int startPosition)
+    public LocalVariableTag(final Type type, final String signature, final String name, final int slot, final int startPosition)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSlot():
-'''public int getSlot()
-'''
-pass
+    '''    public int getSlot()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getRealType():
-'''public Type getRealType()
-'''
-pass
+    '''    public Type getRealType()
+    '''
 def updateSlot():
-'''public void updateSlot(final int newSlot)
-'''
-pass
+    '''    public void updateSlot(final int newSlot)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isRemapped():
-'''public boolean isRemapped()
-'''
-pass
+    '''    public boolean isRemapped()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

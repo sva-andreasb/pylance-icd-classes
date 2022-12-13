@@ -1,16 +1,12 @@
 def ItemConditionSet():
-'''public ItemConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ItemConditionSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def OneHundrePercentFound():
-'''public boolean OneHundrePercentFound(final MboRemote currentMbo)
-'''
-pass
+    '''    public boolean OneHundrePercentFound(final MboRemote currentMbo)
+    '''
 def OneAndOnlyOne100PercentRate():
-'''public int OneAndOnlyOne100PercentRate()
-'''
-pass
+    '''    public int OneAndOnlyOne100PercentRate()
+    '''

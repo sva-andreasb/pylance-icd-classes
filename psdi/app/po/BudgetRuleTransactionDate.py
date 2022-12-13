@@ -1,24 +1,18 @@
 def BudgetRuleTransactionDate():
-'''public BudgetRuleTransactionDate(final MboSet ms)
-'''
-pass
+    '''    public BudgetRuleTransactionDate(final MboSet ms)
+    '''
 def getRuleNumber():
-'''public String getRuleNumber()
-'''
-pass
+    '''    public String getRuleNumber()
+    '''
 def getSequence():
-'''public int getSequence()
-'''
-pass
+    '''    public int getSequence()
+    '''
 def getOrgID():
-'''public String getOrgID()
-'''
-pass
+    '''    public String getOrgID()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

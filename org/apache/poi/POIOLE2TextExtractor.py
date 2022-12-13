@@ -1,24 +1,18 @@
 def POIOLE2TextExtractor():
-'''public POIOLE2TextExtractor(final POIDocument document)
-'''
-pass
+    '''    public POIOLE2TextExtractor(final POIDocument document)
+    '''
 def getDocSummaryInformation():
-'''public DocumentSummaryInformation getDocSummaryInformation()
-'''
-pass
+    '''    public DocumentSummaryInformation getDocSummaryInformation()
+    '''
 def getSummaryInformation():
-'''public SummaryInformation getSummaryInformation()
-'''
-pass
+    '''    public SummaryInformation getSummaryInformation()
+    '''
 def getMetadataTextExtractor():
-'''public POITextExtractor getMetadataTextExtractor()
-'''
-pass
+    '''    public POITextExtractor getMetadataTextExtractor()
+    '''
 def getRoot():
-'''public DirectoryEntry getRoot()
-'''
-pass
+    '''    public DirectoryEntry getRoot()
+    '''
 def getDocument():
-'''public POIDocument getDocument()
-'''
-pass
+    '''    public POIDocument getDocument()
+    '''

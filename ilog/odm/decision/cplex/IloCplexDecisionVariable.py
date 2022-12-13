@@ -1,42 +1,32 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getExpr():
-'''public IloNumExpr getExpr()
-'''
-pass
+    '''    public IloNumExpr getExpr()
+    '''
 def getValue():
-'''public Double getValue()
-'''
-pass
+    '''    public Double getValue()
+    '''
 def getExplanation():
-'''public IloMessage getExplanation()
-'''
-pass
+    '''    public IloMessage getExplanation()
+    '''
 def setExplanation():
-'''public void setExplanation(final IloMessage message)
-public void setExplanation(final String text)
-'''
-pass
+    '''    public void setExplanation(final IloMessage message)
+    public void setExplanation(final String text)
+    '''
 def setValue():
-'''public void setValue(final double value)
-'''
-pass
+    '''    public void setValue(final double value)
+    '''
 def addEpsilon():
-'''public void addEpsilon(final double value)
-'''
-pass
+    '''    public void addEpsilon(final double value)
+    '''
 def addChild():
-'''public void addChild(final IloBreakdownVariable variable)
-'''
-pass
+    '''    public void addChild(final IloBreakdownVariable variable)
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def getChild():
-'''public IloBreakdownVariable getChild(final String key)
-'''
-pass
+    '''    public IloBreakdownVariable getChild(final String key)
+    '''
 def children():
-'''public Iterator<IloBreakdownVariable> children()
-'''
-pass
+    '''    public Iterator<IloBreakdownVariable> children()
+    '''

@@ -1,16 +1,12 @@
 def getGroupOrder():
-'''public int getGroupOrder()
-'''
-pass
+    '''    public int getGroupOrder()
+    '''
 def getMosOrder():
-'''public int getMosOrder()
-'''
-pass
+    '''    public int getMosOrder()
+    '''
 def setgroupOrder():
-'''public void setgroupOrder(final int groupOrderParam)
-'''
-pass
+    '''    public void setgroupOrder(final int groupOrderParam)
+    '''
 def setmosOrder():
-'''public void setmosOrder(final int mosOrderParam)
-'''
-pass
+    '''    public void setmosOrder(final int mosOrderParam)
+    '''

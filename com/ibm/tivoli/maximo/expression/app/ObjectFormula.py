@@ -1,8 +1,6 @@
 def ObjectFormula():
-'''public ObjectFormula(final MboSet ms)
-'''
-pass
+    '''    public ObjectFormula(final MboSet ms)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

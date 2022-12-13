@@ -1,8 +1,6 @@
 def PlusPFldHasCustomer():
-'''public PlusPFldHasCustomer(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldHasCustomer(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

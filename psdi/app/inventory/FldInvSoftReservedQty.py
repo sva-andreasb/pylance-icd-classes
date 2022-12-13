@@ -1,8 +1,6 @@
 def FldInvSoftReservedQty():
-'''public FldInvSoftReservedQty(final MboValue mbv)
-'''
-pass
+    '''    public FldInvSoftReservedQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

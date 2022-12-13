@@ -1,12 +1,9 @@
 def ReportDialogImportLibSet():
-'''public ReportDialogImportLibSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportDialogImportLibSet(final MboServerInterface ms)
+    '''
 def importLibrary():
-'''public void importLibrary(final ReportImportInfo reportImportInfo, final UserInfo uinfo)
-'''
-pass
+    '''    public void importLibrary(final ReportImportInfo reportImportInfo, final UserInfo uinfo)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

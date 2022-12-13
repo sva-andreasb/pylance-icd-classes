@@ -23,39 +23,30 @@ NEXTSTATES = "int  4"
 RBBI_LOOKAHEAD_HARD_BREAK = "int  1"
 RBBI_BOF_REQUIRED = "int  2"
 def equals():
-'''public static boolean equals(final RBBIStateTable left, final RBBIStateTable right)
-public boolean equals(final Object other)
-'''
-pass
+    '''    public static boolean equals(final RBBIStateTable left, final RBBIStateTable right)
+    public boolean equals(final Object other)
+    '''
 def getRowIndex():
-'''public int getRowIndex(final int state)
-'''
-pass
+    '''    public int getRowIndex(final int state)
+    '''
 def get():
-'''public static RBBIDataWrapper get(final ByteBuffer bytes)
-'''
-pass
+    '''    public static RBBIDataWrapper get(final ByteBuffer bytes)
+    '''
 def dump():
-'''public void dump(final PrintStream out)
-'''
-pass
+    '''    public void dump(final PrintStream out)
+    '''
 def intToString():
-'''public static String intToString(final int n, final int width)
-'''
-pass
+    '''    public static String intToString(final int n, final int width)
+    '''
 def intToHexString():
-'''public static String intToHexString(final int n, final int width)
-'''
-pass
+    '''    public static String intToHexString(final int n, final int width)
+    '''
 def put():
-'''public int put(final DataOutputStream bytes)
-'''
-pass
+    '''    public int put(final DataOutputStream bytes)
+    '''
 def isDataVersionAcceptable():
-'''public boolean isDataVersionAcceptable(final byte[] version)
-'''
-pass
+    '''    public boolean isDataVersionAcceptable(final byte[] version)
+    '''
 def RBBIDataHeader():
-'''public RBBIDataHeader()
-'''
-pass
+    '''    public RBBIDataHeader()
+    '''

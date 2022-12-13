@@ -1,24 +1,18 @@
 def UserAnalyzerCronTask():
-'''public UserAnalyzerCronTask()
-'''
-pass
+    '''    public UserAnalyzerCronTask()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronActionMT():
-'''public void cronActionMT(final UserInfo info)
-'''
-pass
+    '''    public void cronActionMT(final UserInfo info)
+    '''
 def accept():
-'''public boolean accept(final File dir, final String name)
-'''
-pass
+    '''    public boolean accept(final File dir, final String name)
+    '''
 def afterCronActionMT():
-'''public void afterCronActionMT()
-'''
-pass
+    '''    public void afterCronActionMT()
+    '''

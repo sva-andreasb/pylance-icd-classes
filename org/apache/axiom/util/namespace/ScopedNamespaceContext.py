@@ -1,28 +1,21 @@
 def ScopedNamespaceContext():
-'''public ScopedNamespaceContext()
-'''
-pass
+    '''    public ScopedNamespaceContext()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix, final String namespaceURI)
-'''
-pass
+    '''    public void setPrefix(final String prefix, final String namespaceURI)
+    '''
 def startScope():
-'''public void startScope()
-'''
-pass
+    '''    public void startScope()
+    '''
 def endScope():
-'''public void endScope()
-'''
-pass
+    '''    public void endScope()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

@@ -1,8 +1,6 @@
 def FldWOReportDate():
-'''public FldWOReportDate(final MboValue mbv)
-'''
-pass
+    '''    public FldWOReportDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

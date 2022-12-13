@@ -1,16 +1,12 @@
 def DefaultLangCondition():
-'''public DefaultLangCondition(final String lang)
-'''
-pass
+    '''    public DefaultLangCondition(final String lang)
+    '''
 def getConditionType():
-'''public short getConditionType()
-'''
-pass
+    '''    public short getConditionType()
+    '''
 def getLang():
-'''public String getLang()
-'''
-pass
+    '''    public String getLang()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

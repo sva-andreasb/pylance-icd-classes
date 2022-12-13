@@ -1,5 +1,4 @@
 def MalformedChunkCodingException():
-'''public MalformedChunkCodingException()
-public MalformedChunkCodingException(final String message)
-'''
-pass
+    '''    public MalformedChunkCodingException()
+    public MalformedChunkCodingException(final String message)
+    '''

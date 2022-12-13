@@ -1,4 +1,3 @@
 def RichTextSet():
-'''public RichTextSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RichTextSet(final MboServerInterface ms)
+    '''

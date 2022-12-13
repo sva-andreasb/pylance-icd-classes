@@ -1,32 +1,24 @@
 def TransactionHandlerSDB():
-'''public TransactionHandlerSDB(final SDBConnection connection)
-'''
-pass
+    '''    public TransactionHandlerSDB(final SDBConnection connection)
+    '''
 def transactionsSupported():
-'''public boolean transactionsSupported()
-'''
-pass
+    '''    public boolean transactionsSupported()
+    '''
 def begin():
-'''public synchronized void begin()
-'''
-pass
+    '''    public synchronized void begin()
+    '''
 def commit():
-'''public synchronized void commit()
-'''
-pass
+    '''    public synchronized void commit()
+    '''
 def abort():
-'''public synchronized void abort()
-'''
-pass
+    '''    public synchronized void abort()
+    '''
 def abortFinally():
-'''public synchronized void abortFinally()
-'''
-pass
+    '''    public synchronized void abortFinally()
+    '''
 def abortSilent():
-'''public void abortSilent()
-'''
-pass
+    '''    public void abortSilent()
+    '''
 def executeInTransaction():
-'''public Object executeInTransaction(final Command c)
-'''
-pass
+    '''    public Object executeInTransaction(final Command c)
+    '''

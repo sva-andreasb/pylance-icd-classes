@@ -1,96 +1,73 @@
-APPTBOOK_MSG_GROUP = "String  apptbook""
-SCHEDULER_MSG_GROUP = "String  scheduler""
-APPTBKMGRWINDOWSIZE = "String  apptBookMgrWindowSize""
+APPTBOOK_MSG_GROUP = "String  \"apptbook\""
+SCHEDULER_MSG_GROUP = "String  \"scheduler\""
+APPTBKMGRWINDOWSIZE = "String  \"apptBookMgrWindowSize\""
 def ApptBookMiniAppBean():
-'''public ApptBookMiniAppBean()
-'''
-pass
+    '''    public ApptBookMiniAppBean()
+    '''
 def loadLocalizedData():
-'''public JSONObject loadLocalizedData()
-'''
-pass
+    '''    public JSONObject loadLocalizedData()
+    '''
 def gotoDate():
-'''public JSONObject gotoDate(@MXEventParam("date") final long date, @MXEventParam("tzOffset") final long tzOffset, @MXEventParam("fmtDate") final String fmtDate)
-'''
-pass
+    '''    public JSONObject gotoDate(@MXEventParam("date") final long date, @MXEventParam("tzOffset") final long tzOffset, @MXEventParam("fmtDate") final String fmtDate)
+    '''
 def gotoDateOffset():
-'''public JSONObject gotoDateOffset(@MXEventParam("dateOffset") final int offset)
-'''
-pass
+    '''    public JSONObject gotoDateOffset(@MXEventParam("dateOffset") final int offset)
+    '''
 def getDefaultUIJason():
-'''public JSONObject getDefaultUIJason()
-'''
-pass
+    '''    public JSONObject getDefaultUIJason()
+    '''
 def createUI():
-'''public JSONObject createUI(@MXEventParam("startDate") final long startDate)
-'''
-pass
+    '''    public JSONObject createUI(@MXEventParam("startDate") final long startDate)
+    '''
 def visitString():
-'''public void visitString(final Object parent, final Object key, final String val)
-'''
-pass
+    '''    public void visitString(final Object parent, final Object key, final String val)
+    '''
 def getResolver():
-'''public FunctionMapResolver getResolver()
-'''
-pass
+    '''    public FunctionMapResolver getResolver()
+    '''
 def getResolverWithCellText():
-'''public FunctionMapResolver getResolverWithCellText()
-'''
-pass
+    '''    public FunctionMapResolver getResolverWithCellText()
+    '''
 def getRootData():
-'''public JSONObject getRootData()
-'''
-pass
+    '''    public JSONObject getRootData()
+    '''
 def getApptBook():
-'''public MboRemote getApptBook()
-'''
-pass
+    '''    public MboRemote getApptBook()
+    '''
 def getModelLoader():
-'''public ModelLoader getModelLoader()
-'''
-pass
+    '''    public ModelLoader getModelLoader()
+    '''
 def loadAppointments():
-'''public void loadAppointments(final ApptBook apptBook, final Date start, final Date end)
-'''
-pass
+    '''    public void loadAppointments(final ApptBook apptBook, final Date start, final Date end)
+    '''
 def getModel():
-'''public ApptBook getModel()
-'''
-pass
+    '''    public ApptBook getModel()
+    '''
 def loadResource():
-'''public String loadResource(final String path)
-'''
-pass
+    '''    public String loadResource(final String path)
+    '''
 def getBaseImageUrl():
-'''public String getBaseImageUrl()
-'''
-pass
+    '''    public String getBaseImageUrl()
+    '''
 def filterCss():
-'''public String filterCss(final String css, final MiniAppControl control)
-'''
-pass
+    '''    public String filterCss(final String css, final MiniAppControl control)
+    '''
 def async_get_table_context_menu():
-'''public TMenu async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String selectedId, @MXEventParam("selection") final JSONObject selection, @MXEventParam("col") final String column, @MXEventParam("value") String value)
-'''
-pass
+    '''    public TMenu async_get_table_context_menu(final WebClientSession sess, @MXEventParam("projectid") final String projectId, @MXEventParam("id") final String selectedId, @MXEventParam("selection") final JSONObject selection, @MXEventParam("col") final String column, @MXEventParam("value") String value)
+    '''
 def label():
-'''public String label(final String key, final String groupName)
-public String label(final String key)
-'''
-pass
+    '''    public String label(final String key, final String groupName)
+    public String label(final String key)
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getApptActions():
-'''public HashMap<String, ApptActionInfo> getApptActions()
-'''
-pass
+    '''    public HashMap<String, ApptActionInfo> getApptActions()
+    '''
 def addActionMenuItems():
-'''public void addActionMenuItems(final TMenu popupmenu, final String[] selectedBuckets, final String projectId, final String propName, final String propValue, final HashMap<String, ApptActionInfo> apptactions)
-'''
-pass
+    '''    public void addActionMenuItems(final TMenu popupmenu, final String[] selectedBuckets, final String projectId, final String propName, final String propValue, final HashMap<String, ApptActionInfo> apptactions)
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''

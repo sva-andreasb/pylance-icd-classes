@@ -1,24 +1,18 @@
 def MaxAsyncJob():
-'''public MaxAsyncJob(final MboSet ms)
-'''
-pass
+    '''    public MaxAsyncJob(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def changeStatus():
-'''public void changeStatus(final String internalValue)
-'''
-pass
+    '''    public void changeStatus(final String internalValue)
+    '''

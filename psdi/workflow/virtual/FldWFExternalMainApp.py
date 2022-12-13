@@ -1,4 +1,3 @@
 def FldWFExternalMainApp():
-'''public FldWFExternalMainApp(final MboValue mbv)
-'''
-pass
+    '''    public FldWFExternalMainApp(final MboValue mbv)
+    '''

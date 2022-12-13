@@ -1,8 +1,6 @@
 def AndNode():
-'''public AndNode(final Vector orList)
-'''
-pass
+    '''    public AndNode(final Vector orList)
+    '''
 def getBoolean():
-'''public boolean getBoolean(final MboRemote mbo)
-'''
-pass
+    '''    public boolean getBoolean(final MboRemote mbo)
+    '''

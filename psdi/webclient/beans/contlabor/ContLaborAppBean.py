@@ -1,8 +1,6 @@
 def REVCONT():
-'''public int REVCONT()
-'''
-pass
+    '''    public int REVCONT()
+    '''
 def APPLYPRAD():
-'''public int APPLYPRAD()
-'''
-pass
+    '''    public int APPLYPRAD()
+    '''

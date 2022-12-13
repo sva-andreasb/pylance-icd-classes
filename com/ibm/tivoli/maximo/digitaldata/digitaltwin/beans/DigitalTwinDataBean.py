@@ -1,17 +1,13 @@
-DIGITALDATA_LOGGER = "String  maximo.digitaldata""
+DIGITALDATA_LOGGER = "String  \"maximo.digitaldata\""
 def DigitalTwinDataBean():
-'''public DigitalTwinDataBean()
-'''
-pass
+    '''    public DigitalTwinDataBean()
+    '''
 def REQUESTDATA():
-'''public int REQUESTDATA()
-'''
-pass
+    '''    public int REQUESTDATA()
+    '''
 def getDigitalData():
-'''public void getDigitalData()
-'''
-pass
+    '''    public void getDigitalData()
+    '''
 def IMPORTDATA():
-'''public int IMPORTDATA()
-'''
-pass
+    '''    public int IMPORTDATA()
+    '''

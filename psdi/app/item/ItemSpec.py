@@ -1,44 +1,33 @@
 def ItemSpec():
-'''public ItemSpec(final MboSet ms)
-'''
-pass
+    '''    public ItemSpec(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def addDetailInfor():
-'''public void addDetailInfor(final MboRemote item, final MboRemote classspec)
-'''
-pass
+    '''    public void addDetailInfor(final MboRemote item, final MboRemote classspec)
+    '''
 def getValueToCrossOver():
-'''public String getValueToCrossOver(final String srcAttrISNN, final String tgtSpecObj, final String tgtSpecAttr)
-'''
-pass
+    '''    public String getValueToCrossOver(final String srcAttrISNN, final String tgtSpecObj, final String tgtSpecAttr)
+    '''
 def canGenerateDesc():
-'''public MboRemote canGenerateDesc()
-'''
-pass
+    '''    public MboRemote canGenerateDesc()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def getNumberOfRotatingAssets():
-'''public int getNumberOfRotatingAssets()
-'''
-pass
+    '''    public int getNumberOfRotatingAssets()
+    '''
 def assetSpecExists():
-'''public boolean assetSpecExists()
-'''
-pass
+    '''    public boolean assetSpecExists()
+    '''
 def getUserDefinedRequired():
-'''public String[] getUserDefinedRequired(final String specName, int startingIndex)
-'''
-pass
+    '''    public String[] getUserDefinedRequired(final String specName, int startingIndex)
+    '''

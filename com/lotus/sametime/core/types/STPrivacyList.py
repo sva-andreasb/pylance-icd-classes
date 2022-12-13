@@ -1,99 +1,75 @@
 def STPrivacyList():
-'''public STPrivacyList(final NdrInputStream ndrInputStream)
-public STPrivacyList(final NdrInputStream ndrInputStream, final boolean b)
-public STPrivacyList(final boolean excluding, final Hashtable people, final Hashtable targets, final Hashtable requestors)
-public STPrivacyList(final boolean excluding)
-'''
-pass
+    '''    public STPrivacyList(final NdrInputStream ndrInputStream)
+    public STPrivacyList(final NdrInputStream ndrInputStream, final boolean b)
+    public STPrivacyList(final boolean excluding, final Hashtable people, final Hashtable targets, final Hashtable requestors)
+    public STPrivacyList(final boolean excluding)
+    '''
 def loadNewList():
-'''public static final STPrivacyList loadNewList(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public static final STPrivacyList loadNewList(final NdrInputStream ndrInputStream)
+    '''
 def isExcluding():
-'''public boolean isExcluding()
-'''
-pass
+    '''    public boolean isExcluding()
+    '''
 def setExcluding():
-'''public void setExcluding(final boolean excluding)
-'''
-pass
+    '''    public void setExcluding(final boolean excluding)
+    '''
 def isSeenBy():
-'''public boolean isSeenBy(final STUser stUser)
-'''
-pass
+    '''    public boolean isSeenBy(final STUser stUser)
+    '''
 def addUser():
-'''public void addUser(final STUser value)
-'''
-pass
+    '''    public void addUser(final STUser value)
+    '''
 def removeUser():
-'''public void removeUser(final STUser stUser)
-'''
-pass
+    '''    public void removeUser(final STUser stUser)
+    '''
 def addGroup():
-'''public void addGroup(final STGroup value)
-'''
-pass
+    '''    public void addGroup(final STGroup value)
+    '''
 def removeGroup():
-'''public void removeGroup(final STGroup stGroup)
-'''
-pass
+    '''    public void removeGroup(final STGroup stGroup)
+    '''
 def getPeople():
-'''public Hashtable getPeople()
-'''
-pass
+    '''    public Hashtable getPeople()
+    '''
 def getGroups():
-'''public Hashtable getGroups()
-'''
-pass
+    '''    public Hashtable getGroups()
+    '''
 def getTargets():
-'''public Hashtable getTargets()
-'''
-pass
+    '''    public Hashtable getTargets()
+    '''
 def getRequestors():
-'''public Hashtable getRequestors()
-'''
-pass
+    '''    public Hashtable getRequestors()
+    '''
 def elements():
-'''public Enumeration elements()
-'''
-pass
+    '''    public Enumeration elements()
+    '''
 def getPeopleEnumeration():
-'''public Enumeration getPeopleEnumeration()
-'''
-pass
+    '''    public Enumeration getPeopleEnumeration()
+    '''
 def getGroupEnumeration():
-'''public Enumeration getGroupEnumeration()
-'''
-pass
+    '''    public Enumeration getGroupEnumeration()
+    '''
 def getTargetElements():
-'''public Enumeration getTargetElements()
-'''
-pass
+    '''    public Enumeration getTargetElements()
+    '''
 def getRequestorElements():
-'''public Enumeration getRequestorElements()
-'''
-pass
+    '''    public Enumeration getRequestorElements()
+    '''
 def dump():
-'''public void dump(final NdrOutputStream ndrOutputStream, final boolean b)
-'''
-pass
+    '''    public void dump(final NdrOutputStream ndrOutputStream, final boolean b)
+    '''
 def load():
-'''public void load(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public void load(final NdrInputStream ndrInputStream)
+    '''
 def loadPeople():
-'''public void loadPeople(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public void loadPeople(final NdrInputStream ndrInputStream)
+    '''
 def loadRequestors():
-'''public boolean loadRequestors(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public boolean loadRequestors(final NdrInputStream ndrInputStream)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def newDump():
-'''public void newDump(final NdrOutputStream ndrOutputStream, final boolean b)
-'''
-pass
+    '''    public void newDump(final NdrOutputStream ndrOutputStream, final boolean b)
+    '''

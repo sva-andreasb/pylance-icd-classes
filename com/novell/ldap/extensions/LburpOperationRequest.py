@@ -1,4 +1,3 @@
 def LburpOperationRequest():
-'''public LburpOperationRequest(final LDAPLburpRequest[] array, final int n)
-'''
-pass
+    '''    public LburpOperationRequest(final LDAPLburpRequest[] array, final int n)
+    '''

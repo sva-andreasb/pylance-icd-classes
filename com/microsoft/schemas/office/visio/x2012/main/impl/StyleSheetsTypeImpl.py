@@ -1,34 +1,26 @@
 def StyleSheetsTypeImpl():
-'''public StyleSheetsTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public StyleSheetsTypeImpl(final SchemaType schemaType)
+    '''
 def getStyleSheetList():
-'''public List<StyleSheetType> getStyleSheetList()
-'''
-pass
+    '''    public List<StyleSheetType> getStyleSheetList()
+    '''
 def getStyleSheetArray():
-'''public StyleSheetType[] getStyleSheetArray()
-public StyleSheetType getStyleSheetArray(final int n)
-'''
-pass
+    '''    public StyleSheetType[] getStyleSheetArray()
+    public StyleSheetType getStyleSheetArray(final int n)
+    '''
 def sizeOfStyleSheetArray():
-'''public int sizeOfStyleSheetArray()
-'''
-pass
+    '''    public int sizeOfStyleSheetArray()
+    '''
 def setStyleSheetArray():
-'''public void setStyleSheetArray(final StyleSheetType[] array)
-public void setStyleSheetArray(final int n, final StyleSheetType styleSheetType)
-'''
-pass
+    '''    public void setStyleSheetArray(final StyleSheetType[] array)
+    public void setStyleSheetArray(final int n, final StyleSheetType styleSheetType)
+    '''
 def insertNewStyleSheet():
-'''public StyleSheetType insertNewStyleSheet(final int n)
-'''
-pass
+    '''    public StyleSheetType insertNewStyleSheet(final int n)
+    '''
 def addNewStyleSheet():
-'''public StyleSheetType addNewStyleSheet()
-'''
-pass
+    '''    public StyleSheetType addNewStyleSheet()
+    '''
 def removeStyleSheet():
-'''public void removeStyleSheet(final int n)
-'''
-pass
+    '''    public void removeStyleSheet(final int n)
+    '''

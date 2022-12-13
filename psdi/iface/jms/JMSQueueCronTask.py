@@ -1,40 +1,30 @@
 def JMSQueueCronTask():
-'''public JMSQueueCronTask()
-'''
-pass
+    '''    public JMSQueueCronTask()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def killConsumer():
-'''public void killConsumer()
-'''
-pass
+    '''    public void killConsumer()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def isOKToRun():
-'''public synchronized boolean isOKToRun(final MXServerRemote server)
-'''
-pass
+    '''    public synchronized boolean isOKToRun(final MXServerRemote server)
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''
 def getParameterValidationMbo():
-'''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
-'''
-pass
+    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''

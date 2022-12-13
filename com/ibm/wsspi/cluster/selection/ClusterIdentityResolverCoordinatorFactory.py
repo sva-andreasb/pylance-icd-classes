@@ -1,4 +1,3 @@
 def getClusterIdentityResolverCoordinator():
-'''public static ClusterIdentityResolverCoordinator getClusterIdentityResolverCoordinator()
-'''
-pass
+    '''    public static ClusterIdentityResolverCoordinator getClusterIdentityResolverCoordinator()
+    '''

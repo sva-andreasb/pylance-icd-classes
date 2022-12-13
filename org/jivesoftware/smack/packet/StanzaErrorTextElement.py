@@ -1,9 +1,7 @@
-NAMESPACE = "String  urn:ietf:params:xml:ns:xmpp-stanzas""
+NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-stanzas\""
 def StanzaErrorTextElement():
-'''public StanzaErrorTextElement(final String text, final String lang)
-'''
-pass
+    '''    public StanzaErrorTextElement(final String text, final String lang)
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''

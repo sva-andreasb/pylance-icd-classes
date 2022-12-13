@@ -1,8 +1,6 @@
 def W():
-'''public W(final IConfig config, final InputStream inputStream, final String filename)
-'''
-pass
+    '''    public W(final IConfig config, final InputStream inputStream, final String filename)
+    '''
 def a():
-'''public Z a()
-'''
-pass
+    '''    public Z a()
+    '''

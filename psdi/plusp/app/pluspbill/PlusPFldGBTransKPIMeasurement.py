@@ -1,8 +1,6 @@
 def PlusPFldGBTransKPIMeasurement():
-'''public PlusPFldGBTransKPIMeasurement(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransKPIMeasurement(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

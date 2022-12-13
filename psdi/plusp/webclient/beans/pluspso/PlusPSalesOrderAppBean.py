@@ -1,48 +1,36 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def APPLYRP():
-'''public int APPLYRP()
-'''
-pass
+    '''    public int APPLYRP()
+    '''
 def OWNERSHIP():
-'''public int OWNERSHIP()
-'''
-pass
+    '''    public int OWNERSHIP()
+    '''
 def EDITHIST():
-'''public int EDITHIST()
-'''
-pass
+    '''    public int EDITHIST()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def setStreetAddress():
-'''public int setStreetAddress()
-'''
-pass
+    '''    public int setStreetAddress()
+    '''
 def APPLYCA():
-'''public int APPLYCA()
-'''
-pass
+    '''    public int APPLYCA()
+    '''
 def SELECTPS():
-'''public int SELECTPS()
-'''
-pass
+    '''    public int SELECTPS()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def ISSUEITEMS():
-'''public int ISSUEITEMS()
-'''
-pass
+    '''    public int ISSUEITEMS()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def PLUSPCREATEBILL():
-'''public int PLUSPCREATEBILL()
-'''
-pass
+    '''    public int PLUSPCREATEBILL()
+    '''

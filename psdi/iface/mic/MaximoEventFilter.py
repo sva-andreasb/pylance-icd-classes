@@ -1,16 +1,12 @@
 def MaximoEventFilter():
-'''public MaximoEventFilter(final PublishInfo pubInfo)
-'''
-pass
+    '''    public MaximoEventFilter(final PublishInfo pubInfo)
+    '''
 def getEventObjects():
-'''public Set<String> getEventObjects()
-'''
-pass
+    '''    public Set<String> getEventObjects()
+    '''
 def filterEvent():
-'''public boolean filterEvent(final MboRemote mbo)
-'''
-pass
+    '''    public boolean filterEvent(final MboRemote mbo)
+    '''
 def isScriptFilterEvent():
-'''public Boolean isScriptFilterEvent(final MboRemote mbo)
-'''
-pass
+    '''    public Boolean isScriptFilterEvent(final MboRemote mbo)
+    '''

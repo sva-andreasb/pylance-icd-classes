@@ -1,4 +1,3 @@
 def isImmediate():
-'''public boolean isImmediate()
-'''
-pass
+    '''    public boolean isImmediate()
+    '''

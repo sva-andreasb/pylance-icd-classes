@@ -1,8 +1,6 @@
 def LaborAuthSet():
-'''public LaborAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LaborAuthSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

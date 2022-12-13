@@ -1,8 +1,6 @@
 def FldWOAssetFilterBy():
-'''public FldWOAssetFilterBy(final MboValue mbv)
-'''
-pass
+    '''    public FldWOAssetFilterBy(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

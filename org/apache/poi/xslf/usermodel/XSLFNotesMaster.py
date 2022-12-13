@@ -1,12 +1,9 @@
 def getXmlObject():
-'''public CTNotesMaster getXmlObject()
-'''
-pass
+    '''    public CTNotesMaster getXmlObject()
+    '''
 def getMasterSheet():
-'''public MasterSheet<XSLFShape, XSLFTextParagraph> getMasterSheet()
-'''
-pass
+    '''    public MasterSheet<XSLFShape, XSLFTextParagraph> getMasterSheet()
+    '''
 def getTheme():
-'''public XSLFTheme getTheme()
-'''
-pass
+    '''    public XSLFTheme getTheme()
+    '''

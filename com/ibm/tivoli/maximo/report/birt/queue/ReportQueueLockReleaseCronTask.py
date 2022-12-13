@@ -1,12 +1,9 @@
 def ReportQueueLockReleaseCronTask():
-'''public ReportQueueLockReleaseCronTask()
-'''
-pass
+    '''    public ReportQueueLockReleaseCronTask()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameterValidationMbo():
-'''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
-'''
-pass
+    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''

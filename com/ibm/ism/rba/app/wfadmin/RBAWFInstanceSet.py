@@ -1,20 +1,15 @@
 def RBAWFInstanceSet():
-'''public RBAWFInstanceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RBAWFInstanceSet(final MboServerInterface ms)
+    '''
 def filterByClassificationId():
-'''public void filterByClassificationId(final ArrayList<String> classstructureIds)
-'''
-pass
+    '''    public void filterByClassificationId(final ArrayList<String> classstructureIds)
+    '''
 def filterByClassStructureUIDs():
-'''public String filterByClassStructureUIDs(final ArrayList<String> classstructureIds)
-'''
-pass
+    '''    public String filterByClassStructureUIDs(final ArrayList<String> classstructureIds)
+    '''
 def filterByUnclassifiedUIDs():
-'''public String filterByUnclassifiedUIDs()
-'''
-pass
+    '''    public String filterByUnclassifiedUIDs()
+    '''
 def filterByAllClassifiedUIDs():
-'''public String filterByAllClassifiedUIDs()
-'''
-pass
+    '''    public String filterByAllClassifiedUIDs()
+    '''

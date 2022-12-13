@@ -1,16 +1,12 @@
 def SdkDigestInputStream():
-'''public SdkDigestInputStream(final InputStream stream, final MessageDigest digest)
-'''
-pass
+    '''    public SdkDigestInputStream(final InputStream stream, final MessageDigest digest)
+    '''
 def isMetricActivated():
-'''public final boolean isMetricActivated()
-'''
-pass
+    '''    public final boolean isMetricActivated()
+    '''
 def skip():
-'''public final long skip(final long n)
-'''
-pass
+    '''    public final long skip(final long n)
+    '''
 def release():
-'''public final void release()
-'''
-pass
+    '''    public final void release()
+    '''

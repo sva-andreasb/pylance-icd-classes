@@ -1,16 +1,12 @@
 def copyWOs():
-'''public int copyWOs()
-'''
-pass
+    '''    public int copyWOs()
+    '''
 def copyTickets():
-'''public synchronized int copyTickets()
-'''
-pass
+    '''    public synchronized int copyTickets()
+    '''
 def copySalesOrders():
-'''public synchronized int copySalesOrders()
-'''
-pass
+    '''    public synchronized int copySalesOrders()
+    '''
 def copyAll():
-'''public synchronized int copyAll()
-'''
-pass
+    '''    public synchronized int copyAll()
+    '''

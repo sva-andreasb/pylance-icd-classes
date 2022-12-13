@@ -1,29 +1,22 @@
 def ConstantLong():
-'''public ConstantLong(final long bytes)
-public ConstantLong(final ConstantLong c)
-'''
-pass
+    '''    public ConstantLong(final long bytes)
+    public ConstantLong(final ConstantLong c)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getBytes():
-'''public final long getBytes()
-'''
-pass
+    '''    public final long getBytes()
+    '''
 def setBytes():
-'''public final void setBytes(final long bytes)
-'''
-pass
+    '''    public final void setBytes(final long bytes)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def getConstantValue():
-'''public Object getConstantValue(final ConstantPool cp)
-'''
-pass
+    '''    public Object getConstantValue(final ConstantPool cp)
+    '''

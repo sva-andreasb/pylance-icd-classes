@@ -1,28 +1,21 @@
 def setJavaParmsText():
-'''public void setJavaParmsText()
-'''
-pass
+    '''    public void setJavaParmsText()
+    '''
 def itemStateChanged():
-'''public void itemStateChanged(final ItemEvent itemEvent)
-'''
-pass
+    '''    public void itemStateChanged(final ItemEvent itemEvent)
+    '''
 def keyTyped():
-'''public void keyTyped(final KeyEvent keyEvent)
-'''
-pass
+    '''    public void keyTyped(final KeyEvent keyEvent)
+    '''
 def keyReleased():
-'''public void keyReleased(final KeyEvent keyEvent)
-'''
-pass
+    '''    public void keyReleased(final KeyEvent keyEvent)
+    '''
 def keyPressed():
-'''public void keyPressed(final KeyEvent keyEvent)
-'''
-pass
+    '''    public void keyPressed(final KeyEvent keyEvent)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setTextSize():
-'''public void setTextSize(final int width)
-'''
-pass
+    '''    public void setTextSize(final int width)
+    '''

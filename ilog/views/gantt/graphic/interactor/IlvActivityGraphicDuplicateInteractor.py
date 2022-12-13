@@ -1,28 +1,21 @@
 def IlvActivityGraphicDuplicateInteractor():
-'''public IlvActivityGraphicDuplicateInteractor(final IlvSelectInteractor a)
-'''
-pass
+    '''    public IlvActivityGraphicDuplicateInteractor(final IlvSelectInteractor a)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getSelectInteractor():
-'''public IlvSelectInteractor getSelectInteractor()
-'''
-pass
+    '''    public IlvSelectInteractor getSelectInteractor()
+    '''
 def getCursor():
-'''public Cursor getCursor()
-'''
-pass
+    '''    public Cursor getCursor()
+    '''
 def setCursor():
-'''public void setCursor(final Cursor e)
-'''
-pass
+    '''    public void setCursor(final Cursor e)
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def drawGhost():
-'''public void drawGhost(final Graphics graphics)
-'''
-pass
+    '''    public void drawGhost(final Graphics graphics)
+    '''

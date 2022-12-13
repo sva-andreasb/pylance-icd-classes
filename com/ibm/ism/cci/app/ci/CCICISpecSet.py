@@ -1,4 +1,3 @@
 def CCICISpecSet():
-'''public CCICISpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CCICISpecSet(final MboServerInterface ms)
+    '''

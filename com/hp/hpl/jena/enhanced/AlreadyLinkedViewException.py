@@ -1,4 +1,3 @@
 def AlreadyLinkedViewException():
-'''public AlreadyLinkedViewException(final Polymorphic<?> other)
-'''
-pass
+    '''    public AlreadyLinkedViewException(final Polymorphic<?> other)
+    '''

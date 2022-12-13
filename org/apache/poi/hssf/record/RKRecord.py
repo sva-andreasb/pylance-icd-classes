@@ -4,18 +4,14 @@ RK_IEEE_NUMBER_TIMES_100 = "short  1"
 RK_INTEGER = "short  2"
 RK_INTEGER_TIMES_100 = "short  3"
 def RKRecord():
-'''public RKRecord(final RecordInputStream in)
-'''
-pass
+    '''    public RKRecord(final RecordInputStream in)
+    '''
 def getRKNumber():
-'''public double getRKNumber()
-'''
-pass
+    '''    public double getRKNumber()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

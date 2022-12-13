@@ -1,16 +1,12 @@
 def RequestMetadata():
-'''public RequestMetadata(final ConfigResource resource, final Map<String, String> configs)
-'''
-pass
+    '''    public RequestMetadata(final ConfigResource resource, final Map<String, String> configs)
+    '''
 def configs():
-'''public Map<String, String> configs()
-'''
-pass
+    '''    public Map<String, String> configs()
+    '''
 def resource():
-'''public ConfigResource resource()
-'''
-pass
+    '''    public ConfigResource resource()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

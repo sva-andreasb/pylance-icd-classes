@@ -1,17 +1,13 @@
 def EdirEventSpecifier():
-'''public EdirEventSpecifier(final int n, final int n2)
-public EdirEventSpecifier(final int eventClassification, final int eventType, final String filter)
-'''
-pass
+    '''    public EdirEventSpecifier(final int n, final int n2)
+    public EdirEventSpecifier(final int eventClassification, final int eventType, final String filter)
+    '''
 def getEventclassification():
-'''public int getEventclassification()
-'''
-pass
+    '''    public int getEventclassification()
+    '''
 def getEventtype():
-'''public int getEventtype()
-'''
-pass
+    '''    public int getEventtype()
+    '''
 def getFilter():
-'''public String getFilter()
-'''
-pass
+    '''    public String getFilter()
+    '''

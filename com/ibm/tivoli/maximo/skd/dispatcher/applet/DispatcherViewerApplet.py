@@ -1,156 +1,118 @@
 DEFAULT_BUFSIZE = "int  8192"
 def DispatcherViewerApplet():
-'''public DispatcherViewerApplet()
-'''
-pass
+    '''    public DispatcherViewerApplet()
+    '''
 def isCompressed():
-'''public boolean isCompressed()
-'''
-pass
+    '''    public boolean isCompressed()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def setLookAndFeel():
-'''public void setLookAndFeel()
-'''
-pass
+    '''    public void setLookAndFeel()
+    '''
 def waitOnMap():
-'''public boolean waitOnMap()
-'''
-pass
+    '''    public boolean waitOnMap()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def updateModelAppletOnly():
-'''public void updateModelAppletOnly()
-'''
-pass
+    '''    public void updateModelAppletOnly()
+    '''
 def updateModel():
-'''public void updateModel()
-'''
-pass
+    '''    public void updateModel()
+    '''
 def updateModelWithOptions():
-'''public void updateModelWithOptions(final String jsonOptions)
-'''
-pass
+    '''    public void updateModelWithOptions(final String jsonOptions)
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def startFullRefreshTask():
-'''public void startFullRefreshTask()
-'''
-pass
+    '''    public void startFullRefreshTask()
+    '''
 def retrieveProjectDataModel():
-'''public IlvGanttModel retrieveProjectDataModel(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
-'''
-pass
+    '''    public IlvGanttModel retrieveProjectDataModel(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
+    '''
 def getColorForActivity():
-'''public String getColorForActivity(final String activityId)
-'''
-pass
+    '''    public String getColorForActivity(final String activityId)
+    '''
 def onModelUpdate():
-'''public void onModelUpdate(final IlvGanttModel model, final JSONObject refreshOptions)
-'''
-pass
+    '''    public void onModelUpdate(final IlvGanttModel model, final JSONObject refreshOptions)
+    '''
 def getColorForResource():
-'''public String getColorForResource(final String resId)
-'''
-pass
+    '''    public String getColorForResource(final String resId)
+    '''
 def retrieveProjectDataModelRemote():
-'''public IlvGanttModel retrieveProjectDataModelRemote(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
-'''
-pass
+    '''    public IlvGanttModel retrieveProjectDataModelRemote(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
+    '''
 def setJSCommunicationReady():
-'''public void setJSCommunicationReady()
-'''
-pass
+    '''    public void setJSCommunicationReady()
+    '''
 def isLoaded():
-'''public boolean isLoaded()
-'''
-pass
+    '''    public boolean isLoaded()
+    '''
 def updateProjId():
-'''public void updateProjId(final String projId)
-'''
-pass
+    '''    public void updateProjId(final String projId)
+    '''
 def jsCallback():
-'''public void jsCallback(final String methodName, final String params)
-'''
-pass
+    '''    public void jsCallback(final String methodName, final String params)
+    '''
 def getSKDUserLocaleData():
-'''public SKDUserLocaleData getSKDUserLocaleData()
-'''
-pass
+    '''    public SKDUserLocaleData getSKDUserLocaleData()
+    '''
 def getSKDUIInfo():
-'''public ISKDUIInfo getSKDUIInfo()
-'''
-pass
+    '''    public ISKDUIInfo getSKDUIInfo()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def retrieveSKDUIInfo():
-'''public ISKDUIInfo retrieveSKDUIInfo()
-'''
-pass
+    '''    public ISKDUIInfo retrieveSKDUIInfo()
+    '''
 def retrieveSKDUIInfoRemote():
-'''public ISKDUIInfo retrieveSKDUIInfoRemote()
-'''
-pass
+    '''    public ISKDUIInfo retrieveSKDUIInfoRemote()
+    '''
 def forceMapRedraw():
-'''public void forceMapRedraw(final IlvGanttModel ganttModel)
-'''
-pass
+    '''    public void forceMapRedraw(final IlvGanttModel ganttModel)
+    '''
 def updateModelForResource():
-'''public void updateModelForResource(final JSONObject paramsJson)
-'''
-pass
+    '''    public void updateModelForResource(final JSONObject paramsJson)
+    '''
 def getProjectId():
-'''public String getProjectId()
-'''
-pass
+    '''    public String getProjectId()
+    '''
 def setProjectId():
-'''public void setProjectId(final String projectId)
-'''
-pass
+    '''    public void setProjectId(final String projectId)
+    '''
 def getServerServletUrl():
-'''public String getServerServletUrl()
-'''
-pass
+    '''    public String getServerServletUrl()
+    '''
 def setServerServletUrl():
-'''public void setServerServletUrl(final String serverServletUrl)
-'''
-pass
+    '''    public void setServerServletUrl(final String serverServletUrl)
+    '''
 def getUISessionId():
-'''public String getUISessionId()
-'''
-pass
+    '''    public String getUISessionId()
+    '''
 def highlightactivity():
-'''public void highlightactivity(final String activityid)
-'''
-pass
+    '''    public void highlightactivity(final String activityid)
+    '''
 def getAppletEventBus():
-'''public SimpleMessageBus getAppletEventBus()
-'''
-pass
+    '''    public SimpleMessageBus getAppletEventBus()
+    '''
 def handleAppletEvent():
-'''public void handleAppletEvent(final String eventName, final String eventData, final boolean decode)
-'''
-pass
+    '''    public void handleAppletEvent(final String eventName, final String eventData, final boolean decode)
+    '''
 def run():
-'''public void run()
-public void run()
-public Object run()
-public Object run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public Object run()
+    public Object run()
+    '''
 def doModelUpdate():
-'''public doModelUpdate(final DispatcherViewerApplet applet, final IlvDefaultGanttModel model, final JSONObject refreshOptions)
-'''
-pass
+    '''    public doModelUpdate(final DispatcherViewerApplet applet, final IlvDefaultGanttModel model, final JSONObject refreshOptions)
+    '''
 def RetrieveProjectDataModelAction():
-'''public RetrieveProjectDataModelAction(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
-'''
-pass
+    '''    public RetrieveProjectDataModelAction(final String projectId, final JSONObject refreshOptions, final String resObj, final String resKey)
+    '''

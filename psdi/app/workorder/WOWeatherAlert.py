@@ -1,4 +1,3 @@
 def WOWeatherAlert():
-'''public WOWeatherAlert(final MboSet ms)
-'''
-pass
+    '''    public WOWeatherAlert(final MboSet ms)
+    '''

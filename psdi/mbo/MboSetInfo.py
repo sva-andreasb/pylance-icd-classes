@@ -1,4 +1,4 @@
-CACHE_NAME = "String  BMX.MAXIMODD.MSI""
+CACHE_NAME = "String  \"BMX.MAXIMODD.MSI\""
 SYSTEMLEVEL0 = "int  0"
 SITELEVEL1 = "int  1"
 ORGLEVEL2 = "int  2"
@@ -18,427 +18,322 @@ RestrictionEvalBySiteOrg = "int  3"
 INTNOTINITIALIZED = "int  -200"
 INTNOLIMIT = "int  -1"
 def getTypedReference():
-'''public MboSetInfoBase getTypedReference()
-'''
-pass
+    '''    public MboSetInfoBase getTypedReference()
+    '''
 def isTenantOwned():
-'''public boolean isTenantOwned()
-'''
-pass
+    '''    public boolean isTenantOwned()
+    '''
 def getKeyRelationshipWhere():
-'''public String getKeyRelationshipWhere()
-'''
-pass
+    '''    public String getKeyRelationshipWhere()
+    '''
 def getUniqueEntityColumns():
-'''public HashSet<String> getUniqueEntityColumns()
-'''
-pass
+    '''    public HashSet<String> getUniqueEntityColumns()
+    '''
 def isIncludedParentRelationship():
-'''public boolean isIncludedParentRelationship()
-'''
-pass
+    '''    public boolean isIncludedParentRelationship()
+    '''
 def getUniqueIDName():
-'''public String getUniqueIDName()
-'''
-pass
+    '''    public String getUniqueIDName()
+    '''
 def getContentAttrName():
-'''public String getContentAttrName()
-'''
-pass
+    '''    public String getContentAttrName()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def isMainObject():
-'''public boolean isMainObject()
-'''
-pass
+    '''    public boolean isMainObject()
+    '''
 def isEAuditEnabled():
-'''public boolean isEAuditEnabled()
-'''
-pass
+    '''    public boolean isEAuditEnabled()
+    '''
 def getEAuditFilter():
-'''public String getEAuditFilter()
-'''
-pass
+    '''    public String getEAuditFilter()
+    '''
 def getESigFilter():
-'''public String getESigFilter()
-'''
-pass
+    '''    public String getESigFilter()
+    '''
 def getEntityName():
-'''public String getEntityName()
-'''
-pass
+    '''    public String getEntityName()
+    '''
 def getExtendsObject():
-'''public String getExtendsObject()
-'''
-pass
+    '''    public String getExtendsObject()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def isNOSql():
-'''public boolean isNOSql()
-'''
-pass
+    '''    public boolean isNOSql()
+    '''
 def isView():
-'''public boolean isView()
-'''
-pass
+    '''    public boolean isView()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getSiteOrgType():
-'''public int getSiteOrgType()
-'''
-pass
+    '''    public int getSiteOrgType()
+    '''
 def getSiteOrgTypeAsString():
-'''public String getSiteOrgTypeAsString()
-'''
-pass
+    '''    public String getSiteOrgTypeAsString()
+    '''
 def isUserdefined():
-'''public boolean isUserdefined()
-'''
-pass
+    '''    public boolean isUserdefined()
+    '''
 def isImported():
-'''public boolean isImported()
-'''
-pass
+    '''    public boolean isImported()
+    '''
 def isInternal():
-'''public boolean isInternal()
-'''
-pass
+    '''    public boolean isInternal()
+    '''
 def setInternal():
-'''public void setInternal(final boolean flag)
-'''
-pass
+    '''    public void setInternal(final boolean flag)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInitEventName():
-'''public String getInitEventName()
-'''
-pass
+    '''    public String getInitEventName()
+    '''
 def getAppValidateEventName():
-'''public String getAppValidateEventName()
-'''
-pass
+    '''    public String getAppValidateEventName()
+    '''
 def getFetchStopLimit():
-'''public int getFetchStopLimit()
-'''
-pass
+    '''    public int getFetchStopLimit()
+    '''
 def getTextdirection():
-'''public String getTextdirection()
-'''
-pass
+    '''    public String getTextdirection()
+    '''
 def setHierarchyList():
-'''public void setHierarchyList(final List<String> hierarchyList)
-'''
-pass
+    '''    public void setHierarchyList(final List<String> hierarchyList)
+    '''
 def getHierarchyList():
-'''public List<String> getHierarchyList()
-'''
-pass
+    '''    public List<String> getHierarchyList()
+    '''
 def evalForDataRestriction():
-'''public int evalForDataRestriction()
-'''
-pass
+    '''    public int evalForDataRestriction()
+    '''
 def getAttributeDetails():
-'''public Map getAttributeDetails()
-'''
-pass
+    '''    public Map getAttributeDetails()
+    '''
 def clearAttributes():
-'''public void clearAttributes()
-'''
-pass
+    '''    public void clearAttributes()
+    '''
 def addAttribute():
-'''public void addAttribute(final MboValueInfo attributeInfo)
-'''
-pass
+    '''    public void addAttribute(final MboValueInfo attributeInfo)
+    '''
 def getAttribute():
-'''public MboValueInfo getAttribute(final String attributeName)
-'''
-pass
+    '''    public MboValueInfo getAttribute(final String attributeName)
+    '''
 def getEntity():
-'''public Entity getEntity()
-'''
-pass
+    '''    public Entity getEntity()
+    '''
 def setEntity():
-'''public void setEntity(final Entity entity)
-'''
-pass
+    '''    public void setEntity(final Entity entity)
+    '''
 def getAttributeCount():
-'''public int getAttributeCount()
-'''
-pass
+    '''    public int getAttributeCount()
+    '''
 def getPersistentAttributeCount():
-'''public int getPersistentAttributeCount()
-'''
-pass
+    '''    public int getPersistentAttributeCount()
+    '''
 def getExtendedAttributeCount():
-'''public int getExtendedAttributeCount()
-'''
-pass
+    '''    public int getExtendedAttributeCount()
+    '''
 def getFetchAttributeCount():
-'''public int getFetchAttributeCount()
-'''
-pass
+    '''    public int getFetchAttributeCount()
+    '''
 def getAttributes():
-'''public Iterator getAttributes()
-'''
-pass
+    '''    public Iterator getAttributes()
+    '''
 def getPersistentAttributes():
-'''public Iterator getPersistentAttributes()
-'''
-pass
+    '''    public Iterator getPersistentAttributes()
+    '''
 def getExtendedAttributes():
-'''public Iterator getExtendedAttributes()
-'''
-pass
+    '''    public Iterator getExtendedAttributes()
+    '''
 def getFetchAttributes():
-'''public Iterator getFetchAttributes()
-'''
-pass
+    '''    public Iterator getFetchAttributes()
+    '''
 def getKeyAttributeIterator():
-'''public Iterator getKeyAttributeIterator()
-'''
-pass
+    '''    public Iterator getKeyAttributeIterator()
+    '''
 def getLongDescriptionAttributes():
-'''public Iterator getLongDescriptionAttributes()
-'''
-pass
+    '''    public Iterator getLongDescriptionAttributes()
+    '''
 def getKeySize():
-'''public int getKeySize()
-'''
-pass
+    '''    public int getKeySize()
+    '''
 def getBaseMboInfo():
-'''public MboSetInfo getBaseMboInfo()
-'''
-pass
+    '''    public MboSetInfo getBaseMboInfo()
+    '''
 def setBaseMboInfo():
-'''public void setBaseMboInfo(final MboSetInfo info)
-'''
-pass
+    '''    public void setBaseMboInfo(final MboSetInfo info)
+    '''
 def isBasedOn():
-'''public boolean isBasedOn(final String name)
-'''
-pass
+    '''    public boolean isBasedOn(final String name)
+    '''
 def setPresistentAttributeNumber():
-'''public void setPresistentAttributeNumber(final int persistentAttributeNumber)
-'''
-pass
+    '''    public void setPresistentAttributeNumber(final int persistentAttributeNumber)
+    '''
 def setExtendedAttributeNumber():
-'''public void setExtendedAttributeNumber(final int extendedAttributeNumber)
-'''
-pass
+    '''    public void setExtendedAttributeNumber(final int extendedAttributeNumber)
+    '''
 def setFetchAttributeNumber():
-'''public void setFetchAttributeNumber(final int fetchAttributeNumber)
-'''
-pass
+    '''    public void setFetchAttributeNumber(final int fetchAttributeNumber)
+    '''
 def getPresistentAttributeNumber():
-'''public int getPresistentAttributeNumber()
-'''
-pass
+    '''    public int getPresistentAttributeNumber()
+    '''
 def getExtendedAttributeNumber():
-'''public int getExtendedAttributeNumber()
-'''
-pass
+    '''    public int getExtendedAttributeNumber()
+    '''
 def getFetchAttributeNumber():
-'''public int getFetchAttributeNumber()
-'''
-pass
+    '''    public int getFetchAttributeNumber()
+    '''
 def getMboLogger():
-'''public MXLogger getMboLogger()
-'''
-pass
+    '''    public MXLogger getMboLogger()
+    '''
 def getSecurityLogger():
-'''public MXLogger getSecurityLogger()
-'''
-pass
+    '''    public MXLogger getSecurityLogger()
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def getServiceInfo():
-'''public ServiceInfo getServiceInfo()
-'''
-pass
+    '''    public ServiceInfo getServiceInfo()
+    '''
 def setServiceInfo():
-'''public void setServiceInfo(final ServiceInfo si)
-'''
-pass
+    '''    public void setServiceInfo(final ServiceInfo si)
+    '''
 def getMboSetClass():
-'''public Class getMboSetClass()
-'''
-pass
+    '''    public Class getMboSetClass()
+    '''
 def getMboValueCount():
-'''public int getMboValueCount()
-'''
-pass
+    '''    public int getMboValueCount()
+    '''
 def getKeyAttributes():
-'''public String[] getKeyAttributes()
-'''
-pass
+    '''    public String[] getKeyAttributes()
+    '''
 def getKeyRelationship():
-'''public String getKeyRelationship()
-'''
-pass
+    '''    public String getKeyRelationship()
+    '''
 def getMboValueInfo():
-'''public MboValueInfo getMboValueInfo(final String attributeName)
-'''
-pass
+    '''    public MboValueInfo getMboValueInfo(final String attributeName)
+    '''
 def getMboValuesInfo():
-'''public Enumeration getMboValuesInfo()
-'''
-pass
+    '''    public Enumeration getMboValuesInfo()
+    '''
 def setRelationships():
-'''public void setRelationships(final HashMap<String, RelationInfo> relationships)
-'''
-pass
+    '''    public void setRelationships(final HashMap<String, RelationInfo> relationships)
+    '''
 def getRelationInfo():
-'''public RelationInfo getRelationInfo(final String relationshipName)
-'''
-pass
+    '''    public RelationInfo getRelationInfo(final String relationshipName)
+    '''
 def getRelationshipToChild():
-'''public RelationInfo getRelationshipToChild(final String child)
-'''
-pass
+    '''    public RelationInfo getRelationshipToChild(final String child)
+    '''
 def getRelationsInfo():
-'''public Iterator getRelationsInfo()
-'''
-pass
+    '''    public Iterator getRelationsInfo()
+    '''
 def getEAuditAttributes():
-'''public Iterator getEAuditAttributes()
-'''
-pass
+    '''    public Iterator getEAuditAttributes()
+    '''
 def getLangTableNames():
-'''public HashMap<String, String> getLangTableNames()
-'''
-pass
+    '''    public HashMap<String, String> getLangTableNames()
+    '''
 def getTableAndColumn():
-'''public String[] getTableAndColumn(final String attr)
-'''
-pass
+    '''    public String[] getTableAndColumn(final String attr)
+    '''
 def isMLInUse():
-'''public boolean isMLInUse()
-'''
-pass
+    '''    public boolean isMLInUse()
+    '''
 def isAuditTable():
-'''public boolean isAuditTable()
-'''
-pass
+    '''    public boolean isAuditTable()
+    '''
 def isLanguageTable():
-'''public boolean isLanguageTable()
-'''
-pass
+    '''    public boolean isLanguageTable()
+    '''
 def isTextSearchEnabled():
-'''public boolean isTextSearchEnabled()
-'''
-pass
+    '''    public boolean isTextSearchEnabled()
+    '''
 def getInitEventTopic():
-'''public EventTopic[] getInitEventTopic()
-'''
-pass
+    '''    public EventTopic[] getInitEventTopic()
+    '''
 def getAppValidateEventTopic():
-'''public EventTopic[] getAppValidateEventTopic()
-'''
-pass
+    '''    public EventTopic[] getAppValidateEventTopic()
+    '''
 def getAllUniqueColumns():
-'''public HashSet<String> getAllUniqueColumns()
-'''
-pass
+    '''    public HashSet<String> getAllUniqueColumns()
+    '''
 def isAsUniqueId():
-'''public boolean isAsUniqueId(final String attrName)
-'''
-pass
+    '''    public boolean isAsUniqueId(final String attrName)
+    '''
 def getTransactionLogger():
-'''public MXLogger getTransactionLogger()
-'''
-pass
+    '''    public MXLogger getTransactionLogger()
+    '''
 def hasNullableKeyAttr():
-'''public boolean hasNullableKeyAttr()
-'''
-pass
+    '''    public boolean hasNullableKeyAttr()
+    '''
 def resolveReferences():
-'''public void resolveReferences()
-'''
-pass
+    '''    public void resolveReferences()
+    '''
 def hasExtendedAttrs():
-'''public boolean hasExtendedAttrs()
-'''
-pass
+    '''    public boolean hasExtendedAttrs()
+    '''
 def setHasExtendedAttrs():
-'''public void setHasExtendedAttrs(final boolean hasExtendedAttrs)
-'''
-pass
+    '''    public void setHasExtendedAttrs(final boolean hasExtendedAttrs)
+    '''
 def getLatitude():
-'''public String getLatitude()
-'''
-pass
+    '''    public String getLatitude()
+    '''
 def getLongtitude():
-'''public String getLongtitude()
-'''
-pass
+    '''    public String getLongtitude()
+    '''
 def setLatitude():
-'''public void setLatitude(final String refy)
-'''
-pass
+    '''    public void setLatitude(final String refy)
+    '''
 def setLongtitude():
-'''public void setLongtitude(final String refx)
-'''
-pass
+    '''    public void setLongtitude(final String refx)
+    '''
 def getExtendedViewName():
-'''public String getExtendedViewName()
-'''
-pass
+    '''    public String getExtendedViewName()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''
 def compare():
-'''public int compare(final Object o1, final Object o2)
-public int compare(final Object o1, final Object o2)
-public int compare(final Object o1, final Object o2)
-public int compare(final Object o1, final Object o2)
-public int compare(final Object o1, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o1, final Object o2)
+    public int compare(final Object o1, final Object o2)
+    public int compare(final Object o1, final Object o2)
+    public int compare(final Object o1, final Object o2)
+    public int compare(final Object o1, final Object o2)
+    '''
 def AttributeIterator():
-'''public AttributeIterator(final Iterator iterator)
-'''
-pass
+    '''    public AttributeIterator(final Iterator iterator)
+    '''
 def remove():
-'''public void remove()
-public void remove()
-'''
-pass
+    '''    public void remove()
+    public void remove()
+    '''
 def RelationIterator():
-'''public RelationIterator(final Iterator iterator)
-'''
-pass
+    '''    public RelationIterator(final Iterator iterator)
+    '''
 def MboValueInfoEnumerator():
-'''public MboValueInfoEnumerator()
-'''
-pass
+    '''    public MboValueInfoEnumerator()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''

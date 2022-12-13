@@ -1,28 +1,21 @@
 def LdapSyncCronTask():
-'''public LdapSyncCronTask()
-'''
-pass
+    '''    public LdapSyncCronTask()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getParameterValidationMbo():
-'''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
-'''
-pass
+    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''

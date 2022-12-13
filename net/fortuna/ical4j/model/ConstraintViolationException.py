@@ -1,5 +1,4 @@
 def ConstraintViolationException():
-'''public ConstraintViolationException()
-public ConstraintViolationException(final String message)
-'''
-pass
+    '''    public ConstraintViolationException()
+    public ConstraintViolationException(final String message)
+    '''

@@ -1,65 +1,49 @@
-COPYRIGHT = "String  \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def TopologyControl():
-'''public TopologyControl()
-'''
-pass
+    '''    public TopologyControl()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def handleServletRequest():
-'''public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def handlBusinessViewRequest():
-'''public ArrayList<Object> handlBusinessViewRequest(final AppInstance appInst, final String parmDetailView, final int depth, final boolean showImpacted, final String cinumValue)
-'''
-pass
+    '''    public ArrayList<Object> handlBusinessViewRequest(final AppInstance appInst, final String parmDetailView, final int depth, final boolean showImpacted, final String cinumValue)
+    '''
 def loadTaskTargetsAndImpacts():
-'''public ArrayList<ImplTaskTargetHelper> loadTaskTargetsAndImpacts(final AppInstance appInst)
-'''
-pass
+    '''    public ArrayList<ImplTaskTargetHelper> loadTaskTargetsAndImpacts(final AppInstance appInst)
+    '''
 def hasImplementationTask():
-'''public boolean hasImplementationTask(final AppInstance appInst)
-'''
-pass
+    '''    public boolean hasImplementationTask(final AppInstance appInst)
+    '''
 def getTopologyMaxNodes():
-'''public int getTopologyMaxNodes()
-'''
-pass
+    '''    public int getTopologyMaxNodes()
+    '''
 def setTopologyMaxNodes():
-'''public void setTopologyMaxNodes(final int topologyMaxNodes)
-'''
-pass
+    '''    public void setTopologyMaxNodes(final int topologyMaxNodes)
+    '''
 def getTopologyDepth():
-'''public String getTopologyDepth()
-'''
-pass
+    '''    public String getTopologyDepth()
+    '''
 def setTopologyDepth():
-'''public void setTopologyDepth(final String topologyDepth)
-'''
-pass
+    '''    public void setTopologyDepth(final String topologyDepth)
+    '''
 def getTopologyInitDepth():
-'''public String getTopologyInitDepth()
-'''
-pass
+    '''    public String getTopologyInitDepth()
+    '''
 def setTopologyInitDepth():
-'''public void setTopologyInitDepth(final String topologyInitDepth)
-'''
-pass
+    '''    public void setTopologyInitDepth(final String topologyInitDepth)
+    '''
 def isDetailView():
-'''public boolean isDetailView()
-'''
-pass
+    '''    public boolean isDetailView()
+    '''
 def setDetailView():
-'''public void setDetailView(final String detailView)
-'''
-pass
+    '''    public void setDetailView(final String detailView)
+    '''
 def getImpactedCI():
-'''public Hashtable<String, Boolean> getImpactedCI()
-'''
-pass
+    '''    public Hashtable<String, Boolean> getImpactedCI()
+    '''
 def setImpactedCI():
-'''public void setImpactedCI(final Hashtable<String, Boolean> impactedCI)
-'''
-pass
+    '''    public void setImpactedCI(final Hashtable<String, Boolean> impactedCI)
+    '''

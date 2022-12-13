@@ -1,4 +1,3 @@
 def parse():
-'''public IoTDisowned parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public IoTDisowned parse(final XmlPullParser parser, final int initialDepth)
+    '''

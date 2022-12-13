@@ -1,262 +1,202 @@
 def findColumn():
-'''public int findColumn(final String col)
-'''
-pass
+    '''    public int findColumn(final String col)
+    '''
 def next():
-'''public boolean next()
-'''
-pass
+    '''    public boolean next()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getFetchSize():
-'''public int getFetchSize()
-'''
-pass
+    '''    public int getFetchSize()
+    '''
 def setFetchSize():
-'''public void setFetchSize(final int rows)
-'''
-pass
+    '''    public void setFetchSize(final int rows)
+    '''
 def getFetchDirection():
-'''public int getFetchDirection()
-'''
-pass
+    '''    public int getFetchDirection()
+    '''
 def setFetchDirection():
-'''public void setFetchDirection(final int d)
-'''
-pass
+    '''    public void setFetchDirection(final int d)
+    '''
 def isAfterLast():
-'''public boolean isAfterLast()
-'''
-pass
+    '''    public boolean isAfterLast()
+    '''
 def isBeforeFirst():
-'''public boolean isBeforeFirst()
-'''
-pass
+    '''    public boolean isBeforeFirst()
+    '''
 def isFirst():
-'''public boolean isFirst()
-'''
-pass
+    '''    public boolean isFirst()
+    '''
 def isLast():
-'''public boolean isLast()
-'''
-pass
+    '''    public boolean isLast()
+    '''
 def getRow():
-'''public int getRow()
-'''
-pass
+    '''    public int getRow()
+    '''
 def wasNull():
-'''public boolean wasNull()
-'''
-pass
+    '''    public boolean wasNull()
+    '''
 def getBigDecimal():
-'''public BigDecimal getBigDecimal(final int col)
-public BigDecimal getBigDecimal(final String col)
-'''
-pass
+    '''    public BigDecimal getBigDecimal(final int col)
+    public BigDecimal getBigDecimal(final String col)
+    '''
 def getBoolean():
-'''public boolean getBoolean(final int col)
-public boolean getBoolean(final String col)
-'''
-pass
+    '''    public boolean getBoolean(final int col)
+    public boolean getBoolean(final String col)
+    '''
 def getBinaryStream():
-'''public InputStream getBinaryStream(final int col)
-public InputStream getBinaryStream(final String col)
-'''
-pass
+    '''    public InputStream getBinaryStream(final int col)
+    public InputStream getBinaryStream(final String col)
+    '''
 def getByte():
-'''public byte getByte(final int col)
-public byte getByte(final String col)
-'''
-pass
+    '''    public byte getByte(final int col)
+    public byte getByte(final String col)
+    '''
 def getBytes():
-'''public byte[] getBytes(final int col)
-public byte[] getBytes(final String col)
-'''
-pass
+    '''    public byte[] getBytes(final int col)
+    public byte[] getBytes(final String col)
+    '''
 def getCharacterStream():
-'''public Reader getCharacterStream(final int col)
-public Reader getCharacterStream(final String col)
-'''
-pass
+    '''    public Reader getCharacterStream(final int col)
+    public Reader getCharacterStream(final String col)
+    '''
 def getDate():
-'''public Date getDate(final int col)
-public Date getDate(final int col, final Calendar cal)
-public Date getDate(final String col)
-public Date getDate(final String col, final Calendar cal)
-'''
-pass
+    '''    public Date getDate(final int col)
+    public Date getDate(final int col, final Calendar cal)
+    public Date getDate(final String col)
+    public Date getDate(final String col, final Calendar cal)
+    '''
 def getDouble():
-'''public double getDouble(final int col)
-public double getDouble(final String col)
-'''
-pass
+    '''    public double getDouble(final int col)
+    public double getDouble(final String col)
+    '''
 def getFloat():
-'''public float getFloat(final int col)
-public float getFloat(final String col)
-'''
-pass
+    '''    public float getFloat(final int col)
+    public float getFloat(final String col)
+    '''
 def getInt():
-'''public int getInt(final int col)
-public int getInt(final String col)
-'''
-pass
+    '''    public int getInt(final int col)
+    public int getInt(final String col)
+    '''
 def getLong():
-'''public long getLong(final int col)
-public long getLong(final String col)
-'''
-pass
+    '''    public long getLong(final int col)
+    public long getLong(final String col)
+    '''
 def getShort():
-'''public short getShort(final int col)
-public short getShort(final String col)
-'''
-pass
+    '''    public short getShort(final int col)
+    public short getShort(final String col)
+    '''
 def getString():
-'''public String getString(final int col)
-public String getString(final String col)
-'''
-pass
+    '''    public String getString(final int col)
+    public String getString(final String col)
+    '''
 def getTime():
-'''public Time getTime(final int col)
-public Time getTime(final int col, final Calendar cal)
-public Time getTime(final String col)
-public Time getTime(final String col, final Calendar cal)
-'''
-pass
+    '''    public Time getTime(final int col)
+    public Time getTime(final int col, final Calendar cal)
+    public Time getTime(final String col)
+    public Time getTime(final String col, final Calendar cal)
+    '''
 def getTimestamp():
-'''public Timestamp getTimestamp(final int col)
-public Timestamp getTimestamp(final int col, final Calendar cal)
-public Timestamp getTimestamp(final String col)
-public Timestamp getTimestamp(final String c, final Calendar ca)
-'''
-pass
+    '''    public Timestamp getTimestamp(final int col)
+    public Timestamp getTimestamp(final int col, final Calendar cal)
+    public Timestamp getTimestamp(final String col)
+    public Timestamp getTimestamp(final String c, final Calendar ca)
+    '''
 def getObject():
-'''public Object getObject(final int col)
-public Object getObject(final String col)
-'''
-pass
+    '''    public Object getObject(final int col)
+    public Object getObject(final String col)
+    '''
 def getStatement():
-'''public Statement getStatement()
-'''
-pass
+    '''    public Statement getStatement()
+    '''
 def getCursorName():
-'''public String getCursorName()
-'''
-pass
+    '''    public String getCursorName()
+    '''
 def getWarnings():
-'''public SQLWarning getWarnings()
-'''
-pass
+    '''    public SQLWarning getWarnings()
+    '''
 def clearWarnings():
-'''public void clearWarnings()
-'''
-pass
+    '''    public void clearWarnings()
+    '''
 def getMetaData():
-'''public ResultSetMetaData getMetaData()
-'''
-pass
+    '''    public ResultSetMetaData getMetaData()
+    '''
 def getCatalogName():
-'''public String getCatalogName(final int col)
-'''
-pass
+    '''    public String getCatalogName(final int col)
+    '''
 def getColumnClassName():
-'''public String getColumnClassName(final int col)
-'''
-pass
+    '''    public String getColumnClassName(final int col)
+    '''
 def getColumnCount():
-'''public int getColumnCount()
-'''
-pass
+    '''    public int getColumnCount()
+    '''
 def getColumnDisplaySize():
-'''public int getColumnDisplaySize(final int col)
-'''
-pass
+    '''    public int getColumnDisplaySize(final int col)
+    '''
 def getColumnLabel():
-'''public String getColumnLabel(final int col)
-'''
-pass
+    '''    public String getColumnLabel(final int col)
+    '''
 def getColumnName():
-'''public String getColumnName(final int col)
-'''
-pass
+    '''    public String getColumnName(final int col)
+    '''
 def getColumnType():
-'''public int getColumnType(final int col)
-'''
-pass
+    '''    public int getColumnType(final int col)
+    '''
 def getColumnTypeName():
-'''public String getColumnTypeName(final int col)
-'''
-pass
+    '''    public String getColumnTypeName(final int col)
+    '''
 def getPrecision():
-'''public int getPrecision(final int col)
-'''
-pass
+    '''    public int getPrecision(final int col)
+    '''
 def getScale():
-'''public int getScale(final int col)
-'''
-pass
+    '''    public int getScale(final int col)
+    '''
 def getSchemaName():
-'''public String getSchemaName(final int col)
-'''
-pass
+    '''    public String getSchemaName(final int col)
+    '''
 def getTableName():
-'''public String getTableName(final int col)
-'''
-pass
+    '''    public String getTableName(final int col)
+    '''
 def isNullable():
-'''public int isNullable(final int col)
-'''
-pass
+    '''    public int isNullable(final int col)
+    '''
 def isAutoIncrement():
-'''public boolean isAutoIncrement(final int col)
-'''
-pass
+    '''    public boolean isAutoIncrement(final int col)
+    '''
 def isCaseSensitive():
-'''public boolean isCaseSensitive(final int col)
-'''
-pass
+    '''    public boolean isCaseSensitive(final int col)
+    '''
 def isCurrency():
-'''public boolean isCurrency(final int col)
-'''
-pass
+    '''    public boolean isCurrency(final int col)
+    '''
 def isDefinitelyWritable():
-'''public boolean isDefinitelyWritable(final int col)
-'''
-pass
+    '''    public boolean isDefinitelyWritable(final int col)
+    '''
 def isReadOnly():
-'''public boolean isReadOnly(final int col)
-'''
-pass
+    '''    public boolean isReadOnly(final int col)
+    '''
 def isSearchable():
-'''public boolean isSearchable(final int col)
-'''
-pass
+    '''    public boolean isSearchable(final int col)
+    '''
 def isSigned():
-'''public boolean isSigned(final int col)
-'''
-pass
+    '''    public boolean isSigned(final int col)
+    '''
 def isWritable():
-'''public boolean isWritable(final int col)
-'''
-pass
+    '''    public boolean isWritable(final int col)
+    '''
 def getConcurrency():
-'''public int getConcurrency()
-'''
-pass
+    '''    public int getConcurrency()
+    '''
 def rowDeleted():
-'''public boolean rowDeleted()
-'''
-pass
+    '''    public boolean rowDeleted()
+    '''
 def rowInserted():
-'''public boolean rowInserted()
-'''
-pass
+    '''    public boolean rowInserted()
+    '''
 def rowUpdated():
-'''public boolean rowUpdated()
-'''
-pass
+    '''    public boolean rowUpdated()
+    '''
 def checkCalendar():
-'''public void checkCalendar(final Calendar cal)
-'''
-pass
+    '''    public void checkCalendar(final Calendar cal)
+    '''

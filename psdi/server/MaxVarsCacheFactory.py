@@ -1,24 +1,18 @@
 def getInstance():
-'''public static MaxVarsCacheFactory getInstance()
-'''
-pass
+    '''    public static MaxVarsCacheFactory getInstance()
+    '''
 def getCache():
-'''public MaxVars getCache()
-'''
-pass
+    '''    public MaxVars getCache()
+    '''
 def getMaxVarsType():
-'''public Hashtable<String, String> getMaxVarsType()
-'''
-pass
+    '''    public Hashtable<String, String> getMaxVarsType()
+    '''
 def getMaxVarsSystemCache():
-'''public MaxVarsSystem getMaxVarsSystemCache()
-'''
-pass
+    '''    public MaxVarsSystem getMaxVarsSystemCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

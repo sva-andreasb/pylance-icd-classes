@@ -1,8 +1,6 @@
 def RedirectException():
-'''public RedirectException(final String targetURL)
-'''
-pass
+    '''    public RedirectException(final String targetURL)
+    '''
 def getTargetURL():
-'''public String getTargetURL()
-'''
-pass
+    '''    public String getTargetURL()
+    '''

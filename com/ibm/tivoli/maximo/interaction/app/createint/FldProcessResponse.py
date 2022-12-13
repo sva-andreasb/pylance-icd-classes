@@ -1,8 +1,6 @@
 def FldProcessResponse():
-'''public FldProcessResponse(final MboValue mbv)
-'''
-pass
+    '''    public FldProcessResponse(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

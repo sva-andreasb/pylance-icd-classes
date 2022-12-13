@@ -1,40 +1,30 @@
 def KeyValuePair():
-'''public KeyValuePair(final String key, final String value)
-'''
-pass
+    '''    public KeyValuePair(final String key, final String value)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def setKey():
-'''public Builder setKey(final String aKey)
-'''
-pass
+    '''    public Builder setKey(final String aKey)
+    '''
 def setValue():
-'''public Builder setValue(final String aValue)
-'''
-pass
+    '''    public Builder setValue(final String aValue)
+    '''
 def build():
-'''public KeyValuePair build()
-'''
-pass
+    '''    public KeyValuePair build()
+    '''

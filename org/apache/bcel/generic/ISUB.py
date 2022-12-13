@@ -1,8 +1,6 @@
 def ISUB():
-'''public ISUB()
-'''
-pass
+    '''    public ISUB()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

@@ -1,12 +1,9 @@
 def main():
-'''public static void main(final String[] array)
-'''
-pass
+    '''    public static void main(final String[] array)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''

@@ -1,8 +1,6 @@
 def set():
-'''public RegexIterator set(final Iterator baseIterator, final Matcher matcher)
-'''
-pass
+    '''    public RegexIterator set(final Iterator baseIterator, final Matcher matcher)
+    '''
 def isIncluded():
-'''public boolean isIncluded(final Object item)
-'''
-pass
+    '''    public boolean isIncluded(final Object item)
+    '''

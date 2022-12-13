@@ -1,181 +1,139 @@
 def getRawText():
-'''public String getRawText()
-'''
-pass
+    '''    public String getRawText()
+    '''
 def setText():
-'''public void setText(final String text)
-'''
-pass
+    '''    public void setText(final String text)
+    '''
 def getXmlObject():
-'''public XmlObject getXmlObject()
-'''
-pass
+    '''    public XmlObject getXmlObject()
+    '''
 def setFontColor():
-'''public void setFontColor(final Color color)
-public void setFontColor(final PaintStyle color)
-'''
-pass
+    '''    public void setFontColor(final Color color)
+    public void setFontColor(final PaintStyle color)
+    '''
 def getFontColor():
-'''public PaintStyle getFontColor()
-'''
-pass
+    '''    public PaintStyle getFontColor()
+    '''
 def fetch():
-'''public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-public boolean fetch(final CTTextCharacterProperties props)
-'''
-pass
+    '''    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    public boolean fetch(final CTTextCharacterProperties props)
+    '''
 def setFontSize():
-'''public void setFontSize(final Double fontSize)
-'''
-pass
+    '''    public void setFontSize(final Double fontSize)
+    '''
 def getFontSize():
-'''public Double getFontSize()
-'''
-pass
+    '''    public Double getFontSize()
+    '''
 def getCharacterSpacing():
-'''public double getCharacterSpacing()
-'''
-pass
+    '''    public double getCharacterSpacing()
+    '''
 def setCharacterSpacing():
-'''public void setCharacterSpacing(final double spc)
-'''
-pass
+    '''    public void setCharacterSpacing(final double spc)
+    '''
 def setFontFamily():
-'''public void setFontFamily(final String typeface)
-public void setFontFamily(final String typeface, final FontGroup fontGroup)
-'''
-pass
+    '''    public void setFontFamily(final String typeface)
+    public void setFontFamily(final String typeface, final FontGroup fontGroup)
+    '''
 def setFontInfo():
-'''public void setFontInfo(final FontInfo fontInfo, final FontGroup fontGroup)
-'''
-pass
+    '''    public void setFontInfo(final FontInfo fontInfo, final FontGroup fontGroup)
+    '''
 def getFontFamily():
-'''public String getFontFamily()
-public String getFontFamily(final FontGroup fontGroup)
-'''
-pass
+    '''    public String getFontFamily()
+    public String getFontFamily(final FontGroup fontGroup)
+    '''
 def getFontInfo():
-'''public FontInfo getFontInfo(final FontGroup fontGroup)
-'''
-pass
+    '''    public FontInfo getFontInfo(final FontGroup fontGroup)
+    '''
 def getPitchAndFamily():
-'''public byte getPitchAndFamily()
-'''
-pass
+    '''    public byte getPitchAndFamily()
+    '''
 def setStrikethrough():
-'''public void setStrikethrough(final boolean strike)
-'''
-pass
+    '''    public void setStrikethrough(final boolean strike)
+    '''
 def isStrikethrough():
-'''public boolean isStrikethrough()
-'''
-pass
+    '''    public boolean isStrikethrough()
+    '''
 def isSuperscript():
-'''public boolean isSuperscript()
-'''
-pass
+    '''    public boolean isSuperscript()
+    '''
 def setBaselineOffset():
-'''public void setBaselineOffset(final double baselineOffset)
-'''
-pass
+    '''    public void setBaselineOffset(final double baselineOffset)
+    '''
 def setSuperscript():
-'''public void setSuperscript(final boolean flag)
-'''
-pass
+    '''    public void setSuperscript(final boolean flag)
+    '''
 def setSubscript():
-'''public void setSubscript(final boolean flag)
-'''
-pass
+    '''    public void setSubscript(final boolean flag)
+    '''
 def isSubscript():
-'''public boolean isSubscript()
-'''
-pass
+    '''    public boolean isSubscript()
+    '''
 def setBold():
-'''public void setBold(final boolean bold)
-'''
-pass
+    '''    public void setBold(final boolean bold)
+    '''
 def isBold():
-'''public boolean isBold()
-'''
-pass
+    '''    public boolean isBold()
+    '''
 def setItalic():
-'''public void setItalic(final boolean italic)
-'''
-pass
+    '''    public void setItalic(final boolean italic)
+    '''
 def isItalic():
-'''public boolean isItalic()
-'''
-pass
+    '''    public boolean isItalic()
+    '''
 def setUnderlined():
-'''public void setUnderlined(final boolean underline)
-'''
-pass
+    '''    public void setUnderlined(final boolean underline)
+    '''
 def isUnderlined():
-'''public boolean isUnderlined()
-'''
-pass
+    '''    public boolean isUnderlined()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def createHyperlink():
-'''public XSLFHyperlink createHyperlink()
-'''
-pass
+    '''    public XSLFHyperlink createHyperlink()
+    '''
 def getHyperlink():
-'''public XSLFHyperlink getHyperlink()
-'''
-pass
+    '''    public XSLFHyperlink getHyperlink()
+    '''
 def copyFrom():
-'''public void copyFrom(final FontInfo fontInfo)
-'''
-pass
+    '''    public void copyFrom(final FontInfo fontInfo)
+    '''
 def getIndex():
-'''public Integer getIndex()
-'''
-pass
+    '''    public Integer getIndex()
+    '''
 def setIndex():
-'''public void setIndex(final int index)
-'''
-pass
+    '''    public void setIndex(final int index)
+    '''
 def getTypeface():
-'''public String getTypeface()
-'''
-pass
+    '''    public String getTypeface()
+    '''
 def setTypeface():
-'''public void setTypeface(final String typeface)
-'''
-pass
+    '''    public void setTypeface(final String typeface)
+    '''
 def getCharset():
-'''public FontCharset getCharset()
-'''
-pass
+    '''    public FontCharset getCharset()
+    '''
 def setCharset():
-'''public void setCharset(final FontCharset charset)
-'''
-pass
+    '''    public void setCharset(final FontCharset charset)
+    '''
 def getFamily():
-'''public FontFamily getFamily()
-'''
-pass
+    '''    public FontFamily getFamily()
+    '''
 def setFamily():
-'''public void setFamily(final FontFamily family)
-'''
-pass
+    '''    public void setFamily(final FontFamily family)
+    '''
 def getPitch():
-'''public FontPitch getPitch()
-'''
-pass
+    '''    public FontPitch getPitch()
+    '''
 def setPitch():
-'''public void setPitch(final FontPitch pitch)
-'''
-pass
+    '''    public void setPitch(final FontPitch pitch)
+    '''

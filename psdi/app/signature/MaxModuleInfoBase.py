@@ -1,16 +1,12 @@
 def getModuleName():
-'''public String getModuleName()
-'''
-pass
+    '''    public String getModuleName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getValue():
-'''public String getValue(final String in)
-'''
-pass
+    '''    public String getValue(final String in)
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

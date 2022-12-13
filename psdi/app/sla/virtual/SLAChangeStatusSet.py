@@ -1,12 +1,9 @@
 def SLAChangeStatusSet():
-'''public SLAChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SLAChangeStatusSet(final MboServerInterface ms)
+    '''
 def hasEscalation():
-'''public boolean hasEscalation(final MboSetRemote slas)
-'''
-pass
+    '''    public boolean hasEscalation(final MboSetRemote slas)
+    '''
 def deactivateEscalation():
-'''public void deactivateEscalation(final boolean deactivate)
-'''
-pass
+    '''    public void deactivateEscalation(final boolean deactivate)
+    '''

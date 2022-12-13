@@ -1,8 +1,6 @@
 def getServiceInfo():
-'''public static synchronized ServiceInfo getServiceInfo(String serviceName)
-'''
-pass
+    '''    public static synchronized ServiceInfo getServiceInfo(String serviceName)
+    '''
 def getAllServiceInfo():
-'''public static synchronized Map<String, ServiceInfo> getAllServiceInfo()
-'''
-pass
+    '''    public static synchronized Map<String, ServiceInfo> getAllServiceInfo()
+    '''

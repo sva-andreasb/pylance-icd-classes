@@ -1,49 +1,37 @@
 def emitType():
-'''public static String emitType(final JClass cls)
-'''
-pass
+    '''    public static String emitType(final JClass cls)
+    '''
 def contains():
-'''public boolean contains(final String fullJavaName)
-'''
-pass
+    '''    public boolean contains(final String fullJavaName)
+    '''
 def getStaticHandler():
-'''public String getStaticHandler()
-'''
-pass
+    '''    public String getStaticHandler()
+    '''
 def getInterface():
-'''public String getInterface()
-'''
-pass
+    '''    public String getInterface()
+    '''
 def getMethods():
-'''public MethodSignature[] getMethods()
-'''
-pass
+    '''    public MethodSignature[] getMethods()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getReturnType():
-'''public String getReturnType()
-'''
-pass
+    '''    public String getReturnType()
+    '''
 def getParameterTypes():
-'''public String[] getParameterTypes()
-'''
-pass
+    '''    public String[] getParameterTypes()
+    '''
 def getExceptionTypes():
-'''public String[] getExceptionTypes()
-'''
-pass
+    '''    public String[] getExceptionTypes()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

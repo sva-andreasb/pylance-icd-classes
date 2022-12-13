@@ -1,60 +1,45 @@
 def SearchClassificationBean():
-'''public SearchClassificationBean()
-'''
-pass
+    '''    public SearchClassificationBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def getOriginatingAttribute():
-'''public String getOriginatingAttribute()
-'''
-pass
+    '''    public String getOriginatingAttribute()
+    '''
 def getOriginatingDataBean():
-'''public DataBean getOriginatingDataBean()
-'''
-pass
+    '''    public DataBean getOriginatingDataBean()
+    '''
 def getSelectedClassStructure():
-'''public MboRemote getSelectedClassStructure()
-'''
-pass
+    '''    public MboRemote getSelectedClassStructure()
+    '''
 def classAndAttributesSearch():
-'''public int classAndAttributesSearch()
-'''
-pass
+    '''    public int classAndAttributesSearch()
+    '''
 def clearSearch():
-'''public int clearSearch()
-'''
-pass
+    '''    public int clearSearch()
+    '''
 def getResultSetForReturn():
-'''public MboSetRemote getResultSetForReturn()
-'''
-pass
+    '''    public MboSetRemote getResultSetForReturn()
+    '''
 def getAttributeForReturn():
-'''public String getAttributeForReturn()
-'''
-pass
+    '''    public String getAttributeForReturn()
+    '''
 def getResultObjectName():
-'''public String getResultObjectName()
-'''
-pass
+    '''    public String getResultObjectName()
+    '''
 def setResultSetToReturn():
-'''public void setResultSetToReturn(final MboSetRemote mboSet)
-'''
-pass
+    '''    public void setResultSetToReturn(final MboSetRemote mboSet)
+    '''
 def setSelectValueBean():
-'''public void setSelectValueBean(final DataBean selectBean)
-'''
-pass
+    '''    public void setSelectValueBean(final DataBean selectBean)
+    '''
 def getTop():
-'''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
-'''
-pass
+    '''    public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''
 def getClassSpecDataBean():
-'''public DataBean getClassSpecDataBean()
-'''
-pass
+    '''    public DataBean getClassSpecDataBean()
+    '''

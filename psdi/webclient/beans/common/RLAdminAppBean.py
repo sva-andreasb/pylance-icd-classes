@@ -1,8 +1,6 @@
 def releasereclock():
-'''public int releasereclock()
-'''
-pass
+    '''    public int releasereclock()
+    '''
 def RECUNLOCK():
-'''public int RECUNLOCK()
-'''
-pass
+    '''    public int RECUNLOCK()
+    '''

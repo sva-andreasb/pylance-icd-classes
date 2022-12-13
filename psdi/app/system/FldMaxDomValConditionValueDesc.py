@@ -1,8 +1,6 @@
 def FldMaxDomValConditionValueDesc():
-'''public FldMaxDomValConditionValueDesc(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxDomValConditionValueDesc(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

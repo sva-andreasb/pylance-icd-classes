@@ -1,8 +1,6 @@
 def addPortletsToLeft():
-'''public int addPortletsToLeft()
-'''
-pass
+    '''    public int addPortletsToLeft()
+    '''
 def addPortletsToRight():
-'''public int addPortletsToRight()
-'''
-pass
+    '''    public int addPortletsToRight()
+    '''

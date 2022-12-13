@@ -1,28 +1,21 @@
 def DailyCrewReassign():
-'''public DailyCrewReassign(final MboSet ms)
-'''
-pass
+    '''    public DailyCrewReassign(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getCurrentShiftStartDate():
-'''public Date getCurrentShiftStartDate()
-'''
-pass
+    '''    public Date getCurrentShiftStartDate()
+    '''
 def getCurrentShiftEndDate():
-'''public Date getCurrentShiftEndDate()
-'''
-pass
+    '''    public Date getCurrentShiftEndDate()
+    '''
 def setDialogID():
-'''public void setDialogID(final String currentDialogID)
-'''
-pass
+    '''    public void setDialogID(final String currentDialogID)
+    '''
 def getDialogID():
-'''public String getDialogID()
-'''
-pass
+    '''    public String getDialogID()
+    '''
 def checkForLaborAlreadyAssigned():
-'''public void checkForLaborAlreadyAssigned(final String laborCode, final Date specifiedEffectiveDate)
-'''
-pass
+    '''    public void checkForLaborAlreadyAssigned(final String laborCode, final Date specifiedEffectiveDate)
+    '''

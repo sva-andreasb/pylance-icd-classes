@@ -1,25 +1,19 @@
 def OctTreeQuantizer():
-'''public OctTreeQuantizer()
-'''
-pass
+    '''    public OctTreeQuantizer()
+    '''
 def setup():
-'''public void setup(final int numColors)
-'''
-pass
+    '''    public void setup(final int numColors)
+    '''
 def addPixels():
-'''public void addPixels(final int[] pixels, final int offset, final int count)
-'''
-pass
+    '''    public void addPixels(final int[] pixels, final int offset, final int count)
+    '''
 def getIndexForColor():
-'''public int getIndexForColor(final int rgb)
-'''
-pass
+    '''    public int getIndexForColor(final int rgb)
+    '''
 def buildColorTable():
-'''public int[] buildColorTable()
-public void buildColorTable(final int[] inPixels, final int[] table)
-'''
-pass
+    '''    public int[] buildColorTable()
+    public void buildColorTable(final int[] inPixels, final int[] table)
+    '''
 def list():
-'''public void list(final PrintStream s, final int level)
-'''
-pass
+    '''    public void list(final PrintStream s, final int level)
+    '''

@@ -1,8 +1,6 @@
 def FldViewWOPMsShowChildren():
-'''public FldViewWOPMsShowChildren(final MboValue mbv)
-'''
-pass
+    '''    public FldViewWOPMsShowChildren(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

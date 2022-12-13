@@ -1,20 +1,15 @@
 def FldLabTransTicketID():
-'''public FldLabTransTicketID(final MboValue mbv)
-'''
-pass
+    '''    public FldLabTransTicketID(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,53 +1,40 @@
 def StartCenter():
-'''public StartCenter()
-'''
-pass
+    '''    public StartCenter()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getAppBean():
-'''public StartCenterAppBean getAppBean()
-'''
-pass
+    '''    public StartCenterAppBean getAppBean()
+    '''
 def getCurrentStartCenterId():
-'''public String getCurrentStartCenterId()
-'''
-pass
+    '''    public String getCurrentStartCenterId()
+    '''
 def changelayout():
-'''public void changelayout()
-'''
-pass
+    '''    public void changelayout()
+    '''
 def deletePortlet():
-'''public void deletePortlet(final String portletLayoutId, final String portletColumn)
-public void deletePortlet(final long uniqueId)
-'''
-pass
+    '''    public void deletePortlet(final String portletLayoutId, final String portletColumn)
+    public void deletePortlet(final long uniqueId)
+    '''
 def setPortletState():
-'''public void setPortletState(final long uniqueId, final boolean state)
-'''
-pass
+    '''    public void setPortletState(final long uniqueId, final boolean state)
+    '''
 def createtemplate():
-'''public int createtemplate()
-'''
-pass
+    '''    public int createtemplate()
+    '''
 def changestartcenter():
-'''public void changestartcenter()
-'''
-pass
+    '''    public void changestartcenter()
+    '''
 def savetemplate():
-'''public void savetemplate()
-'''
-pass
+    '''    public void savetemplate()
+    '''
 def deletetemplate():
-'''public void deletetemplate()
-'''
-pass
+    '''    public void deletetemplate()
+    '''
 def updatestartcenter():
-'''public void updatestartcenter()
-'''
-pass
+    '''    public void updatestartcenter()
+    '''
 def cancelchanges():
-'''public void cancelchanges()
-'''
-pass
+    '''    public void cancelchanges()
+    '''

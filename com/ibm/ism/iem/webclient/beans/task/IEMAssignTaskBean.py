@@ -1,16 +1,12 @@
 def nexttab():
-'''public int nexttab()
-'''
-pass
+    '''    public int nexttab()
+    '''
 def filterSWPKG():
-'''public void filterSWPKG()
-'''
-pass
+    '''    public void filterSWPKG()
+    '''
 def setNEXTok():
-'''public void setNEXTok(final boolean enabled)
-'''
-pass
+    '''    public void setNEXTok(final boolean enabled)
+    '''
 def setASSIGNok():
-'''public void setASSIGNok(final boolean enabled)
-'''
-pass
+    '''    public void setASSIGNok(final boolean enabled)
+    '''

@@ -1,69 +1,53 @@
 def ByteArrayBuilder():
-'''public ByteArrayBuilder()
-public ByteArrayBuilder(final BufferRecycler br)
-public ByteArrayBuilder(final int firstBlockSize)
-public ByteArrayBuilder(final BufferRecycler br, final int firstBlockSize)
-'''
-pass
+    '''    public ByteArrayBuilder()
+    public ByteArrayBuilder(final BufferRecycler br)
+    public ByteArrayBuilder(final int firstBlockSize)
+    public ByteArrayBuilder(final BufferRecycler br, final int firstBlockSize)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''
 def append():
-'''public void append(final int i)
-'''
-pass
+    '''    public void append(final int i)
+    '''
 def appendTwoBytes():
-'''public void appendTwoBytes(final int b16)
-'''
-pass
+    '''    public void appendTwoBytes(final int b16)
+    '''
 def appendThreeBytes():
-'''public void appendThreeBytes(final int b24)
-'''
-pass
+    '''    public void appendThreeBytes(final int b24)
+    '''
 def toByteArray():
-'''public byte[] toByteArray()
-'''
-pass
+    '''    public byte[] toByteArray()
+    '''
 def resetAndGetFirstSegment():
-'''public byte[] resetAndGetFirstSegment()
-'''
-pass
+    '''    public byte[] resetAndGetFirstSegment()
+    '''
 def finishCurrentSegment():
-'''public byte[] finishCurrentSegment()
-'''
-pass
+    '''    public byte[] finishCurrentSegment()
+    '''
 def completeAndCoalesce():
-'''public byte[] completeAndCoalesce(final int lastBlockLength)
-'''
-pass
+    '''    public byte[] completeAndCoalesce(final int lastBlockLength)
+    '''
 def getCurrentSegment():
-'''public byte[] getCurrentSegment()
-'''
-pass
+    '''    public byte[] getCurrentSegment()
+    '''
 def setCurrentSegmentLength():
-'''public void setCurrentSegmentLength(final int len)
-'''
-pass
+    '''    public void setCurrentSegmentLength(final int len)
+    '''
 def getCurrentSegmentLength():
-'''public int getCurrentSegmentLength()
-'''
-pass
+    '''    public int getCurrentSegmentLength()
+    '''
 def write():
-'''public void write(final byte[] b)
-public void write(final byte[] b, int off, int len)
-public void write(final int b)
-'''
-pass
+    '''    public void write(final byte[] b)
+    public void write(final byte[] b, int off, int len)
+    public void write(final int b)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''

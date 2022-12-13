@@ -1,24 +1,18 @@
 def UiListItem():
-'''public UiListItem(final ULocale minimized, final ULocale modified, final String nameInDisplayLocale, final String nameInSelf)
-'''
-pass
+    '''    public UiListItem(final ULocale minimized, final ULocale modified, final String nameInDisplayLocale, final String nameInSelf)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getComparator():
-'''public static Comparator<UiListItem> getComparator(final Comparator<Object> comparator, final boolean inSelf)
-'''
-pass
+    '''    public static Comparator<UiListItem> getComparator(final Comparator<Object> comparator, final boolean inSelf)
+    '''
 def compare():
-'''public int compare(final UiListItem o1, final UiListItem o2)
-'''
-pass
+    '''    public int compare(final UiListItem o1, final UiListItem o2)
+    '''

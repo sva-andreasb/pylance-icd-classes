@@ -1,36 +1,27 @@
 def BudgetAnalysisAxis():
-'''public BudgetAnalysisAxis(final MboSet ms)
-'''
-pass
+    '''    public BudgetAnalysisAxis(final MboSet ms)
+    '''
 def getBudgetAnalysisAxisNum():
-'''public String getBudgetAnalysisAxisNum()
-'''
-pass
+    '''    public String getBudgetAnalysisAxisNum()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getDescriptionAttributeName():
-'''public String getDescriptionAttributeName()
-'''
-pass
+    '''    public String getDescriptionAttributeName()
+    '''
 def getCondition():
-'''public MaxCondition getCondition()
-'''
-pass
+    '''    public MaxCondition getCondition()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

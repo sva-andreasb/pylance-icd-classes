@@ -1,4 +1,3 @@
 def EnumDeserializerFactory():
-'''public EnumDeserializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public EnumDeserializerFactory(final Class javaType, final QName xmlType)
+    '''

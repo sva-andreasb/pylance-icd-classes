@@ -1,8 +1,6 @@
 def FldProcessResourceMaxType():
-'''public FldProcessResourceMaxType(final MboValue mbv)
-'''
-pass
+    '''    public FldProcessResourceMaxType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

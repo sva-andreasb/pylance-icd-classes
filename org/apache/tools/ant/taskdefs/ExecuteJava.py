@@ -1,52 +1,39 @@
 def ExecuteJava():
-'''public ExecuteJava()
-'''
-pass
+    '''    public ExecuteJava()
+    '''
 def setJavaCommand():
-'''public void setJavaCommand(final Commandline javaCommand)
-'''
-pass
+    '''    public void setJavaCommand(final Commandline javaCommand)
+    '''
 def setClasspath():
-'''public void setClasspath(final Path p)
-'''
-pass
+    '''    public void setClasspath(final Path p)
+    '''
 def setSystemProperties():
-'''public void setSystemProperties(final CommandlineJava.SysProperties s)
-'''
-pass
+    '''    public void setSystemProperties(final CommandlineJava.SysProperties s)
+    '''
 def setPermissions():
-'''public void setPermissions(final Permissions permissions)
-'''
-pass
+    '''    public void setPermissions(final Permissions permissions)
+    '''
 def setOutput():
-'''public void setOutput(final PrintStream out)
-'''
-pass
+    '''    public void setOutput(final PrintStream out)
+    '''
 def setTimeout():
-'''public void setTimeout(final Long timeout)
-'''
-pass
+    '''    public void setTimeout(final Long timeout)
+    '''
 def execute():
-'''public void execute(final Project project)
-'''
-pass
+    '''    public void execute(final Project project)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def timeoutOccured():
-'''public synchronized void timeoutOccured(final Watchdog w)
-'''
-pass
+    '''    public synchronized void timeoutOccured(final Watchdog w)
+    '''
 def killedProcess():
-'''public synchronized boolean killedProcess()
-'''
-pass
+    '''    public synchronized boolean killedProcess()
+    '''
 def fork():
-'''public int fork(final ProjectComponent pc)
-'''
-pass
+    '''    public int fork(final ProjectComponent pc)
+    '''
 def setupCommandLineForVMS():
-'''public static void setupCommandLineForVMS(final Execute exe, final String[] command)
-'''
-pass
+    '''    public static void setupCommandLineForVMS(final Execute exe, final String[] command)
+    '''

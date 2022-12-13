@@ -1,16 +1,12 @@
 def SKDRescheduleWorkBean():
-'''public SKDRescheduleWorkBean()
-'''
-pass
+    '''    public SKDRescheduleWorkBean()
+    '''
 def setValue():
-'''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-'''
-pass
+    '''    public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

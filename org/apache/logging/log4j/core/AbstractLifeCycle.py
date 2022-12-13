@@ -1,38 +1,29 @@
 DEFAULT_STOP_TIMEOUT = "int  0"
 def AbstractLifeCycle():
-'''public AbstractLifeCycle()
-'''
-pass
+    '''    public AbstractLifeCycle()
+    '''
 def isInitialized():
-'''public boolean isInitialized()
-'''
-pass
+    '''    public boolean isInitialized()
+    '''
 def isStarted():
-'''public boolean isStarted()
-'''
-pass
+    '''    public boolean isStarted()
+    '''
 def isStarting():
-'''public boolean isStarting()
-'''
-pass
+    '''    public boolean isStarting()
+    '''
 def isStopped():
-'''public boolean isStopped()
-'''
-pass
+    '''    public boolean isStopped()
+    '''
 def isStopping():
-'''public boolean isStopping()
-'''
-pass
+    '''    public boolean isStopping()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-public boolean stop(final long timeout, final TimeUnit timeUnit)
-'''
-pass
+    '''    public void stop()
+    public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''

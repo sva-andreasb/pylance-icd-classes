@@ -1,8 +1,6 @@
 def VTimeZoneValidator():
-'''public VTimeZoneValidator(final ValidationRule... rules)
-'''
-pass
+    '''    public VTimeZoneValidator(final ValidationRule... rules)
+    '''
 def validate():
-'''public void validate(final VTimeZone target)
-'''
-pass
+    '''    public void validate(final VTimeZone target)
+    '''

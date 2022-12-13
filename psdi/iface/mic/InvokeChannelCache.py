@@ -1,20 +1,15 @@
 def getInvokeInfo():
-'''public InvokeInfo getInvokeInfo(final String invkChannelName)
-'''
-pass
+    '''    public InvokeInfo getInvokeInfo(final String invkChannelName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstance():
-'''public static final InvokeChannelCache getInstance()
-'''
-pass
+    '''    public static final InvokeChannelCache getInstance()
+    '''
 def getInvokeChannelMap():
-'''public Map<String, InvokeChannel> getInvokeChannelMap()
-'''
-pass
+    '''    public Map<String, InvokeChannel> getInvokeChannelMap()
+    '''
 def getInvokeChannel():
-'''public InvokeChannel getInvokeChannel(final String invkChannelName)
-'''
-pass
+    '''    public InvokeChannel getInvokeChannel(final String invkChannelName)
+    '''

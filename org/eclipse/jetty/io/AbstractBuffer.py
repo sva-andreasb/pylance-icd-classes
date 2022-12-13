@@ -1,170 +1,130 @@
 def AbstractBuffer():
-'''public AbstractBuffer(final int access, final boolean isVolatile)
-'''
-pass
+    '''    public AbstractBuffer(final int access, final boolean isVolatile)
+    '''
 def asArray():
-'''public byte[] asArray()
-'''
-pass
+    '''    public byte[] asArray()
+    '''
 def duplicate():
-'''public ByteArrayBuffer duplicate(final int access)
-'''
-pass
+    '''    public ByteArrayBuffer duplicate(final int access)
+    '''
 def asNonVolatileBuffer():
-'''public Buffer asNonVolatileBuffer()
-'''
-pass
+    '''    public Buffer asNonVolatileBuffer()
+    '''
 def asImmutableBuffer():
-'''public Buffer asImmutableBuffer()
-'''
-pass
+    '''    public Buffer asImmutableBuffer()
+    '''
 def asReadOnlyBuffer():
-'''public Buffer asReadOnlyBuffer()
-'''
-pass
+    '''    public Buffer asReadOnlyBuffer()
+    '''
 def asMutableBuffer():
-'''public Buffer asMutableBuffer()
-'''
-pass
+    '''    public Buffer asMutableBuffer()
+    '''
 def buffer():
-'''public Buffer buffer()
-'''
-pass
+    '''    public Buffer buffer()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def compact():
-'''public void compact()
-'''
-pass
+    '''    public void compact()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def equalsIgnoreCase():
-'''public boolean equalsIgnoreCase(final Buffer b)
-'''
-pass
+    '''    public boolean equalsIgnoreCase(final Buffer b)
+    '''
 def get():
-'''public byte get()
-public int get(final byte[] b, final int offset, int length)
-public Buffer get(final int length)
-'''
-pass
+    '''    public byte get()
+    public int get(final byte[] b, final int offset, int length)
+    public Buffer get(final int length)
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def hasContent():
-'''public boolean hasContent()
-'''
-pass
+    '''    public boolean hasContent()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isImmutable():
-'''public boolean isImmutable()
-'''
-pass
+    '''    public boolean isImmutable()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''
 def isVolatile():
-'''public boolean isVolatile()
-'''
-pass
+    '''    public boolean isVolatile()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def mark():
-'''public void mark()
-public void mark(final int offset)
-'''
-pass
+    '''    public void mark()
+    public void mark(final int offset)
+    '''
 def markIndex():
-'''public int markIndex()
-'''
-pass
+    '''    public int markIndex()
+    '''
 def peek():
-'''public byte peek()
-public Buffer peek(final int index, final int length)
-'''
-pass
+    '''    public byte peek()
+    public Buffer peek(final int index, final int length)
+    '''
 def poke():
-'''public int poke(int index, final Buffer src)
-public int poke(int index, final byte[] b, final int offset, int length)
-'''
-pass
+    '''    public int poke(int index, final Buffer src)
+    public int poke(int index, final byte[] b, final int offset, int length)
+    '''
 def put():
-'''public int put(final Buffer src)
-public void put(final byte b)
-public int put(final byte[] b, final int offset, final int length)
-public int put(final byte[] b)
-'''
-pass
+    '''    public int put(final Buffer src)
+    public void put(final byte b)
+    public int put(final byte[] b, final int offset, final int length)
+    public int put(final byte[] b)
+    '''
 def putIndex():
-'''public final int putIndex()
-'''
-pass
+    '''    public final int putIndex()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def rewind():
-'''public void rewind()
-'''
-pass
+    '''    public void rewind()
+    '''
 def setGetIndex():
-'''public void setGetIndex(final int getIndex)
-'''
-pass
+    '''    public void setGetIndex(final int getIndex)
+    '''
 def setMarkIndex():
-'''public void setMarkIndex(final int index)
-'''
-pass
+    '''    public void setMarkIndex(final int index)
+    '''
 def setPutIndex():
-'''public void setPutIndex(final int putIndex)
-'''
-pass
+    '''    public void setPutIndex(final int putIndex)
+    '''
 def skip():
-'''public int skip(int n)
-'''
-pass
+    '''    public int skip(int n)
+    '''
 def slice():
-'''public Buffer slice()
-'''
-pass
+    '''    public Buffer slice()
+    '''
 def sliceFromMark():
-'''public Buffer sliceFromMark()
-public Buffer sliceFromMark(final int length)
-'''
-pass
+    '''    public Buffer sliceFromMark()
+    public Buffer sliceFromMark(final int length)
+    '''
 def space():
-'''public int space()
-'''
-pass
+    '''    public int space()
+    '''
 def toDetailString():
-'''public String toDetailString()
-'''
-pass
+    '''    public String toDetailString()
+    '''
 def toString():
-'''public String toString()
-public String toString(final String charset)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String charset)
+    '''
 def toDebugString():
-'''public String toDebugString()
-'''
-pass
+    '''    public String toDebugString()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''
 def readFrom():
-'''public int readFrom(final InputStream in, final int max)
-'''
-pass
+    '''    public int readFrom(final InputStream in, final int max)
+    '''

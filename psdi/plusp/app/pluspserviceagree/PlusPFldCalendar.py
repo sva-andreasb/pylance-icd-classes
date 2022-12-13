@@ -1,16 +1,12 @@
 def PlusPFldCalendar():
-'''public PlusPFldCalendar(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldCalendar(final MboValue arg0)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

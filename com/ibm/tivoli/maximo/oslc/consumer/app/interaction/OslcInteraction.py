@@ -1,92 +1,69 @@
 def OslcInteraction():
-'''public OslcInteraction(final MboSet ms)
-'''
-pass
+    '''    public OslcInteraction(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def parse():
-'''public void parse(final OslcEndPointData oslcEndPointData)
-'''
-pass
+    '''    public void parse(final OslcEndPointData oslcEndPointData)
+    '''
 def setUsage():
-'''public void setUsage()
-'''
-pass
+    '''    public void setUsage()
+    '''
 def setQueriesAndParamaters():
-'''public void setQueriesAndParamaters()
-'''
-pass
+    '''    public void setQueriesAndParamaters()
+    '''
 def validateQuery():
-'''public void validateQuery()
-'''
-pass
+    '''    public void validateQuery()
+    '''
 def createInteraction():
-'''public String createInteraction(final byte[] present)
-'''
-pass
+    '''    public String createInteraction(final byte[] present)
+    '''
 def deleteInteraction():
-'''public String deleteInteraction(final byte[] presentataion)
-'''
-pass
+    '''    public String deleteInteraction(final byte[] presentataion)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def getDesigner():
-'''public OslcInteractionDesigner getDesigner()
-'''
-pass
+    '''    public OslcInteractionDesigner getDesigner()
+    '''
 def getAllproviders():
-'''public Map<String, String> getAllproviders()
-'''
-pass
+    '''    public Map<String, String> getAllproviders()
+    '''
 def setPresentataion():
-'''public void setPresentataion(final byte[] data)
-'''
-pass
+    '''    public void setPresentataion(final byte[] data)
+    '''
 def setTabList():
-'''public void setTabList()
-'''
-pass
+    '''    public void setTabList()
+    '''
 def getPresentataion():
-'''public byte[] getPresentataion()
-'''
-pass
+    '''    public byte[] getPresentataion()
+    '''
 def getTabMap():
-'''public Map<String, String> getTabMap()
-'''
-pass
+    '''    public Map<String, String> getTabMap()
+    '''
 def getAllUsages():
-'''public Set<String> getAllUsages()
-'''
-pass
+    '''    public Set<String> getAllUsages()
+    '''
 def hasRelation():
-'''public boolean hasRelation()
-'''
-pass
+    '''    public boolean hasRelation()
+    '''
 def checkInteractionGroup():
-'''public void checkInteractionGroup()
-'''
-pass
+    '''    public void checkInteractionGroup()
+    '''
 def logStep():
-'''public void logStep(final int step, final boolean isPrevious)
-'''
-pass
+    '''    public void logStep(final int step, final boolean isPrevious)
+    '''

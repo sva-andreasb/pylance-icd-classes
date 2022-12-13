@@ -1,16 +1,12 @@
 def SoftCache():
-'''public SoftCache()
-'''
-pass
+    '''    public SoftCache()
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def put():
-'''public Object put(final Object key, final Object value)
-'''
-pass
+    '''    public Object put(final Object key, final Object value)
+    '''
 def remove():
-'''public Object remove(final Object key)
-'''
-pass
+    '''    public Object remove(final Object key)
+    '''

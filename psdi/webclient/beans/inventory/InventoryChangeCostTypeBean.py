@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def refreshcosttype():
-'''public int refreshcosttype()
-'''
-pass
+    '''    public int refreshcosttype()
+    '''

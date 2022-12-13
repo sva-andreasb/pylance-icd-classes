@@ -1,4 +1,3 @@
 def POStatusSet():
-'''public POStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public POStatusSet(final MboServerInterface ms)
+    '''

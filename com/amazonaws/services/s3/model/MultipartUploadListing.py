@@ -1,100 +1,75 @@
 def MultipartUploadListing():
-'''public MultipartUploadListing()
-'''
-pass
+    '''    public MultipartUploadListing()
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getKeyMarker():
-'''public String getKeyMarker()
-'''
-pass
+    '''    public String getKeyMarker()
+    '''
 def setKeyMarker():
-'''public void setKeyMarker(final String keyMarker)
-'''
-pass
+    '''    public void setKeyMarker(final String keyMarker)
+    '''
 def getUploadIdMarker():
-'''public String getUploadIdMarker()
-'''
-pass
+    '''    public String getUploadIdMarker()
+    '''
 def setUploadIdMarker():
-'''public void setUploadIdMarker(final String uploadIdMarker)
-'''
-pass
+    '''    public void setUploadIdMarker(final String uploadIdMarker)
+    '''
 def getNextKeyMarker():
-'''public String getNextKeyMarker()
-'''
-pass
+    '''    public String getNextKeyMarker()
+    '''
 def setNextKeyMarker():
-'''public void setNextKeyMarker(final String nextKeyMarker)
-'''
-pass
+    '''    public void setNextKeyMarker(final String nextKeyMarker)
+    '''
 def getNextUploadIdMarker():
-'''public String getNextUploadIdMarker()
-'''
-pass
+    '''    public String getNextUploadIdMarker()
+    '''
 def setNextUploadIdMarker():
-'''public void setNextUploadIdMarker(final String nextUploadIdMarker)
-'''
-pass
+    '''    public void setNextUploadIdMarker(final String nextUploadIdMarker)
+    '''
 def getMaxUploads():
-'''public int getMaxUploads()
-'''
-pass
+    '''    public int getMaxUploads()
+    '''
 def setMaxUploads():
-'''public void setMaxUploads(final int maxUploads)
-'''
-pass
+    '''    public void setMaxUploads(final int maxUploads)
+    '''
 def getEncodingType():
-'''public String getEncodingType()
-'''
-pass
+    '''    public String getEncodingType()
+    '''
 def setEncodingType():
-'''public void setEncodingType(final String encodingType)
-'''
-pass
+    '''    public void setEncodingType(final String encodingType)
+    '''
 def isTruncated():
-'''public boolean isTruncated()
-'''
-pass
+    '''    public boolean isTruncated()
+    '''
 def setTruncated():
-'''public void setTruncated(final boolean isTruncated)
-'''
-pass
+    '''    public void setTruncated(final boolean isTruncated)
+    '''
 def getMultipartUploads():
-'''public List<MultipartUpload> getMultipartUploads()
-'''
-pass
+    '''    public List<MultipartUpload> getMultipartUploads()
+    '''
 def setMultipartUploads():
-'''public void setMultipartUploads(final List<MultipartUpload> multipartUploads)
-'''
-pass
+    '''    public void setMultipartUploads(final List<MultipartUpload> multipartUploads)
+    '''
 def getCommonPrefixes():
-'''public List<String> getCommonPrefixes()
-'''
-pass
+    '''    public List<String> getCommonPrefixes()
+    '''
 def setCommonPrefixes():
-'''public void setCommonPrefixes(final List<String> commonPrefixes)
-'''
-pass
+    '''    public void setCommonPrefixes(final List<String> commonPrefixes)
+    '''
 def getDelimiter():
-'''public String getDelimiter()
-'''
-pass
+    '''    public String getDelimiter()
+    '''
 def setDelimiter():
-'''public void setDelimiter(final String delimiter)
-'''
-pass
+    '''    public void setDelimiter(final String delimiter)
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''

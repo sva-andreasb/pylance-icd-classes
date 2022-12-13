@@ -1,8 +1,6 @@
 def getInstance():
-'''public static AdminHelper getInstance()
-'''
-pass
+    '''    public static AdminHelper getInstance()
+    '''
 def getPlatformHelper():
-'''public static PlatformHelper getPlatformHelper()
-'''
-pass
+    '''    public static PlatformHelper getPlatformHelper()
+    '''

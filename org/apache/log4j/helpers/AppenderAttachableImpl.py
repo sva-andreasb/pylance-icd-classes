@@ -1,37 +1,28 @@
 def AppenderAttachableImpl():
-'''public AppenderAttachableImpl()
-'''
-pass
+    '''    public AppenderAttachableImpl()
+    '''
 def addAppender():
-'''public void addAppender(final Appender newAppender)
-'''
-pass
+    '''    public void addAppender(final Appender newAppender)
+    '''
 def getAllAppenders():
-'''public Enumeration<Appender> getAllAppenders()
-'''
-pass
+    '''    public Enumeration<Appender> getAllAppenders()
+    '''
 def getAppender():
-'''public Appender getAppender(final String name)
-'''
-pass
+    '''    public Appender getAppender(final String name)
+    '''
 def isAttached():
-'''public boolean isAttached(final Appender appender)
-'''
-pass
+    '''    public boolean isAttached(final Appender appender)
+    '''
 def removeAllAppenders():
-'''public void removeAllAppenders()
-'''
-pass
+    '''    public void removeAllAppenders()
+    '''
 def removeAppender():
-'''public void removeAppender(final Appender appender)
-public void removeAppender(final String name)
-'''
-pass
+    '''    public void removeAppender(final Appender appender)
+    public void removeAppender(final String name)
+    '''
 def appendLoopOnAppenders():
-'''public int appendLoopOnAppenders(final LoggingEvent event)
-'''
-pass
+    '''    public int appendLoopOnAppenders(final LoggingEvent event)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

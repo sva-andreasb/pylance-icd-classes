@@ -1,79 +1,61 @@
-NAMESPACE = "String  jabber:x:event""
-ELEMENT = "String  x""
-OFFLINE = "String  offline""
-COMPOSING = "String  composing""
-DISPLAYED = "String  displayed""
-DELIVERED = "String  delivered""
-CANCELLED = "String  cancelled""
+NAMESPACE = "String  \"jabber:x:event\""
+ELEMENT = "String  \"x\""
+OFFLINE = "String  \"offline\""
+COMPOSING = "String  \"composing\""
+DISPLAYED = "String  \"displayed\""
+DELIVERED = "String  \"delivered\""
+CANCELLED = "String  \"cancelled\""
 def MessageEvent():
-'''public MessageEvent()
-'''
-pass
+    '''    public MessageEvent()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def isComposing():
-'''public boolean isComposing()
-'''
-pass
+    '''    public boolean isComposing()
+    '''
 def isDelivered():
-'''public boolean isDelivered()
-'''
-pass
+    '''    public boolean isDelivered()
+    '''
 def isDisplayed():
-'''public boolean isDisplayed()
-'''
-pass
+    '''    public boolean isDisplayed()
+    '''
 def isOffline():
-'''public boolean isOffline()
-'''
-pass
+    '''    public boolean isOffline()
+    '''
 def isCancelled():
-'''public boolean isCancelled()
-'''
-pass
+    '''    public boolean isCancelled()
+    '''
 def getStanzaId():
-'''public String getStanzaId()
-'''
-pass
+    '''    public String getStanzaId()
+    '''
 def getEventTypes():
-'''public List<String> getEventTypes()
-'''
-pass
+    '''    public List<String> getEventTypes()
+    '''
 def setComposing():
-'''public void setComposing(final boolean composing)
-'''
-pass
+    '''    public void setComposing(final boolean composing)
+    '''
 def setDelivered():
-'''public void setDelivered(final boolean delivered)
-'''
-pass
+    '''    public void setDelivered(final boolean delivered)
+    '''
 def setDisplayed():
-'''public void setDisplayed(final boolean displayed)
-'''
-pass
+    '''    public void setDisplayed(final boolean displayed)
+    '''
 def setOffline():
-'''public void setOffline(final boolean offline)
-'''
-pass
+    '''    public void setOffline(final boolean offline)
+    '''
 def setCancelled():
-'''public void setCancelled(final boolean cancelled)
-'''
-pass
+    '''    public void setCancelled(final boolean cancelled)
+    '''
 def setStanzaId():
-'''public void setStanzaId(final String packetID)
-'''
-pass
+    '''    public void setStanzaId(final String packetID)
+    '''
 def isMessageEventRequest():
-'''public boolean isMessageEventRequest()
-'''
-pass
+    '''    public boolean isMessageEventRequest()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''

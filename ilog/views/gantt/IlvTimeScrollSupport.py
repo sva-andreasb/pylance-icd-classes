@@ -1,67 +1,51 @@
 def IlvTimeScrollSupport():
-'''public IlvTimeScrollSupport(final IlvTimeScrollable owner)
-public IlvTimeScrollSupport()
-public IlvTimeScrollSupport(final IlvTimeScrollSupport ilvTimeScrollSupport)
-'''
-pass
+    '''    public IlvTimeScrollSupport(final IlvTimeScrollable owner)
+    public IlvTimeScrollSupport()
+    public IlvTimeScrollSupport(final IlvTimeScrollSupport ilvTimeScrollSupport)
+    '''
 def getTimeConverter():
-'''public IlvTimeConverter getTimeConverter()
-'''
-pass
+    '''    public IlvTimeConverter getTimeConverter()
+    '''
 def setTimeConverter():
-'''public void setTimeConverter(final IlvTimeConverter a)
-'''
-pass
+    '''    public void setTimeConverter(final IlvTimeConverter a)
+    '''
 def getViewStart():
-'''public int getViewStart()
-'''
-pass
+    '''    public int getViewStart()
+    '''
 def setViewStart():
-'''public void setViewStart(final int g)
-'''
-pass
+    '''    public void setViewStart(final int g)
+    '''
 def getViewWidth():
-'''public int getViewWidth()
-'''
-pass
+    '''    public int getViewWidth()
+    '''
 def setLeftToRight():
-'''public void setLeftToRight(final boolean i)
-'''
-pass
+    '''    public void setLeftToRight(final boolean i)
+    '''
 def isLeftToRight():
-'''public boolean isLeftToRight()
-'''
-pass
+    '''    public boolean isLeftToRight()
+    '''
 def isConstantZoomFactorOnWidthChange():
-'''public boolean isConstantZoomFactorOnWidthChange()
-'''
-pass
+    '''    public boolean isConstantZoomFactorOnWidthChange()
+    '''
 def setConstantZoomFactorOnWidthChange():
-'''public void setConstantZoomFactorOnWidthChange(final boolean d)
-'''
-pass
+    '''    public void setConstantZoomFactorOnWidthChange(final boolean d)
+    '''
 def setViewWidth():
-'''public void setViewWidth(final int h, final boolean b)
-public void setViewWidth(final int n)
-'''
-pass
+    '''    public void setViewWidth(final int h, final boolean b)
+    public void setViewWidth(final int n)
+    '''
 def getZoomFactor():
-'''public double getZoomFactor()
-'''
-pass
+    '''    public double getZoomFactor()
+    '''
 def getOffset():
-'''public double getOffset()
-'''
-pass
+    '''    public double getOffset()
+    '''
 def getTime():
-'''public Date getTime(final long n)
-'''
-pass
+    '''    public Date getTime(final long n)
+    '''
 def getLocation():
-'''public long getLocation(final Date date)
-'''
-pass
+    '''    public long getLocation(final Date date)
+    '''
 def computeVisibleTimeScroll():
-'''public Date computeVisibleTimeScroll(final long n, final long n2)
-'''
-pass
+    '''    public Date computeVisibleTimeScroll(final long n, final long n2)
+    '''

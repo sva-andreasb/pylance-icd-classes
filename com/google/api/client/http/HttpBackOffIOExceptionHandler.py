@@ -1,20 +1,15 @@
 def HttpBackOffIOExceptionHandler():
-'''public HttpBackOffIOExceptionHandler(final BackOff backOff)
-'''
-pass
+    '''    public HttpBackOffIOExceptionHandler(final BackOff backOff)
+    '''
 def getBackOff():
-'''public final BackOff getBackOff()
-'''
-pass
+    '''    public final BackOff getBackOff()
+    '''
 def getSleeper():
-'''public final Sleeper getSleeper()
-'''
-pass
+    '''    public final Sleeper getSleeper()
+    '''
 def setSleeper():
-'''public HttpBackOffIOExceptionHandler setSleeper(final Sleeper sleeper)
-'''
-pass
+    '''    public HttpBackOffIOExceptionHandler setSleeper(final Sleeper sleeper)
+    '''
 def handleIOException():
-'''public boolean handleIOException(final HttpRequest request, final boolean supportsRetry)
-'''
-pass
+    '''    public boolean handleIOException(final HttpRequest request, final boolean supportsRetry)
+    '''

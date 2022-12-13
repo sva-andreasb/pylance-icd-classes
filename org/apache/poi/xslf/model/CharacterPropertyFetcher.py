@@ -1,8 +1,6 @@
 def CharacterPropertyFetcher():
-'''public CharacterPropertyFetcher(final int level)
-'''
-pass
+    '''    public CharacterPropertyFetcher(final int level)
+    '''
 def fetch():
-'''public boolean fetch(final CTTextParagraphProperties props)
-'''
-pass
+    '''    public boolean fetch(final CTTextParagraphProperties props)
+    '''

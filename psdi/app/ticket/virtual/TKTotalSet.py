@@ -1,8 +1,6 @@
 def TKTotalSet():
-'''public TKTotalSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TKTotalSet(final MboServerInterface ms)
+    '''
 def getMbo():
-'''public MboRemote getMbo(final int pos)
-'''
-pass
+    '''    public MboRemote getMbo(final int pos)
+    '''

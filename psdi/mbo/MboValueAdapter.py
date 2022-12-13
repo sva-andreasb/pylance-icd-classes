@@ -1,72 +1,55 @@
 def MboValueAdapter():
-'''public MboValueAdapter()
-public MboValueAdapter(final MboValue mbv)
-'''
-pass
+    '''    public MboValueAdapter()
+    public MboValueAdapter(final MboValue mbv)
+    '''
 def getMboValue():
-'''public MboValue getMboValue()
-public MboValue getMboValue(final String attribute)
-'''
-pass
+    '''    public MboValue getMboValue()
+    public MboValue getMboValue(final String attribute)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String value, final boolean exact)
-public MboSetRemote smartFind(final String object, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String value, final boolean exact)
+    public MboSetRemote smartFind(final String object, final String value, final boolean exact)
+    '''
 def getIntegrationService():
-'''public ServiceRemote getIntegrationService()
-'''
-pass
+    '''    public ServiceRemote getIntegrationService()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''
 def getMatchingAttr():
-'''public String getMatchingAttr()
-public String getMatchingAttr(final String sourceObjectName)
-'''
-pass
+    '''    public String getMatchingAttr()
+    public String getMatchingAttr(final String sourceObjectName)
+    '''
 def setType():
-'''public void setType(final int type)
-'''
-pass
+    '''    public void setType(final int type)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''

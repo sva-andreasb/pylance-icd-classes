@@ -1,5 +1,4 @@
 def PdfXConformanceException():
-'''public PdfXConformanceException()
-public PdfXConformanceException(final String s)
-'''
-pass
+    '''    public PdfXConformanceException()
+    public PdfXConformanceException(final String s)
+    '''

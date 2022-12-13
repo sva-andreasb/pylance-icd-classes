@@ -1,4 +1,3 @@
 def PlusPCustPayerSet():
-'''public PlusPCustPayerSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPCustPayerSet(final MboServerInterface ms)
+    '''

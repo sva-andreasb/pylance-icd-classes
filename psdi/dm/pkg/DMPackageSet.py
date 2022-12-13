@@ -1,28 +1,21 @@
 def DMPackageSet():
-'''public DMPackageSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMPackageSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def addWarning():
-'''public void addWarning(final MXException e)
-'''
-pass
+    '''    public void addWarning(final MXException e)
+    '''
 def addWarnings():
-'''public void addWarnings(final MXException[] es)
-'''
-pass
+    '''    public void addWarnings(final MXException[] es)
+    '''
 def getWarnings():
-'''public MXException[] getWarnings()
-'''
-pass
+    '''    public MXException[] getWarnings()
+    '''
 def hasWarnings():
-'''public boolean hasWarnings()
-'''
-pass
+    '''    public boolean hasWarnings()
+    '''
 def clearWarnings():
-'''public void clearWarnings()
-'''
-pass
+    '''    public void clearWarnings()
+    '''

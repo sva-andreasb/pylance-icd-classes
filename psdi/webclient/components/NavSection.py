@@ -1,36 +1,27 @@
 def NavSection():
-'''public NavSection()
-'''
-pass
+    '''    public NavSection()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def buildData():
-'''public void buildData()
-'''
-pass
+    '''    public void buildData()
+    '''
 def getDataString():
-'''public String getDataString()
-'''
-pass
+    '''    public String getDataString()
+    '''
 def getData():
-'''public int getData()
-'''
-pass
+    '''    public int getData()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''
 def queryclick():
-'''public int queryclick()
-'''
-pass
+    '''    public int queryclick()
+    '''

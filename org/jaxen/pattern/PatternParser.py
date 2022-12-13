@@ -1,4 +1,3 @@
 def parse():
-'''public static Pattern parse(final String text)
-'''
-pass
+    '''    public static Pattern parse(final String text)
+    '''

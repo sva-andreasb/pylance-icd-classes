@@ -1,49 +1,37 @@
 def OptionArgument():
-'''public OptionArgument(final AbstractTool tool, final String name, final String description)
-'''
-pass
+    '''    public OptionArgument(final AbstractTool tool, final String name, final String description)
+    '''
 def addOption():
-'''public void addOption(final Object description, final Object value)
-'''
-pass
+    '''    public void addOption(final Object description, final Object value)
+    '''
 def getArgument():
-'''public Object getArgument()
-'''
-pass
+    '''    public Object getArgument()
+    '''
 def getUsage():
-'''public String getUsage()
-'''
-pass
+    '''    public String getUsage()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent evt)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent evt)
+    '''
 def Entry():
-'''public Entry(final Object value)
-public Entry(final Object description, final Object value)
-'''
-pass
+    '''    public Entry(final Object value)
+    public Entry(final Object description, final Object value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getValueToString():
-'''public String getValueToString()
-'''
-pass
+    '''    public String getValueToString()
+    '''
 def getDescription():
-'''public Object getDescription()
-'''
-pass
+    '''    public Object getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final Object description)
-'''
-pass
+    '''    public void setDescription(final Object description)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''

@@ -1,4 +1,3 @@
 def PlusPBillingMeterSet():
-'''public PlusPBillingMeterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPBillingMeterSet(final MboServerInterface ms)
+    '''

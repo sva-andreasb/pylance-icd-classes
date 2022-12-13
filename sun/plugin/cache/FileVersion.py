@@ -1,38 +1,30 @@
-defStrVersion = "String  x.x.x.x""
+defStrVersion = "String  \"x.x.x.x\""
 defIntVersion = "int  0"
-regEx = "String  \\p{XDigit}{1,4}\\.\\p{XDigit}{1,4}\\.\\p{XDigit}{1,4}\\.\\p{XDigit}{1,4}""
+regEx = "String  \"\\p{XDigit}{1,4}\\.\\p{XDigit}{1,4}\\.\\p{XDigit}{1,4}\\.\\p{XDigit}{1,4}\""
 def FileVersion():
-'''public FileVersion()
-public FileVersion(final String strVersion)
-public FileVersion(final long longVersion)
-'''
-pass
+    '''    public FileVersion()
+    public FileVersion(final String strVersion)
+    public FileVersion(final long longVersion)
+    '''
 def setVersion():
-'''public void setVersion(final long longVersion)
-public void setVersion(final String strVersion)
-'''
-pass
+    '''    public void setVersion(final long longVersion)
+    public void setVersion(final String strVersion)
+    '''
 def getVersionAsLong():
-'''public long getVersionAsLong()
-'''
-pass
+    '''    public long getVersionAsLong()
+    '''
 def getVersionAsString():
-'''public String getVersionAsString()
-'''
-pass
+    '''    public String getVersionAsString()
+    '''
 def isUpToDate():
-'''public boolean isUpToDate(final FileVersion fileVersion)
-'''
-pass
+    '''    public boolean isUpToDate(final FileVersion fileVersion)
+    '''
 def convertToLong():
-'''public static long convertToLong(final String s)
-'''
-pass
+    '''    public static long convertToLong(final String s)
+    '''
 def convertToString():
-'''public static String convertToString(final long n)
-'''
-pass
+    '''    public static String convertToString(final long n)
+    '''
 def getMessage():
-'''public static String getMessage(final String s)
-'''
-pass
+    '''    public static String getMessage(final String s)
+    '''

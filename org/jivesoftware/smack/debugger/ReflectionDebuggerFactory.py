@@ -1,12 +1,9 @@
 def setDebuggerClass():
-'''public static void setDebuggerClass(final Class<? extends SmackDebugger> debuggerClass)
-'''
-pass
+    '''    public static void setDebuggerClass(final Class<? extends SmackDebugger> debuggerClass)
+    '''
 def getDebuggerClass():
-'''public static Class<SmackDebugger> getDebuggerClass()
-'''
-pass
+    '''    public static Class<SmackDebugger> getDebuggerClass()
+    '''
 def create():
-'''public SmackDebugger create(final XMPPConnection connection)
-'''
-pass
+    '''    public SmackDebugger create(final XMPPConnection connection)
+    '''

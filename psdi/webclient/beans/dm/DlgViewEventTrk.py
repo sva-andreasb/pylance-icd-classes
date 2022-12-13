@@ -1,8 +1,6 @@
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

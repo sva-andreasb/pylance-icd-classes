@@ -1,36 +1,27 @@
 def addSectionListener():
-'''public void addSectionListener(final SectionListener obj)
-'''
-pass
+    '''    public void addSectionListener(final SectionListener obj)
+    '''
 def removeSectionListener():
-'''public void removeSectionListener(final SectionListener obj)
-'''
-pass
+    '''    public void removeSectionListener(final SectionListener obj)
+    '''
 def addAllowedUsers():
-'''public void addAllowedUsers(final STUser[] array)
-'''
-pass
+    '''    public void addAllowedUsers(final STUser[] array)
+    '''
 def removeAllowedUsers():
-'''public void removeAllowedUsers(final STUser[] array)
-'''
-pass
+    '''    public void removeAllowedUsers(final STUser[] array)
+    '''
 def isStage():
-'''public boolean isStage()
-'''
-pass
+    '''    public boolean isStage()
+    '''
 def getCapacity():
-'''public int getCapacity()
-'''
-pass
+    '''    public int getCapacity()
+    '''
 def getUsers():
-'''public Enumeration getUsers()
-'''
-pass
+    '''    public Enumeration getUsers()
+    '''
 def getPlace():
-'''public Place getPlace()
-'''
-pass
+    '''    public Place getPlace()
+    '''
 def processPlacesEvent():
-'''public void processPlacesEvent(final PlacesEvent placesEvent)
-'''
-pass
+    '''    public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''

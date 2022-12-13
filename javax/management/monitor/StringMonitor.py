@@ -1,62 +1,47 @@
 def getDerivedGaugeTimeStamp():
-'''public synchronized long getDerivedGaugeTimeStamp()
-public synchronized long getDerivedGaugeTimeStamp(final ObjectName objectName)
-'''
-pass
+    '''    public synchronized long getDerivedGaugeTimeStamp()
+    public synchronized long getDerivedGaugeTimeStamp(final ObjectName objectName)
+    '''
 def StringMonitor():
-'''public StringMonitor()
-'''
-pass
+    '''    public StringMonitor()
+    '''
 def start():
-'''public synchronized void start()
-'''
-pass
+    '''    public synchronized void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def getNotifyDiffer():
-'''public synchronized boolean getNotifyDiffer()
-'''
-pass
+    '''    public synchronized boolean getNotifyDiffer()
+    '''
 def getNotifyMatch():
-'''public synchronized boolean getNotifyMatch()
-'''
-pass
+    '''    public synchronized boolean getNotifyMatch()
+    '''
 def setGranularityPeriod():
-'''public synchronized void setGranularityPeriod(final long granularityPeriod)
-'''
-pass
+    '''    public synchronized void setGranularityPeriod(final long granularityPeriod)
+    '''
 def setNotifyDiffer():
-'''public synchronized void setNotifyDiffer(final boolean notifyDiffer)
-'''
-pass
+    '''    public synchronized void setNotifyDiffer(final boolean notifyDiffer)
+    '''
 def setNotifyMatch():
-'''public synchronized void setNotifyMatch(final boolean notifyMatch)
-'''
-pass
+    '''    public synchronized void setNotifyMatch(final boolean notifyMatch)
+    '''
 def getDerivedGauge():
-'''public synchronized String getDerivedGauge()
-public synchronized String getDerivedGauge(final ObjectName objectName)
-'''
-pass
+    '''    public synchronized String getDerivedGauge()
+    public synchronized String getDerivedGauge(final ObjectName objectName)
+    '''
 def getStringToCompare():
-'''public synchronized String getStringToCompare()
-'''
-pass
+    '''    public synchronized String getStringToCompare()
+    '''
 def setStringToCompare():
-'''public synchronized void setStringToCompare(final String stringToCompare)
-'''
-pass
+    '''    public synchronized void setStringToCompare(final String stringToCompare)
+    '''
 def getNotificationInfo():
-'''public MBeanNotificationInfo[] getNotificationInfo()
-'''
-pass
+    '''    public MBeanNotificationInfo[] getNotificationInfo()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def StringAlarmClock():
-'''public StringAlarmClock(final StringMonitor listener)
-'''
-pass
+    '''    public StringAlarmClock(final StringMonitor listener)
+    '''

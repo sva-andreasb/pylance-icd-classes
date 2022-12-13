@@ -1,24 +1,18 @@
 def SearchClassificationActionsBean():
-'''public SearchClassificationActionsBean()
-'''
-pass
+    '''    public SearchClassificationActionsBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getResultSetForReturn():
-'''public MboSetRemote getResultSetForReturn()
-'''
-pass
+    '''    public MboSetRemote getResultSetForReturn()
+    '''
 def getAttributeForReturn():
-'''public String getAttributeForReturn()
-'''
-pass
+    '''    public String getAttributeForReturn()
+    '''
 def getResultObjectName():
-'''public String getResultObjectName()
-'''
-pass
+    '''    public String getResultObjectName()
+    '''
 def setNewMboSet():
-'''public void setNewMboSet(final MboSetRemote newSet)
-'''
-pass
+    '''    public void setNewMboSet(final MboSetRemote newSet)
+    '''

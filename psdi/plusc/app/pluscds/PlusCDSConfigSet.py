@@ -1,8 +1,6 @@
 def PlusCDSConfigSet():
-'''public PlusCDSConfigSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCDSConfigSet(final MboServerInterface ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

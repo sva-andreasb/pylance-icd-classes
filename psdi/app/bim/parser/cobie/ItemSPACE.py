@@ -1,80 +1,60 @@
 def ItemSPACE():
-'''public ItemSPACE()
-'''
-pass
+    '''    public ItemSPACE()
+    '''
 def resolveRerefences():
-'''public void resolveRerefences(final Parser project, final long flags)
-'''
-pass
+    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''
 def levelFromAttribute():
-'''public boolean levelFromAttribute(final Parser project, final String name)
-'''
-pass
+    '''    public boolean levelFromAttribute(final Parser project, final String name)
+    '''
 def areaFromAttribute():
-'''public boolean areaFromAttribute(final Parser project, final String name)
-'''
-pass
+    '''    public boolean areaFromAttribute(final Parser project, final String name)
+    '''
 def skip():
-'''public boolean skip(final Parser parser, final long flags)
-'''
-pass
+    '''    public boolean skip(final Parser parser, final long flags)
+    '''
 def addComponent():
-'''public void addComponent(final ItemCOMPONENT component)
-'''
-pass
+    '''    public void addComponent(final ItemCOMPONENT component)
+    '''
 def components():
-'''public Enumeration<ItemCOMPONENT> components()
-'''
-pass
+    '''    public Enumeration<ItemCOMPONENT> components()
+    '''
 def getComponentCount():
-'''public int getComponentCount()
-'''
-pass
+    '''    public int getComponentCount()
+    '''
 def getDateTimeStamp():
-'''public String getDateTimeStamp()
-'''
-pass
+    '''    public String getDateTimeStamp()
+    '''
 def getFloorName():
-'''public String getFloorName()
-'''
-pass
+    '''    public String getFloorName()
+    '''
 def getFloorReference():
-'''public ItemFLOOR getFloorReference()
-'''
-pass
+    '''    public ItemFLOOR getFloorReference()
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def getRoomTag():
-'''public String getRoomTag()
-'''
-pass
+    '''    public String getRoomTag()
+    '''
 def getUsableHeight():
-'''public String getUsableHeight()
-'''
-pass
+    '''    public String getUsableHeight()
+    '''
 def setDateTimeStamp():
-'''public void setDateTimeStamp(final String dateTimeStamp)
-'''
-pass
+    '''    public void setDateTimeStamp(final String dateTimeStamp)
+    '''
 def setFloorReference():
-'''public void setFloorReference(final ItemFLOOR floorRef)
-'''
-pass
+    '''    public void setFloorReference(final ItemFLOOR floorRef)
+    '''
 def setFloorName():
-'''public void setFloorName(final String floorName)
-'''
-pass
+    '''    public void setFloorName(final String floorName)
+    '''
 def setRoomTag():
-'''public void setRoomTag(final String roomTag)
-'''
-pass
+    '''    public void setRoomTag(final String roomTag)
+    '''
 def setUsableHeight():
-'''public void setUsableHeight(final String usableHeight)
-'''
-pass
+    '''    public void setUsableHeight(final String usableHeight)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

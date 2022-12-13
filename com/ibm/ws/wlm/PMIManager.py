@@ -1,24 +1,18 @@
 def initializePMI():
-'''public static void initializePMI(final String moduleName)
-'''
-pass
+    '''    public static void initializePMI(final String moduleName)
+    '''
 def setClientId():
-'''public static void setClientId(final int orbId)
-'''
-pass
+    '''    public static void setClientId(final int orbId)
+    '''
 def getClientId():
-'''public static int getClientId()
-'''
-pass
+    '''    public static int getClientId()
+    '''
 def putAffinityType():
-'''public static void putAffinityType(final byte affinityType)
-'''
-pass
+    '''    public static void putAffinityType(final byte affinityType)
+    '''
 def getAffinityType():
-'''public static byte getAffinityType()
-'''
-pass
+    '''    public static byte getAffinityType()
+    '''
 def removeEntry():
-'''public static void removeEntry()
-'''
-pass
+    '''    public static void removeEntry()
+    '''

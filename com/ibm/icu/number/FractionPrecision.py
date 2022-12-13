@@ -1,8 +1,6 @@
 def withMinDigits():
-'''public Precision withMinDigits(final int minSignificantDigits)
-'''
-pass
+    '''    public Precision withMinDigits(final int minSignificantDigits)
+    '''
 def withMaxDigits():
-'''public Precision withMaxDigits(final int maxSignificantDigits)
-'''
-pass
+    '''    public Precision withMaxDigits(final int maxSignificantDigits)
+    '''

@@ -1,12 +1,9 @@
 def PmIncidentChgStatusAppBean():
-'''public PmIncidentChgStatusAppBean()
-'''
-pass
+    '''    public PmIncidentChgStatusAppBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getProperty():
-'''public String getProperty(final String propName)
-'''
-pass
+    '''    public String getProperty(final String propName)
+    '''

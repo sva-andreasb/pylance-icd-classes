@@ -1,8 +1,6 @@
 def ViewSecurityDet():
-'''public ViewSecurityDet(final MboSet ms)
-'''
-pass
+    '''    public ViewSecurityDet(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

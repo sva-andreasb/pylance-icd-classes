@@ -1,57 +1,43 @@
 def getActiveConnectionCount():
-'''public long getActiveConnectionCount()
-'''
-pass
+    '''    public long getActiveConnectionCount()
+    '''
 def getScheduledConnectionCount():
-'''public long getScheduledConnectionCount()
-'''
-pass
+    '''    public long getScheduledConnectionCount()
+    '''
 def getSuccessfulConnectionCount():
-'''public long getSuccessfulConnectionCount()
-'''
-pass
+    '''    public long getSuccessfulConnectionCount()
+    '''
 def getSuccessfulConnectionAverageDuration():
-'''public long getSuccessfulConnectionAverageDuration()
-'''
-pass
+    '''    public long getSuccessfulConnectionAverageDuration()
+    '''
 def getFailedConnectionCount():
-'''public long getFailedConnectionCount()
-'''
-pass
+    '''    public long getFailedConnectionCount()
+    '''
 def getFailedConnectionAverageDuration():
-'''public long getFailedConnectionAverageDuration()
-'''
-pass
+    '''    public long getFailedConnectionAverageDuration()
+    '''
 def getRequestCount():
-'''public long getRequestCount()
-'''
-pass
+    '''    public long getRequestCount()
+    '''
 def getRequestAverageDuration():
-'''public long getRequestAverageDuration()
-'''
-pass
+    '''    public long getRequestAverageDuration()
+    '''
 def getTaskCount():
-'''public long getTaskCount()
-'''
-pass
+    '''    public long getTaskCount()
+    '''
 def getTaskAverageDuration():
-'''public long getTaskAverageDuration()
-'''
-pass
+    '''    public long getTaskAverageDuration()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def increment():
-'''public void increment(final long startTime)
-'''
-pass
+    '''    public void increment(final long startTime)
+    '''
 def count():
-'''public long count()
-'''
-pass
+    '''    public long count()
+    '''
 def averageDuration():
-'''public long averageDuration()
-'''
-pass
+    '''    public long averageDuration()
+    '''

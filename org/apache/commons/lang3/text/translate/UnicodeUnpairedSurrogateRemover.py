@@ -1,4 +1,3 @@
 def translate():
-'''public boolean translate(final int codepoint, final Writer out)
-'''
-pass
+    '''    public boolean translate(final int codepoint, final Writer out)
+    '''

@@ -1,14 +1,11 @@
 def StanzaExtensionFilter():
-'''public StanzaExtensionFilter(final String elementName, final String namespace)
-public StanzaExtensionFilter(final String namespace)
-public StanzaExtensionFilter(final ExtensionElement packetExtension)
-'''
-pass
+    '''    public StanzaExtensionFilter(final String elementName, final String namespace)
+    public StanzaExtensionFilter(final String namespace)
+    public StanzaExtensionFilter(final ExtensionElement packetExtension)
+    '''
 def accept():
-'''public boolean accept(final Stanza packet)
-'''
-pass
+    '''    public boolean accept(final Stanza packet)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

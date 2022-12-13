@@ -1,4 +1,3 @@
 def LBSLocationSet():
-'''public LBSLocationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LBSLocationSet(final MboServerInterface ms)
+    '''

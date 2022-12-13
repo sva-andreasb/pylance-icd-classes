@@ -1,8 +1,6 @@
 def CALOAD():
-'''public CALOAD()
-'''
-pass
+    '''    public CALOAD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

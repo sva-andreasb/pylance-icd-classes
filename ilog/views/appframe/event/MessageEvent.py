@@ -1,12 +1,9 @@
 def MessageEvent():
-'''public MessageEvent(final Object source, final String a, final Object[] array)
-'''
-pass
+    '''    public MessageEvent(final Object source, final String a, final Object[] array)
+    '''
 def getMessageName():
-'''public String getMessageName()
-'''
-pass
+    '''    public String getMessageName()
+    '''
 def getMessageParameters():
-'''public final Object[] getMessageParameters()
-'''
-pass
+    '''    public final Object[] getMessageParameters()
+    '''

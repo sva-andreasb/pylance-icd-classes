@@ -1,8 +1,6 @@
 def FldSafetyLexiconHazardID():
-'''public FldSafetyLexiconHazardID(final MboValue mbv)
-'''
-pass
+    '''    public FldSafetyLexiconHazardID(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

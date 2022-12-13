@@ -1,12 +1,9 @@
 def FldWorkType():
-'''public FldWorkType(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkType(final MboValue mbv)
+    '''
 def buildListCriteria():
-'''public String buildListCriteria()
-'''
-pass
+    '''    public String buildListCriteria()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

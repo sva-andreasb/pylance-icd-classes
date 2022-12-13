@@ -1,53 +1,41 @@
 def BulletinBoardService():
-'''public BulletinBoardService()
-public BulletinBoardService(final MXServer mxServer)
-public BulletinBoardService(final String url, final MXServer mxServer)
-'''
-pass
+    '''    public BulletinBoardService()
+    public BulletinBoardService(final MXServer mxServer)
+    public BulletinBoardService(final String url, final MXServer mxServer)
+    '''
 def post():
-'''public void post(final String key)
-public void post(final String key, final UserInfo userInfo)
-'''
-pass
+    '''    public void post(final String key)
+    public void post(final String key, final UserInfo userInfo)
+    '''
 def isPosted():
-'''public boolean isPosted(final String key)
-public boolean isPosted(final String key, final UserInfo userInfo)
-'''
-pass
+    '''    public boolean isPosted(final String key)
+    public boolean isPosted(final String key, final UserInfo userInfo)
+    '''
 def remove():
-'''public void remove(final String key)
-public void remove(final String key, final UserInfo userInfo)
-'''
-pass
+    '''    public void remove(final String key)
+    public void remove(final String key, final UserInfo userInfo)
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def isAppService():
-'''public boolean isAppService()
-'''
-pass
+    '''    public boolean isAppService()
+    '''
 def restart():
-'''public void restart()
-'''
-pass
+    '''    public void restart()
+    '''
 def configure():
-'''public void configure(final Properties configData)
-'''
-pass
+    '''    public void configure(final Properties configData)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def setURL():
-'''public void setURL(final String url)
-'''
-pass
+    '''    public void setURL(final String url)
+    '''
 def isInitialized():
-'''public boolean isInitialized()
-'''
-pass
+    '''    public boolean isInitialized()
+    '''

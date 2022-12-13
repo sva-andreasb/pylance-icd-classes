@@ -1,16 +1,12 @@
 def newStruct():
-'''public static Struct newStruct(final Type... fields)
-'''
-pass
+    '''    public static Struct newStruct(final Type... fields)
+    '''
 def Struct():
-'''public Struct(final Type... fields)
-'''
-pass
+    '''    public Struct(final Type... fields)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

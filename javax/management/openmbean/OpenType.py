@@ -1,16 +1,12 @@
 def isArray():
-'''public boolean isArray()
-'''
-pass
+    '''    public boolean isArray()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''

@@ -1,24 +1,18 @@
 def setStatusLevel():
-'''public void setStatusLevel(final String val)
-'''
-pass
+    '''    public void setStatusLevel(final String val)
+    '''
 def getStatusLevel():
-'''public String getStatusLevel()
-'''
-pass
+    '''    public String getStatusLevel()
+    '''
 def setDescription():
-'''public void setDescription(final String val)
-'''
-pass
+    '''    public void setDescription(final String val)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setStartPage():
-'''public void setStartPage(final String val)
-'''
-pass
+    '''    public void setStartPage(final String val)
+    '''
 def getStartPage():
-'''public String getStartPage()
-'''
-pass
+    '''    public String getStartPage()
+    '''

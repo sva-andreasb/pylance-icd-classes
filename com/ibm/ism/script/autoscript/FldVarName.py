@@ -1,8 +1,6 @@
 def FldVarName():
-'''public FldVarName(final MboValue mbv)
-'''
-pass
+    '''    public FldVarName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

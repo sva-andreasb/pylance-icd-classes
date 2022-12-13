@@ -1,8 +1,6 @@
 def setFile():
-'''public void setFile(final File file)
-'''
-pass
+    '''    public void setFile(final File file)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

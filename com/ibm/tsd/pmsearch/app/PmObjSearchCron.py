@@ -1,9 +1,7 @@
-EMPTY_STRING = "String "
+EMPTY_STRING = "String  \"\""
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

@@ -1,95 +1,74 @@
 def PdfOutline():
-'''public PdfOutline(final PdfOutline parent, final PdfAction action, final String title)
-public PdfOutline(final PdfOutline parent, final PdfAction action, final String title, final boolean open)
-public PdfOutline(final PdfOutline parent, final PdfDestination destination, final String title)
-public PdfOutline(final PdfOutline parent, final PdfDestination destination, final String title, final boolean open)
-public PdfOutline(final PdfOutline parent, final PdfAction action, final PdfString title)
-public PdfOutline(final PdfOutline parent, final PdfAction action, final PdfString title, final boolean open)
-public PdfOutline(final PdfOutline parent, final PdfDestination destination, final PdfString title)
-public PdfOutline(final PdfOutline parent, final PdfDestination destination, final PdfString title, final boolean open)
-public PdfOutline(final PdfOutline parent, final PdfAction action, final Paragraph title)
-public PdfOutline(final PdfOutline parent, final PdfAction action, final Paragraph title, final boolean open)
-public PdfOutline(final PdfOutline parent, final PdfDestination destination, final Paragraph title)
-public PdfOutline(final PdfOutline parent, final PdfDestination destination, final Paragraph title, final boolean open)
-'''
-pass
+    '''    public PdfOutline(final PdfOutline parent, final PdfAction action, final String title)
+    public PdfOutline(final PdfOutline parent, final PdfAction action, final String title, final boolean open)
+    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final String title)
+    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final String title, final boolean open)
+    public PdfOutline(final PdfOutline parent, final PdfAction action, final PdfString title)
+    public PdfOutline(final PdfOutline parent, final PdfAction action, final PdfString title, final boolean open)
+    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final PdfString title)
+    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final PdfString title, final boolean open)
+    public PdfOutline(final PdfOutline parent, final PdfAction action, final Paragraph title)
+    public PdfOutline(final PdfOutline parent, final PdfAction action, final Paragraph title, final boolean open)
+    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final Paragraph title)
+    public PdfOutline(final PdfOutline parent, final PdfDestination destination, final Paragraph title, final boolean open)
+    '''
 def setIndirectReference():
-'''public void setIndirectReference(final PdfIndirectReference reference)
-'''
-pass
+    '''    public void setIndirectReference(final PdfIndirectReference reference)
+    '''
 def indirectReference():
-'''public PdfIndirectReference indirectReference()
-'''
-pass
+    '''    public PdfIndirectReference indirectReference()
+    '''
 def parent():
-'''public PdfOutline parent()
-'''
-pass
+    '''    public PdfOutline parent()
+    '''
 def setDestinationPage():
-'''public boolean setDestinationPage(final PdfIndirectReference pageReference)
-'''
-pass
+    '''    public boolean setDestinationPage(final PdfIndirectReference pageReference)
+    '''
 def getPdfDestination():
-'''public PdfDestination getPdfDestination()
-'''
-pass
+    '''    public PdfDestination getPdfDestination()
+    '''
 def level():
-'''public int level()
-'''
-pass
+    '''    public int level()
+    '''
 def toPdf():
-'''public void toPdf(final PdfWriter writer, final OutputStream os)
-'''
-pass
+    '''    public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''
 def addKid():
-'''public void addKid(final PdfOutline outline)
-'''
-pass
+    '''    public void addKid(final PdfOutline outline)
+    '''
 def getKids():
-'''public ArrayList getKids()
-'''
-pass
+    '''    public ArrayList getKids()
+    '''
 def setKids():
-'''public void setKids(final ArrayList kids)
-'''
-pass
+    '''    public void setKids(final ArrayList kids)
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def setTag():
-'''public void setTag(final String tag)
-'''
-pass
+    '''    public void setTag(final String tag)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def setOpen():
-'''public void setOpen(final boolean open)
-'''
-pass
+    '''    public void setOpen(final boolean open)
+    '''
 def getColor():
-'''public Color getColor()
-'''
-pass
+    '''    public Color getColor()
+    '''
 def setColor():
-'''public void setColor(final Color color)
-'''
-pass
+    '''    public void setColor(final Color color)
+    '''
 def getStyle():
-'''public int getStyle()
-'''
-pass
+    '''    public int getStyle()
+    '''
 def setStyle():
-'''public void setStyle(final int style)
-'''
-pass
+    '''    public void setStyle(final int style)
+    '''

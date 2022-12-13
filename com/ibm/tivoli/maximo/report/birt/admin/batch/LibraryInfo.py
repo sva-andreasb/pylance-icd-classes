@@ -1,4 +1,3 @@
 def LibraryInfo():
-'''public LibraryInfo(final String name)
-'''
-pass
+    '''    public LibraryInfo(final String name)
+    '''

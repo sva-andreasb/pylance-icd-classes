@@ -1,8 +1,6 @@
 def hiddenByProperty():
-'''public boolean hiddenByProperty()
-'''
-pass
+    '''    public boolean hiddenByProperty()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''

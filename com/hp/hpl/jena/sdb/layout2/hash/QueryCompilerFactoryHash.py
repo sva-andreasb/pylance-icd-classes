@@ -1,4 +1,3 @@
 def createQueryCompiler():
-'''public QueryCompiler createQueryCompiler(final SDBRequest request)
-'''
-pass
+    '''    public QueryCompiler createQueryCompiler(final SDBRequest request)
+    '''

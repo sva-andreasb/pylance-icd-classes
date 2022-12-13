@@ -1,8 +1,6 @@
 def FldJobLaborLaborHrs():
-'''public FldJobLaborLaborHrs(final MboValue mbv)
-'''
-pass
+    '''    public FldJobLaborLaborHrs(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

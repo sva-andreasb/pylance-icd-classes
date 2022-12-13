@@ -1,34 +1,26 @@
 sid = "short  215"
 BLOCK_SIZE = "int  32"
 def DBCellRecord():
-'''public DBCellRecord(final RecordInputStream in)
-'''
-pass
+    '''    public DBCellRecord(final RecordInputStream in)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public DBCellRecord clone()
-'''
-pass
+    '''    public DBCellRecord clone()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def addCellOffset():
-'''public void addCellOffset(final int cellRefOffset)
-'''
-pass
+    '''    public void addCellOffset(final int cellRefOffset)
+    '''
 def build():
-'''public DBCellRecord build(final int rowOffset)
-'''
-pass
+    '''    public DBCellRecord build(final int rowOffset)
+    '''

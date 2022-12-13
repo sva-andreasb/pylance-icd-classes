@@ -1,72 +1,55 @@
 def parse():
-'''public static GoogleJsonError parse(final JsonFactory jsonFactory, final HttpResponse response)
-'''
-pass
+    '''    public static GoogleJsonError parse(final JsonFactory jsonFactory, final HttpResponse response)
+    '''
 def getErrors():
-'''public final List<ErrorInfo> getErrors()
-'''
-pass
+    '''    public final List<ErrorInfo> getErrors()
+    '''
 def setErrors():
-'''public final void setErrors(final List<ErrorInfo> errors)
-'''
-pass
+    '''    public final void setErrors(final List<ErrorInfo> errors)
+    '''
 def getCode():
-'''public final int getCode()
-'''
-pass
+    '''    public final int getCode()
+    '''
 def setCode():
-'''public final void setCode(final int code)
-'''
-pass
+    '''    public final void setCode(final int code)
+    '''
 def getMessage():
-'''public final String getMessage()
-public final String getMessage()
-'''
-pass
+    '''    public final String getMessage()
+    public final String getMessage()
+    '''
 def setMessage():
-'''public final void setMessage(final String message)
-public final void setMessage(final String message)
-'''
-pass
+    '''    public final void setMessage(final String message)
+    public final void setMessage(final String message)
+    '''
 def set():
-'''public GoogleJsonError set(final String fieldName, final Object value)
-public ErrorInfo set(final String fieldName, final Object value)
-'''
-pass
+    '''    public GoogleJsonError set(final String fieldName, final Object value)
+    public ErrorInfo set(final String fieldName, final Object value)
+    '''
 def clone():
-'''public GoogleJsonError clone()
-public ErrorInfo clone()
-'''
-pass
+    '''    public GoogleJsonError clone()
+    public ErrorInfo clone()
+    '''
 def getDomain():
-'''public final String getDomain()
-'''
-pass
+    '''    public final String getDomain()
+    '''
 def setDomain():
-'''public final void setDomain(final String domain)
-'''
-pass
+    '''    public final void setDomain(final String domain)
+    '''
 def getReason():
-'''public final String getReason()
-'''
-pass
+    '''    public final String getReason()
+    '''
 def setReason():
-'''public final void setReason(final String reason)
-'''
-pass
+    '''    public final void setReason(final String reason)
+    '''
 def getLocation():
-'''public final String getLocation()
-'''
-pass
+    '''    public final String getLocation()
+    '''
 def setLocation():
-'''public final void setLocation(final String location)
-'''
-pass
+    '''    public final void setLocation(final String location)
+    '''
 def getLocationType():
-'''public final String getLocationType()
-'''
-pass
+    '''    public final String getLocationType()
+    '''
 def setLocationType():
-'''public final void setLocationType(final String locationType)
-'''
-pass
+    '''    public final void setLocationType(final String locationType)
+    '''

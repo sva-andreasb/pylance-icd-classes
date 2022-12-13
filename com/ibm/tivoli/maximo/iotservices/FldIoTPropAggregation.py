@@ -1,16 +1,12 @@
 def FldIoTPropAggregation():
-'''public FldIoTPropAggregation(final MboValue mbv)
-'''
-pass
+    '''    public FldIoTPropAggregation(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

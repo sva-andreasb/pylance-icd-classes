@@ -1,12 +1,9 @@
 def LookupResult():
-'''public LookupResult(final String surface, final GlossCollection gloss)
-'''
-pass
+    '''    public LookupResult(final String surface, final GlossCollection gloss)
+    '''
 def getGloss():
-'''public GlossCollection getGloss()
-'''
-pass
+    '''    public GlossCollection getGloss()
+    '''
 def getSurface():
-'''public String getSurface()
-'''
-pass
+    '''    public String getSurface()
+    '''

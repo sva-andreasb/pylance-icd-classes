@@ -1,78 +1,60 @@
-SUBSCRIPTION_BOTH = "String  both""
-SUBSCRIPTION_TO = "String  to""
-SUBSCRIPTION_FROM = "String  from""
-SUBSCRIPTION_NONE = "String  none""
+SUBSCRIPTION_BOTH = "String  \"both\""
+SUBSCRIPTION_TO = "String  \"to\""
+SUBSCRIPTION_FROM = "String  \"from\""
+SUBSCRIPTION_NONE = "String  \"none\""
 def PrivacyItem():
-'''public PrivacyItem(final String type, final boolean allow, final int order)
-'''
-pass
+    '''    public PrivacyItem(final String type, final boolean allow, final int order)
+    '''
 def isAllow():
-'''public boolean isAllow()
-'''
-pass
+    '''    public boolean isAllow()
+    '''
 def isFilterIQ():
-'''public boolean isFilterIQ()
-'''
-pass
+    '''    public boolean isFilterIQ()
+    '''
 def setFilterIQ():
-'''public void setFilterIQ(final boolean filterIQ)
-'''
-pass
+    '''    public void setFilterIQ(final boolean filterIQ)
+    '''
 def isFilterMessage():
-'''public boolean isFilterMessage()
-'''
-pass
+    '''    public boolean isFilterMessage()
+    '''
 def setFilterMessage():
-'''public void setFilterMessage(final boolean filterMessage)
-'''
-pass
+    '''    public void setFilterMessage(final boolean filterMessage)
+    '''
 def isFilterPresence_in():
-'''public boolean isFilterPresence_in()
-'''
-pass
+    '''    public boolean isFilterPresence_in()
+    '''
 def setFilterPresence_in():
-'''public void setFilterPresence_in(final boolean filterPresence_in)
-'''
-pass
+    '''    public void setFilterPresence_in(final boolean filterPresence_in)
+    '''
 def isFilterPresence_out():
-'''public boolean isFilterPresence_out()
-'''
-pass
+    '''    public boolean isFilterPresence_out()
+    '''
 def setFilterPresence_out():
-'''public void setFilterPresence_out(final boolean filterPresence_out)
-'''
-pass
+    '''    public void setFilterPresence_out(final boolean filterPresence_out)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final int order)
-'''
-pass
+    '''    public void setOrder(final int order)
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getType():
-'''public Type getType()
-public Type getType()
-'''
-pass
+    '''    public Type getType()
+    public Type getType()
+    '''
 def getValue():
-'''public String getValue()
-public String getValue()
-'''
-pass
+    '''    public String getValue()
+    public String getValue()
+    '''
 def isFilterEverything():
-'''public boolean isFilterEverything()
-'''
-pass
+    '''    public boolean isFilterEverything()
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def isSuscription():
-'''public boolean isSuscription()
-'''
-pass
+    '''    public boolean isSuscription()
+    '''

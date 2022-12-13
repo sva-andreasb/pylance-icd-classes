@@ -1,4 +1,3 @@
 def build():
-'''public BooleanQuery build(final QueryNode queryNode)
-'''
-pass
+    '''    public BooleanQuery build(final QueryNode queryNode)
+    '''

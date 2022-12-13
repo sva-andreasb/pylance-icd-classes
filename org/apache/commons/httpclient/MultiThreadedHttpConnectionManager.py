@@ -1,312 +1,239 @@
 DEFAULT_MAX_HOST_CONNECTIONS = "int  2"
 DEFAULT_MAX_TOTAL_CONNECTIONS = "int  20"
 def shutdownAll():
-'''public static void shutdownAll()
-'''
-pass
+    '''    public static void shutdownAll()
+    '''
 def MultiThreadedHttpConnectionManager():
-'''public MultiThreadedHttpConnectionManager()
-'''
-pass
+    '''    public MultiThreadedHttpConnectionManager()
+    '''
 def shutdown():
-'''public synchronized void shutdown()
-public synchronized void shutdown()
-public void shutdown()
-'''
-pass
+    '''    public synchronized void shutdown()
+    public synchronized void shutdown()
+    public void shutdown()
+    '''
 def isConnectionStaleCheckingEnabled():
-'''public boolean isConnectionStaleCheckingEnabled()
-'''
-pass
+    '''    public boolean isConnectionStaleCheckingEnabled()
+    '''
 def setConnectionStaleCheckingEnabled():
-'''public void setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)
-'''
-pass
+    '''    public void setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)
+    '''
 def setMaxConnectionsPerHost():
-'''public void setMaxConnectionsPerHost(final int maxHostConnections)
-'''
-pass
+    '''    public void setMaxConnectionsPerHost(final int maxHostConnections)
+    '''
 def getMaxConnectionsPerHost():
-'''public int getMaxConnectionsPerHost()
-'''
-pass
+    '''    public int getMaxConnectionsPerHost()
+    '''
 def setMaxTotalConnections():
-'''public void setMaxTotalConnections(final int maxTotalConnections)
-'''
-pass
+    '''    public void setMaxTotalConnections(final int maxTotalConnections)
+    '''
 def getMaxTotalConnections():
-'''public int getMaxTotalConnections()
-'''
-pass
+    '''    public int getMaxTotalConnections()
+    '''
 def getConnection():
-'''public HttpConnection getConnection(final HostConfiguration hostConfiguration)
-public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
-'''
-pass
+    '''    public HttpConnection getConnection(final HostConfiguration hostConfiguration)
+    public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
+    '''
 def getConnectionWithTimeout():
-'''public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
-'''
-pass
+    '''    public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
+    '''
 def getConnectionsInPool():
-'''public int getConnectionsInPool(final HostConfiguration hostConfiguration)
-public int getConnectionsInPool()
-'''
-pass
+    '''    public int getConnectionsInPool(final HostConfiguration hostConfiguration)
+    public int getConnectionsInPool()
+    '''
 def getConnectionsInUse():
-'''public int getConnectionsInUse(final HostConfiguration hostConfiguration)
-public int getConnectionsInUse()
-'''
-pass
+    '''    public int getConnectionsInUse(final HostConfiguration hostConfiguration)
+    public int getConnectionsInUse()
+    '''
 def deleteClosedConnections():
-'''public void deleteClosedConnections()
-public synchronized void deleteClosedConnections()
-'''
-pass
+    '''    public void deleteClosedConnections()
+    public synchronized void deleteClosedConnections()
+    '''
 def closeIdleConnections():
-'''public void closeIdleConnections(final long idleTimeout)
-public synchronized void closeIdleConnections(final long idleTimeout)
-'''
-pass
+    '''    public void closeIdleConnections(final long idleTimeout)
+    public synchronized void closeIdleConnections(final long idleTimeout)
+    '''
 def releaseConnection():
-'''public void releaseConnection(HttpConnection conn)
-public void releaseConnection()
-'''
-pass
+    '''    public void releaseConnection(HttpConnection conn)
+    public void releaseConnection()
+    '''
 def getParams():
-'''public HttpConnectionManagerParams getParams()
-public HttpConnectionParams getParams()
-'''
-pass
+    '''    public HttpConnectionManagerParams getParams()
+    public HttpConnectionParams getParams()
+    '''
 def setParams():
-'''public void setParams(final HttpConnectionManagerParams params)
-public void setParams(final HttpConnectionParams params)
-'''
-pass
+    '''    public void setParams(final HttpConnectionManagerParams params)
+    public void setParams(final HttpConnectionParams params)
+    '''
 def createConnection():
-'''public synchronized HttpConnection createConnection(final HostConfiguration hostConfiguration)
-'''
-pass
+    '''    public synchronized HttpConnection createConnection(final HostConfiguration hostConfiguration)
+    '''
 def handleLostConnection():
-'''public synchronized void handleLostConnection(final HostConfiguration config)
-'''
-pass
+    '''    public synchronized void handleLostConnection(final HostConfiguration config)
+    '''
 def getHostPool():
-'''public synchronized HostConnectionPool getHostPool(final HostConfiguration hostConfiguration, final boolean create)
-'''
-pass
+    '''    public synchronized HostConnectionPool getHostPool(final HostConfiguration hostConfiguration, final boolean create)
+    '''
 def getFreeConnection():
-'''public synchronized HttpConnection getFreeConnection(final HostConfiguration hostConfiguration)
-'''
-pass
+    '''    public synchronized HttpConnection getFreeConnection(final HostConfiguration hostConfiguration)
+    '''
 def deleteLeastUsedConnection():
-'''public synchronized void deleteLeastUsedConnection()
-'''
-pass
+    '''    public synchronized void deleteLeastUsedConnection()
+    '''
 def notifyWaitingThread():
-'''public synchronized void notifyWaitingThread(final HostConfiguration configuration)
-public synchronized void notifyWaitingThread(final HostConnectionPool hostPool)
-'''
-pass
+    '''    public synchronized void notifyWaitingThread(final HostConfiguration configuration)
+    public synchronized void notifyWaitingThread(final HostConnectionPool hostPool)
+    '''
 def freeConnection():
-'''public void freeConnection(final HttpConnection conn)
-'''
-pass
+    '''    public void freeConnection(final HttpConnection conn)
+    '''
 def ReferenceQueueThread():
-'''public ReferenceQueueThread()
-'''
-pass
+    '''    public ReferenceQueueThread()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def HttpConnectionWithReference():
-'''public HttpConnectionWithReference(final HostConfiguration hostConfiguration)
-'''
-pass
+    '''    public HttpConnectionWithReference(final HostConfiguration hostConfiguration)
+    '''
 def HttpConnectionAdapter():
-'''public HttpConnectionAdapter(final HttpConnection connection)
-'''
-pass
+    '''    public HttpConnectionAdapter(final HttpConnection connection)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def isStaleCheckingEnabled():
-'''public boolean isStaleCheckingEnabled()
-'''
-pass
+    '''    public boolean isStaleCheckingEnabled()
+    '''
 def setLocalAddress():
-'''public void setLocalAddress(final InetAddress localAddress)
-'''
-pass
+    '''    public void setLocalAddress(final InetAddress localAddress)
+    '''
 def setStaleCheckingEnabled():
-'''public void setStaleCheckingEnabled(final boolean staleCheckEnabled)
-'''
-pass
+    '''    public void setStaleCheckingEnabled(final boolean staleCheckEnabled)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getHttpConnectionManager():
-'''public HttpConnectionManager getHttpConnectionManager()
-'''
-pass
+    '''    public HttpConnectionManager getHttpConnectionManager()
+    '''
 def getLastResponseInputStream():
-'''public InputStream getLastResponseInputStream()
-'''
-pass
+    '''    public InputStream getLastResponseInputStream()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getProtocol():
-'''public Protocol getProtocol()
-'''
-pass
+    '''    public Protocol getProtocol()
+    '''
 def getProxyHost():
-'''public String getProxyHost()
-'''
-pass
+    '''    public String getProxyHost()
+    '''
 def getProxyPort():
-'''public int getProxyPort()
-'''
-pass
+    '''    public int getProxyPort()
+    '''
 def getRequestOutputStream():
-'''public OutputStream getRequestOutputStream()
-'''
-pass
+    '''    public OutputStream getRequestOutputStream()
+    '''
 def getResponseInputStream():
-'''public InputStream getResponseInputStream()
-'''
-pass
+    '''    public InputStream getResponseInputStream()
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def closeIfStale():
-'''public boolean closeIfStale()
-'''
-pass
+    '''    public boolean closeIfStale()
+    '''
 def isProxied():
-'''public boolean isProxied()
-'''
-pass
+    '''    public boolean isProxied()
+    '''
 def isResponseAvailable():
-'''public boolean isResponseAvailable()
-public boolean isResponseAvailable(final int timeout)
-'''
-pass
+    '''    public boolean isResponseAvailable()
+    public boolean isResponseAvailable(final int timeout)
+    '''
 def isSecure():
-'''public boolean isSecure()
-'''
-pass
+    '''    public boolean isSecure()
+    '''
 def isTransparent():
-'''public boolean isTransparent()
-'''
-pass
+    '''    public boolean isTransparent()
+    '''
 def open():
-'''public void open()
-'''
-pass
+    '''    public void open()
+    '''
 def print():
-'''public void print(final String data)
-public void print(final String data, final String charset)
-'''
-pass
+    '''    public void print(final String data)
+    public void print(final String data, final String charset)
+    '''
 def printLine():
-'''public void printLine()
-public void printLine(final String data)
-public void printLine(final String data, final String charset)
-'''
-pass
+    '''    public void printLine()
+    public void printLine(final String data)
+    public void printLine(final String data, final String charset)
+    '''
 def readLine():
-'''public String readLine()
-public String readLine(final String charset)
-'''
-pass
+    '''    public String readLine()
+    public String readLine(final String charset)
+    '''
 def setConnectionTimeout():
-'''public void setConnectionTimeout(final int timeout)
-'''
-pass
+    '''    public void setConnectionTimeout(final int timeout)
+    '''
 def setHost():
-'''public void setHost(final String host)
-'''
-pass
+    '''    public void setHost(final String host)
+    '''
 def setHttpConnectionManager():
-'''public void setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)
-'''
-pass
+    '''    public void setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)
+    '''
 def setLastResponseInputStream():
-'''public void setLastResponseInputStream(final InputStream inStream)
-'''
-pass
+    '''    public void setLastResponseInputStream(final InputStream inStream)
+    '''
 def setPort():
-'''public void setPort(final int port)
-'''
-pass
+    '''    public void setPort(final int port)
+    '''
 def setProtocol():
-'''public void setProtocol(final Protocol protocol)
-'''
-pass
+    '''    public void setProtocol(final Protocol protocol)
+    '''
 def setProxyHost():
-'''public void setProxyHost(final String host)
-'''
-pass
+    '''    public void setProxyHost(final String host)
+    '''
 def setProxyPort():
-'''public void setProxyPort(final int port)
-'''
-pass
+    '''    public void setProxyPort(final int port)
+    '''
 def setSoTimeout():
-'''public void setSoTimeout(final int timeout)
-'''
-pass
+    '''    public void setSoTimeout(final int timeout)
+    '''
 def shutdownOutput():
-'''public void shutdownOutput()
-'''
-pass
+    '''    public void shutdownOutput()
+    '''
 def tunnelCreated():
-'''public void tunnelCreated()
-'''
-pass
+    '''    public void tunnelCreated()
+    '''
 def write():
-'''public void write(final byte[] data, final int offset, final int length)
-public void write(final byte[] data)
-'''
-pass
+    '''    public void write(final byte[] data, final int offset, final int length)
+    public void write(final byte[] data)
+    '''
 def writeLine():
-'''public void writeLine()
-public void writeLine(final byte[] data)
-'''
-pass
+    '''    public void writeLine()
+    public void writeLine(final byte[] data)
+    '''
 def flushRequestOutputStream():
-'''public void flushRequestOutputStream()
-'''
-pass
+    '''    public void flushRequestOutputStream()
+    '''
 def getSoTimeout():
-'''public int getSoTimeout()
-'''
-pass
+    '''    public int getSoTimeout()
+    '''
 def getVirtualHost():
-'''public String getVirtualHost()
-'''
-pass
+    '''    public String getVirtualHost()
+    '''
 def setVirtualHost():
-'''public void setVirtualHost(final String host)
-'''
-pass
+    '''    public void setVirtualHost(final String host)
+    '''
 def getSendBufferSize():
-'''public int getSendBufferSize()
-'''
-pass
+    '''    public int getSendBufferSize()
+    '''
 def setSendBufferSize():
-'''public void setSendBufferSize(final int sendBufferSize)
-'''
-pass
+    '''    public void setSendBufferSize(final int sendBufferSize)
+    '''
 def setSocketTimeout():
-'''public void setSocketTimeout(final int timeout)
-'''
-pass
+    '''    public void setSocketTimeout(final int timeout)
+    '''

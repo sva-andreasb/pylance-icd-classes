@@ -1,4 +1,3 @@
 def setCurrentRow():
-'''public synchronized boolean setCurrentRow(final int nRow)
-'''
-pass
+    '''    public synchronized boolean setCurrentRow(final int nRow)
+    '''

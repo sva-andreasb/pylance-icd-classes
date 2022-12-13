@@ -94,15 +94,12 @@ WS_PRESERVE = "int  1"
 WS_REPLACE = "int  2"
 WS_COLLAPSE = "int  3"
 def Ref():
-'''public Ref(final SchemaType type)
-public Ref(final SchemaTypeSystem system, final String handle)
-'''
-pass
+    '''    public Ref(final SchemaType type)
+    public Ref(final SchemaTypeSystem system, final String handle)
+    '''
 def getComponentType():
-'''public final int getComponentType()
-'''
-pass
+    '''    public final int getComponentType()
+    '''
 def get():
-'''public final SchemaType get()
-'''
-pass
+    '''    public final SchemaType get()
+    '''

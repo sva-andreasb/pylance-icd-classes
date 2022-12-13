@@ -1,13 +1,10 @@
 def FileBase():
-'''public FileBase(final String filename)
-'''
-pass
+    '''    public FileBase(final String filename)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def sync():
-'''public void sync()
-public void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public void sync(final boolean force)
+    '''

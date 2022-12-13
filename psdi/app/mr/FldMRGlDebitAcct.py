@@ -1,8 +1,6 @@
 def FldMRGlDebitAcct():
-'''public FldMRGlDebitAcct(final MboValue mbv)
-'''
-pass
+    '''    public FldMRGlDebitAcct(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

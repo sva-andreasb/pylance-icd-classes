@@ -1,16 +1,12 @@
 def OslcWODetailProcess():
-'''public OslcWODetailProcess()
-'''
-pass
+    '''    public OslcWODetailProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''
 def afterReplace():
-'''public void afterReplace(final MboRemote child)
-'''
-pass
+    '''    public void afterReplace(final MboRemote child)
+    '''
 def createMboSet():
-'''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
-'''
-pass
+    '''    public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''

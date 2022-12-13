@@ -1,8 +1,6 @@
 def isMetricActivated():
-'''public final boolean isMetricActivated()
-'''
-pass
+    '''    public final boolean isMetricActivated()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''

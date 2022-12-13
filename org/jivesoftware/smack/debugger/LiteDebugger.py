@@ -1,69 +1,53 @@
 def LiteDebugger():
-'''public LiteDebugger(final Connection connection, final Writer writer, final Reader reader)
-'''
-pass
+    '''    public LiteDebugger(final Connection connection, final Writer writer, final Reader reader)
+    '''
 def windowClosing():
-'''public void windowClosing(final WindowEvent evt)
-'''
-pass
+    '''    public void windowClosing(final WindowEvent evt)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    '''
 def read():
-'''public void read(final String str)
-'''
-pass
+    '''    public void read(final String str)
+    '''
 def write():
-'''public void write(final String str)
-'''
-pass
+    '''    public void write(final String str)
+    '''
 def processPacket():
-'''public void processPacket(final Packet packet)
-'''
-pass
+    '''    public void processPacket(final Packet packet)
+    '''
 def rootWindowClosing():
-'''public void rootWindowClosing(final WindowEvent evt)
-'''
-pass
+    '''    public void rootWindowClosing(final WindowEvent evt)
+    '''
 def newConnectionReader():
-'''public Reader newConnectionReader(final Reader newReader)
-'''
-pass
+    '''    public Reader newConnectionReader(final Reader newReader)
+    '''
 def newConnectionWriter():
-'''public Writer newConnectionWriter(final Writer newWriter)
-'''
-pass
+    '''    public Writer newConnectionWriter(final Writer newWriter)
+    '''
 def userHasLogged():
-'''public void userHasLogged(final String user)
-'''
-pass
+    '''    public void userHasLogged(final String user)
+    '''
 def getReader():
-'''public Reader getReader()
-'''
-pass
+    '''    public Reader getReader()
+    '''
 def getWriter():
-'''public Writer getWriter()
-'''
-pass
+    '''    public Writer getWriter()
+    '''
 def getReaderListener():
-'''public PacketListener getReaderListener()
-'''
-pass
+    '''    public PacketListener getReaderListener()
+    '''
 def getWriterListener():
-'''public PacketListener getWriterListener()
-'''
-pass
+    '''    public PacketListener getWriterListener()
+    '''
 def mousePressed():
-'''public void mousePressed(final MouseEvent e)
-'''
-pass
+    '''    public void mousePressed(final MouseEvent e)
+    '''
 def mouseReleased():
-'''public void mouseReleased(final MouseEvent e)
-'''
-pass
+    '''    public void mouseReleased(final MouseEvent e)
+    '''

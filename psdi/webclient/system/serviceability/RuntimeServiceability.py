@@ -1,16 +1,12 @@
 def setControlRegistry():
-'''public void setControlRegistry(final Document controlRegistry)
-'''
-pass
+    '''    public void setControlRegistry(final Document controlRegistry)
+    '''
 def getControlRegistry():
-'''public Document getControlRegistry()
-'''
-pass
+    '''    public Document getControlRegistry()
+    '''
 def setComponentRegistry():
-'''public void setComponentRegistry(final Document componentRegistry)
-'''
-pass
+    '''    public void setComponentRegistry(final Document componentRegistry)
+    '''
 def getComponentRegistry():
-'''public Document getComponentRegistry()
-'''
-pass
+    '''    public Document getComponentRegistry()
+    '''

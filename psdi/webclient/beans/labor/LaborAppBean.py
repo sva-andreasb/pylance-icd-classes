@@ -1,8 +1,6 @@
 def ADDCREWWO():
-'''public int ADDCREWWO()
-'''
-pass
+    '''    public int ADDCREWWO()
+    '''
 def refreshhistory():
-'''public int refreshhistory()
-'''
-pass
+    '''    public int refreshhistory()
+    '''

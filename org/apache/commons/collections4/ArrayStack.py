@@ -1,26 +1,20 @@
 def ArrayStack():
-'''public ArrayStack()
-public ArrayStack(final int initialSize)
-'''
-pass
+    '''    public ArrayStack()
+    public ArrayStack(final int initialSize)
+    '''
 def empty():
-'''public boolean empty()
-'''
-pass
+    '''    public boolean empty()
+    '''
 def peek():
-'''public E peek()
-public E peek(final int n)
-'''
-pass
+    '''    public E peek()
+    public E peek(final int n)
+    '''
 def pop():
-'''public E pop()
-'''
-pass
+    '''    public E pop()
+    '''
 def push():
-'''public E push(final E item)
-'''
-pass
+    '''    public E push(final E item)
+    '''
 def search():
-'''public int search(final Object object)
-'''
-pass
+    '''    public int search(final Object object)
+    '''

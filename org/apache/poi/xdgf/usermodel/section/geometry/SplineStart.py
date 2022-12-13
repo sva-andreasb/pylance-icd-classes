@@ -1,44 +1,33 @@
 def SplineStart():
-'''public SplineStart(final RowType row)
-'''
-pass
+    '''    public SplineStart(final RowType row)
+    '''
 def getDel():
-'''public boolean getDel()
-'''
-pass
+    '''    public boolean getDel()
+    '''
 def getX():
-'''public Double getX()
-'''
-pass
+    '''    public Double getX()
+    '''
 def getY():
-'''public Double getY()
-'''
-pass
+    '''    public Double getY()
+    '''
 def getA():
-'''public Double getA()
-'''
-pass
+    '''    public Double getA()
+    '''
 def getB():
-'''public Double getB()
-'''
-pass
+    '''    public Double getB()
+    '''
 def getC():
-'''public Double getC()
-'''
-pass
+    '''    public Double getC()
+    '''
 def getD():
-'''public Integer getD()
-'''
-pass
+    '''    public Integer getD()
+    '''
 def setupMaster():
-'''public void setupMaster(final GeometryRow row)
-'''
-pass
+    '''    public void setupMaster(final GeometryRow row)
+    '''
 def addToPath():
-'''public void addToPath(final Path2D.Double path, final XDGFShape parent)
-'''
-pass
+    '''    public void addToPath(final Path2D.Double path, final XDGFShape parent)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

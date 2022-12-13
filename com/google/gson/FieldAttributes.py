@@ -1,24 +1,18 @@
 def FieldAttributes():
-'''public FieldAttributes(final Field f)
-'''
-pass
+    '''    public FieldAttributes(final Field f)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDeclaredType():
-'''public Type getDeclaredType()
-'''
-pass
+    '''    public Type getDeclaredType()
+    '''
 def getAnnotation():
-'''public <T extends Annotation> T getAnnotation(final Class<T> annotation)
-'''
-pass
+    '''    public <T extends Annotation> T getAnnotation(final Class<T> annotation)
+    '''
 def getAnnotations():
-'''public Collection<Annotation> getAnnotations()
-'''
-pass
+    '''    public Collection<Annotation> getAnnotations()
+    '''
 def hasModifier():
-'''public boolean hasModifier(final int modifier)
-'''
-pass
+    '''    public boolean hasModifier(final int modifier)
+    '''

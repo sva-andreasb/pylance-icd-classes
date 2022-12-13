@@ -1,32 +1,25 @@
 def getResponseTimeout():
-'''public static int getResponseTimeout()
-'''
-pass
+    '''    public static int getResponseTimeout()
+    '''
 def setResponseTimeout():
-'''public static void setResponseTimeout(final int responseTimeout)
-'''
-pass
+    '''    public static void setResponseTimeout(final int responseTimeout)
+    '''
 def sendFile():
-'''public synchronized OutputStream sendFile(final String fileName, final long fileSize, final String description)
-public synchronized void sendFile(final String fileName, final long fileSize, final String description, final NegotiationProgress progress)
-public synchronized void sendFile(final File file, final String description)
-'''
-pass
+    '''    public synchronized OutputStream sendFile(final String fileName, final long fileSize, final String description)
+    public synchronized void sendFile(final String fileName, final long fileSize, final String description, final NegotiationProgress progress)
+    public synchronized void sendFile(final File file, final String description)
+    '''
 def run():
-'''public void run()
-public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public void run()
+    '''
 def sendStream():
-'''public synchronized void sendStream(final InputStream in, final String fileName, final long fileSize, final String description)
-'''
-pass
+    '''    public synchronized void sendStream(final InputStream in, final String fileName, final long fileSize, final String description)
+    '''
 def getBytesSent():
-'''public long getBytesSent()
-'''
-pass
+    '''    public long getBytesSent()
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''

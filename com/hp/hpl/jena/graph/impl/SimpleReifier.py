@@ -1,80 +1,61 @@
 def SimpleReifier():
-'''public SimpleReifier(final GraphBase parent, final ReificationStyle style)
-public SimpleReifier(final GraphBase parent, final ReifierTripleMap tm, final ReifierFragmentsMap fm, final ReificationStyle style)
-'''
-pass
+    '''    public SimpleReifier(final GraphBase parent, final ReificationStyle style)
+    public SimpleReifier(final GraphBase parent, final ReifierTripleMap tm, final ReifierFragmentsMap fm, final ReificationStyle style)
+    '''
 def getStyle():
-'''public ReificationStyle getStyle()
-'''
-pass
+    '''    public ReificationStyle getStyle()
+    '''
 def getParentGraph():
-'''public Graph getParentGraph()
-'''
-pass
+    '''    public Graph getParentGraph()
+    '''
 def getTriple():
-'''public Triple getTriple(final Node n)
-'''
-pass
+    '''    public Triple getTriple(final Node n)
+    '''
 def hasTriple():
-'''public boolean hasTriple(final Node n)
-public boolean hasTriple(final Triple t)
-'''
-pass
+    '''    public boolean hasTriple(final Node n)
+    public boolean hasTriple(final Triple t)
+    '''
 def allNodes():
-'''public ExtendedIterator<Node> allNodes()
-public ExtendedIterator<Node> allNodes(final Triple t)
-'''
-pass
+    '''    public ExtendedIterator<Node> allNodes()
+    public ExtendedIterator<Node> allNodes(final Triple t)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def reifyAs():
-'''public Node reifyAs(final Node tag, final Triple toReify)
-'''
-pass
+    '''    public Node reifyAs(final Node tag, final Triple toReify)
+    '''
 def remove():
-'''public void remove(final Node n, final Triple t)
-public void remove(final Triple t)
-'''
-pass
+    '''    public void remove(final Node n, final Triple t)
+    public void remove(final Triple t)
+    '''
 def handledAdd():
-'''public boolean handledAdd(final Triple fragment)
-'''
-pass
+    '''    public boolean handledAdd(final Triple fragment)
+    '''
 def handledRemove():
-'''public boolean handledRemove(final Triple fragment)
-'''
-pass
+    '''    public boolean handledRemove(final Triple fragment)
+    '''
 def find():
-'''public ExtendedIterator<Triple> find(final TripleMatch m)
-'''
-pass
+    '''    public ExtendedIterator<Triple> find(final TripleMatch m)
+    '''
 def findExposed():
-'''public ExtendedIterator<Triple> findExposed(final TripleMatch m)
-'''
-pass
+    '''    public ExtendedIterator<Triple> findExposed(final TripleMatch m)
+    '''
 def findEither():
-'''public ExtendedIterator<Triple> findEither(final TripleMatch m, final boolean showHidden)
-'''
-pass
+    '''    public ExtendedIterator<Triple> findEither(final TripleMatch m, final boolean showHidden)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def graphAddQuad():
-'''public static void graphAddQuad(final GraphAdd g, final Node node, final Triple t)
-'''
-pass
+    '''    public static void graphAddQuad(final GraphAdd g, final Node node, final Triple t)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''

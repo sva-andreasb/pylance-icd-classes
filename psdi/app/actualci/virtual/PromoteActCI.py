@@ -1,4 +1,3 @@
 def PromoteActCI():
-'''public PromoteActCI(final MboSet ms)
-'''
-pass
+    '''    public PromoteActCI(final MboSet ms)
+    '''

@@ -1,4 +1,3 @@
 def IntObjectRelationSet():
-'''public IntObjectRelationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public IntObjectRelationSet(final MboServerInterface ms)
+    '''

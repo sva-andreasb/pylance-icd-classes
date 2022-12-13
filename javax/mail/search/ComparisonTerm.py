@@ -5,10 +5,8 @@ NE = "int  4"
 GT = "int  5"
 GE = "int  6"
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

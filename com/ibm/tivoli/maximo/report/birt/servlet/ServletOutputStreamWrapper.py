@@ -1,22 +1,17 @@
 def ServletOutputStreamWrapper():
-'''public ServletOutputStreamWrapper()
-'''
-pass
+    '''    public ServletOutputStreamWrapper()
+    '''
 def getOutput():
-'''public byte[] getOutput()
-'''
-pass
+    '''    public byte[] getOutput()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def write():
-'''public void write(final int b)
-public void write(final byte[] b)
-public void write(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public void write(final int b)
+    public void write(final byte[] b)
+    public void write(final byte[] b, final int off, final int len)
+    '''

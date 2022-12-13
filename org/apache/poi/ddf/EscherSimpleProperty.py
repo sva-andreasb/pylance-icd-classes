@@ -1,33 +1,25 @@
 def EscherSimpleProperty():
-'''public EscherSimpleProperty(final short id, final int propertyValue)
-public EscherSimpleProperty(final short propertyNumber, final boolean isComplex, final boolean isBlipId, final int propertyValue)
-'''
-pass
+    '''    public EscherSimpleProperty(final short id, final int propertyValue)
+    public EscherSimpleProperty(final short propertyNumber, final boolean isComplex, final boolean isBlipId, final int propertyValue)
+    '''
 def serializeSimplePart():
-'''public int serializeSimplePart(final byte[] data, final int offset)
-'''
-pass
+    '''    public int serializeSimplePart(final byte[] data, final int offset)
+    '''
 def serializeComplexPart():
-'''public int serializeComplexPart(final byte[] data, final int pos)
-'''
-pass
+    '''    public int serializeComplexPart(final byte[] data, final int pos)
+    '''
 def getPropertyValue():
-'''public int getPropertyValue()
-'''
-pass
+    '''    public int getPropertyValue()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toXml():
-'''public String toXml(final String tab)
-'''
-pass
+    '''    public String toXml(final String tab)
+    '''

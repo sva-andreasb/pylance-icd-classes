@@ -1,36 +1,27 @@
 def WPMaterialSet():
-'''public WPMaterialSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WPMaterialSet(final MboServerInterface ms)
+    '''
 def createInvReserves():
-'''public void createInvReserves(final Date asOfDate, final boolean createInit)
-'''
-pass
+    '''    public void createInvReserves(final Date asOfDate, final boolean createInit)
+    '''
 def deleteInvReserves():
-'''public void deleteInvReserves()
-'''
-pass
+    '''    public void deleteInvReserves()
+    '''
 def findReservation():
-'''public MboRemote findReservation(final WPMaterial wpm)
-'''
-pass
+    '''    public MboRemote findReservation(final WPMaterial wpm)
+    '''
 def updateInvReserve():
-'''public void updateInvReserve(final WPMaterial wpm)
-'''
-pass
+    '''    public void updateInvReserve(final WPMaterial wpm)
+    '''
 def checkStorerooms():
-'''public void checkStorerooms()
-'''
-pass
+    '''    public void checkStorerooms()
+    '''
 def getInvReserveSet():
-'''public MboSetRemote getInvReserveSet()
-'''
-pass
+    '''    public MboSetRemote getInvReserveSet()
+    '''
 def allMaterialRecordsUpdated():
-'''public boolean allMaterialRecordsUpdated()
-'''
-pass
+    '''    public boolean allMaterialRecordsUpdated()
+    '''
 def getModifiedWPMVector():
-'''public Vector getModifiedWPMVector()
-'''
-pass
+    '''    public Vector getModifiedWPMVector()
+    '''

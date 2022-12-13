@@ -1,20 +1,15 @@
 def register():
-'''public static void register(final String s, final Class clazz)
-'''
-pass
+    '''    public static void register(final String s, final Class clazz)
+    '''
 def getRegisteredResponses():
-'''public static RespExtensionSet getRegisteredResponses()
-'''
-pass
+    '''    public static RespExtensionSet getRegisteredResponses()
+    '''
 def LDAPIntermediateResponse():
-'''public LDAPIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
-'''
-pass
+    '''    public LDAPIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def getValue():
-'''public byte[] getValue()
-'''
-pass
+    '''    public byte[] getValue()
+    '''

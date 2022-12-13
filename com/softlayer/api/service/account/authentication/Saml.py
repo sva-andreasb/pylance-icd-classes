@@ -1,353 +1,265 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getAttributes():
-'''public List<Attribute> getAttributes()
-'''
-pass
+    '''    public List<Attribute> getAttributes()
+    '''
 def getAccountId():
-'''public String getAccountId()
-'''
-pass
+    '''    public String getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final String accountId)
-'''
-pass
+    '''    public void setAccountId(final String accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCertificate():
-'''public String getCertificate()
-'''
-pass
+    '''    public String getCertificate()
+    '''
 def setCertificate():
-'''public void setCertificate(final String certificate)
-'''
-pass
+    '''    public void setCertificate(final String certificate)
+    '''
 def isCertificateSpecified():
-'''public boolean isCertificateSpecified()
-'''
-pass
+    '''    public boolean isCertificateSpecified()
+    '''
 def unsetCertificate():
-'''public void unsetCertificate()
-'''
-pass
+    '''    public void unsetCertificate()
+    '''
 def getCertificateFingerprint():
-'''public String getCertificateFingerprint()
-'''
-pass
+    '''    public String getCertificateFingerprint()
+    '''
 def setCertificateFingerprint():
-'''public void setCertificateFingerprint(final String certificateFingerprint)
-'''
-pass
+    '''    public void setCertificateFingerprint(final String certificateFingerprint)
+    '''
 def isCertificateFingerprintSpecified():
-'''public boolean isCertificateFingerprintSpecified()
-'''
-pass
+    '''    public boolean isCertificateFingerprintSpecified()
+    '''
 def unsetCertificateFingerprint():
-'''public void unsetCertificateFingerprint()
-'''
-pass
+    '''    public void unsetCertificateFingerprint()
+    '''
 def getEntityId():
-'''public String getEntityId()
-'''
-pass
+    '''    public String getEntityId()
+    '''
 def setEntityId():
-'''public void setEntityId(final String entityId)
-'''
-pass
+    '''    public void setEntityId(final String entityId)
+    '''
 def isEntityIdSpecified():
-'''public boolean isEntityIdSpecified()
-'''
-pass
+    '''    public boolean isEntityIdSpecified()
+    '''
 def unsetEntityId():
-'''public void unsetEntityId()
-'''
-pass
+    '''    public void unsetEntityId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getServiceProviderCertificate():
-'''public String getServiceProviderCertificate()
-'''
-pass
+    '''    public String getServiceProviderCertificate()
+    '''
 def setServiceProviderCertificate():
-'''public void setServiceProviderCertificate(final String serviceProviderCertificate)
-'''
-pass
+    '''    public void setServiceProviderCertificate(final String serviceProviderCertificate)
+    '''
 def isServiceProviderCertificateSpecified():
-'''public boolean isServiceProviderCertificateSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderCertificateSpecified()
+    '''
 def unsetServiceProviderCertificate():
-'''public void unsetServiceProviderCertificate()
-'''
-pass
+    '''    public void unsetServiceProviderCertificate()
+    '''
 def getServiceProviderEntityId():
-'''public String getServiceProviderEntityId()
-'''
-pass
+    '''    public String getServiceProviderEntityId()
+    '''
 def setServiceProviderEntityId():
-'''public void setServiceProviderEntityId(final String serviceProviderEntityId)
-'''
-pass
+    '''    public void setServiceProviderEntityId(final String serviceProviderEntityId)
+    '''
 def isServiceProviderEntityIdSpecified():
-'''public boolean isServiceProviderEntityIdSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderEntityIdSpecified()
+    '''
 def unsetServiceProviderEntityId():
-'''public void unsetServiceProviderEntityId()
-'''
-pass
+    '''    public void unsetServiceProviderEntityId()
+    '''
 def getServiceProviderPublicKey():
-'''public String getServiceProviderPublicKey()
-'''
-pass
+    '''    public String getServiceProviderPublicKey()
+    '''
 def setServiceProviderPublicKey():
-'''public void setServiceProviderPublicKey(final String serviceProviderPublicKey)
-'''
-pass
+    '''    public void setServiceProviderPublicKey(final String serviceProviderPublicKey)
+    '''
 def isServiceProviderPublicKeySpecified():
-'''public boolean isServiceProviderPublicKeySpecified()
-'''
-pass
+    '''    public boolean isServiceProviderPublicKeySpecified()
+    '''
 def unsetServiceProviderPublicKey():
-'''public void unsetServiceProviderPublicKey()
-'''
-pass
+    '''    public void unsetServiceProviderPublicKey()
+    '''
 def getServiceProviderSingleLogoutEncoding():
-'''public String getServiceProviderSingleLogoutEncoding()
-'''
-pass
+    '''    public String getServiceProviderSingleLogoutEncoding()
+    '''
 def setServiceProviderSingleLogoutEncoding():
-'''public void setServiceProviderSingleLogoutEncoding(final String serviceProviderSingleLogoutEncoding)
-'''
-pass
+    '''    public void setServiceProviderSingleLogoutEncoding(final String serviceProviderSingleLogoutEncoding)
+    '''
 def isServiceProviderSingleLogoutEncodingSpecified():
-'''public boolean isServiceProviderSingleLogoutEncodingSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderSingleLogoutEncodingSpecified()
+    '''
 def unsetServiceProviderSingleLogoutEncoding():
-'''public void unsetServiceProviderSingleLogoutEncoding()
-'''
-pass
+    '''    public void unsetServiceProviderSingleLogoutEncoding()
+    '''
 def getServiceProviderSingleLogoutUrl():
-'''public String getServiceProviderSingleLogoutUrl()
-'''
-pass
+    '''    public String getServiceProviderSingleLogoutUrl()
+    '''
 def setServiceProviderSingleLogoutUrl():
-'''public void setServiceProviderSingleLogoutUrl(final String serviceProviderSingleLogoutUrl)
-'''
-pass
+    '''    public void setServiceProviderSingleLogoutUrl(final String serviceProviderSingleLogoutUrl)
+    '''
 def isServiceProviderSingleLogoutUrlSpecified():
-'''public boolean isServiceProviderSingleLogoutUrlSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderSingleLogoutUrlSpecified()
+    '''
 def unsetServiceProviderSingleLogoutUrl():
-'''public void unsetServiceProviderSingleLogoutUrl()
-'''
-pass
+    '''    public void unsetServiceProviderSingleLogoutUrl()
+    '''
 def getServiceProviderSingleSignOnEncoding():
-'''public String getServiceProviderSingleSignOnEncoding()
-'''
-pass
+    '''    public String getServiceProviderSingleSignOnEncoding()
+    '''
 def setServiceProviderSingleSignOnEncoding():
-'''public void setServiceProviderSingleSignOnEncoding(final String serviceProviderSingleSignOnEncoding)
-'''
-pass
+    '''    public void setServiceProviderSingleSignOnEncoding(final String serviceProviderSingleSignOnEncoding)
+    '''
 def isServiceProviderSingleSignOnEncodingSpecified():
-'''public boolean isServiceProviderSingleSignOnEncodingSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderSingleSignOnEncodingSpecified()
+    '''
 def unsetServiceProviderSingleSignOnEncoding():
-'''public void unsetServiceProviderSingleSignOnEncoding()
-'''
-pass
+    '''    public void unsetServiceProviderSingleSignOnEncoding()
+    '''
 def getServiceProviderSingleSignOnUrl():
-'''public String getServiceProviderSingleSignOnUrl()
-'''
-pass
+    '''    public String getServiceProviderSingleSignOnUrl()
+    '''
 def setServiceProviderSingleSignOnUrl():
-'''public void setServiceProviderSingleSignOnUrl(final String serviceProviderSingleSignOnUrl)
-'''
-pass
+    '''    public void setServiceProviderSingleSignOnUrl(final String serviceProviderSingleSignOnUrl)
+    '''
 def isServiceProviderSingleSignOnUrlSpecified():
-'''public boolean isServiceProviderSingleSignOnUrlSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderSingleSignOnUrlSpecified()
+    '''
 def unsetServiceProviderSingleSignOnUrl():
-'''public void unsetServiceProviderSingleSignOnUrl()
-'''
-pass
+    '''    public void unsetServiceProviderSingleSignOnUrl()
+    '''
 def getSingleLogoutEncoding():
-'''public String getSingleLogoutEncoding()
-'''
-pass
+    '''    public String getSingleLogoutEncoding()
+    '''
 def setSingleLogoutEncoding():
-'''public void setSingleLogoutEncoding(final String singleLogoutEncoding)
-'''
-pass
+    '''    public void setSingleLogoutEncoding(final String singleLogoutEncoding)
+    '''
 def isSingleLogoutEncodingSpecified():
-'''public boolean isSingleLogoutEncodingSpecified()
-'''
-pass
+    '''    public boolean isSingleLogoutEncodingSpecified()
+    '''
 def unsetSingleLogoutEncoding():
-'''public void unsetSingleLogoutEncoding()
-'''
-pass
+    '''    public void unsetSingleLogoutEncoding()
+    '''
 def getSingleLogoutUrl():
-'''public String getSingleLogoutUrl()
-'''
-pass
+    '''    public String getSingleLogoutUrl()
+    '''
 def setSingleLogoutUrl():
-'''public void setSingleLogoutUrl(final String singleLogoutUrl)
-'''
-pass
+    '''    public void setSingleLogoutUrl(final String singleLogoutUrl)
+    '''
 def isSingleLogoutUrlSpecified():
-'''public boolean isSingleLogoutUrlSpecified()
-'''
-pass
+    '''    public boolean isSingleLogoutUrlSpecified()
+    '''
 def unsetSingleLogoutUrl():
-'''public void unsetSingleLogoutUrl()
-'''
-pass
+    '''    public void unsetSingleLogoutUrl()
+    '''
 def getSingleSignOnEncoding():
-'''public String getSingleSignOnEncoding()
-'''
-pass
+    '''    public String getSingleSignOnEncoding()
+    '''
 def setSingleSignOnEncoding():
-'''public void setSingleSignOnEncoding(final String singleSignOnEncoding)
-'''
-pass
+    '''    public void setSingleSignOnEncoding(final String singleSignOnEncoding)
+    '''
 def isSingleSignOnEncodingSpecified():
-'''public boolean isSingleSignOnEncodingSpecified()
-'''
-pass
+    '''    public boolean isSingleSignOnEncodingSpecified()
+    '''
 def unsetSingleSignOnEncoding():
-'''public void unsetSingleSignOnEncoding()
-'''
-pass
+    '''    public void unsetSingleSignOnEncoding()
+    '''
 def getSingleSignOnUrl():
-'''public String getSingleSignOnUrl()
-'''
-pass
+    '''    public String getSingleSignOnUrl()
+    '''
 def setSingleSignOnUrl():
-'''public void setSingleSignOnUrl(final String singleSignOnUrl)
-'''
-pass
+    '''    public void setSingleSignOnUrl(final String singleSignOnUrl)
+    '''
 def isSingleSignOnUrlSpecified():
-'''public boolean isSingleSignOnUrlSpecified()
-'''
-pass
+    '''    public boolean isSingleSignOnUrlSpecified()
+    '''
 def unsetSingleSignOnUrl():
-'''public void unsetSingleSignOnUrl()
-'''
-pass
+    '''    public void unsetSingleSignOnUrl()
+    '''
 def getAttributeCount():
-'''public Long getAttributeCount()
-'''
-pass
+    '''    public Long getAttributeCount()
+    '''
 def setAttributeCount():
-'''public void setAttributeCount(final Long attributeCount)
-'''
-pass
+    '''    public void setAttributeCount(final Long attributeCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def certificate():
-'''public Mask certificate()
-'''
-pass
+    '''    public Mask certificate()
+    '''
 def certificateFingerprint():
-'''public Mask certificateFingerprint()
-'''
-pass
+    '''    public Mask certificateFingerprint()
+    '''
 def entityId():
-'''public Mask entityId()
-'''
-pass
+    '''    public Mask entityId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def serviceProviderCertificate():
-'''public Mask serviceProviderCertificate()
-'''
-pass
+    '''    public Mask serviceProviderCertificate()
+    '''
 def serviceProviderEntityId():
-'''public Mask serviceProviderEntityId()
-'''
-pass
+    '''    public Mask serviceProviderEntityId()
+    '''
 def serviceProviderPublicKey():
-'''public Mask serviceProviderPublicKey()
-'''
-pass
+    '''    public Mask serviceProviderPublicKey()
+    '''
 def serviceProviderSingleLogoutEncoding():
-'''public Mask serviceProviderSingleLogoutEncoding()
-'''
-pass
+    '''    public Mask serviceProviderSingleLogoutEncoding()
+    '''
 def serviceProviderSingleLogoutUrl():
-'''public Mask serviceProviderSingleLogoutUrl()
-'''
-pass
+    '''    public Mask serviceProviderSingleLogoutUrl()
+    '''
 def serviceProviderSingleSignOnEncoding():
-'''public Mask serviceProviderSingleSignOnEncoding()
-'''
-pass
+    '''    public Mask serviceProviderSingleSignOnEncoding()
+    '''
 def serviceProviderSingleSignOnUrl():
-'''public Mask serviceProviderSingleSignOnUrl()
-'''
-pass
+    '''    public Mask serviceProviderSingleSignOnUrl()
+    '''
 def singleLogoutEncoding():
-'''public Mask singleLogoutEncoding()
-'''
-pass
+    '''    public Mask singleLogoutEncoding()
+    '''
 def singleLogoutUrl():
-'''public Mask singleLogoutUrl()
-'''
-pass
+    '''    public Mask singleLogoutUrl()
+    '''
 def singleSignOnEncoding():
-'''public Mask singleSignOnEncoding()
-'''
-pass
+    '''    public Mask singleSignOnEncoding()
+    '''
 def singleSignOnUrl():
-'''public Mask singleSignOnUrl()
-'''
-pass
+    '''    public Mask singleSignOnUrl()
+    '''
 def attributeCount():
-'''public Mask attributeCount()
-'''
-pass
+    '''    public Mask attributeCount()
+    '''

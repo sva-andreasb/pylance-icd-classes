@@ -1,16 +1,12 @@
 def FldInvVendorOrgId():
-'''public FldInvVendorOrgId(final MboValue mbv)
-'''
-pass
+    '''    public FldInvVendorOrgId(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

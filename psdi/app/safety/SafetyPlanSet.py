@@ -1,4 +1,3 @@
 def SafetyPlanSet():
-'''public SafetyPlanSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SafetyPlanSet(final MboServerInterface ms)
+    '''

@@ -1,12 +1,9 @@
 def AssignAuthorizedCIBean():
-'''public AssignAuthorizedCIBean()
-'''
-pass
+    '''    public AssignAuthorizedCIBean()
+    '''
 def REFRESHLIST():
-'''public int REFRESHLIST()
-'''
-pass
+    '''    public int REFRESHLIST()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

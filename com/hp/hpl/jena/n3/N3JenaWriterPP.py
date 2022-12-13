@@ -1,4 +1,3 @@
 def N3JenaWriterPP():
-'''public N3JenaWriterPP()
-'''
-pass
+    '''    public N3JenaWriterPP()
+    '''

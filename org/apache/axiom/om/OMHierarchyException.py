@@ -1,4 +1,3 @@
 def OMHierarchyException():
-'''public OMHierarchyException(final String message)
-'''
-pass
+    '''    public OMHierarchyException(final String message)
+    '''

@@ -1,8 +1,6 @@
 def PmIncSCReqCreatorAction():
-'''public PmIncSCReqCreatorAction()
-'''
-pass
+    '''    public PmIncSCReqCreatorAction()
+    '''
 def applyCustomAction():
-'''public void applyCustomAction(final MboRemote mbo, final Object[] params)
-'''
-pass
+    '''    public void applyCustomAction(final MboRemote mbo, final Object[] params)
+    '''

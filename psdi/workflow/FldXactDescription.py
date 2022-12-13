@@ -1,8 +1,6 @@
 def FldXactDescription():
-'''public FldXactDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldXactDescription(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

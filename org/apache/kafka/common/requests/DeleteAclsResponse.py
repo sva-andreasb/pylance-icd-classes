@@ -1,54 +1,42 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def DeleteAclsResponse():
-'''public DeleteAclsResponse(final int throttleTimeMs, final List<AclFilterResponse> responses)
-public DeleteAclsResponse(final Struct struct)
-'''
-pass
+    '''    public DeleteAclsResponse(final int throttleTimeMs, final List<AclFilterResponse> responses)
+    public DeleteAclsResponse(final Struct struct)
+    '''
 def throttleTimeMs():
-'''public int throttleTimeMs()
-'''
-pass
+    '''    public int throttleTimeMs()
+    '''
 def responses():
-'''public List<AclFilterResponse> responses()
-'''
-pass
+    '''    public List<AclFilterResponse> responses()
+    '''
 def errorCounts():
-'''public Map<Errors, Integer> errorCounts()
-'''
-pass
+    '''    public Map<Errors, Integer> errorCounts()
+    '''
 def parse():
-'''public static DeleteAclsResponse parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static DeleteAclsResponse parse(final ByteBuffer buffer, final short version)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    '''
 def AclDeletionResult():
-'''public AclDeletionResult(final ApiError error, final AclBinding acl)
-public AclDeletionResult(final AclBinding acl)
-'''
-pass
+    '''    public AclDeletionResult(final ApiError error, final AclBinding acl)
+    public AclDeletionResult(final AclBinding acl)
+    '''
 def error():
-'''public ApiError error()
-public ApiError error()
-'''
-pass
+    '''    public ApiError error()
+    public ApiError error()
+    '''
 def acl():
-'''public AclBinding acl()
-'''
-pass
+    '''    public AclBinding acl()
+    '''
 def AclFilterResponse():
-'''public AclFilterResponse(final ApiError error, final Collection<AclDeletionResult> deletions)
-public AclFilterResponse(final Collection<AclDeletionResult> deletions)
-'''
-pass
+    '''    public AclFilterResponse(final ApiError error, final Collection<AclDeletionResult> deletions)
+    public AclFilterResponse(final Collection<AclDeletionResult> deletions)
+    '''
 def deletions():
-'''public Collection<AclDeletionResult> deletions()
-'''
-pass
+    '''    public Collection<AclDeletionResult> deletions()
+    '''

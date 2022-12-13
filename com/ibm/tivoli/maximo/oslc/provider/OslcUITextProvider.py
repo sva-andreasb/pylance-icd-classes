@@ -1,20 +1,15 @@
 def OslcUITextProvider():
-'''public OslcUITextProvider(final OslcRequest oslcRequest, final String langcode)
-'''
-pass
+    '''    public OslcUITextProvider(final OslcRequest oslcRequest, final String langcode)
+    '''
 def getAppUITextsJSON():
-'''public JSONObject getAppUITextsJSON(final String app)
-'''
-pass
+    '''    public JSONObject getAppUITextsJSON(final String app)
+    '''
 def getAppPropertyUITextsJSON():
-'''public JSONObject getAppPropertyUITextsJSON(final String app, final String property)
-'''
-pass
+    '''    public JSONObject getAppPropertyUITextsJSON(final String app, final String property)
+    '''
 def getAppPropertyIDUITextsJSON():
-'''public JSONObject getAppPropertyIDUITextsJSON(final String app, final String property, final String id)
-'''
-pass
+    '''    public JSONObject getAppPropertyIDUITextsJSON(final String app, final String property, final String id)
+    '''
 def getLabelBytes():
-'''public byte[] getLabelBytes(final String app, final String property, final String id)
-'''
-pass
+    '''    public byte[] getLabelBytes(final String app, final String property, final String id)
+    '''

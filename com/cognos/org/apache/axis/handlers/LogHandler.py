@@ -1,16 +1,12 @@
 def LogHandler():
-'''public LogHandler()
-'''
-pass
+    '''    public LogHandler()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def invoke():
-'''public void invoke(final MessageContext msgContext)
-'''
-pass
+    '''    public void invoke(final MessageContext msgContext)
+    '''
 def onFault():
-'''public void onFault(final MessageContext msgContext)
-'''
-pass
+    '''    public void onFault(final MessageContext msgContext)
+    '''

@@ -1,4 +1,3 @@
 def FSNProviderSet():
-'''public FSNProviderSet(final MboServerInterface ms)
-'''
-pass
+    '''    public FSNProviderSet(final MboServerInterface ms)
+    '''

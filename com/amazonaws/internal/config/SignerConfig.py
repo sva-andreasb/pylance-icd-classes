@@ -1,8 +1,6 @@
 def getSignerType():
-'''public String getSignerType()
-'''
-pass
+    '''    public String getSignerType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

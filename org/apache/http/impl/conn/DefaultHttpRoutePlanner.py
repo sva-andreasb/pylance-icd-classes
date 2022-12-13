@@ -1,8 +1,6 @@
 def DefaultHttpRoutePlanner():
-'''public DefaultHttpRoutePlanner(final SchemeRegistry schreg)
-'''
-pass
+    '''    public DefaultHttpRoutePlanner(final SchemeRegistry schreg)
+    '''
 def determineRoute():
-'''public HttpRoute determineRoute(final HttpHost target, final HttpRequest request, final HttpContext context)
-'''
-pass
+    '''    public HttpRoute determineRoute(final HttpHost target, final HttpRequest request, final HttpContext context)
+    '''

@@ -1,4 +1,3 @@
 def LimitExceededException():
-'''public LimitExceededException(final String message)
-'''
-pass
+    '''    public LimitExceededException(final String message)
+    '''

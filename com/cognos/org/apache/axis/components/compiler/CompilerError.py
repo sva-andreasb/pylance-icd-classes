@@ -1,33 +1,25 @@
 def CompilerError():
-'''public CompilerError(final String file, final boolean error, final int startline, final int startcolumn, final int endline, final int endcolumn, final String message)
-public CompilerError(final String message)
-'''
-pass
+    '''    public CompilerError(final String file, final boolean error, final int startline, final int startcolumn, final int endline, final int endcolumn, final String message)
+    public CompilerError(final String message)
+    '''
 def getFile():
-'''public String getFile()
-'''
-pass
+    '''    public String getFile()
+    '''
 def isError():
-'''public boolean isError()
-'''
-pass
+    '''    public boolean isError()
+    '''
 def getStartLine():
-'''public int getStartLine()
-'''
-pass
+    '''    public int getStartLine()
+    '''
 def getStartColumn():
-'''public int getStartColumn()
-'''
-pass
+    '''    public int getStartColumn()
+    '''
 def getEndLine():
-'''public int getEndLine()
-'''
-pass
+    '''    public int getEndLine()
+    '''
 def getEndColumn():
-'''public int getEndColumn()
-'''
-pass
+    '''    public int getEndColumn()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

@@ -1,37 +1,28 @@
 def IMMessageHandlerXMPPImpl():
-'''public IMMessageHandlerXMPPImpl(final IMSessionXMPPImpl session, final ChatManager chat, final IMUser imPartner)
-'''
-pass
+    '''    public IMMessageHandlerXMPPImpl(final IMSessionXMPPImpl session, final ChatManager chat, final IMUser imPartner)
+    '''
 def addListener():
-'''public void addListener(final IMMessageListener imMessageListener)
-'''
-pass
+    '''    public void addListener(final IMMessageListener imMessageListener)
+    '''
 def removeListener():
-'''public void removeListener(final IMMessageListener imMessageListener)
-'''
-pass
+    '''    public void removeListener(final IMMessageListener imMessageListener)
+    '''
 def removeAllListeners():
-'''public void removeAllListeners()
-'''
-pass
+    '''    public void removeAllListeners()
+    '''
 def sendMessage():
-'''public String sendMessage(final String s)
-'''
-pass
+    '''    public String sendMessage(final String s)
+    '''
 def processMessage():
-'''public void processMessage(final Chat chat, final Message message)
-public void processMessage(final Message message)
-'''
-pass
+    '''    public void processMessage(final Chat chat, final Message message)
+    public void processMessage(final Message message)
+    '''
 def closeConversation():
-'''public void closeConversation()
-'''
-pass
+    '''    public void closeConversation()
+    '''
 def isOpened():
-'''public boolean isOpened()
-'''
-pass
+    '''    public boolean isOpened()
+    '''
 def getIMPartner():
-'''public IMUser getIMPartner()
-'''
-pass
+    '''    public IMUser getIMPartner()
+    '''

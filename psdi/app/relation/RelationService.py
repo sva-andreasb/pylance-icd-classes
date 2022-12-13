@@ -1,5 +1,4 @@
 def RelationService():
-'''public RelationService()
-public RelationService(final MXServer mxServer)
-'''
-pass
+    '''    public RelationService()
+    public RelationService(final MXServer mxServer)
+    '''

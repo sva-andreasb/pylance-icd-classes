@@ -1,32 +1,24 @@
 def getInstance():
-'''public static final DataCleanser getInstance()
-'''
-pass
+    '''    public static final DataCleanser getInstance()
+    '''
 def init():
-'''public synchronized void init()
-'''
-pass
+    '''    public synchronized void init()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getXMLVersion():
-'''public String getXMLVersion()
-'''
-pass
+    '''    public String getXMLVersion()
+    '''
 def getXMLFileName():
-'''public String getXMLFileName()
-'''
-pass
+    '''    public String getXMLFileName()
+    '''
 def setup():
-'''public void setup(final String filename)
-'''
-pass
+    '''    public void setup(final String filename)
+    '''
 def getTypes():
-'''public String[] getTypes()
-'''
-pass
+    '''    public String[] getTypes()
+    '''
 def getData():
-'''public String getData(final String type, final String variant)
-'''
-pass
+    '''    public String getData(final String type, final String variant)
+    '''

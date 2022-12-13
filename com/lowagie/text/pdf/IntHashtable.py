@@ -1,50 +1,38 @@
 def IntHashtable():
-'''public IntHashtable(final int initialCapacity, final float loadFactor)
-public IntHashtable(final int initialCapacity)
-public IntHashtable()
-'''
-pass
+    '''    public IntHashtable(final int initialCapacity, final float loadFactor)
+    public IntHashtable(final int initialCapacity)
+    public IntHashtable()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final int value)
-'''
-pass
+    '''    public boolean contains(final int value)
+    '''
 def containsKey():
-'''public boolean containsKey(final int key)
-'''
-pass
+    '''    public boolean containsKey(final int key)
+    '''
 def get():
-'''public int get(final int key)
-'''
-pass
+    '''    public int get(final int key)
+    '''
 def put():
-'''public int put(final int key, final int value)
-'''
-pass
+    '''    public int put(final int key, final int value)
+    '''
 def remove():
-'''public int remove(final int key)
-'''
-pass
+    '''    public int remove(final int key)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def toOrderedKeys():
-'''public int[] toOrderedKeys()
-'''
-pass
+    '''    public int[] toOrderedKeys()
+    '''
 def getKeys():
-'''public int[] getKeys()
-'''
-pass
+    '''    public int[] getKeys()
+    '''
 def getOneKey():
-'''public int getOneKey()
-'''
-pass
+    '''    public int getOneKey()
+    '''

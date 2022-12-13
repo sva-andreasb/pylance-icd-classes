@@ -1,80 +1,60 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getFullName():
-'''public String getFullName()
-'''
-pass
+    '''    public String getFullName()
+    '''
 def getParent():
-'''public Folder getParent()
-'''
-pass
+    '''    public Folder getParent()
+    '''
 def exists():
-'''public boolean exists()
-'''
-pass
+    '''    public boolean exists()
+    '''
 def list():
-'''public Folder[] list(final String s)
-'''
-pass
+    '''    public Folder[] list(final String s)
+    '''
 def getSeparator():
-'''public char getSeparator()
-'''
-pass
+    '''    public char getSeparator()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def create():
-'''public boolean create(final int n)
-'''
-pass
+    '''    public boolean create(final int n)
+    '''
 def hasNewMessages():
-'''public boolean hasNewMessages()
-'''
-pass
+    '''    public boolean hasNewMessages()
+    '''
 def getFolder():
-'''public Folder getFolder(final String s)
-'''
-pass
+    '''    public Folder getFolder(final String s)
+    '''
 def delete():
-'''public boolean delete(final boolean b)
-'''
-pass
+    '''    public boolean delete(final boolean b)
+    '''
 def renameTo():
-'''public boolean renameTo(final Folder folder)
-'''
-pass
+    '''    public boolean renameTo(final Folder folder)
+    '''
 def open():
-'''public void open(final int n)
-'''
-pass
+    '''    public void open(final int n)
+    '''
 def close():
-'''public void close(final boolean b)
-'''
-pass
+    '''    public void close(final boolean b)
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def getPermanentFlags():
-'''public Flags getPermanentFlags()
-'''
-pass
+    '''    public Flags getPermanentFlags()
+    '''
 def getMessageCount():
-'''public int getMessageCount()
-'''
-pass
+    '''    public int getMessageCount()
+    '''
 def getMessage():
-'''public Message getMessage(final int n)
-'''
-pass
+    '''    public Message getMessage(final int n)
+    '''
 def appendMessages():
-'''public void appendMessages(final Message[] array)
-'''
-pass
+    '''    public void appendMessages(final Message[] array)
+    '''
 def expunge():
-'''public Message[] expunge()
-'''
-pass
+    '''    public Message[] expunge()
+    '''

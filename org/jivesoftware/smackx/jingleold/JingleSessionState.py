@@ -1,8 +1,6 @@
 def getInstance():
-'''public static JingleSessionState getInstance()
-'''
-pass
+    '''    public static JingleSessionState getInstance()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

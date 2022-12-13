@@ -1,83 +1,64 @@
 def HttpURI():
-'''public HttpURI()
-public HttpURI(final boolean parsePartialAuth)
-public HttpURI(final String raw)
-public HttpURI(final byte[] raw, final int offset, final int length)
-public HttpURI(final URI uri)
-'''
-pass
+    '''    public HttpURI()
+    public HttpURI(final boolean parsePartialAuth)
+    public HttpURI(final String raw)
+    public HttpURI(final byte[] raw, final int offset, final int length)
+    public HttpURI(final URI uri)
+    '''
 def parse():
-'''public void parse(final String raw)
-public void parse(final byte[] raw, final int offset, final int length)
-'''
-pass
+    '''    public void parse(final String raw)
+    public void parse(final byte[] raw, final int offset, final int length)
+    '''
 def parseConnect():
-'''public void parseConnect(final byte[] raw, final int offset, final int length)
-'''
-pass
+    '''    public void parseConnect(final byte[] raw, final int offset, final int length)
+    '''
 def getScheme():
-'''public String getScheme()
-'''
-pass
+    '''    public String getScheme()
+    '''
 def getAuthority():
-'''public String getAuthority()
-'''
-pass
+    '''    public String getAuthority()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def getDecodedPath():
-'''public String getDecodedPath()
-'''
-pass
+    '''    public String getDecodedPath()
+    '''
 def getPathAndParam():
-'''public String getPathAndParam()
-'''
-pass
+    '''    public String getPathAndParam()
+    '''
 def getCompletePath():
-'''public String getCompletePath()
-'''
-pass
+    '''    public String getCompletePath()
+    '''
 def getParam():
-'''public String getParam()
-'''
-pass
+    '''    public String getParam()
+    '''
 def getQuery():
-'''public String getQuery()
-public String getQuery(final String encoding)
-'''
-pass
+    '''    public String getQuery()
+    public String getQuery(final String encoding)
+    '''
 def hasQuery():
-'''public boolean hasQuery()
-'''
-pass
+    '''    public boolean hasQuery()
+    '''
 def getFragment():
-'''public String getFragment()
-'''
-pass
+    '''    public String getFragment()
+    '''
 def decodeQueryTo():
-'''public void decodeQueryTo(final MultiMap parameters)
-public void decodeQueryTo(final MultiMap parameters, final String encoding)
-'''
-pass
+    '''    public void decodeQueryTo(final MultiMap parameters)
+    public void decodeQueryTo(final MultiMap parameters, final String encoding)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeTo():
-'''public void writeTo(final Utf8StringBuilder buf)
-'''
-pass
+    '''    public void writeTo(final Utf8StringBuilder buf)
+    '''

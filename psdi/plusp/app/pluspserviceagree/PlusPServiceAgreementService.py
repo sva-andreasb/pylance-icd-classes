@@ -1,5 +1,4 @@
 def PlusPServiceAgreementService():
-'''public PlusPServiceAgreementService()
-public PlusPServiceAgreementService(final MXServer mxServer)
-'''
-pass
+    '''    public PlusPServiceAgreementService()
+    public PlusPServiceAgreementService(final MXServer mxServer)
+    '''

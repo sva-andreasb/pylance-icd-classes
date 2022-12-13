@@ -1,54 +1,41 @@
 NO_LIMIT = "int  0"
 def TimedSemaphore():
-'''public TimedSemaphore(final long timePeriod, final TimeUnit timeUnit, final int limit)
-public TimedSemaphore(final ScheduledExecutorService service, final long timePeriod, final TimeUnit timeUnit, final int limit)
-'''
-pass
+    '''    public TimedSemaphore(final long timePeriod, final TimeUnit timeUnit, final int limit)
+    public TimedSemaphore(final ScheduledExecutorService service, final long timePeriod, final TimeUnit timeUnit, final int limit)
+    '''
 def getLimit():
-'''public final synchronized int getLimit()
-'''
-pass
+    '''    public final synchronized int getLimit()
+    '''
 def setLimit():
-'''public final synchronized void setLimit(final int limit)
-'''
-pass
+    '''    public final synchronized void setLimit(final int limit)
+    '''
 def shutdown():
-'''public synchronized void shutdown()
-'''
-pass
+    '''    public synchronized void shutdown()
+    '''
 def isShutdown():
-'''public synchronized boolean isShutdown()
-'''
-pass
+    '''    public synchronized boolean isShutdown()
+    '''
 def acquire():
-'''public synchronized void acquire()
-'''
-pass
+    '''    public synchronized void acquire()
+    '''
 def getLastAcquiresPerPeriod():
-'''public synchronized int getLastAcquiresPerPeriod()
-'''
-pass
+    '''    public synchronized int getLastAcquiresPerPeriod()
+    '''
 def getAcquireCount():
-'''public synchronized int getAcquireCount()
-'''
-pass
+    '''    public synchronized int getAcquireCount()
+    '''
 def getAvailablePermits():
-'''public synchronized int getAvailablePermits()
-'''
-pass
+    '''    public synchronized int getAvailablePermits()
+    '''
 def getAverageCallsPerPeriod():
-'''public synchronized double getAverageCallsPerPeriod()
-'''
-pass
+    '''    public synchronized double getAverageCallsPerPeriod()
+    '''
 def getPeriod():
-'''public long getPeriod()
-'''
-pass
+    '''    public long getPeriod()
+    '''
 def getUnit():
-'''public TimeUnit getUnit()
-'''
-pass
+    '''    public TimeUnit getUnit()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

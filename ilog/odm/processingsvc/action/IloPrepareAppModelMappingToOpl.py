@@ -1,21 +1,16 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def invoke():
-'''public void invoke(final Parameters parameters)
-'''
-pass
+    '''    public void invoke(final Parameters parameters)
+    '''
 def Parameters():
-'''public Parameters(final IloOplDecisionEngine engine, final IloMappingDefinitionsList mappingDefs)
-'''
-pass
+    '''    public Parameters(final IloOplDecisionEngine engine, final IloMappingDefinitionsList mappingDefs)
+    '''
 def getScenario():
-'''public IloScenario getScenario()
-'''
-pass
+    '''    public IloScenario getScenario()
+    '''
 def getOplFactory():
-'''public IloOplFactory getOplFactory()
-'''
-pass
+    '''    public IloOplFactory getOplFactory()
+    '''
 def getOplModel():
-'''public IloOplModel getOplModel()
-'''
-pass
+    '''    public IloOplModel getOplModel()
+    '''

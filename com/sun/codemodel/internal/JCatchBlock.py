@@ -1,12 +1,9 @@
 def param():
-'''public JVar param(final String name)
-'''
-pass
+    '''    public JVar param(final String name)
+    '''
 def body():
-'''public JBlock body()
-'''
-pass
+    '''    public JBlock body()
+    '''
 def generate():
-'''public void generate(final JFormatter f)
-'''
-pass
+    '''    public void generate(final JFormatter f)
+    '''

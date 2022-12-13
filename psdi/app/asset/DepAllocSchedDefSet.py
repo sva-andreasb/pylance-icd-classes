@@ -1,12 +1,9 @@
 def DepAllocSchedDefSet():
-'''public DepAllocSchedDefSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DepAllocSchedDefSet(final MboServerInterface ms)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

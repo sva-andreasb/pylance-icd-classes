@@ -1,48 +1,36 @@
 def XSLFPictureData():
-'''public XSLFPictureData(final PackagePart part)
-'''
-pass
+    '''    public XSLFPictureData(final PackagePart part)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def suggestFileExtension():
-'''public String suggestFileExtension()
-'''
-pass
+    '''    public String suggestFileExtension()
+    '''
 def getChecksum():
-'''public byte[] getChecksum()
-'''
-pass
+    '''    public byte[] getChecksum()
+    '''
 def getImageDimension():
-'''public Dimension getImageDimension()
-'''
-pass
+    '''    public Dimension getImageDimension()
+    '''
 def getImageDimensionInPixels():
-'''public Dimension getImageDimensionInPixels()
-'''
-pass
+    '''    public Dimension getImageDimensionInPixels()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def setData():
-'''public void setData(final byte[] data)
-'''
-pass
+    '''    public void setData(final byte[] data)
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def setIndex():
-'''public void setIndex(final int index)
-'''
-pass
+    '''    public void setIndex(final int index)
+    '''

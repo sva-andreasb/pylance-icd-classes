@@ -1,8 +1,6 @@
 def PlusPFldJpQuotedPrice():
-'''public PlusPFldJpQuotedPrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldJpQuotedPrice(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

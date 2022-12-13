@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def autonumber():
-'''public int autonumber()
-'''
-pass
+    '''    public int autonumber()
+    '''

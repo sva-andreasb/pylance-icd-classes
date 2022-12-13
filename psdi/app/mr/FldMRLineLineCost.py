@@ -1,8 +1,6 @@
 def FldMRLineLineCost():
-'''public FldMRLineLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldMRLineLineCost(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

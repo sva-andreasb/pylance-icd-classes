@@ -1,8 +1,6 @@
 def UserSecControlSet():
-'''public UserSecControlSet(final MboServerInterface ms)
-'''
-pass
+    '''    public UserSecControlSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

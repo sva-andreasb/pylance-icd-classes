@@ -1,4 +1,3 @@
 def OAuthCallbackUrl():
-'''public OAuthCallbackUrl(final String encodedUrl)
-'''
-pass
+    '''    public OAuthCallbackUrl(final String encodedUrl)
+    '''

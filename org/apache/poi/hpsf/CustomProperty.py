@@ -1,26 +1,20 @@
 def CustomProperty():
-'''public CustomProperty()
-public CustomProperty(final Property property)
-public CustomProperty(final Property property, final String name)
-'''
-pass
+    '''    public CustomProperty()
+    public CustomProperty(final Property property)
+    public CustomProperty(final Property property, final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def equalsContents():
-'''public boolean equalsContents(final Object o)
-'''
-pass
+    '''    public boolean equalsContents(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

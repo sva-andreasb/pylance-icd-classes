@@ -1,8 +1,6 @@
 def Log4j1ConfigurationParser():
-'''public Log4j1ConfigurationParser()
-'''
-pass
+    '''    public Log4j1ConfigurationParser()
+    '''
 def buildConfigurationBuilder():
-'''public ConfigurationBuilder<BuiltConfiguration> buildConfigurationBuilder(final InputStream input)
-'''
-pass
+    '''    public ConfigurationBuilder<BuiltConfiguration> buildConfigurationBuilder(final InputStream input)
+    '''

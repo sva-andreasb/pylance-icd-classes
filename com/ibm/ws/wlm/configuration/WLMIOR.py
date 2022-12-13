@@ -1,24 +1,18 @@
 def getWLMIOR():
-'''public static WLMIOR getWLMIOR(final IOR ior, final ORB orb)
-'''
-pass
+    '''    public static WLMIOR getWLMIOR(final IOR ior, final ORB orb)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getTypeId():
-'''public String getTypeId()
-'''
-pass
+    '''    public String getTypeId()
+    '''
 def getIOR():
-'''public IOR getIOR()
-'''
-pass
+    '''    public IOR getIOR()
+    '''
 def getClusterKey():
-'''public DescriptionKey getClusterKey()
-'''
-pass
+    '''    public DescriptionKey getClusterKey()
+    '''
 def getLSDClusterKey():
-'''public DescriptionKey getLSDClusterKey()
-'''
-pass
+    '''    public DescriptionKey getLSDClusterKey()
+    '''

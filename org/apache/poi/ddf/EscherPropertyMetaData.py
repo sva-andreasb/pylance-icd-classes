@@ -5,15 +5,12 @@ TYPE_SHAPEPATH = "byte  3"
 TYPE_SIMPLE = "byte  4"
 TYPE_ARRAY = "byte  5"
 def EscherPropertyMetaData():
-'''public EscherPropertyMetaData(final String description)
-public EscherPropertyMetaData(final String description, final byte type)
-'''
-pass
+    '''    public EscherPropertyMetaData(final String description)
+    public EscherPropertyMetaData(final String description, final byte type)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getType():
-'''public byte getType()
-'''
-pass
+    '''    public byte getType()
+    '''

@@ -1,12 +1,9 @@
 def properties():
-'''public int properties()
-'''
-pass
+    '''    public int properties()
+    '''
 def addPositiveAction():
-'''public int addPositiveAction()
-'''
-pass
+    '''    public int addPositiveAction()
+    '''
 def addNegativeAction():
-'''public int addNegativeAction()
-'''
-pass
+    '''    public int addNegativeAction()
+    '''

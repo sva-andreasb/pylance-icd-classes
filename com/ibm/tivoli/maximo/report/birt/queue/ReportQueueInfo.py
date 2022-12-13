@@ -1,4 +1,3 @@
 def getRunningReportCount():
-'''public int getRunningReportCount()
-'''
-pass
+    '''    public int getRunningReportCount()
+    '''

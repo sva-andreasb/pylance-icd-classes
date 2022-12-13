@@ -1,16 +1,12 @@
 def PrecedingSiblingAxisIterator():
-'''public PrecedingSiblingAxisIterator(final Object contextNode, final Navigator navigator)
-'''
-pass
+    '''    public PrecedingSiblingAxisIterator(final Object contextNode, final Navigator navigator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

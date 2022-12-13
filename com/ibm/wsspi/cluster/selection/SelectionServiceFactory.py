@@ -1,4 +1,3 @@
 def getSelectionService():
-'''public static SelectionService getSelectionService()
-'''
-pass
+    '''    public static SelectionService getSelectionService()
+    '''

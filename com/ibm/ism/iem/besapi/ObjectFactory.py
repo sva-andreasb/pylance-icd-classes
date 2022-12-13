@@ -1,76 +1,57 @@
 def createBESAPI():
-'''public BESAPI createBESAPI()
-'''
-pass
+    '''    public BESAPI createBESAPI()
+    '''
 def createComputerResultType():
-'''public ComputerResultType createComputerResultType()
-'''
-pass
+    '''    public ComputerResultType createComputerResultType()
+    '''
 def createRole():
-'''public Role createRole()
-'''
-pass
+    '''    public Role createRole()
+    '''
 def createReplicationLinkType():
-'''public ReplicationLinkType createReplicationLinkType()
-'''
-pass
+    '''    public ReplicationLinkType createReplicationLinkType()
+    '''
 def createOperator():
-'''public Operator createOperator()
-'''
-pass
+    '''    public Operator createOperator()
+    '''
 def createComputerSetting():
-'''public ComputerSetting createComputerSetting()
-'''
-pass
+    '''    public ComputerSetting createComputerSetting()
+    '''
 def createIntegerWithReference():
-'''public IntegerWithReference createIntegerWithReference()
-'''
-pass
+    '''    public IntegerWithReference createIntegerWithReference()
+    '''
 def createLDAPServer():
-'''public LDAPServer createLDAPServer()
-'''
-pass
+    '''    public LDAPServer createLDAPServer()
+    '''
 def createStringWithReference():
-'''public StringWithReference createStringWithReference()
-'''
-pass
+    '''    public StringWithReference createStringWithReference()
+    '''
 def createRelevanceResult():
-'''public RelevanceResult createRelevanceResult()
-'''
-pass
+    '''    public RelevanceResult createRelevanceResult()
+    '''
 def createRelevanceAnswer():
-'''public RelevanceAnswer createRelevanceAnswer()
-'''
-pass
+    '''    public RelevanceAnswer createRelevanceAnswer()
+    '''
 def createBESAPIWarning():
-'''public JAXBElement<String> createBESAPIWarning(final String value)
-'''
-pass
+    '''    public JAXBElement<String> createBESAPIWarning(final String value)
+    '''
 def createBESAPIReplicationLink():
-'''public JAXBElement<ReplicationLinkType> createBESAPIReplicationLink(final ReplicationLinkType value)
-'''
-pass
+    '''    public JAXBElement<ReplicationLinkType> createBESAPIReplicationLink(final ReplicationLinkType value)
+    '''
 def createBESAPIOperator():
-'''public JAXBElement<Operator> createBESAPIOperator(final Operator value)
-'''
-pass
+    '''    public JAXBElement<Operator> createBESAPIOperator(final Operator value)
+    '''
 def createBESAPIComputerSetting():
-'''public JAXBElement<ComputerSetting> createBESAPIComputerSetting(final ComputerSetting value)
-'''
-pass
+    '''    public JAXBElement<ComputerSetting> createBESAPIComputerSetting(final ComputerSetting value)
+    '''
 def createBESAPIError():
-'''public JAXBElement<String> createBESAPIError(final String value)
-'''
-pass
+    '''    public JAXBElement<String> createBESAPIError(final String value)
+    '''
 def createBESAPIRole():
-'''public JAXBElement<Role> createBESAPIRole(final Role value)
-'''
-pass
+    '''    public JAXBElement<Role> createBESAPIRole(final Role value)
+    '''
 def createRoleOperatorsExplicit():
-'''public JAXBElement<String> createRoleOperatorsExplicit(final String value)
-'''
-pass
+    '''    public JAXBElement<String> createRoleOperatorsExplicit(final String value)
+    '''
 def createRoleOperatorsInherited():
-'''public JAXBElement<String> createRoleOperatorsInherited(final String value)
-'''
-pass
+    '''    public JAXBElement<String> createRoleOperatorsInherited(final String value)
+    '''

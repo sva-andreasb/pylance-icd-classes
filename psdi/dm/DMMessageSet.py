@@ -1,4 +1,3 @@
 def DMMessageSet():
-'''public DMMessageSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMMessageSet(final MboServerInterface ms)
+    '''

@@ -1,108 +1,81 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getBillingItem():
-'''public Item getBillingItem()
-'''
-pass
+    '''    public Item getBillingItem()
+    '''
 def setBillingItem():
-'''public void setBillingItem(final Item billingItem)
-'''
-pass
+    '''    public void setBillingItem(final Item billingItem)
+    '''
 def getSoftwareDescription():
-'''public Description getSoftwareDescription()
-'''
-pass
+    '''    public Description getSoftwareDescription()
+    '''
 def setSoftwareDescription():
-'''public void setSoftwareDescription(final Description softwareDescription)
-'''
-pass
+    '''    public void setSoftwareDescription(final Description softwareDescription)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCapacity():
-'''public String getCapacity()
-'''
-pass
+    '''    public String getCapacity()
+    '''
 def setCapacity():
-'''public void setCapacity(final String capacity)
-'''
-pass
+    '''    public void setCapacity(final String capacity)
+    '''
 def isCapacitySpecified():
-'''public boolean isCapacitySpecified()
-'''
-pass
+    '''    public boolean isCapacitySpecified()
+    '''
 def unsetCapacity():
-'''public void unsetCapacity()
-'''
-pass
+    '''    public void unsetCapacity()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def isKeySpecified():
-'''public boolean isKeySpecified()
-'''
-pass
+    '''    public boolean isKeySpecified()
+    '''
 def unsetKey():
-'''public void unsetKey()
-'''
-pass
+    '''    public void unsetKey()
+    '''
 def getUnits():
-'''public String getUnits()
-'''
-pass
+    '''    public String getUnits()
+    '''
 def setUnits():
-'''public void setUnits(final String units)
-'''
-pass
+    '''    public void setUnits(final String units)
+    '''
 def isUnitsSpecified():
-'''public boolean isUnitsSpecified()
-'''
-pass
+    '''    public boolean isUnitsSpecified()
+    '''
 def unsetUnits():
-'''public void unsetUnits()
-'''
-pass
+    '''    public void unsetUnits()
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def capacity():
-'''public Mask capacity()
-'''
-pass
+    '''    public Mask capacity()
+    '''
 def key():
-'''public Mask key()
-'''
-pass
+    '''    public Mask key()
+    '''
 def units():
-'''public Mask units()
-'''
-pass
+    '''    public Mask units()
+    '''

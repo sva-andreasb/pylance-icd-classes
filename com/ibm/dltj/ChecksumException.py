@@ -1,8 +1,6 @@
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def ChecksumException():
-'''public ChecksumException()
-'''
-pass
+    '''    public ChecksumException()
+    '''

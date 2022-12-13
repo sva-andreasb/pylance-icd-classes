@@ -1,4 +1,3 @@
 def FldSysMapLocsys():
-'''public FldSysMapLocsys(final MboValue mbv)
-'''
-pass
+    '''    public FldSysMapLocsys(final MboValue mbv)
+    '''

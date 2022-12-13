@@ -1,20 +1,15 @@
 def STEvent():
-'''public STEvent(final Object source, final int id)
-'''
-pass
+    '''    public STEvent(final Object source, final int id)
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''
 def isConsumed():
-'''public boolean isConsumed()
-'''
-pass
+    '''    public boolean isConsumed()
+    '''
 def setConsumed():
-'''public void setConsumed(final boolean consumed)
-'''
-pass
+    '''    public void setConsumed(final boolean consumed)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,13 +1,10 @@
 def RequestPayload():
-'''public RequestPayload(final byte[] bytes, final String charset)
-public RequestPayload(final CharSequence str)
-'''
-pass
+    '''    public RequestPayload(final byte[] bytes, final String charset)
+    public RequestPayload(final CharSequence str)
+    '''
 def getRawPayload():
-'''public Object getRawPayload()
-'''
-pass
+    '''    public Object getRawPayload()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

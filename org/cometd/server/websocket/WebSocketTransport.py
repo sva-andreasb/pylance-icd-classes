@@ -1,4 +1,3 @@
 def WebSocketTransport():
-'''public WebSocketTransport(final BayeuxServerImpl bayeux)
-'''
-pass
+    '''    public WebSocketTransport(final BayeuxServerImpl bayeux)
+    '''

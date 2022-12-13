@@ -1,4 +1,3 @@
 def filterhistory():
-'''public int filterhistory()
-'''
-pass
+    '''    public int filterhistory()
+    '''

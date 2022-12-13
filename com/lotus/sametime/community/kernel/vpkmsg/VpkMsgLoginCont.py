@@ -1,4 +1,3 @@
 def VpkMsgLoginCont():
-'''public VpkMsgLoginCont(final int n)
-'''
-pass
+    '''    public VpkMsgLoginCont(final int n)
+    '''

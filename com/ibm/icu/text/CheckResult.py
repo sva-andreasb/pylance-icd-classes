@@ -1,8 +1,6 @@
 def CheckResult():
-'''public CheckResult()
-'''
-pass
+    '''    public CheckResult()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

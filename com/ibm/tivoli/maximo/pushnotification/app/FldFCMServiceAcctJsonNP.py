@@ -1,8 +1,6 @@
 def FldFCMServiceAcctJsonNP():
-'''public FldFCMServiceAcctJsonNP(final MboValue mbv)
-'''
-pass
+    '''    public FldFCMServiceAcctJsonNP(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

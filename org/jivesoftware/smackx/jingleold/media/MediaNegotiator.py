@@ -1,36 +1,27 @@
 def MediaNegotiator():
-'''public MediaNegotiator(final JingleSession session, final JingleMediaManager mediaManager, final List<PayloadType> pts, final ContentNegotiator parentNegotiator)
-'''
-pass
+    '''    public MediaNegotiator(final JingleSession session, final JingleMediaManager mediaManager, final List<PayloadType> pts, final ContentNegotiator parentNegotiator)
+    '''
 def getMediaManager():
-'''public JingleMediaManager getMediaManager()
-'''
-pass
+    '''    public JingleMediaManager getMediaManager()
+    '''
 def dispatchIncomingPacket():
-'''public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
-'''
-pass
+    '''    public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
+    '''
 def isEstablished():
-'''public boolean isEstablished()
-'''
-pass
+    '''    public boolean isEstablished()
+    '''
 def isFullyEstablished():
-'''public boolean isFullyEstablished()
-'''
-pass
+    '''    public boolean isFullyEstablished()
+    '''
 def addRemoteAudioPayloadType():
-'''public void addRemoteAudioPayloadType(final PayloadType.Audio pt)
-'''
-pass
+    '''    public void addRemoteAudioPayloadType(final PayloadType.Audio pt)
+    '''
 def getBestCommonAudioPt():
-'''public PayloadType getBestCommonAudioPt()
-'''
-pass
+    '''    public PayloadType getBestCommonAudioPt()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getJingleDescription():
-'''public JingleDescription getJingleDescription()
-'''
-pass
+    '''    public JingleDescription getJingleDescription()
+    '''

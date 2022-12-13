@@ -1,4 +1,3 @@
 def getTimestamp():
-'''public String getTimestamp()
-'''
-pass
+    '''    public String getTimestamp()
+    '''

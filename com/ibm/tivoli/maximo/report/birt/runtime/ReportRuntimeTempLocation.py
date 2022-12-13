@@ -1,32 +1,24 @@
 def setReportRuntimeTempLocation():
-'''public static void setReportRuntimeTempLocation(final String loc)
-'''
-pass
+    '''    public static void setReportRuntimeTempLocation(final String loc)
+    '''
 def getReportsLocation():
-'''public static String getReportsLocation()
-'''
-pass
+    '''    public static String getReportsLocation()
+    '''
 def getImagesLocation():
-'''public static String getImagesLocation()
-'''
-pass
+    '''    public static String getImagesLocation()
+    '''
 def getLogsLocation():
-'''public static String getLogsLocation()
-'''
-pass
+    '''    public static String getLogsLocation()
+    '''
 def getResourcesLocation():
-'''public static String getResourcesLocation()
-'''
-pass
+    '''    public static String getResourcesLocation()
+    '''
 def getScriptsLibLocation():
-'''public static String getScriptsLibLocation()
-'''
-pass
+    '''    public static String getScriptsLibLocation()
+    '''
 def getGroupdocsLicLocation():
-'''public static String getGroupdocsLicLocation()
-'''
-pass
+    '''    public static String getGroupdocsLicLocation()
+    '''
 def getGroupdocsLocation():
-'''public static String getGroupdocsLocation()
-'''
-pass
+    '''    public static String getGroupdocsLocation()
+    '''

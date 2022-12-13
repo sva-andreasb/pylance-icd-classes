@@ -1,33 +1,25 @@
 def Owner():
-'''public Owner()
-public Owner(final String id, final String displayName)
-'''
-pass
+    '''    public Owner()
+    public Owner(final String id, final String displayName)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setId():
-'''public void setId(final String id)
-'''
-pass
+    '''    public void setId(final String id)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def setDisplayName():
-'''public void setDisplayName(final String name)
-'''
-pass
+    '''    public void setDisplayName(final String name)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

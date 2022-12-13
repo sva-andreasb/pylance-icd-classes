@@ -1,30 +1,23 @@
 def PatternInternalParser():
-'''public PatternInternalParser()
-public PatternInternalParser(final PatternConsumer consumer)
-'''
-pass
+    '''    public PatternInternalParser()
+    public PatternInternalParser(final PatternConsumer consumer)
+    '''
 def setConsumer():
-'''public void setConsumer(final PatternConsumer consumer)
-'''
-pass
+    '''    public void setConsumer(final PatternConsumer consumer)
+    '''
 def parse():
-'''public void parse(final String filename)
-public void parse(final InputStream is)
-'''
-pass
+    '''    public void parse(final String filename)
+    public void parse(final InputStream is)
+    '''
 def parseString():
-'''public void parseString(final String hyphs)
-'''
-pass
+    '''    public void parseString(final String hyphs)
+    '''
 def addClass():
-'''public void addClass(final String c)
-'''
-pass
+    '''    public void addClass(final String c)
+    '''
 def addException():
-'''public void addException(final String w, final ArrayList e)
-'''
-pass
+    '''    public void addException(final String w, final ArrayList e)
+    '''
 def addPattern():
-'''public void addPattern(final String p, final String v)
-'''
-pass
+    '''    public void addPattern(final String p, final String v)
+    '''

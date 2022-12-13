@@ -1,13 +1,10 @@
 def createLocalAppManagementImpl():
-'''public static AppManagement createLocalAppManagementImpl()
-public static AppManagement createLocalAppManagementImpl(final String wasRoot)
-'''
-pass
+    '''    public static AppManagement createLocalAppManagementImpl()
+    public static AppManagement createLocalAppManagementImpl(final String wasRoot)
+    '''
 def initMBean():
-'''public static void initMBean(final String configRoot, final String cellName, final String nodeName, final String processName)
-'''
-pass
+    '''    public static void initMBean(final String configRoot, final String cellName, final String nodeName, final String processName)
+    '''
 def getTempExtractDir():
-'''public static String getTempExtractDir()
-'''
-pass
+    '''    public static String getTempExtractDir()
+    '''

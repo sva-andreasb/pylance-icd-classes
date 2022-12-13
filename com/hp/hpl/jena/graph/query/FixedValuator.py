@@ -1,12 +1,9 @@
 def FixedValuator():
-'''public FixedValuator(final Object value)
-'''
-pass
+    '''    public FixedValuator(final Object value)
+    '''
 def evalBool():
-'''public boolean evalBool(final IndexValues iv)
-'''
-pass
+    '''    public boolean evalBool(final IndexValues iv)
+    '''
 def evalObject():
-'''public Object evalObject(final IndexValues iv)
-'''
-pass
+    '''    public Object evalObject(final IndexValues iv)
+    '''

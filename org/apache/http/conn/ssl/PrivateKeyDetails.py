@@ -1,16 +1,12 @@
 def PrivateKeyDetails():
-'''public PrivateKeyDetails(final String type, final X509Certificate[] certChain)
-'''
-pass
+    '''    public PrivateKeyDetails(final String type, final X509Certificate[] certChain)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getCertChain():
-'''public X509Certificate[] getCertChain()
-'''
-pass
+    '''    public X509Certificate[] getCertChain()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

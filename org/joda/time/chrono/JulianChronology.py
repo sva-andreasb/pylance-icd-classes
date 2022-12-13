@@ -1,18 +1,14 @@
 def getInstanceUTC():
-'''public static JulianChronology getInstanceUTC()
-'''
-pass
+    '''    public static JulianChronology getInstanceUTC()
+    '''
 def getInstance():
-'''public static JulianChronology getInstance()
-public static JulianChronology getInstance(final DateTimeZone dateTimeZone)
-public static JulianChronology getInstance(DateTimeZone default1, final int i)
-'''
-pass
+    '''    public static JulianChronology getInstance()
+    public static JulianChronology getInstance(final DateTimeZone dateTimeZone)
+    public static JulianChronology getInstance(DateTimeZone default1, final int i)
+    '''
 def withUTC():
-'''public Chronology withUTC()
-'''
-pass
+    '''    public Chronology withUTC()
+    '''
 def withZone():
-'''public Chronology withZone(DateTimeZone default1)
-'''
-pass
+    '''    public Chronology withZone(DateTimeZone default1)
+    '''

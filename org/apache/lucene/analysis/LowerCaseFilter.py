@@ -1,8 +1,6 @@
 def LowerCaseFilter():
-'''public LowerCaseFilter(final TokenStream in)
-'''
-pass
+    '''    public LowerCaseFilter(final TokenStream in)
+    '''
 def incrementToken():
-'''public final boolean incrementToken()
-'''
-pass
+    '''    public final boolean incrementToken()
+    '''

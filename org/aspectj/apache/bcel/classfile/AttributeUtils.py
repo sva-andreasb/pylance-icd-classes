@@ -1,36 +1,27 @@
 def readAttributes():
-'''public static Attribute[] readAttributes(final DataInputStream dataInputstream, final ConstantPool cpool)
-'''
-pass
+    '''    public static Attribute[] readAttributes(final DataInputStream dataInputstream, final ConstantPool cpool)
+    '''
 def writeAttributes():
-'''public static void writeAttributes(final Attribute[] attributes, final DataOutputStream file)
-'''
-pass
+    '''    public static void writeAttributes(final Attribute[] attributes, final DataOutputStream file)
+    '''
 def getSignatureAttribute():
-'''public static Signature getSignatureAttribute(final Attribute[] attributes)
-'''
-pass
+    '''    public static Signature getSignatureAttribute(final Attribute[] attributes)
+    '''
 def getCodeAttribute():
-'''public static Code getCodeAttribute(final Attribute[] attributes)
-'''
-pass
+    '''    public static Code getCodeAttribute(final Attribute[] attributes)
+    '''
 def getExceptionTableAttribute():
-'''public static ExceptionTable getExceptionTableAttribute(final Attribute[] attributes)
-'''
-pass
+    '''    public static ExceptionTable getExceptionTableAttribute(final Attribute[] attributes)
+    '''
 def getConstantValueAttribute():
-'''public static ConstantValue getConstantValueAttribute(final Attribute[] attributes)
-'''
-pass
+    '''    public static ConstantValue getConstantValueAttribute(final Attribute[] attributes)
+    '''
 def accept():
-'''public static void accept(final Attribute[] attributes, final ClassVisitor visitor)
-'''
-pass
+    '''    public static void accept(final Attribute[] attributes, final ClassVisitor visitor)
+    '''
 def hasSyntheticAttribute():
-'''public static boolean hasSyntheticAttribute(final Attribute[] attributes)
-'''
-pass
+    '''    public static boolean hasSyntheticAttribute(final Attribute[] attributes)
+    '''
 def getSourceFileAttribute():
-'''public static SourceFile getSourceFileAttribute(final Attribute[] attributes)
-'''
-pass
+    '''    public static SourceFile getSourceFileAttribute(final Attribute[] attributes)
+    '''

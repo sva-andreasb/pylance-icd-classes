@@ -1,8 +1,6 @@
 def FldNotifyText():
-'''public FldNotifyText(final MboValue mbv)
-'''
-pass
+    '''    public FldNotifyText(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

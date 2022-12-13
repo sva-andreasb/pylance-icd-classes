@@ -1,20 +1,15 @@
 def FldSCOrgId():
-'''public FldSCOrgId(final MboValue mbv)
-'''
-pass
+    '''    public FldSCOrgId(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

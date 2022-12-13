@@ -1,32 +1,24 @@
 def PlusPFldSpecialPricing():
-'''public PlusPFldSpecialPricing(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldSpecialPricing(final MboValue mbv)
+    '''
 def isValidObjectForSpecialPricing():
-'''public boolean isValidObjectForSpecialPricing()
-'''
-pass
+    '''    public boolean isValidObjectForSpecialPricing()
+    '''
 def isMinimumFilled():
-'''public boolean isMinimumFilled()
-'''
-pass
+    '''    public boolean isMinimumFilled()
+    '''
 def isIncludedFilled():
-'''public boolean isIncludedFilled()
-'''
-pass
+    '''    public boolean isIncludedFilled()
+    '''
 def isBillApprovedFilled():
-'''public boolean isBillApprovedFilled()
-'''
-pass
+    '''    public boolean isBillApprovedFilled()
+    '''
 def isQuoteFilled():
-'''public boolean isQuoteFilled()
-'''
-pass
+    '''    public boolean isQuoteFilled()
+    '''
 def clearFieldsAndSetReadOnly():
-'''public void clearFieldsAndSetReadOnly(final String[] array)
-'''
-pass
+    '''    public void clearFieldsAndSetReadOnly(final String[] array)
+    '''
 def setReadOnly():
-'''public void setReadOnly(final String[] array, final boolean readOnly)
-'''
-pass
+    '''    public void setReadOnly(final String[] array, final boolean readOnly)
+    '''

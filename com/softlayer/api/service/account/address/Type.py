@@ -1,89 +1,67 @@
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getKeyName():
-'''public String getKeyName()
-'''
-pass
+    '''    public String getKeyName()
+    '''
 def setKeyName():
-'''public void setKeyName(final String keyName)
-'''
-pass
+    '''    public void setKeyName(final String keyName)
+    '''
 def isKeyNameSpecified():
-'''public boolean isKeyNameSpecified()
-'''
-pass
+    '''    public boolean isKeyNameSpecified()
+    '''
 def unsetKeyName():
-'''public void unsetKeyName()
-'''
-pass
+    '''    public void unsetKeyName()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def keyName():
-'''public Mask keyName()
-'''
-pass
+    '''    public Mask keyName()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''

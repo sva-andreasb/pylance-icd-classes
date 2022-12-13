@@ -1,8 +1,6 @@
 def execute():
-'''public final OAuthCredentialsResponse execute()
-'''
-pass
+    '''    public final OAuthCredentialsResponse execute()
+    '''
 def createParameters():
-'''public OAuthParameters createParameters()
-'''
-pass
+    '''    public OAuthParameters createParameters()
+    '''

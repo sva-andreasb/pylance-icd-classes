@@ -1,12 +1,9 @@
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def TLOAMGCOST():
-'''public int TLOAMGCOST()
-'''
-pass
+    '''    public int TLOAMGCOST()
+    '''

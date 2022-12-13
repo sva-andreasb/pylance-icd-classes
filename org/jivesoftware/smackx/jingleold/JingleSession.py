@@ -1,175 +1,132 @@
 def JingleSession():
-'''public JingleSession(final XMPPConnection conn, final Jid initiator, final Jid responder, final String sessionid, final List<JingleMediaManager> jingleMediaManagers)
-public JingleSession(final XMPPConnection conn, final JingleSessionRequest request, final Jid initiator, final Jid responder, final List<JingleMediaManager> jingleMediaManagers)
-'''
-pass
+    '''    public JingleSession(final XMPPConnection conn, final Jid initiator, final Jid responder, final String sessionid, final List<JingleMediaManager> jingleMediaManagers)
+    public JingleSession(final XMPPConnection conn, final JingleSessionRequest request, final Jid initiator, final Jid responder, final List<JingleMediaManager> jingleMediaManagers)
+    '''
 def getInitiator():
-'''public Jid getInitiator()
-'''
-pass
+    '''    public Jid getInitiator()
+    '''
 def getConnection():
-'''public XMPPConnection getConnection()
-'''
-pass
+    '''    public XMPPConnection getConnection()
+    '''
 def setInitiator():
-'''public void setInitiator(final Jid initiator)
-'''
-pass
+    '''    public void setInitiator(final Jid initiator)
+    '''
 def getMediaManagers():
-'''public List<JingleMediaManager> getMediaManagers()
-'''
-pass
+    '''    public List<JingleMediaManager> getMediaManagers()
+    '''
 def setMediaManagers():
-'''public void setMediaManagers(final List<JingleMediaManager> jingleMediaManagers)
-'''
-pass
+    '''    public void setMediaManagers(final List<JingleMediaManager> jingleMediaManagers)
+    '''
 def getResponder():
-'''public Jid getResponder()
-'''
-pass
+    '''    public Jid getResponder()
+    '''
 def setResponder():
-'''public void setResponder(final Jid responder)
-'''
-pass
+    '''    public void setResponder(final Jid responder)
+    '''
 def getSid():
-'''public String getSid()
-'''
-pass
+    '''    public String getSid()
+    '''
 def setSessionState():
-'''public void setSessionState(final JingleSessionState stateIs)
-'''
-pass
+    '''    public void setSessionState(final JingleSessionState stateIs)
+    '''
 def getSessionState():
-'''public JingleSessionState getSessionState()
-'''
-pass
+    '''    public JingleSessionState getSessionState()
+    '''
 def isFullyEstablished():
-'''public boolean isFullyEstablished()
-'''
-pass
+    '''    public boolean isFullyEstablished()
+    '''
 def receivePacketAndRespond():
-'''public synchronized void receivePacketAndRespond(final IQ iq)
-'''
-pass
+    '''    public synchronized void receivePacketAndRespond(final IQ iq)
+    '''
 def dispatchIncomingPacket():
-'''public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
-'''
-pass
+    '''    public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
+    '''
 def addContentNegotiator():
-'''public void addContentNegotiator(final ContentNegotiator inContentNegotiator)
-'''
-pass
+    '''    public void addContentNegotiator(final ContentNegotiator inContentNegotiator)
+    '''
 def sendStanza():
-'''public void sendStanza(final IQ iq)
-'''
-pass
+    '''    public void sendStanza(final IQ iq)
+    '''
 def sendFormattedJingle():
-'''public Jingle sendFormattedJingle(final Jingle jout)
-public Jingle sendFormattedJingle(final IQ iq, final Jingle jout)
-'''
-pass
+    '''    public Jingle sendFormattedJingle(final Jingle jout)
+    public Jingle sendFormattedJingle(final IQ iq, final Jingle jout)
+    '''
 def createAck():
-'''public IQ createAck(final IQ iq)
-'''
-pass
+    '''    public IQ createAck(final IQ iq)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getInstanceFor():
-'''public static synchronized JingleSession getInstanceFor(final XMPPConnection con)
-'''
-pass
+    '''    public static synchronized JingleSession getInstanceFor(final XMPPConnection con)
+    '''
 def connectionTerminated():
-'''public void connectionTerminated()
-'''
-pass
+    '''    public void connectionTerminated()
+    '''
 def processStanza():
-'''public void processStanza(final Stanza packet)
-'''
-pass
+    '''    public void processStanza(final Stanza packet)
+    '''
 def accept():
-'''public boolean accept(final Stanza packet)
-'''
-pass
+    '''    public boolean accept(final Stanza packet)
+    '''
 def addMediaListener():
-'''public void addMediaListener(final JingleMediaListener li)
-'''
-pass
+    '''    public void addMediaListener(final JingleMediaListener li)
+    '''
 def removeMediaListener():
-'''public void removeMediaListener(final JingleMediaListener li)
-'''
-pass
+    '''    public void removeMediaListener(final JingleMediaListener li)
+    '''
 def addTransportListener():
-'''public void addTransportListener(final JingleTransportListener li)
-'''
-pass
+    '''    public void addTransportListener(final JingleTransportListener li)
+    '''
 def removeTransportListener():
-'''public void removeTransportListener(final JingleTransportListener li)
-'''
-pass
+    '''    public void removeTransportListener(final JingleTransportListener li)
+    '''
 def setupListeners():
-'''public void setupListeners()
-'''
-pass
+    '''    public void setupListeners()
+    '''
 def mediaClosed():
-'''public void mediaClosed(final PayloadType cand)
-'''
-pass
+    '''    public void mediaClosed(final PayloadType cand)
+    '''
 def mediaEstablished():
-'''public void mediaEstablished(final PayloadType pt)
-'''
-pass
+    '''    public void mediaEstablished(final PayloadType pt)
+    '''
 def transportEstablished():
-'''public void transportEstablished(final TransportCandidate local, final TransportCandidate remote)
-'''
-pass
+    '''    public void transportEstablished(final TransportCandidate local, final TransportCandidate remote)
+    '''
 def transportClosed():
-'''public void transportClosed(final TransportCandidate cand)
-'''
-pass
+    '''    public void transportClosed(final TransportCandidate cand)
+    '''
 def transportClosedOnError():
-'''public void transportClosedOnError(final XMPPException e)
-'''
-pass
+    '''    public void transportClosedOnError(final XMPPException e)
+    '''
 def terminate():
-'''public void terminate()
-public void terminate(final String reason)
-'''
-pass
+    '''    public void terminate()
+    public void terminate(final String reason)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def createJingleError():
-'''public IQ createJingleError(final IQ iq, final JingleError jingleError)
-'''
-pass
+    '''    public IQ createJingleError(final IQ iq, final JingleError jingleError)
+    '''
 def mediaReceived():
-'''public void mediaReceived(final String participant)
-'''
-pass
+    '''    public void mediaReceived(final String participant)
+    '''
 def startOutgoing():
-'''public void startOutgoing()
-'''
-pass
+    '''    public void startOutgoing()
+    '''
 def startIncoming():
-'''public void startIncoming()
-'''
-pass
+    '''    public void startIncoming()
+    '''
 def addJingleMediaSession():
-'''public void addJingleMediaSession(final String mediaManagerName, final JingleMediaSession mediaSession)
-'''
-pass
+    '''    public void addJingleMediaSession(final String mediaManagerName, final JingleMediaSession mediaSession)
+    '''
 def getMediaSession():
-'''public JingleMediaSession getMediaSession(final String mediaManagerName)
-'''
-pass
+    '''    public JingleMediaSession getMediaSession(final String mediaManagerName)
+    '''

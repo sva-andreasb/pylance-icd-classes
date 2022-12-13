@@ -1,100 +1,78 @@
-LRE = "String  \u202a""
-RLE = "String  \u202b""
-PDF = "String  \u202c""
-LRM = "String  \u200e""
-RLM = "String  \u200f""
-CHAR_ENCODING = "String  UTF-8""
+LRE = "String  \"\u202a\""
+RLE = "String  \"\u202b\""
+PDF = "String  \"\u202c\""
+LRM = "String  \"\u200e\""
+RLM = "String  \"\u200f\""
+CHAR_ENCODING = "String  \"UTF-8\""
 def ILogApplet():
-'''public ILogApplet()
-'''
-pass
+    '''    public ILogApplet()
+    '''
 def init():
-'''public final void init()
-'''
-pass
+    '''    public final void init()
+    '''
 def loadData():
-'''public final void loadData(final String initialLoadRequired)
-'''
-pass
+    '''    public final void loadData(final String initialLoadRequired)
+    '''
 def run():
-'''public void run()
-public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public void run()
+    '''
 def showWarnings():
-'''public void showWarnings()
-'''
-pass
+    '''    public void showWarnings()
+    '''
 def createImageIcon():
-'''public static ImageIcon createImageIcon(final String name)
-'''
-pass
+    '''    public static ImageIcon createImageIcon(final String name)
+    '''
 def getControlServletURL():
-'''public URL getControlServletURL(final String[] argNames, final String[] argValues)
-public URL getControlServletURL(final Hashtable<String, String[]> args)
-'''
-pass
+    '''    public URL getControlServletURL(final String[] argNames, final String[] argValues)
+    public URL getControlServletURL(final Hashtable<String, String[]> args)
+    '''
 def arrayToString():
-'''public static String arrayToString(final String[] a, final String separator)
-'''
-pass
+    '''    public static String arrayToString(final String[] a, final String separator)
+    '''
 def loadDataOnInit():
-'''public boolean loadDataOnInit()
-'''
-pass
+    '''    public boolean loadDataOnInit()
+    '''
 def sendEvent():
-'''public void sendEvent(final String event)
-public void sendEvent(final String event, final Hashtable values)
-public void sendEvent(final String event, final String target)
-public void sendEvent(final String event, final String target, final Hashtable values)
-'''
-pass
+    '''    public void sendEvent(final String event)
+    public void sendEvent(final String event, final Hashtable values)
+    public void sendEvent(final String event, final String target)
+    public void sendEvent(final String event, final String target, final Hashtable values)
+    '''
 def getSkinName():
-'''public String getSkinName()
-'''
-pass
+    '''    public String getSkinName()
+    '''
 def removeMarkers():
-'''public static String removeMarkers(final String str)
-'''
-pass
+    '''    public static String removeMarkers(final String str)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def newInputStreamResolver():
-'''public InputStreamResolver newInputStreamResolver()
-'''
-pass
+    '''    public InputStreamResolver newInputStreamResolver()
+    '''
 def isHttpUsingJavascript():
-'''public boolean isHttpUsingJavascript()
-'''
-pass
+    '''    public boolean isHttpUsingJavascript()
+    '''
 def isFirefoxGreaterThan10():
-'''public boolean isFirefoxGreaterThan10()
-'''
-pass
+    '''    public boolean isFirefoxGreaterThan10()
+    '''
 def isChromeGreaterThan30():
-'''public boolean isChromeGreaterThan30()
-'''
-pass
+    '''    public boolean isChromeGreaterThan30()
+    '''
 def evalJSResult():
-'''public Object evalJSResult(final String cmdString)
-'''
-pass
+    '''    public Object evalJSResult(final String cmdString)
+    '''
 def setJavascriptHandler():
-'''public void setJavascriptHandler(final int id, final JavascriptHandler handler)
-'''
-pass
+    '''    public void setJavascriptHandler(final int id, final JavascriptHandler handler)
+    '''
 def onJavascriptResponse():
-'''public void onJavascriptResponse(final int id, final String data, final boolean encoded)
-'''
-pass
+    '''    public void onJavascriptResponse(final int id, final String data, final boolean encoded)
+    '''
 def nextJavascriptCommunicationId():
-'''public int nextJavascriptCommunicationId()
-'''
-pass
+    '''    public int nextJavascriptCommunicationId()
+    '''
 def log():
-'''public void log(final String string)
-'''
-pass
+    '''    public void log(final String string)
+    '''

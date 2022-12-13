@@ -1,9 +1,7 @@
 def PlusPFldServices():
-'''public PlusPFldServices()
-public PlusPFldServices(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldServices()
+    public PlusPFldServices(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

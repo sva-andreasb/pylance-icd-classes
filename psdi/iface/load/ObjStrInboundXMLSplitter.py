@@ -1,17 +1,13 @@
 def ObjStrInboundXMLSplitter():
-'''public ObjStrInboundXMLSplitter(final MosInfo mInfo, final boolean preview, final MboRemote npMbo, final String msgType)
-'''
-pass
+    '''    public ObjStrInboundXMLSplitter(final MosInfo mInfo, final boolean preview, final MboRemote npMbo, final String msgType)
+    '''
 def splitStart():
-'''public void splitStart()
-'''
-pass
+    '''    public void splitStart()
+    '''
 def splitPerformed():
-'''public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
-'''
-pass
+    '''    public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
+    '''
 def splitEnd():
-'''public void splitEnd()
-public void splitEnd(final Throwable t)
-'''
-pass
+    '''    public void splitEnd()
+    public void splitEnd(final Throwable t)
+    '''

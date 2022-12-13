@@ -1,8 +1,6 @@
 def ShiftRangeSet():
-'''public ShiftRangeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ShiftRangeSet(final MboServerInterface ms)
+    '''
 def applySelectedShifts():
-'''public void applySelectedShifts()
-'''
-pass
+    '''    public void applySelectedShifts()
+    '''

@@ -1,8 +1,6 @@
 def FldAppointmentBookShiftNum():
-'''public FldAppointmentBookShiftNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAppointmentBookShiftNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

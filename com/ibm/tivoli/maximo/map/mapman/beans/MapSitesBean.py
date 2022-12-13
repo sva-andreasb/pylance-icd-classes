@@ -1,4 +1,3 @@
 def setmapsites():
-'''public int setmapsites()
-'''
-pass
+    '''    public int setmapsites()
+    '''

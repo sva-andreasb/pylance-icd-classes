@@ -1,8 +1,6 @@
 def FldRelatedWorkCenterName():
-'''public FldRelatedWorkCenterName(final MboValue mbv)
-'''
-pass
+    '''    public FldRelatedWorkCenterName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

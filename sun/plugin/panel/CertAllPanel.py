@@ -1,28 +1,21 @@
 def CertAllPanel():
-'''public CertAllPanel(final ConfigurationInfo configurationInfo)
-'''
-pass
+    '''    public CertAllPanel(final ConfigurationInfo configurationInfo)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def exportCertificate():
-'''public void exportCertificate(final X509Certificate x509Certificate, final PrintStream printStream)
-'''
-pass
+    '''    public void exportCertificate(final X509Certificate x509Certificate, final PrintStream printStream)
+    '''
 def importPKCS12Certificate():
-'''public void importPKCS12Certificate(final InputStream stream)
-'''
-pass
+    '''    public void importPKCS12Certificate(final InputStream stream)
+    '''
 def importCertificate():
-'''public boolean importCertificate(final InputStream inStream)
-'''
-pass
+    '''    public boolean importCertificate(final InputStream inStream)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setRadioPos():
-'''public void setRadioPos(final String radioPos)
-'''
-pass
+    '''    public void setRadioPos(final String radioPos)
+    '''

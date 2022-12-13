@@ -1,99 +1,75 @@
 def getFraction():
-'''public static Fraction getFraction(int numerator, int denominator)
-public static Fraction getFraction(final int whole, final int numerator, final int denominator)
-public static Fraction getFraction(double value)
-public static Fraction getFraction(String str)
-'''
-pass
+    '''    public static Fraction getFraction(int numerator, int denominator)
+    public static Fraction getFraction(final int whole, final int numerator, final int denominator)
+    public static Fraction getFraction(double value)
+    public static Fraction getFraction(String str)
+    '''
 def getReducedFraction():
-'''public static Fraction getReducedFraction(int numerator, int denominator)
-'''
-pass
+    '''    public static Fraction getReducedFraction(int numerator, int denominator)
+    '''
 def getNumerator():
-'''public int getNumerator()
-'''
-pass
+    '''    public int getNumerator()
+    '''
 def getDenominator():
-'''public int getDenominator()
-'''
-pass
+    '''    public int getDenominator()
+    '''
 def getProperNumerator():
-'''public int getProperNumerator()
-'''
-pass
+    '''    public int getProperNumerator()
+    '''
 def getProperWhole():
-'''public int getProperWhole()
-'''
-pass
+    '''    public int getProperWhole()
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def longValue():
-'''public long longValue()
-'''
-pass
+    '''    public long longValue()
+    '''
 def floatValue():
-'''public float floatValue()
-'''
-pass
+    '''    public float floatValue()
+    '''
 def doubleValue():
-'''public double doubleValue()
-'''
-pass
+    '''    public double doubleValue()
+    '''
 def reduce():
-'''public Fraction reduce()
-'''
-pass
+    '''    public Fraction reduce()
+    '''
 def invert():
-'''public Fraction invert()
-'''
-pass
+    '''    public Fraction invert()
+    '''
 def negate():
-'''public Fraction negate()
-'''
-pass
+    '''    public Fraction negate()
+    '''
 def abs():
-'''public Fraction abs()
-'''
-pass
+    '''    public Fraction abs()
+    '''
 def pow():
-'''public Fraction pow(final int power)
-'''
-pass
+    '''    public Fraction pow(final int power)
+    '''
 def add():
-'''public Fraction add(final Fraction fraction)
-'''
-pass
+    '''    public Fraction add(final Fraction fraction)
+    '''
 def subtract():
-'''public Fraction subtract(final Fraction fraction)
-'''
-pass
+    '''    public Fraction subtract(final Fraction fraction)
+    '''
 def multiplyBy():
-'''public Fraction multiplyBy(final Fraction fraction)
-'''
-pass
+    '''    public Fraction multiplyBy(final Fraction fraction)
+    '''
 def divideBy():
-'''public Fraction divideBy(final Fraction fraction)
-'''
-pass
+    '''    public Fraction divideBy(final Fraction fraction)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def compareTo():
-'''public int compareTo(final Fraction other)
-'''
-pass
+    '''    public int compareTo(final Fraction other)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toProperString():
-'''public String toProperString()
-'''
-pass
+    '''    public String toProperString()
+    '''

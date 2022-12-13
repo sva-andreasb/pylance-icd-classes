@@ -1,8 +1,6 @@
 def FSNSchema():
-'''public FSNSchema(final MboSet ms)
-'''
-pass
+    '''    public FSNSchema(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

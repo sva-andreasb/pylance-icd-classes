@@ -1,8 +1,6 @@
 def FldInvoiceLineTax():
-'''public FldInvoiceLineTax(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceLineTax(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

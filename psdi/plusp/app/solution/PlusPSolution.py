@@ -1,45 +1,34 @@
 def PlusPSolution():
-'''public PlusPSolution(final MboSet arg0)
-'''
-pass
+    '''    public PlusPSolution(final MboSet arg0)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def adjustCustomerReadOnly():
-'''public void adjustCustomerReadOnly()
-'''
-pass
+    '''    public void adjustCustomerReadOnly()
+    '''
 def canAddCustomer():
-'''public void canAddCustomer(final String s)
-public void canAddCustomer()
-'''
-pass
+    '''    public void canAddCustomer(final String s)
+    public void canAddCustomer()
+    '''
 def cancelAddModifyCustDialog():
-'''public void cancelAddModifyCustDialog(final boolean b)
-'''
-pass
+    '''    public void cancelAddModifyCustDialog(final boolean b)
+    '''
 def getCustomerListToRestrictCommonLookups():
-'''public String getCustomerListToRestrictCommonLookups()
-'''
-pass
+    '''    public String getCustomerListToRestrictCommonLookups()
+    '''
 def postAddCustomer():
-'''public void postAddCustomer(final MboRemote mboRemote)
-'''
-pass
+    '''    public void postAddCustomer(final MboRemote mboRemote)
+    '''
 def postRemoveCustomer():
-'''public void postRemoveCustomer(final MboRemote mboRemote)
-'''
-pass
+    '''    public void postRemoveCustomer(final MboRemote mboRemote)
+    '''
 def newSR():
-'''public void newSR()
-'''
-pass
+    '''    public void newSR()
+    '''

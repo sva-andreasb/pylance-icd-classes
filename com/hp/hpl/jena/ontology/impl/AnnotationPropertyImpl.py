@@ -1,20 +1,15 @@
 def AnnotationPropertyImpl():
-'''public AnnotationPropertyImpl(final Node n, final EnhGraph g)
-'''
-pass
+    '''    public AnnotationPropertyImpl(final Node n, final EnhGraph g)
+    '''
 def isProperty():
-'''public boolean isProperty()
-'''
-pass
+    '''    public boolean isProperty()
+    '''
 def getOrdinal():
-'''public int getOrdinal()
-'''
-pass
+    '''    public int getOrdinal()
+    '''
 def wrap():
-'''public EnhNode wrap(final Node n, final EnhGraph eg)
-'''
-pass
+    '''    public EnhNode wrap(final Node n, final EnhGraph eg)
+    '''
 def canWrap():
-'''public boolean canWrap(final Node node, final EnhGraph eg)
-'''
-pass
+    '''    public boolean canWrap(final Node node, final EnhGraph eg)
+    '''

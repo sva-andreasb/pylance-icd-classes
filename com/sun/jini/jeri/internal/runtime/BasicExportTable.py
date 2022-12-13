@@ -1,28 +1,21 @@
 def BasicExportTable():
-'''public BasicExportTable()
-'''
-pass
+    '''    public BasicExportTable()
+    '''
 def export():
-'''public Entry export(final Remote remote, final ServerEndpoint serverEndpoint, final boolean b, final boolean b2, final Uuid uuid)
-'''
-pass
+    '''    public Entry export(final Remote remote, final ServerEndpoint serverEndpoint, final boolean b, final boolean b2, final Uuid uuid)
+    '''
 def getEndpoint():
-'''public Endpoint getEndpoint()
-'''
-pass
+    '''    public Endpoint getEndpoint()
+    '''
 def setInvocationDispatcher():
-'''public void setInvocationDispatcher(final InvocationDispatcher invocationDispatcher)
-'''
-pass
+    '''    public void setInvocationDispatcher(final InvocationDispatcher invocationDispatcher)
+    '''
 def unexport():
-'''public boolean unexport(final boolean b)
-'''
-pass
+    '''    public boolean unexport(final boolean b)
+    '''
 def unreferenced():
-'''public void unreferenced()
-'''
-pass
+    '''    public void unreferenced()
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''

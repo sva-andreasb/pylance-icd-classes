@@ -1,40 +1,30 @@
 def concatanateArrays():
-'''public static String[] concatanateArrays(final String[] l, final String[] r)
-'''
-pass
+    '''    public static String[] concatanateArrays(final String[] l, final String[] r)
+    '''
 def convertSpecialChars():
-'''public static String convertSpecialChars(final String s)
-'''
-pass
+    '''    public static String convertSpecialChars(final String s)
+    '''
 def getSystemProperty():
-'''public static String getSystemProperty(final String key, final String def)
-'''
-pass
+    '''    public static String getSystemProperty(final String key, final String def)
+    '''
 def toBoolean():
-'''public static boolean toBoolean(final String value, final boolean dEfault)
-'''
-pass
+    '''    public static boolean toBoolean(final String value, final boolean dEfault)
+    '''
 def toLevel():
-'''public static Level toLevel(String value, final Level defaultValue)
-'''
-pass
+    '''    public static Level toLevel(String value, final Level defaultValue)
+    '''
 def instantiateByClassName():
-'''public static Object instantiateByClassName(final String className, final Class<?> superClass, final Object defaultValue)
-'''
-pass
+    '''    public static Object instantiateByClassName(final String className, final Class<?> superClass, final Object defaultValue)
+    '''
 def substVars():
-'''public static String substVars(final String val, final Properties props)
-'''
-pass
+    '''    public static String substVars(final String val, final Properties props)
+    '''
 def convertLevel():
-'''public static Level convertLevel(final org.apache.logging.log4j.Level level)
-'''
-pass
+    '''    public static Level convertLevel(final org.apache.logging.log4j.Level level)
+    '''
 def findAndSubst():
-'''public static String findAndSubst(final String key, final Properties props)
-'''
-pass
+    '''    public static String findAndSubst(final String key, final Properties props)
+    '''
 def CharMap():
-'''public CharMap(final char key, final char replacement)
-'''
-pass
+    '''    public CharMap(final char key, final char replacement)
+    '''

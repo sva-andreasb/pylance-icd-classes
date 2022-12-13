@@ -1,12 +1,9 @@
 def SpellCheck():
-'''public SpellCheck(final MboSet ms)
-'''
-pass
+    '''    public SpellCheck(final MboSet ms)
+    '''
 def getSuggestionSet():
-'''public List getSuggestionSet()
-'''
-pass
+    '''    public List getSuggestionSet()
+    '''
 def setSuggestionSet():
-'''public void setSuggestionSet(final List suggestionSet)
-'''
-pass
+    '''    public void setSuggestionSet(final List suggestionSet)
+    '''

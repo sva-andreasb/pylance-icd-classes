@@ -1,8 +1,6 @@
 def Data():
-'''public Data(final DataPacketExtension data)
-'''
-pass
+    '''    public Data(final DataPacketExtension data)
+    '''
 def getDataPacketExtension():
-'''public DataPacketExtension getDataPacketExtension()
-'''
-pass
+    '''    public DataPacketExtension getDataPacketExtension()
+    '''

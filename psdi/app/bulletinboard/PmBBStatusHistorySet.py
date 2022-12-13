@@ -1,4 +1,3 @@
 def PmBBStatusHistorySet():
-'''public PmBBStatusHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmBBStatusHistorySet(final MboServerInterface ms)
+    '''

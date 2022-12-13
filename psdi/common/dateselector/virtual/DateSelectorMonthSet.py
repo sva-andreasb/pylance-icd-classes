@@ -1,16 +1,12 @@
 def DateSelectorMonthSet():
-'''public DateSelectorMonthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DateSelectorMonthSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def getMonths():
-'''public MboSetRemote getMonths()
-'''
-pass
+    '''    public MboSetRemote getMonths()
+    '''

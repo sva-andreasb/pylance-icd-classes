@@ -1,4 +1,3 @@
 def LISTFAILURECODES():
-'''public int LISTFAILURECODES()
-'''
-pass
+    '''    public int LISTFAILURECODES()
+    '''

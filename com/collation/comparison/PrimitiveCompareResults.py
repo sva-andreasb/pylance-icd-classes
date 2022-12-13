@@ -1,8 +1,6 @@
 def PrimitiveCompareResults():
-'''public PrimitiveCompareResults(final Object left, final Object right)
-'''
-pass
+    '''    public PrimitiveCompareResults(final Object left, final Object right)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''

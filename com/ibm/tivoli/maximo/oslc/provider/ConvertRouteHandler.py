@@ -1,12 +1,9 @@
 def handleRequest():
-'''public OslcResourceResponse handleRequest(final OslcRequest request)
-'''
-pass
+    '''    public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''
 def getQueryParamsMeta():
-'''public Map<String, String> getQueryParamsMeta()
-'''
-pass
+    '''    public Map<String, String> getQueryParamsMeta()
+    '''
 def getQueryParamAllowedValuesMeta():
-'''public Set<String> getQueryParamAllowedValuesMeta(final String qparam)
-'''
-pass
+    '''    public Set<String> getQueryParamAllowedValuesMeta(final String qparam)
+    '''

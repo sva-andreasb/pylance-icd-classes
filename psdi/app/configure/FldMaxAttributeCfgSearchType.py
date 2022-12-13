@@ -1,8 +1,6 @@
 def FldMaxAttributeCfgSearchType():
-'''public FldMaxAttributeCfgSearchType(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxAttributeCfgSearchType(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

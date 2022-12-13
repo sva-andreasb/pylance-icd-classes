@@ -1,4 +1,3 @@
 def WeatherAppSet():
-'''public WeatherAppSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WeatherAppSet(final MboServerInterface ms)
+    '''

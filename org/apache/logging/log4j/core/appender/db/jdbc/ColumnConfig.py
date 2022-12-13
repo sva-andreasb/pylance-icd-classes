@@ -1,76 +1,57 @@
 def createColumnConfig():
-'''public static ColumnConfig createColumnConfig(final Configuration config, final String name, final String pattern, final String literalValue, final String eventTimestamp, final String unicode, final String clob)
-'''
-pass
+    '''    public static ColumnConfig createColumnConfig(final Configuration config, final String name, final String pattern, final String literalValue, final String eventTimestamp, final String unicode, final String clob)
+    '''
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def getColumnName():
-'''public String getColumnName()
-'''
-pass
+    '''    public String getColumnName()
+    '''
 def getColumnNameKey():
-'''public String getColumnNameKey()
-'''
-pass
+    '''    public String getColumnNameKey()
+    '''
 def getLayout():
-'''public PatternLayout getLayout()
-'''
-pass
+    '''    public PatternLayout getLayout()
+    '''
 def getLiteralValue():
-'''public String getLiteralValue()
-'''
-pass
+    '''    public String getLiteralValue()
+    '''
 def isClob():
-'''public boolean isClob()
-'''
-pass
+    '''    public boolean isClob()
+    '''
 def isEventTimestamp():
-'''public boolean isEventTimestamp()
-'''
-pass
+    '''    public boolean isEventTimestamp()
+    '''
 def isUnicode():
-'''public boolean isUnicode()
-'''
-pass
+    '''    public boolean isUnicode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public ColumnConfig build()
-'''
-pass
+    '''    public ColumnConfig build()
+    '''
 def setClob():
-'''public Builder setClob(final boolean clob)
-'''
-pass
+    '''    public Builder setClob(final boolean clob)
+    '''
 def setConfiguration():
-'''public Builder setConfiguration(final Configuration configuration)
-'''
-pass
+    '''    public Builder setConfiguration(final Configuration configuration)
+    '''
 def setEventTimestamp():
-'''public Builder setEventTimestamp(final boolean eventTimestamp)
-'''
-pass
+    '''    public Builder setEventTimestamp(final boolean eventTimestamp)
+    '''
 def setLiteral():
-'''public Builder setLiteral(final String literal)
-'''
-pass
+    '''    public Builder setLiteral(final String literal)
+    '''
 def setName():
-'''public Builder setName(final String name)
-'''
-pass
+    '''    public Builder setName(final String name)
+    '''
 def setPattern():
-'''public Builder setPattern(final String pattern)
-'''
-pass
+    '''    public Builder setPattern(final String pattern)
+    '''
 def setUnicode():
-'''public Builder setUnicode(final boolean unicode)
-'''
-pass
+    '''    public Builder setUnicode(final boolean unicode)
+    '''

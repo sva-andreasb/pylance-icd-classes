@@ -1,20 +1,15 @@
 def skipChildren():
-'''public JsonParser skipChildren()
-'''
-pass
+    '''    public JsonParser skipChildren()
+    '''
 def getValueAsBoolean():
-'''public boolean getValueAsBoolean(final boolean defaultValue)
-'''
-pass
+    '''    public boolean getValueAsBoolean(final boolean defaultValue)
+    '''
 def getValueAsInt():
-'''public int getValueAsInt(final int defaultValue)
-'''
-pass
+    '''    public int getValueAsInt(final int defaultValue)
+    '''
 def getValueAsLong():
-'''public long getValueAsLong(final long defaultValue)
-'''
-pass
+    '''    public long getValueAsLong(final long defaultValue)
+    '''
 def getValueAsDouble():
-'''public double getValueAsDouble(final double defaultValue)
-'''
-pass
+    '''    public double getValueAsDouble(final double defaultValue)
+    '''

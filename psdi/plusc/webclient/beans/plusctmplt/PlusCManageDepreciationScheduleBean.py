@@ -1,16 +1,12 @@
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def generatePreview():
-'''public int generatePreview()
-'''
-pass
+    '''    public int generatePreview()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def REFRESH_PREVIEW():
-'''public int REFRESH_PREVIEW()
-'''
-pass
+    '''    public int REFRESH_PREVIEW()
+    '''

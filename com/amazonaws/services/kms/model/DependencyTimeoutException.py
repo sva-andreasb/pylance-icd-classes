@@ -1,4 +1,3 @@
 def DependencyTimeoutException():
-'''public DependencyTimeoutException(final String message)
-'''
-pass
+    '''    public DependencyTimeoutException(final String message)
+    '''

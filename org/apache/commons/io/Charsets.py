@@ -1,9 +1,7 @@
 def requiredCharsets():
-'''public static SortedMap<String, Charset> requiredCharsets()
-'''
-pass
+    '''    public static SortedMap<String, Charset> requiredCharsets()
+    '''
 def toCharset():
-'''public static Charset toCharset(final Charset charset)
-public static Charset toCharset(final String charset)
-'''
-pass
+    '''    public static Charset toCharset(final Charset charset)
+    public static Charset toCharset(final String charset)
+    '''

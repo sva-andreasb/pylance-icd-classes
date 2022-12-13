@@ -1,8 +1,6 @@
 def ProcessMonitor():
-'''public ProcessMonitor(final MboSet ms)
-'''
-pass
+    '''    public ProcessMonitor(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

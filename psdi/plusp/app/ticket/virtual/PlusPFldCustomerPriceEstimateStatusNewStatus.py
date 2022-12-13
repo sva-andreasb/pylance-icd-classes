@@ -1,8 +1,6 @@
 def PlusPFldCustomerPriceEstimateStatusNewStatus():
-'''public PlusPFldCustomerPriceEstimateStatusNewStatus(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldCustomerPriceEstimateStatusNewStatus(final MboValue mv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

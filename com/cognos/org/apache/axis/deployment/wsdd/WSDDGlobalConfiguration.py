@@ -1,53 +1,40 @@
 def WSDDGlobalConfiguration():
-'''public WSDDGlobalConfiguration()
-public WSDDGlobalConfiguration(final Element e)
-'''
-pass
+    '''    public WSDDGlobalConfiguration()
+    public WSDDGlobalConfiguration(final Element e)
+    '''
 def getRequestFlow():
-'''public WSDDRequestFlow getRequestFlow()
-'''
-pass
+    '''    public WSDDRequestFlow getRequestFlow()
+    '''
 def setRequestFlow():
-'''public void setRequestFlow(final WSDDRequestFlow reqFlow)
-'''
-pass
+    '''    public void setRequestFlow(final WSDDRequestFlow reqFlow)
+    '''
 def getResponseFlow():
-'''public WSDDResponseFlow getResponseFlow()
-'''
-pass
+    '''    public WSDDResponseFlow getResponseFlow()
+    '''
 def setResponseFlow():
-'''public void setResponseFlow(final WSDDResponseFlow responseFlow)
-'''
-pass
+    '''    public void setResponseFlow(final WSDDResponseFlow responseFlow)
+    '''
 def getFaultFlows():
-'''public WSDDFaultFlow[] getFaultFlows()
-'''
-pass
+    '''    public WSDDFaultFlow[] getFaultFlows()
+    '''
 def getFaultFlow():
-'''public WSDDFaultFlow getFaultFlow(final QName name)
-'''
-pass
+    '''    public WSDDFaultFlow getFaultFlow(final QName name)
+    '''
 def getType():
-'''public QName getType()
-'''
-pass
+    '''    public QName getType()
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''
 def makeNewInstance():
-'''public Handler makeNewInstance(final EngineConfiguration registry)
-'''
-pass
+    '''    public Handler makeNewInstance(final EngineConfiguration registry)
+    '''
 def writeToContext():
-'''public void writeToContext(final SerializationContext context)
-'''
-pass
+    '''    public void writeToContext(final SerializationContext context)
+    '''
 def deployToRegistry():
-'''public void deployToRegistry(final WSDDDeployment registry)
-'''
-pass
+    '''    public void deployToRegistry(final WSDDDeployment registry)
+    '''
 def getRoles():
-'''public List getRoles()
-'''
-pass
+    '''    public List getRoles()
+    '''

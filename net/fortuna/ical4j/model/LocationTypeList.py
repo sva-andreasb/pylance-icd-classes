@@ -1,29 +1,22 @@
 def LocationTypeList():
-'''public LocationTypeList()
-public LocationTypeList(final String aValue)
-'''
-pass
+    '''    public LocationTypeList()
+    public LocationTypeList(final String aValue)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def add():
-'''public final boolean add(final String locationType)
-'''
-pass
+    '''    public final boolean add(final String locationType)
+    '''
 def isEmpty():
-'''public final boolean isEmpty()
-'''
-pass
+    '''    public final boolean isEmpty()
+    '''
 def iterator():
-'''public final Iterator<String> iterator()
-'''
-pass
+    '''    public final Iterator<String> iterator()
+    '''
 def remove():
-'''public final boolean remove(final String locationType)
-'''
-pass
+    '''    public final boolean remove(final String locationType)
+    '''
 def size():
-'''public final int size()
-'''
-pass
+    '''    public final int size()
+    '''

@@ -1,8 +1,6 @@
 def FldSKDProjectShowMaintOper():
-'''public FldSKDProjectShowMaintOper(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDProjectShowMaintOper(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

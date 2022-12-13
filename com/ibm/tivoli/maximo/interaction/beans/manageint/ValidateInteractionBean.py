@@ -1,4 +1,3 @@
 def validint():
-'''public int validint()
-'''
-pass
+    '''    public int validint()
+    '''

@@ -1,36 +1,27 @@
 def AppFrameActionManager():
-'''public AppFrameActionManager(final IlvApplication b)
-'''
-pass
+    '''    public AppFrameActionManager(final IlvApplication b)
+    '''
 def readAction():
-'''public void readAction(final Element element, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void readAction(final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''
 def createMenuItem():
-'''public JMenuItem createMenuItem(final Action action, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public JMenuItem createMenuItem(final Action action, final IlvServicesProvider ilvServicesProvider)
+    '''
 def setAction():
-'''public void setAction(final AbstractButton abstractButton, final Action action, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void setAction(final AbstractButton abstractButton, final Action action, final IlvServicesProvider ilvServicesProvider)
+    '''
 def setButtonProperties():
-'''public void setButtonProperties(final JToolBar toolBar, final AbstractButton abstractButton, final Action action)
-'''
-pass
+    '''    public void setButtonProperties(final JToolBar toolBar, final AbstractButton abstractButton, final Action action)
+    '''
 def updateButtonProperties():
-'''public void updateButtonProperties(final AbstractButton abstractButton, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void updateButtonProperties(final AbstractButton abstractButton, final IlvServicesProvider ilvServicesProvider)
+    '''
 def alignMenuIcons():
-'''public void alignMenuIcons(final MenuElement[] array, final boolean b, final boolean b2)
-'''
-pass
+    '''    public void alignMenuIcons(final MenuElement[] array, final boolean b, final boolean b2)
+    '''
 def setServicesDelegate():
-'''public void setServicesDelegate(final IlvServices a)
-'''
-pass
+    '''    public void setServicesDelegate(final IlvServices a)
+    '''
 def getServicesDelegate():
-'''public IlvServices getServicesDelegate()
-'''
-pass
+    '''    public IlvServices getServicesDelegate()
+    '''

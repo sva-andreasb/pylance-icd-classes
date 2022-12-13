@@ -1,48 +1,36 @@
 def MaximoSwingTheme():
-'''public MaximoSwingTheme()
-'''
-pass
+    '''    public MaximoSwingTheme()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getControlShadow():
-'''public ColorUIResource getControlShadow()
-'''
-pass
+    '''    public ColorUIResource getControlShadow()
+    '''
 def getControlDarkShadow():
-'''public ColorUIResource getControlDarkShadow()
-'''
-pass
+    '''    public ColorUIResource getControlDarkShadow()
+    '''
 def getControlHighlight():
-'''public ColorUIResource getControlHighlight()
-'''
-pass
+    '''    public ColorUIResource getControlHighlight()
+    '''
 def getControlTextFont():
-'''public FontUIResource getControlTextFont()
-'''
-pass
+    '''    public FontUIResource getControlTextFont()
+    '''
 def getSystemTextFont():
-'''public FontUIResource getSystemTextFont()
-'''
-pass
+    '''    public FontUIResource getSystemTextFont()
+    '''
 def getUserTextFont():
-'''public FontUIResource getUserTextFont()
-'''
-pass
+    '''    public FontUIResource getUserTextFont()
+    '''
 def getMenuTextFont():
-'''public FontUIResource getMenuTextFont()
-'''
-pass
+    '''    public FontUIResource getMenuTextFont()
+    '''
 def getWindowTitleFont():
-'''public FontUIResource getWindowTitleFont()
-'''
-pass
+    '''    public FontUIResource getWindowTitleFont()
+    '''
 def getSubTextFont():
-'''public FontUIResource getSubTextFont()
-'''
-pass
+    '''    public FontUIResource getSubTextFont()
+    '''
 def getMenuSelectedBackground():
-'''public ColorUIResource getMenuSelectedBackground()
-'''
-pass
+    '''    public ColorUIResource getMenuSelectedBackground()
+    '''

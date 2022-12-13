@@ -1,56 +1,42 @@
 def create():
-'''public EObject create(final EClass eClass)
-'''
-pass
+    '''    public EObject create(final EClass eClass)
+    '''
 def createBaseMetadata():
-'''public BaseMetadata createBaseMetadata()
-'''
-pass
+    '''    public BaseMetadata createBaseMetadata()
+    '''
 def createCommandGroupExtension():
-'''public CommandGroupExtension createCommandGroupExtension()
-'''
-pass
+    '''    public CommandGroupExtension createCommandGroupExtension()
+    '''
 def createCommandGroupMetadata():
-'''public CommandGroupMetadata createCommandGroupMetadata()
-'''
-pass
+    '''    public CommandGroupMetadata createCommandGroupMetadata()
+    '''
 def createCommandMetadata():
-'''public CommandMetadata createCommandMetadata()
-'''
-pass
+    '''    public CommandMetadata createCommandMetadata()
+    '''
 def createCommandProviderMetadata():
-'''public CommandProviderMetadata createCommandProviderMetadata()
-'''
-pass
+    '''    public CommandProviderMetadata createCommandProviderMetadata()
+    '''
 def createCommandStepMetadata():
-'''public CommandStepMetadata createCommandStepMetadata()
-'''
-pass
+    '''    public CommandStepMetadata createCommandStepMetadata()
+    '''
 def createCustomProperties():
-'''public CustomProperties createCustomProperties()
-'''
-pass
+    '''    public CustomProperties createCustomProperties()
+    '''
 def createMetadataType():
-'''public Metadata createMetadataType()
-'''
-pass
+    '''    public Metadata createMetadataType()
+    '''
 def createParameterMetadata():
-'''public ParameterMetadata createParameterMetadata()
-'''
-pass
+    '''    public ParameterMetadata createParameterMetadata()
+    '''
 def createTaskCommandExtension():
-'''public TaskCommandExtension createTaskCommandExtension()
-'''
-pass
+    '''    public TaskCommandExtension createTaskCommandExtension()
+    '''
 def createTaskCommandMetadata():
-'''public TaskCommandMetadata createTaskCommandMetadata()
-'''
-pass
+    '''    public TaskCommandMetadata createTaskCommandMetadata()
+    '''
 def getCommandMetadataPackage():
-'''public CommandMetadataPackage getCommandMetadataPackage()
-'''
-pass
+    '''    public CommandMetadataPackage getCommandMetadataPackage()
+    '''
 def getPackage():
-'''public static CommandMetadataPackage getPackage()
-'''
-pass
+    '''    public static CommandMetadataPackage getPackage()
+    '''

@@ -1,37 +1,28 @@
 def ResourceAsHttpContent():
-'''public ResourceAsHttpContent(final Resource resource, final Buffer mimeType)
-public ResourceAsHttpContent(final Resource resource, final Buffer mimeType, final int maxBuffer)
-'''
-pass
+    '''    public ResourceAsHttpContent(final Resource resource, final Buffer mimeType)
+    public ResourceAsHttpContent(final Resource resource, final Buffer mimeType, final int maxBuffer)
+    '''
 def getContentType():
-'''public Buffer getContentType()
-'''
-pass
+    '''    public Buffer getContentType()
+    '''
 def getLastModified():
-'''public Buffer getLastModified()
-'''
-pass
+    '''    public Buffer getLastModified()
+    '''
 def getDirectBuffer():
-'''public Buffer getDirectBuffer()
-'''
-pass
+    '''    public Buffer getDirectBuffer()
+    '''
 def getIndirectBuffer():
-'''public Buffer getIndirectBuffer()
-'''
-pass
+    '''    public Buffer getIndirectBuffer()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getResource():
-'''public Resource getResource()
-'''
-pass
+    '''    public Resource getResource()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''

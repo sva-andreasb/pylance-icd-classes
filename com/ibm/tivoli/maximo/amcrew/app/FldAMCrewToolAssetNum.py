@@ -1,16 +1,12 @@
 def FldAMCrewToolAssetNum():
-'''public FldAMCrewToolAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewToolAssetNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

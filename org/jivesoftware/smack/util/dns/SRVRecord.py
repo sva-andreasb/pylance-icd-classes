@@ -1,20 +1,15 @@
 def SRVRecord():
-'''public SRVRecord(final DnsName fqdn, final int port, final int priority, final int weight, final List<InetAddress> inetAddresses)
-'''
-pass
+    '''    public SRVRecord(final DnsName fqdn, final int port, final int priority, final int weight, final List<InetAddress> inetAddresses)
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def getWeight():
-'''public int getWeight()
-'''
-pass
+    '''    public int getWeight()
+    '''
 def compareTo():
-'''public int compareTo(final SRVRecord other)
-'''
-pass
+    '''    public int compareTo(final SRVRecord other)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

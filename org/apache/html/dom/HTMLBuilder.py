@@ -1,41 +1,31 @@
 def HTMLBuilder():
-'''public HTMLBuilder()
-'''
-pass
+    '''    public HTMLBuilder()
+    '''
 def startDocument():
-'''public void startDocument()
-'''
-pass
+    '''    public void startDocument()
+    '''
 def endDocument():
-'''public void endDocument()
-'''
-pass
+    '''    public void endDocument()
+    '''
 def startElement():
-'''public synchronized void startElement(final String s, final AttributeList list)
-'''
-pass
+    '''    public synchronized void startElement(final String s, final AttributeList list)
+    '''
 def endElement():
-'''public void endElement(final String str)
-'''
-pass
+    '''    public void endElement(final String str)
+    '''
 def characters():
-'''public void characters(final String s)
-public void characters(final char[] value, final int offset, final int count)
-'''
-pass
+    '''    public void characters(final String s)
+    public void characters(final char[] value, final int offset, final int count)
+    '''
 def ignorableWhitespace():
-'''public void ignorableWhitespace(final char[] value, final int offset, final int count)
-'''
-pass
+    '''    public void ignorableWhitespace(final char[] value, final int offset, final int count)
+    '''
 def processingInstruction():
-'''public void processingInstruction(final String s, final String s2)
-'''
-pass
+    '''    public void processingInstruction(final String s, final String s2)
+    '''
 def getHTMLDocument():
-'''public HTMLDocument getHTMLDocument()
-'''
-pass
+    '''    public HTMLDocument getHTMLDocument()
+    '''
 def setDocumentLocator():
-'''public void setDocumentLocator(final Locator locator)
-'''
-pass
+    '''    public void setDocumentLocator(final Locator locator)
+    '''

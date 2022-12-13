@@ -1,8 +1,6 @@
 def DomainMetaSet():
-'''public DomainMetaSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DomainMetaSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

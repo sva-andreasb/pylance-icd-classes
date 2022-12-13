@@ -1,8 +1,6 @@
 def BaseViewerBean():
-'''public BaseViewerBean()
-'''
-pass
+    '''    public BaseViewerBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''

@@ -1,137 +1,103 @@
 def ViewComponent():
-'''public ViewComponent()
-public ViewComponent(final String aName, final String dName, final int category, final String cName, final Guid ident, final int type, final ViewDescriptor vd)
-'''
-pass
+    '''    public ViewComponent()
+    public ViewComponent(final String aName, final String dName, final int category, final String cName, final Guid ident, final int type, final ViewDescriptor vd)
+    '''
 def getAdminName():
-'''public String getAdminName()
-'''
-pass
+    '''    public String getAdminName()
+    '''
 def setAdminName():
-'''public void setAdminName(final String aName)
-'''
-pass
+    '''    public void setAdminName(final String aName)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def setDisplayName():
-'''public void setDisplayName(final String dName)
-'''
-pass
+    '''    public void setDisplayName(final String dName)
+    '''
 def getComponentCategory():
-'''public int getComponentCategory()
-'''
-pass
+    '''    public int getComponentCategory()
+    '''
 def setComponentCategory():
-'''public void setComponentCategory(final int category)
-'''
-pass
+    '''    public void setComponentCategory(final int category)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String cName)
-'''
-pass
+    '''    public void setClassName(final String cName)
+    '''
 def getCollationSubType():
-'''public String getCollationSubType()
-'''
-pass
+    '''    public String getCollationSubType()
+    '''
 def setCollationSubType():
-'''public void setCollationSubType(final String sType)
-'''
-pass
+    '''    public void setCollationSubType(final String sType)
+    '''
 def getCollationType():
-'''public String getCollationType()
-'''
-pass
+    '''    public String getCollationType()
+    '''
 def setCollationType():
-'''public void setCollationType(final String cType)
-'''
-pass
+    '''    public void setCollationType(final String cType)
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def setGuid():
-'''public void setGuid(final Guid id_)
-'''
-pass
+    '''    public void setGuid(final Guid id_)
+    '''
 def getContainerId():
-'''public Guid getContainerId()
-'''
-pass
+    '''    public Guid getContainerId()
+    '''
 def setContainerId():
-'''public void setContainerId(final Guid cid_)
-'''
-pass
+    '''    public void setContainerId(final Guid cid_)
+    '''
 def getComponentType():
-'''public int getComponentType()
-'''
-pass
+    '''    public int getComponentType()
+    '''
 def setComponentType():
-'''public void setComponentType(final int ct)
-'''
-pass
+    '''    public void setComponentType(final int ct)
+    '''
 def getViewDescriptor():
-'''public ViewDescriptor getViewDescriptor()
-'''
-pass
+    '''    public ViewDescriptor getViewDescriptor()
+    '''
 def setViewDescriptor():
-'''public void setViewDescriptor(final ViewDescriptor vd)
-'''
-pass
+    '''    public void setViewDescriptor(final ViewDescriptor vd)
+    '''
 def category():
-'''public String category()
-'''
-pass
+    '''    public String category()
+    '''
 def type():
-'''public String type()
-'''
-pass
+    '''    public String type()
+    '''
 def setDetailedOutput():
-'''public static void setDetailedOutput(final boolean flag)
-'''
-pass
+    '''    public static void setDetailedOutput(final boolean flag)
+    '''
 def setKeyDisplayName():
-'''public void setKeyDisplayName(final boolean key)
-'''
-pass
+    '''    public void setKeyDisplayName(final boolean key)
+    '''
 def isKeyDisplayName():
-'''public boolean isKeyDisplayName()
-'''
-pass
+    '''    public boolean isKeyDisplayName()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getVirtualType():
-'''public int getVirtualType()
-'''
-pass
+    '''    public int getVirtualType()
+    '''
 def setVirtualType():
-'''public void setVirtualType(final int virtualType)
-'''
-pass
+    '''    public void setVirtualType(final int virtualType)
+    '''
 def isComposite():
-'''public boolean isComposite()
-'''
-pass
+    '''    public boolean isComposite()
+    '''
 def setComposite():
-'''public void setComposite(final boolean isComposite)
-'''
-pass
+    '''    public void setComposite(final boolean isComposite)
+    '''
 def isSoftwareModule():
-'''public boolean isSoftwareModule()
-'''
-pass
+    '''    public boolean isSoftwareModule()
+    '''
 def setSoftwareModule():
-'''public void setSoftwareModule(final boolean isSoftwareModule)
-'''
-pass
+    '''    public void setSoftwareModule(final boolean isSoftwareModule)
+    '''

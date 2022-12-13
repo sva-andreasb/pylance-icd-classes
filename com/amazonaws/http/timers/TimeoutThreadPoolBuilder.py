@@ -1,8 +1,6 @@
 def buildDefaultTimeoutThreadPool():
-'''public static ScheduledThreadPoolExecutor buildDefaultTimeoutThreadPool()
-'''
-pass
+    '''    public static ScheduledThreadPoolExecutor buildDefaultTimeoutThreadPool()
+    '''
 def newThread():
-'''public Thread newThread(final Runnable runnable)
-'''
-pass
+    '''    public Thread newThread(final Runnable runnable)
+    '''

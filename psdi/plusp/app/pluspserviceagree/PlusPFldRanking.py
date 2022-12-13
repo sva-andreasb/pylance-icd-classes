@@ -1,8 +1,6 @@
 def PlusPFldRanking():
-'''public PlusPFldRanking(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldRanking(final MboValue arg0)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

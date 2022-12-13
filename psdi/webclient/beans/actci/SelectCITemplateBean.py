@@ -1,8 +1,6 @@
 def SelectCITemplateBean():
-'''public SelectCITemplateBean()
-'''
-pass
+    '''    public SelectCITemplateBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

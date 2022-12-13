@@ -1,8 +1,6 @@
 def PlusPFldToolPriceBook():
-'''public PlusPFldToolPriceBook(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldToolPriceBook(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

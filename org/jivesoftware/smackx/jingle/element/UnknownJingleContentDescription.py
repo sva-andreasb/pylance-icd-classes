@@ -1,20 +1,15 @@
 def UnknownJingleContentDescription():
-'''public UnknownJingleContentDescription(final StandardExtensionElement standardExtensionElement)
-'''
-pass
+    '''    public UnknownJingleContentDescription(final StandardExtensionElement standardExtensionElement)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def getStandardExtensionElement():
-'''public StandardExtensionElement getStandardExtensionElement()
-'''
-pass
+    '''    public StandardExtensionElement getStandardExtensionElement()
+    '''

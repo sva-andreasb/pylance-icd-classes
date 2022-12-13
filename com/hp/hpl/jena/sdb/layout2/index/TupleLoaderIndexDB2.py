@@ -1,32 +1,24 @@
 def TupleLoaderIndexDB2():
-'''public TupleLoaderIndexDB2(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
-'''
-pass
+    '''    public TupleLoaderIndexDB2(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''
 def getNodeColTypes():
-'''public String[] getNodeColTypes()
-'''
-pass
+    '''    public String[] getNodeColTypes()
+    '''
 def getTupleColType():
-'''public String getTupleColType()
-'''
-pass
+    '''    public String getTupleColType()
+    '''
 def getCreateTempTable():
-'''public String[] getCreateTempTable()
-'''
-pass
+    '''    public String[] getCreateTempTable()
+    '''
 def getClearTempNodes():
-'''public String getClearTempNodes()
-'''
-pass
+    '''    public String getClearTempNodes()
+    '''
 def getClearTempTuples():
-'''public String getClearTempTuples()
-'''
-pass
+    '''    public String getClearTempTuples()
+    '''
 def getLoadTuples():
-'''public String getLoadTuples()
-'''
-pass
+    '''    public String getLoadTuples()
+    '''
 def getLoadNodes():
-'''public String getLoadNodes()
-'''
-pass
+    '''    public String getLoadNodes()
+    '''

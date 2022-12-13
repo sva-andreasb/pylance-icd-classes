@@ -1,28 +1,21 @@
 def EscalationCalendarData():
-'''public EscalationCalendarData()
-'''
-pass
+    '''    public EscalationCalendarData()
+    '''
 def getCalendar():
-'''public String getCalendar()
-'''
-pass
+    '''    public String getCalendar()
+    '''
 def setCalendar():
-'''public void setCalendar(final String string)
-'''
-pass
+    '''    public void setCalendar(final String string)
+    '''
 def getShift():
-'''public String getShift()
-'''
-pass
+    '''    public String getShift()
+    '''
 def setShift():
-'''public void setShift(final String string)
-'''
-pass
+    '''    public void setShift(final String string)
+    '''
 def getCalendarOrgID():
-'''public String getCalendarOrgID()
-'''
-pass
+    '''    public String getCalendarOrgID()
+    '''
 def setCalendarCalOrgID():
-'''public void setCalendarCalOrgID(final String string)
-'''
-pass
+    '''    public void setCalendarCalOrgID(final String string)
+    '''

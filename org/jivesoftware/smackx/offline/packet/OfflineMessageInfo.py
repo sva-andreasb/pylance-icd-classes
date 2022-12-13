@@ -1,28 +1,21 @@
 def OfflineMessageInfo():
-'''public OfflineMessageInfo()
-'''
-pass
+    '''    public OfflineMessageInfo()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getNode():
-'''public String getNode()
-'''
-pass
+    '''    public String getNode()
+    '''
 def setNode():
-'''public void setNode(final String node)
-'''
-pass
+    '''    public void setNode(final String node)
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''
 def parse():
-'''public OfflineMessageInfo parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public OfflineMessageInfo parse(final XmlPullParser parser, final int initialDepth)
+    '''

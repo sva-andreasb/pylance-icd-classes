@@ -1,56 +1,42 @@
 def BaseResourceRequestHandler():
-'''public BaseResourceRequestHandler()
-'''
-pass
+    '''    public BaseResourceRequestHandler()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String mboName)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String mboName)
+    '''
 def lookup():
-'''public ServiceRemote lookup(final String name)
-'''
-pass
+    '''    public ServiceRemote lookup(final String name)
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def setBlockAccessList():
-'''public void setBlockAccessList(final Set<String> blockAccessList)
-'''
-pass
+    '''    public void setBlockAccessList(final Set<String> blockAccessList)
+    '''
 def isRequestNoCache():
-'''public boolean isRequestNoCache(final ResourceRequest req)
-'''
-pass
+    '''    public boolean isRequestNoCache(final ResourceRequest req)
+    '''
 def isUseCache():
-'''public boolean isUseCache(final Resource res, final ResourceRequest req)
-'''
-pass
+    '''    public boolean isUseCache(final Resource res, final ResourceRequest req)
+    '''
 def isResourceModified():
-'''public boolean isResourceModified(final Resource resource, final ResourceRequest request)
-'''
-pass
+    '''    public boolean isResourceModified(final Resource resource, final ResourceRequest request)
+    '''
 def setMXSession():
-'''public void setMXSession(final MXSession mxSession, final UserInfo userInfo)
-'''
-pass
+    '''    public void setMXSession(final MXSession mxSession, final UserInfo userInfo)
+    '''
 def setHandlerName():
-'''public void setHandlerName(final String handlerName)
-'''
-pass
+    '''    public void setHandlerName(final String handlerName)
+    '''
 def getDelagateHandler():
-'''public String getDelagateHandler(final String resourceType, final String resourceName)
-'''
-pass
+    '''    public String getDelagateHandler(final String resourceType, final String resourceName)
+    '''
 def handleRequest():
-'''public ResourceResponse handleRequest(final ResourceRequest req)
-'''
-pass
+    '''    public ResourceResponse handleRequest(final ResourceRequest req)
+    '''
 def isRoot():
-'''public boolean isRoot()
-'''
-pass
+    '''    public boolean isRoot()
+    '''
 def setRoot():
-'''public void setRoot(final boolean rootHandler)
-'''
-pass
+    '''    public void setRoot(final boolean rootHandler)
+    '''

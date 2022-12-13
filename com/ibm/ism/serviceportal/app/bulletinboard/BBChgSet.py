@@ -1,4 +1,3 @@
 def BBChgSet():
-'''public BBChgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BBChgSet(final MboServerInterface ms)
+    '''

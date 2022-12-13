@@ -1,8 +1,6 @@
 def FldJSONMapDirection():
-'''public FldJSONMapDirection(final MboValue mbv)
-'''
-pass
+    '''    public FldJSONMapDirection(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

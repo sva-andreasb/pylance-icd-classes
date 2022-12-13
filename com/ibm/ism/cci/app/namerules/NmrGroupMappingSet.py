@@ -1,4 +1,3 @@
 def NmrGroupMappingSet():
-'''public NmrGroupMappingSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NmrGroupMappingSet(final MboServerInterface ms)
+    '''

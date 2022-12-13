@@ -1,8 +1,6 @@
 def getFamily():
-'''public String getFamily()
-'''
-pass
+    '''    public String getFamily()
+    '''
 def getComponentType():
-'''public static String getComponentType()
-'''
-pass
+    '''    public static String getComponentType()
+    '''

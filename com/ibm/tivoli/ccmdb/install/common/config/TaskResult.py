@@ -1,66 +1,50 @@
 def TaskResult():
-'''public TaskResult(final Status s, final int rc, final String message)
-public TaskResult(final int rc, final String message)
-public TaskResult()
-'''
-pass
+    '''    public TaskResult(final Status s, final int rc, final String message)
+    public TaskResult(final int rc, final String message)
+    public TaskResult()
+    '''
 def setStatus():
-'''public TaskResult setStatus(final Status s)
-'''
-pass
+    '''    public TaskResult setStatus(final Status s)
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def isSuccess():
-'''public boolean isSuccess()
-'''
-pass
+    '''    public boolean isSuccess()
+    '''
 def isFailure():
-'''public boolean isFailure()
-'''
-pass
+    '''    public boolean isFailure()
+    '''
 def isWarning():
-'''public boolean isWarning()
-'''
-pass
+    '''    public boolean isWarning()
+    '''
 def getReturnCode():
-'''public int getReturnCode()
-'''
-pass
+    '''    public int getReturnCode()
+    '''
 def setReturnCode():
-'''public void setReturnCode(final int rc)
-'''
-pass
+    '''    public void setReturnCode(final int rc)
+    '''
 def getCompletionMessage():
-'''public String getCompletionMessage()
-'''
-pass
+    '''    public String getCompletionMessage()
+    '''
 def setCompletionMessage():
-'''public void setCompletionMessage(final String message)
-'''
-pass
+    '''    public void setCompletionMessage(final String message)
+    '''
 def getStdOut():
-'''public String getStdOut()
-'''
-pass
+    '''    public String getStdOut()
+    '''
 def updateStdOut():
-'''public void updateStdOut(final String stdout)
-'''
-pass
+    '''    public void updateStdOut(final String stdout)
+    '''
 def getStdErr():
-'''public String getStdErr()
-'''
-pass
+    '''    public String getStdErr()
+    '''
 def updateStdErr():
-'''public void updateStdErr(final String stderr)
-'''
-pass
+    '''    public void updateStdErr(final String stderr)
+    '''
 def publish():
-'''public TaskResult publish()
-'''
-pass
+    '''    public TaskResult publish()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

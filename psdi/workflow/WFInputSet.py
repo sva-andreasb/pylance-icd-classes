@@ -1,4 +1,3 @@
 def WFInputSet():
-'''public WFInputSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFInputSet(final MboServerInterface ms)
+    '''

@@ -1,30 +1,23 @@
-FIELDNAME = "String PMSCOFFERING""
-CLASSNAME = "String PMSCSRVOF""
+FIELDNAME = "String  \"PMSCOFFERING\""
+CLASSNAME = "String  \"PMSCSRVOF\""
 def OfferingFields():
-'''public OfferingFields()
-'''
-pass
+    '''    public OfferingFields()
+    '''
 def getValues():
-'''public Collection<String> getValues()
-'''
-pass
+    '''    public Collection<String> getValues()
+    '''
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getMLFieldName():
-'''public String getMLFieldName()
-'''
-pass
+    '''    public String getMLFieldName()
+    '''
 def hasAttachment():
-'''public boolean hasAttachment()
-'''
-pass
+    '''    public boolean hasAttachment()
+    '''
 def isRTE():
-'''public boolean isRTE(final String field)
-'''
-pass
+    '''    public boolean isRTE(final String field)
+    '''

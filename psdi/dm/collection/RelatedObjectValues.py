@@ -1,16 +1,12 @@
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getMosName():
-'''public String getMosName()
-'''
-pass
+    '''    public String getMosName()
+    '''
 def setobjectName():
-'''public void setobjectName(final String objectNameParam)
-'''
-pass
+    '''    public void setobjectName(final String objectNameParam)
+    '''
 def setMosName():
-'''public void setMosName(final String mosNameParam)
-'''
-pass
+    '''    public void setMosName(final String mosNameParam)
+    '''

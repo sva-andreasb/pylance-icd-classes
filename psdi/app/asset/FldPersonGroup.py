@@ -1,8 +1,6 @@
 def FldPersonGroup():
-'''public FldPersonGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonGroup(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

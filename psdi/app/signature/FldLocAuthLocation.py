@@ -1,4 +1,3 @@
 def FldLocAuthLocation():
-'''public FldLocAuthLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldLocAuthLocation(final MboValue mbv)
+    '''

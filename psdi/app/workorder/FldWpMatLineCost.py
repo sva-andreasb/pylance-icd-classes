@@ -1,8 +1,6 @@
 def FldWpMatLineCost():
-'''public FldWpMatLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldWpMatLineCost(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

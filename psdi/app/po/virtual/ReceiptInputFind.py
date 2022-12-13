@@ -1,8 +1,6 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def ReceiptInputFind():
-'''public ReceiptInputFind(final MboSet ms)
-'''
-pass
+    '''    public ReceiptInputFind(final MboSet ms)
+    '''

@@ -1,29 +1,22 @@
 def LZWDecoder():
-'''public LZWDecoder()
-'''
-pass
+    '''    public LZWDecoder()
+    '''
 def decode():
-'''public void decode(final byte[] data, final OutputStream uncompData)
-'''
-pass
+    '''    public void decode(final byte[] data, final OutputStream uncompData)
+    '''
 def initializeStringTable():
-'''public void initializeStringTable()
-'''
-pass
+    '''    public void initializeStringTable()
+    '''
 def writeString():
-'''public void writeString(final byte[] string)
-'''
-pass
+    '''    public void writeString(final byte[] string)
+    '''
 def addStringToTable():
-'''public void addStringToTable(final byte[] oldString, final byte newString)
-public void addStringToTable(final byte[] string)
-'''
-pass
+    '''    public void addStringToTable(final byte[] oldString, final byte newString)
+    public void addStringToTable(final byte[] string)
+    '''
 def composeString():
-'''public byte[] composeString(final byte[] oldString, final byte newString)
-'''
-pass
+    '''    public byte[] composeString(final byte[] oldString, final byte newString)
+    '''
 def getNextCode():
-'''public int getNextCode()
-'''
-pass
+    '''    public int getNextCode()
+    '''

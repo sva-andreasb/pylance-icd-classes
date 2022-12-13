@@ -1,72 +1,54 @@
 def setDeliveryMethod():
-'''public void setDeliveryMethod(final com.softlayer.api.service.notification.delivery.Method deliveryMethod)
-'''
-pass
+    '''    public void setDeliveryMethod(final com.softlayer.api.service.notification.delivery.Method deliveryMethod)
+    '''
 def getNotificationUserSubscriber():
-'''public Subscriber getNotificationUserSubscriber()
-'''
-pass
+    '''    public Subscriber getNotificationUserSubscriber()
+    '''
 def setNotificationUserSubscriber():
-'''public void setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)
-'''
-pass
+    '''    public void setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)
+    '''
 def getActive():
-'''public Long getActive()
-'''
-pass
+    '''    public Long getActive()
+    '''
 def setActive():
-'''public void setActive(final Long active)
-'''
-pass
+    '''    public void setActive(final Long active)
+    '''
 def isActiveSpecified():
-'''public boolean isActiveSpecified()
-'''
-pass
+    '''    public boolean isActiveSpecified()
+    '''
 def unsetActive():
-'''public void unsetActive()
-'''
-pass
+    '''    public void unsetActive()
+    '''
 def getNotificationMethodId():
-'''public Long getNotificationMethodId()
-'''
-pass
+    '''    public Long getNotificationMethodId()
+    '''
 def setNotificationMethodId():
-'''public void setNotificationMethodId(final Long notificationMethodId)
-'''
-pass
+    '''    public void setNotificationMethodId(final Long notificationMethodId)
+    '''
 def isNotificationMethodIdSpecified():
-'''public boolean isNotificationMethodIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationMethodIdSpecified()
+    '''
 def unsetNotificationMethodId():
-'''public void unsetNotificationMethodId()
-'''
-pass
+    '''    public void unsetNotificationMethodId()
+    '''
 def getNotificationUserSubscriberId():
-'''public Long getNotificationUserSubscriberId()
-'''
-pass
+    '''    public Long getNotificationUserSubscriberId()
+    '''
 def setNotificationUserSubscriberId():
-'''public void setNotificationUserSubscriberId(final Long notificationUserSubscriberId)
-'''
-pass
+    '''    public void setNotificationUserSubscriberId(final Long notificationUserSubscriberId)
+    '''
 def isNotificationUserSubscriberIdSpecified():
-'''public boolean isNotificationUserSubscriberIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationUserSubscriberIdSpecified()
+    '''
 def unsetNotificationUserSubscriberId():
-'''public void unsetNotificationUserSubscriberId()
-'''
-pass
+    '''    public void unsetNotificationUserSubscriberId()
+    '''
 def active():
-'''public Mask active()
-'''
-pass
+    '''    public Mask active()
+    '''
 def notificationMethodId():
-'''public Mask notificationMethodId()
-'''
-pass
+    '''    public Mask notificationMethodId()
+    '''
 def notificationUserSubscriberId():
-'''public Mask notificationUserSubscriberId()
-'''
-pass
+    '''    public Mask notificationUserSubscriberId()
+    '''

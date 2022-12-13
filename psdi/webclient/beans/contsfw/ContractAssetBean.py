@@ -1,4 +1,3 @@
 def associateassets():
-'''public int associateassets()
-'''
-pass
+    '''    public int associateassets()
+    '''

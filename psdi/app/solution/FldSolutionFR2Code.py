@@ -1,16 +1,12 @@
 def FldSolutionFR2Code():
-'''public FldSolutionFR2Code(final MboValue mbv)
-'''
-pass
+    '''    public FldSolutionFR2Code(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

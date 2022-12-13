@@ -1,4 +1,3 @@
 def newStanzaId():
-'''public static String newStanzaId()
-'''
-pass
+    '''    public static String newStanzaId()
+    '''

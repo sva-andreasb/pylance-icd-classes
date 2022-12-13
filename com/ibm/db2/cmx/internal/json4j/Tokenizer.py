@@ -1,12 +1,9 @@
 def Tokenizer():
-'''public Tokenizer(final Reader reader)
-'''
-pass
+    '''    public Tokenizer(final Reader reader)
+    '''
 def next():
-'''public Token next()
-'''
-pass
+    '''    public Token next()
+    '''
 def onLineCol():
-'''public String onLineCol()
-'''
-pass
+    '''    public String onLineCol()
+    '''

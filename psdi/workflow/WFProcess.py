@@ -1,142 +1,107 @@
-AUTOINITACTIVE = "String  AutoInitActive""
+AUTOINITACTIVE = "String  \"AutoInitActive\""
 def WFProcess():
-'''public WFProcess(final MboSet ms)
-'''
-pass
+    '''    public WFProcess(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def findIncomingActions():
-'''public List<WFAction> findIncomingActions(final int nodeID)
-'''
-pass
+    '''    public List<WFAction> findIncomingActions(final int nodeID)
+    '''
 def getNextActionNum():
-'''public int getNextActionNum()
-'''
-pass
+    '''    public int getNextActionNum()
+    '''
 def setNextActionNum():
-'''public void setNextActionNum(final int actionID)
-'''
-pass
+    '''    public void setNextActionNum(final int actionID)
+    '''
 def findNode():
-'''public WFNode findNode(final int nodeID)
-'''
-pass
+    '''    public WFNode findNode(final int nodeID)
+    '''
 def validateWorkflow():
-'''public Vector validateWorkflow()
-public Vector<MXException> validateWorkflow(final Hashtable<String, String> hinfo)
-'''
-pass
+    '''    public Vector validateWorkflow()
+    public Vector<MXException> validateWorkflow(final Hashtable<String, String> hinfo)
+    '''
 def buildSubProcessList():
-'''public void buildSubProcessList(final Hashtable<String, String> h)
-'''
-pass
+    '''    public void buildSubProcessList(final Hashtable<String, String> h)
+    '''
 def hasPositiveStop():
-'''public boolean hasPositiveStop()
-'''
-pass
+    '''    public boolean hasPositiveStop()
+    '''
 def hasNegativeStop():
-'''public boolean hasNegativeStop()
-'''
-pass
+    '''    public boolean hasNegativeStop()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def enableProcess():
-'''public boolean enableProcess()
-'''
-pass
+    '''    public boolean enableProcess()
+    '''
 def makeProcessActive():
-'''public void makeProcessActive()
-'''
-pass
+    '''    public void makeProcessActive()
+    '''
 def initiateWorkflow():
-'''public WFInstanceRemote initiateWorkflow(final MboRemote targetMbo, final String memo)
-'''
-pass
+    '''    public WFInstanceRemote initiateWorkflow(final MboRemote targetMbo, final String memo)
+    '''
 def validateProcess():
-'''public boolean validateProcess()
-'''
-pass
+    '''    public boolean validateProcess()
+    '''
 def deactivateProcess():
-'''public void deactivateProcess()
-'''
-pass
+    '''    public void deactivateProcess()
+    '''
 def createRevision():
-'''public MboRemote createRevision()
-'''
-pass
+    '''    public MboRemote createRevision()
+    '''
 def disableProcess():
-'''public void disableProcess()
-'''
-pass
+    '''    public void disableProcess()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def resynchronize():
-'''public void resynchronize()
-'''
-pass
+    '''    public void resynchronize()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def needAppSupport():
-'''public boolean needAppSupport()
-'''
-pass
+    '''    public boolean needAppSupport()
+    '''
 def makeAutoInitiate():
-'''public void makeAutoInitiate()
-'''
-pass
+    '''    public void makeAutoInitiate()
+    '''
 def clearAutoInitiate():
-'''public void clearAutoInitiate()
-'''
-pass
+    '''    public void clearAutoInitiate()
+    '''
 def nextNoteUID():
-'''public int nextNoteUID()
-'''
-pass
+    '''    public int nextNoteUID()
+    '''
 def updatePointedTo():
-'''public void updatePointedTo(final Integer wasMemberNodeID, final Integer nowMemberNodeID)
-'''
-pass
+    '''    public void updatePointedTo(final Integer wasMemberNodeID, final Integer nowMemberNodeID)
+    '''
 def addNodePointedTo():
-'''public void addNodePointedTo(final Mbo pointedToNode)
-'''
-pass
+    '''    public void addNodePointedTo(final Mbo pointedToNode)
+    '''
 def createPointedToList():
-'''public String createPointedToList(final int nodeID)
-'''
-pass
+    '''    public String createPointedToList(final int nodeID)
+    '''
 def getNextNodePoint():
-'''public Point getNextNodePoint()
-'''
-pass
+    '''    public Point getNextNodePoint()
+    '''
 def getNodeAt():
-'''public MboRemote getNodeAt(final int x, final int y)
-'''
-pass
+    '''    public MboRemote getNodeAt(final int x, final int y)
+    '''
 def setDeletableFlag():
-'''public void setDeletableFlag(final boolean flag)
-'''
-pass
+    '''    public void setDeletableFlag(final boolean flag)
+    '''

@@ -1,8 +1,6 @@
 def CreateKeyRequestMarshaller():
-'''public CreateKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public CreateKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<CreateKeyRequest> marshall(final CreateKeyRequest createKeyRequest)
-'''
-pass
+    '''    public Request<CreateKeyRequest> marshall(final CreateKeyRequest createKeyRequest)
+    '''

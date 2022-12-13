@@ -1,4 +1,3 @@
 def WeatherAlertImpactSet():
-'''public WeatherAlertImpactSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WeatherAlertImpactSet(final MboServerInterface ms)
+    '''

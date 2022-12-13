@@ -1,8 +1,6 @@
 def MboJSONSerializer():
-'''public MboJSONSerializer()
-'''
-pass
+    '''    public MboJSONSerializer()
+    '''
 def serializeResource():
-'''public ResourceResponse serializeResource(final Resource res, final ResourceRequest req)
-'''
-pass
+    '''    public ResourceResponse serializeResource(final Resource res, final ResourceRequest req)
+    '''

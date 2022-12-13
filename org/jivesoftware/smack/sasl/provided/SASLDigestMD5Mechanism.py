@@ -1,33 +1,25 @@
-NAME = "String  DIGEST-MD5""
+NAME = "String  \"DIGEST-MD5\""
 def SASLDigestMD5Mechanism():
-'''public SASLDigestMD5Mechanism()
-'''
-pass
+    '''    public SASLDigestMD5Mechanism()
+    '''
 def setVerifyServerResponse():
-'''public static void setVerifyServerResponse(final boolean verifyServerResponse)
-'''
-pass
+    '''    public static void setVerifyServerResponse(final boolean verifyServerResponse)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLDigestMD5Mechanism newInstance()
-'''
-pass
+    '''    public SASLDigestMD5Mechanism newInstance()
+    '''
 def authzidSupported():
-'''public boolean authzidSupported()
-'''
-pass
+    '''    public boolean authzidSupported()
+    '''
 def checkIfSuccessfulOrThrow():
-'''public void checkIfSuccessfulOrThrow()
-'''
-pass
+    '''    public void checkIfSuccessfulOrThrow()
+    '''
 def quoteBackslash():
-'''public static String quoteBackslash(final String string)
-'''
-pass
+    '''    public static String quoteBackslash(final String string)
+    '''

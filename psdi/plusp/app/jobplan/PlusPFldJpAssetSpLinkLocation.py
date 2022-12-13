@@ -1,12 +1,9 @@
 def PlusPFldJpAssetSpLinkLocation():
-'''public PlusPFldJpAssetSpLinkLocation(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldJpAssetSpLinkLocation(final MboValue arg0)
+    '''
 def buildListCriteria():
-'''public String buildListCriteria()
-'''
-pass
+    '''    public String buildListCriteria()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

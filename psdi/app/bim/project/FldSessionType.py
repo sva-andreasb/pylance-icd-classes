@@ -1,8 +1,6 @@
 def FldSessionType():
-'''public FldSessionType(final MboValue mbv)
-'''
-pass
+    '''    public FldSessionType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

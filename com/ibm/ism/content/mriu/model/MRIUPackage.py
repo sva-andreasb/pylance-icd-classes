@@ -1,76 +1,57 @@
 def MRIUPackage():
-'''public MRIUPackage(final String name)
-'''
-pass
+    '''    public MRIUPackage(final String name)
+    '''
 def getHasError():
-'''public boolean getHasError()
-'''
-pass
+    '''    public boolean getHasError()
+    '''
 def setHasError():
-'''public void setHasError(final boolean hasError)
-'''
-pass
+    '''    public void setHasError(final boolean hasError)
+    '''
 def getMessages():
-'''public List<Message> getMessages()
-'''
-pass
+    '''    public List<Message> getMessages()
+    '''
 def addMessage():
-'''public void addMessage(final Message mesg)
-'''
-pass
+    '''    public void addMessage(final Message mesg)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getFiles():
-'''public List<FilePath> getFiles()
-'''
-pass
+    '''    public List<FilePath> getFiles()
+    '''
 def addFile():
-'''public void addFile(final FilePath file)
-'''
-pass
+    '''    public void addFile(final FilePath file)
+    '''
 def getJythonScripts():
-'''public List<FilePath> getJythonScripts()
-'''
-pass
+    '''    public List<FilePath> getJythonScripts()
+    '''
 def addJythonScript():
-'''public void addJythonScript(final FilePath jythonScript)
-'''
-pass
+    '''    public void addJythonScript(final FilePath jythonScript)
+    '''
 def getReplacementQueries():
-'''public List<ReplacementQuery> getReplacementQueries()
-'''
-pass
+    '''    public List<ReplacementQuery> getReplacementQueries()
+    '''
 def addReplacementQuery():
-'''public void addReplacementQuery(final ReplacementQuery replacementQuery)
-'''
-pass
+    '''    public void addReplacementQuery(final ReplacementQuery replacementQuery)
+    '''
 def getReplacements():
-'''public Map<String, SelectionReplacementValue> getReplacements()
-'''
-pass
+    '''    public Map<String, SelectionReplacementValue> getReplacements()
+    '''
 def getReplacementValueById():
-'''public SelectionReplacementValue getReplacementValueById(final String id)
-'''
-pass
+    '''    public SelectionReplacementValue getReplacementValueById(final String id)
+    '''
 def getValuesIdMapReplacements():
-'''public Map<String, String> getValuesIdMapReplacements()
-'''
-pass
+    '''    public Map<String, String> getValuesIdMapReplacements()
+    '''
 def getCalculatedReplacementsForImport():
-'''public Map<String, String[]> getCalculatedReplacementsForImport()
-'''
-pass
+    '''    public Map<String, String[]> getCalculatedReplacementsForImport()
+    '''
 def getQueryLimit():
-'''public int getQueryLimit()
-'''
-pass
+    '''    public int getQueryLimit()
+    '''
 def setQueryLimit():
-'''public void setQueryLimit(final String queryLimit)
-'''
-pass
+    '''    public void setQueryLimit(final String queryLimit)
+    '''

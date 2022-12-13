@@ -1,8 +1,6 @@
 def getCode():
-'''public final int getCode()
-'''
-pass
+    '''    public final int getCode()
+    '''
 def getTableOperations():
-'''public static final EnumSet<TableOperation> getTableOperations(final int n)
-'''
-pass
+    '''    public static final EnumSet<TableOperation> getTableOperations(final int n)
+    '''

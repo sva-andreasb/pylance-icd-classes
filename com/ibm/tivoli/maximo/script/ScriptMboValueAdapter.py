@@ -1,60 +1,45 @@
 def ScriptMboValueAdapter():
-'''public ScriptMboValueAdapter(final MboValue mboValue)
-'''
-pass
+    '''    public ScriptMboValueAdapter(final MboValue mboValue)
+    '''
 def setInitValueScript():
-'''public void setInitValueScript(final String initValueSN, final String initValueLN)
-'''
-pass
+    '''    public void setInitValueScript(final String initValueSN, final String initValueLN)
+    '''
 def setInitARScript():
-'''public void setInitARScript(final String initARSN, final String initARLN)
-'''
-pass
+    '''    public void setInitARScript(final String initARSN, final String initARLN)
+    '''
 def setActionScript():
-'''public void setActionScript(final String actionSN, final String actionLN)
-'''
-pass
+    '''    public void setActionScript(final String actionSN, final String actionLN)
+    '''
 def setValidateScript():
-'''public void setValidateScript(final String validateSN, final String validateLN)
-'''
-pass
+    '''    public void setValidateScript(final String validateSN, final String validateLN)
+    '''
 def setListScript():
-'''public void setListScript(final String listSN, final String listLN)
-'''
-pass
+    '''    public void setListScript(final String listSN, final String listLN)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def superGetList():
-'''public MboSetRemote superGetList()
-'''
-pass
+    '''    public MboSetRemote superGetList()
+    '''
 def superValidate():
-'''public void superValidate()
-'''
-pass
+    '''    public void superValidate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''

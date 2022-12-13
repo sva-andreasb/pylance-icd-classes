@@ -1,8 +1,6 @@
 def FldLocationHierarchyAncestor():
-'''public FldLocationHierarchyAncestor(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationHierarchyAncestor(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

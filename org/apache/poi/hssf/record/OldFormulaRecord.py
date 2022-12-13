@@ -3,34 +3,26 @@ biff3_sid = "short  518"
 biff4_sid = "short  1030"
 biff5_sid = "short  6"
 def OldFormulaRecord():
-'''public OldFormulaRecord(final RecordInputStream ris)
-'''
-pass
+    '''    public OldFormulaRecord(final RecordInputStream ris)
+    '''
 def getCachedResultType():
-'''public int getCachedResultType()
-'''
-pass
+    '''    public int getCachedResultType()
+    '''
 def getCachedBooleanValue():
-'''public boolean getCachedBooleanValue()
-'''
-pass
+    '''    public boolean getCachedBooleanValue()
+    '''
 def getCachedErrorValue():
-'''public int getCachedErrorValue()
-'''
-pass
+    '''    public int getCachedErrorValue()
+    '''
 def getValue():
-'''public double getValue()
-'''
-pass
+    '''    public double getValue()
+    '''
 def getOptions():
-'''public short getOptions()
-'''
-pass
+    '''    public short getOptions()
+    '''
 def getParsedExpression():
-'''public Ptg[] getParsedExpression()
-'''
-pass
+    '''    public Ptg[] getParsedExpression()
+    '''
 def getFormula():
-'''public Formula getFormula()
-'''
-pass
+    '''    public Formula getFormula()
+    '''

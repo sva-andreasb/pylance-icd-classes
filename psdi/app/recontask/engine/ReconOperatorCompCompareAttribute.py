@@ -1,12 +1,9 @@
 def ReconOperatorCompCompareAttribute():
-'''public ReconOperatorCompCompareAttribute(final ReconInfo reconInfo)
-'''
-pass
+    '''    public ReconOperatorCompCompareAttribute(final ReconInfo reconInfo)
+    '''
 def getInstance():
-'''public ReconOperator getInstance()
-'''
-pass
+    '''    public ReconOperator getInstance()
+    '''
 def evaluateOperator():
-'''public ReconCompResult evaluateOperator(final String fullyQualifiedName1, final String fullyQualifiedName2, final ComparisonQueryHelper qh)
-'''
-pass
+    '''    public ReconCompResult evaluateOperator(final String fullyQualifiedName1, final String fullyQualifiedName2, final ComparisonQueryHelper qh)
+    '''

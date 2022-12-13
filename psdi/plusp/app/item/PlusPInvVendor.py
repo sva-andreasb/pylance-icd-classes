@@ -1,12 +1,9 @@
 def PlusPInvVendor():
-'''public PlusPInvVendor(final MboSet arg0)
-'''
-pass
+    '''    public PlusPInvVendor(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

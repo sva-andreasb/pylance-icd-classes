@@ -1,12 +1,9 @@
 def Field():
-'''public Field()
-'''
-pass
+    '''    public Field()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

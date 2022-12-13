@@ -1,17 +1,13 @@
 def getCondition():
-'''public String getCondition()
-'''
-pass
+    '''    public String getCondition()
+    '''
 def getFormula():
-'''public String getFormula()
-'''
-pass
+    '''    public String getFormula()
+    '''
 def getMethodologyName():
-'''public String getMethodologyName()
-'''
-pass
+    '''    public String getMethodologyName()
+    '''
 def AttrFormulaCondInfo():
-'''public AttrFormulaCondInfo(final String condition, final String formula)
-public AttrFormulaCondInfo(final String condition, final String formula, final String methodologyName)
-'''
-pass
+    '''    public AttrFormulaCondInfo(final String condition, final String formula)
+    public AttrFormulaCondInfo(final String condition, final String formula, final String methodologyName)
+    '''

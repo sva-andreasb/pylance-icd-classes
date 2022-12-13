@@ -1,8 +1,6 @@
 def getResource():
-'''public Context getResource()
-'''
-pass
+    '''    public Context getResource()
+    '''
 def setResource():
-'''public void setResource(final Context resource)
-'''
-pass
+    '''    public void setResource(final Context resource)
+    '''

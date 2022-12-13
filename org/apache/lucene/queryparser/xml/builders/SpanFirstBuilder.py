@@ -1,8 +1,6 @@
 def SpanFirstBuilder():
-'''public SpanFirstBuilder(final SpanQueryBuilder factory)
-'''
-pass
+    '''    public SpanFirstBuilder(final SpanQueryBuilder factory)
+    '''
 def getSpanQuery():
-'''public SpanQuery getSpanQuery(final Element e)
-'''
-pass
+    '''    public SpanQuery getSpanQuery(final Element e)
+    '''

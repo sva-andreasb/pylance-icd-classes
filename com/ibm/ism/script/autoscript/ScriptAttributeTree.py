@@ -1,24 +1,18 @@
 def ScriptAttributeTree():
-'''public ScriptAttributeTree(final MboSet ms)
-'''
-pass
+    '''    public ScriptAttributeTree(final MboSet ms)
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def setAlnList():
-'''public void setAlnList(final List<String> in)
-'''
-pass
+    '''    public void setAlnList(final List<String> in)
+    '''
 def getAlnList():
-'''public List<String> getAlnList()
-'''
-pass
+    '''    public List<String> getAlnList()
+    '''

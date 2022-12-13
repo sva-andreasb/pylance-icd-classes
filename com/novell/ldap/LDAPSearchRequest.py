@@ -12,44 +12,34 @@ INITIAL = "int  0"
 ANY = "int  1"
 FINAL = "int  2"
 def LDAPSearchRequest():
-'''public LDAPSearchRequest()
-public LDAPSearchRequest(final String s, final int n, final String s2, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
-public LDAPSearchRequest(final String s, final int n, final RfcFilter rfcFilter, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
-'''
-pass
+    '''    public LDAPSearchRequest()
+    public LDAPSearchRequest(final String s, final int n, final String s2, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
+    public LDAPSearchRequest(final String s, final int n, final RfcFilter rfcFilter, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
+    '''
 def getDN():
-'''public String getDN()
-'''
-pass
+    '''    public String getDN()
+    '''
 def getScope():
-'''public int getScope()
-'''
-pass
+    '''    public int getScope()
+    '''
 def getDereference():
-'''public int getDereference()
-'''
-pass
+    '''    public int getDereference()
+    '''
 def getMaxResults():
-'''public int getMaxResults()
-'''
-pass
+    '''    public int getMaxResults()
+    '''
 def getServerTimeLimit():
-'''public int getServerTimeLimit()
-'''
-pass
+    '''    public int getServerTimeLimit()
+    '''
 def isTypesOnly():
-'''public boolean isTypesOnly()
-'''
-pass
+    '''    public boolean isTypesOnly()
+    '''
 def getAttributes():
-'''public String[] getAttributes()
-'''
-pass
+    '''    public String[] getAttributes()
+    '''
 def getStringFilter():
-'''public String getStringFilter()
-'''
-pass
+    '''    public String getStringFilter()
+    '''
 def getSearchFilter():
-'''public Iterator getSearchFilter()
-'''
-pass
+    '''    public Iterator getSearchFilter()
+    '''

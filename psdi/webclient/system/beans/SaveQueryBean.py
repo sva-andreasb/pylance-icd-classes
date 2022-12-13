@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

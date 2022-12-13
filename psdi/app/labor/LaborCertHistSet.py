@@ -1,4 +1,3 @@
 def LaborCertHistSet():
-'''public LaborCertHistSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LaborCertHistSet(final MboServerInterface ms)
+    '''

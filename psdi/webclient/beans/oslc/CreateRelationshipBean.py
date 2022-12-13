@@ -1,4 +1,3 @@
 def CreateRelationshipBean():
-'''public CreateRelationshipBean()
-'''
-pass
+    '''    public CreateRelationshipBean()
+    '''

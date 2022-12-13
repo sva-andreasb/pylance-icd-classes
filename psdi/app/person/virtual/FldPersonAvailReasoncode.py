@@ -1,8 +1,6 @@
 def FldPersonAvailReasoncode():
-'''public FldPersonAvailReasoncode(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonAvailReasoncode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

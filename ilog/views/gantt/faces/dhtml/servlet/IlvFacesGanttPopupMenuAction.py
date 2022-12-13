@@ -1,5 +1,4 @@
-ACTION_NAME = "String  popupmenuclicked""
+ACTION_NAME = "String  \"popupmenuclicked\""
 def actionPerformed():
-'''public void actionPerformed(final ServerActionEvent serverActionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ServerActionEvent serverActionEvent)
+    '''

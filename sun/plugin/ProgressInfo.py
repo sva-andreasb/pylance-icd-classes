@@ -1,28 +1,21 @@
 def init():
-'''public void init(final AppletViewer av)
-'''
-pass
+    '''    public void init(final AppletViewer av)
+    '''
 def doOnStart():
-'''public synchronized void doOnStart(final Object o)
-'''
-pass
+    '''    public synchronized void doOnStart(final Object o)
+    '''
 def doOnProgress():
-'''public synchronized void doOnProgress(final Object o, final int n, final int n2)
-'''
-pass
+    '''    public synchronized void doOnProgress(final Object o, final int n, final int n2)
+    '''
 def doOnFinish():
-'''public synchronized void doOnFinish(final Object o)
-'''
-pass
+    '''    public synchronized void doOnFinish(final Object o)
+    '''
 def getProgress():
-'''public synchronized int getProgress()
-'''
-pass
+    '''    public synchronized int getProgress()
+    '''
 def getProgressMax():
-'''public synchronized int getProgressMax()
-'''
-pass
+    '''    public synchronized int getProgressMax()
+    '''
 def calcJars():
-'''public int calcJars()
-'''
-pass
+    '''    public int calcJars()
+    '''

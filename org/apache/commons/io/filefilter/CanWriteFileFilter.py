@@ -1,4 +1,3 @@
 def accept():
-'''public boolean accept(final File file)
-'''
-pass
+    '''    public boolean accept(final File file)
+    '''

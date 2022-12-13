@@ -1,24 +1,18 @@
 def getInstance():
-'''public static BasicPeriodFormatterService getInstance()
-'''
-pass
+    '''    public static BasicPeriodFormatterService getInstance()
+    '''
 def BasicPeriodFormatterService():
-'''public BasicPeriodFormatterService(final PeriodFormatterDataService ds)
-'''
-pass
+    '''    public BasicPeriodFormatterService(final PeriodFormatterDataService ds)
+    '''
 def newDurationFormatterFactory():
-'''public DurationFormatterFactory newDurationFormatterFactory()
-'''
-pass
+    '''    public DurationFormatterFactory newDurationFormatterFactory()
+    '''
 def newPeriodFormatterFactory():
-'''public PeriodFormatterFactory newPeriodFormatterFactory()
-'''
-pass
+    '''    public PeriodFormatterFactory newPeriodFormatterFactory()
+    '''
 def newPeriodBuilderFactory():
-'''public PeriodBuilderFactory newPeriodBuilderFactory()
-'''
-pass
+    '''    public PeriodBuilderFactory newPeriodBuilderFactory()
+    '''
 def getAvailableLocaleNames():
-'''public Collection<String> getAvailableLocaleNames()
-'''
-pass
+    '''    public Collection<String> getAvailableLocaleNames()
+    '''

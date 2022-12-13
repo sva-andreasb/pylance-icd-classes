@@ -1,5 +1,4 @@
 def FinderException():
-'''public FinderException()
-public FinderException(final String message)
-'''
-pass
+    '''    public FinderException()
+    public FinderException(final String message)
+    '''

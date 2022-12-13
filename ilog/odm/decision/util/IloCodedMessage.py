@@ -1,15 +1,12 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloCodedMessage():
-'''public IloCodedMessage(final String code)
-public IloCodedMessage(final String code, final Object s)
-public IloCodedMessage(final String code, final Object[] s)
-'''
-pass
+    '''    public IloCodedMessage(final String code)
+    public IloCodedMessage(final String code, final Object s)
+    public IloCodedMessage(final String code, final Object[] s)
+    '''
 def getErrorCode():
-'''public String getErrorCode()
-'''
-pass
+    '''    public String getErrorCode()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''

@@ -1,8 +1,6 @@
 def stringValueTransformer():
-'''public static <T> Transformer<T, String> stringValueTransformer()
-'''
-pass
+    '''    public static <T> Transformer<T, String> stringValueTransformer()
+    '''
 def transform():
-'''public String transform(final T input)
-'''
-pass
+    '''    public String transform(final T input)
+    '''

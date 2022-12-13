@@ -1,4 +1,3 @@
 def CalendarSerializerFactory():
-'''public CalendarSerializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public CalendarSerializerFactory(final Class javaType, final QName xmlType)
+    '''

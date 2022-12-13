@@ -1,28 +1,21 @@
 def DETAILREP():
-'''public int DETAILREP()
-'''
-pass
+    '''    public int DETAILREP()
+    '''
 def PRINTDOCS():
-'''public int PRINTDOCS()
-'''
-pass
+    '''    public int PRINTDOCS()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def ALLOCSERV():
-'''public int ALLOCSERV()
-'''
-pass
+    '''    public int ALLOCSERV()
+    '''
 def REVINVOICE():
-'''public int REVINVOICE()
-'''
-pass
+    '''    public int REVINVOICE()
+    '''
 def DUPLICATE():
-'''public int DUPLICATE()
-'''
-pass
+    '''    public int DUPLICATE()
+    '''
 def CHANGEVEND():
-'''public int CHANGEVEND()
-'''
-pass
+    '''    public int CHANGEVEND()
+    '''

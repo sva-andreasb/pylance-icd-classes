@@ -1,8 +1,6 @@
 def FldPOLineToOrgID():
-'''public FldPOLineToOrgID(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineToOrgID(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

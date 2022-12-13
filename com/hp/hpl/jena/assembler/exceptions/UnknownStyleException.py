@@ -1,8 +1,6 @@
 def UnknownStyleException():
-'''public UnknownStyleException(final Resource root, final Resource style)
-'''
-pass
+    '''    public UnknownStyleException(final Resource root, final Resource style)
+    '''
 def getStyle():
-'''public Resource getStyle()
-'''
-pass
+    '''    public Resource getStyle()
+    '''

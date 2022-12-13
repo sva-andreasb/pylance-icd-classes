@@ -1,8 +1,6 @@
 def ReassignWFSet():
-'''public ReassignWFSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReassignWFSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

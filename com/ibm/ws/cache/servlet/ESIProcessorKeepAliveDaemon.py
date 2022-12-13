@@ -1,4 +1,3 @@
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''

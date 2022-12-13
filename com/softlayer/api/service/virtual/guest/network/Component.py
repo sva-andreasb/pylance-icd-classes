@@ -1,353 +1,265 @@
 def getGuest():
-'''public Guest getGuest()
-'''
-pass
+    '''    public Guest getGuest()
+    '''
 def setGuest():
-'''public void setGuest(final Guest guest)
-'''
-pass
+    '''    public void setGuest(final Guest guest)
+    '''
 def getHighAvailabilityFirewallFlag():
-'''public Boolean getHighAvailabilityFirewallFlag()
-'''
-pass
+    '''    public Boolean getHighAvailabilityFirewallFlag()
+    '''
 def setHighAvailabilityFirewallFlag():
-'''public void setHighAvailabilityFirewallFlag(final Boolean highAvailabilityFirewallFlag)
-'''
-pass
+    '''    public void setHighAvailabilityFirewallFlag(final Boolean highAvailabilityFirewallFlag)
+    '''
 def getIpAddressBindings():
-'''public List<IpAddress> getIpAddressBindings()
-'''
-pass
+    '''    public List<IpAddress> getIpAddressBindings()
+    '''
 def getNetworkComponentFirewall():
-'''public Firewall getNetworkComponentFirewall()
-'''
-pass
+    '''    public Firewall getNetworkComponentFirewall()
+    '''
 def setNetworkComponentFirewall():
-'''public void setNetworkComponentFirewall(final Firewall networkComponentFirewall)
-'''
-pass
+    '''    public void setNetworkComponentFirewall(final Firewall networkComponentFirewall)
+    '''
 def getNetworkVlan():
-'''public Vlan getNetworkVlan()
-'''
-pass
+    '''    public Vlan getNetworkVlan()
+    '''
 def setNetworkVlan():
-'''public void setNetworkVlan(final Vlan networkVlan)
-'''
-pass
+    '''    public void setNetworkVlan(final Vlan networkVlan)
+    '''
 def getPrimaryIpAddress():
-'''public String getPrimaryIpAddress()
-'''
-pass
+    '''    public String getPrimaryIpAddress()
+    '''
 def setPrimaryIpAddress():
-'''public void setPrimaryIpAddress(final String primaryIpAddress)
-'''
-pass
+    '''    public void setPrimaryIpAddress(final String primaryIpAddress)
+    '''
 def setPrimaryIpAddressRecord():
-'''public void setPrimaryIpAddressRecord(final com.softlayer.api.service.network.subnet.IpAddress primaryIpAddressRecord)
-'''
-pass
+    '''    public void setPrimaryIpAddressRecord(final com.softlayer.api.service.network.subnet.IpAddress primaryIpAddressRecord)
+    '''
 def getPrimarySubnet():
-'''public Subnet getPrimarySubnet()
-'''
-pass
+    '''    public Subnet getPrimarySubnet()
+    '''
 def setPrimarySubnet():
-'''public void setPrimarySubnet(final Subnet primarySubnet)
-'''
-pass
+    '''    public void setPrimarySubnet(final Subnet primarySubnet)
+    '''
 def setPrimaryVersion6IpAddressRecord():
-'''public void setPrimaryVersion6IpAddressRecord(final com.softlayer.api.service.network.subnet.IpAddress primaryVersion6IpAddressRecord)
-'''
-pass
+    '''    public void setPrimaryVersion6IpAddressRecord(final com.softlayer.api.service.network.subnet.IpAddress primaryVersion6IpAddressRecord)
+    '''
 def getRouter():
-'''public Router getRouter()
-'''
-pass
+    '''    public Router getRouter()
+    '''
 def setRouter():
-'''public void setRouter(final Router router)
-'''
-pass
+    '''    public void setRouter(final Router router)
+    '''
 def getSubnets():
-'''public List<Subnet> getSubnets()
-'''
-pass
+    '''    public List<Subnet> getSubnets()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getGuestId():
-'''public Long getGuestId()
-'''
-pass
+    '''    public Long getGuestId()
+    '''
 def setGuestId():
-'''public void setGuestId(final Long guestId)
-'''
-pass
+    '''    public void setGuestId(final Long guestId)
+    '''
 def isGuestIdSpecified():
-'''public boolean isGuestIdSpecified()
-'''
-pass
+    '''    public boolean isGuestIdSpecified()
+    '''
 def unsetGuestId():
-'''public void unsetGuestId()
-'''
-pass
+    '''    public void unsetGuestId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getMacAddress():
-'''public String getMacAddress()
-'''
-pass
+    '''    public String getMacAddress()
+    '''
 def setMacAddress():
-'''public void setMacAddress(final String macAddress)
-'''
-pass
+    '''    public void setMacAddress(final String macAddress)
+    '''
 def isMacAddressSpecified():
-'''public boolean isMacAddressSpecified()
-'''
-pass
+    '''    public boolean isMacAddressSpecified()
+    '''
 def unsetMacAddress():
-'''public void unsetMacAddress()
-'''
-pass
+    '''    public void unsetMacAddress()
+    '''
 def getMaxSpeed():
-'''public Long getMaxSpeed()
-'''
-pass
+    '''    public Long getMaxSpeed()
+    '''
 def setMaxSpeed():
-'''public void setMaxSpeed(final Long maxSpeed)
-'''
-pass
+    '''    public void setMaxSpeed(final Long maxSpeed)
+    '''
 def isMaxSpeedSpecified():
-'''public boolean isMaxSpeedSpecified()
-'''
-pass
+    '''    public boolean isMaxSpeedSpecified()
+    '''
 def unsetMaxSpeed():
-'''public void unsetMaxSpeed()
-'''
-pass
+    '''    public void unsetMaxSpeed()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getNetworkId():
-'''public Long getNetworkId()
-'''
-pass
+    '''    public Long getNetworkId()
+    '''
 def setNetworkId():
-'''public void setNetworkId(final Long networkId)
-'''
-pass
+    '''    public void setNetworkId(final Long networkId)
+    '''
 def isNetworkIdSpecified():
-'''public boolean isNetworkIdSpecified()
-'''
-pass
+    '''    public boolean isNetworkIdSpecified()
+    '''
 def unsetNetworkId():
-'''public void unsetNetworkId()
-'''
-pass
+    '''    public void unsetNetworkId()
+    '''
 def getPort():
-'''public Long getPort()
-'''
-pass
+    '''    public Long getPort()
+    '''
 def setPort():
-'''public void setPort(final Long port)
-'''
-pass
+    '''    public void setPort(final Long port)
+    '''
 def isPortSpecified():
-'''public boolean isPortSpecified()
-'''
-pass
+    '''    public boolean isPortSpecified()
+    '''
 def unsetPort():
-'''public void unsetPort()
-'''
-pass
+    '''    public void unsetPort()
+    '''
 def getSpeed():
-'''public Long getSpeed()
-'''
-pass
+    '''    public Long getSpeed()
+    '''
 def setSpeed():
-'''public void setSpeed(final Long speed)
-'''
-pass
+    '''    public void setSpeed(final Long speed)
+    '''
 def isSpeedSpecified():
-'''public boolean isSpeedSpecified()
-'''
-pass
+    '''    public boolean isSpeedSpecified()
+    '''
 def unsetSpeed():
-'''public void unsetSpeed()
-'''
-pass
+    '''    public void unsetSpeed()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def isStatusSpecified():
-'''public boolean isStatusSpecified()
-'''
-pass
+    '''    public boolean isStatusSpecified()
+    '''
 def unsetStatus():
-'''public void unsetStatus()
-'''
-pass
+    '''    public void unsetStatus()
+    '''
 def getUuid():
-'''public String getUuid()
-'''
-pass
+    '''    public String getUuid()
+    '''
 def setUuid():
-'''public void setUuid(final String uuid)
-'''
-pass
+    '''    public void setUuid(final String uuid)
+    '''
 def isUuidSpecified():
-'''public boolean isUuidSpecified()
-'''
-pass
+    '''    public boolean isUuidSpecified()
+    '''
 def unsetUuid():
-'''public void unsetUuid()
-'''
-pass
+    '''    public void unsetUuid()
+    '''
 def getIpAddressBindingCount():
-'''public Long getIpAddressBindingCount()
-'''
-pass
+    '''    public Long getIpAddressBindingCount()
+    '''
 def setIpAddressBindingCount():
-'''public void setIpAddressBindingCount(final Long ipAddressBindingCount)
-'''
-pass
+    '''    public void setIpAddressBindingCount(final Long ipAddressBindingCount)
+    '''
 def getSubnetCount():
-'''public Long getSubnetCount()
-'''
-pass
+    '''    public Long getSubnetCount()
+    '''
 def setSubnetCount():
-'''public void setSubnetCount(final Long subnetCount)
-'''
-pass
+    '''    public void setSubnetCount(final Long subnetCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def highAvailabilityFirewallFlag():
-'''public Mask highAvailabilityFirewallFlag()
-'''
-pass
+    '''    public Mask highAvailabilityFirewallFlag()
+    '''
 def primaryIpAddress():
-'''public Mask primaryIpAddress()
-'''
-pass
+    '''    public Mask primaryIpAddress()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def guestId():
-'''public Mask guestId()
-'''
-pass
+    '''    public Mask guestId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def macAddress():
-'''public Mask macAddress()
-'''
-pass
+    '''    public Mask macAddress()
+    '''
 def maxSpeed():
-'''public Mask maxSpeed()
-'''
-pass
+    '''    public Mask maxSpeed()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def networkId():
-'''public Mask networkId()
-'''
-pass
+    '''    public Mask networkId()
+    '''
 def port():
-'''public Mask port()
-'''
-pass
+    '''    public Mask port()
+    '''
 def speed():
-'''public Mask speed()
-'''
-pass
+    '''    public Mask speed()
+    '''
 def status():
-'''public Mask status()
-'''
-pass
+    '''    public Mask status()
+    '''
 def uuid():
-'''public Mask uuid()
-'''
-pass
+    '''    public Mask uuid()
+    '''
 def ipAddressBindingCount():
-'''public Mask ipAddressBindingCount()
-'''
-pass
+    '''    public Mask ipAddressBindingCount()
+    '''
 def subnetCount():
-'''public Mask subnetCount()
-'''
-pass
+    '''    public Mask subnetCount()
+    '''

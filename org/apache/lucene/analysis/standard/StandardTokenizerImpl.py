@@ -9,54 +9,41 @@ KATAKANA_TYPE = "int  5"
 HANGUL_TYPE = "int  6"
 EMOJI_TYPE = "int  7"
 def yychar():
-'''public final int yychar()
-'''
-pass
+    '''    public final int yychar()
+    '''
 def getText():
-'''public final void getText(final CharTermAttribute t)
-'''
-pass
+    '''    public final void getText(final CharTermAttribute t)
+    '''
 def setBufferSize():
-'''public final void setBufferSize(final int numChars)
-'''
-pass
+    '''    public final void setBufferSize(final int numChars)
+    '''
 def StandardTokenizerImpl():
-'''public StandardTokenizerImpl(final Reader in)
-'''
-pass
+    '''    public StandardTokenizerImpl(final Reader in)
+    '''
 def yyclose():
-'''public final void yyclose()
-'''
-pass
+    '''    public final void yyclose()
+    '''
 def yyreset():
-'''public final void yyreset(final Reader reader)
-'''
-pass
+    '''    public final void yyreset(final Reader reader)
+    '''
 def yystate():
-'''public final int yystate()
-'''
-pass
+    '''    public final int yystate()
+    '''
 def yybegin():
-'''public final void yybegin(final int newState)
-'''
-pass
+    '''    public final void yybegin(final int newState)
+    '''
 def yytext():
-'''public final String yytext()
-'''
-pass
+    '''    public final String yytext()
+    '''
 def yycharat():
-'''public final char yycharat(final int pos)
-'''
-pass
+    '''    public final char yycharat(final int pos)
+    '''
 def yylength():
-'''public final int yylength()
-'''
-pass
+    '''    public final int yylength()
+    '''
 def yypushback():
-'''public void yypushback(final int number)
-'''
-pass
+    '''    public void yypushback(final int number)
+    '''
 def getNextToken():
-'''public int getNextToken()
-'''
-pass
+    '''    public int getNextToken()
+    '''

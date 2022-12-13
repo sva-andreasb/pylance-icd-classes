@@ -1,24 +1,18 @@
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getMessageContext():
-'''public synchronized MessageContext getMessageContext()
-'''
-pass
+    '''    public synchronized MessageContext getMessageContext()
+    '''
 def MimePartDataSource():
-'''public MimePartDataSource(final MimePart part)
-'''
-pass
+    '''    public MimePartDataSource(final MimePart part)
+    '''

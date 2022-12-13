@@ -1,24 +1,18 @@
 def AsyncJobCron():
-'''public AsyncJobCron()
-'''
-pass
+    '''    public AsyncJobCron()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getJobUserInfo():
-'''public UserInfo getJobUserInfo(final String userID, final String locale)
-'''
-pass
+    '''    public UserInfo getJobUserInfo(final String userID, final String locale)
+    '''
 def pickupOneJob():
-'''public String pickupOneJob()
-'''
-pass
+    '''    public String pickupOneJob()
+    '''
 def getParameterValidationMbo():
-'''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
-'''
-pass
+    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''

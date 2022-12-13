@@ -1,12 +1,9 @@
 def FldInvAdjustmentConditionCode():
-'''public FldInvAdjustmentConditionCode(final MboValue mbv)
-'''
-pass
+    '''    public FldInvAdjustmentConditionCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

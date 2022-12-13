@@ -1,4 +1,3 @@
 def SKDDataValMsg():
-'''public SKDDataValMsg(final MboSet ms)
-'''
-pass
+    '''    public SKDDataValMsg(final MboSet ms)
+    '''

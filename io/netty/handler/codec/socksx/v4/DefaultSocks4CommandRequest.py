@@ -1,25 +1,19 @@
 def DefaultSocks4CommandRequest():
-'''public DefaultSocks4CommandRequest(final Socks4CommandType type, final String dstAddr, final int dstPort)
-public DefaultSocks4CommandRequest(final Socks4CommandType type, final String dstAddr, final int dstPort, final String userId)
-'''
-pass
+    '''    public DefaultSocks4CommandRequest(final Socks4CommandType type, final String dstAddr, final int dstPort)
+    public DefaultSocks4CommandRequest(final Socks4CommandType type, final String dstAddr, final int dstPort, final String userId)
+    '''
 def type():
-'''public Socks4CommandType type()
-'''
-pass
+    '''    public Socks4CommandType type()
+    '''
 def dstAddr():
-'''public String dstAddr()
-'''
-pass
+    '''    public String dstAddr()
+    '''
 def dstPort():
-'''public int dstPort()
-'''
-pass
+    '''    public int dstPort()
+    '''
 def userId():
-'''public String userId()
-'''
-pass
+    '''    public String userId()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

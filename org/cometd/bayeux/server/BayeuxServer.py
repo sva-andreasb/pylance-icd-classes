@@ -1,1 +1,1 @@
-ATTRIBUTE = "String  org.cometd.bayeux""
+ATTRIBUTE = "String  \"org.cometd.bayeux\""

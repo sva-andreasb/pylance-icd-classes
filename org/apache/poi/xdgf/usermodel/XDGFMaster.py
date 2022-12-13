@@ -1,24 +1,18 @@
 def XDGFMaster():
-'''public XDGFMaster(final MasterType master, final XDGFMasterContents content, final XDGFDocument document)
-'''
-pass
+    '''    public XDGFMaster(final MasterType master, final XDGFMasterContents content, final XDGFDocument document)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getContent():
-'''public XDGFMasterContents getContent()
-'''
-pass
+    '''    public XDGFMasterContents getContent()
+    '''
 def getPageSheet():
-'''public XDGFSheet getPageSheet()
-'''
-pass
+    '''    public XDGFSheet getPageSheet()
+    '''

@@ -1,49 +1,37 @@
 def TextImpl():
-'''public TextImpl()
-public TextImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
-'''
-pass
+    '''    public TextImpl()
+    public TextImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
+    '''
 def setValues():
-'''public void setValues(final CoreDocumentImpl ownerDocument, final String data)
-'''
-pass
+    '''    public void setValues(final CoreDocumentImpl ownerDocument, final String data)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def setIgnorableWhitespace():
-'''public void setIgnorableWhitespace(final boolean b)
-'''
-pass
+    '''    public void setIgnorableWhitespace(final boolean b)
+    '''
 def isElementContentWhitespace():
-'''public boolean isElementContentWhitespace()
-'''
-pass
+    '''    public boolean isElementContentWhitespace()
+    '''
 def getWholeText():
-'''public String getWholeText()
-'''
-pass
+    '''    public String getWholeText()
+    '''
 def replaceWholeText():
-'''public Text replaceWholeText(final String data)
-'''
-pass
+    '''    public Text replaceWholeText(final String data)
+    '''
 def isIgnorableWhitespace():
-'''public boolean isIgnorableWhitespace()
-'''
-pass
+    '''    public boolean isIgnorableWhitespace()
+    '''
 def splitText():
-'''public Text splitText(final int n)
-'''
-pass
+    '''    public Text splitText(final int n)
+    '''
 def replaceData():
-'''public void replaceData(final String data)
-'''
-pass
+    '''    public void replaceData(final String data)
+    '''
 def removeData():
-'''public String removeData()
-'''
-pass
+    '''    public String removeData()
+    '''

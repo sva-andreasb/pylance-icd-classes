@@ -1,48 +1,36 @@
 def getSourceBucketName():
-'''public String getSourceBucketName()
-'''
-pass
+    '''    public String getSourceBucketName()
+    '''
 def setSourceBucketName():
-'''public void setSourceBucketName(final String sourceBucketName)
-'''
-pass
+    '''    public void setSourceBucketName(final String sourceBucketName)
+    '''
 def getSourceKey():
-'''public String getSourceKey()
-'''
-pass
+    '''    public String getSourceKey()
+    '''
 def setSourceKey():
-'''public void setSourceKey(final String sourceKey)
-'''
-pass
+    '''    public void setSourceKey(final String sourceKey)
+    '''
 def getDestinationBucketName():
-'''public String getDestinationBucketName()
-'''
-pass
+    '''    public String getDestinationBucketName()
+    '''
 def setDestinationBucketName():
-'''public void setDestinationBucketName(final String destinationBucketName)
-'''
-pass
+    '''    public void setDestinationBucketName(final String destinationBucketName)
+    '''
 def getDestinationKey():
-'''public String getDestinationKey()
-'''
-pass
+    '''    public String getDestinationKey()
+    '''
 def setDestinationKey():
-'''public void setDestinationKey(final String destinationKey)
-'''
-pass
+    '''    public void setDestinationKey(final String destinationKey)
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String etag)
-'''
-pass
+    '''    public void setETag(final String etag)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''

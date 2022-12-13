@@ -1,12 +1,9 @@
 def listfailurecodes():
-'''public int listfailurecodes()
-'''
-pass
+    '''    public int listfailurecodes()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''

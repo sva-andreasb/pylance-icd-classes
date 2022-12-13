@@ -1,56 +1,42 @@
 def setExtSysName():
-'''public void setExtSysName(final String extSysName)
-'''
-pass
+    '''    public void setExtSysName(final String extSysName)
+    '''
 def getExtSysName():
-'''public String getExtSysName()
-'''
-pass
+    '''    public String getExtSysName()
+    '''
 def getIfaceName():
-'''public String getIfaceName()
-'''
-pass
+    '''    public String getIfaceName()
+    '''
 def setIfaceName():
-'''public void setIfaceName(final String e)
-'''
-pass
+    '''    public void setIfaceName(final String e)
+    '''
 def getExitClassName():
-'''public String getExitClassName()
-'''
-pass
+    '''    public String getExitClassName()
+    '''
 def setExitClassName():
-'''public void setExitClassName(final String e)
-'''
-pass
+    '''    public void setExitClassName(final String e)
+    '''
 def setEnabled():
-'''public void setEnabled(final int e)
-'''
-pass
+    '''    public void setEnabled(final int e)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def getUserExitClassName():
-'''public String getUserExitClassName()
-'''
-pass
+    '''    public String getUserExitClassName()
+    '''
 def setUserExitClassName():
-'''public void setUserExitClassName(final String userExitClassName)
-'''
-pass
+    '''    public void setUserExitClassName(final String userExitClassName)
+    '''
 def getMapName():
-'''public String getMapName()
-'''
-pass
+    '''    public String getMapName()
+    '''
 def setMapName():
-'''public void setMapName(final String mapName)
-'''
-pass
+    '''    public void setMapName(final String mapName)
+    '''
 def getEndPoint():
-'''public String getEndPoint()
-'''
-pass
+    '''    public String getEndPoint()
+    '''
 def setEndPoint():
-'''public void setEndPoint(final String endPoint)
-'''
-pass
+    '''    public void setEndPoint(final String endPoint)
+    '''

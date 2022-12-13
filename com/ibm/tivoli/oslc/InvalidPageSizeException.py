@@ -1,8 +1,6 @@
 def InvalidPageSizeException():
-'''public InvalidPageSizeException(final int pageSize)
-'''
-pass
+    '''    public InvalidPageSizeException(final int pageSize)
+    '''
 def getRequestedPageSize():
-'''public int getRequestedPageSize()
-'''
-pass
+    '''    public int getRequestedPageSize()
+    '''

@@ -1,4 +1,3 @@
 def getRequestLogger():
-'''public static AbstractRequestLogger getRequestLogger()
-'''
-pass
+    '''    public static AbstractRequestLogger getRequestLogger()
+    '''

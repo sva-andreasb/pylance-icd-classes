@@ -1,8 +1,6 @@
 def PromoteAction():
-'''public PromoteAction()
-'''
-pass
+    '''    public PromoteAction()
+    '''
 def applyCustomAction():
-'''public void applyCustomAction(final MboRemote promotedMbo, final Object[] args)
-'''
-pass
+    '''    public void applyCustomAction(final MboRemote promotedMbo, final Object[] args)
+    '''

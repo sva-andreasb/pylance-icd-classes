@@ -1,206 +1,156 @@
 def MaxUser():
-'''public MaxUser(final MboSet ms)
-'''
-pass
+    '''    public MaxUser(final MboSet ms)
+    '''
 def getProcess():
-'''public String getProcess()
-'''
-pass
+    '''    public String getProcess()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getDbIn():
-'''public int getDbIn()
-'''
-pass
+    '''    public int getDbIn()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def deleteThisUser():
-'''public boolean deleteThisUser()
-public boolean deleteThisUser(final long accessModifier)
-'''
-pass
+    '''    public boolean deleteThisUser()
+    public boolean deleteThisUser(final long accessModifier)
+    '''
 def undeleteThisUser():
-'''public void undeleteThisUser()
-'''
-pass
+    '''    public void undeleteThisUser()
+    '''
 def maxUserCanDelete():
-'''public void maxUserCanDelete()
-'''
-pass
+    '''    public void maxUserCanDelete()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def userWasDuplicated():
-'''public boolean userWasDuplicated()
-'''
-pass
+    '''    public boolean userWasDuplicated()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def resetNativeEsigKey():
-'''public void resetNativeEsigKey()
-'''
-pass
+    '''    public void resetNativeEsigKey()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def recheckPasswordAuthority():
-'''public void recheckPasswordAuthority()
-'''
-pass
+    '''    public void recheckPasswordAuthority()
+    '''
 def encryptEsigPassword():
-'''public String encryptEsigPassword(final String esigPass)
-'''
-pass
+    '''    public String encryptEsigPassword(final String esigPass)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def isInactive():
-'''public boolean isInactive()
-'''
-pass
+    '''    public boolean isInactive()
+    '''
 def isBlocked():
-'''public boolean isBlocked()
-'''
-pass
+    '''    public boolean isBlocked()
+    '''
 def setBlocked():
-'''public void setBlocked(final String memo)
-'''
-pass
+    '''    public void setBlocked(final String memo)
+    '''
 def isDeleted():
-'''public boolean isDeleted()
-'''
-pass
+    '''    public boolean isDeleted()
+    '''
 def addLoginTracking():
-'''public void addLoginTracking(final boolean attemptResult)
-public void addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue)
-public void addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue, final String ownerTable, final String ownerId)
-public MboRemote addLoginTracking(final String attemptResult)
-public MboRemote addLoginTracking(final String attemptResult, final boolean updateStatus)
-'''
-pass
+    '''    public void addLoginTracking(final boolean attemptResult)
+    public void addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue)
+    public void addLoginTracking(final boolean attemptResult, final String app, final String reason, final String transid, final String[] keyvalue, final String ownerTable, final String ownerId)
+    public MboRemote addLoginTracking(final String attemptResult)
+    public MboRemote addLoginTracking(final String attemptResult, final boolean updateStatus)
+    '''
 def addMaxSession():
-'''public MboRemote addMaxSession()
-'''
-pass
+    '''    public MboRemote addMaxSession()
+    '''
 def addServerSession():
-'''public void addServerSession()
-'''
-pass
+    '''    public void addServerSession()
+    '''
 def isPasswordValid():
-'''public boolean isPasswordValid()
-'''
-pass
+    '''    public boolean isPasswordValid()
+    '''
 def isDBPasswordValid():
-'''public void isDBPasswordValid()
-'''
-pass
+    '''    public void isDBPasswordValid()
+    '''
 def addDBUser():
-'''public final void addDBUser(final String dbuserid)
-'''
-pass
+    '''    public final void addDBUser(final String dbuserid)
+    '''
 def deleteDBUser():
-'''public final void deleteDBUser(final String deleteID)
-'''
-pass
+    '''    public final void deleteDBUser(final String deleteID)
+    '''
 def canChangePassword():
-'''public boolean canChangePassword()
-'''
-pass
+    '''    public boolean canChangePassword()
+    '''
 def changeDBPassword():
-'''public final void changeDBPassword()
-'''
-pass
+    '''    public final void changeDBPassword()
+    '''
 def userExistsOnDB():
-'''public final boolean userExistsOnDB(Connection con, final String checkID)
-'''
-pass
+    '''    public final boolean userExistsOnDB(Connection con, final String checkID)
+    '''
 def addGroupUser():
-'''public void addGroupUser()
-'''
-pass
+    '''    public void addGroupUser()
+    '''
 def createPersonMbo():
-'''public MboRemote createPersonMbo(final String personID, final MboSetRemote personSet)
-public MboRemote createPersonMbo(final String personID, final MboSetRemote personSet, final boolean doAutokey)
-'''
-pass
+    '''    public MboRemote createPersonMbo(final String personID, final MboSetRemote personSet)
+    public MboRemote createPersonMbo(final String personID, final MboSetRemote personSet, final boolean doAutokey)
+    '''
 def openMainRecordDialog():
-'''public void openMainRecordDialog(String id)
-'''
-pass
+    '''    public void openMainRecordDialog(String id)
+    '''
 def cancelMainRecordDialog():
-'''public void cancelMainRecordDialog(String id)
-'''
-pass
+    '''    public void cancelMainRecordDialog(String id)
+    '''
 def clearUserProfileHierarchySet():
-'''public void clearUserProfileHierarchySet()
-'''
-pass
+    '''    public void clearUserProfileHierarchySet()
+    '''
 def showProfileWarning():
-'''public boolean showProfileWarning()
-'''
-pass
+    '''    public boolean showProfileWarning()
+    '''
 def setLoginIdDefault():
-'''public void setLoginIdDefault()
-'''
-pass
+    '''    public void setLoginIdDefault()
+    '''
 def setValue():
-'''public void setValue(String attributeName, String val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(String attributeName, String val, final long accessModifier)
+    '''
 def authorizeGroups():
-'''public void authorizeGroups(final MboSetRemote groupSet, final String relationship)
-'''
-pass
+    '''    public void authorizeGroups(final MboSetRemote groupSet, final String relationship)
+    '''
 def clearGenPswdInfo():
-'''public void clearGenPswdInfo()
-'''
-pass
+    '''    public void clearGenPswdInfo()
+    '''
 def generatePassword():
-'''public void generatePassword()
-'''
-pass
+    '''    public void generatePassword()
+    '''
 def addGrpReassignAuthForUserInsert():
-'''public void addGrpReassignAuthForUserInsert()
-'''
-pass
+    '''    public void addGrpReassignAuthForUserInsert()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def getOldLoginID():
-'''public String getOldLoginID()
-'''
-pass
+    '''    public String getOldLoginID()
+    '''
 def setOldLoginID():
-'''public void setOldLoginID(final String oldLoginID)
-'''
-pass
+    '''    public void setOldLoginID(final String oldLoginID)
+    '''

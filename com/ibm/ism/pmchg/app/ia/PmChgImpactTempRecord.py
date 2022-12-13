@@ -1,40 +1,30 @@
 def PmChgImpactTempRecord():
-'''public PmChgImpactTempRecord()
-'''
-pass
+    '''    public PmChgImpactTempRecord()
+    '''
 def isCounted():
-'''public boolean isCounted()
-'''
-pass
+    '''    public boolean isCounted()
+    '''
 def setCounted():
-'''public void setCounted(final boolean counted)
-'''
-pass
+    '''    public void setCounted(final boolean counted)
+    '''
 def getCinum():
-'''public String getCinum()
-'''
-pass
+    '''    public String getCinum()
+    '''
 def setCinum():
-'''public void setCinum(final String cinum)
-'''
-pass
+    '''    public void setCinum(final String cinum)
+    '''
 def getCiDescription():
-'''public String getCiDescription()
-'''
-pass
+    '''    public String getCiDescription()
+    '''
 def setCiDescription():
-'''public void setCiDescription(final String ciDescription)
-'''
-pass
+    '''    public void setCiDescription(final String ciDescription)
+    '''
 def getImpactedCI():
-'''public String getImpactedCI()
-'''
-pass
+    '''    public String getImpactedCI()
+    '''
 def setImpactedCI():
-'''public void setImpactedCI(final String impactedCI)
-'''
-pass
+    '''    public void setImpactedCI(final String impactedCI)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

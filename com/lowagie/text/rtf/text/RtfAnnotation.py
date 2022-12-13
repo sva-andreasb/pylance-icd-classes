@@ -1,8 +1,6 @@
 def RtfAnnotation():
-'''public RtfAnnotation(final RtfDocument doc, final Annotation annotation)
-'''
-pass
+    '''    public RtfAnnotation(final RtfDocument doc, final Annotation annotation)
+    '''
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''

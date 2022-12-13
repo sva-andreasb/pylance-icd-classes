@@ -1,4 +1,3 @@
 def OfferingSurvey():
-'''public OfferingSurvey(final MboSet ms)
-'''
-pass
+    '''    public OfferingSurvey(final MboSet ms)
+    '''

@@ -1,8 +1,6 @@
 def FldMaxPropSecureLevel():
-'''public FldMaxPropSecureLevel(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxPropSecureLevel(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

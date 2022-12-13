@@ -1,1 +1,1 @@
-MEDIA_TYPE = "String  application/json; charset=UTF-8""
+MEDIA_TYPE = "String  \"application/json; charset=UTF-8\""

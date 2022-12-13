@@ -1,100 +1,76 @@
 def Cookie():
-'''public Cookie()
-public Cookie(final String domain, final String name, final String value)
-public Cookie(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)
-public Cookie(final String domain, final String name, final String value, final String path, final int maxAge, final boolean secure)
-'''
-pass
+    '''    public Cookie()
+    public Cookie(final String domain, final String name, final String value)
+    public Cookie(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)
+    public Cookie(final String domain, final String name, final String value, final String path, final int maxAge, final boolean secure)
+    '''
 def getComment():
-'''public String getComment()
-'''
-pass
+    '''    public String getComment()
+    '''
 def setComment():
-'''public void setComment(final String comment)
-'''
-pass
+    '''    public void setComment(final String comment)
+    '''
 def getExpiryDate():
-'''public Date getExpiryDate()
-'''
-pass
+    '''    public Date getExpiryDate()
+    '''
 def setExpiryDate():
-'''public void setExpiryDate(final Date expiryDate)
-'''
-pass
+    '''    public void setExpiryDate(final Date expiryDate)
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def getDomain():
-'''public String getDomain()
-'''
-pass
+    '''    public String getDomain()
+    '''
 def setDomain():
-'''public void setDomain(String domain)
-'''
-pass
+    '''    public void setDomain(String domain)
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def setPath():
-'''public void setPath(final String path)
-'''
-pass
+    '''    public void setPath(final String path)
+    '''
 def getSecure():
-'''public boolean getSecure()
-'''
-pass
+    '''    public boolean getSecure()
+    '''
 def setSecure():
-'''public void setSecure(final boolean secure)
-'''
-pass
+    '''    public void setSecure(final boolean secure)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final int version)
-'''
-pass
+    '''    public void setVersion(final int version)
+    '''
 def isExpired():
-'''public boolean isExpired()
-public boolean isExpired(final Date now)
-'''
-pass
+    '''    public boolean isExpired()
+    public boolean isExpired(final Date now)
+    '''
 def setPathAttributeSpecified():
-'''public void setPathAttributeSpecified(final boolean value)
-'''
-pass
+    '''    public void setPathAttributeSpecified(final boolean value)
+    '''
 def isPathAttributeSpecified():
-'''public boolean isPathAttributeSpecified()
-'''
-pass
+    '''    public boolean isPathAttributeSpecified()
+    '''
 def setDomainAttributeSpecified():
-'''public void setDomainAttributeSpecified(final boolean value)
-'''
-pass
+    '''    public void setDomainAttributeSpecified(final boolean value)
+    '''
 def isDomainAttributeSpecified():
-'''public boolean isDomainAttributeSpecified()
-'''
-pass
+    '''    public boolean isDomainAttributeSpecified()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toExternalForm():
-'''public String toExternalForm()
-'''
-pass
+    '''    public String toExternalForm()
+    '''
 def compare():
-'''public int compare(final Object o1, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o1, final Object o2)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

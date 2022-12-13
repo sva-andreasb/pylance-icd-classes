@@ -1,38 +1,29 @@
-ELEMENT_NAME = "String  occupants-info""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"occupants-info\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def OccupantsInfo():
-'''public OccupantsInfo(final String roomID)
-'''
-pass
+    '''    public OccupantsInfo(final String roomID)
+    '''
 def getRoomID():
-'''public String getRoomID()
-'''
-pass
+    '''    public String getRoomID()
+    '''
 def getOccupantsCount():
-'''public int getOccupantsCount()
-'''
-pass
+    '''    public int getOccupantsCount()
+    '''
 def getOccupants():
-'''public Set<OccupantInfo> getOccupants()
-'''
-pass
+    '''    public Set<OccupantInfo> getOccupants()
+    '''
 def OccupantInfo():
-'''public OccupantInfo(final String jid, final String nickname, final Date joined)
-'''
-pass
+    '''    public OccupantInfo(final String jid, final String nickname, final Date joined)
+    '''
 def getJID():
-'''public String getJID()
-'''
-pass
+    '''    public String getJID()
+    '''
 def getNickname():
-'''public String getNickname()
-'''
-pass
+    '''    public String getNickname()
+    '''
 def getJoined():
-'''public Date getJoined()
-'''
-pass
+    '''    public Date getJoined()
+    '''
 def parse():
-'''public OccupantsInfo parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public OccupantsInfo parse(final XmlPullParser parser, final int initialDepth)
+    '''

@@ -1,8 +1,6 @@
 def addTask():
-'''public final void addTask(final Task task)
-'''
-pass
+    '''    public final void addTask(final Task task)
+    '''
 def addDataType():
-'''public final void addDataType(final RuntimeConfigurable r)
-'''
-pass
+    '''    public final void addDataType(final RuntimeConfigurable r)
+    '''

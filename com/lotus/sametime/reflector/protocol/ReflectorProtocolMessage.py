@@ -1,4 +1,3 @@
 def toByteArray():
-'''public byte[] toByteArray()
-'''
-pass
+    '''    public byte[] toByteArray()
+    '''

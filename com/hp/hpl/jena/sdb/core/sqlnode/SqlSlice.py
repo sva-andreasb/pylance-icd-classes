@@ -1,20 +1,15 @@
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def getStart():
-'''public long getStart()
-'''
-pass
+    '''    public long getStart()
+    '''
 def visit():
-'''public void visit(final SqlNodeVisitor visitor)
-'''
-pass
+    '''    public void visit(final SqlNodeVisitor visitor)
+    '''
 def apply():
-'''public SqlNode apply(final SqlTransform transform, final SqlNode subNode)
-'''
-pass
+    '''    public SqlNode apply(final SqlTransform transform, final SqlNode subNode)
+    '''
 def copy():
-'''public SqlNode copy(final SqlNode subNode)
-'''
-pass
+    '''    public SqlNode copy(final SqlNode subNode)
+    '''

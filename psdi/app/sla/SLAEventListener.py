@@ -1,8 +1,6 @@
 def checkEscalations():
-'''public static void checkEscalations(final Mbo mbo)
-'''
-pass
+    '''    public static void checkEscalations(final Mbo mbo)
+    '''
 def checkDraftSla():
-'''public static void checkDraftSla(final Mbo mbo)
-'''
-pass
+    '''    public static void checkDraftSla(final Mbo mbo)
+    '''

@@ -1,28 +1,21 @@
 def PMSeasons():
-'''public PMSeasons(final MboSet ms)
-'''
-pass
+    '''    public PMSeasons(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def validDayMonth():
-'''public void validDayMonth(final int newDay, final String month)
-'''
-pass
+    '''    public void validDayMonth(final int newDay, final String month)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

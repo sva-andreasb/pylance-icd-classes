@@ -1,116 +1,87 @@
 def StyleSheetTypeImpl():
-'''public StyleSheetTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public StyleSheetTypeImpl(final SchemaType schemaType)
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def xgetID():
-'''public XmlUnsignedInt xgetID()
-'''
-pass
+    '''    public XmlUnsignedInt xgetID()
+    '''
 def setID():
-'''public void setID(final long longValue)
-'''
-pass
+    '''    public void setID(final long longValue)
+    '''
 def xsetID():
-'''public void xsetID(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetID(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def xgetName():
-'''public XmlString xgetName()
-'''
-pass
+    '''    public XmlString xgetName()
+    '''
 def isSetName():
-'''public boolean isSetName()
-'''
-pass
+    '''    public boolean isSetName()
+    '''
 def setName():
-'''public void setName(final String stringValue)
-'''
-pass
+    '''    public void setName(final String stringValue)
+    '''
 def xsetName():
-'''public void xsetName(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetName(final XmlString xmlString)
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getNameU():
-'''public String getNameU()
-'''
-pass
+    '''    public String getNameU()
+    '''
 def xgetNameU():
-'''public XmlString xgetNameU()
-'''
-pass
+    '''    public XmlString xgetNameU()
+    '''
 def isSetNameU():
-'''public boolean isSetNameU()
-'''
-pass
+    '''    public boolean isSetNameU()
+    '''
 def setNameU():
-'''public void setNameU(final String stringValue)
-'''
-pass
+    '''    public void setNameU(final String stringValue)
+    '''
 def xsetNameU():
-'''public void xsetNameU(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetNameU(final XmlString xmlString)
+    '''
 def unsetNameU():
-'''public void unsetNameU()
-'''
-pass
+    '''    public void unsetNameU()
+    '''
 def getIsCustomName():
-'''public boolean getIsCustomName()
-'''
-pass
+    '''    public boolean getIsCustomName()
+    '''
 def xgetIsCustomName():
-'''public XmlBoolean xgetIsCustomName()
-'''
-pass
+    '''    public XmlBoolean xgetIsCustomName()
+    '''
 def isSetIsCustomName():
-'''public boolean isSetIsCustomName()
-'''
-pass
+    '''    public boolean isSetIsCustomName()
+    '''
 def setIsCustomName():
-'''public void setIsCustomName(final boolean booleanValue)
-'''
-pass
+    '''    public void setIsCustomName(final boolean booleanValue)
+    '''
 def xsetIsCustomName():
-'''public void xsetIsCustomName(final XmlBoolean xmlBoolean)
-'''
-pass
+    '''    public void xsetIsCustomName(final XmlBoolean xmlBoolean)
+    '''
 def unsetIsCustomName():
-'''public void unsetIsCustomName()
-'''
-pass
+    '''    public void unsetIsCustomName()
+    '''
 def getIsCustomNameU():
-'''public boolean getIsCustomNameU()
-'''
-pass
+    '''    public boolean getIsCustomNameU()
+    '''
 def xgetIsCustomNameU():
-'''public XmlBoolean xgetIsCustomNameU()
-'''
-pass
+    '''    public XmlBoolean xgetIsCustomNameU()
+    '''
 def isSetIsCustomNameU():
-'''public boolean isSetIsCustomNameU()
-'''
-pass
+    '''    public boolean isSetIsCustomNameU()
+    '''
 def setIsCustomNameU():
-'''public void setIsCustomNameU(final boolean booleanValue)
-'''
-pass
+    '''    public void setIsCustomNameU(final boolean booleanValue)
+    '''
 def xsetIsCustomNameU():
-'''public void xsetIsCustomNameU(final XmlBoolean xmlBoolean)
-'''
-pass
+    '''    public void xsetIsCustomNameU(final XmlBoolean xmlBoolean)
+    '''
 def unsetIsCustomNameU():
-'''public void unsetIsCustomNameU()
-'''
-pass
+    '''    public void unsetIsCustomNameU()
+    '''

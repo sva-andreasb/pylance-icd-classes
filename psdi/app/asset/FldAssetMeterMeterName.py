@@ -1,8 +1,6 @@
 def FldAssetMeterMeterName():
-'''public FldAssetMeterMeterName(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetMeterMeterName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

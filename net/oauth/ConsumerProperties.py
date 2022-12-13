@@ -1,17 +1,13 @@
 def getResource():
-'''public static URL getResource(final String name, final ClassLoader loader)
-'''
-pass
+    '''    public static URL getResource(final String name, final ClassLoader loader)
+    '''
 def getProperties():
-'''public static Properties getProperties(final URL source)
-'''
-pass
+    '''    public static Properties getProperties(final URL source)
+    '''
 def ConsumerProperties():
-'''public ConsumerProperties(final String resourceName, final ClassLoader loader)
-public ConsumerProperties(final Properties consumerProperties)
-'''
-pass
+    '''    public ConsumerProperties(final String resourceName, final ClassLoader loader)
+    public ConsumerProperties(final Properties consumerProperties)
+    '''
 def getConsumer():
-'''public OAuthConsumer getConsumer(final String name)
-'''
-pass
+    '''    public OAuthConsumer getConsumer(final String name)
+    '''

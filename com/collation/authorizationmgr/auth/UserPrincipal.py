@@ -1,21 +1,16 @@
 def UserPrincipal():
-'''public UserPrincipal(final String name)
-public UserPrincipal(final Principal principal)
-'''
-pass
+    '''    public UserPrincipal(final String name)
+    public UserPrincipal(final Principal principal)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

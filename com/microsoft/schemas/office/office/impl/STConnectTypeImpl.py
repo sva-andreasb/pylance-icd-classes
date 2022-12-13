@@ -1,4 +1,3 @@
 def STConnectTypeImpl():
-'''public STConnectTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public STConnectTypeImpl(final SchemaType schemaType)
+    '''

@@ -1,48 +1,36 @@
 def AbstractReplacementValue():
-'''public AbstractReplacementValue(final String id, final String columnName, final boolean shouldEnforce)
-'''
-pass
+    '''    public AbstractReplacementValue(final String id, final String columnName, final boolean shouldEnforce)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def isInvalidReplacement():
-'''public boolean isInvalidReplacement()
-'''
-pass
+    '''    public boolean isInvalidReplacement()
+    '''
 def isSelectionReplacement():
-'''public boolean isSelectionReplacement()
-'''
-pass
+    '''    public boolean isSelectionReplacement()
+    '''
 def isFreeTextReplacement():
-'''public boolean isFreeTextReplacement()
-'''
-pass
+    '''    public boolean isFreeTextReplacement()
+    '''
 def getColumnName():
-'''public String getColumnName()
-'''
-pass
+    '''    public String getColumnName()
+    '''
 def shouldEnforce():
-'''public boolean shouldEnforce()
-'''
-pass
+    '''    public boolean shouldEnforce()
+    '''
 def setShouldEnforce():
-'''public void setShouldEnforce(final boolean shouldEnforce)
-'''
-pass
+    '''    public void setShouldEnforce(final boolean shouldEnforce)
+    '''
 def getValues():
-'''public List<String> getValues()
-'''
-pass
+    '''    public List<String> getValues()
+    '''
 def addValue():
-'''public void addValue(final String value)
-'''
-pass
+    '''    public void addValue(final String value)
+    '''
 def addValues():
-'''public void addValues(final Collection<String> newValues)
-'''
-pass
+    '''    public void addValues(final Collection<String> newValues)
+    '''

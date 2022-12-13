@@ -1,24 +1,18 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getTestSet():
-'''public boolean getTestSet()
-'''
-pass
+    '''    public boolean getTestSet()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getFlags():
-'''public Flags getFlags()
-'''
-pass
+    '''    public Flags getFlags()
+    '''
 def FlagTerm():
-'''public FlagTerm(final Flags flags, final boolean set)
-'''
-pass
+    '''    public FlagTerm(final Flags flags, final boolean set)
+    '''
 def match():
-'''public boolean match(final Message msg)
-'''
-pass
+    '''    public boolean match(final Message msg)
+    '''

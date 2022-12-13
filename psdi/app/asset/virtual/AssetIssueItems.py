@@ -1,8 +1,6 @@
 def AssetIssueItems():
-'''public AssetIssueItems(final MboSet ms)
-'''
-pass
+    '''    public AssetIssueItems(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

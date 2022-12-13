@@ -1,20 +1,15 @@
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def needsRendering():
-'''public boolean needsRendering()
-'''
-pass
+    '''    public boolean needsRendering()
+    '''
 def setNeedsToBeRendered():
-'''public void setNeedsToBeRendered(final boolean needs)
-'''
-pass
+    '''    public void setNeedsToBeRendered(final boolean needs)
+    '''
 def createRenderId():
-'''public String createRenderId(final String id, final PageInstance page)
-'''
-pass
+    '''    public String createRenderId(final String id, final PageInstance page)
+    '''

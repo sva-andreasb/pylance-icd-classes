@@ -1,28 +1,21 @@
 def ImageLoaderFactoryRawCCITTFax():
-'''public ImageLoaderFactoryRawCCITTFax()
-'''
-pass
+    '''    public ImageLoaderFactoryRawCCITTFax()
+    '''
 def getMimeForRawFlavor():
-'''public static String getMimeForRawFlavor(final ImageFlavor flavor)
-'''
-pass
+    '''    public static String getMimeForRawFlavor(final ImageFlavor flavor)
+    '''
 def getSupportedMIMETypes():
-'''public String[] getSupportedMIMETypes()
-'''
-pass
+    '''    public String[] getSupportedMIMETypes()
+    '''
 def getSupportedFlavors():
-'''public ImageFlavor[] getSupportedFlavors(final String mime)
-'''
-pass
+    '''    public ImageFlavor[] getSupportedFlavors(final String mime)
+    '''
 def newImageLoader():
-'''public ImageLoader newImageLoader(final ImageFlavor targetFlavor)
-'''
-pass
+    '''    public ImageLoader newImageLoader(final ImageFlavor targetFlavor)
+    '''
 def isAvailable():
-'''public boolean isAvailable()
-'''
-pass
+    '''    public boolean isAvailable()
+    '''
 def isSupported():
-'''public boolean isSupported(final ImageInfo imageInfo)
-'''
-pass
+    '''    public boolean isSupported(final ImageInfo imageInfo)
+    '''

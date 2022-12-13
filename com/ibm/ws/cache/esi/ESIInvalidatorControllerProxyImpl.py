@@ -1,28 +1,21 @@
 def ESIInvalidatorControllerProxyImpl():
-'''public ESIInvalidatorControllerProxyImpl()
-'''
-pass
+    '''    public ESIInvalidatorControllerProxyImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def send():
-'''public void send(final String command)
-'''
-pass
+    '''    public void send(final String command)
+    '''
 def flow():
-'''public String flow(final String command)
-'''
-pass
+    '''    public String flow(final String command)
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def getId():
-'''public static String getId()
-'''
-pass
+    '''    public static String getId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

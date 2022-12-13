@@ -1,16 +1,12 @@
 def getInstance():
-'''public static final ClassstructureCache getInstance()
-'''
-pass
+    '''    public static final ClassstructureCache getInstance()
+    '''
 def getDescForClassstructureId():
-'''public String getDescForClassstructureId(final String classstructureid, final UserInfo userInfo)
-'''
-pass
+    '''    public String getDescForClassstructureId(final String classstructureid, final UserInfo userInfo)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def processAPIRequest():
-'''public void processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)
-'''
-pass
+    '''    public void processAPIRequest(final String key, final UserInfo userInfo, final JSONObject jo)
+    '''

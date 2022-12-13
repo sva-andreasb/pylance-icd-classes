@@ -1,13 +1,10 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def publishGoalsBreadown():
-'''public void publishGoalsBreadown()
-'''
-pass
+    '''    public void publishGoalsBreadown()
+    '''
 def publishGoalsValues():
-'''public void publishGoalsValues()
-'''
-pass
+    '''    public void publishGoalsValues()
+    '''
 def publishGoalBounds():
-'''public void publishGoalBounds()
-'''
-pass
+    '''    public void publishGoalBounds()
+    '''

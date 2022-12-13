@@ -1,4 +1,3 @@
 def PlusPViewMeterReadingsSet():
-'''public PlusPViewMeterReadingsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPViewMeterReadingsSet(final MboServerInterface ms)
+    '''

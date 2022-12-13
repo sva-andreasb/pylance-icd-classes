@@ -1,21 +1,16 @@
 def RepositoryID():
-'''public RepositoryID()
-public RepositoryID(final String id)
-'''
-pass
+    '''    public RepositoryID()
+    public RepositoryID(final String id)
+    '''
 def ID():
-'''public String ID()
-'''
-pass
+    '''    public String ID()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hasValidForm():
-'''public static boolean hasValidForm(final String s)
-'''
-pass
+    '''    public static boolean hasValidForm(final String s)
+    '''

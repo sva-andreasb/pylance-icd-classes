@@ -1,73 +1,55 @@
 def AmazonServiceException():
-'''public AmazonServiceException(final String errorMessage)
-public AmazonServiceException(final String errorMessage, final Exception cause)
-'''
-pass
+    '''    public AmazonServiceException(final String errorMessage)
+    public AmazonServiceException(final String errorMessage, final Exception cause)
+    '''
 def setRequestId():
-'''public void setRequestId(final String requestId)
-'''
-pass
+    '''    public void setRequestId(final String requestId)
+    '''
 def getRequestId():
-'''public String getRequestId()
-'''
-pass
+    '''    public String getRequestId()
+    '''
 def setServiceName():
-'''public void setServiceName(final String serviceName)
-'''
-pass
+    '''    public void setServiceName(final String serviceName)
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def setErrorCode():
-'''public void setErrorCode(final String errorCode)
-'''
-pass
+    '''    public void setErrorCode(final String errorCode)
+    '''
 def getErrorCode():
-'''public String getErrorCode()
-'''
-pass
+    '''    public String getErrorCode()
+    '''
 def setErrorType():
-'''public void setErrorType(final ErrorType errorType)
-'''
-pass
+    '''    public void setErrorType(final ErrorType errorType)
+    '''
 def getErrorType():
-'''public ErrorType getErrorType()
-'''
-pass
+    '''    public ErrorType getErrorType()
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def setErrorMessage():
-'''public void setErrorMessage(final String value)
-'''
-pass
+    '''    public void setErrorMessage(final String value)
+    '''
 def setStatusCode():
-'''public void setStatusCode(final int statusCode)
-'''
-pass
+    '''    public void setStatusCode(final int statusCode)
+    '''
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getRawResponseContent():
-'''public String getRawResponseContent()
-'''
-pass
+    '''    public String getRawResponseContent()
+    '''
 def setRawResponseContent():
-'''public void setRawResponseContent(final String rawResponseContent)
-'''
-pass
+    '''    public void setRawResponseContent(final String rawResponseContent)
+    '''
 def getRawResponse():
-'''public byte[] getRawResponse()
-'''
-pass
+    '''    public byte[] getRawResponse()
+    '''
 def setRawResponse():
-'''public void setRawResponse(final byte[] rawResponse)
-'''
-pass
+    '''    public void setRawResponse(final byte[] rawResponse)
+    '''

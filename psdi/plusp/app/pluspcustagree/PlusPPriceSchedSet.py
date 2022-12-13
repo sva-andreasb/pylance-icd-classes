@@ -1,22 +1,17 @@
 def PlusPPriceSchedSet():
-'''public PlusPPriceSchedSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPPriceSchedSet(final MboServerInterface mboServerInterface)
+    '''
 def apply():
-'''public String[] apply(final MboRemote mboRemote)
-public String[] apply(final MboRemote mboRemote, final MboRemote mboRemote2)
-public String[] apply(final MboRemote mboRemote, final MboRemote mr, final MboRemote mboRemote2)
-'''
-pass
+    '''    public String[] apply(final MboRemote mboRemote)
+    public String[] apply(final MboRemote mboRemote, final MboRemote mboRemote2)
+    public String[] apply(final MboRemote mboRemote, final MboRemote mr, final MboRemote mboRemote2)
+    '''
 def changeStatus():
-'''public void changeStatus(final String s, final Date date, final String s2, final long n)
-'''
-pass
+    '''    public void changeStatus(final String s, final Date date, final String s2, final long n)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def getWhereClause():
-'''public String getWhereClause(final MboRemote mboRemote)
-'''
-pass
+    '''    public String getWhereClause(final MboRemote mboRemote)
+    '''

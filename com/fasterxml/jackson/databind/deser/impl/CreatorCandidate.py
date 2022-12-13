@@ -1,52 +1,39 @@
 def construct():
-'''public static CreatorCandidate construct(final AnnotationIntrospector intr, final AnnotatedWithParams creator, final BeanPropertyDefinition[] propDefs)
-'''
-pass
+    '''    public static CreatorCandidate construct(final AnnotationIntrospector intr, final AnnotatedWithParams creator, final BeanPropertyDefinition[] propDefs)
+    '''
 def creator():
-'''public AnnotatedWithParams creator()
-'''
-pass
+    '''    public AnnotatedWithParams creator()
+    '''
 def paramCount():
-'''public int paramCount()
-'''
-pass
+    '''    public int paramCount()
+    '''
 def parameter():
-'''public AnnotatedParameter parameter(final int i)
-'''
-pass
+    '''    public AnnotatedParameter parameter(final int i)
+    '''
 def propertyDef():
-'''public BeanPropertyDefinition propertyDef(final int i)
-'''
-pass
+    '''    public BeanPropertyDefinition propertyDef(final int i)
+    '''
 def paramName():
-'''public PropertyName paramName(final int i)
-'''
-pass
+    '''    public PropertyName paramName(final int i)
+    '''
 def explicitParamName():
-'''public PropertyName explicitParamName(final int i)
-'''
-pass
+    '''    public PropertyName explicitParamName(final int i)
+    '''
 def findImplicitParamName():
-'''public PropertyName findImplicitParamName(final int i)
-'''
-pass
+    '''    public PropertyName findImplicitParamName(final int i)
+    '''
 def findOnlyParamWithoutInjection():
-'''public int findOnlyParamWithoutInjection()
-'''
-pass
+    '''    public int findOnlyParamWithoutInjection()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Param():
-'''public Param(final AnnotatedParameter p, final BeanPropertyDefinition pd, final JacksonInject.Value i)
-'''
-pass
+    '''    public Param(final AnnotatedParameter p, final BeanPropertyDefinition pd, final JacksonInject.Value i)
+    '''
 def fullName():
-'''public PropertyName fullName()
-'''
-pass
+    '''    public PropertyName fullName()
+    '''
 def hasFullName():
-'''public boolean hasFullName()
-'''
-pass
+    '''    public boolean hasFullName()
+    '''

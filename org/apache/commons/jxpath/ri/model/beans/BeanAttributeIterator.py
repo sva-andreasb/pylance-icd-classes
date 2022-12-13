@@ -1,16 +1,12 @@
 def BeanAttributeIterator():
-'''public BeanAttributeIterator(final PropertyOwnerPointer parent, final QName name)
-'''
-pass
+    '''    public BeanAttributeIterator(final PropertyOwnerPointer parent, final QName name)
+    '''
 def getNodePointer():
-'''public NodePointer getNodePointer()
-'''
-pass
+    '''    public NodePointer getNodePointer()
+    '''
 def getPosition():
-'''public int getPosition()
-'''
-pass
+    '''    public int getPosition()
+    '''
 def setPosition():
-'''public boolean setPosition(final int position)
-'''
-pass
+    '''    public boolean setPosition(final int position)
+    '''

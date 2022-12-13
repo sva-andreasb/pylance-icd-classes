@@ -1,8 +1,6 @@
 def TAMITAssetSpec():
-'''public TAMITAssetSpec(final MboSet ms)
-'''
-pass
+    '''    public TAMITAssetSpec(final MboSet ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

@@ -1,82 +1,62 @@
 def createMem():
-'''public static ExtHash createMem(final RecordFactory factory, final int bucketSizeBytes)
-'''
-pass
+    '''    public static ExtHash createMem(final RecordFactory factory, final int bucketSizeBytes)
+    '''
 def ExtHash():
-'''public ExtHash(final PlainFile dictionaryBackingFile, final RecordFactory recordFactory, final BlockMgr blockMgrHashBuckets)
-'''
-pass
+    '''    public ExtHash(final PlainFile dictionaryBackingFile, final RecordFactory recordFactory, final BlockMgr blockMgrHashBuckets)
+    '''
 def dictionarySize():
-'''public final int dictionarySize()
-'''
-pass
+    '''    public final int dictionarySize()
+    '''
 def contains():
-'''public boolean contains(final Record key)
-'''
-pass
+    '''    public boolean contains(final Record key)
+    '''
 def find():
-'''public Record find(final Record key)
-'''
-pass
+    '''    public Record find(final Record key)
+    '''
 def add():
-'''public boolean add(final Record record)
-'''
-pass
+    '''    public boolean add(final Record record)
+    '''
 def delete():
-'''public boolean delete(final Record record)
-'''
-pass
+    '''    public boolean delete(final Record record)
+    '''
 def getRecordFactory():
-'''public RecordFactory getRecordFactory()
-'''
-pass
+    '''    public RecordFactory getRecordFactory()
+    '''
 def iterator():
-'''public Iterator<Record> iterator()
-'''
-pass
+    '''    public Iterator<Record> iterator()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''
 def count():
-'''public long count()
-'''
-pass
+    '''    public long count()
+    '''
 def sync():
-'''public void sync()
-public void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public void sync(final boolean force)
+    '''
 def sessionTripleCount():
-'''public long sessionTripleCount()
-'''
-pass
+    '''    public long sessionTripleCount()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def dump():
-'''public void dump()
-'''
-pass
+    '''    public void dump()
+    '''
 def check():
-'''public void check()
-'''
-pass
+    '''    public void check()
+    '''
 def hashCode():
-'''public final int hashCode(final byte[] key)
-public final int hashCode(final byte[] key)
-'''
-pass
+    '''    public final int hashCode(final byte[] key)
+    public final int hashCode(final byte[] key)
+    '''

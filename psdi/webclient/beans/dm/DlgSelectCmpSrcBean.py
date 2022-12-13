@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''

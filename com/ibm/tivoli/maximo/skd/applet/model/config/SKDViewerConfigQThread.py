@@ -1,24 +1,18 @@
 def SKDViewerConfigQThread():
-'''public SKDViewerConfigQThread()
-'''
-pass
+    '''    public SKDViewerConfigQThread()
+    '''
 def setConfigChangesSender():
-'''public void setConfigChangesSender(final ConfigChangesSender configChangesSender)
-'''
-pass
+    '''    public void setConfigChangesSender(final ConfigChangesSender configChangesSender)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def setConfigChanges():
-'''public void setConfigChanges(final GanttConfigChanges configChanges)
-'''
-pass
+    '''    public void setConfigChanges(final GanttConfigChanges configChanges)
+    '''
 def hasConfigChanges():
-'''public boolean hasConfigChanges()
-'''
-pass
+    '''    public boolean hasConfigChanges()
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''

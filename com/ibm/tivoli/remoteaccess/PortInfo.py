@@ -1,20 +1,15 @@
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getAddress():
-'''public String getAddress()
-'''
-pass
+    '''    public String getAddress()
+    '''
 def getState():
-'''public SocketState getState()
-'''
-pass
+    '''    public SocketState getState()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def getRemoteAddress():
-'''public String getRemoteAddress()
-'''
-pass
+    '''    public String getRemoteAddress()
+    '''

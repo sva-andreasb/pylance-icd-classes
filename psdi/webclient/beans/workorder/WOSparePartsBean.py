@@ -1,4 +1,3 @@
 def setApp():
-'''public void setApp(final String appName)
-'''
-pass
+    '''    public void setApp(final String appName)
+    '''

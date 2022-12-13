@@ -1,8 +1,6 @@
 def DiscoveryCronParamSet():
-'''public DiscoveryCronParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DiscoveryCronParamSet(final MboServerInterface ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

@@ -1,4 +1,3 @@
 def FldMultiLRM():
-'''public FldMultiLRM(final MboValue mbv)
-'''
-pass
+    '''    public FldMultiLRM(final MboValue mbv)
+    '''

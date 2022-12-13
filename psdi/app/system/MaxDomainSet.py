@@ -1,8 +1,6 @@
 def MaxDomainSet():
-'''public MaxDomainSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxDomainSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

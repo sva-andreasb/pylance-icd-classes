@@ -1,4 +1,3 @@
 def BIMConfigurationSet():
-'''public BIMConfigurationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMConfigurationSet(final MboServerInterface ms)
+    '''

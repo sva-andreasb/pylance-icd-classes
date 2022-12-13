@@ -1,8 +1,6 @@
 def TicketAssetSet():
-'''public TicketAssetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TicketAssetSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

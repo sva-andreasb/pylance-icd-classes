@@ -1,8 +1,6 @@
 def AppDoctype():
-'''public AppDoctype(final MboSet ms)
-'''
-pass
+    '''    public AppDoctype(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

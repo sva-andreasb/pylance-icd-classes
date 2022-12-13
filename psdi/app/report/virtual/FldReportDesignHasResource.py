@@ -1,12 +1,9 @@
 def FldReportDesignHasResource():
-'''public FldReportDesignHasResource(final MboValue mbv)
-'''
-pass
+    '''    public FldReportDesignHasResource(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,16 +1,12 @@
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def distcosts():
-'''public int distcosts()
-'''
-pass
+    '''    public int distcosts()
+    '''
 def venitems():
-'''public int venitems()
-'''
-pass
+    '''    public int venitems()
+    '''
 def contractitems():
-'''public int contractitems()
-'''
-pass
+    '''    public int contractitems()
+    '''

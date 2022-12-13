@@ -1,40 +1,30 @@
 def getPrivateKey():
-'''public PrivateKey getPrivateKey()
-'''
-pass
+    '''    public PrivateKey getPrivateKey()
+    '''
 def setPrivateKey():
-'''public void setPrivateKey(final PrivateKey key)
-'''
-pass
+    '''    public void setPrivateKey(final PrivateKey key)
+    '''
 def getPublicKey():
-'''public PublicKey getPublicKey()
-'''
-pass
+    '''    public PublicKey getPublicKey()
+    '''
 def setPublicKey():
-'''public void setPublicKey(final PublicKey key)
-'''
-pass
+    '''    public void setPublicKey(final PublicKey key)
+    '''
 def isInitialized():
-'''public boolean isInitialized()
-'''
-pass
+    '''    public boolean isInitialized()
+    '''
 def setInitialized():
-'''public void setInitialized(final boolean b)
-'''
-pass
+    '''    public void setInitialized(final boolean b)
+    '''
 def getDefaultApplicationSessionKeys():
-'''public static final ApplicationSessionKeys getDefaultApplicationSessionKeys(final Object key)
-'''
-pass
+    '''    public static final ApplicationSessionKeys getDefaultApplicationSessionKeys(final Object key)
+    '''
 def isValidSessionData():
-'''public static boolean isValidSessionData(final byte[] signedSessionData, final String data)
-'''
-pass
+    '''    public static boolean isValidSessionData(final byte[] signedSessionData, final String data)
+    '''
 def signData():
-'''public byte[] signData(final String data)
-'''
-pass
+    '''    public byte[] signData(final String data)
+    '''
 def verifySignedData():
-'''public boolean verifySignedData(final byte[] signedData, final String data)
-'''
-pass
+    '''    public boolean verifySignedData(final byte[] signedData, final String data)
+    '''

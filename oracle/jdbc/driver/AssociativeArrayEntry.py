@@ -1,24 +1,18 @@
 def AssociativeArrayEntry():
-'''public AssociativeArrayEntry(final K key, final V value)
-'''
-pass
+    '''    public AssociativeArrayEntry(final K key, final V value)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def getKey():
-'''public Object getKey()
-'''
-pass
+    '''    public Object getKey()
+    '''
 def isConvertibleTo():
-'''public boolean isConvertibleTo(final Class clazz)
-'''
-pass
+    '''    public boolean isConvertibleTo(final Class clazz)
+    '''
 def toJdbc():
-'''public Object toJdbc()
-'''
-pass
+    '''    public Object toJdbc()
+    '''
 def makeJdbcArray():
-'''public Object makeJdbcArray(final int n)
-'''
-pass
+    '''    public Object makeJdbcArray(final int n)
+    '''

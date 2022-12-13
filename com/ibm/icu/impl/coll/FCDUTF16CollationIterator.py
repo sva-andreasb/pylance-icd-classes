@@ -1,33 +1,25 @@
 def FCDUTF16CollationIterator():
-'''public FCDUTF16CollationIterator(final CollationData d)
-public FCDUTF16CollationIterator(final CollationData data, final boolean numeric, final CharSequence s, final int p)
-'''
-pass
+    '''    public FCDUTF16CollationIterator(final CollationData d)
+    public FCDUTF16CollationIterator(final CollationData data, final boolean numeric, final CharSequence s, final int p)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def resetToOffset():
-'''public void resetToOffset(final int newOffset)
-'''
-pass
+    '''    public void resetToOffset(final int newOffset)
+    '''
 def getOffset():
-'''public int getOffset()
-'''
-pass
+    '''    public int getOffset()
+    '''
 def setText():
-'''public void setText(final boolean numeric, final CharSequence s, final int p)
-'''
-pass
+    '''    public void setText(final boolean numeric, final CharSequence s, final int p)
+    '''
 def nextCodePoint():
-'''public int nextCodePoint()
-'''
-pass
+    '''    public int nextCodePoint()
+    '''
 def previousCodePoint():
-'''public int previousCodePoint()
-'''
-pass
+    '''    public int previousCodePoint()
+    '''

@@ -1,8 +1,6 @@
 def PmTkAffectedPhone():
-'''public PmTkAffectedPhone(final MboValue mbv)
-'''
-pass
+    '''    public PmTkAffectedPhone(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

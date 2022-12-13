@@ -1,959 +1,734 @@
-MULTILANGCOPY = "String  MultiLangCopy""
+MULTILANGCOPY = "String  \"MultiLangCopy\""
 def Mbo():
-'''public Mbo(final MboSet ms)
-'''
-pass
+    '''    public Mbo(final MboSet ms)
+    '''
 def setProxy():
-'''public void setProxy(final Remote proxy)
-'''
-pass
+    '''    public void setProxy(final Remote proxy)
+    '''
 def getProxy():
-'''public Remote getProxy()
-'''
-pass
+    '''    public Remote getProxy()
+    '''
 def getMboRecordData():
-'''public MboRecordData getMboRecordData()
-'''
-pass
+    '''    public MboRecordData getMboRecordData()
+    '''
 def setNewMbo():
-'''public void setNewMbo(final boolean flag)
-'''
-pass
+    '''    public void setNewMbo(final boolean flag)
+    '''
 def getStringInBaseLanguage():
-'''public String getStringInBaseLanguage(final String attributeName)
-'''
-pass
+    '''    public String getStringInBaseLanguage(final String attributeName)
+    '''
 def getString():
-'''public String getString(String attributeName, final String langCode)
-public String getString(final String attributeName)
-'''
-pass
+    '''    public String getString(String attributeName, final String langCode)
+    public String getString(final String attributeName)
+    '''
 def getStringTransparent():
-'''public String getStringTransparent(final String attributeName, final String langCode)
-'''
-pass
+    '''    public String getStringTransparent(final String attributeName, final String langCode)
+    '''
 def setMLValue():
-'''public void setMLValue(final String attributeName, final String langCode, final String value, final long accessModifier)
-'''
-pass
+    '''    public void setMLValue(final String attributeName, final String langCode, final String value, final long accessModifier)
+    '''
 def getRelationshipNameToLangTable():
-'''public String getRelationshipNameToLangTable(final String attributeName)
-'''
-pass
+    '''    public String getRelationshipNameToLangTable(final String attributeName)
+    '''
 def getDatabaseValue():
-'''public Object getDatabaseValue(final String attributeName)
-'''
-pass
+    '''    public Object getDatabaseValue(final String attributeName)
+    '''
 def setFetchIndex():
-'''public void setFetchIndex(final int index)
-'''
-pass
+    '''    public void setFetchIndex(final int index)
+    '''
 def getFetchIndex():
-'''public int getFetchIndex()
-'''
-pass
+    '''    public int getFetchIndex()
+    '''
 def setModified():
-'''public void setModified(final boolean modified)
-'''
-pass
+    '''    public void setModified(final boolean modified)
+    '''
 def setModifiedForIntegrationOnly():
-'''public void setModifiedForIntegrationOnly(final boolean modified)
-'''
-pass
+    '''    public void setModifiedForIntegrationOnly(final boolean modified)
+    '''
 def setDeleted():
-'''public void setDeleted(final boolean deleted)
-'''
-pass
+    '''    public void setDeleted(final boolean deleted)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getRecordMboName():
-'''public String getRecordMboName()
-'''
-pass
+    '''    public String getRecordMboName()
+    '''
 def getOwner():
-'''public MboRemote getOwner()
-'''
-pass
+    '''    public MboRemote getOwner()
+    '''
 def getThisMboSet():
-'''public MboSetRemote getThisMboSet()
-'''
-pass
+    '''    public MboSetRemote getThisMboSet()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def hasUniqueID():
-'''public boolean hasUniqueID()
-'''
-pass
+    '''    public boolean hasUniqueID()
+    '''
 def getUniqueIdentifer():
-'''public String getUniqueIdentifer()
-'''
-pass
+    '''    public String getUniqueIdentifer()
+    '''
 def getLockedByDisplayName():
-'''public String getLockedByDisplayName()
-'''
-pass
+    '''    public String getLockedByDisplayName()
+    '''
 def getLockedByUserID():
-'''public String getLockedByUserID()
-'''
-pass
+    '''    public String getLockedByUserID()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def setReadonlyWhenParentIsReadonly():
-'''public void setReadonlyWhenParentIsReadonly(final String relationshipName, final MboSetRemote mboSet, final boolean flag)
-'''
-pass
+    '''    public void setReadonlyWhenParentIsReadonly(final String relationshipName, final MboSetRemote mboSet, final boolean flag)
+    '''
 def getClientLocale():
-'''public Locale getClientLocale()
-'''
-pass
+    '''    public Locale getClientLocale()
+    '''
 def getClientTimeZone():
-'''public TimeZone getClientTimeZone()
-'''
-pass
+    '''    public TimeZone getClientTimeZone()
+    '''
 def getMboValue():
-'''public MboValue getMboValue(final String nameInput)
-'''
-pass
+    '''    public MboValue getMboValue(final String nameInput)
+    '''
 def moveFieldFlagsToMboValue():
-'''public void moveFieldFlagsToMboValue(final MboValue mv)
-'''
-pass
+    '''    public void moveFieldFlagsToMboValue(final MboValue mv)
+    '''
 def getInstanciatedMboValue():
-'''public MboValue getInstanciatedMboValue(String name)
-'''
-pass
+    '''    public MboValue getInstanciatedMboValue(String name)
+    '''
 def getMboInitialValue():
-'''public MaxType getMboInitialValue(final String name)
-'''
-pass
+    '''    public MaxType getMboInitialValue(final String name)
+    '''
 def getInstanciatedMboSet():
-'''public MboSetRemote getInstanciatedMboSet(final String relationshipName)
-'''
-pass
+    '''    public MboSetRemote getInstanciatedMboSet(final String relationshipName)
+    '''
 def getMboValueData():
-'''public MboValueData getMboValueData(final String attribute)
-public MboValueData getMboValueData(final String attribute, final boolean ignoreFieldFlags)
-public MboValueData[] getMboValueData(final String[] attribute)
-'''
-pass
+    '''    public MboValueData getMboValueData(final String attribute)
+    public MboValueData getMboValueData(final String attribute, final boolean ignoreFieldFlags)
+    public MboValueData[] getMboValueData(final String[] attribute)
+    '''
 def getMboValueDataForDownload():
-'''public MboValueData[] getMboValueDataForDownload(final String[] attribute)
-'''
-pass
+    '''    public MboValueData[] getMboValueDataForDownload(final String[] attribute)
+    '''
 def getMboData():
-'''public MboData getMboData(final String[] attributes)
-'''
-pass
+    '''    public MboData getMboData(final String[] attributes)
+    '''
 def getMboValueInfoStatic():
-'''public MboValueInfoStatic getMboValueInfoStatic(final String attribute)
-public MboValueInfoStatic[] getMboValueInfoStatic(final String[] attribute)
-'''
-pass
+    '''    public MboValueInfoStatic getMboValueInfoStatic(final String attribute)
+    public MboValueInfoStatic[] getMboValueInfoStatic(final String[] attribute)
+    '''
 def getMboForAttribute():
-'''public MboRemote getMboForAttribute(final String attributeName)
-'''
-pass
+    '''    public MboRemote getMboForAttribute(final String attributeName)
+    '''
 def getMboForAttributeStatic():
-'''public MboRemote getMboForAttributeStatic(final String attributeName)
-'''
-pass
+    '''    public MboRemote getMboForAttributeStatic(final String attributeName)
+    '''
 def getList():
-'''public MboSetRemote getList(final String attribute)
-'''
-pass
+    '''    public MboSetRemote getList(final String attribute)
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String attribute, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String attribute, final String value, final boolean exact)
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String attribute, final String value, final boolean exact, final boolean isRecordHover)
-public MboSetRemote smartFind(final String attribute, final String value, final boolean exact)
-public MboSetRemote smartFind(final String appName, final String attribute, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String attribute, final String value, final boolean exact, final boolean isRecordHover)
+    public MboSetRemote smartFind(final String attribute, final String value, final boolean exact)
+    public MboSetRemote smartFind(final String appName, final String attribute, final String value, final boolean exact)
+    '''
 def smartFindByObjectName():
-'''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact, final String[][] cachedKeyMap)
-public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact, final String[][] cachedKeyMap)
+    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''
 def smartFindByObjectNameDirect():
-'''public MboSetRemote smartFindByObjectNameDirect(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindByObjectNameDirect(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''
 def getBoolean():
-'''public boolean getBoolean(final String attributeName)
-'''
-pass
+    '''    public boolean getBoolean(final String attributeName)
+    '''
 def getByte():
-'''public byte getByte(final String attributeName)
-'''
-pass
+    '''    public byte getByte(final String attributeName)
+    '''
 def getInt():
-'''public int getInt(final String attributeName)
-'''
-pass
+    '''    public int getInt(final String attributeName)
+    '''
 def getLong():
-'''public long getLong(final String attributeName)
-'''
-pass
+    '''    public long getLong(final String attributeName)
+    '''
 def getFloat():
-'''public float getFloat(final String attributeName)
-'''
-pass
+    '''    public float getFloat(final String attributeName)
+    '''
 def getDouble():
-'''public double getDouble(final String attributeName)
-'''
-pass
+    '''    public double getDouble(final String attributeName)
+    '''
 def getDate():
-'''public Date getDate(final String attributeName)
-'''
-pass
+    '''    public Date getDate(final String attributeName)
+    '''
 def getBytes():
-'''public byte[] getBytes(final String attributeName)
-'''
-pass
+    '''    public byte[] getBytes(final String attributeName)
+    '''
 def setValue():
-'''public void setValue(final String attributeName, final String val, final long accessModifier)
-public void setValue(final String attributeName, final MaxType mboValue, final long accessModifier)
-public void setValue(final String attributeName, final String val)
-public void setValue(final String attributeName, final boolean val)
-public void setValue(final String attributeName, final boolean val, final long accessModifier)
-public void setValue(final String attributeName, final byte val)
-public void setValue(final String attributeName, final byte val, final long accessModifier)
-public void setValue(final String attributeName, final int val)
-public void setValue(final String attributeName, final int val, final long accessModifier)
-public void setValue(final String attributeName, final float val)
-public void setValue(final String attributeName, final float val, final long accessModifier)
-public void setValue(final String attributeName, final byte[] val)
-public void setValue(final String attributeName, final byte[] val, final long accessModifier)
-public void setValue(final String attributeName, final Date val)
-public void setValue(final String attributeName, final Date val, final long accessModifier)
-public void setValue(final String attributeName, final short val)
-public void setValue(final String attributeName, final short val, final long accessModifier)
-public void setValue(final String attributeName, final long val)
-public void setValue(final String attributeName, final long val, final long accessModifier)
-public void setValue(final String attributeName, final double val)
-public void setValue(final String attributeName, final double val, final long accessModifier)
-public void setValue(final String targetAttrName, final MboRemote sourceMbo)
-public void setValue(final String targetAttrName, final MboSetRemote sourceMboSet)
-'''
-pass
+    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    public void setValue(final String attributeName, final MaxType mboValue, final long accessModifier)
+    public void setValue(final String attributeName, final String val)
+    public void setValue(final String attributeName, final boolean val)
+    public void setValue(final String attributeName, final boolean val, final long accessModifier)
+    public void setValue(final String attributeName, final byte val)
+    public void setValue(final String attributeName, final byte val, final long accessModifier)
+    public void setValue(final String attributeName, final int val)
+    public void setValue(final String attributeName, final int val, final long accessModifier)
+    public void setValue(final String attributeName, final float val)
+    public void setValue(final String attributeName, final float val, final long accessModifier)
+    public void setValue(final String attributeName, final byte[] val)
+    public void setValue(final String attributeName, final byte[] val, final long accessModifier)
+    public void setValue(final String attributeName, final Date val)
+    public void setValue(final String attributeName, final Date val, final long accessModifier)
+    public void setValue(final String attributeName, final short val)
+    public void setValue(final String attributeName, final short val, final long accessModifier)
+    public void setValue(final String attributeName, final long val)
+    public void setValue(final String attributeName, final long val, final long accessModifier)
+    public void setValue(final String attributeName, final double val)
+    public void setValue(final String attributeName, final double val, final long accessModifier)
+    public void setValue(final String targetAttrName, final MboRemote sourceMbo)
+    public void setValue(final String targetAttrName, final MboSetRemote sourceMboSet)
+    '''
 def isNull():
-'''public boolean isNull(final String attributeName)
-'''
-pass
+    '''    public boolean isNull(final String attributeName)
+    '''
 def setValueNull():
-'''public void setValueNull(final String attributeName)
-public void setValueNull(final String attributeName, final long accessModifier)
-'''
-pass
+    '''    public void setValueNull(final String attributeName)
+    public void setValueNull(final String attributeName, final long accessModifier)
+    '''
 def getKeyValue():
-'''public KeyValue getKeyValue()
-'''
-pass
+    '''    public KeyValue getKeyValue()
+    '''
 def getRecordIdentifer():
-'''public String getRecordIdentifer()
-'''
-pass
+    '''    public String getRecordIdentifer()
+    '''
 def isAutoKeyed():
-'''public boolean isAutoKeyed(final String attributeName)
-'''
-pass
+    '''    public boolean isAutoKeyed(final String attributeName)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(String name, final String objectName)
-public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
-public MboSetRemote getMboSet(String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(String name, final String objectName)
+    public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
+    public MboSetRemote getMboSet(String name)
+    '''
 def getMboDataSet():
-'''public Vector<MboRemote> getMboDataSet(final String relationship)
-'''
-pass
+    '''    public Vector<MboRemote> getMboDataSet(final String relationship)
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def isZombie():
-'''public boolean isZombie()
-'''
-pass
+    '''    public boolean isZombie()
+    '''
 def setForDM():
-'''public void setForDM(final boolean forDM)
-'''
-pass
+    '''    public void setForDM(final boolean forDM)
+    '''
 def isForDM():
-'''public boolean isForDM()
-'''
-pass
+    '''    public boolean isForDM()
+    '''
 def setTenantIdForNoMboRecordData():
-'''public void setTenantIdForNoMboRecordData(final int tenantId)
-'''
-pass
+    '''    public void setTenantIdForNoMboRecordData(final int tenantId)
+    '''
 def getTenantIdForNoMboRecordData():
-'''public int getTenantIdForNoMboRecordData()
-'''
-pass
+    '''    public int getTenantIdForNoMboRecordData()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-public void delete()
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    public void delete()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def toBeDeleted():
-'''public boolean toBeDeleted()
-'''
-pass
+    '''    public boolean toBeDeleted()
+    '''
 def toBeAdded():
-'''public boolean toBeAdded()
-'''
-pass
+    '''    public boolean toBeAdded()
+    '''
 def isNew():
-'''public boolean isNew()
-'''
-pass
+    '''    public boolean isNew()
+    '''
 def toBeUpdated():
-'''public boolean toBeUpdated()
-'''
-pass
+    '''    public boolean toBeUpdated()
+    '''
 def thisToBeUpdated():
-'''public boolean thisToBeUpdated()
-'''
-pass
+    '''    public boolean thisToBeUpdated()
+    '''
 def isModified():
-'''public boolean isModified()
-public boolean isModified(final String attribute)
-'''
-pass
+    '''    public boolean isModified()
+    public boolean isModified(final String attribute)
+    '''
 def setESigFieldModified():
-'''public void setESigFieldModified(final boolean eSigFieldModified)
-'''
-pass
+    '''    public void setESigFieldModified(final boolean eSigFieldModified)
+    '''
 def isESigFieldModified():
-'''public boolean isESigFieldModified()
-'''
-pass
+    '''    public boolean isESigFieldModified()
+    '''
 def setEAuditFieldModified():
-'''public void setEAuditFieldModified(final boolean eAuditFieldModified)
-'''
-pass
+    '''    public void setEAuditFieldModified(final boolean eAuditFieldModified)
+    '''
 def isEAuditFieldModified():
-'''public boolean isEAuditFieldModified()
-'''
-pass
+    '''    public boolean isEAuditFieldModified()
+    '''
 def toBeValidated():
-'''public boolean toBeValidated()
-'''
-pass
+    '''    public boolean toBeValidated()
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def isApiBatchError():
-'''public boolean isApiBatchError()
-'''
-pass
+    '''    public boolean isApiBatchError()
+    '''
 def validate():
-'''public final void validate()
-'''
-pass
+    '''    public final void validate()
+    '''
 def checkQualifiedRestriction():
-'''public void checkQualifiedRestriction()
-'''
-pass
+    '''    public void checkQualifiedRestriction()
+    '''
 def orEvaluateConditions():
-'''public boolean orEvaluateConditions(final DataRestrictionCache.RestrictionBundle restrictions)
-'''
-pass
+    '''    public boolean orEvaluateConditions(final DataRestrictionCache.RestrictionBundle restrictions)
+    '''
 def useDataSecurity():
-'''public boolean useDataSecurity(final String group)
-'''
-pass
+    '''    public boolean useDataSecurity(final String group)
+    '''
 def andEvaluateConditions():
-'''public boolean andEvaluateConditions(final DataRestrictionCache.RestrictionBundle restrictions)
-'''
-pass
+    '''    public boolean andEvaluateConditions(final DataRestrictionCache.RestrictionBundle restrictions)
+    '''
 def validateAttributes():
-'''public Hashtable<String, Exception> validateAttributes()
-'''
-pass
+    '''    public Hashtable<String, Exception> validateAttributes()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def getInsertItemSetId():
-'''public String getInsertItemSetId()
-'''
-pass
+    '''    public String getInsertItemSetId()
+    '''
 def getInsertCompanySetId():
-'''public String getInsertCompanySetId()
-'''
-pass
+    '''    public String getInsertCompanySetId()
+    '''
 def getInsertSite():
-'''public String getInsertSite()
-'''
-pass
+    '''    public String getInsertSite()
+    '''
 def getInsertOrgForSite():
-'''public String getInsertOrgForSite(final String site)
-'''
-pass
+    '''    public String getInsertOrgForSite(final String site)
+    '''
 def getInsertOrganization():
-'''public String getInsertOrganization()
-'''
-pass
+    '''    public String getInsertOrganization()
+    '''
 def getOrgSiteForMaxvar():
-'''public String getOrgSiteForMaxvar(final String maxvarName)
-'''
-pass
+    '''    public String getOrgSiteForMaxvar(final String maxvarName)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def valueChanged():
-'''public void valueChanged()
-'''
-pass
+    '''    public void valueChanged()
+    '''
 def getMboServer():
-'''public MboServerInterface getMboServer()
-'''
-pass
+    '''    public MboServerInterface getMboServer()
+    '''
 def getMboSetInfo():
-'''public MboSetInfo getMboSetInfo(final String mboName)
-'''
-pass
+    '''    public MboSetInfo getMboSetInfo(final String mboName)
+    '''
 def getTranslator():
-'''public Translate getTranslator()
-'''
-pass
+    '''    public Translate getTranslator()
+    '''
 def setFlags():
-'''public void setFlags(final long flags)
-'''
-pass
+    '''    public void setFlags(final long flags)
+    '''
 def getFlags():
-'''public long getFlags()
-'''
-pass
+    '''    public long getFlags()
+    '''
 def setFlag():
-'''public void setFlag(final long flag, final boolean state)
-public void setFlag(final long flag, final boolean state, final MXException mxe)
-'''
-pass
+    '''    public void setFlag(final long flag, final boolean state)
+    public void setFlag(final long flag, final boolean state, final MXException mxe)
+    '''
 def isFlagSet():
-'''public boolean isFlagSet(final long flag)
-'''
-pass
+    '''    public boolean isFlagSet(final long flag)
+    '''
 def evaluateRestriction():
-'''public boolean evaluateRestriction(final DataRestriction restriction)
-'''
-pass
+    '''    public boolean evaluateRestriction(final DataRestriction restriction)
+    '''
 def getAttrRestrictionFlag():
-'''public BitFlag getAttrRestrictionFlag(final String attr)
-'''
-pass
+    '''    public BitFlag getAttrRestrictionFlag(final String attr)
+    '''
 def getRowRestrictionFlag():
-'''public BitFlag getRowRestrictionFlag()
-'''
-pass
+    '''    public BitFlag getRowRestrictionFlag()
+    '''
 def getFieldExceptions():
-'''public Hashtable<String, MXException> getFieldExceptions()
-'''
-pass
+    '''    public Hashtable<String, MXException> getFieldExceptions()
+    '''
 def setFieldFlags():
-'''public void setFieldFlags(final String name, final long flags)
-'''
-pass
+    '''    public void setFieldFlags(final String name, final long flags)
+    '''
 def setFieldFlag():
-'''public void setFieldFlag(final String name, final long flag, final boolean state)
-public void setFieldFlag(String name, final long flag, final boolean state, final MXException mxe)
-public void setFieldFlag(final String[] names, final long flag, final boolean state)
-public void setFieldFlag(final String[] names, final long flag, final boolean state, final MXException mxe)
-public void setFieldFlag(final String[] names, final boolean inclusive, final long flag, final boolean state)
-public void setFieldFlag(final String[] names, final boolean inclusive, final long flag, final boolean state, final MXException mxe)
-'''
-pass
+    '''    public void setFieldFlag(final String name, final long flag, final boolean state)
+    public void setFieldFlag(String name, final long flag, final boolean state, final MXException mxe)
+    public void setFieldFlag(final String[] names, final long flag, final boolean state)
+    public void setFieldFlag(final String[] names, final long flag, final boolean state, final MXException mxe)
+    public void setFieldFlag(final String[] names, final boolean inclusive, final long flag, final boolean state)
+    public void setFieldFlag(final String[] names, final boolean inclusive, final long flag, final boolean state, final MXException mxe)
+    '''
 def checkFieldAccess():
-'''public void checkFieldAccess(final long accessModifier)
-'''
-pass
+    '''    public void checkFieldAccess(final long accessModifier)
+    '''
 def hasFieldAccess():
-'''public boolean hasFieldAccess(final long accessModifier)
-'''
-pass
+    '''    public boolean hasFieldAccess(final long accessModifier)
+    '''
 def enableMethod():
-'''public void enableMethod(final String methodName, final boolean state)
-'''
-pass
+    '''    public void enableMethod(final String methodName, final boolean state)
+    '''
 def checkMethodAccess():
-'''public void checkMethodAccess(final String methodName, final long accessModifier)
-public final void checkMethodAccess(final String methodName)
-'''
-pass
+    '''    public void checkMethodAccess(final String methodName, final long accessModifier)
+    public final void checkMethodAccess(final String methodName)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def fireEvent():
-'''public void fireEvent(final String type)
-'''
-pass
+    '''    public void fireEvent(final String type)
+    '''
 def getProfile():
-'''public ProfileRemote getProfile()
-'''
-pass
+    '''    public ProfileRemote getProfile()
+    '''
 def copy():
-'''public MboRemote copy()
-public MboRemote copy(final MboSetRemote mboset)
-public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
-'''
-pass
+    '''    public MboRemote copy()
+    public MboRemote copy(final MboSetRemote mboset)
+    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''
 def copyFake():
-'''public MboRemote copyFake(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copyFake(final MboSetRemote mboset)
+    '''
 def setAutokeyFields():
-'''public void setAutokeyFields()
-'''
-pass
+    '''    public void setAutokeyFields()
+    '''
 def blindCopy():
-'''public MboRemote blindCopy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote blindCopy(final MboSetRemote mboset)
+    '''
 def isSkipCopyField():
-'''public boolean isSkipCopyField(final MboValueInfo mvi)
-'''
-pass
+    '''    public boolean isSkipCopyField(final MboValueInfo mvi)
+    '''
 def setCopyDefaults():
-'''public void setCopyDefaults()
-'''
-pass
+    '''    public void setCopyDefaults()
+    '''
 def getMXTransaction():
-'''public MXTransaction getMXTransaction()
-'''
-pass
+    '''    public MXTransaction getMXTransaction()
+    '''
 def getRelatedWhere():
-'''public String getRelatedWhere()
-public String getRelatedWhere(final String alias)
-'''
-pass
+    '''    public String getRelatedWhere()
+    public String getRelatedWhere(final String alias)
+    '''
 def hasRelatedQbe():
-'''public boolean hasRelatedQbe()
-'''
-pass
+    '''    public boolean hasRelatedQbe()
+    '''
 def getIntegrationService():
-'''public ServiceRemote getIntegrationService()
-'''
-pass
+    '''    public ServiceRemote getIntegrationService()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def getCheckpoint():
-'''public boolean getCheckpoint()
-'''
-pass
+    '''    public boolean getCheckpoint()
+    '''
 def startCheckpoint():
-'''public void startCheckpoint()
-'''
-pass
+    '''    public void startCheckpoint()
+    '''
 def rollbackToCheckpoint():
-'''public void rollbackToCheckpoint()
-'''
-pass
+    '''    public void rollbackToCheckpoint()
+    '''
 def select():
-'''public void select()
-'''
-pass
+    '''    public void select()
+    '''
 def unselect():
-'''public void unselect()
-'''
-pass
+    '''    public void unselect()
+    '''
 def isSelected():
-'''public boolean isSelected()
-'''
-pass
+    '''    public boolean isSelected()
+    '''
 def copyValue():
-'''public void copyValue(final MboRemote sourceMbo, final String attrSource, final String attrTarget, final long flags)
-public void copyValue(final MboRemote sourceMbo, final String[] attrSource, final String[] attrTarget, final long flags)
-'''
-pass
+    '''    public void copyValue(final MboRemote sourceMbo, final String attrSource, final String attrTarget, final long flags)
+    public void copyValue(final MboRemote sourceMbo, final String[] attrSource, final String[] attrTarget, final long flags)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def setPropagateKeyFlag():
-'''public void setPropagateKeyFlag(final boolean flag)
-public void setPropagateKeyFlag(final String[] objectName, final boolean flag)
-'''
-pass
+    '''    public void setPropagateKeyFlag(final boolean flag)
+    public void setPropagateKeyFlag(final String[] objectName, final boolean flag)
+    '''
 def excludeObjectForPropagate():
-'''public boolean excludeObjectForPropagate(final String name)
-'''
-pass
+    '''    public boolean excludeObjectForPropagate(final String name)
+    '''
 def getPropagateKeyFlag():
-'''public boolean getPropagateKeyFlag()
-'''
-pass
+    '''    public boolean getPropagateKeyFlag()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def setHierarchyLink():
-'''public void setHierarchyLink(final boolean flag)
-'''
-pass
+    '''    public void setHierarchyLink(final boolean flag)
+    '''
 def hasHierarchyLink():
-'''public boolean hasHierarchyLink()
-'''
-pass
+    '''    public boolean hasHierarchyLink()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue()
-'''
-pass
+    '''    public void setDefaultValue()
+    '''
 def setDefaultValues():
-'''public void setDefaultValues()
-'''
-pass
+    '''    public void setDefaultValues()
+    '''
 def setAppDefaultValue():
-'''public void setAppDefaultValue()
-'''
-pass
+    '''    public void setAppDefaultValue()
+    '''
 def isBasedOn():
-'''public boolean isBasedOn(final String objectName)
-'''
-pass
+    '''    public boolean isBasedOn(final String objectName)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getMboLogger():
-'''public MXLogger getMboLogger()
-'''
-pass
+    '''    public MXLogger getMboLogger()
+    '''
 def getSecurityLogger():
-'''public MXLogger getSecurityLogger()
-'''
-pass
+    '''    public MXLogger getSecurityLogger()
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def getOrgForGL():
-'''public String getOrgForGL(final String lookupAttr)
-'''
-pass
+    '''    public String getOrgForGL(final String lookupAttr)
+    '''
 def getSiteOrg():
-'''public String[] getSiteOrg()
-'''
-pass
+    '''    public String[] getSiteOrg()
+    '''
 def setLangCodeDefault():
-'''public final void setLangCodeDefault()
-'''
-pass
+    '''    public final void setLangCodeDefault()
+    '''
 def getUniqueIDName():
-'''public String getUniqueIDName()
-'''
-pass
+    '''    public String getUniqueIDName()
+    '''
 def getUniqueIDValue():
-'''public long getUniqueIDValue()
-'''
-pass
+    '''    public long getUniqueIDValue()
+    '''
 def setUniqueIDValue():
-'''public void setUniqueIDValue()
-'''
-pass
+    '''    public void setUniqueIDValue()
+    '''
 def setValueFromSequence():
-'''public void setValueFromSequence(final String attributeName)
-'''
-pass
+    '''    public void setValueFromSequence(final String attributeName)
+    '''
 def getDocLinksCount():
-'''public int getDocLinksCount()
-'''
-pass
+    '''    public int getDocLinksCount()
+    '''
 def getLinesRelationship():
-'''public String getLinesRelationship()
-'''
-pass
+    '''    public String getLinesRelationship()
+    '''
 def getMessage():
-'''public String getMessage(final String errGrp, final String errKey)
-public String getMessage(final String errGrp, final String errKey, final Object[] params)
-public String getMessage(final String errGrp, final String errKey, final Object param)
-public String getMessage(final MXException ex)
-'''
-pass
+    '''    public String getMessage(final String errGrp, final String errKey)
+    public String getMessage(final String errGrp, final String errKey, final Object[] params)
+    public String getMessage(final String errGrp, final String errKey, final Object param)
+    public String getMessage(final MXException ex)
+    '''
 def getMaxMessage():
-'''public MaxMessage getMaxMessage(final String errGrp, final String errKey)
-'''
-pass
+    '''    public MaxMessage getMaxMessage(final String errGrp, final String errKey)
+    '''
 def createComm():
-'''public MboRemote createComm()
-'''
-pass
+    '''    public MboRemote createComm()
+    '''
 def getMatchingAttr():
-'''public String getMatchingAttr(final String attribute)
-public String getMatchingAttr(final String sourceObjectName, final String attribute)
-'''
-pass
+    '''    public String getMatchingAttr(final String attribute)
+    public String getMatchingAttr(final String sourceObjectName, final String attribute)
+    '''
 def getStringInSpecificLocale():
-'''public String getStringInSpecificLocale(final String attribute, final Locale l, final TimeZone tz)
-'''
-pass
+    '''    public String getStringInSpecificLocale(final String attribute, final Locale l, final TimeZone tz)
+    '''
 def getMatchingAttrs():
-'''public Object[] getMatchingAttrs(final String sourceName, final String targetAttr)
-'''
-pass
+    '''    public Object[] getMatchingAttrs(final String sourceName, final String targetAttr)
+    '''
 def sigOptionAccessAuthorized():
-'''public void sigOptionAccessAuthorized(final String optionname)
-'''
-pass
+    '''    public void sigOptionAccessAuthorized(final String optionname)
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def needCallInitFieldFlag():
-'''public boolean needCallInitFieldFlag(final String attrName)
-'''
-pass
+    '''    public boolean needCallInitFieldFlag(final String attrName)
+    '''
 def checkSiteOrgAccessForSave():
-'''public void checkSiteOrgAccessForSave()
-'''
-pass
+    '''    public void checkSiteOrgAccessForSave()
+    '''
 def sigopGranted():
-'''public boolean sigopGranted(final String optionname)
-public boolean sigopGranted(final String app, final String optionname)
-public HashMap<String, Boolean> sigopGranted(final Set optionnames)
-'''
-pass
+    '''    public boolean sigopGranted(final String optionname)
+    public boolean sigopGranted(final String app, final String optionname)
+    public HashMap<String, Boolean> sigopGranted(final Set optionnames)
+    '''
 def evaluateCtrlConditions():
-'''public HashMap<String, TreeMap<Integer, String[]>> evaluateCtrlConditions(final HashSet options)
-public HashMap<String, TreeMap<Integer, String[]>> evaluateCtrlConditions(final HashSet options, final String app)
-'''
-pass
+    '''    public HashMap<String, TreeMap<Integer, String[]>> evaluateCtrlConditions(final HashSet options)
+    public HashMap<String, TreeMap<Integer, String[]>> evaluateCtrlConditions(final HashSet options, final String app)
+    '''
 def getCondition():
-'''public MaxCondition getCondition(final String conditionNum)
-'''
-pass
+    '''    public MaxCondition getCondition(final String conditionNum)
+    '''
 def evaluateCondition():
-'''public boolean evaluateCondition(final String conditionNum, final boolean logErrorOnly)
-public boolean evaluateCondition(final String conditionNum)
-'''
-pass
+    '''    public boolean evaluateCondition(final String conditionNum, final boolean logErrorOnly)
+    public boolean evaluateCondition(final String conditionNum)
+    '''
 def getAlwaysFlags():
-'''public BitFlag getAlwaysFlags(final String attr)
-'''
-pass
+    '''    public BitFlag getAlwaysFlags(final String attr)
+    '''
 def getDomainIDs():
-'''public String[] getDomainIDs(final String attr)
-'''
-pass
+    '''    public String[] getDomainIDs(final String attr)
+    '''
 def addToDeleteForInsertList():
-'''public void addToDeleteForInsertList(final String mboName)
-'''
-pass
+    '''    public void addToDeleteForInsertList(final String mboName)
+    '''
 def getDeleteForInsertList():
-'''public Vector<String> getDeleteForInsertList()
-'''
-pass
+    '''    public Vector<String> getDeleteForInsertList()
+    '''
 def getInitialValue():
-'''public MaxType getInitialValue(final String attributeName)
-'''
-pass
+    '''    public MaxType getInitialValue(final String attributeName)
+    '''
 def getCommLogOwnerNameAndUniqueId():
-'''public Object[] getCommLogOwnerNameAndUniqueId()
-'''
-pass
+    '''    public Object[] getCommLogOwnerNameAndUniqueId()
+    '''
 def isChangeByUserWhenSetFromLookup():
-'''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
-'''
-pass
+    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''
 def validateKeyUniqueness():
-'''public void validateKeyUniqueness()
-'''
-pass
+    '''    public void validateKeyUniqueness()
+    '''
 def generateContentUID():
-'''public void generateContentUID()
-'''
-pass
+    '''    public void generateContentUID()
+    '''
 def getDomainFilterWhere():
-'''public String getDomainFilterWhere(final String filterKeyword)
-'''
-pass
+    '''    public String getDomainFilterWhere(final String filterKeyword)
+    '''
 def removeRelatedSet():
-'''public boolean removeRelatedSet(final MboSetRemote relatedSet)
-'''
-pass
+    '''    public boolean removeRelatedSet(final MboSetRemote relatedSet)
+    '''
 def determineRequiredFieldsFromERM():
-'''public List<ERMAttributeError> determineRequiredFieldsFromERM(final Collection<ERMAttribute> attributes, final int mboVectorIndex)
-'''
-pass
+    '''    public List<ERMAttributeError> determineRequiredFieldsFromERM(final Collection<ERMAttribute> attributes, final int mboVectorIndex)
+    '''
 def findAllNullRequiredFields():
-'''public List<ERMAttributeError> findAllNullRequiredFields(final Collection<ERMAttribute> attributes, final int mboIndex)
-'''
-pass
+    '''    public List<ERMAttributeError> findAllNullRequiredFields(final Collection<ERMAttribute> attributes, final int mboIndex)
+    '''
 def getExistingMboSet():
-'''public MboSetRemote getExistingMboSet(String relationship)
-'''
-pass
+    '''    public MboSetRemote getExistingMboSet(String relationship)
+    '''
 def addMboSetForRequiredCheck():
-'''public void addMboSetForRequiredCheck(final MboSetRemote mboSet)
-'''
-pass
+    '''    public void addMboSetForRequiredCheck(final MboSetRemote mboSet)
+    '''
 def getMboList():
-'''public List<MboRemote> getMboList(final String mrp)
-'''
-pass
+    '''    public List<MboRemote> getMboList(final String mrp)
+    '''
 def setApplicationError():
-'''public void setApplicationError(final String attribute, final ApplicationError appError)
-'''
-pass
+    '''    public void setApplicationError(final String attribute, final ApplicationError appError)
+    '''
 def setApplicationRequired():
-'''public void setApplicationRequired(final String attribute, final boolean required)
-'''
-pass
+    '''    public void setApplicationRequired(final String attribute, final boolean required)
+    '''
 def getSynonymValueWhere():
-'''public static String getSynonymValueWhere(final String filterKeyword)
-'''
-pass
+    '''    public static String getSynonymValueWhere(final String filterKeyword)
+    '''
 def getRowStamp():
-'''public final String getRowStamp()
-'''
-pass
+    '''    public final String getRowStamp()
+    '''
 def getRowStampObject():
-'''public final Object getRowStampObject()
-'''
-pass
+    '''    public final Object getRowStampObject()
+    '''
 def getTenantId():
-'''public final int getTenantId(final String tableName)
-'''
-pass
+    '''    public final int getTenantId(final String tableName)
+    '''
 def isMasterTenant():
-'''public boolean isMasterTenant(final String tableName)
-'''
-pass
+    '''    public boolean isMasterTenant(final String tableName)
+    '''
 def setReferencedMbo():
-'''public void setReferencedMbo(final String token, final MboRemote refMbo)
-public void setReferencedMbo(final String token, final Mbo refMbo)
-'''
-pass
+    '''    public void setReferencedMbo(final String token, final MboRemote refMbo)
+    public void setReferencedMbo(final String token, final Mbo refMbo)
+    '''
 def getLanguageRecordRowStamp():
-'''public long[] getLanguageRecordRowStamp()
-'''
-pass
+    '''    public long[] getLanguageRecordRowStamp()
+    '''
 def getUniqueLanguageIDRecord():
-'''public long[] getUniqueLanguageIDRecord()
-'''
-pass
+    '''    public long[] getUniqueLanguageIDRecord()
+    '''
 def isLocked():
-'''public boolean isLocked()
-public boolean isLocked(final boolean cache)
-'''
-pass
+    '''    public boolean isLocked()
+    public boolean isLocked(final boolean cache)
+    '''
 def isLockedByMe():
-'''public boolean isLockedByMe()
-'''
-pass
+    '''    public boolean isLockedByMe()
+    '''
 def isMboLockedByMe():
-'''public boolean isMboLockedByMe()
-'''
-pass
+    '''    public boolean isMboLockedByMe()
+    '''
 def lock():
-'''public void lock(final boolean lockNow)
-'''
-pass
+    '''    public void lock(final boolean lockNow)
+    '''
 def unlock():
-'''public void unlock(final boolean unlockNow)
-'''
-pass
+    '''    public void unlock(final boolean unlockNow)
+    '''
 def setIgnoreRecordLockCheck():
-'''public void setIgnoreRecordLockCheck(final boolean ignoreRecordLock)
-'''
-pass
+    '''    public void setIgnoreRecordLockCheck(final boolean ignoreRecordLock)
+    '''
 def getIgnoreLockCheck():
-'''public boolean getIgnoreLockCheck()
-'''
-pass
+    '''    public boolean getIgnoreLockCheck()
+    '''
 def isOptionGranted():
-'''public boolean isOptionGranted(final String app, final String option)
-'''
-pass
+    '''    public boolean isOptionGranted(final String app, final String option)
+    '''
 def hasLockSaveRights():
-'''public boolean hasLockSaveRights(final String app)
-'''
-pass
+    '''    public boolean hasLockSaveRights(final String app)
+    '''
 def isNoSql():
-'''public boolean isNoSql()
-'''
-pass
+    '''    public boolean isNoSql()
+    '''
 def setNoSql():
-'''public void setNoSql(final boolean noSql)
-'''
-pass
+    '''    public void setNoSql(final boolean noSql)
+    '''
 def resolveNoSqlWhere():
-'''public boolean resolveNoSqlWhere()
-'''
-pass
+    '''    public boolean resolveNoSqlWhere()
+    '''
 def setResolveNoSqlWhere():
-'''public void setResolveNoSqlWhere(final boolean resolveNoSqlWhere)
-'''
-pass
+    '''    public void setResolveNoSqlWhere(final boolean resolveNoSqlWhere)
+    '''
 def getResourceName():
-'''public String getResourceName()
-'''
-pass
+    '''    public String getResourceName()
+    '''
 def setResourceName():
-'''public void setResourceName(final String resourceName)
-'''
-pass
+    '''    public void setResourceName(final String resourceName)
+    '''
 def getESId():
-'''public String getESId()
-'''
-pass
+    '''    public String getESId()
+    '''
 def setESId():
-'''public void setESId(final String esId)
-'''
-pass
+    '''    public void setESId(final String esId)
+    '''
 def setMboCtx():
-'''public void setMboCtx(final String propName, final Object o)
-'''
-pass
+    '''    public void setMboCtx(final String propName, final Object o)
+    '''
 def getMboCtx():
-'''public Object getMboCtx(String propName)
-'''
-pass
+    '''    public Object getMboCtx(String propName)
+    '''
 def removeCtx():
-'''public Object removeCtx(String propName)
-'''
-pass
+    '''    public Object removeCtx(String propName)
+    '''
 def format():
-'''public String format(final String objName)
-'''
-pass
+    '''    public String format(final String objName)
+    '''
 def getFieldValue():
-'''public String getFieldValue(final String attribute, final MboRemote mbo)
-public String getFieldValue(final String attribute, final MboRemote mbo, final boolean useLocale)
-public String getFieldValue(final String attribute, final MboRemote mbo, final boolean useLocale, final int i)
-'''
-pass
+    '''    public String getFieldValue(final String attribute, final MboRemote mbo)
+    public String getFieldValue(final String attribute, final MboRemote mbo, final boolean useLocale)
+    public String getFieldValue(final String attribute, final MboRemote mbo, final boolean useLocale, final int i)
+    '''

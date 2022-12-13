@@ -1,20 +1,15 @@
 def ClassStack():
-'''public ClassStack()
-'''
-pass
+    '''    public ClassStack()
+    '''
 def push():
-'''public void push(final JavaClass clazz)
-'''
-pass
+    '''    public void push(final JavaClass clazz)
+    '''
 def pop():
-'''public JavaClass pop()
-'''
-pass
+    '''    public JavaClass pop()
+    '''
 def top():
-'''public JavaClass top()
-'''
-pass
+    '''    public JavaClass top()
+    '''
 def empty():
-'''public boolean empty()
-'''
-pass
+    '''    public boolean empty()
+    '''

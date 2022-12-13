@@ -1,26 +1,20 @@
 def IlvApplicationListenerList():
-'''public IlvApplicationListenerList()
-'''
-pass
+    '''    public IlvApplicationListenerList()
+    '''
 def applicationEventReceived():
-'''public void applicationEventReceived(final ApplicationEvent applicationEvent)
-'''
-pass
+    '''    public void applicationEventReceived(final ApplicationEvent applicationEvent)
+    '''
 def getApplicationListeners():
-'''public ApplicationListener[] getApplicationListeners()
-'''
-pass
+    '''    public ApplicationListener[] getApplicationListeners()
+    '''
 def addApplicationListener():
-'''public void addApplicationListener(final ApplicationListener applicationListener)
-public void addApplicationListener(final String s, final ApplicationListener e)
-'''
-pass
+    '''    public void addApplicationListener(final ApplicationListener applicationListener)
+    public void addApplicationListener(final String s, final ApplicationListener e)
+    '''
 def removeApplicationListener():
-'''public boolean removeApplicationListener(final ApplicationListener o)
-public boolean removeApplicationListener(final String key, final ApplicationListener o)
-'''
-pass
+    '''    public boolean removeApplicationListener(final ApplicationListener o)
+    public boolean removeApplicationListener(final String key, final ApplicationListener o)
+    '''
 def fireApplicationEvent():
-'''public void fireApplicationEvent(final ApplicationEvent applicationEvent)
-'''
-pass
+    '''    public void fireApplicationEvent(final ApplicationEvent applicationEvent)
+    '''

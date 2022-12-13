@@ -1,4 +1,3 @@
 def FldSLAAssetType():
-'''public FldSLAAssetType(final MboValue mbv)
-'''
-pass
+    '''    public FldSLAAssetType(final MboValue mbv)
+    '''

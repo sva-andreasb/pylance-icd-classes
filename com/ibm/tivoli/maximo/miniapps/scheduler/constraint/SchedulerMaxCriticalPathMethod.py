@@ -1,4 +1,3 @@
 def SchedulerMaxCriticalPathMethod():
-'''public SchedulerMaxCriticalPathMethod(final Object model, final UserInfo userInfo)
-'''
-pass
+    '''    public SchedulerMaxCriticalPathMethod(final Object model, final UserInfo userInfo)
+    '''

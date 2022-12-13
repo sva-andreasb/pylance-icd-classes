@@ -1,8 +1,6 @@
 def DateSelectorFirstOrLast():
-'''public DateSelectorFirstOrLast(final MboSet ms)
-'''
-pass
+    '''    public DateSelectorFirstOrLast(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

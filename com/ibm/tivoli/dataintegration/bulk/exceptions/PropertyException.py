@@ -1,5 +1,4 @@
 def PropertyException():
-'''public PropertyException()
-public PropertyException(final String msg)
-'''
-pass
+    '''    public PropertyException()
+    public PropertyException(final String msg)
+    '''

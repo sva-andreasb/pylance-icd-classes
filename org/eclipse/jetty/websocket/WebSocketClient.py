@@ -1,114 +1,87 @@
 def WebSocketClient():
-'''public WebSocketClient()
-public WebSocketClient(final WebSocketClientFactory factory)
-'''
-pass
+    '''    public WebSocketClient()
+    public WebSocketClient(final WebSocketClientFactory factory)
+    '''
 def getFactory():
-'''public WebSocketClientFactory getFactory()
-'''
-pass
+    '''    public WebSocketClientFactory getFactory()
+    '''
 def getBindAddress():
-'''public SocketAddress getBindAddress()
-'''
-pass
+    '''    public SocketAddress getBindAddress()
+    '''
 def setBindAddress():
-'''public void setBindAddress(final SocketAddress bindAddress)
-'''
-pass
+    '''    public void setBindAddress(final SocketAddress bindAddress)
+    '''
 def getMaxIdleTime():
-'''public int getMaxIdleTime()
-public int getMaxIdleTime()
-'''
-pass
+    '''    public int getMaxIdleTime()
+    public int getMaxIdleTime()
+    '''
 def setMaxIdleTime():
-'''public void setMaxIdleTime(final int maxIdleTime)
-'''
-pass
+    '''    public void setMaxIdleTime(final int maxIdleTime)
+    '''
 def getProtocol():
-'''public String getProtocol()
-public String getProtocol()
-'''
-pass
+    '''    public String getProtocol()
+    public String getProtocol()
+    '''
 def setProtocol():
-'''public void setProtocol(final String protocol)
-'''
-pass
+    '''    public void setProtocol(final String protocol)
+    '''
 def getOrigin():
-'''public String getOrigin()
-public String getOrigin()
-'''
-pass
+    '''    public String getOrigin()
+    public String getOrigin()
+    '''
 def setOrigin():
-'''public void setOrigin(final String origin)
-'''
-pass
+    '''    public void setOrigin(final String origin)
+    '''
 def getCookies():
-'''public Map<String, String> getCookies()
-public Map<String, String> getCookies()
-'''
-pass
+    '''    public Map<String, String> getCookies()
+    public Map<String, String> getCookies()
+    '''
 def getExtensions():
-'''public List<String> getExtensions()
-'''
-pass
+    '''    public List<String> getExtensions()
+    '''
 def getMaskGen():
-'''public MaskGen getMaskGen()
-public MaskGen getMaskGen()
-'''
-pass
+    '''    public MaskGen getMaskGen()
+    public MaskGen getMaskGen()
+    '''
 def setMaskGen():
-'''public void setMaskGen(final MaskGen maskGen)
-'''
-pass
+    '''    public void setMaskGen(final MaskGen maskGen)
+    '''
 def getMaxTextMessageSize():
-'''public int getMaxTextMessageSize()
-'''
-pass
+    '''    public int getMaxTextMessageSize()
+    '''
 def setMaxTextMessageSize():
-'''public void setMaxTextMessageSize(final int maxTextMessageSize)
-'''
-pass
+    '''    public void setMaxTextMessageSize(final int maxTextMessageSize)
+    '''
 def getMaxBinaryMessageSize():
-'''public int getMaxBinaryMessageSize()
-'''
-pass
+    '''    public int getMaxBinaryMessageSize()
+    '''
 def setMaxBinaryMessageSize():
-'''public void setMaxBinaryMessageSize(final int maxBinaryMessageSize)
-'''
-pass
+    '''    public void setMaxBinaryMessageSize(final int maxBinaryMessageSize)
+    '''
 def toSocketAddress():
-'''public static InetSocketAddress toSocketAddress(final URI uri)
-'''
-pass
+    '''    public static InetSocketAddress toSocketAddress(final URI uri)
+    '''
 def onConnection():
-'''public void onConnection(final WebSocketConnection connection)
-'''
-pass
+    '''    public void onConnection(final WebSocketConnection connection)
+    '''
 def handshakeFailed():
-'''public void handshakeFailed(final Throwable ex)
-'''
-pass
+    '''    public void handshakeFailed(final Throwable ex)
+    '''
 def getWebSocket():
-'''public WebSocket getWebSocket()
-'''
-pass
+    '''    public WebSocket getWebSocket()
+    '''
 def getURI():
-'''public URI getURI()
-'''
-pass
+    '''    public URI getURI()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def cancel():
-'''public boolean cancel(final boolean mayInterruptIfRunning)
-'''
-pass
+    '''    public boolean cancel(final boolean mayInterruptIfRunning)
+    '''
 def isCancelled():
-'''public boolean isCancelled()
-'''
-pass
+    '''    public boolean isCancelled()
+    '''
 def isDone():
-'''public boolean isDone()
-'''
-pass
+    '''    public boolean isDone()
+    '''

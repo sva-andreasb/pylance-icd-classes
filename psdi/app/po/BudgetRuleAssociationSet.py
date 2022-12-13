@@ -1,4 +1,3 @@
 def BudgetRuleAssociationSet():
-'''public BudgetRuleAssociationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BudgetRuleAssociationSet(final MboServerInterface ms)
+    '''

@@ -1,64 +1,48 @@
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setId():
-'''public void setId(final String id)
-'''
-pass
+    '''    public void setId(final String id)
+    '''
 def getColumn():
-'''public String getColumn()
-'''
-pass
+    '''    public String getColumn()
+    '''
 def setColumn():
-'''public void setColumn(final String column)
-'''
-pass
+    '''    public void setColumn(final String column)
+    '''
 def isEnforce():
-'''public boolean isEnforce()
-'''
-pass
+    '''    public boolean isEnforce()
+    '''
 def setEnforce():
-'''public void setEnforce(final boolean enforce)
-'''
-pass
+    '''    public void setEnforce(final boolean enforce)
+    '''
 def getQuery():
-'''public String getQuery()
-'''
-pass
+    '''    public String getQuery()
+    '''
 def setQuery():
-'''public void setQuery(final String query)
-'''
-pass
+    '''    public void setQuery(final String query)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getPattern():
-'''public String getPattern()
-'''
-pass
+    '''    public String getPattern()
+    '''
 def setPattern():
-'''public void setPattern(final String pattern)
-'''
-pass
+    '''    public void setPattern(final String pattern)
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String defaultValue)
-'''
-pass
+    '''    public void setDefaultValue(final String defaultValue)
+    '''

@@ -1,17 +1,13 @@
 def getIMProductName():
-'''public String getIMProductName()
-'''
-pass
+    '''    public String getIMProductName()
+    '''
 def createSession():
-'''public IMSession createSession()
-'''
-pass
+    '''    public IMSession createSession()
+    '''
 def getOptionalProperties():
-'''public String[] getOptionalProperties()
-'''
-pass
+    '''    public String[] getOptionalProperties()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''

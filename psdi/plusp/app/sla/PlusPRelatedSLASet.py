@@ -1,8 +1,6 @@
 def PlusPRelatedSLASet():
-'''public PlusPRelatedSLASet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPRelatedSLASet(final MboServerInterface arg0)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

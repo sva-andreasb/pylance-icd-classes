@@ -1,72 +1,54 @@
 def createTitle():
-'''public static PdfLayer createTitle(final String title, final PdfWriter writer)
-'''
-pass
+    '''    public static PdfLayer createTitle(final String title, final PdfWriter writer)
+    '''
 def PdfLayer():
-'''public PdfLayer(final String name, final PdfWriter writer)
-'''
-pass
+    '''    public PdfLayer(final String name, final PdfWriter writer)
+    '''
 def addChild():
-'''public void addChild(final PdfLayer child)
-'''
-pass
+    '''    public void addChild(final PdfLayer child)
+    '''
 def getParent():
-'''public PdfLayer getParent()
-'''
-pass
+    '''    public PdfLayer getParent()
+    '''
 def getChildren():
-'''public ArrayList getChildren()
-'''
-pass
+    '''    public ArrayList getChildren()
+    '''
 def getRef():
-'''public PdfIndirectReference getRef()
-'''
-pass
+    '''    public PdfIndirectReference getRef()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getPdfObject():
-'''public PdfObject getPdfObject()
-'''
-pass
+    '''    public PdfObject getPdfObject()
+    '''
 def isOn():
-'''public boolean isOn()
-'''
-pass
+    '''    public boolean isOn()
+    '''
 def setOn():
-'''public void setOn(final boolean on)
-'''
-pass
+    '''    public void setOn(final boolean on)
+    '''
 def setCreatorInfo():
-'''public void setCreatorInfo(final String creator, final String subtype)
-'''
-pass
+    '''    public void setCreatorInfo(final String creator, final String subtype)
+    '''
 def setLanguage():
-'''public void setLanguage(final String lang, final boolean preferred)
-'''
-pass
+    '''    public void setLanguage(final String lang, final boolean preferred)
+    '''
 def setExport():
-'''public void setExport(final boolean export)
-'''
-pass
+    '''    public void setExport(final boolean export)
+    '''
 def setZoom():
-'''public void setZoom(final float min, final float max)
-'''
-pass
+    '''    public void setZoom(final float min, final float max)
+    '''
 def setPrint():
-'''public void setPrint(final String subtype, final boolean printstate)
-'''
-pass
+    '''    public void setPrint(final String subtype, final boolean printstate)
+    '''
 def setView():
-'''public void setView(final boolean view)
-'''
-pass
+    '''    public void setView(final boolean view)
+    '''
 def isOnPanel():
-'''public boolean isOnPanel()
-'''
-pass
+    '''    public boolean isOnPanel()
+    '''
 def setOnPanel():
-'''public void setOnPanel(final boolean onPanel)
-'''
-pass
+    '''    public void setOnPanel(final boolean onPanel)
+    '''

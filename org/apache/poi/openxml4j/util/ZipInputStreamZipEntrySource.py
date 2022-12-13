@@ -1,29 +1,22 @@
 def ZipInputStreamZipEntrySource():
-'''public ZipInputStreamZipEntrySource(final ZipSecureFile.ThresholdInputStream inp)
-'''
-pass
+    '''    public ZipInputStreamZipEntrySource(final ZipSecureFile.ThresholdInputStream inp)
+    '''
 def getInputStream():
-'''public InputStream getInputStream(final ZipEntry zipEntry)
-public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream(final ZipEntry zipEntry)
+    public InputStream getInputStream()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public ZipEntry nextElement()
-'''
-pass
+    '''    public ZipEntry nextElement()
+    '''
 def FakeZipEntry():
-'''public FakeZipEntry(final ZipEntry entry, final InputStream inp)
-'''
-pass
+    '''    public FakeZipEntry(final ZipEntry entry, final InputStream inp)
+    '''

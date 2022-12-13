@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def resetwhere():
-'''public int resetwhere()
-'''
-pass
+    '''    public int resetwhere()
+    '''

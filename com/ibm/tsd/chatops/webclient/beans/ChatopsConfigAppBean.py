@@ -1,12 +1,9 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def ADDTOSLACK():
-'''public int ADDTOSLACK()
-'''
-pass
+    '''    public int ADDTOSLACK()
+    '''

@@ -1,87 +1,66 @@
 def weeks():
-'''public static Weeks weeks(final int n)
-'''
-pass
+    '''    public static Weeks weeks(final int n)
+    '''
 def weeksBetween():
-'''public static Weeks weeksBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-public static Weeks weeksBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-'''
-pass
+    '''    public static Weeks weeksBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
+    public static Weeks weeksBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
+    '''
 def weeksIn():
-'''public static Weeks weeksIn(final ReadableInterval readableInterval)
-'''
-pass
+    '''    public static Weeks weeksIn(final ReadableInterval readableInterval)
+    '''
 def standardWeeksIn():
-'''public static Weeks standardWeeksIn(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public static Weeks standardWeeksIn(final ReadablePeriod readablePeriod)
+    '''
 def parseWeeks():
-'''public static Weeks parseWeeks(final String s)
-'''
-pass
+    '''    public static Weeks parseWeeks(final String s)
+    '''
 def getFieldType():
-'''public DurationFieldType getFieldType()
-'''
-pass
+    '''    public DurationFieldType getFieldType()
+    '''
 def getPeriodType():
-'''public PeriodType getPeriodType()
-'''
-pass
+    '''    public PeriodType getPeriodType()
+    '''
 def toStandardDays():
-'''public Days toStandardDays()
-'''
-pass
+    '''    public Days toStandardDays()
+    '''
 def toStandardHours():
-'''public Hours toStandardHours()
-'''
-pass
+    '''    public Hours toStandardHours()
+    '''
 def toStandardMinutes():
-'''public Minutes toStandardMinutes()
-'''
-pass
+    '''    public Minutes toStandardMinutes()
+    '''
 def toStandardSeconds():
-'''public Seconds toStandardSeconds()
-'''
-pass
+    '''    public Seconds toStandardSeconds()
+    '''
 def toStandardDuration():
-'''public Duration toStandardDuration()
-'''
-pass
+    '''    public Duration toStandardDuration()
+    '''
 def getWeeks():
-'''public int getWeeks()
-'''
-pass
+    '''    public int getWeeks()
+    '''
 def plus():
-'''public Weeks plus(final int n)
-public Weeks plus(final Weeks weeks)
-'''
-pass
+    '''    public Weeks plus(final int n)
+    public Weeks plus(final Weeks weeks)
+    '''
 def minus():
-'''public Weeks minus(final int n)
-public Weeks minus(final Weeks weeks)
-'''
-pass
+    '''    public Weeks minus(final int n)
+    public Weeks minus(final Weeks weeks)
+    '''
 def multipliedBy():
-'''public Weeks multipliedBy(final int n)
-'''
-pass
+    '''    public Weeks multipliedBy(final int n)
+    '''
 def dividedBy():
-'''public Weeks dividedBy(final int n)
-'''
-pass
+    '''    public Weeks dividedBy(final int n)
+    '''
 def negated():
-'''public Weeks negated()
-'''
-pass
+    '''    public Weeks negated()
+    '''
 def isGreaterThan():
-'''public boolean isGreaterThan(final Weeks weeks)
-'''
-pass
+    '''    public boolean isGreaterThan(final Weeks weeks)
+    '''
 def isLessThan():
-'''public boolean isLessThan(final Weeks weeks)
-'''
-pass
+    '''    public boolean isLessThan(final Weeks weeks)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

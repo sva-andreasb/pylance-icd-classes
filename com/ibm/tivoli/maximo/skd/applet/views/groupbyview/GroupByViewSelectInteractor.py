@@ -1,8 +1,6 @@
 def isMoveAllowed():
-'''public boolean isMoveAllowed()
-'''
-pass
+    '''    public boolean isMoveAllowed()
+    '''
 def isEditionAllowed():
-'''public boolean isEditionAllowed()
-'''
-pass
+    '''    public boolean isEditionAllowed()
+    '''

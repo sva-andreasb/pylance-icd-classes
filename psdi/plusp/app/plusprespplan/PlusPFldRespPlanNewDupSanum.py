@@ -1,8 +1,6 @@
 def PlusPFldRespPlanNewDupSanum():
-'''public PlusPFldRespPlanNewDupSanum(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldRespPlanNewDupSanum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

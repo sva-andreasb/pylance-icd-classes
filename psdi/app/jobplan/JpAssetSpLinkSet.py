@@ -1,20 +1,15 @@
 def JpAssetSpLinkSet():
-'''public JpAssetSpLinkSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JpAssetSpLinkSet(final MboServerInterface ms)
+    '''
 def setOwner():
-'''public void setOwner(final MboRemote mbo)
-'''
-pass
+    '''    public void setOwner(final MboRemote mbo)
+    '''
 def initDataDictionary():
-'''public void initDataDictionary()
-'''
-pass
+    '''    public void initDataDictionary()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def getJpAssetSPLinkSize():
-'''public int getJpAssetSPLinkSize()
-'''
-pass
+    '''    public int getJpAssetSPLinkSize()
+    '''

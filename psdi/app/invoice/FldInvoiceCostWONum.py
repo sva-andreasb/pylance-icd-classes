@@ -1,8 +1,6 @@
 def FldInvoiceCostWONum():
-'''public FldInvoiceCostWONum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceCostWONum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

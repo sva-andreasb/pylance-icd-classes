@@ -1,16 +1,12 @@
 def LogTimeable():
-'''public LogTimeable(final String msg)
-'''
-pass
+    '''    public LogTimeable(final String msg)
+    '''
 def finish():
-'''public void finish()
-'''
-pass
+    '''    public void finish()
+    '''
 def tick():
-'''public void tick(final String msg)
-'''
-pass
+    '''    public void tick(final String msg)
+    '''
 def start():
-'''public static LogTimeable start(final String msg)
-'''
-pass
+    '''    public static LogTimeable start(final String msg)
+    '''

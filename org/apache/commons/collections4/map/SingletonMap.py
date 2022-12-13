@@ -1,144 +1,111 @@
 def SingletonMap():
-'''public SingletonMap()
-public SingletonMap(final K key, final V value)
-public SingletonMap(final KeyValue<K, V> keyValue)
-public SingletonMap(final Map.Entry<? extends K, ? extends V> mapEntry)
-public SingletonMap(final Map<? extends K, ? extends V> map)
-'''
-pass
+    '''    public SingletonMap()
+    public SingletonMap(final K key, final V value)
+    public SingletonMap(final KeyValue<K, V> keyValue)
+    public SingletonMap(final Map.Entry<? extends K, ? extends V> mapEntry)
+    public SingletonMap(final Map<? extends K, ? extends V> map)
+    '''
 def getKey():
-'''public K getKey()
-public K getKey()
-'''
-pass
+    '''    public K getKey()
+    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-public V getValue()
-'''
-pass
+    '''    public V getValue()
+    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    public V setValue(final V value)
+    '''
 def isFull():
-'''public boolean isFull()
-'''
-pass
+    '''    public boolean isFull()
+    '''
 def maxSize():
-'''public int maxSize()
-'''
-pass
+    '''    public int maxSize()
+    '''
 def get():
-'''public V get(final Object key)
-'''
-pass
+    '''    public V get(final Object key)
+    '''
 def size():
-'''public int size()
-public int size()
-'''
-pass
+    '''    public int size()
+    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def put():
-'''public V put(final K key, final V value)
-'''
-pass
+    '''    public V put(final K key, final V value)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ? extends V> map)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ? extends V> map)
+    '''
 def remove():
-'''public V remove(final Object key)
-public void remove()
-'''
-pass
+    '''    public V remove(final Object key)
+    public void remove()
+    '''
 def clear():
-'''public void clear()
-public void clear()
-'''
-pass
+    '''    public void clear()
+    public void clear()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def mapIterator():
-'''public OrderedMapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public OrderedMapIterator<K, V> mapIterator()
+    '''
 def firstKey():
-'''public K firstKey()
-'''
-pass
+    '''    public K firstKey()
+    '''
 def lastKey():
-'''public K lastKey()
-'''
-pass
+    '''    public K lastKey()
+    '''
 def nextKey():
-'''public K nextKey(final K key)
-'''
-pass
+    '''    public K nextKey(final K key)
+    '''
 def previousKey():
-'''public K previousKey(final K key)
-'''
-pass
+    '''    public K previousKey(final K key)
+    '''
 def clone():
-'''public SingletonMap<K, V> clone()
-'''
-pass
+    '''    public SingletonMap<K, V> clone()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public K next()
-'''
-pass
+    '''    public K next()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def previous():
-'''public K previous()
-'''
-pass
+    '''    public K previous()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def contains():
-'''public boolean contains(final Object object)
-'''
-pass
+    '''    public boolean contains(final Object object)
+    '''
 def iterator():
-'''public Iterator<V> iterator()
-'''
-pass
+    '''    public Iterator<V> iterator()
+    '''

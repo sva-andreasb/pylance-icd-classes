@@ -1,4 +1,3 @@
 def MapManagerService():
-'''public MapManagerService(final MXServer mxServer)
-'''
-pass
+    '''    public MapManagerService(final MXServer mxServer)
+    '''

@@ -1,12 +1,9 @@
 def Base64DecodingOutputStreamWriter():
-'''public Base64DecodingOutputStreamWriter(final OutputStream stream)
-'''
-pass
+    '''    public Base64DecodingOutputStreamWriter(final OutputStream stream)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

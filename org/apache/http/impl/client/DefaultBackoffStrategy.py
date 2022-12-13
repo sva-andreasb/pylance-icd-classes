@@ -1,5 +1,4 @@
 def shouldBackoff():
-'''public boolean shouldBackoff(final Throwable t)
-public boolean shouldBackoff(final HttpResponse resp)
-'''
-pass
+    '''    public boolean shouldBackoff(final Throwable t)
+    public boolean shouldBackoff(final HttpResponse resp)
+    '''

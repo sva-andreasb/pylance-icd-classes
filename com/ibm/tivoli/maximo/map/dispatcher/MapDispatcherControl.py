@@ -1,68 +1,51 @@
 def MapDispatcherControl():
-'''public MapDispatcherControl()
-'''
-pass
+    '''    public MapDispatcherControl()
+    '''
 def DELETEASSIGN():
-'''public int DELETEASSIGN()
-'''
-pass
+    '''    public int DELETEASSIGN()
+    '''
 def CREATEASSIGN():
-'''public int CREATEASSIGN()
-'''
-pass
+    '''    public int CREATEASSIGN()
+    '''
 def APPLETCMD():
-'''public int APPLETCMD()
-'''
-pass
+    '''    public int APPLETCMD()
+    '''
 def secondsToDuration():
-'''public static Double secondsToDuration(long seconds)
-'''
-pass
+    '''    public static Double secondsToDuration(long seconds)
+    '''
 def SHOWMULTIPLEROUTEERRORS():
-'''public int SHOWMULTIPLEROUTEERRORS()
-'''
-pass
+    '''    public int SHOWMULTIPLEROUTEERRORS()
+    '''
 def SAVEBULKTRAVELTIME():
-'''public int SAVEBULKTRAVELTIME()
-'''
-pass
+    '''    public int SAVEBULKTRAVELTIME()
+    '''
 def SAVETRAVELTIME():
-'''public int SAVETRAVELTIME()
-'''
-pass
+    '''    public int SAVETRAVELTIME()
+    '''
 def UPDATEASSIGNMENTS():
-'''public int UPDATEASSIGNMENTS()
-'''
-pass
+    '''    public int UPDATEASSIGNMENTS()
+    '''
 def SPLITASSIGN():
-'''public int SPLITASSIGN()
-'''
-pass
+    '''    public int SPLITASSIGN()
+    '''
 def TRIGGERMSGS():
-'''public int TRIGGERMSGS()
-'''
-pass
+    '''    public int TRIGGERMSGS()
+    '''
 def SPLITSHIFT():
-'''public int SPLITSHIFT()
-'''
-pass
+    '''    public int SPLITSHIFT()
+    '''
 def TOGGLELOCK():
-'''public int TOGGLELOCK()
-'''
-pass
+    '''    public int TOGGLELOCK()
+    '''
 def refreshresource():
-'''public int refreshresource()
-'''
-pass
+    '''    public int refreshresource()
+    '''
 def getCallBackInfo():
-'''public JSONObject getCallBackInfo()
-'''
-pass
+    '''    public JSONObject getCallBackInfo()
+    '''
 def clearCallbackInfo():
-'''public void clearCallbackInfo()
-'''
-pass
+    '''    public void clearCallbackInfo()
+    '''
 def DOREFRESHRESOURCE():
-'''public int DOREFRESHRESOURCE()
-'''
-pass
+    '''    public int DOREFRESHRESOURCE()
+    '''

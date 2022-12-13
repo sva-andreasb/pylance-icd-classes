@@ -1,4 +1,3 @@
 def DatastoreButtonSet():
-'''public DatastoreButtonSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DatastoreButtonSet(final MboServerInterface ms)
+    '''

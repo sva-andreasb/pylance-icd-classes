@@ -1,12 +1,9 @@
 def aclabor():
-'''public int aclabor()
-'''
-pass
+    '''    public int aclabor()
+    '''
 def selectlaboronactuals():
-'''public int selectlaboronactuals()
-'''
-pass
+    '''    public int selectlaboronactuals()
+    '''
 def enterbycrew():
-'''public int enterbycrew()
-'''
-pass
+    '''    public int enterbycrew()
+    '''

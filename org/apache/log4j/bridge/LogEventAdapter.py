@@ -1,76 +1,57 @@
 def LogEventAdapter():
-'''public LogEventAdapter(final LogEvent event)
-'''
-pass
+    '''    public LogEventAdapter(final LogEvent event)
+    '''
 def getStartTime():
-'''public static long getStartTime()
-'''
-pass
+    '''    public static long getStartTime()
+    '''
 def getEvent():
-'''public LogEvent getEvent()
-'''
-pass
+    '''    public LogEvent getEvent()
+    '''
 def getLocationInformation():
-'''public LocationInfo getLocationInformation()
-'''
-pass
+    '''    public LocationInfo getLocationInformation()
+    '''
 def getLevel():
-'''public Level getLevel()
-'''
-pass
+    '''    public Level getLevel()
+    '''
 def getLoggerName():
-'''public String getLoggerName()
-'''
-pass
+    '''    public String getLoggerName()
+    '''
 def getTimeStamp():
-'''public long getTimeStamp()
-'''
-pass
+    '''    public long getTimeStamp()
+    '''
 def getLogger():
-'''public Category getLogger()
-'''
-pass
+    '''    public Category getLogger()
+    '''
 def getMessage():
-'''public Object getMessage()
-'''
-pass
+    '''    public Object getMessage()
+    '''
 def getNDC():
-'''public String getNDC()
-'''
-pass
+    '''    public String getNDC()
+    '''
 def getMDC():
-'''public Object getMDC(final String key)
-'''
-pass
+    '''    public Object getMDC(final String key)
+    '''
 def getMDCCopy():
-'''public void getMDCCopy()
-'''
-pass
+    '''    public void getMDCCopy()
+    '''
 def getRenderedMessage():
-'''public String getRenderedMessage()
-'''
-pass
+    '''    public String getRenderedMessage()
+    '''
 def getThreadName():
-'''public String getThreadName()
-'''
-pass
+    '''    public String getThreadName()
+    '''
 def getThrowableInformation():
-'''public ThrowableInformation getThrowableInformation()
-'''
-pass
+    '''    public ThrowableInformation getThrowableInformation()
+    '''
 def getThrowableStrRep():
-'''public String[] getThrowableStrRep()
-'''
-pass
+    '''    public String[] getThrowableStrRep()
+    '''
 def getProperty():
-'''public String getProperty(final String key)
-'''
-pass
+    '''    public String getProperty(final String key)
+    '''
 def getPropertyKeySet():
-'''public Set getPropertyKeySet()
-'''
-pass
+    '''    public Set getPropertyKeySet()
+    '''
 def getProperties():
-'''public Map getProperties()
-'''
-pass
+    '''    public Map getProperties()
+    '''

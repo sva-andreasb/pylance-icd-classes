@@ -1,8 +1,6 @@
 def FldItemOrgInfoTaxCode():
-'''public FldItemOrgInfoTaxCode(final MboValue mbv)
-'''
-pass
+    '''    public FldItemOrgInfoTaxCode(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

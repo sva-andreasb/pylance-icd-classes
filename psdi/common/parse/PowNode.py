@@ -1,8 +1,6 @@
 def PowNode():
-'''public PowNode(final Vector operands)
-'''
-pass
+    '''    public PowNode(final Vector operands)
+    '''
 def getDouble():
-'''public double getDouble(final MboRemote mbo)
-'''
-pass
+    '''    public double getDouble(final MboRemote mbo)
+    '''

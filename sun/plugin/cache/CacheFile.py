@@ -1,44 +1,33 @@
 def CacheFile():
-'''public CacheFile(final String name)
-'''
-pass
+    '''    public CacheFile(final String name)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def addFile():
-'''public void addFile(final File file, final String s)
-'''
-pass
+    '''    public void addFile(final File file, final String s)
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDate():
-'''public long getDate()
-'''
-pass
+    '''    public long getDate()
+    '''
 def getFileType():
-'''public int getFileType()
-'''
-pass
+    '''    public int getFileType()
+    '''
 def isUsable():
-'''public boolean isUsable()
-'''
-pass
+    '''    public boolean isUsable()
+    '''
 def readStatus():
-'''public void readStatus()
-'''
-pass
+    '''    public void readStatus()
+    '''
 def before():
-'''public boolean before(final CacheFile cacheFile)
-'''
-pass
+    '''    public boolean before(final CacheFile cacheFile)
+    '''
 def delete():
-'''public long delete()
-'''
-pass
+    '''    public long delete()
+    '''

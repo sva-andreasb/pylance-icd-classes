@@ -1,24 +1,18 @@
 def MAFMapPreloadCFG():
-'''public MAFMapPreloadCFG(final MboSet ms)
-'''
-pass
+    '''    public MAFMapPreloadCFG(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def createOfflineArea():
-'''public void createOfflineArea()
-'''
-pass
+    '''    public void createOfflineArea()
+    '''
 def updateOfflineAreaField():
-'''public void updateOfflineAreaField(final String fieldName, final Double value)
-'''
-pass
+    '''    public void updateOfflineAreaField(final String fieldName, final Double value)
+    '''
 def updateOfflineArea():
-'''public void updateOfflineArea()
-'''
-pass
+    '''    public void updateOfflineArea()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''

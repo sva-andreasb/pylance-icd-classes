@@ -1,24 +1,18 @@
 def XmlProcessingInstruction():
-'''public XmlProcessingInstruction(final String data, final String target)
-'''
-pass
+    '''    public XmlProcessingInstruction(final String data, final String target)
+    '''
 def data():
-'''public String data()
-'''
-pass
+    '''    public String data()
+    '''
 def target():
-'''public String target()
-'''
-pass
+    '''    public String target()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

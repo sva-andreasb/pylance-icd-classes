@@ -1,4 +1,3 @@
 def PlusPLineStatusHistorySet():
-'''public PlusPLineStatusHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPLineStatusHistorySet(final MboServerInterface ms)
+    '''

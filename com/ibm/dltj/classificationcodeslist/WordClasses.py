@@ -1,21 +1,16 @@
-COPYRIGHT = "String  \n\n(C) Copyright IBM Corp. 2003, 2007.\n\n""
+COPYRIGHT = "String  \"\n\n(C) Copyright IBM Corp. 2003, 2007.\n\n\""
 def WordClasses():
-'''public WordClasses()
-'''
-pass
+    '''    public WordClasses()
+    '''
 def setClassificationCodes():
-'''public void setClassificationCodes(final RuleBasedBreakIterator ruleBasedBreakIterator)
-'''
-pass
+    '''    public void setClassificationCodes(final RuleBasedBreakIterator ruleBasedBreakIterator)
+    '''
 def getRuleStatus():
-'''public int getRuleStatus()
-'''
-pass
+    '''    public int getRuleStatus()
+    '''
 def getRuleStatusLength():
-'''public int getRuleStatusLength()
-'''
-pass
+    '''    public int getRuleStatusLength()
+    '''
 def getRuleStatusVec():
-'''public int[] getRuleStatusVec()
-'''
-pass
+    '''    public int[] getRuleStatusVec()
+    '''

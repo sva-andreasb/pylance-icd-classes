@@ -1,64 +1,48 @@
 def ModelLoaderBase():
-'''public ModelLoaderBase(final Factory factory, final BIMProjectRemote projectMbo, final ModelLoaderOptions options, final ProgressLogger<ItemFACILITY> logger)
-'''
-pass
+    '''    public ModelLoaderBase(final Factory factory, final BIMProjectRemote projectMbo, final ModelLoaderOptions options, final ProgressLogger<ItemFACILITY> logger)
+    '''
 def getAttachmentMgr():
-'''public AttachmentMgr getAttachmentMgr()
-'''
-pass
+    '''    public AttachmentMgr getAttachmentMgr()
+    '''
 def getAttributeMapMgr():
-'''public AttributeMapMgr getAttributeMapMgr()
-'''
-pass
+    '''    public AttributeMapMgr getAttributeMapMgr()
+    '''
 def getClassificationMgr():
-'''public ClassificationMgr getClassificationMgr()
-'''
-pass
+    '''    public ClassificationMgr getClassificationMgr()
+    '''
 def getItemSetId():
-'''public String getItemSetId()
-'''
-pass
+    '''    public String getItemSetId()
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def getLogger():
-'''public ProgressLogger<ItemFACILITY> getLogger()
-'''
-pass
+    '''    public ProgressLogger<ItemFACILITY> getLogger()
+    '''
 def getOptions():
-'''public ModelLoaderOptions getOptions()
-'''
-pass
+    '''    public ModelLoaderOptions getOptions()
+    '''
 def getOrgId():
-'''public String getOrgId()
-'''
-pass
+    '''    public String getOrgId()
+    '''
 def getProjectMbo():
-'''public BIMProjectRemote getProjectMbo()
-'''
-pass
+    '''    public BIMProjectRemote getProjectMbo()
+    '''
 def getSiteId():
-'''public String getSiteId()
-'''
-pass
+    '''    public String getSiteId()
+    '''
 def getSystemMapMgr():
-'''public SystemMapMgr getSystemMapMgr()
-'''
-pass
+    '''    public SystemMapMgr getSystemMapMgr()
+    '''
 def getTranslator():
-'''public Translate getTranslator()
-'''
-pass
+    '''    public Translate getTranslator()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def isAutoCreateCompanyMaster():
-'''public boolean isAutoCreateCompanyMaster()
-'''
-pass
+    '''    public boolean isAutoCreateCompanyMaster()
+    '''
 def addFile():
-'''public void addFile(final InputFile cobieFile)
-'''
-pass
+    '''    public void addFile(final InputFile cobieFile)
+    '''

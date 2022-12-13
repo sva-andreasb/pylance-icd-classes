@@ -1,8 +1,6 @@
 def FldSelfReferencing():
-'''public FldSelfReferencing(final MboValue mbv)
-'''
-pass
+    '''    public FldSelfReferencing(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

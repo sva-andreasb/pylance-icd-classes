@@ -1,21 +1,16 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getMaxLaunchEntryMap():
-'''public Map getMaxLaunchEntryMap()
-'''
-pass
+    '''    public Map getMaxLaunchEntryMap()
+    '''
 def getMaxLaunchEntry():
-'''public MaxLaunchEntryInfo getMaxLaunchEntry(final String launchentryname)
-'''
-pass
+    '''    public MaxLaunchEntryInfo getMaxLaunchEntry(final String launchentryname)
+    '''

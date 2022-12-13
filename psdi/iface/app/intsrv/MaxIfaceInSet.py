@@ -1,8 +1,6 @@
 def MaxIfaceInSet():
-'''public MaxIfaceInSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIfaceInSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

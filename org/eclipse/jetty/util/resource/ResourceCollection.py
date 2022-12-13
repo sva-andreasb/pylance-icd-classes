@@ -1,87 +1,66 @@
 def ResourceCollection():
-'''public ResourceCollection()
-public ResourceCollection(final Resource... resources)
-public ResourceCollection(final String[] resources)
-public ResourceCollection(final String csvResources)
-'''
-pass
+    '''    public ResourceCollection()
+    public ResourceCollection(final Resource... resources)
+    public ResourceCollection(final String[] resources)
+    public ResourceCollection(final String csvResources)
+    '''
 def getResources():
-'''public Resource[] getResources()
-'''
-pass
+    '''    public Resource[] getResources()
+    '''
 def setResources():
-'''public void setResources(final Resource[] resources)
-'''
-pass
+    '''    public void setResources(final Resource[] resources)
+    '''
 def setResourcesAsCSV():
-'''public void setResourcesAsCSV(final String csvResources)
-'''
-pass
+    '''    public void setResourcesAsCSV(final String csvResources)
+    '''
 def addPath():
-'''public Resource addPath(final String path)
-'''
-pass
+    '''    public Resource addPath(final String path)
+    '''
 def delete():
-'''public boolean delete()
-'''
-pass
+    '''    public boolean delete()
+    '''
 def exists():
-'''public boolean exists()
-'''
-pass
+    '''    public boolean exists()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def isDirectory():
-'''public boolean isDirectory()
-'''
-pass
+    '''    public boolean isDirectory()
+    '''
 def lastModified():
-'''public long lastModified()
-'''
-pass
+    '''    public long lastModified()
+    '''
 def length():
-'''public long length()
-'''
-pass
+    '''    public long length()
+    '''
 def list():
-'''public String[] list()
-'''
-pass
+    '''    public String[] list()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''
 def renameTo():
-'''public boolean renameTo(final Resource dest)
-'''
-pass
+    '''    public boolean renameTo(final Resource dest)
+    '''
 def copyTo():
-'''public void copyTo(final File destination)
-'''
-pass
+    '''    public void copyTo(final File destination)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isContainedIn():
-'''public boolean isContainedIn(final Resource r)
-'''
-pass
+    '''    public boolean isContainedIn(final Resource r)
+    '''

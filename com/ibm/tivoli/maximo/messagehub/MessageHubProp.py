@@ -1,8 +1,6 @@
 def MessageHubProp():
-'''public MessageHubProp(final MboSet ms)
-'''
-pass
+    '''    public MessageHubProp(final MboSet ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

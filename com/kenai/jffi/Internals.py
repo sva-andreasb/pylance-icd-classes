@@ -1,4 +1,3 @@
 def getErrnoSaveFunction():
-'''public static final long getErrnoSaveFunction()
-'''
-pass
+    '''    public static final long getErrnoSaveFunction()
+    '''

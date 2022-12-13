@@ -1,48 +1,36 @@
 def getSingleton():
-'''public static SOAP12Version getSingleton()
-'''
-pass
+    '''    public static SOAP12Version getSingleton()
+    '''
 def getEnvelopeURI():
-'''public String getEnvelopeURI()
-'''
-pass
+    '''    public String getEnvelopeURI()
+    '''
 def getEncodingURI():
-'''public String getEncodingURI()
-'''
-pass
+    '''    public String getEncodingURI()
+    '''
 def getRoleAttributeQName():
-'''public QName getRoleAttributeQName()
-'''
-pass
+    '''    public QName getRoleAttributeQName()
+    '''
 def getNextRoleURI():
-'''public String getNextRoleURI()
-'''
-pass
+    '''    public String getNextRoleURI()
+    '''
 def getMustUnderstandFaultCode():
-'''public QName getMustUnderstandFaultCode()
-'''
-pass
+    '''    public QName getMustUnderstandFaultCode()
+    '''
 def getSenderFaultCode():
-'''public QName getSenderFaultCode()
-'''
-pass
+    '''    public QName getSenderFaultCode()
+    '''
 def getReceiverFaultCode():
-'''public QName getReceiverFaultCode()
-'''
-pass
+    '''    public QName getReceiverFaultCode()
+    '''
 def getFaultReasonQName():
-'''public QName getFaultReasonQName()
-'''
-pass
+    '''    public QName getFaultReasonQName()
+    '''
 def getFaultCodeQName():
-'''public QName getFaultCodeQName()
-'''
-pass
+    '''    public QName getFaultCodeQName()
+    '''
 def getFaultDetailQName():
-'''public QName getFaultDetailQName()
-'''
-pass
+    '''    public QName getFaultDetailQName()
+    '''
 def getFaultRoleQName():
-'''public QName getFaultRoleQName()
-'''
-pass
+    '''    public QName getFaultRoleQName()
+    '''

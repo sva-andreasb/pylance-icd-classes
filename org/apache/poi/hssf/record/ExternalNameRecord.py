@@ -1,66 +1,50 @@
 sid = "short  35"
 def isBuiltInName():
-'''public boolean isBuiltInName()
-'''
-pass
+    '''    public boolean isBuiltInName()
+    '''
 def isAutomaticLink():
-'''public boolean isAutomaticLink()
-'''
-pass
+    '''    public boolean isAutomaticLink()
+    '''
 def isPicureLink():
-'''public boolean isPicureLink()
-'''
-pass
+    '''    public boolean isPicureLink()
+    '''
 def isStdDocumentNameIdentifier():
-'''public boolean isStdDocumentNameIdentifier()
-'''
-pass
+    '''    public boolean isStdDocumentNameIdentifier()
+    '''
 def isOLELink():
-'''public boolean isOLELink()
-'''
-pass
+    '''    public boolean isOLELink()
+    '''
 def isIconifiedPictureLink():
-'''public boolean isIconifiedPictureLink()
-'''
-pass
+    '''    public boolean isIconifiedPictureLink()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setText():
-'''public void setText(final String str)
-'''
-pass
+    '''    public void setText(final String str)
+    '''
 def getIx():
-'''public short getIx()
-'''
-pass
+    '''    public short getIx()
+    '''
 def setIx():
-'''public void setIx(final short ix)
-'''
-pass
+    '''    public void setIx(final short ix)
+    '''
 def getParsedExpression():
-'''public Ptg[] getParsedExpression()
-'''
-pass
+    '''    public Ptg[] getParsedExpression()
+    '''
 def setParsedExpression():
-'''public void setParsedExpression(final Ptg[] ptgs)
-'''
-pass
+    '''    public void setParsedExpression(final Ptg[] ptgs)
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def ExternalNameRecord():
-'''public ExternalNameRecord()
-public ExternalNameRecord(final RecordInputStream in)
-'''
-pass
+    '''    public ExternalNameRecord()
+    public ExternalNameRecord(final RecordInputStream in)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

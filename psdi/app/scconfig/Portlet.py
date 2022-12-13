@@ -1,4 +1,3 @@
 def Portlet():
-'''public Portlet(final MboSet ms)
-'''
-pass
+    '''    public Portlet(final MboSet ms)
+    '''

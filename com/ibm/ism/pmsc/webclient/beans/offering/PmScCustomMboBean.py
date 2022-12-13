@@ -1,20 +1,15 @@
 def PmScCustomMboBean():
-'''public PmScCustomMboBean()
-'''
-pass
+    '''    public PmScCustomMboBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def checkOfferingVal():
-'''public void checkOfferingVal()
-'''
-pass
+    '''    public void checkOfferingVal()
+    '''
 def checkPmscStatus():
-'''public void checkPmscStatus()
-'''
-pass
+    '''    public void checkPmscStatus()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''

@@ -1,69 +1,52 @@
 def Dialog():
-'''public Dialog()
-public Dialog(final String title, final URI dialog)
-'''
-pass
+    '''    public Dialog()
+    public Dialog(final String title, final URI dialog)
+    '''
 def addResourceType():
-'''public void addResourceType(final URI resourceType)
-'''
-pass
+    '''    public void addResourceType(final URI resourceType)
+    '''
 def addUsage():
-'''public void addUsage(final URI usage)
-'''
-pass
+    '''    public void addUsage(final URI usage)
+    '''
 def getDialog():
-'''public URI getDialog()
-'''
-pass
+    '''    public URI getDialog()
+    '''
 def getHintHeight():
-'''public String getHintHeight()
-'''
-pass
+    '''    public String getHintHeight()
+    '''
 def getHintWidth():
-'''public String getHintWidth()
-'''
-pass
+    '''    public String getHintWidth()
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def getResourceTypes():
-'''public URI[] getResourceTypes()
-'''
-pass
+    '''    public URI[] getResourceTypes()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getUsages():
-'''public URI[] getUsages()
-'''
-pass
+    '''    public URI[] getUsages()
+    '''
 def setDialog():
-'''public void setDialog(final URI dialog)
-'''
-pass
+    '''    public void setDialog(final URI dialog)
+    '''
 def setHintHeight():
-'''public void setHintHeight(final String hintHeight)
-'''
-pass
+    '''    public void setHintHeight(final String hintHeight)
+    '''
 def setHintWidth():
-'''public void setHintWidth(final String hintWidth)
-'''
-pass
+    '''    public void setHintWidth(final String hintWidth)
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def setResourceTypes():
-'''public void setResourceTypes(final URI[] resourceTypes)
-'''
-pass
+    '''    public void setResourceTypes(final URI[] resourceTypes)
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def setUsages():
-'''public void setUsages(final URI[] usages)
-'''
-pass
+    '''    public void setUsages(final URI[] usages)
+    '''

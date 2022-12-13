@@ -1,17 +1,13 @@
 def getInstance():
-'''public static AndroidBase64Encoder getInstance()
-'''
-pass
+    '''    public static AndroidBase64Encoder getInstance()
+    '''
 def decode():
-'''public byte[] decode(final String string)
-public byte[] decode(final byte[] input, final int offset, final int len)
-'''
-pass
+    '''    public byte[] decode(final String string)
+    public byte[] decode(final byte[] input, final int offset, final int len)
+    '''
 def encodeToString():
-'''public String encodeToString(final byte[] input, final int offset, final int len)
-'''
-pass
+    '''    public String encodeToString(final byte[] input, final int offset, final int len)
+    '''
 def encode():
-'''public byte[] encode(final byte[] input, final int offset, final int len)
-'''
-pass
+    '''    public byte[] encode(final byte[] input, final int offset, final int len)
+    '''

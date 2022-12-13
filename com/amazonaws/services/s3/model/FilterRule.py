@@ -1,24 +1,18 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def withName():
-'''public FilterRule withName(final String name)
-'''
-pass
+    '''    public FilterRule withName(final String name)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def withValue():
-'''public FilterRule withValue(final String value)
-'''
-pass
+    '''    public FilterRule withValue(final String value)
+    '''

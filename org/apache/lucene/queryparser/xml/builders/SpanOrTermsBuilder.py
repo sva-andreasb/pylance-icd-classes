@@ -1,8 +1,6 @@
 def SpanOrTermsBuilder():
-'''public SpanOrTermsBuilder(final Analyzer analyzer)
-'''
-pass
+    '''    public SpanOrTermsBuilder(final Analyzer analyzer)
+    '''
 def getSpanQuery():
-'''public SpanQuery getSpanQuery(final Element e)
-'''
-pass
+    '''    public SpanQuery getSpanQuery(final Element e)
+    '''

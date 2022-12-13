@@ -1,34 +1,26 @@
 def getPattern():
-'''public String getPattern()
-'''
-pass
+    '''    public String getPattern()
+    '''
 def getTimeZone():
-'''public TimeZone getTimeZone()
-'''
-pass
+    '''    public TimeZone getTimeZone()
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def parseObject():
-'''public Object parseObject(final String source)
-public Object parseObject(final String source, final ParsePosition pos)
-'''
-pass
+    '''    public Object parseObject(final String source)
+    public Object parseObject(final String source, final ParsePosition pos)
+    '''
 def parse():
-'''public Date parse(final String source)
-public Date parse(final String source, final ParsePosition pos)
-'''
-pass
+    '''    public Date parse(final String source)
+    public Date parse(final String source, final ParsePosition pos)
+    '''

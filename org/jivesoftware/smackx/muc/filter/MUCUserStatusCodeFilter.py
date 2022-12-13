@@ -1,13 +1,10 @@
 def MUCUserStatusCodeFilter():
-'''public MUCUserStatusCodeFilter(final MUCUser.Status status)
-public MUCUserStatusCodeFilter(final int statusCode)
-'''
-pass
+    '''    public MUCUserStatusCodeFilter(final MUCUser.Status status)
+    public MUCUserStatusCodeFilter(final int statusCode)
+    '''
 def accept():
-'''public boolean accept(final Stanza stanza)
-'''
-pass
+    '''    public boolean accept(final Stanza stanza)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,16 +1,12 @@
 def PlusPFldSLATicketSiteId():
-'''public PlusPFldSLATicketSiteId(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldSLATicketSiteId(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote valueFromLookup)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''

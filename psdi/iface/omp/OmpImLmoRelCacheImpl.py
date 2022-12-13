@@ -1,29 +1,22 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public synchronized void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public synchronized void reload()
+    public void reload(final String key)
+    '''
 def getOmpLmoKeyMap():
-'''public Map<String, List<OmpImLmoRelInfo>> getOmpLmoKeyMap()
-'''
-pass
+    '''    public Map<String, List<OmpImLmoRelInfo>> getOmpLmoKeyMap()
+    '''
 def getLmoKeyMap():
-'''public Map<String, List<OmpImLmoRelInfo>> getLmoKeyMap()
-'''
-pass
+    '''    public Map<String, List<OmpImLmoRelInfo>> getLmoKeyMap()
+    '''
 def getImKeyMap():
-'''public Map<String, List<OmpImLmoRelInfo>> getImKeyMap()
-'''
-pass
+    '''    public Map<String, List<OmpImLmoRelInfo>> getImKeyMap()
+    '''
 def getOmpguidKeyMap():
-'''public Map<String, List<OmpImLmoRelInfo>> getOmpguidKeyMap()
-'''
-pass
+    '''    public Map<String, List<OmpImLmoRelInfo>> getOmpguidKeyMap()
+    '''

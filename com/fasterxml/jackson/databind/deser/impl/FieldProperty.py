@@ -1,44 +1,33 @@
 def FieldProperty():
-'''public FieldProperty(final BeanPropertyDefinition propDef, final JavaType type, final TypeDeserializer typeDeser, final Annotations contextAnnotations, final AnnotatedField field)
-'''
-pass
+    '''    public FieldProperty(final BeanPropertyDefinition propDef, final JavaType type, final TypeDeserializer typeDeser, final Annotations contextAnnotations, final AnnotatedField field)
+    '''
 def withName():
-'''public SettableBeanProperty withName(final PropertyName newName)
-'''
-pass
+    '''    public SettableBeanProperty withName(final PropertyName newName)
+    '''
 def withValueDeserializer():
-'''public SettableBeanProperty withValueDeserializer(final JsonDeserializer<?> deser)
-'''
-pass
+    '''    public SettableBeanProperty withValueDeserializer(final JsonDeserializer<?> deser)
+    '''
 def withNullProvider():
-'''public SettableBeanProperty withNullProvider(final NullValueProvider nva)
-'''
-pass
+    '''    public SettableBeanProperty withNullProvider(final NullValueProvider nva)
+    '''
 def fixAccess():
-'''public void fixAccess(final DeserializationConfig config)
-'''
-pass
+    '''    public void fixAccess(final DeserializationConfig config)
+    '''
 def getAnnotation():
-'''public <A extends Annotation> A getAnnotation(final Class<A> acls)
-'''
-pass
+    '''    public <A extends Annotation> A getAnnotation(final Class<A> acls)
+    '''
 def getMember():
-'''public AnnotatedMember getMember()
-'''
-pass
+    '''    public AnnotatedMember getMember()
+    '''
 def deserializeAndSet():
-'''public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
-'''
-pass
+    '''    public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''
 def deserializeSetAndReturn():
-'''public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
-'''
-pass
+    '''    public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''
 def set():
-'''public void set(final Object instance, final Object value)
-'''
-pass
+    '''    public void set(final Object instance, final Object value)
+    '''
 def setAndReturn():
-'''public Object setAndReturn(final Object instance, final Object value)
-'''
-pass
+    '''    public Object setAndReturn(final Object instance, final Object value)
+    '''

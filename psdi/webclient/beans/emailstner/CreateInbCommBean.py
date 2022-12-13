@@ -1,4 +1,3 @@
 def CreateInbCommBean():
-'''public CreateInbCommBean()
-'''
-pass
+    '''    public CreateInbCommBean()
+    '''

@@ -1,25 +1,19 @@
 def MaxRecordLockService():
-'''public MaxRecordLockService()
-public MaxRecordLockService(final MXServer mxServer)
-'''
-pass
+    '''    public MaxRecordLockService()
+    public MaxRecordLockService(final MXServer mxServer)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isRecordLockingAllowed():
-'''public boolean isRecordLockingAllowed()
-'''
-pass
+    '''    public boolean isRecordLockingAllowed()
+    '''
 def resetRecordLockTable():
-'''public void resetRecordLockTable()
-'''
-pass
+    '''    public void resetRecordLockTable()
+    '''
 def getRecordLockCache():
-'''public MaxRecordLockCache getRecordLockCache()
-'''
-pass
+    '''    public MaxRecordLockCache getRecordLockCache()
+    '''
 def refreshRecordLockCache():
-'''public void refreshRecordLockCache()
-'''
-pass
+    '''    public void refreshRecordLockCache()
+    '''

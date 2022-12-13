@@ -1,5 +1,4 @@
 def InbxConfigService():
-'''public InbxConfigService()
-public InbxConfigService(final MXServer mxServer)
-'''
-pass
+    '''    public InbxConfigService()
+    public InbxConfigService(final MXServer mxServer)
+    '''

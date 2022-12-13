@@ -1,25 +1,19 @@
 def getInstance():
-'''public static final OslcErrorCache getInstance()
-'''
-pass
+    '''    public static final OslcErrorCache getInstance()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getHttpErrorCode():
-'''public int getHttpErrorCode(final MXException mx)
-'''
-pass
+    '''    public int getHttpErrorCode(final MXException mx)
+    '''
 def getErrors():
-'''public Map<String, OslcErrorInfo> getErrors()
-'''
-pass
+    '''    public Map<String, OslcErrorInfo> getErrors()
+    '''

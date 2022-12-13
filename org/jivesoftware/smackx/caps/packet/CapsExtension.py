@@ -1,34 +1,26 @@
-NAMESPACE = "String  http://jabber.org/protocol/caps""
-ELEMENT = "String  c""
+NAMESPACE = "String  \"http://jabber.org/protocol/caps\""
+ELEMENT = "String  \"c\""
 def CapsExtension():
-'''public CapsExtension(final String node, final String version, final String hash)
-'''
-pass
+    '''    public CapsExtension(final String node, final String version, final String hash)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getNode():
-'''public String getNode()
-'''
-pass
+    '''    public String getNode()
+    '''
 def getVer():
-'''public String getVer()
-'''
-pass
+    '''    public String getVer()
+    '''
 def getHash():
-'''public String getHash()
-'''
-pass
+    '''    public String getHash()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def from():
-'''public static CapsExtension from(final Stanza stanza)
-'''
-pass
+    '''    public static CapsExtension from(final Stanza stanza)
+    '''

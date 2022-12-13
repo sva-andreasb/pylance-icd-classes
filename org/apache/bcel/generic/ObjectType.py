@@ -1,40 +1,30 @@
 def ObjectType():
-'''public ObjectType(final String class_name)
-'''
-pass
+    '''    public ObjectType(final String class_name)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object type)
-'''
-pass
+    '''    public boolean equals(final Object type)
+    '''
 def referencesClass():
-'''public boolean referencesClass()
-'''
-pass
+    '''    public boolean referencesClass()
+    '''
 def referencesInterface():
-'''public boolean referencesInterface()
-'''
-pass
+    '''    public boolean referencesInterface()
+    '''
 def referencesClassExact():
-'''public boolean referencesClassExact()
-'''
-pass
+    '''    public boolean referencesClassExact()
+    '''
 def referencesInterfaceExact():
-'''public boolean referencesInterfaceExact()
-'''
-pass
+    '''    public boolean referencesInterfaceExact()
+    '''
 def subclassOf():
-'''public boolean subclassOf(final ObjectType superclass)
-'''
-pass
+    '''    public boolean subclassOf(final ObjectType superclass)
+    '''
 def accessibleTo():
-'''public boolean accessibleTo(final ObjectType accessor)
-'''
-pass
+    '''    public boolean accessibleTo(final ObjectType accessor)
+    '''

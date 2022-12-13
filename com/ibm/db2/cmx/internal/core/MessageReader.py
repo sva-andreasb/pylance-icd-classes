@@ -1,8 +1,6 @@
 def MessageReader():
-'''public MessageReader(final ConnectionImpl cmxConnection_)
-'''
-pass
+    '''    public MessageReader(final ConnectionImpl cmxConnection_)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

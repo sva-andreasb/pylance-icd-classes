@@ -8,10 +8,8 @@ IMMEDIATE = "int  6"
 START_ARRAY = "int  7"
 END_ARRAY = "int  8"
 def PAToken():
-'''public PAToken(final Object value, final int type)
-'''
-pass
+    '''    public PAToken(final Object value, final int type)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

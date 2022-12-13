@@ -1,4 +1,3 @@
 def PersistStatusSet():
-'''public PersistStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PersistStatusSet(final MboServerInterface ms)
+    '''

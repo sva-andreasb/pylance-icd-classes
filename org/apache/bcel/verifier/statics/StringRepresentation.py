@@ -1,132 +1,99 @@
 def StringRepresentation():
-'''public StringRepresentation(final Node n)
-'''
-pass
+    '''    public StringRepresentation(final Node n)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def visitCode():
-'''public void visitCode(final Code obj)
-'''
-pass
+    '''    public void visitCode(final Code obj)
+    '''
 def visitCodeException():
-'''public void visitCodeException(final CodeException obj)
-'''
-pass
+    '''    public void visitCodeException(final CodeException obj)
+    '''
 def visitConstantClass():
-'''public void visitConstantClass(final ConstantClass obj)
-'''
-pass
+    '''    public void visitConstantClass(final ConstantClass obj)
+    '''
 def visitConstantDouble():
-'''public void visitConstantDouble(final ConstantDouble obj)
-'''
-pass
+    '''    public void visitConstantDouble(final ConstantDouble obj)
+    '''
 def visitConstantFieldref():
-'''public void visitConstantFieldref(final ConstantFieldref obj)
-'''
-pass
+    '''    public void visitConstantFieldref(final ConstantFieldref obj)
+    '''
 def visitConstantFloat():
-'''public void visitConstantFloat(final ConstantFloat obj)
-'''
-pass
+    '''    public void visitConstantFloat(final ConstantFloat obj)
+    '''
 def visitConstantInteger():
-'''public void visitConstantInteger(final ConstantInteger obj)
-'''
-pass
+    '''    public void visitConstantInteger(final ConstantInteger obj)
+    '''
 def visitConstantInterfaceMethodref():
-'''public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref obj)
-'''
-pass
+    '''    public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref obj)
+    '''
 def visitConstantLong():
-'''public void visitConstantLong(final ConstantLong obj)
-'''
-pass
+    '''    public void visitConstantLong(final ConstantLong obj)
+    '''
 def visitConstantMethodref():
-'''public void visitConstantMethodref(final ConstantMethodref obj)
-'''
-pass
+    '''    public void visitConstantMethodref(final ConstantMethodref obj)
+    '''
 def visitConstantNameAndType():
-'''public void visitConstantNameAndType(final ConstantNameAndType obj)
-'''
-pass
+    '''    public void visitConstantNameAndType(final ConstantNameAndType obj)
+    '''
 def visitConstantPool():
-'''public void visitConstantPool(final ConstantPool obj)
-'''
-pass
+    '''    public void visitConstantPool(final ConstantPool obj)
+    '''
 def visitConstantString():
-'''public void visitConstantString(final ConstantString obj)
-'''
-pass
+    '''    public void visitConstantString(final ConstantString obj)
+    '''
 def visitConstantUtf8():
-'''public void visitConstantUtf8(final ConstantUtf8 obj)
-'''
-pass
+    '''    public void visitConstantUtf8(final ConstantUtf8 obj)
+    '''
 def visitConstantValue():
-'''public void visitConstantValue(final ConstantValue obj)
-'''
-pass
+    '''    public void visitConstantValue(final ConstantValue obj)
+    '''
 def visitDeprecated():
-'''public void visitDeprecated(final Deprecated obj)
-'''
-pass
+    '''    public void visitDeprecated(final Deprecated obj)
+    '''
 def visitExceptionTable():
-'''public void visitExceptionTable(final ExceptionTable obj)
-'''
-pass
+    '''    public void visitExceptionTable(final ExceptionTable obj)
+    '''
 def visitField():
-'''public void visitField(final Field obj)
-'''
-pass
+    '''    public void visitField(final Field obj)
+    '''
 def visitInnerClass():
-'''public void visitInnerClass(final InnerClass obj)
-'''
-pass
+    '''    public void visitInnerClass(final InnerClass obj)
+    '''
 def visitInnerClasses():
-'''public void visitInnerClasses(final InnerClasses obj)
-'''
-pass
+    '''    public void visitInnerClasses(final InnerClasses obj)
+    '''
 def visitJavaClass():
-'''public void visitJavaClass(final JavaClass obj)
-'''
-pass
+    '''    public void visitJavaClass(final JavaClass obj)
+    '''
 def visitLineNumber():
-'''public void visitLineNumber(final LineNumber obj)
-'''
-pass
+    '''    public void visitLineNumber(final LineNumber obj)
+    '''
 def visitLineNumberTable():
-'''public void visitLineNumberTable(final LineNumberTable obj)
-'''
-pass
+    '''    public void visitLineNumberTable(final LineNumberTable obj)
+    '''
 def visitLocalVariable():
-'''public void visitLocalVariable(final LocalVariable obj)
-'''
-pass
+    '''    public void visitLocalVariable(final LocalVariable obj)
+    '''
 def visitLocalVariableTable():
-'''public void visitLocalVariableTable(final LocalVariableTable obj)
-'''
-pass
+    '''    public void visitLocalVariableTable(final LocalVariableTable obj)
+    '''
 def visitMethod():
-'''public void visitMethod(final Method obj)
-'''
-pass
+    '''    public void visitMethod(final Method obj)
+    '''
 def visitSignature():
-'''public void visitSignature(final Signature obj)
-'''
-pass
+    '''    public void visitSignature(final Signature obj)
+    '''
 def visitSourceFile():
-'''public void visitSourceFile(final SourceFile obj)
-'''
-pass
+    '''    public void visitSourceFile(final SourceFile obj)
+    '''
 def visitStackMap():
-'''public void visitStackMap(final StackMap obj)
-'''
-pass
+    '''    public void visitStackMap(final StackMap obj)
+    '''
 def visitSynthetic():
-'''public void visitSynthetic(final Synthetic obj)
-'''
-pass
+    '''    public void visitSynthetic(final Synthetic obj)
+    '''
 def visitUnknown():
-'''public void visitUnknown(final Unknown obj)
-'''
-pass
+    '''    public void visitUnknown(final Unknown obj)
+    '''

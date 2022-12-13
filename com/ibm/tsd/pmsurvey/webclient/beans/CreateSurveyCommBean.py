@@ -1,8 +1,6 @@
 def CreateSurveyCommBean():
-'''public CreateSurveyCommBean()
-'''
-pass
+    '''    public CreateSurveyCommBean()
+    '''
 def sendmessage():
-'''public int sendmessage()
-'''
-pass
+    '''    public int sendmessage()
+    '''

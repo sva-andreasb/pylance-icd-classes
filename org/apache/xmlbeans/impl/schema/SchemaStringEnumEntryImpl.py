@@ -1,16 +1,12 @@
 def SchemaStringEnumEntryImpl():
-'''public SchemaStringEnumEntryImpl(final String str, final int i, final String enumName)
-'''
-pass
+    '''    public SchemaStringEnumEntryImpl(final String str, final int i, final String enumName)
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def getIntValue():
-'''public int getIntValue()
-'''
-pass
+    '''    public int getIntValue()
+    '''
 def getEnumName():
-'''public String getEnumName()
-'''
-pass
+    '''    public String getEnumName()
+    '''

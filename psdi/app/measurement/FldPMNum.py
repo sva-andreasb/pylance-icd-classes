@@ -1,20 +1,15 @@
 def FldPMNum():
-'''public FldPMNum(final MboValue mbv)
-'''
-pass
+    '''    public FldPMNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setTheCriteria():
-'''public void setTheCriteria()
-'''
-pass
+    '''    public void setTheCriteria()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

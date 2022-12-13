@@ -1,9 +1,7 @@
 def ExtendableQueryParser():
-'''public ExtendableQueryParser(final String f, final Analyzer a)
-public ExtendableQueryParser(final String f, final Analyzer a, final Extensions ext)
-'''
-pass
+    '''    public ExtendableQueryParser(final String f, final Analyzer a)
+    public ExtendableQueryParser(final String f, final Analyzer a, final Extensions ext)
+    '''
 def getExtensionFieldDelimiter():
-'''public char getExtensionFieldDelimiter()
-'''
-pass
+    '''    public char getExtensionFieldDelimiter()
+    '''

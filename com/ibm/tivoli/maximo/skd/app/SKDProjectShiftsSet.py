@@ -1,4 +1,3 @@
 def SKDProjectShiftsSet():
-'''public SKDProjectShiftsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDProjectShiftsSet(final MboServerInterface ms)
+    '''

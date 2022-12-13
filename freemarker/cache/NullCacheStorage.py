@@ -1,24 +1,18 @@
 def isConcurrent():
-'''public boolean isConcurrent()
-'''
-pass
+    '''    public boolean isConcurrent()
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def put():
-'''public void put(final Object key, final Object value)
-'''
-pass
+    '''    public void put(final Object key, final Object value)
+    '''
 def remove():
-'''public void remove(final Object key)
-'''
-pass
+    '''    public void remove(final Object key)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''

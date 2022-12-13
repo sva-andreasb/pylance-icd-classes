@@ -1,24 +1,18 @@
 def MboSchemaInfo():
-'''public MboSchemaInfo(final String name)
-'''
-pass
+    '''    public MboSchemaInfo(final String name)
+    '''
 def addChild():
-'''public void addChild(final String relName)
-'''
-pass
+    '''    public void addChild(final String relName)
+    '''
 def getChildren():
-'''public List<MboSchemaInfo> getChildren()
-'''
-pass
+    '''    public List<MboSchemaInfo> getChildren()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isSetKeysOnUpdate():
-'''public boolean isSetKeysOnUpdate()
-'''
-pass
+    '''    public boolean isSetKeysOnUpdate()
+    '''
 def setSetKeysOnUpdate():
-'''public void setSetKeysOnUpdate(final boolean setKeysOnUpdate)
-'''
-pass
+    '''    public void setSetKeysOnUpdate(final boolean setKeysOnUpdate)
+    '''

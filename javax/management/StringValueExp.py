@@ -1,21 +1,16 @@
 def StringValueExp():
-'''public StringValueExp()
-public StringValueExp(final String val)
-'''
-pass
+    '''    public StringValueExp()
+    public StringValueExp(final String val)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setMBeanServer():
-'''public void setMBeanServer(final MBeanServer mBeanServer)
-'''
-pass
+    '''    public void setMBeanServer(final MBeanServer mBeanServer)
+    '''
 def apply():
-'''public ValueExp apply(final ObjectName objectName)
-'''
-pass
+    '''    public ValueExp apply(final ObjectName objectName)
+    '''

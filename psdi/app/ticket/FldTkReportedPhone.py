@@ -1,8 +1,6 @@
 def FldTkReportedPhone():
-'''public FldTkReportedPhone(final MboValue mbv)
-'''
-pass
+    '''    public FldTkReportedPhone(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def EditErrorData():
-'''public EditErrorData(final MboSet ms)
-'''
-pass
+    '''    public EditErrorData(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

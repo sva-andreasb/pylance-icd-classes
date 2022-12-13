@@ -1,108 +1,81 @@
 def HTMLAnchorElement():
-'''public HTMLAnchorElement(final DOMObject domObject, final HTMLDocument htmlDocument)
-'''
-pass
+    '''    public HTMLAnchorElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+    '''
 def getAccessKey():
-'''public String getAccessKey()
-'''
-pass
+    '''    public String getAccessKey()
+    '''
 def setAccessKey():
-'''public void setAccessKey(final String s)
-'''
-pass
+    '''    public void setAccessKey(final String s)
+    '''
 def getCharset():
-'''public String getCharset()
-'''
-pass
+    '''    public String getCharset()
+    '''
 def setCharset():
-'''public void setCharset(final String s)
-'''
-pass
+    '''    public void setCharset(final String s)
+    '''
 def getCoords():
-'''public String getCoords()
-'''
-pass
+    '''    public String getCoords()
+    '''
 def setCoords():
-'''public void setCoords(final String s)
-'''
-pass
+    '''    public void setCoords(final String s)
+    '''
 def getHref():
-'''public String getHref()
-'''
-pass
+    '''    public String getHref()
+    '''
 def setHref():
-'''public void setHref(final String s)
-'''
-pass
+    '''    public void setHref(final String s)
+    '''
 def getHreflang():
-'''public String getHreflang()
-'''
-pass
+    '''    public String getHreflang()
+    '''
 def setHreflang():
-'''public void setHreflang(final String s)
-'''
-pass
+    '''    public void setHreflang(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getRel():
-'''public String getRel()
-'''
-pass
+    '''    public String getRel()
+    '''
 def setRel():
-'''public void setRel(final String s)
-'''
-pass
+    '''    public void setRel(final String s)
+    '''
 def getRev():
-'''public String getRev()
-'''
-pass
+    '''    public String getRev()
+    '''
 def setRev():
-'''public void setRev(final String s)
-'''
-pass
+    '''    public void setRev(final String s)
+    '''
 def getShape():
-'''public String getShape()
-'''
-pass
+    '''    public String getShape()
+    '''
 def setShape():
-'''public void setShape(final String s)
-'''
-pass
+    '''    public void setShape(final String s)
+    '''
 def getTabIndex():
-'''public int getTabIndex()
-'''
-pass
+    '''    public int getTabIndex()
+    '''
 def setTabIndex():
-'''public void setTabIndex(final int n)
-'''
-pass
+    '''    public void setTabIndex(final int n)
+    '''
 def getTarget():
-'''public String getTarget()
-'''
-pass
+    '''    public String getTarget()
+    '''
 def setTarget():
-'''public void setTarget(final String s)
-'''
-pass
+    '''    public void setTarget(final String s)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String s)
-'''
-pass
+    '''    public void setType(final String s)
+    '''
 def blur():
-'''public void blur()
-'''
-pass
+    '''    public void blur()
+    '''
 def focus():
-'''public void focus()
-'''
-pass
+    '''    public void focus()
+    '''

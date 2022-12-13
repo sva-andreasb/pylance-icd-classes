@@ -1,20 +1,15 @@
 def MasUserAnalyzerCronTask():
-'''public MasUserAnalyzerCronTask()
-'''
-pass
+    '''    public MasUserAnalyzerCronTask()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronActionMT():
-'''public void cronActionMT(final UserInfo info)
-'''
-pass
+    '''    public void cronActionMT(final UserInfo info)
+    '''
 def afterCronActionMT():
-'''public void afterCronActionMT()
-'''
-pass
+    '''    public void afterCronActionMT()
+    '''

@@ -1,4 +1,3 @@
 def getInstance():
-'''public static OfferContent getInstance()
-'''
-pass
+    '''    public static OfferContent getInstance()
+    '''

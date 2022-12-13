@@ -1,47 +1,36 @@
 def BoundedInputStream():
-'''public BoundedInputStream(final InputStream in, final long size)
-public BoundedInputStream(final InputStream in)
-'''
-pass
+    '''    public BoundedInputStream(final InputStream in, final long size)
+    public BoundedInputStream(final InputStream in)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b)
-public int read(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b)
+    public int read(final byte[] b, final int off, final int len)
+    '''
 def skip():
-'''public long skip(final long n)
-'''
-pass
+    '''    public long skip(final long n)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def mark():
-'''public synchronized void mark(final int readlimit)
-'''
-pass
+    '''    public synchronized void mark(final int readlimit)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def isPropagateClose():
-'''public boolean isPropagateClose()
-'''
-pass
+    '''    public boolean isPropagateClose()
+    '''
 def setPropagateClose():
-'''public void setPropagateClose(final boolean propagateClose)
-'''
-pass
+    '''    public void setPropagateClose(final boolean propagateClose)
+    '''

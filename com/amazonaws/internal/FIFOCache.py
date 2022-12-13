@@ -1,24 +1,18 @@
 def FIFOCache():
-'''public FIFOCache(final int maxSize)
-'''
-pass
+    '''    public FIFOCache(final int maxSize)
+    '''
 def add():
-'''public T add(final String key, final T value)
-'''
-pass
+    '''    public T add(final String key, final T value)
+    '''
 def get():
-'''public T get(final String key)
-'''
-pass
+    '''    public T get(final String key)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getMaxSize():
-'''public int getMaxSize()
-'''
-pass
+    '''    public int getMaxSize()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

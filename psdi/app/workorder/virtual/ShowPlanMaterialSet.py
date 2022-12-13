@@ -1,4 +1,3 @@
 def ShowPlanMaterialSet():
-'''public ShowPlanMaterialSet(final MboRemote owner)
-'''
-pass
+    '''    public ShowPlanMaterialSet(final MboRemote owner)
+    '''

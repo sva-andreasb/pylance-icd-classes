@@ -1,4 +1,3 @@
 def FldIfaceControl():
-'''public FldIfaceControl(final MboValue mbv)
-'''
-pass
+    '''    public FldIfaceControl(final MboValue mbv)
+    '''

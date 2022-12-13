@@ -1,12 +1,9 @@
 def MboCounter():
-'''public MboCounter(final Mbo mbo, final ReferenceQueue phantomQueue)
-'''
-pass
+    '''    public MboCounter(final Mbo mbo, final ReferenceQueue phantomQueue)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getTenantID():
-'''public int getTenantID()
-'''
-pass
+    '''    public int getTenantID()
+    '''

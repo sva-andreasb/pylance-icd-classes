@@ -1,32 +1,24 @@
 def WeakIdentityMap():
-'''public WeakIdentityMap()
-'''
-pass
+    '''    public WeakIdentityMap()
+    '''
 def put():
-'''public Object put(final Object o, final Object o2)
-'''
-pass
+    '''    public Object put(final Object o, final Object o2)
+    '''
 def get():
-'''public Object get(final Object o)
-'''
-pass
+    '''    public Object get(final Object o)
+    '''
 def remove():
-'''public Object remove(final Object o)
-'''
-pass
+    '''    public Object remove(final Object o)
+    '''
 def values():
-'''public Collection values()
-'''
-pass
+    '''    public Collection values()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

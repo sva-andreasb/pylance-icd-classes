@@ -1,32 +1,25 @@
 def DocumentContentSource():
-'''public DocumentContentSource(final Document doc, final InputStream src)
-public DocumentContentSource(final Document doc, final byte[] data)
-public DocumentContentSource(final Document doc, final File file)
-'''
-pass
+    '''    public DocumentContentSource(final Document doc, final InputStream src)
+    public DocumentContentSource(final Document doc, final byte[] data)
+    public DocumentContentSource(final Document doc, final File file)
+    '''
 def getDocument():
-'''public Document getDocument()
-'''
-pass
+    '''    public Document getDocument()
+    '''
 def setDocument():
-'''public void setDocument(final Document document)
-'''
-pass
+    '''    public void setDocument(final Document document)
+    '''
 def getSource():
-'''public InputStream getSource()
-'''
-pass
+    '''    public InputStream getSource()
+    '''
 def setSource():
-'''public void setSource(final InputStream source)
-public void setSource(final byte[] data)
-public void setSource(final File file)
-'''
-pass
+    '''    public void setSource(final InputStream source)
+    public void setSource(final byte[] data)
+    public void setSource(final File file)
+    '''
 def getLastModified():
-'''public long getLastModified()
-'''
-pass
+    '''    public long getLastModified()
+    '''
 def setLastModified():
-'''public void setLastModified(final long t)
-'''
-pass
+    '''    public void setLastModified(final long t)
+    '''

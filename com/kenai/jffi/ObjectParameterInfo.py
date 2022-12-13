@@ -4,19 +4,15 @@ PINNED = "int  8"
 NULTERMINATE = "int  4"
 CLEAR = "int  16"
 def create():
-'''public static ObjectParameterInfo create(final int parameterIndex, final ObjectType objectType, final ComponentType componentType, final int ioflags)
-public static ObjectParameterInfo create(final int parameterIndex, final int ioflags)
-'''
-pass
+    '''    public static ObjectParameterInfo create(final int parameterIndex, final ObjectType objectType, final ComponentType componentType, final int ioflags)
+    public static ObjectParameterInfo create(final int parameterIndex, final int ioflags)
+    '''
 def getParameterIndex():
-'''public final int getParameterIndex()
-'''
-pass
+    '''    public final int getParameterIndex()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

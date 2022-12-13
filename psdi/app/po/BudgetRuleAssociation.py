@@ -1,36 +1,27 @@
 def BudgetRuleAssociation():
-'''public BudgetRuleAssociation(final MboSet ms)
-'''
-pass
+    '''    public BudgetRuleAssociation(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def setAttributeName():
-'''public void setAttributeName(final String attributeName)
-'''
-pass
+    '''    public void setAttributeName(final String attributeName)
+    '''
 def getDataAccessor():
-'''public String getDataAccessor()
-'''
-pass
+    '''    public String getDataAccessor()
+    '''
 def getDataAccessorInstance():
-'''public DataAccessor getDataAccessorInstance()
-'''
-pass
+    '''    public DataAccessor getDataAccessorInstance()
+    '''
 def getAxis():
-'''public BudgetAnalysisAxisRemote getAxis()
-'''
-pass
+    '''    public BudgetAnalysisAxisRemote getAxis()
+    '''
 def setAxis():
-'''public void setAxis(final BudgetAnalysisAxisRemote axis)
-'''
-pass
+    '''    public void setAxis(final BudgetAnalysisAxisRemote axis)
+    '''
 def getRule():
-'''public BudgetRuleRemote getRule()
-'''
-pass
+    '''    public BudgetRuleRemote getRule()
+    '''

@@ -1,28 +1,21 @@
 def initialize():
-'''public static synchronized boolean initialize()
-'''
-pass
+    '''    public static synchronized boolean initialize()
+    '''
 def accept():
-'''public boolean accept(final File dir, final String name)
-'''
-pass
+    '''    public boolean accept(final File dir, final String name)
+    '''
 def isPureJavaMode():
-'''public static boolean isPureJavaMode()
-'''
-pass
+    '''    public static boolean isPureJavaMode()
+    '''
 def isNativeMode():
-'''public static boolean isNativeMode()
-'''
-pass
+    '''    public static boolean isNativeMode()
+    '''
 def getMajorVersion():
-'''public static int getMajorVersion()
-'''
-pass
+    '''    public static int getMajorVersion()
+    '''
 def getMinorVersion():
-'''public static int getMinorVersion()
-'''
-pass
+    '''    public static int getMinorVersion()
+    '''
 def getVersion():
-'''public static String getVersion()
-'''
-pass
+    '''    public static String getVersion()
+    '''

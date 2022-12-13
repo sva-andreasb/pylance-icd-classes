@@ -1,40 +1,30 @@
 def AbstractWSDLElement():
-'''public AbstractWSDLElement()
-'''
-pass
+    '''    public AbstractWSDLElement()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def addExtensibilityElement():
-'''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
-'''
-pass
+    '''    public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''
 def removeExtensibilityElement():
-'''public ExtensibilityElement removeExtensibilityElement(final ExtensibilityElement extensibilityElement)
-'''
-pass
+    '''    public ExtensibilityElement removeExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''
 def getExtensibilityElements():
-'''public List getExtensibilityElements()
-'''
-pass
+    '''    public List getExtensibilityElements()
+    '''
 def setExtensionAttribute():
-'''public void setExtensionAttribute(final QName qName, final Object o)
-'''
-pass
+    '''    public void setExtensionAttribute(final QName qName, final Object o)
+    '''
 def getExtensionAttribute():
-'''public Object getExtensionAttribute(final QName qName)
-'''
-pass
+    '''    public Object getExtensionAttribute(final QName qName)
+    '''
 def getExtensionAttributes():
-'''public Map getExtensionAttributes()
-'''
-pass
+    '''    public Map getExtensionAttributes()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

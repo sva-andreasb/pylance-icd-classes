@@ -1,68 +1,51 @@
 def SplitUseLine():
-'''public SplitUseLine(final MboSet ms)
-'''
-pass
+    '''    public SplitUseLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def autoSplitRecords():
-'''public MboSetRemote autoSplitRecords(final MboSetRemote lineSplitSet)
-'''
-pass
+    '''    public MboSetRemote autoSplitRecords(final MboSetRemote lineSplitSet)
+    '''
 def splitRecords():
-'''public MboSetRemote splitRecords(final MboSetRemote lineSplitSet)
-'''
-pass
+    '''    public MboSetRemote splitRecords(final MboSetRemote lineSplitSet)
+    '''
 def splitRecordsForRotItems():
-'''public MboSetRemote splitRecordsForRotItems(final MboSetRemote lineSplitSet)
-'''
-pass
+    '''    public MboSetRemote splitRecordsForRotItems(final MboSetRemote lineSplitSet)
+    '''
 def splitRecordsForLotItems():
-'''public MboSetRemote splitRecordsForLotItems(final MboSetRemote lineSplitSet)
-'''
-pass
+    '''    public MboSetRemote splitRecordsForLotItems(final MboSetRemote lineSplitSet)
+    '''
 def setFieldsForSplitRotating():
-'''public void setFieldsForSplitRotating(final MboRemote linesplit, final String frombin, final String rotassetnum)
-'''
-pass
+    '''    public void setFieldsForSplitRotating(final MboRemote linesplit, final String frombin, final String rotassetnum)
+    '''
 def setFieldsForSplit():
-'''public void setFieldsForSplit(final MboRemote linesplit, final MboRemote invBal, final double qty)
-'''
-pass
+    '''    public void setFieldsForSplit(final MboRemote linesplit, final MboRemote invBal, final double qty)
+    '''
 def splitQty():
-'''public LinkedHashMap<InvBalancesRemote, Double> splitQty()
-'''
-pass
+    '''    public LinkedHashMap<InvBalancesRemote, Double> splitQty()
+    '''
 def getInvBalancesDefaultbin():
-'''public MboRemote getInvBalancesDefaultbin()
-'''
-pass
+    '''    public MboRemote getInvBalancesDefaultbin()
+    '''
 def chkPickListMbo():
-'''public boolean chkPickListMbo(final MboRemote owner)
-'''
-pass
+    '''    public boolean chkPickListMbo(final MboRemote owner)
+    '''
 def splitQtyforRotating():
-'''public ArrayList<MboRemote> splitQtyforRotating()
-'''
-pass
+    '''    public ArrayList<MboRemote> splitQtyforRotating()
+    '''
 def splitQtyforLotItems():
-'''public LinkedHashMap<InvBalancesRemote, Double> splitQtyforLotItems()
-'''
-pass
+    '''    public LinkedHashMap<InvBalancesRemote, Double> splitQtyforLotItems()
+    '''
 def checkLot():
-'''public boolean checkLot(final MboRemote invBal)
-'''
-pass
+    '''    public boolean checkLot(final MboRemote invBal)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def isIssue():
-'''public boolean isIssue()
-'''
-pass
+    '''    public boolean isIssue()
+    '''

@@ -1,4 +1,3 @@
 def FldPOLineNum():
-'''public FldPOLineNum(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineNum(final MboValue mbv)
+    '''

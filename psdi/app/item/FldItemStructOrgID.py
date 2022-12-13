@@ -1,8 +1,6 @@
 def FldItemStructOrgID():
-'''public FldItemStructOrgID(final MboValue mbv)
-'''
-pass
+    '''    public FldItemStructOrgID(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

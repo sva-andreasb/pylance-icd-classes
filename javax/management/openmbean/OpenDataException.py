@@ -1,5 +1,4 @@
 def OpenDataException():
-'''public OpenDataException()
-public OpenDataException(final String s)
-'''
-pass
+    '''    public OpenDataException()
+    public OpenDataException(final String s)
+    '''

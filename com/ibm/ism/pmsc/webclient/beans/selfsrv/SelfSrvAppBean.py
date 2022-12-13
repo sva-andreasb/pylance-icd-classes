@@ -1,12 +1,9 @@
 def SelfSrvAppBean():
-'''public SelfSrvAppBean()
-'''
-pass
+    '''    public SelfSrvAppBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''

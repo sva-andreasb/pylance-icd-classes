@@ -1,12 +1,9 @@
 def newrecord():
-'''public int newrecord()
-'''
-pass
+    '''    public int newrecord()
+    '''
 def viewdetails():
-'''public int viewdetails()
-'''
-pass
+    '''    public int viewdetails()
+    '''
 def saverecord():
-'''public synchronized void saverecord()
-'''
-pass
+    '''    public synchronized void saverecord()
+    '''

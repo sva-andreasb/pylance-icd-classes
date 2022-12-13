@@ -1,16 +1,12 @@
 def isDeclareKind():
-'''public boolean isDeclareKind()
-'''
-pass
+    '''    public boolean isDeclareKind()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getKindFor():
-'''public static Kind getKindFor(final String stringFormOfRelationshipKind)
-'''
-pass
+    '''    public static Kind getKindFor(final String stringFormOfRelationshipKind)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,20 +1,15 @@
 def getNewValue():
-'''public String getNewValue()
-'''
-pass
+    '''    public String getNewValue()
+    '''
 def setNewValue():
-'''public void setNewValue(final String c)
-'''
-pass
+    '''    public void setNewValue(final String c)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String c)
-'''
-pass
+    '''    public void setValue(final String c)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

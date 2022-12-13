@@ -1,20 +1,15 @@
 def SKDWOTaskRelationRecordsBean():
-'''public SKDWOTaskRelationRecordsBean()
-'''
-pass
+    '''    public SKDWOTaskRelationRecordsBean()
+    '''
 def getRemoteForDownload():
-'''public MboSetRemote getRemoteForDownload()
-'''
-pass
+    '''    public MboSetRemote getRemoteForDownload()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def filterByError():
-'''public void filterByError(final String valMsg)
-'''
-pass
+    '''    public void filterByError(final String valMsg)
+    '''

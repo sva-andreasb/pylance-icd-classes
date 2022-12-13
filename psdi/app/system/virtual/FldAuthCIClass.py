@@ -1,4 +1,3 @@
 def FldAuthCIClass():
-'''public FldAuthCIClass(final MboValue mbv)
-'''
-pass
+    '''    public FldAuthCIClass(final MboValue mbv)
+    '''

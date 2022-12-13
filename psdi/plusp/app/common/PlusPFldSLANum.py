@@ -1,12 +1,9 @@
 def PlusPFldSLANum():
-'''public PlusPFldSLANum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldSLANum(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,4 +1,3 @@
 def deleteSummary():
-'''public int deleteSummary()
-'''
-pass
+    '''    public int deleteSummary()
+    '''

@@ -1,106 +1,80 @@
 NODE_CURRENT = "int  1"
 NODE_ERROR = "int  2"
 def WorkflowNode():
-'''public WorkflowNode(final Object id)
-'''
-pass
+    '''    public WorkflowNode(final Object id)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getType():
-'''public Object getType()
-'''
-pass
+    '''    public Object getType()
+    '''
 def setType():
-'''public void setType(final Object type)
-'''
-pass
+    '''    public void setType(final Object type)
+    '''
 def getWorkflow():
-'''public Workflow getWorkflow()
-'''
-pass
+    '''    public Workflow getWorkflow()
+    '''
 def setWorkflow():
-'''public void setWorkflow(final Workflow workflow)
-'''
-pass
+    '''    public void setWorkflow(final Workflow workflow)
+    '''
 def getRow():
-'''public int getRow()
-'''
-pass
+    '''    public int getRow()
+    '''
 def setRow():
-'''public void setRow(final int row)
-'''
-pass
+    '''    public void setRow(final int row)
+    '''
 def getColumn():
-'''public int getColumn()
-'''
-pass
+    '''    public int getColumn()
+    '''
 def setColumn():
-'''public void setColumn(final int column)
-'''
-pass
+    '''    public void setColumn(final int column)
+    '''
 def getId():
-'''public Object getId()
-'''
-pass
+    '''    public Object getId()
+    '''
 def setId():
-'''public void setId(final Object id)
-'''
-pass
+    '''    public void setId(final Object id)
+    '''
 def setState():
-'''public void setState(final int state)
-'''
-pass
+    '''    public void setState(final int state)
+    '''
 def testState():
-'''public boolean testState(final int whichState)
-'''
-pass
+    '''    public boolean testState(final int whichState)
+    '''
 def clearState():
-'''public void clearState(final int whichState)
-'''
-pass
+    '''    public void clearState(final int whichState)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def copy():
-'''public WorkflowEntity copy()
-'''
-pass
+    '''    public WorkflowEntity copy()
+    '''
 def restoreFrom():
-'''public void restoreFrom(final WorkflowEntity entity)
-'''
-pass
+    '''    public void restoreFrom(final WorkflowEntity entity)
+    '''
 def getMaximumIncoming():
-'''public int getMaximumIncoming()
-'''
-pass
+    '''    public int getMaximumIncoming()
+    '''
 def getMaximumOutgoing():
-'''public int getMaximumOutgoing()
-'''
-pass
+    '''    public int getMaximumOutgoing()
+    '''
 def getMinimumIncoming():
-'''public int getMinimumIncoming()
-'''
-pass
+    '''    public int getMinimumIncoming()
+    '''
 def getMinimumOutgoing():
-'''public int getMinimumOutgoing()
-'''
-pass
+    '''    public int getMinimumOutgoing()
+    '''
 def setErrorKey():
-'''public void setErrorKey(final String errorKey)
-'''
-pass
+    '''    public void setErrorKey(final String errorKey)
+    '''
 def getErrorKey():
-'''public String getErrorKey()
-'''
-pass
+    '''    public String getErrorKey()
+    '''
 def hasProperties():
-'''public boolean hasProperties()
-'''
-pass
+    '''    public boolean hasProperties()
+    '''

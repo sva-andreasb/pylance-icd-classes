@@ -1,8 +1,6 @@
 def ThreadFilter():
-'''public ThreadFilter(final String thread)
-'''
-pass
+    '''    public ThreadFilter(final String thread)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''

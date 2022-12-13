@@ -1,4 +1,3 @@
 def IEMSiteMboSet():
-'''public IEMSiteMboSet(final MboServerInterface ms)
-'''
-pass
+    '''    public IEMSiteMboSet(final MboServerInterface ms)
+    '''

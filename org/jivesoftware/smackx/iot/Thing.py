@@ -1,76 +1,57 @@
 def getMetaTags():
-'''public Collection<Tag> getMetaTags()
-'''
-pass
+    '''    public Collection<Tag> getMetaTags()
+    '''
 def isSelfOwened():
-'''public boolean isSelfOwened()
-'''
-pass
+    '''    public boolean isSelfOwened()
+    '''
 def getNodeInfo():
-'''public NodeInfo getNodeInfo()
-'''
-pass
+    '''    public NodeInfo getNodeInfo()
+    '''
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''
 def getSourceId():
-'''public String getSourceId()
-'''
-pass
+    '''    public String getSourceId()
+    '''
 def getCacheType():
-'''public String getCacheType()
-'''
-pass
+    '''    public String getCacheType()
+    '''
 def getMomentaryReadOutRequestHandler():
-'''public ThingMomentaryReadOutRequest getMomentaryReadOutRequestHandler()
-'''
-pass
+    '''    public ThingMomentaryReadOutRequest getMomentaryReadOutRequestHandler()
+    '''
 def getControlRequestHandler():
-'''public ThingControlRequest getControlRequestHandler()
-'''
-pass
+    '''    public ThingControlRequest getControlRequestHandler()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def builder():
-'''public static Builder builder()
-'''
-pass
+    '''    public static Builder builder()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def setSerialNumber():
-'''public Builder setSerialNumber(final String sn)
-'''
-pass
+    '''    public Builder setSerialNumber(final String sn)
+    '''
 def setKey():
-'''public Builder setKey(final String key)
-'''
-pass
+    '''    public Builder setKey(final String key)
+    '''
 def setManufacturer():
-'''public Builder setManufacturer(final String manufacturer)
-'''
-pass
+    '''    public Builder setManufacturer(final String manufacturer)
+    '''
 def setModel():
-'''public Builder setModel(final String model)
-'''
-pass
+    '''    public Builder setModel(final String model)
+    '''
 def setVersion():
-'''public Builder setVersion(final String version)
-'''
-pass
+    '''    public Builder setVersion(final String version)
+    '''
 def setMomentaryReadOutRequestHandler():
-'''public Builder setMomentaryReadOutRequestHandler(final ThingMomentaryReadOutRequest momentaryReadOutRequestHandler)
-'''
-pass
+    '''    public Builder setMomentaryReadOutRequestHandler(final ThingMomentaryReadOutRequest momentaryReadOutRequestHandler)
+    '''
 def setControlRequestHandler():
-'''public Builder setControlRequestHandler(final ThingControlRequest controlRequest)
-'''
-pass
+    '''    public Builder setControlRequestHandler(final ThingControlRequest controlRequest)
+    '''
 def build():
-'''public Thing build()
-'''
-pass
+    '''    public Thing build()
+    '''

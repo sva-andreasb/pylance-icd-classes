@@ -1,70 +1,53 @@
 def DefaultPriorityQueue():
-'''public DefaultPriorityQueue(final Comparator<T> comparator, final int initialSize)
-'''
-pass
+    '''    public DefaultPriorityQueue(final Comparator<T> comparator, final int initialSize)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def containsTyped():
-'''public boolean containsTyped(final T node)
-'''
-pass
+    '''    public boolean containsTyped(final T node)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def clearIgnoringIndexes():
-'''public void clearIgnoringIndexes()
-'''
-pass
+    '''    public void clearIgnoringIndexes()
+    '''
 def offer():
-'''public boolean offer(final T e)
-'''
-pass
+    '''    public boolean offer(final T e)
+    '''
 def poll():
-'''public T poll()
-'''
-pass
+    '''    public T poll()
+    '''
 def peek():
-'''public T peek()
-'''
-pass
+    '''    public T peek()
+    '''
 def remove():
-'''public boolean remove(final Object o)
-public void remove()
-'''
-pass
+    '''    public boolean remove(final Object o)
+    public void remove()
+    '''
 def removeTyped():
-'''public boolean removeTyped(final T node)
-'''
-pass
+    '''    public boolean removeTyped(final T node)
+    '''
 def priorityChanged():
-'''public void priorityChanged(final T node)
-'''
-pass
+    '''    public void priorityChanged(final T node)
+    '''
 def toArray():
-'''public Object[] toArray()
-public <X> X[] toArray(final X[] a)
-'''
-pass
+    '''    public Object[] toArray()
+    public <X> X[] toArray(final X[] a)
+    '''
 def iterator():
-'''public Iterator<T> iterator()
-'''
-pass
+    '''    public Iterator<T> iterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public T next()
-'''
-pass
+    '''    public T next()
+    '''

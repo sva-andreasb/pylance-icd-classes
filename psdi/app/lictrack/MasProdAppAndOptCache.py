@@ -1,22 +1,17 @@
-MASPRODAPPANDOPT = "String  MASPRODAPPANDOPT""
+MASPRODAPPANDOPT = "String  \"MASPRODAPPANDOPT\""
 def MasProdAppAndOptCache():
-'''public MasProdAppAndOptCache()
-'''
-pass
+    '''    public MasProdAppAndOptCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getListOfProdAppAndOpt():
-'''public HashMap<String, HashSet<AppInfoLicense>> getListOfProdAppAndOpt()
-'''
-pass
+    '''    public HashMap<String, HashSet<AppInfoLicense>> getListOfProdAppAndOpt()
+    '''

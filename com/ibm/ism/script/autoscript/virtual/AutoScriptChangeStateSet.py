@@ -1,4 +1,3 @@
 def AutoScriptChangeStateSet():
-'''public AutoScriptChangeStateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AutoScriptChangeStateSet(final MboServerInterface ms)
+    '''

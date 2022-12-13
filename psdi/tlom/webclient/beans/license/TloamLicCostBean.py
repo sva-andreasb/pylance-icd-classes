@@ -1,17 +1,13 @@
 def TloamLicCostBean():
-'''public TloamLicCostBean()
-'''
-pass
+    '''    public TloamLicCostBean()
+    '''
 def clearCharges():
-'''public int clearCharges()
-'''
-pass
+    '''    public int clearCharges()
+    '''
 def generateCharges():
-'''public int generateCharges()
-'''
-pass
+    '''    public int generateCharges()
+    '''
 def execute():
-'''public int execute(final MboSetRemote mboset)
-public synchronized int execute()
-'''
-pass
+    '''    public int execute(final MboSetRemote mboset)
+    public synchronized int execute()
+    '''

@@ -1,4 +1,3 @@
 def SRMFavorite():
-'''public SRMFavorite(final MboSet ms)
-'''
-pass
+    '''    public SRMFavorite(final MboSet ms)
+    '''

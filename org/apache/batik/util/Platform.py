@@ -1,4 +1,3 @@
 def getScreenResolution():
-'''public static int getScreenResolution()
-'''
-pass
+    '''    public static int getScreenResolution()
+    '''

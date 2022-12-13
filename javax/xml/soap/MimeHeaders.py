@@ -1,48 +1,36 @@
 def MimeHeaders():
-'''public MimeHeaders()
-'''
-pass
+    '''    public MimeHeaders()
+    '''
 def getHeader():
-'''public String[] getHeader(final String name)
-'''
-pass
+    '''    public String[] getHeader(final String name)
+    '''
 def setHeader():
-'''public void setHeader(final String name, final String value)
-'''
-pass
+    '''    public void setHeader(final String name, final String value)
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def removeHeader():
-'''public void removeHeader(final String name)
-'''
-pass
+    '''    public void removeHeader(final String name)
+    '''
 def removeAllHeaders():
-'''public void removeAllHeaders()
-'''
-pass
+    '''    public void removeAllHeaders()
+    '''
 def getAllHeaders():
-'''public Iterator getAllHeaders()
-'''
-pass
+    '''    public Iterator getAllHeaders()
+    '''
 def getMatchingHeaders():
-'''public Iterator getMatchingHeaders(final String[] names)
-'''
-pass
+    '''    public Iterator getMatchingHeaders(final String[] names)
+    '''
 def getNonMatchingHeaders():
-'''public Iterator getNonMatchingHeaders(final String[] names)
-'''
-pass
+    '''    public Iterator getNonMatchingHeaders(final String[] names)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

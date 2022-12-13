@@ -1,13 +1,10 @@
-IBM_COPYRIGHT = "String \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def PmComInvokeExit():
-'''public PmComInvokeExit()
-'''
-pass
+    '''    public PmComInvokeExit()
+    '''
 def setUserValueOut():
-'''public StructureData setUserValueOut(final StructureData irData, final StructureData erData)
-'''
-pass
+    '''    public StructureData setUserValueOut(final StructureData irData, final StructureData erData)
+    '''
 def checkActivities():
-'''public StructureData checkActivities(final StructureData erData)
-'''
-pass
+    '''    public StructureData checkActivities(final StructureData erData)
+    '''

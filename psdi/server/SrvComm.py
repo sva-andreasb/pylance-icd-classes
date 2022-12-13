@@ -1,110 +1,83 @@
 def SrvComm():
-'''public SrvComm(final MXServer mxServer)
-public SrvComm()
-'''
-pass
+    '''    public SrvComm(final MXServer mxServer)
+    public SrvComm()
+    '''
 def checkMemory():
-'''public String checkMemory()
-'''
-pass
+    '''    public String checkMemory()
+    '''
 def shutDown():
-'''public void shutDown()
-public void shutDown(final String serviceType)
-'''
-pass
+    '''    public void shutDown()
+    public void shutDown(final String serviceType)
+    '''
 def reloadDBConnections():
-'''public Date reloadDBConnections()
-'''
-pass
+    '''    public Date reloadDBConnections()
+    '''
 def restartRegistry():
-'''public Date restartRegistry()
-'''
-pass
+    '''    public Date restartRegistry()
+    '''
 def enableService():
-'''public void enableService(final String module)
-'''
-pass
+    '''    public void enableService(final String module)
+    '''
 def disableService():
-'''public void disableService(final String module)
-'''
-pass
+    '''    public void disableService(final String module)
+    '''
 def setLoggerLevel():
-'''public void setLoggerLevel(final String nameValue)
-'''
-pass
+    '''    public void setLoggerLevel(final String nameValue)
+    '''
 def mboCount():
-'''public void mboCount(final boolean on)
-'''
-pass
+    '''    public void mboCount(final boolean on)
+    '''
 def getRemoteUsersSize():
-'''public int getRemoteUsersSize()
-'''
-pass
+    '''    public int getRemoteUsersSize()
+    '''
 def getDBConnTotal():
-'''public int getDBConnTotal()
-'''
-pass
+    '''    public int getDBConnTotal()
+    '''
 def getDBConnUsed():
-'''public int getDBConnUsed()
-'''
-pass
+    '''    public int getDBConnUsed()
+    '''
 def getDBConnFree():
-'''public int getDBConnFree()
-'''
-pass
+    '''    public int getDBConnFree()
+    '''
 def main():
-'''public static void main(final String[] argv)
-'''
-pass
+    '''    public static void main(final String[] argv)
+    '''
 def cmd():
-'''public void cmd(final String[] argv)
-'''
-pass
+    '''    public void cmd(final String[] argv)
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def serviceOn():
-'''public void serviceOn(final String arg)
-'''
-pass
+    '''    public void serviceOn(final String arg)
+    '''
 def serviceOff():
-'''public void serviceOff(final String arg)
-'''
-pass
+    '''    public void serviceOff(final String arg)
+    '''
 def logger():
-'''public void logger(final String arg)
-'''
-pass
+    '''    public void logger(final String arg)
+    '''
 def mboCountOn():
-'''public void mboCountOn()
-'''
-pass
+    '''    public void mboCountOn()
+    '''
 def mboCountOff():
-'''public void mboCountOff()
-'''
-pass
+    '''    public void mboCountOff()
+    '''
 def printUsage():
-'''public void printUsage()
-'''
-pass
+    '''    public void printUsage()
+    '''
 def getMemory():
-'''public String[] getMemory()
-'''
-pass
+    '''    public String[] getMemory()
+    '''
 def getFreeMemory():
-'''public String[] getFreeMemory()
-'''
-pass
+    '''    public String[] getFreeMemory()
+    '''
 def getRuntimeManagedBean():
-'''public RuntimeMXBean getRuntimeManagedBean()
-'''
-pass
+    '''    public RuntimeMXBean getRuntimeManagedBean()
+    '''
 def getHeapUsage():
-'''public String[] getHeapUsage()
-'''
-pass
+    '''    public String[] getHeapUsage()
+    '''
 def getGarbageCollectors():
-'''public Vector getGarbageCollectors()
-'''
-pass
+    '''    public Vector getGarbageCollectors()
+    '''

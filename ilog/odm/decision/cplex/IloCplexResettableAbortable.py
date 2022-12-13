@@ -1,17 +1,13 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def IloCplexResettableAbortable():
-'''public IloCplexResettableAbortable(final IloCplex cplex)
-'''
-pass
+    '''    public IloCplexResettableAbortable(final IloCplex cplex)
+    '''
 def getCppCplexAborter():
-'''public IloCppCplexAborter getCppCplexAborter()
-'''
-pass
+    '''    public IloCppCplexAborter getCppCplexAborter()
+    '''

@@ -1,8 +1,6 @@
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setHasBeenFoundForNode():
-'''public void setHasBeenFoundForNode(final boolean hasBeenFoundForNode, final int softwareID)
-'''
-pass
+    '''    public void setHasBeenFoundForNode(final boolean hasBeenFoundForNode, final int softwareID)
+    '''

@@ -1,16 +1,12 @@
 def FldPCActHrs():
-'''public FldPCActHrs(final MboValue mbv)
-'''
-pass
+    '''    public FldPCActHrs(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def isLicensePresent():
-'''public static boolean isLicensePresent(final String lic)
-'''
-pass
+    '''    public static boolean isLicensePresent(final String lic)
+    '''

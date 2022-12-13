@@ -1,4 +1,3 @@
 def NPCollectionSet():
-'''public NPCollectionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NPCollectionSet(final MboServerInterface ms)
+    '''

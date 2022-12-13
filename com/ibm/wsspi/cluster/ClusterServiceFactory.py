@@ -1,4 +1,3 @@
 def getClusterService():
-'''public static ClusterService getClusterService()
-'''
-pass
+    '''    public static ClusterService getClusterService()
+    '''

@@ -1,24 +1,18 @@
 def MaxGroupSet():
-'''public MaxGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxGroupSet(final MboServerInterface ms)
+    '''
 def getAdminWhereSiteSubselect():
-'''public String getAdminWhereSiteSubselect()
-'''
-pass
+    '''    public String getAdminWhereSiteSubselect()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def fireEventsAfterDBCommit():
-'''public void fireEventsAfterDBCommit(final MXTransaction txn)
-'''
-pass
+    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''
 def setIsLookup():
-'''public void setIsLookup(final boolean is)
-'''
-pass
+    '''    public void setIsLookup(final boolean is)
+    '''
 def isLookup():
-'''public boolean isLookup()
-'''
-pass
+    '''    public boolean isLookup()
+    '''

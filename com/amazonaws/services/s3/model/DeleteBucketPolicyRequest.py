@@ -1,16 +1,12 @@
 def DeleteBucketPolicyRequest():
-'''public DeleteBucketPolicyRequest(final String bucketName)
-'''
-pass
+    '''    public DeleteBucketPolicyRequest(final String bucketName)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def withBucketName():
-'''public DeleteBucketPolicyRequest withBucketName(final String bucketName)
-'''
-pass
+    '''    public DeleteBucketPolicyRequest withBucketName(final String bucketName)
+    '''

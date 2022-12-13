@@ -1,10 +1,8 @@
 def serialize():
-'''public final String serialize()
-public final void serialize(final OutputStream out)
-'''
-pass
+    '''    public final String serialize()
+    public final void serialize(final OutputStream out)
+    '''
 def deserializeFrom():
-'''public static <T extends PersistableTransfer> T deserializeFrom(final InputStream in)
-public static <T extends PersistableTransfer> T deserializeFrom(final String serialized)
-'''
-pass
+    '''    public static <T extends PersistableTransfer> T deserializeFrom(final InputStream in)
+    public static <T extends PersistableTransfer> T deserializeFrom(final String serialized)
+    '''

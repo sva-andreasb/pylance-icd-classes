@@ -1,8 +1,6 @@
 def checkAccess():
-'''public void checkAccess()
-'''
-pass
+    '''    public void checkAccess()
+    '''
 def renewqual():
-'''public int renewqual()
-'''
-pass
+    '''    public int renewqual()
+    '''

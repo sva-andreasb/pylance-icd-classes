@@ -1,20 +1,15 @@
 def ApptBookWindow():
-'''public ApptBookWindow(final MboSet ms)
-'''
-pass
+    '''    public ApptBookWindow(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setPatternDay():
-'''public void setPatternDay()
-'''
-pass
+    '''    public void setPatternDay()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

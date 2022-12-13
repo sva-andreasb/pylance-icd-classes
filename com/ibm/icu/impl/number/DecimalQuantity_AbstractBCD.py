@@ -1,170 +1,128 @@
 def DecimalQuantity_AbstractBCD():
-'''public DecimalQuantity_AbstractBCD()
-'''
-pass
+    '''    public DecimalQuantity_AbstractBCD()
+    '''
 def copyFrom():
-'''public void copyFrom(final DecimalQuantity _other)
-'''
-pass
+    '''    public void copyFrom(final DecimalQuantity _other)
+    '''
 def clear():
-'''public DecimalQuantity_AbstractBCD clear()
-'''
-pass
+    '''    public DecimalQuantity_AbstractBCD clear()
+    '''
 def setMinInteger():
-'''public void setMinInteger(int minInt)
-'''
-pass
+    '''    public void setMinInteger(int minInt)
+    '''
 def setMinFraction():
-'''public void setMinFraction(final int minFrac)
-'''
-pass
+    '''    public void setMinFraction(final int minFrac)
+    '''
 def applyMaxInteger():
-'''public void applyMaxInteger(final int maxInt)
-'''
-pass
+    '''    public void applyMaxInteger(final int maxInt)
+    '''
 def getPositionFingerprint():
-'''public long getPositionFingerprint()
-'''
-pass
+    '''    public long getPositionFingerprint()
+    '''
 def roundToIncrement():
-'''public void roundToIncrement(final BigDecimal roundingIncrement, final MathContext mathContext)
-'''
-pass
+    '''    public void roundToIncrement(final BigDecimal roundingIncrement, final MathContext mathContext)
+    '''
 def multiplyBy():
-'''public void multiplyBy(final BigDecimal multiplicand)
-'''
-pass
+    '''    public void multiplyBy(final BigDecimal multiplicand)
+    '''
 def negate():
-'''public void negate()
-'''
-pass
+    '''    public void negate()
+    '''
 def getMagnitude():
-'''public int getMagnitude()
-'''
-pass
+    '''    public int getMagnitude()
+    '''
 def adjustMagnitude():
-'''public void adjustMagnitude(final int delta)
-'''
-pass
+    '''    public void adjustMagnitude(final int delta)
+    '''
 def getExponent():
-'''public int getExponent()
-'''
-pass
+    '''    public int getExponent()
+    '''
 def adjustExponent():
-'''public void adjustExponent(final int delta)
-'''
-pass
+    '''    public void adjustExponent(final int delta)
+    '''
 def getStandardPlural():
-'''public StandardPlural getStandardPlural(final PluralRules rules)
-'''
-pass
+    '''    public StandardPlural getStandardPlural(final PluralRules rules)
+    '''
 def getPluralOperand():
-'''public double getPluralOperand(final PluralRules.Operand operand)
-'''
-pass
+    '''    public double getPluralOperand(final PluralRules.Operand operand)
+    '''
 def populateUFieldPosition():
-'''public void populateUFieldPosition(final FieldPosition fp)
-'''
-pass
+    '''    public void populateUFieldPosition(final FieldPosition fp)
+    '''
 def getUpperDisplayMagnitude():
-'''public int getUpperDisplayMagnitude()
-'''
-pass
+    '''    public int getUpperDisplayMagnitude()
+    '''
 def getLowerDisplayMagnitude():
-'''public int getLowerDisplayMagnitude()
-'''
-pass
+    '''    public int getLowerDisplayMagnitude()
+    '''
 def getDigit():
-'''public byte getDigit(final int magnitude)
-'''
-pass
+    '''    public byte getDigit(final int magnitude)
+    '''
 def isNegative():
-'''public boolean isNegative()
-'''
-pass
+    '''    public boolean isNegative()
+    '''
 def isInfinite():
-'''public boolean isInfinite()
-'''
-pass
+    '''    public boolean isInfinite()
+    '''
 def isNaN():
-'''public boolean isNaN()
-'''
-pass
+    '''    public boolean isNaN()
+    '''
 def isZeroish():
-'''public boolean isZeroish()
-'''
-pass
+    '''    public boolean isZeroish()
+    '''
 def setToInt():
-'''public void setToInt(int n)
-'''
-pass
+    '''    public void setToInt(int n)
+    '''
 def setToLong():
-'''public void setToLong(long n)
-'''
-pass
+    '''    public void setToLong(long n)
+    '''
 def setToBigInteger():
-'''public void setToBigInteger(BigInteger n)
-'''
-pass
+    '''    public void setToBigInteger(BigInteger n)
+    '''
 def setToDouble():
-'''public void setToDouble(double n)
-'''
-pass
+    '''    public void setToDouble(double n)
+    '''
 def setToBigDecimal():
-'''public void setToBigDecimal(BigDecimal n)
-'''
-pass
+    '''    public void setToBigDecimal(BigDecimal n)
+    '''
 def toLong():
-'''public long toLong(final boolean truncateIfOverflow)
-'''
-pass
+    '''    public long toLong(final boolean truncateIfOverflow)
+    '''
 def toFractionLong():
-'''public long toFractionLong(final boolean includeTrailingZeros)
-'''
-pass
+    '''    public long toFractionLong(final boolean includeTrailingZeros)
+    '''
 def fitsInLong():
-'''public boolean fitsInLong()
-'''
-pass
+    '''    public boolean fitsInLong()
+    '''
 def toDouble():
-'''public double toDouble()
-'''
-pass
+    '''    public double toDouble()
+    '''
 def toBigDecimal():
-'''public BigDecimal toBigDecimal()
-'''
-pass
+    '''    public BigDecimal toBigDecimal()
+    '''
 def truncate():
-'''public void truncate()
-'''
-pass
+    '''    public void truncate()
+    '''
 def roundToNickel():
-'''public void roundToNickel(final int magnitude, final MathContext mathContext)
-'''
-pass
+    '''    public void roundToNickel(final int magnitude, final MathContext mathContext)
+    '''
 def roundToMagnitude():
-'''public void roundToMagnitude(final int magnitude, final MathContext mathContext)
-'''
-pass
+    '''    public void roundToMagnitude(final int magnitude, final MathContext mathContext)
+    '''
 def roundToInfinity():
-'''public void roundToInfinity()
-'''
-pass
+    '''    public void roundToInfinity()
+    '''
 def appendDigit():
-'''public void appendDigit(final byte value, int leadingZeros, final boolean appendAsInteger)
-'''
-pass
+    '''    public void appendDigit(final byte value, int leadingZeros, final boolean appendAsInteger)
+    '''
 def toPlainString():
-'''public String toPlainString()
-public void toPlainString(final StringBuilder result)
-'''
-pass
+    '''    public String toPlainString()
+    public void toPlainString(final StringBuilder result)
+    '''
 def toScientificString():
-'''public String toScientificString()
-public void toScientificString(final StringBuilder result)
-'''
-pass
+    '''    public String toScientificString()
+    public void toScientificString(final StringBuilder result)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''

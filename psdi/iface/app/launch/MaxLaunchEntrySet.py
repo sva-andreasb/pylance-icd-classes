@@ -1,8 +1,6 @@
 def MaxLaunchEntrySet():
-'''public MaxLaunchEntrySet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxLaunchEntrySet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

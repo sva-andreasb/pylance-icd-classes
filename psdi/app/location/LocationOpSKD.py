@@ -1,12 +1,9 @@
 def LocationOpSKD():
-'''public LocationOpSKD(final MboSet ms)
-'''
-pass
+    '''    public LocationOpSKD(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

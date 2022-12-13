@@ -1,184 +1,138 @@
 def ScopedFixlet():
-'''public ScopedFixlet()
-'''
-pass
+    '''    public ScopedFixlet()
+    '''
 def getSourceSeverity():
-'''public String getSourceSeverity()
-'''
-pass
+    '''    public String getSourceSeverity()
+    '''
 def setSourceSeverity():
-'''public void setSourceSeverity(final String sourceSeverity)
-'''
-pass
+    '''    public void setSourceSeverity(final String sourceSeverity)
+    '''
 def getDisplaySourceSeverity():
-'''public String getDisplaySourceSeverity()
-'''
-pass
+    '''    public String getDisplaySourceSeverity()
+    '''
 def setDisplaySourceSeverity():
-'''public void setDisplaySourceSeverity(final String displaySourceSeverity)
-'''
-pass
+    '''    public void setDisplaySourceSeverity(final String displaySourceSeverity)
+    '''
 def getDisplayCategory():
-'''public String getDisplayCategory()
-'''
-pass
+    '''    public String getDisplayCategory()
+    '''
 def setDisplayCategory():
-'''public void setDisplayCategory(final String displayCategory)
-'''
-pass
+    '''    public void setDisplayCategory(final String displayCategory)
+    '''
 def getDisplaySource():
-'''public String getDisplaySource()
-'''
-pass
+    '''    public String getDisplaySource()
+    '''
 def setDisplaySource():
-'''public void setDisplaySource(final String displaySource)
-'''
-pass
+    '''    public void setDisplaySource(final String displaySource)
+    '''
 def getSourceId():
-'''public String getSourceId()
-'''
-pass
+    '''    public String getSourceId()
+    '''
 def setSourceId():
-'''public void setSourceId(final String sourceId)
-'''
-pass
+    '''    public void setSourceId(final String sourceId)
+    '''
 def getDisplaySourceId():
-'''public String getDisplaySourceId()
-'''
-pass
+    '''    public String getDisplaySourceId()
+    '''
 def setDisplaySourceId():
-'''public void setDisplaySourceId(final String displaySourceId)
-'''
-pass
+    '''    public void setDisplaySourceId(final String displaySourceId)
+    '''
 def getSourceReleaseDate():
-'''public String getSourceReleaseDate()
-'''
-pass
+    '''    public String getSourceReleaseDate()
+    '''
 def setSourceReleaseDate():
-'''public void setSourceReleaseDate(final String sourceReleaseDate)
-'''
-pass
+    '''    public void setSourceReleaseDate(final String sourceReleaseDate)
+    '''
 def getCveIdList():
-'''public String getCveIdList()
-'''
-pass
+    '''    public String getCveIdList()
+    '''
 def setCveIdList():
-'''public void setCveIdList(final String cveList)
-'''
-pass
+    '''    public void setCveIdList(final String cveList)
+    '''
 def getSansIdList():
-'''public String getSansIdList()
-'''
-pass
+    '''    public String getSansIdList()
+    '''
 def setSansIdList():
-'''public void setSansIdList(final String sansList)
-'''
-pass
+    '''    public void setSansIdList(final String sansList)
+    '''
 def getHtmlMessage():
-'''public String getHtmlMessage()
-'''
-pass
+    '''    public String getHtmlMessage()
+    '''
 def setHtmlMessage():
-'''public void setHtmlMessage(final String htmlMessage)
-'''
-pass
+    '''    public void setHtmlMessage(final String htmlMessage)
+    '''
 def getHtmlDisplayMessage():
-'''public String getHtmlDisplayMessage()
-'''
-pass
+    '''    public String getHtmlDisplayMessage()
+    '''
 def setHtmlDisplayMessage():
-'''public void setHtmlDisplayMessage(final String htmlDisplayMessage)
-'''
-pass
+    '''    public void setHtmlDisplayMessage(final String htmlDisplayMessage)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''
 def getApplicableComputerCount():
-'''public int getApplicableComputerCount()
-'''
-pass
+    '''    public int getApplicableComputerCount()
+    '''
 def setApplicableComputerCount():
-'''public void setApplicableComputerCount(final int applicableComputerCount)
-'''
-pass
+    '''    public void setApplicableComputerCount(final int applicableComputerCount)
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''
 def setId():
-'''public void setId(final int id)
-'''
-pass
+    '''    public void setId(final int id)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String descr)
-'''
-pass
+    '''    public void setDescription(final String descr)
+    '''
 def getNameOfSite():
-'''public String getNameOfSite()
-'''
-pass
+    '''    public String getNameOfSite()
+    '''
 def setNameOfSite():
-'''public void setNameOfSite(final String nameOfSite)
-'''
-pass
+    '''    public void setNameOfSite(final String nameOfSite)
+    '''
 def getTypeOfSite():
-'''public String getTypeOfSite()
-'''
-pass
+    '''    public String getTypeOfSite()
+    '''
 def setTypeOfSite():
-'''public void setTypeOfSite(final String typeOfSite)
-'''
-pass
+    '''    public void setTypeOfSite(final String typeOfSite)
+    '''
 def getDisplayNameOfSite():
-'''public String getDisplayNameOfSite()
-'''
-pass
+    '''    public String getDisplayNameOfSite()
+    '''
 def setDisplayNameOfSite():
-'''public void setDisplayNameOfSite(final String displayNameOfSite)
-'''
-pass
+    '''    public void setDisplayNameOfSite(final String displayNameOfSite)
+    '''
 def getCategory():
-'''public String getCategory()
-'''
-pass
+    '''    public String getCategory()
+    '''
 def setCategory():
-'''public void setCategory(final String category)
-'''
-pass
+    '''    public void setCategory(final String category)
+    '''
 def getSource():
-'''public String getSource()
-'''
-pass
+    '''    public String getSource()
+    '''
 def setSource():
-'''public void setSource(final String source)
-'''
-pass
+    '''    public void setSource(final String source)
+    '''
 def getDownloadSize():
-'''public long getDownloadSize()
-'''
-pass
+    '''    public long getDownloadSize()
+    '''
 def setDownloadSize():
-'''public void setDownloadSize(final long downloadSize)
-'''
-pass
+    '''    public void setDownloadSize(final long downloadSize)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -21,124 +21,94 @@ STATE_CHUNK_PARAMS = "int  5"
 STATE_CHUNK = "int  6"
 STATE_SEEKING_EOF = "int  7"
 def HttpParser():
-'''public HttpParser(final Buffer buffer, final EventHandler handler)
-public HttpParser(final Buffers buffers, final EndPoint endp, final EventHandler handler)
-'''
-pass
+    '''    public HttpParser(final Buffer buffer, final EventHandler handler)
+    public HttpParser(final Buffers buffers, final EndPoint endp, final EventHandler handler)
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getContentRead():
-'''public long getContentRead()
-'''
-pass
+    '''    public long getContentRead()
+    '''
 def setHeadResponse():
-'''public void setHeadResponse(final boolean head)
-'''
-pass
+    '''    public void setHeadResponse(final boolean head)
+    '''
 def getState():
-'''public int getState()
-'''
-pass
+    '''    public int getState()
+    '''
 def inContentState():
-'''public boolean inContentState()
-'''
-pass
+    '''    public boolean inContentState()
+    '''
 def inHeaderState():
-'''public boolean inHeaderState()
-'''
-pass
+    '''    public boolean inHeaderState()
+    '''
 def isChunking():
-'''public boolean isChunking()
-'''
-pass
+    '''    public boolean isChunking()
+    '''
 def isIdle():
-'''public boolean isIdle()
-'''
-pass
+    '''    public boolean isIdle()
+    '''
 def isComplete():
-'''public boolean isComplete()
-'''
-pass
+    '''    public boolean isComplete()
+    '''
 def isMoreInBuffer():
-'''public boolean isMoreInBuffer()
-'''
-pass
+    '''    public boolean isMoreInBuffer()
+    '''
 def isState():
-'''public boolean isState(final int state)
-'''
-pass
+    '''    public boolean isState(final int state)
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def setPersistent():
-'''public void setPersistent(final boolean persistent)
-'''
-pass
+    '''    public void setPersistent(final boolean persistent)
+    '''
 def parse():
-'''public void parse()
-'''
-pass
+    '''    public void parse()
+    '''
 def parseAvailable():
-'''public boolean parseAvailable()
-'''
-pass
+    '''    public boolean parseAvailable()
+    '''
 def parseNext():
-'''public int parseNext()
-'''
-pass
+    '''    public int parseNext()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def returnBuffers():
-'''public void returnBuffers()
-'''
-pass
+    '''    public void returnBuffers()
+    '''
 def setState():
-'''public void setState(final int state)
-'''
-pass
+    '''    public void setState(final int state)
+    '''
 def toString():
-'''public String toString(final Buffer buf)
-public String toString()
-'''
-pass
+    '''    public String toString(final Buffer buf)
+    public String toString()
+    '''
 def getHeaderBuffer():
-'''public Buffer getHeaderBuffer()
-'''
-pass
+    '''    public Buffer getHeaderBuffer()
+    '''
 def getBodyBuffer():
-'''public Buffer getBodyBuffer()
-'''
-pass
+    '''    public Buffer getBodyBuffer()
+    '''
 def setForceContentBuffer():
-'''public void setForceContentBuffer(final boolean force)
-'''
-pass
+    '''    public void setForceContentBuffer(final boolean force)
+    '''
 def blockForContent():
-'''public Buffer blockForContent(final long maxIdleTime)
-'''
-pass
+    '''    public Buffer blockForContent(final long maxIdleTime)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def headerComplete():
-'''public void headerComplete()
-'''
-pass
+    '''    public void headerComplete()
+    '''
 def messageComplete():
-'''public void messageComplete(final long contentLength)
-'''
-pass
+    '''    public void messageComplete(final long contentLength)
+    '''
 def parsedHeader():
-'''public void parsedHeader(final Buffer name, final Buffer value)
-'''
-pass
+    '''    public void parsedHeader(final Buffer name, final Buffer value)
+    '''
 def earlyEOF():
-'''public void earlyEOF()
-'''
-pass
+    '''    public void earlyEOF()
+    '''

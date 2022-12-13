@@ -1,113 +1,85 @@
 def SessionContext():
-'''public SessionContext(final WebClientSession masterInstance)
-'''
-pass
+    '''    public SessionContext(final WebClientSession masterInstance)
+    '''
 def getMasterInstance():
-'''public WebClientSession getMasterInstance()
-'''
-pass
+    '''    public WebClientSession getMasterInstance()
+    '''
 def getMXSession():
-'''public MXSession getMXSession()
-'''
-pass
+    '''    public MXSession getMXSession()
+    '''
 def getCurrentApp():
-'''public AppInstance getCurrentApp()
-'''
-pass
+    '''    public AppInstance getCurrentApp()
+    '''
 def getCurrentAppId():
-'''public String getCurrentAppId()
-'''
-pass
+    '''    public String getCurrentAppId()
+    '''
 def getCurrentPageId():
-'''public String getCurrentPageId()
-'''
-pass
+    '''    public String getCurrentPageId()
+    '''
 def setCurrentEvent():
-'''public void setCurrentEvent(final WebClientEvent event)
-'''
-pass
+    '''    public void setCurrentEvent(final WebClientEvent event)
+    '''
 def getCurrentEvent():
-'''public WebClientEvent getCurrentEvent()
-'''
-pass
+    '''    public WebClientEvent getCurrentEvent()
+    '''
 def getCurrentEventHandler():
-'''public ControlHandler getCurrentEventHandler()
-'''
-pass
+    '''    public ControlHandler getCurrentEventHandler()
+    '''
 def getLoginEvent():
-'''public WebClientEvent getLoginEvent()
-'''
-pass
+    '''    public WebClientEvent getLoginEvent()
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def getTimeZone():
-'''public TimeZone getTimeZone()
-'''
-pass
+    '''    public TimeZone getTimeZone()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getWorkflowDirector():
-'''public WorkflowDirector getWorkflowDirector()
-'''
-pass
+    '''    public WorkflowDirector getWorkflowDirector()
+    '''
 def getPreviousApp():
-'''public AppInstance getPreviousApp()
-'''
-pass
+    '''    public AppInstance getPreviousApp()
+    '''
 def pop():
-'''public AppInstance pop()
-'''
-pass
+    '''    public AppInstance pop()
+    '''
 def getRequest():
-'''public HttpServletRequest getRequest()
-'''
-pass
+    '''    public HttpServletRequest getRequest()
+    '''
 def getResponse():
-'''public HttpServletResponse getResponse()
-'''
-pass
+    '''    public HttpServletResponse getResponse()
+    '''
 def queueRefreshEvent():
-'''public void queueRefreshEvent()
-'''
-pass
+    '''    public void queueRefreshEvent()
+    '''
 def queueEvent():
-'''public void queueEvent(final WebClientEvent event)
-'''
-pass
+    '''    public void queueEvent(final WebClientEvent event)
+    '''
 def runLongOp():
-'''public boolean runLongOp(final DataBean dataSrc, final String method)
-public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event)
-'''
-pass
+    '''    public boolean runLongOp(final DataBean dataSrc, final String method)
+    public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event)
+    '''
 def haslongOpStarted():
-'''public boolean haslongOpStarted()
-'''
-pass
+    '''    public boolean haslongOpStarted()
+    '''
 def haslongOpCompleted():
-'''public boolean haslongOpCompleted()
-'''
-pass
+    '''    public boolean haslongOpCompleted()
+    '''
 def getSpellSessionAdapter():
-'''public SpellingSessionAdapter getSpellSessionAdapter()
-'''
-pass
+    '''    public SpellingSessionAdapter getSpellSessionAdapter()
+    '''
 def setSpellSessionAdapter():
-'''public void setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)
-'''
-pass
+    '''    public void setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)
+    '''
 def hasWarnings():
-'''public boolean hasWarnings()
-'''
-pass
+    '''    public boolean hasWarnings()
+    '''
 def getWarnings():
-'''public ArrayList<MXException> getWarnings()
-'''
-pass
+    '''    public ArrayList<MXException> getWarnings()
+    '''
 def showLongOpStatus():
-'''public void showLongOpStatus()
-'''
-pass
+    '''    public void showLongOpStatus()
+    '''

@@ -1,4 +1,3 @@
 def marshall():
-'''public boolean marshall(final PackagePart part, final OutputStream out)
-'''
-pass
+    '''    public boolean marshall(final PackagePart part, final OutputStream out)
+    '''

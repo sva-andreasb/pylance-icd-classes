@@ -1,8 +1,6 @@
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

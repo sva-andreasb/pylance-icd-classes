@@ -1,8 +1,6 @@
 def InboundProcessing():
-'''public InboundProcessing()
-'''
-pass
+    '''    public InboundProcessing()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

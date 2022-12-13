@@ -1,28 +1,21 @@
 def FldSpecificationTableValue():
-'''public FldSpecificationTableValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSpecificationTableValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def isClonedApp():
-'''public boolean isClonedApp(final MboRemote maxApp)
-'''
-pass
+    '''    public boolean isClonedApp(final MboRemote maxApp)
+    '''

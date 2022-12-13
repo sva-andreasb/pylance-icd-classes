@@ -1,29 +1,22 @@
 def iterator():
-'''public static Iterator<Record> iterator(final RecordBufferPage page, final Record fromRec, final Record toRec)
-public static Iterator<Record> iterator(final RecordBufferPage page)
-'''
-pass
+    '''    public static Iterator<Record> iterator(final RecordBufferPage page, final Record fromRec, final Record toRec)
+    public static Iterator<Record> iterator(final RecordBufferPage page)
+    '''
 def RecordRangeIterator():
-'''public RecordRangeIterator(final RecordBufferPage page, final Record fromRec, final Record toRec)
-'''
-pass
+    '''    public RecordRangeIterator(final RecordBufferPage page, final Record fromRec, final Record toRec)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Record next()
-'''
-pass
+    '''    public Record next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getCountRecords():
-'''public long getCountRecords()
-'''
-pass
+    '''    public long getCountRecords()
+    '''
 def getCountBlocks():
-'''public long getCountBlocks()
-'''
-pass
+    '''    public long getCountBlocks()
+    '''

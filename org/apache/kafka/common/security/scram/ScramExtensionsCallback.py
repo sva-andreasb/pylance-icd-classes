@@ -1,9 +1,7 @@
 def ScramExtensionsCallback():
-'''public ScramExtensionsCallback()
-'''
-pass
+    '''    public ScramExtensionsCallback()
+    '''
 def extensions():
-'''public Map<String, String> extensions()
-public void extensions(final Map<String, String> extensions)
-'''
-pass
+    '''    public Map<String, String> extensions()
+    public void extensions(final Map<String, String> extensions)
+    '''

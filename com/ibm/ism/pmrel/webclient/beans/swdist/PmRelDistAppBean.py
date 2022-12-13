@@ -1,37 +1,28 @@
-IBM_COPYRIGHT = "String  \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def GETSTATUS():
-'''public int GETSTATUS()
-'''
-pass
+    '''    public int GETSTATUS()
+    '''
 def TESTCONN():
-'''public int TESTCONN()
-'''
-pass
+    '''    public int TESTCONN()
+    '''
 def DISTSOFT():
-'''public int DISTSOFT()
-'''
-pass
+    '''    public int DISTSOFT()
+    '''
 def distributeSoftware():
-'''public int distributeSoftware()
-'''
-pass
+    '''    public int distributeSoftware()
+    '''
 def LAUNCHDEPLOY():
-'''public int LAUNCHDEPLOY()
-'''
-pass
+    '''    public int LAUNCHDEPLOY()
+    '''
 def LAUNCHOPSSTATUS():
-'''public int LAUNCHOPSSTATUS()
-'''
-pass
+    '''    public int LAUNCHOPSSTATUS()
+    '''
 def LAUNCHSTATUS():
-'''public int LAUNCHSTATUS()
-'''
-pass
+    '''    public int LAUNCHSTATUS()
+    '''
 def PMRELINVOKEOPS():
-'''public int PMRELINVOKEOPS()
-'''
-pass
+    '''    public int PMRELINVOKEOPS()
+    '''
 def PMRELGETOPSSTATUS():
-'''public int PMRELGETOPSSTATUS()
-'''
-pass
+    '''    public int PMRELGETOPSSTATUS()
+    '''

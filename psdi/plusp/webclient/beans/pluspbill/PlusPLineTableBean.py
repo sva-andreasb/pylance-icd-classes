@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def LINESTATUS():
-'''public int LINESTATUS()
-'''
-pass
+    '''    public int LINESTATUS()
+    '''

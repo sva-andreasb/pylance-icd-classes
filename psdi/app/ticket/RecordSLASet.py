@@ -1,4 +1,3 @@
 def RecordSLASet():
-'''public RecordSLASet(final MboServerInterface ms)
-'''
-pass
+    '''    public RecordSLASet(final MboServerInterface ms)
+    '''

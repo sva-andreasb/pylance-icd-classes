@@ -1,25 +1,19 @@
 def CompareResultsBase():
-'''public CompareResultsBase(final Object left, final Object right)
-'''
-pass
+    '''    public CompareResultsBase(final Object left, final Object right)
+    '''
 def getLeft():
-'''public Object getLeft()
-'''
-pass
+    '''    public Object getLeft()
+    '''
 def getRight():
-'''public Object getRight()
-'''
-pass
+    '''    public Object getRight()
+    '''
 def getLeftObj():
-'''public ObjectRef getLeftObj()
-'''
-pass
+    '''    public ObjectRef getLeftObj()
+    '''
 def getRightObj():
-'''public ObjectRef getRightObj()
-'''
-pass
+    '''    public ObjectRef getRightObj()
+    '''
 def dump():
-'''public void dump()
-public void dump(final int indent)
-'''
-pass
+    '''    public void dump()
+    public void dump(final int indent)
+    '''

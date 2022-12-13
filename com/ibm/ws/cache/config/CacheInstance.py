@@ -1,16 +1,12 @@
 def CacheInstance():
-'''public CacheInstance()
-'''
-pass
+    '''    public CacheInstance()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def fancyFormat():
-'''public String fancyFormat()
-'''
-pass
+    '''    public String fancyFormat()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

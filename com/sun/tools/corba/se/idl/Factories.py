@@ -1,20 +1,15 @@
 def genFactory():
-'''public GenFactory genFactory()
-'''
-pass
+    '''    public GenFactory genFactory()
+    '''
 def symtabFactory():
-'''public SymtabFactory symtabFactory()
-'''
-pass
+    '''    public SymtabFactory symtabFactory()
+    '''
 def exprFactory():
-'''public ExprFactory exprFactory()
-'''
-pass
+    '''    public ExprFactory exprFactory()
+    '''
 def arguments():
-'''public Arguments arguments()
-'''
-pass
+    '''    public Arguments arguments()
+    '''
 def languageKeywords():
-'''public String[] languageKeywords()
-'''
-pass
+    '''    public String[] languageKeywords()
+    '''

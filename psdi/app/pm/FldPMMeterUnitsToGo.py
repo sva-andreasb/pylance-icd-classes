@@ -1,8 +1,6 @@
 def FldPMMeterUnitsToGo():
-'''public FldPMMeterUnitsToGo(final MboValue mbv)
-'''
-pass
+    '''    public FldPMMeterUnitsToGo(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

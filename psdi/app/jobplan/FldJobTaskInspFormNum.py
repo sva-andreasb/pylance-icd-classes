@@ -1,12 +1,9 @@
 def FldJobTaskInspFormNum():
-'''public FldJobTaskInspFormNum(final MboValue mbv)
-'''
-pass
+    '''    public FldJobTaskInspFormNum(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

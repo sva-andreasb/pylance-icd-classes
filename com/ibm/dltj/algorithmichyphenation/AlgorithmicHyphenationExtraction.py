@@ -1,12 +1,9 @@
 def AlgorithmicHyphenationExtraction():
-'''public AlgorithmicHyphenationExtraction()
-'''
-pass
+    '''    public AlgorithmicHyphenationExtraction()
+    '''
 def setAlgorithmicHyphenDictionary():
-'''public boolean setAlgorithmicHyphenDictionary(final Dictionary hyphenDict, final String s)
-'''
-pass
+    '''    public boolean setAlgorithmicHyphenDictionary(final Dictionary hyphenDict, final String s)
+    '''
 def hyphenateWord():
-'''public List hyphenateWord(final CharacterIterator characterIterator, final int index, final int n)
-'''
-pass
+    '''    public List hyphenateWord(final CharacterIterator characterIterator, final int index, final int n)
+    '''

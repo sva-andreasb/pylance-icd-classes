@@ -1,40 +1,30 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def setEmployee():
-'''public void setEmployee(final com.softlayer.api.service.user.Employee employee)
-'''
-pass
+    '''    public void setEmployee(final com.softlayer.api.service.user.Employee employee)
+    '''
 def getEmployeeRole():
-'''public Role getEmployeeRole()
-'''
-pass
+    '''    public Role getEmployeeRole()
+    '''
 def setEmployeeRole():
-'''public void setEmployeeRole(final Role employeeRole)
-'''
-pass
+    '''    public void setEmployeeRole(final Role employeeRole)
+    '''
 def getRoleId():
-'''public Long getRoleId()
-'''
-pass
+    '''    public Long getRoleId()
+    '''
 def setRoleId():
-'''public void setRoleId(final Long roleId)
-'''
-pass
+    '''    public void setRoleId(final Long roleId)
+    '''
 def isRoleIdSpecified():
-'''public boolean isRoleIdSpecified()
-'''
-pass
+    '''    public boolean isRoleIdSpecified()
+    '''
 def unsetRoleId():
-'''public void unsetRoleId()
-'''
-pass
+    '''    public void unsetRoleId()
+    '''
 def roleId():
-'''public Mask roleId()
-'''
-pass
+    '''    public Mask roleId()
+    '''

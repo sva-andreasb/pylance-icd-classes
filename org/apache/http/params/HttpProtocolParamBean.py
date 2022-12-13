@@ -1,24 +1,18 @@
 def HttpProtocolParamBean():
-'''public HttpProtocolParamBean(final HttpParams params)
-'''
-pass
+    '''    public HttpProtocolParamBean(final HttpParams params)
+    '''
 def setHttpElementCharset():
-'''public void setHttpElementCharset(final String httpElementCharset)
-'''
-pass
+    '''    public void setHttpElementCharset(final String httpElementCharset)
+    '''
 def setContentCharset():
-'''public void setContentCharset(final String contentCharset)
-'''
-pass
+    '''    public void setContentCharset(final String contentCharset)
+    '''
 def setVersion():
-'''public void setVersion(final HttpVersion version)
-'''
-pass
+    '''    public void setVersion(final HttpVersion version)
+    '''
 def setUserAgent():
-'''public void setUserAgent(final String userAgent)
-'''
-pass
+    '''    public void setUserAgent(final String userAgent)
+    '''
 def setUseExpectContinue():
-'''public void setUseExpectContinue(final boolean useExpectContinue)
-'''
-pass
+    '''    public void setUseExpectContinue(final boolean useExpectContinue)
+    '''

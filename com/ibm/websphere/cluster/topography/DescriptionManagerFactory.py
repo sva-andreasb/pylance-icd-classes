@@ -1,20 +1,15 @@
 def getInstance():
-'''public static DescriptionManagerFactory getInstance()
-'''
-pass
+    '''    public static DescriptionManagerFactory getInstance()
+    '''
 def getDescriptionManager():
-'''public static DescriptionManager getDescriptionManager()
-'''
-pass
+    '''    public static DescriptionManager getDescriptionManager()
+    '''
 def getLocalDescriptionManager():
-'''public static DescriptionManager getLocalDescriptionManager()
-'''
-pass
+    '''    public static DescriptionManager getLocalDescriptionManager()
+    '''
 def isStaticRoutingEnabled():
-'''public static boolean isStaticRoutingEnabled()
-'''
-pass
+    '''    public static boolean isStaticRoutingEnabled()
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''

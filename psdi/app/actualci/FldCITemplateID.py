@@ -1,8 +1,6 @@
 def FldCITemplateID():
-'''public FldCITemplateID(final MboValue mbv)
-'''
-pass
+    '''    public FldCITemplateID(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

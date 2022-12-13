@@ -1,12 +1,9 @@
 def FldLocationReorderFromStore():
-'''public FldLocationReorderFromStore(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationReorderFromStore(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String value, final boolean exact)
+    '''

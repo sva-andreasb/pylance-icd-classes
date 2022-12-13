@@ -1,8 +1,6 @@
 def FldAssetLocUserCustPersonID():
-'''public FldAssetLocUserCustPersonID(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetLocUserCustPersonID(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,12 +1,9 @@
 def ApptBookJobPlan():
-'''public ApptBookJobPlan(final MboSet ms)
-'''
-pass
+    '''    public ApptBookJobPlan(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

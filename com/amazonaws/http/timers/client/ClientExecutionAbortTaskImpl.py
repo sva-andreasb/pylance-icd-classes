@@ -1,20 +1,15 @@
 def ClientExecutionAbortTaskImpl():
-'''public ClientExecutionAbortTaskImpl(final Thread thread)
-'''
-pass
+    '''    public ClientExecutionAbortTaskImpl(final Thread thread)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def setCurrentHttpRequest():
-'''public void setCurrentHttpRequest(final HttpRequestBase newRequest)
-'''
-pass
+    '''    public void setCurrentHttpRequest(final HttpRequestBase newRequest)
+    '''
 def hasClientExecutionAborted():
-'''public boolean hasClientExecutionAborted()
-'''
-pass
+    '''    public boolean hasClientExecutionAborted()
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''

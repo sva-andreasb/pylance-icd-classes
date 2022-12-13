@@ -1,4 +1,3 @@
 def CrontaskHistory():
-'''public CrontaskHistory(final MboSet ms)
-'''
-pass
+    '''    public CrontaskHistory(final MboSet ms)
+    '''

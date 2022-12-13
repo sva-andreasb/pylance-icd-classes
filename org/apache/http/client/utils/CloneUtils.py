@@ -1,8 +1,6 @@
 def cloneObject():
-'''public static <T> T cloneObject(final T obj)
-'''
-pass
+    '''    public static <T> T cloneObject(final T obj)
+    '''
 def clone():
-'''public static Object clone(final Object obj)
-'''
-pass
+    '''    public static Object clone(final Object obj)
+    '''

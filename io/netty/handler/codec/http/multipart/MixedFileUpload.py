@@ -1,163 +1,124 @@
 def MixedFileUpload():
-'''public MixedFileUpload(final String name, final String filename, final String contentType, final String contentTransferEncoding, final Charset charset, final long size, final long limitSize)
-public MixedFileUpload(final String name, final String filename, final String contentType, final String contentTransferEncoding, final Charset charset, final long size, final long limitSize, final String baseDir, final boolean deleteOnExit)
-'''
-pass
+    '''    public MixedFileUpload(final String name, final String filename, final String contentType, final String contentTransferEncoding, final Charset charset, final long size, final long limitSize)
+    public MixedFileUpload(final String name, final String filename, final String contentType, final String contentTransferEncoding, final Charset charset, final long size, final long limitSize, final String baseDir, final boolean deleteOnExit)
+    '''
 def getMaxSize():
-'''public long getMaxSize()
-'''
-pass
+    '''    public long getMaxSize()
+    '''
 def setMaxSize():
-'''public void setMaxSize(final long maxSize)
-'''
-pass
+    '''    public void setMaxSize(final long maxSize)
+    '''
 def checkSize():
-'''public void checkSize(final long newSize)
-'''
-pass
+    '''    public void checkSize(final long newSize)
+    '''
 def addContent():
-'''public void addContent(final ByteBuf buffer, final boolean last)
-'''
-pass
+    '''    public void addContent(final ByteBuf buffer, final boolean last)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def get():
-'''public byte[] get()
-'''
-pass
+    '''    public byte[] get()
+    '''
 def getByteBuf():
-'''public ByteBuf getByteBuf()
-'''
-pass
+    '''    public ByteBuf getByteBuf()
+    '''
 def getCharset():
-'''public Charset getCharset()
-'''
-pass
+    '''    public Charset getCharset()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getContentTransferEncoding():
-'''public String getContentTransferEncoding()
-'''
-pass
+    '''    public String getContentTransferEncoding()
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''
 def getString():
-'''public String getString()
-public String getString(final Charset encoding)
-'''
-pass
+    '''    public String getString()
+    public String getString(final Charset encoding)
+    '''
 def isCompleted():
-'''public boolean isCompleted()
-'''
-pass
+    '''    public boolean isCompleted()
+    '''
 def isInMemory():
-'''public boolean isInMemory()
-'''
-pass
+    '''    public boolean isInMemory()
+    '''
 def length():
-'''public long length()
-'''
-pass
+    '''    public long length()
+    '''
 def definedLength():
-'''public long definedLength()
-'''
-pass
+    '''    public long definedLength()
+    '''
 def renameTo():
-'''public boolean renameTo(final File dest)
-'''
-pass
+    '''    public boolean renameTo(final File dest)
+    '''
 def setCharset():
-'''public void setCharset(final Charset charset)
-'''
-pass
+    '''    public void setCharset(final Charset charset)
+    '''
 def setContent():
-'''public void setContent(final ByteBuf buffer)
-public void setContent(final File file)
-public void setContent(final InputStream inputStream)
-'''
-pass
+    '''    public void setContent(final ByteBuf buffer)
+    public void setContent(final File file)
+    public void setContent(final InputStream inputStream)
+    '''
 def setContentType():
-'''public void setContentType(final String contentType)
-'''
-pass
+    '''    public void setContentType(final String contentType)
+    '''
 def setContentTransferEncoding():
-'''public void setContentTransferEncoding(final String contentTransferEncoding)
-'''
-pass
+    '''    public void setContentTransferEncoding(final String contentTransferEncoding)
+    '''
 def setFilename():
-'''public void setFilename(final String filename)
-'''
-pass
+    '''    public void setFilename(final String filename)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def compareTo():
-'''public int compareTo(final InterfaceHttpData o)
-'''
-pass
+    '''    public int compareTo(final InterfaceHttpData o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getChunk():
-'''public ByteBuf getChunk(final int length)
-'''
-pass
+    '''    public ByteBuf getChunk(final int length)
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def copy():
-'''public FileUpload copy()
-'''
-pass
+    '''    public FileUpload copy()
+    '''
 def duplicate():
-'''public FileUpload duplicate()
-'''
-pass
+    '''    public FileUpload duplicate()
+    '''
 def retainedDuplicate():
-'''public FileUpload retainedDuplicate()
-'''
-pass
+    '''    public FileUpload retainedDuplicate()
+    '''
 def replace():
-'''public FileUpload replace(final ByteBuf content)
-'''
-pass
+    '''    public FileUpload replace(final ByteBuf content)
+    '''
 def content():
-'''public ByteBuf content()
-'''
-pass
+    '''    public ByteBuf content()
+    '''
 def refCnt():
-'''public int refCnt()
-'''
-pass
+    '''    public int refCnt()
+    '''
 def retain():
-'''public FileUpload retain()
-public FileUpload retain(final int increment)
-'''
-pass
+    '''    public FileUpload retain()
+    public FileUpload retain(final int increment)
+    '''
 def touch():
-'''public FileUpload touch()
-public FileUpload touch(final Object hint)
-'''
-pass
+    '''    public FileUpload touch()
+    public FileUpload touch(final Object hint)
+    '''
 def release():
-'''public boolean release()
-public boolean release(final int decrement)
-'''
-pass
+    '''    public boolean release()
+    public boolean release(final int decrement)
+    '''

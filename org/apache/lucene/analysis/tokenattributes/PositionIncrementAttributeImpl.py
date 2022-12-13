@@ -1,36 +1,27 @@
 def PositionIncrementAttributeImpl():
-'''public PositionIncrementAttributeImpl()
-'''
-pass
+    '''    public PositionIncrementAttributeImpl()
+    '''
 def setPositionIncrement():
-'''public void setPositionIncrement(final int positionIncrement)
-'''
-pass
+    '''    public void setPositionIncrement(final int positionIncrement)
+    '''
 def getPositionIncrement():
-'''public int getPositionIncrement()
-'''
-pass
+    '''    public int getPositionIncrement()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def copyTo():
-'''public void copyTo(final AttributeImpl target)
-'''
-pass
+    '''    public void copyTo(final AttributeImpl target)
+    '''
 def reflectWith():
-'''public void reflectWith(final AttributeReflector reflector)
-'''
-pass
+    '''    public void reflectWith(final AttributeReflector reflector)
+    '''

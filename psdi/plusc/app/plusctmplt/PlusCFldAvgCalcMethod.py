@@ -1,8 +1,6 @@
 def PlusCFldAvgCalcMethod():
-'''public PlusCFldAvgCalcMethod(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldAvgCalcMethod(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

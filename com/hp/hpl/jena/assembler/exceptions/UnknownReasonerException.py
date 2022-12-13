@@ -1,8 +1,6 @@
 def UnknownReasonerException():
-'''public UnknownReasonerException(final Resource root, final Resource url)
-'''
-pass
+    '''    public UnknownReasonerException(final Resource root, final Resource url)
+    '''
 def getURL():
-'''public Resource getURL()
-'''
-pass
+    '''    public Resource getURL()
+    '''

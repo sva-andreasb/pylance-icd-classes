@@ -1,5 +1,4 @@
 def DPAMAdapterService():
-'''public DPAMAdapterService()
-public DPAMAdapterService(final MXServer mxServer)
-'''
-pass
+    '''    public DPAMAdapterService()
+    public DPAMAdapterService(final MXServer mxServer)
+    '''

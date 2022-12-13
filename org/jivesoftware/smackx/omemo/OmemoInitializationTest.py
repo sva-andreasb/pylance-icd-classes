@@ -1,16 +1,12 @@
 def before():
-'''public void before()
-'''
-pass
+    '''    public void before()
+    '''
 def OmemoInitializationTest():
-'''public OmemoInitializationTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public OmemoInitializationTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def initializationTest():
-'''public void initializationTest()
-'''
-pass
+    '''    public void initializationTest()
+    '''
 def after():
-'''public void after()
-'''
-pass
+    '''    public void after()
+    '''

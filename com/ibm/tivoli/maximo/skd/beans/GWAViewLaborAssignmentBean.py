@@ -1,12 +1,9 @@
 def GWAViewLaborAssignmentBean():
-'''public GWAViewLaborAssignmentBean()
-'''
-pass
+    '''    public GWAViewLaborAssignmentBean()
+    '''
 def filterworkorder():
-'''public int filterworkorder()
-'''
-pass
+    '''    public int filterworkorder()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

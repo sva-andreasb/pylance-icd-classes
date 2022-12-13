@@ -1,48 +1,36 @@
 def CollectDetails():
-'''public CollectDetails(final MboSet ms)
-'''
-pass
+    '''    public CollectDetails(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def checkForCIUniqueness():
-'''public void checkForCIUniqueness(final String attr)
-'''
-pass
+    '''    public void checkForCIUniqueness(final String attr)
+    '''
 def checkForAssetUniqueness():
-'''public void checkForAssetUniqueness(final String attr)
-'''
-pass
+    '''    public void checkForAssetUniqueness(final String attr)
+    '''
 def checkForLocationUniqueness():
-'''public void checkForLocationUniqueness(final String attr)
-'''
-pass
+    '''    public void checkForLocationUniqueness(final String attr)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

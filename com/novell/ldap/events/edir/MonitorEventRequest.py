@@ -1,4 +1,3 @@
 def MonitorEventRequest():
-'''public MonitorEventRequest(final EdirEventSpecifier[] array)
-'''
-pass
+    '''    public MonitorEventRequest(final EdirEventSpecifier[] array)
+    '''

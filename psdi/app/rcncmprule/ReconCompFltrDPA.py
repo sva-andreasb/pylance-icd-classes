@@ -1,16 +1,12 @@
 def ReconCompFltrDPA():
-'''public ReconCompFltrDPA(final MboSet ms)
-'''
-pass
+    '''    public ReconCompFltrDPA(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''

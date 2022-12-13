@@ -1,8 +1,6 @@
 def getVersion():
-'''public static String getVersion()
-'''
-pass
+    '''    public static String getVersion()
+    '''
 def main():
-'''public static void main(final String[] array)
-'''
-pass
+    '''    public static void main(final String[] array)
+    '''

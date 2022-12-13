@@ -1,8 +1,6 @@
 def FldWFTemplateID():
-'''public FldWFTemplateID(final MboValue mbv)
-'''
-pass
+    '''    public FldWFTemplateID(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

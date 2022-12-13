@@ -1,12 +1,9 @@
 def CCIIticPostProcessingAction():
-'''public CCIIticPostProcessingAction()
-'''
-pass
+    '''    public CCIIticPostProcessingAction()
+    '''
 def setCustomerMappingMaxvar():
-'''public void setCustomerMappingMaxvar(final MboRemote mbo)
-'''
-pass
+    '''    public void setCustomerMappingMaxvar(final MboRemote mbo)
+    '''
 def applyCustomAction():
-'''public void applyCustomAction(final MboRemote mbo, final Object[] params)
-'''
-pass
+    '''    public void applyCustomAction(final MboRemote mbo, final Object[] params)
+    '''

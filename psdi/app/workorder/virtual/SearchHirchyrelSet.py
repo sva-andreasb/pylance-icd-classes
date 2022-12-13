@@ -1,4 +1,3 @@
 def SearchHirchyrelSet():
-'''public SearchHirchyrelSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SearchHirchyrelSet(final MboServerInterface ms)
+    '''

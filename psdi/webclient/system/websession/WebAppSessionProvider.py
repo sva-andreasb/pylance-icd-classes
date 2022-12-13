@@ -1,4 +1,3 @@
 def getNewWebAppSession():
-'''public static MXSession getNewWebAppSession()
-'''
-pass
+    '''    public static MXSession getNewWebAppSession()
+    '''

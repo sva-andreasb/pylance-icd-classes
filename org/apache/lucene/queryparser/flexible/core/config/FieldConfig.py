@@ -1,12 +1,9 @@
 def FieldConfig():
-'''public FieldConfig(final String fieldName)
-'''
-pass
+    '''    public FieldConfig(final String fieldName)
+    '''
 def getField():
-'''public String getField()
-'''
-pass
+    '''    public String getField()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -2,14 +2,11 @@ noTriplesForPattern = "char  'n'"
 someTriplesForPattern = "char  's'"
 allTriplesForPattern = "char  'a'"
 def CompletionFlag():
-'''public CompletionFlag()
-'''
-pass
+    '''    public CompletionFlag()
+    '''
 def isDone():
-'''public boolean isDone()
-'''
-pass
+    '''    public boolean isDone()
+    '''
 def setDone():
-'''public void setDone()
-'''
-pass
+    '''    public void setDone()
+    '''

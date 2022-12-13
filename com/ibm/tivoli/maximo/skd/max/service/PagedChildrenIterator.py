@@ -1,16 +1,12 @@
 def PagedChildrenIterator():
-'''public PagedChildrenIterator(final PagingManager pagingManager)
-'''
-pass
+    '''    public PagedChildrenIterator(final PagingManager pagingManager)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public IMXActivity next()
-'''
-pass
+    '''    public IMXActivity next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

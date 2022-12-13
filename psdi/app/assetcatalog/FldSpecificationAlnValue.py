@@ -1,20 +1,15 @@
 def FldSpecificationAlnValue():
-'''public FldSpecificationAlnValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSpecificationAlnValue(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''

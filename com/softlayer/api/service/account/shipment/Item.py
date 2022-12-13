@@ -1,161 +1,121 @@
 def getShipment():
-'''public Shipment getShipment()
-'''
-pass
+    '''    public Shipment getShipment()
+    '''
 def setShipment():
-'''public void setShipment(final Shipment shipment)
-'''
-pass
+    '''    public void setShipment(final Shipment shipment)
+    '''
 def setShipmentItemType():
-'''public void setShipmentItemType(final com.softlayer.api.service.account.shipment.item.Type shipmentItemType)
-'''
-pass
+    '''    public void setShipmentItemType(final com.softlayer.api.service.account.shipment.item.Type shipmentItemType)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getPackageId():
-'''public Long getPackageId()
-'''
-pass
+    '''    public Long getPackageId()
+    '''
 def setPackageId():
-'''public void setPackageId(final Long packageId)
-'''
-pass
+    '''    public void setPackageId(final Long packageId)
+    '''
 def isPackageIdSpecified():
-'''public boolean isPackageIdSpecified()
-'''
-pass
+    '''    public boolean isPackageIdSpecified()
+    '''
 def unsetPackageId():
-'''public void unsetPackageId()
-'''
-pass
+    '''    public void unsetPackageId()
+    '''
 def getShipmentId():
-'''public Long getShipmentId()
-'''
-pass
+    '''    public Long getShipmentId()
+    '''
 def setShipmentId():
-'''public void setShipmentId(final Long shipmentId)
-'''
-pass
+    '''    public void setShipmentId(final Long shipmentId)
+    '''
 def isShipmentIdSpecified():
-'''public boolean isShipmentIdSpecified()
-'''
-pass
+    '''    public boolean isShipmentIdSpecified()
+    '''
 def unsetShipmentId():
-'''public void unsetShipmentId()
-'''
-pass
+    '''    public void unsetShipmentId()
+    '''
 def getShipmentItemId():
-'''public Long getShipmentItemId()
-'''
-pass
+    '''    public Long getShipmentItemId()
+    '''
 def setShipmentItemId():
-'''public void setShipmentItemId(final Long shipmentItemId)
-'''
-pass
+    '''    public void setShipmentItemId(final Long shipmentItemId)
+    '''
 def isShipmentItemIdSpecified():
-'''public boolean isShipmentItemIdSpecified()
-'''
-pass
+    '''    public boolean isShipmentItemIdSpecified()
+    '''
 def unsetShipmentItemId():
-'''public void unsetShipmentItemId()
-'''
-pass
+    '''    public void unsetShipmentItemId()
+    '''
 def getShipmentItemTypeId():
-'''public Long getShipmentItemTypeId()
-'''
-pass
+    '''    public Long getShipmentItemTypeId()
+    '''
 def setShipmentItemTypeId():
-'''public void setShipmentItemTypeId(final Long shipmentItemTypeId)
-'''
-pass
+    '''    public void setShipmentItemTypeId(final Long shipmentItemTypeId)
+    '''
 def isShipmentItemTypeIdSpecified():
-'''public boolean isShipmentItemTypeIdSpecified()
-'''
-pass
+    '''    public boolean isShipmentItemTypeIdSpecified()
+    '''
 def unsetShipmentItemTypeId():
-'''public void unsetShipmentItemTypeId()
-'''
-pass
+    '''    public void unsetShipmentItemTypeId()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def packageId():
-'''public Mask packageId()
-'''
-pass
+    '''    public Mask packageId()
+    '''
 def shipmentId():
-'''public Mask shipmentId()
-'''
-pass
+    '''    public Mask shipmentId()
+    '''
 def shipmentItemId():
-'''public Mask shipmentItemId()
-'''
-pass
+    '''    public Mask shipmentItemId()
+    '''
 def shipmentItemTypeId():
-'''public Mask shipmentItemTypeId()
-'''
-pass
+    '''    public Mask shipmentItemTypeId()
+    '''

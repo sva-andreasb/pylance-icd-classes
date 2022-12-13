@@ -1,8 +1,6 @@
 def DMLanguageProcess():
-'''public DMLanguageProcess()
-'''
-pass
+    '''    public DMLanguageProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''

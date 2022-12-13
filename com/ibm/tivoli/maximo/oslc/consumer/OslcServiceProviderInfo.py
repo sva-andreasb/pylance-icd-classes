@@ -1,8 +1,6 @@
 def getUri():
-'''public String getUri()
-'''
-pass
+    '''    public String getUri()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''

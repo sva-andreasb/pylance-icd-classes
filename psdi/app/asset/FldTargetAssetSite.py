@@ -1,4 +1,3 @@
 def FldTargetAssetSite():
-'''public FldTargetAssetSite(final MboValue mbv)
-'''
-pass
+    '''    public FldTargetAssetSite(final MboValue mbv)
+    '''

@@ -1,58 +1,44 @@
 def PolynomialFunction():
-'''public PolynomialFunction(final double[] c)
-'''
-pass
+    '''    public PolynomialFunction(final double[] c)
+    '''
 def value():
-'''public double value(final double x)
-public DerivativeStructure value(final DerivativeStructure t)
-public double value(final double x, final double... parameters)
-'''
-pass
+    '''    public double value(final double x)
+    public DerivativeStructure value(final DerivativeStructure t)
+    public double value(final double x, final double... parameters)
+    '''
 def degree():
-'''public int degree()
-'''
-pass
+    '''    public int degree()
+    '''
 def getCoefficients():
-'''public double[] getCoefficients()
-'''
-pass
+    '''    public double[] getCoefficients()
+    '''
 def add():
-'''public PolynomialFunction add(final PolynomialFunction p)
-'''
-pass
+    '''    public PolynomialFunction add(final PolynomialFunction p)
+    '''
 def subtract():
-'''public PolynomialFunction subtract(final PolynomialFunction p)
-'''
-pass
+    '''    public PolynomialFunction subtract(final PolynomialFunction p)
+    '''
 def negate():
-'''public PolynomialFunction negate()
-'''
-pass
+    '''    public PolynomialFunction negate()
+    '''
 def multiply():
-'''public PolynomialFunction multiply(final PolynomialFunction p)
-'''
-pass
+    '''    public PolynomialFunction multiply(final PolynomialFunction p)
+    '''
 def polynomialDerivative():
-'''public PolynomialFunction polynomialDerivative()
-'''
-pass
+    '''    public PolynomialFunction polynomialDerivative()
+    '''
 def derivative():
-'''public UnivariateFunction derivative()
-'''
-pass
+    '''    public UnivariateFunction derivative()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def gradient():
-'''public double[] gradient(final double x, final double... parameters)
-'''
-pass
+    '''    public double[] gradient(final double x, final double... parameters)
+    '''

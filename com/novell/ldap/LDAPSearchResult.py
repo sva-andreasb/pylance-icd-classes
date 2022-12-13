@@ -1,13 +1,10 @@
 def LDAPSearchResult():
-'''public LDAPSearchResult()
-public LDAPSearchResult(final LDAPEntry entry, final LDAPControl[] array)
-'''
-pass
+    '''    public LDAPSearchResult()
+    public LDAPSearchResult(final LDAPEntry entry, final LDAPControl[] array)
+    '''
 def getEntry():
-'''public LDAPEntry getEntry()
-'''
-pass
+    '''    public LDAPEntry getEntry()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

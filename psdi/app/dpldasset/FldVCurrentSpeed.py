@@ -1,8 +1,6 @@
 def FldVCurrentSpeed():
-'''public FldVCurrentSpeed(final MboValue mbv)
-'''
-pass
+    '''    public FldVCurrentSpeed(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

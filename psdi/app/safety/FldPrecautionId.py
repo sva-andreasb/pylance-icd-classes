@@ -1,8 +1,6 @@
 def FldPrecautionId():
-'''public FldPrecautionId(final MboValue mbv)
-'''
-pass
+    '''    public FldPrecautionId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

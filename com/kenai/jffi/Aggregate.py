@@ -1,4 +1,3 @@
 def dispose():
-'''public final synchronized void dispose()
-'''
-pass
+    '''    public final synchronized void dispose()
+    '''

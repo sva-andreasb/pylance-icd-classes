@@ -1,8 +1,6 @@
 def FldTamitVUValue():
-'''public FldTamitVUValue(final MboValue mbv)
-'''
-pass
+    '''    public FldTamitVUValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

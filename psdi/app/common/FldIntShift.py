@@ -1,8 +1,6 @@
 def FldIntShift():
-'''public FldIntShift(final MboValue mbv)
-'''
-pass
+    '''    public FldIntShift(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

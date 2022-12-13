@@ -1,4 +1,3 @@
 def TamitAssetChangeStatusPlanSet():
-'''public TamitAssetChangeStatusPlanSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TamitAssetChangeStatusPlanSet(final MboServerInterface ms)
+    '''

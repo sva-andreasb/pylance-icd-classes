@@ -1,20 +1,15 @@
 def PlusPFldItemListLocation():
-'''public PlusPFldItemListLocation(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldItemListLocation(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote valueFromLookup)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

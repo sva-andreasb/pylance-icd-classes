@@ -1,4 +1,4 @@
-DEFAULT_BIDI_FORMAT = "String  ILYNN""
+DEFAULT_BIDI_FORMAT = "String  \"ILYNN\""
 TEXT_ORDERING_IMPLICIT = "char  'I'"
 TEXT_ORDERING_VISUAL = "char  'V'"
 TEXT_ORDERING_DEFAULT = "char  'I'"
@@ -23,6 +23,5 @@ NUMERIC_SHAPING_CONTEXTUAL_NATIONAL = "char  'C'"
 NUMERIC_SHAPING_CONTEXTUAL_NOMINAL = "char  'T'"
 NUMERIC_SHAPING_DEFAULT = "char  'N'"
 def isValidBidiFlags():
-'''public static boolean isValidBidiFlags(String flagsStr, final boolean deepValidation)
-'''
-pass
+    '''    public static boolean isValidBidiFlags(String flagsStr, final boolean deepValidation)
+    '''

@@ -1,52 +1,39 @@
 def AsyncAppenderAdmin():
-'''public AsyncAppenderAdmin(final String contextName, final AsyncAppender appender)
-'''
-pass
+    '''    public AsyncAppenderAdmin(final String contextName, final AsyncAppender appender)
+    '''
 def getObjectName():
-'''public ObjectName getObjectName()
-'''
-pass
+    '''    public ObjectName getObjectName()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getLayout():
-'''public String getLayout()
-'''
-pass
+    '''    public String getLayout()
+    '''
 def isIgnoreExceptions():
-'''public boolean isIgnoreExceptions()
-'''
-pass
+    '''    public boolean isIgnoreExceptions()
+    '''
 def getErrorHandler():
-'''public String getErrorHandler()
-'''
-pass
+    '''    public String getErrorHandler()
+    '''
 def getFilter():
-'''public String getFilter()
-'''
-pass
+    '''    public String getFilter()
+    '''
 def getAppenderRefs():
-'''public String[] getAppenderRefs()
-'''
-pass
+    '''    public String[] getAppenderRefs()
+    '''
 def isIncludeLocation():
-'''public boolean isIncludeLocation()
-'''
-pass
+    '''    public boolean isIncludeLocation()
+    '''
 def isBlocking():
-'''public boolean isBlocking()
-'''
-pass
+    '''    public boolean isBlocking()
+    '''
 def getErrorRef():
-'''public String getErrorRef()
-'''
-pass
+    '''    public String getErrorRef()
+    '''
 def getQueueCapacity():
-'''public int getQueueCapacity()
-'''
-pass
+    '''    public int getQueueCapacity()
+    '''
 def getQueueRemainingCapacity():
-'''public int getQueueRemainingCapacity()
-'''
-pass
+    '''    public int getQueueRemainingCapacity()
+    '''

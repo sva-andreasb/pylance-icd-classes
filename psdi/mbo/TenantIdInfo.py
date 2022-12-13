@@ -1,36 +1,27 @@
 def TenantIdInfo():
-'''public TenantIdInfo()
-'''
-pass
+    '''    public TenantIdInfo()
+    '''
 def addTenantIdData():
-'''public void addTenantIdData(final String tableName, final String entityColumnName)
-'''
-pass
+    '''    public void addTenantIdData(final String tableName, final String entityColumnName)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getTenantIdColumnName():
-'''public String getTenantIdColumnName(final String tableName)
-'''
-pass
+    '''    public String getTenantIdColumnName(final String tableName)
+    '''
 def getFetchColumnNames():
-'''public Iterator getFetchColumnNames()
-'''
-pass
+    '''    public Iterator getFetchColumnNames()
+    '''
 def getTenantIdTableName():
-'''public String getTenantIdTableName(final String fetchColumnName)
-'''
-pass
+    '''    public String getTenantIdTableName(final String fetchColumnName)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

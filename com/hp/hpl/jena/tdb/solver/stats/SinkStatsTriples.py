@@ -1,12 +1,9 @@
 def send():
-'''public void send(final Triple triple)
-'''
-pass
+    '''    public void send(final Triple triple)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

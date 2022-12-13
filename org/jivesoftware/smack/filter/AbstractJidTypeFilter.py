@@ -1,4 +1,3 @@
 def accept():
-'''public final boolean accept(final Stanza stanza)
-'''
-pass
+    '''    public final boolean accept(final Stanza stanza)
+    '''

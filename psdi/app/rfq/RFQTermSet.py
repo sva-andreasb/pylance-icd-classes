@@ -1,4 +1,3 @@
 def RFQTermSet():
-'''public RFQTermSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RFQTermSet(final MboServerInterface ms)
+    '''

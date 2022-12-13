@@ -1,4 +1,3 @@
 def getWindow():
-'''public static JSObject getWindow(final Applet applet)
-'''
-pass
+    '''    public static JSObject getWindow(final Applet applet)
+    '''

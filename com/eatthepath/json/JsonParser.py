@@ -1,8 +1,6 @@
 def JsonParser():
-'''public JsonParser()
-'''
-pass
+    '''    public JsonParser()
+    '''
 def parseJsonObject():
-'''public Map<String, Object> parseJsonObject(final String jsonString)
-'''
-pass
+    '''    public Map<String, Object> parseJsonObject(final String jsonString)
+    '''

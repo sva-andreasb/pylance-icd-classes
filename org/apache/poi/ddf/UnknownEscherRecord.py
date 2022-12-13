@@ -1,40 +1,30 @@
 def UnknownEscherRecord():
-'''public UnknownEscherRecord()
-'''
-pass
+    '''    public UnknownEscherRecord()
+    '''
 def fillFields():
-'''public int fillFields(final byte[] data, int offset, final EscherRecordFactory recordFactory)
-'''
-pass
+    '''    public int fillFields(final byte[] data, int offset, final EscherRecordFactory recordFactory)
+    '''
 def serialize():
-'''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
-'''
-pass
+    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def getRecordSize():
-'''public int getRecordSize()
-'''
-pass
+    '''    public int getRecordSize()
+    '''
 def getChildRecords():
-'''public List<EscherRecord> getChildRecords()
-'''
-pass
+    '''    public List<EscherRecord> getChildRecords()
+    '''
 def setChildRecords():
-'''public void setChildRecords(final List<EscherRecord> childRecords)
-'''
-pass
+    '''    public void setChildRecords(final List<EscherRecord> childRecords)
+    '''
 def clone():
-'''public UnknownEscherRecord clone()
-'''
-pass
+    '''    public UnknownEscherRecord clone()
+    '''
 def getRecordName():
-'''public String getRecordName()
-'''
-pass
+    '''    public String getRecordName()
+    '''
 def addChildRecord():
-'''public void addChildRecord(final EscherRecord childRecord)
-'''
-pass
+    '''    public void addChildRecord(final EscherRecord childRecord)
+    '''

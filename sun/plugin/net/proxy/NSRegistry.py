@@ -1,32 +1,24 @@
 def NSRegistry():
-'''public NSRegistry()
-'''
-pass
+    '''    public NSRegistry()
+    '''
 def open():
-'''public NSRegistry open(final File file)
-'''
-pass
+    '''    public NSRegistry open(final File file)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def get():
-'''public String get(final String str)
-'''
-pass
+    '''    public String get(final String str)
+    '''
 def dump():
-'''public void dump()
-'''
-pass
+    '''    public void dump()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isKey():
-'''public boolean isKey()
-'''
-pass
+    '''    public boolean isKey()
+    '''
 def isEntry():
-'''public boolean isEntry()
-'''
-pass
+    '''    public boolean isEntry()
+    '''

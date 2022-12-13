@@ -1,52 +1,39 @@
 def WMLTableElementImpl():
-'''public WMLTableElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLTableElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setColumns():
-'''public void setColumns(final int n)
-'''
-pass
+    '''    public void setColumns(final int n)
+    '''
 def getColumns():
-'''public int getColumns()
-'''
-pass
+    '''    public int getColumns()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setXmlLang():
-'''public void setXmlLang(final String s)
-'''
-pass
+    '''    public void setXmlLang(final String s)
+    '''
 def getXmlLang():
-'''public String getXmlLang()
-'''
-pass
+    '''    public String getXmlLang()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setTitle():
-'''public void setTitle(final String s)
-'''
-pass
+    '''    public void setTitle(final String s)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''

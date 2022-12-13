@@ -1,8 +1,6 @@
 def CCIMultiCICollectionBean():
-'''public CCIMultiCICollectionBean()
-'''
-pass
+    '''    public CCIMultiCICollectionBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

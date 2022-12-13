@@ -1,4 +1,3 @@
 def removeProperty():
-'''public void removeProperty(final String key)
-'''
-pass
+    '''    public void removeProperty(final String key)
+    '''

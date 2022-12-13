@@ -1,8 +1,6 @@
 def FldDJPPMMeasure():
-'''public FldDJPPMMeasure(final MboValue mbv)
-'''
-pass
+    '''    public FldDJPPMMeasure(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,16 +1,12 @@
 def OslcResourceTypeInfo():
-'''public OslcResourceTypeInfo(final String resourceType, final String resourceTypeURI, final byte[] shapeDoc)
-'''
-pass
+    '''    public OslcResourceTypeInfo(final String resourceType, final String resourceTypeURI, final byte[] shapeDoc)
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def getResourceTypeURI():
-'''public String getResourceTypeURI()
-'''
-pass
+    '''    public String getResourceTypeURI()
+    '''
 def getShapeDoc():
-'''public ShapeRDFParser getShapeDoc()
-'''
-pass
+    '''    public ShapeRDFParser getShapeDoc()
+    '''

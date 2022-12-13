@@ -1,8 +1,6 @@
 def FldAMCrewLbrPosVendor():
-'''public FldAMCrewLbrPosVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewLbrPosVendor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

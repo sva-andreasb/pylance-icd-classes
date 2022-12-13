@@ -1,44 +1,33 @@
 def getInstanceFor():
-'''public static synchronized PrivateDataManager getInstanceFor(final XMPPConnection connection)
-'''
-pass
+    '''    public static synchronized PrivateDataManager getInstanceFor(final XMPPConnection connection)
+    '''
 def getPrivateDataProvider():
-'''public static PrivateDataProvider getPrivateDataProvider(final String elementName, final String namespace)
-'''
-pass
+    '''    public static PrivateDataProvider getPrivateDataProvider(final String elementName, final String namespace)
+    '''
 def addPrivateDataProvider():
-'''public static void addPrivateDataProvider(final String elementName, final String namespace, final PrivateDataProvider provider)
-'''
-pass
+    '''    public static void addPrivateDataProvider(final String elementName, final String namespace, final PrivateDataProvider provider)
+    '''
 def removePrivateDataProvider():
-'''public static void removePrivateDataProvider(final String elementName, final String namespace)
-'''
-pass
+    '''    public static void removePrivateDataProvider(final String elementName, final String namespace)
+    '''
 def getPrivateData():
-'''public PrivateData getPrivateData(final String elementName, final String namespace)
-'''
-pass
+    '''    public PrivateData getPrivateData(final String elementName, final String namespace)
+    '''
 def setPrivateData():
-'''public void setPrivateData(final PrivateData privateData)
-'''
-pass
+    '''    public void setPrivateData(final PrivateData privateData)
+    '''
 def isSupported():
-'''public boolean isSupported()
-'''
-pass
+    '''    public boolean isSupported()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public CharSequence toXML()
-'''
-pass
+    '''    public CharSequence toXML()
+    '''
 def parse():
-'''public PrivateDataIQ parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public PrivateDataIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''

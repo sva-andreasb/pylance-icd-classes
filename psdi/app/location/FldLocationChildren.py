@@ -1,8 +1,6 @@
 def FldLocationChildren():
-'''public FldLocationChildren(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationChildren(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

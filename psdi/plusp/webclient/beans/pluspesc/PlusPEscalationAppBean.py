@@ -1,8 +1,6 @@
 def PLUSPEDESC():
-'''public int PLUSPEDESC()
-'''
-pass
+    '''    public int PLUSPEDESC()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''

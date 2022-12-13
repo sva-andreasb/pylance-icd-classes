@@ -1,9 +1,7 @@
-type = "int 0"
+type = "int  0"
 def getBegin():
-'''public final int getBegin()
-'''
-pass
+    '''    public final int getBegin()
+    '''
 def getEnd():
-'''public final int getEnd()
-'''
-pass
+    '''    public final int getEnd()
+    '''

@@ -1,8 +1,6 @@
 def CreateCompanyExt():
-'''public CreateCompanyExt()
-'''
-pass
+    '''    public CreateCompanyExt()
+    '''
 def setDataIn():
-'''public StructureData setDataIn(final StructureData irData)
-'''
-pass
+    '''    public StructureData setDataIn(final StructureData irData)
+    '''

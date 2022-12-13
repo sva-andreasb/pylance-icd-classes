@@ -1,81 +1,61 @@
 PRIORITY_NOT_SET = "int  -1"
 def NamingRule():
-'''public NamingRule()
-'''
-pass
+    '''    public NamingRule()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getGuid():
-'''public byte[] getGuid()
-'''
-pass
+    '''    public byte[] getGuid()
+    '''
 def setGuid():
-'''public void setGuid(final byte[] guid)
-'''
-pass
+    '''    public void setGuid(final byte[] guid)
+    '''
 def getClassType():
-'''public String getClassType()
-'''
-pass
+    '''    public String getClassType()
+    '''
 def setClassType():
-'''public void setClassType(final String classType)
-'''
-pass
+    '''    public void setClassType(final String classType)
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def setPriority():
-'''public void setPriority(final int priority)
-'''
-pass
+    '''    public void setPriority(final int priority)
+    '''
 def getIdentifiers():
-'''public List<NamingRuleIdentifier> getIdentifiers()
-'''
-pass
+    '''    public List<NamingRuleIdentifier> getIdentifiers()
+    '''
 def getIdentifiersNames():
-'''public List<String> getIdentifiersNames()
-'''
-pass
+    '''    public List<String> getIdentifiersNames()
+    '''
 def requiresSuperior():
-'''public boolean requiresSuperior()
-'''
-pass
+    '''    public boolean requiresSuperior()
+    '''
 def getSuperiorClassTypes():
-'''public List<NamingRuleIdentifier> getSuperiorClassTypes()
-'''
-pass
+    '''    public List<NamingRuleIdentifier> getSuperiorClassTypes()
+    '''
 def addIdentifier():
-'''public void addIdentifier(final NamingRuleIdentifier identifier)
-'''
-pass
+    '''    public void addIdentifier(final NamingRuleIdentifier identifier)
+    '''
 def addOmittedIdentifier():
-'''public void addOmittedIdentifier(final NamingRuleIdentifier identifier)
-'''
-pass
+    '''    public void addOmittedIdentifier(final NamingRuleIdentifier identifier)
+    '''
 def hasMultipleNamingContexts():
-'''public boolean hasMultipleNamingContexts()
-'''
-pass
+    '''    public boolean hasMultipleNamingContexts()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getOmittedIdentifiers():
-'''public List<String> getOmittedIdentifiers()
-'''
-pass
+    '''    public List<String> getOmittedIdentifiers()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

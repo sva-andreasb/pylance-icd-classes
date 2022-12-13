@@ -1,4 +1,3 @@
 def toString():
-'''public static String toString(final DataStore<?> dataStore)
-'''
-pass
+    '''    public static String toString(final DataStore<?> dataStore)
+    '''

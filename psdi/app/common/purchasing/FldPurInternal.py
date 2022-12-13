@@ -1,8 +1,6 @@
 def FldPurInternal():
-'''public FldPurInternal(final MboValue mbv)
-'''
-pass
+    '''    public FldPurInternal(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

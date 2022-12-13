@@ -1,12 +1,9 @@
 def FlatFileStreamWriter():
-'''public FlatFileStreamWriter(final String sep, final String textQualifier, final List<String> colHeaders, final UserInfo userInfo)
-'''
-pass
+    '''    public FlatFileStreamWriter(final String sep, final String textQualifier, final List<String> colHeaders, final UserInfo userInfo)
+    '''
 def toBytes():
-'''public byte[] toBytes()
-'''
-pass
+    '''    public byte[] toBytes()
+    '''
 def appendFlatRecord():
-'''public void appendFlatRecord(final List<Map<String, ColumnInfo>> flatRecord)
-'''
-pass
+    '''    public void appendFlatRecord(final List<Map<String, ColumnInfo>> flatRecord)
+    '''

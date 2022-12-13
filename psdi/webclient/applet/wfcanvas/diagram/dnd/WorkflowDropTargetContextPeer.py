@@ -1,48 +1,36 @@
 def WorkflowDropTargetContextPeer():
-'''public WorkflowDropTargetContextPeer(final DropTarget target, final Transferable t)
-'''
-pass
+    '''    public WorkflowDropTargetContextPeer(final DropTarget target, final Transferable t)
+    '''
 def setTargetActions():
-'''public void setTargetActions(final int actions)
-'''
-pass
+    '''    public void setTargetActions(final int actions)
+    '''
 def getTargetActions():
-'''public int getTargetActions()
-'''
-pass
+    '''    public int getTargetActions()
+    '''
 def getDropTarget():
-'''public DropTarget getDropTarget()
-'''
-pass
+    '''    public DropTarget getDropTarget()
+    '''
 def getTransferDataFlavors():
-'''public DataFlavor[] getTransferDataFlavors()
-'''
-pass
+    '''    public DataFlavor[] getTransferDataFlavors()
+    '''
 def getTransferable():
-'''public Transferable getTransferable()
-'''
-pass
+    '''    public Transferable getTransferable()
+    '''
 def isTransferableJVMLocal():
-'''public boolean isTransferableJVMLocal()
-'''
-pass
+    '''    public boolean isTransferableJVMLocal()
+    '''
 def acceptDrag():
-'''public void acceptDrag(final int dragAction)
-'''
-pass
+    '''    public void acceptDrag(final int dragAction)
+    '''
 def rejectDrag():
-'''public void rejectDrag()
-'''
-pass
+    '''    public void rejectDrag()
+    '''
 def acceptDrop():
-'''public void acceptDrop(final int dropAction)
-'''
-pass
+    '''    public void acceptDrop(final int dropAction)
+    '''
 def rejectDrop():
-'''public void rejectDrop()
-'''
-pass
+    '''    public void rejectDrop()
+    '''
 def dropComplete():
-'''public void dropComplete(final boolean success)
-'''
-pass
+    '''    public void dropComplete(final boolean success)
+    '''

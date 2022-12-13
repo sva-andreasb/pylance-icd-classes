@@ -1,12 +1,9 @@
 def MoutGLProcess():
-'''public MoutGLProcess()
-'''
-pass
+    '''    public MoutGLProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-'''
-pass
+    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''
 def getInternalReceiptStatus():
-'''public String getInternalReceiptStatus(final String receiptStatus)
-'''
-pass
+    '''    public String getInternalReceiptStatus(final String receiptStatus)
+    '''

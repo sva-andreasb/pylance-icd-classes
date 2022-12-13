@@ -1,20 +1,15 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getHeaderName():
-'''public String getHeaderName()
-'''
-pass
+    '''    public String getHeaderName()
+    '''
 def match():
-'''public boolean match(final Message msg)
-'''
-pass
+    '''    public boolean match(final Message msg)
+    '''
 def HeaderTerm():
-'''public HeaderTerm(final String headerName, final String pattern)
-'''
-pass
+    '''    public HeaderTerm(final String headerName, final String pattern)
+    '''

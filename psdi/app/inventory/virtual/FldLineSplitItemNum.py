@@ -1,8 +1,6 @@
 def FldLineSplitItemNum():
-'''public FldLineSplitItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLineSplitItemNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

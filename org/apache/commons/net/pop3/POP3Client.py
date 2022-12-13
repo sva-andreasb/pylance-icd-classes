@@ -1,49 +1,37 @@
 def login():
-'''public boolean login(final String username, final String password)
-public boolean login(final String username, String timestamp, final String secret)
-'''
-pass
+    '''    public boolean login(final String username, final String password)
+    public boolean login(final String username, String timestamp, final String secret)
+    '''
 def logout():
-'''public boolean logout()
-'''
-pass
+    '''    public boolean logout()
+    '''
 def noop():
-'''public boolean noop()
-'''
-pass
+    '''    public boolean noop()
+    '''
 def deleteMessage():
-'''public boolean deleteMessage(final int messageId)
-'''
-pass
+    '''    public boolean deleteMessage(final int messageId)
+    '''
 def reset():
-'''public boolean reset()
-'''
-pass
+    '''    public boolean reset()
+    '''
 def status():
-'''public POP3MessageInfo status()
-'''
-pass
+    '''    public POP3MessageInfo status()
+    '''
 def listMessage():
-'''public POP3MessageInfo listMessage(final int messageId)
-'''
-pass
+    '''    public POP3MessageInfo listMessage(final int messageId)
+    '''
 def listMessages():
-'''public POP3MessageInfo[] listMessages()
-'''
-pass
+    '''    public POP3MessageInfo[] listMessages()
+    '''
 def listUniqueIdentifier():
-'''public POP3MessageInfo listUniqueIdentifier(final int messageId)
-'''
-pass
+    '''    public POP3MessageInfo listUniqueIdentifier(final int messageId)
+    '''
 def listUniqueIdentifiers():
-'''public POP3MessageInfo[] listUniqueIdentifiers()
-'''
-pass
+    '''    public POP3MessageInfo[] listUniqueIdentifiers()
+    '''
 def retrieveMessage():
-'''public Reader retrieveMessage(final int messageId)
-'''
-pass
+    '''    public Reader retrieveMessage(final int messageId)
+    '''
 def retrieveMessageTop():
-'''public Reader retrieveMessageTop(final int messageId, final int numLines)
-'''
-pass
+    '''    public Reader retrieveMessageTop(final int messageId, final int numLines)
+    '''

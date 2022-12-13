@@ -1,21 +1,16 @@
 def AsyncButOrdered():
-'''public AsyncButOrdered()
-public AsyncButOrdered(final Executor executor)
-'''
-pass
+    '''    public AsyncButOrdered()
+    public AsyncButOrdered(final Executor executor)
+    '''
 def performAsyncButOrdered():
-'''public boolean performAsyncButOrdered(final K key, final Runnable runnable)
-'''
-pass
+    '''    public boolean performAsyncButOrdered(final K key, final Runnable runnable)
+    '''
 def asExecutorFor():
-'''public Executor asExecutorFor(final K key)
-'''
-pass
+    '''    public Executor asExecutorFor(final K key)
+    '''
 def execute():
-'''public void execute(final Runnable runnable)
-'''
-pass
+    '''    public void execute(final Runnable runnable)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

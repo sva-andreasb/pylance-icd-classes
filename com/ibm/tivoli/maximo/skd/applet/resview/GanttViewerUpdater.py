@@ -1,4 +1,3 @@
 def GanttViewerUpdater():
-'''public GanttViewerUpdater(final String sourceName)
-'''
-pass
+    '''    public GanttViewerUpdater(final String sourceName)
+    '''

@@ -1,8 +1,6 @@
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def RESOLVED():
-'''public int RESOLVED()
-'''
-pass
+    '''    public int RESOLVED()
+    '''

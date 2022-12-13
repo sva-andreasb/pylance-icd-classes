@@ -1,12 +1,9 @@
 def AbstractBasePreImportProcessor():
-'''public AbstractBasePreImportProcessor()
-'''
-pass
+    '''    public AbstractBasePreImportProcessor()
+    '''
 def canReuseInstance():
-'''public boolean canReuseInstance()
-'''
-pass
+    '''    public boolean canReuseInstance()
+    '''
 def setOutput():
-'''public void setOutput(final PrintStream output)
-'''
-pass
+    '''    public void setOutput(final PrintStream output)
+    '''

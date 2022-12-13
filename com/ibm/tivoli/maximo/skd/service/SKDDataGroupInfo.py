@@ -1,52 +1,39 @@
 def SKDDataGroupInfo():
-'''public SKDDataGroupInfo()
-'''
-pass
+    '''    public SKDDataGroupInfo()
+    '''
 def getGroupName():
-'''public String getGroupName()
-'''
-pass
+    '''    public String getGroupName()
+    '''
 def setGroupName():
-'''public void setGroupName(final String groupName)
-'''
-pass
+    '''    public void setGroupName(final String groupName)
+    '''
 def getSKDObjectName():
-'''public String getSKDObjectName()
-'''
-pass
+    '''    public String getSKDObjectName()
+    '''
 def setSKDObjectName():
-'''public void setSKDObjectName(final String skdObjectName)
-'''
-pass
+    '''    public void setSKDObjectName(final String skdObjectName)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def getSKDObjectClass():
-'''public Class getSKDObjectClass()
-'''
-pass
+    '''    public Class getSKDObjectClass()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getGroupSequence():
-'''public int getGroupSequence()
-'''
-pass
+    '''    public int getGroupSequence()
+    '''
 def setGroupSequence():
-'''public void setGroupSequence(final int groupSequence)
-'''
-pass
+    '''    public void setGroupSequence(final int groupSequence)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

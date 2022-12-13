@@ -1,8 +1,6 @@
 def PlusPFldEscalationEventAttr():
-'''public PlusPFldEscalationEventAttr(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldEscalationEventAttr(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

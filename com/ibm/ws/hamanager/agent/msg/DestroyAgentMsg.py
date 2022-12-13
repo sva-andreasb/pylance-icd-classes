@@ -1,8 +1,6 @@
 def DestroyAgentMsg():
-'''public DestroyAgentMsg(final long sequence)
-'''
-pass
+    '''    public DestroyAgentMsg(final long sequence)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

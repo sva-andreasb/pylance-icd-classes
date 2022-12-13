@@ -1,52 +1,39 @@
 def configureEngine():
-'''public void configureEngine(final AxisEngine engine)
-'''
-pass
+    '''    public void configureEngine(final AxisEngine engine)
+    '''
 def writeEngineConfig():
-'''public void writeEngineConfig(final AxisEngine engine)
-'''
-pass
+    '''    public void writeEngineConfig(final AxisEngine engine)
+    '''
 def getGlobalOptions():
-'''public Hashtable getGlobalOptions()
-'''
-pass
+    '''    public Hashtable getGlobalOptions()
+    '''
 def getGlobalResponse():
-'''public Handler getGlobalResponse()
-'''
-pass
+    '''    public Handler getGlobalResponse()
+    '''
 def getGlobalRequest():
-'''public Handler getGlobalRequest()
-'''
-pass
+    '''    public Handler getGlobalRequest()
+    '''
 def getTypeMappingRegistry():
-'''public TypeMappingRegistry getTypeMappingRegistry()
-'''
-pass
+    '''    public TypeMappingRegistry getTypeMappingRegistry()
+    '''
 def getTypeMapping():
-'''public TypeMapping getTypeMapping(final String encodingStyle)
-'''
-pass
+    '''    public TypeMapping getTypeMapping(final String encodingStyle)
+    '''
 def getTransport():
-'''public Handler getTransport(final QName qname)
-'''
-pass
+    '''    public Handler getTransport(final QName qname)
+    '''
 def getService():
-'''public SOAPService getService(final QName qname)
-'''
-pass
+    '''    public SOAPService getService(final QName qname)
+    '''
 def getServiceByNamespaceURI():
-'''public SOAPService getServiceByNamespaceURI(final String namespace)
-'''
-pass
+    '''    public SOAPService getServiceByNamespaceURI(final String namespace)
+    '''
 def getHandler():
-'''public Handler getHandler(final QName qname)
-'''
-pass
+    '''    public Handler getHandler(final QName qname)
+    '''
 def getDeployedServices():
-'''public Iterator getDeployedServices()
-'''
-pass
+    '''    public Iterator getDeployedServices()
+    '''
 def getRoles():
-'''public List getRoles()
-'''
-pass
+    '''    public List getRoles()
+    '''

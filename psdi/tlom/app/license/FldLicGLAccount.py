@@ -1,8 +1,6 @@
 def FldLicGLAccount():
-'''public FldLicGLAccount(final MboValue mbv)
-'''
-pass
+    '''    public FldLicGLAccount(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,32 +1,24 @@
 def AbstractWatcher():
-'''public AbstractWatcher(final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners)
-'''
-pass
+    '''    public AbstractWatcher(final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners)
+    '''
 def getListeners():
-'''public List<ConfigurationListener> getListeners()
-'''
-pass
+    '''    public List<ConfigurationListener> getListeners()
+    '''
 def modified():
-'''public void modified()
-'''
-pass
+    '''    public void modified()
+    '''
 def getConfiguration():
-'''public Configuration getConfiguration()
-'''
-pass
+    '''    public Configuration getConfiguration()
+    '''
 def watching():
-'''public void watching(final Source source)
-'''
-pass
+    '''    public void watching(final Source source)
+    '''
 def getSource():
-'''public Source getSource()
-'''
-pass
+    '''    public Source getSource()
+    '''
 def ReconfigurationRunnable():
-'''public ReconfigurationRunnable(final ConfigurationListener configurationListener, final Reconfigurable reconfigurable)
-'''
-pass
+    '''    public ReconfigurationRunnable(final ConfigurationListener configurationListener, final Reconfigurable reconfigurable)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

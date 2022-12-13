@@ -1,52 +1,39 @@
 def ServRecTransSet():
-'''public ServRecTransSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ServRecTransSet(final MboServerInterface ms)
+    '''
 def clearVector():
-'''public void clearVector()
-'''
-pass
+    '''    public void clearVector()
+    '''
 def addWarnings():
-'''public void addWarnings(final MXException mx)
-'''
-pass
+    '''    public void addWarnings(final MXException mx)
+    '''
 def deleteUnSelected():
-'''public void deleteUnSelected()
-'''
-pass
+    '''    public void deleteUnSelected()
+    '''
 def checkAcceptAndRejectCost():
-'''public void checkAcceptAndRejectCost()
-'''
-pass
+    '''    public void checkAcceptAndRejectCost()
+    '''
 def approveReceipts():
-'''public Vector approveReceipts(final Date todaysDate)
-'''
-pass
+    '''    public Vector approveReceipts(final Date todaysDate)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    '''
 def getUserWhere():
-'''public String getUserWhere(final String alias)
-'''
-pass
+    '''    public String getUserWhere(final String alias)
+    '''
 def resetQbe():
-'''public void resetQbe()
-'''
-pass
+    '''    public void resetQbe()
+    '''
 def addListener():
-'''public void addListener(final MboSetListener l)
-'''
-pass
+    '''    public void addListener(final MboSetListener l)
+    '''
 def removeListener():
-'''public void removeListener(final MboSetListener l)
-'''
-pass
+    '''    public void removeListener(final MboSetListener l)
+    '''
 def reportModifiedMbo():
-'''public void reportModifiedMbo(final MboRemote modifiedMbo)
-'''
-pass
+    '''    public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''

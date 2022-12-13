@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def SendRedirectSideEffect():
-'''public SendRedirectSideEffect(final String url)
-'''
-pass
+    '''    public SendRedirectSideEffect(final String url)
+    '''
 def performSideEffect():
-'''public void performSideEffect(final HttpServletResponse response)
-'''
-pass
+    '''    public void performSideEffect(final HttpServletResponse response)
+    '''

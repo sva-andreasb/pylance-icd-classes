@@ -7,24 +7,19 @@ CHAR_CONCAT_BUFFER = "int  1"
 CHAR_TEXT_BUFFER = "int  2"
 CHAR_NAME_COPY_BUFFER = "int  3"
 def BufferRecycler():
-'''public BufferRecycler()
-'''
-pass
+    '''    public BufferRecycler()
+    '''
 def allocByteBuffer():
-'''public final byte[] allocByteBuffer(final int ix)
-public byte[] allocByteBuffer(final int ix, int minSize)
-'''
-pass
+    '''    public final byte[] allocByteBuffer(final int ix)
+    public byte[] allocByteBuffer(final int ix, int minSize)
+    '''
 def releaseByteBuffer():
-'''public void releaseByteBuffer(final int ix, final byte[] buffer)
-'''
-pass
+    '''    public void releaseByteBuffer(final int ix, final byte[] buffer)
+    '''
 def allocCharBuffer():
-'''public final char[] allocCharBuffer(final int ix)
-public char[] allocCharBuffer(final int ix, int minSize)
-'''
-pass
+    '''    public final char[] allocCharBuffer(final int ix)
+    public char[] allocCharBuffer(final int ix, int minSize)
+    '''
 def releaseCharBuffer():
-'''public void releaseCharBuffer(final int ix, final char[] buffer)
-'''
-pass
+    '''    public void releaseCharBuffer(final int ix, final char[] buffer)
+    '''

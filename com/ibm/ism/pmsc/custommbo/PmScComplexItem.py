@@ -1,8 +1,6 @@
 def PmScComplexItem():
-'''public PmScComplexItem(final MboSet ms)
-'''
-pass
+    '''    public PmScComplexItem(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

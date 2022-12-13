@@ -1,4 +1,3 @@
 def NoModificationAllowedException():
-'''public NoModificationAllowedException(final String message)
-'''
-pass
+    '''    public NoModificationAllowedException(final String message)
+    '''

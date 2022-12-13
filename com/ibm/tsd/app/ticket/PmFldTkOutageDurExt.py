@@ -1,16 +1,12 @@
 def PmFldTkOutageDurExt():
-'''public PmFldTkOutageDurExt(final MboValue mbv)
-'''
-pass
+    '''    public PmFldTkOutageDurExt(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def formatdur():
-'''public void formatdur()
-'''
-pass
+    '''    public void formatdur()
+    '''

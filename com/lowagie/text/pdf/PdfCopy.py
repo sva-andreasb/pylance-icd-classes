@@ -1,52 +1,39 @@
 def PdfCopy():
-'''public PdfCopy(final Document document, final OutputStream os)
-'''
-pass
+    '''    public PdfCopy(final Document document, final OutputStream os)
+    '''
 def open():
-'''public void open()
-'''
-pass
+    '''    public void open()
+    '''
 def getImportedPage():
-'''public PdfImportedPage getImportedPage(final PdfReader reader, final int pageNumber)
-'''
-pass
+    '''    public PdfImportedPage getImportedPage(final PdfReader reader, final int pageNumber)
+    '''
 def addPage():
-'''public void addPage(final PdfImportedPage iPage)
-'''
-pass
+    '''    public void addPage(final PdfImportedPage iPage)
+    '''
 def getPageReference():
-'''public PdfIndirectReference getPageReference(final int page)
-'''
-pass
+    '''    public PdfIndirectReference getPageReference(final int page)
+    '''
 def copyAcroForm():
-'''public void copyAcroForm(final PdfReader reader)
-'''
-pass
+    '''    public void copyAcroForm(final PdfReader reader)
+    '''
 def setOutlines():
-'''public void setOutlines(final List outlines)
-'''
-pass
+    '''    public void setOutlines(final List outlines)
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def add():
-'''public PdfIndirectReference add(final PdfOutline outline)
-'''
-pass
+    '''    public PdfIndirectReference add(final PdfOutline outline)
+    '''
 def addAnnotation():
-'''public void addAnnotation(final PdfAnnotation annot)
-'''
-pass
+    '''    public void addAnnotation(final PdfAnnotation annot)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

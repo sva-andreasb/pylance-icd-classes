@@ -1,8 +1,6 @@
 def execute():
-'''public int execute(final MboSetRemote docs)
-'''
-pass
+    '''    public int execute(final MboSetRemote docs)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

@@ -1,12 +1,9 @@
 def TaxOrder():
-'''public TaxOrder(final MboSet ms)
-'''
-pass
+    '''    public TaxOrder(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

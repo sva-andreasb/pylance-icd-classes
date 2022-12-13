@@ -1,21 +1,16 @@
-CONTENT_TYPE = "String  application/octet-stream""
+CONTENT_TYPE = "String  \"application/octet-stream\""
 def OctetStreamDataSource():
-'''public OctetStreamDataSource(final String name, final OctetStream data)
-'''
-pass
+    '''    public OctetStreamDataSource(final String name, final OctetStream data)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''

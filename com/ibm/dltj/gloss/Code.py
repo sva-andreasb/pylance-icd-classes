@@ -1,8 +1,6 @@
 def getCode():
-'''public String getCode()
-'''
-pass
+    '''    public String getCode()
+    '''
 def insertedChars():
-'''public int insertedChars()
-'''
-pass
+    '''    public int insertedChars()
+    '''

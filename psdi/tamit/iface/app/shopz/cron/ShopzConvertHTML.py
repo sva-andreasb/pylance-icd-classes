@@ -1,48 +1,36 @@
 def ShopzConvertHTML():
-'''public ShopzConvertHTML()
-'''
-pass
+    '''    public ShopzConvertHTML()
+    '''
 def convert():
-'''public void convert(final File input)
-'''
-pass
+    '''    public void convert(final File input)
+    '''
 def getColumnHeader():
-'''public List<String> getColumnHeader()
-'''
-pass
+    '''    public List<String> getColumnHeader()
+    '''
 def getRowData():
-'''public List<List<String>> getRowData()
-'''
-pass
+    '''    public List<List<String>> getRowData()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def handleComment():
-'''public void handleComment(final char[] data, final int pos)
-'''
-pass
+    '''    public void handleComment(final char[] data, final int pos)
+    '''
 def handleEndOfLineString():
-'''public void handleEndOfLineString(final String eol)
-'''
-pass
+    '''    public void handleEndOfLineString(final String eol)
+    '''
 def handleError():
-'''public void handleError(final String errorMsg, final int pos)
-'''
-pass
+    '''    public void handleError(final String errorMsg, final int pos)
+    '''
 def handleSimpleTag():
-'''public void handleSimpleTag(final HTML.Tag t, final MutableAttributeSet a, final int pos)
-'''
-pass
+    '''    public void handleSimpleTag(final HTML.Tag t, final MutableAttributeSet a, final int pos)
+    '''
 def handleStartTag():
-'''public void handleStartTag(final HTML.Tag t, final MutableAttributeSet a, final int pos)
-'''
-pass
+    '''    public void handleStartTag(final HTML.Tag t, final MutableAttributeSet a, final int pos)
+    '''
 def handleEndTag():
-'''public void handleEndTag(final HTML.Tag t, final int pos)
-'''
-pass
+    '''    public void handleEndTag(final HTML.Tag t, final int pos)
+    '''
 def handleText():
-'''public void handleText(final char[] data, final int pos)
-'''
-pass
+    '''    public void handleText(final char[] data, final int pos)
+    '''

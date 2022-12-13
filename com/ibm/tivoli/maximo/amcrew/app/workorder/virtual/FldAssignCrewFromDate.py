@@ -1,8 +1,6 @@
 def FldAssignCrewFromDate():
-'''public FldAssignCrewFromDate(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignCrewFromDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

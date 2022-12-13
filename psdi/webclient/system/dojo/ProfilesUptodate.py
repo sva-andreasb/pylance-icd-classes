@@ -1,20 +1,15 @@
 def setProperty():
-'''public void setProperty(final String property)
-'''
-pass
+    '''    public void setProperty(final String property)
+    '''
 def setDojoSrcDir():
-'''public void setDojoSrcDir(final String dojoSrcDir)
-'''
-pass
+    '''    public void setDojoSrcDir(final String dojoSrcDir)
+    '''
 def setDojoReleaseDir():
-'''public void setDojoReleaseDir(final String dojoReleaseDir)
-'''
-pass
+    '''    public void setDojoReleaseDir(final String dojoReleaseDir)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def eval():
-'''public boolean eval()
-'''
-pass
+    '''    public boolean eval()
+    '''

@@ -1,21 +1,16 @@
 def MeterCacheImpl():
-'''public MeterCacheImpl()
-'''
-pass
+    '''    public MeterCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getMeterInfo():
-'''public MeterInfo getMeterInfo(final Integer hcmeter)
-'''
-pass
+    '''    public MeterInfo getMeterInfo(final Integer hcmeter)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

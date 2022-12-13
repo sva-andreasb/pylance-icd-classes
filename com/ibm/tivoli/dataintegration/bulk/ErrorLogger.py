@@ -1,8 +1,6 @@
 def getLogger():
-'''public static ErrorLogger getLogger()
-'''
-pass
+    '''    public static ErrorLogger getLogger()
+    '''
 def logError():
-'''public void logError(final String errorString)
-'''
-pass
+    '''    public void logError(final String errorString)
+    '''

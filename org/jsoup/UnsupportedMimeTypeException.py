@@ -1,16 +1,12 @@
 def UnsupportedMimeTypeException():
-'''public UnsupportedMimeTypeException(final String message, final String mimeType, final String url)
-'''
-pass
+    '''    public UnsupportedMimeTypeException(final String message, final String mimeType, final String url)
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

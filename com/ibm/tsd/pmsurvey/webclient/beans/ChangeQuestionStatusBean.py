@@ -1,9 +1,7 @@
 def ChangeQuestionStatusBean():
-'''public ChangeQuestionStatusBean()
-'''
-pass
+    '''    public ChangeQuestionStatusBean()
+    '''
 def execute():
-'''public int execute()
-public int execute(final MboSetRemote mboset)
-'''
-pass
+    '''    public int execute()
+    public int execute(final MboSetRemote mboset)
+    '''

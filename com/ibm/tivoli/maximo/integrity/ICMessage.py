@@ -1,40 +1,31 @@
 def ICMessage():
-'''public ICMessage(final Level level, final String configdbErrorKey)
-public ICMessage(final Level level, final MXException mxe)
-public ICMessage(final MXException mxe)
-'''
-pass
+    '''    public ICMessage(final Level level, final String configdbErrorKey)
+    public ICMessage(final Level level, final MXException mxe)
+    public ICMessage(final MXException mxe)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getLevel():
-'''public Level getLevel()
-'''
-pass
+    '''    public Level getLevel()
+    '''
 def addToList():
-'''public void addToList(final MXException mxe)
-public void addToList(final String item)
-public void addToList(final List<String> details)
-'''
-pass
+    '''    public void addToList(final MXException mxe)
+    public void addToList(final String item)
+    public void addToList(final List<String> details)
+    '''
 def getMessage():
-'''public MXException getMessage()
-'''
-pass
+    '''    public MXException getMessage()
+    '''
 def getDetailList():
-'''public List<String> getDetailList()
-'''
-pass
+    '''    public List<String> getDetailList()
+    '''
 def setContext():
-'''public void setContext(final MTContext context)
-'''
-pass
+    '''    public void setContext(final MTContext context)
+    '''
 def getContext():
-'''public MTContext getContext()
-'''
-pass
+    '''    public MTContext getContext()
+    '''
 def getTopLine():
-'''public String getTopLine()
-'''
-pass
+    '''    public String getTopLine()
+    '''

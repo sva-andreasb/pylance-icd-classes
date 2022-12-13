@@ -1,16 +1,12 @@
 def selectAllItems():
-'''public int selectAllItems()
-'''
-pass
+    '''    public int selectAllItems()
+    '''
 def modifySingleShiftFromToolItem():
-'''public int modifySingleShiftFromToolItem()
-'''
-pass
+    '''    public int modifySingleShiftFromToolItem()
+    '''
 def toggleselectrow():
-'''public int toggleselectrow()
-'''
-pass
+    '''    public int toggleselectrow()
+    '''
 def toggleselectallrows():
-'''public int toggleselectallrows()
-'''
-pass
+    '''    public int toggleselectallrows()
+    '''

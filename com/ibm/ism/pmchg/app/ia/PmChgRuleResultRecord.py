@@ -1,150 +1,113 @@
-SOURCE_DIRECTION = "String SOURCE_KEY""
-TARGET_DIRECTION = "String TARGET_KEY""
+SOURCE_DIRECTION = "String  \"SOURCE_KEY\""
+TARGET_DIRECTION = "String  \"TARGET_KEY\""
 def PmChgRuleResultRecord():
-'''public PmChgRuleResultRecord()
-'''
-pass
+    '''    public PmChgRuleResultRecord()
+    '''
 def getBaseCI():
-'''public String getBaseCI()
-'''
-pass
+    '''    public String getBaseCI()
+    '''
 def setBaseCI():
-'''public void setBaseCI(final String baseCI)
-'''
-pass
+    '''    public void setBaseCI(final String baseCI)
+    '''
 def getSourceCI():
-'''public String getSourceCI()
-'''
-pass
+    '''    public String getSourceCI()
+    '''
 def setSourceCI():
-'''public void setSourceCI(final String sourceCI)
-'''
-pass
+    '''    public void setSourceCI(final String sourceCI)
+    '''
 def getTargetCI():
-'''public String getTargetCI()
-'''
-pass
+    '''    public String getTargetCI()
+    '''
 def setTargetCI():
-'''public void setTargetCI(final String targetCI)
-'''
-pass
+    '''    public void setTargetCI(final String targetCI)
+    '''
 def getPmchgRuleId():
-'''public long getPmchgRuleId()
-'''
-pass
+    '''    public long getPmchgRuleId()
+    '''
 def setPmchgRuleId():
-'''public void setPmchgRuleId(final long pmchgRuleId)
-'''
-pass
+    '''    public void setPmchgRuleId(final long pmchgRuleId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getImpactDirection():
-'''public String getImpactDirection()
-'''
-pass
+    '''    public String getImpactDirection()
+    '''
 def setImpactDirection():
-'''public void setImpactDirection(final String impactDirection)
-'''
-pass
+    '''    public void setImpactDirection(final String impactDirection)
+    '''
 def isRelationNumMatch():
-'''public Boolean isRelationNumMatch()
-'''
-pass
+    '''    public Boolean isRelationNumMatch()
+    '''
 def setRelationNumMatch():
-'''public void setRelationNumMatch(final Boolean relationNumMatch)
-'''
-pass
+    '''    public void setRelationNumMatch(final Boolean relationNumMatch)
+    '''
 def isSourceConditionMatch():
-'''public Boolean isSourceConditionMatch()
-'''
-pass
+    '''    public Boolean isSourceConditionMatch()
+    '''
 def setSourceConditionMatch():
-'''public void setSourceConditionMatch(final Boolean sourceConditionMatch)
-'''
-pass
+    '''    public void setSourceConditionMatch(final Boolean sourceConditionMatch)
+    '''
 def isTargetConditionMatch():
-'''public Boolean isTargetConditionMatch()
-'''
-pass
+    '''    public Boolean isTargetConditionMatch()
+    '''
 def setTargetConditionMatch():
-'''public void setTargetConditionMatch(final Boolean targetConditionMatch)
-'''
-pass
+    '''    public void setTargetConditionMatch(final Boolean targetConditionMatch)
+    '''
 def isDirectionMatch():
-'''public Boolean isDirectionMatch()
-'''
-pass
+    '''    public Boolean isDirectionMatch()
+    '''
 def setDirectionMatch():
-'''public void setDirectionMatch(final Boolean directionMatch)
-'''
-pass
+    '''    public void setDirectionMatch(final Boolean directionMatch)
+    '''
 def isImpacted():
-'''public boolean isImpacted()
-'''
-pass
+    '''    public boolean isImpacted()
+    '''
 def setImpacted():
-'''public void setImpacted(final boolean impacted)
-'''
-pass
+    '''    public void setImpacted(final boolean impacted)
+    '''
 def getImpactingCinum():
-'''public String getImpactingCinum()
-'''
-pass
+    '''    public String getImpactingCinum()
+    '''
 def setImpactingCinum():
-'''public void setImpactingCinum(final String cinum)
-'''
-pass
+    '''    public void setImpactingCinum(final String cinum)
+    '''
 def getImpactedCinum():
-'''public String getImpactedCinum()
-'''
-pass
+    '''    public String getImpactedCinum()
+    '''
 def setImpactedCinum():
-'''public void setImpactedCinum(final String cinum)
-'''
-pass
+    '''    public void setImpactedCinum(final String cinum)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def setUserName():
-'''public void setUserName(final String userName)
-'''
-pass
+    '''    public void setUserName(final String userName)
+    '''
 def getClassstructureId():
-'''public String getClassstructureId()
-'''
-pass
+    '''    public String getClassstructureId()
+    '''
 def setClassstructureId():
-'''public void setClassstructureId(final String classstructureId)
-'''
-pass
+    '''    public void setClassstructureId(final String classstructureId)
+    '''
 def isshowInIAView():
-'''public boolean isshowInIAView()
-'''
-pass
+    '''    public boolean isshowInIAView()
+    '''
 def setshowInIAView():
-'''public void setshowInIAView(final boolean showInIAView)
-'''
-pass
+    '''    public void setshowInIAView(final boolean showInIAView)
+    '''
 def samePath():
-'''public boolean samePath(final PmChgRuleResultRecord record)
-'''
-pass
+    '''    public boolean samePath(final PmChgRuleResultRecord record)
+    '''
 def getRelationNum():
-'''public String getRelationNum()
-'''
-pass
+    '''    public String getRelationNum()
+    '''
 def setRelationNum():
-'''public void setRelationNum(final String relationNum)
-'''
-pass
+    '''    public void setRelationNum(final String relationNum)
+    '''
 def getDepth():
-'''public int getDepth()
-'''
-pass
+    '''    public int getDepth()
+    '''
 def setDepth():
-'''public void setDepth(final int depth)
-'''
-pass
+    '''    public void setDepth(final int depth)
+    '''

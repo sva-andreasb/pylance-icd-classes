@@ -1,29 +1,22 @@
 def getSignerConfig():
-'''public SignerConfig getSignerConfig(final String serviceName)
-public SignerConfig getSignerConfig(final String serviceName, final String regionName)
-'''
-pass
+    '''    public SignerConfig getSignerConfig(final String serviceName)
+    public SignerConfig getSignerConfig(final String serviceName, final String regionName)
+    '''
 def getHttpClientConfig():
-'''public HttpClientConfig getHttpClientConfig(final String httpClientName)
-'''
-pass
+    '''    public HttpClientConfig getHttpClientConfig(final String httpClientName)
+    '''
 def getHostRegexToRegionMappings():
-'''public List<HostRegexToRegionMapping> getHostRegexToRegionMappings()
-'''
-pass
+    '''    public List<HostRegexToRegionMapping> getHostRegexToRegionMappings()
+    '''
 def getUserAgentTemplate():
-'''public String getUserAgentTemplate()
-'''
-pass
+    '''    public String getUserAgentTemplate()
+    '''
 def getDefaultConfigFileLocation():
-'''public URL getDefaultConfigFileLocation()
-'''
-pass
+    '''    public URL getDefaultConfigFileLocation()
+    '''
 def getOverrideConfigFileLocation():
-'''public URL getOverrideConfigFileLocation()
-'''
-pass
+    '''    public URL getOverrideConfigFileLocation()
+    '''
 def getInternalConfig():
-'''public static InternalConfig getInternalConfig()
-'''
-pass
+    '''    public static InternalConfig getInternalConfig()
+    '''

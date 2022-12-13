@@ -1,4 +1,3 @@
 def NoRawSessionException():
-'''public NoRawSessionException(final Exception e)
-'''
-pass
+    '''    public NoRawSessionException(final Exception e)
+    '''

@@ -1,21 +1,16 @@
-CONTENT_TYPE = "String  text/plain""
+CONTENT_TYPE = "String  \"text/plain\""
 def PlainTextDataSource():
-'''public PlainTextDataSource(final String name, final String data)
-'''
-pass
+    '''    public PlainTextDataSource(final String name, final String data)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''

@@ -1,8 +1,6 @@
 def filedownload():
-'''public int filedownload()
-'''
-pass
+    '''    public int filedownload()
+    '''
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''

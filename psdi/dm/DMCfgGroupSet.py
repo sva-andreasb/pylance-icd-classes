@@ -1,4 +1,3 @@
 def DMCfgGroupSet():
-'''public DMCfgGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMCfgGroupSet(final MboServerInterface ms)
+    '''

@@ -1,36 +1,27 @@
 def BytesTrieBuilder():
-'''public BytesTrieBuilder()
-'''
-pass
+    '''    public BytesTrieBuilder()
+    '''
 def add():
-'''public BytesTrieBuilder add(final byte[] sequence, final int length, final int value)
-'''
-pass
+    '''    public BytesTrieBuilder add(final byte[] sequence, final int length, final int value)
+    '''
 def build():
-'''public BytesTrie build(final Option buildOption)
-'''
-pass
+    '''    public BytesTrie build(final Option buildOption)
+    '''
 def buildByteBuffer():
-'''public ByteBuffer buildByteBuffer(final Option buildOption)
-'''
-pass
+    '''    public ByteBuffer buildByteBuffer(final Option buildOption)
+    '''
 def clear():
-'''public BytesTrieBuilder clear()
-'''
-pass
+    '''    public BytesTrieBuilder clear()
+    '''
 def BytesAsCharSequence():
-'''public BytesAsCharSequence(final byte[] sequence, final int length)
-'''
-pass
+    '''    public BytesAsCharSequence(final byte[] sequence, final int length)
+    '''
 def charAt():
-'''public char charAt(final int i)
-'''
-pass
+    '''    public char charAt(final int i)
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def subSequence():
-'''public CharSequence subSequence(final int start, final int end)
-'''
-pass
+    '''    public CharSequence subSequence(final int start, final int end)
+    '''

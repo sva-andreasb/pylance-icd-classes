@@ -1,20 +1,15 @@
 def FldLaunchPntVarBindValue():
-'''public FldLaunchPntVarBindValue(final MboValue mbv)
-'''
-pass
+    '''    public FldLaunchPntVarBindValue(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''

@@ -1,28 +1,21 @@
 def FldPurContractRefNum():
-'''public FldPurContractRefNum(final MboValue mbv)
-'''
-pass
+    '''    public FldPurContractRefNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getContract():
-'''public MboRemote getContract()
-'''
-pass
+    '''    public MboRemote getContract()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''

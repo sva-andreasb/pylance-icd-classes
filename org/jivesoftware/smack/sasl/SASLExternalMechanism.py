@@ -1,4 +1,3 @@
 def SASLExternalMechanism():
-'''public SASLExternalMechanism(final SASLAuthentication saslAuthentication)
-'''
-pass
+    '''    public SASLExternalMechanism(final SASLAuthentication saslAuthentication)
+    '''

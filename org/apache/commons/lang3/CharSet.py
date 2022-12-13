@@ -1,20 +1,15 @@
 def getInstance():
-'''public static CharSet getInstance(final String... setStrs)
-'''
-pass
+    '''    public static CharSet getInstance(final String... setStrs)
+    '''
 def contains():
-'''public boolean contains(final char ch)
-'''
-pass
+    '''    public boolean contains(final char ch)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

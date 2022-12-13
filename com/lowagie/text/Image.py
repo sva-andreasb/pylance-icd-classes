@@ -21,366 +21,278 @@ ORIGINAL_TIFF = "int  5"
 ORIGINAL_WMF = "int  6"
 ORIGINAL_PS = "int  7"
 def Image():
-'''public Image(final URL url)
-'''
-pass
+    '''    public Image(final URL url)
+    '''
 def getInstance():
-'''public static Image getInstance(final Image image)
-public static Image getInstance(final URL url)
-public static Image getInstance(final byte[] imgb)
-public static Image getInstance(final java.awt.Image image, final Color color, final boolean forceBW)
-public static Image getInstance(final java.awt.Image image, final Color color)
-public static Image getInstance(final String filename)
-public static Image getInstance(final int width, final int height, final int components, final int bpc, final byte[] data)
-public static Image getInstance(final PdfTemplate template)
-public static Image getInstance(final int width, final int height, final boolean reverseBits, final int typeCCITT, final int parameters, final byte[] data)
-public static Image getInstance(final int width, final int height, final boolean reverseBits, final int typeCCITT, final int parameters, final byte[] data, final int[] transparency)
-public static Image getInstance(final int width, final int height, final int components, final int bpc, final byte[] data, final int[] transparency)
-public static Image getInstance(final Properties attributes)
-'''
-pass
+    '''    public static Image getInstance(final Image image)
+    public static Image getInstance(final URL url)
+    public static Image getInstance(final byte[] imgb)
+    public static Image getInstance(final java.awt.Image image, final Color color, final boolean forceBW)
+    public static Image getInstance(final java.awt.Image image, final Color color)
+    public static Image getInstance(final String filename)
+    public static Image getInstance(final int width, final int height, final int components, final int bpc, final byte[] data)
+    public static Image getInstance(final PdfTemplate template)
+    public static Image getInstance(final int width, final int height, final boolean reverseBits, final int typeCCITT, final int parameters, final byte[] data)
+    public static Image getInstance(final int width, final int height, final boolean reverseBits, final int typeCCITT, final int parameters, final byte[] data, final int[] transparency)
+    public static Image getInstance(final int width, final int height, final int components, final int bpc, final byte[] data, final int[] transparency)
+    public static Image getInstance(final Properties attributes)
+    '''
 def setAlignment():
-'''public void setAlignment(final int alignment)
-'''
-pass
+    '''    public void setAlignment(final int alignment)
+    '''
 def setAlt():
-'''public void setAlt(final String alt)
-'''
-pass
+    '''    public void setAlt(final String alt)
+    '''
 def setAbsolutePosition():
-'''public void setAbsolutePosition(final float absoluteX, final float absoluteY)
-'''
-pass
+    '''    public void setAbsolutePosition(final float absoluteX, final float absoluteY)
+    '''
 def scaleAbsolute():
-'''public void scaleAbsolute(final float newWidth, final float newHeight)
-'''
-pass
+    '''    public void scaleAbsolute(final float newWidth, final float newHeight)
+    '''
 def scaleAbsoluteWidth():
-'''public void scaleAbsoluteWidth(final float newWidth)
-'''
-pass
+    '''    public void scaleAbsoluteWidth(final float newWidth)
+    '''
 def scaleAbsoluteHeight():
-'''public void scaleAbsoluteHeight(final float newHeight)
-'''
-pass
+    '''    public void scaleAbsoluteHeight(final float newHeight)
+    '''
 def scalePercent():
-'''public void scalePercent(final float percent)
-public void scalePercent(final float percentX, final float percentY)
-'''
-pass
+    '''    public void scalePercent(final float percent)
+    public void scalePercent(final float percentX, final float percentY)
+    '''
 def scaleToFit():
-'''public void scaleToFit(final float fitWidth, final float fitHeight)
-'''
-pass
+    '''    public void scaleToFit(final float fitWidth, final float fitHeight)
+    '''
 def setRotation():
-'''public void setRotation(final float r)
-'''
-pass
+    '''    public void setRotation(final float r)
+    '''
 def setRotationDegrees():
-'''public void setRotationDegrees(final float deg)
-'''
-pass
+    '''    public void setRotationDegrees(final float deg)
+    '''
 def setAnnotation():
-'''public void setAnnotation(final Annotation annotation)
-'''
-pass
+    '''    public void setAnnotation(final Annotation annotation)
+    '''
 def annotation():
-'''public Annotation annotation()
-'''
-pass
+    '''    public Annotation annotation()
+    '''
 def bpc():
-'''public int bpc()
-'''
-pass
+    '''    public int bpc()
+    '''
 def rawData():
-'''public byte[] rawData()
-'''
-pass
+    '''    public byte[] rawData()
+    '''
 def templateData():
-'''public PdfTemplate templateData()
-'''
-pass
+    '''    public PdfTemplate templateData()
+    '''
 def setTemplateData():
-'''public void setTemplateData(final PdfTemplate template)
-'''
-pass
+    '''    public void setTemplateData(final PdfTemplate template)
+    '''
 def hasAbsolutePosition():
-'''public boolean hasAbsolutePosition()
-'''
-pass
+    '''    public boolean hasAbsolutePosition()
+    '''
 def hasAbsoluteX():
-'''public boolean hasAbsoluteX()
-'''
-pass
+    '''    public boolean hasAbsoluteX()
+    '''
 def absoluteX():
-'''public float absoluteX()
-'''
-pass
+    '''    public float absoluteX()
+    '''
 def absoluteY():
-'''public float absoluteY()
-'''
-pass
+    '''    public float absoluteY()
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def isJpeg():
-'''public boolean isJpeg()
-'''
-pass
+    '''    public boolean isJpeg()
+    '''
 def isImgRaw():
-'''public boolean isImgRaw()
-'''
-pass
+    '''    public boolean isImgRaw()
+    '''
 def isImgTemplate():
-'''public boolean isImgTemplate()
-'''
-pass
+    '''    public boolean isImgTemplate()
+    '''
 def url():
-'''public URL url()
-'''
-pass
+    '''    public URL url()
+    '''
 def alignment():
-'''public int alignment()
-'''
-pass
+    '''    public int alignment()
+    '''
 def alt():
-'''public String alt()
-'''
-pass
+    '''    public String alt()
+    '''
 def scaledWidth():
-'''public float scaledWidth()
-'''
-pass
+    '''    public float scaledWidth()
+    '''
 def scaledHeight():
-'''public float scaledHeight()
-'''
-pass
+    '''    public float scaledHeight()
+    '''
 def colorspace():
-'''public int colorspace()
-'''
-pass
+    '''    public int colorspace()
+    '''
 def matrix():
-'''public float[] matrix()
-'''
-pass
+    '''    public float[] matrix()
+    '''
 def skip():
-'''public static void skip(final InputStream is, int size)
-'''
-pass
+    '''    public static void skip(final InputStream is, int size)
+    '''
 def toURL():
-'''public static URL toURL(final String filename)
-'''
-pass
+    '''    public static URL toURL(final String filename)
+    '''
 def getTransparency():
-'''public int[] getTransparency()
-'''
-pass
+    '''    public int[] getTransparency()
+    '''
 def setTransparency():
-'''public void setTransparency(final int[] transparency)
-'''
-pass
+    '''    public void setTransparency(final int[] transparency)
+    '''
 def isTag():
-'''public static boolean isTag(final String tag)
-'''
-pass
+    '''    public static boolean isTag(final String tag)
+    '''
 def plainWidth():
-'''public float plainWidth()
-'''
-pass
+    '''    public float plainWidth()
+    '''
 def plainHeight():
-'''public float plainHeight()
-'''
-pass
+    '''    public float plainHeight()
+    '''
 def getMySerialId():
-'''public Long getMySerialId()
-'''
-pass
+    '''    public Long getMySerialId()
+    '''
 def getDpiX():
-'''public int getDpiX()
-'''
-pass
+    '''    public int getDpiX()
+    '''
 def getDpiY():
-'''public int getDpiY()
-'''
-pass
+    '''    public int getDpiY()
+    '''
 def setDpi():
-'''public void setDpi(final int dpiX, final int dpiY)
-'''
-pass
+    '''    public void setDpi(final int dpiX, final int dpiY)
+    '''
 def isMaskCandidate():
-'''public boolean isMaskCandidate()
-'''
-pass
+    '''    public boolean isMaskCandidate()
+    '''
 def makeMask():
-'''public void makeMask()
-'''
-pass
+    '''    public void makeMask()
+    '''
 def setImageMask():
-'''public void setImageMask(final Image mask)
-'''
-pass
+    '''    public void setImageMask(final Image mask)
+    '''
 def getImageMask():
-'''public Image getImageMask()
-'''
-pass
+    '''    public Image getImageMask()
+    '''
 def isMask():
-'''public boolean isMask()
-'''
-pass
+    '''    public boolean isMask()
+    '''
 def setInvertMask():
-'''public void setInvertMask(final boolean invert)
-'''
-pass
+    '''    public void setInvertMask(final boolean invert)
+    '''
 def isInvertMask():
-'''public boolean isInvertMask()
-'''
-pass
+    '''    public boolean isInvertMask()
+    '''
 def isInverted():
-'''public boolean isInverted()
-'''
-pass
+    '''    public boolean isInverted()
+    '''
 def setInverted():
-'''public void setInverted(final boolean invert)
-'''
-pass
+    '''    public void setInverted(final boolean invert)
+    '''
 def isInterpolation():
-'''public boolean isInterpolation()
-'''
-pass
+    '''    public boolean isInterpolation()
+    '''
 def setInterpolation():
-'''public void setInterpolation(final boolean interpolation)
-'''
-pass
+    '''    public void setInterpolation(final boolean interpolation)
+    '''
 def setMarkupAttribute():
-'''public void setMarkupAttribute(final String name, final String value)
-'''
-pass
+    '''    public void setMarkupAttribute(final String name, final String value)
+    '''
 def setMarkupAttributes():
-'''public void setMarkupAttributes(final Properties markupAttributes)
-'''
-pass
+    '''    public void setMarkupAttributes(final Properties markupAttributes)
+    '''
 def getMarkupAttribute():
-'''public String getMarkupAttribute(final String name)
-'''
-pass
+    '''    public String getMarkupAttribute(final String name)
+    '''
 def getMarkupAttributeNames():
-'''public Set getMarkupAttributeNames()
-'''
-pass
+    '''    public Set getMarkupAttributeNames()
+    '''
 def getMarkupAttributes():
-'''public Properties getMarkupAttributes()
-'''
-pass
+    '''    public Properties getMarkupAttributes()
+    '''
 def tagICC():
-'''public void tagICC(final ICC_Profile profile)
-'''
-pass
+    '''    public void tagICC(final ICC_Profile profile)
+    '''
 def hasICCProfile():
-'''public boolean hasICCProfile()
-'''
-pass
+    '''    public boolean hasICCProfile()
+    '''
 def getICCProfile():
-'''public ICC_Profile getICCProfile()
-'''
-pass
+    '''    public ICC_Profile getICCProfile()
+    '''
 def isDeflated():
-'''public boolean isDeflated()
-'''
-pass
+    '''    public boolean isDeflated()
+    '''
 def setDeflated():
-'''public void setDeflated(final boolean deflated)
-'''
-pass
+    '''    public void setDeflated(final boolean deflated)
+    '''
 def getAdditional():
-'''public PdfDictionary getAdditional()
-'''
-pass
+    '''    public PdfDictionary getAdditional()
+    '''
 def setAdditional():
-'''public void setAdditional(final PdfDictionary additional)
-'''
-pass
+    '''    public void setAdditional(final PdfDictionary additional)
+    '''
 def isSmask():
-'''public boolean isSmask()
-'''
-pass
+    '''    public boolean isSmask()
+    '''
 def setSmask():
-'''public void setSmask(final boolean smask)
-'''
-pass
+    '''    public void setSmask(final boolean smask)
+    '''
 def getXYRatio():
-'''public float getXYRatio()
-'''
-pass
+    '''    public float getXYRatio()
+    '''
 def setXYRatio():
-'''public void setXYRatio(final float XYRatio)
-'''
-pass
+    '''    public void setXYRatio(final float XYRatio)
+    '''
 def indentationLeft():
-'''public float indentationLeft()
-'''
-pass
+    '''    public float indentationLeft()
+    '''
 def indentationRight():
-'''public float indentationRight()
-'''
-pass
+    '''    public float indentationRight()
+    '''
 def setIndentationLeft():
-'''public void setIndentationLeft(final float f)
-'''
-pass
+    '''    public void setIndentationLeft(final float f)
+    '''
 def setIndentationRight():
-'''public void setIndentationRight(final float f)
-'''
-pass
+    '''    public void setIndentationRight(final float f)
+    '''
 def getOriginalType():
-'''public int getOriginalType()
-'''
-pass
+    '''    public int getOriginalType()
+    '''
 def setOriginalType():
-'''public void setOriginalType(final int originalType)
-'''
-pass
+    '''    public void setOriginalType(final int originalType)
+    '''
 def getOriginalData():
-'''public byte[] getOriginalData()
-'''
-pass
+    '''    public byte[] getOriginalData()
+    '''
 def setOriginalData():
-'''public void setOriginalData(final byte[] originalData)
-'''
-pass
+    '''    public void setOriginalData(final byte[] originalData)
+    '''
 def setUrl():
-'''public void setUrl(final URL url)
-'''
-pass
+    '''    public void setUrl(final URL url)
+    '''
 def setSpacingBefore():
-'''public void setSpacingBefore(final float spacing)
-'''
-pass
+    '''    public void setSpacingBefore(final float spacing)
+    '''
 def setSpacingAfter():
-'''public void setSpacingAfter(final float spacing)
-'''
-pass
+    '''    public void setSpacingAfter(final float spacing)
+    '''
 def spacingBefore():
-'''public float spacingBefore()
-'''
-pass
+    '''    public float spacingBefore()
+    '''
 def spacingAfter():
-'''public float spacingAfter()
-'''
-pass
+    '''    public float spacingAfter()
+    '''
 def getWidthPercentage():
-'''public float getWidthPercentage()
-'''
-pass
+    '''    public float getWidthPercentage()
+    '''
 def setWidthPercentage():
-'''public void setWidthPercentage(final float widthPercentage)
-'''
-pass
+    '''    public void setWidthPercentage(final float widthPercentage)
+    '''
 def getLayer():
-'''public PdfOCG getLayer()
-'''
-pass
+    '''    public PdfOCG getLayer()
+    '''
 def setLayer():
-'''public void setLayer(final PdfOCG layer)
-'''
-pass
+    '''    public void setLayer(final PdfOCG layer)
+    '''

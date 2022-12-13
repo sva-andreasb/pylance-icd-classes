@@ -1,33 +1,25 @@
 def byteArray():
-'''public byteArray(final long cPtr, final boolean cMemoryOwn)
-public byteArray(final int nelements)
-'''
-pass
+    '''    public byteArray(final long cPtr, final boolean cMemoryOwn)
+    public byteArray(final int nelements)
+    '''
 def setOwn():
-'''public void setOwn(final boolean cMemoryOwn)
-'''
-pass
+    '''    public void setOwn(final boolean cMemoryOwn)
+    '''
 def getCPtr():
-'''public static long getCPtr(final byteArray obj)
-'''
-pass
+    '''    public static long getCPtr(final byteArray obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def getitem():
-'''public byte getitem(final int index)
-'''
-pass
+    '''    public byte getitem(final int index)
+    '''
 def setitem():
-'''public void setitem(final int index, final byte value)
-'''
-pass
+    '''    public void setitem(final int index, final byte value)
+    '''
 def cast():
-'''public SWIGTYPE_p_signed_char cast()
-'''
-pass
+    '''    public SWIGTYPE_p_signed_char cast()
+    '''
 def frompointer():
-'''public static byteArray frompointer(final SWIGTYPE_p_signed_char t)
-'''
-pass
+    '''    public static byteArray frompointer(final SWIGTYPE_p_signed_char t)
+    '''

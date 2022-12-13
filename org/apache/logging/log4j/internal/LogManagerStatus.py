@@ -1,8 +1,6 @@
 def setInitialized():
-'''public static void setInitialized(final boolean managerStatus)
-'''
-pass
+    '''    public static void setInitialized(final boolean managerStatus)
+    '''
 def isInitialized():
-'''public static boolean isInitialized()
-'''
-pass
+    '''    public static boolean isInitialized()
+    '''

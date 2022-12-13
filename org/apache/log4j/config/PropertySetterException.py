@@ -1,9 +1,7 @@
 def PropertySetterException():
-'''public PropertySetterException(final String msg)
-public PropertySetterException(final Throwable rootCause)
-'''
-pass
+    '''    public PropertySetterException(final String msg)
+    public PropertySetterException(final Throwable rootCause)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

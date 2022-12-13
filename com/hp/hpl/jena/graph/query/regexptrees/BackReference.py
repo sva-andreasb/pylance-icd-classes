@@ -1,20 +1,15 @@
 def BackReference():
-'''public BackReference(final int n)
-'''
-pass
+    '''    public BackReference(final int n)
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

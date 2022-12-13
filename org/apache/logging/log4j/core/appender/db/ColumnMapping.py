@@ -1,77 +1,58 @@
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def toKey():
-'''public static String toKey(final String name)
-'''
-pass
+    '''    public static String toKey(final String name)
+    '''
 def getLayout():
-'''public StringLayout getLayout()
-'''
-pass
+    '''    public StringLayout getLayout()
+    '''
 def getLiteralValue():
-'''public String getLiteralValue()
-'''
-pass
+    '''    public String getLiteralValue()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getNameKey():
-'''public String getNameKey()
-'''
-pass
+    '''    public String getNameKey()
+    '''
 def getParameter():
-'''public String getParameter()
-'''
-pass
+    '''    public String getParameter()
+    '''
 def getSource():
-'''public String getSource()
-'''
-pass
+    '''    public String getSource()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public ColumnMapping build()
-'''
-pass
+    '''    public ColumnMapping build()
+    '''
 def setConfiguration():
-'''public Builder setConfiguration(final Configuration configuration)
-'''
-pass
+    '''    public Builder setConfiguration(final Configuration configuration)
+    '''
 def setLayout():
-'''public Builder setLayout(final StringLayout layout)
-'''
-pass
+    '''    public Builder setLayout(final StringLayout layout)
+    '''
 def setLiteral():
-'''public Builder setLiteral(final String literal)
-'''
-pass
+    '''    public Builder setLiteral(final String literal)
+    '''
 def setName():
-'''public Builder setName(final String name)
-'''
-pass
+    '''    public Builder setName(final String name)
+    '''
 def setParameter():
-'''public Builder setParameter(final String parameter)
-'''
-pass
+    '''    public Builder setParameter(final String parameter)
+    '''
 def setPattern():
-'''public Builder setPattern(final String pattern)
-'''
-pass
+    '''    public Builder setPattern(final String pattern)
+    '''
 def setSource():
-'''public Builder setSource(final String source)
-'''
-pass
+    '''    public Builder setSource(final String source)
+    '''
 def setType():
-'''public Builder setType(final Class<?> type)
-'''
-pass
+    '''    public Builder setType(final Class<?> type)
+    '''

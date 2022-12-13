@@ -1,4 +1,3 @@
 def FldHazardId():
-'''public FldHazardId(final MboValue mbv)
-'''
-pass
+    '''    public FldHazardId(final MboValue mbv)
+    '''

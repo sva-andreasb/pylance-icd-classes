@@ -1,48 +1,36 @@
 def ReusableParameterizedMessage():
-'''public ReusableParameterizedMessage()
-'''
-pass
+    '''    public ReusableParameterizedMessage()
+    '''
 def swapParameters():
-'''public Object[] swapParameters(final Object[] emptyReplacement)
-'''
-pass
+    '''    public Object[] swapParameters(final Object[] emptyReplacement)
+    '''
 def getParameterCount():
-'''public short getParameterCount()
-'''
-pass
+    '''    public short getParameterCount()
+    '''
 def forEachParameter():
-'''public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
-'''
-pass
+    '''    public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
+    '''
 def memento():
-'''public Message memento()
-'''
-pass
+    '''    public Message memento()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder builder)
-'''
-pass
+    '''    public void formatTo(final StringBuilder builder)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

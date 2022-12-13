@@ -1,4 +1,3 @@
 def FldPOOriginalPONum():
-'''public FldPOOriginalPONum(final MboValue mbv)
-'''
-pass
+    '''    public FldPOOriginalPONum(final MboValue mbv)
+    '''

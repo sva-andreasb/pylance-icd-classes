@@ -1,9 +1,7 @@
 def DefaultHttpRequestWriterFactory():
-'''public DefaultHttpRequestWriterFactory(final LineFormatter lineFormatter)
-public DefaultHttpRequestWriterFactory()
-'''
-pass
+    '''    public DefaultHttpRequestWriterFactory(final LineFormatter lineFormatter)
+    public DefaultHttpRequestWriterFactory()
+    '''
 def create():
-'''public HttpMessageWriter<HttpRequest> create(final SessionOutputBuffer buffer)
-'''
-pass
+    '''    public HttpMessageWriter<HttpRequest> create(final SessionOutputBuffer buffer)
+    '''

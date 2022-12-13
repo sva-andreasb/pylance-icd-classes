@@ -1,28 +1,21 @@
 def Site():
-'''public Site(final MboSet ms)
-'''
-pass
+    '''    public Site(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def validateOrgSite():
-'''public void validateOrgSite(final String orgId, final String siteId)
-'''
-pass
+    '''    public void validateOrgSite(final String orgId, final String siteId)
+    '''

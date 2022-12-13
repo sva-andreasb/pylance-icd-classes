@@ -1,5 +1,4 @@
 def VpkMsgDestroyCnl():
-'''public VpkMsgDestroyCnl(final int n, final int v)
-public VpkMsgDestroyCnl(final int n, final int v, final byte[] array)
-'''
-pass
+    '''    public VpkMsgDestroyCnl(final int n, final int v)
+    public VpkMsgDestroyCnl(final int n, final int v, final byte[] array)
+    '''

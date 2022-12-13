@@ -1,8 +1,6 @@
 def ISTORE():
-'''public ISTORE(final int n)
-'''
-pass
+    '''    public ISTORE(final int n)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

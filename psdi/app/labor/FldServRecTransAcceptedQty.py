@@ -1,8 +1,6 @@
 def FldServRecTransAcceptedQty():
-'''public FldServRecTransAcceptedQty(final MboValue mbv)
-'''
-pass
+    '''    public FldServRecTransAcceptedQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

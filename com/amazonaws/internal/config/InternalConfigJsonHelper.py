@@ -1,56 +1,42 @@
 def getDefaultSigner():
-'''public SignerConfigJsonHelper getDefaultSigner()
-'''
-pass
+    '''    public SignerConfigJsonHelper getDefaultSigner()
+    '''
 def setDefaultSigner():
-'''public void setDefaultSigner(final SignerConfigJsonHelper defaultSigner)
-'''
-pass
+    '''    public void setDefaultSigner(final SignerConfigJsonHelper defaultSigner)
+    '''
 def getServiceSigners():
-'''public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getServiceSigners()
-'''
-pass
+    '''    public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getServiceSigners()
+    '''
 def setServiceSigners():
-'''public void setServiceSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceSigners)
-'''
-pass
+    '''    public void setServiceSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceSigners)
+    '''
 def getRegionSigners():
-'''public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getRegionSigners()
-'''
-pass
+    '''    public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getRegionSigners()
+    '''
 def setRegionSigners():
-'''public void setRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... regionSigners)
-'''
-pass
+    '''    public void setRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... regionSigners)
+    '''
 def getServiceRegionSigners():
-'''public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getServiceRegionSigners()
-'''
-pass
+    '''    public JsonIndex<SignerConfigJsonHelper, SignerConfig>[] getServiceRegionSigners()
+    '''
 def setServiceRegionSigners():
-'''public void setServiceRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceRegionSigners)
-'''
-pass
+    '''    public void setServiceRegionSigners(final JsonIndex<SignerConfigJsonHelper, SignerConfig>... serviceRegionSigners)
+    '''
 def getHttpClients():
-'''public JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>[] getHttpClients()
-'''
-pass
+    '''    public JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>[] getHttpClients()
+    '''
 def setHttpClients():
-'''public void setHttpClients(final JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>... httpClients)
-'''
-pass
+    '''    public void setHttpClients(final JsonIndex<HttpClientConfigJsonHelper, HttpClientConfig>... httpClients)
+    '''
 def getHostRegexToRegionMappings():
-'''public HostRegexToRegionMappingJsonHelper[] getHostRegexToRegionMappings()
-'''
-pass
+    '''    public HostRegexToRegionMappingJsonHelper[] getHostRegexToRegionMappings()
+    '''
 def setHostRegexToRegionMappings():
-'''public void setHostRegexToRegionMappings(final HostRegexToRegionMappingJsonHelper[] hostRegexToRegionMappings)
-'''
-pass
+    '''    public void setHostRegexToRegionMappings(final HostRegexToRegionMappingJsonHelper[] hostRegexToRegionMappings)
+    '''
 def getUserAgentTemplate():
-'''public String getUserAgentTemplate()
-'''
-pass
+    '''    public String getUserAgentTemplate()
+    '''
 def setUserAgentTemplate():
-'''public void setUserAgentTemplate(final String userAgentTemplate)
-'''
-pass
+    '''    public void setUserAgentTemplate(final String userAgentTemplate)
+    '''

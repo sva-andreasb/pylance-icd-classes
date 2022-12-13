@@ -1,44 +1,33 @@
 def MaxDomain():
-'''public MaxDomain(final MboSet ms)
-'''
-pass
+    '''    public MaxDomain(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def appValidateAtTheEnd():
-'''public void appValidateAtTheEnd()
-'''
-pass
+    '''    public void appValidateAtTheEnd()
+    '''
 def getInternalDomainType():
-'''public String getInternalDomainType()
-'''
-pass
+    '''    public String getInternalDomainType()
+    '''
 def getDefaultExtDomType():
-'''public String getDefaultExtDomType(final String internal)
-'''
-pass
+    '''    public String getDefaultExtDomType(final String internal)
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''

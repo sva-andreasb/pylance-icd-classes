@@ -1,40 +1,30 @@
 def setAccount():
-'''public void setAccount(final com.softlayer.api.service.Account account)
-'''
-pass
+    '''    public void setAccount(final com.softlayer.api.service.Account account)
+    '''
 def getLastNotificationUpdate():
-'''public Update getLastNotificationUpdate()
-'''
-pass
+    '''    public Update getLastNotificationUpdate()
+    '''
 def setLastNotificationUpdate():
-'''public void setLastNotificationUpdate(final Update lastNotificationUpdate)
-'''
-pass
+    '''    public void setLastNotificationUpdate(final Update lastNotificationUpdate)
+    '''
 def getNotificationOccurrenceEvent():
-'''public Event getNotificationOccurrenceEvent()
-'''
-pass
+    '''    public Event getNotificationOccurrenceEvent()
+    '''
 def setNotificationOccurrenceEvent():
-'''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
-'''
-pass
+    '''    public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''
 def getActive():
-'''public Long getActive()
-'''
-pass
+    '''    public Long getActive()
+    '''
 def setActive():
-'''public void setActive(final Long active)
-'''
-pass
+    '''    public void setActive(final Long active)
+    '''
 def isActiveSpecified():
-'''public boolean isActiveSpecified()
-'''
-pass
+    '''    public boolean isActiveSpecified()
+    '''
 def unsetActive():
-'''public void unsetActive()
-'''
-pass
+    '''    public void unsetActive()
+    '''
 def active():
-'''public Mask active()
-'''
-pass
+    '''    public Mask active()
+    '''

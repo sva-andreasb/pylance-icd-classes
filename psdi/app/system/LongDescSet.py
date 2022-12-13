@@ -1,8 +1,6 @@
 def LongDescSet():
-'''public LongDescSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LongDescSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

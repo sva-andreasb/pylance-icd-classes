@@ -1,4 +1,3 @@
 def PlusPCustContactSet():
-'''public PlusPCustContactSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPCustContactSet(final MboServerInterface ms)
+    '''

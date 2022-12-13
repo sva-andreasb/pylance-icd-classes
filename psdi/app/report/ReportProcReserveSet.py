@@ -1,4 +1,3 @@
 def ReportProcReserveSet():
-'''public ReportProcReserveSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportProcReserveSet(final MboServerInterface ms)
+    '''

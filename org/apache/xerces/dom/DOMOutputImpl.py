@@ -1,36 +1,27 @@
 def DOMOutputImpl():
-'''public DOMOutputImpl()
-'''
-pass
+    '''    public DOMOutputImpl()
+    '''
 def getCharacterStream():
-'''public Writer getCharacterStream()
-'''
-pass
+    '''    public Writer getCharacterStream()
+    '''
 def setCharacterStream():
-'''public void setCharacterStream(final Writer fCharStream)
-'''
-pass
+    '''    public void setCharacterStream(final Writer fCharStream)
+    '''
 def getByteStream():
-'''public OutputStream getByteStream()
-'''
-pass
+    '''    public OutputStream getByteStream()
+    '''
 def setByteStream():
-'''public void setByteStream(final OutputStream fByteStream)
-'''
-pass
+    '''    public void setByteStream(final OutputStream fByteStream)
+    '''
 def getSystemId():
-'''public String getSystemId()
-'''
-pass
+    '''    public String getSystemId()
+    '''
 def setSystemId():
-'''public void setSystemId(final String fSystemId)
-'''
-pass
+    '''    public void setSystemId(final String fSystemId)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setEncoding():
-'''public void setEncoding(final String fEncoding)
-'''
-pass
+    '''    public void setEncoding(final String fEncoding)
+    '''

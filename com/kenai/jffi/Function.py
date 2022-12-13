@@ -1,35 +1,27 @@
 def Function():
-'''public Function(final long address, final Type returnType, final Type... paramTypes)
-public Function(final long address, final CallContext callContext)
-public Function(final long address, final Type returnType, final Type[] paramTypes, final CallingConvention convention)
-public Function(final long address, final Type returnType, final Type[] paramTypes, final CallingConvention convention, final boolean saveErrno)
-'''
-pass
+    '''    public Function(final long address, final Type returnType, final Type... paramTypes)
+    public Function(final long address, final CallContext callContext)
+    public Function(final long address, final Type returnType, final Type[] paramTypes, final CallingConvention convention)
+    public Function(final long address, final Type returnType, final Type[] paramTypes, final CallingConvention convention, final boolean saveErrno)
+    '''
 def getParameterCount():
-'''public final int getParameterCount()
-'''
-pass
+    '''    public final int getParameterCount()
+    '''
 def getRawParameterSize():
-'''public final int getRawParameterSize()
-'''
-pass
+    '''    public final int getRawParameterSize()
+    '''
 def getCallContext():
-'''public final CallContext getCallContext()
-'''
-pass
+    '''    public final CallContext getCallContext()
+    '''
 def getFunctionAddress():
-'''public final long getFunctionAddress()
-'''
-pass
+    '''    public final long getFunctionAddress()
+    '''
 def getReturnType():
-'''public final Type getReturnType()
-'''
-pass
+    '''    public final Type getReturnType()
+    '''
 def getParameterType():
-'''public final Type getParameterType(final int index)
-'''
-pass
+    '''    public final Type getParameterType(final int index)
+    '''
 def dispose():
-'''public final void dispose()
-'''
-pass
+    '''    public final void dispose()
+    '''

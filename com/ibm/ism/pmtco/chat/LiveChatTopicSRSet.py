@@ -1,4 +1,3 @@
 def LiveChatTopicSRSet():
-'''public LiveChatTopicSRSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LiveChatTopicSRSet(final MboServerInterface ms)
+    '''

@@ -1,16 +1,12 @@
 def requiresValue():
-'''public boolean requiresValue()
-'''
-pass
+    '''    public boolean requiresValue()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def hasSensitiveValue():
-'''public boolean hasSensitiveValue()
-'''
-pass
+    '''    public boolean hasSensitiveValue()
+    '''
 def getHandler():
-'''public ICLIParameterHandler getHandler()
-'''
-pass
+    '''    public ICLIParameterHandler getHandler()
+    '''

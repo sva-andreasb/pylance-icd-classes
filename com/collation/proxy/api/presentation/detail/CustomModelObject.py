@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def CustomModelObject():
-'''public CustomModelObject(final ModelObject mo)
-'''
-pass
+    '''    public CustomModelObject(final ModelObject mo)
+    '''
 def getModelObject():
-'''public ModelObject getModelObject()
-'''
-pass
+    '''    public ModelObject getModelObject()
+    '''

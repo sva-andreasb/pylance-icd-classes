@@ -1,4 +1,3 @@
 def FldMaxObjectCfgServiceName():
-'''public FldMaxObjectCfgServiceName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxObjectCfgServiceName(final MboValue mbv)
+    '''

@@ -1,24 +1,18 @@
 def CatalogItemsBean():
-'''public CatalogItemsBean()
-'''
-pass
+    '''    public CatalogItemsBean()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def INSTALL():
-'''public void INSTALL()
-'''
-pass
+    '''    public void INSTALL()
+    '''
 def INSTALLPKG():
-'''public void INSTALLPKG()
-'''
-pass
+    '''    public void INSTALLPKG()
+    '''
 def DOWNLOADPKG():
-'''public void DOWNLOADPKG()
-'''
-pass
+    '''    public void DOWNLOADPKG()
+    '''
 def INSTALLCOMPLETE():
-'''public void INSTALLCOMPLETE()
-'''
-pass
+    '''    public void INSTALLCOMPLETE()
+    '''

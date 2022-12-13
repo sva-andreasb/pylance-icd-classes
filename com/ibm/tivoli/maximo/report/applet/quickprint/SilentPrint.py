@@ -1,44 +1,33 @@
 def SilentPrint():
-'''public SilentPrint()
-'''
-pass
+    '''    public SilentPrint()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def submitPrintJob():
-'''public boolean submitPrintJob()
-'''
-pass
+    '''    public boolean submitPrintJob()
+    '''
 def printImage():
-'''public boolean printImage(String inFile, final String imageType)
-'''
-pass
+    '''    public boolean printImage(String inFile, final String imageType)
+    '''
 def printText():
-'''public void printText(String docLink)
-'''
-pass
+    '''    public void printText(String docLink)
+    '''
 def printActiveXDocs():
-'''public void printActiveXDocs(String funcName)
-'''
-pass
+    '''    public void printActiveXDocs(String funcName)
+    '''
 def closeWindow():
-'''public void closeWindow()
-'''
-pass
+    '''    public void closeWindow()
+    '''
 def showErrorMessage():
-'''public void showErrorMessage()
-'''
-pass
+    '''    public void showErrorMessage()
+    '''
 def printPDF():
-'''public void printPDF(final String pdfurl)
-'''
-pass
+    '''    public void printPDF(final String pdfurl)
+    '''
 def startPDFPrinting():
-'''public void startPDFPrinting(final URL inDocLinkURL)
-'''
-pass
+    '''    public void startPDFPrinting(final URL inDocLinkURL)
+    '''
 def onJavascriptResponse():
-'''public void onJavascriptResponse(final String dataParam)
-'''
-pass
+    '''    public void onJavascriptResponse(final String dataParam)
+    '''

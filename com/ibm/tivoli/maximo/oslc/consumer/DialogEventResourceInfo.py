@@ -1,12 +1,9 @@
 def DialogEventResourceInfo():
-'''public DialogEventResourceInfo(final String resourceLabel, final String resourceURI)
-'''
-pass
+    '''    public DialogEventResourceInfo(final String resourceLabel, final String resourceURI)
+    '''
 def getResourceLabel():
-'''public String getResourceLabel()
-'''
-pass
+    '''    public String getResourceLabel()
+    '''
 def getResourceURI():
-'''public String getResourceURI()
-'''
-pass
+    '''    public String getResourceURI()
+    '''

@@ -1,84 +1,63 @@
 def newBuilder():
-'''public static <B extends Builder<B>> B newBuilder()
-'''
-pass
+    '''    public static <B extends Builder<B>> B newBuilder()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def append():
-'''public void append(final LogEvent event)
-'''
-pass
+    '''    public void append(final LogEvent event)
+    '''
 def stop():
-'''public boolean stop(final long timeout, final TimeUnit timeUnit)
-'''
-pass
+    '''    public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public HttpAppender build()
-'''
-pass
+    '''    public HttpAppender build()
+    '''
 def getUrl():
-'''public URL getUrl()
-'''
-pass
+    '''    public URL getUrl()
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''
 def getConnectTimeoutMillis():
-'''public int getConnectTimeoutMillis()
-'''
-pass
+    '''    public int getConnectTimeoutMillis()
+    '''
 def getReadTimeoutMillis():
-'''public int getReadTimeoutMillis()
-'''
-pass
+    '''    public int getReadTimeoutMillis()
+    '''
 def getHeaders():
-'''public Property[] getHeaders()
-'''
-pass
+    '''    public Property[] getHeaders()
+    '''
 def getSslConfiguration():
-'''public SslConfiguration getSslConfiguration()
-'''
-pass
+    '''    public SslConfiguration getSslConfiguration()
+    '''
 def isVerifyHostname():
-'''public boolean isVerifyHostname()
-'''
-pass
+    '''    public boolean isVerifyHostname()
+    '''
 def setUrl():
-'''public B setUrl(final URL url)
-'''
-pass
+    '''    public B setUrl(final URL url)
+    '''
 def setMethod():
-'''public B setMethod(final String method)
-'''
-pass
+    '''    public B setMethod(final String method)
+    '''
 def setConnectTimeoutMillis():
-'''public B setConnectTimeoutMillis(final int connectTimeoutMillis)
-'''
-pass
+    '''    public B setConnectTimeoutMillis(final int connectTimeoutMillis)
+    '''
 def setReadTimeoutMillis():
-'''public B setReadTimeoutMillis(final int readTimeoutMillis)
-'''
-pass
+    '''    public B setReadTimeoutMillis(final int readTimeoutMillis)
+    '''
 def setHeaders():
-'''public B setHeaders(final Property[] headers)
-'''
-pass
+    '''    public B setHeaders(final Property[] headers)
+    '''
 def setSslConfiguration():
-'''public B setSslConfiguration(final SslConfiguration sslConfiguration)
-'''
-pass
+    '''    public B setSslConfiguration(final SslConfiguration sslConfiguration)
+    '''
 def setVerifyHostname():
-'''public B setVerifyHostname(final boolean verifyHostname)
-'''
-pass
+    '''    public B setVerifyHostname(final boolean verifyHostname)
+    '''

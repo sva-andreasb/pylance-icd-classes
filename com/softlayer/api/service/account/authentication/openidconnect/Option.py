@@ -1,40 +1,30 @@
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def isKeySpecified():
-'''public boolean isKeySpecified()
-'''
-pass
+    '''    public boolean isKeySpecified()
+    '''
 def unsetKey():
-'''public void unsetKey()
-'''
-pass
+    '''    public void unsetKey()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def isValueSpecified():
-'''public boolean isValueSpecified()
-'''
-pass
+    '''    public boolean isValueSpecified()
+    '''
 def unsetValue():
-'''public void unsetValue()
-'''
-pass
+    '''    public void unsetValue()
+    '''
 def key():
-'''public Mask key()
-'''
-pass
+    '''    public Mask key()
+    '''
 def value():
-'''public Mask value()
-'''
-pass
+    '''    public Mask value()
+    '''

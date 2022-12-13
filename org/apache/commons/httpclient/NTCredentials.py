@@ -1,33 +1,25 @@
 def NTCredentials():
-'''public NTCredentials()
-public NTCredentials(final String userName, final String password, final String host, final String domain)
-'''
-pass
+    '''    public NTCredentials()
+    public NTCredentials(final String userName, final String password, final String host, final String domain)
+    '''
 def setDomain():
-'''public void setDomain(final String domain)
-'''
-pass
+    '''    public void setDomain(final String domain)
+    '''
 def getDomain():
-'''public String getDomain()
-'''
-pass
+    '''    public String getDomain()
+    '''
 def setHost():
-'''public void setHost(final String host)
-'''
-pass
+    '''    public void setHost(final String host)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

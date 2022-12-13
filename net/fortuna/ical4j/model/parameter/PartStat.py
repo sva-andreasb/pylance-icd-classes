@@ -1,16 +1,12 @@
 def PartStat():
-'''public PartStat(final String aValue)
-'''
-pass
+    '''    public PartStat(final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

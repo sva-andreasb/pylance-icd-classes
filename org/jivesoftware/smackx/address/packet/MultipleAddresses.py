@@ -1,56 +1,43 @@
-NAMESPACE = "String  http://jabber.org/protocol/address""
-ELEMENT = "String  address""
+NAMESPACE = "String  \"http://jabber.org/protocol/address\""
+ELEMENT = "String  \"address\""
 def MultipleAddresses():
-'''public MultipleAddresses()
-'''
-pass
+    '''    public MultipleAddresses()
+    '''
 def addAddress():
-'''public void addAddress(final Type type, final Jid jid, final String node, final String desc, final boolean delivered, final String uri)
-'''
-pass
+    '''    public void addAddress(final Type type, final Jid jid, final String node, final String desc, final boolean delivered, final String uri)
+    '''
 def setNoReply():
-'''public void setNoReply()
-'''
-pass
+    '''    public void setNoReply()
+    '''
 def getAddressesOfType():
-'''public List<Address> getAddressesOfType(final Type type)
-'''
-pass
+    '''    public List<Address> getAddressesOfType(final Type type)
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getJid():
-'''public Jid getJid()
-'''
-pass
+    '''    public Jid getJid()
+    '''
 def getNode():
-'''public String getNode()
-'''
-pass
+    '''    public String getNode()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def isDelivered():
-'''public boolean isDelivered()
-'''
-pass
+    '''    public boolean isDelivered()
+    '''
 def getUri():
-'''public String getUri()
-'''
-pass
+    '''    public String getUri()
+    '''

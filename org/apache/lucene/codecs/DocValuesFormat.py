@@ -1,20 +1,15 @@
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def forName():
-'''public static DocValuesFormat forName(final String name)
-'''
-pass
+    '''    public static DocValuesFormat forName(final String name)
+    '''
 def availableDocValuesFormats():
-'''public static Set<String> availableDocValuesFormats()
-'''
-pass
+    '''    public static Set<String> availableDocValuesFormats()
+    '''
 def reloadDocValuesFormats():
-'''public static void reloadDocValuesFormats(final ClassLoader classloader)
-'''
-pass
+    '''    public static void reloadDocValuesFormats(final ClassLoader classloader)
+    '''

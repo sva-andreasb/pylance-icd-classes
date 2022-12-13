@@ -1,4 +1,3 @@
 def FldVendorMaxLicense():
-'''public FldVendorMaxLicense(final MboValue mbv)
-'''
-pass
+    '''    public FldVendorMaxLicense(final MboValue mbv)
+    '''

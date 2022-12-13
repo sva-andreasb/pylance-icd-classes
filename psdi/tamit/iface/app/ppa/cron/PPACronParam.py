@@ -1,4 +1,3 @@
 def PPACronParam():
-'''public PPACronParam(final MboSet ms)
-'''
-pass
+    '''    public PPACronParam(final MboSet ms)
+    '''

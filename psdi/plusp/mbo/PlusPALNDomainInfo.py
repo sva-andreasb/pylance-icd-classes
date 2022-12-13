@@ -1,40 +1,30 @@
 def PlusPALNDomainInfo():
-'''public PlusPALNDomainInfo(final String name)
-'''
-pass
+    '''    public PlusPALNDomainInfo(final String name)
+    '''
 def getKey():
-'''public static String getKey(final String s, final String s2, final String s3)
-'''
-pass
+    '''    public static String getKey(final String s, final String s2, final String s3)
+    '''
 def initPlusPDetailObject():
-'''public Detail initPlusPDetailObject()
-'''
-pass
+    '''    public Detail initPlusPDetailObject()
+    '''
 def setDetail():
-'''public void setDetail(final String s, final String s2, final String s3, final Object value)
-'''
-pass
+    '''    public void setDetail(final String s, final String s2, final String s3, final Object value)
+    '''
 def getSiteOrgWhere():
-'''public String getSiteOrgWhere(final ALNDomain domain)
-'''
-pass
+    '''    public String getSiteOrgWhere(final ALNDomain domain)
+    '''
 def getSignature():
-'''public Object[] getSignature(final MboValue value)
-'''
-pass
+    '''    public Object[] getSignature(final MboValue value)
+    '''
 def getDetail():
-'''public Object getDetail(final Object[] array)
-'''
-pass
+    '''    public Object getDetail(final Object[] array)
+    '''
 def getDetailCustomer():
-'''public String getDetailCustomer(final ALNDomain alnDomain)
-'''
-pass
+    '''    public String getDetailCustomer(final ALNDomain alnDomain)
+    '''
 def getAllInfoHashmapBykey():
-'''public Object getAllInfoHashmapBykey(final String key)
-'''
-pass
+    '''    public Object getAllInfoHashmapBykey(final String key)
+    '''
 def Detail():
-'''public Detail()
-'''
-pass
+    '''    public Detail()
+    '''

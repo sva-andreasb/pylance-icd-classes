@@ -1,20 +1,15 @@
 def DlgUploadCmpSrc():
-'''public DlgUploadCmpSrc()
-'''
-pass
+    '''    public DlgUploadCmpSrc()
+    '''
 def docancel():
-'''public int docancel()
-'''
-pass
+    '''    public int docancel()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def dook():
-'''public int dook()
-'''
-pass
+    '''    public int dook()
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''

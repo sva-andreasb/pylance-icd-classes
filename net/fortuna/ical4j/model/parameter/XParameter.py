@@ -1,16 +1,12 @@
 def XParameter():
-'''public XParameter(final String aName, final String aValue)
-'''
-pass
+    '''    public XParameter(final String aName, final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def Factory():
-'''public Factory(final String name)
-'''
-pass
+    '''    public Factory(final String name)
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

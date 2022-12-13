@@ -1,169 +1,129 @@
 def SerializationContext():
-'''public SerializationContext(final Writer writer)
-public SerializationContext(final Writer writer, final MessageContext msgContext)
-'''
-pass
+    '''    public SerializationContext(final Writer writer)
+    public SerializationContext(final Writer writer, final MessageContext msgContext)
+    '''
 def getPretty():
-'''public boolean getPretty()
-'''
-pass
+    '''    public boolean getPretty()
+    '''
 def setPretty():
-'''public void setPretty(final boolean pretty)
-'''
-pass
+    '''    public void setPretty(final boolean pretty)
+    '''
 def getDoMultiRefs():
-'''public boolean getDoMultiRefs()
-'''
-pass
+    '''    public boolean getDoMultiRefs()
+    '''
 def setDoMultiRefs():
-'''public void setDoMultiRefs(final boolean shouldDo)
-'''
-pass
+    '''    public void setDoMultiRefs(final boolean shouldDo)
+    '''
 def setSendDecl():
-'''public void setSendDecl(final boolean sendDecl)
-'''
-pass
+    '''    public void setSendDecl(final boolean sendDecl)
+    '''
 def shouldSendXSIType():
-'''public boolean shouldSendXSIType()
-'''
-pass
+    '''    public boolean shouldSendXSIType()
+    '''
 def getTypeMapping():
-'''public TypeMapping getTypeMapping()
-'''
-pass
+    '''    public TypeMapping getTypeMapping()
+    '''
 def getTypeMappingRegistry():
-'''public TypeMappingRegistry getTypeMappingRegistry()
-'''
-pass
+    '''    public TypeMappingRegistry getTypeMappingRegistry()
+    '''
 def getPrefixForURI():
-'''public String getPrefixForURI(final String uri)
-public String getPrefixForURI(final String uri, final String defaultPrefix)
-public String getPrefixForURI(final String uri, final String defaultPrefix, final boolean attribute)
-'''
-pass
+    '''    public String getPrefixForURI(final String uri)
+    public String getPrefixForURI(final String uri, final String defaultPrefix)
+    public String getPrefixForURI(final String uri, final String defaultPrefix, final boolean attribute)
+    '''
 def registerPrefixForURI():
-'''public void registerPrefixForURI(final String prefix, final String uri)
-'''
-pass
+    '''    public void registerPrefixForURI(final String prefix, final String uri)
+    '''
 def getCurrentMessage():
-'''public Message getCurrentMessage()
-'''
-pass
+    '''    public Message getCurrentMessage()
+    '''
 def getMessageContext():
-'''public MessageContext getMessageContext()
-'''
-pass
+    '''    public MessageContext getMessageContext()
+    '''
 def getEncodingStyle():
-'''public String getEncodingStyle()
-'''
-pass
+    '''    public String getEncodingStyle()
+    '''
 def isEncoded():
-'''public boolean isEncoded()
-'''
-pass
+    '''    public boolean isEncoded()
+    '''
 def qName2String():
-'''public String qName2String(final QName qName, final boolean writeNS)
-public String qName2String(final QName qName)
-'''
-pass
+    '''    public String qName2String(final QName qName, final boolean writeNS)
+    public String qName2String(final QName qName)
+    '''
 def attributeQName2String():
-'''public String attributeQName2String(final QName qName)
-'''
-pass
+    '''    public String attributeQName2String(final QName qName)
+    '''
 def getQNameForClass():
-'''public QName getQNameForClass(final Class cls)
-'''
-pass
+    '''    public QName getQNameForClass(final Class cls)
+    '''
 def isPrimitive():
-'''public boolean isPrimitive(final Object value)
-'''
-pass
+    '''    public boolean isPrimitive(final Object value)
+    '''
 def serialize():
-'''public void serialize(final QName elemQName, final Attributes attributes, final Object value)
-public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType)
-public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaType)
-public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final boolean sendNull, final Boolean sendType)
-public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Boolean sendNull, final Boolean sendType)
-public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaClass, Boolean sendNull, final Boolean sendType)
-'''
-pass
+    '''    public void serialize(final QName elemQName, final Attributes attributes, final Object value)
+    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType)
+    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaType)
+    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final boolean sendNull, final Boolean sendType)
+    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Boolean sendNull, final Boolean sendType)
+    public void serialize(final QName elemQName, final Attributes attributes, final Object value, final QName xmlType, final Class javaClass, Boolean sendNull, final Boolean sendType)
+    '''
 def outputMultiRefs():
-'''public void outputMultiRefs()
-'''
-pass
+    '''    public void outputMultiRefs()
+    '''
 def writeXMLDeclaration():
-'''public void writeXMLDeclaration()
-'''
-pass
+    '''    public void writeXMLDeclaration()
+    '''
 def startElement():
-'''public void startElement(final QName qName, Attributes attributes)
-'''
-pass
+    '''    public void startElement(final QName qName, Attributes attributes)
+    '''
 def endElement():
-'''public void endElement()
-'''
-pass
+    '''    public void endElement()
+    '''
 def writeChars():
-'''public void writeChars(final char[] p1, final int p2, final int p3)
-'''
-pass
+    '''    public void writeChars(final char[] p1, final int p2, final int p3)
+    '''
 def writeString():
-'''public void writeString(final String string)
-'''
-pass
+    '''    public void writeString(final String string)
+    '''
 def writeSafeString():
-'''public void writeSafeString(final String string)
-'''
-pass
+    '''    public void writeSafeString(final String string)
+    '''
 def writeDOMElement():
-'''public void writeDOMElement(final Element el)
-'''
-pass
+    '''    public void writeDOMElement(final Element el)
+    '''
 def getSerializerForJavaType():
-'''public final Serializer getSerializerForJavaType(final Class javaType)
-'''
-pass
+    '''    public final Serializer getSerializerForJavaType(final Class javaType)
+    '''
 def setTypeAttribute():
-'''public Attributes setTypeAttribute(final Attributes attributes, final QName type)
-'''
-pass
+    '''    public Attributes setTypeAttribute(final Attributes attributes, final QName type)
+    '''
 def getCurrentXMLType():
-'''public QName getCurrentXMLType()
-'''
-pass
+    '''    public QName getCurrentXMLType()
+    '''
 def getValueAsString():
-'''public String getValueAsString(final Object value, final QName xmlType, final Class javaClass)
-'''
-pass
+    '''    public String getValueAsString(final Object value, final QName xmlType, final Class javaClass)
+    '''
 def setWriteXMLType():
-'''public void setWriteXMLType(final QName type)
-'''
-pass
+    '''    public void setWriteXMLType(final QName type)
+    '''
 def getEncoder():
-'''public XMLEncoder getEncoder()
-'''
-pass
+    '''    public XMLEncoder getEncoder()
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setEncoding():
-'''public void setEncoding(final String encoding)
-'''
-pass
+    '''    public void setEncoding(final String encoding)
+    '''
 def getItemQName():
-'''public QName getItemQName()
-'''
-pass
+    '''    public QName getItemQName()
+    '''
 def setItemQName():
-'''public void setItemQName(final QName itemQName)
-'''
-pass
+    '''    public void setItemQName(final QName itemQName)
+    '''
 def getItemType():
-'''public QName getItemType()
-'''
-pass
+    '''    public QName getItemType()
+    '''
 def setItemType():
-'''public void setItemType(final QName itemType)
-'''
-pass
+    '''    public void setItemType(final QName itemType)
+    '''

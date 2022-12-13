@@ -1,1 +1,1 @@
-SYMBOL_REF = "char '$'"
+SYMBOL_REF = "char  '$'"

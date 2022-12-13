@@ -1,136 +1,102 @@
 def NtpV3Impl():
-'''public NtpV3Impl()
-'''
-pass
+    '''    public NtpV3Impl()
+    '''
 def getMode():
-'''public int getMode()
-'''
-pass
+    '''    public int getMode()
+    '''
 def getModeName():
-'''public String getModeName()
-'''
-pass
+    '''    public String getModeName()
+    '''
 def setMode():
-'''public void setMode(final int mode)
-'''
-pass
+    '''    public void setMode(final int mode)
+    '''
 def getLeapIndicator():
-'''public int getLeapIndicator()
-'''
-pass
+    '''    public int getLeapIndicator()
+    '''
 def setLeapIndicator():
-'''public void setLeapIndicator(final int li)
-'''
-pass
+    '''    public void setLeapIndicator(final int li)
+    '''
 def getPoll():
-'''public int getPoll()
-'''
-pass
+    '''    public int getPoll()
+    '''
 def setPoll():
-'''public void setPoll(final int poll)
-'''
-pass
+    '''    public void setPoll(final int poll)
+    '''
 def getPrecision():
-'''public int getPrecision()
-'''
-pass
+    '''    public int getPrecision()
+    '''
 def setPrecision():
-'''public void setPrecision(final int precision)
-'''
-pass
+    '''    public void setPrecision(final int precision)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final int version)
-'''
-pass
+    '''    public void setVersion(final int version)
+    '''
 def getStratum():
-'''public int getStratum()
-'''
-pass
+    '''    public int getStratum()
+    '''
 def setStratum():
-'''public void setStratum(final int stratum)
-'''
-pass
+    '''    public void setStratum(final int stratum)
+    '''
 def getRootDelay():
-'''public int getRootDelay()
-'''
-pass
+    '''    public int getRootDelay()
+    '''
 def getRootDelayInMillisDouble():
-'''public double getRootDelayInMillisDouble()
-'''
-pass
+    '''    public double getRootDelayInMillisDouble()
+    '''
 def getRootDispersion():
-'''public int getRootDispersion()
-'''
-pass
+    '''    public int getRootDispersion()
+    '''
 def getRootDispersionInMillis():
-'''public long getRootDispersionInMillis()
-'''
-pass
+    '''    public long getRootDispersionInMillis()
+    '''
 def getRootDispersionInMillisDouble():
-'''public double getRootDispersionInMillisDouble()
-'''
-pass
+    '''    public double getRootDispersionInMillisDouble()
+    '''
 def setReferenceId():
-'''public void setReferenceId(int refId)
-'''
-pass
+    '''    public void setReferenceId(int refId)
+    '''
 def getReferenceId():
-'''public int getReferenceId()
-'''
-pass
+    '''    public int getReferenceId()
+    '''
 def getReferenceIdString():
-'''public String getReferenceIdString()
-'''
-pass
+    '''    public String getReferenceIdString()
+    '''
 def getTransmitTimeStamp():
-'''public TimeStamp getTransmitTimeStamp()
-'''
-pass
+    '''    public TimeStamp getTransmitTimeStamp()
+    '''
 def setTransmitTime():
-'''public void setTransmitTime(final TimeStamp ts)
-'''
-pass
+    '''    public void setTransmitTime(final TimeStamp ts)
+    '''
 def setOriginateTimeStamp():
-'''public void setOriginateTimeStamp(final TimeStamp ts)
-'''
-pass
+    '''    public void setOriginateTimeStamp(final TimeStamp ts)
+    '''
 def getOriginateTimeStamp():
-'''public TimeStamp getOriginateTimeStamp()
-'''
-pass
+    '''    public TimeStamp getOriginateTimeStamp()
+    '''
 def getReferenceTimeStamp():
-'''public TimeStamp getReferenceTimeStamp()
-'''
-pass
+    '''    public TimeStamp getReferenceTimeStamp()
+    '''
 def setReferenceTime():
-'''public void setReferenceTime(final TimeStamp ts)
-'''
-pass
+    '''    public void setReferenceTime(final TimeStamp ts)
+    '''
 def getReceiveTimeStamp():
-'''public TimeStamp getReceiveTimeStamp()
-'''
-pass
+    '''    public TimeStamp getReceiveTimeStamp()
+    '''
 def setReceiveTimeStamp():
-'''public void setReceiveTimeStamp(final TimeStamp ts)
-'''
-pass
+    '''    public void setReceiveTimeStamp(final TimeStamp ts)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getDatagramPacket():
-'''public DatagramPacket getDatagramPacket()
-'''
-pass
+    '''    public DatagramPacket getDatagramPacket()
+    '''
 def setDatagramPacket():
-'''public void setDatagramPacket(final DatagramPacket srcDp)
-'''
-pass
+    '''    public void setDatagramPacket(final DatagramPacket srcDp)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

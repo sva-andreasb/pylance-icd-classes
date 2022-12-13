@@ -1,32 +1,24 @@
 def getKeyName():
-'''public String getKeyName()
-'''
-pass
+    '''    public String getKeyName()
+    '''
 def setKeyName():
-'''public void setKeyName(final String keyName)
-'''
-pass
+    '''    public void setKeyName(final String keyName)
+    '''
 def isKeyNameSpecified():
-'''public boolean isKeyNameSpecified()
-'''
-pass
+    '''    public boolean isKeyNameSpecified()
+    '''
 def unsetKeyName():
-'''public void unsetKeyName()
-'''
-pass
+    '''    public void unsetKeyName()
+    '''
 def getSupportedSecureTransportCiphers():
-'''public List<SecureTransportCipher> getSupportedSecureTransportCiphers()
-'''
-pass
+    '''    public List<SecureTransportCipher> getSupportedSecureTransportCiphers()
+    '''
 def isSupportedSecureTransportCiphersSpecified():
-'''public boolean isSupportedSecureTransportCiphersSpecified()
-'''
-pass
+    '''    public boolean isSupportedSecureTransportCiphersSpecified()
+    '''
 def unsetSupportedSecureTransportCiphers():
-'''public void unsetSupportedSecureTransportCiphers()
-'''
-pass
+    '''    public void unsetSupportedSecureTransportCiphers()
+    '''
 def keyName():
-'''public Mask keyName()
-'''
-pass
+    '''    public Mask keyName()
+    '''

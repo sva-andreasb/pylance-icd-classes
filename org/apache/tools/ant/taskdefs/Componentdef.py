@@ -1,4 +1,3 @@
 def Componentdef():
-'''public Componentdef()
-'''
-pass
+    '''    public Componentdef()
+    '''

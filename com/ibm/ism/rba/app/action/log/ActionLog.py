@@ -1,4 +1,3 @@
 def ActionLog():
-'''public ActionLog(final MboSet ms)
-'''
-pass
+    '''    public ActionLog(final MboSet ms)
+    '''

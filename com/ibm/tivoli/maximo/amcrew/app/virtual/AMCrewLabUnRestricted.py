@@ -1,76 +1,57 @@
 def AMCrewLabUnRestricted():
-'''public AMCrewLabUnRestricted(final MboSet ms)
-'''
-pass
+    '''    public AMCrewLabUnRestricted(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getCurrentShiftStartDate():
-'''public Date getCurrentShiftStartDate(final Date effectiveDate)
-'''
-pass
+    '''    public Date getCurrentShiftStartDate(final Date effectiveDate)
+    '''
 def getCurrentShiftEndate():
-'''public Date getCurrentShiftEndate(final Date endDate)
-'''
-pass
+    '''    public Date getCurrentShiftEndate(final Date endDate)
+    '''
 def getEffectiveDateTimeMinus():
-'''public Date getEffectiveDateTimeMinus(Date effectivedate)
-'''
-pass
+    '''    public Date getEffectiveDateTimeMinus(Date effectivedate)
+    '''
 def getReturnDate():
-'''public Date getReturnDate(Date effectivedate)
-'''
-pass
+    '''    public Date getReturnDate(Date effectivedate)
+    '''
 def getLaborPositionMatched():
-'''public boolean getLaborPositionMatched()
-'''
-pass
+    '''    public boolean getLaborPositionMatched()
+    '''
 def setLaborPositionMatched():
-'''public void setLaborPositionMatched(final boolean labPOSmatched)
-'''
-pass
+    '''    public void setLaborPositionMatched(final boolean labPOSmatched)
+    '''
 def getEndDateTimePlus():
-'''public Date getEndDateTimePlus(Date enddate)
-'''
-pass
+    '''    public Date getEndDateTimePlus(Date enddate)
+    '''
 def setValidateLaborField():
-'''public void setValidateLaborField(final boolean validateLaborField)
-'''
-pass
+    '''    public void setValidateLaborField(final boolean validateLaborField)
+    '''
 def getValidateLaborField():
-'''public boolean getValidateLaborField()
-'''
-pass
+    '''    public boolean getValidateLaborField()
+    '''
 def setValidateCraftField():
-'''public void setValidateCraftField(final boolean validateCraftField)
-'''
-pass
+    '''    public void setValidateCraftField(final boolean validateCraftField)
+    '''
 def getValidateCraftField():
-'''public boolean getValidateCraftField()
-'''
-pass
+    '''    public boolean getValidateCraftField()
+    '''
 def setValidateSkillLevelField():
-'''public void setValidateSkillLevelField(final boolean validateSkillLevelField)
-'''
-pass
+    '''    public void setValidateSkillLevelField(final boolean validateSkillLevelField)
+    '''
 def getValidateSkillLevelField():
-'''public boolean getValidateSkillLevelField()
-'''
-pass
+    '''    public boolean getValidateSkillLevelField()
+    '''
 def setValidateVendorField():
-'''public void setValidateVendorField(final boolean validateVendorField)
-'''
-pass
+    '''    public void setValidateVendorField(final boolean validateVendorField)
+    '''
 def getValidateVendorField():
-'''public boolean getValidateVendorField()
-'''
-pass
+    '''    public boolean getValidateVendorField()
+    '''
 def setValidateContractField():
-'''public void setValidateContractField(final boolean validateContractField)
-'''
-pass
+    '''    public void setValidateContractField(final boolean validateContractField)
+    '''
 def getValidateContractField():
-'''public boolean getValidateContractField()
-'''
-pass
+    '''    public boolean getValidateContractField()
+    '''

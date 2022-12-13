@@ -1,20 +1,15 @@
 def LazyFunction():
-'''public LazyFunction(final Expression exp, final String name, final int numParams)
-'''
-pass
+    '''    public LazyFunction(final Expression exp, final String name, final int numParams)
+    '''
 def getExpression():
-'''public Expression getExpression()
-'''
-pass
+    '''    public Expression getExpression()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getNumParams():
-'''public int getNumParams()
-'''
-pass
+    '''    public int getNumParams()
+    '''
 def numParamsVaries():
-'''public boolean numParamsVaries()
-'''
-pass
+    '''    public boolean numParamsVaries()
+    '''

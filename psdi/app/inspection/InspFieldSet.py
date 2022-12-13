@@ -1,4 +1,3 @@
 def InspFieldSet():
-'''public InspFieldSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspFieldSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def AssetFeaSpecHistSet():
-'''public AssetFeaSpecHistSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetFeaSpecHistSet(final MboServerInterface ms)
+    '''

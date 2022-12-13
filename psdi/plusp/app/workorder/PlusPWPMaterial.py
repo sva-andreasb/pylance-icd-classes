@@ -1,28 +1,21 @@
 def PlusPWPMaterial():
-'''public PlusPWPMaterial(final MboSet arg0)
-'''
-pass
+    '''    public PlusPWPMaterial(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def updatePrice():
-'''public void updatePrice()
-'''
-pass
+    '''    public void updatePrice()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

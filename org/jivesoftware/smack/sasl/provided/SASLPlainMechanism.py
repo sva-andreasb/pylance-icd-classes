@@ -1,21 +1,16 @@
-NAME = "String  PLAIN""
+NAME = "String  \"PLAIN\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLPlainMechanism newInstance()
-'''
-pass
+    '''    public SASLPlainMechanism newInstance()
+    '''
 def checkIfSuccessfulOrThrow():
-'''public void checkIfSuccessfulOrThrow()
-'''
-pass
+    '''    public void checkIfSuccessfulOrThrow()
+    '''
 def authzidSupported():
-'''public boolean authzidSupported()
-'''
-pass
+    '''    public boolean authzidSupported()
+    '''

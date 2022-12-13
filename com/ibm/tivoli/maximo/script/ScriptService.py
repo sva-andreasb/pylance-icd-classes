@@ -1,169 +1,131 @@
-YNC_NULL = "int -1"
-YNC_YES = "int 8"
-YNC_NO = "int 16"
-YNC_OK = "int 2"
-YNC_CANCEL = "int 4"
+YNC_NULL = "int  -1"
+YNC_YES = "int  8"
+YNC_NO = "int  16"
+YNC_OK = "int  2"
+YNC_CANCEL = "int  4"
 def ScriptService():
-'''public ScriptService(final String scriptName, final String launchPointName, final Mbo mbo)
-'''
-pass
+    '''    public ScriptService(final String scriptName, final String launchPointName, final Mbo mbo)
+    '''
 def getScriptName():
-'''public String getScriptName()
-'''
-pass
+    '''    public String getScriptName()
+    '''
 def getMbo():
-'''public Mbo getMbo()
-'''
-pass
+    '''    public Mbo getMbo()
+    '''
 def getMboName():
-'''public String getMboName()
-'''
-pass
+    '''    public String getMboName()
+    '''
 def jsonToString():
-'''public String jsonToString(final JSONObject ojo)
-'''
-pass
+    '''    public String jsonToString(final JSONObject ojo)
+    '''
 def jsonarrayToString():
-'''public String jsonarrayToString(final JSONArray ja)
-'''
-pass
+    '''    public String jsonarrayToString(final JSONArray ja)
+    '''
 def tojsonarray():
-'''public JSONArray tojsonarray(final String ja)
-'''
-pass
+    '''    public JSONArray tojsonarray(final String ja)
+    '''
 def tojsonobject():
-'''public JSONObject tojsonobject(final String jo)
-'''
-pass
+    '''    public JSONObject tojsonobject(final String jo)
+    '''
 def webclientsession():
-'''public Object webclientsession()
-'''
-pass
+    '''    public Object webclientsession()
+    '''
 def closeDialog():
-'''public void closeDialog()
-'''
-pass
+    '''    public void closeDialog()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String mboSetName, final UserInfo userInfo)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String mboSetName, final UserInfo userInfo)
+    '''
 def launchDialog():
-'''public void launchDialog(final String dialogId)
-'''
-pass
+    '''    public void launchDialog(final String dialogId)
+    '''
 def openURL():
-'''public void openURL(final String url, final boolean newWindow)
-'''
-pass
+    '''    public void openURL(final String url, final boolean newWindow)
+    '''
 def httpget():
-'''public String httpget(final String url)
-public String httpget(final String url, final String user, final String pass)
-'''
-pass
+    '''    public String httpget(final String url)
+    public String httpget(final String url, final String user, final String pass)
+    '''
 def httppost():
-'''public String httppost(final String url, final String data)
-public String httppost(final String url, final String user, final String pass, final String data)
-'''
-pass
+    '''    public String httppost(final String url, final String data)
+    public String httppost(final String url, final String user, final String pass, final String data)
+    '''
 def httppostasbytes():
-'''public byte[] httppostasbytes(final String url, final String user, final String pass, final byte[] data)
-'''
-pass
+    '''    public byte[] httppostasbytes(final String url, final String user, final String pass, final byte[] data)
+    '''
 def httppostasjson():
-'''public JSONArtifact httppostasjson(final String url, final String user, final String pass, final String headers, final JSONArtifact ja)
-'''
-pass
+    '''    public JSONArtifact httppostasjson(final String url, final String user, final String pass, final String headers, final JSONArtifact ja)
+    '''
 def httpgetasjson():
-'''public JSONArtifact httpgetasjson(final String url, final String user, final String headers, final String pass)
-'''
-pass
+    '''    public JSONArtifact httpgetasjson(final String url, final String user, final String headers, final String pass)
+    '''
 def httpgetasbytes():
-'''public byte[] httpgetasbytes(final String url, final String user, final String pass)
-'''
-pass
+    '''    public byte[] httpgetasbytes(final String url, final String user, final String pass)
+    '''
 def invokeEndpoint():
-'''public String invokeEndpoint(final String endPointName, final Map<String, String> metaData, final String data)
-public byte[] invokeEndpoint(final String endPointName, final Map<String, String> metaData, final byte[] data)
-'''
-pass
+    '''    public String invokeEndpoint(final String endPointName, final Map<String, String> metaData, final String data)
+    public byte[] invokeEndpoint(final String endPointName, final Map<String, String> metaData, final byte[] data)
+    '''
 def log():
-'''public void log(final String logMsg)
-'''
-pass
+    '''    public void log(final String logMsg)
+    '''
 def log_debug():
-'''public void log_debug(final String logMsg)
-public void log_debug(final String logMsg, final Throwable t)
-'''
-pass
+    '''    public void log_debug(final String logMsg)
+    public void log_debug(final String logMsg, final Throwable t)
+    '''
 def log_info():
-'''public void log_info(final String logMsg)
-public void log_info(final String logMsg, final Throwable t)
-'''
-pass
+    '''    public void log_info(final String logMsg)
+    public void log_info(final String logMsg, final Throwable t)
+    '''
 def log_warn():
-'''public void log_warn(final String logMsg)
-public void log_warn(final String logMsg, final Throwable t)
-'''
-pass
+    '''    public void log_warn(final String logMsg)
+    public void log_warn(final String logMsg, final Throwable t)
+    '''
 def log_error():
-'''public void log_error(final String logMsg)
-public void log_error(final String logMsg, final Throwable t)
-'''
-pass
+    '''    public void log_error(final String logMsg)
+    public void log_error(final String logMsg, final Throwable t)
+    '''
 def log_fatal():
-'''public void log_fatal(final String logMsg)
-public void log_fatal(final String logMsg, final Throwable t)
-'''
-pass
+    '''    public void log_fatal(final String logMsg)
+    public void log_fatal(final String logMsg, final Throwable t)
+    '''
 def wsinteraction():
-'''public void wsinteraction(final String interactionName)
-'''
-pass
+    '''    public void wsinteraction(final String interactionName)
+    '''
 def logError():
-'''public void logError(final String logMsg)
-'''
-pass
+    '''    public void logError(final String logMsg)
+    '''
 def yncerror():
-'''public void yncerror(final String grp, final String key, final String[] params)
-public void yncerror(final String grp, final String key)
-'''
-pass
+    '''    public void yncerror(final String grp, final String key, final String[] params)
+    public void yncerror(final String grp, final String key)
+    '''
 def raiseSkipTransaction():
-'''public void raiseSkipTransaction()
-'''
-pass
+    '''    public void raiseSkipTransaction()
+    '''
 def yncuserinput():
-'''public int yncuserinput()
-'''
-pass
+    '''    public int yncuserinput()
+    '''
 def getProperty():
-'''public String getProperty(final String propName)
-'''
-pass
+    '''    public String getProperty(final String propName)
+    '''
 def getLogger():
-'''public MXLogger getLogger(final String loggerName)
-'''
-pass
+    '''    public MXLogger getLogger(final String loggerName)
+    '''
 def error():
-'''public void error(final String grp, final String key, final String[] params)
-public void error(final String grp, final String key)
-'''
-pass
+    '''    public void error(final String grp, final String key, final String[] params)
+    public void error(final String grp, final String key)
+    '''
 def setWarning():
-'''public void setWarning(final String warnGrpVal, final String warnKeyVal, final String[] warnparams)
-'''
-pass
+    '''    public void setWarning(final String warnGrpVal, final String warnKeyVal, final String[] warnparams)
+    '''
 def invokeChannel():
-'''public void invokeChannel(final String channelName)
-'''
-pass
+    '''    public void invokeChannel(final String channelName)
+    '''
 def invokeWorkflow():
-'''public void invokeWorkflow(final String wfName)
-'''
-pass
+    '''    public void invokeWorkflow(final String wfName)
+    '''
 def invokeScript():
-'''public void invokeScript(final String aScriptName, final Map<String, Object> context)
-public Object invokeScript(String aScriptName, final String functionName, final Object[] args)
-public Map<String, Object> invokeScript(final String aScriptName)
-'''
-pass
+    '''    public void invokeScript(final String aScriptName, final Map<String, Object> context)
+    public Object invokeScript(String aScriptName, final String functionName, final Object[] args)
+    public Map<String, Object> invokeScript(final String aScriptName)
+    '''

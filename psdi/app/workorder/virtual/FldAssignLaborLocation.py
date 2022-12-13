@@ -1,8 +1,6 @@
 def FldAssignLaborLocation():
-'''public FldAssignLaborLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignLaborLocation(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

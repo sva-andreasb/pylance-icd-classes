@@ -1,4 +1,3 @@
 def MeasurePointFormula():
-'''public MeasurePointFormula(final MboSet ms)
-'''
-pass
+    '''    public MeasurePointFormula(final MboSet ms)
+    '''

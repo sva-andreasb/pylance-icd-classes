@@ -1,124 +1,93 @@
 def WFDesignAppBean():
-'''public WFDesignAppBean()
-'''
-pass
+    '''    public WFDesignAppBean()
+    '''
 def bindBeans():
-'''public void bindBeans(final String targetControlId)
-'''
-pass
+    '''    public void bindBeans(final String targetControlId)
+    '''
 def addnode():
-'''public int addnode()
-'''
-pass
+    '''    public int addnode()
+    '''
 def movenode():
-'''public int movenode()
-'''
-pass
+    '''    public int movenode()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def deletenode():
-'''public int deletenode()
-'''
-pass
+    '''    public int deletenode()
+    '''
 def addaction():
-'''public int addaction()
-'''
-pass
+    '''    public int addaction()
+    '''
 def selectaction():
-'''public int selectaction()
-'''
-pass
+    '''    public int selectaction()
+    '''
 def deleteaction():
-'''public int deleteaction()
-'''
-pass
+    '''    public int deleteaction()
+    '''
 def getNodes():
-'''public DataBean getNodes(final String targetControlId)
-'''
-pass
+    '''    public DataBean getNodes(final String targetControlId)
+    '''
 def getActions():
-'''public DataBean getActions(final String targetControlId)
-'''
-pass
+    '''    public DataBean getActions(final String targetControlId)
+    '''
 def getCanvas():
-'''public ControlInstance getCanvas(final String targetControlId)
-'''
-pass
+    '''    public ControlInstance getCanvas(final String targetControlId)
+    '''
 def setZoom():
-'''public boolean setZoom(final String targetControlId, final String zoomValue)
-'''
-pass
+    '''    public boolean setZoom(final String targetControlId, final String zoomValue)
+    '''
 def VALIDATE():
-'''public int VALIDATE()
-'''
-pass
+    '''    public int VALIDATE()
+    '''
 def ACTIVATE():
-'''public void ACTIVATE()
-'''
-pass
+    '''    public void ACTIVATE()
+    '''
 def DEACTIVATE():
-'''public void DEACTIVATE()
-'''
-pass
+    '''    public void DEACTIVATE()
+    '''
 def ENABLE():
-'''public int ENABLE()
-'''
-pass
+    '''    public int ENABLE()
+    '''
 def DISABLE():
-'''public void DISABLE()
-'''
-pass
+    '''    public void DISABLE()
+    '''
 def DELETABLE():
-'''public void DELETABLE()
-'''
-pass
+    '''    public void DELETABLE()
+    '''
 def NODELETE():
-'''public void NODELETE()
-'''
-pass
+    '''    public void NODELETE()
+    '''
 def CREATEREV():
-'''public void CREATEREV()
-'''
-pass
+    '''    public void CREATEREV()
+    '''
 def RESYNC():
-'''public void RESYNC()
-'''
-pass
+    '''    public void RESYNC()
+    '''
 def AUTOINIT():
-'''public void AUTOINIT()
-'''
-pass
+    '''    public void AUTOINIT()
+    '''
 def ATOINITCLR():
-'''public void ATOINITCLR()
-'''
-pass
+    '''    public void ATOINITCLR()
+    '''
 def VIEWSYNC():
-'''public int VIEWSYNC()
-'''
-pass
+    '''    public int VIEWSYNC()
+    '''
 def getExtraResources():
-'''public List<WebResource> getExtraResources(final String servletBaseUrl, final String miniappBaseUrl)
-'''
-pass
+    '''    public List<WebResource> getExtraResources(final String servletBaseUrl, final String miniappBaseUrl)
+    '''
 def filterCss():
-'''public String filterCss(String css, final MiniAppControl control)
-'''
-pass
+    '''    public String filterCss(String css, final MiniAppControl control)
+    '''
 def loadWFDesignerXmlForProject():
-'''public String loadWFDesignerXmlForProject(@MXEventParam("project") final String project)
-'''
-pass
+    '''    public String loadWFDesignerXmlForProject(@MXEventParam("project") final String project)
+    '''
 def loadMiniAppResource():
-'''public String loadMiniAppResource()
-'''
-pass
+    '''    public String loadMiniAppResource()
+    '''
 def loadWFDesignerStringsForProject():
-'''public String loadWFDesignerStringsForProject(@MXEventParam("project") final String project)
-'''
-pass
+    '''    public String loadWFDesignerStringsForProject(@MXEventParam("project") final String project)
+    '''
 def loadLocalizedStringsResource():
-'''public String loadLocalizedStringsResource()
-'''
-pass
+    '''    public String loadLocalizedStringsResource()
+    '''

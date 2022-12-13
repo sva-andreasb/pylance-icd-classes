@@ -1,8 +1,6 @@
 def DisableKeyRequestMarshaller():
-'''public DisableKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public DisableKeyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<DisableKeyRequest> marshall(final DisableKeyRequest disableKeyRequest)
-'''
-pass
+    '''    public Request<DisableKeyRequest> marshall(final DisableKeyRequest disableKeyRequest)
+    '''

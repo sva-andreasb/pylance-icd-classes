@@ -1,4 +1,3 @@
 def HelpSetException():
-'''public HelpSetException(final String message)
-'''
-pass
+    '''    public HelpSetException(final String message)
+    '''

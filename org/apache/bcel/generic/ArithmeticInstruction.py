@@ -1,4 +1,3 @@
 def getType():
-'''public Type getType(final ConstantPoolGen cp)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cp)
+    '''

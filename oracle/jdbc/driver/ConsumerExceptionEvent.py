@@ -1,21 +1,16 @@
 def ConsumerExceptionEvent():
-'''public ConsumerExceptionEvent(final int n, final String s)
-public ConsumerExceptionEvent()
-'''
-pass
+    '''    public ConsumerExceptionEvent(final int n, final String s)
+    public ConsumerExceptionEvent()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def setType():
-'''public void setType(final int type)
-'''
-pass
+    '''    public void setType(final int type)
+    '''
 def getCause():
-'''public String getCause()
-'''
-pass
+    '''    public String getCause()
+    '''
 def setCause():
-'''public void setCause(final String cause)
-'''
-pass
+    '''    public void setCause(final String cause)
+    '''

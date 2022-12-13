@@ -1,40 +1,30 @@
 def getMXSession():
-'''public MXSession getMXSession()
-'''
-pass
+    '''    public MXSession getMXSession()
+    '''
 def valueBound():
-'''public void valueBound(final HttpSessionBindingEvent arg0)
-'''
-pass
+    '''    public void valueBound(final HttpSessionBindingEvent arg0)
+    '''
 def valueUnbound():
-'''public void valueUnbound(final HttpSessionBindingEvent arg0)
-'''
-pass
+    '''    public void valueUnbound(final HttpSessionBindingEvent arg0)
+    '''
 def getAttribute():
-'''public Object getAttribute(final String name)
-'''
-pass
+    '''    public Object getAttribute(final String name)
+    '''
 def setAttribute():
-'''public Object setAttribute(final String name, final Object value)
-'''
-pass
+    '''    public Object setAttribute(final String name, final Object value)
+    '''
 def getCachedResource():
-'''public Resource getCachedResource(final String rootResourceContext, final String key)
-'''
-pass
+    '''    public Resource getCachedResource(final String rootResourceContext, final String key)
+    '''
 def clearResourceCache():
-'''public void clearResourceCache(final String resourceRootContext)
-'''
-pass
+    '''    public void clearResourceCache(final String resourceRootContext)
+    '''
 def cacheResource():
-'''public void cacheResource(final String rootResourceContext, final String key, final Resource resource)
-'''
-pass
+    '''    public void cacheResource(final String rootResourceContext, final String key, final Resource resource)
+    '''
 def releseResource():
-'''public void releseResource(final String resourceId)
-'''
-pass
+    '''    public void releseResource(final String resourceId)
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''

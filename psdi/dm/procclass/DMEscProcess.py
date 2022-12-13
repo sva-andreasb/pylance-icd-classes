@@ -1,12 +1,9 @@
 def DMEscProcess():
-'''public DMEscProcess()
-'''
-pass
+    '''    public DMEscProcess()
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''
 def checkAdditionalRules():
-'''public void checkAdditionalRules()
-'''
-pass
+    '''    public void checkAdditionalRules()
+    '''

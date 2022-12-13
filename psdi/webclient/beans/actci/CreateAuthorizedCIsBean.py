@@ -1,12 +1,9 @@
 def CreateAuthorizedCIsBean():
-'''public CreateAuthorizedCIsBean()
-'''
-pass
+    '''    public CreateAuthorizedCIsBean()
+    '''
 def dopromote():
-'''public int dopromote()
-'''
-pass
+    '''    public int dopromote()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

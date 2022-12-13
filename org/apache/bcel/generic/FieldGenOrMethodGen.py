@@ -1,44 +1,33 @@
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getConstantPool():
-'''public ConstantPoolGen getConstantPool()
-'''
-pass
+    '''    public ConstantPoolGen getConstantPool()
+    '''
 def setConstantPool():
-'''public void setConstantPool(final ConstantPoolGen cp)
-'''
-pass
+    '''    public void setConstantPool(final ConstantPoolGen cp)
+    '''
 def addAttribute():
-'''public void addAttribute(final Attribute a)
-'''
-pass
+    '''    public void addAttribute(final Attribute a)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final Attribute a)
-'''
-pass
+    '''    public void removeAttribute(final Attribute a)
+    '''
 def removeAttributes():
-'''public void removeAttributes()
-'''
-pass
+    '''    public void removeAttributes()
+    '''
 def getAttributes():
-'''public Attribute[] getAttributes()
-'''
-pass
+    '''    public Attribute[] getAttributes()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

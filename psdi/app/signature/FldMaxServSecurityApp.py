@@ -1,8 +1,6 @@
 def FldMaxServSecurityApp():
-'''public FldMaxServSecurityApp(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxServSecurityApp(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

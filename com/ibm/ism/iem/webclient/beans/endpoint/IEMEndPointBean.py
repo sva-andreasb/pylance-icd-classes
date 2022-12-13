@@ -1,8 +1,6 @@
 def saveCfg():
-'''public void saveCfg()
-'''
-pass
+    '''    public void saveCfg()
+    '''
 def testConnection():
-'''public void testConnection()
-'''
-pass
+    '''    public void testConnection()
+    '''

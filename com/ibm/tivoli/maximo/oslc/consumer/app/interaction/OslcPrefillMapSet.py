@@ -1,4 +1,3 @@
 def OslcPrefillMapSet():
-'''public OslcPrefillMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OslcPrefillMapSet(final MboServerInterface ms)
+    '''

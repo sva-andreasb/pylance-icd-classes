@@ -1,4 +1,3 @@
 def mapIterator():
-'''public MapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public MapIterator<K, V> mapIterator()
+    '''

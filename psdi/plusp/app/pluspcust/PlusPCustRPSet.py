@@ -1,4 +1,3 @@
 def PlusPCustRPSet():
-'''public PlusPCustRPSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPCustRPSet(final MboServerInterface ms)
+    '''

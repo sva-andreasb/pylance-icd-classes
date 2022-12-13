@@ -1,8 +1,6 @@
 def FailingDeserializer():
-'''public FailingDeserializer(final String m)
-'''
-pass
+    '''    public FailingDeserializer(final String m)
+    '''
 def deserialize():
-'''public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-'''
-pass
+    '''    public Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''

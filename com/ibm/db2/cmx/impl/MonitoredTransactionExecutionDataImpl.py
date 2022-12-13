@@ -1,104 +1,78 @@
 def getDatabaseAuthID():
-'''public String getDatabaseAuthID()
-'''
-pass
+    '''    public String getDatabaseAuthID()
+    '''
 def getClientInfo():
-'''public String[] getClientInfo()
-'''
-pass
+    '''    public String[] getClientInfo()
+    '''
 def getElapsedCursorHoldTimes():
-'''public long getElapsedCursorHoldTimes()
-'''
-pass
+    '''    public long getElapsedCursorHoldTimes()
+    '''
 def getElapsedCursorHoldTimes_TimePrecision():
-'''public TimePrecision getElapsedCursorHoldTimes_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getElapsedCursorHoldTimes_TimePrecision()
+    '''
 def getElapsedDriverTimes():
-'''public long getElapsedDriverTimes()
-'''
-pass
+    '''    public long getElapsedDriverTimes()
+    '''
 def getElapsedDriverTimes_TimePrecision():
-'''public TimePrecision getElapsedDriverTimes_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getElapsedDriverTimes_TimePrecision()
+    '''
 def getElapsedNetworkTimes():
-'''public long getElapsedNetworkTimes()
-'''
-pass
+    '''    public long getElapsedNetworkTimes()
+    '''
 def getElapsedNetworkTimes_TimePrecision():
-'''public TimePrecision getElapsedNetworkTimes_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getElapsedNetworkTimes_TimePrecision()
+    '''
 def getElapsedServerTimes():
-'''public long getElapsedServerTimes()
-'''
-pass
+    '''    public long getElapsedServerTimes()
+    '''
 def getElapsedServerTimes_TimePrecision():
-'''public TimePrecision getElapsedServerTimes_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getElapsedServerTimes_TimePrecision()
+    '''
 def getBytesSent():
-'''public long getBytesSent()
-'''
-pass
+    '''    public long getBytesSent()
+    '''
 def getBytesReceived():
-'''public long getBytesReceived()
-'''
-pass
+    '''    public long getBytesReceived()
+    '''
 def getNumberOfRoundTrips():
-'''public long getNumberOfRoundTrips()
-'''
-pass
+    '''    public long getNumberOfRoundTrips()
+    '''
 def getNumberOfRowsSelected():
-'''public long getNumberOfRowsSelected()
-'''
-pass
+    '''    public long getNumberOfRowsSelected()
+    '''
 def getNumberOfStatementExecutions():
-'''public long getNumberOfStatementExecutions()
-'''
-pass
+    '''    public long getNumberOfStatementExecutions()
+    '''
 def getFirstNegativeSQLCode():
-'''public int getFirstNegativeSQLCode()
-'''
-pass
+    '''    public int getFirstNegativeSQLCode()
+    '''
 def getNumberOfNegativeSQLCodes():
-'''public int getNumberOfNegativeSQLCodes()
-'''
-pass
+    '''    public int getNumberOfNegativeSQLCodes()
+    '''
 def getNumberOfTransactionExecutions():
-'''public long getNumberOfTransactionExecutions()
-'''
-pass
+    '''    public long getNumberOfTransactionExecutions()
+    '''
 def getElapsedTransactionTimes():
-'''public long getElapsedTransactionTimes()
-'''
-pass
+    '''    public long getElapsedTransactionTimes()
+    '''
 def getElapsedTransactionTimes_TimePrecision():
-'''public TimePrecision getElapsedTransactionTimes_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getElapsedTransactionTimes_TimePrecision()
+    '''
 def getMaximumElapsedTransactionTime():
-'''public long getMaximumElapsedTransactionTime()
-'''
-pass
+    '''    public long getMaximumElapsedTransactionTime()
+    '''
 def getMaximumElapsedTransactionTime_TimePrecision():
-'''public TimePrecision getMaximumElapsedTransactionTime_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getMaximumElapsedTransactionTime_TimePrecision()
+    '''
 def getHistogramData():
-'''public String getHistogramData()
-'''
-pass
+    '''    public String getHistogramData()
+    '''
 def getWebspherePoolWaitTimes():
-'''public long getWebspherePoolWaitTimes()
-'''
-pass
+    '''    public long getWebspherePoolWaitTimes()
+    '''
 def getWebspherePoolWaitTimes_TimePrecision():
-'''public TimePrecision getWebspherePoolWaitTimes_TimePrecision()
-'''
-pass
+    '''    public TimePrecision getWebspherePoolWaitTimes_TimePrecision()
+    '''
 def parseMonitoredTransactionExecutionDatas():
-'''public static ArrayList<MonitoredTransactionExecutionData> parseMonitoredTransactionExecutionDatas(final JSONArray jsonArray, final JSONArray jsonArray2)
-'''
-pass
+    '''    public static ArrayList<MonitoredTransactionExecutionData> parseMonitoredTransactionExecutionDatas(final JSONArray jsonArray, final JSONArray jsonArray2)
+    '''

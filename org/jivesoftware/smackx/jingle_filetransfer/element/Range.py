@@ -1,38 +1,30 @@
-ELEMENT = "String  range""
-ATTR_OFFSET = "String  offset""
-ATTR_LENGTH = "String  length""
+ELEMENT = "String  \"range\""
+ATTR_OFFSET = "String  \"offset\""
+ATTR_LENGTH = "String  \"length\""
 def Range():
-'''public Range()
-public Range(final int length)
-public Range(final int offset, final int length)
-public Range(final int offset, final int length, final HashElement hash)
-'''
-pass
+    '''    public Range()
+    public Range(final int length)
+    public Range(final int offset, final int length)
+    public Range(final int offset, final int length, final HashElement hash)
+    '''
 def getOffset():
-'''public int getOffset()
-'''
-pass
+    '''    public int getOffset()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getHash():
-'''public HashElement getHash()
-'''
-pass
+    '''    public HashElement getHash()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public CharSequence toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public CharSequence toXML(final String enclosingNamespace)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

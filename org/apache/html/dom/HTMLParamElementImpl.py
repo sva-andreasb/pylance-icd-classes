@@ -1,36 +1,27 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String s)
-'''
-pass
+    '''    public void setType(final String s)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String s)
-'''
-pass
+    '''    public void setValue(final String s)
+    '''
 def getValueType():
-'''public String getValueType()
-'''
-pass
+    '''    public String getValueType()
+    '''
 def setValueType():
-'''public void setValueType(final String s)
-'''
-pass
+    '''    public void setValueType(final String s)
+    '''
 def HTMLParamElementImpl():
-'''public HTMLParamElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLParamElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

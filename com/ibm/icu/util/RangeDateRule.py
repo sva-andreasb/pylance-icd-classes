@@ -1,25 +1,19 @@
 def RangeDateRule():
-'''public RangeDateRule()
-'''
-pass
+    '''    public RangeDateRule()
+    '''
 def add():
-'''public void add(final DateRule rule)
-public void add(final Date start, final DateRule rule)
-'''
-pass
+    '''    public void add(final DateRule rule)
+    public void add(final Date start, final DateRule rule)
+    '''
 def firstAfter():
-'''public Date firstAfter(final Date start)
-'''
-pass
+    '''    public Date firstAfter(final Date start)
+    '''
 def firstBetween():
-'''public Date firstBetween(final Date start, final Date end)
-'''
-pass
+    '''    public Date firstBetween(final Date start, final Date end)
+    '''
 def isOn():
-'''public boolean isOn(final Date date)
-'''
-pass
+    '''    public boolean isOn(final Date date)
+    '''
 def isBetween():
-'''public boolean isBetween(final Date start, final Date end)
-'''
-pass
+    '''    public boolean isBetween(final Date start, final Date end)
+    '''

@@ -1,4 +1,3 @@
 def InvalidCiphertextException():
-'''public InvalidCiphertextException(final String message)
-'''
-pass
+    '''    public InvalidCiphertextException(final String message)
+    '''

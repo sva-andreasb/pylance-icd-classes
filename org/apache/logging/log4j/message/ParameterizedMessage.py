@@ -1,62 +1,49 @@
-RECURSION_PREFIX = "String  [...""
-RECURSION_SUFFIX = "String  ...]""
-ERROR_PREFIX = "String  [!!!""
-ERROR_SEPARATOR = "String  =>""
-ERROR_MSG_SEPARATOR = "String  :""
-ERROR_SUFFIX = "String  !!!]""
+RECURSION_PREFIX = "String  \"[...\""
+RECURSION_SUFFIX = "String  \"...]\""
+ERROR_PREFIX = "String  \"[!!!\""
+ERROR_SEPARATOR = "String  \"=>\""
+ERROR_MSG_SEPARATOR = "String  \":\""
+ERROR_SUFFIX = "String  \"!!!]\""
 def ParameterizedMessage():
-'''public ParameterizedMessage(final String messagePattern, final String[] arguments, final Throwable throwable)
-public ParameterizedMessage(final String messagePattern, final Object[] arguments, final Throwable throwable)
-public ParameterizedMessage(final String messagePattern, final Object... arguments)
-public ParameterizedMessage(final String messagePattern, final Object arg)
-public ParameterizedMessage(final String messagePattern, final Object arg0, final Object arg1)
-'''
-pass
+    '''    public ParameterizedMessage(final String messagePattern, final String[] arguments, final Throwable throwable)
+    public ParameterizedMessage(final String messagePattern, final Object[] arguments, final Throwable throwable)
+    public ParameterizedMessage(final String messagePattern, final Object... arguments)
+    public ParameterizedMessage(final String messagePattern, final Object arg)
+    public ParameterizedMessage(final String messagePattern, final Object arg0, final Object arg1)
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder buffer)
-'''
-pass
+    '''    public void formatTo(final StringBuilder buffer)
+    '''
 def format():
-'''public static String format(final String messagePattern, final Object[] arguments)
-'''
-pass
+    '''    public static String format(final String messagePattern, final Object[] arguments)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def countArgumentPlaceholders():
-'''public static int countArgumentPlaceholders(final String messagePattern)
-'''
-pass
+    '''    public static int countArgumentPlaceholders(final String messagePattern)
+    '''
 def deepToString():
-'''public static String deepToString(final Object o)
-'''
-pass
+    '''    public static String deepToString(final Object o)
+    '''
 def identityToString():
-'''public static String identityToString(final Object obj)
-'''
-pass
+    '''    public static String identityToString(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

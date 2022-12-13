@@ -1,4 +1,3 @@
 def updatecounter():
-'''public int updatecounter()
-'''
-pass
+    '''    public int updatecounter()
+    '''

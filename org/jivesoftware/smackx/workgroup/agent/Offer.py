@@ -1,44 +1,33 @@
 def accept():
-'''public void accept()
-'''
-pass
+    '''    public void accept()
+    '''
 def reject():
-'''public void reject()
-'''
-pass
+    '''    public void reject()
+    '''
 def getUserID():
-'''public Jid getUserID()
-'''
-pass
+    '''    public Jid getUserID()
+    '''
 def getUserJID():
-'''public Jid getUserJID()
-'''
-pass
+    '''    public Jid getUserJID()
+    '''
 def getWorkgroupName():
-'''public Jid getWorkgroupName()
-'''
-pass
+    '''    public Jid getWorkgroupName()
+    '''
 def getExpiresDate():
-'''public Date getExpiresDate()
-'''
-pass
+    '''    public Date getExpiresDate()
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def getMetaData():
-'''public Map<String, List<String>> getMetaData()
-'''
-pass
+    '''    public Map<String, List<String>> getMetaData()
+    '''
 def getContent():
-'''public OfferContent getContent()
-'''
-pass
+    '''    public OfferContent getContent()
+    '''
 def isAccepted():
-'''public boolean isAccepted()
-'''
-pass
+    '''    public boolean isAccepted()
+    '''
 def isRejected():
-'''public boolean isRejected()
-'''
-pass
+    '''    public boolean isRejected()
+    '''

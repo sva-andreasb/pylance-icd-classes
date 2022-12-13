@@ -1,43 +1,33 @@
-STATE_ACTIVE = "String  ACTIVE""
-STATE_INACTIVE = "String  INACTIVE""
-STATE_VALIDATE = "String  VALIDATE""
+STATE_ACTIVE = "String  \"ACTIVE\""
+STATE_INACTIVE = "String  \"INACTIVE\""
+STATE_VALIDATE = "String  \"VALIDATE\""
 def EditionInfo():
-'''public EditionInfo(final String compositeName, final String cellName)
-'''
-pass
+    '''    public EditionInfo(final String compositeName, final String cellName)
+    '''
 def getCellName():
-'''public String getCellName()
-'''
-pass
+    '''    public String getCellName()
+    '''
 def getCompositeName():
-'''public String getCompositeName()
-'''
-pass
+    '''    public String getCompositeName()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getEdition():
-'''public String getEdition()
-'''
-pass
+    '''    public String getEdition()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getEditionState():
-'''public String getEditionState()
-'''
-pass
+    '''    public String getEditionState()
+    '''
 def setEditionState():
-'''public void setEditionState(final String state)
-'''
-pass
+    '''    public void setEditionState(final String state)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

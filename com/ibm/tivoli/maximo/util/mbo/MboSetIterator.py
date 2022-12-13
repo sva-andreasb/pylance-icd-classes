@@ -1,20 +1,15 @@
 def MboSetIterator():
-'''public MboSetIterator(final MboSetRemote mboSet)
-'''
-pass
+    '''    public MboSetIterator(final MboSetRemote mboSet)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public MboRemote next()
-'''
-pass
+    '''    public MboRemote next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def clone():
-'''public MboSetIterator clone()
-'''
-pass
+    '''    public MboSetIterator clone()
+    '''

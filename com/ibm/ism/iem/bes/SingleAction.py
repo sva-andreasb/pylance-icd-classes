@@ -1,56 +1,42 @@
 def getSettings():
-'''public ActionSettingsType getSettings()
-'''
-pass
+    '''    public ActionSettingsType getSettings()
+    '''
 def setSettings():
-'''public void setSettings(final ActionSettingsType value)
-'''
-pass
+    '''    public void setSettings(final ActionSettingsType value)
+    '''
 def getSettingsLocks():
-'''public ActionSettingsLocks getSettingsLocks()
-'''
-pass
+    '''    public ActionSettingsLocks getSettingsLocks()
+    '''
 def setSettingsLocks():
-'''public void setSettingsLocks(final ActionSettingsLocks value)
-'''
-pass
+    '''    public void setSettingsLocks(final ActionSettingsLocks value)
+    '''
 def isIsUrgent():
-'''public Boolean isIsUrgent()
-'''
-pass
+    '''    public Boolean isIsUrgent()
+    '''
 def setIsUrgent():
-'''public void setIsUrgent(final Boolean value)
-'''
-pass
+    '''    public void setIsUrgent(final Boolean value)
+    '''
 def getDomain():
-'''public String getDomain()
-'''
-pass
+    '''    public String getDomain()
+    '''
 def setDomain():
-'''public void setDomain(final String value)
-'''
-pass
+    '''    public void setDomain(final String value)
+    '''
 def getTarget():
-'''public BESActionTarget getTarget()
-'''
-pass
+    '''    public BESActionTarget getTarget()
+    '''
 def setTarget():
-'''public void setTarget(final BESActionTarget value)
-'''
-pass
+    '''    public void setTarget(final BESActionTarget value)
+    '''
 def getSourceFixlet():
-'''public BESSourceSiteAndFixlet getSourceFixlet()
-'''
-pass
+    '''    public BESSourceSiteAndFixlet getSourceFixlet()
+    '''
 def setSourceFixlet():
-'''public void setSourceFixlet(final BESSourceSiteAndFixlet value)
-'''
-pass
+    '''    public void setSourceFixlet(final BESSourceSiteAndFixlet value)
+    '''
 def isSkipUI():
-'''public Boolean isSkipUI()
-'''
-pass
+    '''    public Boolean isSkipUI()
+    '''
 def setSkipUI():
-'''public void setSkipUI(final Boolean value)
-'''
-pass
+    '''    public void setSkipUI(final Boolean value)
+    '''

@@ -1,8 +1,6 @@
 def CreateGrantRequestMarshaller():
-'''public CreateGrantRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public CreateGrantRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<CreateGrantRequest> marshall(final CreateGrantRequest createGrantRequest)
-'''
-pass
+    '''    public Request<CreateGrantRequest> marshall(final CreateGrantRequest createGrantRequest)
+    '''

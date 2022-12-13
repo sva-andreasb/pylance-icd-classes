@@ -1,16 +1,12 @@
 def DMMapTreeRules():
-'''public DMMapTreeRules(final MboSet ms)
-'''
-pass
+    '''    public DMMapTreeRules(final MboSet ms)
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''

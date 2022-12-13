@@ -1,46 +1,35 @@
 def SnmpAuth():
-'''public SnmpAuth()
-public SnmpAuth(final String comString)
-public SnmpAuth(final String comString, final String name, final String desc)
-'''
-pass
+    '''    public SnmpAuth()
+    public SnmpAuth(final String comString)
+    public SnmpAuth(final String comString, final String name, final String desc)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setDescription():
-'''public void setDescription(final String desc)
-'''
-pass
+    '''    public void setDescription(final String desc)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setOrder():
-'''public void setOrder(final int c)
-'''
-pass
+    '''    public void setOrder(final int c)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def getCommunityString():
-'''public String getCommunityString()
-'''
-pass
+    '''    public String getCommunityString()
+    '''
 def setCommunityString():
-'''public void setCommunityString(final String str)
-'''
-pass
+    '''    public void setCommunityString(final String str)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

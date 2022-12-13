@@ -1,18 +1,14 @@
 DEFAULT_PORT = "int  123"
 def NTPUDPClient():
-'''public NTPUDPClient()
-'''
-pass
+    '''    public NTPUDPClient()
+    '''
 def getTime():
-'''public TimeInfo getTime(final InetAddress host, final int port)
-public TimeInfo getTime(final InetAddress host)
-'''
-pass
+    '''    public TimeInfo getTime(final InetAddress host, final int port)
+    public TimeInfo getTime(final InetAddress host)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final int version)
-'''
-pass
+    '''    public void setVersion(final int version)
+    '''

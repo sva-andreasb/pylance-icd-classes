@@ -1,45 +1,34 @@
 def getJavaConsole():
-'''public static synchronized ConsoleWindow getJavaConsole()
-'''
-pass
+    '''    public static synchronized ConsoleWindow getJavaConsole()
+    '''
 def initTraceEnvironment():
-'''public static synchronized void initTraceEnvironment()
-'''
-pass
+    '''    public static synchronized void initTraceEnvironment()
+    '''
 def isJavaConsoleVisible():
-'''public static boolean isJavaConsoleVisible()
-'''
-pass
+    '''    public static boolean isJavaConsoleVisible()
+    '''
 def showJavaConsole():
-'''public static void showJavaConsole(final boolean b)
-'''
-pass
+    '''    public static void showJavaConsole(final boolean b)
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def showJavaConsoleLater():
-'''public static void showJavaConsoleLater(final boolean b)
-'''
-pass
+    '''    public static void showJavaConsoleLater(final boolean b)
+    '''
 def showJavaConsoleHelp():
-'''public static void showJavaConsoleHelp()
-'''
-pass
+    '''    public static void showJavaConsoleHelp()
+    '''
 def showSystemProperties():
-'''public static void showSystemProperties()
-'''
-pass
+    '''    public static void showSystemProperties()
+    '''
 def printToJavaConsole():
-'''public static void printToJavaConsole(final String s)
-'''
-pass
+    '''    public static void printToJavaConsole(final String s)
+    '''
 def getTraceOutputStream():
-'''public static OutputStream getTraceOutputStream()
-'''
-pass
+    '''    public static OutputStream getTraceOutputStream()
+    '''
 def getPluginThreadGroup():
-'''public static synchronized ThreadGroup getPluginThreadGroup()
-'''
-pass
+    '''    public static synchronized ThreadGroup getPluginThreadGroup()
+    '''

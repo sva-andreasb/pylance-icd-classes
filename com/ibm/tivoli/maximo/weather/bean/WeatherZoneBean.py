@@ -1,8 +1,6 @@
 def assetreg():
-'''public int assetreg()
-'''
-pass
+    '''    public int assetreg()
+    '''
 def assetunreg():
-'''public int assetunreg()
-'''
-pass
+    '''    public int assetunreg()
+    '''

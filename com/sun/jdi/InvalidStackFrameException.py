@@ -1,5 +1,4 @@
 def InvalidStackFrameException():
-'''public InvalidStackFrameException()
-public InvalidStackFrameException(final String message)
-'''
-pass
+    '''    public InvalidStackFrameException()
+    public InvalidStackFrameException(final String message)
+    '''

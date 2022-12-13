@@ -1,54 +1,41 @@
 def InstructionBranch():
-'''public InstructionBranch(final short opcode, final InstructionHandle target)
-public InstructionBranch(final short opcode, final int index)
-public InstructionBranch(final short opcode)
-'''
-pass
+    '''    public InstructionBranch(final short opcode, final InstructionHandle target)
+    public InstructionBranch(final short opcode, final int index)
+    public InstructionBranch(final short opcode)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def getTarget():
-'''public InstructionHandle getTarget()
-'''
-pass
+    '''    public InstructionHandle getTarget()
+    '''
 def setTarget():
-'''public void setTarget(final InstructionHandle target)
-'''
-pass
+    '''    public void setTarget(final InstructionHandle target)
+    '''
 def updateTarget():
-'''public void updateTarget(final InstructionHandle oldHandle, final InstructionHandle newHandle)
-'''
-pass
+    '''    public void updateTarget(final InstructionHandle oldHandle, final InstructionHandle newHandle)
+    '''
 def containsTarget():
-'''public boolean containsTarget(final InstructionHandle ih)
-'''
-pass
+    '''    public boolean containsTarget(final InstructionHandle ih)
+    '''
 def getType():
-'''public Type getType(final ConstantPool cp)
-'''
-pass
+    '''    public Type getType(final ConstantPool cp)
+    '''
 def physicalSuccessor():
-'''public InstructionHandle physicalSuccessor()
-'''
-pass
+    '''    public InstructionHandle physicalSuccessor()
+    '''
 def isIfInstruction():
-'''public boolean isIfInstruction()
-'''
-pass
+    '''    public boolean isIfInstruction()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

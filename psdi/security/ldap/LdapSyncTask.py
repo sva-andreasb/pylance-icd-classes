@@ -1,73 +1,55 @@
 def LdapSyncTask():
-'''public LdapSyncTask()
-public LdapSyncTask(final String task, final String instance)
-'''
-pass
+    '''    public LdapSyncTask()
+    public LdapSyncTask(final String task, final String instance)
+    '''
 def setFullSync():
-'''public void setFullSync(final boolean fullSync)
-'''
-pass
+    '''    public void setFullSync(final boolean fullSync)
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''
 def setLogger():
-'''public void setLogger(final MXLogger logger)
-'''
-pass
+    '''    public void setLogger(final MXLogger logger)
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def setSqlLogger():
-'''public void setSqlLogger(final MXLogger logger)
-'''
-pass
+    '''    public void setSqlLogger(final MXLogger logger)
+    '''
 def init():
-'''public void init(final LoadSyncSettings ldapSyncSettings)
-'''
-pass
+    '''    public void init(final LoadSyncSettings ldapSyncSettings)
+    '''
 def setConnection():
-'''public void setConnection(final Connection connection)
-'''
-pass
+    '''    public void setConnection(final Connection connection)
+    '''
 def getConnection():
-'''public Connection getConnection()
-'''
-pass
+    '''    public Connection getConnection()
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def performTask():
-'''public void performTask()
-'''
-pass
+    '''    public void performTask()
+    '''
 def setCronTaskHistoryMsg():
-'''public void setCronTaskHistoryMsg(final String val)
-'''
-pass
+    '''    public void setCronTaskHistoryMsg(final String val)
+    '''
 def getCronTaskHistoryMsg():
-'''public String getCronTaskHistoryMsg()
-'''
-pass
+    '''    public String getCronTaskHistoryMsg()
+    '''
 def getTaskInstanceName():
-'''public String getTaskInstanceName()
-'''
-pass
+    '''    public String getTaskInstanceName()
+    '''
 def setTaskInstanceName():
-'''public void setTaskInstanceName(final String taskInstanceName)
-'''
-pass
+    '''    public void setTaskInstanceName(final String taskInstanceName)
+    '''
 def getTaskName():
-'''public String getTaskName()
-'''
-pass
+    '''    public String getTaskName()
+    '''
 def setTaskName():
-'''public void setTaskName(final String taskName)
-'''
-pass
+    '''    public void setTaskName(final String taskName)
+    '''

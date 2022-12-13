@@ -1,84 +1,63 @@
 def LocHierarchy():
-'''public LocHierarchy(final MboSet ms)
-'''
-pass
+    '''    public LocHierarchy(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def isNetworked():
-'''public boolean isNetworked()
-'''
-pass
+    '''    public boolean isNetworked()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def connectLocationAndChildrenToParent():
-'''public void connectLocationAndChildrenToParent()
-'''
-pass
+    '''    public void connectLocationAndChildrenToParent()
+    '''
 def disconnectLocationAndChildrenFromSystem():
-'''public void disconnectLocationAndChildrenFromSystem()
-'''
-pass
+    '''    public void disconnectLocationAndChildrenFromSystem()
+    '''
 def makeLocationTopLevel():
-'''public void makeLocationTopLevel()
-'''
-pass
+    '''    public void makeLocationTopLevel()
+    '''
 def getOwningLocSystem():
-'''public MboRemote getOwningLocSystem()
-'''
-pass
+    '''    public MboRemote getOwningLocSystem()
+    '''
 def changeSysToNetworked():
-'''public void changeSysToNetworked()
-'''
-pass
+    '''    public void changeSysToNetworked()
+    '''
 def getParents():
-'''public MboSetRemote getParents()
-'''
-pass
+    '''    public MboSetRemote getParents()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def getHierarchies():
-'''public String[] getHierarchies()
-'''
-pass
+    '''    public String[] getHierarchies()
+    '''
 def getTop():
-'''public MboSetRemote getTop()
-'''
-pass
+    '''    public MboSetRemote getTop()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

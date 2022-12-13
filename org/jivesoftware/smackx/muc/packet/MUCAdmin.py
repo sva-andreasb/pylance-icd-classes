@@ -1,14 +1,11 @@
-ELEMENT = "String  query""
-NAMESPACE = "String  http://jabber.org/protocol/muc#admin""
+ELEMENT = "String  \"query\""
+NAMESPACE = "String  \"http://jabber.org/protocol/muc#admin\""
 def MUCAdmin():
-'''public MUCAdmin()
-'''
-pass
+    '''    public MUCAdmin()
+    '''
 def getItems():
-'''public List<MUCItem> getItems()
-'''
-pass
+    '''    public List<MUCItem> getItems()
+    '''
 def addItem():
-'''public void addItem(final MUCItem item)
-'''
-pass
+    '''    public void addItem(final MUCItem item)
+    '''

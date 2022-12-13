@@ -1,4 +1,3 @@
 def UserDevice():
-'''public UserDevice(final MboSet ms)
-'''
-pass
+    '''    public UserDevice(final MboSet ms)
+    '''

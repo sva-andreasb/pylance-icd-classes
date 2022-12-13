@@ -1,24 +1,18 @@
 def ShiftBean():
-'''public ShiftBean()
-'''
-pass
+    '''    public ShiftBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def applyshift():
-'''public int applyshift()
-'''
-pass
+    '''    public int applyshift()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def DefineNewShift():
-'''public int DefineNewShift()
-'''
-pass
+    '''    public int DefineNewShift()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

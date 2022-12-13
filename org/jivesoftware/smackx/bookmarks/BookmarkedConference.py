@@ -1,32 +1,24 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isAutoJoin():
-'''public boolean isAutoJoin()
-'''
-pass
+    '''    public boolean isAutoJoin()
+    '''
 def getJid():
-'''public EntityBareJid getJid()
-'''
-pass
+    '''    public EntityBareJid getJid()
+    '''
 def getNickname():
-'''public Resourcepart getNickname()
-'''
-pass
+    '''    public Resourcepart getNickname()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isShared():
-'''public boolean isShared()
-'''
-pass
+    '''    public boolean isShared()
+    '''

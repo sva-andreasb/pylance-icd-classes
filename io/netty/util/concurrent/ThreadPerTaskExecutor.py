@@ -1,8 +1,6 @@
 def ThreadPerTaskExecutor():
-'''public ThreadPerTaskExecutor(final ThreadFactory threadFactory)
-'''
-pass
+    '''    public ThreadPerTaskExecutor(final ThreadFactory threadFactory)
+    '''
 def execute():
-'''public void execute(final Runnable command)
-'''
-pass
+    '''    public void execute(final Runnable command)
+    '''

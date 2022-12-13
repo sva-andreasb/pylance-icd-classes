@@ -1,29 +1,22 @@
 def StringRequestEntity():
-'''public StringRequestEntity(final String content)
-public StringRequestEntity(final String content, final String contentType, final String charset)
-'''
-pass
+    '''    public StringRequestEntity(final String content)
+    public StringRequestEntity(final String content, final String contentType, final String charset)
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def writeRequest():
-'''public void writeRequest(final OutputStream out)
-'''
-pass
+    '''    public void writeRequest(final OutputStream out)
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getContent():
-'''public String getContent()
-'''
-pass
+    '''    public String getContent()
+    '''
 def getCharset():
-'''public String getCharset()
-'''
-pass
+    '''    public String getCharset()
+    '''

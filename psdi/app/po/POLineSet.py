@@ -1,56 +1,42 @@
 def POLineSet():
-'''public POLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public POLineSet(final MboServerInterface ms)
+    '''
 def defaultReceiptQty():
-'''public void defaultReceiptQty()
-'''
-pass
+    '''    public void defaultReceiptQty()
+    '''
 def completeReceipts():
-'''public void completeReceipts()
-'''
-pass
+    '''    public void completeReceipts()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    '''
 def getUserWhere():
-'''public String getUserWhere(final String alias)
-'''
-pass
+    '''    public String getUserWhere(final String alias)
+    '''
 def resetQbe():
-'''public void resetQbe()
-'''
-pass
+    '''    public void resetQbe()
+    '''
 def returnIPCParts():
-'''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
-'''
-pass
+    '''    public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''
 def preValidateIpcBom():
-'''public void preValidateIpcBom(final IpcBomSetRemote bomset)
-'''
-pass
+    '''    public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''
 def addAtIndex():
-'''public MboRemote addAtIndex(final long accessModifier, final int index)
-'''
-pass
+    '''    public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''
 def populatePOLineNum():
-'''public void populatePOLineNum(final MboRemote poLine)
-'''
-pass
+    '''    public void populatePOLineNum(final MboRemote poLine)
+    '''
 def setDBPOLineSet():
-'''public MboSetRemote setDBPOLineSet(final MboRemote thisPOLine)
-'''
-pass
+    '''    public MboSetRemote setDBPOLineSet(final MboRemote thisPOLine)
+    '''
 def getPOForQueryOnly():
-'''public MboRemote getPOForQueryOnly(final String ponum, final String siteid, final String revisionnum)
-'''
-pass
+    '''    public MboRemote getPOForQueryOnly(final String ponum, final String siteid, final String revisionnum)
+    '''
 def setPOforQueryOnly():
-'''public void setPOforQueryOnly(final MboRemote po)
-'''
-pass
+    '''    public void setPOforQueryOnly(final MboRemote po)
+    '''

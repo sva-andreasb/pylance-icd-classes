@@ -1,8 +1,6 @@
 def FldAssetInputAssetNum():
-'''public FldAssetInputAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetInputAssetNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

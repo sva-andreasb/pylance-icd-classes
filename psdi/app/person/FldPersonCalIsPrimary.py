@@ -1,8 +1,6 @@
 def FldPersonCalIsPrimary():
-'''public FldPersonCalIsPrimary(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonCalIsPrimary(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

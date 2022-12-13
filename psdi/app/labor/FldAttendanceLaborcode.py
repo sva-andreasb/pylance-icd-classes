@@ -1,4 +1,3 @@
 def FldAttendanceLaborcode():
-'''public FldAttendanceLaborcode(final MboValue mbv)
-'''
-pass
+    '''    public FldAttendanceLaborcode(final MboValue mbv)
+    '''

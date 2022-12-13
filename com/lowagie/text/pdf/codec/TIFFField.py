@@ -11,86 +11,65 @@ TIFF_SRATIONAL = "int  10"
 TIFF_FLOAT = "int  11"
 TIFF_DOUBLE = "int  12"
 def TIFFField():
-'''public TIFFField(final int tag, final int type, final int count, final Object data)
-'''
-pass
+    '''    public TIFFField(final int tag, final int type, final int count, final Object data)
+    '''
 def getTag():
-'''public int getTag()
-'''
-pass
+    '''    public int getTag()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def getAsBytes():
-'''public byte[] getAsBytes()
-'''
-pass
+    '''    public byte[] getAsBytes()
+    '''
 def getAsChars():
-'''public char[] getAsChars()
-'''
-pass
+    '''    public char[] getAsChars()
+    '''
 def getAsShorts():
-'''public short[] getAsShorts()
-'''
-pass
+    '''    public short[] getAsShorts()
+    '''
 def getAsInts():
-'''public int[] getAsInts()
-'''
-pass
+    '''    public int[] getAsInts()
+    '''
 def getAsLongs():
-'''public long[] getAsLongs()
-'''
-pass
+    '''    public long[] getAsLongs()
+    '''
 def getAsFloats():
-'''public float[] getAsFloats()
-'''
-pass
+    '''    public float[] getAsFloats()
+    '''
 def getAsDoubles():
-'''public double[] getAsDoubles()
-'''
-pass
+    '''    public double[] getAsDoubles()
+    '''
 def getAsSRationals():
-'''public int[][] getAsSRationals()
-'''
-pass
+    '''    public int[][] getAsSRationals()
+    '''
 def getAsRationals():
-'''public long[][] getAsRationals()
-'''
-pass
+    '''    public long[][] getAsRationals()
+    '''
 def getAsInt():
-'''public int getAsInt(final int index)
-'''
-pass
+    '''    public int getAsInt(final int index)
+    '''
 def getAsLong():
-'''public long getAsLong(final int index)
-'''
-pass
+    '''    public long getAsLong(final int index)
+    '''
 def getAsFloat():
-'''public float getAsFloat(final int index)
-'''
-pass
+    '''    public float getAsFloat(final int index)
+    '''
 def getAsDouble():
-'''public double getAsDouble(final int index)
-'''
-pass
+    '''    public double getAsDouble(final int index)
+    '''
 def getAsString():
-'''public String getAsString(final int index)
-'''
-pass
+    '''    public String getAsString(final int index)
+    '''
 def getAsSRational():
-'''public int[] getAsSRational(final int index)
-'''
-pass
+    '''    public int[] getAsSRational(final int index)
+    '''
 def getAsRational():
-'''public long[] getAsRational(final int index)
-'''
-pass
+    '''    public long[] getAsRational(final int index)
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''

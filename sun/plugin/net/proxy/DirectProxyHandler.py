@@ -1,16 +1,12 @@
 def isSupported():
-'''public boolean isSupported(final int n)
-'''
-pass
+    '''    public boolean isSupported(final int n)
+    '''
 def isProxyCacheSupported():
-'''public boolean isProxyCacheSupported()
-'''
-pass
+    '''    public boolean isProxyCacheSupported()
+    '''
 def init():
-'''public void init(final BrowserProxyInfo browserProxyInfo)
-'''
-pass
+    '''    public void init(final BrowserProxyInfo browserProxyInfo)
+    '''
 def getProxyInfo():
-'''public ProxyInfo[] getProxyInfo(final URL url)
-'''
-pass
+    '''    public ProxyInfo[] getProxyInfo(final URL url)
+    '''

@@ -1,8 +1,6 @@
 def FldPOTermDescription():
-'''public FldPOTermDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldPOTermDescription(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

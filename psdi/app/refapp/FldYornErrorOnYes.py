@@ -1,8 +1,6 @@
 def FldYornErrorOnYes():
-'''public FldYornErrorOnYes(final MboValue mbv)
-'''
-pass
+    '''    public FldYornErrorOnYes(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -3,86 +3,65 @@ BEFORE = "int  -1"
 EQUALS = "int  0"
 AFTER = "int  1"
 def WOStatusHandler():
-'''public WOStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public WOStatusHandler(final StatefulMbo sm)
+    '''
 def checkStatusChangeAuthorization():
-'''public void checkStatusChangeAuthorization(final String desiredStatus)
-'''
-pass
+    '''    public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''
 def canChangeStatus():
-'''public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
-'''
-pass
+    '''    public void canChangeStatus(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''
 def getStatusProgression():
-'''public static Vector<String> getStatusProgression()
-'''
-pass
+    '''    public static Vector<String> getStatusProgression()
+    '''
 def getOptionName():
-'''public static String getOptionName(final String status)
-'''
-pass
+    '''    public static String getOptionName(final String status)
+    '''
 def changeStatus():
-'''public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
-'''
-pass
+    '''    public void changeStatus(final String currentStatus, final String desiredStatus, final Date asOfDate, final String memo)
+    '''
 def materialsReceiptsCompleted():
-'''public boolean materialsReceiptsCompleted()
-'''
-pass
+    '''    public boolean materialsReceiptsCompleted()
+    '''
 def postStatusChange():
-'''public void postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)
-'''
-pass
+    '''    public void postStatusChange(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''
 def updateMboForStatus():
-'''public void updateMboForStatus(final String status)
-'''
-pass
+    '''    public void updateMboForStatus(final String status)
+    '''
 def resetUsingAssetWorkType():
-'''public void resetUsingAssetWorkType()
-'''
-pass
+    '''    public void resetUsingAssetWorkType()
+    '''
 def resetUsingLocationWorkType():
-'''public void resetUsingLocationWorkType()
-'''
-pass
+    '''    public void resetUsingLocationWorkType()
+    '''
 def validatePlannedLaborCraftRate():
-'''public void validatePlannedLaborCraftRate()
-'''
-pass
+    '''    public void validatePlannedLaborCraftRate()
+    '''
 def validateAssignAMCrew():
-'''public void validateAssignAMCrew()
-'''
-pass
+    '''    public void validateAssignAMCrew()
+    '''
 def alertPMStatus():
-'''public boolean alertPMStatus(final String currentStatus, final String desiredStatus)
-'''
-pass
+    '''    public boolean alertPMStatus(final String currentStatus, final String desiredStatus)
+    '''
 def canChangePFCStatus():
-'''public boolean canChangePFCStatus(final String currentStatus, final String desiredStatus, final long accessModifier, final boolean throwExceptions)
-'''
-pass
+    '''    public boolean canChangePFCStatus(final String currentStatus, final String desiredStatus, final long accessModifier, final boolean throwExceptions)
+    '''
 def compareStatusPosition():
-'''public static int compareStatusPosition(final String status1, final String status2, final Translate translator)
-'''
-pass
+    '''    public static int compareStatusPosition(final String status1, final String status2, final Translate translator)
+    '''
 def canChangeStatusCal():
-'''public void canChangeStatusCal(final String currentStatus, final String desiredStatus, final long accessModifier)
-'''
-pass
+    '''    public void canChangeStatusCal(final String currentStatus, final String desiredStatus, final long accessModifier)
+    '''
 def postStatusChangeCal():
-'''public void postStatusChangeCal(final String currentStatus, final String status, final Date asOfDate, final String memo)
-'''
-pass
+    '''    public void postStatusChangeCal(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''
 def cancelYesNOMessage():
-'''public void cancelYesNOMessage(final String message)
-'''
-pass
+    '''    public void cancelYesNOMessage(final String message)
+    '''
 def timerIsActive():
-'''public void timerIsActive()
-'''
-pass
+    '''    public void timerIsActive()
+    '''
 def toIncludeTaskLabTrans():
-'''public int toIncludeTaskLabTrans()
-'''
-pass
+    '''    public int toIncludeTaskLabTrans()
+    '''

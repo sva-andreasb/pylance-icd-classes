@@ -1,8 +1,6 @@
 def AutocommitCounter():
-'''public AutocommitCounter(final int countTo)
-'''
-pass
+    '''    public AutocommitCounter(final int countTo)
+    '''
 def checkCounter():
-'''public void checkCounter(final DBShortcut dbShortcut)
-'''
-pass
+    '''    public void checkCounter(final DBShortcut dbShortcut)
+    '''

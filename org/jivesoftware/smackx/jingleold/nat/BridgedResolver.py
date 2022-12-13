@@ -1,20 +1,15 @@
 def BridgedResolver():
-'''public BridgedResolver(final XMPPConnection connection)
-'''
-pass
+    '''    public BridgedResolver(final XMPPConnection connection)
+    '''
 def resolve():
-'''public synchronized void resolve(final JingleSession session)
-'''
-pass
+    '''    public synchronized void resolve(final JingleSession session)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''
 def getLocalHost():
-'''public static String getLocalHost()
-'''
-pass
+    '''    public static String getLocalHost()
+    '''

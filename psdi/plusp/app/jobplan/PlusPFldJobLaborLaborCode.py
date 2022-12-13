@@ -1,8 +1,6 @@
 def PlusPFldJobLaborLaborCode():
-'''public PlusPFldJobLaborLaborCode(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldJobLaborLaborCode(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

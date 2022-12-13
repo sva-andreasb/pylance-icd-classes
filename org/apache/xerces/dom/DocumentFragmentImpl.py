@@ -1,17 +1,13 @@
 def DocumentFragmentImpl():
-'''public DocumentFragmentImpl(final CoreDocumentImpl coreDocumentImpl)
-public DocumentFragmentImpl()
-'''
-pass
+    '''    public DocumentFragmentImpl(final CoreDocumentImpl coreDocumentImpl)
+    public DocumentFragmentImpl()
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''

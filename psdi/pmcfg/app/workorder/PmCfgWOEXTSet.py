@@ -1,4 +1,3 @@
 def PmCfgWOEXTSet():
-'''public PmCfgWOEXTSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmCfgWOEXTSet(final MboServerInterface ms)
+    '''

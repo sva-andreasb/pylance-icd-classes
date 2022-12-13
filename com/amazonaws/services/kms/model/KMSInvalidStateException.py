@@ -1,4 +1,3 @@
 def KMSInvalidStateException():
-'''public KMSInvalidStateException(final String message)
-'''
-pass
+    '''    public KMSInvalidStateException(final String message)
+    '''

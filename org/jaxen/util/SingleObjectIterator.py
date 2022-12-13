@@ -1,16 +1,12 @@
 def SingleObjectIterator():
-'''public SingleObjectIterator(final Object object)
-'''
-pass
+    '''    public SingleObjectIterator(final Object object)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

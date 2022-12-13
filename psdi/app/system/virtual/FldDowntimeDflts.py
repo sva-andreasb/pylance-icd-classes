@@ -1,8 +1,6 @@
 def FldDowntimeDflts():
-'''public FldDowntimeDflts(final MboValue mbv)
-'''
-pass
+    '''    public FldDowntimeDflts(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

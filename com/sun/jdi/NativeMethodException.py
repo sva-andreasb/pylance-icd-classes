@@ -1,5 +1,4 @@
 def NativeMethodException():
-'''public NativeMethodException()
-public NativeMethodException(final String message)
-'''
-pass
+    '''    public NativeMethodException()
+    public NativeMethodException(final String message)
+    '''

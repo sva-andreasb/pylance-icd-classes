@@ -1,9 +1,7 @@
 def SignalFileBasedOmemoStore():
-'''public SignalFileBasedOmemoStore()
-public SignalFileBasedOmemoStore(final File base)
-'''
-pass
+    '''    public SignalFileBasedOmemoStore()
+    public SignalFileBasedOmemoStore(final File base)
+    '''
 def keyUtil():
-'''public OmemoKeyUtil<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> keyUtil()
-'''
-pass
+    '''    public OmemoKeyUtil<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> keyUtil()
+    '''

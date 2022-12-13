@@ -1,75 +1,57 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def asUnescapedString():
-'''public String asUnescapedString()
-'''
-pass
+    '''    public String asUnescapedString()
+    '''
 def asEntityBareJid():
-'''public EntityBareJid asEntityBareJid()
-'''
-pass
+    '''    public EntityBareJid asEntityBareJid()
+    '''
 def asEntityBareJidString():
-'''public String asEntityBareJidString()
-'''
-pass
+    '''    public String asEntityBareJidString()
+    '''
 def hasNoResource():
-'''public boolean hasNoResource()
-'''
-pass
+    '''    public boolean hasNoResource()
+    '''
 def asEntityBareJidIfPossible():
-'''public EntityBareJid asEntityBareJidIfPossible()
-'''
-pass
+    '''    public EntityBareJid asEntityBareJidIfPossible()
+    '''
 def asEntityFullJidIfPossible():
-'''public EntityFullJid asEntityFullJidIfPossible()
-'''
-pass
+    '''    public EntityFullJid asEntityFullJidIfPossible()
+    '''
 def asDomainFullJidIfPossible():
-'''public DomainFullJid asDomainFullJidIfPossible()
-'''
-pass
+    '''    public DomainFullJid asDomainFullJidIfPossible()
+    '''
 def getLocalpartOrNull():
-'''public Localpart getLocalpartOrNull()
-'''
-pass
+    '''    public Localpart getLocalpartOrNull()
+    '''
 def getResourceOrNull():
-'''public Resourcepart getResourceOrNull()
-'''
-pass
+    '''    public Resourcepart getResourceOrNull()
+    '''
 def isParentOf():
-'''public boolean isParentOf(final EntityBareJid bareJid)
-public boolean isParentOf(final EntityFullJid fullJid)
-public boolean isParentOf(final DomainBareJid domainBareJid)
-public boolean isParentOf(final DomainFullJid domainFullJid)
-'''
-pass
+    '''    public boolean isParentOf(final EntityBareJid bareJid)
+    public boolean isParentOf(final EntityFullJid fullJid)
+    public boolean isParentOf(final DomainBareJid domainBareJid)
+    public boolean isParentOf(final DomainFullJid domainFullJid)
+    '''
 def asDomainBareJid():
-'''public DomainBareJid asDomainBareJid()
-'''
-pass
+    '''    public DomainBareJid asDomainBareJid()
+    '''
 def getResourcepart():
-'''public Resourcepart getResourcepart()
-'''
-pass
+    '''    public Resourcepart getResourcepart()
+    '''
 def asBareJid():
-'''public BareJid asBareJid()
-'''
-pass
+    '''    public BareJid asBareJid()
+    '''
 def getDomain():
-'''public Domainpart getDomain()
-'''
-pass
+    '''    public Domainpart getDomain()
+    '''
 def getLocalpart():
-'''public Localpart getLocalpart()
-'''
-pass
+    '''    public Localpart getLocalpart()
+    '''
 def asEntityJidIfPossible():
-'''public EntityJid asEntityJidIfPossible()
-'''
-pass
+    '''    public EntityJid asEntityJidIfPossible()
+    '''
 def asFullJidIfPossible():
-'''public FullJid asFullJidIfPossible()
-'''
-pass
+    '''    public FullJid asFullJidIfPossible()
+    '''

@@ -1,8 +1,6 @@
 def AppUserPropCfg():
-'''public AppUserPropCfg(final MboSet ms)
-'''
-pass
+    '''    public AppUserPropCfg(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

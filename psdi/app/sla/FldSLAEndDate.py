@@ -1,8 +1,6 @@
 def FldSLAEndDate():
-'''public FldSLAEndDate(final MboValue mbv)
-'''
-pass
+    '''    public FldSLAEndDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

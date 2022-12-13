@@ -1,8 +1,6 @@
 def FldPersCommOrgID():
-'''public FldPersCommOrgID(final MboValue mbv)
-'''
-pass
+    '''    public FldPersCommOrgID(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,49 +1,37 @@
-AGREEMENT_STATUS_LIST = "String  PLUSPAGREESTATUS""
+AGREEMENT_STATUS_LIST = "String  \"PLUSPAGREESTATUS\""
 def PlusPAgreeStatusMbo():
-'''public PlusPAgreeStatusMbo(final MboSet ms)
-'''
-pass
+    '''    public PlusPAgreeStatusMbo(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String attributeName, final String val)
-'''
-pass
+    '''    public void propagateKeyValue(final String attributeName, final String val)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def toInternalAgreeStatus():
-'''public String toInternalAgreeStatus(final String value)
-'''
-pass
+    '''    public String toInternalAgreeStatus(final String value)
+    '''
 def toExternalAgreeStatus():
-'''public String toExternalAgreeStatus(final String value)
-'''
-pass
+    '''    public String toExternalAgreeStatus(final String value)
+    '''
 def validateStatus():
-'''public void validateStatus()
-'''
-pass
+    '''    public void validateStatus()
+    '''
 def isReadOnlyStatus():
-'''public boolean isReadOnlyStatus()
-'''
-pass
+    '''    public boolean isReadOnlyStatus()
+    '''
 def isRevision():
-'''public boolean isRevision()
-'''
-pass
+    '''    public boolean isRevision()
+    '''
 def setRevision():
-'''public void setRevision(final boolean isRevision)
-'''
-pass
+    '''    public void setRevision(final boolean isRevision)
+    '''

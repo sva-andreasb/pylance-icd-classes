@@ -1,12 +1,9 @@
 def TloamWORelease():
-'''public TloamWORelease(final MboSet ms)
-'''
-pass
+    '''    public TloamWORelease(final MboSet ms)
+    '''
 def isNewDuplicatedItem():
-'''public boolean isNewDuplicatedItem()
-'''
-pass
+    '''    public boolean isNewDuplicatedItem()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''

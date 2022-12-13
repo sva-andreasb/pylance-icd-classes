@@ -1,8 +1,6 @@
 def instantiatedatasrc():
-'''public void instantiatedatasrc()
-'''
-pass
+    '''    public void instantiatedatasrc()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''

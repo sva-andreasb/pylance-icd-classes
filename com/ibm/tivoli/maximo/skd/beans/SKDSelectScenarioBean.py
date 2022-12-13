@@ -1,4 +1,3 @@
 def skdcomparescenario():
-'''public int skdcomparescenario()
-'''
-pass
+    '''    public int skdcomparescenario()
+    '''

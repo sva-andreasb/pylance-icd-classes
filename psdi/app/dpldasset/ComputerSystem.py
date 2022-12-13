@@ -1,36 +1,27 @@
 def ComputerSystem():
-'''public ComputerSystem(final MboSet ms)
-'''
-pass
+    '''    public ComputerSystem(final MboSet ms)
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def getTop():
-'''public MboSetRemote getTop()
-'''
-pass
+    '''    public MboSetRemote getTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def getParents():
-'''public MboSetRemote getParents()
-'''
-pass
+    '''    public MboSetRemote getParents()
+    '''
 def getRootParent():
-'''public MboRemote getRootParent()
-'''
-pass
+    '''    public MboRemote getRootParent()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''

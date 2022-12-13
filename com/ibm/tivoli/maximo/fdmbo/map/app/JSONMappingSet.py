@@ -1,8 +1,6 @@
 def JSONMappingSet():
-'''public JSONMappingSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONMappingSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

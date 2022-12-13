@@ -1,38 +1,30 @@
 def TextWebSocketFrame():
-'''public TextWebSocketFrame()
-public TextWebSocketFrame(final String text)
-public TextWebSocketFrame(final ByteBuf binaryData)
-public TextWebSocketFrame(final boolean finalFragment, final int rsv, final String text)
-public TextWebSocketFrame(final boolean finalFragment, final int rsv, final ByteBuf binaryData)
-'''
-pass
+    '''    public TextWebSocketFrame()
+    public TextWebSocketFrame(final String text)
+    public TextWebSocketFrame(final ByteBuf binaryData)
+    public TextWebSocketFrame(final boolean finalFragment, final int rsv, final String text)
+    public TextWebSocketFrame(final boolean finalFragment, final int rsv, final ByteBuf binaryData)
+    '''
 def text():
-'''public String text()
-'''
-pass
+    '''    public String text()
+    '''
 def copy():
-'''public TextWebSocketFrame copy()
-'''
-pass
+    '''    public TextWebSocketFrame copy()
+    '''
 def duplicate():
-'''public TextWebSocketFrame duplicate()
-'''
-pass
+    '''    public TextWebSocketFrame duplicate()
+    '''
 def retainedDuplicate():
-'''public TextWebSocketFrame retainedDuplicate()
-'''
-pass
+    '''    public TextWebSocketFrame retainedDuplicate()
+    '''
 def replace():
-'''public TextWebSocketFrame replace(final ByteBuf content)
-'''
-pass
+    '''    public TextWebSocketFrame replace(final ByteBuf content)
+    '''
 def retain():
-'''public TextWebSocketFrame retain()
-public TextWebSocketFrame retain(final int increment)
-'''
-pass
+    '''    public TextWebSocketFrame retain()
+    public TextWebSocketFrame retain(final int increment)
+    '''
 def touch():
-'''public TextWebSocketFrame touch()
-public TextWebSocketFrame touch(final Object hint)
-'''
-pass
+    '''    public TextWebSocketFrame touch()
+    public TextWebSocketFrame touch(final Object hint)
+    '''

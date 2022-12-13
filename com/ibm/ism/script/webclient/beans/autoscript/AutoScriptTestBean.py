@@ -1,8 +1,6 @@
 def testrun():
-'''public int testrun()
-'''
-pass
+    '''    public int testrun()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

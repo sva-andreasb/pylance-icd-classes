@@ -1,20 +1,15 @@
 def PlusPAppliesToAsset():
-'''public PlusPAppliesToAsset(final MboSet set)
-'''
-pass
+    '''    public PlusPAppliesToAsset(final MboSet set)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def enableFields():
-'''public void enableFields(final String s)
-'''
-pass
+    '''    public void enableFields(final String s)
+    '''
 def setDescription():
-'''public void setDescription()
-'''
-pass
+    '''    public void setDescription()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

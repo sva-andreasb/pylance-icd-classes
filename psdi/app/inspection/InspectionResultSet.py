@@ -1,4 +1,3 @@
 def InspectionResultSet():
-'''public InspectionResultSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspectionResultSet(final MboServerInterface ms)
+    '''

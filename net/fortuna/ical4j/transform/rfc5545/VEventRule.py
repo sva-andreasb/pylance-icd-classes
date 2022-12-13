@@ -1,8 +1,6 @@
 def applyTo():
-'''public void applyTo(final VEvent element)
-'''
-pass
+    '''    public void applyTo(final VEvent element)
+    '''
 def getSupportedType():
-'''public Class<VEvent> getSupportedType()
-'''
-pass
+    '''    public Class<VEvent> getSupportedType()
+    '''

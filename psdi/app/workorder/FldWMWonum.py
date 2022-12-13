@@ -1,20 +1,15 @@
 def FldWMWonum():
-'''public FldWMWonum(final MboValue mbv)
-'''
-pass
+    '''    public FldWMWonum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String sourceObj, final String value, final boolean exact)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

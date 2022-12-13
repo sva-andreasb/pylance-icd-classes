@@ -1,4 +1,3 @@
 def SKDOPASCPSKpiSet():
-'''public SKDOPASCPSKpiSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDOPASCPSKpiSet(final MboServerInterface ms)
+    '''

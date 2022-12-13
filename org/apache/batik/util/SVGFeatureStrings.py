@@ -1,4 +1,3 @@
 def addSupportedFeatureStrings():
-'''public static void addSupportedFeatureStrings(final Set features)
-'''
-pass
+    '''    public static void addSupportedFeatureStrings(final Set features)
+    '''

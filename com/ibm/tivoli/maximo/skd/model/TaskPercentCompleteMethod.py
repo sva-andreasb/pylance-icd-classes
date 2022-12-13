@@ -1,8 +1,6 @@
 def TaskPercentCompleteMethod():
-'''public TaskPercentCompleteMethod()
-'''
-pass
+    '''    public TaskPercentCompleteMethod()
+    '''
 def updatePercentCompleteItem():
-'''public boolean updatePercentCompleteItem(final IMXActivity item)
-'''
-pass
+    '''    public boolean updatePercentCompleteItem(final IMXActivity item)
+    '''

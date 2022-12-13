@@ -1,12 +1,9 @@
 def getInstance():
-'''public static ResourceBasedPeriodFormatterDataService getInstance()
-'''
-pass
+    '''    public static ResourceBasedPeriodFormatterDataService getInstance()
+    '''
 def get():
-'''public PeriodFormatterData get(String localeName)
-'''
-pass
+    '''    public PeriodFormatterData get(String localeName)
+    '''
 def getAvailableLocales():
-'''public Collection<String> getAvailableLocales()
-'''
-pass
+    '''    public Collection<String> getAvailableLocales()
+    '''

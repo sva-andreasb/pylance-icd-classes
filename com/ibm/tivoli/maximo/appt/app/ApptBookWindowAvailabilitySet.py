@@ -1,4 +1,3 @@
 def ApptBookWindowAvailabilitySet():
-'''public ApptBookWindowAvailabilitySet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApptBookWindowAvailabilitySet(final MboServerInterface ms)
+    '''

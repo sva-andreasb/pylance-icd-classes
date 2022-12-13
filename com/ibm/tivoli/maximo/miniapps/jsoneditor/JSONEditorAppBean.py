@@ -1,48 +1,36 @@
 def getDataListener():
-'''public DataBeanListener getDataListener()
-'''
-pass
+    '''    public DataBeanListener getDataListener()
+    '''
 def JSONEditorAppBean():
-'''public JSONEditorAppBean()
-'''
-pass
+    '''    public JSONEditorAppBean()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def setJEUserLocaleData():
-'''public void setJEUserLocaleData(final JEUserLocaleData jeUserLocaleData)
-'''
-pass
+    '''    public void setJEUserLocaleData(final JEUserLocaleData jeUserLocaleData)
+    '''
 def setJSONMsg():
-'''public void setJSONMsg()
-'''
-pass
+    '''    public void setJSONMsg()
+    '''
 def getJEUserLocaleData():
-'''public JEUserLocaleData getJEUserLocaleData()
-'''
-pass
+    '''    public JEUserLocaleData getJEUserLocaleData()
+    '''
 def getJsonMsg():
-'''public JSONObject getJsonMsg()
-'''
-pass
+    '''    public JSONObject getJsonMsg()
+    '''
 def setJsonMsg():
-'''public void setJsonMsg(final JSONObject jsonMsg)
-'''
-pass
+    '''    public void setJsonMsg(final JSONObject jsonMsg)
+    '''
 def loadResource():
-'''public String loadResource(final String path)
-'''
-pass
+    '''    public String loadResource(final String path)
+    '''
 def filterCss():
-'''public String filterCss(String css, final MiniAppControl miniAppControl)
-'''
-pass
+    '''    public String filterCss(String css, final MiniAppControl miniAppControl)
+    '''
 def get_i18n_MaxMsg_label():
-'''public JSONObject get_i18n_MaxMsg_label()
-'''
-pass
+    '''    public JSONObject get_i18n_MaxMsg_label()
+    '''
 def getBaseImageUrl():
-'''public String getBaseImageUrl()
-'''
-pass
+    '''    public String getBaseImageUrl()
+    '''

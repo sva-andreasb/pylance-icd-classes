@@ -1,13 +1,10 @@
-FIELDNAME = "String PROBLEM""
+FIELDNAME = "String  \"PROBLEM\""
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def hasAttachment():
-'''public boolean hasAttachment()
-'''
-pass
+    '''    public boolean hasAttachment()
+    '''

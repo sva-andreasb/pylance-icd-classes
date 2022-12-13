@@ -1,40 +1,31 @@
 ANY_PORT = "int  -1"
 def AuthScope():
-'''public AuthScope(final String host, final int port, final String realm, final String scheme)
-public AuthScope(final String host, final int port, final String realm)
-public AuthScope(final String host, final int port)
-public AuthScope(final AuthScope authscope)
-'''
-pass
+    '''    public AuthScope(final String host, final int port, final String realm, final String scheme)
+    public AuthScope(final String host, final int port, final String realm)
+    public AuthScope(final String host, final int port)
+    public AuthScope(final AuthScope authscope)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getRealm():
-'''public String getRealm()
-'''
-pass
+    '''    public String getRealm()
+    '''
 def getScheme():
-'''public String getScheme()
-'''
-pass
+    '''    public String getScheme()
+    '''
 def match():
-'''public int match(final AuthScope that)
-'''
-pass
+    '''    public int match(final AuthScope that)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

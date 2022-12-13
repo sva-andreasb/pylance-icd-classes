@@ -1,16 +1,12 @@
 def MemberAuthenticatorImpl():
-'''public MemberAuthenticatorImpl(final CoreStackInfo csi)
-'''
-pass
+    '''    public MemberAuthenticatorImpl(final CoreStackInfo csi)
+    '''
 def setSharedSecret():
-'''public synchronized void setSharedSecret(final String updatedSecret)
-'''
-pass
+    '''    public synchronized void setSharedSecret(final String updatedSecret)
+    '''
 def getToken():
-'''public synchronized byte[] getToken(final String coreStackName, final String targetMemberName)
-'''
-pass
+    '''    public synchronized byte[] getToken(final String coreStackName, final String targetMemberName)
+    '''
 def authenticateMember():
-'''public synchronized boolean authenticateMember(final String coreStackName, final String senderName, final byte[] token, final InetAddress senderIp)
-'''
-pass
+    '''    public synchronized boolean authenticateMember(final String coreStackName, final String senderName, final byte[] token, final InetAddress senderIp)
+    '''

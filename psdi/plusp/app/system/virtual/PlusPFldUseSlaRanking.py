@@ -1,8 +1,6 @@
 def PlusPFldUseSlaRanking():
-'''public PlusPFldUseSlaRanking(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldUseSlaRanking(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

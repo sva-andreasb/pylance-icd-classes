@@ -1,8 +1,6 @@
 def Statuses_Public():
-'''public Statuses_Public()
-'''
-pass
+    '''    public Statuses_Public()
+    '''
 def getResult():
-'''public List<Status> getResult()
-'''
-pass
+    '''    public List<Status> getResult()
+    '''

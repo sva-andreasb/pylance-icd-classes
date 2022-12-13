@@ -1,60 +1,45 @@
 def getDesiredPassword():
-'''public String getDesiredPassword()
-'''
-pass
+    '''    public String getDesiredPassword()
+    '''
 def setDesiredPassword():
-'''public void setDesiredPassword(final String desiredPassword)
-'''
-pass
+    '''    public void setDesiredPassword(final String desiredPassword)
+    '''
 def isDesiredPasswordSpecified():
-'''public boolean isDesiredPasswordSpecified()
-'''
-pass
+    '''    public boolean isDesiredPasswordSpecified()
+    '''
 def unsetDesiredPassword():
-'''public void unsetDesiredPassword()
-'''
-pass
+    '''    public void unsetDesiredPassword()
+    '''
 def getDesiredProjectName():
-'''public String getDesiredProjectName()
-'''
-pass
+    '''    public String getDesiredProjectName()
+    '''
 def setDesiredProjectName():
-'''public void setDesiredProjectName(final String desiredProjectName)
-'''
-pass
+    '''    public void setDesiredProjectName(final String desiredProjectName)
+    '''
 def isDesiredProjectNameSpecified():
-'''public boolean isDesiredProjectNameSpecified()
-'''
-pass
+    '''    public boolean isDesiredProjectNameSpecified()
+    '''
 def unsetDesiredProjectName():
-'''public void unsetDesiredProjectName()
-'''
-pass
+    '''    public void unsetDesiredProjectName()
+    '''
 def getDesiredUsername():
-'''public String getDesiredUsername()
-'''
-pass
+    '''    public String getDesiredUsername()
+    '''
 def setDesiredUsername():
-'''public void setDesiredUsername(final String desiredUsername)
-'''
-pass
+    '''    public void setDesiredUsername(final String desiredUsername)
+    '''
 def isDesiredUsernameSpecified():
-'''public boolean isDesiredUsernameSpecified()
-'''
-pass
+    '''    public boolean isDesiredUsernameSpecified()
+    '''
 def unsetDesiredUsername():
-'''public void unsetDesiredUsername()
-'''
-pass
+    '''    public void unsetDesiredUsername()
+    '''
 def desiredPassword():
-'''public Mask desiredPassword()
-'''
-pass
+    '''    public Mask desiredPassword()
+    '''
 def desiredProjectName():
-'''public Mask desiredProjectName()
-'''
-pass
+    '''    public Mask desiredProjectName()
+    '''
 def desiredUsername():
-'''public Mask desiredUsername()
-'''
-pass
+    '''    public Mask desiredUsername()
+    '''

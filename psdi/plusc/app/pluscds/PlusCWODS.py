@@ -1,128 +1,96 @@
 def PlusCWODS():
-'''public PlusCWODS(final MboSet ms)
-'''
-pass
+    '''    public PlusCWODS(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getOwner():
-'''public MboRemote getOwner()
-'''
-pass
+    '''    public MboRemote getOwner()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setFailSynonymDSStatusSet():
-'''public void setFailSynonymDSStatusSet()
-'''
-pass
+    '''    public void setFailSynonymDSStatusSet()
+    '''
 def checkForBrokenSynonymDefaultAsFound():
-'''public boolean checkForBrokenSynonymDefaultAsFound()
-'''
-pass
+    '''    public boolean checkForBrokenSynonymDefaultAsFound()
+    '''
 def checkForBrokenSynonymDefaultAsLeft():
-'''public boolean checkForBrokenSynonymDefaultAsLeft()
-'''
-pass
+    '''    public boolean checkForBrokenSynonymDefaultAsLeft()
+    '''
 def setFailDSStatusSet():
-'''public void setFailDSStatusSet()
-'''
-pass
+    '''    public void setFailDSStatusSet()
+    '''
 def setPassDSStatusSet():
-'''public void setPassDSStatusSet()
-'''
-pass
+    '''    public void setPassDSStatusSet()
+    '''
 def setDSRowStatus():
-'''public void setDSRowStatus(final Set<String> afMap, final Set<String> alMap)
-'''
-pass
+    '''    public void setDSRowStatus(final Set<String> afMap, final Set<String> alMap)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def buildStatusMaps():
-'''public Set<String> buildStatusMaps(final Set<String> currentStatusSet, final int iStatusSet, final boolean bTolStatusDefined, final boolean bSkipAsFound, final boolean bSkipAsLeft, final String status1, final String status2, final String status3, final String status4)
-'''
-pass
+    '''    public Set<String> buildStatusMaps(final Set<String> currentStatusSet, final int iStatusSet, final boolean bTolStatusDefined, final boolean bSkipAsFound, final boolean bSkipAsLeft, final String status1, final String status2, final String status3, final String status4)
+    '''
 def isLoop():
-'''public boolean isLoop()
-'''
-pass
+    '''    public boolean isLoop()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def propagateKeyValueToRelatedMbos():
-'''public static void propagateKeyValueToRelatedMbos(final MboSetRemote msr, final String keyName, final String keyValue)
-'''
-pass
+    '''    public static void propagateKeyValueToRelatedMbos(final MboSetRemote msr, final String keyName, final String keyValue)
+    '''
 def setKeyValueInRelatedMboSetQuery():
-'''public static void setKeyValueInRelatedMboSetQuery(final MboSetRemote msr)
-'''
-pass
+    '''    public static void setKeyValueInRelatedMboSetQuery(final MboSetRemote msr)
+    '''
 def setReadOnlyFields():
-'''public void setReadOnlyFields()
-'''
-pass
+    '''    public void setReadOnlyFields()
+    '''
 def clearUncertaintyFields():
-'''public void clearUncertaintyFields()
-'''
-pass
+    '''    public void clearUncertaintyFields()
+    '''
 def isAddingToWO():
-'''public boolean isAddingToWO()
-'''
-pass
+    '''    public boolean isAddingToWO()
+    '''
 def setIsAddingToWO():
-'''public void setIsAddingToWO(final boolean setting)
-'''
-pass
+    '''    public void setIsAddingToWO(final boolean setting)
+    '''
 def isDeletingFromWO():
-'''public boolean isDeletingFromWO()
-'''
-pass
+    '''    public boolean isDeletingFromWO()
+    '''
 def setIsDeleteingFromWO():
-'''public void setIsDeleteingFromWO(final boolean setting)
-'''
-pass
+    '''    public void setIsDeleteingFromWO(final boolean setting)
+    '''
 def getMyInstrOwner():
-'''public MboRemote getMyInstrOwner()
-'''
-pass
+    '''    public MboRemote getMyInstrOwner()
+    '''
 def copyDStoWODS():
-'''public void copyDStoWODS()
-'''
-pass
+    '''    public void copyDStoWODS()
+    '''
 def validateDS():
-'''public void validateDS(final String dsNum, final String revNum)
-'''
-pass
+    '''    public void validateDS(final String dsNum, final String revNum)
+    '''
 def getBooleanWithDefault():
-'''public boolean getBooleanWithDefault(final String attribute, final boolean valueIfNull)
-'''
-pass
+    '''    public boolean getBooleanWithDefault(final String attribute, final boolean valueIfNull)
+    '''
 def setDSRequiredStatus():
-'''public void setDSRequiredStatus(final boolean cleared)
-'''
-pass
+    '''    public void setDSRequiredStatus(final boolean cleared)
+    '''
 def childHasChanged():
-'''public void childHasChanged()
-'''
-pass
+    '''    public void childHasChanged()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

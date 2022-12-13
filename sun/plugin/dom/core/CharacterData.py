@@ -1,52 +1,39 @@
 def getData():
-'''public String getData()
-'''
-pass
+    '''    public String getData()
+    '''
 def setData():
-'''public void setData(final String s)
-'''
-pass
+    '''    public void setData(final String s)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def substringData():
-'''public String substringData(final int value, final int value2)
-'''
-pass
+    '''    public String substringData(final int value, final int value2)
+    '''
 def appendData():
-'''public void appendData(final String s)
-'''
-pass
+    '''    public void appendData(final String s)
+    '''
 def insertData():
-'''public void insertData(final int value, final String s)
-'''
-pass
+    '''    public void insertData(final int value, final String s)
+    '''
 def deleteData():
-'''public void deleteData(final int value, final int value2)
-'''
-pass
+    '''    public void deleteData(final int value, final int value2)
+    '''
 def replaceData():
-'''public void replaceData(final int value, final int value2, final String s)
-'''
-pass
+    '''    public void replaceData(final int value, final int value2, final String s)
+    '''
 def getOwnerDocument():
-'''public Document getOwnerDocument()
-'''
-pass
+    '''    public Document getOwnerDocument()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String data)
-'''
-pass
+    '''    public void setNodeValue(final String data)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''

@@ -1,8 +1,6 @@
 def FastUUIDGen():
-'''public FastUUIDGen()
-'''
-pass
+    '''    public FastUUIDGen()
+    '''
 def nextUUID():
-'''public String nextUUID()
-'''
-pass
+    '''    public String nextUUID()
+    '''

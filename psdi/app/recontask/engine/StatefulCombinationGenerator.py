@@ -1,12 +1,9 @@
 def StatefulCombinationGenerator():
-'''public StatefulCombinationGenerator(final List[] tempListForAttach)
-'''
-pass
+    '''    public StatefulCombinationGenerator(final List[] tempListForAttach)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getNext():
-'''public int[] getNext()
-'''
-pass
+    '''    public int[] getNext()
+    '''

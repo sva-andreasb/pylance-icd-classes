@@ -1,8 +1,6 @@
 def F2I():
-'''public F2I()
-'''
-pass
+    '''    public F2I()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

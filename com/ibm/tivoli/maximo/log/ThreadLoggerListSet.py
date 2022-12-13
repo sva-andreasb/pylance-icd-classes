@@ -1,20 +1,15 @@
 def ThreadLoggerListSet():
-'''public ThreadLoggerListSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ThreadLoggerListSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def passValidationList():
-'''public HashSet<String> passValidationList()
-'''
-pass
+    '''    public HashSet<String> passValidationList()
+    '''
 def ThreadLoggerListEntries():
-'''public ThreadLoggerListEntries(final String contexname, final String description)
-'''
-pass
+    '''    public ThreadLoggerListEntries(final String contexname, final String description)
+    '''

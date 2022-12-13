@@ -1,36 +1,27 @@
 def getEmployee():
-'''public Employee getEmployee()
-'''
-pass
+    '''    public Employee getEmployee()
+    '''
 def setEmployee():
-'''public void setEmployee(final Employee employee)
-'''
-pass
+    '''    public void setEmployee(final Employee employee)
+    '''
 def getOrder():
-'''public Order getOrder()
-'''
-pass
+    '''    public Order getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final Order order)
-'''
-pass
+    '''    public void setOrder(final Order order)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''

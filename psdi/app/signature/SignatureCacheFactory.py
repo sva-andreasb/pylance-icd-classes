@@ -1,25 +1,19 @@
 def getInstance():
-'''public static SignatureCacheFactory getInstance()
-'''
-pass
+    '''    public static SignatureCacheFactory getInstance()
+    '''
 def SignatureCacheFactory():
-'''public SignatureCacheFactory()
-'''
-pass
+    '''    public SignatureCacheFactory()
+    '''
 def getCache():
-'''public MaximoCache getCache()
-'''
-pass
+    '''    public MaximoCache getCache()
+    '''
 def init():
-'''public void init()
-public void init(final MXServer mxs)
-'''
-pass
+    '''    public void init()
+    public void init(final MXServer mxs)
+    '''
 def reload():
-'''public void reload()
-'''
-pass
+    '''    public void reload()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

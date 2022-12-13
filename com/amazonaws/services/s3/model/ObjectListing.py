@@ -1,80 +1,60 @@
 def ObjectListing():
-'''public ObjectListing()
-'''
-pass
+    '''    public ObjectListing()
+    '''
 def getObjectSummaries():
-'''public List<S3ObjectSummary> getObjectSummaries()
-'''
-pass
+    '''    public List<S3ObjectSummary> getObjectSummaries()
+    '''
 def getCommonPrefixes():
-'''public List<String> getCommonPrefixes()
-'''
-pass
+    '''    public List<String> getCommonPrefixes()
+    '''
 def setCommonPrefixes():
-'''public void setCommonPrefixes(final List<String> commonPrefixes)
-'''
-pass
+    '''    public void setCommonPrefixes(final List<String> commonPrefixes)
+    '''
 def getNextMarker():
-'''public String getNextMarker()
-'''
-pass
+    '''    public String getNextMarker()
+    '''
 def setNextMarker():
-'''public void setNextMarker(final String nextMarker)
-'''
-pass
+    '''    public void setNextMarker(final String nextMarker)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def getMarker():
-'''public String getMarker()
-'''
-pass
+    '''    public String getMarker()
+    '''
 def setMarker():
-'''public void setMarker(final String marker)
-'''
-pass
+    '''    public void setMarker(final String marker)
+    '''
 def getMaxKeys():
-'''public int getMaxKeys()
-'''
-pass
+    '''    public int getMaxKeys()
+    '''
 def setMaxKeys():
-'''public void setMaxKeys(final int maxKeys)
-'''
-pass
+    '''    public void setMaxKeys(final int maxKeys)
+    '''
 def getDelimiter():
-'''public String getDelimiter()
-'''
-pass
+    '''    public String getDelimiter()
+    '''
 def setDelimiter():
-'''public void setDelimiter(final String delimiter)
-'''
-pass
+    '''    public void setDelimiter(final String delimiter)
+    '''
 def isTruncated():
-'''public boolean isTruncated()
-'''
-pass
+    '''    public boolean isTruncated()
+    '''
 def setTruncated():
-'''public void setTruncated(final boolean isTruncated)
-'''
-pass
+    '''    public void setTruncated(final boolean isTruncated)
+    '''
 def getEncodingType():
-'''public String getEncodingType()
-'''
-pass
+    '''    public String getEncodingType()
+    '''
 def setEncodingType():
-'''public void setEncodingType(final String encodingType)
-'''
-pass
+    '''    public void setEncodingType(final String encodingType)
+    '''

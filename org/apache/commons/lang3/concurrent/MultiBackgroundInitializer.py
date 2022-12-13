@@ -1,29 +1,22 @@
 def MultiBackgroundInitializer():
-'''public MultiBackgroundInitializer()
-public MultiBackgroundInitializer(final ExecutorService exec)
-'''
-pass
+    '''    public MultiBackgroundInitializer()
+    public MultiBackgroundInitializer(final ExecutorService exec)
+    '''
 def addInitializer():
-'''public void addInitializer(final String name, final BackgroundInitializer<?> init)
-'''
-pass
+    '''    public void addInitializer(final String name, final BackgroundInitializer<?> init)
+    '''
 def getResultObject():
-'''public Object getResultObject(final String name)
-'''
-pass
+    '''    public Object getResultObject(final String name)
+    '''
 def isException():
-'''public boolean isException(final String name)
-'''
-pass
+    '''    public boolean isException(final String name)
+    '''
 def getException():
-'''public ConcurrentException getException(final String name)
-'''
-pass
+    '''    public ConcurrentException getException(final String name)
+    '''
 def initializerNames():
-'''public Set<String> initializerNames()
-'''
-pass
+    '''    public Set<String> initializerNames()
+    '''
 def isSuccessful():
-'''public boolean isSuccessful()
-'''
-pass
+    '''    public boolean isSuccessful()
+    '''

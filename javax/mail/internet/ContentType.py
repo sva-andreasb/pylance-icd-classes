@@ -1,51 +1,39 @@
 def ContentType():
-'''public ContentType()
-public ContentType(final String s)
-public ContentType(final String primaryType, final String subType, final ParameterList list)
-'''
-pass
+    '''    public ContentType()
+    public ContentType(final String s)
+    public ContentType(final String primaryType, final String subType, final ParameterList list)
+    '''
 def getBaseType():
-'''public String getBaseType()
-'''
-pass
+    '''    public String getBaseType()
+    '''
 def getPrimaryType():
-'''public String getPrimaryType()
-'''
-pass
+    '''    public String getPrimaryType()
+    '''
 def getSubType():
-'''public String getSubType()
-'''
-pass
+    '''    public String getSubType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setPrimaryType():
-'''public void setPrimaryType(final String primaryType)
-'''
-pass
+    '''    public void setPrimaryType(final String primaryType)
+    '''
 def setSubType():
-'''public void setSubType(final String subType)
-'''
-pass
+    '''    public void setSubType(final String subType)
+    '''
 def match():
-'''public boolean match(final String s)
-public boolean match(final ContentType cType)
-'''
-pass
+    '''    public boolean match(final String s)
+    public boolean match(final ContentType cType)
+    '''
 def getParameterList():
-'''public ParameterList getParameterList()
-'''
-pass
+    '''    public ParameterList getParameterList()
+    '''
 def setParameterList():
-'''public void setParameterList(final ParameterList list)
-'''
-pass
+    '''    public void setParameterList(final ParameterList list)
+    '''
 def getParameter():
-'''public String getParameter(final String name)
-'''
-pass
+    '''    public String getParameter(final String name)
+    '''
 def setParameter():
-'''public void setParameter(final String name, final String value)
-'''
-pass
+    '''    public void setParameter(final String name, final String value)
+    '''

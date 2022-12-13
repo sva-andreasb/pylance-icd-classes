@@ -1,27 +1,21 @@
 def IlvVerticalGanttGrid():
-'''public IlvVerticalGanttGrid()
-'''
-pass
+    '''    public IlvVerticalGanttGrid()
+    '''
 def draw():
-'''public void draw(final Graphics graphics, final IlvGanttGridContext ilvGanttGridContext)
-'''
-pass
+    '''    public void draw(final Graphics graphics, final IlvGanttGridContext ilvGanttGridContext)
+    '''
 def getGridShapes():
-'''public Shape[] getGridShapes(final Graphics graphics, final boolean b, final IlvGanttGridContext ilvGanttGridContext)
-'''
-pass
+    '''    public Shape[] getGridShapes(final Graphics graphics, final boolean b, final IlvGanttGridContext ilvGanttGridContext)
+    '''
 def setCalendar():
-'''public void setCalendar(final Calendar a)
-'''
-pass
+    '''    public void setCalendar(final Calendar a)
+    '''
 def getCalendar():
-'''public Calendar getCalendar()
-public Calendar getCalendar(final Date time)
-public Calendar getCalendar(final ULocale c)
-public Calendar getCalendar(final ULocale uLocale, final Date time)
-'''
-pass
+    '''    public Calendar getCalendar()
+    public Calendar getCalendar(final Date time)
+    public Calendar getCalendar(final ULocale c)
+    public Calendar getCalendar(final ULocale uLocale, final Date time)
+    '''
 def createCalendar():
-'''public Calendar createCalendar(final ULocale uLocale)
-'''
-pass
+    '''    public Calendar createCalendar(final ULocale uLocale)
+    '''

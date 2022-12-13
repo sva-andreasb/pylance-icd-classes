@@ -1,85 +1,64 @@
 def RelationRuleInfo():
-'''public RelationRuleInfo(final String sourceClassID, final String relationNum, final String targetClassID)
-public RelationRuleInfo(final String sourceClassID, final String relationNum, final String targetClassID, final boolean containment, final String cardinality, final boolean propagatechange, final boolean imported, final boolean revrelationship, final boolean swapped)
-'''
-pass
+    '''    public RelationRuleInfo(final String sourceClassID, final String relationNum, final String targetClassID)
+    public RelationRuleInfo(final String sourceClassID, final String relationNum, final String targetClassID, final boolean containment, final String cardinality, final boolean propagatechange, final boolean imported, final boolean revrelationship, final boolean swapped)
+    '''
 def isContainment():
-'''public boolean isContainment()
-'''
-pass
+    '''    public boolean isContainment()
+    '''
 def setContainment():
-'''public void setContainment(final boolean containment)
-'''
-pass
+    '''    public void setContainment(final boolean containment)
+    '''
 def getCardinality():
-'''public String getCardinality()
-'''
-pass
+    '''    public String getCardinality()
+    '''
 def setCardinality():
-'''public void setCardinality(final String cardinality)
-'''
-pass
+    '''    public void setCardinality(final String cardinality)
+    '''
 def isPropagatechange():
-'''public boolean isPropagatechange()
-'''
-pass
+    '''    public boolean isPropagatechange()
+    '''
 def setPropagatechange():
-'''public void setPropagatechange(final boolean propagatechange)
-'''
-pass
+    '''    public void setPropagatechange(final boolean propagatechange)
+    '''
 def isImported():
-'''public boolean isImported()
-'''
-pass
+    '''    public boolean isImported()
+    '''
 def setImported():
-'''public void setImported(final boolean imported)
-'''
-pass
+    '''    public void setImported(final boolean imported)
+    '''
 def isRevrelationship():
-'''public boolean isRevrelationship()
-'''
-pass
+    '''    public boolean isRevrelationship()
+    '''
 def setRevrelationship():
-'''public void setRevrelationship(final boolean revrelationship)
-'''
-pass
+    '''    public void setRevrelationship(final boolean revrelationship)
+    '''
 def isSwapped():
-'''public boolean isSwapped()
-'''
-pass
+    '''    public boolean isSwapped()
+    '''
 def setSwapped():
-'''public void setSwapped(final boolean swapped)
-'''
-pass
+    '''    public void setSwapped(final boolean swapped)
+    '''
 def getSourceClassID():
-'''public String getSourceClassID()
-'''
-pass
+    '''    public String getSourceClassID()
+    '''
 def setSourceClassID():
-'''public void setSourceClassID(final String sourceClassID)
-'''
-pass
+    '''    public void setSourceClassID(final String sourceClassID)
+    '''
 def getRelationNum():
-'''public String getRelationNum()
-'''
-pass
+    '''    public String getRelationNum()
+    '''
 def setRelationNum():
-'''public void setRelationNum(final String relationNum)
-'''
-pass
+    '''    public void setRelationNum(final String relationNum)
+    '''
 def getTargetClassID():
-'''public String getTargetClassID()
-'''
-pass
+    '''    public String getTargetClassID()
+    '''
 def setTargetClassID():
-'''public void setTargetClassID(final String targetClassID)
-'''
-pass
+    '''    public void setTargetClassID(final String targetClassID)
+    '''
 def getNumRelations():
-'''public int getNumRelations()
-'''
-pass
+    '''    public int getNumRelations()
+    '''
 def setNumRelations():
-'''public void setNumRelations(final int numRelations)
-'''
-pass
+    '''    public void setNumRelations(final int numRelations)
+    '''

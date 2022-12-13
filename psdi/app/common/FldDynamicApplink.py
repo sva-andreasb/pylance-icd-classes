@@ -1,20 +1,15 @@
 def FldDynamicApplink():
-'''public FldDynamicApplink(final MboValue mbv)
-'''
-pass
+    '''    public FldDynamicApplink(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def setAppLinkObjectName():
-'''public String setAppLinkObjectName()
-'''
-pass
+    '''    public String setAppLinkObjectName()
+    '''
 def getAppLinkObjectName():
-'''public String getAppLinkObjectName()
-'''
-pass
+    '''    public String getAppLinkObjectName()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

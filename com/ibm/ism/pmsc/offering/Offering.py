@@ -1,122 +1,93 @@
-COPYRIGHT = "String IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
-DEFAULT_DIALOG_NO_ATTRS = "String defaultDialogNoAttributesCR""
-DEFAULT_DIALOG = "String defaultDialogCR""
-DEFAULT_DIALOG_SD_NO_ATTRS = "String defaultDialogNoAttributesCRsd""
-DEFAULT_DIALOG_SD = "String defaultDialogCRSD""
-DEFAULT_DIALOG_DESCRIPTIVE = "String descriptiveDialogCR""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
+DEFAULT_DIALOG_NO_ATTRS = "String  \"defaultDialogNoAttributesCR\""
+DEFAULT_DIALOG = "String  \"defaultDialogCR\""
+DEFAULT_DIALOG_SD_NO_ATTRS = "String  \"defaultDialogNoAttributesCRsd\""
+DEFAULT_DIALOG_SD = "String  \"defaultDialogCRSD\""
+DEFAULT_DIALOG_DESCRIPTIVE = "String  \"descriptiveDialogCR\""
 def Offering():
-'''public Offering(final MboSet ms)
-'''
-pass
+    '''    public Offering(final MboSet ms)
+    '''
 def setNumOfAttrs():
-'''public void setNumOfAttrs(final int numAttrs)
-'''
-pass
+    '''    public void setNumOfAttrs(final int numAttrs)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getFirstAuthorizedCatalog():
-'''public MboRemote getFirstAuthorizedCatalog()
-'''
-pass
+    '''    public MboRemote getFirstAuthorizedCatalog()
+    '''
 def addOffsToCat():
-'''public void addOffsToCat()
-'''
-pass
+    '''    public void addOffsToCat()
+    '''
 def addOffsToGroup():
-'''public void addOffsToGroup()
-'''
-pass
+    '''    public void addOffsToGroup()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def updateDesc():
-'''public void updateDesc()
-'''
-pass
+    '''    public void updateDesc()
+    '''
 def processItemSpecSet():
-'''public void processItemSpecSet()
-'''
-pass
+    '''    public void processItemSpecSet()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def isNewDuplicatedItem():
-'''public boolean isNewDuplicatedItem()
-'''
-pass
+    '''    public boolean isNewDuplicatedItem()
+    '''
 def setDefaultDialogPresentationID():
-'''public String setDefaultDialogPresentationID()
-'''
-pass
+    '''    public String setDefaultDialogPresentationID()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
+    '''
 def deleteAll():
-'''public void deleteAll()
-'''
-pass
+    '''    public void deleteAll()
+    '''
 def copyAttributesToDialog():
-'''public void copyAttributesToDialog()
-'''
-pass
+    '''    public void copyAttributesToDialog()
+    '''
 def copyOffAttrToMap():
-'''public void copyOffAttrToMap()
-'''
-pass
+    '''    public void copyOffAttrToMap()
+    '''
 def LIC():
-'''public boolean LIC()
-'''
-pass
+    '''    public boolean LIC()
+    '''
 def WF():
-'''public boolean WF()
-'''
-pass
+    '''    public boolean WF()
+    '''
 def isForDM_TARGET():
-'''public boolean isForDM_TARGET()
-'''
-pass
+    '''    public boolean isForDM_TARGET()
+    '''
 def setIsForDMTarget():
-'''public void setIsForDMTarget(final boolean isForDMTarget)
-'''
-pass
+    '''    public void setIsForDMTarget(final boolean isForDMTarget)
+    '''
 def setCopyAttrOnSave():
-'''public void setCopyAttrOnSave()
-'''
-pass
+    '''    public void setCopyAttrOnSave()
+    '''
 def checkCatalogMembership():
-'''public void checkCatalogMembership()
-'''
-pass
+    '''    public void checkCatalogMembership()
+    '''
 def checkForNullAttrDesc():
-'''public void checkForNullAttrDesc()
-'''
-pass
+    '''    public void checkForNullAttrDesc()
+    '''
 def checkForChangeUseWithRecord():
-'''public void checkForChangeUseWithRecord()
-'''
-pass
+    '''    public void checkForChangeUseWithRecord()
+    '''
 def isLotted():
-'''public boolean isLotted()
-'''
-pass
+    '''    public boolean isLotted()
+    '''
 def getOfferingPriceFromPriceBook():
-'''public OfferingPrice getOfferingPriceFromPriceBook()
-'''
-pass
+    '''    public OfferingPrice getOfferingPriceFromPriceBook()
+    '''

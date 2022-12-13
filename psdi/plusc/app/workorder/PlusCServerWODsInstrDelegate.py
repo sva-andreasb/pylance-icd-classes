@@ -1,8 +1,6 @@
 def PlusCServerWODsInstrDelegate():
-'''public PlusCServerWODsInstrDelegate(final MboAdapter mbo)
-'''
-pass
+    '''    public PlusCServerWODsInstrDelegate(final MboAdapter mbo)
+    '''
 def getWODsPointSet():
-'''public MboSetAdapter getWODsPointSet(final boolean fromMemory)
-'''
-pass
+    '''    public MboSetAdapter getWODsPointSet(final boolean fromMemory)
+    '''

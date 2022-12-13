@@ -1,16 +1,12 @@
 def ReportImportLibBean():
-'''public ReportImportLibBean()
-'''
-pass
+    '''    public ReportImportLibBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def showMessage():
-'''public int showMessage(final String eventID, final String applicationGroup, final String messageKey, final UserInfo uInfo)
-'''
-pass
+    '''    public int showMessage(final String eventID, final String applicationGroup, final String messageKey, final UserInfo uInfo)
+    '''

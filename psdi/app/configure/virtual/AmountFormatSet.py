@@ -1,8 +1,6 @@
 def AmountFormatSet():
-'''public AmountFormatSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AmountFormatSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

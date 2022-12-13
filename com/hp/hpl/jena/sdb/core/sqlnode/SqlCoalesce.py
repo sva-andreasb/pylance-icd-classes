@@ -1,44 +1,33 @@
 def create():
-'''public static SqlCoalesce create(final SDBRequest request, final String alias, final SqlJoin join, final Set<Var> coalesceVars)
-'''
-pass
+    '''    public static SqlCoalesce create(final SDBRequest request, final String alias, final SqlJoin join, final Set<Var> coalesceVars)
+    '''
 def getCoalesceVars():
-'''public Set<Var> getCoalesceVars()
-'''
-pass
+    '''    public Set<Var> getCoalesceVars()
+    '''
 def getNonCoalesceVars():
-'''public Set<Var> getNonCoalesceVars()
-'''
-pass
+    '''    public Set<Var> getNonCoalesceVars()
+    '''
 def isCoalesce():
-'''public boolean isCoalesce()
-'''
-pass
+    '''    public boolean isCoalesce()
+    '''
 def asCoalesce():
-'''public SqlCoalesce asCoalesce()
-'''
-pass
+    '''    public SqlCoalesce asCoalesce()
+    '''
 def getIdScope():
-'''public Scope getIdScope()
-'''
-pass
+    '''    public Scope getIdScope()
+    '''
 def getNodeScope():
-'''public Scope getNodeScope()
-'''
-pass
+    '''    public Scope getNodeScope()
+    '''
 def getJoinNode():
-'''public SqlJoin getJoinNode()
-'''
-pass
+    '''    public SqlJoin getJoinNode()
+    '''
 def visit():
-'''public void visit(final SqlNodeVisitor visitor)
-'''
-pass
+    '''    public void visit(final SqlNodeVisitor visitor)
+    '''
 def apply():
-'''public SqlNode apply(final SqlTransform transform, final SqlNode newSubNode)
-'''
-pass
+    '''    public SqlNode apply(final SqlTransform transform, final SqlNode newSubNode)
+    '''
 def copy():
-'''public SqlNode copy(final SqlNode subNode)
-'''
-pass
+    '''    public SqlNode copy(final SqlNode subNode)
+    '''

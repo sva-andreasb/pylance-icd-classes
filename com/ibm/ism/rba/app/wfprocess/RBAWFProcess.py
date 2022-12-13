@@ -1,68 +1,51 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def RBAWFProcess():
-'''public RBAWFProcess(final MboSet ms)
-'''
-pass
+    '''    public RBAWFProcess(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def createRevision():
-'''public MboRemote createRevision()
-'''
-pass
+    '''    public MboRemote createRevision()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def isLaunchOnDemandObject():
-'''public static boolean isLaunchOnDemandObject(final String objectName)
-'''
-pass
+    '''    public static boolean isLaunchOnDemandObject(final String objectName)
+    '''
 def getAppLink():
-'''public String[] getAppLink(final String objectName)
-'''
-pass
+    '''    public String[] getAppLink(final String objectName)
+    '''
 def createLaunchMbo():
-'''public MboRemote createLaunchMbo(final MboSetRemote mboSet, final String objectName)
-'''
-pass
+    '''    public MboRemote createLaunchMbo(final MboSetRemote mboSet, final String objectName)
+    '''
 def setLOD():
-'''public void setLOD()
-'''
-pass
+    '''    public void setLOD()
+    '''
 def clearLOD():
-'''public void clearLOD()
-'''
-pass
+    '''    public void clearLOD()
+    '''
 def needsAppForGoToInstance():
-'''public boolean needsAppForGoToInstance()
-'''
-pass
+    '''    public boolean needsAppForGoToInstance()
+    '''
 def setGoToInstance():
-'''public void setGoToInstance()
-'''
-pass
+    '''    public void setGoToInstance()
+    '''
 def clearGoToInstance():
-'''public void clearGoToInstance()
-'''
-pass
+    '''    public void clearGoToInstance()
+    '''
 def deactivateProcess():
-'''public void deactivateProcess()
-'''
-pass
+    '''    public void deactivateProcess()
+    '''
 def needAppSupport():
-'''public boolean needAppSupport()
-'''
-pass
+    '''    public boolean needAppSupport()
+    '''

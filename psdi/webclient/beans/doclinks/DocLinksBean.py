@@ -1,20 +1,15 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def isEmpty():
-'''public synchronized boolean isEmpty()
-'''
-pass
+    '''    public synchronized boolean isEmpty()
+    '''
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''

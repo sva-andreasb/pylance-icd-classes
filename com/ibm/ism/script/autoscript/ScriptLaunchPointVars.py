@@ -1,24 +1,18 @@
 def ScriptLaunchPointVars():
-'''public ScriptLaunchPointVars(final MboSet ms)
-'''
-pass
+    '''    public ScriptLaunchPointVars(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getAutoScriptVar():
-'''public MboRemote getAutoScriptVar()
-'''
-pass
+    '''    public MboRemote getAutoScriptVar()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

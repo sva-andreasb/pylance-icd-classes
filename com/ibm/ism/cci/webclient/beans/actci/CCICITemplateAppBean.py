@@ -1,4 +1,3 @@
 def VALIDATE():
-'''public int VALIDATE()
-'''
-pass
+    '''    public int VALIDATE()
+    '''

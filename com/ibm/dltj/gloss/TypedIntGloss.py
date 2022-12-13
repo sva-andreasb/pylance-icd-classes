@@ -1,37 +1,28 @@
 def TypedIntGloss():
-'''public TypedIntGloss()
-public TypedIntGloss(final StringGloss stringGloss, final int value, final int n)
-'''
-pass
+    '''    public TypedIntGloss()
+    public TypedIntGloss(final StringGloss stringGloss, final int value, final int n)
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def setValue():
-'''public void setValue(final int value)
-'''
-pass
+    '''    public void setValue(final int value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,16 +1,12 @@
 def MaxExtCtlVal():
-'''public MaxExtCtlVal(final MboSet ms)
-'''
-pass
+    '''    public MaxExtCtlVal(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

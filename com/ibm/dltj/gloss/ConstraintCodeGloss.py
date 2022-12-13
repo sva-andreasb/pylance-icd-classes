@@ -1,33 +1,25 @@
 def ConstraintCodeGloss():
-'''public ConstraintCodeGloss()
-public ConstraintCodeGloss(final char code)
-'''
-pass
+    '''    public ConstraintCodeGloss()
+    public ConstraintCodeGloss(final char code)
+    '''
 def getCode():
-'''public char getCode()
-'''
-pass
+    '''    public char getCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def compare():
-'''public int compare(final SKDActionInfo o1, final SKDActionInfo o2)
-'''
-pass
+    '''    public int compare(final SKDActionInfo o1, final SKDActionInfo o2)
+    '''

@@ -1,12 +1,9 @@
 def FldFilterOperator():
-'''public FldFilterOperator(final MboValue mbv)
-'''
-pass
+    '''    public FldFilterOperator(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

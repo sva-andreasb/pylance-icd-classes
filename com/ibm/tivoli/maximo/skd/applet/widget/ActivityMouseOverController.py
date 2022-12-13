@@ -1,8 +1,6 @@
 def ActivityMouseOverController():
-'''public ActivityMouseOverController(final IlvGanttSheet sheet, final ActivityListener listener)
-'''
-pass
+    '''    public ActivityMouseOverController(final IlvGanttSheet sheet, final ActivityListener listener)
+    '''
 def mouseMoved():
-'''public void mouseMoved(final MouseEvent e)
-'''
-pass
+    '''    public void mouseMoved(final MouseEvent e)
+    '''

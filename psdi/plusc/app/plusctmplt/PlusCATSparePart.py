@@ -1,16 +1,12 @@
 def PlusCATSparePart():
-'''public PlusCATSparePart(final MboSet ms)
-'''
-pass
+    '''    public PlusCATSparePart(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def getAssetTemplateMboSetInfo():
-'''public MboSetInfo getAssetTemplateMboSetInfo()
-'''
-pass
+    '''    public MboSetInfo getAssetTemplateMboSetInfo()
+    '''

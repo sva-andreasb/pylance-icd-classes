@@ -1,20 +1,15 @@
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''
 def increment():
-'''public int increment()
-'''
-pass
+    '''    public int increment()
+    '''
 def decrement():
-'''public int decrement()
-'''
-pass
+    '''    public int decrement()
+    '''
 def getUpperLimit():
-'''public String getUpperLimit()
-'''
-pass
+    '''    public String getUpperLimit()
+    '''
 def getLowerLimit():
-'''public String getLowerLimit()
-'''
-pass
+    '''    public String getLowerLimit()
+    '''

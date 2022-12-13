@@ -1,9 +1,7 @@
 def PlusPFldWOTotalPending():
-'''public PlusPFldWOTotalPending()
-public PlusPFldWOTotalPending(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldWOTotalPending()
+    public PlusPFldWOTotalPending(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

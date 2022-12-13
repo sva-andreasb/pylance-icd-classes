@@ -1,12 +1,9 @@
 def nameType():
-'''public GenericNameType nameType()
-'''
-pass
+    '''    public GenericNameType nameType()
+    '''
 def tzID():
-'''public String tzID()
-'''
-pass
+    '''    public String tzID()
+    '''
 def matchLength():
-'''public int matchLength()
-'''
-pass
+    '''    public int matchLength()
+    '''

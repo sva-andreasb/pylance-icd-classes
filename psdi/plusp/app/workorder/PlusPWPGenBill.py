@@ -1,32 +1,24 @@
 def PlusPWPGenBill():
-'''public PlusPWPGenBill(final MboSet ms)
-'''
-pass
+    '''    public PlusPWPGenBill(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''
 def setWONumIfAssociatedWithTask():
-'''public void setWONumIfAssociatedWithTask()
-'''
-pass
+    '''    public void setWONumIfAssociatedWithTask()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def initValues():
-'''public void initValues()
-'''
-pass
+    '''    public void initValues()
+    '''
 def copy():
-'''public MboRemote copy()
-'''
-pass
+    '''    public MboRemote copy()
+    '''

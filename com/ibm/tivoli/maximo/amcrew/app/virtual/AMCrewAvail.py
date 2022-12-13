@@ -1,40 +1,30 @@
 def AMCrewAvail():
-'''public AMCrewAvail(final MboSet ms)
-'''
-pass
+    '''    public AMCrewAvail(final MboSet ms)
+    '''
 def setAvailPeriodMbo():
-'''public void setAvailPeriodMbo(final MboRemote availPeriodMbo)
-'''
-pass
+    '''    public void setAvailPeriodMbo(final MboRemote availPeriodMbo)
+    '''
 def getAvailPeriodMbo():
-'''public MboRemote getAvailPeriodMbo()
-'''
-pass
+    '''    public MboRemote getAvailPeriodMbo()
+    '''
 def setupFields():
-'''public void setupFields(final GregorianCalendar startCal, final MboRemote crew)
-'''
-pass
+    '''    public void setupFields(final GregorianCalendar startCal, final MboRemote crew)
+    '''
 def modifiedAvailability():
-'''public boolean modifiedAvailability()
-'''
-pass
+    '''    public boolean modifiedAvailability()
+    '''
 def saveModifiedAvailability():
-'''public void saveModifiedAvailability()
-'''
-pass
+    '''    public void saveModifiedAvailability()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

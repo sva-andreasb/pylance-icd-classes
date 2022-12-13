@@ -1,16 +1,12 @@
 def getComponentType():
-'''public String getComponentType()
-'''
-pass
+    '''    public String getComponentType()
+    '''
 def getRendererType():
-'''public String getRendererType()
-'''
-pass
+    '''    public String getRendererType()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String a)
-'''
-pass
+    '''    public void setValue(final String a)
+    '''

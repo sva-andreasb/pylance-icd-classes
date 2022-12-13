@@ -1,22 +1,17 @@
 sid = "short  253"
 def LabelSSTRecord():
-'''public LabelSSTRecord()
-public LabelSSTRecord(final RecordInputStream in)
-'''
-pass
+    '''    public LabelSSTRecord()
+    public LabelSSTRecord(final RecordInputStream in)
+    '''
 def setSSTIndex():
-'''public void setSSTIndex(final int index)
-'''
-pass
+    '''    public void setSSTIndex(final int index)
+    '''
 def getSSTIndex():
-'''public int getSSTIndex()
-'''
-pass
+    '''    public int getSSTIndex()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public LabelSSTRecord clone()
-'''
-pass
+    '''    public LabelSSTRecord clone()
+    '''

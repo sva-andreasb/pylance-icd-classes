@@ -1,4 +1,3 @@
 def MXGenericException():
-'''public MXGenericException(final String eg, final String ek)
-'''
-pass
+    '''    public MXGenericException(final String eg, final String ek)
+    '''

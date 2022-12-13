@@ -1,116 +1,87 @@
 def getFormReaderContext():
-'''public IlvFormReaderContext getFormReaderContext()
-'''
-pass
+    '''    public IlvFormReaderContext getFormReaderContext()
+    '''
 def setFormReaderContext():
-'''public void setFormReaderContext(final IlvFormReaderContext h)
-'''
-pass
+    '''    public void setFormReaderContext(final IlvFormReaderContext h)
+    '''
 def getParent():
-'''public AbstractControlNode getParent()
-'''
-pass
+    '''    public AbstractControlNode getParent()
+    '''
 def setParent():
-'''public void setParent(final AbstractControlNode a)
-'''
-pass
+    '''    public void setParent(final AbstractControlNode a)
+    '''
 def addChild():
-'''public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
-'''
-pass
+    '''    public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
+    '''
 def removeChild():
-'''public boolean removeChild(final AbstractControlNode abstractControlNode)
-'''
-pass
+    '''    public boolean removeChild(final AbstractControlNode abstractControlNode)
+    '''
 def getControlNode():
-'''public AbstractControlNode getControlNode(final int n)
-'''
-pass
+    '''    public AbstractControlNode getControlNode(final int n)
+    '''
 def getControlNodeCount():
-'''public int getControlNodeCount()
-'''
-pass
+    '''    public int getControlNodeCount()
+    '''
 def putProperty():
-'''public void putProperty(final String s, final Object o, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void putProperty(final String s, final Object o, final IlvServicesProvider ilvServicesProvider)
+    '''
 def getProperty():
-'''public Object getProperty(final String s)
-'''
-pass
+    '''    public Object getProperty(final String s)
+    '''
 def putPropertyAsText():
-'''public void putPropertyAsText(final String s, final String s2, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void putPropertyAsText(final String s, final String s2, final IlvServicesProvider ilvServicesProvider)
+    '''
 def getPropertyAsText():
-'''public String getPropertyAsText(final String s)
-'''
-pass
+    '''    public String getPropertyAsText(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String c)
-'''
-pass
+    '''    public void setName(final String c)
+    '''
 def createControl():
-'''public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
-'''
-pass
+    '''    public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
+    '''
 def getForm():
-'''public IlvForm getForm()
-'''
-pass
+    '''    public IlvForm getForm()
+    '''
 def setForm():
-'''public void setForm(final IlvForm f)
-'''
-pass
+    '''    public void setForm(final IlvForm f)
+    '''
 def getServicesProvider():
-'''public IlvServicesProvider getServicesProvider()
-'''
-pass
+    '''    public IlvServicesProvider getServicesProvider()
+    '''
 def addControlListener():
-'''public void addControlListener(final Class clazz, final ControlListener controlListener)
-'''
-pass
+    '''    public void addControlListener(final Class clazz, final ControlListener controlListener)
+    '''
 def removeControlListener():
-'''public void removeControlListener(final Class clazz, final ControlListener controlListener)
-'''
-pass
+    '''    public void removeControlListener(final Class clazz, final ControlListener controlListener)
+    '''
 def getAssociatedLabel():
-'''public Object getAssociatedLabel()
-'''
-pass
+    '''    public Object getAssociatedLabel()
+    '''
 def setAssociatedLabel():
-'''public void setAssociatedLabel(final Object g)
-'''
-pass
+    '''    public void setAssociatedLabel(final Object g)
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean b)
-'''
-pass
+    '''    public void setEnabled(final boolean b)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def putLocalizedProperty():
-'''public void putLocalizedProperty(final String key, final Object value)
-'''
-pass
+    '''    public void putLocalizedProperty(final String key, final Object value)
+    '''
 def localeChanged():
-'''public void localeChanged(final Locale locale)
-'''
-pass
+    '''    public void localeChanged(final Locale locale)
+    '''
 def getFormServices():
-'''public IlvServicesProvider getFormServices()
-'''
-pass
+    '''    public IlvServicesProvider getFormServices()
+    '''
 def GetBoolean():
-'''public static boolean GetBoolean(final Object o, final boolean b)
-'''
-pass
+    '''    public static boolean GetBoolean(final Object o, final boolean b)
+    '''
 def GetInt():
-'''public static int GetInt(final Object o, final int n)
-'''
-pass
+    '''    public static int GetInt(final Object o, final int n)
+    '''

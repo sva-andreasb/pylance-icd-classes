@@ -1,72 +1,54 @@
 def ClassificationBean():
-'''public ClassificationBean()
-'''
-pass
+    '''    public ClassificationBean()
+    '''
 def updateClassstructure():
-'''public void updateClassstructure(final String hierarchypath)
-'''
-pass
+    '''    public void updateClassstructure(final String hierarchypath)
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def getQbe():
-'''public synchronized String getQbe(final String attribute)
-'''
-pass
+    '''    public synchronized String getQbe(final String attribute)
+    '''
 def defaultExec():
-'''public int defaultExec()
-'''
-pass
+    '''    public int defaultExec()
+    '''
 def checkQuery():
-'''public void checkQuery(final DataBean results)
-'''
-pass
+    '''    public void checkQuery(final DataBean results)
+    '''
 def setQbeAttributes():
-'''public synchronized void setQbeAttributes(final Hashtable newQbeAttributes)
-'''
-pass
+    '''    public synchronized void setQbeAttributes(final Hashtable newQbeAttributes)
+    '''
 def clearqryandfld():
-'''public int clearqryandfld()
-'''
-pass
+    '''    public int clearqryandfld()
+    '''
 def clearqryandfldExec():
-'''public int clearqryandfldExec()
-'''
-pass
+    '''    public int clearqryandfldExec()
+    '''
 def clearfield():
-'''public int clearfield()
-'''
-pass
+    '''    public int clearfield()
+    '''
 def clearfieldExec():
-'''public int clearfieldExec()
-'''
-pass
+    '''    public int clearfieldExec()
+    '''
 def restoredefaultqry():
-'''public int restoredefaultqry()
-'''
-pass
+    '''    public int restoredefaultqry()
+    '''
 def restoredefaultqryExec():
-'''public int restoredefaultqryExec()
-'''
-pass
+    '''    public int restoredefaultqryExec()
+    '''
 def qbeclear():
-'''public int qbeclear()
-'''
-pass
+    '''    public int qbeclear()
+    '''
 def qbeclearExec():
-'''public int qbeclearExec()
-'''
-pass
+    '''    public int qbeclearExec()
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    '''
 def setSelectedClassMbo():
-'''public void setSelectedClassMbo(final MboRemote selectedMbo)
-'''
-pass
+    '''    public void setSelectedClassMbo(final MboRemote selectedMbo)
+    '''
 def qbecancel():
-'''public int qbecancel()
-'''
-pass
+    '''    public int qbecancel()
+    '''

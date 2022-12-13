@@ -1,144 +1,108 @@
 def MosDetailInfo():
-'''public MosDetailInfo(final String intObectName)
-'''
-pass
+    '''    public MosDetailInfo(final String intObectName)
+    '''
 def setIfaceTbKey():
-'''public void setIfaceTbKey(final IfaceTbKey ifaceTbKey)
-'''
-pass
+    '''    public void setIfaceTbKey(final IfaceTbKey ifaceTbKey)
+    '''
 def getIfaceTbKey():
-'''public IfaceTbKey getIfaceTbKey()
-'''
-pass
+    '''    public IfaceTbKey getIfaceTbKey()
+    '''
 def setIfaceTbExclusiveCols():
-'''public void setIfaceTbExclusiveCols(final List<IfaceColumnInfo> ifaceTbExclusiveCols)
-'''
-pass
+    '''    public void setIfaceTbExclusiveCols(final List<IfaceColumnInfo> ifaceTbExclusiveCols)
+    '''
 def getIfaceTbExclusiveCols():
-'''public List<IfaceColumnInfo> getIfaceTbExclusiveCols()
-'''
-pass
+    '''    public List<IfaceColumnInfo> getIfaceTbExclusiveCols()
+    '''
 def getIntObjectName():
-'''public String getIntObjectName()
-'''
-pass
+    '''    public String getIntObjectName()
+    '''
 def getObjectOrder():
-'''public int getObjectOrder()
-'''
-pass
+    '''    public int getObjectOrder()
+    '''
 def isPrimaryTable():
-'''public boolean isPrimaryTable()
-'''
-pass
+    '''    public boolean isPrimaryTable()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getObjectId():
-'''public int getObjectId()
-'''
-pass
+    '''    public int getObjectId()
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def getChildren():
-'''public List<MosDetailInfo> getChildren()
-'''
-pass
+    '''    public List<MosDetailInfo> getChildren()
+    '''
 def getParentObjName():
-'''public String getParentObjName()
-'''
-pass
+    '''    public String getParentObjName()
+    '''
 def getParentObjId():
-'''public int getParentObjId()
-'''
-pass
+    '''    public int getParentObjId()
+    '''
 def getObjectPath():
-'''public String getObjectPath()
-'''
-pass
+    '''    public String getObjectPath()
+    '''
 def getParentInfo():
-'''public MosDetailInfo getParentInfo()
-'''
-pass
+    '''    public MosDetailInfo getParentInfo()
+    '''
 def getMosInfo():
-'''public MosInfo getMosInfo()
-'''
-pass
+    '''    public MosInfo getMosInfo()
+    '''
 def getProcessOrder():
-'''public int getProcessOrder()
-'''
-pass
+    '''    public int getProcessOrder()
+    '''
 def getColumns():
-'''public Map<String, IfaceColumnInfo> getColumns()
-'''
-pass
+    '''    public Map<String, IfaceColumnInfo> getColumns()
+    '''
 def getKeyInfoMap():
-'''public Map<String, IfaceColumnInfo> getKeyInfoMap()
-'''
-pass
+    '''    public Map<String, IfaceColumnInfo> getKeyInfoMap()
+    '''
 def isAltKey():
-'''public boolean isAltKey(final String key)
-'''
-pass
+    '''    public boolean isAltKey(final String key)
+    '''
 def getAltKeys():
-'''public String[] getAltKeys()
-'''
-pass
+    '''    public String[] getAltKeys()
+    '''
 def getKeys():
-'''public String[] getKeys()
-'''
-pass
+    '''    public String[] getKeys()
+    '''
 def getSortedKeyList():
-'''public List<MboValueInfo> getSortedKeyList()
-'''
-pass
+    '''    public List<MboValueInfo> getSortedKeyList()
+    '''
 def getResponseKeys():
-'''public String[] getResponseKeys()
-'''
-pass
+    '''    public String[] getResponseKeys()
+    '''
 def getAutokeyCols():
-'''public List<String> getAutokeyCols()
-'''
-pass
+    '''    public List<String> getAutokeyCols()
+    '''
 def isExcludeParentKey():
-'''public boolean isExcludeParentKey()
-'''
-pass
+    '''    public boolean isExcludeParentKey()
+    '''
 def isDeleteOnParentCreate():
-'''public boolean isDeleteOnParentCreate()
-'''
-pass
+    '''    public boolean isDeleteOnParentCreate()
+    '''
 def propagateEvent():
-'''public boolean propagateEvent()
-'''
-pass
+    '''    public boolean propagateEvent()
+    '''
 def getFederatedResources():
-'''public String getFederatedResources()
-'''
-pass
+    '''    public String getFederatedResources()
+    '''
 def invokeExecute():
-'''public boolean invokeExecute()
-'''
-pass
+    '''    public boolean invokeExecute()
+    '''
 def skipKeys():
-'''public boolean skipKeys()
-'''
-pass
+    '''    public boolean skipKeys()
+    '''
 def isExcludeByDefault():
-'''public boolean isExcludeByDefault()
-'''
-pass
+    '''    public boolean isExcludeByDefault()
+    '''
 def skipDeleteOnReplace():
-'''public boolean skipDeleteOnReplace()
-'''
-pass
+    '''    public boolean skipDeleteOnReplace()
+    '''
 def getLicenseKeys():
-'''public Set<String> getLicenseKeys()
-'''
-pass
+    '''    public Set<String> getLicenseKeys()
+    '''
 def setLicenseKeys():
-'''public void setLicenseKeys(final Set<String> licenseKeys)
-'''
-pass
+    '''    public void setLicenseKeys(final Set<String> licenseKeys)
+    '''

@@ -1,4 +1,3 @@
 def DPANetPrinterSet():
-'''public DPANetPrinterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DPANetPrinterSet(final MboServerInterface ms)
+    '''

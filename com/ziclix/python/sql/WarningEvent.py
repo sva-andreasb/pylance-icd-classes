@@ -1,8 +1,6 @@
 def WarningEvent():
-'''public WarningEvent(final Object source, final SQLWarning warning)
-'''
-pass
+    '''    public WarningEvent(final Object source, final SQLWarning warning)
+    '''
 def getWarning():
-'''public SQLWarning getWarning()
-'''
-pass
+    '''    public SQLWarning getWarning()
+    '''

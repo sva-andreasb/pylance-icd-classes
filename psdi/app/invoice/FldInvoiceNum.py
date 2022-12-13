@@ -1,4 +1,3 @@
 def FldInvoiceNum():
-'''public FldInvoiceNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceNum(final MboValue mbv)
+    '''

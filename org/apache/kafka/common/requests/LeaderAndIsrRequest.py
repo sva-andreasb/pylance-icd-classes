@@ -1,49 +1,37 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def LeaderAndIsrRequest():
-'''public LeaderAndIsrRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public LeaderAndIsrRequest(final Struct struct, final short version)
+    '''
 def getErrorResponse():
-'''public LeaderAndIsrResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public LeaderAndIsrResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def controllerId():
-'''public int controllerId()
-'''
-pass
+    '''    public int controllerId()
+    '''
 def controllerEpoch():
-'''public int controllerEpoch()
-'''
-pass
+    '''    public int controllerEpoch()
+    '''
 def partitionStates():
-'''public Map<TopicPartition, PartitionState> partitionStates()
-'''
-pass
+    '''    public Map<TopicPartition, PartitionState> partitionStates()
+    '''
 def liveLeaders():
-'''public Set<Node> liveLeaders()
-'''
-pass
+    '''    public Set<Node> liveLeaders()
+    '''
 def parse():
-'''public static LeaderAndIsrRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static LeaderAndIsrRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder(final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Node> liveLeaders)
-'''
-pass
+    '''    public Builder(final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Node> liveLeaders)
+    '''
 def build():
-'''public LeaderAndIsrRequest build(final short version)
-'''
-pass
+    '''    public LeaderAndIsrRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def PartitionState():
-'''public PartitionState(final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final boolean isNew)
-'''
-pass
+    '''    public PartitionState(final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final boolean isNew)
+    '''

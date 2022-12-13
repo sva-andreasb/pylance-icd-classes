@@ -1,36 +1,27 @@
 def ReadOnlyTableModel():
-'''public ReadOnlyTableModel(final TableModel model)
-'''
-pass
+    '''    public ReadOnlyTableModel(final TableModel model)
+    '''
 def getRowCount():
-'''public int getRowCount()
-'''
-pass
+    '''    public int getRowCount()
+    '''
 def getColumnCount():
-'''public int getColumnCount()
-'''
-pass
+    '''    public int getColumnCount()
+    '''
 def getColumnName():
-'''public String getColumnName(final int columnIndex)
-'''
-pass
+    '''    public String getColumnName(final int columnIndex)
+    '''
 def isCellEditable():
-'''public boolean isCellEditable(final int rowIndex, final int columnIndex)
-'''
-pass
+    '''    public boolean isCellEditable(final int rowIndex, final int columnIndex)
+    '''
 def getValueAt():
-'''public Object getValueAt(final int rowIndex, final int columnIndex)
-'''
-pass
+    '''    public Object getValueAt(final int rowIndex, final int columnIndex)
+    '''
 def setValueAt():
-'''public void setValueAt(final Object aValue, final int rowIndex, final int columnIndex)
-'''
-pass
+    '''    public void setValueAt(final Object aValue, final int rowIndex, final int columnIndex)
+    '''
 def addTableModelListener():
-'''public void addTableModelListener(final TableModelListener l)
-'''
-pass
+    '''    public void addTableModelListener(final TableModelListener l)
+    '''
 def removeTableModelListener():
-'''public void removeTableModelListener(final TableModelListener l)
-'''
-pass
+    '''    public void removeTableModelListener(final TableModelListener l)
+    '''

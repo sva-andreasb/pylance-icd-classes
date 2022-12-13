@@ -1,8 +1,6 @@
 def ProductInfo():
-'''public ProductInfo(final MboSet ms)
-'''
-pass
+    '''    public ProductInfo(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

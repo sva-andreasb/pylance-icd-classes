@@ -1,17 +1,13 @@
 def CopyStreamAdapter():
-'''public CopyStreamAdapter()
-'''
-pass
+    '''    public CopyStreamAdapter()
+    '''
 def bytesTransferred():
-'''public void bytesTransferred(final CopyStreamEvent event)
-public void bytesTransferred(final long totalBytesTransferred, final int bytesTransferred, final long streamSize)
-'''
-pass
+    '''    public void bytesTransferred(final CopyStreamEvent event)
+    public void bytesTransferred(final long totalBytesTransferred, final int bytesTransferred, final long streamSize)
+    '''
 def addCopyStreamListener():
-'''public void addCopyStreamListener(final CopyStreamListener listener)
-'''
-pass
+    '''    public void addCopyStreamListener(final CopyStreamListener listener)
+    '''
 def removeCopyStreamListener():
-'''public void removeCopyStreamListener(final CopyStreamListener listener)
-'''
-pass
+    '''    public void removeCopyStreamListener(final CopyStreamListener listener)
+    '''

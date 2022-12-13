@@ -1,20 +1,15 @@
 def EndpointInternalsPermission():
-'''public EndpointInternalsPermission()
-'''
-pass
+    '''    public EndpointInternalsPermission()
+    '''
 def getActions():
-'''public String getActions()
-'''
-pass
+    '''    public String getActions()
+    '''
 def implies():
-'''public boolean implies(final Permission permission)
-'''
-pass
+    '''    public boolean implies(final Permission permission)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

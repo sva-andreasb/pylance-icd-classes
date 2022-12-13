@@ -1,8 +1,6 @@
 def enabled():
-'''public static boolean enabled()
-'''
-pass
+    '''    public static boolean enabled()
+    '''
 def addTerminateHeader():
-'''public static void addTerminateHeader(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public static void addTerminateHeader(final HttpServletRequest request, final HttpServletResponse response)
+    '''

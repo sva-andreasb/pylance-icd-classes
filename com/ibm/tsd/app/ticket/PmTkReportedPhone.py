@@ -1,8 +1,6 @@
 def PmTkReportedPhone():
-'''public PmTkReportedPhone(final MboValue mbv)
-'''
-pass
+    '''    public PmTkReportedPhone(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

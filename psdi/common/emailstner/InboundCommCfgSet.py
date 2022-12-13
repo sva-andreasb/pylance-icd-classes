@@ -1,4 +1,3 @@
 def InboundCommCfgSet():
-'''public InboundCommCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InboundCommCfgSet(final MboServerInterface ms)
+    '''

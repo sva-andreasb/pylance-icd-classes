@@ -1,8 +1,6 @@
 def reloadTable():
-'''public void reloadTable()
-'''
-pass
+    '''    public void reloadTable()
+    '''
 def setCurrentRow():
-'''public synchronized boolean setCurrentRow(final int nRow)
-'''
-pass
+    '''    public synchronized boolean setCurrentRow(final int nRow)
+    '''

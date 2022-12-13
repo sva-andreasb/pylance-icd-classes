@@ -1,65 +1,49 @@
 def RemoteControllerData():
-'''public RemoteControllerData(final String origin, final int portSSH, final String privateKey, final String publicKey, final String ticketUID, final long timeToLive)
-public RemoteControllerData()
-'''
-pass
+    '''    public RemoteControllerData(final String origin, final int portSSH, final String privateKey, final String publicKey, final String ticketUID, final long timeToLive)
+    public RemoteControllerData()
+    '''
 def getOrigin():
-'''public String getOrigin()
-'''
-pass
+    '''    public String getOrigin()
+    '''
 def setOrigin():
-'''public void setOrigin(final String origin)
-'''
-pass
+    '''    public void setOrigin(final String origin)
+    '''
 def getTimeToLive():
-'''public long getTimeToLive()
-'''
-pass
+    '''    public long getTimeToLive()
+    '''
 def setTimeToLive():
-'''public void setTimeToLive(final long timeToLive)
-'''
-pass
+    '''    public void setTimeToLive(final long timeToLive)
+    '''
 def getPortSSH():
-'''public int getPortSSH()
-'''
-pass
+    '''    public int getPortSSH()
+    '''
 def setPortSSH():
-'''public void setPortSSH(final int portSSH)
-'''
-pass
+    '''    public void setPortSSH(final int portSSH)
+    '''
 def getPrivateKey():
-'''public String getPrivateKey()
-'''
-pass
+    '''    public String getPrivateKey()
+    '''
 def setPrivateKey():
-'''public void setPrivateKey(final String privateKey)
-'''
-pass
+    '''    public void setPrivateKey(final String privateKey)
+    '''
 def getPublicKey():
-'''public String getPublicKey()
-'''
-pass
+    '''    public String getPublicKey()
+    '''
 def setPublicKey():
-'''public void setPublicKey(final String publicKey)
-'''
-pass
+    '''    public void setPublicKey(final String publicKey)
+    '''
 def getTicketUID():
-'''public String getTicketUID()
-'''
-pass
+    '''    public String getTicketUID()
+    '''
 def setTicketUID():
-'''public void setTicketUID(final String ticketUID)
-'''
-pass
+    '''    public void setTicketUID(final String ticketUID)
+    '''
 def getError():
-'''public String getError()
-'''
-pass
+    '''    public String getError()
+    '''
 def setError():
-'''public void setError(final String error)
-'''
-pass
+    '''    public void setError(final String error)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

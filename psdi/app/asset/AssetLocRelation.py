@@ -1,85 +1,64 @@
 def clearLinearAssetFields():
-'''public void clearLinearAssetFields(String attr)
-'''
-pass
+    '''    public void clearLinearAssetFields(String attr)
+    '''
 def AssetLocRelation():
-'''public AssetLocRelation(final MboSet ms)
-'''
-pass
+    '''    public AssetLocRelation(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def checkDuplicateRelationships():
-'''public void checkDuplicateRelationships(final String sourceassetnum, final String assetrelationnum, final String targetassetnum)
-'''
-pass
+    '''    public void checkDuplicateRelationships(final String sourceassetnum, final String assetrelationnum, final String targetassetnum)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def setLinearAttrsREADONLYFlagOnSourceAsset():
-'''public void setLinearAttrsREADONLYFlagOnSourceAsset()
-'''
-pass
+    '''    public void setLinearAttrsREADONLYFlagOnSourceAsset()
+    '''
 def setLinearAttrsREADONLYFlagOnTargetAsset():
-'''public void setLinearAttrsREADONLYFlagOnTargetAsset()
-'''
-pass
+    '''    public void setLinearAttrsREADONLYFlagOnTargetAsset()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def isChangeByUserWhenSetFromLookup():
-'''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
-'''
-pass
+    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''
 def createSourceAssetFeatureRec():
-'''public void createSourceAssetFeatureRec()
-'''
-pass
+    '''    public void createSourceAssetFeatureRec()
+    '''
 def createTargetAssetFeatureRec():
-'''public void createTargetAssetFeatureRec()
-'''
-pass
+    '''    public void createTargetAssetFeatureRec()
+    '''
 def recalAssetRelMesModify():
-'''public void recalAssetRelMesModify()
-'''
-pass
+    '''    public void recalAssetRelMesModify()
+    '''
 def recalAssetRelFeatureMesModify():
-'''public void recalAssetRelFeatureMesModify()
-'''
-pass
+    '''    public void recalAssetRelFeatureMesModify()
+    '''
 def validateRelationshipRules():
-'''public void validateRelationshipRules()
-'''
-pass
+    '''    public void validateRelationshipRules()
+    '''
 def RuleGroup():
-'''public RuleGroup(final MboRemote groupMbo)
-'''
-pass
+    '''    public RuleGroup(final MboRemote groupMbo)
+    '''
 def RuleException():
-'''public RuleException(final String eg, final String ek)
-public RuleException(final String eg, final String ek, final Object... args)
-'''
-pass
+    '''    public RuleException(final String eg, final String ek)
+    public RuleException(final String eg, final String ek, final Object... args)
+    '''

@@ -1,8 +1,6 @@
 def ItemOrgChgStatus():
-'''public ItemOrgChgStatus(final MboSet ms)
-'''
-pass
+    '''    public ItemOrgChgStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,93 +1,70 @@
 def run():
-'''public static void run(final String hostName, final InputStream in, final OutputStream out)
-public static void run(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public static void run(final String hostName, final InputStream in, final OutputStream out)
+    public static void run(final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def getRunning():
-'''public static ESIProcessor[] getRunning()
-'''
-pass
+    '''    public static ESIProcessor[] getRunning()
+    '''
 def collectEdgeStats():
-'''public static synchronized int collectEdgeStats(final int _gatherWhat)
-'''
-pass
+    '''    public static synchronized int collectEdgeStats(final int _gatherWhat)
+    '''
 def invalidateIds():
-'''public static void invalidateIds(final Iterator ids)
-'''
-pass
+    '''    public static void invalidateIds(final Iterator ids)
+    '''
 def clearCaches():
-'''public static void clearCaches()
-'''
-pass
+    '''    public static void clearCaches()
+    '''
 def resetCounters():
-'''public static void resetCounters()
-'''
-pass
+    '''    public static void resetCounters()
+    '''
 def gather():
-'''public static synchronized ESIProcessorStats[] gather(final int gatherWhat)
-'''
-pass
+    '''    public static synchronized ESIProcessorStats[] gather(final int gatherWhat)
+    '''
 def isAlive():
-'''public boolean isAlive()
-'''
-pass
+    '''    public boolean isAlive()
+    '''
 def markDead():
-'''public synchronized void markDead()
-'''
-pass
+    '''    public synchronized void markDead()
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def getPID():
-'''public int getPID()
-'''
-pass
+    '''    public int getPID()
+    '''
 def invalidateId():
-'''public synchronized void invalidateId(final String id)
-'''
-pass
+    '''    public synchronized void invalidateId(final String id)
+    '''
 def clearCache():
-'''public synchronized void clearCache()
-'''
-pass
+    '''    public synchronized void clearCache()
+    '''
 def resetCounter():
-'''public synchronized void resetCounter()
-'''
-pass
+    '''    public synchronized void resetCounter()
+    '''
 def submit():
-'''public synchronized void submit(final ESIProcessorRequest request)
-'''
-pass
+    '''    public synchronized void submit(final ESIProcessorRequest request)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def readInt():
-'''public int readInt()
-'''
-pass
+    '''    public int readInt()
+    '''
 def readString():
-'''public String readString()
-'''
-pass
+    '''    public String readString()
+    '''
 def writeInt():
-'''public void writeInt(final int val)
-'''
-pass
+    '''    public void writeInt(final int val)
+    '''
 def writeString():
-'''public void writeString(final String str)
-'''
-pass
+    '''    public void writeString(final String str)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def flushWithResponse():
-'''public void flushWithResponse()
-'''
-pass
+    '''    public void flushWithResponse()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

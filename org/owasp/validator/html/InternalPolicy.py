@@ -1,68 +1,51 @@
 def getEmbedTag():
-'''public Tag getEmbedTag()
-'''
-pass
+    '''    public Tag getEmbedTag()
+    '''
 def getStyleTag():
-'''public Tag getStyleTag()
-'''
-pass
+    '''    public Tag getStyleTag()
+    '''
 def isEmbedStyleSheets():
-'''public boolean isEmbedStyleSheets()
-'''
-pass
+    '''    public boolean isEmbedStyleSheets()
+    '''
 def isPreserveComments():
-'''public boolean isPreserveComments()
-'''
-pass
+    '''    public boolean isPreserveComments()
+    '''
 def getMaxInputSize():
-'''public int getMaxInputSize()
-'''
-pass
+    '''    public int getMaxInputSize()
+    '''
 def isEntityEncodeIntlCharacters():
-'''public boolean isEntityEncodeIntlCharacters()
-'''
-pass
+    '''    public boolean isEntityEncodeIntlCharacters()
+    '''
 def isNofollowAnchors():
-'''public boolean isNofollowAnchors()
-'''
-pass
+    '''    public boolean isNofollowAnchors()
+    '''
 def isValidateParamAsEmbed():
-'''public boolean isValidateParamAsEmbed()
-'''
-pass
+    '''    public boolean isValidateParamAsEmbed()
+    '''
 def isFormatOutput():
-'''public boolean isFormatOutput()
-'''
-pass
+    '''    public boolean isFormatOutput()
+    '''
 def isPreserveSpace():
-'''public boolean isPreserveSpace()
-'''
-pass
+    '''    public boolean isPreserveSpace()
+    '''
 def isOmitXmlDeclaration():
-'''public boolean isOmitXmlDeclaration()
-'''
-pass
+    '''    public boolean isOmitXmlDeclaration()
+    '''
 def isUseXhtml():
-'''public boolean isUseXhtml()
-'''
-pass
+    '''    public boolean isUseXhtml()
+    '''
 def isOmitDoctypeDeclaration():
-'''public boolean isOmitDoctypeDeclaration()
-'''
-pass
+    '''    public boolean isOmitDoctypeDeclaration()
+    '''
 def getOnUnknownTag():
-'''public String getOnUnknownTag()
-'''
-pass
+    '''    public String getOnUnknownTag()
+    '''
 def isEncodeUnknownTag():
-'''public boolean isEncodeUnknownTag()
-'''
-pass
+    '''    public boolean isEncodeUnknownTag()
+    '''
 def isAllowDynamicAttributes():
-'''public boolean isAllowDynamicAttributes()
-'''
-pass
+    '''    public boolean isAllowDynamicAttributes()
+    '''
 def determineMaxInputSize():
-'''public int determineMaxInputSize()
-'''
-pass
+    '''    public int determineMaxInputSize()
+    '''

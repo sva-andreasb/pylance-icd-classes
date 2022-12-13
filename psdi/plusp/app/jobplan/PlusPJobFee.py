@@ -1,12 +1,9 @@
 def PlusPJobFee():
-'''public PlusPJobFee(final MboSet ms)
-'''
-pass
+    '''    public PlusPJobFee(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String s, final String val)
-'''
-pass
+    '''    public void propagateKeyValue(final String s, final String val)
+    '''

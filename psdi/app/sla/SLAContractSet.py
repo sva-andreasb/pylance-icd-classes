@@ -1,8 +1,6 @@
 def SLAContractSet():
-'''public SLAContractSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SLAContractSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

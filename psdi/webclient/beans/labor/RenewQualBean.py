@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancel():
-'''public int cancel()
-'''
-pass
+    '''    public int cancel()
+    '''

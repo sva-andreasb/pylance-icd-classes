@@ -1,72 +1,54 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setQueryRefId():
-'''public void setQueryRefId(final String value)
-'''
-pass
+    '''    public void setQueryRefId(final String value)
+    '''
 def getQueryRefId():
-'''public String getQueryRefId()
-'''
-pass
+    '''    public String getQueryRefId()
+    '''
 def getDescriptions():
-'''public ProductDescription[] getDescriptions()
-'''
-pass
+    '''    public ProductDescription[] getDescriptions()
+    '''
 def setDescriptions():
-'''public void setDescriptions(final ProductDescription[] value)
-'''
-pass
+    '''    public void setDescriptions(final ProductDescription[] value)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def get():
-'''public ProductDescription get(final int index)
-'''
-pass
+    '''    public ProductDescription get(final int index)
+    '''
 def set():
-'''public void set(final int index, final ProductDescription value)
-'''
-pass
+    '''    public void set(final int index, final ProductDescription value)
+    '''
 def setRecsReturned():
-'''public void setRecsReturned(final int value)
-'''
-pass
+    '''    public void setRecsReturned(final int value)
+    '''
 def getRecsReturned():
-'''public int getRecsReturned()
-'''
-pass
+    '''    public int getRecsReturned()
+    '''
 def setRecsAvailable():
-'''public void setRecsAvailable(final int value)
-'''
-pass
+    '''    public void setRecsAvailable(final int value)
+    '''
 def getRecsAvaialable():
-'''public int getRecsAvaialable()
-'''
-pass
+    '''    public int getRecsAvaialable()
+    '''
 def setLastRecKey():
-'''public void setLastRecKey(final String value)
-'''
-pass
+    '''    public void setLastRecKey(final String value)
+    '''
 def getLastRecKey():
-'''public String getLastRecKey()
-'''
-pass
+    '''    public String getLastRecKey()
+    '''
 def setVendorName():
-'''public void setVendorName(final String value)
-'''
-pass
+    '''    public void setVendorName(final String value)
+    '''
 def getVendorName():
-'''public String getVendorName()
-'''
-pass
+    '''    public String getVendorName()
+    '''
 def setVendorId():
-'''public void setVendorId(final String value)
-'''
-pass
+    '''    public void setVendorId(final String value)
+    '''
 def getVendorId():
-'''public String getVendorId()
-'''
-pass
+    '''    public String getVendorId()
+    '''

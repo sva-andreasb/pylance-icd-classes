@@ -1,20 +1,15 @@
 def Driver_PostgreSQL():
-'''public Driver_PostgreSQL()
-'''
-pass
+    '''    public Driver_PostgreSQL()
+    '''
 def setConnection():
-'''public void setConnection(final IDBConnection dbcon)
-'''
-pass
+    '''    public void setConnection(final IDBConnection dbcon)
+    '''
 def graphIdAlloc():
-'''public int graphIdAlloc(final String graphName)
-'''
-pass
+    '''    public int graphIdAlloc(final String graphName)
+    '''
 def graphIdDealloc():
-'''public void graphIdDealloc(final int graphId)
-'''
-pass
+    '''    public void graphIdDealloc(final int graphId)
+    '''
 def genSQLStringMatchOp_IC():
-'''public String genSQLStringMatchOp_IC(final String fun)
-'''
-pass
+    '''    public String genSQLStringMatchOp_IC(final String fun)
+    '''

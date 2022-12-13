@@ -1,20 +1,15 @@
 def EnterByCrewBean():
-'''public EnterByCrewBean()
-'''
-pass
+    '''    public EnterByCrewBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def refreshCrew():
-'''public int refreshCrew()
-'''
-pass
+    '''    public int refreshCrew()
+    '''
 def selectCrew():
-'''public int selectCrew()
-'''
-pass
+    '''    public int selectCrew()
+    '''
 def selectWorkDate():
-'''public int selectWorkDate()
-'''
-pass
+    '''    public int selectWorkDate()
+    '''

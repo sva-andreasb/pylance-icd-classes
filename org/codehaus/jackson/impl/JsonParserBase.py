@@ -1,80 +1,60 @@
 def version():
-'''public Version version()
-'''
-pass
+    '''    public Version version()
+    '''
 def getCurrentName():
-'''public String getCurrentName()
-'''
-pass
+    '''    public String getCurrentName()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getParsingContext():
-'''public JsonReadContext getParsingContext()
-'''
-pass
+    '''    public JsonReadContext getParsingContext()
+    '''
 def getTokenLocation():
-'''public JsonLocation getTokenLocation()
-'''
-pass
+    '''    public JsonLocation getTokenLocation()
+    '''
 def getCurrentLocation():
-'''public JsonLocation getCurrentLocation()
-'''
-pass
+    '''    public JsonLocation getCurrentLocation()
+    '''
 def hasTextCharacters():
-'''public boolean hasTextCharacters()
-'''
-pass
+    '''    public boolean hasTextCharacters()
+    '''
 def getTokenCharacterOffset():
-'''public final long getTokenCharacterOffset()
-'''
-pass
+    '''    public final long getTokenCharacterOffset()
+    '''
 def getTokenLineNr():
-'''public final int getTokenLineNr()
-'''
-pass
+    '''    public final int getTokenLineNr()
+    '''
 def getTokenColumnNr():
-'''public final int getTokenColumnNr()
-'''
-pass
+    '''    public final int getTokenColumnNr()
+    '''
 def _getByteArrayBuilder():
-'''public ByteArrayBuilder _getByteArrayBuilder()
-'''
-pass
+    '''    public ByteArrayBuilder _getByteArrayBuilder()
+    '''
 def getNumberValue():
-'''public Number getNumberValue()
-'''
-pass
+    '''    public Number getNumberValue()
+    '''
 def getNumberType():
-'''public NumberType getNumberType()
-'''
-pass
+    '''    public NumberType getNumberType()
+    '''
 def getIntValue():
-'''public int getIntValue()
-'''
-pass
+    '''    public int getIntValue()
+    '''
 def getLongValue():
-'''public long getLongValue()
-'''
-pass
+    '''    public long getLongValue()
+    '''
 def getBigIntegerValue():
-'''public BigInteger getBigIntegerValue()
-'''
-pass
+    '''    public BigInteger getBigIntegerValue()
+    '''
 def getFloatValue():
-'''public float getFloatValue()
-'''
-pass
+    '''    public float getFloatValue()
+    '''
 def getDoubleValue():
-'''public double getDoubleValue()
-'''
-pass
+    '''    public double getDoubleValue()
+    '''
 def getDecimalValue():
-'''public BigDecimal getDecimalValue()
-'''
-pass
+    '''    public BigDecimal getDecimalValue()
+    '''

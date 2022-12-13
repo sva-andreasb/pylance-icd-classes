@@ -1,36 +1,27 @@
 def TemporalAmountAdapter():
-'''public TemporalAmountAdapter(final TemporalAmount duration)
-'''
-pass
+    '''    public TemporalAmountAdapter(final TemporalAmount duration)
+    '''
 def getDuration():
-'''public TemporalAmount getDuration()
-'''
-pass
+    '''    public TemporalAmount getDuration()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def parse():
-'''public static TemporalAmountAdapter parse(final String value)
-'''
-pass
+    '''    public static TemporalAmountAdapter parse(final String value)
+    '''
 def fromDateRange():
-'''public static TemporalAmountAdapter fromDateRange(final Date start, final Date end)
-'''
-pass
+    '''    public static TemporalAmountAdapter fromDateRange(final Date start, final Date end)
+    '''
 def from():
-'''public static TemporalAmountAdapter from(final Dur dur)
-'''
-pass
+    '''    public static TemporalAmountAdapter from(final Dur dur)
+    '''
 def getTime():
-'''public final Date getTime(final Date start)
-'''
-pass
+    '''    public final Date getTime(final Date start)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

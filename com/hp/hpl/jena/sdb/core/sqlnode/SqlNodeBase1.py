@@ -1,12 +1,9 @@
 def getIdScope():
-'''public Scope getIdScope()
-'''
-pass
+    '''    public Scope getIdScope()
+    '''
 def getNodeScope():
-'''public Scope getNodeScope()
-'''
-pass
+    '''    public Scope getNodeScope()
+    '''
 def getSubNode():
-'''public SqlNode getSubNode()
-'''
-pass
+    '''    public SqlNode getSubNode()
+    '''

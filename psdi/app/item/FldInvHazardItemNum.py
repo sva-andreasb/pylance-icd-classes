@@ -1,8 +1,6 @@
 def FldInvHazardItemNum():
-'''public FldInvHazardItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvHazardItemNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

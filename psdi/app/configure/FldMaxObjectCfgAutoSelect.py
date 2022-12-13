@@ -1,8 +1,6 @@
 def FldMaxObjectCfgAutoSelect():
-'''public FldMaxObjectCfgAutoSelect(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxObjectCfgAutoSelect(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,12 +1,9 @@
 def RtfDiskCache():
-'''public RtfDiskCache()
-'''
-pass
+    '''    public RtfDiskCache()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream target)
-'''
-pass
+    '''    public void writeTo(final OutputStream target)
+    '''

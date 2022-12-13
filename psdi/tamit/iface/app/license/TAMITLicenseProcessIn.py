@@ -1,8 +1,6 @@
 def TAMITLicenseProcessIn():
-'''public TAMITLicenseProcessIn()
-'''
-pass
+    '''    public TAMITLicenseProcessIn()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

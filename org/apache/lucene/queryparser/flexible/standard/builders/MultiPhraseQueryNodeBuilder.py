@@ -1,4 +1,3 @@
 def build():
-'''public MultiPhraseQuery build(final QueryNode queryNode)
-'''
-pass
+    '''    public MultiPhraseQuery build(final QueryNode queryNode)
+    '''

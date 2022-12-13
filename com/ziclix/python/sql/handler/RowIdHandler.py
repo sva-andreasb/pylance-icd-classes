@@ -1,8 +1,6 @@
 def RowIdHandler():
-'''public RowIdHandler(final DataHandler handler)
-'''
-pass
+    '''    public RowIdHandler(final DataHandler handler)
+    '''
 def getRowId():
-'''public PyObject getRowId(final Statement stmt)
-'''
-pass
+    '''    public PyObject getRowId(final Statement stmt)
+    '''

@@ -1,16 +1,12 @@
 def HyphenationAuto():
-'''public HyphenationAuto(final String lang, final String country, final int leftMin, final int rightMin)
-'''
-pass
+    '''    public HyphenationAuto(final String lang, final String country, final int leftMin, final int rightMin)
+    '''
 def getHyphenSymbol():
-'''public String getHyphenSymbol()
-'''
-pass
+    '''    public String getHyphenSymbol()
+    '''
 def getHyphenatedWordPre():
-'''public String getHyphenatedWordPre(final String word, final BaseFont font, final float fontSize, final float remainingWidth)
-'''
-pass
+    '''    public String getHyphenatedWordPre(final String word, final BaseFont font, final float fontSize, final float remainingWidth)
+    '''
 def getHyphenatedWordPost():
-'''public String getHyphenatedWordPost()
-'''
-pass
+    '''    public String getHyphenatedWordPost()
+    '''

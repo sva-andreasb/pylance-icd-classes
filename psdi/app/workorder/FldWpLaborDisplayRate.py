@@ -1,12 +1,9 @@
 def FldWpLaborDisplayRate():
-'''public FldWpLaborDisplayRate(final MboValue mbv)
-'''
-pass
+    '''    public FldWpLaborDisplayRate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

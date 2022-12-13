@@ -1,47 +1,36 @@
 def ProxyServlet():
-'''public ProxyServlet()
-'''
-pass
+    '''    public ProxyServlet()
+    '''
 def init():
-'''public void init(final ServletConfig config)
-public void init(final ServletConfig config)
-'''
-pass
+    '''    public void init(final ServletConfig config)
+    public void init(final ServletConfig config)
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def validateDestination():
-'''public boolean validateDestination(final String host, final String path)
-'''
-pass
+    '''    public boolean validateDestination(final String host, final String path)
+    '''
 def getServletConfig():
-'''public ServletConfig getServletConfig()
-'''
-pass
+    '''    public ServletConfig getServletConfig()
+    '''
 def getHostHeader():
-'''public String getHostHeader()
-'''
-pass
+    '''    public String getHostHeader()
+    '''
 def setHostHeader():
-'''public void setHostHeader(final String hostHeader)
-'''
-pass
+    '''    public void setHostHeader(final String hostHeader)
+    '''
 def service():
-'''public void service(final ServletRequest req, final ServletResponse res)
-'''
-pass
+    '''    public void service(final ServletRequest req, final ServletResponse res)
+    '''
 def handleConnect():
-'''public void handleConnect(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public void handleConnect(final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def getServletInfo():
-'''public String getServletInfo()
-'''
-pass
+    '''    public String getServletInfo()
+    '''
 def Transparent():
-'''public Transparent()
-public Transparent(final String prefix, final String host, final int port)
-public Transparent(final String prefix, final String schema, final String host, final int port, final String path)
-'''
-pass
+    '''    public Transparent()
+    public Transparent(final String prefix, final String host, final int port)
+    public Transparent(final String prefix, final String schema, final String host, final int port, final String path)
+    '''

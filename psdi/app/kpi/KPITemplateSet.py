@@ -1,4 +1,3 @@
 def KPITemplateSet():
-'''public KPITemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public KPITemplateSet(final MboServerInterface ms)
+    '''

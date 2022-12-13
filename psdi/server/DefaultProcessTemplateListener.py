@@ -1,20 +1,15 @@
 def getInstance():
-'''public static DefaultProcessTemplateListener getInstance()
-'''
-pass
+    '''    public static DefaultProcessTemplateListener getInstance()
+    '''
 def eventValidate():
-'''public boolean eventValidate(final EventMessage em)
-'''
-pass
+    '''    public boolean eventValidate(final EventMessage em)
+    '''
 def preSaveEventAction():
-'''public void preSaveEventAction(final EventMessage em)
-'''
-pass
+    '''    public void preSaveEventAction(final EventMessage em)
+    '''
 def eventAction():
-'''public void eventAction(final EventMessage em)
-'''
-pass
+    '''    public void eventAction(final EventMessage em)
+    '''
 def postCommitEventAction():
-'''public void postCommitEventAction(final EventMessage em)
-'''
-pass
+    '''    public void postCommitEventAction(final EventMessage em)
+    '''

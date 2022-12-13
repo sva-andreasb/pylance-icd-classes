@@ -1,24 +1,18 @@
 def FldRelatedSLAParentSLANum():
-'''public FldRelatedSLAParentSLANum(final MboValue mbv)
-'''
-pass
+    '''    public FldRelatedSLAParentSLANum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def doValidate():
-'''public void doValidate(final String slanum)
-'''
-pass
+    '''    public void doValidate(final String slanum)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

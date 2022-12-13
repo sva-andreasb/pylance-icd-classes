@@ -1,21 +1,16 @@
 def GLNavigatorSelectOrgBean():
-'''public GLNavigatorSelectOrgBean()
-'''
-pass
+    '''    public GLNavigatorSelectOrgBean()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession sc)
-'''
-pass
+    '''    public void setupBean(final WebClientSession sc)
+    '''
 def fetchOrgAndSiteIdFromSource():
-'''public void fetchOrgAndSiteIdFromSource()
-'''
-pass
+    '''    public void fetchOrgAndSiteIdFromSource()
+    '''
 def getOrgId():
-'''public String getOrgId()
-'''
-pass
+    '''    public String getOrgId()
+    '''
 def setValue():
-'''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-public synchronized void setValue(final int row, final String attribute, final MboRemote mboRemote)
-'''
-pass
+    '''    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    public synchronized void setValue(final int row, final String attribute, final MboRemote mboRemote)
+    '''

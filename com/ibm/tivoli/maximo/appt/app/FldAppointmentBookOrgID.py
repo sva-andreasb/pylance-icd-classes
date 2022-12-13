@@ -1,4 +1,3 @@
 def FldAppointmentBookOrgID():
-'''public FldAppointmentBookOrgID(final MboValue mbv)
-'''
-pass
+    '''    public FldAppointmentBookOrgID(final MboValue mbv)
+    '''

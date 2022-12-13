@@ -1,12 +1,9 @@
 def plusPAssociatePS():
-'''public int plusPAssociatePS()
-'''
-pass
+    '''    public int plusPAssociatePS()
+    '''
 def associatePS():
-'''public int associatePS()
-'''
-pass
+    '''    public int associatePS()
+    '''
 def removePS():
-'''public int removePS()
-'''
-pass
+    '''    public int removePS()
+    '''

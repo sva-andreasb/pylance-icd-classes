@@ -1,2 +1,2 @@
-NodeName = "String  Resources""
-_R_ = "String  <R>""
+NodeName = "String  \"Resources\""
+_R_ = "String  \"<R>\""

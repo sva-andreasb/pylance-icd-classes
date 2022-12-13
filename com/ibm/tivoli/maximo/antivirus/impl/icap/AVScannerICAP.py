@@ -1,8 +1,6 @@
 def AVScannerICAP():
-'''public AVScannerICAP(final String servername, final int port)
-'''
-pass
+    '''    public AVScannerICAP(final String servername, final int port)
+    '''
 def scan():
-'''public AVScannerResult scan(final InputStream in)
-'''
-pass
+    '''    public AVScannerResult scan(final InputStream in)
+    '''

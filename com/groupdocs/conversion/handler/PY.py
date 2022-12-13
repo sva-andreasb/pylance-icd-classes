@@ -1,8 +1,6 @@
 def PY():
-'''public PY(final MergeOptions mergeOptions)
-'''
-pass
+    '''    public PY(final MergeOptions mergeOptions)
+    '''
 def a():
-'''public PW a()
-'''
-pass
+    '''    public PW a()
+    '''

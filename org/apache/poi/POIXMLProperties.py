@@ -1,240 +1,182 @@
-FORMAT_ID = "String  {D5CDD505-2E9C-101B-9397-08002B2CF9AE}""
+FORMAT_ID = "String  \"{D5CDD505-2E9C-101B-9397-08002B2CF9AE}\""
 def POIXMLProperties():
-'''public POIXMLProperties(final OPCPackage docPackage)
-'''
-pass
+    '''    public POIXMLProperties(final OPCPackage docPackage)
+    '''
 def getCoreProperties():
-'''public CoreProperties getCoreProperties()
-'''
-pass
+    '''    public CoreProperties getCoreProperties()
+    '''
 def getExtendedProperties():
-'''public ExtendedProperties getExtendedProperties()
-'''
-pass
+    '''    public ExtendedProperties getExtendedProperties()
+    '''
 def getCustomProperties():
-'''public CustomProperties getCustomProperties()
-'''
-pass
+    '''    public CustomProperties getCustomProperties()
+    '''
 def getThumbnailFilename():
-'''public String getThumbnailFilename()
-'''
-pass
+    '''    public String getThumbnailFilename()
+    '''
 def getThumbnailImage():
-'''public InputStream getThumbnailImage()
-'''
-pass
+    '''    public InputStream getThumbnailImage()
+    '''
 def setThumbnail():
-'''public void setThumbnail(final String filename, final InputStream imageData)
-'''
-pass
+    '''    public void setThumbnail(final String filename, final InputStream imageData)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def getCategory():
-'''public String getCategory()
-'''
-pass
+    '''    public String getCategory()
+    '''
 def setCategory():
-'''public void setCategory(final String category)
-'''
-pass
+    '''    public void setCategory(final String category)
+    '''
 def getContentStatus():
-'''public String getContentStatus()
-'''
-pass
+    '''    public String getContentStatus()
+    '''
 def setContentStatus():
-'''public void setContentStatus(final String contentStatus)
-'''
-pass
+    '''    public void setContentStatus(final String contentStatus)
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def setContentType():
-'''public void setContentType(final String contentType)
-'''
-pass
+    '''    public void setContentType(final String contentType)
+    '''
 def getCreated():
-'''public Date getCreated()
-'''
-pass
+    '''    public Date getCreated()
+    '''
 def setCreated():
-'''public void setCreated(final Nullable<Date> date)
-public void setCreated(final String date)
-'''
-pass
+    '''    public void setCreated(final Nullable<Date> date)
+    public void setCreated(final String date)
+    '''
 def getCreator():
-'''public String getCreator()
-'''
-pass
+    '''    public String getCreator()
+    '''
 def setCreator():
-'''public void setCreator(final String creator)
-'''
-pass
+    '''    public void setCreator(final String creator)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getIdentifier():
-'''public String getIdentifier()
-'''
-pass
+    '''    public String getIdentifier()
+    '''
 def setIdentifier():
-'''public void setIdentifier(final String identifier)
-'''
-pass
+    '''    public void setIdentifier(final String identifier)
+    '''
 def getKeywords():
-'''public String getKeywords()
-'''
-pass
+    '''    public String getKeywords()
+    '''
 def setKeywords():
-'''public void setKeywords(final String keywords)
-'''
-pass
+    '''    public void setKeywords(final String keywords)
+    '''
 def getLastPrinted():
-'''public Date getLastPrinted()
-'''
-pass
+    '''    public Date getLastPrinted()
+    '''
 def setLastPrinted():
-'''public void setLastPrinted(final Nullable<Date> date)
-public void setLastPrinted(final String date)
-'''
-pass
+    '''    public void setLastPrinted(final Nullable<Date> date)
+    public void setLastPrinted(final String date)
+    '''
 def getLastModifiedByUser():
-'''public String getLastModifiedByUser()
-'''
-pass
+    '''    public String getLastModifiedByUser()
+    '''
 def setLastModifiedByUser():
-'''public void setLastModifiedByUser(final String user)
-'''
-pass
+    '''    public void setLastModifiedByUser(final String user)
+    '''
 def getModified():
-'''public Date getModified()
-'''
-pass
+    '''    public Date getModified()
+    '''
 def setModified():
-'''public void setModified(final Nullable<Date> date)
-public void setModified(final String date)
-'''
-pass
+    '''    public void setModified(final Nullable<Date> date)
+    public void setModified(final String date)
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def setSubjectProperty():
-'''public void setSubjectProperty(final String subject)
-'''
-pass
+    '''    public void setSubjectProperty(final String subject)
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getRevision():
-'''public String getRevision()
-'''
-pass
+    '''    public String getRevision()
+    '''
 def setRevision():
-'''public void setRevision(final String revision)
-'''
-pass
+    '''    public void setRevision(final String revision)
+    '''
 def getUnderlyingProperties():
-'''public PackagePropertiesPart getUnderlyingProperties()
-public CTProperties getUnderlyingProperties()
-'''
-pass
+    '''    public PackagePropertiesPart getUnderlyingProperties()
+    public CTProperties getUnderlyingProperties()
+    '''
 def getTemplate():
-'''public String getTemplate()
-'''
-pass
+    '''    public String getTemplate()
+    '''
 def getManager():
-'''public String getManager()
-'''
-pass
+    '''    public String getManager()
+    '''
 def getCompany():
-'''public String getCompany()
-'''
-pass
+    '''    public String getCompany()
+    '''
 def getPresentationFormat():
-'''public String getPresentationFormat()
-'''
-pass
+    '''    public String getPresentationFormat()
+    '''
 def getApplication():
-'''public String getApplication()
-'''
-pass
+    '''    public String getApplication()
+    '''
 def getAppVersion():
-'''public String getAppVersion()
-'''
-pass
+    '''    public String getAppVersion()
+    '''
 def getPages():
-'''public int getPages()
-'''
-pass
+    '''    public int getPages()
+    '''
 def getWords():
-'''public int getWords()
-'''
-pass
+    '''    public int getWords()
+    '''
 def getCharacters():
-'''public int getCharacters()
-'''
-pass
+    '''    public int getCharacters()
+    '''
 def getCharactersWithSpaces():
-'''public int getCharactersWithSpaces()
-'''
-pass
+    '''    public int getCharactersWithSpaces()
+    '''
 def getLines():
-'''public int getLines()
-'''
-pass
+    '''    public int getLines()
+    '''
 def getParagraphs():
-'''public int getParagraphs()
-'''
-pass
+    '''    public int getParagraphs()
+    '''
 def getSlides():
-'''public int getSlides()
-'''
-pass
+    '''    public int getSlides()
+    '''
 def getNotes():
-'''public int getNotes()
-'''
-pass
+    '''    public int getNotes()
+    '''
 def getTotalTime():
-'''public int getTotalTime()
-'''
-pass
+    '''    public int getTotalTime()
+    '''
 def getHiddenSlides():
-'''public int getHiddenSlides()
-'''
-pass
+    '''    public int getHiddenSlides()
+    '''
 def getMMClips():
-'''public int getMMClips()
-'''
-pass
+    '''    public int getMMClips()
+    '''
 def getHyperlinkBase():
-'''public String getHyperlinkBase()
-'''
-pass
+    '''    public String getHyperlinkBase()
+    '''
 def addProperty():
-'''public void addProperty(final String name, final String value)
-public void addProperty(final String name, final double value)
-public void addProperty(final String name, final int value)
-public void addProperty(final String name, final boolean value)
-'''
-pass
+    '''    public void addProperty(final String name, final String value)
+    public void addProperty(final String name, final double value)
+    public void addProperty(final String name, final int value)
+    public void addProperty(final String name, final boolean value)
+    '''
 def contains():
-'''public boolean contains(final String name)
-'''
-pass
+    '''    public boolean contains(final String name)
+    '''
 def getProperty():
-'''public CTProperty getProperty(final String name)
-'''
-pass
+    '''    public CTProperty getProperty(final String name)
+    '''

@@ -1,44 +1,33 @@
 def CatalogItem():
-'''public CatalogItem(final MboSet ms)
-'''
-pass
+    '''    public CatalogItem(final MboSet ms)
+    '''
 def downloadContent():
-'''public void downloadContent()
-'''
-pass
+    '''    public void downloadContent()
+    '''
 def installContent():
-'''public void installContent()
-'''
-pass
+    '''    public void installContent()
+    '''
 def loadLicense():
-'''public String loadLicense()
-'''
-pass
+    '''    public String loadLicense()
+    '''
 def getJythonScripts():
-'''public List<String> getJythonScripts()
-'''
-pass
+    '''    public List<String> getJythonScripts()
+    '''
 def isDownloadComplete():
-'''public boolean isDownloadComplete()
-'''
-pass
+    '''    public boolean isDownloadComplete()
+    '''
 def isInstallComplete():
-'''public boolean isInstallComplete()
-'''
-pass
+    '''    public boolean isInstallComplete()
+    '''
 def getDownloadMessages():
-'''public String getDownloadMessages()
-'''
-pass
+    '''    public String getDownloadMessages()
+    '''
 def getInstallMessages():
-'''public String getInstallMessages()
-'''
-pass
+    '''    public String getInstallMessages()
+    '''
 def isDownloadFailed():
-'''public boolean isDownloadFailed()
-'''
-pass
+    '''    public boolean isDownloadFailed()
+    '''
 def isInstallFailed():
-'''public boolean isInstallFailed()
-'''
-pass
+    '''    public boolean isInstallFailed()
+    '''

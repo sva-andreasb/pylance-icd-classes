@@ -1,72 +1,54 @@
 def NrsMasterAliasMap():
-'''public NrsMasterAliasMap()
-'''
-pass
+    '''    public NrsMasterAliasMap()
+    '''
 def getAliasClassType():
-'''public String getAliasClassType()
-'''
-pass
+    '''    public String getAliasClassType()
+    '''
 def getAliasGUID():
-'''public byte[] getAliasGUID()
-'''
-pass
+    '''    public byte[] getAliasGUID()
+    '''
 def getAliasName():
-'''public String getAliasName()
-'''
-pass
+    '''    public String getAliasName()
+    '''
 def getMasterGUID():
-'''public byte[] getMasterGUID()
-'''
-pass
+    '''    public byte[] getMasterGUID()
+    '''
 def getNamingRuleGUID():
-'''public byte[] getNamingRuleGUID()
-'''
-pass
+    '''    public byte[] getNamingRuleGUID()
+    '''
 def getNamingRulePriority():
-'''public Integer getNamingRulePriority()
-'''
-pass
+    '''    public Integer getNamingRulePriority()
+    '''
 def getSuperiors():
-'''public NrsSuperiorInfo[] getSuperiors()
-'''
-pass
+    '''    public NrsSuperiorInfo[] getSuperiors()
+    '''
 def getIdentifyingAttributes():
-'''public NrsIdentifyingAttribute[] getIdentifyingAttributes()
-'''
-pass
+    '''    public NrsIdentifyingAttribute[] getIdentifyingAttributes()
+    '''
 def setAliasClassType():
-'''public void setAliasClassType(final String classString)
-'''
-pass
+    '''    public void setAliasClassType(final String classString)
+    '''
 def setAliasGUID():
-'''public void setAliasGUID(final byte[] guid)
-'''
-pass
+    '''    public void setAliasGUID(final byte[] guid)
+    '''
 def setAliasName():
-'''public void setAliasName(final String name)
-'''
-pass
+    '''    public void setAliasName(final String name)
+    '''
 def setMasterGUID():
-'''public void setMasterGUID(final byte[] guid)
-'''
-pass
+    '''    public void setMasterGUID(final byte[] guid)
+    '''
 def setNamingRuleGUID():
-'''public void setNamingRuleGUID(final byte[] guid)
-'''
-pass
+    '''    public void setNamingRuleGUID(final byte[] guid)
+    '''
 def setNamingRulePriority():
-'''public void setNamingRulePriority(final Integer priority)
-'''
-pass
+    '''    public void setNamingRulePriority(final Integer priority)
+    '''
 def setSuperiors():
-'''public void setSuperiors(final NrsSuperiorInfo[] superiors)
-'''
-pass
+    '''    public void setSuperiors(final NrsSuperiorInfo[] superiors)
+    '''
 def setIdentifyingAttributes():
-'''public void setIdentifyingAttributes(final NrsIdentifyingAttribute[] identifyingAttributes)
-'''
-pass
+    '''    public void setIdentifyingAttributes(final NrsIdentifyingAttribute[] identifyingAttributes)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

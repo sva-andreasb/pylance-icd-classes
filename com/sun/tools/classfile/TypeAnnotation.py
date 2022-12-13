@@ -1,63 +1,48 @@
 bytesPerEntry = "int  2"
 def TypeAnnotation():
-'''public TypeAnnotation(final ConstantPool constant_pool, final Annotation annotation, final Position position)
-'''
-pass
+    '''    public TypeAnnotation(final ConstantPool constant_pool, final Annotation annotation, final Position position)
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    '''
 def Position():
-'''public Position()
-'''
-pass
+    '''    public Position()
+    '''
 def emitToClassfile():
-'''public boolean emitToClassfile()
-'''
-pass
+    '''    public boolean emitToClassfile()
+    '''
 def getTypePathFromBinary():
-'''public static List<TypePathEntry> getTypePathFromBinary(final List<Integer> obj)
-'''
-pass
+    '''    public static List<TypePathEntry> getTypePathFromBinary(final List<Integer> obj)
+    '''
 def getBinaryFromTypePath():
-'''public static List<Integer> getBinaryFromTypePath(final List<TypePathEntry> list)
-'''
-pass
+    '''    public static List<Integer> getBinaryFromTypePath(final List<TypePathEntry> list)
+    '''
 def TypePathEntry():
-'''public TypePathEntry(final TypePathEntryKind typePathEntryKind, final int arg)
-'''
-pass
+    '''    public TypePathEntry(final TypePathEntryKind typePathEntryKind, final int arg)
+    '''
 def fromBinary():
-'''public static TypePathEntry fromBinary(final int n, final int i)
-'''
-pass
+    '''    public static TypePathEntry fromBinary(final int n, final int i)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isLocal():
-'''public boolean isLocal()
-'''
-pass
+    '''    public boolean isLocal()
+    '''
 def targetTypeValue():
-'''public int targetTypeValue()
-'''
-pass
+    '''    public int targetTypeValue()
+    '''
 def isValidTargetTypeValue():
-'''public static boolean isValidTargetTypeValue(final int n)
-'''
-pass
+    '''    public static boolean isValidTargetTypeValue(final int n)
+    '''
 def fromTargetTypeValue():
-'''public static TargetType fromTargetTypeValue(final int i)
-'''
-pass
+    '''    public static TargetType fromTargetTypeValue(final int i)
+    '''

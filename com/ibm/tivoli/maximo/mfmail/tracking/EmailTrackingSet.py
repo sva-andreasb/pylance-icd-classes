@@ -1,4 +1,3 @@
 def EmailTrackingSet():
-'''public EmailTrackingSet(final MboServerInterface ms)
-'''
-pass
+    '''    public EmailTrackingSet(final MboServerInterface ms)
+    '''

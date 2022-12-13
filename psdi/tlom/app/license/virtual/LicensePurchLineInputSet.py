@@ -1,8 +1,6 @@
 def LicensePurchLineInputSet():
-'''public LicensePurchLineInputSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LicensePurchLineInputSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

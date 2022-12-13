@@ -1,12 +1,9 @@
 def ProcessingInstructionTest():
-'''public ProcessingInstructionTest(final String target)
-'''
-pass
+    '''    public ProcessingInstructionTest(final String target)
+    '''
 def getTarget():
-'''public String getTarget()
-'''
-pass
+    '''    public String getTarget()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

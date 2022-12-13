@@ -1,8 +1,6 @@
 def FldMaxDomainLinkAttributeName():
-'''public FldMaxDomainLinkAttributeName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxDomainLinkAttributeName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,12 +1,9 @@
 def SurveySchedule():
-'''public SurveySchedule(final MboSet ms)
-'''
-pass
+    '''    public SurveySchedule(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

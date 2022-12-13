@@ -1,12 +1,9 @@
 def FldWFProcessDesc():
-'''public FldWFProcessDesc(final MboValue mbv)
-'''
-pass
+    '''    public FldWFProcessDesc(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

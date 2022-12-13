@@ -1,131 +1,99 @@
 def InstructionFactory():
-'''public InstructionFactory(final ClassGen cg, final ConstantPoolGen cp)
-public InstructionFactory(final ClassGen cg)
-public InstructionFactory(final ConstantPoolGen cp)
-'''
-pass
+    '''    public InstructionFactory(final ClassGen cg, final ConstantPoolGen cp)
+    public InstructionFactory(final ClassGen cg)
+    public InstructionFactory(final ConstantPoolGen cp)
+    '''
 def createInvoke():
-'''public InvokeInstruction createInvoke(final String class_name, final String name, final Type ret_type, final Type[] arg_types, final short kind)
-'''
-pass
+    '''    public InvokeInstruction createInvoke(final String class_name, final String name, final Type ret_type, final Type[] arg_types, final short kind)
+    '''
 def createPrintln():
-'''public InstructionList createPrintln(final String s)
-'''
-pass
+    '''    public InstructionList createPrintln(final String s)
+    '''
 def createConstant():
-'''public Instruction createConstant(final Object value)
-'''
-pass
+    '''    public Instruction createConstant(final Object value)
+    '''
 def createAppend():
-'''public Instruction createAppend(final Type type)
-'''
-pass
+    '''    public Instruction createAppend(final Type type)
+    '''
 def createFieldAccess():
-'''public FieldInstruction createFieldAccess(final String class_name, final String name, final Type type, final short kind)
-'''
-pass
+    '''    public FieldInstruction createFieldAccess(final String class_name, final String name, final Type type, final short kind)
+    '''
 def createThis():
-'''public static Instruction createThis()
-'''
-pass
+    '''    public static Instruction createThis()
+    '''
 def createReturn():
-'''public static ReturnInstruction createReturn(final Type type)
-'''
-pass
+    '''    public static ReturnInstruction createReturn(final Type type)
+    '''
 def createBinaryOperation():
-'''public static ArithmeticInstruction createBinaryOperation(final String op, final Type type)
-'''
-pass
+    '''    public static ArithmeticInstruction createBinaryOperation(final String op, final Type type)
+    '''
 def createPop():
-'''public static StackInstruction createPop(final int size)
-'''
-pass
+    '''    public static StackInstruction createPop(final int size)
+    '''
 def createDup():
-'''public static StackInstruction createDup(final int size)
-'''
-pass
+    '''    public static StackInstruction createDup(final int size)
+    '''
 def createDup_2():
-'''public static StackInstruction createDup_2(final int size)
-'''
-pass
+    '''    public static StackInstruction createDup_2(final int size)
+    '''
 def createDup_1():
-'''public static StackInstruction createDup_1(final int size)
-'''
-pass
+    '''    public static StackInstruction createDup_1(final int size)
+    '''
 def createStore():
-'''public static LocalVariableInstruction createStore(final Type type, final int index)
-'''
-pass
+    '''    public static LocalVariableInstruction createStore(final Type type, final int index)
+    '''
 def createLoad():
-'''public static LocalVariableInstruction createLoad(final Type type, final int index)
-'''
-pass
+    '''    public static LocalVariableInstruction createLoad(final Type type, final int index)
+    '''
 def createArrayLoad():
-'''public static ArrayInstruction createArrayLoad(final Type type)
-'''
-pass
+    '''    public static ArrayInstruction createArrayLoad(final Type type)
+    '''
 def createArrayStore():
-'''public static ArrayInstruction createArrayStore(final Type type)
-'''
-pass
+    '''    public static ArrayInstruction createArrayStore(final Type type)
+    '''
 def createCast():
-'''public Instruction createCast(final Type src_type, final Type dest_type)
-'''
-pass
+    '''    public Instruction createCast(final Type src_type, final Type dest_type)
+    '''
 def createGetField():
-'''public GETFIELD createGetField(final String class_name, final String name, final Type t)
-'''
-pass
+    '''    public GETFIELD createGetField(final String class_name, final String name, final Type t)
+    '''
 def createGetStatic():
-'''public GETSTATIC createGetStatic(final String class_name, final String name, final Type t)
-'''
-pass
+    '''    public GETSTATIC createGetStatic(final String class_name, final String name, final Type t)
+    '''
 def createPutField():
-'''public PUTFIELD createPutField(final String class_name, final String name, final Type t)
-'''
-pass
+    '''    public PUTFIELD createPutField(final String class_name, final String name, final Type t)
+    '''
 def createPutStatic():
-'''public PUTSTATIC createPutStatic(final String class_name, final String name, final Type t)
-'''
-pass
+    '''    public PUTSTATIC createPutStatic(final String class_name, final String name, final Type t)
+    '''
 def createCheckCast():
-'''public CHECKCAST createCheckCast(final ReferenceType t)
-'''
-pass
+    '''    public CHECKCAST createCheckCast(final ReferenceType t)
+    '''
 def createInstanceOf():
-'''public INSTANCEOF createInstanceOf(final ReferenceType t)
-'''
-pass
+    '''    public INSTANCEOF createInstanceOf(final ReferenceType t)
+    '''
 def createNew():
-'''public NEW createNew(final ObjectType t)
-public NEW createNew(final String s)
-'''
-pass
+    '''    public NEW createNew(final ObjectType t)
+    public NEW createNew(final String s)
+    '''
 def createNewArray():
-'''public Instruction createNewArray(final Type t, final short dim)
-'''
-pass
+    '''    public Instruction createNewArray(final Type t, final short dim)
+    '''
 def createNull():
-'''public static Instruction createNull(final Type type)
-'''
-pass
+    '''    public static Instruction createNull(final Type type)
+    '''
 def createBranchInstruction():
-'''public static BranchInstruction createBranchInstruction(final short opcode, final InstructionHandle target)
-'''
-pass
+    '''    public static BranchInstruction createBranchInstruction(final short opcode, final InstructionHandle target)
+    '''
 def setClassGen():
-'''public void setClassGen(final ClassGen c)
-'''
-pass
+    '''    public void setClassGen(final ClassGen c)
+    '''
 def getClassGen():
-'''public ClassGen getClassGen()
-'''
-pass
+    '''    public ClassGen getClassGen()
+    '''
 def setConstantPool():
-'''public void setConstantPool(final ConstantPoolGen c)
-'''
-pass
+    '''    public void setConstantPool(final ConstantPoolGen c)
+    '''
 def getConstantPool():
-'''public ConstantPoolGen getConstantPool()
-'''
-pass
+    '''    public ConstantPoolGen getConstantPool()
+    '''

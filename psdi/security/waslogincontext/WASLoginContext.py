@@ -1,16 +1,12 @@
 def execute():
-'''public int execute(final String operation)
-'''
-pass
+    '''    public int execute(final String operation)
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''
 def isAdminSecurityEnabled():
-'''public boolean isAdminSecurityEnabled()
-'''
-pass
+    '''    public boolean isAdminSecurityEnabled()
+    '''
 def loginContext():
-'''public LoginContext loginContext()
-'''
-pass
+    '''    public LoginContext loginContext()
+    '''

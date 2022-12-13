@@ -1,8 +1,6 @@
 def exceptionFactory():
-'''public static <T> Factory<T> exceptionFactory()
-'''
-pass
+    '''    public static <T> Factory<T> exceptionFactory()
+    '''
 def create():
-'''public T create()
-'''
-pass
+    '''    public T create()
+    '''

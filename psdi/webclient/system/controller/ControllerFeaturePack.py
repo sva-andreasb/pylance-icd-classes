@@ -1,4 +1,3 @@
 def getKeyLabel():
-'''public static String getKeyLabel(final AppInstance app)
-'''
-pass
+    '''    public static String getKeyLabel(final AppInstance app)
+    '''

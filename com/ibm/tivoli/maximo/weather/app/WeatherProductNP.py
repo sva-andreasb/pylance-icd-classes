@@ -1,4 +1,3 @@
 def WeatherProductNP():
-'''public WeatherProductNP(final MboSet ms)
-'''
-pass
+    '''    public WeatherProductNP(final MboSet ms)
+    '''

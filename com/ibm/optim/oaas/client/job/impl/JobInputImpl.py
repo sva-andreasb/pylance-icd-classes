@@ -1,12 +1,9 @@
 def JobInputImpl():
-'''public JobInputImpl(final String name)
-'''
-pass
+    '''    public JobInputImpl(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''

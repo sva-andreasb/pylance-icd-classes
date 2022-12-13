@@ -1,12 +1,9 @@
 def predicatedSortedBag():
-'''public static <E> PredicatedSortedBag<E> predicatedSortedBag(final SortedBag<E> bag, final Predicate<? super E> predicate)
-'''
-pass
+    '''    public static <E> PredicatedSortedBag<E> predicatedSortedBag(final SortedBag<E> bag, final Predicate<? super E> predicate)
+    '''
 def first():
-'''public E first()
-'''
-pass
+    '''    public E first()
+    '''
 def last():
-'''public E last()
-'''
-pass
+    '''    public E last()
+    '''

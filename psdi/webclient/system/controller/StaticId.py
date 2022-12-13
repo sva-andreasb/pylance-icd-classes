@@ -1,8 +1,6 @@
 def StaticId():
-'''public StaticId()
-'''
-pass
+    '''    public StaticId()
+    '''
 def generateTpaeStaticId():
-'''public String generateTpaeStaticId(final String controlId, final AppInstance app)
-'''
-pass
+    '''    public String generateTpaeStaticId(final String controlId, final AppInstance app)
+    '''

@@ -1,8 +1,6 @@
 def IlvUnresizeableDrawSelection():
-'''public IlvUnresizeableDrawSelection(final IlvGraphic ilvGraphic)
-'''
-pass
+    '''    public IlvUnresizeableDrawSelection(final IlvGraphic ilvGraphic)
+    '''
 def supportsResize():
-'''public final boolean supportsResize()
-'''
-pass
+    '''    public final boolean supportsResize()
+    '''

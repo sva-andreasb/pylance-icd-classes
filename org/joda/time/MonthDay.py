@@ -1,149 +1,116 @@
 MONTH_OF_YEAR = "int  0"
 DAY_OF_MONTH = "int  1"
 def now():
-'''public static MonthDay now()
-public static MonthDay now(final DateTimeZone dateTimeZone)
-public static MonthDay now(final Chronology chronology)
-'''
-pass
+    '''    public static MonthDay now()
+    public static MonthDay now(final DateTimeZone dateTimeZone)
+    public static MonthDay now(final Chronology chronology)
+    '''
 def parse():
-'''public static MonthDay parse(final String s)
-public static MonthDay parse(final String s, final DateTimeFormatter dateTimeFormatter)
-'''
-pass
+    '''    public static MonthDay parse(final String s)
+    public static MonthDay parse(final String s, final DateTimeFormatter dateTimeFormatter)
+    '''
 def fromCalendarFields():
-'''public static MonthDay fromCalendarFields(final Calendar calendar)
-'''
-pass
+    '''    public static MonthDay fromCalendarFields(final Calendar calendar)
+    '''
 def fromDateFields():
-'''public static MonthDay fromDateFields(final Date date)
-'''
-pass
+    '''    public static MonthDay fromDateFields(final Date date)
+    '''
 def MonthDay():
-'''public MonthDay()
-public MonthDay(final DateTimeZone dateTimeZone)
-public MonthDay(final Chronology chronology)
-public MonthDay(final long n)
-public MonthDay(final long n, final Chronology chronology)
-public MonthDay(final Object o)
-public MonthDay(final Object o, final Chronology chronology)
-public MonthDay(final int n, final int n2)
-public MonthDay(final int n, final int n2, final Chronology chronology)
-'''
-pass
+    '''    public MonthDay()
+    public MonthDay(final DateTimeZone dateTimeZone)
+    public MonthDay(final Chronology chronology)
+    public MonthDay(final long n)
+    public MonthDay(final long n, final Chronology chronology)
+    public MonthDay(final Object o)
+    public MonthDay(final Object o, final Chronology chronology)
+    public MonthDay(final int n, final int n2)
+    public MonthDay(final int n, final int n2, final Chronology chronology)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getFieldType():
-'''public DateTimeFieldType getFieldType(final int n)
-'''
-pass
+    '''    public DateTimeFieldType getFieldType(final int n)
+    '''
 def getFieldTypes():
-'''public DateTimeFieldType[] getFieldTypes()
-'''
-pass
+    '''    public DateTimeFieldType[] getFieldTypes()
+    '''
 def withChronologyRetainFields():
-'''public MonthDay withChronologyRetainFields(Chronology chronology)
-'''
-pass
+    '''    public MonthDay withChronologyRetainFields(Chronology chronology)
+    '''
 def withField():
-'''public MonthDay withField(final DateTimeFieldType dateTimeFieldType, final int n)
-'''
-pass
+    '''    public MonthDay withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''
 def withFieldAdded():
-'''public MonthDay withFieldAdded(final DurationFieldType durationFieldType, final int n)
-'''
-pass
+    '''    public MonthDay withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''
 def withPeriodAdded():
-'''public MonthDay withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
-'''
-pass
+    '''    public MonthDay withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''
 def plus():
-'''public MonthDay plus(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public MonthDay plus(final ReadablePeriod readablePeriod)
+    '''
 def plusMonths():
-'''public MonthDay plusMonths(final int n)
-'''
-pass
+    '''    public MonthDay plusMonths(final int n)
+    '''
 def plusDays():
-'''public MonthDay plusDays(final int n)
-'''
-pass
+    '''    public MonthDay plusDays(final int n)
+    '''
 def minus():
-'''public MonthDay minus(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public MonthDay minus(final ReadablePeriod readablePeriod)
+    '''
 def minusMonths():
-'''public MonthDay minusMonths(final int n)
-'''
-pass
+    '''    public MonthDay minusMonths(final int n)
+    '''
 def minusDays():
-'''public MonthDay minusDays(final int n)
-'''
-pass
+    '''    public MonthDay minusDays(final int n)
+    '''
 def toLocalDate():
-'''public LocalDate toLocalDate(final int n)
-'''
-pass
+    '''    public LocalDate toLocalDate(final int n)
+    '''
 def getMonthOfYear():
-'''public int getMonthOfYear()
-'''
-pass
+    '''    public int getMonthOfYear()
+    '''
 def getDayOfMonth():
-'''public int getDayOfMonth()
-'''
-pass
+    '''    public int getDayOfMonth()
+    '''
 def withMonthOfYear():
-'''public MonthDay withMonthOfYear(final int n)
-'''
-pass
+    '''    public MonthDay withMonthOfYear(final int n)
+    '''
 def withDayOfMonth():
-'''public MonthDay withDayOfMonth(final int n)
-'''
-pass
+    '''    public MonthDay withDayOfMonth(final int n)
+    '''
 def property():
-'''public Property property(final DateTimeFieldType dateTimeFieldType)
-'''
-pass
+    '''    public Property property(final DateTimeFieldType dateTimeFieldType)
+    '''
 def monthOfYear():
-'''public Property monthOfYear()
-'''
-pass
+    '''    public Property monthOfYear()
+    '''
 def dayOfMonth():
-'''public Property dayOfMonth()
-'''
-pass
+    '''    public Property dayOfMonth()
+    '''
 def toString():
-'''public String toString()
-public String toString(final String s)
-public String toString(final String s, final Locale locale)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String s)
+    public String toString(final String s, final Locale locale)
+    '''
 def getField():
-'''public DateTimeField getField()
-'''
-pass
+    '''    public DateTimeField getField()
+    '''
 def getMonthDay():
-'''public MonthDay getMonthDay()
-'''
-pass
+    '''    public MonthDay getMonthDay()
+    '''
 def get():
-'''public int get()
-'''
-pass
+    '''    public int get()
+    '''
 def addToCopy():
-'''public MonthDay addToCopy(final int n)
-'''
-pass
+    '''    public MonthDay addToCopy(final int n)
+    '''
 def addWrapFieldToCopy():
-'''public MonthDay addWrapFieldToCopy(final int n)
-'''
-pass
+    '''    public MonthDay addWrapFieldToCopy(final int n)
+    '''
 def setCopy():
-'''public MonthDay setCopy(final int n)
-public MonthDay setCopy(final String s, final Locale locale)
-public MonthDay setCopy(final String s)
-'''
-pass
+    '''    public MonthDay setCopy(final int n)
+    public MonthDay setCopy(final String s, final Locale locale)
+    public MonthDay setCopy(final String s)
+    '''

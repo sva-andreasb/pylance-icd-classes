@@ -1,12 +1,9 @@
 def PG():
-'''public PG(final OutputStream outputStream)
-'''
-pass
+    '''    public PG(final OutputStream outputStream)
+    '''
 def isCauseOf():
-'''public boolean isCauseOf(final Exception exception)
-'''
-pass
+    '''    public boolean isCauseOf(final Exception exception)
+    '''
 def throwIfCauseOf():
-'''public void throwIfCauseOf(final Exception exception)
-'''
-pass
+    '''    public void throwIfCauseOf(final Exception exception)
+    '''

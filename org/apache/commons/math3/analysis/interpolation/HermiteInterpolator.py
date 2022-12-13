@@ -1,17 +1,13 @@
 def HermiteInterpolator():
-'''public HermiteInterpolator()
-'''
-pass
+    '''    public HermiteInterpolator()
+    '''
 def addSamplePoint():
-'''public void addSamplePoint(final double x, final double[]... value)
-'''
-pass
+    '''    public void addSamplePoint(final double x, final double[]... value)
+    '''
 def getPolynomials():
-'''public PolynomialFunction[] getPolynomials()
-'''
-pass
+    '''    public PolynomialFunction[] getPolynomials()
+    '''
 def value():
-'''public double[] value(final double x)
-public DerivativeStructure[] value(final DerivativeStructure x)
-'''
-pass
+    '''    public double[] value(final double x)
+    public DerivativeStructure[] value(final DerivativeStructure x)
+    '''

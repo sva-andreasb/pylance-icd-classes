@@ -1,12 +1,9 @@
 def JsonConfigurationFactory():
-'''public JsonConfigurationFactory()
-'''
-pass
+    '''    public JsonConfigurationFactory()
+    '''
 def getConfiguration():
-'''public Configuration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
-'''
-pass
+    '''    public Configuration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
+    '''
 def getSupportedTypes():
-'''public String[] getSupportedTypes()
-'''
-pass
+    '''    public String[] getSupportedTypes()
+    '''

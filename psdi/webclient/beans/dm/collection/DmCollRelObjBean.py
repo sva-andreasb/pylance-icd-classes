@@ -1,16 +1,12 @@
 def deletSelected():
-'''public int deletSelected()
-'''
-pass
+    '''    public int deletSelected()
+    '''
 def deletAll():
-'''public int deletAll()
-'''
-pass
+    '''    public int deletAll()
+    '''
 def addSelected():
-'''public int addSelected()
-'''
-pass
+    '''    public int addSelected()
+    '''
 def addAll():
-'''public int addAll()
-'''
-pass
+    '''    public int addAll()
+    '''

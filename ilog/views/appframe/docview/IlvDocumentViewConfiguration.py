@@ -1,97 +1,73 @@
-ICON_ATTRIBUTE = "String  icon""
+ICON_ATTRIBUTE = "String  \"icon\""
 def IlvDocumentViewConfiguration():
-'''public IlvDocumentViewConfiguration(final String name)
-'''
-pass
+    '''    public IlvDocumentViewConfiguration(final String name)
+    '''
 def newViewContainer():
-'''public IlvViewContainer newViewContainer(final IlvDocument ilvDocument, final boolean b)
-'''
-pass
+    '''    public IlvViewContainer newViewContainer(final IlvDocument ilvDocument, final boolean b)
+    '''
 def readSettings():
-'''public void readSettings(final IlvSettingsElement a, final IlvSettings ilvSettings)
-'''
-pass
+    '''    public void readSettings(final IlvSettingsElement a, final IlvSettings ilvSettings)
+    '''
 def connectMainWindow():
-'''public void connectMainWindow(final IlvMainWindow ilvMainWindow)
-'''
-pass
+    '''    public void connectMainWindow(final IlvMainWindow ilvMainWindow)
+    '''
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def setName():
-'''public void setName(final String c)
-'''
-pass
+    '''    public void setName(final String c)
+    '''
 def getTemplateName():
-'''public String getTemplateName()
-'''
-pass
+    '''    public String getTemplateName()
+    '''
 def isMDI():
-'''public boolean isMDI()
-'''
-pass
+    '''    public boolean isMDI()
+    '''
 def isAutoCreate():
-'''public boolean isAutoCreate()
-'''
-pass
+    '''    public boolean isAutoCreate()
+    '''
 def setAutoCreate():
-'''public void setAutoCreate(final boolean g)
-'''
-pass
+    '''    public void setAutoCreate(final boolean g)
+    '''
 def getDocumentTemplate():
-'''public IlvDocumentTemplate getDocumentTemplate()
-'''
-pass
+    '''    public IlvDocumentTemplate getDocumentTemplate()
+    '''
 def setDocumentTemplate():
-'''public void setDocumentTemplate(final IlvDocumentTemplate j)
-'''
-pass
+    '''    public void setDocumentTemplate(final IlvDocumentTemplate j)
+    '''
 def getContainerTemplate():
-'''public IlvContainerTemplate getContainerTemplate()
-'''
-pass
+    '''    public IlvContainerTemplate getContainerTemplate()
+    '''
 def setContainerTemplate():
-'''public void setContainerTemplate(final IlvContainerTemplate e)
-'''
-pass
+    '''    public void setContainerTemplate(final IlvContainerTemplate e)
+    '''
 def isAutomaticContainerTitle():
-'''public boolean isAutomaticContainerTitle()
-'''
-pass
+    '''    public boolean isAutomaticContainerTitle()
+    '''
 def setAutomaticContainerTitle():
-'''public void setAutomaticContainerTitle(final boolean h)
-'''
-pass
+    '''    public void setAutomaticContainerTitle(final boolean h)
+    '''
 def getDefaultContainerTitle():
-'''public String getDefaultContainerTitle()
-'''
-pass
+    '''    public String getDefaultContainerTitle()
+    '''
 def setDefaultContainerTitle():
-'''public void setDefaultContainerTitle(final String i)
-'''
-pass
+    '''    public void setDefaultContainerTitle(final String i)
+    '''
 def isCloseDocumentOnClose():
-'''public boolean isCloseDocumentOnClose()
-'''
-pass
+    '''    public boolean isCloseDocumentOnClose()
+    '''
 def setCloseDocumentOnClose():
-'''public void setCloseDocumentOnClose(final boolean k)
-'''
-pass
+    '''    public void setCloseDocumentOnClose(final boolean k)
+    '''
 def isContainerActiveByDefault():
-'''public boolean isContainerActiveByDefault()
-'''
-pass
+    '''    public boolean isContainerActiveByDefault()
+    '''
 def setContainerActiveByDefault():
-'''public void setContainerActiveByDefault(final boolean l)
-'''
-pass
+    '''    public void setContainerActiveByDefault(final boolean l)
+    '''
 def getIcon():
-'''public Icon getIcon()
-'''
-pass
+    '''    public Icon getIcon()
+    '''
 def setIcon():
-'''public void setIcon(final Icon m)
-'''
-pass
+    '''    public void setIcon(final Icon m)
+    '''

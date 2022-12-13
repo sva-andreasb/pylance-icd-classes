@@ -1,12 +1,9 @@
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getDetail():
-'''public String getDetail()
-'''
-pass
+    '''    public String getDetail()
+    '''
 def dump():
-'''public void dump(final PrintStream stream)
-'''
-pass
+    '''    public void dump(final PrintStream stream)
+    '''

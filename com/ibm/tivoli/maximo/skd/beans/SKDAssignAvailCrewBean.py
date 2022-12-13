@@ -1,12 +1,9 @@
 def SKDAssignAvailCrewBean():
-'''public SKDAssignAvailCrewBean()
-'''
-pass
+    '''    public SKDAssignAvailCrewBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

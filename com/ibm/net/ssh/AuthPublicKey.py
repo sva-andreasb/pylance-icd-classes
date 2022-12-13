@@ -1,13 +1,10 @@
 def AuthPublicKey():
-'''public AuthPublicKey(final String username, final KeyPair keyPair)
-public AuthPublicKey(final String username, final KeyPair keyPair, final PublicKeyFile publicKeyFile)
-'''
-pass
+    '''    public AuthPublicKey(final String username, final KeyPair keyPair)
+    public AuthPublicKey(final String username, final KeyPair keyPair, final PublicKeyFile publicKeyFile)
+    '''
 def getMethodName():
-'''public String getMethodName()
-'''
-pass
+    '''    public String getMethodName()
+    '''
 def getKeyPair():
-'''public KeyPair getKeyPair()
-'''
-pass
+    '''    public KeyPair getKeyPair()
+    '''

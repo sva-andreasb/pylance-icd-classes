@@ -1,20 +1,15 @@
 def LanguageGuess():
-'''public LanguageGuess(final String language, final int n, final int confidence)
-'''
-pass
+    '''    public LanguageGuess(final String language, final int n, final int confidence)
+    '''
 def getConfidence():
-'''public int getConfidence()
-'''
-pass
+    '''    public int getConfidence()
+    '''
 def getLanguage():
-'''public String getLanguage()
-'''
-pass
+    '''    public String getLanguage()
+    '''
 def getScore():
-'''public long getScore()
-'''
-pass
+    '''    public long getScore()
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''

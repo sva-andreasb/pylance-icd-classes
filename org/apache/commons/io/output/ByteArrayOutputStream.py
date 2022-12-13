@@ -1,46 +1,36 @@
 def ByteArrayOutputStream():
-'''public ByteArrayOutputStream()
-public ByteArrayOutputStream(final int size)
-'''
-pass
+    '''    public ByteArrayOutputStream()
+    public ByteArrayOutputStream(final int size)
+    '''
 def write():
-'''public void write(final byte[] b, final int off, final int len)
-public synchronized void write(final int b)
-public synchronized int write(final InputStream in)
-'''
-pass
+    '''    public void write(final byte[] b, final int off, final int len)
+    public synchronized void write(final int b)
+    public synchronized int write(final InputStream in)
+    '''
 def size():
-'''public synchronized int size()
-'''
-pass
+    '''    public synchronized int size()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def writeTo():
-'''public synchronized void writeTo(final OutputStream out)
-'''
-pass
+    '''    public synchronized void writeTo(final OutputStream out)
+    '''
 def toBufferedInputStream():
-'''public static InputStream toBufferedInputStream(final InputStream input)
-public static InputStream toBufferedInputStream(final InputStream input, final int size)
-'''
-pass
+    '''    public static InputStream toBufferedInputStream(final InputStream input)
+    public static InputStream toBufferedInputStream(final InputStream input, final int size)
+    '''
 def toInputStream():
-'''public synchronized InputStream toInputStream()
-'''
-pass
+    '''    public synchronized InputStream toInputStream()
+    '''
 def toByteArray():
-'''public synchronized byte[] toByteArray()
-'''
-pass
+    '''    public synchronized byte[] toByteArray()
+    '''
 def toString():
-'''public String toString()
-public String toString(final String enc)
-public String toString(final Charset charset)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String enc)
+    public String toString(final Charset charset)
+    '''

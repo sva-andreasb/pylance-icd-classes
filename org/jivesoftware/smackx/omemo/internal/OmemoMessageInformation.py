@@ -1,38 +1,29 @@
 def OmemoMessageInformation():
-'''public OmemoMessageInformation()
-public OmemoMessageInformation(final IdentityKeyWrapper senderIdentityKey, final OmemoDevice senderDevice, final CARBON carbon)
-public OmemoMessageInformation(final IdentityKeyWrapper senderIdentityKey, final OmemoDevice senderDevice, final CARBON carbon, final boolean omemo)
-'''
-pass
+    '''    public OmemoMessageInformation()
+    public OmemoMessageInformation(final IdentityKeyWrapper senderIdentityKey, final OmemoDevice senderDevice, final CARBON carbon)
+    public OmemoMessageInformation(final IdentityKeyWrapper senderIdentityKey, final OmemoDevice senderDevice, final CARBON carbon, final boolean omemo)
+    '''
 def getSenderIdentityKey():
-'''public IdentityKeyWrapper getSenderIdentityKey()
-'''
-pass
+    '''    public IdentityKeyWrapper getSenderIdentityKey()
+    '''
 def setSenderIdentityKey():
-'''public void setSenderIdentityKey(final IdentityKeyWrapper senderIdentityKey)
-'''
-pass
+    '''    public void setSenderIdentityKey(final IdentityKeyWrapper senderIdentityKey)
+    '''
 def getSenderDevice():
-'''public OmemoDevice getSenderDevice()
-'''
-pass
+    '''    public OmemoDevice getSenderDevice()
+    '''
 def isOmemoMessage():
-'''public boolean isOmemoMessage()
-'''
-pass
+    '''    public boolean isOmemoMessage()
+    '''
 def setSenderDevice():
-'''public void setSenderDevice(final OmemoDevice senderDevice)
-'''
-pass
+    '''    public void setSenderDevice(final OmemoDevice senderDevice)
+    '''
 def getCarbon():
-'''public CARBON getCarbon()
-'''
-pass
+    '''    public CARBON getCarbon()
+    '''
 def setCarbon():
-'''public void setCarbon(final CARBON carbon)
-'''
-pass
+    '''    public void setCarbon(final CARBON carbon)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def CDUISearchBBOutProcess():
-'''public CDUISearchBBOutProcess()
-'''
-pass
+    '''    public CDUISearchBBOutProcess()
+    '''
 def search():
-'''public void search(final MboSetRemote mboSet, final String text)
-'''
-pass
+    '''    public void search(final MboSetRemote mboSet, final String text)
+    '''

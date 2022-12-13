@@ -1,4 +1,3 @@
 def NotFoundException():
-'''public NotFoundException(final String message)
-'''
-pass
+    '''    public NotFoundException(final String message)
+    '''

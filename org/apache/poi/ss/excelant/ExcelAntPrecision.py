@@ -1,8 +1,6 @@
 def setValue():
-'''public void setValue(final double precision)
-'''
-pass
+    '''    public void setValue(final double precision)
+    '''
 def getValue():
-'''public double getValue()
-'''
-pass
+    '''    public double getValue()
+    '''

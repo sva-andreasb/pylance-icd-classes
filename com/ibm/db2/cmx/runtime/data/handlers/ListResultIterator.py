@@ -1,20 +1,15 @@
 def ListResultIterator():
-'''public ListResultIterator(final List<T> underlyingList_)
-'''
-pass
+    '''    public ListResultIterator(final List<T> underlyingList_)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public T next()
-'''
-pass
+    '''    public T next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

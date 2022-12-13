@@ -1,87 +1,66 @@
 def InvBalances():
-'''public InvBalances(final MboSet ms)
-'''
-pass
+    '''    public InvBalances(final MboSet ms)
+    '''
 def updateCurrentBalance():
-'''public void updateCurrentBalance(final double quantity)
-'''
-pass
+    '''    public void updateCurrentBalance(final double quantity)
+    '''
 def getPhysicalCount():
-'''public double getPhysicalCount()
-'''
-pass
+    '''    public double getPhysicalCount()
+    '''
 def getCurrentBalance():
-'''public double getCurrentBalance()
-'''
-pass
+    '''    public double getCurrentBalance()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def adjustPhysicalCount():
-'''public MboRemote adjustPhysicalCount(final double quantity, final Date pCountDate)
-'''
-pass
+    '''    public MboRemote adjustPhysicalCount(final double quantity, final Date pCountDate)
+    '''
 def adjustCurrentBalance():
-'''public MboRemote adjustCurrentBalance(final double newBalance)
-public MboRemote adjustCurrentBalance(final double newBalance, final String controlacc, final String shrinkageacc)
-'''
-pass
+    '''    public MboRemote adjustCurrentBalance(final double newBalance)
+    public MboRemote adjustCurrentBalance(final double newBalance, final String controlacc, final String shrinkageacc)
+    '''
 def reconcileBalances():
-'''public MboRemote reconcileBalances()
-'''
-pass
+    '''    public MboRemote reconcileBalances()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def setAutoCreateInvLot():
-'''public void setAutoCreateInvLot(final boolean flag)
-'''
-pass
+    '''    public void setAutoCreateInvLot(final boolean flag)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def adjustLifoFifoCurrentBalance():
-'''public void adjustLifoFifoCurrentBalance(final double newBalance)
-'''
-pass
+    '''    public void adjustLifoFifoCurrentBalance(final double newBalance)
+    '''
 def createInvTrans():
-'''public MboRemote createInvTrans(final double quantity, final double unitcost, final boolean isreconcile)
-'''
-pass
+    '''    public MboRemote createInvTrans(final double quantity, final double unitcost, final boolean isreconcile)
+    '''
 def getNewBalanceForReconcile():
-'''public double getNewBalanceForReconcile()
-'''
-pass
+    '''    public double getNewBalanceForReconcile()
+    '''
 def reconcileBalancesLifoFifo():
-'''public void reconcileBalancesLifoFifo(final String controlacc, final String shrinkageacc, final String remark)
-'''
-pass
+    '''    public void reconcileBalancesLifoFifo(final String controlacc, final String shrinkageacc, final String remark)
+    '''
 def updateLifoFifoQtyAndCreateInvTrans():
-'''public void updateLifoFifoQtyAndCreateInvTrans(final boolean isreconcile)
-public void updateLifoFifoQtyAndCreateInvTrans(final HashMap<String, Vector<MboRemote>> condBalMap, final boolean isreconcile)
-public void updateLifoFifoQtyAndCreateInvTrans(final Vector<MboRemote> invBalanceVec, final String conditionCode, final boolean isreconcile)
-'''
-pass
+    '''    public void updateLifoFifoQtyAndCreateInvTrans(final boolean isreconcile)
+    public void updateLifoFifoQtyAndCreateInvTrans(final HashMap<String, Vector<MboRemote>> condBalMap, final boolean isreconcile)
+    public void updateLifoFifoQtyAndCreateInvTrans(final Vector<MboRemote> invBalanceVec, final String conditionCode, final boolean isreconcile)
+    '''
 def reconcileLifoFifoCurrentBalance():
-'''public void reconcileLifoFifoCurrentBalance(final double physcnt)
-'''
-pass
+    '''    public void reconcileLifoFifoCurrentBalance(final double physcnt)
+    '''
 def checkWMATStatus():
-'''public boolean checkWMATStatus()
-'''
-pass
+    '''    public boolean checkWMATStatus()
+    '''
 def previewReconcileBalances():
-'''public MboRemote previewReconcileBalances()
-'''
-pass
+    '''    public MboRemote previewReconcileBalances()
+    '''

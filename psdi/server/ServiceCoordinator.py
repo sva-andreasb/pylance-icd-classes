@@ -1,24 +1,18 @@
 def ServiceCoordinator():
-'''public ServiceCoordinator(final MXServer mxServer)
-'''
-pass
+    '''    public ServiceCoordinator(final MXServer mxServer)
+    '''
 def configure():
-'''public void configure(final MXServer mxServer, final Properties configData)
-'''
-pass
+    '''    public void configure(final MXServer mxServer, final Properties configData)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def lookup():
-'''public ServiceRemote lookup(final String name)
-'''
-pass
+    '''    public ServiceRemote lookup(final String name)
+    '''
 def lookupLocal():
-'''public ServiceRemote lookupLocal(final String name)
-'''
-pass
+    '''    public ServiceRemote lookupLocal(final String name)
+    '''
 def getLocalAppList():
-'''public String[] getLocalAppList()
-'''
-pass
+    '''    public String[] getLocalAppList()
+    '''

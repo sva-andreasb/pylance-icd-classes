@@ -1,16 +1,12 @@
 def PlusPFldBSAssetRangePricing():
-'''public PlusPFldBSAssetRangePricing(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBSAssetRangePricing(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def validateRangeAndPrice():
-'''public static void validateRangeAndPrice(final MboValue mboValue)
-'''
-pass
+    '''    public static void validateRangeAndPrice(final MboValue mboValue)
+    '''

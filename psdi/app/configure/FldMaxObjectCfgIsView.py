@@ -1,8 +1,6 @@
 def FldMaxObjectCfgIsView():
-'''public FldMaxObjectCfgIsView(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxObjectCfgIsView(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

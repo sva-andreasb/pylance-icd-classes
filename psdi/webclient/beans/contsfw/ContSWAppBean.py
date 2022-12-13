@@ -1,44 +1,33 @@
 def DETAILREP():
-'''public int DETAILREP()
-'''
-pass
+    '''    public int DETAILREP()
+    '''
 def PRINTDOCS():
-'''public int PRINTDOCS()
-'''
-pass
+    '''    public int PRINTDOCS()
+    '''
 def CREATEREPO():
-'''public int CREATEREPO()
-'''
-pass
+    '''    public int CREATEREPO()
+    '''
 def COPYPRLINE():
-'''public int COPYPRLINE()
-'''
-pass
+    '''    public int COPYPRLINE()
+    '''
 def COPYPOLINE():
-'''public int COPYPOLINE()
-'''
-pass
+    '''    public int COPYPOLINE()
+    '''
 def REVCONT():
-'''public int REVCONT()
-'''
-pass
+    '''    public int REVCONT()
+    '''
 def VIEWRELCOS():
-'''public int VIEWRELCOS()
-'''
-pass
+    '''    public int VIEWRELCOS()
+    '''
 def CHGST():
-'''public int CHGST()
-'''
-pass
+    '''    public int CHGST()
+    '''
 def AUTHSITES():
-'''public int AUTHSITES()
-'''
-pass
+    '''    public int AUTHSITES()
+    '''
 def SWLIC():
-'''public int SWLIC()
-'''
-pass
+    '''    public int SWLIC()
+    '''
 def APPLYPRAD():
-'''public int APPLYPRAD()
-'''
-pass
+    '''    public int APPLYPRAD()
+    '''

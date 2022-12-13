@@ -1,17 +1,13 @@
-NAME = "String  DIGEST-MD5""
+NAME = "String  \"DIGEST-MD5\""
 def authzidSupported():
-'''public boolean authzidSupported()
-'''
-pass
+    '''    public boolean authzidSupported()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLDigestMD5Mechanism newInstance()
-'''
-pass
+    '''    public SASLDigestMD5Mechanism newInstance()
+    '''

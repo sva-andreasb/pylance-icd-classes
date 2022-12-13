@@ -1,4 +1,3 @@
 def PartitionEntryCountRequest():
-'''public PartitionEntryCountRequest(final String s)
-'''
-pass
+    '''    public PartitionEntryCountRequest(final String s)
+    '''

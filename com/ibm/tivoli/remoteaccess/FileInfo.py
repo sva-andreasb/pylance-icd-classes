@@ -4,26 +4,20 @@ isDirectory = "int  2"
 isLink = "int  4"
 all = "int  65535"
 def getFileSize():
-'''public long getFileSize()
-'''
-pass
+    '''    public long getFileSize()
+    '''
 def getFileType():
-'''public int getFileType()
-'''
-pass
+    '''    public int getFileType()
+    '''
 def getGroup():
-'''public String getGroup()
-'''
-pass
+    '''    public String getGroup()
+    '''
 def getPermissions():
-'''public String getPermissions()
-'''
-pass
+    '''    public String getPermissions()
+    '''
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''

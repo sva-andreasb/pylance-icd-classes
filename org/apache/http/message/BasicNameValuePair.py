@@ -1,28 +1,21 @@
 def BasicNameValuePair():
-'''public BasicNameValuePair(final String name, final String value)
-'''
-pass
+    '''    public BasicNameValuePair(final String name, final String value)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

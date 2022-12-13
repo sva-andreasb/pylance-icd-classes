@@ -1,28 +1,21 @@
 def AccessDefinition():
-'''public AccessDefinition(final String role, final Resource[] resource, final String[] permissions)
-'''
-pass
+    '''    public AccessDefinition(final String role, final Resource[] resource, final String[] permissions)
+    '''
 def getPermissions():
-'''public String[] getPermissions()
-'''
-pass
+    '''    public String[] getPermissions()
+    '''
 def setPermissions():
-'''public void setPermissions(final String[] permissions)
-'''
-pass
+    '''    public void setPermissions(final String[] permissions)
+    '''
 def getResources():
-'''public Resource[] getResources()
-'''
-pass
+    '''    public Resource[] getResources()
+    '''
 def setResource():
-'''public void setResource(final Resource[] resources)
-'''
-pass
+    '''    public void setResource(final Resource[] resources)
+    '''
 def getRole():
-'''public String getRole()
-'''
-pass
+    '''    public String getRole()
+    '''
 def setRole():
-'''public void setRole(final String role)
-'''
-pass
+    '''    public void setRole(final String role)
+    '''

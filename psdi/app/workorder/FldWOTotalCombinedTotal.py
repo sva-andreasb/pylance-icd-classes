@@ -1,8 +1,6 @@
 def FldWOTotalCombinedTotal():
-'''public FldWOTotalCombinedTotal(final MboValue mbv)
-'''
-pass
+    '''    public FldWOTotalCombinedTotal(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

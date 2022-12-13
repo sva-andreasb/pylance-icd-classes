@@ -1,8 +1,6 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def getProductString():
-'''public static String getProductString()
-'''
-pass
+    '''    public static String getProductString()
+    '''

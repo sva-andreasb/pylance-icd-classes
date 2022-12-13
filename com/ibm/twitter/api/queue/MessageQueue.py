@@ -1,16 +1,12 @@
 def MessageQueue():
-'''public MessageQueue()
-'''
-pass
+    '''    public MessageQueue()
+    '''
 def addMessage():
-'''public synchronized void addMessage(final int i, final Message message)
-'''
-pass
+    '''    public synchronized void addMessage(final int i, final Message message)
+    '''
 def getMessage():
-'''public synchronized Message getMessage(final int i)
-'''
-pass
+    '''    public synchronized Message getMessage(final int i)
+    '''
 def getMessages():
-'''public synchronized Map<Integer, Message> getMessages()
-'''
-pass
+    '''    public synchronized Map<Integer, Message> getMessages()
+    '''

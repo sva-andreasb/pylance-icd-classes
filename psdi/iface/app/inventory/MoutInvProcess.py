@@ -1,8 +1,6 @@
 def MoutInvProcess():
-'''public MoutInvProcess()
-'''
-pass
+    '''    public MoutInvProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-'''
-pass
+    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''

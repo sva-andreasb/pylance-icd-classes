@@ -1,12 +1,9 @@
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''
 def testConnection():
-'''public int testConnection()
-'''
-pass
+    '''    public int testConnection()
+    '''

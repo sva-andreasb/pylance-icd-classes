@@ -1,136 +1,102 @@
 def getNotificationOccurrenceEvent():
-'''public Event getNotificationOccurrenceEvent()
-'''
-pass
+    '''    public Event getNotificationOccurrenceEvent()
+    '''
 def setNotificationOccurrenceEvent():
-'''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
-'''
-pass
+    '''    public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''
 def getResource():
-'''public Entity getResource()
-'''
-pass
+    '''    public Entity getResource()
+    '''
 def setResource():
-'''public void setResource(final Entity resource)
-'''
-pass
+    '''    public void setResource(final Entity resource)
+    '''
 def getActive():
-'''public Long getActive()
-'''
-pass
+    '''    public Long getActive()
+    '''
 def setActive():
-'''public void setActive(final Long active)
-'''
-pass
+    '''    public void setActive(final Long active)
+    '''
 def isActiveSpecified():
-'''public boolean isActiveSpecified()
-'''
-pass
+    '''    public boolean isActiveSpecified()
+    '''
 def unsetActive():
-'''public void unsetActive()
-'''
-pass
+    '''    public void unsetActive()
+    '''
 def getFilterLabel():
-'''public String getFilterLabel()
-'''
-pass
+    '''    public String getFilterLabel()
+    '''
 def setFilterLabel():
-'''public void setFilterLabel(final String filterLabel)
-'''
-pass
+    '''    public void setFilterLabel(final String filterLabel)
+    '''
 def isFilterLabelSpecified():
-'''public boolean isFilterLabelSpecified()
-'''
-pass
+    '''    public boolean isFilterLabelSpecified()
+    '''
 def unsetFilterLabel():
-'''public void unsetFilterLabel()
-'''
-pass
+    '''    public void unsetFilterLabel()
+    '''
 def getNotificationOccurrenceEventId():
-'''public Long getNotificationOccurrenceEventId()
-'''
-pass
+    '''    public Long getNotificationOccurrenceEventId()
+    '''
 def setNotificationOccurrenceEventId():
-'''public void setNotificationOccurrenceEventId(final Long notificationOccurrenceEventId)
-'''
-pass
+    '''    public void setNotificationOccurrenceEventId(final Long notificationOccurrenceEventId)
+    '''
 def isNotificationOccurrenceEventIdSpecified():
-'''public boolean isNotificationOccurrenceEventIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationOccurrenceEventIdSpecified()
+    '''
 def unsetNotificationOccurrenceEventId():
-'''public void unsetNotificationOccurrenceEventId()
-'''
-pass
+    '''    public void unsetNotificationOccurrenceEventId()
+    '''
 def getResourceAccountId():
-'''public Long getResourceAccountId()
-'''
-pass
+    '''    public Long getResourceAccountId()
+    '''
 def setResourceAccountId():
-'''public void setResourceAccountId(final Long resourceAccountId)
-'''
-pass
+    '''    public void setResourceAccountId(final Long resourceAccountId)
+    '''
 def isResourceAccountIdSpecified():
-'''public boolean isResourceAccountIdSpecified()
-'''
-pass
+    '''    public boolean isResourceAccountIdSpecified()
+    '''
 def unsetResourceAccountId():
-'''public void unsetResourceAccountId()
-'''
-pass
+    '''    public void unsetResourceAccountId()
+    '''
 def getResourceName():
-'''public String getResourceName()
-'''
-pass
+    '''    public String getResourceName()
+    '''
 def setResourceName():
-'''public void setResourceName(final String resourceName)
-'''
-pass
+    '''    public void setResourceName(final String resourceName)
+    '''
 def isResourceNameSpecified():
-'''public boolean isResourceNameSpecified()
-'''
-pass
+    '''    public boolean isResourceNameSpecified()
+    '''
 def unsetResourceName():
-'''public void unsetResourceName()
-'''
-pass
+    '''    public void unsetResourceName()
+    '''
 def getResourceTableId():
-'''public Long getResourceTableId()
-'''
-pass
+    '''    public Long getResourceTableId()
+    '''
 def setResourceTableId():
-'''public void setResourceTableId(final Long resourceTableId)
-'''
-pass
+    '''    public void setResourceTableId(final Long resourceTableId)
+    '''
 def isResourceTableIdSpecified():
-'''public boolean isResourceTableIdSpecified()
-'''
-pass
+    '''    public boolean isResourceTableIdSpecified()
+    '''
 def unsetResourceTableId():
-'''public void unsetResourceTableId()
-'''
-pass
+    '''    public void unsetResourceTableId()
+    '''
 def active():
-'''public Mask active()
-'''
-pass
+    '''    public Mask active()
+    '''
 def filterLabel():
-'''public Mask filterLabel()
-'''
-pass
+    '''    public Mask filterLabel()
+    '''
 def notificationOccurrenceEventId():
-'''public Mask notificationOccurrenceEventId()
-'''
-pass
+    '''    public Mask notificationOccurrenceEventId()
+    '''
 def resourceAccountId():
-'''public Mask resourceAccountId()
-'''
-pass
+    '''    public Mask resourceAccountId()
+    '''
 def resourceName():
-'''public Mask resourceName()
-'''
-pass
+    '''    public Mask resourceName()
+    '''
 def resourceTableId():
-'''public Mask resourceTableId()
-'''
-pass
+    '''    public Mask resourceTableId()
+    '''

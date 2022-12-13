@@ -1,21 +1,16 @@
-PUSHNOTF_LOGGER = "String  maximo.pushnotification""
+PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
 def PushNotificationsProviderHandler():
-'''public PushNotificationsProviderHandler()
-'''
-pass
+    '''    public PushNotificationsProviderHandler()
+    '''
 def handleRequest():
-'''public OslcResourceResponse handleRequest(final OslcRequest request)
-'''
-pass
+    '''    public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''
 def getProviderName():
-'''public void getProviderName()
-'''
-pass
+    '''    public void getProviderName()
+    '''
 def getProviderInfo():
-'''public OslcResourceResponse getProviderInfo()
-'''
-pass
+    '''    public OslcResourceResponse getProviderInfo()
+    '''
 def updateDeviceInfo():
-'''public OslcResourceResponse updateDeviceInfo()
-'''
-pass
+    '''    public OslcResourceResponse updateDeviceInfo()
+    '''

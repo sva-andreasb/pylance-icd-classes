@@ -1,8 +1,6 @@
 def ImgLibSet():
-'''public ImgLibSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ImgLibSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

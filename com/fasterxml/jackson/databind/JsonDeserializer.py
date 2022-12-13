@@ -1,50 +1,38 @@
 def deserialize():
-'''public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T intoValue)
-'''
-pass
+    '''    public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T intoValue)
+    '''
 def deserializeWithType():
-'''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-'''
-pass
+    '''    public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''
 def unwrappingDeserializer():
-'''public JsonDeserializer<T> unwrappingDeserializer(final NameTransformer unwrapper)
-'''
-pass
+    '''    public JsonDeserializer<T> unwrappingDeserializer(final NameTransformer unwrapper)
+    '''
 def isCachable():
-'''public boolean isCachable()
-'''
-pass
+    '''    public boolean isCachable()
+    '''
 def getKnownPropertyNames():
-'''public Collection<Object> getKnownPropertyNames()
-'''
-pass
+    '''    public Collection<Object> getKnownPropertyNames()
+    '''
 def getNullValue():
-'''public T getNullValue(final DeserializationContext ctxt)
-public T getNullValue()
-'''
-pass
+    '''    public T getNullValue(final DeserializationContext ctxt)
+    public T getNullValue()
+    '''
 def getNullAccessPattern():
-'''public AccessPattern getNullAccessPattern()
-'''
-pass
+    '''    public AccessPattern getNullAccessPattern()
+    '''
 def getEmptyAccessPattern():
-'''public AccessPattern getEmptyAccessPattern()
-'''
-pass
+    '''    public AccessPattern getEmptyAccessPattern()
+    '''
 def getEmptyValue():
-'''public Object getEmptyValue(final DeserializationContext ctxt)
-public Object getEmptyValue()
-'''
-pass
+    '''    public Object getEmptyValue(final DeserializationContext ctxt)
+    public Object getEmptyValue()
+    '''
 def getObjectIdReader():
-'''public ObjectIdReader getObjectIdReader()
-'''
-pass
+    '''    public ObjectIdReader getObjectIdReader()
+    '''
 def findBackReference():
-'''public SettableBeanProperty findBackReference(final String refName)
-'''
-pass
+    '''    public SettableBeanProperty findBackReference(final String refName)
+    '''
 def supportsUpdate():
-'''public Boolean supportsUpdate(final DeserializationConfig config)
-'''
-pass
+    '''    public Boolean supportsUpdate(final DeserializationConfig config)
+    '''

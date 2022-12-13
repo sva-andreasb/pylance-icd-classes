@@ -1,4 +1,3 @@
 def FldWhereUsedAssetnum():
-'''public FldWhereUsedAssetnum(final MboValue mbv)
-'''
-pass
+    '''    public FldWhereUsedAssetnum(final MboValue mbv)
+    '''

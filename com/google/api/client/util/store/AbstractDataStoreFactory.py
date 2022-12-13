@@ -1,8 +1,6 @@
 def AbstractDataStoreFactory():
-'''public AbstractDataStoreFactory()
-'''
-pass
+    '''    public AbstractDataStoreFactory()
+    '''
 def getDataStore():
-'''public final <V extends Serializable> DataStore<V> getDataStore(final String id)
-'''
-pass
+    '''    public final <V extends Serializable> DataStore<V> getDataStore(final String id)
+    '''

@@ -1,28 +1,21 @@
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def setStreetAddress():
-'''public int setStreetAddress()
-'''
-pass
+    '''    public int setStreetAddress()
+    '''
 def PLUSPVCPRT():
-'''public int PLUSPVCPRT()
-'''
-pass
+    '''    public int PLUSPVCPRT()
+    '''
 def APPLYPS():
-'''public int APPLYPS()
-'''
-pass
+    '''    public int APPLYPS()
+    '''
 def PLUSPFC():
-'''public int PLUSPFC()
-'''
-pass
+    '''    public int PLUSPFC()
+    '''
 def createFollowUp():
-'''public MboRemote createFollowUp(final MboSetRemote mboSet)
-'''
-pass
+    '''    public MboRemote createFollowUp(final MboSetRemote mboSet)
+    '''
 def getMboSetFromSmartFind():
-'''public MboSetRemote getMboSetFromSmartFind(final int row, final String attribute)
-'''
-pass
+    '''    public MboSetRemote getMboSetFromSmartFind(final int row, final String attribute)
+    '''

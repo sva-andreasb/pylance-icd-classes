@@ -1,8 +1,6 @@
 def AALOAD():
-'''public AALOAD()
-'''
-pass
+    '''    public AALOAD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

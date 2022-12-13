@@ -1,8 +1,6 @@
 def FldItemClassStructureid():
-'''public FldItemClassStructureid(final MboValue mbv)
-'''
-pass
+    '''    public FldItemClassStructureid(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

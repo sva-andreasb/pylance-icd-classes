@@ -1,4 +1,3 @@
 def getURI():
-'''public static String getURI(final String contentType)
-'''
-pass
+    '''    public static String getURI(final String contentType)
+    '''

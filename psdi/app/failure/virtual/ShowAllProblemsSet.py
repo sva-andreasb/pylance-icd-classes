@@ -1,36 +1,27 @@
 def ShowAllProblemsSet():
-'''public ShowAllProblemsSet(final MboRemote owner)
-'''
-pass
+    '''    public ShowAllProblemsSet(final MboRemote owner)
+    '''
 def fetchMbos():
-'''public void fetchMbos(final int toPosition)
-'''
-pass
+    '''    public void fetchMbos(final int toPosition)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def fetchMbosOriginal():
-'''public void fetchMbosOriginal(final int toPosition)
-'''
-pass
+    '''    public void fetchMbosOriginal(final int toPosition)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setOwner():
-'''public final void setOwner(final MboRemote mbo)
-'''
-pass
+    '''    public final void setOwner(final MboRemote mbo)
+    '''
 def getZombie():
-'''public MboRemote getZombie()
-'''
-pass
+    '''    public MboRemote getZombie()
+    '''
 def setOrderBy():
-'''public void setOrderBy(final String orderByClause)
-'''
-pass
+    '''    public void setOrderBy(final String orderByClause)
+    '''
 def getOrderBy():
-'''public String getOrderBy()
-'''
-pass
+    '''    public String getOrderBy()
+    '''

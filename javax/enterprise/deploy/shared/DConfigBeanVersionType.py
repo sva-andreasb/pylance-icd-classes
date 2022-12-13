@@ -1,12 +1,9 @@
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getDConfigBeanVersionType():
-'''public static DConfigBeanVersionType getDConfigBeanVersionType(final int value)
-'''
-pass
+    '''    public static DConfigBeanVersionType getDConfigBeanVersionType(final int value)
+    '''

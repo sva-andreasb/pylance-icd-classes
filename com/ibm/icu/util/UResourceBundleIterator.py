@@ -1,20 +1,15 @@
 def UResourceBundleIterator():
-'''public UResourceBundleIterator(final UResourceBundle bndl)
-'''
-pass
+    '''    public UResourceBundleIterator(final UResourceBundle bndl)
+    '''
 def next():
-'''public UResourceBundle next()
-'''
-pass
+    '''    public UResourceBundle next()
+    '''
 def nextString():
-'''public String nextString()
-'''
-pass
+    '''    public String nextString()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''

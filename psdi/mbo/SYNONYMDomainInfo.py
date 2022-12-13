@@ -1,12 +1,9 @@
 def SYNONYMDomainInfo():
-'''public SYNONYMDomainInfo(final String name)
-'''
-pass
+    '''    public SYNONYMDomainInfo(final String name)
+    '''
 def getDomainObject():
-'''public MboValueListener getDomainObject(final MboValue mbv)
-'''
-pass
+    '''    public MboValueListener getDomainObject(final MboValue mbv)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

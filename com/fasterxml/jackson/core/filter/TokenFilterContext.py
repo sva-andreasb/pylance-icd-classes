@@ -1,80 +1,60 @@
 def createRootContext():
-'''public static TokenFilterContext createRootContext(final TokenFilter filter)
-'''
-pass
+    '''    public static TokenFilterContext createRootContext(final TokenFilter filter)
+    '''
 def createChildArrayContext():
-'''public TokenFilterContext createChildArrayContext(final TokenFilter filter, final boolean writeStart)
-'''
-pass
+    '''    public TokenFilterContext createChildArrayContext(final TokenFilter filter, final boolean writeStart)
+    '''
 def createChildObjectContext():
-'''public TokenFilterContext createChildObjectContext(final TokenFilter filter, final boolean writeStart)
-'''
-pass
+    '''    public TokenFilterContext createChildObjectContext(final TokenFilter filter, final boolean writeStart)
+    '''
 def setFieldName():
-'''public TokenFilter setFieldName(final String name)
-'''
-pass
+    '''    public TokenFilter setFieldName(final String name)
+    '''
 def checkValue():
-'''public TokenFilter checkValue(final TokenFilter filter)
-'''
-pass
+    '''    public TokenFilter checkValue(final TokenFilter filter)
+    '''
 def writePath():
-'''public void writePath(final JsonGenerator gen)
-'''
-pass
+    '''    public void writePath(final JsonGenerator gen)
+    '''
 def writeImmediatePath():
-'''public void writeImmediatePath(final JsonGenerator gen)
-'''
-pass
+    '''    public void writeImmediatePath(final JsonGenerator gen)
+    '''
 def closeArray():
-'''public TokenFilterContext closeArray(final JsonGenerator gen)
-'''
-pass
+    '''    public TokenFilterContext closeArray(final JsonGenerator gen)
+    '''
 def closeObject():
-'''public TokenFilterContext closeObject(final JsonGenerator gen)
-'''
-pass
+    '''    public TokenFilterContext closeObject(final JsonGenerator gen)
+    '''
 def skipParentChecks():
-'''public void skipParentChecks()
-'''
-pass
+    '''    public void skipParentChecks()
+    '''
 def getCurrentValue():
-'''public Object getCurrentValue()
-'''
-pass
+    '''    public Object getCurrentValue()
+    '''
 def setCurrentValue():
-'''public void setCurrentValue(final Object v)
-'''
-pass
+    '''    public void setCurrentValue(final Object v)
+    '''
 def getParent():
-'''public final TokenFilterContext getParent()
-'''
-pass
+    '''    public final TokenFilterContext getParent()
+    '''
 def getCurrentName():
-'''public final String getCurrentName()
-'''
-pass
+    '''    public final String getCurrentName()
+    '''
 def hasCurrentName():
-'''public boolean hasCurrentName()
-'''
-pass
+    '''    public boolean hasCurrentName()
+    '''
 def getFilter():
-'''public TokenFilter getFilter()
-'''
-pass
+    '''    public TokenFilter getFilter()
+    '''
 def isStartHandled():
-'''public boolean isStartHandled()
-'''
-pass
+    '''    public boolean isStartHandled()
+    '''
 def nextTokenToRead():
-'''public JsonToken nextTokenToRead()
-'''
-pass
+    '''    public JsonToken nextTokenToRead()
+    '''
 def findChildOf():
-'''public TokenFilterContext findChildOf(final TokenFilterContext parent)
-'''
-pass
+    '''    public TokenFilterContext findChildOf(final TokenFilterContext parent)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

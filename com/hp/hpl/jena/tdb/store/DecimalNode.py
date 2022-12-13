@@ -1,34 +1,26 @@
 def valueOf():
-'''public static DecimalNode valueOf(final BigDecimal decimal)
-public static DecimalNode valueOf(final long binValue, final int scale)
-'''
-pass
+    '''    public static DecimalNode valueOf(final BigDecimal decimal)
+    public static DecimalNode valueOf(final long binValue, final int scale)
+    '''
 def pack():
-'''public long pack()
-public static long pack(final long value, final int scale)
-'''
-pass
+    '''    public long pack()
+    public static long pack(final long value, final int scale)
+    '''
 def unpack():
-'''public static DecimalNode unpack(final long v)
-'''
-pass
+    '''    public static DecimalNode unpack(final long v)
+    '''
 def unpackAsBigDecimal():
-'''public static BigDecimal unpackAsBigDecimal(final long v)
-'''
-pass
+    '''    public static BigDecimal unpackAsBigDecimal(final long v)
+    '''
 def get():
-'''public BigDecimal get()
-'''
-pass
+    '''    public BigDecimal get()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getScale():
-'''public int getScale()
-'''
-pass
+    '''    public int getScale()
+    '''
 def getValue():
-'''public long getValue()
-'''
-pass
+    '''    public long getValue()
+    '''

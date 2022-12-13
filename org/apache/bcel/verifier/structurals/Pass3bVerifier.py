@@ -1,37 +1,28 @@
 def Pass3bVerifier():
-'''public Pass3bVerifier(final Verifier owner, final int method_no)
-'''
-pass
+    '''    public Pass3bVerifier(final Verifier owner, final int method_no)
+    '''
 def do_verify():
-'''public VerificationResult do_verify()
-'''
-pass
+    '''    public VerificationResult do_verify()
+    '''
 def getMethodNo():
-'''public int getMethodNo()
-'''
-pass
+    '''    public int getMethodNo()
+    '''
 def add():
-'''public void add(final InstructionContext ic, final ArrayList executionChain)
-'''
-pass
+    '''    public void add(final InstructionContext ic, final ArrayList executionChain)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def remove():
-'''public void remove()
-public void remove(final int i)
-'''
-pass
+    '''    public void remove()
+    public void remove(final int i)
+    '''
 def getIC():
-'''public InstructionContext getIC(final int i)
-'''
-pass
+    '''    public InstructionContext getIC(final int i)
+    '''
 def getEC():
-'''public ArrayList getEC(final int i)
-'''
-pass
+    '''    public ArrayList getEC(final int i)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''

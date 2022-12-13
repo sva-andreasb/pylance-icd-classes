@@ -1,8 +1,6 @@
 def ExpException():
-'''public ExpException(final MboSet ms)
-'''
-pass
+    '''    public ExpException(final MboSet ms)
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''

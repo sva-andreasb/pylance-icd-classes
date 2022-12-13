@@ -1,8 +1,6 @@
 def FldContAssetMeterDuration():
-'''public FldContAssetMeterDuration(final MboValue mbv)
-'''
-pass
+    '''    public FldContAssetMeterDuration(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

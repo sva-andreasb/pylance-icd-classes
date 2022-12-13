@@ -1,64 +1,48 @@
 def WarrantyView():
-'''public WarrantyView(final MboSet ms)
-'''
-pass
+    '''    public WarrantyView(final MboSet ms)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def nullVendor():
-'''public void nullVendor()
-'''
-pass
+    '''    public void nullVendor()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def canCreateSchedule():
-'''public void canCreateSchedule()
-'''
-pass
+    '''    public void canCreateSchedule()
+    '''
 def createSchedule():
-'''public void createSchedule()
-'''
-pass
+    '''    public void createSchedule()
+    '''
 def cancelInvoicesForSchedule():
-'''public void cancelInvoicesForSchedule()
-'''
-pass
+    '''    public void cancelInvoicesForSchedule()
+    '''
 def createInvoicesForSchedule():
-'''public void createInvoicesForSchedule()
-'''
-pass
+    '''    public void createInvoicesForSchedule()
+    '''
 def copyContractTermsToInvoice():
-'''public void copyContractTermsToInvoice(final MboSetRemote contractTermsSetRemote, final MboSetRemote invoiceTermSetRemote)
-'''
-pass
+    '''    public void copyContractTermsToInvoice(final MboSetRemote contractTermsSetRemote, final MboSetRemote invoiceTermSetRemote)
+    '''
 def copyAssetsToContractAsset():
-'''public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
-'''
-pass
+    '''    public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
+    '''
 def copyLocationsToContractAsset():
-'''public void copyLocationsToContractAsset(final LocationSetRemote locationSetRemote)
-'''
-pass
+    '''    public void copyLocationsToContractAsset(final LocationSetRemote locationSetRemote)
+    '''
 def reCalcLeaseViewCost():
-'''public double reCalcLeaseViewCost()
-'''
-pass
+    '''    public double reCalcLeaseViewCost()
+    '''
 def canAddAssetToContractAsset():
-'''public void canAddAssetToContractAsset()
-'''
-pass
+    '''    public void canAddAssetToContractAsset()
+    '''
 def reviseContract():
-'''public MboRemote reviseContract(final String revDescription)
-'''
-pass
+    '''    public MboRemote reviseContract(final String revDescription)
+    '''

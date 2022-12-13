@@ -1,8 +1,6 @@
 def DropGroupFromMaximo():
-'''public DropGroupFromMaximo(final List<String> groups, final DatabaseInformation di, final Connection dc)
-'''
-pass
+    '''    public DropGroupFromMaximo(final List<String> groups, final DatabaseInformation di, final Connection dc)
+    '''
 def doRepair():
-'''public void doRepair()
-'''
-pass
+    '''    public void doRepair()
+    '''

@@ -1,229 +1,176 @@
 def OslcJSONStructureObject():
-'''public OslcJSONStructureObject(final String operaton, final String osName, final String lang, final int size, final boolean isEvent, final boolean isResponse)
-public OslcJSONStructureObject(final Document input)
-public OslcJSONStructureObject(final JSONArtifact data, final String mosName, final String path, final String messageType, final UserInfo userInfo, final boolean leanJson)
-public OslcJSONStructureObject(final Element data)
-public OslcJSONStructureObject()
-'''
-pass
+    '''    public OslcJSONStructureObject(final String operaton, final String osName, final String lang, final int size, final boolean isEvent, final boolean isResponse)
+    public OslcJSONStructureObject(final Document input)
+    public OslcJSONStructureObject(final JSONArtifact data, final String mosName, final String path, final String messageType, final UserInfo userInfo, final boolean leanJson)
+    public OslcJSONStructureObject(final Element data)
+    public OslcJSONStructureObject()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getObjectPath():
-'''public String getObjectPath()
-'''
-pass
+    '''    public String getObjectPath()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def createChildrenData():
-'''public void createChildrenData(final String name)
-'''
-pass
+    '''    public void createChildrenData(final String name)
+    '''
 def getChildrenData():
-'''public List getChildrenData(final String name)
-public List getChildrenData()
-'''
-pass
+    '''    public List getChildrenData(final String name)
+    public List getChildrenData()
+    '''
 def hasDetailData():
-'''public boolean hasDetailData(final String childPath)
-'''
-pass
+    '''    public boolean hasDetailData(final String childPath)
+    '''
 def getChildrenKeys():
-'''public Iterator getChildrenKeys()
-'''
-pass
+    '''    public Iterator getChildrenKeys()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def isCurrentActionNull():
-'''public boolean isCurrentActionNull()
-'''
-pass
+    '''    public boolean isCurrentActionNull()
+    '''
 def isHidden():
-'''public boolean isHidden()
-'''
-pass
+    '''    public boolean isHidden()
+    '''
 def getCurrentData():
-'''public Element getCurrentData()
-public String getCurrentData(final String col)
-'''
-pass
+    '''    public Element getCurrentData()
+    public String getCurrentData(final String col)
+    '''
 def getCurrentObject():
-'''public StructureObject getCurrentObject()
-'''
-pass
+    '''    public StructureObject getCurrentObject()
+    '''
 def getParentData():
-'''public Element getParentData()
-public String getParentData(final String col)
-'''
-pass
+    '''    public Element getParentData()
+    public String getParentData(final String col)
+    '''
 def getParentJSONData():
-'''public JSONObject getParentJSONData()
-'''
-pass
+    '''    public JSONObject getParentJSONData()
+    '''
 def getParentPath():
-'''public String getParentPath()
-'''
-pass
+    '''    public String getParentPath()
+    '''
 def setParentJSONData():
-'''public void setParentJSONData(final JSONObject parent, final String path)
-'''
-pass
+    '''    public void setParentJSONData(final JSONObject parent, final String path)
+    '''
 def getAttr():
-'''public String getAttr(final String col, final String attr)
-public String getAttr(final String attr)
-'''
-pass
+    '''    public String getAttr(final String col, final String attr)
+    public String getAttr(final String attr)
+    '''
 def removeFromCurrentData():
-'''public void removeFromCurrentData(final String col)
-'''
-pass
+    '''    public void removeFromCurrentData(final String col)
+    '''
 def removeChildData():
-'''public void removeChildData(final String childName, final int index)
-'''
-pass
+    '''    public void removeChildData(final String childName, final int index)
+    '''
 def removeChildren():
-'''public void removeChildren(final String childName)
-'''
-pass
+    '''    public void removeChildren(final String childName)
+    '''
 def getRowStamp():
-'''public String getRowStamp()
-'''
-pass
+    '''    public String getRowStamp()
+    '''
 def getCurrentDataAsBytes():
-'''public byte[] getCurrentDataAsBytes(final String col)
-'''
-pass
+    '''    public byte[] getCurrentDataAsBytes(final String col)
+    '''
 def getCurrentDataAsBinaryText():
-'''public String getCurrentDataAsBinaryText(final String col)
-'''
-pass
+    '''    public String getCurrentDataAsBinaryText(final String col)
+    '''
 def isCurrentDataNull():
-'''public boolean isCurrentDataNull(final String col)
-'''
-pass
+    '''    public boolean isCurrentDataNull(final String col)
+    '''
 def isGLDataNull():
-'''public boolean isGLDataNull(final String col)
-public boolean isGLDataNull(final String col, final String orgId)
-'''
-pass
+    '''    public boolean isGLDataNull(final String col)
+    public boolean isGLDataNull(final String col, final String orgId)
+    '''
 def isInCurrentData():
-'''public boolean isInCurrentData(final String col)
-'''
-pass
+    '''    public boolean isInCurrentData(final String col)
+    '''
 def isCurrentDataChanged():
-'''public boolean isCurrentDataChanged(final String col)
-'''
-pass
+    '''    public boolean isCurrentDataChanged(final String col)
+    '''
 def getCurrentDataAsDouble():
-'''public double getCurrentDataAsDouble(final String col)
-'''
-pass
+    '''    public double getCurrentDataAsDouble(final String col)
+    '''
 def getCurrentDataAsInt():
-'''public int getCurrentDataAsInt(final String col)
-'''
-pass
+    '''    public int getCurrentDataAsInt(final String col)
+    '''
 def getCurrentDataAsLong():
-'''public long getCurrentDataAsLong(final String col)
-'''
-pass
+    '''    public long getCurrentDataAsLong(final String col)
+    '''
 def getCurrentDataAsDate():
-'''public Date getCurrentDataAsDate(final String col)
-'''
-pass
+    '''    public Date getCurrentDataAsDate(final String col)
+    '''
 def getCurrentDataAsBoolean():
-'''public boolean getCurrentDataAsBoolean(final String col)
-'''
-pass
+    '''    public boolean getCurrentDataAsBoolean(final String col)
+    '''
 def getCurrentDataAsElement():
-'''public Element getCurrentDataAsElement(final String key)
-'''
-pass
+    '''    public Element getCurrentDataAsElement(final String key)
+    '''
 def getCurrentDataAsList():
-'''public List getCurrentDataAsList(final String key)
-'''
-pass
+    '''    public List getCurrentDataAsList(final String key)
+    '''
 def isCurrentDataObject():
-'''public boolean isCurrentDataObject(final String col)
-'''
-pass
+    '''    public boolean isCurrentDataObject(final String col)
+    '''
 def getGL():
-'''public String getGL(final String col)
-public String getGL(final String col, final String orgId)
-'''
-pass
+    '''    public String getGL(final String col)
+    public String getGL(final String col, final String orgId)
+    '''
 def getGLComponent():
-'''public String getGLComponent(final String col, final int order, final String orgId)
-'''
-pass
+    '''    public String getGLComponent(final String col, final int order, final String orgId)
+    '''
 def getCurrentAction():
-'''public String getCurrentAction()
-'''
-pass
+    '''    public String getCurrentAction()
+    '''
 def setCurrentData():
-'''public void setCurrentData(final String colname, final String data)
-public void setCurrentData(final String colname, final Date data)
-public void setCurrentData(final String colname, final double data)
-public void setCurrentData(final String colname, final long data)
-public void setCurrentData(final String colname, final boolean data)
-public void setCurrentData(final String colname, final int data)
-public void setCurrentData(final String colname, final byte[] data)
-'''
-pass
+    '''    public void setCurrentData(final String colname, final String data)
+    public void setCurrentData(final String colname, final Date data)
+    public void setCurrentData(final String colname, final double data)
+    public void setCurrentData(final String colname, final long data)
+    public void setCurrentData(final String colname, final boolean data)
+    public void setCurrentData(final String colname, final int data)
+    public void setCurrentData(final String colname, final byte[] data)
+    '''
 def setCurrentAction():
-'''public void setCurrentAction(final String action)
-'''
-pass
+    '''    public void setCurrentAction(final String action)
+    '''
 def setCurrentDataNull():
-'''public void setCurrentDataNull(final String colname)
-'''
-pass
+    '''    public void setCurrentDataNull(final String colname)
+    '''
 def setGL():
-'''public void setGL(final String colname, final String[] glSegments, final String orgId)
-public void setGL(final String colname, final String glString)
-'''
-pass
+    '''    public void setGL(final String colname, final String[] glSegments, final String orgId)
+    public void setGL(final String colname, final String glString)
+    '''
 def setXPathData():
-'''public void setXPathData(final String xPathExpression, final String data)
-'''
-pass
+    '''    public void setXPathData(final String xPathExpression, final String data)
+    '''
 def getCurrentDataAsString():
-'''public String getCurrentDataAsString(final String col)
-'''
-pass
+    '''    public String getCurrentDataAsString(final String col)
+    '''
 def getCurrentNamespacePrefix():
-'''public String getCurrentNamespacePrefix()
-'''
-pass
+    '''    public String getCurrentNamespacePrefix()
+    '''
 def getCurrentNamespaceURI():
-'''public String getCurrentNamespaceURI()
-'''
-pass
+    '''    public String getCurrentNamespaceURI()
+    '''
 def setCurrentNamespace():
-'''public void setCurrentNamespace(final String pref, final String uri)
-'''
-pass
+    '''    public void setCurrentNamespace(final String pref, final String uri)
+    '''
 def getNamespaces():
-'''public Map<String, String> getNamespaces()
-'''
-pass
+    '''    public Map<String, String> getNamespaces()
+    '''
 def setNamespaces():
-'''public void setNamespaces(final String key, final String data)
-'''
-pass
+    '''    public void setNamespaces(final String key, final String data)
+    '''
 def getLocalRef():
-'''public String getLocalRef()
-'''
-pass
+    '''    public String getLocalRef()
+    '''
 def getOverrideType():
-'''public int getOverrideType(final String col, final int currentType)
-'''
-pass
+    '''    public int getOverrideType(final String col, final int currentType)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

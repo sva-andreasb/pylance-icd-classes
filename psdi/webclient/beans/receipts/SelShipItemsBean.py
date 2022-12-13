@@ -1,12 +1,9 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def search():
-'''public int search()
-'''
-pass
+    '''    public int search()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''

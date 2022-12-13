@@ -1,52 +1,40 @@
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def getCharset():
-'''public Charset getCharset()
-'''
-pass
+    '''    public Charset getCharset()
+    '''
 def getParameter():
-'''public String getParameter(final String name)
-'''
-pass
+    '''    public String getParameter(final String name)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def create():
-'''public static ContentType create(final String mimeType, final Charset charset)
-public static ContentType create(final String mimeType)
-public static ContentType create(final String mimeType, final String charset)
-public static ContentType create(final String mimeType, final NameValuePair... params)
-'''
-pass
+    '''    public static ContentType create(final String mimeType, final Charset charset)
+    public static ContentType create(final String mimeType)
+    public static ContentType create(final String mimeType, final String charset)
+    public static ContentType create(final String mimeType, final NameValuePair... params)
+    '''
 def parse():
-'''public static ContentType parse(final String s)
-'''
-pass
+    '''    public static ContentType parse(final String s)
+    '''
 def get():
-'''public static ContentType get(final HttpEntity entity)
-'''
-pass
+    '''    public static ContentType get(final HttpEntity entity)
+    '''
 def getLenient():
-'''public static ContentType getLenient(final HttpEntity entity)
-'''
-pass
+    '''    public static ContentType getLenient(final HttpEntity entity)
+    '''
 def getOrDefault():
-'''public static ContentType getOrDefault(final HttpEntity entity)
-'''
-pass
+    '''    public static ContentType getOrDefault(final HttpEntity entity)
+    '''
 def getLenientOrDefault():
-'''public static ContentType getLenientOrDefault(final HttpEntity entity)
-'''
-pass
+    '''    public static ContentType getLenientOrDefault(final HttpEntity entity)
+    '''
 def withCharset():
-'''public ContentType withCharset(final Charset charset)
-public ContentType withCharset(final String charset)
-'''
-pass
+    '''    public ContentType withCharset(final Charset charset)
+    public ContentType withCharset(final String charset)
+    '''
 def withParameters():
-'''public ContentType withParameters(final NameValuePair... params)
-'''
-pass
+    '''    public ContentType withParameters(final NameValuePair... params)
+    '''

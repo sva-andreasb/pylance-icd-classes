@@ -1,8 +1,6 @@
 def FldMRRequestedBy():
-'''public FldMRRequestedBy(final MboValue mbv)
-'''
-pass
+    '''    public FldMRRequestedBy(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

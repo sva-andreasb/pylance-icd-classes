@@ -1,4 +1,3 @@
 def FldMatUseTransIssueTo():
-'''public FldMatUseTransIssueTo(final MboValue mbv)
-'''
-pass
+    '''    public FldMatUseTransIssueTo(final MboValue mbv)
+    '''

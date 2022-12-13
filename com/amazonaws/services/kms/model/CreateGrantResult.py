@@ -1,40 +1,30 @@
 def setGrantToken():
-'''public void setGrantToken(final String grantToken)
-'''
-pass
+    '''    public void setGrantToken(final String grantToken)
+    '''
 def getGrantToken():
-'''public String getGrantToken()
-'''
-pass
+    '''    public String getGrantToken()
+    '''
 def withGrantToken():
-'''public CreateGrantResult withGrantToken(final String grantToken)
-'''
-pass
+    '''    public CreateGrantResult withGrantToken(final String grantToken)
+    '''
 def setGrantId():
-'''public void setGrantId(final String grantId)
-'''
-pass
+    '''    public void setGrantId(final String grantId)
+    '''
 def getGrantId():
-'''public String getGrantId()
-'''
-pass
+    '''    public String getGrantId()
+    '''
 def withGrantId():
-'''public CreateGrantResult withGrantId(final String grantId)
-'''
-pass
+    '''    public CreateGrantResult withGrantId(final String grantId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public CreateGrantResult clone()
-'''
-pass
+    '''    public CreateGrantResult clone()
+    '''

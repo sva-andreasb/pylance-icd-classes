@@ -1,12 +1,9 @@
 def FldItemTaxExempt():
-'''public FldItemTaxExempt(final MboValue mbv)
-'''
-pass
+    '''    public FldItemTaxExempt(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def updateTaxexempt():
-'''public void updateTaxexempt(final MboRemote item, final MboSetRemote invvendor, final MboSetRemote itemorginfo)
-'''
-pass
+    '''    public void updateTaxexempt(final MboRemote item, final MboSetRemote invvendor, final MboSetRemote itemorginfo)
+    '''

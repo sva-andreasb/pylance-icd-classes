@@ -1,16 +1,12 @@
 def FldJobLaborLaborCode():
-'''public FldJobLaborLaborCode(final MboValue mbv)
-'''
-pass
+    '''    public FldJobLaborLaborCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,4 +1,3 @@
 def LeftAbovePositioner():
-'''public LeftAbovePositioner(final int hO, final int vO)
-'''
-pass
+    '''    public LeftAbovePositioner(final int hO, final int vO)
+    '''

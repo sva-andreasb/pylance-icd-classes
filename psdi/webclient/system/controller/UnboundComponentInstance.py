@@ -1,12 +1,9 @@
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''

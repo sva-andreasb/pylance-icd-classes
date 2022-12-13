@@ -1,34 +1,26 @@
 INDEX_SHARED = "int  0"
 INDEX_FIRST = "int  1"
 def CompareMaxResourceModelHelper():
-'''public CompareMaxResourceModelHelper(final IMXGanttModel leftModelFuture, final IMXGanttModel rightModelFuture, final ModelHelper helper)
-'''
-pass
+    '''    public CompareMaxResourceModelHelper(final IMXGanttModel leftModelFuture, final IMXGanttModel rightModelFuture, final ModelHelper helper)
+    '''
 def loadMissingNodes():
-'''public void loadMissingNodes()
-'''
-pass
+    '''    public void loadMissingNodes()
+    '''
 def processModels():
-'''public void processModels()
-'''
-pass
+    '''    public void processModels()
+    '''
 def processMismatchModels():
-'''public void processMismatchModels()
-'''
-pass
+    '''    public void processMismatchModels()
+    '''
 def setNodeEmitter():
-'''public void setNodeEmitter(final NodeEmitter nodeEmitter)
-'''
-pass
+    '''    public void setNodeEmitter(final NodeEmitter nodeEmitter)
+    '''
 def getTotalDifferencesCount():
-'''public int getTotalDifferencesCount()
-'''
-pass
+    '''    public int getTotalDifferencesCount()
+    '''
 def getMissingLeftResources():
-'''public List<IMXResource> getMissingLeftResources()
-'''
-pass
+    '''    public List<IMXResource> getMissingLeftResources()
+    '''
 def getMissingRightResources():
-'''public List<IMXResource> getMissingRightResources()
-'''
-pass
+    '''    public List<IMXResource> getMissingRightResources()
+    '''

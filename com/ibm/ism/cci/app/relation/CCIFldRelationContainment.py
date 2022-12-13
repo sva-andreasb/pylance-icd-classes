@@ -1,8 +1,6 @@
 def CCIFldRelationContainment():
-'''public CCIFldRelationContainment(final MboValue mbv)
-'''
-pass
+    '''    public CCIFldRelationContainment(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

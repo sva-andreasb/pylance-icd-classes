@@ -1,12 +1,9 @@
 def DrawingTextPlaceholder():
-'''public DrawingTextPlaceholder(final CTTextBody textBody, final CTPlaceholder placeholder)
-'''
-pass
+    '''    public DrawingTextPlaceholder(final CTTextBody textBody, final CTPlaceholder placeholder)
+    '''
 def getPlaceholderType():
-'''public String getPlaceholderType()
-'''
-pass
+    '''    public String getPlaceholderType()
+    '''
 def isPlaceholderCustom():
-'''public boolean isPlaceholderCustom()
-'''
-pass
+    '''    public boolean isPlaceholderCustom()
+    '''

@@ -1,10 +1,8 @@
-NAMESPACE_PREFIX = "String  ns""
+NAMESPACE_PREFIX = "String  \"ns\""
 def StreamingOMSerializer():
-'''public StreamingOMSerializer()
-'''
-pass
+    '''    public StreamingOMSerializer()
+    '''
 def serialize():
-'''public void serialize(final XMLStreamReader reader, final XMLStreamWriter writer)
-public void serialize(final XMLStreamReader reader, final XMLStreamWriter writer, final boolean startAtNext)
-'''
-pass
+    '''    public void serialize(final XMLStreamReader reader, final XMLStreamWriter writer)
+    public void serialize(final XMLStreamReader reader, final XMLStreamWriter writer, final boolean startAtNext)
+    '''

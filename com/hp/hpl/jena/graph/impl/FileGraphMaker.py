@@ -1,59 +1,45 @@
 def FileGraphMaker():
-'''public FileGraphMaker(final String root)
-public FileGraphMaker(final String root, final ReificationStyle style)
-public FileGraphMaker(final String root, final ReificationStyle style, final boolean deleteOnClose)
-'''
-pass
+    '''    public FileGraphMaker(final String root)
+    public FileGraphMaker(final String root, final ReificationStyle style)
+    public FileGraphMaker(final String root, final ReificationStyle style, final boolean deleteOnClose)
+    '''
 def getFileBase():
-'''public String getFileBase()
-'''
-pass
+    '''    public String getFileBase()
+    '''
 def createGraph():
-'''public Graph createGraph()
-public Graph createGraph(final String name, final boolean strict)
-'''
-pass
+    '''    public Graph createGraph()
+    public Graph createGraph(final String name, final boolean strict)
+    '''
 def openGraph():
-'''public Graph openGraph(final String name, final boolean strict)
-'''
-pass
+    '''    public Graph openGraph(final String name, final boolean strict)
+    '''
 def notifyClosed():
-'''public void notifyClosed(final File f)
-'''
-pass
+    '''    public void notifyClosed(final File f)
+    '''
 def toFilename():
-'''public static String toFilename(final String name)
-'''
-pass
+    '''    public static String toFilename(final String name)
+    '''
 def toGraphname():
-'''public static String toGraphname(final String fileName)
-'''
-pass
+    '''    public static String toGraphname(final String fileName)
+    '''
 def removeGraph():
-'''public void removeGraph(final String name)
-'''
-pass
+    '''    public void removeGraph(final String name)
+    '''
 def hasGraph():
-'''public boolean hasGraph(final String name)
-'''
-pass
+    '''    public boolean hasGraph(final String name)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def graphName():
-'''public static FilenameFilter graphName()
-'''
-pass
+    '''    public static FilenameFilter graphName()
+    '''
 def accept():
-'''public boolean accept(final File file, final String name)
-'''
-pass
+    '''    public boolean accept(final File file, final String name)
+    '''
 def listGraphs():
-'''public ExtendedIterator<String> listGraphs()
-'''
-pass
+    '''    public ExtendedIterator<String> listGraphs()
+    '''
 def map1():
-'''public String map1(final String x)
-'''
-pass
+    '''    public String map1(final String x)
+    '''

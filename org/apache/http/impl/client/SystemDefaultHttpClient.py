@@ -1,5 +1,4 @@
 def SystemDefaultHttpClient():
-'''public SystemDefaultHttpClient(final HttpParams params)
-public SystemDefaultHttpClient()
-'''
-pass
+    '''    public SystemDefaultHttpClient(final HttpParams params)
+    public SystemDefaultHttpClient()
+    '''

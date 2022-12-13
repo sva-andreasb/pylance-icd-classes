@@ -1,16 +1,12 @@
 def AppCompareResults():
-'''public AppCompareResults(final CompareResults appResults)
-'''
-pass
+    '''    public AppCompareResults(final CompareResults appResults)
+    '''
 def getAppResults():
-'''public CompareResults getAppResults()
-'''
-pass
+    '''    public CompareResults getAppResults()
+    '''
 def addGroupResults():
-'''public void addGroupResults(final GroupCompareResults gcr)
-'''
-pass
+    '''    public void addGroupResults(final GroupCompareResults gcr)
+    '''
 def getGroupResults():
-'''public List getGroupResults()
-'''
-pass
+    '''    public List getGroupResults()
+    '''

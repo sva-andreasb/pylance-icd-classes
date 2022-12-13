@@ -1,4 +1,3 @@
 def ApptBookStatusSet():
-'''public ApptBookStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApptBookStatusSet(final MboServerInterface ms)
+    '''

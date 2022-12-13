@@ -1,4 +1,3 @@
 def CommonWOSRSet():
-'''public CommonWOSRSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CommonWOSRSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def SetWhere():
-'''public SetWhere(final Expression exp, final String name, final int numParams)
-'''
-pass
+    '''    public SetWhere(final Expression exp, final String name, final int numParams)
+    '''
 def eval():
-'''public BigDecimal eval(final List<BigDecimal> parameters)
-'''
-pass
+    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''

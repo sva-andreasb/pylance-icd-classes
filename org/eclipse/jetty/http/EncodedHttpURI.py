@@ -1,65 +1,49 @@
 def EncodedHttpURI():
-'''public EncodedHttpURI(final String encoding)
-'''
-pass
+    '''    public EncodedHttpURI(final String encoding)
+    '''
 def getScheme():
-'''public String getScheme()
-'''
-pass
+    '''    public String getScheme()
+    '''
 def getAuthority():
-'''public String getAuthority()
-'''
-pass
+    '''    public String getAuthority()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def getDecodedPath():
-'''public String getDecodedPath()
-'''
-pass
+    '''    public String getDecodedPath()
+    '''
 def getPathAndParam():
-'''public String getPathAndParam()
-'''
-pass
+    '''    public String getPathAndParam()
+    '''
 def getCompletePath():
-'''public String getCompletePath()
-'''
-pass
+    '''    public String getCompletePath()
+    '''
 def getParam():
-'''public String getParam()
-'''
-pass
+    '''    public String getParam()
+    '''
 def getQuery():
-'''public String getQuery()
-'''
-pass
+    '''    public String getQuery()
+    '''
 def hasQuery():
-'''public boolean hasQuery()
-'''
-pass
+    '''    public boolean hasQuery()
+    '''
 def getFragment():
-'''public String getFragment()
-'''
-pass
+    '''    public String getFragment()
+    '''
 def decodeQueryTo():
-'''public void decodeQueryTo(final MultiMap parameters)
-public void decodeQueryTo(final MultiMap parameters, String encoding)
-'''
-pass
+    '''    public void decodeQueryTo(final MultiMap parameters)
+    public void decodeQueryTo(final MultiMap parameters, String encoding)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeTo():
-'''public void writeTo(final Utf8StringBuffer buf)
-'''
-pass
+    '''    public void writeTo(final Utf8StringBuffer buf)
+    '''

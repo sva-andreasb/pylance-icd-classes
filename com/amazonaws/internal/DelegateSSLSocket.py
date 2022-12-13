@@ -1,237 +1,178 @@
 def DelegateSSLSocket():
-'''public DelegateSSLSocket(final SSLSocket sock)
-'''
-pass
+    '''    public DelegateSSLSocket(final SSLSocket sock)
+    '''
 def connect():
-'''public void connect(final SocketAddress endpoint)
-public void connect(final SocketAddress endpoint, final int timeout)
-'''
-pass
+    '''    public void connect(final SocketAddress endpoint)
+    public void connect(final SocketAddress endpoint, final int timeout)
+    '''
 def bind():
-'''public void bind(final SocketAddress bindpoint)
-'''
-pass
+    '''    public void bind(final SocketAddress bindpoint)
+    '''
 def getInetAddress():
-'''public InetAddress getInetAddress()
-'''
-pass
+    '''    public InetAddress getInetAddress()
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getRemoteSocketAddress():
-'''public SocketAddress getRemoteSocketAddress()
-'''
-pass
+    '''    public SocketAddress getRemoteSocketAddress()
+    '''
 def getLocalSocketAddress():
-'''public SocketAddress getLocalSocketAddress()
-'''
-pass
+    '''    public SocketAddress getLocalSocketAddress()
+    '''
 def getChannel():
-'''public SocketChannel getChannel()
-'''
-pass
+    '''    public SocketChannel getChannel()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def setTcpNoDelay():
-'''public void setTcpNoDelay(final boolean on)
-'''
-pass
+    '''    public void setTcpNoDelay(final boolean on)
+    '''
 def getTcpNoDelay():
-'''public boolean getTcpNoDelay()
-'''
-pass
+    '''    public boolean getTcpNoDelay()
+    '''
 def setSoLinger():
-'''public void setSoLinger(final boolean on, final int linger)
-'''
-pass
+    '''    public void setSoLinger(final boolean on, final int linger)
+    '''
 def getSoLinger():
-'''public int getSoLinger()
-'''
-pass
+    '''    public int getSoLinger()
+    '''
 def sendUrgentData():
-'''public void sendUrgentData(final int data)
-'''
-pass
+    '''    public void sendUrgentData(final int data)
+    '''
 def setOOBInline():
-'''public void setOOBInline(final boolean on)
-'''
-pass
+    '''    public void setOOBInline(final boolean on)
+    '''
 def getOOBInline():
-'''public boolean getOOBInline()
-'''
-pass
+    '''    public boolean getOOBInline()
+    '''
 def setSoTimeout():
-'''public void setSoTimeout(final int timeout)
-'''
-pass
+    '''    public void setSoTimeout(final int timeout)
+    '''
 def getSoTimeout():
-'''public int getSoTimeout()
-'''
-pass
+    '''    public int getSoTimeout()
+    '''
 def setSendBufferSize():
-'''public void setSendBufferSize(final int size)
-'''
-pass
+    '''    public void setSendBufferSize(final int size)
+    '''
 def getSendBufferSize():
-'''public int getSendBufferSize()
-'''
-pass
+    '''    public int getSendBufferSize()
+    '''
 def setReceiveBufferSize():
-'''public void setReceiveBufferSize(final int size)
-'''
-pass
+    '''    public void setReceiveBufferSize(final int size)
+    '''
 def getReceiveBufferSize():
-'''public int getReceiveBufferSize()
-'''
-pass
+    '''    public int getReceiveBufferSize()
+    '''
 def setKeepAlive():
-'''public void setKeepAlive(final boolean on)
-'''
-pass
+    '''    public void setKeepAlive(final boolean on)
+    '''
 def getKeepAlive():
-'''public boolean getKeepAlive()
-'''
-pass
+    '''    public boolean getKeepAlive()
+    '''
 def setTrafficClass():
-'''public void setTrafficClass(final int tc)
-'''
-pass
+    '''    public void setTrafficClass(final int tc)
+    '''
 def getTrafficClass():
-'''public int getTrafficClass()
-'''
-pass
+    '''    public int getTrafficClass()
+    '''
 def setReuseAddress():
-'''public void setReuseAddress(final boolean on)
-'''
-pass
+    '''    public void setReuseAddress(final boolean on)
+    '''
 def getReuseAddress():
-'''public boolean getReuseAddress()
-'''
-pass
+    '''    public boolean getReuseAddress()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def shutdownInput():
-'''public void shutdownInput()
-'''
-pass
+    '''    public void shutdownInput()
+    '''
 def shutdownOutput():
-'''public void shutdownOutput()
-'''
-pass
+    '''    public void shutdownOutput()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isConnected():
-'''public boolean isConnected()
-'''
-pass
+    '''    public boolean isConnected()
+    '''
 def isBound():
-'''public boolean isBound()
-'''
-pass
+    '''    public boolean isBound()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def isInputShutdown():
-'''public boolean isInputShutdown()
-'''
-pass
+    '''    public boolean isInputShutdown()
+    '''
 def isOutputShutdown():
-'''public boolean isOutputShutdown()
-'''
-pass
+    '''    public boolean isOutputShutdown()
+    '''
 def setPerformancePreferences():
-'''public void setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)
-'''
-pass
+    '''    public void setPerformancePreferences(final int connectionTime, final int latency, final int bandwidth)
+    '''
 def getSupportedCipherSuites():
-'''public String[] getSupportedCipherSuites()
-'''
-pass
+    '''    public String[] getSupportedCipherSuites()
+    '''
 def getEnabledCipherSuites():
-'''public String[] getEnabledCipherSuites()
-'''
-pass
+    '''    public String[] getEnabledCipherSuites()
+    '''
 def setEnabledCipherSuites():
-'''public void setEnabledCipherSuites(final String[] suites)
-'''
-pass
+    '''    public void setEnabledCipherSuites(final String[] suites)
+    '''
 def getSupportedProtocols():
-'''public String[] getSupportedProtocols()
-'''
-pass
+    '''    public String[] getSupportedProtocols()
+    '''
 def getEnabledProtocols():
-'''public String[] getEnabledProtocols()
-'''
-pass
+    '''    public String[] getEnabledProtocols()
+    '''
 def setEnabledProtocols():
-'''public void setEnabledProtocols(final String[] protocols)
-'''
-pass
+    '''    public void setEnabledProtocols(final String[] protocols)
+    '''
 def getSession():
-'''public SSLSession getSession()
-'''
-pass
+    '''    public SSLSession getSession()
+    '''
 def addHandshakeCompletedListener():
-'''public void addHandshakeCompletedListener(final HandshakeCompletedListener listener)
-'''
-pass
+    '''    public void addHandshakeCompletedListener(final HandshakeCompletedListener listener)
+    '''
 def removeHandshakeCompletedListener():
-'''public void removeHandshakeCompletedListener(final HandshakeCompletedListener listener)
-'''
-pass
+    '''    public void removeHandshakeCompletedListener(final HandshakeCompletedListener listener)
+    '''
 def startHandshake():
-'''public void startHandshake()
-'''
-pass
+    '''    public void startHandshake()
+    '''
 def setUseClientMode():
-'''public void setUseClientMode(final boolean mode)
-'''
-pass
+    '''    public void setUseClientMode(final boolean mode)
+    '''
 def getUseClientMode():
-'''public boolean getUseClientMode()
-'''
-pass
+    '''    public boolean getUseClientMode()
+    '''
 def setNeedClientAuth():
-'''public void setNeedClientAuth(final boolean need)
-'''
-pass
+    '''    public void setNeedClientAuth(final boolean need)
+    '''
 def getNeedClientAuth():
-'''public boolean getNeedClientAuth()
-'''
-pass
+    '''    public boolean getNeedClientAuth()
+    '''
 def setWantClientAuth():
-'''public void setWantClientAuth(final boolean want)
-'''
-pass
+    '''    public void setWantClientAuth(final boolean want)
+    '''
 def getWantClientAuth():
-'''public boolean getWantClientAuth()
-'''
-pass
+    '''    public boolean getWantClientAuth()
+    '''
 def setEnableSessionCreation():
-'''public void setEnableSessionCreation(final boolean flag)
-'''
-pass
+    '''    public void setEnableSessionCreation(final boolean flag)
+    '''
 def getEnableSessionCreation():
-'''public boolean getEnableSessionCreation()
-'''
-pass
+    '''    public boolean getEnableSessionCreation()
+    '''

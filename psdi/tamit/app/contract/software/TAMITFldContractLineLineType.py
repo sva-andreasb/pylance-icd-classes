@@ -1,8 +1,6 @@
 def TAMITFldContractLineLineType():
-'''public TAMITFldContractLineLineType(final MboValue mbv)
-'''
-pass
+    '''    public TAMITFldContractLineLineType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

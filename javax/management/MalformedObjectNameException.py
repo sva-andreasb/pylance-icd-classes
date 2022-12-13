@@ -1,5 +1,4 @@
 def MalformedObjectNameException():
-'''public MalformedObjectNameException()
-public MalformedObjectNameException(final String s)
-'''
-pass
+    '''    public MalformedObjectNameException()
+    public MalformedObjectNameException(final String s)
+    '''

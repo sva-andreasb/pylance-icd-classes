@@ -1,4 +1,3 @@
 def newSelectStrategy():
-'''public SelectStrategy newSelectStrategy()
-'''
-pass
+    '''    public SelectStrategy newSelectStrategy()
+    '''

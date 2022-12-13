@@ -1,24 +1,18 @@
 def Match():
-'''public Match()
-'''
-pass
+    '''    public Match()
+    '''
 def clone():
-'''public synchronized Object clone()
-'''
-pass
+    '''    public synchronized Object clone()
+    '''
 def getNumberOfGroups():
-'''public int getNumberOfGroups()
-'''
-pass
+    '''    public int getNumberOfGroups()
+    '''
 def getBeginning():
-'''public int getBeginning(final int index)
-'''
-pass
+    '''    public int getBeginning(final int index)
+    '''
 def getEnd():
-'''public int getEnd(final int index)
-'''
-pass
+    '''    public int getEnd(final int index)
+    '''
 def getCapturedText():
-'''public String getCapturedText(final int index)
-'''
-pass
+    '''    public String getCapturedText(final int index)
+    '''

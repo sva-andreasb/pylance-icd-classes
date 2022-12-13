@@ -1,4 +1,4 @@
-COPYRIGHT = "String  \n\n(C) Copyright IBM Corp. 2003, 2007.\n\n""
+COPYRIGHT = "String  \"\n\n(C) Copyright IBM Corp. 2003, 2007.\n\n\""
 DLT_NODE_LSEARCH = "int  1"
 DLT_NODE_BSEARCH = "int  2"
 DLT_NODE_TABLE = "int  3"

@@ -1,16 +1,12 @@
 def getLogger():
-'''public PlusPLog getLogger()
-'''
-pass
+    '''    public PlusPLog getLogger()
+    '''
 def increaseLineCount():
-'''public int increaseLineCount()
-'''
-pass
+    '''    public int increaseLineCount()
+    '''
 def getBillBatch():
-'''public PlusPBillBatchRemote getBillBatch()
-'''
-pass
+    '''    public PlusPBillBatchRemote getBillBatch()
+    '''
 def setBillBatch():
-'''public void setBillBatch(final PlusPBillBatchRemote billBatch)
-'''
-pass
+    '''    public void setBillBatch(final PlusPBillBatchRemote billBatch)
+    '''

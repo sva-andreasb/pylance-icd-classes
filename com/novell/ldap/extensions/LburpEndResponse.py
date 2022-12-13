@@ -1,4 +1,3 @@
 def LburpEndResponse():
-'''public LburpEndResponse(final RfcLDAPMessage rfcLDAPMessage)
-'''
-pass
+    '''    public LburpEndResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''

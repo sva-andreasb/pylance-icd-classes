@@ -1,48 +1,36 @@
 def isNull():
-'''public static boolean isNull(final String t)
-'''
-pass
+    '''    public static boolean isNull(final String t)
+    '''
 def specExists():
-'''public static boolean specExists(final String t)
-'''
-pass
+    '''    public static boolean specExists(final String t)
+    '''
 def NameRuleAttrInfo():
-'''public NameRuleAttrInfo(final NmrAttr nmrAttr, final String nmrNum, final NameRuleInfo _parent)
-'''
-pass
+    '''    public NameRuleAttrInfo(final NmrAttr nmrAttr, final String nmrNum, final NameRuleInfo _parent)
+    '''
 def getNmrNum():
-'''public String getNmrNum()
-'''
-pass
+    '''    public String getNmrNum()
+    '''
 def setNmrNum():
-'''public void setNmrNum(final String nmrNum)
-'''
-pass
+    '''    public void setNmrNum(final String nmrNum)
+    '''
 def isAttr():
-'''public boolean isAttr()
-'''
-pass
+    '''    public boolean isAttr()
+    '''
 def getAttrId():
-'''public String getAttrId()
-'''
-pass
+    '''    public String getAttrId()
+    '''
 def getRelationNum():
-'''public String getRelationNum()
-'''
-pass
+    '''    public String getRelationNum()
+    '''
 def getRelationGroupMapping():
-'''public String getRelationGroupMapping()
-'''
-pass
+    '''    public String getRelationGroupMapping()
+    '''
 def getUserClassName():
-'''public String getUserClassName()
-'''
-pass
+    '''    public String getUserClassName()
+    '''
 def getUserClassArgument():
-'''public String getUserClassArgument()
-'''
-pass
+    '''    public String getUserClassArgument()
+    '''
 def matches():
-'''public boolean matches(final String attr, final String link)
-'''
-pass
+    '''    public boolean matches(final String attr, final String link)
+    '''

@@ -1,48 +1,36 @@
 def AdHocCommand():
-'''public AdHocCommand()
-'''
-pass
+    '''    public AdHocCommand()
+    '''
 def getSpecificErrorCondition():
-'''public static SpecificErrorCondition getSpecificErrorCondition(final StanzaError error)
-'''
-pass
+    '''    public static SpecificErrorCondition getSpecificErrorCondition(final StanzaError error)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setNode():
-'''public void setNode(final String node)
-'''
-pass
+    '''    public void setNode(final String node)
+    '''
 def getNode():
-'''public String getNode()
-'''
-pass
+    '''    public String getNode()
+    '''
 def getNotes():
-'''public List<AdHocCommandNote> getNotes()
-'''
-pass
+    '''    public List<AdHocCommandNote> getNotes()
+    '''
 def getRaw():
-'''public String getRaw()
-'''
-pass
+    '''    public String getRaw()
+    '''
 def getForm():
-'''public Form getForm()
-'''
-pass
+    '''    public Form getForm()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def isCompleted():
-'''public boolean isCompleted()
-'''
-pass
+    '''    public boolean isCompleted()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,87 +1,66 @@
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public GenerateDataKeyWithoutPlaintextRequest withKeyId(final String keyId)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest withKeyId(final String keyId)
+    '''
 def getEncryptionContext():
-'''public Map<String, String> getEncryptionContext()
-'''
-pass
+    '''    public Map<String, String> getEncryptionContext()
+    '''
 def setEncryptionContext():
-'''public void setEncryptionContext(final Map<String, String> encryptionContext)
-'''
-pass
+    '''    public void setEncryptionContext(final Map<String, String> encryptionContext)
+    '''
 def withEncryptionContext():
-'''public GenerateDataKeyWithoutPlaintextRequest withEncryptionContext(final Map<String, String> encryptionContext)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest withEncryptionContext(final Map<String, String> encryptionContext)
+    '''
 def addEncryptionContextEntry():
-'''public GenerateDataKeyWithoutPlaintextRequest addEncryptionContextEntry(final String key, final String value)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest addEncryptionContextEntry(final String key, final String value)
+    '''
 def clearEncryptionContextEntries():
-'''public GenerateDataKeyWithoutPlaintextRequest clearEncryptionContextEntries()
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest clearEncryptionContextEntries()
+    '''
 def setKeySpec():
-'''public void setKeySpec(final String keySpec)
-public void setKeySpec(final DataKeySpec keySpec)
-'''
-pass
+    '''    public void setKeySpec(final String keySpec)
+    public void setKeySpec(final DataKeySpec keySpec)
+    '''
 def getKeySpec():
-'''public String getKeySpec()
-'''
-pass
+    '''    public String getKeySpec()
+    '''
 def withKeySpec():
-'''public GenerateDataKeyWithoutPlaintextRequest withKeySpec(final String keySpec)
-public GenerateDataKeyWithoutPlaintextRequest withKeySpec(final DataKeySpec keySpec)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest withKeySpec(final String keySpec)
+    public GenerateDataKeyWithoutPlaintextRequest withKeySpec(final DataKeySpec keySpec)
+    '''
 def setNumberOfBytes():
-'''public void setNumberOfBytes(final Integer numberOfBytes)
-'''
-pass
+    '''    public void setNumberOfBytes(final Integer numberOfBytes)
+    '''
 def getNumberOfBytes():
-'''public Integer getNumberOfBytes()
-'''
-pass
+    '''    public Integer getNumberOfBytes()
+    '''
 def withNumberOfBytes():
-'''public GenerateDataKeyWithoutPlaintextRequest withNumberOfBytes(final Integer numberOfBytes)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest withNumberOfBytes(final Integer numberOfBytes)
+    '''
 def getGrantTokens():
-'''public List<String> getGrantTokens()
-'''
-pass
+    '''    public List<String> getGrantTokens()
+    '''
 def setGrantTokens():
-'''public void setGrantTokens(final Collection<String> grantTokens)
-'''
-pass
+    '''    public void setGrantTokens(final Collection<String> grantTokens)
+    '''
 def withGrantTokens():
-'''public GenerateDataKeyWithoutPlaintextRequest withGrantTokens(final String... grantTokens)
-public GenerateDataKeyWithoutPlaintextRequest withGrantTokens(final Collection<String> grantTokens)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest withGrantTokens(final String... grantTokens)
+    public GenerateDataKeyWithoutPlaintextRequest withGrantTokens(final Collection<String> grantTokens)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public GenerateDataKeyWithoutPlaintextRequest clone()
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextRequest clone()
+    '''

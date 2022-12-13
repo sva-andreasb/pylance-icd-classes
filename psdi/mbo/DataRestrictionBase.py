@@ -1,20 +1,15 @@
 def hasCondition():
-'''public boolean hasCondition()
-'''
-pass
+    '''    public boolean hasCondition()
+    '''
 def getConditionNum():
-'''public String getConditionNum()
-'''
-pass
+    '''    public String getConditionNum()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def reEvaluate():
-'''public boolean reEvaluate()
-'''
-pass
+    '''    public boolean reEvaluate()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

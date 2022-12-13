@@ -1,8 +1,6 @@
 def WOTreeBean():
-'''public WOTreeBean()
-'''
-pass
+    '''    public WOTreeBean()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''

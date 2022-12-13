@@ -1,16 +1,12 @@
 def FldActionType():
-'''public FldActionType(final MboValue mbv)
-'''
-pass
+    '''    public FldActionType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

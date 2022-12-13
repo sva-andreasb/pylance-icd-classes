@@ -1,12 +1,9 @@
 def getSingleton():
-'''public static final StaticMDCBinder getSingleton()
-'''
-pass
+    '''    public static final StaticMDCBinder getSingleton()
+    '''
 def getMDCA():
-'''public MDCAdapter getMDCA()
-'''
-pass
+    '''    public MDCAdapter getMDCA()
+    '''
 def getMDCAdapterClassStr():
-'''public String getMDCAdapterClassStr()
-'''
-pass
+    '''    public String getMDCAdapterClassStr()
+    '''

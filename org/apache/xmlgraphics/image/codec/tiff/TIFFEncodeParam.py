@@ -1,64 +1,48 @@
 def TIFFEncodeParam():
-'''public TIFFEncodeParam()
-'''
-pass
+    '''    public TIFFEncodeParam()
+    '''
 def getCompression():
-'''public CompressionValue getCompression()
-'''
-pass
+    '''    public CompressionValue getCompression()
+    '''
 def setCompression():
-'''public void setCompression(final CompressionValue compression)
-'''
-pass
+    '''    public void setCompression(final CompressionValue compression)
+    '''
 def getWriteTiled():
-'''public boolean getWriteTiled()
-'''
-pass
+    '''    public boolean getWriteTiled()
+    '''
 def setWriteTiled():
-'''public void setWriteTiled(final boolean writeTiled)
-'''
-pass
+    '''    public void setWriteTiled(final boolean writeTiled)
+    '''
 def setTileSize():
-'''public void setTileSize(final int tileWidth, final int tileHeight)
-'''
-pass
+    '''    public void setTileSize(final int tileWidth, final int tileHeight)
+    '''
 def getTileWidth():
-'''public int getTileWidth()
-'''
-pass
+    '''    public int getTileWidth()
+    '''
 def getTileHeight():
-'''public int getTileHeight()
-'''
-pass
+    '''    public int getTileHeight()
+    '''
 def setExtraImages():
-'''public synchronized void setExtraImages(final Iterator extraImages)
-'''
-pass
+    '''    public synchronized void setExtraImages(final Iterator extraImages)
+    '''
 def getExtraImages():
-'''public synchronized Iterator getExtraImages()
-'''
-pass
+    '''    public synchronized Iterator getExtraImages()
+    '''
 def setDeflateLevel():
-'''public void setDeflateLevel(final int deflateLevel)
-'''
-pass
+    '''    public void setDeflateLevel(final int deflateLevel)
+    '''
 def getDeflateLevel():
-'''public int getDeflateLevel()
-'''
-pass
+    '''    public int getDeflateLevel()
+    '''
 def setJPEGCompressRGBToYCbCr():
-'''public void setJPEGCompressRGBToYCbCr(final boolean convertJPEGRGBToYCbCr)
-'''
-pass
+    '''    public void setJPEGCompressRGBToYCbCr(final boolean convertJPEGRGBToYCbCr)
+    '''
 def getJPEGCompressRGBToYCbCr():
-'''public boolean getJPEGCompressRGBToYCbCr()
-'''
-pass
+    '''    public boolean getJPEGCompressRGBToYCbCr()
+    '''
 def setExtraFields():
-'''public void setExtraFields(final TIFFField[] extraFields)
-'''
-pass
+    '''    public void setExtraFields(final TIFFField[] extraFields)
+    '''
 def getExtraFields():
-'''public TIFFField[] getExtraFields()
-'''
-pass
+    '''    public TIFFField[] getExtraFields()
+    '''

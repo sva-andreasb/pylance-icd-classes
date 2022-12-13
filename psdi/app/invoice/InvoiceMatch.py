@@ -1,20 +1,15 @@
 def InvoiceMatch():
-'''public InvoiceMatch(final MboSet ms)
-'''
-pass
+    '''    public InvoiceMatch(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getReceipt():
-'''public ReceiptMboRemote getReceipt()
-'''
-pass
+    '''    public ReceiptMboRemote getReceipt()
+    '''
 def setReceipt():
-'''public void setReceipt(final ReceiptMboRemote receiptMboRemote)
-'''
-pass
+    '''    public void setReceipt(final ReceiptMboRemote receiptMboRemote)
+    '''

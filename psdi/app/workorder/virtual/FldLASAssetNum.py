@@ -1,12 +1,9 @@
 def FldLASAssetNum():
-'''public FldLASAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLASAssetNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

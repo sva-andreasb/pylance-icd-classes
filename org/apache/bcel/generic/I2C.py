@@ -1,8 +1,6 @@
 def I2C():
-'''public I2C()
-'''
-pass
+    '''    public I2C()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

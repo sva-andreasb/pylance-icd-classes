@@ -1,8 +1,6 @@
 def JobPlanSpecSet():
-'''public JobPlanSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JobPlanSpecSet(final MboServerInterface ms)
+    '''
 def whereClauseOnAttrAndValues():
-'''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
-'''
-pass
+    '''    public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''

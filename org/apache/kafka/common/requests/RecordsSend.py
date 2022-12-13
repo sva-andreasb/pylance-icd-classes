@@ -1,20 +1,15 @@
 def RecordsSend():
-'''public RecordsSend(final String destination, final Records records)
-'''
-pass
+    '''    public RecordsSend(final String destination, final Records records)
+    '''
 def destination():
-'''public String destination()
-'''
-pass
+    '''    public String destination()
+    '''
 def completed():
-'''public boolean completed()
-'''
-pass
+    '''    public boolean completed()
+    '''
 def writeTo():
-'''public long writeTo(final GatheringByteChannel channel)
-'''
-pass
+    '''    public long writeTo(final GatheringByteChannel channel)
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''

@@ -1,4 +1,3 @@
 def PlusPFldBBStatus():
-'''public PlusPFldBBStatus(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBBStatus(final MboValue mbv)
+    '''

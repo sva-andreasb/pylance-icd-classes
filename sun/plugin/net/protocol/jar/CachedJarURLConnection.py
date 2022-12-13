@@ -1,36 +1,27 @@
 def CachedJarURLConnection():
-'''public CachedJarURLConnection(final URL url, final Handler handler)
-'''
-pass
+    '''    public CachedJarURLConnection(final URL url, final Handler handler)
+    '''
 def getJarFileURL():
-'''public synchronized URL getJarFileURL()
-'''
-pass
+    '''    public synchronized URL getJarFileURL()
+    '''
 def getJarFile():
-'''public JarFile getJarFile()
-'''
-pass
+    '''    public JarFile getJarFile()
+    '''
 def getJarEntry():
-'''public JarEntry getJarEntry()
-'''
-pass
+    '''    public JarEntry getJarEntry()
+    '''
 def connect():
-'''public void connect()
-'''
-pass
+    '''    public void connect()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getContent():
-'''public Object getContent()
-'''
-pass
+    '''    public Object getContent()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getContentLength():
-'''public int getContentLength()
-'''
-pass
+    '''    public int getContentLength()
+    '''

@@ -1,24 +1,18 @@
 def isRestrict():
-'''public boolean isRestrict()
-'''
-pass
+    '''    public boolean isRestrict()
+    '''
 def asRestrict():
-'''public SqlRestrict asRestrict()
-'''
-pass
+    '''    public SqlRestrict asRestrict()
+    '''
 def getConditions():
-'''public SqlExprList getConditions()
-'''
-pass
+    '''    public SqlExprList getConditions()
+    '''
 def visit():
-'''public void visit(final SqlNodeVisitor visitor)
-'''
-pass
+    '''    public void visit(final SqlNodeVisitor visitor)
+    '''
 def apply():
-'''public SqlNode apply(final SqlTransform transform, final SqlNode subNode)
-'''
-pass
+    '''    public SqlNode apply(final SqlTransform transform, final SqlNode subNode)
+    '''
 def copy():
-'''public SqlNode copy(final SqlNode subNode)
-'''
-pass
+    '''    public SqlNode copy(final SqlNode subNode)
+    '''

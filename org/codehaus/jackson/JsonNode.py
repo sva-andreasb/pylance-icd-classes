@@ -1,199 +1,152 @@
 def isValueNode():
-'''public boolean isValueNode()
-'''
-pass
+    '''    public boolean isValueNode()
+    '''
 def isContainerNode():
-'''public boolean isContainerNode()
-'''
-pass
+    '''    public boolean isContainerNode()
+    '''
 def isMissingNode():
-'''public boolean isMissingNode()
-'''
-pass
+    '''    public boolean isMissingNode()
+    '''
 def isArray():
-'''public boolean isArray()
-'''
-pass
+    '''    public boolean isArray()
+    '''
 def isObject():
-'''public boolean isObject()
-'''
-pass
+    '''    public boolean isObject()
+    '''
 def isPojo():
-'''public boolean isPojo()
-'''
-pass
+    '''    public boolean isPojo()
+    '''
 def isNumber():
-'''public boolean isNumber()
-'''
-pass
+    '''    public boolean isNumber()
+    '''
 def isIntegralNumber():
-'''public boolean isIntegralNumber()
-'''
-pass
+    '''    public boolean isIntegralNumber()
+    '''
 def isFloatingPointNumber():
-'''public boolean isFloatingPointNumber()
-'''
-pass
+    '''    public boolean isFloatingPointNumber()
+    '''
 def isInt():
-'''public boolean isInt()
-'''
-pass
+    '''    public boolean isInt()
+    '''
 def isLong():
-'''public boolean isLong()
-'''
-pass
+    '''    public boolean isLong()
+    '''
 def isDouble():
-'''public boolean isDouble()
-'''
-pass
+    '''    public boolean isDouble()
+    '''
 def isBigDecimal():
-'''public boolean isBigDecimal()
-'''
-pass
+    '''    public boolean isBigDecimal()
+    '''
 def isBigInteger():
-'''public boolean isBigInteger()
-'''
-pass
+    '''    public boolean isBigInteger()
+    '''
 def isTextual():
-'''public boolean isTextual()
-'''
-pass
+    '''    public boolean isTextual()
+    '''
 def isBoolean():
-'''public boolean isBoolean()
-'''
-pass
+    '''    public boolean isBoolean()
+    '''
 def isNull():
-'''public boolean isNull()
-'''
-pass
+    '''    public boolean isNull()
+    '''
 def isBinary():
-'''public boolean isBinary()
-'''
-pass
+    '''    public boolean isBinary()
+    '''
 def getTextValue():
-'''public String getTextValue()
-'''
-pass
+    '''    public String getTextValue()
+    '''
 def getBinaryValue():
-'''public byte[] getBinaryValue()
-'''
-pass
+    '''    public byte[] getBinaryValue()
+    '''
 def getBooleanValue():
-'''public boolean getBooleanValue()
-'''
-pass
+    '''    public boolean getBooleanValue()
+    '''
 def getNumberValue():
-'''public Number getNumberValue()
-'''
-pass
+    '''    public Number getNumberValue()
+    '''
 def getIntValue():
-'''public int getIntValue()
-'''
-pass
+    '''    public int getIntValue()
+    '''
 def getLongValue():
-'''public long getLongValue()
-'''
-pass
+    '''    public long getLongValue()
+    '''
 def getDoubleValue():
-'''public double getDoubleValue()
-'''
-pass
+    '''    public double getDoubleValue()
+    '''
 def getDecimalValue():
-'''public BigDecimal getDecimalValue()
-'''
-pass
+    '''    public BigDecimal getDecimalValue()
+    '''
 def getBigIntegerValue():
-'''public BigInteger getBigIntegerValue()
-'''
-pass
+    '''    public BigInteger getBigIntegerValue()
+    '''
 def get():
-'''public JsonNode get(final int index)
-public JsonNode get(final String fieldName)
-'''
-pass
+    '''    public JsonNode get(final int index)
+    public JsonNode get(final String fieldName)
+    '''
 def asInt():
-'''public int asInt()
-public int asInt(final int defaultValue)
-'''
-pass
+    '''    public int asInt()
+    public int asInt(final int defaultValue)
+    '''
 def asLong():
-'''public long asLong()
-public long asLong(final long defaultValue)
-'''
-pass
+    '''    public long asLong()
+    public long asLong(final long defaultValue)
+    '''
 def asDouble():
-'''public double asDouble()
-public double asDouble(final double defaultValue)
-'''
-pass
+    '''    public double asDouble()
+    public double asDouble(final double defaultValue)
+    '''
 def asBoolean():
-'''public boolean asBoolean()
-public boolean asBoolean(final boolean defaultValue)
-'''
-pass
+    '''    public boolean asBoolean()
+    public boolean asBoolean(final boolean defaultValue)
+    '''
 def getValueAsText():
-'''public String getValueAsText()
-'''
-pass
+    '''    public String getValueAsText()
+    '''
 def getValueAsInt():
-'''public int getValueAsInt()
-public int getValueAsInt(final int defaultValue)
-'''
-pass
+    '''    public int getValueAsInt()
+    public int getValueAsInt(final int defaultValue)
+    '''
 def getValueAsLong():
-'''public long getValueAsLong()
-public long getValueAsLong(final long defaultValue)
-'''
-pass
+    '''    public long getValueAsLong()
+    public long getValueAsLong(final long defaultValue)
+    '''
 def getValueAsDouble():
-'''public double getValueAsDouble()
-public double getValueAsDouble(final double defaultValue)
-'''
-pass
+    '''    public double getValueAsDouble()
+    public double getValueAsDouble(final double defaultValue)
+    '''
 def getValueAsBoolean():
-'''public boolean getValueAsBoolean()
-public boolean getValueAsBoolean(final boolean defaultValue)
-'''
-pass
+    '''    public boolean getValueAsBoolean()
+    public boolean getValueAsBoolean(final boolean defaultValue)
+    '''
 def has():
-'''public boolean has(final String fieldName)
-public boolean has(final int index)
-'''
-pass
+    '''    public boolean has(final String fieldName)
+    public boolean has(final int index)
+    '''
 def findValues():
-'''public final List<JsonNode> findValues(final String fieldName)
-'''
-pass
+    '''    public final List<JsonNode> findValues(final String fieldName)
+    '''
 def findValuesAsText():
-'''public final List<String> findValuesAsText(final String fieldName)
-'''
-pass
+    '''    public final List<String> findValuesAsText(final String fieldName)
+    '''
 def findParents():
-'''public final List<JsonNode> findParents(final String fieldName)
-'''
-pass
+    '''    public final List<JsonNode> findParents(final String fieldName)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def iterator():
-'''public final Iterator<JsonNode> iterator()
-'''
-pass
+    '''    public final Iterator<JsonNode> iterator()
+    '''
 def getElements():
-'''public Iterator<JsonNode> getElements()
-'''
-pass
+    '''    public Iterator<JsonNode> getElements()
+    '''
 def getFieldNames():
-'''public Iterator<String> getFieldNames()
-'''
-pass
+    '''    public Iterator<String> getFieldNames()
+    '''
 def getPath():
-'''public final JsonNode getPath(final String fieldName)
-public final JsonNode getPath(final int index)
-'''
-pass
+    '''    public final JsonNode getPath(final String fieldName)
+    public final JsonNode getPath(final int index)
+    '''
 def with():
-'''public JsonNode with(final String propertyName)
-'''
-pass
+    '''    public JsonNode with(final String propertyName)
+    '''

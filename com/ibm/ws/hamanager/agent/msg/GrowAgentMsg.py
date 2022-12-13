@@ -1,20 +1,15 @@
 def GrowAgentMsg():
-'''public GrowAgentMsg(final Map id, final long sequenceNbr, final String channelName)
-'''
-pass
+    '''    public GrowAgentMsg(final Map id, final long sequenceNbr, final String channelName)
+    '''
 def getAgentInstanceId():
-'''public Map getAgentInstanceId()
-'''
-pass
+    '''    public Map getAgentInstanceId()
+    '''
 def getSequenceNbr():
-'''public long getSequenceNbr()
-'''
-pass
+    '''    public long getSequenceNbr()
+    '''
 def getChannelName():
-'''public String getChannelName()
-'''
-pass
+    '''    public String getChannelName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

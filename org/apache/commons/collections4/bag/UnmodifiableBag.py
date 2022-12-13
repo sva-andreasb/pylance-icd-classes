@@ -1,38 +1,29 @@
 def unmodifiableBag():
-'''public static <E> Bag<E> unmodifiableBag(final Bag<? extends E> bag)
-'''
-pass
+    '''    public static <E> Bag<E> unmodifiableBag(final Bag<? extends E> bag)
+    '''
 def iterator():
-'''public Iterator<E> iterator()
-'''
-pass
+    '''    public Iterator<E> iterator()
+    '''
 def add():
-'''public boolean add(final E object)
-public boolean add(final E object, final int count)
-'''
-pass
+    '''    public boolean add(final E object)
+    public boolean add(final E object, final int count)
+    '''
 def addAll():
-'''public boolean addAll(final Collection<? extends E> coll)
-'''
-pass
+    '''    public boolean addAll(final Collection<? extends E> coll)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def remove():
-'''public boolean remove(final Object object)
-public boolean remove(final Object object, final int count)
-'''
-pass
+    '''    public boolean remove(final Object object)
+    public boolean remove(final Object object, final int count)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean removeAll(final Collection<?> coll)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean retainAll(final Collection<?> coll)
+    '''
 def uniqueSet():
-'''public Set<E> uniqueSet()
-'''
-pass
+    '''    public Set<E> uniqueSet()
+    '''

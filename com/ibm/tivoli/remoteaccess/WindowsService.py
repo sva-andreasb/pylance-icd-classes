@@ -1,16 +1,12 @@
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getStateAsString():
-'''public String getStateAsString()
-'''
-pass
+    '''    public String getStateAsString()
+    '''
 def getState():
-'''public WindowsServiceState getState()
-'''
-pass
+    '''    public WindowsServiceState getState()
+    '''

@@ -1,5 +1,4 @@
 def FldContact():
-'''public FldContact(final MboValue mbv)
-public FldContact(final MboValue mbv, final String companyFldName)
-'''
-pass
+    '''    public FldContact(final MboValue mbv)
+    public FldContact(final MboValue mbv, final String companyFldName)
+    '''

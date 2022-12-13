@@ -1,8 +1,6 @@
 def FldCommonCategory():
-'''public FldCommonCategory(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonCategory(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

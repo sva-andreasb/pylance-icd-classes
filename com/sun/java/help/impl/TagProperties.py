@@ -1,79 +1,60 @@
 def TagProperties():
-'''public TagProperties()
-public TagProperties(final int initialSize)
-'''
-pass
+    '''    public TagProperties()
+    public TagProperties(final int initialSize)
+    '''
 def getProperty():
-'''public String getProperty(final String s)
-public String getProperty(final String s, final String s2)
-'''
-pass
+    '''    public String getProperty(final String s)
+    public String getProperty(final String s, final String s2)
+    '''
 def propertyNames():
-'''public Enumeration propertyNames()
-'''
-pass
+    '''    public Enumeration propertyNames()
+    '''
 def list():
-'''public void list(final PrintStream printStream)
-public void list(final PrintWriter printWriter)
-'''
-pass
+    '''    public void list(final PrintStream printStream)
+    public void list(final PrintWriter printWriter)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def keys():
-'''public synchronized Enumeration keys()
-'''
-pass
+    '''    public synchronized Enumeration keys()
+    '''
 def elements():
-'''public synchronized Enumeration elements()
-'''
-pass
+    '''    public synchronized Enumeration elements()
+    '''
 def contains():
-'''public synchronized boolean contains(final Object value)
-'''
-pass
+    '''    public synchronized boolean contains(final Object value)
+    '''
 def containsKey():
-'''public synchronized boolean containsKey(final Object key)
-'''
-pass
+    '''    public synchronized boolean containsKey(final Object key)
+    '''
 def get():
-'''public synchronized Object get(final Object key)
-'''
-pass
+    '''    public synchronized Object get(final Object key)
+    '''
 def put():
-'''public synchronized Object put(final Object key, final Object value)
-'''
-pass
+    '''    public synchronized Object put(final Object key, final Object value)
+    '''
 def remove():
-'''public synchronized Object remove(final Object key)
-'''
-pass
+    '''    public synchronized Object remove(final Object key)
+    '''
 def clear():
-'''public synchronized void clear()
-'''
-pass
+    '''    public synchronized void clear()
+    '''
 def getHashtable():
-'''public Hashtable getHashtable()
-'''
-pass
+    '''    public Hashtable getHashtable()
+    '''
 def clone():
-'''public synchronized Object clone()
-'''
-pass
+    '''    public synchronized Object clone()
+    '''
 def toString():
-'''public synchronized String toString()
-'''
-pass
+    '''    public synchronized String toString()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''

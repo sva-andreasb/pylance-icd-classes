@@ -1,8 +1,6 @@
 def ASCIIDecoder():
-'''public ASCIIDecoder(final InputStream is)
-'''
-pass
+    '''    public ASCIIDecoder(final InputStream is)
+    '''
 def readChar():
-'''public int readChar()
-'''
-pass
+    '''    public int readChar()
+    '''

@@ -1,109 +1,83 @@
 def ResourceHoursView():
-'''public ResourceHoursView()
-'''
-pass
+    '''    public ResourceHoursView()
+    '''
 def handleMessage():
-'''public void handleMessage(final String msgId, final Object... adjusting)
-public void handleMessage(final String msgId, final Object... args)
-'''
-pass
+    '''    public void handleMessage(final String msgId, final Object... adjusting)
+    public void handleMessage(final String msgId, final Object... args)
+    '''
 def chartAreaChanged():
-'''public void chartAreaChanged(final ChartAreaEvent event)
-'''
-pass
+    '''    public void chartAreaChanged(final ChartAreaEvent event)
+    '''
 def attachModel():
-'''public void attachModel(final AppletGanttModel model)
-'''
-pass
+    '''    public void attachModel(final AppletGanttModel model)
+    '''
 def initializeView():
-'''public Component initializeView()
-'''
-pass
+    '''    public Component initializeView()
+    '''
 def selectionChanged():
-'''public void selectionChanged(final SelectionEvent arg0)
-'''
-pass
+    '''    public void selectionChanged(final SelectionEvent arg0)
+    '''
 def setResourceViewContext():
-'''public void setResourceViewContext(final ResourceViewContext context)
-'''
-pass
+    '''    public void setResourceViewContext(final ResourceViewContext context)
+    '''
 def getScheduleChart():
-'''public IlvScheduleChart getScheduleChart()
-'''
-pass
+    '''    public IlvScheduleChart getScheduleChart()
+    '''
 def getLoadChart():
-'''public SKDResourceHourAndAvailabilityChart getLoadChart()
-'''
-pass
+    '''    public SKDResourceHourAndAvailabilityChart getLoadChart()
+    '''
 def mousePressed():
-'''public void mousePressed(final MouseEvent e)
-'''
-pass
+    '''    public void mousePressed(final MouseEvent e)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    '''
 def print():
-'''public void print()
-'''
-pass
+    '''    public void print()
+    '''
 def printSetup():
-'''public void printSetup()
-'''
-pass
+    '''    public void printSetup()
+    '''
 def printPreview():
-'''public void printPreview()
-'''
-pass
+    '''    public void printPreview()
+    '''
 def initPrintingController():
-'''public static void initPrintingController(final IlvScheduleDataChart loadChart)
-'''
-pass
+    '''    public static void initPrintingController(final IlvScheduleDataChart loadChart)
+    '''
 def attachGanttModelToViewComponents():
-'''public void attachGanttModelToViewComponents()
-'''
-pass
+    '''    public void attachGanttModelToViewComponents()
+    '''
 def detachGanttModelFromViewComponents():
-'''public void detachGanttModelFromViewComponents()
-public void detachGanttModelFromViewComponents(final IlvGanttModel model1)
-'''
-pass
+    '''    public void detachGanttModelFromViewComponents()
+    public void detachGanttModelFromViewComponents(final IlvGanttModel model1)
+    '''
 def activate():
-'''public void activate()
-'''
-pass
+    '''    public void activate()
+    '''
 def deactivate():
-'''public void deactivate()
-'''
-pass
+    '''    public void deactivate()
+    '''
 def applyActivityQbeFilter():
-'''public void applyActivityQbeFilter(final Map<String, String> qbeActivityFilter)
-'''
-pass
+    '''    public void applyActivityQbeFilter(final Map<String, String> qbeActivityFilter)
+    '''
 def applyActivityQbeFilterX():
-'''public void applyActivityQbeFilterX(final Map<String, String> qbeActivityFilter)
-'''
-pass
+    '''    public void applyActivityQbeFilterX(final Map<String, String> qbeActivityFilter)
+    '''
 def applyActivityFilter():
-'''public void applyActivityFilter(final String regEx)
-'''
-pass
+    '''    public void applyActivityFilter(final String regEx)
+    '''
 def applyActivityFilterX():
-'''public void applyActivityFilterX(final String regEx)
-'''
-pass
+    '''    public void applyActivityFilterX(final String regEx)
+    '''
 def getResourceChart():
-'''public IlvScheduleChart getResourceChart()
-'''
-pass
+    '''    public IlvScheduleChart getResourceChart()
+    '''
 def getChartId():
-'''public String getChartId()
-'''
-pass
+    '''    public String getChartId()
+    '''
 def getDividerComponent():
-'''public Object getDividerComponent()
-'''
-pass
+    '''    public Object getDividerComponent()
+    '''

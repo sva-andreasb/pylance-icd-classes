@@ -1,125 +1,94 @@
 def getBillingCancellationReasonCategory():
-'''public Category getBillingCancellationReasonCategory()
-'''
-pass
+    '''    public Category getBillingCancellationReasonCategory()
+    '''
 def setBillingCancellationReasonCategory():
-'''public void setBillingCancellationReasonCategory(final Category billingCancellationReasonCategory)
-'''
-pass
+    '''    public void setBillingCancellationReasonCategory(final Category billingCancellationReasonCategory)
+    '''
 def getBillingItems():
-'''public List<Item> getBillingItems()
-'''
-pass
+    '''    public List<Item> getBillingItems()
+    '''
 def getTranslatedReason():
-'''public String getTranslatedReason()
-'''
-pass
+    '''    public String getTranslatedReason()
+    '''
 def setTranslatedReason():
-'''public void setTranslatedReason(final String translatedReason)
-'''
-pass
+    '''    public void setTranslatedReason(final String translatedReason)
+    '''
 def getBillingCancelReasonCategoryId():
-'''public Long getBillingCancelReasonCategoryId()
-'''
-pass
+    '''    public Long getBillingCancelReasonCategoryId()
+    '''
 def setBillingCancelReasonCategoryId():
-'''public void setBillingCancelReasonCategoryId(final Long billingCancelReasonCategoryId)
-'''
-pass
+    '''    public void setBillingCancelReasonCategoryId(final Long billingCancelReasonCategoryId)
+    '''
 def isBillingCancelReasonCategoryIdSpecified():
-'''public boolean isBillingCancelReasonCategoryIdSpecified()
-'''
-pass
+    '''    public boolean isBillingCancelReasonCategoryIdSpecified()
+    '''
 def unsetBillingCancelReasonCategoryId():
-'''public void unsetBillingCancelReasonCategoryId()
-'''
-pass
+    '''    public void unsetBillingCancelReasonCategoryId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getKeyName():
-'''public String getKeyName()
-'''
-pass
+    '''    public String getKeyName()
+    '''
 def setKeyName():
-'''public void setKeyName(final String keyName)
-'''
-pass
+    '''    public void setKeyName(final String keyName)
+    '''
 def isKeyNameSpecified():
-'''public boolean isKeyNameSpecified()
-'''
-pass
+    '''    public boolean isKeyNameSpecified()
+    '''
 def unsetKeyName():
-'''public void unsetKeyName()
-'''
-pass
+    '''    public void unsetKeyName()
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def setReason():
-'''public void setReason(final String reason)
-'''
-pass
+    '''    public void setReason(final String reason)
+    '''
 def isReasonSpecified():
-'''public boolean isReasonSpecified()
-'''
-pass
+    '''    public boolean isReasonSpecified()
+    '''
 def unsetReason():
-'''public void unsetReason()
-'''
-pass
+    '''    public void unsetReason()
+    '''
 def getBillingItemCount():
-'''public Long getBillingItemCount()
-'''
-pass
+    '''    public Long getBillingItemCount()
+    '''
 def setBillingItemCount():
-'''public void setBillingItemCount(final Long billingItemCount)
-'''
-pass
+    '''    public void setBillingItemCount(final Long billingItemCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def translatedReason():
-'''public Mask translatedReason()
-'''
-pass
+    '''    public Mask translatedReason()
+    '''
 def billingCancelReasonCategoryId():
-'''public Mask billingCancelReasonCategoryId()
-'''
-pass
+    '''    public Mask billingCancelReasonCategoryId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def keyName():
-'''public Mask keyName()
-'''
-pass
+    '''    public Mask keyName()
+    '''
 def reason():
-'''public Mask reason()
-'''
-pass
+    '''    public Mask reason()
+    '''
 def billingItemCount():
-'''public Mask billingItemCount()
-'''
-pass
+    '''    public Mask billingItemCount()
+    '''

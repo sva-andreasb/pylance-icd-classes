@@ -1,8 +1,6 @@
 def FldInvVendorPercentRejectedYTD():
-'''public FldInvVendorPercentRejectedYTD(final MboValue mbv)
-'''
-pass
+    '''    public FldInvVendorPercentRejectedYTD(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

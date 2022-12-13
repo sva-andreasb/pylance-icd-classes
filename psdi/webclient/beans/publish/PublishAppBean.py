@@ -1,12 +1,9 @@
 def VEWPBXML():
-'''public int VEWPBXML()
-'''
-pass
+    '''    public int VEWPBXML()
+    '''
 def ENBLEVT():
-'''public int ENBLEVT()
-'''
-pass
+    '''    public int ENBLEVT()
+    '''
 def DSBLEVT():
-'''public int DSBLEVT()
-'''
-pass
+    '''    public int DSBLEVT()
+    '''

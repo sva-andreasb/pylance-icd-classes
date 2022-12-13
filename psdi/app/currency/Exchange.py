@@ -1,20 +1,15 @@
 def Exchange():
-'''public Exchange(final MboSet ms)
-'''
-pass
+    '''    public Exchange(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def validateDates():
-'''public void validateDates()
-'''
-pass
+    '''    public void validateDates()
+    '''

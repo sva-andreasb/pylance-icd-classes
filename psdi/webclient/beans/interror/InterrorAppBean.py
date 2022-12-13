@@ -1,44 +1,33 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def setPageStartIndex():
-'''public boolean setPageStartIndex(final int nRow)
-'''
-pass
+    '''    public boolean setPageStartIndex(final int nRow)
+    '''
 def resetErrorList():
-'''public int resetErrorList()
-'''
-pass
+    '''    public int resetErrorList()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def REFRESH():
-'''public int REFRESH()
-'''
-pass
+    '''    public int REFRESH()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def DELETEALL():
-'''public int DELETEALL()
-'''
-pass
+    '''    public int DELETEALL()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def PROCESSALL():
-'''public int PROCESSALL()
-'''
-pass
+    '''    public int PROCESSALL()
+    '''
 def PROCESSSEL():
-'''public int PROCESSSEL()
-'''
-pass
+    '''    public int PROCESSSEL()
+    '''
 def detail():
-'''public int detail()
-'''
-pass
+    '''    public int detail()
+    '''

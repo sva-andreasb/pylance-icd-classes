@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def AddCookieSideEffect():
-'''public AddCookieSideEffect(final Cookie cookie)
-'''
-pass
+    '''    public AddCookieSideEffect(final Cookie cookie)
+    '''
 def performSideEffect():
-'''public void performSideEffect(final HttpServletResponse response)
-'''
-pass
+    '''    public void performSideEffect(final HttpServletResponse response)
+    '''

@@ -1,105 +1,80 @@
-ELEMENT = "String  si""
-NAMESPACE = "String  http://jabber.org/protocol/si""
+ELEMENT = "String  \"si\""
+NAMESPACE = "String  \"http://jabber.org/protocol/si\""
 def StreamInitiation():
-'''public StreamInitiation()
-'''
-pass
+    '''    public StreamInitiation()
+    '''
 def setSessionID():
-'''public void setSessionID(final String id)
-'''
-pass
+    '''    public void setSessionID(final String id)
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def setMimeType():
-'''public void setMimeType(final String mimeType)
-'''
-pass
+    '''    public void setMimeType(final String mimeType)
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def setFile():
-'''public void setFile(final File file)
-'''
-pass
+    '''    public void setFile(final File file)
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def setFeatureNegotiationForm():
-'''public void setFeatureNegotiationForm(final DataForm form)
-'''
-pass
+    '''    public void setFeatureNegotiationForm(final DataForm form)
+    '''
 def getFeatureNegotiationForm():
-'''public DataForm getFeatureNegotiationForm()
-'''
-pass
+    '''    public DataForm getFeatureNegotiationForm()
+    '''
 def File():
-'''public File(final String name, final long size)
-'''
-pass
+    '''    public File(final String name, final long size)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def setHash():
-'''public void setHash(final String hash)
-'''
-pass
+    '''    public void setHash(final String hash)
+    '''
 def getHash():
-'''public String getHash()
-'''
-pass
+    '''    public String getHash()
+    '''
 def setDate():
-'''public void setDate(final Date date)
-'''
-pass
+    '''    public void setDate(final Date date)
+    '''
 def getDate():
-'''public Date getDate()
-'''
-pass
+    '''    public Date getDate()
+    '''
 def setDesc():
-'''public void setDesc(final String desc)
-'''
-pass
+    '''    public void setDesc(final String desc)
+    '''
 def getDesc():
-'''public String getDesc()
-'''
-pass
+    '''    public String getDesc()
+    '''
 def setRanged():
-'''public void setRanged(final boolean isRanged)
-'''
-pass
+    '''    public void setRanged(final boolean isRanged)
+    '''
 def isRanged():
-'''public boolean isRanged()
-'''
-pass
+    '''    public boolean isRanged()
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    public String getNamespace()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    public String toXML(final String enclosingNamespace)
+    '''
 def Feature():
-'''public Feature(final DataForm data)
-'''
-pass
+    '''    public Feature(final DataForm data)
+    '''
 def getData():
-'''public DataForm getData()
-'''
-pass
+    '''    public DataForm getData()
+    '''

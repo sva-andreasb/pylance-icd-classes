@@ -1,40 +1,30 @@
 def MaxIntObjectCols():
-'''public MaxIntObjectCols(final MboSet ms)
-'''
-pass
+    '''    public MaxIntObjectCols(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def isExclude():
-'''public boolean isExclude()
-'''
-pass
+    '''    public boolean isExclude()
+    '''
 def isNone():
-'''public boolean isNone()
-'''
-pass
+    '''    public boolean isNone()
+    '''
 def isNonPersistent():
-'''public boolean isNonPersistent()
-'''
-pass
+    '''    public boolean isNonPersistent()
+    '''
 def isRestrictSetting():
-'''public boolean isRestrictSetting()
-'''
-pass
+    '''    public boolean isRestrictSetting()
+    '''

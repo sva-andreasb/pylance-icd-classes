@@ -1,36 +1,27 @@
 def AbstractOrderedMapIteratorDecorator():
-'''public AbstractOrderedMapIteratorDecorator(final OrderedMapIterator<K, V> iterator)
-'''
-pass
+    '''    public AbstractOrderedMapIteratorDecorator(final OrderedMapIterator<K, V> iterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public K next()
-'''
-pass
+    '''    public K next()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def previous():
-'''public K previous()
-'''
-pass
+    '''    public K previous()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V obj)
-'''
-pass
+    '''    public V setValue(final V obj)
+    '''

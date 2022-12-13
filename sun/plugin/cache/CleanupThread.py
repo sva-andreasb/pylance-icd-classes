@@ -1,21 +1,16 @@
 def CleanupThread():
-'''public CleanupThread(final ThreadGroup threadGroup)
-public CleanupThread(final ThreadGroup group, final long timeToWait)
-'''
-pass
+    '''    public CleanupThread(final ThreadGroup threadGroup)
+    public CleanupThread(final ThreadGroup group, final long timeToWait)
+    '''
 def addedFile():
-'''public void addedFile(final long n)
-'''
-pass
+    '''    public void addedFile(final long n)
+    '''
 def addedJar():
-'''public void addedJar(final long n)
-'''
-pass
+    '''    public void addedJar(final long n)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def compare():
-'''public int compare(final Object o, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o, final Object o2)
+    '''

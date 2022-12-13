@@ -1,12 +1,9 @@
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getRelPath():
-'''public String[] getRelPath()
-'''
-pass
+    '''    public String[] getRelPath()
+    '''
 def FormulaTargetInfo():
-'''public FormulaTargetInfo(final String objectName, final String[] relPath)
-'''
-pass
+    '''    public FormulaTargetInfo(final String objectName, final String[] relPath)
+    '''

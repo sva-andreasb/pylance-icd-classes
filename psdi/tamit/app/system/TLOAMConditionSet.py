@@ -1,4 +1,3 @@
 def TLOAMConditionSet():
-'''public TLOAMConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TLOAMConditionSet(final MboServerInterface ms)
+    '''

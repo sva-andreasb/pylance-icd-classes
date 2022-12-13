@@ -1,8 +1,6 @@
 def JoiningParserHelper():
-'''public JoiningParserHelper(final Node... pattern)
-'''
-pass
+    '''    public JoiningParserHelper(final Node... pattern)
+    '''
 def evaluateNode():
-'''public Node evaluateNode(final Node parent, final Node current)
-'''
-pass
+    '''    public Node evaluateNode(final Node parent, final Node current)
+    '''

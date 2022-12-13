@@ -1,8 +1,6 @@
 def getParsingException():
-'''public Exception getParsingException()
-'''
-pass
+    '''    public Exception getParsingException()
+    '''
 def getContent():
-'''public CharSequence getContent()
-'''
-pass
+    '''    public CharSequence getContent()
+    '''

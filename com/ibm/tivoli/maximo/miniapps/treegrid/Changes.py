@@ -1,2 +1,2 @@
-NodeName = "String  Changes""
-Update = "String  Update""
+NodeName = "String  \"Changes\""
+Update = "String  \"Update\""

@@ -1,38 +1,29 @@
 def Node_Variable():
-'''public Node_Variable(final String name)
-'''
-pass
+    '''    public Node_Variable(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def visitWith():
-'''public Object visitWith(final NodeVisitor v)
-'''
-pass
+    '''    public Object visitWith(final NodeVisitor v)
+    '''
 def isVariable():
-'''public boolean isVariable()
-'''
-pass
+    '''    public boolean isVariable()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    public boolean equals(final Object other)
+    '''
 def variable():
-'''public static Object variable(final String name)
-'''
-pass
+    '''    public static Object variable(final String name)
+    '''
 def VariableName():
-'''public VariableName(final String name)
-'''
-pass
+    '''    public VariableName(final String name)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

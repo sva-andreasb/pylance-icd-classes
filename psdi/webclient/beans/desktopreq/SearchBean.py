@@ -1,12 +1,9 @@
 def searchdr():
-'''public int searchdr()
-'''
-pass
+    '''    public int searchdr()
+    '''
 def cleardr():
-'''public int cleardr()
-'''
-pass
+    '''    public int cleardr()
+    '''
 def returnMR():
-'''public int returnMR()
-'''
-pass
+    '''    public int returnMR()
+    '''

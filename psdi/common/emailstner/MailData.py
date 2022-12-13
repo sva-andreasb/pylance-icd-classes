@@ -5,186 +5,140 @@ INPROCESS = "int  3"
 WORKFLOW = "int  4"
 COMPLETE = "int  5"
 def MailData():
-'''public MailData()
-'''
-pass
+    '''    public MailData()
+    '''
 def getConvertCidUris():
-'''public boolean getConvertCidUris()
-'''
-pass
+    '''    public boolean getConvertCidUris()
+    '''
 def setConvertCidUris():
-'''public void setConvertCidUris()
-'''
-pass
+    '''    public void setConvertCidUris()
+    '''
 def getFrom():
-'''public String getFrom()
-'''
-pass
+    '''    public String getFrom()
+    '''
 def setFrom():
-'''public void setFrom(final String string)
-'''
-pass
+    '''    public void setFrom(final String string)
+    '''
 def getTo():
-'''public String getTo()
-'''
-pass
+    '''    public String getTo()
+    '''
 def setTo():
-'''public void setTo(final String str)
-'''
-pass
+    '''    public void setTo(final String str)
+    '''
 def getCC():
-'''public String getCC()
-'''
-pass
+    '''    public String getCC()
+    '''
 def setCC():
-'''public void setCC(final String str)
-'''
-pass
+    '''    public void setCC(final String str)
+    '''
 def getBCC():
-'''public String getBCC()
-'''
-pass
+    '''    public String getBCC()
+    '''
 def setBCC():
-'''public void setBCC(final String str)
-'''
-pass
+    '''    public void setBCC(final String str)
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def setSubject():
-'''public void setSubject(final String str)
-'''
-pass
+    '''    public void setSubject(final String str)
+    '''
 def getPriority():
-'''public String getPriority()
-'''
-pass
+    '''    public String getPriority()
+    '''
 def setPriority():
-'''public void setPriority(final String mailPriority)
-'''
-pass
+    '''    public void setPriority(final String mailPriority)
+    '''
 def getMailer():
-'''public String getMailer()
-'''
-pass
+    '''    public String getMailer()
+    '''
 def setMailer():
-'''public void setMailer(final String name)
-'''
-pass
+    '''    public void setMailer(final String name)
+    '''
 def getReceiveDate():
-'''public Date getReceiveDate()
-'''
-pass
+    '''    public Date getReceiveDate()
+    '''
 def setReceiveDate():
-'''public void setReceiveDate(final Date d)
-'''
-pass
+    '''    public void setReceiveDate(final Date d)
+    '''
 def getSentDate():
-'''public Date getSentDate()
-'''
-pass
+    '''    public Date getSentDate()
+    '''
 def setSentDate():
-'''public void setSentDate(final Date d)
-'''
-pass
+    '''    public void setSentDate(final Date d)
+    '''
 def getMessageBody():
-'''public String getMessageBody()
-'''
-pass
+    '''    public String getMessageBody()
+    '''
 def setMessageBody():
-'''public void setMessageBody(final String str)
-'''
-pass
+    '''    public void setMessageBody(final String str)
+    '''
 def getBodyParts():
-'''public Vector getBodyParts()
-'''
-pass
+    '''    public Vector getBodyParts()
+    '''
 def setBodyParts():
-'''public void setBodyParts(final Vector v)
-'''
-pass
+    '''    public void setBodyParts(final Vector v)
+    '''
 def getReplyTo():
-'''public String getReplyTo()
-'''
-pass
+    '''    public String getReplyTo()
+    '''
 def setReplyTo():
-'''public void setReplyTo(final String str)
-'''
-pass
+    '''    public void setReplyTo(final String str)
+    '''
 def getMailId():
-'''public String getMailId()
-'''
-pass
+    '''    public String getMailId()
+    '''
 def setMailId():
-'''public void setMailId(final String str)
-'''
-pass
+    '''    public void setMailId(final String str)
+    '''
 def getPersonId():
-'''public String getPersonId()
-'''
-pass
+    '''    public String getPersonId()
+    '''
 def setPersonId():
-'''public void setPersonId(final String str)
-'''
-pass
+    '''    public void setPersonId(final String str)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String str)
-'''
-pass
+    '''    public void setObjectName(final String str)
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def setAction():
-'''public void setAction(final String str)
-'''
-pass
+    '''    public void setAction(final String str)
+    '''
 def getStatus():
-'''public int getStatus()
-'''
-pass
+    '''    public int getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final int id)
-'''
-pass
+    '''    public void setStatus(final int id)
+    '''
 def setInbCommUserInfo():
-'''public void setInbCommUserInfo(final UserInfo ui)
-'''
-pass
+    '''    public void setInbCommUserInfo(final UserInfo ui)
+    '''
 def getInbCommUserInfo():
-'''public UserInfo getInbCommUserInfo()
-'''
-pass
+    '''    public UserInfo getInbCommUserInfo()
+    '''
 def setMsgBodyContainsHtml():
-'''public void setMsgBodyContainsHtml()
-'''
-pass
+    '''    public void setMsgBodyContainsHtml()
+    '''
 def setHandleCidImages():
-'''public void setHandleCidImages()
-'''
-pass
+    '''    public void setHandleCidImages()
+    '''
 def setMsgBodyContainsCidUris():
-'''public void setMsgBodyContainsCidUris()
-'''
-pass
+    '''    public void setMsgBodyContainsCidUris()
+    '''
 def getImgSrcCidUris():
-'''public List<String> getImgSrcCidUris()
-'''
-pass
+    '''    public List<String> getImgSrcCidUris()
+    '''
 def setImgSrcCidUris():
-'''public void setImgSrcCidUris(final List<String> imgSrcUris)
-'''
-pass
+    '''    public void setImgSrcCidUris(final List<String> imgSrcUris)
+    '''
 def getMimeBodyPartImageCids():
-'''public List<String> getMimeBodyPartImageCids()
-'''
-pass
+    '''    public List<String> getMimeBodyPartImageCids()
+    '''
 def setMimeBodyPartImageCids():
-'''public void setMimeBodyPartImageCids(final List<String> bodyPartCids)
-'''
-pass
+    '''    public void setMimeBodyPartImageCids(final List<String> bodyPartCids)
+    '''

@@ -1,28 +1,21 @@
 def CobieSheetSpec():
-'''public CobieSheetSpec(final String name)
-'''
-pass
+    '''    public CobieSheetSpec(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getStyle():
-'''public String getStyle()
-'''
-pass
+    '''    public String getStyle()
+    '''
 def setStyle():
-'''public void setStyle(final String style)
-'''
-pass
+    '''    public void setStyle(final String style)
+    '''
 def addColumnStyle():
-'''public void addColumnStyle(final String name, final String style)
-'''
-pass
+    '''    public void addColumnStyle(final String name, final String style)
+    '''
 def getColumnStyle():
-'''public String getColumnStyle(final String name)
-'''
-pass
+    '''    public String getColumnStyle(final String name)
+    '''

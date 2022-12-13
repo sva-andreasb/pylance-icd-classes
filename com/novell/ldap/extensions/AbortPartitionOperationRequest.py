@@ -1,4 +1,3 @@
 def AbortPartitionOperationRequest():
-'''public AbortPartitionOperationRequest(final String s, final int n)
-'''
-pass
+    '''    public AbortPartitionOperationRequest(final String s, final int n)
+    '''

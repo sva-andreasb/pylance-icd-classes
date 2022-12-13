@@ -1,8 +1,6 @@
 def Messages_ko():
-'''public Messages_ko()
-'''
-pass
+    '''    public Messages_ko()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

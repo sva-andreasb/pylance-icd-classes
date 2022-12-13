@@ -1,32 +1,24 @@
 def BasicHttpEntity():
-'''public BasicHttpEntity()
-'''
-pass
+    '''    public BasicHttpEntity()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def setContentLength():
-'''public void setContentLength(final long len)
-'''
-pass
+    '''    public void setContentLength(final long len)
+    '''
 def setContent():
-'''public void setContent(final InputStream instream)
-'''
-pass
+    '''    public void setContent(final InputStream instream)
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outstream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outstream)
+    '''
 def isStreaming():
-'''public boolean isStreaming()
-'''
-pass
+    '''    public boolean isStreaming()
+    '''

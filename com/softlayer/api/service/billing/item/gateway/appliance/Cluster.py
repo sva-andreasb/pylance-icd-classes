@@ -1,8 +1,6 @@
 def getResource():
-'''public Group getResource()
-'''
-pass
+    '''    public Group getResource()
+    '''
 def setResource():
-'''public void setResource(final Group resource)
-'''
-pass
+    '''    public void setResource(final Group resource)
+    '''

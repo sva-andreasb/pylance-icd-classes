@@ -1,12 +1,9 @@
 def DefaultAndCondition():
-'''public DefaultAndCondition(final Condition c1, final Condition c2)
-'''
-pass
+    '''    public DefaultAndCondition(final Condition c1, final Condition c2)
+    '''
 def getConditionType():
-'''public short getConditionType()
-'''
-pass
+    '''    public short getConditionType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

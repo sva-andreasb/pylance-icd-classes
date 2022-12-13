@@ -1,4 +1,3 @@
 def MaxProdAppSet():
-'''public MaxProdAppSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxProdAppSet(final MboServerInterface ms)
+    '''

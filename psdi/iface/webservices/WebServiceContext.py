@@ -1,24 +1,18 @@
 def WebServiceContext():
-'''public WebServiceContext(final String userName, final String password)
-'''
-pass
+    '''    public WebServiceContext(final String userName, final String password)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def getCurrentContext():
-'''public static WebServiceContext getCurrentContext()
-'''
-pass
+    '''    public static WebServiceContext getCurrentContext()
+    '''
 def setCurrentContext():
-'''public static void setCurrentContext(final WebServiceContext context)
-'''
-pass
+    '''    public static void setCurrentContext(final WebServiceContext context)
+    '''
 def destroyCurrentContext():
-'''public static void destroyCurrentContext()
-'''
-pass
+    '''    public static void destroyCurrentContext()
+    '''

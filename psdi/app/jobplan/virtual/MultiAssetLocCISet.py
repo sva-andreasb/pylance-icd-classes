@@ -1,4 +1,3 @@
 def MultiAssetLocCISet():
-'''public MultiAssetLocCISet(final MboServerInterface ms)
-'''
-pass
+    '''    public MultiAssetLocCISet(final MboServerInterface ms)
+    '''

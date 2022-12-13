@@ -1,16 +1,12 @@
 def LicenseReservation():
-'''public LicenseReservation(final MboSet ms)
-'''
-pass
+    '''    public LicenseReservation(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long flags)
-'''
-pass
+    '''    public void delete(final long flags)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

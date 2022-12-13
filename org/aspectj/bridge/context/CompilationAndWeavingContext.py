@@ -32,50 +32,38 @@ MATCHING_POINTCUT = "int  30"
 MUNGING_WITH = "int  31"
 PROCESSING_ATASPECTJTYPE_MUNGERS_ONLY = "int  32"
 def reset():
-'''public static void reset()
-'''
-pass
+    '''    public static void reset()
+    '''
 def setMultiThreaded():
-'''public static void setMultiThreaded(final boolean mt)
-'''
-pass
+    '''    public static void setMultiThreaded(final boolean mt)
+    '''
 def registerFormatter():
-'''public static void registerFormatter(final int phaseId, final ContextFormatter aFormatter)
-'''
-pass
+    '''    public static void registerFormatter(final int phaseId, final ContextFormatter aFormatter)
+    '''
 def getCurrentContext():
-'''public static String getCurrentContext()
-'''
-pass
+    '''    public static String getCurrentContext()
+    '''
 def enteringPhase():
-'''public static ContextToken enteringPhase(final int phaseId, final Object data)
-'''
-pass
+    '''    public static ContextToken enteringPhase(final int phaseId, final Object data)
+    '''
 def leavingPhase():
-'''public static void leavingPhase(final ContextToken aToken)
-'''
-pass
+    '''    public static void leavingPhase(final ContextToken aToken)
+    '''
 def resetForThread():
-'''public static void resetForThread()
-'''
-pass
+    '''    public static void resetForThread()
+    '''
 def ContextTokenImpl():
-'''public ContextTokenImpl(final int id)
-'''
-pass
+    '''    public ContextTokenImpl(final int id)
+    '''
 def ContextStackEntry():
-'''public ContextStackEntry(final ContextTokenImpl ct, final int phase, final WeakReference<Object> data)
-'''
-pass
+    '''    public ContextStackEntry(final ContextTokenImpl ct, final int phase, final WeakReference<Object> data)
+    '''
 def getData():
-'''public Object getData()
-'''
-pass
+    '''    public Object getData()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def formatEntry():
-'''public String formatEntry(final int phaseId, final Object data)
-'''
-pass
+    '''    public String formatEntry(final int phaseId, final Object data)
+    '''

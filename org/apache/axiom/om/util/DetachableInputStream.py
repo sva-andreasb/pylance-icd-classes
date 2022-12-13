@@ -1,42 +1,32 @@
 def DetachableInputStream():
-'''public DetachableInputStream(final InputStream in)
-'''
-pass
+    '''    public DetachableInputStream(final InputStream in)
+    '''
 def length():
-'''public long length()
-'''
-pass
+    '''    public long length()
+    '''
 def detach():
-'''public void detach()
-'''
-pass
+    '''    public void detach()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def mark():
-'''public synchronized void mark(final int readlimit)
-'''
-pass
+    '''    public synchronized void mark(final int readlimit)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def skip():
-'''public long skip(final long n)
-'''
-pass
+    '''    public long skip(final long n)
+    '''

@@ -1,136 +1,104 @@
-PREFIX = "String  ws""
-NAME = "String  websocket""
-PROTOCOL_OPTION = "String  protocol""
-MESSAGES_PER_FRAME_OPTION = "String  messagesPerFrame""
-BUFFER_SIZE_OPTION = "String  bufferSize""
-MAX_MESSAGE_SIZE_OPTION = "String  maxMessageSize""
-THREAD_POOL_MAX_SIZE = "String  threadPoolMaxSize""
+PREFIX = "String  \"ws\""
+NAME = "String  \"websocket\""
+PROTOCOL_OPTION = "String  \"protocol\""
+MESSAGES_PER_FRAME_OPTION = "String  \"messagesPerFrame\""
+BUFFER_SIZE_OPTION = "String  \"bufferSize\""
+MAX_MESSAGE_SIZE_OPTION = "String  \"maxMessageSize\""
+THREAD_POOL_MAX_SIZE = "String  \"threadPoolMaxSize\""
 def WebSocketTransport():
-'''public WebSocketTransport(final BayeuxServerImpl bayeux)
-'''
-pass
+    '''    public WebSocketTransport(final BayeuxServerImpl bayeux)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def accept():
-'''public boolean accept(final HttpServletRequest request)
-'''
-pass
+    '''    public boolean accept(final HttpServletRequest request)
+    '''
 def handle():
-'''public void handle(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public void handle(final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def doWebSocketConnect():
-'''public WebSocket doWebSocketConnect(final HttpServletRequest request, final String protocol)
-'''
-pass
+    '''    public WebSocket doWebSocketConnect(final HttpServletRequest request, final String protocol)
+    '''
 def checkOrigin():
-'''public boolean checkOrigin(final HttpServletRequest request, final String origin)
-'''
-pass
+    '''    public boolean checkOrigin(final HttpServletRequest request, final String origin)
+    '''
 def getContext():
-'''public BayeuxContext getContext()
-'''
-pass
+    '''    public BayeuxContext getContext()
+    '''
 def WebSocketScheduler():
-'''public WebSocketScheduler(final WebSocketContext context, final String userAgent)
-'''
-pass
+    '''    public WebSocketScheduler(final WebSocketContext context, final String userAgent)
+    '''
 def onOpen():
-'''public void onOpen(final WebSocket.Connection connection)
-'''
-pass
+    '''    public void onOpen(final WebSocket.Connection connection)
+    '''
 def onClose():
-'''public void onClose(final int code, final String reason)
-'''
-pass
+    '''    public void onClose(final int code, final String reason)
+    '''
 def onMessage():
-'''public void onMessage(final String data)
-'''
-pass
+    '''    public void onMessage(final String data)
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''
 def schedule():
-'''public void schedule()
-'''
-pass
+    '''    public void schedule()
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def WebSocketContext():
-'''public WebSocketContext(final HttpServletRequest request)
-'''
-pass
+    '''    public WebSocketContext(final HttpServletRequest request)
+    '''
 def getUserPrincipal():
-'''public Principal getUserPrincipal()
-'''
-pass
+    '''    public Principal getUserPrincipal()
+    '''
 def isUserInRole():
-'''public boolean isUserInRole(final String role)
-'''
-pass
+    '''    public boolean isUserInRole(final String role)
+    '''
 def getRemoteAddress():
-'''public InetSocketAddress getRemoteAddress()
-'''
-pass
+    '''    public InetSocketAddress getRemoteAddress()
+    '''
 def getLocalAddress():
-'''public InetSocketAddress getLocalAddress()
-'''
-pass
+    '''    public InetSocketAddress getLocalAddress()
+    '''
 def getHeader():
-'''public String getHeader(final String name)
-'''
-pass
+    '''    public String getHeader(final String name)
+    '''
 def getHeaderValues():
-'''public List<String> getHeaderValues(final String name)
-'''
-pass
+    '''    public List<String> getHeaderValues(final String name)
+    '''
 def getParameter():
-'''public String getParameter(final String name)
-'''
-pass
+    '''    public String getParameter(final String name)
+    '''
 def getParameterValues():
-'''public List<String> getParameterValues(final String name)
-'''
-pass
+    '''    public List<String> getParameterValues(final String name)
+    '''
 def getCookie():
-'''public String getCookie(final String name)
-'''
-pass
+    '''    public String getCookie(final String name)
+    '''
 def getHttpSessionId():
-'''public String getHttpSessionId()
-'''
-pass
+    '''    public String getHttpSessionId()
+    '''
 def getHttpSessionAttribute():
-'''public Object getHttpSessionAttribute(final String name)
-'''
-pass
+    '''    public Object getHttpSessionAttribute(final String name)
+    '''
 def setHttpSessionAttribute():
-'''public void setHttpSessionAttribute(final String name, final Object value)
-'''
-pass
+    '''    public void setHttpSessionAttribute(final String name, final Object value)
+    '''
 def invalidateHttpSession():
-'''public void invalidateHttpSession()
-'''
-pass
+    '''    public void invalidateHttpSession()
+    '''
 def getRequestAttribute():
-'''public Object getRequestAttribute(final String name)
-'''
-pass
+    '''    public Object getRequestAttribute(final String name)
+    '''
 def getContextAttribute():
-'''public Object getContextAttribute(final String name)
-'''
-pass
+    '''    public Object getContextAttribute(final String name)
+    '''
 def getContextInitParameter():
-'''public String getContextInitParameter(final String name)
-'''
-pass
+    '''    public String getContextInitParameter(final String name)
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''

@@ -1,8 +1,6 @@
 def FSUB():
-'''public FSUB()
-'''
-pass
+    '''    public FSUB()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

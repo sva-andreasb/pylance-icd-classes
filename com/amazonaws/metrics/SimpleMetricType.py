@@ -1,12 +1,9 @@
 def hashCode():
-'''public final int hashCode()
-'''
-pass
+    '''    public final int hashCode()
+    '''
 def equals():
-'''public final boolean equals(final Object o)
-'''
-pass
+    '''    public final boolean equals(final Object o)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''

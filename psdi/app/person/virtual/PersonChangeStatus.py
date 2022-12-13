@@ -1,8 +1,6 @@
 def PersonChangeStatus():
-'''public PersonChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public PersonChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

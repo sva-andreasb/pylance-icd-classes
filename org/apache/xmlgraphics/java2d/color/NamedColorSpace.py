@@ -1,67 +1,51 @@
 def NamedColorSpace():
-'''public NamedColorSpace(final String name, final float[] xyz)
-public NamedColorSpace(final String name, final float[] xyz, final String profileName, final String profileURI)
-public NamedColorSpace(final String name, final Color color, final String profileName, final String profileURI)
-public NamedColorSpace(final String name, final Color color)
-'''
-pass
+    '''    public NamedColorSpace(final String name, final float[] xyz)
+    public NamedColorSpace(final String name, final float[] xyz, final String profileName, final String profileURI)
+    public NamedColorSpace(final String name, final Color color, final String profileName, final String profileURI)
+    public NamedColorSpace(final String name, final Color color)
+    '''
 def getColorName():
-'''public String getColorName()
-'''
-pass
+    '''    public String getColorName()
+    '''
 def getProfileName():
-'''public String getProfileName()
-'''
-pass
+    '''    public String getProfileName()
+    '''
 def getProfileURI():
-'''public String getProfileURI()
-'''
-pass
+    '''    public String getProfileURI()
+    '''
 def getXYZ():
-'''public float[] getXYZ()
-'''
-pass
+    '''    public float[] getXYZ()
+    '''
 def getRGBColor():
-'''public Color getRGBColor()
-'''
-pass
+    '''    public Color getRGBColor()
+    '''
 def getMinValue():
-'''public float getMinValue(final int component)
-'''
-pass
+    '''    public float getMinValue(final int component)
+    '''
 def getMaxValue():
-'''public float getMaxValue(final int component)
-'''
-pass
+    '''    public float getMaxValue(final int component)
+    '''
 def getName():
-'''public String getName(final int component)
-'''
-pass
+    '''    public String getName(final int component)
+    '''
 def fromCIEXYZ():
-'''public float[] fromCIEXYZ(final float[] colorvalue)
-'''
-pass
+    '''    public float[] fromCIEXYZ(final float[] colorvalue)
+    '''
 def fromRGB():
-'''public float[] fromRGB(final float[] rgbvalue)
-'''
-pass
+    '''    public float[] fromRGB(final float[] rgbvalue)
+    '''
 def toCIEXYZ():
-'''public float[] toCIEXYZ(final float[] colorvalue)
-'''
-pass
+    '''    public float[] toCIEXYZ(final float[] colorvalue)
+    '''
 def toRGB():
-'''public float[] toRGB(final float[] colorvalue)
-'''
-pass
+    '''    public float[] toRGB(final float[] colorvalue)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

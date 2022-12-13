@@ -1,8 +1,6 @@
 def FldSiteSiteid():
-'''public FldSiteSiteid(final MboValue mbv)
-'''
-pass
+    '''    public FldSiteSiteid(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

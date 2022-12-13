@@ -1,108 +1,81 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getCurrentCycleEndDate():
-'''public GregorianCalendar getCurrentCycleEndDate()
-'''
-pass
+    '''    public GregorianCalendar getCurrentCycleEndDate()
+    '''
 def setCurrentCycleEndDate():
-'''public void setCurrentCycleEndDate(final GregorianCalendar currentCycleEndDate)
-'''
-pass
+    '''    public void setCurrentCycleEndDate(final GregorianCalendar currentCycleEndDate)
+    '''
 def isCurrentCycleEndDateSpecified():
-'''public boolean isCurrentCycleEndDateSpecified()
-'''
-pass
+    '''    public boolean isCurrentCycleEndDateSpecified()
+    '''
 def unsetCurrentCycleEndDate():
-'''public void unsetCurrentCycleEndDate()
-'''
-pass
+    '''    public void unsetCurrentCycleEndDate()
+    '''
 def getCurrentCycleStartDate():
-'''public GregorianCalendar getCurrentCycleStartDate()
-'''
-pass
+    '''    public GregorianCalendar getCurrentCycleStartDate()
+    '''
 def setCurrentCycleStartDate():
-'''public void setCurrentCycleStartDate(final GregorianCalendar currentCycleStartDate)
-'''
-pass
+    '''    public void setCurrentCycleStartDate(final GregorianCalendar currentCycleStartDate)
+    '''
 def isCurrentCycleStartDateSpecified():
-'''public boolean isCurrentCycleStartDateSpecified()
-'''
-pass
+    '''    public boolean isCurrentCycleStartDateSpecified()
+    '''
 def unsetCurrentCycleStartDate():
-'''public void unsetCurrentCycleStartDate()
-'''
-pass
+    '''    public void unsetCurrentCycleStartDate()
+    '''
 def getNextCycleStartDate():
-'''public GregorianCalendar getNextCycleStartDate()
-'''
-pass
+    '''    public GregorianCalendar getNextCycleStartDate()
+    '''
 def setNextCycleStartDate():
-'''public void setNextCycleStartDate(final GregorianCalendar nextCycleStartDate)
-'''
-pass
+    '''    public void setNextCycleStartDate(final GregorianCalendar nextCycleStartDate)
+    '''
 def isNextCycleStartDateSpecified():
-'''public boolean isNextCycleStartDateSpecified()
-'''
-pass
+    '''    public boolean isNextCycleStartDateSpecified()
+    '''
 def unsetNextCycleStartDate():
-'''public void unsetNextCycleStartDate()
-'''
-pass
+    '''    public void unsetNextCycleStartDate()
+    '''
 def getPreviousCycleEndDate():
-'''public GregorianCalendar getPreviousCycleEndDate()
-'''
-pass
+    '''    public GregorianCalendar getPreviousCycleEndDate()
+    '''
 def setPreviousCycleEndDate():
-'''public void setPreviousCycleEndDate(final GregorianCalendar previousCycleEndDate)
-'''
-pass
+    '''    public void setPreviousCycleEndDate(final GregorianCalendar previousCycleEndDate)
+    '''
 def isPreviousCycleEndDateSpecified():
-'''public boolean isPreviousCycleEndDateSpecified()
-'''
-pass
+    '''    public boolean isPreviousCycleEndDateSpecified()
+    '''
 def unsetPreviousCycleEndDate():
-'''public void unsetPreviousCycleEndDate()
-'''
-pass
+    '''    public void unsetPreviousCycleEndDate()
+    '''
 def getPreviousCycleStartDate():
-'''public GregorianCalendar getPreviousCycleStartDate()
-'''
-pass
+    '''    public GregorianCalendar getPreviousCycleStartDate()
+    '''
 def setPreviousCycleStartDate():
-'''public void setPreviousCycleStartDate(final GregorianCalendar previousCycleStartDate)
-'''
-pass
+    '''    public void setPreviousCycleStartDate(final GregorianCalendar previousCycleStartDate)
+    '''
 def isPreviousCycleStartDateSpecified():
-'''public boolean isPreviousCycleStartDateSpecified()
-'''
-pass
+    '''    public boolean isPreviousCycleStartDateSpecified()
+    '''
 def unsetPreviousCycleStartDate():
-'''public void unsetPreviousCycleStartDate()
-'''
-pass
+    '''    public void unsetPreviousCycleStartDate()
+    '''
 def currentCycleEndDate():
-'''public Mask currentCycleEndDate()
-'''
-pass
+    '''    public Mask currentCycleEndDate()
+    '''
 def currentCycleStartDate():
-'''public Mask currentCycleStartDate()
-'''
-pass
+    '''    public Mask currentCycleStartDate()
+    '''
 def nextCycleStartDate():
-'''public Mask nextCycleStartDate()
-'''
-pass
+    '''    public Mask nextCycleStartDate()
+    '''
 def previousCycleEndDate():
-'''public Mask previousCycleEndDate()
-'''
-pass
+    '''    public Mask previousCycleEndDate()
+    '''
 def previousCycleStartDate():
-'''public Mask previousCycleStartDate()
-'''
-pass
+    '''    public Mask previousCycleStartDate()
+    '''

@@ -1,28 +1,21 @@
 def ComputerSystemDrilldownTreeBean():
-'''public ComputerSystemDrilldownTreeBean()
-'''
-pass
+    '''    public ComputerSystemDrilldownTreeBean()
+    '''
 def syncUniqueIdWithParent():
-'''public void syncUniqueIdWithParent()
-'''
-pass
+    '''    public void syncUniqueIdWithParent()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def getTop():
-'''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
-'''
-pass
+    '''    public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''
 def setHierarchy():
-'''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
-'''
-pass
+    '''    public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''
 def getPathToTop():
-'''public Object[][] getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
-'''
-pass
+    '''    public Object[][] getPathToTop(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''

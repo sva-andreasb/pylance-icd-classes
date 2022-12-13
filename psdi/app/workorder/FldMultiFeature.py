@@ -1,12 +1,9 @@
 def FldMultiFeature():
-'''public FldMultiFeature(final MboValue mbv)
-'''
-pass
+    '''    public FldMultiFeature(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

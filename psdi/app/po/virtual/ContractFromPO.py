@@ -1,12 +1,9 @@
 def ContractFromPO():
-'''public ContractFromPO(final MboSet ms)
-'''
-pass
+    '''    public ContractFromPO(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setContractAutoKey():
-'''public void setContractAutoKey()
-'''
-pass
+    '''    public void setContractAutoKey()
+    '''

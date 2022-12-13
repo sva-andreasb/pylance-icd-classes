@@ -1,4 +1,3 @@
 def FldRestrictCondition():
-'''public FldRestrictCondition(final MboValue mbv)
-'''
-pass
+    '''    public FldRestrictCondition(final MboValue mbv)
+    '''

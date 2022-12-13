@@ -1,9 +1,7 @@
 def WSDDBeanMapping():
-'''public WSDDBeanMapping()
-public WSDDBeanMapping(final Element e)
-'''
-pass
+    '''    public WSDDBeanMapping()
+    public WSDDBeanMapping(final Element e)
+    '''
 def writeToContext():
-'''public void writeToContext(final SerializationContext context)
-'''
-pass
+    '''    public void writeToContext(final SerializationContext context)
+    '''

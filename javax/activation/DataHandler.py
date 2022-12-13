@@ -1,74 +1,56 @@
 def getTransferDataFlavors():
-'''public synchronized DataFlavor[] getTransferDataFlavors()
-'''
-pass
+    '''    public synchronized DataFlavor[] getTransferDataFlavors()
+    '''
 def isDataFlavorSupported():
-'''public boolean isDataFlavorSupported(final DataFlavor flavor)
-'''
-pass
+    '''    public boolean isDataFlavorSupported(final DataFlavor flavor)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream os)
-'''
-pass
+    '''    public void writeTo(final OutputStream os)
+    '''
 def getContent():
-'''public Object getContent()
-'''
-pass
+    '''    public Object getContent()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def DataHandler():
-'''public DataHandler(final URL url)
-public DataHandler(final DataSource ds)
-public DataHandler(final Object obj, final String mimeType)
-'''
-pass
+    '''    public DataHandler(final URL url)
+    public DataHandler(final DataSource ds)
+    public DataHandler(final Object obj, final String mimeType)
+    '''
 def getAllCommands():
-'''public CommandInfo[] getAllCommands()
-'''
-pass
+    '''    public CommandInfo[] getAllCommands()
+    '''
 def getPreferredCommands():
-'''public CommandInfo[] getPreferredCommands()
-'''
-pass
+    '''    public CommandInfo[] getPreferredCommands()
+    '''
 def setCommandMap():
-'''public synchronized void setCommandMap(final CommandMap commandMap)
-'''
-pass
+    '''    public synchronized void setCommandMap(final CommandMap commandMap)
+    '''
 def setDataContentHandlerFactory():
-'''public static synchronized void setDataContentHandlerFactory(final DataContentHandlerFactory newFactory)
-'''
-pass
+    '''    public static synchronized void setDataContentHandlerFactory(final DataContentHandlerFactory newFactory)
+    '''
 def getDataSource():
-'''public DataSource getDataSource()
-'''
-pass
+    '''    public DataSource getDataSource()
+    '''
 def getTransferData():
-'''public Object getTransferData(final DataFlavor flavor)
-'''
-pass
+    '''    public Object getTransferData(final DataFlavor flavor)
+    '''
 def getBean():
-'''public Object getBean(final CommandInfo cmdinfo)
-'''
-pass
+    '''    public Object getBean(final CommandInfo cmdinfo)
+    '''
 def getCommand():
-'''public CommandInfo getCommand(final String cmdName)
-'''
-pass
+    '''    public CommandInfo getCommand(final String cmdName)
+    '''

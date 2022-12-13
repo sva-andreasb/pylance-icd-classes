@@ -1,38 +1,29 @@
 def SharedSpace():
-'''public SharedSpace()
-'''
-pass
+    '''    public SharedSpace()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def put():
-'''public synchronized void put(final Object key, final Object data)
-public synchronized void put(final Object key, final Object data, final long time)
-'''
-pass
+    '''    public synchronized void put(final Object key, final Object data)
+    public synchronized void put(final Object key, final Object data, final long time)
+    '''
 def get():
-'''public synchronized Object get(final Object key)
-public synchronized Object get(final Object key, long timeout)
-'''
-pass
+    '''    public synchronized Object get(final Object key)
+    public synchronized Object get(final Object key, long timeout)
+    '''
 def createKey():
-'''public synchronized Object createKey()
-'''
-pass
+    '''    public synchronized Object createKey()
+    '''
 def containsKey():
-'''public synchronized boolean containsKey(final Object key)
-'''
-pass
+    '''    public synchronized boolean containsKey(final Object key)
+    '''
 def finalize():
-'''public void finalize()
-'''
-pass
+    '''    public void finalize()
+    '''
 def Reaper():
-'''public Reaper()
-'''
-pass
+    '''    public Reaper()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

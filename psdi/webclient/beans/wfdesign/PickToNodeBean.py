@@ -1,8 +1,6 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def selectedToNode():
-'''public int selectedToNode()
-'''
-pass
+    '''    public int selectedToNode()
+    '''

@@ -1,4 +1,3 @@
 def FldShiftNum():
-'''public FldShiftNum(final MboValue mbv)
-'''
-pass
+    '''    public FldShiftNum(final MboValue mbv)
+    '''

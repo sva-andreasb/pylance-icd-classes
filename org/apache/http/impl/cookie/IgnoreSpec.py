@@ -1,20 +1,15 @@
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def parse():
-'''public List<Cookie> parse(final Header header, final CookieOrigin origin)
-'''
-pass
+    '''    public List<Cookie> parse(final Header header, final CookieOrigin origin)
+    '''
 def match():
-'''public boolean match(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''
 def formatCookies():
-'''public List<Header> formatCookies(final List<Cookie> cookies)
-'''
-pass
+    '''    public List<Header> formatCookies(final List<Cookie> cookies)
+    '''
 def getVersionHeader():
-'''public Header getVersionHeader()
-'''
-pass
+    '''    public Header getVersionHeader()
+    '''

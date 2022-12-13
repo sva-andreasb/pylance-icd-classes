@@ -1,4 +1,3 @@
 def MXCollabRefSet():
-'''public MXCollabRefSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MXCollabRefSet(final MboServerInterface ms)
+    '''

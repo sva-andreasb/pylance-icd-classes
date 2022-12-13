@@ -1,1 +1,1 @@
-OPEN_RANGE_TOKEN = "String  *""
+OPEN_RANGE_TOKEN = "String  \"*\""

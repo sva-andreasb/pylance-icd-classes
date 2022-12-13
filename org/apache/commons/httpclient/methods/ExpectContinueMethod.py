@@ -1,13 +1,10 @@
 def ExpectContinueMethod():
-'''public ExpectContinueMethod()
-public ExpectContinueMethod(final String uri)
-'''
-pass
+    '''    public ExpectContinueMethod()
+    public ExpectContinueMethod(final String uri)
+    '''
 def getUseExpectHeader():
-'''public boolean getUseExpectHeader()
-'''
-pass
+    '''    public boolean getUseExpectHeader()
+    '''
 def setUseExpectHeader():
-'''public void setUseExpectHeader(final boolean value)
-'''
-pass
+    '''    public void setUseExpectHeader(final boolean value)
+    '''

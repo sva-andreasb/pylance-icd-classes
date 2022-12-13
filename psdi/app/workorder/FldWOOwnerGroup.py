@@ -1,8 +1,6 @@
 def FldWOOwnerGroup():
-'''public FldWOOwnerGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldWOOwnerGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

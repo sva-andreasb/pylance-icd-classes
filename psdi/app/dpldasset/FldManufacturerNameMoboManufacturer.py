@@ -1,4 +1,3 @@
 def FldManufacturerNameMoboManufacturer():
-'''public FldManufacturerNameMoboManufacturer(final MboValue mbv)
-'''
-pass
+    '''    public FldManufacturerNameMoboManufacturer(final MboValue mbv)
+    '''

@@ -1,5 +1,4 @@
 def PlusCJPService():
-'''public PlusCJPService()
-public PlusCJPService(final MXServer mxServer)
-'''
-pass
+    '''    public PlusCJPService()
+    public PlusCJPService(final MXServer mxServer)
+    '''

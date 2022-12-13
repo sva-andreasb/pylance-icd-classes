@@ -1,16 +1,12 @@
 def DMCalendarProcess():
-'''public DMCalendarProcess()
-'''
-pass
+    '''    public DMCalendarProcess()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''

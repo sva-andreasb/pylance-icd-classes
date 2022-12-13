@@ -1,32 +1,24 @@
 def getSearchText():
-'''public String getSearchText()
-'''
-pass
+    '''    public String getSearchText()
+    '''
 def setSearchText():
-'''public void setSearchText(final String value)
-'''
-pass
+    '''    public void setSearchText(final String value)
+    '''
 def getRelevance():
-'''public RelevanceString getRelevance()
-'''
-pass
+    '''    public RelevanceString getRelevance()
+    '''
 def setRelevance():
-'''public void setRelevance(final RelevanceString value)
-'''
-pass
+    '''    public void setRelevance(final RelevanceString value)
+    '''
 def getPropertyName():
-'''public String getPropertyName()
-'''
-pass
+    '''    public String getPropertyName()
+    '''
 def setPropertyName():
-'''public void setPropertyName(final String value)
-'''
-pass
+    '''    public void setPropertyName(final String value)
+    '''
 def getComparison():
-'''public String getComparison()
-'''
-pass
+    '''    public String getComparison()
+    '''
 def setComparison():
-'''public void setComparison(final String value)
-'''
-pass
+    '''    public void setComparison(final String value)
+    '''

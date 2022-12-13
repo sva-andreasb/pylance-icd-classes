@@ -1,4 +1,3 @@
 def NmrAttrSet():
-'''public NmrAttrSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NmrAttrSet(final MboServerInterface ms)
+    '''

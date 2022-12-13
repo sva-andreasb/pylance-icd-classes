@@ -1,8 +1,6 @@
 def FldPurEnterBy():
-'''public FldPurEnterBy(final MboValue mbv)
-'''
-pass
+    '''    public FldPurEnterBy(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

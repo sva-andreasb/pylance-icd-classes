@@ -1,12 +1,9 @@
 def FldDisplayTaskID():
-'''public FldDisplayTaskID(final MboValue mbv)
-'''
-pass
+    '''    public FldDisplayTaskID(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,32 +1,24 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def setDisplayName():
-'''public void setDisplayName(final String value)
-'''
-pass
+    '''    public void setDisplayName(final String value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''
 def getLastModified():
-'''public String getLastModified()
-'''
-pass
+    '''    public String getLastModified()
+    '''
 def setLastModified():
-'''public void setLastModified(final String value)
-'''
-pass
+    '''    public void setLastModified(final String value)
+    '''

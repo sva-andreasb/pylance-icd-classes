@@ -1,12 +1,9 @@
 def BBMboSetData():
-'''public BBMboSetData(final MboSet set)
-'''
-pass
+    '''    public BBMboSetData(final MboSet set)
+    '''
 def setMboData():
-'''public void setMboData(final MboData[] values)
-'''
-pass
+    '''    public void setMboData(final MboData[] values)
+    '''
 def getMboDataCount():
-'''public int getMboDataCount()
-'''
-pass
+    '''    public int getMboDataCount()
+    '''

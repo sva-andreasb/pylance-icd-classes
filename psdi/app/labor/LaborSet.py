@@ -1,36 +1,27 @@
 def LaborSet():
-'''public LaborSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LaborSet(final MboServerInterface ms)
+    '''
 def findLabor():
-'''public void findLabor()
-'''
-pass
+    '''    public void findLabor()
+    '''
 def setLaborSelected():
-'''public void setLaborSelected()
-'''
-pass
+    '''    public void setLaborSelected()
+    '''
 def setLaborAndCraftSelected():
-'''public void setLaborAndCraftSelected()
-'''
-pass
+    '''    public void setLaborAndCraftSelected()
+    '''
 def showLabor():
-'''public boolean showLabor()
-'''
-pass
+    '''    public boolean showLabor()
+    '''
 def useLaborAuthRestriction():
-'''public void useLaborAuthRestriction()
-'''
-pass
+    '''    public void useLaborAuthRestriction()
+    '''
 def clearLaborAuthRestriction():
-'''public void clearLaborAuthRestriction()
-'''
-pass
+    '''    public void clearLaborAuthRestriction()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''
 def getUserAndQbeWhere():
-'''public String getUserAndQbeWhere()
-'''
-pass
+    '''    public String getUserAndQbeWhere()
+    '''

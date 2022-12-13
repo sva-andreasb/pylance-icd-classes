@@ -1,70 +1,53 @@
 def HttpMediaType():
-'''public HttpMediaType(final String type, final String subType)
-public HttpMediaType(final String mediaType)
-'''
-pass
+    '''    public HttpMediaType(final String type, final String subType)
+    public HttpMediaType(final String mediaType)
+    '''
 def setType():
-'''public HttpMediaType setType(final String type)
-'''
-pass
+    '''    public HttpMediaType setType(final String type)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setSubType():
-'''public HttpMediaType setSubType(final String subType)
-'''
-pass
+    '''    public HttpMediaType setSubType(final String subType)
+    '''
 def getSubType():
-'''public String getSubType()
-'''
-pass
+    '''    public String getSubType()
+    '''
 def setParameter():
-'''public HttpMediaType setParameter(final String name, final String value)
-'''
-pass
+    '''    public HttpMediaType setParameter(final String name, final String value)
+    '''
 def getParameter():
-'''public String getParameter(final String name)
-'''
-pass
+    '''    public String getParameter(final String name)
+    '''
 def removeParameter():
-'''public HttpMediaType removeParameter(final String name)
-'''
-pass
+    '''    public HttpMediaType removeParameter(final String name)
+    '''
 def clearParameters():
-'''public void clearParameters()
-'''
-pass
+    '''    public void clearParameters()
+    '''
 def getParameters():
-'''public Map<String, String> getParameters()
-'''
-pass
+    '''    public Map<String, String> getParameters()
+    '''
 def build():
-'''public String build()
-'''
-pass
+    '''    public String build()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equalsIgnoreParameters():
-'''public boolean equalsIgnoreParameters(final HttpMediaType mediaType)
-public static boolean equalsIgnoreParameters(final String mediaTypeA, final String mediaTypeB)
-'''
-pass
+    '''    public boolean equalsIgnoreParameters(final HttpMediaType mediaType)
+    public static boolean equalsIgnoreParameters(final String mediaTypeA, final String mediaTypeB)
+    '''
 def setCharsetParameter():
-'''public HttpMediaType setCharsetParameter(final Charset charset)
-'''
-pass
+    '''    public HttpMediaType setCharsetParameter(final Charset charset)
+    '''
 def getCharsetParameter():
-'''public Charset getCharsetParameter()
-'''
-pass
+    '''    public Charset getCharsetParameter()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

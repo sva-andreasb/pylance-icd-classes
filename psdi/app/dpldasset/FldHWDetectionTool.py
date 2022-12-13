@@ -1,8 +1,6 @@
 def FldHWDetectionTool():
-'''public FldHWDetectionTool(final MboValue mbv)
-'''
-pass
+    '''    public FldHWDetectionTool(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

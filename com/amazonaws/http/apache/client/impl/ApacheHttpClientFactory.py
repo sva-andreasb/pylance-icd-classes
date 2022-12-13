@@ -1,8 +1,6 @@
 def ApacheHttpClientFactory():
-'''public ApacheHttpClientFactory()
-'''
-pass
+    '''    public ApacheHttpClientFactory()
+    '''
 def create():
-'''public ConnectionManagerAwareHttpClient create(final HttpClientSettings settings)
-'''
-pass
+    '''    public ConnectionManagerAwareHttpClient create(final HttpClientSettings settings)
+    '''

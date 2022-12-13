@@ -1,38 +1,29 @@
 def getContentId():
-'''public String getContentId()
-'''
-pass
+    '''    public String getContentId()
+    '''
 def getDimeTypeNameFormat():
-'''public DimeTypeNameFormat getDimeTypeNameFormat()
-'''
-pass
+    '''    public DimeTypeNameFormat getDimeTypeNameFormat()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def read():
-'''public synchronized int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-public int read()
-'''
-pass
+    '''    public synchronized int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    public int read()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def mark():
-'''public void mark(final int readlimit)
-'''
-pass
+    '''    public void mark(final int readlimit)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def available():
-'''public synchronized int available()
-'''
-pass
+    '''    public synchronized int available()
+    '''

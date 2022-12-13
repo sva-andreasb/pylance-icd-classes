@@ -1,4 +1,3 @@
 def ChannelId():
-'''public ChannelId(final String name)
-'''
-pass
+    '''    public ChannelId(final String name)
+    '''

@@ -1,4 +1,3 @@
 def DMGroupStrucNodeMap():
-'''public DMGroupStrucNodeMap()
-'''
-pass
+    '''    public DMGroupStrucNodeMap()
+    '''

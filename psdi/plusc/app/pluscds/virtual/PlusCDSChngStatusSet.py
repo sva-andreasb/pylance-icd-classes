@@ -1,8 +1,6 @@
 def PlusCDSChngStatusSet():
-'''public PlusCDSChngStatusSet(final MboServerInterface mboserverinterface)
-'''
-pass
+    '''    public PlusCDSChngStatusSet(final MboServerInterface mboserverinterface)
+    '''
 def changeMboStatus():
-'''public void changeMboStatus(final MboRemote mboremote, final MboRemote mboremote1)
-'''
-pass
+    '''    public void changeMboStatus(final MboRemote mboremote, final MboRemote mboremote1)
+    '''

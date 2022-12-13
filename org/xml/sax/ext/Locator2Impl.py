@@ -1,21 +1,16 @@
 def Locator2Impl():
-'''public Locator2Impl()
-public Locator2Impl(final Locator locator)
-'''
-pass
+    '''    public Locator2Impl()
+    public Locator2Impl(final Locator locator)
+    '''
 def getXMLVersion():
-'''public String getXMLVersion()
-'''
-pass
+    '''    public String getXMLVersion()
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setXMLVersion():
-'''public void setXMLVersion(final String version)
-'''
-pass
+    '''    public void setXMLVersion(final String version)
+    '''
 def setEncoding():
-'''public void setEncoding(final String encoding)
-'''
-pass
+    '''    public void setEncoding(final String encoding)
+    '''

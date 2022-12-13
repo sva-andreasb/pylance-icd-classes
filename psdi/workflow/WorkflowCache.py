@@ -1,22 +1,17 @@
-WFMBONAME = "String  WFMBONAME""
+WFMBONAME = "String  \"WFMBONAME\""
 def WorkflowCache():
-'''public WorkflowCache()
-'''
-pass
+    '''    public WorkflowCache()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String mboName)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String mboName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isAffected():
-'''public boolean isAffected(final String mboName)
-'''
-pass
+    '''    public boolean isAffected(final String mboName)
+    '''

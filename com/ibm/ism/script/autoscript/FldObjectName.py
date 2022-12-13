@@ -1,8 +1,6 @@
 def FldObjectName():
-'''public FldObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldObjectName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

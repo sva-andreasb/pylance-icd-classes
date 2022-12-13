@@ -1,113 +1,85 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getReferences():
-'''public List<Reference> getReferences()
-'''
-pass
+    '''    public List<Reference> getReferences()
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getInternal():
-'''public Long getInternal()
-'''
-pass
+    '''    public Long getInternal()
+    '''
 def setInternal():
-'''public void setInternal(final Long internal)
-'''
-pass
+    '''    public void setInternal(final Long internal)
+    '''
 def isInternalSpecified():
-'''public boolean isInternalSpecified()
-'''
-pass
+    '''    public boolean isInternalSpecified()
+    '''
 def unsetInternal():
-'''public void unsetInternal()
-'''
-pass
+    '''    public void unsetInternal()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getReferenceCount():
-'''public Long getReferenceCount()
-'''
-pass
+    '''    public Long getReferenceCount()
+    '''
 def setReferenceCount():
-'''public void setReferenceCount(final Long referenceCount)
-'''
-pass
+    '''    public void setReferenceCount(final Long referenceCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def internal():
-'''public Mask internal()
-'''
-pass
+    '''    public Mask internal()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def referenceCount():
-'''public Mask referenceCount()
-'''
-pass
+    '''    public Mask referenceCount()
+    '''

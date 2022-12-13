@@ -1,49 +1,37 @@
 def LoggingService():
-'''public LoggingService()
-public LoggingService(final MXServer mxServer)
-'''
-pass
+    '''    public LoggingService()
+    public LoggingService(final MXServer mxServer)
+    '''
 def generateLoggingProperties():
-'''public String generateLoggingProperties()
-'''
-pass
+    '''    public String generateLoggingProperties()
+    '''
 def applySettings():
-'''public void applySettings(final boolean startup)
-'''
-pass
+    '''    public void applySettings(final boolean startup)
+    '''
 def getRootFolder():
-'''public String getRootFolder()
-'''
-pass
+    '''    public String getRootFolder()
+    '''
 def getLoggerList():
-'''public MboSetRemote getLoggerList()
-'''
-pass
+    '''    public MboSetRemote getLoggerList()
+    '''
 def getAppenderList():
-'''public MboSetRemote getAppenderList()
-'''
-pass
+    '''    public MboSetRemote getAppenderList()
+    '''
 def getLogLevel():
-'''public String getLogLevel(final String logKey)
-'''
-pass
+    '''    public String getLogLevel(final String logKey)
+    '''
 def setLogLevel():
-'''public void setLogLevel(final String logKey, final String logLevel)
-'''
-pass
+    '''    public void setLogLevel(final String logKey, final String logLevel)
+    '''
 def setReadFromFile():
-'''public static void setReadFromFile(final boolean flag)
-'''
-pass
+    '''    public static void setReadFromFile(final boolean flag)
+    '''
 def getReadFromFile():
-'''public static boolean getReadFromFile()
-'''
-pass
+    '''    public static boolean getReadFromFile()
+    '''
 def getLogFiles():
-'''public Vector<String> getLogFiles()
-'''
-pass
+    '''    public Vector<String> getLogFiles()
+    '''
 def getLTA_URL():
-'''public String getLTA_URL()
-'''
-pass
+    '''    public String getLTA_URL()
+    '''

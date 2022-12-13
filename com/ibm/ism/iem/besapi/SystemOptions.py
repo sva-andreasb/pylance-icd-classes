@@ -1,24 +1,18 @@
 def getMinimumRefreshSeconds():
-'''public BigInteger getMinimumRefreshSeconds()
-'''
-pass
+    '''    public BigInteger getMinimumRefreshSeconds()
+    '''
 def setMinimumRefreshSeconds():
-'''public void setMinimumRefreshSeconds(final BigInteger value)
-'''
-pass
+    '''    public void setMinimumRefreshSeconds(final BigInteger value)
+    '''
 def getDefaultFixletVisibility():
-'''public DefaultFixletVisibilityType getDefaultFixletVisibility()
-'''
-pass
+    '''    public DefaultFixletVisibilityType getDefaultFixletVisibility()
+    '''
 def setDefaultFixletVisibility():
-'''public void setDefaultFixletVisibility(final DefaultFixletVisibilityType value)
-'''
-pass
+    '''    public void setDefaultFixletVisibility(final DefaultFixletVisibilityType value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''

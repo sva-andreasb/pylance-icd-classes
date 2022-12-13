@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def returnwithvalue():
-'''public int returnwithvalue()
-'''
-pass
+    '''    public int returnwithvalue()
+    '''

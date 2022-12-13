@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def showOLSCRelationshipDetails():
-'''public void showOLSCRelationshipDetails()
-'''
-pass
+    '''    public void showOLSCRelationshipDetails()
+    '''

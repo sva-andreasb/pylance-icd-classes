@@ -1,1 +1,1 @@
-NODE_TITLE_PROPERTY = "String  Title""
+NODE_TITLE_PROPERTY = "String  \"Title\""

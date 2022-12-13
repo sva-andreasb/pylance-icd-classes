@@ -1,52 +1,39 @@
 def setCiphertextBlob():
-'''public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
-'''
-pass
+    '''    public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''
 def getCiphertextBlob():
-'''public ByteBuffer getCiphertextBlob()
-'''
-pass
+    '''    public ByteBuffer getCiphertextBlob()
+    '''
 def withCiphertextBlob():
-'''public ReEncryptResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
-'''
-pass
+    '''    public ReEncryptResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''
 def setSourceKeyId():
-'''public void setSourceKeyId(final String sourceKeyId)
-'''
-pass
+    '''    public void setSourceKeyId(final String sourceKeyId)
+    '''
 def getSourceKeyId():
-'''public String getSourceKeyId()
-'''
-pass
+    '''    public String getSourceKeyId()
+    '''
 def withSourceKeyId():
-'''public ReEncryptResult withSourceKeyId(final String sourceKeyId)
-'''
-pass
+    '''    public ReEncryptResult withSourceKeyId(final String sourceKeyId)
+    '''
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public ReEncryptResult withKeyId(final String keyId)
-'''
-pass
+    '''    public ReEncryptResult withKeyId(final String keyId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public ReEncryptResult clone()
-'''
-pass
+    '''    public ReEncryptResult clone()
+    '''

@@ -1,65 +1,49 @@
 def MBOSchemaGenerator():
-'''public MBOSchemaGenerator(final String mboName)
-public MBOSchemaGenerator(final String mboName, final Map<String, Element> schemaElements)
-'''
-pass
+    '''    public MBOSchemaGenerator(final String mboName)
+    public MBOSchemaGenerator(final String mboName, final Map<String, Element> schemaElements)
+    '''
 def getSchemaFileName():
-'''public String getSchemaFileName()
-'''
-pass
+    '''    public String getSchemaFileName()
+    '''
 def createSchemaDcoument():
-'''public Document createSchemaDcoument()
-'''
-pass
+    '''    public Document createSchemaDcoument()
+    '''
 def getMboKeySetType():
-'''public String getMboKeySetType()
-'''
-pass
+    '''    public String getMboKeySetType()
+    '''
 def getMboKeyType():
-'''public String getMboKeyType()
-'''
-pass
+    '''    public String getMboKeyType()
+    '''
 def getMboSetType():
-'''public String getMboSetType()
-'''
-pass
+    '''    public String getMboSetType()
+    '''
 def getMboType():
-'''public String getMboType()
-'''
-pass
+    '''    public String getMboType()
+    '''
 def getMboQueryType():
-'''public String getMboQueryType()
-'''
-pass
+    '''    public String getMboQueryType()
+    '''
 def getMboQueryElementName():
-'''public String getMboQueryElementName()
-'''
-pass
+    '''    public String getMboQueryElementName()
+    '''
 def getMboElementName():
-'''public String getMboElementName()
-'''
-pass
+    '''    public String getMboElementName()
+    '''
 def getMboKeyElementName():
-'''public String getMboKeyElementName()
-'''
-pass
+    '''    public String getMboKeyElementName()
+    '''
 def getMboKeySetElementName():
-'''public String getMboKeySetElementName()
-'''
-pass
+    '''    public String getMboKeySetElementName()
+    '''
 def getMboSetElementName():
-'''public String getMboSetElementName()
-'''
-pass
+    '''    public String getMboSetElementName()
+    '''
 def getSchemaFolder():
-'''public File getSchemaFolder()
-'''
-pass
+    '''    public File getSchemaFolder()
+    '''
 def getSchemaElementFor():
-'''public String getSchemaElementFor(final String identifier)
-'''
-pass
+    '''    public String getSchemaElementFor(final String identifier)
+    '''
 def getSchemaUrl():
-'''public String getSchemaUrl()
-'''
-pass
+    '''    public String getSchemaUrl()
+    '''

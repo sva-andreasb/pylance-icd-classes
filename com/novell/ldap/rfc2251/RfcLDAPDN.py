@@ -1,5 +1,4 @@
 def RfcLDAPDN():
-'''public RfcLDAPDN(final String s)
-public RfcLDAPDN(final byte[] array)
-'''
-pass
+    '''    public RfcLDAPDN(final String s)
+    public RfcLDAPDN(final byte[] array)
+    '''

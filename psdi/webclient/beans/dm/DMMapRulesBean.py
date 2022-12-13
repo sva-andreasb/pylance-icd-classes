@@ -1,16 +1,12 @@
 def DMMapRulesBean():
-'''public DMMapRulesBean()
-'''
-pass
+    '''    public DMMapRulesBean()
+    '''
 def getList():
-'''public synchronized MboSetRemote getList(final int nRow, final String attribute)
-'''
-pass
+    '''    public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''
 def handlerule():
-'''public int handlerule()
-'''
-pass
+    '''    public int handlerule()
+    '''
 def handleclose():
-'''public int handleclose()
-'''
-pass
+    '''    public int handleclose()
+    '''

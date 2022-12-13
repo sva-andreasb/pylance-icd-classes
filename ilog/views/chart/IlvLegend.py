@@ -1,297 +1,224 @@
 def getLock():
-'''public Object getLock()
-'''
-pass
+    '''    public Object getLock()
+    '''
 def IlvLegend():
-'''public IlvLegend()
-'''
-pass
+    '''    public IlvLegend()
+    '''
 def updateUI():
-'''public void updateUI()
-'''
-pass
+    '''    public void updateUI()
+    '''
 def setComponentOrientation():
-'''public void setComponentOrientation(final ComponentOrientation componentOrientation)
-'''
-pass
+    '''    public void setComponentOrientation(final ComponentOrientation componentOrientation)
+    '''
 def isAntiAliasing():
-'''public final boolean isAntiAliasing()
-'''
-pass
+    '''    public final boolean isAntiAliasing()
+    '''
 def setAntiAliasing():
-'''public void setAntiAliasing(final boolean b)
-'''
-pass
+    '''    public void setAntiAliasing(final boolean b)
+    '''
 def isAntiAliasingText():
-'''public final boolean isAntiAliasingText()
-'''
-pass
+    '''    public final boolean isAntiAliasingText()
+    '''
 def setAntiAliasingText():
-'''public void setAntiAliasingText(final boolean b)
-'''
-pass
+    '''    public void setAntiAliasingText(final boolean b)
+    '''
 def getBaseTextDirection():
-'''public final int getBaseTextDirection()
-'''
-pass
+    '''    public final int getBaseTextDirection()
+    '''
 def setBaseTextDirection():
-'''public void setBaseTextDirection(final int z)
-'''
-pass
+    '''    public void setBaseTextDirection(final int z)
+    '''
 def getResolvedBaseTextDirection():
-'''public int getResolvedBaseTextDirection()
-'''
-pass
+    '''    public int getResolvedBaseTextDirection()
+    '''
 def getTransparency():
-'''public final int getTransparency()
-'''
-pass
+    '''    public final int getTransparency()
+    '''
 def setTransparency():
-'''public void setTransparency(final int t)
-'''
-pass
+    '''    public void setTransparency(final int t)
+    '''
 def setBackground():
-'''public void setBackground(final Color background)
-'''
-pass
+    '''    public void setBackground(final Color background)
+    '''
 def setForeground():
-'''public void setForeground(final Color color)
-'''
-pass
+    '''    public void setForeground(final Color color)
+    '''
 def setLocation():
-'''public void setLocation(final Point location)
-'''
-pass
+    '''    public void setLocation(final Point location)
+    '''
 def setFont():
-'''public void setFont(final Font font)
-'''
-pass
+    '''    public void setFont(final Font font)
+    '''
 def getPreferredSize():
-'''public Dimension getPreferredSize()
-'''
-pass
+    '''    public Dimension getPreferredSize()
+    '''
 def getTitle():
-'''public final String getTitle()
-'''
-pass
+    '''    public final String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String u)
-'''
-pass
+    '''    public void setTitle(final String u)
+    '''
 def getSymbolSize():
-'''public final Dimension getSymbolSize()
-'''
-pass
+    '''    public final Dimension getSymbolSize()
+    '''
 def setSymbolSize():
-'''public void setSymbolSize(final Dimension o)
-'''
-pass
+    '''    public void setSymbolSize(final Dimension o)
+    '''
 def getSymbolTextSpacing():
-'''public final int getSymbolTextSpacing()
-'''
-pass
+    '''    public final int getSymbolTextSpacing()
+    '''
 def setSymbolTextSpacing():
-'''public void setSymbolTextSpacing(final int p)
-'''
-pass
+    '''    public void setSymbolTextSpacing(final int p)
+    '''
 def isPaintingBackground():
-'''public final boolean isPaintingBackground()
-'''
-pass
+    '''    public final boolean isPaintingBackground()
+    '''
 def setPaintingBackground():
-'''public final void setPaintingBackground(final boolean b)
-'''
-pass
+    '''    public final void setPaintingBackground(final boolean b)
+    '''
 def isFloating():
-'''public final boolean isFloating()
-'''
-pass
+    '''    public final boolean isFloating()
+    '''
 def setFloating():
-'''public final void setFloating(final boolean b)
-'''
-pass
+    '''    public final void setFloating(final boolean b)
+    '''
 def isInteractive():
-'''public final boolean isInteractive()
-'''
-pass
+    '''    public final boolean isInteractive()
+    '''
 def setInteractive():
-'''public final void setInteractive(final boolean b)
-'''
-pass
+    '''    public final void setInteractive(final boolean b)
+    '''
 def isMovable():
-'''public final boolean isMovable()
-'''
-pass
+    '''    public final boolean isMovable()
+    '''
 def setMovable():
-'''public void setMovable(final boolean b)
-'''
-pass
+    '''    public void setMovable(final boolean b)
+    '''
 def isFollowChartResize():
-'''public final boolean isFollowChartResize()
-'''
-pass
+    '''    public final boolean isFollowChartResize()
+    '''
 def setFollowChartResize():
-'''public void setFollowChartResize(final boolean b)
-'''
-pass
+    '''    public void setFollowChartResize(final boolean b)
+    '''
 def getFloatingLayoutDirection():
-'''public final int getFloatingLayoutDirection()
-'''
-pass
+    '''    public final int getFloatingLayoutDirection()
+    '''
 def setFloatingLayoutDirection():
-'''public void setFloatingLayoutDirection(final int floatingLayoutDirection)
-'''
-pass
+    '''    public void setFloatingLayoutDirection(final int floatingLayoutDirection)
+    '''
 def getHorizontalOrientation():
-'''public final int getHorizontalOrientation()
-'''
-pass
+    '''    public final int getHorizontalOrientation()
+    '''
 def setHorizontalOrientation():
-'''public void setHorizontalOrientation(final int horizontalOrientation)
-'''
-pass
+    '''    public void setHorizontalOrientation(final int horizontalOrientation)
+    '''
 def getVerticalOrientation():
-'''public final int getVerticalOrientation()
-'''
-pass
+    '''    public final int getVerticalOrientation()
+    '''
 def setVerticalOrientation():
-'''public void setVerticalOrientation(final int verticalOrientation)
-'''
-pass
+    '''    public void setVerticalOrientation(final int verticalOrientation)
+    '''
 def getChart():
-'''public final IlvChart getChart()
-'''
-pass
+    '''    public final IlvChart getChart()
+    '''
 def setDynamicSize():
-'''public final void setDynamicSize(final Dimension ag)
-'''
-pass
+    '''    public final void setDynamicSize(final Dimension ag)
+    '''
 def addLegendItem():
-'''public void addLegendItem(final IlvLegendItem comp)
-'''
-pass
+    '''    public void addLegendItem(final IlvLegendItem comp)
+    '''
 def removeLegendItem():
-'''public void removeLegendItem(final IlvLegendItem comp)
-'''
-pass
+    '''    public void removeLegendItem(final IlvLegendItem comp)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def toImage():
-'''public BufferedImage toImage(Graphics2D graphics, final int n, final int n2, final Color color)
-public BufferedImage toImage(final BufferedImage bufferedImage, final boolean b)
-'''
-pass
+    '''    public BufferedImage toImage(Graphics2D graphics, final int n, final int n2, final Color color)
+    public BufferedImage toImage(final BufferedImage bufferedImage, final boolean b)
+    '''
 def addLegendListener():
-'''public void addLegendListener(final LegendListener l)
-'''
-pass
+    '''    public void addLegendListener(final LegendListener l)
+    '''
 def removeLegendListener():
-'''public void removeLegendListener(final LegendListener l)
-'''
-pass
+    '''    public void removeLegendListener(final LegendListener l)
+    '''
 def addLegendDockingListener():
-'''public void addLegendDockingListener(final LegendDockingListener l)
-'''
-pass
+    '''    public void addLegendDockingListener(final LegendDockingListener l)
+    '''
 def removeLegendDockingListener():
-'''public void removeLegendDockingListener(final LegendDockingListener l)
-'''
-pass
+    '''    public void removeLegendDockingListener(final LegendDockingListener l)
+    '''
 def getPosition():
-'''public String getPosition()
-'''
-pass
+    '''    public String getPosition()
+    '''
 def addImageMapAreas():
-'''public void addImageMapAreas(final IlvIMapDefinition ilvIMapDefinition, final List<? super IlvIMapArea> list)
-'''
-pass
+    '''    public void addImageMapAreas(final IlvIMapDefinition ilvIMapDefinition, final List<? super IlvIMapArea> list)
+    '''
 def drawIntoHitmap():
-'''public void drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)
-'''
-pass
+    '''    public void drawIntoHitmap(final IlvChartHitmapDefinition ilvChartHitmapDefinition, final IlvChartHitmapAccumulator ilvChartHitmapAccumulator)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def revalidate():
-'''public void revalidate()
-'''
-pass
+    '''    public void revalidate()
+    '''
 def repaint():
-'''public void repaint()
-'''
-pass
+    '''    public void repaint()
+    '''
 def getToolTipText():
-'''public String getToolTipText(final MouseEvent event)
-'''
-pass
+    '''    public String getToolTipText(final MouseEvent event)
+    '''
 def setBounds():
-'''public void setBounds(final int x, final int y, final int width, final int height)
-'''
-pass
+    '''    public void setBounds(final int x, final int y, final int width, final int height)
+    '''
 def IlvLegendImagePaintContext():
-'''public IlvLegendImagePaintContext(final int width, final int height)
-'''
-pass
+    '''    public IlvLegendImagePaintContext(final int width, final int height)
+    '''
 def getGraphics():
-'''public Graphics getGraphics()
-'''
-pass
+    '''    public Graphics getGraphics()
+    '''
 def IlvLegendPaintContext():
-'''public IlvLegendPaintContext(final int width, final int height)
-'''
-pass
+    '''    public IlvLegendPaintContext(final int width, final int height)
+    '''
 def mousePressed():
-'''public void mousePressed(final MouseEvent mouseEvent)
-public final void mousePressed(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mousePressed(final MouseEvent mouseEvent)
+    public final void mousePressed(final MouseEvent mouseEvent)
+    '''
 def mouseReleased():
-'''public void mouseReleased(final MouseEvent mouseEvent)
-public final void mouseReleased(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseReleased(final MouseEvent mouseEvent)
+    public final void mouseReleased(final MouseEvent mouseEvent)
+    '''
 def mouseClicked():
-'''public void mouseClicked(final MouseEvent e)
-'''
-pass
+    '''    public void mouseClicked(final MouseEvent e)
+    '''
 def mouseDragged():
-'''public void mouseDragged(final MouseEvent mouseEvent)
-public final void mouseDragged(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseDragged(final MouseEvent mouseEvent)
+    public final void mouseDragged(final MouseEvent mouseEvent)
+    '''
 def mouseMoved():
-'''public void mouseMoved(final MouseEvent mouseEvent)
-public void mouseMoved(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseMoved(final MouseEvent mouseEvent)
+    public void mouseMoved(final MouseEvent mouseEvent)
+    '''
 def mouseEntered():
-'''public void mouseEntered(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseEntered(final MouseEvent mouseEvent)
+    '''
 def MoveLegendInteractor():
-'''public MoveLegendInteractor(final IlvLegend f)
-'''
-pass
+    '''    public MoveLegendInteractor(final IlvLegend f)
+    '''
 def componentResized():
-'''public void componentResized(final ComponentEvent componentEvent)
-'''
-pass
+    '''    public void componentResized(final ComponentEvent componentEvent)
+    '''
 def rendererChanged():
-'''public void rendererChanged(final ChartRendererEvent chartRendererEvent)
-'''
-pass
+    '''    public void rendererChanged(final ChartRendererEvent chartRendererEvent)
+    '''
 def startRendererChanges():
-'''public void startRendererChanges()
-'''
-pass
+    '''    public void startRendererChanges()
+    '''
 def endRendererChanges():
-'''public void endRendererChanges()
-'''
-pass
+    '''    public void endRendererChanges()
+    '''
 def IlvLegendPaintAction():
-'''public IlvLegendPaintAction(final Container container)
-'''
-pass
+    '''    public IlvLegendPaintAction(final Container container)
+    '''

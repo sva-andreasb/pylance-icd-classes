@@ -1,80 +1,60 @@
 def getTimeOfFirstConnection():
-'''public long getTimeOfFirstConnection()
-'''
-pass
+    '''    public long getTimeOfFirstConnection()
+    '''
 def getDataSourceName():
-'''public String getDataSourceName()
-'''
-pass
+    '''    public String getDataSourceName()
+    '''
 def getDatabaseServerName():
-'''public String getDatabaseServerName()
-'''
-pass
+    '''    public String getDatabaseServerName()
+    '''
 def getPortNumber():
-'''public int getPortNumber()
-'''
-pass
+    '''    public int getPortNumber()
+    '''
 def getDatabaseName():
-'''public String getDatabaseName()
-'''
-pass
+    '''    public String getDatabaseName()
+    '''
 def getDatabaseProductName():
-'''public String getDatabaseProductName()
-'''
-pass
+    '''    public String getDatabaseProductName()
+    '''
 def getDatabaseProductVersion():
-'''public String getDatabaseProductVersion()
-'''
-pass
+    '''    public String getDatabaseProductVersion()
+    '''
 def getDriverName():
-'''public String getDriverName()
-'''
-pass
+    '''    public String getDriverName()
+    '''
 def getDriverVersion():
-'''public String getDriverVersion()
-'''
-pass
+    '''    public String getDriverVersion()
+    '''
 def getPureQueryProductName():
-'''public String getPureQueryProductName()
-'''
-pass
+    '''    public String getPureQueryProductName()
+    '''
 def getPureQueryVersion():
-'''public String getPureQueryVersion()
-'''
-pass
+    '''    public String getPureQueryVersion()
+    '''
 def getWebsphereVersion():
-'''public String getWebsphereVersion()
-'''
-pass
+    '''    public String getWebsphereVersion()
+    '''
 def getWebsphereCellAndNode():
-'''public String getWebsphereCellAndNode()
-'''
-pass
+    '''    public String getWebsphereCellAndNode()
+    '''
 def getWebsphereServerName():
-'''public String getWebsphereServerName()
-'''
-pass
+    '''    public String getWebsphereServerName()
+    '''
 def getWebsphereMaxConnectionPoolSize():
-'''public int getWebsphereMaxConnectionPoolSize()
-'''
-pass
+    '''    public int getWebsphereMaxConnectionPoolSize()
+    '''
 def getWebsphereDataSourceJNDIName():
-'''public String getWebsphereDataSourceJNDIName()
-'''
-pass
+    '''    public String getWebsphereDataSourceJNDIName()
+    '''
 def getCMXClientVersion():
-'''public int getCMXClientVersion()
-'''
-pass
+    '''    public int getCMXClientVersion()
+    '''
 def getDataSourceProperties():
-'''public String getDataSourceProperties()
-'''
-pass
+    '''    public String getDataSourceProperties()
+    '''
 def getSystemProperties():
-'''public String getSystemProperties()
-'''
-pass
+    '''    public String getSystemProperties()
+    '''
 def parseMonitoredDataSourceAttributes():
-'''public static MonitoredDataSourceAttributes parseMonitoredDataSourceAttributes(final JSONArray jsonArray)
-'''
-pass
+    '''    public static MonitoredDataSourceAttributes parseMonitoredDataSourceAttributes(final JSONArray jsonArray)
+    '''

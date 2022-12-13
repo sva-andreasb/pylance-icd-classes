@@ -1,12 +1,9 @@
 def createPart():
-'''public static Part createPart(final LifecycleManager manager, final MIMEBodyPartInputStream in, final boolean isSOAPPart, int thresholdSize, final String attachmentDir, final int messageContentLength)
-'''
-pass
+    '''    public static Part createPart(final LifecycleManager manager, final MIMEBodyPartInputStream in, final boolean isSOAPPart, int thresholdSize, final String attachmentDir, final int messageContentLength)
+    '''
 def BAOS():
-'''public BAOS()
-'''
-pass
+    '''    public BAOS()
+    '''
 def toByteArray():
-'''public byte[] toByteArray()
-'''
-pass
+    '''    public byte[] toByteArray()
+    '''

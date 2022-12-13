@@ -1,32 +1,24 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def DeleteGroupsRequest():
-'''public DeleteGroupsRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public DeleteGroupsRequest(final Struct struct, final short version)
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def groups():
-'''public Set<String> groups()
-'''
-pass
+    '''    public Set<String> groups()
+    '''
 def parse():
-'''public static DeleteGroupsRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static DeleteGroupsRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder(final Set<String> groups)
-'''
-pass
+    '''    public Builder(final Set<String> groups)
+    '''
 def build():
-'''public DeleteGroupsRequest build(final short version)
-'''
-pass
+    '''    public DeleteGroupsRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,20 +1,15 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getMode():
-'''public String getMode()
-'''
-pass
+    '''    public String getMode()
+    '''
 def setMode():
-'''public void setMode(final String mode)
-'''
-pass
+    '''    public void setMode(final String mode)
+    '''

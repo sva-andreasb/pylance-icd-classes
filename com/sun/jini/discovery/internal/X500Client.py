@@ -1,8 +1,6 @@
 def encodeMulticastRequest():
-'''public void encodeMulticastRequest(final MulticastRequest multicastRequest, final DatagramBufferFactory datagramBufferFactory, final InvocationConstraints obj)
-'''
-pass
+    '''    public void encodeMulticastRequest(final MulticastRequest multicastRequest, final DatagramBufferFactory datagramBufferFactory, final InvocationConstraints obj)
+    '''
 def decodeMulticastAnnouncement():
-'''public MulticastAnnouncement decodeMulticastAnnouncement(final ByteBuffer byteBuffer, final InvocationConstraints invocationConstraints)
-'''
-pass
+    '''    public MulticastAnnouncement decodeMulticastAnnouncement(final ByteBuffer byteBuffer, final InvocationConstraints invocationConstraints)
+    '''

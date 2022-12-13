@@ -1,8 +1,6 @@
 def FldWMAssignTmpActDur():
-'''public FldWMAssignTmpActDur(final MboValue mbv)
-'''
-pass
+    '''    public FldWMAssignTmpActDur(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,33 +1,25 @@
 def AsynchDetailEventID():
-'''public AsynchDetailEventID()
-public AsynchDetailEventID(final String eventID)
-'''
-pass
+    '''    public AsynchDetailEventID()
+    public AsynchDetailEventID(final String eventID)
+    '''
 def getEventID():
-'''public String getEventID()
-'''
-pass
+    '''    public String getEventID()
+    '''
 def setEventID():
-'''public void setEventID(final String eventID)
-'''
-pass
+    '''    public void setEventID(final String eventID)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

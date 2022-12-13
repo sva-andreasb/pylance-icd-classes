@@ -1,32 +1,24 @@
 def ReceiveMessage():
-'''public ReceiveMessage(final IMSessionMocImpl session)
-'''
-pass
+    '''    public ReceiveMessage(final IMSessionMocImpl session)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def isIsactive():
-'''public boolean isIsactive()
-'''
-pass
+    '''    public boolean isIsactive()
+    '''
 def setIsactive():
-'''public void setIsactive(final boolean isactive)
-'''
-pass
+    '''    public void setIsactive(final boolean isactive)
+    '''
 def processConference():
-'''public void processConference(final NodeList list)
-'''
-pass
+    '''    public void processConference(final NodeList list)
+    '''
 def sessionSetUp():
-'''public void sessionSetUp(final Element element)
-'''
-pass
+    '''    public void sessionSetUp(final Element element)
+    '''
 def processMessage():
-'''public void processMessage(final Element element)
-'''
-pass
+    '''    public void processMessage(final Element element)
+    '''
 def verifyUserPresence():
-'''public void verifyUserPresence(final Element element)
-'''
-pass
+    '''    public void verifyUserPresence(final Element element)
+    '''

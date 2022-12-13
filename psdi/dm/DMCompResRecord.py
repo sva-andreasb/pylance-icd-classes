@@ -1,8 +1,6 @@
 def DMCompResRecord():
-'''public DMCompResRecord(final MboSet ms)
-'''
-pass
+    '''    public DMCompResRecord(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,4 +1,3 @@
 def FldSpecificationTableValue():
-'''public FldSpecificationTableValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSpecificationTableValue(final MboValue mbv)
+    '''

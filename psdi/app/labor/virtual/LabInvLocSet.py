@@ -1,8 +1,6 @@
 def LabInvLocSet():
-'''public LabInvLocSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LabInvLocSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

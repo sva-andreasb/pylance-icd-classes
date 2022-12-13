@@ -1,4 +1,3 @@
 def NodeLocation():
-'''public NodeLocation()
-'''
-pass
+    '''    public NodeLocation()
+    '''

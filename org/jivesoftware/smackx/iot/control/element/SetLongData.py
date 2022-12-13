@@ -1,8 +1,6 @@
 def SetLongData():
-'''public SetLongData(final String name, final long value)
-'''
-pass
+    '''    public SetLongData(final String name, final long value)
+    '''
 def getLongValue():
-'''public Long getLongValue()
-'''
-pass
+    '''    public Long getLongValue()
+    '''

@@ -1,28 +1,21 @@
 def isOKToRun():
-'''public boolean isOKToRun(final MXServerRemote server)
-'''
-pass
+    '''    public boolean isOKToRun(final MXServerRemote server)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''

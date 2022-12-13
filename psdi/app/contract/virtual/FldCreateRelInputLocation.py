@@ -1,8 +1,6 @@
 def FldCreateRelInputLocation():
-'''public FldCreateRelInputLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldCreateRelInputLocation(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

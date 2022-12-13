@@ -1,8 +1,6 @@
 def FldDJPJobplanUnitsOfWork():
-'''public FldDJPJobplanUnitsOfWork(final MboValue mbv)
-'''
-pass
+    '''    public FldDJPJobplanUnitsOfWork(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,4 +1,3 @@
 def SKDOverrideAvailPeriods():
-'''public SKDOverrideAvailPeriods(final MboSet ms)
-'''
-pass
+    '''    public SKDOverrideAvailPeriods(final MboSet ms)
+    '''

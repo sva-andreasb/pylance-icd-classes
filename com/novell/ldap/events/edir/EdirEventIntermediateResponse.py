@@ -1,21 +1,16 @@
 def EdirEventIntermediateResponse():
-'''public EdirEventIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
-public EdirEventIntermediateResponse(final byte[] array)
-'''
-pass
+    '''    public EdirEventIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
+    public EdirEventIntermediateResponse(final byte[] array)
+    '''
 def getEventResult():
-'''public int getEventResult()
-'''
-pass
+    '''    public int getEventResult()
+    '''
 def getEventtype():
-'''public int getEventtype()
-'''
-pass
+    '''    public int getEventtype()
+    '''
 def getResponsedata():
-'''public EventResponseData getResponsedata()
-'''
-pass
+    '''    public EventResponseData getResponsedata()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

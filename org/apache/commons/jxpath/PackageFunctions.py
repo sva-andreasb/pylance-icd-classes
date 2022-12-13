@@ -1,12 +1,9 @@
 def PackageFunctions():
-'''public PackageFunctions(final String classPrefix, final String namespace)
-'''
-pass
+    '''    public PackageFunctions(final String classPrefix, final String namespace)
+    '''
 def getUsedNamespaces():
-'''public Set getUsedNamespaces()
-'''
-pass
+    '''    public Set getUsedNamespaces()
+    '''
 def getFunction():
-'''public Function getFunction(final String namespace, final String name, Object[] parameters)
-'''
-pass
+    '''    public Function getFunction(final String namespace, final String name, Object[] parameters)
+    '''

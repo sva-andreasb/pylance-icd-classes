@@ -1,12 +1,9 @@
 def WeatherAlert():
-'''public WeatherAlert(final MboSet ms)
-'''
-pass
+    '''    public WeatherAlert(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

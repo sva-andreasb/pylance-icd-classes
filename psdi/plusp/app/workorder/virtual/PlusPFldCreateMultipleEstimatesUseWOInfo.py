@@ -1,9 +1,7 @@
 def PlusPFldCreateMultipleEstimatesUseWOInfo():
-'''public PlusPFldCreateMultipleEstimatesUseWOInfo()
-public PlusPFldCreateMultipleEstimatesUseWOInfo(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldCreateMultipleEstimatesUseWOInfo()
+    public PlusPFldCreateMultipleEstimatesUseWOInfo(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

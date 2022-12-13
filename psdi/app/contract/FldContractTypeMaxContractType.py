@@ -1,24 +1,18 @@
 def FldContractTypeMaxContractType():
-'''public FldContractTypeMaxContractType(final MboValue mbv)
-'''
-pass
+    '''    public FldContractTypeMaxContractType(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

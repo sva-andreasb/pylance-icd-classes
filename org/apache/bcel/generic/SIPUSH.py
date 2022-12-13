@@ -1,24 +1,18 @@
 def SIPUSH():
-'''public SIPUSH(final short b)
-'''
-pass
+    '''    public SIPUSH(final short b)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getValue():
-'''public Number getValue()
-'''
-pass
+    '''    public Number getValue()
+    '''
 def getType():
-'''public Type getType(final ConstantPoolGen cp)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cp)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

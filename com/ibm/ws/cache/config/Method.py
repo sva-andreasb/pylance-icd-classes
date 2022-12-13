@@ -1,12 +1,9 @@
 def Method():
-'''public Method()
-'''
-pass
+    '''    public Method()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

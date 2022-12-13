@@ -1,12 +1,9 @@
 def PluginXML():
-'''public PluginXML()
-'''
-pass
+    '''    public PluginXML()
+    '''
 def create():
-'''public static synchronized PluginXML create(final String lineSeparator)
-'''
-pass
+    '''    public static synchronized PluginXML create(final String lineSeparator)
+    '''
 def generate():
-'''public String generate(final Object argument)
-'''
-pass
+    '''    public String generate(final Object argument)
+    '''

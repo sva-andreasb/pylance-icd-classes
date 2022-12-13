@@ -1,28 +1,22 @@
 def BusyType():
-'''public BusyType()
-public BusyType(final String aValue)
-public BusyType(final ParameterList aList, final String aValue)
-'''
-pass
+    '''    public BusyType()
+    public BusyType(final String aValue)
+    public BusyType(final ParameterList aList, final String aValue)
+    '''
 def setValue():
-'''public void setValue(final String aValue)
-public void setValue(final String aValue)
-'''
-pass
+    '''    public void setValue(final String aValue)
+    public void setValue(final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createProperty():
-'''public BusyType createProperty(final ParameterList parameters, final String value)
-public BusyType createProperty()
-'''
-pass
+    '''    public BusyType createProperty(final ParameterList parameters, final String value)
+    public BusyType createProperty()
+    '''

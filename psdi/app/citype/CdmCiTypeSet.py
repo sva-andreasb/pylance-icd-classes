@@ -1,4 +1,3 @@
 def CdmCiTypeSet():
-'''public CdmCiTypeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CdmCiTypeSet(final MboServerInterface ms)
+    '''

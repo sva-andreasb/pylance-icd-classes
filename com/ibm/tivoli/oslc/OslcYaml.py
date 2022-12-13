@@ -1,186 +1,140 @@
 def OslcYaml():
-'''public OslcYaml()
-'''
-pass
+    '''    public OslcYaml()
+    '''
 def setSwaggerVersion():
-'''public OslcYaml setSwaggerVersion(final String swaggerVersion)
-'''
-pass
+    '''    public OslcYaml setSwaggerVersion(final String swaggerVersion)
+    '''
 def setOpenAPIVersion():
-'''public OslcYaml setOpenAPIVersion(final String openAPIVersion)
-'''
-pass
+    '''    public OslcYaml setOpenAPIVersion(final String openAPIVersion)
+    '''
 def setInfo():
-'''public OslcYaml setInfo(final String title, final String description, final String version)
-'''
-pass
+    '''    public OslcYaml setInfo(final String title, final String description, final String version)
+    '''
 def setInfoTermsOfService():
-'''public OslcYaml setInfoTermsOfService(final String tos)
-'''
-pass
+    '''    public OslcYaml setInfoTermsOfService(final String tos)
+    '''
 def setInfoContact():
-'''public OslcYaml setInfoContact(final Object contactInfo)
-'''
-pass
+    '''    public OslcYaml setInfoContact(final Object contactInfo)
+    '''
 def setInfoLicense():
-'''public OslcYaml setInfoLicense(final Object licenseIfo)
-'''
-pass
+    '''    public OslcYaml setInfoLicense(final Object licenseIfo)
+    '''
 def setPatternedObject():
-'''public OslcYaml setPatternedObject(final String patternName, final Object content)
-'''
-pass
+    '''    public OslcYaml setPatternedObject(final String patternName, final Object content)
+    '''
 def setHost():
-'''public OslcYaml setHost(final String host)
-public OslcYaml setHost(final String host, final int port)
-'''
-pass
+    '''    public OslcYaml setHost(final String host)
+    public OslcYaml setHost(final String host, final int port)
+    '''
 def setSchemes():
-'''public OslcYaml setSchemes(final String... strs)
-'''
-pass
+    '''    public OslcYaml setSchemes(final String... strs)
+    '''
 def addSecuritySchemes():
-'''public OslcYaml addSecuritySchemes(final String key, final Object schemes)
-'''
-pass
+    '''    public OslcYaml addSecuritySchemes(final String key, final Object schemes)
+    '''
 def addSecurity():
-'''public OslcYaml addSecurity(final String key, final Object scope)
-'''
-pass
+    '''    public OslcYaml addSecurity(final String key, final Object scope)
+    '''
 def setBasePath():
-'''public OslcYaml setBasePath(final String basePath)
-'''
-pass
+    '''    public OslcYaml setBasePath(final String basePath)
+    '''
 def setServer():
-'''public OslcYaml setServer(final JSONObject server)
-'''
-pass
+    '''    public OslcYaml setServer(final JSONObject server)
+    '''
 def setConsumes():
-'''public OslcYaml setConsumes(final String... consumes)
-'''
-pass
+    '''    public OslcYaml setConsumes(final String... consumes)
+    '''
 def addActionSchemaToComponent():
-'''public boolean addActionSchemaToComponent(final String actionName, final JSONObject actionSchema)
-'''
-pass
+    '''    public boolean addActionSchemaToComponent(final String actionName, final JSONObject actionSchema)
+    '''
 def addOSSchemaToComponent():
-'''public boolean addOSSchemaToComponent(final String osName, final UserInfo userInfo)
-'''
-pass
+    '''    public boolean addOSSchemaToComponent(final String osName, final UserInfo userInfo)
+    '''
 def addMethodBasicInfo():
-'''public OslcYaml addMethodBasicInfo(final String pathName, final String methodName, final String summary, final String description)
-'''
-pass
+    '''    public OslcYaml addMethodBasicInfo(final String pathName, final String methodName, final String summary, final String description)
+    '''
 def addMethodOperationId():
-'''public OslcYaml addMethodOperationId(final String pathName, final String methodName, final String id)
-public OslcYaml addMethodOperationId()
-'''
-pass
+    '''    public OslcYaml addMethodOperationId(final String pathName, final String methodName, final String id)
+    public OslcYaml addMethodOperationId()
+    '''
 def addMethodProduces():
-'''public OslcYaml addMethodProduces(final String pathName, final String methodName, final String... produces)
-'''
-pass
+    '''    public OslcYaml addMethodProduces(final String pathName, final String methodName, final String... produces)
+    '''
 def addMethodTags():
-'''public OslcYaml addMethodTags(final String pathName, final String methodName, final String... tags)
-'''
-pass
+    '''    public OslcYaml addMethodTags(final String pathName, final String methodName, final String... tags)
+    '''
 def addMethodParams():
-'''public OslcYaml addMethodParams(final String pathName, final String methodName, final JSONObject params)
-'''
-pass
+    '''    public OslcYaml addMethodParams(final String pathName, final String methodName, final JSONObject params)
+    '''
 def addMethodRequestBody():
-'''public OslcYaml addMethodRequestBody(final String pathName, final String methodName, final JSONObject body)
-'''
-pass
+    '''    public OslcYaml addMethodRequestBody(final String pathName, final String methodName, final JSONObject body)
+    '''
 def addMethodRequestBodyContent():
-'''public OslcYaml addMethodRequestBodyContent(final String pathName, final String methodName, final String contentType, final JSONObject params)
-'''
-pass
+    '''    public OslcYaml addMethodRequestBodyContent(final String pathName, final String methodName, final String contentType, final JSONObject params)
+    '''
 def addMethodResponse():
-'''public OslcYaml addMethodResponse(final String pathName, final String methodName, final String status, final JSONObject statusContent)
-'''
-pass
+    '''    public OslcYaml addMethodResponse(final String pathName, final String methodName, final String status, final JSONObject statusContent)
+    '''
 def addMethodResponseForOS():
-'''public OslcYaml addMethodResponseForOS(final String pathName, final String methodName, final String status, final JSONObject statusContent, final boolean osSchemaAdded, final String osName, final boolean isResource)
-'''
-pass
+    '''    public OslcYaml addMethodResponseForOS(final String pathName, final String methodName, final String status, final JSONObject statusContent, final boolean osSchemaAdded, final String osName, final boolean isResource)
+    '''
 def addMethodExternalDocs():
-'''public OslcYaml addMethodExternalDocs()
-'''
-pass
+    '''    public OslcYaml addMethodExternalDocs()
+    '''
 def addMethodConsumes():
-'''public OslcYaml addMethodConsumes(final String pathName, final String methodName, final String... consumes)
-'''
-pass
+    '''    public OslcYaml addMethodConsumes(final String pathName, final String methodName, final String... consumes)
+    '''
 def addMethodSchemes():
-'''public OslcYaml addMethodSchemes(final String pathName, final String methodName, final String... schemes)
-'''
-pass
+    '''    public OslcYaml addMethodSchemes(final String pathName, final String methodName, final String... schemes)
+    '''
 def addMethodDeprecated():
-'''public OslcYaml addMethodDeprecated()
-'''
-pass
+    '''    public OslcYaml addMethodDeprecated()
+    '''
 def addMethodPatternedObject():
-'''public OslcYaml addMethodPatternedObject()
-'''
-pass
+    '''    public OslcYaml addMethodPatternedObject()
+    '''
 def addDefinitionsProperties():
-'''public OslcYaml addDefinitionsProperties(final String defName, final String propertyName, final JSONObject definitions)
-'''
-pass
+    '''    public OslcYaml addDefinitionsProperties(final String defName, final String propertyName, final JSONObject definitions)
+    '''
 def addDefinitionsRequired():
-'''public OslcYaml addDefinitionsRequired(final String defName, final JSONArray requiredArr)
-'''
-pass
+    '''    public OslcYaml addDefinitionsRequired(final String defName, final JSONArray requiredArr)
+    '''
 def addDefinitionsDescription():
-'''public OslcYaml addDefinitionsDescription(final String defName, final String description)
-'''
-pass
+    '''    public OslcYaml addDefinitionsDescription(final String defName, final String description)
+    '''
 def addParameters():
-'''public OslcYaml addParameters(final String paramName, final JSONObject parameters)
-'''
-pass
+    '''    public OslcYaml addParameters(final String paramName, final JSONObject parameters)
+    '''
 def addResponses():
-'''public OslcYaml addResponses(final String paramName, final JSONObject parameters)
-'''
-pass
+    '''    public OslcYaml addResponses(final String paramName, final JSONObject parameters)
+    '''
 def addSecurityDefinitions():
-'''public OslcYaml addSecurityDefinitions()
-'''
-pass
+    '''    public OslcYaml addSecurityDefinitions()
+    '''
 def addTags():
-'''public OslcYaml addTags()
-'''
-pass
+    '''    public OslcYaml addTags()
+    '''
 def addExternalDocs():
-'''public OslcYaml addExternalDocs()
-'''
-pass
+    '''    public OslcYaml addExternalDocs()
+    '''
 def getJSON():
-'''public JSONObject getJSON()
-'''
-pass
+    '''    public JSONObject getJSON()
+    '''
 def getYaml():
-'''public String getYaml()
-'''
-pass
+    '''    public String getYaml()
+    '''
 def setParamBasicInfo():
-'''public void setParamBasicInfo(final JSONObject param, final String in, final String name, final String description, final String required, final String type)
-'''
-pass
+    '''    public void setParamBasicInfo(final JSONObject param, final String in, final String name, final String description, final String required, final String type)
+    '''
 def main():
-'''public static void main(final String... args)
-'''
-pass
+    '''    public static void main(final String... args)
+    '''
 def getYamlfromJSON():
-'''public static String getYamlfromJSON(final JSONObject object)
-'''
-pass
+    '''    public static String getYamlfromJSON(final JSONObject object)
+    '''
 def jsonPrettyPrinter():
-'''public static void jsonPrettyPrinter(final Object object)
-'''
-pass
+    '''    public static void jsonPrettyPrinter(final Object object)
+    '''
 def setIsJson():
-'''public void setIsJson(final boolean isJson)
-'''
-pass
+    '''    public void setIsJson(final boolean isJson)
+    '''

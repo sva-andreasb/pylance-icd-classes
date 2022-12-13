@@ -1,5 +1,4 @@
 def InvalidKeyException():
-'''public InvalidKeyException()
-public InvalidKeyException(final String s)
-'''
-pass
+    '''    public InvalidKeyException()
+    public InvalidKeyException(final String s)
+    '''

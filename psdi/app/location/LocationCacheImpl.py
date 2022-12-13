@@ -1,21 +1,16 @@
 def LocationCacheImpl():
-'''public LocationCacheImpl()
-'''
-pass
+    '''    public LocationCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDescForLocSite():
-'''public String getDescForLocSite(final String siteid, final String location, final UserInfo userInfo)
-'''
-pass
+    '''    public String getDescForLocSite(final String siteid, final String location, final UserInfo userInfo)
+    '''

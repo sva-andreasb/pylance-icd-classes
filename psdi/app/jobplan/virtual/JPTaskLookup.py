@@ -1,4 +1,3 @@
 def JPTaskLookup():
-'''public JPTaskLookup(final MboSet ms)
-'''
-pass
+    '''    public JPTaskLookup(final MboSet ms)
+    '''

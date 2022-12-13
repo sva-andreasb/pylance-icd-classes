@@ -1,4 +1,3 @@
 def PropertyLookupList():
-'''public PropertyLookupList(final MboSet ms)
-'''
-pass
+    '''    public PropertyLookupList(final MboSet ms)
+    '''

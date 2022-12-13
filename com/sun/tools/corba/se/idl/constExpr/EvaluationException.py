@@ -1,4 +1,3 @@
 def EvaluationException():
-'''public EvaluationException(final String message)
-'''
-pass
+    '''    public EvaluationException(final String message)
+    '''

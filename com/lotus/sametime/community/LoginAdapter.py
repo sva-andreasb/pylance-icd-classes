@@ -1,8 +1,6 @@
 def loggedIn():
-'''public void loggedIn(final LoginEvent loginEvent)
-'''
-pass
+    '''    public void loggedIn(final LoginEvent loginEvent)
+    '''
 def loggedOut():
-'''public void loggedOut(final LoginEvent loginEvent)
-'''
-pass
+    '''    public void loggedOut(final LoginEvent loginEvent)
+    '''

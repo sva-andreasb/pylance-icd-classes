@@ -1,4 +1,3 @@
 def WMAssignTmpSet():
-'''public WMAssignTmpSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WMAssignTmpSet(final MboServerInterface ms)
+    '''

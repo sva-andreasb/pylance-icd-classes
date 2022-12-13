@@ -1,84 +1,63 @@
 def IntGeneratorInfo():
-'''public IntGeneratorInfo()
-'''
-pass
+    '''    public IntGeneratorInfo()
+    '''
 def setInteractionName():
-'''public void setInteractionName(final String intrName)
-'''
-pass
+    '''    public void setInteractionName(final String intrName)
+    '''
 def setProcessResponse():
-'''public void setProcessResponse(final boolean hasResponse)
-'''
-pass
+    '''    public void setProcessResponse(final boolean hasResponse)
+    '''
 def setReqRelationName():
-'''public void setReqRelationName(final String relName)
-'''
-pass
+    '''    public void setReqRelationName(final String relName)
+    '''
 def setDefaultAttributeLength():
-'''public void setDefaultAttributeLength(final String length)
-'''
-pass
+    '''    public void setDefaultAttributeLength(final String length)
+    '''
 def setInteractionMainObject():
-'''public void setInteractionMainObject(final String mainObjName)
-'''
-pass
+    '''    public void setInteractionMainObject(final String mainObjName)
+    '''
 def setReqOSName():
-'''public void setReqOSName(final String osName)
-'''
-pass
+    '''    public void setReqOSName(final String osName)
+    '''
 def setRespOSName():
-'''public void setRespOSName(final String osName)
-'''
-pass
+    '''    public void setRespOSName(final String osName)
+    '''
 def setInvkChannelName():
-'''public void setInvkChannelName(final String channelName)
-'''
-pass
+    '''    public void setInvkChannelName(final String channelName)
+    '''
 def setEndPointName():
-'''public void setEndPointName(final String epName)
-'''
-pass
+    '''    public void setEndPointName(final String epName)
+    '''
 def setEndpointInfo():
-'''public void setEndpointInfo(final EndpointInfo epInfo)
-'''
-pass
+    '''    public void setEndpointInfo(final EndpointInfo epInfo)
+    '''
 def getInteractionName():
-'''public String getInteractionName()
-'''
-pass
+    '''    public String getInteractionName()
+    '''
 def getReqOSName():
-'''public String getReqOSName()
-'''
-pass
+    '''    public String getReqOSName()
+    '''
 def getRespOSName():
-'''public String getRespOSName()
-'''
-pass
+    '''    public String getRespOSName()
+    '''
 def getDefaultAttributeLength():
-'''public String getDefaultAttributeLength()
-'''
-pass
+    '''    public String getDefaultAttributeLength()
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def getInvokeChannelName():
-'''public String getInvokeChannelName()
-'''
-pass
+    '''    public String getInvokeChannelName()
+    '''
 def isProcessResponse():
-'''public boolean isProcessResponse()
-'''
-pass
+    '''    public boolean isProcessResponse()
+    '''
 def getReqRelationName():
-'''public String getReqRelationName()
-'''
-pass
+    '''    public String getReqRelationName()
+    '''
 def getInteractionMainObject():
-'''public String getInteractionMainObject()
-'''
-pass
+    '''    public String getInteractionMainObject()
+    '''
 def getEndPointInfo():
-'''public EndpointInfo getEndPointInfo()
-'''
-pass
+    '''    public EndpointInfo getEndPointInfo()
+    '''

@@ -1,8 +1,6 @@
 def FldServiceAddressSuffix():
-'''public FldServiceAddressSuffix(final MboValue mbv)
-'''
-pass
+    '''    public FldServiceAddressSuffix(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

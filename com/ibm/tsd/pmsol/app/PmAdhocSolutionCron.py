@@ -1,16 +1,12 @@
 def PmAdhocSolutionCron():
-'''public PmAdhocSolutionCron()
-'''
-pass
+    '''    public PmAdhocSolutionCron()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getDatabaseProductName():
-'''public String getDatabaseProductName()
-'''
-pass
+    '''    public String getDatabaseProductName()
+    '''

@@ -1,122 +1,92 @@
-LTR_DIRECTION = "String  LTR""
-RTL_DIRECTION = "String  RTL""
+LTR_DIRECTION = "String  \"LTR\""
+RTL_DIRECTION = "String  \"RTL\""
 def SKDUserLocaleData():
-'''public SKDUserLocaleData()
-'''
-pass
+    '''    public SKDUserLocaleData()
+    '''
 def getUserLocale():
-'''public Locale getUserLocale()
-'''
-pass
+    '''    public Locale getUserLocale()
+    '''
 def setUserLocale():
-'''public void setUserLocale(final Locale userLocale)
-'''
-pass
+    '''    public void setUserLocale(final Locale userLocale)
+    '''
 def getUserTimeZoneId():
-'''public String getUserTimeZoneId()
-'''
-pass
+    '''    public String getUserTimeZoneId()
+    '''
 def setUserTimeZoneId():
-'''public void setUserTimeZoneId(final String timeZoneId)
-'''
-pass
+    '''    public void setUserTimeZoneId(final String timeZoneId)
+    '''
 def getServerTimeZoneId():
-'''public String getServerTimeZoneId()
-'''
-pass
+    '''    public String getServerTimeZoneId()
+    '''
 def setServerTimeZoneId():
-'''public void setServerTimeZoneId(final String timeZoneId)
-'''
-pass
+    '''    public void setServerTimeZoneId(final String timeZoneId)
+    '''
 def getSKDMessageMap():
-'''public HashMap<String, SKDMessage> getSKDMessageMap()
-'''
-pass
+    '''    public HashMap<String, SKDMessage> getSKDMessageMap()
+    '''
 def setMessageMap():
-'''public void setMessageMap(final HashMap<String, SKDMessage> messageMap)
-'''
-pass
+    '''    public void setMessageMap(final HashMap<String, SKDMessage> messageMap)
+    '''
 def getSKDMessage():
-'''public SKDMessage getSKDMessage(final String key)
-'''
-pass
+    '''    public SKDMessage getSKDMessage(final String key)
+    '''
 def getDisplayDateTimePattern():
-'''public String getDisplayDateTimePattern()
-'''
-pass
+    '''    public String getDisplayDateTimePattern()
+    '''
 def setDisplayDateTimePattern():
-'''public void setDisplayDateTimePattern(final String dateTimePattern)
-'''
-pass
+    '''    public void setDisplayDateTimePattern(final String dateTimePattern)
+    '''
 def getParseDateTimePattern():
-'''public String getParseDateTimePattern()
-'''
-pass
+    '''    public String getParseDateTimePattern()
+    '''
 def setParseDateTimePattern():
-'''public void setParseDateTimePattern(final String dateTimePattern)
-'''
-pass
+    '''    public void setParseDateTimePattern(final String dateTimePattern)
+    '''
 def getDatePattern():
-'''public String getDatePattern()
-'''
-pass
+    '''    public String getDatePattern()
+    '''
 def setDatePattern():
-'''public void setDatePattern(final String datePattern)
-'''
-pass
+    '''    public void setDatePattern(final String datePattern)
+    '''
 def getDisplayTimePattern():
-'''public String getDisplayTimePattern()
-'''
-pass
+    '''    public String getDisplayTimePattern()
+    '''
 def setDisplayTimePattern():
-'''public void setDisplayTimePattern(final String timePattern)
-'''
-pass
+    '''    public void setDisplayTimePattern(final String timePattern)
+    '''
 def getParseTimePattern():
-'''public String getParseTimePattern()
-'''
-pass
+    '''    public String getParseTimePattern()
+    '''
 def setParseTimePattern():
-'''public void setParseTimePattern(final String timePattern)
-'''
-pass
+    '''    public void setParseTimePattern(final String timePattern)
+    '''
 def getDisplayYes():
-'''public String getDisplayYes()
-'''
-pass
+    '''    public String getDisplayYes()
+    '''
 def setDisplayYes():
-'''public void setDisplayYes(final String displayYes)
-'''
-pass
+    '''    public void setDisplayYes(final String displayYes)
+    '''
 def getDisplayNo():
-'''public String getDisplayNo()
-'''
-pass
+    '''    public String getDisplayNo()
+    '''
 def setDisplayNo():
-'''public void setDisplayNo(final String displayNo)
-'''
-pass
+    '''    public void setDisplayNo(final String displayNo)
+    '''
 def isBIDIEnabled():
-'''public boolean isBIDIEnabled()
-'''
-pass
+    '''    public boolean isBIDIEnabled()
+    '''
 def setBIDIEnabled():
-'''public void setBIDIEnabled(final boolean flag)
-'''
-pass
+    '''    public void setBIDIEnabled(final boolean flag)
+    '''
 def isGUIMirrored():
-'''public boolean isGUIMirrored()
-'''
-pass
+    '''    public boolean isGUIMirrored()
+    '''
 def setGUIMirrored():
-'''public void setGUIMirrored(final boolean flag)
-'''
-pass
+    '''    public void setGUIMirrored(final boolean flag)
+    '''
 def getInstanceTextDirection():
-'''public String getInstanceTextDirection()
-'''
-pass
+    '''    public String getInstanceTextDirection()
+    '''
 def setInstanceTextDirection():
-'''public void setInstanceTextDirection(final String str)
-'''
-pass
+    '''    public void setInstanceTextDirection(final String str)
+    '''

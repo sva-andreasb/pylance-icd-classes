@@ -1,33 +1,25 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloOplModelAccessor():
-'''public IloOplModelAccessor()
-'''
-pass
+    '''    public IloOplModelAccessor()
+    '''
 def getOplFactory():
-'''public IloOplFactory getOplFactory()
-'''
-pass
+    '''    public IloOplFactory getOplFactory()
+    '''
 def getOplModel():
-'''public IloOplModel getOplModel()
-'''
-pass
+    '''    public IloOplModel getOplModel()
+    '''
 def setOplModel():
-'''public void setOplModel(final IloOplFactory oplFactory, final IloOplModel oplModel)
-'''
-pass
+    '''    public void setOplModel(final IloOplFactory oplFactory, final IloOplModel oplModel)
+    '''
 def getEmptyArray():
-'''public IloStringArray getEmptyArray()
-'''
-pass
+    '''    public IloStringArray getEmptyArray()
+    '''
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''
 def addModelChangeListener():
-'''public void addModelChangeListener(final IloChangeListener listener)
-'''
-pass
+    '''    public void addModelChangeListener(final IloChangeListener listener)
+    '''
 def setOwnsTheModel():
-'''public void setOwnsTheModel(final boolean ownsTheModel)
-'''
-pass
+    '''    public void setOwnsTheModel(final boolean ownsTheModel)
+    '''

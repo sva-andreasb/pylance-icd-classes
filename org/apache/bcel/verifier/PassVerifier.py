@@ -1,16 +1,12 @@
 def PassVerifier():
-'''public PassVerifier()
-'''
-pass
+    '''    public PassVerifier()
+    '''
 def verify():
-'''public VerificationResult verify()
-'''
-pass
+    '''    public VerificationResult verify()
+    '''
 def addMessage():
-'''public void addMessage(final String message)
-'''
-pass
+    '''    public void addMessage(final String message)
+    '''
 def getMessages():
-'''public String[] getMessages()
-'''
-pass
+    '''    public String[] getMessages()
+    '''

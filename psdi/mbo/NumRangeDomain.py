@@ -1,24 +1,18 @@
 def NumRangeDomain():
-'''public NumRangeDomain(final MboValue mbv)
-'''
-pass
+    '''    public NumRangeDomain(final MboValue mbv)
+    '''
 def chooseActualDomainValues():
-'''public void chooseActualDomainValues()
-'''
-pass
+    '''    public void chooseActualDomainValues()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def setErrorMessage():
-'''public void setErrorMessage(final String eg, final String ek)
-'''
-pass
+    '''    public void setErrorMessage(final String eg, final String ek)
+    '''
 def setRange():
-'''public void setRange(final double[][] range)
-'''
-pass
+    '''    public void setRange(final double[][] range)
+    '''
 def getRange():
-'''public double[][] getRange()
-'''
-pass
+    '''    public double[][] getRange()
+    '''

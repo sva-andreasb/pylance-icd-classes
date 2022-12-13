@@ -1,12 +1,9 @@
 def getCheckUtility():
-'''public static synchronized CheckUtility getCheckUtility()
-'''
-pass
+    '''    public static synchronized CheckUtility getCheckUtility()
+    '''
 def refetch():
-'''public void refetch()
-'''
-pass
+    '''    public void refetch()
+    '''
 def getVersion():
-'''public boolean getVersion()
-'''
-pass
+    '''    public boolean getVersion()
+    '''

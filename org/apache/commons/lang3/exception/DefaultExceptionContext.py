@@ -1,32 +1,24 @@
 def DefaultExceptionContext():
-'''public DefaultExceptionContext()
-'''
-pass
+    '''    public DefaultExceptionContext()
+    '''
 def addContextValue():
-'''public DefaultExceptionContext addContextValue(final String label, final Object value)
-'''
-pass
+    '''    public DefaultExceptionContext addContextValue(final String label, final Object value)
+    '''
 def setContextValue():
-'''public DefaultExceptionContext setContextValue(final String label, final Object value)
-'''
-pass
+    '''    public DefaultExceptionContext setContextValue(final String label, final Object value)
+    '''
 def getContextValues():
-'''public List<Object> getContextValues(final String label)
-'''
-pass
+    '''    public List<Object> getContextValues(final String label)
+    '''
 def getFirstContextValue():
-'''public Object getFirstContextValue(final String label)
-'''
-pass
+    '''    public Object getFirstContextValue(final String label)
+    '''
 def getContextLabels():
-'''public Set<String> getContextLabels()
-'''
-pass
+    '''    public Set<String> getContextLabels()
+    '''
 def getContextEntries():
-'''public List<Pair<String, Object>> getContextEntries()
-'''
-pass
+    '''    public List<Pair<String, Object>> getContextEntries()
+    '''
 def getFormattedExceptionMessage():
-'''public String getFormattedExceptionMessage(final String baseMessage)
-'''
-pass
+    '''    public String getFormattedExceptionMessage(final String baseMessage)
+    '''

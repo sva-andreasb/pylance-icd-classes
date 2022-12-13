@@ -1,8 +1,6 @@
 def CDUISolutionInProcess():
-'''public CDUISolutionInProcess()
-'''
-pass
+    '''    public CDUISolutionInProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

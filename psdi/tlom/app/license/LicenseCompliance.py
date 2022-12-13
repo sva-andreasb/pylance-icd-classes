@@ -1,4 +1,3 @@
 def LicenseCompliance():
-'''public LicenseCompliance(final MboSet ms)
-'''
-pass
+    '''    public LicenseCompliance(final MboSet ms)
+    '''

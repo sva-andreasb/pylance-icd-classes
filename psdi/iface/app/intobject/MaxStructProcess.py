@@ -1,8 +1,6 @@
 def MaxStructProcess():
-'''public MaxStructProcess()
-'''
-pass
+    '''    public MaxStructProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''

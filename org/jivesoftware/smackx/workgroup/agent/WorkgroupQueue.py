@@ -1,40 +1,30 @@
 def getName():
-'''public Resourcepart getName()
-'''
-pass
+    '''    public Resourcepart getName()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def getUserCount():
-'''public int getUserCount()
-'''
-pass
+    '''    public int getUserCount()
+    '''
 def getUsers():
-'''public Iterator<QueueUser> getUsers()
-'''
-pass
+    '''    public Iterator<QueueUser> getUsers()
+    '''
 def getAverageWaitTime():
-'''public int getAverageWaitTime()
-'''
-pass
+    '''    public int getAverageWaitTime()
+    '''
 def getOldestEntry():
-'''public Date getOldestEntry()
-'''
-pass
+    '''    public Date getOldestEntry()
+    '''
 def getMaxChats():
-'''public int getMaxChats()
-'''
-pass
+    '''    public int getMaxChats()
+    '''
 def getCurrentChats():
-'''public int getCurrentChats()
-'''
-pass
+    '''    public int getCurrentChats()
+    '''
 def fromString():
-'''public static Status fromString(String type)
-'''
-pass
+    '''    public static Status fromString(String type)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

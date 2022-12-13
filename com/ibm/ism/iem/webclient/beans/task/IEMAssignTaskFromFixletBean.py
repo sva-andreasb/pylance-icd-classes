@@ -1,8 +1,6 @@
 def filterBySite():
-'''public void filterBySite()
-'''
-pass
+    '''    public void filterBySite()
+    '''
 def setASSIGNok():
-'''public void setASSIGNok(final boolean enabled)
-'''
-pass
+    '''    public void setASSIGNok(final boolean enabled)
+    '''

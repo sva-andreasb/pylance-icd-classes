@@ -1,27 +1,21 @@
 def XmlStreamWriter():
-'''public XmlStreamWriter(final OutputStream out)
-public XmlStreamWriter(final OutputStream out, final String defaultEncoding)
-public XmlStreamWriter(final File file)
-public XmlStreamWriter(final File file, final String defaultEncoding)
-'''
-pass
+    '''    public XmlStreamWriter(final OutputStream out)
+    public XmlStreamWriter(final OutputStream out, final String defaultEncoding)
+    public XmlStreamWriter(final File file)
+    public XmlStreamWriter(final File file, final String defaultEncoding)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def getDefaultEncoding():
-'''public String getDefaultEncoding()
-'''
-pass
+    '''    public String getDefaultEncoding()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def write():
-'''public void write(final char[] cbuf, final int off, final int len)
-'''
-pass
+    '''    public void write(final char[] cbuf, final int off, final int len)
+    '''

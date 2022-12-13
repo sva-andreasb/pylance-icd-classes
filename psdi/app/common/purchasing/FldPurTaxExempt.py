@@ -1,8 +1,6 @@
 def FldPurTaxExempt():
-'''public FldPurTaxExempt(final MboValue mbv)
-'''
-pass
+    '''    public FldPurTaxExempt(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

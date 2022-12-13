@@ -1,8 +1,6 @@
 def TLOAMFldAssetItemnum():
-'''public TLOAMFldAssetItemnum(final MboValue mbv)
-'''
-pass
+    '''    public TLOAMFldAssetItemnum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

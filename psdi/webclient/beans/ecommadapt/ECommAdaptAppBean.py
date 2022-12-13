@@ -1,36 +1,27 @@
 def ECommAdaptAppBean():
-'''public ECommAdaptAppBean()
-'''
-pass
+    '''    public ECommAdaptAppBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def lookupcatalog():
-'''public int lookupcatalog()
-'''
-pass
+    '''    public int lookupcatalog()
+    '''
 def rtnecomm():
-'''public int rtnecomm()
-'''
-pass
+    '''    public int rtnecomm()
+    '''
 def returncart():
-'''public int returncart()
-'''
-pass
+    '''    public int returncart()
+    '''
 def doAppLinkReturn():
-'''public int doAppLinkReturn()
-'''
-pass
+    '''    public int doAppLinkReturn()
+    '''
 def retrytask():
-'''public int retrytask()
-'''
-pass
+    '''    public int retrytask()
+    '''
 def canceltask():
-'''public int canceltask()
-'''
-pass
+    '''    public int canceltask()
+    '''
 def getURI():
-'''public String getURI()
-'''
-pass
+    '''    public String getURI()
+    '''

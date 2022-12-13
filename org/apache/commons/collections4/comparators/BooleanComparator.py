@@ -1,33 +1,25 @@
 def getTrueFirstComparator():
-'''public static BooleanComparator getTrueFirstComparator()
-'''
-pass
+    '''    public static BooleanComparator getTrueFirstComparator()
+    '''
 def getFalseFirstComparator():
-'''public static BooleanComparator getFalseFirstComparator()
-'''
-pass
+    '''    public static BooleanComparator getFalseFirstComparator()
+    '''
 def booleanComparator():
-'''public static BooleanComparator booleanComparator(final boolean trueFirst)
-'''
-pass
+    '''    public static BooleanComparator booleanComparator(final boolean trueFirst)
+    '''
 def BooleanComparator():
-'''public BooleanComparator()
-public BooleanComparator(final boolean trueFirst)
-'''
-pass
+    '''    public BooleanComparator()
+    public BooleanComparator(final boolean trueFirst)
+    '''
 def compare():
-'''public int compare(final Boolean b1, final Boolean b2)
-'''
-pass
+    '''    public int compare(final Boolean b1, final Boolean b2)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def sortsTrueFirst():
-'''public boolean sortsTrueFirst()
-'''
-pass
+    '''    public boolean sortsTrueFirst()
+    '''

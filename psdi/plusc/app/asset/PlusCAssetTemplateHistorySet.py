@@ -1,4 +1,3 @@
 def PlusCAssetTemplateHistorySet():
-'''public PlusCAssetTemplateHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCAssetTemplateHistorySet(final MboServerInterface ms)
+    '''

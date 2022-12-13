@@ -1,16 +1,12 @@
 def run():
-'''public Object run(final Properties arguments)
-'''
-pass
+    '''    public Object run(final Properties arguments)
+    '''
 def getShortHelp():
-'''public String getShortHelp(Locale locale)
-'''
-pass
+    '''    public String getShortHelp(Locale locale)
+    '''
 def getLongHelp():
-'''public String getLongHelp(Locale locale)
-'''
-pass
+    '''    public String getLongHelp(Locale locale)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

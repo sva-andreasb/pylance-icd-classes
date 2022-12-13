@@ -1,44 +1,33 @@
 def ReverseCharacterIterator():
-'''public ReverseCharacterIterator(final CharacterIterator iter)
-'''
-pass
+    '''    public ReverseCharacterIterator(final CharacterIterator iter)
+    '''
 def first():
-'''public char first()
-'''
-pass
+    '''    public char first()
+    '''
 def last():
-'''public char last()
-'''
-pass
+    '''    public char last()
+    '''
 def current():
-'''public char current()
-'''
-pass
+    '''    public char current()
+    '''
 def next():
-'''public char next()
-'''
-pass
+    '''    public char next()
+    '''
 def previous():
-'''public char previous()
-'''
-pass
+    '''    public char previous()
+    '''
 def setIndex():
-'''public char setIndex(final int index)
-'''
-pass
+    '''    public char setIndex(final int index)
+    '''
 def getBeginIndex():
-'''public int getBeginIndex()
-'''
-pass
+    '''    public int getBeginIndex()
+    '''
 def getEndIndex():
-'''public int getEndIndex()
-'''
-pass
+    '''    public int getEndIndex()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

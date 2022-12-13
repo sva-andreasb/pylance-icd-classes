@@ -1,8 +1,6 @@
 def FldFullGLAccount():
-'''public FldFullGLAccount(final MboValue mbv)
-'''
-pass
+    '''    public FldFullGLAccount(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

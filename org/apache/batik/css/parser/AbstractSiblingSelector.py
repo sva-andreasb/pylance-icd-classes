@@ -1,12 +1,9 @@
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getSelector():
-'''public Selector getSelector()
-'''
-pass
+    '''    public Selector getSelector()
+    '''
 def getSiblingSelector():
-'''public SimpleSelector getSiblingSelector()
-'''
-pass
+    '''    public SimpleSelector getSiblingSelector()
+    '''

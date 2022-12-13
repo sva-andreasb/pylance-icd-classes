@@ -1,16 +1,12 @@
 def DatastoreChild():
-'''public DatastoreChild(final MboSet ms)
-'''
-pass
+    '''    public DatastoreChild(final MboSet ms)
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote targetSet)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote targetSet)
+    '''
 def getXML():
-'''public String getXML()
-'''
-pass
+    '''    public String getXML()
+    '''
 def generateElement():
-'''public Element generateElement(final Element datastore)
-'''
-pass
+    '''    public Element generateElement(final Element datastore)
+    '''

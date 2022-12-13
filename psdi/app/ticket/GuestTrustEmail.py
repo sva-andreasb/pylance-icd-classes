@@ -1,4 +1,3 @@
 def GuestTrustEmail():
-'''public GuestTrustEmail(final MboSet ms)
-'''
-pass
+    '''    public GuestTrustEmail(final MboSet ms)
+    '''

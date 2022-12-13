@@ -1,20 +1,15 @@
 def MaxDbInfoObjViewProcess():
-'''public MaxDbInfoObjViewProcess()
-'''
-pass
+    '''    public MaxDbInfoObjViewProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''
 def deleteAll():
-'''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''
 def afterReplace():
-'''public void afterReplace(final MboRemote child)
-'''
-pass
+    '''    public void afterReplace(final MboRemote child)
+    '''
 def afterProcess():
-'''public void afterProcess()
-'''
-pass
+    '''    public void afterProcess()
+    '''

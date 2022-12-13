@@ -1,40 +1,30 @@
 def setProtocolVersion():
-'''public void setProtocolVersion(final ProtocolVersion version)
-'''
-pass
+    '''    public void setProtocolVersion(final ProtocolVersion version)
+    '''
 def getProtocolVersion():
-'''public ProtocolVersion getProtocolVersion()
-'''
-pass
+    '''    public ProtocolVersion getProtocolVersion()
+    '''
 def getURI():
-'''public URI getURI()
-'''
-pass
+    '''    public URI getURI()
+    '''
 def getRequestLine():
-'''public RequestLine getRequestLine()
-'''
-pass
+    '''    public RequestLine getRequestLine()
+    '''
 def getConfig():
-'''public RequestConfig getConfig()
-'''
-pass
+    '''    public RequestConfig getConfig()
+    '''
 def setConfig():
-'''public void setConfig(final RequestConfig config)
-'''
-pass
+    '''    public void setConfig(final RequestConfig config)
+    '''
 def setURI():
-'''public void setURI(final URI uri)
-'''
-pass
+    '''    public void setURI(final URI uri)
+    '''
 def started():
-'''public void started()
-'''
-pass
+    '''    public void started()
+    '''
 def releaseConnection():
-'''public void releaseConnection()
-'''
-pass
+    '''    public void releaseConnection()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

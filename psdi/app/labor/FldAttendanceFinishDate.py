@@ -1,8 +1,6 @@
 def FldAttendanceFinishDate():
-'''public FldAttendanceFinishDate(final MboValue mbv)
-'''
-pass
+    '''    public FldAttendanceFinishDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

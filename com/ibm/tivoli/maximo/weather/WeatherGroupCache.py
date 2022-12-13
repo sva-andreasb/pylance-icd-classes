@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final WeatherGroupCache getInstance()
-'''
-pass
+    '''    public static final WeatherGroupCache getInstance()
+    '''
 def getOrgInfo():
-'''public WeatherOrgInfo getOrgInfo()
-'''
-pass
+    '''    public WeatherOrgInfo getOrgInfo()
+    '''
 def getOrgInfoForGroup():
-'''public WeatherOrgInfo getOrgInfoForGroup(final String groupName)
-'''
-pass
+    '''    public WeatherOrgInfo getOrgInfoForGroup(final String groupName)
+    '''
 def getGroupInfo():
-'''public WeatherGroupInfo getGroupInfo(final String groupName)
-'''
-pass
+    '''    public WeatherGroupInfo getGroupInfo(final String groupName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

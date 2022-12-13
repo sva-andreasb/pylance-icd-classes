@@ -1,20 +1,15 @@
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''

@@ -1,8 +1,6 @@
 def getValueType():
-'''public JavaType getValueType()
-'''
-pass
+    '''    public JavaType getValueType()
+    '''
 def deserializeWithType():
-'''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-'''
-pass
+    '''    public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''

@@ -1,4 +1,3 @@
 def RcnTaskFltrAttribVal():
-'''public RcnTaskFltrAttribVal(final MboSet ms)
-'''
-pass
+    '''    public RcnTaskFltrAttribVal(final MboSet ms)
+    '''

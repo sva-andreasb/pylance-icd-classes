@@ -1,20 +1,15 @@
 def Property():
-'''public Property(final String name, final List<Pattern> allowedRegexp3, final List<String> allowedValue, final List<String> shortHandRefs, final String description, final String onInvalidStr)
-'''
-pass
+    '''    public Property(final String name, final List<Pattern> allowedRegexp3, final List<String> allowedValue, final List<String> shortHandRefs, final String description, final String onInvalidStr)
+    '''
 def getAllowedRegExp():
-'''public List getAllowedRegExp()
-'''
-pass
+    '''    public List getAllowedRegExp()
+    '''
 def getAllowedValues():
-'''public List getAllowedValues()
-'''
-pass
+    '''    public List getAllowedValues()
+    '''
 def getShorthandRefs():
-'''public List getShorthandRefs()
-'''
-pass
+    '''    public List getShorthandRefs()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

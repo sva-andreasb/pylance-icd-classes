@@ -1,8 +1,6 @@
 def ReportLabelSyncCronTask():
-'''public ReportLabelSyncCronTask()
-'''
-pass
+    '''    public ReportLabelSyncCronTask()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

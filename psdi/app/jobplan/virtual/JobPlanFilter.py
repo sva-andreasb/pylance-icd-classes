@@ -1,8 +1,6 @@
 def JobPlanFilter():
-'''public JobPlanFilter(final MboSet ms)
-'''
-pass
+    '''    public JobPlanFilter(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

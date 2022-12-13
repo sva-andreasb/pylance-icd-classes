@@ -1,8 +1,6 @@
 def call():
-'''public Object call(final Context context, final List args)
-'''
-pass
+    '''    public Object call(final Context context, final List args)
+    '''
 def evaluate():
-'''public static String evaluate(final Object strArg, Locale locale, final Navigator nav)
-'''
-pass
+    '''    public static String evaluate(final Object strArg, Locale locale, final Navigator nav)
+    '''

@@ -1,16 +1,12 @@
 def ExcludedActionsSet():
-'''public ExcludedActionsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ExcludedActionsSet(final MboServerInterface ms)
+    '''
 def getExcludedActions():
-'''public ArrayList getExcludedActions()
-'''
-pass
+    '''    public ArrayList getExcludedActions()
+    '''
 def getAppsExcludedForResultSet():
-'''public ArrayList getAppsExcludedForResultSet()
-'''
-pass
+    '''    public ArrayList getAppsExcludedForResultSet()
+    '''
 def ignoredAppsByType():
-'''public ArrayList ignoredAppsByType()
-'''
-pass
+    '''    public ArrayList ignoredAppsByType()
+    '''

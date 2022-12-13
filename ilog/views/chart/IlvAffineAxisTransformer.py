@@ -1,32 +1,24 @@
 def IlvAffineAxisTransformer():
-'''public IlvAffineAxisTransformer(final double scaling, final double b)
-'''
-pass
+    '''    public IlvAffineAxisTransformer(final double scaling, final double b)
+    '''
 def getScaling():
-'''public final double getScaling()
-'''
-pass
+    '''    public final double getScaling()
+    '''
 def setScaling():
-'''public void setScaling(final double a)
-'''
-pass
+    '''    public void setScaling(final double a)
+    '''
 def getConstant():
-'''public final double getConstant()
-'''
-pass
+    '''    public final double getConstant()
+    '''
 def setConstant():
-'''public void setConstant(final double b)
-'''
-pass
+    '''    public void setConstant(final double b)
+    '''
 def setDefinition():
-'''public void setDefinition(final double a, final double b)
-'''
-pass
+    '''    public void setDefinition(final double a, final double b)
+    '''
 def apply():
-'''public double apply(final double n)
-'''
-pass
+    '''    public double apply(final double n)
+    '''
 def inverse():
-'''public double inverse(final double n)
-'''
-pass
+    '''    public double inverse(final double n)
+    '''

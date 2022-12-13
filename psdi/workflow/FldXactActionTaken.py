@@ -1,8 +1,6 @@
 def FldXactActionTaken():
-'''public FldXactActionTaken(final MboValue mbv)
-'''
-pass
+    '''    public FldXactActionTaken(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,8 +1,6 @@
 def SurveyRequestBean():
-'''public SurveyRequestBean()
-'''
-pass
+    '''    public SurveyRequestBean()
+    '''
 def showsurvey():
-'''public int showsurvey()
-'''
-pass
+    '''    public int showsurvey()
+    '''

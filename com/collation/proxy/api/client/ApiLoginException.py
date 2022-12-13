@@ -1,5 +1,4 @@
 def ApiLoginException():
-'''public ApiLoginException()
-public ApiLoginException(final Throwable cause)
-'''
-pass
+    '''    public ApiLoginException()
+    public ApiLoginException(final Throwable cause)
+    '''

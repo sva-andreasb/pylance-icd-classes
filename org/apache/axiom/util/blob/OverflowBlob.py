@@ -1,78 +1,60 @@
 def OverflowBlob():
-'''public OverflowBlob(final int numberOfChunks, final int chunkSize, final String tempPrefix, final String tempSuffix)
-'''
-pass
+    '''    public OverflowBlob(final int numberOfChunks, final int chunkSize, final String tempPrefix, final String tempSuffix)
+    '''
 def isSupportingReadUncommitted():
-'''public boolean isSupportingReadUncommitted()
-'''
-pass
+    '''    public boolean isSupportingReadUncommitted()
+    '''
 def getOutputStream():
-'''public BlobOutputStream getOutputStream()
-'''
-pass
+    '''    public BlobOutputStream getOutputStream()
+    '''
 def readFrom():
-'''public long readFrom(final InputStream in, final long length, final boolean commit)
-public long readFrom(final InputStream in, final long length)
-'''
-pass
+    '''    public long readFrom(final InputStream in, final long length, final boolean commit)
+    public long readFrom(final InputStream in, final long length)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''
 def getBlob():
-'''public WritableBlob getBlob()
-'''
-pass
+    '''    public WritableBlob getBlob()
+    '''
 def write():
-'''public void write(final byte[] b, int off, int len)
-public void write(final byte[] b)
-public void write(final int b)
-'''
-pass
+    '''    public void write(final byte[] b, int off, int len)
+    public void write(final byte[] b)
+    public void write(final int b)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-public void close()
-'''
-pass
+    '''    public void close()
+    public void close()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def read():
-'''public int read(final byte[] b, int off, int len)
-public int read(final byte[] b)
-public int read()
-'''
-pass
+    '''    public int read(final byte[] b, int off, int len)
+    public int read(final byte[] b)
+    public int read()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def mark():
-'''public void mark(final int readlimit)
-'''
-pass
+    '''    public void mark(final int readlimit)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def skip():
-'''public long skip(final long n)
-'''
-pass
+    '''    public long skip(final long n)
+    '''

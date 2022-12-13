@@ -1,8 +1,6 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def saveusersessions():
-'''public int saveusersessions()
-'''
-pass
+    '''    public int saveusersessions()
+    '''

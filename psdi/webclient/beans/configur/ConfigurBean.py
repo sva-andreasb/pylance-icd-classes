@@ -1,64 +1,48 @@
 def ConfigurBean():
-'''public ConfigurBean()
-'''
-pass
+    '''    public ConfigurBean()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def LOADDBCON():
-'''public int LOADDBCON()
-'''
-pass
+    '''    public int LOADDBCON()
+    '''
 def CONFIGURE():
-'''public int CONFIGURE()
-'''
-pass
+    '''    public int CONFIGURE()
+    '''
 def REMOVE():
-'''public int REMOVE()
-'''
-pass
+    '''    public int REMOVE()
+    '''
 def remove_longOp():
-'''public int remove_longOp()
-'''
-pass
+    '''    public int remove_longOp()
+    '''
 def STATISTICS():
-'''public int STATISTICS()
-'''
-pass
+    '''    public int STATISTICS()
+    '''
 def statistics_longOp():
-'''public int statistics_longOp()
-'''
-pass
+    '''    public int statistics_longOp()
+    '''
 def REFRESHIND():
-'''public int REFRESHIND()
-'''
-pass
+    '''    public int REFRESHIND()
+    '''
 def refreshind_longOp():
-'''public int refreshind_longOp()
-'''
-pass
+    '''    public int refreshind_longOp()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def TAXDATA():
-'''public int TAXDATA()
-'''
-pass
+    '''    public int TAXDATA()
+    '''
 def NUMTAX():
-'''public int NUMTAX()
-'''
-pass
+    '''    public int NUMTAX()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def EXTTABLE():
-'''public int EXTTABLE()
-'''
-pass
+    '''    public int EXTTABLE()
+    '''

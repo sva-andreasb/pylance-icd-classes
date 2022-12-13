@@ -1,4 +1,3 @@
 def FldClassSpecApplyDownHier():
-'''public FldClassSpecApplyDownHier(final MboValue mbv)
-'''
-pass
+    '''    public FldClassSpecApplyDownHier(final MboValue mbv)
+    '''

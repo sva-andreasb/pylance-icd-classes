@@ -1,24 +1,18 @@
 def isStopwordByJpos():
-'''public static final boolean isStopwordByJpos(final int n)
-'''
-pass
+    '''    public static final boolean isStopwordByJpos(final int n)
+    '''
 def isStopwordByJkom():
-'''public static final boolean isStopwordByJkom(final int n)
-'''
-pass
+    '''    public static final boolean isStopwordByJkom(final int n)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toId():
-'''public int toId()
-'''
-pass
+    '''    public int toId()
+    '''
 def toDLTPos():
-'''public DLTPos toDLTPos()
-'''
-pass
+    '''    public DLTPos toDLTPos()
+    '''
 def parseId():
-'''public static final JPos parseId(final int n)
-'''
-pass
+    '''    public static final JPos parseId(final int n)
+    '''

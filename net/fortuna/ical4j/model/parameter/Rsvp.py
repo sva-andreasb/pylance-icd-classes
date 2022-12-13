@@ -1,25 +1,19 @@
 def Rsvp():
-'''public Rsvp(final String aValue)
-public Rsvp(final Boolean aValue)
-'''
-pass
+    '''    public Rsvp(final String aValue)
+    public Rsvp(final Boolean aValue)
+    '''
 def getRsvp():
-'''public final Boolean getRsvp()
-'''
-pass
+    '''    public final Boolean getRsvp()
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def copy():
-'''public final Parameter copy()
-'''
-pass
+    '''    public final Parameter copy()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

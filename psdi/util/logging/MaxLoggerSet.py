@@ -1,4 +1,3 @@
 def MaxLoggerSet():
-'''public MaxLoggerSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxLoggerSet(final MboServerInterface ms)
+    '''

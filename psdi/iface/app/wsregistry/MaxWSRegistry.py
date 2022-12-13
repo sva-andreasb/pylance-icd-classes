@@ -1,40 +1,30 @@
 def MaxWSRegistry():
-'''public MaxWSRegistry(final MboSet ms)
-'''
-pass
+    '''    public MaxWSRegistry(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def deployWebService():
-'''public void deployWebService(final boolean jaxwsDeploy)
-'''
-pass
+    '''    public void deployWebService(final boolean jaxwsDeploy)
+    '''
 def undeployWebService():
-'''public void undeployWebService(final boolean jaxwsDeploy)
-'''
-pass
+    '''    public void undeployWebService(final boolean jaxwsDeploy)
+    '''
 def convertToJAXWS():
-'''public void convertToJAXWS()
-'''
-pass
+    '''    public void convertToJAXWS()
+    '''
 def generateSchema():
-'''public void generateSchema()
-'''
-pass
+    '''    public void generateSchema()
+    '''

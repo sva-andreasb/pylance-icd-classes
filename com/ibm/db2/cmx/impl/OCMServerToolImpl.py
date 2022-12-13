@@ -1,16 +1,12 @@
 def OCMServerToolImpl():
-'''public OCMServerToolImpl(final String controllerURL_)
-'''
-pass
+    '''    public OCMServerToolImpl(final String controllerURL_)
+    '''
 def clearCache():
-'''public void clearCache()
-'''
-pass
+    '''    public void clearCache()
+    '''
 def mainImpl():
-'''public void mainImpl(final String[] array)
-'''
-pass
+    '''    public void mainImpl(final String[] array)
+    '''
 def getControllerURL():
-'''public static String getControllerURL(final String[] array)
-'''
-pass
+    '''    public static String getControllerURL(final String[] array)
+    '''

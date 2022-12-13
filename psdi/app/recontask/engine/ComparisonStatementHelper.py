@@ -1,89 +1,67 @@
 def ComparisonStatementHelper():
-'''public ComparisonStatementHelper(final ReconInfo reconInfo, final String objectName)
-'''
-pass
+    '''    public ComparisonStatementHelper(final ReconInfo reconInfo, final String objectName)
+    '''
 def prepare():
-'''public void prepare()
-'''
-pass
+    '''    public void prepare()
+    '''
 def getSelectClauseForUnits():
-'''public String getSelectClauseForUnits()
-'''
-pass
+    '''    public String getSelectClauseForUnits()
+    '''
 def initializeReconValueSet():
-'''public void initializeReconValueSet()
-'''
-pass
+    '''    public void initializeReconValueSet()
+    '''
 def addAttribute():
-'''public void addAttribute(final String attribute)
-public void addAttribute(final String attribute, final String unit)
-'''
-pass
+    '''    public void addAttribute(final String attribute)
+    public void addAttribute(final String attribute, final String unit)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getOperationType():
-'''public int getOperationType()
-'''
-pass
+    '''    public int getOperationType()
+    '''
 def isFilter():
-'''public boolean isFilter()
-'''
-pass
+    '''    public boolean isFilter()
+    '''
 def isForDataSet1():
-'''public boolean isForDataSet1()
-'''
-pass
+    '''    public boolean isForDataSet1()
+    '''
 def changeType():
-'''public void changeType(final int type)
-'''
-pass
+    '''    public void changeType(final int type)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getAttributes():
-'''public List<String> getAttributes()
-'''
-pass
+    '''    public List<String> getAttributes()
+    '''
 def getSpecAttributes():
-'''public List<String> getSpecAttributes()
-'''
-pass
+    '''    public List<String> getSpecAttributes()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getRecordData():
-'''public ReconValueSet getRecordData()
-'''
-pass
+    '''    public ReconValueSet getRecordData()
+    '''
 def getRecordCount():
-'''public int getRecordCount(final String qualifiedName)
-'''
-pass
+    '''    public int getRecordCount(final String qualifiedName)
+    '''
 def addAttributeByObject():
-'''public void addAttributeByObject(final String objectName, final String attributeName)
-'''
-pass
+    '''    public void addAttributeByObject(final String objectName, final String attributeName)
+    '''
 def getUnitsMap():
-'''public Map getUnitsMap()
-'''
-pass
+    '''    public Map getUnitsMap()
+    '''
 def getUnitToAttributeIndex():
-'''public int[] getUnitToAttributeIndex()
-'''
-pass
+    '''    public int[] getUnitToAttributeIndex()
+    '''
 def setLoaded():
-'''public void setLoaded(final boolean loaded)
-'''
-pass
+    '''    public void setLoaded(final boolean loaded)
+    '''
 def isLoaded():
-'''public boolean isLoaded()
-'''
-pass
+    '''    public boolean isLoaded()
+    '''
 def setLinkValue():
-'''public void setLinkValue(final Map linkValue)
-'''
-pass
+    '''    public void setLinkValue(final Map linkValue)
+    '''

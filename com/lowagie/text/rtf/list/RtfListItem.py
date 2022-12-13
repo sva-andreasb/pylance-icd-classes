@@ -1,8 +1,6 @@
 def RtfListItem():
-'''public RtfListItem(final RtfDocument doc, final ListItem listItem)
-'''
-pass
+    '''    public RtfListItem(final RtfDocument doc, final ListItem listItem)
+    '''
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''

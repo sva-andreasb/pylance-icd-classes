@@ -1,4 +1,3 @@
 def SearchDR():
-'''public SearchDR(final MboSet ms)
-'''
-pass
+    '''    public SearchDR(final MboSet ms)
+    '''

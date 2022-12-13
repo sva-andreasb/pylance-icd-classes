@@ -1,20 +1,15 @@
 def MulticastServer():
-'''public MulticastServer(final String slpServiceURL_, final int port_, final ControllerServerImpl controller_)
-'''
-pass
+    '''    public MulticastServer(final String slpServiceURL_, final int port_, final ControllerServerImpl controller_)
+    '''
 def startServer():
-'''public void startServer()
-'''
-pass
+    '''    public void startServer()
+    '''
 def shutDown():
-'''public void shutDown()
-'''
-pass
+    '''    public void shutDown()
+    '''
 def isMulticastServiceActive():
-'''public boolean isMulticastServiceActive()
-'''
-pass
+    '''    public boolean isMulticastServiceActive()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

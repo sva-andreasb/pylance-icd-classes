@@ -1,16 +1,12 @@
 def MUCLightRoomConfiguration():
-'''public MUCLightRoomConfiguration(final String roomName, final String subject, final HashMap<String, String> customConfigs)
-'''
-pass
+    '''    public MUCLightRoomConfiguration(final String roomName, final String subject, final HashMap<String, String> customConfigs)
+    '''
 def getRoomName():
-'''public String getRoomName()
-'''
-pass
+    '''    public String getRoomName()
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def getCustomConfigs():
-'''public HashMap<String, String> getCustomConfigs()
-'''
-pass
+    '''    public HashMap<String, String> getCustomConfigs()
+    '''

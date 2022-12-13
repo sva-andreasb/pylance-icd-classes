@@ -1,10 +1,8 @@
-ATTR_ID = "String  id""
+ATTR_ID = "String  \"id\""
 def StableAndUniqueIdElement():
-'''public StableAndUniqueIdElement()
-public StableAndUniqueIdElement(final String id)
-'''
-pass
+    '''    public StableAndUniqueIdElement()
+    public StableAndUniqueIdElement(final String id)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''

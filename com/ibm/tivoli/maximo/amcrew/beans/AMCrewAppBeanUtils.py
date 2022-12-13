@@ -1,12 +1,9 @@
 def hasSentListWarning():
-'''public boolean hasSentListWarning(final AppInstance app)
-'''
-pass
+    '''    public boolean hasSentListWarning(final AppInstance app)
+    '''
 def forceListWarning():
-'''public int forceListWarning(final AppInstance app)
-'''
-pass
+    '''    public int forceListWarning(final AppInstance app)
+    '''
 def makeAvailableToCrews():
-'''public int makeAvailableToCrews(final String isCrewFieldName, final AppInstance app)
-'''
-pass
+    '''    public int makeAvailableToCrews(final String isCrewFieldName, final AppInstance app)
+    '''

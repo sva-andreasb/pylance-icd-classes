@@ -1,16 +1,12 @@
 def AddItemsBeanBulk():
-'''public AddItemsBeanBulk()
-'''
-pass
+    '''    public AddItemsBeanBulk()
+    '''
 def BEFORE_EX():
-'''public void BEFORE_EX()
-'''
-pass
+    '''    public void BEFORE_EX()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def addtoInventory():
-'''public void addtoInventory(final MboSetRemote invSetRemote)
-'''
-pass
+    '''    public void addtoInventory(final MboSetRemote invSetRemote)
+    '''

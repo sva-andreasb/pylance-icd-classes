@@ -1,32 +1,24 @@
 def QueryInfo():
-'''public QueryInfo(final int queryNum, final String orderBy, final String className, final String whereClause, final String queryType)
-'''
-pass
+    '''    public QueryInfo(final int queryNum, final String orderBy, final String className, final String whereClause, final String queryType)
+    '''
 def getQueryNum():
-'''public int getQueryNum()
-'''
-pass
+    '''    public int getQueryNum()
+    '''
 def getWhereClause():
-'''public String getWhereClause()
-'''
-pass
+    '''    public String getWhereClause()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getOrderBy():
-'''public String getOrderBy()
-'''
-pass
+    '''    public String getOrderBy()
+    '''
 def getQueryType():
-'''public String getQueryType()
-'''
-pass
+    '''    public String getQueryType()
+    '''
 def getQueryParamInfo():
-'''public List<QueryParamInfo> getQueryParamInfo()
-'''
-pass
+    '''    public List<QueryParamInfo> getQueryParamInfo()
+    '''
 def setQueryParamInfo():
-'''public void setQueryParamInfo(final List<QueryParamInfo> list)
-'''
-pass
+    '''    public void setQueryParamInfo(final List<QueryParamInfo> list)
+    '''

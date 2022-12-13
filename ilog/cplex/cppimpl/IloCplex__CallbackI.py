@@ -1,48 +1,36 @@
 def IloCplex__CallbackI():
-'''public IloCplex__CallbackI(final long cPtr, final boolean cMemoryOwn)
-'''
-pass
+    '''    public IloCplex__CallbackI(final long cPtr, final boolean cMemoryOwn)
+    '''
 def setOwn():
-'''public void setOwn(final boolean cMemoryOwn)
-'''
-pass
+    '''    public void setOwn(final boolean cMemoryOwn)
+    '''
 def getCPtr():
-'''public static long getCPtr(final IloCplex__CallbackI obj)
-'''
-pass
+    '''    public static long getCPtr(final IloCplex__CallbackI obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getEnv():
-'''public IloEnv getEnv()
-'''
-pass
+    '''    public IloEnv getEnv()
+    '''
 def getCplexTime():
-'''public double getCplexTime()
-'''
-pass
+    '''    public double getCplexTime()
+    '''
 def getDetTime():
-'''public double getDetTime()
-'''
-pass
+    '''    public double getDetTime()
+    '''
 def getStartTime():
-'''public double getStartTime()
-'''
-pass
+    '''    public double getStartTime()
+    '''
 def getStartDetTime():
-'''public double getStartDetTime()
-'''
-pass
+    '''    public double getStartDetTime()
+    '''
 def getEndTime():
-'''public double getEndTime()
-'''
-pass
+    '''    public double getEndTime()
+    '''
 def getEndDetTime():
-'''public double getEndDetTime()
-'''
-pass
+    '''    public double getEndDetTime()
+    '''

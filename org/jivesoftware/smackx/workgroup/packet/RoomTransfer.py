@@ -1,42 +1,32 @@
-ELEMENT_NAME = "String  transfer""
-NAMESPACE = "String  http://jabber.org/protocol/workgroup""
+ELEMENT_NAME = "String  \"transfer\""
+NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def RoomTransfer():
-'''public RoomTransfer(final Type type, final String invitee, final String sessionID, final String reason)
-'''
-pass
+    '''    public RoomTransfer(final Type type, final String invitee, final String sessionID, final String reason)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getInviter():
-'''public String getInviter()
-'''
-pass
+    '''    public String getInviter()
+    '''
 def getRoom():
-'''public String getRoom()
-'''
-pass
+    '''    public String getRoom()
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def RoomTransferIQ():
-'''public RoomTransferIQ(final RoomTransfer roomTransfer)
-'''
-pass
+    '''    public RoomTransferIQ(final RoomTransfer roomTransfer)
+    '''
 def parse():
-'''public RoomTransfer parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public RoomTransfer parse(final XmlPullParser parser, final int initialDepth)
+    '''

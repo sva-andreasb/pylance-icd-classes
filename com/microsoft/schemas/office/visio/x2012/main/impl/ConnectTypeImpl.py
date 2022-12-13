@@ -1,132 +1,99 @@
 def ConnectTypeImpl():
-'''public ConnectTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public ConnectTypeImpl(final SchemaType schemaType)
+    '''
 def getFromSheet():
-'''public long getFromSheet()
-'''
-pass
+    '''    public long getFromSheet()
+    '''
 def xgetFromSheet():
-'''public XmlUnsignedInt xgetFromSheet()
-'''
-pass
+    '''    public XmlUnsignedInt xgetFromSheet()
+    '''
 def setFromSheet():
-'''public void setFromSheet(final long longValue)
-'''
-pass
+    '''    public void setFromSheet(final long longValue)
+    '''
 def xsetFromSheet():
-'''public void xsetFromSheet(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetFromSheet(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def getFromCell():
-'''public String getFromCell()
-'''
-pass
+    '''    public String getFromCell()
+    '''
 def xgetFromCell():
-'''public XmlString xgetFromCell()
-'''
-pass
+    '''    public XmlString xgetFromCell()
+    '''
 def isSetFromCell():
-'''public boolean isSetFromCell()
-'''
-pass
+    '''    public boolean isSetFromCell()
+    '''
 def setFromCell():
-'''public void setFromCell(final String stringValue)
-'''
-pass
+    '''    public void setFromCell(final String stringValue)
+    '''
 def xsetFromCell():
-'''public void xsetFromCell(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetFromCell(final XmlString xmlString)
+    '''
 def unsetFromCell():
-'''public void unsetFromCell()
-'''
-pass
+    '''    public void unsetFromCell()
+    '''
 def getFromPart():
-'''public int getFromPart()
-'''
-pass
+    '''    public int getFromPart()
+    '''
 def xgetFromPart():
-'''public XmlInt xgetFromPart()
-'''
-pass
+    '''    public XmlInt xgetFromPart()
+    '''
 def isSetFromPart():
-'''public boolean isSetFromPart()
-'''
-pass
+    '''    public boolean isSetFromPart()
+    '''
 def setFromPart():
-'''public void setFromPart(final int intValue)
-'''
-pass
+    '''    public void setFromPart(final int intValue)
+    '''
 def xsetFromPart():
-'''public void xsetFromPart(final XmlInt xmlInt)
-'''
-pass
+    '''    public void xsetFromPart(final XmlInt xmlInt)
+    '''
 def unsetFromPart():
-'''public void unsetFromPart()
-'''
-pass
+    '''    public void unsetFromPart()
+    '''
 def getToSheet():
-'''public long getToSheet()
-'''
-pass
+    '''    public long getToSheet()
+    '''
 def xgetToSheet():
-'''public XmlUnsignedInt xgetToSheet()
-'''
-pass
+    '''    public XmlUnsignedInt xgetToSheet()
+    '''
 def setToSheet():
-'''public void setToSheet(final long longValue)
-'''
-pass
+    '''    public void setToSheet(final long longValue)
+    '''
 def xsetToSheet():
-'''public void xsetToSheet(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetToSheet(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def getToCell():
-'''public String getToCell()
-'''
-pass
+    '''    public String getToCell()
+    '''
 def xgetToCell():
-'''public XmlString xgetToCell()
-'''
-pass
+    '''    public XmlString xgetToCell()
+    '''
 def isSetToCell():
-'''public boolean isSetToCell()
-'''
-pass
+    '''    public boolean isSetToCell()
+    '''
 def setToCell():
-'''public void setToCell(final String stringValue)
-'''
-pass
+    '''    public void setToCell(final String stringValue)
+    '''
 def xsetToCell():
-'''public void xsetToCell(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetToCell(final XmlString xmlString)
+    '''
 def unsetToCell():
-'''public void unsetToCell()
-'''
-pass
+    '''    public void unsetToCell()
+    '''
 def getToPart():
-'''public int getToPart()
-'''
-pass
+    '''    public int getToPart()
+    '''
 def xgetToPart():
-'''public XmlInt xgetToPart()
-'''
-pass
+    '''    public XmlInt xgetToPart()
+    '''
 def isSetToPart():
-'''public boolean isSetToPart()
-'''
-pass
+    '''    public boolean isSetToPart()
+    '''
 def setToPart():
-'''public void setToPart(final int intValue)
-'''
-pass
+    '''    public void setToPart(final int intValue)
+    '''
 def xsetToPart():
-'''public void xsetToPart(final XmlInt xmlInt)
-'''
-pass
+    '''    public void xsetToPart(final XmlInt xmlInt)
+    '''
 def unsetToPart():
-'''public void unsetToPart()
-'''
-pass
+    '''    public void unsetToPart()
+    '''

@@ -1,8 +1,6 @@
 def setLocale():
-'''public void setLocale(final Locale l)
-'''
-pass
+    '''    public void setLocale(final Locale l)
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''

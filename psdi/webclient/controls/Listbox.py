@@ -1,24 +1,18 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def reloadlist():
-'''public int reloadlist()
-'''
-pass
+    '''    public int reloadlist()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def storeAttributes():
-'''public void storeAttributes()
-'''
-pass
+    '''    public void storeAttributes()
+    '''
 def getData():
-'''public MboValueData[][] getData()
-'''
-pass
+    '''    public MboValueData[][] getData()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''

@@ -1,8 +1,6 @@
 def DMErrorSet():
-'''public DMErrorSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMErrorSet(final MboServerInterface ms)
+    '''
 def getLatestError():
-'''public MboRemote getLatestError()
-'''
-pass
+    '''    public MboRemote getLatestError()
+    '''

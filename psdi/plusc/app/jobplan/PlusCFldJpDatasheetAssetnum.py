@@ -1,20 +1,15 @@
 def PlusCFldJpDatasheetAssetnum():
-'''public PlusCFldJpDatasheetAssetnum(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldJpDatasheetAssetnum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def buildListCriteria():
-'''public String buildListCriteria()
-'''
-pass
+    '''    public String buildListCriteria()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

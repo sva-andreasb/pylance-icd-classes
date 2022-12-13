@@ -1,88 +1,67 @@
 DEFAULT_CHECK_INTERVAL = "long  1000L"
 DEFAULT_MAX_TIME = "long  15000L"
 def configure():
-'''public void configure(final long newWriteLimit, final long newReadLimit, final long newCheckInterval)
-public void configure(final long newWriteLimit, final long newReadLimit)
-public void configure(final long newCheckInterval)
-'''
-pass
+    '''    public void configure(final long newWriteLimit, final long newReadLimit, final long newCheckInterval)
+    public void configure(final long newWriteLimit, final long newReadLimit)
+    public void configure(final long newCheckInterval)
+    '''
 def getWriteLimit():
-'''public long getWriteLimit()
-'''
-pass
+    '''    public long getWriteLimit()
+    '''
 def setWriteLimit():
-'''public void setWriteLimit(final long writeLimit)
-'''
-pass
+    '''    public void setWriteLimit(final long writeLimit)
+    '''
 def getReadLimit():
-'''public long getReadLimit()
-'''
-pass
+    '''    public long getReadLimit()
+    '''
 def setReadLimit():
-'''public void setReadLimit(final long readLimit)
-'''
-pass
+    '''    public void setReadLimit(final long readLimit)
+    '''
 def getCheckInterval():
-'''public long getCheckInterval()
-'''
-pass
+    '''    public long getCheckInterval()
+    '''
 def setCheckInterval():
-'''public void setCheckInterval(final long checkInterval)
-'''
-pass
+    '''    public void setCheckInterval(final long checkInterval)
+    '''
 def setMaxTimeWait():
-'''public void setMaxTimeWait(final long maxTime)
-'''
-pass
+    '''    public void setMaxTimeWait(final long maxTime)
+    '''
 def getMaxTimeWait():
-'''public long getMaxTimeWait()
-'''
-pass
+    '''    public long getMaxTimeWait()
+    '''
 def getMaxWriteDelay():
-'''public long getMaxWriteDelay()
-'''
-pass
+    '''    public long getMaxWriteDelay()
+    '''
 def setMaxWriteDelay():
-'''public void setMaxWriteDelay(final long maxWriteDelay)
-'''
-pass
+    '''    public void setMaxWriteDelay(final long maxWriteDelay)
+    '''
 def getMaxWriteSize():
-'''public long getMaxWriteSize()
-'''
-pass
+    '''    public long getMaxWriteSize()
+    '''
 def setMaxWriteSize():
-'''public void setMaxWriteSize(final long maxWriteSize)
-'''
-pass
+    '''    public void setMaxWriteSize(final long maxWriteSize)
+    '''
 def channelRead():
-'''public void channelRead(final ChannelHandlerContext ctx, final Object msg)
-'''
-pass
+    '''    public void channelRead(final ChannelHandlerContext ctx, final Object msg)
+    '''
 def handlerRemoved():
-'''public void handlerRemoved(final ChannelHandlerContext ctx)
-'''
-pass
+    '''    public void handlerRemoved(final ChannelHandlerContext ctx)
+    '''
 def read():
-'''public void read(final ChannelHandlerContext ctx)
-'''
-pass
+    '''    public void read(final ChannelHandlerContext ctx)
+    '''
 def write():
-'''public void write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)
-'''
-pass
+    '''    public void write(final ChannelHandlerContext ctx, final Object msg, final ChannelPromise promise)
+    '''
 def channelRegistered():
-'''public void channelRegistered(final ChannelHandlerContext ctx)
-'''
-pass
+    '''    public void channelRegistered(final ChannelHandlerContext ctx)
+    '''
 def trafficCounter():
-'''public TrafficCounter trafficCounter()
-'''
-pass
+    '''    public TrafficCounter trafficCounter()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

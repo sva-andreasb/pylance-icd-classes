@@ -1,8 +1,6 @@
 def DEROutputStream():
-'''public DEROutputStream(final OutputStream os)
-'''
-pass
+    '''    public DEROutputStream(final OutputStream os)
+    '''
 def writeObject():
-'''public void writeObject(final Object obj)
-'''
-pass
+    '''    public void writeObject(final Object obj)
+    '''

@@ -1,12 +1,9 @@
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''
 def getPubSubService():
-'''public BareJid getPubSubService()
-'''
-pass
+    '''    public BareJid getPubSubService()
+    '''
 def getDiscoverInfo():
-'''public DiscoverInfo getDiscoverInfo()
-'''
-pass
+    '''    public DiscoverInfo getDiscoverInfo()
+    '''

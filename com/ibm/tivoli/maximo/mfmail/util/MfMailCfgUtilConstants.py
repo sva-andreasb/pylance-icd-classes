@@ -1,4 +1,4 @@
-LOGGERNAME_MFMAIL_APP = "String  maximo.application.MFMAILCFG""
+LOGGERNAME_MFMAIL_APP = "String  \"maximo.application.MFMAILCFG\""
 ACT_POSTIIVE = "int  1"
 ACT_NEGATIVE = "int  2"
 ACT_POSTIVE_COND = "int  11"

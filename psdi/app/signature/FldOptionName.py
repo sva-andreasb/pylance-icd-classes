@@ -1,8 +1,6 @@
 def FldOptionName():
-'''public FldOptionName(final MboValue mbv)
-'''
-pass
+    '''    public FldOptionName(final MboValue mbv)
+    '''
 def getListCriteria():
-'''public String getListCriteria()
-'''
-pass
+    '''    public String getListCriteria()
+    '''

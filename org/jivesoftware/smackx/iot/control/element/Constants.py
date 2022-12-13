@@ -1,1 +1,1 @@
-IOT_CONTROL_NAMESPACE = "String  urn:xmpp:iot:control""
+IOT_CONTROL_NAMESPACE = "String  \"urn:xmpp:iot:control\""

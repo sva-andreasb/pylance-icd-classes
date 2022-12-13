@@ -1,20 +1,15 @@
 def getType():
-'''public JavaType getType()
-'''
-pass
+    '''    public JavaType getType()
+    '''
 def isNonStaticInnerClass():
-'''public boolean isNonStaticInnerClass()
-'''
-pass
+    '''    public boolean isNonStaticInnerClass()
+    '''
 def findAnySetter():
-'''public AnnotatedMethod findAnySetter()
-'''
-pass
+    '''    public AnnotatedMethod findAnySetter()
+    '''
 def findAnySetterField():
-'''public AnnotatedMember findAnySetterField()
-'''
-pass
+    '''    public AnnotatedMember findAnySetterField()
+    '''
 def findClassDescription():
-'''public String findClassDescription()
-'''
-pass
+    '''    public String findClassDescription()
+    '''

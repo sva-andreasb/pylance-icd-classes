@@ -1,4 +1,3 @@
 def RfcAssertionValue():
-'''public RfcAssertionValue(final byte[] array)
-'''
-pass
+    '''    public RfcAssertionValue(final byte[] array)
+    '''

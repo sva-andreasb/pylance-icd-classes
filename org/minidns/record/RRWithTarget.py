@@ -1,12 +1,9 @@
 def serialize():
-'''public void serialize(final DataOutputStream dos)
-'''
-pass
+    '''    public void serialize(final DataOutputStream dos)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getTarget():
-'''public final DnsName getTarget()
-'''
-pass
+    '''    public final DnsName getTarget()
+    '''

@@ -1,37 +1,28 @@
 def setEnabledPerDefault():
-'''public static void setEnabledPerDefault(final boolean enabledPerDefault)
-'''
-pass
+    '''    public static void setEnabledPerDefault(final boolean enabledPerDefault)
+    '''
 def getInstanceFor():
-'''public static synchronized LastActivityManager getInstanceFor(final XMPPConnection connection)
-'''
-pass
+    '''    public static synchronized LastActivityManager getInstanceFor(final XMPPConnection connection)
+    '''
 def processStanza():
-'''public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-'''
-pass
+    '''    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    '''
 def handleIQRequest():
-'''public IQ handleIQRequest(final IQ iqRequest)
-'''
-pass
+    '''    public IQ handleIQRequest(final IQ iqRequest)
+    '''
 def enable():
-'''public synchronized void enable()
-'''
-pass
+    '''    public synchronized void enable()
+    '''
 def disable():
-'''public synchronized void disable()
-'''
-pass
+    '''    public synchronized void disable()
+    '''
 def getLastActivity():
-'''public LastActivity getLastActivity(final Jid jid)
-'''
-pass
+    '''    public LastActivity getLastActivity(final Jid jid)
+    '''
 def isLastActivitySupported():
-'''public boolean isLastActivitySupported(final Jid jid)
-'''
-pass
+    '''    public boolean isLastActivitySupported(final Jid jid)
+    '''
 def connectionCreated():
-'''public void connectionCreated(final XMPPConnection connection)
-'''
-pass
+    '''    public void connectionCreated(final XMPPConnection connection)
+    '''

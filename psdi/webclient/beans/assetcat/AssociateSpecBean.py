@@ -1,12 +1,9 @@
 def AssociateSpecBean():
-'''public AssociateSpecBean()
-'''
-pass
+    '''    public AssociateSpecBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

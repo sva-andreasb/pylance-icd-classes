@@ -1,8 +1,6 @@
 def MaxIntPolicyParam():
-'''public MaxIntPolicyParam(final MboSet ms)
-'''
-pass
+    '''    public MaxIntPolicyParam(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,8 +1,6 @@
 def DMCommtmpltProcess():
-'''public DMCommtmpltProcess()
-'''
-pass
+    '''    public DMCommtmpltProcess()
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''

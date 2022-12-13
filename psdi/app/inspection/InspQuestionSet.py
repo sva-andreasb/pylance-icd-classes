@@ -1,4 +1,3 @@
 def InspQuestionSet():
-'''public InspQuestionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspQuestionSet(final MboServerInterface ms)
+    '''

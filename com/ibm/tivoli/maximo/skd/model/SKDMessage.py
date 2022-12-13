@@ -1,68 +1,51 @@
 def SKDMessage():
-'''public SKDMessage()
-'''
-pass
+    '''    public SKDMessage()
+    '''
 def getMessageKey():
-'''public String getMessageKey()
-'''
-pass
+    '''    public String getMessageKey()
+    '''
 def setMessageKey():
-'''public void setMessageKey(final String messageKey)
-'''
-pass
+    '''    public void setMessageKey(final String messageKey)
+    '''
 def getMessageValue():
-'''public String getMessageValue()
-'''
-pass
+    '''    public String getMessageValue()
+    '''
 def setMessageValue():
-'''public void setMessageValue(final String value)
-'''
-pass
+    '''    public void setMessageValue(final String value)
+    '''
 def getTaggedMessageValue():
-'''public String getTaggedMessageValue()
-'''
-pass
+    '''    public String getTaggedMessageValue()
+    '''
 def setTaggedMessageValue():
-'''public void setTaggedMessageValue(final String value)
-'''
-pass
+    '''    public void setTaggedMessageValue(final String value)
+    '''
 def getButtonText():
-'''public String getButtonText()
-'''
-pass
+    '''    public String getButtonText()
+    '''
 def setButtonText():
-'''public void setButtonText(final String buttonText)
-'''
-pass
+    '''    public void setButtonText(final String buttonText)
+    '''
 def getMessageId():
-'''public String getMessageId()
-'''
-pass
+    '''    public String getMessageId()
+    '''
 def setMessageId():
-'''public void setMessageId(final String id)
-'''
-pass
+    '''    public void setMessageId(final String id)
+    '''
 def getDisplayMethod():
-'''public String getDisplayMethod()
-'''
-pass
+    '''    public String getDisplayMethod()
+    '''
 def setDisplayMethod():
-'''public void setDisplayMethod(final String displayMethod)
-'''
-pass
+    '''    public void setDisplayMethod(final String displayMethod)
+    '''
 def getOptions():
-'''public int getOptions()
-'''
-pass
+    '''    public int getOptions()
+    '''
 def setOptions():
-'''public void setOptions(final int options)
-'''
-pass
+    '''    public void setOptions(final int options)
+    '''
 def getMessagePrefix():
-'''public Boolean getMessagePrefix()
-'''
-pass
+    '''    public Boolean getMessagePrefix()
+    '''
 def setMessagePrefix():
-'''public void setMessagePrefix(final Boolean messagePrefix)
-'''
-pass
+    '''    public void setMessagePrefix(final Boolean messagePrefix)
+    '''

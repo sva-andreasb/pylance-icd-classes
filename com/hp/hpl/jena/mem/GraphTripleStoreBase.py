@@ -1,52 +1,39 @@
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def add():
-'''public void add(final Triple t)
-'''
-pass
+    '''    public void add(final Triple t)
+    '''
 def delete():
-'''public void delete(final Triple t)
-'''
-pass
+    '''    public void delete(final Triple t)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def listSubjects():
-'''public ExtendedIterator<Node> listSubjects()
-'''
-pass
+    '''    public ExtendedIterator<Node> listSubjects()
+    '''
 def listPredicates():
-'''public ExtendedIterator<Node> listPredicates()
-'''
-pass
+    '''    public ExtendedIterator<Node> listPredicates()
+    '''
 def listObjects():
-'''public ExtendedIterator<Node> listObjects()
-'''
-pass
+    '''    public ExtendedIterator<Node> listObjects()
+    '''
 def contains():
-'''public boolean contains(final Triple t)
-'''
-pass
+    '''    public boolean contains(final Triple t)
+    '''
 def containsByEquality():
-'''public boolean containsByEquality(final Triple t)
-'''
-pass
+    '''    public boolean containsByEquality(final Triple t)
+    '''
 def find():
-'''public ExtendedIterator<Triple> find(final TripleMatch tm)
-'''
-pass
+    '''    public ExtendedIterator<Triple> find(final TripleMatch tm)
+    '''
 def map1():
-'''public Node map1(final Object o)
-'''
-pass
+    '''    public Node map1(final Object o)
+    '''

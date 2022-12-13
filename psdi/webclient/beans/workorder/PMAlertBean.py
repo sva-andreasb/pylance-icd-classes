@@ -1,4 +1,3 @@
 def doWork():
-'''public int doWork()
-'''
-pass
+    '''    public int doWork()
+    '''

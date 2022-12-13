@@ -1,12 +1,9 @@
 def PacketIDFilter():
-'''public PacketIDFilter(final String packetID)
-'''
-pass
+    '''    public PacketIDFilter(final String packetID)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

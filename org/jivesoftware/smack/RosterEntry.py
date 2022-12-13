@@ -1,28 +1,21 @@
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getGroups():
-'''public Collection<RosterGroup> getGroups()
-'''
-pass
+    '''    public Collection<RosterGroup> getGroups()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def equalsDeep():
-'''public boolean equalsDeep(final Object obj)
-'''
-pass
+    '''    public boolean equalsDeep(final Object obj)
+    '''

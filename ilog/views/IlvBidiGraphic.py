@@ -1,27 +1,21 @@
 def IlvBidiGraphic():
-'''public IlvBidiGraphic()
-public IlvBidiGraphic(final IlvBidiGraphic ilvBidiGraphic)
-public IlvBidiGraphic(final IlvInputStream ilvInputStream)
-'''
-pass
+    '''    public IlvBidiGraphic()
+    public IlvBidiGraphic(final IlvBidiGraphic ilvBidiGraphic)
+    public IlvBidiGraphic(final IlvInputStream ilvInputStream)
+    '''
 def getULocale():
-'''public ULocale getULocale()
-'''
-pass
+    '''    public ULocale getULocale()
+    '''
 def getComponentOrientation():
-'''public ComponentOrientation getComponentOrientation()
-'''
-pass
+    '''    public ComponentOrientation getComponentOrientation()
+    '''
 def setBaseTextDirection():
-'''public void setBaseTextDirection(final int n)
-public void setBaseTextDirection(final int n, final boolean b)
-'''
-pass
+    '''    public void setBaseTextDirection(final int n)
+    public void setBaseTextDirection(final int n, final boolean b)
+    '''
 def getBaseTextDirection():
-'''public int getBaseTextDirection()
-'''
-pass
+    '''    public int getBaseTextDirection()
+    '''
 def getResolvedBaseTextDirection():
-'''public int getResolvedBaseTextDirection()
-'''
-pass
+    '''    public int getResolvedBaseTextDirection()
+    '''

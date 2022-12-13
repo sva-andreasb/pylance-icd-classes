@@ -1,20 +1,15 @@
 def MaximoSwingLookAndFeel():
-'''public MaximoSwingLookAndFeel()
-'''
-pass
+    '''    public MaximoSwingLookAndFeel()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getTitledBorder():
-'''public TitledBorder getTitledBorder(final String title)
-'''
-pass
+    '''    public TitledBorder getTitledBorder(final String title)
+    '''

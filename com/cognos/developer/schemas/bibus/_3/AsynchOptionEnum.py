@@ -1,49 +1,39 @@
-_alwaysIncludePrimaryRequest = "String  alwaysIncludePrimaryRequest""
-_attachmentEncoding = "String  attachmentEncoding""
-_continueOnError = "String  continueOnError""
-_historyLocation = "String  historyLocation""
-_primaryWaitThreshold = "String  primaryWaitThreshold""
-_restartHistoryLocation = "String  restartHistoryLocation""
-_runContext = "String  runContext""
-_secondaryWaitThreshold = "String  secondaryWaitThreshold""
-_skipTaskHistoryLocations = "String  skipTaskHistoryLocations""
+_alwaysIncludePrimaryRequest = "String  \"alwaysIncludePrimaryRequest\""
+_attachmentEncoding = "String  \"attachmentEncoding\""
+_continueOnError = "String  \"continueOnError\""
+_historyLocation = "String  \"historyLocation\""
+_primaryWaitThreshold = "String  \"primaryWaitThreshold\""
+_restartHistoryLocation = "String  \"restartHistoryLocation\""
+_runContext = "String  \"runContext\""
+_secondaryWaitThreshold = "String  \"secondaryWaitThreshold\""
+_skipTaskHistoryLocations = "String  \"skipTaskHistoryLocations\""
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def fromValue():
-'''public static AsynchOptionEnum fromValue(final String value)
-'''
-pass
+    '''    public static AsynchOptionEnum fromValue(final String value)
+    '''
 def fromString():
-'''public static AsynchOptionEnum fromString(final String value)
-'''
-pass
+    '''    public static AsynchOptionEnum fromString(final String value)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def readResolve():
-'''public Object readResolve()
-'''
-pass
+    '''    public Object readResolve()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''

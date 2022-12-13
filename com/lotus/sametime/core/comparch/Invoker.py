@@ -1,13 +1,10 @@
 def processSTEvent():
-'''public void processSTEvent(final STEvent stEvent)
-'''
-pass
+    '''    public void processSTEvent(final STEvent stEvent)
+    '''
 def invokeLater():
-'''public void invokeLater(final Runnable runnable)
-public void invokeLater(final Runnable runnable, final long n)
-'''
-pass
+    '''    public void invokeLater(final Runnable runnable)
+    public void invokeLater(final Runnable runnable, final long n)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

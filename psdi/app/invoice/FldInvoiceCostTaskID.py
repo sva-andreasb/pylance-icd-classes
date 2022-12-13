@@ -1,8 +1,6 @@
 def FldInvoiceCostTaskID():
-'''public FldInvoiceCostTaskID(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceCostTaskID(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,20 +1,15 @@
 def ParameterBuilder():
-'''public ParameterBuilder()
-'''
-pass
+    '''    public ParameterBuilder()
+    '''
 def factories():
-'''public ParameterBuilder factories(final List<ParameterFactory<?>> factories)
-'''
-pass
+    '''    public ParameterBuilder factories(final List<ParameterFactory<?>> factories)
+    '''
 def name():
-'''public ParameterBuilder name(final String name)
-'''
-pass
+    '''    public ParameterBuilder name(final String name)
+    '''
 def value():
-'''public ParameterBuilder value(final String value)
-'''
-pass
+    '''    public ParameterBuilder value(final String value)
+    '''
 def build():
-'''public Parameter build()
-'''
-pass
+    '''    public Parameter build()
+    '''

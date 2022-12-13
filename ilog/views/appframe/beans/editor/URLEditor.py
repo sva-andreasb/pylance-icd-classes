@@ -1,113 +1,85 @@
 def URLEditor():
-'''public URLEditor()
-'''
-pass
+    '''    public URLEditor()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def focusLost():
-'''public void focusLost(final FocusEvent focusEvent)
-'''
-pass
+    '''    public void focusLost(final FocusEvent focusEvent)
+    '''
 def selectURL():
-'''public boolean selectURL(final String s, final String directory, final String file)
-public boolean selectURL()
-'''
-pass
+    '''    public boolean selectURL(final String s, final String directory, final String file)
+    public boolean selectURL()
+    '''
 def setValue():
-'''public void setValue(final Object o)
-'''
-pass
+    '''    public void setValue(final Object o)
+    '''
 def setURL():
-'''public void setURL(final URL currentValue)
-'''
-pass
+    '''    public void setURL(final URL currentValue)
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def isPaintable():
-'''public boolean isPaintable()
-'''
-pass
+    '''    public boolean isPaintable()
+    '''
 def paintValue():
-'''public void paintValue(final Graphics graphics, final Rectangle rectangle)
-'''
-pass
+    '''    public void paintValue(final Graphics graphics, final Rectangle rectangle)
+    '''
 def getJavaInitializationString():
-'''public String getJavaInitializationString()
-'''
-pass
+    '''    public String getJavaInitializationString()
+    '''
 def getAsText():
-'''public String getAsText()
-'''
-pass
+    '''    public String getAsText()
+    '''
 def setAsText():
-'''public void setAsText(final String spec)
-'''
-pass
+    '''    public void setAsText(final String spec)
+    '''
 def getTags():
-'''public String[] getTags()
-'''
-pass
+    '''    public String[] getTags()
+    '''
 def firePropertyChange():
-'''public void firePropertyChange(final URL oldValue, final URL newValue)
-'''
-pass
+    '''    public void firePropertyChange(final URL oldValue, final URL newValue)
+    '''
 def getCustomEditor():
-'''public Component getCustomEditor()
-'''
-pass
+    '''    public Component getCustomEditor()
+    '''
 def supportsCustomEditor():
-'''public boolean supportsCustomEditor()
-'''
-pass
+    '''    public boolean supportsCustomEditor()
+    '''
 def addPropertyChangeListener():
-'''public void addPropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def removePropertyChangeListener():
-'''public void removePropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def setApplication():
-'''public void setApplication(final IlvApplication application)
-'''
-pass
+    '''    public void setApplication(final IlvApplication application)
+    '''
 def getApplication():
-'''public IlvApplication getApplication()
-'''
-pass
+    '''    public IlvApplication getApplication()
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String text)
-'''
-pass
+    '''    public void setLabel(final String text)
+    '''
 def getFileDialogButton():
-'''public JButton getFileDialogButton()
-'''
-pass
+    '''    public JButton getFileDialogButton()
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean b)
-'''
-pass
+    '''    public void setEnabled(final boolean b)
+    '''
 def getTextField():
-'''public JTextField getTextField()
-'''
-pass
+    '''    public JTextField getTextField()
+    '''
 def setURLResolver():
-'''public void setURLResolver(final IlvURLResolver urlResolver)
-'''
-pass
+    '''    public void setURLResolver(final IlvURLResolver urlResolver)
+    '''
 def getURLResolver():
-'''public IlvURLResolver getURLResolver()
-'''
-pass
+    '''    public IlvURLResolver getURLResolver()
+    '''

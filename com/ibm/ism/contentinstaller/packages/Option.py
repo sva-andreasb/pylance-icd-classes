@@ -1,29 +1,22 @@
 def Option():
-'''public Option(final String name, final String value)
-'''
-pass
+    '''    public Option(final String name, final String value)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getBoolean():
-'''public boolean getBoolean()
-'''
-pass
+    '''    public boolean getBoolean()
+    '''
 def setValue():
-'''public void setValue(final boolean value)
-public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final boolean value)
+    public void setValue(final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

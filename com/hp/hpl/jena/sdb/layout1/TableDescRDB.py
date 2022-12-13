@@ -1,12 +1,9 @@
 def name():
-'''public static String name()
-'''
-pass
+    '''    public static String name()
+    '''
 def TableDescRDB():
-'''public TableDescRDB()
-'''
-pass
+    '''    public TableDescRDB()
+    '''
 def getGraphColName():
-'''public String getGraphColName()
-'''
-pass
+    '''    public String getGraphColName()
+    '''

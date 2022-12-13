@@ -1,8 +1,6 @@
 def FldAssignCraftRateVendor():
-'''public FldAssignCraftRateVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignCraftRateVendor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

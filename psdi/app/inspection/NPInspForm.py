@@ -1,8 +1,6 @@
 def NPInspForm():
-'''public NPInspForm(final MboSet ms)
-'''
-pass
+    '''    public NPInspForm(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

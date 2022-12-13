@@ -1,8 +1,6 @@
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

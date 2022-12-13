@@ -1,83 +1,63 @@
 def LDAPAttributeSet():
-'''public LDAPAttributeSet()
-'''
-pass
+    '''    public LDAPAttributeSet()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getAttribute():
-'''public LDAPAttribute getAttribute(final String s)
-public LDAPAttribute getAttribute(final String s, final String str)
-'''
-pass
+    '''    public LDAPAttribute getAttribute(final String s)
+    public LDAPAttribute getAttribute(final String s, final String str)
+    '''
 def getSubset():
-'''public LDAPAttributeSet getSubset(final String s)
-'''
-pass
+    '''    public LDAPAttributeSet getSubset(final String s)
+    '''
 def add():
-'''public boolean add(final Object o)
-'''
-pass
+    '''    public boolean add(final Object o)
+    '''
 def addAll():
-'''public boolean addAll(final Collection collection)
-'''
-pass
+    '''    public boolean addAll(final Collection collection)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection collection)
-'''
-pass
+    '''    public boolean containsAll(final Collection collection)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def remove():
-'''public boolean remove(final Object o)
-public void remove()
-'''
-pass
+    '''    public boolean remove(final Object o)
+    public void remove()
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection collection)
-'''
-pass
+    '''    public boolean removeAll(final Collection collection)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection collection)
-'''
-pass
+    '''    public boolean retainAll(final Collection collection)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def toArray():
-'''public Object[] toArray()
-public Object[] toArray(final Object[] array)
-'''
-pass
+    '''    public Object[] toArray()
+    public Object[] toArray(final Object[] array)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

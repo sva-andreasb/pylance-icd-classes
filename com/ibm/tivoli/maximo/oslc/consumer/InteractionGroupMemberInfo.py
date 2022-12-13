@@ -1,28 +1,21 @@
 def InteractionGroupMemberInfo():
-'''public InteractionGroupMemberInfo(final String providerName, final String interactionName, final String conditionNum, final int sequence, final int ignoreOnError)
-'''
-pass
+    '''    public InteractionGroupMemberInfo(final String providerName, final String interactionName, final String conditionNum, final int sequence, final int ignoreOnError)
+    '''
 def getInteractionName():
-'''public String getInteractionName()
-'''
-pass
+    '''    public String getInteractionName()
+    '''
 def getProviderName():
-'''public String getProviderName()
-'''
-pass
+    '''    public String getProviderName()
+    '''
 def getConditionNum():
-'''public String getConditionNum()
-'''
-pass
+    '''    public String getConditionNum()
+    '''
 def getSequence():
-'''public int getSequence()
-'''
-pass
+    '''    public int getSequence()
+    '''
 def getIgnoreOnError():
-'''public int getIgnoreOnError()
-'''
-pass
+    '''    public int getIgnoreOnError()
+    '''
 def ignoreOnError():
-'''public boolean ignoreOnError()
-'''
-pass
+    '''    public boolean ignoreOnError()
+    '''

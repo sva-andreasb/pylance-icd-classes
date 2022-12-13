@@ -1,8 +1,6 @@
 def DepSchedHistorySet():
-'''public DepSchedHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public DepSchedHistorySet(final MboServerInterface ms)
+    '''
 def createDepSchedHistory():
-'''public DepSchedHistoryRemote createDepSchedHistory(final DepSchedRemote depSched, final String historyType)
-'''
-pass
+    '''    public DepSchedHistoryRemote createDepSchedHistory(final DepSchedRemote depSched, final String historyType)
+    '''

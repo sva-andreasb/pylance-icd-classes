@@ -1,4 +1,3 @@
 def getBundle():
-'''public static synchronized STResourceBundle getBundle(final String s, final Locale locale, final String s2)
-'''
-pass
+    '''    public static synchronized STResourceBundle getBundle(final String s, final Locale locale, final String s2)
+    '''

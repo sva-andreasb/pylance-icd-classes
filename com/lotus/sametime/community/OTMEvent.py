@@ -3,34 +3,26 @@ OTM_DENY = "int  2"
 OTM_RECIEVED = "int  -2147483647"
 OTM_DENIED = "int  -2147483646"
 def getReqId():
-'''public Integer getReqId()
-'''
-pass
+    '''    public Integer getReqId()
+    '''
 def getPartyId():
-'''public STId getPartyId()
-'''
-pass
+    '''    public STId getPartyId()
+    '''
 def getServiceType():
-'''public int getServiceType()
-'''
-pass
+    '''    public int getServiceType()
+    '''
 def getPrType():
-'''public int getPrType()
-'''
-pass
+    '''    public int getPrType()
+    '''
 def getPrVersion():
-'''public int getPrVersion()
-'''
-pass
+    '''    public int getPrVersion()
+    '''
 def getMsgType():
-'''public short getMsgType()
-'''
-pass
+    '''    public short getMsgType()
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def getReason():
-'''public int getReason()
-'''
-pass
+    '''    public int getReason()
+    '''

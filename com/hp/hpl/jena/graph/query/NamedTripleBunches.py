@@ -1,9 +1,7 @@
-anon = "String  <this>""
+anon = "String  \"<this>\""
 def NamedTripleBunches():
-'''public NamedTripleBunches()
-'''
-pass
+    '''    public NamedTripleBunches()
+    '''
 def add():
-'''public void add(final String name, final Triple pattern)
-'''
-pass
+    '''    public void add(final String name, final Triple pattern)
+    '''

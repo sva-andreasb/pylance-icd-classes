@@ -1,96 +1,73 @@
 def JHelpContentViewer():
-'''public JHelpContentViewer(final HelpSet set)
-public JHelpContentViewer()
-public JHelpContentViewer(final TextHelpModel model)
-'''
-pass
+    '''    public JHelpContentViewer(final HelpSet set)
+    public JHelpContentViewer()
+    public JHelpContentViewer(final TextHelpModel model)
+    '''
 def setModel():
-'''public void setModel(final TextHelpModel textHelpModel)
-'''
-pass
+    '''    public void setModel(final TextHelpModel textHelpModel)
+    '''
 def getModel():
-'''public TextHelpModel getModel()
-'''
-pass
+    '''    public TextHelpModel getModel()
+    '''
 def setUI():
-'''public void setUI(final HelpContentViewerUI ui)
-'''
-pass
+    '''    public void setUI(final HelpContentViewerUI ui)
+    '''
 def getUI():
-'''public HelpContentViewerUI getUI()
-'''
-pass
+    '''    public HelpContentViewerUI getUI()
+    '''
 def updateUI():
-'''public void updateUI()
-'''
-pass
+    '''    public void updateUI()
+    '''
 def getUIClassID():
-'''public String getUIClassID()
-'''
-pass
+    '''    public String getUIClassID()
+    '''
 def setCurrentID():
-'''public void setCurrentID(final Map.ID currentID)
-public void setCurrentID(final String s)
-'''
-pass
+    '''    public void setCurrentID(final Map.ID currentID)
+    public void setCurrentID(final String s)
+    '''
 def setCurrentURL():
-'''public void setCurrentURL(final URL currentURL)
-'''
-pass
+    '''    public void setCurrentURL(final URL currentURL)
+    '''
 def getCurrentURL():
-'''public URL getCurrentURL()
-'''
-pass
+    '''    public URL getCurrentURL()
+    '''
 def getDocumentTitle():
-'''public String getDocumentTitle()
-'''
-pass
+    '''    public String getDocumentTitle()
+    '''
 def addHighlight():
-'''public void addHighlight(final int n, final int n2)
-'''
-pass
+    '''    public void addHighlight(final int n, final int n2)
+    '''
 def removeAllHighlights():
-'''public void removeAllHighlights()
-'''
-pass
+    '''    public void removeAllHighlights()
+    '''
 def setSynch():
-'''public void setSynch(final boolean synch)
-'''
-pass
+    '''    public void setSynch(final boolean synch)
+    '''
 def getSynch():
-'''public boolean getSynch()
-'''
-pass
+    '''    public boolean getSynch()
+    '''
 def createEditorKitForContentType():
-'''public EditorKit createEditorKitForContentType(final String type)
-'''
-pass
+    '''    public EditorKit createEditorKitForContentType(final String type)
+    '''
 def addTextHelpModelListener():
-'''public void addTextHelpModelListener(final TextHelpModelListener textHelpModelListener)
-'''
-pass
+    '''    public void addTextHelpModelListener(final TextHelpModelListener textHelpModelListener)
+    '''
 def removeHelpModelListener():
-'''public void removeHelpModelListener(final TextHelpModelListener textHelpModelListener)
-public void removeHelpModelListener(final HelpModelListener helpModelListener)
-'''
-pass
+    '''    public void removeHelpModelListener(final TextHelpModelListener textHelpModelListener)
+    public void removeHelpModelListener(final HelpModelListener helpModelListener)
+    '''
 def addHelpModelListener():
-'''public void addHelpModelListener(final HelpModelListener helpModelListener)
-'''
-pass
+    '''    public void addHelpModelListener(final HelpModelListener helpModelListener)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def reload():
-'''public void reload()
-'''
-pass
+    '''    public void reload()
+    '''
 def getAccessibleContext():
-'''public AccessibleContext getAccessibleContext()
-'''
-pass
+    '''    public AccessibleContext getAccessibleContext()
+    '''
 def getAccessibleRole():
-'''public AccessibleRole getAccessibleRole()
-'''
-pass
+    '''    public AccessibleRole getAccessibleRole()
+    '''

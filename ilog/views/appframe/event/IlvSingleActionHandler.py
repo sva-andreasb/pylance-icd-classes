@@ -1,28 +1,21 @@
 def IlvSingleActionHandler():
-'''public IlvSingleActionHandler(final String command)
-'''
-pass
+    '''    public IlvSingleActionHandler(final String command)
+    '''
 def getCommand():
-'''public String getCommand()
-'''
-pass
+    '''    public String getCommand()
+    '''
 def setCommand():
-'''public void setCommand(final String a)
-'''
-pass
+    '''    public void setCommand(final String a)
+    '''
 def isProcessingAction():
-'''public boolean isProcessingAction(final String anObject)
-'''
-pass
+    '''    public boolean isProcessingAction(final String anObject)
+    '''
 def updateAction():
-'''public boolean updateAction(final Action action)
-'''
-pass
+    '''    public boolean updateAction(final Action action)
+    '''
 def getAction():
-'''public Action getAction()
-'''
-pass
+    '''    public Action getAction()
+    '''
 def setAction():
-'''public void setAction(final Action b)
-'''
-pass
+    '''    public void setAction(final Action b)
+    '''

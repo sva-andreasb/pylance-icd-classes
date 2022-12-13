@@ -1,29 +1,22 @@
 def BusResourceCollection():
-'''public BusResourceCollection(final String uri)
-public BusResourceCollection()
-'''
-pass
+    '''    public BusResourceCollection(final String uri)
+    public BusResourceCollection()
+    '''
 def addResource():
-'''public void addResource(final BusResource res)
-'''
-pass
+    '''    public void addResource(final BusResource res)
+    '''
 def getMembers():
-'''public List<BusResource> getMembers()
-'''
-pass
+    '''    public List<BusResource> getMembers()
+    '''
 def setNextPageURI():
-'''public void setNextPageURI(final String uri)
-'''
-pass
+    '''    public void setNextPageURI(final String uri)
+    '''
 def getNextPageURI():
-'''public String getNextPageURI()
-'''
-pass
+    '''    public String getNextPageURI()
+    '''
 def setTotalCount():
-'''public void setTotalCount(final int totalCount)
-'''
-pass
+    '''    public void setTotalCount(final int totalCount)
+    '''
 def getTotalCount():
-'''public int getTotalCount()
-'''
-pass
+    '''    public int getTotalCount()
+    '''

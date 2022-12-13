@@ -1,36 +1,27 @@
 def InteractionGroupAppsInfo():
-'''public InteractionGroupAppsInfo(final String appName, final String appObject, final String relation, final String mapOption, final String tabName, final String buttonId)
-'''
-pass
+    '''    public InteractionGroupAppsInfo(final String appName, final String appObject, final String relation, final String mapOption, final String tabName, final String buttonId)
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def getTabName():
-'''public String getTabName()
-'''
-pass
+    '''    public String getTabName()
+    '''
 def getButtonId():
-'''public String getButtonId()
-'''
-pass
+    '''    public String getButtonId()
+    '''
 def getMapOption():
-'''public String getMapOption()
-'''
-pass
+    '''    public String getMapOption()
+    '''
 def getAppObject():
-'''public String getAppObject()
-'''
-pass
+    '''    public String getAppObject()
+    '''
 def getAppMenuList():
-'''public List<InteractionGroupAppMenuInfo> getAppMenuList()
-'''
-pass
+    '''    public List<InteractionGroupAppMenuInfo> getAppMenuList()
+    '''
 def setAppMenuList():
-'''public void setAppMenuList(final List<InteractionGroupAppMenuInfo> menuList)
-'''
-pass
+    '''    public void setAppMenuList(final List<InteractionGroupAppMenuInfo> menuList)
+    '''

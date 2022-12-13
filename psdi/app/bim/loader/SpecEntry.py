@@ -1,20 +1,15 @@
 def getAssetAttridId():
-'''public String getAssetAttridId()
-'''
-pass
+    '''    public String getAssetAttridId()
+    '''
 def getDataType():
-'''public String getDataType()
-'''
-pass
+    '''    public String getDataType()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getOrgId():
-'''public String getOrgId()
-'''
-pass
+    '''    public String getOrgId()
+    '''
 def getSiteId():
-'''public String getSiteId()
-'''
-pass
+    '''    public String getSiteId()
+    '''

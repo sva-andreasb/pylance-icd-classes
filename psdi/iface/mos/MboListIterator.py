@@ -1,41 +1,31 @@
 def MboListIterator():
-'''public MboListIterator(final List<MboRemote> set)
-public MboListIterator(final List<MboRemote> set, final String name, final UserInfo userInfo)
-'''
-pass
+    '''    public MboListIterator(final List<MboRemote> set)
+    public MboListIterator(final List<MboRemote> set, final String name, final UserInfo userInfo)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def count():
-'''public int count()
-'''
-pass
+    '''    public int count()
+    '''
 def get():
-'''public MboRemote get(final int index)
-'''
-pass
+    '''    public MboRemote get(final int index)
+    '''
 def remove():
-'''public void remove(final int index)
-'''
-pass
+    '''    public void remove(final int index)
+    '''
 def setDiscardable():
-'''public void setDiscardable()
-'''
-pass
+    '''    public void setDiscardable()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def setSkipFirstNRows():
-'''public void setSkipFirstNRows(final int skipRows)
-'''
-pass
+    '''    public void setSkipFirstNRows(final int skipRows)
+    '''
 def canSkipRows():
-'''public boolean canSkipRows()
-'''
-pass
+    '''    public boolean canSkipRows()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

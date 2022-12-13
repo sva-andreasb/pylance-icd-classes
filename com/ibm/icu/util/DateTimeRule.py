@@ -1,45 +1,36 @@
-DOM = "int 0"
-DOW = "int 1"
-DOW_GEQ_DOM = "int 2"
-DOW_LEQ_DOM = "int 3"
-WALL_TIME = "int 0"
-STANDARD_TIME = "int 1"
-UTC_TIME = "int 2"
+DOM = "int  0"
+DOW = "int  1"
+DOW_GEQ_DOM = "int  2"
+DOW_LEQ_DOM = "int  3"
+WALL_TIME = "int  0"
+STANDARD_TIME = "int  1"
+UTC_TIME = "int  2"
 def DateTimeRule():
-'''public DateTimeRule(final int month, final int dayOfMonth, final int millisInDay, final int timeType)
-public DateTimeRule(final int month, final int weekInMonth, final int dayOfWeek, final int millisInDay, final int timeType)
-public DateTimeRule(final int month, final int dayOfMonth, final int dayOfWeek, final boolean after, final int millisInDay, final int timeType)
-'''
-pass
+    '''    public DateTimeRule(final int month, final int dayOfMonth, final int millisInDay, final int timeType)
+    public DateTimeRule(final int month, final int weekInMonth, final int dayOfWeek, final int millisInDay, final int timeType)
+    public DateTimeRule(final int month, final int dayOfMonth, final int dayOfWeek, final boolean after, final int millisInDay, final int timeType)
+    '''
 def getDateRuleType():
-'''public int getDateRuleType()
-'''
-pass
+    '''    public int getDateRuleType()
+    '''
 def getRuleMonth():
-'''public int getRuleMonth()
-'''
-pass
+    '''    public int getRuleMonth()
+    '''
 def getRuleDayOfMonth():
-'''public int getRuleDayOfMonth()
-'''
-pass
+    '''    public int getRuleDayOfMonth()
+    '''
 def getRuleDayOfWeek():
-'''public int getRuleDayOfWeek()
-'''
-pass
+    '''    public int getRuleDayOfWeek()
+    '''
 def getRuleWeekInMonth():
-'''public int getRuleWeekInMonth()
-'''
-pass
+    '''    public int getRuleWeekInMonth()
+    '''
 def getTimeRuleType():
-'''public int getTimeRuleType()
-'''
-pass
+    '''    public int getTimeRuleType()
+    '''
 def getRuleMillisInDay():
-'''public int getRuleMillisInDay()
-'''
-pass
+    '''    public int getRuleMillisInDay()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

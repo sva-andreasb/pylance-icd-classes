@@ -1,4 +1,3 @@
 def BIMAttributeMapEntrySet():
-'''public BIMAttributeMapEntrySet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMAttributeMapEntrySet(final MboServerInterface ms)
+    '''

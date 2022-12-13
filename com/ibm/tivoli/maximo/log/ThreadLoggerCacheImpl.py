@@ -1,21 +1,16 @@
 def ThreadLoggerCacheImpl():
-'''public ThreadLoggerCacheImpl()
-'''
-pass
+    '''    public ThreadLoggerCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getLogInfo():
-'''public LogInfo getLogInfo(final String key)
-'''
-pass
+    '''    public LogInfo getLogInfo(final String key)
+    '''

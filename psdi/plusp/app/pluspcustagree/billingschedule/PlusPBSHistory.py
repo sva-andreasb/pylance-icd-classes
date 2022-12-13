@@ -1,4 +1,3 @@
 def PlusPBSHistory():
-'''public PlusPBSHistory(final MboSet set)
-'''
-pass
+    '''    public PlusPBSHistory(final MboSet set)
+    '''

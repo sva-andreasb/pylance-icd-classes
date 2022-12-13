@@ -1,24 +1,18 @@
 def ConsultantInfo():
-'''public ConsultantInfo(final boolean delete, final int tenantId, final String tenantCode, final String userId, final boolean adToAdmin)
-'''
-pass
+    '''    public ConsultantInfo(final boolean delete, final int tenantId, final String tenantCode, final String userId, final boolean adToAdmin)
+    '''
 def getTenantid():
-'''public int getTenantid()
-'''
-pass
+    '''    public int getTenantid()
+    '''
 def getUserid():
-'''public String getUserid()
-'''
-pass
+    '''    public String getUserid()
+    '''
 def getTenantCode():
-'''public String getTenantCode()
-'''
-pass
+    '''    public String getTenantCode()
+    '''
 def isDeleted():
-'''public boolean isDeleted()
-'''
-pass
+    '''    public boolean isDeleted()
+    '''
 def addToAdmin():
-'''public boolean addToAdmin()
-'''
-pass
+    '''    public boolean addToAdmin()
+    '''

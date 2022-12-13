@@ -1,8 +1,6 @@
 def getReader():
-'''public XMLStreamReader getReader()
-'''
-pass
+    '''    public XMLStreamReader getReader()
+    '''
 def getMimePartProvider():
-'''public MimePartProvider getMimePartProvider()
-'''
-pass
+    '''    public MimePartProvider getMimePartProvider()
+    '''

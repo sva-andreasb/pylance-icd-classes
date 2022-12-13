@@ -1,8 +1,6 @@
 def FldJobMaterialItemQty():
-'''public FldJobMaterialItemQty(final MboValue mbv)
-'''
-pass
+    '''    public FldJobMaterialItemQty(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def JPFromWOInput():
-'''public JPFromWOInput(final MboSet ms)
-'''
-pass
+    '''    public JPFromWOInput(final MboSet ms)
+    '''
 def setJPAutoKey():
-'''public void setJPAutoKey()
-'''
-pass
+    '''    public void setJPAutoKey()
+    '''

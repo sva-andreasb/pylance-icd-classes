@@ -1,16 +1,12 @@
 def PlusPFldRouteStopJPNum():
-'''public PlusPFldRouteStopJPNum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldRouteStopJPNum(final MboValue arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,117 +1,89 @@
 def parentContainer():
-'''public JClassContainer parentContainer()
-'''
-pass
+    '''    public JClassContainer parentContainer()
+    '''
 def parent():
-'''public JPackage parent()
-'''
-pass
+    '''    public JPackage parent()
+    '''
 def isClass():
-'''public boolean isClass()
-'''
-pass
+    '''    public boolean isClass()
+    '''
 def isPackage():
-'''public boolean isPackage()
-'''
-pass
+    '''    public boolean isPackage()
+    '''
 def getPackage():
-'''public JPackage getPackage()
-'''
-pass
+    '''    public JPackage getPackage()
+    '''
 def _class():
-'''public JDefinedClass _class(final int mods, final String name)
-public JDefinedClass _class(final int mods, final String name, final boolean isInterface)
-public JDefinedClass _class(final int mods, final String name, final ClassType classTypeVal)
-public JDefinedClass _class(final String name)
-'''
-pass
+    '''    public JDefinedClass _class(final int mods, final String name)
+    public JDefinedClass _class(final int mods, final String name, final boolean isInterface)
+    public JDefinedClass _class(final int mods, final String name, final ClassType classTypeVal)
+    public JDefinedClass _class(final String name)
+    '''
 def _getClass():
-'''public JDefinedClass _getClass(final String name)
-'''
-pass
+    '''    public JDefinedClass _getClass(final String name)
+    '''
 def compareTo():
-'''public int compareTo(final JPackage that)
-'''
-pass
+    '''    public int compareTo(final JPackage that)
+    '''
 def _interface():
-'''public JDefinedClass _interface(final int mods, final String name)
-public JDefinedClass _interface(final String name)
-'''
-pass
+    '''    public JDefinedClass _interface(final int mods, final String name)
+    public JDefinedClass _interface(final String name)
+    '''
 def _annotationTypeDeclaration():
-'''public JDefinedClass _annotationTypeDeclaration(final String name)
-'''
-pass
+    '''    public JDefinedClass _annotationTypeDeclaration(final String name)
+    '''
 def _enum():
-'''public JDefinedClass _enum(final String name)
-'''
-pass
+    '''    public JDefinedClass _enum(final String name)
+    '''
 def addResourceFile():
-'''public JResourceFile addResourceFile(final JResourceFile rsrc)
-'''
-pass
+    '''    public JResourceFile addResourceFile(final JResourceFile rsrc)
+    '''
 def hasResourceFile():
-'''public boolean hasResourceFile(final String name)
-'''
-pass
+    '''    public boolean hasResourceFile(final String name)
+    '''
 def propertyFiles():
-'''public Iterator<JResourceFile> propertyFiles()
-'''
-pass
+    '''    public Iterator<JResourceFile> propertyFiles()
+    '''
 def javadoc():
-'''public JDocComment javadoc()
-'''
-pass
+    '''    public JDocComment javadoc()
+    '''
 def remove():
-'''public void remove(final JClass c)
-'''
-pass
+    '''    public void remove(final JClass c)
+    '''
 def ref():
-'''public JClass ref(final String name)
-'''
-pass
+    '''    public JClass ref(final String name)
+    '''
 def subPackage():
-'''public JPackage subPackage(final String pkg)
-'''
-pass
+    '''    public JPackage subPackage(final String pkg)
+    '''
 def classes():
-'''public Iterator<JDefinedClass> classes()
-'''
-pass
+    '''    public Iterator<JDefinedClass> classes()
+    '''
 def isDefined():
-'''public boolean isDefined(final String classLocalName)
-'''
-pass
+    '''    public boolean isDefined(final String classLocalName)
+    '''
 def isUnnamed():
-'''public final boolean isUnnamed()
-'''
-pass
+    '''    public final boolean isUnnamed()
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def owner():
-'''public final JCodeModel owner()
-'''
-pass
+    '''    public final JCodeModel owner()
+    '''
 def annotate():
-'''public JAnnotationUse annotate(final JClass clazz)
-public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-'''
-pass
+    '''    public JAnnotationUse annotate(final JClass clazz)
+    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
+    '''
 def annotate2():
-'''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
-'''
-pass
+    '''    public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''
 def annotations():
-'''public Collection<JAnnotationUse> annotations()
-'''
-pass
+    '''    public Collection<JAnnotationUse> annotations()
+    '''
 def declare():
-'''public void declare(final JFormatter f)
-'''
-pass
+    '''    public void declare(final JFormatter f)
+    '''
 def generate():
-'''public void generate(final JFormatter f)
-'''
-pass
+    '''    public void generate(final JFormatter f)
+    '''

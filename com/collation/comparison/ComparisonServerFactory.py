@@ -1,8 +1,6 @@
 def getComparisonServer():
-'''public static ComparisonServer getComparisonServer()
-'''
-pass
+    '''    public static ComparisonServer getComparisonServer()
+    '''
 def invoke():
-'''public Object invoke(final Object obj, final Method method, final Object[] args)
-'''
-pass
+    '''    public Object invoke(final Object obj, final Method method, final Object[] args)
+    '''

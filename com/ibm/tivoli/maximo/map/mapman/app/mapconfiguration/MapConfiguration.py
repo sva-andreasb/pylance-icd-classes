@@ -1,56 +1,42 @@
 def getInitialView():
-'''public InitialView getInitialView()
-'''
-pass
+    '''    public InitialView getInitialView()
+    '''
 def setInitialView():
-'''public void setInitialView(final InitialView initialView)
-'''
-pass
+    '''    public void setInitialView(final InitialView initialView)
+    '''
 def getBaseMaps():
-'''public List<MapConfService> getBaseMaps()
-'''
-pass
+    '''    public List<MapConfService> getBaseMaps()
+    '''
 def setBaseMaps():
-'''public void setBaseMaps(final List<MapConfService> baseMaps)
-'''
-pass
+    '''    public void setBaseMaps(final List<MapConfService> baseMaps)
+    '''
 def getEsriServices():
-'''public List<MapConfService> getEsriServices()
-'''
-pass
+    '''    public List<MapConfService> getEsriServices()
+    '''
 def setEsriServices():
-'''public void setEsriServices(final List<MapConfService> esriServices)
-'''
-pass
+    '''    public void setEsriServices(final List<MapConfService> esriServices)
+    '''
 def getMapProperties():
-'''public MapProperties getMapProperties()
-'''
-pass
+    '''    public MapProperties getMapProperties()
+    '''
 def setMapProperties():
-'''public void setMapProperties(final MapProperties mapProperties)
-'''
-pass
+    '''    public void setMapProperties(final MapProperties mapProperties)
+    '''
 def getPreloadBboxList():
-'''public List<PreloadBbox> getPreloadBboxList()
-'''
-pass
+    '''    public List<PreloadBbox> getPreloadBboxList()
+    '''
 def setPreloadBboxList():
-'''public void setPreloadBboxList(final List<PreloadBbox> preloadBboxList)
-'''
-pass
+    '''    public void setPreloadBboxList(final List<PreloadBbox> preloadBboxList)
+    '''
 def getSpatialReferences():
-'''public List<SpatialReference> getSpatialReferences()
-'''
-pass
+    '''    public List<SpatialReference> getSpatialReferences()
+    '''
 def setSpatialReferences():
-'''public void setSpatialReferences(final List<SpatialReference> spatialReferences)
-'''
-pass
+    '''    public void setSpatialReferences(final List<SpatialReference> spatialReferences)
+    '''
 def getProxy():
-'''public Proxy getProxy()
-'''
-pass
+    '''    public Proxy getProxy()
+    '''
 def setProxy():
-'''public void setProxy(final Proxy proxy)
-'''
-pass
+    '''    public void setProxy(final Proxy proxy)
+    '''

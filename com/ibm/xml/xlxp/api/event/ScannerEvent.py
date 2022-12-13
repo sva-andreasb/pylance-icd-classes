@@ -23,122 +23,92 @@ EVENT_RECOVERABLE_ERROR = "int  21"
 EVENT_FATAL_ERROR = "int  22"
 EVENT_EXTENSION = "int  23"
 def ScannerEvent():
-'''public ScannerEvent(final int eventType)
-'''
-pass
+    '''    public ScannerEvent(final int eventType)
+    '''
 def nsContext():
-'''public int nsContext()
-'''
-pass
+    '''    public int nsContext()
+    '''
 def asDocument():
-'''public final Document asDocument()
-'''
-pass
+    '''    public final Document asDocument()
+    '''
 def asXMLDecl():
-'''public final XMLDecl asXMLDecl()
-'''
-pass
+    '''    public final XMLDecl asXMLDecl()
+    '''
 def asTextDecl():
-'''public final TextDecl asTextDecl()
-'''
-pass
+    '''    public final TextDecl asTextDecl()
+    '''
 def asStartElement():
-'''public final StartElement asStartElement()
-'''
-pass
+    '''    public final StartElement asStartElement()
+    '''
 def asEndElement():
-'''public final EndElement asEndElement()
-'''
-pass
+    '''    public final EndElement asEndElement()
+    '''
 def asCharacters():
-'''public final Characters asCharacters()
-'''
-pass
+    '''    public final Characters asCharacters()
+    '''
 def asCharacter():
-'''public final Character asCharacter()
-'''
-pass
+    '''    public final Character asCharacter()
+    '''
 def asProcessingInstruction():
-'''public final ProcessingInstruction asProcessingInstruction()
-'''
-pass
+    '''    public final ProcessingInstruction asProcessingInstruction()
+    '''
 def asComment():
-'''public final Comment asComment()
-'''
-pass
+    '''    public final Comment asComment()
+    '''
 def asCDATASection():
-'''public final CDATASection asCDATASection()
-'''
-pass
+    '''    public final CDATASection asCDATASection()
+    '''
 def asDoctype():
-'''public final Doctype asDoctype()
-'''
-pass
+    '''    public final Doctype asDoctype()
+    '''
 def asEntity():
-'''public final Entity asEntity()
-'''
-pass
+    '''    public final Entity asEntity()
+    '''
 def asError():
-'''public final Error asError()
-'''
-pass
+    '''    public final Error asError()
+    '''
 def asExtension():
-'''public final Extension asExtension()
-'''
-pass
+    '''    public final Extension asExtension()
+    '''
 def Document():
-'''public Document(final int n)
-'''
-pass
+    '''    public Document(final int n)
+    '''
 def XMLDecl():
-'''public XMLDecl()
-'''
-pass
+    '''    public XMLDecl()
+    '''
 def TextDecl():
-'''public TextDecl()
-'''
-pass
+    '''    public TextDecl()
+    '''
 def StartElement():
-'''public StartElement(final int n)
-'''
-pass
+    '''    public StartElement(final int n)
+    '''
 def EndElement():
-'''public EndElement()
-'''
-pass
+    '''    public EndElement()
+    '''
 def Characters():
-'''public Characters(final int n)
-'''
-pass
+    '''    public Characters(final int n)
+    '''
 def Character():
-'''public Character(final int n)
-'''
-pass
+    '''    public Character(final int n)
+    '''
 def ProcessingInstruction():
-'''public ProcessingInstruction()
-'''
-pass
+    '''    public ProcessingInstruction()
+    '''
 def Comment():
-'''public Comment()
-'''
-pass
+    '''    public Comment()
+    '''
 def CDATASection():
-'''public CDATASection(final int n)
-'''
-pass
+    '''    public CDATASection(final int n)
+    '''
 def Doctype():
-'''public Doctype()
-'''
-pass
+    '''    public Doctype()
+    '''
 def Entity():
-'''public Entity(final int n)
-'''
-pass
+    '''    public Entity(final int n)
+    '''
 def Error():
-'''public Error(final int n)
-'''
-pass
+    '''    public Error(final int n)
+    '''
 def Extension():
-'''public Extension()
-'''
-pass
+    '''    public Extension()
+    '''

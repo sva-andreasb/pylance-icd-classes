@@ -1,8 +1,6 @@
 def CDUIGetPersonGroupOutboundProc():
-'''public CDUIGetPersonGroupOutboundProc()
-'''
-pass
+    '''    public CDUIGetPersonGroupOutboundProc()
+    '''
 def search():
-'''public void search(final MboSetRemote mboSet, final String text)
-'''
-pass
+    '''    public void search(final MboSetRemote mboSet, final String text)
+    '''

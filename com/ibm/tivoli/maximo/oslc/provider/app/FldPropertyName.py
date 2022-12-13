@@ -1,8 +1,6 @@
 def FldPropertyName():
-'''public FldPropertyName(final MboValue mbv)
-'''
-pass
+    '''    public FldPropertyName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

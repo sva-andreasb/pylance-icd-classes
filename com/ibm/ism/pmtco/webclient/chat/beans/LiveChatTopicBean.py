@@ -1,4 +1,3 @@
 def getTkTemplate():
-'''public MboRemote getTkTemplate()
-'''
-pass
+    '''    public MboRemote getTkTemplate()
+    '''

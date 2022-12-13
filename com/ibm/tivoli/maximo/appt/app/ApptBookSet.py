@@ -1,4 +1,3 @@
 def ApptBookSet():
-'''public ApptBookSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApptBookSet(final MboServerInterface ms)
+    '''

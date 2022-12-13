@@ -1,5 +1,4 @@
 def PlusPPriceBookService():
-'''public PlusPPriceBookService()
-public PlusPPriceBookService(final MXServer mxServer)
-'''
-pass
+    '''    public PlusPPriceBookService()
+    public PlusPPriceBookService(final MXServer mxServer)
+    '''

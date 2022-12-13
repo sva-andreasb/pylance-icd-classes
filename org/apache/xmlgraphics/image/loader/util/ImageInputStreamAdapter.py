@@ -1,34 +1,26 @@
 def ImageInputStreamAdapter():
-'''public ImageInputStreamAdapter(final ImageInputStream iin)
-'''
-pass
+    '''    public ImageInputStreamAdapter(final ImageInputStream iin)
+    '''
 def read():
-'''public int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-public int read()
-'''
-pass
+    '''    public int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    public int read()
+    '''
 def skip():
-'''public long skip(final long n)
-'''
-pass
+    '''    public long skip(final long n)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def mark():
-'''public synchronized void mark(final int readlimit)
-'''
-pass
+    '''    public synchronized void mark(final int readlimit)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''

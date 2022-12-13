@@ -1,192 +1,144 @@
 def WOSet():
-'''public WOSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOSet(final MboServerInterface ms)
+    '''
 def workordersForLaborOrCraft():
-'''public void workordersForLaborOrCraft(final String labor, final String craft)
-'''
-pass
+    '''    public void workordersForLaborOrCraft(final String labor, final String craft)
+    '''
 def onlyTopLevels():
-'''public void onlyTopLevels()
-'''
-pass
+    '''    public void onlyTopLevels()
+    '''
 def findAllOpenWOsReportedBy():
-'''public void findAllOpenWOsReportedBy(final String user)
-'''
-pass
+    '''    public void findAllOpenWOsReportedBy(final String user)
+    '''
 def setHistory():
-'''public void setHistory(final boolean historyWOs)
-'''
-pass
+    '''    public void setHistory(final boolean historyWOs)
+    '''
 def setCurrent():
-'''public void setCurrent(final boolean currentWOs)
-'''
-pass
+    '''    public void setCurrent(final boolean currentWOs)
+    '''
 def setLocsystem():
-'''public void setLocsystem(final String locationSystem)
-'''
-pass
+    '''    public void setLocsystem(final String locationSystem)
+    '''
 def setLocgroup():
-'''public void setLocgroup(final String locationGroup)
-'''
-pass
+    '''    public void setLocgroup(final String locationGroup)
+    '''
 def setNoCancelled():
-'''public void setNoCancelled(final boolean turnOn)
-'''
-pass
+    '''    public void setNoCancelled(final boolean turnOn)
+    '''
 def getHistory():
-'''public boolean getHistory()
-'''
-pass
+    '''    public boolean getHistory()
+    '''
 def getCurrent():
-'''public boolean getCurrent()
-'''
-pass
+    '''    public boolean getCurrent()
+    '''
 def getLocsystem():
-'''public String getLocsystem()
-'''
-pass
+    '''    public String getLocsystem()
+    '''
 def getLocgroup():
-'''public String getLocgroup()
-'''
-pass
+    '''    public String getLocgroup()
+    '''
 def getNoCancelled():
-'''public boolean getNoCancelled()
-'''
-pass
+    '''    public boolean getNoCancelled()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def deleteAll():
-'''public void deleteAll()
-'''
-pass
+    '''    public void deleteAll()
+    '''
 def addAtIndex():
-'''public MboRemote addAtIndex(final long accessModifier, final int index)
-'''
-pass
+    '''    public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''
 def remove():
-'''public void remove(final MboRemote mbo)
-'''
-pass
+    '''    public void remove(final MboRemote mbo)
+    '''
 def changeWorkOrderParent():
-'''public void changeWorkOrderParent(final MboRemote woparent)
-'''
-pass
+    '''    public void changeWorkOrderParent(final MboRemote woparent)
+    '''
 def addListener():
-'''public void addListener(final MboSetListener l)
-'''
-pass
+    '''    public void addListener(final MboSetListener l)
+    '''
 def removeListener():
-'''public void removeListener(final MboSetListener l)
-'''
-pass
+    '''    public void removeListener(final MboSetListener l)
+    '''
 def reportModifiedMbo():
-'''public void reportModifiedMbo(final MboRemote modifiedMbo)
-'''
-pass
+    '''    public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    '''
 def resetQbe():
-'''public void resetQbe()
-'''
-pass
+    '''    public void resetQbe()
+    '''
 def getUserWhere():
-'''public String getUserWhere(final String alias)
-'''
-pass
+    '''    public String getUserWhere(final String alias)
+    '''
 def getExternalList():
-'''public String getExternalList(final String listName, final String internalValue, final String siteID, final String orgID)
-'''
-pass
+    '''    public String getExternalList(final String listName, final String internalValue, final String siteID, final String orgID)
+    '''
 def getExternalValues():
-'''public String getExternalValues(final String listName, final String internalValue, final String siteID, final String orgID)
-'''
-pass
+    '''    public String getExternalValues(final String listName, final String internalValue, final String siteID, final String orgID)
+    '''
 def getChildren():
-'''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def getParent():
-'''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
-'''
-pass
+    '''    public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''
 def getSiblings():
-'''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def getTop():
-'''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''
 def getPathToTop():
-'''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def clearMoveAssetFieldsDefault():
-'''public void clearMoveAssetFieldsDefault()
-'''
-pass
+    '''    public void clearMoveAssetFieldsDefault()
+    '''
 def filterByLinearAsset():
-'''public void filterByLinearAsset(final MboSetRemote fltrSet)
-'''
-pass
+    '''    public void filterByLinearAsset(final MboSetRemote fltrSet)
+    '''
 def getOriginalWOQbe():
-'''public Hashtable getOriginalWOQbe()
-'''
-pass
+    '''    public Hashtable getOriginalWOQbe()
+    '''
 def getOriginalWOUserWhere():
-'''public String getOriginalWOUserWhere()
-'''
-pass
+    '''    public String getOriginalWOUserWhere()
+    '''
 def setOriginalWOUserWhere():
-'''public void setOriginalWOUserWhere(final String inWhere)
-'''
-pass
+    '''    public void setOriginalWOUserWhere(final String inWhere)
+    '''
 def setOriginalWOQbe():
-'''public void setOriginalWOQbe(final Hashtable inQbe)
-'''
-pass
+    '''    public void setOriginalWOQbe(final Hashtable inQbe)
+    '''
 def getListFromAllSites():
-'''public MboSetRemote getListFromAllSites(final int row, final String attribute)
-'''
-pass
+    '''    public MboSetRemote getListFromAllSites(final int row, final String attribute)
+    '''
 def setSkipRepairFacilityOnNewWOs():
-'''public void setSkipRepairFacilityOnNewWOs(final boolean skipRepairFacilityOnNewWOs)
-'''
-pass
+    '''    public void setSkipRepairFacilityOnNewWOs(final boolean skipRepairFacilityOnNewWOs)
+    '''
 def appendToWhere():
-'''public String appendToWhere()
-'''
-pass
+    '''    public String appendToWhere()
+    '''
 def getUncommittedAncestorVector():
-'''public Vector getUncommittedAncestorVector()
-'''
-pass
+    '''    public Vector getUncommittedAncestorVector()
+    '''
 def storeUncommittedAncestorVector():
-'''public void storeUncommittedAncestorVector(final MXTransaction uncommitted)
-'''
-pass
+    '''    public void storeUncommittedAncestorVector(final MXTransaction uncommitted)
+    '''
 def setSourceWODuplicatedBy():
-'''public void setSourceWODuplicatedBy(final MboRemote wo)
-'''
-pass
+    '''    public void setSourceWODuplicatedBy(final MboRemote wo)
+    '''
 def getSourceWODuplicatedBy():
-'''public MboRemote getSourceWODuplicatedBy()
-'''
-pass
+    '''    public MboRemote getSourceWODuplicatedBy()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def getMaxAppsWhere():
-'''public String getMaxAppsWhere()
-'''
-pass
+    '''    public String getMaxAppsWhere()
+    '''

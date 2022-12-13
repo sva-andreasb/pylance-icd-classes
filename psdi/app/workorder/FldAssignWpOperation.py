@@ -1,8 +1,6 @@
 def FldAssignWpOperation():
-'''public FldAssignWpOperation(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignWpOperation(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

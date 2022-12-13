@@ -1,20 +1,15 @@
 def ICUResourceBundleIterator():
-'''public ICUResourceBundleIterator(final ICUResourceBundle bndl)
-'''
-pass
+    '''    public ICUResourceBundleIterator(final ICUResourceBundle bndl)
+    '''
 def next():
-'''public ICUResourceBundle next()
-'''
-pass
+    '''    public ICUResourceBundle next()
+    '''
 def nextString():
-'''public String nextString()
-'''
-pass
+    '''    public String nextString()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''

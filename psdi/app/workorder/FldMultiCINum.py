@@ -1,8 +1,6 @@
 def FldMultiCINum():
-'''public FldMultiCINum(final MboValue mbv)
-'''
-pass
+    '''    public FldMultiCINum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

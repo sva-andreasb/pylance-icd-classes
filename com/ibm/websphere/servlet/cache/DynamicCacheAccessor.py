@@ -1,8 +1,6 @@
 def getCache():
-'''public static Cache getCache()
-'''
-pass
+    '''    public static Cache getCache()
+    '''
 def isCachingEnabled():
-'''public static boolean isCachingEnabled()
-'''
-pass
+    '''    public static boolean isCachingEnabled()
+    '''

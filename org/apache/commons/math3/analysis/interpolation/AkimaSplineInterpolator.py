@@ -1,4 +1,3 @@
 def interpolate():
-'''public PolynomialSplineFunction interpolate(final double[] xvals, final double[] yvals)
-'''
-pass
+    '''    public PolynomialSplineFunction interpolate(final double[] xvals, final double[] yvals)
+    '''

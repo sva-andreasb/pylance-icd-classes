@@ -1,80 +1,60 @@
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String id)
-'''
-pass
+    '''    public void setVersionId(final String id)
+    '''
 def isLatest():
-'''public boolean isLatest()
-'''
-pass
+    '''    public boolean isLatest()
+    '''
 def setIsLatest():
-'''public void setIsLatest(final boolean isLatest)
-'''
-pass
+    '''    public void setIsLatest(final boolean isLatest)
+    '''
 def getLastModified():
-'''public Date getLastModified()
-'''
-pass
+    '''    public Date getLastModified()
+    '''
 def setLastModified():
-'''public void setLastModified(final Date lastModified)
-'''
-pass
+    '''    public void setLastModified(final Date lastModified)
+    '''
 def getOwner():
-'''public Owner getOwner()
-'''
-pass
+    '''    public Owner getOwner()
+    '''
 def setOwner():
-'''public void setOwner(final Owner owner)
-'''
-pass
+    '''    public void setOwner(final Owner owner)
+    '''
 def isDeleteMarker():
-'''public boolean isDeleteMarker()
-'''
-pass
+    '''    public boolean isDeleteMarker()
+    '''
 def setIsDeleteMarker():
-'''public void setIsDeleteMarker(final boolean isDeleteMarker)
-'''
-pass
+    '''    public void setIsDeleteMarker(final boolean isDeleteMarker)
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String eTag)
-'''
-pass
+    '''    public void setETag(final String eTag)
+    '''
 def getStorageClass():
-'''public String getStorageClass()
-'''
-pass
+    '''    public String getStorageClass()
+    '''
 def setStorageClass():
-'''public void setStorageClass(final String storageClass)
-'''
-pass
+    '''    public void setStorageClass(final String storageClass)
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def setSize():
-'''public void setSize(final long size)
-'''
-pass
+    '''    public void setSize(final long size)
+    '''

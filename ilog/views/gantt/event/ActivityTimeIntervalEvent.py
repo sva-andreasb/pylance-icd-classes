@@ -1,16 +1,12 @@
 def ActivityTimeIntervalEvent():
-'''public ActivityTimeIntervalEvent(final IlvActivity ilvActivity, final IlvTimeInterval ilvTimeInterval, final IlvTimeInterval ilvTimeInterval2, final boolean b)
-'''
-pass
+    '''    public ActivityTimeIntervalEvent(final IlvActivity ilvActivity, final IlvTimeInterval ilvTimeInterval, final IlvTimeInterval ilvTimeInterval2, final boolean b)
+    '''
 def getOldTimeInterval():
-'''public IlvTimeInterval getOldTimeInterval()
-'''
-pass
+    '''    public IlvTimeInterval getOldTimeInterval()
+    '''
 def getNewTimeInterval():
-'''public IlvTimeInterval getNewTimeInterval()
-'''
-pass
+    '''    public IlvTimeInterval getNewTimeInterval()
+    '''
 def setNewTimeInterval():
-'''public void setNewTimeInterval(final IlvTimeInterval newValue)
-'''
-pass
+    '''    public void setNewTimeInterval(final IlvTimeInterval newValue)
+    '''

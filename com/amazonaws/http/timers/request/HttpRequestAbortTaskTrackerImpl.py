@@ -1,16 +1,12 @@
 def HttpRequestAbortTaskTrackerImpl():
-'''public HttpRequestAbortTaskTrackerImpl(final HttpRequestAbortTask task, final ScheduledFuture<?> future)
-'''
-pass
+    '''    public HttpRequestAbortTaskTrackerImpl(final HttpRequestAbortTask task, final ScheduledFuture<?> future)
+    '''
 def httpRequestAborted():
-'''public boolean httpRequestAborted()
-'''
-pass
+    '''    public boolean httpRequestAborted()
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def cancelTask():
-'''public void cancelTask()
-'''
-pass
+    '''    public void cancelTask()
+    '''

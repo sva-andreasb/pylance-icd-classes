@@ -1,8 +1,6 @@
 def NoApplicableTargetExceptionImpl():
-'''public NoApplicableTargetExceptionImpl(final SelectionCriteria criteria, final String reason)
-'''
-pass
+    '''    public NoApplicableTargetExceptionImpl(final SelectionCriteria criteria, final String reason)
+    '''
 def callbackWhenAvailable():
-'''public void callbackWhenAvailable(final SelectionCallback callback, final Object handback)
-'''
-pass
+    '''    public void callbackWhenAvailable(final SelectionCallback callback, final Object handback)
+    '''

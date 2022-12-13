@@ -1,12 +1,9 @@
 def getProviders():
-'''public static Iterable<Provider> getProviders()
-'''
-pass
+    '''    public static Iterable<Provider> getProviders()
+    '''
 def hasProviders():
-'''public static boolean hasProviders()
-'''
-pass
+    '''    public static boolean hasProviders()
+    '''
 def findClassLoader():
-'''public static ClassLoader findClassLoader()
-'''
-pass
+    '''    public static ClassLoader findClassLoader()
+    '''

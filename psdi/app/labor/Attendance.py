@@ -1,64 +1,48 @@
 def Attendance():
-'''public Attendance(final MboSet ms)
-'''
-pass
+    '''    public Attendance(final MboSet ms)
+    '''
 def getProcess():
-'''public String getProcess()
-'''
-pass
+    '''    public String getProcess()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getTotalAttendance():
-'''public double getTotalAttendance()
-'''
-pass
+    '''    public double getTotalAttendance()
+    '''
 def isSameDate():
-'''public boolean isSameDate(final Date date1, final Date date2)
-'''
-pass
+    '''    public boolean isSameDate(final Date date1, final Date date2)
+    '''
 def isStartAfterFinshDate():
-'''public static boolean isStartAfterFinshDate(final Date startDate, final Date finishDate)
-'''
-pass
+    '''    public static boolean isStartAfterFinshDate(final Date startDate, final Date finishDate)
+    '''
 def getTotalHrsinMinutes():
-'''public int getTotalHrsinMinutes()
-'''
-pass
+    '''    public int getTotalHrsinMinutes()
+    '''
 def checkStartDateTime():
-'''public void checkStartDateTime()
-'''
-pass
+    '''    public void checkStartDateTime()
+    '''
 def checkFinishDateTime():
-'''public void checkFinishDateTime()
-'''
-pass
+    '''    public void checkFinishDateTime()
+    '''
 def getDatesDiff():
-'''public double getDatesDiff()
-'''
-pass
+    '''    public double getDatesDiff()
+    '''
 def validDates():
-'''public boolean validDates()
-'''
-pass
+    '''    public boolean validDates()
+    '''
 def checkDates():
-'''public void checkDates()
-'''
-pass
+    '''    public void checkDates()
+    '''
 def checkLaborHrs():
-'''public void checkLaborHrs()
-'''
-pass
+    '''    public void checkLaborHrs()
+    '''
 def validateDateTime():
-'''public Date validateDateTime(final Date date, final Date time)
-'''
-pass
+    '''    public Date validateDateTime(final Date date, final Date time)
+    '''
 def getNextDateTime():
-'''public Date getNextDateTime(final Date d1, final Date d2, final int minutes)
-'''
-pass
+    '''    public Date getNextDateTime(final Date d1, final Date d2, final int minutes)
+    '''

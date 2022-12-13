@@ -1,12 +1,9 @@
 def empty():
-'''public static ConfigOverride empty()
-'''
-pass
+    '''    public static ConfigOverride empty()
+    '''
 def getIsIgnoredType():
-'''public Boolean getIsIgnoredType()
-'''
-pass
+    '''    public Boolean getIsIgnoredType()
+    '''
 def getMergeable():
-'''public Boolean getMergeable()
-'''
-pass
+    '''    public Boolean getMergeable()
+    '''

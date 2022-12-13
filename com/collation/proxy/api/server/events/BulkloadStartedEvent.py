@@ -1,8 +1,6 @@
 def BulkloadStartedEvent():
-'''public BulkloadStartedEvent(final long bulkloadId)
-'''
-pass
+    '''    public BulkloadStartedEvent(final long bulkloadId)
+    '''
 def getBulkloadId():
-'''public long getBulkloadId()
-'''
-pass
+    '''    public long getBulkloadId()
+    '''

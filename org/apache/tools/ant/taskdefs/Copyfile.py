@@ -1,24 +1,18 @@
 def Copyfile():
-'''public Copyfile()
-'''
-pass
+    '''    public Copyfile()
+    '''
 def setSrc():
-'''public void setSrc(final File src)
-'''
-pass
+    '''    public void setSrc(final File src)
+    '''
 def setForceoverwrite():
-'''public void setForceoverwrite(final boolean force)
-'''
-pass
+    '''    public void setForceoverwrite(final boolean force)
+    '''
 def setDest():
-'''public void setDest(final File dest)
-'''
-pass
+    '''    public void setDest(final File dest)
+    '''
 def setFiltering():
-'''public void setFiltering(final String filter)
-'''
-pass
+    '''    public void setFiltering(final String filter)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

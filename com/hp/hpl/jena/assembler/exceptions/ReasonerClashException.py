@@ -1,4 +1,3 @@
 def ReasonerClashException():
-'''public ReasonerClashException(final Resource root)
-'''
-pass
+    '''    public ReasonerClashException(final Resource root)
+    '''

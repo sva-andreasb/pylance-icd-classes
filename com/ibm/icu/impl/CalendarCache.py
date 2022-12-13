@@ -1,12 +1,9 @@
 def CalendarCache():
-'''public CalendarCache()
-'''
-pass
+    '''    public CalendarCache()
+    '''
 def get():
-'''public synchronized long get(final long key)
-'''
-pass
+    '''    public synchronized long get(final long key)
+    '''
 def put():
-'''public synchronized void put(final long key, final long value)
-'''
-pass
+    '''    public synchronized void put(final long key, final long value)
+    '''

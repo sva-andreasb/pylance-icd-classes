@@ -1,8 +1,6 @@
 def PmCfgFldClassStructureId():
-'''public PmCfgFldClassStructureId(final MboValue mbv)
-'''
-pass
+    '''    public PmCfgFldClassStructureId(final MboValue mbv)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

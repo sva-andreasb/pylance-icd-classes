@@ -1,5 +1,4 @@
 def InstanceAlreadyExistsException():
-'''public InstanceAlreadyExistsException()
-public InstanceAlreadyExistsException(final String s)
-'''
-pass
+    '''    public InstanceAlreadyExistsException()
+    public InstanceAlreadyExistsException(final String s)
+    '''

@@ -1,369 +1,277 @@
 def DiscoveryRunImpl():
-'''public DiscoveryRunImpl()
-public DiscoveryRunImpl(final Map m)
-'''
-pass
+    '''    public DiscoveryRunImpl()
+    public DiscoveryRunImpl(final Map m)
+    '''
 def setScheduled():
-'''public void setScheduled(final boolean scheduled)
-'''
-pass
+    '''    public void setScheduled(final boolean scheduled)
+    '''
 def getScheduled():
-'''public boolean getScheduled()
-'''
-pass
+    '''    public boolean getScheduled()
+    '''
 def hasScheduled():
-'''public boolean hasScheduled()
-'''
-pass
+    '''    public boolean hasScheduled()
+    '''
 def setCause():
-'''public void setCause(final String cause)
-'''
-pass
+    '''    public void setCause(final String cause)
+    '''
 def getCause():
-'''public String getCause()
-'''
-pass
+    '''    public String getCause()
+    '''
 def hasCause():
-'''public boolean hasCause()
-'''
-pass
+    '''    public boolean hasCause()
+    '''
 def setInitiator():
-'''public void setInitiator(final String user)
-'''
-pass
+    '''    public void setInitiator(final String user)
+    '''
 def getInitiator():
-'''public String getInitiator()
-'''
-pass
+    '''    public String getInitiator()
+    '''
 def hasInitiator():
-'''public boolean hasInitiator()
-'''
-pass
+    '''    public boolean hasInitiator()
+    '''
 def setStartTime():
-'''public void setStartTime(final long timeInMillis)
-'''
-pass
+    '''    public void setStartTime(final long timeInMillis)
+    '''
 def getStartTime():
-'''public long getStartTime()
-'''
-pass
+    '''    public long getStartTime()
+    '''
 def hasStartTime():
-'''public boolean hasStartTime()
-'''
-pass
+    '''    public boolean hasStartTime()
+    '''
 def setEndTime():
-'''public void setEndTime(final long timeInMillis)
-'''
-pass
+    '''    public void setEndTime(final long timeInMillis)
+    '''
 def getEndTime():
-'''public long getEndTime()
-'''
-pass
+    '''    public long getEndTime()
+    '''
 def hasEndTime():
-'''public boolean hasEndTime()
-'''
-pass
+    '''    public boolean hasEndTime()
+    '''
 def setDiscoverRunId():
-'''public void setDiscoverRunId(final long discoveryId)
-'''
-pass
+    '''    public void setDiscoverRunId(final long discoveryId)
+    '''
 def getDiscoverRunId():
-'''public long getDiscoverRunId()
-'''
-pass
+    '''    public long getDiscoverRunId()
+    '''
 def hasDiscoverRunId():
-'''public boolean hasDiscoverRunId()
-'''
-pass
+    '''    public boolean hasDiscoverRunId()
+    '''
 def setStatus():
-'''public void setStatus(final int status)
-'''
-pass
+    '''    public void setStatus(final int status)
+    '''
 def getStatus():
-'''public int getStatus()
-'''
-pass
+    '''    public int getStatus()
+    '''
 def hasStatus():
-'''public boolean hasStatus()
-'''
-pass
+    '''    public boolean hasStatus()
+    '''
 def setScopeElements():
-'''public void setScopeElements(final ScopeElement[] elements)
-'''
-pass
+    '''    public void setScopeElements(final ScopeElement[] elements)
+    '''
 def getScopeElements():
-'''public ScopeElement[] getScopeElements()
-'''
-pass
+    '''    public ScopeElement[] getScopeElements()
+    '''
 def hasScopeElements():
-'''public boolean hasScopeElements()
-'''
-pass
+    '''    public boolean hasScopeElements()
+    '''
 def setRunName():
-'''public void setRunName(final String runName)
-'''
-pass
+    '''    public void setRunName(final String runName)
+    '''
 def getRunName():
-'''public String getRunName()
-'''
-pass
+    '''    public String getRunName()
+    '''
 def hasRunName():
-'''public boolean hasRunName()
-'''
-pass
+    '''    public boolean hasRunName()
+    '''
 def setRunType():
-'''public void setRunType(final int runType)
-'''
-pass
+    '''    public void setRunType(final int runType)
+    '''
 def getRunType():
-'''public int getRunType()
-'''
-pass
+    '''    public int getRunType()
+    '''
 def hasRunType():
-'''public boolean hasRunType()
-'''
-pass
+    '''    public boolean hasRunType()
+    '''
 def setTerminationType():
-'''public void setTerminationType(final int terminationType)
-'''
-pass
+    '''    public void setTerminationType(final int terminationType)
+    '''
 def getTerminationType():
-'''public int getTerminationType()
-'''
-pass
+    '''    public int getTerminationType()
+    '''
 def hasTerminationType():
-'''public boolean hasTerminationType()
-'''
-pass
+    '''    public boolean hasTerminationType()
+    '''
 def getDiscoveryProgressLog():
-'''public String getDiscoveryProgressLog()
-'''
-pass
+    '''    public String getDiscoveryProgressLog()
+    '''
 def hasDiscoveryProgressLog():
-'''public boolean hasDiscoveryProgressLog()
-'''
-pass
+    '''    public boolean hasDiscoveryProgressLog()
+    '''
 def setDiscoveryProgressLog():
-'''public void setDiscoveryProgressLog(final String prog)
-'''
-pass
+    '''    public void setDiscoveryProgressLog(final String prog)
+    '''
 def setDiscoveryProfile():
-'''public void setDiscoveryProfile(final DiscoveryProfile profile)
-'''
-pass
+    '''    public void setDiscoveryProfile(final DiscoveryProfile profile)
+    '''
 def getDiscoveryProfile():
-'''public DiscoveryProfile getDiscoveryProfile()
-'''
-pass
+    '''    public DiscoveryProfile getDiscoveryProfile()
+    '''
 def hasDiscoveryProfile():
-'''public boolean hasDiscoveryProfile()
-'''
-pass
+    '''    public boolean hasDiscoveryProfile()
+    '''
 def getManagedSystemName():
-'''public String getManagedSystemName()
-'''
-pass
+    '''    public String getManagedSystemName()
+    '''
 def hasManagedSystemName():
-'''public boolean hasManagedSystemName()
-'''
-pass
+    '''    public boolean hasManagedSystemName()
+    '''
 def setManagedSystemName():
-'''public void setManagedSystemName(final String x)
-'''
-pass
+    '''    public void setManagedSystemName(final String x)
+    '''
 def getRoles():
-'''public Role[] getRoles()
-'''
-pass
+    '''    public Role[] getRoles()
+    '''
 def hasRoles():
-'''public boolean hasRoles()
-'''
-pass
+    '''    public boolean hasRoles()
+    '''
 def setRoles():
-'''public void setRoles(final Role[] x)
-'''
-pass
+    '''    public void setRoles(final Role[] x)
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def hasGuid():
-'''public boolean hasGuid()
-'''
-pass
+    '''    public boolean hasGuid()
+    '''
 def setGuid():
-'''public void setGuid(final Guid guid)
-'''
-pass
+    '''    public void setGuid(final Guid guid)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def hasDisplayName():
-'''public boolean hasDisplayName()
-'''
-pass
+    '''    public boolean hasDisplayName()
+    '''
 def getContextIp():
-'''public String getContextIp()
-'''
-pass
+    '''    public String getContextIp()
+    '''
 def hasContextIp():
-'''public boolean hasContextIp()
-'''
-pass
+    '''    public boolean hasContextIp()
+    '''
 def setContextIp():
-'''public void setContextIp(final String ctx)
-'''
-pass
+    '''    public void setContextIp(final String ctx)
+    '''
 def getObjectType():
-'''public String getObjectType()
-'''
-pass
+    '''    public String getObjectType()
+    '''
 def hasObjectType():
-'''public boolean hasObjectType()
-'''
-pass
+    '''    public boolean hasObjectType()
+    '''
 def setObjectType():
-'''public void setObjectType(final String type)
-'''
-pass
+    '''    public void setObjectType(final String type)
+    '''
 def getCDMSource():
-'''public String getCDMSource()
-'''
-pass
+    '''    public String getCDMSource()
+    '''
 def hasCDMSource():
-'''public boolean hasCDMSource()
-'''
-pass
+    '''    public boolean hasCDMSource()
+    '''
 def setCDMSource():
-'''public void setCDMSource(final String source)
-'''
-pass
+    '''    public void setCDMSource(final String source)
+    '''
 def getSourceToken():
-'''public String getSourceToken()
-'''
-pass
+    '''    public String getSourceToken()
+    '''
 def hasSourceToken():
-'''public boolean hasSourceToken()
-'''
-pass
+    '''    public boolean hasSourceToken()
+    '''
 def setSourceToken():
-'''public void setSourceToken(final String sourceToken)
-'''
-pass
+    '''    public void setSourceToken(final String sourceToken)
+    '''
 def getCmdbSource():
-'''public Guid getCmdbSource()
-'''
-pass
+    '''    public Guid getCmdbSource()
+    '''
 def hasCmdbSource():
-'''public boolean hasCmdbSource()
-'''
-pass
+    '''    public boolean hasCmdbSource()
+    '''
 def setCmdbSource():
-'''public void setCmdbSource(final Guid cmdbsource)
-'''
-pass
+    '''    public void setCmdbSource(final Guid cmdbsource)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def hasLabel():
-'''public boolean hasLabel()
-'''
-pass
+    '''    public boolean hasLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def hasDescription():
-'''public boolean hasDescription()
-'''
-pass
+    '''    public boolean hasDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getAdminState():
-'''public int getAdminState()
-'''
-pass
+    '''    public int getAdminState()
+    '''
 def hasAdminState():
-'''public boolean hasAdminState()
-'''
-pass
+    '''    public boolean hasAdminState()
+    '''
 def setAdminState():
-'''public void setAdminState(final int state)
-'''
-pass
+    '''    public void setAdminState(final int state)
+    '''
 def getBidiFlag():
-'''public int getBidiFlag()
-'''
-pass
+    '''    public int getBidiFlag()
+    '''
 def hasBidiFlag():
-'''public boolean hasBidiFlag()
-'''
-pass
+    '''    public boolean hasBidiFlag()
+    '''
 def setBidiFlag():
-'''public void setBidiFlag(final int bidiflag)
-'''
-pass
+    '''    public void setBidiFlag(final int bidiflag)
+    '''
 def getBidiFormat():
-'''public String getBidiFormat()
-'''
-pass
+    '''    public String getBidiFormat()
+    '''
 def hasBidiFormat():
-'''public boolean hasBidiFormat()
-'''
-pass
+    '''    public boolean hasBidiFormat()
+    '''
 def setBidiFormat():
-'''public void setBidiFormat(final String bidiformat)
-'''
-pass
+    '''    public void setBidiFormat(final String bidiformat)
+    '''
 def getAllAttributes():
-'''public Map getAllAttributes()
-'''
-pass
+    '''    public Map getAllAttributes()
+    '''
 def getCreatedBy():
-'''public String getCreatedBy()
-'''
-pass
+    '''    public String getCreatedBy()
+    '''
 def hasCreatedBy():
-'''public boolean hasCreatedBy()
-'''
-pass
+    '''    public boolean hasCreatedBy()
+    '''
 def getLastModifiedTime():
-'''public long getLastModifiedTime()
-'''
-pass
+    '''    public long getLastModifiedTime()
+    '''
 def hasLastModifiedTime():
-'''public boolean hasLastModifiedTime()
-'''
-pass
+    '''    public boolean hasLastModifiedTime()
+    '''
 def getLastModifiedBy():
-'''public String getLastModifiedBy()
-'''
-pass
+    '''    public String getLastModifiedBy()
+    '''
 def hasLastModifiedBy():
-'''public boolean hasLastModifiedBy()
-'''
-pass
+    '''    public boolean hasLastModifiedBy()
+    '''
 def getExtendedAttributes():
-'''public byte[] getExtendedAttributes()
-'''
-pass
+    '''    public byte[] getExtendedAttributes()
+    '''
 def hasExtendedAttributes():
-'''public boolean hasExtendedAttributes()
-'''
-pass
+    '''    public boolean hasExtendedAttributes()
+    '''
 def setExtendedAttributes():
-'''public void setExtendedAttributes(final byte[] eAttribMap)
-'''
-pass
+    '''    public void setExtendedAttributes(final byte[] eAttribMap)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def TamitLicenseVUConvertSet():
-'''public TamitLicenseVUConvertSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TamitLicenseVUConvertSet(final MboServerInterface ms)
+    '''

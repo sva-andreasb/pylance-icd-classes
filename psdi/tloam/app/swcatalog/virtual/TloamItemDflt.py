@@ -1,16 +1,12 @@
 def TloamItemDflt():
-'''public TloamItemDflt(final MboSet ms)
-'''
-pass
+    '''    public TloamItemDflt(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''

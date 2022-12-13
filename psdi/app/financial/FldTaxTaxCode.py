@@ -1,8 +1,6 @@
 def FldTaxTaxCode():
-'''public FldTaxTaxCode(final MboValue mbv)
-'''
-pass
+    '''    public FldTaxTaxCode(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

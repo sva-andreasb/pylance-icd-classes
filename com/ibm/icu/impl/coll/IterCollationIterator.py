@@ -1,20 +1,15 @@
 def IterCollationIterator():
-'''public IterCollationIterator(final CollationData d, final boolean numeric, final UCharacterIterator ui)
-'''
-pass
+    '''    public IterCollationIterator(final CollationData d, final boolean numeric, final UCharacterIterator ui)
+    '''
 def resetToOffset():
-'''public void resetToOffset(final int newOffset)
-'''
-pass
+    '''    public void resetToOffset(final int newOffset)
+    '''
 def getOffset():
-'''public int getOffset()
-'''
-pass
+    '''    public int getOffset()
+    '''
 def nextCodePoint():
-'''public int nextCodePoint()
-'''
-pass
+    '''    public int nextCodePoint()
+    '''
 def previousCodePoint():
-'''public int previousCodePoint()
-'''
-pass
+    '''    public int previousCodePoint()
+    '''

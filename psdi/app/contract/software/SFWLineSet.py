@@ -1,4 +1,3 @@
 def SFWLineSet():
-'''public SFWLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SFWLineSet(final MboServerInterface ms)
+    '''

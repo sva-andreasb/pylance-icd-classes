@@ -1,8 +1,6 @@
 def PlusPAssetSet():
-'''public PlusPAssetSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPAssetSet(final MboServerInterface arg0)
+    '''
 def appendToWhere():
-'''public String appendToWhere()
-'''
-pass
+    '''    public String appendToWhere()
+    '''

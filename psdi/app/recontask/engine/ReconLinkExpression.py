@@ -1,8 +1,6 @@
 def ReconLinkExpression():
-'''public ReconLinkExpression(final ReconInfo reconInfo)
-'''
-pass
+    '''    public ReconLinkExpression(final ReconInfo reconInfo)
+    '''
 def evaluateLinkExpression():
-'''public List evaluateLinkExpression(final ReconValue leadingObject, final SubordinateSetAttribute[] subordinateSetAttributes)
-'''
-pass
+    '''    public List evaluateLinkExpression(final ReconValue leadingObject, final SubordinateSetAttribute[] subordinateSetAttributes)
+    '''

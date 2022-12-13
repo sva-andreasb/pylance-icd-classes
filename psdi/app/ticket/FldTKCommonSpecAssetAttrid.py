@@ -1,12 +1,9 @@
 def FldTKCommonSpecAssetAttrid():
-'''public FldTKCommonSpecAssetAttrid(final MboValue mbv)
-'''
-pass
+    '''    public FldTKCommonSpecAssetAttrid(final MboValue mbv)
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def applyDateFilter():
-'''public void applyDateFilter(final MboSetRemote valSet)
-'''
-pass
+    '''    public void applyDateFilter(final MboSetRemote valSet)
+    '''

@@ -1,13 +1,10 @@
 def FldCommonBinNum():
-'''public FldCommonBinNum(final MboValue mbv)
-public FldCommonBinNum(final MboValue mbv, final String locationAttribute, final String lotAttribute, final String conditionAttribute)
-'''
-pass
+    '''    public FldCommonBinNum(final MboValue mbv)
+    public FldCommonBinNum(final MboValue mbv, final String locationAttribute, final String lotAttribute, final String conditionAttribute)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

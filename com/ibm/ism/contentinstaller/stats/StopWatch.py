@@ -1,28 +1,21 @@
 def StopWatch():
-'''public StopWatch()
-'''
-pass
+    '''    public StopWatch()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def getElapsedTimeInMillis():
-'''public long getElapsedTimeInMillis()
-'''
-pass
+    '''    public long getElapsedTimeInMillis()
+    '''
 def getElapsedTimeInSeconds():
-'''public long getElapsedTimeInSeconds()
-'''
-pass
+    '''    public long getElapsedTimeInSeconds()
+    '''
 def getElapsedTimeAsString():
-'''public String getElapsedTimeAsString()
-'''
-pass
+    '''    public String getElapsedTimeAsString()
+    '''
 def millisToString():
-'''public static String millisToString(final long time)
-'''
-pass
+    '''    public static String millisToString(final long time)
+    '''

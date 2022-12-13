@@ -1,116 +1,87 @@
 def PlusPAgreement():
-'''public PlusPAgreement(final MboSet set)
-'''
-pass
+    '''    public PlusPAgreement(final MboSet set)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def isPendingRevision():
-'''public boolean isPendingRevision()
-'''
-pass
+    '''    public boolean isPendingRevision()
+    '''
 def canRevise():
-'''public boolean canRevise()
-'''
-pass
+    '''    public boolean canRevise()
+    '''
 def apprRevAlreadyExists():
-'''public boolean apprRevAlreadyExists()
-'''
-pass
+    '''    public boolean apprRevAlreadyExists()
+    '''
 def getValidStatusList():
-'''public MboSetRemote getValidStatusList()
-'''
-pass
+    '''    public MboSetRemote getValidStatusList()
+    '''
 def changeStatus():
-'''public void changeStatus(String externalAgreeStatus, final Date asOfDate, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(String externalAgreeStatus, final Date asOfDate, final String memo, final long accessModifier)
+    '''
 def milestoneBilling():
-'''public void milestoneBilling()
-'''
-pass
+    '''    public void milestoneBilling()
+    '''
 def reviseAgreement():
-'''public PlusPAgreementRemote reviseAgreement(final String val, final String val2)
-'''
-pass
+    '''    public PlusPAgreementRemote reviseAgreement(final String val, final String val2)
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def isStatusEditable():
-'''public boolean isStatusEditable()
-'''
-pass
+    '''    public boolean isStatusEditable()
+    '''
 def fieldAccessForStatus():
-'''public void fieldAccessForStatus(final String o)
-'''
-pass
+    '''    public void fieldAccessForStatus(final String o)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long n)
-'''
-pass
+    '''    public void delete(final long n)
+    '''
 def validateAttributes():
-'''public Hashtable<String, Exception> validateAttributes()
-'''
-pass
+    '''    public Hashtable<String, Exception> validateAttributes()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def incrementPreTaxTotal():
-'''public void incrementPreTaxTotal(final double n)
-'''
-pass
+    '''    public void incrementPreTaxTotal(final double n)
+    '''
 def incrementRevPreTaxTotal():
-'''public void incrementRevPreTaxTotal(final double n)
-'''
-pass
+    '''    public void incrementRevPreTaxTotal(final double n)
+    '''
 def incrementTaxTotal():
-'''public void incrementTaxTotal(final double n)
-'''
-pass
+    '''    public void incrementTaxTotal(final double n)
+    '''
 def getNewRevisionNumber():
-'''public int getNewRevisionNumber()
-'''
-pass
+    '''    public int getNewRevisionNumber()
+    '''
 def canPerformEdit():
-'''public void canPerformEdit()
-'''
-pass
+    '''    public void canPerformEdit()
+    '''
 def changeChildrenStatus():
-'''public void changeChildrenStatus(final String s, final Date date, final String s2, final long n)
-'''
-pass
+    '''    public void changeChildrenStatus(final String s, final Date date, final String s2, final long n)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def copyRecordToSWItemsTable():
-'''public void copyRecordToSWItemsTable(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void copyRecordToSWItemsTable(final MboSetRemote mboSetRemote)
+    '''
 def copyRecordToSWWorkTable():
-'''public void copyRecordToSWWorkTable(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void copyRecordToSWWorkTable(final MboSetRemote mboSetRemote)
+    '''
 def removeCustomerDependentRecords():
-'''public void removeCustomerDependentRecords()
-'''
-pass
+    '''    public void removeCustomerDependentRecords()
+    '''
 def updateScheduleAssetsFromSingleScope():
-'''public void updateScheduleAssetsFromSingleScope(final MboRemote mboRemote)
-'''
-pass
+    '''    public void updateScheduleAssetsFromSingleScope(final MboRemote mboRemote)
+    '''
 def updateScheduleAssetsFromAllScope():
-'''public void updateScheduleAssetsFromAllScope(final MboRemote mboRemote)
-'''
-pass
+    '''    public void updateScheduleAssetsFromAllScope(final MboRemote mboRemote)
+    '''

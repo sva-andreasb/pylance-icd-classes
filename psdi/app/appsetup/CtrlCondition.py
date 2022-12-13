@@ -1,24 +1,18 @@
 def CtrlCondition():
-'''public CtrlCondition(final MboSet ms)
-'''
-pass
+    '''    public CtrlCondition(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def generateSeqID():
-'''public void generateSeqID()
-'''
-pass
+    '''    public void generateSeqID()
+    '''
 def copyConditionToCtrlCondition():
-'''public void copyConditionToCtrlCondition(final MboSetRemote ConditionSet)
-'''
-pass
+    '''    public void copyConditionToCtrlCondition(final MboSetRemote ConditionSet)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

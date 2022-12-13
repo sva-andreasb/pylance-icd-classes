@@ -1,117 +1,89 @@
-HTTP_GET = "String  GET""
-HTTP_POST = "String  POST""
-HTTP_PUT = "String  PUT""
-HTTP_DELETE = "String  DELETE""
+HTTP_GET = "String  \"GET\""
+HTTP_POST = "String  \"POST\""
+HTTP_PUT = "String  \"PUT\""
+HTTP_DELETE = "String  \"DELETE\""
 def ResourceRequest():
-'''public ResourceRequest(final String resourceType, final List<String> resourcePath, final Map<String, String[]> queryParams, final HttpHeaders headerParams, final RESTSession session, final String httpMethod, final String format, final String reqURL)
-public ResourceRequest(final ResourceRequest req)
-'''
-pass
+    '''    public ResourceRequest(final String resourceType, final List<String> resourcePath, final Map<String, String[]> queryParams, final HttpHeaders headerParams, final RESTSession session, final String httpMethod, final String format, final String reqURL)
+    public ResourceRequest(final ResourceRequest req)
+    '''
 def isReleaseResourceRequest():
-'''public boolean isReleaseResourceRequest()
-'''
-pass
+    '''    public boolean isReleaseResourceRequest()
+    '''
 def isUseSessionForCollection():
-'''public boolean isUseSessionForCollection()
-'''
-pass
+    '''    public boolean isUseSessionForCollection()
+    '''
 def getResourceLocatorId():
-'''public String getResourceLocatorId()
-'''
-pass
+    '''    public String getResourceLocatorId()
+    '''
 def getRequestURL():
-'''public String getRequestURL()
-'''
-pass
+    '''    public String getRequestURL()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def isUseLocationForCreate():
-'''public boolean isUseLocationForCreate()
-'''
-pass
+    '''    public boolean isUseLocationForCreate()
+    '''
 def getResourcePath():
-'''public List<String> getResourcePath()
-'''
-pass
+    '''    public List<String> getResourcePath()
+    '''
 def getQueryParams():
-'''public Map<String, String[]> getQueryParams()
-'''
-pass
+    '''    public Map<String, String[]> getQueryParams()
+    '''
 def getHeaderParams():
-'''public HttpHeaders getHeaderParams()
-'''
-pass
+    '''    public HttpHeaders getHeaderParams()
+    '''
 def getSession():
-'''public RESTSession getSession()
-'''
-pass
+    '''    public RESTSession getSession()
+    '''
 def getHttpMethod():
-'''public String getHttpMethod()
-'''
-pass
+    '''    public String getHttpMethod()
+    '''
 def isPOST():
-'''public boolean isPOST()
-'''
-pass
+    '''    public boolean isPOST()
+    '''
 def isPUT():
-'''public boolean isPUT()
-'''
-pass
+    '''    public boolean isPUT()
+    '''
 def isDELETE():
-'''public boolean isDELETE()
-'''
-pass
+    '''    public boolean isDELETE()
+    '''
 def isGET():
-'''public boolean isGET()
-'''
-pass
+    '''    public boolean isGET()
+    '''
 def setClientAddr():
-'''public void setClientAddr(final String remoteAddr)
-'''
-pass
+    '''    public void setClientAddr(final String remoteAddr)
+    '''
 def getClientAddr():
-'''public String getClientAddr()
-'''
-pass
+    '''    public String getClientAddr()
+    '''
 def setClientHost():
-'''public void setClientHost(final String remoteHost)
-'''
-pass
+    '''    public void setClientHost(final String remoteHost)
+    '''
 def getClientHost():
-'''public String getClientHost()
-'''
-pass
+    '''    public String getClientHost()
+    '''
 def getMXSession():
-'''public MXSession getMXSession()
-'''
-pass
+    '''    public MXSession getMXSession()
+    '''
 def getApiKey():
-'''public String getApiKey()
-'''
-pass
+    '''    public String getApiKey()
+    '''
 def getQueryParam():
-'''public String getQueryParam(final String param)
-'''
-pass
+    '''    public String getQueryParam(final String param)
+    '''
 def isApiCall():
-'''public boolean isApiCall()
-'''
-pass
+    '''    public boolean isApiCall()
+    '''
 def isEnableSession():
-'''public boolean isEnableSession()
-'''
-pass
+    '''    public boolean isEnableSession()
+    '''
 def setProcessUserInfo():
-'''public void setProcessUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setProcessUserInfo(final UserInfo userInfo)
+    '''
 def getProcessUserInfo():
-'''public UserInfo getProcessUserInfo()
-'''
-pass
+    '''    public UserInfo getProcessUserInfo()
+    '''

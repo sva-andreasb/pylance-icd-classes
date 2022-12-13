@@ -1,8 +1,6 @@
 def hierarchicalmove():
-'''public int hierarchicalmove()
-'''
-pass
+    '''    public int hierarchicalmove()
+    '''
 def highlightrow():
-'''public int highlightrow(final int row)
-'''
-pass
+    '''    public int highlightrow(final int row)
+    '''

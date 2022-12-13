@@ -1,24 +1,18 @@
 def getComputerName():
-'''public List<String> getComputerName()
-'''
-pass
+    '''    public List<String> getComputerName()
+    '''
 def getComputerID():
-'''public List<BigInteger> getComputerID()
-'''
-pass
+    '''    public List<BigInteger> getComputerID()
+    '''
 def getCustomRelevance():
-'''public String getCustomRelevance()
-'''
-pass
+    '''    public String getCustomRelevance()
+    '''
 def setCustomRelevance():
-'''public void setCustomRelevance(final String value)
-'''
-pass
+    '''    public void setCustomRelevance(final String value)
+    '''
 def isAllComputers():
-'''public Boolean isAllComputers()
-'''
-pass
+    '''    public Boolean isAllComputers()
+    '''
 def setAllComputers():
-'''public void setAllComputers(final Boolean value)
-'''
-pass
+    '''    public void setAllComputers(final Boolean value)
+    '''

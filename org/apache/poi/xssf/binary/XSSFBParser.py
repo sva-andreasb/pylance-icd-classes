@@ -1,8 +1,6 @@
 def XSSFBParser():
-'''public XSSFBParser(final InputStream is)
-'''
-pass
+    '''    public XSSFBParser(final InputStream is)
+    '''
 def parse():
-'''public void parse()
-'''
-pass
+    '''    public void parse()
+    '''

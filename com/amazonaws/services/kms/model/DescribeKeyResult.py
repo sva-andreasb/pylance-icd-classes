@@ -1,28 +1,21 @@
 def setKeyMetadata():
-'''public void setKeyMetadata(final KeyMetadata keyMetadata)
-'''
-pass
+    '''    public void setKeyMetadata(final KeyMetadata keyMetadata)
+    '''
 def getKeyMetadata():
-'''public KeyMetadata getKeyMetadata()
-'''
-pass
+    '''    public KeyMetadata getKeyMetadata()
+    '''
 def withKeyMetadata():
-'''public DescribeKeyResult withKeyMetadata(final KeyMetadata keyMetadata)
-'''
-pass
+    '''    public DescribeKeyResult withKeyMetadata(final KeyMetadata keyMetadata)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public DescribeKeyResult clone()
-'''
-pass
+    '''    public DescribeKeyResult clone()
+    '''

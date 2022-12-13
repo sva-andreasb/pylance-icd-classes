@@ -1,32 +1,24 @@
 def au():
-'''public au(final OutputStream out)
-'''
-pass
+    '''    public au(final OutputStream out)
+    '''
 def f():
-'''public void f(final short value)
-'''
-pass
+    '''    public void f(final short value)
+    '''
 def F():
-'''public void F(int swapInteger)
-'''
-pass
+    '''    public void F(int swapInteger)
+    '''
 def z():
-'''public void z(float swapFloat)
-'''
-pass
+    '''    public void z(float swapFloat)
+    '''
 def D():
-'''public void D(long swapLong)
-'''
-pass
+    '''    public void D(long swapLong)
+    '''
 def k():
-'''public void k(double swapDouble)
-'''
-pass
+    '''    public void k(double swapDouble)
+    '''
 def writeUnsignedInt():
-'''public void writeUnsignedInt(final long value)
-'''
-pass
+    '''    public void writeUnsignedInt(final long value)
+    '''
 def E():
-'''public void E(final long n)
-'''
-pass
+    '''    public void E(final long n)
+    '''

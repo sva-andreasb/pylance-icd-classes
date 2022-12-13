@@ -1,24 +1,18 @@
 def IntMappingDetailInfo():
-'''public IntMappingDetailInfo(final String attributeName, final String value, final byte[] encryptedValue, final int encryptValue)
-'''
-pass
+    '''    public IntMappingDetailInfo(final String attributeName, final String value, final byte[] encryptedValue, final int encryptValue)
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getParameter():
-'''public String getParameter()
-'''
-pass
+    '''    public String getParameter()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getEncryptedValue():
-'''public byte[] getEncryptedValue()
-'''
-pass
+    '''    public byte[] getEncryptedValue()
+    '''
 def isEncryped():
-'''public boolean isEncryped()
-'''
-pass
+    '''    public boolean isEncryped()
+    '''

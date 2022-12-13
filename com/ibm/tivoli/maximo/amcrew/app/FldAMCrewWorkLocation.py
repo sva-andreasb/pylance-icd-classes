@@ -1,8 +1,6 @@
 def FldAMCrewWorkLocation():
-'''public FldAMCrewWorkLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewWorkLocation(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

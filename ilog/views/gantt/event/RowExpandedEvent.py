@@ -1,56 +1,42 @@
 def RowExpandedEvent():
-'''public RowExpandedEvent(final IlvGanttConfiguration source, final IlvHierarchyNode[] a, final IlvHierarchyNode[] b, final int c)
-'''
-pass
+    '''    public RowExpandedEvent(final IlvGanttConfiguration source, final IlvHierarchyNode[] a, final IlvHierarchyNode[] b, final int c)
+    '''
 def getGanttConfiguration():
-'''public IlvGanttConfiguration getGanttConfiguration()
-'''
-pass
+    '''    public IlvGanttConfiguration getGanttConfiguration()
+    '''
 def getGanttModel():
-'''public IlvGanttModel getGanttModel()
-'''
-pass
+    '''    public IlvGanttModel getGanttModel()
+    '''
 def getExpandedNodes():
-'''public IlvHierarchyNode[] getExpandedNodes()
-'''
-pass
+    '''    public IlvHierarchyNode[] getExpandedNodes()
+    '''
 def getExpandedNodeCount():
-'''public int getExpandedNodeCount()
-'''
-pass
+    '''    public int getExpandedNodeCount()
+    '''
 def getFirstExpandedNode():
-'''public IlvHierarchyNode getFirstExpandedNode()
-'''
-pass
+    '''    public IlvHierarchyNode getFirstExpandedNode()
+    '''
 def getLastExpandedNode():
-'''public IlvHierarchyNode getLastExpandedNode()
-'''
-pass
+    '''    public IlvHierarchyNode getLastExpandedNode()
+    '''
 def getVisibleNodes():
-'''public IlvHierarchyNode[] getVisibleNodes()
-'''
-pass
+    '''    public IlvHierarchyNode[] getVisibleNodes()
+    '''
 def getVisibleNodeCount():
-'''public int getVisibleNodeCount()
-'''
-pass
+    '''    public int getVisibleNodeCount()
+    '''
 def getFirstVisibleNode():
-'''public IlvHierarchyNode getFirstVisibleNode()
-'''
-pass
+    '''    public IlvHierarchyNode getFirstVisibleNode()
+    '''
 def getLastVisibleNode():
-'''public IlvHierarchyNode getLastVisibleNode()
-'''
-pass
+    '''    public IlvHierarchyNode getLastVisibleNode()
+    '''
 def getVisibleRowCount():
-'''public int getVisibleRowCount()
-'''
-pass
+    '''    public int getVisibleRowCount()
+    '''
 def getFirstVisibleRow():
-'''public int getFirstVisibleRow()
-'''
-pass
+    '''    public int getFirstVisibleRow()
+    '''
 def getLastVisibleRow():
-'''public int getLastVisibleRow()
-'''
-pass
+    '''    public int getLastVisibleRow()
+    '''

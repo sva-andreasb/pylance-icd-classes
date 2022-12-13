@@ -1,12 +1,9 @@
 def DMMapRulesTreeBean():
-'''public DMMapRulesTreeBean()
-'''
-pass
+    '''    public DMMapRulesTreeBean()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def structureChangedEvent():
-'''public synchronized void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void structureChangedEvent(final DataBean speaker)
+    '''

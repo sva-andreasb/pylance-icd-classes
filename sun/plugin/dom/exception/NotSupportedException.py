@@ -1,4 +1,3 @@
 def NotSupportedException():
-'''public NotSupportedException(final String message)
-'''
-pass
+    '''    public NotSupportedException(final String message)
+    '''

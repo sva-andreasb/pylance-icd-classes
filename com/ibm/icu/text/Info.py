@@ -1,16 +1,12 @@
 def Info():
-'''public Info()
-'''
-pass
+    '''    public Info()
+    '''
 def hasErrors():
-'''public boolean hasErrors()
-'''
-pass
+    '''    public boolean hasErrors()
+    '''
 def getErrors():
-'''public Set<Error> getErrors()
-'''
-pass
+    '''    public Set<Error> getErrors()
+    '''
 def isTransitionalDifferent():
-'''public boolean isTransitionalDifferent()
-'''
-pass
+    '''    public boolean isTransitionalDifferent()
+    '''

@@ -1,4 +1,3 @@
 def FldAssignLaborCraft():
-'''public FldAssignLaborCraft(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignLaborCraft(final MboValue mbv)
+    '''

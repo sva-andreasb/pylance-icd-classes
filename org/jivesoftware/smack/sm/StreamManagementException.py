@@ -1,53 +1,40 @@
 def StreamManagementException():
-'''public StreamManagementException()
-public StreamManagementException(final String message)
-'''
-pass
+    '''    public StreamManagementException()
+    public StreamManagementException(final String message)
+    '''
 def StreamIdDoesNotMatchException():
-'''public StreamIdDoesNotMatchException(final String expected, final String got)
-'''
-pass
+    '''    public StreamIdDoesNotMatchException(final String expected, final String got)
+    '''
 def StreamManagementCounterError():
-'''public StreamManagementCounterError(final long handledCount, final long previousServerHandlerCount, final long ackedStanzaCount, final List<Stanza> ackedStanzas)
-'''
-pass
+    '''    public StreamManagementCounterError(final long handledCount, final long previousServerHandlerCount, final long ackedStanzaCount, final List<Stanza> ackedStanzas)
+    '''
 def getHandledCount():
-'''public long getHandledCount()
-'''
-pass
+    '''    public long getHandledCount()
+    '''
 def getPreviousServerHandledCount():
-'''public long getPreviousServerHandledCount()
-'''
-pass
+    '''    public long getPreviousServerHandledCount()
+    '''
 def getAckedStanzaCount():
-'''public long getAckedStanzaCount()
-'''
-pass
+    '''    public long getAckedStanzaCount()
+    '''
 def getOutstandingStanzasCount():
-'''public int getOutstandingStanzasCount()
-'''
-pass
+    '''    public int getOutstandingStanzasCount()
+    '''
 def getAckedStanzas():
-'''public List<Stanza> getAckedStanzas()
-'''
-pass
+    '''    public List<Stanza> getAckedStanzas()
+    '''
 def getOverflowElementNum():
-'''public int getOverflowElementNum()
-'''
-pass
+    '''    public int getOverflowElementNum()
+    '''
 def getDroppedElements():
-'''public int getDroppedElements()
-'''
-pass
+    '''    public int getDroppedElements()
+    '''
 def getElements():
-'''public List<Element> getElements()
-'''
-pass
+    '''    public List<Element> getElements()
+    '''
 def getUnacknowledgesStanzas():
-'''public List<Stanza> getUnacknowledgesStanzas()
-'''
-pass
+    '''    public List<Stanza> getUnacknowledgesStanzas()
+    '''
 def newWith():
-'''public static UnacknowledgedQueueFullException newWith(final int overflowElementNum, final List<Element> elements, final BlockingQueue<Stanza> unacknowledgedStanzas)
-'''
-pass
+    '''    public static UnacknowledgedQueueFullException newWith(final int overflowElementNum, final List<Element> elements, final BlockingQueue<Stanza> unacknowledgedStanzas)
+    '''

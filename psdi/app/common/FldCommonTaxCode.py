@@ -1,16 +1,12 @@
 def FldCommonTaxCode():
-'''public FldCommonTaxCode(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonTaxCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

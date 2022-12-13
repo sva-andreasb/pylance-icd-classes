@@ -1,8 +1,6 @@
 def name():
-'''public static String name()
-'''
-pass
+    '''    public static String name()
+    '''
 def TableDescSPO():
-'''public TableDescSPO()
-'''
-pass
+    '''    public TableDescSPO()
+    '''

@@ -1,16 +1,12 @@
 def PlusPFldReconTaskLinkRuleName():
-'''public PlusPFldReconTaskLinkRuleName(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldReconTaskLinkRuleName(final MboValue arg0)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

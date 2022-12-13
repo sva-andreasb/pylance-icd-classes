@@ -1,48 +1,36 @@
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def setFieldName():
-'''public void setFieldName(final String fieldName)
-'''
-pass
+    '''    public void setFieldName(final String fieldName)
+    '''
 def getXmlName():
-'''public QName getXmlName()
-'''
-pass
+    '''    public QName getXmlName()
+    '''
 def setXmlName():
-'''public void setXmlName(final QName xmlName)
-'''
-pass
+    '''    public void setXmlName(final QName xmlName)
+    '''
 def getJavaType():
-'''public Class getJavaType()
-'''
-pass
+    '''    public Class getJavaType()
+    '''
 def setJavaType():
-'''public void setJavaType(final Class javaType)
-'''
-pass
+    '''    public void setJavaType(final Class javaType)
+    '''
 def getXmlType():
-'''public QName getXmlType()
-'''
-pass
+    '''    public QName getXmlType()
+    '''
 def setXmlType():
-'''public void setXmlType(final QName xmlType)
-'''
-pass
+    '''    public void setXmlType(final QName xmlType)
+    '''
 def isElement():
-'''public boolean isElement()
-'''
-pass
+    '''    public boolean isElement()
+    '''
 def isIndexed():
-'''public boolean isIndexed()
-'''
-pass
+    '''    public boolean isIndexed()
+    '''
 def isMinOccursZero():
-'''public boolean isMinOccursZero()
-'''
-pass
+    '''    public boolean isMinOccursZero()
+    '''
 def setMinOccursIs0():
-'''public void setMinOccursIs0(final boolean minOccursIs0)
-'''
-pass
+    '''    public void setMinOccursIs0(final boolean minOccursIs0)
+    '''

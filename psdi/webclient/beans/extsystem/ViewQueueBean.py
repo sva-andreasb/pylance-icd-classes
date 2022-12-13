@@ -1,4 +1,3 @@
 def VIEWQUEUERES():
-'''public int VIEWQUEUERES()
-'''
-pass
+    '''    public int VIEWQUEUERES()
+    '''

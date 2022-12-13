@@ -1,8 +1,6 @@
 def MaxPropProcess():
-'''public MaxPropProcess()
-'''
-pass
+    '''    public MaxPropProcess()
+    '''
 def afterProcess():
-'''public void afterProcess()
-'''
-pass
+    '''    public void afterProcess()
+    '''

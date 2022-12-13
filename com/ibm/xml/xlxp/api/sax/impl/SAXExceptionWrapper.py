@@ -1,16 +1,12 @@
 def SAXExceptionWrapper():
-'''public SAXExceptionWrapper(final SAXException ex)
-'''
-pass
+    '''    public SAXExceptionWrapper(final SAXException ex)
+    '''
 def getSAXException():
-'''public SAXException getSAXException()
-'''
-pass
+    '''    public SAXException getSAXException()
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

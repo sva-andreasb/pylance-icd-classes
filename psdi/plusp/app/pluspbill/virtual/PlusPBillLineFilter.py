@@ -1,64 +1,48 @@
 def PlusPBillLineFilter():
-'''public PlusPBillLineFilter(final MboSet ms)
-'''
-pass
+    '''    public PlusPBillLineFilter(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getFilterWhereForWOs():
-'''public String getFilterWhereForWOs()
-'''
-pass
+    '''    public String getFilterWhereForWOs()
+    '''
 def getFilterWhereForTKs():
-'''public String getFilterWhereForTKs()
-'''
-pass
+    '''    public String getFilterWhereForTKs()
+    '''
 def getFilterWhereBySO():
-'''public String getFilterWhereBySO()
-'''
-pass
+    '''    public String getFilterWhereBySO()
+    '''
 def getWOListCriteria():
-'''public String getWOListCriteria(final String s)
-'''
-pass
+    '''    public String getWOListCriteria(final String s)
+    '''
 def getTKListCriteria():
-'''public String getTKListCriteria(final String s)
-'''
-pass
+    '''    public String getTKListCriteria(final String s)
+    '''
 def getSOListCriteria():
-'''public String getSOListCriteria(final String s)
-'''
-pass
+    '''    public String getSOListCriteria(final String s)
+    '''
 def isWOFilterApplied():
-'''public boolean isWOFilterApplied()
-'''
-pass
+    '''    public boolean isWOFilterApplied()
+    '''
 def isTKFilterApplied():
-'''public boolean isTKFilterApplied()
-'''
-pass
+    '''    public boolean isTKFilterApplied()
+    '''
 def isSOFilterApplied():
-'''public boolean isSOFilterApplied()
-'''
-pass
+    '''    public boolean isSOFilterApplied()
+    '''
 def isFilterApplied():
-'''public boolean isFilterApplied()
-'''
-pass
+    '''    public boolean isFilterApplied()
+    '''
 def getDomainIDs():
-'''public String[] getDomainIDs(final String attr)
-'''
-pass
+    '''    public String[] getDomainIDs(final String attr)
+    '''
 def copyOrdersToListTable():
-'''public void copyOrdersToListTable(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void copyOrdersToListTable(final MboSetRemote mboSetRemote)
+    '''
 def setReadOnlyAllDialogFields():
-'''public void setReadOnlyAllDialogFields(final boolean b)
-'''
-pass
+    '''    public void setReadOnlyAllDialogFields(final boolean b)
+    '''
 def clearListTable():
-'''public void clearListTable()
-'''
-pass
+    '''    public void clearListTable()
+    '''

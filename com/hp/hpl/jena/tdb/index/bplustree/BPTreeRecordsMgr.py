@@ -1,48 +1,36 @@
 def allocateId():
-'''public int allocateId()
-'''
-pass
+    '''    public int allocateId()
+    '''
 def get():
-'''public BPTreeRecords get(final int id)
-'''
-pass
+    '''    public BPTreeRecords get(final int id)
+    '''
 def put():
-'''public void put(final BPTreeRecords bRec)
-'''
-pass
+    '''    public void put(final BPTreeRecords bRec)
+    '''
 def release():
-'''public void release(final int id)
-'''
-pass
+    '''    public void release(final int id)
+    '''
 def valid():
-'''public boolean valid(final int id)
-'''
-pass
+    '''    public boolean valid(final int id)
+    '''
 def create():
-'''public BPTreeRecords create(final int id)
-'''
-pass
+    '''    public BPTreeRecords create(final int id)
+    '''
 def getBlockMgr():
-'''public BlockMgr getBlockMgr()
-'''
-pass
+    '''    public BlockMgr getBlockMgr()
+    '''
 def dump():
-'''public void dump()
-'''
-pass
+    '''    public void dump()
+    '''
 def startRead():
-'''public void startRead()
-'''
-pass
+    '''    public void startRead()
+    '''
 def finishRead():
-'''public void finishRead()
-'''
-pass
+    '''    public void finishRead()
+    '''
 def startUpdate():
-'''public void startUpdate()
-'''
-pass
+    '''    public void startUpdate()
+    '''
 def finishUpdate():
-'''public void finishUpdate()
-'''
-pass
+    '''    public void finishUpdate()
+    '''

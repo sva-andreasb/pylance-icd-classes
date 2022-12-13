@@ -1,12 +1,9 @@
 def JsonNull():
-'''public JsonNull()
-'''
-pass
+    '''    public JsonNull()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''

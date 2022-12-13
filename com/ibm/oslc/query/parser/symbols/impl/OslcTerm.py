@@ -1,48 +1,36 @@
 def OslcTerm():
-'''public OslcTerm()
-'''
-pass
+    '''    public OslcTerm()
+    '''
 def getIdentifierWildcard():
-'''public String getIdentifierWildcard()
-'''
-pass
+    '''    public String getIdentifierWildcard()
+    '''
 def setIdentifierWildcard():
-'''public void setIdentifierWildcard(final String identifierWildcard)
-'''
-pass
+    '''    public void setIdentifierWildcard(final String identifierWildcard)
+    '''
 def getComparisonOperator():
-'''public String getComparisonOperator()
-'''
-pass
+    '''    public String getComparisonOperator()
+    '''
 def setComparisonOperator():
-'''public void setComparisonOperator(final String comparisonOperator)
-'''
-pass
+    '''    public void setComparisonOperator(final String comparisonOperator)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getInValues():
-'''public String[] getInValues()
-'''
-pass
+    '''    public String[] getInValues()
+    '''
 def setInValues():
-'''public void setInValues(final String[] inValues)
-'''
-pass
+    '''    public void setInValues(final String[] inValues)
+    '''
 def getCompoundTerms():
-'''public List<IOslcTerm> getCompoundTerms()
-'''
-pass
+    '''    public List<IOslcTerm> getCompoundTerms()
+    '''
 def setCompoundTerms():
-'''public void setCompoundTerms(final List<IOslcTerm> compoundTerms)
-'''
-pass
+    '''    public void setCompoundTerms(final List<IOslcTerm> compoundTerms)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

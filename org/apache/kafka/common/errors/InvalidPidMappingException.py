@@ -1,4 +1,3 @@
 def InvalidPidMappingException():
-'''public InvalidPidMappingException(final String message)
-'''
-pass
+    '''    public InvalidPidMappingException(final String message)
+    '''

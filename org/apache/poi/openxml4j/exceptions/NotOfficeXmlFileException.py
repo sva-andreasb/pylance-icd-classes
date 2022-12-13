@@ -1,4 +1,3 @@
 def NotOfficeXmlFileException():
-'''public NotOfficeXmlFileException(final String message)
-'''
-pass
+    '''    public NotOfficeXmlFileException(final String message)
+    '''

@@ -1,29 +1,22 @@
 def ConnectionExceptionHelper():
-'''public ConnectionExceptionHelper(final Exception exception)
-public ConnectionExceptionHelper(final SystemException system)
-'''
-pass
+    '''    public ConnectionExceptionHelper(final Exception exception)
+    public ConnectionExceptionHelper(final SystemException system)
+    '''
 def commFailure():
-'''public boolean commFailure()
-'''
-pass
+    '''    public boolean commFailure()
+    '''
 def allowRetry():
-'''public boolean allowRetry()
-'''
-pass
+    '''    public boolean allowRetry()
+    '''
 def getCompleted():
-'''public CompletionStatus getCompleted()
-'''
-pass
+    '''    public CompletionStatus getCompleted()
+    '''
 def getMinor():
-'''public int getMinor()
-'''
-pass
+    '''    public int getMinor()
+    '''
 def getException():
-'''public SystemException getException()
-'''
-pass
+    '''    public SystemException getException()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

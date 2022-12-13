@@ -1,12 +1,9 @@
 def AuditLBSLocationTableBean():
-'''public AuditLBSLocationTableBean()
-'''
-pass
+    '''    public AuditLBSLocationTableBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

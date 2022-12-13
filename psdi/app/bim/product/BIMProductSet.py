@@ -1,4 +1,3 @@
 def BIMProductSet():
-'''public BIMProductSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMProductSet(final MboServerInterface ms)
+    '''

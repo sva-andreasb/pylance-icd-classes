@@ -1,12 +1,9 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getBody():
-'''public String getBody()
-'''
-pass
+    '''    public String getBody()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

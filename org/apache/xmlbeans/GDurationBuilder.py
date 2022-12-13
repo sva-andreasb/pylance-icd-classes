@@ -1,115 +1,87 @@
 def GDurationBuilder():
-'''public GDurationBuilder()
-public GDurationBuilder(final String s)
-public GDurationBuilder(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-public GDurationBuilder(final GDurationSpecification gDuration)
-'''
-pass
+    '''    public GDurationBuilder()
+    public GDurationBuilder(final String s)
+    public GDurationBuilder(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
+    public GDurationBuilder(final GDurationSpecification gDuration)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def toGDuration():
-'''public GDuration toGDuration()
-'''
-pass
+    '''    public GDuration toGDuration()
+    '''
 def addGDuration():
-'''public void addGDuration(final GDurationSpecification duration)
-'''
-pass
+    '''    public void addGDuration(final GDurationSpecification duration)
+    '''
 def subtractGDuration():
-'''public void subtractGDuration(final GDurationSpecification duration)
-'''
-pass
+    '''    public void subtractGDuration(final GDurationSpecification duration)
+    '''
 def setSign():
-'''public final void setSign(final int sign)
-'''
-pass
+    '''    public final void setSign(final int sign)
+    '''
 def setYear():
-'''public void setYear(final int year)
-'''
-pass
+    '''    public void setYear(final int year)
+    '''
 def setMonth():
-'''public void setMonth(final int month)
-'''
-pass
+    '''    public void setMonth(final int month)
+    '''
 def setDay():
-'''public void setDay(final int day)
-'''
-pass
+    '''    public void setDay(final int day)
+    '''
 def setHour():
-'''public void setHour(final int hour)
-'''
-pass
+    '''    public void setHour(final int hour)
+    '''
 def setMinute():
-'''public void setMinute(final int minute)
-'''
-pass
+    '''    public void setMinute(final int minute)
+    '''
 def setSecond():
-'''public void setSecond(final int second)
-'''
-pass
+    '''    public void setSecond(final int second)
+    '''
 def setFraction():
-'''public void setFraction(final BigDecimal fraction)
-'''
-pass
+    '''    public void setFraction(final BigDecimal fraction)
+    '''
 def isImmutable():
-'''public final boolean isImmutable()
-'''
-pass
+    '''    public final boolean isImmutable()
+    '''
 def getSign():
-'''public final int getSign()
-'''
-pass
+    '''    public final int getSign()
+    '''
 def getYear():
-'''public final int getYear()
-'''
-pass
+    '''    public final int getYear()
+    '''
 def getMonth():
-'''public final int getMonth()
-'''
-pass
+    '''    public final int getMonth()
+    '''
 def getDay():
-'''public final int getDay()
-'''
-pass
+    '''    public final int getDay()
+    '''
 def getHour():
-'''public final int getHour()
-'''
-pass
+    '''    public final int getHour()
+    '''
 def getMinute():
-'''public final int getMinute()
-'''
-pass
+    '''    public final int getMinute()
+    '''
 def getSecond():
-'''public final int getSecond()
-'''
-pass
+    '''    public final int getSecond()
+    '''
 def getFraction():
-'''public BigDecimal getFraction()
-'''
-pass
+    '''    public BigDecimal getFraction()
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''
 def compareToGDuration():
-'''public final int compareToGDuration(final GDurationSpecification duration)
-'''
-pass
+    '''    public final int compareToGDuration(final GDurationSpecification duration)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toPlainString():
-'''public static String toPlainString(final BigDecimal bd)
-'''
-pass
+    '''    public static String toPlainString(final BigDecimal bd)
+    '''
 def stripTrailingZeros():
-'''public static String stripTrailingZeros(final String s)
-'''
-pass
+    '''    public static String stripTrailingZeros(final String s)
+    '''

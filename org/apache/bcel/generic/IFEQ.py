@@ -1,12 +1,9 @@
 def IFEQ():
-'''public IFEQ(final InstructionHandle target)
-'''
-pass
+    '''    public IFEQ(final InstructionHandle target)
+    '''
 def negate():
-'''public IfInstruction negate()
-'''
-pass
+    '''    public IfInstruction negate()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

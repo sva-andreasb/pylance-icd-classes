@@ -1,12 +1,9 @@
 def RoleInfo():
-'''public RoleInfo()
-'''
-pass
+    '''    public RoleInfo()
+    '''
 def addUser():
-'''public void addUser(final String personId)
-'''
-pass
+    '''    public void addUser(final String personId)
+    '''
 def hasUser():
-'''public boolean hasUser(final String personId)
-'''
-pass
+    '''    public boolean hasUser(final String personId)
+    '''

@@ -1,20 +1,15 @@
 def getInstance():
-'''public static synchronized DNSResolver getInstance()
-'''
-pass
+    '''    public static synchronized DNSResolver getInstance()
+    '''
 def isSupported():
-'''public static boolean isSupported()
-'''
-pass
+    '''    public static boolean isSupported()
+    '''
 def setup():
-'''public static void setup()
-'''
-pass
+    '''    public static void setup()
+    '''
 def JavaxResolver():
-'''public JavaxResolver()
-'''
-pass
+    '''    public JavaxResolver()
+    '''
 def initialize():
-'''public List<Exception> initialize()
-'''
-pass
+    '''    public List<Exception> initialize()
+    '''

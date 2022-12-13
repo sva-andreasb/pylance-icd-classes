@@ -1,88 +1,66 @@
 def createDname():
-'''public DistinguishedName createDname()
-'''
-pass
+    '''    public DistinguishedName createDname()
+    '''
 def setDname():
-'''public void setDname(final String dname)
-'''
-pass
+    '''    public void setDname(final String dname)
+    '''
 def setAlias():
-'''public void setAlias(final String alias)
-'''
-pass
+    '''    public void setAlias(final String alias)
+    '''
 def setKeystore():
-'''public void setKeystore(final String keystore)
-'''
-pass
+    '''    public void setKeystore(final String keystore)
+    '''
 def setStorepass():
-'''public void setStorepass(final String storepass)
-'''
-pass
+    '''    public void setStorepass(final String storepass)
+    '''
 def setStoretype():
-'''public void setStoretype(final String storetype)
-'''
-pass
+    '''    public void setStoretype(final String storetype)
+    '''
 def setKeypass():
-'''public void setKeypass(final String keypass)
-'''
-pass
+    '''    public void setKeypass(final String keypass)
+    '''
 def setSigalg():
-'''public void setSigalg(final String sigalg)
-'''
-pass
+    '''    public void setSigalg(final String sigalg)
+    '''
 def setKeyalg():
-'''public void setKeyalg(final String keyalg)
-'''
-pass
+    '''    public void setKeyalg(final String keyalg)
+    '''
 def setKeysize():
-'''public void setKeysize(final String keysize)
-'''
-pass
+    '''    public void setKeysize(final String keysize)
+    '''
 def setValidity():
-'''public void setValidity(final String validity)
-'''
-pass
+    '''    public void setValidity(final String validity)
+    '''
 def setVerbose():
-'''public void setVerbose(final boolean verbose)
-'''
-pass
+    '''    public void setVerbose(final boolean verbose)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def DistinguishedName():
-'''public DistinguishedName()
-'''
-pass
+    '''    public DistinguishedName()
+    '''
 def createParam():
-'''public Object createParam()
-'''
-pass
+    '''    public Object createParam()
+    '''
 def getParams():
-'''public Enumeration getParams()
-'''
-pass
+    '''    public Enumeration getParams()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def encode():
-'''public String encode(final String string)
-'''
-pass
+    '''    public String encode(final String string)
+    '''

@@ -1,8 +1,6 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def PlusCAssetTemplateHistory():
-'''public PlusCAssetTemplateHistory(final MboSet ms)
-'''
-pass
+    '''    public PlusCAssetTemplateHistory(final MboSet ms)
+    '''

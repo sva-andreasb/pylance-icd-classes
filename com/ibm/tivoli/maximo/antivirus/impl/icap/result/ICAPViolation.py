@@ -1,36 +1,27 @@
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def setFileName():
-'''public void setFileName(final String fileName)
-'''
-pass
+    '''    public void setFileName(final String fileName)
+    '''
 def getViolationType():
-'''public String getViolationType()
-'''
-pass
+    '''    public String getViolationType()
+    '''
 def setViolationType():
-'''public void setViolationType(final String violationType)
-'''
-pass
+    '''    public void setViolationType(final String violationType)
+    '''
 def getProblemID():
-'''public int getProblemID()
-'''
-pass
+    '''    public int getProblemID()
+    '''
 def setProblemID():
-'''public void setProblemID(final int problemID)
-'''
-pass
+    '''    public void setProblemID(final int problemID)
+    '''
 def getResolutionID():
-'''public RESOLUTION_ID getResolutionID()
-'''
-pass
+    '''    public RESOLUTION_ID getResolutionID()
+    '''
 def setResolutionID():
-'''public void setResolutionID(final int resolutionID)
-'''
-pass
+    '''    public void setResolutionID(final int resolutionID)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

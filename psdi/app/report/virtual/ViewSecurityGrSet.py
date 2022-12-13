@@ -1,8 +1,6 @@
 def ViewSecurityGrSet():
-'''public ViewSecurityGrSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ViewSecurityGrSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

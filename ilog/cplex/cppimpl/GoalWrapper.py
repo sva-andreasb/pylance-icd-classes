@@ -1,25 +1,19 @@
 def GoalWrapper():
-'''public GoalWrapper(final long cPtr, final boolean cMemoryOwn)
-public GoalWrapper()
-'''
-pass
+    '''    public GoalWrapper(final long cPtr, final boolean cMemoryOwn)
+    public GoalWrapper()
+    '''
 def getCPtr():
-'''public static long getCPtr(final GoalWrapper obj)
-'''
-pass
+    '''    public static long getCPtr(final GoalWrapper obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def setEnv():
-'''public void setEnv(final IloEnv env)
-'''
-pass
+    '''    public void setEnv(final IloEnv env)
+    '''
 def execute():
-'''public IloCplex__Goal execute()
-'''
-pass
+    '''    public IloCplex__Goal execute()
+    '''
 def duplicateGoal():
-'''public IloCplex__Goal duplicateGoal()
-'''
-pass
+    '''    public IloCplex__Goal duplicateGoal()
+    '''

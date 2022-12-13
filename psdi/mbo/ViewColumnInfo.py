@@ -1,37 +1,28 @@
-CACHE_NAME = "String  BMX.MAXIMODD.VCI""
+CACHE_NAME = "String  \"BMX.MAXIMODD.VCI\""
 def getTypedReference():
-'''public ViewColumnInfoBase getTypedReference()
-'''
-pass
+    '''    public ViewColumnInfoBase getTypedReference()
+    '''
 def getTypedReferenceForSet():
-'''public ViewColumnInfoBase getTypedReferenceForSet()
-'''
-pass
+    '''    public ViewColumnInfoBase getTypedReferenceForSet()
+    '''
 def getSameStorageAs():
-'''public String getSameStorageAs()
-'''
-pass
+    '''    public String getSameStorageAs()
+    '''
 def getTableColumnName():
-'''public String getTableColumnName()
-'''
-pass
+    '''    public String getTableColumnName()
+    '''
 def getTableName():
-'''public String getTableName()
-'''
-pass
+    '''    public String getTableName()
+    '''
 def getViewColumnName():
-'''public String getViewColumnName()
-'''
-pass
+    '''    public String getViewColumnName()
+    '''
 def getViewName():
-'''public String getViewName()
-'''
-pass
+    '''    public String getViewName()
+    '''
 def isTenantOwned():
-'''public boolean isTenantOwned()
-'''
-pass
+    '''    public boolean isTenantOwned()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

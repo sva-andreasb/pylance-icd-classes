@@ -1,8 +1,6 @@
 def GRCrewAssignmentBean():
-'''public GRCrewAssignmentBean()
-'''
-pass
+    '''    public GRCrewAssignmentBean()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

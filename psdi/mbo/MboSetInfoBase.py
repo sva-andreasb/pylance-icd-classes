@@ -1,236 +1,177 @@
 def getKeyRelationshipWhere():
-'''public String getKeyRelationshipWhere()
-'''
-pass
+    '''    public String getKeyRelationshipWhere()
+    '''
 def setKeyRelationshipWhere():
-'''public void setKeyRelationshipWhere(final String keyRelationshipWhere)
-'''
-pass
+    '''    public void setKeyRelationshipWhere(final String keyRelationshipWhere)
+    '''
 def getUniqueEntityColumns():
-'''public HashSet<String> getUniqueEntityColumns()
-'''
-pass
+    '''    public HashSet<String> getUniqueEntityColumns()
+    '''
 def setUniqueEntityColumns():
-'''public void setUniqueEntityColumns(final HashSet<String> uniqueEntityColumns)
-'''
-pass
+    '''    public void setUniqueEntityColumns(final HashSet<String> uniqueEntityColumns)
+    '''
 def isIncludedParentRelationship():
-'''public boolean isIncludedParentRelationship()
-'''
-pass
+    '''    public boolean isIncludedParentRelationship()
+    '''
 def setIncludedParentRelationship():
-'''public void setIncludedParentRelationship(final boolean includedParentRelationship)
-'''
-pass
+    '''    public void setIncludedParentRelationship(final boolean includedParentRelationship)
+    '''
 def getUniqueIDName():
-'''public String getUniqueIDName()
-'''
-pass
+    '''    public String getUniqueIDName()
+    '''
 def setUniqueIDName():
-'''public void setUniqueIDName(final String name)
-'''
-pass
+    '''    public void setUniqueIDName(final String name)
+    '''
 def getContentAttrName():
-'''public String getContentAttrName()
-'''
-pass
+    '''    public String getContentAttrName()
+    '''
 def setContentAttrName():
-'''public void setContentAttrName(final String name)
-'''
-pass
+    '''    public void setContentAttrName(final String name)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isMainObject():
-'''public boolean isMainObject()
-'''
-pass
+    '''    public boolean isMainObject()
+    '''
 def setMainObject():
-'''public void setMainObject(final boolean mainObject)
-'''
-pass
+    '''    public void setMainObject(final boolean mainObject)
+    '''
 def isEAuditEnabled():
-'''public boolean isEAuditEnabled()
-'''
-pass
+    '''    public boolean isEAuditEnabled()
+    '''
 def setEAuditEnabled():
-'''public void setEAuditEnabled(final boolean enabled)
-'''
-pass
+    '''    public void setEAuditEnabled(final boolean enabled)
+    '''
 def getEAuditFilter():
-'''public String getEAuditFilter()
-'''
-pass
+    '''    public String getEAuditFilter()
+    '''
 def setEAuditFilter():
-'''public void setEAuditFilter(final String filter)
-'''
-pass
+    '''    public void setEAuditFilter(final String filter)
+    '''
 def getESigFilter():
-'''public String getESigFilter()
-'''
-pass
+    '''    public String getESigFilter()
+    '''
 def setESigFilter():
-'''public void setESigFilter(final String filter)
-'''
-pass
+    '''    public void setESigFilter(final String filter)
+    '''
 def getEntityName():
-'''public String getEntityName()
-'''
-pass
+    '''    public String getEntityName()
+    '''
 def setEntityName():
-'''public void setEntityName(final String entityName)
-'''
-pass
+    '''    public void setEntityName(final String entityName)
+    '''
 def getExtendsObject():
-'''public String getExtendsObject()
-'''
-pass
+    '''    public String getExtendsObject()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def isNOSql():
-'''public boolean isNOSql()
-'''
-pass
+    '''    public boolean isNOSql()
+    '''
 def setExtendsObject():
-'''public void setExtendsObject(final String baseBusinessObjectName)
-'''
-pass
+    '''    public void setExtendsObject(final String baseBusinessObjectName)
+    '''
 def isView():
-'''public boolean isView()
-'''
-pass
+    '''    public boolean isView()
+    '''
 def setView():
-'''public void setView(final boolean view)
-'''
-pass
+    '''    public void setView(final boolean view)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def setPersistent():
-'''public void setPersistent(final boolean persistent)
-'''
-pass
+    '''    public void setPersistent(final boolean persistent)
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def setServiceName():
-'''public void setServiceName(final String serviceName)
-'''
-pass
+    '''    public void setServiceName(final String serviceName)
+    '''
 def getSiteOrgType():
-'''public int getSiteOrgType()
-'''
-pass
+    '''    public int getSiteOrgType()
+    '''
 def getSiteOrgTypeAsString():
-'''public String getSiteOrgTypeAsString()
-'''
-pass
+    '''    public String getSiteOrgTypeAsString()
+    '''
 def isUserdefined():
-'''public boolean isUserdefined()
-'''
-pass
+    '''    public boolean isUserdefined()
+    '''
 def setUserdefined():
-'''public void setUserdefined(final boolean userdefined)
-'''
-pass
+    '''    public void setUserdefined(final boolean userdefined)
+    '''
 def isImported():
-'''public boolean isImported()
-'''
-pass
+    '''    public boolean isImported()
+    '''
 def setImported():
-'''public void setImported(final boolean imported)
-'''
-pass
+    '''    public void setImported(final boolean imported)
+    '''
 def isInternal():
-'''public boolean isInternal()
-'''
-pass
+    '''    public boolean isInternal()
+    '''
 def setInternal():
-'''public void setInternal(final boolean flag)
-'''
-pass
+    '''    public void setInternal(final boolean flag)
+    '''
 def setSiteOrgType():
-'''public void setSiteOrgType(final String level)
-'''
-pass
+    '''    public void setSiteOrgType(final String level)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInitEventName():
-'''public String getInitEventName()
-'''
-pass
+    '''    public String getInitEventName()
+    '''
 def getAppValidateEventName():
-'''public String getAppValidateEventName()
-'''
-pass
+    '''    public String getAppValidateEventName()
+    '''
 def setFetchStopLimit():
-'''public void setFetchStopLimit(final int max)
-'''
-pass
+    '''    public void setFetchStopLimit(final int max)
+    '''
 def getFetchStopLimit():
-'''public int getFetchStopLimit()
-'''
-pass
+    '''    public int getFetchStopLimit()
+    '''
 def getTextdirection():
-'''public String getTextdirection()
-'''
-pass
+    '''    public String getTextdirection()
+    '''
 def setTextdirection():
-'''public void setTextdirection(final String string)
-'''
-pass
+    '''    public void setTextdirection(final String string)
+    '''
 def setHierarchyList():
-'''public void setHierarchyList(final List<String> hierarchyList)
-'''
-pass
+    '''    public void setHierarchyList(final List<String> hierarchyList)
+    '''
 def getHierarchyList():
-'''public List<String> getHierarchyList()
-'''
-pass
+    '''    public List<String> getHierarchyList()
+    '''
 def getLatitude():
-'''public String getLatitude()
-'''
-pass
+    '''    public String getLatitude()
+    '''
 def getLongtitude():
-'''public String getLongtitude()
-'''
-pass
+    '''    public String getLongtitude()
+    '''
 def setLatitude():
-'''public void setLatitude(final String refy)
-'''
-pass
+    '''    public void setLatitude(final String refy)
+    '''
 def setLongtitude():
-'''public void setLongtitude(final String refx)
-'''
-pass
+    '''    public void setLongtitude(final String refx)
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

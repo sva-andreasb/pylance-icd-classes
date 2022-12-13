@@ -1,49 +1,37 @@
 def MBeanServerDelegate():
-'''public MBeanServerDelegate()
-'''
-pass
+    '''    public MBeanServerDelegate()
+    '''
 def getImplementationName():
-'''public String getImplementationName()
-'''
-pass
+    '''    public String getImplementationName()
+    '''
 def getImplementationVendor():
-'''public String getImplementationVendor()
-'''
-pass
+    '''    public String getImplementationVendor()
+    '''
 def getImplementationVersion():
-'''public String getImplementationVersion()
-'''
-pass
+    '''    public String getImplementationVersion()
+    '''
 def getMBeanServerId():
-'''public synchronized String getMBeanServerId()
-'''
-pass
+    '''    public synchronized String getMBeanServerId()
+    '''
 def getSpecificationName():
-'''public String getSpecificationName()
-'''
-pass
+    '''    public String getSpecificationName()
+    '''
 def getSpecificationVendor():
-'''public String getSpecificationVendor()
-'''
-pass
+    '''    public String getSpecificationVendor()
+    '''
 def getSpecificationVersion():
-'''public String getSpecificationVersion()
-'''
-pass
+    '''    public String getSpecificationVersion()
+    '''
 def getNotificationInfo():
-'''public MBeanNotificationInfo[] getNotificationInfo()
-'''
-pass
+    '''    public MBeanNotificationInfo[] getNotificationInfo()
+    '''
 def sendNotification():
-'''public void sendNotification(final Notification notification)
-'''
-pass
+    '''    public void sendNotification(final Notification notification)
+    '''
 def removeNotificationListener():
-'''public synchronized void removeNotificationListener(final NotificationListener notificationListener)
-public synchronized void removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
-'''
-pass
+    '''    public synchronized void removeNotificationListener(final NotificationListener notificationListener)
+    public synchronized void removeNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
+    '''
 def addNotificationListener():
-'''public synchronized void addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
-'''
-pass
+    '''    public synchronized void addNotificationListener(final NotificationListener notificationListener, final NotificationFilter notificationFilter, final Object o)
+    '''

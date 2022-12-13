@@ -1,12 +1,9 @@
 def DefaultChildSelector():
-'''public DefaultChildSelector(final Selector ancestor, final SimpleSelector simple)
-'''
-pass
+    '''    public DefaultChildSelector(final Selector ancestor, final SimpleSelector simple)
+    '''
 def getSelectorType():
-'''public short getSelectorType()
-'''
-pass
+    '''    public short getSelectorType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

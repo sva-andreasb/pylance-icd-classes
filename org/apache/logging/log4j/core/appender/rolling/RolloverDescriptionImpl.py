@@ -1,20 +1,15 @@
 def RolloverDescriptionImpl():
-'''public RolloverDescriptionImpl(final String activeFileName, final boolean append, final Action synchronous, final Action asynchronous)
-'''
-pass
+    '''    public RolloverDescriptionImpl(final String activeFileName, final boolean append, final Action synchronous, final Action asynchronous)
+    '''
 def getActiveFileName():
-'''public String getActiveFileName()
-'''
-pass
+    '''    public String getActiveFileName()
+    '''
 def getAppend():
-'''public boolean getAppend()
-'''
-pass
+    '''    public boolean getAppend()
+    '''
 def getSynchronous():
-'''public Action getSynchronous()
-'''
-pass
+    '''    public Action getSynchronous()
+    '''
 def getAsynchronous():
-'''public Action getAsynchronous()
-'''
-pass
+    '''    public Action getAsynchronous()
+    '''

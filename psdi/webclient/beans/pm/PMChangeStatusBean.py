@@ -1,20 +1,15 @@
 def PMChangeStatusBean():
-'''public PMChangeStatusBean()
-'''
-pass
+    '''    public PMChangeStatusBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def beforedolongop():
-'''public int beforedolongop()
-'''
-pass
+    '''    public int beforedolongop()
+    '''
 def cancelYesNOMessage():
-'''public boolean cancelYesNOMessage(final Enumeration enumit)
-'''
-pass
+    '''    public boolean cancelYesNOMessage(final Enumeration enumit)
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(final String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''

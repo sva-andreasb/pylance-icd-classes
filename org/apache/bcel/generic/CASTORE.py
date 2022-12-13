@@ -1,8 +1,6 @@
 def CASTORE():
-'''public CASTORE()
-'''
-pass
+    '''    public CASTORE()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

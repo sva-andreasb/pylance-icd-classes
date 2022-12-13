@@ -1,8 +1,6 @@
 def FldWPLaborID():
-'''public FldWPLaborID(final MboValue mbv)
-'''
-pass
+    '''    public FldWPLaborID(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

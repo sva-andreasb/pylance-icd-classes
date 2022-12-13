@@ -1,8 +1,6 @@
 def SearchFieldsBuilder():
-'''public SearchFieldsBuilder(final String indexDirectory)
-'''
-pass
+    '''    public SearchFieldsBuilder(final String indexDirectory)
+    '''
 def getList():
-'''public String[] getList(final List<String> configSearch)
-'''
-pass
+    '''    public String[] getList(final List<String> configSearch)
+    '''

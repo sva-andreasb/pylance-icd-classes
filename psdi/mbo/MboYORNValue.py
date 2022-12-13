@@ -1,4 +1,3 @@
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''

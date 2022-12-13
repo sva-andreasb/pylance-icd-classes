@@ -1,8 +1,6 @@
 def CREINTTAB():
-'''public int CREINTTAB()
-'''
-pass
+    '''    public int CREINTTAB()
+    '''
 def SETUPCNTRL():
-'''public int SETUPCNTRL()
-'''
-pass
+    '''    public int SETUPCNTRL()
+    '''

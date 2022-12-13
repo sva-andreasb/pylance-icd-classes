@@ -1,4 +1,3 @@
 def PlusPBBCopyHistorySet():
-'''public PlusPBBCopyHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPBBCopyHistorySet(final MboServerInterface ms)
+    '''

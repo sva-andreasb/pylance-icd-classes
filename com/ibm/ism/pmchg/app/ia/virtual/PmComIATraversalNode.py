@@ -1,12 +1,9 @@
 def PmComIATraversalNode():
-'''public PmComIATraversalNode(final MboSet ms)
-'''
-pass
+    '''    public PmComIATraversalNode(final MboSet ms)
+    '''
 def getUniqueIDName():
-'''public String getUniqueIDName()
-'''
-pass
+    '''    public String getUniqueIDName()
+    '''
 def getUniqueIDValue():
-'''public long getUniqueIDValue()
-'''
-pass
+    '''    public long getUniqueIDValue()
+    '''

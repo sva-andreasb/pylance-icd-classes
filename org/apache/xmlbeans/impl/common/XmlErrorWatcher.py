@@ -1,24 +1,18 @@
 def XmlErrorWatcher():
-'''public XmlErrorWatcher(final Collection underlying)
-'''
-pass
+    '''    public XmlErrorWatcher(final Collection underlying)
+    '''
 def add():
-'''public boolean add(final Object o)
-'''
-pass
+    '''    public boolean add(final Object o)
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def hasError():
-'''public boolean hasError()
-'''
-pass
+    '''    public boolean hasError()
+    '''
 def firstError():
-'''public XmlError firstError()
-'''
-pass
+    '''    public XmlError firstError()
+    '''

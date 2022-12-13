@@ -1,8 +1,6 @@
 def PlusPFldTicketResponsePlan():
-'''public PlusPFldTicketResponsePlan(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTicketResponsePlan(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

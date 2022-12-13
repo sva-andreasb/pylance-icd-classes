@@ -1,9 +1,7 @@
 def PlusPFldTicketState():
-'''public PlusPFldTicketState()
-public PlusPFldTicketState(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTicketState()
+    public PlusPFldTicketState(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

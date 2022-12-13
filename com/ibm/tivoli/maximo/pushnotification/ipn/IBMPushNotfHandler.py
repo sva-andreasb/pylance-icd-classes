@@ -1,43 +1,33 @@
-PUSHNOTF_LOGGER = "String  maximo.pushnotification""
-MESSAGE_KEY = "String  message""
+PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
+MESSAGE_KEY = "String  \"message\""
 def IBMPushNotfHandler():
-'''public IBMPushNotfHandler(final NotificationMessage notificationMessage)
-public IBMPushNotfHandler()
-'''
-pass
+    '''    public IBMPushNotfHandler(final NotificationMessage notificationMessage)
+    public IBMPushNotfHandler()
+    '''
 def setProviderCredentials():
-'''public void setProviderCredentials(final String deviceType, final String clientSecret, final String appGUID, final String authURL, final String endpointUrl, final String apiKey)
-'''
-pass
+    '''    public void setProviderCredentials(final String deviceType, final String clientSecret, final String appGUID, final String authURL, final String endpointUrl, final String apiKey)
+    '''
 def invoke():
-'''public byte[] invoke(final Map metaData, byte[] data)
-'''
-pass
+    '''    public byte[] invoke(final Map metaData, byte[] data)
+    '''
 def getHandlerURL():
-'''public String getHandlerURL()
-'''
-pass
+    '''    public String getHandlerURL()
+    '''
 def getAuthURL():
-'''public String getAuthURL()
-'''
-pass
+    '''    public String getAuthURL()
+    '''
 def getHeaders():
-'''public Map getHeaders()
-'''
-pass
+    '''    public Map getHeaders()
+    '''
 def getIBMNotificationMessage():
-'''public IBMNotificationMessage getIBMNotificationMessage()
-'''
-pass
+    '''    public IBMNotificationMessage getIBMNotificationMessage()
+    '''
 def setMessagePayload():
-'''public void setMessagePayload()
-'''
-pass
+    '''    public void setMessagePayload()
+    '''
 def getMessagePayload():
-'''public byte[] getMessagePayload()
-'''
-pass
+    '''    public byte[] getMessagePayload()
+    '''
 def getProperties():
-'''public List<RouterPropsInfo> getProperties()
-'''
-pass
+    '''    public List<RouterPropsInfo> getProperties()
+    '''

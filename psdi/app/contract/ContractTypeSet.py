@@ -1,4 +1,3 @@
 def ContractTypeSet():
-'''public ContractTypeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContractTypeSet(final MboServerInterface ms)
+    '''

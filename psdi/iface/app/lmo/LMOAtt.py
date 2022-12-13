@@ -1,20 +1,15 @@
 def LMOAtt():
-'''public LMOAtt(final MboSet ms)
-'''
-pass
+    '''    public LMOAtt(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

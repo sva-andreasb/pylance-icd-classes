@@ -1,12 +1,9 @@
 def SKDEditConstraintDialogBean():
-'''public SKDEditConstraintDialogBean()
-'''
-pass
+    '''    public SKDEditConstraintDialogBean()
+    '''
 def setconstraint():
-'''public int setconstraint()
-'''
-pass
+    '''    public int setconstraint()
+    '''
 def getValuesForApplet():
-'''public String getValuesForApplet()
-'''
-pass
+    '''    public String getValuesForApplet()
+    '''

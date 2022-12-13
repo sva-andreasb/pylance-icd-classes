@@ -1,8 +1,6 @@
 def Resource():
-'''public Resource(final String resource)
-'''
-pass
+    '''    public Resource(final String resource)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''

@@ -1,4 +1,3 @@
 def AsyncJobObjSnapSet():
-'''public AsyncJobObjSnapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AsyncJobObjSnapSet(final MboServerInterface ms)
+    '''

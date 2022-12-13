@@ -1,12 +1,9 @@
 def MethodDispatcher():
-'''public MethodDispatcher(final Method method)
-'''
-pass
+    '''    public MethodDispatcher(final Method method)
+    '''
 def invoke():
-'''public Object invoke(final Object obj, final Object[] array)
-'''
-pass
+    '''    public Object invoke(final Object obj, final Object[] array)
+    '''
 def getReturnType():
-'''public Class getReturnType()
-'''
-pass
+    '''    public Class getReturnType()
+    '''

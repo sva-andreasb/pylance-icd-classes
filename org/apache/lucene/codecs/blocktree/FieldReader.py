@@ -1,68 +1,51 @@
 def getMin():
-'''public BytesRef getMin()
-'''
-pass
+    '''    public BytesRef getMin()
+    '''
 def getMax():
-'''public BytesRef getMax()
-'''
-pass
+    '''    public BytesRef getMax()
+    '''
 def getStats():
-'''public Stats getStats()
-'''
-pass
+    '''    public Stats getStats()
+    '''
 def hasFreqs():
-'''public boolean hasFreqs()
-'''
-pass
+    '''    public boolean hasFreqs()
+    '''
 def hasOffsets():
-'''public boolean hasOffsets()
-'''
-pass
+    '''    public boolean hasOffsets()
+    '''
 def hasPositions():
-'''public boolean hasPositions()
-'''
-pass
+    '''    public boolean hasPositions()
+    '''
 def hasPayloads():
-'''public boolean hasPayloads()
-'''
-pass
+    '''    public boolean hasPayloads()
+    '''
 def iterator():
-'''public TermsEnum iterator()
-'''
-pass
+    '''    public TermsEnum iterator()
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''
 def getSumTotalTermFreq():
-'''public long getSumTotalTermFreq()
-'''
-pass
+    '''    public long getSumTotalTermFreq()
+    '''
 def getSumDocFreq():
-'''public long getSumDocFreq()
-'''
-pass
+    '''    public long getSumDocFreq()
+    '''
 def getDocCount():
-'''public int getDocCount()
-'''
-pass
+    '''    public int getDocCount()
+    '''
 def intersect():
-'''public TermsEnum intersect(final CompiledAutomaton compiled, final BytesRef startTerm)
-'''
-pass
+    '''    public TermsEnum intersect(final CompiledAutomaton compiled, final BytesRef startTerm)
+    '''
 def ramBytesUsed():
-'''public long ramBytesUsed()
-'''
-pass
+    '''    public long ramBytesUsed()
+    '''
 def getChildResources():
-'''public Collection<Accountable> getChildResources()
-'''
-pass
+    '''    public Collection<Accountable> getChildResources()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isFstOffHeap():
-'''public boolean isFstOffHeap()
-'''
-pass
+    '''    public boolean isFstOffHeap()
+    '''

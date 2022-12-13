@@ -1,16 +1,12 @@
 def WorkflowEntity():
-'''public WorkflowEntity()
-'''
-pass
+    '''    public WorkflowEntity()
+    '''
 def hasProperties():
-'''public boolean hasProperties()
-'''
-pass
+    '''    public boolean hasProperties()
+    '''
 def setToBeDeleted():
-'''public void setToBeDeleted(final boolean tobedeleted)
-'''
-pass
+    '''    public void setToBeDeleted(final boolean tobedeleted)
+    '''
 def getToBeDeleted():
-'''public boolean getToBeDeleted()
-'''
-pass
+    '''    public boolean getToBeDeleted()
+    '''

@@ -1,151 +1,114 @@
 def createNewStructureModel():
-'''public static AsmManager createNewStructureModel(final Map<File, String> inpathMap)
-'''
-pass
+    '''    public static AsmManager createNewStructureModel(final Map<File, String> inpathMap)
+    '''
 def getHierarchy():
-'''public IHierarchy getHierarchy()
-'''
-pass
+    '''    public IHierarchy getHierarchy()
+    '''
 def getRelationshipMap():
-'''public IRelationshipMap getRelationshipMap()
-'''
-pass
+    '''    public IRelationshipMap getRelationshipMap()
+    '''
 def fireModelUpdated():
-'''public void fireModelUpdated()
-'''
-pass
+    '''    public void fireModelUpdated()
+    '''
 def getInlineAnnotations():
-'''public HashMap<Integer, List<IProgramElement>> getInlineAnnotations(final String sourceFile, final boolean showSubMember, final boolean showMemberAndType)
-'''
-pass
+    '''    public HashMap<Integer, List<IProgramElement>> getInlineAnnotations(final String sourceFile, final boolean showSubMember, final boolean showMemberAndType)
+    '''
 def addListener():
-'''public void addListener(final IHierarchyListener listener)
-'''
-pass
+    '''    public void addListener(final IHierarchyListener listener)
+    '''
 def removeStructureListener():
-'''public void removeStructureListener(final IHierarchyListener listener)
-'''
-pass
+    '''    public void removeStructureListener(final IHierarchyListener listener)
+    '''
 def removeAllListeners():
-'''public void removeAllListeners()
-'''
-pass
+    '''    public void removeAllListeners()
+    '''
 def getHandleProvider():
-'''public IElementHandleProvider getHandleProvider()
-'''
-pass
+    '''    public IElementHandleProvider getHandleProvider()
+    '''
 def setHandleProvider():
-'''public void setHandleProvider(final IElementHandleProvider handleProvider)
-'''
-pass
+    '''    public void setHandleProvider(final IElementHandleProvider handleProvider)
+    '''
 def writeStructureModel():
-'''public void writeStructureModel(final String configFilePath)
-'''
-pass
+    '''    public void writeStructureModel(final String configFilePath)
+    '''
 def readStructureModel():
-'''public void readStructureModel(final String configFilePath)
-'''
-pass
+    '''    public void readStructureModel(final String configFilePath)
+    '''
 def getCanonicalFilePath():
-'''public String getCanonicalFilePath(final File f)
-'''
-pass
+    '''    public String getCanonicalFilePath(final File f)
+    '''
 def getCanonicalFilePathMap():
-'''public CanonicalFilePathMap getCanonicalFilePathMap()
-'''
-pass
+    '''    public CanonicalFilePathMap getCanonicalFilePathMap()
+    '''
 def setReporting():
-'''public static void setReporting(final String filename, final boolean dModel, final boolean dRels, final boolean dDeltaProcessing, final boolean deletefile)
-public static void setReporting(final String filename, final boolean dModel, final boolean dRels, final boolean dDeltaProcessing, final boolean deletefile, final IModelFilter aFilter)
-'''
-pass
+    '''    public static void setReporting(final String filename, final boolean dModel, final boolean dRels, final boolean dDeltaProcessing, final boolean deletefile)
+    public static void setReporting(final String filename, final boolean dModel, final boolean dRels, final boolean dDeltaProcessing, final boolean deletefile, final IModelFilter aFilter)
+    '''
 def isReporting():
-'''public static boolean isReporting()
-'''
-pass
+    '''    public static boolean isReporting()
+    '''
 def setDontReport():
-'''public static void setDontReport()
-'''
-pass
+    '''    public static void setDontReport()
+    '''
 def reportModelInfo():
-'''public void reportModelInfo(final String reasonForReport)
-'''
-pass
+    '''    public void reportModelInfo(final String reasonForReport)
+    '''
 def dumptree():
-'''public static void dumptree(final Writer w, final IProgramElement node, final int indent)
-public static void dumptree(final IProgramElement node, final int indent)
-'''
-pass
+    '''    public static void dumptree(final Writer w, final IProgramElement node, final int indent)
+    public static void dumptree(final IProgramElement node, final int indent)
+    '''
 def dumprels():
-'''public void dumprels(final Writer w)
-'''
-pass
+    '''    public void dumprels(final Writer w)
+    '''
 def removeStructureModelForFiles():
-'''public boolean removeStructureModelForFiles(final Writer fw, final Collection<File> files)
-'''
-pass
+    '''    public boolean removeStructureModelForFiles(final Writer fw, final Collection<File> files)
+    '''
 def processDelta():
-'''public void processDelta(final Collection<File> files_tobecompiled, final Set<File> files_added, final Set<File> files_deleted)
-'''
-pass
+    '''    public void processDelta(final Collection<File> files_tobecompiled, final Set<File> files_added, final Set<File> files_deleted)
+    '''
 def removeRelationshipsTargettingThisType():
-'''public void removeRelationshipsTargettingThisType(final String typename)
-'''
-pass
+    '''    public void removeRelationshipsTargettingThisType(final String typename)
+    '''
 def verifyAssumption():
-'''public static void verifyAssumption(final boolean b, final String info)
-public static void verifyAssumption(final boolean b)
-'''
-pass
+    '''    public static void verifyAssumption(final boolean b, final String info)
+    public static void verifyAssumption(final boolean b)
+    '''
 def summarizeModel():
-'''public ModelInfo summarizeModel()
-'''
-pass
+    '''    public ModelInfo summarizeModel()
+    '''
 def setCompletingTypeBindings():
-'''public static void setCompletingTypeBindings(final boolean b)
-'''
-pass
+    '''    public static void setCompletingTypeBindings(final boolean b)
+    '''
 def isCompletingTypeBindings():
-'''public static boolean isCompletingTypeBindings()
-'''
-pass
+    '''    public static boolean isCompletingTypeBindings()
+    '''
 def resetDeltaProcessing():
-'''public void resetDeltaProcessing()
-'''
-pass
+    '''    public void resetDeltaProcessing()
+    '''
 def getModelChangesOnLastBuild():
-'''public Set<File> getModelChangesOnLastBuild()
-'''
-pass
+    '''    public Set<File> getModelChangesOnLastBuild()
+    '''
 def getAspectsWeavingFilesOnLastBuild():
-'''public Set<File> getAspectsWeavingFilesOnLastBuild()
-'''
-pass
+    '''    public Set<File> getAspectsWeavingFilesOnLastBuild()
+    '''
 def addAspectInEffectThisBuild():
-'''public void addAspectInEffectThisBuild(final File f)
-'''
-pass
+    '''    public void addAspectInEffectThisBuild(final File f)
+    '''
 def setLastActiveStructureModel():
-'''public static void setLastActiveStructureModel(final AsmManager structureModel)
-'''
-pass
+    '''    public static void setLastActiveStructureModel(final AsmManager structureModel)
+    '''
 def getHandleElementForInpath():
-'''public String getHandleElementForInpath(final String binaryPath)
-'''
-pass
+    '''    public String getHandleElementForInpath(final String binaryPath)
+    '''
 def get():
-'''public String get(final File f)
-'''
-pass
+    '''    public String get(final File f)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getProperties():
-'''public Properties getProperties()
-'''
-pass
+    '''    public Properties getProperties()
+    '''
 def recordStat():
-'''public void recordStat(final String string, final String string2)
-'''
-pass
+    '''    public void recordStat(final String string, final String string2)
+    '''

@@ -1,3 +1,3 @@
-SUPERVISOR = "String  supervisor""
-ADMINISTRATOR = "String  administrator""
-OPERATOR = "String  operator""
+SUPERVISOR = "String  \"supervisor\""
+ADMINISTRATOR = "String  \"administrator\""
+OPERATOR = "String  \"operator\""

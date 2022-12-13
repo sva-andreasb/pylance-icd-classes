@@ -1,8 +1,6 @@
 def PmDowntimeReportSet():
-'''public PmDowntimeReportSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmDowntimeReportSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

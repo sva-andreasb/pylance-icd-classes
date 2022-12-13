@@ -1,4 +1,3 @@
 def SFWViewStatusHandler():
-'''public SFWViewStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public SFWViewStatusHandler(final StatefulMbo sm)
+    '''

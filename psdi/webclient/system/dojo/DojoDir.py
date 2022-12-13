@@ -1,12 +1,9 @@
 def setDir():
-'''public void setDir(final File dir)
-'''
-pass
+    '''    public void setDir(final File dir)
+    '''
 def setProperty():
-'''public void setProperty(final String property)
-'''
-pass
+    '''    public void setProperty(final String property)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

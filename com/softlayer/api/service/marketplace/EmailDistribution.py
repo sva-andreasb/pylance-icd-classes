@@ -1,40 +1,30 @@
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def isEmailSpecified():
-'''public boolean isEmailSpecified()
-'''
-pass
+    '''    public boolean isEmailSpecified()
+    '''
 def unsetEmail():
-'''public void unsetEmail()
-'''
-pass
+    '''    public void unsetEmail()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def email():
-'''public Mask email()
-'''
-pass
+    '''    public Mask email()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''

@@ -1,25 +1,19 @@
-TYPE = "String  project""
+TYPE = "String  \"project\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getApiKey():
-'''public String getApiKey()
-'''
-pass
+    '''    public String getApiKey()
+    '''
 def setApiKey():
-'''public void setApiKey(final String apiKey)
-'''
-pass
+    '''    public void setApiKey(final String apiKey)
+    '''

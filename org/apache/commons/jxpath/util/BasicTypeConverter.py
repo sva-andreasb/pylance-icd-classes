@@ -1,56 +1,42 @@
 def canConvert():
-'''public boolean canConvert(final Object object, final Class toType)
-'''
-pass
+    '''    public boolean canConvert(final Object object, final Class toType)
+    '''
 def convert():
-'''public Object convert(final Object object, final Class toType)
-'''
-pass
+    '''    public Object convert(final Object object, final Class toType)
+    '''
 def ValueNodeSet():
-'''public ValueNodeSet(final List values)
-'''
-pass
+    '''    public ValueNodeSet(final List values)
+    '''
 def getValues():
-'''public List getValues()
-'''
-pass
+    '''    public List getValues()
+    '''
 def getNodes():
-'''public List getNodes()
-'''
-pass
+    '''    public List getNodes()
+    '''
 def getPointers():
-'''public List getPointers()
-'''
-pass
+    '''    public List getPointers()
+    '''
 def ValuePointer():
-'''public ValuePointer(final Object object)
-'''
-pass
+    '''    public ValuePointer(final Object object)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def getNode():
-'''public Object getNode()
-'''
-pass
+    '''    public Object getNode()
+    '''
 def getRootNode():
-'''public Object getRootNode()
-'''
-pass
+    '''    public Object getRootNode()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def compareTo():
-'''public int compareTo(final Object object)
-'''
-pass
+    '''    public int compareTo(final Object object)
+    '''
 def asPath():
-'''public String asPath()
-'''
-pass
+    '''    public String asPath()
+    '''

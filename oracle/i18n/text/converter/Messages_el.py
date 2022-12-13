@@ -1,8 +1,6 @@
 def Messages_el():
-'''public Messages_el()
-'''
-pass
+    '''    public Messages_el()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

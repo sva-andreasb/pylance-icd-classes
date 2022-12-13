@@ -1,4 +1,3 @@
 def PlusPReconLinkRuleSet():
-'''public PlusPReconLinkRuleSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPReconLinkRuleSet(final MboServerInterface arg0)
+    '''

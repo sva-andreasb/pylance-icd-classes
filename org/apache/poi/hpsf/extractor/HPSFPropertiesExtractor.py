@@ -1,35 +1,27 @@
 def HPSFPropertiesExtractor():
-'''public HPSFPropertiesExtractor(final POIOLE2TextExtractor mainExtractor)
-public HPSFPropertiesExtractor(final POIDocument doc)
-public HPSFPropertiesExtractor(final POIFSFileSystem fs)
-public HPSFPropertiesExtractor(final NPOIFSFileSystem fs)
-'''
-pass
+    '''    public HPSFPropertiesExtractor(final POIOLE2TextExtractor mainExtractor)
+    public HPSFPropertiesExtractor(final POIDocument doc)
+    public HPSFPropertiesExtractor(final POIFSFileSystem fs)
+    public HPSFPropertiesExtractor(final NPOIFSFileSystem fs)
+    '''
 def getDocumentSummaryInformationText():
-'''public String getDocumentSummaryInformationText()
-'''
-pass
+    '''    public String getDocumentSummaryInformationText()
+    '''
 def getSummaryInformationText():
-'''public String getSummaryInformationText()
-'''
-pass
+    '''    public String getSummaryInformationText()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getMetadataTextExtractor():
-'''public POITextExtractor getMetadataTextExtractor()
-'''
-pass
+    '''    public POITextExtractor getMetadataTextExtractor()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

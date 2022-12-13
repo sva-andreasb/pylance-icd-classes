@@ -1,57 +1,43 @@
 def GenericPersistentClient():
-'''public GenericPersistentClient()
-'''
-pass
+    '''    public GenericPersistentClient()
+    '''
 def getDefaultPort():
-'''public int getDefaultPort()
-'''
-pass
+    '''    public int getDefaultPort()
+    '''
 def setDefaultPort():
-'''public void setDefaultPort(final int defaultPort)
-'''
-pass
+    '''    public void setDefaultPort(final int defaultPort)
+    '''
 def getServerhostname():
-'''public String getServerhostname()
-'''
-pass
+    '''    public String getServerhostname()
+    '''
 def setServerhostname():
-'''public void setServerhostname(final String serverhostname)
-'''
-pass
+    '''    public void setServerhostname(final String serverhostname)
+    '''
 def getFirstReadTimeout():
-'''public int getFirstReadTimeout()
-'''
-pass
+    '''    public int getFirstReadTimeout()
+    '''
 def getSecondReadTimeout():
-'''public int getSecondReadTimeout()
-'''
-pass
+    '''    public int getSecondReadTimeout()
+    '''
 def setFirstReadTimeout():
-'''public void setFirstReadTimeout(final int i)
-'''
-pass
+    '''    public void setFirstReadTimeout(final int i)
+    '''
 def setSecondReadTimeout():
-'''public void setSecondReadTimeout(final int i)
-'''
-pass
+    '''    public void setSecondReadTimeout(final int i)
+    '''
 def askServerPersistent():
-'''public GenericClientResponse askServerPersistent(final InputStream data, final int chunkSize)
-public GenericClientResponse askServerPersistent(final InputStream data)
-'''
-pass
+    '''    public GenericClientResponse askServerPersistent(final InputStream data, final int chunkSize)
+    public GenericClientResponse askServerPersistent(final InputStream data)
+    '''
 def closeServer():
-'''public void closeServer(Socket aSocket)
-'''
-pass
+    '''    public void closeServer(Socket aSocket)
+    '''
 def setChunkSize():
-'''public void setChunkSize(final int chunkSize)
-'''
-pass
+    '''    public void setChunkSize(final int chunkSize)
+    '''
 def setAllowCleanedContent():
-'''public void setAllowCleanedContent()
-'''
-pass
+    '''    public void setAllowCleanedContent()
+    '''
 def setAllow204():
-'''public void setAllow204()
-'''
-pass
+    '''    public void setAllow204()
+    '''

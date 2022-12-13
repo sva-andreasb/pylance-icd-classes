@@ -1,20 +1,15 @@
 def JSONMapAttributeInfo():
-'''public JSONMapAttributeInfo(final String targetName, final String sourceName, final String sourceType, final boolean editable)
-'''
-pass
+    '''    public JSONMapAttributeInfo(final String targetName, final String sourceName, final String sourceType, final boolean editable)
+    '''
 def getSource():
-'''public String getSource()
-'''
-pass
+    '''    public String getSource()
+    '''
 def getTargetAttribute():
-'''public String getTargetAttribute()
-'''
-pass
+    '''    public String getTargetAttribute()
+    '''
 def getSourceType():
-'''public String getSourceType()
-'''
-pass
+    '''    public String getSourceType()
+    '''
 def isEditable():
-'''public boolean isEditable()
-'''
-pass
+    '''    public boolean isEditable()
+    '''

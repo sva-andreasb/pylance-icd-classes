@@ -1,16 +1,12 @@
 def GWWDailyCrewReassignBean():
-'''public GWWDailyCrewReassignBean()
-'''
-pass
+    '''    public GWWDailyCrewReassignBean()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def dialog_close():
-'''public int dialog_close()
-'''
-pass
+    '''    public int dialog_close()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

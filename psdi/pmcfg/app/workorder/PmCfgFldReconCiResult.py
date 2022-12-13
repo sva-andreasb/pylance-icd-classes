@@ -1,4 +1,3 @@
 def PmCfgFldReconCiResult():
-'''public PmCfgFldReconCiResult(final MboValue mbv)
-'''
-pass
+    '''    public PmCfgFldReconCiResult(final MboValue mbv)
+    '''

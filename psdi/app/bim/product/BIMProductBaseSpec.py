@@ -1,34 +1,27 @@
-TABLE_NAME = "String  BIMPRODUCTBASESPEC""
-FIELD_BIMTYPESPECID = "String  BIMPRODUCTSPECID""
-FIELD_PRODUCTID = "String  PRODUCTID""
-FIELD_REFOBJECTID = "String  REFOBJECTID""
-FIELD_REFOBJECTNAME = "String  REFOBJECTNAME""
-FIELD_CATEGORY = "String  CATEGORY""
+TABLE_NAME = "String  \"BIMPRODUCTBASESPEC\""
+FIELD_BIMTYPESPECID = "String  \"BIMPRODUCTSPECID\""
+FIELD_PRODUCTID = "String  \"PRODUCTID\""
+FIELD_REFOBJECTID = "String  \"REFOBJECTID\""
+FIELD_REFOBJECTNAME = "String  \"REFOBJECTNAME\""
+FIELD_CATEGORY = "String  \"CATEGORY\""
 def BIMProductBaseSpec():
-'''public BIMProductBaseSpec(final MboSet ms)
-'''
-pass
+    '''    public BIMProductBaseSpec(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def addDetailInfor():
-'''public void addDetailInfor(final MboRemote productMbo, final MboRemote mbo)
-'''
-pass
+    '''    public void addDetailInfor(final MboRemote productMbo, final MboRemote mbo)
+    '''
 def setCopyValueChanged():
-'''public void setCopyValueChanged(final boolean changed)
-'''
-pass
+    '''    public void setCopyValueChanged(final boolean changed)
+    '''
 def canGenerateDesc():
-'''public MboRemote canGenerateDesc()
-'''
-pass
+    '''    public MboRemote canGenerateDesc()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

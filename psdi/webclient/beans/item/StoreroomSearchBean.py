@@ -1,8 +1,6 @@
 def apply():
-'''public int apply()
-'''
-pass
+    '''    public int apply()
+    '''
 def reverseSeletion():
-'''public void reverseSeletion()
-'''
-pass
+    '''    public void reverseSeletion()
+    '''

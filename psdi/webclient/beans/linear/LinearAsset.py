@@ -1,28 +1,21 @@
 def LinearAsset():
-'''public LinearAsset(final LinearClientSession session, final DataSetInfo setInfo, final DataBean appBean)
-'''
-pass
+    '''    public LinearAsset(final LinearClientSession session, final DataSetInfo setInfo, final DataBean appBean)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def loadData():
-'''public void loadData()
-'''
-pass
+    '''    public void loadData()
+    '''
 def getDataSet():
-'''public DataSet getDataSet(final String id)
-'''
-pass
+    '''    public DataSet getDataSet(final String id)
+    '''
 def toJSON():
-'''public JSONObject toJSON()
-'''
-pass
+    '''    public JSONObject toJSON()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''

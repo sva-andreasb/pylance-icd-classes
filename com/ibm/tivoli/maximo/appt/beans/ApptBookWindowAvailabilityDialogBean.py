@@ -1,12 +1,9 @@
 def MODAPPTBKWINDOWAVAIL():
-'''public int MODAPPTBKWINDOWAVAIL()
-'''
-pass
+    '''    public int MODAPPTBKWINDOWAVAIL()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

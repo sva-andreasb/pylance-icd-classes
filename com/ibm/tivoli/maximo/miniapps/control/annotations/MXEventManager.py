@@ -1,25 +1,19 @@
-DEFAULT_MANAGER_ID = "String  "
+DEFAULT_MANAGER_ID = "String  \"\""
 def MXEventManager():
-'''public MXEventManager(final Object eventHandler)
-'''
-pass
+    '''    public MXEventManager(final Object eventHandler)
+    '''
 def processEvent():
-'''public Object processEvent(final String name, final WebClientEvent event, final WebClientSession wcs)
-'''
-pass
+    '''    public Object processEvent(final String name, final WebClientEvent event, final WebClientSession wcs)
+    '''
 def hasEvent():
-'''public boolean hasEvent(final String mxeventName)
-'''
-pass
+    '''    public boolean hasEvent(final String mxeventName)
+    '''
 def getContentType():
-'''public String getContentType(final String mxeventName)
-'''
-pass
+    '''    public String getContentType(final String mxeventName)
+    '''
 def getMXEventInfo():
-'''public MXEventInfo getMXEventInfo(final String mxeventName)
-'''
-pass
+    '''    public MXEventInfo getMXEventInfo(final String mxeventName)
+    '''
 def getTargetClassName():
-'''public String getTargetClassName()
-'''
-pass
+    '''    public String getTargetClassName()
+    '''

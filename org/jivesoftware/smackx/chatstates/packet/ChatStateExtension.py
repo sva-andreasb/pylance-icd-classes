@@ -1,21 +1,16 @@
-NAMESPACE = "String  http://jabber.org/protocol/chatstates""
+NAMESPACE = "String  \"http://jabber.org/protocol/chatstates\""
 def ChatStateExtension():
-'''public ChatStateExtension(final ChatState state)
-'''
-pass
+    '''    public ChatStateExtension(final ChatState state)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getChatState():
-'''public ChatState getChatState()
-'''
-pass
+    '''    public ChatState getChatState()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

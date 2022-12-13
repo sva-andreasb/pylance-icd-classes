@@ -5,105 +5,80 @@ INTEGER = "int  4"
 YORN = "int  5"
 CRYPTO = "int  6"
 def VMMDataMap():
-'''public VMMDataMap()
-'''
-pass
+    '''    public VMMDataMap()
+    '''
 def addDataMap():
-'''public void addDataMap(final String tableId, String table, String column, final String attribute, final boolean keyColumn, final boolean required, final boolean allowRecDelete, final String type)
-'''
-pass
+    '''    public void addDataMap(final String tableId, String table, String column, final String attribute, final boolean keyColumn, final boolean required, final boolean allowRecDelete, final String type)
+    '''
 def getTableName():
-'''public String getTableName(final String tableId)
-'''
-pass
+    '''    public String getTableName(final String tableId)
+    '''
 def getTableId():
-'''public String getTableId(final String objectName)
-'''
-pass
+    '''    public String getTableId(final String objectName)
+    '''
 def getObjectName():
-'''public String getObjectName(final String tableId, final Connection con)
-'''
-pass
+    '''    public String getObjectName(final String tableId, final Connection con)
+    '''
 def allowRecDelete():
-'''public boolean allowRecDelete(final String tableId)
-'''
-pass
+    '''    public boolean allowRecDelete(final String tableId)
+    '''
 def getTableIds():
-'''public Iterator getTableIds()
-'''
-pass
+    '''    public Iterator getTableIds()
+    '''
 def isUniqueIdColumn():
-'''public boolean isUniqueIdColumn(final String tableId, String column)
-'''
-pass
+    '''    public boolean isUniqueIdColumn(final String tableId, String column)
+    '''
 def isSysDateColumn():
-'''public boolean isSysDateColumn(final String tableId, String column)
-'''
-pass
+    '''    public boolean isSysDateColumn(final String tableId, String column)
+    '''
 def getColumnNames():
-'''public Iterator getColumnNames(final String tableId)
-'''
-pass
+    '''    public Iterator getColumnNames(final String tableId)
+    '''
 def getKeyColumnNames():
-'''public Iterator getKeyColumnNames(final String tableId)
-'''
-pass
+    '''    public Iterator getKeyColumnNames(final String tableId)
+    '''
 def getColumnNameForAttribute():
-'''public String getColumnNameForAttribute(final String tableId, final String attributeName)
-'''
-pass
+    '''    public String getColumnNameForAttribute(final String tableId, final String attributeName)
+    '''
 def isMappedToVMMAttribute():
-'''public boolean isMappedToVMMAttribute(final String tableId, final String column)
-'''
-pass
+    '''    public boolean isMappedToVMMAttribute(final String tableId, final String column)
+    '''
 def getAttribute():
-'''public String getAttribute(final String tableId, String column)
-'''
-pass
+    '''    public String getAttribute(final String tableId, String column)
+    '''
 def isRequired():
-'''public boolean isRequired(final String tableId, String column)
-public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired(final String tableId, String column)
+    public boolean isRequired()
+    '''
 def getType():
-'''public String getType(final String tableId, String column)
-public String getType()
-'''
-pass
+    '''    public String getType(final String tableId, String column)
+    public String getType()
+    '''
 def getTypeAsInt():
-'''public int getTypeAsInt(final String tableId, String column)
-public int getTypeAsInt()
-'''
-pass
+    '''    public int getTypeAsInt(final String tableId, String column)
+    public int getTypeAsInt()
+    '''
 def getVMMAttributes():
-'''public String[] getVMMAttributes()
-'''
-pass
+    '''    public String[] getVMMAttributes()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def setAttributeName():
-'''public void setAttributeName(final String name)
-'''
-pass
+    '''    public void setAttributeName(final String name)
+    '''
 def getColumnName():
-'''public String getColumnName()
-'''
-pass
+    '''    public String getColumnName()
+    '''
 def setColumnName():
-'''public void setColumnName(final String name)
-'''
-pass
+    '''    public void setColumnName(final String name)
+    '''
 def setRequired():
-'''public void setRequired(final boolean req)
-'''
-pass
+    '''    public void setRequired(final boolean req)
+    '''
 def setType():
-'''public void setType(final String t)
-'''
-pass
+    '''    public void setType(final String t)
+    '''

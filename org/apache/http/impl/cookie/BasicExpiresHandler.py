@@ -1,12 +1,9 @@
 def BasicExpiresHandler():
-'''public BasicExpiresHandler(final String[] datepatterns)
-'''
-pass
+    '''    public BasicExpiresHandler(final String[] datepatterns)
+    '''
 def parse():
-'''public void parse(final SetCookie cookie, final String value)
-'''
-pass
+    '''    public void parse(final SetCookie cookie, final String value)
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''

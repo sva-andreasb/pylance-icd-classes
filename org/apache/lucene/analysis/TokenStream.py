@@ -1,12 +1,9 @@
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

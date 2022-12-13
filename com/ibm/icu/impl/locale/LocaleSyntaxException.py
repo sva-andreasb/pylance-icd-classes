@@ -1,9 +1,7 @@
 def LocaleSyntaxException():
-'''public LocaleSyntaxException(final String msg)
-public LocaleSyntaxException(final String msg, final int errorIndex)
-'''
-pass
+    '''    public LocaleSyntaxException(final String msg)
+    public LocaleSyntaxException(final String msg, final int errorIndex)
+    '''
 def getErrorIndex():
-'''public int getErrorIndex()
-'''
-pass
+    '''    public int getErrorIndex()
+    '''

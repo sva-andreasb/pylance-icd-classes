@@ -1,4 +1,3 @@
 def FldPmscAssetCIClass():
-'''public FldPmscAssetCIClass(final MboValue mbv)
-'''
-pass
+    '''    public FldPmscAssetCIClass(final MboValue mbv)
+    '''

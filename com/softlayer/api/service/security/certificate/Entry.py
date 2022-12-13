@@ -1,140 +1,105 @@
 def getCertificateId():
-'''public Long getCertificateId()
-'''
-pass
+    '''    public Long getCertificateId()
+    '''
 def setCertificateId():
-'''public void setCertificateId(final Long certificateId)
-'''
-pass
+    '''    public void setCertificateId(final Long certificateId)
+    '''
 def isCertificateIdSpecified():
-'''public boolean isCertificateIdSpecified()
-'''
-pass
+    '''    public boolean isCertificateIdSpecified()
+    '''
 def unsetCertificateId():
-'''public void unsetCertificateId()
-'''
-pass
+    '''    public void unsetCertificateId()
+    '''
 def getCommonName():
-'''public String getCommonName()
-'''
-pass
+    '''    public String getCommonName()
+    '''
 def setCommonName():
-'''public void setCommonName(final String commonName)
-'''
-pass
+    '''    public void setCommonName(final String commonName)
+    '''
 def isCommonNameSpecified():
-'''public boolean isCommonNameSpecified()
-'''
-pass
+    '''    public boolean isCommonNameSpecified()
+    '''
 def unsetCommonName():
-'''public void unsetCommonName()
-'''
-pass
+    '''    public void unsetCommonName()
+    '''
 def getKeySize():
-'''public Long getKeySize()
-'''
-pass
+    '''    public Long getKeySize()
+    '''
 def setKeySize():
-'''public void setKeySize(final Long keySize)
-'''
-pass
+    '''    public void setKeySize(final Long keySize)
+    '''
 def isKeySizeSpecified():
-'''public boolean isKeySizeSpecified()
-'''
-pass
+    '''    public boolean isKeySizeSpecified()
+    '''
 def unsetKeySize():
-'''public void unsetKeySize()
-'''
-pass
+    '''    public void unsetKeySize()
+    '''
 def getOrganizationName():
-'''public String getOrganizationName()
-'''
-pass
+    '''    public String getOrganizationName()
+    '''
 def setOrganizationName():
-'''public void setOrganizationName(final String organizationName)
-'''
-pass
+    '''    public void setOrganizationName(final String organizationName)
+    '''
 def isOrganizationNameSpecified():
-'''public boolean isOrganizationNameSpecified()
-'''
-pass
+    '''    public boolean isOrganizationNameSpecified()
+    '''
 def unsetOrganizationName():
-'''public void unsetOrganizationName()
-'''
-pass
+    '''    public void unsetOrganizationName()
+    '''
 def getValidityBegin():
-'''public GregorianCalendar getValidityBegin()
-'''
-pass
+    '''    public GregorianCalendar getValidityBegin()
+    '''
 def setValidityBegin():
-'''public void setValidityBegin(final GregorianCalendar validityBegin)
-'''
-pass
+    '''    public void setValidityBegin(final GregorianCalendar validityBegin)
+    '''
 def isValidityBeginSpecified():
-'''public boolean isValidityBeginSpecified()
-'''
-pass
+    '''    public boolean isValidityBeginSpecified()
+    '''
 def unsetValidityBegin():
-'''public void unsetValidityBegin()
-'''
-pass
+    '''    public void unsetValidityBegin()
+    '''
 def getValidityDays():
-'''public Long getValidityDays()
-'''
-pass
+    '''    public Long getValidityDays()
+    '''
 def setValidityDays():
-'''public void setValidityDays(final Long validityDays)
-'''
-pass
+    '''    public void setValidityDays(final Long validityDays)
+    '''
 def isValidityDaysSpecified():
-'''public boolean isValidityDaysSpecified()
-'''
-pass
+    '''    public boolean isValidityDaysSpecified()
+    '''
 def unsetValidityDays():
-'''public void unsetValidityDays()
-'''
-pass
+    '''    public void unsetValidityDays()
+    '''
 def getValidityEnd():
-'''public GregorianCalendar getValidityEnd()
-'''
-pass
+    '''    public GregorianCalendar getValidityEnd()
+    '''
 def setValidityEnd():
-'''public void setValidityEnd(final GregorianCalendar validityEnd)
-'''
-pass
+    '''    public void setValidityEnd(final GregorianCalendar validityEnd)
+    '''
 def isValidityEndSpecified():
-'''public boolean isValidityEndSpecified()
-'''
-pass
+    '''    public boolean isValidityEndSpecified()
+    '''
 def unsetValidityEnd():
-'''public void unsetValidityEnd()
-'''
-pass
+    '''    public void unsetValidityEnd()
+    '''
 def certificateId():
-'''public Mask certificateId()
-'''
-pass
+    '''    public Mask certificateId()
+    '''
 def commonName():
-'''public Mask commonName()
-'''
-pass
+    '''    public Mask commonName()
+    '''
 def keySize():
-'''public Mask keySize()
-'''
-pass
+    '''    public Mask keySize()
+    '''
 def organizationName():
-'''public Mask organizationName()
-'''
-pass
+    '''    public Mask organizationName()
+    '''
 def validityBegin():
-'''public Mask validityBegin()
-'''
-pass
+    '''    public Mask validityBegin()
+    '''
 def validityDays():
-'''public Mask validityDays()
-'''
-pass
+    '''    public Mask validityDays()
+    '''
 def validityEnd():
-'''public Mask validityEnd()
-'''
-pass
+    '''    public Mask validityEnd()
+    '''

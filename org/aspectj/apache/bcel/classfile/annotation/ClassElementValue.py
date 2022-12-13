@@ -1,21 +1,16 @@
 def ClassElementValue():
-'''public ClassElementValue(final ObjectType t, final ConstantPool cpool)
-public ClassElementValue(final ClassElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
-'''
-pass
+    '''    public ClassElementValue(final ObjectType t, final ConstantPool cpool)
+    public ClassElementValue(final ClassElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def getClassString():
-'''public String getClassString()
-'''
-pass
+    '''    public String getClassString()
+    '''
 def stringifyValue():
-'''public String stringifyValue()
-'''
-pass
+    '''    public String stringifyValue()
+    '''
 def dump():
-'''public void dump(final DataOutputStream dos)
-'''
-pass
+    '''    public void dump(final DataOutputStream dos)
+    '''

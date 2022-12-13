@@ -1,8 +1,6 @@
 def TemplateStatusSet():
-'''public TemplateStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TemplateStatusSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

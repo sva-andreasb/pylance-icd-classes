@@ -1,74 +1,56 @@
 def JobTask():
-'''public JobTask()
-public JobTask(final Parser parser, final ItemJOB job, final ItemJOB owningJob)
-'''
-pass
+    '''    public JobTask()
+    public JobTask(final Parser parser, final ItemJOB job, final ItemJOB owningJob)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getDuration():
-'''public String getDuration()
-public void getDuration(final String duration)
-'''
-pass
+    '''    public String getDuration()
+    public void getDuration(final String duration)
+    '''
 def getDurationUnits():
-'''public String getDurationUnits()
-'''
-pass
+    '''    public String getDurationUnits()
+    '''
 def getDurationUnitType():
-'''public int getDurationUnitType()
-'''
-pass
+    '''    public int getDurationUnitType()
+    '''
 def getExtIdentifier():
-'''public String getExtIdentifier()
-'''
-pass
+    '''    public String getExtIdentifier()
+    '''
 def getExtObject():
-'''public String getExtObject()
-'''
-pass
+    '''    public String getExtObject()
+    '''
 def getPreReqs():
-'''public String[] getPreReqs()
-'''
-pass
+    '''    public String[] getPreReqs()
+    '''
 def getTaskName():
-'''public String getTaskName()
-'''
-pass
+    '''    public String getTaskName()
+    '''
 def getTaskNumber():
-'''public int getTaskNumber()
-'''
-pass
+    '''    public int getTaskNumber()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def setDuration():
-'''public void setDuration(final String duration)
-'''
-pass
+    '''    public void setDuration(final String duration)
+    '''
 def setDurationUnits():
-'''public void setDurationUnits(final String durationUnit)
-'''
-pass
+    '''    public void setDurationUnits(final String durationUnit)
+    '''
 def setExtIdentifier():
-'''public void setExtIdentifier(final String extIdentifier)
-'''
-pass
+    '''    public void setExtIdentifier(final String extIdentifier)
+    '''
 def setExtObject():
-'''public void setExtObject(final String extObject)
-'''
-pass
+    '''    public void setExtObject(final String extObject)
+    '''
 def setTaskName():
-'''public void setTaskName(final String name)
-'''
-pass
+    '''    public void setTaskName(final String name)
+    '''
 def setTaskNumber():
-'''public void setTaskNumber(final int taskNumber)
-'''
-pass
+    '''    public void setTaskNumber(final int taskNumber)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

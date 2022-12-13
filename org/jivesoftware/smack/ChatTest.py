@@ -1,24 +1,18 @@
 def ChatTest():
-'''public ChatTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public ChatTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def setUp():
-'''public void setUp()
-'''
-pass
+    '''    public void setUp()
+    '''
 def tearDown():
-'''public void tearDown()
-'''
-pass
+    '''    public void tearDown()
+    '''
 def testProperties():
-'''public void testProperties()
-'''
-pass
+    '''    public void testProperties()
+    '''
 def chatManagerTest():
-'''public void chatManagerTest()
-'''
-pass
+    '''    public void chatManagerTest()
+    '''
 def chatCreated():
-'''public void chatCreated(final Chat chat, final boolean createdLocally)
-'''
-pass
+    '''    public void chatCreated(final Chat chat, final boolean createdLocally)
+    '''

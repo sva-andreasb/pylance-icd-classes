@@ -1,4 +1,3 @@
 def AWSS3V4Signer():
-'''public AWSS3V4Signer()
-'''
-pass
+    '''    public AWSS3V4Signer()
+    '''

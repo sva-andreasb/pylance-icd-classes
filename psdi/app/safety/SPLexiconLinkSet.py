@@ -1,16 +1,12 @@
 def SPLexiconLinkSet():
-'''public SPLexiconLinkSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SPLexiconLinkSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def setThisRelationName():
-'''public void setThisRelationName(final String relName)
-'''
-pass
+    '''    public void setThisRelationName(final String relName)
+    '''
 def getThisRelationName():
-'''public String getThisRelationName()
-'''
-pass
+    '''    public String getThisRelationName()
+    '''

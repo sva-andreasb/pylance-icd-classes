@@ -1,4 +1,3 @@
 def PremiumPaySet():
-'''public PremiumPaySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PremiumPaySet(final MboServerInterface ms)
+    '''

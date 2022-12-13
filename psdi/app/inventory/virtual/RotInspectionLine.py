@@ -1,8 +1,6 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def RotInspectionLine():
-'''public RotInspectionLine(final MboSet ms)
-'''
-pass
+    '''    public RotInspectionLine(final MboSet ms)
+    '''

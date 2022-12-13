@@ -1,8 +1,6 @@
 def SlackRequestDispatcher():
-'''public SlackRequestDispatcher(final JSONObject request)
-'''
-pass
+    '''    public SlackRequestDispatcher(final JSONObject request)
+    '''
 def processRequest():
-'''public JSONObject processRequest()
-'''
-pass
+    '''    public JSONObject processRequest()
+    '''

@@ -1,4 +1,3 @@
 def TokenLicStatusSet():
-'''public TokenLicStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TokenLicStatusSet(final MboServerInterface ms)
+    '''

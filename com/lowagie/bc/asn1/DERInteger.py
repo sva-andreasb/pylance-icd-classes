@@ -1,27 +1,21 @@
 def getInstance():
-'''public static DERInteger getInstance(final Object obj)
-public static DERInteger getInstance(final ASN1TaggedObject obj, final boolean explicit)
-'''
-pass
+    '''    public static DERInteger getInstance(final Object obj)
+    public static DERInteger getInstance(final ASN1TaggedObject obj, final boolean explicit)
+    '''
 def DERInteger():
-'''public DERInteger(final int value)
-public DERInteger(final BigInteger value)
-public DERInteger(final byte[] bytes)
-'''
-pass
+    '''    public DERInteger(final int value)
+    public DERInteger(final BigInteger value)
+    public DERInteger(final byte[] bytes)
+    '''
 def getValue():
-'''public BigInteger getValue()
-'''
-pass
+    '''    public BigInteger getValue()
+    '''
 def getPositiveValue():
-'''public BigInteger getPositiveValue()
-'''
-pass
+    '''    public BigInteger getPositiveValue()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

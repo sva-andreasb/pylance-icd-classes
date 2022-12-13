@@ -1,8 +1,6 @@
 def FeatureChangeStatus():
-'''public FeatureChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public FeatureChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

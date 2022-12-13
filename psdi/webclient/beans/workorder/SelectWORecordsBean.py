@@ -1,28 +1,21 @@
 def needssave():
-'''public int needssave()
-'''
-pass
+    '''    public int needssave()
+    '''
 def selectallworkorders():
-'''public int selectallworkorders()
-'''
-pass
+    '''    public int selectallworkorders()
+    '''
 def chldstatus():
-'''public int chldstatus()
-'''
-pass
+    '''    public int chldstatus()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def insert():
-'''public synchronized void insert(final int nRow)
-'''
-pass
+    '''    public synchronized void insert(final int nRow)
+    '''
 def insertAtEnd():
-'''public synchronized void insertAtEnd()
-'''
-pass
+    '''    public synchronized void insertAtEnd()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''

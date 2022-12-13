@@ -1,4 +1,3 @@
 def OslcGbTemplateCfg():
-'''public OslcGbTemplateCfg(final MboSet ms)
-'''
-pass
+    '''    public OslcGbTemplateCfg(final MboSet ms)
+    '''

@@ -1,89 +1,68 @@
 def XMLSlideShow():
-'''public XMLSlideShow()
-public XMLSlideShow(final OPCPackage pkg)
-public XMLSlideShow(final InputStream is)
-'''
-pass
+    '''    public XMLSlideShow()
+    public XMLSlideShow(final OPCPackage pkg)
+    public XMLSlideShow(final InputStream is)
+    '''
 def getAllEmbedds():
-'''public List<PackagePart> getAllEmbedds()
-'''
-pass
+    '''    public List<PackagePart> getAllEmbedds()
+    '''
 def getPictureData():
-'''public List<XSLFPictureData> getPictureData()
-'''
-pass
+    '''    public List<XSLFPictureData> getPictureData()
+    '''
 def createSlide():
-'''public XSLFSlide createSlide(final XSLFSlideLayout layout)
-public XSLFSlide createSlide()
-'''
-pass
+    '''    public XSLFSlide createSlide(final XSLFSlideLayout layout)
+    public XSLFSlide createSlide()
+    '''
 def getNotesSlide():
-'''public XSLFNotes getNotesSlide(final XSLFSlide slide)
-'''
-pass
+    '''    public XSLFNotes getNotesSlide(final XSLFSlide slide)
+    '''
 def createNotesMaster():
-'''public void createNotesMaster()
-'''
-pass
+    '''    public void createNotesMaster()
+    '''
 def getNotesMaster():
-'''public XSLFNotesMaster getNotesMaster()
-'''
-pass
+    '''    public XSLFNotesMaster getNotesMaster()
+    '''
 def getSlideMasters():
-'''public List<XSLFSlideMaster> getSlideMasters()
-'''
-pass
+    '''    public List<XSLFSlideMaster> getSlideMasters()
+    '''
 def getSlides():
-'''public List<XSLFSlide> getSlides()
-'''
-pass
+    '''    public List<XSLFSlide> getSlides()
+    '''
 def getCommentAuthors():
-'''public XSLFCommentAuthors getCommentAuthors()
-'''
-pass
+    '''    public XSLFCommentAuthors getCommentAuthors()
+    '''
 def setSlideOrder():
-'''public void setSlideOrder(final XSLFSlide slide, final int newIndex)
-'''
-pass
+    '''    public void setSlideOrder(final XSLFSlide slide, final int newIndex)
+    '''
 def removeSlide():
-'''public XSLFSlide removeSlide(final int index)
-'''
-pass
+    '''    public XSLFSlide removeSlide(final int index)
+    '''
 def getPageSize():
-'''public Dimension getPageSize()
-'''
-pass
+    '''    public Dimension getPageSize()
+    '''
 def setPageSize():
-'''public void setPageSize(final Dimension pgSize)
-'''
-pass
+    '''    public void setPageSize(final Dimension pgSize)
+    '''
 def getCTPresentation():
-'''public CTPresentation getCTPresentation()
-'''
-pass
+    '''    public CTPresentation getCTPresentation()
+    '''
 def addPicture():
-'''public XSLFPictureData addPicture(final byte[] pictureData, final PictureData.PictureType format)
-public XSLFPictureData addPicture(final InputStream is, final PictureData.PictureType format)
-public XSLFPictureData addPicture(final File pict, final PictureData.PictureType format)
-'''
-pass
+    '''    public XSLFPictureData addPicture(final byte[] pictureData, final PictureData.PictureType format)
+    public XSLFPictureData addPicture(final InputStream is, final PictureData.PictureType format)
+    public XSLFPictureData addPicture(final File pict, final PictureData.PictureType format)
+    '''
 def findPictureData():
-'''public XSLFPictureData findPictureData(final byte[] pictureData)
-'''
-pass
+    '''    public XSLFPictureData findPictureData(final byte[] pictureData)
+    '''
 def findLayout():
-'''public XSLFSlideLayout findLayout(final String name)
-'''
-pass
+    '''    public XSLFSlideLayout findLayout(final String name)
+    '''
 def getTableStyles():
-'''public XSLFTableStyles getTableStyles()
-'''
-pass
+    '''    public XSLFTableStyles getTableStyles()
+    '''
 def createMasterSheet():
-'''public MasterSheet<XSLFShape, XSLFTextParagraph> createMasterSheet()
-'''
-pass
+    '''    public MasterSheet<XSLFShape, XSLFTextParagraph> createMasterSheet()
+    '''
 def getResources():
-'''public Resources getResources()
-'''
-pass
+    '''    public Resources getResources()
+    '''

@@ -1,85 +1,64 @@
 def IlvFacesDHTMLGanttSupportImpl():
-'''public IlvFacesDHTMLGanttSupportImpl(final IlvBasicView ilvBasicView)
-'''
-pass
+    '''    public IlvFacesDHTMLGanttSupportImpl(final IlvBasicView ilvBasicView)
+    '''
 def getUpdateInterval():
-'''public int getUpdateInterval()
-'''
-pass
+    '''    public int getUpdateInterval()
+    '''
 def setUpdateInterval():
-'''public void setUpdateInterval(final int a)
-'''
-pass
+    '''    public void setUpdateInterval(final int a)
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def setErrorMessage():
-'''public void setErrorMessage(final String b)
-'''
-pass
+    '''    public void setErrorMessage(final String b)
+    '''
 def isAutoUpdateCapabilities():
-'''public boolean isAutoUpdateCapabilities()
-'''
-pass
+    '''    public boolean isAutoUpdateCapabilities()
+    '''
 def setAutoUpdateCapabilities():
-'''public void setAutoUpdateCapabilities(final boolean c)
-'''
-pass
+    '''    public void setAutoUpdateCapabilities(final boolean c)
+    '''
 def getColumnResizeMessage():
-'''public String getColumnResizeMessage()
-'''
-pass
+    '''    public String getColumnResizeMessage()
+    '''
 def setColumnResizeMessage():
-'''public void setColumnResizeMessage(final String d)
-'''
-pass
+    '''    public void setColumnResizeMessage(final String d)
+    '''
 def isResizable():
-'''public boolean isResizable()
-'''
-pass
+    '''    public boolean isResizable()
+    '''
 def setResizable():
-'''public void setResizable(final boolean e)
-'''
-pass
+    '''    public void setResizable(final boolean e)
+    '''
 def isAccessible():
-'''public boolean isAccessible()
-'''
-pass
+    '''    public boolean isAccessible()
+    '''
 def setAccessible():
-'''public void setAccessible(final boolean f)
-'''
-pass
+    '''    public void setAccessible(final boolean f)
+    '''
 def getHotkeys():
-'''public String getHotkeys()
-'''
-pass
+    '''    public String getHotkeys()
+    '''
 def setHotkeys():
-'''public void setHotkeys(final String g)
-'''
-pass
+    '''    public void setHotkeys(final String g)
+    '''
 def getChart():
-'''public IlvHierarchyChart getChart(final IlvHierarchyChart ilvHierarchyChart)
-public IlvHierarchyChart getChart()
-'''
-pass
+    '''    public IlvHierarchyChart getChart(final IlvHierarchyChart ilvHierarchyChart)
+    public IlvHierarchyChart getChart()
+    '''
 def getBeforeSessionExpirationHandler():
-'''public String getBeforeSessionExpirationHandler()
-'''
-pass
+    '''    public String getBeforeSessionExpirationHandler()
+    '''
 def setBeforeSessionExpirationHandler():
-'''public void setBeforeSessionExpirationHandler(final String h)
-'''
-pass
+    '''    public void setBeforeSessionExpirationHandler(final String h)
+    '''
 def updateModel():
-'''public void updateModel(final FacesContext facesContext)
-'''
-pass
+    '''    public void updateModel(final FacesContext facesContext)
+    '''
 def saveState():
-'''public Object saveState(final FacesContext facesContext)
-'''
-pass
+    '''    public Object saveState(final FacesContext facesContext)
+    '''
 def restoreState():
-'''public void restoreState(final FacesContext facesContext, final Object o)
-'''
-pass
+    '''    public void restoreState(final FacesContext facesContext, final Object o)
+    '''

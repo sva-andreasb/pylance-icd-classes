@@ -1,19 +1,15 @@
-NEW_TEMPLATE_PREFIX = "String  SCTMPLT""
-LOGGER = "String  maximo.application.scconfig""
+NEW_TEMPLATE_PREFIX = "String  \"SCTMPLT\""
+LOGGER = "String  \"maximo.application.scconfig\""
 def makeAppList():
-'''public static String makeAppList(final HashSet hs)
-'''
-pass
+    '''    public static String makeAppList(final HashSet hs)
+    '''
 def longToString():
-'''public static String longToString(final long longValue)
-'''
-pass
+    '''    public static String longToString(final long longValue)
+    '''
 def createCRCId():
-'''public static String createCRCId(final String idString)
-'''
-pass
+    '''    public static String createCRCId(final String idString)
+    '''
 def extractValueFromXMLUsingRegex():
-'''public static String extractValueFromXMLUsingRegex(final String toFindIn, final String contentidregex, final int flag)
-public static String extractValueFromXMLUsingRegex(final String toFindIn, final String contentidregex)
-'''
-pass
+    '''    public static String extractValueFromXMLUsingRegex(final String toFindIn, final String contentidregex, final int flag)
+    public static String extractValueFromXMLUsingRegex(final String toFindIn, final String contentidregex)
+    '''

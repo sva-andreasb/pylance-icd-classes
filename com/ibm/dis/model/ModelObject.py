@@ -1,62 +1,47 @@
 def ModelObject():
-'''public ModelObject()
-public ModelObject(final String className, final String sourceToken, final Map<String, Object> attributes)
-public ModelObject(final String className, final String sourceToken, final Map<String, Object> attributes, final Map<String, List<IModelObjectRef>> relationshipAttributes)
-'''
-pass
+    '''    public ModelObject()
+    public ModelObject(final String className, final String sourceToken, final Map<String, Object> attributes)
+    public ModelObject(final String className, final String sourceToken, final Map<String, Object> attributes, final Map<String, List<IModelObjectRef>> relationshipAttributes)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getSourceToken():
-'''public String getSourceToken()
-'''
-pass
+    '''    public String getSourceToken()
+    '''
 def getAttributes():
-'''public Map<String, Object> getAttributes()
-'''
-pass
+    '''    public Map<String, Object> getAttributes()
+    '''
 def getAttributeValue():
-'''public Object getAttributeValue(final String attributeName)
-'''
-pass
+    '''    public Object getAttributeValue(final String attributeName)
+    '''
 def getRelationshipAttributes():
-'''public Map<String, List<IModelObjectRef>> getRelationshipAttributes()
-'''
-pass
+    '''    public Map<String, List<IModelObjectRef>> getRelationshipAttributes()
+    '''
 def getRelationshipAttributeValue():
-'''public List<IModelObjectRef> getRelationshipAttributeValue(final String attributeName)
-'''
-pass
+    '''    public List<IModelObjectRef> getRelationshipAttributeValue(final String attributeName)
+    '''
 def getObjectIds():
-'''public List<ObjectId> getObjectIds()
-'''
-pass
+    '''    public List<ObjectId> getObjectIds()
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def setSourceToken():
-'''public void setSourceToken(final String sourceToken)
-'''
-pass
+    '''    public void setSourceToken(final String sourceToken)
+    '''
 def setAttributes():
-'''public void setAttributes(final Map<String, Object> attributes)
-'''
-pass
+    '''    public void setAttributes(final Map<String, Object> attributes)
+    '''
 def setAttributeValue():
-'''public void setAttributeValue(final String attributeName, final Object value)
-'''
-pass
+    '''    public void setAttributeValue(final String attributeName, final Object value)
+    '''
 def setRelationshipAttributes():
-'''public void setRelationshipAttributes(final Map<String, List<IModelObjectRef>> relationshipAttributes)
-'''
-pass
+    '''    public void setRelationshipAttributes(final Map<String, List<IModelObjectRef>> relationshipAttributes)
+    '''
 def addRelationshipAttributeValue():
-'''public void addRelationshipAttributeValue(final String relationshipAttributeName, final IModelObjectRef value)
-'''
-pass
+    '''    public void addRelationshipAttributeValue(final String relationshipAttributeName, final IModelObjectRef value)
+    '''
 def addObjectId():
-'''public void addObjectId(final ObjectId id)
-'''
-pass
+    '''    public void addObjectId(final ObjectId id)
+    '''

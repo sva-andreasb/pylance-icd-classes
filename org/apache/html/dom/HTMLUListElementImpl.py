@@ -1,20 +1,15 @@
 def getCompact():
-'''public boolean getCompact()
-'''
-pass
+    '''    public boolean getCompact()
+    '''
 def setCompact():
-'''public void setCompact(final boolean b)
-'''
-pass
+    '''    public void setCompact(final boolean b)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String s)
-'''
-pass
+    '''    public void setType(final String s)
+    '''
 def HTMLUListElementImpl():
-'''public HTMLUListElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLUListElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

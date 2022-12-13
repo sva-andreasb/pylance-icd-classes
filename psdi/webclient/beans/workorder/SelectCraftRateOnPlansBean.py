@@ -1,4 +1,3 @@
 def getCRSet():
-'''public MboSetRemote getCRSet(final MboRemote woMbo)
-'''
-pass
+    '''    public MboSetRemote getCRSet(final MboRemote woMbo)
+    '''

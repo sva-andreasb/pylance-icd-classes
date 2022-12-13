@@ -1,8 +1,6 @@
 def BadAttributeValueExpException():
-'''public BadAttributeValueExpException(final Object val)
-'''
-pass
+    '''    public BadAttributeValueExpException(final Object val)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

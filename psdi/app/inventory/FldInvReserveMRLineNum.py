@@ -1,8 +1,6 @@
 def FldInvReserveMRLineNum():
-'''public FldInvReserveMRLineNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvReserveMRLineNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,4 +1,3 @@
 def TeamproxySet():
-'''public TeamproxySet(final MboServerInterface ms)
-'''
-pass
+    '''    public TeamproxySet(final MboServerInterface ms)
+    '''

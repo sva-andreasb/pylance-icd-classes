@@ -1,241 +1,181 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getOrder():
-'''public Order getOrder()
-'''
-pass
+    '''    public Order getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final Order order)
-'''
-pass
+    '''    public void setOrder(final Order order)
+    '''
 def getOrdersFromQuote():
-'''public List<Order> getOrdersFromQuote()
-'''
-pass
+    '''    public List<Order> getOrdersFromQuote()
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCompletedPurchaseDataId():
-'''public Long getCompletedPurchaseDataId()
-'''
-pass
+    '''    public Long getCompletedPurchaseDataId()
+    '''
 def setCompletedPurchaseDataId():
-'''public void setCompletedPurchaseDataId(final Long completedPurchaseDataId)
-'''
-pass
+    '''    public void setCompletedPurchaseDataId(final Long completedPurchaseDataId)
+    '''
 def isCompletedPurchaseDataIdSpecified():
-'''public boolean isCompletedPurchaseDataIdSpecified()
-'''
-pass
+    '''    public boolean isCompletedPurchaseDataIdSpecified()
+    '''
 def unsetCompletedPurchaseDataId():
-'''public void unsetCompletedPurchaseDataId()
-'''
-pass
+    '''    public void unsetCompletedPurchaseDataId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getExpirationDate():
-'''public GregorianCalendar getExpirationDate()
-'''
-pass
+    '''    public GregorianCalendar getExpirationDate()
+    '''
 def setExpirationDate():
-'''public void setExpirationDate(final GregorianCalendar expirationDate)
-'''
-pass
+    '''    public void setExpirationDate(final GregorianCalendar expirationDate)
+    '''
 def isExpirationDateSpecified():
-'''public boolean isExpirationDateSpecified()
-'''
-pass
+    '''    public boolean isExpirationDateSpecified()
+    '''
 def unsetExpirationDate():
-'''public void unsetExpirationDate()
-'''
-pass
+    '''    public void unsetExpirationDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getPublicNote():
-'''public String getPublicNote()
-'''
-pass
+    '''    public String getPublicNote()
+    '''
 def setPublicNote():
-'''public void setPublicNote(final String publicNote)
-'''
-pass
+    '''    public void setPublicNote(final String publicNote)
+    '''
 def isPublicNoteSpecified():
-'''public boolean isPublicNoteSpecified()
-'''
-pass
+    '''    public boolean isPublicNoteSpecified()
+    '''
 def unsetPublicNote():
-'''public void unsetPublicNote()
-'''
-pass
+    '''    public void unsetPublicNote()
+    '''
 def getQuoteKey():
-'''public String getQuoteKey()
-'''
-pass
+    '''    public String getQuoteKey()
+    '''
 def setQuoteKey():
-'''public void setQuoteKey(final String quoteKey)
-'''
-pass
+    '''    public void setQuoteKey(final String quoteKey)
+    '''
 def isQuoteKeySpecified():
-'''public boolean isQuoteKeySpecified()
-'''
-pass
+    '''    public boolean isQuoteKeySpecified()
+    '''
 def unsetQuoteKey():
-'''public void unsetQuoteKey()
-'''
-pass
+    '''    public void unsetQuoteKey()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def isStatusSpecified():
-'''public boolean isStatusSpecified()
-'''
-pass
+    '''    public boolean isStatusSpecified()
+    '''
 def unsetStatus():
-'''public void unsetStatus()
-'''
-pass
+    '''    public void unsetStatus()
+    '''
 def getOrdersFromQuoteCount():
-'''public Long getOrdersFromQuoteCount()
-'''
-pass
+    '''    public Long getOrdersFromQuoteCount()
+    '''
 def setOrdersFromQuoteCount():
-'''public void setOrdersFromQuoteCount(final Long ordersFromQuoteCount)
-'''
-pass
+    '''    public void setOrdersFromQuoteCount(final Long ordersFromQuoteCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def completedPurchaseDataId():
-'''public Mask completedPurchaseDataId()
-'''
-pass
+    '''    public Mask completedPurchaseDataId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def expirationDate():
-'''public Mask expirationDate()
-'''
-pass
+    '''    public Mask expirationDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def publicNote():
-'''public Mask publicNote()
-'''
-pass
+    '''    public Mask publicNote()
+    '''
 def quoteKey():
-'''public Mask quoteKey()
-'''
-pass
+    '''    public Mask quoteKey()
+    '''
 def status():
-'''public Mask status()
-'''
-pass
+    '''    public Mask status()
+    '''
 def ordersFromQuoteCount():
-'''public Mask ordersFromQuoteCount()
-'''
-pass
+    '''    public Mask ordersFromQuoteCount()
+    '''

@@ -1,8 +1,6 @@
 def Template():
-'''public Template(final MboSet ms)
-'''
-pass
+    '''    public Template(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

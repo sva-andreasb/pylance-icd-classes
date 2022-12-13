@@ -1,12 +1,9 @@
 def getInstance():
-'''public static final ThreadLoggerCache getInstance()
-'''
-pass
+    '''    public static final ThreadLoggerCache getInstance()
+    '''
 def getLogInfo():
-'''public LogInfo getLogInfo(final String key)
-'''
-pass
+    '''    public LogInfo getLogInfo(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

@@ -1,24 +1,18 @@
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def WSDEPLOY():
-'''public int WSDEPLOY()
-'''
-pass
+    '''    public int WSDEPLOY()
+    '''
 def WSUNDEPLOY():
-'''public int WSUNDEPLOY()
-'''
-pass
+    '''    public int WSUNDEPLOY()
+    '''
 def WSGENDEP():
-'''public int WSGENDEP()
-'''
-pass
+    '''    public int WSGENDEP()
+    '''
 def WSGENUNDEP():
-'''public int WSGENUNDEP()
-'''
-pass
+    '''    public int WSGENUNDEP()
+    '''
 def WSCONVERT():
-'''public int WSCONVERT()
-'''
-pass
+    '''    public int WSCONVERT()
+    '''

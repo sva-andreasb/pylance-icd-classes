@@ -1,80 +1,60 @@
 def setCheckAliases():
-'''public static void setCheckAliases(final boolean checkAliases)
-'''
-pass
+    '''    public static void setCheckAliases(final boolean checkAliases)
+    '''
 def getCheckAliases():
-'''public static boolean getCheckAliases()
-'''
-pass
+    '''    public static boolean getCheckAliases()
+    '''
 def FileResource():
-'''public FileResource(final URL url)
-'''
-pass
+    '''    public FileResource(final URL url)
+    '''
 def addPath():
-'''public Resource addPath(String path)
-'''
-pass
+    '''    public Resource addPath(String path)
+    '''
 def getAlias():
-'''public URL getAlias()
-'''
-pass
+    '''    public URL getAlias()
+    '''
 def exists():
-'''public boolean exists()
-'''
-pass
+    '''    public boolean exists()
+    '''
 def lastModified():
-'''public long lastModified()
-'''
-pass
+    '''    public long lastModified()
+    '''
 def isDirectory():
-'''public boolean isDirectory()
-'''
-pass
+    '''    public boolean isDirectory()
+    '''
 def length():
-'''public long length()
-'''
-pass
+    '''    public long length()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def delete():
-'''public boolean delete()
-'''
-pass
+    '''    public boolean delete()
+    '''
 def renameTo():
-'''public boolean renameTo(final Resource dest)
-'''
-pass
+    '''    public boolean renameTo(final Resource dest)
+    '''
 def list():
-'''public String[] list()
-'''
-pass
+    '''    public String[] list()
+    '''
 def encode():
-'''public String encode(final String uri)
-'''
-pass
+    '''    public String encode(final String uri)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def copyTo():
-'''public void copyTo(final File destination)
-'''
-pass
+    '''    public void copyTo(final File destination)
+    '''

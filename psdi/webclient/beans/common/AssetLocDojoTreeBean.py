@@ -1,68 +1,51 @@
 def AssetLocDojoTreeBean():
-'''public AssetLocDojoTreeBean()
-'''
-pass
+    '''    public AssetLocDojoTreeBean()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def getRootMbo():
-'''public MboRemote getRootMbo()
-'''
-pass
+    '''    public MboRemote getRootMbo()
+    '''
 def getTargetMbo():
-'''public MboRemote getTargetMbo()
-'''
-pass
+    '''    public MboRemote getTargetMbo()
+    '''
 def onPaste():
-'''public void onPaste(final MboRemote targetParentMbo)
-'''
-pass
+    '''    public void onPaste(final MboRemote targetParentMbo)
+    '''
 def showPathToTop():
-'''public int showPathToTop()
-'''
-pass
+    '''    public int showPathToTop()
+    '''
 def showAllSystems():
-'''public int showAllSystems()
-'''
-pass
+    '''    public int showAllSystems()
+    '''
 def prepareMboSet():
-'''public void prepareMboSet(final MboSetRemote toPrepare)
-'''
-pass
+    '''    public void prepareMboSet(final MboSetRemote toPrepare)
+    '''
 def onSelect():
-'''public void onSelect(final MboRemote selectedMbo, final String eventValue)
-'''
-pass
+    '''    public void onSelect(final MboRemote selectedMbo, final String eventValue)
+    '''
 def applink():
-'''public int applink()
-'''
-pass
+    '''    public int applink()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getDropableObjects():
-'''public Map<String, List<String>> getDropableObjects()
-'''
-pass
+    '''    public Map<String, List<String>> getDropableObjects()
+    '''
 def getSourceControl():
-'''public ControlInstance getSourceControl()
-'''
-pass
+    '''    public ControlInstance getSourceControl()
+    '''
 def showAssetWorkDetails():
-'''public int showAssetWorkDetails()
-'''
-pass
+    '''    public int showAssetWorkDetails()
+    '''
 def getRealSameAsObject():
-'''public String getRealSameAsObject(final MboRemote mbo, final String attrWithRelShip)
-'''
-pass
+    '''    public String getRealSameAsObject(final MboRemote mbo, final String attrWithRelShip)
+    '''
 def checkMoveAuth():
-'''public void checkMoveAuth(final MboRemote targetMbo, final String optionName, final String maintable)
-'''
-pass
+    '''    public void checkMoveAuth(final MboRemote targetMbo, final String optionName, final String maintable)
+    '''

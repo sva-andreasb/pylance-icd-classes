@@ -1,16 +1,12 @@
 def doRefresh():
-'''public int doRefresh()
-'''
-pass
+    '''    public int doRefresh()
+    '''
 def execute():
-'''public int execute(final MboSetRemote assetMboSet)
-'''
-pass
+    '''    public int execute(final MboSetRemote assetMboSet)
+    '''
 def copySelectedAssets():
-'''public void copySelectedAssets(final MboSetRemote assetSetRemote, final MboSetRemote iemswdMboSet)
-'''
-pass
+    '''    public void copySelectedAssets(final MboSetRemote assetSetRemote, final MboSetRemote iemswdMboSet)
+    '''
 def isAlreadySelected():
-'''public boolean isAlreadySelected(final MboSetRemote iemswdMboSet, final String assetnum, final String siteid)
-'''
-pass
+    '''    public boolean isAlreadySelected(final MboSetRemote iemswdMboSet, final String assetnum, final String siteid)
+    '''

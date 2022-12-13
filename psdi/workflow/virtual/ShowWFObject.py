@@ -1,4 +1,3 @@
 def ShowWFObject():
-'''public ShowWFObject(final MboSet ms)
-'''
-pass
+    '''    public ShowWFObject(final MboSet ms)
+    '''

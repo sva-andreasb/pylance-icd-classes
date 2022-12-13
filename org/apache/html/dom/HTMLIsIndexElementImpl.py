@@ -1,12 +1,9 @@
 def getPrompt():
-'''public String getPrompt()
-'''
-pass
+    '''    public String getPrompt()
+    '''
 def setPrompt():
-'''public void setPrompt(final String s)
-'''
-pass
+    '''    public void setPrompt(final String s)
+    '''
 def HTMLIsIndexElementImpl():
-'''public HTMLIsIndexElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLIsIndexElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

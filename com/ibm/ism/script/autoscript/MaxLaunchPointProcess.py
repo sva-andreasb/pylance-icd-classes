@@ -1,8 +1,6 @@
 def MaxLaunchPointProcess():
-'''public MaxLaunchPointProcess()
-'''
-pass
+    '''    public MaxLaunchPointProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

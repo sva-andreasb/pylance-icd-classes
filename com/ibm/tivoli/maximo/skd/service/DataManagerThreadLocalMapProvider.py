@@ -1,8 +1,6 @@
 def get():
-'''public static Map<Object, Object> get()
-'''
-pass
+    '''    public static Map<Object, Object> get()
+    '''
 def clear():
-'''public static void clear()
-'''
-pass
+    '''    public static void clear()
+    '''

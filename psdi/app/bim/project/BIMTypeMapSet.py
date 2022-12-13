@@ -1,8 +1,6 @@
 def BIMTypeMapSet():
-'''public BIMTypeMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMTypeMapSet(final MboServerInterface ms)
+    '''
 def getTranslator():
-'''public Translate getTranslator()
-'''
-pass
+    '''    public Translate getTranslator()
+    '''

@@ -1,52 +1,39 @@
 def ReaderCharacterIterator():
-'''public ReaderCharacterIterator(final Reader r)
-'''
-pass
+    '''    public ReaderCharacterIterator(final Reader r)
+    '''
 def first():
-'''public char first()
-'''
-pass
+    '''    public char first()
+    '''
 def last():
-'''public char last()
-'''
-pass
+    '''    public char last()
+    '''
 def setIndex():
-'''public char setIndex(final int p)
-'''
-pass
+    '''    public char setIndex(final int p)
+    '''
 def current():
-'''public char current()
-'''
-pass
+    '''    public char current()
+    '''
 def next():
-'''public char next()
-'''
-pass
+    '''    public char next()
+    '''
 def previous():
-'''public char previous()
-'''
-pass
+    '''    public char previous()
+    '''
 def getBeginIndex():
-'''public int getBeginIndex()
-'''
-pass
+    '''    public int getBeginIndex()
+    '''
 def getEndIndex():
-'''public int getEndIndex()
-'''
-pass
+    '''    public int getEndIndex()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

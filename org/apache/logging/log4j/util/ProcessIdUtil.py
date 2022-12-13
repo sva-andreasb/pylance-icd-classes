@@ -1,10 +1,8 @@
-DEFAULT_PROCESSID = "String  -""
+DEFAULT_PROCESSID = "String  \"-\""
 def getProcessId():
-'''public static String getProcessId()
-public static String getProcessId()
-'''
-pass
+    '''    public static String getProcessId()
+    public static String getProcessId()
+    '''
 def ProcessIdUtil():
-'''public ProcessIdUtil()
-'''
-pass
+    '''    public ProcessIdUtil()
+    '''

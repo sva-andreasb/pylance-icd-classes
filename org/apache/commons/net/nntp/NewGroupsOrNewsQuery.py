@@ -1,36 +1,27 @@
 def NewGroupsOrNewsQuery():
-'''public NewGroupsOrNewsQuery(final Calendar date, final boolean gmt)
-'''
-pass
+    '''    public NewGroupsOrNewsQuery(final Calendar date, final boolean gmt)
+    '''
 def addNewsgroup():
-'''public void addNewsgroup(final String newsgroup)
-'''
-pass
+    '''    public void addNewsgroup(final String newsgroup)
+    '''
 def omitNewsgroup():
-'''public void omitNewsgroup(final String newsgroup)
-'''
-pass
+    '''    public void omitNewsgroup(final String newsgroup)
+    '''
 def addDistribution():
-'''public void addDistribution(final String distribution)
-'''
-pass
+    '''    public void addDistribution(final String distribution)
+    '''
 def getDate():
-'''public String getDate()
-'''
-pass
+    '''    public String getDate()
+    '''
 def getTime():
-'''public String getTime()
-'''
-pass
+    '''    public String getTime()
+    '''
 def isGMT():
-'''public boolean isGMT()
-'''
-pass
+    '''    public boolean isGMT()
+    '''
 def getDistributions():
-'''public String getDistributions()
-'''
-pass
+    '''    public String getDistributions()
+    '''
 def getNewsgroups():
-'''public String getNewsgroups()
-'''
-pass
+    '''    public String getNewsgroups()
+    '''

@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def applyPrice():
-'''public int applyPrice()
-'''
-pass
+    '''    public int applyPrice()
+    '''

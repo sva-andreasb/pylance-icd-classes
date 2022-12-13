@@ -1,29 +1,22 @@
 def reflectionTraverseTestField():
-'''public static PyObject reflectionTraverseTestField()
-'''
-pass
+    '''    public static PyObject reflectionTraverseTestField()
+    '''
 def reflectionTraverseTestList():
-'''public static PyObject reflectionTraverseTestList()
-'''
-pass
+    '''    public static PyObject reflectionTraverseTestList()
+    '''
 def reflectionTraverseTestArray():
-'''public static PyObject reflectionTraverseTestArray()
-'''
-pass
+    '''    public static PyObject reflectionTraverseTestArray()
+    '''
 def reflectionTraverseTestPyList():
-'''public static PyObject reflectionTraverseTestPyList()
-'''
-pass
+    '''    public static PyObject reflectionTraverseTestPyList()
+    '''
 def reflectionTraverseTestCycle():
-'''public static PyObject reflectionTraverseTestCycle()
-'''
-pass
+    '''    public static PyObject reflectionTraverseTestCycle()
+    '''
 def finalize():
-'''public void finalize()
-public void finalize()
-'''
-pass
+    '''    public void finalize()
+    public void finalize()
+    '''
 def PyReflectionTraversed():
-'''public PyReflectionTraversed()
-'''
-pass
+    '''    public PyReflectionTraversed()
+    '''

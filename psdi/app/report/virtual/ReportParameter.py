@@ -1,4 +1,3 @@
 def ReportParameter():
-'''public ReportParameter(final MboSet ms)
-'''
-pass
+    '''    public ReportParameter(final MboSet ms)
+    '''

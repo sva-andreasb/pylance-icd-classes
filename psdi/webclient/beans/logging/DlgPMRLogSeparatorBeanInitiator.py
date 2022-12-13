@@ -1,4 +1,3 @@
 def CFGLOGMSG():
-'''public int CFGLOGMSG()
-'''
-pass
+    '''    public int CFGLOGMSG()
+    '''

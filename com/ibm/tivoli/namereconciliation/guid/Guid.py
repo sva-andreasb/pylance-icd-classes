@@ -1,34 +1,26 @@
 def Guid():
-'''public Guid(final String str)
-public Guid(final byte[] bytes)
-public Guid(final byte[] bytes, final boolean adopt)
-'''
-pass
+    '''    public Guid(final String str)
+    public Guid(final byte[] bytes)
+    public Guid(final byte[] bytes, final boolean adopt)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def compareTo():
-'''public int compareTo(final Object obj)
-'''
-pass
+    '''    public int compareTo(final Object obj)
+    '''
 def getBytes():
-'''public byte[] getBytes()
-'''
-pass
+    '''    public byte[] getBytes()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toByteArray():
-'''public byte[] toByteArray()
-'''
-pass
+    '''    public byte[] toByteArray()
+    '''
 def valueOf():
-'''public static Guid valueOf(final String guidStr)
-'''
-pass
+    '''    public static Guid valueOf(final String guidStr)
+    '''

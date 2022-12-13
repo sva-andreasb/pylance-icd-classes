@@ -1,4 +1,3 @@
 def PlusPFldPriceBookLineLaborVendor():
-'''public PlusPFldPriceBookLineLaborVendor(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceBookLineLaborVendor(final MboValue mbv)
+    '''

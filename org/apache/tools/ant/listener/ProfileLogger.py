@@ -1,20 +1,15 @@
 def ProfileLogger():
-'''public ProfileLogger()
-'''
-pass
+    '''    public ProfileLogger()
+    '''
 def targetStarted():
-'''public void targetStarted(final BuildEvent event)
-'''
-pass
+    '''    public void targetStarted(final BuildEvent event)
+    '''
 def targetFinished():
-'''public void targetFinished(final BuildEvent event)
-'''
-pass
+    '''    public void targetFinished(final BuildEvent event)
+    '''
 def taskStarted():
-'''public void taskStarted(final BuildEvent event)
-'''
-pass
+    '''    public void taskStarted(final BuildEvent event)
+    '''
 def taskFinished():
-'''public void taskFinished(final BuildEvent event)
-'''
-pass
+    '''    public void taskFinished(final BuildEvent event)
+    '''

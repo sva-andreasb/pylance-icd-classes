@@ -1,12 +1,9 @@
 def FldChangeStatus():
-'''public FldChangeStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldChangeStatus(final MboValue mbv)
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

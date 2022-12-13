@@ -1,32 +1,24 @@
 def StartDocumentImpl():
-'''public StartDocumentImpl(final String s, final boolean fEncodingSet, final boolean fIsStandalone, final boolean fStandaloneSet, final String s2, final Location location)
-'''
-pass
+    '''    public StartDocumentImpl(final String s, final boolean fEncodingSet, final boolean fIsStandalone, final boolean fStandaloneSet, final String s2, final Location location)
+    '''
 def getSystemId():
-'''public String getSystemId()
-'''
-pass
+    '''    public String getSystemId()
+    '''
 def getCharacterEncodingScheme():
-'''public String getCharacterEncodingScheme()
-'''
-pass
+    '''    public String getCharacterEncodingScheme()
+    '''
 def encodingSet():
-'''public boolean encodingSet()
-'''
-pass
+    '''    public boolean encodingSet()
+    '''
 def isStandalone():
-'''public boolean isStandalone()
-'''
-pass
+    '''    public boolean isStandalone()
+    '''
 def standaloneSet():
-'''public boolean standaloneSet()
-'''
-pass
+    '''    public boolean standaloneSet()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def writeAsEncodedUnicode():
-'''public void writeAsEncodedUnicode(final Writer writer)
-'''
-pass
+    '''    public void writeAsEncodedUnicode(final Writer writer)
+    '''

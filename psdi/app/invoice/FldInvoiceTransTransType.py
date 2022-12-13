@@ -1,8 +1,6 @@
 def FldInvoiceTransTransType():
-'''public FldInvoiceTransTransType(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceTransTransType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

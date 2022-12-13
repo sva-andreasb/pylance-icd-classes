@@ -1,10 +1,8 @@
 def CommonGoogleJsonClientRequestInitializer():
-'''public CommonGoogleJsonClientRequestInitializer()
-public CommonGoogleJsonClientRequestInitializer(final String key)
-public CommonGoogleJsonClientRequestInitializer(final String key, final String userIp)
-'''
-pass
+    '''    public CommonGoogleJsonClientRequestInitializer()
+    public CommonGoogleJsonClientRequestInitializer(final String key)
+    public CommonGoogleJsonClientRequestInitializer(final String key, final String userIp)
+    '''
 def initialize():
-'''public final void initialize(final AbstractGoogleClientRequest<?> request)
-'''
-pass
+    '''    public final void initialize(final AbstractGoogleClientRequest<?> request)
+    '''

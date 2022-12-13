@@ -1,4 +1,3 @@
 def KPITrendCfgSet():
-'''public KPITrendCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public KPITrendCfgSet(final MboServerInterface ms)
+    '''

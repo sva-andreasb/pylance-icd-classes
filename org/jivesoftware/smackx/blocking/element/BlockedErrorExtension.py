@@ -1,22 +1,17 @@
-ELEMENT = "String  blocked""
-NAMESPACE = "String  urn:xmpp:blocking:errors""
+ELEMENT = "String  \"blocked\""
+NAMESPACE = "String  \"urn:xmpp:blocking:errors\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public CharSequence toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public CharSequence toXML(final String enclosingNamespace)
+    '''
 def from():
-'''public static BlockedErrorExtension from(final Message message)
-'''
-pass
+    '''    public static BlockedErrorExtension from(final Message message)
+    '''
 def isInside():
-'''public static boolean isInside(final Message message)
-'''
-pass
+    '''    public static boolean isInside(final Message message)
+    '''

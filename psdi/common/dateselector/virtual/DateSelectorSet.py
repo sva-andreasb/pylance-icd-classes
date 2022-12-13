@@ -1,12 +1,9 @@
 def DateSelectorSet():
-'''public DateSelectorSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DateSelectorSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

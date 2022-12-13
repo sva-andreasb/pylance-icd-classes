@@ -1,8 +1,6 @@
 def GetReplicationFilterResponse():
-'''public GetReplicationFilterResponse(final RfcLDAPMessage rfcLDAPMessage)
-'''
-pass
+    '''    public GetReplicationFilterResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''
 def getReplicationFilter():
-'''public String[][] getReplicationFilter()
-'''
-pass
+    '''    public String[][] getReplicationFilter()
+    '''

@@ -1,4 +1,3 @@
 def execute():
-'''public void execute(final E input)
-'''
-pass
+    '''    public void execute(final E input)
+    '''

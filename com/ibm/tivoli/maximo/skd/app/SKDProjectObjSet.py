@@ -1,4 +1,3 @@
 def SKDProjectObjSet():
-'''public SKDProjectObjSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDProjectObjSet(final MboServerInterface ms)
+    '''

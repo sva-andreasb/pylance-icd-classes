@@ -1,16 +1,12 @@
 def MfMailCfgResultsBean():
-'''public MfMailCfgResultsBean()
-'''
-pass
+    '''    public MfMailCfgResultsBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def next():
-'''public synchronized boolean next()
-'''
-pass
+    '''    public synchronized boolean next()
+    '''
 def previous():
-'''public synchronized boolean previous()
-'''
-pass
+    '''    public synchronized boolean previous()
+    '''

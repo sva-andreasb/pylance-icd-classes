@@ -1,8 +1,6 @@
 def OSUserNotificationSet():
-'''public OSUserNotificationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OSUserNotificationSet(final MboServerInterface ms)
+    '''
 def countNew():
-'''public int countNew(final String osName)
-'''
-pass
+    '''    public int countNew(final String osName)
+    '''

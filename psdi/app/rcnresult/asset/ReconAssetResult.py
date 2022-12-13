@@ -1,44 +1,33 @@
 def ReconAssetResult():
-'''public ReconAssetResult(final MboSet ms)
-'''
-pass
+    '''    public ReconAssetResult(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def createTicket():
-'''public void createTicket(final MboRemote tkMbo)
-'''
-pass
+    '''    public void createTicket(final MboRemote tkMbo)
+    '''
 def createWO():
-'''public void createWO(final MboRemote workorderMbo)
-'''
-pass
+    '''    public void createWO(final MboRemote workorderMbo)
+    '''
 def createServiceRequest():
-'''public MboRemote createServiceRequest(final String ticketTemplateID)
-'''
-pass
+    '''    public MboRemote createServiceRequest(final String ticketTemplateID)
+    '''
 def createProblem():
-'''public MboRemote createProblem(final String ticketTemplateID)
-'''
-pass
+    '''    public MboRemote createProblem(final String ticketTemplateID)
+    '''
 def createIncident():
-'''public MboRemote createIncident(final String ticketTemplateID)
-'''
-pass
+    '''    public MboRemote createIncident(final String ticketTemplateID)
+    '''
 def createWorkorder():
-'''public MboRemote createWorkorder(final String jobPlan)
-'''
-pass
+    '''    public MboRemote createWorkorder(final String jobPlan)
+    '''
 def createChange():
-'''public MboRemote createChange(final String jobPlan)
-'''
-pass
+    '''    public MboRemote createChange(final String jobPlan)
+    '''
 def createRelease():
-'''public MboRemote createRelease(final String jobPlan)
-'''
-pass
+    '''    public MboRemote createRelease(final String jobPlan)
+    '''
 def validateWOSiteID():
-'''public void validateWOSiteID(final MboRemote workOrderMbo)
-'''
-pass
+    '''    public void validateWOSiteID(final MboRemote workOrderMbo)
+    '''

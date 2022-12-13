@@ -1,10 +1,8 @@
-ELEMENT = "String  close""
-NAMESPACE = "String  http://jabber.org/protocol/ibb""
+ELEMENT = "String  \"close\""
+NAMESPACE = "String  \"http://jabber.org/protocol/ibb\""
 def Close():
-'''public Close(final String sessionID)
-'''
-pass
+    '''    public Close(final String sessionID)
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''

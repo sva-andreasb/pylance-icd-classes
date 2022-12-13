@@ -1,4 +1,3 @@
 def SmtpAuthenticator():
-'''public SmtpAuthenticator(final String user, final String password)
-'''
-pass
+    '''    public SmtpAuthenticator(final String user, final String password)
+    '''

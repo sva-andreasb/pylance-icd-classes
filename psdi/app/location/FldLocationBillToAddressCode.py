@@ -1,8 +1,6 @@
 def FldLocationBillToAddressCode():
-'''public FldLocationBillToAddressCode(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationBillToAddressCode(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

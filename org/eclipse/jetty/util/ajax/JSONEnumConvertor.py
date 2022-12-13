@@ -1,13 +1,10 @@
 def JSONEnumConvertor():
-'''public JSONEnumConvertor()
-public JSONEnumConvertor(final boolean fromJSON)
-'''
-pass
+    '''    public JSONEnumConvertor()
+    public JSONEnumConvertor(final boolean fromJSON)
+    '''
 def fromJSON():
-'''public Object fromJSON(final Map map)
-'''
-pass
+    '''    public Object fromJSON(final Map map)
+    '''
 def toJSON():
-'''public void toJSON(final Object obj, final JSON.Output out)
-'''
-pass
+    '''    public void toJSON(final Object obj, final JSON.Output out)
+    '''

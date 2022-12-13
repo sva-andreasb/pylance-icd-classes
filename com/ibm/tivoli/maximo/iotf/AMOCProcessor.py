@@ -1,30 +1,23 @@
-ATT_AMOC = "String  ATT_AMOC""
-PING_EP = "String  /telemetry/search""
+ATT_AMOC = "String  \"ATT_AMOC\""
+PING_EP = "String  \"/telemetry/search\""
 def AMOCProcessor():
-'''public AMOCProcessor()
-'''
-pass
+    '''    public AMOCProcessor()
+    '''
 def getAMOCMeter():
-'''public String getAMOCMeter(final String maximoMeter)
-'''
-pass
+    '''    public String getAMOCMeter(final String maximoMeter)
+    '''
 def processResource():
-'''public JSONArtifact processResource(JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
-'''
-pass
+    '''    public JSONArtifact processResource(JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
+    '''
 def mapReadings():
-'''public JSONObject mapReadings(final JSONObject jo, final MboRemote owner)
-'''
-pass
+    '''    public JSONObject mapReadings(final JSONObject jo, final MboRemote owner)
+    '''
 def pingHistorian():
-'''public boolean pingHistorian(final IoTFService srv)
-'''
-pass
+    '''    public boolean pingHistorian(final IoTFService srv)
+    '''
 def getHeaders():
-'''public String getHeaders(final Map propInfo)
-'''
-pass
+    '''    public String getHeaders(final Map propInfo)
+    '''
 def getBaseAttURL():
-'''public String getBaseAttURL()
-'''
-pass
+    '''    public String getBaseAttURL()
+    '''

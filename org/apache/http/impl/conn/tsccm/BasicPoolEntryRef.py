@@ -1,8 +1,6 @@
 def BasicPoolEntryRef():
-'''public BasicPoolEntryRef(final BasicPoolEntry entry, final ReferenceQueue<Object> queue)
-'''
-pass
+    '''    public BasicPoolEntryRef(final BasicPoolEntry entry, final ReferenceQueue<Object> queue)
+    '''
 def getRoute():
-'''public final HttpRoute getRoute()
-'''
-pass
+    '''    public final HttpRoute getRoute()
+    '''

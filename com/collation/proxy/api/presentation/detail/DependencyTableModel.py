@@ -1,48 +1,36 @@
 def DependencyTableModel():
-'''public DependencyTableModel(final List data, final boolean isHost)
-'''
-pass
+    '''    public DependencyTableModel(final List data, final boolean isHost)
+    '''
 def setData():
-'''public void setData(final List data)
-'''
-pass
+    '''    public void setData(final List data)
+    '''
 def getRowCount():
-'''public int getRowCount()
-'''
-pass
+    '''    public int getRowCount()
+    '''
 def getColumnCount():
-'''public int getColumnCount()
-'''
-pass
+    '''    public int getColumnCount()
+    '''
 def getValueAt():
-'''public Object getValueAt(final int row, final int col)
-'''
-pass
+    '''    public Object getValueAt(final int row, final int col)
+    '''
 def getModelObject():
-'''public ModelObject getModelObject(final int row)
-'''
-pass
+    '''    public ModelObject getModelObject(final int row)
+    '''
 def getColumnName():
-'''public String getColumnName(final int col)
-'''
-pass
+    '''    public String getColumnName(final int col)
+    '''
 def getElementAt():
-'''public Object getElementAt(final int position)
-'''
-pass
+    '''    public Object getElementAt(final int position)
+    '''
 def add():
-'''public void add(final DependencyBean ip)
-'''
-pass
+    '''    public void add(final DependencyBean ip)
+    '''
 def isPresent():
-'''public boolean isPresent(final Guid id)
-'''
-pass
+    '''    public boolean isPresent(final Guid id)
+    '''
 def remove():
-'''public void remove(final int position)
-'''
-pass
+    '''    public void remove(final int position)
+    '''
 def getData():
-'''public List getData()
-'''
-pass
+    '''    public List getData()
+    '''

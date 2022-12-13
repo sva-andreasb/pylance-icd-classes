@@ -1,68 +1,51 @@
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getTicketId():
-'''public String getTicketId()
-'''
-pass
+    '''    public String getTicketId()
+    '''
 def getTool():
-'''public String getTool()
-'''
-pass
+    '''    public String getTool()
+    '''
 def getTeamId():
-'''public String getTeamId()
-'''
-pass
+    '''    public String getTeamId()
+    '''
 def getChannelId():
-'''public String getChannelId()
-'''
-pass
+    '''    public String getChannelId()
+    '''
 def getChatOpsUserId():
-'''public String getChatOpsUserId()
-'''
-pass
+    '''    public String getChatOpsUserId()
+    '''
 def getChatOpsUserName():
-'''public String getChatOpsUserName()
-'''
-pass
+    '''    public String getChatOpsUserName()
+    '''
 def getICDUserId():
-'''public String getICDUserId()
-'''
-pass
+    '''    public String getICDUserId()
+    '''
 def getResourceRequest():
-'''public String getResourceRequest()
-'''
-pass
+    '''    public String getResourceRequest()
+    '''
 def getRequestUrl():
-'''public String getRequestUrl()
-'''
-pass
+    '''    public String getRequestUrl()
+    '''
 def getSessionId():
-'''public String getSessionId()
-'''
-pass
+    '''    public String getSessionId()
+    '''
 def getEvent():
-'''public String getEvent()
-'''
-pass
+    '''    public String getEvent()
+    '''
 def getValue():
-'''public JSONObject getValue()
-'''
-pass
+    '''    public JSONObject getValue()
+    '''
 def getCommand():
-'''public String getCommand()
-'''
-pass
+    '''    public String getCommand()
+    '''
 def getTriggerId():
-'''public String getTriggerId()
-'''
-pass
+    '''    public String getTriggerId()
+    '''
 def getOAuthCode():
-'''public String getOAuthCode()
-'''
-pass
+    '''    public String getOAuthCode()
+    '''
 def getActionId():
-'''public String getActionId()
-'''
-pass
+    '''    public String getActionId()
+    '''

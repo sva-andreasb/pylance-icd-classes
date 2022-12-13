@@ -1,4 +1,3 @@
 def DrpOldTab():
-'''public DrpOldTab(final MboSet ms)
-'''
-pass
+    '''    public DrpOldTab(final MboSet ms)
+    '''

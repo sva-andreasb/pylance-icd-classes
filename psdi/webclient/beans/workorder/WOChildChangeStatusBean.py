@@ -1,16 +1,12 @@
 def beforedolongop():
-'''public int beforedolongop()
-'''
-pass
+    '''    public int beforedolongop()
+    '''
 def beforedialogok():
-'''public int beforedialogok()
-'''
-pass
+    '''    public int beforedialogok()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

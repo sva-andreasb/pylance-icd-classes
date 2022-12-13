@@ -1,60 +1,45 @@
 def DefaultHelpHistoryModel():
-'''public DefaultHelpHistoryModel(final JHelp help)
-'''
-pass
+    '''    public DefaultHelpHistoryModel(final JHelp help)
+    '''
 def setHelpModel():
-'''public void setHelpModel(final HelpModel helpModel)
-'''
-pass
+    '''    public void setHelpModel(final HelpModel helpModel)
+    '''
 def removeHelpHistoryModelListener():
-'''public void removeHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)
-'''
-pass
+    '''    public void removeHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)
+    '''
 def addHelpHistoryModelListener():
-'''public void addHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)
-'''
-pass
+    '''    public void addHelpHistoryModelListener(final HelpHistoryModelListener helpHistoryModelListener)
+    '''
 def discard():
-'''public void discard()
-'''
-pass
+    '''    public void discard()
+    '''
 def getHistory():
-'''public Vector getHistory()
-'''
-pass
+    '''    public Vector getHistory()
+    '''
 def removeLastEntry():
-'''public void removeLastEntry()
-'''
-pass
+    '''    public void removeLastEntry()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def goForward():
-'''public void goForward()
-'''
-pass
+    '''    public void goForward()
+    '''
 def goBack():
-'''public void goBack()
-'''
-pass
+    '''    public void goBack()
+    '''
 def getForwardHistory():
-'''public Vector getForwardHistory()
-'''
-pass
+    '''    public Vector getForwardHistory()
+    '''
 def getBackwardHistory():
-'''public Vector getBackwardHistory()
-'''
-pass
+    '''    public Vector getBackwardHistory()
+    '''
 def setHistoryEntry():
-'''public void setHistoryEntry(final int n)
-'''
-pass
+    '''    public void setHistoryEntry(final int n)
+    '''
 def idChanged():
-'''public void idChanged(final HelpModelEvent obj)
-'''
-pass
+    '''    public void idChanged(final HelpModelEvent obj)
+    '''
 def removeHelpSet():
-'''public void removeHelpSet(final HelpSet set)
-'''
-pass
+    '''    public void removeHelpSet(final HelpSet set)
+    '''

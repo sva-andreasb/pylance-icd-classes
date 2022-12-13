@@ -1,4 +1,3 @@
 def weight():
-'''public double weight(final PatternTriple pt)
-'''
-pass
+    '''    public double weight(final PatternTriple pt)
+    '''

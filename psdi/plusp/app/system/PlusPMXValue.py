@@ -1,16 +1,12 @@
 def PlusPMXValue():
-'''public PlusPMXValue(final MboSet arg0)
-'''
-pass
+    '''    public PlusPMXValue(final MboSet arg0)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def genValueId():
-'''public String genValueId()
-'''
-pass
+    '''    public String genValueId()
+    '''

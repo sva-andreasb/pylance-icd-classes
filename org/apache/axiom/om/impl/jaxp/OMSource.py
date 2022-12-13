@@ -1,4 +1,3 @@
 def OMSource():
-'''public OMSource(final OMElement element)
-'''
-pass
+    '''    public OMSource(final OMElement element)
+    '''

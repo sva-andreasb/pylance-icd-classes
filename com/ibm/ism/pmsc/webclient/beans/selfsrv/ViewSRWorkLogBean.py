@@ -1,16 +1,12 @@
 def ViewSRWorkLogBean():
-'''public ViewSRWorkLogBean()
-'''
-pass
+    '''    public ViewSRWorkLogBean()
+    '''
 def srpodservicelog():
-'''public int srpodservicelog()
-'''
-pass
+    '''    public int srpodservicelog()
+    '''
 def selectlog():
-'''public int selectlog()
-'''
-pass
+    '''    public int selectlog()
+    '''
 def getExtendedToolTip():
-'''public JSONObject getExtendedToolTip(final JSONObject definition)
-'''
-pass
+    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''

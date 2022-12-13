@@ -1,4 +1,3 @@
 def RefMainSet():
-'''public RefMainSet(final MboServerInterface mboServerInterface0)
-'''
-pass
+    '''    public RefMainSet(final MboServerInterface mboServerInterface0)
+    '''

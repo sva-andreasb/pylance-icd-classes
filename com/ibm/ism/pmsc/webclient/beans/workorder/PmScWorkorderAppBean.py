@@ -1,4 +1,3 @@
 def OFDIALOG():
-'''public int OFDIALOG()
-'''
-pass
+    '''    public int OFDIALOG()
+    '''

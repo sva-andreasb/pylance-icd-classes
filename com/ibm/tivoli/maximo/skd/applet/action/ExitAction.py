@@ -1,8 +1,6 @@
 def ExitAction():
-'''public ExitAction()
-'''
-pass
+    '''    public ExitAction()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent event)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent event)
+    '''

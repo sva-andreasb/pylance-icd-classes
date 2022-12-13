@@ -1,32 +1,24 @@
 def IlvFacesResizeActivityInteractor():
-'''public IlvFacesResizeActivityInteractor()
-'''
-pass
+    '''    public IlvFacesResizeActivityInteractor()
+    '''
 def getFamily():
-'''public String getFamily()
-'''
-pass
+    '''    public String getFamily()
+    '''
 def getComponentType():
-'''public static String getComponentType()
-'''
-pass
+    '''    public static String getComponentType()
+    '''
 def updateModel():
-'''public void updateModel(final FacesContext facesContext)
-'''
-pass
+    '''    public void updateModel(final FacesContext facesContext)
+    '''
 def saveState():
-'''public Object saveState(final FacesContext facesContext)
-'''
-pass
+    '''    public Object saveState(final FacesContext facesContext)
+    '''
 def restoreState():
-'''public void restoreState(final FacesContext facesContext, final Object o)
-'''
-pass
+    '''    public void restoreState(final FacesContext facesContext, final Object o)
+    '''
 def setActionName():
-'''public void setActionName(final String a)
-'''
-pass
+    '''    public void setActionName(final String a)
+    '''
 def getActionName():
-'''public String getActionName()
-'''
-pass
+    '''    public String getActionName()
+    '''

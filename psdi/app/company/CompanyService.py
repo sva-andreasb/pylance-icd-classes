@@ -1,5 +1,4 @@
 def CompanyService():
-'''public CompanyService()
-public CompanyService(final MXServer mxServer)
-'''
-pass
+    '''    public CompanyService()
+    public CompanyService(final MXServer mxServer)
+    '''

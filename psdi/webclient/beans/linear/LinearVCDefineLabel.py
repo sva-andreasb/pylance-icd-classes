@@ -1,4 +1,3 @@
 def LinearVCDefineLabel():
-'''public LinearVCDefineLabel()
-'''
-pass
+    '''    public LinearVCDefineLabel()
+    '''

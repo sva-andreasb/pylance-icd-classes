@@ -1,88 +1,66 @@
 def InventoryAppBean():
-'''public InventoryAppBean()
-'''
-pass
+    '''    public InventoryAppBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def RELLOCKS():
-'''public int RELLOCKS()
-'''
-pass
+    '''    public int RELLOCKS()
+    '''
 def RELLOCKSNODIALOG():
-'''public int RELLOCKSNODIALOG()
-'''
-pass
+    '''    public int RELLOCKSNODIALOG()
+    '''
 def PHYSCNTADJ():
-'''public int PHYSCNTADJ()
-'''
-pass
+    '''    public int PHYSCNTADJ()
+    '''
 def KITMAKE():
-'''public int KITMAKE()
-'''
-pass
+    '''    public int KITMAKE()
+    '''
 def KITBREAK():
-'''public int KITBREAK()
-'''
-pass
+    '''    public int KITBREAK()
+    '''
 def ISSUE():
-'''public int ISSUE()
-'''
-pass
+    '''    public int ISSUE()
+    '''
 def ISSUEMULTI():
-'''public int ISSUEMULTI()
-'''
-pass
+    '''    public int ISSUEMULTI()
+    '''
 def TRANSFER():
-'''public int TRANSFER()
-'''
-pass
+    '''    public int TRANSFER()
+    '''
 def RECONCILE():
-'''public int RECONCILE()
-'''
-pass
+    '''    public int RECONCILE()
+    '''
 def CURBALADJ():
-'''public int CURBALADJ()
-'''
-pass
+    '''    public int CURBALADJ()
+    '''
 def AVGCOSTADJ():
-'''public int AVGCOSTADJ()
-'''
-pass
+    '''    public int AVGCOSTADJ()
+    '''
 def STDCOSTADJ():
-'''public int STDCOSTADJ()
-'''
-pass
+    '''    public int STDCOSTADJ()
+    '''
 def TAXCODES():
-'''public int TAXCODES()
-'''
-pass
+    '''    public int TAXCODES()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def getMbo():
-'''public synchronized MboRemote getMbo()
-'''
-pass
+    '''    public synchronized MboRemote getMbo()
+    '''
 def getcurrEvent():
-'''public String getcurrEvent()
-'''
-pass
+    '''    public String getcurrEvent()
+    '''
 def getInvSet():
-'''public MboSetRemote getInvSet()
-'''
-pass
+    '''    public MboSetRemote getInvSet()
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''

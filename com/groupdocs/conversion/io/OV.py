@@ -1,8 +1,6 @@
 def OV():
-'''public OV(final InputStream inputStream)
-'''
-pass
+    '''    public OV(final InputStream inputStream)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

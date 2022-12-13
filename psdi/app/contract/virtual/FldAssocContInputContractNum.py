@@ -1,8 +1,6 @@
 def FldAssocContInputContractNum():
-'''public FldAssocContInputContractNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAssocContInputContractNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

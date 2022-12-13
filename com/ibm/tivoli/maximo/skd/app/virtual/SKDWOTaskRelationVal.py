@@ -1,4 +1,3 @@
 def SKDWOTaskRelationVal():
-'''public SKDWOTaskRelationVal(final MboSet ms)
-'''
-pass
+    '''    public SKDWOTaskRelationVal(final MboSet ms)
+    '''

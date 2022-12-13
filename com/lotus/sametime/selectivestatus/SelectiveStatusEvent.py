@@ -1,12 +1,9 @@
 def getList():
-'''public SelectiveStatusList getList()
-'''
-pass
+    '''    public SelectiveStatusList getList()
+    '''
 def getReason():
-'''public int getReason()
-'''
-pass
+    '''    public int getReason()
+    '''
 def getListId():
-'''public String getListId()
-'''
-pass
+    '''    public String getListId()
+    '''

@@ -1,40 +1,30 @@
 def WPLicense():
-'''public WPLicense(final MboSet ms)
-'''
-pass
+    '''    public WPLicense(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def updateEstimateTotal():
-'''public void updateEstimateTotal(final double delta)
-'''
-pass
+    '''    public void updateEstimateTotal(final double delta)
+    '''
 def setEstCost():
-'''public void setEstCost(final MboRemote wo, final double lineCost)
-'''
-pass
+    '''    public void setEstCost(final MboRemote wo, final double lineCost)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def updateTotals():
-'''public void updateTotals(final MboRemote wo, final boolean isGain)
-'''
-pass
+    '''    public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''
 def copyPlan():
-'''public void copyPlan(final MboRemote source)
-'''
-pass
+    '''    public void copyPlan(final MboRemote source)
+    '''

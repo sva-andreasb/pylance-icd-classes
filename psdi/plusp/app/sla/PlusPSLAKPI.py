@@ -1,8 +1,6 @@
 def PlusPSLAKPI():
-'''public PlusPSLAKPI(final MboSet arg0)
-'''
-pass
+    '''    public PlusPSLAKPI(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

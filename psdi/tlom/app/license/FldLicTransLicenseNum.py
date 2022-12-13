@@ -1,4 +1,3 @@
 def FldLicTransLicenseNum():
-'''public FldLicTransLicenseNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLicTransLicenseNum(final MboValue mbv)
+    '''

@@ -1,28 +1,21 @@
 def ConstantClass():
-'''public ConstantClass(final int nameIndex)
-'''
-pass
+    '''    public ConstantClass(final int nameIndex)
+    '''
 def accept():
-'''public void accept(final ClassVisitor v)
-'''
-pass
+    '''    public void accept(final ClassVisitor v)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getNameIndex():
-'''public final int getNameIndex()
-'''
-pass
+    '''    public final int getNameIndex()
+    '''
 def getValue():
-'''public Integer getValue()
-'''
-pass
+    '''    public Integer getValue()
+    '''
 def getClassname():
-'''public String getClassname(final ConstantPool cpool)
-'''
-pass
+    '''    public String getClassname(final ConstantPool cpool)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''

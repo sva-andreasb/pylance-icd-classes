@@ -1,4 +1,3 @@
 def FldModDowntimeHistWonum():
-'''public FldModDowntimeHistWonum(final MboValue mbv)
-'''
-pass
+    '''    public FldModDowntimeHistWonum(final MboValue mbv)
+    '''

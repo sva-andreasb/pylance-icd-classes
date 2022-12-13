@@ -1,8 +1,6 @@
 def FldPurClassStructureId():
-'''public FldPurClassStructureId(final MboValue mbv)
-'''
-pass
+    '''    public FldPurClassStructureId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

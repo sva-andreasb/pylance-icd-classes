@@ -1,40 +1,30 @@
 def JarCacheTable():
-'''public JarCacheTable()
-'''
-pass
+    '''    public JarCacheTable()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def setHeaderRenderers():
-'''public void setHeaderRenderers()
-'''
-pass
+    '''    public void setHeaderRenderers()
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''
 def getJarCacheTableColumnModel():
-'''public JarCacheTableColumnModel getJarCacheTableColumnModel()
-'''
-pass
+    '''    public JarCacheTableColumnModel getJarCacheTableColumnModel()
+    '''
 def getJarCacheTableColumns():
-'''public JarCacheTableColumn[] getJarCacheTableColumns()
-'''
-pass
+    '''    public JarCacheTableColumn[] getJarCacheTableColumns()
+    '''
 def getCellRenderer():
-'''public TableCellRenderer getCellRenderer(final int n, final int n2)
-'''
-pass
+    '''    public TableCellRenderer getCellRenderer(final int n, final int n2)
+    '''
 def getFont():
-'''public Font getFont()
-'''
-pass
+    '''    public Font getFont()
+    '''
 def removeRows():
-'''public void removeRows()
-'''
-pass
+    '''    public void removeRows()
+    '''
 def adjustColumnSize():
-'''public void adjustColumnSize(final Container container)
-'''
-pass
+    '''    public void adjustColumnSize(final Container container)
+    '''

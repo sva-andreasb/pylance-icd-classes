@@ -1,8 +1,6 @@
 def InvChangeStatus():
-'''public InvChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public InvChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

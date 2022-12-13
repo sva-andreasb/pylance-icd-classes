@@ -1,29 +1,22 @@
 def getInstance():
-'''public static PluginRegistry getInstance()
-'''
-pass
+    '''    public static PluginRegistry getInstance()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def clearBundlePlugins():
-'''public void clearBundlePlugins(final long bundleId)
-'''
-pass
+    '''    public void clearBundlePlugins(final long bundleId)
+    '''
 def matches():
-'''public boolean matches(final Class<?> type)
-public boolean matches(final URI resource)
-'''
-pass
+    '''    public boolean matches(final Class<?> type)
+    public boolean matches(final URI resource)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def doesMatchClass():
-'''public boolean doesMatchClass()
-'''
-pass
+    '''    public boolean doesMatchClass()
+    '''
 def doesMatchResource():
-'''public boolean doesMatchResource()
-'''
-pass
+    '''    public boolean doesMatchResource()
+    '''

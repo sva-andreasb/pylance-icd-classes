@@ -1,4 +1,3 @@
 def TKTemplateSpecSet():
-'''public TKTemplateSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TKTemplateSpecSet(final MboServerInterface ms)
+    '''

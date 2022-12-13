@@ -1,164 +1,123 @@
 def VisioDocumentTypeImpl():
-'''public VisioDocumentTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public VisioDocumentTypeImpl(final SchemaType schemaType)
+    '''
 def getDocumentSettings():
-'''public DocumentSettingsType getDocumentSettings()
-'''
-pass
+    '''    public DocumentSettingsType getDocumentSettings()
+    '''
 def isSetDocumentSettings():
-'''public boolean isSetDocumentSettings()
-'''
-pass
+    '''    public boolean isSetDocumentSettings()
+    '''
 def setDocumentSettings():
-'''public void setDocumentSettings(final DocumentSettingsType documentSettingsType)
-'''
-pass
+    '''    public void setDocumentSettings(final DocumentSettingsType documentSettingsType)
+    '''
 def addNewDocumentSettings():
-'''public DocumentSettingsType addNewDocumentSettings()
-'''
-pass
+    '''    public DocumentSettingsType addNewDocumentSettings()
+    '''
 def unsetDocumentSettings():
-'''public void unsetDocumentSettings()
-'''
-pass
+    '''    public void unsetDocumentSettings()
+    '''
 def getColors():
-'''public ColorsType getColors()
-'''
-pass
+    '''    public ColorsType getColors()
+    '''
 def isSetColors():
-'''public boolean isSetColors()
-'''
-pass
+    '''    public boolean isSetColors()
+    '''
 def setColors():
-'''public void setColors(final ColorsType colorsType)
-'''
-pass
+    '''    public void setColors(final ColorsType colorsType)
+    '''
 def addNewColors():
-'''public ColorsType addNewColors()
-'''
-pass
+    '''    public ColorsType addNewColors()
+    '''
 def unsetColors():
-'''public void unsetColors()
-'''
-pass
+    '''    public void unsetColors()
+    '''
 def getFaceNames():
-'''public FaceNamesType getFaceNames()
-'''
-pass
+    '''    public FaceNamesType getFaceNames()
+    '''
 def isSetFaceNames():
-'''public boolean isSetFaceNames()
-'''
-pass
+    '''    public boolean isSetFaceNames()
+    '''
 def setFaceNames():
-'''public void setFaceNames(final FaceNamesType faceNamesType)
-'''
-pass
+    '''    public void setFaceNames(final FaceNamesType faceNamesType)
+    '''
 def addNewFaceNames():
-'''public FaceNamesType addNewFaceNames()
-'''
-pass
+    '''    public FaceNamesType addNewFaceNames()
+    '''
 def unsetFaceNames():
-'''public void unsetFaceNames()
-'''
-pass
+    '''    public void unsetFaceNames()
+    '''
 def getStyleSheets():
-'''public StyleSheetsType getStyleSheets()
-'''
-pass
+    '''    public StyleSheetsType getStyleSheets()
+    '''
 def isSetStyleSheets():
-'''public boolean isSetStyleSheets()
-'''
-pass
+    '''    public boolean isSetStyleSheets()
+    '''
 def setStyleSheets():
-'''public void setStyleSheets(final StyleSheetsType styleSheetsType)
-'''
-pass
+    '''    public void setStyleSheets(final StyleSheetsType styleSheetsType)
+    '''
 def addNewStyleSheets():
-'''public StyleSheetsType addNewStyleSheets()
-'''
-pass
+    '''    public StyleSheetsType addNewStyleSheets()
+    '''
 def unsetStyleSheets():
-'''public void unsetStyleSheets()
-'''
-pass
+    '''    public void unsetStyleSheets()
+    '''
 def getDocumentSheet():
-'''public DocumentSheetType getDocumentSheet()
-'''
-pass
+    '''    public DocumentSheetType getDocumentSheet()
+    '''
 def isSetDocumentSheet():
-'''public boolean isSetDocumentSheet()
-'''
-pass
+    '''    public boolean isSetDocumentSheet()
+    '''
 def setDocumentSheet():
-'''public void setDocumentSheet(final DocumentSheetType documentSheetType)
-'''
-pass
+    '''    public void setDocumentSheet(final DocumentSheetType documentSheetType)
+    '''
 def addNewDocumentSheet():
-'''public DocumentSheetType addNewDocumentSheet()
-'''
-pass
+    '''    public DocumentSheetType addNewDocumentSheet()
+    '''
 def unsetDocumentSheet():
-'''public void unsetDocumentSheet()
-'''
-pass
+    '''    public void unsetDocumentSheet()
+    '''
 def getEventList():
-'''public EventListType getEventList()
-'''
-pass
+    '''    public EventListType getEventList()
+    '''
 def isSetEventList():
-'''public boolean isSetEventList()
-'''
-pass
+    '''    public boolean isSetEventList()
+    '''
 def setEventList():
-'''public void setEventList(final EventListType eventListType)
-'''
-pass
+    '''    public void setEventList(final EventListType eventListType)
+    '''
 def addNewEventList():
-'''public EventListType addNewEventList()
-'''
-pass
+    '''    public EventListType addNewEventList()
+    '''
 def unsetEventList():
-'''public void unsetEventList()
-'''
-pass
+    '''    public void unsetEventList()
+    '''
 def getHeaderFooter():
-'''public HeaderFooterType getHeaderFooter()
-'''
-pass
+    '''    public HeaderFooterType getHeaderFooter()
+    '''
 def isSetHeaderFooter():
-'''public boolean isSetHeaderFooter()
-'''
-pass
+    '''    public boolean isSetHeaderFooter()
+    '''
 def setHeaderFooter():
-'''public void setHeaderFooter(final HeaderFooterType headerFooterType)
-'''
-pass
+    '''    public void setHeaderFooter(final HeaderFooterType headerFooterType)
+    '''
 def addNewHeaderFooter():
-'''public HeaderFooterType addNewHeaderFooter()
-'''
-pass
+    '''    public HeaderFooterType addNewHeaderFooter()
+    '''
 def unsetHeaderFooter():
-'''public void unsetHeaderFooter()
-'''
-pass
+    '''    public void unsetHeaderFooter()
+    '''
 def getPublishSettings():
-'''public PublishSettingsType getPublishSettings()
-'''
-pass
+    '''    public PublishSettingsType getPublishSettings()
+    '''
 def isSetPublishSettings():
-'''public boolean isSetPublishSettings()
-'''
-pass
+    '''    public boolean isSetPublishSettings()
+    '''
 def setPublishSettings():
-'''public void setPublishSettings(final PublishSettingsType publishSettingsType)
-'''
-pass
+    '''    public void setPublishSettings(final PublishSettingsType publishSettingsType)
+    '''
 def addNewPublishSettings():
-'''public PublishSettingsType addNewPublishSettings()
-'''
-pass
+    '''    public PublishSettingsType addNewPublishSettings()
+    '''
 def unsetPublishSettings():
-'''public void unsetPublishSettings()
-'''
-pass
+    '''    public void unsetPublishSettings()
+    '''

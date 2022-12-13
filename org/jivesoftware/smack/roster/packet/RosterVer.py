@@ -1,14 +1,11 @@
-ELEMENT = "String  ver""
-NAMESPACE = "String  urn:xmpp:features:rosterver""
+ELEMENT = "String  \"ver\""
+NAMESPACE = "String  \"urn:xmpp:features:rosterver\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

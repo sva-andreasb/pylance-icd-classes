@@ -1,24 +1,18 @@
 def ExpressionSet():
-'''public ExpressionSet()
-'''
-pass
+    '''    public ExpressionSet()
+    '''
 def add():
-'''public ExpressionSet add(final Expression e)
-'''
-pass
+    '''    public ExpressionSet add(final Expression e)
+    '''
 def isComplex():
-'''public boolean isComplex()
-'''
-pass
+    '''    public boolean isComplex()
+    '''
 def prepare():
-'''public ValuatorSet prepare(final VariableIndexes vi)
-'''
-pass
+    '''    public ValuatorSet prepare(final VariableIndexes vi)
+    '''
 def iterator():
-'''public Iterator<Expression> iterator()
-'''
-pass
+    '''    public Iterator<Expression> iterator()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

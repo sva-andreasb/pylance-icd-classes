@@ -1,4 +1,3 @@
 def LeaseViewChgStatSet():
-'''public LeaseViewChgStatSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LeaseViewChgStatSet(final MboServerInterface ms)
+    '''

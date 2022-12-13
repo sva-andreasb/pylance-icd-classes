@@ -1,41 +1,31 @@
 def MaxRecordLockCacheImpl():
-'''public MaxRecordLockCacheImpl()
-'''
-pass
+    '''    public MaxRecordLockCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isLockingAllowed():
-'''public boolean isLockingAllowed()
-'''
-pass
+    '''    public boolean isLockingAllowed()
+    '''
 def getLockedRecordsSet():
-'''public MboSetRemote getLockedRecordsSet()
-'''
-pass
+    '''    public MboSetRemote getLockedRecordsSet()
+    '''
 def isRecordLockedByMe():
-'''public boolean isRecordLockedByMe(final long lockedSessionID, final long ownerID, final String ownerTable)
-'''
-pass
+    '''    public boolean isRecordLockedByMe(final long lockedSessionID, final long ownerID, final String ownerTable)
+    '''
 def getRecordLockedByDisplayName():
-'''public String getRecordLockedByDisplayName(final long ownerID, final String ownerTable)
-'''
-pass
+    '''    public String getRecordLockedByDisplayName(final long ownerID, final String ownerTable)
+    '''
 def getRecordLockedByUserId():
-'''public String getRecordLockedByUserId(final long ownerID, final String ownerTable)
-'''
-pass
+    '''    public String getRecordLockedByUserId(final long ownerID, final String ownerTable)
+    '''
 def isRecordLocked():
-'''public boolean isRecordLocked(final long ownerID, final String ownerTable)
-'''
-pass
+    '''    public boolean isRecordLocked(final long ownerID, final String ownerTable)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

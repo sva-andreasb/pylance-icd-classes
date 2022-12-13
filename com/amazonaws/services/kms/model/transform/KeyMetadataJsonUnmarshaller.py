@@ -1,8 +1,6 @@
 def unmarshall():
-'''public KeyMetadata unmarshall(final JsonUnmarshallerContext context)
-'''
-pass
+    '''    public KeyMetadata unmarshall(final JsonUnmarshallerContext context)
+    '''
 def getInstance():
-'''public static KeyMetadataJsonUnmarshaller getInstance()
-'''
-pass
+    '''    public static KeyMetadataJsonUnmarshaller getInstance()
+    '''

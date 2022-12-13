@@ -1,20 +1,15 @@
 def ImagePanel():
-'''public ImagePanel(final Image image)
-'''
-pass
+    '''    public ImagePanel(final Image image)
+    '''
 def getImage():
-'''public final Image getImage()
-'''
-pass
+    '''    public final Image getImage()
+    '''
 def getPreferredSize():
-'''public Dimension getPreferredSize()
-'''
-pass
+    '''    public Dimension getPreferredSize()
+    '''
 def paint():
-'''public void paint(final Graphics graphics)
-'''
-pass
+    '''    public void paint(final Graphics graphics)
+    '''
 def setImage():
-'''public final void setImage(final Image image)
-'''
-pass
+    '''    public final void setImage(final Image image)
+    '''

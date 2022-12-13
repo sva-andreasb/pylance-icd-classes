@@ -1,23 +1,18 @@
-ELEMENT = "String  mechanisms""
-NAMESPACE = "String  urn:ietf:params:xml:ns:xmpp-sasl""
+ELEMENT = "String  \"mechanisms\""
+NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-sasl\""
 def Mechanisms():
-'''public Mechanisms(final String mechanism)
-public Mechanisms(final Collection<String> mechanisms)
-'''
-pass
+    '''    public Mechanisms(final String mechanism)
+    public Mechanisms(final Collection<String> mechanisms)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getMechanisms():
-'''public List<String> getMechanisms()
-'''
-pass
+    '''    public List<String> getMechanisms()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

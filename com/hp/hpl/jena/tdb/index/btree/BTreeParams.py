@@ -1,60 +1,46 @@
 RootParent = "int  -2"
 NoParent = "int  -99"
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def BTreeParams():
-'''public BTreeParams(final int order, final int keyLen, final int valLen)
-public BTreeParams(final int order, final RecordFactory factory)
-'''
-pass
+    '''    public BTreeParams(final int order, final int keyLen, final int valLen)
+    public BTreeParams(final int order, final RecordFactory factory)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def getPtrLength():
-'''public static int getPtrLength()
-'''
-pass
+    '''    public static int getPtrLength()
+    '''
 def getRecordLength():
-'''public int getRecordLength()
-'''
-pass
+    '''    public int getRecordLength()
+    '''
 def getRecordFactory():
-'''public RecordFactory getRecordFactory()
-'''
-pass
+    '''    public RecordFactory getRecordFactory()
+    '''
 def getBlockSize():
-'''public int getBlockSize()
-'''
-pass
+    '''    public int getBlockSize()
+    '''
 def calcOrder():
-'''public static int calcOrder(final int blockSize, final RecordFactory factory)
-public static int calcOrder(int blockSize, final int recordLength)
-'''
-pass
+    '''    public static int calcOrder(final int blockSize, final RecordFactory factory)
+    public static int calcOrder(int blockSize, final int recordLength)
+    '''
 def calcBlockSize():
-'''public static int calcBlockSize(final int bTreeOrder, final RecordFactory factory)
-'''
-pass
+    '''    public static int calcBlockSize(final int bTreeOrder, final RecordFactory factory)
+    '''
 def getMaxRecNonLeaf():
-'''public int getMaxRecNonLeaf()
-'''
-pass
+    '''    public int getMaxRecNonLeaf()
+    '''
 def getMaxRecLeaf():
-'''public int getMaxRecLeaf()
-'''
-pass
+    '''    public int getMaxRecLeaf()
+    '''
 def getMaxPtr():
-'''public int getMaxPtr()
-'''
-pass
+    '''    public int getMaxPtr()
+    '''
 def getMinRec():
-'''public int getMinRec()
-'''
-pass
+    '''    public int getMinRec()
+    '''
 def getMinPtr():
-'''public int getMinPtr()
-'''
-pass
+    '''    public int getMinPtr()
+    '''

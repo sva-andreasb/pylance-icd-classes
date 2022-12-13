@@ -1,4 +1,3 @@
 def AutoAttrUpdateSet():
-'''public AutoAttrUpdateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AutoAttrUpdateSet(final MboServerInterface ms)
+    '''

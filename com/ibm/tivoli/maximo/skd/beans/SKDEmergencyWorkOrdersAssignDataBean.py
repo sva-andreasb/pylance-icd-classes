@@ -1,8 +1,6 @@
 def manassign():
-'''public int manassign()
-'''
-pass
+    '''    public int manassign()
+    '''
 def closemanassign():
-'''public int closemanassign()
-'''
-pass
+    '''    public int closemanassign()
+    '''

@@ -1,78 +1,60 @@
 def insert():
-'''public void insert(final String key, final char val)
-public void insert(final char[] key, final int start, final char val)
-'''
-pass
+    '''    public void insert(final String key, final char val)
+    public void insert(final char[] key, final int start, final char val)
+    '''
 def strcmp():
-'''public static int strcmp(final char[] a, int startA, final char[] b, int startB)
-public static int strcmp(final String str, final char[] a, final int start)
-'''
-pass
+    '''    public static int strcmp(final char[] a, int startA, final char[] b, int startB)
+    public static int strcmp(final String str, final char[] a, final int start)
+    '''
 def strcpy():
-'''public static void strcpy(final char[] dst, int di, final char[] src, int si)
-'''
-pass
+    '''    public static void strcpy(final char[] dst, int di, final char[] src, int si)
+    '''
 def strlen():
-'''public static int strlen(final char[] a, final int start)
-public static int strlen(final char[] a)
-'''
-pass
+    '''    public static int strlen(final char[] a, final int start)
+    public static int strlen(final char[] a)
+    '''
 def find():
-'''public int find(final String key)
-public int find(final char[] key, final int start)
-'''
-pass
+    '''    public int find(final String key)
+    public int find(final char[] key, final int start)
+    '''
 def knows():
-'''public boolean knows(final String key)
-'''
-pass
+    '''    public boolean knows(final String key)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def clone():
-'''public Object clone()
-public Object clone()
-'''
-pass
+    '''    public Object clone()
+    public Object clone()
+    '''
 def balance():
-'''public void balance()
-'''
-pass
+    '''    public void balance()
+    '''
 def trimToSize():
-'''public void trimToSize()
-'''
-pass
+    '''    public void trimToSize()
+    '''
 def keys():
-'''public Enumeration keys()
-'''
-pass
+    '''    public Enumeration keys()
+    '''
 def printStats():
-'''public void printStats()
-'''
-pass
+    '''    public void printStats()
+    '''
 def Iterator():
-'''public Iterator()
-'''
-pass
+    '''    public Iterator()
+    '''
 def rewind():
-'''public void rewind()
-'''
-pass
+    '''    public void rewind()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def getValue():
-'''public char getValue()
-'''
-pass
+    '''    public char getValue()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def Item():
-'''public Item()
-public Item(final char p, final char c)
-'''
-pass
+    '''    public Item()
+    public Item(final char p, final char c)
+    '''

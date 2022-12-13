@@ -1,8 +1,6 @@
 def MessageConstraintException():
-'''public MessageConstraintException(final String message)
-'''
-pass
+    '''    public MessageConstraintException(final String message)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

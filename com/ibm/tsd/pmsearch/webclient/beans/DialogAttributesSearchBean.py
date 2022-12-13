@@ -1,4 +1,3 @@
 def DialogAttributesSearchBean():
-'''public DialogAttributesSearchBean()
-'''
-pass
+    '''    public DialogAttributesSearchBean()
+    '''

@@ -1,4 +1,3 @@
 def FldAssetAttributeDesc():
-'''public FldAssetAttributeDesc(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetAttributeDesc(final MboValue mbv)
+    '''

@@ -1,72 +1,54 @@
 def ApptWindow():
-'''public ApptWindow(final String name)
-'''
-pass
+    '''    public ApptWindow(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getBucket():
-'''public ApptBucket getBucket(final Date date, final boolean create)
-'''
-pass
+    '''    public ApptBucket getBucket(final Date date, final boolean create)
+    '''
 def addAppointment():
-'''public ApptBucket addAppointment(final Appointment appt)
-'''
-pass
+    '''    public ApptBucket addAppointment(final Appointment appt)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getStart():
-'''public Date getStart()
-'''
-pass
+    '''    public Date getStart()
+    '''
 def iterator():
-'''public Iterator<ApptBucket> iterator()
-'''
-pass
+    '''    public Iterator<ApptBucket> iterator()
+    '''
 def setMemo():
-'''public void setMemo(final String memo)
-'''
-pass
+    '''    public void setMemo(final String memo)
+    '''
 def setEariestTime():
-'''public void setEariestTime(final Date date)
-'''
-pass
+    '''    public void setEariestTime(final Date date)
+    '''
 def setLatestTime():
-'''public void setLatestTime(final Date date)
-'''
-pass
+    '''    public void setLatestTime(final Date date)
+    '''
 def getMemo():
-'''public String getMemo()
-'''
-pass
+    '''    public String getMemo()
+    '''
 def getEarliestStart():
-'''public Date getEarliestStart()
-'''
-pass
+    '''    public Date getEarliestStart()
+    '''
 def getLatestFinish():
-'''public Date getLatestFinish()
-'''
-pass
+    '''    public Date getLatestFinish()
+    '''
 def getBuckets():
-'''public List<ApptBucket> getBuckets()
-'''
-pass
+    '''    public List<ApptBucket> getBuckets()
+    '''

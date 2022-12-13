@@ -1,24 +1,18 @@
 def WeatherAssetRegistryCronTask():
-'''public WeatherAssetRegistryCronTask()
-'''
-pass
+    '''    public WeatherAssetRegistryCronTask()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def processAlertSubscriptions():
-'''public void processAlertSubscriptions(final String endPointName, final UserInfo userInfo)
-'''
-pass
+    '''    public void processAlertSubscriptions(final String endPointName, final UserInfo userInfo)
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''

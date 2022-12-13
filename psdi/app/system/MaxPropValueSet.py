@@ -1,4 +1,3 @@
 def MaxPropValueSet():
-'''public MaxPropValueSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxPropValueSet(final MboServerInterface ms)
+    '''

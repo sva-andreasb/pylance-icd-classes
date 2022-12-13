@@ -1,5 +1,4 @@
-PUSHNOTF_LOGGER = "String  maximo.pushnotification""
+PUSHNOTF_LOGGER = "String  \"maximo.pushnotification\""
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

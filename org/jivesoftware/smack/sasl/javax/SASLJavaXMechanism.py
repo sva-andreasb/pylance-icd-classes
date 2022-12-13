@@ -1,8 +1,6 @@
 def checkIfSuccessfulOrThrow():
-'''public final void checkIfSuccessfulOrThrow()
-'''
-pass
+    '''    public final void checkIfSuccessfulOrThrow()
+    '''
 def handle():
-'''public void handle(final Callback[] callbacks)
-'''
-pass
+    '''    public void handle(final Callback[] callbacks)
+    '''

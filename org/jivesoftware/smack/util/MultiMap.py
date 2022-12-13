@@ -1,70 +1,53 @@
 DEFAULT_MAP_SIZE = "int  6"
 def MultiMap():
-'''public MultiMap()
-public MultiMap(final int size)
-'''
-pass
+    '''    public MultiMap()
+    public MultiMap(final int size)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def getFirst():
-'''public V getFirst(final Object key)
-'''
-pass
+    '''    public V getFirst(final Object key)
+    '''
 def getAll():
-'''public List<V> getAll(final Object key)
-'''
-pass
+    '''    public List<V> getAll(final Object key)
+    '''
 def put():
-'''public boolean put(final K key, final V value)
-'''
-pass
+    '''    public boolean put(final K key, final V value)
+    '''
 def remove():
-'''public V remove(final Object key)
-'''
-pass
+    '''    public V remove(final Object key)
+    '''
 def removeOne():
-'''public boolean removeOne(final Object key, final V value)
-'''
-pass
+    '''    public boolean removeOne(final Object key, final V value)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ? extends V> map)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ? extends V> map)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def values():
-'''public List<V> values()
-'''
-pass
+    '''    public List<V> values()
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    '''

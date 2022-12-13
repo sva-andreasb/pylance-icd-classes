@@ -1,8 +1,6 @@
 def LUSHR():
-'''public LUSHR()
-'''
-pass
+    '''    public LUSHR()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

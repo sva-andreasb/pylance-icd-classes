@@ -1,84 +1,63 @@
 def isJsonArray():
-'''public boolean isJsonArray()
-'''
-pass
+    '''    public boolean isJsonArray()
+    '''
 def isJsonObject():
-'''public boolean isJsonObject()
-'''
-pass
+    '''    public boolean isJsonObject()
+    '''
 def isJsonPrimitive():
-'''public boolean isJsonPrimitive()
-'''
-pass
+    '''    public boolean isJsonPrimitive()
+    '''
 def isJsonNull():
-'''public boolean isJsonNull()
-'''
-pass
+    '''    public boolean isJsonNull()
+    '''
 def getAsJsonObject():
-'''public JsonObject getAsJsonObject()
-'''
-pass
+    '''    public JsonObject getAsJsonObject()
+    '''
 def getAsJsonArray():
-'''public JsonArray getAsJsonArray()
-'''
-pass
+    '''    public JsonArray getAsJsonArray()
+    '''
 def getAsJsonPrimitive():
-'''public JsonPrimitive getAsJsonPrimitive()
-'''
-pass
+    '''    public JsonPrimitive getAsJsonPrimitive()
+    '''
 def getAsJsonNull():
-'''public JsonNull getAsJsonNull()
-'''
-pass
+    '''    public JsonNull getAsJsonNull()
+    '''
 def getAsBoolean():
-'''public boolean getAsBoolean()
-'''
-pass
+    '''    public boolean getAsBoolean()
+    '''
 def getAsNumber():
-'''public Number getAsNumber()
-'''
-pass
+    '''    public Number getAsNumber()
+    '''
 def getAsString():
-'''public String getAsString()
-'''
-pass
+    '''    public String getAsString()
+    '''
 def getAsDouble():
-'''public double getAsDouble()
-'''
-pass
+    '''    public double getAsDouble()
+    '''
 def getAsFloat():
-'''public float getAsFloat()
-'''
-pass
+    '''    public float getAsFloat()
+    '''
 def getAsLong():
-'''public long getAsLong()
-'''
-pass
+    '''    public long getAsLong()
+    '''
 def getAsInt():
-'''public int getAsInt()
-'''
-pass
+    '''    public int getAsInt()
+    '''
 def getAsByte():
-'''public byte getAsByte()
-'''
-pass
+    '''    public byte getAsByte()
+    '''
 def getAsCharacter():
-'''public char getAsCharacter()
-'''
-pass
+    '''    public char getAsCharacter()
+    '''
 def getAsBigDecimal():
-'''public BigDecimal getAsBigDecimal()
-'''
-pass
+    '''    public BigDecimal getAsBigDecimal()
+    '''
 def getAsBigInteger():
-'''public BigInteger getAsBigInteger()
-'''
-pass
+    '''    public BigInteger getAsBigInteger()
+    '''
 def getAsShort():
-'''public short getAsShort()
-'''
-pass
+    '''    public short getAsShort()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,12 +1,9 @@
 def SpatialTravelTimeMatrix():
-'''public SpatialTravelTimeMatrix()
-'''
-pass
+    '''    public SpatialTravelTimeMatrix()
+    '''
 def calculateTravelTimeMatrixFor():
-'''public List<Long> calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)
-'''
-pass
+    '''    public List<Long> calculateTravelTimeMatrixFor(final List<SKDMAPInputParamInfo> originPoints, final List<SKDMAPInputParamInfo> destinationPoints, final UserInfo userInfo)
+    '''
 def call():
-'''public Long call()
-'''
-pass
+    '''    public Long call()
+    '''

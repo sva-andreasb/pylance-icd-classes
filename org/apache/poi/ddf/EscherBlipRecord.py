@@ -1,28 +1,22 @@
 RECORD_ID_START = "short  -4072"
 RECORD_ID_END = "short  -3817"
-RECORD_DESCRIPTION = "String  msofbtBlip""
+RECORD_DESCRIPTION = "String  \"msofbtBlip\""
 def fillFields():
-'''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
-'''
-pass
+    '''    public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''
 def serialize():
-'''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
-'''
-pass
+    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''
 def getRecordSize():
-'''public int getRecordSize()
-'''
-pass
+    '''    public int getRecordSize()
+    '''
 def getRecordName():
-'''public String getRecordName()
-'''
-pass
+    '''    public String getRecordName()
+    '''
 def getPicturedata():
-'''public byte[] getPicturedata()
-'''
-pass
+    '''    public byte[] getPicturedata()
+    '''
 def setPictureData():
-'''public void setPictureData(final byte[] pictureData)
-public void setPictureData(final byte[] pictureData, final int offset, final int length)
-'''
-pass
+    '''    public void setPictureData(final byte[] pictureData)
+    public void setPictureData(final byte[] pictureData, final int offset, final int length)
+    '''

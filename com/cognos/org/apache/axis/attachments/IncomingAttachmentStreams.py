@@ -1,54 +1,41 @@
 def IncomingAttachmentStreams():
-'''public IncomingAttachmentStreams()
-'''
-pass
+    '''    public IncomingAttachmentStreams()
+    '''
 def isReadyToGetNextStream():
-'''public final boolean isReadyToGetNextStream()
-'''
-pass
+    '''    public final boolean isReadyToGetNextStream()
+    '''
 def IncomingAttachmentInputStream():
-'''public IncomingAttachmentInputStream(final InputStream in)
-'''
-pass
+    '''    public IncomingAttachmentInputStream(final InputStream in)
+    '''
 def getHeaders():
-'''public Map getHeaders()
-'''
-pass
+    '''    public Map getHeaders()
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def getHeader():
-'''public String getHeader(final String name)
-'''
-pass
+    '''    public String getHeader(final String name)
+    '''
 def getContentId():
-'''public String getContentId()
-'''
-pass
+    '''    public String getContentId()
+    '''
 def getContentLocation():
-'''public String getContentLocation()
-'''
-pass
+    '''    public String getContentLocation()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def mark():
-'''public void mark(final int readLimit)
-'''
-pass
+    '''    public void mark(final int readLimit)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b)
-public int read(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b)
+    public int read(final byte[] b, final int off, final int len)
+    '''

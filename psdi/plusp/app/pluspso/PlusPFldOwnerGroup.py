@@ -1,8 +1,6 @@
 def PlusPFldOwnerGroup():
-'''public PlusPFldOwnerGroup(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldOwnerGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

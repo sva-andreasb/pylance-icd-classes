@@ -1,77 +1,59 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isDomainPattern():
-'''public boolean isDomainPattern()
-'''
-pass
+    '''    public boolean isDomainPattern()
+    '''
 def isPattern():
-'''public boolean isPattern()
-'''
-pass
+    '''    public boolean isPattern()
+    '''
 def isPropertyPattern():
-'''public boolean isPropertyPattern()
-'''
-pass
+    '''    public boolean isPropertyPattern()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getCanonicalKeyPropertyListString():
-'''public String getCanonicalKeyPropertyListString()
-'''
-pass
+    '''    public String getCanonicalKeyPropertyListString()
+    '''
 def getCanonicalName():
-'''public String getCanonicalName()
-'''
-pass
+    '''    public String getCanonicalName()
+    '''
 def getDomain():
-'''public String getDomain()
-'''
-pass
+    '''    public String getDomain()
+    '''
 def getKeyPropertyListString():
-'''public String getKeyPropertyListString()
-'''
-pass
+    '''    public String getKeyPropertyListString()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def ObjectName():
-'''public ObjectName(final String s)
-public ObjectName(final String s, final Hashtable hashtable)
-public ObjectName(final String s, final String key, final String value)
-'''
-pass
+    '''    public ObjectName(final String s)
+    public ObjectName(final String s, final Hashtable hashtable)
+    public ObjectName(final String s, final String key, final String value)
+    '''
 def getKeyPropertyList():
-'''public Hashtable getKeyPropertyList()
-'''
-pass
+    '''    public Hashtable getKeyPropertyList()
+    '''
 def setMBeanServer():
-'''public void setMBeanServer(final MBeanServer mBeanServer)
-'''
-pass
+    '''    public void setMBeanServer(final MBeanServer mBeanServer)
+    '''
 def apply():
-'''public boolean apply(final ObjectName objectName)
-'''
-pass
+    '''    public boolean apply(final ObjectName objectName)
+    '''
 def getKeyProperty():
-'''public String getKeyProperty(final String key)
-'''
-pass
+    '''    public String getKeyProperty(final String key)
+    '''
 def quote():
-'''public static String quote(final String s)
-'''
-pass
+    '''    public static String quote(final String s)
+    '''
 def unquote():
-'''public static String unquote(final String s)
-'''
-pass
+    '''    public static String unquote(final String s)
+    '''
 def getInstance():
-'''public static ObjectName getInstance(final String s)
-public static ObjectName getInstance(final ObjectName objectName)
-public static ObjectName getInstance(final String s, final Hashtable hashtable)
-public static ObjectName getInstance(final String s, final String s2, final String s3)
-'''
-pass
+    '''    public static ObjectName getInstance(final String s)
+    public static ObjectName getInstance(final ObjectName objectName)
+    public static ObjectName getInstance(final String s, final Hashtable hashtable)
+    public static ObjectName getInstance(final String s, final String s2, final String s3)
+    '''

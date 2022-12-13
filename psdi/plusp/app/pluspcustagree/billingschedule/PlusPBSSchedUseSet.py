@@ -1,4 +1,3 @@
 def PlusPBSSchedUseSet():
-'''public PlusPBSSchedUseSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPBSSchedUseSet(final MboServerInterface mboServerInterface)
+    '''

@@ -1,57 +1,43 @@
 def RestClient():
-'''public RestClient(final CloseableHttpClient client, String url, final String token)
-public RestClient(final CloseableHttpClient client, String url, final String clientid, final String secret)
-'''
-pass
+    '''    public RestClient(final CloseableHttpClient client, String url, final String token)
+    public RestClient(final CloseableHttpClient client, String url, final String clientid, final String secret)
+    '''
 def getBaseUrl():
-'''public String getBaseUrl()
-'''
-pass
+    '''    public String getBaseUrl()
+    '''
 def isCompressionEnabled():
-'''public boolean isCompressionEnabled()
-'''
-pass
+    '''    public boolean isCompressionEnabled()
+    '''
 def setCompression():
-'''public void setCompression(final boolean compression)
-'''
-pass
+    '''    public void setCompression(final boolean compression)
+    '''
 def isTraceCalls():
-'''public boolean isTraceCalls()
-'''
-pass
+    '''    public boolean isTraceCalls()
+    '''
 def setTraceCalls():
-'''public void setTraceCalls(final boolean traceCalls)
-'''
-pass
+    '''    public void setTraceCalls(final boolean traceCalls)
+    '''
 def JsonEntity():
-'''public JsonEntity(final ObjectMapper mapper, final Object obj)
-'''
-pass
+    '''    public JsonEntity(final ObjectMapper mapper, final Object obj)
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def isStreaming():
-'''public boolean isStreaming()
-'''
-pass
+    '''    public boolean isStreaming()
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outstream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outstream)
+    '''
 def CloseResponseInputStream():
-'''public CloseResponseInputStream(final InputStream in, final CloseableHttpResponse response)
-'''
-pass
+    '''    public CloseResponseInputStream(final InputStream in, final CloseableHttpResponse response)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

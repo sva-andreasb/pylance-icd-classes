@@ -1,5 +1,4 @@
 def ByteHolder():
-'''public ByteHolder()
-public ByteHolder(final byte value)
-'''
-pass
+    '''    public ByteHolder()
+    public ByteHolder(final byte value)
+    '''

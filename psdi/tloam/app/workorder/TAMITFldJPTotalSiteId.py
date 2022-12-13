@@ -1,8 +1,6 @@
 def TAMITFldJPTotalSiteId():
-'''public TAMITFldJPTotalSiteId(final MboValue mbv)
-'''
-pass
+    '''    public TAMITFldJPTotalSiteId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

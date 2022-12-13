@@ -1,76 +1,57 @@
 def UnknownElement():
-'''public UnknownElement(final String elementName)
-'''
-pass
+    '''    public UnknownElement(final String elementName)
+    '''
 def getChildren():
-'''public List getChildren()
-'''
-pass
+    '''    public List getChildren()
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def setNamespace():
-'''public void setNamespace(String namespace)
-'''
-pass
+    '''    public void setNamespace(String namespace)
+    '''
 def getQName():
-'''public String getQName()
-'''
-pass
+    '''    public String getQName()
+    '''
 def setQName():
-'''public void setQName(final String qname)
-'''
-pass
+    '''    public void setQName(final String qname)
+    '''
 def getWrapper():
-'''public RuntimeConfigurable getWrapper()
-'''
-pass
+    '''    public RuntimeConfigurable getWrapper()
+    '''
 def maybeConfigure():
-'''public void maybeConfigure()
-'''
-pass
+    '''    public void maybeConfigure()
+    '''
 def configure():
-'''public void configure(final Object realObject)
-'''
-pass
+    '''    public void configure(final Object realObject)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def addChild():
-'''public void addChild(final UnknownElement child)
-'''
-pass
+    '''    public void addChild(final UnknownElement child)
+    '''
 def applyPreSet():
-'''public void applyPreSet(final UnknownElement u)
-'''
-pass
+    '''    public void applyPreSet(final UnknownElement u)
+    '''
 def getTaskName():
-'''public String getTaskName()
-'''
-pass
+    '''    public String getTaskName()
+    '''
 def getTask():
-'''public Task getTask()
-'''
-pass
+    '''    public Task getTask()
+    '''
 def getRealThing():
-'''public Object getRealThing()
-'''
-pass
+    '''    public Object getRealThing()
+    '''
 def setRealThing():
-'''public void setRealThing(final Object realThing)
-'''
-pass
+    '''    public void setRealThing(final Object realThing)
+    '''
 def similar():
-'''public boolean similar(final Object obj)
-'''
-pass
+    '''    public boolean similar(final Object obj)
+    '''
 def copy():
-'''public UnknownElement copy(final Project newProject)
-'''
-pass
+    '''    public UnknownElement copy(final Project newProject)
+    '''

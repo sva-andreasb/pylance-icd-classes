@@ -1,60 +1,45 @@
 def XmlContent():
-'''public XmlContent()
-'''
-pass
+    '''    public XmlContent()
+    '''
 def getRootElementsByFileName():
-'''public SortedMap<String, Element> getRootElementsByFileName()
-'''
-pass
+    '''    public SortedMap<String, Element> getRootElementsByFileName()
+    '''
 def load():
-'''public void load(final String contentPath)
-'''
-pass
+    '''    public void load(final String contentPath)
+    '''
 def markXmlContentObjectAsChanged():
-'''public void markXmlContentObjectAsChanged(final XmlContentObject object)
-'''
-pass
+    '''    public void markXmlContentObjectAsChanged(final XmlContentObject object)
+    '''
 def getParentContentObject():
-'''public XmlContentObject getParentContentObject(final XmlContentObject object)
-'''
-pass
+    '''    public XmlContentObject getParentContentObject(final XmlContentObject object)
+    '''
 def removeObject():
-'''public void removeObject(final XmlContentObject object)
-'''
-pass
+    '''    public void removeObject(final XmlContentObject object)
+    '''
 def getXmlFileNames():
-'''public Set<String> getXmlFileNames()
-'''
-pass
+    '''    public Set<String> getXmlFileNames()
+    '''
 def getXmlContentObjectsInFile():
-'''public List<XmlContentObject> getXmlContentObjectsInFile(final String xmlFileName)
-'''
-pass
+    '''    public List<XmlContentObject> getXmlContentObjectsInFile(final String xmlFileName)
+    '''
 def getXmlContentObjectByXmlElement():
-'''public XmlContentObject getXmlContentObjectByXmlElement(final Element element)
-'''
-pass
+    '''    public XmlContentObject getXmlContentObjectByXmlElement(final Element element)
+    '''
 def getXmlContentObjectByTypeAndKey():
-'''public XmlContentObject getXmlContentObjectByTypeAndKey(final String objectType, final String objectKey)
-'''
-pass
+    '''    public XmlContentObject getXmlContentObjectByTypeAndKey(final String objectType, final String objectKey)
+    '''
 def setKeepRootElementsByFileName():
-'''public void setKeepRootElementsByFileName(final boolean keepRootElementsByFileName)
-'''
-pass
+    '''    public void setKeepRootElementsByFileName(final boolean keepRootElementsByFileName)
+    '''
 def getRootElement():
-'''public Element getRootElement(final String fileName)
-'''
-pass
+    '''    public Element getRootElement(final String fileName)
+    '''
 def getAllObjectsByType():
-'''public SortedMap<String, SortedMap<String, XmlContentObject>> getAllObjectsByType()
-'''
-pass
+    '''    public SortedMap<String, SortedMap<String, XmlContentObject>> getAllObjectsByType()
+    '''
 def getIdentifyingWhereClause():
-'''public String getIdentifyingWhereClause(final XmlContentObject object)
-'''
-pass
+    '''    public String getIdentifyingWhereClause(final XmlContentObject object)
+    '''
 def MaximoContentXmlVisitor():
-'''public MaximoContentXmlVisitor(final XmlContent xmlContent)
-'''
-pass
+    '''    public MaximoContentXmlVisitor(final XmlContent xmlContent)
+    '''

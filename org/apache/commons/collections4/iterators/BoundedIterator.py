@@ -1,16 +1,12 @@
 def BoundedIterator():
-'''public BoundedIterator(final Iterator<? extends E> iterator, final long offset, final long max)
-'''
-pass
+    '''    public BoundedIterator(final Iterator<? extends E> iterator, final long offset, final long max)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

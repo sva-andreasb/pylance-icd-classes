@@ -1,5 +1,4 @@
-VALUE = "String  \u0000""
+VALUE = "String  \"\u0000\""
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

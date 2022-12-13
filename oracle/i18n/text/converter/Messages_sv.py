@@ -1,8 +1,6 @@
 def Messages_sv():
-'''public Messages_sv()
-'''
-pass
+    '''    public Messages_sv()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

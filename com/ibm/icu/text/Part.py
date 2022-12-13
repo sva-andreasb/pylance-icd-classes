@@ -1,40 +1,30 @@
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getLimit():
-'''public int getLimit()
-'''
-pass
+    '''    public int getLimit()
+    '''
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def getArgType():
-'''public ArgType getArgType()
-'''
-pass
+    '''    public ArgType getArgType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def hasNumericValue():
-'''public boolean hasNumericValue()
-'''
-pass
+    '''    public boolean hasNumericValue()
+    '''

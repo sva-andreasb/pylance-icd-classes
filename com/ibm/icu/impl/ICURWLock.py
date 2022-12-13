@@ -1,36 +1,27 @@
 def ICURWLock():
-'''public ICURWLock()
-'''
-pass
+    '''    public ICURWLock()
+    '''
 def resetStats():
-'''public synchronized Stats resetStats()
-'''
-pass
+    '''    public synchronized Stats resetStats()
+    '''
 def clearStats():
-'''public synchronized Stats clearStats()
-'''
-pass
+    '''    public synchronized Stats clearStats()
+    '''
 def getStats():
-'''public synchronized Stats getStats()
-'''
-pass
+    '''    public synchronized Stats getStats()
+    '''
 def acquireRead():
-'''public void acquireRead()
-'''
-pass
+    '''    public void acquireRead()
+    '''
 def releaseRead():
-'''public void releaseRead()
-'''
-pass
+    '''    public void releaseRead()
+    '''
 def acquireWrite():
-'''public void acquireWrite()
-'''
-pass
+    '''    public void acquireWrite()
+    '''
 def releaseWrite():
-'''public void releaseWrite()
-'''
-pass
+    '''    public void releaseWrite()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

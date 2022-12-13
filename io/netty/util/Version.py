@@ -1,41 +1,31 @@
 def identify():
-'''public static Map<String, Version> identify()
-public static Map<String, Version> identify(ClassLoader classLoader)
-'''
-pass
+    '''    public static Map<String, Version> identify()
+    public static Map<String, Version> identify(ClassLoader classLoader)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def artifactId():
-'''public String artifactId()
-'''
-pass
+    '''    public String artifactId()
+    '''
 def artifactVersion():
-'''public String artifactVersion()
-'''
-pass
+    '''    public String artifactVersion()
+    '''
 def buildTimeMillis():
-'''public long buildTimeMillis()
-'''
-pass
+    '''    public long buildTimeMillis()
+    '''
 def commitTimeMillis():
-'''public long commitTimeMillis()
-'''
-pass
+    '''    public long commitTimeMillis()
+    '''
 def shortCommitHash():
-'''public String shortCommitHash()
-'''
-pass
+    '''    public String shortCommitHash()
+    '''
 def longCommitHash():
-'''public String longCommitHash()
-'''
-pass
+    '''    public String longCommitHash()
+    '''
 def repositoryStatus():
-'''public String repositoryStatus()
-'''
-pass
+    '''    public String repositoryStatus()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,12 +1,9 @@
 def MaxSessionThread():
-'''public MaxSessionThread(final MXServer mxServer)
-'''
-pass
+    '''    public MaxSessionThread(final MXServer mxServer)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def updateMaxSessionTimeStamp():
-'''public void updateMaxSessionTimeStamp(final int tenantId)
-'''
-pass
+    '''    public void updateMaxSessionTimeStamp(final int tenantId)
+    '''

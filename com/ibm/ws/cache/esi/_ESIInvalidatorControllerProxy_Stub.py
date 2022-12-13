@@ -1,24 +1,18 @@
 def _ids():
-'''public String[] _ids()
-'''
-pass
+    '''    public String[] _ids()
+    '''
 def flow():
-'''public String flow(final String s)
-'''
-pass
+    '''    public String flow(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def send():
-'''public void send(final String s)
-'''
-pass
+    '''    public void send(final String s)
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''

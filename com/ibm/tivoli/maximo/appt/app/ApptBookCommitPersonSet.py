@@ -1,4 +1,3 @@
 def ApptBookCommitPersonSet():
-'''public ApptBookCommitPersonSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApptBookCommitPersonSet(final MboServerInterface ms)
+    '''

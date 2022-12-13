@@ -1,8 +1,6 @@
 def FldCommodityServiceType():
-'''public FldCommodityServiceType(final MboValue mbv)
-'''
-pass
+    '''    public FldCommodityServiceType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

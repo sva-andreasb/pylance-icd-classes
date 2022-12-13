@@ -1,33 +1,25 @@
-ELEMENT = "String  event""
+ELEMENT = "String  \"event\""
 def EventElement():
-'''public EventElement(final EventElementType eventType, final NodeExtension eventExt)
-'''
-pass
+    '''    public EventElement(final EventElementType eventType, final NodeExtension eventExt)
+    '''
 def getEventType():
-'''public EventElementType getEventType()
-'''
-pass
+    '''    public EventElementType getEventType()
+    '''
 def getExtensions():
-'''public List<ExtensionElement> getExtensions()
-'''
-pass
+    '''    public List<ExtensionElement> getExtensions()
+    '''
 def getEvent():
-'''public NodeExtension getEvent()
-'''
-pass
+    '''    public NodeExtension getEvent()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def from():
-'''public static EventElement from(final Stanza stanza)
-'''
-pass
+    '''    public static EventElement from(final Stanza stanza)
+    '''

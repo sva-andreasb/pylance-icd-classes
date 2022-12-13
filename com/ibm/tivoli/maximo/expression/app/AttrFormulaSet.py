@@ -1,8 +1,6 @@
 def AttrFormulaSet():
-'''public AttrFormulaSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AttrFormulaSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

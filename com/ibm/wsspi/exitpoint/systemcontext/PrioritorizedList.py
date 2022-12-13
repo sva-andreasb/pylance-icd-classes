@@ -1,16 +1,12 @@
 def PrioritorizedList():
-'''public PrioritorizedList()
-'''
-pass
+    '''    public PrioritorizedList()
+    '''
 def add():
-'''public synchronized void add(final Object handler, final int priority)
-'''
-pass
+    '''    public synchronized void add(final Object handler, final int priority)
+    '''
 def toArray():
-'''public synchronized Object[] toArray()
-'''
-pass
+    '''    public synchronized Object[] toArray()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

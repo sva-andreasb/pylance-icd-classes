@@ -1,29 +1,22 @@
 def ConstantDouble():
-'''public ConstantDouble(final double bytes)
-public ConstantDouble(final ConstantDouble c)
-'''
-pass
+    '''    public ConstantDouble(final double bytes)
+    public ConstantDouble(final ConstantDouble c)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getBytes():
-'''public final double getBytes()
-'''
-pass
+    '''    public final double getBytes()
+    '''
 def setBytes():
-'''public final void setBytes(final double bytes)
-'''
-pass
+    '''    public final void setBytes(final double bytes)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def getConstantValue():
-'''public Object getConstantValue(final ConstantPool cp)
-'''
-pass
+    '''    public Object getConstantValue(final ConstantPool cp)
+    '''

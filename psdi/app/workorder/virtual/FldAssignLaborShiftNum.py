@@ -1,8 +1,6 @@
 def FldAssignLaborShiftNum():
-'''public FldAssignLaborShiftNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignLaborShiftNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,8 +1,6 @@
 def FldDocinfoUrltype():
-'''public FldDocinfoUrltype(final MboValue mbv)
-'''
-pass
+    '''    public FldDocinfoUrltype(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

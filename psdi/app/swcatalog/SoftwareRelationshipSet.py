@@ -1,4 +1,3 @@
 def SoftwareRelationshipSet():
-'''public SoftwareRelationshipSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SoftwareRelationshipSet(final MboServerInterface ms)
+    '''

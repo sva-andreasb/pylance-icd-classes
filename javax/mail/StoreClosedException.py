@@ -1,9 +1,7 @@
 def getStore():
-'''public Store getStore()
-'''
-pass
+    '''    public Store getStore()
+    '''
 def StoreClosedException():
-'''public StoreClosedException(final Store store)
-public StoreClosedException(final Store store, final String message)
-'''
-pass
+    '''    public StoreClosedException(final Store store)
+    public StoreClosedException(final Store store, final String message)
+    '''

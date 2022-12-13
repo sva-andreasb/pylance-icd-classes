@@ -1,63 +1,48 @@
 MAXIMUM_CHUNK_SIZE = "int  33554432"
 def MediaHttpDownloader():
-'''public MediaHttpDownloader(final HttpTransport transport, final HttpRequestInitializer httpRequestInitializer)
-'''
-pass
+    '''    public MediaHttpDownloader(final HttpTransport transport, final HttpRequestInitializer httpRequestInitializer)
+    '''
 def download():
-'''public void download(final GenericUrl requestUrl, final OutputStream outputStream)
-public void download(final GenericUrl requestUrl, final HttpHeaders requestHeaders, final OutputStream outputStream)
-'''
-pass
+    '''    public void download(final GenericUrl requestUrl, final OutputStream outputStream)
+    public void download(final GenericUrl requestUrl, final HttpHeaders requestHeaders, final OutputStream outputStream)
+    '''
 def setBytesDownloaded():
-'''public MediaHttpDownloader setBytesDownloaded(final long bytesDownloaded)
-'''
-pass
+    '''    public MediaHttpDownloader setBytesDownloaded(final long bytesDownloaded)
+    '''
 def setContentRange():
-'''public MediaHttpDownloader setContentRange(final long firstBytePos, final long lastBytePos)
-public MediaHttpDownloader setContentRange(final long firstBytePos, final int lastBytePos)
-'''
-pass
+    '''    public MediaHttpDownloader setContentRange(final long firstBytePos, final long lastBytePos)
+    public MediaHttpDownloader setContentRange(final long firstBytePos, final int lastBytePos)
+    '''
 def isDirectDownloadEnabled():
-'''public boolean isDirectDownloadEnabled()
-'''
-pass
+    '''    public boolean isDirectDownloadEnabled()
+    '''
 def setDirectDownloadEnabled():
-'''public MediaHttpDownloader setDirectDownloadEnabled(final boolean directDownloadEnabled)
-'''
-pass
+    '''    public MediaHttpDownloader setDirectDownloadEnabled(final boolean directDownloadEnabled)
+    '''
 def setProgressListener():
-'''public MediaHttpDownloader setProgressListener(final MediaHttpDownloaderProgressListener progressListener)
-'''
-pass
+    '''    public MediaHttpDownloader setProgressListener(final MediaHttpDownloaderProgressListener progressListener)
+    '''
 def getProgressListener():
-'''public MediaHttpDownloaderProgressListener getProgressListener()
-'''
-pass
+    '''    public MediaHttpDownloaderProgressListener getProgressListener()
+    '''
 def getTransport():
-'''public HttpTransport getTransport()
-'''
-pass
+    '''    public HttpTransport getTransport()
+    '''
 def setChunkSize():
-'''public MediaHttpDownloader setChunkSize(final int chunkSize)
-'''
-pass
+    '''    public MediaHttpDownloader setChunkSize(final int chunkSize)
+    '''
 def getChunkSize():
-'''public int getChunkSize()
-'''
-pass
+    '''    public int getChunkSize()
+    '''
 def getNumBytesDownloaded():
-'''public long getNumBytesDownloaded()
-'''
-pass
+    '''    public long getNumBytesDownloaded()
+    '''
 def getLastBytePosition():
-'''public long getLastBytePosition()
-'''
-pass
+    '''    public long getLastBytePosition()
+    '''
 def getDownloadState():
-'''public DownloadState getDownloadState()
-'''
-pass
+    '''    public DownloadState getDownloadState()
+    '''
 def getProgress():
-'''public double getProgress()
-'''
-pass
+    '''    public double getProgress()
+    '''

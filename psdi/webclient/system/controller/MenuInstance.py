@@ -1,65 +1,49 @@
 def MenuInstance():
-'''public MenuInstance()
-public MenuInstance(final String id, final boolean isSub, final String parentId, final ControlInstance parentControl, final String openAt, final String tag, final boolean single, final WebClientEvent overflowEvent)
-'''
-pass
+    '''    public MenuInstance()
+    public MenuInstance(final String id, final boolean isSub, final String parentId, final ControlInstance parentControl, final String openAt, final String tag, final boolean single, final WebClientEvent overflowEvent)
+    '''
 def setShowSingle():
-'''public void setShowSingle(final boolean show)
-'''
-pass
+    '''    public void setShowSingle(final boolean show)
+    '''
 def showSingle():
-'''public boolean showSingle()
-'''
-pass
+    '''    public boolean showSingle()
+    '''
 def setRendered():
-'''public void setRendered()
-'''
-pass
+    '''    public void setRendered()
+    '''
 def needsRender():
-'''public boolean needsRender()
-'''
-pass
+    '''    public boolean needsRender()
+    '''
 def isSub():
-'''public boolean isSub()
-'''
-pass
+    '''    public boolean isSub()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getParentId():
-'''public String getParentId()
-'''
-pass
+    '''    public String getParentId()
+    '''
 def getOpenAt():
-'''public String getOpenAt()
-'''
-pass
+    '''    public String getOpenAt()
+    '''
 def getParentControl():
-'''public ControlInstance getParentControl()
-'''
-pass
+    '''    public ControlInstance getParentControl()
+    '''
 def getMenuItems():
-'''public ArrayList<Map<String, String>> getMenuItems()
-'''
-pass
+    '''    public ArrayList<Map<String, String>> getMenuItems()
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def addMenuItem():
-'''public void addMenuItem(final Map<String, String> item)
-'''
-pass
+    '''    public void addMenuItem(final Map<String, String> item)
+    '''
 def setOverLimit():
-'''public void setOverLimit(final boolean over)
-'''
-pass
+    '''    public void setOverLimit(final boolean over)
+    '''
 def getOverLimit():
-'''public boolean getOverLimit()
-'''
-pass
+    '''    public boolean getOverLimit()
+    '''
 def getOverFlow():
-'''public JSONObject getOverFlow()
-'''
-pass
+    '''    public JSONObject getOverFlow()
+    '''

@@ -1,8 +1,6 @@
 def ParagraphPropertyFetcher():
-'''public ParagraphPropertyFetcher(final int level)
-'''
-pass
+    '''    public ParagraphPropertyFetcher(final int level)
+    '''
 def fetch():
-'''public boolean fetch(final XSLFShape shape)
-'''
-pass
+    '''    public boolean fetch(final XSLFShape shape)
+    '''

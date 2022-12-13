@@ -1,12 +1,9 @@
 def CountingVisitor():
-'''public CountingVisitor()
-'''
-pass
+    '''    public CountingVisitor()
+    '''
 def visit():
-'''public void visit(final IlvHierarchyNode type, final IlvGanttModel model, final Void state)
-'''
-pass
+    '''    public void visit(final IlvHierarchyNode type, final IlvGanttModel model, final Void state)
+    '''
 def getCount():
-'''public long getCount()
-'''
-pass
+    '''    public long getCount()
+    '''

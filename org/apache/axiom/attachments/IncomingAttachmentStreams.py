@@ -1,8 +1,6 @@
 def IncomingAttachmentStreams():
-'''public IncomingAttachmentStreams()
-'''
-pass
+    '''    public IncomingAttachmentStreams()
+    '''
 def isReadyToGetNextStream():
-'''public final boolean isReadyToGetNextStream()
-'''
-pass
+    '''    public final boolean isReadyToGetNextStream()
+    '''

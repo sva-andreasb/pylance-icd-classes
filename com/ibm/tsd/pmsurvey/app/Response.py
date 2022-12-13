@@ -1,8 +1,6 @@
 def Response():
-'''public Response(final MboSet ms)
-'''
-pass
+    '''    public Response(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

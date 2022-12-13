@@ -1,12 +1,9 @@
 def OSLCQuerySet():
-'''public OSLCQuerySet(final MboServerInterface ms)
-'''
-pass
+    '''    public OSLCQuerySet(final MboServerInterface ms)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

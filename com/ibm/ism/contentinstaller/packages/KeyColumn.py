@@ -1,56 +1,42 @@
 def KeyColumn():
-'''public KeyColumn(final String keyColumn)
-'''
-pass
+    '''    public KeyColumn(final String keyColumn)
+    '''
 def transform():
-'''public String transform(final String columnValue)
-'''
-pass
+    '''    public String transform(final String columnValue)
+    '''
 def getConcatValue():
-'''public String getConcatValue()
-'''
-pass
+    '''    public String getConcatValue()
+    '''
 def setConcatValue():
-'''public void setConcatValue(final String concatValue)
-'''
-pass
+    '''    public void setConcatValue(final String concatValue)
+    '''
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def getKeyColumn():
-'''public String getKeyColumn()
-'''
-pass
+    '''    public String getKeyColumn()
+    '''
 def getDbColumnSize():
-'''public int getDbColumnSize()
-'''
-pass
+    '''    public int getDbColumnSize()
+    '''
 def setDbColumnSize():
-'''public void setDbColumnSize(final int dbColumnSize)
-'''
-pass
+    '''    public void setDbColumnSize(final int dbColumnSize)
+    '''
 def setPrefix():
-'''public void setPrefix()
-'''
-pass
+    '''    public void setPrefix()
+    '''
 def setSuffix():
-'''public void setSuffix()
-'''
-pass
+    '''    public void setSuffix()
+    '''
 def isPrefix():
-'''public boolean isPrefix()
-'''
-pass
+    '''    public boolean isPrefix()
+    '''
 def isSuffix():
-'''public boolean isSuffix()
-'''
-pass
+    '''    public boolean isSuffix()
+    '''
 def equals():
-'''public boolean equals(final Object keyColumn)
-'''
-pass
+    '''    public boolean equals(final Object keyColumn)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

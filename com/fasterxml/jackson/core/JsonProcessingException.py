@@ -1,24 +1,18 @@
 def getLocation():
-'''public JsonLocation getLocation()
-'''
-pass
+    '''    public JsonLocation getLocation()
+    '''
 def clearLocation():
-'''public void clearLocation()
-'''
-pass
+    '''    public void clearLocation()
+    '''
 def getOriginalMessage():
-'''public String getOriginalMessage()
-'''
-pass
+    '''    public String getOriginalMessage()
+    '''
 def getProcessor():
-'''public Object getProcessor()
-'''
-pass
+    '''    public Object getProcessor()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

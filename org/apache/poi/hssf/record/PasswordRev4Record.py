@@ -1,22 +1,17 @@
 sid = "short  444"
 def PasswordRev4Record():
-'''public PasswordRev4Record(final int pw)
-public PasswordRev4Record(final RecordInputStream in)
-'''
-pass
+    '''    public PasswordRev4Record(final int pw)
+    public PasswordRev4Record(final RecordInputStream in)
+    '''
 def setPassword():
-'''public void setPassword(final short pw)
-'''
-pass
+    '''    public void setPassword(final short pw)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''

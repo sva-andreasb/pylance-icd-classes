@@ -1,54 +1,41 @@
 def getReportedDataFrom():
-'''public static ReportedData getReportedDataFrom(final Stanza packet)
-'''
-pass
+    '''    public static ReportedData getReportedDataFrom(final Stanza packet)
+    '''
 def ReportedData():
-'''public ReportedData()
-'''
-pass
+    '''    public ReportedData()
+    '''
 def addRow():
-'''public void addRow(final Row row)
-'''
-pass
+    '''    public void addRow(final Row row)
+    '''
 def addColumn():
-'''public void addColumn(final Column column)
-'''
-pass
+    '''    public void addColumn(final Column column)
+    '''
 def getRows():
-'''public List<Row> getRows()
-'''
-pass
+    '''    public List<Row> getRows()
+    '''
 def getColumns():
-'''public List<Column> getColumns()
-'''
-pass
+    '''    public List<Column> getColumns()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def Column():
-'''public Column(final String label, final String variable, final FormField.Type type)
-'''
-pass
+    '''    public Column(final String label, final String variable, final FormField.Type type)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def getVariable():
-'''public String getVariable()
-public String getVariable()
-'''
-pass
+    '''    public String getVariable()
+    public String getVariable()
+    '''
 def Row():
-'''public Row(final List<Field> fields)
-'''
-pass
+    '''    public Row(final List<Field> fields)
+    '''
 def getValues():
-'''public List<CharSequence> getValues(final String variable)
-public List<CharSequence> getValues()
-'''
-pass
+    '''    public List<CharSequence> getValues(final String variable)
+    public List<CharSequence> getValues()
+    '''
 def Field():
-'''public Field(final String variable, final List<? extends CharSequence> values)
-'''
-pass
+    '''    public Field(final String variable, final List<? extends CharSequence> values)
+    '''

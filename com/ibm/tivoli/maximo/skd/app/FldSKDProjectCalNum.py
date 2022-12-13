@@ -1,8 +1,6 @@
 def FldSKDProjectCalNum():
-'''public FldSKDProjectCalNum(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDProjectCalNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

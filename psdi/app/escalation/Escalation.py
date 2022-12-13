@@ -1,77 +1,58 @@
 def Escalation():
-'''public Escalation(final MboSet ms)
-'''
-pass
+    '''    public Escalation(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def actDeactEscalation():
-'''public MboRemote actDeactEscalation()
-'''
-pass
+    '''    public MboRemote actDeactEscalation()
+    '''
 def deactivateCronTaskInstance():
-'''public void deactivateCronTaskInstance()
-'''
-pass
+    '''    public void deactivateCronTaskInstance()
+    '''
 def activateCronTaskInstance():
-'''public void activateCronTaskInstance()
-'''
-pass
+    '''    public void activateCronTaskInstance()
+    '''
 def deleteCronTaskInstance():
-'''public void deleteCronTaskInstance()
-'''
-pass
+    '''    public void deleteCronTaskInstance()
+    '''
 def createCronTaskInstance():
-'''public void createCronTaskInstance(final CrontaskInstanceSetRemote cis)
-public void createCronTaskInstance()
-'''
-pass
+    '''    public void createCronTaskInstance(final CrontaskInstanceSetRemote cis)
+    public void createCronTaskInstance()
+    '''
 def isCronCreated():
-'''public boolean isCronCreated()
-'''
-pass
+    '''    public boolean isCronCreated()
+    '''
 def enableDisableSiteOrg():
-'''public void enableDisableSiteOrg(final String objectname)
-'''
-pass
+    '''    public void enableDisableSiteOrg(final String objectname)
+    '''
 def canChangeObject():
-'''public void canChangeObject()
-'''
-pass
+    '''    public void canChangeObject()
+    '''
 def validateEscalation():
-'''public void validateEscalation()
-'''
-pass
+    '''    public void validateEscalation()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def isEscalationActive():
-'''public boolean isEscalationActive()
-'''
-pass
+    '''    public boolean isEscalationActive()
+    '''
 def setActiveReadOnly():
-'''public void setActiveReadOnly()
-'''
-pass
+    '''    public void setActiveReadOnly()
+    '''
 def setReleaseActiveReadOnly():
-'''public void setReleaseActiveReadOnly()
-'''
-pass
+    '''    public void setReleaseActiveReadOnly()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''

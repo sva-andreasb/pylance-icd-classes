@@ -1,286 +1,218 @@
-PARENT_WOGROUP = "String  _PARENT_WONUM""
-PARENT_WONUM = "String  WOPARENT""
-ORIGINAL_WONUM = "String  _WONUM""
-ISASSIGNMENT = "String  ISASSIGNMENT""
-UNPLANNEDWORK = "String  UNPLANNEDWORK""
-CREWWORKGROUP = "String  CREWWORKGROUP""
-PERSONGROUP = "String  PERSONGROUP""
-WORKDAY = "String  _WorkDay""
+PARENT_WOGROUP = "String  \"_PARENT_WONUM\""
+PARENT_WONUM = "String  \"WOPARENT\""
+ORIGINAL_WONUM = "String  \"_WONUM\""
+ISASSIGNMENT = "String  \"ISASSIGNMENT\""
+UNPLANNEDWORK = "String  \"UNPLANNEDWORK\""
+CREWWORKGROUP = "String  \"CREWWORKGROUP\""
+PERSONGROUP = "String  \"PERSONGROUP\""
+WORKDAY = "String  \"_WorkDay\""
 def Activity():
-'''public Activity()
-public Activity(final String id)
-'''
-pass
+    '''    public Activity()
+    public Activity(final String id)
+    '''
 def setParent():
-'''public void setParent(final Resource res)
-'''
-pass
+    '''    public void setParent(final Resource res)
+    '''
 def getParent():
-'''public Resource getParent()
-'''
-pass
+    '''    public Resource getParent()
+    '''
 def setWorkOrderId():
-'''public void setWorkOrderId(final Long workOrderId)
-'''
-pass
+    '''    public void setWorkOrderId(final Long workOrderId)
+    '''
 def getWorkOrderId():
-'''public Long getWorkOrderId()
-'''
-pass
+    '''    public Long getWorkOrderId()
+    '''
 def setAssignmentId():
-'''public void setAssignmentId(final Long assignmentId)
-'''
-pass
+    '''    public void setAssignmentId(final Long assignmentId)
+    '''
 def getAssignmentId():
-'''public Long getAssignmentId()
-'''
-pass
+    '''    public Long getAssignmentId()
+    '''
 def setParentAssignmentId():
-'''public void setParentAssignmentId(final Long parentassignId)
-'''
-pass
+    '''    public void setParentAssignmentId(final Long parentassignId)
+    '''
 def getParentAssignmentId():
-'''public Long getParentAssignmentId()
-'''
-pass
+    '''    public Long getParentAssignmentId()
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def getDuration():
-'''public Double getDuration()
-'''
-pass
+    '''    public Double getDuration()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def setRefObjectName():
-'''public void setRefObjectName(final String refObjectName)
-'''
-pass
+    '''    public void setRefObjectName(final String refObjectName)
+    '''
 def setObjectID():
-'''public void setObjectID(final Long objectID)
-'''
-pass
+    '''    public void setObjectID(final Long objectID)
+    '''
 def getStartTime():
-'''public Date getStartTime()
-'''
-pass
+    '''    public Date getStartTime()
+    '''
 def getEndTime():
-'''public Date getEndTime()
-'''
-pass
+    '''    public Date getEndTime()
+    '''
 def getModifiedProperties():
-'''public Iterator getModifiedProperties()
-'''
-pass
+    '''    public Iterator getModifiedProperties()
+    '''
 def getTimeInterval():
-'''public DateRange getTimeInterval()
-'''
-pass
+    '''    public DateRange getTimeInterval()
+    '''
 def setID():
-'''public void setID(final String id)
-'''
-pass
+    '''    public void setID(final String id)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def setParentID():
-'''public void setParentID(final String parentId)
-'''
-pass
+    '''    public void setParentID(final String parentId)
+    '''
 def setStartTime():
-'''public void setStartTime(final Date startTime)
-'''
-pass
+    '''    public void setStartTime(final Date startTime)
+    '''
 def setEndTime():
-'''public void setEndTime(final Date endTime)
-'''
-pass
+    '''    public void setEndTime(final Date endTime)
+    '''
 def setDuration():
-'''public void setDuration(final Double duration)
-'''
-pass
+    '''    public void setDuration(final Double duration)
+    '''
 def setModified():
-'''public void setModified(final boolean modified)
-'''
-pass
+    '''    public void setModified(final boolean modified)
+    '''
 def setUncommitted():
-'''public void setUncommitted(final boolean uncommitted)
-'''
-pass
+    '''    public void setUncommitted(final boolean uncommitted)
+    '''
 def markStartTimeModified():
-'''public void markStartTimeModified()
-'''
-pass
+    '''    public void markStartTimeModified()
+    '''
 def markEndTimeModified():
-'''public void markEndTimeModified()
-'''
-pass
+    '''    public void markEndTimeModified()
+    '''
 def setReadOnly():
-'''public void setReadOnly(final Boolean readOnly)
-'''
-pass
+    '''    public void setReadOnly(final Boolean readOnly)
+    '''
 def setTimeInterval():
-'''public void setTimeInterval(final Date activityStart, final Date activityEnd)
-'''
-pass
+    '''    public void setTimeInterval(final Date activityStart, final Date activityEnd)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getProperty():
-'''public Object getProperty(final String key)
-'''
-pass
+    '''    public Object getProperty(final String key)
+    '''
 def getInt():
-'''public int getInt(final String prop)
-'''
-pass
+    '''    public int getInt(final String prop)
+    '''
 def getLong():
-'''public long getLong(final String prop)
-'''
-pass
+    '''    public long getLong(final String prop)
+    '''
 def getFloat():
-'''public float getFloat(final String prop)
-public Double getFloat()
-'''
-pass
+    '''    public float getFloat(final String prop)
+    public Double getFloat()
+    '''
 def getDouble():
-'''public double getDouble(final String prop)
-'''
-pass
+    '''    public double getDouble(final String prop)
+    '''
 def getBoolean():
-'''public boolean getBoolean(final String prop)
-'''
-pass
+    '''    public boolean getBoolean(final String prop)
+    '''
 def getString():
-'''public String getString(final String prop)
-public String getString(final String prop, final String defValue)
-'''
-pass
+    '''    public String getString(final String prop)
+    public String getString(final String prop, final String defValue)
+    '''
 def getDate():
-'''public Date getDate(final String prop)
-'''
-pass
+    '''    public Date getDate(final String prop)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getObjectId():
-'''public long getObjectId()
-'''
-pass
+    '''    public long getObjectId()
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def setProperty():
-'''public Object setProperty(final String prop, final Object value)
-public Object setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)
-'''
-pass
+    '''    public Object setProperty(final String prop, final Object value)
+    public Object setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getPropertyNames():
-'''public Collection<String> getPropertyNames()
-'''
-pass
+    '''    public Collection<String> getPropertyNames()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getEarlyStart():
-'''public Date getEarlyStart()
-'''
-pass
+    '''    public Date getEarlyStart()
+    '''
 def getEarlyFinish():
-'''public Date getEarlyFinish()
-'''
-pass
+    '''    public Date getEarlyFinish()
+    '''
 def getLateStart():
-'''public Date getLateStart()
-'''
-pass
+    '''    public Date getLateStart()
+    '''
 def getLateFinish():
-'''public Date getLateFinish()
-'''
-pass
+    '''    public Date getLateFinish()
+    '''
 def isCritical():
-'''public Boolean isCritical()
-'''
-pass
+    '''    public Boolean isCritical()
+    '''
 def isParentAssign():
-'''public boolean isParentAssign()
-'''
-pass
+    '''    public boolean isParentAssign()
+    '''
 def setEarlyStart():
-'''public void setEarlyStart(final Date earlyStart)
-'''
-pass
+    '''    public void setEarlyStart(final Date earlyStart)
+    '''
 def setEarlyFinish():
-'''public void setEarlyFinish(final Date earlyFinish)
-'''
-pass
+    '''    public void setEarlyFinish(final Date earlyFinish)
+    '''
 def setLateStart():
-'''public void setLateStart(final Date lateStart)
-'''
-pass
+    '''    public void setLateStart(final Date lateStart)
+    '''
 def setLateFinish():
-'''public void setLateFinish(final Date lateFinish)
-'''
-pass
+    '''    public void setLateFinish(final Date lateFinish)
+    '''
 def setFloat():
-'''public void setFloat(final Double floatValue)
-'''
-pass
+    '''    public void setFloat(final Double floatValue)
+    '''
 def setCritical():
-'''public void setCritical(final Boolean critical)
-'''
-pass
+    '''    public void setCritical(final Boolean critical)
+    '''
 def getApplinkMap():
-'''public HashMap<String, HashMap<String, String>> getApplinkMap()
-'''
-pass
+    '''    public HashMap<String, HashMap<String, String>> getApplinkMap()
+    '''
 def setApplinkMap():
-'''public void setApplinkMap(final HashMap<String, HashMap<String, String>> applinkMap)
-'''
-pass
+    '''    public void setApplinkMap(final HashMap<String, HashMap<String, String>> applinkMap)
+    '''
 def setDataGroupName():
-'''public void setDataGroupName(final String dataGroupName)
-'''
-pass
+    '''    public void setDataGroupName(final String dataGroupName)
+    '''
 def setParentAssign():
-'''public void setParentAssign(final boolean isParentAssign)
-'''
-pass
+    '''    public void setParentAssign(final boolean isParentAssign)
+    '''
 def addLeftIconClass():
-'''public void addLeftIconClass(final String className)
-public void addLeftIconClass(final String className, final String tip)
-'''
-pass
+    '''    public void addLeftIconClass(final String className)
+    public void addLeftIconClass(final String className, final String tip)
+    '''
 def addLeftIconClick():
-'''public void addLeftIconClick(final String eventName)
-'''
-pass
+    '''    public void addLeftIconClick(final String eventName)
+    '''
 def addRightIconClass():
-'''public void addRightIconClass(final String className)
-public void addRightIconClass(final String className, final String tip)
-'''
-pass
+    '''    public void addRightIconClass(final String className)
+    public void addRightIconClass(final String className, final String tip)
+    '''
 def addRightIconClick():
-'''public void addRightIconClick(final String eventName)
-'''
-pass
+    '''    public void addRightIconClick(final String eventName)
+    '''
 def showWorklogIcon():
-'''public boolean showWorklogIcon()
-'''
-pass
+    '''    public boolean showWorklogIcon()
+    '''

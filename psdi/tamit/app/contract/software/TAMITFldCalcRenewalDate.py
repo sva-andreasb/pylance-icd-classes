@@ -1,8 +1,6 @@
 def TAMITFldCalcRenewalDate():
-'''public TAMITFldCalcRenewalDate(final MboValue mbv)
-'''
-pass
+    '''    public TAMITFldCalcRenewalDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

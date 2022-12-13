@@ -1,12 +1,9 @@
 def NodeNameTest():
-'''public NodeNameTest(final QName qname)
-'''
-pass
+    '''    public NodeNameTest(final QName qname)
+    '''
 def getNodeName():
-'''public QName getNodeName()
-'''
-pass
+    '''    public QName getNodeName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

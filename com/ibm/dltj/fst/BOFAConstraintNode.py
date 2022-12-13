@@ -1,20 +1,15 @@
 def get_char():
-'''public char get_char(final int n)
-'''
-pass
+    '''    public char get_char(final int n)
+    '''
 def BOFAConstraintNode():
-'''public BOFAConstraintNode(final char c)
-'''
-pass
+    '''    public BOFAConstraintNode(final char c)
+    '''
 def next():
-'''public Node next(final char c)
-'''
-pass
+    '''    public Node next(final char c)
+    '''
 def num_trans():
-'''public int num_trans()
-'''
-pass
+    '''    public int num_trans()
+    '''
 def isFinal():
-'''public final boolean isFinal()
-'''
-pass
+    '''    public final boolean isFinal()
+    '''

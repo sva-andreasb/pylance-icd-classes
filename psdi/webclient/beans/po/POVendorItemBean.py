@@ -1,4 +1,3 @@
 def execute():
-'''public int execute(final MboSetRemote invvendorSet)
-'''
-pass
+    '''    public int execute(final MboSetRemote invvendorSet)
+    '''

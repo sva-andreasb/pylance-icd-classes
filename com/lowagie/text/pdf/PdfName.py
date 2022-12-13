@@ -1,21 +1,16 @@
 def PdfName():
-'''public PdfName(final String name)
-public PdfName(final byte[] bytes)
-'''
-pass
+    '''    public PdfName(final String name)
+    public PdfName(final byte[] bytes)
+    '''
 def compareTo():
-'''public int compareTo(final Object object)
-'''
-pass
+    '''    public int compareTo(final Object object)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def decodeName():
-'''public static String decodeName(final String name)
-'''
-pass
+    '''    public static String decodeName(final String name)
+    '''

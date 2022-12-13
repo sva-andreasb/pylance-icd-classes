@@ -1,20 +1,15 @@
 def ImageEncoderImpl():
-'''public ImageEncoderImpl(final OutputStream output, final ImageEncodeParam param)
-'''
-pass
+    '''    public ImageEncoderImpl(final OutputStream output, final ImageEncodeParam param)
+    '''
 def getParam():
-'''public ImageEncodeParam getParam()
-'''
-pass
+    '''    public ImageEncodeParam getParam()
+    '''
 def setParam():
-'''public void setParam(final ImageEncodeParam param)
-'''
-pass
+    '''    public void setParam(final ImageEncodeParam param)
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def encode():
-'''public void encode(final Raster ras, final ColorModel cm)
-'''
-pass
+    '''    public void encode(final Raster ras, final ColorModel cm)
+    '''

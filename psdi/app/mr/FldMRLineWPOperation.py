@@ -1,4 +1,3 @@
 def FldMRLineWPOperation():
-'''public FldMRLineWPOperation(final MboValue mbv)
-'''
-pass
+    '''    public FldMRLineWPOperation(final MboValue mbv)
+    '''

@@ -1,8 +1,6 @@
 def XmlFileNotFoundException():
-'''public XmlFileNotFoundException(final String file)
-'''
-pass
+    '''    public XmlFileNotFoundException(final String file)
+    '''
 def getFileName():
-'''public final String getFileName()
-'''
-pass
+    '''    public final String getFileName()
+    '''

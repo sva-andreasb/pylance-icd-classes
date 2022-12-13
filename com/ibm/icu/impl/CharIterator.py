@@ -1,20 +1,15 @@
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Character next()
-'''
-pass
+    '''    public Character next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def nextIndex():
-'''public int nextIndex()
-'''
-pass
+    '''    public int nextIndex()
+    '''
 def processedLength():
-'''public int processedLength()
-'''
-pass
+    '''    public int processedLength()
+    '''

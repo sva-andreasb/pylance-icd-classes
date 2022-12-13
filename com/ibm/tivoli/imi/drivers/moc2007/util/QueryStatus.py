@@ -1,16 +1,12 @@
 def QueryStatus():
-'''public QueryStatus(final IMSessionMocImpl session)
-'''
-pass
+    '''    public QueryStatus(final IMSessionMocImpl session)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def isIsactive():
-'''public boolean isIsactive()
-'''
-pass
+    '''    public boolean isIsactive()
+    '''
 def setIsactive():
-'''public void setIsactive(final boolean isactive)
-'''
-pass
+    '''    public void setIsactive(final boolean isactive)
+    '''

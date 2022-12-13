@@ -1,4 +1,3 @@
 def PlusPPSFeeSet():
-'''public PlusPPSFeeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPPSFeeSet(final MboServerInterface ms)
+    '''

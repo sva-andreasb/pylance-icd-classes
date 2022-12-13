@@ -1,109 +1,84 @@
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getNodeConfiguration():
-'''public ConfigureForm getNodeConfiguration()
-'''
-pass
+    '''    public ConfigureForm getNodeConfiguration()
+    '''
 def sendConfigurationForm():
-'''public void sendConfigurationForm(final Form submitForm)
-'''
-pass
+    '''    public void sendConfigurationForm(final Form submitForm)
+    '''
 def discoverInfo():
-'''public DiscoverInfo discoverInfo()
-'''
-pass
+    '''    public DiscoverInfo discoverInfo()
+    '''
 def getSubscriptions():
-'''public List<Subscription> getSubscriptions()
-public List<Subscription> getSubscriptions(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
-'''
-pass
+    '''    public List<Subscription> getSubscriptions()
+    public List<Subscription> getSubscriptions(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''
 def getSubscriptionsAsOwner():
-'''public List<Subscription> getSubscriptionsAsOwner()
-public List<Subscription> getSubscriptionsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
-'''
-pass
+    '''    public List<Subscription> getSubscriptionsAsOwner()
+    public List<Subscription> getSubscriptionsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''
 def modifySubscriptionsAsOwner():
-'''public PubSub modifySubscriptionsAsOwner(final List<Subscription> changedSubs)
-'''
-pass
+    '''    public PubSub modifySubscriptionsAsOwner(final List<Subscription> changedSubs)
+    '''
 def getAffiliations():
-'''public List<Affiliation> getAffiliations()
-public List<Affiliation> getAffiliations(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
-'''
-pass
+    '''    public List<Affiliation> getAffiliations()
+    public List<Affiliation> getAffiliations(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''
 def getAffiliationsAsOwner():
-'''public List<Affiliation> getAffiliationsAsOwner()
-public List<Affiliation> getAffiliationsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
-'''
-pass
+    '''    public List<Affiliation> getAffiliationsAsOwner()
+    public List<Affiliation> getAffiliationsAsOwner(final List<ExtensionElement> additionalExtensions, final Collection<ExtensionElement> returnedExtensions)
+    '''
 def modifyAffiliationAsOwner():
-'''public PubSub modifyAffiliationAsOwner(final List<Affiliation> affiliations)
-'''
-pass
+    '''    public PubSub modifyAffiliationAsOwner(final List<Affiliation> affiliations)
+    '''
 def subscribe():
-'''public Subscription subscribe(final String jid)
-public Subscription subscribe(final String jid, final SubscribeForm subForm)
-'''
-pass
+    '''    public Subscription subscribe(final String jid)
+    public Subscription subscribe(final String jid, final SubscribeForm subForm)
+    '''
 def unsubscribe():
-'''public void unsubscribe(final String jid)
-public void unsubscribe(final String jid, final String subscriptionId)
-'''
-pass
+    '''    public void unsubscribe(final String jid)
+    public void unsubscribe(final String jid, final String subscriptionId)
+    '''
 def getSubscriptionOptions():
-'''public SubscribeForm getSubscriptionOptions(final String jid)
-public SubscribeForm getSubscriptionOptions(final String jid, final String subscriptionId)
-'''
-pass
+    '''    public SubscribeForm getSubscriptionOptions(final String jid)
+    public SubscribeForm getSubscriptionOptions(final String jid, final String subscriptionId)
+    '''
 def addItemEventListener():
-'''public void addItemEventListener(final ItemEventListener listener)
-'''
-pass
+    '''    public void addItemEventListener(final ItemEventListener listener)
+    '''
 def removeItemEventListener():
-'''public void removeItemEventListener(final ItemEventListener listener)
-'''
-pass
+    '''    public void removeItemEventListener(final ItemEventListener listener)
+    '''
 def addConfigurationListener():
-'''public void addConfigurationListener(final NodeConfigListener listener)
-'''
-pass
+    '''    public void addConfigurationListener(final NodeConfigListener listener)
+    '''
 def removeConfigurationListener():
-'''public void removeConfigurationListener(final NodeConfigListener listener)
-'''
-pass
+    '''    public void removeConfigurationListener(final NodeConfigListener listener)
+    '''
 def addItemDeleteListener():
-'''public void addItemDeleteListener(final ItemDeleteListener listener)
-'''
-pass
+    '''    public void addItemDeleteListener(final ItemDeleteListener listener)
+    '''
 def removeItemDeleteListener():
-'''public void removeItemDeleteListener(final ItemDeleteListener listener)
-'''
-pass
+    '''    public void removeItemDeleteListener(final ItemDeleteListener listener)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def ItemEventTranslator():
-'''public ItemEventTranslator(final ItemEventListener eventListener)
-'''
-pass
+    '''    public ItemEventTranslator(final ItemEventListener eventListener)
+    '''
 def processStanza():
-'''public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-'''
-pass
+    '''    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    '''
 def ItemDeleteTranslator():
-'''public ItemDeleteTranslator(final ItemDeleteListener eventListener)
-'''
-pass
+    '''    public ItemDeleteTranslator(final ItemDeleteListener eventListener)
+    '''
 def NodeConfigTranslator():
-'''public NodeConfigTranslator(final NodeConfigListener eventListener)
-'''
-pass
+    '''    public NodeConfigTranslator(final NodeConfigListener eventListener)
+    '''
 def acceptSpecific():
-'''public boolean acceptSpecific(final Message message)
-'''
-pass
+    '''    public boolean acceptSpecific(final Message message)
+    '''

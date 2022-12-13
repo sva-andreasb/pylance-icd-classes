@@ -1,8 +1,6 @@
 def FldLocOperItemNum():
-'''public FldLocOperItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLocOperItemNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

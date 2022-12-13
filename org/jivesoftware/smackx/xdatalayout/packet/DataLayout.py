@@ -1,59 +1,47 @@
-ELEMENT = "String  text""
-NAMESPACE = "String  http://jabber.org/protocol/xdata-layout""
+ELEMENT = "String  \"text\""
+NAMESPACE = "String  \"http://jabber.org/protocol/xdata-layout\""
 def DataLayout():
-'''public DataLayout(final String label)
-'''
-pass
+    '''    public DataLayout(final String label)
+    '''
 def getPageLayout():
-'''public List<DataFormLayoutElement> getPageLayout()
-'''
-pass
+    '''    public List<DataFormLayoutElement> getPageLayout()
+    '''
 def getLabel():
-'''public String getLabel()
-public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    public String getLabel()
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-public String getElementName()
-public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def Fieldref():
-'''public Fieldref(final String var)
-'''
-pass
+    '''    public Fieldref(final String var)
+    '''
 def getVar():
-'''public String getVar()
-'''
-pass
+    '''    public String getVar()
+    '''
 def Section():
-'''public Section(final String label)
-'''
-pass
+    '''    public Section(final String label)
+    '''
 def getSectionLayout():
-'''public List<DataFormLayoutElement> getSectionLayout()
-'''
-pass
+    '''    public List<DataFormLayoutElement> getSectionLayout()
+    '''
 def Text():
-'''public Text(final String text)
-'''
-pass
+    '''    public Text(final String text)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''

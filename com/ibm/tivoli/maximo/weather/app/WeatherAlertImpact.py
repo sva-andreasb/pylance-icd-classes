@@ -1,64 +1,48 @@
 def WeatherAlertImpact():
-'''public WeatherAlertImpact(final MboSet ms)
-'''
-pass
+    '''    public WeatherAlertImpact(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''
 def saveGISData():
-'''public void saveGISData(final String address, final String lat, final String lng)
-'''
-pass
+    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''
 def hasCoords():
-'''public Boolean hasCoords()
-'''
-pass
+    '''    public Boolean hasCoords()
+    '''
 def getLocationAccuracy():
-'''public Double getLocationAccuracy()
-'''
-pass
+    '''    public Double getLocationAccuracy()
+    '''
 def getAltitudeAccuracy():
-'''public Double getAltitudeAccuracy()
-'''
-pass
+    '''    public Double getAltitudeAccuracy()
+    '''
 def getAltitude():
-'''public Double getAltitude()
-'''
-pass
+    '''    public Double getAltitude()
+    '''
 def getHeading():
-'''public Double getHeading()
-'''
-pass
+    '''    public Double getHeading()
+    '''
 def getSpeed():
-'''public Double getSpeed()
-'''
-pass
+    '''    public Double getSpeed()
+    '''
 def getLastUpdate():
-'''public Date getLastUpdate()
-'''
-pass
+    '''    public Date getLastUpdate()
+    '''
 def saveLBSData():
-'''public void saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)
-'''
-pass
+    '''    public void saveLBSData(final Double lat, final Double lng, final Double locationAccuracy, final Double altitudeAccuracy, final Double altitude, final Double heading, final Double speed)
+    '''

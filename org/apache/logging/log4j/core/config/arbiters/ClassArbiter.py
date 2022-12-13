@@ -1,17 +1,13 @@
-ATTR_CLASS_NAME = "String  className""
+ATTR_CLASS_NAME = "String  \"className\""
 def isCondition():
-'''public boolean isCondition()
-'''
-pass
+    '''    public boolean isCondition()
+    '''
 def setClassName():
-'''public Builder setClassName(final String className)
-'''
-pass
+    '''    public Builder setClassName(final String className)
+    '''
 def asBuilder():
-'''public Builder asBuilder()
-'''
-pass
+    '''    public Builder asBuilder()
+    '''
 def build():
-'''public ClassArbiter build()
-'''
-pass
+    '''    public ClassArbiter build()
+    '''

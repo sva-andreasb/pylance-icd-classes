@@ -1,65 +1,49 @@
 def ApacheHttpTransport():
-'''public ApacheHttpTransport()
-public ApacheHttpTransport(final HttpClient httpClient)
-'''
-pass
+    '''    public ApacheHttpTransport()
+    public ApacheHttpTransport(final HttpClient httpClient)
+    '''
 def newDefaultHttpClient():
-'''public static DefaultHttpClient newDefaultHttpClient()
-'''
-pass
+    '''    public static DefaultHttpClient newDefaultHttpClient()
+    '''
 def supportsMethod():
-'''public boolean supportsMethod(final String method)
-'''
-pass
+    '''    public boolean supportsMethod(final String method)
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def getHttpClient():
-'''public HttpClient getHttpClient()
-'''
-pass
+    '''    public HttpClient getHttpClient()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def setProxy():
-'''public Builder setProxy(final HttpHost proxy)
-'''
-pass
+    '''    public Builder setProxy(final HttpHost proxy)
+    '''
 def setProxySelector():
-'''public Builder setProxySelector(final ProxySelector proxySelector)
-'''
-pass
+    '''    public Builder setProxySelector(final ProxySelector proxySelector)
+    '''
 def trustCertificatesFromJavaKeyStore():
-'''public Builder trustCertificatesFromJavaKeyStore(final InputStream keyStoreStream, final String storePass)
-'''
-pass
+    '''    public Builder trustCertificatesFromJavaKeyStore(final InputStream keyStoreStream, final String storePass)
+    '''
 def trustCertificatesFromStream():
-'''public Builder trustCertificatesFromStream(final InputStream certificateStream)
-'''
-pass
+    '''    public Builder trustCertificatesFromStream(final InputStream certificateStream)
+    '''
 def trustCertificates():
-'''public Builder trustCertificates(final KeyStore trustStore)
-'''
-pass
+    '''    public Builder trustCertificates(final KeyStore trustStore)
+    '''
 def doNotValidateCertificate():
-'''public Builder doNotValidateCertificate()
-'''
-pass
+    '''    public Builder doNotValidateCertificate()
+    '''
 def setSocketFactory():
-'''public Builder setSocketFactory(final SSLSocketFactory socketFactory)
-'''
-pass
+    '''    public Builder setSocketFactory(final SSLSocketFactory socketFactory)
+    '''
 def getSSLSocketFactory():
-'''public SSLSocketFactory getSSLSocketFactory()
-'''
-pass
+    '''    public SSLSocketFactory getSSLSocketFactory()
+    '''
 def getHttpParams():
-'''public HttpParams getHttpParams()
-'''
-pass
+    '''    public HttpParams getHttpParams()
+    '''
 def build():
-'''public ApacheHttpTransport build()
-'''
-pass
+    '''    public ApacheHttpTransport build()
+    '''

@@ -1,24 +1,18 @@
 def HttpGZIPResponseWrapper():
-'''public HttpGZIPResponseWrapper(final HttpServletResponse response)
-'''
-pass
+    '''    public HttpGZIPResponseWrapper(final HttpServletResponse response)
+    '''
 def createOutputStream():
-'''public ServletOutputStream createOutputStream()
-'''
-pass
+    '''    public ServletOutputStream createOutputStream()
+    '''
 def finishResponse():
-'''public void finishResponse()
-'''
-pass
+    '''    public void finishResponse()
+    '''
 def flushBuffer():
-'''public void flushBuffer()
-'''
-pass
+    '''    public void flushBuffer()
+    '''
 def getOutputStream():
-'''public ServletOutputStream getOutputStream()
-'''
-pass
+    '''    public ServletOutputStream getOutputStream()
+    '''
 def getWriter():
-'''public PrintWriter getWriter()
-'''
-pass
+    '''    public PrintWriter getWriter()
+    '''

@@ -1,4 +1,3 @@
 def MaxIfaceControlOutSet():
-'''public MaxIfaceControlOutSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIfaceControlOutSet(final MboServerInterface ms)
+    '''

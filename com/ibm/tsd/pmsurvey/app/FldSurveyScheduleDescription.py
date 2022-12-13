@@ -1,8 +1,6 @@
 def FldSurveyScheduleDescription():
-'''public FldSurveyScheduleDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldSurveyScheduleDescription(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,41 +1,32 @@
 def DateTime():
-'''public DateTime(final Date date, final TimeZone zone)
-public DateTime(final long value)
-public DateTime(final Date value)
-public DateTime(final long value, final int tzShift)
-public DateTime(final boolean dateOnly, final long value, final Integer tzShift)
-public DateTime(final String value)
-'''
-pass
+    '''    public DateTime(final Date date, final TimeZone zone)
+    public DateTime(final long value)
+    public DateTime(final Date value)
+    public DateTime(final long value, final int tzShift)
+    public DateTime(final boolean dateOnly, final long value, final Integer tzShift)
+    public DateTime(final String value)
+    '''
 def getValue():
-'''public long getValue()
-'''
-pass
+    '''    public long getValue()
+    '''
 def isDateOnly():
-'''public boolean isDateOnly()
-'''
-pass
+    '''    public boolean isDateOnly()
+    '''
 def getTimeZoneShift():
-'''public int getTimeZoneShift()
-'''
-pass
+    '''    public int getTimeZoneShift()
+    '''
 def toStringRfc3339():
-'''public String toStringRfc3339()
-'''
-pass
+    '''    public String toStringRfc3339()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def parseRfc3339():
-'''public static DateTime parseRfc3339(final String str)
-'''
-pass
+    '''    public static DateTime parseRfc3339(final String str)
+    '''

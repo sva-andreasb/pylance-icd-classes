@@ -1,4 +1,3 @@
 def PlusPBSFixedSet():
-'''public PlusPBSFixedSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPBSFixedSet(final MboServerInterface mboServerInterface)
+    '''

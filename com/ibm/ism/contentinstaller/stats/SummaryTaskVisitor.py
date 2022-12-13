@@ -1,20 +1,15 @@
 def SummaryTaskVisitor():
-'''public SummaryTaskVisitor()
-'''
-pass
+    '''    public SummaryTaskVisitor()
+    '''
 def visit():
-'''public void visit(final TaskStatistic task)
-'''
-pass
+    '''    public void visit(final TaskStatistic task)
+    '''
 def getProcessObjectsCount():
-'''public int getProcessObjectsCount()
-'''
-pass
+    '''    public int getProcessObjectsCount()
+    '''
 def getElapsedTimeAsString():
-'''public String getElapsedTimeAsString()
-'''
-pass
+    '''    public String getElapsedTimeAsString()
+    '''
 def getSummary():
-'''public String getSummary()
-'''
-pass
+    '''    public String getSummary()
+    '''

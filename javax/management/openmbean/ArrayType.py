@@ -1,28 +1,21 @@
 def getDimension():
-'''public int getDimension()
-'''
-pass
+    '''    public int getDimension()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def isValue():
-'''public boolean isValue(final Object o)
-'''
-pass
+    '''    public boolean isValue(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getElementOpenType():
-'''public OpenType getElementOpenType()
-'''
-pass
+    '''    public OpenType getElementOpenType()
+    '''
 def ArrayType():
-'''public ArrayType(final int n, final OpenType elementType)
-'''
-pass
+    '''    public ArrayType(final int n, final OpenType elementType)
+    '''

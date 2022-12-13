@@ -1,128 +1,96 @@
 def DMPackageDef():
-'''public DMPackageDef(final MboSet ms)
-'''
-pass
+    '''    public DMPackageDef(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def extractPkgData():
-'''public void extractPkgData(MboRemote newPkg)
-'''
-pass
+    '''    public void extractPkgData(MboRemote newPkg)
+    '''
 def loadCFGDATAGrpsForPkg():
-'''public boolean loadCFGDATAGrpsForPkg(final MboRemote pkgMbo, final List<String> grpV, final UserInfo msgUI)
-'''
-pass
+    '''    public boolean loadCFGDATAGrpsForPkg(final MboRemote pkgMbo, final List<String> grpV, final UserInfo msgUI)
+    '''
 def getDMCfgDataObjGroupInOrder():
-'''public MboSetRemote getDMCfgDataObjGroupInOrder(final List<String> cfgGroups)
-'''
-pass
+    '''    public MboSetRemote getDMCfgDataObjGroupInOrder(final List<String> cfgGroups)
+    '''
 def loadDDMETADATAGrpForPkg():
-'''public boolean loadDDMETADATAGrpForPkg(final MboRemote pkgMbo, final UserInfo msgUI)
-'''
-pass
+    '''    public boolean loadDDMETADATAGrpForPkg(final MboRemote pkgMbo, final UserInfo msgUI)
+    '''
 def loadPKGMETADATAGrpForPkg():
-'''public void loadPKGMETADATAGrpForPkg(final MboRemote pkgMbo, final boolean reCreatePkgMeta, final UserInfo msgUI)
-'''
-pass
+    '''    public void loadPKGMETADATAGrpForPkg(final MboRemote pkgMbo, final boolean reCreatePkgMeta, final UserInfo msgUI)
+    '''
 def loadManifestForPkg():
-'''public void loadManifestForPkg(final MboRemote newPkg)
-'''
-pass
+    '''    public void loadManifestForPkg(final MboRemote newPkg)
+    '''
 def extractRecordsForCfgGroup():
-'''public boolean extractRecordsForCfgGroup(final String type, final MboRemote cfgGrp, final MboRemote newPkg, final boolean reCreatePkgMeta, final UserInfo msgUI)
-'''
-pass
+    '''    public boolean extractRecordsForCfgGroup(final String type, final MboRemote cfgGrp, final MboRemote newPkg, final boolean reCreatePkgMeta, final UserInfo msgUI)
+    '''
 def loadAllGroupsForPkg():
-'''public List<String> loadAllGroupsForPkg()
-'''
-pass
+    '''    public List<String> loadAllGroupsForPkg()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def loadStagingForPkg():
-'''public MboRemote loadStagingForPkg(final MboRemote pkgMbo, final String type, final UserInfo msgUI)
-'''
-pass
+    '''    public MboRemote loadStagingForPkg(final MboRemote pkgMbo, final String type, final UserInfo msgUI)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setReloadOnSave():
-'''public void setReloadOnSave(final boolean flag)
-'''
-pass
+    '''    public void setReloadOnSave(final boolean flag)
+    '''
 def getReloadOnSave():
-'''public boolean getReloadOnSave()
-'''
-pass
+    '''    public boolean getReloadOnSave()
+    '''
 def canDeletePkgDef():
-'''public void canDeletePkgDef()
-'''
-pass
+    '''    public void canDeletePkgDef()
+    '''
 def warnDeletePkgDef():
-'''public void warnDeletePkgDef()
-'''
-pass
+    '''    public void warnDeletePkgDef()
+    '''
 def canEdit():
-'''public void canEdit()
-'''
-pass
+    '''    public void canEdit()
+    '''
 def canEditSetWhere():
-'''public void canEditSetWhere()
-'''
-pass
+    '''    public void canEditSetWhere()
+    '''
 def setReadOnly():
-'''public void setReadOnly()
-'''
-pass
+    '''    public void setReadOnly()
+    '''
 def canCreatePackage():
-'''public void canCreatePackage()
-'''
-pass
+    '''    public void canCreatePackage()
+    '''
 def canSetWhere():
-'''public void canSetWhere()
-'''
-pass
+    '''    public void canSetWhere()
+    '''
 def setSnapshotFlag():
-'''public void setSnapshotFlag(final boolean snapshot)
-'''
-pass
+    '''    public void setSnapshotFlag(final boolean snapshot)
+    '''
 def getSnapshotFlag():
-'''public boolean getSnapshotFlag()
-'''
-pass
+    '''    public boolean getSnapshotFlag()
+    '''
 def getPkgTypeAsInt():
-'''public int getPkgTypeAsInt()
-'''
-pass
+    '''    public int getPkgTypeAsInt()
+    '''
 def setPkgTypeAsInt():
-'''public void setPkgTypeAsInt(final int type)
-'''
-pass
+    '''    public void setPkgTypeAsInt(final int type)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def moveEventTrackingToHistory():
-'''public void moveEventTrackingToHistory()
-'''
-pass
+    '''    public void moveEventTrackingToHistory()
+    '''
 def cantPerformOnLocked():
-'''public void cantPerformOnLocked()
-'''
-pass
+    '''    public void cantPerformOnLocked()
+    '''
 def pkgContainsUserDefinedMOS():
-'''public boolean pkgContainsUserDefinedMOS()
-'''
-pass
+    '''    public boolean pkgContainsUserDefinedMOS()
+    '''
 def validateChangePkgDef():
-'''public void validateChangePkgDef()
-'''
-pass
+    '''    public void validateChangePkgDef()
+    '''

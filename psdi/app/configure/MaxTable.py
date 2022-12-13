@@ -1,4 +1,3 @@
 def MaxTable():
-'''public MaxTable(final MboSet ms)
-'''
-pass
+    '''    public MaxTable(final MboSet ms)
+    '''

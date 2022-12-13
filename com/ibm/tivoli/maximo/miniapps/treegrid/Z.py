@@ -1,2 +1,2 @@
-NodeName = "String  Z""
-Name = "String  Name""
+NodeName = "String  \"Z\""
+Name = "String  \"Name\""

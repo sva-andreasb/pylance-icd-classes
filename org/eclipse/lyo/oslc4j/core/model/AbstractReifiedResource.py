@@ -1,8 +1,6 @@
 def getValue():
-'''public T getValue()
-'''
-pass
+    '''    public T getValue()
+    '''
 def setValue():
-'''public void setValue(final T value)
-'''
-pass
+    '''    public void setValue(final T value)
+    '''

@@ -1,4 +1,3 @@
 def ModAvailSet():
-'''public ModAvailSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ModAvailSet(final MboServerInterface ms)
+    '''

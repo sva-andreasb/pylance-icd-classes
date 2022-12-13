@@ -1,53 +1,40 @@
 def SynchronizationPoint():
-'''public SynchronizationPoint(final AbstractXMPPConnection connection, final String waitFor)
-'''
-pass
+    '''    public SynchronizationPoint(final AbstractXMPPConnection connection, final String waitFor)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def sendAndWaitForResponse():
-'''public Exception sendAndWaitForResponse(final TopLevelStreamElement request)
-'''
-pass
+    '''    public Exception sendAndWaitForResponse(final TopLevelStreamElement request)
+    '''
 def sendAndWaitForResponseOrThrow():
-'''public void sendAndWaitForResponseOrThrow(final Nonza request)
-'''
-pass
+    '''    public void sendAndWaitForResponseOrThrow(final Nonza request)
+    '''
 def checkIfSuccessOrWaitOrThrow():
-'''public void checkIfSuccessOrWaitOrThrow()
-'''
-pass
+    '''    public void checkIfSuccessOrWaitOrThrow()
+    '''
 def checkIfSuccessOrWait():
-'''public Exception checkIfSuccessOrWait()
-'''
-pass
+    '''    public Exception checkIfSuccessOrWait()
+    '''
 def reportSuccess():
-'''public void reportSuccess()
-'''
-pass
+    '''    public void reportSuccess()
+    '''
 def reportFailure():
-'''public void reportFailure()
-public void reportFailure(final E failureException)
-'''
-pass
+    '''    public void reportFailure()
+    public void reportFailure(final E failureException)
+    '''
 def reportGenericFailure():
-'''public void reportGenericFailure(final SmackException.SmackWrappedException exception)
-'''
-pass
+    '''    public void reportGenericFailure(final SmackException.SmackWrappedException exception)
+    '''
 def wasSuccessful():
-'''public boolean wasSuccessful()
-'''
-pass
+    '''    public boolean wasSuccessful()
+    '''
 def isNotInInitialState():
-'''public boolean isNotInInitialState()
-'''
-pass
+    '''    public boolean isNotInInitialState()
+    '''
 def requestSent():
-'''public boolean requestSent()
-'''
-pass
+    '''    public boolean requestSent()
+    '''
 def getFailureException():
-'''public E getFailureException()
-'''
-pass
+    '''    public E getFailureException()
+    '''

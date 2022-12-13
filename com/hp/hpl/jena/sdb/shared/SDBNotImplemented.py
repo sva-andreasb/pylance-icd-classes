@@ -1,5 +1,4 @@
 def SDBNotImplemented():
-'''public SDBNotImplemented()
-public SDBNotImplemented(final String msg)
-'''
-pass
+    '''    public SDBNotImplemented()
+    public SDBNotImplemented(final String msg)
+    '''

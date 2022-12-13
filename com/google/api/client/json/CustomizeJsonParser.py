@@ -1,16 +1,12 @@
 def stopAt():
-'''public boolean stopAt(final Object context, final String key)
-'''
-pass
+    '''    public boolean stopAt(final Object context, final String key)
+    '''
 def handleUnrecognizedKey():
-'''public void handleUnrecognizedKey(final Object context, final String key)
-'''
-pass
+    '''    public void handleUnrecognizedKey(final Object context, final String key)
+    '''
 def newInstanceForArray():
-'''public Collection<Object> newInstanceForArray(final Object context, final Field field)
-'''
-pass
+    '''    public Collection<Object> newInstanceForArray(final Object context, final Field field)
+    '''
 def newInstanceForObject():
-'''public Object newInstanceForObject(final Object context, final Class<?> fieldClass)
-'''
-pass
+    '''    public Object newInstanceForObject(final Object context, final Class<?> fieldClass)
+    '''

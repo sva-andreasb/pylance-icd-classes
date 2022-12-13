@@ -1,8 +1,6 @@
 def FldLiteralDataType():
-'''public FldLiteralDataType(final MboValue mbv)
-'''
-pass
+    '''    public FldLiteralDataType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

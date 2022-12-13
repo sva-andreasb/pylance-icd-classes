@@ -4,222 +4,170 @@ VERTICAL_SCROLLBAR_ALWAYS = "int  22"
 HORIZONTAL = "int  0"
 VERTICAL = "int  1"
 def IlvJScrollGanttSheet():
-'''public IlvJScrollGanttSheet()
-public IlvJScrollGanttSheet(final IlvGanttSheet ilvGanttSheet, final IlvTimeScale ilvTimeScale, final IlvTimeScrollBar ilvTimeScrollBar)
-public IlvJScrollGanttSheet(final IlvGanttConfiguration ilvGanttConfiguration)
-public IlvJScrollGanttSheet(final IlvGanttConfiguration ganttConfiguration, final IlvGanttSheet ilvGanttSheet, IlvTimeScale defaultTimeScale, IlvTimeScrollBar defaultTimeScrollBar)
-'''
-pass
+    '''    public IlvJScrollGanttSheet()
+    public IlvJScrollGanttSheet(final IlvGanttSheet ilvGanttSheet, final IlvTimeScale ilvTimeScale, final IlvTimeScrollBar ilvTimeScrollBar)
+    public IlvJScrollGanttSheet(final IlvGanttConfiguration ilvGanttConfiguration)
+    public IlvJScrollGanttSheet(final IlvGanttConfiguration ganttConfiguration, final IlvGanttSheet ilvGanttSheet, IlvTimeScale defaultTimeScale, IlvTimeScrollBar defaultTimeScrollBar)
+    '''
 def verticalExtentChanged():
-'''public void verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)
-'''
-pass
+    '''    public void verticalExtentChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''
 def maxVerticalPositionChanged():
-'''public void maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
-'''
-pass
+    '''    public void maxVerticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''
 def verticalPositionChanged():
-'''public void verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
-'''
-pass
+    '''    public void verticalPositionChanged(final VerticalScrollEvent verticalScrollEvent)
+    '''
 def setGanttConfiguration():
-'''public void setGanttConfiguration(final IlvGanttConfiguration a)
-'''
-pass
+    '''    public void setGanttConfiguration(final IlvGanttConfiguration a)
+    '''
 def getVerticalScrollBar():
-'''public IlvVerticalScrollBar getVerticalScrollBar()
-'''
-pass
+    '''    public IlvVerticalScrollBar getVerticalScrollBar()
+    '''
 def setVerticalScrollBar():
-'''public void setVerticalScrollBar(final JScrollBar scrollBar)
-public void setVerticalScrollBar(final IlvVerticalScrollBar g)
-'''
-pass
+    '''    public void setVerticalScrollBar(final JScrollBar scrollBar)
+    public void setVerticalScrollBar(final IlvVerticalScrollBar g)
+    '''
 def getVerticalScrollBarPolicy():
-'''public int getVerticalScrollBarPolicy()
-'''
-pass
+    '''    public int getVerticalScrollBarPolicy()
+    '''
 def setVerticalScrollBarPolicy():
-'''public void setVerticalScrollBarPolicy(final int i)
-'''
-pass
+    '''    public void setVerticalScrollBarPolicy(final int i)
+    '''
 def getTimeScrollBar():
-'''public IlvTimeScrollBar getTimeScrollBar()
-'''
-pass
+    '''    public IlvTimeScrollBar getTimeScrollBar()
+    '''
 def setTimeScrollBar():
-'''public void setTimeScrollBar(final IlvTimeScrollBar f)
-'''
-pass
+    '''    public void setTimeScrollBar(final IlvTimeScrollBar f)
+    '''
 def isTimeScrollBarVisible():
-'''public boolean isTimeScrollBarVisible()
-'''
-pass
+    '''    public boolean isTimeScrollBarVisible()
+    '''
 def setTimeScrollBarVisible():
-'''public void setTimeScrollBarVisible(final boolean visible)
-'''
-pass
+    '''    public void setTimeScrollBarVisible(final boolean visible)
+    '''
 def getTimeScale():
-'''public IlvTimeScale getTimeScale()
-'''
-pass
+    '''    public IlvTimeScale getTimeScale()
+    '''
 def setTimeScale():
-'''public void setTimeScale(final IlvTimeScale b)
-'''
-pass
+    '''    public void setTimeScale(final IlvTimeScale b)
+    '''
 def getGanttSheet():
-'''public IlvGanttSheet getGanttSheet()
-'''
-pass
+    '''    public IlvGanttSheet getGanttSheet()
+    '''
 def doLayout():
-'''public void doLayout()
-'''
-pass
+    '''    public void doLayout()
+    '''
 def processManagerViewKeyEvent():
-'''public void processManagerViewKeyEvent(final KeyEvent e)
-'''
-pass
+    '''    public void processManagerViewKeyEvent(final KeyEvent e)
+    '''
 def getMinVisibleTime():
-'''public Date getMinVisibleTime()
-'''
-pass
+    '''    public Date getMinVisibleTime()
+    '''
 def setMinVisibleTime():
-'''public void setMinVisibleTime(final Date minVisibleTime)
-'''
-pass
+    '''    public void setMinVisibleTime(final Date minVisibleTime)
+    '''
 def getMaxVisibleTime():
-'''public Date getMaxVisibleTime()
-'''
-pass
+    '''    public Date getMaxVisibleTime()
+    '''
 def setMaxVisibleTime():
-'''public void setMaxVisibleTime(final Date maxVisibleTime)
-'''
-pass
+    '''    public void setMaxVisibleTime(final Date maxVisibleTime)
+    '''
 def getMinVisibleDuration():
-'''public IlvDuration getMinVisibleDuration()
-'''
-pass
+    '''    public IlvDuration getMinVisibleDuration()
+    '''
 def setMinVisibleDuration():
-'''public void setMinVisibleDuration(final IlvDuration minVisibleDuration)
-'''
-pass
+    '''    public void setMinVisibleDuration(final IlvDuration minVisibleDuration)
+    '''
 def getVisibleTime():
-'''public Date getVisibleTime()
-'''
-pass
+    '''    public Date getVisibleTime()
+    '''
 def setVisibleTime():
-'''public void setVisibleTime(final Date visibleTime)
-'''
-pass
+    '''    public void setVisibleTime(final Date visibleTime)
+    '''
 def getVisibleDuration():
-'''public IlvDuration getVisibleDuration()
-'''
-pass
+    '''    public IlvDuration getVisibleDuration()
+    '''
 def setVisibleDuration():
-'''public void setVisibleDuration(final IlvDuration visibleDuration)
-'''
-pass
+    '''    public void setVisibleDuration(final IlvDuration visibleDuration)
+    '''
 def getVisibleInterval():
-'''public IlvTimeInterval getVisibleInterval()
-'''
-pass
+    '''    public IlvTimeInterval getVisibleInterval()
+    '''
 def setVisibleInterval():
-'''public void setVisibleInterval(final Date date, final IlvDuration ilvDuration)
-'''
-pass
+    '''    public void setVisibleInterval(final Date date, final IlvDuration ilvDuration)
+    '''
 def addTimeScrollListener():
-'''public void addTimeScrollListener(final TimeScrollListener timeScrollListener)
-'''
-pass
+    '''    public void addTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''
 def removeTimeScrollListener():
-'''public void removeTimeScrollListener(final TimeScrollListener timeScrollListener)
-'''
-pass
+    '''    public void removeTimeScrollListener(final TimeScrollListener timeScrollListener)
+    '''
 def getMaxVerticalPosition():
-'''public int getMaxVerticalPosition()
-public int getMaxVerticalPosition()
-'''
-pass
+    '''    public int getMaxVerticalPosition()
+    public int getMaxVerticalPosition()
+    '''
 def setMaxVerticalPosition():
-'''public void setMaxVerticalPosition(final int maxVerticalPosition)
-public void setMaxVerticalPosition(final int n)
-'''
-pass
+    '''    public void setMaxVerticalPosition(final int maxVerticalPosition)
+    public void setMaxVerticalPosition(final int n)
+    '''
 def getVerticalPosition():
-'''public int getVerticalPosition()
-public int getVerticalPosition()
-'''
-pass
+    '''    public int getVerticalPosition()
+    public int getVerticalPosition()
+    '''
 def setVerticalPosition():
-'''public void setVerticalPosition(final int verticalPosition)
-public void setVerticalPosition(int min)
-'''
-pass
+    '''    public void setVerticalPosition(final int verticalPosition)
+    public void setVerticalPosition(int min)
+    '''
 def getVerticalExtent():
-'''public int getVerticalExtent()
-public int getVerticalExtent()
-'''
-pass
+    '''    public int getVerticalExtent()
+    public int getVerticalExtent()
+    '''
 def setVerticalExtent():
-'''public void setVerticalExtent(final int verticalExtent)
-public void setVerticalExtent(final int n)
-'''
-pass
+    '''    public void setVerticalExtent(final int verticalExtent)
+    public void setVerticalExtent(final int n)
+    '''
 def addVerticalScrollListener():
-'''public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
-public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
-'''
-pass
+    '''    public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    public void addVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''
 def removeVerticalScrollListener():
-'''public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
-public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
-'''
-pass
+    '''    public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    public void removeVerticalScrollListener(final VerticalScrollListener verticalScrollListener)
+    '''
 def isMouseWheelEnabled():
-'''public boolean isMouseWheelEnabled()
-'''
-pass
+    '''    public boolean isMouseWheelEnabled()
+    '''
 def setMouseWheelEnabled():
-'''public void setMouseWheelEnabled(final boolean b)
-'''
-pass
+    '''    public void setMouseWheelEnabled(final boolean b)
+    '''
 def getMouseWheelPreferredOrientation():
-'''public int getMouseWheelPreferredOrientation()
-'''
-pass
+    '''    public int getMouseWheelPreferredOrientation()
+    '''
 def setMouseWheelPreferredOrientation():
-'''public void setMouseWheelPreferredOrientation(final int k)
-'''
-pass
+    '''    public void setMouseWheelPreferredOrientation(final int k)
+    '''
 def getBaseTextDirection():
-'''public final int getBaseTextDirection()
-'''
-pass
+    '''    public final int getBaseTextDirection()
+    '''
 def setBaseTextDirection():
-'''public void setBaseTextDirection(final int l)
-'''
-pass
+    '''    public void setBaseTextDirection(final int l)
+    '''
 def getResolvedBaseTextDirection():
-'''public int getResolvedBaseTextDirection()
-'''
-pass
+    '''    public int getResolvedBaseTextDirection()
+    '''
 def GanttSheetVerticalScrollAdapter():
-'''public GanttSheetVerticalScrollAdapter(final IlvGanttSheet a)
-'''
-pass
+    '''    public GanttSheetVerticalScrollAdapter(final IlvGanttSheet a)
+    '''
 def transformerChanged():
-'''public void transformerChanged(final TransformerChangedEvent transformerChangedEvent)
-'''
-pass
+    '''    public void transformerChanged(final TransformerChangedEvent transformerChangedEvent)
+    '''
 def componentResized():
-'''public void componentResized(final ComponentEvent componentEvent)
-'''
-pass
+    '''    public void componentResized(final ComponentEvent componentEvent)
+    '''
 def MouseWheelAdapter():
-'''public MouseWheelAdapter()
-'''
-pass
+    '''    public MouseWheelAdapter()
+    '''
 def mouseWheelMoved():
-'''public void mouseWheelMoved(final MouseWheelEvent mouseWheelEvent)
-'''
-pass
+    '''    public void mouseWheelMoved(final MouseWheelEvent mouseWheelEvent)
+    '''

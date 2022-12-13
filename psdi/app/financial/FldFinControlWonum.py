@@ -1,4 +1,3 @@
 def FldFinControlWonum():
-'''public FldFinControlWonum(final MboValue mbv)
-'''
-pass
+    '''    public FldFinControlWonum(final MboValue mbv)
+    '''

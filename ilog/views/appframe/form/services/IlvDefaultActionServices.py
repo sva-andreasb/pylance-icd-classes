@@ -1,20 +1,15 @@
 def getAction():
-'''public Action getAction(final String s)
-'''
-pass
+    '''    public Action getAction(final String s)
+    '''
 def addAction():
-'''public void addAction(final Action action)
-'''
-pass
+    '''    public void addAction(final Action action)
+    '''
 def removeAction():
-'''public void removeAction(final Action action)
-'''
-pass
+    '''    public void removeAction(final Action action)
+    '''
 def setServicesDelegate():
-'''public void setServicesDelegate(final IlvServices a)
-'''
-pass
+    '''    public void setServicesDelegate(final IlvServices a)
+    '''
 def getServicesDelegate():
-'''public IlvServices getServicesDelegate()
-'''
-pass
+    '''    public IlvServices getServicesDelegate()
+    '''

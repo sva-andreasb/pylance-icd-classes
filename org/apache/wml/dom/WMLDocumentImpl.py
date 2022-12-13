@@ -1,8 +1,6 @@
 def createElement():
-'''public Element createElement(final String s)
-'''
-pass
+    '''    public Element createElement(final String s)
+    '''
 def WMLDocumentImpl():
-'''public WMLDocumentImpl(final DocumentType documentType)
-'''
-pass
+    '''    public WMLDocumentImpl(final DocumentType documentType)
+    '''

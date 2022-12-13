@@ -1,16 +1,12 @@
 def HyperLink():
-'''public HyperLink()
-'''
-pass
+    '''    public HyperLink()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getDataBean():
-'''public DataBean getDataBean()
-'''
-pass
+    '''    public DataBean getDataBean()
+    '''

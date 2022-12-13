@@ -1,8 +1,6 @@
 def FldGLConfigureMandatory():
-'''public FldGLConfigureMandatory(final MboValue mbv)
-'''
-pass
+    '''    public FldGLConfigureMandatory(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

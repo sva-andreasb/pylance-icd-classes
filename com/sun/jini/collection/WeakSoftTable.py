@@ -1,46 +1,35 @@
 def WeakSoftTable():
-'''public WeakSoftTable()
-'''
-pass
+    '''    public WeakSoftTable()
+    '''
 def get():
-'''public SoftValue get(final WeakKey weakKey, final int n)
-'''
-pass
+    '''    public SoftValue get(final WeakKey weakKey, final int n)
+    '''
 def add():
-'''public void add(final WeakKey weakKey, final SoftValue softValue)
-'''
-pass
+    '''    public void add(final WeakKey weakKey, final SoftValue softValue)
+    '''
 def remove():
-'''public SoftValue remove(final WeakKey weakKey, final int n)
-'''
-pass
+    '''    public SoftValue remove(final WeakKey weakKey, final int n)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def WeakKey():
-'''public WeakKey(final Object referent)
-'''
-pass
+    '''    public WeakKey(final Object referent)
+    '''
 def copy():
-'''public RemovableReference copy(final ReferenceQueue referenceQueue)
-public RemovableReference copy(final ReferenceQueue referenceQueue)
-'''
-pass
+    '''    public RemovableReference copy(final ReferenceQueue referenceQueue)
+    public RemovableReference copy(final ReferenceQueue referenceQueue)
+    '''
 def cleared():
-'''public void cleared(final Map map)
-public void cleared(final Map map)
-'''
-pass
+    '''    public void cleared(final Map map)
+    public void cleared(final Map map)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def SoftValue():
-'''public SoftValue(final WeakKey key, final Object referent)
-'''
-pass
+    '''    public SoftValue(final WeakKey key, final Object referent)
+    '''

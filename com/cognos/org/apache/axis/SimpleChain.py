@@ -1,44 +1,33 @@
 def SimpleChain():
-'''public SimpleChain()
-'''
-pass
+    '''    public SimpleChain()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def invoke():
-'''public void invoke(final MessageContext msgContext)
-'''
-pass
+    '''    public void invoke(final MessageContext msgContext)
+    '''
 def generateWSDL():
-'''public void generateWSDL(final MessageContext msgContext)
-'''
-pass
+    '''    public void generateWSDL(final MessageContext msgContext)
+    '''
 def onFault():
-'''public void onFault(final MessageContext msgContext)
-'''
-pass
+    '''    public void onFault(final MessageContext msgContext)
+    '''
 def canHandleBlock():
-'''public boolean canHandleBlock(final QName qname)
-'''
-pass
+    '''    public boolean canHandleBlock(final QName qname)
+    '''
 def addHandler():
-'''public void addHandler(final Handler handler)
-'''
-pass
+    '''    public void addHandler(final Handler handler)
+    '''
 def contains():
-'''public boolean contains(final Handler handler)
-'''
-pass
+    '''    public boolean contains(final Handler handler)
+    '''
 def getHandlers():
-'''public Handler[] getHandlers()
-'''
-pass
+    '''    public Handler[] getHandlers()
+    '''
 def getDeploymentData():
-'''public Element getDeploymentData(final Document doc)
-'''
-pass
+    '''    public Element getDeploymentData(final Document doc)
+    '''

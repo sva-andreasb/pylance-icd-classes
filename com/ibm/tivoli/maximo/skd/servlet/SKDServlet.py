@@ -1,13 +1,10 @@
-SKDMODELMAP = "String  SKDMODELMAP""
+SKDMODELMAP = "String  \"SKDMODELMAP\""
 def init():
-'''public void init(final ServletConfig config)
-'''
-pass
+    '''    public void init(final ServletConfig config)
+    '''
 def writeGZipObject():
-'''public static void writeGZipObject(final Object o, final OutputStream os)
-'''
-pass
+    '''    public static void writeGZipObject(final Object o, final OutputStream os)
+    '''
 def getSKDAppServiceBean():
-'''public SKDAppServiceBeanRemote getSKDAppServiceBean(final HttpSession session)
-'''
-pass
+    '''    public SKDAppServiceBeanRemote getSKDAppServiceBean(final HttpSession session)
+    '''

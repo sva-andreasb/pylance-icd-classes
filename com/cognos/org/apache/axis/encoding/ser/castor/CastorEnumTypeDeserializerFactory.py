@@ -1,8 +1,6 @@
 def CastorEnumTypeDeserializerFactory():
-'''public CastorEnumTypeDeserializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public CastorEnumTypeDeserializerFactory(final Class javaType, final QName xmlType)
+    '''
 def create():
-'''public static DeserializerFactory create(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public static DeserializerFactory create(final Class javaType, final QName xmlType)
+    '''

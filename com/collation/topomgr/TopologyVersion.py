@@ -1,36 +1,27 @@
 def TopologyVersion():
-'''public TopologyVersion(final String name, final long version, final String userVersion, final String createdBy, final long createdTime)
-'''
-pass
+    '''    public TopologyVersion(final String name, final long version, final String userVersion, final String createdBy, final long createdTime)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String n)
-'''
-pass
+    '''    public void setName(final String n)
+    '''
 def getVersion():
-'''public long getVersion()
-'''
-pass
+    '''    public long getVersion()
+    '''
 def getUserVersion():
-'''public String getUserVersion()
-'''
-pass
+    '''    public String getUserVersion()
+    '''
 def setUserVersion():
-'''public void setUserVersion(final String s)
-'''
-pass
+    '''    public void setUserVersion(final String s)
+    '''
 def getCreatedBy():
-'''public String getCreatedBy()
-'''
-pass
+    '''    public String getCreatedBy()
+    '''
 def getCreatedTime():
-'''public long getCreatedTime()
-'''
-pass
+    '''    public long getCreatedTime()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

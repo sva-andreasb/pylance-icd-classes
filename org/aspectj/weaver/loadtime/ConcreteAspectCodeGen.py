@@ -1,12 +1,9 @@
 def validate():
-'''public boolean validate()
-'''
-pass
+    '''    public boolean validate()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getBytes():
-'''public byte[] getBytes()
-'''
-pass
+    '''    public byte[] getBytes()
+    '''

@@ -1,5 +1,4 @@
 def ReconCompRuleService():
-'''public ReconCompRuleService()
-public ReconCompRuleService(final MXServer mxServer)
-'''
-pass
+    '''    public ReconCompRuleService()
+    public ReconCompRuleService(final MXServer mxServer)
+    '''

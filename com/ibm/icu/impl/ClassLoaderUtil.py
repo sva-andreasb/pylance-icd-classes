@@ -1,9 +1,7 @@
 def run():
-'''public BootstrapClassLoader run()
-'''
-pass
+    '''    public BootstrapClassLoader run()
+    '''
 def getClassLoader():
-'''public static ClassLoader getClassLoader(final Class<?> cls)
-public static ClassLoader getClassLoader()
-'''
-pass
+    '''    public static ClassLoader getClassLoader(final Class<?> cls)
+    public static ClassLoader getClassLoader()
+    '''

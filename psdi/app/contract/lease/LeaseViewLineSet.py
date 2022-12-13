@@ -1,4 +1,3 @@
 def LeaseViewLineSet():
-'''public LeaseViewLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LeaseViewLineSet(final MboServerInterface ms)
+    '''

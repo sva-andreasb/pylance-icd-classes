@@ -1,40 +1,30 @@
 def MfMailAttributesTableBean():
-'''public MfMailAttributesTableBean()
-'''
-pass
+    '''    public MfMailAttributesTableBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def Entry():
-'''public Entry(final int order, final String name)
-'''
-pass
+    '''    public Entry(final int order, final String name)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getOrder():
-'''public Integer getOrder()
-'''
-pass
+    '''    public Integer getOrder()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def compareTo():
-'''public int compareTo(final Entry o)
-'''
-pass
+    '''    public int compareTo(final Entry o)
+    '''

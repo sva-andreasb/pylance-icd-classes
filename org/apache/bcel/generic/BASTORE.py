@@ -1,8 +1,6 @@
 def BASTORE():
-'''public BASTORE()
-'''
-pass
+    '''    public BASTORE()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

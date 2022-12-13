@@ -1,8 +1,6 @@
 def update():
-'''public void update(final String classname)
-'''
-pass
+    '''    public void update(final String classname)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

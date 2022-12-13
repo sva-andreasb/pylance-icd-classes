@@ -1,16 +1,12 @@
 def REVISE():
-'''public int REVISE()
-'''
-pass
+    '''    public int REVISE()
+    '''
 def REVHISTORY():
-'''public int REVHISTORY()
-'''
-pass
+    '''    public int REVHISTORY()
+    '''
 def VIEWHISTOR():
-'''public int VIEWHISTOR()
-'''
-pass
+    '''    public int VIEWHISTOR()
+    '''
 def DUPLICATE():
-'''public int DUPLICATE()
-'''
-pass
+    '''    public int DUPLICATE()
+    '''

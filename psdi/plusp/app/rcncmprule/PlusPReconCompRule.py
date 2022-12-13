@@ -1,8 +1,6 @@
 def PlusPReconCompRule():
-'''public PlusPReconCompRule(final MboSet arg0)
-'''
-pass
+    '''    public PlusPReconCompRule(final MboSet arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

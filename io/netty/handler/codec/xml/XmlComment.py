@@ -1,4 +1,3 @@
 def XmlComment():
-'''public XmlComment(final String data)
-'''
-pass
+    '''    public XmlComment(final String data)
+    '''

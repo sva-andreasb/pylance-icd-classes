@@ -1,31 +1,24 @@
 DEFAULT_VERSION = "int  1"
 MINIMUM_COMPATIBLE_VERSION = "int  1"
 def getMagicHeader():
-'''public static byte[] getMagicHeader()
-'''
-pass
+    '''    public static byte[] getMagicHeader()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def headerSize():
-'''public static int headerSize()
-'''
-pass
+    '''    public static int headerSize()
+    '''
 def writeHeader():
-'''public int writeHeader(final byte[] array, final int n)
-public int writeHeader(final OutputStream outputStream)
-'''
-pass
+    '''    public int writeHeader(final byte[] array, final int n)
+    public int writeHeader(final OutputStream outputStream)
+    '''
 def isValidMagicHeader():
-'''public boolean isValidMagicHeader()
-'''
-pass
+    '''    public boolean isValidMagicHeader()
+    '''
 def hasMagicHeaderPrefix():
-'''public static boolean hasMagicHeaderPrefix(final byte[] array)
-'''
-pass
+    '''    public static boolean hasMagicHeaderPrefix(final byte[] array)
+    '''
 def readHeader():
-'''public static SnappyCodec readHeader(final InputStream in)
-'''
-pass
+    '''    public static SnappyCodec readHeader(final InputStream in)
+    '''

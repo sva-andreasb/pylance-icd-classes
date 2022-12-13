@@ -1,4 +1,3 @@
 def MapDeserializerFactory():
-'''public MapDeserializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public MapDeserializerFactory(final Class javaType, final QName xmlType)
+    '''

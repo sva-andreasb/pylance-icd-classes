@@ -1,16 +1,12 @@
 def CDUISearchConfigMBOs():
-'''public CDUISearchConfigMBOs()
-'''
-pass
+    '''    public CDUISearchConfigMBOs()
+    '''
 def getSearchMbo():
-'''public Map<String, SearchConfigValues> getSearchMbo()
-'''
-pass
+    '''    public Map<String, SearchConfigValues> getSearchMbo()
+    '''
 def getSearchAttr():
-'''public Map<SearchConfigValues, List<String>> getSearchAttr()
-'''
-pass
+    '''    public Map<SearchConfigValues, List<String>> getSearchAttr()
+    '''
 def getMboId():
-'''public Map<String, String> getMboId()
-'''
-pass
+    '''    public Map<String, String> getMboId()
+    '''

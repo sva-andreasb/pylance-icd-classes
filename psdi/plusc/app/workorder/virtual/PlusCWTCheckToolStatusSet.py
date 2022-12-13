@@ -1,8 +1,6 @@
 def PlusCWTCheckToolStatusSet():
-'''public PlusCWTCheckToolStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCWTCheckToolStatusSet(final MboServerInterface ms)
+    '''
 def getListFromAllSites():
-'''public MboSetRemote getListFromAllSites(final int row, final String attribute)
-'''
-pass
+    '''    public MboSetRemote getListFromAllSites(final int row, final String attribute)
+    '''

@@ -1,9 +1,7 @@
 def FldPurTotalCost():
-'''public FldPurTotalCost(final MboValue mbv)
-public FldPurTotalCost(final MboValue mbv, final String attribName)
-'''
-pass
+    '''    public FldPurTotalCost(final MboValue mbv)
+    public FldPurTotalCost(final MboValue mbv, final String attribName)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

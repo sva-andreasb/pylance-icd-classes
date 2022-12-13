@@ -1,8 +1,6 @@
 def FldAssetPersonGrpPrimary():
-'''public FldAssetPersonGrpPrimary(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetPersonGrpPrimary(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

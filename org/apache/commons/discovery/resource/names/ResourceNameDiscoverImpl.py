@@ -1,12 +1,9 @@
 def findResourceNames():
-'''public ResourceNameIterator findResourceNames(final ResourceNameIterator inputNames)
-'''
-pass
+    '''    public ResourceNameIterator findResourceNames(final ResourceNameIterator inputNames)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def nextResourceName():
-'''public String nextResourceName()
-'''
-pass
+    '''    public String nextResourceName()
+    '''

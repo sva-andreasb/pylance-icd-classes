@@ -1,8 +1,6 @@
 def ClientPermissionChecker():
-'''public ClientPermissionChecker(final Permission permission)
-'''
-pass
+    '''    public ClientPermissionChecker(final Permission permission)
+    '''
 def checkClientSubject():
-'''public void checkClientSubject(final Subject subject)
-'''
-pass
+    '''    public void checkClientSubject(final Subject subject)
+    '''

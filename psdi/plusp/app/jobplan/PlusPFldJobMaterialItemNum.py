@@ -1,12 +1,9 @@
 def PlusPFldJobMaterialItemNum():
-'''public PlusPFldJobMaterialItemNum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldJobMaterialItemNum(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def showMismatchVendorCustomerWarning():
-'''public static void showMismatchVendorCustomerWarning(final MboValue mboValue, final MboRemote mboRemote)
-'''
-pass
+    '''    public static void showMismatchVendorCustomerWarning(final MboValue mboValue, final MboRemote mboRemote)
+    '''

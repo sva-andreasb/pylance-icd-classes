@@ -1,164 +1,125 @@
-UNDO_CMD = "String  Undo""
-REDO_CMD = "String  Redo""
+UNDO_CMD = "String  \"Undo\""
+REDO_CMD = "String  \"Redo\""
 def IlvAbstractDocument():
-'''public IlvAbstractDocument()
-'''
-pass
+    '''    public IlvAbstractDocument()
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-public void actionPerformed(final ActionEvent actionEvent)
-public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    public void actionPerformed(final ActionEvent actionEvent)
+    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def initializeDocument():
-'''public boolean initializeDocument(final Object o)
-'''
-pass
+    '''    public boolean initializeDocument(final Object o)
+    '''
 def documentClosing():
-'''public void documentClosing()
-'''
-pass
+    '''    public void documentClosing()
+    '''
 def documentClosed():
-'''public void documentClosed()
-'''
-pass
+    '''    public void documentClosed()
+    '''
 def clean():
-'''public void clean()
-'''
-pass
+    '''    public void clean()
+    '''
 def activated():
-'''public void activated(final boolean b)
-'''
-pass
+    '''    public void activated(final boolean b)
+    '''
 def getViewCount():
-'''public int getViewCount()
-'''
-pass
+    '''    public int getViewCount()
+    '''
 def removeView():
-'''public boolean removeView(final IlvDocumentView ilvDocumentView)
-'''
-pass
+    '''    public boolean removeView(final IlvDocumentView ilvDocumentView)
+    '''
 def removeViews():
-'''public void removeViews()
-'''
-pass
+    '''    public void removeViews()
+    '''
 def addView():
-'''public void addView(final IlvDocumentView ilvDocumentView)
-'''
-pass
+    '''    public void addView(final IlvDocumentView ilvDocumentView)
+    '''
 def getView():
-'''public IlvDocumentView getView(final int n)
-'''
-pass
+    '''    public IlvDocumentView getView(final int n)
+    '''
 def getViews():
-'''public IlvDocumentView[] getViews()
-'''
-pass
+    '''    public IlvDocumentView[] getViews()
+    '''
 def getActiveView():
-'''public IlvDocumentView getActiveView()
-'''
-pass
+    '''    public IlvDocumentView getActiveView()
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def setModified():
-'''public void setModified(final boolean b)
-'''
-pass
+    '''    public void setModified(final boolean b)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String s)
-'''
-pass
+    '''    public void setTitle(final String s)
+    '''
 def getDocumentTemplate():
-'''public IlvDocumentTemplate getDocumentTemplate()
-'''
-pass
+    '''    public IlvDocumentTemplate getDocumentTemplate()
+    '''
 def updateAction():
-'''public boolean updateAction(final Action action)
-'''
-pass
+    '''    public boolean updateAction(final Action action)
+    '''
 def isProcessingAction():
-'''public boolean isProcessingAction(final String s)
-'''
-pass
+    '''    public boolean isProcessingAction(final String s)
+    '''
 def addActionHandler():
-'''public void addActionHandler(final ActionHandler actionHandler)
-'''
-pass
+    '''    public void addActionHandler(final ActionHandler actionHandler)
+    '''
 def removeActionHandler():
-'''public boolean removeActionHandler(final ActionHandler actionHandler)
-'''
-pass
+    '''    public boolean removeActionHandler(final ActionHandler actionHandler)
+    '''
 def receiveMessage():
-'''public void receiveMessage(final MessageEvent messageEvent)
-'''
-pass
+    '''    public void receiveMessage(final MessageEvent messageEvent)
+    '''
 def getUndoManager():
-'''public UndoManager getUndoManager()
-'''
-pass
+    '''    public UndoManager getUndoManager()
+    '''
 def canUndo():
-'''public boolean canUndo()
-'''
-pass
+    '''    public boolean canUndo()
+    '''
 def undo():
-'''public void undo()
-public void undo()
-'''
-pass
+    '''    public void undo()
+    public void undo()
+    '''
 def canRedo():
-'''public boolean canRedo()
-'''
-pass
+    '''    public boolean canRedo()
+    '''
 def redo():
-'''public void redo()
-public void redo()
-'''
-pass
+    '''    public void redo()
+    public void redo()
+    '''
 def addEdit():
-'''public void addEdit(final UndoableEdit undoableEdit)
-public boolean addEdit(final UndoableEdit undoableEdit)
-'''
-pass
+    '''    public void addEdit(final UndoableEdit undoableEdit)
+    public boolean addEdit(final UndoableEdit undoableEdit)
+    '''
 def setProperty():
-'''public Object setProperty(final String s, final Object o)
-'''
-pass
+    '''    public Object setProperty(final String s, final Object o)
+    '''
 def getProperty():
-'''public Object getProperty(final String s)
-'''
-pass
+    '''    public Object getProperty(final String s)
+    '''
 def getApplication():
-'''public IlvApplication getApplication()
-'''
-pass
+    '''    public IlvApplication getApplication()
+    '''
 def setApplication():
-'''public void setApplication(final IlvApplication ilvApplication)
-'''
-pass
+    '''    public void setApplication(final IlvApplication ilvApplication)
+    '''
 def addPropertyChangeListener():
-'''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
-'''
-pass
+    '''    public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''
 def removePropertyChangeListener():
-'''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
-'''
-pass
+    '''    public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''
 def attachDocument():
-'''public void attachDocument(final IlvDocument ilvDocument, final boolean b)
-'''
-pass
+    '''    public void attachDocument(final IlvDocument ilvDocument, final boolean b)
+    '''
 def discardAllEdits():
-'''public void discardAllEdits()
-'''
-pass
+    '''    public void discardAllEdits()
+    '''

@@ -1,28 +1,21 @@
 def AddDocLinksBean():
-'''public AddDocLinksBean()
-'''
-pass
+    '''    public AddDocLinksBean()
+    '''
 def insert():
-'''public synchronized void insert()
-'''
-pass
+    '''    public synchronized void insert()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def passSuperExecute():
-'''public int passSuperExecute()
-'''
-pass
+    '''    public int passSuperExecute()
+    '''
 def passSuperCancelDialog():
-'''public int passSuperCancelDialog()
-'''
-pass
+    '''    public int passSuperCancelDialog()
+    '''

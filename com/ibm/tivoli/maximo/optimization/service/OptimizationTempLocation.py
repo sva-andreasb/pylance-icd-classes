@@ -1,25 +1,19 @@
-ALL_PACKAGES_ZIP_NAME = "String  optimization-packages.zip""
+ALL_PACKAGES_ZIP_NAME = "String  \"optimization-packages.zip\""
 def setTemporaryOptimizationLocation():
-'''public static void setTemporaryOptimizationLocation(final String loc)
-'''
-pass
+    '''    public static void setTemporaryOptimizationLocation(final String loc)
+    '''
 def getTemporaryOptimizationLocation():
-'''public static String getTemporaryOptimizationLocation()
-'''
-pass
+    '''    public static String getTemporaryOptimizationLocation()
+    '''
 def getTemporaryDeploymentLocation():
-'''public static String getTemporaryDeploymentLocation()
-'''
-pass
+    '''    public static String getTemporaryDeploymentLocation()
+    '''
 def getTemporaryExecutionLocation():
-'''public static String getTemporaryExecutionLocation()
-'''
-pass
+    '''    public static String getTemporaryExecutionLocation()
+    '''
 def getTemporaryDebugLocation():
-'''public static String getTemporaryDebugLocation()
-'''
-pass
+    '''    public static String getTemporaryDebugLocation()
+    '''
 def getTemporarySetupLocation():
-'''public static String getTemporarySetupLocation()
-'''
-pass
+    '''    public static String getTemporarySetupLocation()
+    '''

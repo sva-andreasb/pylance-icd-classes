@@ -1,8 +1,6 @@
 def CommandLineProcessExit():
-'''public CommandLineProcessExit()
-'''
-pass
+    '''    public CommandLineProcessExit()
+    '''
 def setDataIn():
-'''public StructureData setDataIn(final StructureData data)
-'''
-pass
+    '''    public StructureData setDataIn(final StructureData data)
+    '''

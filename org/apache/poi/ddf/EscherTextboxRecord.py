@@ -1,35 +1,27 @@
 RECORD_ID = "short  -4083"
-RECORD_DESCRIPTION = "String  msofbtClientTextbox""
+RECORD_DESCRIPTION = "String  \"msofbtClientTextbox\""
 def EscherTextboxRecord():
-'''public EscherTextboxRecord()
-'''
-pass
+    '''    public EscherTextboxRecord()
+    '''
 def fillFields():
-'''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
-'''
-pass
+    '''    public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''
 def serialize():
-'''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
-'''
-pass
+    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def setData():
-'''public void setData(final byte[] b, final int start, final int length)
-public void setData(final byte[] b)
-'''
-pass
+    '''    public void setData(final byte[] b, final int start, final int length)
+    public void setData(final byte[] b)
+    '''
 def getRecordSize():
-'''public int getRecordSize()
-'''
-pass
+    '''    public int getRecordSize()
+    '''
 def clone():
-'''public EscherTextboxRecord clone()
-'''
-pass
+    '''    public EscherTextboxRecord clone()
+    '''
 def getRecordName():
-'''public String getRecordName()
-'''
-pass
+    '''    public String getRecordName()
+    '''

@@ -1,24 +1,18 @@
 def LoopingIterator():
-'''public LoopingIterator(final Collection<? extends E> coll)
-'''
-pass
+    '''    public LoopingIterator(final Collection<? extends E> coll)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''

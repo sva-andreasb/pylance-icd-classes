@@ -1,4 +1,3 @@
 def ExternalCssScanner():
-'''public ExternalCssScanner(final InternalPolicy policy, final ResourceBundle messages)
-'''
-pass
+    '''    public ExternalCssScanner(final InternalPolicy policy, final ResourceBundle messages)
+    '''

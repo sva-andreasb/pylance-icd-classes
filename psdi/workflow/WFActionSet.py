@@ -1,36 +1,27 @@
 def WFActionSet():
-'''public WFActionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFActionSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def getNextActionNum():
-'''public int getNextActionNum()
-'''
-pass
+    '''    public int getNextActionNum()
+    '''
 def getActionForID():
-'''public WFAction getActionForID(final int actionid)
-'''
-pass
+    '''    public WFAction getActionForID(final int actionid)
+    '''
 def getAction():
-'''public WFActionRemote getAction(final boolean ipValue)
-'''
-pass
+    '''    public WFActionRemote getAction(final boolean ipValue)
+    '''
 def countPositiveAction():
-'''public int countPositiveAction()
-'''
-pass
+    '''    public int countPositiveAction()
+    '''
 def countNegativeAction():
-'''public int countNegativeAction()
-'''
-pass
+    '''    public int countNegativeAction()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def duplicateActions():
-'''public void duplicateActions(final WFActionSet origActions)
-'''
-pass
+    '''    public void duplicateActions(final WFActionSet origActions)
+    '''

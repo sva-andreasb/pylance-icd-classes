@@ -1,16 +1,12 @@
 def SqlExpr1():
-'''public SqlExpr1(final SqlExpr expr, final String exprSymbol)
-'''
-pass
+    '''    public SqlExpr1(final SqlExpr expr, final String exprSymbol)
+    '''
 def getExpr():
-'''public SqlExpr getExpr()
-'''
-pass
+    '''    public SqlExpr getExpr()
+    '''
 def getExprSymbol():
-'''public String getExprSymbol()
-'''
-pass
+    '''    public String getExprSymbol()
+    '''
 def visit():
-'''public void visit(final SqlExprVisitor visitor)
-'''
-pass
+    '''    public void visit(final SqlExprVisitor visitor)
+    '''

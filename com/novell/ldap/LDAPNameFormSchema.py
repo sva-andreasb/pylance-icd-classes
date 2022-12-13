@@ -1,22 +1,17 @@
 def LDAPNameFormSchema():
-'''public LDAPNameFormSchema()
-public LDAPNameFormSchema(final String[] array, final String oid, final String description, final boolean obsolete, final String objectClass, final String[] array2, final String[] array3)
-public LDAPNameFormSchema(final String s)
-'''
-pass
+    '''    public LDAPNameFormSchema()
+    public LDAPNameFormSchema(final String[] array, final String oid, final String description, final boolean obsolete, final String objectClass, final String[] array2, final String[] array3)
+    public LDAPNameFormSchema(final String s)
+    '''
 def getObjectClass():
-'''public String getObjectClass()
-'''
-pass
+    '''    public String getObjectClass()
+    '''
 def getRequiredNamingAttributes():
-'''public String[] getRequiredNamingAttributes()
-'''
-pass
+    '''    public String[] getRequiredNamingAttributes()
+    '''
 def getOptionalNamingAttributes():
-'''public String[] getOptionalNamingAttributes()
-'''
-pass
+    '''    public String[] getOptionalNamingAttributes()
+    '''
 def readDSML():
-'''public static Object readDSML(final InputStream inputStream)
-'''
-pass
+    '''    public static Object readDSML(final InputStream inputStream)
+    '''

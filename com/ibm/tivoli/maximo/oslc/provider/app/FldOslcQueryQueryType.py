@@ -1,8 +1,6 @@
 def FldOslcQueryQueryType():
-'''public FldOslcQueryQueryType(final MboValue mbv)
-'''
-pass
+    '''    public FldOslcQueryQueryType(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

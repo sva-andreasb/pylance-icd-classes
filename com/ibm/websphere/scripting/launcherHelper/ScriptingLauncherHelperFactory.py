@@ -1,81 +1,61 @@
 def doSubstitutions():
-'''public static String doSubstitutions(final String wasHome, final String value)
-public static String doSubstitutions(final String wasHome, final String profileHome, String value)
-'''
-pass
+    '''    public static String doSubstitutions(final String wasHome, final String value)
+    public static String doSubstitutions(final String wasHome, final String profileHome, String value)
+    '''
 def getScriptingLauncherHelper():
-'''public static ScriptingLauncherHelper getScriptingLauncherHelper(final String wasHome, final String profileHome)
-'''
-pass
+    '''    public static ScriptingLauncherHelper getScriptingLauncherHelper(final String wasHome, final String profileHome)
+    '''
 def getWSExtDirs():
-'''public String[] getWSExtDirs()
-'''
-pass
+    '''    public String[] getWSExtDirs()
+    '''
 def getJavaLibraryPath():
-'''public String getJavaLibraryPath()
-'''
-pass
+    '''    public String getJavaLibraryPath()
+    '''
 def getMainClassName():
-'''public String getMainClassName()
-'''
-pass
+    '''    public String getMainClassName()
+    '''
 def getProgramArguments():
-'''public String[] getProgramArguments()
-'''
-pass
+    '''    public String[] getProgramArguments()
+    '''
 def getOthers():
-'''public String[] getOthers()
-'''
-pass
+    '''    public String[] getOthers()
+    '''
 def getJythonPath():
-'''public String getJythonPath()
-'''
-pass
+    '''    public String getJythonPath()
+    '''
 def getClasspath():
-'''public String[] getClasspath()
-'''
-pass
+    '''    public String[] getClasspath()
+    '''
 def getWasInstallRoot():
-'''public String getWasInstallRoot()
-'''
-pass
+    '''    public String getWasInstallRoot()
+    '''
 def getUserInstallRoot():
-'''public String getUserInstallRoot()
-'''
-pass
+    '''    public String getUserInstallRoot()
+    '''
 def getWasRepositoryRoot():
-'''public String getWasRepositoryRoot()
-'''
-pass
+    '''    public String getWasRepositoryRoot()
+    '''
 def getOSGIInstall():
-'''public String getOSGIInstall()
-'''
-pass
+    '''    public String getOSGIInstall()
+    '''
 def getOSGIConfig():
-'''public String getOSGIConfig()
-'''
-pass
+    '''    public String getOSGIConfig()
+    '''
 def getIbmItpLocation():
-'''public String getIbmItpLocation()
-'''
-pass
+    '''    public String getIbmItpLocation()
+    '''
 def getClientSOAPPath():
-'''public String getClientSOAPPath()
-'''
-pass
+    '''    public String getClientSOAPPath()
+    '''
 def getClientSASPath():
-'''public String getClientSASPath()
-'''
-pass
+    '''    public String getClientSASPath()
+    '''
 def getJythonLibPath():
-'''public String getJythonLibPath()
-'''
-pass
+    '''    public String getJythonLibPath()
+    '''
 def getScriptLibraryList():
-'''public String getScriptLibraryList()
-'''
-pass
+    '''    public String getScriptLibraryList()
+    '''
 def getScriptLibraryPath():
-'''public String getScriptLibraryPath()
-'''
-pass
+    '''    public String getScriptLibraryPath()
+    '''

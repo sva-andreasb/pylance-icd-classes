@@ -1,16 +1,12 @@
 def isHasStreamingSuccessResponse():
-'''public boolean isHasStreamingSuccessResponse()
-'''
-pass
+    '''    public boolean isHasStreamingSuccessResponse()
+    '''
 def withHasStreamingSuccessResponse():
-'''public JsonOperationMetadata withHasStreamingSuccessResponse(final boolean hasStreamingSuccessResponse)
-'''
-pass
+    '''    public JsonOperationMetadata withHasStreamingSuccessResponse(final boolean hasStreamingSuccessResponse)
+    '''
 def isPayloadJson():
-'''public boolean isPayloadJson()
-'''
-pass
+    '''    public boolean isPayloadJson()
+    '''
 def withPayloadJson():
-'''public JsonOperationMetadata withPayloadJson(final boolean payloadJson)
-'''
-pass
+    '''    public JsonOperationMetadata withPayloadJson(final boolean payloadJson)
+    '''

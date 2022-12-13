@@ -1,12 +1,9 @@
 def LineSplitSet():
-'''public LineSplitSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LineSplitSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def getTotalQuantity():
-'''public double getTotalQuantity()
-'''
-pass
+    '''    public double getTotalQuantity()
+    '''

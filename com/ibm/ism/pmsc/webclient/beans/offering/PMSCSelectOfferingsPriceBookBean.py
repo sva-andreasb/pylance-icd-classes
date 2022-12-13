@@ -1,24 +1,18 @@
 def PMSCSelectOfferingsPriceBookBean():
-'''public PMSCSelectOfferingsPriceBookBean()
-'''
-pass
+    '''    public PMSCSelectOfferingsPriceBookBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    '''
 def getQbe():
-'''public synchronized String getQbe(final String attribute)
-'''
-pass
+    '''    public synchronized String getQbe(final String attribute)
+    '''
 def updateClassstructure():
-'''public void updateClassstructure(final String hierarchypath)
-'''
-pass
+    '''    public void updateClassstructure(final String hierarchypath)
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''

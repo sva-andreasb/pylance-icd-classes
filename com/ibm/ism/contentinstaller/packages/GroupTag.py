@@ -1,8 +1,6 @@
 def GroupTag():
-'''public GroupTag(final BaseTag baseTag, final String name)
-'''
-pass
+    '''    public GroupTag(final BaseTag baseTag, final String name)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''

@@ -1,49 +1,37 @@
 def InvCost():
-'''public InvCost(final MboSet ms)
-'''
-pass
+    '''    public InvCost(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def updateAverageCost():
-'''public void updateAverageCost(final double quantity, final double totalvalue, final double exr)
-public void updateAverageCost(final double quantity, final double totalvalue, final double exr, final boolean transferWithinStore)
-'''
-pass
+    '''    public void updateAverageCost(final double quantity, final double totalvalue, final double exr)
+    public void updateAverageCost(final double quantity, final double totalvalue, final double exr, final boolean transferWithinStore)
+    '''
 def updateLastCost():
-'''public void updateLastCost(final double value)
-'''
-pass
+    '''    public void updateLastCost(final double value)
+    '''
 def adjustAverageCost():
-'''public MboRemote adjustAverageCost(final double newcost)
-'''
-pass
+    '''    public MboRemote adjustAverageCost(final double newcost)
+    '''
 def adjustStandardCost():
-'''public MboRemote adjustStandardCost(final double newcost)
-'''
-pass
+    '''    public MboRemote adjustStandardCost(final double newcost)
+    '''
 def createInvTrans():
-'''public MboRemote createInvTrans(final double old_cost, final double newcost, final String costType)
-'''
-pass
+    '''    public MboRemote createInvTrans(final double old_cost, final double newcost, final String costType)
+    '''
 def getDefaultIssueCost():
-'''public double getDefaultIssueCost()
-'''
-pass
+    '''    public double getDefaultIssueCost()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''

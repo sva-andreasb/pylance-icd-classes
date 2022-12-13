@@ -1,12 +1,9 @@
 def test1():
-'''public void test1()
-'''
-pass
+    '''    public void test1()
+    '''
 def testTinyFilter():
-'''public void testTinyFilter()
-'''
-pass
+    '''    public void testTinyFilter()
+    '''
 def testWithSets():
-'''public void testWithSets()
-'''
-pass
+    '''    public void testWithSets()
+    '''

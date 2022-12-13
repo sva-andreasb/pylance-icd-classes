@@ -1,5 +1,4 @@
 def WSDDRequestFlow():
-'''public WSDDRequestFlow()
-public WSDDRequestFlow(final Element e)
-'''
-pass
+    '''    public WSDDRequestFlow()
+    public WSDDRequestFlow(final Element e)
+    '''

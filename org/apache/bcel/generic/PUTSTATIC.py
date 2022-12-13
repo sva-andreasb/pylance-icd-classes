@@ -1,16 +1,12 @@
 def PUTSTATIC():
-'''public PUTSTATIC(final int index)
-'''
-pass
+    '''    public PUTSTATIC(final int index)
+    '''
 def consumeStack():
-'''public int consumeStack(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public int consumeStack(final ConstantPoolGen cpg)
+    '''
 def getExceptions():
-'''public Class[] getExceptions()
-'''
-pass
+    '''    public Class[] getExceptions()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

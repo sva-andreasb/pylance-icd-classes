@@ -1,28 +1,21 @@
 def PlusPConditionSet():
-'''public PlusPConditionSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPConditionSet(final MboServerInterface arg0)
+    '''
 def isMarkedToDelete():
-'''public boolean isMarkedToDelete(final String conditionID)
-'''
-pass
+    '''    public boolean isMarkedToDelete(final String conditionID)
+    '''
 def appendToWhere():
-'''public String appendToWhere()
-'''
-pass
+    '''    public String appendToWhere()
+    '''
 def buildAllConditions():
-'''public void buildAllConditions(final boolean b)
-'''
-pass
+    '''    public void buildAllConditions(final boolean b)
+    '''
 def deleteRecords():
-'''public void deleteRecords(final boolean b)
-'''
-pass
+    '''    public void deleteRecords(final boolean b)
+    '''
 def addExtraWhereClause():
-'''public String addExtraWhereClause(String s, final String s2, final String anObject, final String name)
-'''
-pass
+    '''    public String addExtraWhereClause(String s, final String s2, final String anObject, final String name)
+    '''
 def getCustomerObjects():
-'''public String getCustomerObjects()
-'''
-pass
+    '''    public String getCustomerObjects()
+    '''

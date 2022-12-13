@@ -1,8 +1,6 @@
 def FldPurOrderUnit():
-'''public FldPurOrderUnit(final MboValue mbv)
-'''
-pass
+    '''    public FldPurOrderUnit(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

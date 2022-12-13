@@ -1,8 +1,6 @@
 def ReconCompFltrAstSet():
-'''public ReconCompFltrAstSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReconCompFltrAstSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

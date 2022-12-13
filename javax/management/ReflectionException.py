@@ -1,13 +1,10 @@
 def getTargetException():
-'''public Exception getTargetException()
-'''
-pass
+    '''    public Exception getTargetException()
+    '''
 def ReflectionException():
-'''public ReflectionException(final Exception exception)
-public ReflectionException(final Exception exception, final String s)
-'''
-pass
+    '''    public ReflectionException(final Exception exception)
+    public ReflectionException(final Exception exception, final String s)
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''

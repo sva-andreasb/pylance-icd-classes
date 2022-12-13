@@ -1,135 +1,102 @@
 def JsonWebSignature():
-'''public JsonWebSignature(final Header header, final Payload payload, final byte[] signatureBytes, final byte[] signedContentBytes)
-'''
-pass
+    '''    public JsonWebSignature(final Header header, final Payload payload, final byte[] signatureBytes, final byte[] signedContentBytes)
+    '''
 def getHeader():
-'''public Header getHeader()
-'''
-pass
+    '''    public Header getHeader()
+    '''
 def verifySignature():
-'''public final boolean verifySignature(final PublicKey publicKey)
-public final X509Certificate verifySignature(final X509TrustManager trustManager)
-public final X509Certificate verifySignature()
-'''
-pass
+    '''    public final boolean verifySignature(final PublicKey publicKey)
+    public final X509Certificate verifySignature(final X509TrustManager trustManager)
+    public final X509Certificate verifySignature()
+    '''
 def getSignatureBytes():
-'''public final byte[] getSignatureBytes()
-'''
-pass
+    '''    public final byte[] getSignatureBytes()
+    '''
 def getSignedContentBytes():
-'''public final byte[] getSignedContentBytes()
-'''
-pass
+    '''    public final byte[] getSignedContentBytes()
+    '''
 def parse():
-'''public static JsonWebSignature parse(final JsonFactory jsonFactory, final String tokenString)
-public JsonWebSignature parse(final String tokenString)
-'''
-pass
+    '''    public static JsonWebSignature parse(final JsonFactory jsonFactory, final String tokenString)
+    public JsonWebSignature parse(final String tokenString)
+    '''
 def parser():
-'''public static Parser parser(final JsonFactory jsonFactory)
-'''
-pass
+    '''    public static Parser parser(final JsonFactory jsonFactory)
+    '''
 def signUsingRsaSha256():
-'''public static String signUsingRsaSha256(final PrivateKey privateKey, final JsonFactory jsonFactory, final Header header, final Payload payload)
-'''
-pass
+    '''    public static String signUsingRsaSha256(final PrivateKey privateKey, final JsonFactory jsonFactory, final Header header, final Payload payload)
+    '''
 def setType():
-'''public Header setType(final String type)
-'''
-pass
+    '''    public Header setType(final String type)
+    '''
 def getAlgorithm():
-'''public final String getAlgorithm()
-'''
-pass
+    '''    public final String getAlgorithm()
+    '''
 def setAlgorithm():
-'''public Header setAlgorithm(final String algorithm)
-'''
-pass
+    '''    public Header setAlgorithm(final String algorithm)
+    '''
 def getJwkUrl():
-'''public final String getJwkUrl()
-'''
-pass
+    '''    public final String getJwkUrl()
+    '''
 def setJwkUrl():
-'''public Header setJwkUrl(final String jwkUrl)
-'''
-pass
+    '''    public Header setJwkUrl(final String jwkUrl)
+    '''
 def getJwk():
-'''public final String getJwk()
-'''
-pass
+    '''    public final String getJwk()
+    '''
 def setJwk():
-'''public Header setJwk(final String jwk)
-'''
-pass
+    '''    public Header setJwk(final String jwk)
+    '''
 def getKeyId():
-'''public final String getKeyId()
-'''
-pass
+    '''    public final String getKeyId()
+    '''
 def setKeyId():
-'''public Header setKeyId(final String keyId)
-'''
-pass
+    '''    public Header setKeyId(final String keyId)
+    '''
 def getX509Url():
-'''public final String getX509Url()
-'''
-pass
+    '''    public final String getX509Url()
+    '''
 def setX509Url():
-'''public Header setX509Url(final String x509Url)
-'''
-pass
+    '''    public Header setX509Url(final String x509Url)
+    '''
 def getX509Thumbprint():
-'''public final String getX509Thumbprint()
-'''
-pass
+    '''    public final String getX509Thumbprint()
+    '''
 def setX509Thumbprint():
-'''public Header setX509Thumbprint(final String x509Thumbprint)
-'''
-pass
+    '''    public Header setX509Thumbprint(final String x509Thumbprint)
+    '''
 def getX509Certificate():
-'''public final String getX509Certificate()
-'''
-pass
+    '''    public final String getX509Certificate()
+    '''
 def getX509Certificates():
-'''public final List<String> getX509Certificates()
-'''
-pass
+    '''    public final List<String> getX509Certificates()
+    '''
 def setX509Certificate():
-'''public Header setX509Certificate(final String x509Certificate)
-'''
-pass
+    '''    public Header setX509Certificate(final String x509Certificate)
+    '''
 def setX509Certificates():
-'''public Header setX509Certificates(final List<String> x509Certificates)
-'''
-pass
+    '''    public Header setX509Certificates(final List<String> x509Certificates)
+    '''
 def getCritical():
-'''public final List<String> getCritical()
-'''
-pass
+    '''    public final List<String> getCritical()
+    '''
 def setCritical():
-'''public Header setCritical(final List<String> critical)
-'''
-pass
+    '''    public Header setCritical(final List<String> critical)
+    '''
 def set():
-'''public Header set(final String fieldName, final Object value)
-'''
-pass
+    '''    public Header set(final String fieldName, final Object value)
+    '''
 def clone():
-'''public Header clone()
-'''
-pass
+    '''    public Header clone()
+    '''
 def Parser():
-'''public Parser(final JsonFactory jsonFactory)
-'''
-pass
+    '''    public Parser(final JsonFactory jsonFactory)
+    '''
 def setHeaderClass():
-'''public Parser setHeaderClass(final Class<? extends Header> headerClass)
-'''
-pass
+    '''    public Parser setHeaderClass(final Class<? extends Header> headerClass)
+    '''
 def setPayloadClass():
-'''public Parser setPayloadClass(final Class<? extends Payload> payloadClass)
-'''
-pass
+    '''    public Parser setPayloadClass(final Class<? extends Payload> payloadClass)
+    '''
 def getJsonFactory():
-'''public JsonFactory getJsonFactory()
-'''
-pass
+    '''    public JsonFactory getJsonFactory()
+    '''

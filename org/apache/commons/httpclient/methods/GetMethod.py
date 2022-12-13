@@ -1,13 +1,10 @@
 def GetMethod():
-'''public GetMethod()
-public GetMethod(final String uri)
-'''
-pass
+    '''    public GetMethod()
+    public GetMethod(final String uri)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def recycle():
-'''public void recycle()
-'''
-pass
+    '''    public void recycle()
+    '''

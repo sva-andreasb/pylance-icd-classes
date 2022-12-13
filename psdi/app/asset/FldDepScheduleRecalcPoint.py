@@ -1,8 +1,6 @@
 def FldDepScheduleRecalcPoint():
-'''public FldDepScheduleRecalcPoint(final MboValue mbv)
-'''
-pass
+    '''    public FldDepScheduleRecalcPoint(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

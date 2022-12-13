@@ -1,9 +1,7 @@
 def InsightService():
-'''public InsightService()
-public InsightService(final MXServer mxServer)
-'''
-pass
+    '''    public InsightService()
+    public InsightService(final MXServer mxServer)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

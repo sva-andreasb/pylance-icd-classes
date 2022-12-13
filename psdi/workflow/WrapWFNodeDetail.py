@@ -1,36 +1,27 @@
 def WrapWFNodeDetail():
-'''public WrapWFNodeDetail(final WFNodeDetail detailMbo)
-'''
-pass
+    '''    public WrapWFNodeDetail(final WFNodeDetail detailMbo)
+    '''
 def validateNode():
-'''public void validateNode(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
-'''
-pass
+    '''    public void validateNode(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''
 def canTakePositive():
-'''public boolean canTakePositive()
-'''
-pass
+    '''    public boolean canTakePositive()
+    '''
 def canTakeNegative():
-'''public boolean canTakeNegative()
-'''
-pass
+    '''    public boolean canTakeNegative()
+    '''
 def addedAction():
-'''public void addedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void addedAction(final boolean wasPositive)
+    '''
 def removedAction():
-'''public void removedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void removedAction(final boolean wasPositive)
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

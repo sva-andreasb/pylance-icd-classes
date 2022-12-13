@@ -1,8 +1,6 @@
 def PmtcoSelectNoticeObjBean():
-'''public PmtcoSelectNoticeObjBean()
-'''
-pass
+    '''    public PmtcoSelectNoticeObjBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

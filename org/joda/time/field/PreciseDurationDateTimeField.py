@@ -1,36 +1,27 @@
 def PreciseDurationDateTimeField():
-'''public PreciseDurationDateTimeField(final DateTimeFieldType dateTimeFieldType, final DurationField iUnitField)
-'''
-pass
+    '''    public PreciseDurationDateTimeField(final DateTimeFieldType dateTimeFieldType, final DurationField iUnitField)
+    '''
 def isLenient():
-'''public boolean isLenient()
-'''
-pass
+    '''    public boolean isLenient()
+    '''
 def set():
-'''public long set(final long n, final int n2)
-'''
-pass
+    '''    public long set(final long n, final int n2)
+    '''
 def roundFloor():
-'''public long roundFloor(long n)
-'''
-pass
+    '''    public long roundFloor(long n)
+    '''
 def roundCeiling():
-'''public long roundCeiling(long n)
-'''
-pass
+    '''    public long roundCeiling(long n)
+    '''
 def remainder():
-'''public long remainder(final long n)
-'''
-pass
+    '''    public long remainder(final long n)
+    '''
 def getDurationField():
-'''public DurationField getDurationField()
-'''
-pass
+    '''    public DurationField getDurationField()
+    '''
 def getMinimumValue():
-'''public int getMinimumValue()
-'''
-pass
+    '''    public int getMinimumValue()
+    '''
 def getUnitMillis():
-'''public final long getUnitMillis()
-'''
-pass
+    '''    public final long getUnitMillis()
+    '''

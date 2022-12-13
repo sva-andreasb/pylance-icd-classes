@@ -1,4 +1,3 @@
 def TemplateSet():
-'''public TemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TemplateSet(final MboServerInterface ms)
+    '''

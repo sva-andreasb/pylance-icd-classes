@@ -1,49 +1,37 @@
 def CustomAMCrewSegmentSummaryRenderer():
-'''public CustomAMCrewSegmentSummaryRenderer()
-'''
-pass
+    '''    public CustomAMCrewSegmentSummaryRenderer()
+    '''
 def getMainRender():
-'''public IlvBasicActivityBar getMainRender()
-'''
-pass
+    '''    public IlvBasicActivityBar getMainRender()
+    '''
 def createSelection():
-'''public IlvSelection createSelection(final IlvActivityGraphic ag, final String[] properties)
-'''
-pass
+    '''    public IlvSelection createSelection(final IlvActivityGraphic ag, final String[] properties)
+    '''
 def getSequenceNum():
-'''public int getSequenceNum()
-'''
-pass
+    '''    public int getSequenceNum()
+    '''
 def setSequenceNum():
-'''public void setSequenceNum(final int sequenceNum)
-'''
-pass
+    '''    public void setSequenceNum(final int sequenceNum)
+    '''
 def CustomAMCrewSegmentSummaryMainRenderer():
-'''public CustomAMCrewSegmentSummaryMainRenderer()
-'''
-pass
+    '''    public CustomAMCrewSegmentSummaryMainRenderer()
+    '''
 def getPopupMenu():
-'''public JPopupMenu getPopupMenu(final IlvActivityGraphic activity, final IlvPoint arg1, final IlvTransformer arg2, final IlvManagerView arg3, final IlvPopupMenuManager arg4)
-'''
-pass
+    '''    public JPopupMenu getPopupMenu(final IlvActivityGraphic activity, final IlvPoint arg1, final IlvTransformer arg2, final IlvManagerView arg3, final IlvPopupMenuManager arg4)
+    '''
 def CustomSummaryStartRenderer():
-'''public CustomSummaryStartRenderer()
-'''
-pass
+    '''    public CustomSummaryStartRenderer()
+    '''
 def draw():
-'''public void draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)
-public void draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)
-'''
-pass
+    '''    public void draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)
+    public void draw(final Graphics arg0, final IlvActivityGraphic ag, final IlvTransformer arg2)
+    '''
 def CustomSummaryEndRenderer():
-'''public CustomSummaryEndRenderer()
-'''
-pass
+    '''    public CustomSummaryEndRenderer()
+    '''
 def MyActivityBarSelection():
-'''public MyActivityBarSelection(final IlvActivityGraphic ag, final String[] properties)
-'''
-pass
+    '''    public MyActivityBarSelection(final IlvActivityGraphic ag, final String[] properties)
+    '''
 def getHandle():
-'''public IlvPoint getHandle(final int i, final IlvTransformer t)
-'''
-pass
+    '''    public IlvPoint getHandle(final int i, final IlvTransformer t)
+    '''

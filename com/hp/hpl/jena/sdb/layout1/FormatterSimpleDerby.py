@@ -1,12 +1,9 @@
 def FormatterSimpleDerby():
-'''public FormatterSimpleDerby(final SDBConnection connection)
-'''
-pass
+    '''    public FormatterSimpleDerby(final SDBConnection connection)
+    '''
 def truncate():
-'''public void truncate()
-'''
-pass
+    '''    public void truncate()
+    '''
 def format():
-'''public void format()
-'''
-pass
+    '''    public void format()
+    '''

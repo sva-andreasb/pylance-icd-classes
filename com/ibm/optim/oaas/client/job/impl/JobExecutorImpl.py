@@ -1,57 +1,43 @@
 def JobExecutorImpl():
-'''public JobExecutorImpl(final ExecutorService service, final long interval, final long timeout, final int retry, final long retryDelay)
-'''
-pass
+    '''    public JobExecutorImpl(final ExecutorService service, final long interval, final long timeout, final int retry, final long retryDelay)
+    '''
 def getExecutionDetails():
-'''public JobExecutionDetails getExecutionDetails()
-'''
-pass
+    '''    public JobExecutionDetails getExecutionDetails()
+    '''
 def setExecutionDetails():
-'''public void setExecutionDetails(final JobExecutionDetails executionDetails)
-'''
-pass
+    '''    public void setExecutionDetails(final JobExecutionDetails executionDetails)
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def create():
-'''public Future<JobResponse> create(final JobRequest request, final JobCallback callback)
-'''
-pass
+    '''    public Future<JobResponse> create(final JobRequest request, final JobCallback callback)
+    '''
 def submit():
-'''public Future<JobResponse> submit(final JobRequest request, final JobCallback callback)
-'''
-pass
+    '''    public Future<JobResponse> submit(final JobRequest request, final JobCallback callback)
+    '''
 def monitor():
-'''public Future<JobResponse> monitor(final JobRequest request, final String jobid, final JobCallback callback)
-'''
-pass
+    '''    public Future<JobResponse> monitor(final JobRequest request, final String jobid, final JobCallback callback)
+    '''
 def execute():
-'''public Future<JobResponse> execute(final JobRequest request, final JobCallback callback)
-public Future<JobResponse> execute(final JobRequest request)
-'''
-pass
+    '''    public Future<JobResponse> execute(final JobRequest request, final JobCallback callback)
+    public Future<JobResponse> execute(final JobRequest request)
+    '''
 def executeMain():
-'''public Future<JobResponse> executeMain(final JobRequest request, final JobCallback callback, final boolean create, final boolean submit, final boolean monitor)
-'''
-pass
+    '''    public Future<JobResponse> executeMain(final JobRequest request, final JobCallback callback, final boolean create, final boolean submit, final boolean monitor)
+    '''
 def call():
-'''public JobResponse call()
-'''
-pass
+    '''    public JobResponse call()
+    '''
 def RetryLoop():
-'''public RetryLoop()
-'''
-pass
+    '''    public RetryLoop()
+    '''
 def next():
-'''public void next()
-'''
-pass
+    '''    public void next()
+    '''
 def exception():
-'''public void exception(final OperationException e)
-'''
-pass
+    '''    public void exception(final OperationException e)
+    '''

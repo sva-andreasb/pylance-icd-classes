@@ -1,8 +1,6 @@
 def getDefaultInstance():
-'''public static MemoryDataStoreFactory getDefaultInstance()
-'''
-pass
+    '''    public static MemoryDataStoreFactory getDefaultInstance()
+    '''
 def getDataStoreFactory():
-'''public MemoryDataStoreFactory getDataStoreFactory()
-'''
-pass
+    '''    public MemoryDataStoreFactory getDataStoreFactory()
+    '''

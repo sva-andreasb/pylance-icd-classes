@@ -1,4 +1,3 @@
 def FldCompanyLoc():
-'''public FldCompanyLoc(final MboValue mbv)
-'''
-pass
+    '''    public FldCompanyLoc(final MboValue mbv)
+    '''

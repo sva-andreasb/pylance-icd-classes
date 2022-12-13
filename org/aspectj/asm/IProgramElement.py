@@ -1,83 +1,63 @@
 def ExtraInformation():
-'''public ExtraInformation()
-'''
-pass
+    '''    public ExtraInformation()
+    '''
 def setExtraAdviceInformation():
-'''public void setExtraAdviceInformation(final String string)
-'''
-pass
+    '''    public void setExtraAdviceInformation(final String string)
+    '''
 def getExtraAdviceInformation():
-'''public String getExtraAdviceInformation()
-'''
-pass
+    '''    public String getExtraAdviceInformation()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    '''
 def getBit():
-'''public int getBit()
-'''
-pass
+    '''    public int getBit()
+    '''
 def getKindForString():
-'''public static Kind getKindForString(final String kindString)
-'''
-pass
+    '''    public static Kind getKindForString(final String kindString)
+    '''
 def getNonAJMemberKinds():
-'''public static List<Kind> getNonAJMemberKinds()
-'''
-pass
+    '''    public static List<Kind> getNonAJMemberKinds()
+    '''
 def isMember():
-'''public boolean isMember()
-'''
-pass
+    '''    public boolean isMember()
+    '''
 def isInterTypeMember():
-'''public boolean isInterTypeMember()
-'''
-pass
+    '''    public boolean isInterTypeMember()
+    '''
 def isType():
-'''public boolean isType()
-'''
-pass
+    '''    public boolean isType()
+    '''
 def isSourceFile():
-'''public boolean isSourceFile()
-'''
-pass
+    '''    public boolean isSourceFile()
+    '''
 def isFile():
-'''public boolean isFile()
-'''
-pass
+    '''    public boolean isFile()
+    '''
 def isDeclare():
-'''public boolean isDeclare()
-'''
-pass
+    '''    public boolean isDeclare()
+    '''
 def isDeclareAnnotation():
-'''public boolean isDeclareAnnotation()
-'''
-pass
+    '''    public boolean isDeclareAnnotation()
+    '''
 def isDeclareParents():
-'''public boolean isDeclareParents()
-'''
-pass
+    '''    public boolean isDeclareParents()
+    '''
 def isDeclareSoft():
-'''public boolean isDeclareSoft()
-'''
-pass
+    '''    public boolean isDeclareSoft()
+    '''
 def isDeclareWarning():
-'''public boolean isDeclareWarning()
-'''
-pass
+    '''    public boolean isDeclareWarning()
+    '''
 def isDeclareError():
-'''public boolean isDeclareError()
-'''
-pass
+    '''    public boolean isDeclareError()
+    '''
 def isDeclarePrecedence():
-'''public boolean isDeclarePrecedence()
-'''
-pass
+    '''    public boolean isDeclarePrecedence()
+    '''
 def isPackageDeclaration():
-'''public boolean isPackageDeclaration()
-'''
-pass
+    '''    public boolean isPackageDeclaration()
+    '''

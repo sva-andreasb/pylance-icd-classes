@@ -1,104 +1,80 @@
 def SimpleDTDScannerEventQueue():
-'''public SimpleDTDScannerEventQueue()
-public SimpleDTDScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory)
-public SimpleDTDScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory, final SymbolTable symbolTable)
-'''
-pass
+    '''    public SimpleDTDScannerEventQueue()
+    public SimpleDTDScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory)
+    public SimpleDTDScannerEventQueue(final DocumentEntityScanner documentEntityScanner, final DataBufferFactory dataBufferFactory, final SymbolTable symbolTable)
+    '''
 def setEntityContent():
-'''public void setEntityContent(final ParsedEntity entityContent)
-'''
-pass
+    '''    public void setEntityContent(final ParsedEntity entityContent)
+    '''
 def setNSDeclURI():
-'''public void setNSDeclURI(final int n, final int n2)
-'''
-pass
+    '''    public void setNSDeclURI(final int n, final int n2)
+    '''
 def addDefaultNSDecl():
-'''public boolean addDefaultNSDecl(final QName qName, final XMLString xmlString)
-'''
-pass
+    '''    public boolean addDefaultNSDecl(final QName qName, final XMLString xmlString)
+    '''
 def addDefaultAttribute():
-'''public boolean addDefaultAttribute(final QName values, final int n, final XMLString values2)
-'''
-pass
+    '''    public boolean addDefaultAttribute(final QName values, final int n, final XMLString values2)
+    '''
 def setGrammar():
-'''public void setGrammar(final DTDGrammar fdtdGrammar)
-'''
-pass
+    '''    public void setGrammar(final DTDGrammar fdtdGrammar)
+    '''
 def popElement():
-'''public QName popElement()
-'''
-pass
+    '''    public QName popElement()
+    '''
 def rootElementTypeToProduce():
-'''public final XMLString rootElementTypeToProduce()
-'''
-pass
+    '''    public final XMLString rootElementTypeToProduce()
+    '''
 def publicIDToProduce():
-'''public final XMLString publicIDToProduce()
-'''
-pass
+    '''    public final XMLString publicIDToProduce()
+    '''
 def systemIDToProduce():
-'''public final XMLString systemIDToProduce()
-'''
-pass
+    '''    public final XMLString systemIDToProduce()
+    '''
 def produceDoctypeEvent():
-'''public final boolean produceDoctypeEvent(final boolean b)
-'''
-pass
+    '''    public final boolean produceDoctypeEvent(final boolean b)
+    '''
 def produceStartEntityEvent():
-'''public final boolean produceStartEntityEvent()
-'''
-pass
+    '''    public final boolean produceStartEntityEvent()
+    '''
 def produceEndEntityEvent():
-'''public final boolean produceEndEntityEvent()
-'''
-pass
+    '''    public final boolean produceEndEntityEvent()
+    '''
 def produceEntityReferenceEvent():
-'''public final boolean produceEntityReferenceEvent()
-'''
-pass
+    '''    public final boolean produceEntityReferenceEvent()
+    '''
 def DoctypeEvent():
-'''public DoctypeEvent()
-'''
-pass
+    '''    public DoctypeEvent()
+    '''
 def rootElementType():
-'''public XMLString rootElementType()
-public XMLString rootElementType()
-'''
-pass
+    '''    public XMLString rootElementType()
+    public XMLString rootElementType()
+    '''
 def publicID():
-'''public XMLString publicID()
-public XMLString publicID()
-'''
-pass
+    '''    public XMLString publicID()
+    public XMLString publicID()
+    '''
 def systemID():
-'''public XMLString systemID()
-public XMLString systemID()
-'''
-pass
+    '''    public XMLString systemID()
+    public XMLString systemID()
+    '''
 def internalSubset():
-'''public boolean internalSubset()
-public boolean internalSubset()
-'''
-pass
+    '''    public boolean internalSubset()
+    public boolean internalSubset()
+    '''
 def DoctypeProducer():
-'''public DoctypeProducer()
-'''
-pass
+    '''    public DoctypeProducer()
+    '''
 def EntityEvent():
-'''public EntityEvent(final int n)
-'''
-pass
+    '''    public EntityEvent(final int n)
+    '''
 def nsContext():
-'''public int nsContext()
-public int nsContext()
-'''
-pass
+    '''    public int nsContext()
+    public int nsContext()
+    '''
 def entityName():
-'''public XMLString entityName()
-public XMLString entityName()
-'''
-pass
+    '''    public XMLString entityName()
+    public XMLString entityName()
+    '''
 def EntityProducer():
-'''public EntityProducer(final int n)
-'''
-pass
+    '''    public EntityProducer(final int n)
+    '''

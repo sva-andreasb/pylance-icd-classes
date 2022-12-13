@@ -1,12 +1,9 @@
 def Catalog():
-'''public Catalog(final MboSet ms)
-'''
-pass
+    '''    public Catalog(final MboSet ms)
+    '''
 def parseCatalog():
-'''public void parseCatalog(final MboSetRemote ms, final String urlString, final String descString)
-'''
-pass
+    '''    public void parseCatalog(final MboSetRemote ms, final String urlString, final String descString)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String arg0)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String arg0)
+    '''

@@ -1,8 +1,6 @@
 def BulletinBoardFactoryImpl():
-'''public BulletinBoardFactoryImpl(final LocalBulletinBoardStateManager bboardManager)
-'''
-pass
+    '''    public BulletinBoardFactoryImpl(final LocalBulletinBoardStateManager bboardManager)
+    '''
 def findBulletinBoard():
-'''public BulletinBoard findBulletinBoard(final String name)
-'''
-pass
+    '''    public BulletinBoard findBulletinBoard(final String name)
+    '''

@@ -1,21 +1,16 @@
 def OptionsMethod():
-'''public OptionsMethod()
-public OptionsMethod(final String uri)
-'''
-pass
+    '''    public OptionsMethod()
+    public OptionsMethod(final String uri)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isAllowed():
-'''public boolean isAllowed(final String method)
-'''
-pass
+    '''    public boolean isAllowed(final String method)
+    '''
 def getAllowedMethods():
-'''public Enumeration getAllowedMethods()
-'''
-pass
+    '''    public Enumeration getAllowedMethods()
+    '''
 def needContentLength():
-'''public boolean needContentLength()
-'''
-pass
+    '''    public boolean needContentLength()
+    '''

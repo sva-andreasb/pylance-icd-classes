@@ -1,75 +1,57 @@
-INHERITABLE_MAP = "String  isThreadContextMapInheritable""
+INHERITABLE_MAP = "String  \"isThreadContextMapInheritable\""
 def DefaultThreadContextMap():
-'''public DefaultThreadContextMap()
-public DefaultThreadContextMap(final boolean useMap)
-'''
-pass
+    '''    public DefaultThreadContextMap()
+    public DefaultThreadContextMap(final boolean useMap)
+    '''
 def put():
-'''public void put(final String key, final String value)
-'''
-pass
+    '''    public void put(final String key, final String value)
+    '''
 def putAll():
-'''public void putAll(final Map<String, String> m)
-'''
-pass
+    '''    public void putAll(final Map<String, String> m)
+    '''
 def get():
-'''public String get(final String key)
-'''
-pass
+    '''    public String get(final String key)
+    '''
 def remove():
-'''public void remove(final String key)
-'''
-pass
+    '''    public void remove(final String key)
+    '''
 def removeAll():
-'''public void removeAll(final Iterable<String> keys)
-'''
-pass
+    '''    public void removeAll(final Iterable<String> keys)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def toMap():
-'''public Map<String, String> toMap()
-'''
-pass
+    '''    public Map<String, String> toMap()
+    '''
 def containsKey():
-'''public boolean containsKey(final String key)
-'''
-pass
+    '''    public boolean containsKey(final String key)
+    '''
 def forEach():
-'''public <V> void forEach(final BiConsumer<String, ? super V> action)
-public <V, S> void forEach(final TriConsumer<String, ? super V, S> action, final S state)
-'''
-pass
+    '''    public <V> void forEach(final BiConsumer<String, ? super V> action)
+    public <V, S> void forEach(final TriConsumer<String, ? super V, S> action, final S state)
+    '''
 def getValue():
-'''public <V> V getValue(final String key)
-'''
-pass
+    '''    public <V> V getValue(final String key)
+    '''
 def getCopy():
-'''public Map<String, String> getCopy()
-'''
-pass
+    '''    public Map<String, String> getCopy()
+    '''
 def getImmutableMapOrNull():
-'''public Map<String, String> getImmutableMapOrNull()
-'''
-pass
+    '''    public Map<String, String> getImmutableMapOrNull()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

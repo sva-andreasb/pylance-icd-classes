@@ -1,16 +1,12 @@
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def hasToFitPageTable():
-'''public final boolean hasToFitPageTable()
-'''
-pass
+    '''    public final boolean hasToFitPageTable()
+    '''
 def hasToFitPageCells():
-'''public final boolean hasToFitPageCells()
-'''
-pass
+    '''    public final boolean hasToFitPageCells()
+    '''
 def getOffset():
-'''public float getOffset()
-'''
-pass
+    '''    public float getOffset()
+    '''

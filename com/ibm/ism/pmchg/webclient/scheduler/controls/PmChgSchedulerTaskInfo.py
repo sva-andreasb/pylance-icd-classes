@@ -1,165 +1,124 @@
 def PmChgSchedulerTaskInfo():
-'''public PmChgSchedulerTaskInfo()
-'''
-pass
+    '''    public PmChgSchedulerTaskInfo()
+    '''
 def getWonum():
-'''public String getWonum()
-'''
-pass
+    '''    public String getWonum()
+    '''
 def setWonum():
-'''public void setWonum(final String wonum)
-'''
-pass
+    '''    public void setWonum(final String wonum)
+    '''
 def getWorkorderId():
-'''public long getWorkorderId()
-'''
-pass
+    '''    public long getWorkorderId()
+    '''
 def setWorkorderId():
-'''public void setWorkorderId(final long workorderId)
-'''
-pass
+    '''    public void setWorkorderId(final long workorderId)
+    '''
 def getWoclass():
-'''public String getWoclass()
-'''
-pass
+    '''    public String getWoclass()
+    '''
 def setWoclass():
-'''public void setWoclass(final String woclass)
-'''
-pass
+    '''    public void setWoclass(final String woclass)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isTask():
-'''public boolean isTask()
-'''
-pass
+    '''    public boolean isTask()
+    '''
 def setTask():
-'''public void setTask(final boolean task)
-'''
-pass
+    '''    public void setTask(final boolean task)
+    '''
 def getTaskId():
-'''public int getTaskId()
-'''
-pass
+    '''    public int getTaskId()
+    '''
 def setTaskId():
-'''public void setTaskId(final int taskId)
-'''
-pass
+    '''    public void setTaskId(final int taskId)
+    '''
 def isImpTask():
-'''public boolean isImpTask()
-'''
-pass
+    '''    public boolean isImpTask()
+    '''
 def setImptask():
-'''public void setImptask(final boolean impTask)
-'''
-pass
+    '''    public void setImptask(final boolean impTask)
+    '''
 def getParent():
-'''public String getParent()
-'''
-pass
+    '''    public String getParent()
+    '''
 def setParent():
-'''public void setParent(final String parent)
-'''
-pass
+    '''    public void setParent(final String parent)
+    '''
 def getStartDate():
-'''public long getStartDate()
-'''
-pass
+    '''    public long getStartDate()
+    '''
 def setStartDate():
-'''public void setStartDate(final long startDate)
-'''
-pass
+    '''    public void setStartDate(final long startDate)
+    '''
 def getFinishDate():
-'''public long getFinishDate()
-'''
-pass
+    '''    public long getFinishDate()
+    '''
 def setFinishDate():
-'''public void setFinishDate(final long finishDate)
-'''
-pass
+    '''    public void setFinishDate(final long finishDate)
+    '''
 def getDuration():
-'''public long getDuration()
-'''
-pass
+    '''    public long getDuration()
+    '''
 def setDuration():
-'''public void setDuration(final long duration)
-'''
-pass
+    '''    public void setDuration(final long duration)
+    '''
 def isScheduled():
-'''public boolean isScheduled()
-'''
-pass
+    '''    public boolean isScheduled()
+    '''
 def setScheduled():
-'''public void setScheduled(final boolean scheduled)
-'''
-pass
+    '''    public void setScheduled(final boolean scheduled)
+    '''
 def getModelList():
-'''public ArrayList<TimeWindowModel> getModelList()
-'''
-pass
+    '''    public ArrayList<TimeWindowModel> getModelList()
+    '''
 def setModelList():
-'''public void setModelList(final ArrayList<TimeWindowModel> modelList)
-'''
-pass
+    '''    public void setModelList(final ArrayList<TimeWindowModel> modelList)
+    '''
 def getTimeWindowSet():
-'''public TimeWindowSet getTimeWindowSet(final String str)
-'''
-pass
+    '''    public TimeWindowSet getTimeWindowSet(final String str)
+    '''
 def copyAllTimeWindows():
-'''public void copyAllTimeWindows(final Date startDate, final Date endDate)
-'''
-pass
+    '''    public void copyAllTimeWindows(final Date startDate, final Date endDate)
+    '''
 def getAvailableTimeWindows():
-'''public ArrayList<AvailableTimeWindow> getAvailableTimeWindows()
-'''
-pass
+    '''    public ArrayList<AvailableTimeWindow> getAvailableTimeWindows()
+    '''
 def setAvailableTimeWindows():
-'''public void setAvailableTimeWindows(final ArrayList<AvailableTimeWindow> availableTW)
-'''
-pass
+    '''    public void setAvailableTimeWindows(final ArrayList<AvailableTimeWindow> availableTW)
+    '''
 def addToAvailableTimeWindows():
-'''public void addToAvailableTimeWindows(final String id, final List<TimeWindow> timeWindows, final boolean available)
-public void addToAvailableTimeWindows(final String id, final Iterator<TimeWindow> iter, final Date startDate, final Date endDate, final boolean available)
-'''
-pass
+    '''    public void addToAvailableTimeWindows(final String id, final List<TimeWindow> timeWindows, final boolean available)
+    public void addToAvailableTimeWindows(final String id, final Iterator<TimeWindow> iter, final Date startDate, final Date endDate, final boolean available)
+    '''
 def clearAvailableTimeWindows():
-'''public void clearAvailableTimeWindows()
-'''
-pass
+    '''    public void clearAvailableTimeWindows()
+    '''
 def clearModelList():
-'''public void clearModelList()
-'''
-pass
+    '''    public void clearModelList()
+    '''
 def AvailableTimeWindow():
-'''public AvailableTimeWindow(final String id, final List<TimeWindow> timeWindows, final boolean available)
-'''
-pass
+    '''    public AvailableTimeWindow(final String id, final List<TimeWindow> timeWindows, final boolean available)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setId():
-'''public void setId(final String id)
-'''
-pass
+    '''    public void setId(final String id)
+    '''
 def getTimeWindows():
-'''public List<TimeWindow> getTimeWindows()
-'''
-pass
+    '''    public List<TimeWindow> getTimeWindows()
+    '''
 def setTimeWindows():
-'''public void setTimeWindows(final List<TimeWindow> timeWindows)
-'''
-pass
+    '''    public void setTimeWindows(final List<TimeWindow> timeWindows)
+    '''
 def isAvailable():
-'''public boolean isAvailable()
-'''
-pass
+    '''    public boolean isAvailable()
+    '''
 def setAvailable():
-'''public void setAvailable(final boolean available)
-'''
-pass
+    '''    public void setAvailable(final boolean available)
+    '''

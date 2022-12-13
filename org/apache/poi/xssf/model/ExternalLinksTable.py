@@ -1,81 +1,61 @@
 def ExternalLinksTable():
-'''public ExternalLinksTable()
-public ExternalLinksTable(final PackagePart part)
-'''
-pass
+    '''    public ExternalLinksTable()
+    public ExternalLinksTable(final PackagePart part)
+    '''
 def readFrom():
-'''public void readFrom(final InputStream is)
-'''
-pass
+    '''    public void readFrom(final InputStream is)
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''
 def getCTExternalLink():
-'''public CTExternalLink getCTExternalLink()
-'''
-pass
+    '''    public CTExternalLink getCTExternalLink()
+    '''
 def getLinkedFileName():
-'''public String getLinkedFileName()
-'''
-pass
+    '''    public String getLinkedFileName()
+    '''
 def setLinkedFileName():
-'''public void setLinkedFileName(final String target)
-'''
-pass
+    '''    public void setLinkedFileName(final String target)
+    '''
 def getSheetNames():
-'''public List<String> getSheetNames()
-'''
-pass
+    '''    public List<String> getSheetNames()
+    '''
 def getDefinedNames():
-'''public List<Name> getDefinedNames()
-'''
-pass
+    '''    public List<Name> getDefinedNames()
+    '''
 def getNameName():
-'''public String getNameName()
-'''
-pass
+    '''    public String getNameName()
+    '''
 def setNameName():
-'''public void setNameName(final String name)
-'''
-pass
+    '''    public void setNameName(final String name)
+    '''
 def getSheetName():
-'''public String getSheetName()
-'''
-pass
+    '''    public String getSheetName()
+    '''
 def getSheetIndex():
-'''public int getSheetIndex()
-'''
-pass
+    '''    public int getSheetIndex()
+    '''
 def setSheetIndex():
-'''public void setSheetIndex(final int sheetId)
-'''
-pass
+    '''    public void setSheetIndex(final int sheetId)
+    '''
 def getRefersToFormula():
-'''public String getRefersToFormula()
-'''
-pass
+    '''    public String getRefersToFormula()
+    '''
 def setRefersToFormula():
-'''public void setRefersToFormula(final String formulaText)
-'''
-pass
+    '''    public void setRefersToFormula(final String formulaText)
+    '''
 def isFunctionName():
-'''public boolean isFunctionName()
-'''
-pass
+    '''    public boolean isFunctionName()
+    '''
 def isDeleted():
-'''public boolean isDeleted()
-'''
-pass
+    '''    public boolean isDeleted()
+    '''
 def getComment():
-'''public String getComment()
-'''
-pass
+    '''    public String getComment()
+    '''
 def setComment():
-'''public void setComment(final String comment)
-'''
-pass
+    '''    public void setComment(final String comment)
+    '''
 def setFunction():
-'''public void setFunction(final boolean value)
-'''
-pass
+    '''    public void setFunction(final boolean value)
+    '''

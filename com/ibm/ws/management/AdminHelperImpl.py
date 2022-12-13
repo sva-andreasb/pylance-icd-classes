@@ -1,45 +1,34 @@
 def getNodeAgentName():
-'''public String getNodeAgentName()
-public String getNodeAgentName(final String nodeName)
-'''
-pass
+    '''    public String getNodeAgentName()
+    public String getNodeAgentName(final String nodeName)
+    '''
 def getAdminAgentName():
-'''public String getAdminAgentName()
-'''
-pass
+    '''    public String getAdminAgentName()
+    '''
 def getDeploymentManagerName():
-'''public String getDeploymentManagerName()
-'''
-pass
+    '''    public String getDeploymentManagerName()
+    '''
 def getNodeHostName():
-'''public String getNodeHostName(final String nodeName)
-'''
-pass
+    '''    public String getNodeHostName(final String nodeName)
+    '''
 def getLocalHost():
-'''public InetAddress getLocalHost()
-'''
-pass
+    '''    public InetAddress getLocalHost()
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def useMultiHome():
-'''public Boolean useMultiHome()
-'''
-pass
+    '''    public Boolean useMultiHome()
+    '''
 def setEndPointManager():
-'''public static synchronized void setEndPointManager(final EndPointMgr newEpMgr)
-'''
-pass
+    '''    public static synchronized void setEndPointManager(final EndPointMgr newEpMgr)
+    '''
 def audit():
-'''public void audit(final String msgKeyWithUser, final String msgKeyWithoutUser, final Object objs)
-'''
-pass
+    '''    public void audit(final String msgKeyWithUser, final String msgKeyWithoutUser, final Object objs)
+    '''
 def getWasConfiguredSystemName():
-'''public String getWasConfiguredSystemName()
-'''
-pass
+    '''    public String getWasConfiguredSystemName()
+    '''
 def isCellRegistered():
-'''public synchronized boolean isCellRegistered()
-'''
-pass
+    '''    public synchronized boolean isCellRegistered()
+    '''

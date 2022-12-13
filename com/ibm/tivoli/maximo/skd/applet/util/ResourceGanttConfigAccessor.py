@@ -1,16 +1,12 @@
 def ResourceGanttConfigAccessor():
-'''public ResourceGanttConfigAccessor(final IGanttConfigInfo info)
-'''
-pass
+    '''    public ResourceGanttConfigAccessor(final IGanttConfigInfo info)
+    '''
 def getNames():
-'''public Iterator<String> getNames()
-'''
-pass
+    '''    public Iterator<String> getNames()
+    '''
 def getInfo():
-'''public IMXGanttPropertyInfo getInfo(final String name)
-'''
-pass
+    '''    public IMXGanttPropertyInfo getInfo(final String name)
+    '''
 def getColumnName():
-'''public String getColumnName(final String propName)
-'''
-pass
+    '''    public String getColumnName(final String propName)
+    '''

@@ -1,4 +1,3 @@
 def BIMPRoductChangeStatusSet():
-'''public BIMPRoductChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMPRoductChangeStatusSet(final MboServerInterface ms)
+    '''

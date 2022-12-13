@@ -1,8 +1,6 @@
 def FldIsWSSync():
-'''public FldIsWSSync(final MboValue mbv)
-'''
-pass
+    '''    public FldIsWSSync(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

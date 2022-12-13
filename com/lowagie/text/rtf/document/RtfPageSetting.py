@@ -1,64 +1,48 @@
 def RtfPageSetting():
-'''public RtfPageSetting(final RtfDocument doc)
-'''
-pass
+    '''    public RtfPageSetting(final RtfDocument doc)
+    '''
 def writeDefinition():
-'''public byte[] writeDefinition()
-'''
-pass
+    '''    public byte[] writeDefinition()
+    '''
 def writeSectionDefinition():
-'''public byte[] writeSectionDefinition()
-'''
-pass
+    '''    public byte[] writeSectionDefinition()
+    '''
 def getMarginBottom():
-'''public int getMarginBottom()
-'''
-pass
+    '''    public int getMarginBottom()
+    '''
 def setMarginBottom():
-'''public void setMarginBottom(final int marginBottom)
-'''
-pass
+    '''    public void setMarginBottom(final int marginBottom)
+    '''
 def getMarginLeft():
-'''public int getMarginLeft()
-'''
-pass
+    '''    public int getMarginLeft()
+    '''
 def setMarginLeft():
-'''public void setMarginLeft(final int marginLeft)
-'''
-pass
+    '''    public void setMarginLeft(final int marginLeft)
+    '''
 def getMarginRight():
-'''public int getMarginRight()
-'''
-pass
+    '''    public int getMarginRight()
+    '''
 def setMarginRight():
-'''public void setMarginRight(final int marginRight)
-'''
-pass
+    '''    public void setMarginRight(final int marginRight)
+    '''
 def getMarginTop():
-'''public int getMarginTop()
-'''
-pass
+    '''    public int getMarginTop()
+    '''
 def setMarginTop():
-'''public void setMarginTop(final int marginTop)
-'''
-pass
+    '''    public void setMarginTop(final int marginTop)
+    '''
 def getPageHeight():
-'''public int getPageHeight()
-'''
-pass
+    '''    public int getPageHeight()
+    '''
 def setPageHeight():
-'''public void setPageHeight(final int pageHeight)
-'''
-pass
+    '''    public void setPageHeight(final int pageHeight)
+    '''
 def getPageWidth():
-'''public int getPageWidth()
-'''
-pass
+    '''    public int getPageWidth()
+    '''
 def setPageWidth():
-'''public void setPageWidth(final int pageWidth)
-'''
-pass
+    '''    public void setPageWidth(final int pageWidth)
+    '''
 def setPageSize():
-'''public void setPageSize(final Rectangle pageSize)
-'''
-pass
+    '''    public void setPageSize(final Rectangle pageSize)
+    '''

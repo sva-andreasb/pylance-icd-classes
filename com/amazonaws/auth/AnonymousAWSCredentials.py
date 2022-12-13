@@ -1,8 +1,6 @@
 def getAWSAccessKeyId():
-'''public String getAWSAccessKeyId()
-'''
-pass
+    '''    public String getAWSAccessKeyId()
+    '''
 def getAWSSecretKey():
-'''public String getAWSSecretKey()
-'''
-pass
+    '''    public String getAWSSecretKey()
+    '''

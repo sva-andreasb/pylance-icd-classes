@@ -1,8 +1,6 @@
 def MboConfigInfo():
-'''public MboConfigInfo()
-'''
-pass
+    '''    public MboConfigInfo()
+    '''
 def getActionDescriptor():
-'''public MboActionDescriptor getActionDescriptor(final String mboName, final String actionName, final String propValue)
-'''
-pass
+    '''    public MboActionDescriptor getActionDescriptor(final String mboName, final String actionName, final String propValue)
+    '''

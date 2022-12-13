@@ -1,8 +1,6 @@
 def getNumber():
-'''public int getNumber()
-'''
-pass
+    '''    public int getNumber()
+    '''
 def getGeneration():
-'''public int getGeneration()
-'''
-pass
+    '''    public int getGeneration()
+    '''

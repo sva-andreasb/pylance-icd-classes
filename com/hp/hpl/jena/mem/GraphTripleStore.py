@@ -1,4 +1,3 @@
 def GraphTripleStore():
-'''public GraphTripleStore(final Graph parent)
-'''
-pass
+    '''    public GraphTripleStore(final Graph parent)
+    '''

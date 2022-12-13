@@ -1,8 +1,6 @@
 def FldJobTaskOwnerGroup():
-'''public FldJobTaskOwnerGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldJobTaskOwnerGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

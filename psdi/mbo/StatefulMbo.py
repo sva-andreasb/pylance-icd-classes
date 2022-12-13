@@ -1,89 +1,68 @@
 def StatefulMbo():
-'''public StatefulMbo(final MboSet ms)
-'''
-pass
+    '''    public StatefulMbo(final MboSet ms)
+    '''
 def getInternalStatus():
-'''public String getInternalStatus()
-'''
-pass
+    '''    public String getInternalStatus()
+    '''
 def changeMaxStatus():
-'''public void changeMaxStatus(final String internalStatus, final Date date, final String memo, final long accessModifier)
-public void changeMaxStatus(final String internalStatus, final Date date, final String memo)
-'''
-pass
+    '''    public void changeMaxStatus(final String internalStatus, final Date date, final String memo, final long accessModifier)
+    public void changeMaxStatus(final String internalStatus, final Date date, final String memo)
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo)
-public void changeStatus(final String status, Date asOfDate, String memo, final long accessModifier)
-public void changeStatus(final String status, final String progressStatus, Date asOfDate, String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo)
+    public void changeStatus(final String status, Date asOfDate, String memo, final long accessModifier)
+    public void changeStatus(final String status, final String progressStatus, Date asOfDate, String memo, final long accessModifier)
+    '''
 def canChangeStatus():
-'''public void canChangeStatus(final String changeToStatus, final String progressStatus, final long accessModifier)
-public void canChangeStatus(final String status)
-public void canChangeStatus(final String changeToStatus, final long accessModifier)
-'''
-pass
+    '''    public void canChangeStatus(final String changeToStatus, final String progressStatus, final long accessModifier)
+    public void canChangeStatus(final String status)
+    public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''
 def checkStatusChangeAuthorization():
-'''public void checkStatusChangeAuthorization(final String changeToStatus, final boolean single)
-'''
-pass
+    '''    public void checkStatusChangeAuthorization(final String changeToStatus, final boolean single)
+    '''
 def canChangeMaxStatus():
-'''public void canChangeMaxStatus(final String internalStatus)
-'''
-pass
+    '''    public void canChangeMaxStatus(final String internalStatus)
+    '''
 def getStatusList():
-'''public MboSetRemote getStatusList()
-'''
-pass
+    '''    public MboSetRemote getStatusList()
+    '''
 def getValidStatusList():
-'''public MboSetRemote getValidStatusList()
-'''
-pass
+    '''    public MboSetRemote getValidStatusList()
+    '''
 def filterByValidStatusList():
-'''public void filterByValidStatusList(final boolean onlyCanBeChanged, final MboSetRemote values)
-'''
-pass
+    '''    public void filterByValidStatusList(final boolean onlyCanBeChanged, final MboSetRemote values)
+    '''
 def fireEvent():
-'''public synchronized void fireEvent(final String type)
-'''
-pass
+    '''    public synchronized void fireEvent(final String type)
+    '''
 def checkForOpenStatus():
-'''public void checkForOpenStatus()
-'''
-pass
+    '''    public void checkForOpenStatus()
+    '''
 def getOverridePVStatusException():
-'''public boolean getOverridePVStatusException()
-'''
-pass
+    '''    public boolean getOverridePVStatusException()
+    '''
 def setOverridePVStatusException():
-'''public void setOverridePVStatusException(final boolean overridePVStatusException)
-'''
-pass
+    '''    public void setOverridePVStatusException(final boolean overridePVStatusException)
+    '''
 def canDeleteAttachedDocs():
-'''public void canDeleteAttachedDocs()
-'''
-pass
+    '''    public void canDeleteAttachedDocs()
+    '''
 def setTargetStatusOption():
-'''public void setTargetStatusOption(final String targetStatusOption)
-'''
-pass
+    '''    public void setTargetStatusOption(final String targetStatusOption)
+    '''
 def getTargetStatusOption():
-'''public String getTargetStatusOption()
-'''
-pass
+    '''    public String getTargetStatusOption()
+    '''
 def setOnListTab():
-'''public void setOnListTab(final boolean onListTab)
-'''
-pass
+    '''    public void setOnListTab(final boolean onListTab)
+    '''
 def getOnListTab():
-'''public boolean getOnListTab()
-'''
-pass
+    '''    public boolean getOnListTab()
+    '''
 def setStatusChangeButtonSigoption():
-'''public void setStatusChangeButtonSigoption(final String statusChangeButtonSigoption)
-'''
-pass
+    '''    public void setStatusChangeButtonSigoption(final String statusChangeButtonSigoption)
+    '''
 def getStatusChangeButtonSigoption():
-'''public String getStatusChangeButtonSigoption()
-'''
-pass
+    '''    public String getStatusChangeButtonSigoption()
+    '''

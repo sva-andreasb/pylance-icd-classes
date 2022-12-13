@@ -1,4 +1,3 @@
 def Rule():
-'''public Rule(final MboSet ms)
-'''
-pass
+    '''    public Rule(final MboSet ms)
+    '''

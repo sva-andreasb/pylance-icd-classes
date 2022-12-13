@@ -1,8 +1,6 @@
 def FldRouteStopEndFeatureLabel():
-'''public FldRouteStopEndFeatureLabel(final MboValue mbv)
-'''
-pass
+    '''    public FldRouteStopEndFeatureLabel(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,8 +1,6 @@
 def UnitaryComptuerActiveServicesGenerator():
-'''public UnitaryComptuerActiveServicesGenerator()
-'''
-pass
+    '''    public UnitaryComptuerActiveServicesGenerator()
+    '''
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''

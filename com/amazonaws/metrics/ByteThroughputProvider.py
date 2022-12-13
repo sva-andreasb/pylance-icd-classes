@@ -1,20 +1,15 @@
 def getThroughputMetricType():
-'''public ThroughputMetricType getThroughputMetricType()
-'''
-pass
+    '''    public ThroughputMetricType getThroughputMetricType()
+    '''
 def getByteCount():
-'''public int getByteCount()
-'''
-pass
+    '''    public int getByteCount()
+    '''
 def getDurationNano():
-'''public long getDurationNano()
-'''
-pass
+    '''    public long getDurationNano()
+    '''
 def getProviderId():
-'''public String getProviderId()
-'''
-pass
+    '''    public String getProviderId()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,12 +1,9 @@
 def CopyPartRequestFactory():
-'''public CopyPartRequestFactory(final CopyObjectRequest origReq, final String uploadId, final long optimalPartSize, final long contentLength)
-'''
-pass
+    '''    public CopyPartRequestFactory(final CopyObjectRequest origReq, final String uploadId, final long optimalPartSize, final long contentLength)
+    '''
 def hasMoreRequests():
-'''public synchronized boolean hasMoreRequests()
-'''
-pass
+    '''    public synchronized boolean hasMoreRequests()
+    '''
 def getNextCopyPartRequest():
-'''public synchronized CopyPartRequest getNextCopyPartRequest()
-'''
-pass
+    '''    public synchronized CopyPartRequest getNextCopyPartRequest()
+    '''

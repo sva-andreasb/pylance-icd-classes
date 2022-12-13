@@ -1,28 +1,21 @@
 def AppletGanttModel():
-'''public AppletGanttModel(final MXGanttModel mxganttModel)
-'''
-pass
+    '''    public AppletGanttModel(final MXGanttModel mxganttModel)
+    '''
 def setViewerGanttModel():
-'''public void setViewerGanttModel(final SKDViewerApplet.ViewerGanttModel viewerganttModel)
-'''
-pass
+    '''    public void setViewerGanttModel(final SKDViewerApplet.ViewerGanttModel viewerganttModel)
+    '''
 def getMXGanttModel():
-'''public MXGanttModel getMXGanttModel()
-'''
-pass
+    '''    public MXGanttModel getMXGanttModel()
+    '''
 def getSortAndFilterGanttModel():
-'''public IlvBasicFilterGanttModel getSortAndFilterGanttModel()
-'''
-pass
+    '''    public IlvBasicFilterGanttModel getSortAndFilterGanttModel()
+    '''
 def setMergedWorkPeriod():
-'''public void setMergedWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
-'''
-pass
+    '''    public void setMergedWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
+    '''
 def getMergedWorkPeriod():
-'''public ArrayList<Date> getMergedWorkPeriod()
-'''
-pass
+    '''    public ArrayList<Date> getMergedWorkPeriod()
+    '''
 def setSortGanttModel():
-'''public void setSortGanttModel(final IlvBasicFilterGanttModel sortGanttModel)
-'''
-pass
+    '''    public void setSortGanttModel(final IlvBasicFilterGanttModel sortGanttModel)
+    '''

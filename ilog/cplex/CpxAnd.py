@@ -1,4 +1,3 @@
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''

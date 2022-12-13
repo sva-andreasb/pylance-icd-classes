@@ -1,62 +1,47 @@
 def getRange():
-'''public boolean getRange(final int start, final RangeOption option, final int surrogateValue, final ValueFilter filter, final Range range)
-'''
-pass
+    '''    public boolean getRange(final int start, final RangeOption option, final int surrogateValue, final ValueFilter filter, final Range range)
+    '''
 def iterator():
-'''public Iterator<Range> iterator()
-'''
-pass
+    '''    public Iterator<Range> iterator()
+    '''
 def stringIterator():
-'''public StringIterator stringIterator(final CharSequence s, final int sIndex)
-'''
-pass
+    '''    public StringIterator stringIterator(final CharSequence s, final int sIndex)
+    '''
 def Range():
-'''public Range()
-'''
-pass
+    '''    public Range()
+    '''
 def getStart():
-'''public int getStart()
-'''
-pass
+    '''    public int getStart()
+    '''
 def getEnd():
-'''public int getEnd()
-'''
-pass
+    '''    public int getEnd()
+    '''
 def getValue():
-'''public int getValue()
-public final int getValue()
-'''
-pass
+    '''    public int getValue()
+    public final int getValue()
+    '''
 def set():
-'''public void set(final int start, final int end, final int value)
-'''
-pass
+    '''    public void set(final int start, final int end, final int value)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Range next()
-public boolean next()
-'''
-pass
+    '''    public Range next()
+    public boolean next()
+    '''
 def remove():
-'''public final void remove()
-'''
-pass
+    '''    public final void remove()
+    '''
 def reset():
-'''public void reset(final CharSequence s, final int sIndex)
-'''
-pass
+    '''    public void reset(final CharSequence s, final int sIndex)
+    '''
 def previous():
-'''public boolean previous()
-'''
-pass
+    '''    public boolean previous()
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def getCodePoint():
-'''public final int getCodePoint()
-'''
-pass
+    '''    public final int getCodePoint()
+    '''

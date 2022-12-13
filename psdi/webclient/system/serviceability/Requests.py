@@ -1,42 +1,32 @@
 def clear():
-'''public void clear()
-public void clear()
-'''
-pass
+    '''    public void clear()
+    public void clear()
+    '''
 def getLimit():
-'''public int getLimit()
-'''
-pass
+    '''    public int getLimit()
+    '''
 def setLimit():
-'''public void setLimit(final int limit)
-'''
-pass
+    '''    public void setLimit(final int limit)
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean enabled)
-'''
-pass
+    '''    public void setEnabled(final boolean enabled)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def log():
-'''public RequestEntry log(final HttpServletRequest request, final HttpServletResponse response)
-public EventEntry log(final WebClientEvent event)
-'''
-pass
+    '''    public RequestEntry log(final HttpServletRequest request, final HttpServletResponse response)
+    public EventEntry log(final WebClientEvent event)
+    '''
 def getRequests():
-'''public RequestEntry[] getRequests()
-'''
-pass
+    '''    public RequestEntry[] getRequests()
+    '''
 def setRequestEvent():
-'''public void setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)
-'''
-pass
+    '''    public void setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)
+    '''
 def setHandling():
-'''public void setHandling(final WebClientEvent event, final boolean handling)
-'''
-pass
+    '''    public void setHandling(final WebClientEvent event, final boolean handling)
+    '''
 def addHandledBy():
-'''public void addHandledBy(final WebClientEvent event, final Object handler)
-'''
-pass
+    '''    public void addHandledBy(final WebClientEvent event, final Object handler)
+    '''

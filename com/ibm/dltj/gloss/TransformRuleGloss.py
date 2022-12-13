@@ -1,49 +1,37 @@
 def TransformRuleGloss():
-'''public TransformRuleGloss()
-public TransformRuleGloss(final String s, final String s2, final String s3, final Flag[] array, final int[] array2)
-'''
-pass
+    '''    public TransformRuleGloss()
+    public TransformRuleGloss(final String s, final String s2, final String s3, final Flag[] array, final int[] array2)
+    '''
 def getMatch():
-'''public String getMatch()
-'''
-pass
+    '''    public String getMatch()
+    '''
 def getReplace():
-'''public String getReplace()
-'''
-pass
+    '''    public String getReplace()
+    '''
 def getPCode():
-'''public String getPCode()
-'''
-pass
+    '''    public String getPCode()
+    '''
 def isFlagSet():
-'''public boolean isFlagSet(final Flag flag)
-'''
-pass
+    '''    public boolean isFlagSet(final Flag flag)
+    '''
 def getPOS():
-'''public int getPOS()
-'''
-pass
+    '''    public int getPOS()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def activityGraphicUpdated():
-'''public void activityGraphicUpdated(final ActivityGraphicInteractorEvent event)
-'''
-pass
+    '''    public void activityGraphicUpdated(final ActivityGraphicInteractorEvent event)
+    '''
 def getToolTipText():
-'''public String getToolTipText(final IlvGraphic ag)
-'''
-pass
+    '''    public String getToolTipText(final IlvGraphic ag)
+    '''

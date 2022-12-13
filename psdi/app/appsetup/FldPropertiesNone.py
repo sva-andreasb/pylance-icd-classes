@@ -1,8 +1,6 @@
 def FldPropertiesNone():
-'''public FldPropertiesNone(final MboValue mbv)
-'''
-pass
+    '''    public FldPropertiesNone(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

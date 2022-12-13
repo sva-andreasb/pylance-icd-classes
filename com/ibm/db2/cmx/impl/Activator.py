@@ -1,8 +1,6 @@
 def start():
-'''public void start(final BundleContext bundleContext)
-'''
-pass
+    '''    public void start(final BundleContext bundleContext)
+    '''
 def stop():
-'''public void stop(final BundleContext bundleContext)
-'''
-pass
+    '''    public void stop(final BundleContext bundleContext)
+    '''

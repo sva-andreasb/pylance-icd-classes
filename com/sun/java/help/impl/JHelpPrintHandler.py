@@ -1,165 +1,126 @@
-PRINT_BUTTON_NAME = "String  PrintButton""
-PAGE_SETUP_BUTTON_NAME = "String  PageSetupButton""
-PRINT_LATER_BUTTON_NAME = "String  PrintLaterButton""
+PRINT_BUTTON_NAME = "String  \"PrintButton\""
+PAGE_SETUP_BUTTON_NAME = "String  \"PageSetupButton\""
+PRINT_LATER_BUTTON_NAME = "String  \"PrintLaterButton\""
 def JHelpPrintHandler():
-'''public JHelpPrintHandler(final JHelp help)
-'''
-pass
+    '''    public JHelpPrintHandler(final JHelp help)
+    '''
 def getJHelpPrintHandler():
-'''public static JHelpPrintHandler getJHelpPrintHandler(final JHelp help)
-'''
-pass
+    '''    public static JHelpPrintHandler getJHelpPrintHandler(final JHelp help)
+    '''
 def addPropertyChangeListener():
-'''public synchronized void addPropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public synchronized void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def removePropertyChangeListener():
-'''public synchronized void removePropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public synchronized void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean b)
-'''
-pass
+    '''    public void setEnabled(final boolean b)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def printSetup():
-'''public void printSetup()
-'''
-pass
+    '''    public void printSetup()
+    '''
 def print():
-'''public void print(final URL url)
-public void print(final URL[] array)
-public int print(final Graphics graphics, final PageFormat pageFormat, int n)
-public int print(final Graphics graphics, final PageFormat pageFormat, final int n)
-'''
-pass
+    '''    public void print(final URL url)
+    public void print(final URL[] array)
+    public int print(final Graphics graphics, final PageFormat pageFormat, int n)
+    public int print(final Graphics graphics, final PageFormat pageFormat, final int n)
+    '''
 def getPageFormat():
-'''public PageFormat getPageFormat()
-public PageFormat getPageFormat(final int n)
-'''
-pass
+    '''    public PageFormat getPageFormat()
+    public PageFormat getPageFormat(final int n)
+    '''
 def getPF():
-'''public PageFormat getPF()
-'''
-pass
+    '''    public PageFormat getPF()
+    '''
 def setPageFormat():
-'''public void setPageFormat(final PageFormat pageFormat)
-'''
-pass
+    '''    public void setPageFormat(final PageFormat pageFormat)
+    '''
 def setPF():
-'''public void setPF(final PageFormat pageFormat)
-'''
-pass
+    '''    public void setPF(final PageFormat pageFormat)
+    '''
 def getPrinterJob():
-'''public PrinterJob getPrinterJob()
-'''
-pass
+    '''    public PrinterJob getPrinterJob()
+    '''
 def handlePageSetup():
-'''public void handlePageSetup(final Component component)
-'''
-pass
+    '''    public void handlePageSetup(final Component component)
+    '''
 def setHelpModel():
-'''public void setHelpModel(final HelpModel helpModel)
-'''
-pass
+    '''    public void setHelpModel(final HelpModel helpModel)
+    '''
 def getHelpModel():
-'''public HelpModel getHelpModel()
-'''
-pass
+    '''    public HelpModel getHelpModel()
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def getHeight():
-'''public double getHeight()
-'''
-pass
+    '''    public double getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final double height)
-'''
-pass
+    '''    public void setHeight(final double height)
+    '''
 def JHPrintable():
-'''public JHPrintable(final JEditorPane editor, final URL url, final PageFormat pf, final int firstPage, final boolean scaleToFit)
-'''
-pass
+    '''    public JHPrintable(final JEditorPane editor, final URL url, final PageFormat pf, final int firstPage, final boolean scaleToFit)
+    '''
 def getNumberOfPages():
-'''public int getNumberOfPages()
-public int getNumberOfPages()
-'''
-pass
+    '''    public int getNumberOfPages()
+    public int getNumberOfPages()
+    '''
 def propertyChange():
-'''public synchronized void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public synchronized void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''
 def createTransforms():
-'''public Vector createTransforms()
-'''
-pass
+    '''    public Vector createTransforms()
+    '''
 def JHPageable():
-'''public JHPageable(final JEditorPane editor, final URL[] urls, final PageFormat pf)
-'''
-pass
+    '''    public JHPageable(final JEditorPane editor, final URL[] urls, final PageFormat pf)
+    '''
 def getPrintable():
-'''public Printable getPrintable(final int i)
-'''
-pass
+    '''    public Printable getPrintable(final int i)
+    '''
 def addNotify():
-'''public void addNotify()
-'''
-pass
+    '''    public void addNotify()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getGraphics():
-'''public Graphics getGraphics()
-'''
-pass
+    '''    public Graphics getGraphics()
+    '''
 def JHEditorPane():
-'''public JHEditorPane()
-'''
-pass
+    '''    public JHEditorPane()
+    '''
 def getEditorKitForContentType():
-'''public EditorKit getEditorKitForContentType(final String type)
-'''
-pass
+    '''    public EditorKit getEditorKitForContentType(final String type)
+    '''
 def addMouseListener():
-'''public void addMouseListener(final MouseListener mouseListener)
-'''
-pass
+    '''    public void addMouseListener(final MouseListener mouseListener)
+    '''
 def removeMouseListener():
-'''public void removeMouseListener(final MouseListener mouseListener)
-'''
-pass
+    '''    public void removeMouseListener(final MouseListener mouseListener)
+    '''
 def addMouseMotionListener():
-'''public void addMouseMotionListener(final MouseMotionListener mouseMotionListener)
-'''
-pass
+    '''    public void addMouseMotionListener(final MouseMotionListener mouseMotionListener)
+    '''
 def removeMouseMotionListener():
-'''public void removeMouseMotionListener(final MouseMotionListener mouseMotionListener)
-'''
-pass
+    '''    public void removeMouseMotionListener(final MouseMotionListener mouseMotionListener)
+    '''
 def addFocusListener():
-'''public void addFocusListener(final FocusListener focusListener)
-'''
-pass
+    '''    public void addFocusListener(final FocusListener focusListener)
+    '''
 def removeFocusListener():
-'''public void removeFocusListener(final FocusListener focusListener)
-'''
-pass
+    '''    public void removeFocusListener(final FocusListener focusListener)
+    '''
 def addKeyListener():
-'''public void addKeyListener(final KeyListener keyListener)
-'''
-pass
+    '''    public void addKeyListener(final KeyListener keyListener)
+    '''
 def removeKeyListener():
-'''public void removeKeyListener(final KeyListener keyListener)
-'''
-pass
+    '''    public void removeKeyListener(final KeyListener keyListener)
+    '''

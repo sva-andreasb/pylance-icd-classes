@@ -1,12 +1,9 @@
 def FldEscNotificatRole():
-'''public FldEscNotificatRole(final MboValue mbv)
-'''
-pass
+    '''    public FldEscNotificatRole(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

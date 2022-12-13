@@ -1,28 +1,21 @@
 def InstructionByte():
-'''public InstructionByte(final short opcode, final byte b)
-'''
-pass
+    '''    public InstructionByte(final short opcode, final byte b)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getTypecode():
-'''public final byte getTypecode()
-'''
-pass
+    '''    public final byte getTypecode()
+    '''
 def getType():
-'''public final Type getType()
-'''
-pass
+    '''    public final Type getType()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

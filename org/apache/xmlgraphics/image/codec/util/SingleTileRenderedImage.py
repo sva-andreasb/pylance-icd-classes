@@ -1,8 +1,6 @@
 def SingleTileRenderedImage():
-'''public SingleTileRenderedImage(final Raster ras, final ColorModel colorModel)
-'''
-pass
+    '''    public SingleTileRenderedImage(final Raster ras, final ColorModel colorModel)
+    '''
 def getTile():
-'''public Raster getTile(final int tileX, final int tileY)
-'''
-pass
+    '''    public Raster getTile(final int tileX, final int tileY)
+    '''

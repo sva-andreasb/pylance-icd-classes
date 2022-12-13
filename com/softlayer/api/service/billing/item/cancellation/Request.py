@@ -1,217 +1,163 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getItems():
-'''public List<Item> getItems()
-'''
-pass
+    '''    public List<Item> getItems()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final Status status)
-'''
-pass
+    '''    public void setStatus(final Status status)
+    '''
 def getTicket():
-'''public Ticket getTicket()
-'''
-pass
+    '''    public Ticket getTicket()
+    '''
 def setTicket():
-'''public void setTicket(final Ticket ticket)
-'''
-pass
+    '''    public void setTicket(final Ticket ticket)
+    '''
 def getUser():
-'''public Customer getUser()
-'''
-pass
+    '''    public Customer getUser()
+    '''
 def setUser():
-'''public void setUser(final Customer user)
-'''
-pass
+    '''    public void setUser(final Customer user)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getBillingCancelReasonId():
-'''public Long getBillingCancelReasonId()
-'''
-pass
+    '''    public Long getBillingCancelReasonId()
+    '''
 def setBillingCancelReasonId():
-'''public void setBillingCancelReasonId(final Long billingCancelReasonId)
-'''
-pass
+    '''    public void setBillingCancelReasonId(final Long billingCancelReasonId)
+    '''
 def isBillingCancelReasonIdSpecified():
-'''public boolean isBillingCancelReasonIdSpecified()
-'''
-pass
+    '''    public boolean isBillingCancelReasonIdSpecified()
+    '''
 def unsetBillingCancelReasonId():
-'''public void unsetBillingCancelReasonId()
-'''
-pass
+    '''    public void unsetBillingCancelReasonId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def isNotesSpecified():
-'''public boolean isNotesSpecified()
-'''
-pass
+    '''    public boolean isNotesSpecified()
+    '''
 def unsetNotes():
-'''public void unsetNotes()
-'''
-pass
+    '''    public void unsetNotes()
+    '''
 def getStatusId():
-'''public Long getStatusId()
-'''
-pass
+    '''    public Long getStatusId()
+    '''
 def setStatusId():
-'''public void setStatusId(final Long statusId)
-'''
-pass
+    '''    public void setStatusId(final Long statusId)
+    '''
 def isStatusIdSpecified():
-'''public boolean isStatusIdSpecified()
-'''
-pass
+    '''    public boolean isStatusIdSpecified()
+    '''
 def unsetStatusId():
-'''public void unsetStatusId()
-'''
-pass
+    '''    public void unsetStatusId()
+    '''
 def getTicketId():
-'''public Long getTicketId()
-'''
-pass
+    '''    public Long getTicketId()
+    '''
 def setTicketId():
-'''public void setTicketId(final Long ticketId)
-'''
-pass
+    '''    public void setTicketId(final Long ticketId)
+    '''
 def isTicketIdSpecified():
-'''public boolean isTicketIdSpecified()
-'''
-pass
+    '''    public boolean isTicketIdSpecified()
+    '''
 def unsetTicketId():
-'''public void unsetTicketId()
-'''
-pass
+    '''    public void unsetTicketId()
+    '''
 def getItemCount():
-'''public Long getItemCount()
-'''
-pass
+    '''    public Long getItemCount()
+    '''
 def setItemCount():
-'''public void setItemCount(final Long itemCount)
-'''
-pass
+    '''    public void setItemCount(final Long itemCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def billingCancelReasonId():
-'''public Mask billingCancelReasonId()
-'''
-pass
+    '''    public Mask billingCancelReasonId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def notes():
-'''public Mask notes()
-'''
-pass
+    '''    public Mask notes()
+    '''
 def statusId():
-'''public Mask statusId()
-'''
-pass
+    '''    public Mask statusId()
+    '''
 def ticketId():
-'''public Mask ticketId()
-'''
-pass
+    '''    public Mask ticketId()
+    '''
 def itemCount():
-'''public Mask itemCount()
-'''
-pass
+    '''    public Mask itemCount()
+    '''

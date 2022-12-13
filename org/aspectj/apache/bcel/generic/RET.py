@@ -1,36 +1,27 @@
 def RET():
-'''public RET(final int index, final boolean wide)
-'''
-pass
+    '''    public RET(final int index, final boolean wide)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def setIndex():
-'''public final void setIndex(final int index)
-'''
-pass
+    '''    public final void setIndex(final int index)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getType():
-'''public Type getType(final ConstantPool cp)
-'''
-pass
+    '''    public Type getType(final ConstantPool cp)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

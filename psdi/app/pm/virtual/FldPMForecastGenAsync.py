@@ -1,8 +1,6 @@
 def FldPMForecastGenAsync():
-'''public FldPMForecastGenAsync(final MboValue mbv)
-'''
-pass
+    '''    public FldPMForecastGenAsync(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

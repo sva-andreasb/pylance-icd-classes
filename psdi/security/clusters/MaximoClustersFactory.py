@@ -1,8 +1,6 @@
 def getInstance():
-'''public static MaximoClusters getInstance()
-'''
-pass
+    '''    public static MaximoClusters getInstance()
+    '''
 def isWebsphere():
-'''public static boolean isWebsphere()
-'''
-pass
+    '''    public static boolean isWebsphere()
+    '''

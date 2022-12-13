@@ -1,16 +1,12 @@
 def NumRangeDomain():
-'''public NumRangeDomain(final MboSet ms)
-'''
-pass
+    '''    public NumRangeDomain(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

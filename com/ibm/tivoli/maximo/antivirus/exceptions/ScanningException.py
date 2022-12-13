@@ -1,5 +1,4 @@
 def ScanningException():
-'''public ScanningException(final String error)
-public ScanningException(final String error, final Throwable exception)
-'''
-pass
+    '''    public ScanningException(final String error)
+    public ScanningException(final String error, final Throwable exception)
+    '''

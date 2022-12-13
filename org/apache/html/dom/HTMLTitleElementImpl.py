@@ -1,12 +1,9 @@
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setText():
-'''public void setText(final String s)
-'''
-pass
+    '''    public void setText(final String s)
+    '''
 def HTMLTitleElementImpl():
-'''public HTMLTitleElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLTitleElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

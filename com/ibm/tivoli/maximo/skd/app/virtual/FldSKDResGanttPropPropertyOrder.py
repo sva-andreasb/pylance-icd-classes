@@ -1,8 +1,6 @@
 def FldSKDResGanttPropPropertyOrder():
-'''public FldSKDResGanttPropPropertyOrder(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDResGanttPropPropertyOrder(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

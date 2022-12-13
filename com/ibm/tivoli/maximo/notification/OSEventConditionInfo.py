@@ -1,28 +1,21 @@
 def OSEventConditionInfo():
-'''public OSEventConditionInfo(final String attrName, final String operator, final String value, final String valueType, final String relationPath, final boolean modified)
-'''
-pass
+    '''    public OSEventConditionInfo(final String attrName, final String operator, final String value, final String valueType, final String relationPath, final boolean modified)
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def getAttrName():
-'''public String getAttrName()
-'''
-pass
+    '''    public String getAttrName()
+    '''
 def getOperator():
-'''public String getOperator()
-'''
-pass
+    '''    public String getOperator()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getValueType():
-'''public String getValueType()
-'''
-pass
+    '''    public String getValueType()
+    '''
 def getRelationPath():
-'''public String getRelationPath()
-'''
-pass
+    '''    public String getRelationPath()
+    '''

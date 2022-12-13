@@ -1,8 +1,6 @@
 def OSResourceRequestHandler():
-'''public OSResourceRequestHandler()
-'''
-pass
+    '''    public OSResourceRequestHandler()
+    '''
 def isCalculateETagBeforeSerialization():
-'''public boolean isCalculateETagBeforeSerialization(final Resource res, final ResourceRequest req)
-'''
-pass
+    '''    public boolean isCalculateETagBeforeSerialization(final Resource res, final ResourceRequest req)
+    '''

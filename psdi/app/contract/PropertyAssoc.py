@@ -1,4 +1,3 @@
 def PropertyAssoc():
-'''public PropertyAssoc(final MboSet ms)
-'''
-pass
+    '''    public PropertyAssoc(final MboSet ms)
+    '''

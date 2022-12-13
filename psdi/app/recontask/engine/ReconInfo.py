@@ -1,113 +1,85 @@
 def ReconInfo():
-'''public ReconInfo()
-public ReconInfo(final String dataSet1Name, final String dataSet2Name)
-'''
-pass
+    '''    public ReconInfo()
+    public ReconInfo(final String dataSet1Name, final String dataSet2Name)
+    '''
 def getDataSet1():
-'''public DataSet getDataSet1()
-'''
-pass
+    '''    public DataSet getDataSet1()
+    '''
 def getDataSet2():
-'''public DataSet getDataSet2()
-'''
-pass
+    '''    public DataSet getDataSet2()
+    '''
 def setDataSet1Name():
-'''public void setDataSet1Name(final String dataSet1Name)
-'''
-pass
+    '''    public void setDataSet1Name(final String dataSet1Name)
+    '''
 def setDataSet2Name():
-'''public void setDataSet2Name(final String dataSet2Name)
-'''
-pass
+    '''    public void setDataSet2Name(final String dataSet2Name)
+    '''
 def isCaseSensitive():
-'''public boolean isCaseSensitive()
-'''
-pass
+    '''    public boolean isCaseSensitive()
+    '''
 def setCaseSensitive():
-'''public void setCaseSensitive(final boolean isCaseSensitive)
-'''
-pass
+    '''    public void setCaseSensitive(final boolean isCaseSensitive)
+    '''
 def isDataSet1Leading():
-'''public boolean isDataSet1Leading()
-'''
-pass
+    '''    public boolean isDataSet1Leading()
+    '''
 def setDataSet1Leading():
-'''public void setDataSet1Leading(final boolean isDataSet1Leading)
-'''
-pass
+    '''    public void setDataSet1Leading(final boolean isDataSet1Leading)
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''
 def setLogger():
-'''public void setLogger(final MXLogger logger)
-'''
-pass
+    '''    public void setLogger(final MXLogger logger)
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def setSqlLogger():
-'''public void setSqlLogger(final MXLogger sqlLogger)
-'''
-pass
+    '''    public void setSqlLogger(final MXLogger sqlLogger)
+    '''
 def getLeadingDataSet():
-'''public DataSet getLeadingDataSet()
-'''
-pass
+    '''    public DataSet getLeadingDataSet()
+    '''
 def getSecondaryDataSet():
-'''public DataSet getSecondaryDataSet()
-'''
-pass
+    '''    public DataSet getSecondaryDataSet()
+    '''
 def getResultTimestampStr():
-'''public String getResultTimestampStr()
-'''
-pass
+    '''    public String getResultTimestampStr()
+    '''
 def getResultTimestamp():
-'''public Date getResultTimestamp()
-'''
-pass
+    '''    public Date getResultTimestamp()
+    '''
 def setResultTimestamp():
-'''public void setResultTimestamp(final Date resultTimestamp)
-'''
-pass
+    '''    public void setResultTimestamp(final Date resultTimestamp)
+    '''
 def getCronName():
-'''public String getCronName()
-'''
-pass
+    '''    public String getCronName()
+    '''
 def setCronName():
-'''public void setCronName(final String cronName)
-'''
-pass
+    '''    public void setCronName(final String cronName)
+    '''
 def getInstanceName():
-'''public String getInstanceName()
-'''
-pass
+    '''    public String getInstanceName()
+    '''
 def setInstanceName():
-'''public void setInstanceName(final String instanceName)
-'''
-pass
+    '''    public void setInstanceName(final String instanceName)
+    '''
 def getTaskMbo():
-'''public MboRemote getTaskMbo()
-'''
-pass
+    '''    public MboRemote getTaskMbo()
+    '''
 def setTaskMbo():
-'''public void setTaskMbo(final MboRemote taskMbo)
-'''
-pass
+    '''    public void setTaskMbo(final MboRemote taskMbo)
+    '''
 def getTaskName():
-'''public String getTaskName()
-'''
-pass
+    '''    public String getTaskName()
+    '''
 def setTaskName():
-'''public void setTaskName(final String taskName)
-'''
-pass
+    '''    public void setTaskName(final String taskName)
+    '''

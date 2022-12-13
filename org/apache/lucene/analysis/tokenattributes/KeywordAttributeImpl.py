@@ -1,28 +1,21 @@
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def copyTo():
-'''public void copyTo(final AttributeImpl target)
-'''
-pass
+    '''    public void copyTo(final AttributeImpl target)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def isKeyword():
-'''public boolean isKeyword()
-'''
-pass
+    '''    public boolean isKeyword()
+    '''
 def setKeyword():
-'''public void setKeyword(final boolean isKeyword)
-'''
-pass
+    '''    public void setKeyword(final boolean isKeyword)
+    '''
 def reflectWith():
-'''public void reflectWith(final AttributeReflector reflector)
-'''
-pass
+    '''    public void reflectWith(final AttributeReflector reflector)
+    '''

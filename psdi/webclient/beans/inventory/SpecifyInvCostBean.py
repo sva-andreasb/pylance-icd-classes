@@ -1,12 +1,9 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def refreshcostdate():
-'''public int refreshcostdate()
-'''
-pass
+    '''    public int refreshcostdate()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''

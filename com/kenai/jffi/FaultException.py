@@ -1,4 +1,3 @@
 def getSignal():
-'''public int getSignal()
-'''
-pass
+    '''    public int getSignal()
+    '''

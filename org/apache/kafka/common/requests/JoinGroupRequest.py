@@ -1,69 +1,52 @@
-UNKNOWN_MEMBER_ID = "String  "
+UNKNOWN_MEMBER_ID = "String  \"\""
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def JoinGroupRequest():
-'''public JoinGroupRequest(final Struct struct, final short versionId)
-'''
-pass
+    '''    public JoinGroupRequest(final Struct struct, final short versionId)
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def groupId():
-'''public String groupId()
-'''
-pass
+    '''    public String groupId()
+    '''
 def sessionTimeout():
-'''public int sessionTimeout()
-'''
-pass
+    '''    public int sessionTimeout()
+    '''
 def rebalanceTimeout():
-'''public int rebalanceTimeout()
-'''
-pass
+    '''    public int rebalanceTimeout()
+    '''
 def memberId():
-'''public String memberId()
-'''
-pass
+    '''    public String memberId()
+    '''
 def groupProtocols():
-'''public List<ProtocolMetadata> groupProtocols()
-'''
-pass
+    '''    public List<ProtocolMetadata> groupProtocols()
+    '''
 def protocolType():
-'''public String protocolType()
-'''
-pass
+    '''    public String protocolType()
+    '''
 def parse():
-'''public static JoinGroupRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static JoinGroupRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def ProtocolMetadata():
-'''public ProtocolMetadata(final String name, final ByteBuffer metadata)
-'''
-pass
+    '''    public ProtocolMetadata(final String name, final ByteBuffer metadata)
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def metadata():
-'''public ByteBuffer metadata()
-'''
-pass
+    '''    public ByteBuffer metadata()
+    '''
 def Builder():
-'''public Builder(final String groupId, final int sessionTimeout, final String memberId, final String protocolType, final List<ProtocolMetadata> groupProtocols)
-'''
-pass
+    '''    public Builder(final String groupId, final int sessionTimeout, final String memberId, final String protocolType, final List<ProtocolMetadata> groupProtocols)
+    '''
 def setRebalanceTimeout():
-'''public Builder setRebalanceTimeout(final int rebalanceTimeout)
-'''
-pass
+    '''    public Builder setRebalanceTimeout(final int rebalanceTimeout)
+    '''
 def build():
-'''public JoinGroupRequest build(final short version)
-'''
-pass
+    '''    public JoinGroupRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

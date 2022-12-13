@@ -1,28 +1,21 @@
 def MaxAppsSet():
-'''public MaxAppsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxAppsSet(final MboServerInterface ms)
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''
 def clearReusedOs():
-'''public void clearReusedOs()
-'''
-pass
+    '''    public void clearReusedOs()
+    '''
 def getReusedOs():
-'''public MboRemote getReusedOs(final String osName, final String optionName)
-'''
-pass
+    '''    public MboRemote getReusedOs(final String osName, final String optionName)
+    '''
 def setReusedOs():
-'''public void setReusedOs(final String osName, final String optionName, final MboRemote mbo)
-'''
-pass
+    '''    public void setReusedOs(final String osName, final String optionName, final MboRemote mbo)
+    '''
 def saveTransaction():
-'''public void saveTransaction(final MXTransaction txn)
-'''
-pass
+    '''    public void saveTransaction(final MXTransaction txn)
+    '''
 def fireEventsAfterDBCommit():
-'''public void fireEventsAfterDBCommit(final MXTransaction txn)
-'''
-pass
+    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''

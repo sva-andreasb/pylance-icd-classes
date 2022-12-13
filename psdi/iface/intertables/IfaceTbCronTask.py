@@ -1,49 +1,37 @@
-TEST_TABLE = "String  mxin_inter_trans""
+TEST_TABLE = "String  \"mxin_inter_trans\""
 def IfaceTbCronTask():
-'''public IfaceTbCronTask()
-'''
-pass
+    '''    public IfaceTbCronTask()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''
 def releaseDBResources():
-'''public void releaseDBResources()
-'''
-pass
+    '''    public void releaseDBResources()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def isOKToRun():
-'''public synchronized boolean isOKToRun(final MXServerRemote server)
-'''
-pass
+    '''    public synchronized boolean isOKToRun(final MXServerRemote server)
+    '''
 def isDBDown():
-'''public boolean isDBDown()
-'''
-pass
+    '''    public boolean isDBDown()
+    '''
 def processJoinedData():
-'''public void processJoinedData()
-'''
-pass
+    '''    public void processJoinedData()
+    '''
 def processIfaceData():
-'''public void processIfaceData()
-'''
-pass
+    '''    public void processIfaceData()
+    '''

@@ -1,32 +1,24 @@
 def DefaultRule():
-'''public DefaultRule()
-'''
-pass
+    '''    public DefaultRule()
+    '''
 def subset():
-'''public void subset(final List identities, final StringBuffer reason)
-'''
-pass
+    '''    public void subset(final List identities, final StringBuffer reason)
+    '''
 def registerRuleArbitrator():
-'''public void registerRuleArbitrator(final RuleArbitrator coordinator)
-'''
-pass
+    '''    public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''
 def registerNotificationType():
-'''public void registerNotificationType(final Identity instance, final String notificationType)
-'''
-pass
+    '''    public void registerNotificationType(final Identity instance, final String notificationType)
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clearArbitrators():
-'''public void clearArbitrators(final RuleArbitrator[] arbitratorArray)
-'''
-pass
+    '''    public void clearArbitrators(final RuleArbitrator[] arbitratorArray)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

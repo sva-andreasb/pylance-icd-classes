@@ -1,4 +1,3 @@
 def FldKBLinkedArticlesLinkedArticleId():
-'''public FldKBLinkedArticlesLinkedArticleId(final MboValue mbv)
-'''
-pass
+    '''    public FldKBLinkedArticlesLinkedArticleId(final MboValue mbv)
+    '''

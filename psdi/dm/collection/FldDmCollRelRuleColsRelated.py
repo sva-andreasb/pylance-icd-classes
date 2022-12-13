@@ -1,8 +1,6 @@
 def FldDmCollRelRuleColsRelated():
-'''public FldDmCollRelRuleColsRelated(final MboValue mbv)
-'''
-pass
+    '''    public FldDmCollRelRuleColsRelated(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

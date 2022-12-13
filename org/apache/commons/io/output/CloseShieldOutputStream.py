@@ -1,8 +1,6 @@
 def CloseShieldOutputStream():
-'''public CloseShieldOutputStream(final OutputStream out)
-'''
-pass
+    '''    public CloseShieldOutputStream(final OutputStream out)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

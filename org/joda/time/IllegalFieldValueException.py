@@ -1,50 +1,39 @@
 def IllegalFieldValueException():
-'''public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
-public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final String s)
-public IllegalFieldValueException(final DurationFieldType iDurationFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
-public IllegalFieldValueException(final String iFieldName, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
-public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final String iStringValue)
-public IllegalFieldValueException(final DurationFieldType iDurationFieldType, final String iStringValue)
-public IllegalFieldValueException(final String iFieldName, final String iStringValue)
-'''
-pass
+    '''    public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
+    public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final Number iNumberValue, final String s)
+    public IllegalFieldValueException(final DurationFieldType iDurationFieldType, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
+    public IllegalFieldValueException(final String iFieldName, final Number iNumberValue, final Number iLowerBound, final Number iUpperBound)
+    public IllegalFieldValueException(final DateTimeFieldType iDateTimeFieldType, final String iStringValue)
+    public IllegalFieldValueException(final DurationFieldType iDurationFieldType, final String iStringValue)
+    public IllegalFieldValueException(final String iFieldName, final String iStringValue)
+    '''
 def getDateTimeFieldType():
-'''public DateTimeFieldType getDateTimeFieldType()
-'''
-pass
+    '''    public DateTimeFieldType getDateTimeFieldType()
+    '''
 def getDurationFieldType():
-'''public DurationFieldType getDurationFieldType()
-'''
-pass
+    '''    public DurationFieldType getDurationFieldType()
+    '''
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def getIllegalNumberValue():
-'''public Number getIllegalNumberValue()
-'''
-pass
+    '''    public Number getIllegalNumberValue()
+    '''
 def getIllegalStringValue():
-'''public String getIllegalStringValue()
-'''
-pass
+    '''    public String getIllegalStringValue()
+    '''
 def getIllegalValueAsString():
-'''public String getIllegalValueAsString()
-'''
-pass
+    '''    public String getIllegalValueAsString()
+    '''
 def getLowerBound():
-'''public Number getLowerBound()
-'''
-pass
+    '''    public Number getLowerBound()
+    '''
 def getUpperBound():
-'''public Number getUpperBound()
-'''
-pass
+    '''    public Number getUpperBound()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def prependMessage():
-'''public void prependMessage(final String s)
-'''
-pass
+    '''    public void prependMessage(final String s)
+    '''

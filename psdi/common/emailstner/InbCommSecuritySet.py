@@ -1,4 +1,3 @@
 def InbCommSecuritySet():
-'''public InbCommSecuritySet(final MboServerInterface ms)
-'''
-pass
+    '''    public InbCommSecuritySet(final MboServerInterface ms)
+    '''

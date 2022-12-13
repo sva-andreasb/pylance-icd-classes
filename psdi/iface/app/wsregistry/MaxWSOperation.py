@@ -1,8 +1,6 @@
 def MaxWSOperation():
-'''public MaxWSOperation(final MboSet ms)
-'''
-pass
+    '''    public MaxWSOperation(final MboSet ms)
+    '''
 def createXML():
-'''public void createXML()
-'''
-pass
+    '''    public void createXML()
+    '''

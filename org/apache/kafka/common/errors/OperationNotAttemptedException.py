@@ -1,4 +1,3 @@
 def OperationNotAttemptedException():
-'''public OperationNotAttemptedException(final String message)
-'''
-pass
+    '''    public OperationNotAttemptedException(final String message)
+    '''

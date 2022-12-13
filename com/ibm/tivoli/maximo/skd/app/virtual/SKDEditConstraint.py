@@ -1,4 +1,3 @@
 def SKDEditConstraint():
-'''public SKDEditConstraint(final MboSet ms)
-'''
-pass
+    '''    public SKDEditConstraint(final MboSet ms)
+    '''

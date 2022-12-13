@@ -2,73 +2,56 @@ DEFAULT_EXPANSION = "int  -1"
 COLLAPSE = "int  0"
 EXPAND = "int  1"
 def TreeItem():
-'''public TreeItem(final Map.ID id, final HelpSet hs, final Locale locale)
-public TreeItem(final Map.ID id, final Locale locale)
-public TreeItem(final String name)
-public TreeItem()
-'''
-pass
+    '''    public TreeItem(final Map.ID id, final HelpSet hs, final Locale locale)
+    public TreeItem(final Map.ID id, final Locale locale)
+    public TreeItem(final String name)
+    public TreeItem()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setID():
-'''public void setID(final Map.ID id)
-'''
-pass
+    '''    public void setID(final Map.ID id)
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def setHelpSet():
-'''public void setHelpSet(final HelpSet hs)
-'''
-pass
+    '''    public void setHelpSet(final HelpSet hs)
+    '''
 def getHelpSet():
-'''public HelpSet getHelpSet()
-'''
-pass
+    '''    public HelpSet getHelpSet()
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def setMergeType():
-'''public void setMergeType(final String mergeType)
-'''
-pass
+    '''    public void setMergeType(final String mergeType)
+    '''
 def getMergeType():
-'''public String getMergeType()
-'''
-pass
+    '''    public String getMergeType()
+    '''
 def setExpansionType():
-'''public void setExpansionType(final int expand)
-'''
-pass
+    '''    public void setExpansionType(final int expand)
+    '''
 def getExpansionType():
-'''public int getExpansionType()
-'''
-pass
+    '''    public int getExpansionType()
+    '''
 def setPresentation():
-'''public void setPresentation(final String presentation)
-'''
-pass
+    '''    public void setPresentation(final String presentation)
+    '''
 def getPresentation():
-'''public String getPresentation()
-'''
-pass
+    '''    public String getPresentation()
+    '''
 def setPresentationName():
-'''public void setPresentationName(final String presentationName)
-'''
-pass
+    '''    public void setPresentationName(final String presentationName)
+    '''
 def getPresentationName():
-'''public String getPresentationName()
-'''
-pass
+    '''    public String getPresentationName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

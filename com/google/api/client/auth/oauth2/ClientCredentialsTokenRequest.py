@@ -1,28 +1,21 @@
 def ClientCredentialsTokenRequest():
-'''public ClientCredentialsTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest(final HttpTransport transport, final JsonFactory jsonFactory, final GenericUrl tokenServerUrl)
+    '''
 def setRequestInitializer():
-'''public ClientCredentialsTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''
 def setTokenServerUrl():
-'''public ClientCredentialsTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''
 def setScopes():
-'''public ClientCredentialsTokenRequest setScopes(final Collection<String> scopes)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest setScopes(final Collection<String> scopes)
+    '''
 def setGrantType():
-'''public ClientCredentialsTokenRequest setGrantType(final String grantType)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest setGrantType(final String grantType)
+    '''
 def setClientAuthentication():
-'''public ClientCredentialsTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''
 def set():
-'''public ClientCredentialsTokenRequest set(final String fieldName, final Object value)
-'''
-pass
+    '''    public ClientCredentialsTokenRequest set(final String fieldName, final Object value)
+    '''

@@ -1,12 +1,9 @@
 def OslcLinkDeleteCronTask():
-'''public OslcLinkDeleteCronTask()
-'''
-pass
+    '''    public OslcLinkDeleteCronTask()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

@@ -1,4 +1,3 @@
 def getServer():
-'''public List<LDAPServer> getServer()
-'''
-pass
+    '''    public List<LDAPServer> getServer()
+    '''

@@ -1,20 +1,15 @@
 def FldSetId():
-'''public FldSetId(final MboValue mbv)
-'''
-pass
+    '''    public FldSetId(final MboValue mbv)
+    '''
 def getCriteria():
-'''public String getCriteria()
-'''
-pass
+    '''    public String getCriteria()
+    '''
 def setCriteriaCOMPANY():
-'''public void setCriteriaCOMPANY()
-'''
-pass
+    '''    public void setCriteriaCOMPANY()
+    '''
 def setCriteriaITEM():
-'''public void setCriteriaITEM()
-'''
-pass
+    '''    public void setCriteriaITEM()
+    '''
 def setCriteriaALL():
-'''public void setCriteriaALL()
-'''
-pass
+    '''    public void setCriteriaALL()
+    '''

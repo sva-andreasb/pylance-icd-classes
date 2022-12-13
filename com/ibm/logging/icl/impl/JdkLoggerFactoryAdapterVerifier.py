@@ -1,4 +1,3 @@
 def isFactoryInstantiable():
-'''public boolean isFactoryInstantiable()
-'''
-pass
+    '''    public boolean isFactoryInstantiable()
+    '''

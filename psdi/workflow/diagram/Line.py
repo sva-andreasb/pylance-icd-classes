@@ -1,36 +1,27 @@
 def Line():
-'''public Line(final WorkflowRelationship rel, int x1, int y1, int x2, int y2)
-'''
-pass
+    '''    public Line(final WorkflowRelationship rel, int x1, int y1, int x2, int y2)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getRelationship():
-'''public WorkflowRelationship getRelationship()
-'''
-pass
+    '''    public WorkflowRelationship getRelationship()
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def isClose():
-'''public boolean isClose(final Point point)
-'''
-pass
+    '''    public boolean isClose(final Point point)
+    '''
 def overlap():
-'''public boolean overlap(final Line line)
-'''
-pass
+    '''    public boolean overlap(final Line line)
+    '''
 def intersect():
-'''public Point intersect(final Line line)
-'''
-pass
+    '''    public Point intersect(final Line line)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

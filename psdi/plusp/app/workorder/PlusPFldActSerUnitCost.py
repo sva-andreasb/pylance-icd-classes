@@ -1,8 +1,6 @@
 def PlusPFldActSerUnitCost():
-'''public PlusPFldActSerUnitCost(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldActSerUnitCost(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

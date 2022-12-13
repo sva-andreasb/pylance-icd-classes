@@ -1,28 +1,21 @@
 def PlusPPriceBookLineSet():
-'''public PlusPPriceBookLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPPriceBookLineSet(final MboServerInterface ms)
+    '''
 def containsKey():
-'''public boolean containsKey(final String[] array, final String[] array2)
-'''
-pass
+    '''    public boolean containsKey(final String[] array, final String[] array2)
+    '''
 def isRefreshed():
-'''public boolean isRefreshed()
-'''
-pass
+    '''    public boolean isRefreshed()
+    '''
 def setRefreshed():
-'''public void setRefreshed(final boolean refreshed)
-'''
-pass
+    '''    public void setRefreshed(final boolean refreshed)
+    '''
 def resetOriginalSet():
-'''public void resetOriginalSet()
-'''
-pass
+    '''    public void resetOriginalSet()
+    '''
 def previewChanges():
-'''public void previewChanges()
-'''
-pass
+    '''    public void previewChanges()
+    '''
 def setUpFactor():
-'''public double setUpFactor(final double n)
-'''
-pass
+    '''    public double setUpFactor(final double n)
+    '''

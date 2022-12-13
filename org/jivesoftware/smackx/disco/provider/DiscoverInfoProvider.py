@@ -1,4 +1,3 @@
 def parse():
-'''public DiscoverInfo parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public DiscoverInfo parse(final XmlPullParser parser, final int initialDepth)
+    '''

@@ -1,48 +1,36 @@
 def DiscoveryCronParam():
-'''public DiscoveryCronParam(final MboSet ms)
-'''
-pass
+    '''    public DiscoveryCronParam(final MboSet ms)
+    '''
 def setDiscoveryInstance():
-'''public void setDiscoveryInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setDiscoveryInstance(final CrontaskInstanceRemote inst)
+    '''
 def getDiscoveryInstance():
-'''public CrontaskInstanceRemote getDiscoveryInstance()
-'''
-pass
+    '''    public CrontaskInstanceRemote getDiscoveryInstance()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def validateSystemService():
-'''public static void validateSystemService(final String system, final String service)
-'''
-pass
+    '''    public static void validateSystemService(final String system, final String service)
+    '''
 def validateScope():
-'''public static void validateScope(final String scope)
-'''
-pass
+    '''    public static void validateScope(final String scope)
+    '''
 def validateTargets():
-'''public static boolean validateTargets(final String[] targets)
-'''
-pass
+    '''    public static boolean validateTargets(final String[] targets)
+    '''
 def validatePart():
-'''public static boolean validatePart(final String part, final String separator)
-'''
-pass
+    '''    public static boolean validatePart(final String part, final String separator)
+    '''
 def validateAction():
-'''public static void validateAction(final String instance, final String action)
-'''
-pass
+    '''    public static void validateAction(final String instance, final String action)
+    '''
 def checkOrgAndSite():
-'''public static void checkOrgAndSite(final String activeInstance)
-'''
-pass
+    '''    public static void checkOrgAndSite(final String activeInstance)
+    '''

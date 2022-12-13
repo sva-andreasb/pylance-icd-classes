@@ -1,4 +1,3 @@
 def POSet():
-'''public POSet(final MboServerInterface ms)
-'''
-pass
+    '''    public POSet(final MboServerInterface ms)
+    '''

@@ -1,5 +1,4 @@
 def ByteArrayHolder():
-'''public ByteArrayHolder()
-public ByteArrayHolder(final byte[] value)
-'''
-pass
+    '''    public ByteArrayHolder()
+    public ByteArrayHolder(final byte[] value)
+    '''

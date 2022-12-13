@@ -1,26 +1,20 @@
 def OMDataSourceExtBase():
-'''public OMDataSourceExtBase()
-'''
-pass
+    '''    public OMDataSourceExtBase()
+    '''
 def getProperty():
-'''public Object getProperty(final String key)
-'''
-pass
+    '''    public Object getProperty(final String key)
+    '''
 def setProperty():
-'''public Object setProperty(final String key, final Object value)
-'''
-pass
+    '''    public Object setProperty(final String key, final Object value)
+    '''
 def hasProperty():
-'''public boolean hasProperty(final String key)
-'''
-pass
+    '''    public boolean hasProperty(final String key)
+    '''
 def getXMLInputStream():
-'''public InputStream getXMLInputStream(final String encoding)
-'''
-pass
+    '''    public InputStream getXMLInputStream(final String encoding)
+    '''
 def serialize():
-'''public void serialize(final OutputStream output, final OMOutputFormat format)
-public void serialize(final Writer writer, final OMOutputFormat format)
-public void serialize(final XMLStreamWriter xmlWriter)
-'''
-pass
+    '''    public void serialize(final OutputStream output, final OMOutputFormat format)
+    public void serialize(final Writer writer, final OMOutputFormat format)
+    public void serialize(final XMLStreamWriter xmlWriter)
+    '''

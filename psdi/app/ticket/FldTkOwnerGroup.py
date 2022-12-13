@@ -1,8 +1,6 @@
 def FldTkOwnerGroup():
-'''public FldTkOwnerGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldTkOwnerGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

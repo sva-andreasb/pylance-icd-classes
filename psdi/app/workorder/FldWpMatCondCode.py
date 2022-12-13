@@ -1,8 +1,6 @@
 def FldWpMatCondCode():
-'''public FldWpMatCondCode(final MboValue mbv)
-'''
-pass
+    '''    public FldWpMatCondCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

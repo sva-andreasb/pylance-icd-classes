@@ -1,26 +1,20 @@
 sid = "short  60"
 def ContinueRecord():
-'''public ContinueRecord(final byte[] data)
-public ContinueRecord(final RecordInputStream in)
-'''
-pass
+    '''    public ContinueRecord(final byte[] data)
+    public ContinueRecord(final RecordInputStream in)
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public ContinueRecord clone()
-'''
-pass
+    '''    public ContinueRecord clone()
+    '''

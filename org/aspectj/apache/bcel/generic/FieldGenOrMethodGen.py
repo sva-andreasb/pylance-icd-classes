@@ -1,60 +1,45 @@
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getConstantPool():
-'''public ConstantPool getConstantPool()
-'''
-pass
+    '''    public ConstantPool getConstantPool()
+    '''
 def setConstantPool():
-'''public void setConstantPool(final ConstantPool cp)
-'''
-pass
+    '''    public void setConstantPool(final ConstantPool cp)
+    '''
 def addAttribute():
-'''public void addAttribute(final Attribute a)
-'''
-pass
+    '''    public void addAttribute(final Attribute a)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final Attribute a)
-'''
-pass
+    '''    public void removeAttribute(final Attribute a)
+    '''
 def removeAttributes():
-'''public void removeAttributes()
-'''
-pass
+    '''    public void removeAttributes()
+    '''
 def getAnnotations():
-'''public List<AnnotationGen> getAnnotations()
-'''
-pass
+    '''    public List<AnnotationGen> getAnnotations()
+    '''
 def addAnnotation():
-'''public void addAnnotation(final AnnotationGen ag)
-'''
-pass
+    '''    public void addAnnotation(final AnnotationGen ag)
+    '''
 def removeAnnotation():
-'''public void removeAnnotation(final AnnotationGen ag)
-'''
-pass
+    '''    public void removeAnnotation(final AnnotationGen ag)
+    '''
 def removeAnnotations():
-'''public void removeAnnotations()
-'''
-pass
+    '''    public void removeAnnotations()
+    '''
 def getAttributes():
-'''public List<Attribute> getAttributes()
-'''
-pass
+    '''    public List<Attribute> getAttributes()
+    '''
 def getAttributesImmutable():
-'''public Attribute[] getAttributesImmutable()
-'''
-pass
+    '''    public Attribute[] getAttributesImmutable()
+    '''

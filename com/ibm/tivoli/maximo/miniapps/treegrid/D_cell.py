@@ -1,2 +1,2 @@
-NodeName = "String  D_cell""
-MaxChars = "String  MaxChars""
+NodeName = "String  \"D_cell\""
+MaxChars = "String  \"MaxChars\""

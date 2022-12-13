@@ -1,4 +1,3 @@
 def WeatherAttrSet():
-'''public WeatherAttrSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WeatherAttrSet(final MboServerInterface ms)
+    '''

@@ -1,32 +1,25 @@
-URL = "String  URL""
-CLIENTID = "String  CLIENTID""
-SECRET = "String  SECRET""
+URL = "String  \"URL\""
+CLIENTID = "String  \"CLIENTID\""
+SECRET = "String  \"SECRET\""
 def WAHandler():
-'''public WAHandler(final MaxEndPointInfo endPointInfo)
-public WAHandler()
-'''
-pass
+    '''    public WAHandler(final MaxEndPointInfo endPointInfo)
+    public WAHandler()
+    '''
 def invoke():
-'''public byte[] invoke(final Map metaData, byte[] data)
-'''
-pass
+    '''    public byte[] invoke(final Map metaData, byte[] data)
+    '''
 def getProperties():
-'''public List<RouterPropsInfo> getProperties()
-'''
-pass
+    '''    public List<RouterPropsInfo> getProperties()
+    '''
 def getClientID():
-'''public String getClientID()
-'''
-pass
+    '''    public String getClientID()
+    '''
 def getSecret():
-'''public String getSecret()
-'''
-pass
+    '''    public String getSecret()
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''

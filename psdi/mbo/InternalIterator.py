@@ -1,16 +1,12 @@
 def InternalIterator():
-'''public InternalIterator(final Iterator iterator)
-'''
-pass
+    '''    public InternalIterator(final Iterator iterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

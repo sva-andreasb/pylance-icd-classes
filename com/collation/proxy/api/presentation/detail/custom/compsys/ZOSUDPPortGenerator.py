@@ -1,4 +1,3 @@
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''

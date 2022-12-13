@@ -1,255 +1,197 @@
 def now():
-'''public static LocalTime now()
-public static LocalTime now(final DateTimeZone dateTimeZone)
-public static LocalTime now(final Chronology chronology)
-'''
-pass
+    '''    public static LocalTime now()
+    public static LocalTime now(final DateTimeZone dateTimeZone)
+    public static LocalTime now(final Chronology chronology)
+    '''
 def parse():
-'''public static LocalTime parse(final String s)
-public static LocalTime parse(final String s, final DateTimeFormatter dateTimeFormatter)
-'''
-pass
+    '''    public static LocalTime parse(final String s)
+    public static LocalTime parse(final String s, final DateTimeFormatter dateTimeFormatter)
+    '''
 def fromMillisOfDay():
-'''public static LocalTime fromMillisOfDay(final long n)
-public static LocalTime fromMillisOfDay(final long n, Chronology withUTC)
-'''
-pass
+    '''    public static LocalTime fromMillisOfDay(final long n)
+    public static LocalTime fromMillisOfDay(final long n, Chronology withUTC)
+    '''
 def fromCalendarFields():
-'''public static LocalTime fromCalendarFields(final Calendar calendar)
-'''
-pass
+    '''    public static LocalTime fromCalendarFields(final Calendar calendar)
+    '''
 def fromDateFields():
-'''public static LocalTime fromDateFields(final Date date)
-'''
-pass
+    '''    public static LocalTime fromDateFields(final Date date)
+    '''
 def LocalTime():
-'''public LocalTime()
-public LocalTime(final DateTimeZone dateTimeZone)
-public LocalTime(final Chronology chronology)
-public LocalTime(final long n)
-public LocalTime(final long n, final DateTimeZone dateTimeZone)
-public LocalTime(final long n, Chronology iChronology)
-public LocalTime(final Object o)
-public LocalTime(final Object o, final DateTimeZone dateTimeZone)
-public LocalTime(final Object o, Chronology chronology)
-public LocalTime(final int n, final int n2)
-public LocalTime(final int n, final int n2, final int n3)
-public LocalTime(final int n, final int n2, final int n3, final int n4)
-public LocalTime(final int n, final int n2, final int n3, final int n4, Chronology withUTC)
-'''
-pass
+    '''    public LocalTime()
+    public LocalTime(final DateTimeZone dateTimeZone)
+    public LocalTime(final Chronology chronology)
+    public LocalTime(final long n)
+    public LocalTime(final long n, final DateTimeZone dateTimeZone)
+    public LocalTime(final long n, Chronology iChronology)
+    public LocalTime(final Object o)
+    public LocalTime(final Object o, final DateTimeZone dateTimeZone)
+    public LocalTime(final Object o, Chronology chronology)
+    public LocalTime(final int n, final int n2)
+    public LocalTime(final int n, final int n2, final int n3)
+    public LocalTime(final int n, final int n2, final int n3, final int n4)
+    public LocalTime(final int n, final int n2, final int n3, final int n4, Chronology withUTC)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getValue():
-'''public int getValue(final int i)
-'''
-pass
+    '''    public int getValue(final int i)
+    '''
 def get():
-'''public int get(final DateTimeFieldType obj)
-'''
-pass
+    '''    public int get(final DateTimeFieldType obj)
+    '''
 def isSupported():
-'''public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
-public boolean isSupported(final DurationFieldType durationFieldType)
-'''
-pass
+    '''    public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
+    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''
 def getChronology():
-'''public Chronology getChronology()
-'''
-pass
+    '''    public Chronology getChronology()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def compareTo():
-'''public int compareTo(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public int compareTo(final ReadablePartial readablePartial)
+    '''
 def withFields():
-'''public LocalTime withFields(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public LocalTime withFields(final ReadablePartial readablePartial)
+    '''
 def withField():
-'''public LocalTime withField(final DateTimeFieldType obj, final int n)
-'''
-pass
+    '''    public LocalTime withField(final DateTimeFieldType obj, final int n)
+    '''
 def withFieldAdded():
-'''public LocalTime withFieldAdded(final DurationFieldType obj, final int n)
-'''
-pass
+    '''    public LocalTime withFieldAdded(final DurationFieldType obj, final int n)
+    '''
 def withPeriodAdded():
-'''public LocalTime withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
-'''
-pass
+    '''    public LocalTime withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''
 def plus():
-'''public LocalTime plus(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public LocalTime plus(final ReadablePeriod readablePeriod)
+    '''
 def plusHours():
-'''public LocalTime plusHours(final int n)
-'''
-pass
+    '''    public LocalTime plusHours(final int n)
+    '''
 def plusMinutes():
-'''public LocalTime plusMinutes(final int n)
-'''
-pass
+    '''    public LocalTime plusMinutes(final int n)
+    '''
 def plusSeconds():
-'''public LocalTime plusSeconds(final int n)
-'''
-pass
+    '''    public LocalTime plusSeconds(final int n)
+    '''
 def plusMillis():
-'''public LocalTime plusMillis(final int n)
-'''
-pass
+    '''    public LocalTime plusMillis(final int n)
+    '''
 def minus():
-'''public LocalTime minus(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public LocalTime minus(final ReadablePeriod readablePeriod)
+    '''
 def minusHours():
-'''public LocalTime minusHours(final int n)
-'''
-pass
+    '''    public LocalTime minusHours(final int n)
+    '''
 def minusMinutes():
-'''public LocalTime minusMinutes(final int n)
-'''
-pass
+    '''    public LocalTime minusMinutes(final int n)
+    '''
 def minusSeconds():
-'''public LocalTime minusSeconds(final int n)
-'''
-pass
+    '''    public LocalTime minusSeconds(final int n)
+    '''
 def minusMillis():
-'''public LocalTime minusMillis(final int n)
-'''
-pass
+    '''    public LocalTime minusMillis(final int n)
+    '''
 def property():
-'''public Property property(final DateTimeFieldType obj)
-'''
-pass
+    '''    public Property property(final DateTimeFieldType obj)
+    '''
 def getHourOfDay():
-'''public int getHourOfDay()
-'''
-pass
+    '''    public int getHourOfDay()
+    '''
 def getMinuteOfHour():
-'''public int getMinuteOfHour()
-'''
-pass
+    '''    public int getMinuteOfHour()
+    '''
 def getSecondOfMinute():
-'''public int getSecondOfMinute()
-'''
-pass
+    '''    public int getSecondOfMinute()
+    '''
 def getMillisOfSecond():
-'''public int getMillisOfSecond()
-'''
-pass
+    '''    public int getMillisOfSecond()
+    '''
 def getMillisOfDay():
-'''public int getMillisOfDay()
-'''
-pass
+    '''    public int getMillisOfDay()
+    '''
 def withHourOfDay():
-'''public LocalTime withHourOfDay(final int n)
-'''
-pass
+    '''    public LocalTime withHourOfDay(final int n)
+    '''
 def withMinuteOfHour():
-'''public LocalTime withMinuteOfHour(final int n)
-'''
-pass
+    '''    public LocalTime withMinuteOfHour(final int n)
+    '''
 def withSecondOfMinute():
-'''public LocalTime withSecondOfMinute(final int n)
-'''
-pass
+    '''    public LocalTime withSecondOfMinute(final int n)
+    '''
 def withMillisOfSecond():
-'''public LocalTime withMillisOfSecond(final int n)
-'''
-pass
+    '''    public LocalTime withMillisOfSecond(final int n)
+    '''
 def withMillisOfDay():
-'''public LocalTime withMillisOfDay(final int n)
-'''
-pass
+    '''    public LocalTime withMillisOfDay(final int n)
+    '''
 def hourOfDay():
-'''public Property hourOfDay()
-'''
-pass
+    '''    public Property hourOfDay()
+    '''
 def minuteOfHour():
-'''public Property minuteOfHour()
-'''
-pass
+    '''    public Property minuteOfHour()
+    '''
 def secondOfMinute():
-'''public Property secondOfMinute()
-'''
-pass
+    '''    public Property secondOfMinute()
+    '''
 def millisOfSecond():
-'''public Property millisOfSecond()
-'''
-pass
+    '''    public Property millisOfSecond()
+    '''
 def millisOfDay():
-'''public Property millisOfDay()
-'''
-pass
+    '''    public Property millisOfDay()
+    '''
 def toDateTimeToday():
-'''public DateTime toDateTimeToday()
-public DateTime toDateTimeToday(final DateTimeZone dateTimeZone)
-'''
-pass
+    '''    public DateTime toDateTimeToday()
+    public DateTime toDateTimeToday(final DateTimeZone dateTimeZone)
+    '''
 def toString():
-'''public String toString()
-public String toString(final String s)
-public String toString(final String s, final Locale locale)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String s)
+    public String toString(final String s, final Locale locale)
+    '''
 def getField():
-'''public DateTimeField getField()
-'''
-pass
+    '''    public DateTimeField getField()
+    '''
 def getLocalTime():
-'''public LocalTime getLocalTime()
-'''
-pass
+    '''    public LocalTime getLocalTime()
+    '''
 def addCopy():
-'''public LocalTime addCopy(final int n)
-public LocalTime addCopy(final long n)
-'''
-pass
+    '''    public LocalTime addCopy(final int n)
+    public LocalTime addCopy(final long n)
+    '''
 def addNoWrapToCopy():
-'''public LocalTime addNoWrapToCopy(final int n)
-'''
-pass
+    '''    public LocalTime addNoWrapToCopy(final int n)
+    '''
 def addWrapFieldToCopy():
-'''public LocalTime addWrapFieldToCopy(final int n)
-'''
-pass
+    '''    public LocalTime addWrapFieldToCopy(final int n)
+    '''
 def setCopy():
-'''public LocalTime setCopy(final int n)
-public LocalTime setCopy(final String s, final Locale locale)
-public LocalTime setCopy(final String s)
-'''
-pass
+    '''    public LocalTime setCopy(final int n)
+    public LocalTime setCopy(final String s, final Locale locale)
+    public LocalTime setCopy(final String s)
+    '''
 def withMaximumValue():
-'''public LocalTime withMaximumValue()
-'''
-pass
+    '''    public LocalTime withMaximumValue()
+    '''
 def withMinimumValue():
-'''public LocalTime withMinimumValue()
-'''
-pass
+    '''    public LocalTime withMinimumValue()
+    '''
 def roundFloorCopy():
-'''public LocalTime roundFloorCopy()
-'''
-pass
+    '''    public LocalTime roundFloorCopy()
+    '''
 def roundCeilingCopy():
-'''public LocalTime roundCeilingCopy()
-'''
-pass
+    '''    public LocalTime roundCeilingCopy()
+    '''
 def roundHalfFloorCopy():
-'''public LocalTime roundHalfFloorCopy()
-'''
-pass
+    '''    public LocalTime roundHalfFloorCopy()
+    '''
 def roundHalfCeilingCopy():
-'''public LocalTime roundHalfCeilingCopy()
-'''
-pass
+    '''    public LocalTime roundHalfCeilingCopy()
+    '''
 def roundHalfEvenCopy():
-'''public LocalTime roundHalfEvenCopy()
-'''
-pass
+    '''    public LocalTime roundHalfEvenCopy()
+    '''

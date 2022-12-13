@@ -1,2 +1,2 @@
-TOP = "String  top""
-BOTTOM = "String  bottom""
+TOP = "String  \"top\""
+BOTTOM = "String  \"bottom\""

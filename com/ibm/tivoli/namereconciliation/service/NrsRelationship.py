@@ -1,68 +1,51 @@
 def getGUID():
-'''public byte[] getGUID()
-'''
-pass
+    '''    public byte[] getGUID()
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def getRelType():
-'''public String getRelType()
-'''
-pass
+    '''    public String getRelType()
+    '''
 def getSourceGUID():
-'''public byte[] getSourceGUID()
-'''
-pass
+    '''    public byte[] getSourceGUID()
+    '''
 def getSourceClassGUID():
-'''public byte[] getSourceClassGUID()
-'''
-pass
+    '''    public byte[] getSourceClassGUID()
+    '''
 def getTargetGUID():
-'''public byte[] getTargetGUID()
-'''
-pass
+    '''    public byte[] getTargetGUID()
+    '''
 def getTargetClassGUID():
-'''public byte[] getTargetClassGUID()
-'''
-pass
+    '''    public byte[] getTargetClassGUID()
+    '''
 def getCreateTimestamp():
-'''public Timestamp getCreateTimestamp()
-'''
-pass
+    '''    public Timestamp getCreateTimestamp()
+    '''
 def setGUID():
-'''public void setGUID(final byte[] guid)
-'''
-pass
+    '''    public void setGUID(final byte[] guid)
+    '''
 def setLabel():
-'''public void setLabel(final String string)
-'''
-pass
+    '''    public void setLabel(final String string)
+    '''
 def setRelType():
-'''public void setRelType(final String type)
-'''
-pass
+    '''    public void setRelType(final String type)
+    '''
 def setSourceGUID():
-'''public void setSourceGUID(final byte[] guid)
-'''
-pass
+    '''    public void setSourceGUID(final byte[] guid)
+    '''
 def setSourceClassGUID():
-'''public void setSourceClassGUID(final byte[] guid)
-'''
-pass
+    '''    public void setSourceClassGUID(final byte[] guid)
+    '''
 def setTargetGUID():
-'''public void setTargetGUID(final byte[] guid)
-'''
-pass
+    '''    public void setTargetGUID(final byte[] guid)
+    '''
 def setTargetClassGUID():
-'''public void setTargetClassGUID(final byte[] guid)
-'''
-pass
+    '''    public void setTargetClassGUID(final byte[] guid)
+    '''
 def setCreateTimestamp():
-'''public void setCreateTimestamp(final Timestamp timestamp)
-'''
-pass
+    '''    public void setCreateTimestamp(final Timestamp timestamp)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

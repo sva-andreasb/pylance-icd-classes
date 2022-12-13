@@ -1,21 +1,16 @@
 def getMsgErrHandler():
-'''public MessageErrorHandler getMsgErrHandler(final String queue)
-'''
-pass
+    '''    public MessageErrorHandler getMsgErrHandler(final String queue)
+    '''
 def refreshErrorHandlers():
-'''public void refreshErrorHandlers()
-'''
-pass
+    '''    public void refreshErrorHandlers()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''

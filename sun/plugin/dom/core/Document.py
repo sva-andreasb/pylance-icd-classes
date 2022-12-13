@@ -1,64 +1,48 @@
 def getDoctype():
-'''public DocumentType getDoctype()
-'''
-pass
+    '''    public DocumentType getDoctype()
+    '''
 def getImplementation():
-'''public DOMImplementation getImplementation()
-'''
-pass
+    '''    public DOMImplementation getImplementation()
+    '''
 def createDocumentFragment():
-'''public DocumentFragment createDocumentFragment()
-'''
-pass
+    '''    public DocumentFragment createDocumentFragment()
+    '''
 def createTextNode():
-'''public Text createTextNode(final String s)
-'''
-pass
+    '''    public Text createTextNode(final String s)
+    '''
 def createComment():
-'''public Comment createComment(final String s)
-'''
-pass
+    '''    public Comment createComment(final String s)
+    '''
 def createCDATASection():
-'''public CDATASection createCDATASection(final String s)
-'''
-pass
+    '''    public CDATASection createCDATASection(final String s)
+    '''
 def createProcessingInstruction():
-'''public ProcessingInstruction createProcessingInstruction(final String s, final String s2)
-'''
-pass
+    '''    public ProcessingInstruction createProcessingInstruction(final String s, final String s2)
+    '''
 def createAttribute():
-'''public Attr createAttribute(final String s)
-'''
-pass
+    '''    public Attr createAttribute(final String s)
+    '''
 def createEntityReference():
-'''public EntityReference createEntityReference(final String s)
-'''
-pass
+    '''    public EntityReference createEntityReference(final String s)
+    '''
 def createElementNS():
-'''public Element createElementNS(final String s, final String s2)
-'''
-pass
+    '''    public Element createElementNS(final String s, final String s2)
+    '''
 def createAttributeNS():
-'''public Attr createAttributeNS(final String s, final String s2)
-'''
-pass
+    '''    public Attr createAttributeNS(final String s, final String s2)
+    '''
 def getElementsByTagNameNS():
-'''public NodeList getElementsByTagNameNS(final String s, final String s2)
-'''
-pass
+    '''    public NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String s)
-'''
-pass
+    '''    public void setNodeValue(final String s)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''

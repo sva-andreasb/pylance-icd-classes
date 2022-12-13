@@ -1,4 +1,3 @@
 def parse():
-'''public RosterVer parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public RosterVer parse(final XmlPullParser parser, final int initialDepth)
+    '''

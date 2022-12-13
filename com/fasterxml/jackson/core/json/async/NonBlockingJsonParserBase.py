@@ -1,66 +1,50 @@
 def NonBlockingJsonParserBase():
-'''public NonBlockingJsonParserBase(final IOContext ctxt, final int parserFeatures, final ByteQuadsCanonicalizer sym)
-'''
-pass
+    '''    public NonBlockingJsonParserBase(final IOContext ctxt, final int parserFeatures, final ByteQuadsCanonicalizer sym)
+    '''
 def getCodec():
-'''public ObjectCodec getCodec()
-'''
-pass
+    '''    public ObjectCodec getCodec()
+    '''
 def setCodec():
-'''public void setCodec(final ObjectCodec c)
-'''
-pass
+    '''    public void setCodec(final ObjectCodec c)
+    '''
 def canParseAsync():
-'''public boolean canParseAsync()
-'''
-pass
+    '''    public boolean canParseAsync()
+    '''
 def getInputSource():
-'''public Object getInputSource()
-'''
-pass
+    '''    public Object getInputSource()
+    '''
 def hasTextCharacters():
-'''public boolean hasTextCharacters()
-'''
-pass
+    '''    public boolean hasTextCharacters()
+    '''
 def getCurrentLocation():
-'''public JsonLocation getCurrentLocation()
-'''
-pass
+    '''    public JsonLocation getCurrentLocation()
+    '''
 def getTokenLocation():
-'''public JsonLocation getTokenLocation()
-'''
-pass
+    '''    public JsonLocation getTokenLocation()
+    '''
 def getText():
-'''public String getText()
-public int getText(final Writer writer)
-'''
-pass
+    '''    public String getText()
+    public int getText(final Writer writer)
+    '''
 def getValueAsString():
-'''public String getValueAsString()
-public String getValueAsString(final String defValue)
-'''
-pass
+    '''    public String getValueAsString()
+    public String getValueAsString(final String defValue)
+    '''
 def getTextCharacters():
-'''public char[] getTextCharacters()
-'''
-pass
+    '''    public char[] getTextCharacters()
+    '''
 def getTextLength():
-'''public int getTextLength()
-'''
-pass
+    '''    public int getTextLength()
+    '''
 def getTextOffset():
-'''public int getTextOffset()
-'''
-pass
+    '''    public int getTextOffset()
+    '''
 def getBinaryValue():
-'''public byte[] getBinaryValue(final Base64Variant b64variant)
-'''
-pass
+    '''    public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''
 def readBinaryValue():
-'''public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
-'''
-pass
+    '''    public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
+    '''
 def getEmbeddedObject():
-'''public Object getEmbeddedObject()
-'''
-pass
+    '''    public Object getEmbeddedObject()
+    '''

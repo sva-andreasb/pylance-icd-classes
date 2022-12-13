@@ -1,8 +1,6 @@
 def newFactory():
-'''public static EngineConfigurationFactory newFactory(final Object param)
-'''
-pass
+    '''    public static EngineConfigurationFactory newFactory(final Object param)
+    '''
 def getServerEngineConfig():
-'''public EngineConfiguration getServerEngineConfig()
-'''
-pass
+    '''    public EngineConfiguration getServerEngineConfig()
+    '''

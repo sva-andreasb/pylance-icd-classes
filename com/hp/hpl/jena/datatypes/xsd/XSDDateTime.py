@@ -4,59 +4,45 @@ DAY_MASK = "short  4"
 TIME_MASK = "short  8"
 FULL_MASK = "short  15"
 def XSDDateTime():
-'''public XSDDateTime(final Object value, final int mask)
-public XSDDateTime(final Calendar date)
-'''
-pass
+    '''    public XSDDateTime(final Object value, final int mask)
+    public XSDDateTime(final Calendar date)
+    '''
 def getNarrowedDatatype():
-'''public XSDDatatype getNarrowedDatatype()
-'''
-pass
+    '''    public XSDDatatype getNarrowedDatatype()
+    '''
 def narrowType():
-'''public void narrowType(final XSDDatatype dt)
-'''
-pass
+    '''    public void narrowType(final XSDDatatype dt)
+    '''
 def asCalendar():
-'''public Calendar asCalendar()
-'''
-pass
+    '''    public Calendar asCalendar()
+    '''
 def getYears():
-'''public int getYears()
-'''
-pass
+    '''    public int getYears()
+    '''
 def getMonths():
-'''public int getMonths()
-'''
-pass
+    '''    public int getMonths()
+    '''
 def getDays():
-'''public int getDays()
-'''
-pass
+    '''    public int getDays()
+    '''
 def getHours():
-'''public int getHours()
-'''
-pass
+    '''    public int getHours()
+    '''
 def getMinutes():
-'''public int getMinutes()
-'''
-pass
+    '''    public int getMinutes()
+    '''
 def getFullSeconds():
-'''public int getFullSeconds()
-'''
-pass
+    '''    public int getFullSeconds()
+    '''
 def getSeconds():
-'''public double getSeconds()
-'''
-pass
+    '''    public double getSeconds()
+    '''
 def getTimePart():
-'''public double getTimePart()
-'''
-pass
+    '''    public double getTimePart()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def timeLexicalForm():
-'''public String timeLexicalForm()
-'''
-pass
+    '''    public String timeLexicalForm()
+    '''

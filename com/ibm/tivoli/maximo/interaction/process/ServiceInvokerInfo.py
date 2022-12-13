@@ -1,32 +1,24 @@
 def ServiceInvokerInfo():
-'''public ServiceInvokerInfo(final String channelName, final String reqRelation, final String respRelation, final int action, final String endPointName, final String extSystem, final String operation)
-'''
-pass
+    '''    public ServiceInvokerInfo(final String channelName, final String reqRelation, final String respRelation, final int action, final String endPointName, final String extSystem, final String operation)
+    '''
 def getChannelName():
-'''public String getChannelName()
-'''
-pass
+    '''    public String getChannelName()
+    '''
 def getReqRelation():
-'''public String getReqRelation()
-'''
-pass
+    '''    public String getReqRelation()
+    '''
 def getRespRelation():
-'''public String getRespRelation()
-'''
-pass
+    '''    public String getRespRelation()
+    '''
 def getAction():
-'''public int getAction()
-'''
-pass
+    '''    public int getAction()
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def getExtSystem():
-'''public String getExtSystem()
-'''
-pass
+    '''    public String getExtSystem()
+    '''
 def getOperation():
-'''public String getOperation()
-'''
-pass
+    '''    public String getOperation()
+    '''

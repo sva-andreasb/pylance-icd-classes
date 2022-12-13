@@ -1,5 +1,4 @@
 def MonitorSettingException():
-'''public MonitorSettingException()
-public MonitorSettingException(final String s)
-'''
-pass
+    '''    public MonitorSettingException()
+    public MonitorSettingException(final String s)
+    '''

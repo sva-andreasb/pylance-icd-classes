@@ -1,21 +1,16 @@
 def DeploymentBase():
-'''public DeploymentBase()
-public DeploymentBase(final String name, final DeploymentContext ctx)
-'''
-pass
+    '''    public DeploymentBase()
+    public DeploymentBase(final String name, final DeploymentContext ctx)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setContext():
-'''public void setContext(final DeploymentContext ctx)
-'''
-pass
+    '''    public void setContext(final DeploymentContext ctx)
+    '''
 def getContext():
-'''public DeploymentContext getContext()
-'''
-pass
+    '''    public DeploymentContext getContext()
+    '''

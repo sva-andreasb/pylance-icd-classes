@@ -1,4 +1,3 @@
 def ContractProperty():
-'''public ContractProperty(final MboSet ms)
-'''
-pass
+    '''    public ContractProperty(final MboSet ms)
+    '''

@@ -1,72 +1,54 @@
 def getDiskImage():
-'''public Image getDiskImage()
-'''
-pass
+    '''    public Image getDiskImage()
+    '''
 def setDiskImage():
-'''public void setDiskImage(final Image diskImage)
-'''
-pass
+    '''    public void setDiskImage(final Image diskImage)
+    '''
 def getPasswords():
-'''public List<Password> getPasswords()
-'''
-pass
+    '''    public List<Password> getPasswords()
+    '''
 def getSoftwareDescription():
-'''public Description getSoftwareDescription()
-'''
-pass
+    '''    public Description getSoftwareDescription()
+    '''
 def setSoftwareDescription():
-'''public void setSoftwareDescription(final Description softwareDescription)
-'''
-pass
+    '''    public void setSoftwareDescription(final Description softwareDescription)
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getSoftwareDescriptionId():
-'''public Long getSoftwareDescriptionId()
-'''
-pass
+    '''    public Long getSoftwareDescriptionId()
+    '''
 def setSoftwareDescriptionId():
-'''public void setSoftwareDescriptionId(final Long softwareDescriptionId)
-'''
-pass
+    '''    public void setSoftwareDescriptionId(final Long softwareDescriptionId)
+    '''
 def isSoftwareDescriptionIdSpecified():
-'''public boolean isSoftwareDescriptionIdSpecified()
-'''
-pass
+    '''    public boolean isSoftwareDescriptionIdSpecified()
+    '''
 def unsetSoftwareDescriptionId():
-'''public void unsetSoftwareDescriptionId()
-'''
-pass
+    '''    public void unsetSoftwareDescriptionId()
+    '''
 def getPasswordCount():
-'''public Long getPasswordCount()
-'''
-pass
+    '''    public Long getPasswordCount()
+    '''
 def setPasswordCount():
-'''public void setPasswordCount(final Long passwordCount)
-'''
-pass
+    '''    public void setPasswordCount(final Long passwordCount)
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def softwareDescriptionId():
-'''public Mask softwareDescriptionId()
-'''
-pass
+    '''    public Mask softwareDescriptionId()
+    '''
 def passwordCount():
-'''public Mask passwordCount()
-'''
-pass
+    '''    public Mask passwordCount()
+    '''

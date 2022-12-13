@@ -1,16 +1,12 @@
 def isCondition():
-'''public boolean isCondition()
-'''
-pass
+    '''    public boolean isCondition()
+    '''
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def asBuilder():
-'''public Builder asBuilder()
-'''
-pass
+    '''    public Builder asBuilder()
+    '''
 def build():
-'''public DefaultArbiter build()
-'''
-pass
+    '''    public DefaultArbiter build()
+    '''

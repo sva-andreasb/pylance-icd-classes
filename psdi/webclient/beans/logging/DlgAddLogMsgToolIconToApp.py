@@ -1,12 +1,9 @@
 def addlogmsgicontoapp():
-'''public int addlogmsgicontoapp()
-'''
-pass
+    '''    public int addlogmsgicontoapp()
+    '''
 def selectall():
-'''public int selectall()
-'''
-pass
+    '''    public int selectall()
+    '''
 def unselectall():
-'''public int unselectall()
-'''
-pass
+    '''    public int unselectall()
+    '''

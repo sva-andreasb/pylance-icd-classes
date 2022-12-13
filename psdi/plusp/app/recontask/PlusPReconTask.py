@@ -1,12 +1,9 @@
 def PlusPReconTask():
-'''public PlusPReconTask(final MboSet arg0)
-'''
-pass
+    '''    public PlusPReconTask(final MboSet arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''

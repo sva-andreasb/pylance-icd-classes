@@ -1,24 +1,18 @@
 def EndpointInfo():
-'''public EndpointInfo(final String serviceName, final String epUrl, final String soapAction, final String bindingType, final String mep)
-'''
-pass
+    '''    public EndpointInfo(final String serviceName, final String epUrl, final String soapAction, final String bindingType, final String mep)
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getEpUrl():
-'''public String getEpUrl()
-'''
-pass
+    '''    public String getEpUrl()
+    '''
 def getSoapAction():
-'''public String getSoapAction()
-'''
-pass
+    '''    public String getSoapAction()
+    '''
 def getMep():
-'''public String getMep()
-'''
-pass
+    '''    public String getMep()
+    '''
 def getBindingType():
-'''public String getBindingType()
-'''
-pass
+    '''    public String getBindingType()
+    '''

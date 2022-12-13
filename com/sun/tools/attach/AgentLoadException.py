@@ -1,5 +1,4 @@
 def AgentLoadException():
-'''public AgentLoadException()
-public AgentLoadException(final String message)
-'''
-pass
+    '''    public AgentLoadException()
+    public AgentLoadException(final String message)
+    '''

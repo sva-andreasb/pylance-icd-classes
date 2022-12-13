@@ -1,20 +1,15 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def MBeanFeatureInfo():
-'''public MBeanFeatureInfo(final String name, final String description)
-'''
-pass
+    '''    public MBeanFeatureInfo(final String name, final String description)
+    '''

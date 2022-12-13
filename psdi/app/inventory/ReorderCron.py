@@ -1,60 +1,45 @@
 def ReorderCron():
-'''public ReorderCron()
-'''
-pass
+    '''    public ReorderCron()
+    '''
 def getStoreRoomList():
-'''public String[][] getStoreRoomList()
-'''
-pass
+    '''    public String[][] getStoreRoomList()
+    '''
 def getDirectIssueSites():
-'''public String[] getDirectIssueSites()
-'''
-pass
+    '''    public String[] getDirectIssueSites()
+    '''
 def getLeadTime():
-'''public int getLeadTime()
-'''
-pass
+    '''    public int getLeadTime()
+    '''
 def getUseAgreement():
-'''public boolean getUseAgreement()
-'''
-pass
+    '''    public boolean getUseAgreement()
+    '''
 def getToEmail():
-'''public String getToEmail()
-'''
-pass
+    '''    public String getToEmail()
+    '''
 def getFromEmail():
-'''public String getFromEmail()
-'''
-pass
+    '''    public String getFromEmail()
+    '''
 def getLogFilePath():
-'''public String getLogFilePath()
-'''
-pass
+    '''    public String getLogFilePath()
+    '''
 def getInoreReorderPoint():
-'''public boolean getInoreReorderPoint()
-'''
-pass
+    '''    public boolean getInoreReorderPoint()
+    '''
 def getReorderSoft():
-'''public boolean getReorderSoft()
-'''
-pass
+    '''    public boolean getReorderSoft()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def readConfig():
-'''public void readConfig()
-'''
-pass
+    '''    public void readConfig()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def getParameterValidationMbo():
-'''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
-'''
-pass
+    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''

@@ -1,4 +1,3 @@
 def Alias():
-'''public Alias(final String path)
-'''
-pass
+    '''    public Alias(final String path)
+    '''

@@ -1,20 +1,15 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def GENLOGPROP():
-'''public int GENLOGPROP()
-'''
-pass
+    '''    public int GENLOGPROP()
+    '''
 def APPLY():
-'''public int APPLY()
-'''
-pass
+    '''    public int APPLY()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def LAUNCHLTA():
-'''public int LAUNCHLTA()
-'''
-pass
+    '''    public int LAUNCHLTA()
+    '''

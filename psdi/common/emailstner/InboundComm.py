@@ -1,92 +1,69 @@
 def InboundComm():
-'''public InboundComm(final MboSet ms)
-'''
-pass
+    '''    public InboundComm(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setFormatMode():
-'''public void setFormatMode(final int type)
-'''
-pass
+    '''    public void setFormatMode(final int type)
+    '''
 def getFormatMode():
-'''public int getFormatMode()
-'''
-pass
+    '''    public int getFormatMode()
+    '''
 def setSenderSecurityType():
-'''public void setSenderSecurityType(final int type)
-'''
-pass
+    '''    public void setSenderSecurityType(final int type)
+    '''
 def getSenderSecurityType():
-'''public int getSenderSecurityType()
-'''
-pass
+    '''    public int getSenderSecurityType()
+    '''
 def setFreeFormAction():
-'''public void setFreeFormAction(final String action)
-'''
-pass
+    '''    public void setFreeFormAction(final String action)
+    '''
 def getFreeFormAction():
-'''public String getFreeFormAction()
-'''
-pass
+    '''    public String getFreeFormAction()
+    '''
 def setQueryWhereClause():
-'''public void setQueryWhereClause(final String str)
-'''
-pass
+    '''    public void setQueryWhereClause(final String str)
+    '''
 def getQueryWhereClause():
-'''public String getQueryWhereClause()
-'''
-pass
+    '''    public String getQueryWhereClause()
+    '''
 def setResultColumn():
-'''public void setResultColumn(final String str)
-'''
-pass
+    '''    public void setResultColumn(final String str)
+    '''
 def getResultColumn():
-'''public String getResultColumn()
-'''
-pass
+    '''    public String getResultColumn()
+    '''
 def setAppName():
-'''public void setAppName(final String str)
-'''
-pass
+    '''    public void setAppName(final String str)
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def setNewStatusValue():
-'''public void setNewStatusValue(final String str)
-'''
-pass
+    '''    public void setNewStatusValue(final String str)
+    '''
 def getNewStatusValue():
-'''public String getNewStatusValue()
-'''
-pass
+    '''    public String getNewStatusValue()
+    '''
 def setAttrHash():
-'''public void setAttrHash(final Hashtable ht)
-'''
-pass
+    '''    public void setAttrHash(final Hashtable ht)
+    '''
 def getAttrHash():
-'''public Hashtable getAttrHash()
-'''
-pass
+    '''    public Hashtable getAttrHash()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def getCommLogOwnerNameAndUniqueId():
-'''public Object[] getCommLogOwnerNameAndUniqueId()
-'''
-pass
+    '''    public Object[] getCommLogOwnerNameAndUniqueId()
+    '''
 def setCommLogOwnerNameAndUniqueId():
-'''public void setCommLogOwnerNameAndUniqueId(final Object[] obj)
-'''
-pass
+    '''    public void setCommLogOwnerNameAndUniqueId(final Object[] obj)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

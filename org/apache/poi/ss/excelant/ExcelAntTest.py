@@ -1,60 +1,45 @@
 def ExcelAntTest():
-'''public ExcelAntTest()
-'''
-pass
+    '''    public ExcelAntTest()
+    '''
 def setPrecision():
-'''public void setPrecision(final double precision)
-'''
-pass
+    '''    public void setPrecision(final double precision)
+    '''
 def setWorkbookUtil():
-'''public void setWorkbookUtil(final ExcelAntWorkbookUtil wbUtil)
-'''
-pass
+    '''    public void setWorkbookUtil(final ExcelAntWorkbookUtil wbUtil)
+    '''
 def setShowFailureDetail():
-'''public void setShowFailureDetail(final boolean value)
-'''
-pass
+    '''    public void setShowFailureDetail(final boolean value)
+    '''
 def setName():
-'''public void setName(final String nm)
-'''
-pass
+    '''    public void setName(final String nm)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setShowSuccessDetails():
-'''public void setShowSuccessDetails(final boolean details)
-'''
-pass
+    '''    public void setShowSuccessDetails(final boolean details)
+    '''
 def showSuccessDetails():
-'''public boolean showSuccessDetails()
-'''
-pass
+    '''    public boolean showSuccessDetails()
+    '''
 def addSetDouble():
-'''public void addSetDouble(final ExcelAntSetDoubleCell setter)
-'''
-pass
+    '''    public void addSetDouble(final ExcelAntSetDoubleCell setter)
+    '''
 def addSetString():
-'''public void addSetString(final ExcelAntSetStringCell setter)
-'''
-pass
+    '''    public void addSetString(final ExcelAntSetStringCell setter)
+    '''
 def addSetFormula():
-'''public void addSetFormula(final ExcelAntSetFormulaCell setter)
-'''
-pass
+    '''    public void addSetFormula(final ExcelAntSetFormulaCell setter)
+    '''
 def addHandler():
-'''public void addHandler(final ExcelAntHandlerTask handler)
-'''
-pass
+    '''    public void addHandler(final ExcelAntHandlerTask handler)
+    '''
 def addEvaluate():
-'''public void addEvaluate(final ExcelAntEvaluateCell evaluator)
-'''
-pass
+    '''    public void addEvaluate(final ExcelAntEvaluateCell evaluator)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def didTestPass():
-'''public boolean didTestPass()
-'''
-pass
+    '''    public boolean didTestPass()
+    '''

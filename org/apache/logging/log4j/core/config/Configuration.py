@@ -1,1 +1,1 @@
-CONTEXT_PROPERTIES = "String  ContextProperties""
+CONTEXT_PROPERTIES = "String  \"ContextProperties\""

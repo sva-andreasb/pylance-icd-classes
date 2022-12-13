@@ -1,9 +1,7 @@
 def PlusPFldPriceEffDate():
-'''public PlusPFldPriceEffDate()
-public PlusPFldPriceEffDate(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceEffDate()
+    public PlusPFldPriceEffDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

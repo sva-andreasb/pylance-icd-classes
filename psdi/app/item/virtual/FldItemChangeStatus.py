@@ -1,8 +1,6 @@
 def FldItemChangeStatus():
-'''public FldItemChangeStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldItemChangeStatus(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

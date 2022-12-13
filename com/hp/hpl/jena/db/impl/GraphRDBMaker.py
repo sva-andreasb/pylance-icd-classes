@@ -1,46 +1,35 @@
 def GraphRDBMaker():
-'''public GraphRDBMaker(final IDBConnection c, final ReificationStyle style)
-'''
-pass
+    '''    public GraphRDBMaker(final IDBConnection c, final ReificationStyle style)
+    '''
 def accept():
-'''public boolean accept(final String x)
-'''
-pass
+    '''    public boolean accept(final String x)
+    '''
 def getGraph():
-'''public Graph getGraph()
-'''
-pass
+    '''    public Graph getGraph()
+    '''
 def openGraph():
-'''public Graph openGraph()
-public Graph openGraph(final String name, final boolean strict)
-'''
-pass
+    '''    public Graph openGraph()
+    public Graph openGraph(final String name, final boolean strict)
+    '''
 def createGraph():
-'''public Graph createGraph()
-public Graph createGraph(final String name, final boolean strict)
-'''
-pass
+    '''    public Graph createGraph()
+    public Graph createGraph(final String name, final boolean strict)
+    '''
 def freshGraphName():
-'''public String freshGraphName()
-'''
-pass
+    '''    public String freshGraphName()
+    '''
 def removeGraph():
-'''public void removeGraph(final String name)
-'''
-pass
+    '''    public void removeGraph(final String name)
+    '''
 def hasGraph():
-'''public boolean hasGraph(final String name)
-'''
-pass
+    '''    public boolean hasGraph(final String name)
+    '''
 def removeAll():
-'''public void removeAll()
-'''
-pass
+    '''    public void removeAll()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def listGraphs():
-'''public ExtendedIterator<String> listGraphs()
-'''
-pass
+    '''    public ExtendedIterator<String> listGraphs()
+    '''

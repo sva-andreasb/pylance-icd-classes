@@ -1,8 +1,6 @@
 def exceptionClosure():
-'''public static <E> Closure<E> exceptionClosure()
-'''
-pass
+    '''    public static <E> Closure<E> exceptionClosure()
+    '''
 def execute():
-'''public void execute(final E input)
-'''
-pass
+    '''    public void execute(final E input)
+    '''

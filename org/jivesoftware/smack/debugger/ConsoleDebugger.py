@@ -1,64 +1,48 @@
 def ConsoleDebugger():
-'''public ConsoleDebugger(final Connection connection, final Writer writer, final Reader reader)
-'''
-pass
+    '''    public ConsoleDebugger(final Connection connection, final Writer writer, final Reader reader)
+    '''
 def read():
-'''public void read(final String str)
-'''
-pass
+    '''    public void read(final String str)
+    '''
 def write():
-'''public void write(final String str)
-'''
-pass
+    '''    public void write(final String str)
+    '''
 def processPacket():
-'''public void processPacket(final Packet packet)
-'''
-pass
+    '''    public void processPacket(final Packet packet)
+    '''
 def connectionClosed():
-'''public void connectionClosed()
-'''
-pass
+    '''    public void connectionClosed()
+    '''
 def connectionClosedOnError():
-'''public void connectionClosedOnError(final Exception e)
-'''
-pass
+    '''    public void connectionClosedOnError(final Exception e)
+    '''
 def reconnectionFailed():
-'''public void reconnectionFailed(final Exception e)
-'''
-pass
+    '''    public void reconnectionFailed(final Exception e)
+    '''
 def reconnectionSuccessful():
-'''public void reconnectionSuccessful()
-'''
-pass
+    '''    public void reconnectionSuccessful()
+    '''
 def reconnectingIn():
-'''public void reconnectingIn(final int seconds)
-'''
-pass
+    '''    public void reconnectingIn(final int seconds)
+    '''
 def newConnectionReader():
-'''public Reader newConnectionReader(final Reader newReader)
-'''
-pass
+    '''    public Reader newConnectionReader(final Reader newReader)
+    '''
 def newConnectionWriter():
-'''public Writer newConnectionWriter(final Writer newWriter)
-'''
-pass
+    '''    public Writer newConnectionWriter(final Writer newWriter)
+    '''
 def userHasLogged():
-'''public void userHasLogged(final String user)
-'''
-pass
+    '''    public void userHasLogged(final String user)
+    '''
 def getReader():
-'''public Reader getReader()
-'''
-pass
+    '''    public Reader getReader()
+    '''
 def getWriter():
-'''public Writer getWriter()
-'''
-pass
+    '''    public Writer getWriter()
+    '''
 def getReaderListener():
-'''public PacketListener getReaderListener()
-'''
-pass
+    '''    public PacketListener getReaderListener()
+    '''
 def getWriterListener():
-'''public PacketListener getWriterListener()
-'''
-pass
+    '''    public PacketListener getWriterListener()
+    '''

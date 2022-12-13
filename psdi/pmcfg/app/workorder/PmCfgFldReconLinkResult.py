@@ -1,4 +1,3 @@
 def PmCfgFldReconLinkResult():
-'''public PmCfgFldReconLinkResult(final MboValue mbv)
-'''
-pass
+    '''    public PmCfgFldReconLinkResult(final MboValue mbv)
+    '''

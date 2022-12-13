@@ -1,12 +1,9 @@
 def EnumeratedIterator():
-'''public EnumeratedIterator(final Iterator i)
-'''
-pass
+    '''    public EnumeratedIterator(final Iterator i)
+    '''
 def hasMoreElements():
-'''public final boolean hasMoreElements()
-'''
-pass
+    '''    public final boolean hasMoreElements()
+    '''
 def nextElement():
-'''public final Object nextElement()
-'''
-pass
+    '''    public final Object nextElement()
+    '''

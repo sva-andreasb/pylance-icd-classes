@@ -1,8 +1,6 @@
 def OortMBean():
-'''public OortMBean(final Object managedObject)
-'''
-pass
+    '''    public OortMBean(final Object managedObject)
+    '''
 def getObservedChannels():
-'''public Set<String> getObservedChannels()
-'''
-pass
+    '''    public Set<String> getObservedChannels()
+    '''

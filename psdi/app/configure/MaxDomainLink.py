@@ -1,8 +1,6 @@
 def MaxDomainLink():
-'''public MaxDomainLink(final MboSet ms)
-'''
-pass
+    '''    public MaxDomainLink(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

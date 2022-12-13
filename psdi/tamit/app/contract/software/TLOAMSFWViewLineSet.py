@@ -1,4 +1,3 @@
 def TLOAMSFWViewLineSet():
-'''public TLOAMSFWViewLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TLOAMSFWViewLineSet(final MboServerInterface ms)
+    '''

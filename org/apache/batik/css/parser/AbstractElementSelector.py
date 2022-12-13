@@ -1,8 +1,6 @@
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''

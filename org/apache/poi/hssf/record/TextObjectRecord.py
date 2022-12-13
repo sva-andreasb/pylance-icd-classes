@@ -12,63 +12,48 @@ TEXT_ORIENTATION_TOP_TO_BOTTOM = "short  1"
 TEXT_ORIENTATION_ROT_RIGHT = "short  2"
 TEXT_ORIENTATION_ROT_LEFT = "short  3"
 def TextObjectRecord():
-'''public TextObjectRecord()
-public TextObjectRecord(final RecordInputStream in)
-'''
-pass
+    '''    public TextObjectRecord()
+    public TextObjectRecord(final RecordInputStream in)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def setHorizontalTextAlignment():
-'''public void setHorizontalTextAlignment(final int value)
-'''
-pass
+    '''    public void setHorizontalTextAlignment(final int value)
+    '''
 def getHorizontalTextAlignment():
-'''public int getHorizontalTextAlignment()
-'''
-pass
+    '''    public int getHorizontalTextAlignment()
+    '''
 def setVerticalTextAlignment():
-'''public void setVerticalTextAlignment(final int value)
-'''
-pass
+    '''    public void setVerticalTextAlignment(final int value)
+    '''
 def getVerticalTextAlignment():
-'''public int getVerticalTextAlignment()
-'''
-pass
+    '''    public int getVerticalTextAlignment()
+    '''
 def setTextLocked():
-'''public void setTextLocked(final boolean value)
-'''
-pass
+    '''    public void setTextLocked(final boolean value)
+    '''
 def isTextLocked():
-'''public boolean isTextLocked()
-'''
-pass
+    '''    public boolean isTextLocked()
+    '''
 def getTextOrientation():
-'''public int getTextOrientation()
-'''
-pass
+    '''    public int getTextOrientation()
+    '''
 def setTextOrientation():
-'''public void setTextOrientation(final int textOrientation)
-'''
-pass
+    '''    public void setTextOrientation(final int textOrientation)
+    '''
 def getStr():
-'''public HSSFRichTextString getStr()
-'''
-pass
+    '''    public HSSFRichTextString getStr()
+    '''
 def setStr():
-'''public void setStr(final HSSFRichTextString str)
-'''
-pass
+    '''    public void setStr(final HSSFRichTextString str)
+    '''
 def getLinkRefPtg():
-'''public Ptg getLinkRefPtg()
-'''
-pass
+    '''    public Ptg getLinkRefPtg()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

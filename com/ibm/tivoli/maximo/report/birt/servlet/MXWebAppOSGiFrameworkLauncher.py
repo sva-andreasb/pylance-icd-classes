@@ -1,16 +1,12 @@
 def MXWebAppOSGiFrameworkLauncher():
-'''public MXWebAppOSGiFrameworkLauncher()
-'''
-pass
+    '''    public MXWebAppOSGiFrameworkLauncher()
+    '''
 def deploy():
-'''public synchronized void deploy()
-'''
-pass
+    '''    public synchronized void deploy()
+    '''
 def start():
-'''public synchronized void start()
-'''
-pass
+    '''    public synchronized void start()
+    '''
 def stop():
-'''public synchronized void stop()
-'''
-pass
+    '''    public synchronized void stop()
+    '''

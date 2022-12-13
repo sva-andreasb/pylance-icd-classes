@@ -1,51 +1,39 @@
 def MaxRole():
-'''public MaxRole(final MboSet ms)
-'''
-pass
+    '''    public MaxRole(final MboSet ms)
+    '''
 def setFieldFlags():
-'''public void setFieldFlags()
-'''
-pass
+    '''    public void setFieldFlags()
+    '''
 def resolveRole():
-'''public PersonSetRemote resolveRole(final MboRemote mbo)
-public PersonSetRemote resolveRole(final MboRemote mbo, final boolean skipemail)
-public PersonSetRemote resolveRole(MboRemote mbo, final boolean skipemail, final boolean treatNoCalAsAvailable)
-'''
-pass
+    '''    public PersonSetRemote resolveRole(final MboRemote mbo)
+    public PersonSetRemote resolveRole(final MboRemote mbo, final boolean skipemail)
+    public PersonSetRemote resolveRole(MboRemote mbo, final boolean skipemail, final boolean treatNoCalAsAvailable)
+    '''
 def getGroupPeople():
-'''public PersonSetRemote getGroupPeople(final PersonGroupRemote group, final MboRemote mbo)
-public PersonSetRemote getGroupPeople(final PersonGroupRemote group, final MboRemote mbo, final boolean treatNoCalAsAvailable)
-'''
-pass
+    '''    public PersonSetRemote getGroupPeople(final PersonGroupRemote group, final MboRemote mbo)
+    public PersonSetRemote getGroupPeople(final PersonGroupRemote group, final MboRemote mbo, final boolean treatNoCalAsAvailable)
+    '''
 def getPerson():
-'''public PersonSetRemote getPerson(final String pid)
-'''
-pass
+    '''    public PersonSetRemote getPerson(final String pid)
+    '''
 def personEmail():
-'''public String personEmail(final MboRemote person)
-'''
-pass
+    '''    public String personEmail(final MboRemote person)
+    '''
 def resolveToEmail():
-'''public String[] resolveToEmail(MboRemote mbo)
-'''
-pass
+    '''    public String[] resolveToEmail(MboRemote mbo)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def isAttribute():
-'''public boolean isAttribute(String value)
-'''
-pass
+    '''    public boolean isAttribute(String value)
+    '''

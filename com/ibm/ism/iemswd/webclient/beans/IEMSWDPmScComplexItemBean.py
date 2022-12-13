@@ -1,12 +1,9 @@
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def clearall():
-'''public int clearall()
-'''
-pass
+    '''    public int clearall()
+    '''
 def deleteRow():
-'''public int deleteRow()
-'''
-pass
+    '''    public int deleteRow()
+    '''

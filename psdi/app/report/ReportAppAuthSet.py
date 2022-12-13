@@ -1,4 +1,3 @@
 def ReportAppAuthSet():
-'''public ReportAppAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportAppAuthSet(final MboServerInterface ms)
+    '''

@@ -1,12 +1,9 @@
 def CoreOperation():
-'''public CoreOperation(final Expression[] args)
-'''
-pass
+    '''    public CoreOperation(final Expression[] args)
+    '''
 def compute():
-'''public Object compute(final EvalContext context)
-'''
-pass
+    '''    public Object compute(final EvalContext context)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

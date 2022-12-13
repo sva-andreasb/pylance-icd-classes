@@ -1,8 +1,6 @@
 def SRMInboundProcessingPMSCCRSR():
-'''public SRMInboundProcessingPMSCCRSR()
-'''
-pass
+    '''    public SRMInboundProcessingPMSCCRSR()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

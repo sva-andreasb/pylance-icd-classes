@@ -1,16 +1,12 @@
 def KerberosShortNamer():
-'''public KerberosShortNamer(final List<KerberosRule> principalToLocalRules)
-'''
-pass
+    '''    public KerberosShortNamer(final List<KerberosRule> principalToLocalRules)
+    '''
 def fromUnparsedRules():
-'''public static KerberosShortNamer fromUnparsedRules(final String defaultRealm, final List<String> principalToLocalRules)
-'''
-pass
+    '''    public static KerberosShortNamer fromUnparsedRules(final String defaultRealm, final List<String> principalToLocalRules)
+    '''
 def shortName():
-'''public String shortName(final KerberosName kerberosName)
-'''
-pass
+    '''    public String shortName(final KerberosName kerberosName)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

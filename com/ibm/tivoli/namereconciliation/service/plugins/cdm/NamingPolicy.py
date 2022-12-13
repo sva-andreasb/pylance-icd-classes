@@ -1,56 +1,42 @@
 def NamingPolicy():
-'''public NamingPolicy()
-'''
-pass
+    '''    public NamingPolicy()
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def setGuid():
-'''public void setGuid(final Guid guid)
-'''
-pass
+    '''    public void setGuid(final Guid guid)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getNamingRules():
-'''public List<NamingRule> getNamingRules()
-'''
-pass
+    '''    public List<NamingRule> getNamingRules()
+    '''
 def setRequiresSuperior():
-'''public void setRequiresSuperior(final boolean requiresSuperior)
-'''
-pass
+    '''    public void setRequiresSuperior(final boolean requiresSuperior)
+    '''
 def addNamingRule():
-'''public void addNamingRule(final NamingRule rule)
-'''
-pass
+    '''    public void addNamingRule(final NamingRule rule)
+    '''
 def addNamingRules():
-'''public void addNamingRules(final Collection<NamingRule> rules)
-'''
-pass
+    '''    public void addNamingRules(final Collection<NamingRule> rules)
+    '''
 def matchTheseAttributes():
-'''public List<NamingRule> matchTheseAttributes(final Collection<String> identifyingAttributes)
-'''
-pass
+    '''    public List<NamingRule> matchTheseAttributes(final Collection<String> identifyingAttributes)
+    '''
 def getNamingRulesSize():
-'''public int getNamingRulesSize()
-'''
-pass
+    '''    public int getNamingRulesSize()
+    '''
 def requiresSuperior():
-'''public boolean requiresSuperior()
-'''
-pass
+    '''    public boolean requiresSuperior()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final NamingPolicy np)
-'''
-pass
+    '''    public boolean equals(final NamingPolicy np)
+    '''

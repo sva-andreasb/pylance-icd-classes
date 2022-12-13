@@ -1,60 +1,46 @@
 def Method():
-'''public Method()
-public Method(final Method c)
-public Method(final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool)
-'''
-pass
+    '''    public Method()
+    public Method(final Method c)
+    public Method(final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''
 def getCode():
-'''public final Code getCode()
-'''
-pass
+    '''    public final Code getCode()
+    '''
 def getExceptionTable():
-'''public final ExceptionTable getExceptionTable()
-'''
-pass
+    '''    public final ExceptionTable getExceptionTable()
+    '''
 def getLocalVariableTable():
-'''public final LocalVariableTable getLocalVariableTable()
-'''
-pass
+    '''    public final LocalVariableTable getLocalVariableTable()
+    '''
 def getLineNumberTable():
-'''public final LineNumberTable getLineNumberTable()
-'''
-pass
+    '''    public final LineNumberTable getLineNumberTable()
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def copy():
-'''public final Method copy(final ConstantPool _constant_pool)
-'''
-pass
+    '''    public final Method copy(final ConstantPool _constant_pool)
+    '''
 def getReturnType():
-'''public Type getReturnType()
-'''
-pass
+    '''    public Type getReturnType()
+    '''
 def getArgumentTypes():
-'''public Type[] getArgumentTypes()
-'''
-pass
+    '''    public Type[] getArgumentTypes()
+    '''
 def getComparator():
-'''public static BCELComparator getComparator()
-'''
-pass
+    '''    public static BCELComparator getComparator()
+    '''
 def setComparator():
-'''public static void setComparator(final BCELComparator comparator)
-'''
-pass
+    '''    public static void setComparator(final BCELComparator comparator)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-public boolean equals(final Object o1, final Object o2)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    public boolean equals(final Object o1, final Object o2)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode(final Object o)
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode(final Object o)
+    '''

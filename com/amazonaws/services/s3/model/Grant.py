@@ -1,24 +1,18 @@
 def Grant():
-'''public Grant(final Grantee grantee, final Permission permission)
-'''
-pass
+    '''    public Grant(final Grantee grantee, final Permission permission)
+    '''
 def getGrantee():
-'''public Grantee getGrantee()
-'''
-pass
+    '''    public Grantee getGrantee()
+    '''
 def getPermission():
-'''public Permission getPermission()
-'''
-pass
+    '''    public Permission getPermission()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

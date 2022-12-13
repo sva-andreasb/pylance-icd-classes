@@ -1,4 +1,3 @@
 def DPANetDeviceSet():
-'''public DPANetDeviceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DPANetDeviceSet(final MboServerInterface ms)
+    '''

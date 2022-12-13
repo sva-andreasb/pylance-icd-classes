@@ -1,8 +1,6 @@
 def ActivitySelectionEvent():
-'''public ActivitySelectionEvent(final IlvActivity ilvActivity, final boolean b)
-'''
-pass
+    '''    public ActivitySelectionEvent(final IlvActivity ilvActivity, final boolean b)
+    '''
 def getActivity():
-'''public IlvActivity getActivity()
-'''
-pass
+    '''    public IlvActivity getActivity()
+    '''

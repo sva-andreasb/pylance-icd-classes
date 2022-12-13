@@ -1,16 +1,12 @@
 def DETAILREP():
-'''public int DETAILREP()
-'''
-pass
+    '''    public int DETAILREP()
+    '''
 def PRINTDOCS():
-'''public int PRINTDOCS()
-'''
-pass
+    '''    public int PRINTDOCS()
+    '''
 def REVCONT():
-'''public int REVCONT()
-'''
-pass
+    '''    public int REVCONT()
+    '''
 def CREATECONT():
-'''public int CREATECONT()
-'''
-pass
+    '''    public int CREATECONT()
+    '''

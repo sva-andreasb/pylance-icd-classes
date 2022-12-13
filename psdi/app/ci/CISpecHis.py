@@ -1,8 +1,6 @@
 def CISpecHis():
-'''public CISpecHis(final MboSet ms)
-'''
-pass
+    '''    public CISpecHis(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

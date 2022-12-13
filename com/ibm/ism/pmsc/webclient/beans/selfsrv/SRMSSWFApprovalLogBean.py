@@ -1,8 +1,6 @@
 def filter():
-'''public void filter()
-'''
-pass
+    '''    public void filter()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

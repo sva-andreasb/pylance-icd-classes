@@ -1,8 +1,6 @@
 def FldUserSecurEdit():
-'''public FldUserSecurEdit(final MboValue mbv)
-'''
-pass
+    '''    public FldUserSecurEdit(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,32 +1,24 @@
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String etag)
-'''
-pass
+    '''    public void setETag(final String etag)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''

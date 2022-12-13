@@ -1,164 +1,123 @@
 def getDeliveryMethods():
-'''public List<Method> getDeliveryMethods()
-'''
-pass
+    '''    public List<Method> getDeliveryMethods()
+    '''
 def getNotification():
-'''public Notification getNotification()
-'''
-pass
+    '''    public Notification getNotification()
+    '''
 def setNotification():
-'''public void setNotification(final Notification notification)
-'''
-pass
+    '''    public void setNotification(final Notification notification)
+    '''
 def getActive():
-'''public Long getActive()
-'''
-pass
+    '''    public Long getActive()
+    '''
 def setActive():
-'''public void setActive(final Long active)
-'''
-pass
+    '''    public void setActive(final Long active)
+    '''
 def isActiveSpecified():
-'''public boolean isActiveSpecified()
-'''
-pass
+    '''    public boolean isActiveSpecified()
+    '''
 def unsetActive():
-'''public void unsetActive()
-'''
-pass
+    '''    public void unsetActive()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNotificationId():
-'''public Long getNotificationId()
-'''
-pass
+    '''    public Long getNotificationId()
+    '''
 def setNotificationId():
-'''public void setNotificationId(final Long notificationId)
-'''
-pass
+    '''    public void setNotificationId(final Long notificationId)
+    '''
 def isNotificationIdSpecified():
-'''public boolean isNotificationIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationIdSpecified()
+    '''
 def unsetNotificationId():
-'''public void unsetNotificationId()
-'''
-pass
+    '''    public void unsetNotificationId()
+    '''
 def getNotificationSubscriberTypeId():
-'''public Long getNotificationSubscriberTypeId()
-'''
-pass
+    '''    public Long getNotificationSubscriberTypeId()
+    '''
 def setNotificationSubscriberTypeId():
-'''public void setNotificationSubscriberTypeId(final Long notificationSubscriberTypeId)
-'''
-pass
+    '''    public void setNotificationSubscriberTypeId(final Long notificationSubscriberTypeId)
+    '''
 def isNotificationSubscriberTypeIdSpecified():
-'''public boolean isNotificationSubscriberTypeIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationSubscriberTypeIdSpecified()
+    '''
 def unsetNotificationSubscriberTypeId():
-'''public void unsetNotificationSubscriberTypeId()
-'''
-pass
+    '''    public void unsetNotificationSubscriberTypeId()
+    '''
 def getNotificationSubscriberTypeResourceId():
-'''public Long getNotificationSubscriberTypeResourceId()
-'''
-pass
+    '''    public Long getNotificationSubscriberTypeResourceId()
+    '''
 def setNotificationSubscriberTypeResourceId():
-'''public void setNotificationSubscriberTypeResourceId(final Long notificationSubscriberTypeResourceId)
-'''
-pass
+    '''    public void setNotificationSubscriberTypeResourceId(final Long notificationSubscriberTypeResourceId)
+    '''
 def isNotificationSubscriberTypeResourceIdSpecified():
-'''public boolean isNotificationSubscriberTypeResourceIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationSubscriberTypeResourceIdSpecified()
+    '''
 def unsetNotificationSubscriberTypeResourceId():
-'''public void unsetNotificationSubscriberTypeResourceId()
-'''
-pass
+    '''    public void unsetNotificationSubscriberTypeResourceId()
+    '''
 def getDeliveryMethodCount():
-'''public Long getDeliveryMethodCount()
-'''
-pass
+    '''    public Long getDeliveryMethodCount()
+    '''
 def setDeliveryMethodCount():
-'''public void setDeliveryMethodCount(final Long deliveryMethodCount)
-'''
-pass
+    '''    public void setDeliveryMethodCount(final Long deliveryMethodCount)
+    '''
 def active():
-'''public Mask active()
-'''
-pass
+    '''    public Mask active()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def notificationId():
-'''public Mask notificationId()
-'''
-pass
+    '''    public Mask notificationId()
+    '''
 def notificationSubscriberTypeId():
-'''public Mask notificationSubscriberTypeId()
-'''
-pass
+    '''    public Mask notificationSubscriberTypeId()
+    '''
 def notificationSubscriberTypeResourceId():
-'''public Mask notificationSubscriberTypeResourceId()
-'''
-pass
+    '''    public Mask notificationSubscriberTypeResourceId()
+    '''
 def deliveryMethodCount():
-'''public Mask deliveryMethodCount()
-'''
-pass
+    '''    public Mask deliveryMethodCount()
+    '''

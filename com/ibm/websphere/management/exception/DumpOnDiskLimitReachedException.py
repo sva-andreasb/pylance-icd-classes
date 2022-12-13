@@ -1,4 +1,3 @@
 def DumpOnDiskLimitReachedException():
-'''public DumpOnDiskLimitReachedException(final String s)
-'''
-pass
+    '''    public DumpOnDiskLimitReachedException(final String s)
+    '''

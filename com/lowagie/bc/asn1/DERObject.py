@@ -1,4 +1,3 @@
 def getDERObject():
-'''public DERObject getDERObject()
-'''
-pass
+    '''    public DERObject getDERObject()
+    '''

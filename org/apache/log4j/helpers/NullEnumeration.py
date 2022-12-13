@@ -1,12 +1,9 @@
 def getInstance():
-'''public static NullEnumeration getInstance()
-'''
-pass
+    '''    public static NullEnumeration getInstance()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''

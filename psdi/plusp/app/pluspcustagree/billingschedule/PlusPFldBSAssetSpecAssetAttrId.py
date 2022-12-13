@@ -1,16 +1,12 @@
 def PlusPFldBSAssetSpecAssetAttrId():
-'''public PlusPFldBSAssetSpecAssetAttrId(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldBSAssetSpecAssetAttrId(final MboValue arg0)
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote valueFromLookup)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

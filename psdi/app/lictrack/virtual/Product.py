@@ -1,4 +1,3 @@
 def Product():
-'''public Product(final MboSet ms)
-'''
-pass
+    '''    public Product(final MboSet ms)
+    '''

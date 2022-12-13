@@ -1,1478 +1,1120 @@
-crewDurStatic = "String  Static""
-crewDurDynamic = "String  Dynamic""
-crewDurCrewPos = "String  PLUSDCRW""
-APPLYASSETLOC = "String  WO.ApplyingAssetLoc""
+crewDurStatic = "String  \"Static\""
+crewDurDynamic = "String  \"Dynamic\""
+crewDurCrewPos = "String  \"PLUSDCRW\""
+APPLYASSETLOC = "String  \"WO.ApplyingAssetLoc\""
 def isChangeInHierarchy():
-'''public boolean isChangeInHierarchy()
-'''
-pass
+    '''    public boolean isChangeInHierarchy()
+    '''
 def setChangeInHierarchy():
-'''public void setChangeInHierarchy(final boolean changeInHierarchy)
-'''
-pass
+    '''    public void setChangeInHierarchy(final boolean changeInHierarchy)
+    '''
 def getPreviousParent():
-'''public String getPreviousParent()
-'''
-pass
+    '''    public String getPreviousParent()
+    '''
 def setPreviousParent():
-'''public void setPreviousParent(final String previousParent)
-'''
-pass
+    '''    public void setPreviousParent(final String previousParent)
+    '''
 def WO():
-'''public WO(final MboSet ms)
-'''
-pass
+    '''    public WO(final MboSet ms)
+    '''
 def getProcess():
-'''public String getProcess()
-'''
-pass
+    '''    public String getProcess()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isCharacteristic():
-'''public boolean isCharacteristic()
-'''
-pass
+    '''    public boolean isCharacteristic()
+    '''
 def canEditRelatedSet():
-'''public void canEditRelatedSet(final String relationName)
-'''
-pass
+    '''    public void canEditRelatedSet(final String relationName)
+    '''
 def setRelatedMboEditibility():
-'''public void setRelatedMboEditibility(final String relationName)
-'''
-pass
+    '''    public void setRelatedMboEditibility(final String relationName)
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def updateServiceAddress():
-'''public void updateServiceAddress()
-'''
-pass
+    '''    public void updateServiceAddress()
+    '''
 def createJobEntry():
-'''public MboRemote createJobEntry()
-'''
-pass
+    '''    public MboRemote createJobEntry()
+    '''
 def createAssignRepLoc():
-'''public void createAssignRepLoc()
-'''
-pass
+    '''    public void createAssignRepLoc()
+    '''
 def getCrewMemberCount():
-'''public int getCrewMemberCount(final Date desiredDate)
-'''
-pass
+    '''    public int getCrewMemberCount(final Date desiredDate)
+    '''
 def copyDoclinksToWO():
-'''public void copyDoclinksToWO()
-public void copyDoclinksToWO(final WO wo)
-'''
-pass
+    '''    public void copyDoclinksToWO()
+    public void copyDoclinksToWO(final WO wo)
+    '''
 def inChildSubSet():
-'''public boolean inChildSubSet()
-'''
-pass
+    '''    public boolean inChildSubSet()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def getSimilarWorkOrders():
-'''public WOSetRemote getSimilarWorkOrders()
-'''
-pass
+    '''    public WOSetRemote getSimilarWorkOrders()
+    '''
 def getAlreadyReportedSet():
-'''public WOSetRemote getAlreadyReportedSet()
-'''
-pass
+    '''    public WOSetRemote getAlreadyReportedSet()
+    '''
 def getLocForAsset():
-'''public void getLocForAsset()
-'''
-pass
+    '''    public void getLocForAsset()
+    '''
 def applyAssetLoc():
-'''public void applyAssetLoc()
-public void applyAssetLoc(final boolean calcSafetyPlan)
-'''
-pass
+    '''    public void applyAssetLoc()
+    public void applyAssetLoc(final boolean calcSafetyPlan)
+    '''
 def copyJobPlanToWorkPlan():
-'''public void copyJobPlanToWorkPlan()
-'''
-pass
+    '''    public void copyJobPlanToWorkPlan()
+    '''
 def copyJobPlanToWorkPlanNoNestedJP():
-'''public void copyJobPlanToWorkPlanNoNestedJP()
-'''
-pass
+    '''    public void copyJobPlanToWorkPlanNoNestedJP()
+    '''
 def clearWorkPlanInfo():
-'''public void clearWorkPlanInfo()
-'''
-pass
+    '''    public void clearWorkPlanInfo()
+    '''
 def calculateConstaintDates():
-'''public void calculateConstaintDates(final MboValue startOffset, final MboValue finishOffset, final MboValue woDur)
-'''
-pass
+    '''    public void calculateConstaintDates(final MboValue startOffset, final MboValue finishOffset, final MboValue woDur)
+    '''
 def getWoTaskLookup():
-'''public Map<String, Mbo> getWoTaskLookup()
-'''
-pass
+    '''    public Map<String, Mbo> getWoTaskLookup()
+    '''
 def getAddingFirstJobTask():
-'''public boolean getAddingFirstJobTask()
-'''
-pass
+    '''    public boolean getAddingFirstJobTask()
+    '''
 def getCopyingJobTasks():
-'''public boolean getCopyingJobTasks()
-'''
-pass
+    '''    public boolean getCopyingJobTasks()
+    '''
 def getCopyingWorkPlanAssignments():
-'''public boolean getCopyingWorkPlanAssignments()
-'''
-pass
+    '''    public boolean getCopyingWorkPlanAssignments()
+    '''
 def applyingJobPlan():
-'''public boolean applyingJobPlan()
-'''
-pass
+    '''    public boolean applyingJobPlan()
+    '''
 def setParentValuesForNestedjpWO():
-'''public void setParentValuesForNestedjpWO(final MboRemote newChild, final MboRemote parent)
-'''
-pass
+    '''    public void setParentValuesForNestedjpWO(final MboRemote newChild, final MboRemote parent)
+    '''
 def generateTaskID():
-'''public void generateTaskID()
-'''
-pass
+    '''    public void generateTaskID()
+    '''
 def copySafetyPlanToWoSafetyPlan():
-'''public void copySafetyPlanToWoSafetyPlan()
-'''
-pass
+    '''    public void copySafetyPlanToWoSafetyPlan()
+    '''
 def setJobPlanFieldFlag():
-'''public void setJobPlanFieldFlag()
-'''
-pass
+    '''    public void setJobPlanFieldFlag()
+    '''
 def startWFOnWoReqSave():
-'''public boolean startWFOnWoReqSave()
-'''
-pass
+    '''    public boolean startWFOnWoReqSave()
+    '''
 def updateForMovedAsset():
-'''public void updateForMovedAsset(final MboRemote movedAsset)
-'''
-pass
+    '''    public void updateForMovedAsset(final MboRemote movedAsset)
+    '''
 def incrEstLabCost():
-'''public void incrEstLabCost(final double incrAmount, final boolean isExternal)
-'''
-pass
+    '''    public void incrEstLabCost(final double incrAmount, final boolean isExternal)
+    '''
 def incrEstLabHours():
-'''public void incrEstLabHours(final double incrAmount, final boolean isExternal)
-'''
-pass
+    '''    public void incrEstLabHours(final double incrAmount, final boolean isExternal)
+    '''
 def incrEstToolCost():
-'''public void incrEstToolCost(final double incrAmount)
-'''
-pass
+    '''    public void incrEstToolCost(final double incrAmount)
+    '''
 def incrEstMatCost():
-'''public void incrEstMatCost(final double incrAmount)
-'''
-pass
+    '''    public void incrEstMatCost(final double incrAmount)
+    '''
 def incrEstServCost():
-'''public void incrEstServCost(final double incrAmount)
-'''
-pass
+    '''    public void incrEstServCost(final double incrAmount)
+    '''
 def incrActMatCost():
-'''public void incrActMatCost(final double incrAmount, final boolean isOutsideCost)
-'''
-pass
+    '''    public void incrActMatCost(final double incrAmount, final boolean isOutsideCost)
+    '''
 def incrActLabCost():
-'''public void incrActLabCost(final double incrAmount, final boolean isOutsideCost)
-'''
-pass
+    '''    public void incrActLabCost(final double incrAmount, final boolean isOutsideCost)
+    '''
 def incrActLabHrs():
-'''public void incrActLabHrs(final double incrAmount, final boolean isExternal)
-'''
-pass
+    '''    public void incrActLabHrs(final double incrAmount, final boolean isExternal)
+    '''
 def incrActToolCost():
-'''public void incrActToolCost(final double incrAmount, final boolean isOutsideCost)
-'''
-pass
+    '''    public void incrActToolCost(final double incrAmount, final boolean isOutsideCost)
+    '''
 def incrActServCost():
-'''public void incrActServCost(final double incrAmount)
-'''
-pass
+    '''    public void incrActServCost(final double incrAmount)
+    '''
 def haveReceivedDirectIssue():
-'''public void haveReceivedDirectIssue(final MboRemote poMbo, final MboRemote poLineMbo)
-'''
-pass
+    '''    public void haveReceivedDirectIssue(final MboRemote poMbo, final MboRemote poLineMbo)
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def isCanceled():
-'''public boolean isCanceled()
-'''
-pass
+    '''    public boolean isCanceled()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def isAssetChargeStore():
-'''public boolean isAssetChargeStore()
-'''
-pass
+    '''    public boolean isAssetChargeStore()
+    '''
 def canChargeStore():
-'''public boolean canChargeStore()
-'''
-pass
+    '''    public boolean canChargeStore()
+    '''
 def calcGLAccount():
-'''public void calcGLAccount()
-'''
-pass
+    '''    public void calcGLAccount()
+    '''
 def getSubWorkOrders():
-'''public MboSetRemote getSubWorkOrders()
-'''
-pass
+    '''    public MboSetRemote getSubWorkOrders()
+    '''
 def canApplyRoute():
-'''public void canApplyRoute()
-public void canApplyRoute(final long accessModifier)
-public void canApplyRoute(final String routeID)
-public void canApplyRoute(final String routeID, final long accessModifier)
-'''
-pass
+    '''    public void canApplyRoute()
+    public void canApplyRoute(final long accessModifier)
+    public void canApplyRoute(final String routeID)
+    public void canApplyRoute(final String routeID, final long accessModifier)
+    '''
 def applyRoute():
-'''public void applyRoute(final String routeID, final String storeLoc)
-public void applyRoute(final String routeID, final String storeLoc, final String storeLocSite)
-public void applyRoute(final String routeID, final String storeLoc, final String storeLocSite, final long accessModifier)
-public void applyRoute(final String routeID, final String storeLoc, final String storeLocSite, final long accessModifier, final MboSetRemote infoSet)
-'''
-pass
+    '''    public void applyRoute(final String routeID, final String storeLoc)
+    public void applyRoute(final String routeID, final String storeLoc, final String storeLocSite)
+    public void applyRoute(final String routeID, final String storeLoc, final String storeLocSite, final long accessModifier)
+    public void applyRoute(final String routeID, final String storeLoc, final String storeLocSite, final long accessModifier, final MboSetRemote infoSet)
+    '''
 def getGrandTotals():
-'''public Vector getGrandTotals()
-'''
-pass
+    '''    public Vector getGrandTotals()
+    '''
 def getDuplicated():
-'''public boolean getDuplicated()
-'''
-pass
+    '''    public boolean getDuplicated()
+    '''
 def setDuplicated():
-'''public void setDuplicated(final boolean duplicated)
-'''
-pass
+    '''    public void setDuplicated(final boolean duplicated)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def canGenFollowUpWo():
-'''public void canGenFollowUpWo()
-'''
-pass
+    '''    public void canGenFollowUpWo()
+    '''
 def genFollowUpWo():
-'''public MboRemote genFollowUpWo()
-'''
-pass
+    '''    public MboRemote genFollowUpWo()
+    '''
 def setSafetyPlanFieldFlag():
-'''public void setSafetyPlanFieldFlag()
-'''
-pass
+    '''    public void setSafetyPlanFieldFlag()
+    '''
 def getServiceTotal():
-'''public double getServiceTotal()
-'''
-pass
+    '''    public double getServiceTotal()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def hasSafetyPlan():
-'''public boolean hasSafetyPlan()
-'''
-pass
+    '''    public boolean hasSafetyPlan()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def getChildNoTask():
-'''public MboSetRemote getChildNoTask()
-'''
-pass
+    '''    public MboSetRemote getChildNoTask()
+    '''
 def getTasksOnly():
-'''public MboSetRemote getTasksOnly()
-'''
-pass
+    '''    public MboSetRemote getTasksOnly()
+    '''
 def getParents():
-'''public MboSetRemote getParents()
-'''
-pass
+    '''    public MboSetRemote getParents()
+    '''
 def getTop():
-'''public MboSetRemote getTop()
-'''
-pass
+    '''    public MboSetRemote getTop()
+    '''
 def getHierarchies():
-'''public String[] getHierarchies()
-'''
-pass
+    '''    public String[] getHierarchies()
+    '''
 def copySparePartsToWpMatSet():
-'''public void copySparePartsToWpMatSet(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySparePartsToWpMatSet(final MboSetRemote sparePartSet)
+    '''
 def copySparePartsToMatUseSet():
-'''public void copySparePartsToMatUseSet(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySparePartsToMatUseSet(final MboSetRemote sparePartSet)
+    '''
 def copyInvresvItemsToMatUseSet():
-'''public void copyInvresvItemsToMatUseSet(final MboSetRemote InvresvItemSet)
-'''
-pass
+    '''    public void copyInvresvItemsToMatUseSet(final MboSetRemote InvresvItemSet)
+    '''
 def copyPlanToolToToolTransSet():
-'''public void copyPlanToolToToolTransSet(final MboSetRemote planToolSet)
-'''
-pass
+    '''    public void copyPlanToolToToolTransSet(final MboSetRemote planToolSet)
+    '''
 def copyPlanLaborToLabTransSet():
-'''public void copyPlanLaborToLabTransSet(final MboSetRemote planLaborSet)
-'''
-pass
+    '''    public void copyPlanLaborToLabTransSet(final MboSetRemote planLaborSet)
+    '''
 def applyHazardToWoHazardSet():
-'''public void applyHazardToWoHazardSet(final MboRemote spRelatedasset, final MboSetRemote hazardSet)
-'''
-pass
+    '''    public void applyHazardToWoHazardSet(final MboRemote spRelatedasset, final MboSetRemote hazardSet)
+    '''
 def enterQuickReportingMode():
-'''public void enterQuickReportingMode()
-'''
-pass
+    '''    public void enterQuickReportingMode()
+    '''
 def isQuickReportingMode():
-'''public boolean isQuickReportingMode()
-'''
-pass
+    '''    public boolean isQuickReportingMode()
+    '''
 def isApproved():
-'''public boolean isApproved()
-'''
-pass
+    '''    public boolean isApproved()
+    '''
 def getTaskForWonum():
-'''public String getTaskForWonum(final String wonum)
-'''
-pass
+    '''    public String getTaskForWonum(final String wonum)
+    '''
 def getWOforTask():
-'''public MboRemote getWOforTask(final String task)
-'''
-pass
+    '''    public MboRemote getWOforTask(final String task)
+    '''
 def getWOforWonum():
-'''public WORemote getWOforWonum(final String wonum)
-'''
-pass
+    '''    public WORemote getWOforWonum(final String wonum)
+    '''
 def getWOClassDescription():
-'''public String getWOClassDescription(final MboRemote theMboRemote)
-'''
-pass
+    '''    public String getWOClassDescription(final MboRemote theMboRemote)
+    '''
 def changeWorkOrderParent():
-'''public void changeWorkOrderParent(final MboRemote woparent)
-'''
-pass
+    '''    public void changeWorkOrderParent(final MboRemote woparent)
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-public void changeStatus(final String status, final Date date, final String memo, final long accessModifier, final boolean comingFromReceiving)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier, final boolean comingFromReceiving)
+    '''
 def changeChildrenStatus():
-'''public void changeChildrenStatus()
-'''
-pass
+    '''    public void changeChildrenStatus()
+    '''
 def getParentMbo():
-'''public WO getParentMbo()
-'''
-pass
+    '''    public WO getParentMbo()
+    '''
 def getWoFromCombined():
-'''public WORemote getWoFromCombined(final String findWonum)
-'''
-pass
+    '''    public WORemote getWoFromCombined(final String findWonum)
+    '''
 def canRemoveSafetyPlan():
-'''public void canRemoveSafetyPlan()
-'''
-pass
+    '''    public void canRemoveSafetyPlan()
+    '''
 def removeSafetyPlan():
-'''public void removeSafetyPlan()
-'''
-pass
+    '''    public void removeSafetyPlan()
+    '''
 def canReportDowntime():
-'''public void canReportDowntime()
-'''
-pass
+    '''    public void canReportDowntime()
+    '''
 def getOwnSet():
-'''public MboSetRemote getOwnSet()
-'''
-pass
+    '''    public MboSetRemote getOwnSet()
+    '''
 def setAttrFromWoGen():
-'''public void setAttrFromWoGen(final MboRemote woGen)
-'''
-pass
+    '''    public void setAttrFromWoGen(final MboRemote woGen)
+    '''
 def getECommHelperRemote():
-'''public ECommHelperRemote getECommHelperRemote()
-'''
-pass
+    '''    public ECommHelperRemote getECommHelperRemote()
+    '''
 def editHistory():
-'''public void editHistory()
-'''
-pass
+    '''    public void editHistory()
+    '''
 def isWOInEditHist():
-'''public boolean isWOInEditHist()
-'''
-pass
+    '''    public boolean isWOInEditHist()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def getPM():
-'''public PMRemote getPM()
-'''
-pass
+    '''    public PMRemote getPM()
+    '''
 def getAsset():
-'''public AssetRemote getAsset()
-'''
-pass
+    '''    public AssetRemote getAsset()
+    '''
 def delete():
-'''public void delete()
-public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete()
+    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def getFailListForReport():
-'''public MboSetRemote getFailListForReport()
-'''
-pass
+    '''    public MboSetRemote getFailListForReport()
+    '''
 def copyFailListToReportSet():
-'''public void copyFailListToReportSet(final MboSetRemote failListSet)
-'''
-pass
+    '''    public void copyFailListToReportSet(final MboSetRemote failListSet)
+    '''
 def copyLaborToWpLaborSet():
-'''public void copyLaborToWpLaborSet(final MboSetRemote laborSet)
-'''
-pass
+    '''    public void copyLaborToWpLaborSet(final MboSetRemote laborSet)
+    '''
 def copyCraftRateToWpLaborSet():
-'''public void copyCraftRateToWpLaborSet(final MboSetRemote craftRateSet)
-'''
-pass
+    '''    public void copyCraftRateToWpLaborSet(final MboSetRemote craftRateSet)
+    '''
 def copyLaborToLabTransSet():
-'''public void copyLaborToLabTransSet(final MboSetRemote laborSet)
-'''
-pass
+    '''    public void copyLaborToLabTransSet(final MboSetRemote laborSet)
+    '''
 def copyItemToWpMatSet():
-'''public void copyItemToWpMatSet(final MboSetRemote itemSet)
-'''
-pass
+    '''    public void copyItemToWpMatSet(final MboSetRemote itemSet)
+    '''
 def copyServiceItemsToWpSerSet():
-'''public void copyServiceItemsToWpSerSet(final MboSetRemote serviceItemSet)
-'''
-pass
+    '''    public void copyServiceItemsToWpSerSet(final MboSetRemote serviceItemSet)
+    '''
 def copyItemToMatUseTransSet():
-'''public void copyItemToMatUseTransSet(final MboSetRemote itemSet)
-'''
-pass
+    '''    public void copyItemToMatUseTransSet(final MboSetRemote itemSet)
+    '''
 def copyToolToWpToolSet():
-'''public void copyToolToWpToolSet(final MboSetRemote toolSet)
-'''
-pass
+    '''    public void copyToolToWpToolSet(final MboSetRemote toolSet)
+    '''
 def copyMatUseTransToToolTransSet():
-'''public void copyMatUseTransToToolTransSet(final MboSetRemote matUseTransSet)
-'''
-pass
+    '''    public void copyMatUseTransToToolTransSet(final MboSetRemote matUseTransSet)
+    '''
 def copyToolToToolTransSet():
-'''public void copyToolToToolTransSet(final MboSetRemote toolSet)
-'''
-pass
+    '''    public void copyToolToToolTransSet(final MboSetRemote toolSet)
+    '''
 def copyMRLineToPlanMaterialSet():
-'''public void copyMRLineToPlanMaterialSet(final MboSetRemote mrLineSet)
-'''
-pass
+    '''    public void copyMRLineToPlanMaterialSet(final MboSetRemote mrLineSet)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(String name)
+    '''
 def getPOTotal():
-'''public double getPOTotal()
-'''
-pass
+    '''    public double getPOTotal()
+    '''
 def getPRTotal():
-'''public double getPRTotal()
-'''
-pass
+    '''    public double getPRTotal()
+    '''
 def makeSelectedChildren():
-'''public void makeSelectedChildren(final MboSetRemote selectSet)
-public void makeSelectedChildren(final MboSetRemote selectSet, String dialogLabel)
-'''
-pass
+    '''    public void makeSelectedChildren(final MboSetRemote selectSet)
+    public void makeSelectedChildren(final MboSetRemote selectSet, String dialogLabel)
+    '''
 def canRemoveWorkPlan():
-'''public void canRemoveWorkPlan()
-'''
-pass
+    '''    public void canRemoveWorkPlan()
+    '''
 def removeWorkPlan():
-'''public boolean removeWorkPlan()
-'''
-pass
+    '''    public boolean removeWorkPlan()
+    '''
 def hasActuals():
-'''public boolean hasActuals()
-'''
-pass
+    '''    public boolean hasActuals()
+    '''
 def hasPlanMoveModify():
-'''public boolean hasPlanMoveModify()
-'''
-pass
+    '''    public boolean hasPlanMoveModify()
+    '''
 def removeFailureReport():
-'''public void removeFailureReport()
-'''
-pass
+    '''    public void removeFailureReport()
+    '''
 def promptForDowntimeReport():
-'''public boolean promptForDowntimeReport(final String newStatus)
-'''
-pass
+    '''    public boolean promptForDowntimeReport(final String newStatus)
+    '''
 def promptForFailureReport():
-'''public boolean promptForFailureReport(final String newStatus)
-'''
-pass
+    '''    public boolean promptForFailureReport(final String newStatus)
+    '''
 def createJPFromWO():
-'''public MboRemote createJPFromWO(final String jpnum, final String description, final String longdescription)
-public MboRemote createJPFromWO(final Date date, final String jpnum, final String description, final String longdescription)
-'''
-pass
+    '''    public MboRemote createJPFromWO(final String jpnum, final String description, final String longdescription)
+    public MboRemote createJPFromWO(final Date date, final String jpnum, final String description, final String longdescription)
+    '''
 def createJPHeaderFromWO():
-'''public Mbo createJPHeaderFromWO(final String jpnum, final String description, final String longdescription)
-'''
-pass
+    '''    public Mbo createJPHeaderFromWO(final String jpnum, final String description, final String longdescription)
+    '''
 def createWorkorder():
-'''public MboRemote createWorkorder()
-public MboRemote createWorkorder(final String jpnum)
-public MboRemote createWorkorder(final MboSetRemote workorderSet)
-public MboRemote createWorkorder(final MboSetRemote workorderSet, final String jpnum, final boolean saveSet)
-'''
-pass
+    '''    public MboRemote createWorkorder()
+    public MboRemote createWorkorder(final String jpnum)
+    public MboRemote createWorkorder(final MboSetRemote workorderSet)
+    public MboRemote createWorkorder(final MboSetRemote workorderSet, final String jpnum, final boolean saveSet)
+    '''
 def createChange():
-'''public MboRemote createChange()
-public MboRemote createChange(final String jpnum)
-'''
-pass
+    '''    public MboRemote createChange()
+    public MboRemote createChange(final String jpnum)
+    '''
 def createRelease():
-'''public MboRemote createRelease()
-public MboRemote createRelease(final String jpnum)
-'''
-pass
+    '''    public MboRemote createRelease()
+    public MboRemote createRelease(final String jpnum)
+    '''
 def createServiceRequest():
-'''public MboRemote createServiceRequest()
-public MboRemote createServiceRequest(final String tickettemplateid)
-'''
-pass
+    '''    public MboRemote createServiceRequest()
+    public MboRemote createServiceRequest(final String tickettemplateid)
+    '''
 def createProblem():
-'''public MboRemote createProblem()
-public MboRemote createProblem(final String tickettemplateid)
-'''
-pass
+    '''    public MboRemote createProblem()
+    public MboRemote createProblem(final String tickettemplateid)
+    '''
 def createIncident():
-'''public MboRemote createIncident()
-public MboRemote createIncident(final String tickettemplateid)
-'''
-pass
+    '''    public MboRemote createIncident()
+    public MboRemote createIncident(final String tickettemplateid)
+    '''
 def orphan():
-'''public void orphan()
-'''
-pass
+    '''    public void orphan()
+    '''
 def handleChildren():
-'''public void handleChildren()
-'''
-pass
+    '''    public void handleChildren()
+    '''
 def handleTasks():
-'''public void handleTasks()
-'''
-pass
+    '''    public void handleTasks()
+    '''
 def handleUndeleteTasks():
-'''public void handleUndeleteTasks()
-'''
-pass
+    '''    public void handleUndeleteTasks()
+    '''
 def handleUndeleteChildren():
-'''public void handleUndeleteChildren()
-'''
-pass
+    '''    public void handleUndeleteChildren()
+    '''
 def deleteChildren():
-'''public void deleteChildren(final boolean task)
-'''
-pass
+    '''    public void deleteChildren(final boolean task)
+    '''
 def undeleteChildren():
-'''public void undeleteChildren(final boolean task)
-'''
-pass
+    '''    public void undeleteChildren(final boolean task)
+    '''
 def isWoAcceptsChargesEditable():
-'''public boolean isWoAcceptsChargesEditable()
-'''
-pass
+    '''    public boolean isWoAcceptsChargesEditable()
+    '''
 def getTaskIdsThatAcceptCharges():
-'''public String getTaskIdsThatAcceptCharges()
-'''
-pass
+    '''    public String getTaskIdsThatAcceptCharges()
+    '''
 def pmAlertStatus():
-'''public MboSetRemote pmAlertStatus(final String status)
-'''
-pass
+    '''    public MboSetRemote pmAlertStatus(final String status)
+    '''
 def pmAlert():
-'''public MboSetRemote pmAlert()
-'''
-pass
+    '''    public MboSetRemote pmAlert()
+    '''
 def getStatus():
-'''public String getStatus(final String status)
-'''
-pass
+    '''    public String getStatus(final String status)
+    '''
 def woCancel():
-'''public boolean woCancel()
-'''
-pass
+    '''    public boolean woCancel()
+    '''
 def canEnterMeterReadings():
-'''public void canEnterMeterReadings()
-'''
-pass
+    '''    public void canEnterMeterReadings()
+    '''
 def startTimer():
-'''public void startTimer()
-public void startTimer(final Date startdatetime, final Long anywhererefid, final String transtype)
-'''
-pass
+    '''    public void startTimer()
+    public void startTimer(final Date startdatetime, final Long anywhererefid, final String transtype)
+    '''
 def stopTimer():
-'''public void stopTimer()
-public MboRemote stopTimer(final Date finishdatetime, final boolean noStopTimerPopup)
-public MboRemote stopTimer(final Date finishdatetime, final Date startDateTime, final boolean noStopTimerPopup)
-'''
-pass
+    '''    public void stopTimer()
+    public MboRemote stopTimer(final Date finishdatetime, final boolean noStopTimerPopup)
+    public MboRemote stopTimer(final Date finishdatetime, final Date startDateTime, final boolean noStopTimerPopup)
+    '''
 def getStopTimerLabtrans():
-'''public MboRemote getStopTimerLabtrans()
-'''
-pass
+    '''    public MboRemote getStopTimerLabtrans()
+    '''
 def needPopupOnStopTimer():
-'''public boolean needPopupOnStopTimer()
-'''
-pass
+    '''    public boolean needPopupOnStopTimer()
+    '''
 def updateWorkview():
-'''public void updateWorkview()
-'''
-pass
+    '''    public void updateWorkview()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def applyOwner():
-'''public void applyOwner(final String ownerID)
-'''
-pass
+    '''    public void applyOwner(final String ownerID)
+    '''
 def applyOwnerGroup():
-'''public void applyOwnerGroup(final String ownergroupID)
-'''
-pass
+    '''    public void applyOwnerGroup(final String ownergroupID)
+    '''
 def applyAssignedOwnerGroup():
-'''public void applyAssignedOwnerGroup(final String ownergroupID)
-'''
-pass
+    '''    public void applyAssignedOwnerGroup(final String ownergroupID)
+    '''
 def ownership():
-'''public void ownership()
-'''
-pass
+    '''    public void ownership()
+    '''
 def copyAssetSpecToAutoAttrUpdateSet():
-'''public void copyAssetSpecToAutoAttrUpdateSet(final MboSetRemote assetspecset, final MboRemote woasset)
-'''
-pass
+    '''    public void copyAssetSpecToAutoAttrUpdateSet(final MboSetRemote assetspecset, final MboRemote woasset)
+    '''
 def copyLocSpecToAutoAttrUpdateSet():
-'''public void copyLocSpecToAutoAttrUpdateSet(final MboSetRemote locspecset, final MboRemote woasset)
-'''
-pass
+    '''    public void copyLocSpecToAutoAttrUpdateSet(final MboSetRemote locspecset, final MboRemote woasset)
+    '''
 def copyCISpecToAutoAttrUpdateSet():
-'''public void copyCISpecToAutoAttrUpdateSet(final MboSetRemote cispecset, final MboRemote woasset)
-'''
-pass
+    '''    public void copyCISpecToAutoAttrUpdateSet(final MboSetRemote cispecset, final MboRemote woasset)
+    '''
 def applyToAllAssetLoc():
-'''public void applyToAllAssetLoc(final MboRemote attrupdate)
-'''
-pass
+    '''    public void applyToAllAssetLoc(final MboRemote attrupdate)
+    '''
 def copyAssets():
-'''public void copyAssets(final MboSetRemote assetset)
-'''
-pass
+    '''    public void copyAssets(final MboSetRemote assetset)
+    '''
 def copyLocations():
-'''public void copyLocations(final MboSetRemote locationset)
-'''
-pass
+    '''    public void copyLocations(final MboSetRemote locationset)
+    '''
 def moveModifyAssets():
-'''public void moveModifyAssets()
-public boolean moveModifyAssets(final boolean checkonly)
-'''
-pass
+    '''    public void moveModifyAssets()
+    public boolean moveModifyAssets(final boolean checkonly)
+    '''
 def moveAllAssets():
-'''public void moveAllAssets()
-'''
-pass
+    '''    public void moveAllAssets()
+    '''
 def modifyAllAssetLocationAttributes():
-'''public void modifyAllAssetLocationAttributes()
-'''
-pass
+    '''    public void modifyAllAssetLocationAttributes()
+    '''
 def removeUserCust():
-'''public void removeUserCust()
-public void removeUserCust(final boolean removeAssetUserCustPlans, final boolean removeLocUserCustPlans)
-public void removeUserCust(final boolean removeAssetUserCustPlans, final boolean removeLocUserCustPlans, final MboRemote multiassetlocci)
-'''
-pass
+    '''    public void removeUserCust()
+    public void removeUserCust(final boolean removeAssetUserCustPlans, final boolean removeLocUserCustPlans)
+    public void removeUserCust(final boolean removeAssetUserCustPlans, final boolean removeLocUserCustPlans, final MboRemote multiassetlocci)
+    '''
 def restoreUserCust():
-'''public void restoreUserCust()
-public void restoreUserCust(final MboRemote multiassetlocci)
-'''
-pass
+    '''    public void restoreUserCust()
+    public void restoreUserCust(final MboRemote multiassetlocci)
+    '''
 def clearMoveandDeleteAttrUpdate():
-'''public void clearMoveandDeleteAttrUpdate()
-'''
-pass
+    '''    public void clearMoveandDeleteAttrUpdate()
+    '''
 def clearMoveAssetFields():
-'''public void clearMoveAssetFields()
-'''
-pass
+    '''    public void clearMoveAssetFields()
+    '''
 def updateWarrantyContracts():
-'''public void updateWarrantyContracts()
-'''
-pass
+    '''    public void updateWarrantyContracts()
+    '''
 def getServiceContractInClause():
-'''public String getServiceContractInClause()
-'''
-pass
+    '''    public String getServiceContractInClause()
+    '''
 def getWODate():
-'''public Date getWODate()
-'''
-pass
+    '''    public Date getWODate()
+    '''
 def userVerifiedRemoveSafetyPlan():
-'''public boolean userVerifiedRemoveSafetyPlan()
-'''
-pass
+    '''    public boolean userVerifiedRemoveSafetyPlan()
+    '''
 def getSafetyPlanID():
-'''public String getSafetyPlanID()
-'''
-pass
+    '''    public String getSafetyPlanID()
+    '''
 def copyTicketToRelatedRecSet():
-'''public void copyTicketToRelatedRecSet(final MboSetRemote TicketSet)
-public void copyTicketToRelatedRecSet(final MboSetRemote TicketSet, final boolean copyToParent)
-'''
-pass
+    '''    public void copyTicketToRelatedRecSet(final MboSetRemote TicketSet)
+    public void copyTicketToRelatedRecSet(final MboSetRemote TicketSet, final boolean copyToParent)
+    '''
 def copyTicketParentToRelatedRecSet():
-'''public void copyTicketParentToRelatedRecSet(final MboSetRemote TicketSet)
-'''
-pass
+    '''    public void copyTicketParentToRelatedRecSet(final MboSetRemote TicketSet)
+    '''
 def copyWOToRelatedRecSet():
-'''public void copyWOToRelatedRecSet(final MboSetRemote woSet)
-public void copyWOToRelatedRecSet(final MboSetRemote woSet, final boolean copyToParent)
-'''
-pass
+    '''    public void copyWOToRelatedRecSet(final MboSetRemote woSet)
+    public void copyWOToRelatedRecSet(final MboSetRemote woSet, final boolean copyToParent)
+    '''
 def copyWOParentToRelatedRecSet():
-'''public void copyWOParentToRelatedRecSet(final MboSetRemote woSet)
-'''
-pass
+    '''    public void copyWOParentToRelatedRecSet(final MboSetRemote woSet)
+    '''
 def copyParentValuesToRelatedRec():
-'''public void copyParentValuesToRelatedRec(final MboRemote relatedMbo)
-'''
-pass
+    '''    public void copyParentValuesToRelatedRec(final MboRemote relatedMbo)
+    '''
 def updateOriginator():
-'''public void updateOriginator()
-'''
-pass
+    '''    public void updateOriginator()
+    '''
 def getWOObjectName():
-'''public String getWOObjectName()
-'''
-pass
+    '''    public String getWOObjectName()
+    '''
 def getRecordMboName():
-'''public String getRecordMboName()
-'''
-pass
+    '''    public String getRecordMboName()
+    '''
 def setHashForSelectedRecord():
-'''public void setHashForSelectedRecord(final HashSet hs)
-'''
-pass
+    '''    public void setHashForSelectedRecord(final HashSet hs)
+    '''
 def getHashForSelectedRecord():
-'''public HashSet getHashForSelectedRecord()
-'''
-pass
+    '''    public HashSet getHashForSelectedRecord()
+    '''
 def clearHashForSelectedRecord():
-'''public void clearHashForSelectedRecord()
-'''
-pass
+    '''    public void clearHashForSelectedRecord()
+    '''
 def relateWorkorders():
-'''public MboSetRemote relateWorkorders(final MboSetRemote woSet)
-'''
-pass
+    '''    public MboSetRemote relateWorkorders(final MboSetRemote woSet)
+    '''
 def relateTickets():
-'''public MboSetRemote relateTickets(final MboSetRemote ticketSet)
-'''
-pass
+    '''    public MboSetRemote relateTickets(final MboSetRemote ticketSet)
+    '''
 def copyAssetsToMultiAsset():
-'''public void copyAssetsToMultiAsset(final AssetSetRemote assetSetRemote)
-'''
-pass
+    '''    public void copyAssetsToMultiAsset(final AssetSetRemote assetSetRemote)
+    '''
 def copyLocationsToMultiAsset():
-'''public void copyLocationsToMultiAsset(final MboSetRemote locationSetRemote)
-'''
-pass
+    '''    public void copyLocationsToMultiAsset(final MboSetRemote locationSetRemote)
+    '''
 def checkNestedJobPlans():
-'''public boolean checkNestedJobPlans()
-'''
-pass
+    '''    public boolean checkNestedJobPlans()
+    '''
 def setRemoveWorkPlan():
-'''public void setRemoveWorkPlan(final boolean removeChildFlag)
-'''
-pass
+    '''    public void setRemoveWorkPlan(final boolean removeChildFlag)
+    '''
 def getRemoveWorkPlan():
-'''public boolean getRemoveWorkPlan()
-'''
-pass
+    '''    public boolean getRemoveWorkPlan()
+    '''
 def copyCIsToMultiAsset():
-'''public void copyCIsToMultiAsset(final MboSetRemote ciSetRemote)
-'''
-pass
+    '''    public void copyCIsToMultiAsset(final MboSetRemote ciSetRemote)
+    '''
 def copyRouteStopsToMultiAsset():
-'''public void copyRouteStopsToMultiAsset(final MboSetRemote routestopSetRemote)
-'''
-pass
+    '''    public void copyRouteStopsToMultiAsset(final MboSetRemote routestopSetRemote)
+    '''
 def copyCollectDetailsToMultiAsset():
-'''public void copyCollectDetailsToMultiAsset(final MboSetRemote routestopSetRemote)
-'''
-pass
+    '''    public void copyCollectDetailsToMultiAsset(final MboSetRemote routestopSetRemote)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setmultiassetrecord():
-'''public void setmultiassetrecord()
-'''
-pass
+    '''    public void setmultiassetrecord()
+    '''
 def copyWOFieldsToMultiAsset():
-'''public void copyWOFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)
-'''
-pass
+    '''    public void copyWOFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)
+    '''
 def isLicensePresent():
-'''public static boolean isLicensePresent(final String lic)
-'''
-pass
+    '''    public static boolean isLicensePresent(final String lic)
+    '''
 def getFlowControlState():
-'''public int getFlowControlState()
-public int getFlowControlState(final WO wo, final String status)
-'''
-pass
+    '''    public int getFlowControlState()
+    public int getFlowControlState(final WO wo, final String status)
+    '''
 def isFlowControlComplete():
-'''public boolean isFlowControlComplete()
-public boolean isFlowControlComplete(final WO wo, final String status)
-'''
-pass
+    '''    public boolean isFlowControlComplete()
+    public boolean isFlowControlComplete(final WO wo, final String status)
+    '''
 def getStartStatusForWorkType():
-'''public String getStartStatusForWorkType()
-public String getStartStatusForWorkType(final WO wo)
-'''
-pass
+    '''    public String getStartStatusForWorkType()
+    public String getStartStatusForWorkType(final WO wo)
+    '''
 def getCompleteStatusForWorkType():
-'''public String getCompleteStatusForWorkType()
-public String getCompleteStatusForWorkType(final WO wo)
-'''
-pass
+    '''    public String getCompleteStatusForWorkType()
+    public String getCompleteStatusForWorkType(final WO wo)
+    '''
 def getPredecessors():
-'''public Vector getPredecessors()
-'''
-pass
+    '''    public Vector getPredecessors()
+    '''
 def getSuccessors():
-'''public Vector getSuccessors()
-'''
-pass
+    '''    public Vector getSuccessors()
+    '''
 def getChildrenThatHaveNoPredecessors():
-'''public Vector getChildrenThatHaveNoPredecessors()
-'''
-pass
+    '''    public Vector getChildrenThatHaveNoPredecessors()
+    '''
 def suspendChildrensProcessFlow():
-'''public void suspendChildrensProcessFlow(final boolean torf)
-'''
-pass
+    '''    public void suspendChildrensProcessFlow(final boolean torf)
+    '''
 def setChildrensFlowControl():
-'''public void setChildrensFlowControl(final boolean torf)
-'''
-pass
+    '''    public void setChildrensFlowControl(final boolean torf)
+    '''
 def changeChildrensFieldValue():
-'''public void changeChildrensFieldValue(final String fieldname, final String fieldvalue, final long accessModifier)
-'''
-pass
+    '''    public void changeChildrensFieldValue(final String fieldname, final String fieldvalue, final long accessModifier)
+    '''
 def executeProcessFlowControlAction():
-'''public void executeProcessFlowControlAction()
-'''
-pass
+    '''    public void executeProcessFlowControlAction()
+    '''
 def changeStatusProcessFlowControl():
-'''public void changeStatusProcessFlowControl()
-'''
-pass
+    '''    public void changeStatusProcessFlowControl()
+    '''
 def startSuccessors():
-'''public boolean startSuccessors(final Mbo mbo, final Vector successors, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public boolean startSuccessors(final Mbo mbo, final Vector successors, final Date date, final String memo, final long accessModifier)
+    '''
 def adjustSuccVectors():
-'''public void adjustSuccVectors(final Vector existingSuccs, final Vector newSuccs)
-'''
-pass
+    '''    public void adjustSuccVectors(final Vector existingSuccs, final Vector newSuccs)
+    '''
 def areAllPredecessorsComplete():
-'''public boolean areAllPredecessorsComplete()
-public boolean areAllPredecessorsComplete(final WO wo)
-public boolean areAllPredecessorsComplete(final String targetStatus, final boolean fully)
-public boolean areAllPredecessorsComplete(final WO wo, final String targetStatus, final boolean fully)
-'''
-pass
+    '''    public boolean areAllPredecessorsComplete()
+    public boolean areAllPredecessorsComplete(final WO wo)
+    public boolean areAllPredecessorsComplete(final String targetStatus, final boolean fully)
+    public boolean areAllPredecessorsComplete(final WO wo, final String targetStatus, final boolean fully)
+    '''
 def areAllPredecessorsSufficientlyComplete():
-'''public boolean areAllPredecessorsSufficientlyComplete(final WO wo, final String targetStatus)
-'''
-pass
+    '''    public boolean areAllPredecessorsSufficientlyComplete(final WO wo, final String targetStatus)
+    '''
 def getContemplatedAction():
-'''public int getContemplatedAction(final WO wo, final String targetStatus)
-'''
-pass
+    '''    public int getContemplatedAction(final WO wo, final String targetStatus)
+    '''
 def isSufficientlyFlowControlComplete():
-'''public boolean isSufficientlyFlowControlComplete(final WO wo, final String reltypeToSuccessor, final int contemplatedAction)
-public boolean isSufficientlyFlowControlComplete(final WO wo, final String status, final String reltypeToSuccessor, final int contemplatedAction)
-'''
-pass
+    '''    public boolean isSufficientlyFlowControlComplete(final WO wo, final String reltypeToSuccessor, final int contemplatedAction)
+    public boolean isSufficientlyFlowControlComplete(final WO wo, final String status, final String reltypeToSuccessor, final int contemplatedAction)
+    '''
 def getChildPFCOrder():
-'''public Vector getChildPFCOrder(final boolean getChildrenWOs, final boolean appendSiteid)
-'''
-pass
+    '''    public Vector getChildPFCOrder(final boolean getChildrenWOs, final boolean appendSiteid)
+    '''
 def findPredecessorPosition():
-'''public int findPredecessorPosition(final Vector vector2Search, final String wonum, final Hashtable htNetwork)
-'''
-pass
+    '''    public int findPredecessorPosition(final Vector vector2Search, final String wonum, final Hashtable htNetwork)
+    '''
 def bulkReschedule():
-'''public void bulkReschedule(final boolean resched, final Date reschedDate, final boolean fromListTab)
-public void bulkReschedule(final boolean resched, final Date reschedDate)
-'''
-pass
+    '''    public void bulkReschedule(final boolean resched, final Date reschedDate, final boolean fromListTab)
+    public void bulkReschedule(final boolean resched, final Date reschedDate)
+    '''
 def getRescheduled():
-'''public int getRescheduled()
-'''
-pass
+    '''    public int getRescheduled()
+    '''
 def getUnassigned():
-'''public int getUnassigned()
-'''
-pass
+    '''    public int getUnassigned()
+    '''
 def unassignWOAssignments():
-'''public void unassignWOAssignments(AssignmentSet assignSet, final Date reschedDate)
-'''
-pass
+    '''    public void unassignWOAssignments(AssignmentSet assignSet, final Date reschedDate)
+    '''
 def unassignAssignments():
-'''public void unassignAssignments(final AssignmentSet assignSet, final Date reschedDate)
-'''
-pass
+    '''    public void unassignAssignments(final AssignmentSet assignSet, final Date reschedDate)
+    '''
 def rescheduleAssignments():
-'''public void rescheduleAssignments(AssignmentSet assignSet, final Date reschedDate, final boolean fromListTab)
-public void rescheduleAssignments(final AssignmentSet assignSet, final Date reschedDate)
-'''
-pass
+    '''    public void rescheduleAssignments(AssignmentSet assignSet, final Date reschedDate, final boolean fromListTab)
+    public void rescheduleAssignments(final AssignmentSet assignSet, final Date reschedDate)
+    '''
 def getLCRSqlFormatHashMap():
-'''public HashMap getLCRSqlFormatHashMap(final AssignmentSet assignSet)
-'''
-pass
+    '''    public HashMap getLCRSqlFormatHashMap(final AssignmentSet assignSet)
+    '''
 def calculateScheduleFinishDate():
-'''public Date calculateScheduleFinishDate(final WO wo, final Date schedStartDate)
-'''
-pass
+    '''    public Date calculateScheduleFinishDate(final WO wo, final Date schedStartDate)
+    '''
 def setWOScheduleDates():
-'''public void setWOScheduleDates(final WO wo, Date schedStartDate)
-public void setWOScheduleDates(final WO wo, Date schedStartDate, final double duration)
-'''
-pass
+    '''    public void setWOScheduleDates(final WO wo, Date schedStartDate)
+    public void setWOScheduleDates(final WO wo, Date schedStartDate, final double duration)
+    '''
 def restoreSplitAssignments():
-'''public AssignmentSet restoreSplitAssignments(AssignmentSet assignSet)
-'''
-pass
+    '''    public AssignmentSet restoreSplitAssignments(AssignmentSet assignSet)
+    '''
 def getToplevelParentAssign():
-'''public Assignment getToplevelParentAssign(Assignment assign, final AssignmentSet assignSet, final HashMap assignIndexMap)
-'''
-pass
+    '''    public Assignment getToplevelParentAssign(Assignment assign, final AssignmentSet assignSet, final HashMap assignIndexMap)
+    '''
 def removeCompleteStartedAssigns():
-'''public AssignmentSet removeCompleteStartedAssigns(final AssignmentSet assignSet, final HashMap assignIndexMap)
-'''
-pass
+    '''    public AssignmentSet removeCompleteStartedAssigns(final AssignmentSet assignSet, final HashMap assignIndexMap)
+    '''
 def applyToAllUser():
-'''public void applyToAllUser(final MboRemote woModUser)
-'''
-pass
+    '''    public void applyToAllUser(final MboRemote woModUser)
+    '''
 def setPrimaryLinearAssetFieldsReadOnly():
-'''public void setPrimaryLinearAssetFieldsReadOnly(MultiAssetLocCIRemote multiAssetMbo, final boolean readonlystate)
-'''
-pass
+    '''    public void setPrimaryLinearAssetFieldsReadOnly(MultiAssetLocCIRemote multiAssetMbo, final boolean readonlystate)
+    '''
 def clearPrimaryLinearAssetFields():
-'''public void clearPrimaryLinearAssetFields(final MultiAssetLocCIRemote multiAssetMbo)
-'''
-pass
+    '''    public void clearPrimaryLinearAssetFields(final MultiAssetLocCIRemote multiAssetMbo)
+    '''
 def copyLinearAssetFieldsFromRouteStop():
-'''public void copyLinearAssetFieldsFromRouteStop(final MboRemote toMbo, final MboRemote routestop)
-'''
-pass
+    '''    public void copyLinearAssetFieldsFromRouteStop(final MboRemote toMbo, final MboRemote routestop)
+    '''
 def setRemoveWorkPlanFlag():
-'''public void setRemoveWorkPlanFlag(final boolean removeWorkplan)
-'''
-pass
+    '''    public void setRemoveWorkPlanFlag(final boolean removeWorkplan)
+    '''
 def getRemoveWorkPlanFlag():
-'''public boolean getRemoveWorkPlanFlag()
-'''
-pass
+    '''    public boolean getRemoveWorkPlanFlag()
+    '''
 def getTopOwner():
-'''public MboRemote getTopOwner()
-'''
-pass
+    '''    public MboRemote getTopOwner()
+    '''
 def checkCompStatus():
-'''public void checkCompStatus()
-'''
-pass
+    '''    public void checkCompStatus()
+    '''
 def doClassificationCreateTicketViews():
-'''public void doClassificationCreateTicketViews(final MboRemote newMbo)
-'''
-pass
+    '''    public void doClassificationCreateTicketViews(final MboRemote newMbo)
+    '''
 def doClassificationCreateWOViews():
-'''public void doClassificationCreateWOViews(final MboRemote newMbo)
-'''
-pass
+    '''    public void doClassificationCreateWOViews(final MboRemote newMbo)
+    '''
 def doClassificationCreateWOSpecFromJobPlan():
-'''public void doClassificationCreateWOSpecFromJobPlan(final MboRemote newMbo, final MboRemote sourceMbo)
-'''
-pass
+    '''    public void doClassificationCreateWOSpecFromJobPlan(final MboRemote newMbo, final MboRemote sourceMbo)
+    '''
 def CheckOrigIsFollowup():
-'''public void CheckOrigIsFollowup()
-'''
-pass
+    '''    public void CheckOrigIsFollowup()
+    '''
 def clearSkipCopyFields():
-'''public void clearSkipCopyFields()
-'''
-pass
+    '''    public void clearSkipCopyFields()
+    '''
 def routeStopExists():
-'''public boolean routeStopExists()
-'''
-pass
+    '''    public boolean routeStopExists()
+    '''
 def isListSelected():
-'''public boolean isListSelected()
-'''
-pass
+    '''    public boolean isListSelected()
+    '''
 def setListSelected():
-'''public void setListSelected(final boolean isListSelected)
-'''
-pass
+    '''    public void setListSelected(final boolean isListSelected)
+    '''
 def getCopydocMboSet():
-'''public MboSetRemote getCopydocMboSet(String name)
-'''
-pass
+    '''    public MboSetRemote getCopydocMboSet(String name)
+    '''
 def setAvailibilityStatus():
-'''public MTLStatus setAvailibilityStatus(final boolean changeStatus)
-'''
-pass
+    '''    public MTLStatus setAvailibilityStatus(final boolean changeStatus)
+    '''
 def setStoreroomStatus():
-'''public MTLStatus setStoreroomStatus(final boolean changeStatus)
-'''
-pass
+    '''    public MTLStatus setStoreroomStatus(final boolean changeStatus)
+    '''
 def setDirectIssueStatus():
-'''public MTLStatus setDirectIssueStatus()
-'''
-pass
+    '''    public MTLStatus setDirectIssueStatus()
+    '''
 def setChildrenStatus():
-'''public MTLStatus setChildrenStatus(final MTLStatus storeroomStatus, final MTLStatus directIssueStatus, final boolean changeStatus)
-'''
-pass
+    '''    public MTLStatus setChildrenStatus(final MTLStatus storeroomStatus, final MTLStatus directIssueStatus, final boolean changeStatus)
+    '''
 def setMaterialAvailStatus():
-'''public MTLStatus setMaterialAvailStatus()
-'''
-pass
+    '''    public MTLStatus setMaterialAvailStatus()
+    '''
 def smartFillForAllSites():
-'''public MboSetRemote smartFillForAllSites(final String attribute, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFillForAllSites(final String attribute, final String value, final boolean exact)
+    '''
 def smartFindForAllSites():
-'''public MboSetRemote smartFindForAllSites(final String attribute, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindForAllSites(final String attribute, final String value, final boolean exact)
+    '''
 def isRevEnabled():
-'''public boolean isRevEnabled()
-'''
-pass
+    '''    public boolean isRevEnabled()
+    '''
 def isCalibrationInstalled():
-'''public boolean isCalibrationInstalled()
-'''
-pass
+    '''    public boolean isCalibrationInstalled()
+    '''
 def isFromMobile():
-'''public boolean isFromMobile()
-'''
-pass
+    '''    public boolean isFromMobile()
+    '''
 def setFromMobile():
-'''public void setFromMobile(final boolean isFromMobile)
-'''
-pass
+    '''    public void setFromMobile(final boolean isFromMobile)
+    '''
 def setCompleteWOFromEveryplace():
-'''public void setCompleteWOFromEveryplace(boolean completeWOFromEveryplace)
-'''
-pass
+    '''    public void setCompleteWOFromEveryplace(boolean completeWOFromEveryplace)
+    '''
 def manageCircleEffect():
-'''public void manageCircleEffect(final MboRemote thisToolTrans)
-'''
-pass
+    '''    public void manageCircleEffect(final MboRemote thisToolTrans)
+    '''
 def getWorkTypeCal():
-'''public String getWorkTypeCal()
-'''
-pass
+    '''    public String getWorkTypeCal()
+    '''
 def getTranslatedWorkTypeCal():
-'''public String getTranslatedWorkTypeCal()
-'''
-pass
+    '''    public String getTranslatedWorkTypeCal()
+    '''
 def getJobRevNum():
-'''public String getJobRevNum(final Mbo PlusCWO)
-'''
-pass
+    '''    public String getJobRevNum(final Mbo PlusCWO)
+    '''
 def isValidJPRevNum():
-'''public boolean isValidJPRevNum(final String jpNum, final String revNum)
-'''
-pass
+    '''    public boolean isValidJPRevNum(final String jpNum, final String revNum)
+    '''
 def getWorkType():
-'''public String getWorkType()
-'''
-pass
+    '''    public String getWorkType()
+    '''
 def checkRequiredDatasheets():
-'''public boolean checkRequiredDatasheets()
-'''
-pass
+    '''    public boolean checkRequiredDatasheets()
+    '''
 def duplicateWODS():
-'''public MboRemote duplicateWODS(final MboRemote newWO)
-'''
-pass
+    '''    public MboRemote duplicateWODS(final MboRemote newWO)
+    '''
 def canEditRelatedSetCal():
-'''public void canEditRelatedSetCal(final String relationName)
-'''
-pass
+    '''    public void canEditRelatedSetCal(final String relationName)
+    '''
 def canEditAsFoundAsLeftFields():
-'''public boolean canEditAsFoundAsLeftFields()
-'''
-pass
+    '''    public boolean canEditAsFoundAsLeftFields()
+    '''
 def copyJobPlanToWorkPlanCal():
-'''public void copyJobPlanToWorkPlanCal()
-'''
-pass
+    '''    public void copyJobPlanToWorkPlanCal()
+    '''
 def copyDSPlanToWO():
-'''public void copyDSPlanToWO(final Mbo ds)
-'''
-pass
+    '''    public void copyDSPlanToWO(final Mbo ds)
+    '''
 def updatePreviousAsLeftValues():
-'''public void updatePreviousAsLeftValues()
-'''
-pass
+    '''    public void updatePreviousAsLeftValues()
+    '''
 def isTolWarning():
-'''public boolean isTolWarning()
-'''
-pass
+    '''    public boolean isTolWarning()
+    '''
 def canEditAsset():
-'''public boolean canEditAsset()
-'''
-pass
+    '''    public boolean canEditAsset()
+    '''
 def changeStatusCal():
-'''public void changeStatusCal(final String status, final Date date, final String memo, final long accessModifier, final boolean comingFromReceiving)
-'''
-pass
+    '''    public void changeStatusCal(final String status, final Date date, final String memo, final long accessModifier, final boolean comingFromReceiving)
+    '''
 def managePlusCNextDate():
-'''public void managePlusCNextDate()
-'''
-pass
+    '''    public void managePlusCNextDate()
+    '''
 def getLoopRotAsset():
-'''public MboRemote getLoopRotAsset(final MboRemote toolMbo)
-'''
-pass
+    '''    public MboRemote getLoopRotAsset(final MboRemote toolMbo)
+    '''
 def validateRotatingAsset():
-'''public boolean validateRotatingAsset(final MboRemote toolMbo)
-'''
-pass
+    '''    public boolean validateRotatingAsset(final MboRemote toolMbo)
+    '''
 def generateWORelRecord():
-'''public void generateWORelRecord(final WORemote oldWO)
-'''
-pass
+    '''    public void generateWORelRecord(final WORemote oldWO)
+    '''
 def checkWorkPackStatus():
-'''public void checkWorkPackStatus()
-'''
-pass
+    '''    public void checkWorkPackStatus()
+    '''
 def parentMbo():
-'''public MboRemote parentMbo(final String wonum)
-'''
-pass
+    '''    public MboRemote parentMbo(final String wonum)
+    '''
 def updateHierarchyWPStatus():
-'''public MboRemote updateHierarchyWPStatus(final MboRemote parentMbo, final MboRemote mainMbo, final String previousParentValue, final Boolean parentChanged)
-'''
-pass
+    '''    public MboRemote updateHierarchyWPStatus(final MboRemote parentMbo, final MboRemote mainMbo, final String previousParentValue, final Boolean parentChanged)
+    '''
 def refreshWorkPackHierarchy():
-'''public void refreshWorkPackHierarchy()
-public void refreshWorkPackHierarchy(final WORemote mbo)
-'''
-pass
+    '''    public void refreshWorkPackHierarchy()
+    public void refreshWorkPackHierarchy(final WORemote mbo)
+    '''
 def setPMWOCancelUserListResponse():
-'''public void setPMWOCancelUserListResponse(final boolean response)
-'''
-pass
+    '''    public void setPMWOCancelUserListResponse(final boolean response)
+    '''
 def getPMWOCancelUserListResponse():
-'''public boolean getPMWOCancelUserListResponse()
-'''
-pass
+    '''    public boolean getPMWOCancelUserListResponse()
+    '''
 def canDeleteAttachedDocs():
-'''public void canDeleteAttachedDocs()
-'''
-pass
+    '''    public void canDeleteAttachedDocs()
+    '''
 def getWOServiceAddress():
-'''public WOServiceAddressRemote getWOServiceAddress()
-'''
-pass
+    '''    public WOServiceAddressRemote getWOServiceAddress()
+    '''
 def hasServiceAddress():
-'''public boolean hasServiceAddress()
-'''
-pass
+    '''    public boolean hasServiceAddress()
+    '''
 def getServiceAddress():
-'''public WOServiceAddressRemote getServiceAddress()
-'''
-pass
+    '''    public WOServiceAddressRemote getServiceAddress()
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def saveGISData():
-'''public void saveGISData(final String address, final String lat, final String lng)
-'''
-pass
+    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''
 def updateChildrensServiceAddress():
-'''public void updateChildrensServiceAddress(final WO currentWO)
-'''
-pass
+    '''    public void updateChildrensServiceAddress(final WO currentWO)
+    '''
 def getAmCrewLabor():
-'''public MboRemote getAmCrewLabor(final String laborCode, final String laborOrg)
-'''
-pass
+    '''    public MboRemote getAmCrewLabor(final String laborCode, final String laborOrg)
+    '''
 def getAmCrew():
-'''public MboRemote getAmCrew(final String crew, final String laborOrg)
-'''
-pass
+    '''    public MboRemote getAmCrew(final String crew, final String laborOrg)
+    '''
 def getAmCrewLaborSet():
-'''public MboSetRemote getAmCrewLaborSet(final String crew, final String laborOrg)
-'''
-pass
+    '''    public MboSetRemote getAmCrewLaborSet(final String crew, final String laborOrg)
+    '''
 def isMobileCrew():
-'''public boolean isMobileCrew(final String laborCode, final String laborOrg)
-'''
-pass
+    '''    public boolean isMobileCrew(final String laborCode, final String laborOrg)
+    '''
 def isCrew():
-'''public boolean isCrew(final String laborCode, final String laborOrg)
-'''
-pass
+    '''    public boolean isCrew(final String laborCode, final String laborOrg)
+    '''
 def createToolTransEveryplace():
-'''public void createToolTransEveryplace(final MboRemote labTransMbo)
-'''
-pass
+    '''    public void createToolTransEveryplace(final MboRemote labTransMbo)
+    '''
 def getAmCrewToolSet():
-'''public MboSetRemote getAmCrewToolSet(final String crew)
-'''
-pass
+    '''    public MboSetRemote getAmCrewToolSet(final String crew)
+    '''
 def getAutoLocateObject():
-'''public MboRemote getAutoLocateObject()
-public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
-'''
-pass
+    '''    public MboRemote getAutoLocateObject()
+    public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
+    '''
 def hasCoords():
-'''public Boolean hasCoords()
-'''
-pass
+    '''    public Boolean hasCoords()
+    '''
 def setClearLBSLocation():
-'''public void setClearLBSLocation(final boolean setLocation)
-'''
-pass
+    '''    public void setClearLBSLocation(final boolean setLocation)
+    '''
 def setPMWOCancelUserMainAndChildren():
-'''public void setPMWOCancelUserMainAndChildren(final int response)
-'''
-pass
+    '''    public void setPMWOCancelUserMainAndChildren(final int response)
+    '''
 def getPMWOCancelUserMainAndChildren():
-'''public int getPMWOCancelUserMainAndChildren()
-'''
-pass
+    '''    public int getPMWOCancelUserMainAndChildren()
+    '''
 def setWoOwnerDuringStatusChange():
-'''public void setWoOwnerDuringStatusChange(final MboRemote parentWO)
-'''
-pass
+    '''    public void setWoOwnerDuringStatusChange(final MboRemote parentWO)
+    '''
 def getWoOwnerDuringStatusChange():
-'''public MboRemote getWoOwnerDuringStatusChange()
-'''
-pass
+    '''    public MboRemote getWoOwnerDuringStatusChange()
+    '''
 def checkForActiveLabTrans():
-'''public boolean checkForActiveLabTrans()
-'''
-pass
+    '''    public boolean checkForActiveLabTrans()
+    '''
 def copyCrewTypeToWpLaborSet():
-'''public void copyCrewTypeToWpLaborSet(final MboSetRemote crewTypeSet)
-'''
-pass
+    '''    public void copyCrewTypeToWpLaborSet(final MboSetRemote crewTypeSet)
+    '''
 def setStoreroomStatusWOGen():
-'''public MTLStatus setStoreroomStatusWOGen(final boolean changeStatus)
-'''
-pass
+    '''    public MTLStatus setStoreroomStatusWOGen(final boolean changeStatus)
+    '''
 def setDirectIssueStatusWOGen():
-'''public MTLStatus setDirectIssueStatusWOGen()
-'''
-pass
+    '''    public MTLStatus setDirectIssueStatusWOGen()
+    '''
 def checkSynonymStatusDate():
-'''public void checkSynonymStatusDate(final String status, Date date)
-'''
-pass
+    '''    public void checkSynonymStatusDate(final String status, Date date)
+    '''
 def getTargStartDate():
-'''public Date getTargStartDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getTargStartDate(final Date date, final String calledFromFlag)
+    '''
 def getPMNextDate():
-'''public Date getPMNextDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMNextDate(final Date date, final String calledFromFlag)
+    '''
 def getPMExtDate():
-'''public Date getPMExtDate(final Date date, final String calledFromFlag)
-'''
-pass
+    '''    public Date getPMExtDate(final Date date, final String calledFromFlag)
+    '''
 def getSharedMatUseTransSet():
-'''public MboSetRemote getSharedMatUseTransSet(final MboRemote wpm)
-'''
-pass
+    '''    public MboSetRemote getSharedMatUseTransSet(final MboRemote wpm)
+    '''
 def isFullyIssued():
-'''public boolean isFullyIssued(final MboRemote wpm)
-'''
-pass
+    '''    public boolean isFullyIssued(final MboRemote wpm)
+    '''
 def ProcessParentInVector():
-'''public void ProcessParentInVector(final MboRemote currentParent)
-'''
-pass
+    '''    public void ProcessParentInVector(final MboRemote currentParent)
+    '''
 def isPartiallyIssued():
-'''public boolean isPartiallyIssued(final MboRemote wpm)
-'''
-pass
+    '''    public boolean isPartiallyIssued(final MboRemote wpm)
+    '''
 def hasUndeleteFRCompleted():
-'''public boolean hasUndeleteFRCompleted()
-'''
-pass
+    '''    public boolean hasUndeleteFRCompleted()
+    '''
 def fireEvent():
-'''public synchronized void fireEvent(final String type)
-'''
-pass
+    '''    public synchronized void fireEvent(final String type)
+    '''
 def getAvailableLabor():
-'''public MboSetRemote getAvailableLabor()
-'''
-pass
+    '''    public MboSetRemote getAvailableLabor()
+    '''
 def setChangeStatusSet():
-'''public void setChangeStatusSet(final MboSetRemote changeStatusSet)
-'''
-pass
+    '''    public void setChangeStatusSet(final MboSetRemote changeStatusSet)
+    '''
 def getChangeStatusSet():
-'''public MboSetRemote getChangeStatusSet()
-'''
-pass
+    '''    public MboSetRemote getChangeStatusSet()
+    '''
 def canCreateRelatedRecord():
-'''public boolean canCreateRelatedRecord()
-'''
-pass
+    '''    public boolean canCreateRelatedRecord()
+    '''
 def setTopWOInWOGen():
-'''public void setTopWOInWOGen(final MboRemote topWO)
-'''
-pass
+    '''    public void setTopWOInWOGen(final MboRemote topWO)
+    '''
 def getTopWOInWOGen():
-'''public MboRemote getTopWOInWOGen()
-'''
-pass
+    '''    public MboRemote getTopWOInWOGen()
+    '''
 def getUnCommittedWOs():
-'''public Vector getUnCommittedWOs()
-'''
-pass
+    '''    public Vector getUnCommittedWOs()
+    '''
 def storeUnCommittedWOs():
-'''public void storeUnCommittedWOs(final MboRemote childWO)
-'''
-pass
+    '''    public void storeUnCommittedWOs(final MboRemote childWO)
+    '''
 def setAsyncChangeStatus():
-'''public void setAsyncChangeStatus()
-'''
-pass
+    '''    public void setAsyncChangeStatus()
+    '''
 def isAsyncStatusChange():
-'''public boolean isAsyncStatusChange()
-'''
-pass
+    '''    public boolean isAsyncStatusChange()
+    '''
 def setAppDefaultValue():
-'''public void setAppDefaultValue()
-'''
-pass
+    '''    public void setAppDefaultValue()
+    '''
 def initMXYesNoHash():
-'''public void initMXYesNoHash(final HashMap<String, MXApplicationYesNoCancelException> hash)
-'''
-pass
+    '''    public void initMXYesNoHash(final HashMap<String, MXApplicationYesNoCancelException> hash)
+    '''
 def getMXYesNoHash():
-'''public HashMap<String, MXApplicationYesNoCancelException> getMXYesNoHash()
-'''
-pass
+    '''    public HashMap<String, MXApplicationYesNoCancelException> getMXYesNoHash()
+    '''
 def setMustApplyDJP():
-'''public void setMustApplyDJP(final boolean mustApplyDJP)
-'''
-pass
+    '''    public void setMustApplyDJP(final boolean mustApplyDJP)
+    '''
 def mustApplyDJP():
-'''public boolean mustApplyDJP()
-'''
-pass
+    '''    public boolean mustApplyDJP()
+    '''
 def calculateDynamicJobPlan():
-'''public void calculateDynamicJobPlan()
-'''
-pass
+    '''    public void calculateDynamicJobPlan()
+    '''
 def mustApplyLinearCalculation():
-'''public boolean mustApplyLinearCalculation()
-'''
-pass
+    '''    public boolean mustApplyLinearCalculation()
+    '''
 def calculateTotalWorkUnitsFor():
-'''public void calculateTotalWorkUnitsFor(final MboRemote multiAssetLocCI, final String unitOfWork)
-'''
-pass
+    '''    public void calculateTotalWorkUnitsFor(final MboRemote multiAssetLocCI, final String unitOfWork)
+    '''
 def calculateTotalWorkUnits():
-'''public void calculateTotalWorkUnits()
-'''
-pass
+    '''    public void calculateTotalWorkUnits()
+    '''
 def isCalculationAppliedSuccessfully():
-'''public boolean isCalculationAppliedSuccessfully()
-'''
-pass
+    '''    public boolean isCalculationAppliedSuccessfully()
+    '''
 def getWorkLog():
-'''public MboSetRemote getWorkLog()
-'''
-pass
+    '''    public MboSetRemote getWorkLog()
+    '''
 def getWoHazardPrecHashMap():
-'''public Map getWoHazardPrecHashMap()
-'''
-pass
+    '''    public Map getWoHazardPrecHashMap()
+    '''
 def incrementWoHazardPrecHashMap():
-'''public void incrementWoHazardPrecHashMap(final String precautionid)
-'''
-pass
+    '''    public void incrementWoHazardPrecHashMap(final String precautionid)
+    '''
 def decrementWoHazardPrecHashMap():
-'''public void decrementWoHazardPrecHashMap(final String precautionid)
-'''
-pass
+    '''    public void decrementWoHazardPrecHashMap(final String precautionid)
+    '''
 def compareJPTask():
-'''public compareJPTask()
-'''
-pass
+    '''    public compareJPTask()
+    '''
 def compare():
-'''public int compare(final MboRemote m1, final MboRemote m2)
-'''
-pass
+    '''    public int compare(final MboRemote m1, final MboRemote m2)
+    '''

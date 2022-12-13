@@ -1,4 +1,3 @@
 def InspFieldResultSet():
-'''public InspFieldResultSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspFieldResultSet(final MboServerInterface ms)
+    '''

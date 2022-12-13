@@ -1,4 +1,3 @@
 def ValidationConsistencyException():
-'''public ValidationConsistencyException(final String message)
-'''
-pass
+    '''    public ValidationConsistencyException(final String message)
+    '''

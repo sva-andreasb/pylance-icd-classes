@@ -1,64 +1,48 @@
 def getBidiConfig():
-'''public String getBidiConfig()
-'''
-pass
+    '''    public String getBidiConfig()
+    '''
 def setBidiConfig():
-'''public void setBidiConfig(final String config)
-'''
-pass
+    '''    public void setBidiConfig(final String config)
+    '''
 def getSystemName():
-'''public String getSystemName()
-'''
-pass
+    '''    public String getSystemName()
+    '''
 def setSystemName():
-'''public void setSystemName(final String n)
-'''
-pass
+    '''    public void setSystemName(final String n)
+    '''
 def setEnabled():
-'''public void setEnabled(final int e)
-'''
-pass
+    '''    public void setEnabled(final int e)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def setQueueNameOut():
-'''public void setQueueNameOut(final String queueNameOut)
-'''
-pass
+    '''    public void setQueueNameOut(final String queueNameOut)
+    '''
 def getQueueNameOut():
-'''public String getQueueNameOut()
-'''
-pass
+    '''    public String getQueueNameOut()
+    '''
 def setQueueNameInSeq():
-'''public void setQueueNameInSeq(final String q)
-'''
-pass
+    '''    public void setQueueNameInSeq(final String q)
+    '''
 def getQueueNameInSeq():
-'''public String getQueueNameInSeq()
-'''
-pass
+    '''    public String getQueueNameInSeq()
+    '''
 def setQueueNameInCont():
-'''public void setQueueNameInCont(final String q)
-'''
-pass
+    '''    public void setQueueNameInCont(final String q)
+    '''
 def getQueueNameInCont():
-'''public String getQueueNameInCont()
-'''
-pass
+    '''    public String getQueueNameInCont()
+    '''
 def setEndPointName():
-'''public void setEndPointName(final String endPointName)
-'''
-pass
+    '''    public void setEndPointName(final String endPointName)
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def setJMSMessageEncoding():
-'''public void setJMSMessageEncoding(final String jmsmsgenc)
-'''
-pass
+    '''    public void setJMSMessageEncoding(final String jmsmsgenc)
+    '''
 def getJMSMessageEncoding():
-'''public String getJMSMessageEncoding()
-'''
-pass
+    '''    public String getJMSMessageEncoding()
+    '''

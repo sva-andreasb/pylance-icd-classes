@@ -1,168 +1,126 @@
 def getEcoreModelElement():
-'''public EModelElement getEcoreModelElement()
-'''
-pass
+    '''    public EModelElement getEcoreModelElement()
+    '''
 def getTypeGenPackage():
-'''public GenPackage getTypeGenPackage()
-'''
-pass
+    '''    public GenPackage getTypeGenPackage()
+    '''
 def getTypeClassifierAccessorName():
-'''public String getTypeClassifierAccessorName()
-'''
-pass
+    '''    public String getTypeClassifierAccessorName()
+    '''
 def getTypeClassifier():
-'''public String getTypeClassifier()
-'''
-pass
+    '''    public String getTypeClassifier()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getImportedType():
-'''public String getImportedType()
-'''
-pass
+    '''    public String getImportedType()
+    '''
 def getObjectType():
-'''public String getObjectType()
-'''
-pass
+    '''    public String getObjectType()
+    '''
 def getImportedInternalType():
-'''public String getImportedInternalType()
-'''
-pass
+    '''    public String getImportedInternalType()
+    '''
 def isFeatureMapType():
-'''public boolean isFeatureMapType()
-'''
-pass
+    '''    public boolean isFeatureMapType()
+    '''
 def isWrappedFeatureMapType():
-'''public boolean isWrappedFeatureMapType()
-'''
-pass
+    '''    public boolean isWrappedFeatureMapType()
+    '''
 def isFeatureMapWrapped():
-'''public boolean isFeatureMapWrapped()
-'''
-pass
+    '''    public boolean isFeatureMapWrapped()
+    '''
 def isEffectiveSuppressEMFTypes():
-'''public boolean isEffectiveSuppressEMFTypes()
-'''
-pass
+    '''    public boolean isEffectiveSuppressEMFTypes()
+    '''
 def getImportedEffectiveFeatureMapWrapperInternalInterface():
-'''public String getImportedEffectiveFeatureMapWrapperInternalInterface()
-'''
-pass
+    '''    public String getImportedEffectiveFeatureMapWrapperInternalInterface()
+    '''
 def getImportedEffectiveFeatureMapWrapperClass():
-'''public String getImportedEffectiveFeatureMapWrapperClass()
-'''
-pass
+    '''    public String getImportedEffectiveFeatureMapWrapperClass()
+    '''
 def isListType():
-'''public boolean isListType()
-'''
-pass
+    '''    public boolean isListType()
+    '''
 def getListItemType():
-'''public String getListItemType()
-'''
-pass
+    '''    public String getListItemType()
+    '''
 def getQualifiedListItemType():
-'''public String getQualifiedListItemType()
-'''
-pass
+    '''    public String getQualifiedListItemType()
+    '''
 def isMapType():
-'''public boolean isMapType()
-'''
-pass
+    '''    public boolean isMapType()
+    '''
 def getMapEntryTypeGenClass():
-'''public GenClass getMapEntryTypeGenClass()
-'''
-pass
+    '''    public GenClass getMapEntryTypeGenClass()
+    '''
 def getImportedMapEntryType():
-'''public String getImportedMapEntryType()
-'''
-pass
+    '''    public String getImportedMapEntryType()
+    '''
 def getMapGenClass():
-'''public GenClass getMapGenClass()
-'''
-pass
+    '''    public GenClass getMapGenClass()
+    '''
 def getMapItemType():
-'''public String getMapItemType()
-'''
-pass
+    '''    public String getMapItemType()
+    '''
 def getEObjectCast():
-'''public String getEObjectCast()
-'''
-pass
+    '''    public String getEObjectCast()
+    '''
 def getInternalTypeCast():
-'''public String getInternalTypeCast()
-'''
-pass
+    '''    public String getInternalTypeCast()
+    '''
 def isPrimitiveType():
-'''public boolean isPrimitiveType()
-'''
-pass
+    '''    public boolean isPrimitiveType()
+    '''
 def getPrimitiveValueFunction():
-'''public String getPrimitiveValueFunction()
-'''
-pass
+    '''    public String getPrimitiveValueFunction()
+    '''
 def isBooleanType():
-'''public boolean isBooleanType()
-'''
-pass
+    '''    public boolean isBooleanType()
+    '''
 def isStringType():
-'''public boolean isStringType()
-'''
-pass
+    '''    public boolean isStringType()
+    '''
 def isStringBasedType():
-'''public boolean isStringBasedType()
-'''
-pass
+    '''    public boolean isStringBasedType()
+    '''
 def isEnumType():
-'''public boolean isEnumType()
-'''
-pass
+    '''    public boolean isEnumType()
+    '''
 def isEnumBasedType():
-'''public boolean isEnumBasedType()
-'''
-pass
+    '''    public boolean isEnumBasedType()
+    '''
 def getTypeGenEnum():
-'''public GenEnum getTypeGenEnum()
-'''
-pass
+    '''    public GenEnum getTypeGenEnum()
+    '''
 def getTypeGenDataType():
-'''public GenDataType getTypeGenDataType()
-'''
-pass
+    '''    public GenDataType getTypeGenDataType()
+    '''
 def getTypeGenClass():
-'''public GenClass getTypeGenClass()
-'''
-pass
+    '''    public GenClass getTypeGenClass()
+    '''
 def getGenEnumType():
-'''public GenEnum getGenEnumType()
-'''
-pass
+    '''    public GenEnum getGenEnumType()
+    '''
 def getGenDataTypeType():
-'''public GenDataType getGenDataTypeType()
-'''
-pass
+    '''    public GenDataType getGenDataTypeType()
+    '''
 def getGenClassType():
-'''public GenClass getGenClassType()
-'''
-pass
+    '''    public GenClass getGenClassType()
+    '''
 def getLowerBound():
-'''public String getLowerBound()
-'''
-pass
+    '''    public String getLowerBound()
+    '''
 def getUpperBound():
-'''public String getUpperBound()
-'''
-pass
+    '''    public String getUpperBound()
+    '''
 def isUnique():
-'''public boolean isUnique()
-'''
-pass
+    '''    public boolean isUnique()
+    '''
 def getUniqueFlag():
-'''public String getUniqueFlag()
-'''
-pass
+    '''    public String getUniqueFlag()
+    '''
 def getOrderedFlag():
-'''public String getOrderedFlag()
-'''
-pass
+    '''    public String getOrderedFlag()
+    '''

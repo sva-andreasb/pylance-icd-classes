@@ -1,16 +1,12 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def INSERT():
-'''public int INSERT()
-'''
-pass
+    '''    public int INSERT()
+    '''
 def CLEAR():
-'''public int CLEAR()
-'''
-pass
+    '''    public int CLEAR()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

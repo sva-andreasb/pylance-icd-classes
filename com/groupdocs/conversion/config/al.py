@@ -1,37 +1,28 @@
 def al():
-'''public al(final BufferedImage image, final an a)
-'''
-pass
+    '''    public al(final BufferedImage image, final an a)
+    '''
 def a():
-'''public an a()
-public void a(final an a)
-'''
-pass
+    '''    public an a()
+    public void a(final an a)
+    '''
 def getImage():
-'''public BufferedImage getImage()
-'''
-pass
+    '''    public BufferedImage getImage()
+    '''
 def setImage():
-'''public void setImage(final BufferedImage image)
-'''
-pass
+    '''    public void setImage(final BufferedImage image)
+    '''
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''
 def getHeight():
-'''public int getHeight()
-'''
-pass
+    '''    public int getHeight()
+    '''
 def ai():
-'''public int ai()
-'''
-pass
+    '''    public int ai()
+    '''
 def aq():
-'''public int aq()
-'''
-pass
+    '''    public int aq()
+    '''
 def ap():
-'''public boolean ap()
-'''
-pass
+    '''    public boolean ap()
+    '''

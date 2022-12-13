@@ -1,4 +1,3 @@
 def CognosReferenceExpressionHelper():
-'''public CognosReferenceExpressionHelper()
-'''
-pass
+    '''    public CognosReferenceExpressionHelper()
+    '''

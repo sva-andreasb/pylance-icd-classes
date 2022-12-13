@@ -1,4 +1,3 @@
 def PPCraftRateSet():
-'''public PPCraftRateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PPCraftRateSet(final MboServerInterface ms)
+    '''

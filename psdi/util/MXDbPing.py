@@ -1,8 +1,6 @@
 def MXDbPing():
-'''public MXDbPing()
-'''
-pass
+    '''    public MXDbPing()
+    '''
 def main():
-'''public static void main(final String[] argv)
-'''
-pass
+    '''    public static void main(final String[] argv)
+    '''

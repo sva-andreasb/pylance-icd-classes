@@ -1,4 +1,3 @@
 def selectRelationRules():
-'''public int selectRelationRules()
-'''
-pass
+    '''    public int selectRelationRules()
+    '''

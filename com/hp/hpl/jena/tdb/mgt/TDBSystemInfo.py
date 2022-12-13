@@ -1,28 +1,21 @@
 def getBlockSize():
-'''public int getBlockSize()
-'''
-pass
+    '''    public int getBlockSize()
+    '''
 def getSegmentSize():
-'''public int getSegmentSize()
-'''
-pass
+    '''    public int getSegmentSize()
+    '''
 def getSyncTick():
-'''public int getSyncTick()
-'''
-pass
+    '''    public int getSyncTick()
+    '''
 def getBlockReadCacheSize():
-'''public int getBlockReadCacheSize()
-'''
-pass
+    '''    public int getBlockReadCacheSize()
+    '''
 def getBlockWriteCacheSize():
-'''public int getBlockWriteCacheSize()
-'''
-pass
+    '''    public int getBlockWriteCacheSize()
+    '''
 def getNode2NodeIdCacheSize():
-'''public int getNode2NodeIdCacheSize()
-'''
-pass
+    '''    public int getNode2NodeIdCacheSize()
+    '''
 def getNodeId2NodeCacheSize():
-'''public int getNodeId2NodeCacheSize()
-'''
-pass
+    '''    public int getNodeId2NodeCacheSize()
+    '''

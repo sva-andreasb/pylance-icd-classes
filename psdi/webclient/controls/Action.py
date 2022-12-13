@@ -1,12 +1,9 @@
 def instantiatedatasrc():
-'''public void instantiatedatasrc()
-'''
-pass
+    '''    public void instantiatedatasrc()
+    '''
 def action():
-'''public int action()
-'''
-pass
+    '''    public int action()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''

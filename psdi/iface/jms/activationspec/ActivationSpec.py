@@ -1,24 +1,18 @@
 def ActivationSpec():
-'''public ActivationSpec()
-'''
-pass
+    '''    public ActivationSpec()
+    '''
 def setAdminService():
-'''public void setAdminService(final AdminService service)
-'''
-pass
+    '''    public void setAdminService(final AdminService service)
+    '''
 def pause():
-'''public void pause()
-'''
-pass
+    '''    public void pause()
+    '''
 def resume():
-'''public void resume()
-'''
-pass
+    '''    public void resume()
+    '''
 def status():
-'''public int status()
-'''
-pass
+    '''    public int status()
+    '''
 def activationProperties():
-'''public String activationProperties()
-'''
-pass
+    '''    public String activationProperties()
+    '''

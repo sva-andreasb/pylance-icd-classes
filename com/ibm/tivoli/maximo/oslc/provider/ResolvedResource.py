@@ -1,88 +1,66 @@
 def isResourceNotModified():
-'''public boolean isResourceNotModified()
-'''
-pass
+    '''    public boolean isResourceNotModified()
+    '''
 def isQueryWhereApplied():
-'''public boolean isQueryWhereApplied()
-'''
-pass
+    '''    public boolean isQueryWhereApplied()
+    '''
 def setQueryWhereApplied():
-'''public void setQueryWhereApplied()
-'''
-pass
+    '''    public void setQueryWhereApplied()
+    '''
 def getLookupSrcAttr():
-'''public String getLookupSrcAttr()
-'''
-pass
+    '''    public String getLookupSrcAttr()
+    '''
 def isExtRes():
-'''public boolean isExtRes()
-'''
-pass
+    '''    public boolean isExtRes()
+    '''
 def isCacheIt():
-'''public boolean isCacheIt()
-'''
-pass
+    '''    public boolean isCacheIt()
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def isThumbNail():
-'''public boolean isThumbNail()
-'''
-pass
+    '''    public boolean isThumbNail()
+    '''
 def getJSON():
-'''public JSONArtifact getJSON()
-'''
-pass
+    '''    public JSONArtifact getJSON()
+    '''
 def getParentPath():
-'''public String getParentPath()
-'''
-pass
+    '''    public String getParentPath()
+    '''
 def getOSRootMbo():
-'''public Mbo getOSRootMbo()
-'''
-pass
+    '''    public Mbo getOSRootMbo()
+    '''
 def setOslcResourceDetailInfo():
-'''public void setOslcResourceDetailInfo(final OslcResourceDetailInfo detInfo)
-'''
-pass
+    '''    public void setOslcResourceDetailInfo(final OslcResourceDetailInfo detInfo)
+    '''
 def getOslcResourceDetailInfo():
-'''public OslcResourceDetailInfo getOslcResourceDetailInfo()
-'''
-pass
+    '''    public OslcResourceDetailInfo getOslcResourceDetailInfo()
+    '''
 def isCollection():
-'''public boolean isCollection()
-'''
-pass
+    '''    public boolean isCollection()
+    '''
 def isRelatedMboResource():
-'''public boolean isRelatedMboResource()
-'''
-pass
+    '''    public boolean isRelatedMboResource()
+    '''
 def isAttachment():
-'''public boolean isAttachment()
-'''
-pass
+    '''    public boolean isAttachment()
+    '''
 def isMeta():
-'''public boolean isMeta()
-'''
-pass
+    '''    public boolean isMeta()
+    '''
 def getMbo():
-'''public MboRemote getMbo()
-'''
-pass
+    '''    public MboRemote getMbo()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def getOsName():
-'''public String getOsName()
-'''
-pass
+    '''    public String getOsName()
+    '''
 def getOverriddenCount():
-'''public int getOverriddenCount()
-'''
-pass
+    '''    public int getOverriddenCount()
+    '''
 def isSelfRefPrimary():
-'''public boolean isSelfRefPrimary()
-'''
-pass
+    '''    public boolean isSelfRefPrimary()
+    '''

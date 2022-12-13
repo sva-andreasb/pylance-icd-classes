@@ -56,350 +56,263 @@ WARRANTY_LABOR = "int  2"
 WARRANTY_SHORT = "int  3"
 WARRANTY_LONG = "int  4"
 def ModelLoaderOptions():
-'''public ModelLoaderOptions(final BIMSessionRemote sessionMbo, final int updateMode)
-'''
-pass
+    '''    public ModelLoaderOptions(final BIMSessionRemote sessionMbo, final int updateMode)
+    '''
 def filtersNames():
-'''public Iterator<String> filtersNames()
-'''
-pass
+    '''    public Iterator<String> filtersNames()
+    '''
 def getAttributeMapName():
-'''public String getAttributeMapName()
-'''
-pass
+    '''    public String getAttributeMapName()
+    '''
 def getAttribTypeIdConfig():
-'''public int getAttribTypeIdConfig()
-'''
-pass
+    '''    public int getAttribTypeIdConfig()
+    '''
 def getAttributeTypeLevel():
-'''public int getAttributeTypeLevel()
-'''
-pass
+    '''    public int getAttributeTypeLevel()
+    '''
 def getBarcodeAttribute():
-'''public String getBarcodeAttribute()
-'''
-pass
+    '''    public String getBarcodeAttribute()
+    '''
 def getBillToAddress():
-'''public String getBillToAddress()
-'''
-pass
+    '''    public String getBillToAddress()
+    '''
 def getChangeDateFilter():
-'''public String getChangeDateFilter()
-'''
-pass
+    '''    public String getChangeDateFilter()
+    '''
 def getComponentAttribLoc():
-'''public long getComponentAttribLoc()
-'''
-pass
+    '''    public long getComponentAttribLoc()
+    '''
 def getComponentIdConfig():
-'''public int getComponentIdConfig()
-'''
-pass
+    '''    public int getComponentIdConfig()
+    '''
 def getContactTreatement():
-'''public int getContactTreatement()
-'''
-pass
+    '''    public int getContactTreatement()
+    '''
 def getFacilityClassification():
-'''public String getFacilityClassification()
-'''
-pass
+    '''    public String getFacilityClassification()
+    '''
 def getFacilityIdConfig():
-'''public int getFacilityIdConfig()
-'''
-pass
+    '''    public int getFacilityIdConfig()
+    '''
 def getFloorIdConfig():
-'''public int getFloorIdConfig()
-'''
-pass
+    '''    public int getFloorIdConfig()
+    '''
 def getGLAccount():
-'''public String getGLAccount()
-'''
-pass
+    '''    public String getGLAccount()
+    '''
 def getIdSeperatorCharacter():
-'''public String getIdSeperatorCharacter()
-'''
-pass
+    '''    public String getIdSeperatorCharacter()
+    '''
 def getInitialAssetStatus():
-'''public String getInitialAssetStatus()
-'''
-pass
+    '''    public String getInitialAssetStatus()
+    '''
 def getInitialAssetType():
-'''public String getInitialAssetType()
-'''
-pass
+    '''    public String getInitialAssetType()
+    '''
 def getInitialJobPlanStatus():
-'''public String getInitialJobPlanStatus()
-'''
-pass
+    '''    public String getInitialJobPlanStatus()
+    '''
 def getInitialLocationStatus():
-'''public String getInitialLocationStatus()
-'''
-pass
+    '''    public String getInitialLocationStatus()
+    '''
 def getInitialProductStatus():
-'''public String getInitialProductStatus()
-'''
-pass
+    '''    public String getInitialProductStatus()
+    '''
 def getJobPlanLevel():
-'''public int getJobPlanLevel()
-'''
-pass
+    '''    public int getJobPlanLevel()
+    '''
 def getLevelAttributeName():
-'''public String getLevelAttributeName()
-'''
-pass
+    '''    public String getLevelAttributeName()
+    '''
 def getLogLevel():
-'''public long getLogLevel()
-'''
-pass
+    '''    public long getLogLevel()
+    '''
 def getMergeFacility():
-'''public String getMergeFacility()
-'''
-pass
+    '''    public String getMergeFacility()
+    '''
 def getOomniClassAttributeName():
-'''public String getOomniClassAttributeName()
-'''
-pass
+    '''    public String getOomniClassAttributeName()
+    '''
 def getOperatingLocIdConfig():
-'''public int getOperatingLocIdConfig()
-'''
-pass
+    '''    public int getOperatingLocIdConfig()
+    '''
 def getParserFlags():
-'''public long getParserFlags()
-'''
-pass
+    '''    public long getParserFlags()
+    '''
 def getProjectAddress():
-'''public String getProjectAddress()
-'''
-pass
+    '''    public String getProjectAddress()
+    '''
 def getServiceAddress():
-'''public String getServiceAddress()
-'''
-pass
+    '''    public String getServiceAddress()
+    '''
 def getShipToAddress():
-'''public String getShipToAddress()
-'''
-pass
+    '''    public String getShipToAddress()
+    '''
 def getSpaceIdConfig():
-'''public int getSpaceIdConfig()
-'''
-pass
+    '''    public int getSpaceIdConfig()
+    '''
 def getSpaceAttributeName():
-'''public String getSpaceAttributeName()
-'''
-pass
+    '''    public String getSpaceAttributeName()
+    '''
 def getSpecificationMapName():
-'''public String getSpecificationMapName()
-'''
-pass
+    '''    public String getSpecificationMapName()
+    '''
 def getSystemNameAttributeName():
-'''public String getSystemNameAttributeName()
-'''
-pass
+    '''    public String getSystemNameAttributeName()
+    '''
 def getTargetFacility():
-'''public String getTargetFacility()
-'''
-pass
+    '''    public String getTargetFacility()
+    '''
 def getUnitTreatment():
-'''public int getUnitTreatment()
-'''
-pass
+    '''    public int getUnitTreatment()
+    '''
 def getUpdateBehavior():
-'''public int getUpdateBehavior()
-'''
-pass
+    '''    public int getUpdateBehavior()
+    '''
 def getVendorAttribute():
-'''public String getVendorAttribute()
-'''
-pass
+    '''    public String getVendorAttribute()
+    '''
 def getWarrantyCalcMethod():
-'''public int getWarrantyCalcMethod()
-'''
-pass
+    '''    public int getWarrantyCalcMethod()
+    '''
 def isAssocaiteAttributeTypes():
-'''public boolean isAssocaiteAttributeTypes()
-'''
-pass
+    '''    public boolean isAssocaiteAttributeTypes()
+    '''
 def isAutoNumber():
-'''public boolean isAutoNumber()
-'''
-pass
+    '''    public boolean isAutoNumber()
+    '''
 def isConvertGuid():
-'''public boolean isConvertGuid()
-'''
-pass
+    '''    public boolean isConvertGuid()
+    '''
 def isConvertUniqueIds():
-'''public boolean isConvertUniqueIds()
-'''
-pass
+    '''    public boolean isConvertUniqueIds()
+    '''
 def isCopyTypeAttribsToAsset():
-'''public boolean isCopyTypeAttribsToAsset()
-'''
-pass
+    '''    public boolean isCopyTypeAttribsToAsset()
+    '''
 def isCopyTypeAttribsToItem():
-'''public boolean isCopyTypeAttribsToItem()
-'''
-pass
+    '''    public boolean isCopyTypeAttribsToItem()
+    '''
 def isCopyDocsToAsset():
-'''public boolean isCopyDocsToAsset()
-'''
-pass
+    '''    public boolean isCopyDocsToAsset()
+    '''
 def isCreateAttributeTypes():
-'''public boolean isCreateAttributeTypes()
-'''
-pass
+    '''    public boolean isCreateAttributeTypes()
+    '''
 def isCreateClassifications():
-'''public boolean isCreateClassifications()
-'''
-pass
+    '''    public boolean isCreateClassifications()
+    '''
 def isCreateCompanies():
-'''public boolean isCreateCompanies()
-'''
-pass
+    '''    public boolean isCreateCompanies()
+    '''
 def isCreateCompanyMasters():
-'''public boolean isCreateCompanyMasters()
-'''
-pass
+    '''    public boolean isCreateCompanyMasters()
+    '''
 def isCreateItemMaster():
-'''public boolean isCreateItemMaster()
-'''
-pass
+    '''    public boolean isCreateItemMaster()
+    '''
 def isCreateMasterPM():
-'''public boolean isCreateMasterPM()
-'''
-pass
+    '''    public boolean isCreateMasterPM()
+    '''
 def isCreatePM():
-'''public boolean isCreatePM()
-'''
-pass
+    '''    public boolean isCreatePM()
+    '''
 def isCreateProduct():
-'''public boolean isCreateProduct()
-'''
-pass
+    '''    public boolean isCreateProduct()
+    '''
 def isCreateOpperatingLocation():
-'''public boolean isCreateOpperatingLocation()
-'''
-pass
+    '''    public boolean isCreateOpperatingLocation()
+    '''
 def isDeleteDocOnCopy():
-'''public boolean isDeleteDocOnCopy()
-'''
-pass
+    '''    public boolean isDeleteDocOnCopy()
+    '''
 def isDeleteFiles():
-'''public boolean isDeleteFiles()
-'''
-pass
+    '''    public boolean isDeleteFiles()
+    '''
 def isDeleteSystemMemebrs():
-'''public boolean isDeleteSystemMemebrs()
-'''
-pass
+    '''    public boolean isDeleteSystemMemebrs()
+    '''
 def isExportFloor():
-'''public boolean isExportFloor()
-'''
-pass
+    '''    public boolean isExportFloor()
+    '''
 def isExportSpace():
-'''public boolean isExportSpace()
-'''
-pass
+    '''    public boolean isExportSpace()
+    '''
 def isExportComponent():
-'''public boolean isExportComponent()
-'''
-pass
+    '''    public boolean isExportComponent()
+    '''
 def isExportType():
-'''public boolean isExportType()
-'''
-pass
+    '''    public boolean isExportType()
+    '''
 def isExportSystem():
-'''public boolean isExportSystem()
-'''
-pass
+    '''    public boolean isExportSystem()
+    '''
 def isExportZone():
-'''public boolean isExportZone()
-'''
-pass
+    '''    public boolean isExportZone()
+    '''
 def isExportAttribute():
-'''public boolean isExportAttribute()
-'''
-pass
+    '''    public boolean isExportAttribute()
+    '''
 def isExportContact():
-'''public boolean isExportContact()
-'''
-pass
+    '''    public boolean isExportContact()
+    '''
 def isExportDocument():
-'''public boolean isExportDocument()
-'''
-pass
+    '''    public boolean isExportDocument()
+    '''
 def isExportJob():
-'''public boolean isExportJob()
-'''
-pass
+    '''    public boolean isExportJob()
+    '''
 def isExportResource():
-'''public boolean isExportResource()
-'''
-pass
+    '''    public boolean isExportResource()
+    '''
 def isExportSpare():
-'''public boolean isExportSpare()
-'''
-pass
+    '''    public boolean isExportSpare()
+    '''
 def isExportAssembly():
-'''public boolean isExportAssembly()
-'''
-pass
+    '''    public boolean isExportAssembly()
+    '''
 def isExportNullAttributes():
-'''public boolean isExportNullAttributes()
-'''
-pass
+    '''    public boolean isExportNullAttributes()
+    '''
 def isMapExtensionCols():
-'''public boolean isMapExtensionCols()
-'''
-pass
+    '''    public boolean isMapExtensionCols()
+    '''
 def isInferLevels():
-'''public boolean isInferLevels()
-'''
-pass
+    '''    public boolean isInferLevels()
+    '''
 def isInferOmniClass():
-'''public boolean isInferOmniClass()
-'''
-pass
+    '''    public boolean isInferOmniClass()
+    '''
 def isInferSpaces():
-'''public boolean isInferSpaces()
-'''
-pass
+    '''    public boolean isInferSpaces()
+    '''
 def isInferSystems():
-'''public boolean isInferSystems()
-'''
-pass
+    '''    public boolean isInferSystems()
+    '''
 def isOverwriteAttachments():
-'''public boolean isOverwriteAttachments()
-'''
-pass
+    '''    public boolean isOverwriteAttachments()
+    '''
 def isPersonNameIsEMail():
-'''public boolean isPersonNameIsEMail()
-'''
-pass
+    '''    public boolean isPersonNameIsEMail()
+    '''
 def isPopulateSystemMap():
-'''public boolean isPopulateSystemMap()
-'''
-pass
+    '''    public boolean isPopulateSystemMap()
+    '''
 def isPromoteComponents():
-'''public boolean isPromoteComponents()
-'''
-pass
+    '''    public boolean isPromoteComponents()
+    '''
 def isPromoteSpaces():
-'''public boolean isPromoteSpaces()
-'''
-pass
+    '''    public boolean isPromoteSpaces()
+    '''
 def isUpdateCategories():
-'''public boolean isUpdateCategories()
-'''
-pass
+    '''    public boolean isUpdateCategories()
+    '''
 def isUpdateSpecs():
-'''public boolean isUpdateSpecs()
-'''
-pass
+    '''    public boolean isUpdateSpecs()
+    '''
 def isSkipEmptySystems():
-'''public boolean isSkipEmptySystems()
-'''
-pass
+    '''    public boolean isSkipEmptySystems()
+    '''
 def isTypesAreSpecs():
-'''public boolean isTypesAreSpecs()
-'''
-pass
+    '''    public boolean isTypesAreSpecs()
+    '''

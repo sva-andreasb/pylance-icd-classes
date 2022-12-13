@@ -1,124 +1,93 @@
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String newType)
-'''
-pass
+    '''    public void setType(final String newType)
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean newRequired)
-'''
-pass
+    '''    public void setRequired(final boolean newRequired)
+    '''
 def unsetRequired():
-'''public void unsetRequired()
-'''
-pass
+    '''    public void unsetRequired()
+    '''
 def isSetRequired():
-'''public boolean isSetRequired()
-'''
-pass
+    '''    public boolean isSetRequired()
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String newDefaultValue)
-'''
-pass
+    '''    public void setDefaultValue(final String newDefaultValue)
+    '''
 def unsetDefaultValue():
-'''public void unsetDefaultValue()
-'''
-pass
+    '''    public void unsetDefaultValue()
+    '''
 def isSetDefaultValue():
-'''public boolean isSetDefaultValue()
-'''
-pass
+    '''    public boolean isSetDefaultValue()
+    '''
 def isConfigAttribute():
-'''public boolean isConfigAttribute()
-'''
-pass
+    '''    public boolean isConfigAttribute()
+    '''
 def setConfigAttribute():
-'''public void setConfigAttribute(final boolean newConfigAttribute)
-'''
-pass
+    '''    public void setConfigAttribute(final boolean newConfigAttribute)
+    '''
 def unsetConfigAttribute():
-'''public void unsetConfigAttribute()
-'''
-pass
+    '''    public void unsetConfigAttribute()
+    '''
 def isSetConfigAttribute():
-'''public boolean isSetConfigAttribute()
-'''
-pass
+    '''    public boolean isSetConfigAttribute()
+    '''
 def isReadonly():
-'''public boolean isReadonly()
-'''
-pass
+    '''    public boolean isReadonly()
+    '''
 def setReadonly():
-'''public void setReadonly(final boolean newReadonly)
-'''
-pass
+    '''    public void setReadonly(final boolean newReadonly)
+    '''
 def unsetReadonly():
-'''public void unsetReadonly()
-'''
-pass
+    '''    public void unsetReadonly()
+    '''
 def isSetReadonly():
-'''public boolean isSetReadonly()
-'''
-pass
+    '''    public boolean isSetReadonly()
+    '''
 def isKeyField():
-'''public boolean isKeyField()
-'''
-pass
+    '''    public boolean isKeyField()
+    '''
 def setKeyField():
-'''public void setKeyField(final boolean newKeyField)
-'''
-pass
+    '''    public void setKeyField(final boolean newKeyField)
+    '''
 def unsetKeyField():
-'''public void unsetKeyField()
-'''
-pass
+    '''    public void unsetKeyField()
+    '''
 def isSetKeyField():
-'''public boolean isSetKeyField()
-'''
-pass
+    '''    public boolean isSetKeyField()
+    '''
 def getCommand():
-'''public CommandMetadata getCommand()
-'''
-pass
+    '''    public CommandMetadata getCommand()
+    '''
 def basicSetCommand():
-'''public NotificationChain basicSetCommand(final CommandMetadata newCommand, NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain basicSetCommand(final CommandMetadata newCommand, NotificationChain msgs)
+    '''
 def setCommand():
-'''public void setCommand(final CommandMetadata newCommand)
-'''
-pass
+    '''    public void setCommand(final CommandMetadata newCommand)
+    '''
 def eInverseRemove():
-'''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,12 +1,9 @@
 def IlvLinkImageSelection():
-'''public IlvLinkImageSelection(final IlvPolyPointsInterface ilvPolyPointsInterface)
-'''
-pass
+    '''    public IlvLinkImageSelection(final IlvPolyPointsInterface ilvPolyPointsInterface)
+    '''
 def getDefaultInteractor():
-'''public String getDefaultInteractor()
-'''
-pass
+    '''    public String getDefaultInteractor()
+    '''
 def SetDefaultInteractor():
-'''public static void SetDefaultInteractor(final String a)
-'''
-pass
+    '''    public static void SetDefaultInteractor(final String a)
+    '''

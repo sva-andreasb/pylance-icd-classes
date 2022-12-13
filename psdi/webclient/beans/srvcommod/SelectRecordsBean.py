@@ -1,4 +1,3 @@
 def refreshrecords():
-'''public int refreshrecords()
-'''
-pass
+    '''    public int refreshrecords()
+    '''

@@ -1,72 +1,54 @@
 def addPostListener():
-'''public synchronized void addPostListener(final PostListener obj)
-'''
-pass
+    '''    public synchronized void addPostListener(final PostListener obj)
+    '''
 def removePostListener():
-'''public synchronized void removePostListener(final PostListener obj)
-'''
-pass
+    '''    public synchronized void removePostListener(final PostListener obj)
+    '''
 def send():
-'''public void send()
-'''
-pass
+    '''    public void send()
+    '''
 def respond():
-'''public void respond(final int v, final String str)
-'''
-pass
+    '''    public void respond(final int v, final String str)
+    '''
 def setDetailsType():
-'''public void setDetailsType(final int detailsType)
-'''
-pass
+    '''    public void setDetailsType(final int detailsType)
+    '''
 def getDetailsType():
-'''public int getDetailsType()
-'''
-pass
+    '''    public int getDetailsType()
+    '''
 def setDetails():
-'''public void setDetails(final byte[] details)
-'''
-pass
+    '''    public void setDetails(final byte[] details)
+    '''
 def getDetails():
-'''public byte[] getDetails()
-'''
-pass
+    '''    public byte[] getDetails()
+    '''
 def setMessage():
-'''public void setMessage(final String postText)
-'''
-pass
+    '''    public void setMessage(final String postText)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def addUser():
-'''public void addUser(final STUser obj)
-'''
-pass
+    '''    public void addUser(final STUser obj)
+    '''
 def getSenderDetails():
-'''public STUserInstance getSenderDetails()
-'''
-pass
+    '''    public STUserInstance getSenderDetails()
+    '''
 def imOpened():
-'''public void imOpened(final ImEvent imEvent)
-'''
-pass
+    '''    public void imOpened(final ImEvent imEvent)
+    '''
 def openImFailed():
-'''public void openImFailed(final ImEvent imEvent)
-'''
-pass
+    '''    public void openImFailed(final ImEvent imEvent)
+    '''
 def dataReceived():
-'''public void dataReceived(final ImEvent imEvent)
-'''
-pass
+    '''    public void dataReceived(final ImEvent imEvent)
+    '''

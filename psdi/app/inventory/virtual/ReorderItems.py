@@ -1,8 +1,6 @@
 def ReorderItems():
-'''public ReorderItems(final MboSet ms)
-'''
-pass
+    '''    public ReorderItems(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,49 +1,37 @@
 def TypedNotification():
-'''public TypedNotification(final long messageNumber, final String resourceState, final String resourceId, final String resourceUri, final String channelId)
-public TypedNotification(final UnparsedNotification sourceNotification)
-'''
-pass
+    '''    public TypedNotification(final long messageNumber, final String resourceState, final String resourceId, final String resourceUri, final String channelId)
+    public TypedNotification(final UnparsedNotification sourceNotification)
+    '''
 def getContent():
-'''public final T getContent()
-'''
-pass
+    '''    public final T getContent()
+    '''
 def setContent():
-'''public TypedNotification<T> setContent(final T content)
-'''
-pass
+    '''    public TypedNotification<T> setContent(final T content)
+    '''
 def setMessageNumber():
-'''public TypedNotification<T> setMessageNumber(final long messageNumber)
-'''
-pass
+    '''    public TypedNotification<T> setMessageNumber(final long messageNumber)
+    '''
 def setResourceState():
-'''public TypedNotification<T> setResourceState(final String resourceState)
-'''
-pass
+    '''    public TypedNotification<T> setResourceState(final String resourceState)
+    '''
 def setResourceId():
-'''public TypedNotification<T> setResourceId(final String resourceId)
-'''
-pass
+    '''    public TypedNotification<T> setResourceId(final String resourceId)
+    '''
 def setResourceUri():
-'''public TypedNotification<T> setResourceUri(final String resourceUri)
-'''
-pass
+    '''    public TypedNotification<T> setResourceUri(final String resourceUri)
+    '''
 def setChannelId():
-'''public TypedNotification<T> setChannelId(final String channelId)
-'''
-pass
+    '''    public TypedNotification<T> setChannelId(final String channelId)
+    '''
 def setChannelExpiration():
-'''public TypedNotification<T> setChannelExpiration(final String channelExpiration)
-'''
-pass
+    '''    public TypedNotification<T> setChannelExpiration(final String channelExpiration)
+    '''
 def setChannelToken():
-'''public TypedNotification<T> setChannelToken(final String channelToken)
-'''
-pass
+    '''    public TypedNotification<T> setChannelToken(final String channelToken)
+    '''
 def setChanged():
-'''public TypedNotification<T> setChanged(final String changed)
-'''
-pass
+    '''    public TypedNotification<T> setChanged(final String changed)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

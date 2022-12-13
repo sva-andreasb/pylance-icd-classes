@@ -1,4 +1,3 @@
 def relate():
-'''public int relate()
-'''
-pass
+    '''    public int relate()
+    '''

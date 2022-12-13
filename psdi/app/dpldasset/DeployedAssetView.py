@@ -1,4 +1,3 @@
 def DeployedAssetView():
-'''public DeployedAssetView(final MboSet ms)
-'''
-pass
+    '''    public DeployedAssetView(final MboSet ms)
+    '''

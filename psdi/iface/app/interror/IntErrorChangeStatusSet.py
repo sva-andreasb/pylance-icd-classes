@@ -1,4 +1,3 @@
 def IntErrorChangeStatusSet():
-'''public IntErrorChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public IntErrorChangeStatusSet(final MboServerInterface ms)
+    '''

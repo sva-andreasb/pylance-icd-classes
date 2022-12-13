@@ -1,9 +1,7 @@
 def FldBudgetBudgetCode():
-'''public FldBudgetBudgetCode()
-public FldBudgetBudgetCode(final MboValue mbv)
-'''
-pass
+    '''    public FldBudgetBudgetCode()
+    public FldBudgetBudgetCode(final MboValue mbv)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

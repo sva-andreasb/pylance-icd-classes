@@ -1,53 +1,40 @@
 def SLAAssetLoc():
-'''public SLAAssetLoc(final MboSet ms)
-'''
-pass
+    '''    public SLAAssetLoc(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setDescription():
-'''public void setDescription()
-public void setDescription(final MboRemote mbo)
-'''
-pass
+    '''    public void setDescription()
+    public void setDescription(final MboRemote mbo)
+    '''
 def setAsset():
-'''public void setAsset(final MboRemote asset)
-'''
-pass
+    '''    public void setAsset(final MboRemote asset)
+    '''
 def setLocation():
-'''public void setLocation(final MboRemote location)
-'''
-pass
+    '''    public void setLocation(final MboRemote location)
+    '''
 def setAssetNum():
-'''public void setAssetNum()
-'''
-pass
+    '''    public void setAssetNum()
+    '''
 def setLocationID():
-'''public void setLocationID()
-'''
-pass
+    '''    public void setLocationID()
+    '''
 def validateAsset():
-'''public void validateAsset(final String assetNum)
-'''
-pass
+    '''    public void validateAsset(final String assetNum)
+    '''
 def validateLocation():
-'''public void validateLocation(final String location)
-'''
-pass
+    '''    public void validateLocation(final String location)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def enableFields():
-'''public void enableFields()
-'''
-pass
+    '''    public void enableFields()
+    '''
 def setCopyDefaults():
-'''public void setCopyDefaults()
-'''
-pass
+    '''    public void setCopyDefaults()
+    '''

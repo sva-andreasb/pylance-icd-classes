@@ -1,24 +1,18 @@
 def WorkCompleteCleanupCronTask():
-'''public WorkCompleteCleanupCronTask()
-'''
-pass
+    '''    public WorkCompleteCleanupCronTask()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''
 def cleanupCompletedRecods():
-'''public void cleanupCompletedRecods(final UserInfo userInfo)
-'''
-pass
+    '''    public void cleanupCompletedRecods(final UserInfo userInfo)
+    '''

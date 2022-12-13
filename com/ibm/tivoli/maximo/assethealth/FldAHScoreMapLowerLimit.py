@@ -1,8 +1,6 @@
 def FldAHScoreMapLowerLimit():
-'''public FldAHScoreMapLowerLimit(final MboValue mbv)
-'''
-pass
+    '''    public FldAHScoreMapLowerLimit(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

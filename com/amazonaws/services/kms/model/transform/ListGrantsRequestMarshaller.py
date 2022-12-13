@@ -1,8 +1,6 @@
 def ListGrantsRequestMarshaller():
-'''public ListGrantsRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public ListGrantsRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<ListGrantsRequest> marshall(final ListGrantsRequest listGrantsRequest)
-'''
-pass
+    '''    public Request<ListGrantsRequest> marshall(final ListGrantsRequest listGrantsRequest)
+    '''

@@ -1,28 +1,21 @@
 def MaxIntErrorExtract():
-'''public MaxIntErrorExtract(final MboSet ms)
-'''
-pass
+    '''    public MaxIntErrorExtract(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def extracterrors():
-'''public String extracterrors()
-'''
-pass
+    '''    public String extracterrors()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

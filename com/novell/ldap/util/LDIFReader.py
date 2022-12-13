@@ -1,18 +1,14 @@
 def LDIFReader():
-'''public LDIFReader(final InputStream inputStream)
-public LDIFReader(final InputStream inputStream, final int n)
-public LDIFReader(final InputStream in, final int i, final int readAheadLimit)
-'''
-pass
+    '''    public LDIFReader(final InputStream inputStream)
+    public LDIFReader(final InputStream inputStream, final int n)
+    public LDIFReader(final InputStream in, final int i, final int readAheadLimit)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def isRequest():
-'''public boolean isRequest()
-'''
-pass
+    '''    public boolean isRequest()
+    '''
 def readMessage():
-'''public LDAPMessage readMessage()
-'''
-pass
+    '''    public LDAPMessage readMessage()
+    '''

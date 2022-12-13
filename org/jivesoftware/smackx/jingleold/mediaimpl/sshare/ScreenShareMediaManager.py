@@ -1,37 +1,28 @@
-MEDIA_NAME = "String  ScreenShare""
+MEDIA_NAME = "String  \"ScreenShare\""
 def ScreenShareMediaManager():
-'''public ScreenShareMediaManager(final JingleTransportManager transportManager)
-'''
-pass
+    '''    public ScreenShareMediaManager(final JingleTransportManager transportManager)
+    '''
 def getPayloads():
-'''public List<PayloadType> getPayloads()
-'''
-pass
+    '''    public List<PayloadType> getPayloads()
+    '''
 def createMediaSession():
-'''public JingleMediaSession createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)
-'''
-pass
+    '''    public JingleMediaSession createMediaSession(final PayloadType payloadType, final TransportCandidate remote, final TransportCandidate local, final JingleSession jingleSession)
+    '''
 def getPreferredPayloadType():
-'''public PayloadType getPreferredPayloadType()
-'''
-pass
+    '''    public PayloadType getPreferredPayloadType()
+    '''
 def getDecoder():
-'''public ImageDecoder getDecoder()
-'''
-pass
+    '''    public ImageDecoder getDecoder()
+    '''
 def setDecoder():
-'''public void setDecoder(final ImageDecoder decoder)
-'''
-pass
+    '''    public void setDecoder(final ImageDecoder decoder)
+    '''
 def getEncoder():
-'''public ImageEncoder getEncoder()
-'''
-pass
+    '''    public ImageEncoder getEncoder()
+    '''
 def setEncoder():
-'''public void setEncoder(final ImageEncoder encoder)
-'''
-pass
+    '''    public void setEncoder(final ImageEncoder encoder)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

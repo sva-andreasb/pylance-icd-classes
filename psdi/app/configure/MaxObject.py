@@ -1,8 +1,6 @@
 def MaxObject():
-'''public MaxObject(final MboSet ms)
-'''
-pass
+    '''    public MaxObject(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

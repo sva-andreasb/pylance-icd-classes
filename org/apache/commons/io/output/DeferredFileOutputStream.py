@@ -1,25 +1,19 @@
 def DeferredFileOutputStream():
-'''public DeferredFileOutputStream(final int threshold, final File outputFile)
-public DeferredFileOutputStream(final int threshold, final String prefix, final String suffix, final File directory)
-'''
-pass
+    '''    public DeferredFileOutputStream(final int threshold, final File outputFile)
+    public DeferredFileOutputStream(final int threshold, final String prefix, final String suffix, final File directory)
+    '''
 def isInMemory():
-'''public boolean isInMemory()
-'''
-pass
+    '''    public boolean isInMemory()
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''

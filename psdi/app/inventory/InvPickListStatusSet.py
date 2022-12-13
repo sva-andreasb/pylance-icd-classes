@@ -1,8 +1,6 @@
 def InvPickListStatusSet():
-'''public InvPickListStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvPickListStatusSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

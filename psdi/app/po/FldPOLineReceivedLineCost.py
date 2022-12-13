@@ -1,8 +1,6 @@
 def FldPOLineReceivedLineCost():
-'''public FldPOLineReceivedLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineReceivedLineCost(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

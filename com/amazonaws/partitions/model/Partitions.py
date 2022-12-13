@@ -1,12 +1,9 @@
 def Partitions():
-'''public Partitions(@JsonProperty("version") final String version, @JsonProperty("partitions") final List<Partition> partitions)
-'''
-pass
+    '''    public Partitions(@JsonProperty("version") final String version, @JsonProperty("partitions") final List<Partition> partitions)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getPartitions():
-'''public List<Partition> getPartitions()
-'''
-pass
+    '''    public List<Partition> getPartitions()
+    '''

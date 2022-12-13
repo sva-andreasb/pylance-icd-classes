@@ -1,18 +1,14 @@
 def getName():
-'''public String getName()
-public String getName()
-'''
-pass
+    '''    public String getName()
+    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    public void setName(final String value)
+    '''
 def getSid():
-'''public String getSid()
-'''
-pass
+    '''    public String getSid()
+    '''
 def setSid():
-'''public void setSid(final String value)
-'''
-pass
+    '''    public void setSid(final String value)
+    '''

@@ -1,16 +1,12 @@
 def isBlank():
-'''public boolean isBlank()
-'''
-pass
+    '''    public boolean isBlank()
+    '''
 def getBlankNodeId():
-'''public AnonId getBlankNodeId()
-'''
-pass
+    '''    public AnonId getBlankNodeId()
+    '''
 def visitWith():
-'''public Object visitWith(final NodeVisitor v)
-'''
-pass
+    '''    public Object visitWith(final NodeVisitor v)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''

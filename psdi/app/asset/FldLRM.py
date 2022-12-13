@@ -1,13 +1,10 @@
 def FldLRM():
-'''public FldLRM(final MboValue mbv)
-public FldLRM(final MboValue mbv, final String[] relativeAttrs, final String[] absAttrs, final Hashtable<String, String> attrLRM_attrAsset)
-'''
-pass
+    '''    public FldLRM(final MboValue mbv)
+    public FldLRM(final MboValue mbv, final String[] relativeAttrs, final String[] absAttrs, final Hashtable<String, String> attrLRM_attrAsset)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

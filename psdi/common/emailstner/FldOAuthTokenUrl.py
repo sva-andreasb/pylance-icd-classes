@@ -1,8 +1,6 @@
 def FldOAuthTokenUrl():
-'''public FldOAuthTokenUrl(final MboValue mbv)
-'''
-pass
+    '''    public FldOAuthTokenUrl(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

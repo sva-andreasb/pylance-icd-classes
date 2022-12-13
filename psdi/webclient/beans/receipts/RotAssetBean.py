@@ -1,4 +1,3 @@
 def autoNumberAll():
-'''public int autoNumberAll()
-'''
-pass
+    '''    public int autoNumberAll()
+    '''

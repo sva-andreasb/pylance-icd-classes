@@ -1,16 +1,12 @@
 def parse():
-'''public static NSEC3PARAM parse(final DataInputStream dis)
-'''
-pass
+    '''    public static NSEC3PARAM parse(final DataInputStream dis)
+    '''
 def serialize():
-'''public void serialize(final DataOutputStream dos)
-'''
-pass
+    '''    public void serialize(final DataOutputStream dos)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getSaltLength():
-'''public int getSaltLength()
-'''
-pass
+    '''    public int getSaltLength()
+    '''

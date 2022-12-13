@@ -1,8 +1,6 @@
 def FldLaborCraftRateVendor():
-'''public FldLaborCraftRateVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborCraftRateVendor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

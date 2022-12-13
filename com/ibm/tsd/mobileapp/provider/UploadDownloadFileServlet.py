@@ -1,8 +1,6 @@
 def UploadDownloadFileServlet():
-'''public UploadDownloadFileServlet()
-'''
-pass
+    '''    public UploadDownloadFileServlet()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

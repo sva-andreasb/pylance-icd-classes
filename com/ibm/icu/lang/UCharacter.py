@@ -603,389 +603,299 @@ NEUTRAL = "int  0"
 HALFWIDTH = "int  2"
 FULLWIDTH = "int  3"
 def digit():
-'''public static int digit(final int ch, final int radix)
-public static int digit(final int ch)
-'''
-pass
+    '''    public static int digit(final int ch, final int radix)
+    public static int digit(final int ch)
+    '''
 def getNumericValue():
-'''public static int getNumericValue(final int ch)
-'''
-pass
+    '''    public static int getNumericValue(final int ch)
+    '''
 def getUnicodeNumericValue():
-'''public static double getUnicodeNumericValue(final int ch)
-'''
-pass
+    '''    public static double getUnicodeNumericValue(final int ch)
+    '''
 def isSpace():
-'''public static boolean isSpace(final int ch)
-'''
-pass
+    '''    public static boolean isSpace(final int ch)
+    '''
 def getType():
-'''public static int getType(final int ch)
-'''
-pass
+    '''    public static int getType(final int ch)
+    '''
 def isDefined():
-'''public static boolean isDefined(final int ch)
-'''
-pass
+    '''    public static boolean isDefined(final int ch)
+    '''
 def isDigit():
-'''public static boolean isDigit(final int ch)
-'''
-pass
+    '''    public static boolean isDigit(final int ch)
+    '''
 def isISOControl():
-'''public static boolean isISOControl(final int ch)
-'''
-pass
+    '''    public static boolean isISOControl(final int ch)
+    '''
 def isLetter():
-'''public static boolean isLetter(final int ch)
-'''
-pass
+    '''    public static boolean isLetter(final int ch)
+    '''
 def isLetterOrDigit():
-'''public static boolean isLetterOrDigit(final int ch)
-'''
-pass
+    '''    public static boolean isLetterOrDigit(final int ch)
+    '''
 def isJavaLetter():
-'''public static boolean isJavaLetter(final int cp)
-'''
-pass
+    '''    public static boolean isJavaLetter(final int cp)
+    '''
 def isJavaLetterOrDigit():
-'''public static boolean isJavaLetterOrDigit(final int cp)
-'''
-pass
+    '''    public static boolean isJavaLetterOrDigit(final int cp)
+    '''
 def isJavaIdentifierStart():
-'''public static boolean isJavaIdentifierStart(final int cp)
-'''
-pass
+    '''    public static boolean isJavaIdentifierStart(final int cp)
+    '''
 def isJavaIdentifierPart():
-'''public static boolean isJavaIdentifierPart(final int cp)
-'''
-pass
+    '''    public static boolean isJavaIdentifierPart(final int cp)
+    '''
 def isLowerCase():
-'''public static boolean isLowerCase(final int ch)
-'''
-pass
+    '''    public static boolean isLowerCase(final int ch)
+    '''
 def isWhitespace():
-'''public static boolean isWhitespace(final int ch)
-'''
-pass
+    '''    public static boolean isWhitespace(final int ch)
+    '''
 def isSpaceChar():
-'''public static boolean isSpaceChar(final int ch)
-'''
-pass
+    '''    public static boolean isSpaceChar(final int ch)
+    '''
 def isTitleCase():
-'''public static boolean isTitleCase(final int ch)
-'''
-pass
+    '''    public static boolean isTitleCase(final int ch)
+    '''
 def isUnicodeIdentifierPart():
-'''public static boolean isUnicodeIdentifierPart(final int ch)
-'''
-pass
+    '''    public static boolean isUnicodeIdentifierPart(final int ch)
+    '''
 def isUnicodeIdentifierStart():
-'''public static boolean isUnicodeIdentifierStart(final int ch)
-'''
-pass
+    '''    public static boolean isUnicodeIdentifierStart(final int ch)
+    '''
 def isIdentifierIgnorable():
-'''public static boolean isIdentifierIgnorable(final int ch)
-'''
-pass
+    '''    public static boolean isIdentifierIgnorable(final int ch)
+    '''
 def isUpperCase():
-'''public static boolean isUpperCase(final int ch)
-'''
-pass
+    '''    public static boolean isUpperCase(final int ch)
+    '''
 def toLowerCase():
-'''public static int toLowerCase(final int ch)
-public static String toLowerCase(final String str)
-public static String toLowerCase(final Locale locale, final String str)
-public static String toLowerCase(final ULocale locale, final String str)
-'''
-pass
+    '''    public static int toLowerCase(final int ch)
+    public static String toLowerCase(final String str)
+    public static String toLowerCase(final Locale locale, final String str)
+    public static String toLowerCase(final ULocale locale, final String str)
+    '''
 def toString():
-'''public static String toString(final int ch)
-'''
-pass
+    '''    public static String toString(final int ch)
+    '''
 def toTitleCase():
-'''public static int toTitleCase(final int ch)
-public static String toTitleCase(final String str, final BreakIterator breakiter)
-public static String toTitleCase(final Locale locale, final String str, final BreakIterator breakiter)
-public static String toTitleCase(final ULocale locale, final String str, final BreakIterator titleIter)
-public static String toTitleCase(ULocale locale, final String str, BreakIterator titleIter, final int options)
-public static String toTitleCase(Locale locale, final String str, BreakIterator titleIter, final int options)
-'''
-pass
+    '''    public static int toTitleCase(final int ch)
+    public static String toTitleCase(final String str, final BreakIterator breakiter)
+    public static String toTitleCase(final Locale locale, final String str, final BreakIterator breakiter)
+    public static String toTitleCase(final ULocale locale, final String str, final BreakIterator titleIter)
+    public static String toTitleCase(ULocale locale, final String str, BreakIterator titleIter, final int options)
+    public static String toTitleCase(Locale locale, final String str, BreakIterator titleIter, final int options)
+    '''
 def toUpperCase():
-'''public static int toUpperCase(final int ch)
-public static String toUpperCase(final String str)
-public static String toUpperCase(final Locale locale, final String str)
-public static String toUpperCase(final ULocale locale, final String str)
-'''
-pass
+    '''    public static int toUpperCase(final int ch)
+    public static String toUpperCase(final String str)
+    public static String toUpperCase(final Locale locale, final String str)
+    public static String toUpperCase(final ULocale locale, final String str)
+    '''
 def isSupplementary():
-'''public static boolean isSupplementary(final int ch)
-'''
-pass
+    '''    public static boolean isSupplementary(final int ch)
+    '''
 def isBMP():
-'''public static boolean isBMP(final int ch)
-'''
-pass
+    '''    public static boolean isBMP(final int ch)
+    '''
 def isPrintable():
-'''public static boolean isPrintable(final int ch)
-'''
-pass
+    '''    public static boolean isPrintable(final int ch)
+    '''
 def isBaseForm():
-'''public static boolean isBaseForm(final int ch)
-'''
-pass
+    '''    public static boolean isBaseForm(final int ch)
+    '''
 def getDirection():
-'''public static int getDirection(final int ch)
-'''
-pass
+    '''    public static int getDirection(final int ch)
+    '''
 def isMirrored():
-'''public static boolean isMirrored(final int ch)
-'''
-pass
+    '''    public static boolean isMirrored(final int ch)
+    '''
 def getMirror():
-'''public static int getMirror(final int ch)
-'''
-pass
+    '''    public static int getMirror(final int ch)
+    '''
 def getBidiPairedBracket():
-'''public static int getBidiPairedBracket(final int c)
-'''
-pass
+    '''    public static int getBidiPairedBracket(final int c)
+    '''
 def getCombiningClass():
-'''public static int getCombiningClass(final int ch)
-'''
-pass
+    '''    public static int getCombiningClass(final int ch)
+    '''
 def isLegal():
-'''public static boolean isLegal(final int ch)
-public static boolean isLegal(final String str)
-'''
-pass
+    '''    public static boolean isLegal(final int ch)
+    public static boolean isLegal(final String str)
+    '''
 def getUnicodeVersion():
-'''public static VersionInfo getUnicodeVersion()
-'''
-pass
+    '''    public static VersionInfo getUnicodeVersion()
+    '''
 def getName():
-'''public static String getName(final int ch)
-public static String getName(final String s, final String separator)
-'''
-pass
+    '''    public static String getName(final int ch)
+    public static String getName(final String s, final String separator)
+    '''
 def getName1_0():
-'''public static String getName1_0(final int ch)
-'''
-pass
+    '''    public static String getName1_0(final int ch)
+    '''
 def getExtendedName():
-'''public static String getExtendedName(final int ch)
-'''
-pass
+    '''    public static String getExtendedName(final int ch)
+    '''
 def getNameAlias():
-'''public static String getNameAlias(final int ch)
-'''
-pass
+    '''    public static String getNameAlias(final int ch)
+    '''
 def getISOComment():
-'''public static String getISOComment(final int ch)
-'''
-pass
+    '''    public static String getISOComment(final int ch)
+    '''
 def getCharFromName():
-'''public static int getCharFromName(final String name)
-'''
-pass
+    '''    public static int getCharFromName(final String name)
+    '''
 def getCharFromName1_0():
-'''public static int getCharFromName1_0(final String name)
-'''
-pass
+    '''    public static int getCharFromName1_0(final String name)
+    '''
 def getCharFromExtendedName():
-'''public static int getCharFromExtendedName(final String name)
-'''
-pass
+    '''    public static int getCharFromExtendedName(final String name)
+    '''
 def getCharFromNameAlias():
-'''public static int getCharFromNameAlias(final String name)
-'''
-pass
+    '''    public static int getCharFromNameAlias(final String name)
+    '''
 def getPropertyName():
-'''public static String getPropertyName(final int property, final int nameChoice)
-'''
-pass
+    '''    public static String getPropertyName(final int property, final int nameChoice)
+    '''
 def getPropertyEnum():
-'''public static int getPropertyEnum(final CharSequence propertyAlias)
-'''
-pass
+    '''    public static int getPropertyEnum(final CharSequence propertyAlias)
+    '''
 def getPropertyValueName():
-'''public static String getPropertyValueName(final int property, final int value, final int nameChoice)
-'''
-pass
+    '''    public static String getPropertyValueName(final int property, final int value, final int nameChoice)
+    '''
 def getPropertyValueEnum():
-'''public static int getPropertyValueEnum(final int property, final CharSequence valueAlias)
-'''
-pass
+    '''    public static int getPropertyValueEnum(final int property, final CharSequence valueAlias)
+    '''
 def getPropertyValueEnumNoThrow():
-'''public static int getPropertyValueEnumNoThrow(final int property, final CharSequence valueAlias)
-'''
-pass
+    '''    public static int getPropertyValueEnumNoThrow(final int property, final CharSequence valueAlias)
+    '''
 def getCodePoint():
-'''public static int getCodePoint(final char lead, final char trail)
-public static int getCodePoint(final char char16)
-'''
-pass
+    '''    public static int getCodePoint(final char lead, final char trail)
+    public static int getCodePoint(final char char16)
+    '''
 def foldCase():
-'''public static int foldCase(final int ch, final boolean defaultmapping)
-public static String foldCase(final String str, final boolean defaultmapping)
-public static int foldCase(final int ch, final int options)
-public static final String foldCase(final String str, final int options)
-'''
-pass
+    '''    public static int foldCase(final int ch, final boolean defaultmapping)
+    public static String foldCase(final String str, final boolean defaultmapping)
+    public static int foldCase(final int ch, final int options)
+    public static final String foldCase(final String str, final int options)
+    '''
 def getHanNumericValue():
-'''public static int getHanNumericValue(final int ch)
-'''
-pass
+    '''    public static int getHanNumericValue(final int ch)
+    '''
 def getTypeIterator():
-'''public static RangeValueIterator getTypeIterator()
-'''
-pass
+    '''    public static RangeValueIterator getTypeIterator()
+    '''
 def getNameIterator():
-'''public static ValueIterator getNameIterator()
-'''
-pass
+    '''    public static ValueIterator getNameIterator()
+    '''
 def getName1_0Iterator():
-'''public static ValueIterator getName1_0Iterator()
-'''
-pass
+    '''    public static ValueIterator getName1_0Iterator()
+    '''
 def getExtendedNameIterator():
-'''public static ValueIterator getExtendedNameIterator()
-'''
-pass
+    '''    public static ValueIterator getExtendedNameIterator()
+    '''
 def getAge():
-'''public static VersionInfo getAge(final int ch)
-'''
-pass
+    '''    public static VersionInfo getAge(final int ch)
+    '''
 def hasBinaryProperty():
-'''public static boolean hasBinaryProperty(final int ch, final int property)
-'''
-pass
+    '''    public static boolean hasBinaryProperty(final int ch, final int property)
+    '''
 def isUAlphabetic():
-'''public static boolean isUAlphabetic(final int ch)
-'''
-pass
+    '''    public static boolean isUAlphabetic(final int ch)
+    '''
 def isULowercase():
-'''public static boolean isULowercase(final int ch)
-'''
-pass
+    '''    public static boolean isULowercase(final int ch)
+    '''
 def isUUppercase():
-'''public static boolean isUUppercase(final int ch)
-'''
-pass
+    '''    public static boolean isUUppercase(final int ch)
+    '''
 def isUWhiteSpace():
-'''public static boolean isUWhiteSpace(final int ch)
-'''
-pass
+    '''    public static boolean isUWhiteSpace(final int ch)
+    '''
 def getIntPropertyValue():
-'''public static int getIntPropertyValue(final int ch, final int type)
-'''
-pass
+    '''    public static int getIntPropertyValue(final int ch, final int type)
+    '''
 def getStringPropertyValue():
-'''public static String getStringPropertyValue(final int propertyEnum, final int codepoint, final int nameChoice)
-'''
-pass
+    '''    public static String getStringPropertyValue(final int propertyEnum, final int codepoint, final int nameChoice)
+    '''
 def getIntPropertyMinValue():
-'''public static int getIntPropertyMinValue(final int type)
-'''
-pass
+    '''    public static int getIntPropertyMinValue(final int type)
+    '''
 def getIntPropertyMaxValue():
-'''public static int getIntPropertyMaxValue(final int type)
-'''
-pass
+    '''    public static int getIntPropertyMaxValue(final int type)
+    '''
 def forDigit():
-'''public static char forDigit(final int digit, final int radix)
-'''
-pass
+    '''    public static char forDigit(final int digit, final int radix)
+    '''
 def isValidCodePoint():
-'''public static final boolean isValidCodePoint(final int cp)
-'''
-pass
+    '''    public static final boolean isValidCodePoint(final int cp)
+    '''
 def isSupplementaryCodePoint():
-'''public static final boolean isSupplementaryCodePoint(final int cp)
-'''
-pass
+    '''    public static final boolean isSupplementaryCodePoint(final int cp)
+    '''
 def isHighSurrogate():
-'''public static boolean isHighSurrogate(final char ch)
-'''
-pass
+    '''    public static boolean isHighSurrogate(final char ch)
+    '''
 def isLowSurrogate():
-'''public static boolean isLowSurrogate(final char ch)
-'''
-pass
+    '''    public static boolean isLowSurrogate(final char ch)
+    '''
 def isSurrogatePair():
-'''public static final boolean isSurrogatePair(final char high, final char low)
-'''
-pass
+    '''    public static final boolean isSurrogatePair(final char high, final char low)
+    '''
 def charCount():
-'''public static int charCount(final int cp)
-'''
-pass
+    '''    public static int charCount(final int cp)
+    '''
 def toCodePoint():
-'''public static final int toCodePoint(final char high, final char low)
-'''
-pass
+    '''    public static final int toCodePoint(final char high, final char low)
+    '''
 def codePointAt():
-'''public static final int codePointAt(final CharSequence seq, int index)
-public static final int codePointAt(final char[] text, int index)
-public static final int codePointAt(final char[] text, int index, final int limit)
-'''
-pass
+    '''    public static final int codePointAt(final CharSequence seq, int index)
+    public static final int codePointAt(final char[] text, int index)
+    public static final int codePointAt(final char[] text, int index, final int limit)
+    '''
 def codePointBefore():
-'''public static final int codePointBefore(final CharSequence seq, int index)
-public static final int codePointBefore(final char[] text, int index)
-public static final int codePointBefore(final char[] text, int index, final int limit)
-'''
-pass
+    '''    public static final int codePointBefore(final CharSequence seq, int index)
+    public static final int codePointBefore(final char[] text, int index)
+    public static final int codePointBefore(final char[] text, int index, final int limit)
+    '''
 def toChars():
-'''public static final int toChars(final int cp, final char[] dst, final int dstIndex)
-public static final char[] toChars(final int cp)
-'''
-pass
+    '''    public static final int toChars(final int cp, final char[] dst, final int dstIndex)
+    public static final char[] toChars(final int cp)
+    '''
 def getDirectionality():
-'''public static byte getDirectionality(final int cp)
-'''
-pass
+    '''    public static byte getDirectionality(final int cp)
+    '''
 def codePointCount():
-'''public static int codePointCount(final CharSequence text, final int start, int limit)
-public static int codePointCount(final char[] text, final int start, int limit)
-'''
-pass
+    '''    public static int codePointCount(final CharSequence text, final int start, int limit)
+    public static int codePointCount(final char[] text, final int start, int limit)
+    '''
 def offsetByCodePoints():
-'''public static int offsetByCodePoints(final CharSequence text, int index, int codePointOffset)
-public static int offsetByCodePoints(final char[] text, final int start, final int count, int index, int codePointOffset)
-'''
-pass
+    '''    public static int offsetByCodePoints(final CharSequence text, int index, int codePointOffset)
+    public static int offsetByCodePoints(final char[] text, final int start, final int count, int index, int codePointOffset)
+    '''
 def getInstance():
-'''public static UnicodeBlock getInstance(final int id)
-'''
-pass
+    '''    public static UnicodeBlock getInstance(final int id)
+    '''
 def of():
-'''public static UnicodeBlock of(final int ch)
-'''
-pass
+    '''    public static UnicodeBlock of(final int ch)
+    '''
 def forName():
-'''public static final UnicodeBlock forName(final String blockName)
-'''
-pass
+    '''    public static final UnicodeBlock forName(final String blockName)
+    '''
 def getID():
-'''public int getID()
-'''
-pass
+    '''    public int getID()
+    '''
 def next():
-'''public boolean next(final Element element)
-public boolean next(final Element element)
-'''
-pass
+    '''    public boolean next(final Element element)
+    public boolean next(final Element element)
+    '''
 def reset():
-'''public void reset()
-public void reset()
-'''
-pass
+    '''    public void reset()
+    public void reset()
+    '''
 def map():
-'''public int map(final int value)
-'''
-pass
+    '''    public int map(final int value)
+    '''
 def setRange():
-'''public void setRange(final int start, final int limit)
-'''
-pass
+    '''    public void setRange(final int start, final int limit)
+    '''

@@ -1,5 +1,4 @@
 def InvalidCommandlineArgument():
-'''public InvalidCommandlineArgument()
-public InvalidCommandlineArgument(final String message)
-'''
-pass
+    '''    public InvalidCommandlineArgument()
+    public InvalidCommandlineArgument(final String message)
+    '''

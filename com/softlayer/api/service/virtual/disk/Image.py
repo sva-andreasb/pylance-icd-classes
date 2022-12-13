@@ -1,389 +1,292 @@
 def setBillingItem():
-'''public void setBillingItem(final com.softlayer.api.service.billing.item.virtual.disk.Image billingItem)
-'''
-pass
+    '''    public void setBillingItem(final com.softlayer.api.service.billing.item.virtual.disk.Image billingItem)
+    '''
 def getBlockDevices():
-'''public List<Device> getBlockDevices()
-'''
-pass
+    '''    public List<Device> getBlockDevices()
+    '''
 def getBootableVolumeFlag():
-'''public Boolean getBootableVolumeFlag()
-'''
-pass
+    '''    public Boolean getBootableVolumeFlag()
+    '''
 def setBootableVolumeFlag():
-'''public void setBootableVolumeFlag(final Boolean bootableVolumeFlag)
-'''
-pass
+    '''    public void setBootableVolumeFlag(final Boolean bootableVolumeFlag)
+    '''
 def getCoalescedDiskImages():
-'''public List<Image> getCoalescedDiskImages()
-'''
-pass
+    '''    public List<Image> getCoalescedDiskImages()
+    '''
 def getCopyOnWriteFlag():
-'''public Boolean getCopyOnWriteFlag()
-'''
-pass
+    '''    public Boolean getCopyOnWriteFlag()
+    '''
 def setCopyOnWriteFlag():
-'''public void setCopyOnWriteFlag(final Boolean copyOnWriteFlag)
-'''
-pass
+    '''    public void setCopyOnWriteFlag(final Boolean copyOnWriteFlag)
+    '''
 def getLocalDiskFlag():
-'''public Boolean getLocalDiskFlag()
-'''
-pass
+    '''    public Boolean getLocalDiskFlag()
+    '''
 def setLocalDiskFlag():
-'''public void setLocalDiskFlag(final Boolean localDiskFlag)
-'''
-pass
+    '''    public void setLocalDiskFlag(final Boolean localDiskFlag)
+    '''
 def getMetadataFlag():
-'''public Boolean getMetadataFlag()
-'''
-pass
+    '''    public Boolean getMetadataFlag()
+    '''
 def setMetadataFlag():
-'''public void setMetadataFlag(final Boolean metadataFlag)
-'''
-pass
+    '''    public void setMetadataFlag(final Boolean metadataFlag)
+    '''
 def getSoftwareReferences():
-'''public List<Software> getSoftwareReferences()
-'''
-pass
+    '''    public List<Software> getSoftwareReferences()
+    '''
 def getSourceDiskImage():
-'''public Image getSourceDiskImage()
-'''
-pass
+    '''    public Image getSourceDiskImage()
+    '''
 def setSourceDiskImage():
-'''public void setSourceDiskImage(final Image sourceDiskImage)
-'''
-pass
+    '''    public void setSourceDiskImage(final Image sourceDiskImage)
+    '''
 def getStorageRepository():
-'''public Repository getStorageRepository()
-'''
-pass
+    '''    public Repository getStorageRepository()
+    '''
 def setStorageRepository():
-'''public void setStorageRepository(final Repository storageRepository)
-'''
-pass
+    '''    public void setStorageRepository(final Repository storageRepository)
+    '''
 def setStorageRepositoryType():
-'''public void setStorageRepositoryType(final com.softlayer.api.service.virtual.storage.repository.Type storageRepositoryType)
-'''
-pass
+    '''    public void setStorageRepositoryType(final com.softlayer.api.service.virtual.storage.repository.Type storageRepositoryType)
+    '''
 def getTemplateBlockDevice():
-'''public Template getTemplateBlockDevice()
-'''
-pass
+    '''    public Template getTemplateBlockDevice()
+    '''
 def setTemplateBlockDevice():
-'''public void setTemplateBlockDevice(final Template templateBlockDevice)
-'''
-pass
+    '''    public void setTemplateBlockDevice(final Template templateBlockDevice)
+    '''
 def setType():
-'''public void setType(final com.softlayer.api.service.virtual.disk.image.Type type)
-'''
-pass
+    '''    public void setType(final com.softlayer.api.service.virtual.disk.image.Type type)
+    '''
 def getCapacity():
-'''public Long getCapacity()
-'''
-pass
+    '''    public Long getCapacity()
+    '''
 def setCapacity():
-'''public void setCapacity(final Long capacity)
-'''
-pass
+    '''    public void setCapacity(final Long capacity)
+    '''
 def isCapacitySpecified():
-'''public boolean isCapacitySpecified()
-'''
-pass
+    '''    public boolean isCapacitySpecified()
+    '''
 def unsetCapacity():
-'''public void unsetCapacity()
-'''
-pass
+    '''    public void unsetCapacity()
+    '''
 def getChecksum():
-'''public String getChecksum()
-'''
-pass
+    '''    public String getChecksum()
+    '''
 def setChecksum():
-'''public void setChecksum(final String checksum)
-'''
-pass
+    '''    public void setChecksum(final String checksum)
+    '''
 def isChecksumSpecified():
-'''public boolean isChecksumSpecified()
-'''
-pass
+    '''    public boolean isChecksumSpecified()
+    '''
 def unsetChecksum():
-'''public void unsetChecksum()
-'''
-pass
+    '''    public void unsetChecksum()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getParentId():
-'''public Long getParentId()
-'''
-pass
+    '''    public Long getParentId()
+    '''
 def setParentId():
-'''public void setParentId(final Long parentId)
-'''
-pass
+    '''    public void setParentId(final Long parentId)
+    '''
 def isParentIdSpecified():
-'''public boolean isParentIdSpecified()
-'''
-pass
+    '''    public boolean isParentIdSpecified()
+    '''
 def unsetParentId():
-'''public void unsetParentId()
-'''
-pass
+    '''    public void unsetParentId()
+    '''
 def getStorageRepositoryId():
-'''public Long getStorageRepositoryId()
-'''
-pass
+    '''    public Long getStorageRepositoryId()
+    '''
 def setStorageRepositoryId():
-'''public void setStorageRepositoryId(final Long storageRepositoryId)
-'''
-pass
+    '''    public void setStorageRepositoryId(final Long storageRepositoryId)
+    '''
 def isStorageRepositoryIdSpecified():
-'''public boolean isStorageRepositoryIdSpecified()
-'''
-pass
+    '''    public boolean isStorageRepositoryIdSpecified()
+    '''
 def unsetStorageRepositoryId():
-'''public void unsetStorageRepositoryId()
-'''
-pass
+    '''    public void unsetStorageRepositoryId()
+    '''
 def getTypeId():
-'''public Long getTypeId()
-'''
-pass
+    '''    public Long getTypeId()
+    '''
 def setTypeId():
-'''public void setTypeId(final Long typeId)
-'''
-pass
+    '''    public void setTypeId(final Long typeId)
+    '''
 def isTypeIdSpecified():
-'''public boolean isTypeIdSpecified()
-'''
-pass
+    '''    public boolean isTypeIdSpecified()
+    '''
 def unsetTypeId():
-'''public void unsetTypeId()
-'''
-pass
+    '''    public void unsetTypeId()
+    '''
 def getUnits():
-'''public String getUnits()
-'''
-pass
+    '''    public String getUnits()
+    '''
 def setUnits():
-'''public void setUnits(final String units)
-'''
-pass
+    '''    public void setUnits(final String units)
+    '''
 def isUnitsSpecified():
-'''public boolean isUnitsSpecified()
-'''
-pass
+    '''    public boolean isUnitsSpecified()
+    '''
 def unsetUnits():
-'''public void unsetUnits()
-'''
-pass
+    '''    public void unsetUnits()
+    '''
 def getUuid():
-'''public String getUuid()
-'''
-pass
+    '''    public String getUuid()
+    '''
 def setUuid():
-'''public void setUuid(final String uuid)
-'''
-pass
+    '''    public void setUuid(final String uuid)
+    '''
 def isUuidSpecified():
-'''public boolean isUuidSpecified()
-'''
-pass
+    '''    public boolean isUuidSpecified()
+    '''
 def unsetUuid():
-'''public void unsetUuid()
-'''
-pass
+    '''    public void unsetUuid()
+    '''
 def getBlockDeviceCount():
-'''public Long getBlockDeviceCount()
-'''
-pass
+    '''    public Long getBlockDeviceCount()
+    '''
 def setBlockDeviceCount():
-'''public void setBlockDeviceCount(final Long blockDeviceCount)
-'''
-pass
+    '''    public void setBlockDeviceCount(final Long blockDeviceCount)
+    '''
 def getCoalescedDiskImageCount():
-'''public Long getCoalescedDiskImageCount()
-'''
-pass
+    '''    public Long getCoalescedDiskImageCount()
+    '''
 def setCoalescedDiskImageCount():
-'''public void setCoalescedDiskImageCount(final Long coalescedDiskImageCount)
-'''
-pass
+    '''    public void setCoalescedDiskImageCount(final Long coalescedDiskImageCount)
+    '''
 def getSoftwareReferenceCount():
-'''public Long getSoftwareReferenceCount()
-'''
-pass
+    '''    public Long getSoftwareReferenceCount()
+    '''
 def setSoftwareReferenceCount():
-'''public void setSoftwareReferenceCount(final Long softwareReferenceCount)
-'''
-pass
+    '''    public void setSoftwareReferenceCount(final Long softwareReferenceCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def bootableVolumeFlag():
-'''public Mask bootableVolumeFlag()
-'''
-pass
+    '''    public Mask bootableVolumeFlag()
+    '''
 def coalescedDiskImages():
-'''public Mask coalescedDiskImages()
-'''
-pass
+    '''    public Mask coalescedDiskImages()
+    '''
 def copyOnWriteFlag():
-'''public Mask copyOnWriteFlag()
-'''
-pass
+    '''    public Mask copyOnWriteFlag()
+    '''
 def localDiskFlag():
-'''public Mask localDiskFlag()
-'''
-pass
+    '''    public Mask localDiskFlag()
+    '''
 def metadataFlag():
-'''public Mask metadataFlag()
-'''
-pass
+    '''    public Mask metadataFlag()
+    '''
 def sourceDiskImage():
-'''public Mask sourceDiskImage()
-'''
-pass
+    '''    public Mask sourceDiskImage()
+    '''
 def capacity():
-'''public Mask capacity()
-'''
-pass
+    '''    public Mask capacity()
+    '''
 def checksum():
-'''public Mask checksum()
-'''
-pass
+    '''    public Mask checksum()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def parentId():
-'''public Mask parentId()
-'''
-pass
+    '''    public Mask parentId()
+    '''
 def storageRepositoryId():
-'''public Mask storageRepositoryId()
-'''
-pass
+    '''    public Mask storageRepositoryId()
+    '''
 def typeId():
-'''public Mask typeId()
-'''
-pass
+    '''    public Mask typeId()
+    '''
 def units():
-'''public Mask units()
-'''
-pass
+    '''    public Mask units()
+    '''
 def uuid():
-'''public Mask uuid()
-'''
-pass
+    '''    public Mask uuid()
+    '''
 def blockDeviceCount():
-'''public Mask blockDeviceCount()
-'''
-pass
+    '''    public Mask blockDeviceCount()
+    '''
 def coalescedDiskImageCount():
-'''public Mask coalescedDiskImageCount()
-'''
-pass
+    '''    public Mask coalescedDiskImageCount()
+    '''
 def softwareReferenceCount():
-'''public Mask softwareReferenceCount()
-'''
-pass
+    '''    public Mask softwareReferenceCount()
+    '''

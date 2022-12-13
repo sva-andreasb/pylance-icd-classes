@@ -1,8 +1,6 @@
 def SimpleTripleSorter():
-'''public SimpleTripleSorter()
-'''
-pass
+    '''    public SimpleTripleSorter()
+    '''
 def sort():
-'''public Triple[] sort(final Triple[] ts)
-'''
-pass
+    '''    public Triple[] sort(final Triple[] ts)
+    '''

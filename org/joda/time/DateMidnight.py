@@ -1,258 +1,199 @@
 def now():
-'''public static DateMidnight now()
-public static DateMidnight now(final DateTimeZone dateTimeZone)
-public static DateMidnight now(final Chronology chronology)
-'''
-pass
+    '''    public static DateMidnight now()
+    public static DateMidnight now(final DateTimeZone dateTimeZone)
+    public static DateMidnight now(final Chronology chronology)
+    '''
 def parse():
-'''public static DateMidnight parse(final String s)
-public static DateMidnight parse(final String s, final DateTimeFormatter dateTimeFormatter)
-'''
-pass
+    '''    public static DateMidnight parse(final String s)
+    public static DateMidnight parse(final String s, final DateTimeFormatter dateTimeFormatter)
+    '''
 def DateMidnight():
-'''public DateMidnight()
-public DateMidnight(final DateTimeZone dateTimeZone)
-public DateMidnight(final Chronology chronology)
-public DateMidnight(final long n)
-public DateMidnight(final long n, final DateTimeZone dateTimeZone)
-public DateMidnight(final long n, final Chronology chronology)
-public DateMidnight(final Object o)
-public DateMidnight(final Object o, final DateTimeZone dateTimeZone)
-public DateMidnight(final Object o, final Chronology chronology)
-public DateMidnight(final int n, final int n2, final int n3)
-public DateMidnight(final int n, final int n2, final int n3, final DateTimeZone dateTimeZone)
-public DateMidnight(final int n, final int n2, final int n3, final Chronology chronology)
-'''
-pass
+    '''    public DateMidnight()
+    public DateMidnight(final DateTimeZone dateTimeZone)
+    public DateMidnight(final Chronology chronology)
+    public DateMidnight(final long n)
+    public DateMidnight(final long n, final DateTimeZone dateTimeZone)
+    public DateMidnight(final long n, final Chronology chronology)
+    public DateMidnight(final Object o)
+    public DateMidnight(final Object o, final DateTimeZone dateTimeZone)
+    public DateMidnight(final Object o, final Chronology chronology)
+    public DateMidnight(final int n, final int n2, final int n3)
+    public DateMidnight(final int n, final int n2, final int n3, final DateTimeZone dateTimeZone)
+    public DateMidnight(final int n, final int n2, final int n3, final Chronology chronology)
+    '''
 def withMillis():
-'''public DateMidnight withMillis(long checkInstant)
-'''
-pass
+    '''    public DateMidnight withMillis(long checkInstant)
+    '''
 def withChronology():
-'''public DateMidnight withChronology(final Chronology chronology)
-'''
-pass
+    '''    public DateMidnight withChronology(final Chronology chronology)
+    '''
 def withZoneRetainFields():
-'''public DateMidnight withZoneRetainFields(DateTimeZone zone)
-'''
-pass
+    '''    public DateMidnight withZoneRetainFields(DateTimeZone zone)
+    '''
 def withFields():
-'''public DateMidnight withFields(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public DateMidnight withFields(final ReadablePartial readablePartial)
+    '''
 def withField():
-'''public DateMidnight withField(final DateTimeFieldType dateTimeFieldType, final int n)
-'''
-pass
+    '''    public DateMidnight withField(final DateTimeFieldType dateTimeFieldType, final int n)
+    '''
 def withFieldAdded():
-'''public DateMidnight withFieldAdded(final DurationFieldType durationFieldType, final int n)
-'''
-pass
+    '''    public DateMidnight withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''
 def withDurationAdded():
-'''public DateMidnight withDurationAdded(final long n, final int n2)
-public DateMidnight withDurationAdded(final ReadableDuration readableDuration, final int n)
-'''
-pass
+    '''    public DateMidnight withDurationAdded(final long n, final int n2)
+    public DateMidnight withDurationAdded(final ReadableDuration readableDuration, final int n)
+    '''
 def withPeriodAdded():
-'''public DateMidnight withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
-'''
-pass
+    '''    public DateMidnight withPeriodAdded(final ReadablePeriod readablePeriod, final int n)
+    '''
 def plus():
-'''public DateMidnight plus(final long n)
-public DateMidnight plus(final ReadableDuration readableDuration)
-public DateMidnight plus(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public DateMidnight plus(final long n)
+    public DateMidnight plus(final ReadableDuration readableDuration)
+    public DateMidnight plus(final ReadablePeriod readablePeriod)
+    '''
 def plusYears():
-'''public DateMidnight plusYears(final int n)
-'''
-pass
+    '''    public DateMidnight plusYears(final int n)
+    '''
 def plusMonths():
-'''public DateMidnight plusMonths(final int n)
-'''
-pass
+    '''    public DateMidnight plusMonths(final int n)
+    '''
 def plusWeeks():
-'''public DateMidnight plusWeeks(final int n)
-'''
-pass
+    '''    public DateMidnight plusWeeks(final int n)
+    '''
 def plusDays():
-'''public DateMidnight plusDays(final int n)
-'''
-pass
+    '''    public DateMidnight plusDays(final int n)
+    '''
 def minus():
-'''public DateMidnight minus(final long n)
-public DateMidnight minus(final ReadableDuration readableDuration)
-public DateMidnight minus(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public DateMidnight minus(final long n)
+    public DateMidnight minus(final ReadableDuration readableDuration)
+    public DateMidnight minus(final ReadablePeriod readablePeriod)
+    '''
 def minusYears():
-'''public DateMidnight minusYears(final int n)
-'''
-pass
+    '''    public DateMidnight minusYears(final int n)
+    '''
 def minusMonths():
-'''public DateMidnight minusMonths(final int n)
-'''
-pass
+    '''    public DateMidnight minusMonths(final int n)
+    '''
 def minusWeeks():
-'''public DateMidnight minusWeeks(final int n)
-'''
-pass
+    '''    public DateMidnight minusWeeks(final int n)
+    '''
 def minusDays():
-'''public DateMidnight minusDays(final int n)
-'''
-pass
+    '''    public DateMidnight minusDays(final int n)
+    '''
 def property():
-'''public Property property(final DateTimeFieldType obj)
-'''
-pass
+    '''    public Property property(final DateTimeFieldType obj)
+    '''
 def toYearMonthDay():
-'''public YearMonthDay toYearMonthDay()
-'''
-pass
+    '''    public YearMonthDay toYearMonthDay()
+    '''
 def toLocalDate():
-'''public LocalDate toLocalDate()
-'''
-pass
+    '''    public LocalDate toLocalDate()
+    '''
 def toInterval():
-'''public Interval toInterval()
-'''
-pass
+    '''    public Interval toInterval()
+    '''
 def withEra():
-'''public DateMidnight withEra(final int n)
-'''
-pass
+    '''    public DateMidnight withEra(final int n)
+    '''
 def withCenturyOfEra():
-'''public DateMidnight withCenturyOfEra(final int n)
-'''
-pass
+    '''    public DateMidnight withCenturyOfEra(final int n)
+    '''
 def withYearOfEra():
-'''public DateMidnight withYearOfEra(final int n)
-'''
-pass
+    '''    public DateMidnight withYearOfEra(final int n)
+    '''
 def withYearOfCentury():
-'''public DateMidnight withYearOfCentury(final int n)
-'''
-pass
+    '''    public DateMidnight withYearOfCentury(final int n)
+    '''
 def withYear():
-'''public DateMidnight withYear(final int n)
-'''
-pass
+    '''    public DateMidnight withYear(final int n)
+    '''
 def withWeekyear():
-'''public DateMidnight withWeekyear(final int n)
-'''
-pass
+    '''    public DateMidnight withWeekyear(final int n)
+    '''
 def withMonthOfYear():
-'''public DateMidnight withMonthOfYear(final int n)
-'''
-pass
+    '''    public DateMidnight withMonthOfYear(final int n)
+    '''
 def withWeekOfWeekyear():
-'''public DateMidnight withWeekOfWeekyear(final int n)
-'''
-pass
+    '''    public DateMidnight withWeekOfWeekyear(final int n)
+    '''
 def withDayOfYear():
-'''public DateMidnight withDayOfYear(final int n)
-'''
-pass
+    '''    public DateMidnight withDayOfYear(final int n)
+    '''
 def withDayOfMonth():
-'''public DateMidnight withDayOfMonth(final int n)
-'''
-pass
+    '''    public DateMidnight withDayOfMonth(final int n)
+    '''
 def withDayOfWeek():
-'''public DateMidnight withDayOfWeek(final int n)
-'''
-pass
+    '''    public DateMidnight withDayOfWeek(final int n)
+    '''
 def era():
-'''public Property era()
-'''
-pass
+    '''    public Property era()
+    '''
 def centuryOfEra():
-'''public Property centuryOfEra()
-'''
-pass
+    '''    public Property centuryOfEra()
+    '''
 def yearOfCentury():
-'''public Property yearOfCentury()
-'''
-pass
+    '''    public Property yearOfCentury()
+    '''
 def yearOfEra():
-'''public Property yearOfEra()
-'''
-pass
+    '''    public Property yearOfEra()
+    '''
 def year():
-'''public Property year()
-'''
-pass
+    '''    public Property year()
+    '''
 def weekyear():
-'''public Property weekyear()
-'''
-pass
+    '''    public Property weekyear()
+    '''
 def monthOfYear():
-'''public Property monthOfYear()
-'''
-pass
+    '''    public Property monthOfYear()
+    '''
 def weekOfWeekyear():
-'''public Property weekOfWeekyear()
-'''
-pass
+    '''    public Property weekOfWeekyear()
+    '''
 def dayOfYear():
-'''public Property dayOfYear()
-'''
-pass
+    '''    public Property dayOfYear()
+    '''
 def dayOfMonth():
-'''public Property dayOfMonth()
-'''
-pass
+    '''    public Property dayOfMonth()
+    '''
 def dayOfWeek():
-'''public Property dayOfWeek()
-'''
-pass
+    '''    public Property dayOfWeek()
+    '''
 def getField():
-'''public DateTimeField getField()
-'''
-pass
+    '''    public DateTimeField getField()
+    '''
 def getDateMidnight():
-'''public DateMidnight getDateMidnight()
-'''
-pass
+    '''    public DateMidnight getDateMidnight()
+    '''
 def addToCopy():
-'''public DateMidnight addToCopy(final int n)
-public DateMidnight addToCopy(final long n)
-'''
-pass
+    '''    public DateMidnight addToCopy(final int n)
+    public DateMidnight addToCopy(final long n)
+    '''
 def addWrapFieldToCopy():
-'''public DateMidnight addWrapFieldToCopy(final int n)
-'''
-pass
+    '''    public DateMidnight addWrapFieldToCopy(final int n)
+    '''
 def setCopy():
-'''public DateMidnight setCopy(final int n)
-public DateMidnight setCopy(final String s, final Locale locale)
-public DateMidnight setCopy(final String s)
-'''
-pass
+    '''    public DateMidnight setCopy(final int n)
+    public DateMidnight setCopy(final String s, final Locale locale)
+    public DateMidnight setCopy(final String s)
+    '''
 def withMaximumValue():
-'''public DateMidnight withMaximumValue()
-'''
-pass
+    '''    public DateMidnight withMaximumValue()
+    '''
 def withMinimumValue():
-'''public DateMidnight withMinimumValue()
-'''
-pass
+    '''    public DateMidnight withMinimumValue()
+    '''
 def roundFloorCopy():
-'''public DateMidnight roundFloorCopy()
-'''
-pass
+    '''    public DateMidnight roundFloorCopy()
+    '''
 def roundCeilingCopy():
-'''public DateMidnight roundCeilingCopy()
-'''
-pass
+    '''    public DateMidnight roundCeilingCopy()
+    '''
 def roundHalfFloorCopy():
-'''public DateMidnight roundHalfFloorCopy()
-'''
-pass
+    '''    public DateMidnight roundHalfFloorCopy()
+    '''
 def roundHalfCeilingCopy():
-'''public DateMidnight roundHalfCeilingCopy()
-'''
-pass
+    '''    public DateMidnight roundHalfCeilingCopy()
+    '''
 def roundHalfEvenCopy():
-'''public DateMidnight roundHalfEvenCopy()
-'''
-pass
+    '''    public DateMidnight roundHalfEvenCopy()
+    '''

@@ -1,8 +1,6 @@
 def setPlatformLocation():
-'''public static void setPlatformLocation(final String loc)
-'''
-pass
+    '''    public static void setPlatformLocation(final String loc)
+    '''
 def getPlatformLocation():
-'''public static String getPlatformLocation()
-'''
-pass
+    '''    public static String getPlatformLocation()
+    '''

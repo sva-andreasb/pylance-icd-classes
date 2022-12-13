@@ -1,56 +1,42 @@
 def AliasInfo():
-'''public AliasInfo(final Guid guid, final Guid masterGuid, final Guid namingRuleGuid, final int namingRulePriority, final Timestamp createTs, final Timestamp staleTs, final String classType, final String name)
-'''
-pass
+    '''    public AliasInfo(final Guid guid, final Guid masterGuid, final Guid namingRuleGuid, final int namingRulePriority, final Timestamp createTs, final Timestamp staleTs, final String classType, final String name)
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getClassType():
-'''public String getClassType()
-'''
-pass
+    '''    public String getClassType()
+    '''
 def getMasterGuid():
-'''public Guid getMasterGuid()
-'''
-pass
+    '''    public Guid getMasterGuid()
+    '''
 def getNamingRuleGuid():
-'''public Guid getNamingRuleGuid()
-'''
-pass
+    '''    public Guid getNamingRuleGuid()
+    '''
 def getNamingRulePriority():
-'''public int getNamingRulePriority()
-'''
-pass
+    '''    public int getNamingRulePriority()
+    '''
 def getCreateTs():
-'''public Timestamp getCreateTs()
-'''
-pass
+    '''    public Timestamp getCreateTs()
+    '''
 def getStaleTs():
-'''public Timestamp getStaleTs()
-'''
-pass
+    '''    public Timestamp getStaleTs()
+    '''
 def addAttribute():
-'''public void addAttribute(final String attributeName, final String attributeValue)
-'''
-pass
+    '''    public void addAttribute(final String attributeName, final String attributeValue)
+    '''
 def attributeNames():
-'''public List<String> attributeNames()
-'''
-pass
+    '''    public List<String> attributeNames()
+    '''
 def getAttribute():
-'''public Object getAttribute(final String attributeName)
-'''
-pass
+    '''    public Object getAttribute(final String attributeName)
+    '''
 def substituteAttributeName():
-'''public boolean substituteAttributeName(final String oldName, final String newName)
-'''
-pass
+    '''    public boolean substituteAttributeName(final String oldName, final String newName)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def TamitAssetChangeStatusPlan():
-'''public TamitAssetChangeStatusPlan(final MboSet ms)
-'''
-pass
+    '''    public TamitAssetChangeStatusPlan(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

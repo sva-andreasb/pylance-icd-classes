@@ -1,16 +1,12 @@
 def SKDNewWorkPkgBean():
-'''public SKDNewWorkPkgBean()
-'''
-pass
+    '''    public SKDNewWorkPkgBean()
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(final String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

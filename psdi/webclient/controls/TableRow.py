@@ -4,54 +4,41 @@ FILTERROW = "int  -2"
 NOCOLUMNS = "int  -1"
 DATAROW = "int  0"
 def TableRow():
-'''public TableRow()
-'''
-pass
+    '''    public TableRow()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def tableHasData():
-'''public boolean tableHasData()
-'''
-pass
+    '''    public boolean tableHasData()
+    '''
 def isrowselected():
-'''public boolean isrowselected()
-'''
-pass
+    '''    public boolean isrowselected()
+    '''
 def hasData():
-'''public boolean hasData()
-'''
-pass
+    '''    public boolean hasData()
+    '''
 def getRenderRow():
-'''public int getRenderRow()
-'''
-pass
+    '''    public int getRenderRow()
+    '''
 def getRow():
-'''public int getRow()
-'''
-pass
+    '''    public int getRow()
+    '''
 def getTableControl():
-'''public Table getTableControl()
-'''
-pass
+    '''    public Table getTableControl()
+    '''
 def toggleselectrow():
-'''public int toggleselectrow()
-'''
-pass
+    '''    public int toggleselectrow()
+    '''
 def setCurrent():
-'''public void setCurrent()
-'''
-pass
+    '''    public void setCurrent()
+    '''
 def rowVisible():
-'''public boolean rowVisible()
-'''
-pass
+    '''    public boolean rowVisible()
+    '''
 def isExpanded():
-'''public boolean isExpanded()
-'''
-pass
+    '''    public boolean isExpanded()
+    '''
 def getHeaders():
-'''public String getHeaders()
-'''
-pass
+    '''    public String getHeaders()
+    '''

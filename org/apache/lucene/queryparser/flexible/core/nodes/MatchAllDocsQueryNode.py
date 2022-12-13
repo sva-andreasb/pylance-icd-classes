@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toQueryString():
-'''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
-'''
-pass
+    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''
 def cloneTree():
-'''public MatchAllDocsQueryNode cloneTree()
-'''
-pass
+    '''    public MatchAllDocsQueryNode cloneTree()
+    '''

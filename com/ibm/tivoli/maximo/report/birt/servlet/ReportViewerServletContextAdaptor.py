@@ -1,98 +1,74 @@
 def ReportViewerServletContextAdaptor():
-'''public ReportViewerServletContextAdaptor(final ServletContext servletContext, Dictionary initparams)
-'''
-pass
+    '''    public ReportViewerServletContextAdaptor(final ServletContext servletContext, Dictionary initparams)
+    '''
 def getAttribute():
-'''public Object getAttribute(final String attrName)
-'''
-pass
+    '''    public Object getAttribute(final String attrName)
+    '''
 def getAttributeNames():
-'''public Enumeration getAttributeNames()
-'''
-pass
+    '''    public Enumeration getAttributeNames()
+    '''
 def getContext():
-'''public ServletContext getContext(final String uriPath)
-'''
-pass
+    '''    public ServletContext getContext(final String uriPath)
+    '''
 def getInitParameter():
-'''public String getInitParameter(final String name)
-'''
-pass
+    '''    public String getInitParameter(final String name)
+    '''
 def getInitParameterNames():
-'''public Enumeration getInitParameterNames()
-'''
-pass
+    '''    public Enumeration getInitParameterNames()
+    '''
 def getMajorVersion():
-'''public int getMajorVersion()
-'''
-pass
+    '''    public int getMajorVersion()
+    '''
 def getMimeType():
-'''public String getMimeType(final String arg0)
-'''
-pass
+    '''    public String getMimeType(final String arg0)
+    '''
 def getMinorVersion():
-'''public int getMinorVersion()
-'''
-pass
+    '''    public int getMinorVersion()
+    '''
 def getNamedDispatcher():
-'''public RequestDispatcher getNamedDispatcher(final String uriPath)
-'''
-pass
+    '''    public RequestDispatcher getNamedDispatcher(final String uriPath)
+    '''
 def getRealPath():
-'''public String getRealPath(final String path)
-'''
-pass
+    '''    public String getRealPath(final String path)
+    '''
 def getRequestDispatcher():
-'''public RequestDispatcher getRequestDispatcher(final String path)
-'''
-pass
+    '''    public RequestDispatcher getRequestDispatcher(final String path)
+    '''
 def getResource():
-'''public URL getResource(final String path)
-'''
-pass
+    '''    public URL getResource(final String path)
+    '''
 def getResourceAsStream():
-'''public InputStream getResourceAsStream(final String path)
-'''
-pass
+    '''    public InputStream getResourceAsStream(final String path)
+    '''
 def getResourcePaths():
-'''public Set getResourcePaths(final String path)
-'''
-pass
+    '''    public Set getResourcePaths(final String path)
+    '''
 def getServerInfo():
-'''public String getServerInfo()
-'''
-pass
+    '''    public String getServerInfo()
+    '''
 def getServlet():
-'''public Servlet getServlet(final String name)
-'''
-pass
+    '''    public Servlet getServlet(final String name)
+    '''
 def getServletContextName():
-'''public String getServletContextName()
-'''
-pass
+    '''    public String getServletContextName()
+    '''
 def getServletNames():
-'''public Enumeration getServletNames()
-'''
-pass
+    '''    public Enumeration getServletNames()
+    '''
 def getServlets():
-'''public Enumeration getServlets()
-'''
-pass
+    '''    public Enumeration getServlets()
+    '''
 def log():
-'''public void log(final String msg)
-public void log(final Exception exception, final String msg)
-public void log(final String msg, final Throwable throwable)
-'''
-pass
+    '''    public void log(final String msg)
+    public void log(final Exception exception, final String msg)
+    public void log(final String msg, final Throwable throwable)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final String name)
-'''
-pass
+    '''    public void removeAttribute(final String name)
+    '''
 def setAttribute():
-'''public void setAttribute(final String name, final Object object)
-'''
-pass
+    '''    public void setAttribute(final String name, final Object object)
+    '''
 def getContextPath():
-'''public String getContextPath()
-'''
-pass
+    '''    public String getContextPath()
+    '''

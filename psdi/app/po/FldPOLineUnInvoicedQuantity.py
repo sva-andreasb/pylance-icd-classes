@@ -1,8 +1,6 @@
 def FldPOLineUnInvoicedQuantity():
-'''public FldPOLineUnInvoicedQuantity(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineUnInvoicedQuantity(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

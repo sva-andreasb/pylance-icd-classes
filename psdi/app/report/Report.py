@@ -1,80 +1,60 @@
 def Report():
-'''public Report(final MboSet ms)
-'''
-pass
+    '''    public Report(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canLimitRecords():
-'''public boolean canLimitRecords()
-'''
-pass
+    '''    public boolean canLimitRecords()
+    '''
 def isLimitedType():
-'''public boolean isLimitedType(final String runType)
-'''
-pass
+    '''    public boolean isLimitedType(final String runType)
+    '''
 def isQuickPrintable():
-'''public boolean isQuickPrintable()
-'''
-pass
+    '''    public boolean isQuickPrintable()
+    '''
 def setFieldsReadOnly():
-'''public void setFieldsReadOnly(final boolean state)
-'''
-pass
+    '''    public void setFieldsReadOnly(final boolean state)
+    '''
 def generateAndReplaceAllXML():
-'''public String generateAndReplaceAllXML()
-'''
-pass
+    '''    public String generateAndReplaceAllXML()
+    '''
 def getBaseReportXML():
-'''public String getBaseReportXML()
-'''
-pass
+    '''    public String getBaseReportXML()
+    '''
 def generateXML():
-'''public String generateXML(final MboRemote appfolder, final MboSetRemote lookupset, String presentationXML)
-'''
-pass
+    '''    public String generateXML(final MboRemote appfolder, final MboSetRemote lookupset, String presentationXML)
+    '''
 def assembleFolderDialog():
-'''public String assembleFolderDialog(final String appName)
-'''
-pass
+    '''    public String assembleFolderDialog(final String appName)
+    '''
 def assembleRequestPage():
-'''public String assembleRequestPage(final MboRemote report, final MboSetRemote lookupset, final int reportnum, final String reporttype)
-'''
-pass
+    '''    public String assembleRequestPage(final MboRemote report, final MboSetRemote lookupset, final int reportnum, final String reporttype)
+    '''
 def assembleDOVRequestPage():
-'''public String assembleDOVRequestPage()
-'''
-pass
+    '''    public String assembleDOVRequestPage()
+    '''
 def insertDialog():
-'''public String insertDialog(final String presentationXML, final String dialogXML, final String dialogID)
-'''
-pass
+    '''    public String insertDialog(final String presentationXML, final String dialogXML, final String dialogID)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def sigopGranted():
-'''public boolean sigopGranted(final String app, final String optionname)
-'''
-pass
+    '''    public boolean sigopGranted(final String app, final String optionname)
+    '''
 def checkSiteOrgAccessForSave():
-'''public void checkSiteOrgAccessForSave()
-'''
-pass
+    '''    public void checkSiteOrgAccessForSave()
+    '''

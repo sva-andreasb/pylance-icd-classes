@@ -1,52 +1,39 @@
 def merge():
-'''public static Endpoint merge(Endpoint defaults, Endpoint override)
-'''
-pass
+    '''    public static Endpoint merge(Endpoint defaults, Endpoint override)
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def setHostName():
-'''public void setHostName(final String hostName)
-'''
-pass
+    '''    public void setHostName(final String hostName)
+    '''
 def getCredentialScope():
-'''public CredentialScope getCredentialScope()
-'''
-pass
+    '''    public CredentialScope getCredentialScope()
+    '''
 def setCredentialScope():
-'''public void setCredentialScope(final CredentialScope credentialScope)
-'''
-pass
+    '''    public void setCredentialScope(final CredentialScope credentialScope)
+    '''
 def getProtocols():
-'''public Set<String> getProtocols()
-'''
-pass
+    '''    public Set<String> getProtocols()
+    '''
 def setProtocols():
-'''public void setProtocols(final Set<String> protocols)
-'''
-pass
+    '''    public void setProtocols(final Set<String> protocols)
+    '''
 def getSignatureVersions():
-'''public Set<String> getSignatureVersions()
-'''
-pass
+    '''    public Set<String> getSignatureVersions()
+    '''
 def setSignatureVersions():
-'''public void setSignatureVersions(final Set<String> signatureVersions)
-'''
-pass
+    '''    public void setSignatureVersions(final Set<String> signatureVersions)
+    '''
 def getSslCommonName():
-'''public String getSslCommonName()
-'''
-pass
+    '''    public String getSslCommonName()
+    '''
 def setSslCommonName():
-'''public void setSslCommonName(final String sslCommonName)
-'''
-pass
+    '''    public void setSslCommonName(final String sslCommonName)
+    '''
 def hasHttpsSupport():
-'''public boolean hasHttpsSupport()
-'''
-pass
+    '''    public boolean hasHttpsSupport()
+    '''
 def hasHttpSupport():
-'''public boolean hasHttpSupport()
-'''
-pass
+    '''    public boolean hasHttpSupport()
+    '''

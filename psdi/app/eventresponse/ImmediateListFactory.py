@@ -1,16 +1,12 @@
 def getInstance():
-'''public static ImmediateListFactory getInstance()
-'''
-pass
+    '''    public static ImmediateListFactory getInstance()
+    '''
 def getImmediateList():
-'''public ImmediateList getImmediateList()
-'''
-pass
+    '''    public ImmediateList getImmediateList()
+    '''
 def getLoadedTenants():
-'''public Set<Integer> getLoadedTenants()
-'''
-pass
+    '''    public Set<Integer> getLoadedTenants()
+    '''
 def clearTenant():
-'''public void clearTenant()
-'''
-pass
+    '''    public void clearTenant()
+    '''

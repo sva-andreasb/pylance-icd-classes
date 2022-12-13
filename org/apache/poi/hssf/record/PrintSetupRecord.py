@@ -1,174 +1,131 @@
 sid = "short  161"
 def PrintSetupRecord():
-'''public PrintSetupRecord()
-public PrintSetupRecord(final RecordInputStream in)
-'''
-pass
+    '''    public PrintSetupRecord()
+    public PrintSetupRecord(final RecordInputStream in)
+    '''
 def setPaperSize():
-'''public void setPaperSize(final short size)
-'''
-pass
+    '''    public void setPaperSize(final short size)
+    '''
 def setScale():
-'''public void setScale(final short scale)
-'''
-pass
+    '''    public void setScale(final short scale)
+    '''
 def setPageStart():
-'''public void setPageStart(final short start)
-'''
-pass
+    '''    public void setPageStart(final short start)
+    '''
 def setFitWidth():
-'''public void setFitWidth(final short width)
-'''
-pass
+    '''    public void setFitWidth(final short width)
+    '''
 def setFitHeight():
-'''public void setFitHeight(final short height)
-'''
-pass
+    '''    public void setFitHeight(final short height)
+    '''
 def setOptions():
-'''public void setOptions(final short options)
-'''
-pass
+    '''    public void setOptions(final short options)
+    '''
 def setLeftToRight():
-'''public void setLeftToRight(final boolean ltor)
-'''
-pass
+    '''    public void setLeftToRight(final boolean ltor)
+    '''
 def setLandscape():
-'''public void setLandscape(final boolean ls)
-'''
-pass
+    '''    public void setLandscape(final boolean ls)
+    '''
 def setValidSettings():
-'''public void setValidSettings(final boolean valid)
-'''
-pass
+    '''    public void setValidSettings(final boolean valid)
+    '''
 def setNoColor():
-'''public void setNoColor(final boolean mono)
-'''
-pass
+    '''    public void setNoColor(final boolean mono)
+    '''
 def setDraft():
-'''public void setDraft(final boolean d)
-'''
-pass
+    '''    public void setDraft(final boolean d)
+    '''
 def setNotes():
-'''public void setNotes(final boolean printnotes)
-'''
-pass
+    '''    public void setNotes(final boolean printnotes)
+    '''
 def setNoOrientation():
-'''public void setNoOrientation(final boolean orientation)
-'''
-pass
+    '''    public void setNoOrientation(final boolean orientation)
+    '''
 def setUsePage():
-'''public void setUsePage(final boolean page)
-'''
-pass
+    '''    public void setUsePage(final boolean page)
+    '''
 def setHResolution():
-'''public void setHResolution(final short resolution)
-'''
-pass
+    '''    public void setHResolution(final short resolution)
+    '''
 def setVResolution():
-'''public void setVResolution(final short resolution)
-'''
-pass
+    '''    public void setVResolution(final short resolution)
+    '''
 def setHeaderMargin():
-'''public void setHeaderMargin(final double headermargin)
-'''
-pass
+    '''    public void setHeaderMargin(final double headermargin)
+    '''
 def setFooterMargin():
-'''public void setFooterMargin(final double footermargin)
-'''
-pass
+    '''    public void setFooterMargin(final double footermargin)
+    '''
 def setCopies():
-'''public void setCopies(final short copies)
-'''
-pass
+    '''    public void setCopies(final short copies)
+    '''
 def getPaperSize():
-'''public short getPaperSize()
-'''
-pass
+    '''    public short getPaperSize()
+    '''
 def getScale():
-'''public short getScale()
-'''
-pass
+    '''    public short getScale()
+    '''
 def getPageStart():
-'''public short getPageStart()
-'''
-pass
+    '''    public short getPageStart()
+    '''
 def getFitWidth():
-'''public short getFitWidth()
-'''
-pass
+    '''    public short getFitWidth()
+    '''
 def getFitHeight():
-'''public short getFitHeight()
-'''
-pass
+    '''    public short getFitHeight()
+    '''
 def getOptions():
-'''public short getOptions()
-'''
-pass
+    '''    public short getOptions()
+    '''
 def getLeftToRight():
-'''public boolean getLeftToRight()
-'''
-pass
+    '''    public boolean getLeftToRight()
+    '''
 def getLandscape():
-'''public boolean getLandscape()
-'''
-pass
+    '''    public boolean getLandscape()
+    '''
 def getValidSettings():
-'''public boolean getValidSettings()
-'''
-pass
+    '''    public boolean getValidSettings()
+    '''
 def getNoColor():
-'''public boolean getNoColor()
-'''
-pass
+    '''    public boolean getNoColor()
+    '''
 def getDraft():
-'''public boolean getDraft()
-'''
-pass
+    '''    public boolean getDraft()
+    '''
 def getNotes():
-'''public boolean getNotes()
-'''
-pass
+    '''    public boolean getNotes()
+    '''
 def getNoOrientation():
-'''public boolean getNoOrientation()
-'''
-pass
+    '''    public boolean getNoOrientation()
+    '''
 def getUsePage():
-'''public boolean getUsePage()
-'''
-pass
+    '''    public boolean getUsePage()
+    '''
 def getHResolution():
-'''public short getHResolution()
-'''
-pass
+    '''    public short getHResolution()
+    '''
 def getVResolution():
-'''public short getVResolution()
-'''
-pass
+    '''    public short getVResolution()
+    '''
 def getHeaderMargin():
-'''public double getHeaderMargin()
-'''
-pass
+    '''    public double getHeaderMargin()
+    '''
 def getFooterMargin():
-'''public double getFooterMargin()
-'''
-pass
+    '''    public double getFooterMargin()
+    '''
 def getCopies():
-'''public short getCopies()
-'''
-pass
+    '''    public short getCopies()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

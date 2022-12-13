@@ -14,190 +14,146 @@ PAGE_STRUCTURE = "int  9"
 STREAM_TRANSFER_MODE = "int  10"
 BLOCK_TRANSFER_MODE = "int  11"
 COMPRESSED_TRANSFER_MODE = "int  12"
-DEFAULT_CONTROL_ENCODING = "String  ISO-8859-1""
+DEFAULT_CONTROL_ENCODING = "String  \"ISO-8859-1\""
 def FTP():
-'''public FTP()
-'''
-pass
+    '''    public FTP()
+    '''
 def setControlEncoding():
-'''public void setControlEncoding(final String encoding)
-'''
-pass
+    '''    public void setControlEncoding(final String encoding)
+    '''
 def getControlEncoding():
-'''public String getControlEncoding()
-'''
-pass
+    '''    public String getControlEncoding()
+    '''
 def addProtocolCommandListener():
-'''public void addProtocolCommandListener(final ProtocolCommandListener listener)
-'''
-pass
+    '''    public void addProtocolCommandListener(final ProtocolCommandListener listener)
+    '''
 def removeProtocolCommandListener():
-'''public void removeProtocolCommandListener(final ProtocolCommandListener listener)
-'''
-pass
+    '''    public void removeProtocolCommandListener(final ProtocolCommandListener listener)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def sendCommand():
-'''public int sendCommand(final String command, final String args)
-public int sendCommand(final int command, final String args)
-public int sendCommand(final String command)
-public int sendCommand(final int command)
-'''
-pass
+    '''    public int sendCommand(final String command, final String args)
+    public int sendCommand(final int command, final String args)
+    public int sendCommand(final String command)
+    public int sendCommand(final int command)
+    '''
 def getReplyCode():
-'''public int getReplyCode()
-'''
-pass
+    '''    public int getReplyCode()
+    '''
 def getReply():
-'''public int getReply()
-'''
-pass
+    '''    public int getReply()
+    '''
 def getReplyStrings():
-'''public String[] getReplyStrings()
-'''
-pass
+    '''    public String[] getReplyStrings()
+    '''
 def getReplyString():
-'''public String getReplyString()
-'''
-pass
+    '''    public String getReplyString()
+    '''
 def user():
-'''public int user(final String username)
-'''
-pass
+    '''    public int user(final String username)
+    '''
 def pass():
-'''public int pass(final String password)
-'''
-pass
+    '''    public int pass(final String password)
+    '''
 def acct():
-'''public int acct(final String account)
-'''
-pass
+    '''    public int acct(final String account)
+    '''
 def abor():
-'''public int abor()
-'''
-pass
+    '''    public int abor()
+    '''
 def cwd():
-'''public int cwd(final String directory)
-'''
-pass
+    '''    public int cwd(final String directory)
+    '''
 def cdup():
-'''public int cdup()
-'''
-pass
+    '''    public int cdup()
+    '''
 def quit():
-'''public int quit()
-'''
-pass
+    '''    public int quit()
+    '''
 def rein():
-'''public int rein()
-'''
-pass
+    '''    public int rein()
+    '''
 def smnt():
-'''public int smnt(final String dir)
-'''
-pass
+    '''    public int smnt(final String dir)
+    '''
 def port():
-'''public int port(final InetAddress host, final int port)
-'''
-pass
+    '''    public int port(final InetAddress host, final int port)
+    '''
 def pasv():
-'''public int pasv()
-'''
-pass
+    '''    public int pasv()
+    '''
 def type():
-'''public int type(final int fileType, final int formatOrByteSize)
-public int type(final int fileType)
-'''
-pass
+    '''    public int type(final int fileType, final int formatOrByteSize)
+    public int type(final int fileType)
+    '''
 def stru():
-'''public int stru(final int structure)
-'''
-pass
+    '''    public int stru(final int structure)
+    '''
 def mode():
-'''public int mode(final int mode)
-'''
-pass
+    '''    public int mode(final int mode)
+    '''
 def retr():
-'''public int retr(final String pathname)
-'''
-pass
+    '''    public int retr(final String pathname)
+    '''
 def stor():
-'''public int stor(final String pathname)
-'''
-pass
+    '''    public int stor(final String pathname)
+    '''
 def stou():
-'''public int stou()
-public int stou(final String pathname)
-'''
-pass
+    '''    public int stou()
+    public int stou(final String pathname)
+    '''
 def appe():
-'''public int appe(final String pathname)
-'''
-pass
+    '''    public int appe(final String pathname)
+    '''
 def allo():
-'''public int allo(final int bytes)
-public int allo(final int bytes, final int recordSize)
-'''
-pass
+    '''    public int allo(final int bytes)
+    public int allo(final int bytes, final int recordSize)
+    '''
 def rest():
-'''public int rest(final String marker)
-'''
-pass
+    '''    public int rest(final String marker)
+    '''
 def rnfr():
-'''public int rnfr(final String pathname)
-'''
-pass
+    '''    public int rnfr(final String pathname)
+    '''
 def rnto():
-'''public int rnto(final String pathname)
-'''
-pass
+    '''    public int rnto(final String pathname)
+    '''
 def dele():
-'''public int dele(final String pathname)
-'''
-pass
+    '''    public int dele(final String pathname)
+    '''
 def rmd():
-'''public int rmd(final String pathname)
-'''
-pass
+    '''    public int rmd(final String pathname)
+    '''
 def mkd():
-'''public int mkd(final String pathname)
-'''
-pass
+    '''    public int mkd(final String pathname)
+    '''
 def pwd():
-'''public int pwd()
-'''
-pass
+    '''    public int pwd()
+    '''
 def list():
-'''public int list()
-public int list(final String pathname)
-'''
-pass
+    '''    public int list()
+    public int list(final String pathname)
+    '''
 def nlst():
-'''public int nlst()
-public int nlst(final String pathname)
-'''
-pass
+    '''    public int nlst()
+    public int nlst(final String pathname)
+    '''
 def site():
-'''public int site(final String parameters)
-'''
-pass
+    '''    public int site(final String parameters)
+    '''
 def syst():
-'''public int syst()
-'''
-pass
+    '''    public int syst()
+    '''
 def stat():
-'''public int stat()
-public int stat(final String pathname)
-'''
-pass
+    '''    public int stat()
+    public int stat(final String pathname)
+    '''
 def help():
-'''public int help()
-public int help(final String command)
-'''
-pass
+    '''    public int help()
+    public int help(final String command)
+    '''
 def noop():
-'''public int noop()
-'''
-pass
+    '''    public int noop()
+    '''

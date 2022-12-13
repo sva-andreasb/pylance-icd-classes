@@ -1,28 +1,21 @@
 def getShadowParent():
-'''public XSLFSimpleShape getShadowParent()
-'''
-pass
+    '''    public XSLFSimpleShape getShadowParent()
+    '''
 def getAnchor():
-'''public Rectangle2D getAnchor()
-'''
-pass
+    '''    public Rectangle2D getAnchor()
+    '''
 def setAnchor():
-'''public void setAnchor(final Rectangle2D anchor)
-'''
-pass
+    '''    public void setAnchor(final Rectangle2D anchor)
+    '''
 def getDistance():
-'''public double getDistance()
-'''
-pass
+    '''    public double getDistance()
+    '''
 def getAngle():
-'''public double getAngle()
-'''
-pass
+    '''    public double getAngle()
+    '''
 def getBlur():
-'''public double getBlur()
-'''
-pass
+    '''    public double getBlur()
+    '''
 def getFillColor():
-'''public Color getFillColor()
-'''
-pass
+    '''    public Color getFillColor()
+    '''

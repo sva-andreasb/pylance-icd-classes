@@ -1,8 +1,6 @@
 def FldPMLastForecastDate():
-'''public FldPMLastForecastDate(final MboValue mbv)
-'''
-pass
+    '''    public FldPMLastForecastDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

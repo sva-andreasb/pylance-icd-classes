@@ -1,21 +1,16 @@
 TYPE = "short  3"
 def FontFaceRule():
-'''public FontFaceRule(final StyleMap sm, final ParsedURL purl)
-'''
-pass
+    '''    public FontFaceRule(final StyleMap sm, final ParsedURL purl)
+    '''
 def getType():
-'''public short getType()
-'''
-pass
+    '''    public short getType()
+    '''
 def getURL():
-'''public ParsedURL getURL()
-'''
-pass
+    '''    public ParsedURL getURL()
+    '''
 def getStyleMap():
-'''public StyleMap getStyleMap()
-'''
-pass
+    '''    public StyleMap getStyleMap()
+    '''
 def toString():
-'''public String toString(final CSSEngine eng)
-'''
-pass
+    '''    public String toString(final CSSEngine eng)
+    '''

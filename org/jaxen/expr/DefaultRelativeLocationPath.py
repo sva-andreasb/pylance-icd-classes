@@ -1,8 +1,6 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def accept():
-'''public void accept(final Visitor visitor)
-'''
-pass
+    '''    public void accept(final Visitor visitor)
+    '''

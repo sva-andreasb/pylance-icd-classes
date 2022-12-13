@@ -1,8 +1,6 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def selectPredWos():
-'''public int selectPredWos()
-'''
-pass
+    '''    public int selectPredWos()
+    '''

@@ -1,8 +1,6 @@
 def FldAsgnGroupNum():
-'''public FldAsgnGroupNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAsgnGroupNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

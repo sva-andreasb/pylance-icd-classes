@@ -1,12 +1,9 @@
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

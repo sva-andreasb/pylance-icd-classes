@@ -1,37 +1,28 @@
 def forTestingOnly_getStore():
-'''public GraphTripleStore forTestingOnly_getStore()
-'''
-pass
+    '''    public GraphTripleStore forTestingOnly_getStore()
+    '''
 def GraphMem():
-'''public GraphMem()
-public GraphMem(final ReificationStyle style)
-'''
-pass
+    '''    public GraphMem()
+    public GraphMem(final ReificationStyle style)
+    '''
 def performAdd():
-'''public void performAdd(final Triple t)
-'''
-pass
+    '''    public void performAdd(final Triple t)
+    '''
 def performDelete():
-'''public void performDelete(final Triple t)
-'''
-pass
+    '''    public void performDelete(final Triple t)
+    '''
 def graphBaseSize():
-'''public int graphBaseSize()
-'''
-pass
+    '''    public int graphBaseSize()
+    '''
 def queryHandler():
-'''public QueryHandler queryHandler()
-'''
-pass
+    '''    public QueryHandler queryHandler()
+    '''
 def graphBaseFind():
-'''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
-'''
-pass
+    '''    public ExtendedIterator<Triple> graphBaseFind(final TripleMatch m)
+    '''
 def graphBaseContains():
-'''public boolean graphBaseContains(final Triple t)
-'''
-pass
+    '''    public boolean graphBaseContains(final Triple t)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

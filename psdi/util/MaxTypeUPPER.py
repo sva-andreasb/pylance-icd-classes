@@ -1,17 +1,13 @@
 def MaxTypeUPPER():
-'''public MaxTypeUPPER(final Locale l)
-'''
-pass
+    '''    public MaxTypeUPPER(final Locale l)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def setValue():
-'''public void setValue(final String value)
-public void setValue(final MaxType value)
-'''
-pass
+    '''    public void setValue(final String value)
+    public void setValue(final MaxType value)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

@@ -1,31 +1,24 @@
 DEFAULT_MAX_TIMESTAMP_AGE = "long  300000L"
 DEFAULT_TIMESTAMP_WINDOW = "long  300000L"
 def SimpleOAuthValidator():
-'''public SimpleOAuthValidator()
-public SimpleOAuthValidator(final long maxTimestampAgeMsec, final double maxVersion)
-'''
-pass
+    '''    public SimpleOAuthValidator()
+    public SimpleOAuthValidator(final long maxTimestampAgeMsec, final double maxVersion)
+    '''
 def releaseGarbage():
-'''public Date releaseGarbage()
-'''
-pass
+    '''    public Date releaseGarbage()
+    '''
 def validateMessage():
-'''public void validateMessage(final OAuthMessage message, final OAuthAccessor accessor)
-'''
-pass
+    '''    public void validateMessage(final OAuthMessage message, final OAuthAccessor accessor)
+    '''
 def compareTo():
-'''public int compareTo(final UsedNonce that)
-'''
-pass
+    '''    public int compareTo(final UsedNonce that)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object that)
-'''
-pass
+    '''    public boolean equals(final Object that)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

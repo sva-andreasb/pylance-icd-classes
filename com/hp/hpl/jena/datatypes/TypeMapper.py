@@ -1,36 +1,27 @@
 def getInstance():
-'''public static TypeMapper getInstance()
-'''
-pass
+    '''    public static TypeMapper getInstance()
+    '''
 def TypeMapper():
-'''public TypeMapper()
-'''
-pass
+    '''    public TypeMapper()
+    '''
 def getSafeTypeByName():
-'''public RDFDatatype getSafeTypeByName(final String uri)
-'''
-pass
+    '''    public RDFDatatype getSafeTypeByName(final String uri)
+    '''
 def getTypeByName():
-'''public RDFDatatype getTypeByName(final String uri)
-'''
-pass
+    '''    public RDFDatatype getTypeByName(final String uri)
+    '''
 def getTypeByValue():
-'''public RDFDatatype getTypeByValue(final Object value)
-'''
-pass
+    '''    public RDFDatatype getTypeByValue(final Object value)
+    '''
 def listTypes():
-'''public Iterator<RDFDatatype> listTypes()
-'''
-pass
+    '''    public Iterator<RDFDatatype> listTypes()
+    '''
 def getTypeByClass():
-'''public RDFDatatype getTypeByClass(final Class<?> clazz)
-'''
-pass
+    '''    public RDFDatatype getTypeByClass(final Class<?> clazz)
+    '''
 def registerDatatype():
-'''public void registerDatatype(final RDFDatatype type)
-'''
-pass
+    '''    public void registerDatatype(final RDFDatatype type)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

@@ -1,28 +1,21 @@
 def AsyncResult():
-'''public AsyncResult(final AsyncCall ac, final QName opName, final Object[] params)
-'''
-pass
+    '''    public AsyncResult(final AsyncCall ac, final QName opName, final Object[] params)
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def waitFor():
-'''public void waitFor(final long timeout)
-'''
-pass
+    '''    public void waitFor(final long timeout)
+    '''
 def getResponse():
-'''public Object getResponse()
-'''
-pass
+    '''    public Object getResponse()
+    '''
 def getException():
-'''public Throwable getException()
-'''
-pass
+    '''    public Throwable getException()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

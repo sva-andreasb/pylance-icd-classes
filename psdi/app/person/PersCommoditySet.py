@@ -1,4 +1,3 @@
 def PersCommoditySet():
-'''public PersCommoditySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PersCommoditySet(final MboServerInterface ms)
+    '''

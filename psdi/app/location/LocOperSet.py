@@ -1,4 +1,3 @@
 def LocOperSet():
-'''public LocOperSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LocOperSet(final MboServerInterface ms)
+    '''

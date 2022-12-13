@@ -1,20 +1,15 @@
 def ListNextBatchOfVersionsRequest():
-'''public ListNextBatchOfVersionsRequest(final VersionListing previousVersionListing)
-'''
-pass
+    '''    public ListNextBatchOfVersionsRequest(final VersionListing previousVersionListing)
+    '''
 def getPreviousVersionListing():
-'''public VersionListing getPreviousVersionListing()
-'''
-pass
+    '''    public VersionListing getPreviousVersionListing()
+    '''
 def setPreviousVersionListing():
-'''public void setPreviousVersionListing(final VersionListing previousVersionListing)
-'''
-pass
+    '''    public void setPreviousVersionListing(final VersionListing previousVersionListing)
+    '''
 def withPreviousVersionListing():
-'''public ListNextBatchOfVersionsRequest withPreviousVersionListing(final VersionListing previousVersionListing)
-'''
-pass
+    '''    public ListNextBatchOfVersionsRequest withPreviousVersionListing(final VersionListing previousVersionListing)
+    '''
 def toListVersionsRequest():
-'''public ListVersionsRequest toListVersionsRequest()
-'''
-pass
+    '''    public ListVersionsRequest toListVersionsRequest()
+    '''

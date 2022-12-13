@@ -1,12 +1,9 @@
 def DMPkgCmpSrcDefSet():
-'''public DMPkgCmpSrcDefSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMPkgCmpSrcDefSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def resetUploadedFlags():
-'''public void resetUploadedFlags()
-'''
-pass
+    '''    public void resetUploadedFlags()
+    '''

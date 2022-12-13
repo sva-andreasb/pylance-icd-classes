@@ -1,36 +1,27 @@
 def WFSubProcess():
-'''public WFSubProcess(final MboSet ms)
-'''
-pass
+    '''    public WFSubProcess(final MboSet ms)
+    '''
 def getProcess():
-'''public WFProcessRemote getProcess()
-'''
-pass
+    '''    public WFProcessRemote getProcess()
+    '''
 def getEnabledWFProcess():
-'''public WFProcess getEnabledWFProcess()
-'''
-pass
+    '''    public WFProcess getEnabledWFProcess()
+    '''
 def buildSubProcessList():
-'''public void buildSubProcessList(final Hashtable<String, String> h)
-'''
-pass
+    '''    public void buildSubProcessList(final Hashtable<String, String> h)
+    '''
 def wfValidate():
-'''public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
-'''
-pass
+    '''    public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''
 def canTakePositive():
-'''public boolean canTakePositive()
-'''
-pass
+    '''    public boolean canTakePositive()
+    '''
 def canTakeNegative():
-'''public boolean canTakeNegative()
-'''
-pass
+    '''    public boolean canTakeNegative()
+    '''
 def addedAction():
-'''public void addedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void addedAction(final boolean wasPositive)
+    '''
 def removedAction():
-'''public void removedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void removedAction(final boolean wasPositive)
+    '''

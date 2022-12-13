@@ -1,4 +1,3 @@
 def PlusPCompany():
-'''public PlusPCompany(final MboSet arg0)
-'''
-pass
+    '''    public PlusPCompany(final MboSet arg0)
+    '''

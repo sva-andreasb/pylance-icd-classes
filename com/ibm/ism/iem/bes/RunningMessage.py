@@ -1,16 +1,12 @@
 def isTitle():
-'''public Boolean isTitle()
-'''
-pass
+    '''    public Boolean isTitle()
+    '''
 def setTitle():
-'''public void setTitle(final Boolean value)
-'''
-pass
+    '''    public void setTitle(final Boolean value)
+    '''
 def isText():
-'''public Boolean isText()
-'''
-pass
+    '''    public Boolean isText()
+    '''
 def setText():
-'''public void setText(final Boolean value)
-'''
-pass
+    '''    public void setText(final Boolean value)
+    '''

@@ -5,48 +5,37 @@ TL_UHDV_DUPLICATE = "int  3"
 TL_UH_DUPLICATE = "int  4"
 TL_U_DUPLICATE = "int  5"
 def License():
-'''public License(final int[] featureArray, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
-public License(final String featureName, final String featureVersion, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
-public License(final String featureName, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
-'''
-pass
+    '''    public License(final int[] featureArray, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
+    public License(final String featureName, final String featureVersion, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
+    public License(final String featureName, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
+    '''
 def getFeature():
-'''public int[] getFeature()
-'''
-pass
+    '''    public int[] getFeature()
+    '''
 def getKeyString():
-'''public String getKeyString()
-'''
-pass
+    '''    public String getKeyString()
+    '''
 def getDuplicateGrouping():
-'''public int getDuplicateGrouping()
-'''
-pass
+    '''    public int getDuplicateGrouping()
+    '''
 def getFeatureName():
-'''public String getFeatureName()
-'''
-pass
+    '''    public String getFeatureName()
+    '''
 def getFeatureVersion():
-'''public String getFeatureVersion()
-'''
-pass
+    '''    public String getFeatureVersion()
+    '''
 def getNumberOfLicenses():
-'''public int getNumberOfLicenses()
-'''
-pass
+    '''    public int getNumberOfLicenses()
+    '''
 def getLingerTime():
-'''public int getLingerTime()
-'''
-pass
+    '''    public int getLingerTime()
+    '''
 def getExpiryDays():
-'''public int[] getExpiryDays()
-'''
-pass
+    '''    public int[] getExpiryDays()
+    '''
 def getLicensePath():
-'''public String getLicensePath()
-'''
-pass
+    '''    public String getLicensePath()
+    '''
 def setLicensePath():
-'''public void setLicensePath(final String licensePath)
-'''
-pass
+    '''    public void setLicensePath(final String licensePath)
+    '''

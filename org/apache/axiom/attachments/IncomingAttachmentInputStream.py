@@ -1,53 +1,42 @@
-HEADER_CONTENT_DESCRIPTION = "String  content-description""
-HEADER_CONTENT_TYPE = "String  content-type""
-HEADER_CONTENT_TRANSFER_ENCODING = "String  content-transfer-encoding""
-HEADER_CONTENT_TYPE_JMS = "String  contentType""
-HEADER_CONTENT_LENGTH = "String  content-length""
-HEADER_CONTENT_LOCATION = "String  content-location""
-HEADER_CONTENT_ID = "String  content-id""
+HEADER_CONTENT_DESCRIPTION = "String  \"content-description\""
+HEADER_CONTENT_TYPE = "String  \"content-type\""
+HEADER_CONTENT_TRANSFER_ENCODING = "String  \"content-transfer-encoding\""
+HEADER_CONTENT_TYPE_JMS = "String  \"contentType\""
+HEADER_CONTENT_LENGTH = "String  \"content-length\""
+HEADER_CONTENT_LOCATION = "String  \"content-location\""
+HEADER_CONTENT_ID = "String  \"content-id\""
 def IncomingAttachmentInputStream():
-'''public IncomingAttachmentInputStream(final InputStream in, final IncomingAttachmentStreams parentContainer)
-'''
-pass
+    '''    public IncomingAttachmentInputStream(final InputStream in, final IncomingAttachmentStreams parentContainer)
+    '''
 def getHeaders():
-'''public Map getHeaders()
-'''
-pass
+    '''    public Map getHeaders()
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def getHeader():
-'''public String getHeader(final String name)
-'''
-pass
+    '''    public String getHeader(final String name)
+    '''
 def getContentId():
-'''public String getContentId()
-'''
-pass
+    '''    public String getContentId()
+    '''
 def getContentLocation():
-'''public String getContentLocation()
-'''
-pass
+    '''    public String getContentLocation()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def mark():
-'''public void mark(final int readLimit)
-'''
-pass
+    '''    public void mark(final int readLimit)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b)
-public int read(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b)
+    public int read(final byte[] b, final int off, final int len)
+    '''

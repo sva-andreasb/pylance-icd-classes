@@ -1,4 +1,3 @@
 def testSingle():
-'''public void testSingle()
-'''
-pass
+    '''    public void testSingle()
+    '''

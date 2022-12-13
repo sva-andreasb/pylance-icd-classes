@@ -1,5 +1,4 @@
 def VMCannotBeModifiedException():
-'''public VMCannotBeModifiedException()
-public VMCannotBeModifiedException(final String message)
-'''
-pass
+    '''    public VMCannotBeModifiedException()
+    public VMCannotBeModifiedException(final String message)
+    '''

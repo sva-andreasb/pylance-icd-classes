@@ -1,8 +1,6 @@
 def getDefaultFileTypeMap():
-'''public static FileTypeMap getDefaultFileTypeMap()
-'''
-pass
+    '''    public static FileTypeMap getDefaultFileTypeMap()
+    '''
 def setDefaultFileTypeMap():
-'''public static void setDefaultFileTypeMap(final FileTypeMap map)
-'''
-pass
+    '''    public static void setDefaultFileTypeMap(final FileTypeMap map)
+    '''

@@ -1,20 +1,15 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getReturnOpenType():
-'''public OpenType getReturnOpenType()
-'''
-pass
+    '''    public OpenType getReturnOpenType()
+    '''
 def OpenMBeanOperationInfoSupport():
-'''public OpenMBeanOperationInfoSupport(final String s, final String s2, final OpenMBeanParameterInfo[] array, final OpenType returnOpenType, final int n)
-'''
-pass
+    '''    public OpenMBeanOperationInfoSupport(final String s, final String s2, final OpenMBeanParameterInfo[] array, final OpenType returnOpenType, final int n)
+    '''

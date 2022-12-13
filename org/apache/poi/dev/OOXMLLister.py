@@ -1,25 +1,19 @@
 def OOXMLLister():
-'''public OOXMLLister(final OPCPackage container)
-public OOXMLLister(final OPCPackage container, final PrintStream disp)
-'''
-pass
+    '''    public OOXMLLister(final OPCPackage container)
+    public OOXMLLister(final OPCPackage container, final PrintStream disp)
+    '''
 def getSize():
-'''public static long getSize(final PackagePart part)
-'''
-pass
+    '''    public static long getSize(final PackagePart part)
+    '''
 def displayParts():
-'''public void displayParts()
-'''
-pass
+    '''    public void displayParts()
+    '''
 def displayRelations():
-'''public void displayRelations()
-'''
-pass
+    '''    public void displayRelations()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

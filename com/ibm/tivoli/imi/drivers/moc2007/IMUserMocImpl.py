@@ -1,36 +1,27 @@
 def isConferenStarted():
-'''public boolean isConferenStarted()
-'''
-pass
+    '''    public boolean isConferenStarted()
+    '''
 def setConferenStarted():
-'''public void setConferenStarted(final boolean conferenStarted)
-'''
-pass
+    '''    public void setConferenStarted(final boolean conferenStarted)
+    '''
 def getConfId():
-'''public String getConfId()
-'''
-pass
+    '''    public String getConfId()
+    '''
 def setConfId():
-'''public void setConfId(final String confId)
-'''
-pass
+    '''    public void setConfId(final String confId)
+    '''
 def getTicketId():
-'''public String getTicketId()
-'''
-pass
+    '''    public String getTicketId()
+    '''
 def setTicketId():
-'''public void setTicketId(final String ticketId)
-'''
-pass
+    '''    public void setTicketId(final String ticketId)
+    '''
 def IMUserMocImpl():
-'''public IMUserMocImpl(final String userId, final String displayName)
-'''
-pass
+    '''    public IMUserMocImpl(final String userId, final String displayName)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def getUserId():
-'''public String getUserId()
-'''
-pass
+    '''    public String getUserId()
+    '''

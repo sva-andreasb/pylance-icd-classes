@@ -1,20 +1,15 @@
 def testIsEmpty():
-'''public void testIsEmpty()
-'''
-pass
+    '''    public void testIsEmpty()
+    '''
 def testLtrim():
-'''public void testLtrim()
-'''
-pass
+    '''    public void testLtrim()
+    '''
 def testRtrim():
-'''public void testRtrim()
-'''
-pass
+    '''    public void testRtrim()
+    '''
 def testLrtrim():
-'''public void testLrtrim()
-'''
-pass
+    '''    public void testLrtrim()
+    '''
 def testCheckIfNumber():
-'''public void testCheckIfNumber()
-'''
-pass
+    '''    public void testCheckIfNumber()
+    '''

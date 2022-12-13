@@ -1,4 +1,3 @@
 def TooManyBasicQueries():
-'''public TooManyBasicQueries(final int maxBasicQueries)
-'''
-pass
+    '''    public TooManyBasicQueries(final int maxBasicQueries)
+    '''

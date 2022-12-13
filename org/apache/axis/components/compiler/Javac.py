@@ -1,14 +1,11 @@
-CLASSIC_CLASS = "String  sun.tools.javac.Main""
-MODERN_CLASS = "String  com.sun.tools.javac.main.Main""
+CLASSIC_CLASS = "String  \"sun.tools.javac.Main\""
+MODERN_CLASS = "String  \"com.sun.tools.javac.main.Main\""
 def Javac():
-'''public Javac()
-'''
-pass
+    '''    public Javac()
+    '''
 def compile():
-'''public boolean compile()
-'''
-pass
+    '''    public boolean compile()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

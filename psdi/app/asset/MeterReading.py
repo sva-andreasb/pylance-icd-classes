@@ -1,20 +1,15 @@
 def MeterReading():
-'''public MeterReading(final MboSet ms)
-'''
-pass
+    '''    public MeterReading(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def isChangeByUserWhenSetFromLookup():
-'''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
-'''
-pass
+    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''

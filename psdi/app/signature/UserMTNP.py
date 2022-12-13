@@ -1,4 +1,3 @@
 def UserMTNP():
-'''public UserMTNP(final MboSet ms)
-'''
-pass
+    '''    public UserMTNP(final MboSet ms)
+    '''

@@ -1,13 +1,10 @@
 def PlusPFldItemListCINum():
-'''public PlusPFldItemListCINum(final MboValue mbv, final String criteriaName)
-public PlusPFldItemListCINum(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldItemListCINum(final MboValue mbv, final String criteriaName)
+    public PlusPFldItemListCINum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote valueFromLookup)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''

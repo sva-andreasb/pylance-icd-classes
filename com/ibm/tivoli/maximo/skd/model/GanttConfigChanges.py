@@ -1,88 +1,66 @@
 def GanttConfigChanges():
-'''public GanttConfigChanges()
-'''
-pass
+    '''    public GanttConfigChanges()
+    '''
 def getProjectId():
-'''public String getProjectId()
-'''
-pass
+    '''    public String getProjectId()
+    '''
 def setProjectId():
-'''public void setProjectId(final String projectId)
-'''
-pass
+    '''    public void setProjectId(final String projectId)
+    '''
 def getVSplitPaneDividerLocation():
-'''public int getVSplitPaneDividerLocation()
-'''
-pass
+    '''    public int getVSplitPaneDividerLocation()
+    '''
 def setVSplitPaneDividerLocation():
-'''public void setVSplitPaneDividerLocation(final int splitPaneDividerLocation)
-'''
-pass
+    '''    public void setVSplitPaneDividerLocation(final int splitPaneDividerLocation)
+    '''
 def getHSplitPaneDividerLocation():
-'''public int getHSplitPaneDividerLocation()
-'''
-pass
+    '''    public int getHSplitPaneDividerLocation()
+    '''
 def setHSplitPaneDividerLocation():
-'''public void setHSplitPaneDividerLocation(final int splitPaneDividerLocation)
-'''
-pass
+    '''    public void setHSplitPaneDividerLocation(final int splitPaneDividerLocation)
+    '''
 def getVisibleStartTime():
-'''public long getVisibleStartTime()
-'''
-pass
+    '''    public long getVisibleStartTime()
+    '''
 def setVisibleStartTime():
-'''public void setVisibleStartTime(final long visibleStartTime)
-'''
-pass
+    '''    public void setVisibleStartTime(final long visibleStartTime)
+    '''
 def getVisibleInterval():
-'''public long getVisibleInterval()
-'''
-pass
+    '''    public long getVisibleInterval()
+    '''
 def setVisibleInterval():
-'''public void setVisibleInterval(final long visibleInterval)
-'''
-pass
+    '''    public void setVisibleInterval(final long visibleInterval)
+    '''
 def getSelectedActivities():
-'''public ArrayList<String> getSelectedActivities()
-'''
-pass
+    '''    public ArrayList<String> getSelectedActivities()
+    '''
 def setSelectedActivities():
-'''public void setSelectedActivities(final ArrayList<String> selectedActivities)
-'''
-pass
+    '''    public void setSelectedActivities(final ArrayList<String> selectedActivities)
+    '''
 def setVerticalScrollPosition():
-'''public void setVerticalScrollPosition(final int vScrollPos)
-'''
-pass
+    '''    public void setVerticalScrollPosition(final int vScrollPos)
+    '''
 def getVerticalScrollPosition():
-'''public int getVerticalScrollPosition()
-'''
-pass
+    '''    public int getVerticalScrollPosition()
+    '''
 def getSelectedResources():
-'''public ArrayList<String> getSelectedResources()
-'''
-pass
+    '''    public ArrayList<String> getSelectedResources()
+    '''
 def setSelectedResources():
-'''public void setSelectedResources(final ArrayList<String> selectedResources)
-'''
-pass
+    '''    public void setSelectedResources(final ArrayList<String> selectedResources)
+    '''
 def getPropertyData():
-'''public HashMap<String, Object> getPropertyData()
-'''
-pass
+    '''    public HashMap<String, Object> getPropertyData()
+    '''
 def setPropertyData():
-'''public void setPropertyData(final HashMap<String, Object> propertyData)
-'''
-pass
+    '''    public void setPropertyData(final HashMap<String, Object> propertyData)
+    '''
 def getPropertyValue():
-'''public Object getPropertyValue(final String propertyName)
-'''
-pass
+    '''    public Object getPropertyValue(final String propertyName)
+    '''
 def setPropertyValue():
-'''public void setPropertyValue(final String propertyName, final Object value)
-'''
-pass
+    '''    public void setPropertyValue(final String propertyName, final Object value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

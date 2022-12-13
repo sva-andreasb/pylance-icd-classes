@@ -1,12 +1,9 @@
 def FldAppAppName():
-'''public FldAppAppName(final MboValue mbv)
-'''
-pass
+    '''    public FldAppAppName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getAppXML():
-'''public byte[] getAppXML(final String app, final UserInfo userInfo)
-'''
-pass
+    '''    public byte[] getAppXML(final String app, final UserInfo userInfo)
+    '''

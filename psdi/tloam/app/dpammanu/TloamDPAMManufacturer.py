@@ -1,12 +1,9 @@
 def TloamDPAMManufacturer():
-'''public TloamDPAMManufacturer(final MboSet ms)
-'''
-pass
+    '''    public TloamDPAMManufacturer(final MboSet ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

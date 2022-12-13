@@ -1,20 +1,15 @@
 def TicketSpec():
-'''public TicketSpec(final MboSet ms)
-'''
-pass
+    '''    public TicketSpec(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def addDetailInfor():
-'''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
-'''
-pass
+    '''    public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''
 def setALNOrNUMReadOnly():
-'''public void setALNOrNUMReadOnly()
-'''
-pass
+    '''    public void setALNOrNUMReadOnly()
+    '''
 def toUpdateReadOnly():
-'''public boolean toUpdateReadOnly(final String attrName)
-'''
-pass
+    '''    public boolean toUpdateReadOnly(final String attrName)
+    '''

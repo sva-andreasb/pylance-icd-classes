@@ -1,113 +1,86 @@
 def GraphTDBBase():
-'''public GraphTDBBase(final DatasetGraphTDB dataset, final Node graphName)
-'''
-pass
+    '''    public GraphTDBBase(final DatasetGraphTDB dataset, final Node graphName)
+    '''
 def getReorderTransform():
-'''public final ReorderTransformation getReorderTransform()
-'''
-pass
+    '''    public final ReorderTransformation getReorderTransform()
+    '''
 def getLocation():
-'''public final Location getLocation()
-'''
-pass
+    '''    public final Location getLocation()
+    '''
 def getGraphNode():
-'''public final Node getGraphNode()
-'''
-pass
+    '''    public final Node getGraphNode()
+    '''
 def getDataset():
-'''public final DatasetGraphTDB getDataset()
-'''
-pass
+    '''    public final DatasetGraphTDB getDataset()
+    '''
 def getLock():
-'''public Lock getLock()
-'''
-pass
+    '''    public Lock getLock()
+    '''
 def performAdd():
-'''public final void performAdd(final Triple triple)
-'''
-pass
+    '''    public final void performAdd(final Triple triple)
+    '''
 def performDelete():
-'''public final void performDelete(final Triple triple)
-'''
-pass
+    '''    public final void performDelete(final Triple triple)
+    '''
 def sync():
-'''public void sync()
-'''
-pass
+    '''    public void sync()
+    '''
 def finishRead():
-'''public void finishRead()
-'''
-pass
+    '''    public void finishRead()
+    '''
 def startRead():
-'''public void startRead()
-'''
-pass
+    '''    public void startRead()
+    '''
 def startUpdate():
-'''public final void startUpdate()
-'''
-pass
+    '''    public final void startUpdate()
+    '''
 def finishUpdate():
-'''public final void finishUpdate()
-'''
-pass
+    '''    public final void finishUpdate()
+    '''
 def getBulkUpdateHandler():
-'''public BulkUpdateHandler getBulkUpdateHandler()
-'''
-pass
+    '''    public BulkUpdateHandler getBulkUpdateHandler()
+    '''
 def getCapabilities():
-'''public Capabilities getCapabilities()
-'''
-pass
+    '''    public Capabilities getCapabilities()
+    '''
 def sizeAccurate():
-'''public boolean sizeAccurate()
-'''
-pass
+    '''    public boolean sizeAccurate()
+    '''
 def addAllowed():
-'''public boolean addAllowed()
-public boolean addAllowed(final boolean every)
-'''
-pass
+    '''    public boolean addAllowed()
+    public boolean addAllowed(final boolean every)
+    '''
 def deleteAllowed():
-'''public boolean deleteAllowed()
-public boolean deleteAllowed(final boolean every)
-'''
-pass
+    '''    public boolean deleteAllowed()
+    public boolean deleteAllowed(final boolean every)
+    '''
 def canBeEmpty():
-'''public boolean canBeEmpty()
-'''
-pass
+    '''    public boolean canBeEmpty()
+    '''
 def iteratorRemoveAllowed():
-'''public boolean iteratorRemoveAllowed()
-'''
-pass
+    '''    public boolean iteratorRemoveAllowed()
+    '''
 def findContractSafe():
-'''public boolean findContractSafe()
-'''
-pass
+    '''    public boolean findContractSafe()
+    '''
 def handlesLiteralTyping():
-'''public boolean handlesLiteralTyping()
-'''
-pass
+    '''    public boolean handlesLiteralTyping()
+    '''
 def queryHandler():
-'''public QueryHandler queryHandler()
-'''
-pass
+    '''    public QueryHandler queryHandler()
+    '''
 def getTransactionHandler():
-'''public TransactionHandler getTransactionHandler()
-'''
-pass
+    '''    public TransactionHandler getTransactionHandler()
+    '''
 def hasNext():
-'''public boolean hasNext()
-public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    public boolean hasNext()
+    '''
 def next():
-'''public Triple next()
-public Triple next()
-'''
-pass
+    '''    public Triple next()
+    public Triple next()
+    '''
 def remove():
-'''public void remove()
-public void remove()
-'''
-pass
+    '''    public void remove()
+    public void remove()
+    '''

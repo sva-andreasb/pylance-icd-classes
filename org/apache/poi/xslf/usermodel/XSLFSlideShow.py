@@ -1,49 +1,37 @@
 def XSLFSlideShow():
-'''public XSLFSlideShow(final OPCPackage container)
-public XSLFSlideShow(final String file)
-'''
-pass
+    '''    public XSLFSlideShow(final OPCPackage container)
+    public XSLFSlideShow(final String file)
+    '''
 def getPresentation():
-'''public CTPresentation getPresentation()
-'''
-pass
+    '''    public CTPresentation getPresentation()
+    '''
 def getSlideReferences():
-'''public CTSlideIdList getSlideReferences()
-'''
-pass
+    '''    public CTSlideIdList getSlideReferences()
+    '''
 def getSlideMasterReferences():
-'''public CTSlideMasterIdList getSlideMasterReferences()
-'''
-pass
+    '''    public CTSlideMasterIdList getSlideMasterReferences()
+    '''
 def getSlideMasterPart():
-'''public PackagePart getSlideMasterPart(final CTSlideMasterIdListEntry master)
-'''
-pass
+    '''    public PackagePart getSlideMasterPart(final CTSlideMasterIdListEntry master)
+    '''
 def getSlideMaster():
-'''public CTSlideMaster getSlideMaster(final CTSlideMasterIdListEntry master)
-'''
-pass
+    '''    public CTSlideMaster getSlideMaster(final CTSlideMasterIdListEntry master)
+    '''
 def getSlidePart():
-'''public PackagePart getSlidePart(final CTSlideIdListEntry slide)
-'''
-pass
+    '''    public PackagePart getSlidePart(final CTSlideIdListEntry slide)
+    '''
 def getSlide():
-'''public CTSlide getSlide(final CTSlideIdListEntry slide)
-'''
-pass
+    '''    public CTSlide getSlide(final CTSlideIdListEntry slide)
+    '''
 def getNodesPart():
-'''public PackagePart getNodesPart(final CTSlideIdListEntry parentSlide)
-'''
-pass
+    '''    public PackagePart getNodesPart(final CTSlideIdListEntry parentSlide)
+    '''
 def getNotes():
-'''public CTNotesSlide getNotes(final CTSlideIdListEntry slide)
-'''
-pass
+    '''    public CTNotesSlide getNotes(final CTSlideIdListEntry slide)
+    '''
 def getSlideComments():
-'''public CTCommentList getSlideComments(final CTSlideIdListEntry slide)
-'''
-pass
+    '''    public CTCommentList getSlideComments(final CTSlideIdListEntry slide)
+    '''
 def getAllEmbedds():
-'''public List<PackagePart> getAllEmbedds()
-'''
-pass
+    '''    public List<PackagePart> getAllEmbedds()
+    '''

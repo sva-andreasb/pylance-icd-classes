@@ -1,5 +1,4 @@
 def log():
-'''public void log(final Exception ex)
-public void log(final Exception ex)
-'''
-pass
+    '''    public void log(final Exception ex)
+    public void log(final Exception ex)
+    '''

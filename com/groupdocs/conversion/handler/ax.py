@@ -1,20 +1,15 @@
 def ax():
-'''public ax(final String aSm)
-'''
-pass
+    '''    public ax(final String aSm)
+    '''
 def getResourceStreams():
-'''public ArrayList<ByteArrayOutputStream> getResourceStreams()
-'''
-pass
+    '''    public ArrayList<ByteArrayOutputStream> getResourceStreams()
+    '''
 def getResourcePaths():
-'''public ArrayList<String> getResourcePaths()
-'''
-pass
+    '''    public ArrayList<String> getResourcePaths()
+    '''
 def dO():
-'''public String dO()
-'''
-pass
+    '''    public String dO()
+    '''
 def dM():
-'''public void dM(final String aSm)
-'''
-pass
+    '''    public void dM(final String aSm)
+    '''

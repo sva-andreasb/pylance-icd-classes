@@ -1,23 +1,18 @@
-ELEMENT = "String  query""
-NAMESPACE = "String  jabber:iq:last""
+ELEMENT = "String  \"query\""
+NAMESPACE = "String  \"jabber:iq:last\""
 def LastActivity():
-'''public LastActivity()
-public LastActivity(final Jid to)
-'''
-pass
+    '''    public LastActivity()
+    public LastActivity(final Jid to)
+    '''
 def setLastActivity():
-'''public void setLastActivity(final long lastActivity)
-'''
-pass
+    '''    public void setLastActivity(final long lastActivity)
+    '''
 def getIdleTime():
-'''public long getIdleTime()
-'''
-pass
+    '''    public long getIdleTime()
+    '''
 def getStatusMessage():
-'''public String getStatusMessage()
-'''
-pass
+    '''    public String getStatusMessage()
+    '''
 def parse():
-'''public LastActivity parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public LastActivity parse(final XmlPullParser parser, final int initialDepth)
+    '''

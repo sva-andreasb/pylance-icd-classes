@@ -1,16 +1,12 @@
 def AssetHierarchyBuilder():
-'''public AssetHierarchyBuilder()
-'''
-pass
+    '''    public AssetHierarchyBuilder()
+    '''
 def loadHierarchy():
-'''public List<Node> loadHierarchy(final UserInfo info, final String... assets)
-'''
-pass
+    '''    public List<Node> loadHierarchy(final UserInfo info, final String... assets)
+    '''
 def dunp():
-'''public void dunp(final List<Node> nodes, final PrintStream ps)
-'''
-pass
+    '''    public void dunp(final List<Node> nodes, final PrintStream ps)
+    '''
 def Node():
-'''public Node(final String asset)
-'''
-pass
+    '''    public Node(final String asset)
+    '''

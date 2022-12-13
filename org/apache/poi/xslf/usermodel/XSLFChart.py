@@ -1,8 +1,6 @@
 def getCTChartSpace():
-'''public CTChartSpace getCTChartSpace()
-'''
-pass
+    '''    public CTChartSpace getCTChartSpace()
+    '''
 def getCTChart():
-'''public CTChart getCTChart()
-'''
-pass
+    '''    public CTChart getCTChart()
+    '''

@@ -1,44 +1,33 @@
 def SigOption():
-'''public SigOption(final MboSet ms)
-'''
-pass
+    '''    public SigOption(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getSigOptFlags():
-'''public HashMap getSigOptFlags()
-'''
-pass
+    '''    public HashMap getSigOptFlags()
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def toBeValidated():
-'''public boolean toBeValidated()
-'''
-pass
+    '''    public boolean toBeValidated()
+    '''

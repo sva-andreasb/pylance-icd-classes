@@ -1,12 +1,9 @@
 def SLAAssetLocSet():
-'''public SLAAssetLocSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SLAAssetLocSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def canAddAssetLoc():
-'''public void canAddAssetLoc()
-'''
-pass
+    '''    public void canAddAssetLoc()
+    '''

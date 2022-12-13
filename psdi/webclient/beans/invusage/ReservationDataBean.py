@@ -1,12 +1,9 @@
 def ReservationDataBean():
-'''public ReservationDataBean()
-'''
-pass
+    '''    public ReservationDataBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

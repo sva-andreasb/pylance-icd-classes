@@ -1,8 +1,6 @@
 def isNewEmail():
-'''public boolean isNewEmail(final String del, final String subject)
-'''
-pass
+    '''    public boolean isNewEmail(final String del, final String subject)
+    '''
 def getObjectKey():
-'''public String getObjectKey(final String del, final String subject)
-'''
-pass
+    '''    public String getObjectKey(final String del, final String subject)
+    '''

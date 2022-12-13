@@ -1,4 +1,3 @@
 def FldInvLotVendor():
-'''public FldInvLotVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldInvLotVendor(final MboValue mbv)
+    '''

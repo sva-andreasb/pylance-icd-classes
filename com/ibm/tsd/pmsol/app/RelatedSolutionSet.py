@@ -1,4 +1,3 @@
 def RelatedSolutionSet():
-'''public RelatedSolutionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RelatedSolutionSet(final MboServerInterface ms)
+    '''

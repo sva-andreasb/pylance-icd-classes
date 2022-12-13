@@ -1,8 +1,6 @@
 def LocAuthSet():
-'''public LocAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LocAuthSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

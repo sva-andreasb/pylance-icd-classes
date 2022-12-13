@@ -1,52 +1,39 @@
 def MaxIfaceOut():
-'''public MaxIfaceOut(final MboSet ms)
-'''
-pass
+    '''    public MaxIfaceOut(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote newSet)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote newSet)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def createPublishXML():
-'''public void createPublishXML()
-'''
-pass
+    '''    public void createPublishXML()
+    '''
 def enableListner():
-'''public void enableListner()
-'''
-pass
+    '''    public void enableListner()
+    '''
 def disableListner():
-'''public void disableListner()
-'''
-pass
+    '''    public void disableListner()
+    '''

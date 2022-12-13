@@ -1,8 +1,6 @@
 def initDetailObject():
-'''public Detail initDetailObject()
-'''
-pass
+    '''    public Detail initDetailObject()
+    '''
 def Detail():
-'''public Detail()
-'''
-pass
+    '''    public Detail()
+    '''

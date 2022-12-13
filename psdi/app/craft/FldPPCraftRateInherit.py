@@ -1,8 +1,6 @@
 def FldPPCraftRateInherit():
-'''public FldPPCraftRateInherit(final MboValue mbv)
-'''
-pass
+    '''    public FldPPCraftRateInherit(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

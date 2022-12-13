@@ -1,12 +1,9 @@
 def inbstatus():
-'''public int inbstatus()
-'''
-pass
+    '''    public int inbstatus()
+    '''
 def inbchangestatus():
-'''public int inbchangestatus()
-'''
-pass
+    '''    public int inbchangestatus()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''

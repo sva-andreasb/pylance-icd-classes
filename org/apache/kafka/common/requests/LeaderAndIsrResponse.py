@@ -1,29 +1,22 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def LeaderAndIsrResponse():
-'''public LeaderAndIsrResponse(final Errors error, final Map<TopicPartition, Errors> responses)
-public LeaderAndIsrResponse(final Struct struct)
-'''
-pass
+    '''    public LeaderAndIsrResponse(final Errors error, final Map<TopicPartition, Errors> responses)
+    public LeaderAndIsrResponse(final Struct struct)
+    '''
 def responses():
-'''public Map<TopicPartition, Errors> responses()
-'''
-pass
+    '''    public Map<TopicPartition, Errors> responses()
+    '''
 def error():
-'''public Errors error()
-'''
-pass
+    '''    public Errors error()
+    '''
 def errorCounts():
-'''public Map<Errors, Integer> errorCounts()
-'''
-pass
+    '''    public Map<Errors, Integer> errorCounts()
+    '''
 def parse():
-'''public static LeaderAndIsrResponse parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static LeaderAndIsrResponse parse(final ByteBuffer buffer, final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

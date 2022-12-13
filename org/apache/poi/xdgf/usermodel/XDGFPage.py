@@ -1,32 +1,24 @@
 def XDGFPage():
-'''public XDGFPage(final PageType page, final XDGFPageContents content, final XDGFDocument document, final XDGFPages pages)
-'''
-pass
+    '''    public XDGFPage(final PageType page, final XDGFPageContents content, final XDGFDocument document, final XDGFPages pages)
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getContent():
-'''public XDGFPageContents getContent()
-'''
-pass
+    '''    public XDGFPageContents getContent()
+    '''
 def getPageSheet():
-'''public XDGFSheet getPageSheet()
-'''
-pass
+    '''    public XDGFSheet getPageSheet()
+    '''
 def getPageNumber():
-'''public long getPageNumber()
-'''
-pass
+    '''    public long getPageNumber()
+    '''
 def getPageSize():
-'''public Dimension2dDouble getPageSize()
-'''
-pass
+    '''    public Dimension2dDouble getPageSize()
+    '''
 def getBoundingBox():
-'''public Rectangle2D getBoundingBox()
-'''
-pass
+    '''    public Rectangle2D getBoundingBox()
+    '''

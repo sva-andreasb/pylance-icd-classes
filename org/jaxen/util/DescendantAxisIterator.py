@@ -1,17 +1,13 @@
 def DescendantAxisIterator():
-'''public DescendantAxisIterator(final Object contextNode, final Navigator navigator)
-public DescendantAxisIterator(final Navigator navigator, final Iterator iterator)
-'''
-pass
+    '''    public DescendantAxisIterator(final Object contextNode, final Navigator navigator)
+    public DescendantAxisIterator(final Navigator navigator, final Iterator iterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

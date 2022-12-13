@@ -1,44 +1,35 @@
 def CloseWebSocketFrame():
-'''public CloseWebSocketFrame()
-public CloseWebSocketFrame(final WebSocketCloseStatus status)
-public CloseWebSocketFrame(final WebSocketCloseStatus status, final String reasonText)
-public CloseWebSocketFrame(final int statusCode, final String reasonText)
-public CloseWebSocketFrame(final boolean finalFragment, final int rsv)
-public CloseWebSocketFrame(final boolean finalFragment, final int rsv, final int statusCode, final String reasonText)
-public CloseWebSocketFrame(final boolean finalFragment, final int rsv, final ByteBuf binaryData)
-'''
-pass
+    '''    public CloseWebSocketFrame()
+    public CloseWebSocketFrame(final WebSocketCloseStatus status)
+    public CloseWebSocketFrame(final WebSocketCloseStatus status, final String reasonText)
+    public CloseWebSocketFrame(final int statusCode, final String reasonText)
+    public CloseWebSocketFrame(final boolean finalFragment, final int rsv)
+    public CloseWebSocketFrame(final boolean finalFragment, final int rsv, final int statusCode, final String reasonText)
+    public CloseWebSocketFrame(final boolean finalFragment, final int rsv, final ByteBuf binaryData)
+    '''
 def statusCode():
-'''public int statusCode()
-'''
-pass
+    '''    public int statusCode()
+    '''
 def reasonText():
-'''public String reasonText()
-'''
-pass
+    '''    public String reasonText()
+    '''
 def copy():
-'''public CloseWebSocketFrame copy()
-'''
-pass
+    '''    public CloseWebSocketFrame copy()
+    '''
 def duplicate():
-'''public CloseWebSocketFrame duplicate()
-'''
-pass
+    '''    public CloseWebSocketFrame duplicate()
+    '''
 def retainedDuplicate():
-'''public CloseWebSocketFrame retainedDuplicate()
-'''
-pass
+    '''    public CloseWebSocketFrame retainedDuplicate()
+    '''
 def replace():
-'''public CloseWebSocketFrame replace(final ByteBuf content)
-'''
-pass
+    '''    public CloseWebSocketFrame replace(final ByteBuf content)
+    '''
 def retain():
-'''public CloseWebSocketFrame retain()
-public CloseWebSocketFrame retain(final int increment)
-'''
-pass
+    '''    public CloseWebSocketFrame retain()
+    public CloseWebSocketFrame retain(final int increment)
+    '''
 def touch():
-'''public CloseWebSocketFrame touch()
-public CloseWebSocketFrame touch(final Object hint)
-'''
-pass
+    '''    public CloseWebSocketFrame touch()
+    public CloseWebSocketFrame touch(final Object hint)
+    '''

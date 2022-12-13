@@ -1,16 +1,12 @@
 def DeviceInfo():
-'''public DeviceInfo(final String deviceId, final String type, final boolean active)
-'''
-pass
+    '''    public DeviceInfo(final String deviceId, final String type, final boolean active)
+    '''
 def getDeviceId():
-'''public String getDeviceId()
-'''
-pass
+    '''    public String getDeviceId()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''

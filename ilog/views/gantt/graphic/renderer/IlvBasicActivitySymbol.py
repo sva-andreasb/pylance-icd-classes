@@ -6,38 +6,29 @@ DIAMOND = "int  2"
 CIRCLE = "int  3"
 FILLED_CIRCLE = "int  4"
 def IlvBasicActivitySymbol():
-'''public IlvBasicActivitySymbol()
-'''
-pass
+    '''    public IlvBasicActivitySymbol()
+    '''
 def getAlignment():
-'''public int getAlignment()
-'''
-pass
+    '''    public int getAlignment()
+    '''
 def setAlignment():
-'''public void setAlignment(final int a)
-'''
-pass
+    '''    public void setAlignment(final int a)
+    '''
 def setGraphic():
-'''public void setGraphic(final IlvGraphic graphic)
-'''
-pass
+    '''    public void setGraphic(final IlvGraphic graphic)
+    '''
 def getShape():
-'''public int getShape()
-'''
-pass
+    '''    public int getShape()
+    '''
 def setShape():
-'''public void setShape(final int b)
-'''
-pass
+    '''    public void setShape(final int b)
+    '''
 def getForeground():
-'''public Color getForeground()
-'''
-pass
+    '''    public Color getForeground()
+    '''
 def getBackground():
-'''public Color getBackground()
-'''
-pass
+    '''    public Color getBackground()
+    '''
 def getBounds():
-'''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''

@@ -1,30 +1,23 @@
 def GraphicsConfigurationWithoutTransparency():
-'''public GraphicsConfigurationWithoutTransparency()
-'''
-pass
+    '''    public GraphicsConfigurationWithoutTransparency()
+    '''
 def getDevice():
-'''public GraphicsDevice getDevice()
-'''
-pass
+    '''    public GraphicsDevice getDevice()
+    '''
 def createCompatibleImage():
-'''public BufferedImage createCompatibleImage(final int width, final int height)
-public BufferedImage createCompatibleImage(final int width, final int height, final int transparency)
-'''
-pass
+    '''    public BufferedImage createCompatibleImage(final int width, final int height)
+    public BufferedImage createCompatibleImage(final int width, final int height, final int transparency)
+    '''
 def getColorModel():
-'''public ColorModel getColorModel()
-public ColorModel getColorModel(final int transparency)
-'''
-pass
+    '''    public ColorModel getColorModel()
+    public ColorModel getColorModel(final int transparency)
+    '''
 def getDefaultTransform():
-'''public AffineTransform getDefaultTransform()
-'''
-pass
+    '''    public AffineTransform getDefaultTransform()
+    '''
 def getNormalizingTransform():
-'''public AffineTransform getNormalizingTransform()
-'''
-pass
+    '''    public AffineTransform getNormalizingTransform()
+    '''
 def getBounds():
-'''public Rectangle getBounds()
-'''
-pass
+    '''    public Rectangle getBounds()
+    '''

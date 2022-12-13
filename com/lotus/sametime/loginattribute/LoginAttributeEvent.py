@@ -1,12 +1,9 @@
 def getRequestId():
-'''public int getRequestId()
-'''
-pass
+    '''    public int getRequestId()
+    '''
 def getStatus():
-'''public int getStatus()
-'''
-pass
+    '''    public int getStatus()
+    '''
 def getReason():
-'''public int getReason()
-'''
-pass
+    '''    public int getReason()
+    '''

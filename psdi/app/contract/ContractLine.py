@@ -1,104 +1,78 @@
 def ContractLine():
-'''public ContractLine(final MboSet ms)
-'''
-pass
+    '''    public ContractLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def copyPurchContractLine():
-'''public MboRemote copyPurchContractLine(final MboRemote releasePOLineRemote, final MboRemote createRelInput)
-'''
-pass
+    '''    public MboRemote copyPurchContractLine(final MboRemote releasePOLineRemote, final MboRemote createRelInput)
+    '''
 def getInternalLineStatus():
-'''public String getInternalLineStatus()
-'''
-pass
+    '''    public String getInternalLineStatus()
+    '''
 def getInternalContractType():
-'''public String getInternalContractType()
-'''
-pass
+    '''    public String getInternalContractType()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def getInternalRevStatus():
-'''public String getInternalRevStatus()
-'''
-pass
+    '''    public String getInternalRevStatus()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def createSchedule():
-'''public void createSchedule()
-'''
-pass
+    '''    public void createSchedule()
+    '''
 def canCreateSchedule():
-'''public void canCreateSchedule()
-'''
-pass
+    '''    public void canCreateSchedule()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def getInternalLineType():
-'''public String getInternalLineType()
-'''
-pass
+    '''    public String getInternalLineType()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def isServiceType():
-'''public boolean isServiceType()
-'''
-pass
+    '''    public boolean isServiceType()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def getInvVendorRemote():
-'''public MboRemote getInvVendorRemote()
-'''
-pass
+    '''    public MboRemote getInvVendorRemote()
+    '''
 def changeLineStatus():
-'''public void changeLineStatus(final String lineStatus)
-'''
-pass
+    '''    public void changeLineStatus(final String lineStatus)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def setVendorItem():
-'''public void setVendorItem(final boolean value)
-'''
-pass
+    '''    public void setVendorItem(final boolean value)
+    '''
 def getVendorItem():
-'''public boolean getVendorItem()
-'''
-pass
+    '''    public boolean getVendorItem()
+    '''
 def isContractReferencedOnPOLine():
-'''public boolean isContractReferencedOnPOLine()
-'''
-pass
+    '''    public boolean isContractReferencedOnPOLine()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''

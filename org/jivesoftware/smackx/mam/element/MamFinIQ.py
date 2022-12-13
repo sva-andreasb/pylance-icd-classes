@@ -1,22 +1,17 @@
-ELEMENT = "String  fin""
-NAMESPACE = "String  urn:xmpp:mam:1""
+ELEMENT = "String  \"fin\""
+NAMESPACE = "String  \"urn:xmpp:mam:1\""
 def MamFinIQ():
-'''public MamFinIQ(final String queryId, final RSMSet rsmSet, final boolean complete, final boolean stable)
-'''
-pass
+    '''    public MamFinIQ(final String queryId, final RSMSet rsmSet, final boolean complete, final boolean stable)
+    '''
 def getRSMSet():
-'''public RSMSet getRSMSet()
-'''
-pass
+    '''    public RSMSet getRSMSet()
+    '''
 def isComplete():
-'''public boolean isComplete()
-'''
-pass
+    '''    public boolean isComplete()
+    '''
 def isStable():
-'''public boolean isStable()
-'''
-pass
+    '''    public boolean isStable()
+    '''
 def getQueryId():
-'''public final String getQueryId()
-'''
-pass
+    '''    public final String getQueryId()
+    '''

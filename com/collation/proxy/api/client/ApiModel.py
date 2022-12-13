@@ -1,61 +1,47 @@
 def ApiModel():
-'''public ApiModel(final String xml)
-public ApiModel(final ModelObject[] model, final String title, final int depth, final int max_objs, final OIDExpander autofill, final HashMap suppressList)
-public ApiModel(final ModelObject[] model, final String title, int depth, final String[] attribs, final int max_objs, final OIDExpander autofill, final HashMap suppressList)
-public ApiModel(final ModelObject[] model, final String title, int depth)
-public ApiModel(final ModelObject[] model, final String title, int depth, final String[] attribs, final OIDExpander autofill)
-'''
-pass
+    '''    public ApiModel(final String xml)
+    public ApiModel(final ModelObject[] model, final String title, final int depth, final int max_objs, final OIDExpander autofill, final HashMap suppressList)
+    public ApiModel(final ModelObject[] model, final String title, int depth, final String[] attribs, final int max_objs, final OIDExpander autofill, final HashMap suppressList)
+    public ApiModel(final ModelObject[] model, final String title, int depth)
+    public ApiModel(final ModelObject[] model, final String title, int depth, final String[] attribs, final OIDExpander autofill)
+    '''
 def next():
-'''public synchronized boolean next()
-'''
-pass
+    '''    public synchronized boolean next()
+    '''
 def toXml():
-'''public String toXml(final String query)
-'''
-pass
+    '''    public String toXml(final String query)
+    '''
 def toValue():
-'''public String toValue(final String query)
-'''
-pass
+    '''    public String toValue(final String query)
+    '''
 def toModel():
-'''public ModelObject[] toModel()
-public ModelObject[] toModel(final HashMap oidMap, final Class[] oidClasses)
-'''
-pass
+    '''    public ModelObject[] toModel()
+    public ModelObject[] toModel(final HashMap oidMap, final Class[] oidClasses)
+    '''
 def getExportMode():
-'''public boolean getExportMode()
-'''
-pass
+    '''    public boolean getExportMode()
+    '''
 def setExportMode():
-'''public void setExportMode(final boolean flag)
-'''
-pass
+    '''    public void setExportMode(final boolean flag)
+    '''
 def getIndent():
-'''public int getIndent()
-'''
-pass
+    '''    public int getIndent()
+    '''
 def setIndent():
-'''public void setIndent(final int indent)
-'''
-pass
+    '''    public void setIndent(final int indent)
+    '''
 def setDoDestroy():
-'''public void setDoDestroy(final boolean destroy)
-'''
-pass
+    '''    public void setDoDestroy(final boolean destroy)
+    '''
 def getAutoFill():
-'''public OIDExpander getAutoFill()
-'''
-pass
+    '''    public OIDExpander getAutoFill()
+    '''
 def setAutoFill():
-'''public void setAutoFill(final OIDExpander autofill)
-'''
-pass
+    '''    public void setAutoFill(final OIDExpander autofill)
+    '''
 def getSourceName():
-'''public String getSourceName()
-'''
-pass
+    '''    public String getSourceName()
+    '''
 def setSourceName():
-'''public void setSourceName(final String sourceName)
-'''
-pass
+    '''    public void setSourceName(final String sourceName)
+    '''

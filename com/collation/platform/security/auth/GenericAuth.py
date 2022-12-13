@@ -1,101 +1,76 @@
 def GenericAuth():
-'''public GenericAuth()
-public GenericAuth(final String name, final String authClassName)
-'''
-pass
+    '''    public GenericAuth()
+    public GenericAuth(final String name, final String authClassName)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getProperty():
-'''public Object getProperty(final String key)
-'''
-pass
+    '''    public Object getProperty(final String key)
+    '''
 def getAuthClassName():
-'''public String getAuthClassName()
-'''
-pass
+    '''    public String getAuthClassName()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCategoryName():
-'''public String getCategoryName()
-'''
-pass
+    '''    public String getCategoryName()
+    '''
 def setCategoryName():
-'''public void setCategoryName(final String name)
-'''
-pass
+    '''    public void setCategoryName(final String name)
+    '''
 def getScopeName():
-'''public String getScopeName()
-'''
-pass
+    '''    public String getScopeName()
+    '''
 def setScopeName():
-'''public void setScopeName(final String name)
-'''
-pass
+    '''    public void setScopeName(final String name)
+    '''
 def setPassword():
-'''public void setPassword(final String passwd)
-'''
-pass
+    '''    public void setPassword(final String passwd)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def setUserName():
-'''public void setUserName(final String username)
-'''
-pass
+    '''    public void setUserName(final String username)
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def setProperty():
-'''public void setProperty(final String key, final Object val)
-'''
-pass
+    '''    public void setProperty(final String key, final Object val)
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def debugPrint():
-'''public void debugPrint()
-'''
-pass
+    '''    public void debugPrint()
+    '''
 def setTrustStoreSSLAuth():
-'''public void setTrustStoreSSLAuth(final SSLAuth truststore)
-'''
-pass
+    '''    public void setTrustStoreSSLAuth(final SSLAuth truststore)
+    '''
 def getTrustStoreSSLAuth():
-'''public SSLAuth getTrustStoreSSLAuth()
-'''
-pass
+    '''    public SSLAuth getTrustStoreSSLAuth()
+    '''
 def setKeyStoreSSLAuth():
-'''public void setKeyStoreSSLAuth(final SSLAuth keystore)
-'''
-pass
+    '''    public void setKeyStoreSSLAuth(final SSLAuth keystore)
+    '''
 def getKeyStoreSSLAuth():
-'''public SSLAuth getKeyStoreSSLAuth()
-'''
-pass
+    '''    public SSLAuth getKeyStoreSSLAuth()
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final int order)
-'''
-pass
+    '''    public void setOrder(final int order)
+    '''

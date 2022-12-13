@@ -1,32 +1,24 @@
 def TableConfig():
-'''public TableConfig()
-'''
-pass
+    '''    public TableConfig()
+    '''
 def getLockedColumns():
-'''public List<Column> getLockedColumns()
-'''
-pass
+    '''    public List<Column> getLockedColumns()
+    '''
 def getColumns():
-'''public List<Column> getColumns()
-'''
-pass
+    '''    public List<Column> getColumns()
+    '''
 def addColumn():
-'''public Column addColumn(final Column col)
-'''
-pass
+    '''    public Column addColumn(final Column col)
+    '''
 def getAllColumnsNames():
-'''public List<String> getAllColumnsNames()
-'''
-pass
+    '''    public List<String> getAllColumnsNames()
+    '''
 def getColumn():
-'''public Column getColumn(final String name)
-'''
-pass
+    '''    public Column getColumn(final String name)
+    '''
 def getColumnsForMaxType():
-'''public List<Column> getColumnsForMaxType(final int... maxTypes)
-'''
-pass
+    '''    public List<Column> getColumnsForMaxType(final int... maxTypes)
+    '''
 def compare():
-'''public int compare(final Column o1, final Column o2)
-'''
-pass
+    '''    public int compare(final Column o1, final Column o2)
+    '''

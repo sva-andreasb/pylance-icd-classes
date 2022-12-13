@@ -1,8 +1,6 @@
 def LeaseViewLine():
-'''public LeaseViewLine(final MboSet ms)
-'''
-pass
+    '''    public LeaseViewLine(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

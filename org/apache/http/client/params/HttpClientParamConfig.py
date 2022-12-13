@@ -1,4 +1,3 @@
 def getRequestConfig():
-'''public static RequestConfig getRequestConfig(final HttpParams params)
-'''
-pass
+    '''    public static RequestConfig getRequestConfig(final HttpParams params)
+    '''

@@ -1,8 +1,6 @@
 def FldMatRecTransTaskID():
-'''public FldMatRecTransTaskID(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransTaskID(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

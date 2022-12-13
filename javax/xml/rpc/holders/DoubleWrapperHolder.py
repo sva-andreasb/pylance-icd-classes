@@ -1,5 +1,4 @@
 def DoubleWrapperHolder():
-'''public DoubleWrapperHolder()
-public DoubleWrapperHolder(final Double value)
-'''
-pass
+    '''    public DoubleWrapperHolder()
+    public DoubleWrapperHolder(final Double value)
+    '''

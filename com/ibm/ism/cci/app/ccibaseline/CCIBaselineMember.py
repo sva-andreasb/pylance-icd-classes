@@ -1,70 +1,53 @@
-IBM_COPYRIGHT = "String \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def CCIBaselineMember():
-'''public CCIBaselineMember(final MboSet ms)
-'''
-pass
+    '''    public CCIBaselineMember(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def createCISpecHisOnDemand():
-'''public void createCISpecHisOnDemand()
-'''
-pass
+    '''    public void createCISpecHisOnDemand()
+    '''
 def getOwningBaseline():
-'''public MboRemote getOwningBaseline()
-'''
-pass
+    '''    public MboRemote getOwningBaseline()
+    '''
 def isMemberHidden():
-'''public boolean isMemberHidden()
-'''
-pass
+    '''    public boolean isMemberHidden()
+    '''
 def ciExists():
-'''public boolean ciExists()
-'''
-pass
+    '''    public boolean ciExists()
+    '''
 def getCI():
-'''public MboRemote getCI()
-'''
-pass
+    '''    public MboRemote getCI()
+    '''
 def getLinkedActualCI():
-'''public MboRemote getLinkedActualCI()
-public MboRemote getLinkedActualCI(final MboRemote ci)
-'''
-pass
+    '''    public MboRemote getLinkedActualCI()
+    public MboRemote getLinkedActualCI(final MboRemote ci)
+    '''
 def isUserAuthorizedForCI():
-'''public boolean isUserAuthorizedForCI(final MboRemote ci)
-'''
-pass
+    '''    public boolean isUserAuthorizedForCI(final MboRemote ci)
+    '''
 def isUserAuthorizedForActualCI():
-'''public boolean isUserAuthorizedForActualCI(final MboRemote actCI)
-'''
-pass
+    '''    public boolean isUserAuthorizedForActualCI(final MboRemote actCI)
+    '''
 def isUserAuthorizedForLinkedActualCI():
-'''public boolean isUserAuthorizedForLinkedActualCI()
-'''
-pass
+    '''    public boolean isUserAuthorizedForLinkedActualCI()
+    '''
 def linkedActualCIExists():
-'''public boolean linkedActualCIExists()
-'''
-pass
+    '''    public boolean linkedActualCIExists()
+    '''
 def activate():
-'''public void activate(final Date asOf)
-'''
-pass
+    '''    public void activate(final Date asOf)
+    '''

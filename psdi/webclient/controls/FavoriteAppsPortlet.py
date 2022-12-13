@@ -1,20 +1,15 @@
 def FavoriteAppsPortlet():
-'''public FavoriteAppsPortlet()
-'''
-pass
+    '''    public FavoriteAppsPortlet()
+    '''
 def getFavoriteApps():
-'''public TreeMap getFavoriteApps()
-'''
-pass
+    '''    public TreeMap getFavoriteApps()
+    '''
 def getRenderData():
-'''public TreeMap getRenderData()
-'''
-pass
+    '''    public TreeMap getRenderData()
+    '''
 def createRenderData():
-'''public void createRenderData()
-'''
-pass
+    '''    public void createRenderData()
+    '''
 def areAllAppsRestricted():
-'''public boolean areAllAppsRestricted()
-'''
-pass
+    '''    public boolean areAllAppsRestricted()
+    '''

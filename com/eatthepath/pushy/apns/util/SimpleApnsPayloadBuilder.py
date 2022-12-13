@@ -1,8 +1,6 @@
 def build():
-'''public String build()
-'''
-pass
+    '''    public String build()
+    '''
 def buildMdmPayload():
-'''public String buildMdmPayload(final String pushMagicValue)
-'''
-pass
+    '''    public String buildMdmPayload(final String pushMagicValue)
+    '''

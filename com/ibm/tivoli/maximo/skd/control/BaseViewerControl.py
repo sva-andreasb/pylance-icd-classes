@@ -1,139 +1,105 @@
-APPLET_EVENT_NAME = "String  skdappletevent""
-APPLET_EVENT_TARGET_EVENT_NAME = "String  skdappletevent_targeteventname""
-ATTR_CLEAR_STATE = "String  skdCLEAR_STATE""
+APPLET_EVENT_NAME = "String  \"skdappletevent\""
+APPLET_EVENT_TARGET_EVENT_NAME = "String  \"skdappletevent_targeteventname\""
+ATTR_CLEAR_STATE = "String  \"skdCLEAR_STATE\""
 def BaseViewerControl():
-'''public BaseViewerControl()
-'''
-pass
+    '''    public BaseViewerControl()
+    '''
 def skdappletevent():
-'''public int skdappletevent()
-'''
-pass
+    '''    public int skdappletevent()
+    '''
 def getAppletEventName():
-'''public String getAppletEventName()
-'''
-pass
+    '''    public String getAppletEventName()
+    '''
 def getEncodedAppletEventData():
-'''public String getEncodedAppletEventData()
-'''
-pass
+    '''    public String getEncodedAppletEventData()
+    '''
 def replaceSingleQuotes():
-'''public static String replaceSingleQuotes(final String replaceString)
-'''
-pass
+    '''    public static String replaceSingleQuotes(final String replaceString)
+    '''
 def clearAppletEvent():
-'''public void clearAppletEvent()
-'''
-pass
+    '''    public void clearAppletEvent()
+    '''
 def hasAppletEvent():
-'''public boolean hasAppletEvent()
-'''
-pass
+    '''    public boolean hasAppletEvent()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def needToRefreshProjectData():
-'''public boolean needToRefreshProjectData()
-'''
-pass
+    '''    public boolean needToRefreshProjectData()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getAppletVisible():
-'''public boolean getAppletVisible()
-'''
-pass
+    '''    public boolean getAppletVisible()
+    '''
 def setAppletVisible():
-'''public void setAppletVisible(final boolean vis)
-'''
-pass
+    '''    public void setAppletVisible(final boolean vis)
+    '''
 def getRefreshVisibility():
-'''public boolean getRefreshVisibility()
-'''
-pass
+    '''    public boolean getRefreshVisibility()
+    '''
 def setRefreshVisibility():
-'''public void setRefreshVisibility(final boolean vis)
-'''
-pass
+    '''    public void setRefreshVisibility(final boolean vis)
+    '''
 def showerror():
-'''public int showerror()
-'''
-pass
+    '''    public int showerror()
+    '''
 def checkVisibility():
-'''public int checkVisibility()
-'''
-pass
+    '''    public int checkVisibility()
+    '''
 def acceptselect():
-'''public int acceptselect()
-'''
-pass
+    '''    public int acceptselect()
+    '''
 def getError():
-'''public String getError()
-'''
-pass
+    '''    public String getError()
+    '''
 def setError():
-'''public void setError(final String error)
-'''
-pass
+    '''    public void setError(final String error)
+    '''
 def getProcessId():
-'''public String getProcessId()
-'''
-pass
+    '''    public String getProcessId()
+    '''
 def setProcessId():
-'''public void setProcessId(final String processId)
-'''
-pass
+    '''    public void setProcessId(final String processId)
+    '''
 def updateapplet():
-'''public int updateapplet()
-'''
-pass
+    '''    public int updateapplet()
+    '''
 def isSetCursor():
-'''public boolean isSetCursor()
-'''
-pass
+    '''    public boolean isSetCursor()
+    '''
 def setSetCursor():
-'''public void setSetCursor(final boolean setCursor)
-'''
-pass
+    '''    public void setSetCursor(final boolean setCursor)
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def applyfilter():
-'''public int applyfilter()
-'''
-pass
+    '''    public int applyfilter()
+    '''
 def setApplyFilter():
-'''public void setApplyFilter(final boolean newVal)
-'''
-pass
+    '''    public void setApplyFilter(final boolean newVal)
+    '''
 def isfilterapplied():
-'''public boolean isfilterapplied()
-'''
-pass
+    '''    public boolean isfilterapplied()
+    '''
 def applyconstraint():
-'''public int applyconstraint()
-'''
-pass
+    '''    public int applyconstraint()
+    '''
 def setConstraintEdited():
-'''public void setConstraintEdited(final boolean newVal)
-'''
-pass
+    '''    public void setConstraintEdited(final boolean newVal)
+    '''
 def wasConstraintEdited():
-'''public boolean wasConstraintEdited()
-'''
-pass
+    '''    public boolean wasConstraintEdited()
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def hasClearState():
-'''public boolean hasClearState()
-'''
-pass
+    '''    public boolean hasClearState()
+    '''

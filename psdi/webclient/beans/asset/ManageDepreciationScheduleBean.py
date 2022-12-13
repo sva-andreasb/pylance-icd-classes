@@ -1,16 +1,12 @@
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def toggleselectrow():
-'''public int toggleselectrow()
-'''
-pass
+    '''    public int toggleselectrow()
+    '''
 def OK_ACTION():
-'''public synchronized int OK_ACTION()
-'''
-pass
+    '''    public synchronized int OK_ACTION()
+    '''
 def REFRESH_PREVIEW():
-'''public int REFRESH_PREVIEW()
-'''
-pass
+    '''    public int REFRESH_PREVIEW()
+    '''

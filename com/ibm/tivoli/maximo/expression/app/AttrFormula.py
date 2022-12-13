@@ -1,12 +1,9 @@
 def AttrFormula():
-'''public AttrFormula(final MboSet ms)
-'''
-pass
+    '''    public AttrFormula(final MboSet ms)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

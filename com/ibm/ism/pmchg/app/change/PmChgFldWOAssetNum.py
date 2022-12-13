@@ -1,8 +1,6 @@
 def PmChgFldWOAssetNum():
-'''public PmChgFldWOAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public PmChgFldWOAssetNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

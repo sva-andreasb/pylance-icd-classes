@@ -1,16 +1,12 @@
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def RECONCILE():
-'''public int RECONCILE()
-'''
-pass
+    '''    public int RECONCILE()
+    '''
 def CURBALADJ():
-'''public int CURBALADJ()
-'''
-pass
+    '''    public int CURBALADJ()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''

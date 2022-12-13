@@ -1,4 +1,3 @@
 def createRegistry():
-'''public TimeZoneRegistry createRegistry()
-'''
-pass
+    '''    public TimeZoneRegistry createRegistry()
+    '''

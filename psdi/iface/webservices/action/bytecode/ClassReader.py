@@ -1,8 +1,6 @@
 def readCode():
-'''public void readCode()
-'''
-pass
+    '''    public void readCode()
+    '''
 def NameAndType():
-'''public NameAndType(final String name, final String type)
-'''
-pass
+    '''    public NameAndType(final String name, final String type)
+    '''

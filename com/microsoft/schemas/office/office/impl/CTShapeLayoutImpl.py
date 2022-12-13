@@ -1,84 +1,63 @@
 def CTShapeLayoutImpl():
-'''public CTShapeLayoutImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public CTShapeLayoutImpl(final SchemaType schemaType)
+    '''
 def getIdmap():
-'''public CTIdMap getIdmap()
-'''
-pass
+    '''    public CTIdMap getIdmap()
+    '''
 def isSetIdmap():
-'''public boolean isSetIdmap()
-'''
-pass
+    '''    public boolean isSetIdmap()
+    '''
 def setIdmap():
-'''public void setIdmap(final CTIdMap ctIdMap)
-'''
-pass
+    '''    public void setIdmap(final CTIdMap ctIdMap)
+    '''
 def addNewIdmap():
-'''public CTIdMap addNewIdmap()
-'''
-pass
+    '''    public CTIdMap addNewIdmap()
+    '''
 def unsetIdmap():
-'''public void unsetIdmap()
-'''
-pass
+    '''    public void unsetIdmap()
+    '''
 def getRegrouptable():
-'''public CTRegroupTable getRegrouptable()
-'''
-pass
+    '''    public CTRegroupTable getRegrouptable()
+    '''
 def isSetRegrouptable():
-'''public boolean isSetRegrouptable()
-'''
-pass
+    '''    public boolean isSetRegrouptable()
+    '''
 def setRegrouptable():
-'''public void setRegrouptable(final CTRegroupTable ctRegroupTable)
-'''
-pass
+    '''    public void setRegrouptable(final CTRegroupTable ctRegroupTable)
+    '''
 def addNewRegrouptable():
-'''public CTRegroupTable addNewRegrouptable()
-'''
-pass
+    '''    public CTRegroupTable addNewRegrouptable()
+    '''
 def unsetRegrouptable():
-'''public void unsetRegrouptable()
-'''
-pass
+    '''    public void unsetRegrouptable()
+    '''
 def getRules():
-'''public CTRules getRules()
-'''
-pass
+    '''    public CTRules getRules()
+    '''
 def isSetRules():
-'''public boolean isSetRules()
-'''
-pass
+    '''    public boolean isSetRules()
+    '''
 def setRules():
-'''public void setRules(final CTRules ctRules)
-'''
-pass
+    '''    public void setRules(final CTRules ctRules)
+    '''
 def addNewRules():
-'''public CTRules addNewRules()
-'''
-pass
+    '''    public CTRules addNewRules()
+    '''
 def unsetRules():
-'''public void unsetRules()
-'''
-pass
+    '''    public void unsetRules()
+    '''
 def xgetExt():
-'''public STExt xgetExt()
-'''
-pass
+    '''    public STExt xgetExt()
+    '''
 def isSetExt():
-'''public boolean isSetExt()
-'''
-pass
+    '''    public boolean isSetExt()
+    '''
 def setExt():
-'''public void setExt(final STExt.Enum enumValue)
-'''
-pass
+    '''    public void setExt(final STExt.Enum enumValue)
+    '''
 def xsetExt():
-'''public void xsetExt(final STExt stExt)
-'''
-pass
+    '''    public void xsetExt(final STExt stExt)
+    '''
 def unsetExt():
-'''public void unsetExt()
-'''
-pass
+    '''    public void unsetExt()
+    '''

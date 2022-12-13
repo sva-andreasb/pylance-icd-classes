@@ -1,8 +1,6 @@
 def F():
-'''public F(final IResourceCallback a)
-'''
-pass
+    '''    public F(final IResourceCallback a)
+    '''
 def a():
-'''public String a(final dT.e e)
-'''
-pass
+    '''    public String a(final dT.e e)
+    '''

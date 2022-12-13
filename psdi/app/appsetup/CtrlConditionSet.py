@@ -1,16 +1,12 @@
 def CtrlConditionSet():
-'''public CtrlConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CtrlConditionSet(final MboServerInterface ms)
+    '''
 def copyConditionToCtrlCondition():
-'''public void copyConditionToCtrlCondition(final MboSetRemote conditionSet)
-'''
-pass
+    '''    public void copyConditionToCtrlCondition(final MboSetRemote conditionSet)
+    '''
 def saveTransaction():
-'''public void saveTransaction(final MXTransaction txn)
-'''
-pass
+    '''    public void saveTransaction(final MXTransaction txn)
+    '''
 def fireEventsAfterDBCommit():
-'''public void fireEventsAfterDBCommit(final MXTransaction txn)
-'''
-pass
+    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''

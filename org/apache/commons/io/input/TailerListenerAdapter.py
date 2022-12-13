@@ -1,21 +1,16 @@
 def init():
-'''public void init(final Tailer tailer)
-'''
-pass
+    '''    public void init(final Tailer tailer)
+    '''
 def fileNotFound():
-'''public void fileNotFound()
-'''
-pass
+    '''    public void fileNotFound()
+    '''
 def fileRotated():
-'''public void fileRotated()
-'''
-pass
+    '''    public void fileRotated()
+    '''
 def handle():
-'''public void handle(final String line)
-public void handle(final Exception ex)
-'''
-pass
+    '''    public void handle(final String line)
+    public void handle(final Exception ex)
+    '''
 def endOfFileReached():
-'''public void endOfFileReached()
-'''
-pass
+    '''    public void endOfFileReached()
+    '''

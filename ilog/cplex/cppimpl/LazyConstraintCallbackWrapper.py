@@ -1,197 +1,153 @@
 def LazyConstraintCallbackWrapper():
-'''public LazyConstraintCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-public LazyConstraintCallbackWrapper(final IloEnv env)
-'''
-pass
+    '''    public LazyConstraintCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
+    public LazyConstraintCallbackWrapper(final IloEnv env)
+    '''
 def getCPtr():
-'''public static long getCPtr(final LazyConstraintCallbackWrapper obj)
-'''
-pass
+    '''    public static long getCPtr(final LazyConstraintCallbackWrapper obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def main_cpp():
-'''public void main_cpp()
-'''
-pass
+    '''    public void main_cpp()
+    '''
 def duplicateCallback():
-'''public IloCplex__CallbackI duplicateCallback()
-'''
-pass
+    '''    public IloCplex__CallbackI duplicateCallback()
+    '''
 def callbackImpl():
-'''public void callbackImpl()
-'''
-pass
+    '''    public void callbackImpl()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getEnv():
-'''public IloEnv getEnv()
-'''
-pass
+    '''    public IloEnv getEnv()
+    '''
 def getModel():
-'''public IloModel getModel()
-'''
-pass
+    '''    public IloModel getModel()
+    '''
 def getNcols():
-'''public int getNcols()
-'''
-pass
+    '''    public int getNcols()
+    '''
 def getNrows():
-'''public int getNrows()
-'''
-pass
+    '''    public int getNrows()
+    '''
 def getNQCs():
-'''public int getNQCs()
-'''
-pass
+    '''    public int getNQCs()
+    '''
 def getBestObjValue():
-'''public double getBestObjValue()
-'''
-pass
+    '''    public double getBestObjValue()
+    '''
 def getIncumbentObjValue():
-'''public double getIncumbentObjValue()
-'''
-pass
+    '''    public double getIncumbentObjValue()
+    '''
 def getIncumbentValue():
-'''public double getIncumbentValue(final IloNumVar var)
-public double getIncumbentValue(final IloIntVar var)
-public double getIncumbentValue(final IloNumExprArg ex)
-'''
-pass
+    '''    public double getIncumbentValue(final IloNumVar var)
+    public double getIncumbentValue(final IloIntVar var)
+    public double getIncumbentValue(final IloNumExprArg ex)
+    '''
 def getIncumbentValues():
-'''public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
-public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
+    public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getMyThreadNum():
-'''public int getMyThreadNum()
-'''
-pass
+    '''    public int getMyThreadNum()
+    '''
 def hasIncumbent():
-'''public boolean hasIncumbent()
-'''
-pass
+    '''    public boolean hasIncumbent()
+    '''
 def getNnodes():
-'''public int getNnodes()
-'''
-pass
+    '''    public int getNnodes()
+    '''
 def getNremainingNodes():
-'''public int getNremainingNodes()
-'''
-pass
+    '''    public int getNremainingNodes()
+    '''
 def getNiterations():
-'''public int getNiterations()
-'''
-pass
+    '''    public int getNiterations()
+    '''
 def getCutoff():
-'''public double getCutoff()
-'''
-pass
+    '''    public double getCutoff()
+    '''
 def getPriority():
-'''public double getPriority(final IloNumVar sos)
-public double getPriority(final IloIntVar sos)
-'''
-pass
+    '''    public double getPriority(final IloNumVar sos)
+    public double getPriority(final IloIntVar sos)
+    '''
 def getUserThreads():
-'''public int getUserThreads()
-'''
-pass
+    '''    public int getUserThreads()
+    '''
 def getObjCoef():
-'''public double getObjCoef(final IloNumVar var)
-public double getObjCoef(final IloIntVar var)
-'''
-pass
+    '''    public double getObjCoef(final IloNumVar var)
+    public double getObjCoef(final IloIntVar var)
+    '''
 def getObjCoefs():
-'''public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
-public void getObjCoefs(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
+    public void getObjCoefs(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getFeasibility():
-'''public IntegerFeasibility getFeasibility(final IloSOS1 sos)
-public IntegerFeasibility getFeasibility(final IloSOS2 sos)
-public IntegerFeasibility getFeasibility(final IloNumVar var)
-public IntegerFeasibility getFeasibility(final IloIntVar var)
-'''
-pass
+    '''    public IntegerFeasibility getFeasibility(final IloSOS1 sos)
+    public IntegerFeasibility getFeasibility(final IloSOS2 sos)
+    public IntegerFeasibility getFeasibility(final IloNumVar var)
+    public IntegerFeasibility getFeasibility(final IloIntVar var)
+    '''
 def getFeasibilities():
-'''public void getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloNumVarArray var)
-public void getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloIntVarArray var)
-'''
-pass
+    '''    public void getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloNumVarArray var)
+    public void getFeasibilities(final IloCplex__ControlCallbackI__IntegerFeasibilityArray stat, final IloIntVarArray var)
+    '''
 def isSOSFeasible():
-'''public boolean isSOSFeasible(final IloSOS1 sos1)
-public boolean isSOSFeasible(final IloSOS2 sos2)
-'''
-pass
+    '''    public boolean isSOSFeasible(final IloSOS1 sos1)
+    public boolean isSOSFeasible(final IloSOS2 sos2)
+    '''
 def getLB():
-'''public double getLB(final IloNumVar var)
-public double getLB(final IloIntVar var)
-'''
-pass
+    '''    public double getLB(final IloNumVar var)
+    public double getLB(final IloIntVar var)
+    '''
 def getUB():
-'''public double getUB(final IloNumVar var)
-public double getUB(final IloIntVar var)
-'''
-pass
+    '''    public double getUB(final IloNumVar var)
+    public double getUB(final IloIntVar var)
+    '''
 def getLBs():
-'''public void getLBs(final IloNumArray val, final IloNumVarArray vars)
-public void getLBs(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getLBs(final IloNumArray val, final IloNumVarArray vars)
+    public void getLBs(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getUBs():
-'''public void getUBs(final IloNumArray val, final IloNumVarArray vars)
-public void getUBs(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getUBs(final IloNumArray val, final IloNumVarArray vars)
+    public void getUBs(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getObjValue():
-'''public double getObjValue()
-'''
-pass
+    '''    public double getObjValue()
+    '''
 def getValue():
-'''public double getValue(final IloNumExprArg expr)
-public double getValue(final IloNumVar var)
-public double getValue(final IloIntVar var)
-'''
-pass
+    '''    public double getValue(final IloNumExprArg expr)
+    public double getValue(final IloNumVar var)
+    public double getValue(final IloIntVar var)
+    '''
 def getSlack():
-'''public double getSlack(final IloRange rng)
-'''
-pass
+    '''    public double getSlack(final IloRange rng)
+    '''
 def getValues():
-'''public void getValues(final IloNumArray val, final IloNumVarArray vars)
-public void getValues(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getValues(final IloNumArray val, final IloNumVarArray vars)
+    public void getValues(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getSlacks():
-'''public void getSlacks(final IloNumArray val, final IloRangeArray con)
-'''
-pass
+    '''    public void getSlacks(final IloNumArray val, final IloRangeArray con)
+    '''
 def getDownPseudoCost():
-'''public double getDownPseudoCost(final IloNumVar var)
-public double getDownPseudoCost(final IloIntVar var)
-'''
-pass
+    '''    public double getDownPseudoCost(final IloNumVar var)
+    public double getDownPseudoCost(final IloIntVar var)
+    '''
 def getUpPseudoCost():
-'''public double getUpPseudoCost(final IloNumVar var)
-public double getUpPseudoCost(final IloIntVar var)
-'''
-pass
+    '''    public double getUpPseudoCost(final IloNumVar var)
+    public double getUpPseudoCost(final IloIntVar var)
+    '''
 def getNodeData():
-'''public SWIGTYPE_p_NodeData getNodeData()
-'''
-pass
+    '''    public SWIGTYPE_p_NodeData getNodeData()
+    '''
 def setNodeData():
-'''public SWIGTYPE_p_NodeData setNodeData(final SWIGTYPE_p_NodeData data)
-'''
-pass
+    '''    public SWIGTYPE_p_NodeData setNodeData(final SWIGTYPE_p_NodeData data)
+    '''
 def add():
-'''public IloConstraint add(final IloConstraint con)
-'''
-pass
+    '''    public IloConstraint add(final IloConstraint con)
+    '''
 def addLocal():
-'''public IloConstraint addLocal(final IloConstraint con)
-'''
-pass
+    '''    public IloConstraint addLocal(final IloConstraint con)
+    '''

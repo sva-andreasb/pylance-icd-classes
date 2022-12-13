@@ -1,8 +1,6 @@
 def EditWFAppToolBarSet():
-'''public EditWFAppToolBarSet(final MboServerInterface ms)
-'''
-pass
+    '''    public EditWFAppToolBarSet(final MboServerInterface ms)
+    '''
 def setFlag():
-'''public void setFlag(final long flag, final boolean state)
-'''
-pass
+    '''    public void setFlag(final long flag, final boolean state)
+    '''

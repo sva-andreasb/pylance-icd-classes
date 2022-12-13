@@ -1,8 +1,6 @@
 def FldLRMLRMType():
-'''public FldLRMLRMType(final MboValue mbv)
-'''
-pass
+    '''    public FldLRMLRMType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

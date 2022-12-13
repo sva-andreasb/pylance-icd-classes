@@ -1,12 +1,9 @@
 def PlusPWOTermsSet():
-'''public PlusPWOTermsSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPWOTermsSet(final MboServerInterface mboServerInterface)
+    '''
 def canEdit():
-'''public boolean canEdit()
-'''
-pass
+    '''    public boolean canEdit()
+    '''
 def addAgreementTerms():
-'''public void addAgreementTerms(final MboRemote mboRemote)
-'''
-pass
+    '''    public void addAgreementTerms(final MboRemote mboRemote)
+    '''

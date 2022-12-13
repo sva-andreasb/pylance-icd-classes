@@ -1,28 +1,21 @@
 def put():
-'''public static void put(final String key, final String val)
-'''
-pass
+    '''    public static void put(final String key, final String val)
+    '''
 def get():
-'''public static String get(final String key)
-'''
-pass
+    '''    public static String get(final String key)
+    '''
 def remove():
-'''public static void remove(final String key)
-'''
-pass
+    '''    public static void remove(final String key)
+    '''
 def clear():
-'''public static void clear()
-'''
-pass
+    '''    public static void clear()
+    '''
 def getCopyOfContextMap():
-'''public static Map getCopyOfContextMap()
-'''
-pass
+    '''    public static Map getCopyOfContextMap()
+    '''
 def setContextMap():
-'''public static void setContextMap(final Map contextMap)
-'''
-pass
+    '''    public static void setContextMap(final Map contextMap)
+    '''
 def getMDCAdapter():
-'''public static MDCAdapter getMDCAdapter()
-'''
-pass
+    '''    public static MDCAdapter getMDCAdapter()
+    '''

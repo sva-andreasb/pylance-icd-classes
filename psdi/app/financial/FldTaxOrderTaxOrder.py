@@ -1,8 +1,6 @@
 def FldTaxOrderTaxOrder():
-'''public FldTaxOrderTaxOrder(final MboValue mbv)
-'''
-pass
+    '''    public FldTaxOrderTaxOrder(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

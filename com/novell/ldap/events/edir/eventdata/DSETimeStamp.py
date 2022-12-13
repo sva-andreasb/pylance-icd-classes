@@ -1,20 +1,15 @@
 def DSETimeStamp():
-'''public DSETimeStamp(final ASN1Sequence asn1Sequence)
-'''
-pass
+    '''    public DSETimeStamp(final ASN1Sequence asn1Sequence)
+    '''
 def getEvent():
-'''public int getEvent()
-'''
-pass
+    '''    public int getEvent()
+    '''
 def getReplicaNumber():
-'''public int getReplicaNumber()
-'''
-pass
+    '''    public int getReplicaNumber()
+    '''
 def getSeconds():
-'''public int getSeconds()
-'''
-pass
+    '''    public int getSeconds()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

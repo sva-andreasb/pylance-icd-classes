@@ -1,8 +1,6 @@
 def FldRelationRulesTargetClass():
-'''public FldRelationRulesTargetClass(final MboValue mbv)
-'''
-pass
+    '''    public FldRelationRulesTargetClass(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

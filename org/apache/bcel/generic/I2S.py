@@ -1,8 +1,6 @@
 def I2S():
-'''public I2S()
-'''
-pass
+    '''    public I2S()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

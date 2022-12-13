@@ -1,4 +1,3 @@
 def testAttribute():
-'''public void testAttribute()
-'''
-pass
+    '''    public void testAttribute()
+    '''

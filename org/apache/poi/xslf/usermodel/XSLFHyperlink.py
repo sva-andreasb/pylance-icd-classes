@@ -1,56 +1,42 @@
 def getXmlObject():
-'''public CTHyperlink getXmlObject()
-'''
-pass
+    '''    public CTHyperlink getXmlObject()
+    '''
 def setAddress():
-'''public void setAddress(final String address)
-'''
-pass
+    '''    public void setAddress(final String address)
+    '''
 def getAddress():
-'''public String getAddress()
-'''
-pass
+    '''    public String getAddress()
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getTypeEnum():
-'''public HyperlinkType getTypeEnum()
-'''
-pass
+    '''    public HyperlinkType getTypeEnum()
+    '''
 def linkToEmail():
-'''public void linkToEmail(final String emailAddress)
-'''
-pass
+    '''    public void linkToEmail(final String emailAddress)
+    '''
 def linkToUrl():
-'''public void linkToUrl(final String url)
-'''
-pass
+    '''    public void linkToUrl(final String url)
+    '''
 def linkToSlide():
-'''public void linkToSlide(final Slide<XSLFShape, XSLFTextParagraph> slide)
-'''
-pass
+    '''    public void linkToSlide(final Slide<XSLFShape, XSLFTextParagraph> slide)
+    '''
 def linkToNextSlide():
-'''public void linkToNextSlide()
-'''
-pass
+    '''    public void linkToNextSlide()
+    '''
 def linkToPreviousSlide():
-'''public void linkToPreviousSlide()
-'''
-pass
+    '''    public void linkToPreviousSlide()
+    '''
 def linkToFirstSlide():
-'''public void linkToFirstSlide()
-'''
-pass
+    '''    public void linkToFirstSlide()
+    '''
 def linkToLastSlide():
-'''public void linkToLastSlide()
-'''
-pass
+    '''    public void linkToLastSlide()
+    '''

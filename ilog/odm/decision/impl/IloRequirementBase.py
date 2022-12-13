@@ -1,69 +1,52 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloRequirementBase():
-'''public IloRequirementBase(final String name, final IloReqPropertiesDef props)
-'''
-pass
+    '''    public IloRequirementBase(final String name, final IloReqPropertiesDef props)
+    '''
 def isComposite():
-'''public boolean isComposite()
-'''
-pass
+    '''    public boolean isComposite()
+    '''
 def getContainer():
-'''public IloRequirementContainer getContainer()
-'''
-pass
+    '''    public IloRequirementContainer getContainer()
+    '''
 def setRemovedFromEngine():
-'''public void setRemovedFromEngine(final boolean status)
-'''
-pass
+    '''    public void setRemovedFromEngine(final boolean status)
+    '''
 def isRemovedFromEngine():
-'''public boolean isRemovedFromEngine()
-'''
-pass
+    '''    public boolean isRemovedFromEngine()
+    '''
 def getModel():
-'''public IloDecisionModel getModel()
-'''
-pass
+    '''    public IloDecisionModel getModel()
+    '''
 def getIdentifier():
-'''public IloRequirementId getIdentifier()
-'''
-pass
+    '''    public IloRequirementId getIdentifier()
+    '''
 def getPriority():
-'''public IloPriority getPriority(final boolean inherited)
-'''
-pass
+    '''    public IloPriority getPriority(final boolean inherited)
+    '''
 def getPropertiesDef():
-'''public IloPropertiesDef getPropertiesDef()
-'''
-pass
+    '''    public IloPropertiesDef getPropertiesDef()
+    '''
 def getReqPropertiesDef():
-'''public IloReqPropertiesDef getReqPropertiesDef()
-'''
-pass
+    '''    public IloReqPropertiesDef getReqPropertiesDef()
+    '''
 def setPriority():
-'''public void setPriority(final IloPriority priority)
-'''
-pass
+    '''    public void setPriority(final IloPriority priority)
+    '''
 def setProperty():
-'''public void setProperty(final int index, final Object value)
-'''
-pass
+    '''    public void setProperty(final int index, final Object value)
+    '''
 def onChangeProperty():
-'''public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)
-'''
-pass
+    '''    public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)
+    '''
 def setName():
-'''public void setName(final String newName)
-'''
-pass
+    '''    public void setName(final String newName)
+    '''
 def registerMe():
-'''public void registerMe(final IloRequirementContainer cont, final boolean force)
-'''
-pass
+    '''    public void registerMe(final IloRequirementContainer cont, final boolean force)
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def unregisterMe():
-'''public void unregisterMe()
-'''
-pass
+    '''    public void unregisterMe()
+    '''

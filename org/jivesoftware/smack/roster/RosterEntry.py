@@ -1,56 +1,42 @@
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def getJid():
-'''public BareJid getJid()
-'''
-pass
+    '''    public BareJid getJid()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public synchronized void setName(final String name)
-'''
-pass
+    '''    public synchronized void setName(final String name)
+    '''
 def isApproved():
-'''public boolean isApproved()
-'''
-pass
+    '''    public boolean isApproved()
+    '''
 def getGroups():
-'''public List<RosterGroup> getGroups()
-'''
-pass
+    '''    public List<RosterGroup> getGroups()
+    '''
 def isSubscriptionPending():
-'''public boolean isSubscriptionPending()
-'''
-pass
+    '''    public boolean isSubscriptionPending()
+    '''
 def canSeeMyPresence():
-'''public boolean canSeeMyPresence()
-'''
-pass
+    '''    public boolean canSeeMyPresence()
+    '''
 def canSeeHisPresence():
-'''public boolean canSeeHisPresence()
-'''
-pass
+    '''    public boolean canSeeHisPresence()
+    '''
 def cancelSubscription():
-'''public void cancelSubscription()
-'''
-pass
+    '''    public void cancelSubscription()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def equalsDeep():
-'''public boolean equalsDeep(final Object obj)
-'''
-pass
+    '''    public boolean equalsDeep(final Object obj)
+    '''

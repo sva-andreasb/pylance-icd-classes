@@ -1,8 +1,6 @@
 def FldJobToolToolQty():
-'''public FldJobToolToolQty(final MboValue mbv)
-'''
-pass
+    '''    public FldJobToolToolQty(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

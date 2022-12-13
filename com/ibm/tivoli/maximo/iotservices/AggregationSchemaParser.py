@@ -1,8 +1,6 @@
 def validateProperty():
-'''public static boolean validateProperty(final String aggMsgSchema, final String choice)
-'''
-pass
+    '''    public static boolean validateProperty(final String aggMsgSchema, final String choice)
+    '''
 def parseMessage():
-'''public static MboSetRemote parseMessage(final MboRemote thisMbo, final String schema)
-'''
-pass
+    '''    public static MboSetRemote parseMessage(final MboRemote thisMbo, final String schema)
+    '''

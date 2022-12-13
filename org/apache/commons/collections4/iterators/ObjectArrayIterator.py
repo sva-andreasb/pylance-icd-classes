@@ -1,34 +1,26 @@
 def ObjectArrayIterator():
-'''public ObjectArrayIterator(final E... array)
-public ObjectArrayIterator(final E[] array, final int start)
-public ObjectArrayIterator(final E[] array, final int start, final int end)
-'''
-pass
+    '''    public ObjectArrayIterator(final E... array)
+    public ObjectArrayIterator(final E[] array, final int start)
+    public ObjectArrayIterator(final E[] array, final int start, final int end)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getArray():
-'''public E[] getArray()
-'''
-pass
+    '''    public E[] getArray()
+    '''
 def getStartIndex():
-'''public int getStartIndex()
-'''
-pass
+    '''    public int getStartIndex()
+    '''
 def getEndIndex():
-'''public int getEndIndex()
-'''
-pass
+    '''    public int getEndIndex()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

@@ -1,8 +1,6 @@
 def FldMatRecTransWoNum():
-'''public FldMatRecTransWoNum(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransWoNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

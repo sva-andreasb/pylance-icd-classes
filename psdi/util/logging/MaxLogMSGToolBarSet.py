@@ -1,4 +1,3 @@
 def MaxLogMSGToolBarSet():
-'''public MaxLogMSGToolBarSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxLogMSGToolBarSet(final MboServerInterface ms)
+    '''

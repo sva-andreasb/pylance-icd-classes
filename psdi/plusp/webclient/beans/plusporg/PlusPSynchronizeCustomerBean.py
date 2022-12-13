@@ -1,16 +1,12 @@
 def copyCustomers():
-'''public int copyCustomers()
-'''
-pass
+    '''    public int copyCustomers()
+    '''
 def runLongOperation():
-'''public int runLongOperation(final String s)
-'''
-pass
+    '''    public int runLongOperation(final String s)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def applyValues():
-'''public void applyValues()
-'''
-pass
+    '''    public void applyValues()
+    '''

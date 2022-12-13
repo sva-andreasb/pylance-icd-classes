@@ -1,4 +1,3 @@
 def TransactionalIdAuthorizationException():
-'''public TransactionalIdAuthorizationException(final String message)
-'''
-pass
+    '''    public TransactionalIdAuthorizationException(final String message)
+    '''

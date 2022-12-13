@@ -1,8 +1,6 @@
 def FldWOEstLabHrs():
-'''public FldWOEstLabHrs(final MboValue mbv)
-'''
-pass
+    '''    public FldWOEstLabHrs(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

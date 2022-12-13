@@ -1,4 +1,3 @@
 def ApiKeyTokenSet():
-'''public ApiKeyTokenSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApiKeyTokenSet(final MboServerInterface ms)
+    '''

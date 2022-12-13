@@ -1,16 +1,12 @@
 def setToken():
-'''public void setToken(final String token)
-'''
-pass
+    '''    public void setToken(final String token)
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def setFiltersfile():
-'''public void setFiltersfile(final File filtersFile)
-'''
-pass
+    '''    public void setFiltersfile(final File filtersFile)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

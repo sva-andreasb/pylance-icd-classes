@@ -1,8 +1,6 @@
 def PlusPFldSetMultiTransactionFilterByTransaction():
-'''public PlusPFldSetMultiTransactionFilterByTransaction(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldSetMultiTransactionFilterByTransaction(final MboValue mv)
+    '''
 def chooseActualDomainValues():
-'''public void chooseActualDomainValues()
-'''
-pass
+    '''    public void chooseActualDomainValues()
+    '''

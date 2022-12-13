@@ -1,8 +1,6 @@
 def getRootDir():
-'''public String getRootDir()
-'''
-pass
+    '''    public String getRootDir()
+    '''
 def isValidLang():
-'''public boolean isValidLang(final String lang)
-'''
-pass
+    '''    public boolean isValidLang(final String lang)
+    '''

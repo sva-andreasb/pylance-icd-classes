@@ -1,8 +1,6 @@
 def Region():
-'''public Region(@JsonProperty("description") final String description)
-'''
-pass
+    '''    public Region(@JsonProperty("description") final String description)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''

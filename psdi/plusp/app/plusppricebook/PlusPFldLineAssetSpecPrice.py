@@ -1,12 +1,9 @@
 def PlusPFldLineAssetSpecPrice():
-'''public PlusPFldLineAssetSpecPrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldLineAssetSpecPrice(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

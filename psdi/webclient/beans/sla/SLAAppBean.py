@@ -1,48 +1,36 @@
 def CONTRACTS():
-'''public int CONTRACTS()
-'''
-pass
+    '''    public int CONTRACTS()
+    '''
 def SHOWASSETLIST():
-'''public int SHOWASSETLIST()
-'''
-pass
+    '''    public int SHOWASSETLIST()
+    '''
 def SHOWLOCATIONLIST():
-'''public int SHOWLOCATIONLIST()
-'''
-pass
+    '''    public int SHOWLOCATIONLIST()
+    '''
 def escalation():
-'''public int escalation()
-'''
-pass
+    '''    public int escalation()
+    '''
 def VAL_SQL():
-'''public int VAL_SQL()
-'''
-pass
+    '''    public int VAL_SQL()
+    '''
 def ESC_VAL():
-'''public int ESC_VAL()
-'''
-pass
+    '''    public int ESC_VAL()
+    '''
 def ESC_DEL():
-'''public int ESC_DEL()
-'''
-pass
+    '''    public int ESC_DEL()
+    '''
 def ESC_ACT():
-'''public int ESC_ACT()
-'''
-pass
+    '''    public int ESC_ACT()
+    '''
 def getKPIWhere():
-'''public String getKPIWhere()
-'''
-pass
+    '''    public String getKPIWhere()
+    '''
 def getKPISelect():
-'''public String getKPISelect()
-'''
-pass
+    '''    public String getKPISelect()
+    '''
 def setKPIId():
-'''public void setKPIId(final long newId)
-'''
-pass
+    '''    public void setKPIId(final long newId)
+    '''
 def expbuilder():
-'''public int expbuilder()
-'''
-pass
+    '''    public int expbuilder()
+    '''

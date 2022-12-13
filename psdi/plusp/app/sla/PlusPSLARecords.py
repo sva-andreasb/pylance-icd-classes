@@ -1,12 +1,9 @@
 def PlusPSLARecords():
-'''public PlusPSLARecords(final MboSet arg0)
-'''
-pass
+    '''    public PlusPSLARecords(final MboSet arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def calculateMeasurements():
-'''public void calculateMeasurements()
-'''
-pass
+    '''    public void calculateMeasurements()
+    '''

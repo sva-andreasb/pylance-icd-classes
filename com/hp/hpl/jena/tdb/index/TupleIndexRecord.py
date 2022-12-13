@@ -1,41 +1,31 @@
 def TupleIndexRecord():
-'''public TupleIndexRecord(final int N, final ColumnMap colMapping, final RecordFactory factory, final RangeIndex index)
-'''
-pass
+    '''    public TupleIndexRecord(final int N, final ColumnMap colMapping, final RecordFactory factory, final RangeIndex index)
+    '''
 def convert():
-'''public Tuple<NodeId> convert(final Record item)
-'''
-pass
+    '''    public Tuple<NodeId> convert(final Record item)
+    '''
 def all():
-'''public Iterator<Tuple<NodeId>> all()
-'''
-pass
+    '''    public Iterator<Tuple<NodeId>> all()
+    '''
 def accept():
-'''public boolean accept(final Tuple<NodeId> item)
-'''
-pass
+    '''    public boolean accept(final Tuple<NodeId> item)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def sync():
-'''public void sync()
-public void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public void sync(final boolean force)
+    '''
 def getRangeIndex():
-'''public final RangeIndex getRangeIndex()
-'''
-pass
+    '''    public final RangeIndex getRangeIndex()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''

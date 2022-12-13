@@ -1,20 +1,15 @@
 def RecordsProcessingStats():
-'''public RecordsProcessingStats(final long temporaryMemoryBytes, final int numRecordsConverted, final long conversionTimeNanos)
-'''
-pass
+    '''    public RecordsProcessingStats(final long temporaryMemoryBytes, final int numRecordsConverted, final long conversionTimeNanos)
+    '''
 def temporaryMemoryBytes():
-'''public long temporaryMemoryBytes()
-'''
-pass
+    '''    public long temporaryMemoryBytes()
+    '''
 def numRecordsConverted():
-'''public int numRecordsConverted()
-'''
-pass
+    '''    public int numRecordsConverted()
+    '''
 def conversionTimeNanos():
-'''public long conversionTimeNanos()
-'''
-pass
+    '''    public long conversionTimeNanos()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

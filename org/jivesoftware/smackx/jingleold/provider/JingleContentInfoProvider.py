@@ -1,29 +1,22 @@
 def Audio():
-'''public Audio()
-public Audio(final ExtensionElement audioInfo)
-'''
-pass
+    '''    public Audio()
+    public Audio(final ExtensionElement audioInfo)
+    '''
 def parse():
-'''public ExtensionElement parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public ExtensionElement parse(final XmlPullParser parser, final int initialDepth)
+    '''
 def Busy():
-'''public Busy()
-'''
-pass
+    '''    public Busy()
+    '''
 def Hold():
-'''public Hold()
-'''
-pass
+    '''    public Hold()
+    '''
 def Mute():
-'''public Mute()
-'''
-pass
+    '''    public Mute()
+    '''
 def Queued():
-'''public Queued()
-'''
-pass
+    '''    public Queued()
+    '''
 def Ringing():
-'''public Ringing()
-'''
-pass
+    '''    public Ringing()
+    '''

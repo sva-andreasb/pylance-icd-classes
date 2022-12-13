@@ -1,8 +1,6 @@
 def FldCurrencyCodeTo():
-'''public FldCurrencyCodeTo(final MboValue mbv)
-'''
-pass
+    '''    public FldCurrencyCodeTo(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

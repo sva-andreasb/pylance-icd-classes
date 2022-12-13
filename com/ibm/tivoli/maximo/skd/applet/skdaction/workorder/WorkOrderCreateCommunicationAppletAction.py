@@ -1,4 +1,3 @@
 def processActionResponse():
-'''public void processActionResponse(final Object responseObject)
-'''
-pass
+    '''    public void processActionResponse(final Object responseObject)
+    '''

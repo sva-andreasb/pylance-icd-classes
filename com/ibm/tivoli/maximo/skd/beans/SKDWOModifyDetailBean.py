@@ -1,20 +1,15 @@
 def SKDWOModifyDetailBean():
-'''public SKDWOModifyDetailBean()
-'''
-pass
+    '''    public SKDWOModifyDetailBean()
+    '''
 def APPLY():
-'''public int APPLY()
-'''
-pass
+    '''    public int APPLY()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def CANCEL():
-'''public int CANCEL()
-'''
-pass
+    '''    public int CANCEL()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

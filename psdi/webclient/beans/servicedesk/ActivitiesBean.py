@@ -1,20 +1,15 @@
 def insertAtEnd():
-'''public void insertAtEnd()
-'''
-pass
+    '''    public void insertAtEnd()
+    '''
 def needssave():
-'''public int needssave()
-'''
-pass
+    '''    public int needssave()
+    '''
 def activitychangestatus():
-'''public int activitychangestatus()
-'''
-pass
+    '''    public int activitychangestatus()
+    '''
 def owner():
-'''public int owner()
-'''
-pass
+    '''    public int owner()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

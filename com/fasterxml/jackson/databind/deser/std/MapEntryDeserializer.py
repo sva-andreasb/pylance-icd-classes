@@ -1,16 +1,12 @@
 def MapEntryDeserializer():
-'''public MapEntryDeserializer(final JavaType type, final KeyDeserializer keyDeser, final JsonDeserializer<Object> valueDeser, final TypeDeserializer valueTypeDeser)
-'''
-pass
+    '''    public MapEntryDeserializer(final JavaType type, final KeyDeserializer keyDeser, final JsonDeserializer<Object> valueDeser, final TypeDeserializer valueTypeDeser)
+    '''
 def getContentType():
-'''public JavaType getContentType()
-'''
-pass
+    '''    public JavaType getContentType()
+    '''
 def getContentDeserializer():
-'''public JsonDeserializer<Object> getContentDeserializer()
-'''
-pass
+    '''    public JsonDeserializer<Object> getContentDeserializer()
+    '''
 def deserializeWithType():
-'''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-'''
-pass
+    '''    public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''

@@ -1,16 +1,12 @@
 def AssetTrans():
-'''public AssetTrans(final MboSet ms)
-'''
-pass
+    '''    public AssetTrans(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def smartFindByObjectName():
-'''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''

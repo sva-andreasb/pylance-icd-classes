@@ -1,16 +1,12 @@
 def BitsetArgument():
-'''public BitsetArgument(final AbstractTool tool, final String name, final String description, final String[] options)
-'''
-pass
+    '''    public BitsetArgument(final AbstractTool tool, final String name, final String description, final String[] options)
+    '''
 def getArgument():
-'''public Object getArgument()
-'''
-pass
+    '''    public Object getArgument()
+    '''
 def getUsage():
-'''public String getUsage()
-'''
-pass
+    '''    public String getUsage()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent evt)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent evt)
+    '''

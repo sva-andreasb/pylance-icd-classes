@@ -1,144 +1,108 @@
 def AMCrewLabor():
-'''public AMCrewLabor(final MboSet ms)
-'''
-pass
+    '''    public AMCrewLabor(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def checkForCrewAlreadyAssigned():
-'''public boolean checkForCrewAlreadyAssigned(final String laborCode, final Date EffectiveDate)
-'''
-pass
+    '''    public boolean checkForCrewAlreadyAssigned(final String laborCode, final Date EffectiveDate)
+    '''
 def checkForCalShifNum():
-'''public boolean checkForCalShifNum()
-'''
-pass
+    '''    public boolean checkForCalShifNum()
+    '''
 def checkForValidQualification():
-'''public boolean checkForValidQualification(final String sPosition)
-'''
-pass
+    '''    public boolean checkForValidQualification(final String sPosition)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def getStandardRate():
-'''public double getStandardRate()
-'''
-pass
+    '''    public double getStandardRate()
+    '''
 def getEffectiveDate():
-'''public Date getEffectiveDate(Date effectivedate)
-'''
-pass
+    '''    public Date getEffectiveDate(Date effectivedate)
+    '''
 def checkForLaborAlreadyAssigned():
-'''public void checkForLaborAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)
-'''
-pass
+    '''    public void checkForLaborAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)
+    '''
 def checkForDatesOverlapping():
-'''public void checkForDatesOverlapping(final MboRemote mbo)
-'''
-pass
+    '''    public void checkForDatesOverlapping(final MboRemote mbo)
+    '''
 def checkForRules():
-'''public void checkForRules(final MboRemote mbo)
-'''
-pass
+    '''    public void checkForRules(final MboRemote mbo)
+    '''
 def isDatesOverlapping():
-'''public boolean isDatesOverlapping()
-'''
-pass
+    '''    public boolean isDatesOverlapping()
+    '''
 def setisDatesOverlapping():
-'''public void setisDatesOverlapping(final boolean datesOverlapping)
-'''
-pass
+    '''    public void setisDatesOverlapping(final boolean datesOverlapping)
+    '''
 def setValidateLaborField():
-'''public void setValidateLaborField(final boolean validateLaborField)
-'''
-pass
+    '''    public void setValidateLaborField(final boolean validateLaborField)
+    '''
 def getValidateLaborField():
-'''public boolean getValidateLaborField()
-'''
-pass
+    '''    public boolean getValidateLaborField()
+    '''
 def setValidateCraftField():
-'''public void setValidateCraftField(final boolean validateCraftField)
-'''
-pass
+    '''    public void setValidateCraftField(final boolean validateCraftField)
+    '''
 def getValidateCraftField():
-'''public boolean getValidateCraftField()
-'''
-pass
+    '''    public boolean getValidateCraftField()
+    '''
 def setValidateSkillLevelField():
-'''public void setValidateSkillLevelField(final boolean validateSkillLevelField)
-'''
-pass
+    '''    public void setValidateSkillLevelField(final boolean validateSkillLevelField)
+    '''
 def getValidateSkillLevelField():
-'''public boolean getValidateSkillLevelField()
-'''
-pass
+    '''    public boolean getValidateSkillLevelField()
+    '''
 def setValidateVendorField():
-'''public void setValidateVendorField(final boolean validateVendorField)
-'''
-pass
+    '''    public void setValidateVendorField(final boolean validateVendorField)
+    '''
 def getValidateVendorField():
-'''public boolean getValidateVendorField()
-'''
-pass
+    '''    public boolean getValidateVendorField()
+    '''
 def setValidateContractField():
-'''public void setValidateContractField(final boolean validateContractField)
-'''
-pass
+    '''    public void setValidateContractField(final boolean validateContractField)
+    '''
 def getValidateContractField():
-'''public boolean getValidateContractField()
-'''
-pass
+    '''    public boolean getValidateContractField()
+    '''
 def setEffectiveDateIsLater():
-'''public void setEffectiveDateIsLater(final boolean laterEffectivedate)
-'''
-pass
+    '''    public void setEffectiveDateIsLater(final boolean laterEffectivedate)
+    '''
 def isLaterEffectiveDate():
-'''public boolean isLaterEffectiveDate()
-'''
-pass
+    '''    public boolean isLaterEffectiveDate()
+    '''
 def setEarlierEndDate():
-'''public void setEarlierEndDate(final boolean earlierEndDate)
-'''
-pass
+    '''    public void setEarlierEndDate(final boolean earlierEndDate)
+    '''
 def isEndDateEarlier():
-'''public boolean isEndDateEarlier()
-'''
-pass
+    '''    public boolean isEndDateEarlier()
+    '''
 def findAvailableTime():
-'''public double findAvailableTime(final Date shiftStart, final Date shiftEnd, final Date crewDate)
-'''
-pass
+    '''    public double findAvailableTime(final Date shiftStart, final Date shiftEnd, final Date crewDate)
+    '''
 def setCreatedBySplit():
-'''public void setCreatedBySplit(final boolean cbs)
-'''
-pass
+    '''    public void setCreatedBySplit(final boolean cbs)
+    '''
 def getCreatedBySplit():
-'''public boolean getCreatedBySplit()
-'''
-pass
+    '''    public boolean getCreatedBySplit()
+    '''
 def getHasCrewPrompt():
-'''public boolean getHasCrewPrompt()
-'''
-pass
+    '''    public boolean getHasCrewPrompt()
+    '''
 def setHasCrewPrompt():
-'''public void setHasCrewPrompt(final boolean prompt)
-'''
-pass
+    '''    public void setHasCrewPrompt(final boolean prompt)
+    '''

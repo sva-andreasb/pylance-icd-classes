@@ -1,4 +1,3 @@
 def RefChildASet():
-'''public RefChildASet(final MboServerInterface mboServerInterface0)
-'''
-pass
+    '''    public RefChildASet(final MboServerInterface mboServerInterface0)
+    '''

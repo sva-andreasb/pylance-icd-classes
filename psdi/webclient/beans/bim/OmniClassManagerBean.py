@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def refreshLogs():
-'''public int refreshLogs()
-'''
-pass
+    '''    public int refreshLogs()
+    '''

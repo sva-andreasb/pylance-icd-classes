@@ -1,42 +1,32 @@
 def ManagementSoftwareSystem():
-'''public ManagementSoftwareSystem(final String mssName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
-public ManagementSoftwareSystem(final String hostName, final String manufacturerName, final String productName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
-public ManagementSoftwareSystem(final String hostName, final String manufacturerName, final String productName, final String subcomponent, final String subcomponentInstanceName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
-'''
-pass
+    '''    public ManagementSoftwareSystem(final String mssName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
+    public ManagementSoftwareSystem(final String hostName, final String manufacturerName, final String productName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
+    public ManagementSoftwareSystem(final String hostName, final String manufacturerName, final String productName, final String subcomponent, final String subcomponentInstanceName, final int cdmVersion, final int cdmRelease, final int cdmModifier)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def getRelease():
-'''public int getRelease()
-'''
-pass
+    '''    public int getRelease()
+    '''
 def getModifier():
-'''public int getModifier()
-'''
-pass
+    '''    public int getModifier()
+    '''
 def getMssName():
-'''public String getMssName()
-'''
-pass
+    '''    public String getMssName()
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def getManufacturerName():
-'''public String getManufacturerName()
-'''
-pass
+    '''    public String getManufacturerName()
+    '''
 def getProductName():
-'''public String getProductName()
-'''
-pass
+    '''    public String getProductName()
+    '''
 def getSubcomponent():
-'''public String getSubcomponent()
-'''
-pass
+    '''    public String getSubcomponent()
+    '''
 def getSubcomponentInstanceName():
-'''public String getSubcomponentInstanceName()
-'''
-pass
+    '''    public String getSubcomponentInstanceName()
+    '''

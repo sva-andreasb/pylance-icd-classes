@@ -1,8 +1,6 @@
 def TopologyMiniAppBean():
-'''public TopologyMiniAppBean()
-'''
-pass
+    '''    public TopologyMiniAppBean()
+    '''
 def async_load_topology():
-'''public int async_load_topology()
-'''
-pass
+    '''    public int async_load_topology()
+    '''

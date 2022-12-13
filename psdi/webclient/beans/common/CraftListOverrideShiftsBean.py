@@ -1,20 +1,15 @@
 def massModifyShifts():
-'''public int massModifyShifts()
-'''
-pass
+    '''    public int massModifyShifts()
+    '''
 def getOverrideShiftsTableName():
-'''public String getOverrideShiftsTableName()
-'''
-pass
+    '''    public String getOverrideShiftsTableName()
+    '''
 def getCraftOverrideTableName():
-'''public String getCraftOverrideTableName()
-'''
-pass
+    '''    public String getCraftOverrideTableName()
+    '''
 def getCrewTypeOverrideTableName():
-'''public String getCrewTypeOverrideTableName()
-'''
-pass
+    '''    public String getCrewTypeOverrideTableName()
+    '''
 def getCraftOverrideAvailTableName():
-'''public String getCraftOverrideAvailTableName()
-'''
-pass
+    '''    public String getCraftOverrideAvailTableName()
+    '''

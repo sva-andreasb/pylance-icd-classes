@@ -1,5 +1,4 @@
 def GuidFormatException():
-'''public GuidFormatException()
-public GuidFormatException(final String msg)
-'''
-pass
+    '''    public GuidFormatException()
+    public GuidFormatException(final String msg)
+    '''

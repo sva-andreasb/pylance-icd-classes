@@ -1,16 +1,12 @@
 def getFlavorId():
-'''public String getFlavorId()
-'''
-pass
+    '''    public String getFlavorId()
+    '''
 def setFlavorId():
-'''public void setFlavorId(final String flavorId)
-'''
-pass
+    '''    public void setFlavorId(final String flavorId)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''

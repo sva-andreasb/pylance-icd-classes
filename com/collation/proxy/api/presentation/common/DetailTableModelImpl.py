@@ -1,49 +1,37 @@
 def getTableContent():
-'''public TableContent getTableContent()
-'''
-pass
+    '''    public TableContent getTableContent()
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def isListTableModel():
-'''public boolean isListTableModel()
-'''
-pass
+    '''    public boolean isListTableModel()
+    '''
 def DetailTableModelImpl():
-'''public DetailTableModelImpl(final Map detailData, final Guid id, final TableContent tableContent, final long version, final String displayName)
-public DetailTableModelImpl(final List detailData, final Guid id, final TableContent tableContent, final String displayName)
-'''
-pass
+    '''    public DetailTableModelImpl(final Map detailData, final Guid id, final TableContent tableContent, final long version, final String displayName)
+    public DetailTableModelImpl(final List detailData, final Guid id, final TableContent tableContent, final String displayName)
+    '''
 def getRowCount():
-'''public int getRowCount()
-'''
-pass
+    '''    public int getRowCount()
+    '''
 def getColumnCount():
-'''public int getColumnCount()
-'''
-pass
+    '''    public int getColumnCount()
+    '''
 def getValueAt():
-'''public Object getValueAt(final int row, final int column)
-'''
-pass
+    '''    public Object getValueAt(final int row, final int column)
+    '''
 def getRow():
-'''public DetailTableData getRow(final int row)
-'''
-pass
+    '''    public DetailTableData getRow(final int row)
+    '''
 def getColumnName():
-'''public String getColumnName(final int col)
-'''
-pass
+    '''    public String getColumnName(final int col)
+    '''
 def sort():
-'''public void sort(final int column, final boolean ascending)
-'''
-pass
+    '''    public void sort(final int column, final boolean ascending)
+    '''
 def DetailDataComparator():
-'''public DetailDataComparator(final int col, final boolean ascending)
-'''
-pass
+    '''    public DetailDataComparator(final int col, final boolean ascending)
+    '''
 def compare():
-'''public int compare(final Object o1, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o1, final Object o2)
+    '''

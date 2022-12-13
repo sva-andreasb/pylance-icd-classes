@@ -1,4 +1,3 @@
 def DMPkgDefStrucNodeMap():
-'''public DMPkgDefStrucNodeMap()
-'''
-pass
+    '''    public DMPkgDefStrucNodeMap()
+    '''

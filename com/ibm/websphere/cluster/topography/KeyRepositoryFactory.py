@@ -1,8 +1,6 @@
 def getInstance():
-'''public static KeyRepositoryFactory getInstance()
-'''
-pass
+    '''    public static KeyRepositoryFactory getInstance()
+    '''
 def getKeyRepository():
-'''public KeyRepository getKeyRepository()
-'''
-pass
+    '''    public KeyRepository getKeyRepository()
+    '''

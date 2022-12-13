@@ -1,8 +1,6 @@
 def PlusPFldRouteStopLocation():
-'''public PlusPFldRouteStopLocation(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldRouteStopLocation(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

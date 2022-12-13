@@ -1,16 +1,12 @@
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def taskstatus():
-'''public int taskstatus()
-'''
-pass
+    '''    public int taskstatus()
+    '''
 def insert():
-'''public void insert(final int nRow)
-'''
-pass
+    '''    public void insert(final int nRow)
+    '''
 def insertAtEnd():
-'''public synchronized void insertAtEnd()
-'''
-pass
+    '''    public synchronized void insertAtEnd()
+    '''

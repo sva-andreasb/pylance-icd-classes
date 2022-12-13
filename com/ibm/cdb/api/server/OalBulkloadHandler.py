@@ -1,20 +1,15 @@
 def startBulkload():
-'''public long startBulkload(final long timeout)
-'''
-pass
+    '''    public long startBulkload(final long timeout)
+    '''
 def endBulkload():
-'''public void endBulkload(final long bulkloadId)
-'''
-pass
+    '''    public void endBulkload(final long bulkloadId)
+    '''
 def handleTopobuilderDone():
-'''public void handleTopobuilderDone()
-'''
-pass
+    '''    public void handleTopobuilderDone()
+    '''
 def handleChangeManagerDone():
-'''public void handleChangeManagerDone()
-'''
-pass
+    '''    public void handleChangeManagerDone()
+    '''
 def refreshTimer():
-'''public void refreshTimer(final long bulkloadId)
-'''
-pass
+    '''    public void refreshTimer(final long bulkloadId)
+    '''

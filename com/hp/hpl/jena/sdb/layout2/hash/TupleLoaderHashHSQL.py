@@ -1,20 +1,15 @@
 def TupleLoaderHashHSQL():
-'''public TupleLoaderHashHSQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
-'''
-pass
+    '''    public TupleLoaderHashHSQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''
 def getNodeColTypes():
-'''public String[] getNodeColTypes()
-'''
-pass
+    '''    public String[] getNodeColTypes()
+    '''
 def getTupleColType():
-'''public String getTupleColType()
-'''
-pass
+    '''    public String getTupleColType()
+    '''
 def getCreateTempTable():
-'''public String[] getCreateTempTable()
-'''
-pass
+    '''    public String[] getCreateTempTable()
+    '''
 def clearsOnCommit():
-'''public boolean clearsOnCommit()
-'''
-pass
+    '''    public boolean clearsOnCommit()
+    '''

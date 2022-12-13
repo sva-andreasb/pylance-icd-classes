@@ -1,12 +1,9 @@
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def instance():
-'''public static CoarseCachedClock instance()
-'''
-pass
+    '''    public static CoarseCachedClock instance()
+    '''
 def currentTimeMillis():
-'''public long currentTimeMillis()
-'''
-pass
+    '''    public long currentTimeMillis()
+    '''

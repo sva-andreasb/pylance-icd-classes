@@ -1,4 +1,3 @@
 def PmComRelatedExternalSet():
-'''public PmComRelatedExternalSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmComRelatedExternalSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def insertAtEnd():
-'''public synchronized void insertAtEnd()
-'''
-pass
+    '''    public synchronized void insertAtEnd()
+    '''
 def docancel():
-'''public int docancel()
-'''
-pass
+    '''    public int docancel()
+    '''

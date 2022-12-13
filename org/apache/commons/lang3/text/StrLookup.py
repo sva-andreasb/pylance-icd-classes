@@ -1,12 +1,9 @@
 def systemPropertiesLookup():
-'''public static StrLookup<String> systemPropertiesLookup()
-'''
-pass
+    '''    public static StrLookup<String> systemPropertiesLookup()
+    '''
 def mapLookup():
-'''public static <V> StrLookup<V> mapLookup(final Map<String, V> map)
-'''
-pass
+    '''    public static <V> StrLookup<V> mapLookup(final Map<String, V> map)
+    '''
 def lookup():
-'''public String lookup(final String key)
-'''
-pass
+    '''    public String lookup(final String key)
+    '''

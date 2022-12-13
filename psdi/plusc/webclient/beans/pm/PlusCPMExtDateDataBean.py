@@ -1,12 +1,9 @@
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getPMMbo():
-'''public PMRemote getPMMbo()
-'''
-pass
+    '''    public PMRemote getPMMbo()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

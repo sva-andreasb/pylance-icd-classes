@@ -1,12 +1,9 @@
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''
 def itemavail():
-'''public int itemavail()
-'''
-pass
+    '''    public int itemavail()
+    '''
 def addfromfav():
-'''public int addfromfav()
-'''
-pass
+    '''    public int addfromfav()
+    '''

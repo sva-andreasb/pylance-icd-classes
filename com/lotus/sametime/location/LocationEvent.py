@@ -8,22 +8,18 @@ LOCATION_SERVICE_AVAILABLE = "int  102"
 LOCATION_CHANGED = "int  300"
 LOCATION_REMOVED = "int  301"
 def LocationEvent():
-'''public LocationEvent(final Object o, final int n)
-public LocationEvent(final Object o, final int n, final Location location)
-public LocationEvent(final Object o, final int n, final Location location, final STUser stUser)
-public LocationEvent(final Object o, final int n, final STUser stUser)
-public LocationEvent(final Object o, final int n, final int reason)
-'''
-pass
+    '''    public LocationEvent(final Object o, final int n)
+    public LocationEvent(final Object o, final int n, final Location location)
+    public LocationEvent(final Object o, final int n, final Location location, final STUser stUser)
+    public LocationEvent(final Object o, final int n, final STUser stUser)
+    public LocationEvent(final Object o, final int n, final int reason)
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def getReason():
-'''public int getReason()
-'''
-pass
+    '''    public int getReason()
+    '''
 def getSTUser():
-'''public STUser getSTUser()
-'''
-pass
+    '''    public STUser getSTUser()
+    '''

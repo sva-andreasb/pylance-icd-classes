@@ -1,8 +1,6 @@
 def TAMITCustomer():
-'''public TAMITCustomer(final MboSet ms)
-'''
-pass
+    '''    public TAMITCustomer(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

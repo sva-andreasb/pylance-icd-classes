@@ -1,24 +1,18 @@
 def ActivityDebugDialog():
-'''public ActivityDebugDialog(final Frame owner, final IlvHierarchyChart chart, final IlvActivity act)
-'''
-pass
+    '''    public ActivityDebugDialog(final Frame owner, final IlvHierarchyChart chart, final IlvActivity act)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def dumpDebegInfoForContaints():
-'''public void dumpDebegInfoForContaints(final String msg, final Iterator<IlvConstraint> iter)
-'''
-pass
+    '''    public void dumpDebegInfoForContaints(final String msg, final Iterator<IlvConstraint> iter)
+    '''
 def dumpDebugInfoForContstraint():
-'''public void dumpDebugInfoForContstraint(final IlvConstraint c)
-'''
-pass
+    '''    public void dumpDebugInfoForContstraint(final IlvConstraint c)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''
 def compare():
-'''public int compare(final String s1, final String s2)
-'''
-pass
+    '''    public int compare(final String s1, final String s2)
+    '''

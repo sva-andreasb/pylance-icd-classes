@@ -1,4 +1,3 @@
 def StoreSimpleSQLServer():
-'''public StoreSimpleSQLServer(final SDBConnection connection, final StoreDesc desc)
-'''
-pass
+    '''    public StoreSimpleSQLServer(final SDBConnection connection, final StoreDesc desc)
+    '''

@@ -1,41 +1,31 @@
 def RfcBindRequest():
-'''public RfcBindRequest(final ASN1Integer asn1Integer, final RfcLDAPDN rfcLDAPDN, final RfcAuthenticationChoice rfcAuthenticationChoice)
-public RfcBindRequest(final int n, final String s, final String s2, final byte[] array)
-'''
-pass
+    '''    public RfcBindRequest(final ASN1Integer asn1Integer, final RfcLDAPDN rfcLDAPDN, final RfcAuthenticationChoice rfcAuthenticationChoice)
+    public RfcBindRequest(final int n, final String s, final String s2, final byte[] array)
+    '''
 def setVersion():
-'''public final void setVersion(final ASN1Integer asn1Integer)
-'''
-pass
+    '''    public final void setVersion(final ASN1Integer asn1Integer)
+    '''
 def setName():
-'''public final void setName(final RfcLDAPDN rfcLDAPDN)
-'''
-pass
+    '''    public final void setName(final RfcLDAPDN rfcLDAPDN)
+    '''
 def setAuthenticationChoice():
-'''public final void setAuthenticationChoice(final RfcAuthenticationChoice rfcAuthenticationChoice)
-'''
-pass
+    '''    public final void setAuthenticationChoice(final RfcAuthenticationChoice rfcAuthenticationChoice)
+    '''
 def getVersion():
-'''public final ASN1Integer getVersion()
-'''
-pass
+    '''    public final ASN1Integer getVersion()
+    '''
 def getName():
-'''public final RfcLDAPDN getName()
-'''
-pass
+    '''    public final RfcLDAPDN getName()
+    '''
 def getAuthenticationChoice():
-'''public final RfcAuthenticationChoice getAuthenticationChoice()
-'''
-pass
+    '''    public final RfcAuthenticationChoice getAuthenticationChoice()
+    '''
 def getIdentifier():
-'''public final ASN1Identifier getIdentifier()
-'''
-pass
+    '''    public final ASN1Identifier getIdentifier()
+    '''
 def dupRequest():
-'''public final RfcRequest dupRequest(final String s, final String s2, final boolean b)
-'''
-pass
+    '''    public final RfcRequest dupRequest(final String s, final String s2, final boolean b)
+    '''
 def getRequestDN():
-'''public final String getRequestDN()
-'''
-pass
+    '''    public final String getRequestDN()
+    '''

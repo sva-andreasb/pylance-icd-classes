@@ -1,21 +1,16 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getActions():
-'''public String getActions()
-'''
-pass
+    '''    public String getActions()
+    '''
 def implies():
-'''public boolean implies(final Permission permission)
-'''
-pass
+    '''    public boolean implies(final Permission permission)
+    '''
 def MBeanPermission():
-'''public MBeanPermission(final String name, final String actions)
-public MBeanPermission(final String s, final String s2, final ObjectName objectName, final String actions)
-'''
-pass
+    '''    public MBeanPermission(final String name, final String actions)
+    public MBeanPermission(final String s, final String s2, final ObjectName objectName, final String actions)
+    '''

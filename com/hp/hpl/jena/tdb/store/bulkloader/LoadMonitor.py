@@ -1,44 +1,33 @@
 def LoadMonitor():
-'''public LoadMonitor(final DatasetGraph dsg, final Logger log, final String itemsName, final long dataTickPoint, final long indexTickPoint)
-'''
-pass
+    '''    public LoadMonitor(final DatasetGraph dsg, final Logger log, final String itemsName, final long dataTickPoint, final long indexTickPoint)
+    '''
 def startLoad():
-'''public void startLoad()
-'''
-pass
+    '''    public void startLoad()
+    '''
 def finishLoad():
-'''public void finishLoad()
-'''
-pass
+    '''    public void finishLoad()
+    '''
 def startDataPhase():
-'''public void startDataPhase()
-'''
-pass
+    '''    public void startDataPhase()
+    '''
 def finishDataPhase():
-'''public void finishDataPhase()
-'''
-pass
+    '''    public void finishDataPhase()
+    '''
 def dataItem():
-'''public final void dataItem()
-'''
-pass
+    '''    public final void dataItem()
+    '''
 def startIndexPhase():
-'''public void startIndexPhase()
-'''
-pass
+    '''    public void startIndexPhase()
+    '''
 def finishIndexPhase():
-'''public void finishIndexPhase()
-'''
-pass
+    '''    public void finishIndexPhase()
+    '''
 def startIndex():
-'''public void startIndex(final String label)
-'''
-pass
+    '''    public void startIndex(final String label)
+    '''
 def finishIndex():
-'''public void finishIndex(final String label)
-'''
-pass
+    '''    public void finishIndex(final String label)
+    '''
 def print():
-'''public void print(final String fmt, final Object... args)
-'''
-pass
+    '''    public void print(final String fmt, final Object... args)
+    '''

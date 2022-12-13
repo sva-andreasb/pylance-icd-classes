@@ -1,12 +1,9 @@
 def FldContactContact():
-'''public FldContactContact(final MboValue mbv)
-'''
-pass
+    '''    public FldContactContact(final MboValue mbv)
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

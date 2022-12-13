@@ -1,12 +1,9 @@
 def WhitelistValidator():
-'''public WhitelistValidator(final Set<String> whitelist, final boolean caseSensitive)
-'''
-pass
+    '''    public WhitelistValidator(final Set<String> whitelist, final boolean caseSensitive)
+    '''
 def accept():
-'''public boolean accept(final Node n)
-'''
-pass
+    '''    public boolean accept(final Node n)
+    '''
 def addToWhitelist():
-'''public void addToWhitelist(final Set<String> wlist)
-'''
-pass
+    '''    public void addToWhitelist(final Set<String> wlist)
+    '''

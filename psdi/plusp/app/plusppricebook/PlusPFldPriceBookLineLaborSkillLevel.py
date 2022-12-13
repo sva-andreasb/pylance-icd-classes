@@ -1,8 +1,6 @@
 def PlusPFldPriceBookLineLaborSkillLevel():
-'''public PlusPFldPriceBookLineLaborSkillLevel(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceBookLineLaborSkillLevel(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

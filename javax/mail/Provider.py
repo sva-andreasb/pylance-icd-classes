@@ -1,24 +1,18 @@
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getProtocol():
-'''public String getProtocol()
-'''
-pass
+    '''    public String getProtocol()
+    '''
 def getVendor():
-'''public String getVendor()
-'''
-pass
+    '''    public String getVendor()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''

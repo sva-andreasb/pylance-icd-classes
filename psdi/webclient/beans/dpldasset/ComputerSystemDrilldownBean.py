@@ -1,12 +1,9 @@
 def ComputerSystemDrilldownBean():
-'''public ComputerSystemDrilldownBean()
-'''
-pass
+    '''    public ComputerSystemDrilldownBean()
+    '''
 def getMboValueData():
-'''public MboValueData getMboValueData(final String attribute)
-'''
-pass
+    '''    public MboValueData getMboValueData(final String attribute)
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

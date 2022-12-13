@@ -1,56 +1,42 @@
 def uniqueIndexedCollection():
-'''public static <K, C> IndexedCollection<K, C> uniqueIndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer)
-'''
-pass
+    '''    public static <K, C> IndexedCollection<K, C> uniqueIndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer)
+    '''
 def nonUniqueIndexedCollection():
-'''public static <K, C> IndexedCollection<K, C> nonUniqueIndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer)
-'''
-pass
+    '''    public static <K, C> IndexedCollection<K, C> nonUniqueIndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer)
+    '''
 def IndexedCollection():
-'''public IndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer, final MultiMap<K, C> map, final boolean uniqueIndex)
-'''
-pass
+    '''    public IndexedCollection(final Collection<C> coll, final Transformer<C, K> keyTransformer, final MultiMap<K, C> map, final boolean uniqueIndex)
+    '''
 def add():
-'''public boolean add(final C object)
-'''
-pass
+    '''    public boolean add(final C object)
+    '''
 def addAll():
-'''public boolean addAll(final Collection<? extends C> coll)
-'''
-pass
+    '''    public boolean addAll(final Collection<? extends C> coll)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def contains():
-'''public boolean contains(final Object object)
-'''
-pass
+    '''    public boolean contains(final Object object)
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean containsAll(final Collection<?> coll)
+    '''
 def get():
-'''public C get(final K key)
-'''
-pass
+    '''    public C get(final K key)
+    '''
 def values():
-'''public Collection<C> values(final K key)
-'''
-pass
+    '''    public Collection<C> values(final K key)
+    '''
 def reindex():
-'''public void reindex()
-'''
-pass
+    '''    public void reindex()
+    '''
 def remove():
-'''public boolean remove(final Object object)
-'''
-pass
+    '''    public boolean remove(final Object object)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean removeAll(final Collection<?> coll)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean retainAll(final Collection<?> coll)
+    '''

@@ -1,12 +1,9 @@
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def HTMLHeadingElementImpl():
-'''public HTMLHeadingElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLHeadingElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

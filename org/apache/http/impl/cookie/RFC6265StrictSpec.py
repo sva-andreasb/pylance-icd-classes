@@ -1,8 +1,6 @@
 def RFC6265StrictSpec():
-'''public RFC6265StrictSpec()
-'''
-pass
+    '''    public RFC6265StrictSpec()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

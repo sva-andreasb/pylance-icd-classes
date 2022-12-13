@@ -1,40 +1,30 @@
 def FldNewSpecValue():
-'''public FldNewSpecValue(final MboValue mbv)
-'''
-pass
+    '''    public FldNewSpecValue(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def getTableDomainObject():
-'''public MboRemote getTableDomainObject(final MboRemote atMbo)
-'''
-pass
+    '''    public MboRemote getTableDomainObject(final MboRemote atMbo)
+    '''
 def getFirstTableAttribute():
-'''public String getFirstTableAttribute(final MboRemote atMbo)
-'''
-pass
+    '''    public String getFirstTableAttribute(final MboRemote atMbo)
+    '''
 def removeZeroes():
-'''public String removeZeroes(final String val)
-'''
-pass
+    '''    public String removeZeroes(final String val)
+    '''

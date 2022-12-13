@@ -1,8 +1,6 @@
 def FldSLASLAType():
-'''public FldSLASLAType(final MboValue mbv)
-'''
-pass
+    '''    public FldSLASLAType(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

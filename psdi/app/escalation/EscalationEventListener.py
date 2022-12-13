@@ -1,12 +1,9 @@
 def checkDeleteNotifications():
-'''public static void checkDeleteNotifications(final Mbo mbo)
-'''
-pass
+    '''    public static void checkDeleteNotifications(final Mbo mbo)
+    '''
 def canDeactivateCommTmplt():
-'''public static void canDeactivateCommTmplt(final Mbo commTmplt)
-'''
-pass
+    '''    public static void canDeactivateCommTmplt(final Mbo commTmplt)
+    '''
 def checkDeleteAction():
-'''public static void checkDeleteAction(final Mbo mbo)
-'''
-pass
+    '''    public static void checkDeleteAction(final Mbo mbo)
+    '''

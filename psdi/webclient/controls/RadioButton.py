@@ -1,8 +1,6 @@
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def getRadioComponentId():
-'''public String getRadioComponentId()
-'''
-pass
+    '''    public String getRadioComponentId()
+    '''

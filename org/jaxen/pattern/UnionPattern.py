@@ -1,49 +1,37 @@
 def UnionPattern():
-'''public UnionPattern()
-public UnionPattern(final Pattern lhs, final Pattern rhs)
-'''
-pass
+    '''    public UnionPattern()
+    public UnionPattern(final Pattern lhs, final Pattern rhs)
+    '''
 def getLHS():
-'''public Pattern getLHS()
-'''
-pass
+    '''    public Pattern getLHS()
+    '''
 def setLHS():
-'''public void setLHS(final Pattern lhs)
-'''
-pass
+    '''    public void setLHS(final Pattern lhs)
+    '''
 def getRHS():
-'''public Pattern getRHS()
-'''
-pass
+    '''    public Pattern getRHS()
+    '''
 def setRHS():
-'''public void setRHS(final Pattern rhs)
-'''
-pass
+    '''    public void setRHS(final Pattern rhs)
+    '''
 def matches():
-'''public boolean matches(final Object node, final Context context)
-'''
-pass
+    '''    public boolean matches(final Object node, final Context context)
+    '''
 def getUnionPatterns():
-'''public Pattern[] getUnionPatterns()
-'''
-pass
+    '''    public Pattern[] getUnionPatterns()
+    '''
 def getMatchType():
-'''public short getMatchType()
-'''
-pass
+    '''    public short getMatchType()
+    '''
 def getMatchesNodeName():
-'''public String getMatchesNodeName()
-'''
-pass
+    '''    public String getMatchesNodeName()
+    '''
 def simplify():
-'''public Pattern simplify()
-'''
-pass
+    '''    public Pattern simplify()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

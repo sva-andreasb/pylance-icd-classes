@@ -1,24 +1,18 @@
 def WorkPeriod():
-'''public WorkPeriod(final MboSet ms)
-'''
-pass
+    '''    public WorkPeriod(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def applyShiftPatternDay():
-'''public void applyShiftPatternDay(final ShiftPatternDay patternDay, final Date workDate, final String calNum)
-'''
-pass
+    '''    public void applyShiftPatternDay(final ShiftPatternDay patternDay, final Date workDate, final String calNum)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

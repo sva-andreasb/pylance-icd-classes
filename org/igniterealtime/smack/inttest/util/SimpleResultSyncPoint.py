@@ -1,9 +1,7 @@
 def signal():
-'''public void signal()
-'''
-pass
+    '''    public void signal()
+    '''
 def signalFailure():
-'''public void signalFailure()
-public void signalFailure(final String failureMessage)
-'''
-pass
+    '''    public void signalFailure()
+    public void signalFailure(final String failureMessage)
+    '''

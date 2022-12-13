@@ -1,4 +1,3 @@
 def getWSDLParser():
-'''public static WSDLParser getWSDLParser()
-'''
-pass
+    '''    public static WSDLParser getWSDLParser()
+    '''

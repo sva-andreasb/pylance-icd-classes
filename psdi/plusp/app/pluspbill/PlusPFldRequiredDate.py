@@ -1,9 +1,7 @@
 def PlusPFldRequiredDate():
-'''public PlusPFldRequiredDate()
-public PlusPFldRequiredDate(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldRequiredDate()
+    public PlusPFldRequiredDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

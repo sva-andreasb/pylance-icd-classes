@@ -1,60 +1,46 @@
-CATEGORY = "String  Core""
+CATEGORY = "String  \"Core\""
 def Node():
-'''public Node(final Node parent, final String name, final PluginType<?> type)
-public Node()
-public Node(final Node node)
-'''
-pass
+    '''    public Node(final Node parent, final String name, final PluginType<?> type)
+    public Node()
+    public Node(final Node node)
+    '''
 def setParent():
-'''public void setParent(final Node parent)
-'''
-pass
+    '''    public void setParent(final Node parent)
+    '''
 def getAttributes():
-'''public Map<String, String> getAttributes()
-'''
-pass
+    '''    public Map<String, String> getAttributes()
+    '''
 def getChildren():
-'''public List<Node> getChildren()
-'''
-pass
+    '''    public List<Node> getChildren()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getParent():
-'''public Node getParent()
-'''
-pass
+    '''    public Node getParent()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isRoot():
-'''public boolean isRoot()
-'''
-pass
+    '''    public boolean isRoot()
+    '''
 def setObject():
-'''public void setObject(final Object obj)
-'''
-pass
+    '''    public void setObject(final Object obj)
+    '''
 def getObject():
-'''public <T> T getObject()
-public <T> T getObject(final Class<T> clazz)
-'''
-pass
+    '''    public <T> T getObject()
+    public <T> T getObject(final Class<T> clazz)
+    '''
 def isInstanceOf():
-'''public boolean isInstanceOf(final Class<?> clazz)
-'''
-pass
+    '''    public boolean isInstanceOf(final Class<?> clazz)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

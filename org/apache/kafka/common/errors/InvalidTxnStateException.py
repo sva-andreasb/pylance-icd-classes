@@ -1,4 +1,3 @@
 def InvalidTxnStateException():
-'''public InvalidTxnStateException(final String message)
-'''
-pass
+    '''    public InvalidTxnStateException(final String message)
+    '''

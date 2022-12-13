@@ -1,13 +1,10 @@
 def Proxy():
-'''public Proxy()
-public Proxy(final String path)
-'''
-pass
+    '''    public Proxy()
+    public Proxy(final String path)
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def setPath():
-'''public void setPath(final String path)
-'''
-pass
+    '''    public void setPath(final String path)
+    '''

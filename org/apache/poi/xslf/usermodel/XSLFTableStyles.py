@@ -1,17 +1,13 @@
 def XSLFTableStyles():
-'''public XSLFTableStyles()
-public XSLFTableStyles(final PackagePart part)
-'''
-pass
+    '''    public XSLFTableStyles()
+    public XSLFTableStyles(final PackagePart part)
+    '''
 def getXmlObject():
-'''public CTTableStyleList getXmlObject()
-'''
-pass
+    '''    public CTTableStyleList getXmlObject()
+    '''
 def iterator():
-'''public Iterator<XSLFTableStyle> iterator()
-'''
-pass
+    '''    public Iterator<XSLFTableStyle> iterator()
+    '''
 def getStyles():
-'''public List<XSLFTableStyle> getStyles()
-'''
-pass
+    '''    public List<XSLFTableStyle> getStyles()
+    '''

@@ -2,95 +2,74 @@ FAIL = "int  0"
 REPORT = "int  1"
 IGNORE = "int  2"
 FAIL_ALL = "int  3"
-POLICY_FAIL = "String  fail""
-POLICY_REPORT = "String  report""
-POLICY_IGNORE = "String  ignore""
-POLICY_FAILALL = "String  failall""
+POLICY_FAIL = "String  \"fail\""
+POLICY_REPORT = "String  \"report\""
+POLICY_IGNORE = "String  \"ignore\""
+POLICY_FAILALL = "String  \"failall\""
 PROPERTIES = "int  0"
 XML = "int  1"
 def Definer():
-'''public Definer()
-'''
-pass
+    '''    public Definer()
+    '''
 def setOnError():
-'''public void setOnError(final OnError onError)
-'''
-pass
+    '''    public void setOnError(final OnError onError)
+    '''
 def setFormat():
-'''public void setFormat(final Format format)
-'''
-pass
+    '''    public void setFormat(final Format format)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def makeResourceFromURI():
-'''public static String makeResourceFromURI(final String uri)
-'''
-pass
+    '''    public static String makeResourceFromURI(final String uri)
+    '''
 def setFile():
-'''public void setFile(final File file)
-'''
-pass
+    '''    public void setFile(final File file)
+    '''
 def setResource():
-'''public void setResource(final String res)
-'''
-pass
+    '''    public void setResource(final String res)
+    '''
 def setAntlib():
-'''public void setAntlib(final String antlib)
-'''
-pass
+    '''    public void setAntlib(final String antlib)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getClassname():
-'''public String getClassname()
-'''
-pass
+    '''    public String getClassname()
+    '''
 def setClassname():
-'''public void setClassname(final String classname)
-'''
-pass
+    '''    public void setClassname(final String classname)
+    '''
 def setAdapter():
-'''public void setAdapter(final String adapter)
-'''
-pass
+    '''    public void setAdapter(final String adapter)
+    '''
 def setAdaptTo():
-'''public void setAdaptTo(final String adaptTo)
-'''
-pass
+    '''    public void setAdaptTo(final String adaptTo)
+    '''
 def initialValue():
-'''public Object initialValue()
-'''
-pass
+    '''    public Object initialValue()
+    '''
 def OnError():
-'''public OnError()
-public OnError(final String value)
-'''
-pass
+    '''    public OnError()
+    public OnError(final String value)
+    '''
 def getValues():
-'''public String[] getValues()
-public String[] getValues()
-'''
-pass
+    '''    public String[] getValues()
+    public String[] getValues()
+    '''

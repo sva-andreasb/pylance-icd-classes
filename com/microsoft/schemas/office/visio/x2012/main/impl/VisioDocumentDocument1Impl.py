@@ -1,16 +1,12 @@
 def VisioDocumentDocument1Impl():
-'''public VisioDocumentDocument1Impl(final SchemaType schemaType)
-'''
-pass
+    '''    public VisioDocumentDocument1Impl(final SchemaType schemaType)
+    '''
 def getVisioDocument():
-'''public VisioDocumentType getVisioDocument()
-'''
-pass
+    '''    public VisioDocumentType getVisioDocument()
+    '''
 def setVisioDocument():
-'''public void setVisioDocument(final VisioDocumentType visioDocumentType)
-'''
-pass
+    '''    public void setVisioDocument(final VisioDocumentType visioDocumentType)
+    '''
 def addNewVisioDocument():
-'''public VisioDocumentType addNewVisioDocument()
-'''
-pass
+    '''    public VisioDocumentType addNewVisioDocument()
+    '''

@@ -1,12 +1,9 @@
 def RESTORELVCSYMBTEMPLATE():
-'''public int RESTORELVCSYMBTEMPLATE()
-'''
-pass
+    '''    public int RESTORELVCSYMBTEMPLATE()
+    '''
 def VALIDATELVCSYMBOLOGY():
-'''public int VALIDATELVCSYMBOLOGY()
-'''
-pass
+    '''    public int VALIDATELVCSYMBOLOGY()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''

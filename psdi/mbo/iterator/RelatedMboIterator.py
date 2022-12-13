@@ -1,16 +1,12 @@
 def RelatedMboIterator():
-'''public RelatedMboIterator(final MboRemote mbo, final List<MboRelationPath> mrpList)
-'''
-pass
+    '''    public RelatedMboIterator(final MboRemote mbo, final List<MboRelationPath> mrpList)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public MboRemote next()
-'''
-pass
+    '''    public MboRemote next()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

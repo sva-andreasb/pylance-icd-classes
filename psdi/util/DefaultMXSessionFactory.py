@@ -1,8 +1,6 @@
 def getSession():
-'''public MXSession getSession()
-'''
-pass
+    '''    public MXSession getSession()
+    '''
 def getNewSession():
-'''public MXSession getNewSession()
-'''
-pass
+    '''    public MXSession getNewSession()
+    '''

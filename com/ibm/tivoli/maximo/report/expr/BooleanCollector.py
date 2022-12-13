@@ -1,4 +1,3 @@
 def BooleanCollector():
-'''public BooleanCollector()
-'''
-pass
+    '''    public BooleanCollector()
+    '''

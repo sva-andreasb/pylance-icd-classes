@@ -1,8 +1,6 @@
 def JSONResourceTypeSet():
-'''public JSONResourceTypeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONResourceTypeSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

@@ -1,4 +1,3 @@
 def convert():
-'''public static ModelMBeanInfo convert(final Object mBean)
-'''
-pass
+    '''    public static ModelMBeanInfo convert(final Object mBean)
+    '''

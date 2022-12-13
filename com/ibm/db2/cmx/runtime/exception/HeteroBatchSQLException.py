@@ -1,107 +1,81 @@
 def HeteroBatchSQLException():
-'''public HeteroBatchSQLException()
-public HeteroBatchSQLException(final SQLException exceptionContainer_, final int originalOffsetInChain_)
-'''
-pass
+    '''    public HeteroBatchSQLException()
+    public HeteroBatchSQLException(final SQLException exceptionContainer_, final int originalOffsetInChain_)
+    '''
 def getNextException():
-'''public SQLException getNextException()
-'''
-pass
+    '''    public SQLException getNextException()
+    '''
 def getNextHeteroBatchSQLException():
-'''public HeteroBatchSQLException getNextHeteroBatchSQLException()
-'''
-pass
+    '''    public HeteroBatchSQLException getNextHeteroBatchSQLException()
+    '''
 def getOriginalOffsetInChain():
-'''public int getOriginalOffsetInChain()
-'''
-pass
+    '''    public int getOriginalOffsetInChain()
+    '''
 def getUnderlyingSQLException():
-'''public SQLException getUnderlyingSQLException()
-'''
-pass
+    '''    public SQLException getUnderlyingSQLException()
+    '''
 def isRowSpecificSQLException():
-'''public boolean isRowSpecificSQLException()
-'''
-pass
+    '''    public boolean isRowSpecificSQLException()
+    '''
 def implementsDB2Diagnosable():
-'''public boolean implementsDB2Diagnosable()
-'''
-pass
+    '''    public boolean implementsDB2Diagnosable()
+    '''
 def setNextException():
-'''public synchronized void setNextException(final SQLException ex)
-'''
-pass
+    '''    public synchronized void setNextException(final SQLException ex)
+    '''
 def setNextHeteroBatchSQLException():
-'''public synchronized void setNextHeteroBatchSQLException(final HeteroBatchSQLException ex)
-'''
-pass
+    '''    public synchronized void setNextHeteroBatchSQLException(final HeteroBatchSQLException ex)
+    '''
 def getBindDiagnostics():
-'''public DBBindDiagnostics getBindDiagnostics()
-'''
-pass
+    '''    public DBBindDiagnostics getBindDiagnostics()
+    '''
 def getSqlca():
-'''public DB2Sqlca getSqlca()
-'''
-pass
+    '''    public DB2Sqlca getSqlca()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def printTrace():
-'''public void printTrace(final PrintWriter printWriter, final String s)
-'''
-pass
+    '''    public void printTrace(final PrintWriter printWriter, final String s)
+    '''
 def getBatchElementOffset():
-'''public int getBatchElementOffset()
-'''
-pass
+    '''    public int getBatchElementOffset()
+    '''
 def getStmtOffset():
-'''public int getStmtOffset()
-'''
-pass
+    '''    public int getStmtOffset()
+    '''
 def getErrorCode():
-'''public int getErrorCode()
-'''
-pass
+    '''    public int getErrorCode()
+    '''
 def getSQLState():
-'''public String getSQLState()
-'''
-pass
+    '''    public String getSQLState()
+    '''
 def fillInStackTrace():
-'''public Throwable fillInStackTrace()
-'''
-pass
+    '''    public Throwable fillInStackTrace()
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''
 def getLocalizedMessage():
-'''public String getLocalizedMessage()
-'''
-pass
+    '''    public String getLocalizedMessage()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getStackTrace():
-'''public StackTraceElement[] getStackTrace()
-'''
-pass
+    '''    public StackTraceElement[] getStackTrace()
+    '''
 def initCause():
-'''public synchronized Throwable initCause(final Throwable t)
-'''
-pass
+    '''    public synchronized Throwable initCause(final Throwable t)
+    '''
 def printStackTrace():
-'''public void printStackTrace()
-public void printStackTrace(final PrintStream printStream)
-public void printStackTrace(final PrintWriter printWriter)
-'''
-pass
+    '''    public void printStackTrace()
+    public void printStackTrace(final PrintStream printStream)
+    public void printStackTrace(final PrintWriter printWriter)
+    '''
 def setStackTrace():
-'''public void setStackTrace(final StackTraceElement[] array)
-'''
-pass
+    '''    public void setStackTrace(final StackTraceElement[] array)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

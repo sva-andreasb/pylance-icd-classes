@@ -1,40 +1,30 @@
 def Parameter():
-'''public Parameter(final String name, final Class type, final Object value, final String encodingStyleURI)
-'''
-pass
+    '''    public Parameter(final String name, final Class type, final Object value, final String encodingStyleURI)
+    '''
 def getEncodingStyleURI():
-'''public String getEncodingStyleURI()
-'''
-pass
+    '''    public String getEncodingStyleURI()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getType():
-'''public Class getType()
-'''
-pass
+    '''    public Class getType()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setEncodingStyleURI():
-'''public void setEncodingStyleURI(final String encodingStyleURI)
-'''
-pass
+    '''    public void setEncodingStyleURI(final String encodingStyleURI)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def setType():
-'''public void setType(final Class type)
-'''
-pass
+    '''    public void setType(final Class type)
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

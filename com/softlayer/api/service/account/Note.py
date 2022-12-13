@@ -1,185 +1,139 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getCustomer():
-'''public Customer getCustomer()
-'''
-pass
+    '''    public Customer getCustomer()
+    '''
 def setCustomer():
-'''public void setCustomer(final Customer customer)
-'''
-pass
+    '''    public void setCustomer(final Customer customer)
+    '''
 def getNoteHistory():
-'''public List<History> getNoteHistory()
-'''
-pass
+    '''    public List<History> getNoteHistory()
+    '''
 def setNoteType():
-'''public void setNoteType(final com.softlayer.api.service.account.note.Type noteType)
-'''
-pass
+    '''    public void setNoteType(final com.softlayer.api.service.account.note.Type noteType)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNote():
-'''public String getNote()
-'''
-pass
+    '''    public String getNote()
+    '''
 def setNote():
-'''public void setNote(final String note)
-'''
-pass
+    '''    public void setNote(final String note)
+    '''
 def isNoteSpecified():
-'''public boolean isNoteSpecified()
-'''
-pass
+    '''    public boolean isNoteSpecified()
+    '''
 def unsetNote():
-'''public void unsetNote()
-'''
-pass
+    '''    public void unsetNote()
+    '''
 def getNoteTypeId():
-'''public Long getNoteTypeId()
-'''
-pass
+    '''    public Long getNoteTypeId()
+    '''
 def setNoteTypeId():
-'''public void setNoteTypeId(final Long noteTypeId)
-'''
-pass
+    '''    public void setNoteTypeId(final Long noteTypeId)
+    '''
 def isNoteTypeIdSpecified():
-'''public boolean isNoteTypeIdSpecified()
-'''
-pass
+    '''    public boolean isNoteTypeIdSpecified()
+    '''
 def unsetNoteTypeId():
-'''public void unsetNoteTypeId()
-'''
-pass
+    '''    public void unsetNoteTypeId()
+    '''
 def getUserId():
-'''public Long getUserId()
-'''
-pass
+    '''    public Long getUserId()
+    '''
 def setUserId():
-'''public void setUserId(final Long userId)
-'''
-pass
+    '''    public void setUserId(final Long userId)
+    '''
 def isUserIdSpecified():
-'''public boolean isUserIdSpecified()
-'''
-pass
+    '''    public boolean isUserIdSpecified()
+    '''
 def unsetUserId():
-'''public void unsetUserId()
-'''
-pass
+    '''    public void unsetUserId()
+    '''
 def getNoteHistoryCount():
-'''public Long getNoteHistoryCount()
-'''
-pass
+    '''    public Long getNoteHistoryCount()
+    '''
 def setNoteHistoryCount():
-'''public void setNoteHistoryCount(final Long noteHistoryCount)
-'''
-pass
+    '''    public void setNoteHistoryCount(final Long noteHistoryCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def note():
-'''public Mask note()
-'''
-pass
+    '''    public Mask note()
+    '''
 def noteTypeId():
-'''public Mask noteTypeId()
-'''
-pass
+    '''    public Mask noteTypeId()
+    '''
 def userId():
-'''public Mask userId()
-'''
-pass
+    '''    public Mask userId()
+    '''
 def noteHistoryCount():
-'''public Mask noteHistoryCount()
-'''
-pass
+    '''    public Mask noteHistoryCount()
+    '''

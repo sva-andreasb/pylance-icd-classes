@@ -1,4 +1,3 @@
 def PMStatusDummySet():
-'''public PMStatusDummySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PMStatusDummySet(final MboServerInterface ms)
+    '''

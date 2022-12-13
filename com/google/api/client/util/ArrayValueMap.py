@@ -1,13 +1,10 @@
 def ArrayValueMap():
-'''public ArrayValueMap(final Object destination)
-'''
-pass
+    '''    public ArrayValueMap(final Object destination)
+    '''
 def setValues():
-'''public void setValues()
-'''
-pass
+    '''    public void setValues()
+    '''
 def put():
-'''public void put(final Field field, final Class<?> arrayComponentType, final Object value)
-public void put(final String keyName, final Class<?> arrayComponentType, final Object value)
-'''
-pass
+    '''    public void put(final Field field, final Class<?> arrayComponentType, final Object value)
+    public void put(final String keyName, final Class<?> arrayComponentType, final Object value)
+    '''

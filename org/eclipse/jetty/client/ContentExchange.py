@@ -1,21 +1,16 @@
 def ContentExchange():
-'''public ContentExchange()
-public ContentExchange(final boolean cacheFields)
-'''
-pass
+    '''    public ContentExchange()
+    public ContentExchange(final boolean cacheFields)
+    '''
 def getResponseContent():
-'''public synchronized String getResponseContent()
-'''
-pass
+    '''    public synchronized String getResponseContent()
+    '''
 def getResponseContentBytes():
-'''public synchronized byte[] getResponseContentBytes()
-'''
-pass
+    '''    public synchronized byte[] getResponseContentBytes()
+    '''
 def getFileForUpload():
-'''public synchronized File getFileForUpload()
-'''
-pass
+    '''    public synchronized File getFileForUpload()
+    '''
 def setFileForUpload():
-'''public synchronized void setFileForUpload(final File fileForUpload)
-'''
-pass
+    '''    public synchronized void setFileForUpload(final File fileForUpload)
+    '''

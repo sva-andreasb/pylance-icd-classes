@@ -1,95 +1,72 @@
 RECORD_ID = "short  -4090"
-RECORD_DESCRIPTION = "String  MsofbtDgg""
+RECORD_DESCRIPTION = "String  \"MsofbtDgg\""
 def EscherDggRecord():
-'''public EscherDggRecord()
-'''
-pass
+    '''    public EscherDggRecord()
+    '''
 def fillFields():
-'''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
-'''
-pass
+    '''    public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''
 def serialize():
-'''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
-'''
-pass
+    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''
 def getRecordSize():
-'''public int getRecordSize()
-'''
-pass
+    '''    public int getRecordSize()
+    '''
 def getRecordId():
-'''public short getRecordId()
-'''
-pass
+    '''    public short getRecordId()
+    '''
 def getRecordName():
-'''public String getRecordName()
-'''
-pass
+    '''    public String getRecordName()
+    '''
 def getShapeIdMax():
-'''public int getShapeIdMax()
-'''
-pass
+    '''    public int getShapeIdMax()
+    '''
 def setShapeIdMax():
-'''public void setShapeIdMax(final int shapeIdMax)
-'''
-pass
+    '''    public void setShapeIdMax(final int shapeIdMax)
+    '''
 def getNumIdClusters():
-'''public int getNumIdClusters()
-'''
-pass
+    '''    public int getNumIdClusters()
+    '''
 def getNumShapesSaved():
-'''public int getNumShapesSaved()
-'''
-pass
+    '''    public int getNumShapesSaved()
+    '''
 def setNumShapesSaved():
-'''public void setNumShapesSaved(final int numShapesSaved)
-'''
-pass
+    '''    public void setNumShapesSaved(final int numShapesSaved)
+    '''
 def getDrawingsSaved():
-'''public int getDrawingsSaved()
-'''
-pass
+    '''    public int getDrawingsSaved()
+    '''
 def setDrawingsSaved():
-'''public void setDrawingsSaved(final int drawingsSaved)
-'''
-pass
+    '''    public void setDrawingsSaved(final int drawingsSaved)
+    '''
 def getMaxDrawingGroupId():
-'''public int getMaxDrawingGroupId()
-'''
-pass
+    '''    public int getMaxDrawingGroupId()
+    '''
 def getFileIdClusters():
-'''public FileIdCluster[] getFileIdClusters()
-'''
-pass
+    '''    public FileIdCluster[] getFileIdClusters()
+    '''
 def setFileIdClusters():
-'''public void setFileIdClusters(final FileIdCluster[] fileIdClusters)
-'''
-pass
+    '''    public void setFileIdClusters(final FileIdCluster[] fileIdClusters)
+    '''
 def addCluster():
-'''public FileIdCluster addCluster(final int dgId, final int numShapedUsed)
-public FileIdCluster addCluster(final int dgId, final int numShapedUsed, final boolean sort)
-'''
-pass
+    '''    public FileIdCluster addCluster(final int dgId, final int numShapedUsed)
+    public FileIdCluster addCluster(final int dgId, final int numShapedUsed, final boolean sort)
+    '''
 def compare():
-'''public int compare(final FileIdCluster f1, final FileIdCluster f2)
-'''
-pass
+    '''    public int compare(final FileIdCluster f1, final FileIdCluster f2)
+    '''
 def findNewDrawingGroupId():
-'''public short findNewDrawingGroupId()
-'''
-pass
+    '''    public short findNewDrawingGroupId()
+    '''
 def allocateShapeId():
-'''public int allocateShapeId(final EscherDgRecord dg, final boolean sort)
-'''
-pass
+    '''    public int allocateShapeId(final EscherDgRecord dg, final boolean sort)
+    '''
 def FileIdCluster():
-'''public FileIdCluster(final int drawingGroupId, final int numShapeIdsUsed)
-'''
-pass
+    '''    public FileIdCluster(final int drawingGroupId, final int numShapeIdsUsed)
+    '''
 def getDrawingGroupId():
-'''public int getDrawingGroupId()
-'''
-pass
+    '''    public int getDrawingGroupId()
+    '''
 def getNumShapeIdsUsed():
-'''public int getNumShapeIdsUsed()
-'''
-pass
+    '''    public int getNumShapeIdsUsed()
+    '''

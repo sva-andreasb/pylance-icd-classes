@@ -1,24 +1,18 @@
 def getInetAddress():
-'''public InetAddress getInetAddress()
-'''
-pass
+    '''    public InetAddress getInetAddress()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def awaitTermination():
-'''public void awaitTermination(final long timeout, final TimeUnit timeUnit)
-'''
-pass
+    '''    public void awaitTermination(final long timeout, final TimeUnit timeUnit)
+    '''
 def shutdown():
-'''public void shutdown(final long gracePeriod, final TimeUnit timeUnit)
-'''
-pass
+    '''    public void shutdown(final long gracePeriod, final TimeUnit timeUnit)
+    '''

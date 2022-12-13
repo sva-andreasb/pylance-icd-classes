@@ -1,40 +1,30 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def setURL():
-'''public void setURL(final String value)
-'''
-pass
+    '''    public void setURL(final String value)
+    '''
 def getSize():
-'''public BigInteger getSize()
-'''
-pass
+    '''    public BigInteger getSize()
+    '''
 def setSize():
-'''public void setSize(final BigInteger value)
-'''
-pass
+    '''    public void setSize(final BigInteger value)
+    '''
 def getSHA1():
-'''public String getSHA1()
-'''
-pass
+    '''    public String getSHA1()
+    '''
 def setSHA1():
-'''public void setSHA1(final String value)
-'''
-pass
+    '''    public void setSHA1(final String value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''

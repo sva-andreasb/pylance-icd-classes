@@ -1,12 +1,9 @@
 def BuildProperties():
-'''public BuildProperties()
-'''
-pass
+    '''    public BuildProperties()
+    '''
 def create():
-'''public static synchronized BuildProperties create(final String lineSeparator)
-'''
-pass
+    '''    public static synchronized BuildProperties create(final String lineSeparator)
+    '''
 def generate():
-'''public String generate(final Object argument)
-'''
-pass
+    '''    public String generate(final Object argument)
+    '''

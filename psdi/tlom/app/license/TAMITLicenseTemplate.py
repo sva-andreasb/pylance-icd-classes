@@ -1,8 +1,6 @@
 def TAMITLicenseTemplate():
-'''public TAMITLicenseTemplate(final MboSet ms)
-'''
-pass
+    '''    public TAMITLicenseTemplate(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

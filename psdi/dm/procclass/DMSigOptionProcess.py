@@ -1,16 +1,12 @@
 def DMSigOptionProcess():
-'''public DMSigOptionProcess()
-'''
-pass
+    '''    public DMSigOptionProcess()
+    '''
 def delete():
-'''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
-'''
-pass
+    '''    public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''
 def afterReplace():
-'''public void afterReplace(final MboRemote child)
-'''
-pass
+    '''    public void afterReplace(final MboRemote child)
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''

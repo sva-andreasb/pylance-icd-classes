@@ -1,28 +1,21 @@
 def FldDataSetAttributeName():
-'''public FldDataSetAttributeName(final MboValue mbv, final String dsOwner, final String dsObject, final String dsClassStruct, final String dsTitle, final String fldOp, final String fldVal)
-'''
-pass
+    '''    public FldDataSetAttributeName(final MboValue mbv, final String dsOwner, final String dsObject, final String dsClassStruct, final String dsTitle, final String fldOp, final String fldVal)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isUnitOfMeasure():
-'''public boolean isUnitOfMeasure()
-'''
-pass
+    '''    public boolean isUnitOfMeasure()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def setRelationship():
-'''public void setRelationship(final String objectName, final String whereClause)
-'''
-pass
+    '''    public void setRelationship(final String objectName, final String whereClause)
+    '''

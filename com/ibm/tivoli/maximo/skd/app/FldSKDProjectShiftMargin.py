@@ -1,8 +1,6 @@
 def FldSKDProjectShiftMargin():
-'''public FldSKDProjectShiftMargin(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDProjectShiftMargin(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

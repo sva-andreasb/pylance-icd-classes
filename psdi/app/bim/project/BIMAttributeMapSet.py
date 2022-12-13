@@ -1,8 +1,6 @@
 def BIMAttributeMapSet():
-'''public BIMAttributeMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMAttributeMapSet(final MboServerInterface ms)
+    '''
 def getTranslator():
-'''public Translate getTranslator()
-'''
-pass
+    '''    public Translate getTranslator()
+    '''

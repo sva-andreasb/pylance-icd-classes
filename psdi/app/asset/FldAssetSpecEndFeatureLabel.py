@@ -1,4 +1,3 @@
 def FldAssetSpecEndFeatureLabel():
-'''public FldAssetSpecEndFeatureLabel(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetSpecEndFeatureLabel(final MboValue mbv)
+    '''

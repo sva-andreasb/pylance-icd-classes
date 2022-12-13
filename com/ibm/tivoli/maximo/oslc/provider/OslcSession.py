@@ -1,70 +1,53 @@
-OSLCSESSION = "String oslcsession""
+OSLCSESSION = "String  \"oslcsession\""
 def OslcSession():
-'''public OslcSession()
-'''
-pass
+    '''    public OslcSession()
+    '''
 def getCsrfToken():
-'''public String getCsrfToken()
-'''
-pass
+    '''    public String getCsrfToken()
+    '''
 def setCsrfToken():
-'''public void setCsrfToken()
-public void setCsrfToken(final String csrfToken)
-'''
-pass
+    '''    public void setCsrfToken()
+    public void setCsrfToken(final String csrfToken)
+    '''
 def getMXToken():
-'''public String getMXToken()
-'''
-pass
+    '''    public String getMXToken()
+    '''
 def setMXSession():
-'''public void setMXSession(final MXSession mxSession)
-'''
-pass
+    '''    public void setMXSession(final MXSession mxSession)
+    '''
 def isLeanJSON():
-'''public boolean isLeanJSON()
-'''
-pass
+    '''    public boolean isLeanJSON()
+    '''
 def setLeanJSON():
-'''public void setLeanJSON(final boolean leanJSON)
-'''
-pass
+    '''    public void setLeanJSON(final boolean leanJSON)
+    '''
 def setRelativeURI():
-'''public void setRelativeURI(final boolean relativeURI)
-'''
-pass
+    '''    public void setRelativeURI(final boolean relativeURI)
+    '''
 def isRelativeURI():
-'''public boolean isRelativeURI()
-'''
-pass
+    '''    public boolean isRelativeURI()
+    '''
 def setPublicURI():
-'''public void setPublicURI(final String publicURI)
-'''
-pass
+    '''    public void setPublicURI(final String publicURI)
+    '''
 def getPublicURI():
-'''public String getPublicURI()
-'''
-pass
+    '''    public String getPublicURI()
+    '''
 def getMbosInSession():
-'''public Map<String, MboRemote> getMbosInSession()
-'''
-pass
+    '''    public Map<String, MboRemote> getMbosInSession()
+    '''
 def addStableId():
-'''public void addStableId(final String stableId)
-'''
-pass
+    '''    public void addStableId(final String stableId)
+    '''
 def bindMbo():
-'''public String bindMbo(final String osName, final MboRemote mbo)
-'''
-pass
+    '''    public String bindMbo(final String osName, final MboRemote mbo)
+    '''
 def unbindMbo():
-'''public MboRemote unbindMbo(final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote unbindMbo(final MboRemote mbo)
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def getBoundMbo():
-'''public MboRemote getBoundMbo(final String esid)
-'''
-pass
+    '''    public MboRemote getBoundMbo(final String esid)
+    '''

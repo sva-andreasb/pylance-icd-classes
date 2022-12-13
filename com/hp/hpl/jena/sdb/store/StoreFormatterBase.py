@@ -1,8 +1,6 @@
 def StoreFormatterBase():
-'''public StoreFormatterBase(final SDBConnection connection)
-'''
-pass
+    '''    public StoreFormatterBase(final SDBConnection connection)
+    '''
 def create():
-'''public final void create()
-'''
-pass
+    '''    public final void create()
+    '''

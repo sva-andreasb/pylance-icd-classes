@@ -1,29 +1,22 @@
 def getInstanceUTC():
-'''public static ISOChronology getInstanceUTC()
-'''
-pass
+    '''    public static ISOChronology getInstanceUTC()
+    '''
 def getInstance():
-'''public static ISOChronology getInstance()
-public static ISOChronology getInstance(DateTimeZone default1)
-'''
-pass
+    '''    public static ISOChronology getInstance()
+    public static ISOChronology getInstance(DateTimeZone default1)
+    '''
 def withUTC():
-'''public Chronology withUTC()
-'''
-pass
+    '''    public Chronology withUTC()
+    '''
 def withZone():
-'''public Chronology withZone(DateTimeZone default1)
-'''
-pass
+    '''    public Chronology withZone(DateTimeZone default1)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

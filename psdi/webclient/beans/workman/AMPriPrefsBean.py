@@ -1,12 +1,9 @@
 def getPriCalcBean():
-'''public DataBean getPriCalcBean()
-'''
-pass
+    '''    public DataBean getPriCalcBean()
+    '''
 def getWorkPriorityBean():
-'''public DataBean getWorkPriorityBean()
-'''
-pass
+    '''    public DataBean getWorkPriorityBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

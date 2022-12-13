@@ -1,28 +1,22 @@
-ELEMENT = "String  span""
-emphasis = "String  emphasis""
-code = "String  code""
-deleted = "String  deleted""
+ELEMENT = "String  \"span\""
+emphasis = "String  \"emphasis\""
+code = "String  \"code\""
+deleted = "String  \"deleted\""
 def SpanElement():
-'''public SpanElement(final int start, final int end, final Set<SpanStyle> styles)
-'''
-pass
+    '''    public SpanElement(final int start, final int end, final Set<SpanStyle> styles)
+    '''
 def getStart():
-'''public int getStart()
-'''
-pass
+    '''    public int getStart()
+    '''
 def getEnd():
-'''public int getEnd()
-'''
-pass
+    '''    public int getEnd()
+    '''
 def getStyles():
-'''public Set<SpanStyle> getStyles()
-'''
-pass
+    '''    public Set<SpanStyle> getStyles()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

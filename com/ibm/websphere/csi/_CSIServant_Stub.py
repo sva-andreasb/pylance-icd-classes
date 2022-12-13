@@ -1,8 +1,6 @@
 def _ids():
-'''public String[] _ids()
-'''
-pass
+    '''    public String[] _ids()
+    '''
 def wlmable():
-'''public boolean wlmable()
-'''
-pass
+    '''    public boolean wlmable()
+    '''

@@ -1,8 +1,6 @@
 def FldVulRange():
-'''public FldVulRange(final MboValue mbv)
-'''
-pass
+    '''    public FldVulRange(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

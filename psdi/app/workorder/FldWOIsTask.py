@@ -1,8 +1,6 @@
 def FldWOIsTask():
-'''public FldWOIsTask(final MboValue mbv)
-'''
-pass
+    '''    public FldWOIsTask(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

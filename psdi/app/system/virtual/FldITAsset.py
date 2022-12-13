@@ -1,4 +1,3 @@
 def FldITAsset():
-'''public FldITAsset(final MboValue mbv)
-'''
-pass
+    '''    public FldITAsset(final MboValue mbv)
+    '''

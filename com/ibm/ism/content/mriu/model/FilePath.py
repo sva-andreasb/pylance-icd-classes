@@ -1,64 +1,48 @@
 def FilePath():
-'''public FilePath()
-'''
-pass
+    '''    public FilePath()
+    '''
 def getPathURI():
-'''public URI getPathURI()
-'''
-pass
+    '''    public URI getPathURI()
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def setPath():
-'''public void setPath(final String path)
-'''
-pass
+    '''    public void setPath(final String path)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isSelected():
-'''public boolean isSelected()
-'''
-pass
+    '''    public boolean isSelected()
+    '''
 def setSelected():
-'''public void setSelected(final boolean isSelected)
-'''
-pass
+    '''    public void setSelected(final boolean isSelected)
+    '''
 def setPathURI():
-'''public void setPathURI(final URI uri)
-'''
-pass
+    '''    public void setPathURI(final URI uri)
+    '''
 def getFileContents():
-'''public String getFileContents()
-'''
-pass
+    '''    public String getFileContents()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def convertStreamToString():
-'''public String convertStreamToString(final InputStream is)
-'''
-pass
+    '''    public String convertStreamToString(final InputStream is)
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean required)
-'''
-pass
+    '''    public void setRequired(final boolean required)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''

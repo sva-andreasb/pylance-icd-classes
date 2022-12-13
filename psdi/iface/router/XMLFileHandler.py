@@ -1,18 +1,14 @@
-PRETTYPRINT = "String  PRETTYPRINT""
+PRETTYPRINT = "String  \"PRETTYPRINT\""
 def XMLFileHandler():
-'''public XMLFileHandler(final MaxEndPointInfo endPointInfo)
-public XMLFileHandler()
-'''
-pass
+    '''    public XMLFileHandler(final MaxEndPointInfo endPointInfo)
+    public XMLFileHandler()
+    '''
 def getDefaultFileExtension():
-'''public String getDefaultFileExtension()
-'''
-pass
+    '''    public String getDefaultFileExtension()
+    '''
 def invoke():
-'''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
-'''
-pass
+    '''    public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''
 def getProperties():
-'''public List<RouterPropsInfo> getProperties()
-'''
-pass
+    '''    public List<RouterPropsInfo> getProperties()
+    '''

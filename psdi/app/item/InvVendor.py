@@ -1,44 +1,33 @@
 def InvVendor():
-'''public InvVendor(final MboSet ms)
-'''
-pass
+    '''    public InvVendor(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def updateLastCost():
-'''public void updateLastCost(final double unitcost, final Date lastdate)
-'''
-pass
+    '''    public void updateLastCost(final double unitcost, final Date lastdate)
+    '''
 def getLastCost():
-'''public double getLastCost()
-'''
-pass
+    '''    public double getLastCost()
+    '''
 def getInventorySet():
-'''public InventorySetRemote getInventorySet()
-'''
-pass
+    '''    public InventorySetRemote getInventorySet()
+    '''
 def validateDefaultVendor():
-'''public void validateDefaultVendor()
-'''
-pass
+    '''    public void validateDefaultVendor()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def isUnique():
-'''public boolean isUnique()
-'''
-pass
+    '''    public boolean isUnique()
+    '''
 def getBasicInvVendorSql():
-'''public String getBasicInvVendorSql()
-'''
-pass
+    '''    public String getBasicInvVendorSql()
+    '''
 def getPOStatusString():
-'''public String getPOStatusString()
-'''
-pass
+    '''    public String getPOStatusString()
+    '''

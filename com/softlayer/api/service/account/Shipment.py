@@ -1,377 +1,283 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getCourier():
-'''public Courier getCourier()
-'''
-pass
+    '''    public Courier getCourier()
+    '''
 def setCourier():
-'''public void setCourier(final Courier courier)
-'''
-pass
+    '''    public void setCourier(final Courier courier)
+    '''
 def getCreateEmployee():
-'''public Employee getCreateEmployee()
-'''
-pass
+    '''    public Employee getCreateEmployee()
+    '''
 def setCreateEmployee():
-'''public void setCreateEmployee(final Employee createEmployee)
-'''
-pass
+    '''    public void setCreateEmployee(final Employee createEmployee)
+    '''
 def getCreateUser():
-'''public Customer getCreateUser()
-'''
-pass
+    '''    public Customer getCreateUser()
+    '''
 def setCreateUser():
-'''public void setCreateUser(final Customer createUser)
-'''
-pass
+    '''    public void setCreateUser(final Customer createUser)
+    '''
 def getDestinationAddress():
-'''public Address getDestinationAddress()
-'''
-pass
+    '''    public Address getDestinationAddress()
+    '''
 def setDestinationAddress():
-'''public void setDestinationAddress(final Address destinationAddress)
-'''
-pass
+    '''    public void setDestinationAddress(final Address destinationAddress)
+    '''
 def getModifyEmployee():
-'''public Employee getModifyEmployee()
-'''
-pass
+    '''    public Employee getModifyEmployee()
+    '''
 def setModifyEmployee():
-'''public void setModifyEmployee(final Employee modifyEmployee)
-'''
-pass
+    '''    public void setModifyEmployee(final Employee modifyEmployee)
+    '''
 def getModifyUser():
-'''public Customer getModifyUser()
-'''
-pass
+    '''    public Customer getModifyUser()
+    '''
 def setModifyUser():
-'''public void setModifyUser(final Customer modifyUser)
-'''
-pass
+    '''    public void setModifyUser(final Customer modifyUser)
+    '''
 def getOriginationAddress():
-'''public Address getOriginationAddress()
-'''
-pass
+    '''    public Address getOriginationAddress()
+    '''
 def setOriginationAddress():
-'''public void setOriginationAddress(final Address originationAddress)
-'''
-pass
+    '''    public void setOriginationAddress(final Address originationAddress)
+    '''
 def getShipmentItems():
-'''public List<Item> getShipmentItems()
-'''
-pass
+    '''    public List<Item> getShipmentItems()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final Status status)
-'''
-pass
+    '''    public void setStatus(final Status status)
+    '''
 def getTrackingData():
-'''public List<Data> getTrackingData()
-'''
-pass
+    '''    public List<Data> getTrackingData()
+    '''
 def setType():
-'''public void setType(final com.softlayer.api.service.account.shipment.Type type)
-'''
-pass
+    '''    public void setType(final com.softlayer.api.service.account.shipment.Type type)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCourierId():
-'''public Long getCourierId()
-'''
-pass
+    '''    public Long getCourierId()
+    '''
 def setCourierId():
-'''public void setCourierId(final Long courierId)
-'''
-pass
+    '''    public void setCourierId(final Long courierId)
+    '''
 def isCourierIdSpecified():
-'''public boolean isCourierIdSpecified()
-'''
-pass
+    '''    public boolean isCourierIdSpecified()
+    '''
 def unsetCourierId():
-'''public void unsetCourierId()
-'''
-pass
+    '''    public void unsetCourierId()
+    '''
 def getCourierName():
-'''public String getCourierName()
-'''
-pass
+    '''    public String getCourierName()
+    '''
 def setCourierName():
-'''public void setCourierName(final String courierName)
-'''
-pass
+    '''    public void setCourierName(final String courierName)
+    '''
 def isCourierNameSpecified():
-'''public boolean isCourierNameSpecified()
-'''
-pass
+    '''    public boolean isCourierNameSpecified()
+    '''
 def unsetCourierName():
-'''public void unsetCourierName()
-'''
-pass
+    '''    public void unsetCourierName()
+    '''
 def getCreateUserId():
-'''public Long getCreateUserId()
-'''
-pass
+    '''    public Long getCreateUserId()
+    '''
 def setCreateUserId():
-'''public void setCreateUserId(final Long createUserId)
-'''
-pass
+    '''    public void setCreateUserId(final Long createUserId)
+    '''
 def isCreateUserIdSpecified():
-'''public boolean isCreateUserIdSpecified()
-'''
-pass
+    '''    public boolean isCreateUserIdSpecified()
+    '''
 def unsetCreateUserId():
-'''public void unsetCreateUserId()
-'''
-pass
+    '''    public void unsetCreateUserId()
+    '''
 def getDestinationAddressId():
-'''public Long getDestinationAddressId()
-'''
-pass
+    '''    public Long getDestinationAddressId()
+    '''
 def setDestinationAddressId():
-'''public void setDestinationAddressId(final Long destinationAddressId)
-'''
-pass
+    '''    public void setDestinationAddressId(final Long destinationAddressId)
+    '''
 def isDestinationAddressIdSpecified():
-'''public boolean isDestinationAddressIdSpecified()
-'''
-pass
+    '''    public boolean isDestinationAddressIdSpecified()
+    '''
 def unsetDestinationAddressId():
-'''public void unsetDestinationAddressId()
-'''
-pass
+    '''    public void unsetDestinationAddressId()
+    '''
 def getDestinationDate():
-'''public GregorianCalendar getDestinationDate()
-'''
-pass
+    '''    public GregorianCalendar getDestinationDate()
+    '''
 def setDestinationDate():
-'''public void setDestinationDate(final GregorianCalendar destinationDate)
-'''
-pass
+    '''    public void setDestinationDate(final GregorianCalendar destinationDate)
+    '''
 def isDestinationDateSpecified():
-'''public boolean isDestinationDateSpecified()
-'''
-pass
+    '''    public boolean isDestinationDateSpecified()
+    '''
 def unsetDestinationDate():
-'''public void unsetDestinationDate()
-'''
-pass
+    '''    public void unsetDestinationDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyUserId():
-'''public Long getModifyUserId()
-'''
-pass
+    '''    public Long getModifyUserId()
+    '''
 def setModifyUserId():
-'''public void setModifyUserId(final Long modifyUserId)
-'''
-pass
+    '''    public void setModifyUserId(final Long modifyUserId)
+    '''
 def isModifyUserIdSpecified():
-'''public boolean isModifyUserIdSpecified()
-'''
-pass
+    '''    public boolean isModifyUserIdSpecified()
+    '''
 def unsetModifyUserId():
-'''public void unsetModifyUserId()
-'''
-pass
+    '''    public void unsetModifyUserId()
+    '''
 def getNote():
-'''public String getNote()
-'''
-pass
+    '''    public String getNote()
+    '''
 def setNote():
-'''public void setNote(final String note)
-'''
-pass
+    '''    public void setNote(final String note)
+    '''
 def isNoteSpecified():
-'''public boolean isNoteSpecified()
-'''
-pass
+    '''    public boolean isNoteSpecified()
+    '''
 def unsetNote():
-'''public void unsetNote()
-'''
-pass
+    '''    public void unsetNote()
+    '''
 def getOriginationAddressId():
-'''public Long getOriginationAddressId()
-'''
-pass
+    '''    public Long getOriginationAddressId()
+    '''
 def setOriginationAddressId():
-'''public void setOriginationAddressId(final Long originationAddressId)
-'''
-pass
+    '''    public void setOriginationAddressId(final Long originationAddressId)
+    '''
 def isOriginationAddressIdSpecified():
-'''public boolean isOriginationAddressIdSpecified()
-'''
-pass
+    '''    public boolean isOriginationAddressIdSpecified()
+    '''
 def unsetOriginationAddressId():
-'''public void unsetOriginationAddressId()
-'''
-pass
+    '''    public void unsetOriginationAddressId()
+    '''
 def getOriginationDate():
-'''public GregorianCalendar getOriginationDate()
-'''
-pass
+    '''    public GregorianCalendar getOriginationDate()
+    '''
 def setOriginationDate():
-'''public void setOriginationDate(final GregorianCalendar originationDate)
-'''
-pass
+    '''    public void setOriginationDate(final GregorianCalendar originationDate)
+    '''
 def isOriginationDateSpecified():
-'''public boolean isOriginationDateSpecified()
-'''
-pass
+    '''    public boolean isOriginationDateSpecified()
+    '''
 def unsetOriginationDate():
-'''public void unsetOriginationDate()
-'''
-pass
+    '''    public void unsetOriginationDate()
+    '''
 def getStatusId():
-'''public Long getStatusId()
-'''
-pass
+    '''    public Long getStatusId()
+    '''
 def setStatusId():
-'''public void setStatusId(final Long statusId)
-'''
-pass
+    '''    public void setStatusId(final Long statusId)
+    '''
 def isStatusIdSpecified():
-'''public boolean isStatusIdSpecified()
-'''
-pass
+    '''    public boolean isStatusIdSpecified()
+    '''
 def unsetStatusId():
-'''public void unsetStatusId()
-'''
-pass
+    '''    public void unsetStatusId()
+    '''
 def getTypeId():
-'''public Long getTypeId()
-'''
-pass
+    '''    public Long getTypeId()
+    '''
 def setTypeId():
-'''public void setTypeId(final Long typeId)
-'''
-pass
+    '''    public void setTypeId(final Long typeId)
+    '''
 def isTypeIdSpecified():
-'''public boolean isTypeIdSpecified()
-'''
-pass
+    '''    public boolean isTypeIdSpecified()
+    '''
 def unsetTypeId():
-'''public void unsetTypeId()
-'''
-pass
+    '''    public void unsetTypeId()
+    '''
 def getShipmentItemCount():
-'''public Long getShipmentItemCount()
-'''
-pass
+    '''    public Long getShipmentItemCount()
+    '''
 def setShipmentItemCount():
-'''public void setShipmentItemCount(final Long shipmentItemCount)
-'''
-pass
+    '''    public void setShipmentItemCount(final Long shipmentItemCount)
+    '''
 def getTrackingDataCount():
-'''public Long getTrackingDataCount()
-'''
-pass
+    '''    public Long getTrackingDataCount()
+    '''
 def setTrackingDataCount():
-'''public void setTrackingDataCount(final Long trackingDataCount)
-'''
-pass
+    '''    public void setTrackingDataCount(final Long trackingDataCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def courierId():
-'''public Mask courierId()
-'''
-pass
+    '''    public Mask courierId()
+    '''
 def courierName():
-'''public Mask courierName()
-'''
-pass
+    '''    public Mask courierName()
+    '''
 def createUserId():
-'''public Mask createUserId()
-'''
-pass
+    '''    public Mask createUserId()
+    '''
 def destinationAddressId():
-'''public Mask destinationAddressId()
-'''
-pass
+    '''    public Mask destinationAddressId()
+    '''
 def destinationDate():
-'''public Mask destinationDate()
-'''
-pass
+    '''    public Mask destinationDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyUserId():
-'''public Mask modifyUserId()
-'''
-pass
+    '''    public Mask modifyUserId()
+    '''
 def note():
-'''public Mask note()
-'''
-pass
+    '''    public Mask note()
+    '''
 def originationAddressId():
-'''public Mask originationAddressId()
-'''
-pass
+    '''    public Mask originationAddressId()
+    '''
 def originationDate():
-'''public Mask originationDate()
-'''
-pass
+    '''    public Mask originationDate()
+    '''
 def statusId():
-'''public Mask statusId()
-'''
-pass
+    '''    public Mask statusId()
+    '''
 def typeId():
-'''public Mask typeId()
-'''
-pass
+    '''    public Mask typeId()
+    '''
 def shipmentItemCount():
-'''public Mask shipmentItemCount()
-'''
-pass
+    '''    public Mask shipmentItemCount()
+    '''
 def trackingDataCount():
-'''public Mask trackingDataCount()
-'''
-pass
+    '''    public Mask trackingDataCount()
+    '''

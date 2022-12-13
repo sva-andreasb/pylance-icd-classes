@@ -1,17 +1,13 @@
 def SignerConfigJsonHelper():
-'''public SignerConfigJsonHelper()
-public SignerConfigJsonHelper(final String signerType)
-'''
-pass
+    '''    public SignerConfigJsonHelper()
+    public SignerConfigJsonHelper(final String signerType)
+    '''
 def getSignerType():
-'''public String getSignerType()
-'''
-pass
+    '''    public String getSignerType()
+    '''
 def setSignerType():
-'''public void setSignerType(final String signerType)
-'''
-pass
+    '''    public void setSignerType(final String signerType)
+    '''
 def build():
-'''public SignerConfig build()
-'''
-pass
+    '''    public SignerConfig build()
+    '''

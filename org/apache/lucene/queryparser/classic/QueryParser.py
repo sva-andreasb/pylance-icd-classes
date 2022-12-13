@@ -1,70 +1,53 @@
 DEFAULT_SPLIT_ON_WHITESPACE = "boolean  false"
 def QueryParser():
-'''public QueryParser(final String f, final Analyzer a)
-'''
-pass
+    '''    public QueryParser(final String f, final Analyzer a)
+    '''
 def setAutoGeneratePhraseQueries():
-'''public void setAutoGeneratePhraseQueries(final boolean value)
-'''
-pass
+    '''    public void setAutoGeneratePhraseQueries(final boolean value)
+    '''
 def getSplitOnWhitespace():
-'''public boolean getSplitOnWhitespace()
-'''
-pass
+    '''    public boolean getSplitOnWhitespace()
+    '''
 def setSplitOnWhitespace():
-'''public void setSplitOnWhitespace(final boolean splitOnWhitespace)
-'''
-pass
+    '''    public void setSplitOnWhitespace(final boolean splitOnWhitespace)
+    '''
 def Conjunction():
-'''public final int Conjunction()
-'''
-pass
+    '''    public final int Conjunction()
+    '''
 def Modifiers():
-'''public final int Modifiers()
-'''
-pass
+    '''    public final int Modifiers()
+    '''
 def TopLevelQuery():
-'''public final Query TopLevelQuery(final String field)
-'''
-pass
+    '''    public final Query TopLevelQuery(final String field)
+    '''
 def Query():
-'''public final Query Query(final String field)
-'''
-pass
+    '''    public final Query Query(final String field)
+    '''
 def Clause():
-'''public final Query Clause(String field)
-'''
-pass
+    '''    public final Query Clause(String field)
+    '''
 def Term():
-'''public final Query Term(final String field)
-'''
-pass
+    '''    public final Query Term(final String field)
+    '''
 def MultiTerm():
-'''public final Query MultiTerm(final String field, final List<BooleanClause> clauses)
-'''
-pass
+    '''    public final Query MultiTerm(final String field, final List<BooleanClause> clauses)
+    '''
 def ReInit():
-'''public void ReInit(final CharStream stream)
-public void ReInit(final QueryParserTokenManager tm)
-'''
-pass
+    '''    public void ReInit(final CharStream stream)
+    public void ReInit(final QueryParserTokenManager tm)
+    '''
 def getNextToken():
-'''public final Token getNextToken()
-'''
-pass
+    '''    public final Token getNextToken()
+    '''
 def getToken():
-'''public final Token getToken(final int index)
-'''
-pass
+    '''    public final Token getToken(final int index)
+    '''
 def generateParseException():
-'''public ParseException generateParseException()
-'''
-pass
+    '''    public ParseException generateParseException()
+    '''
 def enable_tracing():
-'''public final void enable_tracing()
-'''
-pass
+    '''    public final void enable_tracing()
+    '''
 def disable_tracing():
-'''public final void disable_tracing()
-'''
-pass
+    '''    public final void disable_tracing()
+    '''

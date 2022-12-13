@@ -1,16 +1,12 @@
 def FldCommonTax():
-'''public FldCommonTax(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonTax(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def doNotSetTotalTax():
-'''public void doNotSetTotalTax()
-'''
-pass
+    '''    public void doNotSetTotalTax()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

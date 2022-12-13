@@ -1,4 +1,3 @@
 def addAttribute():
-'''public int addAttribute()
-'''
-pass
+    '''    public int addAttribute()
+    '''

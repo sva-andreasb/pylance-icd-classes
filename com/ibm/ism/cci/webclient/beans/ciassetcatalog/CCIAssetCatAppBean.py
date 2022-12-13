@@ -1,16 +1,12 @@
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def CIHIERAR():
-'''public int CIHIERAR()
-'''
-pass
+    '''    public int CIHIERAR()
+    '''
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''

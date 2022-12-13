@@ -1,20 +1,15 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isActiveList():
-'''public boolean isActiveList()
-'''
-pass
+    '''    public boolean isActiveList()
+    '''
 def isDefaultList():
-'''public boolean isDefaultList()
-'''
-pass
+    '''    public boolean isDefaultList()
+    '''
 def getItems():
-'''public List<PrivacyItem> getItems()
-'''
-pass
+    '''    public List<PrivacyItem> getItems()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

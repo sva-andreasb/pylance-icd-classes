@@ -1,20 +1,15 @@
 def PlusPLocation():
-'''public PlusPLocation(final MboSet arg0)
-'''
-pass
+    '''    public PlusPLocation(final MboSet arg0)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

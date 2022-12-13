@@ -1,20 +1,15 @@
 def IssueItemToAsset():
-'''public IssueItemToAsset(final MboSet ms)
-'''
-pass
+    '''    public IssueItemToAsset(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def copyAssetsForIssue():
-'''public void copyAssetsForIssue(final MboSetRemote assetSet)
-'''
-pass
+    '''    public void copyAssetsForIssue(final MboSetRemote assetSet)
+    '''

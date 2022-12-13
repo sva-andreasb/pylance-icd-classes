@@ -1,40 +1,30 @@
 def Question():
-'''public Question(final MboSet ms)
-'''
-pass
+    '''    public Question(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def enableFields():
-'''public void enableFields(final String prevStatus)
-'''
-pass
+    '''    public void enableFields(final String prevStatus)
+    '''
 def isQuestionUsedInSurvey():
-'''public boolean isQuestionUsedInSurvey()
-'''
-pass
+    '''    public boolean isQuestionUsedInSurvey()
+    '''
 def canChangeQuestionStatus():
-'''public void canChangeQuestionStatus(final String newStatus)
-'''
-pass
+    '''    public void canChangeQuestionStatus(final String newStatus)
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status)
-'''
-pass
+    '''    public void changeStatus(final String status)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

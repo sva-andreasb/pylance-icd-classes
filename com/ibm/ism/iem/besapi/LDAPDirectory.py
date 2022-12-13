@@ -1,116 +1,87 @@
 def getID():
-'''public BigInteger getID()
-'''
-pass
+    '''    public BigInteger getID()
+    '''
 def setID():
-'''public void setID(final BigInteger value)
-'''
-pass
+    '''    public void setID(final BigInteger value)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def isIsActiveDirectory():
-'''public Boolean isIsActiveDirectory()
-'''
-pass
+    '''    public Boolean isIsActiveDirectory()
+    '''
 def setIsActiveDirectory():
-'''public void setIsActiveDirectory(final Boolean value)
-'''
-pass
+    '''    public void setIsActiveDirectory(final Boolean value)
+    '''
 def isIsGlobalCatalog():
-'''public Boolean isIsGlobalCatalog()
-'''
-pass
+    '''    public Boolean isIsGlobalCatalog()
+    '''
 def setIsGlobalCatalog():
-'''public void setIsGlobalCatalog(final Boolean value)
-'''
-pass
+    '''    public void setIsGlobalCatalog(final Boolean value)
+    '''
 def isUseSSL():
-'''public Boolean isUseSSL()
-'''
-pass
+    '''    public Boolean isUseSSL()
+    '''
 def setUseSSL():
-'''public void setUseSSL(final Boolean value)
-'''
-pass
+    '''    public void setUseSSL(final Boolean value)
+    '''
 def isAllowEmptyPasswords():
-'''public Boolean isAllowEmptyPasswords()
-'''
-pass
+    '''    public Boolean isAllowEmptyPasswords()
+    '''
 def setAllowEmptyPasswords():
-'''public void setAllowEmptyPasswords(final Boolean value)
-'''
-pass
+    '''    public void setAllowEmptyPasswords(final Boolean value)
+    '''
 def getBaseDN():
-'''public String getBaseDN()
-'''
-pass
+    '''    public String getBaseDN()
+    '''
 def setBaseDN():
-'''public void setBaseDN(final String value)
-'''
-pass
+    '''    public void setBaseDN(final String value)
+    '''
 def getUIDAttribute():
-'''public String getUIDAttribute()
-'''
-pass
+    '''    public String getUIDAttribute()
+    '''
 def setUIDAttribute():
-'''public void setUIDAttribute(final String value)
-'''
-pass
+    '''    public void setUIDAttribute(final String value)
+    '''
 def getUserFilter():
-'''public String getUserFilter()
-'''
-pass
+    '''    public String getUserFilter()
+    '''
 def setUserFilter():
-'''public void setUserFilter(final String value)
-'''
-pass
+    '''    public void setUserFilter(final String value)
+    '''
 def getGroupFilter():
-'''public String getGroupFilter()
-'''
-pass
+    '''    public String getGroupFilter()
+    '''
 def setGroupFilter():
-'''public void setGroupFilter(final String value)
-'''
-pass
+    '''    public void setGroupFilter(final String value)
+    '''
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def setUser():
-'''public void setUser(final String value)
-'''
-pass
+    '''    public void setUser(final String value)
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def setPassword():
-'''public void setPassword(final String value)
-'''
-pass
+    '''    public void setPassword(final String value)
+    '''
 def getServers():
-'''public Servers getServers()
-'''
-pass
+    '''    public Servers getServers()
+    '''
 def setServers():
-'''public void setServers(final Servers value)
-'''
-pass
+    '''    public void setServers(final Servers value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''
 def getServer():
-'''public List<LDAPServer> getServer()
-'''
-pass
+    '''    public List<LDAPServer> getServer()
+    '''

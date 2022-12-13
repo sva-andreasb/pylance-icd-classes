@@ -1,8 +1,6 @@
 def intValue():
-'''public final int intValue()
-'''
-pass
+    '''    public final int intValue()
+    '''
 def longValue():
-'''public final long longValue()
-'''
-pass
+    '''    public final long longValue()
+    '''

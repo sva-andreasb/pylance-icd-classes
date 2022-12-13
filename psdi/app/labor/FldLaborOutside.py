@@ -1,8 +1,6 @@
 def FldLaborOutside():
-'''public FldLaborOutside(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborOutside(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

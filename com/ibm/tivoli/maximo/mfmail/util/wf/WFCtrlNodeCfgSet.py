@@ -1,12 +1,9 @@
 def WFCtrlNodeCfgSet():
-'''public WFCtrlNodeCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFCtrlNodeCfgSet(final MboServerInterface ms)
+    '''
 def activate():
-'''public void activate(final boolean isActive)
-'''
-pass
+    '''    public void activate(final boolean isActive)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

@@ -1,8 +1,6 @@
 def WorkPriority():
-'''public WorkPriority(final MboSet ms)
-'''
-pass
+    '''    public WorkPriority(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

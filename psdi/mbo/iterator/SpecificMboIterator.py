@@ -1,17 +1,13 @@
 def SpecificMboIterator():
-'''public SpecificMboIterator(final MboRemote mbo, final String relationship, final Integer specificMbo)
-public SpecificMboIterator(final MboRemote mbo, final String relationship, final Integer specificMbo, final Boolean discardable)
-'''
-pass
+    '''    public SpecificMboIterator(final MboRemote mbo, final String relationship, final Integer specificMbo)
+    public SpecificMboIterator(final MboRemote mbo, final String relationship, final Integer specificMbo, final Boolean discardable)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public MboRemote next()
-'''
-pass
+    '''    public MboRemote next()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

@@ -1,4 +1,3 @@
 def XDGFFactory():
-'''public XDGFFactory(final XDGFDocument document)
-'''
-pass
+    '''    public XDGFFactory(final XDGFDocument document)
+    '''

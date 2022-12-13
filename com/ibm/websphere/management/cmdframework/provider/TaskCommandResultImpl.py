@@ -1,12 +1,9 @@
 def TaskCommandResultImpl():
-'''public TaskCommandResultImpl()
-'''
-pass
+    '''    public TaskCommandResultImpl()
+    '''
 def setStepResult():
-'''public void setStepResult(final String stepName, final CommandResult stepResult)
-'''
-pass
+    '''    public void setStepResult(final String stepName, final CommandResult stepResult)
+    '''
 def getStepResult():
-'''public CommandResult getStepResult(final String stepName)
-'''
-pass
+    '''    public CommandResult getStepResult(final String stepName)
+    '''

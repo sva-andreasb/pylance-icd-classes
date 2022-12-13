@@ -1,109 +1,82 @@
 def getCompanyName():
-'''public String getCompanyName()
-'''
-pass
+    '''    public String getCompanyName()
+    '''
 def setCompanyName():
-'''public void setCompanyName(final String companyName)
-'''
-pass
+    '''    public void setCompanyName(final String companyName)
+    '''
 def isCompanyNameSpecified():
-'''public boolean isCompanyNameSpecified()
-'''
-pass
+    '''    public boolean isCompanyNameSpecified()
+    '''
 def unsetCompanyName():
-'''public void unsetCompanyName()
-'''
-pass
+    '''    public void unsetCompanyName()
+    '''
 def getEmailAddress():
-'''public String getEmailAddress()
-'''
-pass
+    '''    public String getEmailAddress()
+    '''
 def setEmailAddress():
-'''public void setEmailAddress(final String emailAddress)
-'''
-pass
+    '''    public void setEmailAddress(final String emailAddress)
+    '''
 def isEmailAddressSpecified():
-'''public boolean isEmailAddressSpecified()
-'''
-pass
+    '''    public boolean isEmailAddressSpecified()
+    '''
 def unsetEmailAddress():
-'''public void unsetEmailAddress()
-'''
-pass
+    '''    public void unsetEmailAddress()
+    '''
 def getFirstName():
-'''public String getFirstName()
-'''
-pass
+    '''    public String getFirstName()
+    '''
 def setFirstName():
-'''public void setFirstName(final String firstName)
-'''
-pass
+    '''    public void setFirstName(final String firstName)
+    '''
 def isFirstNameSpecified():
-'''public boolean isFirstNameSpecified()
-'''
-pass
+    '''    public boolean isFirstNameSpecified()
+    '''
 def unsetFirstName():
-'''public void unsetFirstName()
-'''
-pass
+    '''    public void unsetFirstName()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getLastName():
-'''public String getLastName()
-'''
-pass
+    '''    public String getLastName()
+    '''
 def setLastName():
-'''public void setLastName(final String lastName)
-'''
-pass
+    '''    public void setLastName(final String lastName)
+    '''
 def isLastNameSpecified():
-'''public boolean isLastNameSpecified()
-'''
-pass
+    '''    public boolean isLastNameSpecified()
+    '''
 def unsetLastName():
-'''public void unsetLastName()
-'''
-pass
+    '''    public void unsetLastName()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def companyName():
-'''public Mask companyName()
-'''
-pass
+    '''    public Mask companyName()
+    '''
 def emailAddress():
-'''public Mask emailAddress()
-'''
-pass
+    '''    public Mask emailAddress()
+    '''
 def firstName():
-'''public Mask firstName()
-'''
-pass
+    '''    public Mask firstName()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def lastName():
-'''public Mask lastName()
-'''
-pass
+    '''    public Mask lastName()
+    '''

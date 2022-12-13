@@ -1,20 +1,15 @@
 def getHref():
-'''public String getHref()
-'''
-pass
+    '''    public String getHref()
+    '''
 def setHref():
-'''public void setHref(final String s)
-'''
-pass
+    '''    public void setHref(final String s)
+    '''
 def getTarget():
-'''public String getTarget()
-'''
-pass
+    '''    public String getTarget()
+    '''
 def setTarget():
-'''public void setTarget(final String s)
-'''
-pass
+    '''    public void setTarget(final String s)
+    '''
 def HTMLBaseElementImpl():
-'''public HTMLBaseElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLBaseElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

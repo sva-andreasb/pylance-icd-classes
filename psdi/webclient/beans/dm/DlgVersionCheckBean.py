@@ -1,8 +1,6 @@
 def dook():
-'''public int dook()
-'''
-pass
+    '''    public int dook()
+    '''
 def docancel():
-'''public int docancel()
-'''
-pass
+    '''    public int docancel()
+    '''

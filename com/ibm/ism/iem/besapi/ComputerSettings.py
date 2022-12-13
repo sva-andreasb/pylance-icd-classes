@@ -1,24 +1,18 @@
 def getTargetComputers():
-'''public TargetComputers getTargetComputers()
-'''
-pass
+    '''    public TargetComputers getTargetComputers()
+    '''
 def setTargetComputers():
-'''public void setTargetComputers(final TargetComputers value)
-'''
-pass
+    '''    public void setTargetComputers(final TargetComputers value)
+    '''
 def getSetting():
-'''public List<ComputerSetting> getSetting()
-'''
-pass
+    '''    public List<ComputerSetting> getSetting()
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''
 def getComputerID():
-'''public List<BigInteger> getComputerID()
-'''
-pass
+    '''    public List<BigInteger> getComputerID()
+    '''

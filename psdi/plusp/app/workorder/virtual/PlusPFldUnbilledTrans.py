@@ -1,9 +1,7 @@
 def PlusPFldUnbilledTrans():
-'''public PlusPFldUnbilledTrans()
-public PlusPFldUnbilledTrans(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldUnbilledTrans()
+    public PlusPFldUnbilledTrans(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

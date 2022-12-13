@@ -1,8 +1,6 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def BadStringOperationException():
-'''public BadStringOperationException(final String op)
-'''
-pass
+    '''    public BadStringOperationException(final String op)
+    '''

@@ -1,8 +1,6 @@
 def FldAssignLocToDate():
-'''public FldAssignLocToDate(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignLocToDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,12 +1,9 @@
 def httpRequestAborted():
-'''public boolean httpRequestAborted()
-'''
-pass
+    '''    public boolean httpRequestAborted()
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def cancelTask():
-'''public void cancelTask()
-'''
-pass
+    '''    public void cancelTask()
+    '''

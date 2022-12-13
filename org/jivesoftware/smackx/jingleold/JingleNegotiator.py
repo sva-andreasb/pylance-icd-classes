@@ -1,57 +1,43 @@
 def JingleNegotiator():
-'''public JingleNegotiator()
-public JingleNegotiator(final JingleSession session)
-'''
-pass
+    '''    public JingleNegotiator()
+    public JingleNegotiator(final JingleSession session)
+    '''
 def getNegotiatorState():
-'''public JingleNegotiatorState getNegotiatorState()
-'''
-pass
+    '''    public JingleNegotiatorState getNegotiatorState()
+    '''
 def setNegotiatorState():
-'''public void setNegotiatorState(final JingleNegotiatorState stateIs)
-'''
-pass
+    '''    public void setNegotiatorState(final JingleNegotiatorState stateIs)
+    '''
 def getConnection():
-'''public XMPPConnection getConnection()
-'''
-pass
+    '''    public XMPPConnection getConnection()
+    '''
 def getSession():
-'''public JingleSession getSession()
-'''
-pass
+    '''    public JingleSession getSession()
+    '''
 def setSession():
-'''public void setSession(final JingleSession session)
-'''
-pass
+    '''    public void setSession(final JingleSession session)
+    '''
 def addExpectedId():
-'''public void addExpectedId(final String id)
-'''
-pass
+    '''    public void addExpectedId(final String id)
+    '''
 def isExpectedId():
-'''public boolean isExpectedId(final String id)
-'''
-pass
+    '''    public boolean isExpectedId(final String id)
+    '''
 def removeExpectedId():
-'''public void removeExpectedId(final String id)
-'''
-pass
+    '''    public void removeExpectedId(final String id)
+    '''
 def addListener():
-'''public void addListener(final JingleListener li)
-'''
-pass
+    '''    public void addListener(final JingleListener li)
+    '''
 def removeListener():
-'''public void removeListener(final JingleListener li)
-'''
-pass
+    '''    public void removeListener(final JingleListener li)
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def isStarted():
-'''public boolean isStarted()
-'''
-pass
+    '''    public boolean isStarted()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

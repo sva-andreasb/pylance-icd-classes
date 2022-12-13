@@ -1,21 +1,16 @@
 def DeviceFeedCacheImpl():
-'''public DeviceFeedCacheImpl()
-'''
-pass
+    '''    public DeviceFeedCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDeviceFeedInfo():
-'''public DeviceFeedInfo getDeviceFeedInfo(final String deviceOrg, final String deviceType, final String deviceId)
-'''
-pass
+    '''    public DeviceFeedInfo getDeviceFeedInfo(final String deviceOrg, final String deviceType, final String deviceId)
+    '''

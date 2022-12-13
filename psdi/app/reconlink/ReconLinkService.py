@@ -1,5 +1,4 @@
 def ReconLinkService():
-'''public ReconLinkService()
-public ReconLinkService(final MXServer mxServer)
-'''
-pass
+    '''    public ReconLinkService()
+    public ReconLinkService(final MXServer mxServer)
+    '''

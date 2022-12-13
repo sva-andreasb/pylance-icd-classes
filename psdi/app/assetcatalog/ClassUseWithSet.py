@@ -1,8 +1,6 @@
 def ClassUseWithSet():
-'''public ClassUseWithSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ClassUseWithSet(final MboServerInterface ms)
+    '''
 def checkDuplicates():
-'''public void checkDuplicates(final MboRemote currentClassUseWith)
-'''
-pass
+    '''    public void checkDuplicates(final MboRemote currentClassUseWith)
+    '''

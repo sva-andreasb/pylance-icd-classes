@@ -1,8 +1,6 @@
 def FldPrdnameMaxLicApps():
-'''public FldPrdnameMaxLicApps(final MboValue mbv)
-'''
-pass
+    '''    public FldPrdnameMaxLicApps(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

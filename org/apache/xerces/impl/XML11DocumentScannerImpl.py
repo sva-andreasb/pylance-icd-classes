@@ -1,4 +1,3 @@
 def XML11DocumentScannerImpl():
-'''public XML11DocumentScannerImpl()
-'''
-pass
+    '''    public XML11DocumentScannerImpl()
+    '''

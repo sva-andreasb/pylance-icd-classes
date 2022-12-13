@@ -1,4 +1,3 @@
 def BIMDesignSpecLocSet():
-'''public BIMDesignSpecLocSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMDesignSpecLocSet(final MboServerInterface ms)
+    '''

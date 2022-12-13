@@ -1,16 +1,12 @@
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''
 def preRender():
-'''public void preRender()
-'''
-pass
+    '''    public void preRender()
+    '''
 def getSiblingButtonComponentIds():
-'''public String[] getSiblingButtonComponentIds()
-'''
-pass
+    '''    public String[] getSiblingButtonComponentIds()
+    '''
 def getFocusRenderId():
-'''public String getFocusRenderId()
-'''
-pass
+    '''    public String getFocusRenderId()
+    '''

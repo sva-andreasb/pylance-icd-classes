@@ -1,72 +1,54 @@
 def getRoom():
-'''public EntityBareJid getRoom()
-'''
-pass
+    '''    public EntityBareJid getRoom()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def getOccupantsCount():
-'''public int getOccupantsCount()
-'''
-pass
+    '''    public int getOccupantsCount()
+    '''
 def isMembersOnly():
-'''public boolean isMembersOnly()
-'''
-pass
+    '''    public boolean isMembersOnly()
+    '''
 def isModerated():
-'''public boolean isModerated()
-'''
-pass
+    '''    public boolean isModerated()
+    '''
 def isNonanonymous():
-'''public boolean isNonanonymous()
-'''
-pass
+    '''    public boolean isNonanonymous()
+    '''
 def isPasswordProtected():
-'''public boolean isPasswordProtected()
-'''
-pass
+    '''    public boolean isPasswordProtected()
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def getMaxHistoryFetch():
-'''public int getMaxHistoryFetch()
-'''
-pass
+    '''    public int getMaxHistoryFetch()
+    '''
 def getContactJids():
-'''public List<EntityBareJid> getContactJids()
-'''
-pass
+    '''    public List<EntityBareJid> getContactJids()
+    '''
 def getLang():
-'''public String getLang()
-'''
-pass
+    '''    public String getLang()
+    '''
 def getLdapGroup():
-'''public String getLdapGroup()
-'''
-pass
+    '''    public String getLdapGroup()
+    '''
 def isSubjectModifiable():
-'''public Boolean isSubjectModifiable()
-'''
-pass
+    '''    public Boolean isSubjectModifiable()
+    '''
 def getPubSub():
-'''public String getPubSub()
-'''
-pass
+    '''    public String getPubSub()
+    '''
 def getLogsUrl():
-'''public URL getLogsUrl()
-'''
-pass
+    '''    public URL getLogsUrl()
+    '''
 def getForm():
-'''public Form getForm()
-'''
-pass
+    '''    public Form getForm()
+    '''

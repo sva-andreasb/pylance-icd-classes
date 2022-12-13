@@ -1,20 +1,15 @@
 def toggledeleterowcomplex():
-'''public int toggledeleterowcomplex()
-'''
-pass
+    '''    public int toggledeleterowcomplex()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def addgrouprow():
-'''public int addgrouprow()
-'''
-pass
+    '''    public int addgrouprow()
+    '''
 def addgroupitem():
-'''public int addgroupitem()
-'''
-pass
+    '''    public int addgroupitem()
+    '''
 def highlightrow():
-'''public int highlightrow(final int row)
-'''
-pass
+    '''    public int highlightrow(final int row)
+    '''

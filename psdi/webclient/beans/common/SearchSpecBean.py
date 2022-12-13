@@ -1,12 +1,9 @@
 def SearchSpecBean():
-'''public SearchSpecBean()
-'''
-pass
+    '''    public SearchSpecBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

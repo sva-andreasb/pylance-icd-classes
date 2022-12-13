@@ -1,8 +1,6 @@
 def CommTmpltChangeStatus():
-'''public CommTmpltChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public CommTmpltChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

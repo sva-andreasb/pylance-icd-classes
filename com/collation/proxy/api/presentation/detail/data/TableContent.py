@@ -3,50 +3,38 @@ DOUBLE_COLUMN_NAME_VALUE = "int  1"
 TABLE = "int  2"
 CUSTOM = "int  3"
 def TableContent():
-'''public TableContent()
-'''
-pass
+    '''    public TableContent()
+    '''
 def getIntLayout():
-'''public int getIntLayout()
-'''
-pass
+    '''    public int getIntLayout()
+    '''
 def setGenerator():
-'''public void setGenerator(final String gen)
-'''
-pass
+    '''    public void setGenerator(final String gen)
+    '''
 def getGenerator():
-'''public String getGenerator()
-'''
-pass
+    '''    public String getGenerator()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String v)
-'''
-pass
+    '''    public void setClassName(final String v)
+    '''
 def getLayout():
-'''public String getLayout()
-'''
-pass
+    '''    public String getLayout()
+    '''
 def setLayout():
-'''public void setLayout(final String l)
-'''
-pass
+    '''    public void setLayout(final String l)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String v)
-'''
-pass
+    '''    public void setName(final String v)
+    '''
 def addField():
-'''public void addField(final Field field)
-'''
-pass
+    '''    public void addField(final Field field)
+    '''
 def getFields():
-'''public List getFields()
-'''
-pass
+    '''    public List getFields()
+    '''

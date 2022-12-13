@@ -1,8 +1,6 @@
 def LineHeightValue():
-'''public LineHeightValue(final short unitType, final float floatValue, final boolean fontSizeRelative)
-'''
-pass
+    '''    public LineHeightValue(final short unitType, final float floatValue, final boolean fontSizeRelative)
+    '''
 def getFontSizeRelative():
-'''public boolean getFontSizeRelative()
-'''
-pass
+    '''    public boolean getFontSizeRelative()
+    '''

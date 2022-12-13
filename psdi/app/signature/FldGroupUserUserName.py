@@ -1,4 +1,3 @@
 def FldGroupUserUserName():
-'''public FldGroupUserUserName(final MboValue mbv)
-'''
-pass
+    '''    public FldGroupUserUserName(final MboValue mbv)
+    '''

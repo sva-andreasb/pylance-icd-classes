@@ -1,8 +1,6 @@
 def getDatbase():
-'''public DB getDatbase()
-'''
-pass
+    '''    public DB getDatbase()
+    '''
 def getConnectionConfig():
-'''public SQLiteConnectionConfig getConnectionConfig()
-'''
-pass
+    '''    public SQLiteConnectionConfig getConnectionConfig()
+    '''

@@ -1,16 +1,12 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def addAttributeCalc():
-'''public int addAttributeCalc(final MboRemote attribute)
-'''
-pass
+    '''    public int addAttributeCalc(final MboRemote attribute)
+    '''
 def setTargetIdByTree():
-'''public void setTargetIdByTree(final ReportAdHocRemote reportAdHoc)
-'''
-pass
+    '''    public void setTargetIdByTree(final ReportAdHocRemote reportAdHoc)
+    '''

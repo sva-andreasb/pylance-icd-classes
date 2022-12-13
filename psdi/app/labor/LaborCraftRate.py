@@ -1,60 +1,45 @@
 def LaborCraftRate():
-'''public LaborCraftRate(final MboSet ms)
-'''
-pass
+    '''    public LaborCraftRate(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def makeOtherNotDefault():
-'''public void makeOtherNotDefault()
-'''
-pass
+    '''    public void makeOtherNotDefault()
+    '''
 def isFirstRecord():
-'''public boolean isFirstRecord()
-'''
-pass
+    '''    public boolean isFirstRecord()
+    '''
 def getStandardRate():
-'''public double getStandardRate()
-'''
-pass
+    '''    public double getStandardRate()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def getSqlForEnteredFields():
-'''public SqlFormat getSqlForEnteredFields()
-'''
-pass
+    '''    public SqlFormat getSqlForEnteredFields()
+    '''
 def updateGLInfo():
-'''public void updateGLInfo()
-'''
-pass
+    '''    public void updateGLInfo()
+    '''
 def checkContract():
-'''public void checkContract()
-'''
-pass
+    '''    public void checkContract()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''

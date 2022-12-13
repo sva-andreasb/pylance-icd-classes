@@ -1,520 +1,401 @@
-CONTRAINT_TYPES_SEPARATOR = "String  §""
-APPLET_STATE_KEY = "String  maximo_scheduler_state""
+CONTRAINT_TYPES_SEPARATOR = "String  \"§\""
+APPLET_STATE_KEY = "String  \"maximo_scheduler_state\""
 def SKDViewerApplet():
-'''public SKDViewerApplet()
-'''
-pass
+    '''    public SKDViewerApplet()
+    '''
 def isPost():
-'''public boolean isPost()
-public boolean isPost()
-public boolean isPost()
-'''
-pass
+    '''    public boolean isPost()
+    public boolean isPost()
+    public boolean isPost()
+    '''
 def convertReplyToObject():
-'''public boolean convertReplyToObject()
-public boolean convertReplyToObject()
-public boolean convertReplyToObject()
-'''
-pass
+    '''    public boolean convertReplyToObject()
+    public boolean convertReplyToObject()
+    public boolean convertReplyToObject()
+    '''
 def isCompressed():
-'''public boolean isCompressed()
-public boolean isCompressed()
-public boolean isCompressed()
-'''
-pass
+    '''    public boolean isCompressed()
+    public boolean isCompressed()
+    public boolean isCompressed()
+    '''
 def getCookies():
-'''public String[][] getCookies()
-'''
-pass
+    '''    public String[][] getCookies()
+    '''
 def init():
-'''public void init()
-public void init(final Container container)
-'''
-pass
+    '''    public void init()
+    public void init(final Container container)
+    '''
 def run():
-'''public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    public void run()
+    '''
 def getAppletBuildVersion():
-'''public static String getAppletBuildVersion()
-'''
-pass
+    '''    public static String getAppletBuildVersion()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getProjectid():
-'''public String getProjectid()
-'''
-pass
+    '''    public String getProjectid()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def storeData():
-'''public void storeData(final String name, final Serializable value)
-'''
-pass
+    '''    public void storeData(final String name, final Serializable value)
+    '''
 def loadData():
-'''public <T> T loadData(final String name)
-'''
-pass
+    '''    public <T> T loadData(final String name)
+    '''
 def getContentPane():
-'''public Container getContentPane()
-'''
-pass
+    '''    public Container getContentPane()
+    '''
 def initApp():
-'''public void initApp(final String projectid, String serverhost, String serverport)
-'''
-pass
+    '''    public void initApp(final String projectid, String serverhost, String serverport)
+    '''
 def handleMessage():
-'''public void handleMessage(final String msgId, final Object... args)
-public void handleMessage(final String msgId, final Object... args)
-'''
-pass
+    '''    public void handleMessage(final String msgId, final Object... args)
+    public void handleMessage(final String msgId, final Object... args)
+    '''
 def getAppletGanttModel():
-'''public AppletGanttModel getAppletGanttModel()
-'''
-pass
+    '''    public AppletGanttModel getAppletGanttModel()
+    '''
 def findParentFrame():
-'''public Frame findParentFrame()
-'''
-pass
+    '''    public Frame findParentFrame()
+    '''
 def doInBackground():
-'''public Void doInBackground()
-'''
-pass
+    '''    public Void doInBackground()
+    '''
 def runOnUI():
-'''public void runOnUI(final Void nothing)
-'''
-pass
+    '''    public void runOnUI(final Void nothing)
+    '''
 def insertUpdate():
-'''public void insertUpdate(final DocumentEvent e)
-'''
-pass
+    '''    public void insertUpdate(final DocumentEvent e)
+    '''
 def removeUpdate():
-'''public void removeUpdate(final DocumentEvent e)
-'''
-pass
+    '''    public void removeUpdate(final DocumentEvent e)
+    '''
 def changedUpdate():
-'''public void changedUpdate(final DocumentEvent e)
-'''
-pass
+    '''    public void changedUpdate(final DocumentEvent e)
+    '''
 def componentResized():
-'''public void componentResized(final ComponentEvent e)
-'''
-pass
+    '''    public void componentResized(final ComponentEvent e)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    '''
 def addAdvancedSearchToToolbar():
-'''public void addAdvancedSearchToToolbar(final JToolBar toolbar)
-'''
-pass
+    '''    public void addAdvancedSearchToToolbar(final JToolBar toolbar)
+    '''
 def getApplicationContainer():
-'''public Container getApplicationContainer()
-'''
-pass
+    '''    public Container getApplicationContainer()
+    '''
 def addZoomFunctionsToToolbar():
-'''public static void addZoomFunctionsToToolbar(final Viewer viewer, final JToolBar toolbar, final IlvTimeScrollController timeScroll)
-'''
-pass
+    '''    public static void addZoomFunctionsToToolbar(final Viewer viewer, final JToolBar toolbar, final IlvTimeScrollController timeScroll)
+    '''
 def getJScrollGanttSheet():
-'''public IlvJScrollGanttSheet getJScrollGanttSheet(final GanttAndResourceUsageView grView)
-'''
-pass
+    '''    public IlvJScrollGanttSheet getJScrollGanttSheet(final GanttAndResourceUsageView grView)
+    '''
 def mouseEntered():
-'''public void mouseEntered(final MouseEvent e)
-'''
-pass
+    '''    public void mouseEntered(final MouseEvent e)
+    '''
 def mouseExited():
-'''public void mouseExited(final MouseEvent e)
-'''
-pass
+    '''    public void mouseExited(final MouseEvent e)
+    '''
 def mousePressed():
-'''public void mousePressed(final MouseEvent e)
-'''
-pass
+    '''    public void mousePressed(final MouseEvent e)
+    '''
 def mouseReleased():
-'''public void mouseReleased(final MouseEvent e)
-'''
-pass
+    '''    public void mouseReleased(final MouseEvent e)
+    '''
 def setBoundScrolling():
-'''public void setBoundScrolling(final IlvGanttChart chart, final boolean enabled)
-'''
-pass
+    '''    public void setBoundScrolling(final IlvGanttChart chart, final boolean enabled)
+    '''
 def createMenuBar():
-'''public JMenuBar createMenuBar()
-'''
-pass
+    '''    public JMenuBar createMenuBar()
+    '''
 def createFileMenu():
-'''public JMenu createFileMenu()
-'''
-pass
+    '''    public JMenu createFileMenu()
+    '''
 def createEditMenu():
-'''public JMenu createEditMenu()
-'''
-pass
+    '''    public JMenu createEditMenu()
+    '''
 def getViewer():
-'''public Viewer getViewer()
-'''
-pass
+    '''    public Viewer getViewer()
+    '''
 def getSKDUserLocaleData():
-'''public SKDUserLocaleData getSKDUserLocaleData()
-'''
-pass
+    '''    public SKDUserLocaleData getSKDUserLocaleData()
+    '''
 def getSKDUIInfo():
-'''public ISKDUIInfo getSKDUIInfo()
-'''
-pass
+    '''    public ISKDUIInfo getSKDUIInfo()
+    '''
 def disableSendingActivityChangesToServer():
-'''public void disableSendingActivityChangesToServer()
-'''
-pass
+    '''    public void disableSendingActivityChangesToServer()
+    '''
 def enableSendingActivityChangesToServer():
-'''public void enableSendingActivityChangesToServer()
-'''
-pass
+    '''    public void enableSendingActivityChangesToServer()
+    '''
 def sendActivityChangesToServer():
-'''public void sendActivityChangesToServer()
-'''
-pass
+    '''    public void sendActivityChangesToServer()
+    '''
 def sendActivityChangesToServerOnly():
-'''public void sendActivityChangesToServerOnly()
-'''
-pass
+    '''    public void sendActivityChangesToServerOnly()
+    '''
 def initProjectDataModel():
-'''public void initProjectDataModel(final String scenarioprojectsString)
-'''
-pass
+    '''    public void initProjectDataModel(final String scenarioprojectsString)
+    '''
 def updateManagedState():
-'''public void updateManagedState(final String projectId)
-'''
-pass
+    '''    public void updateManagedState(final String projectId)
+    '''
 def restoreManagedState():
-'''public void restoreManagedState(final String projectId)
-'''
-pass
+    '''    public void restoreManagedState(final String projectId)
+    '''
 def isProjectLoaded():
-'''public static boolean isProjectLoaded()
-'''
-pass
+    '''    public static boolean isProjectLoaded()
+    '''
 def addOnLoadListener():
-'''public synchronized void addOnLoadListener(final Runnable onload, final String msg)
-'''
-pass
+    '''    public synchronized void addOnLoadListener(final Runnable onload, final String msg)
+    '''
 def setSKDServletURLBase():
-'''public void setSKDServletURLBase(final String skdServletURLBase)
-'''
-pass
+    '''    public void setSKDServletURLBase(final String skdServletURLBase)
+    '''
 def getSKDServletURLBase():
-'''public String getSKDServletURLBase()
-'''
-pass
+    '''    public String getSKDServletURLBase()
+    '''
 def getServerHost():
-'''public String getServerHost()
-'''
-pass
+    '''    public String getServerHost()
+    '''
 def setUISessionId():
-'''public void setUISessionId(final String uiSessionId)
-'''
-pass
+    '''    public void setUISessionId(final String uiSessionId)
+    '''
 def getUISessionId():
-'''public String getUISessionId()
-'''
-pass
+    '''    public String getUISessionId()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getAppAndProjId():
-'''public String[] getAppAndProjId()
-'''
-pass
+    '''    public String[] getAppAndProjId()
+    '''
 def setSKDActivityQBE():
-'''public void setSKDActivityQBE(final String strSKDActivityQBE)
-'''
-pass
+    '''    public void setSKDActivityQBE(final String strSKDActivityQBE)
+    '''
 def editConstraint():
-'''public void editConstraint(final String newValues)
-'''
-pass
+    '''    public void editConstraint(final String newValues)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def setConstraintForEdit():
-'''public void setConstraintForEdit(final IlvGeneralConstraint constraint)
-'''
-pass
+    '''    public void setConstraintForEdit(final IlvGeneralConstraint constraint)
+    '''
 def isLaunchedAsApp():
-'''public boolean isLaunchedAsApp()
-'''
-pass
+    '''    public boolean isLaunchedAsApp()
+    '''
 def getStartTimeIndicator():
-'''public IlvFixedTimeIndicator getStartTimeIndicator()
-'''
-pass
+    '''    public IlvFixedTimeIndicator getStartTimeIndicator()
+    '''
 def getSortAndFilterGanttModel():
-'''public SortGanttModel getSortAndFilterGanttModel()
-'''
-pass
+    '''    public SortGanttModel getSortAndFilterGanttModel()
+    '''
 def fetchAndWait():
-'''public static <RequestType, ReplyType> ReplyType fetchAndWait(final SerializedDataManager<RequestType, ReplyType> manager, final RequestType request)
-'''
-pass
+    '''    public static <RequestType, ReplyType> ReplyType fetchAndWait(final SerializedDataManager<RequestType, ReplyType> manager, final RequestType request)
+    '''
 def getServerTime():
-'''public Date getServerTime()
-'''
-pass
+    '''    public Date getServerTime()
+    '''
 def retrieveProjectDataModel():
-'''public IlvGanttModel retrieveProjectDataModel(final String projectId)
-'''
-pass
+    '''    public IlvGanttModel retrieveProjectDataModel(final String projectId)
+    '''
 def hideGlass():
-'''public void hideGlass()
-'''
-pass
+    '''    public void hideGlass()
+    '''
 def showGlass():
-'''public void showGlass(final String string)
-'''
-pass
+    '''    public void showGlass(final String string)
+    '''
 def retrieveSKDUIInfo():
-'''public ISKDUIInfo retrieveSKDUIInfo()
-'''
-pass
+    '''    public ISKDUIInfo retrieveSKDUIInfo()
+    '''
 def retrieveSKDUIInfoProjId():
-'''public ISKDUIInfo retrieveSKDUIInfoProjId()
-'''
-pass
+    '''    public ISKDUIInfo retrieveSKDUIInfoProjId()
+    '''
 def sendModelChangesRemote():
-'''public void sendModelChangesRemote(final GanttModelChanges modelChanges)
-'''
-pass
+    '''    public void sendModelChangesRemote(final GanttModelChanges modelChanges)
+    '''
 def sendConfigChangesRemote():
-'''public void sendConfigChangesRemote(final GanttConfigChanges configChanges)
-'''
-pass
+    '''    public void sendConfigChangesRemote(final GanttConfigChanges configChanges)
+    '''
 def setLookAndFeel():
-'''public void setLookAndFeel()
-'''
-pass
+    '''    public void setLookAndFeel()
+    '''
 def switchCompliance():
-'''public void switchCompliance()
-'''
-pass
+    '''    public void switchCompliance()
+    '''
 def showCompliance():
-'''public void showCompliance(final boolean showCompliance)
-'''
-pass
+    '''    public void showCompliance(final boolean showCompliance)
+    '''
 def handleAppletEvent():
-'''public void handleAppletEvent(final String eventName, String eventData, final boolean decode)
-'''
-pass
+    '''    public void handleAppletEvent(final String eventName, String eventData, final boolean decode)
+    '''
 def viewScenario():
-'''public void viewScenario(final String eventName, final Object data)
-'''
-pass
+    '''    public void viewScenario(final String eventName, final Object data)
+    '''
 def getAppletEventBus():
-'''public SimpleMessageBus getAppletEventBus()
-'''
-pass
+    '''    public SimpleMessageBus getAppletEventBus()
+    '''
 def getHeaderView():
-'''public AppHeaderView getHeaderView()
-'''
-pass
+    '''    public AppHeaderView getHeaderView()
+    '''
 def copyGanttModel():
-'''public void copyGanttModel(final IlvGanttModel model)
-'''
-pass
+    '''    public void copyGanttModel(final IlvGanttModel model)
+    '''
 def getGanttModelCopy():
-'''public IlvGanttModel getGanttModelCopy()
-'''
-pass
+    '''    public IlvGanttModel getGanttModelCopy()
+    '''
 def visibilityCallback():
-'''public void visibilityCallback(final boolean visible)
-'''
-pass
+    '''    public void visibilityCallback(final boolean visible)
+    '''
 def disableEvents():
-'''public static void disableEvents()
-'''
-pass
+    '''    public static void disableEvents()
+    '''
 def enableEvents():
-'''public static void enableEvents()
-'''
-pass
+    '''    public static void enableEvents()
+    '''
 def setEventState():
-'''public static void setEventState(final boolean state)
-'''
-pass
+    '''    public static void setEventState(final boolean state)
+    '''
 def resize():
-'''public void resize(final int width, final int height)
-'''
-pass
+    '''    public void resize(final int width, final int height)
+    '''
 def clearState():
-'''public void clearState()
-'''
-pass
+    '''    public void clearState()
+    '''
 def resizedRecently():
-'''public static boolean resizedRecently()
-'''
-pass
+    '''    public static boolean resizedRecently()
+    '''
 def persistManagedState():
-'''public void persistManagedState(final String projectid)
-'''
-pass
+    '''    public void persistManagedState(final String projectid)
+    '''
 def SKDActivityListener():
-'''public SKDActivityListener()
-'''
-pass
+    '''    public SKDActivityListener()
+    '''
 def activityChanged():
-'''public void activityChanged(final ActivityEvent event)
-'''
-pass
+    '''    public void activityChanged(final ActivityEvent event)
+    '''
 def SKDResourceListener():
-'''public SKDResourceListener()
-'''
-pass
+    '''    public SKDResourceListener()
+    '''
 def resourceChanged():
-'''public void resourceChanged(final ResourceEvent event)
-'''
-pass
+    '''    public void resourceChanged(final ResourceEvent event)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-public boolean isEnabled()
-public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    public boolean isEnabled()
+    public boolean isEnabled()
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean enabled)
-public void setEnabled(final boolean enabled)
-public void setEnabled(final boolean enabled)
-'''
-pass
+    '''    public void setEnabled(final boolean enabled)
+    public void setEnabled(final boolean enabled)
+    public void setEnabled(final boolean enabled)
+    '''
 def SKDConstraintListener():
-'''public SKDConstraintListener()
-'''
-pass
+    '''    public SKDConstraintListener()
+    '''
 def constraintChanged():
-'''public void constraintChanged(final ConstraintEvent event)
-'''
-pass
+    '''    public void constraintChanged(final ConstraintEvent event)
+    '''
 def SKDReservationListener():
-'''public SKDReservationListener()
-'''
-pass
+    '''    public SKDReservationListener()
+    '''
 def setSegmentInfo():
-'''public void setSegmentInfo(final IlvGeneralActivity activity, final MXResource res, final MXReservation reservation)
-'''
-pass
+    '''    public void setSegmentInfo(final IlvGeneralActivity activity, final MXResource res, final MXReservation reservation)
+    '''
 def getShowAssignWarning():
-'''public boolean getShowAssignWarning(final IlvGeneralActivity currentActivity, final MXResource res, final MXReservation reservation)
-'''
-pass
+    '''    public boolean getShowAssignWarning(final IlvGeneralActivity currentActivity, final MXResource res, final MXReservation reservation)
+    '''
 def reservationChanged():
-'''public void reservationChanged(final ReservationEvent event)
-'''
-pass
+    '''    public void reservationChanged(final ReservationEvent event)
+    '''
 def ListenerHelper():
-'''public ListenerHelper()
-'''
-pass
+    '''    public ListenerHelper()
+    '''
 def attachToModel():
-'''public void attachToModel(final IlvGanttModel model)
-'''
-pass
+    '''    public void attachToModel(final IlvGanttModel model)
+    '''
 def disable():
-'''public void disable()
-'''
-pass
+    '''    public void disable()
+    '''
 def enable():
-'''public void enable()
-'''
-pass
+    '''    public void enable()
+    '''
 def SKDGanttModelListener():
-'''public SKDGanttModelListener()
-'''
-pass
+    '''    public SKDGanttModelListener()
+    '''
 def ganttModelChanged():
-'''public void ganttModelChanged(final GanttModelChangedEvent event)
-'''
-pass
+    '''    public void ganttModelChanged(final GanttModelChangedEvent event)
+    '''
 def setAdjusting():
-'''public void setAdjusting(final boolean adjusting)
-public void setAdjusting(final boolean adjusting)
-'''
-pass
+    '''    public void setAdjusting(final boolean adjusting)
+    public void setAdjusting(final boolean adjusting)
+    '''
 def ViewerGanttModel():
-'''public ViewerGanttModel(final IlvDefaultGanttModel ganttModel)
-'''
-pass
+    '''    public ViewerGanttModel(final IlvDefaultGanttModel ganttModel)
+    '''
 def addActivity():
-'''public void addActivity(final IlvActivity newActivity, final IlvActivity parentActivity)
-public void addActivity(final IlvActivity newActivity, final IlvActivity parentActivity, final int index)
-'''
-pass
+    '''    public void addActivity(final IlvActivity newActivity, final IlvActivity parentActivity)
+    public void addActivity(final IlvActivity newActivity, final IlvActivity parentActivity, final int index)
+    '''
 def addActivityModelchange():
-'''public void addActivityModelchange(final IlvActivity newActivity, final IlvActivity parentActivity)
-'''
-pass
+    '''    public void addActivityModelchange(final IlvActivity newActivity, final IlvActivity parentActivity)
+    '''
 def removeActivity():
-'''public void removeActivity(final IlvActivity activity)
-public void removeActivity(final IlvActivity activity, final int index)
-'''
-pass
+    '''    public void removeActivity(final IlvActivity activity)
+    public void removeActivity(final IlvActivity activity, final int index)
+    '''
 def removeActivityModelchange():
-'''public void removeActivityModelchange(final IlvActivity removeactivity)
-'''
-pass
+    '''    public void removeActivityModelchange(final IlvActivity removeactivity)
+    '''
 def LoggableRunnable():
-'''public LoggableRunnable(final Runnable run, final String msg)
-'''
-pass
+    '''    public LoggableRunnable(final Runnable run, final String msg)
+    '''
 def sendModelChanges():
-'''public void sendModelChanges(final GanttModelChanges modelChanges)
-'''
-pass
+    '''    public void sendModelChanges(final GanttModelChanges modelChanges)
+    '''
 def sendConfigChanges():
-'''public void sendConfigChanges(final GanttConfigChanges configChanges)
-'''
-pass
+    '''    public void sendConfigChanges(final GanttConfigChanges configChanges)
+    '''
 def skdSortCombo():
-'''public skdSortCombo()
-'''
-pass
+    '''    public skdSortCombo()
+    '''

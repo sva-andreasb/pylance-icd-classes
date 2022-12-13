@@ -1,16 +1,12 @@
 def PmStatusSummaryBean():
-'''public PmStatusSummaryBean()
-'''
-pass
+    '''    public PmStatusSummaryBean()
+    '''
 def sort():
-'''public synchronized void sort(final String sOrderByClause)
-'''
-pass
+    '''    public synchronized void sort(final String sOrderByClause)
+    '''
 def elapseTime():
-'''public String elapseTime(final long dtime)
-'''
-pass
+    '''    public String elapseTime(final long dtime)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

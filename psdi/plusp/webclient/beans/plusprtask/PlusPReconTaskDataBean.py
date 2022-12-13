@@ -1,4 +1,3 @@
 def addlinkrule():
-'''public int addlinkrule()
-'''
-pass
+    '''    public int addlinkrule()
+    '''

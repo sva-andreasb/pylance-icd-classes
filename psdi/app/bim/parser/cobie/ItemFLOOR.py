@@ -1,72 +1,54 @@
 def ItemFLOOR():
-'''public ItemFLOOR()
-'''
-pass
+    '''    public ItemFLOOR()
+    '''
 def resolveRerefences():
-'''public void resolveRerefences(final Parser project, final long flags)
-'''
-pass
+    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''
 def addComponent():
-'''public void addComponent(final ItemCOMPONENT component)
-'''
-pass
+    '''    public void addComponent(final ItemCOMPONENT component)
+    '''
 def addSpace():
-'''public void addSpace(final ItemSPACE space)
-'''
-pass
+    '''    public void addSpace(final ItemSPACE space)
+    '''
 def components():
-'''public Enumeration<ItemCOMPONENT> components()
-'''
-pass
+    '''    public Enumeration<ItemCOMPONENT> components()
+    '''
 def getComponentCount():
-'''public int getComponentCount()
-'''
-pass
+    '''    public int getComponentCount()
+    '''
 def getDateTineStamp():
-'''public String getDateTineStamp()
-'''
-pass
+    '''    public String getDateTineStamp()
+    '''
 def getElevation():
-'''public String getElevation()
-'''
-pass
+    '''    public String getElevation()
+    '''
 def getFloorTag():
-'''public String getFloorTag()
-'''
-pass
+    '''    public String getFloorTag()
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def getSpacesCount():
-'''public int getSpacesCount()
-'''
-pass
+    '''    public int getSpacesCount()
+    '''
 def setDateTimeStamp():
-'''public void setDateTimeStamp(final String dateTimeStamp)
-'''
-pass
+    '''    public void setDateTimeStamp(final String dateTimeStamp)
+    '''
 def setElevation():
-'''public void setElevation(final String elevation)
-'''
-pass
+    '''    public void setElevation(final String elevation)
+    '''
 def setFloorTag():
-'''public void setFloorTag(final String floorTag)
-'''
-pass
+    '''    public void setFloorTag(final String floorTag)
+    '''
 def setHeight():
-'''public void setHeight(final String height)
-'''
-pass
+    '''    public void setHeight(final String height)
+    '''
 def spaces():
-'''public Enumeration<ItemSPACE> spaces()
-'''
-pass
+    '''    public Enumeration<ItemSPACE> spaces()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

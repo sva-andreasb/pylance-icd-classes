@@ -1,121 +1,91 @@
 def getGuest():
-'''public Guest getGuest()
-'''
-pass
+    '''    public Guest getGuest()
+    '''
 def setGuest():
-'''public void setGuest(final Guest guest)
-'''
-pass
+    '''    public void setGuest(final Guest guest)
+    '''
 def setGuestBootParameterType():
-'''public void setGuestBootParameterType(final com.softlayer.api.service.virtual.guest.boot.parameter.Type guestBootParameterType)
-'''
-pass
+    '''    public void setGuestBootParameterType(final com.softlayer.api.service.virtual.guest.boot.parameter.Type guestBootParameterType)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getGuestBootParameterTypeId():
-'''public Long getGuestBootParameterTypeId()
-'''
-pass
+    '''    public Long getGuestBootParameterTypeId()
+    '''
 def setGuestBootParameterTypeId():
-'''public void setGuestBootParameterTypeId(final Long guestBootParameterTypeId)
-'''
-pass
+    '''    public void setGuestBootParameterTypeId(final Long guestBootParameterTypeId)
+    '''
 def isGuestBootParameterTypeIdSpecified():
-'''public boolean isGuestBootParameterTypeIdSpecified()
-'''
-pass
+    '''    public boolean isGuestBootParameterTypeIdSpecified()
+    '''
 def unsetGuestBootParameterTypeId():
-'''public void unsetGuestBootParameterTypeId()
-'''
-pass
+    '''    public void unsetGuestBootParameterTypeId()
+    '''
 def getGuestId():
-'''public Long getGuestId()
-'''
-pass
+    '''    public Long getGuestId()
+    '''
 def setGuestId():
-'''public void setGuestId(final Long guestId)
-'''
-pass
+    '''    public void setGuestId(final Long guestId)
+    '''
 def isGuestIdSpecified():
-'''public boolean isGuestIdSpecified()
-'''
-pass
+    '''    public boolean isGuestIdSpecified()
+    '''
 def unsetGuestId():
-'''public void unsetGuestId()
-'''
-pass
+    '''    public void unsetGuestId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def guestBootParameterTypeId():
-'''public Mask guestBootParameterTypeId()
-'''
-pass
+    '''    public Mask guestBootParameterTypeId()
+    '''
 def guestId():
-'''public Mask guestId()
-'''
-pass
+    '''    public Mask guestId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''

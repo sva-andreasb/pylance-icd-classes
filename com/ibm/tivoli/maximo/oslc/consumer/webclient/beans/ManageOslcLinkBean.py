@@ -1,8 +1,6 @@
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''

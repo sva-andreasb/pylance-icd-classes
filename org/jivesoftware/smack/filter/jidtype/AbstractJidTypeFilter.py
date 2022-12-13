@@ -1,12 +1,9 @@
 def accept():
-'''public boolean accept(final Stanza stanza)
-'''
-pass
+    '''    public boolean accept(final Stanza stanza)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def isTypeOf():
-'''public boolean isTypeOf(final Jid jid)
-'''
-pass
+    '''    public boolean isTypeOf(final Jid jid)
+    '''

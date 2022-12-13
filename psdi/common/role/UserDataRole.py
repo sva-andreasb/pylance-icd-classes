@@ -1,4 +1,3 @@
 def evaluateCustomRole():
-'''public MboRemote evaluateCustomRole(final MaxRole roleMbo, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote evaluateCustomRole(final MaxRole roleMbo, final MboRemote mbo)
+    '''

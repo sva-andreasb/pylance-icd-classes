@@ -1,24 +1,18 @@
 def PlusCDSConfig():
-'''public PlusCDSConfig(final MboSet ms)
-'''
-pass
+    '''    public PlusCDSConfig(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getTolTruncate():
-'''public boolean getTolTruncate()
-'''
-pass
+    '''    public boolean getTolTruncate()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

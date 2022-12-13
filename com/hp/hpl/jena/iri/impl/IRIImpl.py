@@ -1,8 +1,6 @@
 def IRIImpl():
-'''public IRIImpl(final IRIFactory f)
-'''
-pass
+    '''    public IRIImpl(final IRIFactory f)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,102 +1,77 @@
 def MockLowLevelHttpResponse():
-'''public MockLowLevelHttpResponse()
-'''
-pass
+    '''    public MockLowLevelHttpResponse()
+    '''
 def addHeader():
-'''public MockLowLevelHttpResponse addHeader(final String name, final String value)
-'''
-pass
+    '''    public MockLowLevelHttpResponse addHeader(final String name, final String value)
+    '''
 def setContent():
-'''public MockLowLevelHttpResponse setContent(final String stringContent)
-public MockLowLevelHttpResponse setContent(final byte[] byteContent)
-public MockLowLevelHttpResponse setContent(final InputStream content)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setContent(final String stringContent)
+    public MockLowLevelHttpResponse setContent(final byte[] byteContent)
+    public MockLowLevelHttpResponse setContent(final InputStream content)
+    '''
 def setZeroContent():
-'''public MockLowLevelHttpResponse setZeroContent()
-'''
-pass
+    '''    public MockLowLevelHttpResponse setZeroContent()
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def getContentEncoding():
-'''public String getContentEncoding()
-'''
-pass
+    '''    public String getContentEncoding()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getContentType():
-'''public final String getContentType()
-'''
-pass
+    '''    public final String getContentType()
+    '''
 def getHeaderCount():
-'''public int getHeaderCount()
-'''
-pass
+    '''    public int getHeaderCount()
+    '''
 def getHeaderName():
-'''public String getHeaderName(final int index)
-'''
-pass
+    '''    public String getHeaderName(final int index)
+    '''
 def getHeaderValue():
-'''public String getHeaderValue(final int index)
-'''
-pass
+    '''    public String getHeaderValue(final int index)
+    '''
 def getReasonPhrase():
-'''public String getReasonPhrase()
-'''
-pass
+    '''    public String getReasonPhrase()
+    '''
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''
 def getStatusLine():
-'''public String getStatusLine()
-'''
-pass
+    '''    public String getStatusLine()
+    '''
 def getHeaderNames():
-'''public final List<String> getHeaderNames()
-'''
-pass
+    '''    public final List<String> getHeaderNames()
+    '''
 def setHeaderNames():
-'''public MockLowLevelHttpResponse setHeaderNames(final List<String> headerNames)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setHeaderNames(final List<String> headerNames)
+    '''
 def getHeaderValues():
-'''public final List<String> getHeaderValues()
-'''
-pass
+    '''    public final List<String> getHeaderValues()
+    '''
 def setHeaderValues():
-'''public MockLowLevelHttpResponse setHeaderValues(final List<String> headerValues)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setHeaderValues(final List<String> headerValues)
+    '''
 def setContentType():
-'''public MockLowLevelHttpResponse setContentType(final String contentType)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setContentType(final String contentType)
+    '''
 def setContentEncoding():
-'''public MockLowLevelHttpResponse setContentEncoding(final String contentEncoding)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setContentEncoding(final String contentEncoding)
+    '''
 def setContentLength():
-'''public MockLowLevelHttpResponse setContentLength(final long contentLength)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setContentLength(final long contentLength)
+    '''
 def setStatusCode():
-'''public MockLowLevelHttpResponse setStatusCode(final int statusCode)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setStatusCode(final int statusCode)
+    '''
 def setReasonPhrase():
-'''public MockLowLevelHttpResponse setReasonPhrase(final String reasonPhrase)
-'''
-pass
+    '''    public MockLowLevelHttpResponse setReasonPhrase(final String reasonPhrase)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def isDisconnected():
-'''public boolean isDisconnected()
-'''
-pass
+    '''    public boolean isDisconnected()
+    '''

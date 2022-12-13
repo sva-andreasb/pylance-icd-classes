@@ -1,12 +1,9 @@
 def AutoScriptTest():
-'''public AutoScriptTest(final MboSet ms)
-'''
-pass
+    '''    public AutoScriptTest(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setfaceName():
-'''public void setfaceName(final String ifaceType, String ifaceName)
-'''
-pass
+    '''    public void setfaceName(final String ifaceType, String ifaceName)
+    '''

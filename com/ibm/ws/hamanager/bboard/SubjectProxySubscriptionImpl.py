@@ -1,4 +1,3 @@
 def requestCurrentState():
-'''public SubjectValue[] requestCurrentState()
-'''
-pass
+    '''    public SubjectValue[] requestCurrentState()
+    '''

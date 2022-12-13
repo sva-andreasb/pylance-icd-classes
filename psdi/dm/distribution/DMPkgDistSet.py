@@ -1,8 +1,6 @@
 def DMPkgDistSet():
-'''public DMPkgDistSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMPkgDistSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

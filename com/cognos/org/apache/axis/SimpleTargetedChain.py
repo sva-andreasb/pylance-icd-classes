@@ -1,26 +1,20 @@
 def SimpleTargetedChain():
-'''public SimpleTargetedChain()
-public SimpleTargetedChain(final Handler handler)
-public SimpleTargetedChain(final Handler reqHandler, final Handler pivHandler, final Handler respHandler)
-'''
-pass
+    '''    public SimpleTargetedChain()
+    public SimpleTargetedChain(final Handler handler)
+    public SimpleTargetedChain(final Handler reqHandler, final Handler pivHandler, final Handler respHandler)
+    '''
 def getRequestHandler():
-'''public Handler getRequestHandler()
-'''
-pass
+    '''    public Handler getRequestHandler()
+    '''
 def getPivotHandler():
-'''public Handler getPivotHandler()
-'''
-pass
+    '''    public Handler getPivotHandler()
+    '''
 def getResponseHandler():
-'''public Handler getResponseHandler()
-'''
-pass
+    '''    public Handler getResponseHandler()
+    '''
 def PivotIndicator():
-'''public PivotIndicator()
-'''
-pass
+    '''    public PivotIndicator()
+    '''
 def invoke():
-'''public void invoke(final MessageContext msgContext)
-'''
-pass
+    '''    public void invoke(final MessageContext msgContext)
+    '''

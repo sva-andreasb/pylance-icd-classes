@@ -1,36 +1,27 @@
 def CrossoverFldDetail():
-'''public CrossoverFldDetail(final String srcFld, final String targetFld, final String cond1, final String cond2, final boolean srcNull, final boolean targetNull)
-'''
-pass
+    '''    public CrossoverFldDetail(final String srcFld, final String targetFld, final String cond1, final String cond2, final boolean srcNull, final boolean targetNull)
+    '''
 def getSourceAttrName():
-'''public String getSourceAttrName()
-'''
-pass
+    '''    public String getSourceAttrName()
+    '''
 def setSourceAttrName():
-'''public void setSourceAttrName(final String input)
-'''
-pass
+    '''    public void setSourceAttrName(final String input)
+    '''
 def getTargetAttrName():
-'''public String getTargetAttrName()
-'''
-pass
+    '''    public String getTargetAttrName()
+    '''
 def setTargetAttrName():
-'''public void setTargetAttrName(final String input)
-'''
-pass
+    '''    public void setTargetAttrName(final String input)
+    '''
 def getSrcConditionNum():
-'''public String getSrcConditionNum()
-'''
-pass
+    '''    public String getSrcConditionNum()
+    '''
 def getTargetConditionNum():
-'''public String getTargetConditionNum()
-'''
-pass
+    '''    public String getTargetConditionNum()
+    '''
 def isCopyOnlyIfTargetNull():
-'''public boolean isCopyOnlyIfTargetNull()
-'''
-pass
+    '''    public boolean isCopyOnlyIfTargetNull()
+    '''
 def isCopyEvenIfSourceNull():
-'''public boolean isCopyEvenIfSourceNull()
-'''
-pass
+    '''    public boolean isCopyEvenIfSourceNull()
+    '''

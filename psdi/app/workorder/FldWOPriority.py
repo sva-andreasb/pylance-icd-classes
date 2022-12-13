@@ -1,8 +1,6 @@
 def FldWOPriority():
-'''public FldWOPriority(final MboValue mbv)
-'''
-pass
+    '''    public FldWOPriority(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

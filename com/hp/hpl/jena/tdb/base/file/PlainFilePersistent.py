@@ -1,8 +1,6 @@
 def sync():
-'''public void sync(final boolean force)
-'''
-pass
+    '''    public void sync(final boolean force)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

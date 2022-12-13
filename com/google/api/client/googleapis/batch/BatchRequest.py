@@ -1,36 +1,27 @@
 def BatchRequest():
-'''public BatchRequest(final HttpTransport transport, final HttpRequestInitializer httpRequestInitializer)
-'''
-pass
+    '''    public BatchRequest(final HttpTransport transport, final HttpRequestInitializer httpRequestInitializer)
+    '''
 def setBatchUrl():
-'''public BatchRequest setBatchUrl(final GenericUrl batchUrl)
-'''
-pass
+    '''    public BatchRequest setBatchUrl(final GenericUrl batchUrl)
+    '''
 def getBatchUrl():
-'''public GenericUrl getBatchUrl()
-'''
-pass
+    '''    public GenericUrl getBatchUrl()
+    '''
 def getSleeper():
-'''public Sleeper getSleeper()
-'''
-pass
+    '''    public Sleeper getSleeper()
+    '''
 def setSleeper():
-'''public BatchRequest setSleeper(final Sleeper sleeper)
-'''
-pass
+    '''    public BatchRequest setSleeper(final Sleeper sleeper)
+    '''
 def queue():
-'''public <T, E> BatchRequest queue(final HttpRequest httpRequest, final Class<T> dataClass, final Class<E> errorClass, final BatchCallback<T, E> callback)
-'''
-pass
+    '''    public <T, E> BatchRequest queue(final HttpRequest httpRequest, final Class<T> dataClass, final Class<E> errorClass, final BatchCallback<T, E> callback)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def intercept():
-'''public void intercept(final HttpRequest batchRequest)
-'''
-pass
+    '''    public void intercept(final HttpRequest batchRequest)
+    '''

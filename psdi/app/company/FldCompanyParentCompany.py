@@ -1,20 +1,15 @@
 def FldCompanyParentCompany():
-'''public FldCompanyParentCompany(final MboValue mv)
-'''
-pass
+    '''    public FldCompanyParentCompany(final MboValue mv)
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

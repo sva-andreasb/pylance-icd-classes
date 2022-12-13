@@ -1,37 +1,28 @@
 def ConstantMultiFieldModifier():
-'''public ConstantMultiFieldModifier(final FormattedStringBuilder prefix, final FormattedStringBuilder suffix, final boolean overwrite, final boolean strong)
-public ConstantMultiFieldModifier(final FormattedStringBuilder prefix, final FormattedStringBuilder suffix, final boolean overwrite, final boolean strong, final Parameters parameters)
-'''
-pass
+    '''    public ConstantMultiFieldModifier(final FormattedStringBuilder prefix, final FormattedStringBuilder suffix, final boolean overwrite, final boolean strong)
+    public ConstantMultiFieldModifier(final FormattedStringBuilder prefix, final FormattedStringBuilder suffix, final boolean overwrite, final boolean strong, final Parameters parameters)
+    '''
 def apply():
-'''public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
-'''
-pass
+    '''    public int apply(final FormattedStringBuilder output, final int leftIndex, final int rightIndex)
+    '''
 def getPrefixLength():
-'''public int getPrefixLength()
-'''
-pass
+    '''    public int getPrefixLength()
+    '''
 def getCodePointCount():
-'''public int getCodePointCount()
-'''
-pass
+    '''    public int getCodePointCount()
+    '''
 def isStrong():
-'''public boolean isStrong()
-'''
-pass
+    '''    public boolean isStrong()
+    '''
 def containsField():
-'''public boolean containsField(final Format.Field field)
-'''
-pass
+    '''    public boolean containsField(final Format.Field field)
+    '''
 def getParameters():
-'''public Parameters getParameters()
-'''
-pass
+    '''    public Parameters getParameters()
+    '''
 def semanticallyEquivalent():
-'''public boolean semanticallyEquivalent(final Modifier other)
-'''
-pass
+    '''    public boolean semanticallyEquivalent(final Modifier other)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

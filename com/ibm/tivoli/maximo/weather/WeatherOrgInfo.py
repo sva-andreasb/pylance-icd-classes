@@ -1,29 +1,22 @@
 def WeatherOrgInfo():
-'''public WeatherOrgInfo(final String org, final String clientId, final String clientSecret, final String serverURL)
-public WeatherOrgInfo(final String org)
-'''
-pass
+    '''    public WeatherOrgInfo(final String org, final String clientId, final String clientSecret, final String serverURL)
+    public WeatherOrgInfo(final String org)
+    '''
 def getOrganization():
-'''public String getOrganization()
-'''
-pass
+    '''    public String getOrganization()
+    '''
 def getClientId():
-'''public String getClientId()
-'''
-pass
+    '''    public String getClientId()
+    '''
 def getClientSecret():
-'''public String getClientSecret()
-'''
-pass
+    '''    public String getClientSecret()
+    '''
 def getServerURL():
-'''public String getServerURL()
-'''
-pass
+    '''    public String getServerURL()
+    '''
 def getAssetMap():
-'''public Map<String, WeatherAssetInfo> getAssetMap()
-'''
-pass
+    '''    public Map<String, WeatherAssetInfo> getAssetMap()
+    '''
 def setAssetMap():
-'''public void setAssetMap(final Map<String, WeatherAssetInfo> set)
-'''
-pass
+    '''    public void setAssetMap(final Map<String, WeatherAssetInfo> set)
+    '''

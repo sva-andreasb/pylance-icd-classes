@@ -1,12 +1,9 @@
 def DMDeployablePkgSet():
-'''public DMDeployablePkgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMDeployablePkgSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def getErroredFiles():
-'''public StringBuffer getErroredFiles()
-'''
-pass
+    '''    public StringBuffer getErroredFiles()
+    '''

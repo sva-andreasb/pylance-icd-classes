@@ -1,13 +1,10 @@
 def OctetStream():
-'''public OctetStream()
-public OctetStream(final byte[] bytes)
-'''
-pass
+    '''    public OctetStream()
+    public OctetStream(final byte[] bytes)
+    '''
 def getBytes():
-'''public byte[] getBytes()
-'''
-pass
+    '''    public byte[] getBytes()
+    '''
 def setBytes():
-'''public void setBytes(final byte[] bytes)
-'''
-pass
+    '''    public void setBytes(final byte[] bytes)
+    '''

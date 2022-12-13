@@ -1,12 +1,9 @@
 def FldInvCostNewAvgCost():
-'''public FldInvCostNewAvgCost(final MboValue mbv)
-'''
-pass
+    '''    public FldInvCostNewAvgCost(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

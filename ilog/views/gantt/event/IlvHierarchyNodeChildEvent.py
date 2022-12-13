@@ -1,22 +1,17 @@
 def IlvHierarchyNodeChildEvent():
-'''public IlvHierarchyNodeChildEvent(final IlvGanttModel source, final N a, final int[] d)
-public IlvHierarchyNodeChildEvent(final IlvGanttModel source, final N a, final List<? extends N> c)
-public IlvHierarchyNodeChildEvent(final IlvGanttModel source, final N a, final List<? extends N> c, final int[] d)
-'''
-pass
+    '''    public IlvHierarchyNodeChildEvent(final IlvGanttModel source, final N a, final int[] d)
+    public IlvHierarchyNodeChildEvent(final IlvGanttModel source, final N a, final List<? extends N> c)
+    public IlvHierarchyNodeChildEvent(final IlvGanttModel source, final N a, final List<? extends N> c, final int[] d)
+    '''
 def getGanttModel():
-'''public IlvGanttModel getGanttModel()
-'''
-pass
+    '''    public IlvGanttModel getGanttModel()
+    '''
 def getChildIndices():
-'''public int[] getChildIndices()
-'''
-pass
+    '''    public int[] getChildIndices()
+    '''
 def getChildren():
-'''public List<N> getChildren()
-'''
-pass
+    '''    public List<N> getChildren()
+    '''
 def getChildNodes():
-'''public IlvHierarchyNode[] getChildNodes()
-'''
-pass
+    '''    public IlvHierarchyNode[] getChildNodes()
+    '''

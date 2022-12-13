@@ -1,63 +1,48 @@
 def MultiFileOutputStream():
-'''public MultiFileOutputStream()
-public MultiFileOutputStream(final File root, final String namePrefix)
-'''
-pass
+    '''    public MultiFileOutputStream()
+    public MultiFileOutputStream(final File root, final String namePrefix)
+    '''
 def init():
-'''public MultiFileOutputStream init(final UploadObjectObserver observer, final long partSize, final long diskLimit)
-'''
-pass
+    '''    public MultiFileOutputStream init(final UploadObjectObserver observer, final long partSize, final long diskLimit)
+    '''
 def write():
-'''public void write(final int b)
-public void write(final byte[] b)
-public void write(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public void write(final int b)
+    public void write(final byte[] b)
+    public void write(final byte[] b, final int off, final int len)
+    '''
 def onFileDelete():
-'''public void onFileDelete(final FileDeletionEvent event)
-'''
-pass
+    '''    public void onFileDelete(final FileDeletionEvent event)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def getNumFilesWritten():
-'''public int getNumFilesWritten()
-'''
-pass
+    '''    public int getNumFilesWritten()
+    '''
 def getFile():
-'''public File getFile(final int partNumber)
-'''
-pass
+    '''    public File getFile(final int partNumber)
+    '''
 def getPartSize():
-'''public long getPartSize()
-'''
-pass
+    '''    public long getPartSize()
+    '''
 def getRoot():
-'''public File getRoot()
-'''
-pass
+    '''    public File getRoot()
+    '''
 def getNamePrefix():
-'''public String getNamePrefix()
-'''
-pass
+    '''    public String getNamePrefix()
+    '''
 def getTotalBytesWritten():
-'''public long getTotalBytesWritten()
-'''
-pass
+    '''    public long getTotalBytesWritten()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getDiskLimit():
-'''public long getDiskLimit()
-'''
-pass
+    '''    public long getDiskLimit()
+    '''

@@ -1,75 +1,57 @@
 def SimpleFilteredSentenceBreakIterator():
-'''public SimpleFilteredSentenceBreakIterator(final BreakIterator adoptBreakIterator, final CharsTrie forwardsPartialTrie, final CharsTrie backwardsTrie)
-'''
-pass
+    '''    public SimpleFilteredSentenceBreakIterator(final BreakIterator adoptBreakIterator, final CharsTrie forwardsPartialTrie, final CharsTrie backwardsTrie)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def first():
-'''public int first()
-'''
-pass
+    '''    public int first()
+    '''
 def preceding():
-'''public int preceding(final int offset)
-'''
-pass
+    '''    public int preceding(final int offset)
+    '''
 def previous():
-'''public int previous()
-'''
-pass
+    '''    public int previous()
+    '''
 def current():
-'''public int current()
-'''
-pass
+    '''    public int current()
+    '''
 def isBoundary():
-'''public boolean isBoundary(final int offset)
-'''
-pass
+    '''    public boolean isBoundary(final int offset)
+    '''
 def next():
-'''public int next()
-public int next(final int n)
-'''
-pass
+    '''    public int next()
+    public int next(final int n)
+    '''
 def following():
-'''public int following(final int offset)
-'''
-pass
+    '''    public int following(final int offset)
+    '''
 def last():
-'''public int last()
-'''
-pass
+    '''    public int last()
+    '''
 def getText():
-'''public CharacterIterator getText()
-'''
-pass
+    '''    public CharacterIterator getText()
+    '''
 def setText():
-'''public void setText(final CharacterIterator newText)
-'''
-pass
+    '''    public void setText(final CharacterIterator newText)
+    '''
 def Builder():
-'''public Builder(final Locale loc)
-public Builder(final ULocale loc)
-public Builder()
-'''
-pass
+    '''    public Builder(final Locale loc)
+    public Builder(final ULocale loc)
+    public Builder()
+    '''
 def suppressBreakAfter():
-'''public boolean suppressBreakAfter(final CharSequence str)
-'''
-pass
+    '''    public boolean suppressBreakAfter(final CharSequence str)
+    '''
 def unsuppressBreakAfter():
-'''public boolean unsuppressBreakAfter(final CharSequence str)
-'''
-pass
+    '''    public boolean unsuppressBreakAfter(final CharSequence str)
+    '''
 def wrapIteratorWithFilter():
-'''public BreakIterator wrapIteratorWithFilter(final BreakIterator adoptBreakIterator)
-'''
-pass
+    '''    public BreakIterator wrapIteratorWithFilter(final BreakIterator adoptBreakIterator)
+    '''

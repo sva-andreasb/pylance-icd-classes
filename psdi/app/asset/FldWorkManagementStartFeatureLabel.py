@@ -1,4 +1,3 @@
 def FldWorkManagementStartFeatureLabel():
-'''public FldWorkManagementStartFeatureLabel(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkManagementStartFeatureLabel(final MboValue mbv)
+    '''

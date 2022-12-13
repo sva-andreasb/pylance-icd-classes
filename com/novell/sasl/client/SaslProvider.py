@@ -1,8 +1,6 @@
 def SaslProvider():
-'''public SaslProvider()
-'''
-pass
+    '''    public SaslProvider()
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''

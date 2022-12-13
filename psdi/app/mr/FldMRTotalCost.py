@@ -1,8 +1,6 @@
 def FldMRTotalCost():
-'''public FldMRTotalCost(final MboValue mbv)
-'''
-pass
+    '''    public FldMRTotalCost(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

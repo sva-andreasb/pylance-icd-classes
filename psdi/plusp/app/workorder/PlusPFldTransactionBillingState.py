@@ -1,12 +1,9 @@
 def PlusPFldTransactionBillingState():
-'''public PlusPFldTransactionBillingState(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldTransactionBillingState(final MboValue mv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

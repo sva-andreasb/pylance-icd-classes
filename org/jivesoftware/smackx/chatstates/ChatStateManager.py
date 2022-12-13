@@ -1,37 +1,28 @@
-NAMESPACE = "String  http://jabber.org/protocol/chatstates""
+NAMESPACE = "String  \"http://jabber.org/protocol/chatstates\""
 def getInstance():
-'''public static synchronized ChatStateManager getInstance(final XMPPConnection connection)
-'''
-pass
+    '''    public static synchronized ChatStateManager getInstance(final XMPPConnection connection)
+    '''
 def newOutgoingMessage():
-'''public void newOutgoingMessage(final EntityBareJid to, final Message message, final Chat chat)
-'''
-pass
+    '''    public void newOutgoingMessage(final EntityBareJid to, final Message message, final Chat chat)
+    '''
 def processStanza():
-'''public void processStanza(final Stanza stanza)
-'''
-pass
+    '''    public void processStanza(final Stanza stanza)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def addChatStateListener():
-'''public boolean addChatStateListener(final ChatStateListener listener)
-'''
-pass
+    '''    public boolean addChatStateListener(final ChatStateListener listener)
+    '''
 def removeChatStateListener():
-'''public boolean removeChatStateListener(final ChatStateListener listener)
-'''
-pass
+    '''    public boolean removeChatStateListener(final ChatStateListener listener)
+    '''
 def setCurrentState():
-'''public void setCurrentState(final ChatState newState, final Chat chat)
-'''
-pass
+    '''    public void setCurrentState(final ChatState newState, final Chat chat)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

@@ -1,12 +1,9 @@
 def BIMProductBaseSpecSet():
-'''public BIMProductBaseSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMProductBaseSpecSet(final MboServerInterface ms)
+    '''
 def whereClauseOnAttrAndValues():
-'''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classStructureid)
-'''
-pass
+    '''    public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classStructureid)
+    '''
 def parseALNValue():
-'''public String parseALNValue(final String value)
-'''
-pass
+    '''    public String parseALNValue(final String value)
+    '''

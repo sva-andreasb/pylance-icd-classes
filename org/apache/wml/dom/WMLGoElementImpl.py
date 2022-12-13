@@ -1,52 +1,39 @@
 def WMLGoElementImpl():
-'''public WMLGoElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLGoElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setSendreferer():
-'''public void setSendreferer(final String s)
-'''
-pass
+    '''    public void setSendreferer(final String s)
+    '''
 def getSendreferer():
-'''public String getSendreferer()
-'''
-pass
+    '''    public String getSendreferer()
+    '''
 def setAcceptCharset():
-'''public void setAcceptCharset(final String s)
-'''
-pass
+    '''    public void setAcceptCharset(final String s)
+    '''
 def getAcceptCharset():
-'''public String getAcceptCharset()
-'''
-pass
+    '''    public String getAcceptCharset()
+    '''
 def setHref():
-'''public void setHref(final String s)
-'''
-pass
+    '''    public void setHref(final String s)
+    '''
 def getHref():
-'''public String getHref()
-'''
-pass
+    '''    public String getHref()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setMethod():
-'''public void setMethod(final String s)
-'''
-pass
+    '''    public void setMethod(final String s)
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''

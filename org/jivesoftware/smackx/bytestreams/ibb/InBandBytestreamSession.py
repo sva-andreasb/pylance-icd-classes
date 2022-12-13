@@ -1,63 +1,49 @@
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getReadTimeout():
-'''public int getReadTimeout()
-'''
-pass
+    '''    public int getReadTimeout()
+    '''
 def setReadTimeout():
-'''public void setReadTimeout(final int timeout)
-'''
-pass
+    '''    public void setReadTimeout(final int timeout)
+    '''
 def isCloseBothStreamsEnabled():
-'''public boolean isCloseBothStreamsEnabled()
-'''
-pass
+    '''    public boolean isCloseBothStreamsEnabled()
+    '''
 def setCloseBothStreamsEnabled():
-'''public void setCloseBothStreamsEnabled(final boolean closeBothStreamsEnabled)
-'''
-pass
+    '''    public void setCloseBothStreamsEnabled(final boolean closeBothStreamsEnabled)
+    '''
 def close():
-'''public void close()
-public void close()
-public void close()
-'''
-pass
+    '''    public void close()
+    public void close()
+    public void close()
+    '''
 def processIQPacket():
-'''public void processIQPacket(final Data data)
-'''
-pass
+    '''    public void processIQPacket(final Data data)
+    '''
 def read():
-'''public synchronized int read()
-public synchronized int read(final byte[] b, final int off, int len)
-public synchronized int read(final byte[] b)
-'''
-pass
+    '''    public synchronized int read()
+    public synchronized int read(final byte[] b, final int off, int len)
+    public synchronized int read(final byte[] b)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def processStanza():
-'''public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-'''
-pass
+    '''    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    '''
 def accept():
-'''public boolean accept(final Stanza packet)
-'''
-pass
+    '''    public boolean accept(final Stanza packet)
+    '''
 def write():
-'''public synchronized void write(final int b)
-public synchronized void write(final byte[] b, final int off, final int len)
-public synchronized void write(final byte[] b)
-'''
-pass
+    '''    public synchronized void write(final int b)
+    public synchronized void write(final byte[] b, final int off, final int len)
+    public synchronized void write(final byte[] b)
+    '''
 def flush():
-'''public synchronized void flush()
-'''
-pass
+    '''    public synchronized void flush()
+    '''

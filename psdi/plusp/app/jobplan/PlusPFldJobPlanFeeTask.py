@@ -1,8 +1,6 @@
 def PlusPFldJobPlanFeeTask():
-'''public PlusPFldJobPlanFeeTask(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldJobPlanFeeTask(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

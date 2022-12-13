@@ -1,80 +1,60 @@
 def getOwnerAccount():
-'''public Account getOwnerAccount()
-'''
-pass
+    '''    public Account getOwnerAccount()
+    '''
 def setOwnerAccount():
-'''public void setOwnerAccount(final Account ownerAccount)
-'''
-pass
+    '''    public void setOwnerAccount(final Account ownerAccount)
+    '''
 def getPaymentMethods():
-'''public List<Method> getPaymentMethods()
-'''
-pass
+    '''    public List<Method> getPaymentMethods()
+    '''
 def setType():
-'''public void setType(final com.softlayer.api.service.billing.payment.processor.Type type)
-'''
-pass
+    '''    public void setType(final com.softlayer.api.service.billing.payment.processor.Type type)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getBrandAssignmentCount():
-'''public Long getBrandAssignmentCount()
-'''
-pass
+    '''    public Long getBrandAssignmentCount()
+    '''
 def setBrandAssignmentCount():
-'''public void setBrandAssignmentCount(final Long brandAssignmentCount)
-'''
-pass
+    '''    public void setBrandAssignmentCount(final Long brandAssignmentCount)
+    '''
 def getPaymentMethodCount():
-'''public Long getPaymentMethodCount()
-'''
-pass
+    '''    public Long getPaymentMethodCount()
+    '''
 def setPaymentMethodCount():
-'''public void setPaymentMethodCount(final Long paymentMethodCount)
-'''
-pass
+    '''    public void setPaymentMethodCount(final Long paymentMethodCount)
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def brandAssignmentCount():
-'''public Mask brandAssignmentCount()
-'''
-pass
+    '''    public Mask brandAssignmentCount()
+    '''
 def paymentMethodCount():
-'''public Mask paymentMethodCount()
-'''
-pass
+    '''    public Mask paymentMethodCount()
+    '''

@@ -1,8 +1,6 @@
 def SQLiteException():
-'''public SQLiteException(final String message, final SQLiteErrorCode resultCode)
-'''
-pass
+    '''    public SQLiteException(final String message, final SQLiteErrorCode resultCode)
+    '''
 def getResultCode():
-'''public SQLiteErrorCode getResultCode()
-'''
-pass
+    '''    public SQLiteErrorCode getResultCode()
+    '''

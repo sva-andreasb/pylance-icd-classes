@@ -1,208 +1,156 @@
 def forFields():
-'''public static DateTimeFormatter forFields(final Collection<DateTimeFieldType> collection, final boolean b, final boolean b2)
-'''
-pass
+    '''    public static DateTimeFormatter forFields(final Collection<DateTimeFieldType> collection, final boolean b, final boolean b2)
+    '''
 def dateParser():
-'''public static DateTimeFormatter dateParser()
-'''
-pass
+    '''    public static DateTimeFormatter dateParser()
+    '''
 def localDateParser():
-'''public static DateTimeFormatter localDateParser()
-'''
-pass
+    '''    public static DateTimeFormatter localDateParser()
+    '''
 def dateElementParser():
-'''public static DateTimeFormatter dateElementParser()
-'''
-pass
+    '''    public static DateTimeFormatter dateElementParser()
+    '''
 def timeParser():
-'''public static DateTimeFormatter timeParser()
-'''
-pass
+    '''    public static DateTimeFormatter timeParser()
+    '''
 def localTimeParser():
-'''public static DateTimeFormatter localTimeParser()
-'''
-pass
+    '''    public static DateTimeFormatter localTimeParser()
+    '''
 def timeElementParser():
-'''public static DateTimeFormatter timeElementParser()
-'''
-pass
+    '''    public static DateTimeFormatter timeElementParser()
+    '''
 def dateTimeParser():
-'''public static DateTimeFormatter dateTimeParser()
-'''
-pass
+    '''    public static DateTimeFormatter dateTimeParser()
+    '''
 def dateOptionalTimeParser():
-'''public static DateTimeFormatter dateOptionalTimeParser()
-'''
-pass
+    '''    public static DateTimeFormatter dateOptionalTimeParser()
+    '''
 def localDateOptionalTimeParser():
-'''public static DateTimeFormatter localDateOptionalTimeParser()
-'''
-pass
+    '''    public static DateTimeFormatter localDateOptionalTimeParser()
+    '''
 def date():
-'''public static DateTimeFormatter date()
-'''
-pass
+    '''    public static DateTimeFormatter date()
+    '''
 def time():
-'''public static DateTimeFormatter time()
-'''
-pass
+    '''    public static DateTimeFormatter time()
+    '''
 def timeNoMillis():
-'''public static DateTimeFormatter timeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter timeNoMillis()
+    '''
 def tTime():
-'''public static DateTimeFormatter tTime()
-'''
-pass
+    '''    public static DateTimeFormatter tTime()
+    '''
 def tTimeNoMillis():
-'''public static DateTimeFormatter tTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter tTimeNoMillis()
+    '''
 def dateTime():
-'''public static DateTimeFormatter dateTime()
-'''
-pass
+    '''    public static DateTimeFormatter dateTime()
+    '''
 def dateTimeNoMillis():
-'''public static DateTimeFormatter dateTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter dateTimeNoMillis()
+    '''
 def ordinalDate():
-'''public static DateTimeFormatter ordinalDate()
-'''
-pass
+    '''    public static DateTimeFormatter ordinalDate()
+    '''
 def ordinalDateTime():
-'''public static DateTimeFormatter ordinalDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter ordinalDateTime()
+    '''
 def ordinalDateTimeNoMillis():
-'''public static DateTimeFormatter ordinalDateTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter ordinalDateTimeNoMillis()
+    '''
 def weekDate():
-'''public static DateTimeFormatter weekDate()
-'''
-pass
+    '''    public static DateTimeFormatter weekDate()
+    '''
 def weekDateTime():
-'''public static DateTimeFormatter weekDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter weekDateTime()
+    '''
 def weekDateTimeNoMillis():
-'''public static DateTimeFormatter weekDateTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter weekDateTimeNoMillis()
+    '''
 def basicDate():
-'''public static DateTimeFormatter basicDate()
-'''
-pass
+    '''    public static DateTimeFormatter basicDate()
+    '''
 def basicTime():
-'''public static DateTimeFormatter basicTime()
-'''
-pass
+    '''    public static DateTimeFormatter basicTime()
+    '''
 def basicTimeNoMillis():
-'''public static DateTimeFormatter basicTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter basicTimeNoMillis()
+    '''
 def basicTTime():
-'''public static DateTimeFormatter basicTTime()
-'''
-pass
+    '''    public static DateTimeFormatter basicTTime()
+    '''
 def basicTTimeNoMillis():
-'''public static DateTimeFormatter basicTTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter basicTTimeNoMillis()
+    '''
 def basicDateTime():
-'''public static DateTimeFormatter basicDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter basicDateTime()
+    '''
 def basicDateTimeNoMillis():
-'''public static DateTimeFormatter basicDateTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter basicDateTimeNoMillis()
+    '''
 def basicOrdinalDate():
-'''public static DateTimeFormatter basicOrdinalDate()
-'''
-pass
+    '''    public static DateTimeFormatter basicOrdinalDate()
+    '''
 def basicOrdinalDateTime():
-'''public static DateTimeFormatter basicOrdinalDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter basicOrdinalDateTime()
+    '''
 def basicOrdinalDateTimeNoMillis():
-'''public static DateTimeFormatter basicOrdinalDateTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter basicOrdinalDateTimeNoMillis()
+    '''
 def basicWeekDate():
-'''public static DateTimeFormatter basicWeekDate()
-'''
-pass
+    '''    public static DateTimeFormatter basicWeekDate()
+    '''
 def basicWeekDateTime():
-'''public static DateTimeFormatter basicWeekDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter basicWeekDateTime()
+    '''
 def basicWeekDateTimeNoMillis():
-'''public static DateTimeFormatter basicWeekDateTimeNoMillis()
-'''
-pass
+    '''    public static DateTimeFormatter basicWeekDateTimeNoMillis()
+    '''
 def year():
-'''public static DateTimeFormatter year()
-'''
-pass
+    '''    public static DateTimeFormatter year()
+    '''
 def yearMonth():
-'''public static DateTimeFormatter yearMonth()
-'''
-pass
+    '''    public static DateTimeFormatter yearMonth()
+    '''
 def yearMonthDay():
-'''public static DateTimeFormatter yearMonthDay()
-'''
-pass
+    '''    public static DateTimeFormatter yearMonthDay()
+    '''
 def weekyear():
-'''public static DateTimeFormatter weekyear()
-'''
-pass
+    '''    public static DateTimeFormatter weekyear()
+    '''
 def weekyearWeek():
-'''public static DateTimeFormatter weekyearWeek()
-'''
-pass
+    '''    public static DateTimeFormatter weekyearWeek()
+    '''
 def weekyearWeekDay():
-'''public static DateTimeFormatter weekyearWeekDay()
-'''
-pass
+    '''    public static DateTimeFormatter weekyearWeekDay()
+    '''
 def hour():
-'''public static DateTimeFormatter hour()
-'''
-pass
+    '''    public static DateTimeFormatter hour()
+    '''
 def hourMinute():
-'''public static DateTimeFormatter hourMinute()
-'''
-pass
+    '''    public static DateTimeFormatter hourMinute()
+    '''
 def hourMinuteSecond():
-'''public static DateTimeFormatter hourMinuteSecond()
-'''
-pass
+    '''    public static DateTimeFormatter hourMinuteSecond()
+    '''
 def hourMinuteSecondMillis():
-'''public static DateTimeFormatter hourMinuteSecondMillis()
-'''
-pass
+    '''    public static DateTimeFormatter hourMinuteSecondMillis()
+    '''
 def hourMinuteSecondFraction():
-'''public static DateTimeFormatter hourMinuteSecondFraction()
-'''
-pass
+    '''    public static DateTimeFormatter hourMinuteSecondFraction()
+    '''
 def dateHour():
-'''public static DateTimeFormatter dateHour()
-'''
-pass
+    '''    public static DateTimeFormatter dateHour()
+    '''
 def dateHourMinute():
-'''public static DateTimeFormatter dateHourMinute()
-'''
-pass
+    '''    public static DateTimeFormatter dateHourMinute()
+    '''
 def dateHourMinuteSecond():
-'''public static DateTimeFormatter dateHourMinuteSecond()
-'''
-pass
+    '''    public static DateTimeFormatter dateHourMinuteSecond()
+    '''
 def dateHourMinuteSecondMillis():
-'''public static DateTimeFormatter dateHourMinuteSecondMillis()
-'''
-pass
+    '''    public static DateTimeFormatter dateHourMinuteSecondMillis()
+    '''
 def dateHourMinuteSecondFraction():
-'''public static DateTimeFormatter dateHourMinuteSecondFraction()
-'''
-pass
+    '''    public static DateTimeFormatter dateHourMinuteSecondFraction()
+    '''

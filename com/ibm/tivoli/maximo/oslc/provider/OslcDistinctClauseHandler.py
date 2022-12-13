@@ -1,8 +1,6 @@
 def OslcDistinctClauseHandler():
-'''public OslcDistinctClauseHandler(final MboSetRemote mboSet, final OslcRequest request)
-'''
-pass
+    '''    public OslcDistinctClauseHandler(final MboSetRemote mboSet, final OslcRequest request)
+    '''
 def toJSON():
-'''public JSONArray toJSON()
-'''
-pass
+    '''    public JSONArray toJSON()
+    '''

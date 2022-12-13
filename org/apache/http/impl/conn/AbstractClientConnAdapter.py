@@ -1,112 +1,84 @@
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def isStale():
-'''public boolean isStale()
-'''
-pass
+    '''    public boolean isStale()
+    '''
 def setSocketTimeout():
-'''public void setSocketTimeout(final int timeout)
-'''
-pass
+    '''    public void setSocketTimeout(final int timeout)
+    '''
 def getSocketTimeout():
-'''public int getSocketTimeout()
-'''
-pass
+    '''    public int getSocketTimeout()
+    '''
 def getMetrics():
-'''public HttpConnectionMetrics getMetrics()
-'''
-pass
+    '''    public HttpConnectionMetrics getMetrics()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def isResponseAvailable():
-'''public boolean isResponseAvailable(final int timeout)
-'''
-pass
+    '''    public boolean isResponseAvailable(final int timeout)
+    '''
 def receiveResponseEntity():
-'''public void receiveResponseEntity(final HttpResponse response)
-'''
-pass
+    '''    public void receiveResponseEntity(final HttpResponse response)
+    '''
 def receiveResponseHeader():
-'''public HttpResponse receiveResponseHeader()
-'''
-pass
+    '''    public HttpResponse receiveResponseHeader()
+    '''
 def sendRequestEntity():
-'''public void sendRequestEntity(final HttpEntityEnclosingRequest request)
-'''
-pass
+    '''    public void sendRequestEntity(final HttpEntityEnclosingRequest request)
+    '''
 def sendRequestHeader():
-'''public void sendRequestHeader(final HttpRequest request)
-'''
-pass
+    '''    public void sendRequestHeader(final HttpRequest request)
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getRemoteAddress():
-'''public InetAddress getRemoteAddress()
-'''
-pass
+    '''    public InetAddress getRemoteAddress()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def isSecure():
-'''public boolean isSecure()
-'''
-pass
+    '''    public boolean isSecure()
+    '''
 def bind():
-'''public void bind(final Socket socket)
-'''
-pass
+    '''    public void bind(final Socket socket)
+    '''
 def getSocket():
-'''public Socket getSocket()
-'''
-pass
+    '''    public Socket getSocket()
+    '''
 def getSSLSession():
-'''public SSLSession getSSLSession()
-'''
-pass
+    '''    public SSLSession getSSLSession()
+    '''
 def markReusable():
-'''public void markReusable()
-'''
-pass
+    '''    public void markReusable()
+    '''
 def unmarkReusable():
-'''public void unmarkReusable()
-'''
-pass
+    '''    public void unmarkReusable()
+    '''
 def isMarkedReusable():
-'''public boolean isMarkedReusable()
-'''
-pass
+    '''    public boolean isMarkedReusable()
+    '''
 def setIdleDuration():
-'''public void setIdleDuration(final long duration, final TimeUnit unit)
-'''
-pass
+    '''    public void setIdleDuration(final long duration, final TimeUnit unit)
+    '''
 def releaseConnection():
-'''public synchronized void releaseConnection()
-'''
-pass
+    '''    public synchronized void releaseConnection()
+    '''
 def abortConnection():
-'''public synchronized void abortConnection()
-'''
-pass
+    '''    public synchronized void abortConnection()
+    '''
 def getAttribute():
-'''public Object getAttribute(final String id)
-'''
-pass
+    '''    public Object getAttribute(final String id)
+    '''
 def removeAttribute():
-'''public Object removeAttribute(final String id)
-'''
-pass
+    '''    public Object removeAttribute(final String id)
+    '''
 def setAttribute():
-'''public void setAttribute(final String id, final Object obj)
-'''
-pass
+    '''    public void setAttribute(final String id, final Object obj)
+    '''

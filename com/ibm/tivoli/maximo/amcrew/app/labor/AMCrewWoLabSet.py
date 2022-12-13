@@ -1,4 +1,3 @@
 def AMCrewWoLabSet():
-'''public AMCrewWoLabSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AMCrewWoLabSet(final MboServerInterface ms)
+    '''

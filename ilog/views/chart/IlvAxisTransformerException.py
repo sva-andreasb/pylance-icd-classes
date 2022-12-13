@@ -1,5 +1,4 @@
 def IlvAxisTransformerException():
-'''public IlvAxisTransformerException()
-public IlvAxisTransformerException(final String message)
-'''
-pass
+    '''    public IlvAxisTransformerException()
+    public IlvAxisTransformerException(final String message)
+    '''

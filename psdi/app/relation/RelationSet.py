@@ -1,4 +1,3 @@
 def RelationSet():
-'''public RelationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RelationSet(final MboServerInterface ms)
+    '''

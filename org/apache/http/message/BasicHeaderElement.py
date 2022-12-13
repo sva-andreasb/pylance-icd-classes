@@ -1,45 +1,34 @@
 def BasicHeaderElement():
-'''public BasicHeaderElement(final String name, final String value, final NameValuePair[] parameters)
-public BasicHeaderElement(final String name, final String value)
-'''
-pass
+    '''    public BasicHeaderElement(final String name, final String value, final NameValuePair[] parameters)
+    public BasicHeaderElement(final String name, final String value)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getParameters():
-'''public NameValuePair[] getParameters()
-'''
-pass
+    '''    public NameValuePair[] getParameters()
+    '''
 def getParameterCount():
-'''public int getParameterCount()
-'''
-pass
+    '''    public int getParameterCount()
+    '''
 def getParameter():
-'''public NameValuePair getParameter(final int index)
-'''
-pass
+    '''    public NameValuePair getParameter(final int index)
+    '''
 def getParameterByName():
-'''public NameValuePair getParameterByName(final String name)
-'''
-pass
+    '''    public NameValuePair getParameterByName(final String name)
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

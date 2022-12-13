@@ -1,8 +1,6 @@
 def FldResponseRelationName():
-'''public FldResponseRelationName(final MboValue mbv)
-'''
-pass
+    '''    public FldResponseRelationName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

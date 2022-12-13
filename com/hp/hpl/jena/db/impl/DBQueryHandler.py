@@ -1,52 +1,39 @@
 def DBQueryHandler():
-'''public DBQueryHandler(final GraphRDB graph)
-'''
-pass
+    '''    public DBQueryHandler(final GraphRDB graph)
+    '''
 def setDoFastpath():
-'''public void setDoFastpath(final boolean val)
-'''
-pass
+    '''    public void setDoFastpath(final boolean val)
+    '''
 def getDoFastpath():
-'''public boolean getDoFastpath()
-'''
-pass
+    '''    public boolean getDoFastpath()
+    '''
 def setDoImplicitJoin():
-'''public void setDoImplicitJoin(final boolean val)
-'''
-pass
+    '''    public void setDoImplicitJoin(final boolean val)
+    '''
 def patternStage():
-'''public Stage patternStage(final Mapping varMap, final ExpressionSet constraints, final Triple[] givenTriples)
-'''
-pass
+    '''    public Stage patternStage(final Mapping varMap, final ExpressionSet constraints, final Triple[] givenTriples)
+    '''
 def setQueryOnlyAsserted():
-'''public void setQueryOnlyAsserted(final boolean opt)
-'''
-pass
+    '''    public void setQueryOnlyAsserted(final boolean opt)
+    '''
 def getQueryOnlyAsserted():
-'''public boolean getQueryOnlyAsserted()
-'''
-pass
+    '''    public boolean getQueryOnlyAsserted()
+    '''
 def setQueryOnlyReified():
-'''public void setQueryOnlyReified(final boolean opt)
-'''
-pass
+    '''    public void setQueryOnlyReified(final boolean opt)
+    '''
 def getQueryOnlyReified():
-'''public boolean getQueryOnlyReified()
-'''
-pass
+    '''    public boolean getQueryOnlyReified()
+    '''
 def setQueryFullReified():
-'''public void setQueryFullReified(final boolean opt)
-'''
-pass
+    '''    public void setQueryFullReified(final boolean opt)
+    '''
 def getQueryFullReified():
-'''public boolean getQueryFullReified()
-'''
-pass
+    '''    public boolean getQueryFullReified()
+    '''
 def connectFrom():
-'''public Stage connectFrom(Stage s)
-'''
-pass
+    '''    public Stage connectFrom(Stage s)
+    '''
 def deliver():
-'''public Pipe deliver(final Pipe L)
-'''
-pass
+    '''    public Pipe deliver(final Pipe L)
+    '''

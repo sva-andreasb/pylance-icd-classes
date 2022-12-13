@@ -1,16 +1,12 @@
 def Exists():
-'''public Exists()
-'''
-pass
+    '''    public Exists()
+    '''
 def getBoolean():
-'''public boolean getBoolean(final MboRemote mbo)
-'''
-pass
+    '''    public boolean getBoolean(final MboRemote mbo)
+    '''
 def getNodeDataType():
-'''public int getNodeDataType()
-'''
-pass
+    '''    public int getNodeDataType()
+    '''
 def setOperands():
-'''public void setOperands(final MboRemote mbo, final Vector operands)
-'''
-pass
+    '''    public void setOperands(final MboRemote mbo, final Vector operands)
+    '''

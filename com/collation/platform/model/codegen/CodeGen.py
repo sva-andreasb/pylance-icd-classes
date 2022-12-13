@@ -1,8 +1,6 @@
 def CodeGen():
-'''public CodeGen(final String[] args)
-'''
-pass
+    '''    public CodeGen(final String[] args)
+    '''
 def forName():
-'''public XClass forName(final String nm)
-'''
-pass
+    '''    public XClass forName(final String nm)
+    '''

@@ -1,16 +1,12 @@
 def MultiAssetLocCIPr():
-'''public MultiAssetLocCIPr(final MboSet ms)
-'''
-pass
+    '''    public MultiAssetLocCIPr(final MboSet ms)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def clearLinearAssetFields():
-'''public void clearLinearAssetFields()
-'''
-pass
+    '''    public void clearLinearAssetFields()
+    '''
 def isChangeByUserWhenSetFromLookup():
-'''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
-'''
-pass
+    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''

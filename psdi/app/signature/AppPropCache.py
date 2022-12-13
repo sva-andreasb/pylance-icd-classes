@@ -1,16 +1,12 @@
 def getInstance():
-'''public static final AppPropCache getInstance()
-'''
-pass
+    '''    public static final AppPropCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getApplicationSysCfgInfo():
-'''public JSONObject getApplicationSysCfgInfo()
-'''
-pass
+    '''    public JSONObject getApplicationSysCfgInfo()
+    '''
 def getApplicationCfgInfo():
-'''public JSONObject getApplicationCfgInfo(final String appName, final UserInfo userInfo)
-'''
-pass
+    '''    public JSONObject getApplicationCfgInfo(final String appName, final UserInfo userInfo)
+    '''

@@ -1,5 +1,4 @@
 def StructuredFieldException():
-'''public StructuredFieldException()
-public StructuredFieldException(final String message)
-'''
-pass
+    '''    public StructuredFieldException()
+    public StructuredFieldException(final String message)
+    '''

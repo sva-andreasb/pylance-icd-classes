@@ -1,8 +1,6 @@
 def FldDowntimeReportIsDownTimeReport():
-'''public FldDowntimeReportIsDownTimeReport(final MboValue mbv)
-'''
-pass
+    '''    public FldDowntimeReportIsDownTimeReport(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

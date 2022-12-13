@@ -1,57 +1,43 @@
 def Presence():
-'''public Presence(final Type type)
-public Presence(final Type type, final String status, final int priority, final Mode mode)
-'''
-pass
+    '''    public Presence(final Type type)
+    public Presence(final Type type, final String status, final int priority, final Mode mode)
+    '''
 def isAvailable():
-'''public boolean isAvailable()
-'''
-pass
+    '''    public boolean isAvailable()
+    '''
 def isAway():
-'''public boolean isAway()
-'''
-pass
+    '''    public boolean isAway()
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def setPriority():
-'''public void setPriority(final int priority)
-'''
-pass
+    '''    public void setPriority(final int priority)
+    '''
 def getMode():
-'''public Mode getMode()
-'''
-pass
+    '''    public Mode getMode()
+    '''
 def setMode():
-'''public void setMode(final Mode mode)
-'''
-pass
+    '''    public void setMode(final Mode mode)
+    '''
 def setLanguage():
-'''public void setLanguage(final String language)
-'''
-pass
+    '''    public void setLanguage(final String language)
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

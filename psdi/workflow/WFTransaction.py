@@ -1,4 +1,3 @@
 def WFTransaction():
-'''public WFTransaction(final MboSet ms)
-'''
-pass
+    '''    public WFTransaction(final MboSet ms)
+    '''

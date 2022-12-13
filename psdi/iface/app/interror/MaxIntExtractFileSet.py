@@ -1,20 +1,15 @@
 def MaxIntExtractFileSet():
-'''public MaxIntExtractFileSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIntExtractFileSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def getImportFileName():
-'''public static String getImportFileName(final String fileName)
-'''
-pass
+    '''    public static String getImportFileName(final String fileName)
+    '''
 def getImportFileDate():
-'''public static Date getImportFileDate(final String fileName)
-'''
-pass
+    '''    public static Date getImportFileDate(final String fileName)
+    '''
 def getExtractFileURL():
-'''public static String getExtractFileURL(final String filePath, final String extractDir)
-'''
-pass
+    '''    public static String getExtractFileURL(final String filePath, final String extractDir)
+    '''

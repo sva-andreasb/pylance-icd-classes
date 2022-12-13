@@ -1,8 +1,6 @@
 def PlusPBillPSGenCronTask():
-'''public PlusPBillPSGenCronTask()
-'''
-pass
+    '''    public PlusPBillPSGenCronTask()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

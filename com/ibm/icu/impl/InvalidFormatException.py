@@ -1,5 +1,4 @@
 def InvalidFormatException():
-'''public InvalidFormatException()
-public InvalidFormatException(final String message)
-'''
-pass
+    '''    public InvalidFormatException()
+    public InvalidFormatException(final String message)
+    '''

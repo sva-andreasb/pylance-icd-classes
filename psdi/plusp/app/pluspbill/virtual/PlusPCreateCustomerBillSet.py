@@ -1,4 +1,3 @@
 def PlusPCreateCustomerBillSet():
-'''public PlusPCreateCustomerBillSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPCreateCustomerBillSet(final MboServerInterface ms)
+    '''

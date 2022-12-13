@@ -1,4 +1,3 @@
 def prepareReportForRun():
-'''public static ReportRunInfo prepareReportForRun(final ReportData reportData)
-'''
-pass
+    '''    public static ReportRunInfo prepareReportForRun(final ReportData reportData)
+    '''

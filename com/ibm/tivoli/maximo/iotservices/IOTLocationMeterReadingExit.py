@@ -1,12 +1,9 @@
 def IOTLocationMeterReadingExit():
-'''public IOTLocationMeterReadingExit()
-'''
-pass
+    '''    public IOTLocationMeterReadingExit()
+    '''
 def mapRTIData():
-'''public StructureData mapRTIData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTServiceDeviceTypeInfo deviceTypeInfo)
-'''
-pass
+    '''    public StructureData mapRTIData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTServiceDeviceTypeInfo deviceTypeInfo)
+    '''
 def mapHistorianData():
-'''public StructureData mapHistorianData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTServiceDeviceTypeInfo deviceTypeInfo, final String meterName, final String processorClassName)
-'''
-pass
+    '''    public StructureData mapHistorianData(final JSONObject jo, final String deviceId, final Date readingDate, final IoTServiceDeviceTypeInfo deviceTypeInfo, final String meterName, final String processorClassName)
+    '''

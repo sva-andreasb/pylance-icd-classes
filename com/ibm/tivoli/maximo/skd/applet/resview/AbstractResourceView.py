@@ -1,68 +1,51 @@
 def AbstractResourceView():
-'''public AbstractResourceView()
-'''
-pass
+    '''    public AbstractResourceView()
+    '''
 def getDividerComponent():
-'''public Object getDividerComponent()
-'''
-pass
+    '''    public Object getDividerComponent()
+    '''
 def attachModel():
-'''public void attachModel(final AppletGanttModel model)
-'''
-pass
+    '''    public void attachModel(final AppletGanttModel model)
+    '''
 def print():
-'''public void print()
-'''
-pass
+    '''    public void print()
+    '''
 def printPreview():
-'''public void printPreview()
-'''
-pass
+    '''    public void printPreview()
+    '''
 def printSetup():
-'''public void printSetup()
-'''
-pass
+    '''    public void printSetup()
+    '''
 def setResourceViewContext():
-'''public void setResourceViewContext(final ResourceViewContext context)
-'''
-pass
+    '''    public void setResourceViewContext(final ResourceViewContext context)
+    '''
 def attachGanttModelToViewComponents():
-'''public void attachGanttModelToViewComponents()
-'''
-pass
+    '''    public void attachGanttModelToViewComponents()
+    '''
 def detachGanttModelFromViewComponents():
-'''public void detachGanttModelFromViewComponents()
-'''
-pass
+    '''    public void detachGanttModelFromViewComponents()
+    '''
 def activate():
-'''public void activate()
-'''
-pass
+    '''    public void activate()
+    '''
 def setDividerLocation():
-'''public void setDividerLocation(final int location)
-'''
-pass
+    '''    public void setDividerLocation(final int location)
+    '''
 def deactivate():
-'''public void deactivate()
-'''
-pass
+    '''    public void deactivate()
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def applyActivityQbeFilter():
-'''public void applyActivityQbeFilter(final Map<String, String> map)
-'''
-pass
+    '''    public void applyActivityQbeFilter(final Map<String, String> map)
+    '''
 def applyActivityFilter():
-'''public void applyActivityFilter(final String s)
-'''
-pass
+    '''    public void applyActivityFilter(final String s)
+    '''
 def getViewId():
-'''public String getViewId()
-'''
-pass
+    '''    public String getViewId()
+    '''
 def setViewId():
-'''public void setViewId(final String viewId)
-'''
-pass
+    '''    public void setViewId(final String viewId)
+    '''

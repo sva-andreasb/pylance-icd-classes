@@ -1,8 +1,6 @@
 def CDUIAssetsOutboundProc():
-'''public CDUIAssetsOutboundProc()
-'''
-pass
+    '''    public CDUIAssetsOutboundProc()
+    '''
 def search():
-'''public void search(final MboSetRemote mboSet, final String text)
-'''
-pass
+    '''    public void search(final MboSetRemote mboSet, final String text)
+    '''

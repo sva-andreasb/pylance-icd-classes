@@ -1,16 +1,12 @@
 def SKDWOLogBean():
-'''public SKDWOLogBean()
-'''
-pass
+    '''    public SKDWOLogBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getActivity():
-'''public IMXActivity getActivity()
-'''
-pass
+    '''    public IMXActivity getActivity()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

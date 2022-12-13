@@ -1,8 +1,6 @@
 def FldSKDScenarioUseTemplate():
-'''public FldSKDScenarioUseTemplate(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDScenarioUseTemplate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

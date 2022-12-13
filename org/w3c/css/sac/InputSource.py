@@ -1,54 +1,41 @@
 def InputSource():
-'''public InputSource()
-public InputSource(final String uri)
-public InputSource(final Reader characterStream)
-'''
-pass
+    '''    public InputSource()
+    public InputSource(final String uri)
+    public InputSource(final Reader characterStream)
+    '''
 def setURI():
-'''public void setURI(final String uri)
-'''
-pass
+    '''    public void setURI(final String uri)
+    '''
 def getURI():
-'''public String getURI()
-'''
-pass
+    '''    public String getURI()
+    '''
 def setByteStream():
-'''public void setByteStream(final InputStream byteStream)
-'''
-pass
+    '''    public void setByteStream(final InputStream byteStream)
+    '''
 def getByteStream():
-'''public InputStream getByteStream()
-'''
-pass
+    '''    public InputStream getByteStream()
+    '''
 def setEncoding():
-'''public void setEncoding(final String encoding)
-'''
-pass
+    '''    public void setEncoding(final String encoding)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setCharacterStream():
-'''public void setCharacterStream(final Reader characterStream)
-'''
-pass
+    '''    public void setCharacterStream(final Reader characterStream)
+    '''
 def getCharacterStream():
-'''public Reader getCharacterStream()
-'''
-pass
+    '''    public Reader getCharacterStream()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setMedia():
-'''public void setMedia(final String media)
-'''
-pass
+    '''    public void setMedia(final String media)
+    '''
 def getMedia():
-'''public String getMedia()
-'''
-pass
+    '''    public String getMedia()
+    '''

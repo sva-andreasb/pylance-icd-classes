@@ -1,109 +1,83 @@
 def getTimeLimit():
-'''public Long getTimeLimit()
-'''
-pass
+    '''    public Long getTimeLimit()
+    '''
 def setTimeLimit():
-'''public void setTimeLimit(final Long value)
-'''
-pass
+    '''    public void setTimeLimit(final Long value)
+    '''
 def getLogLimit():
-'''public Long getLogLimit()
-'''
-pass
+    '''    public Long getLogLimit()
+    '''
 def setLogLimit():
-'''public void setLogLimit(final Long value)
-'''
-pass
+    '''    public void setLogLimit(final Long value)
+    '''
 def getOplRunConfig():
-'''public String getOplRunConfig()
-'''
-pass
+    '''    public String getOplRunConfig()
+    '''
 def setOplRunConfig():
-'''public void setOplRunConfig(final String value)
-'''
-pass
+    '''    public void setOplRunConfig(final String value)
+    '''
 def getResultsFormat():
-'''public String getResultsFormat()
-'''
-pass
+    '''    public String getResultsFormat()
+    '''
 def setResultsFormat():
-'''public void setResultsFormat(final String value)
-'''
-pass
+    '''    public void setResultsFormat(final String value)
+    '''
 def getWebhook():
-'''public String getWebhook()
-'''
-pass
+    '''    public String getWebhook()
+    '''
 def setWebhook():
-'''public void setWebhook(final String value)
-'''
-pass
+    '''    public void setWebhook(final String value)
+    '''
 def getDropSolve():
-'''public Boolean getDropSolve()
-'''
-pass
+    '''    public Boolean getDropSolve()
+    '''
 def getNotifyCompletion():
-'''public Boolean getNotifyCompletion()
-'''
-pass
+    '''    public Boolean getNotifyCompletion()
+    '''
 def setNotifyCompletion():
-'''public void setNotifyCompletion(final Boolean notify)
-'''
-pass
+    '''    public void setNotifyCompletion(final Boolean notify)
+    '''
 def getAlertTime():
-'''public Long getAlertTime()
-'''
-pass
+    '''    public Long getAlertTime()
+    '''
 def getJobCores():
-'''public Integer getJobCores()
-'''
-pass
+    '''    public Integer getJobCores()
+    '''
 def setJobCores():
-'''public void setJobCores(final Integer cores)
-'''
-pass
+    '''    public void setJobCores(final Integer cores)
+    '''
 def getJobMemoryMbytes():
-'''public Integer getJobMemoryMbytes()
-'''
-pass
+    '''    public Integer getJobMemoryMbytes()
+    '''
 def setJobMemoryMbytes():
-'''public void setJobMemoryMbytes(final Integer mbytes)
-'''
-pass
+    '''    public void setJobMemoryMbytes(final Integer mbytes)
+    '''
 def getBluemixRegion():
-'''public String getBluemixRegion()
-'''
-pass
+    '''    public String getBluemixRegion()
+    '''
 def setBluemixRegion():
-'''public void setBluemixRegion(final String bluemixRegion)
-'''
-pass
+    '''    public void setBluemixRegion(final String bluemixRegion)
+    '''
 def setAlertTime():
-'''public void setAlertTime(final Long value)
-'''
-pass
+    '''    public void setAlertTime(final Long value)
+    '''
 def getAsBoolean():
-'''public Boolean getAsBoolean(final String name)
-public boolean getAsBoolean(final String name, final boolean defaultValue)
-'''
-pass
+    '''    public Boolean getAsBoolean(final String name)
+    public boolean getAsBoolean(final String name, final boolean defaultValue)
+    '''
 def getAsString():
-'''public String getAsString(final String name)
-public String getAsString(final String name, final String defaultValue)
-'''
-pass
+    '''    public String getAsString(final String name)
+    public String getAsString(final String name, final String defaultValue)
+    '''
 def getAsDouble():
-'''public Double getAsDouble(final String name)
-public double getAsDouble(final String name, final double defaultValue)
-'''
-pass
+    '''    public Double getAsDouble(final String name)
+    public double getAsDouble(final String name, final double defaultValue)
+    '''
 def getAsLong():
-'''public Long getAsLong(final String name)
-public long getAsLong(final String name, final long defaultValue)
-'''
-pass
+    '''    public Long getAsLong(final String name)
+    public long getAsLong(final String name, final long defaultValue)
+    '''
 def getAsInteger():
-'''public Integer getAsInteger(final String name)
-public int getAsInteger(final String name, final int defaultValue)
-'''
-pass
+    '''    public Integer getAsInteger(final String name)
+    public int getAsInteger(final String name, final int defaultValue)
+    '''

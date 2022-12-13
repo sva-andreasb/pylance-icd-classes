@@ -1,4 +1,3 @@
 def LiveChatStatsSet():
-'''public LiveChatStatsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LiveChatStatsSet(final MboServerInterface ms)
+    '''

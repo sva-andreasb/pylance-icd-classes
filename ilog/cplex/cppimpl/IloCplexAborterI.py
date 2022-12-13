@@ -1,29 +1,22 @@
 def IloCplexAborterI():
-'''public IloCplexAborterI(final long cPtr, final boolean cMemoryOwn)
-public IloCplexAborterI(final IloEnv env)
-'''
-pass
+    '''    public IloCplexAborterI(final long cPtr, final boolean cMemoryOwn)
+    public IloCplexAborterI(final IloEnv env)
+    '''
 def setOwn():
-'''public void setOwn(final boolean cMemoryOwn)
-'''
-pass
+    '''    public void setOwn(final boolean cMemoryOwn)
+    '''
 def getCPtr():
-'''public static long getCPtr(final IloCplexAborterI obj)
-'''
-pass
+    '''    public static long getCPtr(final IloCplexAborterI obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def isAborted():
-'''public boolean isAborted()
-'''
-pass
+    '''    public boolean isAborted()
+    '''

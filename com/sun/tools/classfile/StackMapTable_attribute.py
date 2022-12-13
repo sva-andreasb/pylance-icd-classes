@@ -8,41 +8,37 @@ ITEM_UninitializedThis = "int  6"
 ITEM_Object = "int  7"
 ITEM_Uninitialized = "int  8"
 def StackMapTable_attribute():
-'''public StackMapTable_attribute(final ConstantPool constantPool, final stack_map_frame[] array)
-public StackMapTable_attribute(final int n, final stack_map_frame[] entries)
-'''
-pass
+    '''    public StackMapTable_attribute(final ConstantPool constantPool, final stack_map_frame[] array)
+    public StackMapTable_attribute(final int n, final stack_map_frame[] entries)
+    '''
 def accept():
-'''public <R, D> R accept(final Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
-'''
-pass
+    '''    public <R, D> R accept(final Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    public <R, D> R accept(final stack_map_frame.Visitor<R, D> visitor, final D n)
+    '''
 def length():
-'''public int length()
-public int length()
-public int length()
-public int length()
-public int length()
-public int length()
-public int length()
-public int length()
-public int length()
-public int length()
-'''
-pass
+    '''    public int length()
+    public int length()
+    public int length()
+    public int length()
+    public int length()
+    public int length()
+    public int length()
+    public int length()
+    public int length()
+    public int length()
+    '''
 def getOffsetDelta():
-'''public int getOffsetDelta()
-public int getOffsetDelta()
-public int getOffsetDelta()
-public int getOffsetDelta()
-public int getOffsetDelta()
-public int getOffsetDelta()
-public int getOffsetDelta()
-'''
-pass
+    '''    public int getOffsetDelta()
+    public int getOffsetDelta()
+    public int getOffsetDelta()
+    public int getOffsetDelta()
+    public int getOffsetDelta()
+    public int getOffsetDelta()
+    public int getOffsetDelta()
+    '''

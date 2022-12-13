@@ -1,37 +1,28 @@
 def SKDOriginDestMatrixPointParams():
-'''public SKDOriginDestMatrixPointParams(final String id, final Boolean isOnTheFly, final SKDMAPInputParamInfo pt)
-public SKDOriginDestMatrixPointParams(final String id, final Boolean isOnTheFly)
-'''
-pass
+    '''    public SKDOriginDestMatrixPointParams(final String id, final Boolean isOnTheFly, final SKDMAPInputParamInfo pt)
+    public SKDOriginDestMatrixPointParams(final String id, final Boolean isOnTheFly)
+    '''
 def getPoint():
-'''public SKDMAPInputParamInfo getPoint()
-'''
-pass
+    '''    public SKDMAPInputParamInfo getPoint()
+    '''
 def setPoint():
-'''public void setPoint(final SKDMAPInputParamInfo pt)
-'''
-pass
+    '''    public void setPoint(final SKDMAPInputParamInfo pt)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setId():
-'''public void setId(final String id)
-'''
-pass
+    '''    public void setId(final String id)
+    '''
 def isOnTheFly():
-'''public Boolean isOnTheFly()
-'''
-pass
+    '''    public Boolean isOnTheFly()
+    '''
 def setOnTheFly():
-'''public void setOnTheFly(final Boolean isOnTheFly)
-'''
-pass
+    '''    public void setOnTheFly(final Boolean isOnTheFly)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

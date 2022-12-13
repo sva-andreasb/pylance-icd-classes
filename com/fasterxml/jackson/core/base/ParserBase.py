@@ -1,116 +1,87 @@
 def version():
-'''public Version version()
-'''
-pass
+    '''    public Version version()
+    '''
 def getCurrentValue():
-'''public Object getCurrentValue()
-'''
-pass
+    '''    public Object getCurrentValue()
+    '''
 def setCurrentValue():
-'''public void setCurrentValue(final Object v)
-'''
-pass
+    '''    public void setCurrentValue(final Object v)
+    '''
 def enable():
-'''public JsonParser enable(final Feature f)
-'''
-pass
+    '''    public JsonParser enable(final Feature f)
+    '''
 def disable():
-'''public JsonParser disable(final Feature f)
-'''
-pass
+    '''    public JsonParser disable(final Feature f)
+    '''
 def setFeatureMask():
-'''public JsonParser setFeatureMask(final int newMask)
-'''
-pass
+    '''    public JsonParser setFeatureMask(final int newMask)
+    '''
 def overrideStdFeatures():
-'''public JsonParser overrideStdFeatures(final int values, final int mask)
-'''
-pass
+    '''    public JsonParser overrideStdFeatures(final int values, final int mask)
+    '''
 def getCurrentName():
-'''public String getCurrentName()
-'''
-pass
+    '''    public String getCurrentName()
+    '''
 def overrideCurrentName():
-'''public void overrideCurrentName(final String name)
-'''
-pass
+    '''    public void overrideCurrentName(final String name)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getParsingContext():
-'''public JsonReadContext getParsingContext()
-'''
-pass
+    '''    public JsonReadContext getParsingContext()
+    '''
 def getTokenLocation():
-'''public JsonLocation getTokenLocation()
-'''
-pass
+    '''    public JsonLocation getTokenLocation()
+    '''
 def getCurrentLocation():
-'''public JsonLocation getCurrentLocation()
-'''
-pass
+    '''    public JsonLocation getCurrentLocation()
+    '''
 def hasTextCharacters():
-'''public boolean hasTextCharacters()
-'''
-pass
+    '''    public boolean hasTextCharacters()
+    '''
 def getBinaryValue():
-'''public byte[] getBinaryValue(final Base64Variant variant)
-'''
-pass
+    '''    public byte[] getBinaryValue(final Base64Variant variant)
+    '''
 def getTokenCharacterOffset():
-'''public long getTokenCharacterOffset()
-'''
-pass
+    '''    public long getTokenCharacterOffset()
+    '''
 def getTokenLineNr():
-'''public int getTokenLineNr()
-'''
-pass
+    '''    public int getTokenLineNr()
+    '''
 def getTokenColumnNr():
-'''public int getTokenColumnNr()
-'''
-pass
+    '''    public int getTokenColumnNr()
+    '''
 def _getByteArrayBuilder():
-'''public ByteArrayBuilder _getByteArrayBuilder()
-'''
-pass
+    '''    public ByteArrayBuilder _getByteArrayBuilder()
+    '''
 def isNaN():
-'''public boolean isNaN()
-'''
-pass
+    '''    public boolean isNaN()
+    '''
 def getNumberValue():
-'''public Number getNumberValue()
-'''
-pass
+    '''    public Number getNumberValue()
+    '''
 def getNumberType():
-'''public NumberType getNumberType()
-'''
-pass
+    '''    public NumberType getNumberType()
+    '''
 def getIntValue():
-'''public int getIntValue()
-'''
-pass
+    '''    public int getIntValue()
+    '''
 def getLongValue():
-'''public long getLongValue()
-'''
-pass
+    '''    public long getLongValue()
+    '''
 def getBigIntegerValue():
-'''public BigInteger getBigIntegerValue()
-'''
-pass
+    '''    public BigInteger getBigIntegerValue()
+    '''
 def getFloatValue():
-'''public float getFloatValue()
-'''
-pass
+    '''    public float getFloatValue()
+    '''
 def getDoubleValue():
-'''public double getDoubleValue()
-'''
-pass
+    '''    public double getDoubleValue()
+    '''
 def getDecimalValue():
-'''public BigDecimal getDecimalValue()
-'''
-pass
+    '''    public BigDecimal getDecimalValue()
+    '''

@@ -1,4 +1,3 @@
 def DeleteBucketTaggingConfigurationRequest():
-'''public DeleteBucketTaggingConfigurationRequest(final String bucketName)
-'''
-pass
+    '''    public DeleteBucketTaggingConfigurationRequest(final String bucketName)
+    '''

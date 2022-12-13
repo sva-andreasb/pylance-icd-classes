@@ -1,29 +1,22 @@
 def EndPointCacheImpl():
-'''public EndPointCacheImpl()
-'''
-pass
+    '''    public EndPointCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public synchronized void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public synchronized void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getAllEndpoints():
-'''public Map<String, MaxEndPointInfo> getAllEndpoints()
-'''
-pass
+    '''    public Map<String, MaxEndPointInfo> getAllEndpoints()
+    '''
 def getEndPointInfo():
-'''public MaxEndPointInfo getEndPointInfo(final String endPointName)
-'''
-pass
+    '''    public MaxEndPointInfo getEndPointInfo(final String endPointName)
+    '''
 def getEndPointProperties():
-'''public Map<String, MaxEndPointPropInfo> getEndPointProperties(final String endPointName)
-'''
-pass
+    '''    public Map<String, MaxEndPointPropInfo> getEndPointProperties(final String endPointName)
+    '''

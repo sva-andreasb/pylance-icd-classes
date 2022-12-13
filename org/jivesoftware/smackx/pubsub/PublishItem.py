@@ -1,9 +1,7 @@
 def PublishItem():
-'''public PublishItem(final String nodeId, final T toPublish)
-public PublishItem(final String nodeId, final Collection<T> toPublish)
-'''
-pass
+    '''    public PublishItem(final String nodeId, final T toPublish)
+    public PublishItem(final String nodeId, final Collection<T> toPublish)
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''

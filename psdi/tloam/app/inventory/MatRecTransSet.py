@@ -1,4 +1,3 @@
 def MatRecTransSet():
-'''public MatRecTransSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MatRecTransSet(final MboServerInterface ms)
+    '''

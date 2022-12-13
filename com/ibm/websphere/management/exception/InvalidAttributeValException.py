@@ -1,15 +1,12 @@
 def InvalidAttributeValException():
-'''public InvalidAttributeValException(final String[] attributePath)
-public InvalidAttributeValException(final String[] attributePath, final Exception cause)
-public InvalidAttributeValException(final String attributeName)
-public InvalidAttributeValException(final String attributeName, final Exception cause)
-'''
-pass
+    '''    public InvalidAttributeValException(final String[] attributePath)
+    public InvalidAttributeValException(final String[] attributePath, final Exception cause)
+    public InvalidAttributeValException(final String attributeName)
+    public InvalidAttributeValException(final String attributeName, final Exception cause)
+    '''
 def getAttributePath():
-'''public String[] getAttributePath()
-'''
-pass
+    '''    public String[] getAttributePath()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

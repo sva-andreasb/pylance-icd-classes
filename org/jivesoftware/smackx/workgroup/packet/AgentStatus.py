@@ -1,59 +1,45 @@
-ELEMENT_NAME = "String  agent-status""
-NAMESPACE = "String  http://jabber.org/protocol/workgroup""
+ELEMENT_NAME = "String  \"agent-status\""
+NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def getWorkgroupJID():
-'''public EntityBareJid getWorkgroupJID()
-'''
-pass
+    '''    public EntityBareJid getWorkgroupJID()
+    '''
 def getCurrentChats():
-'''public List<ChatInfo> getCurrentChats()
-'''
-pass
+    '''    public List<ChatInfo> getCurrentChats()
+    '''
 def getMaxChats():
-'''public int getMaxChats()
-'''
-pass
+    '''    public int getMaxChats()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-public String toXML()
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    public String toXML()
+    '''
 def ChatInfo():
-'''public ChatInfo(final String sessionID, final String userID, final Date date, final String email, final String username, final String question)
-'''
-pass
+    '''    public ChatInfo(final String sessionID, final String userID, final Date date, final String email, final String username, final String question)
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def getUserID():
-'''public String getUserID()
-'''
-pass
+    '''    public String getUserID()
+    '''
 def getDate():
-'''public Date getDate()
-'''
-pass
+    '''    public Date getDate()
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''
 def getQuestion():
-'''public String getQuestion()
-'''
-pass
+    '''    public String getQuestion()
+    '''
 def parse():
-'''public AgentStatus parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public AgentStatus parse(final XmlPullParser parser, final int initialDepth)
+    '''

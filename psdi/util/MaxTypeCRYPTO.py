@@ -1,21 +1,16 @@
 def MaxTypeCRYPTO():
-'''public MaxTypeCRYPTO()
-'''
-pass
+    '''    public MaxTypeCRYPTO()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def setValue():
-'''public void setValue(final byte[] value)
-public void setValue(final MaxType value)
-'''
-pass
+    '''    public void setValue(final byte[] value)
+    public void setValue(final MaxType value)
+    '''
 def asBytes():
-'''public byte[] asBytes()
-'''
-pass
+    '''    public byte[] asBytes()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

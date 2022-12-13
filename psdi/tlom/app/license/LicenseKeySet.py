@@ -1,16 +1,12 @@
 def LicenseKeySet():
-'''public LicenseKeySet(final MboServerInterface ms)
-'''
-pass
+    '''    public LicenseKeySet(final MboServerInterface ms)
+    '''
 def replaceMbo():
-'''public void replaceMbo(final LicenseKey replace, final LicenseKey with)
-'''
-pass
+    '''    public void replaceMbo(final LicenseKey replace, final LicenseKey with)
+    '''
 def addMbos():
-'''public void addMbos(final MboSetRemote mbos)
-'''
-pass
+    '''    public void addMbos(final MboSetRemote mbos)
+    '''
 def count():
-'''public int count()
-'''
-pass
+    '''    public int count()
+    '''

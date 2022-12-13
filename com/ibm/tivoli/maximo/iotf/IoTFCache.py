@@ -1,28 +1,21 @@
 def getInstance():
-'''public static final IoTFCache getInstance()
-'''
-pass
+    '''    public static final IoTFCache getInstance()
+    '''
 def getIoTFInfo():
-'''public IoTFInfo getIoTFInfo(final String org)
-'''
-pass
+    '''    public IoTFInfo getIoTFInfo(final String org)
+    '''
 def getIoTFs():
-'''public Map<String, IoTFInfo> getIoTFs()
-'''
-pass
+    '''    public Map<String, IoTFInfo> getIoTFs()
+    '''
 def getIoTFHistorianInfo():
-'''public IoTFHistorianInfo getIoTFHistorianInfo(final String hist)
-'''
-pass
+    '''    public IoTFHistorianInfo getIoTFHistorianInfo(final String hist)
+    '''
 def getAllHistorians():
-'''public Map<String, IoTFHistorianInfo> getAllHistorians()
-'''
-pass
+    '''    public Map<String, IoTFHistorianInfo> getAllHistorians()
+    '''
 def getDefaultHistorian():
-'''public String getDefaultHistorian()
-'''
-pass
+    '''    public String getDefaultHistorian()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

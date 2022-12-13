@@ -1,4 +1,3 @@
 def initialize():
-'''public static Object initialize()
-'''
-pass
+    '''    public static Object initialize()
+    '''

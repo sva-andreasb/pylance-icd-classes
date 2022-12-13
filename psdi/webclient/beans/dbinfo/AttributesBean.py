@@ -1,20 +1,15 @@
 def AttributesBean():
-'''public AttributesBean()
-'''
-pass
+    '''    public AttributesBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def areYouSureDelete():
-'''public boolean areYouSureDelete(final MboRemote mbo)
-'''
-pass
+    '''    public boolean areYouSureDelete(final MboRemote mbo)
+    '''
 def deleteFromAuditTable():
-'''public boolean deleteFromAuditTable(final MboRemote mbo, final MboRemote owner)
-'''
-pass
+    '''    public boolean deleteFromAuditTable(final MboRemote mbo, final MboRemote owner)
+    '''

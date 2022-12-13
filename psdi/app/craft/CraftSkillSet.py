@@ -1,4 +1,3 @@
 def CraftSkillSet():
-'''public CraftSkillSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CraftSkillSet(final MboServerInterface ms)
+    '''

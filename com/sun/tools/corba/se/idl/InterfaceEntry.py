@@ -1,88 +1,66 @@
 def isAbstract():
-'''public boolean isAbstract()
-'''
-pass
+    '''    public boolean isAbstract()
+    '''
 def isLocal():
-'''public boolean isLocal()
-'''
-pass
+    '''    public boolean isLocal()
+    '''
 def isLocalServant():
-'''public boolean isLocalServant()
-'''
-pass
+    '''    public boolean isLocalServant()
+    '''
 def isLocalSignature():
-'''public boolean isLocalSignature()
-'''
-pass
+    '''    public boolean isLocalSignature()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def generate():
-'''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
-'''
-pass
+    '''    public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''
 def generator():
-'''public Generator generator()
-'''
-pass
+    '''    public Generator generator()
+    '''
 def addDerivedFrom():
-'''public void addDerivedFrom(final SymtabEntry obj)
-'''
-pass
+    '''    public void addDerivedFrom(final SymtabEntry obj)
+    '''
 def derivedFrom():
-'''public Vector derivedFrom()
-'''
-pass
+    '''    public Vector derivedFrom()
+    '''
 def addDerivedFromName():
-'''public void addDerivedFromName(final String obj)
-'''
-pass
+    '''    public void addDerivedFromName(final String obj)
+    '''
 def derivedFromNames():
-'''public Vector derivedFromNames()
-'''
-pass
+    '''    public Vector derivedFromNames()
+    '''
 def addMethod():
-'''public void addMethod(final MethodEntry obj)
-'''
-pass
+    '''    public void addMethod(final MethodEntry obj)
+    '''
 def methods():
-'''public Vector methods()
-'''
-pass
+    '''    public Vector methods()
+    '''
 def addContained():
-'''public void addContained(final SymtabEntry obj)
-'''
-pass
+    '''    public void addContained(final SymtabEntry obj)
+    '''
 def contained():
-'''public Vector contained()
-'''
-pass
+    '''    public Vector contained()
+    '''
 def replaceForwardDecl():
-'''public boolean replaceForwardDecl(final ForwardEntry o, final InterfaceEntry obj)
-'''
-pass
+    '''    public boolean replaceForwardDecl(final ForwardEntry o, final InterfaceEntry obj)
+    '''
 def state():
-'''public Vector state()
-'''
-pass
+    '''    public Vector state()
+    '''
 def initState():
-'''public void initState()
-'''
-pass
+    '''    public void initState()
+    '''
 def addStateElement():
-'''public void addStateElement(final InterfaceState obj, final Scanner scanner)
-'''
-pass
+    '''    public void addStateElement(final InterfaceState obj, final Scanner scanner)
+    '''
 def getInterfaceType():
-'''public int getInterfaceType()
-'''
-pass
+    '''    public int getInterfaceType()
+    '''
 def setInterfaceType():
-'''public void setInterfaceType(final int interfaceType)
-'''
-pass
+    '''    public void setInterfaceType(final int interfaceType)
+    '''
 def allMethods():
-'''public Vector allMethods()
-'''
-pass
+    '''    public Vector allMethods()
+    '''

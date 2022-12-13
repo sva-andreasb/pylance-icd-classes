@@ -1,32 +1,24 @@
 def AsyncJobSubmitter():
-'''public AsyncJobSubmitter(final MboServerInterface ms)
-'''
-pass
+    '''    public AsyncJobSubmitter(final MboServerInterface ms)
+    '''
 def getParameters():
-'''public ArrayList<String[]> getParameters()
-'''
-pass
+    '''    public ArrayList<String[]> getParameters()
+    '''
 def isImmediate():
-'''public boolean isImmediate()
-'''
-pass
+    '''    public boolean isImmediate()
+    '''
 def getEmail():
-'''public boolean getEmail()
-'''
-pass
+    '''    public boolean getEmail()
+    '''
 def getEmailAddress():
-'''public String getEmailAddress()
-'''
-pass
+    '''    public String getEmailAddress()
+    '''
 def overwriteJobDefault():
-'''public void overwriteJobDefault(final MboRemote queue)
-'''
-pass
+    '''    public void overwriteJobDefault(final MboRemote queue)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def createJobEntry():
-'''public MboRemote createJobEntry()
-'''
-pass
+    '''    public MboRemote createJobEntry()
+    '''

@@ -1,8 +1,6 @@
 def FldOmniClassOrgId():
-'''public FldOmniClassOrgId(final MboValue mbv)
-'''
-pass
+    '''    public FldOmniClassOrgId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

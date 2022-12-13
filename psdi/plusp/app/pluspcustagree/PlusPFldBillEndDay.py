@@ -1,9 +1,7 @@
 def PlusPFldBillEndDay():
-'''public PlusPFldBillEndDay()
-public PlusPFldBillEndDay(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBillEndDay()
+    public PlusPFldBillEndDay(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

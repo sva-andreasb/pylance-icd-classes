@@ -1,172 +1,130 @@
 def XMLStreamReaderWrapper():
-'''public XMLStreamReaderWrapper(final XMLStreamReader parent)
-'''
-pass
+    '''    public XMLStreamReaderWrapper(final XMLStreamReader parent)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getAttributeCount():
-'''public int getAttributeCount()
-'''
-pass
+    '''    public int getAttributeCount()
+    '''
 def getAttributeLocalName():
-'''public String getAttributeLocalName(final int index)
-'''
-pass
+    '''    public String getAttributeLocalName(final int index)
+    '''
 def getAttributeName():
-'''public QName getAttributeName(final int index)
-'''
-pass
+    '''    public QName getAttributeName(final int index)
+    '''
 def getAttributeNamespace():
-'''public String getAttributeNamespace(final int index)
-'''
-pass
+    '''    public String getAttributeNamespace(final int index)
+    '''
 def getAttributePrefix():
-'''public String getAttributePrefix(final int index)
-'''
-pass
+    '''    public String getAttributePrefix(final int index)
+    '''
 def getAttributeType():
-'''public String getAttributeType(final int index)
-'''
-pass
+    '''    public String getAttributeType(final int index)
+    '''
 def getAttributeValue():
-'''public String getAttributeValue(final int index)
-public String getAttributeValue(final String namespaceURI, final String localName)
-'''
-pass
+    '''    public String getAttributeValue(final int index)
+    public String getAttributeValue(final String namespaceURI, final String localName)
+    '''
 def getCharacterEncodingScheme():
-'''public String getCharacterEncodingScheme()
-'''
-pass
+    '''    public String getCharacterEncodingScheme()
+    '''
 def getElementText():
-'''public String getElementText()
-'''
-pass
+    '''    public String getElementText()
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def getEventType():
-'''public int getEventType()
-'''
-pass
+    '''    public int getEventType()
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getNamespaceContext():
-'''public NamespaceContext getNamespaceContext()
-'''
-pass
+    '''    public NamespaceContext getNamespaceContext()
+    '''
 def getNamespaceCount():
-'''public int getNamespaceCount()
-'''
-pass
+    '''    public int getNamespaceCount()
+    '''
 def getNamespacePrefix():
-'''public String getNamespacePrefix(final int index)
-'''
-pass
+    '''    public String getNamespacePrefix(final int index)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-public String getNamespaceURI(final int index)
-public String getNamespaceURI(final String prefix)
-'''
-pass
+    '''    public String getNamespaceURI()
+    public String getNamespaceURI(final int index)
+    public String getNamespaceURI(final String prefix)
+    '''
 def getPIData():
-'''public String getPIData()
-'''
-pass
+    '''    public String getPIData()
+    '''
 def getPITarget():
-'''public String getPITarget()
-'''
-pass
+    '''    public String getPITarget()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def getProperty():
-'''public Object getProperty(final String name)
-'''
-pass
+    '''    public Object getProperty(final String name)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getTextCharacters():
-'''public char[] getTextCharacters()
-public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
-'''
-pass
+    '''    public char[] getTextCharacters()
+    public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
+    '''
 def getTextLength():
-'''public int getTextLength()
-'''
-pass
+    '''    public int getTextLength()
+    '''
 def getTextStart():
-'''public int getTextStart()
-'''
-pass
+    '''    public int getTextStart()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def hasName():
-'''public boolean hasName()
-'''
-pass
+    '''    public boolean hasName()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def hasText():
-'''public boolean hasText()
-'''
-pass
+    '''    public boolean hasText()
+    '''
 def isAttributeSpecified():
-'''public boolean isAttributeSpecified(final int index)
-'''
-pass
+    '''    public boolean isAttributeSpecified(final int index)
+    '''
 def isCharacters():
-'''public boolean isCharacters()
-'''
-pass
+    '''    public boolean isCharacters()
+    '''
 def isEndElement():
-'''public boolean isEndElement()
-'''
-pass
+    '''    public boolean isEndElement()
+    '''
 def isStandalone():
-'''public boolean isStandalone()
-'''
-pass
+    '''    public boolean isStandalone()
+    '''
 def isStartElement():
-'''public boolean isStartElement()
-'''
-pass
+    '''    public boolean isStartElement()
+    '''
 def isWhiteSpace():
-'''public boolean isWhiteSpace()
-'''
-pass
+    '''    public boolean isWhiteSpace()
+    '''
 def next():
-'''public int next()
-'''
-pass
+    '''    public int next()
+    '''
 def nextTag():
-'''public int nextTag()
-'''
-pass
+    '''    public int nextTag()
+    '''
 def require():
-'''public void require(final int type, final String namespaceURI, final String localName)
-'''
-pass
+    '''    public void require(final int type, final String namespaceURI, final String localName)
+    '''
 def standaloneSet():
-'''public boolean standaloneSet()
-'''
-pass
+    '''    public boolean standaloneSet()
+    '''

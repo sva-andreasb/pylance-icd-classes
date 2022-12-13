@@ -1,8 +1,6 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def getMap():
-'''public static HashMap getMap()
-'''
-pass
+    '''    public static HashMap getMap()
+    '''

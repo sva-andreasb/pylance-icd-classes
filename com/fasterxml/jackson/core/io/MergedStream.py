@@ -1,34 +1,26 @@
 def MergedStream():
-'''public MergedStream(final IOContext ctxt, final InputStream in, final byte[] buf, final int start, final int end)
-'''
-pass
+    '''    public MergedStream(final IOContext ctxt, final InputStream in, final byte[] buf, final int start, final int end)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def mark():
-'''public void mark(final int readlimit)
-'''
-pass
+    '''    public void mark(final int readlimit)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b)
-public int read(final byte[] b, final int off, int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b)
+    public int read(final byte[] b, final int off, int len)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def skip():
-'''public long skip(long n)
-'''
-pass
+    '''    public long skip(long n)
+    '''

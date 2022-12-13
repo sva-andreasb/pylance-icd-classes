@@ -31,103 +31,78 @@ OBJECT_TYPE_RESERVED8 = "short  28"
 OBJECT_TYPE_RESERVED9 = "short  29"
 OBJECT_TYPE_MICROSOFT_OFFICE_DRAWING = "short  30"
 def CommonObjectDataSubRecord():
-'''public CommonObjectDataSubRecord()
-public CommonObjectDataSubRecord(final LittleEndianInput in, final int size)
-'''
-pass
+    '''    public CommonObjectDataSubRecord()
+    public CommonObjectDataSubRecord(final LittleEndianInput in, final int size)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public CommonObjectDataSubRecord clone()
-'''
-pass
+    '''    public CommonObjectDataSubRecord clone()
+    '''
 def getObjectType():
-'''public short getObjectType()
-'''
-pass
+    '''    public short getObjectType()
+    '''
 def setObjectType():
-'''public void setObjectType(final short field_1_objectType)
-'''
-pass
+    '''    public void setObjectType(final short field_1_objectType)
+    '''
 def getObjectId():
-'''public int getObjectId()
-'''
-pass
+    '''    public int getObjectId()
+    '''
 def setObjectId():
-'''public void setObjectId(final int field_2_objectId)
-'''
-pass
+    '''    public void setObjectId(final int field_2_objectId)
+    '''
 def getOption():
-'''public short getOption()
-'''
-pass
+    '''    public short getOption()
+    '''
 def setOption():
-'''public void setOption(final short field_3_option)
-'''
-pass
+    '''    public void setOption(final short field_3_option)
+    '''
 def getReserved1():
-'''public int getReserved1()
-'''
-pass
+    '''    public int getReserved1()
+    '''
 def setReserved1():
-'''public void setReserved1(final int field_4_reserved1)
-'''
-pass
+    '''    public void setReserved1(final int field_4_reserved1)
+    '''
 def getReserved2():
-'''public int getReserved2()
-'''
-pass
+    '''    public int getReserved2()
+    '''
 def setReserved2():
-'''public void setReserved2(final int field_5_reserved2)
-'''
-pass
+    '''    public void setReserved2(final int field_5_reserved2)
+    '''
 def getReserved3():
-'''public int getReserved3()
-'''
-pass
+    '''    public int getReserved3()
+    '''
 def setReserved3():
-'''public void setReserved3(final int field_6_reserved3)
-'''
-pass
+    '''    public void setReserved3(final int field_6_reserved3)
+    '''
 def setLocked():
-'''public void setLocked(final boolean value)
-'''
-pass
+    '''    public void setLocked(final boolean value)
+    '''
 def isLocked():
-'''public boolean isLocked()
-'''
-pass
+    '''    public boolean isLocked()
+    '''
 def setPrintable():
-'''public void setPrintable(final boolean value)
-'''
-pass
+    '''    public void setPrintable(final boolean value)
+    '''
 def isPrintable():
-'''public boolean isPrintable()
-'''
-pass
+    '''    public boolean isPrintable()
+    '''
 def setAutofill():
-'''public void setAutofill(final boolean value)
-'''
-pass
+    '''    public void setAutofill(final boolean value)
+    '''
 def isAutofill():
-'''public boolean isAutofill()
-'''
-pass
+    '''    public boolean isAutofill()
+    '''
 def setAutoline():
-'''public void setAutoline(final boolean value)
-'''
-pass
+    '''    public void setAutoline(final boolean value)
+    '''
 def isAutoline():
-'''public boolean isAutoline()
-'''
-pass
+    '''    public boolean isAutoline()
+    '''

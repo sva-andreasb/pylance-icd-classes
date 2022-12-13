@@ -1,8 +1,6 @@
 def getSession():
-'''public IMSession getSession()
-'''
-pass
+    '''    public IMSession getSession()
+    '''
 def getType():
-'''public IMEventType getType()
-'''
-pass
+    '''    public IMEventType getType()
+    '''

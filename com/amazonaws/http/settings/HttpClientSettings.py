@@ -1,97 +1,73 @@
 def adapt():
-'''public static HttpClientSettings adapt(final ClientConfiguration config, final boolean useBrowserCompatibleHostNameVerifier)
-public static HttpClientSettings adapt(final ClientConfiguration config)
-'''
-pass
+    '''    public static HttpClientSettings adapt(final ClientConfiguration config, final boolean useBrowserCompatibleHostNameVerifier)
+    public static HttpClientSettings adapt(final ClientConfiguration config)
+    '''
 def useBrowserCompatibleHostNameVerifier():
-'''public boolean useBrowserCompatibleHostNameVerifier()
-'''
-pass
+    '''    public boolean useBrowserCompatibleHostNameVerifier()
+    '''
 def getMaxConnections():
-'''public int getMaxConnections()
-'''
-pass
+    '''    public int getMaxConnections()
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def getProxyHost():
-'''public String getProxyHost()
-'''
-pass
+    '''    public String getProxyHost()
+    '''
 def getProxyPort():
-'''public int getProxyPort()
-'''
-pass
+    '''    public int getProxyPort()
+    '''
 def getProxyUsername():
-'''public String getProxyUsername()
-'''
-pass
+    '''    public String getProxyUsername()
+    '''
 def getProxyPassword():
-'''public String getProxyPassword()
-'''
-pass
+    '''    public String getProxyPassword()
+    '''
 def useReaper():
-'''public boolean useReaper()
-'''
-pass
+    '''    public boolean useReaper()
+    '''
 def useGzip():
-'''public boolean useGzip()
-'''
-pass
+    '''    public boolean useGzip()
+    '''
 def getDnsResolver():
-'''public DnsResolver getDnsResolver()
-'''
-pass
+    '''    public DnsResolver getDnsResolver()
+    '''
 def getApacheHttpClientConfig():
-'''public ApacheHttpClientConfig getApacheHttpClientConfig()
-'''
-pass
+    '''    public ApacheHttpClientConfig getApacheHttpClientConfig()
+    '''
 def getSocketTimeout():
-'''public int getSocketTimeout()
-'''
-pass
+    '''    public int getSocketTimeout()
+    '''
 def getSocketBufferSize():
-'''public int[] getSocketBufferSize()
-'''
-pass
+    '''    public int[] getSocketBufferSize()
+    '''
 def useTcpKeepAlive():
-'''public boolean useTcpKeepAlive()
-'''
-pass
+    '''    public boolean useTcpKeepAlive()
+    '''
 def getSecureRandom():
-'''public SecureRandom getSecureRandom()
-'''
-pass
+    '''    public SecureRandom getSecureRandom()
+    '''
 def getConnectionTimeout():
-'''public int getConnectionTimeout()
-'''
-pass
+    '''    public int getConnectionTimeout()
+    '''
 def getConnectionPoolRequestTimeout():
-'''public int getConnectionPoolRequestTimeout()
-'''
-pass
+    '''    public int getConnectionPoolRequestTimeout()
+    '''
 def getConnectionPoolTTL():
-'''public long getConnectionPoolTTL()
-'''
-pass
+    '''    public long getConnectionPoolTTL()
+    '''
 def getMaxIdleConnectionTime():
-'''public long getMaxIdleConnectionTime()
-'''
-pass
+    '''    public long getMaxIdleConnectionTime()
+    '''
 def getProxyWorkstation():
-'''public String getProxyWorkstation()
-'''
-pass
+    '''    public String getProxyWorkstation()
+    '''
 def getProxyDomain():
-'''public String getProxyDomain()
-'''
-pass
+    '''    public String getProxyDomain()
+    '''
 def isPreemptiveBasicProxyAuth():
-'''public boolean isPreemptiveBasicProxyAuth()
-'''
-pass
+    '''    public boolean isPreemptiveBasicProxyAuth()
+    '''
 def isUseExpectContinue():
-'''public boolean isUseExpectContinue()
-'''
-pass
+    '''    public boolean isUseExpectContinue()
+    '''

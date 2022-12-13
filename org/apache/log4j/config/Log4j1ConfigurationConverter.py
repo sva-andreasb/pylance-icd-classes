@@ -1,57 +1,43 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def run():
-'''public static Log4j1ConfigurationConverter run(final CommandLineArguments cla)
-public void run()
-'''
-pass
+    '''    public static Log4j1ConfigurationConverter run(final CommandLineArguments cla)
+    public void run()
+    '''
 def visitFile():
-'''public FileVisitResult visitFile(final Path file, final BasicFileAttributes attrs)
-'''
-pass
+    '''    public FileVisitResult visitFile(final Path file, final BasicFileAttributes attrs)
+    '''
 def getPathIn():
-'''public Path getPathIn()
-'''
-pass
+    '''    public Path getPathIn()
+    '''
 def getPathOut():
-'''public Path getPathOut()
-'''
-pass
+    '''    public Path getPathOut()
+    '''
 def getRecurseIntoPath():
-'''public Path getRecurseIntoPath()
-'''
-pass
+    '''    public Path getRecurseIntoPath()
+    '''
 def isFailFast():
-'''public boolean isFailFast()
-'''
-pass
+    '''    public boolean isFailFast()
+    '''
 def isVerbose():
-'''public boolean isVerbose()
-'''
-pass
+    '''    public boolean isVerbose()
+    '''
 def setFailFast():
-'''public void setFailFast(final boolean failFast)
-'''
-pass
+    '''    public void setFailFast(final boolean failFast)
+    '''
 def setPathIn():
-'''public void setPathIn(final Path pathIn)
-'''
-pass
+    '''    public void setPathIn(final Path pathIn)
+    '''
 def setPathOut():
-'''public void setPathOut(final Path pathOut)
-'''
-pass
+    '''    public void setPathOut(final Path pathOut)
+    '''
 def setRecurseIntoPath():
-'''public void setRecurseIntoPath(final Path recurseIntoPath)
-'''
-pass
+    '''    public void setRecurseIntoPath(final Path recurseIntoPath)
+    '''
 def setVerbose():
-'''public void setVerbose(final boolean verbose)
-'''
-pass
+    '''    public void setVerbose(final boolean verbose)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

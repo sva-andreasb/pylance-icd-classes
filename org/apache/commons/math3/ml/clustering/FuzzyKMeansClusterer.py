@@ -1,46 +1,35 @@
 def FuzzyKMeansClusterer():
-'''public FuzzyKMeansClusterer(final int k, final double fuzziness)
-public FuzzyKMeansClusterer(final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure)
-public FuzzyKMeansClusterer(final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure, final double epsilon, final RandomGenerator random)
-'''
-pass
+    '''    public FuzzyKMeansClusterer(final int k, final double fuzziness)
+    public FuzzyKMeansClusterer(final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure)
+    public FuzzyKMeansClusterer(final int k, final double fuzziness, final int maxIterations, final DistanceMeasure measure, final double epsilon, final RandomGenerator random)
+    '''
 def getK():
-'''public int getK()
-'''
-pass
+    '''    public int getK()
+    '''
 def getFuzziness():
-'''public double getFuzziness()
-'''
-pass
+    '''    public double getFuzziness()
+    '''
 def getMaxIterations():
-'''public int getMaxIterations()
-'''
-pass
+    '''    public int getMaxIterations()
+    '''
 def getEpsilon():
-'''public double getEpsilon()
-'''
-pass
+    '''    public double getEpsilon()
+    '''
 def getRandomGenerator():
-'''public RandomGenerator getRandomGenerator()
-'''
-pass
+    '''    public RandomGenerator getRandomGenerator()
+    '''
 def getMembershipMatrix():
-'''public RealMatrix getMembershipMatrix()
-'''
-pass
+    '''    public RealMatrix getMembershipMatrix()
+    '''
 def getDataPoints():
-'''public List<T> getDataPoints()
-'''
-pass
+    '''    public List<T> getDataPoints()
+    '''
 def getClusters():
-'''public List<CentroidCluster<T>> getClusters()
-'''
-pass
+    '''    public List<CentroidCluster<T>> getClusters()
+    '''
 def getObjectiveFunctionValue():
-'''public double getObjectiveFunctionValue()
-'''
-pass
+    '''    public double getObjectiveFunctionValue()
+    '''
 def cluster():
-'''public List<CentroidCluster<T>> cluster(final Collection<T> dataPoints)
-'''
-pass
+    '''    public List<CentroidCluster<T>> cluster(final Collection<T> dataPoints)
+    '''

@@ -1,17 +1,13 @@
 def create():
-'''public static RuleSet create(final List<Rule> rules)
-public static RuleSet create(final String ruleString)
-'''
-pass
+    '''    public static RuleSet create(final List<Rule> rules)
+    public static RuleSet create(final String ruleString)
+    '''
 def getRules():
-'''public List<Rule> getRules()
-'''
-pass
+    '''    public List<Rule> getRules()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''

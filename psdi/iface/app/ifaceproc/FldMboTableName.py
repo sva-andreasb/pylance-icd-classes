@@ -1,8 +1,6 @@
 def FldMboTableName():
-'''public FldMboTableName(final MboValue mbv)
-'''
-pass
+    '''    public FldMboTableName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

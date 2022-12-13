@@ -1,8 +1,6 @@
 def PlusPFldMeasurePointLocation():
-'''public PlusPFldMeasurePointLocation(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldMeasurePointLocation(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

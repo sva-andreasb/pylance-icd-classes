@@ -1,21 +1,16 @@
 def Utf8StringBuffer():
-'''public Utf8StringBuffer()
-public Utf8StringBuffer(final int capacity)
-'''
-pass
+    '''    public Utf8StringBuffer()
+    public Utf8StringBuffer(final int capacity)
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getStringBuffer():
-'''public StringBuffer getStringBuffer()
-'''
-pass
+    '''    public StringBuffer getStringBuffer()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

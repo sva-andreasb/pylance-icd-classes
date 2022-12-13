@@ -1,4 +1,3 @@
 def getSPID():
-'''public static String getSPID(final Connection connection)
-'''
-pass
+    '''    public static String getSPID(final Connection connection)
+    '''

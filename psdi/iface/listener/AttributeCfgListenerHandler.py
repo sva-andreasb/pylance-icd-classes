@@ -1,8 +1,6 @@
 def AttributeCfgListenerHandler():
-'''public AttributeCfgListenerHandler(final IntListenerInfo info)
-'''
-pass
+    '''    public AttributeCfgListenerHandler(final IntListenerInfo info)
+    '''
 def update():
-'''public void update(final MboRemote mbo)
-'''
-pass
+    '''    public void update(final MboRemote mbo)
+    '''

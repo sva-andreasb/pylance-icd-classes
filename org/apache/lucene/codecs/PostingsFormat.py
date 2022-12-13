@@ -1,20 +1,15 @@
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def forName():
-'''public static PostingsFormat forName(final String name)
-'''
-pass
+    '''    public static PostingsFormat forName(final String name)
+    '''
 def availablePostingsFormats():
-'''public static Set<String> availablePostingsFormats()
-'''
-pass
+    '''    public static Set<String> availablePostingsFormats()
+    '''
 def reloadPostingsFormats():
-'''public static void reloadPostingsFormats(final ClassLoader classloader)
-'''
-pass
+    '''    public static void reloadPostingsFormats(final ClassLoader classloader)
+    '''

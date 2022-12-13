@@ -1,12 +1,9 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def POFromPRInput():
-'''public POFromPRInput(final MboSet ms)
-'''
-pass
+    '''    public POFromPRInput(final MboSet ms)
+    '''
 def setPOAutoKey():
-'''public void setPOAutoKey()
-'''
-pass
+    '''    public void setPOAutoKey()
+    '''

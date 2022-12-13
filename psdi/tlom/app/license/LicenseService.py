@@ -1,5 +1,4 @@
 def LicenseService():
-'''public LicenseService(final MXServer mxServer)
-public LicenseService()
-'''
-pass
+    '''    public LicenseService(final MXServer mxServer)
+    public LicenseService()
+    '''

@@ -1,4 +1,3 @@
 def Selection():
-'''public Selection(final JSONObject jsonObject)
-'''
-pass
+    '''    public Selection(final JSONObject jsonObject)
+    '''

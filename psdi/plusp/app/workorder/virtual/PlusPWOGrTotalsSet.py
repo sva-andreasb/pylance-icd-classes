@@ -1,12 +1,9 @@
 def PlusPWOGrTotalsSet():
-'''public PlusPWOGrTotalsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPWOGrTotalsSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getMbo():
-'''public MboRemote getMbo(final int index)
-'''
-pass
+    '''    public MboRemote getMbo(final int index)
+    '''

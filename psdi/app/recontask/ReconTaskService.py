@@ -1,5 +1,4 @@
 def ReconTaskService():
-'''public ReconTaskService()
-public ReconTaskService(final MXServer mxServer)
-'''
-pass
+    '''    public ReconTaskService()
+    public ReconTaskService(final MXServer mxServer)
+    '''

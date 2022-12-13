@@ -1,4 +1,3 @@
 def MXODMAppPkg():
-'''public MXODMAppPkg(final MboSet ms)
-'''
-pass
+    '''    public MXODMAppPkg(final MboSet ms)
+    '''

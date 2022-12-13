@@ -1,16 +1,12 @@
 def JzlibInputOutputStream():
-'''public JzlibInputOutputStream()
-'''
-pass
+    '''    public JzlibInputOutputStream()
+    '''
 def isSupported():
-'''public boolean isSupported()
-'''
-pass
+    '''    public boolean isSupported()
+    '''
 def getInputStream():
-'''public InputStream getInputStream(final InputStream inputStream)
-'''
-pass
+    '''    public InputStream getInputStream(final InputStream inputStream)
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream(final OutputStream outputStream)
-'''
-pass
+    '''    public OutputStream getOutputStream(final OutputStream outputStream)
+    '''

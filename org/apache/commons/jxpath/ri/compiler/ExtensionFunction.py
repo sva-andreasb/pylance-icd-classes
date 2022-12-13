@@ -1,24 +1,18 @@
 def ExtensionFunction():
-'''public ExtensionFunction(final QName functionName, final Expression[] args)
-'''
-pass
+    '''    public ExtensionFunction(final QName functionName, final Expression[] args)
+    '''
 def getFunctionName():
-'''public QName getFunctionName()
-'''
-pass
+    '''    public QName getFunctionName()
+    '''
 def computeContextDependent():
-'''public boolean computeContextDependent()
-'''
-pass
+    '''    public boolean computeContextDependent()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def compute():
-'''public Object compute(final EvalContext context)
-'''
-pass
+    '''    public Object compute(final EvalContext context)
+    '''
 def computeValue():
-'''public Object computeValue(final EvalContext context)
-'''
-pass
+    '''    public Object computeValue(final EvalContext context)
+    '''

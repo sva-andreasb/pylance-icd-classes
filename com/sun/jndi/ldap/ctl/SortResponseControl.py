@@ -1,21 +1,16 @@
-OID = "String  1.2.840.113556.1.4.474""
+OID = "String  \"1.2.840.113556.1.4.474\""
 def SortResponseControl():
-'''public SortResponseControl(final String id, final boolean criticality, final byte[] array)
-'''
-pass
+    '''    public SortResponseControl(final String id, final boolean criticality, final byte[] array)
+    '''
 def getAttributeID():
-'''public String getAttributeID()
-'''
-pass
+    '''    public String getAttributeID()
+    '''
 def getException():
-'''public NamingException getException()
-'''
-pass
+    '''    public NamingException getException()
+    '''
 def getResultCode():
-'''public int getResultCode()
-'''
-pass
+    '''    public int getResultCode()
+    '''
 def isSorted():
-'''public boolean isSorted()
-'''
-pass
+    '''    public boolean isSorted()
+    '''

@@ -1,24 +1,18 @@
 def UnicastResponse():
-'''public UnicastResponse(final String host, final int n, String[] array, final ServiceRegistrar registrar)
-'''
-pass
+    '''    public UnicastResponse(final String host, final int n, String[] array, final ServiceRegistrar registrar)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getGroups():
-'''public String[] getGroups()
-'''
-pass
+    '''    public String[] getGroups()
+    '''
 def getRegistrar():
-'''public ServiceRegistrar getRegistrar()
-'''
-pass
+    '''    public ServiceRegistrar getRegistrar()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

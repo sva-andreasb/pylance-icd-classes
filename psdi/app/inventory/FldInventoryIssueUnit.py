@@ -1,4 +1,3 @@
 def FldInventoryIssueUnit():
-'''public FldInventoryIssueUnit(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryIssueUnit(final MboValue mbv)
+    '''

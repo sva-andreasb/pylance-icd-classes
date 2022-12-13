@@ -1,28 +1,21 @@
 def SimpleNNTPHeader():
-'''public SimpleNNTPHeader(final String from, final String subject)
-'''
-pass
+    '''    public SimpleNNTPHeader(final String from, final String subject)
+    '''
 def addNewsgroup():
-'''public void addNewsgroup(final String newsgroup)
-'''
-pass
+    '''    public void addNewsgroup(final String newsgroup)
+    '''
 def addHeaderField():
-'''public void addHeaderField(final String headerField, final String value)
-'''
-pass
+    '''    public void addHeaderField(final String headerField, final String value)
+    '''
 def getFromAddress():
-'''public String getFromAddress()
-'''
-pass
+    '''    public String getFromAddress()
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def getNewsgroups():
-'''public String getNewsgroups()
-'''
-pass
+    '''    public String getNewsgroups()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

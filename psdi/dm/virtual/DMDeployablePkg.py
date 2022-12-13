@@ -1,109 +1,82 @@
 def DMDeployablePkg():
-'''public DMDeployablePkg(final MboSet ms)
-'''
-pass
+    '''    public DMDeployablePkg(final MboSet ms)
+    '''
 def readManifest():
-'''public void readManifest()
-'''
-pass
+    '''    public void readManifest()
+    '''
 def getManifest():
-'''public byte[] getManifest()
-'''
-pass
+    '''    public byte[] getManifest()
+    '''
 def loadStagingRecords():
-'''public void loadStagingRecords()
-'''
-pass
+    '''    public void loadStagingRecords()
+    '''
 def updateDistStatusForFile():
-'''public void updateDistStatusForFile(final String pkgDefName, final String source, final String pkgName)
-'''
-pass
+    '''    public void updateDistStatusForFile(final String pkgDefName, final String source, final String pkgName)
+    '''
 def checkCompiledSource():
-'''public void checkCompiledSource()
-'''
-pass
+    '''    public void checkCompiledSource()
+    '''
 def deployPkgMetaData():
-'''public MboRemote deployPkgMetaData()
-'''
-pass
+    '''    public MboRemote deployPkgMetaData()
+    '''
 def createPkgDeployStatus():
-'''public void createPkgDeployStatus(final MboRemote stageMbo, final boolean isSuccessful, final Throwable t)
-'''
-pass
+    '''    public void createPkgDeployStatus(final MboRemote stageMbo, final boolean isSuccessful, final Throwable t)
+    '''
 def isOKToDeploy():
-'''public boolean isOKToDeploy()
-'''
-pass
+    '''    public boolean isOKToDeploy()
+    '''
 def versionCheck():
-'''public int versionCheck(final List<String> srcNeedToBeChecked)
-'''
-pass
+    '''    public int versionCheck(final List<String> srcNeedToBeChecked)
+    '''
 def getVersionCheckResult():
-'''public int getVersionCheckResult()
-'''
-pass
+    '''    public int getVersionCheckResult()
+    '''
 def getSourceProductInfo():
-'''public Map<String, ProductInfo> getSourceProductInfo()
-'''
-pass
+    '''    public Map<String, ProductInfo> getSourceProductInfo()
+    '''
 def getTargetProductInfo():
-'''public Map<String, ProductInfo> getTargetProductInfo()
-'''
-pass
+    '''    public Map<String, ProductInfo> getTargetProductInfo()
+    '''
 def previewCheck():
-'''public boolean previewCheck()
-'''
-pass
+    '''    public boolean previewCheck()
+    '''
 def getCreateDate():
-'''public static Date getCreateDate(final byte[] manifest)
-public static Date getCreateDate(final String fileName)
-'''
-pass
+    '''    public static Date getCreateDate(final byte[] manifest)
+    public static Date getCreateDate(final String fileName)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def isFileExist():
-'''public boolean isFileExist(final String deployPkgName)
-'''
-pass
+    '''    public boolean isFileExist(final String deployPkgName)
+    '''
 def deletePkgFile():
-'''public void deletePkgFile(final String deployPkgName)
-'''
-pass
+    '''    public void deletePkgFile(final String deployPkgName)
+    '''
 def ProductInfo():
-'''public ProductInfo()
-'''
-pass
+    '''    public ProductInfo()
+    '''
 def setDescription():
-'''public void setDescription(final String desc)
-'''
-pass
+    '''    public void setDescription(final String desc)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setResult():
-'''public void setResult(final int res)
-'''
-pass
+    '''    public void setResult(final int res)
+    '''
 def getResult():
-'''public int getResult()
-'''
-pass
+    '''    public int getResult()
+    '''
 def setExcluded():
-'''public void setExcluded(final boolean flag)
-'''
-pass
+    '''    public void setExcluded(final boolean flag)
+    '''
 def isExcluded():
-'''public boolean isExcluded()
-'''
-pass
+    '''    public boolean isExcluded()
+    '''
 def setSourceFlag():
-'''public void setSourceFlag(final boolean flag)
-'''
-pass
+    '''    public void setSourceFlag(final boolean flag)
+    '''
 def getSourceFlag():
-'''public boolean getSourceFlag()
-'''
-pass
+    '''    public boolean getSourceFlag()
+    '''

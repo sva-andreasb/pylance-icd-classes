@@ -1,4 +1,3 @@
 def AutoScriptVarsSet():
-'''public AutoScriptVarsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AutoScriptVarsSet(final MboServerInterface ms)
+    '''

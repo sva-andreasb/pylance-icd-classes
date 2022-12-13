@@ -1,4 +1,3 @@
 def ECommAdapterSet():
-'''public ECommAdapterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ECommAdapterSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def FldAssetLocRelationTargetLocation():
-'''public FldAssetLocRelationTargetLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetLocRelationTargetLocation(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

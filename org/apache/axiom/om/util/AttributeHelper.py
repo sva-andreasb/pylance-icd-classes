@@ -1,4 +1,3 @@
 def importOMAttribute():
-'''public static void importOMAttribute(final OMAttribute omAttribute, final OMElement omElement)
-'''
-pass
+    '''    public static void importOMAttribute(final OMAttribute omAttribute, final OMElement omElement)
+    '''

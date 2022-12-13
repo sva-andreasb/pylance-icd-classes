@@ -1,29 +1,22 @@
-IBM_COPYRIGHT = "String  \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def CCIBaselineAppBean():
-'''public CCIBaselineAppBean()
-'''
-pass
+    '''    public CCIBaselineAppBean()
+    '''
 def ACTIVATE():
-'''public int ACTIVATE()
-'''
-pass
+    '''    public int ACTIVATE()
+    '''
 def VALIDATE():
-'''public int VALIDATE()
-'''
-pass
+    '''    public int VALIDATE()
+    '''
 def COMPACTUAL():
-'''public int COMPACTUAL()
-'''
-pass
+    '''    public int COMPACTUAL()
+    '''
 def NEWCOPY():
-'''public int NEWCOPY()
-'''
-pass
+    '''    public int NEWCOPY()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def getRequestID():
-'''public long getRequestID()
-'''
-pass
+    '''    public long getRequestID()
+    '''

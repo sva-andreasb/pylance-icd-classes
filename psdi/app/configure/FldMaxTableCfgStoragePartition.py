@@ -1,4 +1,3 @@
 def FldMaxTableCfgStoragePartition():
-'''public FldMaxTableCfgStoragePartition(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxTableCfgStoragePartition(final MboValue mbv)
+    '''

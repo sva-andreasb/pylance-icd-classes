@@ -1,77 +1,58 @@
-DONE = "int -1"
+DONE = "int  -1"
 def setIndex():
-'''public void setIndex(final int position)
-'''
-pass
+    '''    public void setIndex(final int position)
+    '''
 def setOverlapping():
-'''public void setOverlapping(final boolean allowOverlap)
-'''
-pass
+    '''    public void setOverlapping(final boolean allowOverlap)
+    '''
 def setBreakIterator():
-'''public void setBreakIterator(final BreakIterator breakiter)
-'''
-pass
+    '''    public void setBreakIterator(final BreakIterator breakiter)
+    '''
 def setTarget():
-'''public void setTarget(final CharacterIterator text)
-'''
-pass
+    '''    public void setTarget(final CharacterIterator text)
+    '''
 def getMatchStart():
-'''public int getMatchStart()
-'''
-pass
+    '''    public int getMatchStart()
+    '''
 def getMatchLength():
-'''public int getMatchLength()
-'''
-pass
+    '''    public int getMatchLength()
+    '''
 def getBreakIterator():
-'''public BreakIterator getBreakIterator()
-'''
-pass
+    '''    public BreakIterator getBreakIterator()
+    '''
 def getTarget():
-'''public CharacterIterator getTarget()
-'''
-pass
+    '''    public CharacterIterator getTarget()
+    '''
 def getMatchedText():
-'''public String getMatchedText()
-'''
-pass
+    '''    public String getMatchedText()
+    '''
 def next():
-'''public int next()
-'''
-pass
+    '''    public int next()
+    '''
 def previous():
-'''public int previous()
-'''
-pass
+    '''    public int previous()
+    '''
 def isOverlapping():
-'''public boolean isOverlapping()
-'''
-pass
+    '''    public boolean isOverlapping()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def first():
-'''public final int first()
-'''
-pass
+    '''    public final int first()
+    '''
 def following():
-'''public final int following(final int position)
-'''
-pass
+    '''    public final int following(final int position)
+    '''
 def last():
-'''public final int last()
-'''
-pass
+    '''    public final int last()
+    '''
 def preceding():
-'''public final int preceding(final int position)
-'''
-pass
+    '''    public final int preceding(final int position)
+    '''
 def setElementComparisonType():
-'''public void setElementComparisonType(final ElementComparisonType type)
-'''
-pass
+    '''    public void setElementComparisonType(final ElementComparisonType type)
+    '''
 def getElementComparisonType():
-'''public ElementComparisonType getElementComparisonType()
-'''
-pass
+    '''    public ElementComparisonType getElementComparisonType()
+    '''

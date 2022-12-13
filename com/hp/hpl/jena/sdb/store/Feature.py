@@ -1,42 +1,32 @@
 def Feature():
-'''public Feature(final Name name, final String value)
-public Feature(final Name name, final long value)
-'''
-pass
+    '''    public Feature(final Name name, final String value)
+    public Feature(final Name name, final long value)
+    '''
 def getAsObject():
-'''public Object getAsObject()
-'''
-pass
+    '''    public Object getAsObject()
+    '''
 def getAsString():
-'''public String getAsString()
-'''
-pass
+    '''    public String getAsString()
+    '''
 def getAsInteger():
-'''public long getAsInteger()
-'''
-pass
+    '''    public long getAsInteger()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def output():
-'''public void output(final IndentedWriter out)
-'''
-pass
+    '''    public void output(final IndentedWriter out)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Name():
-'''public Name(final Symbol other)
-public Name(final String nameStr)
-'''
-pass
+    '''    public Name(final Symbol other)
+    public Name(final String nameStr)
+    '''

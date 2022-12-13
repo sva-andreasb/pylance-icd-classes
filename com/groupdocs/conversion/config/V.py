@@ -1,16 +1,12 @@
 def V():
-'''public V(final IConfig a)
-'''
-pass
+    '''    public V(final IConfig a)
+    '''
 def getLicensePath():
-'''public String getLicensePath()
-'''
-pass
+    '''    public String getLicensePath()
+    '''
 def getStoragePath():
-'''public String getStoragePath()
-'''
-pass
+    '''    public String getStoragePath()
+    '''
 def getFileSavePath():
-'''public String getFileSavePath()
-'''
-pass
+    '''    public String getFileSavePath()
+    '''

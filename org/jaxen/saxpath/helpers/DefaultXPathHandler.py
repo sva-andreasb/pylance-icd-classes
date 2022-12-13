@@ -1,173 +1,130 @@
 def startXPath():
-'''public void startXPath()
-'''
-pass
+    '''    public void startXPath()
+    '''
 def endXPath():
-'''public void endXPath()
-'''
-pass
+    '''    public void endXPath()
+    '''
 def startPathExpr():
-'''public void startPathExpr()
-'''
-pass
+    '''    public void startPathExpr()
+    '''
 def endPathExpr():
-'''public void endPathExpr()
-'''
-pass
+    '''    public void endPathExpr()
+    '''
 def startAbsoluteLocationPath():
-'''public void startAbsoluteLocationPath()
-'''
-pass
+    '''    public void startAbsoluteLocationPath()
+    '''
 def endAbsoluteLocationPath():
-'''public void endAbsoluteLocationPath()
-'''
-pass
+    '''    public void endAbsoluteLocationPath()
+    '''
 def startRelativeLocationPath():
-'''public void startRelativeLocationPath()
-'''
-pass
+    '''    public void startRelativeLocationPath()
+    '''
 def endRelativeLocationPath():
-'''public void endRelativeLocationPath()
-'''
-pass
+    '''    public void endRelativeLocationPath()
+    '''
 def startNameStep():
-'''public void startNameStep(final int axis, final String prefix, final String localName)
-'''
-pass
+    '''    public void startNameStep(final int axis, final String prefix, final String localName)
+    '''
 def endNameStep():
-'''public void endNameStep()
-'''
-pass
+    '''    public void endNameStep()
+    '''
 def startTextNodeStep():
-'''public void startTextNodeStep(final int axis)
-'''
-pass
+    '''    public void startTextNodeStep(final int axis)
+    '''
 def endTextNodeStep():
-'''public void endTextNodeStep()
-'''
-pass
+    '''    public void endTextNodeStep()
+    '''
 def startCommentNodeStep():
-'''public void startCommentNodeStep(final int axis)
-'''
-pass
+    '''    public void startCommentNodeStep(final int axis)
+    '''
 def endCommentNodeStep():
-'''public void endCommentNodeStep()
-'''
-pass
+    '''    public void endCommentNodeStep()
+    '''
 def startAllNodeStep():
-'''public void startAllNodeStep(final int axis)
-'''
-pass
+    '''    public void startAllNodeStep(final int axis)
+    '''
 def endAllNodeStep():
-'''public void endAllNodeStep()
-'''
-pass
+    '''    public void endAllNodeStep()
+    '''
 def startProcessingInstructionNodeStep():
-'''public void startProcessingInstructionNodeStep(final int axis, final String name)
-'''
-pass
+    '''    public void startProcessingInstructionNodeStep(final int axis, final String name)
+    '''
 def endProcessingInstructionNodeStep():
-'''public void endProcessingInstructionNodeStep()
-'''
-pass
+    '''    public void endProcessingInstructionNodeStep()
+    '''
 def startPredicate():
-'''public void startPredicate()
-'''
-pass
+    '''    public void startPredicate()
+    '''
 def endPredicate():
-'''public void endPredicate()
-'''
-pass
+    '''    public void endPredicate()
+    '''
 def startFilterExpr():
-'''public void startFilterExpr()
-'''
-pass
+    '''    public void startFilterExpr()
+    '''
 def endFilterExpr():
-'''public void endFilterExpr()
-'''
-pass
+    '''    public void endFilterExpr()
+    '''
 def startOrExpr():
-'''public void startOrExpr()
-'''
-pass
+    '''    public void startOrExpr()
+    '''
 def endOrExpr():
-'''public void endOrExpr(final boolean create)
-'''
-pass
+    '''    public void endOrExpr(final boolean create)
+    '''
 def startAndExpr():
-'''public void startAndExpr()
-'''
-pass
+    '''    public void startAndExpr()
+    '''
 def endAndExpr():
-'''public void endAndExpr(final boolean create)
-'''
-pass
+    '''    public void endAndExpr(final boolean create)
+    '''
 def startEqualityExpr():
-'''public void startEqualityExpr()
-'''
-pass
+    '''    public void startEqualityExpr()
+    '''
 def endEqualityExpr():
-'''public void endEqualityExpr(final int operator)
-'''
-pass
+    '''    public void endEqualityExpr(final int operator)
+    '''
 def startRelationalExpr():
-'''public void startRelationalExpr()
-'''
-pass
+    '''    public void startRelationalExpr()
+    '''
 def endRelationalExpr():
-'''public void endRelationalExpr(final int operator)
-'''
-pass
+    '''    public void endRelationalExpr(final int operator)
+    '''
 def startAdditiveExpr():
-'''public void startAdditiveExpr()
-'''
-pass
+    '''    public void startAdditiveExpr()
+    '''
 def endAdditiveExpr():
-'''public void endAdditiveExpr(final int operator)
-'''
-pass
+    '''    public void endAdditiveExpr(final int operator)
+    '''
 def startMultiplicativeExpr():
-'''public void startMultiplicativeExpr()
-'''
-pass
+    '''    public void startMultiplicativeExpr()
+    '''
 def endMultiplicativeExpr():
-'''public void endMultiplicativeExpr(final int operator)
-'''
-pass
+    '''    public void endMultiplicativeExpr(final int operator)
+    '''
 def startUnaryExpr():
-'''public void startUnaryExpr()
-'''
-pass
+    '''    public void startUnaryExpr()
+    '''
 def endUnaryExpr():
-'''public void endUnaryExpr(final int operator)
-'''
-pass
+    '''    public void endUnaryExpr(final int operator)
+    '''
 def startUnionExpr():
-'''public void startUnionExpr()
-'''
-pass
+    '''    public void startUnionExpr()
+    '''
 def endUnionExpr():
-'''public void endUnionExpr(final boolean create)
-'''
-pass
+    '''    public void endUnionExpr(final boolean create)
+    '''
 def number():
-'''public void number(final int number)
-public void number(final double number)
-'''
-pass
+    '''    public void number(final int number)
+    public void number(final double number)
+    '''
 def literal():
-'''public void literal(final String literal)
-'''
-pass
+    '''    public void literal(final String literal)
+    '''
 def variableReference():
-'''public void variableReference(final String prefix, final String variableName)
-'''
-pass
+    '''    public void variableReference(final String prefix, final String variableName)
+    '''
 def startFunction():
-'''public void startFunction(final String prefix, final String functionName)
-'''
-pass
+    '''    public void startFunction(final String prefix, final String functionName)
+    '''
 def endFunction():
-'''public void endFunction()
-'''
-pass
+    '''    public void endFunction()
+    '''

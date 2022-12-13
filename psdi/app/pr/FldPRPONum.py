@@ -1,8 +1,6 @@
 def FldPRPONum():
-'''public FldPRPONum(final MboValue mbv)
-'''
-pass
+    '''    public FldPRPONum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

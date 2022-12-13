@@ -1,8 +1,6 @@
 def SKDEditConstraintsDialogBean():
-'''public SKDEditConstraintsDialogBean()
-'''
-pass
+    '''    public SKDEditConstraintsDialogBean()
+    '''
 def setconstraint():
-'''public int setconstraint()
-'''
-pass
+    '''    public int setconstraint()
+    '''

@@ -1,24 +1,18 @@
 def AccessPermission():
-'''public AccessPermission(final String actions)
-'''
-pass
+    '''    public AccessPermission(final String actions)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getActions():
-'''public String getActions()
-'''
-pass
+    '''    public String getActions()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def implies():
-'''public boolean implies(final Permission permission)
-'''
-pass
+    '''    public boolean implies(final Permission permission)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

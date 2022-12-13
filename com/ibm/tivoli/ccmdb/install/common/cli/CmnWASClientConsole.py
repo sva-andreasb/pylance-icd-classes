@@ -1,22 +1,17 @@
 def getSingleton():
-'''public static synchronized CmnWASClientConsole getSingleton()
-'''
-pass
+    '''    public static synchronized CmnWASClientConsole getSingleton()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def setupSystemOut():
-'''public void setupSystemOut()
-'''
-pass
+    '''    public void setupSystemOut()
+    '''
 def println():
-'''public void println(final String aString)
-public void println(final char aChar)
-public void println()
-'''
-pass
+    '''    public void println(final String aString)
+    public void println(final char aChar)
+    public void println()
+    '''
 def printlnErr():
-'''public void printlnErr(final String aString)
-'''
-pass
+    '''    public void printlnErr(final String aString)
+    '''

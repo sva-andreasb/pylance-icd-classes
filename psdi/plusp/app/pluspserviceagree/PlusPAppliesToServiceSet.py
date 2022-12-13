@@ -1,4 +1,3 @@
 def PlusPAppliesToServiceSet():
-'''public PlusPAppliesToServiceSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPAppliesToServiceSet(final MboServerInterface mboServerInterface)
+    '''

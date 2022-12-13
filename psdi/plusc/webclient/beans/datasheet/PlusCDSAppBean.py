@@ -1,16 +1,12 @@
 def saveYesNoCheck():
-'''public boolean saveYesNoCheck()
-'''
-pass
+    '''    public boolean saveYesNoCheck()
+    '''
 def addConfig():
-'''public void addConfig()
-'''
-pass
+    '''    public void addConfig()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def revise():
-'''public int revise()
-'''
-pass
+    '''    public int revise()
+    '''

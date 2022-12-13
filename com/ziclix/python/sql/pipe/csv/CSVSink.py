@@ -1,17 +1,13 @@
 def CSVSink():
-'''public CSVSink(final PrintWriter writer)
-public CSVSink(final PrintWriter writer, final PyObject converters)
-'''
-pass
+    '''    public CSVSink(final PrintWriter writer)
+    public CSVSink(final PrintWriter writer, final PyObject converters)
+    '''
 def row():
-'''public void row(final PyObject row)
-'''
-pass
+    '''    public void row(final PyObject row)
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''

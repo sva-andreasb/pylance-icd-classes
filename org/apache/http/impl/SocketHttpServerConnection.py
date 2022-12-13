@@ -1,44 +1,33 @@
 def SocketHttpServerConnection():
-'''public SocketHttpServerConnection()
-'''
-pass
+    '''    public SocketHttpServerConnection()
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getRemoteAddress():
-'''public InetAddress getRemoteAddress()
-'''
-pass
+    '''    public InetAddress getRemoteAddress()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def setSocketTimeout():
-'''public void setSocketTimeout(final int timeout)
-'''
-pass
+    '''    public void setSocketTimeout(final int timeout)
+    '''
 def getSocketTimeout():
-'''public int getSocketTimeout()
-'''
-pass
+    '''    public int getSocketTimeout()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

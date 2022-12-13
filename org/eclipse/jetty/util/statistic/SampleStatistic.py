@@ -1,36 +1,27 @@
 def SampleStatistic():
-'''public SampleStatistic()
-'''
-pass
+    '''    public SampleStatistic()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def set():
-'''public void set(final long sample)
-'''
-pass
+    '''    public void set(final long sample)
+    '''
 def getMax():
-'''public long getMax()
-'''
-pass
+    '''    public long getMax()
+    '''
 def getTotal():
-'''public long getTotal()
-'''
-pass
+    '''    public long getTotal()
+    '''
 def getCount():
-'''public long getCount()
-'''
-pass
+    '''    public long getCount()
+    '''
 def getMean():
-'''public double getMean()
-'''
-pass
+    '''    public double getMean()
+    '''
 def getVariance():
-'''public double getVariance()
-'''
-pass
+    '''    public double getVariance()
+    '''
 def getStdDev():
-'''public double getStdDev()
-'''
-pass
+    '''    public double getStdDev()
+    '''

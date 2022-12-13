@@ -1,17 +1,13 @@
 def DBPropPSet():
-'''public DBPropPSet(final SpecializedGraph g, final String type, final String tableName)
-public DBPropPSet(final SpecializedGraph g, final Node n)
-'''
-pass
+    '''    public DBPropPSet(final SpecializedGraph g, final String type, final String tableName)
+    public DBPropPSet(final SpecializedGraph g, final Node n)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getTable():
-'''public String getTable()
-'''
-pass
+    '''    public String getTable()
+    '''

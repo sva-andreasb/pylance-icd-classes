@@ -27,48 +27,38 @@ MAIN_WINDOW_INITIALIZED = "int  124"
 APPLICATION_CLOSED = "int  125"
 DOCUMENT_INITIALIZING = "int  126"
 def ApplicationEvent():
-'''public ApplicationEvent(final int b, final IlvDocument ilvDocument)
-public ApplicationEvent(final int b, final IlvDocumentView ilvDocumentView)
-public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView c, final IlvDocumentTemplate d)
-public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView ilvDocumentView, final IlvViewContainer e, final IlvDocumentTemplate d)
-public ApplicationEvent(final int b, final IlvViewContainer ilvViewContainer)
-public ApplicationEvent(final int b, final IlvDocumentTemplate ilvDocumentTemplate)
-public ApplicationEvent(final int b, final IlvApplication ilvApplication)
-'''
-pass
+    '''    public ApplicationEvent(final int b, final IlvDocument ilvDocument)
+    public ApplicationEvent(final int b, final IlvDocumentView ilvDocumentView)
+    public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView c, final IlvDocumentTemplate d)
+    public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView ilvDocumentView, final IlvViewContainer e, final IlvDocumentTemplate d)
+    public ApplicationEvent(final int b, final IlvViewContainer ilvViewContainer)
+    public ApplicationEvent(final int b, final IlvDocumentTemplate ilvDocumentTemplate)
+    public ApplicationEvent(final int b, final IlvApplication ilvApplication)
+    '''
 def getDocument():
-'''public IlvDocument getDocument()
-'''
-pass
+    '''    public IlvDocument getDocument()
+    '''
 def setDocument():
-'''public void setDocument(final IlvDocument a)
-'''
-pass
+    '''    public void setDocument(final IlvDocument a)
+    '''
 def getID():
-'''public int getID()
-'''
-pass
+    '''    public int getID()
+    '''
 def getView():
-'''public IlvDocumentView getView()
-'''
-pass
+    '''    public IlvDocumentView getView()
+    '''
 def setView():
-'''public void setView(final IlvDocumentView c)
-'''
-pass
+    '''    public void setView(final IlvDocumentView c)
+    '''
 def getViewContainer():
-'''public IlvViewContainer getViewContainer()
-'''
-pass
+    '''    public IlvViewContainer getViewContainer()
+    '''
 def getDocumentTemplate():
-'''public IlvDocumentTemplate getDocumentTemplate()
-'''
-pass
+    '''    public IlvDocumentTemplate getDocumentTemplate()
+    '''
 def getDocumentTemplateName():
-'''public String getDocumentTemplateName()
-'''
-pass
+    '''    public String getDocumentTemplateName()
+    '''
 def getApplication():
-'''public IlvApplication getApplication()
-'''
-pass
+    '''    public IlvApplication getApplication()
+    '''

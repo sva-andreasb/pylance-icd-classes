@@ -1,5 +1,4 @@
 def DuplicateObjectException():
-'''public DuplicateObjectException()
-public DuplicateObjectException(final String message)
-'''
-pass
+    '''    public DuplicateObjectException()
+    public DuplicateObjectException(final String message)
+    '''

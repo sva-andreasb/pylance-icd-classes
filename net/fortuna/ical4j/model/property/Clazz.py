@@ -1,28 +1,22 @@
 def Clazz():
-'''public Clazz()
-public Clazz(final String aValue)
-public Clazz(final ParameterList aList, final String aValue)
-'''
-pass
+    '''    public Clazz()
+    public Clazz(final String aValue)
+    public Clazz(final ParameterList aList, final String aValue)
+    '''
 def setValue():
-'''public void setValue(final String aValue)
-public void setValue(final String aValue)
-'''
-pass
+    '''    public void setValue(final String aValue)
+    public void setValue(final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createProperty():
-'''public Clazz createProperty(final ParameterList parameters, final String value)
-public Clazz createProperty()
-'''
-pass
+    '''    public Clazz createProperty(final ParameterList parameters, final String value)
+    public Clazz createProperty()
+    '''

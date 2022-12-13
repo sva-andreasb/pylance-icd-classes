@@ -1,17 +1,13 @@
 def ObjectGraphIterator():
-'''public ObjectGraphIterator(final E root, final Transformer<? super E, ? extends E> transformer)
-public ObjectGraphIterator(final Iterator<? extends E> rootIterator)
-'''
-pass
+    '''    public ObjectGraphIterator(final E root, final Transformer<? super E, ? extends E> transformer)
+    public ObjectGraphIterator(final Iterator<? extends E> rootIterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

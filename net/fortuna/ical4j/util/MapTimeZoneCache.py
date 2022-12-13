@@ -1,20 +1,15 @@
 def MapTimeZoneCache():
-'''public MapTimeZoneCache()
-'''
-pass
+    '''    public MapTimeZoneCache()
+    '''
 def getTimezone():
-'''public VTimeZone getTimezone(final String id)
-'''
-pass
+    '''    public VTimeZone getTimezone(final String id)
+    '''
 def putIfAbsent():
-'''public boolean putIfAbsent(final String id, final VTimeZone timeZone)
-'''
-pass
+    '''    public boolean putIfAbsent(final String id, final VTimeZone timeZone)
+    '''
 def containsId():
-'''public boolean containsId(final String id)
-'''
-pass
+    '''    public boolean containsId(final String id)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

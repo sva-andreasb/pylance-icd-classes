@@ -1,5 +1,4 @@
 def PlusPPriceBookStatusService():
-'''public PlusPPriceBookStatusService()
-public PlusPPriceBookStatusService(final MXServer mxServer)
-'''
-pass
+    '''    public PlusPPriceBookStatusService()
+    public PlusPPriceBookStatusService(final MXServer mxServer)
+    '''

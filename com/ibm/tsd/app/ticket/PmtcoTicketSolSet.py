@@ -1,4 +1,3 @@
 def PmtcoTicketSolSet():
-'''public PmtcoTicketSolSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmtcoTicketSolSet(final MboServerInterface ms)
+    '''

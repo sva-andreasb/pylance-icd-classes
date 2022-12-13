@@ -1,24 +1,18 @@
 def SKDOriginDestMatrixODPair():
-'''public SKDOriginDestMatrixODPair(final SKDOriginDestMatrixPointParams orig, final SKDOriginDestMatrixPointParams dest)
-'''
-pass
+    '''    public SKDOriginDestMatrixODPair(final SKDOriginDestMatrixPointParams orig, final SKDOriginDestMatrixPointParams dest)
+    '''
 def getOrigin():
-'''public SKDOriginDestMatrixPointParams getOrigin()
-'''
-pass
+    '''    public SKDOriginDestMatrixPointParams getOrigin()
+    '''
 def getDestination():
-'''public SKDOriginDestMatrixPointParams getDestination()
-'''
-pass
+    '''    public SKDOriginDestMatrixPointParams getDestination()
+    '''
 def isOriginEqualToDestination():
-'''public boolean isOriginEqualToDestination()
-'''
-pass
+    '''    public boolean isOriginEqualToDestination()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

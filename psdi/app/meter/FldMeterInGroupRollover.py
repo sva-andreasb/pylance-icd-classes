@@ -1,8 +1,6 @@
 def FldMeterInGroupRollover():
-'''public FldMeterInGroupRollover(final MboValue mbv)
-'''
-pass
+    '''    public FldMeterInGroupRollover(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,8 +1,6 @@
 def setDTDValidator():
-'''public void setDTDValidator(final XMLDTDValidatorFilter fdtdValidator)
-'''
-pass
+    '''    public void setDTDValidator(final XMLDTDValidatorFilter fdtdValidator)
+    '''
 def reset():
-'''public void reset(final XMLComponentManager xmlComponentManager)
-'''
-pass
+    '''    public void reset(final XMLComponentManager xmlComponentManager)
+    '''

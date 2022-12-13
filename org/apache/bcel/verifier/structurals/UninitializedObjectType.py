@@ -1,16 +1,12 @@
 def UninitializedObjectType():
-'''public UninitializedObjectType(final ObjectType t)
-'''
-pass
+    '''    public UninitializedObjectType(final ObjectType t)
+    '''
 def getInitialized():
-'''public ObjectType getInitialized()
-'''
-pass
+    '''    public ObjectType getInitialized()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

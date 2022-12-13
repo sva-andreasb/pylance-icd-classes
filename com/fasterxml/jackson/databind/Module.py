@@ -1,4 +1,3 @@
 def getTypeId():
-'''public Object getTypeId()
-'''
-pass
+    '''    public Object getTypeId()
+    '''

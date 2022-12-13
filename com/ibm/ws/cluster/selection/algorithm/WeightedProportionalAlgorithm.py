@@ -1,16 +1,12 @@
 def WeightedProportionalAlgorithm():
-'''public WeightedProportionalAlgorithm()
-'''
-pass
+    '''    public WeightedProportionalAlgorithm()
+    '''
 def select():
-'''public Identity select()
-'''
-pass
+    '''    public Identity select()
+    '''
 def prepare():
-'''public void prepare(final Identity[] members, final int[] weights)
-'''
-pass
+    '''    public void prepare(final Identity[] members, final int[] weights)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,16 +1,12 @@
 def ChecksumOutputStream():
-'''public ChecksumOutputStream(final OutputStream out)
-'''
-pass
+    '''    public ChecksumOutputStream(final OutputStream out)
+    '''
 def write():
-'''public void write(final int b)
-'''
-pass
+    '''    public void write(final int b)
+    '''
 def updateInteger():
-'''public void updateInteger(final int n)
-'''
-pass
+    '''    public void updateInteger(final int n)
+    '''
 def getCheckSum():
-'''public long getCheckSum()
-'''
-pass
+    '''    public long getCheckSum()
+    '''

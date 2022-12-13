@@ -1,12 +1,9 @@
 def ReconRuleClauseSet():
-'''public ReconRuleClauseSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReconRuleClauseSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def remove():
-'''public void remove(final MboRemote mbo)
-'''
-pass
+    '''    public void remove(final MboRemote mbo)
+    '''

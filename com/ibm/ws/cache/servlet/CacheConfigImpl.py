@@ -1,76 +1,57 @@
 def CacheConfigImpl():
-'''public CacheConfigImpl()
-'''
-pass
+    '''    public CacheConfigImpl()
+    '''
 def copy():
-'''public CacheConfigImpl copy()
-'''
-pass
+    '''    public CacheConfigImpl copy()
+    '''
 def getIdGenerator():
-'''public Class getIdGenerator()
-'''
-pass
+    '''    public Class getIdGenerator()
+    '''
 def getURIs():
-'''public String[] getURIs()
-'''
-pass
+    '''    public String[] getURIs()
+    '''
 def getRequestParameters():
-'''public ConfigElement[] getRequestParameters()
-'''
-pass
+    '''    public ConfigElement[] getRequestParameters()
+    '''
 def getRequestAttributes():
-'''public ConfigElement[] getRequestAttributes()
-'''
-pass
+    '''    public ConfigElement[] getRequestAttributes()
+    '''
 def getSessionParameters():
-'''public ConfigElement[] getSessionParameters()
-'''
-pass
+    '''    public ConfigElement[] getSessionParameters()
+    '''
 def getCookies():
-'''public ConfigElement[] getCookies()
-'''
-pass
+    '''    public ConfigElement[] getCookies()
+    '''
 def getInvalidateonly():
-'''public boolean getInvalidateonly()
-'''
-pass
+    '''    public boolean getInvalidateonly()
+    '''
 def getMetaDataGenerator():
-'''public Class getMetaDataGenerator()
-'''
-pass
+    '''    public Class getMetaDataGenerator()
+    '''
 def getSharingPolicy():
-'''public int getSharingPolicy()
-'''
-pass
+    '''    public int getSharingPolicy()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def getExternalCache():
-'''public String getExternalCache()
-'''
-pass
+    '''    public String getExternalCache()
+    '''
 def getTimeout():
-'''public int getTimeout()
-'''
-pass
+    '''    public int getTimeout()
+    '''
 def getInactivity():
-'''public int getInactivity()
-'''
-pass
+    '''    public int getInactivity()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getConsumeSubfragments():
-'''public boolean getConsumeSubfragments()
-'''
-pass
+    '''    public boolean getConsumeSubfragments()
+    '''
 def getDoNotConsume():
-'''public boolean getDoNotConsume()
-'''
-pass
+    '''    public boolean getDoNotConsume()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

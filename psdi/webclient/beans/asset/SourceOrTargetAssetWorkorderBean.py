@@ -1,4 +1,3 @@
 def SourceOrTargetAssetWorkorderBean():
-'''public SourceOrTargetAssetWorkorderBean()
-'''
-pass
+    '''    public SourceOrTargetAssetWorkorderBean()
+    '''

@@ -1,8 +1,6 @@
 def getInstance():
-'''public static PlusSignMatcher getInstance(final DecimalFormatSymbols symbols, final boolean allowTrailing)
-'''
-pass
+    '''    public static PlusSignMatcher getInstance(final DecimalFormatSymbols symbols, final boolean allowTrailing)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def uploadScreenshot():
-'''public static void uploadScreenshot(final HttpServletRequest request)
-'''
-pass
+    '''    public static void uploadScreenshot(final HttpServletRequest request)
+    '''

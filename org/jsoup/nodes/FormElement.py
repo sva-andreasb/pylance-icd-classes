@@ -1,16 +1,12 @@
 def FormElement():
-'''public FormElement(final Tag tag, final String baseUri, final Attributes attributes)
-'''
-pass
+    '''    public FormElement(final Tag tag, final String baseUri, final Attributes attributes)
+    '''
 def elements():
-'''public Elements elements()
-'''
-pass
+    '''    public Elements elements()
+    '''
 def addElement():
-'''public FormElement addElement(final Element element)
-'''
-pass
+    '''    public FormElement addElement(final Element element)
+    '''
 def submit():
-'''public Connection submit()
-'''
-pass
+    '''    public Connection submit()
+    '''

@@ -1,8 +1,6 @@
 def FldALNValue():
-'''public FldALNValue(final MboValue mbv)
-'''
-pass
+    '''    public FldALNValue(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

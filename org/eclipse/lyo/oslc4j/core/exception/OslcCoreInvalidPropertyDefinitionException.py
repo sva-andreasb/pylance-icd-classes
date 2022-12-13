@@ -1,12 +1,9 @@
 def OslcCoreInvalidPropertyDefinitionException():
-'''public OslcCoreInvalidPropertyDefinitionException(final Class<?> resourceClass, final Method method, final OslcPropertyDefinition oslcPropertyDefinition)
-'''
-pass
+    '''    public OslcCoreInvalidPropertyDefinitionException(final Class<?> resourceClass, final Method method, final OslcPropertyDefinition oslcPropertyDefinition)
+    '''
 def getMethod():
-'''public Method getMethod()
-'''
-pass
+    '''    public Method getMethod()
+    '''
 def getOslcPropertyDefinition():
-'''public OslcPropertyDefinition getOslcPropertyDefinition()
-'''
-pass
+    '''    public OslcPropertyDefinition getOslcPropertyDefinition()
+    '''

@@ -1,140 +1,105 @@
 def IlvFacesDHTMLGanttChartView():
-'''public IlvFacesDHTMLGanttChartView()
-'''
-pass
+    '''    public IlvFacesDHTMLGanttChartView()
+    '''
 def getFamily():
-'''public String getFamily()
-'''
-pass
+    '''    public String getFamily()
+    '''
 def getComponentType():
-'''public static String getComponentType()
-'''
-pass
+    '''    public static String getComponentType()
+    '''
 def getControllerURL():
-'''public String getControllerURL()
-'''
-pass
+    '''    public String getControllerURL()
+    '''
 def setErrorMessage():
-'''public void setErrorMessage(final String errorMessage)
-'''
-pass
+    '''    public void setErrorMessage(final String errorMessage)
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def setImageFormat():
-'''public void setImageFormat(final String imageFormat)
-'''
-pass
+    '''    public void setImageFormat(final String imageFormat)
+    '''
 def getImageFormat():
-'''public String getImageFormat()
-'''
-pass
+    '''    public String getImageFormat()
+    '''
 def setServlet():
-'''public void setServlet(final String value)
-'''
-pass
+    '''    public void setServlet(final String value)
+    '''
 def getServlet():
-'''public String getServlet()
-'''
-pass
+    '''    public String getServlet()
+    '''
 def setServletClass():
-'''public void setServletClass(final String servletClass)
-'''
-pass
+    '''    public void setServletClass(final String servletClass)
+    '''
 def getServletClass():
-'''public String getServletClass()
-'''
-pass
+    '''    public String getServletClass()
+    '''
 def setServletURL():
-'''public void setServletURL(final String servletURL)
-'''
-pass
+    '''    public void setServletURL(final String servletURL)
+    '''
 def getServletURL():
-'''public String getServletURL()
-'''
-pass
+    '''    public String getServletURL()
+    '''
 def setUpdateInterval():
-'''public void setUpdateInterval(final int updateInterval)
-'''
-pass
+    '''    public void setUpdateInterval(final int updateInterval)
+    '''
 def getUpdateInterval():
-'''public int getUpdateInterval()
-'''
-pass
+    '''    public int getUpdateInterval()
+    '''
 def setWaitingImage():
-'''public void setWaitingImage(final String waitingImage)
-'''
-pass
+    '''    public void setWaitingImage(final String waitingImage)
+    '''
 def getWaitingImage():
-'''public String getWaitingImage()
-'''
-pass
+    '''    public String getWaitingImage()
+    '''
 def setAutoUpdateCapabilities():
-'''public void setAutoUpdateCapabilities(final boolean autoUpdateCapabilities)
-'''
-pass
+    '''    public void setAutoUpdateCapabilities(final boolean autoUpdateCapabilities)
+    '''
 def isAutoUpdateCapabilities():
-'''public boolean isAutoUpdateCapabilities()
-'''
-pass
+    '''    public boolean isAutoUpdateCapabilities()
+    '''
 def getColumnResizeMessage():
-'''public String getColumnResizeMessage()
-'''
-pass
+    '''    public String getColumnResizeMessage()
+    '''
 def setColumnResizeMessage():
-'''public void setColumnResizeMessage(final String columnResizeMessage)
-'''
-pass
+    '''    public void setColumnResizeMessage(final String columnResizeMessage)
+    '''
 def isResizable():
-'''public boolean isResizable()
-'''
-pass
+    '''    public boolean isResizable()
+    '''
 def setResizable():
-'''public void setResizable(final boolean resizable)
-'''
-pass
+    '''    public void setResizable(final boolean resizable)
+    '''
 def isAccessible():
-'''public boolean isAccessible()
-'''
-pass
+    '''    public boolean isAccessible()
+    '''
 def setAccessible():
-'''public void setAccessible(final boolean accessible)
-'''
-pass
+    '''    public void setAccessible(final boolean accessible)
+    '''
 def getHotkeys():
-'''public String getHotkeys()
-'''
-pass
+    '''    public String getHotkeys()
+    '''
 def setHotkeys():
-'''public void setHotkeys(final String hotkeys)
-'''
-pass
+    '''    public void setHotkeys(final String hotkeys)
+    '''
 def setValue():
-'''public void setValue(final Object o)
-'''
-pass
+    '''    public void setValue(final Object o)
+    '''
 def getChart():
-'''public IlvHierarchyChart getChart()
-'''
-pass
+    '''    public IlvHierarchyChart getChart()
+    '''
 def getBeforeSessionExpirationHandler():
-'''public String getBeforeSessionExpirationHandler()
-'''
-pass
+    '''    public String getBeforeSessionExpirationHandler()
+    '''
 def setBeforeSessionExpirationHandler():
-'''public void setBeforeSessionExpirationHandler(final String beforeSessionExpirationHandler)
-'''
-pass
+    '''    public void setBeforeSessionExpirationHandler(final String beforeSessionExpirationHandler)
+    '''
 def updateModel():
-'''public void updateModel(final FacesContext facesContext)
-'''
-pass
+    '''    public void updateModel(final FacesContext facesContext)
+    '''
 def saveState():
-'''public Object saveState(final FacesContext facesContext)
-'''
-pass
+    '''    public Object saveState(final FacesContext facesContext)
+    '''
 def restoreState():
-'''public void restoreState(final FacesContext facesContext, final Object o)
-'''
-pass
+    '''    public void restoreState(final FacesContext facesContext, final Object o)
+    '''

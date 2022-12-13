@@ -1,8 +1,6 @@
 def MoveTo():
-'''public int MoveTo()
-'''
-pass
+    '''    public int MoveTo()
+    '''
 def researchSelectProtoType():
-'''public int researchSelectProtoType()
-'''
-pass
+    '''    public int researchSelectProtoType()
+    '''

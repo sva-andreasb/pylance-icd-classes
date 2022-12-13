@@ -1,17 +1,13 @@
 def IlvGanttChart():
-'''public IlvGanttChart()
-'''
-pass
+    '''    public IlvGanttChart()
+    '''
 def getSelectedActivities():
-'''public IlvActivity[] getSelectedActivities()
-'''
-pass
+    '''    public IlvActivity[] getSelectedActivities()
+    '''
 def select():
-'''public void select(final IlvActivity ilvActivity, final boolean b)
-'''
-pass
+    '''    public void select(final IlvActivity ilvActivity, final boolean b)
+    '''
 def isEditable():
-'''public boolean isEditable(final IlvHierarchyNode ilvHierarchyNode)
-public boolean isEditable(final IlvHierarchyNode ilvHierarchyNode)
-'''
-pass
+    '''    public boolean isEditable(final IlvHierarchyNode ilvHierarchyNode)
+    public boolean isEditable(final IlvHierarchyNode ilvHierarchyNode)
+    '''

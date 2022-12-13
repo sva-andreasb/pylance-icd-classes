@@ -1,24 +1,18 @@
 def DPAMAdapter():
-'''public DPAMAdapter(final MboSet ms)
-'''
-pass
+    '''    public DPAMAdapter(final MboSet ms)
+    '''
 def getTargetFieldName():
-'''public String getTargetFieldName()
-'''
-pass
+    '''    public String getTargetFieldName()
+    '''
 def getVariantFieldName():
-'''public String getVariantFieldName()
-'''
-pass
+    '''    public String getVariantFieldName()
+    '''
 def getVariantSetName():
-'''public String getVariantSetName()
-'''
-pass
+    '''    public String getVariantSetName()
+    '''
 def getReferencedRelationshipList():
-'''public String[] getReferencedRelationshipList()
-'''
-pass
+    '''    public String[] getReferencedRelationshipList()
+    '''
 def getExceptionParams():
-'''public Object[] getExceptionParams()
-'''
-pass
+    '''    public Object[] getExceptionParams()
+    '''

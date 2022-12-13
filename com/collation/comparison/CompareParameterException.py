@@ -1,5 +1,4 @@
 def CompareParameterException():
-'''public CompareParameterException()
-public CompareParameterException(final String message)
-'''
-pass
+    '''    public CompareParameterException()
+    public CompareParameterException(final String message)
+    '''

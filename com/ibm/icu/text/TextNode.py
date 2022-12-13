@@ -1,8 +1,6 @@
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

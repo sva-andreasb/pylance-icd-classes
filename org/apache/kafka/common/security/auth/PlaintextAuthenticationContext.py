@@ -1,12 +1,9 @@
 def PlaintextAuthenticationContext():
-'''public PlaintextAuthenticationContext(final InetAddress clientAddress)
-'''
-pass
+    '''    public PlaintextAuthenticationContext(final InetAddress clientAddress)
+    '''
 def securityProtocol():
-'''public SecurityProtocol securityProtocol()
-'''
-pass
+    '''    public SecurityProtocol securityProtocol()
+    '''
 def clientAddress():
-'''public InetAddress clientAddress()
-'''
-pass
+    '''    public InetAddress clientAddress()
+    '''

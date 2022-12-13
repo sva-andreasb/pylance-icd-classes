@@ -1,8 +1,6 @@
 def FldSetViewChangedSynonym():
-'''public FldSetViewChangedSynonym(final MboValue mbv)
-'''
-pass
+    '''    public FldSetViewChangedSynonym(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

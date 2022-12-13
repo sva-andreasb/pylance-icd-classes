@@ -1,12 +1,9 @@
 def PlusPFldLabTransActivity():
-'''public PlusPFldLabTransActivity(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldLabTransActivity(final MboValue arg0)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

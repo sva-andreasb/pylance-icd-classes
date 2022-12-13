@@ -1,12 +1,9 @@
 def EchoHandler():
-'''public EchoHandler()
-'''
-pass
+    '''    public EchoHandler()
+    '''
 def invoke():
-'''public void invoke(final MessageContext msgContext)
-'''
-pass
+    '''    public void invoke(final MessageContext msgContext)
+    '''
 def generateWSDL():
-'''public void generateWSDL(final MessageContext msgContext)
-'''
-pass
+    '''    public void generateWSDL(final MessageContext msgContext)
+    '''

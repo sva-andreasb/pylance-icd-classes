@@ -1,125 +1,94 @@
 def WFNode():
-'''public WFNode(final MboSet ms)
-'''
-pass
+    '''    public WFNode(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getWFCallStack():
-'''public WFCallStack getWFCallStack()
-'''
-pass
+    '''    public WFCallStack getWFCallStack()
+    '''
 def getWorkflowActions():
-'''public WFActionSet getWorkflowActions()
-'''
-pass
+    '''    public WFActionSet getWorkflowActions()
+    '''
 def getWorkflowActionsIn():
-'''public WFActionSet getWorkflowActionsIn()
-'''
-pass
+    '''    public WFActionSet getWorkflowActionsIn()
+    '''
 def applyWorkflowAction():
-'''public void applyWorkflowAction(final WFActionRemote action, final String memo)
-public final void applyWorkflowAction(final WFActionRemote action)
-'''
-pass
+    '''    public void applyWorkflowAction(final WFActionRemote action, final String memo)
+    public final void applyWorkflowAction(final WFActionRemote action)
+    '''
 def makeNodeNotifications():
-'''public void makeNodeNotifications()
-'''
-pass
+    '''    public void makeNodeNotifications()
+    '''
 def completeWorkflowAssignment():
-'''public boolean completeWorkflowAssignment(final WFAssignment assignMbo, final WFAction actionMbo, final String memo)
-'''
-pass
+    '''    public boolean completeWorkflowAssignment(final WFAssignment assignMbo, final WFAction actionMbo, final String memo)
+    '''
 def stopAtNode():
-'''public void stopAtNode(final String memo)
-'''
-pass
+    '''    public void stopAtNode(final String memo)
+    '''
 def writeTransaction():
-'''public void writeTransaction(final String transType, final String memo)
-'''
-pass
+    '''    public void writeTransaction(final String transType, final String memo)
+    '''
 def hasOwnerNode():
-'''public boolean hasOwnerNode()
-'''
-pass
+    '''    public boolean hasOwnerNode()
+    '''
 def countPositiveAction():
-'''public int countPositiveAction()
-'''
-pass
+    '''    public int countPositiveAction()
+    '''
 def countNegativeAction():
-'''public int countNegativeAction()
-'''
-pass
+    '''    public int countNegativeAction()
+    '''
 def hasPositiveActionIn():
-'''public boolean hasPositiveActionIn()
-'''
-pass
+    '''    public boolean hasPositiveActionIn()
+    '''
 def hasNegativeActionIn():
-'''public boolean hasNegativeActionIn()
-'''
-pass
+    '''    public boolean hasNegativeActionIn()
+    '''
 def countPositiveActionIn():
-'''public int countPositiveActionIn()
-'''
-pass
+    '''    public int countPositiveActionIn()
+    '''
 def countNegativeActionIn():
-'''public int countNegativeActionIn()
-'''
-pass
+    '''    public int countNegativeActionIn()
+    '''
 def getCompanionSet():
-'''public MboSetRemote getCompanionSet()
-'''
-pass
+    '''    public MboSetRemote getCompanionSet()
+    '''
 def canTakePositive():
-'''public boolean canTakePositive()
-'''
-pass
+    '''    public boolean canTakePositive()
+    '''
 def canTakeNegative():
-'''public boolean canTakeNegative()
-'''
-pass
+    '''    public boolean canTakeNegative()
+    '''
 def addedAction():
-'''public void addedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void addedAction(final boolean wasPositive)
+    '''
 def removedAction():
-'''public void removedAction(final boolean wasPositive)
-'''
-pass
+    '''    public void removedAction(final boolean wasPositive)
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def hasNodeActions():
-'''public boolean hasNodeActions(final boolean isPositive)
-'''
-pass
+    '''    public boolean hasNodeActions(final boolean isPositive)
+    '''
 def getNodeDetail():
-'''public NodeDetail getNodeDetail()
-'''
-pass
+    '''    public NodeDetail getNodeDetail()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def duplicateDetails():
-'''public void duplicateDetails(final WFNode origNode)
-'''
-pass
+    '''    public void duplicateDetails(final WFNode origNode)
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''

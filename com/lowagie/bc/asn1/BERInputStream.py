@@ -1,8 +1,6 @@
 def BERInputStream():
-'''public BERInputStream(final InputStream is)
-'''
-pass
+    '''    public BERInputStream(final InputStream is)
+    '''
 def readObject():
-'''public DERObject readObject()
-'''
-pass
+    '''    public DERObject readObject()
+    '''

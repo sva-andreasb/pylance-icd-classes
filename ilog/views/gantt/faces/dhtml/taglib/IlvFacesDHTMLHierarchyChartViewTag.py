@@ -1,96 +1,72 @@
 def getUpdateInterval():
-'''public String getUpdateInterval()
-'''
-pass
+    '''    public String getUpdateInterval()
+    '''
 def setUpdateInterval():
-'''public void setUpdateInterval(final String c)
-'''
-pass
+    '''    public void setUpdateInterval(final String c)
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def setErrorMessage():
-'''public void setErrorMessage(final String d)
-'''
-pass
+    '''    public void setErrorMessage(final String d)
+    '''
 def getAutoUpdateCapabilities():
-'''public String getAutoUpdateCapabilities()
-'''
-pass
+    '''    public String getAutoUpdateCapabilities()
+    '''
 def setAutoUpdateCapabilities():
-'''public void setAutoUpdateCapabilities(final String e)
-'''
-pass
+    '''    public void setAutoUpdateCapabilities(final String e)
+    '''
 def getColumnResizeMessage():
-'''public String getColumnResizeMessage()
-'''
-pass
+    '''    public String getColumnResizeMessage()
+    '''
 def setColumnResizeMessage():
-'''public void setColumnResizeMessage(final String f)
-'''
-pass
+    '''    public void setColumnResizeMessage(final String f)
+    '''
 def getResizable():
-'''public String getResizable()
-'''
-pass
+    '''    public String getResizable()
+    '''
 def setResizable():
-'''public void setResizable(final String a)
-'''
-pass
+    '''    public void setResizable(final String a)
+    '''
 def getAccessible():
-'''public String getAccessible()
-'''
-pass
+    '''    public String getAccessible()
+    '''
 def setAccessible():
-'''public void setAccessible(final String b)
-'''
-pass
+    '''    public void setAccessible(final String b)
+    '''
 def getHotkeys():
-'''public String getHotkeys()
-'''
-pass
+    '''    public String getHotkeys()
+    '''
 def setHotkeys():
-'''public void setHotkeys(final String l)
-'''
-pass
+    '''    public void setHotkeys(final String l)
+    '''
 def getEditable():
-'''public String getEditable()
-'''
-pass
+    '''    public String getEditable()
+    '''
 def setEditable():
-'''public void setEditable(final String g)
-'''
-pass
+    '''    public void setEditable(final String g)
+    '''
 def getBeforeSessionExpirationHandler():
-'''public String getBeforeSessionExpirationHandler()
-'''
-pass
+    '''    public String getBeforeSessionExpirationHandler()
+    '''
 def setBeforeSessionExpirationHandler():
-'''public void setBeforeSessionExpirationHandler(final String h)
-'''
-pass
+    '''    public void setBeforeSessionExpirationHandler(final String h)
+    '''
 def setSheetHScrollable():
-'''public void setSheetHScrollable(final String i)
-'''
-pass
+    '''    public void setSheetHScrollable(final String i)
+    '''
 def getSheetHScrollable():
-'''public String getSheetHScrollable()
-'''
-pass
+    '''    public String getSheetHScrollable()
+    '''
 def setSheetVScrollable():
-'''public void setSheetVScrollable(final String j)
-'''
-pass
+    '''    public void setSheetVScrollable(final String j)
+    '''
 def getSheetVScrollable():
-'''public String getSheetVScrollable()
-'''
-pass
+    '''    public String getSheetVScrollable()
+    '''
 def getSplitterArrowsVisible():
-'''public String getSplitterArrowsVisible()
-'''
-pass
+    '''    public String getSplitterArrowsVisible()
+    '''
 def setSplitterArrowsVisible():
-'''public void setSplitterArrowsVisible(final String k)
-'''
-pass
+    '''    public void setSplitterArrowsVisible(final String k)
+    '''

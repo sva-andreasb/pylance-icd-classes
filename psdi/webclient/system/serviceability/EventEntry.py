@@ -1,32 +1,24 @@
 def EventEntry():
-'''public EventEntry(final WebClientEvent event)
-'''
-pass
+    '''    public EventEntry(final WebClientEvent event)
+    '''
 def isHandling():
-'''public boolean isHandling()
-'''
-pass
+    '''    public boolean isHandling()
+    '''
 def getHandledBy():
-'''public HandledByEntry[] getHandledBy()
-'''
-pass
+    '''    public HandledByEntry[] getHandledBy()
+    '''
 def getLogs():
-'''public LogEntry[] getLogs()
-'''
-pass
+    '''    public LogEntry[] getLogs()
+    '''
 def add():
-'''public void add(final EventEntry entry)
-'''
-pass
+    '''    public void add(final EventEntry entry)
+    '''
 def getEvents():
-'''public EventEntry[] getEvents()
-'''
-pass
+    '''    public EventEntry[] getEvents()
+    '''
 def setRequestEvent():
-'''public void setRequestEvent(final boolean isRequestEvent)
-'''
-pass
+    '''    public void setRequestEvent(final boolean isRequestEvent)
+    '''
 def isRequestEvent():
-'''public boolean isRequestEvent()
-'''
-pass
+    '''    public boolean isRequestEvent()
+    '''

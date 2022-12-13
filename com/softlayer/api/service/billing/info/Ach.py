@@ -1,328 +1,246 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getAccountNumber():
-'''public String getAccountNumber()
-'''
-pass
+    '''    public String getAccountNumber()
+    '''
 def setAccountNumber():
-'''public void setAccountNumber(final String accountNumber)
-'''
-pass
+    '''    public void setAccountNumber(final String accountNumber)
+    '''
 def isAccountNumberSpecified():
-'''public boolean isAccountNumberSpecified()
-'''
-pass
+    '''    public boolean isAccountNumberSpecified()
+    '''
 def unsetAccountNumber():
-'''public void unsetAccountNumber()
-'''
-pass
+    '''    public void unsetAccountNumber()
+    '''
 def getAccountType():
-'''public String getAccountType()
-'''
-pass
+    '''    public String getAccountType()
+    '''
 def setAccountType():
-'''public void setAccountType(final String accountType)
-'''
-pass
+    '''    public void setAccountType(final String accountType)
+    '''
 def isAccountTypeSpecified():
-'''public boolean isAccountTypeSpecified()
-'''
-pass
+    '''    public boolean isAccountTypeSpecified()
+    '''
 def unsetAccountType():
-'''public void unsetAccountType()
-'''
-pass
+    '''    public void unsetAccountType()
+    '''
 def getBankTransitNumber():
-'''public String getBankTransitNumber()
-'''
-pass
+    '''    public String getBankTransitNumber()
+    '''
 def setBankTransitNumber():
-'''public void setBankTransitNumber(final String bankTransitNumber)
-'''
-pass
+    '''    public void setBankTransitNumber(final String bankTransitNumber)
+    '''
 def isBankTransitNumberSpecified():
-'''public boolean isBankTransitNumberSpecified()
-'''
-pass
+    '''    public boolean isBankTransitNumberSpecified()
+    '''
 def unsetBankTransitNumber():
-'''public void unsetBankTransitNumber()
-'''
-pass
+    '''    public void unsetBankTransitNumber()
+    '''
 def getCity():
-'''public String getCity()
-'''
-pass
+    '''    public String getCity()
+    '''
 def setCity():
-'''public void setCity(final String city)
-'''
-pass
+    '''    public void setCity(final String city)
+    '''
 def isCitySpecified():
-'''public boolean isCitySpecified()
-'''
-pass
+    '''    public boolean isCitySpecified()
+    '''
 def unsetCity():
-'''public void unsetCity()
-'''
-pass
+    '''    public void unsetCity()
+    '''
 def getCountry():
-'''public String getCountry()
-'''
-pass
+    '''    public String getCountry()
+    '''
 def setCountry():
-'''public void setCountry(final String country)
-'''
-pass
+    '''    public void setCountry(final String country)
+    '''
 def isCountrySpecified():
-'''public boolean isCountrySpecified()
-'''
-pass
+    '''    public boolean isCountrySpecified()
+    '''
 def unsetCountry():
-'''public void unsetCountry()
-'''
-pass
+    '''    public void unsetCountry()
+    '''
 def getFirstName():
-'''public String getFirstName()
-'''
-pass
+    '''    public String getFirstName()
+    '''
 def setFirstName():
-'''public void setFirstName(final String firstName)
-'''
-pass
+    '''    public void setFirstName(final String firstName)
+    '''
 def isFirstNameSpecified():
-'''public boolean isFirstNameSpecified()
-'''
-pass
+    '''    public boolean isFirstNameSpecified()
+    '''
 def unsetFirstName():
-'''public void unsetFirstName()
-'''
-pass
+    '''    public void unsetFirstName()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getLastName():
-'''public String getLastName()
-'''
-pass
+    '''    public String getLastName()
+    '''
 def setLastName():
-'''public void setLastName(final String lastName)
-'''
-pass
+    '''    public void setLastName(final String lastName)
+    '''
 def isLastNameSpecified():
-'''public boolean isLastNameSpecified()
-'''
-pass
+    '''    public boolean isLastNameSpecified()
+    '''
 def unsetLastName():
-'''public void unsetLastName()
-'''
-pass
+    '''    public void unsetLastName()
+    '''
 def getPhoneNumber():
-'''public String getPhoneNumber()
-'''
-pass
+    '''    public String getPhoneNumber()
+    '''
 def setPhoneNumber():
-'''public void setPhoneNumber(final String phoneNumber)
-'''
-pass
+    '''    public void setPhoneNumber(final String phoneNumber)
+    '''
 def isPhoneNumberSpecified():
-'''public boolean isPhoneNumberSpecified()
-'''
-pass
+    '''    public boolean isPhoneNumberSpecified()
+    '''
 def unsetPhoneNumber():
-'''public void unsetPhoneNumber()
-'''
-pass
+    '''    public void unsetPhoneNumber()
+    '''
 def getPostalcode():
-'''public String getPostalcode()
-'''
-pass
+    '''    public String getPostalcode()
+    '''
 def setPostalcode():
-'''public void setPostalcode(final String postalcode)
-'''
-pass
+    '''    public void setPostalcode(final String postalcode)
+    '''
 def isPostalcodeSpecified():
-'''public boolean isPostalcodeSpecified()
-'''
-pass
+    '''    public boolean isPostalcodeSpecified()
+    '''
 def unsetPostalcode():
-'''public void unsetPostalcode()
-'''
-pass
+    '''    public void unsetPostalcode()
+    '''
 def getState():
-'''public String getState()
-'''
-pass
+    '''    public String getState()
+    '''
 def setState():
-'''public void setState(final String state)
-'''
-pass
+    '''    public void setState(final String state)
+    '''
 def isStateSpecified():
-'''public boolean isStateSpecified()
-'''
-pass
+    '''    public boolean isStateSpecified()
+    '''
 def unsetState():
-'''public void unsetState()
-'''
-pass
+    '''    public void unsetState()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def isStatusSpecified():
-'''public boolean isStatusSpecified()
-'''
-pass
+    '''    public boolean isStatusSpecified()
+    '''
 def unsetStatus():
-'''public void unsetStatus()
-'''
-pass
+    '''    public void unsetStatus()
+    '''
 def getStreet1():
-'''public String getStreet1()
-'''
-pass
+    '''    public String getStreet1()
+    '''
 def setStreet1():
-'''public void setStreet1(final String street1)
-'''
-pass
+    '''    public void setStreet1(final String street1)
+    '''
 def isStreet1Specified():
-'''public boolean isStreet1Specified()
-'''
-pass
+    '''    public boolean isStreet1Specified()
+    '''
 def unsetStreet1():
-'''public void unsetStreet1()
-'''
-pass
+    '''    public void unsetStreet1()
+    '''
 def getStreet2():
-'''public String getStreet2()
-'''
-pass
+    '''    public String getStreet2()
+    '''
 def setStreet2():
-'''public void setStreet2(final String street2)
-'''
-pass
+    '''    public void setStreet2(final String street2)
+    '''
 def isStreet2Specified():
-'''public boolean isStreet2Specified()
-'''
-pass
+    '''    public boolean isStreet2Specified()
+    '''
 def unsetStreet2():
-'''public void unsetStreet2()
-'''
-pass
+    '''    public void unsetStreet2()
+    '''
 def getVerifiedDate():
-'''public GregorianCalendar getVerifiedDate()
-'''
-pass
+    '''    public GregorianCalendar getVerifiedDate()
+    '''
 def setVerifiedDate():
-'''public void setVerifiedDate(final GregorianCalendar verifiedDate)
-'''
-pass
+    '''    public void setVerifiedDate(final GregorianCalendar verifiedDate)
+    '''
 def isVerifiedDateSpecified():
-'''public boolean isVerifiedDateSpecified()
-'''
-pass
+    '''    public boolean isVerifiedDateSpecified()
+    '''
 def unsetVerifiedDate():
-'''public void unsetVerifiedDate()
-'''
-pass
+    '''    public void unsetVerifiedDate()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def accountNumber():
-'''public Mask accountNumber()
-'''
-pass
+    '''    public Mask accountNumber()
+    '''
 def accountType():
-'''public Mask accountType()
-'''
-pass
+    '''    public Mask accountType()
+    '''
 def bankTransitNumber():
-'''public Mask bankTransitNumber()
-'''
-pass
+    '''    public Mask bankTransitNumber()
+    '''
 def city():
-'''public Mask city()
-'''
-pass
+    '''    public Mask city()
+    '''
 def country():
-'''public Mask country()
-'''
-pass
+    '''    public Mask country()
+    '''
 def firstName():
-'''public Mask firstName()
-'''
-pass
+    '''    public Mask firstName()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def lastName():
-'''public Mask lastName()
-'''
-pass
+    '''    public Mask lastName()
+    '''
 def phoneNumber():
-'''public Mask phoneNumber()
-'''
-pass
+    '''    public Mask phoneNumber()
+    '''
 def postalcode():
-'''public Mask postalcode()
-'''
-pass
+    '''    public Mask postalcode()
+    '''
 def state():
-'''public Mask state()
-'''
-pass
+    '''    public Mask state()
+    '''
 def status():
-'''public Mask status()
-'''
-pass
+    '''    public Mask status()
+    '''
 def street1():
-'''public Mask street1()
-'''
-pass
+    '''    public Mask street1()
+    '''
 def street2():
-'''public Mask street2()
-'''
-pass
+    '''    public Mask street2()
+    '''
 def verifiedDate():
-'''public Mask verifiedDate()
-'''
-pass
+    '''    public Mask verifiedDate()
+    '''

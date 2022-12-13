@@ -1,80 +1,60 @@
 def MaxProp():
-'''public MaxProp(final MboSet ms)
-'''
-pass
+    '''    public MaxProp(final MboSet ms)
+    '''
 def isSystemProperty():
-'''public boolean isSystemProperty()
-'''
-pass
+    '''    public boolean isSystemProperty()
+    '''
 def isSystemLandlordProperty():
-'''public boolean isSystemLandlordProperty()
-'''
-pass
+    '''    public boolean isSystemLandlordProperty()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def isNullAllowed():
-'''public boolean isNullAllowed()
-'''
-pass
+    '''    public boolean isNullAllowed()
+    '''
 def isInstanceOnly():
-'''public boolean isInstanceOnly()
-'''
-pass
+    '''    public boolean isInstanceOnly()
+    '''
 def isEncrypted():
-'''public boolean isEncrypted()
-'''
-pass
+    '''    public boolean isEncrypted()
+    '''
 def isOnlineAllowed():
-'''public boolean isOnlineAllowed()
-'''
-pass
+    '''    public boolean isOnlineAllowed()
+    '''
 def isGlobalOnly():
-'''public boolean isGlobalOnly()
-'''
-pass
+    '''    public boolean isGlobalOnly()
+    '''
 def isFileProperty():
-'''public boolean isFileProperty()
-'''
-pass
+    '''    public boolean isFileProperty()
+    '''
 def isUserDefined():
-'''public boolean isUserDefined()
-'''
-pass
+    '''    public boolean isUserDefined()
+    '''
 def checkDataTypeValid():
-'''public void checkDataTypeValid(final String val)
-'''
-pass
+    '''    public void checkDataTypeValid(final String val)
+    '''
 def checkDomainValid():
-'''public void checkDomainValid(final String val)
-'''
-pass
+    '''    public void checkDomainValid(final String val)
+    '''
 def setMasked():
-'''public void setMasked(final boolean flag)
-'''
-pass
+    '''    public void setMasked(final boolean flag)
+    '''
 def isMasked():
-'''public boolean isMasked()
-'''
-pass
+    '''    public boolean isMasked()
+    '''
 def setValue():
-'''public void setValue(final String attributeName, final String val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''

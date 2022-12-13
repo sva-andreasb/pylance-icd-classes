@@ -1,32 +1,24 @@
 def getPermission():
-'''public SitePermissionString getPermission()
-'''
-pass
+    '''    public SitePermissionString getPermission()
+    '''
 def setPermission():
-'''public void setPermission(final SitePermissionString value)
-'''
-pass
+    '''    public void setPermission(final SitePermissionString value)
+    '''
 def getOperator():
-'''public StringWithReference getOperator()
-'''
-pass
+    '''    public StringWithReference getOperator()
+    '''
 def setOperator():
-'''public void setOperator(final StringWithReference value)
-'''
-pass
+    '''    public void setOperator(final StringWithReference value)
+    '''
 def getRole():
-'''public IntegerWithReference getRole()
-'''
-pass
+    '''    public IntegerWithReference getRole()
+    '''
 def setRole():
-'''public void setRole(final IntegerWithReference value)
-'''
-pass
+    '''    public void setRole(final IntegerWithReference value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''

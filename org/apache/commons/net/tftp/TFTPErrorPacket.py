@@ -7,18 +7,14 @@ UNKNOWN_TID = "int  5"
 FILE_EXISTS = "int  6"
 NO_SUCH_USER = "int  7"
 def TFTPErrorPacket():
-'''public TFTPErrorPacket(final InetAddress destination, final int port, final int error, final String message)
-'''
-pass
+    '''    public TFTPErrorPacket(final InetAddress destination, final int port, final int error, final String message)
+    '''
 def newDatagram():
-'''public DatagramPacket newDatagram()
-'''
-pass
+    '''    public DatagramPacket newDatagram()
+    '''
 def getError():
-'''public int getError()
-'''
-pass
+    '''    public int getError()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

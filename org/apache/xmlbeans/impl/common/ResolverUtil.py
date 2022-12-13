@@ -1,8 +1,6 @@
 def getGlobalEntityResolver():
-'''public static EntityResolver getGlobalEntityResolver()
-'''
-pass
+    '''    public static EntityResolver getGlobalEntityResolver()
+    '''
 def resolverForCatalog():
-'''public static EntityResolver resolverForCatalog(final String catalogFile)
-'''
-pass
+    '''    public static EntityResolver resolverForCatalog(final String catalogFile)
+    '''

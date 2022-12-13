@@ -1,4 +1,3 @@
 def TimeProvider():
-'''public TimeProvider()
-'''
-pass
+    '''    public TimeProvider()
+    '''

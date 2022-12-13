@@ -1,40 +1,30 @@
 def getKeyname():
-'''public String getKeyname()
-'''
-pass
+    '''    public String getKeyname()
+    '''
 def setKeyname():
-'''public void setKeyname(final String keyname)
-'''
-pass
+    '''    public void setKeyname(final String keyname)
+    '''
 def isKeynameSpecified():
-'''public boolean isKeynameSpecified()
-'''
-pass
+    '''    public boolean isKeynameSpecified()
+    '''
 def unsetKeyname():
-'''public void unsetKeyname()
-'''
-pass
+    '''    public void unsetKeyname()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def keyname():
-'''public Mask keyname()
-'''
-pass
+    '''    public Mask keyname()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''

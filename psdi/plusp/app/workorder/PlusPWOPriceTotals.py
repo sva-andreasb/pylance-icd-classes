@@ -1,8 +1,6 @@
 def PlusPWOPriceTotals():
-'''public PlusPWOPriceTotals(final MboSet ms)
-'''
-pass
+    '''    public PlusPWOPriceTotals(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

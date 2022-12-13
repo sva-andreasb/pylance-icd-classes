@@ -1,5 +1,4 @@
 def LocalVariableInfoInconsistentException():
-'''public LocalVariableInfoInconsistentException()
-public LocalVariableInfoInconsistentException(final String message)
-'''
-pass
+    '''    public LocalVariableInfoInconsistentException()
+    public LocalVariableInfoInconsistentException(final String message)
+    '''

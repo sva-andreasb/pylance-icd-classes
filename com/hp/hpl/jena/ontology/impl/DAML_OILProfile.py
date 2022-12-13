@@ -1,292 +1,224 @@
 def DAML_OILProfile():
-'''public DAML_OILProfile()
-'''
-pass
+    '''    public DAML_OILProfile()
+    '''
 def _NAMESPACE():
-'''public static String _NAMESPACE()
-'''
-pass
+    '''    public static String _NAMESPACE()
+    '''
 def NAMESPACE():
-'''public String NAMESPACE()
-'''
-pass
+    '''    public String NAMESPACE()
+    '''
 def CLASS():
-'''public Resource CLASS()
-'''
-pass
+    '''    public Resource CLASS()
+    '''
 def RESTRICTION():
-'''public Resource RESTRICTION()
-'''
-pass
+    '''    public Resource RESTRICTION()
+    '''
 def THING():
-'''public Resource THING()
-'''
-pass
+    '''    public Resource THING()
+    '''
 def NOTHING():
-'''public Resource NOTHING()
-'''
-pass
+    '''    public Resource NOTHING()
+    '''
 def PROPERTY():
-'''public Resource PROPERTY()
-'''
-pass
+    '''    public Resource PROPERTY()
+    '''
 def OBJECT_PROPERTY():
-'''public Resource OBJECT_PROPERTY()
-'''
-pass
+    '''    public Resource OBJECT_PROPERTY()
+    '''
 def DATATYPE_PROPERTY():
-'''public Resource DATATYPE_PROPERTY()
-'''
-pass
+    '''    public Resource DATATYPE_PROPERTY()
+    '''
 def TRANSITIVE_PROPERTY():
-'''public Resource TRANSITIVE_PROPERTY()
-'''
-pass
+    '''    public Resource TRANSITIVE_PROPERTY()
+    '''
 def SYMMETRIC_PROPERTY():
-'''public Resource SYMMETRIC_PROPERTY()
-'''
-pass
+    '''    public Resource SYMMETRIC_PROPERTY()
+    '''
 def FUNCTIONAL_PROPERTY():
-'''public Resource FUNCTIONAL_PROPERTY()
-'''
-pass
+    '''    public Resource FUNCTIONAL_PROPERTY()
+    '''
 def INVERSE_FUNCTIONAL_PROPERTY():
-'''public Resource INVERSE_FUNCTIONAL_PROPERTY()
-'''
-pass
+    '''    public Resource INVERSE_FUNCTIONAL_PROPERTY()
+    '''
 def ALL_DIFFERENT():
-'''public Resource ALL_DIFFERENT()
-'''
-pass
+    '''    public Resource ALL_DIFFERENT()
+    '''
 def ONTOLOGY():
-'''public Resource ONTOLOGY()
-'''
-pass
+    '''    public Resource ONTOLOGY()
+    '''
 def DEPRECATED_CLASS():
-'''public Resource DEPRECATED_CLASS()
-'''
-pass
+    '''    public Resource DEPRECATED_CLASS()
+    '''
 def DEPRECATED_PROPERTY():
-'''public Resource DEPRECATED_PROPERTY()
-'''
-pass
+    '''    public Resource DEPRECATED_PROPERTY()
+    '''
 def ANNOTATION_PROPERTY():
-'''public Resource ANNOTATION_PROPERTY()
-'''
-pass
+    '''    public Resource ANNOTATION_PROPERTY()
+    '''
 def ONTOLOGY_PROPERTY():
-'''public Resource ONTOLOGY_PROPERTY()
-'''
-pass
+    '''    public Resource ONTOLOGY_PROPERTY()
+    '''
 def LIST():
-'''public Resource LIST()
-'''
-pass
+    '''    public Resource LIST()
+    '''
 def NIL():
-'''public Resource NIL()
-'''
-pass
+    '''    public Resource NIL()
+    '''
 def DATARANGE():
-'''public Resource DATARANGE()
-'''
-pass
+    '''    public Resource DATARANGE()
+    '''
 def EQUIVALENT_PROPERTY():
-'''public Property EQUIVALENT_PROPERTY()
-'''
-pass
+    '''    public Property EQUIVALENT_PROPERTY()
+    '''
 def EQUIVALENT_CLASS():
-'''public Property EQUIVALENT_CLASS()
-'''
-pass
+    '''    public Property EQUIVALENT_CLASS()
+    '''
 def DISJOINT_WITH():
-'''public Property DISJOINT_WITH()
-'''
-pass
+    '''    public Property DISJOINT_WITH()
+    '''
 def SAME_INDIVIDUAL_AS():
-'''public Property SAME_INDIVIDUAL_AS()
-'''
-pass
+    '''    public Property SAME_INDIVIDUAL_AS()
+    '''
 def SAME_AS():
-'''public Property SAME_AS()
-'''
-pass
+    '''    public Property SAME_AS()
+    '''
 def DIFFERENT_FROM():
-'''public Property DIFFERENT_FROM()
-'''
-pass
+    '''    public Property DIFFERENT_FROM()
+    '''
 def DISTINCT_MEMBERS():
-'''public Property DISTINCT_MEMBERS()
-'''
-pass
+    '''    public Property DISTINCT_MEMBERS()
+    '''
 def UNION_OF():
-'''public Property UNION_OF()
-'''
-pass
+    '''    public Property UNION_OF()
+    '''
 def INTERSECTION_OF():
-'''public Property INTERSECTION_OF()
-'''
-pass
+    '''    public Property INTERSECTION_OF()
+    '''
 def COMPLEMENT_OF():
-'''public Property COMPLEMENT_OF()
-'''
-pass
+    '''    public Property COMPLEMENT_OF()
+    '''
 def ONE_OF():
-'''public Property ONE_OF()
-'''
-pass
+    '''    public Property ONE_OF()
+    '''
 def ON_PROPERTY():
-'''public Property ON_PROPERTY()
-'''
-pass
+    '''    public Property ON_PROPERTY()
+    '''
 def ALL_VALUES_FROM():
-'''public Property ALL_VALUES_FROM()
-'''
-pass
+    '''    public Property ALL_VALUES_FROM()
+    '''
 def HAS_VALUE():
-'''public Property HAS_VALUE()
-'''
-pass
+    '''    public Property HAS_VALUE()
+    '''
 def SOME_VALUES_FROM():
-'''public Property SOME_VALUES_FROM()
-'''
-pass
+    '''    public Property SOME_VALUES_FROM()
+    '''
 def MIN_CARDINALITY():
-'''public Property MIN_CARDINALITY()
-'''
-pass
+    '''    public Property MIN_CARDINALITY()
+    '''
 def MAX_CARDINALITY():
-'''public Property MAX_CARDINALITY()
-'''
-pass
+    '''    public Property MAX_CARDINALITY()
+    '''
 def CARDINALITY():
-'''public Property CARDINALITY()
-'''
-pass
+    '''    public Property CARDINALITY()
+    '''
 def INVERSE_OF():
-'''public Property INVERSE_OF()
-'''
-pass
+    '''    public Property INVERSE_OF()
+    '''
 def IMPORTS():
-'''public Property IMPORTS()
-'''
-pass
+    '''    public Property IMPORTS()
+    '''
 def PRIOR_VERSION():
-'''public Property PRIOR_VERSION()
-'''
-pass
+    '''    public Property PRIOR_VERSION()
+    '''
 def BACKWARD_COMPATIBLE_WITH():
-'''public Property BACKWARD_COMPATIBLE_WITH()
-'''
-pass
+    '''    public Property BACKWARD_COMPATIBLE_WITH()
+    '''
 def INCOMPATIBLE_WITH():
-'''public Property INCOMPATIBLE_WITH()
-'''
-pass
+    '''    public Property INCOMPATIBLE_WITH()
+    '''
 def SUB_CLASS_OF():
-'''public Property SUB_CLASS_OF()
-'''
-pass
+    '''    public Property SUB_CLASS_OF()
+    '''
 def SUB_PROPERTY_OF():
-'''public Property SUB_PROPERTY_OF()
-'''
-pass
+    '''    public Property SUB_PROPERTY_OF()
+    '''
 def DOMAIN():
-'''public Property DOMAIN()
-'''
-pass
+    '''    public Property DOMAIN()
+    '''
 def RANGE():
-'''public Property RANGE()
-'''
-pass
+    '''    public Property RANGE()
+    '''
 def FIRST():
-'''public Property FIRST()
-'''
-pass
+    '''    public Property FIRST()
+    '''
 def REST():
-'''public Property REST()
-'''
-pass
+    '''    public Property REST()
+    '''
 def MIN_CARDINALITY_Q():
-'''public Property MIN_CARDINALITY_Q()
-'''
-pass
+    '''    public Property MIN_CARDINALITY_Q()
+    '''
 def MAX_CARDINALITY_Q():
-'''public Property MAX_CARDINALITY_Q()
-'''
-pass
+    '''    public Property MAX_CARDINALITY_Q()
+    '''
 def CARDINALITY_Q():
-'''public Property CARDINALITY_Q()
-'''
-pass
+    '''    public Property CARDINALITY_Q()
+    '''
 def HAS_CLASS_Q():
-'''public Property HAS_CLASS_Q()
-'''
-pass
+    '''    public Property HAS_CLASS_Q()
+    '''
 def VERSION_INFO():
-'''public Property VERSION_INFO()
-'''
-pass
+    '''    public Property VERSION_INFO()
+    '''
 def LABEL():
-'''public Property LABEL()
-'''
-pass
+    '''    public Property LABEL()
+    '''
 def COMMENT():
-'''public Property COMMENT()
-'''
-pass
+    '''    public Property COMMENT()
+    '''
 def SEE_ALSO():
-'''public Property SEE_ALSO()
-'''
-pass
+    '''    public Property SEE_ALSO()
+    '''
 def IS_DEFINED_BY():
-'''public Property IS_DEFINED_BY()
-'''
-pass
+    '''    public Property IS_DEFINED_BY()
+    '''
 def getAxiomTypes():
-'''public Iterator<Resource> getAxiomTypes()
-'''
-pass
+    '''    public Iterator<Resource> getAxiomTypes()
+    '''
 def getAnnotationProperties():
-'''public Iterator<Resource> getAnnotationProperties()
-'''
-pass
+    '''    public Iterator<Resource> getAnnotationProperties()
+    '''
 def getClassDescriptionTypes():
-'''public Iterator<Resource> getClassDescriptionTypes()
-'''
-pass
+    '''    public Iterator<Resource> getClassDescriptionTypes()
+    '''
 def isSupported():
-'''public <T> boolean isSupported(final Node n, final EnhGraph g, final Class<T> type)
-'''
-pass
+    '''    public <T> boolean isSupported(final Node n, final EnhGraph g, final Class<T> type)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def containsSome():
-'''public static boolean containsSome(final EnhGraph g, final Node n, final Property p)
-'''
-pass
+    '''    public static boolean containsSome(final EnhGraph g, final Node n, final Property p)
+    '''
 def doCheck():
-'''public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-public boolean doCheck(final Node n, final EnhGraph g)
-'''
-pass
+    '''    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    public boolean doCheck(final Node n, final EnhGraph g)
+    '''

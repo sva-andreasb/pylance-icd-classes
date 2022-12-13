@@ -1,4 +1,3 @@
 def PlusPFldSACommodity():
-'''public PlusPFldSACommodity(final MboValue mboValue)
-'''
-pass
+    '''    public PlusPFldSACommodity(final MboValue mboValue)
+    '''

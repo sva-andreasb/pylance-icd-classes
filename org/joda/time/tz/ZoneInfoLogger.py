@@ -1,8 +1,6 @@
 def verbose():
-'''public static boolean verbose()
-'''
-pass
+    '''    public static boolean verbose()
+    '''
 def set():
-'''public static void set(final boolean b)
-'''
-pass
+    '''    public static void set(final boolean b)
+    '''

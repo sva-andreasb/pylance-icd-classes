@@ -1,16 +1,12 @@
 def ReconOperator():
-'''public ReconOperator(final ReconInfo reconInfo, final String operator, final int precedence, final boolean isRightAssociative)
-'''
-pass
+    '''    public ReconOperator(final ReconInfo reconInfo, final String operator, final int precedence, final boolean isRightAssociative)
+    '''
 def getPrecedence():
-'''public int getPrecedence()
-'''
-pass
+    '''    public int getPrecedence()
+    '''
 def isRightAssociative():
-'''public boolean isRightAssociative()
-'''
-pass
+    '''    public boolean isRightAssociative()
+    '''
 def getOperator():
-'''public String getOperator()
-'''
-pass
+    '''    public String getOperator()
+    '''

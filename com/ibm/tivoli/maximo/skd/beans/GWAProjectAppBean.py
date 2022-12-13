@@ -1,81 +1,61 @@
 def GWAProjectAppBean():
-'''public GWAProjectAppBean()
-'''
-pass
+    '''    public GWAProjectAppBean()
+    '''
 def getAssignLaborSet():
-'''public AssignmentSetRemote getAssignLaborSet()
-'''
-pass
+    '''    public AssignmentSetRemote getAssignLaborSet()
+    '''
 def setAssignLaborSet():
-'''public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
-'''
-pass
+    '''    public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
+    '''
 def getAssignedCrewSet():
-'''public AssignmentSetRemote getAssignedCrewSet()
-'''
-pass
+    '''    public AssignmentSetRemote getAssignedCrewSet()
+    '''
 def setAssignCrewSet():
-'''public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
-'''
-pass
+    '''    public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
+    '''
 def REFRESH():
-'''public int REFRESH()
-'''
-pass
+    '''    public int REFRESH()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def loadSchedule():
-'''public GWASchedule loadSchedule()
-'''
-pass
+    '''    public GWASchedule loadSchedule()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    public UserInfo getUserInfo()
+    '''
 def toJsonObject():
-'''public static JSONObject toJsonObject(final MboRemote mbo)
-'''
-pass
+    '''    public static JSONObject toJsonObject(final MboRemote mbo)
+    '''
 def ASSIGNLAB():
-'''public int ASSIGNLAB()
-'''
-pass
+    '''    public int ASSIGNLAB()
+    '''
 def CRWASSIGNA():
-'''public int CRWASSIGNA()
-'''
-pass
+    '''    public int CRWASSIGNA()
+    '''
 def applink():
-'''public int applink()
-'''
-pass
+    '''    public int applink()
+    '''
 def solutionsTabChanged():
-'''public int solutionsTabChanged()
-'''
-pass
+    '''    public int solutionsTabChanged()
+    '''
 def isRefresh():
-'''public boolean isRefresh()
-'''
-pass
+    '''    public boolean isRefresh()
+    '''
 def clearCurrentWeekDate():
-'''public void clearCurrentWeekDate()
-'''
-pass
+    '''    public void clearCurrentWeekDate()
+    '''
 def getCurrentWeekDate():
-'''public Date getCurrentWeekDate()
-'''
-pass
+    '''    public Date getCurrentWeekDate()
+    '''
 def getAssignmentLabors():
-'''public Set<String> getAssignmentLabors()
-'''
-pass
+    '''    public Set<String> getAssignmentLabors()
+    '''

@@ -1,8 +1,6 @@
 def FldCrewWorkGroup():
-'''public FldCrewWorkGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldCrewWorkGroup(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

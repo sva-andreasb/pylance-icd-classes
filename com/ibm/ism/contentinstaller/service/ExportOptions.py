@@ -1,28 +1,21 @@
 def ExportOptions():
-'''public ExportOptions()
-'''
-pass
+    '''    public ExportOptions()
+    '''
 def isAddKeyColumns():
-'''public boolean isAddKeyColumns()
-'''
-pass
+    '''    public boolean isAddKeyColumns()
+    '''
 def setAddKeyColumns():
-'''public void setAddKeyColumns(final boolean addKeyColumns)
-'''
-pass
+    '''    public void setAddKeyColumns(final boolean addKeyColumns)
+    '''
 def isUserDefinedKeyColumns():
-'''public boolean isUserDefinedKeyColumns()
-'''
-pass
+    '''    public boolean isUserDefinedKeyColumns()
+    '''
 def setUserDefinedKeyColumns():
-'''public void setUserDefinedKeyColumns(final boolean shouldUse)
-'''
-pass
+    '''    public void setUserDefinedKeyColumns(final boolean shouldUse)
+    '''
 def isUpdate():
-'''public boolean isUpdate()
-'''
-pass
+    '''    public boolean isUpdate()
+    '''
 def setUpdate():
-'''public void setUpdate(final boolean update)
-'''
-pass
+    '''    public void setUpdate(final boolean update)
+    '''

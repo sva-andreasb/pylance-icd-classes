@@ -1,4 +1,3 @@
 def PlusPPriceBookItemConditionSet():
-'''public PlusPPriceBookItemConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPPriceBookItemConditionSet(final MboServerInterface ms)
+    '''

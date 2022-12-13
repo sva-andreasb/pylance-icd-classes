@@ -1,52 +1,39 @@
 def ReconContext():
-'''public ReconContext(final ReconInfo reconInfo)
-'''
-pass
+    '''    public ReconContext(final ReconInfo reconInfo)
+    '''
 def getReconInfo():
-'''public ReconInfo getReconInfo()
-'''
-pass
+    '''    public ReconInfo getReconInfo()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def getCronName():
-'''public String getCronName()
-'''
-pass
+    '''    public String getCronName()
+    '''
 def getInstanceName():
-'''public String getInstanceName()
-'''
-pass
+    '''    public String getInstanceName()
+    '''
 def getTaskName():
-'''public String getTaskName()
-'''
-pass
+    '''    public String getTaskName()
+    '''
 def getTask():
-'''public MboRemote getTask()
-'''
-pass
+    '''    public MboRemote getTask()
+    '''
 def getDBShortcut():
-'''public DBShortcut getDBShortcut()
-'''
-pass
+    '''    public DBShortcut getDBShortcut()
+    '''
 def releaseDBShortcut():
-'''public void releaseDBShortcut(final DBShortcut dbShortcut)
-'''
-pass
+    '''    public void releaseDBShortcut(final DBShortcut dbShortcut)
+    '''
 def getDataSet1():
-'''public DataSet getDataSet1()
-'''
-pass
+    '''    public DataSet getDataSet1()
+    '''
 def getDataSet2():
-'''public DataSet getDataSet2()
-'''
-pass
+    '''    public DataSet getDataSet2()
+    '''

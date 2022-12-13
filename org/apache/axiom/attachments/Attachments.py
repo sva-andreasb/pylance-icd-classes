@@ -1,73 +1,56 @@
 def getLifecycleManager():
-'''public LifecycleManager getLifecycleManager()
-'''
-pass
+    '''    public LifecycleManager getLifecycleManager()
+    '''
 def setLifecycleManager():
-'''public void setLifecycleManager(final LifecycleManager manager)
-'''
-pass
+    '''    public void setLifecycleManager(final LifecycleManager manager)
+    '''
 def Attachments():
-'''public Attachments(final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)
-public Attachments(final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)
-public Attachments(final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)
-public Attachments(final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)
-public Attachments(final InputStream inStream, final String contentTypeString)
-public Attachments()
-'''
-pass
+    '''    public Attachments(final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)
+    public Attachments(final LifecycleManager manager, final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)
+    public Attachments(final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold)
+    public Attachments(final InputStream inStream, final String contentTypeString, final boolean fileCacheEnable, final String attachmentRepoDir, final String fileThreshold, final int contentLength)
+    public Attachments(final InputStream inStream, final String contentTypeString)
+    public Attachments()
+    '''
 def getAttachmentSpecType():
-'''public String getAttachmentSpecType()
-'''
-pass
+    '''    public String getAttachmentSpecType()
+    '''
 def getDataHandler():
-'''public DataHandler getDataHandler(final String blobContentID)
-'''
-pass
+    '''    public DataHandler getDataHandler(final String blobContentID)
+    '''
 def addDataHandler():
-'''public void addDataHandler(final String contentID, final DataHandler dataHandler)
-'''
-pass
+    '''    public void addDataHandler(final String contentID, final DataHandler dataHandler)
+    '''
 def removeDataHandler():
-'''public void removeDataHandler(final String blobContentID)
-'''
-pass
+    '''    public void removeDataHandler(final String blobContentID)
+    '''
 def getSOAPPartInputStream():
-'''public InputStream getSOAPPartInputStream()
-'''
-pass
+    '''    public InputStream getSOAPPartInputStream()
+    '''
 def getSOAPPartContentID():
-'''public String getSOAPPartContentID()
-'''
-pass
+    '''    public String getSOAPPartContentID()
+    '''
 def getSOAPPartContentType():
-'''public String getSOAPPartContentType()
-'''
-pass
+    '''    public String getSOAPPartContentType()
+    '''
 def getIncomingAttachmentStreams():
-'''public IncomingAttachmentStreams getIncomingAttachmentStreams()
-'''
-pass
+    '''    public IncomingAttachmentStreams getIncomingAttachmentStreams()
+    '''
 def getAllContentIDs():
-'''public String[] getAllContentIDs()
-'''
-pass
+    '''    public String[] getAllContentIDs()
+    '''
 def getContentIDSet():
-'''public Set getContentIDSet()
-'''
-pass
+    '''    public Set getContentIDSet()
+    '''
 def getMap():
-'''public Map getMap()
-'''
-pass
+    '''    public Map getMap()
+    '''
 def getContentIDList():
-'''public List getContentIDList()
-'''
-pass
+    '''    public List getContentIDList()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getIncomingAttachmentsAsSingleStream():
-'''public InputStream getIncomingAttachmentsAsSingleStream()
-'''
-pass
+    '''    public InputStream getIncomingAttachmentsAsSingleStream()
+    '''

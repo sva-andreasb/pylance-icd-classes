@@ -1,8 +1,6 @@
 def getCode():
-'''public final int getCode()
-'''
-pass
+    '''    public final int getCode()
+    '''
 def getQueryChangeEventType():
-'''public static final QueryChangeEventType getQueryChangeEventType(final int n)
-'''
-pass
+    '''    public static final QueryChangeEventType getQueryChangeEventType(final int n)
+    '''

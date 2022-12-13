@@ -1,53 +1,40 @@
 def CharacterDataImpl():
-'''public CharacterDataImpl()
-'''
-pass
+    '''    public CharacterDataImpl()
+    '''
 def getChildNodes():
-'''public NodeList getChildNodes()
-'''
-pass
+    '''    public NodeList getChildNodes()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String nodeValueInternal)
-'''
-pass
+    '''    public void setNodeValue(final String nodeValueInternal)
+    '''
 def getData():
-'''public String getData()
-'''
-pass
+    '''    public String getData()
+    '''
 def getLength():
-'''public int getLength()
-public int getLength()
-'''
-pass
+    '''    public int getLength()
+    public int getLength()
+    '''
 def appendData():
-'''public void appendData(final String str)
-'''
-pass
+    '''    public void appendData(final String str)
+    '''
 def deleteData():
-'''public void deleteData(final int n, final int n2)
-'''
-pass
+    '''    public void deleteData(final int n, final int n2)
+    '''
 def insertData():
-'''public void insertData(final int n, final String s)
-'''
-pass
+    '''    public void insertData(final int n, final String s)
+    '''
 def replaceData():
-'''public void replaceData(final int n, final int n2, final String s)
-'''
-pass
+    '''    public void replaceData(final int n, final int n2, final String s)
+    '''
 def setData():
-'''public void setData(final String nodeValue)
-'''
-pass
+    '''    public void setData(final String nodeValue)
+    '''
 def substringData():
-'''public String substringData(final int beginIndex, final int n)
-'''
-pass
+    '''    public String substringData(final int beginIndex, final int n)
+    '''
 def item():
-'''public Node item(final int n)
-'''
-pass
+    '''    public Node item(final int n)
+    '''

@@ -1,64 +1,48 @@
 def Issue1972():
-'''public Issue1972()
-'''
-pass
+    '''    public Issue1972()
+    '''
 def afterEachTest():
-'''public void afterEachTest()
-'''
-pass
+    '''    public void afterEachTest()
+    '''
 def readStderr():
-'''public void readStderr()
-'''
-pass
+    '''    public void readStderr()
+    '''
 def readStdout():
-'''public void readStdout()
-'''
-pass
+    '''    public void readStdout()
+    '''
 def echoStdin():
-'''public void echoStdin()
-'''
-pass
+    '''    public void echoStdin()
+    '''
 def echoStdinAsHex():
-'''public void echoStdinAsHex()
-'''
-pass
+    '''    public void echoStdinAsHex()
+    '''
 def jythonSubprocess():
-'''public void jythonSubprocess()
-'''
-pass
+    '''    public void jythonSubprocess()
+    '''
 def jythonNonInteractive():
-'''public void jythonNonInteractive()
-'''
-pass
+    '''    public void jythonNonInteractive()
+    '''
 def jythonInteractive():
-'''public void jythonInteractive()
-'''
-pass
+    '''    public void jythonInteractive()
+    '''
 def jythonJLineConsole():
-'''public void jythonJLineConsole()
-'''
-pass
+    '''    public void jythonJLineConsole()
+    '''
 def jythonReadline():
-'''public void jythonReadline()
-'''
-pass
+    '''    public void jythonReadline()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def escape():
-'''public static String escape(final byte[] b)
-'''
-pass
+    '''    public static String escape(final byte[] b)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def asStrings():
-'''public List<String> asStrings()
-'''
-pass
+    '''    public List<String> asStrings()
+    '''
 def asHexDump():
-'''public List<String> asHexDump()
-'''
-pass
+    '''    public List<String> asHexDump()
+    '''

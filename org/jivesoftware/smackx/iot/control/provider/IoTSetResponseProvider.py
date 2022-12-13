@@ -1,4 +1,3 @@
 def parse():
-'''public IoTSetResponse parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public IoTSetResponse parse(final XmlPullParser parser, final int initialDepth)
+    '''

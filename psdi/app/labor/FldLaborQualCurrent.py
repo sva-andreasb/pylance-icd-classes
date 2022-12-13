@@ -1,8 +1,6 @@
 def FldLaborQualCurrent():
-'''public FldLaborQualCurrent(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborQualCurrent(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

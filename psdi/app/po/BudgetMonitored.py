@@ -1,12 +1,9 @@
 def BudgetMonitored():
-'''public BudgetMonitored(final MboSet ms)
-'''
-pass
+    '''    public BudgetMonitored(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

@@ -1,16 +1,12 @@
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def getModuleExtension():
-'''public String getModuleExtension()
-'''
-pass
+    '''    public String getModuleExtension()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getModuleType():
-'''public static ModuleType getModuleType(final int value)
-'''
-pass
+    '''    public static ModuleType getModuleType(final int value)
+    '''

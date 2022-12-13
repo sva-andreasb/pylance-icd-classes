@@ -1,5 +1,4 @@
 def AttributeNotSetException():
-'''public AttributeNotSetException()
-public AttributeNotSetException(final String msg)
-'''
-pass
+    '''    public AttributeNotSetException()
+    public AttributeNotSetException(final String msg)
+    '''

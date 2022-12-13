@@ -1,4 +1,3 @@
 def PropertyDefaultSet():
-'''public PropertyDefaultSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PropertyDefaultSet(final MboServerInterface ms)
+    '''

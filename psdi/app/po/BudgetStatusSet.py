@@ -1,4 +1,3 @@
 def BudgetStatusSet():
-'''public BudgetStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BudgetStatusSet(final MboServerInterface ms)
+    '''

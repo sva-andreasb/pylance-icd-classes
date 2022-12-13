@@ -1,4 +1,3 @@
 def WarrantyViewLineSet():
-'''public WarrantyViewLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WarrantyViewLineSet(final MboServerInterface ms)
+    '''

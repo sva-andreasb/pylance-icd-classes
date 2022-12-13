@@ -1,8 +1,6 @@
 def FldContLineAssetTimeUnit():
-'''public FldContLineAssetTimeUnit(final MboValue mbv)
-'''
-pass
+    '''    public FldContLineAssetTimeUnit(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

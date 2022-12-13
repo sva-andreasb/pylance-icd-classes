@@ -1,4 +1,3 @@
 def SKDCost():
-'''public SKDCost(final MboSet ms)
-'''
-pass
+    '''    public SKDCost(final MboSet ms)
+    '''

@@ -1,17 +1,13 @@
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def generate():
-'''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
-'''
-pass
+    '''    public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''
 def generator():
-'''public Generator generator()
-'''
-pass
+    '''    public Generator generator()
+    '''
 def maxSize():
-'''public void maxSize(final Expression maxSize)
-public Expression maxSize()
-'''
-pass
+    '''    public void maxSize(final Expression maxSize)
+    public Expression maxSize()
+    '''

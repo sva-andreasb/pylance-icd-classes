@@ -1,36 +1,27 @@
 def CSSConditionalSelector():
-'''public CSSConditionalSelector(final SimpleSelector s, final Condition c)
-'''
-pass
+    '''    public CSSConditionalSelector(final SimpleSelector s, final Condition c)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getSelectorType():
-'''public short getSelectorType()
-'''
-pass
+    '''    public short getSelectorType()
+    '''
 def match():
-'''public boolean match(final Element e, final String pseudoE)
-'''
-pass
+    '''    public boolean match(final Element e, final String pseudoE)
+    '''
 def fillAttributeSet():
-'''public void fillAttributeSet(final Set attrSet)
-'''
-pass
+    '''    public void fillAttributeSet(final Set attrSet)
+    '''
 def getSpecificity():
-'''public int getSpecificity()
-'''
-pass
+    '''    public int getSpecificity()
+    '''
 def getSimpleSelector():
-'''public SimpleSelector getSimpleSelector()
-'''
-pass
+    '''    public SimpleSelector getSimpleSelector()
+    '''
 def getCondition():
-'''public Condition getCondition()
-'''
-pass
+    '''    public Condition getCondition()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

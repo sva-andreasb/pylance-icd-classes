@@ -1,8 +1,6 @@
 def COPYASSETATTRSET():
-'''public int COPYASSETATTRSET()
-'''
-pass
+    '''    public int COPYASSETATTRSET()
+    '''
 def COPYCIATTRSET():
-'''public int COPYCIATTRSET()
-'''
-pass
+    '''    public int COPYCIATTRSET()
+    '''

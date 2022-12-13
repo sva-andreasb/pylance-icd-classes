@@ -1,5 +1,4 @@
 def DPAMSoftwareService():
-'''public DPAMSoftwareService()
-public DPAMSoftwareService(final MXServer mxServer)
-'''
-pass
+    '''    public DPAMSoftwareService()
+    public DPAMSoftwareService(final MXServer mxServer)
+    '''

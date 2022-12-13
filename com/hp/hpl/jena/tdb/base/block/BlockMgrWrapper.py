@@ -1,65 +1,49 @@
 def BlockMgrWrapper():
-'''public BlockMgrWrapper(final BlockMgr blockMgr)
-'''
-pass
+    '''    public BlockMgrWrapper(final BlockMgr blockMgr)
+    '''
 def allocateId():
-'''public int allocateId()
-'''
-pass
+    '''    public int allocateId()
+    '''
 def allocateBuffer():
-'''public ByteBuffer allocateBuffer(final int id)
-'''
-pass
+    '''    public ByteBuffer allocateBuffer(final int id)
+    '''
 def blockSize():
-'''public int blockSize()
-'''
-pass
+    '''    public int blockSize()
+    '''
 def get():
-'''public ByteBuffer get(final int id)
-'''
-pass
+    '''    public ByteBuffer get(final int id)
+    '''
 def put():
-'''public void put(final int id, final ByteBuffer block)
-'''
-pass
+    '''    public void put(final int id, final ByteBuffer block)
+    '''
 def freeBlock():
-'''public void freeBlock(final int id)
-'''
-pass
+    '''    public void freeBlock(final int id)
+    '''
 def sync():
-'''public void sync()
-public void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public void sync(final boolean force)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def startRead():
-'''public void startRead()
-'''
-pass
+    '''    public void startRead()
+    '''
 def finishRead():
-'''public void finishRead()
-'''
-pass
+    '''    public void finishRead()
+    '''
 def startUpdate():
-'''public void startUpdate()
-'''
-pass
+    '''    public void startUpdate()
+    '''
 def finishUpdate():
-'''public void finishUpdate()
-'''
-pass
+    '''    public void finishUpdate()
+    '''
 def valid():
-'''public boolean valid(final int id)
-'''
-pass
+    '''    public boolean valid(final int id)
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''

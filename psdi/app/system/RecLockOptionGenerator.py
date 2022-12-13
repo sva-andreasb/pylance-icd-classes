@@ -1,16 +1,12 @@
 def checkMenuOption():
-'''public MboSetRemote checkMenuOption(final String appName, final String sigName, final String menutype, final UserInfo userInfo)
-'''
-pass
+    '''    public MboSetRemote checkMenuOption(final String appName, final String sigName, final String menutype, final UserInfo userInfo)
+    '''
 def addSigOption():
-'''public String addSigOption(final String appName, final String sigName, final String sigDesc, final boolean isVisible, final String alsoGrants, final String alsoRevokes, final String prerequisite, final UserInfo userInfo, final MXTransaction trans)
-'''
-pass
+    '''    public String addSigOption(final String appName, final String sigName, final String sigDesc, final boolean isVisible, final String alsoGrants, final String alsoRevokes, final String prerequisite, final UserInfo userInfo, final MXTransaction trans)
+    '''
 def deleteOption():
-'''public void deleteOption(final String appName, final String optionName, final String menutype, final UserInfo userInfo, final MXTransaction trans)
-'''
-pass
+    '''    public void deleteOption(final String appName, final String optionName, final String menutype, final UserInfo userInfo, final MXTransaction trans)
+    '''
 def deleteAppAuth():
-'''public void deleteAppAuth(final String appName, final String sigName, final String groupname, final UserInfo userInfo, final MXTransaction trans)
-'''
-pass
+    '''    public void deleteAppAuth(final String appName, final String sigName, final String groupname, final UserInfo userInfo, final MXTransaction trans)
+    '''

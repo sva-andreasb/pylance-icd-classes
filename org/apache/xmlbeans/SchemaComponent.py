@@ -7,10 +7,8 @@ MODEL_GROUP = "int  6"
 NOTATION = "int  7"
 ANNOTATION = "int  8"
 def getTypeSystem():
-'''public final SchemaTypeSystem getTypeSystem()
-'''
-pass
+    '''    public final SchemaTypeSystem getTypeSystem()
+    '''
 def getComponent():
-'''public final SchemaComponent getComponent()
-'''
-pass
+    '''    public final SchemaComponent getComponent()
+    '''

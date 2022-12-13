@@ -1,8 +1,6 @@
 def MaxSRProcess():
-'''public MaxSRProcess()
-'''
-pass
+    '''    public MaxSRProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

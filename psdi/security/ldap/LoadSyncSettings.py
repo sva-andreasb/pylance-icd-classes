@@ -1,40 +1,30 @@
 def LoadSyncSettings():
-'''public LoadSyncSettings()
-'''
-pass
+    '''    public LoadSyncSettings()
+    '''
 def getGroupSettings():
-'''public GroupSettings getGroupSettings()
-'''
-pass
+    '''    public GroupSettings getGroupSettings()
+    '''
 def setGroupSettings():
-'''public void setGroupSettings(final GroupSettings settings)
-'''
-pass
+    '''    public void setGroupSettings(final GroupSettings settings)
+    '''
 def getSynchronizerSettings():
-'''public SynchronizerSettings getSynchronizerSettings()
-'''
-pass
+    '''    public SynchronizerSettings getSynchronizerSettings()
+    '''
 def setSynchronizerSettings():
-'''public void setSynchronizerSettings(final SynchronizerSettings settings)
-'''
-pass
+    '''    public void setSynchronizerSettings(final SynchronizerSettings settings)
+    '''
 def getUserSettings():
-'''public UserSettings getUserSettings()
-'''
-pass
+    '''    public UserSettings getUserSettings()
+    '''
 def setUserSettings():
-'''public void setUserSettings(final UserSettings settings)
-'''
-pass
+    '''    public void setUserSettings(final UserSettings settings)
+    '''
 def getLdapContextSettings():
-'''public LdapContextSettings getLdapContextSettings()
-'''
-pass
+    '''    public LdapContextSettings getLdapContextSettings()
+    '''
 def setLdapContextSettings():
-'''public void setLdapContextSettings(final LdapContextSettings ldapContextSettings)
-'''
-pass
+    '''    public void setLdapContextSettings(final LdapContextSettings ldapContextSettings)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

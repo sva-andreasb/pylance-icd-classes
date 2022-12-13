@@ -1,33 +1,25 @@
 def ObjectFileSink():
-'''public ObjectFileSink()
-'''
-pass
+    '''    public ObjectFileSink()
+    '''
 def all():
-'''public Iterator<Pair<Long, ByteBuffer>> all()
-'''
-pass
+    '''    public Iterator<Pair<Long, ByteBuffer>> all()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def read():
-'''public ByteBuffer read(final long id)
-'''
-pass
+    '''    public ByteBuffer read(final long id)
+    '''
 def sync():
-'''public void sync()
-public void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public void sync(final boolean force)
+    '''
 def write():
-'''public long write(final ByteBuffer str)
-'''
-pass
+    '''    public long write(final ByteBuffer str)
+    '''
 def dump():
-'''public void dump()
-'''
-pass
+    '''    public void dump()
+    '''
 def length():
-'''public long length()
-'''
-pass
+    '''    public long length()
+    '''

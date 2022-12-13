@@ -1,8 +1,6 @@
 def FldJobToolOrgId():
-'''public FldJobToolOrgId(final MboValue mbv)
-'''
-pass
+    '''    public FldJobToolOrgId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

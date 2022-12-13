@@ -1,20 +1,15 @@
 def newRow():
-'''public int newRow()
-'''
-pass
+    '''    public int newRow()
+    '''
 def newGroup():
-'''public int newGroup()
-'''
-pass
+    '''    public int newGroup()
+    '''
 def newSubGroup():
-'''public int newSubGroup()
-'''
-pass
+    '''    public int newSubGroup()
+    '''
 def pluspaddrow():
-'''public int pluspaddrow()
-'''
-pass
+    '''    public int pluspaddrow()
+    '''
 def toggletablestate():
-'''public int toggletablestate()
-'''
-pass
+    '''    public int toggletablestate()
+    '''

@@ -1,8 +1,6 @@
 def MeterSet():
-'''public MeterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MeterSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

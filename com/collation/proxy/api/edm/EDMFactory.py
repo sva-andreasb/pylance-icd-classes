@@ -1,4 +1,3 @@
 def getEDM():
-'''public static EDMInterface getEDM(final DataServerInterface api, final String sessionId)
-'''
-pass
+    '''    public static EDMInterface getEDM(final DataServerInterface api, final String sessionId)
+    '''

@@ -1,12 +1,9 @@
 def PauseException():
-'''public PauseException(final PauseStatus status)
-'''
-pass
+    '''    public PauseException(final PauseStatus status)
+    '''
 def getPauseStatus():
-'''public PauseStatus getPauseStatus()
-'''
-pass
+    '''    public PauseStatus getPauseStatus()
+    '''
 def isRetryable():
-'''public boolean isRetryable()
-'''
-pass
+    '''    public boolean isRetryable()
+    '''

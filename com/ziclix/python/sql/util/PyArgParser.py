@@ -1,30 +1,23 @@
 def PyArgParser():
-'''public PyArgParser(final PyObject[] args, final String[] kws)
-'''
-pass
+    '''    public PyArgParser(final PyObject[] args, final String[] kws)
+    '''
 def numKw():
-'''public int numKw()
-'''
-pass
+    '''    public int numKw()
+    '''
 def hasKw():
-'''public boolean hasKw(final String kw)
-'''
-pass
+    '''    public boolean hasKw(final String kw)
+    '''
 def kw():
-'''public PyObject kw(final String kw)
-public PyObject kw(final String kw, final PyObject def)
-'''
-pass
+    '''    public PyObject kw(final String kw)
+    public PyObject kw(final String kw, final PyObject def)
+    '''
 def kws():
-'''public String[] kws()
-'''
-pass
+    '''    public String[] kws()
+    '''
 def numArg():
-'''public int numArg()
-'''
-pass
+    '''    public int numArg()
+    '''
 def arg():
-'''public PyObject arg(final int index)
-public PyObject arg(final int index, final PyObject def)
-'''
-pass
+    '''    public PyObject arg(final int index)
+    public PyObject arg(final int index, final PyObject def)
+    '''

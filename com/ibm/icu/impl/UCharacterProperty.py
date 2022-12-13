@@ -16,54 +16,41 @@ SRC_NFKC_CF = "int  10"
 SRC_NFC_CANON_ITER = "int  11"
 SRC_COUNT = "int  12"
 def setIndexData():
-'''public void setIndexData(final CharTrie.FriendAgent friendagent)
-'''
-pass
+    '''    public void setIndexData(final CharTrie.FriendAgent friendagent)
+    '''
 def getProperty():
-'''public final int getProperty(final int ch)
-'''
-pass
+    '''    public final int getProperty(final int ch)
+    '''
 def getAdditional():
-'''public int getAdditional(final int codepoint, final int column)
-'''
-pass
+    '''    public int getAdditional(final int codepoint, final int column)
+    '''
 def getAge():
-'''public VersionInfo getAge(final int codepoint)
-'''
-pass
+    '''    public VersionInfo getAge(final int codepoint)
+    '''
 def hasBinaryProperty():
-'''public boolean hasBinaryProperty(int c, final int which)
-'''
-pass
+    '''    public boolean hasBinaryProperty(int c, final int which)
+    '''
 def getSource():
-'''public final int getSource(final int which)
-'''
-pass
+    '''    public final int getSource(final int which)
+    '''
 def getRawSupplementary():
-'''public static int getRawSupplementary(final char lead, final char trail)
-'''
-pass
+    '''    public static int getRawSupplementary(final char lead, final char trail)
+    '''
 def isRuleWhiteSpace():
-'''public static boolean isRuleWhiteSpace(final int c)
-'''
-pass
+    '''    public static boolean isRuleWhiteSpace(final int c)
+    '''
 def getMaxValues():
-'''public int getMaxValues(final int column)
-'''
-pass
+    '''    public int getMaxValues(final int column)
+    '''
 def getMask():
-'''public static final int getMask(final int type)
-'''
-pass
+    '''    public static final int getMask(final int type)
+    '''
 def addPropertyStarts():
-'''public UnicodeSet addPropertyStarts(final UnicodeSet set)
-'''
-pass
+    '''    public UnicodeSet addPropertyStarts(final UnicodeSet set)
+    '''
 def upropsvec_addPropertyStarts():
-'''public void upropsvec_addPropertyStarts(final UnicodeSet set)
-'''
-pass
+    '''    public void upropsvec_addPropertyStarts(final UnicodeSet set)
+    '''
 def BinaryProperties():
-'''public BinaryProperties(final int column, final int mask)
-'''
-pass
+    '''    public BinaryProperties(final int column, final int mask)
+    '''

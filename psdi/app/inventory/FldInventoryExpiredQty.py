@@ -1,8 +1,6 @@
 def FldInventoryExpiredQty():
-'''public FldInventoryExpiredQty(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryExpiredQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

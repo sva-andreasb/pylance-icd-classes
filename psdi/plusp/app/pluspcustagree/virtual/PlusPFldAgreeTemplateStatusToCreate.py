@@ -1,8 +1,6 @@
 def PlusPFldAgreeTemplateStatusToCreate():
-'''public PlusPFldAgreeTemplateStatusToCreate(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldAgreeTemplateStatusToCreate(final MboValue mv)
+    '''
 def setDomainId():
-'''public void setDomainId(final String domainId)
-'''
-pass
+    '''    public void setDomainId(final String domainId)
+    '''

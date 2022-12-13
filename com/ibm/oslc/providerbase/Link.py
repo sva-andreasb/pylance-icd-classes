@@ -1,28 +1,21 @@
 def Link():
-'''public Link()
-'''
-pass
+    '''    public Link()
+    '''
 def getSourceNode():
-'''public final String getSourceNode()
-'''
-pass
+    '''    public final String getSourceNode()
+    '''
 def setSourceNode():
-'''public final void setSourceNode(final String id)
-'''
-pass
+    '''    public final void setSourceNode(final String id)
+    '''
 def getTargetNode():
-'''public final String getTargetNode()
-'''
-pass
+    '''    public final String getTargetNode()
+    '''
 def setTargetNode():
-'''public final void setTargetNode(final String id)
-'''
-pass
+    '''    public final void setTargetNode(final String id)
+    '''
 def isBidirectional():
-'''public final boolean isBidirectional()
-'''
-pass
+    '''    public final boolean isBidirectional()
+    '''
 def setBidirectional():
-'''public final void setBidirectional(final boolean bidirectional)
-'''
-pass
+    '''    public final void setBidirectional(final boolean bidirectional)
+    '''

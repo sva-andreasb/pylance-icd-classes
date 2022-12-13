@@ -1,8 +1,6 @@
 def CCILinkCI():
-'''public CCILinkCI(final MboSet ms)
-'''
-pass
+    '''    public CCILinkCI(final MboSet ms)
+    '''
 def getLinkOptions():
-'''public long getLinkOptions()
-'''
-pass
+    '''    public long getLinkOptions()
+    '''

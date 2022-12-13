@@ -1,62 +1,47 @@
 def AppEngineDataStoreFactory():
-'''public AppEngineDataStoreFactory()
-public AppEngineDataStoreFactory(final Builder builder)
-'''
-pass
+    '''    public AppEngineDataStoreFactory()
+    public AppEngineDataStoreFactory(final Builder builder)
+    '''
 def getDisableMemcache():
-'''public boolean getDisableMemcache()
-public final boolean getDisableMemcache()
-'''
-pass
+    '''    public boolean getDisableMemcache()
+    public final boolean getDisableMemcache()
+    '''
 def getDefaultInstance():
-'''public static AppEngineDataStoreFactory getDefaultInstance()
-'''
-pass
+    '''    public static AppEngineDataStoreFactory getDefaultInstance()
+    '''
 def keySet():
-'''public Set<String> keySet()
-'''
-pass
+    '''    public Set<String> keySet()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def get():
-'''public V get(final String key)
-'''
-pass
+    '''    public V get(final String key)
+    '''
 def set():
-'''public AppEngineDataStore<V> set(final String key, final V value)
-'''
-pass
+    '''    public AppEngineDataStore<V> set(final String key, final V value)
+    '''
 def delete():
-'''public DataStore<V> delete(final String key)
-'''
-pass
+    '''    public DataStore<V> delete(final String key)
+    '''
 def clear():
-'''public AppEngineDataStore<V> clear()
-'''
-pass
+    '''    public AppEngineDataStore<V> clear()
+    '''
 def getDataStoreFactory():
-'''public AppEngineDataStoreFactory getDataStoreFactory()
-'''
-pass
+    '''    public AppEngineDataStoreFactory getDataStoreFactory()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setDisableMemcache():
-'''public Builder setDisableMemcache(final boolean disableMemcache)
-'''
-pass
+    '''    public Builder setDisableMemcache(final boolean disableMemcache)
+    '''
 def getMemcacheExpiration():
-'''public final Expiration getMemcacheExpiration()
-'''
-pass
+    '''    public final Expiration getMemcacheExpiration()
+    '''
 def setMemcacheExpiration():
-'''public Builder setMemcacheExpiration(final Expiration memcacheExpiration)
-'''
-pass
+    '''    public Builder setMemcacheExpiration(final Expiration memcacheExpiration)
+    '''
 def build():
-'''public AppEngineDataStoreFactory build()
-'''
-pass
+    '''    public AppEngineDataStoreFactory build()
+    '''

@@ -1,8 +1,6 @@
 def FldMaxAttributeSkipCopyAttributeName():
-'''public FldMaxAttributeSkipCopyAttributeName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxAttributeSkipCopyAttributeName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

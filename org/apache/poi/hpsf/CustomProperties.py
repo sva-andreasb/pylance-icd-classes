@@ -1,89 +1,67 @@
 def CustomProperties():
-'''public CustomProperties()
-'''
-pass
+    '''    public CustomProperties()
+    '''
 def put():
-'''public CustomProperty put(final String name, final CustomProperty cp)
-public Object put(final String key, final Object value)
-'''
-pass
+    '''    public CustomProperty put(final String name, final CustomProperty cp)
+    public Object put(final String key, final Object value)
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def remove():
-'''public CustomProperty remove(final Object key)
-'''
-pass
+    '''    public CustomProperty remove(final Object key)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends String, ?> m)
-'''
-pass
+    '''    public void putAll(final Map<? extends String, ?> m)
+    '''
 def properties():
-'''public List<CustomProperty> properties()
-'''
-pass
+    '''    public List<CustomProperty> properties()
+    '''
 def values():
-'''public Collection<Object> values()
-'''
-pass
+    '''    public Collection<Object> values()
+    '''
 def entrySet():
-'''public Set<Entry<String, Object>> entrySet()
-'''
-pass
+    '''    public Set<Entry<String, Object>> entrySet()
+    '''
 def keySet():
-'''public Set keySet()
-'''
-pass
+    '''    public Set keySet()
+    '''
 def nameSet():
-'''public Set<String> nameSet()
-'''
-pass
+    '''    public Set<String> nameSet()
+    '''
 def idSet():
-'''public Set<Long> idSet()
-'''
-pass
+    '''    public Set<Long> idSet()
+    '''
 def setCodepage():
-'''public void setCodepage(final int codepage)
-'''
-pass
+    '''    public void setCodepage(final int codepage)
+    '''
 def getCodepage():
-'''public int getCodepage()
-'''
-pass
+    '''    public int getCodepage()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def isPure():
-'''public boolean isPure()
-'''
-pass
+    '''    public boolean isPure()
+    '''
 def setPure():
-'''public void setPure(final boolean isPure)
-'''
-pass
+    '''    public void setPure(final boolean isPure)
+    '''

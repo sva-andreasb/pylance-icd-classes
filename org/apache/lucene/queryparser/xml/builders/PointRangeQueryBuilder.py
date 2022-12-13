@@ -1,4 +1,3 @@
 def getQuery():
-'''public Query getQuery(final Element e)
-'''
-pass
+    '''    public Query getQuery(final Element e)
+    '''

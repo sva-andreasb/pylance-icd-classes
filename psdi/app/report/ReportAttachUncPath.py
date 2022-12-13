@@ -1,4 +1,3 @@
 def ReportAttachUncPath():
-'''public ReportAttachUncPath(final MboSet ms)
-'''
-pass
+    '''    public ReportAttachUncPath(final MboSet ms)
+    '''

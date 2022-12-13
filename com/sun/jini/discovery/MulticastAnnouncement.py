@@ -1,28 +1,21 @@
 def MulticastAnnouncement():
-'''public MulticastAnnouncement(final long sequenceNumber, final String host, final int n, String[] array, final ServiceID serviceID)
-'''
-pass
+    '''    public MulticastAnnouncement(final long sequenceNumber, final String host, final int n, String[] array, final ServiceID serviceID)
+    '''
 def getSequenceNumber():
-'''public long getSequenceNumber()
-'''
-pass
+    '''    public long getSequenceNumber()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getGroups():
-'''public String[] getGroups()
-'''
-pass
+    '''    public String[] getGroups()
+    '''
 def getServiceID():
-'''public ServiceID getServiceID()
-'''
-pass
+    '''    public ServiceID getServiceID()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

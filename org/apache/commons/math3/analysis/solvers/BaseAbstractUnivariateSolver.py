@@ -1,38 +1,29 @@
 def getMaxEvaluations():
-'''public int getMaxEvaluations()
-'''
-pass
+    '''    public int getMaxEvaluations()
+    '''
 def getEvaluations():
-'''public int getEvaluations()
-'''
-pass
+    '''    public int getEvaluations()
+    '''
 def getMin():
-'''public double getMin()
-'''
-pass
+    '''    public double getMin()
+    '''
 def getMax():
-'''public double getMax()
-'''
-pass
+    '''    public double getMax()
+    '''
 def getStartValue():
-'''public double getStartValue()
-'''
-pass
+    '''    public double getStartValue()
+    '''
 def getAbsoluteAccuracy():
-'''public double getAbsoluteAccuracy()
-'''
-pass
+    '''    public double getAbsoluteAccuracy()
+    '''
 def getRelativeAccuracy():
-'''public double getRelativeAccuracy()
-'''
-pass
+    '''    public double getRelativeAccuracy()
+    '''
 def getFunctionValueAccuracy():
-'''public double getFunctionValueAccuracy()
-'''
-pass
+    '''    public double getFunctionValueAccuracy()
+    '''
 def solve():
-'''public double solve(final int maxEval, final FUNC f, final double min, final double max, final double startValue)
-public double solve(final int maxEval, final FUNC f, final double min, final double max)
-public double solve(final int maxEval, final FUNC f, final double startValue)
-'''
-pass
+    '''    public double solve(final int maxEval, final FUNC f, final double min, final double max, final double startValue)
+    public double solve(final int maxEval, final FUNC f, final double min, final double max)
+    public double solve(final int maxEval, final FUNC f, final double startValue)
+    '''

@@ -1,16 +1,12 @@
 def getInstance():
-'''public static AutoInitCacheFactory getInstance()
-'''
-pass
+    '''    public static AutoInitCacheFactory getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCache():
-'''public MaximoCache getCache()
-'''
-pass
+    '''    public MaximoCache getCache()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

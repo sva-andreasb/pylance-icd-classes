@@ -1,32 +1,24 @@
 def getNames():
-'''public String[] getNames()
-'''
-pass
+    '''    public String[] getNames()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def getQualifier():
-'''public String[] getQualifier(final String s)
-'''
-pass
+    '''    public String[] getQualifier(final String s)
+    '''
 def getQualifierNames():
-'''public Enumeration getQualifierNames()
-'''
-pass
+    '''    public Enumeration getQualifierNames()
+    '''
 def isObsolete():
-'''public boolean isObsolete()
-'''
-pass
+    '''    public boolean isObsolete()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setQualifier():
-'''public void setQualifier(final String s, final String[] array)
-'''
-pass
+    '''    public void setQualifier(final String s, final String[] array)
+    '''

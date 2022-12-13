@@ -1,36 +1,27 @@
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def okdialog():
-'''public int okdialog()
-'''
-pass
+    '''    public int okdialog()
+    '''
 def returnFromSpellCheck():
-'''public void returnFromSpellCheck()
-'''
-pass
+    '''    public void returnFromSpellCheck()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def change():
-'''public int change()
-'''
-pass
+    '''    public int change()
+    '''
 def changeAll():
-'''public int changeAll()
-'''
-pass
+    '''    public int changeAll()
+    '''
 def ignore():
-'''public int ignore()
-'''
-pass
+    '''    public int ignore()
+    '''
 def ignoreAll():
-'''public int ignoreAll()
-'''
-pass
+    '''    public int ignoreAll()
+    '''
 def getString():
-'''public String getString(final String attribute)
-'''
-pass
+    '''    public String getString(final String attribute)
+    '''

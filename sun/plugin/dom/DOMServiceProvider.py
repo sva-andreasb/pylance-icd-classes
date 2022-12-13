@@ -1,12 +1,9 @@
 def canHandle():
-'''public boolean canHandle(final Object o)
-'''
-pass
+    '''    public boolean canHandle(final Object o)
+    '''
 def getDocument():
-'''public Document getDocument(final Object o)
-'''
-pass
+    '''    public Document getDocument(final Object o)
+    '''
 def getDOMImplementation():
-'''public DOMImplementation getDOMImplementation()
-'''
-pass
+    '''    public DOMImplementation getDOMImplementation()
+    '''

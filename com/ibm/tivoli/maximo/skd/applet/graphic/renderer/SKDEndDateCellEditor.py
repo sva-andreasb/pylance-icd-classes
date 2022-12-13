@@ -1,20 +1,15 @@
 def SKDEndDateCellEditor():
-'''public SKDEndDateCellEditor()
-'''
-pass
+    '''    public SKDEndDateCellEditor()
+    '''
 def getTableCellEditorComponent():
-'''public Component getTableCellEditorComponent(final JTable table, final Object value, final boolean isSelected, final int rowIndex, final int vColIndex)
-'''
-pass
+    '''    public Component getTableCellEditorComponent(final JTable table, final Object value, final boolean isSelected, final int rowIndex, final int vColIndex)
+    '''
 def getCellEditorValue():
-'''public Object getCellEditorValue()
-'''
-pass
+    '''    public Object getCellEditorValue()
+    '''
 def editingStopped():
-'''public void editingStopped(final ChangeEvent e)
-'''
-pass
+    '''    public void editingStopped(final ChangeEvent e)
+    '''
 def editingCanceled():
-'''public void editingCanceled(final ChangeEvent e)
-'''
-pass
+    '''    public void editingCanceled(final ChangeEvent e)
+    '''

@@ -1,8 +1,6 @@
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def TLOAMFldTransferLicAllocation():
-'''public TLOAMFldTransferLicAllocation(final MboValue mbv)
-'''
-pass
+    '''    public TLOAMFldTransferLicAllocation(final MboValue mbv)
+    '''

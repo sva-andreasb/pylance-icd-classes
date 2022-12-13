@@ -1,16 +1,12 @@
 def action():
-'''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
-'''
-pass
+    '''    public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''
 def isCollection():
-'''public boolean isCollection()
-'''
-pass
+    '''    public boolean isCollection()
+    '''
 def getRequestSchema():
-'''public JSONObject getRequestSchema()
-'''
-pass
+    '''    public JSONObject getRequestSchema()
+    '''
 def getRequestQueryParams():
-'''public Map<String, RESTParamInfo> getRequestQueryParams()
-'''
-pass
+    '''    public Map<String, RESTParamInfo> getRequestQueryParams()
+    '''

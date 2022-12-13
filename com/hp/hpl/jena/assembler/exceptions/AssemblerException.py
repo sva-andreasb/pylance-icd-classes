@@ -1,17 +1,13 @@
 def AssemblerException():
-'''public AssemblerException(final Resource root, final String string, final Throwable t)
-public AssemblerException(final Resource root, final String message)
-'''
-pass
+    '''    public AssemblerException(final Resource root, final String string, final Throwable t)
+    public AssemblerException(final Resource root, final String message)
+    '''
 def getRoot():
-'''public Resource getRoot()
-'''
-pass
+    '''    public Resource getRoot()
+    '''
 def pushDoing():
-'''public AssemblerException pushDoing(final AssemblerGroup.Frame frame)
-'''
-pass
+    '''    public AssemblerException pushDoing(final AssemblerGroup.Frame frame)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

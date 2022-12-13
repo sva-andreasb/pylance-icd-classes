@@ -1,8 +1,6 @@
 def getZone():
-'''public DateTimeZone getZone(final String anotherString)
-'''
-pass
+    '''    public DateTimeZone getZone(final String anotherString)
+    '''
 def getAvailableIDs():
-'''public Set<String> getAvailableIDs()
-'''
-pass
+    '''    public Set<String> getAvailableIDs()
+    '''

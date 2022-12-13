@@ -1,28 +1,21 @@
 def getDeviceCMYKColorSpace():
-'''public static synchronized DeviceCMYKColorSpace getDeviceCMYKColorSpace()
-'''
-pass
+    '''    public static synchronized DeviceCMYKColorSpace getDeviceCMYKColorSpace()
+    '''
 def isDeviceColorSpace():
-'''public static boolean isDeviceColorSpace(final ColorSpace cs)
-'''
-pass
+    '''    public static boolean isDeviceColorSpace(final ColorSpace cs)
+    '''
 def getCIELabColorSpaceD50():
-'''public static synchronized CIELabColorSpace getCIELabColorSpaceD50()
-'''
-pass
+    '''    public static synchronized CIELabColorSpace getCIELabColorSpaceD50()
+    '''
 def getCIELabColorSpaceD65():
-'''public static synchronized CIELabColorSpace getCIELabColorSpaceD65()
-'''
-pass
+    '''    public static synchronized CIELabColorSpace getCIELabColorSpaceD65()
+    '''
 def getColorSpaceOrigin():
-'''public static ColorSpaceOrigin getColorSpaceOrigin(final ColorSpace cs)
-'''
-pass
+    '''    public static ColorSpaceOrigin getColorSpaceOrigin(final ColorSpace cs)
+    '''
 def getProfileURI():
-'''public String getProfileURI()
-'''
-pass
+    '''    public String getProfileURI()
+    '''
 def getProfileName():
-'''public String getProfileName()
-'''
-pass
+    '''    public String getProfileName()
+    '''

@@ -1,9 +1,7 @@
 def LDAPJSSESecureSocketFactory():
-'''public LDAPJSSESecureSocketFactory()
-public LDAPJSSESecureSocketFactory(final SSLSocketFactory factory)
-'''
-pass
+    '''    public LDAPJSSESecureSocketFactory()
+    public LDAPJSSESecureSocketFactory(final SSLSocketFactory factory)
+    '''
 def createSocket():
-'''public Socket createSocket(final String s, final int n)
-'''
-pass
+    '''    public Socket createSocket(final String s, final int n)
+    '''

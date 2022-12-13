@@ -1,20 +1,15 @@
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String s)
-'''
-pass
+    '''    public void setType(final String s)
+    '''
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def setValue():
-'''public void setValue(final int i)
-'''
-pass
+    '''    public void setValue(final int i)
+    '''
 def HTMLLIElementImpl():
-'''public HTMLLIElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLLIElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

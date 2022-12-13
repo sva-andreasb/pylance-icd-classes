@@ -1,12 +1,9 @@
 def TloamSoftwareCatalog():
-'''public TloamSoftwareCatalog(final MboSet ms)
-'''
-pass
+    '''    public TloamSoftwareCatalog(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

@@ -3,238 +3,183 @@ ACTIVE_REMOTE_DATA_CONNECTION_MODE = "int  1"
 PASSIVE_LOCAL_DATA_CONNECTION_MODE = "int  2"
 PASSIVE_REMOTE_DATA_CONNECTION_MODE = "int  3"
 def FTPClient():
-'''public FTPClient()
-'''
-pass
+    '''    public FTPClient()
+    '''
 def setDataTimeout():
-'''public void setDataTimeout(final int timeout)
-'''
-pass
+    '''    public void setDataTimeout(final int timeout)
+    '''
 def setParserFactory():
-'''public void setParserFactory(final FTPFileEntryParserFactory parserFactory)
-'''
-pass
+    '''    public void setParserFactory(final FTPFileEntryParserFactory parserFactory)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def setRemoteVerificationEnabled():
-'''public void setRemoteVerificationEnabled(final boolean enable)
-'''
-pass
+    '''    public void setRemoteVerificationEnabled(final boolean enable)
+    '''
 def isRemoteVerificationEnabled():
-'''public boolean isRemoteVerificationEnabled()
-'''
-pass
+    '''    public boolean isRemoteVerificationEnabled()
+    '''
 def login():
-'''public boolean login(final String username, final String password)
-public boolean login(final String username, final String password, final String account)
-'''
-pass
+    '''    public boolean login(final String username, final String password)
+    public boolean login(final String username, final String password, final String account)
+    '''
 def logout():
-'''public boolean logout()
-'''
-pass
+    '''    public boolean logout()
+    '''
 def changeWorkingDirectory():
-'''public boolean changeWorkingDirectory(final String pathname)
-'''
-pass
+    '''    public boolean changeWorkingDirectory(final String pathname)
+    '''
 def changeToParentDirectory():
-'''public boolean changeToParentDirectory()
-'''
-pass
+    '''    public boolean changeToParentDirectory()
+    '''
 def structureMount():
-'''public boolean structureMount(final String pathname)
-'''
-pass
+    '''    public boolean structureMount(final String pathname)
+    '''
 def enterLocalActiveMode():
-'''public void enterLocalActiveMode()
-'''
-pass
+    '''    public void enterLocalActiveMode()
+    '''
 def enterLocalPassiveMode():
-'''public void enterLocalPassiveMode()
-'''
-pass
+    '''    public void enterLocalPassiveMode()
+    '''
 def enterRemoteActiveMode():
-'''public boolean enterRemoteActiveMode(final InetAddress host, final int port)
-'''
-pass
+    '''    public boolean enterRemoteActiveMode(final InetAddress host, final int port)
+    '''
 def enterRemotePassiveMode():
-'''public boolean enterRemotePassiveMode()
-'''
-pass
+    '''    public boolean enterRemotePassiveMode()
+    '''
 def getPassiveHost():
-'''public String getPassiveHost()
-'''
-pass
+    '''    public String getPassiveHost()
+    '''
 def getPassivePort():
-'''public int getPassivePort()
-'''
-pass
+    '''    public int getPassivePort()
+    '''
 def getDataConnectionMode():
-'''public int getDataConnectionMode()
-'''
-pass
+    '''    public int getDataConnectionMode()
+    '''
 def setFileType():
-'''public boolean setFileType(final int fileType)
-public boolean setFileType(final int fileType, final int formatOrByteSize)
-'''
-pass
+    '''    public boolean setFileType(final int fileType)
+    public boolean setFileType(final int fileType, final int formatOrByteSize)
+    '''
 def setFileStructure():
-'''public boolean setFileStructure(final int structure)
-'''
-pass
+    '''    public boolean setFileStructure(final int structure)
+    '''
 def setFileTransferMode():
-'''public boolean setFileTransferMode(final int mode)
-'''
-pass
+    '''    public boolean setFileTransferMode(final int mode)
+    '''
 def remoteRetrieve():
-'''public boolean remoteRetrieve(final String filename)
-'''
-pass
+    '''    public boolean remoteRetrieve(final String filename)
+    '''
 def remoteStore():
-'''public boolean remoteStore(final String filename)
-'''
-pass
+    '''    public boolean remoteStore(final String filename)
+    '''
 def remoteStoreUnique():
-'''public boolean remoteStoreUnique(final String filename)
-public boolean remoteStoreUnique()
-'''
-pass
+    '''    public boolean remoteStoreUnique(final String filename)
+    public boolean remoteStoreUnique()
+    '''
 def remoteAppend():
-'''public boolean remoteAppend(final String filename)
-'''
-pass
+    '''    public boolean remoteAppend(final String filename)
+    '''
 def completePendingCommand():
-'''public boolean completePendingCommand()
-'''
-pass
+    '''    public boolean completePendingCommand()
+    '''
 def retrieveFile():
-'''public boolean retrieveFile(final String remote, final OutputStream local)
-'''
-pass
+    '''    public boolean retrieveFile(final String remote, final OutputStream local)
+    '''
 def retrieveFileStream():
-'''public InputStream retrieveFileStream(final String remote)
-'''
-pass
+    '''    public InputStream retrieveFileStream(final String remote)
+    '''
 def storeFile():
-'''public boolean storeFile(final String remote, final InputStream local)
-'''
-pass
+    '''    public boolean storeFile(final String remote, final InputStream local)
+    '''
 def storeFileStream():
-'''public OutputStream storeFileStream(final String remote)
-'''
-pass
+    '''    public OutputStream storeFileStream(final String remote)
+    '''
 def appendFile():
-'''public boolean appendFile(final String remote, final InputStream local)
-'''
-pass
+    '''    public boolean appendFile(final String remote, final InputStream local)
+    '''
 def appendFileStream():
-'''public OutputStream appendFileStream(final String remote)
-'''
-pass
+    '''    public OutputStream appendFileStream(final String remote)
+    '''
 def storeUniqueFile():
-'''public boolean storeUniqueFile(final String remote, final InputStream local)
-public boolean storeUniqueFile(final InputStream local)
-'''
-pass
+    '''    public boolean storeUniqueFile(final String remote, final InputStream local)
+    public boolean storeUniqueFile(final InputStream local)
+    '''
 def storeUniqueFileStream():
-'''public OutputStream storeUniqueFileStream(final String remote)
-public OutputStream storeUniqueFileStream()
-'''
-pass
+    '''    public OutputStream storeUniqueFileStream(final String remote)
+    public OutputStream storeUniqueFileStream()
+    '''
 def allocate():
-'''public boolean allocate(final int bytes)
-public boolean allocate(final int bytes, final int recordSize)
-'''
-pass
+    '''    public boolean allocate(final int bytes)
+    public boolean allocate(final int bytes, final int recordSize)
+    '''
 def setRestartOffset():
-'''public void setRestartOffset(final long offset)
-'''
-pass
+    '''    public void setRestartOffset(final long offset)
+    '''
 def getRestartOffset():
-'''public long getRestartOffset()
-'''
-pass
+    '''    public long getRestartOffset()
+    '''
 def rename():
-'''public boolean rename(final String from, final String to)
-'''
-pass
+    '''    public boolean rename(final String from, final String to)
+    '''
 def abort():
-'''public boolean abort()
-'''
-pass
+    '''    public boolean abort()
+    '''
 def deleteFile():
-'''public boolean deleteFile(final String pathname)
-'''
-pass
+    '''    public boolean deleteFile(final String pathname)
+    '''
 def removeDirectory():
-'''public boolean removeDirectory(final String pathname)
-'''
-pass
+    '''    public boolean removeDirectory(final String pathname)
+    '''
 def makeDirectory():
-'''public boolean makeDirectory(final String pathname)
-'''
-pass
+    '''    public boolean makeDirectory(final String pathname)
+    '''
 def printWorkingDirectory():
-'''public String printWorkingDirectory()
-'''
-pass
+    '''    public String printWorkingDirectory()
+    '''
 def sendSiteCommand():
-'''public boolean sendSiteCommand(final String arguments)
-'''
-pass
+    '''    public boolean sendSiteCommand(final String arguments)
+    '''
 def getSystemName():
-'''public String getSystemName()
-'''
-pass
+    '''    public String getSystemName()
+    '''
 def listHelp():
-'''public String listHelp()
-public String listHelp(final String command)
-'''
-pass
+    '''    public String listHelp()
+    public String listHelp(final String command)
+    '''
 def sendNoOp():
-'''public boolean sendNoOp()
-'''
-pass
+    '''    public boolean sendNoOp()
+    '''
 def listNames():
-'''public String[] listNames(final String pathname)
-public String[] listNames()
-'''
-pass
+    '''    public String[] listNames(final String pathname)
+    public String[] listNames()
+    '''
 def listFiles():
-'''public FTPFile[] listFiles(final String parserKey, final String pathname)
-public FTPFile[] listFiles(final String pathname)
-public FTPFile[] listFiles()
-public FTPFile[] listFiles(final FTPFileListParser parser, final String pathname)
-public FTPFile[] listFiles(final FTPFileListParser parser)
-'''
-pass
+    '''    public FTPFile[] listFiles(final String parserKey, final String pathname)
+    public FTPFile[] listFiles(final String pathname)
+    public FTPFile[] listFiles()
+    public FTPFile[] listFiles(final FTPFileListParser parser, final String pathname)
+    public FTPFile[] listFiles(final FTPFileListParser parser)
+    '''
 def initiateListParsing():
-'''public FTPListParseEngine initiateListParsing()
-public FTPListParseEngine initiateListParsing(final String pathname)
-public FTPListParseEngine initiateListParsing(final String parserKey, final String pathname)
-'''
-pass
+    '''    public FTPListParseEngine initiateListParsing()
+    public FTPListParseEngine initiateListParsing(final String pathname)
+    public FTPListParseEngine initiateListParsing(final String parserKey, final String pathname)
+    '''
 def getStatus():
-'''public String getStatus()
-public String getStatus(final String pathname)
-'''
-pass
+    '''    public String getStatus()
+    public String getStatus(final String pathname)
+    '''
 def createFileList():
-'''public FTPFileList createFileList(final FTPFileEntryParser parser)
-public FTPFileList createFileList(final String pathname, final FTPFileEntryParser parser)
-'''
-pass
+    '''    public FTPFileList createFileList(final FTPFileEntryParser parser)
+    public FTPFileList createFileList(final String pathname, final FTPFileEntryParser parser)
+    '''
 def setBufferSize():
-'''public void setBufferSize(final int bufSize)
-'''
-pass
+    '''    public void setBufferSize(final int bufSize)
+    '''
 def getBufferSize():
-'''public int getBufferSize()
-'''
-pass
+    '''    public int getBufferSize()
+    '''
 def configure():
-'''public void configure(final FTPClientConfig config)
-'''
-pass
+    '''    public void configure(final FTPClientConfig config)
+    '''

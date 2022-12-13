@@ -1,65 +1,49 @@
 def PmProblem():
-'''public PmProblem(final MboSet ms)
-'''
-pass
+    '''    public PmProblem(final MboSet ms)
+    '''
 def changeStatus():
-'''public void changeStatus(String status, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(String status, final Date date, final String memo, final long accessModifier)
+    '''
 def canEnterMeterReadings():
-'''public void canEnterMeterReadings()
-public void canEnterMeterReadings(final Mbo mbo)
-'''
-pass
+    '''    public void canEnterMeterReadings()
+    public void canEnterMeterReadings(final Mbo mbo)
+    '''
 def canReportDowntime():
-'''public void canReportDowntime()
-'''
-pass
+    '''    public void canReportDowntime()
+    '''
 def getStatusHistory():
-'''public MboSetRemote getStatusHistory()
-'''
-pass
+    '''    public MboSetRemote getStatusHistory()
+    '''
 def applyTemplate():
-'''public void applyTemplate(final MboRemote templateMbo)
-'''
-pass
+    '''    public void applyTemplate(final MboRemote templateMbo)
+    '''
 def canTemplateApply():
-'''public void canTemplateApply()
-'''
-pass
+    '''    public void canTemplateApply()
+    '''
 def tkChangeMaxStatus():
-'''public void tkChangeMaxStatus(final String maxstatus)
-'''
-pass
+    '''    public void tkChangeMaxStatus(final String maxstatus)
+    '''
 def ownership():
-'''public void ownership()
-'''
-pass
+    '''    public void ownership()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def createSolution():
-'''public MboRemote createSolution()
-'''
-pass
+    '''    public MboRemote createSolution()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

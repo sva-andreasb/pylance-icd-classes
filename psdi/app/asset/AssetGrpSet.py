@@ -1,4 +1,3 @@
 def AssetGrpSet():
-'''public AssetGrpSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetGrpSet(final MboServerInterface ms)
+    '''

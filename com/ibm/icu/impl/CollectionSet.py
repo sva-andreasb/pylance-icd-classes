@@ -1,53 +1,40 @@
 def CollectionSet():
-'''public CollectionSet(final Collection<E> data)
-'''
-pass
+    '''    public CollectionSet(final Collection<E> data)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def iterator():
-'''public Iterator<E> iterator()
-'''
-pass
+    '''    public Iterator<E> iterator()
+    '''
 def toArray():
-'''public Object[] toArray()
-public <T> T[] toArray(final T[] a)
-'''
-pass
+    '''    public Object[] toArray()
+    public <T> T[] toArray(final T[] a)
+    '''
 def add():
-'''public boolean add(final E e)
-'''
-pass
+    '''    public boolean add(final E e)
+    '''
 def remove():
-'''public boolean remove(final Object o)
-'''
-pass
+    '''    public boolean remove(final Object o)
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection<?> c)
-'''
-pass
+    '''    public boolean containsAll(final Collection<?> c)
+    '''
 def addAll():
-'''public boolean addAll(final Collection<? extends E> c)
-'''
-pass
+    '''    public boolean addAll(final Collection<? extends E> c)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection<?> c)
-'''
-pass
+    '''    public boolean retainAll(final Collection<?> c)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection<?> c)
-'''
-pass
+    '''    public boolean removeAll(final Collection<?> c)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

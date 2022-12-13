@@ -1,16 +1,12 @@
 def RPCRouterServlet():
-'''public RPCRouterServlet()
-'''
-pass
+    '''    public RPCRouterServlet()
+    '''
 def doGet():
-'''public void doGet(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
-'''
-pass
+    '''    public void doGet(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
+    '''
 def doPost():
-'''public void doPost(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
-'''
-pass
+    '''    public void doPost(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,4 +1,3 @@
 def TenantReadOnlyInfo():
-'''public TenantReadOnlyInfo(final MboSet ms)
-'''
-pass
+    '''    public TenantReadOnlyInfo(final MboSet ms)
+    '''

@@ -1,16 +1,12 @@
 def FldPMFeature():
-'''public FldPMFeature(final MboValue mbv)
-'''
-pass
+    '''    public FldPMFeature(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

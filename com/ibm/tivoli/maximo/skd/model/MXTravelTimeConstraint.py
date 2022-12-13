@@ -1,17 +1,13 @@
 def getTravelTimeDuration():
-'''public IlvDuration getTravelTimeDuration()
-'''
-pass
+    '''    public IlvDuration getTravelTimeDuration()
+    '''
 def hasTravelTime():
-'''public boolean hasTravelTime()
-'''
-pass
+    '''    public boolean hasTravelTime()
+    '''
 def setTravelTimeDuration():
-'''public void setTravelTimeDuration(final IlvDuration travelTimeDuration)
-'''
-pass
+    '''    public void setTravelTimeDuration(final IlvDuration travelTimeDuration)
+    '''
 def MXTravelTimeConstraint():
-'''public MXTravelTimeConstraint(final IlvActivity fromActivity, final IlvActivity toActivity, final IlvDuration travelDurationTime)
-public MXTravelTimeConstraint(final IlvActivity fromActivity, final IlvActivity toActivity)
-'''
-pass
+    '''    public MXTravelTimeConstraint(final IlvActivity fromActivity, final IlvActivity toActivity, final IlvDuration travelDurationTime)
+    public MXTravelTimeConstraint(final IlvActivity fromActivity, final IlvActivity toActivity)
+    '''

@@ -1,8 +1,6 @@
 def FldMRMRTemplateNum():
-'''public FldMRMRTemplateNum(final MboValue mbv)
-'''
-pass
+    '''    public FldMRMRTemplateNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,36 +1,27 @@
 def FldClassSpecUseWithDefaultNumValue():
-'''public FldClassSpecUseWithDefaultNumValue(final MboValue mbv)
-'''
-pass
+    '''    public FldClassSpecUseWithDefaultNumValue(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def overrideScale():
-'''public void overrideScale()
-'''
-pass
+    '''    public void overrideScale()
+    '''
 def overrideScaleFromDomain():
-'''public void overrideScaleFromDomain(final String domainid)
-'''
-pass
+    '''    public void overrideScaleFromDomain(final String domainid)
+    '''
 def numberOfDecialPlaces():
-'''public int numberOfDecialPlaces()
-'''
-pass
+    '''    public int numberOfDecialPlaces()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def parseStringAsNumber():
-'''public Number parseStringAsNumber(String val)
-'''
-pass
+    '''    public Number parseStringAsNumber(String val)
+    '''

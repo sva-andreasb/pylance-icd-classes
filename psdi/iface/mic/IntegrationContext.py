@@ -1,108 +1,81 @@
 def isAPICall():
-'''public boolean isAPICall()
-'''
-pass
+    '''    public boolean isAPICall()
+    '''
 def isMonitorTokenAPICall():
-'''public boolean isMonitorTokenAPICall()
-'''
-pass
+    '''    public boolean isMonitorTokenAPICall()
+    '''
 def getAPICsrfToken():
-'''public String getAPICsrfToken()
-'''
-pass
+    '''    public String getAPICsrfToken()
+    '''
 def setAPICsrfToken():
-'''public void setAPICsrfToken(final String csrfToken)
-'''
-pass
+    '''    public void setAPICsrfToken(final String csrfToken)
+    '''
 def setupBranchFilter():
-'''public void setupBranchFilter(final String name, final Long id)
-'''
-pass
+    '''    public void setupBranchFilter(final String name, final Long id)
+    '''
 def getBranchFilter():
-'''public Map<String, Set<Long>> getBranchFilter()
-'''
-pass
+    '''    public Map<String, Set<Long>> getBranchFilter()
+    '''
 def setAPICall():
-'''public void setAPICall()
-'''
-pass
+    '''    public void setAPICall()
+    '''
 def getProperties():
-'''public Map<String, Object> getProperties()
-'''
-pass
+    '''    public Map<String, Object> getProperties()
+    '''
 def getProperty():
-'''public Object getProperty(final String propName)
-'''
-pass
+    '''    public Object getProperty(final String propName)
+    '''
 def getStringProperty():
-'''public String getStringProperty(final String propName)
-'''
-pass
+    '''    public String getStringProperty(final String propName)
+    '''
 def getIntegerProperty():
-'''public Integer getIntegerProperty(final String propName)
-'''
-pass
+    '''    public Integer getIntegerProperty(final String propName)
+    '''
 def getBooleanProperty():
-'''public boolean getBooleanProperty(final String propName, final boolean dflt)
-'''
-pass
+    '''    public boolean getBooleanProperty(final String propName, final boolean dflt)
+    '''
 def getLongProperty():
-'''public Long getLongProperty(final String propName)
-'''
-pass
+    '''    public Long getLongProperty(final String propName)
+    '''
 def setLongProperty():
-'''public void setLongProperty(final String propName, final long val)
-'''
-pass
+    '''    public void setLongProperty(final String propName, final long val)
+    '''
 def setIntegerProperty():
-'''public void setIntegerProperty(final String propName, final int val)
-'''
-pass
+    '''    public void setIntegerProperty(final String propName, final int val)
+    '''
 def setDoubleProperty():
-'''public void setDoubleProperty(final String propName, final double val)
-'''
-pass
+    '''    public void setDoubleProperty(final String propName, final double val)
+    '''
 def getDoubleProperty():
-'''public Double getDoubleProperty(final String propName)
-'''
-pass
+    '''    public Double getDoubleProperty(final String propName)
+    '''
 def getDateProperty():
-'''public Date getDateProperty(final String propName)
-'''
-pass
+    '''    public Date getDateProperty(final String propName)
+    '''
 def setProperty():
-'''public void setProperty(final String propName, final Object value)
-'''
-pass
+    '''    public void setProperty(final String propName, final Object value)
+    '''
 def removeProperty():
-'''public void removeProperty(final String propName)
-'''
-pass
+    '''    public void removeProperty(final String propName)
+    '''
 def setProperties():
-'''public void setProperties(final Map<String, Object> data)
-'''
-pass
+    '''    public void setProperties(final Map<String, Object> data)
+    '''
 def getCurrentContext():
-'''public static IntegrationContext getCurrentContext()
-'''
-pass
+    '''    public static IntegrationContext getCurrentContext()
+    '''
 def createCurrentContext():
-'''public static IntegrationContext createCurrentContext()
-'''
-pass
+    '''    public static IntegrationContext createCurrentContext()
+    '''
 def destroyCurrentContext():
-'''public static void destroyCurrentContext()
-'''
-pass
+    '''    public static void destroyCurrentContext()
+    '''
 def softClearContext():
-'''public void softClearContext()
-'''
-pass
+    '''    public void softClearContext()
+    '''
 def setInteractive():
-'''public void setInteractive(final boolean b)
-'''
-pass
+    '''    public void setInteractive(final boolean b)
+    '''
 def isInteractive():
-'''public boolean isInteractive()
-'''
-pass
+    '''    public boolean isInteractive()
+    '''

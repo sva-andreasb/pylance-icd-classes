@@ -1,4 +1,3 @@
 def ProcObjSet():
-'''public ProcObjSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ProcObjSet(final MboServerInterface ms)
+    '''

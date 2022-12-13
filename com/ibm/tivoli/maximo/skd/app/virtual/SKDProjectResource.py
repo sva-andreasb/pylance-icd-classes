@@ -1,12 +1,9 @@
 def SKDProjectResource():
-'''public SKDProjectResource(final MboSet ms)
-'''
-pass
+    '''    public SKDProjectResource(final MboSet ms)
+    '''
 def initValues():
-'''public void initValues()
-'''
-pass
+    '''    public void initValues()
+    '''
 def getSkdDataValResultSet():
-'''public MboSetRemote getSkdDataValResultSet()
-'''
-pass
+    '''    public MboSetRemote getSkdDataValResultSet()
+    '''

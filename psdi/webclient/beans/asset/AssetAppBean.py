@@ -1,176 +1,132 @@
 def AssetAppBean():
-'''public AssetAppBean()
-'''
-pass
+    '''    public AssetAppBean()
+    '''
 def REFRESHLIST():
-'''public int REFRESHLIST()
-'''
-pass
+    '''    public int REFRESHLIST()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def APPLYIAS():
-'''public int APPLYIAS()
-'''
-pass
+    '''    public int APPLYIAS()
+    '''
 def MOVEASSET():
-'''public int MOVEASSET()
-'''
-pass
+    '''    public int MOVEASSET()
+    '''
 def SWAPASSET():
-'''public int SWAPASSET()
-'''
-pass
+    '''    public int SWAPASSET()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def STATUSSUB():
-'''public int STATUSSUB()
-'''
-pass
+    '''    public int STATUSSUB()
+    '''
 def ALTERITEM():
-'''public int ALTERITEM()
-'''
-pass
+    '''    public int ALTERITEM()
+    '''
 def USERCUST():
-'''public int USERCUST()
-'''
-pass
+    '''    public int USERCUST()
+    '''
 def ASTLOCCOMM():
-'''public int ASTLOCCOMM()
-'''
-pass
+    '''    public int ASTLOCCOMM()
+    '''
 def DUPLICATE():
-'''public int DUPLICATE()
-'''
-pass
+    '''    public int DUPLICATE()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def recalibrateLinearAssets():
-'''public int recalibrateLinearAssets()
-'''
-pass
+    '''    public int recalibrateLinearAssets()
+    '''
 def considerDuplicateMeterSequences():
-'''public void considerDuplicateMeterSequences()
-'''
-pass
+    '''    public void considerDuplicateMeterSequences()
+    '''
 def MANAGELIB():
-'''public int MANAGELIB()
-'''
-pass
+    '''    public int MANAGELIB()
+    '''
 def MANAGEFOLD():
-'''public int MANAGEFOLD()
-'''
-pass
+    '''    public int MANAGEFOLD()
+    '''
 def ASSOCFOLD():
-'''public int ASSOCFOLD()
-'''
-pass
+    '''    public int ASSOCFOLD()
+    '''
 def ISSUEITEMS():
-'''public int ISSUEITEMS()
-'''
-pass
+    '''    public int ISSUEITEMS()
+    '''
 def METREAD():
-'''public int METREAD()
-'''
-pass
+    '''    public int METREAD()
+    '''
 def METRESET():
-'''public int METRESET()
-'''
-pass
+    '''    public int METRESET()
+    '''
 def METHIST():
-'''public int METHIST()
-'''
-pass
+    '''    public int METHIST()
+    '''
 def VIEWWOPM():
-'''public int VIEWWOPM()
-'''
-pass
+    '''    public int VIEWWOPM()
+    '''
 def checkDPAAppsAccess():
-'''public void checkDPAAppsAccess()
-'''
-pass
+    '''    public void checkDPAAppsAccess()
+    '''
 def viewdetails():
-'''public int viewdetails()
-'''
-pass
+    '''    public int viewdetails()
+    '''
 def openMaximoDiscovery():
-'''public int openMaximoDiscovery()
-'''
-pass
+    '''    public int openMaximoDiscovery()
+    '''
 def ZEROYTD():
-'''public int ZEROYTD()
-'''
-pass
+    '''    public int ZEROYTD()
+    '''
 def setValue():
-'''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def PLUSVIEWSP():
-'''public int PLUSVIEWSP()
-'''
-pass
+    '''    public int PLUSVIEWSP()
+    '''
 def convertsachildtoparent():
-'''public int convertsachildtoparent()
-'''
-pass
+    '''    public int convertsachildtoparent()
+    '''
 def createNewSA():
-'''public int createNewSA()
-'''
-pass
+    '''    public int createNewSA()
+    '''
 def addNewSAusingTempData():
-'''public int addNewSAusingTempData()
-'''
-pass
+    '''    public int addNewSAusingTempData()
+    '''
 def changeTemplateState():
-'''public int changeTemplateState()
-'''
-pass
+    '''    public int changeTemplateState()
+    '''
 def ASTDEFOP():
-'''public int ASTDEFOP()
-'''
-pass
+    '''    public int ASTDEFOP()
+    '''
 def ASTMNGOP():
-'''public int ASTMNGOP()
-'''
-pass
+    '''    public int ASTMNGOP()
+    '''
 def ASTDEFMNT():
-'''public int ASTDEFMNT()
-'''
-pass
+    '''    public int ASTDEFMNT()
+    '''
 def ASTMNGMNT():
-'''public int ASTMNGMNT()
-'''
-pass
+    '''    public int ASTMNGMNT()
+    '''
 def refreshhistory():
-'''public int refreshhistory()
-'''
-pass
+    '''    public int refreshhistory()
+    '''
 def SPLITDEP():
-'''public int SPLITDEP()
-'''
-pass
+    '''    public int SPLITDEP()
+    '''
 def MANAGEDEP():
-'''public int MANAGEDEP()
-'''
-pass
+    '''    public int MANAGEDEP()
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final String sigOption)
+    '''
 def IMPORTDIGITALDATA():
-'''public int IMPORTDIGITALDATA()
-'''
-pass
+    '''    public int IMPORTDIGITALDATA()
+    '''

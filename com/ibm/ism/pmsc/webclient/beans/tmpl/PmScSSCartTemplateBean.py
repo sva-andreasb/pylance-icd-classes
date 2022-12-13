@@ -1,8 +1,6 @@
 def PmScSSCartTemplateBean():
-'''public PmScSSCartTemplateBean()
-'''
-pass
+    '''    public PmScSSCartTemplateBean()
+    '''
 def addtemplatetocart():
-'''public int addtemplatetocart()
-'''
-pass
+    '''    public int addtemplatetocart()
+    '''

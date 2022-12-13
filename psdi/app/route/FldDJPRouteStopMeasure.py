@@ -1,8 +1,6 @@
 def FldDJPRouteStopMeasure():
-'''public FldDJPRouteStopMeasure(final MboValue mbv)
-'''
-pass
+    '''    public FldDJPRouteStopMeasure(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

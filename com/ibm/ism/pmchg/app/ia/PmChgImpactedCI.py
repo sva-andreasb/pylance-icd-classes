@@ -1,17 +1,13 @@
-COPYRIGHT = "String \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def PmChgImpactedCI():
-'''public PmChgImpactedCI(final MboSet ms)
-'''
-pass
+    '''    public PmChgImpactedCI(final MboSet ms)
+    '''
 def hasOutage():
-'''public boolean hasOutage()
-'''
-pass
+    '''    public boolean hasOutage()
+    '''
 def getImpactedCI():
-'''public CIRemote getImpactedCI()
-'''
-pass
+    '''    public CIRemote getImpactedCI()
+    '''
 def getTargetCI():
-'''public CIRemote getTargetCI()
-'''
-pass
+    '''    public CIRemote getTargetCI()
+    '''

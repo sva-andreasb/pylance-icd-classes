@@ -1,8 +1,6 @@
 def MaxIntMsgTrkSet():
-'''public MaxIntMsgTrkSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIntMsgTrkSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

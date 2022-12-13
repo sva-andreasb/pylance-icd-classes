@@ -1,16 +1,12 @@
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getOperation():
-'''public String getOperation()
-'''
-pass
+    '''    public String getOperation()
+    '''
 def getParamMap():
-'''public Map<String, String> getParamMap()
-'''
-pass
+    '''    public Map<String, String> getParamMap()
+    '''
 def getCfgPropValue():
-'''public String getCfgPropValue()
-'''
-pass
+    '''    public String getCfgPropValue()
+    '''

@@ -1,8 +1,6 @@
 def refreshList():
-'''public void refreshList()
-'''
-pass
+    '''    public void refreshList()
+    '''
 def completeAssign():
-'''public void completeAssign()
-'''
-pass
+    '''    public void completeAssign()
+    '''

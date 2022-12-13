@@ -1,8 +1,6 @@
 def FldMeterReadingIsModificationADelta():
-'''public FldMeterReadingIsModificationADelta(final MboValue mbv)
-'''
-pass
+    '''    public FldMeterReadingIsModificationADelta(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

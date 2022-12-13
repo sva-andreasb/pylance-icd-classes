@@ -1,8 +1,6 @@
 def getFilter():
-'''public static Filter<Tuple<NodeId>> getFilter(final Context context)
-'''
-pass
+    '''    public static Filter<Tuple<NodeId>> getFilter(final Context context)
+    '''
 def setFilter():
-'''public static void setFilter(final Context context, final Filter<Tuple<NodeId>> filter)
-'''
-pass
+    '''    public static void setFilter(final Context context, final Filter<Tuple<NodeId>> filter)
+    '''

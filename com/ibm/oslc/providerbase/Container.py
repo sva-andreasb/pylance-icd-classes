@@ -1,20 +1,15 @@
 def Container():
-'''public Container()
-'''
-pass
+    '''    public Container()
+    '''
 def getIpGroup():
-'''public List<IpGroup> getIpGroup()
-'''
-pass
+    '''    public List<IpGroup> getIpGroup()
+    '''
 def setIpGroup():
-'''public void setIpGroup(final List<IpGroup> ipGroups)
-'''
-pass
+    '''    public void setIpGroup(final List<IpGroup> ipGroups)
+    '''
 def getFlavor():
-'''public List<Flavor> getFlavor()
-'''
-pass
+    '''    public List<Flavor> getFlavor()
+    '''
 def setFlavor():
-'''public void setFlavor(final List<Flavor> flavors)
-'''
-pass
+    '''    public void setFlavor(final List<Flavor> flavors)
+    '''

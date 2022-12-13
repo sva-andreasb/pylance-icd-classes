@@ -1,8 +1,6 @@
 def SiteAuthSet():
-'''public SiteAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SiteAuthSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

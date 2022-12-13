@@ -1,52 +1,40 @@
 def IndexElement():
-'''public IndexElement(final String name, final Namespace namespace)
-public IndexElement(final String name)
-public IndexElement(final String name, final String uri)
-public IndexElement(final String name, final String prefix, final String uri)
-public IndexElement(final String tbname, final String ixname, final HashMap newIndex, final HashMap oldIndex)
-'''
-pass
+    '''    public IndexElement(final String name, final Namespace namespace)
+    public IndexElement(final String name)
+    public IndexElement(final String name, final String uri)
+    public IndexElement(final String name, final String prefix, final String uri)
+    public IndexElement(final String tbname, final String ixname, final HashMap newIndex, final HashMap oldIndex)
+    '''
 def getIndexName():
-'''public String getIndexName()
-'''
-pass
+    '''    public String getIndexName()
+    '''
 def getIndexAttributes():
-'''public List getIndexAttributes()
-'''
-pass
+    '''    public List getIndexAttributes()
+    '''
 def getKeys():
-'''public List getKeys()
-'''
-pass
+    '''    public List getKeys()
+    '''
 def getColNames():
-'''public String[] getColNames()
-'''
-pass
+    '''    public String[] getColNames()
+    '''
 def getAddSql():
-'''public ArrayList getAddSql(final String tbname, final String ixname, final Connection con, final Util util, HashMap oldIndex)
-'''
-pass
+    '''    public ArrayList getAddSql(final String tbname, final String ixname, final Connection con, final Util util, HashMap oldIndex)
+    '''
 def getDropSql():
-'''public ArrayList getDropSql(final String tbname, final String ixname, final Connection con, final Util util, final HashMap oldIndex)
-'''
-pass
+    '''    public ArrayList getDropSql(final String tbname, final String ixname, final Connection con, final Util util, final HashMap oldIndex)
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def getNewChanged():
-'''public String getNewChanged()
-'''
-pass
+    '''    public String getNewChanged()
+    '''
 def setNewChanged():
-'''public void setNewChanged(final String in)
-'''
-pass
+    '''    public void setNewChanged(final String in)
+    '''
 def getSequenceName():
-'''public String getSequenceName(final String table, final String column)
-'''
-pass
+    '''    public String getSequenceName(final String table, final String column)
+    '''
 def toHashmap():
-'''public HashMap toHashmap(final HashMap oldMap)
-'''
-pass
+    '''    public HashMap toHashmap(final HashMap oldMap)
+    '''

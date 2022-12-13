@@ -1,12 +1,9 @@
 def test():
-'''public JExpression test()
-'''
-pass
+    '''    public JExpression test()
+    '''
 def body():
-'''public JBlock body()
-'''
-pass
+    '''    public JBlock body()
+    '''
 def state():
-'''public void state(final JFormatter f)
-'''
-pass
+    '''    public void state(final JFormatter f)
+    '''

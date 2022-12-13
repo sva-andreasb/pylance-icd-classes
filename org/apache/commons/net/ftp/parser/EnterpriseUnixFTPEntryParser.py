@@ -1,8 +1,6 @@
 def EnterpriseUnixFTPEntryParser():
-'''public EnterpriseUnixFTPEntryParser()
-'''
-pass
+    '''    public EnterpriseUnixFTPEntryParser()
+    '''
 def parseFTPEntry():
-'''public FTPFile parseFTPEntry(final String entry)
-'''
-pass
+    '''    public FTPFile parseFTPEntry(final String entry)
+    '''

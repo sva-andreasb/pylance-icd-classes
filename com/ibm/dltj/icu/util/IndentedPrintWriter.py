@@ -1,16 +1,12 @@
 def IndentedPrintWriter():
-'''public IndentedPrintWriter(final Writer out, final int increment)
-'''
-pass
+    '''    public IndentedPrintWriter(final Writer out, final int increment)
+    '''
 def println():
-'''public void println()
-'''
-pass
+    '''    public void println()
+    '''
 def incIndent():
-'''public void incIndent()
-'''
-pass
+    '''    public void incIndent()
+    '''
 def decIndent():
-'''public void decIndent()
-'''
-pass
+    '''    public void decIndent()
+    '''

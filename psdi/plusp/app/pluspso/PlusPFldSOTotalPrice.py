@@ -1,16 +1,12 @@
 def PlusPFldSOTotalPrice():
-'''public PlusPFldSOTotalPrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldSOTotalPrice(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setCustomerCurrencyTotal():
-'''public static void setCustomerCurrencyTotal(final MboValue mboValue)
-'''
-pass
+    '''    public static void setCustomerCurrencyTotal(final MboValue mboValue)
+    '''

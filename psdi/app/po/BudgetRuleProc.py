@@ -1,8 +1,6 @@
 def BudgetRuleProc():
-'''public BudgetRuleProc(final MboSet ms)
-'''
-pass
+    '''    public BudgetRuleProc(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

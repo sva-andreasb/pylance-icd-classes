@@ -1,24 +1,18 @@
 def getInstance():
-'''public static final RESTSysActionCache getInstance()
-'''
-pass
+    '''    public static final RESTSysActionCache getInstance()
+    '''
 def getImplClass():
-'''public String getImplClass(final String name)
-'''
-pass
+    '''    public String getImplClass(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getOptionName():
-'''public String getOptionName(final String name)
-'''
-pass
+    '''    public String getOptionName(final String name)
+    '''
 def getActionInfo():
-'''public OslcActionInfo getActionInfo(final String name)
-'''
-pass
+    '''    public OslcActionInfo getActionInfo(final String name)
+    '''
 def getAllActions():
-'''public Map<String, OslcActionInfo> getAllActions()
-'''
-pass
+    '''    public Map<String, OslcActionInfo> getAllActions()
+    '''

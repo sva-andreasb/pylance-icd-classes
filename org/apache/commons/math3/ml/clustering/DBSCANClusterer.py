@@ -1,17 +1,13 @@
 def DBSCANClusterer():
-'''public DBSCANClusterer(final double eps, final int minPts)
-public DBSCANClusterer(final double eps, final int minPts, final DistanceMeasure measure)
-'''
-pass
+    '''    public DBSCANClusterer(final double eps, final int minPts)
+    public DBSCANClusterer(final double eps, final int minPts, final DistanceMeasure measure)
+    '''
 def getEps():
-'''public double getEps()
-'''
-pass
+    '''    public double getEps()
+    '''
 def getMinPts():
-'''public int getMinPts()
-'''
-pass
+    '''    public int getMinPts()
+    '''
 def cluster():
-'''public List<Cluster<T>> cluster(final Collection<T> points)
-'''
-pass
+    '''    public List<Cluster<T>> cluster(final Collection<T> points)
+    '''

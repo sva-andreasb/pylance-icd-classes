@@ -1,1 +1,1 @@
-RESERVED_PREFIX = "String  http.""
+RESERVED_PREFIX = "String  \"http.\""

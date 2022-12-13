@@ -1,25 +1,19 @@
 def isOptionalAvailable():
-'''public static boolean isOptionalAvailable()
-'''
-pass
+    '''    public static boolean isOptionalAvailable()
+    '''
 def validateVersion():
-'''public static void validateVersion()
-'''
-pass
+    '''    public static void validateVersion()
+    '''
 def listLibraries():
-'''public static File[] listLibraries()
-'''
-pass
+    '''    public static File[] listLibraries()
+    '''
 def accept():
-'''public boolean accept(final File dir, final String name)
-'''
-pass
+    '''    public boolean accept(final File dir, final String name)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def doReport():
-'''public static void doReport(final PrintStream out)
-public static void doReport(final PrintStream out, final int logLevel)
-'''
-pass
+    '''    public static void doReport(final PrintStream out)
+    public static void doReport(final PrintStream out, final int logLevel)
+    '''

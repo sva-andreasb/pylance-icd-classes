@@ -1,28 +1,21 @@
 def WrappedHashMap():
-'''public WrappedHashMap()
-'''
-pass
+    '''    public WrappedHashMap()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''
 def get():
-'''public TripleBunch get(final Object key)
-'''
-pass
+    '''    public TripleBunch get(final Object key)
+    '''
 def put():
-'''public void put(final Object key, final TripleBunch value)
-'''
-pass
+    '''    public void put(final Object key, final TripleBunch value)
+    '''
 def remove():
-'''public void remove(final Object key)
-'''
-pass
+    '''    public void remove(final Object key)
+    '''
 def keyIterator():
-'''public ExtendedIterator<Object> keyIterator()
-'''
-pass
+    '''    public ExtendedIterator<Object> keyIterator()
+    '''

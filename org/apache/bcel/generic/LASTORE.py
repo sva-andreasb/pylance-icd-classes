@@ -1,8 +1,6 @@
 def LASTORE():
-'''public LASTORE()
-'''
-pass
+    '''    public LASTORE()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

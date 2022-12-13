@@ -1,204 +1,154 @@
 def RuleBasedCollator():
-'''public RuleBasedCollator(final String rules)
-'''
-pass
+    '''    public RuleBasedCollator(final String rules)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getCollationElementIterator():
-'''public CollationElementIterator getCollationElementIterator(final String source)
-public CollationElementIterator getCollationElementIterator(final CharacterIterator source)
-public CollationElementIterator getCollationElementIterator(final UCharacterIterator source)
-'''
-pass
+    '''    public CollationElementIterator getCollationElementIterator(final String source)
+    public CollationElementIterator getCollationElementIterator(final CharacterIterator source)
+    public CollationElementIterator getCollationElementIterator(final UCharacterIterator source)
+    '''
 def isFrozen():
-'''public boolean isFrozen()
-'''
-pass
+    '''    public boolean isFrozen()
+    '''
 def freeze():
-'''public Collator freeze()
-'''
-pass
+    '''    public Collator freeze()
+    '''
 def cloneAsThawed():
-'''public RuleBasedCollator cloneAsThawed()
-'''
-pass
+    '''    public RuleBasedCollator cloneAsThawed()
+    '''
 def setHiraganaQuaternary():
-'''public void setHiraganaQuaternary(final boolean flag)
-'''
-pass
+    '''    public void setHiraganaQuaternary(final boolean flag)
+    '''
 def setHiraganaQuaternaryDefault():
-'''public void setHiraganaQuaternaryDefault()
-'''
-pass
+    '''    public void setHiraganaQuaternaryDefault()
+    '''
 def setUpperCaseFirst():
-'''public void setUpperCaseFirst(final boolean upperfirst)
-'''
-pass
+    '''    public void setUpperCaseFirst(final boolean upperfirst)
+    '''
 def setLowerCaseFirst():
-'''public void setLowerCaseFirst(final boolean lowerfirst)
-'''
-pass
+    '''    public void setLowerCaseFirst(final boolean lowerfirst)
+    '''
 def setCaseFirstDefault():
-'''public final void setCaseFirstDefault()
-'''
-pass
+    '''    public final void setCaseFirstDefault()
+    '''
 def setAlternateHandlingDefault():
-'''public void setAlternateHandlingDefault()
-'''
-pass
+    '''    public void setAlternateHandlingDefault()
+    '''
 def setCaseLevelDefault():
-'''public void setCaseLevelDefault()
-'''
-pass
+    '''    public void setCaseLevelDefault()
+    '''
 def setDecompositionDefault():
-'''public void setDecompositionDefault()
-'''
-pass
+    '''    public void setDecompositionDefault()
+    '''
 def setFrenchCollationDefault():
-'''public void setFrenchCollationDefault()
-'''
-pass
+    '''    public void setFrenchCollationDefault()
+    '''
 def setStrengthDefault():
-'''public void setStrengthDefault()
-'''
-pass
+    '''    public void setStrengthDefault()
+    '''
 def setNumericCollationDefault():
-'''public void setNumericCollationDefault()
-'''
-pass
+    '''    public void setNumericCollationDefault()
+    '''
 def setFrenchCollation():
-'''public void setFrenchCollation(final boolean flag)
-'''
-pass
+    '''    public void setFrenchCollation(final boolean flag)
+    '''
 def setAlternateHandlingShifted():
-'''public void setAlternateHandlingShifted(final boolean shifted)
-'''
-pass
+    '''    public void setAlternateHandlingShifted(final boolean shifted)
+    '''
 def setCaseLevel():
-'''public void setCaseLevel(final boolean flag)
-'''
-pass
+    '''    public void setCaseLevel(final boolean flag)
+    '''
 def setDecomposition():
-'''public void setDecomposition(final int decomposition)
-'''
-pass
+    '''    public void setDecomposition(final int decomposition)
+    '''
 def setStrength():
-'''public void setStrength(final int newStrength)
-'''
-pass
+    '''    public void setStrength(final int newStrength)
+    '''
 def setMaxVariable():
-'''public RuleBasedCollator setMaxVariable(int group)
-'''
-pass
+    '''    public RuleBasedCollator setMaxVariable(int group)
+    '''
 def getMaxVariable():
-'''public int getMaxVariable()
-'''
-pass
+    '''    public int getMaxVariable()
+    '''
 def setVariableTop():
-'''public int setVariableTop(final String varTop)
-public void setVariableTop(final int varTop)
-'''
-pass
+    '''    public int setVariableTop(final String varTop)
+    public void setVariableTop(final int varTop)
+    '''
 def setNumericCollation():
-'''public void setNumericCollation(final boolean flag)
-'''
-pass
+    '''    public void setNumericCollation(final boolean flag)
+    '''
 def setReorderCodes():
-'''public void setReorderCodes(final int... order)
-'''
-pass
+    '''    public void setReorderCodes(final int... order)
+    '''
 def getRules():
-'''public String getRules()
-public String getRules(final boolean fullrules)
-'''
-pass
+    '''    public String getRules()
+    public String getRules(final boolean fullrules)
+    '''
 def getTailoredSet():
-'''public UnicodeSet getTailoredSet()
-'''
-pass
+    '''    public UnicodeSet getTailoredSet()
+    '''
 def getContractionsAndExpansions():
-'''public void getContractionsAndExpansions(final UnicodeSet contractions, final UnicodeSet expansions, final boolean addPrefixes)
-'''
-pass
+    '''    public void getContractionsAndExpansions(final UnicodeSet contractions, final UnicodeSet expansions, final boolean addPrefixes)
+    '''
 def getCollationKey():
-'''public CollationKey getCollationKey(final String source)
-'''
-pass
+    '''    public CollationKey getCollationKey(final String source)
+    '''
 def getRawCollationKey():
-'''public RawCollationKey getRawCollationKey(final String source, final RawCollationKey key)
-'''
-pass
+    '''    public RawCollationKey getRawCollationKey(final String source, final RawCollationKey key)
+    '''
 def internalGetCEs():
-'''public long[] internalGetCEs(final CharSequence str)
-'''
-pass
+    '''    public long[] internalGetCEs(final CharSequence str)
+    '''
 def getStrength():
-'''public int getStrength()
-'''
-pass
+    '''    public int getStrength()
+    '''
 def getDecomposition():
-'''public int getDecomposition()
-'''
-pass
+    '''    public int getDecomposition()
+    '''
 def isUpperCaseFirst():
-'''public boolean isUpperCaseFirst()
-'''
-pass
+    '''    public boolean isUpperCaseFirst()
+    '''
 def isLowerCaseFirst():
-'''public boolean isLowerCaseFirst()
-'''
-pass
+    '''    public boolean isLowerCaseFirst()
+    '''
 def isAlternateHandlingShifted():
-'''public boolean isAlternateHandlingShifted()
-'''
-pass
+    '''    public boolean isAlternateHandlingShifted()
+    '''
 def isCaseLevel():
-'''public boolean isCaseLevel()
-'''
-pass
+    '''    public boolean isCaseLevel()
+    '''
 def isFrenchCollation():
-'''public boolean isFrenchCollation()
-'''
-pass
+    '''    public boolean isFrenchCollation()
+    '''
 def isHiraganaQuaternary():
-'''public boolean isHiraganaQuaternary()
-'''
-pass
+    '''    public boolean isHiraganaQuaternary()
+    '''
 def getVariableTop():
-'''public int getVariableTop()
-'''
-pass
+    '''    public int getVariableTop()
+    '''
 def getNumericCollation():
-'''public boolean getNumericCollation()
-'''
-pass
+    '''    public boolean getNumericCollation()
+    '''
 def getReorderCodes():
-'''public int[] getReorderCodes()
-'''
-pass
+    '''    public int[] getReorderCodes()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def compare():
-'''public int compare(final String source, final String target)
-'''
-pass
+    '''    public int compare(final String source, final String target)
+    '''
 def getVersion():
-'''public VersionInfo getVersion()
-'''
-pass
+    '''    public VersionInfo getVersion()
+    '''
 def getUCAVersion():
-'''public VersionInfo getUCAVersion()
-'''
-pass
+    '''    public VersionInfo getUCAVersion()
+    '''
 def getLocale():
-'''public ULocale getLocale(final ULocale.Type type)
-'''
-pass
+    '''    public ULocale getLocale(final ULocale.Type type)
+    '''

@@ -1,8 +1,6 @@
 def LinkClassSpecSet():
-'''public LinkClassSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LinkClassSpecSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

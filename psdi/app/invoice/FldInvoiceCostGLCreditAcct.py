@@ -1,12 +1,9 @@
 def FldInvoiceCostGLCreditAcct():
-'''public FldInvoiceCostGLCreditAcct(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceCostGLCreditAcct(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

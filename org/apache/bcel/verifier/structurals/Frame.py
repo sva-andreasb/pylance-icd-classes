@@ -1,29 +1,22 @@
 def Frame():
-'''public Frame(final int maxLocals, final int maxStack)
-public Frame(final LocalVariables locals, final OperandStack stack)
-'''
-pass
+    '''    public Frame(final int maxLocals, final int maxStack)
+    public Frame(final LocalVariables locals, final OperandStack stack)
+    '''
 def getClone():
-'''public Frame getClone()
-'''
-pass
+    '''    public Frame getClone()
+    '''
 def getLocals():
-'''public LocalVariables getLocals()
-'''
-pass
+    '''    public LocalVariables getLocals()
+    '''
 def getStack():
-'''public OperandStack getStack()
-'''
-pass
+    '''    public OperandStack getStack()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

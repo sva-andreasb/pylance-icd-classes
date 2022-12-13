@@ -1,44 +1,33 @@
 def setAttributes():
-'''public void setAttributes(final Attribute[] attributes)
-'''
-pass
+    '''    public void setAttributes(final Attribute[] attributes)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getAttributes():
-'''public final Attribute[] getAttributes()
-'''
-pass
+    '''    public final Attribute[] getAttributes()
+    '''
 def getConstantPool():
-'''public final ConstantPool getConstantPool()
-'''
-pass
+    '''    public final ConstantPool getConstantPool()
+    '''
 def getNameIndex():
-'''public final int getNameIndex()
-'''
-pass
+    '''    public final int getNameIndex()
+    '''
 def getSignatureIndex():
-'''public final int getSignatureIndex()
-'''
-pass
+    '''    public final int getSignatureIndex()
+    '''
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def getSignature():
-'''public final String getSignature()
-'''
-pass
+    '''    public final String getSignature()
+    '''
 def getDeclaredSignature():
-'''public final String getDeclaredSignature()
-'''
-pass
+    '''    public final String getDeclaredSignature()
+    '''
 def getAnnotations():
-'''public AnnotationGen[] getAnnotations()
-'''
-pass
+    '''    public AnnotationGen[] getAnnotations()
+    '''
 def getGenericSignature():
-'''public final String getGenericSignature()
-'''
-pass
+    '''    public final String getGenericSignature()
+    '''

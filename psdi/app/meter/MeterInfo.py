@@ -1,12 +1,9 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def MeterInfo():
-'''public MeterInfo(final String name, final String type)
-'''
-pass
+    '''    public MeterInfo(final String name, final String type)
+    '''

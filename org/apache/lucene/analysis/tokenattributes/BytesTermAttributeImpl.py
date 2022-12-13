@@ -1,32 +1,24 @@
 def getBytesRef():
-'''public BytesRef getBytesRef()
-'''
-pass
+    '''    public BytesRef getBytesRef()
+    '''
 def setBytesRef():
-'''public void setBytesRef(final BytesRef bytes)
-'''
-pass
+    '''    public void setBytesRef(final BytesRef bytes)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def copyTo():
-'''public void copyTo(final AttributeImpl target)
-'''
-pass
+    '''    public void copyTo(final AttributeImpl target)
+    '''
 def clone():
-'''public AttributeImpl clone()
-'''
-pass
+    '''    public AttributeImpl clone()
+    '''
 def reflectWith():
-'''public void reflectWith(final AttributeReflector reflector)
-'''
-pass
+    '''    public void reflectWith(final AttributeReflector reflector)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

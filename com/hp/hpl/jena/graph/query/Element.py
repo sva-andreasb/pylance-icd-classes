@@ -1,17 +1,13 @@
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def match():
-'''public boolean match(final Domain d, final Node n)
-'''
-pass
+    '''    public boolean match(final Domain d, final Node n)
+    '''
 def asNodeMatch():
-'''public Node asNodeMatch(final Domain d)
-'''
-pass
+    '''    public Node asNodeMatch(final Domain d)
+    '''

@@ -1,29 +1,22 @@
 def WrappedSQLException():
-'''public WrappedSQLException(final Exception wrapped)
-public WrappedSQLException(final String errorGroup, final String errorKey, final Object[] params, final Exception wrapped)
-'''
-pass
+    '''    public WrappedSQLException(final Exception wrapped)
+    public WrappedSQLException(final String errorGroup, final String errorKey, final Object[] params, final Exception wrapped)
+    '''
 def getErrorCode():
-'''public int getErrorCode()
-'''
-pass
+    '''    public int getErrorCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getDefaultMessage():
-'''public String getDefaultMessage()
-'''
-pass
+    '''    public String getDefaultMessage()
+    '''
 def getErrorGroup():
-'''public String getErrorGroup()
-'''
-pass
+    '''    public String getErrorGroup()
+    '''
 def getErrorKey():
-'''public String getErrorKey()
-'''
-pass
+    '''    public String getErrorKey()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''

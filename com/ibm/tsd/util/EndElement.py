@@ -1,16 +1,12 @@
 def EndElement():
-'''public EndElement(final String namespaceURI, final String sName, final String qName)
-'''
-pass
+    '''    public EndElement(final String namespaceURI, final String sName, final String qName)
+    '''
 def getNamespaceURI():
-'''public final String getNamespaceURI()
-'''
-pass
+    '''    public final String getNamespaceURI()
+    '''
 def getSName():
-'''public final String getSName()
-'''
-pass
+    '''    public final String getSName()
+    '''
 def getQName():
-'''public final String getQName()
-'''
-pass
+    '''    public final String getQName()
+    '''

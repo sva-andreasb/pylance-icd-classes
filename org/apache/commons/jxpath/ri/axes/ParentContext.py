@@ -1,28 +1,21 @@
 def ParentContext():
-'''public ParentContext(final EvalContext parentContext, final NodeTest nodeTest)
-'''
-pass
+    '''    public ParentContext(final EvalContext parentContext, final NodeTest nodeTest)
+    '''
 def getCurrentNodePointer():
-'''public NodePointer getCurrentNodePointer()
-'''
-pass
+    '''    public NodePointer getCurrentNodePointer()
+    '''
 def getCurrentPosition():
-'''public int getCurrentPosition()
-'''
-pass
+    '''    public int getCurrentPosition()
+    '''
 def getDocumentOrder():
-'''public int getDocumentOrder()
-'''
-pass
+    '''    public int getDocumentOrder()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setPosition():
-'''public boolean setPosition(final int position)
-'''
-pass
+    '''    public boolean setPosition(final int position)
+    '''
 def nextNode():
-'''public boolean nextNode()
-'''
-pass
+    '''    public boolean nextNode()
+    '''

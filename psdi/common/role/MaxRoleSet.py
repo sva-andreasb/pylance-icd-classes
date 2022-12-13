@@ -1,4 +1,3 @@
 def MaxRoleSet():
-'''public MaxRoleSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxRoleSet(final MboServerInterface ms)
+    '''

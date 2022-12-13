@@ -1,4 +1,3 @@
 def TokenLicenseSet():
-'''public TokenLicenseSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TokenLicenseSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def nanoTime():
-'''public long nanoTime()
-'''
-pass
+    '''    public long nanoTime()
+    '''

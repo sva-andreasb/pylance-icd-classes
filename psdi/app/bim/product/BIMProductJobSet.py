@@ -1,4 +1,3 @@
 def BIMProductJobSet():
-'''public BIMProductJobSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMProductJobSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def ParsedSubpatternInfo():
-'''public ParsedSubpatternInfo()
-'''
-pass
+    '''    public ParsedSubpatternInfo()
+    '''

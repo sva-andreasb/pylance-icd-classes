@@ -1,8 +1,6 @@
 def setWhereClauses():
-'''public int setWhereClauses()
-'''
-pass
+    '''    public int setWhereClauses()
+    '''
 def expbuilder():
-'''public int expbuilder()
-'''
-pass
+    '''    public int expbuilder()
+    '''

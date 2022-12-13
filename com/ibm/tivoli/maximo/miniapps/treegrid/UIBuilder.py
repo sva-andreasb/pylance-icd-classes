@@ -1,134 +1,103 @@
-Code = "String  GTGDBYVOJAWSQB""
+Code = "String  \"GTGDBYVOJAWSQB\""
 def UIBuilder():
-'''public UIBuilder()
-public UIBuilder(final Map data)
-'''
-pass
+    '''    public UIBuilder()
+    public UIBuilder(final Map data)
+    '''
 def Actions():
-'''public JSONObject Actions()
-'''
-pass
+    '''    public JSONObject Actions()
+    '''
 def Cfg():
-'''public JSONObject Cfg()
-'''
-pass
+    '''    public JSONObject Cfg()
+    '''
 def Cols():
-'''public JSONArray Cols()
-'''
-pass
+    '''    public JSONArray Cols()
+    '''
 def addCol():
-'''public JSONObject addCol()
-public JSONObject addCol(final String id)
-public JSONObject addCol(final String id, final String colLabel)
-public JSONObject addCol(final String id, final String colLabel, final JSONArray Cols)
-'''
-pass
+    '''    public JSONObject addCol()
+    public JSONObject addCol(final String id)
+    public JSONObject addCol(final String id, final String colLabel)
+    public JSONObject addCol(final String id, final String colLabel, final JSONArray Cols)
+    '''
 def Def():
-'''public JSONArray Def()
-'''
-pass
+    '''    public JSONArray Def()
+    '''
 def addDef():
-'''public JSONObject addDef()
-'''
-pass
+    '''    public JSONObject addDef()
+    '''
 def Head():
-'''public JSONArray Head()
-'''
-pass
+    '''    public JSONArray Head()
+    '''
 def Header():
-'''public JSONObject Header()
-'''
-pass
+    '''    public JSONObject Header()
+    '''
 def Lang():
-'''public JSONObject Lang()
-'''
-pass
+    '''    public JSONObject Lang()
+    '''
 def Format():
-'''public JSONObject Format()
-'''
-pass
+    '''    public JSONObject Format()
+    '''
 def Pager():
-'''public JSONObject Pager()
-'''
-pass
+    '''    public JSONObject Pager()
+    '''
 def Pagers():
-'''public JSONArray Pagers()
-'''
-pass
+    '''    public JSONArray Pagers()
+    '''
 def addPager():
-'''public JSONObject addPager()
-'''
-pass
+    '''    public JSONObject addPager()
+    '''
 def Panel():
-'''public JSONObject Panel()
-'''
-pass
+    '''    public JSONObject Panel()
+    '''
 def RightCols():
-'''public JSONArray RightCols()
-'''
-pass
+    '''    public JSONArray RightCols()
+    '''
 def addRightCol():
-'''public JSONObject addRightCol()
-public JSONObject addRightCol(final String id)
-public JSONObject addRightCol(final String id, final String label)
-'''
-pass
+    '''    public JSONObject addRightCol()
+    public JSONObject addRightCol(final String id)
+    public JSONObject addRightCol(final String id, final String label)
+    '''
 def LeftCols():
-'''public JSONArray LeftCols()
-'''
-pass
+    '''    public JSONArray LeftCols()
+    '''
 def addLeftCol():
-'''public JSONObject addLeftCol()
-public JSONObject addLeftCol(final String id)
-public JSONObject addLeftCol(final String id, final String label)
-'''
-pass
+    '''    public JSONObject addLeftCol()
+    public JSONObject addLeftCol(final String id)
+    public JSONObject addLeftCol(final String id, final String label)
+    '''
 def Solid():
-'''public JSONArray Solid()
-'''
-pass
+    '''    public JSONArray Solid()
+    '''
 def addSolid():
-'''public JSONObject addSolid()
-'''
-pass
+    '''    public JSONObject addSolid()
+    '''
 def getSolid():
-'''public JSONObject getSolid(final String id)
-'''
-pass
+    '''    public JSONObject getSolid(final String id)
+    '''
 def Toolbar():
-'''public JSONObject Toolbar()
-'''
-pass
+    '''    public JSONObject Toolbar()
+    '''
 def Zoom():
-'''public JSONArray Zoom()
-'''
-pass
+    '''    public JSONArray Zoom()
+    '''
 def addZoom():
-'''public JSONObject addZoom()
-'''
-pass
+    '''    public JSONObject addZoom()
+    '''
 def Body():
-'''public JSONArray Body()
-'''
-pass
+    '''    public JSONArray Body()
+    '''
 def addGantt():
-'''public JSONObject addGantt()
-public JSONObject addGantt(String id)
-'''
-pass
+    '''    public JSONObject addGantt()
+    public JSONObject addGantt(String id)
+    '''
 def Filter():
-'''public JSONObject Filter()
-'''
-pass
+    '''    public JSONObject Filter()
+    '''
 def addRow():
-'''public DataRow addRow()
-'''
-pass
+    '''    public DataRow addRow()
+    '''
 def Gantt():
-'''public JSONObject Gantt()
-'''
-pass
+    '''    public JSONObject Gantt()
+    '''
 def Calendars():
-'''public JSONArray Calendars()
-'''
-pass
+    '''    public JSONArray Calendars()
+    '''

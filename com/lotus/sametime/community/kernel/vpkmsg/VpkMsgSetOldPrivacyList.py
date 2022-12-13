@@ -1,4 +1,3 @@
 def VpkMsgSetOldPrivacyList():
-'''public VpkMsgSetOldPrivacyList(final int n, final STPrivacyList list)
-'''
-pass
+    '''    public VpkMsgSetOldPrivacyList(final int n, final STPrivacyList list)
+    '''

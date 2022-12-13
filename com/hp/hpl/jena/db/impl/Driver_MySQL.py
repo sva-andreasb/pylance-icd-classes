@@ -1,24 +1,18 @@
 def Driver_MySQL():
-'''public Driver_MySQL()
-'''
-pass
+    '''    public Driver_MySQL()
+    '''
 def setConnection():
-'''public void setConnection(final IDBConnection dbcon)
-'''
-pass
+    '''    public void setConnection(final IDBConnection dbcon)
+    '''
 def graphIdAlloc():
-'''public int graphIdAlloc(final String graphName)
-'''
-pass
+    '''    public int graphIdAlloc(final String graphName)
+    '''
 def graphIdDealloc():
-'''public void graphIdDealloc(final int graphId)
-'''
-pass
+    '''    public void graphIdDealloc(final int graphId)
+    '''
 def getInsertID():
-'''public int getInsertID(final String tableName)
-'''
-pass
+    '''    public int getInsertID(final String tableName)
+    '''
 def genSQLStringMatchLHS_IC():
-'''public String genSQLStringMatchLHS_IC(final String var)
-'''
-pass
+    '''    public String genSQLStringMatchLHS_IC(final String var)
+    '''

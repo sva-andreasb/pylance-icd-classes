@@ -1,5 +1,4 @@
 def UnsupportedDataTypeException():
-'''public UnsupportedDataTypeException()
-public UnsupportedDataTypeException(final String s)
-'''
-pass
+    '''    public UnsupportedDataTypeException()
+    public UnsupportedDataTypeException(final String s)
+    '''

@@ -1,33 +1,25 @@
 def DefaultCookieSpec():
-'''public DefaultCookieSpec(final String[] datepatterns, final boolean oneHeader)
-public DefaultCookieSpec()
-'''
-pass
+    '''    public DefaultCookieSpec(final String[] datepatterns, final boolean oneHeader)
+    public DefaultCookieSpec()
+    '''
 def parse():
-'''public List<Cookie> parse(final Header header, final CookieOrigin origin)
-'''
-pass
+    '''    public List<Cookie> parse(final Header header, final CookieOrigin origin)
+    '''
 def validate():
-'''public void validate(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''
 def match():
-'''public boolean match(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''
 def formatCookies():
-'''public List<Header> formatCookies(final List<Cookie> cookies)
-'''
-pass
+    '''    public List<Header> formatCookies(final List<Cookie> cookies)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def getVersionHeader():
-'''public Header getVersionHeader()
-'''
-pass
+    '''    public Header getVersionHeader()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

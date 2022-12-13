@@ -1,8 +1,6 @@
 def ESigLoginBean():
-'''public ESigLoginBean()
-'''
-pass
+    '''    public ESigLoginBean()
+    '''
 def esigok():
-'''public int esigok()
-'''
-pass
+    '''    public int esigok()
+    '''

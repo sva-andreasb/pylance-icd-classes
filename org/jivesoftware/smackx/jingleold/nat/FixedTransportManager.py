@@ -1,32 +1,24 @@
 def FixedTransportManager():
-'''public FixedTransportManager(final FixedResolver inResolver)
-'''
-pass
+    '''    public FixedTransportManager(final FixedResolver inResolver)
+    '''
 def sessionEstablished():
-'''public void sessionEstablished(final PayloadType pt, final TransportCandidate rc, final TransportCandidate lc, final JingleSession jingleSession)
-'''
-pass
+    '''    public void sessionEstablished(final PayloadType pt, final TransportCandidate rc, final TransportCandidate lc, final JingleSession jingleSession)
+    '''
 def sessionDeclined():
-'''public void sessionDeclined(final String reason, final JingleSession jingleSession)
-'''
-pass
+    '''    public void sessionDeclined(final String reason, final JingleSession jingleSession)
+    '''
 def sessionRedirected():
-'''public void sessionRedirected(final String redirection, final JingleSession jingleSession)
-'''
-pass
+    '''    public void sessionRedirected(final String redirection, final JingleSession jingleSession)
+    '''
 def sessionClosed():
-'''public void sessionClosed(final String reason, final JingleSession jingleSession)
-'''
-pass
+    '''    public void sessionClosed(final String reason, final JingleSession jingleSession)
+    '''
 def sessionClosedOnError():
-'''public void sessionClosedOnError(final XMPPException e, final JingleSession jingleSession)
-'''
-pass
+    '''    public void sessionClosedOnError(final XMPPException e, final JingleSession jingleSession)
+    '''
 def sessionMediaReceived():
-'''public void sessionMediaReceived(final JingleSession jingleSession, final String participant)
-'''
-pass
+    '''    public void sessionMediaReceived(final JingleSession jingleSession, final String participant)
+    '''
 def sessionCreated():
-'''public void sessionCreated(final JingleSession jingleSession)
-'''
-pass
+    '''    public void sessionCreated(final JingleSession jingleSession)
+    '''

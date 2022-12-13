@@ -1,12 +1,9 @@
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''
 def clearContinuousQueue():
-'''public int clearContinuousQueue()
-'''
-pass
+    '''    public int clearContinuousQueue()
+    '''
 def clearSequentialQueue():
-'''public int clearSequentialQueue()
-'''
-pass
+    '''    public int clearSequentialQueue()
+    '''

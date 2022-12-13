@@ -14,11 +14,9 @@ NOT_WRITEABLE = "int  12"
 BAD_HANDLE = "int  13"
 NESTED_EXCEPTION = "int  14"
 def SchemaTypeLoaderException():
-'''public SchemaTypeLoaderException(final String message, final String name, final String handle, final int code)
-public SchemaTypeLoaderException(final String message, final String name, final String handle, final int code, final Exception cause)
-'''
-pass
+    '''    public SchemaTypeLoaderException(final String message, final String name, final String handle, final int code)
+    public SchemaTypeLoaderException(final String message, final String name, final String handle, final int code, final Exception cause)
+    '''
 def getCode():
-'''public int getCode()
-'''
-pass
+    '''    public int getCode()
+    '''

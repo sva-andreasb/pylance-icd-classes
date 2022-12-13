@@ -1,32 +1,24 @@
 def PmCfgLifecycleStateTransition():
-'''public PmCfgLifecycleStateTransition(final MboSet ms)
-'''
-pass
+    '''    public PmCfgLifecycleStateTransition(final MboSet ms)
+    '''
 def getOriginalLCState():
-'''public PmCfgLifecycleStateRemote getOriginalLCState()
-'''
-pass
+    '''    public PmCfgLifecycleStateRemote getOriginalLCState()
+    '''
 def getOriginalState():
-'''public String getOriginalState()
-'''
-pass
+    '''    public String getOriginalState()
+    '''
 def getTargetLCState():
-'''public PmCfgLifecycleStateRemote getTargetLCState()
-'''
-pass
+    '''    public PmCfgLifecycleStateRemote getTargetLCState()
+    '''
 def getTargetState():
-'''public String getTargetState()
-'''
-pass
+    '''    public String getTargetState()
+    '''
 def setOriginalLCState():
-'''public void setOriginalLCState(final PmCfgLifecycleStateRemote lcState)
-'''
-pass
+    '''    public void setOriginalLCState(final PmCfgLifecycleStateRemote lcState)
+    '''
 def setTargetLCState():
-'''public void setTargetLCState(final PmCfgLifecycleStateRemote lcState)
-'''
-pass
+    '''    public void setTargetLCState(final PmCfgLifecycleStateRemote lcState)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

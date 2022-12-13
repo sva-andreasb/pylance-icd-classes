@@ -1,4 +1,3 @@
 def OldFileFormatException():
-'''public OldFileFormatException(final String s)
-'''
-pass
+    '''    public OldFileFormatException(final String s)
+    '''

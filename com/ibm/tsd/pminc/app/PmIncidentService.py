@@ -1,5 +1,4 @@
 def PmIncidentService():
-'''public PmIncidentService()
-public PmIncidentService(final MXServer mxServer)
-'''
-pass
+    '''    public PmIncidentService()
+    public PmIncidentService(final MXServer mxServer)
+    '''

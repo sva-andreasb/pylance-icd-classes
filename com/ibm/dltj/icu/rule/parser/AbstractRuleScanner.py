@@ -1,16 +1,12 @@
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def AbstractRuleScanner():
-'''public AbstractRuleScanner()
-'''
-pass
+    '''    public AbstractRuleScanner()
+    '''
 def getTagValueNodes():
-'''public Collection getTagValueNodes()
-'''
-pass
+    '''    public Collection getTagValueNodes()
+    '''
 def parse():
-'''public void parse(final RuleCharReader ruleCharReader)
-'''
-pass
+    '''    public void parse(final RuleCharReader ruleCharReader)
+    '''

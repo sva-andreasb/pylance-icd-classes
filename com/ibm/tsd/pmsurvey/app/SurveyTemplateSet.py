@@ -1,4 +1,3 @@
 def SurveyTemplateSet():
-'''public SurveyTemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SurveyTemplateSet(final MboServerInterface ms)
+    '''

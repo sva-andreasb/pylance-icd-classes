@@ -1,14 +1,11 @@
-OBJECTS_SAME_STRING = "String  "
+OBJECTS_SAME_STRING = "String  \"\""
 def getNumberOfDiffs():
-'''public int getNumberOfDiffs()
-'''
-pass
+    '''    public int getNumberOfDiffs()
+    '''
 def getToStringStyle():
-'''public ToStringStyle getToStringStyle()
-'''
-pass
+    '''    public ToStringStyle getToStringStyle()
+    '''
 def toString():
-'''public String toString()
-public String toString(final ToStringStyle style)
-'''
-pass
+    '''    public String toString()
+    public String toString(final ToStringStyle style)
+    '''

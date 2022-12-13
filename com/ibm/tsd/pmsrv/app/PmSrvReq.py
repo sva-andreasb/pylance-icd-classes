@@ -1,69 +1,52 @@
 def PmSrvReq():
-'''public PmSrvReq(final MboSet ms)
-'''
-pass
+    '''    public PmSrvReq(final MboSet ms)
+    '''
 def changeStatus():
-'''public void changeStatus(String status, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(String status, final Date date, final String memo, final long accessModifier)
+    '''
 def canEnterMeterReadings():
-'''public void canEnterMeterReadings()
-public void canEnterMeterReadings(final Mbo mbo)
-'''
-pass
+    '''    public void canEnterMeterReadings()
+    public void canEnterMeterReadings(final Mbo mbo)
+    '''
 def canReportDowntime():
-'''public void canReportDowntime()
-'''
-pass
+    '''    public void canReportDowntime()
+    '''
 def getStatusHistory():
-'''public MboSetRemote getStatusHistory()
-'''
-pass
+    '''    public MboSetRemote getStatusHistory()
+    '''
 def applyTemplate():
-'''public void applyTemplate(final MboRemote templateMbo)
-'''
-pass
+    '''    public void applyTemplate(final MboRemote templateMbo)
+    '''
 def ownership():
-'''public void ownership()
-'''
-pass
+    '''    public void ownership()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def canTemplateApply():
-'''public void canTemplateApply()
-'''
-pass
+    '''    public void canTemplateApply()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getPreviousSavedSolution():
-'''public String getPreviousSavedSolution()
-'''
-pass
+    '''    public String getPreviousSavedSolution()
+    '''
 def setPreviousSavedSolution():
-'''public void setPreviousSavedSolution(final String prevSolution)
-'''
-pass
+    '''    public void setPreviousSavedSolution(final String prevSolution)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

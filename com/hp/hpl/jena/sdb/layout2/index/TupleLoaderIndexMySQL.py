@@ -1,32 +1,24 @@
 def TupleLoaderIndexMySQL():
-'''public TupleLoaderIndexMySQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
-'''
-pass
+    '''    public TupleLoaderIndexMySQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''
 def getNodeColTypes():
-'''public String[] getNodeColTypes()
-'''
-pass
+    '''    public String[] getNodeColTypes()
+    '''
 def getTupleColType():
-'''public String getTupleColType()
-'''
-pass
+    '''    public String getTupleColType()
+    '''
 def getCreateTempTable():
-'''public String[] getCreateTempTable()
-'''
-pass
+    '''    public String[] getCreateTempTable()
+    '''
 def getLoadNodes():
-'''public String getLoadNodes()
-'''
-pass
+    '''    public String getLoadNodes()
+    '''
 def getLoadTuples():
-'''public String getLoadTuples()
-'''
-pass
+    '''    public String getLoadTuples()
+    '''
 def getDeleteTuples():
-'''public String getDeleteTuples()
-'''
-pass
+    '''    public String getDeleteTuples()
+    '''
 def getDeleteAllTuples():
-'''public String getDeleteAllTuples()
-'''
-pass
+    '''    public String getDeleteAllTuples()
+    '''

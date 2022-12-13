@@ -1,4 +1,3 @@
 def WFInteractionSet():
-'''public WFInteractionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFInteractionSet(final MboServerInterface ms)
+    '''

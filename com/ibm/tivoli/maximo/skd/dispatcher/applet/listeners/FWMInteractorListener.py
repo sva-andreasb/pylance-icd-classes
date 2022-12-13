@@ -1,8 +1,6 @@
 def FWMInteractorListener():
-'''public FWMInteractorListener(final FWMActionsFacade actionsFacade)
-'''
-pass
+    '''    public FWMInteractorListener(final FWMActionsFacade actionsFacade)
+    '''
 def interactorChanged():
-'''public void interactorChanged(final InteractorChangedEvent event)
-'''
-pass
+    '''    public void interactorChanged(final InteractorChangedEvent event)
+    '''

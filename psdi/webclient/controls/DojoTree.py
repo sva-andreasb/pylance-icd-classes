@@ -1,106 +1,80 @@
-DOJO_TREE_GRID_ATTR = "String  grid""
-ROOT_NODE = "String  ___ROOTNODE___""
+DOJO_TREE_GRID_ATTR = "String  \"grid\""
+ROOT_NODE = "String  \"___ROOTNODE___\""
 def DojoTree():
-'''public DojoTree()
-'''
-pass
+    '''    public DojoTree()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def getRootMbo():
-'''public MboRemote getRootMbo()
-'''
-pass
+    '''    public MboRemote getRootMbo()
+    '''
 def getColumns():
-'''public List<BaseInstance> getColumns()
-'''
-pass
+    '''    public List<BaseInstance> getColumns()
+    '''
 def dropableObjects():
-'''public JSONObject dropableObjects()
-'''
-pass
+    '''    public JSONObject dropableObjects()
+    '''
 def hasDragNDrop():
-'''public boolean hasDragNDrop()
-'''
-pass
+    '''    public boolean hasDragNDrop()
+    '''
 def hasCheckBoxes():
-'''public boolean hasCheckBoxes()
-'''
-pass
+    '''    public boolean hasCheckBoxes()
+    '''
 def getRootNode():
-'''public DojoTreeNode getRootNode()
-'''
-pass
+    '''    public DojoTreeNode getRootNode()
+    '''
 def getSelectedNode():
-'''public DojoTreeNode getSelectedNode()
-'''
-pass
+    '''    public DojoTreeNode getSelectedNode()
+    '''
 def mustUpdateSelectedNode():
-'''public boolean mustUpdateSelectedNode()
-'''
-pass
+    '''    public boolean mustUpdateSelectedNode()
+    '''
 def pasteMbo():
-'''public int pasteMbo()
-'''
-pass
+    '''    public int pasteMbo()
+    '''
 def copyMbo():
-'''public int copyMbo()
-'''
-pass
+    '''    public int copyMbo()
+    '''
 def clickEvent():
-'''public int clickEvent()
-'''
-pass
+    '''    public int clickEvent()
+    '''
 def evaluate():
-'''public boolean evaluate(final Object column)
-'''
-pass
+    '''    public boolean evaluate(final Object column)
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def selectNode():
-'''public int selectNode()
-'''
-pass
+    '''    public int selectNode()
+    '''
 def setDojoTreeBeanListener():
-'''public void setDojoTreeBeanListener(final DojoTreeBeanListener toSet)
-'''
-pass
+    '''    public void setDojoTreeBeanListener(final DojoTreeBeanListener toSet)
+    '''
 def getDojoTreeBeanListener():
-'''public DojoTreeBeanListener getDojoTreeBeanListener()
-'''
-pass
+    '''    public DojoTreeBeanListener getDojoTreeBeanListener()
+    '''
 def getConditionalProperties():
-'''public HashMap<String, TreeMap<Integer, String[]>> getConditionalProperties(final MboRemote representedObject)
-'''
-pass
+    '''    public HashMap<String, TreeMap<Integer, String[]>> getConditionalProperties(final MboRemote representedObject)
+    '''
 def getCheckedNodes():
-'''public List<DojoTreeNode> getCheckedNodes()
-'''
-pass
+    '''    public List<DojoTreeNode> getCheckedNodes()
+    '''
 def getFetchChildrenSize():
-'''public int getFetchChildrenSize()
-'''
-pass
+    '''    public int getFetchChildrenSize()
+    '''
 def getFetchChildrenLimit():
-'''public int getFetchChildrenLimit()
-'''
-pass
+    '''    public int getFetchChildrenLimit()
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''
 def isGrid():
-'''public boolean isGrid()
-'''
-pass
+    '''    public boolean isGrid()
+    '''

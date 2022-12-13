@@ -1,16 +1,12 @@
 def SparePartsBean():
-'''public SparePartsBean()
-'''
-pass
+    '''    public SparePartsBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def setValue():
-'''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-'''
-pass
+    '''    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''

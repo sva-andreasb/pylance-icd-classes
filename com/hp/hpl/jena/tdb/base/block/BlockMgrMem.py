@@ -1,44 +1,33 @@
 def allocateId():
-'''public int allocateId()
-'''
-pass
+    '''    public int allocateId()
+    '''
 def allocateBuffer():
-'''public ByteBuffer allocateBuffer(final int id)
-'''
-pass
+    '''    public ByteBuffer allocateBuffer(final int id)
+    '''
 def get():
-'''public ByteBuffer get(final int id)
-'''
-pass
+    '''    public ByteBuffer get(final int id)
+    '''
 def valid():
-'''public boolean valid(final int id)
-'''
-pass
+    '''    public boolean valid(final int id)
+    '''
 def put():
-'''public void put(final int id, ByteBuffer block)
-'''
-pass
+    '''    public void put(final int id, ByteBuffer block)
+    '''
 def freeBlock():
-'''public void freeBlock(final int id)
-'''
-pass
+    '''    public void freeBlock(final int id)
+    '''
 def sync():
-'''public void sync(final boolean force)
-'''
-pass
+    '''    public void sync(final boolean force)
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

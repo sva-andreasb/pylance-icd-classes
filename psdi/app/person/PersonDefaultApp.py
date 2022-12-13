@@ -1,4 +1,3 @@
 def PersonDefaultApp():
-'''public PersonDefaultApp(final MboSet ms)
-'''
-pass
+    '''    public PersonDefaultApp(final MboSet ms)
+    '''

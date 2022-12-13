@@ -1,5 +1,4 @@
 def NoUsableTargetException():
-'''public NoUsableTargetException()
-public NoUsableTargetException(final String message)
-'''
-pass
+    '''    public NoUsableTargetException()
+    public NoUsableTargetException(final String message)
+    '''

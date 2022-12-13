@@ -1,8 +1,6 @@
 def FldServRecTransPoLinenum():
-'''public FldServRecTransPoLinenum(final MboValue mbv)
-'''
-pass
+    '''    public FldServRecTransPoLinenum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

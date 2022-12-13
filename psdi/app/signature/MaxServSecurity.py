@@ -1,8 +1,6 @@
 def MaxServSecurity():
-'''public MaxServSecurity(final MboSet ms)
-'''
-pass
+    '''    public MaxServSecurity(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

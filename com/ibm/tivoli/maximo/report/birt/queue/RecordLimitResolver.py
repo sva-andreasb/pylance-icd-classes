@@ -1,8 +1,6 @@
 def RecordLimitResolver():
-'''public RecordLimitResolver(final ReportSecurityLimits limits)
-'''
-pass
+    '''    public RecordLimitResolver(final ReportSecurityLimits limits)
+    '''
 def resolve():
-'''public String resolve(final String in)
-'''
-pass
+    '''    public String resolve(final String in)
+    '''

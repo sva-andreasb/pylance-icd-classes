@@ -4,64 +4,50 @@ ACK = "short  1"
 PADDED = "short  8"
 PRIORITY = "short  32"
 def Http2Flags():
-'''public Http2Flags()
-public Http2Flags(final short value)
-'''
-pass
+    '''    public Http2Flags()
+    public Http2Flags(final short value)
+    '''
 def value():
-'''public short value()
-'''
-pass
+    '''    public short value()
+    '''
 def endOfStream():
-'''public boolean endOfStream()
-public Http2Flags endOfStream(final boolean endOfStream)
-'''
-pass
+    '''    public boolean endOfStream()
+    public Http2Flags endOfStream(final boolean endOfStream)
+    '''
 def endOfHeaders():
-'''public boolean endOfHeaders()
-public Http2Flags endOfHeaders(final boolean endOfHeaders)
-'''
-pass
+    '''    public boolean endOfHeaders()
+    public Http2Flags endOfHeaders(final boolean endOfHeaders)
+    '''
 def priorityPresent():
-'''public boolean priorityPresent()
-public Http2Flags priorityPresent(final boolean priorityPresent)
-'''
-pass
+    '''    public boolean priorityPresent()
+    public Http2Flags priorityPresent(final boolean priorityPresent)
+    '''
 def ack():
-'''public boolean ack()
-public Http2Flags ack(final boolean ack)
-'''
-pass
+    '''    public boolean ack()
+    public Http2Flags ack(final boolean ack)
+    '''
 def paddingPresent():
-'''public boolean paddingPresent()
-public Http2Flags paddingPresent(final boolean paddingPresent)
-'''
-pass
+    '''    public boolean paddingPresent()
+    public Http2Flags paddingPresent(final boolean paddingPresent)
+    '''
 def getNumPriorityBytes():
-'''public int getNumPriorityBytes()
-'''
-pass
+    '''    public int getNumPriorityBytes()
+    '''
 def getPaddingPresenceFieldLength():
-'''public int getPaddingPresenceFieldLength()
-'''
-pass
+    '''    public int getPaddingPresenceFieldLength()
+    '''
 def setFlag():
-'''public Http2Flags setFlag(final boolean on, final short mask)
-'''
-pass
+    '''    public Http2Flags setFlag(final boolean on, final short mask)
+    '''
 def isFlagSet():
-'''public boolean isFlagSet(final short mask)
-'''
-pass
+    '''    public boolean isFlagSet(final short mask)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

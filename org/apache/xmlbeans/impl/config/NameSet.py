@@ -1,24 +1,18 @@
 def union():
-'''public NameSet union(final NameSet with)
-'''
-pass
+    '''    public NameSet union(final NameSet with)
+    '''
 def intersect():
-'''public NameSet intersect(final NameSet with)
-'''
-pass
+    '''    public NameSet intersect(final NameSet with)
+    '''
 def substractFrom():
-'''public NameSet substractFrom(final NameSet from)
-'''
-pass
+    '''    public NameSet substractFrom(final NameSet from)
+    '''
 def substract():
-'''public NameSet substract(final NameSet what)
-'''
-pass
+    '''    public NameSet substract(final NameSet what)
+    '''
 def invert():
-'''public NameSet invert()
-'''
-pass
+    '''    public NameSet invert()
+    '''
 def contains():
-'''public boolean contains(final String name)
-'''
-pass
+    '''    public boolean contains(final String name)
+    '''

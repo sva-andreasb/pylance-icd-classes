@@ -1,8 +1,6 @@
 def FldCommonContractLineStatus():
-'''public FldCommonContractLineStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonContractLineStatus(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,8 +1,6 @@
 def BBChg():
-'''public BBChg(final MboSet ms)
-'''
-pass
+    '''    public BBChg(final MboSet ms)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''

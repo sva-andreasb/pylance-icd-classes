@@ -1,13 +1,10 @@
 def JobNotFoundException():
-'''public JobNotFoundException(final String jobid, final OperationException e)
-public JobNotFoundException(final String jobid)
-'''
-pass
+    '''    public JobNotFoundException(final String jobid, final OperationException e)
+    public JobNotFoundException(final String jobid)
+    '''
 def getJobId():
-'''public String getJobId()
-'''
-pass
+    '''    public String getJobId()
+    '''
 def getRestStatusCode():
-'''public int getRestStatusCode()
-'''
-pass
+    '''    public int getRestStatusCode()
+    '''

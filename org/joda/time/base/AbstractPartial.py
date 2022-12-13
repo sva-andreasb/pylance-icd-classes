@@ -1,64 +1,48 @@
 def getFieldType():
-'''public DateTimeFieldType getFieldType(final int n)
-'''
-pass
+    '''    public DateTimeFieldType getFieldType(final int n)
+    '''
 def getFieldTypes():
-'''public DateTimeFieldType[] getFieldTypes()
-'''
-pass
+    '''    public DateTimeFieldType[] getFieldTypes()
+    '''
 def getField():
-'''public DateTimeField getField(final int n)
-'''
-pass
+    '''    public DateTimeField getField(final int n)
+    '''
 def getFields():
-'''public DateTimeField[] getFields()
-'''
-pass
+    '''    public DateTimeField[] getFields()
+    '''
 def getValues():
-'''public int[] getValues()
-'''
-pass
+    '''    public int[] getValues()
+    '''
 def get():
-'''public int get(final DateTimeFieldType dateTimeFieldType)
-'''
-pass
+    '''    public int get(final DateTimeFieldType dateTimeFieldType)
+    '''
 def isSupported():
-'''public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
-'''
-pass
+    '''    public boolean isSupported(final DateTimeFieldType dateTimeFieldType)
+    '''
 def indexOf():
-'''public int indexOf(final DateTimeFieldType dateTimeFieldType)
-'''
-pass
+    '''    public int indexOf(final DateTimeFieldType dateTimeFieldType)
+    '''
 def toDateTime():
-'''public DateTime toDateTime(final ReadableInstant readableInstant)
-'''
-pass
+    '''    public DateTime toDateTime(final ReadableInstant readableInstant)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def compareTo():
-'''public int compareTo(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public int compareTo(final ReadablePartial readablePartial)
+    '''
 def isAfter():
-'''public boolean isAfter(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public boolean isAfter(final ReadablePartial readablePartial)
+    '''
 def isBefore():
-'''public boolean isBefore(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public boolean isBefore(final ReadablePartial readablePartial)
+    '''
 def isEqual():
-'''public boolean isEqual(final ReadablePartial readablePartial)
-'''
-pass
+    '''    public boolean isEqual(final ReadablePartial readablePartial)
+    '''
 def toString():
-'''public String toString(final DateTimeFormatter dateTimeFormatter)
-'''
-pass
+    '''    public String toString(final DateTimeFormatter dateTimeFormatter)
+    '''

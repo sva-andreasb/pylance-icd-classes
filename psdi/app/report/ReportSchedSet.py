@@ -1,4 +1,3 @@
 def ReportSchedSet():
-'''public ReportSchedSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportSchedSet(final MboServerInterface ms)
+    '''

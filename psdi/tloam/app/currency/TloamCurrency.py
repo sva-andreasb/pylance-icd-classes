@@ -1,8 +1,6 @@
 def TloamCurrency():
-'''public TloamCurrency(final MboSet ms)
-'''
-pass
+    '''    public TloamCurrency(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

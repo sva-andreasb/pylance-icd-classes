@@ -1,91 +1,69 @@
 def ParamInfo():
-'''public ParamInfo(final String paramName, final boolean returnParam)
-public ParamInfo(final String paramName)
-public ParamInfo(final String paramName, final String mboName)
-public ParamInfo(final String paramName, final String mboName, final boolean returnParam)
-'''
-pass
+    '''    public ParamInfo(final String paramName, final boolean returnParam)
+    public ParamInfo(final String paramName)
+    public ParamInfo(final String paramName, final String mboName)
+    public ParamInfo(final String paramName, final String mboName, final boolean returnParam)
+    '''
 def isParamHttpRequest():
-'''public boolean isParamHttpRequest()
-'''
-pass
+    '''    public boolean isParamHttpRequest()
+    '''
 def setParamHttpRequest():
-'''public void setParamHttpRequest()
-'''
-pass
+    '''    public void setParamHttpRequest()
+    '''
 def isParamByteArray():
-'''public boolean isParamByteArray()
-'''
-pass
+    '''    public boolean isParamByteArray()
+    '''
 def getMosName():
-'''public String getMosName()
-'''
-pass
+    '''    public String getMosName()
+    '''
 def getOwnerName():
-'''public String getOwnerName()
-'''
-pass
+    '''    public String getOwnerName()
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def isQbe():
-'''public boolean isQbe()
-'''
-pass
+    '''    public boolean isQbe()
+    '''
 def isParamUserInfo():
-'''public boolean isParamUserInfo()
-'''
-pass
+    '''    public boolean isParamUserInfo()
+    '''
 def isParamMXTransaction():
-'''public boolean isParamMXTransaction()
-'''
-pass
+    '''    public boolean isParamMXTransaction()
+    '''
 def isParamList():
-'''public boolean isParamList()
-'''
-pass
+    '''    public boolean isParamList()
+    '''
 def isParamMap():
-'''public boolean isParamMap()
-'''
-pass
+    '''    public boolean isParamMap()
+    '''
 def isParamArray():
-'''public boolean isParamArray()
-'''
-pass
+    '''    public boolean isParamArray()
+    '''
 def getParamCompType():
-'''public Class getParamCompType()
-'''
-pass
+    '''    public Class getParamCompType()
+    '''
 def getParamType():
-'''public Class getParamType()
-'''
-pass
+    '''    public Class getParamType()
+    '''
 def getMboName():
-'''public String getMboName()
-'''
-pass
+    '''    public String getMboName()
+    '''
 def getParamName():
-'''public String getParamName()
-'''
-pass
+    '''    public String getParamName()
+    '''
 def isParamMbo():
-'''public boolean isParamMbo()
-'''
-pass
+    '''    public boolean isParamMbo()
+    '''
 def isParamMboSet():
-'''public boolean isParamMboSet()
-'''
-pass
+    '''    public boolean isParamMboSet()
+    '''
 def isReturnParam():
-'''public boolean isReturnParam()
-'''
-pass
+    '''    public boolean isReturnParam()
+    '''
 def setParamSubType():
-'''public void setParamSubType(final String subType)
-'''
-pass
+    '''    public void setParamSubType(final String subType)
+    '''
 def getParamSubType():
-'''public String getParamSubType()
-'''
-pass
+    '''    public String getParamSubType()
+    '''

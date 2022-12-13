@@ -1,20 +1,15 @@
 def IoTFCronTask():
-'''public IoTFCronTask()
-'''
-pass
+    '''    public IoTFCronTask()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''

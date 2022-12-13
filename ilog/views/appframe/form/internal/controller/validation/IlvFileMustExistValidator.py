@@ -1,8 +1,6 @@
 def IlvFileMustExistValidator():
-'''public IlvFileMustExistValidator()
-'''
-pass
+    '''    public IlvFileMustExistValidator()
+    '''
 def read():
-'''public void read(final Element element)
-'''
-pass
+    '''    public void read(final Element element)
+    '''

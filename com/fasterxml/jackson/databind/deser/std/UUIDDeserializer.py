@@ -1,4 +1,3 @@
 def UUIDDeserializer():
-'''public UUIDDeserializer()
-'''
-pass
+    '''    public UUIDDeserializer()
+    '''

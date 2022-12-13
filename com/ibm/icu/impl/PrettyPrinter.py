@@ -1,48 +1,36 @@
 def PrettyPrinter():
-'''public PrettyPrinter()
-'''
-pass
+    '''    public PrettyPrinter()
+    '''
 def getQuoter():
-'''public Transliterator getQuoter()
-'''
-pass
+    '''    public Transliterator getQuoter()
+    '''
 def setQuoter():
-'''public PrettyPrinter setQuoter(final Transliterator quoter)
-'''
-pass
+    '''    public PrettyPrinter setQuoter(final Transliterator quoter)
+    '''
 def isCompressRanges():
-'''public boolean isCompressRanges()
-'''
-pass
+    '''    public boolean isCompressRanges()
+    '''
 def setCompressRanges():
-'''public PrettyPrinter setCompressRanges(final boolean compressRanges)
-'''
-pass
+    '''    public PrettyPrinter setCompressRanges(final boolean compressRanges)
+    '''
 def getOrdering():
-'''public Comparator getOrdering()
-'''
-pass
+    '''    public Comparator getOrdering()
+    '''
 def setOrdering():
-'''public PrettyPrinter setOrdering(final Comparator ordering)
-'''
-pass
+    '''    public PrettyPrinter setOrdering(final Comparator ordering)
+    '''
 def getSpaceComparator():
-'''public Comparator getSpaceComparator()
-'''
-pass
+    '''    public Comparator getSpaceComparator()
+    '''
 def setSpaceComparator():
-'''public PrettyPrinter setSpaceComparator(final Comparator spaceComp)
-'''
-pass
+    '''    public PrettyPrinter setSpaceComparator(final Comparator spaceComp)
+    '''
 def getToQuote():
-'''public UnicodeSet getToQuote()
-'''
-pass
+    '''    public UnicodeSet getToQuote()
+    '''
 def setToQuote():
-'''public PrettyPrinter setToQuote(UnicodeSet toQuote)
-'''
-pass
+    '''    public PrettyPrinter setToQuote(UnicodeSet toQuote)
+    '''
 def toPattern():
-'''public String toPattern(final UnicodeSet uset)
-'''
-pass
+    '''    public String toPattern(final UnicodeSet uset)
+    '''

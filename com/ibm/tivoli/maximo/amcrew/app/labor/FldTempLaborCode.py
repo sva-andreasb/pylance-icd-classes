@@ -1,12 +1,9 @@
 def FldTempLaborCode():
-'''public FldTempLaborCode(final MboValue mbv)
-'''
-pass
+    '''    public FldTempLaborCode(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

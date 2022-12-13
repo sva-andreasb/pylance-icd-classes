@@ -1,5 +1,4 @@
 def DoubleHolder():
-'''public DoubleHolder()
-public DoubleHolder(final double value)
-'''
-pass
+    '''    public DoubleHolder()
+    public DoubleHolder(final double value)
+    '''

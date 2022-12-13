@@ -1,20 +1,15 @@
 def MaxVars():
-'''public MaxVars(final MboSet ms)
-'''
-pass
+    '''    public MaxVars(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def updateSiteVarFromOrg():
-'''public void updateSiteVarFromOrg(final String attributeName, final String val)
-'''
-pass
+    '''    public void updateSiteVarFromOrg(final String attributeName, final String val)
+    '''

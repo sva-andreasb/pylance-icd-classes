@@ -1,16 +1,12 @@
 def getTag():
-'''public final byte getTag()
-'''
-pass
+    '''    public final byte getTag()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def copy():
-'''public Constant copy()
-'''
-pass
+    '''    public Constant copy()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

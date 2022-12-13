@@ -1,33 +1,25 @@
 def AttrNSImpl():
-'''public AttrNSImpl()
-public AttrNSImpl(final CoreDocumentImpl coreDocumentImpl, final String namespaceURI, final String s, final String localName)
-'''
-pass
+    '''    public AttrNSImpl()
+    public AttrNSImpl(final CoreDocumentImpl coreDocumentImpl, final String namespaceURI, final String s, final String localName)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String str)
-'''
-pass
+    '''    public void setPrefix(final String str)
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''
 def isDerivedFrom():
-'''public boolean isDerivedFrom(final String s, final String s2, final int n)
-'''
-pass
+    '''    public boolean isDerivedFrom(final String s, final String s2, final int n)
+    '''
 def getTypeNamespace():
-'''public String getTypeNamespace()
-'''
-pass
+    '''    public String getTypeNamespace()
+    '''

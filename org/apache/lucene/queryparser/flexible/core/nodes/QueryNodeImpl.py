@@ -1,66 +1,50 @@
-PLAINTEXT_FIELD_NAME = "String  _plain""
+PLAINTEXT_FIELD_NAME = "String  \"_plain\""
 def QueryNodeImpl():
-'''public QueryNodeImpl()
-'''
-pass
+    '''    public QueryNodeImpl()
+    '''
 def add():
-'''public final void add(final QueryNode child)
-public final void add(final List<QueryNode> children)
-'''
-pass
+    '''    public final void add(final QueryNode child)
+    public final void add(final List<QueryNode> children)
+    '''
 def isLeaf():
-'''public boolean isLeaf()
-'''
-pass
+    '''    public boolean isLeaf()
+    '''
 def set():
-'''public final void set(final List<QueryNode> children)
-'''
-pass
+    '''    public final void set(final List<QueryNode> children)
+    '''
 def cloneTree():
-'''public QueryNode cloneTree()
-'''
-pass
+    '''    public QueryNode cloneTree()
+    '''
 def clone():
-'''public QueryNode clone()
-'''
-pass
+    '''    public QueryNode clone()
+    '''
 def getChildren():
-'''public final List<QueryNode> getChildren()
-'''
-pass
+    '''    public final List<QueryNode> getChildren()
+    '''
 def setTag():
-'''public void setTag(final String tagName, final Object value)
-'''
-pass
+    '''    public void setTag(final String tagName, final Object value)
+    '''
 def unsetTag():
-'''public void unsetTag(final String tagName)
-'''
-pass
+    '''    public void unsetTag(final String tagName)
+    '''
 def containsTag():
-'''public boolean containsTag(final String tagName)
-'''
-pass
+    '''    public boolean containsTag(final String tagName)
+    '''
 def getTag():
-'''public Object getTag(final String tagName)
-'''
-pass
+    '''    public Object getTag(final String tagName)
+    '''
 def getParent():
-'''public QueryNode getParent()
-'''
-pass
+    '''    public QueryNode getParent()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getTagMap():
-'''public Map<String, Object> getTagMap()
-'''
-pass
+    '''    public Map<String, Object> getTagMap()
+    '''
 def removeChildren():
-'''public void removeChildren(final QueryNode childNode)
-'''
-pass
+    '''    public void removeChildren(final QueryNode childNode)
+    '''
 def removeFromParent():
-'''public void removeFromParent()
-'''
-pass
+    '''    public void removeFromParent()
+    '''

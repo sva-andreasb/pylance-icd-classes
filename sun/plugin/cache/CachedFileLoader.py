@@ -1,47 +1,36 @@
 def CachedFileLoader():
-'''public CachedFileLoader(final URL url)
-'''
-pass
+    '''    public CachedFileLoader(final URL url)
+    '''
 def getFileSize():
-'''public long getFileSize()
-'''
-pass
+    '''    public long getFileSize()
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def setDataFile():
-'''public void setDataFile(final File dataFile)
-'''
-pass
+    '''    public void setDataFile(final File dataFile)
+    '''
 def setIndexFile():
-'''public void setIndexFile(final File indexFile)
-'''
-pass
+    '''    public void setIndexFile(final File indexFile)
+    '''
 def setLastModify():
-'''public void setLastModify(final long lastModified)
-'''
-pass
+    '''    public void setLastModify(final long lastModified)
+    '''
 def setExpiration():
-'''public void setExpiration(final long expiration)
-'''
-pass
+    '''    public void setExpiration(final long expiration)
+    '''
 def setHeaders():
-'''public void setHeaders(final MessageHeader headerFields)
-'''
-pass
+    '''    public void setHeaders(final MessageHeader headerFields)
+    '''
 def load():
-'''public CachedFile load()
-'''
-pass
+    '''    public CachedFile load()
+    '''
 def run():
-'''public Object run()
-public Object run()
-public Object run()
-public Object run()
-'''
-pass
+    '''    public Object run()
+    public Object run()
+    public Object run()
+    public Object run()
+    '''
 def writeHeaders():
-'''public void writeHeaders(final RandomAccessFile randomAccessFile)
-'''
-pass
+    '''    public void writeHeaders(final RandomAccessFile randomAccessFile)
+    '''

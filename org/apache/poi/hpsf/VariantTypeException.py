@@ -1,12 +1,9 @@
 def VariantTypeException():
-'''public VariantTypeException(final long variantType, final Object value, final String msg)
-'''
-pass
+    '''    public VariantTypeException(final long variantType, final Object value, final String msg)
+    '''
 def getVariantType():
-'''public long getVariantType()
-'''
-pass
+    '''    public long getVariantType()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''

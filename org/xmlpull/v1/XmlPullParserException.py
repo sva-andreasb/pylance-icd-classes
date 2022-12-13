@@ -1,21 +1,16 @@
 def XmlPullParserException():
-'''public XmlPullParserException(final String s)
-public XmlPullParserException(final String msg, final XmlPullParser parser, final Throwable chain)
-'''
-pass
+    '''    public XmlPullParserException(final String s)
+    public XmlPullParserException(final String msg, final XmlPullParser parser, final Throwable chain)
+    '''
 def getDetail():
-'''public Throwable getDetail()
-'''
-pass
+    '''    public Throwable getDetail()
+    '''
 def getLineNumber():
-'''public int getLineNumber()
-'''
-pass
+    '''    public int getLineNumber()
+    '''
 def getColumnNumber():
-'''public int getColumnNumber()
-'''
-pass
+    '''    public int getColumnNumber()
+    '''
 def printStackTrace():
-'''public void printStackTrace()
-'''
-pass
+    '''    public void printStackTrace()
+    '''

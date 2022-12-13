@@ -1,4 +1,3 @@
 def LogLookupInfo():
-'''public LogLookupInfo()
-'''
-pass
+    '''    public LogLookupInfo()
+    '''

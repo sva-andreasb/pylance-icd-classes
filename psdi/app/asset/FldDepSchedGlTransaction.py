@@ -1,8 +1,6 @@
 def FldDepSchedGlTransaction():
-'''public FldDepSchedGlTransaction(final MboValue mbv)
-'''
-pass
+    '''    public FldDepSchedGlTransaction(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

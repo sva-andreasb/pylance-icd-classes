@@ -1,8 +1,6 @@
 def SelectArtifactContainer():
-'''public SelectArtifactContainer()
-'''
-pass
+    '''    public SelectArtifactContainer()
+    '''
 def SELECT():
-'''public int SELECT()
-'''
-pass
+    '''    public int SELECT()
+    '''

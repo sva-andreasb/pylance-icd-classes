@@ -1,8 +1,6 @@
 def FldWpSerVendor():
-'''public FldWpSerVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldWpSerVendor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

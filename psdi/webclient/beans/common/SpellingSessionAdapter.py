@@ -1,36 +1,27 @@
 def SpellingSessionAdapter():
-'''public SpellingSessionAdapter(final WebClientSession wcs, final String spellString)
-'''
-pass
+    '''    public SpellingSessionAdapter(final WebClientSession wcs, final String spellString)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getLexicons():
-'''public Lexicon[] getLexicons()
-'''
-pass
+    '''    public Lexicon[] getLexicons()
+    '''
 def getSpeller():
-'''public SpellingSession getSpeller()
-'''
-pass
+    '''    public SpellingSession getSpeller()
+    '''
 def getSpellString():
-'''public String getSpellString()
-'''
-pass
+    '''    public String getSpellString()
+    '''
 def getWordParser():
-'''public StringWordParser getWordParser()
-'''
-pass
+    '''    public StringWordParser getWordParser()
+    '''
 def getNumOfWordsReplaced():
-'''public int getNumOfWordsReplaced()
-'''
-pass
+    '''    public int getNumOfWordsReplaced()
+    '''
 def setNumOfWordsReplaced():
-'''public void setNumOfWordsReplaced(final int numOfWordsReplaced)
-'''
-pass
+    '''    public void setNumOfWordsReplaced(final int numOfWordsReplaced)
+    '''
 def getSpellingError():
-'''public String getSpellingError(final String error)
-'''
-pass
+    '''    public String getSpellingError(final String error)
+    '''

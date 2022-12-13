@@ -1,84 +1,63 @@
 def FailureList():
-'''public FailureList(final MboSet ms)
-'''
-pass
+    '''    public FailureList(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def creatNewFailureHierarchy():
-'''public void creatNewFailureHierarchy(final String newFailureCode)
-'''
-pass
+    '''    public void creatNewFailureHierarchy(final String newFailureCode)
+    '''
 def copyFailureCodes():
-'''public void copyFailureCodes(final MboSetRemote failureListSet)
-'''
-pass
+    '''    public void copyFailureCodes(final MboSetRemote failureListSet)
+    '''
 def creatNewNode():
-'''public void creatNewNode(final String newFailureCode)
-'''
-pass
+    '''    public void creatNewNode(final String newFailureCode)
+    '''
 def checkFailureReport():
-'''public boolean checkFailureReport(final String failureReportCode)
-'''
-pass
+    '''    public boolean checkFailureReport(final String failureReportCode)
+    '''
 def checkFailureCode():
-'''public boolean checkFailureCode(final String fCode)
-'''
-pass
+    '''    public boolean checkFailureCode(final String fCode)
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def getParents():
-'''public MboSetRemote getParents()
-'''
-pass
+    '''    public MboSetRemote getParents()
+    '''
 def getTop():
-'''public MboSetRemote getTop()
-'''
-pass
+    '''    public MboSetRemote getTop()
+    '''
 def getHierarchies():
-'''public String[] getHierarchies()
-'''
-pass
+    '''    public String[] getHierarchies()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(String name)
+    '''
 def isInDuplicate():
-'''public boolean isInDuplicate()
-'''
-pass
+    '''    public boolean isInDuplicate()
+    '''

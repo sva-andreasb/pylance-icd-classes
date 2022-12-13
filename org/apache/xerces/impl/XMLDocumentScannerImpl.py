@@ -1,51 +1,39 @@
 def XMLDocumentScannerImpl():
-'''public XMLDocumentScannerImpl()
-'''
-pass
+    '''    public XMLDocumentScannerImpl()
+    '''
 def setInputSource():
-'''public void setInputSource(final XMLInputSource xmlInputSource)
-'''
-pass
+    '''    public void setInputSource(final XMLInputSource xmlInputSource)
+    '''
 def reset():
-'''public void reset(final XMLComponentManager xmlComponentManager)
-'''
-pass
+    '''    public void reset(final XMLComponentManager xmlComponentManager)
+    '''
 def getRecognizedFeatures():
-'''public String[] getRecognizedFeatures()
-'''
-pass
+    '''    public String[] getRecognizedFeatures()
+    '''
 def setFeature():
-'''public void setFeature(final String s, final boolean b)
-'''
-pass
+    '''    public void setFeature(final String s, final boolean b)
+    '''
 def getRecognizedProperties():
-'''public String[] getRecognizedProperties()
-'''
-pass
+    '''    public String[] getRecognizedProperties()
+    '''
 def setProperty():
-'''public void setProperty(final String s, final Object o)
-'''
-pass
+    '''    public void setProperty(final String s, final Object o)
+    '''
 def getFeatureDefault():
-'''public Boolean getFeatureDefault(final String anObject)
-'''
-pass
+    '''    public Boolean getFeatureDefault(final String anObject)
+    '''
 def getPropertyDefault():
-'''public Object getPropertyDefault(final String anObject)
-'''
-pass
+    '''    public Object getPropertyDefault(final String anObject)
+    '''
 def startEntity():
-'''public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
-'''
-pass
+    '''    public void startEntity(final String s, final XMLResourceIdentifier xmlResourceIdentifier, final String s2, final Augmentations augmentations)
+    '''
 def endEntity():
-'''public void endEntity(final String s, final Augmentations augmentations)
-'''
-pass
+    '''    public void endEntity(final String s, final Augmentations augmentations)
+    '''
 def dispatch():
-'''public boolean dispatch(final boolean b)
-public boolean dispatch(final boolean b)
-public boolean dispatch(final boolean b)
-public boolean dispatch(final boolean b)
-'''
-pass
+    '''    public boolean dispatch(final boolean b)
+    public boolean dispatch(final boolean b)
+    public boolean dispatch(final boolean b)
+    public boolean dispatch(final boolean b)
+    '''

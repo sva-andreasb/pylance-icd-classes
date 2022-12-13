@@ -1,25 +1,19 @@
 def JsonPointerBasedFilter():
-'''public JsonPointerBasedFilter(final String ptrExpr)
-public JsonPointerBasedFilter(final JsonPointer match)
-'''
-pass
+    '''    public JsonPointerBasedFilter(final String ptrExpr)
+    public JsonPointerBasedFilter(final JsonPointer match)
+    '''
 def includeElement():
-'''public TokenFilter includeElement(final int index)
-'''
-pass
+    '''    public TokenFilter includeElement(final int index)
+    '''
 def includeProperty():
-'''public TokenFilter includeProperty(final String name)
-'''
-pass
+    '''    public TokenFilter includeProperty(final String name)
+    '''
 def filterStartArray():
-'''public TokenFilter filterStartArray()
-'''
-pass
+    '''    public TokenFilter filterStartArray()
+    '''
 def filterStartObject():
-'''public TokenFilter filterStartObject()
-'''
-pass
+    '''    public TokenFilter filterStartObject()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

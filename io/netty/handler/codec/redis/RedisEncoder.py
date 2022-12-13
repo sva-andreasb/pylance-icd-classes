@@ -1,5 +1,4 @@
 def RedisEncoder():
-'''public RedisEncoder()
-public RedisEncoder(final RedisMessagePool messagePool)
-'''
-pass
+    '''    public RedisEncoder()
+    public RedisEncoder(final RedisMessagePool messagePool)
+    '''

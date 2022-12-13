@@ -1,21 +1,16 @@
 def RoleCacheImpl():
-'''public RoleCacheImpl()
-'''
-pass
+    '''    public RoleCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getRoleInfo():
-'''public RoleInfo getRoleInfo(final String roleName)
-'''
-pass
+    '''    public RoleInfo getRoleInfo(final String roleName)
+    '''

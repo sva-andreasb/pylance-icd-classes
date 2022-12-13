@@ -1,23 +1,18 @@
 def formatProtocolVersion():
-'''public static String formatProtocolVersion(final ProtocolVersion version, final LineFormatter formatter)
-'''
-pass
+    '''    public static String formatProtocolVersion(final ProtocolVersion version, final LineFormatter formatter)
+    '''
 def appendProtocolVersion():
-'''public CharArrayBuffer appendProtocolVersion(final CharArrayBuffer buffer, final ProtocolVersion version)
-'''
-pass
+    '''    public CharArrayBuffer appendProtocolVersion(final CharArrayBuffer buffer, final ProtocolVersion version)
+    '''
 def formatRequestLine():
-'''public static String formatRequestLine(final RequestLine reqline, final LineFormatter formatter)
-public CharArrayBuffer formatRequestLine(final CharArrayBuffer buffer, final RequestLine reqline)
-'''
-pass
+    '''    public static String formatRequestLine(final RequestLine reqline, final LineFormatter formatter)
+    public CharArrayBuffer formatRequestLine(final CharArrayBuffer buffer, final RequestLine reqline)
+    '''
 def formatStatusLine():
-'''public static String formatStatusLine(final StatusLine statline, final LineFormatter formatter)
-public CharArrayBuffer formatStatusLine(final CharArrayBuffer buffer, final StatusLine statline)
-'''
-pass
+    '''    public static String formatStatusLine(final StatusLine statline, final LineFormatter formatter)
+    public CharArrayBuffer formatStatusLine(final CharArrayBuffer buffer, final StatusLine statline)
+    '''
 def formatHeader():
-'''public static String formatHeader(final Header header, final LineFormatter formatter)
-public CharArrayBuffer formatHeader(final CharArrayBuffer buffer, final Header header)
-'''
-pass
+    '''    public static String formatHeader(final Header header, final LineFormatter formatter)
+    public CharArrayBuffer formatHeader(final CharArrayBuffer buffer, final Header header)
+    '''

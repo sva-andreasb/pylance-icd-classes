@@ -1,56 +1,42 @@
 def ElementDesc():
-'''public ElementDesc()
-'''
-pass
+    '''    public ElementDesc()
+    '''
 def isMinOccursZero():
-'''public boolean isMinOccursZero()
-'''
-pass
+    '''    public boolean isMinOccursZero()
+    '''
 def getMinOccurs():
-'''public int getMinOccurs()
-'''
-pass
+    '''    public int getMinOccurs()
+    '''
 def setMinOccurs():
-'''public void setMinOccurs(final int minOccurs)
-'''
-pass
+    '''    public void setMinOccurs(final int minOccurs)
+    '''
 def getMaxOccurs():
-'''public int getMaxOccurs()
-'''
-pass
+    '''    public int getMaxOccurs()
+    '''
 def setMaxOccurs():
-'''public void setMaxOccurs(final int maxOccurs)
-'''
-pass
+    '''    public void setMaxOccurs(final int maxOccurs)
+    '''
 def setMaxOccursUnbounded():
-'''public void setMaxOccursUnbounded(final boolean ubnd)
-'''
-pass
+    '''    public void setMaxOccursUnbounded(final boolean ubnd)
+    '''
 def isMaxOccursUnbounded():
-'''public boolean isMaxOccursUnbounded()
-'''
-pass
+    '''    public boolean isMaxOccursUnbounded()
+    '''
 def isNillable():
-'''public boolean isNillable()
-'''
-pass
+    '''    public boolean isNillable()
+    '''
 def setNillable():
-'''public void setNillable(final boolean nillable)
-'''
-pass
+    '''    public void setNillable(final boolean nillable)
+    '''
 def getArrayType():
-'''public QName getArrayType()
-'''
-pass
+    '''    public QName getArrayType()
+    '''
 def setArrayType():
-'''public void setArrayType(final QName arrayType)
-'''
-pass
+    '''    public void setArrayType(final QName arrayType)
+    '''
 def getItemQName():
-'''public QName getItemQName()
-'''
-pass
+    '''    public QName getItemQName()
+    '''
 def setItemQName():
-'''public void setItemQName(final QName itemQName)
-'''
-pass
+    '''    public void setItemQName(final QName itemQName)
+    '''

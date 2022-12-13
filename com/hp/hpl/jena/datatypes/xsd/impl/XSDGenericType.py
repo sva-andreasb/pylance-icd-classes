@@ -1,4 +1,3 @@
 def XSDGenericType():
-'''public XSDGenericType(final XSSimpleType xstype, final String namespace)
-'''
-pass
+    '''    public XSDGenericType(final XSSimpleType xstype, final String namespace)
+    '''

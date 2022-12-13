@@ -1,29 +1,22 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def ListGroupsRequest():
-'''public ListGroupsRequest(final short version)
-public ListGroupsRequest(final Struct struct, final short versionId)
-'''
-pass
+    '''    public ListGroupsRequest(final short version)
+    public ListGroupsRequest(final Struct struct, final short versionId)
+    '''
 def getErrorResponse():
-'''public ListGroupsResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public ListGroupsResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def parse():
-'''public static ListGroupsRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static ListGroupsRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public ListGroupsRequest build(final short version)
-'''
-pass
+    '''    public ListGroupsRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

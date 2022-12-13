@@ -1,24 +1,18 @@
 def BarcodeCodabar():
-'''public BarcodeCodabar()
-'''
-pass
+    '''    public BarcodeCodabar()
+    '''
 def getBarsCodabar():
-'''public static byte[] getBarsCodabar(String text)
-'''
-pass
+    '''    public static byte[] getBarsCodabar(String text)
+    '''
 def calculateChecksum():
-'''public static String calculateChecksum(final String code)
-'''
-pass
+    '''    public static String calculateChecksum(final String code)
+    '''
 def getBarcodeSize():
-'''public Rectangle getBarcodeSize()
-'''
-pass
+    '''    public Rectangle getBarcodeSize()
+    '''
 def placeBarcode():
-'''public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
-'''
-pass
+    '''    public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''
 def createAwtImage():
-'''public Image createAwtImage(final Color foreground, final Color background)
-'''
-pass
+    '''    public Image createAwtImage(final Color foreground, final Color background)
+    '''

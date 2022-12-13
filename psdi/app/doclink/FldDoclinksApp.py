@@ -1,4 +1,3 @@
 def FldDoclinksApp():
-'''public FldDoclinksApp(final MboValue mbv)
-'''
-pass
+    '''    public FldDoclinksApp(final MboValue mbv)
+    '''

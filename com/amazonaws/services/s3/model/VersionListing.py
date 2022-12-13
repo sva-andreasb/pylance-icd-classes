@@ -1,100 +1,75 @@
 def VersionListing():
-'''public VersionListing()
-'''
-pass
+    '''    public VersionListing()
+    '''
 def getVersionSummaries():
-'''public List<S3VersionSummary> getVersionSummaries()
-'''
-pass
+    '''    public List<S3VersionSummary> getVersionSummaries()
+    '''
 def setVersionSummaries():
-'''public void setVersionSummaries(final List<S3VersionSummary> versionSummaries)
-'''
-pass
+    '''    public void setVersionSummaries(final List<S3VersionSummary> versionSummaries)
+    '''
 def getCommonPrefixes():
-'''public List<String> getCommonPrefixes()
-'''
-pass
+    '''    public List<String> getCommonPrefixes()
+    '''
 def setCommonPrefixes():
-'''public void setCommonPrefixes(final List<String> commonPrefixes)
-'''
-pass
+    '''    public void setCommonPrefixes(final List<String> commonPrefixes)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def getKeyMarker():
-'''public String getKeyMarker()
-'''
-pass
+    '''    public String getKeyMarker()
+    '''
 def setKeyMarker():
-'''public void setKeyMarker(final String keyMarker)
-'''
-pass
+    '''    public void setKeyMarker(final String keyMarker)
+    '''
 def getVersionIdMarker():
-'''public String getVersionIdMarker()
-'''
-pass
+    '''    public String getVersionIdMarker()
+    '''
 def setVersionIdMarker():
-'''public void setVersionIdMarker(final String versionIdMarker)
-'''
-pass
+    '''    public void setVersionIdMarker(final String versionIdMarker)
+    '''
 def getMaxKeys():
-'''public int getMaxKeys()
-'''
-pass
+    '''    public int getMaxKeys()
+    '''
 def setMaxKeys():
-'''public void setMaxKeys(final int maxKeys)
-'''
-pass
+    '''    public void setMaxKeys(final int maxKeys)
+    '''
 def getDelimiter():
-'''public String getDelimiter()
-'''
-pass
+    '''    public String getDelimiter()
+    '''
 def setDelimiter():
-'''public void setDelimiter(final String delimiter)
-'''
-pass
+    '''    public void setDelimiter(final String delimiter)
+    '''
 def getNextKeyMarker():
-'''public String getNextKeyMarker()
-'''
-pass
+    '''    public String getNextKeyMarker()
+    '''
 def setNextKeyMarker():
-'''public void setNextKeyMarker(final String marker)
-'''
-pass
+    '''    public void setNextKeyMarker(final String marker)
+    '''
 def getNextVersionIdMarker():
-'''public String getNextVersionIdMarker()
-'''
-pass
+    '''    public String getNextVersionIdMarker()
+    '''
 def setNextVersionIdMarker():
-'''public void setNextVersionIdMarker(final String marker)
-'''
-pass
+    '''    public void setNextVersionIdMarker(final String marker)
+    '''
 def isTruncated():
-'''public boolean isTruncated()
-'''
-pass
+    '''    public boolean isTruncated()
+    '''
 def setTruncated():
-'''public void setTruncated(final boolean isTruncated)
-'''
-pass
+    '''    public void setTruncated(final boolean isTruncated)
+    '''
 def getEncodingType():
-'''public String getEncodingType()
-'''
-pass
+    '''    public String getEncodingType()
+    '''
 def setEncodingType():
-'''public void setEncodingType(final String encodingType)
-'''
-pass
+    '''    public void setEncodingType(final String encodingType)
+    '''

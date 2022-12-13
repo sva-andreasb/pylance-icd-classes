@@ -1,12 +1,9 @@
 def WOGrandTotalSet():
-'''public WOGrandTotalSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOGrandTotalSet(final MboServerInterface ms)
+    '''
 def getMbo():
-'''public MboRemote getMbo(final int pos)
-'''
-pass
+    '''    public MboRemote getMbo(final int pos)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

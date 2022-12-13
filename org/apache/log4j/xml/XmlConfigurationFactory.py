@@ -1,5 +1,4 @@
-FILE_EXTENSION = "String  .xml""
+FILE_EXTENSION = "String  \".xml\""
 def getConfiguration():
-'''public Configuration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
-'''
-pass
+    '''    public Configuration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
+    '''

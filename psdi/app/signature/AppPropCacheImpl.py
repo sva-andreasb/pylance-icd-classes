@@ -1,25 +1,19 @@
 def AppPropCacheImpl():
-'''public AppPropCacheImpl()
-'''
-pass
+    '''    public AppPropCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getApplicationSysCfgInfo():
-'''public JSONObject getApplicationSysCfgInfo()
-'''
-pass
+    '''    public JSONObject getApplicationSysCfgInfo()
+    '''
 def getApplicationCfgInfo():
-'''public JSONObject getApplicationCfgInfo(final String appName, final UserInfo userInfo)
-'''
-pass
+    '''    public JSONObject getApplicationCfgInfo(final String appName, final UserInfo userInfo)
+    '''

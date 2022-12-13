@@ -1,25 +1,19 @@
 def FldInvConditionCode():
-'''public FldInvConditionCode(final MboValue mbv)
-public FldInvConditionCode(final MboValue mbv, final String conditionAttribute)
-'''
-pass
+    '''    public FldInvConditionCode(final MboValue mbv)
+    public FldInvConditionCode(final MboValue mbv, final String conditionAttribute)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def isAssetInTransit():
-'''public boolean isAssetInTransit()
-'''
-pass
+    '''    public boolean isAssetInTransit()
+    '''
 def getInvUse():
-'''public MboRemote getInvUse()
-'''
-pass
+    '''    public MboRemote getInvUse()
+    '''

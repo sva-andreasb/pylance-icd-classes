@@ -1,21 +1,16 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getObjectName():
-'''public ObjectName getObjectName()
-'''
-pass
+    '''    public ObjectName getObjectName()
+    '''
 def ObjectInstance():
-'''public ObjectInstance(final String s, final String s2)
-public ObjectInstance(final ObjectName name, final String className)
-'''
-pass
+    '''    public ObjectInstance(final String s, final String s2)
+    public ObjectInstance(final ObjectName name, final String className)
+    '''

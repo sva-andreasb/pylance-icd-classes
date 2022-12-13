@@ -10,8 +10,7 @@ PROPAGATED_EVENT = "int  15"
 TRANSACTION_BEGAN = "int  16"
 TRANSACTION_DONE = "int  17"
 TRANSACTION_FAILED = "int  18"
-NONE = "String  {none}""
+NONE = "String  \"{none}\""
 def isEcmdb():
-'''public static boolean isEcmdb()
-'''
-pass
+    '''    public static boolean isEcmdb()
+    '''

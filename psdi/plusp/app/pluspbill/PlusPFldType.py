@@ -1,32 +1,24 @@
 def PlusPFldType():
-'''public PlusPFldType(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldType(final MboValue mv)
+    '''
 def chooseActualDomainValues():
-'''public void chooseActualDomainValues()
-'''
-pass
+    '''    public void chooseActualDomainValues()
+    '''
 def getWhereClause():
-'''public String getWhereClause()
-'''
-pass
+    '''    public String getWhereClause()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def logicForSalesOrderOwner():
-'''public void logicForSalesOrderOwner(final MboRemote mbo, final MboRemote mboRemote)
-'''
-pass
+    '''    public void logicForSalesOrderOwner(final MboRemote mbo, final MboRemote mboRemote)
+    '''
 def validateSOLocation():
-'''public void validateSOLocation(final MboRemote mboRemote)
-'''
-pass
+    '''    public void validateSOLocation(final MboRemote mboRemote)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

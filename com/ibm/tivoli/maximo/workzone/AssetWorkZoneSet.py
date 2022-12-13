@@ -1,4 +1,3 @@
 def AssetWorkZoneSet():
-'''public AssetWorkZoneSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetWorkZoneSet(final MboServerInterface ms)
+    '''

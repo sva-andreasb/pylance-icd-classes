@@ -1,4 +1,3 @@
 def TKServiceAddressSet():
-'''public TKServiceAddressSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TKServiceAddressSet(final MboServerInterface ms)
+    '''

@@ -1,40 +1,30 @@
 def createUI():
-'''public static ComponentUI createUI(final JComponent component)
-'''
-pass
+    '''    public static ComponentUI createUI(final JComponent component)
+    '''
 def BasicNativeContentViewerUI():
-'''public BasicNativeContentViewerUI(final JHelpContentViewer helpContentViewer)
-'''
-pass
+    '''    public BasicNativeContentViewerUI(final JHelpContentViewer helpContentViewer)
+    '''
 def installUI():
-'''public void installUI(final JComponent component)
-'''
-pass
+    '''    public void installUI(final JComponent component)
+    '''
 def uninstallUI():
-'''public void uninstallUI(final JComponent component)
-'''
-pass
+    '''    public void uninstallUI(final JComponent component)
+    '''
 def getPreferredSize():
-'''public Dimension getPreferredSize(final JComponent component)
-'''
-pass
+    '''    public Dimension getPreferredSize(final JComponent component)
+    '''
 def getMinimumSize():
-'''public Dimension getMinimumSize(final JComponent component)
-'''
-pass
+    '''    public Dimension getMinimumSize(final JComponent component)
+    '''
 def getMaximumSize():
-'''public Dimension getMaximumSize(final JComponent component)
-'''
-pass
+    '''    public Dimension getMaximumSize(final JComponent component)
+    '''
 def idChanged():
-'''public void idChanged(final HelpModelEvent obj)
-'''
-pass
+    '''    public void idChanged(final HelpModelEvent obj)
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''
 def highlightsChanged():
-'''public void highlightsChanged(final TextHelpModelEvent obj)
-'''
-pass
+    '''    public void highlightsChanged(final TextHelpModelEvent obj)
+    '''

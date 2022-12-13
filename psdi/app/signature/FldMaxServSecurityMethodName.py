@@ -1,16 +1,12 @@
 def FldMaxServSecurityMethodName():
-'''public FldMaxServSecurityMethodName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxServSecurityMethodName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

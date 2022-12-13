@@ -1,160 +1,120 @@
 def getBits():
-'''public Long getBits()
-'''
-pass
+    '''    public Long getBits()
+    '''
 def setBits():
-'''public void setBits(final Long bits)
-'''
-pass
+    '''    public void setBits(final Long bits)
+    '''
 def isBitsSpecified():
-'''public boolean isBitsSpecified()
-'''
-pass
+    '''    public boolean isBitsSpecified()
+    '''
 def unsetBits():
-'''public void unsetBits()
-'''
-pass
+    '''    public void unsetBits()
+    '''
 def getChannels():
-'''public Long getChannels()
-'''
-pass
+    '''    public Long getChannels()
+    '''
 def setChannels():
-'''public void setChannels(final Long channels)
-'''
-pass
+    '''    public void setChannels(final Long channels)
+    '''
 def isChannelsSpecified():
-'''public boolean isChannelsSpecified()
-'''
-pass
+    '''    public boolean isChannelsSpecified()
+    '''
 def unsetChannels():
-'''public void unsetChannels()
-'''
-pass
+    '''    public void unsetChannels()
+    '''
 def getHeight():
-'''public Long getHeight()
-'''
-pass
+    '''    public Long getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final Long height)
-'''
-pass
+    '''    public void setHeight(final Long height)
+    '''
 def isHeightSpecified():
-'''public boolean isHeightSpecified()
-'''
-pass
+    '''    public boolean isHeightSpecified()
+    '''
 def unsetHeight():
-'''public void unsetHeight()
-'''
-pass
+    '''    public void unsetHeight()
+    '''
 def getHtmlAttributes():
-'''public String getHtmlAttributes()
-'''
-pass
+    '''    public String getHtmlAttributes()
+    '''
 def setHtmlAttributes():
-'''public void setHtmlAttributes(final String htmlAttributes)
-'''
-pass
+    '''    public void setHtmlAttributes(final String htmlAttributes)
+    '''
 def isHtmlAttributesSpecified():
-'''public boolean isHtmlAttributesSpecified()
-'''
-pass
+    '''    public boolean isHtmlAttributesSpecified()
+    '''
 def unsetHtmlAttributes():
-'''public void unsetHtmlAttributes()
-'''
-pass
+    '''    public void unsetHtmlAttributes()
+    '''
 def getImageType():
-'''public Long getImageType()
-'''
-pass
+    '''    public Long getImageType()
+    '''
 def setImageType():
-'''public void setImageType(final Long imageType)
-'''
-pass
+    '''    public void setImageType(final Long imageType)
+    '''
 def isImageTypeSpecified():
-'''public boolean isImageTypeSpecified()
-'''
-pass
+    '''    public boolean isImageTypeSpecified()
+    '''
 def unsetImageType():
-'''public void unsetImageType()
-'''
-pass
+    '''    public void unsetImageType()
+    '''
 def getIsImage():
-'''public Boolean getIsImage()
-'''
-pass
+    '''    public Boolean getIsImage()
+    '''
 def setIsImage():
-'''public void setIsImage(final Boolean isImage)
-'''
-pass
+    '''    public void setIsImage(final Boolean isImage)
+    '''
 def isIsImageSpecified():
-'''public boolean isIsImageSpecified()
-'''
-pass
+    '''    public boolean isIsImageSpecified()
+    '''
 def unsetIsImage():
-'''public void unsetIsImage()
-'''
-pass
+    '''    public void unsetIsImage()
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def setMimeType():
-'''public void setMimeType(final String mimeType)
-'''
-pass
+    '''    public void setMimeType(final String mimeType)
+    '''
 def isMimeTypeSpecified():
-'''public boolean isMimeTypeSpecified()
-'''
-pass
+    '''    public boolean isMimeTypeSpecified()
+    '''
 def unsetMimeType():
-'''public void unsetMimeType()
-'''
-pass
+    '''    public void unsetMimeType()
+    '''
 def getWidth():
-'''public Long getWidth()
-'''
-pass
+    '''    public Long getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final Long width)
-'''
-pass
+    '''    public void setWidth(final Long width)
+    '''
 def isWidthSpecified():
-'''public boolean isWidthSpecified()
-'''
-pass
+    '''    public boolean isWidthSpecified()
+    '''
 def unsetWidth():
-'''public void unsetWidth()
-'''
-pass
+    '''    public void unsetWidth()
+    '''
 def bits():
-'''public Mask bits()
-'''
-pass
+    '''    public Mask bits()
+    '''
 def channels():
-'''public Mask channels()
-'''
-pass
+    '''    public Mask channels()
+    '''
 def height():
-'''public Mask height()
-'''
-pass
+    '''    public Mask height()
+    '''
 def htmlAttributes():
-'''public Mask htmlAttributes()
-'''
-pass
+    '''    public Mask htmlAttributes()
+    '''
 def imageType():
-'''public Mask imageType()
-'''
-pass
+    '''    public Mask imageType()
+    '''
 def isImage():
-'''public Mask isImage()
-'''
-pass
+    '''    public Mask isImage()
+    '''
 def mimeType():
-'''public Mask mimeType()
-'''
-pass
+    '''    public Mask mimeType()
+    '''
 def width():
-'''public Mask width()
-'''
-pass
+    '''    public Mask width()
+    '''

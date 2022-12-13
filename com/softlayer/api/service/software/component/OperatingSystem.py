@@ -1,36 +1,27 @@
 def getLicenseExpirationDate():
-'''public GregorianCalendar getLicenseExpirationDate()
-'''
-pass
+    '''    public GregorianCalendar getLicenseExpirationDate()
+    '''
 def setLicenseExpirationDate():
-'''public void setLicenseExpirationDate(final GregorianCalendar licenseExpirationDate)
-'''
-pass
+    '''    public void setLicenseExpirationDate(final GregorianCalendar licenseExpirationDate)
+    '''
 def getPartitionTemplates():
-'''public List<Template> getPartitionTemplates()
-'''
-pass
+    '''    public List<Template> getPartitionTemplates()
+    '''
 def getReloadTransactionGroup():
-'''public Group getReloadTransactionGroup()
-'''
-pass
+    '''    public Group getReloadTransactionGroup()
+    '''
 def setReloadTransactionGroup():
-'''public void setReloadTransactionGroup(final Group reloadTransactionGroup)
-'''
-pass
+    '''    public void setReloadTransactionGroup(final Group reloadTransactionGroup)
+    '''
 def getPartitionTemplateCount():
-'''public Long getPartitionTemplateCount()
-'''
-pass
+    '''    public Long getPartitionTemplateCount()
+    '''
 def setPartitionTemplateCount():
-'''public void setPartitionTemplateCount(final Long partitionTemplateCount)
-'''
-pass
+    '''    public void setPartitionTemplateCount(final Long partitionTemplateCount)
+    '''
 def licenseExpirationDate():
-'''public Mask licenseExpirationDate()
-'''
-pass
+    '''    public Mask licenseExpirationDate()
+    '''
 def partitionTemplateCount():
-'''public Mask partitionTemplateCount()
-'''
-pass
+    '''    public Mask partitionTemplateCount()
+    '''

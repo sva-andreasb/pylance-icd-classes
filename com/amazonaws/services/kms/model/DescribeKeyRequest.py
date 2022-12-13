@@ -1,41 +1,31 @@
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public DescribeKeyRequest withKeyId(final String keyId)
-'''
-pass
+    '''    public DescribeKeyRequest withKeyId(final String keyId)
+    '''
 def getGrantTokens():
-'''public List<String> getGrantTokens()
-'''
-pass
+    '''    public List<String> getGrantTokens()
+    '''
 def setGrantTokens():
-'''public void setGrantTokens(final Collection<String> grantTokens)
-'''
-pass
+    '''    public void setGrantTokens(final Collection<String> grantTokens)
+    '''
 def withGrantTokens():
-'''public DescribeKeyRequest withGrantTokens(final String... grantTokens)
-public DescribeKeyRequest withGrantTokens(final Collection<String> grantTokens)
-'''
-pass
+    '''    public DescribeKeyRequest withGrantTokens(final String... grantTokens)
+    public DescribeKeyRequest withGrantTokens(final Collection<String> grantTokens)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public DescribeKeyRequest clone()
-'''
-pass
+    '''    public DescribeKeyRequest clone()
+    '''

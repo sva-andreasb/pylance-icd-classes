@@ -1,433 +1,325 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getAchInformation():
-'''public List<Ach> getAchInformation()
-'''
-pass
+    '''    public List<Ach> getAchInformation()
+    '''
 def getCurrency():
-'''public Currency getCurrency()
-'''
-pass
+    '''    public Currency getCurrency()
+    '''
 def setCurrency():
-'''public void setCurrency(final Currency currency)
-'''
-pass
+    '''    public void setCurrency(final Currency currency)
+    '''
 def getCurrentBillingCycle():
-'''public Cycle getCurrentBillingCycle()
-'''
-pass
+    '''    public Cycle getCurrentBillingCycle()
+    '''
 def setCurrentBillingCycle():
-'''public void setCurrentBillingCycle(final Cycle currentBillingCycle)
-'''
-pass
+    '''    public void setCurrentBillingCycle(final Cycle currentBillingCycle)
+    '''
 def getLastBillDate():
-'''public GregorianCalendar getLastBillDate()
-'''
-pass
+    '''    public GregorianCalendar getLastBillDate()
+    '''
 def setLastBillDate():
-'''public void setLastBillDate(final GregorianCalendar lastBillDate)
-'''
-pass
+    '''    public void setLastBillDate(final GregorianCalendar lastBillDate)
+    '''
 def getNextBillDate():
-'''public GregorianCalendar getNextBillDate()
-'''
-pass
+    '''    public GregorianCalendar getNextBillDate()
+    '''
 def setNextBillDate():
-'''public void setNextBillDate(final GregorianCalendar nextBillDate)
-'''
-pass
+    '''    public void setNextBillDate(final GregorianCalendar nextBillDate)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getAnniversaryDayOfMonth():
-'''public Long getAnniversaryDayOfMonth()
-'''
-pass
+    '''    public Long getAnniversaryDayOfMonth()
+    '''
 def setAnniversaryDayOfMonth():
-'''public void setAnniversaryDayOfMonth(final Long anniversaryDayOfMonth)
-'''
-pass
+    '''    public void setAnniversaryDayOfMonth(final Long anniversaryDayOfMonth)
+    '''
 def isAnniversaryDayOfMonthSpecified():
-'''public boolean isAnniversaryDayOfMonthSpecified()
-'''
-pass
+    '''    public boolean isAnniversaryDayOfMonthSpecified()
+    '''
 def unsetAnniversaryDayOfMonth():
-'''public void unsetAnniversaryDayOfMonth()
-'''
-pass
+    '''    public void unsetAnniversaryDayOfMonth()
+    '''
 def getCardAccountNumber():
-'''public String getCardAccountNumber()
-'''
-pass
+    '''    public String getCardAccountNumber()
+    '''
 def setCardAccountNumber():
-'''public void setCardAccountNumber(final String cardAccountNumber)
-'''
-pass
+    '''    public void setCardAccountNumber(final String cardAccountNumber)
+    '''
 def isCardAccountNumberSpecified():
-'''public boolean isCardAccountNumberSpecified()
-'''
-pass
+    '''    public boolean isCardAccountNumberSpecified()
+    '''
 def unsetCardAccountNumber():
-'''public void unsetCardAccountNumber()
-'''
-pass
+    '''    public void unsetCardAccountNumber()
+    '''
 def getCardExpirationMonth():
-'''public Long getCardExpirationMonth()
-'''
-pass
+    '''    public Long getCardExpirationMonth()
+    '''
 def setCardExpirationMonth():
-'''public void setCardExpirationMonth(final Long cardExpirationMonth)
-'''
-pass
+    '''    public void setCardExpirationMonth(final Long cardExpirationMonth)
+    '''
 def isCardExpirationMonthSpecified():
-'''public boolean isCardExpirationMonthSpecified()
-'''
-pass
+    '''    public boolean isCardExpirationMonthSpecified()
+    '''
 def unsetCardExpirationMonth():
-'''public void unsetCardExpirationMonth()
-'''
-pass
+    '''    public void unsetCardExpirationMonth()
+    '''
 def getCardExpirationYear():
-'''public Long getCardExpirationYear()
-'''
-pass
+    '''    public Long getCardExpirationYear()
+    '''
 def setCardExpirationYear():
-'''public void setCardExpirationYear(final Long cardExpirationYear)
-'''
-pass
+    '''    public void setCardExpirationYear(final Long cardExpirationYear)
+    '''
 def isCardExpirationYearSpecified():
-'''public boolean isCardExpirationYearSpecified()
-'''
-pass
+    '''    public boolean isCardExpirationYearSpecified()
+    '''
 def unsetCardExpirationYear():
-'''public void unsetCardExpirationYear()
-'''
-pass
+    '''    public void unsetCardExpirationYear()
+    '''
 def getCardNickname():
-'''public String getCardNickname()
-'''
-pass
+    '''    public String getCardNickname()
+    '''
 def setCardNickname():
-'''public void setCardNickname(final String cardNickname)
-'''
-pass
+    '''    public void setCardNickname(final String cardNickname)
+    '''
 def isCardNicknameSpecified():
-'''public boolean isCardNicknameSpecified()
-'''
-pass
+    '''    public boolean isCardNicknameSpecified()
+    '''
 def unsetCardNickname():
-'''public void unsetCardNickname()
-'''
-pass
+    '''    public void unsetCardNickname()
+    '''
 def getCardType():
-'''public String getCardType()
-'''
-pass
+    '''    public String getCardType()
+    '''
 def setCardType():
-'''public void setCardType(final String cardType)
-'''
-pass
+    '''    public void setCardType(final String cardType)
+    '''
 def isCardTypeSpecified():
-'''public boolean isCardTypeSpecified()
-'''
-pass
+    '''    public boolean isCardTypeSpecified()
+    '''
 def unsetCardType():
-'''public void unsetCardType()
-'''
-pass
+    '''    public void unsetCardType()
+    '''
 def getCardVerificationNumber():
-'''public String getCardVerificationNumber()
-'''
-pass
+    '''    public String getCardVerificationNumber()
+    '''
 def setCardVerificationNumber():
-'''public void setCardVerificationNumber(final String cardVerificationNumber)
-'''
-pass
+    '''    public void setCardVerificationNumber(final String cardVerificationNumber)
+    '''
 def isCardVerificationNumberSpecified():
-'''public boolean isCardVerificationNumberSpecified()
-'''
-pass
+    '''    public boolean isCardVerificationNumberSpecified()
+    '''
 def unsetCardVerificationNumber():
-'''public void unsetCardVerificationNumber()
-'''
-pass
+    '''    public void unsetCardVerificationNumber()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getLastFourPaymentCardDigits():
-'''public Long getLastFourPaymentCardDigits()
-'''
-pass
+    '''    public Long getLastFourPaymentCardDigits()
+    '''
 def setLastFourPaymentCardDigits():
-'''public void setLastFourPaymentCardDigits(final Long lastFourPaymentCardDigits)
-'''
-pass
+    '''    public void setLastFourPaymentCardDigits(final Long lastFourPaymentCardDigits)
+    '''
 def isLastFourPaymentCardDigitsSpecified():
-'''public boolean isLastFourPaymentCardDigitsSpecified()
-'''
-pass
+    '''    public boolean isLastFourPaymentCardDigitsSpecified()
+    '''
 def unsetLastFourPaymentCardDigits():
-'''public void unsetLastFourPaymentCardDigits()
-'''
-pass
+    '''    public void unsetLastFourPaymentCardDigits()
+    '''
 def getLastPaymentDate():
-'''public GregorianCalendar getLastPaymentDate()
-'''
-pass
+    '''    public GregorianCalendar getLastPaymentDate()
+    '''
 def setLastPaymentDate():
-'''public void setLastPaymentDate(final GregorianCalendar lastPaymentDate)
-'''
-pass
+    '''    public void setLastPaymentDate(final GregorianCalendar lastPaymentDate)
+    '''
 def isLastPaymentDateSpecified():
-'''public boolean isLastPaymentDateSpecified()
-'''
-pass
+    '''    public boolean isLastPaymentDateSpecified()
+    '''
 def unsetLastPaymentDate():
-'''public void unsetLastPaymentDate()
-'''
-pass
+    '''    public void unsetLastPaymentDate()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getPaymentTerms():
-'''public Long getPaymentTerms()
-'''
-pass
+    '''    public Long getPaymentTerms()
+    '''
 def setPaymentTerms():
-'''public void setPaymentTerms(final Long paymentTerms)
-'''
-pass
+    '''    public void setPaymentTerms(final Long paymentTerms)
+    '''
 def isPaymentTermsSpecified():
-'''public boolean isPaymentTermsSpecified()
-'''
-pass
+    '''    public boolean isPaymentTermsSpecified()
+    '''
 def unsetPaymentTerms():
-'''public void unsetPaymentTerms()
-'''
-pass
+    '''    public void unsetPaymentTerms()
+    '''
 def getPercentDiscountOnetime():
-'''public Long getPercentDiscountOnetime()
-'''
-pass
+    '''    public Long getPercentDiscountOnetime()
+    '''
 def setPercentDiscountOnetime():
-'''public void setPercentDiscountOnetime(final Long percentDiscountOnetime)
-'''
-pass
+    '''    public void setPercentDiscountOnetime(final Long percentDiscountOnetime)
+    '''
 def isPercentDiscountOnetimeSpecified():
-'''public boolean isPercentDiscountOnetimeSpecified()
-'''
-pass
+    '''    public boolean isPercentDiscountOnetimeSpecified()
+    '''
 def unsetPercentDiscountOnetime():
-'''public void unsetPercentDiscountOnetime()
-'''
-pass
+    '''    public void unsetPercentDiscountOnetime()
+    '''
 def getPercentDiscountRecurring():
-'''public Long getPercentDiscountRecurring()
-'''
-pass
+    '''    public Long getPercentDiscountRecurring()
+    '''
 def setPercentDiscountRecurring():
-'''public void setPercentDiscountRecurring(final Long percentDiscountRecurring)
-'''
-pass
+    '''    public void setPercentDiscountRecurring(final Long percentDiscountRecurring)
+    '''
 def isPercentDiscountRecurringSpecified():
-'''public boolean isPercentDiscountRecurringSpecified()
-'''
-pass
+    '''    public boolean isPercentDiscountRecurringSpecified()
+    '''
 def unsetPercentDiscountRecurring():
-'''public void unsetPercentDiscountRecurring()
-'''
-pass
+    '''    public void unsetPercentDiscountRecurring()
+    '''
 def getSparePoolAmount():
-'''public Long getSparePoolAmount()
-'''
-pass
+    '''    public Long getSparePoolAmount()
+    '''
 def setSparePoolAmount():
-'''public void setSparePoolAmount(final Long sparePoolAmount)
-'''
-pass
+    '''    public void setSparePoolAmount(final Long sparePoolAmount)
+    '''
 def isSparePoolAmountSpecified():
-'''public boolean isSparePoolAmountSpecified()
-'''
-pass
+    '''    public boolean isSparePoolAmountSpecified()
+    '''
 def unsetSparePoolAmount():
-'''public void unsetSparePoolAmount()
-'''
-pass
+    '''    public void unsetSparePoolAmount()
+    '''
 def getVatId():
-'''public String getVatId()
-'''
-pass
+    '''    public String getVatId()
+    '''
 def setVatId():
-'''public void setVatId(final String vatId)
-'''
-pass
+    '''    public void setVatId(final String vatId)
+    '''
 def isVatIdSpecified():
-'''public boolean isVatIdSpecified()
-'''
-pass
+    '''    public boolean isVatIdSpecified()
+    '''
 def unsetVatId():
-'''public void unsetVatId()
-'''
-pass
+    '''    public void unsetVatId()
+    '''
 def getAchInformationCount():
-'''public Long getAchInformationCount()
-'''
-pass
+    '''    public Long getAchInformationCount()
+    '''
 def setAchInformationCount():
-'''public void setAchInformationCount(final Long achInformationCount)
-'''
-pass
+    '''    public void setAchInformationCount(final Long achInformationCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def lastBillDate():
-'''public Mask lastBillDate()
-'''
-pass
+    '''    public Mask lastBillDate()
+    '''
 def nextBillDate():
-'''public Mask nextBillDate()
-'''
-pass
+    '''    public Mask nextBillDate()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def anniversaryDayOfMonth():
-'''public Mask anniversaryDayOfMonth()
-'''
-pass
+    '''    public Mask anniversaryDayOfMonth()
+    '''
 def cardAccountNumber():
-'''public Mask cardAccountNumber()
-'''
-pass
+    '''    public Mask cardAccountNumber()
+    '''
 def cardExpirationMonth():
-'''public Mask cardExpirationMonth()
-'''
-pass
+    '''    public Mask cardExpirationMonth()
+    '''
 def cardExpirationYear():
-'''public Mask cardExpirationYear()
-'''
-pass
+    '''    public Mask cardExpirationYear()
+    '''
 def cardNickname():
-'''public Mask cardNickname()
-'''
-pass
+    '''    public Mask cardNickname()
+    '''
 def cardType():
-'''public Mask cardType()
-'''
-pass
+    '''    public Mask cardType()
+    '''
 def cardVerificationNumber():
-'''public Mask cardVerificationNumber()
-'''
-pass
+    '''    public Mask cardVerificationNumber()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def lastFourPaymentCardDigits():
-'''public Mask lastFourPaymentCardDigits()
-'''
-pass
+    '''    public Mask lastFourPaymentCardDigits()
+    '''
 def lastPaymentDate():
-'''public Mask lastPaymentDate()
-'''
-pass
+    '''    public Mask lastPaymentDate()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def paymentTerms():
-'''public Mask paymentTerms()
-'''
-pass
+    '''    public Mask paymentTerms()
+    '''
 def percentDiscountOnetime():
-'''public Mask percentDiscountOnetime()
-'''
-pass
+    '''    public Mask percentDiscountOnetime()
+    '''
 def percentDiscountRecurring():
-'''public Mask percentDiscountRecurring()
-'''
-pass
+    '''    public Mask percentDiscountRecurring()
+    '''
 def sparePoolAmount():
-'''public Mask sparePoolAmount()
-'''
-pass
+    '''    public Mask sparePoolAmount()
+    '''
 def vatId():
-'''public Mask vatId()
-'''
-pass
+    '''    public Mask vatId()
+    '''
 def achInformationCount():
-'''public Mask achInformationCount()
-'''
-pass
+    '''    public Mask achInformationCount()
+    '''

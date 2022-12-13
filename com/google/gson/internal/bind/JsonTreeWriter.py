@@ -1,54 +1,42 @@
 def JsonTreeWriter():
-'''public JsonTreeWriter()
-'''
-pass
+    '''    public JsonTreeWriter()
+    '''
 def get():
-'''public JsonElement get()
-'''
-pass
+    '''    public JsonElement get()
+    '''
 def beginArray():
-'''public JsonWriter beginArray()
-'''
-pass
+    '''    public JsonWriter beginArray()
+    '''
 def endArray():
-'''public JsonWriter endArray()
-'''
-pass
+    '''    public JsonWriter endArray()
+    '''
 def beginObject():
-'''public JsonWriter beginObject()
-'''
-pass
+    '''    public JsonWriter beginObject()
+    '''
 def endObject():
-'''public JsonWriter endObject()
-'''
-pass
+    '''    public JsonWriter endObject()
+    '''
 def name():
-'''public JsonWriter name(final String name)
-'''
-pass
+    '''    public JsonWriter name(final String name)
+    '''
 def value():
-'''public JsonWriter value(final String value)
-public JsonWriter value(final boolean value)
-public JsonWriter value(final double value)
-public JsonWriter value(final long value)
-public JsonWriter value(final Number value)
-'''
-pass
+    '''    public JsonWriter value(final String value)
+    public JsonWriter value(final boolean value)
+    public JsonWriter value(final double value)
+    public JsonWriter value(final long value)
+    public JsonWriter value(final Number value)
+    '''
 def nullValue():
-'''public JsonWriter nullValue()
-'''
-pass
+    '''    public JsonWriter nullValue()
+    '''
 def flush():
-'''public void flush()
-public void flush()
-'''
-pass
+    '''    public void flush()
+    public void flush()
+    '''
 def close():
-'''public void close()
-public void close()
-'''
-pass
+    '''    public void close()
+    public void close()
+    '''
 def write():
-'''public void write(final char[] buffer, final int offset, final int counter)
-'''
-pass
+    '''    public void write(final char[] buffer, final int offset, final int counter)
+    '''

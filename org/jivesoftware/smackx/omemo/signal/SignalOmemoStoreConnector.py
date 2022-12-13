@@ -1,80 +1,60 @@
 def SignalOmemoStoreConnector():
-'''public SignalOmemoStoreConnector(final OmemoManager omemoManager, final OmemoStore<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> store)
-'''
-pass
+    '''    public SignalOmemoStoreConnector(final OmemoManager omemoManager, final OmemoStore<IdentityKeyPair, IdentityKey, PreKeyRecord, SignedPreKeyRecord, SessionRecord, SignalProtocolAddress, ECPublicKey, PreKeyBundle, SessionCipher> store)
+    '''
 def getIdentityKeyPair():
-'''public IdentityKeyPair getIdentityKeyPair()
-'''
-pass
+    '''    public IdentityKeyPair getIdentityKeyPair()
+    '''
 def getLocalRegistrationId():
-'''public int getLocalRegistrationId()
-'''
-pass
+    '''    public int getLocalRegistrationId()
+    '''
 def saveIdentity():
-'''public void saveIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)
-'''
-pass
+    '''    public void saveIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)
+    '''
 def isTrustedIdentity():
-'''public boolean isTrustedIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)
-'''
-pass
+    '''    public boolean isTrustedIdentity(final SignalProtocolAddress signalProtocolAddress, final IdentityKey identityKey)
+    '''
 def loadPreKey():
-'''public PreKeyRecord loadPreKey(final int i)
-'''
-pass
+    '''    public PreKeyRecord loadPreKey(final int i)
+    '''
 def storePreKey():
-'''public void storePreKey(final int i, final PreKeyRecord preKeyRecord)
-'''
-pass
+    '''    public void storePreKey(final int i, final PreKeyRecord preKeyRecord)
+    '''
 def containsPreKey():
-'''public boolean containsPreKey(final int i)
-'''
-pass
+    '''    public boolean containsPreKey(final int i)
+    '''
 def removePreKey():
-'''public void removePreKey(final int i)
-'''
-pass
+    '''    public void removePreKey(final int i)
+    '''
 def loadSession():
-'''public SessionRecord loadSession(final SignalProtocolAddress signalProtocolAddress)
-'''
-pass
+    '''    public SessionRecord loadSession(final SignalProtocolAddress signalProtocolAddress)
+    '''
 def getSubDeviceSessions():
-'''public List<Integer> getSubDeviceSessions(final String s)
-'''
-pass
+    '''    public List<Integer> getSubDeviceSessions(final String s)
+    '''
 def storeSession():
-'''public void storeSession(final SignalProtocolAddress signalProtocolAddress, final SessionRecord sessionRecord)
-'''
-pass
+    '''    public void storeSession(final SignalProtocolAddress signalProtocolAddress, final SessionRecord sessionRecord)
+    '''
 def containsSession():
-'''public boolean containsSession(final SignalProtocolAddress signalProtocolAddress)
-'''
-pass
+    '''    public boolean containsSession(final SignalProtocolAddress signalProtocolAddress)
+    '''
 def deleteSession():
-'''public void deleteSession(final SignalProtocolAddress signalProtocolAddress)
-'''
-pass
+    '''    public void deleteSession(final SignalProtocolAddress signalProtocolAddress)
+    '''
 def deleteAllSessions():
-'''public void deleteAllSessions(final String s)
-'''
-pass
+    '''    public void deleteAllSessions(final String s)
+    '''
 def loadSignedPreKey():
-'''public SignedPreKeyRecord loadSignedPreKey(final int i)
-'''
-pass
+    '''    public SignedPreKeyRecord loadSignedPreKey(final int i)
+    '''
 def loadSignedPreKeys():
-'''public List<SignedPreKeyRecord> loadSignedPreKeys()
-'''
-pass
+    '''    public List<SignedPreKeyRecord> loadSignedPreKeys()
+    '''
 def storeSignedPreKey():
-'''public void storeSignedPreKey(final int i, final SignedPreKeyRecord signedPreKeyRecord)
-'''
-pass
+    '''    public void storeSignedPreKey(final int i, final SignedPreKeyRecord signedPreKeyRecord)
+    '''
 def containsSignedPreKey():
-'''public boolean containsSignedPreKey(final int i)
-'''
-pass
+    '''    public boolean containsSignedPreKey(final int i)
+    '''
 def removeSignedPreKey():
-'''public void removeSignedPreKey(final int i)
-'''
-pass
+    '''    public void removeSignedPreKey(final int i)
+    '''

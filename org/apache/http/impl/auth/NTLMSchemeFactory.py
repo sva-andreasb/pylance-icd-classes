@@ -1,8 +1,6 @@
 def newInstance():
-'''public AuthScheme newInstance(final HttpParams params)
-'''
-pass
+    '''    public AuthScheme newInstance(final HttpParams params)
+    '''
 def create():
-'''public AuthScheme create(final HttpContext context)
-'''
-pass
+    '''    public AuthScheme create(final HttpContext context)
+    '''

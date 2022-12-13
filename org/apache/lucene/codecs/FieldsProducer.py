@@ -1,4 +1,3 @@
 def getMergeInstance():
-'''public FieldsProducer getMergeInstance()
-'''
-pass
+    '''    public FieldsProducer getMergeInstance()
+    '''

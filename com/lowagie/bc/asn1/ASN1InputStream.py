@@ -1,8 +1,6 @@
 def ASN1InputStream():
-'''public ASN1InputStream(final InputStream is)
-'''
-pass
+    '''    public ASN1InputStream(final InputStream is)
+    '''
 def readObject():
-'''public DERObject readObject()
-'''
-pass
+    '''    public DERObject readObject()
+    '''

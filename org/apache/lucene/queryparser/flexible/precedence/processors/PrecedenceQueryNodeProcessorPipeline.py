@@ -1,4 +1,3 @@
 def PrecedenceQueryNodeProcessorPipeline():
-'''public PrecedenceQueryNodeProcessorPipeline(final QueryConfigHandler queryConfig)
-'''
-pass
+    '''    public PrecedenceQueryNodeProcessorPipeline(final QueryConfigHandler queryConfig)
+    '''

@@ -1,37 +1,28 @@
 def RelationInfoBase():
-'''public RelationInfoBase(final String name, final String src, final String dest, final String sqlexpr)
-public RelationInfoBase(final long uniqueId, final int tenantId, final String name, final String src, final String dest, final String sqlexpr, final String cardinality, final String dbjoinrequired)
-'''
-pass
+    '''    public RelationInfoBase(final String name, final String src, final String dest, final String sqlexpr)
+    public RelationInfoBase(final long uniqueId, final int tenantId, final String name, final String src, final String dest, final String sqlexpr, final String cardinality, final String dbjoinrequired)
+    '''
 def getDest():
-'''public String getDest()
-'''
-pass
+    '''    public String getDest()
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSqlExpr():
-'''public String getSqlExpr()
-'''
-pass
+    '''    public String getSqlExpr()
+    '''
 def getCardinality():
-'''public String getCardinality()
-'''
-pass
+    '''    public String getCardinality()
+    '''
 def getDbJoinReq():
-'''public boolean getDbJoinReq()
-'''
-pass
+    '''    public boolean getDbJoinReq()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

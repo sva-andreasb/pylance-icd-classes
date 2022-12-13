@@ -58,54 +58,43 @@ INVALID_RESPONSE = "int  100"
 AMBIGUOUS_RESPONSE = "int  101"
 TLS_NOT_SUPPORTED = "int  112"
 def LDAPException():
-'''public LDAPException()
-public LDAPException(final String message, final int n, final String s)
-public LDAPException(final String message, final int n, final String s, final Throwable t)
-public LDAPException(final String message, final int n, final String s, final String s2)
-'''
-pass
+    '''    public LDAPException()
+    public LDAPException(final String message, final int n, final String s)
+    public LDAPException(final String message, final int n, final String s, final Throwable t)
+    public LDAPException(final String message, final int n, final String s, final String s2)
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''
 def getLDAPErrorMessage():
-'''public String getLDAPErrorMessage()
-'''
-pass
+    '''    public String getLDAPErrorMessage()
+    '''
 def getResultCode():
-'''public int getResultCode()
-'''
-pass
+    '''    public int getResultCode()
+    '''
 def getMatchedDN():
-'''public String getMatchedDN()
-'''
-pass
+    '''    public String getMatchedDN()
+    '''
 def resultCodeToString():
-'''public String resultCodeToString()
-public static String resultCodeToString(final int n)
-public String resultCodeToString(final Locale locale)
-public static String resultCodeToString(final int n, final Locale locale)
-'''
-pass
+    '''    public String resultCodeToString()
+    public static String resultCodeToString(final int n)
+    public String resultCodeToString(final Locale locale)
+    public static String resultCodeToString(final int n, final Locale locale)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def printStackTrace():
-'''public void printStackTrace()
-public void printStackTrace(final PrintStream s)
-public void printStackTrace(final PrintWriter s)
-'''
-pass
+    '''    public void printStackTrace()
+    public void printStackTrace(final PrintStream s)
+    public void printStackTrace(final PrintWriter s)
+    '''
 def fillInStackTrace():
-'''public Throwable fillInStackTrace()
-'''
-pass
+    '''    public Throwable fillInStackTrace()
+    '''
 def getLocalizedMessage():
-'''public String getLocalizedMessage()
-'''
-pass
+    '''    public String getLocalizedMessage()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

@@ -1,4 +1,3 @@
 def GetReplicaInfoRequest():
-'''public GetReplicaInfoRequest(final String s, final String s2)
-'''
-pass
+    '''    public GetReplicaInfoRequest(final String s, final String s2)
+    '''

@@ -1,21 +1,16 @@
 def AuthSealedObject():
-'''public AuthSealedObject(final Serializable obj)
-public AuthSealedObject(final SealedObject so, final String salt)
-'''
-pass
+    '''    public AuthSealedObject(final Serializable obj)
+    public AuthSealedObject(final SealedObject so, final String salt)
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''
 def unSeal():
-'''public Object unSeal(final char[] password)
-'''
-pass
+    '''    public Object unSeal(final char[] password)
+    '''
 def getSalt():
-'''public String getSalt()
-'''
-pass
+    '''    public String getSalt()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

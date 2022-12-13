@@ -1,13 +1,10 @@
 def Oo():
-'''public Oo()
-public Oo(final boolean dm)
-'''
-pass
+    '''    public Oo()
+    public Oo(final boolean dm)
+    '''
 def compare():
-'''public int compare(final File file1, final File file2)
-'''
-pass
+    '''    public int compare(final File file1, final File file2)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,102 +1,77 @@
 def SKDActivityAttrFilter():
-'''public SKDActivityAttrFilter()
-'''
-pass
+    '''    public SKDActivityAttrFilter()
+    '''
 def showHiddenActivities():
-'''public void showHiddenActivities(final boolean show)
-'''
-pass
+    '''    public void showHiddenActivities(final boolean show)
+    '''
 def setRegex():
-'''public void setRegex(String regex)
-'''
-pass
+    '''    public void setRegex(String regex)
+    '''
 def getRegex():
-'''public String getRegex()
-'''
-pass
+    '''    public String getRegex()
+    '''
 def filterActivitiesBasedOnCrafts():
-'''public void filterActivitiesBasedOnCrafts(final boolean filterBasedOnCrafts)
-'''
-pass
+    '''    public void filterActivitiesBasedOnCrafts(final boolean filterBasedOnCrafts)
+    '''
 def filterReqBasedOnActivities():
-'''public void filterReqBasedOnActivities(final boolean filterReqBasedOnActivities)
-'''
-pass
+    '''    public void filterReqBasedOnActivities(final boolean filterReqBasedOnActivities)
+    '''
 def setActivitiesNeeded():
-'''public void setActivitiesNeeded(final HashSet activitiesNeeded)
-'''
-pass
+    '''    public void setActivitiesNeeded(final HashSet activitiesNeeded)
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''
 def evaluate():
-'''public boolean evaluate(final IlvActivity activity)
-'''
-pass
+    '''    public boolean evaluate(final IlvActivity activity)
+    '''
 def setQbeFilter():
-'''public void setQbeFilter(final Map<String, String> qbeattrs)
-'''
-pass
+    '''    public void setQbeFilter(final Map<String, String> qbeattrs)
+    '''
 def reEvaluate():
-'''public void reEvaluate()
-'''
-pass
+    '''    public void reEvaluate()
+    '''
 def resetQbe():
-'''public void resetQbe()
-'''
-pass
+    '''    public void resetQbe()
+    '''
 def setQbe():
-'''public void setQbe(String attrName, final String expr)
-'''
-pass
+    '''    public void setQbe(String attrName, final String expr)
+    '''
 def getQbe():
-'''public String getQbe(String attrName)
-public String[][] getQbe()
-'''
-pass
+    '''    public String getQbe(String attrName)
+    public String[][] getQbe()
+    '''
 def hasQbe():
-'''public boolean hasQbe()
-'''
-pass
+    '''    public boolean hasQbe()
+    '''
 def satisfy():
-'''public boolean satisfy(final IlvActivity activity)
-public boolean satisfy(final IlvActivity activity)
-'''
-pass
+    '''    public boolean satisfy(final IlvActivity activity)
+    public boolean satisfy(final IlvActivity activity)
+    '''
 def setQbeExactMatch():
-'''public void setQbeExactMatch(final boolean state)
-'''
-pass
+    '''    public void setQbeExactMatch(final boolean state)
+    '''
 def setQbeCaseSensitive():
-'''public void setQbeCaseSensitive(final boolean state)
-'''
-pass
+    '''    public void setQbeCaseSensitive(final boolean state)
+    '''
 def setOperatorOr():
-'''public void setOperatorOr()
-'''
-pass
+    '''    public void setOperatorOr()
+    '''
 def isUsingQbeExactMatch():
-'''public boolean isUsingQbeExactMatch()
-'''
-pass
+    '''    public boolean isUsingQbeExactMatch()
+    '''
 def ignoreQbeExactMatchSet():
-'''public void ignoreQbeExactMatchSet(final boolean flag)
-'''
-pass
+    '''    public void ignoreQbeExactMatchSet(final boolean flag)
+    '''
 def isIgnoreQbeExactMatchSet():
-'''public boolean isIgnoreQbeExactMatchSet()
-'''
-pass
+    '''    public boolean isIgnoreQbeExactMatchSet()
+    '''
 def setGanttConfigInfo():
-'''public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
-'''
-pass
+    '''    public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def QbeExpression():
-'''public QbeExpression(final String attrName, final String expr)
-'''
-pass
+    '''    public QbeExpression(final String attrName, final String expr)
+    '''

@@ -1,5 +1,4 @@
-NULL_NAME = "String  Null""
+NULL_NAME = "String  \"Null\""
 def NullConfiguration():
-'''public NullConfiguration()
-'''
-pass
+    '''    public NullConfiguration()
+    '''

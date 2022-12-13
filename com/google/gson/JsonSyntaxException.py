@@ -1,6 +1,5 @@
 def JsonSyntaxException():
-'''public JsonSyntaxException(final String msg)
-public JsonSyntaxException(final String msg, final Throwable cause)
-public JsonSyntaxException(final Throwable cause)
-'''
-pass
+    '''    public JsonSyntaxException(final String msg)
+    public JsonSyntaxException(final String msg, final Throwable cause)
+    public JsonSyntaxException(final Throwable cause)
+    '''

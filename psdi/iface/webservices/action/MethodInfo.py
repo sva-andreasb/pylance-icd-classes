@@ -1,96 +1,72 @@
 def MethodInfo():
-'''public MethodInfo(final Method method)
-'''
-pass
+    '''    public MethodInfo(final Method method)
+    '''
 def getMethod():
-'''public Method getMethod()
-'''
-pass
+    '''    public Method getMethod()
+    '''
 def isVoidReturnType():
-'''public boolean isVoidReturnType()
-'''
-pass
+    '''    public boolean isVoidReturnType()
+    '''
 def getParameters():
-'''public ParamInfo[] getParameters()
-'''
-pass
+    '''    public ParamInfo[] getParameters()
+    '''
 def getOperationName():
-'''public String getOperationName()
-'''
-pass
+    '''    public String getOperationName()
+    '''
 def isAuthEnabled():
-'''public boolean isAuthEnabled()
-'''
-pass
+    '''    public boolean isAuthEnabled()
+    '''
 def getAuthApp():
-'''public String getAuthApp()
-'''
-pass
+    '''    public String getAuthApp()
+    '''
 def getSigOption():
-'''public String getSigOption()
-'''
-pass
+    '''    public String getSigOption()
+    '''
 def isHttpGET():
-'''public boolean isHttpGET()
-'''
-pass
+    '''    public boolean isHttpGET()
+    '''
 def isExcludeWS():
-'''public boolean isExcludeWS()
-'''
-pass
+    '''    public boolean isExcludeWS()
+    '''
 def getReturnTypeInfo():
-'''public ParamInfo getReturnTypeInfo()
-'''
-pass
+    '''    public ParamInfo getReturnTypeInfo()
+    '''
 def setReturnTypeInfo():
-'''public void setReturnTypeInfo(final ParamInfo returnTypeInfo)
-'''
-pass
+    '''    public void setReturnTypeInfo(final ParamInfo returnTypeInfo)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setRequiresRESTRequest():
-'''public void setRequiresRESTRequest()
-'''
-pass
+    '''    public void setRequiresRESTRequest()
+    '''
 def isRequiresRESTRequest():
-'''public boolean isRequiresRESTRequest()
-'''
-pass
+    '''    public boolean isRequiresRESTRequest()
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def setTag():
-'''public void setTag(String tag)
-'''
-pass
+    '''    public void setTag(String tag)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(String description)
-'''
-pass
+    '''    public void setDescription(String description)
+    '''
 def setTagLocalized():
-'''public void setTagLocalized(final boolean localize)
-'''
-pass
+    '''    public void setTagLocalized(final boolean localize)
+    '''
 def isInternal():
-'''public boolean isInternal()
-'''
-pass
+    '''    public boolean isInternal()
+    '''
 def setInternal():
-'''public void setInternal(final boolean internal)
-'''
-pass
+    '''    public void setInternal(final boolean internal)
+    '''
 def setParamFacets():
-'''public void setParamFacets(final String value)
-'''
-pass
+    '''    public void setParamFacets(final String value)
+    '''
 def getParamFacet():
-'''public String getParamFacet(final String paramName)
-'''
-pass
+    '''    public String getParamFacet(final String paramName)
+    '''

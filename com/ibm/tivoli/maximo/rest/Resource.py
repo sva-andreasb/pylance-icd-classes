@@ -1,126 +1,95 @@
 def getResourceLocatorId():
-'''public String getResourceLocatorId()
-'''
-pass
+    '''    public String getResourceLocatorId()
+    '''
 def setResourceLocatorId():
-'''public void setResourceLocatorId(final String resourceLocatorId)
-'''
-pass
+    '''    public void setResourceLocatorId(final String resourceLocatorId)
+    '''
 def setDiscard():
-'''public void setDiscard(final boolean discard)
-'''
-pass
+    '''    public void setDiscard(final boolean discard)
+    '''
 def canDiscard():
-'''public boolean canDiscard()
-'''
-pass
+    '''    public boolean canDiscard()
+    '''
 def isCachedInSession():
-'''public boolean isCachedInSession()
-'''
-pass
+    '''    public boolean isCachedInSession()
+    '''
 def setCachedInSession():
-'''public void setCachedInSession(final boolean cachedInSession)
-'''
-pass
+    '''    public void setCachedInSession(final boolean cachedInSession)
+    '''
 def setResourceMetadata():
-'''public void setResourceMetadata(final String key, final String value)
-'''
-pass
+    '''    public void setResourceMetadata(final String key, final String value)
+    '''
 def getResourceMetadata():
-'''public Map<String, String> getResourceMetadata()
-'''
-pass
+    '''    public Map<String, String> getResourceMetadata()
+    '''
 def Resource():
-'''public Resource(final Object resource, final String type, final String name)
-public Resource(final Object resource, final String type, final String name, final boolean modified)
-public Resource(final Resource resource)
-'''
-pass
+    '''    public Resource(final Object resource, final String type, final String name)
+    public Resource(final Object resource, final String type, final String name, final boolean modified)
+    public Resource(final Resource resource)
+    '''
 def getResource():
-'''public Object getResource()
-'''
-pass
+    '''    public Object getResource()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def isLink():
-'''public boolean isLink()
-'''
-pass
+    '''    public boolean isLink()
+    '''
 def setLink():
-'''public void setLink(final boolean link)
-'''
-pass
+    '''    public void setLink(final boolean link)
+    '''
 def setModified():
-'''public void setModified(final boolean modified)
-'''
-pass
+    '''    public void setModified(final boolean modified)
+    '''
 def setLastModified():
-'''public void setLastModified(final Date lastModified)
-'''
-pass
+    '''    public void setLastModified(final Date lastModified)
+    '''
 def getLastModified():
-'''public Date getLastModified()
-'''
-pass
+    '''    public Date getLastModified()
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String etag)
-'''
-pass
+    '''    public void setETag(final String etag)
+    '''
 def getResolvedResourcesCollection():
-'''public List getResolvedResourcesCollection()
-'''
-pass
+    '''    public List getResolvedResourcesCollection()
+    '''
 def setResolvedResourcesCollection():
-'''public void setResolvedResourcesCollection(final List resolvedResourcesCollection)
-'''
-pass
+    '''    public void setResolvedResourcesCollection(final List resolvedResourcesCollection)
+    '''
 def getResolvedCollectionSerializeCount():
-'''public int getResolvedCollectionSerializeCount()
-'''
-pass
+    '''    public int getResolvedCollectionSerializeCount()
+    '''
 def getResolvedCollectionTotalCount():
-'''public int getResolvedCollectionTotalCount()
-'''
-pass
+    '''    public int getResolvedCollectionTotalCount()
+    '''
 def getResolvedCollectionStartCount():
-'''public int getResolvedCollectionStartCount()
-'''
-pass
+    '''    public int getResolvedCollectionStartCount()
+    '''
 def setResolvedCollectionTotalCount():
-'''public void setResolvedCollectionTotalCount(final int resolvedCollectionTotalCount)
-'''
-pass
+    '''    public void setResolvedCollectionTotalCount(final int resolvedCollectionTotalCount)
+    '''
 def setResolvedCollectionStartCount():
-'''public void setResolvedCollectionStartCount(final int resolvedCollectionStartCount)
-'''
-pass
+    '''    public void setResolvedCollectionStartCount(final int resolvedCollectionStartCount)
+    '''
 def getConfiguredName():
-'''public String getConfiguredName()
-'''
-pass
+    '''    public String getConfiguredName()
+    '''
 def releaseResource():
-'''public void releaseResource()
-'''
-pass
+    '''    public void releaseResource()
+    '''

@@ -1,180 +1,135 @@
 def ResultSetPortlet():
-'''public ResultSetPortlet()
-'''
-pass
+    '''    public ResultSetPortlet()
+    '''
 def getResultSet():
-'''public MboSetData getResultSet()
-'''
-pass
+    '''    public MboSetData getResultSet()
+    '''
 def getResultMboSetInfo():
-'''public MboSetInfo getResultMboSetInfo()
-'''
-pass
+    '''    public MboSetInfo getResultMboSetInfo()
+    '''
 def getConfigMboSetInfo():
-'''public MboSetInfo getConfigMboSetInfo()
-'''
-pass
+    '''    public MboSetInfo getConfigMboSetInfo()
+    '''
 def generateGraphData():
-'''public ArrayList generateGraphData()
-'''
-pass
+    '''    public ArrayList generateGraphData()
+    '''
 def getNoOfRecords():
-'''public int getNoOfRecords()
-'''
-pass
+    '''    public int getNoOfRecords()
+    '''
 def getKeyColumn():
-'''public String getKeyColumn()
-'''
-pass
+    '''    public String getKeyColumn()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getResultSetAttributes():
-'''public Vector getResultSetAttributes()
-'''
-pass
+    '''    public Vector getResultSetAttributes()
+    '''
 def getSortAttribute():
-'''public String getSortAttribute(final String sortIndex)
-'''
-pass
+    '''    public String getSortAttribute(final String sortIndex)
+    '''
 def getApp():
-'''public String getApp()
-'''
-pass
+    '''    public String getApp()
+    '''
 def isSiteError():
-'''public boolean isSiteError()
-'''
-pass
+    '''    public boolean isSiteError()
+    '''
 def getConditions():
-'''public HashSet getConditions()
-'''
-pass
+    '''    public HashSet getConditions()
+    '''
 def getConditionAttribute():
-'''public String getConditionAttribute()
-'''
-pass
+    '''    public String getConditionAttribute()
+    '''
 def getGroupByAttribute():
-'''public String[] getGroupByAttribute()
-'''
-pass
+    '''    public String[] getGroupByAttribute()
+    '''
 def compareValues():
-'''public String compareValues(final MboValueData mvd)
-'''
-pass
+    '''    public String compareValues(final MboValueData mvd)
+    '''
 def getGraphDetails():
-'''public Properties getGraphDetails()
-'''
-pass
+    '''    public Properties getGraphDetails()
+    '''
 def getFilterWhere():
-'''public String getFilterWhere(final String rsKey)
-'''
-pass
+    '''    public String getFilterWhere(final String rsKey)
+    '''
 def setUpDefaults():
-'''public void setUpDefaults()
-'''
-pass
+    '''    public void setUpDefaults()
+    '''
 def setQbes():
-'''public void setQbes(final String qbeKeyValuePair)
-'''
-pass
+    '''    public void setQbes(final String qbeKeyValuePair)
+    '''
 def getQbeSetting():
-'''public String getQbeSetting(final String attribName)
-'''
-pass
+    '''    public String getQbeSetting(final String attribName)
+    '''
 def clearfilter():
-'''public int clearfilter()
-'''
-pass
+    '''    public int clearfilter()
+    '''
 def isFilterSet():
-'''public boolean isFilterSet()
-'''
-pass
+    '''    public boolean isFilterSet()
+    '''
 def queryExists():
-'''public boolean queryExists()
-'''
-pass
+    '''    public boolean queryExists()
+    '''
 def getLabels():
-'''public String[] getLabels()
-'''
-pass
+    '''    public String[] getLabels()
+    '''
 def changeview():
-'''public void changeview()
-'''
-pass
+    '''    public void changeview()
+    '''
 def rsdisplay():
-'''public int rsdisplay()
-'''
-pass
+    '''    public int rsdisplay()
+    '''
 def setqbeandfilter():
-'''public void setqbeandfilter()
-'''
-pass
+    '''    public void setqbeandfilter()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''
 def hasViewChanged():
-'''public boolean hasViewChanged()
-'''
-pass
+    '''    public boolean hasViewChanged()
+    '''
 def setViewChanged():
-'''public void setViewChanged(final boolean flag)
-'''
-pass
+    '''    public void setViewChanged(final boolean flag)
+    '''
 def openrecord():
-'''public void openrecord()
-'''
-pass
+    '''    public void openrecord()
+    '''
 def gotoportletapp():
-'''public void gotoportletapp()
-'''
-pass
+    '''    public void gotoportletapp()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def errorInPortlet():
-'''public String errorInPortlet()
-'''
-pass
+    '''    public String errorInPortlet()
+    '''
 def getGraphError():
-'''public String getGraphError()
-'''
-pass
+    '''    public String getGraphError()
+    '''
 def showrsdata():
-'''public void showrsdata()
-'''
-pass
+    '''    public void showrsdata()
+    '''
 def togglefilter():
-'''public void togglefilter()
-'''
-pass
+    '''    public void togglefilter()
+    '''
 def isFilterOpen():
-'''public String isFilterOpen()
-'''
-pass
+    '''    public String isFilterOpen()
+    '''
 def setFilterToggled():
-'''public void setFilterToggled(final boolean flag)
-'''
-pass
+    '''    public void setFilterToggled(final boolean flag)
+    '''
 def setErrorCondition():
-'''public void setErrorCondition(final boolean flag)
-'''
-pass
+    '''    public void setErrorCondition(final boolean flag)
+    '''
 def getErrorCondition():
-'''public boolean getErrorCondition()
-'''
-pass
+    '''    public boolean getErrorCondition()
+    '''
 def getNonPersistentColumns():
-'''public ArrayList getNonPersistentColumns()
-'''
-pass
+    '''    public ArrayList getNonPersistentColumns()
+    '''
 def canDownloadcsv():
-'''public Object canDownloadcsv()
-'''
-pass
+    '''    public Object canDownloadcsv()
+    '''
 def getQueryMboSet():
-'''public MboSetRemote getQueryMboSet(final String orderby)
-'''
-pass
+    '''    public MboSetRemote getQueryMboSet(final String orderby)
+    '''

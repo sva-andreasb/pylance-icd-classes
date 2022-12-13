@@ -1,4 +1,3 @@
 def isPost():
-'''public boolean isPost()
-'''
-pass
+    '''    public boolean isPost()
+    '''

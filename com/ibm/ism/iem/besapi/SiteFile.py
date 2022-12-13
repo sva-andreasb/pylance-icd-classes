@@ -1,56 +1,42 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def getID():
-'''public BigInteger getID()
-'''
-pass
+    '''    public BigInteger getID()
+    '''
 def setID():
-'''public void setID(final BigInteger value)
-'''
-pass
+    '''    public void setID(final BigInteger value)
+    '''
 def getLastModified():
-'''public String getLastModified()
-'''
-pass
+    '''    public String getLastModified()
+    '''
 def setLastModified():
-'''public void setLastModified(final String value)
-'''
-pass
+    '''    public void setLastModified(final String value)
+    '''
 def getFileSize():
-'''public BigInteger getFileSize()
-'''
-pass
+    '''    public BigInteger getFileSize()
+    '''
 def setFileSize():
-'''public void setFileSize(final BigInteger value)
-'''
-pass
+    '''    public void setFileSize(final BigInteger value)
+    '''
 def isIsClientFile():
-'''public Boolean isIsClientFile()
-'''
-pass
+    '''    public Boolean isIsClientFile()
+    '''
 def setIsClientFile():
-'''public void setIsClientFile(final Boolean value)
-'''
-pass
+    '''    public void setIsClientFile(final Boolean value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''
 def getLastModifiedx():
-'''public String getLastModifiedx()
-'''
-pass
+    '''    public String getLastModifiedx()
+    '''
 def setLastModifiedx():
-'''public void setLastModifiedx(final String value)
-'''
-pass
+    '''    public void setLastModifiedx(final String value)
+    '''

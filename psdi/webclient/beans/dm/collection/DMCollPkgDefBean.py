@@ -1,12 +1,9 @@
 def callInvalidate():
-'''public void callInvalidate()
-'''
-pass
+    '''    public void callInvalidate()
+    '''
 def launchpkgdef():
-'''public int launchpkgdef()
-'''
-pass
+    '''    public int launchpkgdef()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''

@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def getInstanceMbo():
-'''public CrontaskInstanceRemote getInstanceMbo(final String taskName, final String instanceName)
-'''
-pass
+    '''    public CrontaskInstanceRemote getInstanceMbo(final String taskName, final String instanceName)
+    '''

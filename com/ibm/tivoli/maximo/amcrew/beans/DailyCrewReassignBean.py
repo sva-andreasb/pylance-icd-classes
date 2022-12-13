@@ -1,8 +1,6 @@
 def loadnextdialog():
-'''public int loadnextdialog()
-'''
-pass
+    '''    public int loadnextdialog()
+    '''
 def refreshCrew():
-'''public int refreshCrew()
-'''
-pass
+    '''    public int refreshCrew()
+    '''

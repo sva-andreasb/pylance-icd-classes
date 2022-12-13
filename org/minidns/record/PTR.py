@@ -1,4 +1,3 @@
 def parse():
-'''public static PTR parse(final DataInputStream dis, final byte[] data)
-'''
-pass
+    '''    public static PTR parse(final DataInputStream dis, final byte[] data)
+    '''

@@ -1,128 +1,96 @@
 def withHandlersFrom():
-'''public JavaType withHandlersFrom(final JavaType src)
-'''
-pass
+    '''    public JavaType withHandlersFrom(final JavaType src)
+    '''
 def forcedNarrowBy():
-'''public JavaType forcedNarrowBy(final Class<?> subclass)
-'''
-pass
+    '''    public JavaType forcedNarrowBy(final Class<?> subclass)
+    '''
 def hasRawClass():
-'''public final boolean hasRawClass(final Class<?> clz)
-'''
-pass
+    '''    public final boolean hasRawClass(final Class<?> clz)
+    '''
 def hasContentType():
-'''public boolean hasContentType()
-'''
-pass
+    '''    public boolean hasContentType()
+    '''
 def isTypeOrSubTypeOf():
-'''public final boolean isTypeOrSubTypeOf(final Class<?> clz)
-'''
-pass
+    '''    public final boolean isTypeOrSubTypeOf(final Class<?> clz)
+    '''
 def isTypeOrSuperTypeOf():
-'''public final boolean isTypeOrSuperTypeOf(final Class<?> clz)
-'''
-pass
+    '''    public final boolean isTypeOrSuperTypeOf(final Class<?> clz)
+    '''
 def isAbstract():
-'''public boolean isAbstract()
-'''
-pass
+    '''    public boolean isAbstract()
+    '''
 def isConcrete():
-'''public boolean isConcrete()
-'''
-pass
+    '''    public boolean isConcrete()
+    '''
 def isThrowable():
-'''public boolean isThrowable()
-'''
-pass
+    '''    public boolean isThrowable()
+    '''
 def isArrayType():
-'''public boolean isArrayType()
-'''
-pass
+    '''    public boolean isArrayType()
+    '''
 def isEnumType():
-'''public final boolean isEnumType()
-'''
-pass
+    '''    public final boolean isEnumType()
+    '''
 def isInterface():
-'''public final boolean isInterface()
-'''
-pass
+    '''    public final boolean isInterface()
+    '''
 def isPrimitive():
-'''public final boolean isPrimitive()
-'''
-pass
+    '''    public final boolean isPrimitive()
+    '''
 def isFinal():
-'''public final boolean isFinal()
-'''
-pass
+    '''    public final boolean isFinal()
+    '''
 def isCollectionLikeType():
-'''public boolean isCollectionLikeType()
-'''
-pass
+    '''    public boolean isCollectionLikeType()
+    '''
 def isMapLikeType():
-'''public boolean isMapLikeType()
-'''
-pass
+    '''    public boolean isMapLikeType()
+    '''
 def isJavaLangObject():
-'''public final boolean isJavaLangObject()
-'''
-pass
+    '''    public final boolean isJavaLangObject()
+    '''
 def useStaticType():
-'''public final boolean useStaticType()
-'''
-pass
+    '''    public final boolean useStaticType()
+    '''
 def hasGenericTypes():
-'''public boolean hasGenericTypes()
-'''
-pass
+    '''    public boolean hasGenericTypes()
+    '''
 def getKeyType():
-'''public JavaType getKeyType()
-'''
-pass
+    '''    public JavaType getKeyType()
+    '''
 def getContentType():
-'''public JavaType getContentType()
-'''
-pass
+    '''    public JavaType getContentType()
+    '''
 def getReferencedType():
-'''public JavaType getReferencedType()
-'''
-pass
+    '''    public JavaType getReferencedType()
+    '''
 def containedTypeOrUnknown():
-'''public JavaType containedTypeOrUnknown(final int index)
-'''
-pass
+    '''    public JavaType containedTypeOrUnknown(final int index)
+    '''
 def getValueHandler():
-'''public <T> T getValueHandler()
-'''
-pass
+    '''    public <T> T getValueHandler()
+    '''
 def getTypeHandler():
-'''public <T> T getTypeHandler()
-'''
-pass
+    '''    public <T> T getTypeHandler()
+    '''
 def getContentValueHandler():
-'''public Object getContentValueHandler()
-'''
-pass
+    '''    public Object getContentValueHandler()
+    '''
 def getContentTypeHandler():
-'''public Object getContentTypeHandler()
-'''
-pass
+    '''    public Object getContentTypeHandler()
+    '''
 def hasValueHandler():
-'''public boolean hasValueHandler()
-'''
-pass
+    '''    public boolean hasValueHandler()
+    '''
 def hasHandlers():
-'''public boolean hasHandlers()
-'''
-pass
+    '''    public boolean hasHandlers()
+    '''
 def getGenericSignature():
-'''public String getGenericSignature()
-'''
-pass
+    '''    public String getGenericSignature()
+    '''
 def getErasedSignature():
-'''public String getErasedSignature()
-'''
-pass
+    '''    public String getErasedSignature()
+    '''
 def hashCode():
-'''public final int hashCode()
-'''
-pass
+    '''    public final int hashCode()
+    '''

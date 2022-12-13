@@ -1,8 +1,6 @@
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

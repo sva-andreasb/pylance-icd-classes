@@ -1,5 +1,4 @@
 def DateParseException():
-'''public DateParseException()
-public DateParseException(final String message)
-'''
-pass
+    '''    public DateParseException()
+    public DateParseException(final String message)
+    '''

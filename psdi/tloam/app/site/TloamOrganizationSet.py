@@ -1,4 +1,3 @@
 def TloamOrganizationSet():
-'''public TloamOrganizationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TloamOrganizationSet(final MboServerInterface ms)
+    '''

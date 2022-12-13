@@ -1,7 +1,7 @@
 NOLIMIT = "byte  0"
 LT = "byte  1"
 MT = "byte  2"
-names = "String[]  { "M", "F", "N" }"
+names = "String[]  { \"M\", \"F\", \"N\" }"
 NODIRECTION = "byte  0"
 PAST = "byte  1"
 FUTURE = "byte  2"
@@ -46,12 +46,10 @@ M = "byte  0"
 F = "byte  1"
 N = "byte  2"
 def read():
-'''public static DataRecord read(final String ln, final RecordReader in)
-public static ScopeData read(final RecordReader in)
-'''
-pass
+    '''    public static DataRecord read(final String ln, final RecordReader in)
+    public static ScopeData read(final RecordReader in)
+    '''
 def write():
-'''public void write(final RecordWriter out)
-public void write(final RecordWriter out)
-'''
-pass
+    '''    public void write(final RecordWriter out)
+    public void write(final RecordWriter out)
+    '''

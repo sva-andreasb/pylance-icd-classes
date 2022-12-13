@@ -1,20 +1,15 @@
 def PlusPAppliesToTable():
-'''public PlusPAppliesToTable(final MboSet ms)
-'''
-pass
+    '''    public PlusPAppliesToTable(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String s, final String val)
-'''
-pass
+    '''    public void propagateKeyValue(final String s, final String val)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

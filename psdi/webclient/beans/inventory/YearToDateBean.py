@@ -1,12 +1,9 @@
 def YearToDateBean():
-'''public YearToDateBean()
-'''
-pass
+    '''    public YearToDateBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''

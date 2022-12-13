@@ -1,12 +1,9 @@
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getCellValue():
-'''public String getCellValue()
-'''
-pass
+    '''    public String getCellValue()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

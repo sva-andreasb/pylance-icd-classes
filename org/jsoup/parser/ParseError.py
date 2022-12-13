@@ -1,12 +1,9 @@
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def getPosition():
-'''public int getPosition()
-'''
-pass
+    '''    public int getPosition()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

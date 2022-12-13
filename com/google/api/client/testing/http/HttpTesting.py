@@ -1,1 +1,1 @@
-SIMPLE_URL = "String  http://google.com/""
+SIMPLE_URL = "String  \"http://google.com/\""

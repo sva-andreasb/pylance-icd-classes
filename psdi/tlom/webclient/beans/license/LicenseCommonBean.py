@@ -1,4 +1,3 @@
 def doRefresh():
-'''public int doRefresh()
-'''
-pass
+    '''    public int doRefresh()
+    '''

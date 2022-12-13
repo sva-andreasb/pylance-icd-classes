@@ -1,12 +1,9 @@
 def ReportDS():
-'''public ReportDS(final MboSet ms)
-'''
-pass
+    '''    public ReportDS(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

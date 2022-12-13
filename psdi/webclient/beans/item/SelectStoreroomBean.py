@@ -1,32 +1,24 @@
 def SelectStoreroomBean():
-'''public SelectStoreroomBean()
-'''
-pass
+    '''    public SelectStoreroomBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def additemstostoreroom():
-'''public int additemstostoreroom()
-'''
-pass
+    '''    public int additemstostoreroom()
+    '''
 def getInventorySet():
-'''public MboSetRemote getInventorySet()
-'''
-pass
+    '''    public MboSetRemote getInventorySet()
+    '''
 def getInventorySetBulk():
-'''public MboSetRemote getInventorySetBulk()
-'''
-pass
+    '''    public MboSetRemote getInventorySetBulk()
+    '''
 def additemstostoreroombulk():
-'''public int additemstostoreroombulk()
-'''
-pass
+    '''    public int additemstostoreroombulk()
+    '''
 def setValue():
-'''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-'''
-pass
+    '''    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''

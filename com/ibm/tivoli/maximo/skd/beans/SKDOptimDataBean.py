@@ -1,24 +1,18 @@
 def SKDOptimDataBean():
-'''public SKDOptimDataBean()
-'''
-pass
+    '''    public SKDOptimDataBean()
+    '''
 def saveoptmz():
-'''public int saveoptmz()
-'''
-pass
+    '''    public int saveoptmz()
+    '''
 def saveoptmzonly():
-'''public int saveoptmzonly()
-'''
-pass
+    '''    public int saveoptmzonly()
+    '''
 def runoptmz():
-'''public int runoptmz()
-'''
-pass
+    '''    public int runoptmz()
+    '''
 def saveinput():
-'''public void saveinput()
-'''
-pass
+    '''    public void saveinput()
+    '''
 def copyoptParamsFromTempSet():
-'''public void copyoptParamsFromTempSet(final MboSetRemote skdoptparamms, final MboSetRemote skdoptparammsTemp)
-'''
-pass
+    '''    public void copyoptParamsFromTempSet(final MboSetRemote skdoptparamms, final MboSetRemote skdoptparammsTemp)
+    '''

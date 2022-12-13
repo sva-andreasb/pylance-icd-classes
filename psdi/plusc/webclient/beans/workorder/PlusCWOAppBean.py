@@ -1,4 +1,3 @@
 def PlusCWOAppBean():
-'''public PlusCWOAppBean()
-'''
-pass
+    '''    public PlusCWOAppBean()
+    '''

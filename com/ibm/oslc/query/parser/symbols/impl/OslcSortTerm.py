@@ -1,32 +1,24 @@
 def OslcSortTerm():
-'''public OslcSortTerm()
-'''
-pass
+    '''    public OslcSortTerm()
+    '''
 def getIdentifier():
-'''public String getIdentifier()
-'''
-pass
+    '''    public String getIdentifier()
+    '''
 def setIdentifier():
-'''public void setIdentifier(final String identifier)
-'''
-pass
+    '''    public void setIdentifier(final String identifier)
+    '''
 def getSortOrder():
-'''public String getSortOrder()
-'''
-pass
+    '''    public String getSortOrder()
+    '''
 def setSortOrder():
-'''public void setSortOrder(final String sortOrder)
-'''
-pass
+    '''    public void setSortOrder(final String sortOrder)
+    '''
 def getScopedSortTerms():
-'''public List<IOslcSortTerm> getScopedSortTerms()
-'''
-pass
+    '''    public List<IOslcSortTerm> getScopedSortTerms()
+    '''
 def setScopedSortTerms():
-'''public void setScopedSortTerms(final List<IOslcSortTerm> nestedSortTerms)
-'''
-pass
+    '''    public void setScopedSortTerms(final List<IOslcSortTerm> nestedSortTerms)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

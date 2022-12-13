@@ -1,8 +1,6 @@
 def FldInventoryBinCnt():
-'''public FldInventoryBinCnt(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryBinCnt(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

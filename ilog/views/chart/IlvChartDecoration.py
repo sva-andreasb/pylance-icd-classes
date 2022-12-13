@@ -1,40 +1,30 @@
 def has3DSupport():
-'''public boolean has3DSupport()
-'''
-pass
+    '''    public boolean has3DSupport()
+    '''
 def beforeDraw():
-'''public void beforeDraw(final Graphics graphics)
-'''
-pass
+    '''    public void beforeDraw(final Graphics graphics)
+    '''
 def afterDraw():
-'''public void afterDraw(final Graphics graphics)
-'''
-pass
+    '''    public void afterDraw(final Graphics graphics)
+    '''
 def getBounds():
-'''public Rectangle2D getBounds(Rectangle2D rectangle2D)
-'''
-pass
+    '''    public Rectangle2D getBounds(Rectangle2D rectangle2D)
+    '''
 def getChart():
-'''public IlvChart getChart()
-'''
-pass
+    '''    public IlvChart getChart()
+    '''
 def repaint():
-'''public void repaint()
-'''
-pass
+    '''    public void repaint()
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def setVisible():
-'''public void setVisible(final boolean b)
-'''
-pass
+    '''    public void setVisible(final boolean b)
+    '''
 def getDrawOrder():
-'''public final int getDrawOrder()
-'''
-pass
+    '''    public final int getDrawOrder()
+    '''
 def setDrawOrder():
-'''public void setDrawOrder(final int c)
-'''
-pass
+    '''    public void setDrawOrder(final int c)
+    '''

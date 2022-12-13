@@ -1,52 +1,39 @@
 def FastCharStream():
-'''public FastCharStream(final Reader r)
-'''
-pass
+    '''    public FastCharStream(final Reader r)
+    '''
 def readChar():
-'''public final char readChar()
-'''
-pass
+    '''    public final char readChar()
+    '''
 def BeginToken():
-'''public final char BeginToken()
-'''
-pass
+    '''    public final char BeginToken()
+    '''
 def backup():
-'''public final void backup(final int amount)
-'''
-pass
+    '''    public final void backup(final int amount)
+    '''
 def GetImage():
-'''public final String GetImage()
-'''
-pass
+    '''    public final String GetImage()
+    '''
 def GetSuffix():
-'''public final char[] GetSuffix(final int len)
-'''
-pass
+    '''    public final char[] GetSuffix(final int len)
+    '''
 def Done():
-'''public final void Done()
-'''
-pass
+    '''    public final void Done()
+    '''
 def getColumn():
-'''public final int getColumn()
-'''
-pass
+    '''    public final int getColumn()
+    '''
 def getLine():
-'''public final int getLine()
-'''
-pass
+    '''    public final int getLine()
+    '''
 def getEndColumn():
-'''public final int getEndColumn()
-'''
-pass
+    '''    public final int getEndColumn()
+    '''
 def getEndLine():
-'''public final int getEndLine()
-'''
-pass
+    '''    public final int getEndLine()
+    '''
 def getBeginColumn():
-'''public final int getBeginColumn()
-'''
-pass
+    '''    public final int getBeginColumn()
+    '''
 def getBeginLine():
-'''public final int getBeginLine()
-'''
-pass
+    '''    public final int getBeginLine()
+    '''

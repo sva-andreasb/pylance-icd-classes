@@ -1,147 +1,111 @@
-COPYRIGHT = "String  \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
-ID_PATH_DELIMITER = "String  >""
+COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
+ID_PATH_DELIMITER = "String  \">\""
 def TimeWindowSet():
-'''public TimeWindowSet(final String id, final String name, final String description, final boolean unavailable)
-public TimeWindowSet(final String description, final boolean unavailable)
-'''
-pass
+    '''    public TimeWindowSet(final String id, final String name, final String description, final boolean unavailable)
+    public TimeWindowSet(final String description, final boolean unavailable)
+    '''
 def clearProperty():
-'''public void clearProperty(final String name)
-'''
-pass
+    '''    public void clearProperty(final String name)
+    '''
 def clearProperties():
-'''public void clearProperties()
-'''
-pass
+    '''    public void clearProperties()
+    '''
 def clearTimeWindows():
-'''public void clearTimeWindows()
-'''
-pass
+    '''    public void clearTimeWindows()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getIconImageString():
-'''public String getIconImageString()
-'''
-pass
+    '''    public String getIconImageString()
+    '''
 def getIdPath():
-'''public String[] getIdPath()
-'''
-pass
+    '''    public String[] getIdPath()
+    '''
 def getIdPathString():
-'''public String getIdPathString()
-'''
-pass
+    '''    public String getIdPathString()
+    '''
 def getObjectPath():
-'''public TimeWindowSet[] getObjectPath()
-'''
-pass
+    '''    public TimeWindowSet[] getObjectPath()
+    '''
 def getParent():
-'''public TimeWindowSet getParent()
-'''
-pass
+    '''    public TimeWindowSet getParent()
+    '''
 def getProperty():
-'''public Object getProperty(final String name)
-'''
-pass
+    '''    public Object getProperty(final String name)
+    '''
 def getTimeWindowAt():
-'''public TimeWindow getTimeWindowAt(final int index)
-'''
-pass
+    '''    public TimeWindow getTimeWindowAt(final int index)
+    '''
 def getTimeWindowCount():
-'''public int getTimeWindowCount()
-'''
-pass
+    '''    public int getTimeWindowCount()
+    '''
 def getTimeWindowIterator():
-'''public Iterator<TimeWindow> getTimeWindowIterator()
-'''
-pass
+    '''    public Iterator<TimeWindow> getTimeWindowIterator()
+    '''
 def hasProperty():
-'''public boolean hasProperty(final String name)
-'''
-pass
+    '''    public boolean hasProperty(final String name)
+    '''
 def invert():
-'''public List<TimeWindow> invert()
-'''
-pass
+    '''    public List<TimeWindow> invert()
+    '''
 def isAncestorDisabled():
-'''public boolean isAncestorDisabled()
-'''
-pass
+    '''    public boolean isAncestorDisabled()
+    '''
 def isAvailable():
-'''public boolean isAvailable()
-'''
-pass
+    '''    public boolean isAvailable()
+    '''
 def isChildrenHidden():
-'''public boolean isChildrenHidden()
-'''
-pass
+    '''    public boolean isChildrenHidden()
+    '''
 def isDisabled():
-'''public boolean isDisabled()
-'''
-pass
+    '''    public boolean isDisabled()
+    '''
 def isMerged():
-'''public boolean isMerged()
-'''
-pass
+    '''    public boolean isMerged()
+    '''
 def isSorted():
-'''public boolean isSorted()
-'''
-pass
+    '''    public boolean isSorted()
+    '''
 def isUnavailable():
-'''public boolean isUnavailable()
-'''
-pass
+    '''    public boolean isUnavailable()
+    '''
 def isZeroDurationTWsAllowed():
-'''public boolean isZeroDurationTWsAllowed()
-'''
-pass
+    '''    public boolean isZeroDurationTWsAllowed()
+    '''
 def locateTimeWindow():
-'''public int locateTimeWindow(final Date time)
-'''
-pass
+    '''    public int locateTimeWindow(final Date time)
+    '''
 def merge():
-'''public void merge()
-'''
-pass
+    '''    public void merge()
+    '''
 def removeFromParent():
-'''public void removeFromParent()
-'''
-pass
+    '''    public void removeFromParent()
+    '''
 def setChildrenHidden():
-'''public void setChildrenHidden(final boolean hidden)
-'''
-pass
+    '''    public void setChildrenHidden(final boolean hidden)
+    '''
 def setDisabled():
-'''public void setDisabled(final boolean disabled)
-'''
-pass
+    '''    public void setDisabled(final boolean disabled)
+    '''
 def setIconImageString():
-'''public void setIconImageString(final String image)
-'''
-pass
+    '''    public void setIconImageString(final String image)
+    '''
 def setProperty():
-'''public void setProperty(final String name, final Object value)
-'''
-pass
+    '''    public void setProperty(final String name, final Object value)
+    '''
 def setZeroDurationTWsAllowed():
-'''public void setZeroDurationTWsAllowed(final boolean allowed)
-'''
-pass
+    '''    public void setZeroDurationTWsAllowed(final boolean allowed)
+    '''
 def sort():
-'''public void sort()
-'''
-pass
+    '''    public void sort()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def DRETURN():
-'''public DRETURN()
-'''
-pass
+    '''    public DRETURN()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

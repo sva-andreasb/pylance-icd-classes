@@ -1,8 +1,6 @@
 def FldLocLeadTimeLocation():
-'''public FldLocLeadTimeLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldLocLeadTimeLocation(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

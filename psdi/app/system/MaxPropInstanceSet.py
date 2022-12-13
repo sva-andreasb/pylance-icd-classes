@@ -1,4 +1,3 @@
 def MaxPropInstanceSet():
-'''public MaxPropInstanceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxPropInstanceSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def loadModelFile():
-'''public int loadModelFile()
-'''
-pass
+    '''    public int loadModelFile()
+    '''
 def getModelHostname():
-'''public String getModelHostname()
-'''
-pass
+    '''    public String getModelHostname()
+    '''

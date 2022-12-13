@@ -1,12 +1,9 @@
 def PmtcoTKTemplate():
-'''public PmtcoTKTemplate(final MboSet ms)
-'''
-pass
+    '''    public PmtcoTKTemplate(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''

@@ -1,25 +1,19 @@
-COPYRIGHT = "String  IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def CloneDialogTableBean():
-'''public CloneDialogTableBean()
-'''
-pass
+    '''    public CloneDialogTableBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def scrollnext():
-'''public int scrollnext()
-'''
-pass
+    '''    public int scrollnext()
+    '''
 def scrollprev():
-'''public int scrollprev()
-'''
-pass
+    '''    public int scrollprev()
+    '''
 def nextrow():
-'''public int nextrow()
-'''
-pass
+    '''    public int nextrow()
+    '''
 def prevrow():
-'''public int prevrow()
-'''
-pass
+    '''    public int prevrow()
+    '''

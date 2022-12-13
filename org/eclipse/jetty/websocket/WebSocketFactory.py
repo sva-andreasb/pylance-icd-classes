@@ -1,49 +1,37 @@
 def WebSocketFactory():
-'''public WebSocketFactory(final Acceptor acceptor)
-public WebSocketFactory(final Acceptor acceptor, final int bufferSize)
-'''
-pass
+    '''    public WebSocketFactory(final Acceptor acceptor)
+    public WebSocketFactory(final Acceptor acceptor, final int bufferSize)
+    '''
 def getMaxIdleTime():
-'''public long getMaxIdleTime()
-'''
-pass
+    '''    public long getMaxIdleTime()
+    '''
 def setMaxIdleTime():
-'''public void setMaxIdleTime(final int maxIdleTime)
-'''
-pass
+    '''    public void setMaxIdleTime(final int maxIdleTime)
+    '''
 def getBufferSize():
-'''public int getBufferSize()
-'''
-pass
+    '''    public int getBufferSize()
+    '''
 def setBufferSize():
-'''public void setBufferSize(final int bufferSize)
-'''
-pass
+    '''    public void setBufferSize(final int bufferSize)
+    '''
 def getMaxTextMessageSize():
-'''public int getMaxTextMessageSize()
-'''
-pass
+    '''    public int getMaxTextMessageSize()
+    '''
 def setMaxTextMessageSize():
-'''public void setMaxTextMessageSize(final int maxTextMessageSize)
-'''
-pass
+    '''    public void setMaxTextMessageSize(final int maxTextMessageSize)
+    '''
 def getMaxBinaryMessageSize():
-'''public int getMaxBinaryMessageSize()
-'''
-pass
+    '''    public int getMaxBinaryMessageSize()
+    '''
 def setMaxBinaryMessageSize():
-'''public void setMaxBinaryMessageSize(final int maxBinaryMessageSize)
-'''
-pass
+    '''    public void setMaxBinaryMessageSize(final int maxBinaryMessageSize)
+    '''
 def upgrade():
-'''public void upgrade(final HttpServletRequest request, final HttpServletResponse response, final WebSocket websocket, final String protocol)
-'''
-pass
+    '''    public void upgrade(final HttpServletRequest request, final HttpServletResponse response, final WebSocket websocket, final String protocol)
+    '''
 def acceptWebSocket():
-'''public boolean acceptWebSocket(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public boolean acceptWebSocket(final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def initExtensions():
-'''public List<Extension> initExtensions(final List<String> requested, final int maxDataOpcodes, final int maxControlOpcodes, final int maxReservedBits)
-'''
-pass
+    '''    public List<Extension> initExtensions(final List<String> requested, final int maxDataOpcodes, final int maxControlOpcodes, final int maxReservedBits)
+    '''

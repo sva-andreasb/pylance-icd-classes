@@ -1,4 +1,3 @@
 def InternalException():
-'''public InternalException(final String message, final Throwable cause)
-'''
-pass
+    '''    public InternalException(final String message, final Throwable cause)
+    '''

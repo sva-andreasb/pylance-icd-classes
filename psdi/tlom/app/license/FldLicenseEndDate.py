@@ -1,8 +1,6 @@
 def FldLicenseEndDate():
-'''public FldLicenseEndDate(final MboValue mbv)
-'''
-pass
+    '''    public FldLicenseEndDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

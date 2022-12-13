@@ -1,49 +1,37 @@
-ERROR_GROUP = "String  PMCFG""
+ERROR_GROUP = "String  \"PMCFG\""
 def PmCfgBaseMbo():
-'''public PmCfgBaseMbo(final MboSet ms, final String idAttribute)
-'''
-pass
+    '''    public PmCfgBaseMbo(final MboSet ms, final String idAttribute)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def getList():
-'''public MboSetRemote getList(final String attribute)
-'''
-pass
+    '''    public MboSetRemote getList(final String attribute)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def isSelected():
-'''public boolean isSelected()
-'''
-pass
+    '''    public boolean isSelected()
+    '''

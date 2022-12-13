@@ -1,4 +1,3 @@
 def FldReportObject():
-'''public FldReportObject(final MboValue mbv)
-'''
-pass
+    '''    public FldReportObject(final MboValue mbv)
+    '''

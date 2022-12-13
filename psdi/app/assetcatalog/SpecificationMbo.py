@@ -1,140 +1,106 @@
 def SpecificationMbo():
-'''public SpecificationMbo(final MboSet ms)
-'''
-pass
+    '''    public SpecificationMbo(final MboSet ms)
+    '''
 def canGenerateDesc():
-'''public MboRemote canGenerateDesc()
-'''
-pass
+    '''    public MboRemote canGenerateDesc()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def addDetailInfor():
-'''public void addDetailInfor(final MboRemote wo, final MboRemote classspec)
-'''
-pass
+    '''    public void addDetailInfor(final MboRemote wo, final MboRemote classspec)
+    '''
 def setCopyValueChanged():
-'''public void setCopyValueChanged(final boolean changed)
-'''
-pass
+    '''    public void setCopyValueChanged(final boolean changed)
+    '''
 def getDomainId():
-'''public String getDomainId()
-'''
-pass
+    '''    public String getDomainId()
+    '''
 def getClassSpecRecord():
-'''public MboRemote getClassSpecRecord()
-'''
-pass
+    '''    public MboRemote getClassSpecRecord()
+    '''
 def getMaxTableDomainObject():
-'''public MboRemote getMaxTableDomainObject()
-'''
-pass
+    '''    public MboRemote getMaxTableDomainObject()
+    '''
 def setMaxTableDomainObject():
-'''public void setMaxTableDomainObject(final MboRemote passedDomain)
-'''
-pass
+    '''    public void setMaxTableDomainObject(final MboRemote passedDomain)
+    '''
 def getMeasureUnitId():
-'''public String getMeasureUnitId()
-'''
-pass
+    '''    public String getMeasureUnitId()
+    '''
 def getDataType():
-'''public String getDataType()
-'''
-pass
+    '''    public String getDataType()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def toUpdateReadOnly():
-'''public boolean toUpdateReadOnly(final String attrName)
-'''
-pass
+    '''    public boolean toUpdateReadOnly(final String attrName)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def generateDesc():
-'''public String generateDesc()
-'''
-pass
+    '''    public String generateDesc()
+    '''
 def notifyDescChange():
-'''public void notifyDescChange()
-'''
-pass
+    '''    public void notifyDescChange()
+    '''
 def setALNOrNUMReadOnly():
-'''public void setALNOrNUMReadOnly()
-'''
-pass
+    '''    public void setALNOrNUMReadOnly()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def getClassSpecUseWith():
-'''public MboRemote getClassSpecUseWith()
-public MboRemote getClassSpecUseWith(final MboRemote thisMbo, final MboRemote classspec)
-public MboRemote getClassSpecUseWith(final MboRemote thisMbo)
-'''
-pass
+    '''    public MboRemote getClassSpecUseWith()
+    public MboRemote getClassSpecUseWith(final MboRemote thisMbo, final MboRemote classspec)
+    public MboRemote getClassSpecUseWith(final MboRemote thisMbo)
+    '''
 def setOldSpecMarkedUndeleted():
-'''public void setOldSpecMarkedUndeleted(final MboRemote oldSpecUndeleted)
-'''
-pass
+    '''    public void setOldSpecMarkedUndeleted(final MboRemote oldSpecUndeleted)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def updateDesc():
-'''public void updateDesc()
-'''
-pass
+    '''    public void updateDesc()
+    '''
 def getCorrectOwner():
-'''public MboRemote getCorrectOwner()
-'''
-pass
+    '''    public MboRemote getCorrectOwner()
+    '''
 def setValue():
-'''public void setValue(final String attributeName, String val, final long accessModifier)
-public void setValue(final String attributeName, final MaxType mboValue, final long accessModifier)
-public void setValue(final String attributeName, final double val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final String attributeName, String val, final long accessModifier)
+    public void setValue(final String attributeName, final MaxType mboValue, final long accessModifier)
+    public void setValue(final String attributeName, final double val, final long accessModifier)
+    '''
 def getNumValueBeforeFormat():
-'''public String getNumValueBeforeFormat()
-'''
-pass
+    '''    public String getNumValueBeforeFormat()
+    '''
 def validateKeyUniqueness():
-'''public void validateKeyUniqueness()
-'''
-pass
+    '''    public void validateKeyUniqueness()
+    '''
 def setAssetAttributeMbo():
-'''public void setAssetAttributeMbo(final MboRemote attrMbo)
-'''
-pass
+    '''    public void setAssetAttributeMbo(final MboRemote attrMbo)
+    '''
 def getAssetAttributeMbo():
-'''public MboRemote getAssetAttributeMbo()
-'''
-pass
+    '''    public MboRemote getAssetAttributeMbo()
+    '''
 def getTableDomainObject():
-'''public MboRemote getTableDomainObject(final String domainId)
-'''
-pass
+    '''    public MboRemote getTableDomainObject(final String domainId)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''
 def toOverrideScaleForMIF():
-'''public boolean toOverrideScaleForMIF()
-'''
-pass
+    '''    public boolean toOverrideScaleForMIF()
+    '''
 def getNumValueFromMIF():
-'''public double getNumValueFromMIF()
-'''
-pass
+    '''    public double getNumValueFromMIF()
+    '''

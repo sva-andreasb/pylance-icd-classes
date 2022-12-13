@@ -1,68 +1,51 @@
 def PlusPProblem():
-'''public PlusPProblem(final MboSet arg0)
-'''
-pass
+    '''    public PlusPProblem(final MboSet arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def warnAssociatedWithBillBatch():
-'''public boolean warnAssociatedWithBillBatch()
-'''
-pass
+    '''    public boolean warnAssociatedWithBillBatch()
+    '''
 def resetAddressUserInput():
-'''public void resetAddressUserInput()
-'''
-pass
+    '''    public void resetAddressUserInput()
+    '''
 def setStreetAddress():
-'''public void setStreetAddress()
-'''
-pass
+    '''    public void setStreetAddress()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def calculateTotals():
-'''public void calculateTotals()
-'''
-pass
+    '''    public void calculateTotals()
+    '''
 def removePS():
-'''public boolean removePS()
-'''
-pass
+    '''    public boolean removePS()
+    '''
 def recalculatePrices():
-'''public void recalculatePrices(final MboRemote mboRemote)
-'''
-pass
+    '''    public void recalculatePrices(final MboRemote mboRemote)
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def hasBeenBilled():
-'''public boolean hasBeenBilled()
-'''
-pass
+    '''    public boolean hasBeenBilled()
+    '''
 def createSolution():
-'''public MboRemote createSolution()
-'''
-pass
+    '''    public MboRemote createSolution()
+    '''
 def setValue():
-'''public void setValue(final String s, final String s2, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final String s, final String s2, final long accessModifier)
+    '''

@@ -1,576 +1,432 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getOrder():
-'''public Order getOrder()
-'''
-pass
+    '''    public Order getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final Order order)
-'''
-pass
+    '''    public void setOrder(final Order order)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getAmount():
-'''public BigDecimal getAmount()
-'''
-pass
+    '''    public BigDecimal getAmount()
+    '''
 def setAmount():
-'''public void setAmount(final BigDecimal amount)
-'''
-pass
+    '''    public void setAmount(final BigDecimal amount)
+    '''
 def isAmountSpecified():
-'''public boolean isAmountSpecified()
-'''
-pass
+    '''    public boolean isAmountSpecified()
+    '''
 def unsetAmount():
-'''public void unsetAmount()
-'''
-pass
+    '''    public void unsetAmount()
+    '''
 def getBillingAddressLine1():
-'''public String getBillingAddressLine1()
-'''
-pass
+    '''    public String getBillingAddressLine1()
+    '''
 def setBillingAddressLine1():
-'''public void setBillingAddressLine1(final String billingAddressLine1)
-'''
-pass
+    '''    public void setBillingAddressLine1(final String billingAddressLine1)
+    '''
 def isBillingAddressLine1Specified():
-'''public boolean isBillingAddressLine1Specified()
-'''
-pass
+    '''    public boolean isBillingAddressLine1Specified()
+    '''
 def unsetBillingAddressLine1():
-'''public void unsetBillingAddressLine1()
-'''
-pass
+    '''    public void unsetBillingAddressLine1()
+    '''
 def getBillingAddressLine2():
-'''public String getBillingAddressLine2()
-'''
-pass
+    '''    public String getBillingAddressLine2()
+    '''
 def setBillingAddressLine2():
-'''public void setBillingAddressLine2(final String billingAddressLine2)
-'''
-pass
+    '''    public void setBillingAddressLine2(final String billingAddressLine2)
+    '''
 def isBillingAddressLine2Specified():
-'''public boolean isBillingAddressLine2Specified()
-'''
-pass
+    '''    public boolean isBillingAddressLine2Specified()
+    '''
 def unsetBillingAddressLine2():
-'''public void unsetBillingAddressLine2()
-'''
-pass
+    '''    public void unsetBillingAddressLine2()
+    '''
 def getBillingCity():
-'''public String getBillingCity()
-'''
-pass
+    '''    public String getBillingCity()
+    '''
 def setBillingCity():
-'''public void setBillingCity(final String billingCity)
-'''
-pass
+    '''    public void setBillingCity(final String billingCity)
+    '''
 def isBillingCitySpecified():
-'''public boolean isBillingCitySpecified()
-'''
-pass
+    '''    public boolean isBillingCitySpecified()
+    '''
 def unsetBillingCity():
-'''public void unsetBillingCity()
-'''
-pass
+    '''    public void unsetBillingCity()
+    '''
 def getBillingCountryCode():
-'''public String getBillingCountryCode()
-'''
-pass
+    '''    public String getBillingCountryCode()
+    '''
 def setBillingCountryCode():
-'''public void setBillingCountryCode(final String billingCountryCode)
-'''
-pass
+    '''    public void setBillingCountryCode(final String billingCountryCode)
+    '''
 def isBillingCountryCodeSpecified():
-'''public boolean isBillingCountryCodeSpecified()
-'''
-pass
+    '''    public boolean isBillingCountryCodeSpecified()
+    '''
 def unsetBillingCountryCode():
-'''public void unsetBillingCountryCode()
-'''
-pass
+    '''    public void unsetBillingCountryCode()
+    '''
 def getBillingEmail():
-'''public String getBillingEmail()
-'''
-pass
+    '''    public String getBillingEmail()
+    '''
 def setBillingEmail():
-'''public void setBillingEmail(final String billingEmail)
-'''
-pass
+    '''    public void setBillingEmail(final String billingEmail)
+    '''
 def isBillingEmailSpecified():
-'''public boolean isBillingEmailSpecified()
-'''
-pass
+    '''    public boolean isBillingEmailSpecified()
+    '''
 def unsetBillingEmail():
-'''public void unsetBillingEmail()
-'''
-pass
+    '''    public void unsetBillingEmail()
+    '''
 def getBillingNameCompany():
-'''public String getBillingNameCompany()
-'''
-pass
+    '''    public String getBillingNameCompany()
+    '''
 def setBillingNameCompany():
-'''public void setBillingNameCompany(final String billingNameCompany)
-'''
-pass
+    '''    public void setBillingNameCompany(final String billingNameCompany)
+    '''
 def isBillingNameCompanySpecified():
-'''public boolean isBillingNameCompanySpecified()
-'''
-pass
+    '''    public boolean isBillingNameCompanySpecified()
+    '''
 def unsetBillingNameCompany():
-'''public void unsetBillingNameCompany()
-'''
-pass
+    '''    public void unsetBillingNameCompany()
+    '''
 def getBillingNameFirst():
-'''public String getBillingNameFirst()
-'''
-pass
+    '''    public String getBillingNameFirst()
+    '''
 def setBillingNameFirst():
-'''public void setBillingNameFirst(final String billingNameFirst)
-'''
-pass
+    '''    public void setBillingNameFirst(final String billingNameFirst)
+    '''
 def isBillingNameFirstSpecified():
-'''public boolean isBillingNameFirstSpecified()
-'''
-pass
+    '''    public boolean isBillingNameFirstSpecified()
+    '''
 def unsetBillingNameFirst():
-'''public void unsetBillingNameFirst()
-'''
-pass
+    '''    public void unsetBillingNameFirst()
+    '''
 def getBillingNameLast():
-'''public String getBillingNameLast()
-'''
-pass
+    '''    public String getBillingNameLast()
+    '''
 def setBillingNameLast():
-'''public void setBillingNameLast(final String billingNameLast)
-'''
-pass
+    '''    public void setBillingNameLast(final String billingNameLast)
+    '''
 def isBillingNameLastSpecified():
-'''public boolean isBillingNameLastSpecified()
-'''
-pass
+    '''    public boolean isBillingNameLastSpecified()
+    '''
 def unsetBillingNameLast():
-'''public void unsetBillingNameLast()
-'''
-pass
+    '''    public void unsetBillingNameLast()
+    '''
 def getBillingPhoneFax():
-'''public String getBillingPhoneFax()
-'''
-pass
+    '''    public String getBillingPhoneFax()
+    '''
 def setBillingPhoneFax():
-'''public void setBillingPhoneFax(final String billingPhoneFax)
-'''
-pass
+    '''    public void setBillingPhoneFax(final String billingPhoneFax)
+    '''
 def isBillingPhoneFaxSpecified():
-'''public boolean isBillingPhoneFaxSpecified()
-'''
-pass
+    '''    public boolean isBillingPhoneFaxSpecified()
+    '''
 def unsetBillingPhoneFax():
-'''public void unsetBillingPhoneFax()
-'''
-pass
+    '''    public void unsetBillingPhoneFax()
+    '''
 def getBillingPhoneVoice():
-'''public String getBillingPhoneVoice()
-'''
-pass
+    '''    public String getBillingPhoneVoice()
+    '''
 def setBillingPhoneVoice():
-'''public void setBillingPhoneVoice(final String billingPhoneVoice)
-'''
-pass
+    '''    public void setBillingPhoneVoice(final String billingPhoneVoice)
+    '''
 def isBillingPhoneVoiceSpecified():
-'''public boolean isBillingPhoneVoiceSpecified()
-'''
-pass
+    '''    public boolean isBillingPhoneVoiceSpecified()
+    '''
 def unsetBillingPhoneVoice():
-'''public void unsetBillingPhoneVoice()
-'''
-pass
+    '''    public void unsetBillingPhoneVoice()
+    '''
 def getBillingPostalCode():
-'''public String getBillingPostalCode()
-'''
-pass
+    '''    public String getBillingPostalCode()
+    '''
 def setBillingPostalCode():
-'''public void setBillingPostalCode(final String billingPostalCode)
-'''
-pass
+    '''    public void setBillingPostalCode(final String billingPostalCode)
+    '''
 def isBillingPostalCodeSpecified():
-'''public boolean isBillingPostalCodeSpecified()
-'''
-pass
+    '''    public boolean isBillingPostalCodeSpecified()
+    '''
 def unsetBillingPostalCode():
-'''public void unsetBillingPostalCode()
-'''
-pass
+    '''    public void unsetBillingPostalCode()
+    '''
 def getBillingState():
-'''public String getBillingState()
-'''
-pass
+    '''    public String getBillingState()
+    '''
 def setBillingState():
-'''public void setBillingState(final String billingState)
-'''
-pass
+    '''    public void setBillingState(final String billingState)
+    '''
 def isBillingStateSpecified():
-'''public boolean isBillingStateSpecified()
-'''
-pass
+    '''    public boolean isBillingStateSpecified()
+    '''
 def unsetBillingState():
-'''public void unsetBillingState()
-'''
-pass
+    '''    public void unsetBillingState()
+    '''
 def getCardAccountLast4():
-'''public Long getCardAccountLast4()
-'''
-pass
+    '''    public Long getCardAccountLast4()
+    '''
 def setCardAccountLast4():
-'''public void setCardAccountLast4(final Long cardAccountLast4)
-'''
-pass
+    '''    public void setCardAccountLast4(final Long cardAccountLast4)
+    '''
 def isCardAccountLast4Specified():
-'''public boolean isCardAccountLast4Specified()
-'''
-pass
+    '''    public boolean isCardAccountLast4Specified()
+    '''
 def unsetCardAccountLast4():
-'''public void unsetCardAccountLast4()
-'''
-pass
+    '''    public void unsetCardAccountLast4()
+    '''
 def getCardExpirationMonth():
-'''public Long getCardExpirationMonth()
-'''
-pass
+    '''    public Long getCardExpirationMonth()
+    '''
 def setCardExpirationMonth():
-'''public void setCardExpirationMonth(final Long cardExpirationMonth)
-'''
-pass
+    '''    public void setCardExpirationMonth(final Long cardExpirationMonth)
+    '''
 def isCardExpirationMonthSpecified():
-'''public boolean isCardExpirationMonthSpecified()
-'''
-pass
+    '''    public boolean isCardExpirationMonthSpecified()
+    '''
 def unsetCardExpirationMonth():
-'''public void unsetCardExpirationMonth()
-'''
-pass
+    '''    public void unsetCardExpirationMonth()
+    '''
 def getCardExpirationYear():
-'''public Long getCardExpirationYear()
-'''
-pass
+    '''    public Long getCardExpirationYear()
+    '''
 def setCardExpirationYear():
-'''public void setCardExpirationYear(final Long cardExpirationYear)
-'''
-pass
+    '''    public void setCardExpirationYear(final Long cardExpirationYear)
+    '''
 def isCardExpirationYearSpecified():
-'''public boolean isCardExpirationYearSpecified()
-'''
-pass
+    '''    public boolean isCardExpirationYearSpecified()
+    '''
 def unsetCardExpirationYear():
-'''public void unsetCardExpirationYear()
-'''
-pass
+    '''    public void unsetCardExpirationYear()
+    '''
 def getCardType():
-'''public String getCardType()
-'''
-pass
+    '''    public String getCardType()
+    '''
 def setCardType():
-'''public void setCardType(final String cardType)
-'''
-pass
+    '''    public void setCardType(final String cardType)
+    '''
 def isCardTypeSpecified():
-'''public boolean isCardTypeSpecified()
-'''
-pass
+    '''    public boolean isCardTypeSpecified()
+    '''
 def unsetCardType():
-'''public void unsetCardType()
-'''
-pass
+    '''    public void unsetCardType()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getInvoiceId():
-'''public Long getInvoiceId()
-'''
-pass
+    '''    public Long getInvoiceId()
+    '''
 def setInvoiceId():
-'''public void setInvoiceId(final Long invoiceId)
-'''
-pass
+    '''    public void setInvoiceId(final Long invoiceId)
+    '''
 def isInvoiceIdSpecified():
-'''public boolean isInvoiceIdSpecified()
-'''
-pass
+    '''    public boolean isInvoiceIdSpecified()
+    '''
 def unsetInvoiceId():
-'''public void unsetInvoiceId()
-'''
-pass
+    '''    public void unsetInvoiceId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getOrderFromIpAddress():
-'''public String getOrderFromIpAddress()
-'''
-pass
+    '''    public String getOrderFromIpAddress()
+    '''
 def setOrderFromIpAddress():
-'''public void setOrderFromIpAddress(final String orderFromIpAddress)
-'''
-pass
+    '''    public void setOrderFromIpAddress(final String orderFromIpAddress)
+    '''
 def isOrderFromIpAddressSpecified():
-'''public boolean isOrderFromIpAddressSpecified()
-'''
-pass
+    '''    public boolean isOrderFromIpAddressSpecified()
+    '''
 def unsetOrderFromIpAddress():
-'''public void unsetOrderFromIpAddress()
-'''
-pass
+    '''    public void unsetOrderFromIpAddress()
+    '''
 def getReferenceCode():
-'''public String getReferenceCode()
-'''
-pass
+    '''    public String getReferenceCode()
+    '''
 def setReferenceCode():
-'''public void setReferenceCode(final String referenceCode)
-'''
-pass
+    '''    public void setReferenceCode(final String referenceCode)
+    '''
 def isReferenceCodeSpecified():
-'''public boolean isReferenceCodeSpecified()
-'''
-pass
+    '''    public boolean isReferenceCodeSpecified()
+    '''
 def unsetReferenceCode():
-'''public void unsetReferenceCode()
-'''
-pass
+    '''    public void unsetReferenceCode()
+    '''
 def getRequestId():
-'''public String getRequestId()
-'''
-pass
+    '''    public String getRequestId()
+    '''
 def setRequestId():
-'''public void setRequestId(final String requestId)
-'''
-pass
+    '''    public void setRequestId(final String requestId)
+    '''
 def isRequestIdSpecified():
-'''public boolean isRequestIdSpecified()
-'''
-pass
+    '''    public boolean isRequestIdSpecified()
+    '''
 def unsetRequestId():
-'''public void unsetRequestId()
-'''
-pass
+    '''    public void unsetRequestId()
+    '''
 def getReturnStatus():
-'''public Long getReturnStatus()
-'''
-pass
+    '''    public Long getReturnStatus()
+    '''
 def setReturnStatus():
-'''public void setReturnStatus(final Long returnStatus)
-'''
-pass
+    '''    public void setReturnStatus(final Long returnStatus)
+    '''
 def isReturnStatusSpecified():
-'''public boolean isReturnStatusSpecified()
-'''
-pass
+    '''    public boolean isReturnStatusSpecified()
+    '''
 def unsetReturnStatus():
-'''public void unsetReturnStatus()
-'''
-pass
+    '''    public void unsetReturnStatus()
+    '''
 def getSerializedReply():
-'''public String getSerializedReply()
-'''
-pass
+    '''    public String getSerializedReply()
+    '''
 def setSerializedReply():
-'''public void setSerializedReply(final String serializedReply)
-'''
-pass
+    '''    public void setSerializedReply(final String serializedReply)
+    '''
 def isSerializedReplySpecified():
-'''public boolean isSerializedReplySpecified()
-'''
-pass
+    '''    public boolean isSerializedReplySpecified()
+    '''
 def unsetSerializedReply():
-'''public void unsetSerializedReply()
-'''
-pass
+    '''    public void unsetSerializedReply()
+    '''
 def getSerializedRequest():
-'''public String getSerializedRequest()
-'''
-pass
+    '''    public String getSerializedRequest()
+    '''
 def setSerializedRequest():
-'''public void setSerializedRequest(final String serializedRequest)
-'''
-pass
+    '''    public void setSerializedRequest(final String serializedRequest)
+    '''
 def isSerializedRequestSpecified():
-'''public boolean isSerializedRequestSpecified()
-'''
-pass
+    '''    public boolean isSerializedRequestSpecified()
+    '''
 def unsetSerializedRequest():
-'''public void unsetSerializedRequest()
-'''
-pass
+    '''    public void unsetSerializedRequest()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def amount():
-'''public Mask amount()
-'''
-pass
+    '''    public Mask amount()
+    '''
 def billingAddressLine1():
-'''public Mask billingAddressLine1()
-'''
-pass
+    '''    public Mask billingAddressLine1()
+    '''
 def billingAddressLine2():
-'''public Mask billingAddressLine2()
-'''
-pass
+    '''    public Mask billingAddressLine2()
+    '''
 def billingCity():
-'''public Mask billingCity()
-'''
-pass
+    '''    public Mask billingCity()
+    '''
 def billingCountryCode():
-'''public Mask billingCountryCode()
-'''
-pass
+    '''    public Mask billingCountryCode()
+    '''
 def billingEmail():
-'''public Mask billingEmail()
-'''
-pass
+    '''    public Mask billingEmail()
+    '''
 def billingNameCompany():
-'''public Mask billingNameCompany()
-'''
-pass
+    '''    public Mask billingNameCompany()
+    '''
 def billingNameFirst():
-'''public Mask billingNameFirst()
-'''
-pass
+    '''    public Mask billingNameFirst()
+    '''
 def billingNameLast():
-'''public Mask billingNameLast()
-'''
-pass
+    '''    public Mask billingNameLast()
+    '''
 def billingPhoneFax():
-'''public Mask billingPhoneFax()
-'''
-pass
+    '''    public Mask billingPhoneFax()
+    '''
 def billingPhoneVoice():
-'''public Mask billingPhoneVoice()
-'''
-pass
+    '''    public Mask billingPhoneVoice()
+    '''
 def billingPostalCode():
-'''public Mask billingPostalCode()
-'''
-pass
+    '''    public Mask billingPostalCode()
+    '''
 def billingState():
-'''public Mask billingState()
-'''
-pass
+    '''    public Mask billingState()
+    '''
 def cardAccountLast4():
-'''public Mask cardAccountLast4()
-'''
-pass
+    '''    public Mask cardAccountLast4()
+    '''
 def cardExpirationMonth():
-'''public Mask cardExpirationMonth()
-'''
-pass
+    '''    public Mask cardExpirationMonth()
+    '''
 def cardExpirationYear():
-'''public Mask cardExpirationYear()
-'''
-pass
+    '''    public Mask cardExpirationYear()
+    '''
 def cardType():
-'''public Mask cardType()
-'''
-pass
+    '''    public Mask cardType()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def invoiceId():
-'''public Mask invoiceId()
-'''
-pass
+    '''    public Mask invoiceId()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def orderFromIpAddress():
-'''public Mask orderFromIpAddress()
-'''
-pass
+    '''    public Mask orderFromIpAddress()
+    '''
 def referenceCode():
-'''public Mask referenceCode()
-'''
-pass
+    '''    public Mask referenceCode()
+    '''
 def requestId():
-'''public Mask requestId()
-'''
-pass
+    '''    public Mask requestId()
+    '''
 def returnStatus():
-'''public Mask returnStatus()
-'''
-pass
+    '''    public Mask returnStatus()
+    '''
 def serializedReply():
-'''public Mask serializedReply()
-'''
-pass
+    '''    public Mask serializedReply()
+    '''
 def serializedRequest():
-'''public Mask serializedRequest()
-'''
-pass
+    '''    public Mask serializedRequest()
+    '''

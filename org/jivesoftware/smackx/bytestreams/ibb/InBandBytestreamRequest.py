@@ -1,16 +1,12 @@
 def getFrom():
-'''public Jid getFrom()
-'''
-pass
+    '''    public Jid getFrom()
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def accept():
-'''public InBandBytestreamSession accept()
-'''
-pass
+    '''    public InBandBytestreamSession accept()
+    '''
 def reject():
-'''public void reject()
-'''
-pass
+    '''    public void reject()
+    '''

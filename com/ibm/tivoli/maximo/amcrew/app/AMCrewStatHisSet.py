@@ -1,4 +1,3 @@
 def AMCrewStatHisSet():
-'''public AMCrewStatHisSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AMCrewStatHisSet(final MboServerInterface ms)
+    '''

@@ -1,20 +1,15 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getInnerText():
-'''public String getInnerText()
-'''
-pass
+    '''    public String getInnerText()
+    '''
 def setInnerText():
-'''public void setInnerText(final String innerText)
-'''
-pass
+    '''    public void setInnerText(final String innerText)
+    '''
 def isSkipDuringUpdate():
-'''public boolean isSkipDuringUpdate()
-'''
-pass
+    '''    public boolean isSkipDuringUpdate()
+    '''
 def setSkipDuringUpdate():
-'''public void setSkipDuringUpdate(final boolean skipDuringUpdate)
-'''
-pass
+    '''    public void setSkipDuringUpdate(final boolean skipDuringUpdate)
+    '''

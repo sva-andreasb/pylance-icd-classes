@@ -1,33 +1,25 @@
 def AsynchDetailCount():
-'''public AsynchDetailCount()
-public AsynchDetailCount(final int count)
-'''
-pass
+    '''    public AsynchDetailCount()
+    public AsynchDetailCount(final int count)
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def setCount():
-'''public void setCount(final int count)
-'''
-pass
+    '''    public void setCount(final int count)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

@@ -1,8 +1,6 @@
 def FldWORepairLocFlag():
-'''public FldWORepairLocFlag(final MboValue mbv)
-'''
-pass
+    '''    public FldWORepairLocFlag(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

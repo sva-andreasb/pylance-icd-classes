@@ -1,12 +1,9 @@
 def WOStatusSet():
-'''public WOStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOStatusSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

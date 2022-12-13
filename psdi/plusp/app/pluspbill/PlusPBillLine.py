@@ -1,92 +1,69 @@
 def PlusPBillLine():
-'''public PlusPBillLine(final MboSet ms)
-'''
-pass
+    '''    public PlusPBillLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initializingValues():
-'''public void initializingValues()
-'''
-pass
+    '''    public void initializingValues()
+    '''
 def setDateCompleted():
-'''public void setDateCompleted(final MboRemote mboRemote, final String s, final String str, final String value, final String str2)
-'''
-pass
+    '''    public void setDateCompleted(final MboRemote mboRemote, final String s, final String str, final String value, final String str2)
+    '''
 def calculateTotals():
-'''public void calculateTotals()
-'''
-pass
+    '''    public void calculateTotals()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def calculateTotal():
-'''public double[] calculateTotal(final String name)
-'''
-pass
+    '''    public double[] calculateTotal(final String name)
+    '''
 def updateTotalValues():
-'''public void updateTotalValues(final double n, final double n2, final MboSet set, final boolean b)
-'''
-pass
+    '''    public void updateTotalValues(final double n, final double n2, final MboSet set, final boolean b)
+    '''
 def showPrice():
-'''public boolean showPrice()
-'''
-pass
+    '''    public boolean showPrice()
+    '''
 def isPriceEditable():
-'''public boolean isPriceEditable()
-'''
-pass
+    '''    public boolean isPriceEditable()
+    '''
 def isFinished():
-'''public boolean isFinished()
-'''
-pass
+    '''    public boolean isFinished()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
+    '''
 def calculateTaxes():
-'''public void calculateTaxes()
-'''
-pass
+    '''    public void calculateTaxes()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def hasToBeBilledRecord():
-'''public boolean hasToBeBilledRecord()
-'''
-pass
+    '''    public boolean hasToBeBilledRecord()
+    '''
 def restoreOrGetToBeBilledRecord():
-'''public MboRemote restoreOrGetToBeBilledRecord()
-'''
-pass
+    '''    public MboRemote restoreOrGetToBeBilledRecord()
+    '''
 def getBillLineTrWhereClause():
-'''public String getBillLineTrWhereClause(final String val)
-'''
-pass
+    '''    public String getBillLineTrWhereClause(final String val)
+    '''
 def setStatusFromOldBillLineIfHoldOrDispute():
-'''public void setStatusFromOldBillLineIfHoldOrDispute(final MboRemote mr)
-'''
-pass
+    '''    public void setStatusFromOldBillLineIfHoldOrDispute(final MboRemote mr)
+    '''
 def sumPricesForPastBillLines():
-'''public double sumPricesForPastBillLines(final MboRemote mr, final String objectName)
-'''
-pass
+    '''    public double sumPricesForPastBillLines(final MboRemote mr, final String objectName)
+    '''
 def setIsMinimumInclude():
-'''public void setIsMinimumInclude(final boolean isMinimumInclude)
-'''
-pass
+    '''    public void setIsMinimumInclude(final boolean isMinimumInclude)
+    '''
 def getIsMinimumInclude():
-'''public boolean getIsMinimumInclude()
-'''
-pass
+    '''    public boolean getIsMinimumInclude()
+    '''
 def getLastInternalStatus():
-'''public String getLastInternalStatus()
-'''
-pass
+    '''    public String getLastInternalStatus()
+    '''

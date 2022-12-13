@@ -1,8 +1,6 @@
 def FileOutputStreamPrivileged():
-'''public FileOutputStreamPrivileged(final String fileName)
-'''
-pass
+    '''    public FileOutputStreamPrivileged(final String fileName)
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''

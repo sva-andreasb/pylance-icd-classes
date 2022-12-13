@@ -1,28 +1,21 @@
 def setPolicy():
-'''public void setPolicy(final String policy)
-'''
-pass
+    '''    public void setPolicy(final String policy)
+    '''
 def getPolicy():
-'''public String getPolicy()
-'''
-pass
+    '''    public String getPolicy()
+    '''
 def withPolicy():
-'''public GetKeyPolicyResult withPolicy(final String policy)
-'''
-pass
+    '''    public GetKeyPolicyResult withPolicy(final String policy)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public GetKeyPolicyResult clone()
-'''
-pass
+    '''    public GetKeyPolicyResult clone()
+    '''

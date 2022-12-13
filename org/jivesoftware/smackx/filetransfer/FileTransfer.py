@@ -1,53 +1,40 @@
 def getFileSize():
-'''public long getFileSize()
-'''
-pass
+    '''    public long getFileSize()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def getFilePath():
-'''public String getFilePath()
-'''
-pass
+    '''    public String getFilePath()
+    '''
 def getPeer():
-'''public Jid getPeer()
-'''
-pass
+    '''    public Jid getPeer()
+    '''
 def getProgress():
-'''public double getProgress()
-'''
-pass
+    '''    public double getProgress()
+    '''
 def isDone():
-'''public boolean isDone()
-'''
-pass
+    '''    public boolean isDone()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def getError():
-'''public Error getError()
-'''
-pass
+    '''    public Error getError()
+    '''
 def getException():
-'''public Exception getException()
-'''
-pass
+    '''    public Exception getException()
+    '''
 def getStreamID():
-'''public String getStreamID()
-'''
-pass
+    '''    public String getStreamID()
+    '''
 def getAmountWritten():
-'''public long getAmountWritten()
-'''
-pass
+    '''    public long getAmountWritten()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

@@ -1,32 +1,25 @@
-OFF = "String  Off""
-SUSPENDED = "String  Suspended""
-ENABLED = "String  Enabled""
+OFF = "String  \"Off\""
+SUSPENDED = "String  \"Suspended\""
+ENABLED = "String  \"Enabled\""
 def BucketVersioningConfiguration():
-'''public BucketVersioningConfiguration()
-public BucketVersioningConfiguration(final String status)
-'''
-pass
+    '''    public BucketVersioningConfiguration()
+    public BucketVersioningConfiguration(final String status)
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def withStatus():
-'''public BucketVersioningConfiguration withStatus(final String status)
-'''
-pass
+    '''    public BucketVersioningConfiguration withStatus(final String status)
+    '''
 def isMfaDeleteEnabled():
-'''public Boolean isMfaDeleteEnabled()
-'''
-pass
+    '''    public Boolean isMfaDeleteEnabled()
+    '''
 def setMfaDeleteEnabled():
-'''public void setMfaDeleteEnabled(final Boolean mfaDeleteEnabled)
-'''
-pass
+    '''    public void setMfaDeleteEnabled(final Boolean mfaDeleteEnabled)
+    '''
 def withMfaDeleteEnabled():
-'''public BucketVersioningConfiguration withMfaDeleteEnabled(final Boolean mfaDeleteEnabled)
-'''
-pass
+    '''    public BucketVersioningConfiguration withMfaDeleteEnabled(final Boolean mfaDeleteEnabled)
+    '''

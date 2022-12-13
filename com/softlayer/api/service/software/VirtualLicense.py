@@ -1,217 +1,163 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getBillingItem():
-'''public Item getBillingItem()
-'''
-pass
+    '''    public Item getBillingItem()
+    '''
 def setBillingItem():
-'''public void setBillingItem(final Item billingItem)
-'''
-pass
+    '''    public void setBillingItem(final Item billingItem)
+    '''
 def getHostHardware():
-'''public Server getHostHardware()
-'''
-pass
+    '''    public Server getHostHardware()
+    '''
 def setHostHardware():
-'''public void setHostHardware(final Server hostHardware)
-'''
-pass
+    '''    public void setHostHardware(final Server hostHardware)
+    '''
 def getIpAddressRecord():
-'''public IpAddress getIpAddressRecord()
-'''
-pass
+    '''    public IpAddress getIpAddressRecord()
+    '''
 def setIpAddressRecord():
-'''public void setIpAddressRecord(final IpAddress ipAddressRecord)
-'''
-pass
+    '''    public void setIpAddressRecord(final IpAddress ipAddressRecord)
+    '''
 def getSoftwareDescription():
-'''public Description getSoftwareDescription()
-'''
-pass
+    '''    public Description getSoftwareDescription()
+    '''
 def setSoftwareDescription():
-'''public void setSoftwareDescription(final Description softwareDescription)
-'''
-pass
+    '''    public void setSoftwareDescription(final Description softwareDescription)
+    '''
 def getSubnet():
-'''public Subnet getSubnet()
-'''
-pass
+    '''    public Subnet getSubnet()
+    '''
 def setSubnet():
-'''public void setSubnet(final Subnet subnet)
-'''
-pass
+    '''    public void setSubnet(final Subnet subnet)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getHostHardwareId():
-'''public Long getHostHardwareId()
-'''
-pass
+    '''    public Long getHostHardwareId()
+    '''
 def setHostHardwareId():
-'''public void setHostHardwareId(final Long hostHardwareId)
-'''
-pass
+    '''    public void setHostHardwareId(final Long hostHardwareId)
+    '''
 def isHostHardwareIdSpecified():
-'''public boolean isHostHardwareIdSpecified()
-'''
-pass
+    '''    public boolean isHostHardwareIdSpecified()
+    '''
 def unsetHostHardwareId():
-'''public void unsetHostHardwareId()
-'''
-pass
+    '''    public void unsetHostHardwareId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getIpAddress():
-'''public String getIpAddress()
-'''
-pass
+    '''    public String getIpAddress()
+    '''
 def setIpAddress():
-'''public void setIpAddress(final String ipAddress)
-'''
-pass
+    '''    public void setIpAddress(final String ipAddress)
+    '''
 def isIpAddressSpecified():
-'''public boolean isIpAddressSpecified()
-'''
-pass
+    '''    public boolean isIpAddressSpecified()
+    '''
 def unsetIpAddress():
-'''public void unsetIpAddress()
-'''
-pass
+    '''    public void unsetIpAddress()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def isKeySpecified():
-'''public boolean isKeySpecified()
-'''
-pass
+    '''    public boolean isKeySpecified()
+    '''
 def unsetKey():
-'''public void unsetKey()
-'''
-pass
+    '''    public void unsetKey()
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def isNotesSpecified():
-'''public boolean isNotesSpecified()
-'''
-pass
+    '''    public boolean isNotesSpecified()
+    '''
 def unsetNotes():
-'''public void unsetNotes()
-'''
-pass
+    '''    public void unsetNotes()
+    '''
 def getSoftwareDescriptionId():
-'''public Long getSoftwareDescriptionId()
-'''
-pass
+    '''    public Long getSoftwareDescriptionId()
+    '''
 def setSoftwareDescriptionId():
-'''public void setSoftwareDescriptionId(final Long softwareDescriptionId)
-'''
-pass
+    '''    public void setSoftwareDescriptionId(final Long softwareDescriptionId)
+    '''
 def isSoftwareDescriptionIdSpecified():
-'''public boolean isSoftwareDescriptionIdSpecified()
-'''
-pass
+    '''    public boolean isSoftwareDescriptionIdSpecified()
+    '''
 def unsetSoftwareDescriptionId():
-'''public void unsetSoftwareDescriptionId()
-'''
-pass
+    '''    public void unsetSoftwareDescriptionId()
+    '''
 def getSubnetId():
-'''public Long getSubnetId()
-'''
-pass
+    '''    public Long getSubnetId()
+    '''
 def setSubnetId():
-'''public void setSubnetId(final Long subnetId)
-'''
-pass
+    '''    public void setSubnetId(final Long subnetId)
+    '''
 def isSubnetIdSpecified():
-'''public boolean isSubnetIdSpecified()
-'''
-pass
+    '''    public boolean isSubnetIdSpecified()
+    '''
 def unsetSubnetId():
-'''public void unsetSubnetId()
-'''
-pass
+    '''    public void unsetSubnetId()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def hostHardwareId():
-'''public Mask hostHardwareId()
-'''
-pass
+    '''    public Mask hostHardwareId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def ipAddress():
-'''public Mask ipAddress()
-'''
-pass
+    '''    public Mask ipAddress()
+    '''
 def key():
-'''public Mask key()
-'''
-pass
+    '''    public Mask key()
+    '''
 def notes():
-'''public Mask notes()
-'''
-pass
+    '''    public Mask notes()
+    '''
 def softwareDescriptionId():
-'''public Mask softwareDescriptionId()
-'''
-pass
+    '''    public Mask softwareDescriptionId()
+    '''
 def subnetId():
-'''public Mask subnetId()
-'''
-pass
+    '''    public Mask subnetId()
+    '''

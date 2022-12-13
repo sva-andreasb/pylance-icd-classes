@@ -1,37 +1,28 @@
 def RecordImage():
-'''public RecordImage()
-'''
-pass
+    '''    public RecordImage()
+    '''
 def getImageSrc():
-'''public String[] getImageSrc()
-'''
-pass
+    '''    public String[] getImageSrc()
+    '''
 def getId():
-'''public String getId(final boolean useRow)
-'''
-pass
+    '''    public String getId(final boolean useRow)
+    '''
 def getRenderId():
-'''public String getRenderId()
-'''
-pass
+    '''    public String getRenderId()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getMIMEType():
-'''public String getMIMEType()
-'''
-pass
+    '''    public String getMIMEType()
+    '''
 def getImage():
-'''public byte[] getImage()
-public byte[] getImage(final Integer row)
-'''
-pass
+    '''    public byte[] getImage()
+    public byte[] getImage(final Integer row)
+    '''
 def getCachedImageSrc():
-'''public String getCachedImageSrc()
-'''
-pass
+    '''    public String getCachedImageSrc()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''

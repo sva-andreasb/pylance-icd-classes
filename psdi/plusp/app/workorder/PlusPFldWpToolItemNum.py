@@ -1,8 +1,6 @@
 def PlusPFldWpToolItemNum():
-'''public PlusPFldWpToolItemNum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWpToolItemNum(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

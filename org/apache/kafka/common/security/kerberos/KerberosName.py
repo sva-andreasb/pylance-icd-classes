@@ -1,24 +1,18 @@
 def KerberosName():
-'''public KerberosName(final String serviceName, final String hostName, final String realm)
-'''
-pass
+    '''    public KerberosName(final String serviceName, final String hostName, final String realm)
+    '''
 def parse():
-'''public static KerberosName parse(final String principalName)
-'''
-pass
+    '''    public static KerberosName parse(final String principalName)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serviceName():
-'''public String serviceName()
-'''
-pass
+    '''    public String serviceName()
+    '''
 def hostName():
-'''public String hostName()
-'''
-pass
+    '''    public String hostName()
+    '''
 def realm():
-'''public String realm()
-'''
-pass
+    '''    public String realm()
+    '''

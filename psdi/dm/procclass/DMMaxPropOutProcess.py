@@ -1,8 +1,6 @@
 def DMMaxPropOutProcess():
-'''public DMMaxPropOutProcess()
-'''
-pass
+    '''    public DMMaxPropOutProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-'''
-pass
+    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''

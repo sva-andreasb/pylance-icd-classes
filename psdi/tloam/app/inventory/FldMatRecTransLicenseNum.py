@@ -1,4 +1,3 @@
 def FldMatRecTransLicenseNum():
-'''public FldMatRecTransLicenseNum(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransLicenseNum(final MboValue mbv)
+    '''

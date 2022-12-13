@@ -1,4 +1,3 @@
 def FldServiceAddressLatitudeY():
-'''public FldServiceAddressLatitudeY(final MboValue mbv)
-'''
-pass
+    '''    public FldServiceAddressLatitudeY(final MboValue mbv)
+    '''

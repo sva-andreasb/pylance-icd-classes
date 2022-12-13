@@ -1,20 +1,15 @@
 def WoSafetyPlan():
-'''public WoSafetyPlan(final MboSet ms)
-'''
-pass
+    '''    public WoSafetyPlan(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def copyPlan():
-'''public void copyPlan(final String planID)
-'''
-pass
+    '''    public void copyPlan(final String planID)
+    '''

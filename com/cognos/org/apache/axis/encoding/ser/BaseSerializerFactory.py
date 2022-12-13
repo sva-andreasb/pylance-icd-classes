@@ -1,21 +1,16 @@
 def BaseSerializerFactory():
-'''public BaseSerializerFactory(final Class serClass)
-public BaseSerializerFactory(final Class serClass, final QName xmlType, final Class javaType)
-'''
-pass
+    '''    public BaseSerializerFactory(final Class serClass)
+    public BaseSerializerFactory(final Class serClass, final QName xmlType, final Class javaType)
+    '''
 def getSupportedMechanismTypes():
-'''public Iterator getSupportedMechanismTypes()
-'''
-pass
+    '''    public Iterator getSupportedMechanismTypes()
+    '''
 def getXMLType():
-'''public QName getXMLType()
-'''
-pass
+    '''    public QName getXMLType()
+    '''
 def getJavaType():
-'''public Class getJavaType()
-'''
-pass
+    '''    public Class getJavaType()
+    '''
 def createFactory():
-'''public static SerializerFactory createFactory(final Class factory, final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public static SerializerFactory createFactory(final Class factory, final Class javaType, final QName xmlType)
+    '''

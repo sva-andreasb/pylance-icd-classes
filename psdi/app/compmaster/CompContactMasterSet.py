@@ -1,4 +1,3 @@
 def CompContactMasterSet():
-'''public CompContactMasterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CompContactMasterSet(final MboServerInterface ms)
+    '''

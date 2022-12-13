@@ -1,16 +1,12 @@
 def OMFilterIterator():
-'''public OMFilterIterator(final Iterator parent)
-'''
-pass
+    '''    public OMFilterIterator(final Iterator parent)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

@@ -1,12 +1,9 @@
 def uniquePredicate():
-'''public static <T> Predicate<T> uniquePredicate()
-'''
-pass
+    '''    public static <T> Predicate<T> uniquePredicate()
+    '''
 def UniquePredicate():
-'''public UniquePredicate()
-'''
-pass
+    '''    public UniquePredicate()
+    '''
 def evaluate():
-'''public boolean evaluate(final T object)
-'''
-pass
+    '''    public boolean evaluate(final T object)
+    '''

@@ -1,23 +1,18 @@
 def DeleteClusterCommand():
-'''public DeleteClusterCommand(final TaskCommandMetadata metadata)
-public DeleteClusterCommand(final CommandData inCommandData)
-'''
-pass
+    '''    public DeleteClusterCommand(final TaskCommandMetadata metadata)
+    public DeleteClusterCommand(final CommandData inCommandData)
+    '''
 def afterStepsExecuted():
-'''public void afterStepsExecuted()
-'''
-pass
+    '''    public void afterStepsExecuted()
+    '''
 def validate():
-'''public void validate()
-public void validate()
-'''
-pass
+    '''    public void validate()
+    public void validate()
+    '''
 def DeleteReplicationDomainStep():
-'''public DeleteReplicationDomainStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
-public DeleteReplicationDomainStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
-'''
-pass
+    '''    public DeleteReplicationDomainStep(final AbstractTaskCommand parent, final CommandStepMetadata metadata)
+    public DeleteReplicationDomainStep(final AbstractTaskCommand parent, final CommandStepData cmdData)
+    '''
 def stepModified():
-'''public void stepModified(final String stepName)
-'''
-pass
+    '''    public void stepModified(final String stepName)
+    '''

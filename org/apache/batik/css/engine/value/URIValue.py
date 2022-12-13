@@ -1,8 +1,6 @@
 def URIValue():
-'''public URIValue(final String cssText, final String uri)
-'''
-pass
+    '''    public URIValue(final String cssText, final String uri)
+    '''
 def getCssText():
-'''public String getCssText()
-'''
-pass
+    '''    public String getCssText()
+    '''

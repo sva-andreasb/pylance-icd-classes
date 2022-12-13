@@ -9,79 +9,60 @@ INT_NAMESPACE = "int  7"
 INT_COMMENT = "int  8"
 INT_PROCINST = "int  9"
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def isNone():
-'''public boolean isNone()
-'''
-pass
+    '''    public boolean isNone()
+    '''
 def isStartdoc():
-'''public boolean isStartdoc()
-'''
-pass
+    '''    public boolean isStartdoc()
+    '''
 def isEnddoc():
-'''public boolean isEnddoc()
-'''
-pass
+    '''    public boolean isEnddoc()
+    '''
 def isStart():
-'''public boolean isStart()
-'''
-pass
+    '''    public boolean isStart()
+    '''
 def isEnd():
-'''public boolean isEnd()
-'''
-pass
+    '''    public boolean isEnd()
+    '''
 def isText():
-'''public boolean isText()
-'''
-pass
+    '''    public boolean isText()
+    '''
 def isAttr():
-'''public boolean isAttr()
-'''
-pass
+    '''    public boolean isAttr()
+    '''
 def isNamespace():
-'''public boolean isNamespace()
-'''
-pass
+    '''    public boolean isNamespace()
+    '''
 def isComment():
-'''public boolean isComment()
-'''
-pass
+    '''    public boolean isComment()
+    '''
 def isProcinst():
-'''public boolean isProcinst()
-'''
-pass
+    '''    public boolean isProcinst()
+    '''
 def isContainer():
-'''public boolean isContainer()
-'''
-pass
+    '''    public boolean isContainer()
+    '''
 def isFinish():
-'''public boolean isFinish()
-'''
-pass
+    '''    public boolean isFinish()
+    '''
 def isAnyAttr():
-'''public boolean isAnyAttr()
-'''
-pass
+    '''    public boolean isAnyAttr()
+    '''
 def XmlBookmark():
-'''public XmlBookmark()
-public XmlBookmark(final boolean weak)
-'''
-pass
+    '''    public XmlBookmark()
+    public XmlBookmark(final boolean weak)
+    '''
 def createCursor():
-'''public final XmlCursor createCursor()
-'''
-pass
+    '''    public final XmlCursor createCursor()
+    '''
 def toBookmark():
-'''public final XmlCursor toBookmark(final XmlCursor c)
-'''
-pass
+    '''    public final XmlCursor toBookmark(final XmlCursor c)
+    '''
 def getKey():
-'''public Object getKey()
-'''
-pass
+    '''    public Object getKey()
+    '''

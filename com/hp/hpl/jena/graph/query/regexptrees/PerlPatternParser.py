@@ -1,44 +1,34 @@
-digits = "String  0123456789""
-wordChars = "String  0123456789abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ""
+digits = "String  \"0123456789\""
+wordChars = "String  \"0123456789abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ\""
 def PerlPatternParser():
-'''public PerlPatternParser(final String toParse)
-public PerlPatternParser(final String toParse, final RegexpTreeGenerator gen)
-'''
-pass
+    '''    public PerlPatternParser(final String toParse)
+    public PerlPatternParser(final String toParse, final RegexpTreeGenerator gen)
+    '''
 def parse():
-'''public static RegexpTree parse(final String string)
-public static RegexpTree parse(final String string, final RegexpTreeGenerator gen)
-'''
-pass
+    '''    public static RegexpTree parse(final String string)
+    public static RegexpTree parse(final String string, final RegexpTreeGenerator gen)
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def getPointer():
-'''public int getPointer()
-'''
-pass
+    '''    public int getPointer()
+    '''
 def parseAtom():
-'''public RegexpTree parseAtom()
-'''
-pass
+    '''    public RegexpTree parseAtom()
+    '''
 def parseQuantifier():
-'''public RegexpTree parseQuantifier(final RegexpTree d)
-'''
-pass
+    '''    public RegexpTree parseQuantifier(final RegexpTree d)
+    '''
 def parseElement():
-'''public RegexpTree parseElement()
-'''
-pass
+    '''    public RegexpTree parseElement()
+    '''
 def parseSeq():
-'''public RegexpTree parseSeq()
-'''
-pass
+    '''    public RegexpTree parseSeq()
+    '''
 def parseAlts():
-'''public RegexpTree parseAlts()
-'''
-pass
+    '''    public RegexpTree parseAlts()
+    '''
 def SyntaxException():
-'''public SyntaxException(final String message)
-'''
-pass
+    '''    public SyntaxException(final String message)
+    '''

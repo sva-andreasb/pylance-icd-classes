@@ -1,24 +1,18 @@
 def InvoiceSet():
-'''public InvoiceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvoiceSet(final MboServerInterface ms)
+    '''
 def setHistory():
-'''public void setHistory(final boolean historyInvoices)
-'''
-pass
+    '''    public void setHistory(final boolean historyInvoices)
+    '''
 def setCurrent():
-'''public void setCurrent(final boolean currentInvoices)
-'''
-pass
+    '''    public void setCurrent(final boolean currentInvoices)
+    '''
 def getHistory():
-'''public boolean getHistory()
-'''
-pass
+    '''    public boolean getHistory()
+    '''
 def getCurrent():
-'''public boolean getCurrent()
-'''
-pass
+    '''    public boolean getCurrent()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''

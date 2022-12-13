@@ -1,30 +1,23 @@
 def JDTLikeHandleProvider():
-'''public JDTLikeHandleProvider(final AsmManager asm)
-'''
-pass
+    '''    public JDTLikeHandleProvider(final AsmManager asm)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def createHandleIdentifier():
-'''public String createHandleIdentifier(final IProgramElement ipe)
-public String createHandleIdentifier(final ISourceLocation location)
-public String createHandleIdentifier(final File sourceFile, final int line, final int column, final int offset)
-'''
-pass
+    '''    public String createHandleIdentifier(final IProgramElement ipe)
+    public String createHandleIdentifier(final ISourceLocation location)
+    public String createHandleIdentifier(final File sourceFile, final int line, final int column, final int offset)
+    '''
 def getFileForHandle():
-'''public String getFileForHandle(final String handle)
-'''
-pass
+    '''    public String getFileForHandle(final String handle)
+    '''
 def getLineNumberForHandle():
-'''public int getLineNumberForHandle(final String handle)
-'''
-pass
+    '''    public int getLineNumberForHandle(final String handle)
+    '''
 def getOffSetForHandle():
-'''public int getOffSetForHandle(final String handle)
-'''
-pass
+    '''    public int getOffSetForHandle(final String handle)
+    '''
 def dependsOnLocation():
-'''public boolean dependsOnLocation()
-'''
-pass
+    '''    public boolean dependsOnLocation()
+    '''

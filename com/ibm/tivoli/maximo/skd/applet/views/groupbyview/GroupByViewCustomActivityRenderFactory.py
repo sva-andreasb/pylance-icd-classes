@@ -1,20 +1,15 @@
 def GroupByViewCustomActivityRenderFactory():
-'''public GroupByViewCustomActivityRenderFactory(final IlvHierarchyChart hierarchyChart)
-'''
-pass
+    '''    public GroupByViewCustomActivityRenderFactory(final IlvHierarchyChart hierarchyChart)
+    '''
 def setModel():
-'''public void setModel(final IlvGanttModel model)
-'''
-pass
+    '''    public void setModel(final IlvGanttModel model)
+    '''
 def getModel():
-'''public IlvGanttModel getModel()
-'''
-pass
+    '''    public IlvGanttModel getModel()
+    '''
 def getLeafActivityRenderer():
-'''public IlvActivityRenderer getLeafActivityRenderer()
-'''
-pass
+    '''    public IlvActivityRenderer getLeafActivityRenderer()
+    '''
 def createActivityRenderer():
-'''public IlvActivityRenderer createActivityRenderer(final IlvActivity activity)
-'''
-pass
+    '''    public IlvActivityRenderer createActivityRenderer(final IlvActivity activity)
+    '''

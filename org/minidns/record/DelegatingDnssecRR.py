@@ -1,20 +1,15 @@
 def serialize():
-'''public void serialize(final DataOutputStream dos)
-'''
-pass
+    '''    public void serialize(final DataOutputStream dos)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getDigestBigInteger():
-'''public BigInteger getDigestBigInteger()
-'''
-pass
+    '''    public BigInteger getDigestBigInteger()
+    '''
 def getDigestHex():
-'''public String getDigestHex()
-'''
-pass
+    '''    public String getDigestHex()
+    '''
 def digestEquals():
-'''public boolean digestEquals(final byte[] otherDigest)
-'''
-pass
+    '''    public boolean digestEquals(final byte[] otherDigest)
+    '''

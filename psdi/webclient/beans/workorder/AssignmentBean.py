@@ -1,16 +1,12 @@
 def AssignmentBean():
-'''public AssignmentBean()
-'''
-pass
+    '''    public AssignmentBean()
+    '''
 def assignlabor():
-'''public int assignlabor()
-'''
-pass
+    '''    public int assignlabor()
+    '''
 def crwassign():
-'''public int crwassign()
-'''
-pass
+    '''    public int crwassign()
+    '''
 def complete():
-'''public int complete()
-'''
-pass
+    '''    public int complete()
+    '''

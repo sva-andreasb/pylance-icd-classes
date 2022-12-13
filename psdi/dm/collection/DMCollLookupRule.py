@@ -1,8 +1,6 @@
 def DMCollLookupRule():
-'''public DMCollLookupRule(final MboSet ms)
-'''
-pass
+    '''    public DMCollLookupRule(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

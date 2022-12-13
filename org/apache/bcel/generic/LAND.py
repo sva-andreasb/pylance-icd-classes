@@ -1,8 +1,6 @@
 def LAND():
-'''public LAND()
-'''
-pass
+    '''    public LAND()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

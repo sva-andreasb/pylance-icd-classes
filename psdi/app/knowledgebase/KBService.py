@@ -1,5 +1,4 @@
 def KBService():
-'''public KBService()
-public KBService(final MXServer mx)
-'''
-pass
+    '''    public KBService()
+    public KBService(final MXServer mx)
+    '''

@@ -1,4 +1,3 @@
 def Nsid():
-'''public Nsid(final byte[] payload)
-'''
-pass
+    '''    public Nsid(final byte[] payload)
+    '''

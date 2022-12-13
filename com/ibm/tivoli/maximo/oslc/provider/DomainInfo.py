@@ -1,20 +1,15 @@
 def DomainInfo():
-'''public DomainInfo(final String name, final String nsURI, final String providerobjname)
-'''
-pass
+    '''    public DomainInfo(final String name, final String nsURI, final String providerobjname)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getNsURI():
-'''public String getNsURI()
-'''
-pass
+    '''    public String getNsURI()
+    '''
 def getProviderObjName():
-'''public String getProviderObjName()
-'''
-pass
+    '''    public String getProviderObjName()
+    '''
 def getOSList():
-'''public List<OslcResourceInfo> getOSList()
-'''
-pass
+    '''    public List<OslcResourceInfo> getOSList()
+    '''

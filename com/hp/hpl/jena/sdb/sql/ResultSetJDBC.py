@@ -1,12 +1,9 @@
 def ResultSetJDBC():
-'''public ResultSetJDBC(final Statement s, final ResultSet rs)
-'''
-pass
+    '''    public ResultSetJDBC(final Statement s, final ResultSet rs)
+    '''
 def get():
-'''public ResultSet get()
-'''
-pass
+    '''    public ResultSet get()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

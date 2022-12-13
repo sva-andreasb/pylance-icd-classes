@@ -1,8 +1,6 @@
 def FldTkTemplateOwner():
-'''public FldTkTemplateOwner(final MboValue mbv)
-'''
-pass
+    '''    public FldTkTemplateOwner(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

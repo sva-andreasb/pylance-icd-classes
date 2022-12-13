@@ -1,4 +1,3 @@
 def MultiSelect():
-'''public MultiSelect(final MboSet ms)
-'''
-pass
+    '''    public MultiSelect(final MboSet ms)
+    '''

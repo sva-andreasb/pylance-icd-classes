@@ -1,48 +1,36 @@
 def getLvcSym():
-'''public JSONObject getLvcSym()
-'''
-pass
+    '''    public JSONObject getLvcSym()
+    '''
 def getInstance():
-'''public static LinearClientSession getInstance(final WebClientSession wcs)
-'''
-pass
+    '''    public static LinearClientSession getInstance(final WebClientSession wcs)
+    '''
 def handleRequest():
-'''public JSONObject handleRequest(final String[] tokens)
-'''
-pass
+    '''    public JSONObject handleRequest(final String[] tokens)
+    '''
 def removeCommentsFromJson():
-'''public static String removeCommentsFromJson(final String isStr)
-'''
-pass
+    '''    public static String removeCommentsFromJson(final String isStr)
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def getWebClientSession():
-'''public WebClientSession getWebClientSession()
-'''
-pass
+    '''    public WebClientSession getWebClientSession()
+    '''
 def getDebugLevel():
-'''public int getDebugLevel()
-'''
-pass
+    '''    public int getDebugLevel()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getCurrentApp():
-'''public AppInstance getCurrentApp()
-'''
-pass
+    '''    public AppInstance getCurrentApp()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def getdataSetsToRefresh():
-'''public Set<String> getdataSetsToRefresh()
-'''
-pass
+    '''    public Set<String> getdataSetsToRefresh()
+    '''
 def getSetInfo():
-'''public JSONObject getSetInfo(final WebClientSession session)
-'''
-pass
+    '''    public JSONObject getSetInfo(final WebClientSession session)
+    '''

@@ -1,8 +1,6 @@
 def selecttoolsonplans():
-'''public int selecttoolsonplans()
-'''
-pass
+    '''    public int selecttoolsonplans()
+    '''
 def dataChangedEvent():
-'''public synchronized void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void dataChangedEvent(final DataBean speaker)
+    '''

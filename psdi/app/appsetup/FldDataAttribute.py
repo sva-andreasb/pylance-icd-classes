@@ -1,4 +1,3 @@
 def FldDataAttribute():
-'''public FldDataAttribute(final MboValue mbv)
-'''
-pass
+    '''    public FldDataAttribute(final MboValue mbv)
+    '''

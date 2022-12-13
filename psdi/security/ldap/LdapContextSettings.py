@@ -1,44 +1,33 @@
 def LdapContextSettings():
-'''public LdapContextSettings()
-'''
-pass
+    '''    public LdapContextSettings()
+    '''
 def getPrincipal():
-'''public String getPrincipal()
-'''
-pass
+    '''    public String getPrincipal()
+    '''
 def setPrincipal():
-'''public void setPrincipal(final String string)
-'''
-pass
+    '''    public void setPrincipal(final String string)
+    '''
 def getCredential():
-'''public String getCredential()
-'''
-pass
+    '''    public String getCredential()
+    '''
 def setCredential():
-'''public void setCredential(final String string)
-'''
-pass
+    '''    public void setCredential(final String string)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def setHost():
-'''public void setHost(final String string)
-'''
-pass
+    '''    public void setHost(final String string)
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def setPort():
-'''public void setPort(final int i)
-'''
-pass
+    '''    public void setPort(final int i)
+    '''
 def isSSLEnabled():
-'''public boolean isSSLEnabled()
-'''
-pass
+    '''    public boolean isSSLEnabled()
+    '''
 def setSSLEnabled():
-'''public void setSSLEnabled(final boolean b)
-'''
-pass
+    '''    public void setSSLEnabled(final boolean b)
+    '''

@@ -1,72 +1,54 @@
 def EntityImpl():
-'''public EntityImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
-'''
-pass
+    '''    public EntityImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def getPublicId():
-'''public String getPublicId()
-'''
-pass
+    '''    public String getPublicId()
+    '''
 def getSystemId():
-'''public String getSystemId()
-'''
-pass
+    '''    public String getSystemId()
+    '''
 def getXmlVersion():
-'''public String getXmlVersion()
-'''
-pass
+    '''    public String getXmlVersion()
+    '''
 def getXmlEncoding():
-'''public String getXmlEncoding()
-'''
-pass
+    '''    public String getXmlEncoding()
+    '''
 def getNotationName():
-'''public String getNotationName()
-'''
-pass
+    '''    public String getNotationName()
+    '''
 def setPublicId():
-'''public void setPublicId(final String publicId)
-'''
-pass
+    '''    public void setPublicId(final String publicId)
+    '''
 def setXmlEncoding():
-'''public void setXmlEncoding(final String encoding)
-'''
-pass
+    '''    public void setXmlEncoding(final String encoding)
+    '''
 def getInputEncoding():
-'''public String getInputEncoding()
-'''
-pass
+    '''    public String getInputEncoding()
+    '''
 def setInputEncoding():
-'''public void setInputEncoding(final String inputEncoding)
-'''
-pass
+    '''    public void setInputEncoding(final String inputEncoding)
+    '''
 def setXmlVersion():
-'''public void setXmlVersion(final String version)
-'''
-pass
+    '''    public void setXmlVersion(final String version)
+    '''
 def setSystemId():
-'''public void setSystemId(final String systemId)
-'''
-pass
+    '''    public void setSystemId(final String systemId)
+    '''
 def setNotationName():
-'''public void setNotationName(final String notationName)
-'''
-pass
+    '''    public void setNotationName(final String notationName)
+    '''
 def getBaseURI():
-'''public String getBaseURI()
-'''
-pass
+    '''    public String getBaseURI()
+    '''
 def setBaseURI():
-'''public void setBaseURI(final String baseURI)
-'''
-pass
+    '''    public void setBaseURI(final String baseURI)
+    '''

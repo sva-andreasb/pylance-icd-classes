@@ -1,20 +1,15 @@
 def Appointment():
-'''public Appointment(final Date start, final Date end)
-'''
-pass
+    '''    public Appointment(final Date start, final Date end)
+    '''
 def getStart():
-'''public Date getStart()
-'''
-pass
+    '''    public Date getStart()
+    '''
 def setStart():
-'''public void setStart(final Date start)
-'''
-pass
+    '''    public void setStart(final Date start)
+    '''
 def getEnd():
-'''public Date getEnd()
-'''
-pass
+    '''    public Date getEnd()
+    '''
 def setEnd():
-'''public void setEnd(final Date end)
-'''
-pass
+    '''    public void setEnd(final Date end)
+    '''

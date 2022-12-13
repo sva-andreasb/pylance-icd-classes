@@ -1,20 +1,15 @@
 def PostDeleteTicketMessageToSlack():
-'''public PostDeleteTicketMessageToSlack(final MboRemote mainTicket, final MboSetRemote channelSet)
-'''
-pass
+    '''    public PostDeleteTicketMessageToSlack(final MboRemote mainTicket, final MboSetRemote channelSet)
+    '''
 def loadChatOpsInfo():
-'''public void loadChatOpsInfo()
-'''
-pass
+    '''    public void loadChatOpsInfo()
+    '''
 def loadChannel():
-'''public void loadChannel()
-'''
-pass
+    '''    public void loadChannel()
+    '''
 def pushMessageToSlack():
-'''public void pushMessageToSlack()
-'''
-pass
+    '''    public void pushMessageToSlack()
+    '''
 def postMessageToSlack():
-'''public void postMessageToSlack()
-'''
-pass
+    '''    public void postMessageToSlack()
+    '''

@@ -1,28 +1,21 @@
 def AppenderControl():
-'''public AppenderControl(final Appender appender, final Level level, final Filter filter)
-'''
-pass
+    '''    public AppenderControl(final Appender appender, final Level level, final Filter filter)
+    '''
 def getAppenderName():
-'''public String getAppenderName()
-'''
-pass
+    '''    public String getAppenderName()
+    '''
 def getAppender():
-'''public Appender getAppender()
-'''
-pass
+    '''    public Appender getAppender()
+    '''
 def callAppender():
-'''public void callAppender(final LogEvent event)
-'''
-pass
+    '''    public void callAppender(final LogEvent event)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

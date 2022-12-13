@@ -1,4 +1,3 @@
 def newTrustedTransport():
-'''public static NetHttpTransport newTrustedTransport()
-'''
-pass
+    '''    public static NetHttpTransport newTrustedTransport()
+    '''

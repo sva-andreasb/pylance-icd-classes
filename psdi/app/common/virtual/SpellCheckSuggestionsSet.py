@@ -1,4 +1,3 @@
 def SpellCheckSuggestionsSet():
-'''public SpellCheckSuggestionsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SpellCheckSuggestionsSet(final MboServerInterface ms)
+    '''

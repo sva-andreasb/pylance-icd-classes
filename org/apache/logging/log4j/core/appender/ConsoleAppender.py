@@ -1,78 +1,61 @@
-PLUGIN_NAME = "String  Console""
+PLUGIN_NAME = "String  \"Console\""
 def createAppender():
-'''public static ConsoleAppender createAppender(Layout<? extends Serializable> layout, final Filter filter, final String targetStr, final String name, final String follow, final String ignore)
-public static ConsoleAppender createAppender(Layout<? extends Serializable> layout, final Filter filter, Target target, final String name, final boolean follow, final boolean direct, final boolean ignoreExceptions)
-'''
-pass
+    '''    public static ConsoleAppender createAppender(Layout<? extends Serializable> layout, final Filter filter, final String targetStr, final String name, final String follow, final String ignore)
+    public static ConsoleAppender createAppender(Layout<? extends Serializable> layout, final Filter filter, Target target, final String name, final boolean follow, final boolean direct, final boolean ignoreExceptions)
+    '''
 def createDefaultAppenderForLayout():
-'''public static ConsoleAppender createDefaultAppenderForLayout(final Layout<? extends Serializable> layout)
-'''
-pass
+    '''    public static ConsoleAppender createDefaultAppenderForLayout(final Layout<? extends Serializable> layout)
+    '''
 def newBuilder():
-'''public static <B extends Builder<B>> B newBuilder()
-'''
-pass
+    '''    public static <B extends Builder<B>> B newBuilder()
+    '''
 def getTarget():
-'''public Target getTarget()
-'''
-pass
+    '''    public Target getTarget()
+    '''
 def getDefaultCharset():
-'''public Charset getDefaultCharset()
-public Charset getDefaultCharset()
-'''
-pass
+    '''    public Charset getDefaultCharset()
+    public Charset getDefaultCharset()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def setTarget():
-'''public B setTarget(final Target aTarget)
-'''
-pass
+    '''    public B setTarget(final Target aTarget)
+    '''
 def setFollow():
-'''public B setFollow(final boolean shouldFollow)
-'''
-pass
+    '''    public B setFollow(final boolean shouldFollow)
+    '''
 def setDirect():
-'''public B setDirect(final boolean shouldDirect)
-'''
-pass
+    '''    public B setDirect(final boolean shouldDirect)
+    '''
 def build():
-'''public ConsoleAppender build()
-'''
-pass
+    '''    public ConsoleAppender build()
+    '''
 def SystemErrStream():
-'''public SystemErrStream()
-'''
-pass
+    '''    public SystemErrStream()
+    '''
 def close():
-'''public void close()
-public void close()
-'''
-pass
+    '''    public void close()
+    public void close()
+    '''
 def flush():
-'''public void flush()
-public void flush()
-'''
-pass
+    '''    public void flush()
+    public void flush()
+    '''
 def write():
-'''public void write(final byte[] b)
-public void write(final byte[] b, final int off, final int len)
-public void write(final int b)
-public void write(final byte[] b)
-public void write(final byte[] b, final int off, final int len)
-public void write(final int b)
-'''
-pass
+    '''    public void write(final byte[] b)
+    public void write(final byte[] b, final int off, final int len)
+    public void write(final int b)
+    public void write(final byte[] b)
+    public void write(final byte[] b, final int off, final int len)
+    public void write(final int b)
+    '''
 def SystemOutStream():
-'''public SystemOutStream()
-'''
-pass
+    '''    public SystemOutStream()
+    '''
 def FactoryData():
-'''public FactoryData(final OutputStream os, final String type, final Layout<? extends Serializable> layout)
-'''
-pass
+    '''    public FactoryData(final OutputStream os, final String type, final Layout<? extends Serializable> layout)
+    '''
 def createManager():
-'''public OutputStreamManager createManager(final String name, final FactoryData data)
-'''
-pass
+    '''    public OutputStreamManager createManager(final String name, final FactoryData data)
+    '''

@@ -1,437 +1,329 @@
 def SKDProjectAppBean():
-'''public SKDProjectAppBean()
-'''
-pass
+    '''    public SKDProjectAppBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def REFRESH():
-'''public int REFRESH()
-'''
-pass
+    '''    public int REFRESH()
+    '''
 def REFRESHALL():
-'''public int REFRESHALL()
-'''
-pass
+    '''    public int REFRESHALL()
+    '''
 def appsSigOptionAccessAuthorized():
-'''public void appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String siteId)
-'''
-pass
+    '''    public void appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String siteId)
+    '''
 def checkESigAccess():
-'''public void checkESigAccess(final String sigoption, final MboRemote mboRemote)
-public void checkESigAccess(final String sigoption)
-'''
-pass
+    '''    public void checkESigAccess(final String sigoption, final MboRemote mboRemote)
+    public void checkESigAccess(final String sigoption)
+    '''
 def checkActionAccess():
-'''public void checkActionAccess(final String sigoption, final MboRemote mboRemote)
-public void checkActionAccess(final String sigoption)
-'''
-pass
+    '''    public void checkActionAccess(final String sigoption, final MboRemote mboRemote)
+    public void checkActionAccess(final String sigoption)
+    '''
 def checkPMActionAccess():
-'''public void checkPMActionAccess(final String sigoption)
-'''
-pass
+    '''    public void checkPMActionAccess(final String sigoption)
+    '''
 def OWNER():
-'''public int OWNER()
-'''
-pass
+    '''    public int OWNER()
+    '''
 def LIST_OWNER():
-'''public int LIST_OWNER()
-'''
-pass
+    '''    public int LIST_OWNER()
+    '''
 def LIST_ASGNEWPRNT():
-'''public int LIST_ASGNEWPRNT()
-'''
-pass
+    '''    public int LIST_ASGNEWPRNT()
+    '''
 def LIST_NEWWRKPKG():
-'''public int LIST_NEWWRKPKG()
-'''
-pass
+    '''    public int LIST_NEWWRKPKG()
+    '''
 def CREATEJP():
-'''public int CREATEJP()
-'''
-pass
+    '''    public int CREATEJP()
+    '''
 def ITEMAVAIL():
-'''public int ITEMAVAIL()
-'''
-pass
+    '''    public int ITEMAVAIL()
+    '''
 def ASGNEWPRNT():
-'''public int ASGNEWPRNT()
-'''
-pass
+    '''    public int ASGNEWPRNT()
+    '''
 def NEWWRKPKG():
-'''public int NEWWRKPKG()
-'''
-pass
+    '''    public int NEWWRKPKG()
+    '''
 def ASSIGN():
-'''public int ASSIGN()
-'''
-pass
+    '''    public int ASSIGN()
+    '''
 def LIST_STATUS():
-'''public int LIST_STATUS()
-'''
-pass
+    '''    public int LIST_STATUS()
+    '''
 def LIST_WFINIT():
-'''public int LIST_WFINIT()
-'''
-pass
+    '''    public int LIST_WFINIT()
+    '''
 def checkSameType():
-'''public void checkSameType(final boolean initWF)
-'''
-pass
+    '''    public void checkSameType(final boolean initWF)
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def WFINIT():
-'''public int WFINIT()
-'''
-pass
+    '''    public int WFINIT()
+    '''
 def CREATECHG():
-'''public int CREATECHG()
-'''
-pass
+    '''    public int CREATECHG()
+    '''
 def CREATEPROB():
-'''public int CREATEPROB()
-'''
-pass
+    '''    public int CREATEPROB()
+    '''
 def CREATEINCT():
-'''public int CREATEINCT()
-'''
-pass
+    '''    public int CREATEINCT()
+    '''
 def CREATESREQ():
-'''public int CREATESREQ()
-'''
-pass
+    '''    public int CREATESREQ()
+    '''
 def CREATEREL():
-'''public int CREATEREL()
-'''
-pass
+    '''    public int CREATEREL()
+    '''
 def CREATECOMM():
-'''public int CREATECOMM()
-'''
-pass
+    '''    public int CREATECOMM()
+    '''
 def COMMSELECTED():
-'''public int COMMSELECTED()
-'''
-pass
+    '''    public int COMMSELECTED()
+    '''
 def COMMSELECTEDPM():
-'''public int COMMSELECTEDPM()
-'''
-pass
+    '''    public int COMMSELECTEDPM()
+    '''
 def COMMSELCONST():
-'''public int COMMSELCONST()
-'''
-pass
+    '''    public int COMMSELCONST()
+    '''
 def COMMSELCONSTS():
-'''public int COMMSELCONSTS()
-'''
-pass
+    '''    public int COMMSELCONSTS()
+    '''
 def setSelectedIDsforPM():
-'''public void setSelectedIDsforPM(final String[] selectedRecords)
-'''
-pass
+    '''    public void setSelectedIDsforPM(final String[] selectedRecords)
+    '''
 def checkWOSelected():
-'''public String checkWOSelected(final String[] selectedRecords)
-'''
-pass
+    '''    public String checkWOSelected(final String[] selectedRecords)
+    '''
 def LIST_COMMSELECTED():
-'''public int LIST_COMMSELECTED()
-'''
-pass
+    '''    public int LIST_COMMSELECTED()
+    '''
 def LIST_COMMSELECTEDPM():
-'''public int LIST_COMMSELECTEDPM()
-'''
-pass
+    '''    public int LIST_COMMSELECTEDPM()
+    '''
 def LIST_REMOVE():
-'''public int LIST_REMOVE()
-'''
-pass
+    '''    public int LIST_REMOVE()
+    '''
 def REMOVE():
-'''public int REMOVE()
-'''
-pass
+    '''    public int REMOVE()
+    '''
 def checkTaskSelected():
-'''public String checkTaskSelected(final String[] selectedRecords)
-'''
-pass
+    '''    public String checkTaskSelected(final String[] selectedRecords)
+    '''
 def CREATEWO():
-'''public int CREATEWO()
-'''
-pass
+    '''    public int CREATEWO()
+    '''
 def LIST_MODIFYWO():
-'''public int LIST_MODIFYWO()
-'''
-pass
+    '''    public int LIST_MODIFYWO()
+    '''
 def MODIFYWO():
-'''public int MODIFYWO()
-'''
-pass
+    '''    public int MODIFYWO()
+    '''
 def clearModelDirty():
-'''public void clearModelDirty()
-'''
-pass
+    '''    public void clearModelDirty()
+    '''
 def CLEAR():
-'''public int CLEAR()
-'''
-pass
+    '''    public int CLEAR()
+    '''
 def PUBLISH():
-'''public int PUBLISH()
-'''
-pass
+    '''    public int PUBLISH()
+    '''
 def SCENARIO():
-'''public int SCENARIO()
-'''
-pass
+    '''    public int SCENARIO()
+    '''
 def MOVETODFLT():
-'''public int MOVETODFLT()
-'''
-pass
+    '''    public int MOVETODFLT()
+    '''
 def sentViewScenarioEvent():
-'''public void sentViewScenarioEvent(final String selectedScenarioProject, final MboRemote defaultSKDProject)
-'''
-pass
+    '''    public void sentViewScenarioEvent(final String selectedScenarioProject, final MboRemote defaultSKDProject)
+    '''
 def SNAPSHOT():
-'''public int SNAPSHOT()
-'''
-pass
+    '''    public int SNAPSHOT()
+    '''
 def COMMIT():
-'''public int COMMIT()
-public int COMMIT(final boolean confirmation)
-'''
-pass
+    '''    public int COMMIT()
+    public int COMMIT(final boolean confirmation)
+    '''
 def COMMITCONSTRAINTS():
-'''public int COMMITCONSTRAINTS()
-public int COMMITCONSTRAINTS(final boolean confirmation)
-'''
-pass
+    '''    public int COMMITCONSTRAINTS()
+    public int COMMITCONSTRAINTS(final boolean confirmation)
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def getSKDAppServiceBean():
-'''public SKDAppServiceBeanRemote getSKDAppServiceBean()
-'''
-pass
+    '''    public SKDAppServiceBeanRemote getSKDAppServiceBean()
+    '''
 def getSKDAppService():
-'''public SKDAppServiceRemote getSKDAppService()
-'''
-pass
+    '''    public SKDAppServiceRemote getSKDAppService()
+    '''
 def createSKDAppService():
-'''public SKDAppServiceRemote createSKDAppService(final HttpSession session)
-'''
-pass
+    '''    public SKDAppServiceRemote createSKDAppService(final HttpSession session)
+    '''
 def replaceString():
-'''public static String replaceString(String str, final String pattern, final String replacement)
-'''
-pass
+    '''    public static String replaceString(String str, final String pattern, final String replacement)
+    '''
 def applink():
-'''public int applink()
-'''
-pass
+    '''    public int applink()
+    '''
 def searchwork():
-'''public int searchwork()
-'''
-pass
+    '''    public int searchwork()
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def DUPESCHEDL():
-'''public int DUPESCHEDL()
-'''
-pass
+    '''    public int DUPESCHEDL()
+    '''
 def solutionsTabChanged():
-'''public int solutionsTabChanged()
-'''
-pass
+    '''    public int solutionsTabChanged()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def skdSaveYesNoCheck():
-'''public int skdSaveYesNoCheck()
-'''
-pass
+    '''    public int skdSaveYesNoCheck()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def isCommitInProgress():
-'''public boolean isCommitInProgress()
-'''
-pass
+    '''    public boolean isCommitInProgress()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def saveYesNoCheck():
-'''public boolean saveYesNoCheck()
-'''
-pass
+    '''    public boolean saveYesNoCheck()
+    '''
 def saveYesNoInteractionCheck():
-'''public boolean saveYesNoInteractionCheck()
-'''
-pass
+    '''    public boolean saveYesNoInteractionCheck()
+    '''
 def skdProjectDataChange():
-'''public int skdProjectDataChange()
-'''
-pass
+    '''    public int skdProjectDataChange()
+    '''
 def commitfailed():
-'''public int commitfailed()
-'''
-pass
+    '''    public int commitfailed()
+    '''
 def CREATESLR():
-'''public int CREATESLR()
-'''
-pass
+    '''    public int CREATESLR()
+    '''
 def startcompliance():
-'''public int startcompliance()
-'''
-pass
+    '''    public int startcompliance()
+    '''
 def endcompliance():
-'''public int endcompliance()
-'''
-pass
+    '''    public int endcompliance()
+    '''
 def calculatewocost():
-'''public int calculatewocost()
-'''
-pass
+    '''    public int calculatewocost()
+    '''
 def getCurrentProject():
-'''public SKDProject getCurrentProject()
-'''
-pass
+    '''    public SKDProject getCurrentProject()
+    '''
 def calculatelaborhrs():
-'''public int calculatelaborhrs()
-'''
-pass
+    '''    public int calculatelaborhrs()
+    '''
 def calculatewocostall():
-'''public int calculatewocostall()
-'''
-pass
+    '''    public int calculatewocostall()
+    '''
 def checkStatus():
-'''public void checkStatus(final boolean doCheck)
-'''
-pass
+    '''    public void checkStatus(final boolean doCheck)
+    '''
 def COMPARE():
-'''public int COMPARE()
-'''
-pass
+    '''    public int COMPARE()
+    '''
 def getSelectedScenarios():
-'''public Set<Long> getSelectedScenarios()
-'''
-pass
+    '''    public Set<Long> getSelectedScenarios()
+    '''
 def RESLPARAM():
-'''public int RESLPARAM()
-'''
-pass
+    '''    public int RESLPARAM()
+    '''
 def CAPPPARAM():
-'''public int CAPPPARAM()
-'''
-pass
+    '''    public int CAPPPARAM()
+    '''
 def LABORPARAM():
-'''public int LABORPARAM()
-'''
-pass
+    '''    public int LABORPARAM()
+    '''
 def SPATLPARAM():
-'''public int SPATLPARAM()
-'''
-pass
+    '''    public int SPATLPARAM()
+    '''
 def RUNOPTMZ():
-'''public int RUNOPTMZ()
-'''
-pass
+    '''    public int RUNOPTMZ()
+    '''
 def setRefreshAll():
-'''public void setRefreshAll(final boolean refreshAll)
-'''
-pass
+    '''    public void setRefreshAll(final boolean refreshAll)
+    '''
 def SWSCEN():
-'''public int SWSCEN()
-'''
-pass
+    '''    public int SWSCEN()
+    '''
 def ODMERUNMON():
-'''public int ODMERUNMON()
-'''
-pass
+    '''    public int ODMERUNMON()
+    '''
 def calculatepmfocost():
-'''public int calculatepmfocost()
-'''
-pass
+    '''    public int calculatepmfocost()
+    '''
 def getCompareItems():
-'''public JSONArray getCompareItems()
-'''
-pass
+    '''    public JSONArray getCompareItems()
+    '''
 def setCompareItems():
-'''public void setCompareItems(final JSONArray compareItems)
-'''
-pass
+    '''    public void setCompareItems(final JSONArray compareItems)
+    '''
 def RESCHDASSN():
-'''public int RESCHDASSN()
-'''
-pass
+    '''    public int RESCHDASSN()
+    '''
 def updatePercentCompleteLastCall():
-'''public void updatePercentCompleteLastCall(final MboRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)
-'''
-pass
+    '''    public void updatePercentCompleteLastCall(final MboRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)
+    '''
 def COPYSCHEDU():
-'''public int COPYSCHEDU()
-'''
-pass
+    '''    public int COPYSCHEDU()
+    '''
 def ROLLPRJ():
-'''public int ROLLPRJ()
-'''
-pass
+    '''    public int ROLLPRJ()
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final String sigOption)
+    '''
 def getCurrentSkdODMERunID():
-'''public long getCurrentSkdODMERunID()
-'''
-pass
+    '''    public long getCurrentSkdODMERunID()
+    '''
 def setCurrentSkdODMERunID():
-'''public void setCurrentSkdODMERunID(final long skdODMERunId)
-'''
-pass
+    '''    public void setCurrentSkdODMERunID(final long skdODMERunId)
+    '''
 def checkmofapikey():
-'''public int checkmofapikey()
-'''
-pass
+    '''    public int checkmofapikey()
+    '''
 def CONFOPTSRV():
-'''public int CONFOPTSRV()
-'''
-pass
+    '''    public int CONFOPTSRV()
+    '''
 def ODMEVIEW():
-'''public int ODMEVIEW()
-'''
-pass
+    '''    public int ODMEVIEW()
+    '''
 def ODMESCHD():
-'''public int ODMESCHD()
-'''
-pass
+    '''    public int ODMESCHD()
+    '''
 def SCENARIOR():
-'''public int SCENARIOR()
-'''
-pass
+    '''    public int SCENARIOR()
+    '''
 def SCENARIOC():
-'''public int SCENARIOC()
-'''
-pass
+    '''    public int SCENARIOC()
+    '''
 def SCENARIOS():
-'''public int SCENARIOS()
-'''
-pass
+    '''    public int SCENARIOS()
+    '''
 def SKDModelCacheThread():
-'''public SKDModelCacheThread()
-public SKDModelCacheThread(final UserInfo ui, final String projectId)
-'''
-pass
+    '''    public SKDModelCacheThread()
+    public SKDModelCacheThread(final UserInfo ui, final String projectId)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

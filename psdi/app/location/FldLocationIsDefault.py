@@ -1,4 +1,3 @@
 def FldLocationIsDefault():
-'''public FldLocationIsDefault(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationIsDefault(final MboValue mbv)
+    '''

@@ -1,8 +1,6 @@
 def PlusPFldSplitCustomerBillPriceSchedule():
-'''public PlusPFldSplitCustomerBillPriceSchedule(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldSplitCustomerBillPriceSchedule(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

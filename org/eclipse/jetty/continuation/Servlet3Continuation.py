@@ -1,89 +1,68 @@
 def Servlet3Continuation():
-'''public Servlet3Continuation(final ServletRequest request)
-'''
-pass
+    '''    public Servlet3Continuation(final ServletRequest request)
+    '''
 def onComplete():
-'''public void onComplete(final AsyncEvent event)
-public void onComplete(final AsyncEvent event)
-'''
-pass
+    '''    public void onComplete(final AsyncEvent event)
+    public void onComplete(final AsyncEvent event)
+    '''
 def onError():
-'''public void onError(final AsyncEvent event)
-public void onError(final AsyncEvent event)
-'''
-pass
+    '''    public void onError(final AsyncEvent event)
+    public void onError(final AsyncEvent event)
+    '''
 def onStartAsync():
-'''public void onStartAsync(final AsyncEvent event)
-public void onStartAsync(final AsyncEvent event)
-'''
-pass
+    '''    public void onStartAsync(final AsyncEvent event)
+    public void onStartAsync(final AsyncEvent event)
+    '''
 def onTimeout():
-'''public void onTimeout(final AsyncEvent event)
-public void onTimeout(final AsyncEvent event)
-'''
-pass
+    '''    public void onTimeout(final AsyncEvent event)
+    public void onTimeout(final AsyncEvent event)
+    '''
 def addContinuationListener():
-'''public void addContinuationListener(final ContinuationListener listener)
-'''
-pass
+    '''    public void addContinuationListener(final ContinuationListener listener)
+    '''
 def complete():
-'''public void complete()
-'''
-pass
+    '''    public void complete()
+    '''
 def getServletResponse():
-'''public ServletResponse getServletResponse()
-'''
-pass
+    '''    public ServletResponse getServletResponse()
+    '''
 def isExpired():
-'''public boolean isExpired()
-'''
-pass
+    '''    public boolean isExpired()
+    '''
 def isInitial():
-'''public boolean isInitial()
-'''
-pass
+    '''    public boolean isInitial()
+    '''
 def isResumed():
-'''public boolean isResumed()
-'''
-pass
+    '''    public boolean isResumed()
+    '''
 def isSuspended():
-'''public boolean isSuspended()
-'''
-pass
+    '''    public boolean isSuspended()
+    '''
 def keepWrappers():
-'''public void keepWrappers()
-'''
-pass
+    '''    public void keepWrappers()
+    '''
 def resume():
-'''public void resume()
-'''
-pass
+    '''    public void resume()
+    '''
 def setTimeout():
-'''public void setTimeout(final long timeoutMs)
-'''
-pass
+    '''    public void setTimeout(final long timeoutMs)
+    '''
 def suspend():
-'''public void suspend(final ServletResponse response)
-public void suspend()
-'''
-pass
+    '''    public void suspend(final ServletResponse response)
+    public void suspend()
+    '''
 def isResponseWrapped():
-'''public boolean isResponseWrapped()
-'''
-pass
+    '''    public boolean isResponseWrapped()
+    '''
 def getAttribute():
-'''public Object getAttribute(final String name)
-'''
-pass
+    '''    public Object getAttribute(final String name)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final String name)
-'''
-pass
+    '''    public void removeAttribute(final String name)
+    '''
 def setAttribute():
-'''public void setAttribute(final String name, final Object attribute)
-'''
-pass
+    '''    public void setAttribute(final String name, final Object attribute)
+    '''
 def undispatch():
-'''public void undispatch()
-'''
-pass
+    '''    public void undispatch()
+    '''

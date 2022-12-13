@@ -1,24 +1,18 @@
 def set():
-'''public void set(final int i)
-'''
-pass
+    '''    public void set(final int i)
+    '''
 def hasNext():
-'''public final boolean hasNext()
-'''
-pass
+    '''    public final boolean hasNext()
+    '''
 def hasPrevious():
-'''public final boolean hasPrevious()
-'''
-pass
+    '''    public final boolean hasPrevious()
+    '''
 def next():
-'''public CharSequenceValues next()
-'''
-pass
+    '''    public CharSequenceValues next()
+    '''
 def previous():
-'''public CharSequenceValues previous()
-'''
-pass
+    '''    public CharSequenceValues previous()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

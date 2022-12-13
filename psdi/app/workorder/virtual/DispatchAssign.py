@@ -1,12 +1,9 @@
 def DispatchAssign():
-'''public DispatchAssign(final MboSet ms)
-'''
-pass
+    '''    public DispatchAssign(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getAssignSet():
-'''public AssignmentSet getAssignSet()
-'''
-pass
+    '''    public AssignmentSet getAssignSet()
+    '''

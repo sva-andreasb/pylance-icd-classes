@@ -1,8 +1,6 @@
 def FldRFQLineRFQLineNum():
-'''public FldRFQLineRFQLineNum(final MboValue mbv)
-'''
-pass
+    '''    public FldRFQLineRFQLineNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

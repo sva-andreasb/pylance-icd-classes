@@ -1,4 +1,3 @@
 def getInstance():
-'''public DecimalFormatProperties getInstance()
-'''
-pass
+    '''    public DecimalFormatProperties getInstance()
+    '''

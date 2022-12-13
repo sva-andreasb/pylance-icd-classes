@@ -1,60 +1,45 @@
 def ControlFlowGraph():
-'''public ControlFlowGraph(final MethodGen method_gen)
-'''
-pass
+    '''    public ControlFlowGraph(final MethodGen method_gen)
+    '''
 def contextOf():
-'''public InstructionContext contextOf(final InstructionHandle inst)
-'''
-pass
+    '''    public InstructionContext contextOf(final InstructionHandle inst)
+    '''
 def contextsOf():
-'''public InstructionContext[] contextsOf(final InstructionHandle[] insts)
-'''
-pass
+    '''    public InstructionContext[] contextsOf(final InstructionHandle[] insts)
+    '''
 def getInstructionContexts():
-'''public InstructionContext[] getInstructionContexts()
-'''
-pass
+    '''    public InstructionContext[] getInstructionContexts()
+    '''
 def isDead():
-'''public boolean isDead(final InstructionHandle i)
-'''
-pass
+    '''    public boolean isDead(final InstructionHandle i)
+    '''
 def InstructionContextImpl():
-'''public InstructionContextImpl(final InstructionHandle inst)
-'''
-pass
+    '''    public InstructionContextImpl(final InstructionHandle inst)
+    '''
 def getTag():
-'''public int getTag()
-'''
-pass
+    '''    public int getTag()
+    '''
 def setTag():
-'''public void setTag(final int tag)
-'''
-pass
+    '''    public void setTag(final int tag)
+    '''
 def getExceptionHandlers():
-'''public ExceptionHandler[] getExceptionHandlers()
-'''
-pass
+    '''    public ExceptionHandler[] getExceptionHandlers()
+    '''
 def getOutFrame():
-'''public Frame getOutFrame(final ArrayList execChain)
-'''
-pass
+    '''    public Frame getOutFrame(final ArrayList execChain)
+    '''
 def getInFrame():
-'''public Frame getInFrame()
-'''
-pass
+    '''    public Frame getInFrame()
+    '''
 def execute():
-'''public boolean execute(final Frame inFrame, final ArrayList execPreds, final InstConstraintVisitor icv, final ExecutionVisitor ev)
-'''
-pass
+    '''    public boolean execute(final Frame inFrame, final ArrayList execPreds, final InstConstraintVisitor icv, final ExecutionVisitor ev)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getInstruction():
-'''public InstructionHandle getInstruction()
-'''
-pass
+    '''    public InstructionHandle getInstruction()
+    '''
 def getSuccessors():
-'''public InstructionContext[] getSuccessors()
-'''
-pass
+    '''    public InstructionContext[] getSuccessors()
+    '''

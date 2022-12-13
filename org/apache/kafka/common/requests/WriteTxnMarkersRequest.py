@@ -1,66 +1,50 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def WriteTxnMarkersRequest():
-'''public WriteTxnMarkersRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public WriteTxnMarkersRequest(final Struct struct, final short version)
+    '''
 def markers():
-'''public List<TxnMarkerEntry> markers()
-'''
-pass
+    '''    public List<TxnMarkerEntry> markers()
+    '''
 def getErrorResponse():
-'''public WriteTxnMarkersResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public WriteTxnMarkersResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def parse():
-'''public static WriteTxnMarkersRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static WriteTxnMarkersRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def TxnMarkerEntry():
-'''public TxnMarkerEntry(final long producerId, final short producerEpoch, final int coordinatorEpoch, final TransactionResult result, final List<TopicPartition> partitions)
-'''
-pass
+    '''    public TxnMarkerEntry(final long producerId, final short producerEpoch, final int coordinatorEpoch, final TransactionResult result, final List<TopicPartition> partitions)
+    '''
 def producerId():
-'''public long producerId()
-'''
-pass
+    '''    public long producerId()
+    '''
 def producerEpoch():
-'''public short producerEpoch()
-'''
-pass
+    '''    public short producerEpoch()
+    '''
 def coordinatorEpoch():
-'''public int coordinatorEpoch()
-'''
-pass
+    '''    public int coordinatorEpoch()
+    '''
 def transactionResult():
-'''public TransactionResult transactionResult()
-'''
-pass
+    '''    public TransactionResult transactionResult()
+    '''
 def partitions():
-'''public List<TopicPartition> partitions()
-'''
-pass
+    '''    public List<TopicPartition> partitions()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Builder():
-'''public Builder(final List<TxnMarkerEntry> markers)
-'''
-pass
+    '''    public Builder(final List<TxnMarkerEntry> markers)
+    '''
 def build():
-'''public WriteTxnMarkersRequest build(final short version)
-'''
-pass
+    '''    public WriteTxnMarkersRequest build(final short version)
+    '''

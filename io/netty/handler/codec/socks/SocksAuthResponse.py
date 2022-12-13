@@ -1,12 +1,9 @@
 def SocksAuthResponse():
-'''public SocksAuthResponse(final SocksAuthStatus authStatus)
-'''
-pass
+    '''    public SocksAuthResponse(final SocksAuthStatus authStatus)
+    '''
 def authStatus():
-'''public SocksAuthStatus authStatus()
-'''
-pass
+    '''    public SocksAuthStatus authStatus()
+    '''
 def encodeAsByteBuf():
-'''public void encodeAsByteBuf(final ByteBuf byteBuf)
-'''
-pass
+    '''    public void encodeAsByteBuf(final ByteBuf byteBuf)
+    '''

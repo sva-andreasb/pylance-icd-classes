@@ -1,47 +1,38 @@
 def matches():
-'''public boolean matches(final char[] target)
-public boolean matches(final char[] target, final int start, final int end)
-public boolean matches(final char[] target, final Match match)
-public boolean matches(final char[] target, final int start, final int end, Match match)
-public boolean matches(final String target)
-public boolean matches(final String target, final int start, final int end)
-public boolean matches(final String target, final Match match)
-public boolean matches(final String target, final int start, final int end, Match match)
-public boolean matches(final CharacterIterator target)
-public boolean matches(final CharacterIterator target, Match match)
-'''
-pass
+    '''    public boolean matches(final char[] target)
+    public boolean matches(final char[] target, final int start, final int end)
+    public boolean matches(final char[] target, final Match match)
+    public boolean matches(final char[] target, final int start, final int end, Match match)
+    public boolean matches(final String target)
+    public boolean matches(final String target, final int start, final int end)
+    public boolean matches(final String target, final Match match)
+    public boolean matches(final String target, final int start, final int end, Match match)
+    public boolean matches(final CharacterIterator target)
+    public boolean matches(final CharacterIterator target, Match match)
+    '''
 def RegularExpression():
-'''public RegularExpression(final String regex)
-public RegularExpression(final String regex, final String options)
-'''
-pass
+    '''    public RegularExpression(final String regex)
+    public RegularExpression(final String regex, final String options)
+    '''
 def setPattern():
-'''public void setPattern(final String newPattern)
-public void setPattern(final String newPattern, final String options)
-'''
-pass
+    '''    public void setPattern(final String newPattern)
+    public void setPattern(final String newPattern, final String options)
+    '''
 def getPattern():
-'''public String getPattern()
-'''
-pass
+    '''    public String getPattern()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getOptions():
-'''public String getOptions()
-'''
-pass
+    '''    public String getOptions()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getNumberOfGroups():
-'''public int getNumberOfGroups()
-'''
-pass
+    '''    public int getNumberOfGroups()
+    '''

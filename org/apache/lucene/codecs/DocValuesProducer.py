@@ -1,4 +1,3 @@
 def getMergeInstance():
-'''public DocValuesProducer getMergeInstance()
-'''
-pass
+    '''    public DocValuesProducer getMergeInstance()
+    '''

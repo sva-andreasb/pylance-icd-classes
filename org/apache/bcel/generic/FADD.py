@@ -1,8 +1,6 @@
 def FADD():
-'''public FADD()
-'''
-pass
+    '''    public FADD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

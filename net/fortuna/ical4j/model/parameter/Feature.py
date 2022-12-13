@@ -1,16 +1,12 @@
 def Feature():
-'''public Feature(final String value)
-'''
-pass
+    '''    public Feature(final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

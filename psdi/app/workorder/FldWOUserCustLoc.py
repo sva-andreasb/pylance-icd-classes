@@ -1,12 +1,9 @@
 def FldWOUserCustLoc():
-'''public FldWOUserCustLoc(final MboValue mbv)
-'''
-pass
+    '''    public FldWOUserCustLoc(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

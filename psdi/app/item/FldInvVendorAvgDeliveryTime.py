@@ -1,8 +1,6 @@
 def FldInvVendorAvgDeliveryTime():
-'''public FldInvVendorAvgDeliveryTime(final MboValue mbv)
-'''
-pass
+    '''    public FldInvVendorAvgDeliveryTime(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,32 +1,24 @@
 def ExcelAntEvaluationResult():
-'''public ExcelAntEvaluationResult(final boolean completedWithError, final boolean passed, final double retValue, final String errMessage, final double delta, final String cellId)
-'''
-pass
+    '''    public ExcelAntEvaluationResult(final boolean completedWithError, final boolean passed, final double retValue, final String errMessage, final double delta, final String cellId)
+    '''
 def getReturnValue():
-'''public double getReturnValue()
-'''
-pass
+    '''    public double getReturnValue()
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def didTestPass():
-'''public boolean didTestPass()
-'''
-pass
+    '''    public boolean didTestPass()
+    '''
 def evaluationCompleteWithError():
-'''public boolean evaluationCompleteWithError()
-'''
-pass
+    '''    public boolean evaluationCompleteWithError()
+    '''
 def getDelta():
-'''public double getDelta()
-'''
-pass
+    '''    public double getDelta()
+    '''
 def getCellName():
-'''public String getCellName()
-'''
-pass
+    '''    public String getCellName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

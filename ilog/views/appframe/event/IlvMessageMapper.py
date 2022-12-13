@@ -1,32 +1,24 @@
 def IlvMessageMapper():
-'''public IlvMessageMapper(final Object e)
-'''
-pass
+    '''    public IlvMessageMapper(final Object e)
+    '''
 def receiveMessage():
-'''public void receiveMessage(final MessageEvent messageEvent)
-'''
-pass
+    '''    public void receiveMessage(final MessageEvent messageEvent)
+    '''
 def isProcessingAction():
-'''public boolean isProcessingAction(final String s)
-'''
-pass
+    '''    public boolean isProcessingAction(final String s)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def updateAction():
-'''public boolean updateAction(final Action action)
-'''
-pass
+    '''    public boolean updateAction(final Action action)
+    '''
 def registerMessageMethod():
-'''public void registerMessageMethod(final String s, final String s2, final Class[] array)
-'''
-pass
+    '''    public void registerMessageMethod(final String s, final String s2, final Class[] array)
+    '''
 def registerActionMethod():
-'''public void registerActionMethod(final String s, final String s2)
-'''
-pass
+    '''    public void registerActionMethod(final String s, final String s2)
+    '''
 def registerActionStateMethod():
-'''public void registerActionStateMethod(final String s, final String s2)
-'''
-pass
+    '''    public void registerActionStateMethod(final String s, final String s2)
+    '''

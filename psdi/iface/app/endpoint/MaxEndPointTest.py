@@ -1,4 +1,3 @@
 def MaxEndPointTest():
-'''public MaxEndPointTest(final MboSet ms)
-'''
-pass
+    '''    public MaxEndPointTest(final MboSet ms)
+    '''

@@ -1,34 +1,26 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def SaslAuthenticateRequest():
-'''public SaslAuthenticateRequest(final ByteBuffer saslAuthBytes)
-public SaslAuthenticateRequest(final ByteBuffer saslAuthBytes, final short version)
-public SaslAuthenticateRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public SaslAuthenticateRequest(final ByteBuffer saslAuthBytes)
+    public SaslAuthenticateRequest(final ByteBuffer saslAuthBytes, final short version)
+    public SaslAuthenticateRequest(final Struct struct, final short version)
+    '''
 def saslAuthBytes():
-'''public ByteBuffer saslAuthBytes()
-'''
-pass
+    '''    public ByteBuffer saslAuthBytes()
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def parse():
-'''public static SaslAuthenticateRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static SaslAuthenticateRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder(final ByteBuffer saslAuthBytes)
-'''
-pass
+    '''    public Builder(final ByteBuffer saslAuthBytes)
+    '''
 def build():
-'''public SaslAuthenticateRequest build(final short version)
-'''
-pass
+    '''    public SaslAuthenticateRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def IlvAbstractDataContainerUndoableEdit():
-'''public IlvAbstractDataContainerUndoableEdit(final IlvDataContainer a)
-'''
-pass
+    '''    public IlvAbstractDataContainerUndoableEdit(final IlvDataContainer a)
+    '''
 def getDataContainer():
-'''public IlvDataContainer getDataContainer()
-'''
-pass
+    '''    public IlvDataContainer getDataContainer()
+    '''

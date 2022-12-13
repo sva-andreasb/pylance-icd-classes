@@ -1,8 +1,6 @@
 def OslcCoreMissingSetMethodException():
-'''public OslcCoreMissingSetMethodException(final Class<?> resourceClass, final Method getMethod, final Exception exception)
-'''
-pass
+    '''    public OslcCoreMissingSetMethodException(final Class<?> resourceClass, final Method getMethod, final Exception exception)
+    '''
 def getGetMethod():
-'''public Method getGetMethod()
-'''
-pass
+    '''    public Method getGetMethod()
+    '''

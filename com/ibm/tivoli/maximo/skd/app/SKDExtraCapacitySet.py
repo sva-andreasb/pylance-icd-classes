@@ -1,4 +1,3 @@
 def SKDExtraCapacitySet():
-'''public SKDExtraCapacitySet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDExtraCapacitySet(final MboServerInterface ms)
+    '''

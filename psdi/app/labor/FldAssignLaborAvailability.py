@@ -1,8 +1,6 @@
 def FldAssignLaborAvailability():
-'''public FldAssignLaborAvailability(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignLaborAvailability(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

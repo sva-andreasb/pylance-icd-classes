@@ -1,8 +1,6 @@
 def lookup():
-'''public TemplateLookupResult lookup(final TemplateLookupContext ctx)
-'''
-pass
+    '''    public TemplateLookupResult lookup(final TemplateLookupContext ctx)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

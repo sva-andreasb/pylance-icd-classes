@@ -1,28 +1,21 @@
 def DataBeanFirstConnection():
-'''public DataBeanFirstConnection()
-'''
-pass
+    '''    public DataBeanFirstConnection()
+    '''
 def toJSON():
-'''public JSONArray toJSON(final int n)
-'''
-pass
+    '''    public JSONArray toJSON(final int n)
+    '''
 def toJSON_DSM():
-'''public JSONArray toJSON_DSM()
-'''
-pass
+    '''    public JSONArray toJSON_DSM()
+    '''
 def toJSONv1():
-'''public JSONArray toJSONv1()
-'''
-pass
+    '''    public JSONArray toJSONv1()
+    '''
 def toJSONv3():
-'''public JSONArray toJSONv3()
-'''
-pass
+    '''    public JSONArray toJSONv3()
+    '''
 def setGatewayPrdid():
-'''public void setGatewayPrdid(final String gatewayPrdid_)
-'''
-pass
+    '''    public void setGatewayPrdid(final String gatewayPrdid_)
+    '''
 def run():
-'''public String run()
-'''
-pass
+    '''    public String run()
+    '''

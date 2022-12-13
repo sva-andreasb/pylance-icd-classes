@@ -1,8 +1,6 @@
 def FldTkCommodityGroup():
-'''public FldTkCommodityGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldTkCommodityGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

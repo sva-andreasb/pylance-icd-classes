@@ -1,20 +1,15 @@
 def FileGraphTransactionHandler():
-'''public FileGraphTransactionHandler(final FileGraph fileGraph)
-'''
-pass
+    '''    public FileGraphTransactionHandler(final FileGraph fileGraph)
+    '''
 def transactionsSupported():
-'''public boolean transactionsSupported()
-'''
-pass
+    '''    public boolean transactionsSupported()
+    '''
 def begin():
-'''public void begin()
-'''
-pass
+    '''    public void begin()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

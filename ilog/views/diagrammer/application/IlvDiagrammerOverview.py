@@ -1,50 +1,38 @@
-OVERVIEW_NAME = "String  ILOG-Overview-window""
+OVERVIEW_NAME = "String  \"ILOG-Overview-window\""
 def IlvDiagrammerOverview():
-'''public IlvDiagrammerOverview(final ResourceBundle resourceBundle)
-public IlvDiagrammerOverview()
-'''
-pass
+    '''    public IlvDiagrammerOverview(final ResourceBundle resourceBundle)
+    public IlvDiagrammerOverview()
+    '''
 def repaint():
-'''public void repaint(final int n, final int n2, final int n3, final int n4)
-'''
-pass
+    '''    public void repaint(final int n, final int n2, final int n3, final int n4)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def addNotify():
-'''public void addNotify()
-'''
-pass
+    '''    public void addNotify()
+    '''
 def removeNotify():
-'''public void removeNotify()
-'''
-pass
+    '''    public void removeNotify()
+    '''
 def getDiagrammer():
-'''public IlvDiagrammer getDiagrammer()
-'''
-pass
+    '''    public IlvDiagrammer getDiagrammer()
+    '''
 def setDiagrammer():
-'''public void setDiagrammer(final IlvDiagrammer c)
-'''
-pass
+    '''    public void setDiagrammer(final IlvDiagrammer c)
+    '''
 def getInteractor():
-'''public IlvManagerMagViewInteractor getInteractor()
-'''
-pass
+    '''    public IlvManagerMagViewInteractor getInteractor()
+    '''
 def getView():
-'''public IlvManagerView getView()
-'''
-pass
+    '''    public IlvManagerView getView()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getIcon():
-'''public Icon getIcon()
-'''
-pass
+    '''    public Icon getIcon()
+    '''
 def targetChanged():
-'''public void targetChanged(final ComponentContextEvent componentContextEvent)
-'''
-pass
+    '''    public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''

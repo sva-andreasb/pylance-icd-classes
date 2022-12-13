@@ -1,32 +1,24 @@
 def IINC():
-'''public IINC(final int n, final int c)
-'''
-pass
+    '''    public IINC(final int n, final int c)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def setIndex():
-'''public final void setIndex(final int n)
-'''
-pass
+    '''    public final void setIndex(final int n)
+    '''
 def getIncrement():
-'''public final int getIncrement()
-'''
-pass
+    '''    public final int getIncrement()
+    '''
 def setIncrement():
-'''public final void setIncrement(final int c)
-'''
-pass
+    '''    public final void setIncrement(final int c)
+    '''
 def getType():
-'''public Type getType(final ConstantPoolGen cp)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cp)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

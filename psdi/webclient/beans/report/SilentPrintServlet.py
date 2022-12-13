@@ -7,24 +7,19 @@ BIRT_PDF_PRINT = "int  33"
 DOCLINK_GETTOKEN = "int  22"
 VALIDATE_URL = "int  44"
 PREPARE_DOC = "int  55"
-securedDocPrefix = "String  securedAttachmentNonApplet=""
+securedDocPrefix = "String  \"securedAttachmentNonApplet=\""
 def SilentPrintServlet():
-'''public SilentPrintServlet()
-'''
-pass
+    '''    public SilentPrintServlet()
+    '''
 def doGet():
-'''public void doGet(final HttpServletRequest requ, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doGet(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''
 def doPost():
-'''public void doPost(final HttpServletRequest requ, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doPost(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''
 def doWork():
-'''public void doWork(final HttpServletRequest requ, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doWork(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''
 def concatPDFFiles():
-'''public boolean concatPDFFiles(final String outPutDirPath, final String outPutFilePath, final Vector<PathAndReportFlag> listOfFiles)
-'''
-pass
+    '''    public boolean concatPDFFiles(final String outPutDirPath, final String outPutFilePath, final Vector<PathAndReportFlag> listOfFiles)
+    '''

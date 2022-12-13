@@ -1,20 +1,15 @@
 def ActivatorAppletAudioClipRef():
-'''public ActivatorAppletAudioClipRef(final URL url)
-'''
-pass
+    '''    public ActivatorAppletAudioClipRef(final URL url)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def reconstitute():
-'''public Object reconstitute()
-'''
-pass
+    '''    public Object reconstitute()
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''
 def setDoDownload():
-'''public void setDoDownload(final boolean doDownload)
-'''
-pass
+    '''    public void setDoDownload(final boolean doDownload)
+    '''

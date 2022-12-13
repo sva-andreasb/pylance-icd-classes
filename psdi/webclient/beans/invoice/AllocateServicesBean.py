@@ -1,12 +1,9 @@
 def allocate():
-'''public int allocate()
-'''
-pass
+    '''    public int allocate()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

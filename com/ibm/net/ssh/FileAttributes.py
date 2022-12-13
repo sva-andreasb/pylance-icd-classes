@@ -6,226 +6,170 @@ TYPE_CHAR_DEVICE = "byte  7"
 TYPE_BLOCK_DEVICE = "byte  8"
 TYPE_FIFO = "byte  9"
 def FileAttributes():
-'''public FileAttributes()
-'''
-pass
+    '''    public FileAttributes()
+    '''
 def compareTo():
-'''public int compareTo(final Object object)
-'''
-pass
+    '''    public int compareTo(final Object object)
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''
 def setFilename():
-'''public void setFilename(final String filename)
-'''
-pass
+    '''    public void setFilename(final String filename)
+    '''
 def getType():
-'''public byte getType()
-'''
-pass
+    '''    public byte getType()
+    '''
 def setType():
-'''public void setType(final byte type)
-'''
-pass
+    '''    public void setType(final byte type)
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def setSize():
-'''public void setSize(final long size)
-'''
-pass
+    '''    public void setSize(final long size)
+    '''
 def getAllocationSize():
-'''public long getAllocationSize()
-'''
-pass
+    '''    public long getAllocationSize()
+    '''
 def setAllocationSize():
-'''public void setAllocationSize(final long size)
-'''
-pass
+    '''    public void setAllocationSize(final long size)
+    '''
 def getUID():
-'''public int getUID()
-'''
-pass
+    '''    public int getUID()
+    '''
 def setUID():
-'''public void setUID(final int uid)
-'''
-pass
+    '''    public void setUID(final int uid)
+    '''
 def getGID():
-'''public int getGID()
-'''
-pass
+    '''    public int getGID()
+    '''
 def setGID():
-'''public void setGID(final int gid)
-'''
-pass
+    '''    public void setGID(final int gid)
+    '''
 def getOwner():
-'''public String getOwner()
-'''
-pass
+    '''    public String getOwner()
+    '''
 def setOwner():
-'''public void setOwner(final String owner)
-'''
-pass
+    '''    public void setOwner(final String owner)
+    '''
 def getGroup():
-'''public String getGroup()
-'''
-pass
+    '''    public String getGroup()
+    '''
 def setGroup():
-'''public void setGroup(final String group)
-'''
-pass
+    '''    public void setGroup(final String group)
+    '''
 def getPermissions():
-'''public int getPermissions()
-'''
-pass
+    '''    public int getPermissions()
+    '''
 def setPermissions():
-'''public void setPermissions(final int permissions)
-'''
-pass
+    '''    public void setPermissions(final int permissions)
+    '''
 def getPermissionsAsString():
-'''public String getPermissionsAsString()
-'''
-pass
+    '''    public String getPermissionsAsString()
+    '''
 def setPermissionsFromString():
-'''public void setPermissionsFromString(final String permissionsString)
-'''
-pass
+    '''    public void setPermissionsFromString(final String permissionsString)
+    '''
 def getAccessDate():
-'''public Date getAccessDate()
-'''
-pass
+    '''    public Date getAccessDate()
+    '''
 def setAccessDate():
-'''public void setAccessDate(final Date accessTime)
-'''
-pass
+    '''    public void setAccessDate(final Date accessTime)
+    '''
 def getCreationDate():
-'''public Date getCreationDate()
-'''
-pass
+    '''    public Date getCreationDate()
+    '''
 def setCreationDate():
-'''public void setCreationDate(final Date createTime)
-'''
-pass
+    '''    public void setCreationDate(final Date createTime)
+    '''
 def getModifyDate():
-'''public Date getModifyDate()
-'''
-pass
+    '''    public Date getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final Date modifyTime)
-'''
-pass
+    '''    public void setModifyDate(final Date modifyTime)
+    '''
 def getACL():
-'''public Acl getACL()
-'''
-pass
+    '''    public Acl getACL()
+    '''
 def isFile():
-'''public boolean isFile()
-'''
-pass
+    '''    public boolean isFile()
+    '''
 def isDirectory():
-'''public boolean isDirectory()
-'''
-pass
+    '''    public boolean isDirectory()
+    '''
 def isSymbolicLink():
-'''public boolean isSymbolicLink()
-'''
-pass
+    '''    public boolean isSymbolicLink()
+    '''
 def isSocket():
-'''public boolean isSocket()
-'''
-pass
+    '''    public boolean isSocket()
+    '''
 def isCharDevice():
-'''public boolean isCharDevice()
-'''
-pass
+    '''    public boolean isCharDevice()
+    '''
 def isBlockDevice():
-'''public boolean isBlockDevice()
-'''
-pass
+    '''    public boolean isBlockDevice()
+    '''
 def isFIFO():
-'''public boolean isFIFO()
-'''
-pass
+    '''    public boolean isFIFO()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''
 def isSystem():
-'''public boolean isSystem()
-'''
-pass
+    '''    public boolean isSystem()
+    '''
 def isHidden():
-'''public boolean isHidden()
-'''
-pass
+    '''    public boolean isHidden()
+    '''
 def isCaseInsensitive():
-'''public boolean isCaseInsensitive()
-'''
-pass
+    '''    public boolean isCaseInsensitive()
+    '''
 def isArchived():
-'''public boolean isArchived()
-'''
-pass
+    '''    public boolean isArchived()
+    '''
 def isEncrypted():
-'''public boolean isEncrypted()
-'''
-pass
+    '''    public boolean isEncrypted()
+    '''
 def isCompressed():
-'''public boolean isCompressed()
-'''
-pass
+    '''    public boolean isCompressed()
+    '''
 def isSparse():
-'''public boolean isSparse()
-'''
-pass
+    '''    public boolean isSparse()
+    '''
 def isAppendOnly():
-'''public boolean isAppendOnly()
-'''
-pass
+    '''    public boolean isAppendOnly()
+    '''
 def isImmutable():
-'''public boolean isImmutable()
-'''
-pass
+    '''    public boolean isImmutable()
+    '''
 def isSync():
-'''public boolean isSync()
-'''
-pass
+    '''    public boolean isSync()
+    '''
 def isTranslationError():
-'''public boolean isTranslationError()
-'''
-pass
+    '''    public boolean isTranslationError()
+    '''
 def getTextHint():
-'''public byte getTextHint()
-'''
-pass
+    '''    public byte getTextHint()
+    '''
 def setTextHint():
-'''public void setTextHint(final byte textHint)
-'''
-pass
+    '''    public void setTextHint(final byte textHint)
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def setMimetype():
-'''public void setMimetype(final String mimeType)
-'''
-pass
+    '''    public void setMimetype(final String mimeType)
+    '''
 def getLinkCount():
-'''public int getLinkCount()
-'''
-pass
+    '''    public int getLinkCount()
+    '''
 def getUntranslatedName():
-'''public String getUntranslatedName()
-'''
-pass
+    '''    public String getUntranslatedName()
+    '''
 def setUntranslatedName():
-'''public void setUntranslatedName(final String untranslatedName)
-'''
-pass
+    '''    public void setUntranslatedName(final String untranslatedName)
+    '''
 def getAttributesAsString():
-'''public String getAttributesAsString(final int version)
-'''
-pass
+    '''    public String getAttributesAsString(final int version)
+    '''

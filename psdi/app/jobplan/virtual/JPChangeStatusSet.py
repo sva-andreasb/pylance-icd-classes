@@ -1,4 +1,3 @@
 def JPChangeStatusSet():
-'''public JPChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JPChangeStatusSet(final MboServerInterface ms)
+    '''

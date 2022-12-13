@@ -1,12 +1,9 @@
 def NoImplementationException():
-'''public NoImplementationException(final Assembler assembler, final Resource root, final Resource type)
-'''
-pass
+    '''    public NoImplementationException(final Assembler assembler, final Resource root, final Resource type)
+    '''
 def getType():
-'''public Resource getType()
-'''
-pass
+    '''    public Resource getType()
+    '''
 def getAssembler():
-'''public Assembler getAssembler()
-'''
-pass
+    '''    public Assembler getAssembler()
+    '''

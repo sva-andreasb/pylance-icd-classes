@@ -1,8 +1,6 @@
 def PlusPFldPersonCustVndName():
-'''public PlusPFldPersonCustVndName(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPersonCustVndName(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,24 +1,18 @@
 def TraversalState():
-'''public TraversalState()
-'''
-pass
+    '''    public TraversalState()
+    '''
 def setTraversalStateNode():
-'''public void setTraversalStateNode(final MboRemote currentNode)
-'''
-pass
+    '''    public void setTraversalStateNode(final MboRemote currentNode)
+    '''
 def setTraversalStateStartNode():
-'''public void setTraversalStateStartNode(final MboRemote startNode)
-'''
-pass
+    '''    public void setTraversalStateStartNode(final MboRemote startNode)
+    '''
 def clearState():
-'''public void clearState()
-'''
-pass
+    '''    public void clearState()
+    '''
 def addIgnoredError():
-'''public void addIgnoredError(final Throwable t)
-'''
-pass
+    '''    public void addIgnoredError(final Throwable t)
+    '''
 def getIgnoredErrors():
-'''public List<Throwable> getIgnoredErrors()
-'''
-pass
+    '''    public List<Throwable> getIgnoredErrors()
+    '''

@@ -1,28 +1,21 @@
 def FileContent():
-'''public FileContent(final String type, final File file)
-'''
-pass
+    '''    public FileContent(final String type, final File file)
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def retrySupported():
-'''public boolean retrySupported()
-'''
-pass
+    '''    public boolean retrySupported()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def setType():
-'''public FileContent setType(final String type)
-'''
-pass
+    '''    public FileContent setType(final String type)
+    '''
 def setCloseInputStream():
-'''public FileContent setCloseInputStream(final boolean closeInputStream)
-'''
-pass
+    '''    public FileContent setCloseInputStream(final boolean closeInputStream)
+    '''

@@ -1,20 +1,15 @@
 def SimpleMapCache():
-'''public SimpleMapCache(final long expiry)
-'''
-pass
+    '''    public SimpleMapCache(final long expiry)
+    '''
 def get():
-'''public T get(final K key)
-'''
-pass
+    '''    public T get(final K key)
+    '''
 def put():
-'''public void put(final K key, final T data)
-'''
-pass
+    '''    public void put(final K key, final T data)
+    '''
 def clearExpiredItems():
-'''public void clearExpiredItems()
-'''
-pass
+    '''    public void clearExpiredItems()
+    '''
 def clearAllItems():
-'''public void clearAllItems()
-'''
-pass
+    '''    public void clearAllItems()
+    '''

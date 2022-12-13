@@ -1,4 +1,3 @@
 def ResourceLoadAndAvailResult():
-'''public ResourceLoadAndAvailResult()
-'''
-pass
+    '''    public ResourceLoadAndAvailResult()
+    '''

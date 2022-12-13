@@ -1,4 +1,3 @@
 def FldDataSet1ClassStructureId():
-'''public FldDataSet1ClassStructureId(final MboValue mbv)
-'''
-pass
+    '''    public FldDataSet1ClassStructureId(final MboValue mbv)
+    '''

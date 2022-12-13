@@ -1,8 +1,6 @@
 def AttendeeUpdate():
-'''public AttendeeUpdate(final Attendee attendee)
-'''
-pass
+    '''    public AttendeeUpdate(final Attendee attendee)
+    '''
 def transform():
-'''public Component transform(final Component object)
-'''
-pass
+    '''    public Component transform(final Component object)
+    '''

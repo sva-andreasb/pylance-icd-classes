@@ -1,8 +1,6 @@
 def FldMasterPMUseTargetDate():
-'''public FldMasterPMUseTargetDate(final MboValue mbv)
-'''
-pass
+    '''    public FldMasterPMUseTargetDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

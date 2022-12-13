@@ -1,17 +1,13 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def buildDecisionModel():
-'''public void buildDecisionModel()
-'''
-pass
+    '''    public void buildDecisionModel()
+    '''
 def buildObjective():
-'''public void buildObjective()
-'''
-pass
+    '''    public void buildObjective()
+    '''
 def changeRequirementPriorities():
-'''public void changeRequirementPriorities()
-'''
-pass
+    '''    public void changeRequirementPriorities()
+    '''
 def addDecisionVariableConstraints():
-'''public void addDecisionVariableConstraints()
-'''
-pass
+    '''    public void addDecisionVariableConstraints()
+    '''

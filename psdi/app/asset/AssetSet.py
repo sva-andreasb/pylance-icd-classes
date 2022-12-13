@@ -1,225 +1,169 @@
-PLUSCASSETSTATUS = "String  PLUSCASSETSTATUS""
+PLUSCASSETSTATUS = "String  \"PLUSCASSETSTATUS\""
 def AssetSet():
-'''public AssetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetSet(final MboServerInterface ms)
+    '''
 def moveAsset():
-'''public void moveAsset()
-'''
-pass
+    '''    public void moveAsset()
+    '''
 def moveSingleAsset():
-'''public void moveSingleAsset(Asset asset)
-'''
-pass
+    '''    public void moveSingleAsset(Asset asset)
+    '''
 def findTopLevel():
-'''public void findTopLevel()
-'''
-pass
+    '''    public void findTopLevel()
+    '''
 def findAssetsAtLocation():
-'''public void findAssetsAtLocation(final String location)
-'''
-pass
+    '''    public void findAssetsAtLocation(final String location)
+    '''
 def findAsset():
-'''public void findAsset(final String asset)
-'''
-pass
+    '''    public void findAsset(final String asset)
+    '''
 def findSelectedAssets():
-'''public void findSelectedAssets(final String where)
-'''
-pass
+    '''    public void findSelectedAssets(final String where)
+    '''
 def findNotDecommissionedAssets():
-'''public void findNotDecommissionedAssets()
-'''
-pass
+    '''    public void findNotDecommissionedAssets()
+    '''
 def findNotMovedAssets():
-'''public void findNotMovedAssets()
-'''
-pass
+    '''    public void findNotMovedAssets()
+    '''
 def setLocsystem():
-'''public void setLocsystem(final String locationSystem)
-'''
-pass
+    '''    public void setLocsystem(final String locationSystem)
+    '''
 def setLocgroup():
-'''public void setLocgroup(final Vector locationGroup)
-'''
-pass
+    '''    public void setLocgroup(final Vector locationGroup)
+    '''
 def getLocsystem():
-'''public String getLocsystem()
-'''
-pass
+    '''    public String getLocsystem()
+    '''
 def getLocgroup():
-'''public String getLocgroup()
-'''
-pass
+    '''    public String getLocgroup()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''
 def findAssetAtLocation():
-'''public void findAssetAtLocation(final String location)
-'''
-pass
+    '''    public void findAssetAtLocation(final String location)
+    '''
 def setMoveAssetPageFlag():
-'''public void setMoveAssetPageFlag(final boolean flag)
-'''
-pass
+    '''    public void setMoveAssetPageFlag(final boolean flag)
+    '''
 def getMoveAssetPageFlag():
-'''public boolean getMoveAssetPageFlag()
-'''
-pass
+    '''    public boolean getMoveAssetPageFlag()
+    '''
 def setSwapAssetPageFlag():
-'''public void setSwapAssetPageFlag(final boolean flag)
-'''
-pass
+    '''    public void setSwapAssetPageFlag(final boolean flag)
+    '''
 def getSwapAssetPageFlag():
-'''public boolean getSwapAssetPageFlag()
-'''
-pass
+    '''    public boolean getSwapAssetPageFlag()
+    '''
 def setWoNumAssetSetMv():
-'''public void setWoNumAssetSetMv(final String setWonum)
-'''
-pass
+    '''    public void setWoNumAssetSetMv(final String setWonum)
+    '''
 def setPoNumAssetSetMv():
-'''public void setPoNumAssetSetMv(final String setPoNum)
-'''
-pass
+    '''    public void setPoNumAssetSetMv(final String setPoNum)
+    '''
 def setPoSiteIdAssetSetMv():
-'''public void setPoSiteIdAssetSetMv(final String setPoSiteId)
-'''
-pass
+    '''    public void setPoSiteIdAssetSetMv(final String setPoSiteId)
+    '''
 def applyAssetMoveDefaults():
-'''public void applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet, final String applytype)
-'''
-pass
+    '''    public void applyAssetMoveDefaults(final AssetMoveDfltSetRemote assetMoveDfltSet, final String applytype)
+    '''
 def applyAssetUserCustDefaults():
-'''public void applyAssetUserCustDefaults(final AssetUserCusDfltSetRemote assetUserCusDfltSet)
-'''
-pass
+    '''    public void applyAssetUserCustDefaults(final AssetUserCusDfltSetRemote assetUserCusDfltSet)
+    '''
 def applyAssetModifyDefaults():
-'''public void applyAssetModifyDefaults(final AssetModifyDfltSetRemote assetModifyDfltSet)
-'''
-pass
+    '''    public void applyAssetModifyDefaults(final AssetModifyDfltSetRemote assetModifyDfltSet)
+    '''
 def getChildren():
-'''public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getChildren(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def getParent():
-'''public MboValueData[] getParent(final String object, final String key, final String[] attrs)
-'''
-pass
+    '''    public MboValueData[] getParent(final String object, final String key, final String[] attrs)
+    '''
 def getSiblings():
-'''public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getSiblings(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def getTop():
-'''public MboValueData[][] getTop(final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getTop(final String[] attrs, final int maxRows)
+    '''
 def getUniqueIDValue():
-'''public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
-'''
-pass
+    '''    public MboValueData getUniqueIDValue(final String object, final String[] attributes, final String[] values)
+    '''
 def getPathToTop():
-'''public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
-'''
-pass
+    '''    public MboValueData[][] getPathToTop(final String object, final String key, final String[] attrs, final int maxRows)
+    '''
 def zeroCosts():
-'''public void zeroCosts(final boolean ytd, final boolean total)
-'''
-pass
+    '''    public void zeroCosts(final boolean ytd, final boolean total)
+    '''
 def addAssetsToCollectDetails():
-'''public void addAssetsToCollectDetails(final String collectionNum)
-'''
-pass
+    '''    public void addAssetsToCollectDetails(final String collectionNum)
+    '''
 def setItemMbo():
-'''public void setItemMbo(final MboRemote item)
-'''
-pass
+    '''    public void setItemMbo(final MboRemote item)
+    '''
 def setItemOrgInfo():
-'''public void setItemOrgInfo(final MboRemote itemOrgInfo)
-'''
-pass
+    '''    public void setItemOrgInfo(final MboRemote itemOrgInfo)
+    '''
 def getItemMbo():
-'''public MboRemote getItemMbo()
-'''
-pass
+    '''    public MboRemote getItemMbo()
+    '''
 def getItemOrgInfo():
-'''public MboRemote getItemOrgInfo()
-'''
-pass
+    '''    public MboRemote getItemOrgInfo()
+    '''
 def inventoryLocationHasChecked():
-'''public void inventoryLocationHasChecked(final String location, final String siteid)
-'''
-pass
+    '''    public void inventoryLocationHasChecked(final String location, final String siteid)
+    '''
 def toCheckInventoryLocation():
-'''public boolean toCheckInventoryLocation()
-'''
-pass
+    '''    public boolean toCheckInventoryLocation()
+    '''
 def setAssetForSpecifications():
-'''public void setAssetForSpecifications(final MboRemote asseet)
-'''
-pass
+    '''    public void setAssetForSpecifications(final MboRemote asseet)
+    '''
 def getAssetForSpecifications():
-'''public MboRemote getAssetForSpecifications()
-'''
-pass
+    '''    public MboRemote getAssetForSpecifications()
+    '''
 def storeAssetsInMultiAssetLocCISet():
-'''public void storeAssetsInMultiAssetLocCISet(final MboSetRemote malcSet)
-'''
-pass
+    '''    public void storeAssetsInMultiAssetLocCISet(final MboSetRemote malcSet)
+    '''
 def isInMassMoveLocation():
-'''public boolean isInMassMoveLocation()
-'''
-pass
+    '''    public boolean isInMassMoveLocation()
+    '''
 def inMassMoveNewLocationMbo():
-'''public MboRemote inMassMoveNewLocationMbo()
-'''
-pass
+    '''    public MboRemote inMassMoveNewLocationMbo()
+    '''
 def filterByLinearAsset():
-'''public void filterByLinearAsset(final MboSetRemote fltrSet)
-'''
-pass
+    '''    public void filterByLinearAsset(final MboSetRemote fltrSet)
+    '''
 def getSqlForFiltering():
-'''public String getSqlForFiltering(final MboSetRemote fltrSet)
-'''
-pass
+    '''    public String getSqlForFiltering(final MboSetRemote fltrSet)
+    '''
 def getOriginalAssetQbe():
-'''public Hashtable getOriginalAssetQbe()
-'''
-pass
+    '''    public Hashtable getOriginalAssetQbe()
+    '''
 def getOriginalAssetUserWhere():
-'''public String getOriginalAssetUserWhere()
-'''
-pass
+    '''    public String getOriginalAssetUserWhere()
+    '''
 def setOriginalAssetUserWhere():
-'''public void setOriginalAssetUserWhere(final String inWhere)
-'''
-pass
+    '''    public void setOriginalAssetUserWhere(final String inWhere)
+    '''
 def setOriginalAssetQbe():
-'''public void setOriginalAssetQbe(final Hashtable inQbe)
-'''
-pass
+    '''    public void setOriginalAssetQbe(final Hashtable inQbe)
+    '''
 def applyAssetPersonGroupDefaults():
-'''public void applyAssetPersonGroupDefaults(final AssetGrpDfltSetRemote personGroupDefaults)
-'''
-pass
+    '''    public void applyAssetPersonGroupDefaults(final AssetGrpDfltSetRemote personGroupDefaults)
+    '''
 def addAssetOpSKD():
-'''public void addAssetOpSKD(final MboSetRemote npAssetOpSKDSet)
-'''
-pass
+    '''    public void addAssetOpSKD(final MboSetRemote npAssetOpSKDSet)
+    '''
 def addAssetMntSKD():
-'''public void addAssetMntSKD(final MboSetRemote npAssetOpSKDSet)
-'''
-pass
+    '''    public void addAssetMntSKD(final MboSetRemote npAssetOpSKDSet)
+    '''
 def addWorkZones():
-'''public void addWorkZones(final String workzone, final String type, final String orgid)
-'''
-pass
+    '''    public void addWorkZones(final String workzone, final String type, final String orgid)
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)
-'''
-pass
+    '''    public void changeStatus(final String status, final boolean rollToAllChildren, final boolean removeFromActiveRoutes, final boolean removeFromActiveSP, final boolean changePMStatus)
+    '''
 def getMaxAppsWhere():
-'''public String getMaxAppsWhere()
-'''
-pass
+    '''    public String getMaxAppsWhere()
+    '''

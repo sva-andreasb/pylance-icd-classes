@@ -1,121 +1,91 @@
 def ArchiveDescriptor():
-'''public ArchiveDescriptor()
-public ArchiveDescriptor(final Calendar asOfTime, final String burstKey, final String defaultDescription, final String defaultName, final Calendar executionTime, final String filename, final Option[] options, final ParameterValue[] parameters, final SearchPathSingleObject reportSearchPath, final Guid reportStoreID, final SearchPathSingleObject reportViewSearchPath, final Guid reportViewStoreID)
-'''
-pass
+    '''    public ArchiveDescriptor()
+    public ArchiveDescriptor(final Calendar asOfTime, final String burstKey, final String defaultDescription, final String defaultName, final Calendar executionTime, final String filename, final Option[] options, final ParameterValue[] parameters, final SearchPathSingleObject reportSearchPath, final Guid reportStoreID, final SearchPathSingleObject reportViewSearchPath, final Guid reportViewStoreID)
+    '''
 def getAsOfTime():
-'''public Calendar getAsOfTime()
-'''
-pass
+    '''    public Calendar getAsOfTime()
+    '''
 def setAsOfTime():
-'''public void setAsOfTime(final Calendar asOfTime)
-'''
-pass
+    '''    public void setAsOfTime(final Calendar asOfTime)
+    '''
 def getBurstKey():
-'''public String getBurstKey()
-'''
-pass
+    '''    public String getBurstKey()
+    '''
 def setBurstKey():
-'''public void setBurstKey(final String burstKey)
-'''
-pass
+    '''    public void setBurstKey(final String burstKey)
+    '''
 def getDefaultDescription():
-'''public String getDefaultDescription()
-'''
-pass
+    '''    public String getDefaultDescription()
+    '''
 def setDefaultDescription():
-'''public void setDefaultDescription(final String defaultDescription)
-'''
-pass
+    '''    public void setDefaultDescription(final String defaultDescription)
+    '''
 def getDefaultName():
-'''public String getDefaultName()
-'''
-pass
+    '''    public String getDefaultName()
+    '''
 def setDefaultName():
-'''public void setDefaultName(final String defaultName)
-'''
-pass
+    '''    public void setDefaultName(final String defaultName)
+    '''
 def getExecutionTime():
-'''public Calendar getExecutionTime()
-'''
-pass
+    '''    public Calendar getExecutionTime()
+    '''
 def setExecutionTime():
-'''public void setExecutionTime(final Calendar executionTime)
-'''
-pass
+    '''    public void setExecutionTime(final Calendar executionTime)
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''
 def setFilename():
-'''public void setFilename(final String filename)
-'''
-pass
+    '''    public void setFilename(final String filename)
+    '''
 def getOptions():
-'''public Option[] getOptions()
-'''
-pass
+    '''    public Option[] getOptions()
+    '''
 def setOptions():
-'''public void setOptions(final Option[] options)
-'''
-pass
+    '''    public void setOptions(final Option[] options)
+    '''
 def getParameters():
-'''public ParameterValue[] getParameters()
-'''
-pass
+    '''    public ParameterValue[] getParameters()
+    '''
 def setParameters():
-'''public void setParameters(final ParameterValue[] parameters)
-'''
-pass
+    '''    public void setParameters(final ParameterValue[] parameters)
+    '''
 def getReportSearchPath():
-'''public SearchPathSingleObject getReportSearchPath()
-'''
-pass
+    '''    public SearchPathSingleObject getReportSearchPath()
+    '''
 def setReportSearchPath():
-'''public void setReportSearchPath(final SearchPathSingleObject reportSearchPath)
-'''
-pass
+    '''    public void setReportSearchPath(final SearchPathSingleObject reportSearchPath)
+    '''
 def getReportStoreID():
-'''public Guid getReportStoreID()
-'''
-pass
+    '''    public Guid getReportStoreID()
+    '''
 def setReportStoreID():
-'''public void setReportStoreID(final Guid reportStoreID)
-'''
-pass
+    '''    public void setReportStoreID(final Guid reportStoreID)
+    '''
 def getReportViewSearchPath():
-'''public SearchPathSingleObject getReportViewSearchPath()
-'''
-pass
+    '''    public SearchPathSingleObject getReportViewSearchPath()
+    '''
 def setReportViewSearchPath():
-'''public void setReportViewSearchPath(final SearchPathSingleObject reportViewSearchPath)
-'''
-pass
+    '''    public void setReportViewSearchPath(final SearchPathSingleObject reportViewSearchPath)
+    '''
 def getReportViewStoreID():
-'''public Guid getReportViewStoreID()
-'''
-pass
+    '''    public Guid getReportViewStoreID()
+    '''
 def setReportViewStoreID():
-'''public void setReportViewStoreID(final Guid reportViewStoreID)
-'''
-pass
+    '''    public void setReportViewStoreID(final Guid reportViewStoreID)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

@@ -5,22 +5,17 @@ ST_AUTH_TYPE_ANON = "short  3"
 ST_AUTH_TYPE_ENC_DH_PASSWORD = "short  4"
 ST_AUTH_TYPE_ENC_DH_NOTES_TOKEN = "short  5"
 def VpkAuthInfo():
-'''public VpkAuthInfo(final short type, final byte[] data)
-'''
-pass
+    '''    public VpkAuthInfo(final short type, final byte[] data)
+    '''
 def getType():
-'''public synchronized short getType()
-'''
-pass
+    '''    public synchronized short getType()
+    '''
 def getData():
-'''public synchronized byte[] getData()
-'''
-pass
+    '''    public synchronized byte[] getData()
+    '''
 def dump():
-'''public void dump(final NdrOutputStream ndrOutputStream)
-'''
-pass
+    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

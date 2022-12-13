@@ -1,4 +1,3 @@
 def FromJidTypeFilter():
-'''public FromJidTypeFilter(final JidType jidType)
-'''
-pass
+    '''    public FromJidTypeFilter(final JidType jidType)
+    '''

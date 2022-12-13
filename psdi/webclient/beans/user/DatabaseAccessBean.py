@@ -1,8 +1,6 @@
 def clearDatabaseUserID():
-'''public int clearDatabaseUserID()
-'''
-pass
+    '''    public int clearDatabaseUserID()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

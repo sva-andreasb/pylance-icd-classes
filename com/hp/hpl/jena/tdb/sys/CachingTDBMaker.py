@@ -1,21 +1,16 @@
 def CachingTDBMaker():
-'''public CachingTDBMaker(final DatasetGraphMakerTDB factory)
-'''
-pass
+    '''    public CachingTDBMaker(final DatasetGraphMakerTDB factory)
+    '''
 def createDatasetGraph():
-'''public DatasetGraphTDB createDatasetGraph()
-public DatasetGraphTDB createDatasetGraph(final Location location)
-'''
-pass
+    '''    public DatasetGraphTDB createDatasetGraph()
+    public DatasetGraphTDB createDatasetGraph(final Location location)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def sync():
-'''public void sync()
-'''
-pass
+    '''    public void sync()
+    '''
 def releaseDatasetGraph():
-'''public void releaseDatasetGraph(final DatasetGraphTDB dataset)
-'''
-pass
+    '''    public void releaseDatasetGraph(final DatasetGraphTDB dataset)
+    '''

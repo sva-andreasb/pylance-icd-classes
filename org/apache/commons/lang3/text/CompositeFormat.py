@@ -1,24 +1,18 @@
 def CompositeFormat():
-'''public CompositeFormat(final Format parser, final Format formatter)
-'''
-pass
+    '''    public CompositeFormat(final Format parser, final Format formatter)
+    '''
 def format():
-'''public StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)
-'''
-pass
+    '''    public StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition pos)
+    '''
 def parseObject():
-'''public Object parseObject(final String source, final ParsePosition pos)
-'''
-pass
+    '''    public Object parseObject(final String source, final ParsePosition pos)
+    '''
 def getParser():
-'''public Format getParser()
-'''
-pass
+    '''    public Format getParser()
+    '''
 def getFormatter():
-'''public Format getFormatter()
-'''
-pass
+    '''    public Format getFormatter()
+    '''
 def reformat():
-'''public String reformat(final String input)
-'''
-pass
+    '''    public String reformat(final String input)
+    '''

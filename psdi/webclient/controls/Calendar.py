@@ -1,113 +1,85 @@
 def Calendar():
-'''public Calendar()
-'''
-pass
+    '''    public Calendar()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def setdate():
-'''public int setdate()
-'''
-pass
+    '''    public int setdate()
+    '''
 def thisdayworkperiods():
-'''public int thisdayworkperiods()
-'''
-pass
+    '''    public int thisdayworkperiods()
+    '''
 def changedate():
-'''public int changedate()
-public void changedate(final String type, String valueTyped)
-'''
-pass
+    '''    public int changedate()
+    public void changedate(final String type, String valueTyped)
+    '''
 def spintime():
-'''public void spintime(final String type, final boolean increment)
-'''
-pass
+    '''    public void spintime(final String type, final boolean increment)
+    '''
 def invalidyear():
-'''public int invalidyear()
-'''
-pass
+    '''    public int invalidyear()
+    '''
 def getCurrentDateString():
-'''public String getCurrentDateString()
-'''
-pass
+    '''    public String getCurrentDateString()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getHTMLNotes():
-'''public String getHTMLNotes(final int dayNum)
-'''
-pass
+    '''    public String getHTMLNotes(final int dayNum)
+    '''
 def getHours():
-'''public String getHours(final int dayNum)
-'''
-pass
+    '''    public String getHours(final int dayNum)
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def isCurrent():
-'''public boolean isCurrent()
-'''
-pass
+    '''    public boolean isCurrent()
+    '''
 def getDaysInMonth():
-'''public int getDaysInMonth()
-'''
-pass
+    '''    public int getDaysInMonth()
+    '''
 def getFirstDayOfWeek():
-'''public int getFirstDayOfWeek()
-'''
-pass
+    '''    public int getFirstDayOfWeek()
+    '''
 def getTodaysMonth():
-'''public int getTodaysMonth()
-'''
-pass
+    '''    public int getTodaysMonth()
+    '''
 def getTodaysYear():
-'''public int getTodaysYear()
-'''
-pass
+    '''    public int getTodaysYear()
+    '''
 def getTodaysDay():
-'''public int getTodaysDay()
-'''
-pass
+    '''    public int getTodaysDay()
+    '''
 def getStartDay():
-'''public int getStartDay()
-'''
-pass
+    '''    public int getStartDay()
+    '''
 def getMonth():
-'''public int getMonth()
-'''
-pass
+    '''    public int getMonth()
+    '''
 def getYear():
-'''public int getYear()
-'''
-pass
+    '''    public int getYear()
+    '''
 def getDay():
-'''public int getDay()
-'''
-pass
+    '''    public int getDay()
+    '''
 def getDays():
-'''public String[] getDays()
-'''
-pass
+    '''    public String[] getDays()
+    '''
 def getMonths():
-'''public String[] getMonths()
-'''
-pass
+    '''    public String[] getMonths()
+    '''
 def getStartDateAttribute():
-'''public String getStartDateAttribute()
-'''
-pass
+    '''    public String getStartDateAttribute()
+    '''
 def getEndDateAttribute():
-'''public String getEndDateAttribute()
-'''
-pass
+    '''    public String getEndDateAttribute()
+    '''
 def getCurrentMonth():
-'''public String getCurrentMonth()
-'''
-pass
+    '''    public String getCurrentMonth()
+    '''

@@ -1,8 +1,6 @@
 def DatastoreChildSet():
-'''public DatastoreChildSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DatastoreChildSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

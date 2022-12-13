@@ -1,4 +1,3 @@
 def prettyFormatXml():
-'''public static String prettyFormatXml(final CharSequence xml)
-'''
-pass
+    '''    public static String prettyFormatXml(final CharSequence xml)
+    '''

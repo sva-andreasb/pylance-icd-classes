@@ -1,8 +1,6 @@
 def PlusPBillActualUsageUtil():
-'''public PlusPBillActualUsageUtil(final MboRemote agreement, final MboRemote billSched, final MboRemote billBatch, final PlusPLog plusPLog)
-'''
-pass
+    '''    public PlusPBillActualUsageUtil(final MboRemote agreement, final MboRemote billSched, final MboRemote billBatch, final PlusPLog plusPLog)
+    '''
 def billActualUsage():
-'''public ArrayList<MboRemote> billActualUsage()
-'''
-pass
+    '''    public ArrayList<MboRemote> billActualUsage()
+    '''

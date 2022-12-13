@@ -1,12 +1,9 @@
 def PlusPActionGroupSet():
-'''public PlusPActionGroupSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPActionGroupSet(final MboServerInterface arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

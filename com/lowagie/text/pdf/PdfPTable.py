@@ -3,214 +3,164 @@ BACKGROUNDCANVAS = "int  1"
 LINECANVAS = "int  2"
 TEXTCANVAS = "int  3"
 def PdfPTable():
-'''public PdfPTable(final float[] relativeWidths)
-public PdfPTable(final int numColumns)
-public PdfPTable(final PdfPTable table)
-'''
-pass
+    '''    public PdfPTable(final float[] relativeWidths)
+    public PdfPTable(final int numColumns)
+    public PdfPTable(final PdfPTable table)
+    '''
 def shallowCopy():
-'''public static PdfPTable shallowCopy(final PdfPTable table)
-'''
-pass
+    '''    public static PdfPTable shallowCopy(final PdfPTable table)
+    '''
 def setWidths():
-'''public void setWidths(final float[] relativeWidths)
-public void setWidths(final int[] relativeWidths)
-'''
-pass
+    '''    public void setWidths(final float[] relativeWidths)
+    public void setWidths(final int[] relativeWidths)
+    '''
 def setTotalWidth():
-'''public void setTotalWidth(final float totalWidth)
-public void setTotalWidth(final float[] columnWidth)
-'''
-pass
+    '''    public void setTotalWidth(final float totalWidth)
+    public void setTotalWidth(final float[] columnWidth)
+    '''
 def setWidthPercentage():
-'''public void setWidthPercentage(final float[] columnWidth, final Rectangle pageSize)
-public void setWidthPercentage(final float widthPercentage)
-'''
-pass
+    '''    public void setWidthPercentage(final float[] columnWidth, final Rectangle pageSize)
+    public void setWidthPercentage(final float widthPercentage)
+    '''
 def getTotalWidth():
-'''public float getTotalWidth()
-'''
-pass
+    '''    public float getTotalWidth()
+    '''
 def calculateHeightsFast():
-'''public void calculateHeightsFast()
-'''
-pass
+    '''    public void calculateHeightsFast()
+    '''
 def getDefaultCell():
-'''public PdfPCell getDefaultCell()
-'''
-pass
+    '''    public PdfPCell getDefaultCell()
+    '''
 def addCell():
-'''public void addCell(final PdfPCell cell)
-public void addCell(final String text)
-public void addCell(final PdfPTable table)
-public void addCell(final Image image)
-public void addCell(final Phrase phrase)
-'''
-pass
+    '''    public void addCell(final PdfPCell cell)
+    public void addCell(final String text)
+    public void addCell(final PdfPTable table)
+    public void addCell(final Image image)
+    public void addCell(final Phrase phrase)
+    '''
 def writeSelectedRows():
-'''public float writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte[] canvases)
-public float writeSelectedRows(int colStart, int colEnd, int rowStart, int rowEnd, final float xPos, float yPos, final PdfContentByte[] canvases)
-public float writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)
-public float writeSelectedRows(int colStart, int colEnd, final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)
-'''
-pass
+    '''    public float writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte[] canvases)
+    public float writeSelectedRows(int colStart, int colEnd, int rowStart, int rowEnd, final float xPos, float yPos, final PdfContentByte[] canvases)
+    public float writeSelectedRows(final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)
+    public float writeSelectedRows(int colStart, int colEnd, final int rowStart, final int rowEnd, final float xPos, final float yPos, final PdfContentByte canvas)
+    '''
 def beginWritingRows():
-'''public static PdfContentByte[] beginWritingRows(final PdfContentByte canvas)
-'''
-pass
+    '''    public static PdfContentByte[] beginWritingRows(final PdfContentByte canvas)
+    '''
 def endWritingRows():
-'''public static void endWritingRows(final PdfContentByte[] canvases)
-'''
-pass
+    '''    public static void endWritingRows(final PdfContentByte[] canvases)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getTotalHeight():
-'''public float getTotalHeight()
-'''
-pass
+    '''    public float getTotalHeight()
+    '''
 def getRowHeight():
-'''public float getRowHeight(final int idx)
-'''
-pass
+    '''    public float getRowHeight(final int idx)
+    '''
 def getHeaderHeight():
-'''public float getHeaderHeight()
-'''
-pass
+    '''    public float getHeaderHeight()
+    '''
 def deleteRow():
-'''public boolean deleteRow(final int rowNumber)
-'''
-pass
+    '''    public boolean deleteRow(final int rowNumber)
+    '''
 def deleteLastRow():
-'''public boolean deleteLastRow()
-'''
-pass
+    '''    public boolean deleteLastRow()
+    '''
 def deleteBodyRows():
-'''public void deleteBodyRows()
-'''
-pass
+    '''    public void deleteBodyRows()
+    '''
 def getHeaderRows():
-'''public int getHeaderRows()
-'''
-pass
+    '''    public int getHeaderRows()
+    '''
 def setHeaderRows():
-'''public void setHeaderRows(int headerRows)
-'''
-pass
+    '''    public void setHeaderRows(int headerRows)
+    '''
 def getChunks():
-'''public ArrayList getChunks()
-'''
-pass
+    '''    public ArrayList getChunks()
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def process():
-'''public boolean process(final ElementListener listener)
-'''
-pass
+    '''    public boolean process(final ElementListener listener)
+    '''
 def getWidthPercentage():
-'''public float getWidthPercentage()
-'''
-pass
+    '''    public float getWidthPercentage()
+    '''
 def getHorizontalAlignment():
-'''public int getHorizontalAlignment()
-'''
-pass
+    '''    public int getHorizontalAlignment()
+    '''
 def setHorizontalAlignment():
-'''public void setHorizontalAlignment(final int horizontalAlignment)
-'''
-pass
+    '''    public void setHorizontalAlignment(final int horizontalAlignment)
+    '''
 def getRow():
-'''public PdfPRow getRow(final int idx)
-'''
-pass
+    '''    public PdfPRow getRow(final int idx)
+    '''
 def getRows():
-'''public ArrayList getRows()
-'''
-pass
+    '''    public ArrayList getRows()
+    '''
 def setTableEvent():
-'''public void setTableEvent(final PdfPTableEvent event)
-'''
-pass
+    '''    public void setTableEvent(final PdfPTableEvent event)
+    '''
 def getTableEvent():
-'''public PdfPTableEvent getTableEvent()
-'''
-pass
+    '''    public PdfPTableEvent getTableEvent()
+    '''
 def getAbsoluteWidths():
-'''public float[] getAbsoluteWidths()
-'''
-pass
+    '''    public float[] getAbsoluteWidths()
+    '''
 def isSkipFirstHeader():
-'''public boolean isSkipFirstHeader()
-'''
-pass
+    '''    public boolean isSkipFirstHeader()
+    '''
 def setSkipFirstHeader():
-'''public void setSkipFirstHeader(final boolean skipFirstHeader)
-'''
-pass
+    '''    public void setSkipFirstHeader(final boolean skipFirstHeader)
+    '''
 def setRunDirection():
-'''public void setRunDirection(final int runDirection)
-'''
-pass
+    '''    public void setRunDirection(final int runDirection)
+    '''
 def getRunDirection():
-'''public int getRunDirection()
-'''
-pass
+    '''    public int getRunDirection()
+    '''
 def isLockedWidth():
-'''public boolean isLockedWidth()
-'''
-pass
+    '''    public boolean isLockedWidth()
+    '''
 def setLockedWidth():
-'''public void setLockedWidth(final boolean lockedWidth)
-'''
-pass
+    '''    public void setLockedWidth(final boolean lockedWidth)
+    '''
 def isSplitRows():
-'''public boolean isSplitRows()
-'''
-pass
+    '''    public boolean isSplitRows()
+    '''
 def setSplitRows():
-'''public void setSplitRows(final boolean splitRows)
-'''
-pass
+    '''    public void setSplitRows(final boolean splitRows)
+    '''
 def setSpacingBefore():
-'''public void setSpacingBefore(final float spacing)
-'''
-pass
+    '''    public void setSpacingBefore(final float spacing)
+    '''
 def setSpacingAfter():
-'''public void setSpacingAfter(final float spacing)
-'''
-pass
+    '''    public void setSpacingAfter(final float spacing)
+    '''
 def spacingBefore():
-'''public float spacingBefore()
-'''
-pass
+    '''    public float spacingBefore()
+    '''
 def spacingAfter():
-'''public float spacingAfter()
-'''
-pass
+    '''    public float spacingAfter()
+    '''
 def isExtendLastRow():
-'''public boolean isExtendLastRow()
-'''
-pass
+    '''    public boolean isExtendLastRow()
+    '''
 def setExtendLastRow():
-'''public void setExtendLastRow(final boolean extendLastRow)
-'''
-pass
+    '''    public void setExtendLastRow(final boolean extendLastRow)
+    '''
 def isHeadersInEvent():
-'''public boolean isHeadersInEvent()
-'''
-pass
+    '''    public boolean isHeadersInEvent()
+    '''
 def setHeadersInEvent():
-'''public void setHeadersInEvent(final boolean headersInEvent)
-'''
-pass
+    '''    public void setHeadersInEvent(final boolean headersInEvent)
+    '''
 def isSplitLate():
-'''public boolean isSplitLate()
-'''
-pass
+    '''    public boolean isSplitLate()
+    '''
 def setSplitLate():
-'''public void setSplitLate(final boolean splitLate)
-'''
-pass
+    '''    public void setSplitLate(final boolean splitLate)
+    '''

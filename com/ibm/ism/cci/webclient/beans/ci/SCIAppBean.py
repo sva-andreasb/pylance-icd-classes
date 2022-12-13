@@ -1,4 +1,3 @@
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''

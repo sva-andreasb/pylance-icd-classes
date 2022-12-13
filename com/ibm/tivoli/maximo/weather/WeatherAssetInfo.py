@@ -1,39 +1,30 @@
-ADD = "String  Add""
-DELETE = "String  Delete""
-UPDATE = "String  Update""
+ADD = "String  \"Add\""
+DELETE = "String  \"Delete\""
+UPDATE = "String  \"Update\""
 def WeatherAssetInfo():
-'''public WeatherAssetInfo(final String refId, final String osName, final long objectId, final String wsiId, final String action, final double lat, final double longt)
-'''
-pass
+    '''    public WeatherAssetInfo(final String refId, final String osName, final long objectId, final String wsiId, final String action, final double lat, final double longt)
+    '''
 def getRefId():
-'''public String getRefId()
-'''
-pass
+    '''    public String getRefId()
+    '''
 def getLatitude():
-'''public double getLatitude()
-'''
-pass
+    '''    public double getLatitude()
+    '''
 def getLongtitude():
-'''public double getLongtitude()
-'''
-pass
+    '''    public double getLongtitude()
+    '''
 def setWsiId():
-'''public void setWsiId(final String id)
-'''
-pass
+    '''    public void setWsiId(final String id)
+    '''
 def getWsiId():
-'''public String getWsiId()
-'''
-pass
+    '''    public String getWsiId()
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def getIntObjectName():
-'''public String getIntObjectName()
-'''
-pass
+    '''    public String getIntObjectName()
+    '''
 def getObjectId():
-'''public long getObjectId()
-'''
-pass
+    '''    public long getObjectId()
+    '''

@@ -1,8 +1,6 @@
 def FldInventoryShippedQty():
-'''public FldInventoryShippedQty(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryShippedQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

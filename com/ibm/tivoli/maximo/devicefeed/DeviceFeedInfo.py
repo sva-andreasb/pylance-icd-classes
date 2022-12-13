@@ -1,36 +1,27 @@
 def DeviceFeedInfo():
-'''public DeviceFeedInfo(final String org, final String type, final String id, final String mapperImpl, final String mapperType, final boolean active, final String osName)
-'''
-pass
+    '''    public DeviceFeedInfo(final String org, final String type, final String id, final String mapperImpl, final String mapperType, final boolean active, final String osName)
+    '''
 def getOSName():
-'''public String getOSName()
-'''
-pass
+    '''    public String getOSName()
+    '''
 def isScript():
-'''public boolean isScript()
-'''
-pass
+    '''    public boolean isScript()
+    '''
 def getOrg():
-'''public String getOrg()
-'''
-pass
+    '''    public String getOrg()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getMapperImpl():
-'''public String getMapperImpl()
-'''
-pass
+    '''    public String getMapperImpl()
+    '''
 def getMapperType():
-'''public String getMapperType()
-'''
-pass
+    '''    public String getMapperType()
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''

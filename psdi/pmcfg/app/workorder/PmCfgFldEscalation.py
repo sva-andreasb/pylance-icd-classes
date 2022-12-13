@@ -1,4 +1,3 @@
 def PmCfgFldEscalation():
-'''public PmCfgFldEscalation(final MboValue mbv)
-'''
-pass
+    '''    public PmCfgFldEscalation(final MboValue mbv)
+    '''

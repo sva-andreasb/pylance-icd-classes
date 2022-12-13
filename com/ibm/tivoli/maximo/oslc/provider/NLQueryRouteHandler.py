@@ -1,8 +1,6 @@
 def getOSFromQueryResponse():
-'''public String getOSFromQueryResponse(final String selectClause)
-'''
-pass
+    '''    public String getOSFromQueryResponse(final String selectClause)
+    '''
 def handleRequest():
-'''public OslcResourceResponse handleRequest(final OslcRequest request)
-'''
-pass
+    '''    public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''

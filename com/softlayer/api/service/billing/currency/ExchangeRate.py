@@ -1,105 +1,79 @@
 def getFundingCurrency():
-'''public Currency getFundingCurrency()
-'''
-pass
+    '''    public Currency getFundingCurrency()
+    '''
 def setFundingCurrency():
-'''public void setFundingCurrency(final Currency fundingCurrency)
-'''
-pass
+    '''    public void setFundingCurrency(final Currency fundingCurrency)
+    '''
 def getLocalCurrency():
-'''public Currency getLocalCurrency()
-'''
-pass
+    '''    public Currency getLocalCurrency()
+    '''
 def setLocalCurrency():
-'''public void setLocalCurrency(final Currency localCurrency)
-'''
-pass
+    '''    public void setLocalCurrency(final Currency localCurrency)
+    '''
 def getEffectiveDate():
-'''public GregorianCalendar getEffectiveDate()
-'''
-pass
+    '''    public GregorianCalendar getEffectiveDate()
+    '''
 def setEffectiveDate():
-'''public void setEffectiveDate(final GregorianCalendar effectiveDate)
-'''
-pass
+    '''    public void setEffectiveDate(final GregorianCalendar effectiveDate)
+    '''
 def isEffectiveDateSpecified():
-'''public boolean isEffectiveDateSpecified()
-'''
-pass
+    '''    public boolean isEffectiveDateSpecified()
+    '''
 def unsetEffectiveDate():
-'''public void unsetEffectiveDate()
-'''
-pass
+    '''    public void unsetEffectiveDate()
+    '''
 def getExpirationDate():
-'''public GregorianCalendar getExpirationDate()
-'''
-pass
+    '''    public GregorianCalendar getExpirationDate()
+    '''
 def setExpirationDate():
-'''public void setExpirationDate(final GregorianCalendar expirationDate)
-'''
-pass
+    '''    public void setExpirationDate(final GregorianCalendar expirationDate)
+    '''
 def isExpirationDateSpecified():
-'''public boolean isExpirationDateSpecified()
-'''
-pass
+    '''    public boolean isExpirationDateSpecified()
+    '''
 def unsetExpirationDate():
-'''public void unsetExpirationDate()
-'''
-pass
+    '''    public void unsetExpirationDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getRate():
-'''public BigDecimal getRate()
-'''
-pass
+    '''    public BigDecimal getRate()
+    '''
 def setRate():
-'''public void setRate(final BigDecimal rate)
-'''
-pass
+    '''    public void setRate(final BigDecimal rate)
+    '''
 def isRateSpecified():
-'''public boolean isRateSpecified()
-'''
-pass
+    '''    public boolean isRateSpecified()
+    '''
 def unsetRate():
-'''public void unsetRate()
-'''
-pass
+    '''    public void unsetRate()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def effectiveDate():
-'''public Mask effectiveDate()
-'''
-pass
+    '''    public Mask effectiveDate()
+    '''
 def expirationDate():
-'''public Mask expirationDate()
-'''
-pass
+    '''    public Mask expirationDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def rate():
-'''public Mask rate()
-'''
-pass
+    '''    public Mask rate()
+    '''

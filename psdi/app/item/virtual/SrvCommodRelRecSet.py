@@ -1,4 +1,3 @@
 def SrvCommodRelRecSet():
-'''public SrvCommodRelRecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SrvCommodRelRecSet(final MboServerInterface ms)
+    '''

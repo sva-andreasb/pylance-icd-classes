@@ -1,20 +1,15 @@
 def getAttributes():
-'''public Hashtable getAttributes()
-'''
-pass
+    '''    public Hashtable getAttributes()
+    '''
 def getStatus():
-'''public STUserStatus getStatus()
-'''
-pass
+    '''    public STUserStatus getStatus()
+    '''
 def getGroup():
-'''public STGroup getGroup()
-'''
-pass
+    '''    public STGroup getGroup()
+    '''
 def getIconUrl():
-'''public String getIconUrl()
-'''
-pass
+    '''    public String getIconUrl()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

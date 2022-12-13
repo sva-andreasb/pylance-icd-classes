@@ -1,8 +1,6 @@
 def FldDeployedMeterAvgCalcMethod():
-'''public FldDeployedMeterAvgCalcMethod(final MboValue mbv)
-'''
-pass
+    '''    public FldDeployedMeterAvgCalcMethod(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

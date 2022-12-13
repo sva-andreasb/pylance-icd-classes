@@ -1,32 +1,24 @@
 def ESIStats():
-'''public ESIStats()
-'''
-pass
+    '''    public ESIStats()
+    '''
 def getGatherEntries():
-'''public boolean getGatherEntries()
-'''
-pass
+    '''    public boolean getGatherEntries()
+    '''
 def setGatherEntries():
-'''public void setGatherEntries(final boolean gatherEntries)
-'''
-pass
+    '''    public void setGatherEntries(final boolean gatherEntries)
+    '''
 def gather():
-'''public void gather()
-'''
-pass
+    '''    public void gather()
+    '''
 def getServerStats():
-'''public ESIServerStats[] getServerStats()
-'''
-pass
+    '''    public ESIServerStats[] getServerStats()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def resetCounters():
-'''public void resetCounters()
-'''
-pass
+    '''    public void resetCounters()
+    '''
 def clearCaches():
-'''public void clearCaches()
-'''
-pass
+    '''    public void clearCaches()
+    '''

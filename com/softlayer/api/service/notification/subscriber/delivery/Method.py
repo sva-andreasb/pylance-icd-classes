@@ -1,112 +1,84 @@
 def setNotificationDeliveryMethod():
-'''public void setNotificationDeliveryMethod(final com.softlayer.api.service.notification.delivery.Method notificationDeliveryMethod)
-'''
-pass
+    '''    public void setNotificationDeliveryMethod(final com.softlayer.api.service.notification.delivery.Method notificationDeliveryMethod)
+    '''
 def getNotificationSubscriber():
-'''public Subscriber getNotificationSubscriber()
-'''
-pass
+    '''    public Subscriber getNotificationSubscriber()
+    '''
 def setNotificationSubscriber():
-'''public void setNotificationSubscriber(final Subscriber notificationSubscriber)
-'''
-pass
+    '''    public void setNotificationSubscriber(final Subscriber notificationSubscriber)
+    '''
 def getActive():
-'''public Long getActive()
-'''
-pass
+    '''    public Long getActive()
+    '''
 def setActive():
-'''public void setActive(final Long active)
-'''
-pass
+    '''    public void setActive(final Long active)
+    '''
 def isActiveSpecified():
-'''public boolean isActiveSpecified()
-'''
-pass
+    '''    public boolean isActiveSpecified()
+    '''
 def unsetActive():
-'''public void unsetActive()
-'''
-pass
+    '''    public void unsetActive()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNotificationDeliveryMethodId():
-'''public Long getNotificationDeliveryMethodId()
-'''
-pass
+    '''    public Long getNotificationDeliveryMethodId()
+    '''
 def setNotificationDeliveryMethodId():
-'''public void setNotificationDeliveryMethodId(final Long notificationDeliveryMethodId)
-'''
-pass
+    '''    public void setNotificationDeliveryMethodId(final Long notificationDeliveryMethodId)
+    '''
 def isNotificationDeliveryMethodIdSpecified():
-'''public boolean isNotificationDeliveryMethodIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationDeliveryMethodIdSpecified()
+    '''
 def unsetNotificationDeliveryMethodId():
-'''public void unsetNotificationDeliveryMethodId()
-'''
-pass
+    '''    public void unsetNotificationDeliveryMethodId()
+    '''
 def getNotificationSubscriberId():
-'''public Long getNotificationSubscriberId()
-'''
-pass
+    '''    public Long getNotificationSubscriberId()
+    '''
 def setNotificationSubscriberId():
-'''public void setNotificationSubscriberId(final Long notificationSubscriberId)
-'''
-pass
+    '''    public void setNotificationSubscriberId(final Long notificationSubscriberId)
+    '''
 def isNotificationSubscriberIdSpecified():
-'''public boolean isNotificationSubscriberIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationSubscriberIdSpecified()
+    '''
 def unsetNotificationSubscriberId():
-'''public void unsetNotificationSubscriberId()
-'''
-pass
+    '''    public void unsetNotificationSubscriberId()
+    '''
 def active():
-'''public Mask active()
-'''
-pass
+    '''    public Mask active()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def notificationDeliveryMethodId():
-'''public Mask notificationDeliveryMethodId()
-'''
-pass
+    '''    public Mask notificationDeliveryMethodId()
+    '''
 def notificationSubscriberId():
-'''public Mask notificationSubscriberId()
-'''
-pass
+    '''    public Mask notificationSubscriberId()
+    '''

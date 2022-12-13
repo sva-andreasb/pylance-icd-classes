@@ -1,33 +1,25 @@
 def AsynchDetailParameterValues():
-'''public AsynchDetailParameterValues()
-public AsynchDetailParameterValues(final ParameterValue[] parameters)
-'''
-pass
+    '''    public AsynchDetailParameterValues()
+    public AsynchDetailParameterValues(final ParameterValue[] parameters)
+    '''
 def getParameters():
-'''public ParameterValue[] getParameters()
-'''
-pass
+    '''    public ParameterValue[] getParameters()
+    '''
 def setParameters():
-'''public void setParameters(final ParameterValue[] parameters)
-'''
-pass
+    '''    public void setParameters(final ParameterValue[] parameters)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

@@ -1,16 +1,12 @@
 def ESIServerStats():
-'''public ESIServerStats(final String hostName)
-'''
-pass
+    '''    public ESIServerStats(final String hostName)
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def addProcessorStats():
-'''public void addProcessorStats(final ESIProcessorStats processorStats)
-'''
-pass
+    '''    public void addProcessorStats(final ESIProcessorStats processorStats)
+    '''
 def getProcessorStats():
-'''public ESIProcessorStats[] getProcessorStats()
-'''
-pass
+    '''    public ESIProcessorStats[] getProcessorStats()
+    '''

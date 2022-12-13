@@ -1,12 +1,9 @@
 def selecttoolsonactuals():
-'''public int selecttoolsonactuals()
-'''
-pass
+    '''    public int selecttoolsonactuals()
+    '''
 def actools():
-'''public int actools()
-'''
-pass
+    '''    public int actools()
+    '''
 def selectissuetoolsonactuals():
-'''public int selectissuetoolsonactuals()
-'''
-pass
+    '''    public int selectissuetoolsonactuals()
+    '''

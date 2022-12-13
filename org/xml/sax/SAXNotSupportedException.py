@@ -1,5 +1,4 @@
 def SAXNotSupportedException():
-'''public SAXNotSupportedException()
-public SAXNotSupportedException(final String s)
-'''
-pass
+    '''    public SAXNotSupportedException()
+    public SAXNotSupportedException(final String s)
+    '''

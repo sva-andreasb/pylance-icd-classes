@@ -1,5 +1,4 @@
 def UnsupportedOperationException():
-'''public UnsupportedOperationException()
-public UnsupportedOperationException(final String message)
-'''
-pass
+    '''    public UnsupportedOperationException()
+    public UnsupportedOperationException(final String message)
+    '''

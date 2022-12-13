@@ -1,24 +1,18 @@
 def TKTempltActySpec():
-'''public TKTempltActySpec(final MboSet ms)
-'''
-pass
+    '''    public TKTempltActySpec(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def addDetailInfor():
-'''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
-'''
-pass
+    '''    public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setALNOrNUMReadOnly():
-'''public void setALNOrNUMReadOnly()
-'''
-pass
+    '''    public void setALNOrNUMReadOnly()
+    '''
 def toUpdateReadOnly():
-'''public boolean toUpdateReadOnly(final String attrName)
-'''
-pass
+    '''    public boolean toUpdateReadOnly(final String attrName)
+    '''

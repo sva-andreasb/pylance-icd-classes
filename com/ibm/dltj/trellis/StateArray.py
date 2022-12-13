@@ -1,20 +1,15 @@
 def states():
-'''public int[] states()
-'''
-pass
+    '''    public int[] states()
+    '''
 def weights():
-'''public int[] weights()
-'''
-pass
+    '''    public int[] weights()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

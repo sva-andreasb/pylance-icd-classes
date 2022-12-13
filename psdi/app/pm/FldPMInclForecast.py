@@ -1,12 +1,9 @@
 def FldPMInclForecast():
-'''public FldPMInclForecast(final MboValue mbv)
-'''
-pass
+    '''    public FldPMInclForecast(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

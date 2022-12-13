@@ -1,28 +1,21 @@
 def TargetHelper():
-'''public TargetHelper(final String cinum, final String description)
-'''
-pass
+    '''    public TargetHelper(final String cinum, final String description)
+    '''
 def getCinum():
-'''public String getCinum()
-'''
-pass
+    '''    public String getCinum()
+    '''
 def setCinum():
-'''public void setCinum(final String cinum)
-'''
-pass
+    '''    public void setCinum(final String cinum)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

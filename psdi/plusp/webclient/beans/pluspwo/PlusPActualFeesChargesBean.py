@@ -1,16 +1,12 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectFeesCharges():
-'''public int selectFeesCharges()
-'''
-pass
+    '''    public int selectFeesCharges()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def updateCalculatedFees():
-'''public int updateCalculatedFees()
-'''
-pass
+    '''    public int updateCalculatedFees()
+    '''

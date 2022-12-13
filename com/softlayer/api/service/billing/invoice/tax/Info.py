@@ -1,172 +1,129 @@
 def getCurrency():
-'''public Currency getCurrency()
-'''
-pass
+    '''    public Currency getCurrency()
+    '''
 def setCurrency():
-'''public void setCurrency(final Currency currency)
-'''
-pass
+    '''    public void setCurrency(final Currency currency)
+    '''
 def getFunctionalCurrency():
-'''public Currency getFunctionalCurrency()
-'''
-pass
+    '''    public Currency getFunctionalCurrency()
+    '''
 def setFunctionalCurrency():
-'''public void setFunctionalCurrency(final Currency functionalCurrency)
-'''
-pass
+    '''    public void setFunctionalCurrency(final Currency functionalCurrency)
+    '''
 def getInvoice():
-'''public Invoice getInvoice()
-'''
-pass
+    '''    public Invoice getInvoice()
+    '''
 def setInvoice():
-'''public void setInvoice(final Invoice invoice)
-'''
-pass
+    '''    public void setInvoice(final Invoice invoice)
+    '''
 def setItemWithCurrencyInfo():
-'''public void setItemWithCurrencyInfo(final com.softlayer.api.service.billing.invoice.item.tax.Info itemWithCurrencyInfo)
-'''
-pass
+    '''    public void setItemWithCurrencyInfo(final com.softlayer.api.service.billing.invoice.item.tax.Info itemWithCurrencyInfo)
+    '''
 def getTotalTaxAmountToCurrency():
-'''public BigDecimal getTotalTaxAmountToCurrency()
-'''
-pass
+    '''    public BigDecimal getTotalTaxAmountToCurrency()
+    '''
 def setTotalTaxAmountToCurrency():
-'''public void setTotalTaxAmountToCurrency(final BigDecimal totalTaxAmountToCurrency)
-'''
-pass
+    '''    public void setTotalTaxAmountToCurrency(final BigDecimal totalTaxAmountToCurrency)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getCurrencyId():
-'''public Long getCurrencyId()
-'''
-pass
+    '''    public Long getCurrencyId()
+    '''
 def setCurrencyId():
-'''public void setCurrencyId(final Long currencyId)
-'''
-pass
+    '''    public void setCurrencyId(final Long currencyId)
+    '''
 def isCurrencyIdSpecified():
-'''public boolean isCurrencyIdSpecified()
-'''
-pass
+    '''    public boolean isCurrencyIdSpecified()
+    '''
 def unsetCurrencyId():
-'''public void unsetCurrencyId()
-'''
-pass
+    '''    public void unsetCurrencyId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getInvoiceId():
-'''public Long getInvoiceId()
-'''
-pass
+    '''    public Long getInvoiceId()
+    '''
 def setInvoiceId():
-'''public void setInvoiceId(final Long invoiceId)
-'''
-pass
+    '''    public void setInvoiceId(final Long invoiceId)
+    '''
 def isInvoiceIdSpecified():
-'''public boolean isInvoiceIdSpecified()
-'''
-pass
+    '''    public boolean isInvoiceIdSpecified()
+    '''
 def unsetInvoiceId():
-'''public void unsetInvoiceId()
-'''
-pass
+    '''    public void unsetInvoiceId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getReportedFlag():
-'''public Boolean getReportedFlag()
-'''
-pass
+    '''    public Boolean getReportedFlag()
+    '''
 def setReportedFlag():
-'''public void setReportedFlag(final Boolean reportedFlag)
-'''
-pass
+    '''    public void setReportedFlag(final Boolean reportedFlag)
+    '''
 def isReportedFlagSpecified():
-'''public boolean isReportedFlagSpecified()
-'''
-pass
+    '''    public boolean isReportedFlagSpecified()
+    '''
 def unsetReportedFlag():
-'''public void unsetReportedFlag()
-'''
-pass
+    '''    public void unsetReportedFlag()
+    '''
 def getItemCount():
-'''public Long getItemCount()
-'''
-pass
+    '''    public Long getItemCount()
+    '''
 def setItemCount():
-'''public void setItemCount(final Long itemCount)
-'''
-pass
+    '''    public void setItemCount(final Long itemCount)
+    '''
 def totalTaxAmountToCurrency():
-'''public Mask totalTaxAmountToCurrency()
-'''
-pass
+    '''    public Mask totalTaxAmountToCurrency()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def currencyId():
-'''public Mask currencyId()
-'''
-pass
+    '''    public Mask currencyId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def invoiceId():
-'''public Mask invoiceId()
-'''
-pass
+    '''    public Mask invoiceId()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def reportedFlag():
-'''public Mask reportedFlag()
-'''
-pass
+    '''    public Mask reportedFlag()
+    '''
 def itemCount():
-'''public Mask itemCount()
-'''
-pass
+    '''    public Mask itemCount()
+    '''

@@ -1,48 +1,36 @@
 def Meter():
-'''public Meter(final MboSet ms)
-'''
-pass
+    '''    public Meter(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getMeterType():
-'''public String getMeterType()
-'''
-pass
+    '''    public String getMeterType()
+    '''
 def isContinuous():
-'''public boolean isContinuous()
-'''
-pass
+    '''    public boolean isContinuous()
+    '''
 def isGauge():
-'''public boolean isGauge()
-'''
-pass
+    '''    public boolean isGauge()
+    '''
 def isCharacteristic():
-'''public boolean isCharacteristic()
-'''
-pass
+    '''    public boolean isCharacteristic()
+    '''
 def isContinuousOrGauge():
-'''public boolean isContinuousOrGauge()
-'''
-pass
+    '''    public boolean isContinuousOrGauge()
+    '''
 def isGaugeOrCharacteristic():
-'''public boolean isGaugeOrCharacteristic()
-'''
-pass
+    '''    public boolean isGaugeOrCharacteristic()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getTheScaleForReadings():
-'''public int getTheScaleForReadings()
-'''
-pass
+    '''    public int getTheScaleForReadings()
+    '''

@@ -1,9 +1,7 @@
 def ScriptService():
-'''public ScriptService()
-public ScriptService(final MXServer mxServer)
-'''
-pass
+    '''    public ScriptService()
+    public ScriptService(final MXServer mxServer)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

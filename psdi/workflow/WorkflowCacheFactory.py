@@ -1,17 +1,13 @@
-WFMBONAME = "String  WFMBONAME""
+WFMBONAME = "String  \"WFMBONAME\""
 def getInstance():
-'''public static WorkflowCacheFactory getInstance()
-'''
-pass
+    '''    public static WorkflowCacheFactory getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCache():
-'''public WorkflowCache getCache()
-'''
-pass
+    '''    public WorkflowCache getCache()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

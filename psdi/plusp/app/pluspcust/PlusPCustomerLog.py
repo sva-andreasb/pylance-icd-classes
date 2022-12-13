@@ -1,24 +1,18 @@
 def PlusPCustomerLog():
-'''public PlusPCustomerLog(final MboSet ms)
-'''
-pass
+    '''    public PlusPCustomerLog(final MboSet ms)
+    '''
 def makeFieldsWritable():
-'''public void makeFieldsWritable(final String[] names)
-'''
-pass
+    '''    public void makeFieldsWritable(final String[] names)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''

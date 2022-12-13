@@ -1,37 +1,28 @@
 def ManagedElement():
-'''public ManagedElement(final String classType)
-'''
-pass
+    '''    public ManagedElement(final String classType)
+    '''
 def addAttribute():
-'''public void addAttribute(final String attributeName, final String attributeValue)
-'''
-pass
+    '''    public void addAttribute(final String attributeName, final String attributeValue)
+    '''
 def addNamingContext():
-'''public void addNamingContext(final String role, final Guid superior)
-public void addNamingContext(final String role, final Integer index)
-'''
-pass
+    '''    public void addNamingContext(final String role, final Guid superior)
+    public void addNamingContext(final String role, final Integer index)
+    '''
 def asHashMap():
-'''public HashMap<String, Object> asHashMap()
-'''
-pass
+    '''    public HashMap<String, Object> asHashMap()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def attributeNames():
-'''public List<String> attributeNames()
-'''
-pass
+    '''    public List<String> attributeNames()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

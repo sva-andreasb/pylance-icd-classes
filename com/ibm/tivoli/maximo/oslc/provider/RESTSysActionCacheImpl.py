@@ -1,33 +1,25 @@
 def RESTSysActionCacheImpl():
-'''public RESTSysActionCacheImpl()
-'''
-pass
+    '''    public RESTSysActionCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getImplClass():
-'''public String getImplClass(final String name)
-'''
-pass
+    '''    public String getImplClass(final String name)
+    '''
 def getOptionName():
-'''public String getOptionName(final String name)
-'''
-pass
+    '''    public String getOptionName(final String name)
+    '''
 def getActionInfo():
-'''public OslcActionInfo getActionInfo(final String name)
-'''
-pass
+    '''    public OslcActionInfo getActionInfo(final String name)
+    '''
 def getAllActions():
-'''public Map<String, OslcActionInfo> getAllActions()
-'''
-pass
+    '''    public Map<String, OslcActionInfo> getAllActions()
+    '''

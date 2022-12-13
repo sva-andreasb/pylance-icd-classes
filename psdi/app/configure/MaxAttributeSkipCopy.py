@@ -1,8 +1,6 @@
 def MaxAttributeSkipCopy():
-'''public MaxAttributeSkipCopy(final MboSet ms)
-'''
-pass
+    '''    public MaxAttributeSkipCopy(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

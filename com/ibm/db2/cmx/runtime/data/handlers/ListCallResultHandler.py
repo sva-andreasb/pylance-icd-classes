@@ -1,9 +1,7 @@
 def ListCallResultHandler():
-'''public ListCallResultHandler(final RowHandler<T> rowHandler)
-public ListCallResultHandler(final Class<T> clazz)
-'''
-pass
+    '''    public ListCallResultHandler(final RowHandler<T> rowHandler)
+    public ListCallResultHandler(final Class<T> clazz)
+    '''
 def close():
-'''public void close(final ResultSet set)
-'''
-pass
+    '''    public void close(final ResultSet set)
+    '''

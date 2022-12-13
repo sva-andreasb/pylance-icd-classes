@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getRegionMetadataServiceName():
-'''public String getRegionMetadataServiceName()
-'''
-pass
+    '''    public String getRegionMetadataServiceName()
+    '''

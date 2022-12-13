@@ -1,4 +1,3 @@
 def InvalidArnException():
-'''public InvalidArnException(final String message)
-'''
-pass
+    '''    public InvalidArnException(final String message)
+    '''

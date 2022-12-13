@@ -1,24 +1,18 @@
 def TOCItemTag():
-'''public TOCItemTag()
-'''
-pass
+    '''    public TOCItemTag()
+    '''
 def setTocView():
-'''public void setTocView(final TOCView view)
-'''
-pass
+    '''    public void setTocView(final TOCView view)
+    '''
 def setBaseID():
-'''public void setBaseID(final String baseID)
-'''
-pass
+    '''    public void setBaseID(final String baseID)
+    '''
 def setHelpBroker():
-'''public void setHelpBroker(final HelpBroker hb)
-'''
-pass
+    '''    public void setHelpBroker(final HelpBroker hb)
+    '''
 def doStartTag():
-'''public int doStartTag()
-'''
-pass
+    '''    public int doStartTag()
+    '''
 def doAfterBody():
-'''public int doAfterBody()
-'''
-pass
+    '''    public int doAfterBody()
+    '''

@@ -1,72 +1,54 @@
 def Layout():
-'''public Layout(final MboSet ms)
-'''
-pass
+    '''    public Layout(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def addToKPIList():
-'''public void addToKPIList(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void addToKPIList(final MboSetRemote dataSet)
+    '''
 def addToReportList():
-'''public void addToReportList(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void addToReportList(final MboSetRemote dataSet)
+    '''
 def addToKPIGraph():
-'''public void addToKPIGraph(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void addToKPIGraph(final MboSetRemote dataSet)
+    '''
 def addToFAPortlet():
-'''public void addToFAPortlet(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void addToFAPortlet(final MboSetRemote dataSet)
+    '''
 def addToActionsPortlet():
-'''public void addToActionsPortlet(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void addToActionsPortlet(final MboSetRemote dataSet)
+    '''
 def validateShowGraph():
-'''public void validateShowGraph()
-'''
-pass
+    '''    public void validateShowGraph()
+    '''
 def setDefaultsForResultSet():
-'''public void setDefaultsForResultSet()
-'''
-pass
+    '''    public void setDefaultsForResultSet()
+    '''
 def setDefaultsForObjectStructure():
-'''public void setDefaultsForObjectStructure()
-'''
-pass
+    '''    public void setDefaultsForObjectStructure()
+    '''
 def validateRSConditions():
-'''public void validateRSConditions()
-'''
-pass
+    '''    public void validateRSConditions()
+    '''
 def canDeletePortletLabels():
-'''public boolean canDeletePortletLabels()
-'''
-pass
+    '''    public boolean canDeletePortletLabels()
+    '''
 def setDeletePortletLabels():
-'''public void setDeletePortletLabels(final boolean deletePortletLabels)
-'''
-pass
+    '''    public void setDeletePortletLabels(final boolean deletePortletLabels)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def resetForAppChange():
-'''public void resetForAppChange()
-'''
-pass
+    '''    public void resetForAppChange()
+    '''
 def getSavedQueryApp():
-'''public String getSavedQueryApp()
-'''
-pass
+    '''    public String getSavedQueryApp()
+    '''

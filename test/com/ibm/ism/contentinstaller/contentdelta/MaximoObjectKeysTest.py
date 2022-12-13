@@ -1,4 +1,3 @@
 def testLoadFromDatabase():
-'''public void testLoadFromDatabase()
-'''
-pass
+    '''    public void testLoadFromDatabase()
+    '''

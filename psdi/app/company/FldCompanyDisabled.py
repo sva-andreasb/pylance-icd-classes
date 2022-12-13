@@ -1,12 +1,9 @@
 def FldCompanyDisabled():
-'''public FldCompanyDisabled(final MboValue mv)
-'''
-pass
+    '''    public FldCompanyDisabled(final MboValue mv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

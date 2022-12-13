@@ -1,44 +1,33 @@
 def MultiObjectDeleteException():
-'''public MultiObjectDeleteException(final Collection<DeleteError> errors, final Collection<DeleteObjectsResult.DeletedObject> deletedObjects)
-'''
-pass
+    '''    public MultiObjectDeleteException(final Collection<DeleteError> errors, final Collection<DeleteObjectsResult.DeletedObject> deletedObjects)
+    '''
 def getErrorCode():
-'''public String getErrorCode()
-'''
-pass
+    '''    public String getErrorCode()
+    '''
 def getErrors():
-'''public List<DeleteError> getErrors()
-'''
-pass
+    '''    public List<DeleteError> getErrors()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''
 def getCode():
-'''public String getCode()
-'''
-pass
+    '''    public String getCode()
+    '''
 def setCode():
-'''public void setCode(final String code)
-'''
-pass
+    '''    public void setCode(final String code)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def setMessage():
-'''public void setMessage(final String message)
-'''
-pass
+    '''    public void setMessage(final String message)
+    '''

@@ -1,134 +1,101 @@
-IBM_COPYRIGHT = "String \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def CCIBaseline():
-'''public CCIBaseline(final MboSet ms)
-'''
-pass
+    '''    public CCIBaseline(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def newcopy():
-'''public MboRemote newcopy()
-'''
-pass
+    '''    public MboRemote newcopy()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete(final long accessModifier)
-'''
-pass
+    '''    public void undelete(final long accessModifier)
+    '''
 def activate():
-'''public boolean activate()
-'''
-pass
+    '''    public boolean activate()
+    '''
 def copySelectedCollectionMembers():
-'''public int copySelectedCollectionMembers(final MboSetRemote collMbo)
-'''
-pass
+    '''    public int copySelectedCollectionMembers(final MboSetRemote collMbo)
+    '''
 def copySelectedRelTargetMembers():
-'''public int copySelectedRelTargetMembers(final MboSetRemote collMbo)
-'''
-pass
+    '''    public int copySelectedRelTargetMembers(final MboSetRemote collMbo)
+    '''
 def copySelectedRelSourceMembers():
-'''public int copySelectedRelSourceMembers(final MboSetRemote collMbo)
-'''
-pass
+    '''    public int copySelectedRelSourceMembers(final MboSetRemote collMbo)
+    '''
 def validateBaseline():
-'''public void validateBaseline(final boolean forActivate)
-'''
-pass
+    '''    public void validateBaseline(final boolean forActivate)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def createOrUpdateCollection():
-'''public Object[] createOrUpdateCollection(final String selectedCollection)
-'''
-pass
+    '''    public Object[] createOrUpdateCollection(final String selectedCollection)
+    '''
 def hasUnauthorizedMembers():
-'''public boolean hasUnauthorizedMembers()
-'''
-pass
+    '''    public boolean hasUnauthorizedMembers()
+    '''
 def compareToActual():
-'''public long compareToActual()
-'''
-pass
+    '''    public long compareToActual()
+    '''
 def getMembersFromDatabase():
-'''public MboSetRemote getMembersFromDatabase()
-public MboSetRemote getMembersFromDatabase(final boolean readOnly)
-'''
-pass
+    '''    public MboSetRemote getMembersFromDatabase()
+    public MboSetRemote getMembersFromDatabase(final boolean readOnly)
+    '''
 def setAuthorizedMembersWhere():
-'''public void setAuthorizedMembersWhere(final MboSetRemote members)
-'''
-pass
+    '''    public void setAuthorizedMembersWhere(final MboSetRemote members)
+    '''
 def setUnauthorizedMembersWhere():
-'''public void setUnauthorizedMembersWhere(final MboSetRemote members)
-'''
-pass
+    '''    public void setUnauthorizedMembersWhere(final MboSetRemote members)
+    '''
 def getAuthorizedMembers():
-'''public MboSetRemote getAuthorizedMembers()
-'''
-pass
+    '''    public MboSetRemote getAuthorizedMembers()
+    '''
 def getUnauthorizedMembers():
-'''public MboSetRemote getUnauthorizedMembers()
-'''
-pass
+    '''    public MboSetRemote getUnauthorizedMembers()
+    '''
 def isAuthorizedMemberSetInitialized():
-'''public boolean isAuthorizedMemberSetInitialized()
-'''
-pass
+    '''    public boolean isAuthorizedMemberSetInitialized()
+    '''
 def setAuthorizedMemberSetInitialized():
-'''public void setAuthorizedMemberSetInitialized(final boolean authorizedMemberSetInitialized)
-'''
-pass
+    '''    public void setAuthorizedMemberSetInitialized(final boolean authorizedMemberSetInitialized)
+    '''
 def getAuthorizedMembersWhereCondition():
-'''public String getAuthorizedMembersWhereCondition()
-'''
-pass
+    '''    public String getAuthorizedMembersWhereCondition()
+    '''
 def setAuthorizedMembersWhereCondition():
-'''public void setAuthorizedMembersWhereCondition(final String authorizedMembersWhereCondition)
-'''
-pass
+    '''    public void setAuthorizedMembersWhereCondition(final String authorizedMembersWhereCondition)
+    '''
 def isBuiltWhereConditions():
-'''public boolean isBuiltWhereConditions()
-'''
-pass
+    '''    public boolean isBuiltWhereConditions()
+    '''
 def setBuiltWhereConditions():
-'''public void setBuiltWhereConditions(final boolean builtWhereConditions)
-'''
-pass
+    '''    public void setBuiltWhereConditions(final boolean builtWhereConditions)
+    '''
 def isUnauthorizedMemberSetInitialized():
-'''public boolean isUnauthorizedMemberSetInitialized()
-'''
-pass
+    '''    public boolean isUnauthorizedMemberSetInitialized()
+    '''
 def setUnauthorizedMemberSetInitialized():
-'''public void setUnauthorizedMemberSetInitialized(final boolean unauthorizedMemberSetInitialized)
-'''
-pass
+    '''    public void setUnauthorizedMemberSetInitialized(final boolean unauthorizedMemberSetInitialized)
+    '''
 def getUnauthorizedMembersWhereCondition():
-'''public String getUnauthorizedMembersWhereCondition()
-'''
-pass
+    '''    public String getUnauthorizedMembersWhereCondition()
+    '''
 def setUnauthorizedMembersWhereCondition():
-'''public void setUnauthorizedMembersWhereCondition(final String unauthorizedMembersWhereCondition)
-'''
-pass
+    '''    public void setUnauthorizedMembersWhereCondition(final String unauthorizedMembersWhereCondition)
+    '''
 def markActCIRelationsWithBaselineDate():
-'''public void markActCIRelationsWithBaselineDate(final CCIBaselineMemberRemote aBaselineMember, final Date asOf)
-'''
-pass
+    '''    public void markActCIRelationsWithBaselineDate(final CCIBaselineMemberRemote aBaselineMember, final Date asOf)
+    '''
 def getWhereclauseForCIsPromotedWithMember():
-'''public String getWhereclauseForCIsPromotedWithMember(final CCIBaselineMemberRemote member)
-'''
-pass
+    '''    public String getWhereclauseForCIsPromotedWithMember(final CCIBaselineMemberRemote member)
+    '''

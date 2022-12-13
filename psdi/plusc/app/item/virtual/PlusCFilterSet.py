@@ -1,4 +1,3 @@
 def PlusCFilterSet():
-'''public PlusCFilterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCFilterSet(final MboServerInterface ms)
+    '''

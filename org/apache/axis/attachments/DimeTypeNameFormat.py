@@ -1,21 +1,16 @@
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def toByte():
-'''public final byte toByte()
-'''
-pass
+    '''    public final byte toByte()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public final boolean equals(final Object x)
-'''
-pass
+    '''    public final boolean equals(final Object x)
+    '''
 def parseByte():
-'''public static DimeTypeNameFormat parseByte(final byte x)
-public static DimeTypeNameFormat parseByte(final Byte x)
-'''
-pass
+    '''    public static DimeTypeNameFormat parseByte(final byte x)
+    public static DimeTypeNameFormat parseByte(final Byte x)
+    '''

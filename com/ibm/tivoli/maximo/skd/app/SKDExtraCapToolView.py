@@ -1,12 +1,9 @@
 def SKDExtraCapToolView():
-'''public SKDExtraCapToolView(final MboSet ms)
-'''
-pass
+    '''    public SKDExtraCapToolView(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

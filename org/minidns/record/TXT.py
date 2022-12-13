@@ -1,28 +1,21 @@
 def parse():
-'''public static TXT parse(final DataInputStream dis, final int length)
-'''
-pass
+    '''    public static TXT parse(final DataInputStream dis, final int length)
+    '''
 def TXT():
-'''public TXT(final byte[] blob)
-'''
-pass
+    '''    public TXT(final byte[] blob)
+    '''
 def getBlob():
-'''public byte[] getBlob()
-'''
-pass
+    '''    public byte[] getBlob()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getExtents():
-'''public List<byte[]> getExtents()
-'''
-pass
+    '''    public List<byte[]> getExtents()
+    '''
 def serialize():
-'''public void serialize(final DataOutputStream dos)
-'''
-pass
+    '''    public void serialize(final DataOutputStream dos)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

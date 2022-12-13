@@ -1,93 +1,70 @@
 def HTMLConfiguration():
-'''public HTMLConfiguration()
-'''
-pass
+    '''    public HTMLConfiguration()
+    '''
 def pushInputSource():
-'''public void pushInputSource(final XMLInputSource inputSource)
-'''
-pass
+    '''    public void pushInputSource(final XMLInputSource inputSource)
+    '''
 def evaluateInputSource():
-'''public void evaluateInputSource(final XMLInputSource inputSource)
-'''
-pass
+    '''    public void evaluateInputSource(final XMLInputSource inputSource)
+    '''
 def setFeature():
-'''public void setFeature(final String featureId, final boolean state)
-'''
-pass
+    '''    public void setFeature(final String featureId, final boolean state)
+    '''
 def setProperty():
-'''public void setProperty(final String propertyId, final Object value)
-'''
-pass
+    '''    public void setProperty(final String propertyId, final Object value)
+    '''
 def setDocumentHandler():
-'''public void setDocumentHandler(final XMLDocumentHandler handler)
-'''
-pass
+    '''    public void setDocumentHandler(final XMLDocumentHandler handler)
+    '''
 def getDocumentHandler():
-'''public XMLDocumentHandler getDocumentHandler()
-'''
-pass
+    '''    public XMLDocumentHandler getDocumentHandler()
+    '''
 def setDTDHandler():
-'''public void setDTDHandler(final XMLDTDHandler handler)
-'''
-pass
+    '''    public void setDTDHandler(final XMLDTDHandler handler)
+    '''
 def getDTDHandler():
-'''public XMLDTDHandler getDTDHandler()
-'''
-pass
+    '''    public XMLDTDHandler getDTDHandler()
+    '''
 def setDTDContentModelHandler():
-'''public void setDTDContentModelHandler(final XMLDTDContentModelHandler handler)
-'''
-pass
+    '''    public void setDTDContentModelHandler(final XMLDTDContentModelHandler handler)
+    '''
 def getDTDContentModelHandler():
-'''public XMLDTDContentModelHandler getDTDContentModelHandler()
-'''
-pass
+    '''    public XMLDTDContentModelHandler getDTDContentModelHandler()
+    '''
 def setErrorHandler():
-'''public void setErrorHandler(final XMLErrorHandler handler)
-'''
-pass
+    '''    public void setErrorHandler(final XMLErrorHandler handler)
+    '''
 def getErrorHandler():
-'''public XMLErrorHandler getErrorHandler()
-'''
-pass
+    '''    public XMLErrorHandler getErrorHandler()
+    '''
 def setEntityResolver():
-'''public void setEntityResolver(final XMLEntityResolver resolver)
-'''
-pass
+    '''    public void setEntityResolver(final XMLEntityResolver resolver)
+    '''
 def getEntityResolver():
-'''public XMLEntityResolver getEntityResolver()
-'''
-pass
+    '''    public XMLEntityResolver getEntityResolver()
+    '''
 def setLocale():
-'''public void setLocale(Locale locale)
-'''
-pass
+    '''    public void setLocale(Locale locale)
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def parse():
-'''public void parse(final XMLInputSource source)
-public boolean parse(final boolean complete)
-'''
-pass
+    '''    public void parse(final XMLInputSource source)
+    public boolean parse(final boolean complete)
+    '''
 def setInputSource():
-'''public void setInputSource(final XMLInputSource inputSource)
-'''
-pass
+    '''    public void setInputSource(final XMLInputSource inputSource)
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def formatMessage():
-'''public String formatMessage(final String key, final Object[] args)
-'''
-pass
+    '''    public String formatMessage(final String key, final Object[] args)
+    '''
 def reportWarning():
-'''public void reportWarning(final String key, final Object[] args)
-'''
-pass
+    '''    public void reportWarning(final String key, final Object[] args)
+    '''
 def reportError():
-'''public void reportError(final String key, final Object[] args)
-'''
-pass
+    '''    public void reportError(final String key, final Object[] args)
+    '''

@@ -1,4 +1,3 @@
 def CommandLoadException():
-'''public CommandLoadException(final Throwable th)
-'''
-pass
+    '''    public CommandLoadException(final Throwable th)
+    '''

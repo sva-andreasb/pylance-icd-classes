@@ -20,66 +20,50 @@ precLParen = "int  3"
 precOpOr = "int  4"
 precOpCat = "int  5"
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def getPrecedence():
-'''public int getPrecedence()
-'''
-pass
+    '''    public int getPrecedence()
+    '''
 def setLeftHandNode():
-'''public void setLeftHandNode(final ParseNode leftChild)
-'''
-pass
+    '''    public void setLeftHandNode(final ParseNode leftChild)
+    '''
 def getLeftHandNode():
-'''public ParseNode getLeftHandNode()
-'''
-pass
+    '''    public ParseNode getLeftHandNode()
+    '''
 def setRightHandNode():
-'''public void setRightHandNode(final ParseNode rightChild)
-'''
-pass
+    '''    public void setRightHandNode(final ParseNode rightChild)
+    '''
 def getRightHandNode():
-'''public ParseNode getRightHandNode()
-'''
-pass
+    '''    public ParseNode getRightHandNode()
+    '''
 def setFirstPos():
-'''public void setFirstPos(final int firstPos)
-'''
-pass
+    '''    public void setFirstPos(final int firstPos)
+    '''
 def getFirstPos():
-'''public int getFirstPos()
-'''
-pass
+    '''    public int getFirstPos()
+    '''
 def setLastPos():
-'''public void setLastPos(final int lastPos)
-'''
-pass
+    '''    public void setLastPos(final int lastPos)
+    '''
 def setText():
-'''public void setText(final String text)
-'''
-pass
+    '''    public void setText(final String text)
+    '''
 def setTextFromPositions():
-'''public void setTextFromPositions(final String s)
-'''
-pass
+    '''    public void setTextFromPositions(final String s)
+    '''
 def setTextFromCurrent():
-'''public void setTextFromCurrent(final RuleCharReader ruleCharReader)
-'''
-pass
+    '''    public void setTextFromCurrent(final RuleCharReader ruleCharReader)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setValue():
-'''public void setValue(final int value)
-'''
-pass
+    '''    public void setValue(final int value)
+    '''
 def incValueFromDigit():
-'''public void incValueFromDigit(final RuleChar ruleChar)
-'''
-pass
+    '''    public void incValueFromDigit(final RuleChar ruleChar)
+    '''
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''

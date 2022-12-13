@@ -1,20 +1,15 @@
 def ImgLib():
-'''public ImgLib(final MboSet ms)
-'''
-pass
+    '''    public ImgLib(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def copyImageTo():
-'''public void copyImageTo(final MboRemote mboOwner)
-'''
-pass
+    '''    public void copyImageTo(final MboRemote mboOwner)
+    '''
 def saveImage():
-'''public void saveImage(final MboRemote img, final byte[] actionData)
-'''
-pass
+    '''    public void saveImage(final MboRemote img, final byte[] actionData)
+    '''

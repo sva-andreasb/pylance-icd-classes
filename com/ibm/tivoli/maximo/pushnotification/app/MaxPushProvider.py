@@ -1,4 +1,3 @@
 def MaxPushProvider():
-'''public MaxPushProvider(final MboSet ms)
-'''
-pass
+    '''    public MaxPushProvider(final MboSet ms)
+    '''

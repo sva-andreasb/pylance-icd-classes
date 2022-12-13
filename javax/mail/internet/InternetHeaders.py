@@ -1,54 +1,41 @@
 def InternetHeaders():
-'''public InternetHeaders()
-public InternetHeaders(final InputStream is)
-'''
-pass
+    '''    public InternetHeaders()
+    public InternetHeaders(final InputStream is)
+    '''
 def load():
-'''public void load(final InputStream is)
-'''
-pass
+    '''    public void load(final InputStream is)
+    '''
 def addHeaderLine():
-'''public void addHeaderLine(final String line)
-'''
-pass
+    '''    public void addHeaderLine(final String line)
+    '''
 def removeHeader():
-'''public void removeHeader(final String name)
-'''
-pass
+    '''    public void removeHeader(final String name)
+    '''
 def getAllHeaderLines():
-'''public Enumeration getAllHeaderLines()
-'''
-pass
+    '''    public Enumeration getAllHeaderLines()
+    '''
 def getAllHeaders():
-'''public Enumeration getAllHeaders()
-'''
-pass
+    '''    public Enumeration getAllHeaders()
+    '''
 def getHeader():
-'''public String[] getHeader(final String name)
-public String getHeader(final String name, final String delimiter)
-'''
-pass
+    '''    public String[] getHeader(final String name)
+    public String getHeader(final String name, final String delimiter)
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def setHeader():
-'''public void setHeader(final String name, final String value)
-'''
-pass
+    '''    public void setHeader(final String name, final String value)
+    '''
 def getMatchingHeaderLines():
-'''public Enumeration getMatchingHeaderLines(final String[] names)
-'''
-pass
+    '''    public Enumeration getMatchingHeaderLines(final String[] names)
+    '''
 def getMatchingHeaders():
-'''public Enumeration getMatchingHeaders(final String[] names)
-'''
-pass
+    '''    public Enumeration getMatchingHeaders(final String[] names)
+    '''
 def getNonMatchingHeaderLines():
-'''public Enumeration getNonMatchingHeaderLines(final String[] names)
-'''
-pass
+    '''    public Enumeration getNonMatchingHeaderLines(final String[] names)
+    '''
 def getNonMatchingHeaders():
-'''public Enumeration getNonMatchingHeaders(final String[] names)
-'''
-pass
+    '''    public Enumeration getNonMatchingHeaders(final String[] names)
+    '''

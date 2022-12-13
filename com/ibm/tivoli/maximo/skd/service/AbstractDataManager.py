@@ -1,36 +1,27 @@
 def AbstractDataManager():
-'''public AbstractDataManager()
-'''
-pass
+    '''    public AbstractDataManager()
+    '''
 def setDataManagerContext():
-'''public void setDataManagerContext(final DataManagerContext context)
-'''
-pass
+    '''    public void setDataManagerContext(final DataManagerContext context)
+    '''
 def getDataManagerContext():
-'''public DataManagerContext getDataManagerContext()
-'''
-pass
+    '''    public DataManagerContext getDataManagerContext()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getProjectMbo():
-'''public MboRemote getProjectMbo()
-'''
-pass
+    '''    public MboRemote getProjectMbo()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def getSKDDD():
-'''public SKDDD getSKDDD()
-'''
-pass
+    '''    public SKDDD getSKDDD()
+    '''

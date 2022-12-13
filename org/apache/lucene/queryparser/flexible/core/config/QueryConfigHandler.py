@@ -1,12 +1,9 @@
 def QueryConfigHandler():
-'''public QueryConfigHandler()
-'''
-pass
+    '''    public QueryConfigHandler()
+    '''
 def getFieldConfig():
-'''public FieldConfig getFieldConfig(final String fieldName)
-'''
-pass
+    '''    public FieldConfig getFieldConfig(final String fieldName)
+    '''
 def addFieldConfigListener():
-'''public void addFieldConfigListener(final FieldConfigListener listener)
-'''
-pass
+    '''    public void addFieldConfigListener(final FieldConfigListener listener)
+    '''

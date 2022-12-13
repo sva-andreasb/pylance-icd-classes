@@ -1,21 +1,16 @@
 def CalculationChain():
-'''public CalculationChain()
-public CalculationChain(final PackagePart part)
-'''
-pass
+    '''    public CalculationChain()
+    public CalculationChain(final PackagePart part)
+    '''
 def readFrom():
-'''public void readFrom(final InputStream is)
-'''
-pass
+    '''    public void readFrom(final InputStream is)
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''
 def getCTCalcChain():
-'''public CTCalcChain getCTCalcChain()
-'''
-pass
+    '''    public CTCalcChain getCTCalcChain()
+    '''
 def removeItem():
-'''public void removeItem(final int sheetId, final String ref)
-'''
-pass
+    '''    public void removeItem(final int sheetId, final String ref)
+    '''

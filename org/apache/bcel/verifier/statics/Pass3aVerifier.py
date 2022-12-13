@@ -1,136 +1,102 @@
 def Pass3aVerifier():
-'''public Pass3aVerifier(final Verifier owner, final int method_no)
-'''
-pass
+    '''    public Pass3aVerifier(final Verifier owner, final int method_no)
+    '''
 def do_verify():
-'''public VerificationResult do_verify()
-'''
-pass
+    '''    public VerificationResult do_verify()
+    '''
 def getMethodNo():
-'''public int getMethodNo()
-'''
-pass
+    '''    public int getMethodNo()
+    '''
 def visitLoadClass():
-'''public void visitLoadClass(final LoadClass o)
-'''
-pass
+    '''    public void visitLoadClass(final LoadClass o)
+    '''
 def visitLDC():
-'''public void visitLDC(final LDC o)
-'''
-pass
+    '''    public void visitLDC(final LDC o)
+    '''
 def visitLDC2_W():
-'''public void visitLDC2_W(final LDC2_W o)
-'''
-pass
+    '''    public void visitLDC2_W(final LDC2_W o)
+    '''
 def visitFieldInstruction():
-'''public void visitFieldInstruction(final FieldInstruction o)
-'''
-pass
+    '''    public void visitFieldInstruction(final FieldInstruction o)
+    '''
 def visitInvokeInstruction():
-'''public void visitInvokeInstruction(final InvokeInstruction o)
-'''
-pass
+    '''    public void visitInvokeInstruction(final InvokeInstruction o)
+    '''
 def visitINSTANCEOF():
-'''public void visitINSTANCEOF(final INSTANCEOF o)
-'''
-pass
+    '''    public void visitINSTANCEOF(final INSTANCEOF o)
+    '''
 def visitCHECKCAST():
-'''public void visitCHECKCAST(final CHECKCAST o)
-'''
-pass
+    '''    public void visitCHECKCAST(final CHECKCAST o)
+    '''
 def visitNEW():
-'''public void visitNEW(final NEW o)
-'''
-pass
+    '''    public void visitNEW(final NEW o)
+    '''
 def visitMULTIANEWARRAY():
-'''public void visitMULTIANEWARRAY(final MULTIANEWARRAY o)
-'''
-pass
+    '''    public void visitMULTIANEWARRAY(final MULTIANEWARRAY o)
+    '''
 def visitANEWARRAY():
-'''public void visitANEWARRAY(final ANEWARRAY o)
-'''
-pass
+    '''    public void visitANEWARRAY(final ANEWARRAY o)
+    '''
 def visitNEWARRAY():
-'''public void visitNEWARRAY(final NEWARRAY o)
-'''
-pass
+    '''    public void visitNEWARRAY(final NEWARRAY o)
+    '''
 def visitILOAD():
-'''public void visitILOAD(final ILOAD o)
-'''
-pass
+    '''    public void visitILOAD(final ILOAD o)
+    '''
 def visitFLOAD():
-'''public void visitFLOAD(final FLOAD o)
-'''
-pass
+    '''    public void visitFLOAD(final FLOAD o)
+    '''
 def visitALOAD():
-'''public void visitALOAD(final ALOAD o)
-'''
-pass
+    '''    public void visitALOAD(final ALOAD o)
+    '''
 def visitISTORE():
-'''public void visitISTORE(final ISTORE o)
-'''
-pass
+    '''    public void visitISTORE(final ISTORE o)
+    '''
 def visitFSTORE():
-'''public void visitFSTORE(final FSTORE o)
-'''
-pass
+    '''    public void visitFSTORE(final FSTORE o)
+    '''
 def visitASTORE():
-'''public void visitASTORE(final ASTORE o)
-'''
-pass
+    '''    public void visitASTORE(final ASTORE o)
+    '''
 def visitIINC():
-'''public void visitIINC(final IINC o)
-'''
-pass
+    '''    public void visitIINC(final IINC o)
+    '''
 def visitRET():
-'''public void visitRET(final RET o)
-'''
-pass
+    '''    public void visitRET(final RET o)
+    '''
 def visitLLOAD():
-'''public void visitLLOAD(final LLOAD o)
-'''
-pass
+    '''    public void visitLLOAD(final LLOAD o)
+    '''
 def visitDLOAD():
-'''public void visitDLOAD(final DLOAD o)
-'''
-pass
+    '''    public void visitDLOAD(final DLOAD o)
+    '''
 def visitLSTORE():
-'''public void visitLSTORE(final LSTORE o)
-'''
-pass
+    '''    public void visitLSTORE(final LSTORE o)
+    '''
 def visitDSTORE():
-'''public void visitDSTORE(final DSTORE o)
-'''
-pass
+    '''    public void visitDSTORE(final DSTORE o)
+    '''
 def visitLOOKUPSWITCH():
-'''public void visitLOOKUPSWITCH(final LOOKUPSWITCH o)
-'''
-pass
+    '''    public void visitLOOKUPSWITCH(final LOOKUPSWITCH o)
+    '''
 def visitTABLESWITCH():
-'''public void visitTABLESWITCH(final TABLESWITCH o)
-'''
-pass
+    '''    public void visitTABLESWITCH(final TABLESWITCH o)
+    '''
 def visitPUTSTATIC():
-'''public void visitPUTSTATIC(final PUTSTATIC o)
-'''
-pass
+    '''    public void visitPUTSTATIC(final PUTSTATIC o)
+    '''
 def visitGETSTATIC():
-'''public void visitGETSTATIC(final GETSTATIC o)
-'''
-pass
+    '''    public void visitGETSTATIC(final GETSTATIC o)
+    '''
 def visitINVOKEINTERFACE():
-'''public void visitINVOKEINTERFACE(final INVOKEINTERFACE o)
-'''
-pass
+    '''    public void visitINVOKEINTERFACE(final INVOKEINTERFACE o)
+    '''
 def visitINVOKESPECIAL():
-'''public void visitINVOKESPECIAL(final INVOKESPECIAL o)
-'''
-pass
+    '''    public void visitINVOKESPECIAL(final INVOKESPECIAL o)
+    '''
 def visitINVOKESTATIC():
-'''public void visitINVOKESTATIC(final INVOKESTATIC o)
-'''
-pass
+    '''    public void visitINVOKESTATIC(final INVOKESTATIC o)
+    '''
 def visitINVOKEVIRTUAL():
-'''public void visitINVOKEVIRTUAL(final INVOKEVIRTUAL o)
-'''
-pass
+    '''    public void visitINVOKEVIRTUAL(final INVOKEVIRTUAL o)
+    '''

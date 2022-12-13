@@ -1,21 +1,16 @@
 def ParameterFormatter():
-'''public ParameterFormatter()
-'''
-pass
+    '''    public ParameterFormatter()
+    '''
 def isAlwaysUseQuotes():
-'''public boolean isAlwaysUseQuotes()
-'''
-pass
+    '''    public boolean isAlwaysUseQuotes()
+    '''
 def setAlwaysUseQuotes():
-'''public void setAlwaysUseQuotes(final boolean alwaysUseQuotes)
-'''
-pass
+    '''    public void setAlwaysUseQuotes(final boolean alwaysUseQuotes)
+    '''
 def formatValue():
-'''public static void formatValue(final StringBuffer buffer, final String value, final boolean alwaysUseQuotes)
-'''
-pass
+    '''    public static void formatValue(final StringBuffer buffer, final String value, final boolean alwaysUseQuotes)
+    '''
 def format():
-'''public void format(final StringBuffer buffer, final NameValuePair param)
-public String format(final NameValuePair param)
-'''
-pass
+    '''    public void format(final StringBuffer buffer, final NameValuePair param)
+    public String format(final NameValuePair param)
+    '''

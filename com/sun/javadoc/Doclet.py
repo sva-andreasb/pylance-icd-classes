@@ -1,16 +1,12 @@
 def start():
-'''public static boolean start(final RootDoc rootDoc)
-'''
-pass
+    '''    public static boolean start(final RootDoc rootDoc)
+    '''
 def optionLength():
-'''public static int optionLength(final String s)
-'''
-pass
+    '''    public static int optionLength(final String s)
+    '''
 def validOptions():
-'''public static boolean validOptions(final String[][] array, final DocErrorReporter docErrorReporter)
-'''
-pass
+    '''    public static boolean validOptions(final String[][] array, final DocErrorReporter docErrorReporter)
+    '''
 def languageVersion():
-'''public static LanguageVersion languageVersion()
-'''
-pass
+    '''    public static LanguageVersion languageVersion()
+    '''

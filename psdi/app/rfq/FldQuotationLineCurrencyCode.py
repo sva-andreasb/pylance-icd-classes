@@ -1,8 +1,6 @@
 def FldQuotationLineCurrencyCode():
-'''public FldQuotationLineCurrencyCode(final MboValue mbv)
-'''
-pass
+    '''    public FldQuotationLineCurrencyCode(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

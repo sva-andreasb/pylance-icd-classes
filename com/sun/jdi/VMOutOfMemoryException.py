@@ -1,5 +1,4 @@
 def VMOutOfMemoryException():
-'''public VMOutOfMemoryException()
-public VMOutOfMemoryException(final String message)
-'''
-pass
+    '''    public VMOutOfMemoryException()
+    public VMOutOfMemoryException(final String message)
+    '''

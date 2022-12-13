@@ -1,8 +1,6 @@
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def getValue():
-'''public byte[] getValue()
-'''
-pass
+    '''    public byte[] getValue()
+    '''

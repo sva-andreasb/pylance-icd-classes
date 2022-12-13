@@ -1,32 +1,24 @@
 def AbstractHttpServerConnection():
-'''public AbstractHttpServerConnection()
-'''
-pass
+    '''    public AbstractHttpServerConnection()
+    '''
 def receiveRequestHeader():
-'''public HttpRequest receiveRequestHeader()
-'''
-pass
+    '''    public HttpRequest receiveRequestHeader()
+    '''
 def receiveRequestEntity():
-'''public void receiveRequestEntity(final HttpEntityEnclosingRequest request)
-'''
-pass
+    '''    public void receiveRequestEntity(final HttpEntityEnclosingRequest request)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def sendResponseHeader():
-'''public void sendResponseHeader(final HttpResponse response)
-'''
-pass
+    '''    public void sendResponseHeader(final HttpResponse response)
+    '''
 def sendResponseEntity():
-'''public void sendResponseEntity(final HttpResponse response)
-'''
-pass
+    '''    public void sendResponseEntity(final HttpResponse response)
+    '''
 def isStale():
-'''public boolean isStale()
-'''
-pass
+    '''    public boolean isStale()
+    '''
 def getMetrics():
-'''public HttpConnectionMetrics getMetrics()
-'''
-pass
+    '''    public HttpConnectionMetrics getMetrics()
+    '''

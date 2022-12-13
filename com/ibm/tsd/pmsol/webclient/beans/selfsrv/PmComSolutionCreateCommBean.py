@@ -1,6 +1,5 @@
-DEFAULTTEMPLATE = "String  PMSOLNTFY""
-TEMPLATEPROP = "String  mxe.app.solution.selfsrv.email.templateid""
+DEFAULTTEMPLATE = "String  \"PMSOLNTFY\""
+TEMPLATEPROP = "String  \"mxe.app.solution.selfsrv.email.templateid\""
 def setdefaulttemplateid():
-'''public int setdefaulttemplateid()
-'''
-pass
+    '''    public int setdefaulttemplateid()
+    '''

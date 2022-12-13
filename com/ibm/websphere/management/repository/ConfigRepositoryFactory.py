@@ -1,8 +1,6 @@
 def createConfigRepository():
-'''public static synchronized ConfigRepository createConfigRepository(final boolean enable)
-'''
-pass
+    '''    public static synchronized ConfigRepository createConfigRepository(final boolean enable)
+    '''
 def getConfigRepository():
-'''public static ConfigRepository getConfigRepository()
-'''
-pass
+    '''    public static ConfigRepository getConfigRepository()
+    '''

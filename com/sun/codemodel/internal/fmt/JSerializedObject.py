@@ -1,4 +1,3 @@
 def JSerializedObject():
-'''public JSerializedObject(final String name, final Object obj)
-'''
-pass
+    '''    public JSerializedObject(final String name, final Object obj)
+    '''

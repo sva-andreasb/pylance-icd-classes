@@ -1,14 +1,11 @@
-ELEMENT = "String  sharedgroup""
-NAMESPACE = "String  http://www.jivesoftware.org/protocol/sharedgroup""
+ELEMENT = "String  \"sharedgroup\""
+NAMESPACE = "String  \"http://www.jivesoftware.org/protocol/sharedgroup\""
 def SharedGroupsInfo():
-'''public SharedGroupsInfo()
-'''
-pass
+    '''    public SharedGroupsInfo()
+    '''
 def getGroups():
-'''public List<String> getGroups()
-'''
-pass
+    '''    public List<String> getGroups()
+    '''
 def parse():
-'''public SharedGroupsInfo parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public SharedGroupsInfo parse(final XmlPullParser parser, final int initialDepth)
+    '''

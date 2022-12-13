@@ -1,36 +1,27 @@
 def SerializedString():
-'''public SerializedString(final String v)
-'''
-pass
+    '''    public SerializedString(final String v)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def charLength():
-'''public final int charLength()
-'''
-pass
+    '''    public final int charLength()
+    '''
 def asQuotedChars():
-'''public final char[] asQuotedChars()
-'''
-pass
+    '''    public final char[] asQuotedChars()
+    '''
 def asUnquotedUTF8():
-'''public final byte[] asUnquotedUTF8()
-'''
-pass
+    '''    public final byte[] asUnquotedUTF8()
+    '''
 def asQuotedUTF8():
-'''public final byte[] asQuotedUTF8()
-'''
-pass
+    '''    public final byte[] asQuotedUTF8()
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def hashCode():
-'''public final int hashCode()
-'''
-pass
+    '''    public final int hashCode()
+    '''
 def equals():
-'''public final boolean equals(final Object o)
-'''
-pass
+    '''    public final boolean equals(final Object o)
+    '''

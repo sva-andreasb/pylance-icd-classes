@@ -1,4 +1,3 @@
 def setInspFormNum():
-'''public void setInspFormNum(final String inspformnum)
-'''
-pass
+    '''    public void setInspFormNum(final String inspformnum)
+    '''

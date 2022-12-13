@@ -1,36 +1,27 @@
 def getPartNumber():
-'''public int getPartNumber()
-'''
-pass
+    '''    public int getPartNumber()
+    '''
 def setPartNumber():
-'''public void setPartNumber(final int partNumber)
-'''
-pass
+    '''    public void setPartNumber(final int partNumber)
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String etag)
-'''
-pass
+    '''    public void setETag(final String etag)
+    '''
 def getPartETag():
-'''public PartETag getPartETag()
-'''
-pass
+    '''    public PartETag getPartETag()
+    '''
 def getLastModifiedDate():
-'''public Date getLastModifiedDate()
-'''
-pass
+    '''    public Date getLastModifiedDate()
+    '''
 def setLastModifiedDate():
-'''public void setLastModifiedDate(final Date lastModifiedDate)
-'''
-pass
+    '''    public void setLastModifiedDate(final Date lastModifiedDate)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''

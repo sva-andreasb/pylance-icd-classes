@@ -1,8 +1,6 @@
 def IMUL():
-'''public IMUL()
-'''
-pass
+    '''    public IMUL()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

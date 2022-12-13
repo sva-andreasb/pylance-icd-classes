@@ -1,20 +1,15 @@
 def FilteredIterator():
-'''public FilteredIterator()
-'''
-pass
+    '''    public FilteredIterator()
+    '''
 def set():
-'''public FilteredIterator set(final Iterator baseIterator)
-'''
-pass
+    '''    public FilteredIterator set(final Iterator baseIterator)
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''

@@ -1,20 +1,15 @@
 def ShipmentLine():
-'''public ShipmentLine(final MboSet ms)
-'''
-pass
+    '''    public ShipmentLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def createMatRecTrans():
-'''public void createMatRecTrans(final MboSetRemote matReceiptsSet)
-'''
-pass
+    '''    public void createMatRecTrans(final MboSetRemote matReceiptsSet)
+    '''

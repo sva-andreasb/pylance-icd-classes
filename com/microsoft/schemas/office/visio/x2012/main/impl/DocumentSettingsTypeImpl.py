@@ -1,364 +1,273 @@
 def DocumentSettingsTypeImpl():
-'''public DocumentSettingsTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public DocumentSettingsTypeImpl(final SchemaType schemaType)
+    '''
 def getGlueSettings():
-'''public GlueSettingsType getGlueSettings()
-'''
-pass
+    '''    public GlueSettingsType getGlueSettings()
+    '''
 def isSetGlueSettings():
-'''public boolean isSetGlueSettings()
-'''
-pass
+    '''    public boolean isSetGlueSettings()
+    '''
 def setGlueSettings():
-'''public void setGlueSettings(final GlueSettingsType glueSettingsType)
-'''
-pass
+    '''    public void setGlueSettings(final GlueSettingsType glueSettingsType)
+    '''
 def addNewGlueSettings():
-'''public GlueSettingsType addNewGlueSettings()
-'''
-pass
+    '''    public GlueSettingsType addNewGlueSettings()
+    '''
 def unsetGlueSettings():
-'''public void unsetGlueSettings()
-'''
-pass
+    '''    public void unsetGlueSettings()
+    '''
 def getSnapSettings():
-'''public SnapSettingsType getSnapSettings()
-'''
-pass
+    '''    public SnapSettingsType getSnapSettings()
+    '''
 def isSetSnapSettings():
-'''public boolean isSetSnapSettings()
-'''
-pass
+    '''    public boolean isSetSnapSettings()
+    '''
 def setSnapSettings():
-'''public void setSnapSettings(final SnapSettingsType snapSettingsType)
-'''
-pass
+    '''    public void setSnapSettings(final SnapSettingsType snapSettingsType)
+    '''
 def addNewSnapSettings():
-'''public SnapSettingsType addNewSnapSettings()
-'''
-pass
+    '''    public SnapSettingsType addNewSnapSettings()
+    '''
 def unsetSnapSettings():
-'''public void unsetSnapSettings()
-'''
-pass
+    '''    public void unsetSnapSettings()
+    '''
 def getSnapExtensions():
-'''public SnapExtensionsType getSnapExtensions()
-'''
-pass
+    '''    public SnapExtensionsType getSnapExtensions()
+    '''
 def isSetSnapExtensions():
-'''public boolean isSetSnapExtensions()
-'''
-pass
+    '''    public boolean isSetSnapExtensions()
+    '''
 def setSnapExtensions():
-'''public void setSnapExtensions(final SnapExtensionsType snapExtensionsType)
-'''
-pass
+    '''    public void setSnapExtensions(final SnapExtensionsType snapExtensionsType)
+    '''
 def addNewSnapExtensions():
-'''public SnapExtensionsType addNewSnapExtensions()
-'''
-pass
+    '''    public SnapExtensionsType addNewSnapExtensions()
+    '''
 def unsetSnapExtensions():
-'''public void unsetSnapExtensions()
-'''
-pass
+    '''    public void unsetSnapExtensions()
+    '''
 def getSnapAngles():
-'''public SnapAnglesType getSnapAngles()
-'''
-pass
+    '''    public SnapAnglesType getSnapAngles()
+    '''
 def isSetSnapAngles():
-'''public boolean isSetSnapAngles()
-'''
-pass
+    '''    public boolean isSetSnapAngles()
+    '''
 def setSnapAngles():
-'''public void setSnapAngles(final SnapAnglesType snapAnglesType)
-'''
-pass
+    '''    public void setSnapAngles(final SnapAnglesType snapAnglesType)
+    '''
 def addNewSnapAngles():
-'''public SnapAnglesType addNewSnapAngles()
-'''
-pass
+    '''    public SnapAnglesType addNewSnapAngles()
+    '''
 def unsetSnapAngles():
-'''public void unsetSnapAngles()
-'''
-pass
+    '''    public void unsetSnapAngles()
+    '''
 def getDynamicGridEnabled():
-'''public DynamicGridEnabledType getDynamicGridEnabled()
-'''
-pass
+    '''    public DynamicGridEnabledType getDynamicGridEnabled()
+    '''
 def isSetDynamicGridEnabled():
-'''public boolean isSetDynamicGridEnabled()
-'''
-pass
+    '''    public boolean isSetDynamicGridEnabled()
+    '''
 def setDynamicGridEnabled():
-'''public void setDynamicGridEnabled(final DynamicGridEnabledType dynamicGridEnabledType)
-'''
-pass
+    '''    public void setDynamicGridEnabled(final DynamicGridEnabledType dynamicGridEnabledType)
+    '''
 def addNewDynamicGridEnabled():
-'''public DynamicGridEnabledType addNewDynamicGridEnabled()
-'''
-pass
+    '''    public DynamicGridEnabledType addNewDynamicGridEnabled()
+    '''
 def unsetDynamicGridEnabled():
-'''public void unsetDynamicGridEnabled()
-'''
-pass
+    '''    public void unsetDynamicGridEnabled()
+    '''
 def getProtectStyles():
-'''public ProtectStylesType getProtectStyles()
-'''
-pass
+    '''    public ProtectStylesType getProtectStyles()
+    '''
 def isSetProtectStyles():
-'''public boolean isSetProtectStyles()
-'''
-pass
+    '''    public boolean isSetProtectStyles()
+    '''
 def setProtectStyles():
-'''public void setProtectStyles(final ProtectStylesType protectStylesType)
-'''
-pass
+    '''    public void setProtectStyles(final ProtectStylesType protectStylesType)
+    '''
 def addNewProtectStyles():
-'''public ProtectStylesType addNewProtectStyles()
-'''
-pass
+    '''    public ProtectStylesType addNewProtectStyles()
+    '''
 def unsetProtectStyles():
-'''public void unsetProtectStyles()
-'''
-pass
+    '''    public void unsetProtectStyles()
+    '''
 def getProtectShapes():
-'''public ProtectShapesType getProtectShapes()
-'''
-pass
+    '''    public ProtectShapesType getProtectShapes()
+    '''
 def isSetProtectShapes():
-'''public boolean isSetProtectShapes()
-'''
-pass
+    '''    public boolean isSetProtectShapes()
+    '''
 def setProtectShapes():
-'''public void setProtectShapes(final ProtectShapesType protectShapesType)
-'''
-pass
+    '''    public void setProtectShapes(final ProtectShapesType protectShapesType)
+    '''
 def addNewProtectShapes():
-'''public ProtectShapesType addNewProtectShapes()
-'''
-pass
+    '''    public ProtectShapesType addNewProtectShapes()
+    '''
 def unsetProtectShapes():
-'''public void unsetProtectShapes()
-'''
-pass
+    '''    public void unsetProtectShapes()
+    '''
 def getProtectMasters():
-'''public ProtectMastersType getProtectMasters()
-'''
-pass
+    '''    public ProtectMastersType getProtectMasters()
+    '''
 def isSetProtectMasters():
-'''public boolean isSetProtectMasters()
-'''
-pass
+    '''    public boolean isSetProtectMasters()
+    '''
 def setProtectMasters():
-'''public void setProtectMasters(final ProtectMastersType protectMastersType)
-'''
-pass
+    '''    public void setProtectMasters(final ProtectMastersType protectMastersType)
+    '''
 def addNewProtectMasters():
-'''public ProtectMastersType addNewProtectMasters()
-'''
-pass
+    '''    public ProtectMastersType addNewProtectMasters()
+    '''
 def unsetProtectMasters():
-'''public void unsetProtectMasters()
-'''
-pass
+    '''    public void unsetProtectMasters()
+    '''
 def getProtectBkgnds():
-'''public ProtectBkgndsType getProtectBkgnds()
-'''
-pass
+    '''    public ProtectBkgndsType getProtectBkgnds()
+    '''
 def isSetProtectBkgnds():
-'''public boolean isSetProtectBkgnds()
-'''
-pass
+    '''    public boolean isSetProtectBkgnds()
+    '''
 def setProtectBkgnds():
-'''public void setProtectBkgnds(final ProtectBkgndsType protectBkgndsType)
-'''
-pass
+    '''    public void setProtectBkgnds(final ProtectBkgndsType protectBkgndsType)
+    '''
 def addNewProtectBkgnds():
-'''public ProtectBkgndsType addNewProtectBkgnds()
-'''
-pass
+    '''    public ProtectBkgndsType addNewProtectBkgnds()
+    '''
 def unsetProtectBkgnds():
-'''public void unsetProtectBkgnds()
-'''
-pass
+    '''    public void unsetProtectBkgnds()
+    '''
 def getCustomMenusFile():
-'''public CustomMenusFileType getCustomMenusFile()
-'''
-pass
+    '''    public CustomMenusFileType getCustomMenusFile()
+    '''
 def isSetCustomMenusFile():
-'''public boolean isSetCustomMenusFile()
-'''
-pass
+    '''    public boolean isSetCustomMenusFile()
+    '''
 def setCustomMenusFile():
-'''public void setCustomMenusFile(final CustomMenusFileType customMenusFileType)
-'''
-pass
+    '''    public void setCustomMenusFile(final CustomMenusFileType customMenusFileType)
+    '''
 def addNewCustomMenusFile():
-'''public CustomMenusFileType addNewCustomMenusFile()
-'''
-pass
+    '''    public CustomMenusFileType addNewCustomMenusFile()
+    '''
 def unsetCustomMenusFile():
-'''public void unsetCustomMenusFile()
-'''
-pass
+    '''    public void unsetCustomMenusFile()
+    '''
 def getCustomToolbarsFile():
-'''public CustomToolbarsFileType getCustomToolbarsFile()
-'''
-pass
+    '''    public CustomToolbarsFileType getCustomToolbarsFile()
+    '''
 def isSetCustomToolbarsFile():
-'''public boolean isSetCustomToolbarsFile()
-'''
-pass
+    '''    public boolean isSetCustomToolbarsFile()
+    '''
 def setCustomToolbarsFile():
-'''public void setCustomToolbarsFile(final CustomToolbarsFileType customToolbarsFileType)
-'''
-pass
+    '''    public void setCustomToolbarsFile(final CustomToolbarsFileType customToolbarsFileType)
+    '''
 def addNewCustomToolbarsFile():
-'''public CustomToolbarsFileType addNewCustomToolbarsFile()
-'''
-pass
+    '''    public CustomToolbarsFileType addNewCustomToolbarsFile()
+    '''
 def unsetCustomToolbarsFile():
-'''public void unsetCustomToolbarsFile()
-'''
-pass
+    '''    public void unsetCustomToolbarsFile()
+    '''
 def getAttachedToolbars():
-'''public AttachedToolbarsType getAttachedToolbars()
-'''
-pass
+    '''    public AttachedToolbarsType getAttachedToolbars()
+    '''
 def isSetAttachedToolbars():
-'''public boolean isSetAttachedToolbars()
-'''
-pass
+    '''    public boolean isSetAttachedToolbars()
+    '''
 def setAttachedToolbars():
-'''public void setAttachedToolbars(final AttachedToolbarsType attachedToolbarsType)
-'''
-pass
+    '''    public void setAttachedToolbars(final AttachedToolbarsType attachedToolbarsType)
+    '''
 def addNewAttachedToolbars():
-'''public AttachedToolbarsType addNewAttachedToolbars()
-'''
-pass
+    '''    public AttachedToolbarsType addNewAttachedToolbars()
+    '''
 def unsetAttachedToolbars():
-'''public void unsetAttachedToolbars()
-'''
-pass
+    '''    public void unsetAttachedToolbars()
+    '''
 def getTopPage():
-'''public long getTopPage()
-'''
-pass
+    '''    public long getTopPage()
+    '''
 def xgetTopPage():
-'''public XmlUnsignedInt xgetTopPage()
-'''
-pass
+    '''    public XmlUnsignedInt xgetTopPage()
+    '''
 def isSetTopPage():
-'''public boolean isSetTopPage()
-'''
-pass
+    '''    public boolean isSetTopPage()
+    '''
 def setTopPage():
-'''public void setTopPage(final long longValue)
-'''
-pass
+    '''    public void setTopPage(final long longValue)
+    '''
 def xsetTopPage():
-'''public void xsetTopPage(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetTopPage(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetTopPage():
-'''public void unsetTopPage()
-'''
-pass
+    '''    public void unsetTopPage()
+    '''
 def getDefaultTextStyle():
-'''public long getDefaultTextStyle()
-'''
-pass
+    '''    public long getDefaultTextStyle()
+    '''
 def xgetDefaultTextStyle():
-'''public XmlUnsignedInt xgetDefaultTextStyle()
-'''
-pass
+    '''    public XmlUnsignedInt xgetDefaultTextStyle()
+    '''
 def isSetDefaultTextStyle():
-'''public boolean isSetDefaultTextStyle()
-'''
-pass
+    '''    public boolean isSetDefaultTextStyle()
+    '''
 def setDefaultTextStyle():
-'''public void setDefaultTextStyle(final long longValue)
-'''
-pass
+    '''    public void setDefaultTextStyle(final long longValue)
+    '''
 def xsetDefaultTextStyle():
-'''public void xsetDefaultTextStyle(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetDefaultTextStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetDefaultTextStyle():
-'''public void unsetDefaultTextStyle()
-'''
-pass
+    '''    public void unsetDefaultTextStyle()
+    '''
 def getDefaultLineStyle():
-'''public long getDefaultLineStyle()
-'''
-pass
+    '''    public long getDefaultLineStyle()
+    '''
 def xgetDefaultLineStyle():
-'''public XmlUnsignedInt xgetDefaultLineStyle()
-'''
-pass
+    '''    public XmlUnsignedInt xgetDefaultLineStyle()
+    '''
 def isSetDefaultLineStyle():
-'''public boolean isSetDefaultLineStyle()
-'''
-pass
+    '''    public boolean isSetDefaultLineStyle()
+    '''
 def setDefaultLineStyle():
-'''public void setDefaultLineStyle(final long longValue)
-'''
-pass
+    '''    public void setDefaultLineStyle(final long longValue)
+    '''
 def xsetDefaultLineStyle():
-'''public void xsetDefaultLineStyle(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetDefaultLineStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetDefaultLineStyle():
-'''public void unsetDefaultLineStyle()
-'''
-pass
+    '''    public void unsetDefaultLineStyle()
+    '''
 def getDefaultFillStyle():
-'''public long getDefaultFillStyle()
-'''
-pass
+    '''    public long getDefaultFillStyle()
+    '''
 def xgetDefaultFillStyle():
-'''public XmlUnsignedInt xgetDefaultFillStyle()
-'''
-pass
+    '''    public XmlUnsignedInt xgetDefaultFillStyle()
+    '''
 def isSetDefaultFillStyle():
-'''public boolean isSetDefaultFillStyle()
-'''
-pass
+    '''    public boolean isSetDefaultFillStyle()
+    '''
 def setDefaultFillStyle():
-'''public void setDefaultFillStyle(final long longValue)
-'''
-pass
+    '''    public void setDefaultFillStyle(final long longValue)
+    '''
 def xsetDefaultFillStyle():
-'''public void xsetDefaultFillStyle(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetDefaultFillStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetDefaultFillStyle():
-'''public void unsetDefaultFillStyle()
-'''
-pass
+    '''    public void unsetDefaultFillStyle()
+    '''
 def getDefaultGuideStyle():
-'''public long getDefaultGuideStyle()
-'''
-pass
+    '''    public long getDefaultGuideStyle()
+    '''
 def xgetDefaultGuideStyle():
-'''public XmlUnsignedInt xgetDefaultGuideStyle()
-'''
-pass
+    '''    public XmlUnsignedInt xgetDefaultGuideStyle()
+    '''
 def isSetDefaultGuideStyle():
-'''public boolean isSetDefaultGuideStyle()
-'''
-pass
+    '''    public boolean isSetDefaultGuideStyle()
+    '''
 def setDefaultGuideStyle():
-'''public void setDefaultGuideStyle(final long longValue)
-'''
-pass
+    '''    public void setDefaultGuideStyle(final long longValue)
+    '''
 def xsetDefaultGuideStyle():
-'''public void xsetDefaultGuideStyle(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetDefaultGuideStyle(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetDefaultGuideStyle():
-'''public void unsetDefaultGuideStyle()
-'''
-pass
+    '''    public void unsetDefaultGuideStyle()
+    '''

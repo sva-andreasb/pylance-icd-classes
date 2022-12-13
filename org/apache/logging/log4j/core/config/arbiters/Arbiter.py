@@ -1,1 +1,1 @@
-ELEMENT_TYPE = "String  Arbiter""
+ELEMENT_TYPE = "String  \"Arbiter\""

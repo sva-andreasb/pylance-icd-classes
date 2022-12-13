@@ -1,24 +1,18 @@
 def fileTest():
-'''public static void fileTest(final String dir, final Object[] errorParams)
-'''
-pass
+    '''    public static void fileTest(final String dir, final Object[] errorParams)
+    '''
 def getXMLTimestamp():
-'''public static String getXMLTimestamp()
-'''
-pass
+    '''    public static String getXMLTimestamp()
+    '''
 def closeRS():
-'''public static void closeRS(final ResultSet rs)
-'''
-pass
+    '''    public static void closeRS(final ResultSet rs)
+    '''
 def closeStmt():
-'''public static void closeStmt(final Statement stmt)
-'''
-pass
+    '''    public static void closeStmt(final Statement stmt)
+    '''
 def closeInputStream():
-'''public static void closeInputStream(final InputStream ins)
-'''
-pass
+    '''    public static void closeInputStream(final InputStream ins)
+    '''
 def closeBufferedReader():
-'''public static void closeBufferedReader(final BufferedReader br)
-'''
-pass
+    '''    public static void closeBufferedReader(final BufferedReader br)
+    '''

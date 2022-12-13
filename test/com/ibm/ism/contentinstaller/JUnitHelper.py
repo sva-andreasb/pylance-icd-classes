@@ -1,36 +1,27 @@
 def JUnitHelper():
-'''public JUnitHelper()
-'''
-pass
+    '''    public JUnitHelper()
+    '''
 def getResultFromDatabase():
-'''public static Object getResultFromDatabase(final String sql, final String columnName)
-'''
-pass
+    '''    public static Object getResultFromDatabase(final String sql, final String columnName)
+    '''
 def getValueFromXml():
-'''public String getValueFromXml(final String fileName, final String keyParam)
-'''
-pass
+    '''    public String getValueFromXml(final String fileName, final String keyParam)
+    '''
 def getAttributeFromXml():
-'''public String getAttributeFromXml(final String fileName, final String keyParam)
-'''
-pass
+    '''    public String getAttributeFromXml(final String fileName, final String keyParam)
+    '''
 def endDocument():
-'''public void endDocument()
-'''
-pass
+    '''    public void endDocument()
+    '''
 def characters():
-'''public void characters(final char[] chars, final int start, final int length)
-'''
-pass
+    '''    public void characters(final char[] chars, final int start, final int length)
+    '''
 def startElement():
-'''public void startElement(final String namespaceURL, final String localName, final String qName, final Attributes attributes)
-'''
-pass
+    '''    public void startElement(final String namespaceURL, final String localName, final String qName, final Attributes attributes)
+    '''
 def endElement():
-'''public void endElement(final String namespaceURL, final String localName, final String qName)
-'''
-pass
+    '''    public void endElement(final String namespaceURL, final String localName, final String qName)
+    '''
 def outputMessages():
-'''public static void outputMessages(final IProgressMonitor monitor, final RootTag rootTag)
-'''
-pass
+    '''    public static void outputMessages(final IProgressMonitor monitor, final RootTag rootTag)
+    '''

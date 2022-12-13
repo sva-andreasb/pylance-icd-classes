@@ -1,4 +1,3 @@
 def RBBIDataHeader():
-'''public RBBIDataHeader()
-'''
-pass
+    '''    public RBBIDataHeader()
+    '''

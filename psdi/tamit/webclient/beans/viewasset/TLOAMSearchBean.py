@@ -1,16 +1,12 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def searchasset():
-'''public int searchasset()
-'''
-pass
+    '''    public int searchasset()
+    '''
 def clearasset():
-'''public int clearasset()
-'''
-pass
+    '''    public int clearasset()
+    '''
 def returnAsset():
-'''public int returnAsset()
-'''
-pass
+    '''    public int returnAsset()
+    '''

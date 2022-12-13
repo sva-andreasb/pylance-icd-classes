@@ -1,4 +1,3 @@
 def ViewSecurityDetSet():
-'''public ViewSecurityDetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ViewSecurityDetSet(final MboServerInterface ms)
+    '''

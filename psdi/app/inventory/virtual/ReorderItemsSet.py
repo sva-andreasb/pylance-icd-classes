@@ -1,51 +1,39 @@
 def ReorderItemsSet():
-'''public ReorderItemsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReorderItemsSet(final MboServerInterface ms)
+    '''
 def setInventorySet():
-'''public void setInventorySet(final MboSetRemote inventorySet)
-'''
-pass
+    '''    public void setInventorySet(final MboSetRemote inventorySet)
+    '''
 def execute():
-'''public synchronized void execute()
-'''
-pass
+    '''    public synchronized void execute()
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def writeEmail():
-'''public void writeEmail()
-public void writeEmail(final Exception e)
-public void writeEmail(final Exception[] ex)
-'''
-pass
+    '''    public void writeEmail()
+    public void writeEmail(final Exception e)
+    public void writeEmail(final Exception[] ex)
+    '''
 def getReorderPreview():
-'''public synchronized ReorderSetRemote getReorderPreview()
-'''
-pass
+    '''    public synchronized ReorderSetRemote getReorderPreview()
+    '''
 def fromDirectIssue():
-'''public void fromDirectIssue()
-'''
-pass
+    '''    public void fromDirectIssue()
+    '''
 def getDirectIssue():
-'''public boolean getDirectIssue()
-'''
-pass
+    '''    public boolean getDirectIssue()
+    '''
 def ReorderThread():
-'''public ReorderThread()
-'''
-pass
+    '''    public ReorderThread()
+    '''
 def setPreviewReorder():
-'''public void setPreviewReorder(final boolean preview)
-'''
-pass
+    '''    public void setPreviewReorder(final boolean preview)
+    '''
 def setRunReorder():
-'''public void setRunReorder(final boolean runreorder)
-'''
-pass
+    '''    public void setRunReorder(final boolean runreorder)
+    '''
 def setagreementPO():
-'''public void setagreementPO(final boolean agreePO)
-'''
-pass
+    '''    public void setagreementPO(final boolean agreePO)
+    '''

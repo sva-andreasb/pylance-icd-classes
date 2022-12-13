@@ -1,720 +1,540 @@
 def visitStackInstruction():
-'''public void visitStackInstruction(final StackInstruction obj)
-'''
-pass
+    '''    public void visitStackInstruction(final StackInstruction obj)
+    '''
 def visitLocalVariableInstruction():
-'''public void visitLocalVariableInstruction(final LocalVariableInstruction obj)
-'''
-pass
+    '''    public void visitLocalVariableInstruction(final LocalVariableInstruction obj)
+    '''
 def visitBranchInstruction():
-'''public void visitBranchInstruction(final BranchInstruction obj)
-'''
-pass
+    '''    public void visitBranchInstruction(final BranchInstruction obj)
+    '''
 def visitLoadClass():
-'''public void visitLoadClass(final LoadClass obj)
-'''
-pass
+    '''    public void visitLoadClass(final LoadClass obj)
+    '''
 def visitFieldInstruction():
-'''public void visitFieldInstruction(final FieldInstruction obj)
-'''
-pass
+    '''    public void visitFieldInstruction(final FieldInstruction obj)
+    '''
 def visitIfInstruction():
-'''public void visitIfInstruction(final IfInstruction obj)
-'''
-pass
+    '''    public void visitIfInstruction(final IfInstruction obj)
+    '''
 def visitConversionInstruction():
-'''public void visitConversionInstruction(final ConversionInstruction obj)
-'''
-pass
+    '''    public void visitConversionInstruction(final ConversionInstruction obj)
+    '''
 def visitPopInstruction():
-'''public void visitPopInstruction(final PopInstruction obj)
-'''
-pass
+    '''    public void visitPopInstruction(final PopInstruction obj)
+    '''
 def visitJsrInstruction():
-'''public void visitJsrInstruction(final JsrInstruction obj)
-'''
-pass
+    '''    public void visitJsrInstruction(final JsrInstruction obj)
+    '''
 def visitGotoInstruction():
-'''public void visitGotoInstruction(final GotoInstruction obj)
-'''
-pass
+    '''    public void visitGotoInstruction(final GotoInstruction obj)
+    '''
 def visitStoreInstruction():
-'''public void visitStoreInstruction(final StoreInstruction obj)
-'''
-pass
+    '''    public void visitStoreInstruction(final StoreInstruction obj)
+    '''
 def visitTypedInstruction():
-'''public void visitTypedInstruction(final TypedInstruction obj)
-'''
-pass
+    '''    public void visitTypedInstruction(final TypedInstruction obj)
+    '''
 def visitSelect():
-'''public void visitSelect(final Select obj)
-'''
-pass
+    '''    public void visitSelect(final Select obj)
+    '''
 def visitUnconditionalBranch():
-'''public void visitUnconditionalBranch(final UnconditionalBranch obj)
-'''
-pass
+    '''    public void visitUnconditionalBranch(final UnconditionalBranch obj)
+    '''
 def visitPushInstruction():
-'''public void visitPushInstruction(final PushInstruction obj)
-'''
-pass
+    '''    public void visitPushInstruction(final PushInstruction obj)
+    '''
 def visitArithmeticInstruction():
-'''public void visitArithmeticInstruction(final ArithmeticInstruction obj)
-'''
-pass
+    '''    public void visitArithmeticInstruction(final ArithmeticInstruction obj)
+    '''
 def visitCPInstruction():
-'''public void visitCPInstruction(final CPInstruction obj)
-'''
-pass
+    '''    public void visitCPInstruction(final CPInstruction obj)
+    '''
 def visitInvokeInstruction():
-'''public void visitInvokeInstruction(final InvokeInstruction obj)
-'''
-pass
+    '''    public void visitInvokeInstruction(final InvokeInstruction obj)
+    '''
 def visitArrayInstruction():
-'''public void visitArrayInstruction(final ArrayInstruction obj)
-'''
-pass
+    '''    public void visitArrayInstruction(final ArrayInstruction obj)
+    '''
 def visitAllocationInstruction():
-'''public void visitAllocationInstruction(final AllocationInstruction obj)
-'''
-pass
+    '''    public void visitAllocationInstruction(final AllocationInstruction obj)
+    '''
 def visitReturnInstruction():
-'''public void visitReturnInstruction(final ReturnInstruction obj)
-'''
-pass
+    '''    public void visitReturnInstruction(final ReturnInstruction obj)
+    '''
 def visitFieldOrMethod():
-'''public void visitFieldOrMethod(final FieldOrMethod obj)
-'''
-pass
+    '''    public void visitFieldOrMethod(final FieldOrMethod obj)
+    '''
 def visitConstantPushInstruction():
-'''public void visitConstantPushInstruction(final ConstantPushInstruction obj)
-'''
-pass
+    '''    public void visitConstantPushInstruction(final ConstantPushInstruction obj)
+    '''
 def visitExceptionThrower():
-'''public void visitExceptionThrower(final ExceptionThrower obj)
-'''
-pass
+    '''    public void visitExceptionThrower(final ExceptionThrower obj)
+    '''
 def visitLoadInstruction():
-'''public void visitLoadInstruction(final LoadInstruction obj)
-'''
-pass
+    '''    public void visitLoadInstruction(final LoadInstruction obj)
+    '''
 def visitVariableLengthInstruction():
-'''public void visitVariableLengthInstruction(final VariableLengthInstruction obj)
-'''
-pass
+    '''    public void visitVariableLengthInstruction(final VariableLengthInstruction obj)
+    '''
 def visitStackProducer():
-'''public void visitStackProducer(final StackProducer obj)
-'''
-pass
+    '''    public void visitStackProducer(final StackProducer obj)
+    '''
 def visitStackConsumer():
-'''public void visitStackConsumer(final StackConsumer obj)
-'''
-pass
+    '''    public void visitStackConsumer(final StackConsumer obj)
+    '''
 def visitACONST_NULL():
-'''public void visitACONST_NULL(final ACONST_NULL obj)
-'''
-pass
+    '''    public void visitACONST_NULL(final ACONST_NULL obj)
+    '''
 def visitGETSTATIC():
-'''public void visitGETSTATIC(final GETSTATIC obj)
-'''
-pass
+    '''    public void visitGETSTATIC(final GETSTATIC obj)
+    '''
 def visitIF_ICMPLT():
-'''public void visitIF_ICMPLT(final IF_ICMPLT obj)
-'''
-pass
+    '''    public void visitIF_ICMPLT(final IF_ICMPLT obj)
+    '''
 def visitMONITOREXIT():
-'''public void visitMONITOREXIT(final MONITOREXIT obj)
-'''
-pass
+    '''    public void visitMONITOREXIT(final MONITOREXIT obj)
+    '''
 def visitIFLT():
-'''public void visitIFLT(final IFLT obj)
-'''
-pass
+    '''    public void visitIFLT(final IFLT obj)
+    '''
 def visitLSTORE():
-'''public void visitLSTORE(final LSTORE obj)
-'''
-pass
+    '''    public void visitLSTORE(final LSTORE obj)
+    '''
 def visitPOP2():
-'''public void visitPOP2(final POP2 obj)
-'''
-pass
+    '''    public void visitPOP2(final POP2 obj)
+    '''
 def visitBASTORE():
-'''public void visitBASTORE(final BASTORE obj)
-'''
-pass
+    '''    public void visitBASTORE(final BASTORE obj)
+    '''
 def visitISTORE():
-'''public void visitISTORE(final ISTORE obj)
-'''
-pass
+    '''    public void visitISTORE(final ISTORE obj)
+    '''
 def visitCHECKCAST():
-'''public void visitCHECKCAST(final CHECKCAST obj)
-'''
-pass
+    '''    public void visitCHECKCAST(final CHECKCAST obj)
+    '''
 def visitFCMPG():
-'''public void visitFCMPG(final FCMPG obj)
-'''
-pass
+    '''    public void visitFCMPG(final FCMPG obj)
+    '''
 def visitI2F():
-'''public void visitI2F(final I2F obj)
-'''
-pass
+    '''    public void visitI2F(final I2F obj)
+    '''
 def visitATHROW():
-'''public void visitATHROW(final ATHROW obj)
-'''
-pass
+    '''    public void visitATHROW(final ATHROW obj)
+    '''
 def visitDCMPL():
-'''public void visitDCMPL(final DCMPL obj)
-'''
-pass
+    '''    public void visitDCMPL(final DCMPL obj)
+    '''
 def visitARRAYLENGTH():
-'''public void visitARRAYLENGTH(final ARRAYLENGTH obj)
-'''
-pass
+    '''    public void visitARRAYLENGTH(final ARRAYLENGTH obj)
+    '''
 def visitDUP():
-'''public void visitDUP(final DUP obj)
-'''
-pass
+    '''    public void visitDUP(final DUP obj)
+    '''
 def visitINVOKESTATIC():
-'''public void visitINVOKESTATIC(final INVOKESTATIC obj)
-'''
-pass
+    '''    public void visitINVOKESTATIC(final INVOKESTATIC obj)
+    '''
 def visitLCONST():
-'''public void visitLCONST(final LCONST obj)
-'''
-pass
+    '''    public void visitLCONST(final LCONST obj)
+    '''
 def visitDREM():
-'''public void visitDREM(final DREM obj)
-'''
-pass
+    '''    public void visitDREM(final DREM obj)
+    '''
 def visitIFGE():
-'''public void visitIFGE(final IFGE obj)
-'''
-pass
+    '''    public void visitIFGE(final IFGE obj)
+    '''
 def visitCALOAD():
-'''public void visitCALOAD(final CALOAD obj)
-'''
-pass
+    '''    public void visitCALOAD(final CALOAD obj)
+    '''
 def visitLASTORE():
-'''public void visitLASTORE(final LASTORE obj)
-'''
-pass
+    '''    public void visitLASTORE(final LASTORE obj)
+    '''
 def visitI2D():
-'''public void visitI2D(final I2D obj)
-'''
-pass
+    '''    public void visitI2D(final I2D obj)
+    '''
 def visitDADD():
-'''public void visitDADD(final DADD obj)
-'''
-pass
+    '''    public void visitDADD(final DADD obj)
+    '''
 def visitINVOKESPECIAL():
-'''public void visitINVOKESPECIAL(final INVOKESPECIAL obj)
-'''
-pass
+    '''    public void visitINVOKESPECIAL(final INVOKESPECIAL obj)
+    '''
 def visitIAND():
-'''public void visitIAND(final IAND obj)
-'''
-pass
+    '''    public void visitIAND(final IAND obj)
+    '''
 def visitPUTFIELD():
-'''public void visitPUTFIELD(final PUTFIELD obj)
-'''
-pass
+    '''    public void visitPUTFIELD(final PUTFIELD obj)
+    '''
 def visitILOAD():
-'''public void visitILOAD(final ILOAD obj)
-'''
-pass
+    '''    public void visitILOAD(final ILOAD obj)
+    '''
 def visitDLOAD():
-'''public void visitDLOAD(final DLOAD obj)
-'''
-pass
+    '''    public void visitDLOAD(final DLOAD obj)
+    '''
 def visitDCONST():
-'''public void visitDCONST(final DCONST obj)
-'''
-pass
+    '''    public void visitDCONST(final DCONST obj)
+    '''
 def visitNEW():
-'''public void visitNEW(final NEW obj)
-'''
-pass
+    '''    public void visitNEW(final NEW obj)
+    '''
 def visitIFNULL():
-'''public void visitIFNULL(final IFNULL obj)
-'''
-pass
+    '''    public void visitIFNULL(final IFNULL obj)
+    '''
 def visitLSUB():
-'''public void visitLSUB(final LSUB obj)
-'''
-pass
+    '''    public void visitLSUB(final LSUB obj)
+    '''
 def visitL2I():
-'''public void visitL2I(final L2I obj)
-'''
-pass
+    '''    public void visitL2I(final L2I obj)
+    '''
 def visitISHR():
-'''public void visitISHR(final ISHR obj)
-'''
-pass
+    '''    public void visitISHR(final ISHR obj)
+    '''
 def visitTABLESWITCH():
-'''public void visitTABLESWITCH(final TABLESWITCH obj)
-'''
-pass
+    '''    public void visitTABLESWITCH(final TABLESWITCH obj)
+    '''
 def visitIINC():
-'''public void visitIINC(final IINC obj)
-'''
-pass
+    '''    public void visitIINC(final IINC obj)
+    '''
 def visitDRETURN():
-'''public void visitDRETURN(final DRETURN obj)
-'''
-pass
+    '''    public void visitDRETURN(final DRETURN obj)
+    '''
 def visitFSTORE():
-'''public void visitFSTORE(final FSTORE obj)
-'''
-pass
+    '''    public void visitFSTORE(final FSTORE obj)
+    '''
 def visitDASTORE():
-'''public void visitDASTORE(final DASTORE obj)
-'''
-pass
+    '''    public void visitDASTORE(final DASTORE obj)
+    '''
 def visitIALOAD():
-'''public void visitIALOAD(final IALOAD obj)
-'''
-pass
+    '''    public void visitIALOAD(final IALOAD obj)
+    '''
 def visitDDIV():
-'''public void visitDDIV(final DDIV obj)
-'''
-pass
+    '''    public void visitDDIV(final DDIV obj)
+    '''
 def visitIF_ICMPGE():
-'''public void visitIF_ICMPGE(final IF_ICMPGE obj)
-'''
-pass
+    '''    public void visitIF_ICMPGE(final IF_ICMPGE obj)
+    '''
 def visitLAND():
-'''public void visitLAND(final LAND obj)
-'''
-pass
+    '''    public void visitLAND(final LAND obj)
+    '''
 def visitIDIV():
-'''public void visitIDIV(final IDIV obj)
-'''
-pass
+    '''    public void visitIDIV(final IDIV obj)
+    '''
 def visitLOR():
-'''public void visitLOR(final LOR obj)
-'''
-pass
+    '''    public void visitLOR(final LOR obj)
+    '''
 def visitCASTORE():
-'''public void visitCASTORE(final CASTORE obj)
-'''
-pass
+    '''    public void visitCASTORE(final CASTORE obj)
+    '''
 def visitFREM():
-'''public void visitFREM(final FREM obj)
-'''
-pass
+    '''    public void visitFREM(final FREM obj)
+    '''
 def visitLDC():
-'''public void visitLDC(final LDC obj)
-'''
-pass
+    '''    public void visitLDC(final LDC obj)
+    '''
 def visitBIPUSH():
-'''public void visitBIPUSH(final BIPUSH obj)
-'''
-pass
+    '''    public void visitBIPUSH(final BIPUSH obj)
+    '''
 def visitDSTORE():
-'''public void visitDSTORE(final DSTORE obj)
-'''
-pass
+    '''    public void visitDSTORE(final DSTORE obj)
+    '''
 def visitF2L():
-'''public void visitF2L(final F2L obj)
-'''
-pass
+    '''    public void visitF2L(final F2L obj)
+    '''
 def visitFMUL():
-'''public void visitFMUL(final FMUL obj)
-'''
-pass
+    '''    public void visitFMUL(final FMUL obj)
+    '''
 def visitLLOAD():
-'''public void visitLLOAD(final LLOAD obj)
-'''
-pass
+    '''    public void visitLLOAD(final LLOAD obj)
+    '''
 def visitJSR():
-'''public void visitJSR(final JSR obj)
-'''
-pass
+    '''    public void visitJSR(final JSR obj)
+    '''
 def visitFSUB():
-'''public void visitFSUB(final FSUB obj)
-'''
-pass
+    '''    public void visitFSUB(final FSUB obj)
+    '''
 def visitSASTORE():
-'''public void visitSASTORE(final SASTORE obj)
-'''
-pass
+    '''    public void visitSASTORE(final SASTORE obj)
+    '''
 def visitALOAD():
-'''public void visitALOAD(final ALOAD obj)
-'''
-pass
+    '''    public void visitALOAD(final ALOAD obj)
+    '''
 def visitDUP2_X2():
-'''public void visitDUP2_X2(final DUP2_X2 obj)
-'''
-pass
+    '''    public void visitDUP2_X2(final DUP2_X2 obj)
+    '''
 def visitRETURN():
-'''public void visitRETURN(final RETURN obj)
-'''
-pass
+    '''    public void visitRETURN(final RETURN obj)
+    '''
 def visitDALOAD():
-'''public void visitDALOAD(final DALOAD obj)
-'''
-pass
+    '''    public void visitDALOAD(final DALOAD obj)
+    '''
 def visitSIPUSH():
-'''public void visitSIPUSH(final SIPUSH obj)
-'''
-pass
+    '''    public void visitSIPUSH(final SIPUSH obj)
+    '''
 def visitDSUB():
-'''public void visitDSUB(final DSUB obj)
-'''
-pass
+    '''    public void visitDSUB(final DSUB obj)
+    '''
 def visitL2F():
-'''public void visitL2F(final L2F obj)
-'''
-pass
+    '''    public void visitL2F(final L2F obj)
+    '''
 def visitIF_ICMPGT():
-'''public void visitIF_ICMPGT(final IF_ICMPGT obj)
-'''
-pass
+    '''    public void visitIF_ICMPGT(final IF_ICMPGT obj)
+    '''
 def visitF2D():
-'''public void visitF2D(final F2D obj)
-'''
-pass
+    '''    public void visitF2D(final F2D obj)
+    '''
 def visitI2L():
-'''public void visitI2L(final I2L obj)
-'''
-pass
+    '''    public void visitI2L(final I2L obj)
+    '''
 def visitIF_ACMPNE():
-'''public void visitIF_ACMPNE(final IF_ACMPNE obj)
-'''
-pass
+    '''    public void visitIF_ACMPNE(final IF_ACMPNE obj)
+    '''
 def visitPOP():
-'''public void visitPOP(final POP obj)
-'''
-pass
+    '''    public void visitPOP(final POP obj)
+    '''
 def visitI2S():
-'''public void visitI2S(final I2S obj)
-'''
-pass
+    '''    public void visitI2S(final I2S obj)
+    '''
 def visitIFEQ():
-'''public void visitIFEQ(final IFEQ obj)
-'''
-pass
+    '''    public void visitIFEQ(final IFEQ obj)
+    '''
 def visitSWAP():
-'''public void visitSWAP(final SWAP obj)
-'''
-pass
+    '''    public void visitSWAP(final SWAP obj)
+    '''
 def visitIOR():
-'''public void visitIOR(final IOR obj)
-'''
-pass
+    '''    public void visitIOR(final IOR obj)
+    '''
 def visitIREM():
-'''public void visitIREM(final IREM obj)
-'''
-pass
+    '''    public void visitIREM(final IREM obj)
+    '''
 def visitIASTORE():
-'''public void visitIASTORE(final IASTORE obj)
-'''
-pass
+    '''    public void visitIASTORE(final IASTORE obj)
+    '''
 def visitNEWARRAY():
-'''public void visitNEWARRAY(final NEWARRAY obj)
-'''
-pass
+    '''    public void visitNEWARRAY(final NEWARRAY obj)
+    '''
 def visitINVOKEINTERFACE():
-'''public void visitINVOKEINTERFACE(final INVOKEINTERFACE obj)
-'''
-pass
+    '''    public void visitINVOKEINTERFACE(final INVOKEINTERFACE obj)
+    '''
 def visitINEG():
-'''public void visitINEG(final INEG obj)
-'''
-pass
+    '''    public void visitINEG(final INEG obj)
+    '''
 def visitLCMP():
-'''public void visitLCMP(final LCMP obj)
-'''
-pass
+    '''    public void visitLCMP(final LCMP obj)
+    '''
 def visitJSR_W():
-'''public void visitJSR_W(final JSR_W obj)
-'''
-pass
+    '''    public void visitJSR_W(final JSR_W obj)
+    '''
 def visitMULTIANEWARRAY():
-'''public void visitMULTIANEWARRAY(final MULTIANEWARRAY obj)
-'''
-pass
+    '''    public void visitMULTIANEWARRAY(final MULTIANEWARRAY obj)
+    '''
 def visitDUP_X2():
-'''public void visitDUP_X2(final DUP_X2 obj)
-'''
-pass
+    '''    public void visitDUP_X2(final DUP_X2 obj)
+    '''
 def visitSALOAD():
-'''public void visitSALOAD(final SALOAD obj)
-'''
-pass
+    '''    public void visitSALOAD(final SALOAD obj)
+    '''
 def visitIFNONNULL():
-'''public void visitIFNONNULL(final IFNONNULL obj)
-'''
-pass
+    '''    public void visitIFNONNULL(final IFNONNULL obj)
+    '''
 def visitDMUL():
-'''public void visitDMUL(final DMUL obj)
-'''
-pass
+    '''    public void visitDMUL(final DMUL obj)
+    '''
 def visitIFNE():
-'''public void visitIFNE(final IFNE obj)
-'''
-pass
+    '''    public void visitIFNE(final IFNE obj)
+    '''
 def visitIF_ICMPLE():
-'''public void visitIF_ICMPLE(final IF_ICMPLE obj)
-'''
-pass
+    '''    public void visitIF_ICMPLE(final IF_ICMPLE obj)
+    '''
 def visitLDC2_W():
-'''public void visitLDC2_W(final LDC2_W obj)
-'''
-pass
+    '''    public void visitLDC2_W(final LDC2_W obj)
+    '''
 def visitGETFIELD():
-'''public void visitGETFIELD(final GETFIELD obj)
-'''
-pass
+    '''    public void visitGETFIELD(final GETFIELD obj)
+    '''
 def visitLADD():
-'''public void visitLADD(final LADD obj)
-'''
-pass
+    '''    public void visitLADD(final LADD obj)
+    '''
 def visitNOP():
-'''public void visitNOP(final NOP obj)
-'''
-pass
+    '''    public void visitNOP(final NOP obj)
+    '''
 def visitFALOAD():
-'''public void visitFALOAD(final FALOAD obj)
-'''
-pass
+    '''    public void visitFALOAD(final FALOAD obj)
+    '''
 def visitINSTANCEOF():
-'''public void visitINSTANCEOF(final INSTANCEOF obj)
-'''
-pass
+    '''    public void visitINSTANCEOF(final INSTANCEOF obj)
+    '''
 def visitIFLE():
-'''public void visitIFLE(final IFLE obj)
-'''
-pass
+    '''    public void visitIFLE(final IFLE obj)
+    '''
 def visitLXOR():
-'''public void visitLXOR(final LXOR obj)
-'''
-pass
+    '''    public void visitLXOR(final LXOR obj)
+    '''
 def visitLRETURN():
-'''public void visitLRETURN(final LRETURN obj)
-'''
-pass
+    '''    public void visitLRETURN(final LRETURN obj)
+    '''
 def visitFCONST():
-'''public void visitFCONST(final FCONST obj)
-'''
-pass
+    '''    public void visitFCONST(final FCONST obj)
+    '''
 def visitIUSHR():
-'''public void visitIUSHR(final IUSHR obj)
-'''
-pass
+    '''    public void visitIUSHR(final IUSHR obj)
+    '''
 def visitBALOAD():
-'''public void visitBALOAD(final BALOAD obj)
-'''
-pass
+    '''    public void visitBALOAD(final BALOAD obj)
+    '''
 def visitDUP2():
-'''public void visitDUP2(final DUP2 obj)
-'''
-pass
+    '''    public void visitDUP2(final DUP2 obj)
+    '''
 def visitIF_ACMPEQ():
-'''public void visitIF_ACMPEQ(final IF_ACMPEQ obj)
-'''
-pass
+    '''    public void visitIF_ACMPEQ(final IF_ACMPEQ obj)
+    '''
 def visitIMPDEP1():
-'''public void visitIMPDEP1(final IMPDEP1 obj)
-'''
-pass
+    '''    public void visitIMPDEP1(final IMPDEP1 obj)
+    '''
 def visitMONITORENTER():
-'''public void visitMONITORENTER(final MONITORENTER obj)
-'''
-pass
+    '''    public void visitMONITORENTER(final MONITORENTER obj)
+    '''
 def visitLSHL():
-'''public void visitLSHL(final LSHL obj)
-'''
-pass
+    '''    public void visitLSHL(final LSHL obj)
+    '''
 def visitDCMPG():
-'''public void visitDCMPG(final DCMPG obj)
-'''
-pass
+    '''    public void visitDCMPG(final DCMPG obj)
+    '''
 def visitD2L():
-'''public void visitD2L(final D2L obj)
-'''
-pass
+    '''    public void visitD2L(final D2L obj)
+    '''
 def visitIMPDEP2():
-'''public void visitIMPDEP2(final IMPDEP2 obj)
-'''
-pass
+    '''    public void visitIMPDEP2(final IMPDEP2 obj)
+    '''
 def visitL2D():
-'''public void visitL2D(final L2D obj)
-'''
-pass
+    '''    public void visitL2D(final L2D obj)
+    '''
 def visitRET():
-'''public void visitRET(final RET obj)
-'''
-pass
+    '''    public void visitRET(final RET obj)
+    '''
 def visitIFGT():
-'''public void visitIFGT(final IFGT obj)
-'''
-pass
+    '''    public void visitIFGT(final IFGT obj)
+    '''
 def visitIXOR():
-'''public void visitIXOR(final IXOR obj)
-'''
-pass
+    '''    public void visitIXOR(final IXOR obj)
+    '''
 def visitINVOKEVIRTUAL():
-'''public void visitINVOKEVIRTUAL(final INVOKEVIRTUAL obj)
-'''
-pass
+    '''    public void visitINVOKEVIRTUAL(final INVOKEVIRTUAL obj)
+    '''
 def visitFASTORE():
-'''public void visitFASTORE(final FASTORE obj)
-'''
-pass
+    '''    public void visitFASTORE(final FASTORE obj)
+    '''
 def visitIRETURN():
-'''public void visitIRETURN(final IRETURN obj)
-'''
-pass
+    '''    public void visitIRETURN(final IRETURN obj)
+    '''
 def visitIF_ICMPNE():
-'''public void visitIF_ICMPNE(final IF_ICMPNE obj)
-'''
-pass
+    '''    public void visitIF_ICMPNE(final IF_ICMPNE obj)
+    '''
 def visitFLOAD():
-'''public void visitFLOAD(final FLOAD obj)
-'''
-pass
+    '''    public void visitFLOAD(final FLOAD obj)
+    '''
 def visitLDIV():
-'''public void visitLDIV(final LDIV obj)
-'''
-pass
+    '''    public void visitLDIV(final LDIV obj)
+    '''
 def visitPUTSTATIC():
-'''public void visitPUTSTATIC(final PUTSTATIC obj)
-'''
-pass
+    '''    public void visitPUTSTATIC(final PUTSTATIC obj)
+    '''
 def visitAALOAD():
-'''public void visitAALOAD(final AALOAD obj)
-'''
-pass
+    '''    public void visitAALOAD(final AALOAD obj)
+    '''
 def visitD2I():
-'''public void visitD2I(final D2I obj)
-'''
-pass
+    '''    public void visitD2I(final D2I obj)
+    '''
 def visitIF_ICMPEQ():
-'''public void visitIF_ICMPEQ(final IF_ICMPEQ obj)
-'''
-pass
+    '''    public void visitIF_ICMPEQ(final IF_ICMPEQ obj)
+    '''
 def visitAASTORE():
-'''public void visitAASTORE(final AASTORE obj)
-'''
-pass
+    '''    public void visitAASTORE(final AASTORE obj)
+    '''
 def visitARETURN():
-'''public void visitARETURN(final ARETURN obj)
-'''
-pass
+    '''    public void visitARETURN(final ARETURN obj)
+    '''
 def visitDUP2_X1():
-'''public void visitDUP2_X1(final DUP2_X1 obj)
-'''
-pass
+    '''    public void visitDUP2_X1(final DUP2_X1 obj)
+    '''
 def visitFNEG():
-'''public void visitFNEG(final FNEG obj)
-'''
-pass
+    '''    public void visitFNEG(final FNEG obj)
+    '''
 def visitGOTO_W():
-'''public void visitGOTO_W(final GOTO_W obj)
-'''
-pass
+    '''    public void visitGOTO_W(final GOTO_W obj)
+    '''
 def visitD2F():
-'''public void visitD2F(final D2F obj)
-'''
-pass
+    '''    public void visitD2F(final D2F obj)
+    '''
 def visitGOTO():
-'''public void visitGOTO(final GOTO obj)
-'''
-pass
+    '''    public void visitGOTO(final GOTO obj)
+    '''
 def visitISUB():
-'''public void visitISUB(final ISUB obj)
-'''
-pass
+    '''    public void visitISUB(final ISUB obj)
+    '''
 def visitF2I():
-'''public void visitF2I(final F2I obj)
-'''
-pass
+    '''    public void visitF2I(final F2I obj)
+    '''
 def visitDNEG():
-'''public void visitDNEG(final DNEG obj)
-'''
-pass
+    '''    public void visitDNEG(final DNEG obj)
+    '''
 def visitICONST():
-'''public void visitICONST(final ICONST obj)
-'''
-pass
+    '''    public void visitICONST(final ICONST obj)
+    '''
 def visitFDIV():
-'''public void visitFDIV(final FDIV obj)
-'''
-pass
+    '''    public void visitFDIV(final FDIV obj)
+    '''
 def visitI2B():
-'''public void visitI2B(final I2B obj)
-'''
-pass
+    '''    public void visitI2B(final I2B obj)
+    '''
 def visitLNEG():
-'''public void visitLNEG(final LNEG obj)
-'''
-pass
+    '''    public void visitLNEG(final LNEG obj)
+    '''
 def visitLREM():
-'''public void visitLREM(final LREM obj)
-'''
-pass
+    '''    public void visitLREM(final LREM obj)
+    '''
 def visitIMUL():
-'''public void visitIMUL(final IMUL obj)
-'''
-pass
+    '''    public void visitIMUL(final IMUL obj)
+    '''
 def visitIADD():
-'''public void visitIADD(final IADD obj)
-'''
-pass
+    '''    public void visitIADD(final IADD obj)
+    '''
 def visitLSHR():
-'''public void visitLSHR(final LSHR obj)
-'''
-pass
+    '''    public void visitLSHR(final LSHR obj)
+    '''
 def visitLOOKUPSWITCH():
-'''public void visitLOOKUPSWITCH(final LOOKUPSWITCH obj)
-'''
-pass
+    '''    public void visitLOOKUPSWITCH(final LOOKUPSWITCH obj)
+    '''
 def visitDUP_X1():
-'''public void visitDUP_X1(final DUP_X1 obj)
-'''
-pass
+    '''    public void visitDUP_X1(final DUP_X1 obj)
+    '''
 def visitFCMPL():
-'''public void visitFCMPL(final FCMPL obj)
-'''
-pass
+    '''    public void visitFCMPL(final FCMPL obj)
+    '''
 def visitI2C():
-'''public void visitI2C(final I2C obj)
-'''
-pass
+    '''    public void visitI2C(final I2C obj)
+    '''
 def visitLMUL():
-'''public void visitLMUL(final LMUL obj)
-'''
-pass
+    '''    public void visitLMUL(final LMUL obj)
+    '''
 def visitLUSHR():
-'''public void visitLUSHR(final LUSHR obj)
-'''
-pass
+    '''    public void visitLUSHR(final LUSHR obj)
+    '''
 def visitISHL():
-'''public void visitISHL(final ISHL obj)
-'''
-pass
+    '''    public void visitISHL(final ISHL obj)
+    '''
 def visitLALOAD():
-'''public void visitLALOAD(final LALOAD obj)
-'''
-pass
+    '''    public void visitLALOAD(final LALOAD obj)
+    '''
 def visitASTORE():
-'''public void visitASTORE(final ASTORE obj)
-'''
-pass
+    '''    public void visitASTORE(final ASTORE obj)
+    '''
 def visitANEWARRAY():
-'''public void visitANEWARRAY(final ANEWARRAY obj)
-'''
-pass
+    '''    public void visitANEWARRAY(final ANEWARRAY obj)
+    '''
 def visitFRETURN():
-'''public void visitFRETURN(final FRETURN obj)
-'''
-pass
+    '''    public void visitFRETURN(final FRETURN obj)
+    '''
 def visitFADD():
-'''public void visitFADD(final FADD obj)
-'''
-pass
+    '''    public void visitFADD(final FADD obj)
+    '''
 def visitBREAKPOINT():
-'''public void visitBREAKPOINT(final BREAKPOINT obj)
-'''
-pass
+    '''    public void visitBREAKPOINT(final BREAKPOINT obj)
+    '''

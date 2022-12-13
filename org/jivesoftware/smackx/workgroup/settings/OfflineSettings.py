@@ -1,50 +1,38 @@
-ELEMENT_NAME = "String  offline-settings""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"offline-settings\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def getRedirectURL():
-'''public String getRedirectURL()
-'''
-pass
+    '''    public String getRedirectURL()
+    '''
 def setRedirectURL():
-'''public void setRedirectURL(final String redirectURL)
-'''
-pass
+    '''    public void setRedirectURL(final String redirectURL)
+    '''
 def getOfflineText():
-'''public String getOfflineText()
-'''
-pass
+    '''    public String getOfflineText()
+    '''
 def setOfflineText():
-'''public void setOfflineText(final String offlineText)
-'''
-pass
+    '''    public void setOfflineText(final String offlineText)
+    '''
 def getEmailAddress():
-'''public String getEmailAddress()
-'''
-pass
+    '''    public String getEmailAddress()
+    '''
 def setEmailAddress():
-'''public void setEmailAddress(final String emailAddress)
-'''
-pass
+    '''    public void setEmailAddress(final String emailAddress)
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def setSubject():
-'''public void setSubject(final String subject)
-'''
-pass
+    '''    public void setSubject(final String subject)
+    '''
 def redirects():
-'''public boolean redirects()
-'''
-pass
+    '''    public boolean redirects()
+    '''
 def isConfigured():
-'''public boolean isConfigured()
-'''
-pass
+    '''    public boolean isConfigured()
+    '''
 def OfflineSettings():
-'''public OfflineSettings()
-'''
-pass
+    '''    public OfflineSettings()
+    '''
 def parse():
-'''public OfflineSettings parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public OfflineSettings parse(final XmlPullParser parser, final int initialDepth)
+    '''

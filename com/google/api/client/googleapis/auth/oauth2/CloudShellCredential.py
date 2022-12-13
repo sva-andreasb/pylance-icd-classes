@@ -1,4 +1,3 @@
 def CloudShellCredential():
-'''public CloudShellCredential(final int authPort, final JsonFactory jsonFactory)
-'''
-pass
+    '''    public CloudShellCredential(final int authPort, final JsonFactory jsonFactory)
+    '''

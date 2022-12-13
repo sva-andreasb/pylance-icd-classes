@@ -1,8 +1,6 @@
 def OnAllAssetDetails():
-'''public int OnAllAssetDetails()
-'''
-pass
+    '''    public int OnAllAssetDetails()
+    '''
 def markciimpacted():
-'''public int markciimpacted()
-'''
-pass
+    '''    public int markciimpacted()
+    '''

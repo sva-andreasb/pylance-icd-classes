@@ -1,8 +1,6 @@
 def editAdjustment():
-'''public int editAdjustment()
-'''
-pass
+    '''    public int editAdjustment()
+    '''
 def disableButton():
-'''public void disableButton(final boolean disabled, final String s)
-'''
-pass
+    '''    public void disableButton(final boolean disabled, final String s)
+    '''

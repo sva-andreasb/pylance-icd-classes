@@ -1,28 +1,21 @@
 def DuplicateInfo():
-'''public DuplicateInfo(final Guid oldGuid, final Guid newGuid, final Timestamp createTs, final String classType)
-'''
-pass
+    '''    public DuplicateInfo(final Guid oldGuid, final Guid newGuid, final Timestamp createTs, final String classType)
+    '''
 def getOldGuid():
-'''public Guid getOldGuid()
-'''
-pass
+    '''    public Guid getOldGuid()
+    '''
 def getNewGuid():
-'''public Guid getNewGuid()
-'''
-pass
+    '''    public Guid getNewGuid()
+    '''
 def getCreateTs():
-'''public Timestamp getCreateTs()
-'''
-pass
+    '''    public Timestamp getCreateTs()
+    '''
 def getClassType():
-'''public String getClassType()
-'''
-pass
+    '''    public String getClassType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

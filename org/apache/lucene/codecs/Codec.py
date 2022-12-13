@@ -1,28 +1,21 @@
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def forName():
-'''public static Codec forName(final String name)
-'''
-pass
+    '''    public static Codec forName(final String name)
+    '''
 def availableCodecs():
-'''public static Set<String> availableCodecs()
-'''
-pass
+    '''    public static Set<String> availableCodecs()
+    '''
 def reloadCodecs():
-'''public static void reloadCodecs(final ClassLoader classloader)
-'''
-pass
+    '''    public static void reloadCodecs(final ClassLoader classloader)
+    '''
 def getDefault():
-'''public static Codec getDefault()
-'''
-pass
+    '''    public static Codec getDefault()
+    '''
 def setDefault():
-'''public static void setDefault(final Codec codec)
-'''
-pass
+    '''    public static void setDefault(final Codec codec)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

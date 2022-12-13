@@ -1,8 +1,6 @@
 def getSQLSpecificTransform():
-'''public static SQLSpecificTransform getSQLSpecificTransform(final Connection con)
-'''
-pass
+    '''    public static SQLSpecificTransform getSQLSpecificTransform(final Connection con)
+    '''
 def fixSysDate():
-'''public static String fixSysDate(String sql, final String sysdateReplacement)
-'''
-pass
+    '''    public static String fixSysDate(String sql, final String sysdateReplacement)
+    '''

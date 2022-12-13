@@ -1,4 +1,3 @@
 def Manager():
-'''public Manager(final XMPPConnection connection)
-'''
-pass
+    '''    public Manager(final XMPPConnection connection)
+    '''

@@ -1,4 +1,3 @@
 def FldMRStatus():
-'''public FldMRStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldMRStatus(final MboValue mbv)
+    '''

@@ -1,8 +1,6 @@
 def XSDYearType():
-'''public XSDYearType(final String typename)
-'''
-pass
+    '''    public XSDYearType(final String typename)
+    '''
 def parseValidated():
-'''public Object parseValidated(final String str)
-'''
-pass
+    '''    public Object parseValidated(final String str)
+    '''

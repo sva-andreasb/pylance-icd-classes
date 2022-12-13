@@ -1,12 +1,9 @@
 def MigrationResBundle():
-'''public MigrationResBundle()
-'''
-pass
+    '''    public MigrationResBundle()
+    '''
 def getMessage():
-'''public String getMessage(final String message, final Object... parameters)
-'''
-pass
+    '''    public String getMessage(final String message, final Object... parameters)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

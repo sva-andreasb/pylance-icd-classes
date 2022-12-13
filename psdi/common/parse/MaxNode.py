@@ -1,8 +1,6 @@
 def MaxNode():
-'''public MaxNode(final Vector operands)
-'''
-pass
+    '''    public MaxNode(final Vector operands)
+    '''
 def getDouble():
-'''public double getDouble(final MboRemote mbo)
-'''
-pass
+    '''    public double getDouble(final MboRemote mbo)
+    '''

@@ -1,36 +1,27 @@
 def newFetch():
-'''public static Fetch newFetch(final DataHandler datahandler, final boolean dynamic)
-'''
-pass
+    '''    public static Fetch newFetch(final DataHandler datahandler, final boolean dynamic)
+    '''
 def getRowCount():
-'''public int getRowCount()
-'''
-pass
+    '''    public int getRowCount()
+    '''
 def getDescription():
-'''public PyObject getDescription()
-'''
-pass
+    '''    public PyObject getDescription()
+    '''
 def fetchone():
-'''public PyObject fetchone()
-'''
-pass
+    '''    public PyObject fetchone()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def addWarningListener():
-'''public void addWarningListener(final WarningListener listener)
-'''
-pass
+    '''    public void addWarningListener(final WarningListener listener)
+    '''
 def removeWarningListener():
-'''public boolean removeWarningListener(final WarningListener listener)
-'''
-pass
+    '''    public boolean removeWarningListener(final WarningListener listener)
+    '''
 def traverse():
-'''public int traverse(final Visitproc visit, final Object arg)
-'''
-pass
+    '''    public int traverse(final Visitproc visit, final Object arg)
+    '''
 def refersDirectlyTo():
-'''public boolean refersDirectlyTo(final PyObject ob)
-'''
-pass
+    '''    public boolean refersDirectlyTo(final PyObject ob)
+    '''

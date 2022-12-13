@@ -1,4 +1,3 @@
 def ProducerFencedException():
-'''public ProducerFencedException(final String msg)
-'''
-pass
+    '''    public ProducerFencedException(final String msg)
+    '''

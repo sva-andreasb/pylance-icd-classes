@@ -1,16 +1,12 @@
 def getVersion():
-'''public static String getVersion()
-'''
-pass
+    '''    public static String getVersion()
+    '''
 def getProduct():
-'''public static String getProduct()
-'''
-pass
+    '''    public static String getProduct()
+    '''
 def getVersionNum():
-'''public static String getVersionNum()
-'''
-pass
+    '''    public static String getVersionNum()
+    '''
 def main():
-'''public static void main(final String[] argv)
-'''
-pass
+    '''    public static void main(final String[] argv)
+    '''

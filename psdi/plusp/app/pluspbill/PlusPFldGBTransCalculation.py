@@ -1,16 +1,12 @@
 def PlusPFldGBTransCalculation():
-'''public PlusPFldGBTransCalculation(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldGBTransCalculation(final MboValue mv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,20 +1,15 @@
 def FldClassUseWithObjectValue():
-'''public FldClassUseWithObjectValue(final MboValue mbv)
-'''
-pass
+    '''    public FldClassUseWithObjectValue(final MboValue mbv)
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def isLinearInstalled():
-'''public boolean isLinearInstalled()
-'''
-pass
+    '''    public boolean isLinearInstalled()
+    '''

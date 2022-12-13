@@ -1,12 +1,9 @@
 def CoreOperationNegate():
-'''public CoreOperationNegate(final Expression arg)
-'''
-pass
+    '''    public CoreOperationNegate(final Expression arg)
+    '''
 def computeValue():
-'''public Object computeValue(final EvalContext context)
-'''
-pass
+    '''    public Object computeValue(final EvalContext context)
+    '''
 def getSymbol():
-'''public String getSymbol()
-'''
-pass
+    '''    public String getSymbol()
+    '''

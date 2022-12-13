@@ -1,4 +1,3 @@
 def PmScCustomMBOsSet():
-'''public PmScCustomMBOsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmScCustomMBOsSet(final MboServerInterface ms)
+    '''

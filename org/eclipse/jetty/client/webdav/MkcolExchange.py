@@ -1,8 +1,6 @@
 def MkcolExchange():
-'''public MkcolExchange()
-'''
-pass
+    '''    public MkcolExchange()
+    '''
 def exists():
-'''public boolean exists()
-'''
-pass
+    '''    public boolean exists()
+    '''

@@ -1,8 +1,6 @@
 def FldYNCErrorDoesntStartWithAWarnOnOtherEmpty():
-'''public FldYNCErrorDoesntStartWithAWarnOnOtherEmpty(final MboValue mbv)
-'''
-pass
+    '''    public FldYNCErrorDoesntStartWithAWarnOnOtherEmpty(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

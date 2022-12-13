@@ -1,40 +1,30 @@
 def MruCacheStorage():
-'''public MruCacheStorage(final int strongSizeLimit, final int softSizeLimit)
-'''
-pass
+    '''    public MruCacheStorage(final int strongSizeLimit, final int softSizeLimit)
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def put():
-'''public void put(final Object key, final Object value)
-'''
-pass
+    '''    public void put(final Object key, final Object value)
+    '''
 def remove():
-'''public void remove(final Object key)
-'''
-pass
+    '''    public void remove(final Object key)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getStrongSizeLimit():
-'''public int getStrongSizeLimit()
-'''
-pass
+    '''    public int getStrongSizeLimit()
+    '''
 def getSoftSizeLimit():
-'''public int getSoftSizeLimit()
-'''
-pass
+    '''    public int getSoftSizeLimit()
+    '''
 def getStrongSize():
-'''public int getStrongSize()
-'''
-pass
+    '''    public int getStrongSize()
+    '''
 def getSoftSize():
-'''public int getSoftSize()
-'''
-pass
+    '''    public int getSoftSize()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''

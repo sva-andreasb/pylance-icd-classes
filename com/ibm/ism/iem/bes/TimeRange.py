@@ -1,16 +1,12 @@
 def getStartTime():
-'''public XMLGregorianCalendar getStartTime()
-'''
-pass
+    '''    public XMLGregorianCalendar getStartTime()
+    '''
 def setStartTime():
-'''public void setStartTime(final XMLGregorianCalendar value)
-'''
-pass
+    '''    public void setStartTime(final XMLGregorianCalendar value)
+    '''
 def getEndTime():
-'''public XMLGregorianCalendar getEndTime()
-'''
-pass
+    '''    public XMLGregorianCalendar getEndTime()
+    '''
 def setEndTime():
-'''public void setEndTime(final XMLGregorianCalendar value)
-'''
-pass
+    '''    public void setEndTime(final XMLGregorianCalendar value)
+    '''

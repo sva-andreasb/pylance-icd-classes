@@ -1,8 +1,6 @@
 def PlusPFldCommodity():
-'''public PlusPFldCommodity(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldCommodity(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

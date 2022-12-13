@@ -1,30 +1,23 @@
-NAMESPACE = "String  urn:xmpp:receipts""
-ELEMENT = "String  received""
+NAMESPACE = "String  \"urn:xmpp:receipts\""
+ELEMENT = "String  \"received\""
 def DeliveryReceipt():
-'''public DeliveryReceipt(final String id)
-'''
-pass
+    '''    public DeliveryReceipt(final String id)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def getFrom():
-'''public static DeliveryReceipt getFrom(final Message p)
-'''
-pass
+    '''    public static DeliveryReceipt getFrom(final Message p)
+    '''
 def from():
-'''public static DeliveryReceipt from(final Message message)
-'''
-pass
+    '''    public static DeliveryReceipt from(final Message message)
+    '''

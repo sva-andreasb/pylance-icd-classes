@@ -1,77 +1,58 @@
 def JsonTreeReader():
-'''public JsonTreeReader(final JsonElement element)
-'''
-pass
+    '''    public JsonTreeReader(final JsonElement element)
+    '''
 def beginArray():
-'''public void beginArray()
-'''
-pass
+    '''    public void beginArray()
+    '''
 def endArray():
-'''public void endArray()
-'''
-pass
+    '''    public void endArray()
+    '''
 def beginObject():
-'''public void beginObject()
-'''
-pass
+    '''    public void beginObject()
+    '''
 def endObject():
-'''public void endObject()
-'''
-pass
+    '''    public void endObject()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def peek():
-'''public JsonToken peek()
-'''
-pass
+    '''    public JsonToken peek()
+    '''
 def nextName():
-'''public String nextName()
-'''
-pass
+    '''    public String nextName()
+    '''
 def nextString():
-'''public String nextString()
-'''
-pass
+    '''    public String nextString()
+    '''
 def nextBoolean():
-'''public boolean nextBoolean()
-'''
-pass
+    '''    public boolean nextBoolean()
+    '''
 def nextNull():
-'''public void nextNull()
-'''
-pass
+    '''    public void nextNull()
+    '''
 def nextDouble():
-'''public double nextDouble()
-'''
-pass
+    '''    public double nextDouble()
+    '''
 def nextLong():
-'''public long nextLong()
-'''
-pass
+    '''    public long nextLong()
+    '''
 def nextInt():
-'''public int nextInt()
-'''
-pass
+    '''    public int nextInt()
+    '''
 def close():
-'''public void close()
-public void close()
-'''
-pass
+    '''    public void close()
+    public void close()
+    '''
 def skipValue():
-'''public void skipValue()
-'''
-pass
+    '''    public void skipValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def promoteNameToValue():
-'''public void promoteNameToValue()
-'''
-pass
+    '''    public void promoteNameToValue()
+    '''
 def read():
-'''public int read(final char[] buffer, final int offset, final int count)
-'''
-pass
+    '''    public int read(final char[] buffer, final int offset, final int count)
+    '''

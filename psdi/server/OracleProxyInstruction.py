@@ -1,12 +1,9 @@
 def OracleProxyInstruction():
-'''public OracleProxyInstruction(final int mode, final Object cert)
-'''
-pass
+    '''    public OracleProxyInstruction(final int mode, final Object cert)
+    '''
 def getCredential():
-'''public Object getCredential()
-'''
-pass
+    '''    public Object getCredential()
+    '''
 def getProxyMode():
-'''public int getProxyMode()
-'''
-pass
+    '''    public int getProxyMode()
+    '''

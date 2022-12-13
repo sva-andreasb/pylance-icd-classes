@@ -1,60 +1,45 @@
 def RootContext():
-'''public RootContext(final JXPathContextReferenceImpl jxpathContext, final NodePointer pointer)
-'''
-pass
+    '''    public RootContext(final JXPathContextReferenceImpl jxpathContext, final NodePointer pointer)
+    '''
 def getJXPathContext():
-'''public JXPathContext getJXPathContext()
-'''
-pass
+    '''    public JXPathContext getJXPathContext()
+    '''
 def getRootContext():
-'''public RootContext getRootContext()
-'''
-pass
+    '''    public RootContext getRootContext()
+    '''
 def getAbsoluteRootContext():
-'''public EvalContext getAbsoluteRootContext()
-'''
-pass
+    '''    public EvalContext getAbsoluteRootContext()
+    '''
 def getCurrentNodePointer():
-'''public NodePointer getCurrentNodePointer()
-'''
-pass
+    '''    public NodePointer getCurrentNodePointer()
+    '''
 def getCurrentPosition():
-'''public int getCurrentPosition()
-'''
-pass
+    '''    public int getCurrentPosition()
+    '''
 def nextNode():
-'''public boolean nextNode()
-'''
-pass
+    '''    public boolean nextNode()
+    '''
 def nextSet():
-'''public boolean nextSet()
-'''
-pass
+    '''    public boolean nextSet()
+    '''
 def setPosition():
-'''public boolean setPosition(final int position)
-'''
-pass
+    '''    public boolean setPosition(final int position)
+    '''
 def getConstantContext():
-'''public EvalContext getConstantContext(final Object constant)
-'''
-pass
+    '''    public EvalContext getConstantContext(final Object constant)
+    '''
 def getVariableContext():
-'''public EvalContext getVariableContext(final QName variableName)
-'''
-pass
+    '''    public EvalContext getVariableContext(final QName variableName)
+    '''
 def getFunction():
-'''public Function getFunction(final QName functionName, final Object[] parameters)
-'''
-pass
+    '''    public Function getFunction(final QName functionName, final Object[] parameters)
+    '''
 def getRegisteredValue():
-'''public Object getRegisteredValue(final int id)
-'''
-pass
+    '''    public Object getRegisteredValue(final int id)
+    '''
 def setRegisteredValue():
-'''public int setRegisteredValue(final Object value)
-'''
-pass
+    '''    public int setRegisteredValue(final Object value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

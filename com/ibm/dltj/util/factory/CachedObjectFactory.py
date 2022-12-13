@@ -1,12 +1,9 @@
 def CachedObjectFactory():
-'''public CachedObjectFactory()
-'''
-pass
+    '''    public CachedObjectFactory()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getInstance():
-'''public Object getInstance(final Object o)
-'''
-pass
+    '''    public Object getInstance(final Object o)
+    '''

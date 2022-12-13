@@ -1,49 +1,37 @@
 def MidGloss():
-'''public MidGloss()
-public MidGloss(final Gloss[] array)
-'''
-pass
+    '''    public MidGloss()
+    public MidGloss(final Gloss[] array)
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getLemmaGloss():
-'''public LemmaGenerator getLemmaGloss()
-'''
-pass
+    '''    public LemmaGenerator getLemmaGloss()
+    '''
 def getStemGloss():
-'''public LemmaGenerator getStemGloss()
-'''
-pass
+    '''    public LemmaGenerator getStemGloss()
+    '''
 def getFeatureGloss():
-'''public FeatureSetGloss getFeatureGloss()
-'''
-pass
+    '''    public FeatureSetGloss getFeatureGloss()
+    '''
 def getGrammarGloss():
-'''public GrammarGloss getGrammarGloss()
-'''
-pass
+    '''    public GrammarGloss getGrammarGloss()
+    '''
 def getGlosses():
-'''public Gloss[] getGlosses()
-'''
-pass
+    '''    public Gloss[] getGlosses()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

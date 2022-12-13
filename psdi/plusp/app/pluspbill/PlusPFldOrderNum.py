@@ -1,12 +1,9 @@
 def PlusPFldOrderNum():
-'''public PlusPFldOrderNum(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldOrderNum(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

@@ -1,4 +1,3 @@
 def FldSiteEComVendor():
-'''public FldSiteEComVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldSiteEComVendor(final MboValue mbv)
+    '''

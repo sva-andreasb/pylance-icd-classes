@@ -1,18 +1,14 @@
 def OortComet():
-'''public OortComet(final Oort oort, final String cometURL)
-'''
-pass
+    '''    public OortComet(final Oort oort, final String cometURL)
+    '''
 def onMessage():
-'''public void onMessage(final ClientSessionChannel channel, final Message message)
-public void onMessage(final ClientSessionChannel channel, final Message message)
-public void onMessage(final ClientSessionChannel channel, final Message message)
-'''
-pass
+    '''    public void onMessage(final ClientSessionChannel channel, final Message message)
+    public void onMessage(final ClientSessionChannel channel, final Message message)
+    public void onMessage(final ClientSessionChannel channel, final Message message)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

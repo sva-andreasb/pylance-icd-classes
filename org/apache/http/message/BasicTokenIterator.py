@@ -1,21 +1,16 @@
-HTTP_SEPARATORS = "String   ,;=()<>@:\\\"/[]?{}\t""
+HTTP_SEPARATORS = "String  \" ,;=()<>@:\\\\"/[]?{}\t\""
 def BasicTokenIterator():
-'''public BasicTokenIterator(final HeaderIterator headerIterator)
-'''
-pass
+    '''    public BasicTokenIterator(final HeaderIterator headerIterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def nextToken():
-'''public String nextToken()
-'''
-pass
+    '''    public String nextToken()
+    '''
 def next():
-'''public final Object next()
-'''
-pass
+    '''    public final Object next()
+    '''
 def remove():
-'''public final void remove()
-'''
-pass
+    '''    public final void remove()
+    '''

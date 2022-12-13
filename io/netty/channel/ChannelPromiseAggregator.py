@@ -1,4 +1,3 @@
 def ChannelPromiseAggregator():
-'''public ChannelPromiseAggregator(final ChannelPromise aggregatePromise)
-'''
-pass
+    '''    public ChannelPromiseAggregator(final ChannelPromise aggregatePromise)
+    '''

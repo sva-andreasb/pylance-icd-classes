@@ -1,54 +1,41 @@
 def GenericData():
-'''public GenericData()
-public GenericData(final EnumSet<Flags> flags)
-'''
-pass
+    '''    public GenericData()
+    public GenericData(final EnumSet<Flags> flags)
+    '''
 def get():
-'''public final Object get(final Object name)
-'''
-pass
+    '''    public final Object get(final Object name)
+    '''
 def put():
-'''public final Object put(String fieldName, final Object value)
-'''
-pass
+    '''    public final Object put(String fieldName, final Object value)
+    '''
 def set():
-'''public GenericData set(String fieldName, final Object value)
-'''
-pass
+    '''    public GenericData set(String fieldName, final Object value)
+    '''
 def putAll():
-'''public final void putAll(final Map<? extends String, ?> map)
-'''
-pass
+    '''    public final void putAll(final Map<? extends String, ?> map)
+    '''
 def remove():
-'''public final Object remove(final Object name)
-public void remove()
-'''
-pass
+    '''    public final Object remove(final Object name)
+    public void remove()
+    '''
 def clone():
-'''public GenericData clone()
-'''
-pass
+    '''    public GenericData clone()
+    '''
 def getUnknownKeys():
-'''public final Map<String, Object> getUnknownKeys()
-'''
-pass
+    '''    public final Map<String, Object> getUnknownKeys()
+    '''
 def setUnknownKeys():
-'''public final void setUnknownKeys(final Map<String, Object> unknownFields)
-'''
-pass
+    '''    public final void setUnknownKeys(final Map<String, Object> unknownFields)
+    '''
 def getClassInfo():
-'''public final ClassInfo getClassInfo()
-'''
-pass
+    '''    public final ClassInfo getClassInfo()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''

@@ -1,12 +1,9 @@
 def TloamShowAllPlanLicenseSet():
-'''public TloamShowAllPlanLicenseSet(final MboRemote owner)
-'''
-pass
+    '''    public TloamShowAllPlanLicenseSet(final MboRemote owner)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def fetchMbos():
-'''public void fetchMbos(final int toPosition)
-'''
-pass
+    '''    public void fetchMbos(final int toPosition)
+    '''

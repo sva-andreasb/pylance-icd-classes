@@ -1,8 +1,6 @@
 def PlusPFldGBTransMeterReading():
-'''public PlusPFldGBTransMeterReading(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransMeterReading(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

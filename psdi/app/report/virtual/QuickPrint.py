@@ -1,4 +1,3 @@
 def QuickPrint():
-'''public QuickPrint(final MboSet ms)
-'''
-pass
+    '''    public QuickPrint(final MboSet ms)
+    '''

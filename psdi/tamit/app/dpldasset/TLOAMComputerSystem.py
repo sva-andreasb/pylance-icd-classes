@@ -1,8 +1,6 @@
 def TLOAMComputerSystem():
-'''public TLOAMComputerSystem(final MboSet ms)
-'''
-pass
+    '''    public TLOAMComputerSystem(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

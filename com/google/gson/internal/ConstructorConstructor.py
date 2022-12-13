@@ -1,27 +1,23 @@
 def ConstructorConstructor():
-'''public ConstructorConstructor(final Map<Type, InstanceCreator<?>> instanceCreators)
-'''
-pass
+    '''    public ConstructorConstructor(final Map<Type, InstanceCreator<?>> instanceCreators)
+    '''
 def get():
-'''public <T> ObjectConstructor<T> get(final TypeToken<T> typeToken)
-'''
-pass
+    '''    public <T> ObjectConstructor<T> get(final TypeToken<T> typeToken)
+    '''
 def construct():
-'''public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-public T construct()
-'''
-pass
+    '''    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    public T construct()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

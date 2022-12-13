@@ -1,8 +1,6 @@
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def getStyleClass():
-'''public String getStyleClass(final Object e)
-'''
-pass
+    '''    public String getStyleClass(final Object e)
+    '''

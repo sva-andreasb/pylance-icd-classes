@@ -1,81 +1,62 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 NO_STATUS = "int  -1"
 FAILURE = "int  0"
 SUCCESS = "int  1"
 def IloEngineReport():
-'''public IloEngineReport()
-'''
-pass
+    '''    public IloEngineReport()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getExplainStatus():
-'''public int getExplainStatus()
-'''
-pass
+    '''    public int getExplainStatus()
+    '''
 def getExplainException():
-'''public Exception getExplainException()
-'''
-pass
+    '''    public Exception getExplainException()
+    '''
 def getExplanationDepth():
-'''public int getExplanationDepth()
-'''
-pass
+    '''    public int getExplanationDepth()
+    '''
 def isFullExplanation():
-'''public boolean isFullExplanation()
-'''
-pass
+    '''    public boolean isFullExplanation()
+    '''
 def getSolveStatus():
-'''public int getSolveStatus()
-'''
-pass
+    '''    public int getSolveStatus()
+    '''
 def getRelaxationLevel():
-'''public IloPriority getRelaxationLevel()
-'''
-pass
+    '''    public IloPriority getRelaxationLevel()
+    '''
 def getSolveException():
-'''public Exception getSolveException()
-'''
-pass
+    '''    public Exception getSolveException()
+    '''
 def setExplanationDepth():
-'''public void setExplanationDepth(final int i)
-'''
-pass
+    '''    public void setExplanationDepth(final int i)
+    '''
 def setExplainException():
-'''public void setExplainException(final Exception exception)
-'''
-pass
+    '''    public void setExplainException(final Exception exception)
+    '''
 def setExplanationStatus():
-'''public void setExplanationStatus(final boolean v)
-'''
-pass
+    '''    public void setExplanationStatus(final boolean v)
+    '''
 def setFullExplanation():
-'''public void setFullExplanation(final boolean b)
-'''
-pass
+    '''    public void setFullExplanation(final boolean b)
+    '''
 def setRelaxationLevel():
-'''public void setRelaxationLevel(final IloPriority priority)
-'''
-pass
+    '''    public void setRelaxationLevel(final IloPriority priority)
+    '''
 def setSolveException():
-'''public void setSolveException(final Exception exception)
-'''
-pass
+    '''    public void setSolveException(final Exception exception)
+    '''
 def setSolveStatus():
-'''public void setSolveStatus(final boolean v)
-'''
-pass
+    '''    public void setSolveStatus(final boolean v)
+    '''
 def print():
-'''public void print(final OutputStream os)
-public IloTabulatedStream print(final IloTabulatedStream stm)
-'''
-pass
+    '''    public void print(final OutputStream os)
+    public IloTabulatedStream print(final IloTabulatedStream stm)
+    '''
 def setRelaxationAvailable():
-'''public void setRelaxationAvailable(final boolean hasRelaxation)
-'''
-pass
+    '''    public void setRelaxationAvailable(final boolean hasRelaxation)
+    '''
 def hasRelaxation():
-'''public boolean hasRelaxation()
-'''
-pass
+    '''    public boolean hasRelaxation()
+    '''

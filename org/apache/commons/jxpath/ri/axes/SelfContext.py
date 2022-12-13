@@ -1,24 +1,18 @@
 def SelfContext():
-'''public SelfContext(final EvalContext parentContext, final NodeTest nodeTest)
-'''
-pass
+    '''    public SelfContext(final EvalContext parentContext, final NodeTest nodeTest)
+    '''
 def getSingleNodePointer():
-'''public Pointer getSingleNodePointer()
-'''
-pass
+    '''    public Pointer getSingleNodePointer()
+    '''
 def getCurrentNodePointer():
-'''public NodePointer getCurrentNodePointer()
-'''
-pass
+    '''    public NodePointer getCurrentNodePointer()
+    '''
 def nextNode():
-'''public boolean nextNode()
-'''
-pass
+    '''    public boolean nextNode()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setPosition():
-'''public boolean setPosition(final int position)
-'''
-pass
+    '''    public boolean setPosition(final int position)
+    '''

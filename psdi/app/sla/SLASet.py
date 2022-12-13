@@ -1,8 +1,6 @@
 def SLASet():
-'''public SLASet(final MboServerInterface ms)
-'''
-pass
+    '''    public SLASet(final MboServerInterface ms)
+    '''
 def canAddMoreThanOneSLA():
-'''public boolean canAddMoreThanOneSLA()
-'''
-pass
+    '''    public boolean canAddMoreThanOneSLA()
+    '''

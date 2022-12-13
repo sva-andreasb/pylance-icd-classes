@@ -1,8 +1,6 @@
 def PartitionEntryCountResponse():
-'''public PartitionEntryCountResponse(final RfcLDAPMessage rfcLDAPMessage)
-'''
-pass
+    '''    public PartitionEntryCountResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''

@@ -1,4 +1,3 @@
 def TimeDeserializerFactory():
-'''public TimeDeserializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public TimeDeserializerFactory(final Class javaType, final QName xmlType)
+    '''

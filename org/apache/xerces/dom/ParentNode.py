@@ -1,70 +1,53 @@
 def ParentNode():
-'''public ParentNode()
-'''
-pass
+    '''    public ParentNode()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def getOwnerDocument():
-'''public Document getOwnerDocument()
-'''
-pass
+    '''    public Document getOwnerDocument()
+    '''
 def hasChildNodes():
-'''public boolean hasChildNodes()
-'''
-pass
+    '''    public boolean hasChildNodes()
+    '''
 def getChildNodes():
-'''public NodeList getChildNodes()
-'''
-pass
+    '''    public NodeList getChildNodes()
+    '''
 def getFirstChild():
-'''public Node getFirstChild()
-'''
-pass
+    '''    public Node getFirstChild()
+    '''
 def getLastChild():
-'''public Node getLastChild()
-'''
-pass
+    '''    public Node getLastChild()
+    '''
 def insertBefore():
-'''public Node insertBefore(final Node node, final Node node2)
-'''
-pass
+    '''    public Node insertBefore(final Node node, final Node node2)
+    '''
 def removeChild():
-'''public Node removeChild(final Node node)
-'''
-pass
+    '''    public Node removeChild(final Node node)
+    '''
 def replaceChild():
-'''public Node replaceChild(final Node node, final Node node2)
-'''
-pass
+    '''    public Node replaceChild(final Node node, final Node node2)
+    '''
 def getTextContent():
-'''public String getTextContent()
-'''
-pass
+    '''    public String getTextContent()
+    '''
 def setTextContent():
-'''public void setTextContent(final String s)
-'''
-pass
+    '''    public void setTextContent(final String s)
+    '''
 def getLength():
-'''public int getLength()
-public int getLength()
-'''
-pass
+    '''    public int getLength()
+    public int getLength()
+    '''
 def item():
-'''public Node item(final int n)
-public Node item(final int n)
-'''
-pass
+    '''    public Node item(final int n)
+    public Node item(final int n)
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''
 def isEqualNode():
-'''public boolean isEqualNode(final Node node)
-'''
-pass
+    '''    public boolean isEqualNode(final Node node)
+    '''
 def setReadOnly():
-'''public void setReadOnly(final boolean b, final boolean b2)
-'''
-pass
+    '''    public void setReadOnly(final boolean b, final boolean b2)
+    '''

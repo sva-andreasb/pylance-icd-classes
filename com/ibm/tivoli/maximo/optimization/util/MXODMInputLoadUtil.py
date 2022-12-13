@@ -1,8 +1,6 @@
 def checkNullString():
-'''public static String checkNullString(final String inputString)
-'''
-pass
+    '''    public static String checkNullString(final String inputString)
+    '''
 def getCommSeparateString():
-'''public static String getCommSeparateString(final List inputStringList)
-'''
-pass
+    '''    public static String getCommSeparateString(final List inputStringList)
+    '''

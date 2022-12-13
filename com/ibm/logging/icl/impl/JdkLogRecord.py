@@ -11,251 +11,189 @@ THROWABLE_PARAM = "int  9"
 OBJECT_PARAM = "int  10"
 STRING_PARAM = "int  11"
 def JdkLogRecord():
-'''public JdkLogRecord(final Level level, final String msg)
-'''
-pass
+    '''    public JdkLogRecord(final Level level, final String msg)
+    '''
 def isParamBoolean():
-'''public boolean isParamBoolean()
-'''
-pass
+    '''    public boolean isParamBoolean()
+    '''
 def getParamByte():
-'''public byte getParamByte()
-'''
-pass
+    '''    public byte getParamByte()
+    '''
 def getParamChar():
-'''public char getParamChar()
-'''
-pass
+    '''    public char getParamChar()
+    '''
 def getParamDouble():
-'''public double getParamDouble()
-'''
-pass
+    '''    public double getParamDouble()
+    '''
 def getParamFloat():
-'''public float getParamFloat()
-'''
-pass
+    '''    public float getParamFloat()
+    '''
 def getParamInt():
-'''public int getParamInt()
-'''
-pass
+    '''    public int getParamInt()
+    '''
 def getParamLong():
-'''public long getParamLong()
-'''
-pass
+    '''    public long getParamLong()
+    '''
 def getParamShort():
-'''public short getParamShort()
-'''
-pass
+    '''    public short getParamShort()
+    '''
 def getParamString():
-'''public String getParamString()
-'''
-pass
+    '''    public String getParamString()
+    '''
 def getParamType():
-'''public int getParamType()
-'''
-pass
+    '''    public int getParamType()
+    '''
 def setParamBoolean():
-'''public void setParamBoolean(final boolean b)
-'''
-pass
+    '''    public void setParamBoolean(final boolean b)
+    '''
 def setParamByte():
-'''public void setParamByte(final byte b)
-'''
-pass
+    '''    public void setParamByte(final byte b)
+    '''
 def setParamChar():
-'''public void setParamChar(final char c)
-'''
-pass
+    '''    public void setParamChar(final char c)
+    '''
 def setParamDouble():
-'''public void setParamDouble(final double d)
-'''
-pass
+    '''    public void setParamDouble(final double d)
+    '''
 def setParamFloat():
-'''public void setParamFloat(final float f)
-'''
-pass
+    '''    public void setParamFloat(final float f)
+    '''
 def setParamInt():
-'''public void setParamInt(final int i)
-'''
-pass
+    '''    public void setParamInt(final int i)
+    '''
 def setParamLong():
-'''public void setParamLong(final long l)
-'''
-pass
+    '''    public void setParamLong(final long l)
+    '''
 def setParamShort():
-'''public void setParamShort(final short s)
-'''
-pass
+    '''    public void setParamShort(final short s)
+    '''
 def setParamString():
-'''public void setParamString(final String s)
-'''
-pass
+    '''    public void setParamString(final String s)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def isTrace():
-'''public boolean isTrace()
-'''
-pass
+    '''    public boolean isTrace()
+    '''
 def setTrace():
-'''public void setTrace(final boolean b)
-'''
-pass
+    '''    public void setTrace(final boolean b)
+    '''
 def getMsgType():
-'''public TraceType getMsgType()
-'''
-pass
+    '''    public TraceType getMsgType()
+    '''
 def setMsgType():
-'''public void setMsgType(final TraceType i)
-'''
-pass
+    '''    public void setMsgType(final TraceType i)
+    '''
 def getComponent():
-'''public String getComponent()
-'''
-pass
+    '''    public String getComponent()
+    '''
 def getCorrelationId():
-'''public String getCorrelationId()
-'''
-pass
+    '''    public String getCorrelationId()
+    '''
 def getExtensions():
-'''public HashMap getExtensions()
-public String getExtensions(final String key)
-'''
-pass
+    '''    public HashMap getExtensions()
+    public String getExtensions(final String key)
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def getLocalizable():
-'''public int getLocalizable()
-'''
-pass
+    '''    public int getLocalizable()
+    '''
 def getMessageLocale():
-'''public String getMessageLocale()
-'''
-pass
+    '''    public String getMessageLocale()
+    '''
 def getOrganization():
-'''public String getOrganization()
-'''
-pass
+    '''    public String getOrganization()
+    '''
 def getProcessId():
-'''public String getProcessId()
-'''
-pass
+    '''    public String getProcessId()
+    '''
 def getProcessName():
-'''public String getProcessName()
-'''
-pass
+    '''    public String getProcessName()
+    '''
 def getProduct():
-'''public String getProduct()
-'''
-pass
+    '''    public String getProduct()
+    '''
 def getRawData():
-'''public byte[] getRawData()
-'''
-pass
+    '''    public byte[] getRawData()
+    '''
 def getStackTrace():
-'''public String getStackTrace()
-'''
-pass
+    '''    public String getStackTrace()
+    '''
 def getThreadName():
-'''public String getThreadName()
-'''
-pass
+    '''    public String getThreadName()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setComponent():
-'''public void setComponent(final String string)
-'''
-pass
+    '''    public void setComponent(final String string)
+    '''
 def setCorrelationId():
-'''public void setCorrelationId(final String string)
-'''
-pass
+    '''    public void setCorrelationId(final String string)
+    '''
 def setFormattedMessage():
-'''public void setFormattedMessage(final String string)
-'''
-pass
+    '''    public void setFormattedMessage(final String string)
+    '''
 def setLocalizable():
-'''public void setLocalizable(final int i)
-'''
-pass
+    '''    public void setLocalizable(final int i)
+    '''
 def setMessageLocale():
-'''public void setMessageLocale(final String string)
-'''
-pass
+    '''    public void setMessageLocale(final String string)
+    '''
 def setOrganization():
-'''public void setOrganization(final String string)
-'''
-pass
+    '''    public void setOrganization(final String string)
+    '''
 def setProcessId():
-'''public void setProcessId(final String string)
-'''
-pass
+    '''    public void setProcessId(final String string)
+    '''
 def setProcessName():
-'''public void setProcessName(final String string)
-'''
-pass
+    '''    public void setProcessName(final String string)
+    '''
 def setProduct():
-'''public void setProduct(final String string)
-'''
-pass
+    '''    public void setProduct(final String string)
+    '''
 def setRawData():
-'''public void setRawData(final byte[] bs)
-'''
-pass
+    '''    public void setRawData(final byte[] bs)
+    '''
 def setStackTrace():
-'''public void setStackTrace(final String string)
-'''
-pass
+    '''    public void setStackTrace(final String string)
+    '''
 def setThreadName():
-'''public void setThreadName(final String string)
-'''
-pass
+    '''    public void setThreadName(final String string)
+    '''
 def setVersion():
-'''public void setVersion(final String string)
-'''
-pass
+    '''    public void setVersion(final String string)
+    '''
 def setCorrelator():
-'''public void setCorrelator(final Vector stack)
-'''
-pass
+    '''    public void setCorrelator(final Vector stack)
+    '''
 def getCorrelator():
-'''public Vector getCorrelator()
-'''
-pass
+    '''    public Vector getCorrelator()
+    '''
 def addExtension():
-'''public void addExtension(final String key, final String value)
-'''
-pass
+    '''    public void addExtension(final String key, final String value)
+    '''
 def addExtensions():
-'''public void addExtensions(final Map map)
-'''
-pass
+    '''    public void addExtensions(final Map map)
+    '''
 def getMessageResourceBundleName():
-'''public String getMessageResourceBundleName()
-'''
-pass
+    '''    public String getMessageResourceBundleName()
+    '''
 def setMessageResourceBundleName():
-'''public void setMessageResourceBundleName(final String string)
-'''
-pass
+    '''    public void setMessageResourceBundleName(final String string)
+    '''
 def getServerName():
-'''public String getServerName()
-'''
-pass
+    '''    public String getServerName()
+    '''
 def setServerName():
-'''public void setServerName(final String string)
-'''
-pass
+    '''    public void setServerName(final String string)
+    '''
 def getOffset():
-'''public int getOffset()
-'''
-pass
+    '''    public int getOffset()
+    '''
 def setOffset():
-'''public void setOffset(final int i)
-'''
-pass
+    '''    public void setOffset(final int i)
+    '''

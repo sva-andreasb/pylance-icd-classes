@@ -1,4 +1,3 @@
 def InspFormScriptSet():
-'''public InspFormScriptSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspFormScriptSet(final MboServerInterface ms)
+    '''

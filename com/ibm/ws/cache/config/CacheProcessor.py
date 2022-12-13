@@ -1,82 +1,64 @@
-PROPERTY_SHARING_POLICY = "String  sharing-policy""
-PROPERTY_SHARINGPOLICY = "String  sharingpolicy""
-PROPERTY_PERSIST_TO_DISK = "String  persist-to-disk""
-PROPERTY_DELAY_INVALIDATIONS = "String  delay-invalidations""
-PROPERTY_TIMEOUT = "String  timeout""
-PROPERTY_INACTIVITY = "String  inactivity""
-PROPERTY_PRIORITY = "String  priority""
-PROPERTY_DO_NOT_CACHE = "String  do-not-cache""
+PROPERTY_SHARING_POLICY = "String  \"sharing-policy\""
+PROPERTY_SHARINGPOLICY = "String  \"sharingpolicy\""
+PROPERTY_PERSIST_TO_DISK = "String  \"persist-to-disk\""
+PROPERTY_DELAY_INVALIDATIONS = "String  \"delay-invalidations\""
+PROPERTY_TIMEOUT = "String  \"timeout\""
+PROPERTY_INACTIVITY = "String  \"inactivity\""
+PROPERTY_PRIORITY = "String  \"priority\""
+PROPERTY_DO_NOT_CACHE = "String  \"do-not-cache\""
 def CacheProcessor():
-'''public CacheProcessor()
-public CacheProcessor(final ConfigEntry configEntry)
-'''
-pass
+    '''    public CacheProcessor()
+    public CacheProcessor(final ConfigEntry configEntry)
+    '''
 def reset():
-'''public void reset(final ConfigEntry configEntry)
-'''
-pass
+    '''    public void reset(final ConfigEntry configEntry)
+    '''
 def preProcess():
-'''public boolean preProcess(final ConfigEntry configEntry)
-public boolean preProcess(final CacheId cacheId)
-'''
-pass
+    '''    public boolean preProcess(final ConfigEntry configEntry)
+    public boolean preProcess(final CacheId cacheId)
+    '''
 def processCacheIdProperties():
-'''public void processCacheIdProperties(final CacheId cacheid)
-'''
-pass
+    '''    public void processCacheIdProperties(final CacheId cacheid)
+    '''
 def processConfigEntryProperties():
-'''public void processConfigEntryProperties()
-'''
-pass
+    '''    public void processConfigEntryProperties()
+    '''
 def getBaseName():
-'''public String getBaseName()
-'''
-pass
+    '''    public String getBaseName()
+    '''
 def execute():
-'''public boolean execute()
-'''
-pass
+    '''    public boolean execute()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getGroupIds():
-'''public ArrayList getGroupIds()
-'''
-pass
+    '''    public ArrayList getGroupIds()
+    '''
 def getInvalidationIds():
-'''public ArrayList getInvalidationIds()
-'''
-pass
+    '''    public ArrayList getInvalidationIds()
+    '''
 def getSharingPolicy():
-'''public int getSharingPolicy()
-'''
-pass
+    '''    public int getSharingPolicy()
+    '''
 def getTimeout():
-'''public int getTimeout()
-'''
-pass
+    '''    public int getTimeout()
+    '''
 def getInactivity():
-'''public int getInactivity()
-'''
-pass
+    '''    public int getInactivity()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def setEntryInfo():
-'''public void setEntryInfo(final EntryInfo entryInfo)
-'''
-pass
+    '''    public void setEntryInfo(final EntryInfo entryInfo)
+    '''
 def setInvalidationIds():
-'''public void setInvalidationIds()
-'''
-pass
+    '''    public void setInvalidationIds()
+    '''
 def isDelayInvalidations():
-'''public boolean isDelayInvalidations()
-'''
-pass
+    '''    public boolean isDelayInvalidations()
+    '''
 def getDoNotCache():
-'''public boolean getDoNotCache()
-'''
-pass
+    '''    public boolean getDoNotCache()
+    '''

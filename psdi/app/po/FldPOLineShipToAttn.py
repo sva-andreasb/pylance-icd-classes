@@ -1,8 +1,6 @@
 def FldPOLineShipToAttn():
-'''public FldPOLineShipToAttn(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineShipToAttn(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

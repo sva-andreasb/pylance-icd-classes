@@ -1,8 +1,6 @@
 def FldIsPublic():
-'''public FldIsPublic(final MboValue mbv)
-'''
-pass
+    '''    public FldIsPublic(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

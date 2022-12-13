@@ -1,28 +1,21 @@
 def FldAMCrewLabUnRestrictedLaborCode():
-'''public FldAMCrewLabUnRestrictedLaborCode(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewLabUnRestrictedLaborCode(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getSqlForEnteredFields():
-'''public SqlFormat getSqlForEnteredFields()
-'''
-pass
+    '''    public SqlFormat getSqlForEnteredFields()
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String value, final boolean exact)
+    '''

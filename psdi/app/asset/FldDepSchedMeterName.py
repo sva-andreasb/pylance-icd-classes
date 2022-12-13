@@ -1,16 +1,12 @@
 def FldDepSchedMeterName():
-'''public FldDepSchedMeterName(final MboValue mbv)
-'''
-pass
+    '''    public FldDepSchedMeterName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

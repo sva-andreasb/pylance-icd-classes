@@ -1,40 +1,30 @@
 def WMAssignTmp():
-'''public WMAssignTmp(final MboSet ms)
-'''
-pass
+    '''    public WMAssignTmp(final MboSet ms)
+    '''
 def getAssignmentID():
-'''public long getAssignmentID()
-'''
-pass
+    '''    public long getAssignmentID()
+    '''
 def setAssignmentID():
-'''public void setAssignmentID(final long id)
-'''
-pass
+    '''    public void setAssignmentID(final long id)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setAllReadOny():
-'''public void setAllReadOny()
-'''
-pass
+    '''    public void setAllReadOny()
+    '''
 def setActualDuration():
-'''public void setActualDuration()
-'''
-pass
+    '''    public void setActualDuration()
+    '''
 def setEstimateDuration():
-'''public void setEstimateDuration()
-'''
-pass
+    '''    public void setEstimateDuration()
+    '''
 def validateDateTime():
-'''public Date validateDateTime(final Date date, final Date time)
-'''
-pass
+    '''    public Date validateDateTime(final Date date, final Date time)
+    '''
 def validateFutureTolerance():
-'''public void validateFutureTolerance()
-'''
-pass
+    '''    public void validateFutureTolerance()
+    '''

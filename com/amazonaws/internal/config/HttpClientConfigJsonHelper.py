@@ -1,29 +1,22 @@
 def HttpClientConfigJsonHelper():
-'''public HttpClientConfigJsonHelper()
-public HttpClientConfigJsonHelper(final String serviceName, final String regionMetadataServiceName)
-'''
-pass
+    '''    public HttpClientConfigJsonHelper()
+    public HttpClientConfigJsonHelper(final String serviceName, final String regionMetadataServiceName)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def setServiceName():
-'''public void setServiceName(final String serviceName)
-'''
-pass
+    '''    public void setServiceName(final String serviceName)
+    '''
 def getRegionMetadataServiceName():
-'''public String getRegionMetadataServiceName()
-'''
-pass
+    '''    public String getRegionMetadataServiceName()
+    '''
 def setRegionMetadataServiceName():
-'''public void setRegionMetadataServiceName(final String regionMetadataServiceName)
-'''
-pass
+    '''    public void setRegionMetadataServiceName(final String regionMetadataServiceName)
+    '''
 def build():
-'''public HttpClientConfig build()
-'''
-pass
+    '''    public HttpClientConfig build()
+    '''

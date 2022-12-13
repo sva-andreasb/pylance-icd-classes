@@ -1,12 +1,9 @@
 def Qa():
-'''public Qa()
-'''
-pass
+    '''    public Qa()
+    '''
 def d():
-'''public ByteArrayInputStream d()
-'''
-pass
+    '''    public ByteArrayInputStream d()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

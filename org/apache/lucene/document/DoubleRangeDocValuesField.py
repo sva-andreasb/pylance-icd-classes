@@ -1,16 +1,12 @@
 def DoubleRangeDocValuesField():
-'''public DoubleRangeDocValuesField(final String field, final double[] min, final double[] max)
-'''
-pass
+    '''    public DoubleRangeDocValuesField(final String field, final double[] min, final double[] max)
+    '''
 def getMin():
-'''public double getMin(final int dimension)
-'''
-pass
+    '''    public double getMin(final int dimension)
+    '''
 def getMax():
-'''public double getMax(final int dimension)
-'''
-pass
+    '''    public double getMax(final int dimension)
+    '''
 def newSlowIntersectsQuery():
-'''public static Query newSlowIntersectsQuery(final String field, final double[] min, final double[] max)
-'''
-pass
+    '''    public static Query newSlowIntersectsQuery(final String field, final double[] min, final double[] max)
+    '''

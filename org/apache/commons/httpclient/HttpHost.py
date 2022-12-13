@@ -1,40 +1,31 @@
 def HttpHost():
-'''public HttpHost(final String hostname, final int port, final Protocol protocol)
-public HttpHost(final String hostname, final int port)
-public HttpHost(final String hostname)
-public HttpHost(final URI uri)
-public HttpHost(final HttpHost httphost)
-'''
-pass
+    '''    public HttpHost(final String hostname, final int port, final Protocol protocol)
+    public HttpHost(final String hostname, final int port)
+    public HttpHost(final String hostname)
+    public HttpHost(final URI uri)
+    public HttpHost(final HttpHost httphost)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getProtocol():
-'''public Protocol getProtocol()
-'''
-pass
+    '''    public Protocol getProtocol()
+    '''
 def toURI():
-'''public String toURI()
-'''
-pass
+    '''    public String toURI()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

@@ -1,10 +1,8 @@
-NAMESPACE = "String  urn:xmpp:carbons:2""
-ELEMENT = "String  disable""
+NAMESPACE = "String  \"urn:xmpp:carbons:2\""
+ELEMENT = "String  \"disable\""
 def Enable():
-'''public Enable()
-'''
-pass
+    '''    public Enable()
+    '''
 def Disable():
-'''public Disable()
-'''
-pass
+    '''    public Disable()
+    '''

@@ -1,12 +1,9 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''
 def licrecptcreate():
-'''public int licrecptcreate()
-'''
-pass
+    '''    public int licrecptcreate()
+    '''

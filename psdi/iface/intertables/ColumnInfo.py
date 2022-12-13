@@ -1,36 +1,27 @@
 def ColumnInfo():
-'''public ColumnInfo()
-'''
-pass
+    '''    public ColumnInfo()
+    '''
 def getColumnValue():
-'''public String getColumnValue()
-'''
-pass
+    '''    public String getColumnValue()
+    '''
 def isValueNull():
-'''public boolean isValueNull()
-'''
-pass
+    '''    public boolean isValueNull()
+    '''
 def setColumnValue():
-'''public void setColumnValue(final String c)
-'''
-pass
+    '''    public void setColumnValue(final String c)
+    '''
 def getMboValueInfo():
-'''public MboValueInfo getMboValueInfo()
-'''
-pass
+    '''    public MboValueInfo getMboValueInfo()
+    '''
 def setMboValueInfo():
-'''public void setMboValueInfo(final MboValueInfo e)
-'''
-pass
+    '''    public void setMboValueInfo(final MboValueInfo e)
+    '''
 def getMaxType():
-'''public int getMaxType()
-'''
-pass
+    '''    public int getMaxType()
+    '''
 def setMaxType():
-'''public void setMaxType(final int maxType)
-'''
-pass
+    '''    public void setMaxType(final int maxType)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

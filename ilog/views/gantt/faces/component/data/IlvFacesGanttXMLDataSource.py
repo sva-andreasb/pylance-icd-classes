@@ -1,32 +1,24 @@
 def getComponentType():
-'''public static String getComponentType()
-'''
-pass
+    '''    public static String getComponentType()
+    '''
 def getFamily():
-'''public String getFamily()
-'''
-pass
+    '''    public String getFamily()
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''
 def setFilename():
-'''public void setFilename(final String s)
-'''
-pass
+    '''    public void setFilename(final String s)
+    '''
 def writeModel():
-'''public void writeModel()
-'''
-pass
+    '''    public void writeModel()
+    '''
 def updateModel():
-'''public void updateModel(final FacesContext facesContext)
-'''
-pass
+    '''    public void updateModel(final FacesContext facesContext)
+    '''
 def saveState():
-'''public Object saveState(final FacesContext facesContext)
-'''
-pass
+    '''    public Object saveState(final FacesContext facesContext)
+    '''
 def restoreState():
-'''public void restoreState(final FacesContext facesContext, final Object o)
-'''
-pass
+    '''    public void restoreState(final FacesContext facesContext, final Object o)
+    '''

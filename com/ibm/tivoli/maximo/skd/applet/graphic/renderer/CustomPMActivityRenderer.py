@@ -1,12 +1,9 @@
 def CustomPMActivityRenderer():
-'''public CustomPMActivityRenderer(final IlvActivity activity)
-'''
-pass
+    '''    public CustomPMActivityRenderer(final IlvActivity activity)
+    '''
 def createSelection():
-'''public IlvSelection createSelection(final IlvActivityGraphic g, final String[] properties)
-'''
-pass
+    '''    public IlvSelection createSelection(final IlvActivityGraphic g, final String[] properties)
+    '''
 def draw():
-'''public void draw(final Graphics arg0, final IlvActivityGraphic arg1, final IlvTransformer arg2)
-'''
-pass
+    '''    public void draw(final Graphics arg0, final IlvActivityGraphic arg1, final IlvTransformer arg2)
+    '''

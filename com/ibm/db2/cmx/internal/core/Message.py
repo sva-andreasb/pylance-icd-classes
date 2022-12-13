@@ -1,12 +1,9 @@
 def Message():
-'''public Message(final String processor_, final ByteBuffer payload_)
-'''
-pass
+    '''    public Message(final String processor_, final ByteBuffer payload_)
+    '''
 def getProcessorName():
-'''public String getProcessorName()
-'''
-pass
+    '''    public String getProcessorName()
+    '''
 def getPayload():
-'''public ByteBuffer getPayload()
-'''
-pass
+    '''    public ByteBuffer getPayload()
+    '''

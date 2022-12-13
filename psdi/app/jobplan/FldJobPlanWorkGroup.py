@@ -1,8 +1,6 @@
 def FldJobPlanWorkGroup():
-'''public FldJobPlanWorkGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldJobPlanWorkGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

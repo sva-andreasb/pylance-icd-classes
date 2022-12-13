@@ -1,24 +1,18 @@
 def getNameSet():
-'''public NameSet getNameSet()
-'''
-pass
+    '''    public NameSet getNameSet()
+    '''
 def contains():
-'''public boolean contains(final String fullJavaName)
-'''
-pass
+    '''    public boolean contains(final String fullJavaName)
+    '''
 def hasPreCall():
-'''public boolean hasPreCall()
-'''
-pass
+    '''    public boolean hasPreCall()
+    '''
 def hasPostCall():
-'''public boolean hasPostCall()
-'''
-pass
+    '''    public boolean hasPostCall()
+    '''
 def getStaticHandler():
-'''public String getStaticHandler()
-'''
-pass
+    '''    public String getStaticHandler()
+    '''
 def getHandlerNameForJavaSource():
-'''public String getHandlerNameForJavaSource()
-'''
-pass
+    '''    public String getHandlerNameForJavaSource()
+    '''

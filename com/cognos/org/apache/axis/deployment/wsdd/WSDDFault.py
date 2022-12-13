@@ -1,17 +1,13 @@
 def WSDDFault():
-'''public WSDDFault(final FaultDesc desc)
-public WSDDFault(final Element e)
-'''
-pass
+    '''    public WSDDFault(final FaultDesc desc)
+    public WSDDFault(final Element e)
+    '''
 def writeToContext():
-'''public void writeToContext(final SerializationContext context)
-'''
-pass
+    '''    public void writeToContext(final SerializationContext context)
+    '''
 def getFaultDesc():
-'''public FaultDesc getFaultDesc()
-'''
-pass
+    '''    public FaultDesc getFaultDesc()
+    '''
 def setFaultDesc():
-'''public void setFaultDesc(final FaultDesc desc)
-'''
-pass
+    '''    public void setFaultDesc(final FaultDesc desc)
+    '''

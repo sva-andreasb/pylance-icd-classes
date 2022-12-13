@@ -1,8 +1,6 @@
 def FldMRTransType():
-'''public FldMRTransType(final MboValue mbv)
-'''
-pass
+    '''    public FldMRTransType(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

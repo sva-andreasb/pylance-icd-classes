@@ -1,89 +1,67 @@
 def IfaceColumnInfo():
-'''public IfaceColumnInfo()
-public IfaceColumnInfo(final String name)
-'''
-pass
+    '''    public IfaceColumnInfo()
+    public IfaceColumnInfo(final String name)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def isIdColumn():
-'''public boolean isIdColumn()
-'''
-pass
+    '''    public boolean isIdColumn()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isRestricted():
-'''public boolean isRestricted()
-'''
-pass
+    '''    public boolean isRestricted()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getIfaceTbColName():
-'''public String getIfaceTbColName()
-'''
-pass
+    '''    public String getIfaceTbColName()
+    '''
 def setIfaceTbColName():
-'''public boolean setIfaceTbColName(final String ifaceTbColumn)
-'''
-pass
+    '''    public boolean setIfaceTbColName(final String ifaceTbColumn)
+    '''
 def getMboValueInfo():
-'''public MboValueInfo getMboValueInfo()
-'''
-pass
+    '''    public MboValueInfo getMboValueInfo()
+    '''
 def setMboValueInfo():
-'''public void setMboValueInfo(final MboValueInfo mboValueInfo)
-'''
-pass
+    '''    public void setMboValueInfo(final MboValueInfo mboValueInfo)
+    '''
 def getTableName():
-'''public String getTableName()
-'''
-pass
+    '''    public String getTableName()
+    '''
 def setTableName():
-'''public void setTableName(final String tbName)
-'''
-pass
+    '''    public void setTableName(final String tbName)
+    '''
 def compareTo():
-'''public int compareTo(final Object obj)
-'''
-pass
+    '''    public int compareTo(final Object obj)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isExclude():
-'''public boolean isExclude()
-'''
-pass
+    '''    public boolean isExclude()
+    '''
 def isKey():
-'''public boolean isKey()
-'''
-pass
+    '''    public boolean isKey()
+    '''
 def isNonPersistent():
-'''public boolean isNonPersistent()
-'''
-pass
+    '''    public boolean isNonPersistent()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def isXmlSchemaNillable():
-'''public boolean isXmlSchemaNillable()
-'''
-pass
+    '''    public boolean isXmlSchemaNillable()
+    '''
 def setXmlSchemaNillable():
-'''public void setXmlSchemaNillable(final boolean xmlSchemaNillable)
-'''
-pass
+    '''    public void setXmlSchemaNillable(final boolean xmlSchemaNillable)
+    '''

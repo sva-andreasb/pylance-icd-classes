@@ -1,8 +1,6 @@
 def PurchViewStatusHandler():
-'''public PurchViewStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public PurchViewStatusHandler(final StatefulMbo sm)
+    '''
 def approve():
-'''public void approve(final String desiredStatus, final Date date)
-'''
-pass
+    '''    public void approve(final String desiredStatus, final Date date)
+    '''

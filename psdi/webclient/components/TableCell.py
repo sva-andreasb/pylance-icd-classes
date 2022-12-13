@@ -1,16 +1,12 @@
 def getTableRow():
-'''public TableRow getTableRow()
-'''
-pass
+    '''    public TableRow getTableRow()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''
 def getDisplayRow():
-'''public int getDisplayRow()
-'''
-pass
+    '''    public int getDisplayRow()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''

@@ -1,69 +1,52 @@
 def LDAPAttributeSet():
-'''public LDAPAttributeSet()
-'''
-pass
+    '''    public LDAPAttributeSet()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getAttribute():
-'''public LDAPAttribute getAttribute(final String s)
-public LDAPAttribute getAttribute(final String str, final String str2)
-'''
-pass
+    '''    public LDAPAttribute getAttribute(final String s)
+    public LDAPAttribute getAttribute(final String str, final String str2)
+    '''
 def getSubset():
-'''public LDAPAttributeSet getSubset(final String s)
-'''
-pass
+    '''    public LDAPAttributeSet getSubset(final String s)
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def add():
-'''public boolean add(final Object o)
-'''
-pass
+    '''    public boolean add(final Object o)
+    '''
 def remove():
-'''public boolean remove(final Object o)
-'''
-pass
+    '''    public boolean remove(final Object o)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def addAll():
-'''public boolean addAll(final Collection collection)
-'''
-pass
+    '''    public boolean addAll(final Collection collection)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeDSML():
-'''public void writeDSML(final OutputStream out)
-'''
-pass
+    '''    public void writeDSML(final OutputStream out)
+    '''
 def readDSML():
-'''public static Object readDSML(final InputStream inputStream)
-'''
-pass
+    '''    public static Object readDSML(final InputStream inputStream)
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput objectOutput)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput objectOutput)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput objectInput)
-'''
-pass
+    '''    public void readExternal(final ObjectInput objectInput)
+    '''

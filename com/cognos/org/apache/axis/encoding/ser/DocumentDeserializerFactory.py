@@ -1,4 +1,3 @@
 def DocumentDeserializerFactory():
-'''public DocumentDeserializerFactory()
-'''
-pass
+    '''    public DocumentDeserializerFactory()
+    '''

@@ -1,30 +1,23 @@
 sid = "short  17"
 def IterationRecord():
-'''public IterationRecord(final boolean iterateOn)
-public IterationRecord(final RecordInputStream in)
-'''
-pass
+    '''    public IterationRecord(final boolean iterateOn)
+    public IterationRecord(final RecordInputStream in)
+    '''
 def setIteration():
-'''public void setIteration(final boolean iterate)
-'''
-pass
+    '''    public void setIteration(final boolean iterate)
+    '''
 def getIteration():
-'''public boolean getIteration()
-'''
-pass
+    '''    public boolean getIteration()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public IterationRecord clone()
-'''
-pass
+    '''    public IterationRecord clone()
+    '''

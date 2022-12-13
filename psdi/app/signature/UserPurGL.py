@@ -1,8 +1,6 @@
 def UserPurGL():
-'''public UserPurGL(final MboSet ms)
-'''
-pass
+    '''    public UserPurGL(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

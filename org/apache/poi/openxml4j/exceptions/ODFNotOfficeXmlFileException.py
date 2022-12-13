@@ -1,4 +1,3 @@
 def ODFNotOfficeXmlFileException():
-'''public ODFNotOfficeXmlFileException(final String message)
-'''
-pass
+    '''    public ODFNotOfficeXmlFileException(final String message)
+    '''

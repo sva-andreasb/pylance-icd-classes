@@ -1,12 +1,9 @@
 def ReorderProcIndexes():
-'''public ReorderProcIndexes(final int[] indexes)
-'''
-pass
+    '''    public ReorderProcIndexes(final int[] indexes)
+    '''
 def reorder():
-'''public BasicPattern reorder(final BasicPattern bgp)
-'''
-pass
+    '''    public BasicPattern reorder(final BasicPattern bgp)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

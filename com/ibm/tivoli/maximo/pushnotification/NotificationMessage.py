@@ -1,71 +1,54 @@
 def NotificationMessage():
-'''public NotificationMessage(final String message, final String title, final String subtitle, final Object jsonPayload, final String url)
-public NotificationMessage(final String message, final String title, final String subtitle, final Object jsonPayload, final String url, final String deviceId)
-public NotificationMessage(final String message, final Object jsonPayload, final String url)
-public NotificationMessage(final String message)
-'''
-pass
+    '''    public NotificationMessage(final String message, final String title, final String subtitle, final Object jsonPayload, final String url)
+    public NotificationMessage(final String message, final String title, final String subtitle, final Object jsonPayload, final String url, final String deviceId)
+    public NotificationMessage(final String message, final Object jsonPayload, final String url)
+    public NotificationMessage(final String message)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getMessageURL():
-'''public String getMessageURL()
-'''
-pass
+    '''    public String getMessageURL()
+    '''
 def setImage():
-'''public void setImage(final String image)
-'''
-pass
+    '''    public void setImage(final String image)
+    '''
 def setDeviceId():
-'''public void setDeviceId(final String deviceId)
-'''
-pass
+    '''    public void setDeviceId(final String deviceId)
+    '''
 def getDeviceId():
-'''public String getDeviceId()
-'''
-pass
+    '''    public String getDeviceId()
+    '''
 def setPayload():
-'''public void setPayload(final Object jsonPayload)
-'''
-pass
+    '''    public void setPayload(final Object jsonPayload)
+    '''
 def getPayload():
-'''public JSONObject getPayload()
-'''
-pass
+    '''    public JSONObject getPayload()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getBody():
-'''public String getBody()
-'''
-pass
+    '''    public String getBody()
+    '''
 def setBody():
-'''public void setBody(final String body)
-'''
-pass
+    '''    public void setBody(final String body)
+    '''
 def getImage():
-'''public String getImage()
-'''
-pass
+    '''    public String getImage()
+    '''
 def setExtraData():
-'''public void setExtraData(final String joStr)
-'''
-pass
+    '''    public void setExtraData(final String joStr)
+    '''
 def getExtraData():
-'''public String getExtraData()
-'''
-pass
+    '''    public String getExtraData()
+    '''
 def setBadgeCount():
-'''public void setBadgeCount(final int badge)
-'''
-pass
+    '''    public void setBadgeCount(final int badge)
+    '''
 def getBadgeCount():
-'''public int getBadgeCount()
-'''
-pass
+    '''    public int getBadgeCount()
+    '''

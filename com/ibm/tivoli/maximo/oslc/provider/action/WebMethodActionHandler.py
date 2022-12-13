@@ -1,12 +1,9 @@
 def WebMethodActionHandler():
-'''public WebMethodActionHandler()
-'''
-pass
+    '''    public WebMethodActionHandler()
+    '''
 def isGET():
-'''public boolean isGET()
-'''
-pass
+    '''    public boolean isGET()
+    '''
 def action():
-'''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
-'''
-pass
+    '''    public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''

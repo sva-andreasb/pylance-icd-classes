@@ -15,95 +15,72 @@ DEFLATER_DEFLATED = "int  8"
 DEFLATER_FILTERED = "int  1"
 DEFLATER_HUFFMAN_ONLY = "int  2"
 def ToTiffJaiOptions():
-'''public ToTiffJaiOptions()
-public ToTiffJaiOptions(final boolean multipage)
-'''
-pass
+    '''    public ToTiffJaiOptions()
+    public ToTiffJaiOptions(final boolean multipage)
+    '''
 def isMultipage():
-'''public boolean isMultipage()
-'''
-pass
+    '''    public boolean isMultipage()
+    '''
 def setMultipage():
-'''public void setMultipage(final boolean multipage)
-'''
-pass
+    '''    public void setMultipage(final boolean multipage)
+    '''
 def getTileHeight():
-'''public int getTileHeight()
-'''
-pass
+    '''    public int getTileHeight()
+    '''
 def setTileHeight():
-'''public void setTileHeight(final int tileHeight)
-'''
-pass
+    '''    public void setTileHeight(final int tileHeight)
+    '''
 def getTileWidth():
-'''public int getTileWidth()
-'''
-pass
+    '''    public int getTileWidth()
+    '''
 def setTileWidth():
-'''public void setTileWidth(final int tileWidth)
-'''
-pass
+    '''    public void setTileWidth(final int tileWidth)
+    '''
 def isWriteTiled():
-'''public boolean isWriteTiled()
-'''
-pass
+    '''    public boolean isWriteTiled()
+    '''
 def setWriteTiled():
-'''public void setWriteTiled(final boolean writeTiled)
-'''
-pass
+    '''    public void setWriteTiled(final boolean writeTiled)
+    '''
 def isT4PadEOLs():
-'''public boolean isT4PadEOLs()
-'''
-pass
+    '''    public boolean isT4PadEOLs()
+    '''
 def setT4PadEOLs():
-'''public void setT4PadEOLs(final boolean t4PadEOLs)
-'''
-pass
+    '''    public void setT4PadEOLs(final boolean t4PadEOLs)
+    '''
 def isT4Encode2D():
-'''public boolean isT4Encode2D()
-'''
-pass
+    '''    public boolean isT4Encode2D()
+    '''
 def setT4Encode2D():
-'''public void setT4Encode2D(final boolean t4Encode2D)
-'''
-pass
+    '''    public void setT4Encode2D(final boolean t4Encode2D)
+    '''
 def isReverseFillOrder():
-'''public boolean isReverseFillOrder()
-'''
-pass
+    '''    public boolean isReverseFillOrder()
+    '''
 def setReverseFillOrder():
-'''public void setReverseFillOrder(final boolean reverseFillOrder)
-'''
-pass
+    '''    public void setReverseFillOrder(final boolean reverseFillOrder)
+    '''
 def isLittleEndian():
-'''public boolean isLittleEndian()
-'''
-pass
+    '''    public boolean isLittleEndian()
+    '''
 def setLittleEndian():
-'''public void setLittleEndian(final boolean littleEndian)
-'''
-pass
+    '''    public void setLittleEndian(final boolean littleEndian)
+    '''
 def isJPEGCompressRGBToYCbCr():
-'''public boolean isJPEGCompressRGBToYCbCr()
-'''
-pass
+    '''    public boolean isJPEGCompressRGBToYCbCr()
+    '''
 def setJPEGCompressRGBToYCbCr():
-'''public void setJPEGCompressRGBToYCbCr(final boolean JPEGCompressRGBToYCbCr)
-'''
-pass
+    '''    public void setJPEGCompressRGBToYCbCr(final boolean JPEGCompressRGBToYCbCr)
+    '''
 def getDeflateLevel():
-'''public int getDeflateLevel()
-'''
-pass
+    '''    public int getDeflateLevel()
+    '''
 def setDeflateLevel():
-'''public void setDeflateLevel(final int deflateLevel)
-'''
-pass
+    '''    public void setDeflateLevel(final int deflateLevel)
+    '''
 def getCompression():
-'''public int getCompression()
-'''
-pass
+    '''    public int getCompression()
+    '''
 def setCompression():
-'''public void setCompression(final int compression)
-'''
-pass
+    '''    public void setCompression(final int compression)
+    '''

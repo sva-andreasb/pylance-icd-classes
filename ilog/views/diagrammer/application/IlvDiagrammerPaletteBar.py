@@ -1,54 +1,41 @@
 def IlvDiagrammerPaletteBar():
-'''public IlvDiagrammerPaletteBar(final URL a, final URL b, final int n)
-public IlvDiagrammerPaletteBar()
-public IlvDiagrammerPaletteBar(final boolean automatic, final int n)
-'''
-pass
+    '''    public IlvDiagrammerPaletteBar(final URL a, final URL b, final int n)
+    public IlvDiagrammerPaletteBar()
+    public IlvDiagrammerPaletteBar(final boolean automatic, final int n)
+    '''
 def isAutomatic():
-'''public boolean isAutomatic()
-'''
-pass
+    '''    public boolean isAutomatic()
+    '''
 def setAutomatic():
-'''public void setAutomatic(final boolean c)
-'''
-pass
+    '''    public void setAutomatic(final boolean c)
+    '''
 def addNotify():
-'''public void addNotify()
-'''
-pass
+    '''    public void addNotify()
+    '''
 def removeNotify():
-'''public void removeNotify()
-'''
-pass
+    '''    public void removeNotify()
+    '''
 def getHashFunction():
-'''public IlvDiagrammerHashFunction getHashFunction()
-'''
-pass
+    '''    public IlvDiagrammerHashFunction getHashFunction()
+    '''
 def setHashFunction():
-'''public void setHashFunction(final IlvDiagrammerHashFunction d)
-'''
-pass
+    '''    public void setHashFunction(final IlvDiagrammerHashFunction d)
+    '''
 def getPaletteURL():
-'''public URL getPaletteURL()
-'''
-pass
+    '''    public URL getPaletteURL()
+    '''
 def setPaletteURL():
-'''public void setPaletteURL(final URL a)
-'''
-pass
+    '''    public void setPaletteURL(final URL a)
+    '''
 def getStyleSheet():
-'''public URL getStyleSheet()
-'''
-pass
+    '''    public URL getStyleSheet()
+    '''
 def setStyleSheet():
-'''public void setStyleSheet(final URL b)
-'''
-pass
+    '''    public void setStyleSheet(final URL b)
+    '''
 def getActions():
-'''public static IlvDiagrammerAction[] getActions(final IlvDiagrammer ilvDiagrammer, final IlvDiagrammerHashFunction ilvDiagrammerHashFunction)
-'''
-pass
+    '''    public static IlvDiagrammerAction[] getActions(final IlvDiagrammer ilvDiagrammer, final IlvDiagrammerHashFunction ilvDiagrammerHashFunction)
+    '''
 def targetChanged():
-'''public void targetChanged(final ComponentContextEvent componentContextEvent)
-'''
-pass
+    '''    public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''

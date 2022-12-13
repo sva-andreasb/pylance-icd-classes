@@ -1,36 +1,27 @@
 def initDetailObject():
-'''public Detail initDetailObject()
-'''
-pass
+    '''    public Detail initDetailObject()
+    '''
 def Detail():
-'''public Detail()
-'''
-pass
+    '''    public Detail()
+    '''
 def setFieldInfo():
-'''public void setFieldInfo(final String srcFld, final String targetFld, final String cond1, final String cond2, final boolean srcNull, final boolean targetNull)
-'''
-pass
+    '''    public void setFieldInfo(final String srcFld, final String targetFld, final String cond1, final String cond2, final boolean srcNull, final boolean targetNull)
+    '''
 def getFieldInfo():
-'''public ArrayList<CrossoverFldDetail> getFieldInfo()
-'''
-pass
+    '''    public ArrayList<CrossoverFldDetail> getFieldInfo()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getValidationWhere():
-'''public String getValidationWhere()
-'''
-pass
+    '''    public String getValidationWhere()
+    '''
 def getListWhere():
-'''public String getListWhere()
-'''
-pass
+    '''    public String getListWhere()
+    '''
 def getErrorGroup():
-'''public String getErrorGroup()
-'''
-pass
+    '''    public String getErrorGroup()
+    '''
 def getErrorKey():
-'''public String getErrorKey()
-'''
-pass
+    '''    public String getErrorKey()
+    '''

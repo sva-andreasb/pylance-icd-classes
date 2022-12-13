@@ -1,8 +1,6 @@
 def GetEffectivePrivilegesResponse():
-'''public GetEffectivePrivilegesResponse(final RfcLDAPMessage rfcLDAPMessage)
-'''
-pass
+    '''    public GetEffectivePrivilegesResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''
 def getPrivileges():
-'''public int getPrivileges()
-'''
-pass
+    '''    public int getPrivileges()
+    '''

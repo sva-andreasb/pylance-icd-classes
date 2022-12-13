@@ -1,20 +1,15 @@
 def LinkedItem():
-'''public LinkedItem(final Object value, final LinkedItem nextItem)
-'''
-pass
+    '''    public LinkedItem(final Object value, final LinkedItem nextItem)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def getNext():
-'''public LinkedItem getNext()
-'''
-pass
+    '''    public LinkedItem getNext()
+    '''
 def setNext():
-'''public void setNext(final LinkedItem nextItem)
-'''
-pass
+    '''    public void setNext(final LinkedItem nextItem)
+    '''

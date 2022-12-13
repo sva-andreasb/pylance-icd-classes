@@ -1,68 +1,51 @@
 def setPageStartIndex():
-'''public boolean setPageStartIndex(final int nRow)
-'''
-pass
+    '''    public boolean setPageStartIndex(final int nRow)
+    '''
 def getAMLaborTableBean():
-'''public DataBean getAMLaborTableBean()
-'''
-pass
+    '''    public DataBean getAMLaborTableBean()
+    '''
 def resetWorkList():
-'''public int resetWorkList()
-'''
-pass
+    '''    public int resetWorkList()
+    '''
 def resetLaborList():
-'''public int resetLaborList()
-'''
-pass
+    '''    public int resetLaborList()
+    '''
 def resetWorkAndLaborLists():
-'''public int resetWorkAndLaborLists()
-'''
-pass
+    '''    public int resetWorkAndLaborLists()
+    '''
 def amworkrefresh():
-'''public int amworkrefresh()
-'''
-pass
+    '''    public int amworkrefresh()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def SHOWALLLAB():
-'''public int SHOWALLLAB()
-'''
-pass
+    '''    public int SHOWALLLAB()
+    '''
 def ASSIGNLAB():
-'''public int ASSIGNLAB()
-'''
-pass
+    '''    public int ASSIGNLAB()
+    '''
 def STARTASSN():
-'''public int STARTASSN()
-'''
-pass
+    '''    public int STARTASSN()
+    '''
 def INTRPTASSN():
-'''public int INTRPTASSN()
-'''
-pass
+    '''    public int INTRPTASSN()
+    '''
 def FNSHASSN():
-'''public int FNSHASSN()
-'''
-pass
+    '''    public int FNSHASSN()
+    '''
 def CRWSHOWALL():
-'''public int CRWSHOWALL()
-'''
-pass
+    '''    public int CRWSHOWALL()
+    '''
 def CRWASSIGN():
-'''public int CRWASSIGN()
-'''
-pass
+    '''    public int CRWASSIGN()
+    '''
 def getAMCrewTableBean():
-'''public DataBean getAMCrewTableBean()
-'''
-pass
+    '''    public DataBean getAMCrewTableBean()
+    '''
 def resetCrewList():
-'''public int resetCrewList()
-'''
-pass
+    '''    public int resetCrewList()
+    '''
 def checkWMAssigments():
-'''public void checkWMAssigments(final Vector assigments, final boolean forcrew)
-'''
-pass
+    '''    public void checkWMAssigments(final Vector assigments, final boolean forcrew)
+    '''

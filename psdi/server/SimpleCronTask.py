@@ -1,153 +1,115 @@
 def SimpleCronTask():
-'''public SimpleCronTask()
-'''
-pass
+    '''    public SimpleCronTask()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def getParameterValidationMbo():
-'''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote inst)
-public MboRemote getParameterValidationMbo()
-'''
-pass
+    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote inst)
+    public MboRemote getParameterValidationMbo()
+    '''
 def isOKToRun():
-'''public boolean isOKToRun(final MXServerRemote server)
-'''
-pass
+    '''    public boolean isOKToRun(final MXServerRemote server)
+    '''
 def getParameter():
-'''public synchronized MboRemote getParameter(final String parameter)
-'''
-pass
+    '''    public synchronized MboRemote getParameter(final String parameter)
+    '''
 def getParamAsString():
-'''public String getParamAsString(final String parameter)
-'''
-pass
+    '''    public String getParamAsString(final String parameter)
+    '''
 def getParamAsBoolean():
-'''public boolean getParamAsBoolean(final String parameter)
-'''
-pass
+    '''    public boolean getParamAsBoolean(final String parameter)
+    '''
 def getParamAsInt():
-'''public int getParamAsInt(final String parameter)
-'''
-pass
+    '''    public int getParamAsInt(final String parameter)
+    '''
 def getParamAsDouble():
-'''public double getParamAsDouble(final String parameter)
-'''
-pass
+    '''    public double getParamAsDouble(final String parameter)
+    '''
 def getParamAsDate():
-'''public Date getParamAsDate(final String parameter)
-'''
-pass
+    '''    public Date getParamAsDate(final String parameter)
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''
 def getInterval():
-'''public long getInterval()
-'''
-pass
+    '''    public long getInterval()
+    '''
 def setInterval():
-'''public void setInterval(final long interval)
-'''
-pass
+    '''    public void setInterval(final long interval)
+    '''
 def setSleepTime():
-'''public void setSleepTime(final long time)
-'''
-pass
+    '''    public void setSleepTime(final long time)
+    '''
 def getSleepTime():
-'''public long getSleepTime()
-'''
-pass
+    '''    public long getSleepTime()
+    '''
 def setIntervalFlag():
-'''public void setIntervalFlag(final boolean flag)
-'''
-pass
+    '''    public void setIntervalFlag(final boolean flag)
+    '''
 def getIntervalFlag():
-'''public boolean getIntervalFlag()
-'''
-pass
+    '''    public boolean getIntervalFlag()
+    '''
 def setLastSeed():
-'''public void setLastSeed(final int seed)
-'''
-pass
+    '''    public void setLastSeed(final int seed)
+    '''
 def getLastSeed():
-'''public int getLastSeed()
-'''
-pass
+    '''    public int getLastSeed()
+    '''
 def setDBLastSeed():
-'''public void setDBLastSeed(final int dbseed)
-'''
-pass
+    '''    public void setDBLastSeed(final int dbseed)
+    '''
 def getDBLastSeed():
-'''public int getDBLastSeed()
-'''
-pass
+    '''    public int getDBLastSeed()
+    '''
 def setLastRunDate():
-'''public void setLastRunDate(final Date d)
-'''
-pass
+    '''    public void setLastRunDate(final Date d)
+    '''
 def getLastRunDate():
-'''public Date getLastRunDate()
-'''
-pass
+    '''    public Date getLastRunDate()
+    '''
 def setEnteredValueVector():
-'''public void setEnteredValueVector(final Vector v)
-'''
-pass
+    '''    public void setEnteredValueVector(final Vector v)
+    '''
 def getEnteredValueVector():
-'''public Vector getEnteredValueVector()
-'''
-pass
+    '''    public Vector getEnteredValueVector()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def isShutdown():
-'''public boolean isShutdown()
-'''
-pass
+    '''    public boolean isShutdown()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setCronTaskHistoryMsg():
-'''public void setCronTaskHistoryMsg(final String val)
-'''
-pass
+    '''    public void setCronTaskHistoryMsg(final String val)
+    '''
 def getCronTaskHistoryMsg():
-'''public String getCronTaskHistoryMsg()
-'''
-pass
+    '''    public String getCronTaskHistoryMsg()
+    '''
 def getCronTaskLogger():
-'''public MXLogger getCronTaskLogger()
-'''
-pass
+    '''    public MXLogger getCronTaskLogger()
+    '''
 def getCronTaskSqlLogger():
-'''public MXLogger getCronTaskSqlLogger()
-'''
-pass
+    '''    public MXLogger getCronTaskSqlLogger()
+    '''
 def getCrontaskInstance():
-'''public CrontaskInstanceRemote getCrontaskInstance()
-'''
-pass
+    '''    public CrontaskInstanceRemote getCrontaskInstance()
+    '''
 def getRunasUserInfo():
-'''public final UserInfo getRunasUserInfo()
-'''
-pass
+    '''    public final UserInfo getRunasUserInfo()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def beforeRemoval():
-'''public void beforeRemoval()
-'''
-pass
+    '''    public void beforeRemoval()
+    '''

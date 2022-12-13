@@ -1,12 +1,9 @@
 def MultipleChoiceInputRequest():
-'''public MultipleChoiceInputRequest(final String prompt, final Vector choices)
-'''
-pass
+    '''    public MultipleChoiceInputRequest(final String prompt, final Vector choices)
+    '''
 def getChoices():
-'''public Vector getChoices()
-'''
-pass
+    '''    public Vector getChoices()
+    '''
 def isInputValid():
-'''public boolean isInputValid()
-'''
-pass
+    '''    public boolean isInputValid()
+    '''

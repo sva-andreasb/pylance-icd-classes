@@ -1,20 +1,15 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def filterrows():
-'''public int filterrows()
-'''
-pass
+    '''    public int filterrows()
+    '''
 def sortcolumn():
-'''public int sortcolumn()
-'''
-pass
+    '''    public int sortcolumn()
+    '''
 def clearfilter():
-'''public int clearfilter()
-'''
-pass
+    '''    public int clearfilter()
+    '''

@@ -1,9 +1,7 @@
 def TopicAuthorizationException():
-'''public TopicAuthorizationException(final Set<String> unauthorizedTopics)
-public TopicAuthorizationException(final String unauthorizedTopic)
-'''
-pass
+    '''    public TopicAuthorizationException(final Set<String> unauthorizedTopics)
+    public TopicAuthorizationException(final String unauthorizedTopic)
+    '''
 def unauthorizedTopics():
-'''public Set<String> unauthorizedTopics()
-'''
-pass
+    '''    public Set<String> unauthorizedTopics()
+    '''

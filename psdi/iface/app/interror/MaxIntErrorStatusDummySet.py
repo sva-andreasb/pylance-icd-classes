@@ -1,4 +1,3 @@
 def MaxIntErrorStatusDummySet():
-'''public MaxIntErrorStatusDummySet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIntErrorStatusDummySet(final MboServerInterface ms)
+    '''

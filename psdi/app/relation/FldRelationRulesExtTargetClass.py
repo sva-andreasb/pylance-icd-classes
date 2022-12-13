@@ -1,12 +1,9 @@
 def FldRelationRulesExtTargetClass():
-'''public FldRelationRulesExtTargetClass(final MboValue mbv)
-'''
-pass
+    '''    public FldRelationRulesExtTargetClass(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

@@ -1,8 +1,6 @@
 def StoredProcedureResultImpl():
-'''public StoredProcedureResultImpl()
-'''
-pass
+    '''    public StoredProcedureResultImpl()
+    '''
 def handleCall():
-'''public StoredProcedureResult handleCall(final CallableStatement callableStatement)
-'''
-pass
+    '''    public StoredProcedureResult handleCall(final CallableStatement callableStatement)
+    '''

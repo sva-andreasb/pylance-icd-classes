@@ -1,8 +1,6 @@
 def InitiateWorkflowMbo():
-'''public InitiateWorkflowMbo(final MboSet ms)
-'''
-pass
+    '''    public InitiateWorkflowMbo(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

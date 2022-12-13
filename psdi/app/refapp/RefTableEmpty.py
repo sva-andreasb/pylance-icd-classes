@@ -1,4 +1,3 @@
 def RefTableEmpty():
-'''public RefTableEmpty(final MboSet mboSet)
-'''
-pass
+    '''    public RefTableEmpty(final MboSet mboSet)
+    '''

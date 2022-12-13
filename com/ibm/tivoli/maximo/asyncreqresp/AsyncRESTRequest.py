@@ -1,48 +1,36 @@
 def AsyncRESTRequest():
-'''public AsyncRESTRequest(final JSONObject jo)
-'''
-pass
+    '''    public AsyncRESTRequest(final JSONObject jo)
+    '''
 def getCorrelationid():
-'''public String getCorrelationid()
-'''
-pass
+    '''    public String getCorrelationid()
+    '''
 def getAnswerto():
-'''public String getAnswerto()
-'''
-pass
+    '''    public String getAnswerto()
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def isGET():
-'''public boolean isGET()
-'''
-pass
+    '''    public boolean isGET()
+    '''
 def getResourcePayload():
-'''public byte[] getResourcePayload()
-'''
-pass
+    '''    public byte[] getResourcePayload()
+    '''
 def isPagingOn():
-'''public boolean isPagingOn()
-'''
-pass
+    '''    public boolean isPagingOn()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def getRequestJSON():
-'''public JSONObject getRequestJSON()
-'''
-pass
+    '''    public JSONObject getRequestJSON()
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def getRESTRequest():
-'''public OslcRequest getRESTRequest(final boolean nextPage)
-'''
-pass
+    '''    public OslcRequest getRESTRequest(final boolean nextPage)
+    '''
 def getHttpMethod():
-'''public String getHttpMethod()
-'''
-pass
+    '''    public String getHttpMethod()
+    '''

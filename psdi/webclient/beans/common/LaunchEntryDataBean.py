@@ -1,16 +1,12 @@
 def LaunchEntryDataBean():
-'''public LaunchEntryDataBean()
-'''
-pass
+    '''    public LaunchEntryDataBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def launchselectedentry():
-'''public int launchselectedentry()
-'''
-pass
+    '''    public int launchselectedentry()
+    '''
 def encode():
-'''public String encode(final String url)
-'''
-pass
+    '''    public String encode(final String url)
+    '''

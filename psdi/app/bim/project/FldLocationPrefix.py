@@ -1,8 +1,6 @@
 def FldLocationPrefix():
-'''public FldLocationPrefix(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationPrefix(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

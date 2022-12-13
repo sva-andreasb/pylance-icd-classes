@@ -1,8 +1,6 @@
 def FldMOSObject():
-'''public FldMOSObject(final MboValue mbv)
-'''
-pass
+    '''    public FldMOSObject(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

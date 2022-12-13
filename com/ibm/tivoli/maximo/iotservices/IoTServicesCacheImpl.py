@@ -1,73 +1,55 @@
 def IoTServicesCacheImpl():
-'''public IoTServicesCacheImpl()
-'''
-pass
+    '''    public IoTServicesCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getIotServices():
-'''public Map<String, IoTServicesInfo> getIotServices()
-'''
-pass
+    '''    public Map<String, IoTServicesInfo> getIotServices()
+    '''
 def getPayloadPropsForAllServices():
-'''public Map<String, Map<String, String>> getPayloadPropsForAllServices()
-'''
-pass
+    '''    public Map<String, Map<String, String>> getPayloadPropsForAllServices()
+    '''
 def getPayloadPropsInfoForAllServices():
-'''public Map<String, List<IoTPayloadPropsInfo>> getPayloadPropsInfoForAllServices()
-'''
-pass
+    '''    public Map<String, List<IoTPayloadPropsInfo>> getPayloadPropsInfoForAllServices()
+    '''
 def getIotRestEndPoints():
-'''public Map<String, List<IoTRestEndPointsInfo>> getIotRestEndPoints()
-'''
-pass
+    '''    public Map<String, List<IoTRestEndPointsInfo>> getIotRestEndPoints()
+    '''
 def getDeviceTypeInfoForActiveService():
-'''public Map<String, IoTServiceDeviceTypeInfo> getDeviceTypeInfoForActiveService()
-'''
-pass
+    '''    public Map<String, IoTServiceDeviceTypeInfo> getDeviceTypeInfoForActiveService()
+    '''
 def getJsonResourceForActiveService():
-'''public String getJsonResourceForActiveService()
-'''
-pass
+    '''    public String getJsonResourceForActiveService()
+    '''
 def setJsonResourceForActiveService():
-'''public void setJsonResourceForActiveService(final String jsonResourceForActiveService)
-'''
-pass
+    '''    public void setJsonResourceForActiveService(final String jsonResourceForActiveService)
+    '''
 def getDefaultHistorian():
-'''public String getDefaultHistorian()
-'''
-pass
+    '''    public String getDefaultHistorian()
+    '''
 def setDefaultHistorian():
-'''public void setDefaultHistorian(final String defaultHistorian)
-'''
-pass
+    '''    public void setDefaultHistorian(final String defaultHistorian)
+    '''
 def getDefaultHistorianProcessor():
-'''public String getDefaultHistorianProcessor()
-'''
-pass
+    '''    public String getDefaultHistorianProcessor()
+    '''
 def getDefaultHistorianEndPoint():
-'''public String getDefaultHistorianEndPoint()
-'''
-pass
+    '''    public String getDefaultHistorianEndPoint()
+    '''
 def getDefaultHistorianIotServiceName():
-'''public String getDefaultHistorianIotServiceName()
-'''
-pass
+    '''    public String getDefaultHistorianIotServiceName()
+    '''
 def setDefaultHistorianProcessor():
-'''public void setDefaultHistorianProcessor(final String defaultHistorianProcessor)
-'''
-pass
+    '''    public void setDefaultHistorianProcessor(final String defaultHistorianProcessor)
+    '''
 def setDefaultHistorianEndPoint():
-'''public void setDefaultHistorianEndPoint(final String defaultHistorianEndPoint)
-'''
-pass
+    '''    public void setDefaultHistorianEndPoint(final String defaultHistorianEndPoint)
+    '''

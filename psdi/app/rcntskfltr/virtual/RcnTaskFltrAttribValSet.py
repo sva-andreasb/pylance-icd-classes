@@ -1,16 +1,12 @@
 def RcnTaskFltrAttribValSet():
-'''public RcnTaskFltrAttribValSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RcnTaskFltrAttribValSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def buildClassSpecAttributeList():
-'''public static ArrayList buildClassSpecAttributeList(final String assetclassstructid)
-'''
-pass
+    '''    public static ArrayList buildClassSpecAttributeList(final String assetclassstructid)
+    '''
 def buildAssetAttributeList():
-'''public static ArrayList buildAssetAttributeList()
-'''
-pass
+    '''    public static ArrayList buildAssetAttributeList()
+    '''

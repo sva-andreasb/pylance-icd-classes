@@ -1,4 +1,3 @@
 def escape():
-'''public static String escape(final String s)
-'''
-pass
+    '''    public static String escape(final String s)
+    '''

@@ -1,161 +1,121 @@
 def getDetail():
-'''public Detail getDetail()
-'''
-pass
+    '''    public Detail getDetail()
+    '''
 def setDetail():
-'''public void setDetail(final Detail detail)
-'''
-pass
+    '''    public void setDetail(final Detail detail)
+    '''
 def setPropertyType():
-'''public void setPropertyType(final com.softlayer.api.service.account.regional.registry.detail.property.Type propertyType)
-'''
-pass
+    '''    public void setPropertyType(final com.softlayer.api.service.account.regional.registry.detail.property.Type propertyType)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getPropertyTypeId():
-'''public Long getPropertyTypeId()
-'''
-pass
+    '''    public Long getPropertyTypeId()
+    '''
 def setPropertyTypeId():
-'''public void setPropertyTypeId(final Long propertyTypeId)
-'''
-pass
+    '''    public void setPropertyTypeId(final Long propertyTypeId)
+    '''
 def isPropertyTypeIdSpecified():
-'''public boolean isPropertyTypeIdSpecified()
-'''
-pass
+    '''    public boolean isPropertyTypeIdSpecified()
+    '''
 def unsetPropertyTypeId():
-'''public void unsetPropertyTypeId()
-'''
-pass
+    '''    public void unsetPropertyTypeId()
+    '''
 def getRegistrationDetailId():
-'''public Long getRegistrationDetailId()
-'''
-pass
+    '''    public Long getRegistrationDetailId()
+    '''
 def setRegistrationDetailId():
-'''public void setRegistrationDetailId(final Long registrationDetailId)
-'''
-pass
+    '''    public void setRegistrationDetailId(final Long registrationDetailId)
+    '''
 def isRegistrationDetailIdSpecified():
-'''public boolean isRegistrationDetailIdSpecified()
-'''
-pass
+    '''    public boolean isRegistrationDetailIdSpecified()
+    '''
 def unsetRegistrationDetailId():
-'''public void unsetRegistrationDetailId()
-'''
-pass
+    '''    public void unsetRegistrationDetailId()
+    '''
 def getSequencePosition():
-'''public Long getSequencePosition()
-'''
-pass
+    '''    public Long getSequencePosition()
+    '''
 def setSequencePosition():
-'''public void setSequencePosition(final Long sequencePosition)
-'''
-pass
+    '''    public void setSequencePosition(final Long sequencePosition)
+    '''
 def isSequencePositionSpecified():
-'''public boolean isSequencePositionSpecified()
-'''
-pass
+    '''    public boolean isSequencePositionSpecified()
+    '''
 def unsetSequencePosition():
-'''public void unsetSequencePosition()
-'''
-pass
+    '''    public void unsetSequencePosition()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def isValueSpecified():
-'''public boolean isValueSpecified()
-'''
-pass
+    '''    public boolean isValueSpecified()
+    '''
 def unsetValue():
-'''public void unsetValue()
-'''
-pass
+    '''    public void unsetValue()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def propertyTypeId():
-'''public Mask propertyTypeId()
-'''
-pass
+    '''    public Mask propertyTypeId()
+    '''
 def registrationDetailId():
-'''public Mask registrationDetailId()
-'''
-pass
+    '''    public Mask registrationDetailId()
+    '''
 def sequencePosition():
-'''public Mask sequencePosition()
-'''
-pass
+    '''    public Mask sequencePosition()
+    '''
 def value():
-'''public Mask value()
-'''
-pass
+    '''    public Mask value()
+    '''

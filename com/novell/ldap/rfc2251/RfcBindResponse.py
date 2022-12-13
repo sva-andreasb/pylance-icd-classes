@@ -1,28 +1,21 @@
 def RfcBindResponse():
-'''public RfcBindResponse(final ASN1Decoder asn1Decoder, final InputStream inputStream, final int n)
-'''
-pass
+    '''    public RfcBindResponse(final ASN1Decoder asn1Decoder, final InputStream inputStream, final int n)
+    '''
 def getResultCode():
-'''public final ASN1Enumerated getResultCode()
-'''
-pass
+    '''    public final ASN1Enumerated getResultCode()
+    '''
 def getMatchedDN():
-'''public final RfcLDAPDN getMatchedDN()
-'''
-pass
+    '''    public final RfcLDAPDN getMatchedDN()
+    '''
 def getErrorMessage():
-'''public final RfcLDAPString getErrorMessage()
-'''
-pass
+    '''    public final RfcLDAPString getErrorMessage()
+    '''
 def getReferral():
-'''public final RfcReferral getReferral()
-'''
-pass
+    '''    public final RfcReferral getReferral()
+    '''
 def getServerSaslCreds():
-'''public final ASN1OctetString getServerSaslCreds()
-'''
-pass
+    '''    public final ASN1OctetString getServerSaslCreds()
+    '''
 def getIdentifier():
-'''public final ASN1Identifier getIdentifier()
-'''
-pass
+    '''    public final ASN1Identifier getIdentifier()
+    '''

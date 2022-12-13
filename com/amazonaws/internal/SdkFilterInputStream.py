@@ -1,37 +1,28 @@
 def isMetricActivated():
-'''public boolean isMetricActivated()
-'''
-pass
+    '''    public boolean isMetricActivated()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, final int len)
+    '''
 def skip():
-'''public long skip(final long n)
-'''
-pass
+    '''    public long skip(final long n)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def mark():
-'''public synchronized void mark(final int readlimit)
-'''
-pass
+    '''    public synchronized void mark(final int readlimit)
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''

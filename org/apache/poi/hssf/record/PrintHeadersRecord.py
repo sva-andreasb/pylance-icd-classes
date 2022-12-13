@@ -1,30 +1,23 @@
 sid = "short  42"
 def PrintHeadersRecord():
-'''public PrintHeadersRecord()
-public PrintHeadersRecord(final RecordInputStream in)
-'''
-pass
+    '''    public PrintHeadersRecord()
+    public PrintHeadersRecord(final RecordInputStream in)
+    '''
 def setPrintHeaders():
-'''public void setPrintHeaders(final boolean p)
-'''
-pass
+    '''    public void setPrintHeaders(final boolean p)
+    '''
 def getPrintHeaders():
-'''public boolean getPrintHeaders()
-'''
-pass
+    '''    public boolean getPrintHeaders()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

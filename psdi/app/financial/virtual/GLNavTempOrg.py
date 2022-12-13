@@ -1,4 +1,3 @@
 def GLNavTempOrg():
-'''public GLNavTempOrg(final MboSet ms)
-'''
-pass
+    '''    public GLNavTempOrg(final MboSet ms)
+    '''

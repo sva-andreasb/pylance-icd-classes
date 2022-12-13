@@ -7,115 +7,87 @@ PDF417_USE_ERROR_LEVEL = "int  16"
 PDF417_USE_RAW_CODEWORDS = "int  64"
 PDF417_INVERT_BITMAP = "int  128"
 def BarcodePDF417():
-'''public BarcodePDF417()
-'''
-pass
+    '''    public BarcodePDF417()
+    '''
 def setDefaultParameters():
-'''public void setDefaultParameters()
-'''
-pass
+    '''    public void setDefaultParameters()
+    '''
 def paintCode():
-'''public void paintCode()
-'''
-pass
+    '''    public void paintCode()
+    '''
 def getImage():
-'''public Image getImage()
-'''
-pass
+    '''    public Image getImage()
+    '''
 def getOutBits():
-'''public byte[] getOutBits()
-'''
-pass
+    '''    public byte[] getOutBits()
+    '''
 def getBitColumns():
-'''public int getBitColumns()
-'''
-pass
+    '''    public int getBitColumns()
+    '''
 def getCodeRows():
-'''public int getCodeRows()
-'''
-pass
+    '''    public int getCodeRows()
+    '''
 def setCodeRows():
-'''public void setCodeRows(final int codeRows)
-'''
-pass
+    '''    public void setCodeRows(final int codeRows)
+    '''
 def getCodeColumns():
-'''public int getCodeColumns()
-'''
-pass
+    '''    public int getCodeColumns()
+    '''
 def setCodeColumns():
-'''public void setCodeColumns(final int codeColumns)
-'''
-pass
+    '''    public void setCodeColumns(final int codeColumns)
+    '''
 def getCodewords():
-'''public int[] getCodewords()
-'''
-pass
+    '''    public int[] getCodewords()
+    '''
 def getLenCodewords():
-'''public int getLenCodewords()
-'''
-pass
+    '''    public int getLenCodewords()
+    '''
 def setLenCodewords():
-'''public void setLenCodewords(final int lenCodewords)
-'''
-pass
+    '''    public void setLenCodewords(final int lenCodewords)
+    '''
 def getErrorLevel():
-'''public int getErrorLevel()
-'''
-pass
+    '''    public int getErrorLevel()
+    '''
 def setErrorLevel():
-'''public void setErrorLevel(final int errorLevel)
-'''
-pass
+    '''    public void setErrorLevel(final int errorLevel)
+    '''
 def getText():
-'''public byte[] getText()
-'''
-pass
+    '''    public byte[] getText()
+    '''
 def setText():
-'''public void setText(final byte[] text)
-public void setText(final String s)
-'''
-pass
+    '''    public void setText(final byte[] text)
+    public void setText(final String s)
+    '''
 def getOptions():
-'''public int getOptions()
-'''
-pass
+    '''    public int getOptions()
+    '''
 def setOptions():
-'''public void setOptions(final int options)
-'''
-pass
+    '''    public void setOptions(final int options)
+    '''
 def getAspectRatio():
-'''public float getAspectRatio()
-'''
-pass
+    '''    public float getAspectRatio()
+    '''
 def setAspectRatio():
-'''public void setAspectRatio(final float aspectRatio)
-'''
-pass
+    '''    public void setAspectRatio(final float aspectRatio)
+    '''
 def getYHeight():
-'''public float getYHeight()
-'''
-pass
+    '''    public float getYHeight()
+    '''
 def setYHeight():
-'''public void setYHeight(final float yHeight)
-'''
-pass
+    '''    public void setYHeight(final float yHeight)
+    '''
 def Segment():
-'''public Segment(final char type, final int start, final int end)
-'''
-pass
+    '''    public Segment(final char type, final int start, final int end)
+    '''
 def add():
-'''public void add(final char type, final int start, final int end)
-'''
-pass
+    '''    public void add(final char type, final int start, final int end)
+    '''
 def get():
-'''public Segment get(final int idx)
-'''
-pass
+    '''    public Segment get(final int idx)
+    '''
 def remove():
-'''public void remove(final int idx)
-'''
-pass
+    '''    public void remove(final int idx)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''

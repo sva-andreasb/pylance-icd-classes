@@ -1,32 +1,24 @@
 def AbstractComponentFactory():
-'''public AbstractComponentFactory()
-'''
-pass
+    '''    public AbstractComponentFactory()
+    '''
 def newInstance():
-'''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
-'''
-pass
+    '''    public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''
 def setChild():
-'''public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
-'''
-pass
+    '''    public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
+    '''
 def getMetaClass():
-'''public MetaClass getMetaClass()
-'''
-pass
+    '''    public MetaClass getMetaClass()
+    '''
 def setMetaClass():
-'''public void setMetaClass(final MetaClass metaClass)
-'''
-pass
+    '''    public void setMetaClass(final MetaClass metaClass)
+    '''
 def invokeMethod():
-'''public Object invokeMethod(final String s, final Object o)
-'''
-pass
+    '''    public Object invokeMethod(final String s, final Object o)
+    '''
 def getProperty():
-'''public Object getProperty(final String s)
-'''
-pass
+    '''    public Object getProperty(final String s)
+    '''
 def setProperty():
-'''public void setProperty(final String s, final Object o)
-'''
-pass
+    '''    public void setProperty(final String s, final Object o)
+    '''

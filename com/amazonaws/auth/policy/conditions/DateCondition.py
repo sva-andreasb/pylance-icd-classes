@@ -1,4 +1,3 @@
 def DateCondition():
-'''public DateCondition(final DateComparisonType type, final Date date)
-'''
-pass
+    '''    public DateCondition(final DateComparisonType type, final Date date)
+    '''

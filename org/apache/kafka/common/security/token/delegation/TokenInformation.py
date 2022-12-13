@@ -1,56 +1,42 @@
 def TokenInformation():
-'''public TokenInformation(final String tokenId, final KafkaPrincipal owner, final Collection<KafkaPrincipal> renewers, final long issueTimestamp, final long maxTimestamp, final long expiryTimestamp)
-'''
-pass
+    '''    public TokenInformation(final String tokenId, final KafkaPrincipal owner, final Collection<KafkaPrincipal> renewers, final long issueTimestamp, final long maxTimestamp, final long expiryTimestamp)
+    '''
 def owner():
-'''public KafkaPrincipal owner()
-'''
-pass
+    '''    public KafkaPrincipal owner()
+    '''
 def ownerAsString():
-'''public String ownerAsString()
-'''
-pass
+    '''    public String ownerAsString()
+    '''
 def renewers():
-'''public Collection<KafkaPrincipal> renewers()
-'''
-pass
+    '''    public Collection<KafkaPrincipal> renewers()
+    '''
 def renewersAsString():
-'''public Collection<String> renewersAsString()
-'''
-pass
+    '''    public Collection<String> renewersAsString()
+    '''
 def issueTimestamp():
-'''public long issueTimestamp()
-'''
-pass
+    '''    public long issueTimestamp()
+    '''
 def expiryTimestamp():
-'''public long expiryTimestamp()
-'''
-pass
+    '''    public long expiryTimestamp()
+    '''
 def setExpiryTimestamp():
-'''public void setExpiryTimestamp(final long expiryTimestamp)
-'''
-pass
+    '''    public void setExpiryTimestamp(final long expiryTimestamp)
+    '''
 def tokenId():
-'''public String tokenId()
-'''
-pass
+    '''    public String tokenId()
+    '''
 def maxTimestamp():
-'''public long maxTimestamp()
-'''
-pass
+    '''    public long maxTimestamp()
+    '''
 def ownerOrRenewer():
-'''public boolean ownerOrRenewer(final KafkaPrincipal principal)
-'''
-pass
+    '''    public boolean ownerOrRenewer(final KafkaPrincipal principal)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

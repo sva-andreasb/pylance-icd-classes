@@ -1,40 +1,30 @@
 def LoadXMLFileCronTask():
-'''public LoadXMLFileCronTask()
-'''
-pass
+    '''    public LoadXMLFileCronTask()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''
 def releaseResources():
-'''public void releaseResources()
-'''
-pass
+    '''    public void releaseResources()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def isOKToRun():
-'''public synchronized boolean isOKToRun(final MXServerRemote server)
-'''
-pass
+    '''    public synchronized boolean isOKToRun(final MXServerRemote server)
+    '''
 def processData():
-'''public void processData()
-'''
-pass
+    '''    public void processData()
+    '''

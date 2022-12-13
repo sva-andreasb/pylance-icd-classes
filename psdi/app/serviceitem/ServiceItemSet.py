@@ -1,4 +1,3 @@
 def ServiceItemSet():
-'''public ServiceItemSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ServiceItemSet(final MboServerInterface ms)
+    '''

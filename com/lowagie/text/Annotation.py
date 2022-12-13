@@ -7,91 +7,72 @@ NAMED_DEST = "int  5"
 LAUNCH = "int  6"
 SCREEN = "int  7"
 def Annotation():
-'''public Annotation(final String title, final String text)
-public Annotation(final String title, final String text, final float llx, final float lly, final float urx, final float ury)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final URL url)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final String url)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final String file, final String dest)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final String moviePath, final String mimeType, final boolean showOnDisplay)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final String file, final int page)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final int named)
-public Annotation(final float llx, final float lly, final float urx, final float ury, final String application, final String parameters, final String operation, final String defaultdir)
-public Annotation(final Properties attributes)
-'''
-pass
+    '''    public Annotation(final String title, final String text)
+    public Annotation(final String title, final String text, final float llx, final float lly, final float urx, final float ury)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final URL url)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final String url)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final String file, final String dest)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final String moviePath, final String mimeType, final boolean showOnDisplay)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final String file, final int page)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final int named)
+    public Annotation(final float llx, final float lly, final float urx, final float ury, final String application, final String parameters, final String operation, final String defaultdir)
+    public Annotation(final Properties attributes)
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def process():
-'''public boolean process(final ElementListener listener)
-'''
-pass
+    '''    public boolean process(final ElementListener listener)
+    '''
 def getChunks():
-'''public ArrayList getChunks()
-'''
-pass
+    '''    public ArrayList getChunks()
+    '''
 def setDimensions():
-'''public void setDimensions(final float llx, final float lly, final float urx, final float ury)
-'''
-pass
+    '''    public void setDimensions(final float llx, final float lly, final float urx, final float ury)
+    '''
 def llx():
-'''public float llx()
-public float llx(final float def)
-'''
-pass
+    '''    public float llx()
+    public float llx(final float def)
+    '''
 def lly():
-'''public float lly()
-public float lly(final float def)
-'''
-pass
+    '''    public float lly()
+    public float lly(final float def)
+    '''
 def urx():
-'''public float urx()
-public float urx(final float def)
-'''
-pass
+    '''    public float urx()
+    public float urx(final float def)
+    '''
 def ury():
-'''public float ury()
-public float ury(final float def)
-'''
-pass
+    '''    public float ury()
+    public float ury(final float def)
+    '''
 def annotationType():
-'''public int annotationType()
-'''
-pass
+    '''    public int annotationType()
+    '''
 def title():
-'''public String title()
-'''
-pass
+    '''    public String title()
+    '''
 def content():
-'''public String content()
-'''
-pass
+    '''    public String content()
+    '''
 def attributes():
-'''public HashMap attributes()
-'''
-pass
+    '''    public HashMap attributes()
+    '''
 def isTag():
-'''public static boolean isTag(final String tag)
-'''
-pass
+    '''    public static boolean isTag(final String tag)
+    '''
 def setMarkupAttribute():
-'''public void setMarkupAttribute(final String name, final String value)
-'''
-pass
+    '''    public void setMarkupAttribute(final String name, final String value)
+    '''
 def setMarkupAttributes():
-'''public void setMarkupAttributes(final Properties markupAttributes)
-'''
-pass
+    '''    public void setMarkupAttributes(final Properties markupAttributes)
+    '''
 def getMarkupAttribute():
-'''public String getMarkupAttribute(final String name)
-'''
-pass
+    '''    public String getMarkupAttribute(final String name)
+    '''
 def getMarkupAttributeNames():
-'''public Set getMarkupAttributeNames()
-'''
-pass
+    '''    public Set getMarkupAttributeNames()
+    '''
 def getMarkupAttributes():
-'''public Properties getMarkupAttributes()
-'''
-pass
+    '''    public Properties getMarkupAttributes()
+    '''

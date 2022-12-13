@@ -1,48 +1,36 @@
 def getSigOptionName():
-'''public String getSigOptionName()
-'''
-pass
+    '''    public String getSigOptionName()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getAlsoGrants():
-'''public String getAlsoGrants()
-'''
-pass
+    '''    public String getAlsoGrants()
+    '''
 def getAlsoRevokes():
-'''public String getAlsoRevokes()
-'''
-pass
+    '''    public String getAlsoRevokes()
+    '''
 def getPrerequisite():
-'''public String getPrerequisite()
-'''
-pass
+    '''    public String getPrerequisite()
+    '''
 def isEsigEnabled():
-'''public boolean isEsigEnabled()
-'''
-pass
+    '''    public boolean isEsigEnabled()
+    '''
 def isEsEnabledAsString():
-'''public String isEsEnabledAsString()
-'''
-pass
+    '''    public String isEsEnabledAsString()
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getLongDescription():
-'''public String getLongDescription()
-'''
-pass
+    '''    public String getLongDescription()
+    '''
 def getValue():
-'''public String getValue(final String in)
-'''
-pass
+    '''    public String getValue(final String in)
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

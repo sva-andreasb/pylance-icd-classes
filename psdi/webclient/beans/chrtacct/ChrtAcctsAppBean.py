@@ -1,17 +1,13 @@
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final String sigOption)
-public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final String sigOption)
+    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''
 def INSERT():
-'''public int INSERT()
-'''
-pass
+    '''    public int INSERT()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def checkESigAuthenticated():
-'''public void checkESigAuthenticated(String option)
-'''
-pass
+    '''    public void checkESigAuthenticated(String option)
+    '''

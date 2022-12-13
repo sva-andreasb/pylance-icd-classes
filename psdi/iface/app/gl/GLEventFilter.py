@@ -1,8 +1,6 @@
 def GLEventFilter():
-'''public GLEventFilter(final PublishInfo pubInfo)
-'''
-pass
+    '''    public GLEventFilter(final PublishInfo pubInfo)
+    '''
 def getEventObjects():
-'''public Set<String> getEventObjects()
-'''
-pass
+    '''    public Set<String> getEventObjects()
+    '''

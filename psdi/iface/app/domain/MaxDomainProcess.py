@@ -1,16 +1,12 @@
 def MaxDomainProcess():
-'''public MaxDomainProcess()
-'''
-pass
+    '''    public MaxDomainProcess()
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''
 def delete():
-'''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
-'''
-pass
+    '''    public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''
 def afterReplace():
-'''public void afterReplace(final MboRemote child)
-'''
-pass
+    '''    public void afterReplace(final MboRemote child)
+    '''

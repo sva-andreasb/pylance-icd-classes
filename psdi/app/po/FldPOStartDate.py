@@ -1,8 +1,6 @@
 def FldPOStartDate():
-'''public FldPOStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldPOStartDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

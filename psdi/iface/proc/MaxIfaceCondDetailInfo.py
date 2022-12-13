@@ -1,100 +1,75 @@
 def getCondName():
-'''public String getCondName()
-'''
-pass
+    '''    public String getCondName()
+    '''
 def setCondName():
-'''public void setCondName(final String c)
-'''
-pass
+    '''    public void setCondName(final String c)
+    '''
 def getColumn():
-'''public String getColumn()
-'''
-pass
+    '''    public String getColumn()
+    '''
 def setColumn():
-'''public void setColumn(final String c)
-'''
-pass
+    '''    public void setColumn(final String c)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String v)
-'''
-pass
+    '''    public void setValue(final String v)
+    '''
 def getEvalType():
-'''public String getEvalType()
-'''
-pass
+    '''    public String getEvalType()
+    '''
 def setEvalType():
-'''public void setEvalType(final String e)
-'''
-pass
+    '''    public void setEvalType(final String e)
+    '''
 def setGLOrder():
-'''public void setGLOrder(final int o)
-'''
-pass
+    '''    public void setGLOrder(final int o)
+    '''
 def setHasGLOrder():
-'''public void setHasGLOrder(final boolean ord)
-'''
-pass
+    '''    public void setHasGLOrder(final boolean ord)
+    '''
 def getCompareType():
-'''public String getCompareType()
-'''
-pass
+    '''    public String getCompareType()
+    '''
 def setCompareType():
-'''public void setCompareType(final String e)
-'''
-pass
+    '''    public void setCompareType(final String e)
+    '''
 def getCondType():
-'''public String getCondType()
-'''
-pass
+    '''    public String getCondType()
+    '''
 def setCondType():
-'''public void setCondType(final String c)
-'''
-pass
+    '''    public void setCondType(final String c)
+    '''
 def setChangeType():
-'''public void setChangeType(final String c)
-'''
-pass
+    '''    public void setChangeType(final String c)
+    '''
 def getChangeType():
-'''public String getChangeType()
-'''
-pass
+    '''    public String getChangeType()
+    '''
 def getGLOrder():
-'''public int getGLOrder()
-'''
-pass
+    '''    public int getGLOrder()
+    '''
 def hasGLOrder():
-'''public boolean hasGLOrder()
-'''
-pass
+    '''    public boolean hasGLOrder()
+    '''
 def getMboTbName():
-'''public String getMboTbName()
-'''
-pass
+    '''    public String getMboTbName()
+    '''
 def setMboTbName():
-'''public void setMboTbName(final String n)
-'''
-pass
+    '''    public void setMboTbName(final String n)
+    '''
 def getMboColumnName():
-'''public String getMboColumnName()
-'''
-pass
+    '''    public String getMboColumnName()
+    '''
 def setMboColumnName():
-'''public void setMboColumnName(final String n)
-'''
-pass
+    '''    public void setMboColumnName(final String n)
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def setRelation():
-'''public void setRelation(final String n)
-'''
-pass
+    '''    public void setRelation(final String n)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

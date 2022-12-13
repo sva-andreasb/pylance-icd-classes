@@ -1,8 +1,6 @@
 def getHook():
-'''public static XmlFactoryHook getHook()
-'''
-pass
+    '''    public static XmlFactoryHook getHook()
+    '''
 def setHook():
-'''public static void setHook(final XmlFactoryHook hook)
-'''
-pass
+    '''    public static void setHook(final XmlFactoryHook hook)
+    '''

@@ -1,68 +1,51 @@
 def HTMLFormElement():
-'''public HTMLFormElement(final DOMObject domObject, final HTMLDocument htmlDocument)
-'''
-pass
+    '''    public HTMLFormElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+    '''
 def getElements():
-'''public HTMLCollection getElements()
-'''
-pass
+    '''    public HTMLCollection getElements()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getAcceptCharset():
-'''public String getAcceptCharset()
-'''
-pass
+    '''    public String getAcceptCharset()
+    '''
 def setAcceptCharset():
-'''public void setAcceptCharset(final String s)
-'''
-pass
+    '''    public void setAcceptCharset(final String s)
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def setAction():
-'''public void setAction(final String s)
-'''
-pass
+    '''    public void setAction(final String s)
+    '''
 def getEnctype():
-'''public String getEnctype()
-'''
-pass
+    '''    public String getEnctype()
+    '''
 def setEnctype():
-'''public void setEnctype(final String s)
-'''
-pass
+    '''    public void setEnctype(final String s)
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''
 def setMethod():
-'''public void setMethod(final String s)
-'''
-pass
+    '''    public void setMethod(final String s)
+    '''
 def getTarget():
-'''public String getTarget()
-'''
-pass
+    '''    public String getTarget()
+    '''
 def setTarget():
-'''public void setTarget(final String s)
-'''
-pass
+    '''    public void setTarget(final String s)
+    '''
 def submit():
-'''public void submit()
-'''
-pass
+    '''    public void submit()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

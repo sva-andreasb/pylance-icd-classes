@@ -1,22 +1,17 @@
 def ContentLengthInputStream():
-'''public ContentLengthInputStream(final SessionInputBuffer in, final long contentLength)
-'''
-pass
+    '''    public ContentLengthInputStream(final SessionInputBuffer in, final long contentLength)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    '''
 def skip():
-'''public long skip(final long n)
-'''
-pass
+    '''    public long skip(final long n)
+    '''

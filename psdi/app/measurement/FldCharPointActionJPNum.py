@@ -1,4 +1,3 @@
 def FldCharPointActionJPNum():
-'''public FldCharPointActionJPNum(final MboValue mbv)
-'''
-pass
+    '''    public FldCharPointActionJPNum(final MboValue mbv)
+    '''

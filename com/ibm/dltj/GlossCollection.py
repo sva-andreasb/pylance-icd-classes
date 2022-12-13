@@ -1,121 +1,95 @@
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def GlossCollection():
-'''public GlossCollection()
-public GlossCollection(final GlossCollection collection)
-public GlossCollection(final Gloss gloss)
-public GlossCollection(final Gloss gloss, final Dictionary dictionary)
-public GlossCollection(final GlossCollection collection, final Dictionary dictionary)
-public GlossCollection(final GlossListElement first)
-'''
-pass
+    '''    public GlossCollection()
+    public GlossCollection(final GlossCollection collection)
+    public GlossCollection(final Gloss gloss)
+    public GlossCollection(final Gloss gloss, final Dictionary dictionary)
+    public GlossCollection(final GlossCollection collection, final Dictionary dictionary)
+    public GlossCollection(final GlossListElement first)
+    '''
 def setOwnerDictionary():
-'''public void setOwnerDictionary(final Dictionary ownerDictionary)
-'''
-pass
+    '''    public void setOwnerDictionary(final Dictionary ownerDictionary)
+    '''
 def add():
-'''public boolean add(final Gloss gloss)
-public boolean add(final Gloss gloss, final Dictionary dictionary)
-public boolean add(final Object o)
-'''
-pass
+    '''    public boolean add(final Gloss gloss)
+    public boolean add(final Gloss gloss, final Dictionary dictionary)
+    public boolean add(final Object o)
+    '''
 def addAll():
-'''public boolean addAll(final GlossListElement glossListElement)
-public boolean addAll(final GlossListElement glossListElement, final Dictionary dictionary)
-public boolean addAll(final Collection collection)
-public boolean addAll(final GlossCollection collection)
-public boolean addAll(final GlossCollection collection, final Dictionary dictionary)
-'''
-pass
+    '''    public boolean addAll(final GlossListElement glossListElement)
+    public boolean addAll(final GlossListElement glossListElement, final Dictionary dictionary)
+    public boolean addAll(final Collection collection)
+    public boolean addAll(final GlossCollection collection)
+    public boolean addAll(final GlossCollection collection, final Dictionary dictionary)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def contains():
-'''public boolean contains(final Gloss gloss)
-public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Gloss gloss)
+    public boolean contains(final Object o)
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection collection)
-public boolean containsAll(final GlossCollection collection)
-'''
-pass
+    '''    public boolean containsAll(final Collection collection)
+    public boolean containsAll(final GlossCollection collection)
+    '''
 def getFirst():
-'''public GlossListElement getFirst()
-'''
-pass
+    '''    public GlossListElement getFirst()
+    '''
 def getGloss():
-'''public Gloss getGloss(final Class clazz)
-'''
-pass
+    '''    public Gloss getGloss(final Class clazz)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def remove():
-'''public boolean remove(final Gloss gloss)
-public boolean remove(final Object o)
-public void remove()
-'''
-pass
+    '''    public boolean remove(final Gloss gloss)
+    public boolean remove(final Object o)
+    public void remove()
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection collection)
-public boolean removeAll(final GlossCollection collection)
-'''
-pass
+    '''    public boolean removeAll(final Collection collection)
+    public boolean removeAll(final GlossCollection collection)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection collection)
-'''
-pass
+    '''    public boolean retainAll(final Collection collection)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def sort():
-'''public void sort(final Comparator c)
-'''
-pass
+    '''    public void sort(final Comparator c)
+    '''
 def toArray():
-'''public Object[] toArray()
-public Object[] toArray(Object[] array)
-'''
-pass
+    '''    public Object[] toArray()
+    public Object[] toArray(Object[] array)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def isGeneric():
-'''public boolean isGeneric()
-'''
-pass
+    '''    public boolean isGeneric()
+    '''
 def writeGlossCollectionDetails():
-'''public int writeGlossCollectionDetails(final DataOutput dataOutput, final GlossMapper glossMapper)
-'''
-pass
+    '''    public int writeGlossCollectionDetails(final DataOutput dataOutput, final GlossMapper glossMapper)
+    '''
 def readGlossCollectionDetails():
-'''public int readGlossCollectionDetails(final DataInput dataInput, final Dictionary dictionary)
-'''
-pass
+    '''    public int readGlossCollectionDetails(final DataInput dataInput, final Dictionary dictionary)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

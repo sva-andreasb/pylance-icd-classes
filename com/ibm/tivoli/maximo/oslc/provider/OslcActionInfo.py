@@ -1,62 +1,48 @@
-TYPE_WORKFLOW = "String workflow""
-TYPE_SCRIPT = "String script""
-TYPE_WSMETHOD = "String wsmethod""
-TYPE_SYSTEM = "String system""
-TYPE_VIRTUAL = "String virtual""
+TYPE_WORKFLOW = "String  \"workflow\""
+TYPE_SCRIPT = "String  \"script\""
+TYPE_WSMETHOD = "String  \"wsmethod\""
+TYPE_SYSTEM = "String  \"system\""
+TYPE_VIRTUAL = "String  \"virtual\""
 def getOption():
-'''public String getOption()
-'''
-pass
+    '''    public String getOption()
+    '''
 def getApp():
-'''public String getApp()
-'''
-pass
+    '''    public String getApp()
+    '''
 def OslcActionInfo():
-'''public OslcActionInfo(final String name, final String impl, final String type)
-public OslcActionInfo(final String name, final String impl, final String type, final String option, final String app, final String className, final boolean collection)
-'''
-pass
+    '''    public OslcActionInfo(final String name, final String impl, final String type)
+    public OslcActionInfo(final String name, final String impl, final String type, final String option, final String app, final String className, final boolean collection)
+    '''
 def isCollection():
-'''public boolean isCollection()
-'''
-pass
+    '''    public boolean isCollection()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getImpl():
-'''public String getImpl()
-'''
-pass
+    '''    public String getImpl()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def isScript():
-'''public boolean isScript()
-'''
-pass
+    '''    public boolean isScript()
+    '''
 def isWorkflow():
-'''public boolean isWorkflow()
-'''
-pass
+    '''    public boolean isWorkflow()
+    '''
 def isWSMethod():
-'''public boolean isWSMethod()
-'''
-pass
+    '''    public boolean isWSMethod()
+    '''
 def isDefault():
-'''public boolean isDefault()
-'''
-pass
+    '''    public boolean isDefault()
+    '''
 def isVirtual():
-'''public boolean isVirtual()
-'''
-pass
+    '''    public boolean isVirtual()
+    '''
 def getProperties():
-'''public Map<QName, OslcActionPropInfo> getProperties()
-'''
-pass
+    '''    public Map<QName, OslcActionPropInfo> getProperties()
+    '''

@@ -1,9 +1,7 @@
 def DeleteMethod():
-'''public DeleteMethod()
-public DeleteMethod(final String uri)
-'''
-pass
+    '''    public DeleteMethod()
+    public DeleteMethod(final String uri)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

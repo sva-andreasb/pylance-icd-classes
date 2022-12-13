@@ -427,93 +427,78 @@ EOJ_CONFIG_FILE_PARSE = "int  1701"
 EOJ_MULTIPLE_CREDENTIALS_FOUND = "int  1702"
 EOJ_RESULT_DESCRIPTION_CHANGED = "int  1703"
 def newSQLException():
-'''public static SQLException newSQLException(final OracleConnection oracleConnection, final String s, final int n)
-public static SQLException newSQLException(final OracleConnection oracleConnection, final String s, final int n, final Throwable cause)
-public static SQLException newSQLException(final OracleConnection oracleConnection, final int n)
-'''
-pass
+    '''    public static SQLException newSQLException(final OracleConnection oracleConnection, final String s, final int n)
+    public static SQLException newSQLException(final OracleConnection oracleConnection, final String s, final int n, final Throwable cause)
+    public static SQLException newSQLException(final OracleConnection oracleConnection, final int n)
+    '''
 def createSqlException():
-'''public static SQLException createSqlException(final OracleConnection oracleConnection, final String s, final int n, final Throwable t)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final String s, final int n)
-public static SQLException createSqlException(final int n, final Object o)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final int n, final Object o, final Throwable t)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final int n, final Object o)
-public static SQLException createSqlException(final OracleSQLException ex)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final OracleSQLException cause)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final SQLException nextException, final int n, final Object o)
-public static SQLException createSqlException(final int n)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final int n)
-public static SQLException createSqlException(final IOException ex)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final IOException ex)
-public static SQLException createSqlException(final Exception ex)
-public static SQLException createSqlException(final OracleConnection oracleConnection, final Exception ex)
-'''
-pass
+    '''    public static SQLException createSqlException(final OracleConnection oracleConnection, final String s, final int n, final Throwable t)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final String s, final int n)
+    public static SQLException createSqlException(final int n, final Object o)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final int n, final Object o, final Throwable t)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final int n, final Object o)
+    public static SQLException createSqlException(final OracleSQLException ex)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final OracleSQLException cause)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final SQLException nextException, final int n, final Object o)
+    public static SQLException createSqlException(final int n)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final int n)
+    public static SQLException createSqlException(final IOException ex)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final IOException ex)
+    public static SQLException createSqlException(final Exception ex)
+    public static SQLException createSqlException(final OracleConnection oracleConnection, final Exception ex)
+    '''
 def addSqlException():
-'''public static void addSqlException(final SQLException ex, final String s, final int n)
-'''
-pass
+    '''    public static void addSqlException(final SQLException ex, final String s, final int n)
+    '''
 def createBatchUpdateException():
-'''public static BatchUpdateException createBatchUpdateException(final SQLException nextException, int n, final int[] array)
-public static BatchUpdateException createBatchUpdateException(final String reason, final String sqlState, final int vendorCode, int n, final int[] array)
-public static BatchUpdateException createBatchUpdateException(final int n, final Object o, final int n2, final int[] array)
-public static BatchUpdateException createBatchUpdateException(final int n, final int n2, final int[] array)
-public static BatchUpdateException createBatchUpdateException(final SQLException ex, final int n, final long[] array)
-public static BatchUpdateException createBatchUpdateException(final SQLException nextException, final String str, int n, final long[] array)
-public static BatchUpdateException createBatchUpdateException(final String reason, final String sqlState, final int vendorCode, int n, final long[] array)
-public static BatchUpdateException createBatchUpdateException(final int n, final Object o, final int n2, final long[] array)
-public static BatchUpdateException createBatchUpdateException(final int n, final int n2, final long[] array)
-'''
-pass
+    '''    public static BatchUpdateException createBatchUpdateException(final SQLException nextException, int n, final int[] array)
+    public static BatchUpdateException createBatchUpdateException(final String reason, final String sqlState, final int vendorCode, int n, final int[] array)
+    public static BatchUpdateException createBatchUpdateException(final int n, final Object o, final int n2, final int[] array)
+    public static BatchUpdateException createBatchUpdateException(final int n, final int n2, final int[] array)
+    public static BatchUpdateException createBatchUpdateException(final SQLException ex, final int n, final long[] array)
+    public static BatchUpdateException createBatchUpdateException(final SQLException nextException, final String str, int n, final long[] array)
+    public static BatchUpdateException createBatchUpdateException(final String reason, final String sqlState, final int vendorCode, int n, final long[] array)
+    public static BatchUpdateException createBatchUpdateException(final int n, final Object o, final int n2, final long[] array)
+    public static BatchUpdateException createBatchUpdateException(final int n, final int n2, final long[] array)
+    '''
 def createUnsupportedFeatureSqlException():
-'''public static SQLFeatureNotSupportedException createUnsupportedFeatureSqlException()
-public static SQLFeatureNotSupportedException createUnsupportedFeatureSqlException(final String s)
-'''
-pass
+    '''    public static SQLFeatureNotSupportedException createUnsupportedFeatureSqlException()
+    public static SQLFeatureNotSupportedException createUnsupportedFeatureSqlException(final String s)
+    '''
 def createSQLFeatureNotSupportedException():
-'''public static SQLFeatureNotSupportedException createSQLFeatureNotSupportedException()
-public static SQLFeatureNotSupportedException createSQLFeatureNotSupportedException(final String s)
-'''
-pass
+    '''    public static SQLFeatureNotSupportedException createSQLFeatureNotSupportedException()
+    public static SQLFeatureNotSupportedException createSQLFeatureNotSupportedException(final String s)
+    '''
 def createSQLClientInfoException():
-'''public static SQLClientInfoException createSQLClientInfoException(final int n, final Map<String, ClientInfoStatus> failedProperties, final Throwable cause)
-'''
-pass
+    '''    public static SQLClientInfoException createSQLClientInfoException(final int n, final Map<String, ClientInfoStatus> failedProperties, final Throwable cause)
+    '''
 def createIOException():
-'''public static IOException createIOException(final SQLException cause)
-'''
-pass
+    '''    public static IOException createIOException(final SQLException cause)
+    '''
 def createXAException():
-'''public static XAException createXAException(final int errcode)
-public static XAException createXAException(final String s, final int errorCode)
-'''
-pass
+    '''    public static XAException createXAException(final int errcode)
+    public static XAException createXAException(final String s, final int errorCode)
+    '''
 def newSqlWarning():
-'''public static SQLWarning newSqlWarning(final String s, final int n)
-public static SQLWarning newSqlWarning(final int n, final Object o)
-public static SQLWarning newSqlWarning(final int n)
-'''
-pass
+    '''    public static SQLWarning newSqlWarning(final String s, final int n)
+    public static SQLWarning newSqlWarning(final int n, final Object o)
+    public static SQLWarning newSqlWarning(final int n)
+    '''
 def addSqlWarning():
-'''public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final String reason, final int vendorCode)
-public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final SQLWarning nextWarning)
-public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final int n, final Object o)
-public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final int n)
-'''
-pass
+    '''    public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final String reason, final int vendorCode)
+    public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final SQLWarning nextWarning)
+    public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final int n, final Object o)
+    public static SQLWarning addSqlWarning(final SQLWarning sqlWarning, final int n)
+    '''
 def ErrorToSQLState():
-'''public static String ErrorToSQLState(final int n)
-'''
-pass
+    '''    public static String ErrorToSQLState(final int n)
+    '''
 def getVendorCode():
-'''public static int getVendorCode(final int n)
-'''
-pass
+    '''    public static int getVendorCode(final int n)
+    '''
 def test():
-'''public static void test()
-'''
-pass
+    '''    public static void test()
+    '''
 def printSqlException():
-'''public static void printSqlException(final SQLException ex)
-'''
-pass
+    '''    public static void printSqlException(final SQLException ex)
+    '''

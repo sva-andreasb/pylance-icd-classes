@@ -1,4 +1,3 @@
 def resolve():
-'''public int resolve(final HttpHost host)
-'''
-pass
+    '''    public int resolve(final HttpHost host)
+    '''

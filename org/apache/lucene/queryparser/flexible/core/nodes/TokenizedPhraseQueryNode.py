@@ -1,24 +1,18 @@
 def TokenizedPhraseQueryNode():
-'''public TokenizedPhraseQueryNode()
-'''
-pass
+    '''    public TokenizedPhraseQueryNode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toQueryString():
-'''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
-'''
-pass
+    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''
 def cloneTree():
-'''public QueryNode cloneTree()
-'''
-pass
+    '''    public QueryNode cloneTree()
+    '''
 def getField():
-'''public CharSequence getField()
-'''
-pass
+    '''    public CharSequence getField()
+    '''
 def setField():
-'''public void setField(final CharSequence fieldName)
-'''
-pass
+    '''    public void setField(final CharSequence fieldName)
+    '''

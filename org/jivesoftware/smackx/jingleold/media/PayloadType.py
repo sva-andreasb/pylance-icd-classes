@@ -1,71 +1,56 @@
-NODENAME = "String  payload-type""
+NODENAME = "String  \"payload-type\""
 def PayloadType():
-'''public PayloadType(final int id, final String name, final int channels)
-public PayloadType()
-public PayloadType(final int id, final String name)
-public PayloadType(final PayloadType pt)
-'''
-pass
+    '''    public PayloadType(final int id, final String name, final int channels)
+    public PayloadType()
+    public PayloadType(final int id, final String name)
+    public PayloadType(final PayloadType pt)
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''
 def setId():
-'''public void setId(final int id)
-'''
-pass
+    '''    public void setId(final int id)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getChannels():
-'''public int getChannels()
-'''
-pass
+    '''    public int getChannels()
+    '''
 def setChannels():
-'''public void setChannels(final int channels)
-'''
-pass
+    '''    public void setChannels(final int channels)
+    '''
 def isNull():
-'''public boolean isNull()
-'''
-pass
+    '''    public boolean isNull()
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    public boolean equals(final Object obj)
+    '''
 def getElementName():
-'''public static String getElementName()
-'''
-pass
+    '''    public static String getElementName()
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def Audio():
-'''public Audio(final int id, final String name, final int channels, final int rate)
-public Audio(final int id, final String name, final int rate)
-public Audio()
-public Audio(final int id, final String name)
-public Audio(final PayloadType pt)
-public Audio(final Audio pt)
-'''
-pass
+    '''    public Audio(final int id, final String name, final int channels, final int rate)
+    public Audio(final int id, final String name, final int rate)
+    public Audio()
+    public Audio(final int id, final String name)
+    public Audio(final PayloadType pt)
+    public Audio(final Audio pt)
+    '''
 def getClockRate():
-'''public int getClockRate()
-'''
-pass
+    '''    public int getClockRate()
+    '''
 def setClockRate():
-'''public void setClockRate(final int rate)
-'''
-pass
+    '''    public void setClockRate(final int rate)
+    '''

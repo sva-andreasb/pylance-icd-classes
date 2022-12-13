@@ -1,8 +1,6 @@
 def refreshList():
-'''public int refreshList()
-'''
-pass
+    '''    public int refreshList()
+    '''
 def selectrecord():
-'''public int selectrecord(final MboRemote locAssign)
-'''
-pass
+    '''    public int selectrecord(final MboRemote locAssign)
+    '''

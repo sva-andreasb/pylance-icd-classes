@@ -1,8 +1,6 @@
 def FldRelationRulesExtAttrCond():
-'''public FldRelationRulesExtAttrCond(final MboValue mbv)
-'''
-pass
+    '''    public FldRelationRulesExtAttrCond(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

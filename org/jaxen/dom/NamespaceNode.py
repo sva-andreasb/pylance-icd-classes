@@ -1,169 +1,127 @@
 NAMESPACE_NODE = "short  13"
 def NamespaceNode():
-'''public NamespaceNode(final Node parent, final String name, final String value)
-'''
-pass
+    '''    public NamespaceNode(final Node parent, final String name, final String value)
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String value)
-'''
-pass
+    '''    public void setNodeValue(final String value)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getParentNode():
-'''public Node getParentNode()
-'''
-pass
+    '''    public Node getParentNode()
+    '''
 def getChildNodes():
-'''public NodeList getChildNodes()
-'''
-pass
+    '''    public NodeList getChildNodes()
+    '''
 def getFirstChild():
-'''public Node getFirstChild()
-'''
-pass
+    '''    public Node getFirstChild()
+    '''
 def getLastChild():
-'''public Node getLastChild()
-'''
-pass
+    '''    public Node getLastChild()
+    '''
 def getPreviousSibling():
-'''public Node getPreviousSibling()
-'''
-pass
+    '''    public Node getPreviousSibling()
+    '''
 def getNextSibling():
-'''public Node getNextSibling()
-'''
-pass
+    '''    public Node getNextSibling()
+    '''
 def getAttributes():
-'''public NamedNodeMap getAttributes()
-'''
-pass
+    '''    public NamedNodeMap getAttributes()
+    '''
 def getOwnerDocument():
-'''public Document getOwnerDocument()
-'''
-pass
+    '''    public Document getOwnerDocument()
+    '''
 def insertBefore():
-'''public Node insertBefore(final Node newChild, final Node refChild)
-'''
-pass
+    '''    public Node insertBefore(final Node newChild, final Node refChild)
+    '''
 def replaceChild():
-'''public Node replaceChild(final Node newChild, final Node oldChild)
-'''
-pass
+    '''    public Node replaceChild(final Node newChild, final Node oldChild)
+    '''
 def removeChild():
-'''public Node removeChild(final Node oldChild)
-'''
-pass
+    '''    public Node removeChild(final Node oldChild)
+    '''
 def appendChild():
-'''public Node appendChild(final Node newChild)
-'''
-pass
+    '''    public Node appendChild(final Node newChild)
+    '''
 def hasChildNodes():
-'''public boolean hasChildNodes()
-'''
-pass
+    '''    public boolean hasChildNodes()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean deep)
-'''
-pass
+    '''    public Node cloneNode(final boolean deep)
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''
 def isSupported():
-'''public boolean isSupported(final String feature, final String version)
-'''
-pass
+    '''    public boolean isSupported(final String feature, final String version)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def hasAttributes():
-'''public boolean hasAttributes()
-'''
-pass
+    '''    public boolean hasAttributes()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getBaseURI():
-'''public String getBaseURI()
-'''
-pass
+    '''    public String getBaseURI()
+    '''
 def compareDocumentPosition():
-'''public short compareDocumentPosition(final Node other)
-'''
-pass
+    '''    public short compareDocumentPosition(final Node other)
+    '''
 def getTextContent():
-'''public String getTextContent()
-'''
-pass
+    '''    public String getTextContent()
+    '''
 def setTextContent():
-'''public void setTextContent(final String textContent)
-'''
-pass
+    '''    public void setTextContent(final String textContent)
+    '''
 def isSameNode():
-'''public boolean isSameNode(final Node other)
-'''
-pass
+    '''    public boolean isSameNode(final Node other)
+    '''
 def lookupPrefix():
-'''public String lookupPrefix(final String namespaceURI)
-'''
-pass
+    '''    public String lookupPrefix(final String namespaceURI)
+    '''
 def isDefaultNamespace():
-'''public boolean isDefaultNamespace(final String namespaceURI)
-'''
-pass
+    '''    public boolean isDefaultNamespace(final String namespaceURI)
+    '''
 def lookupNamespaceURI():
-'''public String lookupNamespaceURI(final String prefix)
-'''
-pass
+    '''    public String lookupNamespaceURI(final String prefix)
+    '''
 def isEqualNode():
-'''public boolean isEqualNode(final Node arg)
-'''
-pass
+    '''    public boolean isEqualNode(final Node arg)
+    '''
 def getFeature():
-'''public Object getFeature(final String feature, final String version)
-'''
-pass
+    '''    public Object getFeature(final String feature, final String version)
+    '''
 def setUserData():
-'''public Object setUserData(final String key, final Object data, final UserDataHandler handler)
-'''
-pass
+    '''    public Object setUserData(final String key, final Object data, final UserDataHandler handler)
+    '''
 def getUserData():
-'''public Object getUserData(final String key)
-'''
-pass
+    '''    public Object getUserData(final String key)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def item():
-'''public Node item(final int index)
-'''
-pass
+    '''    public Node item(final int index)
+    '''

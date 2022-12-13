@@ -1,104 +1,80 @@
 def SortGanttModel():
-'''public SortGanttModel(final IlvGanttModel filteredModel, final IlvFilter activityFilter, final IlvFilter resourceFilter)
-'''
-pass
+    '''    public SortGanttModel(final IlvGanttModel filteredModel, final IlvFilter activityFilter, final IlvFilter resourceFilter)
+    '''
 def initSKDUtil():
-'''public void initSKDUtil()
-'''
-pass
+    '''    public void initSKDUtil()
+    '''
 def setFilteredModel():
-'''public void setFilteredModel(final IlvGanttModel model)
-'''
-pass
+    '''    public void setFilteredModel(final IlvGanttModel model)
+    '''
 def activityPreorderIterator():
-'''public Iterator activityPreorderIterator()
-public Iterator activityPreorderIterator(final IlvActivity activity)
-'''
-pass
+    '''    public Iterator activityPreorderIterator()
+    public Iterator activityPreorderIterator(final IlvActivity activity)
+    '''
 def reInitCache():
-'''public void reInitCache()
-'''
-pass
+    '''    public void reInitCache()
+    '''
 def getActivityComparator():
-'''public ActivityComparator getActivityComparator()
-'''
-pass
+    '''    public ActivityComparator getActivityComparator()
+    '''
 def setActivityComparator():
-'''public void setActivityComparator(final ActivityComparator activityComparator)
-'''
-pass
+    '''    public void setActivityComparator(final ActivityComparator activityComparator)
+    '''
 def addActivity():
-'''public void addActivity(final IlvActivity newActivity, final IlvActivity parent, final int index)
-'''
-pass
+    '''    public void addActivity(final IlvActivity newActivity, final IlvActivity parent, final int index)
+    '''
 def removeActivity():
-'''public void removeActivity(final IlvActivity parent, final int index)
-public void removeActivity(final IlvActivity activity)
-'''
-pass
+    '''    public void removeActivity(final IlvActivity parent, final int index)
+    public void removeActivity(final IlvActivity activity)
+    '''
 def moveActivity():
-'''public void moveActivity(final IlvActivity activity, final IlvActivity newParent, final int newIndex)
-'''
-pass
+    '''    public void moveActivity(final IlvActivity activity, final IlvActivity newParent, final int newIndex)
+    '''
 def getParentActivityIndex():
-'''public int getParentActivityIndex(final IlvActivity activity)
-'''
-pass
+    '''    public int getParentActivityIndex(final IlvActivity activity)
+    '''
 def getParentActivity():
-'''public IlvActivity getParentActivity(final IlvActivity activity)
-'''
-pass
+    '''    public IlvActivity getParentActivity(final IlvActivity activity)
+    '''
 def contains():
-'''public boolean contains(final IlvHierarchyNode arg0)
-'''
-pass
+    '''    public boolean contains(final IlvHierarchyNode arg0)
+    '''
 def getChildActivity():
-'''public IlvActivity getChildActivity(final IlvActivity parent, final int index)
-'''
-pass
+    '''    public IlvActivity getChildActivity(final IlvActivity parent, final int index)
+    '''
 def getChildActivityIndex():
-'''public int getChildActivityIndex(final IlvActivity parent, final IlvActivity child)
-'''
-pass
+    '''    public int getChildActivityIndex(final IlvActivity parent, final IlvActivity child)
+    '''
 def reservationIterator():
-'''public Iterator<IlvReservation> reservationIterator(final IlvActivity arg0)
-'''
-pass
+    '''    public Iterator<IlvReservation> reservationIterator(final IlvActivity arg0)
+    '''
 def ActivityNameComparator():
-'''public ActivityNameComparator()
-'''
-pass
+    '''    public ActivityNameComparator()
+    '''
 def compare():
-'''public int compare(final IlvActivity a1, final IlvActivity a2)
-public int compare(final IlvActivity a1, final IlvActivity a2)
-public int compare(final IlvActivity a1, final IlvActivity a2)
-public int compare(final IlvActivity a1, final IlvActivity a2)
-'''
-pass
+    '''    public int compare(final IlvActivity a1, final IlvActivity a2)
+    public int compare(final IlvActivity a1, final IlvActivity a2)
+    public int compare(final IlvActivity a1, final IlvActivity a2)
+    public int compare(final IlvActivity a1, final IlvActivity a2)
+    '''
 def changesSortOrder():
-'''public boolean changesSortOrder(final ActivityPropertyEvent event)
-public boolean changesSortOrder(final ActivityPropertyEvent event)
-public boolean changesSortOrder(final ActivityPropertyEvent event)
-public boolean changesSortOrder(final ActivityPropertyEvent event)
-'''
-pass
+    '''    public boolean changesSortOrder(final ActivityPropertyEvent event)
+    public boolean changesSortOrder(final ActivityPropertyEvent event)
+    public boolean changesSortOrder(final ActivityPropertyEvent event)
+    public boolean changesSortOrder(final ActivityPropertyEvent event)
+    '''
 def CustomActivityComparator():
-'''public CustomActivityComparator(final String attrName)
-'''
-pass
+    '''    public CustomActivityComparator(final String attrName)
+    '''
 def activityChanged():
-'''public void activityChanged(final ActivityEvent event)
-'''
-pass
+    '''    public void activityChanged(final ActivityEvent event)
+    '''
 def activitiesInserted():
-'''public void activitiesInserted(final ActivitiesInsertedEvent event)
-'''
-pass
+    '''    public void activitiesInserted(final ActivitiesInsertedEvent event)
+    '''
 def activitiesRemoved():
-'''public void activitiesRemoved(final ActivitiesRemovedEvent event)
-'''
-pass
+    '''    public void activitiesRemoved(final ActivitiesRemovedEvent event)
+    '''
 def activityMoved():
-'''public void activityMoved(final ActivityMovedEvent event)
-'''
-pass
+    '''    public void activityMoved(final ActivityMovedEvent event)
+    '''

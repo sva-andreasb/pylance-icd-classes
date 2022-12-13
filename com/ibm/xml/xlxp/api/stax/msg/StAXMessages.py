@@ -1,4 +1,4 @@
-URI = "String  http://jcp.org/en/jsr/detail?id=173""
+URI = "String  \"http://jcp.org/en/jsr/detail?id=173\""
 MethodNotSupportedByInputFactory = "int  0"
 MethodNotSupportedByOutputFactory = "int  1"
 MethodNotSupportedByEventFactory = "int  2"

@@ -1,32 +1,24 @@
 def at():
-'''public at(final InputStream in)
-'''
-pass
+    '''    public at(final InputStream in)
+    '''
 def readShortLE():
-'''public short readShortLE()
-'''
-pass
+    '''    public short readShortLE()
+    '''
 def readIntLE():
-'''public int readIntLE()
-'''
-pass
+    '''    public int readIntLE()
+    '''
 def readFloatLE():
-'''public float readFloatLE()
-'''
-pass
+    '''    public float readFloatLE()
+    '''
 def readLongLE():
-'''public long readLongLE()
-'''
-pass
+    '''    public long readLongLE()
+    '''
 def readDoubleLE():
-'''public double readDoubleLE()
-'''
-pass
+    '''    public double readDoubleLE()
+    '''
 def readUnsignedInt():
-'''public long readUnsignedInt()
-'''
-pass
+    '''    public long readUnsignedInt()
+    '''
 def readUnsignedIntLE():
-'''public long readUnsignedIntLE()
-'''
-pass
+    '''    public long readUnsignedIntLE()
+    '''

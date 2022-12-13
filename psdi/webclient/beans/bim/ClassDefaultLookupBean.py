@@ -1,16 +1,12 @@
 def ClassDefaultLookupBean():
-'''public ClassDefaultLookupBean()
-'''
-pass
+    '''    public ClassDefaultLookupBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

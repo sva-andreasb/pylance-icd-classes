@@ -1,4 +1,3 @@
 def WFProcessSpecSet():
-'''public WFProcessSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFProcessSpecSet(final MboServerInterface ms)
+    '''

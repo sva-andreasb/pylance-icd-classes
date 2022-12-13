@@ -1,52 +1,39 @@
 def SchemaLocalElementImpl():
-'''public SchemaLocalElementImpl()
-'''
-pass
+    '''    public SchemaLocalElementImpl()
+    '''
 def blockExtension():
-'''public boolean blockExtension()
-'''
-pass
+    '''    public boolean blockExtension()
+    '''
 def blockRestriction():
-'''public boolean blockRestriction()
-'''
-pass
+    '''    public boolean blockRestriction()
+    '''
 def blockSubstitution():
-'''public boolean blockSubstitution()
-'''
-pass
+    '''    public boolean blockSubstitution()
+    '''
 def isAbstract():
-'''public boolean isAbstract()
-'''
-pass
+    '''    public boolean isAbstract()
+    '''
 def setAbstract():
-'''public void setAbstract(final boolean abs)
-'''
-pass
+    '''    public void setAbstract(final boolean abs)
+    '''
 def setBlock():
-'''public void setBlock(final boolean extension, final boolean restriction, final boolean substitution)
-'''
-pass
+    '''    public void setBlock(final boolean extension, final boolean restriction, final boolean substitution)
+    '''
 def setAnnotation():
-'''public void setAnnotation(final SchemaAnnotation ann)
-'''
-pass
+    '''    public void setAnnotation(final SchemaAnnotation ann)
+    '''
 def setWsdlArrayType():
-'''public void setWsdlArrayType(final SOAPArrayType arrayType)
-'''
-pass
+    '''    public void setWsdlArrayType(final SOAPArrayType arrayType)
+    '''
 def getAnnotation():
-'''public SchemaAnnotation getAnnotation()
-'''
-pass
+    '''    public SchemaAnnotation getAnnotation()
+    '''
 def getWSDLArrayType():
-'''public SOAPArrayType getWSDLArrayType()
-'''
-pass
+    '''    public SOAPArrayType getWSDLArrayType()
+    '''
 def setIdentityConstraints():
-'''public void setIdentityConstraints(final SchemaIdentityConstraint.Ref[] constraints)
-'''
-pass
+    '''    public void setIdentityConstraints(final SchemaIdentityConstraint.Ref[] constraints)
+    '''
 def getIdentityConstraints():
-'''public SchemaIdentityConstraint[] getIdentityConstraints()
-'''
-pass
+    '''    public SchemaIdentityConstraint[] getIdentityConstraints()
+    '''

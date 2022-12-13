@@ -1,4 +1,3 @@
 def SourceOrTargetViewWorkDetailsBean():
-'''public SourceOrTargetViewWorkDetailsBean()
-'''
-pass
+    '''    public SourceOrTargetViewWorkDetailsBean()
+    '''

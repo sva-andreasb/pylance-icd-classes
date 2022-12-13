@@ -1,16 +1,12 @@
 def get():
-'''public static Category get(Category parent, final String name)
-'''
-pass
+    '''    public static Category get(Category parent, final String name)
+    '''
 def subCategories():
-'''public Collection<Category> subCategories()
-'''
-pass
+    '''    public Collection<Category> subCategories()
+    '''
 def byName():
-'''public static Category byName(String categoryName)
-'''
-pass
+    '''    public static Category byName(String categoryName)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

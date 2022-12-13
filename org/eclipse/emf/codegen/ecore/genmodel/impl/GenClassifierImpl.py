@@ -1,64 +1,48 @@
 def getGenPackage():
-'''public GenPackage getGenPackage()
-'''
-pass
+    '''    public GenPackage getGenPackage()
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def getEcoreModelElement():
-'''public EModelElement getEcoreModelElement()
-'''
-pass
+    '''    public EModelElement getEcoreModelElement()
+    '''
 def getMetaType():
-'''public String getMetaType()
-'''
-pass
+    '''    public String getMetaType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getUncapName():
-'''public String getUncapName()
-'''
-pass
+    '''    public String getUncapName()
+    '''
 def getSafeUncapName():
-'''public String getSafeUncapName()
-'''
-pass
+    '''    public String getSafeUncapName()
+    '''
 def getClassifierAccessorName():
-'''public String getClassifierAccessorName()
-'''
-pass
+    '''    public String getClassifierAccessorName()
+    '''
 def getFormattedName():
-'''public String getFormattedName()
-'''
-pass
+    '''    public String getFormattedName()
+    '''
 def getClassifierInstanceName():
-'''public String getClassifierInstanceName()
-'''
-pass
+    '''    public String getClassifierInstanceName()
+    '''
 def getClassifierID():
-'''public String getClassifierID()
-'''
-pass
+    '''    public String getClassifierID()
+    '''
 def getGenConstraints():
-'''public List getGenConstraints()
-'''
-pass
+    '''    public List getGenConstraints()
+    '''
 def getAllGenConstraints():
-'''public List getAllGenConstraints()
-'''
-pass
+    '''    public List getAllGenConstraints()
+    '''
 def getConstraintImplementor():
-'''public GenClassifier getConstraintImplementor(final String constraint)
-'''
-pass
+    '''    public GenClassifier getConstraintImplementor(final String constraint)
+    '''
 def hasOnlyDefaultConstraints():
-'''public boolean hasOnlyDefaultConstraints()
-'''
-pass
+    '''    public boolean hasOnlyDefaultConstraints()
+    '''

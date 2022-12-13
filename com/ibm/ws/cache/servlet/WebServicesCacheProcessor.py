@@ -1,11 +1,9 @@
-SOAP_ACTION = "String  SOAPAction""
-HASH = "String  Hash""
-LITERAL = "String  Literal""
+SOAP_ACTION = "String  \"SOAPAction\""
+HASH = "String  \"Hash\""
+LITERAL = "String  \"Literal\""
 def WebServicesCacheProcessor():
-'''public WebServicesCacheProcessor()
-'''
-pass
+    '''    public WebServicesCacheProcessor()
+    '''
 def reset():
-'''public void reset(final ConfigEntry ce)
-'''
-pass
+    '''    public void reset(final ConfigEntry ce)
+    '''

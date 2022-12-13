@@ -1,8 +1,6 @@
 def FldChangeBy():
-'''public FldChangeBy(final MboValue mbv)
-'''
-pass
+    '''    public FldChangeBy(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,17 +1,13 @@
-NAME = "String  EXTERNAL""
+NAME = "String  \"EXTERNAL\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def checkIfSuccessfulOrThrow():
-'''public void checkIfSuccessfulOrThrow()
-'''
-pass
+    '''    public void checkIfSuccessfulOrThrow()
+    '''
 def authzidSupported():
-'''public boolean authzidSupported()
-'''
-pass
+    '''    public boolean authzidSupported()
+    '''

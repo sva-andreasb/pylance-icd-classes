@@ -1,135 +1,103 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloExplanation():
-'''public IloExplanation()
-public IloExplanation(final boolean hasFailed, final String[] propertyList)
-'''
-pass
+    '''    public IloExplanation()
+    public IloExplanation(final boolean hasFailed, final String[] propertyList)
+    '''
 def getProperties():
-'''public String[] getProperties()
-public Serializable[] getProperties()
-'''
-pass
+    '''    public String[] getProperties()
+    public Serializable[] getProperties()
+    '''
 def getPropertyIndex():
-'''public int getPropertyIndex(String prop)
-'''
-pass
+    '''    public int getPropertyIndex(String prop)
+    '''
 def complete():
-'''public void complete()
-'''
-pass
+    '''    public void complete()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def addElement():
-'''public void addElement(final Element element)
-public void addElement(final Element child)
-'''
-pass
+    '''    public void addElement(final Element element)
+    public void addElement(final Element child)
+    '''
 def removeElement():
-'''public boolean removeElement(final Element element)
-'''
-pass
+    '''    public boolean removeElement(final Element element)
+    '''
 def removeRequirement():
-'''public boolean removeRequirement(final Requirement req)
-'''
-pass
+    '''    public boolean removeRequirement(final Requirement req)
+    '''
 def insertRequirementCopy():
-'''public Requirement insertRequirementCopy(final Requirement oreq, final boolean force, final boolean copyProperties)
-'''
-pass
+    '''    public Requirement insertRequirementCopy(final Requirement oreq, final boolean force, final boolean copyProperties)
+    '''
 def getRequirement():
-'''public Requirement getRequirement(final IloRequirementId id)
-'''
-pass
+    '''    public Requirement getRequirement(final IloRequirementId id)
+    '''
 def getSameRequirement():
-'''public Requirement getSameRequirement(final Requirement oreq)
-'''
-pass
+    '''    public Requirement getSameRequirement(final Requirement oreq)
+    '''
 def getObjective():
-'''public Objective getObjective(final IloObjectiveId id)
-public Objective getObjective(final String name)
-'''
-pass
+    '''    public Objective getObjective(final IloObjectiveId id)
+    public Objective getObjective(final String name)
+    '''
 def print():
-'''public void print(final OutputStream os)
-'''
-pass
+    '''    public void print(final OutputStream os)
+    '''
 def Element():
-'''public Element(final String name, final Serializable[] properties)
-'''
-pass
+    '''    public Element(final String name, final Serializable[] properties)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getParent():
-'''public Element getParent()
-'''
-pass
+    '''    public Element getParent()
+    '''
 def getExplanation():
-'''public IloExplanation getExplanation()
-'''
-pass
+    '''    public IloExplanation getExplanation()
+    '''
 def getProperty():
-'''public Serializable getProperty(final int idx)
-'''
-pass
+    '''    public Serializable getProperty(final int idx)
+    '''
 def setClosed():
-'''public void setClosed(final boolean status)
-'''
-pass
+    '''    public void setClosed(final boolean status)
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def Requirement():
-'''public Requirement(final String name, final Serializable[] properties)
-'''
-pass
+    '''    public Requirement(final String name, final Serializable[] properties)
+    '''
 def getPriority():
-'''public IloPriority getPriority()
-'''
-pass
+    '''    public IloPriority getPriority()
+    '''
 def setPriority():
-'''public void setPriority(final IloPriority prio)
-'''
-pass
+    '''    public void setPriority(final IloPriority prio)
+    '''
 def getRequirementId():
-'''public IloRequirementId getRequirementId()
-'''
-pass
+    '''    public IloRequirementId getRequirementId()
+    '''
 def getParentRequirement():
-'''public Requirement getParentRequirement()
-'''
-pass
+    '''    public Requirement getParentRequirement()
+    '''
 def Objective():
-'''public Objective(final String name, final Serializable[] properties)
-'''
-pass
+    '''    public Objective(final String name, final Serializable[] properties)
+    '''
 def getObjectiveId():
-'''public IloObjectiveId getObjectiveId()
-'''
-pass
+    '''    public IloObjectiveId getObjectiveId()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

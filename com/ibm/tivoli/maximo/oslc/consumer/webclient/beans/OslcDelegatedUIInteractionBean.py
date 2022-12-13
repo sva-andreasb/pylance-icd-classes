@@ -1,4 +1,3 @@
 def loadinteractiondialog():
-'''public int loadinteractiondialog()
-'''
-pass
+    '''    public int loadinteractiondialog()
+    '''

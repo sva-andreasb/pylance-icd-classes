@@ -1,17 +1,13 @@
-NAME = "String  ANONYMOUS""
+NAME = "String  \"ANONYMOUS\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLAnonymous newInstance()
-'''
-pass
+    '''    public SASLAnonymous newInstance()
+    '''
 def checkIfSuccessfulOrThrow():
-'''public void checkIfSuccessfulOrThrow()
-'''
-pass
+    '''    public void checkIfSuccessfulOrThrow()
+    '''

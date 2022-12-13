@@ -1,49 +1,37 @@
 def IlvScheduleChart():
-'''public IlvScheduleChart()
-'''
-pass
+    '''    public IlvScheduleChart()
+    '''
 def select():
-'''public void select(final IlvResource ilvResource, final boolean b)
-public void select(final IlvReservation ilvReservation, final boolean b)
-'''
-pass
+    '''    public void select(final IlvResource ilvResource, final boolean b)
+    public void select(final IlvReservation ilvReservation, final boolean b)
+    '''
 def getSelectedResources():
-'''public IlvResource[] getSelectedResources()
-'''
-pass
+    '''    public IlvResource[] getSelectedResources()
+    '''
 def getSelectedReservations():
-'''public IlvReservation[] getSelectedReservations()
-'''
-pass
+    '''    public IlvReservation[] getSelectedReservations()
+    '''
 def getActivityLayout():
-'''public IlvActivityLayout getActivityLayout()
-'''
-pass
+    '''    public IlvActivityLayout getActivityLayout()
+    '''
 def setActivityLayout():
-'''public void setActivityLayout(final IlvActivityLayout activityLayout)
-'''
-pass
+    '''    public void setActivityLayout(final IlvActivityLayout activityLayout)
+    '''
 def isReservationCachingEnabled():
-'''public boolean isReservationCachingEnabled()
-'''
-pass
+    '''    public boolean isReservationCachingEnabled()
+    '''
 def setReservationCachingEnabled():
-'''public void setReservationCachingEnabled(final boolean reservationCachingEnabled)
-'''
-pass
+    '''    public void setReservationCachingEnabled(final boolean reservationCachingEnabled)
+    '''
 def getReservationCacheLoadThreshold():
-'''public float getReservationCacheLoadThreshold()
-'''
-pass
+    '''    public float getReservationCacheLoadThreshold()
+    '''
 def setReservationCacheLoadThreshold():
-'''public void setReservationCacheLoadThreshold(final float reservationCacheLoadThreshold)
-'''
-pass
+    '''    public void setReservationCacheLoadThreshold(final float reservationCacheLoadThreshold)
+    '''
 def getReservationCacheLoadFactor():
-'''public float getReservationCacheLoadFactor()
-'''
-pass
+    '''    public float getReservationCacheLoadFactor()
+    '''
 def setReservationCacheLoadFactor():
-'''public void setReservationCacheLoadFactor(final float reservationCacheLoadFactor)
-'''
-pass
+    '''    public void setReservationCacheLoadFactor(final float reservationCacheLoadFactor)
+    '''

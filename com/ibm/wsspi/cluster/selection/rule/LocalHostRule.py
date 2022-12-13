@@ -1,8 +1,6 @@
 def LocalHostRule():
-'''public LocalHostRule()
-'''
-pass
+    '''    public LocalHostRule()
+    '''
 def subset():
-'''public void subset(final List identities, final StringBuffer reason)
-'''
-pass
+    '''    public void subset(final List identities, final StringBuffer reason)
+    '''

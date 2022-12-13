@@ -1,8 +1,6 @@
 def PlusCFldPlusCNextDate():
-'''public PlusCFldPlusCNextDate(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldPlusCNextDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

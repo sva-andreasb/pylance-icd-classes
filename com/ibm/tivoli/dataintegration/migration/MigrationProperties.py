@@ -1,84 +1,63 @@
 def isDbSourceSet():
-'''public boolean isDbSourceSet()
-'''
-pass
+    '''    public boolean isDbSourceSet()
+    '''
 def getNRS10DbDriver():
-'''public String getNRS10DbDriver()
-'''
-pass
+    '''    public String getNRS10DbDriver()
+    '''
 def getNRS10DbURL():
-'''public String getNRS10DbURL()
-'''
-pass
+    '''    public String getNRS10DbURL()
+    '''
 def getNRS10DbUser():
-'''public String getNRS10DbUser()
-'''
-pass
+    '''    public String getNRS10DbUser()
+    '''
 def getNRS10DbPassword():
-'''public String getNRS10DbPassword()
-'''
-pass
+    '''    public String getNRS10DbPassword()
+    '''
 def getMSSName():
-'''public String getMSSName()
-'''
-pass
+    '''    public String getMSSName()
+    '''
 def getMSSHostName():
-'''public String getMSSHostName()
-'''
-pass
+    '''    public String getMSSHostName()
+    '''
 def getMSSManufacurerName():
-'''public String getMSSManufacurerName()
-'''
-pass
+    '''    public String getMSSManufacurerName()
+    '''
 def getMSSSubcomponentName():
-'''public String getMSSSubcomponentName()
-'''
-pass
+    '''    public String getMSSSubcomponentName()
+    '''
 def getMSSSubcomponentInstanceName():
-'''public String getMSSSubcomponentInstanceName()
-'''
-pass
+    '''    public String getMSSSubcomponentInstanceName()
+    '''
 def getMSSProductName():
-'''public String getMSSProductName()
-'''
-pass
+    '''    public String getMSSProductName()
+    '''
 def getMSSAdminState():
-'''public String getMSSAdminState()
-'''
-pass
+    '''    public String getMSSAdminState()
+    '''
 def getMSSUiPortNumber():
-'''public String getMSSUiPortNumber()
-'''
-pass
+    '''    public String getMSSUiPortNumber()
+    '''
 def getMSSUiHostName():
-'''public String getMSSUiHostName()
-'''
-pass
+    '''    public String getMSSUiHostName()
+    '''
 def getMSSSouceToken():
-'''public String getMSSSouceToken()
-'''
-pass
+    '''    public String getMSSSouceToken()
+    '''
 def getMSSDisplayName():
-'''public String getMSSDisplayName()
-'''
-pass
+    '''    public String getMSSDisplayName()
+    '''
 def getMSSDescription():
-'''public String getMSSDescription()
-'''
-pass
+    '''    public String getMSSDescription()
+    '''
 def getMSSNameSpace():
-'''public String getMSSNameSpace()
-'''
-pass
+    '''    public String getMSSNameSpace()
+    '''
 def getMSSLabel():
-'''public String getMSSLabel()
-'''
-pass
+    '''    public String getMSSLabel()
+    '''
 def getMSSProductVerstion():
-'''public String getMSSProductVerstion()
-'''
-pass
+    '''    public String getMSSProductVerstion()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

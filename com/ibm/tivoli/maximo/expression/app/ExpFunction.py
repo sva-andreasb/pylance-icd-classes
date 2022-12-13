@@ -1,8 +1,6 @@
 def ExpFunction():
-'''public ExpFunction(final MboSet ms)
-'''
-pass
+    '''    public ExpFunction(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

@@ -1,4 +1,3 @@
 def BooleanAttribute():
-'''public BooleanAttribute(final String key)
-'''
-pass
+    '''    public BooleanAttribute(final String key)
+    '''

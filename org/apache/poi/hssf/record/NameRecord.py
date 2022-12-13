@@ -20,144 +20,109 @@ OPT_COMPLEX = "int  16"
 OPT_BUILTIN = "int  32"
 OPT_BINDATA = "int  4096"
 def NameRecord():
-'''public NameRecord()
-public NameRecord(final byte builtin, final int sheetNumber)
-public NameRecord(final RecordInputStream ris)
-'''
-pass
+    '''    public NameRecord()
+    public NameRecord(final byte builtin, final int sheetNumber)
+    public NameRecord(final RecordInputStream ris)
+    '''
 def setOptionFlag():
-'''public void setOptionFlag(final short flag)
-'''
-pass
+    '''    public void setOptionFlag(final short flag)
+    '''
 def setKeyboardShortcut():
-'''public void setKeyboardShortcut(final byte shortcut)
-'''
-pass
+    '''    public void setKeyboardShortcut(final byte shortcut)
+    '''
 def getSheetNumber():
-'''public int getSheetNumber()
-'''
-pass
+    '''    public int getSheetNumber()
+    '''
 def getFnGroup():
-'''public byte getFnGroup()
-'''
-pass
+    '''    public byte getFnGroup()
+    '''
 def setSheetNumber():
-'''public void setSheetNumber(final int value)
-'''
-pass
+    '''    public void setSheetNumber(final int value)
+    '''
 def setNameText():
-'''public void setNameText(final String name)
-'''
-pass
+    '''    public void setNameText(final String name)
+    '''
 def setCustomMenuText():
-'''public void setCustomMenuText(final String text)
-'''
-pass
+    '''    public void setCustomMenuText(final String text)
+    '''
 def setDescriptionText():
-'''public void setDescriptionText(final String text)
-'''
-pass
+    '''    public void setDescriptionText(final String text)
+    '''
 def setHelpTopicText():
-'''public void setHelpTopicText(final String text)
-'''
-pass
+    '''    public void setHelpTopicText(final String text)
+    '''
 def setStatusBarText():
-'''public void setStatusBarText(final String text)
-'''
-pass
+    '''    public void setStatusBarText(final String text)
+    '''
 def getOptionFlag():
-'''public short getOptionFlag()
-'''
-pass
+    '''    public short getOptionFlag()
+    '''
 def getKeyboardShortcut():
-'''public byte getKeyboardShortcut()
-'''
-pass
+    '''    public byte getKeyboardShortcut()
+    '''
 def isHiddenName():
-'''public boolean isHiddenName()
-'''
-pass
+    '''    public boolean isHiddenName()
+    '''
 def setHidden():
-'''public void setHidden(final boolean b)
-'''
-pass
+    '''    public void setHidden(final boolean b)
+    '''
 def isFunctionName():
-'''public boolean isFunctionName()
-'''
-pass
+    '''    public boolean isFunctionName()
+    '''
 def setFunction():
-'''public void setFunction(final boolean function)
-'''
-pass
+    '''    public void setFunction(final boolean function)
+    '''
 def hasFormula():
-'''public boolean hasFormula()
-'''
-pass
+    '''    public boolean hasFormula()
+    '''
 def isCommandName():
-'''public boolean isCommandName()
-'''
-pass
+    '''    public boolean isCommandName()
+    '''
 def isMacro():
-'''public boolean isMacro()
-'''
-pass
+    '''    public boolean isMacro()
+    '''
 def isComplexFunction():
-'''public boolean isComplexFunction()
-'''
-pass
+    '''    public boolean isComplexFunction()
+    '''
 def isBuiltInName():
-'''public boolean isBuiltInName()
-'''
-pass
+    '''    public boolean isBuiltInName()
+    '''
 def getNameText():
-'''public String getNameText()
-'''
-pass
+    '''    public String getNameText()
+    '''
 def getBuiltInName():
-'''public byte getBuiltInName()
-'''
-pass
+    '''    public byte getBuiltInName()
+    '''
 def getNameDefinition():
-'''public Ptg[] getNameDefinition()
-'''
-pass
+    '''    public Ptg[] getNameDefinition()
+    '''
 def setNameDefinition():
-'''public void setNameDefinition(final Ptg[] ptgs)
-'''
-pass
+    '''    public void setNameDefinition(final Ptg[] ptgs)
+    '''
 def getCustomMenuText():
-'''public String getCustomMenuText()
-'''
-pass
+    '''    public String getCustomMenuText()
+    '''
 def getDescriptionText():
-'''public String getDescriptionText()
-'''
-pass
+    '''    public String getDescriptionText()
+    '''
 def getHelpTopicText():
-'''public String getHelpTopicText()
-'''
-pass
+    '''    public String getHelpTopicText()
+    '''
 def getStatusBarText():
-'''public String getStatusBarText()
-'''
-pass
+    '''    public String getStatusBarText()
+    '''
 def serialize():
-'''public void serialize(final ContinuableRecordOutput out)
-'''
-pass
+    '''    public void serialize(final ContinuableRecordOutput out)
+    '''
 def getExternSheetNumber():
-'''public int getExternSheetNumber()
-'''
-pass
+    '''    public int getExternSheetNumber()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isFormula():
-'''public static final boolean isFormula(final int optValue)
-'''
-pass
+    '''    public static final boolean isFormula(final int optValue)
+    '''

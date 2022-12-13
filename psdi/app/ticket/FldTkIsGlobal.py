@@ -1,8 +1,6 @@
 def FldTkIsGlobal():
-'''public FldTkIsGlobal(final MboValue mbv)
-'''
-pass
+    '''    public FldTkIsGlobal(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,20 +1,15 @@
 def ClassQueue():
-'''public ClassQueue()
-'''
-pass
+    '''    public ClassQueue()
+    '''
 def enqueue():
-'''public void enqueue(final JavaClass clazz)
-'''
-pass
+    '''    public void enqueue(final JavaClass clazz)
+    '''
 def dequeue():
-'''public JavaClass dequeue()
-'''
-pass
+    '''    public JavaClass dequeue()
+    '''
 def empty():
-'''public boolean empty()
-'''
-pass
+    '''    public boolean empty()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

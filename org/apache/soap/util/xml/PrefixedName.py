@@ -1,24 +1,18 @@
 def PrefixedName():
-'''public PrefixedName(final String prefix, final QName qname)
-'''
-pass
+    '''    public PrefixedName(final String prefix, final QName qname)
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def getQName():
-'''public QName getQName()
-'''
-pass
+    '''    public QName getQName()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def setQName():
-'''public void setQName(final QName qname)
-'''
-pass
+    '''    public void setQName(final QName qname)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

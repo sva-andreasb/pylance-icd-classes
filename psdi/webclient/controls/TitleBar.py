@@ -1,16 +1,12 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def renderChildren():
-'''public void renderChildren()
-'''
-pass
+    '''    public void renderChildren()
+    '''
 def createRenderId():
-'''public String createRenderId(final String id, final PageInstance page)
-'''
-pass
+    '''    public String createRenderId(final String id, final PageInstance page)
+    '''

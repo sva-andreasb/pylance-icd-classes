@@ -1,95 +1,73 @@
 def IlvManagerLayer():
-'''public IlvManagerLayer()
-public IlvManagerLayer(final int n, final int n2)
-public IlvManagerLayer(final IlvInputStream ilvInputStream)
-'''
-pass
+    '''    public IlvManagerLayer()
+    public IlvManagerLayer(final int n, final int n2)
+    public IlvManagerLayer(final IlvInputStream ilvInputStream)
+    '''
 def getManager():
-'''public final IlvManager getManager()
-'''
-pass
+    '''    public final IlvManager getManager()
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def isSelectable():
-'''public final boolean isSelectable()
-'''
-pass
+    '''    public final boolean isSelectable()
+    '''
 def setAlpha():
-'''public void setAlpha(final float i)
-'''
-pass
+    '''    public void setAlpha(final float i)
+    '''
 def getAlpha():
-'''public float getAlpha()
-'''
-pass
+    '''    public float getAlpha()
+    '''
 def addVisibilityFilter():
-'''public final void addVisibilityFilter(final IlvLayerVisibilityFilter obj)
-'''
-pass
+    '''    public final void addVisibilityFilter(final IlvLayerVisibilityFilter obj)
+    '''
 def removeVisibilityFilter():
-'''public final void removeVisibilityFilter(final IlvLayerVisibilityFilter obj)
-'''
-pass
+    '''    public final void removeVisibilityFilter(final IlvLayerVisibilityFilter obj)
+    '''
 def getVisibilityFilters():
-'''public final Enumeration getVisibilityFilters()
-'''
-pass
+    '''    public final Enumeration getVisibilityFilters()
+    '''
 def isVisible():
-'''public final boolean isVisible()
-public boolean isVisible(final IlvManagerView ilvManagerView)
-'''
-pass
+    '''    public final boolean isVisible()
+    public boolean isVisible(final IlvManagerView ilvManagerView)
+    '''
 def setProperty():
-'''public final void setProperty(final String s, final Object o)
-'''
-pass
+    '''    public final void setProperty(final String s, final Object o)
+    '''
 def getProperty():
-'''public final Object getProperty(final String s)
-'''
-pass
+    '''    public final Object getProperty(final String s)
+    '''
 def print():
-'''public void print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public void print(final Graphics graphics, final IlvRect ilvRect, final IlvTransformer ilvTransformer)
+    '''
 def apply():
-'''public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvGraphic ilvGraphic, final Object o)
-'''
-pass
+    '''    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''
 def computeBBox():
-'''public IlvRect computeBBox(final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvRect computeBBox(final IlvTransformer ilvTransformer)
+    '''
 def setName():
-'''public synchronized void setName(final String g)
-'''
-pass
+    '''    public synchronized void setName(final String g)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setNamedProperty():
-'''public final IlvNamedProperty setNamedProperty(final IlvNamedProperty value)
-'''
-pass
+    '''    public final IlvNamedProperty setNamedProperty(final IlvNamedProperty value)
+    '''
 def getNamedProperty():
-'''public final IlvNamedProperty getNamedProperty(final String key)
-'''
-pass
+    '''    public final IlvNamedProperty getNamedProperty(final String key)
+    '''
 def removeNamedProperty():
-'''public final void removeNamedProperty(final String key)
-'''
-pass
+    '''    public final void removeNamedProperty(final String key)
+    '''
 def write():
-'''public void write(final IlvOutputStream ilvOutputStream)
-'''
-pass
+    '''    public void write(final IlvOutputStream ilvOutputStream)
+    '''
 def writeIt():
-'''public final void writeIt(final IlvOutputStream ilvOutputStream)
-'''
-pass
+    '''    public final void writeIt(final IlvOutputStream ilvOutputStream)
+    '''

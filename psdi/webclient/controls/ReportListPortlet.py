@@ -1,20 +1,15 @@
 def getReports():
-'''public SortedMap<Integer, Map<String, String>> getReports()
-'''
-pass
+    '''    public SortedMap<Integer, Map<String, String>> getReports()
+    '''
 def openreport():
-'''public int openreport()
-'''
-pass
+    '''    public int openreport()
+    '''
 def canRunReport():
-'''public boolean canRunReport(final String reportname, final String reportapp)
-'''
-pass
+    '''    public boolean canRunReport(final String reportname, final String reportapp)
+    '''
 def getNoOfReports():
-'''public int getNoOfReports()
-'''
-pass
+    '''    public int getNoOfReports()
+    '''
 def getSelectedReports():
-'''public MboSetData getSelectedReports()
-'''
-pass
+    '''    public MboSetData getSelectedReports()
+    '''

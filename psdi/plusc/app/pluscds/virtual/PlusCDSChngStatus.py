@@ -1,8 +1,6 @@
 def PlusCDSChngStatus():
-'''public PlusCDSChngStatus(final MboSet mboset)
-'''
-pass
+    '''    public PlusCDSChngStatus(final MboSet mboset)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

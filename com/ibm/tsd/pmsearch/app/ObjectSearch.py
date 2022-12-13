@@ -1,4 +1,3 @@
 def ObjectSearch():
-'''public ObjectSearch(final MboSet ms)
-'''
-pass
+    '''    public ObjectSearch(final MboSet ms)
+    '''

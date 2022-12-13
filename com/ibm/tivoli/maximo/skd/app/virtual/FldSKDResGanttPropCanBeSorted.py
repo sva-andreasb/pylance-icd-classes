@@ -1,8 +1,6 @@
 def FldSKDResGanttPropCanBeSorted():
-'''public FldSKDResGanttPropCanBeSorted(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDResGanttPropCanBeSorted(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def FldMatUseTransLineCost():
-'''public FldMatUseTransLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldMatUseTransLineCost(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

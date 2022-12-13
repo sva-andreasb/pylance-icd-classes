@@ -1,8 +1,6 @@
 def getDefaultVariant():
-'''public static Base64Variant getDefaultVariant()
-'''
-pass
+    '''    public static Base64Variant getDefaultVariant()
+    '''
 def valueOf():
-'''public static Base64Variant valueOf(String name)
-'''
-pass
+    '''    public static Base64Variant valueOf(String name)
+    '''

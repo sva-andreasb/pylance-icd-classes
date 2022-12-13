@@ -1,28 +1,21 @@
 def FldMboKey():
-'''public FldMboKey(final MboValue mv)
-'''
-pass
+    '''    public FldMboKey(final MboValue mv)
+    '''
 def setKeyAttributes():
-'''public void setKeyAttributes(final String[] keys, final String relationship)
-'''
-pass
+    '''    public void setKeyAttributes(final String[] keys, final String relationship)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def validateKeyCombination():
-'''public void validateKeyCombination(final boolean forced)
-'''
-pass
+    '''    public void validateKeyCombination(final boolean forced)
+    '''
 def findRecord():
-'''public boolean findRecord(final String tbName, final MboRemote enteredMbo, final ArrayList keyArray)
-'''
-pass
+    '''    public boolean findRecord(final String tbName, final MboRemote enteredMbo, final ArrayList keyArray)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

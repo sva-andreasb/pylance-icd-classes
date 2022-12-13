@@ -1,16 +1,12 @@
 def parseAttributes():
-'''public static Properties parseAttributes(final String string)
-'''
-pass
+    '''    public static Properties parseAttributes(final String string)
+    '''
 def parseFont():
-'''public static Properties parseFont(String string)
-'''
-pass
+    '''    public static Properties parseFont(String string)
+    '''
 def parseLength():
-'''public static float parseLength(String string)
-'''
-pass
+    '''    public static float parseLength(String string)
+    '''
 def decodeColor():
-'''public static Color decodeColor(final String color)
-'''
-pass
+    '''    public static Color decodeColor(final String color)
+    '''

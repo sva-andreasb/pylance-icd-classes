@@ -1,8 +1,6 @@
 def IlvPieRendererLegendItem():
-'''public IlvPieRendererLegendItem(final int a, final IlvSinglePieRenderer ilvSinglePieRenderer)
-'''
-pass
+    '''    public IlvPieRendererLegendItem(final int a, final IlvSinglePieRenderer ilvSinglePieRenderer)
+    '''
 def getDataIndex():
-'''public final int getDataIndex()
-'''
-pass
+    '''    public final int getDataIndex()
+    '''

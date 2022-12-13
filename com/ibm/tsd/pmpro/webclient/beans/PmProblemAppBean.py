@@ -1,48 +1,36 @@
 def PmProblemAppBean():
-'''public PmProblemAppBean()
-'''
-pass
+    '''    public PmProblemAppBean()
+    '''
 def ticketmeterread():
-'''public int ticketmeterread()
-'''
-pass
+    '''    public int ticketmeterread()
+    '''
 def PMPROCRWF():
-'''public int PMPROCRWF()
-'''
-pass
+    '''    public int PMPROCRWF()
+    '''
 def PMSCPRBWF():
-'''public int PMSCPRBWF()
-'''
-pass
+    '''    public int PMSCPRBWF()
+    '''
 def ticketrepdown():
-'''public int ticketrepdown()
-'''
-pass
+    '''    public int ticketrepdown()
+    '''
 def checkpmp():
-'''public int checkpmp()
-'''
-pass
+    '''    public int checkpmp()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def jsplaunch():
-'''public int jsplaunch()
-'''
-pass
+    '''    public int jsplaunch()
+    '''
 def RDLAUNCH():
-'''public int RDLAUNCH()
-'''
-pass
+    '''    public int RDLAUNCH()
+    '''
 def pmClearClassification():
-'''public int pmClearClassification()
-'''
-pass
+    '''    public int pmClearClassification()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def getExtendedToolTip():
-'''public JSONObject getExtendedToolTip(final JSONObject definition)
-'''
-pass
+    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''

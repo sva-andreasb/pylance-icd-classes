@@ -13,40 +13,31 @@ priceORDERQTY = "int  109"
 priceCURRENCY = "int  110"
 priceUNITCOST = "int  111"
 def DefaultOrderPrice():
-'''public DefaultOrderPrice()
-public DefaultOrderPrice(final int options)
-'''
-pass
+    '''    public DefaultOrderPrice()
+    public DefaultOrderPrice(final int options)
+    '''
 def getItemNumFlag():
-'''public int getItemNumFlag()
-'''
-pass
+    '''    public int getItemNumFlag()
+    '''
 def getDefaultOrderPrice():
-'''public double getDefaultOrderPrice(String currencyCode, double quantity, final boolean considerBlanket, final boolean considerPrice, final Mbo mbo)
-'''
-pass
+    '''    public double getDefaultOrderPrice(String currencyCode, double quantity, final boolean considerBlanket, final boolean considerPrice, final Mbo mbo)
+    '''
 def setPriceAttribute():
-'''public void setPriceAttribute(final Mbo mbo, final String attribute, final int identifier, final long flags)
-public void setPriceAttribute(final Mbo mbo, final String attribute, final int identifier)
-'''
-pass
+    '''    public void setPriceAttribute(final Mbo mbo, final String attribute, final int identifier, final long flags)
+    public void setPriceAttribute(final Mbo mbo, final String attribute, final int identifier)
+    '''
 def isBlanketPrice():
-'''public boolean isBlanketPrice()
-'''
-pass
+    '''    public boolean isBlanketPrice()
+    '''
 def isContractPrice():
-'''public boolean isContractPrice()
-'''
-pass
+    '''    public boolean isContractPrice()
+    '''
 def isVendorPrice():
-'''public boolean isVendorPrice()
-'''
-pass
+    '''    public boolean isVendorPrice()
+    '''
 def isInventoryPrice():
-'''public boolean isInventoryPrice()
-'''
-pass
+    '''    public boolean isInventoryPrice()
+    '''
 def isNoPriceFound():
-'''public boolean isNoPriceFound()
-'''
-pass
+    '''    public boolean isNoPriceFound()
+    '''

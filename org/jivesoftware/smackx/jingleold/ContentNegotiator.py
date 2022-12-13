@@ -1,66 +1,50 @@
-INITIATOR = "String  initiator""
-RESPONDER = "String  responder""
+INITIATOR = "String  \"initiator\""
+RESPONDER = "String  \"responder\""
 def ContentNegotiator():
-'''public ContentNegotiator(final JingleSession session, final String inCreator, final String inName)
-'''
-pass
+    '''    public ContentNegotiator(final JingleSession session, final String inCreator, final String inName)
+    '''
 def dispatchIncomingPacket():
-'''public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
-'''
-pass
+    '''    public List<IQ> dispatchIncomingPacket(final IQ iq, final String id)
+    '''
 def getCreator():
-'''public String getCreator()
-'''
-pass
+    '''    public String getCreator()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getJingleMediaSession():
-'''public JingleMediaSession getJingleMediaSession()
-'''
-pass
+    '''    public JingleMediaSession getJingleMediaSession()
+    '''
 def addTransportNegotiator():
-'''public void addTransportNegotiator(final TransportNegotiator transportNegotiator)
-'''
-pass
+    '''    public void addTransportNegotiator(final TransportNegotiator transportNegotiator)
+    '''
 def setJingleTransportManager():
-'''public void setJingleTransportManager(final JingleTransportManager jingleTransportManager)
-'''
-pass
+    '''    public void setJingleTransportManager(final JingleTransportManager jingleTransportManager)
+    '''
 def getTransportManager():
-'''public JingleTransportManager getTransportManager()
-'''
-pass
+    '''    public JingleTransportManager getTransportManager()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getMediaNegotiator():
-'''public MediaNegotiator getMediaNegotiator()
-'''
-pass
+    '''    public MediaNegotiator getMediaNegotiator()
+    '''
 def getTransportNegotiator():
-'''public TransportNegotiator getTransportNegotiator()
-'''
-pass
+    '''    public TransportNegotiator getTransportNegotiator()
+    '''
 def isFullyEstablished():
-'''public boolean isFullyEstablished()
-'''
-pass
+    '''    public boolean isFullyEstablished()
+    '''
 def getJingleContent():
-'''public JingleContent getJingleContent()
-'''
-pass
+    '''    public JingleContent getJingleContent()
+    '''
 def triggerContentEstablished():
-'''public void triggerContentEstablished()
-'''
-pass
+    '''    public void triggerContentEstablished()
+    '''
 def stopJingleMediaSession():
-'''public void stopJingleMediaSession()
-'''
-pass
+    '''    public void stopJingleMediaSession()
+    '''
 def getNegotiatorState():
-'''public JingleNegotiatorState getNegotiatorState()
-'''
-pass
+    '''    public JingleNegotiatorState getNegotiatorState()
+    '''

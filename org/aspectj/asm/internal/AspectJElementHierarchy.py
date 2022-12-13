@@ -1,117 +1,88 @@
 def AspectJElementHierarchy():
-'''public AspectJElementHierarchy(final AsmManager asm)
-'''
-pass
+    '''    public AspectJElementHierarchy(final AsmManager asm)
+    '''
 def getElement():
-'''public IProgramElement getElement(final String handle)
-'''
-pass
+    '''    public IProgramElement getElement(final String handle)
+    '''
 def setAsmManager():
-'''public void setAsmManager(final AsmManager asm)
-'''
-pass
+    '''    public void setAsmManager(final AsmManager asm)
+    '''
 def getRoot():
-'''public IProgramElement getRoot()
-'''
-pass
+    '''    public IProgramElement getRoot()
+    '''
 def toSummaryString():
-'''public String toSummaryString()
-'''
-pass
+    '''    public String toSummaryString()
+    '''
 def setRoot():
-'''public void setRoot(final IProgramElement root)
-'''
-pass
+    '''    public void setRoot(final IProgramElement root)
+    '''
 def addToFileMap():
-'''public void addToFileMap(final String key, final IProgramElement value)
-'''
-pass
+    '''    public void addToFileMap(final String key, final IProgramElement value)
+    '''
 def removeFromFileMap():
-'''public boolean removeFromFileMap(final String canonicalFilePath)
-'''
-pass
+    '''    public boolean removeFromFileMap(final String canonicalFilePath)
+    '''
 def setFileMap():
-'''public void setFileMap(final HashMap<String, IProgramElement> fileMap)
-'''
-pass
+    '''    public void setFileMap(final HashMap<String, IProgramElement> fileMap)
+    '''
 def findInFileMap():
-'''public Object findInFileMap(final Object key)
-'''
-pass
+    '''    public Object findInFileMap(final Object key)
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def findElementForSignature():
-'''public IProgramElement findElementForSignature(final IProgramElement parent, final IProgramElement.Kind kind, final String signature)
-'''
-pass
+    '''    public IProgramElement findElementForSignature(final IProgramElement parent, final IProgramElement.Kind kind, final String signature)
+    '''
 def findElementForLabel():
-'''public IProgramElement findElementForLabel(final IProgramElement parent, final IProgramElement.Kind kind, final String label)
-'''
-pass
+    '''    public IProgramElement findElementForLabel(final IProgramElement parent, final IProgramElement.Kind kind, final String label)
+    '''
 def findElementForType():
-'''public IProgramElement findElementForType(final String packageName, final String typeName)
-'''
-pass
+    '''    public IProgramElement findElementForType(final String packageName, final String typeName)
+    '''
 def findMatchingPackages():
-'''public List<IProgramElement> findMatchingPackages(final String packagename)
-'''
-pass
+    '''    public List<IProgramElement> findMatchingPackages(final String packagename)
+    '''
 def findElementForSourceFile():
-'''public IProgramElement findElementForSourceFile(final String sourceFile)
-'''
-pass
+    '''    public IProgramElement findElementForSourceFile(final String sourceFile)
+    '''
 def findElementForSourceLine():
-'''public IProgramElement findElementForSourceLine(final ISourceLocation location)
-public IProgramElement findElementForSourceLine(final String sourceFilePath, final int lineNumber)
-'''
-pass
+    '''    public IProgramElement findElementForSourceLine(final ISourceLocation location)
+    public IProgramElement findElementForSourceLine(final String sourceFilePath, final int lineNumber)
+    '''
 def findNodeForSourceFile():
-'''public IProgramElement findNodeForSourceFile(final IProgramElement node, final String sourcefilePath)
-'''
-pass
+    '''    public IProgramElement findNodeForSourceFile(final IProgramElement node, final String sourcefilePath)
+    '''
 def findElementForOffSet():
-'''public IProgramElement findElementForOffSet(final String sourceFilePath, final int lineNumber, final int offSet)
-'''
-pass
+    '''    public IProgramElement findElementForOffSet(final String sourceFilePath, final int lineNumber, final int offSet)
+    '''
 def findCloserMatchForLineNumber():
-'''public IProgramElement findCloserMatchForLineNumber(final IProgramElement node, final int lineno)
-'''
-pass
+    '''    public IProgramElement findCloserMatchForLineNumber(final IProgramElement node, final int lineno)
+    '''
 def getConfigFile():
-'''public String getConfigFile()
-'''
-pass
+    '''    public String getConfigFile()
+    '''
 def setConfigFile():
-'''public void setConfigFile(final String configFile)
-'''
-pass
+    '''    public void setConfigFile(final String configFile)
+    '''
 def findElementForHandle():
-'''public IProgramElement findElementForHandle(final String handle)
-'''
-pass
+    '''    public IProgramElement findElementForHandle(final String handle)
+    '''
 def findElementForHandleOrCreate():
-'''public IProgramElement findElementForHandleOrCreate(final String handle, final boolean create)
-'''
-pass
+    '''    public IProgramElement findElementForHandleOrCreate(final String handle, final boolean create)
+    '''
 def flushTypeMap():
-'''public void flushTypeMap()
-'''
-pass
+    '''    public void flushTypeMap()
+    '''
 def flushHandleMap():
-'''public void flushHandleMap()
-'''
-pass
+    '''    public void flushHandleMap()
+    '''
 def flushFileMap():
-'''public void flushFileMap()
-'''
-pass
+    '''    public void flushFileMap()
+    '''
 def forget():
-'''public void forget(final IProgramElement compilationUnitNode, final IProgramElement typeNode)
-'''
-pass
+    '''    public void forget(final IProgramElement compilationUnitNode, final IProgramElement typeNode)
+    '''
 def updateHandleMap():
-'''public void updateHandleMap(final Set<String> deletedFiles)
-'''
-pass
+    '''    public void updateHandleMap(final Set<String> deletedFiles)
+    '''

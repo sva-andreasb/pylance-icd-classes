@@ -1,24 +1,18 @@
 def ServiceInfo():
-'''public ServiceInfo(final String name, final String className, final boolean singleton)
-'''
-pass
+    '''    public ServiceInfo(final String name, final String className, final boolean singleton)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def singleton():
-'''public boolean singleton()
-'''
-pass
+    '''    public boolean singleton()
+    '''
 def getServiceClass():
-'''public Class getServiceClass()
-'''
-pass
+    '''    public Class getServiceClass()
+    '''
 def getServiceLogger():
-'''public MXLogger getServiceLogger()
-'''
-pass
+    '''    public MXLogger getServiceLogger()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,16 +1,12 @@
 def AllowedValues():
-'''public AllowedValues()
-'''
-pass
+    '''    public AllowedValues()
+    '''
 def addAllowedValue():
-'''public void addAllowedValue(final String allowedValue)
-'''
-pass
+    '''    public void addAllowedValue(final String allowedValue)
+    '''
 def getAllowedValues():
-'''public String[] getAllowedValues()
-'''
-pass
+    '''    public String[] getAllowedValues()
+    '''
 def setAllowedValues():
-'''public void setAllowedValues(final String[] allowedValues)
-'''
-pass
+    '''    public void setAllowedValues(final String[] allowedValues)
+    '''

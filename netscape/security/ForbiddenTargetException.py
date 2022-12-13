@@ -1,5 +1,4 @@
 def ForbiddenTargetException():
-'''public ForbiddenTargetException()
-public ForbiddenTargetException(final String message)
-'''
-pass
+    '''    public ForbiddenTargetException()
+    public ForbiddenTargetException(final String message)
+    '''

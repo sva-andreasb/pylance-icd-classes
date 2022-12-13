@@ -1,20 +1,15 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def applyDefaults():
-'''public int applyDefaults()
-'''
-pass
+    '''    public int applyDefaults()
+    '''
 def clearDefaults():
-'''public int clearDefaults()
-'''
-pass
+    '''    public int clearDefaults()
+    '''
 def associateClassification():
-'''public int associateClassification()
-'''
-pass
+    '''    public int associateClassification()
+    '''

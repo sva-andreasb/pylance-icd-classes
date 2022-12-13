@@ -1,4 +1,3 @@
 def ContractMaster():
-'''public ContractMaster(final MboSet ms)
-'''
-pass
+    '''    public ContractMaster(final MboSet ms)
+    '''

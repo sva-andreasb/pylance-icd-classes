@@ -1,7 +1,6 @@
-ELEMENT = "String  setResponse""
-NAMESPACE = "String  urn:xmpp:iot:control""
+ELEMENT = "String  \"setResponse\""
+NAMESPACE = "String  \"urn:xmpp:iot:control\""
 def IoTSetResponse():
-'''public IoTSetResponse()
-public IoTSetResponse(final IoTSetRequest iotSetRequest)
-'''
-pass
+    '''    public IoTSetResponse()
+    public IoTSetResponse(final IoTSetRequest iotSetRequest)
+    '''

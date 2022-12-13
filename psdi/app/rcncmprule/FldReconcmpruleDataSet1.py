@@ -1,8 +1,6 @@
 def FldReconcmpruleDataSet1():
-'''public FldReconcmpruleDataSet1(final MboValue mbv)
-'''
-pass
+    '''    public FldReconcmpruleDataSet1(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

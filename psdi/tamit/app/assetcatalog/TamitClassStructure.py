@@ -1,4 +1,3 @@
 def TamitClassStructure():
-'''public TamitClassStructure(final MboSet ms)
-'''
-pass
+    '''    public TamitClassStructure(final MboSet ms)
+    '''

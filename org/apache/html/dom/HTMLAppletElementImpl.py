@@ -1,92 +1,69 @@
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getAlt():
-'''public String getAlt()
-'''
-pass
+    '''    public String getAlt()
+    '''
 def setAlt():
-'''public void setAlt(final String s)
-'''
-pass
+    '''    public void setAlt(final String s)
+    '''
 def getArchive():
-'''public String getArchive()
-'''
-pass
+    '''    public String getArchive()
+    '''
 def setArchive():
-'''public void setArchive(final String s)
-'''
-pass
+    '''    public void setArchive(final String s)
+    '''
 def getCode():
-'''public String getCode()
-'''
-pass
+    '''    public String getCode()
+    '''
 def setCode():
-'''public void setCode(final String s)
-'''
-pass
+    '''    public void setCode(final String s)
+    '''
 def getCodeBase():
-'''public String getCodeBase()
-'''
-pass
+    '''    public String getCodeBase()
+    '''
 def setCodeBase():
-'''public void setCodeBase(final String s)
-'''
-pass
+    '''    public void setCodeBase(final String s)
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final String s)
-'''
-pass
+    '''    public void setHeight(final String s)
+    '''
 def getHspace():
-'''public String getHspace()
-'''
-pass
+    '''    public String getHspace()
+    '''
 def setHspace():
-'''public void setHspace(final String s)
-'''
-pass
+    '''    public void setHspace(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getObject():
-'''public String getObject()
-'''
-pass
+    '''    public String getObject()
+    '''
 def setObject():
-'''public void setObject(final String s)
-'''
-pass
+    '''    public void setObject(final String s)
+    '''
 def getVspace():
-'''public String getVspace()
-'''
-pass
+    '''    public String getVspace()
+    '''
 def setVspace():
-'''public void setVspace(final String s)
-'''
-pass
+    '''    public void setVspace(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''
 def HTMLAppletElementImpl():
-'''public HTMLAppletElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLAppletElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

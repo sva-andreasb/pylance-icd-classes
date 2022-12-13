@@ -1,20 +1,15 @@
 def removeclassification():
-'''public int removeclassification()
-'''
-pass
+    '''    public int removeclassification()
+    '''
 def raiseYesNoDialogBox():
-'''public static boolean raiseYesNoDialogBox(final UserInfo userInfo, final String messageKey)
-'''
-pass
+    '''    public static boolean raiseYesNoDialogBox(final UserInfo userInfo, final String messageKey)
+    '''
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def getList():
-'''public synchronized MboSetRemote getList(final int nRow, final String attribute)
-'''
-pass
+    '''    public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''

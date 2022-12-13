@@ -1,650 +1,489 @@
 def IlvDiagrammer():
-'''public IlvDiagrammer()
-public IlvDiagrammer(final IlvSDMView ilvSDMView)
-'''
-pass
+    '''    public IlvDiagrammer()
+    public IlvDiagrammer(final IlvSDMView ilvSDMView)
+    '''
 def getDefaultStyleSheet():
-'''public URL getDefaultStyleSheet()
-'''
-pass
+    '''    public URL getDefaultStyleSheet()
+    '''
 def keyPressed():
-'''public void keyPressed(final KeyEvent keyEvent)
-'''
-pass
+    '''    public void keyPressed(final KeyEvent keyEvent)
+    '''
 def setScrollable():
-'''public void setScrollable(final boolean g)
-'''
-pass
+    '''    public void setScrollable(final boolean g)
+    '''
 def isScrollable():
-'''public boolean isScrollable()
-'''
-pass
+    '''    public boolean isScrollable()
+    '''
 def setStyleSheet():
-'''public void setStyleSheet(final URL url)
-'''
-pass
+    '''    public void setStyleSheet(final URL url)
+    '''
 def getStyleSheet():
-'''public URL getStyleSheet()
-'''
-pass
+    '''    public URL getStyleSheet()
+    '''
 def addStyleSheet():
-'''public void addStyleSheet(final URL url)
-'''
-pass
+    '''    public void addStyleSheet(final URL url)
+    '''
 def removeStyleSheet():
-'''public void removeStyleSheet(final URL url)
-'''
-pass
+    '''    public void removeStyleSheet(final URL url)
+    '''
 def getStyleSheets():
-'''public URL[] getStyleSheets()
-'''
-pass
+    '''    public URL[] getStyleSheets()
+    '''
 def isStyleApplicationComponents():
-'''public boolean isStyleApplicationComponents()
-'''
-pass
+    '''    public boolean isStyleApplicationComponents()
+    '''
 def setStyleApplicationComponents():
-'''public void setStyleApplicationComponents(final boolean v)
-'''
-pass
+    '''    public void setStyleApplicationComponents(final boolean v)
+    '''
 def setDataFile():
-'''public synchronized void setDataFile(final URL url)
-'''
-pass
+    '''    public synchronized void setDataFile(final URL url)
+    '''
 def getDataFile():
-'''public URL getDataFile()
-'''
-pass
+    '''    public URL getDataFile()
+    '''
 def writeProjectFile():
-'''public void writeProjectFile(final URL url)
-'''
-pass
+    '''    public void writeProjectFile(final URL url)
+    '''
 def writeDataFile():
-'''public void writeDataFile(final URL d)
-public void writeDataFile(final String s)
-'''
-pass
+    '''    public void writeDataFile(final URL d)
+    public void writeDataFile(final String s)
+    '''
 def writeData():
-'''public void writeData()
-'''
-pass
+    '''    public void writeData()
+    '''
 def setDataSource():
-'''public void setDataSource(final IlvDiagrammerDataSource ilvDiagrammerDataSource)
-'''
-pass
+    '''    public void setDataSource(final IlvDiagrammerDataSource ilvDiagrammerDataSource)
+    '''
 def getDataSource():
-'''public IlvDiagrammerDataSource getDataSource()
-'''
-pass
+    '''    public IlvDiagrammerDataSource getDataSource()
+    '''
 def getProject():
-'''public IlvDiagrammerProject getProject()
-'''
-pass
+    '''    public IlvDiagrammerProject getProject()
+    '''
 def setProject():
-'''public void setProject(final IlvDiagrammerProject ilvDiagrammerProject)
-public void setProject(final IlvDiagrammerProject ilvDiagrammerProject, final boolean b)
-'''
-pass
+    '''    public void setProject(final IlvDiagrammerProject ilvDiagrammerProject)
+    public void setProject(final IlvDiagrammerProject ilvDiagrammerProject, final boolean b)
+    '''
 def assignProject():
-'''public void assignProject(final IlvDiagrammerProject f)
-'''
-pass
+    '''    public void assignProject(final IlvDiagrammerProject f)
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''
 def createNode():
-'''public Object createNode(final String s)
-'''
-pass
+    '''    public Object createNode(final String s)
+    '''
 def createLink():
-'''public Object createLink(final String s, final Object o, final Object o2)
-'''
-pass
+    '''    public Object createLink(final String s, final Object o, final Object o2)
+    '''
 def getTag():
-'''public String getTag(final Object o)
-'''
-pass
+    '''    public String getTag(final Object o)
+    '''
 def getID():
-'''public String getID(final Object o)
-'''
-pass
+    '''    public String getID(final Object o)
+    '''
 def setID():
-'''public void setID(final Object o, final String s)
-'''
-pass
+    '''    public void setID(final Object o, final String s)
+    '''
 def getObject():
-'''public Object getObject(final String s)
-'''
-pass
+    '''    public Object getObject(final String s)
+    '''
 def addObject():
-'''public void addObject(final Object o, final Object o2)
-'''
-pass
+    '''    public void addObject(final Object o, final Object o2)
+    '''
 def removeObject():
-'''public void removeObject(final Object o)
-'''
-pass
+    '''    public void removeObject(final Object o)
+    '''
 def setObjectProperty():
-'''public void setObjectProperty(final Object o, final String s, final Object o2)
-'''
-pass
+    '''    public void setObjectProperty(final Object o, final String s, final Object o2)
+    '''
 def getObjectProperty():
-'''public Object getObjectProperty(final Object o, final String s)
-'''
-pass
+    '''    public Object getObjectProperty(final Object o, final String s)
+    '''
 def getObjects():
-'''public Iterator getObjects()
-'''
-pass
+    '''    public Iterator getObjects()
+    '''
 def getAllObjects():
-'''public Iterator getAllObjects()
-'''
-pass
+    '''    public Iterator getAllObjects()
+    '''
 def getChildren():
-'''public Iterator getChildren(final Object o)
-'''
-pass
+    '''    public Iterator getChildren(final Object o)
+    '''
 def getParent():
-'''public Object getParent(final Object o)
-'''
-pass
+    '''    public Object getParent(final Object o)
+    '''
 def getEngine():
-'''public IlvSDMEngine getEngine()
-'''
-pass
+    '''    public IlvSDMEngine getEngine()
+    '''
 def getView():
-'''public IlvSDMView getView()
-'''
-pass
+    '''    public IlvSDMView getView()
+    '''
 def isLink():
-'''public boolean isLink(final Object o)
-'''
-pass
+    '''    public boolean isLink(final Object o)
+    '''
 def getSourceNode():
-'''public Object getSourceNode(final Object o)
-'''
-pass
+    '''    public Object getSourceNode(final Object o)
+    '''
 def setSourceNode():
-'''public void setSourceNode(final Object o, final Object o2)
-'''
-pass
+    '''    public void setSourceNode(final Object o, final Object o2)
+    '''
 def getTargetNode():
-'''public Object getTargetNode(final Object o)
-'''
-pass
+    '''    public Object getTargetNode(final Object o)
+    '''
 def setTargetNode():
-'''public void setTargetNode(final Object o, final Object o2)
-'''
-pass
+    '''    public void setTargetNode(final Object o, final Object o2)
+    '''
 def setAdjusting():
-'''public void setAdjusting(final boolean adjusting)
-'''
-pass
+    '''    public void setAdjusting(final boolean adjusting)
+    '''
 def clearAdjusting():
-'''public void clearAdjusting()
-'''
-pass
+    '''    public void clearAdjusting()
+    '''
 def isAdjusting():
-'''public boolean isAdjusting()
-'''
-pass
+    '''    public boolean isAdjusting()
+    '''
 def setSelectMode():
-'''public void setSelectMode(final boolean b)
-'''
-pass
+    '''    public void setSelectMode(final boolean b)
+    '''
 def isSelectMode():
-'''public boolean isSelectMode()
-'''
-pass
+    '''    public boolean isSelectMode()
+    '''
 def getSelectedObjects():
-'''public Iterator getSelectedObjects()
-'''
-pass
+    '''    public Iterator getSelectedObjects()
+    '''
 def setSelected():
-'''public void setSelected(final Object o, final boolean b)
-'''
-pass
+    '''    public void setSelected(final Object o, final boolean b)
+    '''
 def isSelected():
-'''public boolean isSelected(final Object o)
-'''
-pass
+    '''    public boolean isSelected(final Object o)
+    '''
 def deselectAll():
-'''public void deselectAll()
-'''
-pass
+    '''    public void deselectAll()
+    '''
 def setAllSelectedObjects():
-'''public void setAllSelectedObjects(final Collection allSelectedObjects)
-'''
-pass
+    '''    public void setAllSelectedObjects(final Collection allSelectedObjects)
+    '''
 def selectAll():
-'''public void selectAll()
-'''
-pass
+    '''    public void selectAll()
+    '''
 def canSelect():
-'''public boolean canSelect()
-'''
-pass
+    '''    public boolean canSelect()
+    '''
 def scrollToObject():
-'''public void scrollToObject(final Object o)
-'''
-pass
+    '''    public void scrollToObject(final Object o)
+    '''
 def setEditingAllowed():
-'''public void setEditingAllowed(final boolean b)
-'''
-pass
+    '''    public void setEditingAllowed(final boolean b)
+    '''
 def isEditingAllowed():
-'''public boolean isEditingAllowed()
-'''
-pass
+    '''    public boolean isEditingAllowed()
+    '''
 def isEditable():
-'''public boolean isEditable()
-'''
-pass
+    '''    public boolean isEditable()
+    '''
 def isResizingAllowed():
-'''public boolean isResizingAllowed()
-'''
-pass
+    '''    public boolean isResizingAllowed()
+    '''
 def setResizingAllowed():
-'''public void setResizingAllowed(final boolean resizingAllowed)
-'''
-pass
+    '''    public void setResizingAllowed(final boolean resizingAllowed)
+    '''
 def cut():
-'''public void cut()
-'''
-pass
+    '''    public void cut()
+    '''
 def canEdit():
-'''public boolean canEdit()
-'''
-pass
+    '''    public boolean canEdit()
+    '''
 def copy():
-'''public void copy()
-'''
-pass
+    '''    public void copy()
+    '''
 def paste():
-'''public void paste()
-'''
-pass
+    '''    public void paste()
+    '''
 def canPaste():
-'''public boolean canPaste()
-'''
-pass
+    '''    public boolean canPaste()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def duplicate():
-'''public void duplicate()
-'''
-pass
+    '''    public void duplicate()
+    '''
 def undo():
-'''public void undo()
-'''
-pass
+    '''    public void undo()
+    '''
 def canUndo():
-'''public boolean canUndo()
-'''
-pass
+    '''    public boolean canUndo()
+    '''
 def redo():
-'''public void redo()
-'''
-pass
+    '''    public void redo()
+    '''
 def canRedo():
-'''public boolean canRedo()
-'''
-pass
+    '''    public boolean canRedo()
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def setModified():
-'''public void setModified(final boolean b)
-'''
-pass
+    '''    public void setModified(final boolean b)
+    '''
 def group():
-'''public void group()
-'''
-pass
+    '''    public void group()
+    '''
 def createGroupParent():
-'''public Object createGroupParent()
-'''
-pass
+    '''    public Object createGroupParent()
+    '''
 def setGroupParent():
-'''public void setGroupParent(final IlvDiagrammer ilvDiagrammer, final Object o)
-'''
-pass
+    '''    public void setGroupParent(final IlvDiagrammer ilvDiagrammer, final Object o)
+    '''
 def canGroup():
-'''public boolean canGroup()
-'''
-pass
+    '''    public boolean canGroup()
+    '''
 def ungroup():
-'''public void ungroup()
-'''
-pass
+    '''    public void ungroup()
+    '''
 def canUngroup():
-'''public boolean canUngroup()
-'''
-pass
+    '''    public boolean canUngroup()
+    '''
 def getZoomFactor():
-'''public double getZoomFactor()
-'''
-pass
+    '''    public double getZoomFactor()
+    '''
 def setZoomFactor():
-'''public void setZoomFactor(final double q)
-'''
-pass
+    '''    public void setZoomFactor(final double q)
+    '''
 def getMinimumZoom():
-'''public double getMinimumZoom()
-'''
-pass
+    '''    public double getMinimumZoom()
+    '''
 def setMinimumZoom():
-'''public void setMinimumZoom(final double r)
-'''
-pass
+    '''    public void setMinimumZoom(final double r)
+    '''
 def getMaximumZoom():
-'''public double getMaximumZoom()
-'''
-pass
+    '''    public double getMaximumZoom()
+    '''
 def setMaximumZoom():
-'''public void setMaximumZoom(final double s)
-'''
-pass
+    '''    public void setMaximumZoom(final double s)
+    '''
 def zoomIn():
-'''public void zoomIn()
-'''
-pass
+    '''    public void zoomIn()
+    '''
 def canZoomIn():
-'''public boolean canZoomIn()
-'''
-pass
+    '''    public boolean canZoomIn()
+    '''
 def zoomOut():
-'''public void zoomOut()
-'''
-pass
+    '''    public void zoomOut()
+    '''
 def canZoomOut():
-'''public boolean canZoomOut()
-'''
-pass
+    '''    public boolean canZoomOut()
+    '''
 def resetZoom():
-'''public void resetZoom()
-'''
-pass
+    '''    public void resetZoom()
+    '''
 def canResetZoom():
-'''public boolean canResetZoom()
-'''
-pass
+    '''    public boolean canResetZoom()
+    '''
 def setZoomMode():
-'''public void setZoomMode(final boolean b)
-'''
-pass
+    '''    public void setZoomMode(final boolean b)
+    '''
 def isZoomMode():
-'''public boolean isZoomMode()
-'''
-pass
+    '''    public boolean isZoomMode()
+    '''
 def setPanMode():
-'''public void setPanMode(final boolean b)
-'''
-pass
+    '''    public void setPanMode(final boolean b)
+    '''
 def isPanMode():
-'''public boolean isPanMode()
-'''
-pass
+    '''    public boolean isPanMode()
+    '''
 def fitToContents():
-'''public void fitToContents()
-public void fitToContents(final boolean b)
-'''
-pass
+    '''    public void fitToContents()
+    public void fitToContents(final boolean b)
+    '''
 def setEditLabelMode():
-'''public void setEditLabelMode(final boolean b)
-'''
-pass
+    '''    public void setEditLabelMode(final boolean b)
+    '''
 def isEditLabelMode():
-'''public boolean isEditLabelMode()
-'''
-pass
+    '''    public boolean isEditLabelMode()
+    '''
 def isAutoEditLabel():
-'''public boolean isAutoEditLabel()
-'''
-pass
+    '''    public boolean isAutoEditLabel()
+    '''
 def setAutoEditLabel():
-'''public void setAutoEditLabel(final boolean m)
-'''
-pass
+    '''    public void setAutoEditLabel(final boolean m)
+    '''
 def setAutomaticNodeLayout():
-'''public void setAutomaticNodeLayout(final boolean nodeLayoutEnabled)
-'''
-pass
+    '''    public void setAutomaticNodeLayout(final boolean nodeLayoutEnabled)
+    '''
 def isAutomaticNodeLayout():
-'''public boolean isAutomaticNodeLayout()
-'''
-pass
+    '''    public boolean isAutomaticNodeLayout()
+    '''
 def layoutAllNodes():
-'''public void layoutAllNodes()
-'''
-pass
+    '''    public void layoutAllNodes()
+    '''
 def layoutSelectedNodes():
-'''public void layoutSelectedNodes()
-'''
-pass
+    '''    public void layoutSelectedNodes()
+    '''
 def isNodeLayoutAvailable():
-'''public boolean isNodeLayoutAvailable()
-'''
-pass
+    '''    public boolean isNodeLayoutAvailable()
+    '''
 def setAutomaticLinkLayout():
-'''public void setAutomaticLinkLayout(final boolean linkLayoutEnabled)
-'''
-pass
+    '''    public void setAutomaticLinkLayout(final boolean linkLayoutEnabled)
+    '''
 def isAutomaticLinkLayout():
-'''public boolean isAutomaticLinkLayout()
-'''
-pass
+    '''    public boolean isAutomaticLinkLayout()
+    '''
 def layoutLinks():
-'''public void layoutLinks()
-'''
-pass
+    '''    public void layoutLinks()
+    '''
 def isLinkLayoutAvailable():
-'''public boolean isLinkLayoutAvailable()
-'''
-pass
+    '''    public boolean isLinkLayoutAvailable()
+    '''
 def setAutomaticLabelLayout():
-'''public void setAutomaticLabelLayout(final boolean labelLayoutEnabled)
-'''
-pass
+    '''    public void setAutomaticLabelLayout(final boolean labelLayoutEnabled)
+    '''
 def isAutomaticLabelLayout():
-'''public boolean isAutomaticLabelLayout()
-'''
-pass
+    '''    public boolean isAutomaticLabelLayout()
+    '''
 def layoutLabels():
-'''public void layoutLabels()
-'''
-pass
+    '''    public void layoutLabels()
+    '''
 def isLabelLayoutAvailable():
-'''public boolean isLabelLayoutAvailable()
-'''
-pass
+    '''    public boolean isLabelLayoutAvailable()
+    '''
 def getPrintingController():
-'''public IlvManagerPrintingController getPrintingController()
-'''
-pass
+    '''    public IlvManagerPrintingController getPrintingController()
+    '''
 def setPrintingController():
-'''public void setPrintingController(final IlvManagerPrintingController x)
-'''
-pass
+    '''    public void setPrintingController(final IlvManagerPrintingController x)
+    '''
 def pageSetup():
-'''public void pageSetup()
-'''
-pass
+    '''    public void pageSetup()
+    '''
 def printPreview():
-'''public void printPreview()
-'''
-pass
+    '''    public void printPreview()
+    '''
 def setPrintArea():
-'''public void setPrintArea()
-'''
-pass
+    '''    public void setPrintArea()
+    '''
 def clearPrintArea():
-'''public void clearPrintArea()
-'''
-pass
+    '''    public void clearPrintArea()
+    '''
 def print():
-'''public void print(final boolean b, final boolean b2, final PrinterExceptionHandler printerExceptionHandler)
-'''
-pass
+    '''    public void print(final boolean b, final boolean b2, final PrinterExceptionHandler printerExceptionHandler)
+    '''
 def printToBitmap():
-'''public void printToBitmap(final File file)
-'''
-pass
+    '''    public void printToBitmap(final File file)
+    '''
 def hasFrameOrDialogAncestor():
-'''public boolean hasFrameOrDialogAncestor()
-'''
-pass
+    '''    public boolean hasFrameOrDialogAncestor()
+    '''
 def canPrint():
-'''public boolean canPrint()
-'''
-pass
+    '''    public boolean canPrint()
+    '''
 def setPalette():
-'''public void setPalette(final IlvDiagrammer t)
-'''
-pass
+    '''    public void setPalette(final IlvDiagrammer t)
+    '''
 def getPalette():
-'''public IlvDiagrammer getPalette()
-'''
-pass
+    '''    public IlvDiagrammer getPalette()
+    '''
 def isStickyModes():
-'''public boolean isStickyModes()
-'''
-pass
+    '''    public boolean isStickyModes()
+    '''
 def setStickyModes():
-'''public void setStickyModes(final boolean b)
-'''
-pass
+    '''    public void setStickyModes(final boolean b)
+    '''
 def setBaseTextDirection():
-'''public void setBaseTextDirection(final int n)
-public void setBaseTextDirection(final int n, final boolean b)
-'''
-pass
+    '''    public void setBaseTextDirection(final int n)
+    public void setBaseTextDirection(final int n, final boolean b)
+    '''
 def getBaseTextDirection():
-'''public int getBaseTextDirection()
-'''
-pass
+    '''    public int getBaseTextDirection()
+    '''
 def getSelectInteractor():
-'''public IlvSelectInteractor getSelectInteractor()
-'''
-pass
+    '''    public IlvSelectInteractor getSelectInteractor()
+    '''
 def setSelectInteractor():
-'''public void setSelectInteractor(final IlvSelectInteractor i)
-'''
-pass
+    '''    public void setSelectInteractor(final IlvSelectInteractor i)
+    '''
 def getZoomInteractor():
-'''public IlvZoomViewInteractor getZoomInteractor()
-'''
-pass
+    '''    public IlvZoomViewInteractor getZoomInteractor()
+    '''
 def setZoomInteractor():
-'''public void setZoomInteractor(final IlvZoomViewInteractor j)
-'''
-pass
+    '''    public void setZoomInteractor(final IlvZoomViewInteractor j)
+    '''
 def getPanInteractor():
-'''public IlvPanInteractor getPanInteractor()
-'''
-pass
+    '''    public IlvPanInteractor getPanInteractor()
+    '''
 def setPanInteractor():
-'''public void setPanInteractor(final IlvPanInteractor k)
-'''
-pass
+    '''    public void setPanInteractor(final IlvPanInteractor k)
+    '''
 def getEditLabelInteractor():
-'''public IlvEditSDMLabelInteractor getEditLabelInteractor()
-'''
-pass
+    '''    public IlvEditSDMLabelInteractor getEditLabelInteractor()
+    '''
 def setEditLabelInteractor():
-'''public void setEditLabelInteractor(final IlvEditSDMLabelInteractor l)
-'''
-pass
+    '''    public void setEditLabelInteractor(final IlvEditSDMLabelInteractor l)
+    '''
 def isGridVisible():
-'''public boolean isGridVisible()
-'''
-pass
+    '''    public boolean isGridVisible()
+    '''
 def setGridVisible():
-'''public void setGridVisible(final boolean b)
-'''
-pass
+    '''    public void setGridVisible(final boolean b)
+    '''
 def getGrid():
-'''public IlvGrid getGrid()
-'''
-pass
+    '''    public IlvGrid getGrid()
+    '''
 def setGrid():
-'''public void setGrid(final IlvGrid y)
-'''
-pass
+    '''    public void setGrid(final IlvGrid y)
+    '''
 def getUndoManager():
-'''public IlvSDMUndoManager getUndoManager()
-'''
-pass
+    '''    public IlvSDMUndoManager getUndoManager()
+    '''
 def canAlign():
-'''public boolean canAlign()
-'''
-pass
+    '''    public boolean canAlign()
+    '''
 def canDistribute():
-'''public boolean canDistribute()
-'''
-pass
+    '''    public boolean canDistribute()
+    '''
 def alignLeft():
-'''public void alignLeft()
-'''
-pass
+    '''    public void alignLeft()
+    '''
 def alignRight():
-'''public void alignRight()
-'''
-pass
+    '''    public void alignRight()
+    '''
 def alignTop():
-'''public void alignTop()
-'''
-pass
+    '''    public void alignTop()
+    '''
 def alignBottom():
-'''public void alignBottom()
-'''
-pass
+    '''    public void alignBottom()
+    '''
 def alignVerticalCenter():
-'''public void alignVerticalCenter()
-'''
-pass
+    '''    public void alignVerticalCenter()
+    '''
 def alignHorizontalCenter():
-'''public void alignHorizontalCenter()
-'''
-pass
+    '''    public void alignHorizontalCenter()
+    '''
 def distributeHorizontally():
-'''public void distributeHorizontally()
-'''
-pass
+    '''    public void distributeHorizontally()
+    '''
 def distributeVertically():
-'''public void distributeVertically()
-'''
-pass
+    '''    public void distributeVertically()
+    '''
 def getCurrentDiagrammer():
-'''public static IlvDiagrammer getCurrentDiagrammer(final Component component)
-'''
-pass
+    '''    public static IlvDiagrammer getCurrentDiagrammer(final Component component)
+    '''
 def setCurrentDiagrammer():
-'''public static void setCurrentDiagrammer(final Component component, final IlvDiagrammer ilvDiagrammer)
-public static void setCurrentDiagrammer(final Component component, final IlvDiagrammer target, final boolean b)
-'''
-pass
+    '''    public static void setCurrentDiagrammer(final Component component, final IlvDiagrammer ilvDiagrammer)
+    public static void setCurrentDiagrammer(final Component component, final IlvDiagrammer target, final boolean b)
+    '''
 def setAsRoot():
-'''public static void setAsRoot(final Component component)
-'''
-pass
+    '''    public static void setAsRoot(final Component component)
+    '''
 def setAutomaticCurrentDiagrammer():
-'''public static void setAutomaticCurrentDiagrammer(final boolean enabled)
-'''
-pass
+    '''    public static void setAutomaticCurrentDiagrammer(final boolean enabled)
+    '''
 def isAutomaticCurrentDiagrammer():
-'''public static boolean isAutomaticCurrentDiagrammer()
-'''
-pass
+    '''    public static boolean isAutomaticCurrentDiagrammer()
+    '''
 def processServerAction():
-'''public boolean processServerAction(final int n, final int n2)
-'''
-pass
+    '''    public boolean processServerAction(final int n, final int n2)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''

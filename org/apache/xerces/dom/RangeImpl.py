@@ -1,104 +1,78 @@
 def RangeImpl():
-'''public RangeImpl(final DocumentImpl fEndContainer)
-'''
-pass
+    '''    public RangeImpl(final DocumentImpl fEndContainer)
+    '''
 def getStartContainer():
-'''public Node getStartContainer()
-'''
-pass
+    '''    public Node getStartContainer()
+    '''
 def getStartOffset():
-'''public int getStartOffset()
-'''
-pass
+    '''    public int getStartOffset()
+    '''
 def getEndContainer():
-'''public Node getEndContainer()
-'''
-pass
+    '''    public Node getEndContainer()
+    '''
 def getEndOffset():
-'''public int getEndOffset()
-'''
-pass
+    '''    public int getEndOffset()
+    '''
 def getCollapsed():
-'''public boolean getCollapsed()
-'''
-pass
+    '''    public boolean getCollapsed()
+    '''
 def getCommonAncestorContainer():
-'''public Node getCommonAncestorContainer()
-'''
-pass
+    '''    public Node getCommonAncestorContainer()
+    '''
 def setStart():
-'''public void setStart(final Node fStartContainer, final int fStartOffset)
-'''
-pass
+    '''    public void setStart(final Node fStartContainer, final int fStartOffset)
+    '''
 def setEnd():
-'''public void setEnd(final Node fEndContainer, final int fEndOffset)
-'''
-pass
+    '''    public void setEnd(final Node fEndContainer, final int fEndOffset)
+    '''
 def setStartBefore():
-'''public void setStartBefore(final Node node)
-'''
-pass
+    '''    public void setStartBefore(final Node node)
+    '''
 def setStartAfter():
-'''public void setStartAfter(final Node node)
-'''
-pass
+    '''    public void setStartAfter(final Node node)
+    '''
 def setEndBefore():
-'''public void setEndBefore(final Node node)
-'''
-pass
+    '''    public void setEndBefore(final Node node)
+    '''
 def setEndAfter():
-'''public void setEndAfter(final Node node)
-'''
-pass
+    '''    public void setEndAfter(final Node node)
+    '''
 def collapse():
-'''public void collapse(final boolean b)
-'''
-pass
+    '''    public void collapse(final boolean b)
+    '''
 def selectNode():
-'''public void selectNode(final Node node)
-'''
-pass
+    '''    public void selectNode(final Node node)
+    '''
 def selectNodeContents():
-'''public void selectNodeContents(final Node node)
-'''
-pass
+    '''    public void selectNodeContents(final Node node)
+    '''
 def compareBoundaryPoints():
-'''public short compareBoundaryPoints(final short n, final Range range)
-'''
-pass
+    '''    public short compareBoundaryPoints(final short n, final Range range)
+    '''
 def deleteContents():
-'''public void deleteContents()
-'''
-pass
+    '''    public void deleteContents()
+    '''
 def extractContents():
-'''public DocumentFragment extractContents()
-'''
-pass
+    '''    public DocumentFragment extractContents()
+    '''
 def cloneContents():
-'''public DocumentFragment cloneContents()
-'''
-pass
+    '''    public DocumentFragment cloneContents()
+    '''
 def insertNode():
-'''public void insertNode(final Node node)
-'''
-pass
+    '''    public void insertNode(final Node node)
+    '''
 def surroundContents():
-'''public void surroundContents(final Node node)
-'''
-pass
+    '''    public void surroundContents(final Node node)
+    '''
 def cloneRange():
-'''public Range cloneRange()
-'''
-pass
+    '''    public Range cloneRange()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def detach():
-'''public void detach()
-'''
-pass
+    '''    public void detach()
+    '''
 def insertedNodeFromDOM():
-'''public void insertedNodeFromDOM(final Node node)
-'''
-pass
+    '''    public void insertedNodeFromDOM(final Node node)
+    '''

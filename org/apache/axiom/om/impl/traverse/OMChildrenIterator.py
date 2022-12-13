@@ -1,16 +1,12 @@
 def OMChildrenIterator():
-'''public OMChildrenIterator(final OMNode currentChild)
-'''
-pass
+    '''    public OMChildrenIterator(final OMNode currentChild)
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

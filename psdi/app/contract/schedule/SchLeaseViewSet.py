@@ -1,8 +1,6 @@
 def SchLeaseViewSet():
-'''public SchLeaseViewSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SchLeaseViewSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

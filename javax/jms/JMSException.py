@@ -1,17 +1,13 @@
 def getLinkedException():
-'''public Exception getLinkedException()
-'''
-pass
+    '''    public Exception getLinkedException()
+    '''
 def setLinkedException():
-'''public synchronized void setLinkedException(final Exception ex)
-'''
-pass
+    '''    public synchronized void setLinkedException(final Exception ex)
+    '''
 def getErrorCode():
-'''public String getErrorCode()
-'''
-pass
+    '''    public String getErrorCode()
+    '''
 def JMSException():
-'''public JMSException(final String reason)
-public JMSException(final String reason, final String errorCode)
-'''
-pass
+    '''    public JMSException(final String reason)
+    public JMSException(final String reason, final String errorCode)
+    '''

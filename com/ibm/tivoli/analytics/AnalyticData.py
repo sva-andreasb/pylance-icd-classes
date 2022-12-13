@@ -1,8 +1,6 @@
 def AnalyticData():
-'''public AnalyticData(final MboSet ms)
-'''
-pass
+    '''    public AnalyticData(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

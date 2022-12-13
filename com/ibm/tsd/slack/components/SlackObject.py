@@ -1,14 +1,11 @@
-TYPE = "String type""
+TYPE = "String  \"type\""
 def SlackObject():
-'''public SlackObject()
-public SlackObject(final String type)
-'''
-pass
+    '''    public SlackObject()
+    public SlackObject(final String type)
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''

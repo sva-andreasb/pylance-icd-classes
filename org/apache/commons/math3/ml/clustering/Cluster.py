@@ -1,12 +1,9 @@
 def Cluster():
-'''public Cluster()
-'''
-pass
+    '''    public Cluster()
+    '''
 def addPoint():
-'''public void addPoint(final T point)
-'''
-pass
+    '''    public void addPoint(final T point)
+    '''
 def getPoints():
-'''public List<T> getPoints()
-'''
-pass
+    '''    public List<T> getPoints()
+    '''

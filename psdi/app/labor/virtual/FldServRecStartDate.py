@@ -1,8 +1,6 @@
 def FldServRecStartDate():
-'''public FldServRecStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldServRecStartDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

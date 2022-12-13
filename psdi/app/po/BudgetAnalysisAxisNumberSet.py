@@ -1,12 +1,9 @@
 def BudgetAnalysisAxisNumberSet():
-'''public BudgetAnalysisAxisNumberSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BudgetAnalysisAxisNumberSet(final MboServerInterface ms)
+    '''
 def getSequenceMax():
-'''public int getSequenceMax()
-'''
-pass
+    '''    public int getSequenceMax()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

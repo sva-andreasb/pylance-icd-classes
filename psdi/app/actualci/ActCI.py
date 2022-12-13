@@ -1,24 +1,18 @@
 def ActCI():
-'''public ActCI(final MboSet ms)
-'''
-pass
+    '''    public ActCI(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def isTopLevel():
-'''public boolean isTopLevel()
-'''
-pass
+    '''    public boolean isTopLevel()
+    '''
 def isLinkedToCI():
-'''public boolean isLinkedToCI()
-'''
-pass
+    '''    public boolean isLinkedToCI()
+    '''
 def createAuthorizedCI():
-'''public MboRemote createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes)
-'''
-pass
+    '''    public MboRemote createAuthorizedCI(final String authCIClassID, final String authTopCIClassId, final boolean copyAttributes)
+    '''

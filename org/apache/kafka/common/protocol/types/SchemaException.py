@@ -1,4 +1,3 @@
 def SchemaException():
-'''public SchemaException(final String message)
-'''
-pass
+    '''    public SchemaException(final String message)
+    '''

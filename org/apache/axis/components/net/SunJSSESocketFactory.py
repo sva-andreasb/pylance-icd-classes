@@ -1,4 +1,3 @@
 def SunJSSESocketFactory():
-'''public SunJSSESocketFactory(final Hashtable attributes)
-'''
-pass
+    '''    public SunJSSESocketFactory(final Hashtable attributes)
+    '''

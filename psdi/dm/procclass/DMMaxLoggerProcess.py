@@ -1,8 +1,6 @@
 def DMMaxLoggerProcess():
-'''public DMMaxLoggerProcess()
-'''
-pass
+    '''    public DMMaxLoggerProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

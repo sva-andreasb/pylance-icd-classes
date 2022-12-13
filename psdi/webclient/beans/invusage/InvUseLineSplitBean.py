@@ -1,16 +1,12 @@
 def AUTOSPLITQTY():
-'''public int AUTOSPLITQTY()
-'''
-pass
+    '''    public int AUTOSPLITQTY()
+    '''
 def VALIDATEQTY():
-'''public int VALIDATEQTY()
-'''
-pass
+    '''    public int VALIDATEQTY()
+    '''
 def saveData():
-'''public void saveData()
-'''
-pass
+    '''    public void saveData()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

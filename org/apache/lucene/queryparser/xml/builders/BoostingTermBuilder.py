@@ -1,4 +1,3 @@
 def getSpanQuery():
-'''public SpanQuery getSpanQuery(final Element e)
-'''
-pass
+    '''    public SpanQuery getSpanQuery(final Element e)
+    '''

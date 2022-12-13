@@ -1,4 +1,3 @@
 def AttributeLookup():
-'''public AttributeLookup(final MboSet ms)
-'''
-pass
+    '''    public AttributeLookup(final MboSet ms)
+    '''

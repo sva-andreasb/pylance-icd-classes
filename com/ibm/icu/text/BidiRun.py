@@ -1,32 +1,24 @@
 def getStart():
-'''public int getStart()
-'''
-pass
+    '''    public int getStart()
+    '''
 def getLimit():
-'''public int getLimit()
-'''
-pass
+    '''    public int getLimit()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getEmbeddingLevel():
-'''public byte getEmbeddingLevel()
-'''
-pass
+    '''    public byte getEmbeddingLevel()
+    '''
 def isOddRun():
-'''public boolean isOddRun()
-'''
-pass
+    '''    public boolean isOddRun()
+    '''
 def isEvenRun():
-'''public boolean isEvenRun()
-'''
-pass
+    '''    public boolean isEvenRun()
+    '''
 def getDirection():
-'''public byte getDirection()
-'''
-pass
+    '''    public byte getDirection()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

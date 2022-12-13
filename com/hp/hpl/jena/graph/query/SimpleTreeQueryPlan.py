@@ -1,12 +1,9 @@
 def SimpleTreeQueryPlan():
-'''public SimpleTreeQueryPlan(final Graph target, final Graph pattern)
-'''
-pass
+    '''    public SimpleTreeQueryPlan(final Graph target, final Graph pattern)
+    '''
 def executeTree():
-'''public Graph executeTree()
-'''
-pass
+    '''    public Graph executeTree()
+    '''
 def getRoots():
-'''public static Set<Node> getRoots(final Graph pattern)
-'''
-pass
+    '''    public static Set<Node> getRoots(final Graph pattern)
+    '''

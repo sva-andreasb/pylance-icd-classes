@@ -1,77 +1,58 @@
 serialVersionUID = "long  1L"
 def OperationImpl():
-'''public OperationImpl()
-'''
-pass
+    '''    public OperationImpl()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setInput():
-'''public void setInput(final Input input)
-'''
-pass
+    '''    public void setInput(final Input input)
+    '''
 def getInput():
-'''public Input getInput()
-'''
-pass
+    '''    public Input getInput()
+    '''
 def setOutput():
-'''public void setOutput(final Output output)
-'''
-pass
+    '''    public void setOutput(final Output output)
+    '''
 def getOutput():
-'''public Output getOutput()
-'''
-pass
+    '''    public Output getOutput()
+    '''
 def addFault():
-'''public void addFault(final Fault fault)
-'''
-pass
+    '''    public void addFault(final Fault fault)
+    '''
 def getFault():
-'''public Fault getFault(final String s)
-'''
-pass
+    '''    public Fault getFault(final String s)
+    '''
 def getFaults():
-'''public Map getFaults()
-'''
-pass
+    '''    public Map getFaults()
+    '''
 def setStyle():
-'''public void setStyle(final OperationType style)
-'''
-pass
+    '''    public void setStyle(final OperationType style)
+    '''
 def getStyle():
-'''public OperationType getStyle()
-'''
-pass
+    '''    public OperationType getStyle()
+    '''
 def setParameterOrdering():
-'''public void setParameterOrdering(final List parameterOrder)
-'''
-pass
+    '''    public void setParameterOrdering(final List parameterOrder)
+    '''
 def getParameterOrdering():
-'''public List getParameterOrdering()
-'''
-pass
+    '''    public List getParameterOrdering()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def setUndefined():
-'''public void setUndefined(final boolean isUndefined)
-'''
-pass
+    '''    public void setUndefined(final boolean isUndefined)
+    '''
 def isUndefined():
-'''public boolean isUndefined()
-'''
-pass
+    '''    public boolean isUndefined()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

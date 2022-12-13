@@ -1,36 +1,27 @@
 def GpsDataCollectorComponent():
-'''public GpsDataCollectorComponent()
-'''
-pass
+    '''    public GpsDataCollectorComponent()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getIsLBSEnabled():
-'''public Boolean getIsLBSEnabled()
-'''
-pass
+    '''    public Boolean getIsLBSEnabled()
+    '''
 def getLBSInterval():
-'''public Integer getLBSInterval()
-'''
-pass
+    '''    public Integer getLBSInterval()
+    '''
 def loadLaborLBS():
-'''public int loadLaborLBS()
-'''
-pass
+    '''    public int loadLaborLBS()
+    '''
 def logLBSCollectionPermissionDenied():
-'''public int logLBSCollectionPermissionDenied()
-'''
-pass
+    '''    public int logLBSCollectionPermissionDenied()
+    '''
 def logLBSCollectionNotSupported():
-'''public int logLBSCollectionNotSupported()
-'''
-pass
+    '''    public int logLBSCollectionNotSupported()
+    '''
 def getLaborCode():
-'''public String getLaborCode()
-'''
-pass
+    '''    public String getLaborCode()
+    '''
 def getUpdateEveryplaceTimeout():
-'''public Boolean getUpdateEveryplaceTimeout()
-'''
-pass
+    '''    public Boolean getUpdateEveryplaceTimeout()
+    '''

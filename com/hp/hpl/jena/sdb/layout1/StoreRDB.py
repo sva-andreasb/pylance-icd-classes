@@ -1,16 +1,12 @@
 def StoreRDB():
-'''public StoreRDB(final StoreDesc desc, final ModelRDB model)
-'''
-pass
+    '''    public StoreRDB(final StoreDesc desc, final ModelRDB model)
+    '''
 def makeSDBConnection():
-'''public static SDBConnection makeSDBConnection(final ModelRDB model)
-'''
-pass
+    '''    public static SDBConnection makeSDBConnection(final ModelRDB model)
+    '''
 def getModel():
-'''public ModelRDB getModel()
-'''
-pass
+    '''    public ModelRDB getModel()
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''

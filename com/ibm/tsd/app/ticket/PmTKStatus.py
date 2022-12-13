@@ -1,16 +1,12 @@
 def isTicketStatusBeingAdded():
-'''public static boolean isTicketStatusBeingAdded(final Mbo mbo)
-'''
-pass
+    '''    public static boolean isTicketStatusBeingAdded(final Mbo mbo)
+    '''
 def PmTKStatus():
-'''public PmTKStatus(final MboSet ms)
-'''
-pass
+    '''    public PmTKStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getCummulativeTimeSec():
-'''public long getCummulativeTimeSec()
-'''
-pass
+    '''    public long getCummulativeTimeSec()
+    '''

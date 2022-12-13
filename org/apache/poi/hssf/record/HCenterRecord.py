@@ -1,30 +1,23 @@
 sid = "short  131"
 def HCenterRecord():
-'''public HCenterRecord()
-public HCenterRecord(final RecordInputStream in)
-'''
-pass
+    '''    public HCenterRecord()
+    public HCenterRecord(final RecordInputStream in)
+    '''
 def setHCenter():
-'''public void setHCenter(final boolean hc)
-'''
-pass
+    '''    public void setHCenter(final boolean hc)
+    '''
 def getHCenter():
-'''public boolean getHCenter()
-'''
-pass
+    '''    public boolean getHCenter()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public HCenterRecord clone()
-'''
-pass
+    '''    public HCenterRecord clone()
+    '''

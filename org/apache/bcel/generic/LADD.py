@@ -1,8 +1,6 @@
 def LADD():
-'''public LADD()
-'''
-pass
+    '''    public LADD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

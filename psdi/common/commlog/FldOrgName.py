@@ -1,12 +1,9 @@
 def FldOrgName():
-'''public FldOrgName(final MboValue mbv)
-'''
-pass
+    '''    public FldOrgName(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

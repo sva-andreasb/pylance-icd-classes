@@ -1,16 +1,12 @@
 def UniteAppendMerge():
-'''public UniteAppendMerge(final NavigatorView navigatorView, final NavigatorView navigatorView2)
-'''
-pass
+    '''    public UniteAppendMerge(final NavigatorView navigatorView, final NavigatorView navigatorView2)
+    '''
 def processMerge():
-'''public TreeNode processMerge(final TreeNode treeNode)
-'''
-pass
+    '''    public TreeNode processMerge(final TreeNode treeNode)
+    '''
 def mergeNodes():
-'''public static void mergeNodes(final TreeNode treeNode, final TreeNode treeNode2)
-'''
-pass
+    '''    public static void mergeNodes(final TreeNode treeNode, final TreeNode treeNode2)
+    '''
 def mergeNodeChildren():
-'''public static void mergeNodeChildren(final TreeNode treeNode)
-'''
-pass
+    '''    public static void mergeNodeChildren(final TreeNode treeNode)
+    '''

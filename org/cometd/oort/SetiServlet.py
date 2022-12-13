@@ -1,20 +1,15 @@
 def getServletConfig():
-'''public ServletConfig getServletConfig()
-'''
-pass
+    '''    public ServletConfig getServletConfig()
+    '''
 def getServletInfo():
-'''public String getServletInfo()
-'''
-pass
+    '''    public String getServletInfo()
+    '''
 def init():
-'''public void init(final ServletConfig config)
-'''
-pass
+    '''    public void init(final ServletConfig config)
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def service():
-'''public void service(final ServletRequest req, final ServletResponse res)
-'''
-pass
+    '''    public void service(final ServletRequest req, final ServletResponse res)
+    '''

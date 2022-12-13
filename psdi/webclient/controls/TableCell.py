@@ -1,52 +1,39 @@
 def TableCell():
-'''public TableCell()
-'''
-pass
+    '''    public TableCell()
+    '''
 def getTableCol():
-'''public TableCol getTableCol()
-'''
-pass
+    '''    public TableCol getTableCol()
+    '''
 def getColumnNum():
-'''public int getColumnNum()
-'''
-pass
+    '''    public int getColumnNum()
+    '''
 def getCellId():
-'''public String getCellId(final int row)
-'''
-pass
+    '''    public String getCellId(final int row)
+    '''
 def getRow():
-'''public TableRow getRow()
-'''
-pass
+    '''    public TableRow getRow()
+    '''
 def getTable():
-'''public Table getTable()
-'''
-pass
+    '''    public Table getTable()
+    '''
 def setColumnId():
-'''public void setColumnId(final String id)
-'''
-pass
+    '''    public void setColumnId(final String id)
+    '''
 def getColumnId():
-'''public String getColumnId()
-'''
-pass
+    '''    public String getColumnId()
+    '''
 def setDesignerSelected():
-'''public ControlInstance setDesignerSelected(final boolean selected)
-'''
-pass
+    '''    public ControlInstance setDesignerSelected(final boolean selected)
+    '''
 def getDesignerSelected():
-'''public boolean getDesignerSelected()
-'''
-pass
+    '''    public boolean getDesignerSelected()
+    '''
 def isNumeric():
-'''public boolean isNumeric()
-'''
-pass
+    '''    public boolean isNumeric()
+    '''
 def isLTROnly():
-'''public boolean isLTROnly()
-'''
-pass
+    '''    public boolean isLTROnly()
+    '''
 def maintainControlId():
-'''public boolean maintainControlId()
-'''
-pass
+    '''    public boolean maintainControlId()
+    '''

@@ -1,8 +1,6 @@
 def POP2():
-'''public POP2()
-'''
-pass
+    '''    public POP2()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

@@ -1,26 +1,20 @@
 def JsonIndex():
-'''public JsonIndex()
-public JsonIndex(final String key)
-public JsonIndex(final String key, final C config)
-'''
-pass
+    '''    public JsonIndex()
+    public JsonIndex(final String key)
+    public JsonIndex(final String key, final C config)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getConfig():
-'''public C getConfig()
-'''
-pass
+    '''    public C getConfig()
+    '''
 def setConfig():
-'''public void setConfig(final C config)
-'''
-pass
+    '''    public void setConfig(final C config)
+    '''
 def newReadOnlyConfig():
-'''public T newReadOnlyConfig()
-'''
-pass
+    '''    public T newReadOnlyConfig()
+    '''

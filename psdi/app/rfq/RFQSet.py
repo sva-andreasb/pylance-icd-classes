@@ -1,32 +1,24 @@
 def RFQSet():
-'''public RFQSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RFQSet(final MboServerInterface ms)
+    '''
 def setBuyer():
-'''public void setBuyer(final String purchaseAgent)
-'''
-pass
+    '''    public void setBuyer(final String purchaseAgent)
+    '''
 def getBuyer():
-'''public String getBuyer()
-'''
-pass
+    '''    public String getBuyer()
+    '''
 def getHistory():
-'''public boolean getHistory()
-'''
-pass
+    '''    public boolean getHistory()
+    '''
 def setHistory():
-'''public void setHistory(final boolean historyRFQs)
-'''
-pass
+    '''    public void setHistory(final boolean historyRFQs)
+    '''
 def setCurrent():
-'''public void setCurrent(final boolean currentRFQs)
-'''
-pass
+    '''    public void setCurrent(final boolean currentRFQs)
+    '''
 def getCurrent():
-'''public boolean getCurrent()
-'''
-pass
+    '''    public boolean getCurrent()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''

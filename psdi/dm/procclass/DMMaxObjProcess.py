@@ -1,37 +1,28 @@
 def DMMaxObjProcess():
-'''public DMMaxObjProcess()
-'''
-pass
+    '''    public DMMaxObjProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules()
-public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules()
+    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''
 def afterProcess():
-'''public void afterProcess()
-'''
-pass
+    '''    public void afterProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''
 def deleteAll():
-'''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''
 def afterReplace():
-'''public void afterReplace(final MboRemote child)
-'''
-pass
+    '''    public void afterReplace(final MboRemote child)
+    '''
 def delete():
-'''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
-'''
-pass
+    '''    public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

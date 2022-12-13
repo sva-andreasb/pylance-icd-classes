@@ -1,24 +1,18 @@
 def DataAdapter():
-'''public DataAdapter(final String name)
-'''
-pass
+    '''    public DataAdapter(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def getResourceName():
-'''public String getResourceName()
-'''
-pass
+    '''    public String getResourceName()
+    '''
 def getToFormat():
-'''public String getToFormat()
-'''
-pass
+    '''    public String getToFormat()
+    '''
 def getFromFormat():
-'''public String getFromFormat()
-'''
-pass
+    '''    public String getFromFormat()
+    '''

@@ -1,36 +1,27 @@
 def getControl():
-'''public Object getControl()
-'''
-pass
+    '''    public Object getControl()
+    '''
 def setControl():
-'''public void setControl(final Object control)
-'''
-pass
+    '''    public void setControl(final Object control)
+    '''
 def getControlType():
-'''public String getControlType()
-'''
-pass
+    '''    public String getControlType()
+    '''
 def createControl():
-'''public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
-'''
-pass
+    '''    public Object createControl(final IlvForm ilvForm, final String s, final Object o, final Class clazz, final Element element)
+    '''
 def popupMenuWillBecomeVisible():
-'''public void popupMenuWillBecomeVisible(final PopupMenuEvent popupMenuEvent)
-'''
-pass
+    '''    public void popupMenuWillBecomeVisible(final PopupMenuEvent popupMenuEvent)
+    '''
 def popupMenuWillBecomeInvisible():
-'''public void popupMenuWillBecomeInvisible(final PopupMenuEvent popupMenuEvent)
-'''
-pass
+    '''    public void popupMenuWillBecomeInvisible(final PopupMenuEvent popupMenuEvent)
+    '''
 def popupMenuCanceled():
-'''public void popupMenuCanceled(final PopupMenuEvent popupMenuEvent)
-'''
-pass
+    '''    public void popupMenuCanceled(final PopupMenuEvent popupMenuEvent)
+    '''
 def componentAdded():
-'''public void componentAdded(final ContainerEvent containerEvent)
-'''
-pass
+    '''    public void componentAdded(final ContainerEvent containerEvent)
+    '''
 def componentRemoved():
-'''public void componentRemoved(final ContainerEvent containerEvent)
-'''
-pass
+    '''    public void componentRemoved(final ContainerEvent containerEvent)
+    '''

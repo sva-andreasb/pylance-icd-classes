@@ -1,16 +1,12 @@
 def FldItemCommodityGrp():
-'''public FldItemCommodityGrp(final MboValue mbv)
-'''
-pass
+    '''    public FldItemCommodityGrp(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def isServiceItem():
-'''public boolean isServiceItem()
-'''
-pass
+    '''    public boolean isServiceItem()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

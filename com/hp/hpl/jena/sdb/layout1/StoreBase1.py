@@ -1,65 +1,49 @@
 def StoreBase1():
-'''public StoreBase1(final SDBConnection connection, final StoreDesc desc, final StoreFormatter formatter, final TupleLoaderSimple loader, final QueryCompilerFactory compilerF, final SQLBridgeFactory sqlBridgeF, SQLGenerator sqlGenerator, final TableDescTriples tripleTable)
-'''
-pass
+    '''    public StoreBase1(final SDBConnection connection, final StoreDesc desc, final StoreFormatter formatter, final TupleLoaderSimple loader, final QueryCompilerFactory compilerF, final SQLBridgeFactory sqlBridgeF, SQLGenerator sqlGenerator, final TableDescTriples tripleTable)
+    '''
 def getConnection():
-'''public SDBConnection getConnection()
-'''
-pass
+    '''    public SDBConnection getConnection()
+    '''
 def getQueryCompilerFactory():
-'''public QueryCompilerFactory getQueryCompilerFactory()
-'''
-pass
+    '''    public QueryCompilerFactory getQueryCompilerFactory()
+    '''
 def getSQLBridgeFactory():
-'''public SQLBridgeFactory getSQLBridgeFactory()
-'''
-pass
+    '''    public SQLBridgeFactory getSQLBridgeFactory()
+    '''
 def getSQLGenerator():
-'''public SQLGenerator getSQLGenerator()
-'''
-pass
+    '''    public SQLGenerator getSQLGenerator()
+    '''
 def getTableFormatter():
-'''public StoreFormatter getTableFormatter()
-'''
-pass
+    '''    public StoreFormatter getTableFormatter()
+    '''
 def getLoader():
-'''public StoreLoader getLoader()
-'''
-pass
+    '''    public StoreLoader getLoader()
+    '''
 def getConfiguration():
-'''public StoreConfig getConfiguration()
-'''
-pass
+    '''    public StoreConfig getConfiguration()
+    '''
 def getDatabaseType():
-'''public DatabaseType getDatabaseType()
-'''
-pass
+    '''    public DatabaseType getDatabaseType()
+    '''
 def getLayoutType():
-'''public LayoutType getLayoutType()
-'''
-pass
+    '''    public LayoutType getLayoutType()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getSize():
-'''public long getSize()
-public long getSize(final Node node)
-'''
-pass
+    '''    public long getSize()
+    public long getSize(final Node node)
+    '''
 def getNodeTableDesc():
-'''public TableDescNodes getNodeTableDesc()
-'''
-pass
+    '''    public TableDescNodes getNodeTableDesc()
+    '''
 def getTripleTableDesc():
-'''public TableDescTriples getTripleTableDesc()
-'''
-pass
+    '''    public TableDescTriples getTripleTableDesc()
+    '''
 def getQuadTableDesc():
-'''public TableDescQuads getQuadTableDesc()
-'''
-pass
+    '''    public TableDescQuads getQuadTableDesc()
+    '''

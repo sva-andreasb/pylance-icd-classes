@@ -1,4 +1,3 @@
 def unmarshall():
-'''public T unmarshall(final JsonUnmarshallerContext context)
-'''
-pass
+    '''    public T unmarshall(final JsonUnmarshallerContext context)
+    '''

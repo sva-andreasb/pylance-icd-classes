@@ -1,74 +1,56 @@
 def JsonResultsReader():
-'''public JsonResultsReader(final File jsonResultsFile)
-'''
-pass
+    '''    public JsonResultsReader(final File jsonResultsFile)
+    '''
 def getTablesName():
-'''public List<String> getTablesName()
-'''
-pass
+    '''    public List<String> getTablesName()
+    '''
 def getTablesDescriptor():
-'''public List<TableDescriptor> getTablesDescriptor()
-'''
-pass
+    '''    public List<TableDescriptor> getTablesDescriptor()
+    '''
 def getTableDescriptor():
-'''public TableDescriptor getTableDescriptor(final String tableName)
-'''
-pass
+    '''    public TableDescriptor getTableDescriptor(final String tableName)
+    '''
 def getAllTablesRowsIterator():
-'''public TableRowIterator getAllTablesRowsIterator()
-'''
-pass
+    '''    public TableRowIterator getAllTablesRowsIterator()
+    '''
 def TableRowIteratorImpl():
-'''public TableRowIteratorImpl(final JsonResultsReader reader)
-'''
-pass
+    '''    public TableRowIteratorImpl(final JsonResultsReader reader)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public TableRow next()
-'''
-pass
+    '''    public TableRow next()
+    '''
 def TableRowImpl():
-'''public TableRowImpl(final TableDescriptor tableDesc)
-'''
-pass
+    '''    public TableRowImpl(final TableDescriptor tableDesc)
+    '''
 def getTableDesc():
-'''public TableDescriptor getTableDesc()
-'''
-pass
+    '''    public TableDescriptor getTableDesc()
+    '''
 def setColumnValue():
-'''public void setColumnValue(final String columnName, final Object value)
-'''
-pass
+    '''    public void setColumnValue(final String columnName, final Object value)
+    '''
 def getColumnValue():
-'''public Object getColumnValue(final int index)
-public Object getColumnValue(final String columnName)
-'''
-pass
+    '''    public Object getColumnValue(final int index)
+    public Object getColumnValue(final String columnName)
+    '''
 def ColumnDescriptorImpl():
-'''public ColumnDescriptorImpl(final int index, final String name, final Class<T> type)
-'''
-pass
+    '''    public ColumnDescriptorImpl(final int index, final String name, final Class<T> type)
+    '''
 def getName():
-'''public String getName()
-public String getName()
-'''
-pass
+    '''    public String getName()
+    public String getName()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def TableDescriptorImpl():
-'''public TableDescriptorImpl(final String name)
-'''
-pass
+    '''    public TableDescriptorImpl(final String name)
+    '''
 def addColumnDescriptor():
-'''public void addColumnDescriptor(final ColumnDescriptor<?> desc)
-'''
-pass
+    '''    public void addColumnDescriptor(final ColumnDescriptor<?> desc)
+    '''
 def getColumnsName():
-'''public List<String> getColumnsName()
-'''
-pass
+    '''    public List<String> getColumnsName()
+    '''

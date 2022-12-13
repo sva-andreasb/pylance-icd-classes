@@ -1,79 +1,61 @@
 def Timeout():
-'''public Timeout()
-public Timeout(final Object lock)
-'''
-pass
+    '''    public Timeout()
+    public Timeout(final Object lock)
+    '''
 def getDuration():
-'''public long getDuration()
-'''
-pass
+    '''    public long getDuration()
+    '''
 def setDuration():
-'''public void setDuration(final long duration)
-'''
-pass
+    '''    public void setDuration(final long duration)
+    '''
 def setNow():
-'''public long setNow()
-public void setNow(final long now)
-'''
-pass
+    '''    public long setNow()
+    public void setNow(final long now)
+    '''
 def getNow():
-'''public long getNow()
-'''
-pass
+    '''    public long getNow()
+    '''
 def expired():
-'''public Task expired()
-public void expired()
-'''
-pass
+    '''    public Task expired()
+    public void expired()
+    '''
 def tick():
-'''public void tick()
-public void tick(final long now)
-'''
-pass
+    '''    public void tick()
+    public void tick(final long now)
+    '''
 def schedule():
-'''public void schedule(final Task task)
-public void schedule(final Task task, final long delay)
-public void schedule(final Timeout timer)
-public void schedule(final Timeout timer, final long delay)
-'''
-pass
+    '''    public void schedule(final Task task)
+    public void schedule(final Task task, final long delay)
+    public void schedule(final Timeout timer)
+    public void schedule(final Timeout timer, final long delay)
+    '''
 def cancelAll():
-'''public void cancelAll()
-'''
-pass
+    '''    public void cancelAll()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def getTimeToNext():
-'''public long getTimeToNext()
-'''
-pass
+    '''    public long getTimeToNext()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getTimestamp():
-'''public long getTimestamp()
-'''
-pass
+    '''    public long getTimestamp()
+    '''
 def getAge():
-'''public long getAge()
-'''
-pass
+    '''    public long getAge()
+    '''
 def reschedule():
-'''public void reschedule()
-'''
-pass
+    '''    public void reschedule()
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''
 def isExpired():
-'''public boolean isExpired()
-'''
-pass
+    '''    public boolean isExpired()
+    '''
 def isScheduled():
-'''public boolean isScheduled()
-'''
-pass
+    '''    public boolean isScheduled()
+    '''

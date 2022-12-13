@@ -1,12 +1,9 @@
 def FldDatePair():
-'''public FldDatePair(final MboValue mbv, final String validateDate, final String validateAgainstDate)
-'''
-pass
+    '''    public FldDatePair(final MboValue mbv, final String validateDate, final String validateAgainstDate)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

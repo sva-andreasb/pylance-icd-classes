@@ -1,12 +1,9 @@
 def PlusPFldTermId():
-'''public PlusPFldTermId(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTermId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

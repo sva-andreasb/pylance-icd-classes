@@ -1,4 +1,3 @@
 def OSLCRelationship():
-'''public OSLCRelationship(final MboSet ms)
-'''
-pass
+    '''    public OSLCRelationship(final MboSet ms)
+    '''

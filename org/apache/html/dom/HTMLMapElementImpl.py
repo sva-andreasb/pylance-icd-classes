@@ -1,20 +1,15 @@
 def getAreas():
-'''public HTMLCollection getAreas()
-'''
-pass
+    '''    public HTMLCollection getAreas()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def HTMLMapElementImpl():
-'''public HTMLMapElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLMapElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

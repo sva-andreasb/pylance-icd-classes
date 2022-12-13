@@ -4,131 +4,99 @@ LOWER = "int  3"
 INTEGER = "int  4"
 YORN = "int  5"
 def MemberDataMap():
-'''public MemberDataMap()
-'''
-pass
+    '''    public MemberDataMap()
+    '''
 def getTableName():
-'''public String getTableName()
-'''
-pass
+    '''    public String getTableName()
+    '''
 def setTableName():
-'''public void setTableName(final String table)
-'''
-pass
+    '''    public void setTableName(final String table)
+    '''
 def getMemberColumn():
-'''public String getMemberColumn()
-'''
-pass
+    '''    public String getMemberColumn()
+    '''
 def setMemberColumn():
-'''public void setMemberColumn(final String column)
-'''
-pass
+    '''    public void setMemberColumn(final String column)
+    '''
 def getMemberAttribute():
-'''public String getMemberAttribute()
-'''
-pass
+    '''    public String getMemberAttribute()
+    '''
 def setMemberAttribute():
-'''public void setMemberAttribute(final String attribute)
-'''
-pass
+    '''    public void setMemberAttribute(final String attribute)
+    '''
 def getMemberUserAttribute():
-'''public String getMemberUserAttribute()
-'''
-pass
+    '''    public String getMemberUserAttribute()
+    '''
 def setMemberUserAttribute():
-'''public void setMemberUserAttribute(final String attribute)
-'''
-pass
+    '''    public void setMemberUserAttribute(final String attribute)
+    '''
 def getMemberGroupAttribute():
-'''public String getMemberGroupAttribute()
-'''
-pass
+    '''    public String getMemberGroupAttribute()
+    '''
 def setMemberGroupAttribute():
-'''public void setMemberGroupAttribute(final String attribute)
-'''
-pass
+    '''    public void setMemberGroupAttribute(final String attribute)
+    '''
 def getMemberColumnType():
-'''public String getMemberColumnType()
-'''
-pass
+    '''    public String getMemberColumnType()
+    '''
 def getMemberColumnTypeAsInt():
-'''public int getMemberColumnTypeAsInt()
-'''
-pass
+    '''    public int getMemberColumnTypeAsInt()
+    '''
 def setMemberColumnType():
-'''public void setMemberColumnType(final String type)
-'''
-pass
+    '''    public void setMemberColumnType(final String type)
+    '''
 def addKeyColumnName():
-'''public void addKeyColumnName(final String column, final String attribute, final String type)
-'''
-pass
+    '''    public void addKeyColumnName(final String column, final String attribute, final String type)
+    '''
 def getKeyColumnNames():
-'''public Iterator getKeyColumnNames()
-'''
-pass
+    '''    public Iterator getKeyColumnNames()
+    '''
 def addColumnName():
-'''public void addColumnName(final String column, final String attribute, final String type)
-'''
-pass
+    '''    public void addColumnName(final String column, final String attribute, final String type)
+    '''
 def getColumnNames():
-'''public Iterator getColumnNames()
-'''
-pass
+    '''    public Iterator getColumnNames()
+    '''
 def getKeyAttribute():
-'''public String getKeyAttribute(String column)
-'''
-pass
+    '''    public String getKeyAttribute(String column)
+    '''
 def getAttribute():
-'''public String getAttribute(String column)
-'''
-pass
+    '''    public String getAttribute(String column)
+    '''
 def isUniqueIdColumn():
-'''public boolean isUniqueIdColumn(String column)
-'''
-pass
+    '''    public boolean isUniqueIdColumn(String column)
+    '''
 def isSysDateColumn():
-'''public boolean isSysDateColumn(String column)
-'''
-pass
+    '''    public boolean isSysDateColumn(String column)
+    '''
 def getTypeAsInt():
-'''public int getTypeAsInt(String column)
-public int getTypeAsInt()
-'''
-pass
+    '''    public int getTypeAsInt(String column)
+    public int getTypeAsInt()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def setAttributeName():
-'''public void setAttributeName(final String name)
-'''
-pass
+    '''    public void setAttributeName(final String name)
+    '''
 def getColumnName():
-'''public String getColumnName()
-'''
-pass
+    '''    public String getColumnName()
+    '''
 def setColumnName():
-'''public void setColumnName(final String name)
-'''
-pass
+    '''    public void setColumnName(final String name)
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean req)
-'''
-pass
+    '''    public void setRequired(final boolean req)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String t)
-'''
-pass
+    '''    public void setType(final String t)
+    '''

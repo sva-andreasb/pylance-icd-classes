@@ -1,4 +1,3 @@
 def convertToXmlByteArray():
-'''public byte[] convertToXmlByteArray(final AccessControlList acl)
-'''
-pass
+    '''    public byte[] convertToXmlByteArray(final AccessControlList acl)
+    '''

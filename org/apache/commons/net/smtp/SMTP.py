@@ -1,97 +1,74 @@
 DEFAULT_PORT = "int  25"
 def SMTP():
-'''public SMTP()
-'''
-pass
+    '''    public SMTP()
+    '''
 def addProtocolCommandListener():
-'''public void addProtocolCommandListener(final ProtocolCommandListener listener)
-'''
-pass
+    '''    public void addProtocolCommandListener(final ProtocolCommandListener listener)
+    '''
 def removeProtocolCommandistener():
-'''public void removeProtocolCommandistener(final ProtocolCommandListener listener)
-'''
-pass
+    '''    public void removeProtocolCommandistener(final ProtocolCommandListener listener)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def sendCommand():
-'''public int sendCommand(final String command, final String args)
-public int sendCommand(final int command, final String args)
-public int sendCommand(final String command)
-public int sendCommand(final int command)
-'''
-pass
+    '''    public int sendCommand(final String command, final String args)
+    public int sendCommand(final int command, final String args)
+    public int sendCommand(final String command)
+    public int sendCommand(final int command)
+    '''
 def getReplyCode():
-'''public int getReplyCode()
-'''
-pass
+    '''    public int getReplyCode()
+    '''
 def getReply():
-'''public int getReply()
-'''
-pass
+    '''    public int getReply()
+    '''
 def getReplyStrings():
-'''public String[] getReplyStrings()
-'''
-pass
+    '''    public String[] getReplyStrings()
+    '''
 def getReplyString():
-'''public String getReplyString()
-'''
-pass
+    '''    public String getReplyString()
+    '''
 def helo():
-'''public int helo(final String hostname)
-'''
-pass
+    '''    public int helo(final String hostname)
+    '''
 def mail():
-'''public int mail(final String reversePath)
-'''
-pass
+    '''    public int mail(final String reversePath)
+    '''
 def rcpt():
-'''public int rcpt(final String forwardPath)
-'''
-pass
+    '''    public int rcpt(final String forwardPath)
+    '''
 def data():
-'''public int data()
-'''
-pass
+    '''    public int data()
+    '''
 def send():
-'''public int send(final String reversePath)
-'''
-pass
+    '''    public int send(final String reversePath)
+    '''
 def soml():
-'''public int soml(final String reversePath)
-'''
-pass
+    '''    public int soml(final String reversePath)
+    '''
 def saml():
-'''public int saml(final String reversePath)
-'''
-pass
+    '''    public int saml(final String reversePath)
+    '''
 def rset():
-'''public int rset()
-'''
-pass
+    '''    public int rset()
+    '''
 def vrfy():
-'''public int vrfy(final String user)
-'''
-pass
+    '''    public int vrfy(final String user)
+    '''
 def expn():
-'''public int expn(final String name)
-'''
-pass
+    '''    public int expn(final String name)
+    '''
 def help():
-'''public int help()
-public int help(final String command)
-'''
-pass
+    '''    public int help()
+    public int help(final String command)
+    '''
 def noop():
-'''public int noop()
-'''
-pass
+    '''    public int noop()
+    '''
 def turn():
-'''public int turn()
-'''
-pass
+    '''    public int turn()
+    '''
 def quit():
-'''public int quit()
-'''
-pass
+    '''    public int quit()
+    '''

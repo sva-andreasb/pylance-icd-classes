@@ -1,8 +1,6 @@
 def accept():
-'''public boolean accept(final File f)
-'''
-pass
+    '''    public boolean accept(final File f)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''

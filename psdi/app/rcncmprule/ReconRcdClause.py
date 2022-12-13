@@ -1,20 +1,15 @@
 def ReconRcdClause():
-'''public ReconRcdClause(final MboSet ms)
-'''
-pass
+    '''    public ReconRcdClause(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

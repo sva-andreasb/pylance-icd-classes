@@ -1,52 +1,39 @@
 def getSslContext():
-'''public static SSLContext getSslContext()
-'''
-pass
+    '''    public static SSLContext getSslContext()
+    '''
 def getTlsSslContext():
-'''public static SSLContext getTlsSslContext()
-'''
-pass
+    '''    public static SSLContext getTlsSslContext()
+    '''
 def getDefaultTrustManagerFactory():
-'''public static TrustManagerFactory getDefaultTrustManagerFactory()
-'''
-pass
+    '''    public static TrustManagerFactory getDefaultTrustManagerFactory()
+    '''
 def getPkixTrustManagerFactory():
-'''public static TrustManagerFactory getPkixTrustManagerFactory()
-'''
-pass
+    '''    public static TrustManagerFactory getPkixTrustManagerFactory()
+    '''
 def getDefaultKeyManagerFactory():
-'''public static KeyManagerFactory getDefaultKeyManagerFactory()
-'''
-pass
+    '''    public static KeyManagerFactory getDefaultKeyManagerFactory()
+    '''
 def getPkixKeyManagerFactory():
-'''public static KeyManagerFactory getPkixKeyManagerFactory()
-'''
-pass
+    '''    public static KeyManagerFactory getPkixKeyManagerFactory()
+    '''
 def initSslContext():
-'''public static SSLContext initSslContext(final SSLContext sslContext, final KeyStore trustStore, final TrustManagerFactory trustManagerFactory)
-'''
-pass
+    '''    public static SSLContext initSslContext(final SSLContext sslContext, final KeyStore trustStore, final TrustManagerFactory trustManagerFactory)
+    '''
 def trustAllSSLContext():
-'''public static SSLContext trustAllSSLContext()
-'''
-pass
+    '''    public static SSLContext trustAllSSLContext()
+    '''
 def checkClientTrusted():
-'''public void checkClientTrusted(final X509Certificate[] chain, final String authType)
-'''
-pass
+    '''    public void checkClientTrusted(final X509Certificate[] chain, final String authType)
+    '''
 def checkServerTrusted():
-'''public void checkServerTrusted(final X509Certificate[] chain, final String authType)
-'''
-pass
+    '''    public void checkServerTrusted(final X509Certificate[] chain, final String authType)
+    '''
 def getAcceptedIssuers():
-'''public X509Certificate[] getAcceptedIssuers()
-'''
-pass
+    '''    public X509Certificate[] getAcceptedIssuers()
+    '''
 def trustAllHostnameVerifier():
-'''public static HostnameVerifier trustAllHostnameVerifier()
-'''
-pass
+    '''    public static HostnameVerifier trustAllHostnameVerifier()
+    '''
 def verify():
-'''public boolean verify(final String arg0, final SSLSession arg1)
-'''
-pass
+    '''    public boolean verify(final String arg0, final SSLSession arg1)
+    '''

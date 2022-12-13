@@ -1,4 +1,3 @@
 def DMCompAsyncJobMsgSet():
-'''public DMCompAsyncJobMsgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMCompAsyncJobMsgSet(final MboServerInterface ms)
+    '''

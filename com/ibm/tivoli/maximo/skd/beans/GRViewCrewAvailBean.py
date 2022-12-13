@@ -1,12 +1,9 @@
 def GRViewCrewAvailBean():
-'''public GRViewCrewAvailBean()
-'''
-pass
+    '''    public GRViewCrewAvailBean()
+    '''
 def filtermodavail():
-'''public int filtermodavail()
-'''
-pass
+    '''    public int filtermodavail()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

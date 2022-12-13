@@ -1,17 +1,13 @@
-NAME = "String  EXTERNAL""
+NAME = "String  \"EXTERNAL\""
 def authzidSupported():
-'''public boolean authzidSupported()
-'''
-pass
+    '''    public boolean authzidSupported()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLExternalMechanism newInstance()
-'''
-pass
+    '''    public SASLExternalMechanism newInstance()
+    '''

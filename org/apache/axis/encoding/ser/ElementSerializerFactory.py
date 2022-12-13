@@ -1,4 +1,3 @@
 def ElementSerializerFactory():
-'''public ElementSerializerFactory()
-'''
-pass
+    '''    public ElementSerializerFactory()
+    '''

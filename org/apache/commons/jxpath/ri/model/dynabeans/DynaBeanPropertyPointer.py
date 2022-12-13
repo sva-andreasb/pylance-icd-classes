@@ -1,48 +1,36 @@
 def DynaBeanPropertyPointer():
-'''public DynaBeanPropertyPointer(final NodePointer parent, final DynaBean dynaBean)
-'''
-pass
+    '''    public DynaBeanPropertyPointer(final NodePointer parent, final DynaBean dynaBean)
+    '''
 def getBaseValue():
-'''public Object getBaseValue()
-'''
-pass
+    '''    public Object getBaseValue()
+    '''
 def isContainer():
-'''public boolean isContainer()
-'''
-pass
+    '''    public boolean isContainer()
+    '''
 def getPropertyCount():
-'''public int getPropertyCount()
-'''
-pass
+    '''    public int getPropertyCount()
+    '''
 def getPropertyNames():
-'''public String[] getPropertyNames()
-'''
-pass
+    '''    public String[] getPropertyNames()
+    '''
 def getPropertyName():
-'''public String getPropertyName()
-'''
-pass
+    '''    public String getPropertyName()
+    '''
 def setPropertyName():
-'''public void setPropertyName(final String propertyName)
-'''
-pass
+    '''    public void setPropertyName(final String propertyName)
+    '''
 def getPropertyIndex():
-'''public int getPropertyIndex()
-'''
-pass
+    '''    public int getPropertyIndex()
+    '''
 def setPropertyIndex():
-'''public void setPropertyIndex(final int index)
-'''
-pass
+    '''    public void setPropertyIndex(final int index)
+    '''
 def getImmediateNode():
-'''public Object getImmediateNode()
-'''
-pass
+    '''    public Object getImmediateNode()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

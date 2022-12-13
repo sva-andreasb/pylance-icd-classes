@@ -1,4 +1,3 @@
 def WeatherAlertSet():
-'''public WeatherAlertSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WeatherAlertSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def STTrueFalseBlankImpl():
-'''public STTrueFalseBlankImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public STTrueFalseBlankImpl(final SchemaType schemaType)
+    '''

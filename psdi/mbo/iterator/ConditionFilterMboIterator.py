@@ -1,17 +1,13 @@
 def ConditionFilterMboIterator():
-'''public ConditionFilterMboIterator(final MboRemote mbo, final String relationship, final MaxCondition maxCondition)
-public ConditionFilterMboIterator(final MboRemote mbo, final String relationship, final MaxCondition maxCondition, final Boolean discardable)
-'''
-pass
+    '''    public ConditionFilterMboIterator(final MboRemote mbo, final String relationship, final MaxCondition maxCondition)
+    public ConditionFilterMboIterator(final MboRemote mbo, final String relationship, final MaxCondition maxCondition, final Boolean discardable)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public MboRemote next()
-'''
-pass
+    '''    public MboRemote next()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

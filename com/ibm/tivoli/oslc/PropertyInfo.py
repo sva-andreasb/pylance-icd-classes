@@ -1,21 +1,16 @@
 def PropertyInfo():
-'''public PropertyInfo(final String title, final QName qName, final String type)
-public PropertyInfo(final PropertyInfo propInfo)
-'''
-pass
+    '''    public PropertyInfo(final String title, final QName qName, final String type)
+    public PropertyInfo(final PropertyInfo propInfo)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getQName():
-'''public QName getQName()
-'''
-pass
+    '''    public QName getQName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getTypeAsQName():
-'''public QName getTypeAsQName()
-'''
-pass
+    '''    public QName getTypeAsQName()
+    '''

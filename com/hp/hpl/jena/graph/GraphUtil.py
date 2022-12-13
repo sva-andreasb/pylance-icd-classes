@@ -1,4 +1,3 @@
 def findAll():
-'''public static ExtendedIterator<Triple> findAll(final Graph g)
-'''
-pass
+    '''    public static ExtendedIterator<Triple> findAll(final Graph g)
+    '''

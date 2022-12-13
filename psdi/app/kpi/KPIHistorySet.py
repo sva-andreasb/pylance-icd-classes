@@ -1,24 +1,18 @@
 def KPIHistorySet():
-'''public KPIHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public KPIHistorySet(final MboServerInterface ms)
+    '''
 def refreshData():
-'''public void refreshData()
-'''
-pass
+    '''    public void refreshData()
+    '''
 def getKPIHistory():
-'''public MboSetData getKPIHistory(final long kpiId, final String range, final Date from, final Date to)
-'''
-pass
+    '''    public MboSetData getKPIHistory(final long kpiId, final String range, final Date from, final Date to)
+    '''
 def getLatestDate():
-'''public Date getLatestDate()
-'''
-pass
+    '''    public Date getLatestDate()
+    '''
 def highestKPIValue():
-'''public double highestKPIValue()
-'''
-pass
+    '''    public double highestKPIValue()
+    '''
 def lowestKPIValue():
-'''public double lowestKPIValue()
-'''
-pass
+    '''    public double lowestKPIValue()
+    '''

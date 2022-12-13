@@ -1,16 +1,12 @@
 def OslcXMLFileHandler():
-'''public OslcXMLFileHandler(final MboRemote mbo, final MboSetRemote mboSet)
-'''
-pass
+    '''    public OslcXMLFileHandler(final MboRemote mbo, final MboSetRemote mboSet)
+    '''
 def setStablePaging():
-'''public void setStablePaging(final boolean stablePaging)
-'''
-pass
+    '''    public void setStablePaging(final boolean stablePaging)
+    '''
 def setTotalCount():
-'''public void setTotalCount(final int totCount)
-'''
-pass
+    '''    public void setTotalCount(final int totCount)
+    '''
 def handleRequest():
-'''public OslcResourceResponse handleRequest(final String osName, final OslcRequest request)
-'''
-pass
+    '''    public OslcResourceResponse handleRequest(final String osName, final OslcRequest request)
+    '''

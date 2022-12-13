@@ -1,40 +1,30 @@
 def MaxExtSystem():
-'''public MaxExtSystem(final MboSet ms)
-'''
-pass
+    '''    public MaxExtSystem(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def processExtsysControls():
-'''public void processExtsysControls(final MboSetRemote extIfaceSet, final Map<String, String> controlMap)
-'''
-pass
+    '''    public void processExtsysControls(final MboSetRemote extIfaceSet, final Map<String, String> controlMap)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

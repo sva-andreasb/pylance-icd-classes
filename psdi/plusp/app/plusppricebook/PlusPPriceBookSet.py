@@ -1,12 +1,9 @@
 def isRevision():
-'''public boolean isRevision()
-'''
-pass
+    '''    public boolean isRevision()
+    '''
 def setRevision():
-'''public void setRevision(final boolean b)
-'''
-pass
+    '''    public void setRevision(final boolean b)
+    '''
 def PlusPPriceBookSet():
-'''public PlusPPriceBookSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPPriceBookSet(final MboServerInterface ms)
+    '''

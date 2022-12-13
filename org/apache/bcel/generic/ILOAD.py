@@ -1,8 +1,6 @@
 def ILOAD():
-'''public ILOAD(final int n)
-'''
-pass
+    '''    public ILOAD(final int n)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

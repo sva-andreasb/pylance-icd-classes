@@ -1,8 +1,6 @@
 def FldServRecTransAmtToReceive():
-'''public FldServRecTransAmtToReceive(final MboValue mbv)
-'''
-pass
+    '''    public FldServRecTransAmtToReceive(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

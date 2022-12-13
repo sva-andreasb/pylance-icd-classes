@@ -1,8 +1,6 @@
 def RequiredParameterNotFoundException():
-'''public RequiredParameterNotFoundException(final String cmdName, final String paramName)
-'''
-pass
+    '''    public RequiredParameterNotFoundException(final String cmdName, final String paramName)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

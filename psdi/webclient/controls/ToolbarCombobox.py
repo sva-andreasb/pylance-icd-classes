@@ -1,24 +1,18 @@
 def ToolbarCombobox():
-'''public ToolbarCombobox()
-'''
-pass
+    '''    public ToolbarCombobox()
+    '''
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def setToolBarComboText():
-'''public void setToolBarComboText(final ToolbarComboboxText tbText)
-'''
-pass
+    '''    public void setToolBarComboText(final ToolbarComboboxText tbText)
+    '''
 def isMainrecActionMenu():
-'''public boolean isMainrecActionMenu()
-'''
-pass
+    '''    public boolean isMainrecActionMenu()
+    '''
 def createRenderId():
-'''public String createRenderId(final String id, final PageInstance page)
-'''
-pass
+    '''    public String createRenderId(final String id, final PageInstance page)
+    '''

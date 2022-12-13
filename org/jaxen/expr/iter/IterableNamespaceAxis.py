@@ -1,8 +1,6 @@
 def IterableNamespaceAxis():
-'''public IterableNamespaceAxis(final int value)
-'''
-pass
+    '''    public IterableNamespaceAxis(final int value)
+    '''
 def iterator():
-'''public Iterator iterator(final Object contextNode, final ContextSupport support)
-'''
-pass
+    '''    public Iterator iterator(final Object contextNode, final ContextSupport support)
+    '''

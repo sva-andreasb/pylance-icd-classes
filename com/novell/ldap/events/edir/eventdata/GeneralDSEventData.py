@@ -1,36 +1,27 @@
 def GeneralDSEventData():
-'''public GeneralDSEventData(final ASN1Object asn1Object)
-'''
-pass
+    '''    public GeneralDSEventData(final ASN1Object asn1Object)
+    '''
 def getCurrentProcess():
-'''public int getCurrentProcess()
-'''
-pass
+    '''    public int getCurrentProcess()
+    '''
 def getDsTime():
-'''public int getDsTime()
-'''
-pass
+    '''    public int getDsTime()
+    '''
 def getIntegerValues():
-'''public int[] getIntegerValues()
-'''
-pass
+    '''    public int[] getIntegerValues()
+    '''
 def getMilliSeconds():
-'''public int getMilliSeconds()
-'''
-pass
+    '''    public int getMilliSeconds()
+    '''
 def getPerpetratorDN():
-'''public String getPerpetratorDN()
-'''
-pass
+    '''    public String getPerpetratorDN()
+    '''
 def getStringValues():
-'''public String[] getStringValues()
-'''
-pass
+    '''    public String[] getStringValues()
+    '''
 def getVerb():
-'''public int getVerb()
-'''
-pass
+    '''    public int getVerb()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

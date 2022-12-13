@@ -1,4 +1,3 @@
 def getUserToken():
-'''public Object getUserToken(final HttpContext context)
-'''
-pass
+    '''    public Object getUserToken(final HttpContext context)
+    '''

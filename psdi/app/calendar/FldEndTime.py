@@ -1,8 +1,6 @@
 def FldEndTime():
-'''public FldEndTime(final MboValue mbv)
-'''
-pass
+    '''    public FldEndTime(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

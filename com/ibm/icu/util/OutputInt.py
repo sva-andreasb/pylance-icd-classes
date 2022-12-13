@@ -1,9 +1,7 @@
 def OutputInt():
-'''public OutputInt()
-public OutputInt(final int value)
-'''
-pass
+    '''    public OutputInt()
+    public OutputInt(final int value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

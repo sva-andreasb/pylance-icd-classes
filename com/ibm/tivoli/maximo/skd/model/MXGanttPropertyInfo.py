@@ -1,164 +1,123 @@
 def MXGanttPropertyInfo():
-'''public MXGanttPropertyInfo()
-'''
-pass
+    '''    public MXGanttPropertyInfo()
+    '''
 def getPropertyName():
-'''public String getPropertyName()
-'''
-pass
+    '''    public String getPropertyName()
+    '''
 def setPropertyName():
-'''public void setPropertyName(final String propertyName)
-'''
-pass
+    '''    public void setPropertyName(final String propertyName)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getAttrName():
-'''public String getAttrName(final String objectName)
-'''
-pass
+    '''    public String getAttrName(final String objectName)
+    '''
 def setAttrName():
-'''public void setAttrName(final String objectName, final String attrName)
-'''
-pass
+    '''    public void setAttrName(final String objectName, final String attrName)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def setLength():
-'''public void setLength(final int length)
-'''
-pass
+    '''    public void setLength(final int length)
+    '''
 def getScale():
-'''public int getScale()
-'''
-pass
+    '''    public int getScale()
+    '''
 def setScale():
-'''public void setScale(final int scale)
-'''
-pass
+    '''    public void setScale(final int scale)
+    '''
 def getDataType():
-'''public int getDataType()
-'''
-pass
+    '''    public int getDataType()
+    '''
 def setDataType():
-'''public void setDataType(final int dataType)
-'''
-pass
+    '''    public void setDataType(final int dataType)
+    '''
 def isNumeric():
-'''public boolean isNumeric()
-'''
-pass
+    '''    public boolean isNumeric()
+    '''
 def setNumeric():
-'''public void setNumeric(final boolean isNumeric)
-'''
-pass
+    '''    public void setNumeric(final boolean isNumeric)
+    '''
 def hasApplink():
-'''public boolean hasApplink()
-'''
-pass
+    '''    public boolean hasApplink()
+    '''
 def setApplink():
-'''public void setApplink(final boolean hasApplink)
-'''
-pass
+    '''    public void setApplink(final boolean hasApplink)
+    '''
 def showTable():
-'''public boolean showTable()
-'''
-pass
+    '''    public boolean showTable()
+    '''
 def setShowTable():
-'''public void setShowTable(final boolean showTable)
-'''
-pass
+    '''    public void setShowTable(final boolean showTable)
+    '''
 def isFilterable():
-'''public boolean isFilterable()
-'''
-pass
+    '''    public boolean isFilterable()
+    '''
 def setFilterable():
-'''public void setFilterable(final boolean filterable)
-'''
-pass
+    '''    public void setFilterable(final boolean filterable)
+    '''
 def getApplinkAppList():
-'''public HashMap<String, String> getApplinkAppList(final String objectName)
-'''
-pass
+    '''    public HashMap<String, String> getApplinkAppList(final String objectName)
+    '''
 def setApplinkAppList():
-'''public void setApplinkAppList(final String objectName, final HashMap<String, String> applinkAppMap)
-'''
-pass
+    '''    public void setApplinkAppList(final String objectName, final HashMap<String, String> applinkAppMap)
+    '''
 def getApplinkObject():
-'''public String getApplinkObject(final String objectName)
-'''
-pass
+    '''    public String getApplinkObject(final String objectName)
+    '''
 def setApplinkObject():
-'''public void setApplinkObject(final String objectName, final String applinkObject)
-'''
-pass
+    '''    public void setApplinkObject(final String objectName, final String applinkObject)
+    '''
 def isInternal():
-'''public boolean isInternal()
-'''
-pass
+    '''    public boolean isInternal()
+    '''
 def setInternal():
-'''public void setInternal(final boolean isInternal)
-'''
-pass
+    '''    public void setInternal(final boolean isInternal)
+    '''
 def isAlwaysVisible():
-'''public boolean isAlwaysVisible()
-'''
-pass
+    '''    public boolean isAlwaysVisible()
+    '''
 def setAlwaysVisible():
-'''public void setAlwaysVisible(final boolean alwaysVisible)
-'''
-pass
+    '''    public void setAlwaysVisible(final boolean alwaysVisible)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final int order)
-'''
-pass
+    '''    public void setOrder(final int order)
+    '''
 def getTextDirection():
-'''public String getTextDirection()
-'''
-pass
+    '''    public String getTextDirection()
+    '''
 def setTextDirection():
-'''public void setTextDirection(final String dir)
-'''
-pass
+    '''    public void setTextDirection(final String dir)
+    '''
 def canBeSorted():
-'''public boolean canBeSorted()
-'''
-pass
+    '''    public boolean canBeSorted()
+    '''
 def setCanBeSorted():
-'''public void setCanBeSorted(final boolean canBeSorted)
-'''
-pass
+    '''    public void setCanBeSorted(final boolean canBeSorted)
+    '''
 def canBeGrouped():
-'''public boolean canBeGrouped()
-'''
-pass
+    '''    public boolean canBeGrouped()
+    '''
 def setCanBeGrouped():
-'''public void setCanBeGrouped(final boolean canBeGrouped)
-'''
-pass
+    '''    public void setCanBeGrouped(final boolean canBeGrouped)
+    '''
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final int width)
-'''
-pass
+    '''    public void setWidth(final int width)
+    '''
 def canEdit():
-'''public boolean canEdit()
-'''
-pass
+    '''    public boolean canEdit()
+    '''
 def setCanEdit():
-'''public void setCanEdit(final boolean b)
-'''
-pass
+    '''    public void setCanEdit(final boolean b)
+    '''

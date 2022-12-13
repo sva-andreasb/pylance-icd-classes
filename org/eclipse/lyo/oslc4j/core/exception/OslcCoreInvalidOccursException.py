@@ -1,12 +1,9 @@
 def OslcCoreInvalidOccursException():
-'''public OslcCoreInvalidOccursException(final Class<?> resourceClass, final Method method, final OslcOccurs oslcOccurs)
-'''
-pass
+    '''    public OslcCoreInvalidOccursException(final Class<?> resourceClass, final Method method, final OslcOccurs oslcOccurs)
+    '''
 def getMethod():
-'''public Method getMethod()
-'''
-pass
+    '''    public Method getMethod()
+    '''
 def getOslcOccurs():
-'''public OslcOccurs getOslcOccurs()
-'''
-pass
+    '''    public OslcOccurs getOslcOccurs()
+    '''

@@ -1,152 +1,114 @@
 def JSONMboSet():
-'''public JSONMboSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONMboSet(final MboServerInterface ms)
+    '''
 def deserialize():
-'''public void deserialize(final byte[] response, final JSONResourceInfo resourceInfo, final int index)
-'''
-pass
+    '''    public void deserialize(final byte[] response, final JSONResourceInfo resourceInfo, final int index)
+    '''
 def json2MboSet():
-'''public void json2MboSet(final JSONArray jsonArray, final JSONResourceInfo resourceInfo, final int start, final int end)
-'''
-pass
+    '''    public void json2MboSet(final JSONArray jsonArray, final JSONResourceInfo resourceInfo, final int start, final int end)
+    '''
 def json2Mbo():
-'''public void json2Mbo(final Object jsonObj, final JSONObjectInfo detailInfo, final MboRemote parentMbo)
-'''
-pass
+    '''    public void json2Mbo(final Object jsonObj, final JSONObjectInfo detailInfo, final MboRemote parentMbo)
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def setRelationship():
-'''public void setRelationship(final String relationClause)
-'''
-pass
+    '''    public void setRelationship(final String relationClause)
+    '''
 def setWhere():
-'''public void setWhere(final String whereClause)
-'''
-pass
+    '''    public void setWhere(final String whereClause)
+    '''
 def setAppWhere():
-'''public void setAppWhere(final String whereClause)
-'''
-pass
+    '''    public void setAppWhere(final String whereClause)
+    '''
 def setUserWhere():
-'''public void setUserWhere(final String whereClause)
-'''
-pass
+    '''    public void setUserWhere(final String whereClause)
+    '''
 def getMbo():
-'''public MboRemote getMbo(final int index)
-'''
-pass
+    '''    public MboRemote getMbo(final int index)
+    '''
 def moveLast():
-'''public MboRemote moveLast()
-'''
-pass
+    '''    public MboRemote moveLast()
+    '''
 def count():
-'''public int count()
-'''
-pass
+    '''    public int count()
+    '''
 def getCountFromResponse():
-'''public int getCountFromResponse(final byte[] response)
-'''
-pass
+    '''    public int getCountFromResponse(final byte[] response)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def resetJSON():
-'''public void resetJSON()
-'''
-pass
+    '''    public void resetJSON()
+    '''
 def load():
-'''public void load(final int index)
-'''
-pass
+    '''    public void load(final int index)
+    '''
 def invoke():
-'''public byte[] invoke(final int index, final boolean forCount)
-'''
-pass
+    '''    public byte[] invoke(final int index, final boolean forCount)
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboRemote mbo, final JSONObject jo)
-'''
-pass
+    '''    public void setAdditionalData(final MboRemote mbo, final JSONObject jo)
+    '''
 def bytesToJSONArray():
-'''public JSONArray bytesToJSONArray(final byte[] data)
-'''
-pass
+    '''    public JSONArray bytesToJSONArray(final byte[] data)
+    '''
 def getDataAsDouble():
-'''public void getDataAsDouble(final Object value, final String attributeName, final MboRemote mbo)
-'''
-pass
+    '''    public void getDataAsDouble(final Object value, final String attributeName, final MboRemote mbo)
+    '''
 def setUserWhereAfterParse():
-'''public void setUserWhereAfterParse(final String where)
-'''
-pass
+    '''    public void setUserWhereAfterParse(final String where)
+    '''
 def setBulkUpdate():
-'''public void setBulkUpdate(final boolean bulk)
-'''
-pass
+    '''    public void setBulkUpdate(final boolean bulk)
+    '''
 def setResourceName():
-'''public void setResourceName(final String resourceName)
-'''
-pass
+    '''    public void setResourceName(final String resourceName)
+    '''
 def getResourceName():
-'''public String getResourceName()
-'''
-pass
+    '''    public String getResourceName()
+    '''
 def formatResourceName():
-'''public String formatResourceName(final String where)
-'''
-pass
+    '''    public String formatResourceName(final String where)
+    '''
 def getProductName():
-'''public String getProductName()
-'''
-pass
+    '''    public String getProductName()
+    '''
 def getMetaData():
-'''public Map<String, Object> getMetaData()
-'''
-pass
+    '''    public Map<String, Object> getMetaData()
+    '''
 def getBulkUpdate():
-'''public boolean getBulkUpdate()
-'''
-pass
+    '''    public boolean getBulkUpdate()
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def getLimit():
-'''public int getLimit()
-'''
-pass
+    '''    public int getLimit()
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def setDateFormatType():
-'''public void setDateFormatType(final String dateFormatType)
-'''
-pass
+    '''    public void setDateFormatType(final String dateFormatType)
+    '''
 def getDateFormatType():
-'''public String getDateFormatType()
-'''
-pass
+    '''    public String getDateFormatType()
+    '''
 def setDateFormat():
-'''public void setDateFormat(final String dateFormat)
-'''
-pass
+    '''    public void setDateFormat(final String dateFormat)
+    '''
 def getDateFormat():
-'''public String getDateFormat()
-'''
-pass
+    '''    public String getDateFormat()
+    '''
 def getNullFormat():
-'''public String getNullFormat()
-'''
-pass
+    '''    public String getNullFormat()
+    '''
 def supportsUpdate():
-'''public boolean supportsUpdate()
-'''
-pass
+    '''    public boolean supportsUpdate()
+    '''

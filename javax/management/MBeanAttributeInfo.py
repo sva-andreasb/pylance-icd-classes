@@ -1,33 +1,25 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isIs():
-'''public boolean isIs()
-'''
-pass
+    '''    public boolean isIs()
+    '''
 def isReadable():
-'''public boolean isReadable()
-'''
-pass
+    '''    public boolean isReadable()
+    '''
 def isWritable():
-'''public boolean isWritable()
-'''
-pass
+    '''    public boolean isWritable()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def MBeanAttributeInfo():
-'''public MBeanAttributeInfo(final String s, final String attributeType, final String s2, final boolean isRead, final boolean isWrite, final boolean is)
-public MBeanAttributeInfo(final String s, final String s2, final Method method, final Method method2)
-'''
-pass
+    '''    public MBeanAttributeInfo(final String s, final String attributeType, final String s2, final boolean isRead, final boolean isWrite, final boolean is)
+    public MBeanAttributeInfo(final String s, final String s2, final Method method, final Method method2)
+    '''

@@ -1,53 +1,40 @@
 def AnnotationGen():
-'''public AnnotationGen(final AnnotationGen a, final ConstantPool cpool, final boolean copyPoolEntries)
-public AnnotationGen(final ObjectType type, final List<NameValuePair> pairs, final boolean runtimeVisible, final ConstantPool cpool)
-'''
-pass
+    '''    public AnnotationGen(final AnnotationGen a, final ConstantPool cpool, final boolean copyPoolEntries)
+    public AnnotationGen(final ObjectType type, final List<NameValuePair> pairs, final boolean runtimeVisible, final ConstantPool cpool)
+    '''
 def read():
-'''public static AnnotationGen read(final DataInputStream dis, final ConstantPool cpool, final boolean b)
-'''
-pass
+    '''    public static AnnotationGen read(final DataInputStream dis, final ConstantPool cpool, final boolean b)
+    '''
 def dump():
-'''public void dump(final DataOutputStream dos)
-'''
-pass
+    '''    public void dump(final DataOutputStream dos)
+    '''
 def addElementNameValuePair():
-'''public void addElementNameValuePair(final NameValuePair evp)
-'''
-pass
+    '''    public void addElementNameValuePair(final NameValuePair evp)
+    '''
 def getTypeIndex():
-'''public int getTypeIndex()
-'''
-pass
+    '''    public int getTypeIndex()
+    '''
 def getTypeSignature():
-'''public String getTypeSignature()
-'''
-pass
+    '''    public String getTypeSignature()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''
 def getValues():
-'''public List<NameValuePair> getValues()
-'''
-pass
+    '''    public List<NameValuePair> getValues()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toShortString():
-'''public String toShortString()
-'''
-pass
+    '''    public String toShortString()
+    '''
 def isRuntimeVisible():
-'''public boolean isRuntimeVisible()
-'''
-pass
+    '''    public boolean isRuntimeVisible()
+    '''
 def hasNameValuePair():
-'''public boolean hasNameValuePair(final String name, final String value)
-'''
-pass
+    '''    public boolean hasNameValuePair(final String name, final String value)
+    '''
 def hasNamedValue():
-'''public boolean hasNamedValue(final String name)
-'''
-pass
+    '''    public boolean hasNamedValue(final String name)
+    '''

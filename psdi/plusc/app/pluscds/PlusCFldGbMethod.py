@@ -1,16 +1,12 @@
 def PlusCFldGbMethod():
-'''public PlusCFldGbMethod(final MboValue mv)
-'''
-pass
+    '''    public PlusCFldGbMethod(final MboValue mv)
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''

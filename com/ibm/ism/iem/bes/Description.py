@@ -1,24 +1,18 @@
 def getPreLink():
-'''public String getPreLink()
-'''
-pass
+    '''    public String getPreLink()
+    '''
 def setPreLink():
-'''public void setPreLink(final String value)
-'''
-pass
+    '''    public void setPreLink(final String value)
+    '''
 def getLink():
-'''public String getLink()
-'''
-pass
+    '''    public String getLink()
+    '''
 def setLink():
-'''public void setLink(final String value)
-'''
-pass
+    '''    public void setLink(final String value)
+    '''
 def getPostLink():
-'''public String getPostLink()
-'''
-pass
+    '''    public String getPostLink()
+    '''
 def setPostLink():
-'''public void setPostLink(final String value)
-'''
-pass
+    '''    public void setPostLink(final String value)
+    '''

@@ -1,52 +1,39 @@
 def AccessControlList():
-'''public AccessControlList()
-'''
-pass
+    '''    public AccessControlList()
+    '''
 def getOwner():
-'''public Owner getOwner()
-'''
-pass
+    '''    public Owner getOwner()
+    '''
 def setOwner():
-'''public void setOwner(final Owner owner)
-'''
-pass
+    '''    public void setOwner(final Owner owner)
+    '''
 def grantPermission():
-'''public void grantPermission(final Grantee grantee, final Permission permission)
-'''
-pass
+    '''    public void grantPermission(final Grantee grantee, final Permission permission)
+    '''
 def grantAllPermissions():
-'''public void grantAllPermissions(final Grant... grantsVarArg)
-'''
-pass
+    '''    public void grantAllPermissions(final Grant... grantsVarArg)
+    '''
 def revokeAllPermissions():
-'''public void revokeAllPermissions(final Grantee grantee)
-'''
-pass
+    '''    public void revokeAllPermissions(final Grantee grantee)
+    '''
 def getGrants():
-'''public Set<Grant> getGrants()
-'''
-pass
+    '''    public Set<Grant> getGrants()
+    '''
 def getGrantsAsList():
-'''public List<Grant> getGrantsAsList()
-'''
-pass
+    '''    public List<Grant> getGrantsAsList()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isRequesterCharged():
-'''public boolean isRequesterCharged()
-'''
-pass
+    '''    public boolean isRequesterCharged()
+    '''
 def setRequesterCharged():
-'''public void setRequesterCharged(final boolean isRequesterCharged)
-'''
-pass
+    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''

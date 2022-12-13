@@ -1,8 +1,6 @@
 def FldMasterPMMeterName():
-'''public FldMasterPMMeterName(final MboValue mbv)
-'''
-pass
+    '''    public FldMasterPMMeterName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

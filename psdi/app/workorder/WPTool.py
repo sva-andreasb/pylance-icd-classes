@@ -1,64 +1,48 @@
 def WPTool():
-'''public WPTool(final MboSet ms)
-'''
-pass
+    '''    public WPTool(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def refreshRate():
-'''public void refreshRate()
-'''
-pass
+    '''    public void refreshRate()
+    '''
 def copyPlan():
-'''public void copyPlan(final MboRemote source)
-'''
-pass
+    '''    public void copyPlan(final MboRemote source)
+    '''
 def updateEstimateTotal():
-'''public void updateEstimateTotal(final double delta)
-'''
-pass
+    '''    public void updateEstimateTotal(final double delta)
+    '''
 def validateToolAvailInStorerooms():
-'''public void validateToolAvailInStorerooms()
-'''
-pass
+    '''    public void validateToolAvailInStorerooms()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def updateTotals():
-'''public void updateTotals(final MboRemote wo, final boolean isGain)
-'''
-pass
+    '''    public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''
 def setFieldsFlagInDuplicate():
-'''public void setFieldsFlagInDuplicate()
-'''
-pass
+    '''    public void setFieldsFlagInDuplicate()
+    '''
 def isCrewTool():
-'''public boolean isCrewTool()
-'''
-pass
+    '''    public boolean isCrewTool()
+    '''
 def getAssociatedLabor():
-'''public MboRemote getAssociatedLabor()
-'''
-pass
+    '''    public MboRemote getAssociatedLabor()
+    '''
 def removeTool():
-'''public void removeTool()
-'''
-pass
+    '''    public void removeTool()
+    '''

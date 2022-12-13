@@ -1,48 +1,36 @@
 def MapFacadeTG():
-'''public MapFacadeTG()
-'''
-pass
+    '''    public MapFacadeTG()
+    '''
 def compare():
-'''public int compare(final JSONObject o1, final JSONObject o2)
-'''
-pass
+    '''    public int compare(final JSONObject o1, final JSONObject o2)
+    '''
 def onRouteError():
-'''public void onRouteError(final String errorCode)
-'''
-pass
+    '''    public void onRouteError(final String errorCode)
+    '''
 def drawCallback():
-'''public void drawCallback(final String json)
-'''
-pass
+    '''    public void drawCallback(final String json)
+    '''
 def convertActivityToAssignmentJson():
-'''public JSONObject convertActivityToAssignmentJson(final MXActivity activity)
-'''
-pass
+    '''    public JSONObject convertActivityToAssignmentJson(final MXActivity activity)
+    '''
 def convertResourceToJson():
-'''public JSONObject convertResourceToJson(final MXResource activity)
-'''
-pass
+    '''    public JSONObject convertResourceToJson(final MXResource activity)
+    '''
 def getUpdateRoutesData():
-'''public JSONObject getUpdateRoutesData(final List<String> resourceIds, final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
-'''
-pass
+    '''    public JSONObject getUpdateRoutesData(final List<String> resourceIds, final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
+    '''
 def clearCache():
-'''public void clearCache()
-'''
-pass
+    '''    public void clearCache()
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''

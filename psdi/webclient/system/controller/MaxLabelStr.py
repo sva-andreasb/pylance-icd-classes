@@ -1,12 +1,9 @@
 def MaxLabelStr():
-'''public MaxLabelStr(final long id)
-'''
-pass
+    '''    public MaxLabelStr(final long id)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

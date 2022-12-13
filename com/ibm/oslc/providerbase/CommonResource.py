@@ -1,120 +1,91 @@
 def setCloudURI():
-'''public void setCloudURI(final URI uri)
-'''
-pass
+    '''    public void setCloudURI(final URI uri)
+    '''
 def getCloudURI():
-'''public URI getCloudURI()
-'''
-pass
+    '''    public URI getCloudURI()
+    '''
 def getNativeIdentifier():
-'''public String getNativeIdentifier()
-'''
-pass
+    '''    public String getNativeIdentifier()
+    '''
 def setNativeIdentifier():
-'''public void setNativeIdentifier(final String nativeIdentifier)
-'''
-pass
+    '''    public void setNativeIdentifier(final String nativeIdentifier)
+    '''
 def getNativeReference():
-'''public URI getNativeReference()
-'''
-pass
+    '''    public URI getNativeReference()
+    '''
 def setNativeReference():
-'''public void setNativeReference(final URI reference)
-public void setNativeReference(final String reference)
-'''
-pass
+    '''    public void setNativeReference(final URI reference)
+    public void setNativeReference(final String reference)
+    '''
 def getNativeType():
-'''public String getNativeType()
-'''
-pass
+    '''    public String getNativeType()
+    '''
 def setNativeType():
-'''public void setNativeType(final String nativeType)
-'''
-pass
+    '''    public void setNativeType(final String nativeType)
+    '''
 def setAbout():
-'''public void setAbout(final String uri)
-'''
-pass
+    '''    public void setAbout(final String uri)
+    '''
 def getIdentifier():
-'''public String getIdentifier()
-'''
-pass
+    '''    public String getIdentifier()
+    '''
 def setIdentifier():
-'''public void setIdentifier(final String identifier)
-'''
-pass
+    '''    public void setIdentifier(final String identifier)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getContributors():
-'''public List<URI> getContributors()
-'''
-pass
+    '''    public List<URI> getContributors()
+    '''
 def setContributors():
-'''public void setContributors(final List<URI> contributors)
-'''
-pass
+    '''    public void setContributors(final List<URI> contributors)
+    '''
 def setContributor():
-'''public void setContributor(final String contributor)
-'''
-pass
+    '''    public void setContributor(final String contributor)
+    '''
 def getCreator():
-'''public URI getCreator()
-'''
-pass
+    '''    public URI getCreator()
+    '''
 def setCreator():
-'''public void setCreator(final URI creator)
-public void setCreator(final String creator)
-'''
-pass
+    '''    public void setCreator(final URI creator)
+    public void setCreator(final String creator)
+    '''
 def getCreated():
-'''public Date getCreated()
-'''
-pass
+    '''    public Date getCreated()
+    '''
 def setCreated():
-'''public void setCreated(final Date created)
-'''
-pass
+    '''    public void setCreated(final Date created)
+    '''
 def getModified():
-'''public Date getModified()
-'''
-pass
+    '''    public Date getModified()
+    '''
 def setModified():
-'''public void setModified(final Date modified)
-'''
-pass
+    '''    public void setModified(final Date modified)
+    '''
 def getServiceProvider():
-'''public URI getServiceProvider()
-'''
-pass
+    '''    public URI getServiceProvider()
+    '''
 def setServiceProvider():
-'''public void setServiceProvider(final URI serviceProvider)
-public void setServiceProvider(final String serviceProvider)
-'''
-pass
+    '''    public void setServiceProvider(final URI serviceProvider)
+    public void setServiceProvider(final String serviceProvider)
+    '''
 def getInstanceShape():
-'''public URI getInstanceShape()
-'''
-pass
+    '''    public URI getInstanceShape()
+    '''
 def setInstanceShape():
-'''public void setInstanceShape(final URI instanceShape)
-public void setInstanceShape(final String instanceShape)
-'''
-pass
+    '''    public void setInstanceShape(final URI instanceShape)
+    public void setInstanceShape(final String instanceShape)
+    '''
 def removeType():
-'''public void removeType(final URI type)
-'''
-pass
+    '''    public void removeType(final URI type)
+    '''

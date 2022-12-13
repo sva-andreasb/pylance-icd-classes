@@ -1,150 +1,115 @@
 batchSize = "int  200"
-CCILINKDISGUID = "String  CCIAssetCIDISGUID""
+CCILINKDISGUID = "String  \"CCIAssetCIDISGUID\""
 def getReconInfo():
-'''public ReconInfo getReconInfo()
-'''
-pass
+    '''    public ReconInfo getReconInfo()
+    '''
 def setReconInfo():
-'''public void setReconInfo(final ReconInfo reconInfo)
-'''
-pass
+    '''    public void setReconInfo(final ReconInfo reconInfo)
+    '''
 def CCILinker():
-'''public CCILinker(final UserInfo userInfo)
-'''
-pass
+    '''    public CCILinker(final UserInfo userInfo)
+    '''
 def findAssetsForCIs():
-'''public void findAssetsForCIs(final List<String> ciKeys)
-public void findAssetsForCIs(final MboSet ciMbos)
-public void findAssetsForCIs(final String filterCIs, final String filterAssets)
-'''
-pass
+    '''    public void findAssetsForCIs(final List<String> ciKeys)
+    public void findAssetsForCIs(final MboSet ciMbos)
+    public void findAssetsForCIs(final String filterCIs, final String filterAssets)
+    '''
 def findCIsForAssets():
-'''public void findCIsForAssets(final List<String[]> assetKeys)
-public void findCIsForAssets(final MboSet assetMbos)
-public void findCIsForAssets(final String filterAssets, final String filterCIs)
-'''
-pass
+    '''    public void findCIsForAssets(final List<String[]> assetKeys)
+    public void findCIsForAssets(final MboSet assetMbos)
+    public void findCIsForAssets(final String filterAssets, final String filterCIs)
+    '''
 def findAssetsForDeployedAssets():
-'''public void findAssetsForDeployedAssets(final List<Long> dpaKeys)
-public void findAssetsForDeployedAssets(final MboSet dpaMbos)
-public void findAssetsForDeployedAssets(final String where)
-'''
-pass
+    '''    public void findAssetsForDeployedAssets(final List<Long> dpaKeys)
+    public void findAssetsForDeployedAssets(final MboSet dpaMbos)
+    public void findAssetsForDeployedAssets(final String where)
+    '''
 def findCIsForActualCIs():
-'''public void findCIsForActualCIs(final List<String> actCIKeys)
-public void findCIsForActualCIs(final MboSet actCIMbos)
-public void findCIsForActualCIs(final String where)
-'''
-pass
+    '''    public void findCIsForActualCIs(final List<String> actCIKeys)
+    public void findCIsForActualCIs(final MboSet actCIMbos)
+    public void findCIsForActualCIs(final String where)
+    '''
 def findCIsForActualCIsByKey():
-'''public void findCIsForActualCIsByKey(final String actCIKey)
-'''
-pass
+    '''    public void findCIsForActualCIsByKey(final String actCIKey)
+    '''
 def findCIsForAssetsViaRecon():
-'''public void findCIsForAssetsViaRecon(final ReconInfo rInfo, final String ciFilter, final String assetFilter)
-'''
-pass
+    '''    public void findCIsForAssetsViaRecon(final ReconInfo rInfo, final String ciFilter, final String assetFilter)
+    '''
 def getResults():
-'''public List<LinkResult> getResults()
-'''
-pass
+    '''    public List<LinkResult> getResults()
+    '''
 def getResultByCI():
-'''public LinkResult getResultByCI(final String cinum)
-'''
-pass
+    '''    public LinkResult getResultByCI(final String cinum)
+    '''
 def getResultByAsset():
-'''public LinkResult getResultByAsset(final String assetnum, final String siteid)
-'''
-pass
+    '''    public LinkResult getResultByAsset(final String assetnum, final String siteid)
+    '''
 def getResultByDPA():
-'''public LinkResult getResultByDPA(final int nodeid)
-'''
-pass
+    '''    public LinkResult getResultByDPA(final int nodeid)
+    '''
 def getResultByActCI():
-'''public LinkResult getResultByActCI(final String actcinum)
-'''
-pass
+    '''    public LinkResult getResultByActCI(final String actcinum)
+    '''
 def isSaveLinks():
-'''public boolean isSaveLinks()
-'''
-pass
+    '''    public boolean isSaveLinks()
+    '''
 def setSaveLinks():
-'''public void setSaveLinks(final boolean saveLinks)
-'''
-pass
+    '''    public void setSaveLinks(final boolean saveLinks)
+    '''
 def setTest():
-'''public void setTest(final boolean test)
-'''
-pass
+    '''    public void setTest(final boolean test)
+    '''
 def getTestQueries():
-'''public List<String> getTestQueries()
-'''
-pass
+    '''    public List<String> getTestQueries()
+    '''
 def gettestSaveWhere():
-'''public List<String> gettestSaveWhere()
-'''
-pass
+    '''    public List<String> gettestSaveWhere()
+    '''
 def LinkResult():
-'''public LinkResult()
-'''
-pass
+    '''    public LinkResult()
+    '''
 def getAssetnum():
-'''public String getAssetnum()
-'''
-pass
+    '''    public String getAssetnum()
+    '''
 def getOrgid():
-'''public String getOrgid()
-'''
-pass
+    '''    public String getOrgid()
+    '''
 def getSiteid():
-'''public String getSiteid()
-'''
-pass
+    '''    public String getSiteid()
+    '''
 def getCinum():
-'''public String getCinum()
-'''
-pass
+    '''    public String getCinum()
+    '''
 def getNodeid():
-'''public String getNodeid()
-'''
-pass
+    '''    public String getNodeid()
+    '''
 def getActcinum():
-'''public String getActcinum()
-'''
-pass
+    '''    public String getActcinum()
+    '''
 def getDisguid():
-'''public String getDisguid()
-'''
-pass
+    '''    public String getDisguid()
+    '''
 def getLinkRule():
-'''public String getLinkRule()
-'''
-pass
+    '''    public String getLinkRule()
+    '''
 def getConflictAssetnum():
-'''public String getConflictAssetnum()
-'''
-pass
+    '''    public String getConflictAssetnum()
+    '''
 def getConflictSiteid():
-'''public String getConflictSiteid()
-'''
-pass
+    '''    public String getConflictSiteid()
+    '''
 def getConflictCinum():
-'''public String getConflictCinum()
-'''
-pass
+    '''    public String getConflictCinum()
+    '''
 def getConflictNodeid():
-'''public String getConflictNodeid()
-'''
-pass
+    '''    public String getConflictNodeid()
+    '''
 def isSaveFailed():
-'''public boolean isSaveFailed()
-'''
-pass
+    '''    public boolean isSaveFailed()
+    '''
 def isMultiLink():
-'''public boolean isMultiLink()
-'''
-pass
+    '''    public boolean isMultiLink()
+    '''
 def setSaveFailed():
-'''public void setSaveFailed(final boolean saveFailed)
-'''
-pass
+    '''    public void setSaveFailed(final boolean saveFailed)
+    '''

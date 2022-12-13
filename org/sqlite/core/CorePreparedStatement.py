@@ -1,12 +1,9 @@
 def executeBatch():
-'''public int[] executeBatch()
-'''
-pass
+    '''    public int[] executeBatch()
+    '''
 def clearBatch():
-'''public void clearBatch()
-'''
-pass
+    '''    public void clearBatch()
+    '''
 def getUpdateCount():
-'''public int getUpdateCount()
-'''
-pass
+    '''    public int getUpdateCount()
+    '''

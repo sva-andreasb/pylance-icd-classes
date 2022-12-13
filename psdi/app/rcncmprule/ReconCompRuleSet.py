@@ -1,4 +1,3 @@
 def ReconCompRuleSet():
-'''public ReconCompRuleSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReconCompRuleSet(final MboServerInterface ms)
+    '''

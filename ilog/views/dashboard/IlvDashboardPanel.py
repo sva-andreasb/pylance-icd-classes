@@ -1,40 +1,30 @@
 def targetChanged():
-'''public void targetChanged(final ComponentContextEvent componentContextEvent)
-'''
-pass
+    '''    public void targetChanged(final ComponentContextEvent componentContextEvent)
+    '''
 def getEditor():
-'''public IlvDashboardEditor getEditor()
-'''
-pass
+    '''    public IlvDashboardEditor getEditor()
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def setID():
-'''public void setID(final String b)
-'''
-pass
+    '''    public void setID(final String b)
+    '''
 def getDiagram():
-'''public IlvDashboardDiagram getDiagram()
-'''
-pass
+    '''    public IlvDashboardDiagram getDiagram()
+    '''
 def addNotify():
-'''public void addNotify()
-'''
-pass
+    '''    public void addNotify()
+    '''
 def removeNotify():
-'''public void removeNotify()
-'''
-pass
+    '''    public void removeNotify()
+    '''
 def setDiagram():
-'''public void setDiagram(final IlvDashboardDiagram c)
-'''
-pass
+    '''    public void setDiagram(final IlvDashboardDiagram c)
+    '''
 def getPanelManager():
-'''public IlvDashboardPanelManager getPanelManager()
-'''
-pass
+    '''    public IlvDashboardPanelManager getPanelManager()
+    '''
 def setPanelManager():
-'''public void setPanelManager(final IlvDashboardPanelManager f)
-'''
-pass
+    '''    public void setPanelManager(final IlvDashboardPanelManager f)
+    '''

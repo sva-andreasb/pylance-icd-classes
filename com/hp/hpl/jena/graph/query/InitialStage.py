@@ -1,12 +1,9 @@
 def InitialStage():
-'''public InitialStage(final int count)
-'''
-pass
+    '''    public InitialStage(final int count)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def deliver():
-'''public Pipe deliver(final Pipe result)
-'''
-pass
+    '''    public Pipe deliver(final Pipe result)
+    '''

@@ -1,32 +1,24 @@
 def InputMeta():
-'''public InputMeta(final InputStream in)
-'''
-pass
+    '''    public InputMeta(final InputStream in)
+    '''
 def readWord():
-'''public int readWord()
-'''
-pass
+    '''    public int readWord()
+    '''
 def readShort():
-'''public int readShort()
-'''
-pass
+    '''    public int readShort()
+    '''
 def readInt():
-'''public int readInt()
-'''
-pass
+    '''    public int readInt()
+    '''
 def readByte():
-'''public int readByte()
-'''
-pass
+    '''    public int readByte()
+    '''
 def skip():
-'''public void skip(int len)
-'''
-pass
+    '''    public void skip(int len)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def readColor():
-'''public Color readColor()
-'''
-pass
+    '''    public Color readColor()
+    '''

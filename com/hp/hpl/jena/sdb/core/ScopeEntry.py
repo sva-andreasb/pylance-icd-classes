@@ -1,56 +1,42 @@
 def ScopeEntry():
-'''public ScopeEntry(final Var var, final SqlColumn column)
-'''
-pass
+    '''    public ScopeEntry(final Var var, final SqlColumn column)
+    '''
 def reset():
-'''public void reset(final Var var, final SqlColumn column, final ScopeStatus status)
-'''
-pass
+    '''    public void reset(final Var var, final SqlColumn column, final ScopeStatus status)
+    '''
 def duplicate():
-'''public ScopeEntry duplicate()
-'''
-pass
+    '''    public ScopeEntry duplicate()
+    '''
 def getColumn():
-'''public SqlColumn getColumn()
-'''
-pass
+    '''    public SqlColumn getColumn()
+    '''
 def getStatus():
-'''public ScopeStatus getStatus()
-'''
-pass
+    '''    public ScopeStatus getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final ScopeStatus newStatus)
-'''
-pass
+    '''    public void setStatus(final ScopeStatus newStatus)
+    '''
 def isOptional():
-'''public boolean isOptional()
-'''
-pass
+    '''    public boolean isOptional()
+    '''
 def isFixed():
-'''public boolean isFixed()
-'''
-pass
+    '''    public boolean isFixed()
+    '''
 def hasStatus():
-'''public boolean hasStatus(final ScopeStatus testStatus2)
-'''
-pass
+    '''    public boolean hasStatus(final ScopeStatus testStatus2)
+    '''
 def getVar():
-'''public Var getVar()
-'''
-pass
+    '''    public Var getVar()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def accept():
-'''public boolean accept(final ScopeEntry item)
-'''
-pass
+    '''    public boolean accept(final ScopeEntry item)
+    '''
 def convert():
-'''public Var convert(final ScopeEntry item)
-'''
-pass
+    '''    public Var convert(final ScopeEntry item)
+    '''
 def apply():
-'''public void apply(final ScopeEntry item)
-'''
-pass
+    '''    public void apply(final ScopeEntry item)
+    '''

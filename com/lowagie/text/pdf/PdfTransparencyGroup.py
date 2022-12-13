@@ -1,12 +1,9 @@
 def PdfTransparencyGroup():
-'''public PdfTransparencyGroup()
-'''
-pass
+    '''    public PdfTransparencyGroup()
+    '''
 def setIsolated():
-'''public void setIsolated(final boolean isolated)
-'''
-pass
+    '''    public void setIsolated(final boolean isolated)
+    '''
 def setKnockout():
-'''public void setKnockout(final boolean knockout)
-'''
-pass
+    '''    public void setKnockout(final boolean knockout)
+    '''

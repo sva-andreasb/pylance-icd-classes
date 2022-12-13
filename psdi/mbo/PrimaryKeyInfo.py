@@ -1,48 +1,36 @@
 def PrimaryKeyInfo():
-'''public PrimaryKeyInfo()
-'''
-pass
+    '''    public PrimaryKeyInfo()
+    '''
 def addMboValueInfo():
-'''public void addMboValueInfo(final MboValueInfo mv)
-'''
-pass
+    '''    public void addMboValueInfo(final MboValueInfo mv)
+    '''
 def getMboValueName():
-'''public String getMboValueName(final int i)
-'''
-pass
+    '''    public String getMboValueName(final int i)
+    '''
 def getMboValueInfo():
-'''public MboValueInfo getMboValueInfo(final int i)
-'''
-pass
+    '''    public MboValueInfo getMboValueInfo(final int i)
+    '''
 def getMboValuesInfo():
-'''public Enumeration getMboValuesInfo()
-'''
-pass
+    '''    public Enumeration getMboValuesInfo()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clearKeyColumns():
-'''public void clearKeyColumns()
-'''
-pass
+    '''    public void clearKeyColumns()
+    '''
 def compare():
-'''public int compare(final Object first, final Object second)
-'''
-pass
+    '''    public int compare(final Object first, final Object second)
+    '''
 def KeyEnumerator():
-'''public KeyEnumerator()
-'''
-pass
+    '''    public KeyEnumerator()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''

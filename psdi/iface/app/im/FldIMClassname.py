@@ -1,8 +1,6 @@
 def FldIMClassname():
-'''public FldIMClassname(final MboValue mbv)
-'''
-pass
+    '''    public FldIMClassname(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

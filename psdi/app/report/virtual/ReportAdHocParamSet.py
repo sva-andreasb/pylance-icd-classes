@@ -1,8 +1,6 @@
 def ReportAdHocParamSet():
-'''public ReportAdHocParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportAdHocParamSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

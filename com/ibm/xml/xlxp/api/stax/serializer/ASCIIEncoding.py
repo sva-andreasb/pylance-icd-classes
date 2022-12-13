@@ -1,9 +1,7 @@
 def ASCIIEncoding():
-'''public ASCIIEncoding()
-'''
-pass
+    '''    public ASCIIEncoding()
+    '''
 def isEncodable():
-'''public final boolean isEncodable(final char c)
-public boolean isEncodable(final char c, final char c2)
-'''
-pass
+    '''    public final boolean isEncodable(final char c)
+    public boolean isEncodable(final char c, final char c2)
+    '''

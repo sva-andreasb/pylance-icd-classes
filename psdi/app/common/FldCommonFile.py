@@ -1,8 +1,6 @@
 def FldCommonFile():
-'''public FldCommonFile(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonFile(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

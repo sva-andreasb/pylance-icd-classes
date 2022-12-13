@@ -1,9 +1,7 @@
 def SKDChartPrintingController():
-'''public SKDChartPrintingController(final IlvChartPrintableDocument document)
-public SKDChartPrintingController(final IlvChart chart)
-'''
-pass
+    '''    public SKDChartPrintingController(final IlvChartPrintableDocument document)
+    public SKDChartPrintingController(final IlvChart chart)
+    '''
 def createPrintPreviewWindow():
-'''public Window createPrintPreviewWindow(final Window owner)
-'''
-pass
+    '''    public Window createPrintPreviewWindow(final Window owner)
+    '''

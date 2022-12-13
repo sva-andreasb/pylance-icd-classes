@@ -1,16 +1,12 @@
 def LocalVariableInfo():
-'''public LocalVariableInfo()
-'''
-pass
+    '''    public LocalVariableInfo()
+    '''
 def getType():
-'''public Type getType(final int offset)
-'''
-pass
+    '''    public Type getType(final int offset)
+    '''
 def getName():
-'''public String getName(final int offset)
-'''
-pass
+    '''    public String getName(final int offset)
+    '''
 def add():
-'''public void add(final String name, final int startpc, final int length, final Type t)
-'''
-pass
+    '''    public void add(final String name, final int startpc, final int length, final Type t)
+    '''

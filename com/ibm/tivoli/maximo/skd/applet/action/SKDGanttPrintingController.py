@@ -1,9 +1,7 @@
 def SKDGanttPrintingController():
-'''public SKDGanttPrintingController(final IlvGanttPrintableDocument document)
-public SKDGanttPrintingController(final IlvHierarchyChart chart)
-'''
-pass
+    '''    public SKDGanttPrintingController(final IlvGanttPrintableDocument document)
+    public SKDGanttPrintingController(final IlvHierarchyChart chart)
+    '''
 def createPrintPreviewWindow():
-'''public Window createPrintPreviewWindow(final Window owner)
-'''
-pass
+    '''    public Window createPrintPreviewWindow(final Window owner)
+    '''

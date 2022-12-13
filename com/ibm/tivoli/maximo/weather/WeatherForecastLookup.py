@@ -1,41 +1,31 @@
 def WeatherForecastLookup():
-'''public WeatherForecastLookup()
-public WeatherForecastLookup(final Date start, final Date end, final WeatherForecastType type, final WeatherAddress addr)
-'''
-pass
+    '''    public WeatherForecastLookup()
+    public WeatherForecastLookup(final Date start, final Date end, final WeatherForecastType type, final WeatherAddress addr)
+    '''
 def getStart():
-'''public Date getStart()
-'''
-pass
+    '''    public Date getStart()
+    '''
 def setStart():
-'''public void setStart(final Date start)
-'''
-pass
+    '''    public void setStart(final Date start)
+    '''
 def getEnd():
-'''public Date getEnd()
-'''
-pass
+    '''    public Date getEnd()
+    '''
 def setEnd():
-'''public void setEnd(final Date end)
-'''
-pass
+    '''    public void setEnd(final Date end)
+    '''
 def getType():
-'''public WeatherForecastType getType()
-'''
-pass
+    '''    public WeatherForecastType getType()
+    '''
 def setType():
-'''public void setType(final WeatherForecastType type)
-'''
-pass
+    '''    public void setType(final WeatherForecastType type)
+    '''
 def getAddress():
-'''public WeatherAddress getAddress()
-'''
-pass
+    '''    public WeatherAddress getAddress()
+    '''
 def setAddress():
-'''public void setAddress(final WeatherAddress address)
-'''
-pass
+    '''    public void setAddress(final WeatherAddress address)
+    '''
 def hasLookupData():
-'''public boolean hasLookupData()
-'''
-pass
+    '''    public boolean hasLookupData()
+    '''

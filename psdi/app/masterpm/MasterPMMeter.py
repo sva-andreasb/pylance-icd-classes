@@ -1,20 +1,15 @@
 def MasterPMMeter():
-'''public MasterPMMeter(final MboSet ms)
-'''
-pass
+    '''    public MasterPMMeter(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def isMeterAttachedToAssetOrLocation():
-'''public boolean isMeterAttachedToAssetOrLocation(final String assetnum, final String location)
-'''
-pass
+    '''    public boolean isMeterAttachedToAssetOrLocation(final String assetnum, final String location)
+    '''
 def validateMeter():
-'''public void validateMeter()
-'''
-pass
+    '''    public void validateMeter()
+    '''

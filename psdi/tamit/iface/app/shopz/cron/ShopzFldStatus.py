@@ -1,8 +1,6 @@
 def ShopzFldStatus():
-'''public ShopzFldStatus(final MboValue mbv)
-'''
-pass
+    '''    public ShopzFldStatus(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

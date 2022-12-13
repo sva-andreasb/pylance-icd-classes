@@ -1,8 +1,6 @@
 def FldAssetFeatureHistAsOfDate():
-'''public FldAssetFeatureHistAsOfDate(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetFeatureHistAsOfDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

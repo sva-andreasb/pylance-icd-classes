@@ -1,33 +1,25 @@
 def _ESIInvalidatorControllerProxyImpl_Tie():
-'''public _ESIInvalidatorControllerProxyImpl_Tie()
-'''
-pass
+    '''    public _ESIInvalidatorControllerProxyImpl_Tie()
+    '''
 def _ids():
-'''public String[] _ids()
-'''
-pass
+    '''    public String[] _ids()
+    '''
 def _invoke():
-'''public OutputStream _invoke(final String s, final org.omg.CORBA.portable.InputStream inputStream, final ResponseHandler responseHandler)
-'''
-pass
+    '''    public OutputStream _invoke(final String s, final org.omg.CORBA.portable.InputStream inputStream, final ResponseHandler responseHandler)
+    '''
 def _set_delegate():
-'''public void _set_delegate(final Delegate delegate)
-'''
-pass
+    '''    public void _set_delegate(final Delegate delegate)
+    '''
 def deactivate():
-'''public void deactivate()
-'''
-pass
+    '''    public void deactivate()
+    '''
 def getTarget():
-'''public Remote getTarget()
-'''
-pass
+    '''    public Remote getTarget()
+    '''
 def orb():
-'''public ORB orb()
-public void orb(final ORB orb)
-'''
-pass
+    '''    public ORB orb()
+    public void orb(final ORB orb)
+    '''
 def setTarget():
-'''public void setTarget(final Remote remote)
-'''
-pass
+    '''    public void setTarget(final Remote remote)
+    '''

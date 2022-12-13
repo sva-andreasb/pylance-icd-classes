@@ -1,8 +1,6 @@
 def FldSchWarrantyViewLineCost():
-'''public FldSchWarrantyViewLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldSchWarrantyViewLineCost(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

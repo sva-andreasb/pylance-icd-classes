@@ -1,88 +1,68 @@
-HTTP_GET = "String GET""
-HTTP_POST = "String POST""
-HTTP_PUT = "String PUT""
-HTTP_DELETE = "String DELETE""
-HTTP_PATCH = "String PATCH""
-HTTP_HEAD = "String HEAD""
+HTTP_GET = "String  \"GET\""
+HTTP_POST = "String  \"POST\""
+HTTP_PUT = "String  \"PUT\""
+HTTP_DELETE = "String  \"DELETE\""
+HTTP_PATCH = "String  \"PATCH\""
+HTTP_HEAD = "String  \"HEAD\""
 def RESTRequest():
-'''public RESTRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost)
-public RESTRequest(final HttpServletRequest request)
-'''
-pass
+    '''    public RESTRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost)
+    public RESTRequest(final HttpServletRequest request)
+    '''
 def getPrincipal():
-'''public Principal getPrincipal()
-'''
-pass
+    '''    public Principal getPrincipal()
+    '''
 def getHeaderParams():
-'''public BaseHttpHeaders getHeaderParams()
-'''
-pass
+    '''    public BaseHttpHeaders getHeaderParams()
+    '''
 def getHttpMethod():
-'''public String getHttpMethod()
-'''
-pass
+    '''    public String getHttpMethod()
+    '''
 def getResponseFormat():
-'''public String getResponseFormat()
-'''
-pass
+    '''    public String getResponseFormat()
+    '''
 def getRequestFormat():
-'''public String getRequestFormat()
-'''
-pass
+    '''    public String getRequestFormat()
+    '''
 def getQueryParams():
-'''public Map<String, String[]> getQueryParams()
-'''
-pass
+    '''    public Map<String, String[]> getQueryParams()
+    '''
 def isPOST():
-'''public boolean isPOST()
-'''
-pass
+    '''    public boolean isPOST()
+    '''
 def isPUT():
-'''public boolean isPUT()
-'''
-pass
+    '''    public boolean isPUT()
+    '''
 def isDELETE():
-'''public boolean isDELETE()
-'''
-pass
+    '''    public boolean isDELETE()
+    '''
 def isGET():
-'''public boolean isGET()
-'''
-pass
+    '''    public boolean isGET()
+    '''
 def isPATCH():
-'''public boolean isPATCH()
-'''
-pass
+    '''    public boolean isPATCH()
+    '''
 def isHEAD():
-'''public boolean isHEAD()
-'''
-pass
+    '''    public boolean isHEAD()
+    '''
 def getResponseMIMEType():
-'''public String getResponseMIMEType()
-'''
-pass
+    '''    public String getResponseMIMEType()
+    '''
 def getRequestMIMEType():
-'''public String getRequestMIMEType()
-'''
-pass
+    '''    public String getRequestMIMEType()
+    '''
 def getQueryParam():
-'''public String getQueryParam(final String param)
-public String getQueryParam(final String param, final String def)
-'''
-pass
+    '''    public String getQueryParam(final String param)
+    public String getQueryParam(final String param, final String def)
+    '''
 def getIntegerQueryParam():
-'''public Integer getIntegerQueryParam(final String param)
-'''
-pass
+    '''    public Integer getIntegerQueryParam(final String param)
+    '''
 def getBooleanQueryParam():
-'''public Boolean getBooleanQueryParam(final String param, final boolean def)
-'''
-pass
+    '''    public Boolean getBooleanQueryParam(final String param, final boolean def)
+    '''
 def getClientAddr():
-'''public String getClientAddr()
-'''
-pass
+    '''    public String getClientAddr()
+    '''
 def getClientHost():
-'''public String getClientHost()
-'''
-pass
+    '''    public String getClientHost()
+    '''

@@ -1,33 +1,25 @@
 def doubleArray():
-'''public doubleArray(final long cPtr, final boolean cMemoryOwn)
-public doubleArray(final int nelements)
-'''
-pass
+    '''    public doubleArray(final long cPtr, final boolean cMemoryOwn)
+    public doubleArray(final int nelements)
+    '''
 def setOwn():
-'''public void setOwn(final boolean cMemoryOwn)
-'''
-pass
+    '''    public void setOwn(final boolean cMemoryOwn)
+    '''
 def getCPtr():
-'''public static long getCPtr(final doubleArray obj)
-'''
-pass
+    '''    public static long getCPtr(final doubleArray obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def getitem():
-'''public double getitem(final int index)
-'''
-pass
+    '''    public double getitem(final int index)
+    '''
 def setitem():
-'''public void setitem(final int index, final double value)
-'''
-pass
+    '''    public void setitem(final int index, final double value)
+    '''
 def cast():
-'''public SWIGTYPE_p_double cast()
-'''
-pass
+    '''    public SWIGTYPE_p_double cast()
+    '''
 def frompointer():
-'''public static doubleArray frompointer(final SWIGTYPE_p_double t)
-'''
-pass
+    '''    public static doubleArray frompointer(final SWIGTYPE_p_double t)
+    '''

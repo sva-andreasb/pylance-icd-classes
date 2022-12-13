@@ -1,78 +1,59 @@
 def TenantRegCache():
-'''public TenantRegCache()
-'''
-pass
+    '''    public TenantRegCache()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def tenantStartupRoutine():
-'''public void tenantStartupRoutine()
-'''
-pass
+    '''    public void tenantStartupRoutine()
+    '''
 def hasTenant():
-'''public boolean hasTenant(final int tenantID)
-'''
-pass
+    '''    public boolean hasTenant(final int tenantID)
+    '''
 def hasTenantSession():
-'''public boolean hasTenantSession(final int tenantID)
-'''
-pass
+    '''    public boolean hasTenantSession(final int tenantID)
+    '''
 def setTenantSession():
-'''public void setTenantSession(final int tenantID)
-'''
-pass
+    '''    public void setTenantSession(final int tenantID)
+    '''
 def getTenantSessions():
-'''public Map<Integer, Integer> getTenantSessions()
-'''
-pass
+    '''    public Map<Integer, Integer> getTenantSessions()
+    '''
 def removeTenantSession():
-'''public void removeTenantSession(final int tenantID)
-'''
-pass
+    '''    public void removeTenantSession(final int tenantID)
+    '''
 def getTenantIDFromTenantCode():
-'''public int getTenantIDFromTenantCode(final String tenantCode)
-'''
-pass
+    '''    public int getTenantIDFromTenantCode(final String tenantCode)
+    '''
 def getTenantCode():
-'''public String getTenantCode(final UserInfo info)
-public String getTenantCode(final int id)
-'''
-pass
+    '''    public String getTenantCode(final UserInfo info)
+    public String getTenantCode(final int id)
+    '''
 def getTenantLoginId():
-'''public String getTenantLoginId(final UserInfo info)
-'''
-pass
+    '''    public String getTenantLoginId(final UserInfo info)
+    '''
 def getPartNumber():
-'''public String getPartNumber(final int id)
-'''
-pass
+    '''    public String getPartNumber(final int id)
+    '''
 def getDescription():
-'''public String getDescription(final int id)
-'''
-pass
+    '''    public String getDescription(final int id)
+    '''
 def getSubscriptionID():
-'''public long getSubscriptionID(final UserInfo info)
-'''
-pass
+    '''    public long getSubscriptionID(final UserInfo info)
+    '''
 def getCustomerID():
-'''public long getCustomerID(final UserInfo info)
-'''
-pass
+    '''    public long getCustomerID(final UserInfo info)
+    '''
 def getStartTime():
-'''public long getStartTime(final int id)
-'''
-pass
+    '''    public long getStartTime(final int id)
+    '''
 def getNumberOfSeats():
-'''public long getNumberOfSeats(final UserInfo info)
-'''
-pass
+    '''    public long getNumberOfSeats(final UserInfo info)
+    '''

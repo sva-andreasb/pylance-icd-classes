@@ -1,193 +1,150 @@
-SQLLOG_Execute = "String  SQLlog.execute""
-SQLLOG_Query = "String  SQLlog.query""
-SQLLOG_Result = "String  SQLlog.result""
-SQLLOG_OPEN = "String  SQLlog.open""
-SQLLOG_CLOSE = "String  SQLlog.close""
-SQLLOG_UNSUPPORTED = "String  SQLLog.unsupported""
-SQLLOG_PARAMETERS = "String  SQLLog.parameters""
+SQLLOG_Execute = "String  \"SQLlog.execute\""
+SQLLOG_Query = "String  \"SQLlog.query\""
+SQLLOG_Result = "String  \"SQLlog.result\""
+SQLLOG_OPEN = "String  \"SQLlog.open\""
+SQLLOG_CLOSE = "String  \"SQLlog.close\""
+SQLLOG_UNSUPPORTED = "String  \"SQLLog.unsupported\""
+SQLLOG_PARAMETERS = "String  \"SQLLog.parameters\""
 def log():
-'''public static void log(final String loggerName, final Object msg)
-'''
-pass
+    '''    public static void log(final String loggerName, final Object msg)
+    '''
 def getLoggingConnection():
-'''public static Connection getLoggingConnection(final Connection con)
-public static Connection getLoggingConnection(final Connection con, final LogSQL logger)
-'''
-pass
+    '''    public static Connection getLoggingConnection(final Connection con)
+    public static Connection getLoggingConnection(final Connection con, final LogSQL logger)
+    '''
 def setSQLLogger():
-'''public void setSQLLogger(final LogSQL logger)
-'''
-pass
+    '''    public void setSQLLogger(final LogSQL logger)
+    '''
 def clearWarnings():
-'''public void clearWarnings()
-'''
-pass
+    '''    public void clearWarnings()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def createArrayOf():
-'''public Array createArrayOf(final String typeName, final Object[] elements)
-'''
-pass
+    '''    public Array createArrayOf(final String typeName, final Object[] elements)
+    '''
 def createBlob():
-'''public Blob createBlob()
-'''
-pass
+    '''    public Blob createBlob()
+    '''
 def createClob():
-'''public Clob createClob()
-'''
-pass
+    '''    public Clob createClob()
+    '''
 def createNClob():
-'''public NClob createNClob()
-'''
-pass
+    '''    public NClob createNClob()
+    '''
 def createSQLXML():
-'''public SQLXML createSQLXML()
-'''
-pass
+    '''    public SQLXML createSQLXML()
+    '''
 def createStatement():
-'''public Statement createStatement()
-public Statement createStatement(final int resultSetType, final int resultSetConcurrency)
-public Statement createStatement(final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability)
-'''
-pass
+    '''    public Statement createStatement()
+    public Statement createStatement(final int resultSetType, final int resultSetConcurrency)
+    public Statement createStatement(final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability)
+    '''
 def createStruct():
-'''public Struct createStruct(final String typeName, final Object[] attributes)
-'''
-pass
+    '''    public Struct createStruct(final String typeName, final Object[] attributes)
+    '''
 def getAutoCommit():
-'''public boolean getAutoCommit()
-'''
-pass
+    '''    public boolean getAutoCommit()
+    '''
 def getCatalog():
-'''public String getCatalog()
-'''
-pass
+    '''    public String getCatalog()
+    '''
 def getClientInfo():
-'''public Properties getClientInfo()
-public String getClientInfo(final String name)
-'''
-pass
+    '''    public Properties getClientInfo()
+    public String getClientInfo(final String name)
+    '''
 def getHoldability():
-'''public int getHoldability()
-'''
-pass
+    '''    public int getHoldability()
+    '''
 def getMetaData():
-'''public DatabaseMetaData getMetaData()
-'''
-pass
+    '''    public DatabaseMetaData getMetaData()
+    '''
 def getTransactionIsolation():
-'''public int getTransactionIsolation()
-'''
-pass
+    '''    public int getTransactionIsolation()
+    '''
 def getWarnings():
-'''public SQLWarning getWarnings()
-'''
-pass
+    '''    public SQLWarning getWarnings()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''
 def isValid():
-'''public boolean isValid(final int timeout)
-'''
-pass
+    '''    public boolean isValid(final int timeout)
+    '''
 def nativeSQL():
-'''public String nativeSQL(final String sql)
-'''
-pass
+    '''    public String nativeSQL(final String sql)
+    '''
 def prepareCall():
-'''public CallableStatement prepareCall(final String sql)
-public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency)
-public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability)
-'''
-pass
+    '''    public CallableStatement prepareCall(final String sql)
+    public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency)
+    public CallableStatement prepareCall(final String sql, final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability)
+    '''
 def prepareStatement():
-'''public PreparedStatement prepareStatement(final String sql)
-public PreparedStatement prepareStatement(final String sql, final int autoGeneratedKeys)
-public PreparedStatement prepareStatement(final String sql, final int[] columnIndexes)
-public PreparedStatement prepareStatement(final String sql, final String[] columnNames)
-public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency)
-public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability)
-'''
-pass
+    '''    public PreparedStatement prepareStatement(final String sql)
+    public PreparedStatement prepareStatement(final String sql, final int autoGeneratedKeys)
+    public PreparedStatement prepareStatement(final String sql, final int[] columnIndexes)
+    public PreparedStatement prepareStatement(final String sql, final String[] columnNames)
+    public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency)
+    public PreparedStatement prepareStatement(final String sql, final int resultSetType, final int resultSetConcurrency, final int resultSetHoldability)
+    '''
 def releaseSavepoint():
-'''public void releaseSavepoint(final Savepoint savepoint)
-'''
-pass
+    '''    public void releaseSavepoint(final Savepoint savepoint)
+    '''
 def rollback():
-'''public void rollback()
-public void rollback(final Savepoint savepoint)
-'''
-pass
+    '''    public void rollback()
+    public void rollback(final Savepoint savepoint)
+    '''
 def setAutoCommit():
-'''public void setAutoCommit(final boolean autoCommit)
-'''
-pass
+    '''    public void setAutoCommit(final boolean autoCommit)
+    '''
 def setCatalog():
-'''public void setCatalog(final String catalog)
-'''
-pass
+    '''    public void setCatalog(final String catalog)
+    '''
 def setClientInfo():
-'''public void setClientInfo(final Properties properties)
-public void setClientInfo(final String name, final String value)
-'''
-pass
+    '''    public void setClientInfo(final Properties properties)
+    public void setClientInfo(final String name, final String value)
+    '''
 def setHoldability():
-'''public void setHoldability(final int holdability)
-'''
-pass
+    '''    public void setHoldability(final int holdability)
+    '''
 def setReadOnly():
-'''public void setReadOnly(final boolean readOnly)
-'''
-pass
+    '''    public void setReadOnly(final boolean readOnly)
+    '''
 def setSavepoint():
-'''public Savepoint setSavepoint()
-public Savepoint setSavepoint(final String name)
-'''
-pass
+    '''    public Savepoint setSavepoint()
+    public Savepoint setSavepoint(final String name)
+    '''
 def setTransactionIsolation():
-'''public void setTransactionIsolation(final int level)
-'''
-pass
+    '''    public void setTransactionIsolation(final int level)
+    '''
 def setTypeMap():
-'''public void setTypeMap(final Map<String, Class<?>> map)
-'''
-pass
+    '''    public void setTypeMap(final Map<String, Class<?>> map)
+    '''
 def isWrapperFor():
-'''public boolean isWrapperFor(final Class<?> iface)
-'''
-pass
+    '''    public boolean isWrapperFor(final Class<?> iface)
+    '''
 def unwrap():
-'''public <T> T unwrap(final Class<T> iface)
-'''
-pass
+    '''    public <T> T unwrap(final Class<T> iface)
+    '''
 def setNetworkTimeout():
-'''public void setNetworkTimeout(final Executor executor, final int milliseconds)
-'''
-pass
+    '''    public void setNetworkTimeout(final Executor executor, final int milliseconds)
+    '''
 def getNetworkTimeout():
-'''public int getNetworkTimeout()
-'''
-pass
+    '''    public int getNetworkTimeout()
+    '''
 def setSchema():
-'''public void setSchema(final String schema)
-'''
-pass
+    '''    public void setSchema(final String schema)
+    '''
 def getSchema():
-'''public String getSchema()
-'''
-pass
+    '''    public String getSchema()
+    '''
 def abort():
-'''public void abort(final Executor executor)
-'''
-pass
+    '''    public void abort(final Executor executor)
+    '''

@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def build():
-'''public DenyAllFilter build()
-'''
-pass
+    '''    public DenyAllFilter build()
+    '''

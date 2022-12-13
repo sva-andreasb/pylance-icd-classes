@@ -1,4 +1,3 @@
 def FileNotSupportedException():
-'''public FileNotSupportedException(final FileType fileType)
-'''
-pass
+    '''    public FileNotSupportedException(final FileType fileType)
+    '''

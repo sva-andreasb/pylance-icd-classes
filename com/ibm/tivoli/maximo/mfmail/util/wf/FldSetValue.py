@@ -1,16 +1,12 @@
 def FldSetValue():
-'''public FldSetValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSetValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

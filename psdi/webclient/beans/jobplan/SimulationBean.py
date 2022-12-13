@@ -1,8 +1,6 @@
 def calculate():
-'''public int calculate()
-'''
-pass
+    '''    public int calculate()
+    '''
 def simulate():
-'''public int simulate()
-'''
-pass
+    '''    public int simulate()
+    '''

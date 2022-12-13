@@ -1,61 +1,46 @@
 def InvoiceCost():
-'''public InvoiceCost(final MboSet ms)
-'''
-pass
+    '''    public InvoiceCost(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def clearInvCostPOLine():
-'''public void clearInvCostPOLine()
-'''
-pass
+    '''    public void clearInvCostPOLine()
+    '''
 def createReceipt():
-'''public MboRemote createReceipt()
-'''
-pass
+    '''    public MboRemote createReceipt()
+    '''
 def createReceiptForProrate():
-'''public void createReceiptForProrate()
-'''
-pass
+    '''    public void createReceiptForProrate()
+    '''
 def hasReceipt():
-'''public boolean hasReceipt()
-'''
-pass
+    '''    public boolean hasReceipt()
+    '''
 def writeToInvoiceMatch():
-'''public MboRemote writeToInvoiceMatch(final MboRemote receipt, final double qty, final double cost)
-public MboRemote writeToInvoiceMatch(final MboRemote receipt)
-'''
-pass
+    '''    public MboRemote writeToInvoiceMatch(final MboRemote receipt, final double qty, final double cost)
+    public MboRemote writeToInvoiceMatch(final MboRemote receipt)
+    '''
 def setReadonly():
-'''public void setReadonly()
-'''
-pass
+    '''    public void setReadonly()
+    '''
 def isEditabilitySetByPO():
-'''public boolean isEditabilitySetByPO()
-'''
-pass
+    '''    public boolean isEditabilitySetByPO()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def checkWOAssetLocGLDebitForCost():
-'''public void checkWOAssetLocGLDebitForCost()
-'''
-pass
+    '''    public void checkWOAssetLocGLDebitForCost()
+    '''

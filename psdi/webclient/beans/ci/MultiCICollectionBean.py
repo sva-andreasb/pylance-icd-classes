@@ -1,8 +1,6 @@
 def MultiCICollectionBean():
-'''public MultiCICollectionBean()
-'''
-pass
+    '''    public MultiCICollectionBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

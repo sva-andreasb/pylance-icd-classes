@@ -1,4 +1,3 @@
 def CDUIRemoteDiagnosticActionHandler():
-'''public CDUIRemoteDiagnosticActionHandler()
-'''
-pass
+    '''    public CDUIRemoteDiagnosticActionHandler()
+    '''

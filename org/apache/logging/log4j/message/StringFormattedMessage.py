@@ -1,33 +1,25 @@
 def StringFormattedMessage():
-'''public StringFormattedMessage(final Locale locale, final String messagePattern, final Object... arguments)
-public StringFormattedMessage(final String messagePattern, final Object... arguments)
-'''
-pass
+    '''    public StringFormattedMessage(final Locale locale, final String messagePattern, final Object... arguments)
+    public StringFormattedMessage(final String messagePattern, final Object... arguments)
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''

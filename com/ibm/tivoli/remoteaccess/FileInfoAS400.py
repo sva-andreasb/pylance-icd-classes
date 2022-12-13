@@ -1,8 +1,6 @@
 def FileInfoAS400():
-'''public FileInfoAS400()
-'''
-pass
+    '''    public FileInfoAS400()
+    '''
 def getCCSID():
-'''public int getCCSID()
-'''
-pass
+    '''    public int getCCSID()
+    '''

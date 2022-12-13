@@ -1,17 +1,13 @@
 def MetaSchemaGenerator():
-'''public MetaSchemaGenerator()
-public MetaSchemaGenerator(final Map<String, Element> schemaElements)
-'''
-pass
+    '''    public MetaSchemaGenerator()
+    public MetaSchemaGenerator(final Map<String, Element> schemaElements)
+    '''
 def getSchemaFileName():
-'''public String getSchemaFileName()
-'''
-pass
+    '''    public String getSchemaFileName()
+    '''
 def getSchemaFolder():
-'''public File getSchemaFolder()
-'''
-pass
+    '''    public File getSchemaFolder()
+    '''
 def getSchemaUrl():
-'''public String getSchemaUrl()
-'''
-pass
+    '''    public String getSchemaUrl()
+    '''

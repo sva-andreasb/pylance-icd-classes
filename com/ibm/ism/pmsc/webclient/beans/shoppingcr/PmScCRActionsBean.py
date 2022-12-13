@@ -1,29 +1,22 @@
-COPYRIGHT = "String  IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def PmScCRActionsBean():
-'''public PmScCRActionsBean()
-'''
-pass
+    '''    public PmScCRActionsBean()
+    '''
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''
 def createtmplt():
-'''public int createtmplt()
-'''
-pass
+    '''    public int createtmplt()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def showattributes():
-'''public int showattributes()
-'''
-pass
+    '''    public int showattributes()
+    '''
 def servicelog2():
-'''public int servicelog2()
-'''
-pass
+    '''    public int servicelog2()
+    '''
 def checkMandatoryFields():
-'''public String checkMandatoryFields(final PmScCRRemote cart, final ArrayList<?> newSRs, final boolean findAll, final boolean addingToCart)
-'''
-pass
+    '''    public String checkMandatoryFields(final PmScCRRemote cart, final ArrayList<?> newSRs, final boolean findAll, final boolean addingToCart)
+    '''

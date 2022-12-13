@@ -1,38 +1,29 @@
 def WrappedTextNodeOMDataSourceFromDataSource():
-'''public WrappedTextNodeOMDataSourceFromDataSource(final QName wrapperElementName, final DataSource binaryData, final Charset charset)
-'''
-pass
+    '''    public WrappedTextNodeOMDataSourceFromDataSource(final QName wrapperElementName, final DataSource binaryData, final Charset charset)
+    '''
 def serialize():
-'''public void serialize(final OutputStream out, final OMOutputFormat format)
-public void serialize(final Writer writer, final OMOutputFormat format)
-public void serialize(final XMLStreamWriter xmlWriter)
-'''
-pass
+    '''    public void serialize(final OutputStream out, final OMOutputFormat format)
+    public void serialize(final Writer writer, final OMOutputFormat format)
+    public void serialize(final XMLStreamWriter xmlWriter)
+    '''
 def getReader():
-'''public XMLStreamReader getReader()
-'''
-pass
+    '''    public XMLStreamReader getReader()
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''
 def isDestructiveRead():
-'''public boolean isDestructiveRead()
-'''
-pass
+    '''    public boolean isDestructiveRead()
+    '''
 def isDestructiveWrite():
-'''public boolean isDestructiveWrite()
-'''
-pass
+    '''    public boolean isDestructiveWrite()
+    '''
 def getXMLBytes():
-'''public byte[] getXMLBytes(final String encoding)
-'''
-pass
+    '''    public byte[] getXMLBytes(final String encoding)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def copy():
-'''public OMDataSourceExt copy()
-'''
-pass
+    '''    public OMDataSourceExt copy()
+    '''

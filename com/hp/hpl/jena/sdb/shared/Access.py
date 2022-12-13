@@ -1,8 +1,6 @@
 def getUser():
-'''public static String getUser()
-'''
-pass
+    '''    public static String getUser()
+    '''
 def getPassword():
-'''public static String getPassword()
-'''
-pass
+    '''    public static String getPassword()
+    '''

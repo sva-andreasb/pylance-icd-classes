@@ -1,20 +1,15 @@
 def Params():
-'''public Params()
-'''
-pass
+    '''    public Params()
+    '''
 def get():
-'''public String get(final String key)
-'''
-pass
+    '''    public String get(final String key)
+    '''
 def put():
-'''public void put(final String key, final String value)
-'''
-pass
+    '''    public void put(final String key, final String value)
+    '''
 def iterator():
-'''public Iterator<String> iterator()
-'''
-pass
+    '''    public Iterator<String> iterator()
+    '''
 def getBackingMap():
-'''public Map<String, String> getBackingMap()
-'''
-pass
+    '''    public Map<String, String> getBackingMap()
+    '''

@@ -1,4 +1,3 @@
 def throw_error():
-'''public void throw_error(final int i)
-'''
-pass
+    '''    public void throw_error(final int i)
+    '''

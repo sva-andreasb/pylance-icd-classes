@@ -1,12 +1,9 @@
 def RfcAttributeValueAssertion():
-'''public RfcAttributeValueAssertion(final RfcAttributeDescription rfcAttributeDescription, final RfcAssertionValue rfcAssertionValue)
-'''
-pass
+    '''    public RfcAttributeValueAssertion(final RfcAttributeDescription rfcAttributeDescription, final RfcAssertionValue rfcAssertionValue)
+    '''
 def getAttributeDescription():
-'''public String getAttributeDescription()
-'''
-pass
+    '''    public String getAttributeDescription()
+    '''
 def getAssertionValue():
-'''public byte[] getAssertionValue()
-'''
-pass
+    '''    public byte[] getAssertionValue()
+    '''

@@ -1,49 +1,37 @@
 def ObjectBuffer():
-'''public ObjectBuffer()
-public ObjectBuffer(final int n)
-'''
-pass
+    '''    public ObjectBuffer()
+    public ObjectBuffer(final int n)
+    '''
 def add():
-'''public void add(final Object o)
-'''
-pass
+    '''    public void add(final Object o)
+    '''
 def set():
-'''public void set(final int n, final Object o)
-'''
-pass
+    '''    public void set(final int n, final Object o)
+    '''
 def get():
-'''public Object get(final int n)
-'''
-pass
+    '''    public Object get(final int n)
+    '''
 def getFirst():
-'''public Object getFirst()
-'''
-pass
+    '''    public Object getFirst()
+    '''
 def getLast():
-'''public Object getLast()
-'''
-pass
+    '''    public Object getLast()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def limit():
-'''public int limit()
-'''
-pass
+    '''    public int limit()
+    '''
 def remaining():
-'''public int remaining()
-'''
-pass
+    '''    public int remaining()
+    '''
 def position():
-'''public int position()
-'''
-pass
+    '''    public int position()
+    '''
 def grow():
-'''public int grow()
-'''
-pass
+    '''    public int grow()
+    '''
 def addAll():
-'''public void addAll(final Buffer buffer)
-'''
-pass
+    '''    public void addAll(final Buffer buffer)
+    '''

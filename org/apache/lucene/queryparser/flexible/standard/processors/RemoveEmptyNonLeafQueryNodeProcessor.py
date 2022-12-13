@@ -1,8 +1,6 @@
 def RemoveEmptyNonLeafQueryNodeProcessor():
-'''public RemoveEmptyNonLeafQueryNodeProcessor()
-'''
-pass
+    '''    public RemoveEmptyNonLeafQueryNodeProcessor()
+    '''
 def process():
-'''public QueryNode process(QueryNode queryTree)
-'''
-pass
+    '''    public QueryNode process(QueryNode queryTree)
+    '''

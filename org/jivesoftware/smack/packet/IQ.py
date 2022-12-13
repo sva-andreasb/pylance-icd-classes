@@ -1,37 +1,28 @@
 def IQ():
-'''public IQ()
-'''
-pass
+    '''    public IQ()
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def createResultIQ():
-'''public static IQ createResultIQ(final IQ request)
-'''
-pass
+    '''    public static IQ createResultIQ(final IQ request)
+    '''
 def getChildElementXML():
-'''public String getChildElementXML()
-public String getChildElementXML()
-'''
-pass
+    '''    public String getChildElementXML()
+    public String getChildElementXML()
+    '''
 def createErrorResponse():
-'''public static IQ createErrorResponse(final IQ request, final XMPPError error)
-'''
-pass
+    '''    public static IQ createErrorResponse(final IQ request, final XMPPError error)
+    '''
 def fromString():
-'''public static Type fromString(String type)
-'''
-pass
+    '''    public static Type fromString(String type)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

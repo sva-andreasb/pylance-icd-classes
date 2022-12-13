@@ -1,16 +1,12 @@
 def InvitationRequest():
-'''public InvitationRequest(final EntityJid inviter, final EntityBareJid room, final String reason)
-'''
-pass
+    '''    public InvitationRequest(final EntityJid inviter, final EntityBareJid room, final String reason)
+    '''
 def getInviter():
-'''public EntityJid getInviter()
-'''
-pass
+    '''    public EntityJid getInviter()
+    '''
 def getRoom():
-'''public EntityBareJid getRoom()
-'''
-pass
+    '''    public EntityBareJid getRoom()
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''

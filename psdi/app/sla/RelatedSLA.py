@@ -1,8 +1,6 @@
 def RelatedSLA():
-'''public RelatedSLA(final MboSet ms)
-'''
-pass
+    '''    public RelatedSLA(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

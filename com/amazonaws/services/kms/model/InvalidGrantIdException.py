@@ -1,4 +1,3 @@
 def InvalidGrantIdException():
-'''public InvalidGrantIdException(final String message)
-'''
-pass
+    '''    public InvalidGrantIdException(final String message)
+    '''

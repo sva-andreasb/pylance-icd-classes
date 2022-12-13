@@ -1,12 +1,9 @@
 def AbstractOmemoIntegrationTest():
-'''public AbstractOmemoIntegrationTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public AbstractOmemoIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def beforeTest():
-'''public void beforeTest()
-'''
-pass
+    '''    public void beforeTest()
+    '''
 def afterTest():
-'''public void afterTest()
-'''
-pass
+    '''    public void afterTest()
+    '''

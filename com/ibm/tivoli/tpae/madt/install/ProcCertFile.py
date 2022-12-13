@@ -1,60 +1,45 @@
 def ProcCertFile():
-'''public ProcCertFile()
-'''
-pass
+    '''    public ProcCertFile()
+    '''
 def getIndSolnVersion():
-'''public String getIndSolnVersion()
-'''
-pass
+    '''    public String getIndSolnVersion()
+    '''
 def getIndSolnMaxVersion():
-'''public String getIndSolnMaxVersion()
-'''
-pass
+    '''    public String getIndSolnMaxVersion()
+    '''
 def isMaxVersion():
-'''public boolean isMaxVersion()
-'''
-pass
+    '''    public boolean isMaxVersion()
+    '''
 def isIndSolnInCertFile():
-'''public boolean isIndSolnInCertFile()
-'''
-pass
+    '''    public boolean isIndSolnInCertFile()
+    '''
 def isIndSolnVersionInCertFile():
-'''public boolean isIndSolnVersionInCertFile()
-'''
-pass
+    '''    public boolean isIndSolnVersionInCertFile()
+    '''
 def getIndSolnUUID():
-'''public String[] getIndSolnUUID()
-'''
-pass
+    '''    public String[] getIndSolnUUID()
+    '''
 def getIndSolnLongName():
-'''public String getIndSolnLongName()
-'''
-pass
+    '''    public String getIndSolnLongName()
+    '''
 def getIndSolnNeedUpdateDB():
-'''public String getIndSolnNeedUpdateDB()
-'''
-pass
+    '''    public String getIndSolnNeedUpdateDB()
+    '''
 def getIndSolnNeedTDT():
-'''public String getIndSolnNeedTDT()
-'''
-pass
+    '''    public String getIndSolnNeedTDT()
+    '''
 def getIndSolnNeedBuild():
-'''public String getIndSolnNeedBuild()
-'''
-pass
+    '''    public String getIndSolnNeedBuild()
+    '''
 def getIndSolnNeedDeploy():
-'''public String getIndSolnNeedDeploy()
-'''
-pass
+    '''    public String getIndSolnNeedDeploy()
+    '''
 def getIndSolnSupportMultitenancy():
-'''public String getIndSolnSupportMultitenancy()
-'''
-pass
+    '''    public String getIndSolnSupportMultitenancy()
+    '''
 def getIndSolnInstActions():
-'''public String[] getIndSolnInstActions()
-'''
-pass
+    '''    public String[] getIndSolnInstActions()
+    '''
 def procIndSolnCertFile():
-'''public void procIndSolnCertFile(final String[] array)
-'''
-pass
+    '''    public void procIndSolnCertFile(final String[] array)
+    '''

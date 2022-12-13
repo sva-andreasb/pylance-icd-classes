@@ -3,22 +3,17 @@ STATE_SENTINEL_DATA = "int  1"
 STATE_LENGTH = "int  2"
 STATE_DATA = "int  3"
 def WebSocketParserD00():
-'''public WebSocketParserD00(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler)
-'''
-pass
+    '''    public WebSocketParserD00(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler)
+    '''
 def isBufferEmpty():
-'''public boolean isBufferEmpty()
-'''
-pass
+    '''    public boolean isBufferEmpty()
+    '''
 def getBuffer():
-'''public Buffer getBuffer()
-'''
-pass
+    '''    public Buffer getBuffer()
+    '''
 def parseNext():
-'''public int parseNext()
-'''
-pass
+    '''    public int parseNext()
+    '''
 def fill():
-'''public void fill(final Buffer buffer)
-'''
-pass
+    '''    public void fill(final Buffer buffer)
+    '''

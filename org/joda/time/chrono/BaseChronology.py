@@ -1,165 +1,125 @@
 def getDateTimeMillis():
-'''public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
-public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-public long getDateTimeMillis(long n, final int n2, final int n3, final int n4, final int n5)
-'''
-pass
+    '''    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
+    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
+    public long getDateTimeMillis(long n, final int n2, final int n3, final int n4, final int n5)
+    '''
 def validate():
-'''public void validate(final ReadablePartial readablePartial, final int[] array)
-'''
-pass
+    '''    public void validate(final ReadablePartial readablePartial, final int[] array)
+    '''
 def get():
-'''public int[] get(final ReadablePartial readablePartial, final long n)
-public int[] get(final ReadablePeriod readablePeriod, long add, final long n)
-public int[] get(final ReadablePeriod readablePeriod, final long n)
-'''
-pass
+    '''    public int[] get(final ReadablePartial readablePartial, final long n)
+    public int[] get(final ReadablePeriod readablePeriod, long add, final long n)
+    public int[] get(final ReadablePeriod readablePeriod, final long n)
+    '''
 def set():
-'''public long set(final ReadablePartial readablePartial, long set)
-'''
-pass
+    '''    public long set(final ReadablePartial readablePartial, long set)
+    '''
 def add():
-'''public long add(final ReadablePeriod readablePeriod, long add, final int n)
-public long add(final long n, final long n2, final int n3)
-'''
-pass
+    '''    public long add(final ReadablePeriod readablePeriod, long add, final int n)
+    public long add(final long n, final long n2, final int n3)
+    '''
 def millis():
-'''public DurationField millis()
-'''
-pass
+    '''    public DurationField millis()
+    '''
 def millisOfSecond():
-'''public DateTimeField millisOfSecond()
-'''
-pass
+    '''    public DateTimeField millisOfSecond()
+    '''
 def millisOfDay():
-'''public DateTimeField millisOfDay()
-'''
-pass
+    '''    public DateTimeField millisOfDay()
+    '''
 def seconds():
-'''public DurationField seconds()
-'''
-pass
+    '''    public DurationField seconds()
+    '''
 def secondOfMinute():
-'''public DateTimeField secondOfMinute()
-'''
-pass
+    '''    public DateTimeField secondOfMinute()
+    '''
 def secondOfDay():
-'''public DateTimeField secondOfDay()
-'''
-pass
+    '''    public DateTimeField secondOfDay()
+    '''
 def minutes():
-'''public DurationField minutes()
-'''
-pass
+    '''    public DurationField minutes()
+    '''
 def minuteOfHour():
-'''public DateTimeField minuteOfHour()
-'''
-pass
+    '''    public DateTimeField minuteOfHour()
+    '''
 def minuteOfDay():
-'''public DateTimeField minuteOfDay()
-'''
-pass
+    '''    public DateTimeField minuteOfDay()
+    '''
 def hours():
-'''public DurationField hours()
-'''
-pass
+    '''    public DurationField hours()
+    '''
 def hourOfDay():
-'''public DateTimeField hourOfDay()
-'''
-pass
+    '''    public DateTimeField hourOfDay()
+    '''
 def clockhourOfDay():
-'''public DateTimeField clockhourOfDay()
-'''
-pass
+    '''    public DateTimeField clockhourOfDay()
+    '''
 def halfdays():
-'''public DurationField halfdays()
-'''
-pass
+    '''    public DurationField halfdays()
+    '''
 def hourOfHalfday():
-'''public DateTimeField hourOfHalfday()
-'''
-pass
+    '''    public DateTimeField hourOfHalfday()
+    '''
 def clockhourOfHalfday():
-'''public DateTimeField clockhourOfHalfday()
-'''
-pass
+    '''    public DateTimeField clockhourOfHalfday()
+    '''
 def halfdayOfDay():
-'''public DateTimeField halfdayOfDay()
-'''
-pass
+    '''    public DateTimeField halfdayOfDay()
+    '''
 def days():
-'''public DurationField days()
-'''
-pass
+    '''    public DurationField days()
+    '''
 def dayOfWeek():
-'''public DateTimeField dayOfWeek()
-'''
-pass
+    '''    public DateTimeField dayOfWeek()
+    '''
 def dayOfMonth():
-'''public DateTimeField dayOfMonth()
-'''
-pass
+    '''    public DateTimeField dayOfMonth()
+    '''
 def dayOfYear():
-'''public DateTimeField dayOfYear()
-'''
-pass
+    '''    public DateTimeField dayOfYear()
+    '''
 def weeks():
-'''public DurationField weeks()
-'''
-pass
+    '''    public DurationField weeks()
+    '''
 def weekOfWeekyear():
-'''public DateTimeField weekOfWeekyear()
-'''
-pass
+    '''    public DateTimeField weekOfWeekyear()
+    '''
 def weekyears():
-'''public DurationField weekyears()
-'''
-pass
+    '''    public DurationField weekyears()
+    '''
 def weekyear():
-'''public DateTimeField weekyear()
-'''
-pass
+    '''    public DateTimeField weekyear()
+    '''
 def weekyearOfCentury():
-'''public DateTimeField weekyearOfCentury()
-'''
-pass
+    '''    public DateTimeField weekyearOfCentury()
+    '''
 def months():
-'''public DurationField months()
-'''
-pass
+    '''    public DurationField months()
+    '''
 def monthOfYear():
-'''public DateTimeField monthOfYear()
-'''
-pass
+    '''    public DateTimeField monthOfYear()
+    '''
 def years():
-'''public DurationField years()
-'''
-pass
+    '''    public DurationField years()
+    '''
 def year():
-'''public DateTimeField year()
-'''
-pass
+    '''    public DateTimeField year()
+    '''
 def yearOfEra():
-'''public DateTimeField yearOfEra()
-'''
-pass
+    '''    public DateTimeField yearOfEra()
+    '''
 def yearOfCentury():
-'''public DateTimeField yearOfCentury()
-'''
-pass
+    '''    public DateTimeField yearOfCentury()
+    '''
 def centuries():
-'''public DurationField centuries()
-'''
-pass
+    '''    public DurationField centuries()
+    '''
 def centuryOfEra():
-'''public DateTimeField centuryOfEra()
-'''
-pass
+    '''    public DateTimeField centuryOfEra()
+    '''
 def eras():
-'''public DurationField eras()
-'''
-pass
+    '''    public DurationField eras()
+    '''
 def era():
-'''public DateTimeField era()
-'''
-pass
+    '''    public DateTimeField era()
+    '''

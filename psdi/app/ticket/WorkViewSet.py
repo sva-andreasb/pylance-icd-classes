@@ -1,8 +1,6 @@
 def WorkViewSet():
-'''public WorkViewSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WorkViewSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

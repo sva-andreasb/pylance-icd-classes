@@ -1,8 +1,6 @@
 def ActCIRelation():
-'''public ActCIRelation(final MboSet ms)
-'''
-pass
+    '''    public ActCIRelation(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

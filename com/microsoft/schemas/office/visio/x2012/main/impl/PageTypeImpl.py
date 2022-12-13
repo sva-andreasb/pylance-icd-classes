@@ -1,316 +1,237 @@
 def PageTypeImpl():
-'''public PageTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public PageTypeImpl(final SchemaType schemaType)
+    '''
 def getPageSheet():
-'''public PageSheetType getPageSheet()
-'''
-pass
+    '''    public PageSheetType getPageSheet()
+    '''
 def isSetPageSheet():
-'''public boolean isSetPageSheet()
-'''
-pass
+    '''    public boolean isSetPageSheet()
+    '''
 def setPageSheet():
-'''public void setPageSheet(final PageSheetType pageSheetType)
-'''
-pass
+    '''    public void setPageSheet(final PageSheetType pageSheetType)
+    '''
 def addNewPageSheet():
-'''public PageSheetType addNewPageSheet()
-'''
-pass
+    '''    public PageSheetType addNewPageSheet()
+    '''
 def unsetPageSheet():
-'''public void unsetPageSheet()
-'''
-pass
+    '''    public void unsetPageSheet()
+    '''
 def getRel():
-'''public RelType getRel()
-'''
-pass
+    '''    public RelType getRel()
+    '''
 def setRel():
-'''public void setRel(final RelType relType)
-'''
-pass
+    '''    public void setRel(final RelType relType)
+    '''
 def addNewRel():
-'''public RelType addNewRel()
-'''
-pass
+    '''    public RelType addNewRel()
+    '''
 def getID():
-'''public long getID()
-'''
-pass
+    '''    public long getID()
+    '''
 def xgetID():
-'''public XmlUnsignedInt xgetID()
-'''
-pass
+    '''    public XmlUnsignedInt xgetID()
+    '''
 def setID():
-'''public void setID(final long longValue)
-'''
-pass
+    '''    public void setID(final long longValue)
+    '''
 def xsetID():
-'''public void xsetID(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetID(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def xgetName():
-'''public XmlString xgetName()
-'''
-pass
+    '''    public XmlString xgetName()
+    '''
 def isSetName():
-'''public boolean isSetName()
-'''
-pass
+    '''    public boolean isSetName()
+    '''
 def setName():
-'''public void setName(final String stringValue)
-'''
-pass
+    '''    public void setName(final String stringValue)
+    '''
 def xsetName():
-'''public void xsetName(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetName(final XmlString xmlString)
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getNameU():
-'''public String getNameU()
-'''
-pass
+    '''    public String getNameU()
+    '''
 def xgetNameU():
-'''public XmlString xgetNameU()
-'''
-pass
+    '''    public XmlString xgetNameU()
+    '''
 def isSetNameU():
-'''public boolean isSetNameU()
-'''
-pass
+    '''    public boolean isSetNameU()
+    '''
 def setNameU():
-'''public void setNameU(final String stringValue)
-'''
-pass
+    '''    public void setNameU(final String stringValue)
+    '''
 def xsetNameU():
-'''public void xsetNameU(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetNameU(final XmlString xmlString)
+    '''
 def unsetNameU():
-'''public void unsetNameU()
-'''
-pass
+    '''    public void unsetNameU()
+    '''
 def getIsCustomName():
-'''public boolean getIsCustomName()
-'''
-pass
+    '''    public boolean getIsCustomName()
+    '''
 def xgetIsCustomName():
-'''public XmlBoolean xgetIsCustomName()
-'''
-pass
+    '''    public XmlBoolean xgetIsCustomName()
+    '''
 def isSetIsCustomName():
-'''public boolean isSetIsCustomName()
-'''
-pass
+    '''    public boolean isSetIsCustomName()
+    '''
 def setIsCustomName():
-'''public void setIsCustomName(final boolean booleanValue)
-'''
-pass
+    '''    public void setIsCustomName(final boolean booleanValue)
+    '''
 def xsetIsCustomName():
-'''public void xsetIsCustomName(final XmlBoolean xmlBoolean)
-'''
-pass
+    '''    public void xsetIsCustomName(final XmlBoolean xmlBoolean)
+    '''
 def unsetIsCustomName():
-'''public void unsetIsCustomName()
-'''
-pass
+    '''    public void unsetIsCustomName()
+    '''
 def getIsCustomNameU():
-'''public boolean getIsCustomNameU()
-'''
-pass
+    '''    public boolean getIsCustomNameU()
+    '''
 def xgetIsCustomNameU():
-'''public XmlBoolean xgetIsCustomNameU()
-'''
-pass
+    '''    public XmlBoolean xgetIsCustomNameU()
+    '''
 def isSetIsCustomNameU():
-'''public boolean isSetIsCustomNameU()
-'''
-pass
+    '''    public boolean isSetIsCustomNameU()
+    '''
 def setIsCustomNameU():
-'''public void setIsCustomNameU(final boolean booleanValue)
-'''
-pass
+    '''    public void setIsCustomNameU(final boolean booleanValue)
+    '''
 def xsetIsCustomNameU():
-'''public void xsetIsCustomNameU(final XmlBoolean xmlBoolean)
-'''
-pass
+    '''    public void xsetIsCustomNameU(final XmlBoolean xmlBoolean)
+    '''
 def unsetIsCustomNameU():
-'''public void unsetIsCustomNameU()
-'''
-pass
+    '''    public void unsetIsCustomNameU()
+    '''
 def getBackground():
-'''public boolean getBackground()
-'''
-pass
+    '''    public boolean getBackground()
+    '''
 def xgetBackground():
-'''public XmlBoolean xgetBackground()
-'''
-pass
+    '''    public XmlBoolean xgetBackground()
+    '''
 def isSetBackground():
-'''public boolean isSetBackground()
-'''
-pass
+    '''    public boolean isSetBackground()
+    '''
 def setBackground():
-'''public void setBackground(final boolean booleanValue)
-'''
-pass
+    '''    public void setBackground(final boolean booleanValue)
+    '''
 def xsetBackground():
-'''public void xsetBackground(final XmlBoolean xmlBoolean)
-'''
-pass
+    '''    public void xsetBackground(final XmlBoolean xmlBoolean)
+    '''
 def unsetBackground():
-'''public void unsetBackground()
-'''
-pass
+    '''    public void unsetBackground()
+    '''
 def getBackPage():
-'''public long getBackPage()
-'''
-pass
+    '''    public long getBackPage()
+    '''
 def xgetBackPage():
-'''public XmlUnsignedInt xgetBackPage()
-'''
-pass
+    '''    public XmlUnsignedInt xgetBackPage()
+    '''
 def isSetBackPage():
-'''public boolean isSetBackPage()
-'''
-pass
+    '''    public boolean isSetBackPage()
+    '''
 def setBackPage():
-'''public void setBackPage(final long longValue)
-'''
-pass
+    '''    public void setBackPage(final long longValue)
+    '''
 def xsetBackPage():
-'''public void xsetBackPage(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetBackPage(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetBackPage():
-'''public void unsetBackPage()
-'''
-pass
+    '''    public void unsetBackPage()
+    '''
 def getViewScale():
-'''public double getViewScale()
-'''
-pass
+    '''    public double getViewScale()
+    '''
 def xgetViewScale():
-'''public XmlDouble xgetViewScale()
-'''
-pass
+    '''    public XmlDouble xgetViewScale()
+    '''
 def isSetViewScale():
-'''public boolean isSetViewScale()
-'''
-pass
+    '''    public boolean isSetViewScale()
+    '''
 def setViewScale():
-'''public void setViewScale(final double doubleValue)
-'''
-pass
+    '''    public void setViewScale(final double doubleValue)
+    '''
 def xsetViewScale():
-'''public void xsetViewScale(final XmlDouble xmlDouble)
-'''
-pass
+    '''    public void xsetViewScale(final XmlDouble xmlDouble)
+    '''
 def unsetViewScale():
-'''public void unsetViewScale()
-'''
-pass
+    '''    public void unsetViewScale()
+    '''
 def getViewCenterX():
-'''public double getViewCenterX()
-'''
-pass
+    '''    public double getViewCenterX()
+    '''
 def xgetViewCenterX():
-'''public XmlDouble xgetViewCenterX()
-'''
-pass
+    '''    public XmlDouble xgetViewCenterX()
+    '''
 def isSetViewCenterX():
-'''public boolean isSetViewCenterX()
-'''
-pass
+    '''    public boolean isSetViewCenterX()
+    '''
 def setViewCenterX():
-'''public void setViewCenterX(final double doubleValue)
-'''
-pass
+    '''    public void setViewCenterX(final double doubleValue)
+    '''
 def xsetViewCenterX():
-'''public void xsetViewCenterX(final XmlDouble xmlDouble)
-'''
-pass
+    '''    public void xsetViewCenterX(final XmlDouble xmlDouble)
+    '''
 def unsetViewCenterX():
-'''public void unsetViewCenterX()
-'''
-pass
+    '''    public void unsetViewCenterX()
+    '''
 def getViewCenterY():
-'''public double getViewCenterY()
-'''
-pass
+    '''    public double getViewCenterY()
+    '''
 def xgetViewCenterY():
-'''public XmlDouble xgetViewCenterY()
-'''
-pass
+    '''    public XmlDouble xgetViewCenterY()
+    '''
 def isSetViewCenterY():
-'''public boolean isSetViewCenterY()
-'''
-pass
+    '''    public boolean isSetViewCenterY()
+    '''
 def setViewCenterY():
-'''public void setViewCenterY(final double doubleValue)
-'''
-pass
+    '''    public void setViewCenterY(final double doubleValue)
+    '''
 def xsetViewCenterY():
-'''public void xsetViewCenterY(final XmlDouble xmlDouble)
-'''
-pass
+    '''    public void xsetViewCenterY(final XmlDouble xmlDouble)
+    '''
 def unsetViewCenterY():
-'''public void unsetViewCenterY()
-'''
-pass
+    '''    public void unsetViewCenterY()
+    '''
 def getReviewerID():
-'''public long getReviewerID()
-'''
-pass
+    '''    public long getReviewerID()
+    '''
 def xgetReviewerID():
-'''public XmlUnsignedInt xgetReviewerID()
-'''
-pass
+    '''    public XmlUnsignedInt xgetReviewerID()
+    '''
 def isSetReviewerID():
-'''public boolean isSetReviewerID()
-'''
-pass
+    '''    public boolean isSetReviewerID()
+    '''
 def setReviewerID():
-'''public void setReviewerID(final long longValue)
-'''
-pass
+    '''    public void setReviewerID(final long longValue)
+    '''
 def xsetReviewerID():
-'''public void xsetReviewerID(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetReviewerID(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetReviewerID():
-'''public void unsetReviewerID()
-'''
-pass
+    '''    public void unsetReviewerID()
+    '''
 def getAssociatedPage():
-'''public long getAssociatedPage()
-'''
-pass
+    '''    public long getAssociatedPage()
+    '''
 def xgetAssociatedPage():
-'''public XmlUnsignedInt xgetAssociatedPage()
-'''
-pass
+    '''    public XmlUnsignedInt xgetAssociatedPage()
+    '''
 def isSetAssociatedPage():
-'''public boolean isSetAssociatedPage()
-'''
-pass
+    '''    public boolean isSetAssociatedPage()
+    '''
 def setAssociatedPage():
-'''public void setAssociatedPage(final long longValue)
-'''
-pass
+    '''    public void setAssociatedPage(final long longValue)
+    '''
 def xsetAssociatedPage():
-'''public void xsetAssociatedPage(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetAssociatedPage(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetAssociatedPage():
-'''public void unsetAssociatedPage()
-'''
-pass
+    '''    public void unsetAssociatedPage()
+    '''

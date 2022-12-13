@@ -1,28 +1,21 @@
 def PackagePartCollection():
-'''public PackagePartCollection()
-'''
-pass
+    '''    public PackagePartCollection()
+    '''
 def put():
-'''public PackagePart put(final PackagePartName partName, final PackagePart part)
-'''
-pass
+    '''    public PackagePart put(final PackagePartName partName, final PackagePart part)
+    '''
 def remove():
-'''public PackagePart remove(final PackagePartName key)
-'''
-pass
+    '''    public PackagePart remove(final PackagePartName key)
+    '''
 def sortedValues():
-'''public Collection<PackagePart> sortedValues()
-'''
-pass
+    '''    public Collection<PackagePart> sortedValues()
+    '''
 def containsKey():
-'''public boolean containsKey(final PackagePartName partName)
-'''
-pass
+    '''    public boolean containsKey(final PackagePartName partName)
+    '''
 def get():
-'''public PackagePart get(final PackagePartName partName)
-'''
-pass
+    '''    public PackagePart get(final PackagePartName partName)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''

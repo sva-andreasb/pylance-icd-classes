@@ -1,16 +1,12 @@
 def getQueueListJson():
-'''public String getQueueListJson()
-'''
-pass
+    '''    public String getQueueListJson()
+    '''
 def closeChat():
-'''public int closeChat()
-'''
-pass
+    '''    public int closeChat()
+    '''
 def getEndUserDisplayName():
-'''public String getEndUserDisplayName()
-'''
-pass
+    '''    public String getEndUserDisplayName()
+    '''
 def getEndUserClientId():
-'''public String getEndUserClientId()
-'''
-pass
+    '''    public String getEndUserClientId()
+    '''

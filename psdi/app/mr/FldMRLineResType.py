@@ -1,8 +1,6 @@
 def FldMRLineResType():
-'''public FldMRLineResType(final MboValue mbv)
-'''
-pass
+    '''    public FldMRLineResType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

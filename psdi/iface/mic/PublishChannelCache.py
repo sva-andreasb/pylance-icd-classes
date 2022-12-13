@@ -1,32 +1,24 @@
 def getPublishInfo():
-'''public PublishInfo getPublishInfo(final String pubChannelName)
-'''
-pass
+    '''    public PublishInfo getPublishInfo(final String pubChannelName)
+    '''
 def getChannelsForIfaceTb():
-'''public List<String> getChannelsForIfaceTb(final String ifacetbName)
-'''
-pass
+    '''    public List<String> getChannelsForIfaceTb(final String ifacetbName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstance():
-'''public static final PublishChannelCache getInstance()
-'''
-pass
+    '''    public static final PublishChannelCache getInstance()
+    '''
 def getPublishChannel():
-'''public PublishChannel getPublishChannel(final String pubChannelName)
-'''
-pass
+    '''    public PublishChannel getPublishChannel(final String pubChannelName)
+    '''
 def getPublishChannelMap():
-'''public Map<String, PublishChannel> getPublishChannelMap()
-'''
-pass
+    '''    public Map<String, PublishChannel> getPublishChannelMap()
+    '''
 def unregisterAllListeners():
-'''public void unregisterAllListeners()
-'''
-pass
+    '''    public void unregisterAllListeners()
+    '''
 def unregisterListeners():
-'''public void unregisterListeners(final String pubChannelName)
-'''
-pass
+    '''    public void unregisterListeners(final String pubChannelName)
+    '''

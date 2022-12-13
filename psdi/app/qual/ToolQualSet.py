@@ -1,4 +1,3 @@
 def ToolQualSet():
-'''public ToolQualSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ToolQualSet(final MboServerInterface ms)
+    '''

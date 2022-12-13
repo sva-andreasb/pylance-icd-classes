@@ -1,24 +1,18 @@
 def DateInterval():
-'''public DateInterval(final long from, final long to)
-'''
-pass
+    '''    public DateInterval(final long from, final long to)
+    '''
 def getFromDate():
-'''public long getFromDate()
-'''
-pass
+    '''    public long getFromDate()
+    '''
 def getToDate():
-'''public long getToDate()
-'''
-pass
+    '''    public long getToDate()
+    '''
 def equals():
-'''public boolean equals(final Object a)
-'''
-pass
+    '''    public boolean equals(final Object a)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

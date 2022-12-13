@@ -1,4 +1,3 @@
 def getApi():
-'''public static INrsApi getApi()
-'''
-pass
+    '''    public static INrsApi getApi()
+    '''

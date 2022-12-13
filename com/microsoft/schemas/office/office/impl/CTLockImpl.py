@@ -1,244 +1,183 @@
 def CTLockImpl():
-'''public CTLockImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public CTLockImpl(final SchemaType schemaType)
+    '''
 def xgetExt():
-'''public STExt xgetExt()
-'''
-pass
+    '''    public STExt xgetExt()
+    '''
 def isSetExt():
-'''public boolean isSetExt()
-'''
-pass
+    '''    public boolean isSetExt()
+    '''
 def setExt():
-'''public void setExt(final STExt.Enum enumValue)
-'''
-pass
+    '''    public void setExt(final STExt.Enum enumValue)
+    '''
 def xsetExt():
-'''public void xsetExt(final STExt stExt)
-'''
-pass
+    '''    public void xsetExt(final STExt stExt)
+    '''
 def unsetExt():
-'''public void unsetExt()
-'''
-pass
+    '''    public void unsetExt()
+    '''
 def xgetPosition():
-'''public STTrueFalse xgetPosition()
-'''
-pass
+    '''    public STTrueFalse xgetPosition()
+    '''
 def isSetPosition():
-'''public boolean isSetPosition()
-'''
-pass
+    '''    public boolean isSetPosition()
+    '''
 def setPosition():
-'''public void setPosition(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setPosition(final STTrueFalse.Enum enumValue)
+    '''
 def xsetPosition():
-'''public void xsetPosition(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetPosition(final STTrueFalse stTrueFalse)
+    '''
 def unsetPosition():
-'''public void unsetPosition()
-'''
-pass
+    '''    public void unsetPosition()
+    '''
 def xgetSelection():
-'''public STTrueFalse xgetSelection()
-'''
-pass
+    '''    public STTrueFalse xgetSelection()
+    '''
 def isSetSelection():
-'''public boolean isSetSelection()
-'''
-pass
+    '''    public boolean isSetSelection()
+    '''
 def setSelection():
-'''public void setSelection(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setSelection(final STTrueFalse.Enum enumValue)
+    '''
 def xsetSelection():
-'''public void xsetSelection(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetSelection(final STTrueFalse stTrueFalse)
+    '''
 def unsetSelection():
-'''public void unsetSelection()
-'''
-pass
+    '''    public void unsetSelection()
+    '''
 def xgetGrouping():
-'''public STTrueFalse xgetGrouping()
-'''
-pass
+    '''    public STTrueFalse xgetGrouping()
+    '''
 def isSetGrouping():
-'''public boolean isSetGrouping()
-'''
-pass
+    '''    public boolean isSetGrouping()
+    '''
 def setGrouping():
-'''public void setGrouping(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setGrouping(final STTrueFalse.Enum enumValue)
+    '''
 def xsetGrouping():
-'''public void xsetGrouping(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetGrouping(final STTrueFalse stTrueFalse)
+    '''
 def unsetGrouping():
-'''public void unsetGrouping()
-'''
-pass
+    '''    public void unsetGrouping()
+    '''
 def xgetUngrouping():
-'''public STTrueFalse xgetUngrouping()
-'''
-pass
+    '''    public STTrueFalse xgetUngrouping()
+    '''
 def isSetUngrouping():
-'''public boolean isSetUngrouping()
-'''
-pass
+    '''    public boolean isSetUngrouping()
+    '''
 def setUngrouping():
-'''public void setUngrouping(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setUngrouping(final STTrueFalse.Enum enumValue)
+    '''
 def xsetUngrouping():
-'''public void xsetUngrouping(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetUngrouping(final STTrueFalse stTrueFalse)
+    '''
 def unsetUngrouping():
-'''public void unsetUngrouping()
-'''
-pass
+    '''    public void unsetUngrouping()
+    '''
 def xgetRotation():
-'''public STTrueFalse xgetRotation()
-'''
-pass
+    '''    public STTrueFalse xgetRotation()
+    '''
 def isSetRotation():
-'''public boolean isSetRotation()
-'''
-pass
+    '''    public boolean isSetRotation()
+    '''
 def setRotation():
-'''public void setRotation(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setRotation(final STTrueFalse.Enum enumValue)
+    '''
 def xsetRotation():
-'''public void xsetRotation(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetRotation(final STTrueFalse stTrueFalse)
+    '''
 def unsetRotation():
-'''public void unsetRotation()
-'''
-pass
+    '''    public void unsetRotation()
+    '''
 def xgetCropping():
-'''public STTrueFalse xgetCropping()
-'''
-pass
+    '''    public STTrueFalse xgetCropping()
+    '''
 def isSetCropping():
-'''public boolean isSetCropping()
-'''
-pass
+    '''    public boolean isSetCropping()
+    '''
 def setCropping():
-'''public void setCropping(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setCropping(final STTrueFalse.Enum enumValue)
+    '''
 def xsetCropping():
-'''public void xsetCropping(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetCropping(final STTrueFalse stTrueFalse)
+    '''
 def unsetCropping():
-'''public void unsetCropping()
-'''
-pass
+    '''    public void unsetCropping()
+    '''
 def xgetVerticies():
-'''public STTrueFalse xgetVerticies()
-'''
-pass
+    '''    public STTrueFalse xgetVerticies()
+    '''
 def isSetVerticies():
-'''public boolean isSetVerticies()
-'''
-pass
+    '''    public boolean isSetVerticies()
+    '''
 def setVerticies():
-'''public void setVerticies(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setVerticies(final STTrueFalse.Enum enumValue)
+    '''
 def xsetVerticies():
-'''public void xsetVerticies(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetVerticies(final STTrueFalse stTrueFalse)
+    '''
 def unsetVerticies():
-'''public void unsetVerticies()
-'''
-pass
+    '''    public void unsetVerticies()
+    '''
 def xgetAdjusthandles():
-'''public STTrueFalse xgetAdjusthandles()
-'''
-pass
+    '''    public STTrueFalse xgetAdjusthandles()
+    '''
 def isSetAdjusthandles():
-'''public boolean isSetAdjusthandles()
-'''
-pass
+    '''    public boolean isSetAdjusthandles()
+    '''
 def setAdjusthandles():
-'''public void setAdjusthandles(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setAdjusthandles(final STTrueFalse.Enum enumValue)
+    '''
 def xsetAdjusthandles():
-'''public void xsetAdjusthandles(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetAdjusthandles(final STTrueFalse stTrueFalse)
+    '''
 def unsetAdjusthandles():
-'''public void unsetAdjusthandles()
-'''
-pass
+    '''    public void unsetAdjusthandles()
+    '''
 def xgetText():
-'''public STTrueFalse xgetText()
-'''
-pass
+    '''    public STTrueFalse xgetText()
+    '''
 def isSetText():
-'''public boolean isSetText()
-'''
-pass
+    '''    public boolean isSetText()
+    '''
 def setText():
-'''public void setText(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setText(final STTrueFalse.Enum enumValue)
+    '''
 def xsetText():
-'''public void xsetText(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetText(final STTrueFalse stTrueFalse)
+    '''
 def unsetText():
-'''public void unsetText()
-'''
-pass
+    '''    public void unsetText()
+    '''
 def xgetAspectratio():
-'''public STTrueFalse xgetAspectratio()
-'''
-pass
+    '''    public STTrueFalse xgetAspectratio()
+    '''
 def isSetAspectratio():
-'''public boolean isSetAspectratio()
-'''
-pass
+    '''    public boolean isSetAspectratio()
+    '''
 def setAspectratio():
-'''public void setAspectratio(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setAspectratio(final STTrueFalse.Enum enumValue)
+    '''
 def xsetAspectratio():
-'''public void xsetAspectratio(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetAspectratio(final STTrueFalse stTrueFalse)
+    '''
 def unsetAspectratio():
-'''public void unsetAspectratio()
-'''
-pass
+    '''    public void unsetAspectratio()
+    '''
 def xgetShapetype():
-'''public STTrueFalse xgetShapetype()
-'''
-pass
+    '''    public STTrueFalse xgetShapetype()
+    '''
 def isSetShapetype():
-'''public boolean isSetShapetype()
-'''
-pass
+    '''    public boolean isSetShapetype()
+    '''
 def setShapetype():
-'''public void setShapetype(final STTrueFalse.Enum enumValue)
-'''
-pass
+    '''    public void setShapetype(final STTrueFalse.Enum enumValue)
+    '''
 def xsetShapetype():
-'''public void xsetShapetype(final STTrueFalse stTrueFalse)
-'''
-pass
+    '''    public void xsetShapetype(final STTrueFalse stTrueFalse)
+    '''
 def unsetShapetype():
-'''public void unsetShapetype()
-'''
-pass
+    '''    public void unsetShapetype()
+    '''

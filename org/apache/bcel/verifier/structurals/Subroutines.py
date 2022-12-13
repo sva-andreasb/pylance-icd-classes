@@ -1,57 +1,43 @@
 def Subroutines():
-'''public Subroutines(final MethodGen mg)
-'''
-pass
+    '''    public Subroutines(final MethodGen mg)
+    '''
 def getSubroutine():
-'''public Subroutine getSubroutine(final InstructionHandle leader)
-'''
-pass
+    '''    public Subroutine getSubroutine(final InstructionHandle leader)
+    '''
 def subroutineOf():
-'''public Subroutine subroutineOf(final InstructionHandle any)
-'''
-pass
+    '''    public Subroutine subroutineOf(final InstructionHandle any)
+    '''
 def getTopLevel():
-'''public Subroutine getTopLevel()
-'''
-pass
+    '''    public Subroutine getTopLevel()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def contains():
-'''public boolean contains(final InstructionHandle inst)
-'''
-pass
+    '''    public boolean contains(final InstructionHandle inst)
+    '''
 def getEnteringJsrInstructions():
-'''public InstructionHandle[] getEnteringJsrInstructions()
-'''
-pass
+    '''    public InstructionHandle[] getEnteringJsrInstructions()
+    '''
 def addEnteringJsrInstruction():
-'''public void addEnteringJsrInstruction(final InstructionHandle jsrInst)
-'''
-pass
+    '''    public void addEnteringJsrInstruction(final InstructionHandle jsrInst)
+    '''
 def getLeavingRET():
-'''public InstructionHandle getLeavingRET()
-'''
-pass
+    '''    public InstructionHandle getLeavingRET()
+    '''
 def getInstructions():
-'''public InstructionHandle[] getInstructions()
-'''
-pass
+    '''    public InstructionHandle[] getInstructions()
+    '''
 def getRecursivelyAccessedLocalsIndices():
-'''public int[] getRecursivelyAccessedLocalsIndices()
-'''
-pass
+    '''    public int[] getRecursivelyAccessedLocalsIndices()
+    '''
 def getAccessedLocalsIndices():
-'''public int[] getAccessedLocalsIndices()
-'''
-pass
+    '''    public int[] getAccessedLocalsIndices()
+    '''
 def subSubs():
-'''public Subroutine[] subSubs()
-'''
-pass
+    '''    public Subroutine[] subSubs()
+    '''
 def SubroutineImpl():
-'''public SubroutineImpl()
-'''
-pass
+    '''    public SubroutineImpl()
+    '''

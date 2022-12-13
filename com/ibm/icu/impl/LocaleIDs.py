@@ -1,32 +1,24 @@
 def getISOCountries():
-'''public static String[] getISOCountries()
-'''
-pass
+    '''    public static String[] getISOCountries()
+    '''
 def getISOLanguages():
-'''public static String[] getISOLanguages()
-'''
-pass
+    '''    public static String[] getISOLanguages()
+    '''
 def getISO3Country():
-'''public static String getISO3Country(final String country)
-'''
-pass
+    '''    public static String getISO3Country(final String country)
+    '''
 def getISO3Language():
-'''public static String getISO3Language(final String language)
-'''
-pass
+    '''    public static String getISO3Language(final String language)
+    '''
 def threeToTwoLetterLanguage():
-'''public static String threeToTwoLetterLanguage(final String lang)
-'''
-pass
+    '''    public static String threeToTwoLetterLanguage(final String lang)
+    '''
 def threeToTwoLetterRegion():
-'''public static String threeToTwoLetterRegion(final String region)
-'''
-pass
+    '''    public static String threeToTwoLetterRegion(final String region)
+    '''
 def getCurrentCountryID():
-'''public static String getCurrentCountryID(final String oldID)
-'''
-pass
+    '''    public static String getCurrentCountryID(final String oldID)
+    '''
 def getCurrentLanguageID():
-'''public static String getCurrentLanguageID(final String oldID)
-'''
-pass
+    '''    public static String getCurrentLanguageID(final String oldID)
+    '''

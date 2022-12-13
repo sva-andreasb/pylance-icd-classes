@@ -1,20 +1,15 @@
 def ElementDefinitionImpl():
-'''public ElementDefinitionImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
-'''
-pass
+    '''    public ElementDefinitionImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def getAttributes():
-'''public NamedNodeMap getAttributes()
-'''
-pass
+    '''    public NamedNodeMap getAttributes()
+    '''

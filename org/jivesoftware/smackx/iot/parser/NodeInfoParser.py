@@ -1,4 +1,3 @@
 def parse():
-'''public static NodeInfo parse(final XmlPullParser parser)
-'''
-pass
+    '''    public static NodeInfo parse(final XmlPullParser parser)
+    '''

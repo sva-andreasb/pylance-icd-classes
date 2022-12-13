@@ -1,60 +1,45 @@
 def RequestWrapper():
-'''public RequestWrapper(final HttpRequest request)
-'''
-pass
+    '''    public RequestWrapper(final HttpRequest request)
+    '''
 def resetHeaders():
-'''public void resetHeaders()
-'''
-pass
+    '''    public void resetHeaders()
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''
 def setMethod():
-'''public void setMethod(final String method)
-'''
-pass
+    '''    public void setMethod(final String method)
+    '''
 def getProtocolVersion():
-'''public ProtocolVersion getProtocolVersion()
-'''
-pass
+    '''    public ProtocolVersion getProtocolVersion()
+    '''
 def setProtocolVersion():
-'''public void setProtocolVersion(final ProtocolVersion version)
-'''
-pass
+    '''    public void setProtocolVersion(final ProtocolVersion version)
+    '''
 def getURI():
-'''public URI getURI()
-'''
-pass
+    '''    public URI getURI()
+    '''
 def setURI():
-'''public void setURI(final URI uri)
-'''
-pass
+    '''    public void setURI(final URI uri)
+    '''
 def getRequestLine():
-'''public RequestLine getRequestLine()
-'''
-pass
+    '''    public RequestLine getRequestLine()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def isAborted():
-'''public boolean isAborted()
-'''
-pass
+    '''    public boolean isAborted()
+    '''
 def getOriginal():
-'''public HttpRequest getOriginal()
-'''
-pass
+    '''    public HttpRequest getOriginal()
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def getExecCount():
-'''public int getExecCount()
-'''
-pass
+    '''    public int getExecCount()
+    '''
 def incrementExecCount():
-'''public void incrementExecCount()
-'''
-pass
+    '''    public void incrementExecCount()
+    '''

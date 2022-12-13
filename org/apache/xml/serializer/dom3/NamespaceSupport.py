@@ -1,56 +1,42 @@
 def NamespaceSupport():
-'''public NamespaceSupport()
-'''
-pass
+    '''    public NamespaceSupport()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def pushContext():
-'''public void pushContext()
-'''
-pass
+    '''    public void pushContext()
+    '''
 def popContext():
-'''public void popContext()
-'''
-pass
+    '''    public void popContext()
+    '''
 def declarePrefix():
-'''public boolean declarePrefix(final String prefix, final String uri)
-'''
-pass
+    '''    public boolean declarePrefix(final String prefix, final String uri)
+    '''
 def getURI():
-'''public String getURI(final String prefix)
-'''
-pass
+    '''    public String getURI(final String prefix)
+    '''
 def getPrefix():
-'''public String getPrefix(final String uri)
-'''
-pass
+    '''    public String getPrefix(final String uri)
+    '''
 def getDeclaredPrefixCount():
-'''public int getDeclaredPrefixCount()
-'''
-pass
+    '''    public int getDeclaredPrefixCount()
+    '''
 def getDeclaredPrefixAt():
-'''public String getDeclaredPrefixAt(final int index)
-'''
-pass
+    '''    public String getDeclaredPrefixAt(final int index)
+    '''
 def getAllPrefixes():
-'''public Enumeration getAllPrefixes()
-'''
-pass
+    '''    public Enumeration getAllPrefixes()
+    '''
 def Prefixes():
-'''public Prefixes(final String[] prefixes, final int size)
-'''
-pass
+    '''    public Prefixes(final String[] prefixes, final int size)
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

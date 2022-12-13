@@ -1,14 +1,11 @@
-copyright = "String  \"""
-ID_PERSPECTIVE = "String  \"""
+copyright = "String  \\"\""
+ID_PERSPECTIVE = "String  \\"\""
 def Advisor():
-'''public Advisor()
-'''
-pass
+    '''    public Advisor()
+    '''
 def create():
-'''public static synchronized Advisor create(final String lineSeparator)
-'''
-pass
+    '''    public static synchronized Advisor create(final String lineSeparator)
+    '''
 def generate():
-'''public String generate(final Object argument)
-'''
-pass
+    '''    public String generate(final Object argument)
+    '''

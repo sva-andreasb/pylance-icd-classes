@@ -1,16 +1,12 @@
 def InvalidTypeIdException():
-'''public InvalidTypeIdException(final JsonParser p, final String msg, final JavaType baseType, final String typeId)
-'''
-pass
+    '''    public InvalidTypeIdException(final JsonParser p, final String msg, final JavaType baseType, final String typeId)
+    '''
 def from():
-'''public static InvalidTypeIdException from(final JsonParser p, final String msg, final JavaType baseType, final String typeId)
-'''
-pass
+    '''    public static InvalidTypeIdException from(final JsonParser p, final String msg, final JavaType baseType, final String typeId)
+    '''
 def getBaseType():
-'''public JavaType getBaseType()
-'''
-pass
+    '''    public JavaType getBaseType()
+    '''
 def getTypeId():
-'''public String getTypeId()
-'''
-pass
+    '''    public String getTypeId()
+    '''

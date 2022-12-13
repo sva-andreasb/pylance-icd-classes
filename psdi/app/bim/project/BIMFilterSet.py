@@ -1,8 +1,6 @@
 def BIMFilterSet():
-'''public BIMFilterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMFilterSet(final MboServerInterface ms)
+    '''
 def getTranslator():
-'''public Translate getTranslator()
-'''
-pass
+    '''    public Translate getTranslator()
+    '''

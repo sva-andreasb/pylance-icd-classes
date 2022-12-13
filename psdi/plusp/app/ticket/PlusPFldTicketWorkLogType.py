@@ -1,4 +1,3 @@
 def PlusPFldTicketWorkLogType():
-'''public PlusPFldTicketWorkLogType(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldTicketWorkLogType(final MboValue arg0)
+    '''

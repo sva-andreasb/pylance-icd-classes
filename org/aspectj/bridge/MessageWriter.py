@@ -1,20 +1,15 @@
 def MessageWriter():
-'''public MessageWriter(final PrintWriter writer, final boolean abortOnFailure)
-'''
-pass
+    '''    public MessageWriter(final PrintWriter writer, final boolean abortOnFailure)
+    '''
 def handleMessage():
-'''public boolean handleMessage(final IMessage message)
-'''
-pass
+    '''    public boolean handleMessage(final IMessage message)
+    '''
 def isIgnoring():
-'''public boolean isIgnoring(final IMessage.Kind kind)
-'''
-pass
+    '''    public boolean isIgnoring(final IMessage.Kind kind)
+    '''
 def dontIgnore():
-'''public void dontIgnore(final IMessage.Kind kind)
-'''
-pass
+    '''    public void dontIgnore(final IMessage.Kind kind)
+    '''
 def ignore():
-'''public void ignore(final IMessage.Kind kind)
-'''
-pass
+    '''    public void ignore(final IMessage.Kind kind)
+    '''

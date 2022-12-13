@@ -1,21 +1,16 @@
 def ExternalRelnList():
-'''public ExternalRelnList()
-'''
-pass
+    '''    public ExternalRelnList()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def setExternalRelationship():
-'''public void setExternalRelationship(final String reln)
-public void setExternalRelationship(final ExternalRelnEntry externalRelnData)
-'''
-pass
+    '''    public void setExternalRelationship(final String reln)
+    public void setExternalRelationship(final ExternalRelnEntry externalRelnData)
+    '''
 def getexternalRelationship():
-'''public ArrayList getexternalRelationship()
-'''
-pass
+    '''    public ArrayList getexternalRelationship()
+    '''
 def getEntry():
-'''public ExternalRelnEntry getEntry(final int pos)
-'''
-pass
+    '''    public ExternalRelnEntry getEntry(final int pos)
+    '''

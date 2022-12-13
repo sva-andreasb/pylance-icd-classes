@@ -1,1 +1,1 @@
-ROOT_LOGGER_NAME = "String  ROOT""
+ROOT_LOGGER_NAME = "String  \"ROOT\""

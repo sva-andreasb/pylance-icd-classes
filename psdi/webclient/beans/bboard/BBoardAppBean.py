@@ -1,20 +1,15 @@
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def spellcheck():
-'''public int spellcheck()
-'''
-pass
+    '''    public int spellcheck()
+    '''
 def spellcheckreturn():
-'''public int spellcheckreturn()
-'''
-pass
+    '''    public int spellcheckreturn()
+    '''
 def clearvalue():
-'''public int clearvalue()
-'''
-pass
+    '''    public int clearvalue()
+    '''
 def resetvalue():
-'''public int resetvalue()
-'''
-pass
+    '''    public int resetvalue()
+    '''

@@ -1,12 +1,9 @@
 def ConvertedRecords():
-'''public ConvertedRecords(final T records, final RecordsProcessingStats recordsProcessingStats)
-'''
-pass
+    '''    public ConvertedRecords(final T records, final RecordsProcessingStats recordsProcessingStats)
+    '''
 def records():
-'''public T records()
-'''
-pass
+    '''    public T records()
+    '''
 def recordsProcessingStats():
-'''public RecordsProcessingStats recordsProcessingStats()
-'''
-pass
+    '''    public RecordsProcessingStats recordsProcessingStats()
+    '''

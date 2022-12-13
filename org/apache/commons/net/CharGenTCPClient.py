@@ -4,10 +4,8 @@ QUOTE_OF_DAY_PORT = "int  17"
 CHARGEN_PORT = "int  19"
 DEFAULT_PORT = "int  19"
 def CharGenTCPClient():
-'''public CharGenTCPClient()
-'''
-pass
+    '''    public CharGenTCPClient()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''

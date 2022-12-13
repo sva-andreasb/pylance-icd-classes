@@ -1,32 +1,24 @@
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def getNodeInfo():
-'''public NodeInfo getNodeInfo()
-'''
-pass
+    '''    public NodeInfo getNodeInfo()
+    '''
 def getRegistry():
-'''public BareJid getRegistry()
-'''
-pass
+    '''    public BareJid getRegistry()
+    '''
 def getOwner():
-'''public BareJid getOwner()
-'''
-pass
+    '''    public BareJid getOwner()
+    '''
 def isOwned():
-'''public boolean isOwned()
-'''
-pass
+    '''    public boolean isOwned()
+    '''
 def isRemoved():
-'''public boolean isRemoved()
-'''
-pass
+    '''    public boolean isRemoved()
+    '''
 def setThingStateChangeListener():
-'''public boolean setThingStateChangeListener(final ThingStateChangeListener thingStateChangeListener)
-'''
-pass
+    '''    public boolean setThingStateChangeListener(final ThingStateChangeListener thingStateChangeListener)
+    '''
 def removeThingStateChangeListener():
-'''public boolean removeThingStateChangeListener(final ThingStateChangeListener thingStateChangeListener)
-'''
-pass
+    '''    public boolean removeThingStateChangeListener(final ThingStateChangeListener thingStateChangeListener)
+    '''

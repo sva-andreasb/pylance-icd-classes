@@ -1,8 +1,6 @@
 def setGlobalTimeOffset():
-'''public static void setGlobalTimeOffset(final int timeOffset)
-'''
-pass
+    '''    public static void setGlobalTimeOffset(final int timeOffset)
+    '''
 def getGlobalTimeOffset():
-'''public static int getGlobalTimeOffset()
-'''
-pass
+    '''    public static int getGlobalTimeOffset()
+    '''

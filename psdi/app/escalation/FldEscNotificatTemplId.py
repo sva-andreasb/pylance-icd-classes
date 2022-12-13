@@ -1,16 +1,12 @@
 def FldEscNotificatTemplId():
-'''public FldEscNotificatTemplId(final MboValue mbv)
-'''
-pass
+    '''    public FldEscNotificatTemplId(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

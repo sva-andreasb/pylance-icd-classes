@@ -1,21 +1,16 @@
 COMPLETED = "int  100"
 def CriticalPathEvent():
-'''public CriticalPathEvent(final IlvGanttModel source, final int a)
-'''
-pass
+    '''    public CriticalPathEvent(final IlvGanttModel source, final int a)
+    '''
 def getGanttModel():
-'''public IlvGanttModel getGanttModel()
-'''
-pass
+    '''    public IlvGanttModel getGanttModel()
+    '''
 def getPercentageComplete():
-'''public int getPercentageComplete()
-'''
-pass
+    '''    public int getPercentageComplete()
+    '''
 def isStarted():
-'''public boolean isStarted()
-'''
-pass
+    '''    public boolean isStarted()
+    '''
 def isFinished():
-'''public boolean isFinished()
-'''
-pass
+    '''    public boolean isFinished()
+    '''

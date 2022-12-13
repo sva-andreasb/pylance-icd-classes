@@ -1,4 +1,3 @@
 def IdentityExtension():
-'''public IdentityExtension()
-'''
-pass
+    '''    public IdentityExtension()
+    '''

@@ -1,8 +1,6 @@
 def FldInvVendorNoOfCompletePOs():
-'''public FldInvVendorNoOfCompletePOs(final MboValue mbv)
-'''
-pass
+    '''    public FldInvVendorNoOfCompletePOs(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

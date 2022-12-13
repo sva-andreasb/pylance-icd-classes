@@ -1,41 +1,31 @@
 def MWUGloss():
-'''public MWUGloss()
-public MWUGloss(final Gloss definitionGloss)
-'''
-pass
+    '''    public MWUGloss()
+    public MWUGloss(final Gloss definitionGloss)
+    '''
 def getDefinitionGloss():
-'''public Gloss getDefinitionGloss()
-'''
-pass
+    '''    public Gloss getDefinitionGloss()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def recalcPointers():
-'''public void recalcPointers(final Gloss[] array)
-'''
-pass
+    '''    public void recalcPointers(final Gloss[] array)
+    '''
 def addMWE():
-'''public void addMWE(final MWElementGloss mwElementGloss)
-'''
-pass
+    '''    public void addMWE(final MWElementGloss mwElementGloss)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def charsetForName():
-'''public Charset charsetForName(final String s)
-'''
-pass
+    '''    public Charset charsetForName(final String s)
+    '''
 def charsets():
-'''public Iterator charsets()
-'''
-pass
+    '''    public Iterator charsets()
+    '''

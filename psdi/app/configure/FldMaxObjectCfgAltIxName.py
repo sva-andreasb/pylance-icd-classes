@@ -1,4 +1,3 @@
 def FldMaxObjectCfgAltIxName():
-'''public FldMaxObjectCfgAltIxName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxObjectCfgAltIxName(final MboValue mbv)
+    '''

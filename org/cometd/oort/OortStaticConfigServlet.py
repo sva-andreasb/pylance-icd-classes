@@ -1,1 +1,1 @@
-OORT_CLOUD_PARAM = "String  oort.cloud""
+OORT_CLOUD_PARAM = "String  \"oort.cloud\""

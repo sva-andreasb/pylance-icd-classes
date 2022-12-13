@@ -1,8 +1,6 @@
 def LOR():
-'''public LOR()
-'''
-pass
+    '''    public LOR()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

@@ -1,26 +1,20 @@
 def Token():
-'''public Token()
-public Token(final String valueString)
-public Token(final Number valueNumber)
-'''
-pass
+    '''    public Token()
+    public Token(final String valueString)
+    public Token(final Number valueNumber)
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def getNumber():
-'''public Number getNumber()
-'''
-pass
+    '''    public Number getNumber()
+    '''
 def isString():
-'''public boolean isString()
-'''
-pass
+    '''    public boolean isString()
+    '''
 def isNumber():
-'''public boolean isNumber()
-'''
-pass
+    '''    public boolean isNumber()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

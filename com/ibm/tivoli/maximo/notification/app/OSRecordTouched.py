@@ -1,8 +1,6 @@
 def OSRecordTouched():
-'''public OSRecordTouched(final MboSet ms)
-'''
-pass
+    '''    public OSRecordTouched(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,8 +1,6 @@
 def ReconCompAttributesEqualityExpression():
-'''public ReconCompAttributesEqualityExpression(final ReconInfo reconInfo)
-'''
-pass
+    '''    public ReconCompAttributesEqualityExpression(final ReconInfo reconInfo)
+    '''
 def evaluateExpression():
-'''public ReconCompResult evaluateExpression(final ComparisonQueryHelper queries)
-'''
-pass
+    '''    public ReconCompResult evaluateExpression(final ComparisonQueryHelper queries)
+    '''

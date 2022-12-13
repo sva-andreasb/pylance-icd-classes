@@ -1,4 +1,3 @@
 def SKDAssetLocQuerySet():
-'''public SKDAssetLocQuerySet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDAssetLocQuerySet(final MboServerInterface ms)
+    '''

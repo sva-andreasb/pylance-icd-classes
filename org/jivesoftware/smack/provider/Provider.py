@@ -1,4 +1,3 @@
 def parse():
-'''public final E parse(final XmlPullParser parser)
-'''
-pass
+    '''    public final E parse(final XmlPullParser parser)
+    '''

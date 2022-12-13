@@ -1,28 +1,21 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def charAt():
-'''public char charAt(final int index)
-'''
-pass
+    '''    public char charAt(final int index)
+    '''
 def subSequence():
-'''public CharSequence subSequence(final int start, final int end)
-'''
-pass
+    '''    public CharSequence subSequence(final int start, final int end)
+    '''
 def appendTo():
-'''public <A extends Appendable> A appendTo(final A appendable)
-'''
-pass
+    '''    public <A extends Appendable> A appendTo(final A appendable)
+    '''
 def nextPosition():
-'''public boolean nextPosition(final ConstrainedFieldPosition cfpos)
-'''
-pass
+    '''    public boolean nextPosition(final ConstrainedFieldPosition cfpos)
+    '''
 def toCharacterIterator():
-'''public AttributedCharacterIterator toCharacterIterator()
-'''
-pass
+    '''    public AttributedCharacterIterator toCharacterIterator()
+    '''

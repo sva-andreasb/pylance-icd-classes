@@ -1,68 +1,51 @@
 def GroupSettings():
-'''public GroupSettings()
-'''
-pass
+    '''    public GroupSettings()
+    '''
 def getBaseDN():
-'''public String getBaseDN()
-'''
-pass
+    '''    public String getBaseDN()
+    '''
 def setBaseDN():
-'''public void setBaseDN(final String string)
-'''
-pass
+    '''    public void setBaseDN(final String string)
+    '''
 def getSearchFilter():
-'''public String getSearchFilter()
-'''
-pass
+    '''    public String getSearchFilter()
+    '''
 def setSearchFilter():
-'''public void setSearchFilter(final String string)
-'''
-pass
+    '''    public void setSearchFilter(final String string)
+    '''
 def getSearchScope():
-'''public String getSearchScope()
-'''
-pass
+    '''    public String getSearchScope()
+    '''
 def getSearchScopeAsInt():
-'''public int getSearchScopeAsInt()
-'''
-pass
+    '''    public int getSearchScopeAsInt()
+    '''
 def setSearchScope():
-'''public void setSearchScope(final String string)
-'''
-pass
+    '''    public void setSearchScope(final String string)
+    '''
 def getAttributes():
-'''public Iterator getAttributes()
-'''
-pass
+    '''    public Iterator getAttributes()
+    '''
 def getAttributeArray():
-'''public String[] getAttributeArray()
-'''
-pass
+    '''    public String[] getAttributeArray()
+    '''
 def setAttributes():
-'''public void setAttributes(final Set attributesSet)
-'''
-pass
+    '''    public void setAttributes(final Set attributesSet)
+    '''
 def addAttribute():
-'''public void addAttribute(final String attribute)
-'''
-pass
+    '''    public void addAttribute(final String attribute)
+    '''
 def getDataMap():
-'''public DataMap getDataMap()
-'''
-pass
+    '''    public DataMap getDataMap()
+    '''
 def setDataMap():
-'''public void setDataMap(final DataMap dataMap)
-'''
-pass
+    '''    public void setDataMap(final DataMap dataMap)
+    '''
 def getMemberDataMap():
-'''public MemberDataMap getMemberDataMap()
-'''
-pass
+    '''    public MemberDataMap getMemberDataMap()
+    '''
 def setMemberDataMap():
-'''public void setMemberDataMap(final MemberDataMap memberDataMap)
-'''
-pass
+    '''    public void setMemberDataMap(final MemberDataMap memberDataMap)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

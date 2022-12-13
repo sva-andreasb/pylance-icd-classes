@@ -1,8 +1,6 @@
 def NWorkZone():
-'''public NWorkZone(final MboSet ms)
-'''
-pass
+    '''    public NWorkZone(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

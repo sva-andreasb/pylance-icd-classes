@@ -1,16 +1,12 @@
 def LDAPLburpRequest():
-'''public LDAPLburpRequest(final LDAPMessage request)
-'''
-pass
+    '''    public LDAPLburpRequest(final LDAPMessage request)
+    '''
 def getRequestASN1Sequence():
-'''public ASN1Sequence getRequestASN1Sequence()
-'''
-pass
+    '''    public ASN1Sequence getRequestASN1Sequence()
+    '''
 def getRequestASN1OcString():
-'''public ASN1OctetString getRequestASN1OcString()
-'''
-pass
+    '''    public ASN1OctetString getRequestASN1OcString()
+    '''
 def getControlsASN1Object():
-'''public ASN1SequenceOf getControlsASN1Object()
-'''
-pass
+    '''    public ASN1SequenceOf getControlsASN1Object()
+    '''

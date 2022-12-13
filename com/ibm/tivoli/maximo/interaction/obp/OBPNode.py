@@ -1,68 +1,51 @@
 def OBPNode():
-'''public OBPNode()
-'''
-pass
+    '''    public OBPNode()
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getXmlLocation():
-'''public String getXmlLocation()
-'''
-pass
+    '''    public String getXmlLocation()
+    '''
 def setXmlLocation():
-'''public void setXmlLocation(final String xmlLocation)
-'''
-pass
+    '''    public void setXmlLocation(final String xmlLocation)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getDoc():
-'''public String getDoc()
-'''
-pass
+    '''    public String getDoc()
+    '''
 def setDoc():
-'''public void setDoc(final String doc)
-'''
-pass
+    '''    public void setDoc(final String doc)
+    '''
 def getDecsription():
-'''public String getDecsription()
-'''
-pass
+    '''    public String getDecsription()
+    '''
 def setDecsription():
-'''public void setDecsription(final String decsription)
-'''
-pass
+    '''    public void setDecsription(final String decsription)
+    '''
 def markForDelete():
-'''public void markForDelete(final boolean deleted)
-'''
-pass
+    '''    public void markForDelete(final boolean deleted)
+    '''
 def isMarkedForDelete():
-'''public boolean isMarkedForDelete()
-'''
-pass
+    '''    public boolean isMarkedForDelete()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean required)
-'''
-pass
+    '''    public void setRequired(final boolean required)
+    '''
 def getXMLLocalPartName():
-'''public String getXMLLocalPartName()
-'''
-pass
+    '''    public String getXMLLocalPartName()
+    '''

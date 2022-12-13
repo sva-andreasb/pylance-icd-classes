@@ -1,8 +1,6 @@
 def CallbackTarget():
-'''public CallbackTarget(final Callback target, final Object hint)
-'''
-pass
+    '''    public CallbackTarget(final Callback target, final Object hint)
+    '''
 def set():
-'''public void set(final Object value)
-'''
-pass
+    '''    public void set(final Object value)
+    '''

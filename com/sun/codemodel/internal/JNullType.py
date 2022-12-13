@@ -1,28 +1,21 @@
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def fullName():
-'''public String fullName()
-'''
-pass
+    '''    public String fullName()
+    '''
 def _package():
-'''public JPackage _package()
-'''
-pass
+    '''    public JPackage _package()
+    '''
 def _extends():
-'''public JClass _extends()
-'''
-pass
+    '''    public JClass _extends()
+    '''
 def _implements():
-'''public Iterator<JClass> _implements()
-'''
-pass
+    '''    public Iterator<JClass> _implements()
+    '''
 def isInterface():
-'''public boolean isInterface()
-'''
-pass
+    '''    public boolean isInterface()
+    '''
 def isAbstract():
-'''public boolean isAbstract()
-'''
-pass
+    '''    public boolean isAbstract()
+    '''

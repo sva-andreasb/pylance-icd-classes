@@ -1,21 +1,16 @@
 def BusCacheImpl():
-'''public BusCacheImpl()
-'''
-pass
+    '''    public BusCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getResourceMap():
-'''public Map<String, BusResourceInfo> getResourceMap()
-'''
-pass
+    '''    public Map<String, BusResourceInfo> getResourceMap()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

@@ -1,33 +1,25 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getEntryCount():
-'''public int getEntryCount()
-'''
-pass
+    '''    public int getEntryCount()
+    '''
 def getEntries():
-'''public Collection<RosterEntry> getEntries()
-'''
-pass
+    '''    public Collection<RosterEntry> getEntries()
+    '''
 def getEntry():
-'''public RosterEntry getEntry(String user)
-'''
-pass
+    '''    public RosterEntry getEntry(String user)
+    '''
 def contains():
-'''public boolean contains(final RosterEntry entry)
-public boolean contains(final String user)
-'''
-pass
+    '''    public boolean contains(final RosterEntry entry)
+    public boolean contains(final String user)
+    '''
 def addEntry():
-'''public void addEntry(final RosterEntry entry)
-'''
-pass
+    '''    public void addEntry(final RosterEntry entry)
+    '''
 def removeEntry():
-'''public void removeEntry(final RosterEntry entry)
-'''
-pass
+    '''    public void removeEntry(final RosterEntry entry)
+    '''

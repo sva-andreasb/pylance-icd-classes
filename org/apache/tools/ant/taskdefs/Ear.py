@@ -1,16 +1,12 @@
 def Ear():
-'''public Ear()
-'''
-pass
+    '''    public Ear()
+    '''
 def setEarfile():
-'''public void setEarfile(final File earFile)
-'''
-pass
+    '''    public void setEarfile(final File earFile)
+    '''
 def setAppxml():
-'''public void setAppxml(final File descr)
-'''
-pass
+    '''    public void setAppxml(final File descr)
+    '''
 def addArchives():
-'''public void addArchives(final ZipFileSet fs)
-'''
-pass
+    '''    public void addArchives(final ZipFileSet fs)
+    '''

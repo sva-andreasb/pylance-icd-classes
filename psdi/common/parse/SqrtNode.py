@@ -1,8 +1,6 @@
 def SqrtNode():
-'''public SqrtNode(final Vector operands)
-'''
-pass
+    '''    public SqrtNode(final Vector operands)
+    '''
 def getDouble():
-'''public double getDouble(final MboRemote mbo)
-'''
-pass
+    '''    public double getDouble(final MboRemote mbo)
+    '''

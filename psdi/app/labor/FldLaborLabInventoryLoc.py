@@ -1,8 +1,6 @@
 def FldLaborLabInventoryLoc():
-'''public FldLaborLabInventoryLoc(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborLabInventoryLoc(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

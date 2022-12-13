@@ -1,36 +1,27 @@
 def ContentSite():
-'''public ContentSite()
-'''
-pass
+    '''    public ContentSite()
+    '''
 def getGatherUrl():
-'''public String getGatherUrl()
-'''
-pass
+    '''    public String getGatherUrl()
+    '''
 def setGatherUrl():
-'''public void setGatherUrl(final String gatherUrl)
-'''
-pass
+    '''    public void setGatherUrl(final String gatherUrl)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def setDisplayName():
-'''public void setDisplayName(final String displayName)
-'''
-pass
+    '''    public void setDisplayName(final String displayName)
+    '''
 def getPublicName():
-'''public String getPublicName()
-'''
-pass
+    '''    public String getPublicName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

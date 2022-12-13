@@ -1,80 +1,60 @@
 def getHostname():
-'''public String getHostname()
-'''
-pass
+    '''    public String getHostname()
+    '''
 def setHostname():
-'''public void setHostname(final String hostname)
-'''
-pass
+    '''    public void setHostname(final String hostname)
+    '''
 def isHostnameSpecified():
-'''public boolean isHostnameSpecified()
-'''
-pass
+    '''    public boolean isHostnameSpecified()
+    '''
 def unsetHostname():
-'''public void unsetHostname()
-'''
-pass
+    '''    public void unsetHostname()
+    '''
 def getPrivateIp():
-'''public String getPrivateIp()
-'''
-pass
+    '''    public String getPrivateIp()
+    '''
 def setPrivateIp():
-'''public void setPrivateIp(final String privateIp)
-'''
-pass
+    '''    public void setPrivateIp(final String privateIp)
+    '''
 def isPrivateIpSpecified():
-'''public boolean isPrivateIpSpecified()
-'''
-pass
+    '''    public boolean isPrivateIpSpecified()
+    '''
 def unsetPrivateIp():
-'''public void unsetPrivateIp()
-'''
-pass
+    '''    public void unsetPrivateIp()
+    '''
 def getPublicIp():
-'''public String getPublicIp()
-'''
-pass
+    '''    public String getPublicIp()
+    '''
 def setPublicIp():
-'''public void setPublicIp(final String publicIp)
-'''
-pass
+    '''    public void setPublicIp(final String publicIp)
+    '''
 def isPublicIpSpecified():
-'''public boolean isPublicIpSpecified()
-'''
-pass
+    '''    public boolean isPublicIpSpecified()
+    '''
 def unsetPublicIp():
-'''public void unsetPublicIp()
-'''
-pass
+    '''    public void unsetPublicIp()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def setResourceType():
-'''public void setResourceType(final String resourceType)
-'''
-pass
+    '''    public void setResourceType(final String resourceType)
+    '''
 def isResourceTypeSpecified():
-'''public boolean isResourceTypeSpecified()
-'''
-pass
+    '''    public boolean isResourceTypeSpecified()
+    '''
 def unsetResourceType():
-'''public void unsetResourceType()
-'''
-pass
+    '''    public void unsetResourceType()
+    '''
 def hostname():
-'''public Mask hostname()
-'''
-pass
+    '''    public Mask hostname()
+    '''
 def privateIp():
-'''public Mask privateIp()
-'''
-pass
+    '''    public Mask privateIp()
+    '''
 def publicIp():
-'''public Mask publicIp()
-'''
-pass
+    '''    public Mask publicIp()
+    '''
 def resourceType():
-'''public Mask resourceType()
-'''
-pass
+    '''    public Mask resourceType()
+    '''

@@ -1,4 +1,3 @@
 def getMessage():
-'''public int getMessage()
-'''
-pass
+    '''    public int getMessage()
+    '''

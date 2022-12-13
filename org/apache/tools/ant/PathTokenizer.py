@@ -1,12 +1,9 @@
 def PathTokenizer():
-'''public PathTokenizer(final String path)
-'''
-pass
+    '''    public PathTokenizer(final String path)
+    '''
 def hasMoreTokens():
-'''public boolean hasMoreTokens()
-'''
-pass
+    '''    public boolean hasMoreTokens()
+    '''
 def nextToken():
-'''public String nextToken()
-'''
-pass
+    '''    public String nextToken()
+    '''

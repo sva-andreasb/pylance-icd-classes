@@ -1,4 +1,3 @@
 def WorkTypeSet():
-'''public WorkTypeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WorkTypeSet(final MboServerInterface ms)
+    '''

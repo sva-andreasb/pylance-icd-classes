@@ -1,4 +1,3 @@
 def SchPurchViewSet():
-'''public SchPurchViewSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SchPurchViewSet(final MboServerInterface ms)
+    '''

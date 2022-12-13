@@ -1,12 +1,9 @@
 def LDAPAuthProvider():
-'''public LDAPAuthProvider(final String dn, final byte[] password)
-'''
-pass
+    '''    public LDAPAuthProvider(final String dn, final byte[] password)
+    '''
 def getDN():
-'''public String getDN()
-'''
-pass
+    '''    public String getDN()
+    '''
 def getPassword():
-'''public byte[] getPassword()
-'''
-pass
+    '''    public byte[] getPassword()
+    '''

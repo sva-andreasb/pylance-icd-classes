@@ -1,4 +1,3 @@
 def FldRelationClassstructureid():
-'''public FldRelationClassstructureid(final MboValue mbv)
-'''
-pass
+    '''    public FldRelationClassstructureid(final MboValue mbv)
+    '''

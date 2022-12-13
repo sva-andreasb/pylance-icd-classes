@@ -1,20 +1,15 @@
 def BasicListHeaderIterator():
-'''public BasicListHeaderIterator(final List<Header> headers, final String name)
-'''
-pass
+    '''    public BasicListHeaderIterator(final List<Header> headers, final String name)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def nextHeader():
-'''public Header nextHeader()
-'''
-pass
+    '''    public Header nextHeader()
+    '''
 def next():
-'''public final Object next()
-'''
-pass
+    '''    public final Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

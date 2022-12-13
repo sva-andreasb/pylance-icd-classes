@@ -1,4 +1,3 @@
 def FmtLayout2HashSQLServer():
-'''public FmtLayout2HashSQLServer(final SDBConnection connection)
-'''
-pass
+    '''    public FmtLayout2HashSQLServer(final SDBConnection connection)
+    '''

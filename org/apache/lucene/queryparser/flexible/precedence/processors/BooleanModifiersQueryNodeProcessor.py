@@ -1,8 +1,6 @@
 def BooleanModifiersQueryNodeProcessor():
-'''public BooleanModifiersQueryNodeProcessor()
-'''
-pass
+    '''    public BooleanModifiersQueryNodeProcessor()
+    '''
 def process():
-'''public QueryNode process(final QueryNode queryTree)
-'''
-pass
+    '''    public QueryNode process(final QueryNode queryTree)
+    '''

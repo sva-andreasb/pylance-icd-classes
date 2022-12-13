@@ -1,8 +1,6 @@
 def OslcCoreDuplicatePropertyDefinitionException():
-'''public OslcCoreDuplicatePropertyDefinitionException(final Class<?> resourceClass, final OslcPropertyDefinition oslcPropertyDefinition)
-'''
-pass
+    '''    public OslcCoreDuplicatePropertyDefinitionException(final Class<?> resourceClass, final OslcPropertyDefinition oslcPropertyDefinition)
+    '''
 def getOslcPropertyDefinition():
-'''public OslcPropertyDefinition getOslcPropertyDefinition()
-'''
-pass
+    '''    public OslcPropertyDefinition getOslcPropertyDefinition()
+    '''

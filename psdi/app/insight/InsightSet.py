@@ -1,4 +1,3 @@
 def InsightSet():
-'''public InsightSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InsightSet(final MboServerInterface ms)
+    '''

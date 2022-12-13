@@ -1,4 +1,3 @@
 def AssetStatusDummySet():
-'''public AssetStatusDummySet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetStatusDummySet(final MboServerInterface ms)
+    '''

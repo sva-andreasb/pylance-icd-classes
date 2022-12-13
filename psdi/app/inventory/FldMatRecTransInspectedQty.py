@@ -1,12 +1,9 @@
 def FldMatRecTransInspectedQty():
-'''public FldMatRecTransInspectedQty(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransInspectedQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def LSHL():
-'''public LSHL()
-'''
-pass
+    '''    public LSHL()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

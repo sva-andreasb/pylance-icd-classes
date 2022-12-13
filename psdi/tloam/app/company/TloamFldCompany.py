@@ -1,4 +1,3 @@
 def TloamFldCompany():
-'''public TloamFldCompany(final MboValue mbv)
-'''
-pass
+    '''    public TloamFldCompany(final MboValue mbv)
+    '''

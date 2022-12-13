@@ -1,4 +1,3 @@
 def getUUIDGen():
-'''public static UUIDGen getUUIDGen()
-'''
-pass
+    '''    public static UUIDGen getUUIDGen()
+    '''

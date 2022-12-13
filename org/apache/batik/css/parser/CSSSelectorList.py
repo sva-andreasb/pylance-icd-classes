@@ -1,16 +1,12 @@
 def CSSSelectorList():
-'''public CSSSelectorList()
-'''
-pass
+    '''    public CSSSelectorList()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def item():
-'''public Selector item(final int index)
-'''
-pass
+    '''    public Selector item(final int index)
+    '''
 def append():
-'''public void append(final Selector item)
-'''
-pass
+    '''    public void append(final Selector item)
+    '''

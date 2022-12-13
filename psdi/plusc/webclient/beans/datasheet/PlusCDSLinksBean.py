@@ -1,16 +1,12 @@
 def PlusCDSLinksBean():
-'''public PlusCDSLinksBean()
-'''
-pass
+    '''    public PlusCDSLinksBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

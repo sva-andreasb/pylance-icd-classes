@@ -1,20 +1,15 @@
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def approveLines():
-'''public int approveLines()
-'''
-pass
+    '''    public int approveLines()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def BILLRESET():
-'''public int BILLRESET()
-'''
-pass
+    '''    public int BILLRESET()
+    '''
 def returnToList():
-'''public void returnToList()
-'''
-pass
+    '''    public void returnToList()
+    '''

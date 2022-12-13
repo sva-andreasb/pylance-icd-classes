@@ -1,45 +1,34 @@
 def COSAttachmentStorage():
-'''public COSAttachmentStorage()
-'''
-pass
+    '''    public COSAttachmentStorage()
+    '''
 def getAttachmentSize():
-'''public long getAttachmentSize(final MboRemote doclink)
-'''
-pass
+    '''    public long getAttachmentSize(final MboRemote doclink)
+    '''
 def createAttachment():
-'''public void createAttachment(final String name, final byte[] data, final String mimeType)
-'''
-pass
+    '''    public void createAttachment(final String name, final byte[] data, final String mimeType)
+    '''
 def deleteAttachment():
-'''public void deleteAttachment(final MboRemote doclink)
-'''
-pass
+    '''    public void deleteAttachment(final MboRemote doclink)
+    '''
 def getAttachment():
-'''public byte[] getAttachment(final MboRemote doclink)
-public byte[] getAttachment(final String urlName)
-'''
-pass
+    '''    public byte[] getAttachment(final MboRemote doclink)
+    public byte[] getAttachment(final String urlName)
+    '''
 def getAttachmentQualifiedName():
-'''public String getAttachmentQualifiedName(final MboRemote doclink, final String name)
-'''
-pass
+    '''    public String getAttachmentQualifiedName(final MboRemote doclink, final String name)
+    '''
 def setupStorage():
-'''public void setupStorage()
-'''
-pass
+    '''    public void setupStorage()
+    '''
 def cleanupStorage():
-'''public void cleanupStorage()
-'''
-pass
+    '''    public void cleanupStorage()
+    '''
 def streamAttachment():
-'''public InputStream streamAttachment(final MboRemote doclink)
-'''
-pass
+    '''    public InputStream streamAttachment(final MboRemote doclink)
+    '''
 def isAttachmentNeedsCustomDatasource():
-'''public boolean isAttachmentNeedsCustomDatasource(final String urlName)
-'''
-pass
+    '''    public boolean isAttachmentNeedsCustomDatasource(final String urlName)
+    '''
 def getAttachmentDatasource():
-'''public DataSource getAttachmentDatasource(final String urlName)
-'''
-pass
+    '''    public DataSource getAttachmentDatasource(final String urlName)
+    '''

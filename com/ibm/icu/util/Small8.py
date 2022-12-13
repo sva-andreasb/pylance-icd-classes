@@ -1,4 +1,3 @@
 def fromBinary():
-'''public static Small8 fromBinary(final ByteBuffer bytes)
-'''
-pass
+    '''    public static Small8 fromBinary(final ByteBuffer bytes)
+    '''

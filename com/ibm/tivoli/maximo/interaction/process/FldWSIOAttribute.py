@@ -1,8 +1,6 @@
 def FldWSIOAttribute():
-'''public FldWSIOAttribute(final MboValue mbv)
-'''
-pass
+    '''    public FldWSIOAttribute(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

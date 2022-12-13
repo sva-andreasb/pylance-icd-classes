@@ -6,66 +6,50 @@ VERSION3 = "int  3"
 VERSION4 = "int  4"
 CURRENTVERSION = "int  4"
 def WLMTaggedComponent():
-'''public WLMTaggedComponent(final byte[] component_data)
-'''
-pass
+    '''    public WLMTaggedComponent(final byte[] component_data)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def getClusterIdentity():
-'''public Identity getClusterIdentity()
-'''
-pass
+    '''    public Identity getClusterIdentity()
+    '''
 def getAdminDomainName():
-'''public String getAdminDomainName()
-'''
-pass
+    '''    public String getAdminDomainName()
+    '''
 def getLSDSSLPortList():
-'''public short[] getLSDSSLPortList()
-'''
-pass
+    '''    public short[] getLSDSSLPortList()
+    '''
 def getMemberSSLPortList():
-'''public int[] getMemberSSLPortList()
-'''
-pass
+    '''    public int[] getMemberSSLPortList()
+    '''
 def getLSDSSLCCPortList():
-'''public short[] getLSDSSLCCPortList()
-'''
-pass
+    '''    public short[] getLSDSSLCCPortList()
+    '''
 def getMemberSSLCCPortList():
-'''public int[] getMemberSSLCCPortList()
-'''
-pass
+    '''    public int[] getMemberSSLCCPortList()
+    '''
 def getLSDPortList():
-'''public short[] getLSDPortList()
-'''
-pass
+    '''    public short[] getLSDPortList()
+    '''
 def getMemberPortList():
-'''public int[] getMemberPortList()
-'''
-pass
+    '''    public int[] getMemberPortList()
+    '''
 def getLSDHostList():
-'''public String[] getLSDHostList()
-'''
-pass
+    '''    public String[] getLSDHostList()
+    '''
 def getMemberHostList():
-'''public String[] getMemberHostList()
-'''
-pass
+    '''    public String[] getMemberHostList()
+    '''
 def getTaggedComponentData():
-'''public static byte[] getTaggedComponentData(final Identity description)
-'''
-pass
+    '''    public static byte[] getTaggedComponentData(final Identity description)
+    '''
 def addAlternateIIOPAddressComponent():
-'''public static void addAlternateIIOPAddressComponent(final Profile profile)
-'''
-pass
+    '''    public static void addAlternateIIOPAddressComponent(final Profile profile)
+    '''
 def getZTaggedComponentData():
-'''public static byte[] getZTaggedComponentData(final Identity description)
-'''
-pass
+    '''    public static byte[] getZTaggedComponentData(final Identity description)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

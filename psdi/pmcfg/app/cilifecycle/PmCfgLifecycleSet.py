@@ -1,8 +1,6 @@
 def PmCfgLifecycleSet():
-'''public PmCfgLifecycleSet(final MboServerInterface msi)
-'''
-pass
+    '''    public PmCfgLifecycleSet(final MboServerInterface msi)
+    '''
 def getDefaultLifecycle():
-'''public PmCfgLifecycleRemote getDefaultLifecycle()
-'''
-pass
+    '''    public PmCfgLifecycleRemote getDefaultLifecycle()
+    '''

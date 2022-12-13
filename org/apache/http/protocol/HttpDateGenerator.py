@@ -1,9 +1,7 @@
-PATTERN_RFC1123 = "String  EEE, dd MMM yyyy HH:mm:ss zzz""
+PATTERN_RFC1123 = "String  \"EEE, dd MMM yyyy HH:mm:ss zzz\""
 def HttpDateGenerator():
-'''public HttpDateGenerator()
-'''
-pass
+    '''    public HttpDateGenerator()
+    '''
 def getCurrentDate():
-'''public synchronized String getCurrentDate()
-'''
-pass
+    '''    public synchronized String getCurrentDate()
+    '''

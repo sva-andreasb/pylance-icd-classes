@@ -1,52 +1,39 @@
 def set():
-'''public void set(final Object object)
-'''
-pass
+    '''    public void set(final Object object)
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder buffer)
-'''
-pass
+    '''    public void formatTo(final StringBuilder buffer)
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameter():
-'''public Object getParameter()
-'''
-pass
+    '''    public Object getParameter()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def swapParameters():
-'''public Object[] swapParameters(final Object[] emptyReplacement)
-'''
-pass
+    '''    public Object[] swapParameters(final Object[] emptyReplacement)
+    '''
 def getParameterCount():
-'''public short getParameterCount()
-'''
-pass
+    '''    public short getParameterCount()
+    '''
 def forEachParameter():
-'''public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
-'''
-pass
+    '''    public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
+    '''
 def memento():
-'''public Message memento()
-'''
-pass
+    '''    public Message memento()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

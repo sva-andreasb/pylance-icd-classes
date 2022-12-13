@@ -1,16 +1,12 @@
 def LaborViewStatusHandler():
-'''public LaborViewStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public LaborViewStatusHandler(final StatefulMbo sm)
+    '''
 def approvedAndPaidLabTrans():
-'''public void approvedAndPaidLabTrans()
-'''
-pass
+    '''    public void approvedAndPaidLabTrans()
+    '''
 def close():
-'''public void close(final String desiredStatus, final Date date)
-'''
-pass
+    '''    public void close(final String desiredStatus, final Date date)
+    '''
 def cancel():
-'''public void cancel(final String desiredStatus, final Date date)
-'''
-pass
+    '''    public void cancel(final String desiredStatus, final Date date)
+    '''

@@ -1,12 +1,9 @@
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getResult():
-'''public List getResult()
-'''
-pass
+    '''    public List getResult()
+    '''

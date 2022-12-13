@@ -1,5 +1,4 @@
 def CookieRestrictionViolationException():
-'''public CookieRestrictionViolationException()
-public CookieRestrictionViolationException(final String message)
-'''
-pass
+    '''    public CookieRestrictionViolationException()
+    public CookieRestrictionViolationException(final String message)
+    '''

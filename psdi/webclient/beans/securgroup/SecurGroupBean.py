@@ -1,16 +1,12 @@
 def SecurGroupBean():
-'''public SecurGroupBean()
-'''
-pass
+    '''    public SecurGroupBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def DUPLICATE():
-'''public int DUPLICATE()
-'''
-pass
+    '''    public int DUPLICATE()
+    '''

@@ -1,18 +1,14 @@
 def TaskRunner():
-'''public TaskRunner()
-public TaskRunner(final BuildLogger logger)
-'''
-pass
+    '''    public TaskRunner()
+    public TaskRunner(final BuildLogger logger)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def Replace():
-'''public void Replace(final String FileName, final String From, final String To)
-'''
-pass
+    '''    public void Replace(final String FileName, final String From, final String To)
+    '''
 def runAntBuildFile():
-'''public void runAntBuildFile(final String FileName)
-public void runAntBuildFile(final String FileName, final String Target)
-'''
-pass
+    '''    public void runAntBuildFile(final String FileName)
+    public void runAntBuildFile(final String FileName, final String Target)
+    '''

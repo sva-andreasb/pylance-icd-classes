@@ -1,57 +1,43 @@
 serialVersionUID = "long  1L"
 def SOAPBodyImpl():
-'''public SOAPBodyImpl()
-'''
-pass
+    '''    public SOAPBodyImpl()
+    '''
 def setElementType():
-'''public void setElementType(final QName elementType)
-'''
-pass
+    '''    public void setElementType(final QName elementType)
+    '''
 def getElementType():
-'''public QName getElementType()
-'''
-pass
+    '''    public QName getElementType()
+    '''
 def setRequired():
-'''public void setRequired(final Boolean required)
-'''
-pass
+    '''    public void setRequired(final Boolean required)
+    '''
 def getRequired():
-'''public Boolean getRequired()
-'''
-pass
+    '''    public Boolean getRequired()
+    '''
 def setParts():
-'''public void setParts(final List parts)
-'''
-pass
+    '''    public void setParts(final List parts)
+    '''
 def getParts():
-'''public List getParts()
-'''
-pass
+    '''    public List getParts()
+    '''
 def setUse():
-'''public void setUse(final String use)
-'''
-pass
+    '''    public void setUse(final String use)
+    '''
 def getUse():
-'''public String getUse()
-'''
-pass
+    '''    public String getUse()
+    '''
 def setEncodingStyles():
-'''public void setEncodingStyles(final List encodingStyles)
-'''
-pass
+    '''    public void setEncodingStyles(final List encodingStyles)
+    '''
 def getEncodingStyles():
-'''public List getEncodingStyles()
-'''
-pass
+    '''    public List getEncodingStyles()
+    '''
 def setNamespaceURI():
-'''public void setNamespaceURI(final String namespaceURI)
-'''
-pass
+    '''    public void setNamespaceURI(final String namespaceURI)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

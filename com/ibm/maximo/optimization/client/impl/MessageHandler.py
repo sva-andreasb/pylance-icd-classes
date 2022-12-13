@@ -1,21 +1,17 @@
-MESSAGE_PREFIX = "String  message.prefix""
-KEY_CODE_SUFFIX = "String  .code""
-KEY_DESCRIPTION_SUFFIX = "String  .description""
+MESSAGE_PREFIX = "String  \"message.prefix\""
+KEY_CODE_SUFFIX = "String  \".code\""
+KEY_DESCRIPTION_SUFFIX = "String  \".description\""
 def MessageHandler():
-'''public MessageHandler(final String bundleName)
-public MessageHandler(final String bundleName, final ClassLoader loader)
-public MessageHandler(final String bundleName, final boolean safeMode, final ClassLoader loader)
-'''
-pass
+    '''    public MessageHandler(final String bundleName)
+    public MessageHandler(final String bundleName, final ClassLoader loader)
+    public MessageHandler(final String bundleName, final boolean safeMode, final ClassLoader loader)
+    '''
 def getResourceBundle():
-'''public ResourceBundle getResourceBundle(final String localeName)
-'''
-pass
+    '''    public ResourceBundle getResourceBundle(final String localeName)
+    '''
 def getLocalizedMessageWithLocale():
-'''public String getLocalizedMessageWithLocale(final String localeName, final String key, final Object... args)
-'''
-pass
+    '''    public String getLocalizedMessageWithLocale(final String localeName, final String key, final Object... args)
+    '''
 def getLocalizedMessage():
-'''public String getLocalizedMessage(final String key, final Object... args)
-'''
-pass
+    '''    public String getLocalizedMessage(final String key, final Object... args)
+    '''

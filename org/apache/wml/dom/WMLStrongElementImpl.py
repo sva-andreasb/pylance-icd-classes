@@ -1,28 +1,21 @@
 def WMLStrongElementImpl():
-'''public WMLStrongElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLStrongElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setXmlLang():
-'''public void setXmlLang(final String s)
-'''
-pass
+    '''    public void setXmlLang(final String s)
+    '''
 def getXmlLang():
-'''public String getXmlLang()
-'''
-pass
+    '''    public String getXmlLang()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''

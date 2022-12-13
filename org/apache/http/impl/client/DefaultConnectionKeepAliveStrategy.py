@@ -1,4 +1,3 @@
 def getKeepAliveDuration():
-'''public long getKeepAliveDuration(final HttpResponse response, final HttpContext context)
-'''
-pass
+    '''    public long getKeepAliveDuration(final HttpResponse response, final HttpContext context)
+    '''

@@ -1,8 +1,6 @@
 def InvalidParameterNameException():
-'''public InvalidParameterNameException(final String cmdName, final String paramName)
-'''
-pass
+    '''    public InvalidParameterNameException(final String cmdName, final String paramName)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

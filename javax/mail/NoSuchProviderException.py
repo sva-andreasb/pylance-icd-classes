@@ -1,5 +1,4 @@
 def NoSuchProviderException():
-'''public NoSuchProviderException()
-public NoSuchProviderException(final String message)
-'''
-pass
+    '''    public NoSuchProviderException()
+    public NoSuchProviderException(final String message)
+    '''

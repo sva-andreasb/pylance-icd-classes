@@ -1,4 +1,3 @@
 def newInstance():
-'''public static SOAPFactory newInstance()
-'''
-pass
+    '''    public static SOAPFactory newInstance()
+    '''

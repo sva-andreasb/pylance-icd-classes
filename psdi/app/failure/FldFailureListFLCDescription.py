@@ -1,8 +1,6 @@
 def FldFailureListFLCDescription():
-'''public FldFailureListFLCDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldFailureListFLCDescription(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

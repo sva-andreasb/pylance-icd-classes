@@ -1,36 +1,27 @@
 def EntryEventData():
-'''public EntryEventData(final ASN1Object asn1Object)
-'''
-pass
+    '''    public EntryEventData(final ASN1Object asn1Object)
+    '''
 def getEntry():
-'''public String getEntry()
-'''
-pass
+    '''    public String getEntry()
+    '''
 def getPerpetratorDN():
-'''public String getPerpetratorDN()
-'''
-pass
+    '''    public String getPerpetratorDN()
+    '''
 def getFlags():
-'''public int getFlags()
-'''
-pass
+    '''    public int getFlags()
+    '''
 def getNewdn():
-'''public String getNewdn()
-'''
-pass
+    '''    public String getNewdn()
+    '''
 def getClassid():
-'''public String getClassid()
-'''
-pass
+    '''    public String getClassid()
+    '''
 def getVerb():
-'''public int getVerb()
-'''
-pass
+    '''    public int getVerb()
+    '''
 def getTimeStamp():
-'''public DSETimeStamp getTimeStamp()
-'''
-pass
+    '''    public DSETimeStamp getTimeStamp()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,182 +1,148 @@
 def TreeBidiMap():
-'''public TreeBidiMap()
-public TreeBidiMap(final Map<? extends K, ? extends V> map)
-'''
-pass
+    '''    public TreeBidiMap()
+    public TreeBidiMap(final Map<? extends K, ? extends V> map)
+    '''
 def size():
-'''public int size()
-public int size()
-public int size()
-'''
-pass
+    '''    public int size()
+    public int size()
+    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    public boolean containsValue(final Object value)
+    '''
 def get():
-'''public V get(final Object key)
-public K get(final Object key)
-'''
-pass
+    '''    public V get(final Object key)
+    public K get(final Object key)
+    '''
 def put():
-'''public V put(final K key, final V value)
-public K put(final V key, final K value)
-'''
-pass
+    '''    public V put(final K key, final V value)
+    public K put(final V key, final K value)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ? extends V> map)
-public void putAll(final Map<? extends V, ? extends K> map)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ? extends V> map)
+    public void putAll(final Map<? extends V, ? extends K> map)
+    '''
 def remove():
-'''public V remove(final Object key)
-public boolean remove(final Object o)
-public boolean remove(final Object o)
-public boolean remove(final Object obj)
-public boolean remove(final Object obj)
-public final void remove()
-public K remove(final Object key)
-'''
-pass
+    '''    public V remove(final Object key)
+    public boolean remove(final Object o)
+    public boolean remove(final Object o)
+    public boolean remove(final Object obj)
+    public boolean remove(final Object obj)
+    public final void remove()
+    public K remove(final Object key)
+    '''
 def clear():
-'''public void clear()
-public void clear()
-public void clear()
-'''
-pass
+    '''    public void clear()
+    public void clear()
+    public void clear()
+    '''
 def getKey():
-'''public K getKey(final Object value)
-public K getKey()
-public V getKey()
-public K getKey()
-public V getKey(final Object value)
-'''
-pass
+    '''    public K getKey(final Object value)
+    public K getKey()
+    public V getKey()
+    public K getKey()
+    public V getKey(final Object value)
+    '''
 def removeValue():
-'''public K removeValue(final Object value)
-public V removeValue(final Object value)
-'''
-pass
+    '''    public K removeValue(final Object value)
+    public V removeValue(final Object value)
+    '''
 def firstKey():
-'''public K firstKey()
-public V firstKey()
-'''
-pass
+    '''    public K firstKey()
+    public V firstKey()
+    '''
 def lastKey():
-'''public K lastKey()
-public V lastKey()
-'''
-pass
+    '''    public K lastKey()
+    public V lastKey()
+    '''
 def nextKey():
-'''public K nextKey(final K key)
-public V nextKey(final V key)
-'''
-pass
+    '''    public K nextKey(final K key)
+    public V nextKey(final V key)
+    '''
 def previousKey():
-'''public K previousKey(final K key)
-public V previousKey(final V key)
-'''
-pass
+    '''    public K previousKey(final K key)
+    public V previousKey(final V key)
+    '''
 def keySet():
-'''public Set<K> keySet()
-public Set<V> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    public Set<V> keySet()
+    '''
 def values():
-'''public Set<V> values()
-public Set<K> values()
-'''
-pass
+    '''    public Set<V> values()
+    public Set<K> values()
+    '''
 def mapIterator():
-'''public OrderedMapIterator<K, V> mapIterator()
-public OrderedMapIterator<V, K> mapIterator()
-'''
-pass
+    '''    public OrderedMapIterator<K, V> mapIterator()
+    public OrderedMapIterator<V, K> mapIterator()
+    '''
 def inverseBidiMap():
-'''public OrderedBidiMap<V, K> inverseBidiMap()
-public OrderedBidiMap<K, V> inverseBidiMap()
-'''
-pass
+    '''    public OrderedBidiMap<V, K> inverseBidiMap()
+    public OrderedBidiMap<K, V> inverseBidiMap()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-public boolean equals(final Object obj)
-public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    public boolean equals(final Object obj)
+    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    '''
 def KeyView():
-'''public KeyView(final DataElement orderType)
-'''
-pass
+    '''    public KeyView(final DataElement orderType)
+    '''
 def iterator():
-'''public Iterator<K> iterator()
-public Iterator<V> iterator()
-'''
-pass
+    '''    public Iterator<K> iterator()
+    public Iterator<V> iterator()
+    '''
 def contains():
-'''public boolean contains(final Object obj)
-public boolean contains(final Object obj)
-public boolean contains(final Object obj)
-public boolean contains(final Object obj)
-'''
-pass
+    '''    public boolean contains(final Object obj)
+    public boolean contains(final Object obj)
+    public boolean contains(final Object obj)
+    public boolean contains(final Object obj)
+    '''
 def ValueView():
-'''public ValueView(final DataElement orderType)
-'''
-pass
+    '''    public ValueView(final DataElement orderType)
+    '''
 def hasNext():
-'''public final boolean hasNext()
-'''
-pass
+    '''    public final boolean hasNext()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def getValue():
-'''public V getValue()
-public K getValue()
-public V getValue()
-'''
-pass
+    '''    public V getValue()
+    public K getValue()
+    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V obj)
-public K setValue(final K obj)
-public V setValue(final V ignored)
-'''
-pass
+    '''    public V setValue(final V obj)
+    public K setValue(final K obj)
+    public V setValue(final V ignored)
+    '''
 def next():
-'''public K next()
-public V next()
-'''
-pass
+    '''    public K next()
+    public V next()
+    '''
 def previous():
-'''public K previous()
-public V previous()
-'''
-pass
+    '''    public K previous()
+    public V previous()
+    '''
 def InverseViewMapIterator():
-'''public InverseViewMapIterator(final DataElement orderType)
-'''
-pass
+    '''    public InverseViewMapIterator(final DataElement orderType)
+    '''

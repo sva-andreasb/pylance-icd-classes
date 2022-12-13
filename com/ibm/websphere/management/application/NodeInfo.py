@@ -1,32 +1,24 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getMajorVersion():
-'''public int getMajorVersion()
-'''
-pass
+    '''    public int getMajorVersion()
+    '''
 def getMinorVersion():
-'''public Integer getMinorVersion()
-'''
-pass
+    '''    public Integer getMinorVersion()
+    '''
 def isEjb3FeaturePackInstalled():
-'''public boolean isEjb3FeaturePackInstalled()
-'''
-pass
+    '''    public boolean isEjb3FeaturePackInstalled()
+    '''
 def isWebServicesFeaturePackInstalled():
-'''public boolean isWebServicesFeaturePackInstalled()
-'''
-pass
+    '''    public boolean isWebServicesFeaturePackInstalled()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

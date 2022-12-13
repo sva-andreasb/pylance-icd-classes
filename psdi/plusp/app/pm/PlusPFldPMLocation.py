@@ -1,8 +1,6 @@
 def PlusPFldPMLocation():
-'''public PlusPFldPMLocation(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldPMLocation(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

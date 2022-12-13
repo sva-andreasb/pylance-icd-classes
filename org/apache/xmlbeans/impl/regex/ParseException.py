@@ -1,8 +1,6 @@
 def ParseException():
-'''public ParseException(final String mes, final int location)
-'''
-pass
+    '''    public ParseException(final String mes, final int location)
+    '''
 def getLocation():
-'''public int getLocation()
-'''
-pass
+    '''    public int getLocation()
+    '''

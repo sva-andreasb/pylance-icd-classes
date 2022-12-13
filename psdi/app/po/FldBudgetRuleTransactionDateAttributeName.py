@@ -1,8 +1,6 @@
 def FldBudgetRuleTransactionDateAttributeName():
-'''public FldBudgetRuleTransactionDateAttributeName(final MboValue mbv)
-'''
-pass
+    '''    public FldBudgetRuleTransactionDateAttributeName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

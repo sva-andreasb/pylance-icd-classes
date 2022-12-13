@@ -1,8 +1,6 @@
 def FldMaxPushProviderName():
-'''public FldMaxPushProviderName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxPushProviderName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

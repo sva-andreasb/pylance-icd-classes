@@ -1,64 +1,48 @@
 def DefaultControlNode():
-'''public DefaultControlNode(final Class d)
-'''
-pass
+    '''    public DefaultControlNode(final Class d)
+    '''
 def putProperty():
-'''public void putProperty(final String key, final Object value, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void putProperty(final String key, final Object value, final IlvServicesProvider ilvServicesProvider)
+    '''
 def getProperty():
-'''public Object getProperty(final String key)
-'''
-pass
+    '''    public Object getProperty(final String key)
+    '''
 def getControl():
-'''public Object getControl()
-'''
-pass
+    '''    public Object getControl()
+    '''
 def setControl():
-'''public void setControl(final Object b)
-'''
-pass
+    '''    public void setControl(final Object b)
+    '''
 def getControlType():
-'''public String getControlType()
-'''
-pass
+    '''    public String getControlType()
+    '''
 def createControl():
-'''public Object createControl(final IlvForm ilvForm, final String c, final Object o, final Class clazz, final Element element)
-'''
-pass
+    '''    public Object createControl(final IlvForm ilvForm, final String c, final Object o, final Class clazz, final Element element)
+    '''
 def isLocaleDependentProperty():
-'''public boolean isLocaleDependentProperty(final String s)
-'''
-pass
+    '''    public boolean isLocaleDependentProperty(final String s)
+    '''
 def getBounds():
-'''public Rectangle getBounds()
-'''
-pass
+    '''    public Rectangle getBounds()
+    '''
 def setBounds():
-'''public void setBounds(final Rectangle rectangle)
-'''
-pass
+    '''    public void setBounds(final Rectangle rectangle)
+    '''
 def getPreferredSize():
-'''public Dimension getPreferredSize()
-'''
-pass
+    '''    public Dimension getPreferredSize()
+    '''
 def setPreferredSize():
-'''public void setPreferredSize(final Dimension dimension)
-'''
-pass
+    '''    public void setPreferredSize(final Dimension dimension)
+    '''
 def getMinimumSize():
-'''public Dimension getMinimumSize()
-'''
-pass
+    '''    public Dimension getMinimumSize()
+    '''
 def setMinimumSize():
-'''public void setMinimumSize(final Dimension dimension)
-'''
-pass
+    '''    public void setMinimumSize(final Dimension dimension)
+    '''
 def getMaximumSize():
-'''public Dimension getMaximumSize()
-'''
-pass
+    '''    public Dimension getMaximumSize()
+    '''
 def setMaximumSize():
-'''public void setMaximumSize(final Dimension dimension)
-'''
-pass
+    '''    public void setMaximumSize(final Dimension dimension)
+    '''

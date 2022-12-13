@@ -1,20 +1,15 @@
 def FldMatServQuantity():
-'''public FldMatServQuantity(final MboValue mbv)
-'''
-pass
+    '''    public FldMatServQuantity(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def isTransferIn():
-'''public boolean isTransferIn()
-'''
-pass
+    '''    public boolean isTransferIn()
+    '''
 def isTransferOut():
-'''public boolean isTransferOut()
-'''
-pass
+    '''    public boolean isTransferOut()
+    '''

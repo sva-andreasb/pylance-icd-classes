@@ -1,20 +1,15 @@
 def WorkflowMap():
-'''public WorkflowMap(final MboSet ms)
-'''
-pass
+    '''    public WorkflowMap(final MboSet ms)
+    '''
 def getWFDiagramInfo():
-'''public void getWFDiagramInfo(final int callSeq)
-'''
-pass
+    '''    public void getWFDiagramInfo(final int callSeq)
+    '''
 def next():
-'''public void next()
-'''
-pass
+    '''    public void next()
+    '''
 def previous():
-'''public void previous()
-'''
-pass
+    '''    public void previous()
+    '''
 def getWFViewInfo():
-'''public WFViewInfo getWFViewInfo()
-'''
-pass
+    '''    public WFViewInfo getWFViewInfo()
+    '''

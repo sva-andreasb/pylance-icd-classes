@@ -1,4 +1,3 @@
 def selectattr():
-'''public int selectattr()
-'''
-pass
+    '''    public int selectattr()
+    '''

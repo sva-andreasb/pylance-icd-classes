@@ -1,5 +1,4 @@
 def InvalidOperationException():
-'''public InvalidOperationException(final String message)
-public InvalidOperationException(final String message, final Throwable reason)
-'''
-pass
+    '''    public InvalidOperationException(final String message)
+    public InvalidOperationException(final String message, final Throwable reason)
+    '''

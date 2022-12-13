@@ -1,4 +1,3 @@
 def FldNumValue():
-'''public FldNumValue(final MboValue mbv)
-'''
-pass
+    '''    public FldNumValue(final MboValue mbv)
+    '''

@@ -1,16 +1,12 @@
 def getGroupName():
-'''public String getGroupName()
-'''
-pass
+    '''    public String getGroupName()
+    '''
 def setGroupName():
-'''public void setGroupName(final String value)
-'''
-pass
+    '''    public void setGroupName(final String value)
+    '''
 def getComparison():
-'''public String getComparison()
-'''
-pass
+    '''    public String getComparison()
+    '''
 def setComparison():
-'''public void setComparison(final String value)
-'''
-pass
+    '''    public void setComparison(final String value)
+    '''

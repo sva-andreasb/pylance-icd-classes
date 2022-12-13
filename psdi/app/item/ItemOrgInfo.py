@@ -1,97 +1,73 @@
 def ItemOrgInfo():
-'''public ItemOrgInfo(final MboSet ms)
-'''
-pass
+    '''    public ItemOrgInfo(final MboSet ms)
+    '''
 def getProcess():
-'''public String getProcess()
-'''
-pass
+    '''    public String getProcess()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getPersonOrgCriteria():
-'''public String getPersonOrgCriteria()
-'''
-pass
+    '''    public String getPersonOrgCriteria()
+    '''
 def checkWOExists():
-'''public boolean checkWOExists()
-'''
-pass
+    '''    public boolean checkWOExists()
+    '''
 def checkInvBalancesExists():
-'''public boolean checkInvBalancesExists()
-'''
-pass
+    '''    public boolean checkInvBalancesExists()
+    '''
 def checkAssetExists():
-'''public boolean checkAssetExists()
-'''
-pass
+    '''    public boolean checkAssetExists()
+    '''
 def checkJPExists():
-'''public boolean checkJPExists()
-'''
-pass
+    '''    public boolean checkJPExists()
+    '''
 def checkMRExists():
-'''public boolean checkMRExists()
-'''
-pass
+    '''    public boolean checkMRExists()
+    '''
 def checkPRExists():
-'''public boolean checkPRExists()
-'''
-pass
+    '''    public boolean checkPRExists()
+    '''
 def checkPOExists():
-'''public boolean checkPOExists()
-'''
-pass
+    '''    public boolean checkPOExists()
+    '''
 def checkContractExists():
-'''public boolean checkContractExists()
-'''
-pass
+    '''    public boolean checkContractExists()
+    '''
 def checkCIExists():
-'''public boolean checkCIExists()
-'''
-pass
+    '''    public boolean checkCIExists()
+    '''
 def checkIASExists():
-'''public boolean checkIASExists()
-'''
-pass
+    '''    public boolean checkIASExists()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
+    '''
 def validateChangeStatus():
-'''public void validateChangeStatus(final String status, final boolean rolldown, final Date date, final String memo)
-'''
-pass
+    '''    public void validateChangeStatus(final String status, final boolean rolldown, final Date date, final String memo)
+    '''
 def isPlanning():
-'''public boolean isPlanning()
-'''
-pass
+    '''    public boolean isPlanning()
+    '''
 def isPendobs():
-'''public boolean isPendobs()
-'''
-pass
+    '''    public boolean isPendobs()
+    '''
 def isObsolete():
-'''public boolean isObsolete()
-'''
-pass
+    '''    public boolean isObsolete()
+    '''
 def updateRelatedObjects():
-'''public void updateRelatedObjects(final String newStatus, final Date date, final String memo)
-'''
-pass
+    '''    public void updateRelatedObjects(final String newStatus, final Date date, final String memo)
+    '''
 def isRollDown():
-'''public boolean isRollDown()
-'''
-pass
+    '''    public boolean isRollDown()
+    '''
 def modifyAccounts():
-'''public void modifyAccounts()
-'''
-pass
+    '''    public void modifyAccounts()
+    '''

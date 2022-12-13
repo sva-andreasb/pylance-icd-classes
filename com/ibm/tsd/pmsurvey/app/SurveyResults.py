@@ -1,8 +1,6 @@
 def SurveyResults():
-'''public SurveyResults(final MboSet ms)
-'''
-pass
+    '''    public SurveyResults(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

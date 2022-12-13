@@ -1,4 +1,3 @@
 def PlusPRPStatusDummySet():
-'''public PlusPRPStatusDummySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPRPStatusDummySet(final MboServerInterface ms)
+    '''

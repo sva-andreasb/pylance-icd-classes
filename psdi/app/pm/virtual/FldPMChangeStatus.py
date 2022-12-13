@@ -1,8 +1,6 @@
 def FldPMChangeStatus():
-'''public FldPMChangeStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldPMChangeStatus(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,59 +1,45 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def hasDefaultValue():
-'''public boolean hasDefaultValue()
-'''
-pass
+    '''    public boolean hasDefaultValue()
+    '''
 def hasLegalValues():
-'''public boolean hasLegalValues()
-'''
-pass
+    '''    public boolean hasLegalValues()
+    '''
 def hasMaxValue():
-'''public boolean hasMaxValue()
-'''
-pass
+    '''    public boolean hasMaxValue()
+    '''
 def hasMinValue():
-'''public boolean hasMinValue()
-'''
-pass
+    '''    public boolean hasMinValue()
+    '''
 def getMaxValue():
-'''public Comparable getMaxValue()
-'''
-pass
+    '''    public Comparable getMaxValue()
+    '''
 def getMinValue():
-'''public Comparable getMinValue()
-'''
-pass
+    '''    public Comparable getMinValue()
+    '''
 def getDefaultValue():
-'''public Object getDefaultValue()
-'''
-pass
+    '''    public Object getDefaultValue()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def isValue():
-'''public boolean isValue(final Object o)
-'''
-pass
+    '''    public boolean isValue(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getLegalValues():
-'''public Set getLegalValues()
-'''
-pass
+    '''    public Set getLegalValues()
+    '''
 def getOpenType():
-'''public OpenType getOpenType()
-'''
-pass
+    '''    public OpenType getOpenType()
+    '''
 def OpenMBeanParameterInfoSupport():
-'''public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType)
-public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object defaultValue)
-public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object o, final Object[] array)
-public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object o, final Comparable minValue, final Comparable maxValue)
-'''
-pass
+    '''    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType)
+    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object defaultValue)
+    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object o, final Object[] array)
+    public OpenMBeanParameterInfoSupport(final String s, final String s2, final OpenType openType, final Object o, final Comparable minValue, final Comparable maxValue)
+    '''

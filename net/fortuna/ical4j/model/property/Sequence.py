@@ -1,37 +1,29 @@
 def Sequence():
-'''public Sequence()
-public Sequence(final String aValue)
-public Sequence(final ParameterList aList, final String aValue)
-public Sequence(final int aSequenceNo)
-public Sequence(final ParameterList aList, final int aSequenceNo)
-'''
-pass
+    '''    public Sequence()
+    public Sequence(final String aValue)
+    public Sequence(final ParameterList aList, final String aValue)
+    public Sequence(final int aSequenceNo)
+    public Sequence(final ParameterList aList, final int aSequenceNo)
+    '''
 def getSequenceNo():
-'''public final int getSequenceNo()
-'''
-pass
+    '''    public final int getSequenceNo()
+    '''
 def setValue():
-'''public final void setValue(final String aValue)
-'''
-pass
+    '''    public final void setValue(final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def compareTo():
-'''public int compareTo(final Sequence o)
-'''
-pass
+    '''    public int compareTo(final Sequence o)
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createProperty():
-'''public Property createProperty(final ParameterList parameters, final String value)
-public Property createProperty()
-'''
-pass
+    '''    public Property createProperty(final ParameterList parameters, final String value)
+    public Property createProperty()
+    '''

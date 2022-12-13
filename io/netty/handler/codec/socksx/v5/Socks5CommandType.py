@@ -1,29 +1,22 @@
 def valueOf():
-'''public static Socks5CommandType valueOf(final byte b)
-'''
-pass
+    '''    public static Socks5CommandType valueOf(final byte b)
+    '''
 def Socks5CommandType():
-'''public Socks5CommandType(final int byteValue)
-public Socks5CommandType(final int byteValue, final String name)
-'''
-pass
+    '''    public Socks5CommandType(final int byteValue)
+    public Socks5CommandType(final int byteValue, final String name)
+    '''
 def byteValue():
-'''public byte byteValue()
-'''
-pass
+    '''    public byte byteValue()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def compareTo():
-'''public int compareTo(final Socks5CommandType o)
-'''
-pass
+    '''    public int compareTo(final Socks5CommandType o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

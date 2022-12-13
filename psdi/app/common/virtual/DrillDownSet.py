@@ -1,48 +1,36 @@
 def DrillDownSet():
-'''public DrillDownSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DrillDownSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def getAssetField():
-'''public String getAssetField()
-'''
-pass
+    '''    public String getAssetField()
+    '''
 def getLocationField():
-'''public String getLocationField()
-'''
-pass
+    '''    public String getLocationField()
+    '''
 def setOriginatingInfo():
-'''public void setOriginatingInfo(final MboSetRemote originatingSet, final String originatingAttr, final int orginatingType)
-'''
-pass
+    '''    public void setOriginatingInfo(final MboSetRemote originatingSet, final String originatingAttr, final int orginatingType)
+    '''
 def showHierarchy():
-'''public MboSetRemote showHierarchy(final MboRemote mboRemote)
-'''
-pass
+    '''    public MboSetRemote showHierarchy(final MboRemote mboRemote)
+    '''
 def findTopLevelAsset():
-'''public MboSetRemote findTopLevelAsset()
-'''
-pass
+    '''    public MboSetRemote findTopLevelAsset()
+    '''
 def wasAssetNull():
-'''public boolean wasAssetNull()
-'''
-pass
+    '''    public boolean wasAssetNull()
+    '''
 def wasLocNull():
-'''public boolean wasLocNull()
-'''
-pass
+    '''    public boolean wasLocNull()
+    '''
 def showAllSystems():
-'''public void showAllSystems()
-'''
-pass
+    '''    public void showAllSystems()
+    '''
 def getMaxVarASSETDRILLDOWNTOP():
-'''public String getMaxVarASSETDRILLDOWNTOP()
-'''
-pass
+    '''    public String getMaxVarASSETDRILLDOWNTOP()
+    '''
 def startWithLocationOrAsset():
-'''public String startWithLocationOrAsset()
-'''
-pass
+    '''    public String startWithLocationOrAsset()
+    '''

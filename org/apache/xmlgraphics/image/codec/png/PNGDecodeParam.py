@@ -1,76 +1,57 @@
 def PNGDecodeParam():
-'''public PNGDecodeParam()
-'''
-pass
+    '''    public PNGDecodeParam()
+    '''
 def getSuppressAlpha():
-'''public boolean getSuppressAlpha()
-'''
-pass
+    '''    public boolean getSuppressAlpha()
+    '''
 def setSuppressAlpha():
-'''public void setSuppressAlpha(final boolean suppressAlpha)
-'''
-pass
+    '''    public void setSuppressAlpha(final boolean suppressAlpha)
+    '''
 def getExpandPalette():
-'''public boolean getExpandPalette()
-'''
-pass
+    '''    public boolean getExpandPalette()
+    '''
 def setExpandPalette():
-'''public void setExpandPalette(final boolean expandPalette)
-'''
-pass
+    '''    public void setExpandPalette(final boolean expandPalette)
+    '''
 def getOutput8BitGray():
-'''public boolean getOutput8BitGray()
-'''
-pass
+    '''    public boolean getOutput8BitGray()
+    '''
 def setOutput8BitGray():
-'''public void setOutput8BitGray(final boolean output8BitGray)
-'''
-pass
+    '''    public void setOutput8BitGray(final boolean output8BitGray)
+    '''
 def getPerformGammaCorrection():
-'''public boolean getPerformGammaCorrection()
-'''
-pass
+    '''    public boolean getPerformGammaCorrection()
+    '''
 def setPerformGammaCorrection():
-'''public void setPerformGammaCorrection(final boolean performGammaCorrection)
-'''
-pass
+    '''    public void setPerformGammaCorrection(final boolean performGammaCorrection)
+    '''
 def getUserExponent():
-'''public float getUserExponent()
-'''
-pass
+    '''    public float getUserExponent()
+    '''
 def setUserExponent():
-'''public void setUserExponent(final float userExponent)
-'''
-pass
+    '''    public void setUserExponent(final float userExponent)
+    '''
 def getDisplayExponent():
-'''public float getDisplayExponent()
-'''
-pass
+    '''    public float getDisplayExponent()
+    '''
 def setDisplayExponent():
-'''public void setDisplayExponent(final float displayExponent)
-'''
-pass
+    '''    public void setDisplayExponent(final float displayExponent)
+    '''
 def getExpandGrayAlpha():
-'''public boolean getExpandGrayAlpha()
-'''
-pass
+    '''    public boolean getExpandGrayAlpha()
+    '''
 def setExpandGrayAlpha():
-'''public void setExpandGrayAlpha(final boolean expandGrayAlpha)
-'''
-pass
+    '''    public void setExpandGrayAlpha(final boolean expandGrayAlpha)
+    '''
 def getGenerateEncodeParam():
-'''public boolean getGenerateEncodeParam()
-'''
-pass
+    '''    public boolean getGenerateEncodeParam()
+    '''
 def setGenerateEncodeParam():
-'''public void setGenerateEncodeParam(final boolean generateEncodeParam)
-'''
-pass
+    '''    public void setGenerateEncodeParam(final boolean generateEncodeParam)
+    '''
 def getEncodeParam():
-'''public PNGEncodeParam getEncodeParam()
-'''
-pass
+    '''    public PNGEncodeParam getEncodeParam()
+    '''
 def setEncodeParam():
-'''public void setEncodeParam(final PNGEncodeParam encodeParam)
-'''
-pass
+    '''    public void setEncodeParam(final PNGEncodeParam encodeParam)
+    '''

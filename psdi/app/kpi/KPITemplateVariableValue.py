@@ -1,39 +1,31 @@
-MBO_KPITEMPLATEVARVALUE = "String  KPITEMPLATEVARVALUE""
-KPITEMPLATEMAINNUM = "String  KPITEMPLATEMAINNUM""
-KPITEMPLATENUM = "String  KPITEMPLATENUM""
-KPITEMPLATEVARVALUEID = "String  KPITEMPLATEVARVALUEID""
-VARNAME = "String  VARNAME""
-VARVALUE = "String  VARVALUE""
-RELATIONSHIP_KPITEMPLATEVARIABLE = "String  KPITEMPLATEVARIABLE""
+MBO_KPITEMPLATEVARVALUE = "String  \"KPITEMPLATEVARVALUE\""
+KPITEMPLATEMAINNUM = "String  \"KPITEMPLATEMAINNUM\""
+KPITEMPLATENUM = "String  \"KPITEMPLATENUM\""
+KPITEMPLATEVARVALUEID = "String  \"KPITEMPLATEVARVALUEID\""
+VARNAME = "String  \"VARNAME\""
+VARVALUE = "String  \"VARVALUE\""
+RELATIONSHIP_KPITEMPLATEVARIABLE = "String  \"KPITEMPLATEVARIABLE\""
 def KPITemplateVariableValue():
-'''public KPITemplateVariableValue(final MboSet ms)
-'''
-pass
+    '''    public KPITemplateVariableValue(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getMaxObject():
-'''public String getMaxObject()
-'''
-pass
+    '''    public String getMaxObject()
+    '''
 def getMaxAttribute():
-'''public String getMaxAttribute()
-'''
-pass
+    '''    public String getMaxAttribute()
+    '''
 def getMaxType():
-'''public String getMaxType()
-'''
-pass
+    '''    public String getMaxType()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''

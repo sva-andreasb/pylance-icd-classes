@@ -1,4 +1,3 @@
 def HierarchyRequestException():
-'''public HierarchyRequestException(final String message)
-'''
-pass
+    '''    public HierarchyRequestException(final String message)
+    '''

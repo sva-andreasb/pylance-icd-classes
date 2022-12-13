@@ -1,64 +1,48 @@
 def channelOpened():
-'''public void channelOpened(final ChannelEvent channelEvent)
-'''
-pass
+    '''    public void channelOpened(final ChannelEvent channelEvent)
+    '''
 def channelOpenFailed():
-'''public void channelOpenFailed(final ChannelEvent channelEvent)
-'''
-pass
+    '''    public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''
 def channelClosed():
-'''public void channelClosed(final ChannelEvent channelEvent)
-'''
-pass
+    '''    public void channelClosed(final ChannelEvent channelEvent)
+    '''
 def channelMsgReceived():
-'''public void channelMsgReceived(final ChannelEvent channelEvent)
-'''
-pass
+    '''    public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''
 def addImListener():
-'''public synchronized void addImListener(final ImListener obj)
-'''
-pass
+    '''    public synchronized void addImListener(final ImListener obj)
+    '''
 def removeImListener():
-'''public synchronized void removeImListener(final ImListener obj)
-'''
-pass
+    '''    public synchronized void removeImListener(final ImListener obj)
+    '''
 def open():
-'''public void open()
-'''
-pass
+    '''    public void open()
+    '''
 def close():
-'''public void close(final int n)
-'''
-pass
+    '''    public void close(final int n)
+    '''
 def sendText():
-'''public void sendText(final boolean b, final String str)
-'''
-pass
+    '''    public void sendText(final boolean b, final String str)
+    '''
 def sendData():
-'''public void sendData(final boolean b, final int v, final int v2, final byte[] b2)
-'''
-pass
+    '''    public void sendData(final boolean b, final int v, final int v2, final byte[] b2)
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def getPartnerDetails():
-'''public STUserInstance getPartnerDetails()
-'''
-pass
+    '''    public STUserInstance getPartnerDetails()
+    '''
 def getPartner():
-'''public STUser getPartner()
-'''
-pass
+    '''    public STUser getPartner()
+    '''
 def getAcceptingSideStatus():
-'''public STUserStatus getAcceptingSideStatus()
-'''
-pass
+    '''    public STUserStatus getAcceptingSideStatus()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getEncLevel():
-'''public EncLevel getEncLevel()
-'''
-pass
+    '''    public EncLevel getEncLevel()
+    '''

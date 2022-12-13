@@ -1,20 +1,15 @@
 def NodeStat():
-'''public NodeStat()
-'''
-pass
+    '''    public NodeStat()
+    '''
 def getDegree():
-'''public int getDegree()
-'''
-pass
+    '''    public int getDegree()
+    '''
 def constructOneDegree():
-'''public void constructOneDegree()
-'''
-pass
+    '''    public void constructOneDegree()
+    '''
 def isDegreeFullyConstructed():
-'''public boolean isDegreeFullyConstructed()
-'''
-pass
+    '''    public boolean isDegreeFullyConstructed()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

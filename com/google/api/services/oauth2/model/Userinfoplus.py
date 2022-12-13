@@ -1,100 +1,75 @@
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public Userinfoplus setEmail(final String email)
-'''
-pass
+    '''    public Userinfoplus setEmail(final String email)
+    '''
 def getFamilyName():
-'''public String getFamilyName()
-'''
-pass
+    '''    public String getFamilyName()
+    '''
 def setFamilyName():
-'''public Userinfoplus setFamilyName(final String familyName)
-'''
-pass
+    '''    public Userinfoplus setFamilyName(final String familyName)
+    '''
 def getGender():
-'''public String getGender()
-'''
-pass
+    '''    public String getGender()
+    '''
 def setGender():
-'''public Userinfoplus setGender(final String gender)
-'''
-pass
+    '''    public Userinfoplus setGender(final String gender)
+    '''
 def getGivenName():
-'''public String getGivenName()
-'''
-pass
+    '''    public String getGivenName()
+    '''
 def setGivenName():
-'''public Userinfoplus setGivenName(final String givenName)
-'''
-pass
+    '''    public Userinfoplus setGivenName(final String givenName)
+    '''
 def getHd():
-'''public String getHd()
-'''
-pass
+    '''    public String getHd()
+    '''
 def setHd():
-'''public Userinfoplus setHd(final String hd)
-'''
-pass
+    '''    public Userinfoplus setHd(final String hd)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def setId():
-'''public Userinfoplus setId(final String id)
-'''
-pass
+    '''    public Userinfoplus setId(final String id)
+    '''
 def getLink():
-'''public String getLink()
-'''
-pass
+    '''    public String getLink()
+    '''
 def setLink():
-'''public Userinfoplus setLink(final String link)
-'''
-pass
+    '''    public Userinfoplus setLink(final String link)
+    '''
 def getLocale():
-'''public String getLocale()
-'''
-pass
+    '''    public String getLocale()
+    '''
 def setLocale():
-'''public Userinfoplus setLocale(final String locale)
-'''
-pass
+    '''    public Userinfoplus setLocale(final String locale)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public Userinfoplus setName(final String name)
-'''
-pass
+    '''    public Userinfoplus setName(final String name)
+    '''
 def getPicture():
-'''public String getPicture()
-'''
-pass
+    '''    public String getPicture()
+    '''
 def setPicture():
-'''public Userinfoplus setPicture(final String picture)
-'''
-pass
+    '''    public Userinfoplus setPicture(final String picture)
+    '''
 def getVerifiedEmail():
-'''public Boolean getVerifiedEmail()
-'''
-pass
+    '''    public Boolean getVerifiedEmail()
+    '''
 def setVerifiedEmail():
-'''public Userinfoplus setVerifiedEmail(final Boolean verifiedEmail)
-'''
-pass
+    '''    public Userinfoplus setVerifiedEmail(final Boolean verifiedEmail)
+    '''
 def isVerifiedEmail():
-'''public boolean isVerifiedEmail()
-'''
-pass
+    '''    public boolean isVerifiedEmail()
+    '''
 def set():
-'''public Userinfoplus set(final String s, final Object o)
-'''
-pass
+    '''    public Userinfoplus set(final String s, final Object o)
+    '''
 def clone():
-'''public Userinfoplus clone()
-'''
-pass
+    '''    public Userinfoplus clone()
+    '''

@@ -1,16 +1,12 @@
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def setValue():
-'''public void setValue(final byte[] value)
-'''
-pass
+    '''    public void setValue(final byte[] value)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

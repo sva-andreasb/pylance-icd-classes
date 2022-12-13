@@ -1,29 +1,22 @@
 def create():
-'''public static NodeTable create(final NodeTable nodeTable, final int nodeToIdCacheSize, final int idToNodeCacheSize)
-'''
-pass
+    '''    public static NodeTable create(final NodeTable nodeTable, final int nodeToIdCacheSize, final int idToNodeCacheSize)
+    '''
 def getNodeForNodeId():
-'''public Node getNodeForNodeId(final NodeId id)
-'''
-pass
+    '''    public Node getNodeForNodeId(final NodeId id)
+    '''
 def getNodeIdForNode():
-'''public NodeId getNodeIdForNode(final Node node)
-'''
-pass
+    '''    public NodeId getNodeIdForNode(final Node node)
+    '''
 def getAllocateNodeId():
-'''public NodeId getAllocateNodeId(final Node node)
-'''
-pass
+    '''    public NodeId getAllocateNodeId(final Node node)
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def sync():
-'''public void sync()
-public synchronized void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public synchronized void sync(final boolean force)
+    '''
 def all():
-'''public Iterator<Pair<NodeId, Node>> all()
-'''
-pass
+    '''    public Iterator<Pair<NodeId, Node>> all()
+    '''

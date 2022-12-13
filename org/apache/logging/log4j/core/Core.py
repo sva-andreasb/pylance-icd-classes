@@ -1,1 +1,1 @@
-CATEGORY_NAME = "String  Core""
+CATEGORY_NAME = "String  \"Core\""

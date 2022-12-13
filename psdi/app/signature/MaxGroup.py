@@ -1,44 +1,33 @@
 def MaxGroup():
-'''public MaxGroup(final MboSet ms)
-'''
-pass
+    '''    public MaxGroup(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copy():
-'''public MboRemote copy(final String newGroupName, final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final String newGroupName, final MboSetRemote mboset)
+    '''
 def canMaintainUsers():
-'''public boolean canMaintainUsers()
-'''
-pass
+    '''    public boolean canMaintainUsers()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def authorizeUsers():
-'''public void authorizeUsers(final MboSetRemote userSet, final String relationship)
-'''
-pass
+    '''    public void authorizeUsers(final MboSetRemote userSet, final String relationship)
+    '''

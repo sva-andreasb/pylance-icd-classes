@@ -1,137 +1,103 @@
 def setReserved():
-'''public void setReserved(final boolean reserved)
-'''
-pass
+    '''    public void setReserved(final boolean reserved)
+    '''
 def isReserved():
-'''public boolean isReserved()
-'''
-pass
+    '''    public boolean isReserved()
+    '''
 def getDestination():
-'''public HttpDestination getDestination()
-'''
-pass
+    '''    public HttpDestination getDestination()
+    '''
 def setDestination():
-'''public void setDestination(final HttpDestination destination)
-'''
-pass
+    '''    public void setDestination(final HttpDestination destination)
+    '''
 def send():
-'''public boolean send(final HttpExchange ex)
-'''
-pass
+    '''    public boolean send(final HttpExchange ex)
+    '''
 def isIdle():
-'''public boolean isIdle()
-'''
-pass
+    '''    public boolean isIdle()
+    '''
 def isSuspended():
-'''public boolean isSuspended()
-'''
-pass
+    '''    public boolean isSuspended()
+    '''
 def onClose():
-'''public void onClose()
-'''
-pass
+    '''    public void onClose()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toDetailString():
-'''public String toDetailString()
-'''
-pass
+    '''    public String toDetailString()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def setIdleTimeout():
-'''public void setIdleTimeout()
-'''
-pass
+    '''    public void setIdleTimeout()
+    '''
 def cancelIdleTimeout():
-'''public boolean cancelIdleTimeout()
-'''
-pass
+    '''    public boolean cancelIdleTimeout()
+    '''
 def dump():
-'''public String dump()
-public void dump(final Appendable out, final String indent)
-'''
-pass
+    '''    public String dump()
+    public void dump(final Appendable out, final String indent)
+    '''
 def startRequest():
-'''public void startRequest(final Buffer method, final Buffer url, final Buffer version)
-'''
-pass
+    '''    public void startRequest(final Buffer method, final Buffer url, final Buffer version)
+    '''
 def startResponse():
-'''public void startResponse(final Buffer version, final int status, final Buffer reason)
-'''
-pass
+    '''    public void startResponse(final Buffer version, final int status, final Buffer reason)
+    '''
 def parsedHeader():
-'''public void parsedHeader(final Buffer name, final Buffer value)
-'''
-pass
+    '''    public void parsedHeader(final Buffer name, final Buffer value)
+    '''
 def headerComplete():
-'''public void headerComplete()
-'''
-pass
+    '''    public void headerComplete()
+    '''
 def content():
-'''public void content(final Buffer ref)
-'''
-pass
+    '''    public void content(final Buffer ref)
+    '''
 def messageComplete():
-'''public void messageComplete(final long contextLength)
-'''
-pass
+    '''    public void messageComplete(final long contextLength)
+    '''
 def earlyEOF():
-'''public void earlyEOF()
-'''
-pass
+    '''    public void earlyEOF()
+    '''
 def expired():
-'''public void expired()
-'''
-pass
+    '''    public void expired()
+    '''
 def NonFinalResponseListener():
-'''public NonFinalResponseListener(final HttpExchange exchange)
-'''
-pass
+    '''    public NonFinalResponseListener(final HttpExchange exchange)
+    '''
 def onRequestCommitted():
-'''public void onRequestCommitted()
-'''
-pass
+    '''    public void onRequestCommitted()
+    '''
 def onRequestComplete():
-'''public void onRequestComplete()
-'''
-pass
+    '''    public void onRequestComplete()
+    '''
 def onResponseStatus():
-'''public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
-'''
-pass
+    '''    public void onResponseStatus(final Buffer version, final int status, final Buffer reason)
+    '''
 def onResponseHeader():
-'''public void onResponseHeader(final Buffer name, final Buffer value)
-'''
-pass
+    '''    public void onResponseHeader(final Buffer name, final Buffer value)
+    '''
 def onResponseHeaderComplete():
-'''public void onResponseHeaderComplete()
-'''
-pass
+    '''    public void onResponseHeaderComplete()
+    '''
 def onResponseContent():
-'''public void onResponseContent(final Buffer content)
-'''
-pass
+    '''    public void onResponseContent(final Buffer content)
+    '''
 def onResponseComplete():
-'''public void onResponseComplete()
-'''
-pass
+    '''    public void onResponseComplete()
+    '''
 def onConnectionFailed():
-'''public void onConnectionFailed(final Throwable ex)
-'''
-pass
+    '''    public void onConnectionFailed(final Throwable ex)
+    '''
 def onException():
-'''public void onException(final Throwable ex)
-'''
-pass
+    '''    public void onException(final Throwable ex)
+    '''
 def onExpire():
-'''public void onExpire()
-'''
-pass
+    '''    public void onExpire()
+    '''
 def onRetry():
-'''public void onRetry()
-'''
-pass
+    '''    public void onRetry()
+    '''

@@ -1,4 +1,3 @@
 def FldWpLaborRate():
-'''public FldWpLaborRate(final MboValue mbv)
-'''
-pass
+    '''    public FldWpLaborRate(final MboValue mbv)
+    '''

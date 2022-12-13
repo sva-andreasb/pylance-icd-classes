@@ -1,137 +1,104 @@
 def setEndpoint():
-'''public void setEndpoint(final String endpoint)
-'''
-pass
+    '''    public void setEndpoint(final String endpoint)
+    '''
 def setRegion():
-'''public void setRegion(final Region region)
-'''
-pass
+    '''    public void setRegion(final Region region)
+    '''
 def cancelKeyDeletion():
-'''public CancelKeyDeletionResult cancelKeyDeletion(final CancelKeyDeletionRequest request)
-'''
-pass
+    '''    public CancelKeyDeletionResult cancelKeyDeletion(final CancelKeyDeletionRequest request)
+    '''
 def createAlias():
-'''public CreateAliasResult createAlias(final CreateAliasRequest request)
-'''
-pass
+    '''    public CreateAliasResult createAlias(final CreateAliasRequest request)
+    '''
 def createGrant():
-'''public CreateGrantResult createGrant(final CreateGrantRequest request)
-'''
-pass
+    '''    public CreateGrantResult createGrant(final CreateGrantRequest request)
+    '''
 def createKey():
-'''public CreateKeyResult createKey(final CreateKeyRequest request)
-public CreateKeyResult createKey()
-'''
-pass
+    '''    public CreateKeyResult createKey(final CreateKeyRequest request)
+    public CreateKeyResult createKey()
+    '''
 def decrypt():
-'''public DecryptResult decrypt(final DecryptRequest request)
-'''
-pass
+    '''    public DecryptResult decrypt(final DecryptRequest request)
+    '''
 def deleteAlias():
-'''public DeleteAliasResult deleteAlias(final DeleteAliasRequest request)
-'''
-pass
+    '''    public DeleteAliasResult deleteAlias(final DeleteAliasRequest request)
+    '''
 def describeKey():
-'''public DescribeKeyResult describeKey(final DescribeKeyRequest request)
-'''
-pass
+    '''    public DescribeKeyResult describeKey(final DescribeKeyRequest request)
+    '''
 def disableKey():
-'''public DisableKeyResult disableKey(final DisableKeyRequest request)
-'''
-pass
+    '''    public DisableKeyResult disableKey(final DisableKeyRequest request)
+    '''
 def disableKeyRotation():
-'''public DisableKeyRotationResult disableKeyRotation(final DisableKeyRotationRequest request)
-'''
-pass
+    '''    public DisableKeyRotationResult disableKeyRotation(final DisableKeyRotationRequest request)
+    '''
 def enableKey():
-'''public EnableKeyResult enableKey(final EnableKeyRequest request)
-'''
-pass
+    '''    public EnableKeyResult enableKey(final EnableKeyRequest request)
+    '''
 def enableKeyRotation():
-'''public EnableKeyRotationResult enableKeyRotation(final EnableKeyRotationRequest request)
-'''
-pass
+    '''    public EnableKeyRotationResult enableKeyRotation(final EnableKeyRotationRequest request)
+    '''
 def encrypt():
-'''public EncryptResult encrypt(final EncryptRequest request)
-'''
-pass
+    '''    public EncryptResult encrypt(final EncryptRequest request)
+    '''
 def generateDataKey():
-'''public GenerateDataKeyResult generateDataKey(final GenerateDataKeyRequest request)
-'''
-pass
+    '''    public GenerateDataKeyResult generateDataKey(final GenerateDataKeyRequest request)
+    '''
 def generateDataKeyWithoutPlaintext():
-'''public GenerateDataKeyWithoutPlaintextResult generateDataKeyWithoutPlaintext(final GenerateDataKeyWithoutPlaintextRequest request)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextResult generateDataKeyWithoutPlaintext(final GenerateDataKeyWithoutPlaintextRequest request)
+    '''
 def generateRandom():
-'''public GenerateRandomResult generateRandom(final GenerateRandomRequest request)
-public GenerateRandomResult generateRandom()
-'''
-pass
+    '''    public GenerateRandomResult generateRandom(final GenerateRandomRequest request)
+    public GenerateRandomResult generateRandom()
+    '''
 def getKeyPolicy():
-'''public GetKeyPolicyResult getKeyPolicy(final GetKeyPolicyRequest request)
-'''
-pass
+    '''    public GetKeyPolicyResult getKeyPolicy(final GetKeyPolicyRequest request)
+    '''
 def getKeyRotationStatus():
-'''public GetKeyRotationStatusResult getKeyRotationStatus(final GetKeyRotationStatusRequest request)
-'''
-pass
+    '''    public GetKeyRotationStatusResult getKeyRotationStatus(final GetKeyRotationStatusRequest request)
+    '''
 def listAliases():
-'''public ListAliasesResult listAliases(final ListAliasesRequest request)
-public ListAliasesResult listAliases()
-'''
-pass
+    '''    public ListAliasesResult listAliases(final ListAliasesRequest request)
+    public ListAliasesResult listAliases()
+    '''
 def listGrants():
-'''public ListGrantsResult listGrants(final ListGrantsRequest request)
-'''
-pass
+    '''    public ListGrantsResult listGrants(final ListGrantsRequest request)
+    '''
 def listKeyPolicies():
-'''public ListKeyPoliciesResult listKeyPolicies(final ListKeyPoliciesRequest request)
-'''
-pass
+    '''    public ListKeyPoliciesResult listKeyPolicies(final ListKeyPoliciesRequest request)
+    '''
 def listKeys():
-'''public ListKeysResult listKeys(final ListKeysRequest request)
-public ListKeysResult listKeys()
-'''
-pass
+    '''    public ListKeysResult listKeys(final ListKeysRequest request)
+    public ListKeysResult listKeys()
+    '''
 def listRetirableGrants():
-'''public ListRetirableGrantsResult listRetirableGrants(final ListRetirableGrantsRequest request)
-'''
-pass
+    '''    public ListRetirableGrantsResult listRetirableGrants(final ListRetirableGrantsRequest request)
+    '''
 def putKeyPolicy():
-'''public PutKeyPolicyResult putKeyPolicy(final PutKeyPolicyRequest request)
-'''
-pass
+    '''    public PutKeyPolicyResult putKeyPolicy(final PutKeyPolicyRequest request)
+    '''
 def reEncrypt():
-'''public ReEncryptResult reEncrypt(final ReEncryptRequest request)
-'''
-pass
+    '''    public ReEncryptResult reEncrypt(final ReEncryptRequest request)
+    '''
 def retireGrant():
-'''public RetireGrantResult retireGrant(final RetireGrantRequest request)
-public RetireGrantResult retireGrant()
-'''
-pass
+    '''    public RetireGrantResult retireGrant(final RetireGrantRequest request)
+    public RetireGrantResult retireGrant()
+    '''
 def revokeGrant():
-'''public RevokeGrantResult revokeGrant(final RevokeGrantRequest request)
-'''
-pass
+    '''    public RevokeGrantResult revokeGrant(final RevokeGrantRequest request)
+    '''
 def scheduleKeyDeletion():
-'''public ScheduleKeyDeletionResult scheduleKeyDeletion(final ScheduleKeyDeletionRequest request)
-'''
-pass
+    '''    public ScheduleKeyDeletionResult scheduleKeyDeletion(final ScheduleKeyDeletionRequest request)
+    '''
 def updateAlias():
-'''public UpdateAliasResult updateAlias(final UpdateAliasRequest request)
-'''
-pass
+    '''    public UpdateAliasResult updateAlias(final UpdateAliasRequest request)
+    '''
 def updateKeyDescription():
-'''public UpdateKeyDescriptionResult updateKeyDescription(final UpdateKeyDescriptionRequest request)
-'''
-pass
+    '''    public UpdateKeyDescriptionResult updateKeyDescription(final UpdateKeyDescriptionRequest request)
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def getCachedResponseMetadata():
-'''public ResponseMetadata getCachedResponseMetadata(final AmazonWebServiceRequest request)
-'''
-pass
+    '''    public ResponseMetadata getCachedResponseMetadata(final AmazonWebServiceRequest request)
+    '''

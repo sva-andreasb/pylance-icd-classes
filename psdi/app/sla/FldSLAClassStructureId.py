@@ -1,8 +1,6 @@
 def FldSLAClassStructureId():
-'''public FldSLAClassStructureId(final MboValue mbv)
-'''
-pass
+    '''    public FldSLAClassStructureId(final MboValue mbv)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

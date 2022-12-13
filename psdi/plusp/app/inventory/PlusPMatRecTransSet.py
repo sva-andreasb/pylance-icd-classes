@@ -1,8 +1,6 @@
 def PlusPMatRecTransSet():
-'''public PlusPMatRecTransSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPMatRecTransSet(final MboServerInterface arg0)
+    '''
 def fireEventsAfterDBCommit():
-'''public void fireEventsAfterDBCommit(final MXTransaction txn)
-'''
-pass
+    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''

@@ -1,39 +1,30 @@
 def IlvDoublePoint():
-'''public IlvDoublePoint()
-public IlvDoublePoint(final double x, final double y)
-public IlvDoublePoint(final IlvDoublePoint ilvDoublePoint)
-'''
-pass
+    '''    public IlvDoublePoint()
+    public IlvDoublePoint(final double x, final double y)
+    public IlvDoublePoint(final IlvDoublePoint ilvDoublePoint)
+    '''
 def translate():
-'''public void translate(final double n, final double n2)
-'''
-pass
+    '''    public void translate(final double n, final double n2)
+    '''
 def setLocation():
-'''public void setLocation(final double x, final double y)
-public void setLocation(final IlvDoublePoint ilvDoublePoint)
-'''
-pass
+    '''    public void setLocation(final double x, final double y)
+    public void setLocation(final IlvDoublePoint ilvDoublePoint)
+    '''
 def floor():
-'''public void floor()
-'''
-pass
+    '''    public void floor()
+    '''
 def xFloor():
-'''public int xFloor()
-'''
-pass
+    '''    public int xFloor()
+    '''
 def yFloor():
-'''public int yFloor()
-'''
-pass
+    '''    public int yFloor()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

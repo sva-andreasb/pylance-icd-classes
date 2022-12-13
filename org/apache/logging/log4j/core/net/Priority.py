@@ -1,24 +1,18 @@
 def Priority():
-'''public Priority(final Facility facility, final Severity severity)
-'''
-pass
+    '''    public Priority(final Facility facility, final Severity severity)
+    '''
 def getPriority():
-'''public static int getPriority(final Facility facility, final Level level)
-'''
-pass
+    '''    public static int getPriority(final Facility facility, final Level level)
+    '''
 def getFacility():
-'''public Facility getFacility()
-'''
-pass
+    '''    public Facility getFacility()
+    '''
 def getSeverity():
-'''public Severity getSeverity()
-'''
-pass
+    '''    public Severity getSeverity()
+    '''
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

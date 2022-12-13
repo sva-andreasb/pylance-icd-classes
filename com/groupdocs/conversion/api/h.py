@@ -1,10 +1,8 @@
 def h():
-'''public h(final ILoader<Diagram, FromDiagramsOptions> loader, final ToImageOptions toImageOptions)
-'''
-pass
+    '''    public h(final ILoader<Diagram, FromDiagramsOptions> loader, final ToImageOptions toImageOptions)
+    '''
 def toImage():
-'''public void toImage(final OutputStream outputStream)
-public void toImage(final String savePath)
-public void toImage(final IStreamCallback<InputStream> dataCallback)
-'''
-pass
+    '''    public void toImage(final OutputStream outputStream)
+    public void toImage(final String savePath)
+    public void toImage(final IStreamCallback<InputStream> dataCallback)
+    '''

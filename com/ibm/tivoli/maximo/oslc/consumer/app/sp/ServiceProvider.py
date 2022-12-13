@@ -1,4 +1,3 @@
 def ServiceProvider():
-'''public ServiceProvider(final MboSet ms)
-'''
-pass
+    '''    public ServiceProvider(final MboSet ms)
+    '''

@@ -1,12 +1,9 @@
 def PlusPEmail():
-'''public PlusPEmail(final MboSet arg0)
-'''
-pass
+    '''    public PlusPEmail(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def makeOtherNotPrimary():
-'''public void makeOtherNotPrimary()
-'''
-pass
+    '''    public void makeOtherNotPrimary()
+    '''

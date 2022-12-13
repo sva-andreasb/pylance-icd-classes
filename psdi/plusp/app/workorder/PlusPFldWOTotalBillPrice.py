@@ -1,8 +1,6 @@
 def PlusPFldWOTotalBillPrice():
-'''public PlusPFldWOTotalBillPrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldWOTotalBillPrice(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,8 +1,6 @@
 def FldAMCrewShiftNum():
-'''public FldAMCrewShiftNum(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewShiftNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

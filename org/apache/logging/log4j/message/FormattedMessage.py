@@ -1,39 +1,31 @@
 def FormattedMessage():
-'''public FormattedMessage(final Locale locale, final String messagePattern, final Object arg)
-public FormattedMessage(final Locale locale, final String messagePattern, final Object arg1, final Object arg2)
-public FormattedMessage(final Locale locale, final String messagePattern, final Object... arguments)
-public FormattedMessage(final Locale locale, final String messagePattern, final Object[] arguments, final Throwable throwable)
-public FormattedMessage(final String messagePattern, final Object arg)
-public FormattedMessage(final String messagePattern, final Object arg1, final Object arg2)
-public FormattedMessage(final String messagePattern, final Object... arguments)
-public FormattedMessage(final String messagePattern, final Object[] arguments, final Throwable throwable)
-'''
-pass
+    '''    public FormattedMessage(final Locale locale, final String messagePattern, final Object arg)
+    public FormattedMessage(final Locale locale, final String messagePattern, final Object arg1, final Object arg2)
+    public FormattedMessage(final Locale locale, final String messagePattern, final Object... arguments)
+    public FormattedMessage(final Locale locale, final String messagePattern, final Object[] arguments, final Throwable throwable)
+    public FormattedMessage(final String messagePattern, final Object arg)
+    public FormattedMessage(final String messagePattern, final Object arg1, final Object arg2)
+    public FormattedMessage(final String messagePattern, final Object... arguments)
+    public FormattedMessage(final String messagePattern, final Object[] arguments, final Throwable throwable)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

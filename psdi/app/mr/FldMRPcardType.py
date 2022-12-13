@@ -1,4 +1,3 @@
 def FldMRPcardType():
-'''public FldMRPcardType(final MboValue mbv)
-'''
-pass
+    '''    public FldMRPcardType(final MboValue mbv)
+    '''

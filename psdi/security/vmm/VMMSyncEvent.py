@@ -4,52 +4,40 @@ SYNC_GROUP = "int  300"
 SYNC_GROUPMEMBERS = "int  500"
 SYNC_ENDED = "int  600"
 def VMMSyncEvent():
-'''public VMMSyncEvent(final int eventId, final Connection con, final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)
-public VMMSyncEvent(final int eventId, final VMMDataMap dataMap, final VMMSyncData syncData)
-public VMMSyncEvent(final int eventId, final MemberDataMap memberDataMap, final VMMSyncData syncData, final Set members)
-'''
-pass
+    '''    public VMMSyncEvent(final int eventId, final Connection con, final MXLogger logger, final MXLogger sqlLogger, final UserInfo userInfo)
+    public VMMSyncEvent(final int eventId, final VMMDataMap dataMap, final VMMSyncData syncData)
+    public VMMSyncEvent(final int eventId, final MemberDataMap memberDataMap, final VMMSyncData syncData, final Set members)
+    '''
 def getEventType():
-'''public int getEventType()
-'''
-pass
+    '''    public int getEventType()
+    '''
 def getConnection():
-'''public Connection getConnection()
-'''
-pass
+    '''    public Connection getConnection()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''
 def getSqlLogger():
-'''public MXLogger getSqlLogger()
-'''
-pass
+    '''    public MXLogger getSqlLogger()
+    '''
 def getUserSyncData():
-'''public VMMSyncData getUserSyncData()
-'''
-pass
+    '''    public VMMSyncData getUserSyncData()
+    '''
 def getUserDataMap():
-'''public VMMDataMap getUserDataMap()
-'''
-pass
+    '''    public VMMDataMap getUserDataMap()
+    '''
 def getGroupSyncData():
-'''public VMMSyncData getGroupSyncData()
-'''
-pass
+    '''    public VMMSyncData getGroupSyncData()
+    '''
 def getGroupDataMap():
-'''public VMMDataMap getGroupDataMap()
-'''
-pass
+    '''    public VMMDataMap getGroupDataMap()
+    '''
 def getGroupMemberDataMap():
-'''public MemberDataMap getGroupMemberDataMap()
-'''
-pass
+    '''    public MemberDataMap getGroupMemberDataMap()
+    '''
 def getGroupMembers():
-'''public Set getGroupMembers()
-'''
-pass
+    '''    public Set getGroupMembers()
+    '''

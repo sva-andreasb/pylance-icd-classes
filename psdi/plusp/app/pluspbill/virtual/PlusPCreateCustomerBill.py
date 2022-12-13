@@ -1,12 +1,9 @@
 def PlusPCreateCustomerBill():
-'''public PlusPCreateCustomerBill(final MboSet ms)
-'''
-pass
+    '''    public PlusPCreateCustomerBill(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getNewBillBatch():
-'''public MboRemote getNewBillBatch()
-'''
-pass
+    '''    public MboRemote getNewBillBatch()
+    '''

@@ -1,20 +1,15 @@
 def Reference():
-'''public Reference(final T r)
-'''
-pass
+    '''    public Reference(final T r)
+    '''
 def clone():
-'''public Reference<T> clone()
-'''
-pass
+    '''    public Reference<T> clone()
+    '''
 def readOnly():
-'''public T readOnly()
-'''
-pass
+    '''    public T readOnly()
+    '''
 def copyOnWrite():
-'''public T copyOnWrite()
-'''
-pass
+    '''    public T copyOnWrite()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

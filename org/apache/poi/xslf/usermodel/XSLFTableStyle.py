@@ -1,12 +1,9 @@
 def getXmlObject():
-'''public CTTableStyle getXmlObject()
-'''
-pass
+    '''    public CTTableStyle getXmlObject()
+    '''
 def getStyleName():
-'''public String getStyleName()
-'''
-pass
+    '''    public String getStyleName()
+    '''
 def getStyleId():
-'''public String getStyleId()
-'''
-pass
+    '''    public String getStyleId()
+    '''

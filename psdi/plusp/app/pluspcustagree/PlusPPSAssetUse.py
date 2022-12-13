@@ -1,8 +1,6 @@
 def PlusPPSAssetUse():
-'''public PlusPPSAssetUse(final MboSet set)
-'''
-pass
+    '''    public PlusPPSAssetUse(final MboSet set)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

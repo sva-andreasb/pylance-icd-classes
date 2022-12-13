@@ -1,16 +1,12 @@
 def Tiff2Pdf():
-'''public Tiff2Pdf()
-'''
-pass
+    '''    public Tiff2Pdf()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def valueHasChanged():
-'''public void valueHasChanged(final ToolArgument arg)
-'''
-pass
+    '''    public void valueHasChanged(final ToolArgument arg)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

@@ -1,4 +1,3 @@
 def AttributeListSet():
-'''public AttributeListSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AttributeListSet(final MboServerInterface ms)
+    '''

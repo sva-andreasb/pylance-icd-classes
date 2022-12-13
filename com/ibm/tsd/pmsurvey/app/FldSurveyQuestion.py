@@ -1,8 +1,6 @@
 def FldSurveyQuestion():
-'''public FldSurveyQuestion(final MboValue mbv)
-'''
-pass
+    '''    public FldSurveyQuestion(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

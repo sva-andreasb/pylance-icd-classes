@@ -1,164 +1,123 @@
 def RingBufferLogEvent():
-'''public RingBufferLogEvent()
-'''
-pass
+    '''    public RingBufferLogEvent()
+    '''
 def setValues():
-'''public void setValues(final AsyncLogger anAsyncLogger, final String aLoggerName, final Marker aMarker, final String theFqcn, final Level aLevel, final Message msg, final Throwable aThrowable, final StringMap mutableContextData, final ThreadContext.ContextStack aContextStack, final long threadId, final String threadName, final int threadPriority, final StackTraceElement aLocation, final Clock clock, final NanoClock nanoClock)
-'''
-pass
+    '''    public void setValues(final AsyncLogger anAsyncLogger, final String aLoggerName, final Marker aMarker, final String theFqcn, final Level aLevel, final Message msg, final Throwable aThrowable, final StringMap mutableContextData, final ThreadContext.ContextStack aContextStack, final long threadId, final String threadName, final int threadPriority, final StackTraceElement aLocation, final Clock clock, final NanoClock nanoClock)
+    '''
 def toImmutable():
-'''public LogEvent toImmutable()
-'''
-pass
+    '''    public LogEvent toImmutable()
+    '''
 def execute():
-'''public void execute(final boolean endOfBatch)
-'''
-pass
+    '''    public void execute(final boolean endOfBatch)
+    '''
 def isPopulated():
-'''public boolean isPopulated()
-'''
-pass
+    '''    public boolean isPopulated()
+    '''
 def isEndOfBatch():
-'''public boolean isEndOfBatch()
-'''
-pass
+    '''    public boolean isEndOfBatch()
+    '''
 def setEndOfBatch():
-'''public void setEndOfBatch(final boolean endOfBatch)
-'''
-pass
+    '''    public void setEndOfBatch(final boolean endOfBatch)
+    '''
 def isIncludeLocation():
-'''public boolean isIncludeLocation()
-'''
-pass
+    '''    public boolean isIncludeLocation()
+    '''
 def setIncludeLocation():
-'''public void setIncludeLocation(final boolean includeLocation)
-'''
-pass
+    '''    public void setIncludeLocation(final boolean includeLocation)
+    '''
 def getLoggerName():
-'''public String getLoggerName()
-'''
-pass
+    '''    public String getLoggerName()
+    '''
 def getMarker():
-'''public Marker getMarker()
-'''
-pass
+    '''    public Marker getMarker()
+    '''
 def getLoggerFqcn():
-'''public String getLoggerFqcn()
-'''
-pass
+    '''    public String getLoggerFqcn()
+    '''
 def getLevel():
-'''public Level getLevel()
-'''
-pass
+    '''    public Level getLevel()
+    '''
 def getMessage():
-'''public Message getMessage()
-'''
-pass
+    '''    public Message getMessage()
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder buffer)
-'''
-pass
+    '''    public void formatTo(final StringBuilder buffer)
+    '''
 def swapParameters():
-'''public Object[] swapParameters(final Object[] emptyReplacement)
-'''
-pass
+    '''    public Object[] swapParameters(final Object[] emptyReplacement)
+    '''
 def getParameterCount():
-'''public short getParameterCount()
-'''
-pass
+    '''    public short getParameterCount()
+    '''
 def forEachParameter():
-'''public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
-'''
-pass
+    '''    public <S> void forEachParameter(final ParameterConsumer<S> action, final S state)
+    '''
 def memento():
-'''public Message memento()
-'''
-pass
+    '''    public Message memento()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def charAt():
-'''public char charAt(final int index)
-'''
-pass
+    '''    public char charAt(final int index)
+    '''
 def subSequence():
-'''public CharSequence subSequence(final int start, final int end)
-'''
-pass
+    '''    public CharSequence subSequence(final int start, final int end)
+    '''
 def getThrown():
-'''public Throwable getThrown()
-'''
-pass
+    '''    public Throwable getThrown()
+    '''
 def getThrownProxy():
-'''public ThrowableProxy getThrownProxy()
-'''
-pass
+    '''    public ThrowableProxy getThrownProxy()
+    '''
 def getContextData():
-'''public ReadOnlyStringMap getContextData()
-'''
-pass
+    '''    public ReadOnlyStringMap getContextData()
+    '''
 def getContextMap():
-'''public Map<String, String> getContextMap()
-'''
-pass
+    '''    public Map<String, String> getContextMap()
+    '''
 def getThreadId():
-'''public long getThreadId()
-'''
-pass
+    '''    public long getThreadId()
+    '''
 def getThreadName():
-'''public String getThreadName()
-'''
-pass
+    '''    public String getThreadName()
+    '''
 def getThreadPriority():
-'''public int getThreadPriority()
-'''
-pass
+    '''    public int getThreadPriority()
+    '''
 def getSource():
-'''public StackTraceElement getSource()
-'''
-pass
+    '''    public StackTraceElement getSource()
+    '''
 def getTimeMillis():
-'''public long getTimeMillis()
-'''
-pass
+    '''    public long getTimeMillis()
+    '''
 def getInstant():
-'''public Instant getInstant()
-'''
-pass
+    '''    public Instant getInstant()
+    '''
 def getNanoTime():
-'''public long getNanoTime()
-'''
-pass
+    '''    public long getNanoTime()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def createMemento():
-'''public LogEvent createMemento()
-'''
-pass
+    '''    public LogEvent createMemento()
+    '''
 def initializeBuilder():
-'''public void initializeBuilder(final Log4jLogEvent.Builder builder)
-'''
-pass
+    '''    public void initializeBuilder(final Log4jLogEvent.Builder builder)
+    '''
 def newInstance():
-'''public RingBufferLogEvent newInstance()
-'''
-pass
+    '''    public RingBufferLogEvent newInstance()
+    '''

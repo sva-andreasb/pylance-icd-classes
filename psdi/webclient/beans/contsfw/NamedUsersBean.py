@@ -1,4 +1,3 @@
 def selectpeople():
-'''public int selectpeople()
-'''
-pass
+    '''    public int selectpeople()
+    '''

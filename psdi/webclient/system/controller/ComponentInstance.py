@@ -1,315 +1,239 @@
 NOT_CLICKABLE = "int  -1"
 CLICKABLE_OFF = "int  0"
 CLICKABLE_ON = "int  1"
-CONTAINER_WARNING_IMAGE = "String  async/container_warning.gif""
-CONTAINER_ERROR_IMAGE = "String  async/container_error.gif""
-CONTAINER_WARNING = "String  warning""
-CONTAINER_ERROR = "String  error""
+CONTAINER_WARNING_IMAGE = "String  \"async/container_warning.gif\""
+CONTAINER_ERROR_IMAGE = "String  \"async/container_error.gif\""
+CONTAINER_WARNING = "String  \"warning\""
+CONTAINER_ERROR = "String  \"error\""
 def ComponentInstance():
-'''public ComponentInstance()
-'''
-pass
+    '''    public ComponentInstance()
+    '''
 def setControl():
-'''public void setControl(final ControlInstance control)
-'''
-pass
+    '''    public void setControl(final ControlInstance control)
+    '''
 def hiddenByProperty():
-'''public boolean hiddenByProperty()
-'''
-pass
+    '''    public boolean hiddenByProperty()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def hiddenByProp():
-'''public boolean hiddenByProp(final String hideWhen)
-'''
-pass
+    '''    public boolean hiddenByProp(final String hideWhen)
+    '''
 def getCurrent():
-'''public static ComponentInstance getCurrent(final ServletRequest request)
-'''
-pass
+    '''    public static ComponentInstance getCurrent(final ServletRequest request)
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def isHoversActive():
-'''public boolean isHoversActive()
-'''
-pass
+    '''    public boolean isHoversActive()
+    '''
 def setIsHoversActive():
-'''public void setIsHoversActive(final boolean aBool)
-'''
-pass
+    '''    public void setIsHoversActive(final boolean aBool)
+    '''
 def getControl():
-'''public ControlInstance getControl()
-'''
-pass
+    '''    public ControlInstance getControl()
+    '''
 def renderChildrenControls():
-'''public void renderChildrenControls()
-'''
-pass
+    '''    public void renderChildrenControls()
+    '''
 def renderChildComponents():
-'''public void renderChildComponents()
-'''
-pass
+    '''    public void renderChildComponents()
+    '''
 def isChild():
-'''public boolean isChild(final Element child)
-'''
-pass
+    '''    public boolean isChild(final Element child)
+    '''
 def isComponent():
-'''public boolean isComponent(final Element component)
-'''
-pass
+    '''    public boolean isComponent(final Element component)
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasComponents():
-'''public synchronized boolean hasComponents()
-'''
-pass
+    '''    public synchronized boolean hasComponents()
+    '''
 def getChildrenDesignOnly():
-'''public boolean getChildrenDesignOnly()
-'''
-pass
+    '''    public boolean getChildrenDesignOnly()
+    '''
 def hasChanged():
-'''public boolean hasChanged()
-'''
-pass
+    '''    public boolean hasChanged()
+    '''
 def rerendering():
-'''public boolean rerendering()
-'''
-pass
+    '''    public boolean rerendering()
+    '''
 def needsRender():
-'''public boolean needsRender()
-'''
-pass
+    '''    public boolean needsRender()
+    '''
 def broadcastEvent():
-'''public int broadcastEvent(final WebClientEvent event)
-'''
-pass
+    '''    public int broadcastEvent(final WebClientEvent event)
+    '''
 def action():
-'''public int action()
-'''
-pass
+    '''    public int action()
+    '''
 def query():
-'''public int query()
-'''
-pass
+    '''    public int query()
+    '''
 def showMenubarMenu():
-'''public int showMenubarMenu()
-'''
-pass
+    '''    public int showMenubarMenu()
+    '''
 def signout():
-'''public void signout()
-'''
-pass
+    '''    public void signout()
+    '''
 def showMenu():
-'''public int showMenu()
-'''
-pass
+    '''    public int showMenu()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''
 def canChangeRowFocus():
-'''public boolean canChangeRowFocus()
-'''
-pass
+    '''    public boolean canChangeRowFocus()
+    '''
 def formatLabel():
-'''public String formatLabel(final String settingKey, final String label)
-public String formatLabel(final String label)
-'''
-pass
+    '''    public String formatLabel(final String settingKey, final String label)
+    public String formatLabel(final String label)
+    '''
 def setLabelFormat():
-'''public void setLabelFormat(final String settingKey)
-'''
-pass
+    '''    public void setLabelFormat(final String settingKey)
+    '''
 def setChangedFlag():
-'''public void setChangedFlag()
-public void setChangedFlag(final boolean flag)
-'''
-pass
+    '''    public void setChangedFlag()
+    public void setChangedFlag(final boolean flag)
+    '''
 def clearChangedFlag():
-'''public void clearChangedFlag()
-'''
-pass
+    '''    public void clearChangedFlag()
+    '''
 def setFocus():
-'''public void setFocus()
-'''
-pass
+    '''    public void setFocus()
+    '''
 def getClickState():
-'''public int getClickState()
-'''
-pass
+    '''    public int getClickState()
+    '''
 def getProperty():
-'''public String getProperty(final String key)
-'''
-pass
+    '''    public String getProperty(final String key)
+    '''
 def getOriginalProperty():
-'''public String getOriginalProperty(final String key)
-'''
-pass
+    '''    public String getOriginalProperty(final String key)
+    '''
 def findProperty():
-'''public String findProperty(final String key)
-'''
-pass
+    '''    public String findProperty(final String key)
+    '''
 def getLinkedComponentInstance():
-'''public ComponentInstance getLinkedComponentInstance()
-'''
-pass
+    '''    public ComponentInstance getLinkedComponentInstance()
+    '''
 def getMenuType():
-'''public String getMenuType()
-'''
-pass
+    '''    public String getMenuType()
+    '''
 def getLookupName():
-'''public String getLookupName()
-'''
-pass
+    '''    public String getLookupName()
+    '''
 def getApplink():
-'''public String getApplink()
-'''
-pass
+    '''    public String getApplink()
+    '''
 def isOnTableRow():
-'''public boolean isOnTableRow()
-'''
-pass
+    '''    public boolean isOnTableRow()
+    '''
 def isOnTableFilterRow():
-'''public boolean isOnTableFilterRow()
-'''
-pass
+    '''    public boolean isOnTableFilterRow()
+    '''
 def isOnTableTitleRow():
-'''public boolean isOnTableTitleRow()
-'''
-pass
+    '''    public boolean isOnTableTitleRow()
+    '''
 def setComponentContainerId():
-'''public void setComponentContainerId(final String id)
-'''
-pass
+    '''    public void setComponentContainerId(final String id)
+    '''
 def getComponentContainerId():
-'''public String getComponentContainerId()
-'''
-pass
+    '''    public String getComponentContainerId()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def controlPropertyChanged():
-'''public void controlPropertyChanged(final String property)
-'''
-pass
+    '''    public void controlPropertyChanged(final String property)
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def hasLocalProperty():
-'''public boolean hasLocalProperty(final String key)
-'''
-pass
+    '''    public boolean hasLocalProperty(final String key)
+    '''
 def getCssClass():
-'''public String getCssClass()
-'''
-pass
+    '''    public String getCssClass()
+    '''
 def isDefaultRender():
-'''public boolean isDefaultRender()
-'''
-pass
+    '''    public boolean isDefaultRender()
+    '''
 def isDisabled():
-'''public boolean isDisabled()
-'''
-pass
+    '''    public boolean isDisabled()
+    '''
 def isMasked():
-'''public boolean isMasked()
-'''
-pass
+    '''    public boolean isMasked()
+    '''
 def hasMaskedChanged():
-'''public boolean hasMaskedChanged()
-'''
-pass
+    '''    public boolean hasMaskedChanged()
+    '''
 def getDesignerSelected():
-'''public boolean getDesignerSelected()
-'''
-pass
+    '''    public boolean getDesignerSelected()
+    '''
 def skipRender():
-'''public boolean skipRender()
-'''
-pass
+    '''    public boolean skipRender()
+    '''
 def getRenderId():
-'''public String getRenderId()
-'''
-pass
+    '''    public String getRenderId()
+    '''
 def getId():
-'''public String getId()
-public String getId(final boolean useRow)
-'''
-pass
+    '''    public String getId()
+    public String getId(final boolean useRow)
+    '''
 def getIdWithoutRow():
-'''public String getIdWithoutRow()
-'''
-pass
+    '''    public String getIdWithoutRow()
+    '''
 def getDataBean():
-'''public DataBean getDataBean()
-'''
-pass
+    '''    public DataBean getDataBean()
+    '''
 def isIncluded():
-'''public boolean isIncluded()
-'''
-pass
+    '''    public boolean isIncluded()
+    '''
 def isAsyncEnabled():
-'''public boolean isAsyncEnabled()
-'''
-pass
+    '''    public boolean isAsyncEnabled()
+    '''
 def updateStyle():
-'''public void updateStyle(final String attribute, final String value)
-public void updateStyle(final String style)
-'''
-pass
+    '''    public void updateStyle(final String attribute, final String value)
+    public void updateStyle(final String style)
+    '''
 def updateAttribute():
-'''public void updateAttribute(final String attribute, final String value)
-'''
-pass
+    '''    public void updateAttribute(final String attribute, final String value)
+    '''
 def getUpdatedStyles():
-'''public JSONArray getUpdatedStyles()
-'''
-pass
+    '''    public JSONArray getUpdatedStyles()
+    '''
 def getUpdatedAttributes():
-'''public JSONArray getUpdatedAttributes()
-'''
-pass
+    '''    public JSONArray getUpdatedAttributes()
+    '''
 def getCurrentUpdates():
-'''public String getCurrentUpdates()
-'''
-pass
+    '''    public String getCurrentUpdates()
+    '''
 def hasUnappliedUIUpdates():
-'''public boolean hasUnappliedUIUpdates()
-'''
-pass
+    '''    public boolean hasUnappliedUIUpdates()
+    '''
 def clearUIUpdates():
-'''public void clearUIUpdates()
-'''
-pass
+    '''    public void clearUIUpdates()
+    '''
 def getErrorInfo():
-'''public ContainerErrorInfo getErrorInfo()
-'''
-pass
+    '''    public ContainerErrorInfo getErrorInfo()
+    '''
 def getLabelledByRenderId():
-'''public String getLabelledByRenderId()
-'''
-pass
+    '''    public String getLabelledByRenderId()
+    '''
 def getLabelForRenderId():
-'''public String getLabelForRenderId()
-'''
-pass
+    '''    public String getLabelForRenderId()
+    '''
 def findComponentByDescriptorId():
-'''public ComponentInstance findComponentByDescriptorId(final String id)
-'''
-pass
+    '''    public ComponentInstance findComponentByDescriptorId(final String id)
+    '''
 def fetchtooltip():
-'''public int fetchtooltip()
-'''
-pass
+    '''    public int fetchtooltip()
+    '''
 def getFocusRenderId():
-'''public String getFocusRenderId()
-'''
-pass
+    '''    public String getFocusRenderId()
+    '''

@@ -1,29 +1,22 @@
 def OSTemplateCacheImpl():
-'''public OSTemplateCacheImpl()
-'''
-pass
+    '''    public OSTemplateCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getTemplateInfo():
-'''public OSTemplateInfo getTemplateInfo(final String osName, final String templateName)
-'''
-pass
+    '''    public OSTemplateInfo getTemplateInfo(final String osName, final String templateName)
+    '''
 def getListTemplateInfo():
-'''public OSTemplateInfo getListTemplateInfo(final String osName, final String userid)
-'''
-pass
+    '''    public OSTemplateInfo getListTemplateInfo(final String osName, final String userid)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getTemplates():
-'''public Map<String, OSTemplateInfo> getTemplates(final String osName)
-'''
-pass
+    '''    public Map<String, OSTemplateInfo> getTemplates(final String osName)
+    '''

@@ -1,8 +1,6 @@
 def srvorgstatus():
-'''public int srvorgstatus()
-'''
-pass
+    '''    public int srvorgstatus()
+    '''
 def iorghistory():
-'''public int iorghistory()
-'''
-pass
+    '''    public int iorghistory()
+    '''

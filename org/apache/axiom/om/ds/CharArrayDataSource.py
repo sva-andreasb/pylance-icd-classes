@@ -1,36 +1,27 @@
 def CharArrayDataSource():
-'''public CharArrayDataSource(final char[] chars)
-'''
-pass
+    '''    public CharArrayDataSource(final char[] chars)
+    '''
 def serialize():
-'''public void serialize(final Writer writer, final OMOutputFormat format)
-'''
-pass
+    '''    public void serialize(final Writer writer, final OMOutputFormat format)
+    '''
 def getReader():
-'''public XMLStreamReader getReader()
-'''
-pass
+    '''    public XMLStreamReader getReader()
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''
 def isDestructiveRead():
-'''public boolean isDestructiveRead()
-'''
-pass
+    '''    public boolean isDestructiveRead()
+    '''
 def isDestructiveWrite():
-'''public boolean isDestructiveWrite()
-'''
-pass
+    '''    public boolean isDestructiveWrite()
+    '''
 def getXMLBytes():
-'''public byte[] getXMLBytes(final String encoding)
-'''
-pass
+    '''    public byte[] getXMLBytes(final String encoding)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def copy():
-'''public OMDataSourceExt copy()
-'''
-pass
+    '''    public OMDataSourceExt copy()
+    '''

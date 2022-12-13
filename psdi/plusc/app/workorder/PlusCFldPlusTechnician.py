@@ -1,12 +1,9 @@
 def PlusCFldPlusTechnician():
-'''public PlusCFldPlusTechnician(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldPlusTechnician(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''

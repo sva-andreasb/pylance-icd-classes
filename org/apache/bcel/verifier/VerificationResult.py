@@ -2,26 +2,20 @@ VERIFIED_NOTYET = "int  0"
 VERIFIED_OK = "int  1"
 VERIFIED_REJECTED = "int  2"
 def VerificationResult():
-'''public VerificationResult(final int status, final String message)
-'''
-pass
+    '''    public VerificationResult(final int status, final String message)
+    '''
 def getStatus():
-'''public int getStatus()
-'''
-pass
+    '''    public int getStatus()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

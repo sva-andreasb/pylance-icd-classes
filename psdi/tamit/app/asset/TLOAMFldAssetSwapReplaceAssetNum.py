@@ -1,8 +1,6 @@
 def TLOAMFldAssetSwapReplaceAssetNum():
-'''public TLOAMFldAssetSwapReplaceAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public TLOAMFldAssetSwapReplaceAssetNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

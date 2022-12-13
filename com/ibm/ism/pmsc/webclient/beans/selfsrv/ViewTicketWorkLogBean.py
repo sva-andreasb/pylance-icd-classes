@@ -1,12 +1,9 @@
 def ViewTicketWorkLogBean():
-'''public ViewTicketWorkLogBean()
-'''
-pass
+    '''    public ViewTicketWorkLogBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def getExtendedToolTip():
-'''public JSONObject getExtendedToolTip(final JSONObject definition)
-'''
-pass
+    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''

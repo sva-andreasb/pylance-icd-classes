@@ -1,16 +1,12 @@
 def FldItemCommodityCode():
-'''public FldItemCommodityCode(final MboValue mbv)
-'''
-pass
+    '''    public FldItemCommodityCode(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def isServiceItem():
-'''public boolean isServiceItem()
-'''
-pass
+    '''    public boolean isServiceItem()
+    '''

@@ -1,8 +1,6 @@
 def MaxInteractionSet():
-'''public MaxInteractionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxInteractionSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

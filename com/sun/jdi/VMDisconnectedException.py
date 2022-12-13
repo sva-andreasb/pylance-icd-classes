@@ -1,5 +1,4 @@
 def VMDisconnectedException():
-'''public VMDisconnectedException()
-public VMDisconnectedException(final String message)
-'''
-pass
+    '''    public VMDisconnectedException()
+    public VMDisconnectedException(final String message)
+    '''

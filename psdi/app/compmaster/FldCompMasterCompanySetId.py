@@ -1,8 +1,6 @@
 def FldCompMasterCompanySetId():
-'''public FldCompMasterCompanySetId(final MboValue mbv)
-'''
-pass
+    '''    public FldCompMasterCompanySetId(final MboValue mbv)
+    '''
 def getCriteria():
-'''public String getCriteria()
-'''
-pass
+    '''    public String getCriteria()
+    '''

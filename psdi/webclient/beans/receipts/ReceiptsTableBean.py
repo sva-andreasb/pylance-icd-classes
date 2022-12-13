@@ -1,16 +1,12 @@
 def itemreturn():
-'''public int itemreturn()
-'''
-pass
+    '''    public int itemreturn()
+    '''
 def selorditem():
-'''public int selorditem()
-'''
-pass
+    '''    public int selorditem()
+    '''
 def selordserv():
-'''public int selordserv()
-'''
-pass
+    '''    public int selordserv()
+    '''
 def propagateRequired():
-'''public void propagateRequired()
-'''
-pass
+    '''    public void propagateRequired()
+    '''

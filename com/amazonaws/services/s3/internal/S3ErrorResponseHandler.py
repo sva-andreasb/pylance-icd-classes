@@ -1,8 +1,6 @@
 def handle():
-'''public AmazonServiceException handle(final HttpResponse httpResponse)
-'''
-pass
+    '''    public AmazonServiceException handle(final HttpResponse httpResponse)
+    '''
 def needsConnectionLeftOpen():
-'''public boolean needsConnectionLeftOpen()
-'''
-pass
+    '''    public boolean needsConnectionLeftOpen()
+    '''

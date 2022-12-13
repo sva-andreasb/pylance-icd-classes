@@ -1,16 +1,12 @@
 def DMPkgIdentifier():
-'''public DMPkgIdentifier(final MboSet ms)
-'''
-pass
+    '''    public DMPkgIdentifier(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def generateIdentifier():
-'''public void generateIdentifier()
-'''
-pass
+    '''    public void generateIdentifier()
+    '''
 def updateSystemIdentifierProp():
-'''public void updateSystemIdentifierProp()
-'''
-pass
+    '''    public void updateSystemIdentifierProp()
+    '''

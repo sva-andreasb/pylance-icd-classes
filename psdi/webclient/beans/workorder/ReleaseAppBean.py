@@ -1,8 +1,6 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def createRelease():
-'''public int createRelease()
-'''
-pass
+    '''    public int createRelease()
+    '''

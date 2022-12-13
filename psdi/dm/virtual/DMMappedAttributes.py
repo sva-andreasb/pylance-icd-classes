@@ -1,4 +1,3 @@
 def DMMappedAttributes():
-'''public DMMappedAttributes(final MboSet ms)
-'''
-pass
+    '''    public DMMappedAttributes(final MboSet ms)
+    '''

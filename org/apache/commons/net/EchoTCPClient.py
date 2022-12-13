@@ -1,9 +1,7 @@
 DEFAULT_PORT = "int  7"
 def EchoTCPClient():
-'''public EchoTCPClient()
-'''
-pass
+    '''    public EchoTCPClient()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''

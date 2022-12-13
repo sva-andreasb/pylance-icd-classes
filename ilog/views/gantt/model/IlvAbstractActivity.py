@@ -1,48 +1,36 @@
 def IlvAbstractActivity():
-'''public IlvAbstractActivity()
-'''
-pass
+    '''    public IlvAbstractActivity()
+    '''
 def setGanttModelImpl():
-'''public void setGanttModelImpl(final IlvGanttModel a)
-'''
-pass
+    '''    public void setGanttModelImpl(final IlvGanttModel a)
+    '''
 def getChildEventFilter():
-'''public IlvUnaryPredicate<ActivityEvent> getChildEventFilter()
-'''
-pass
+    '''    public IlvUnaryPredicate<ActivityEvent> getChildEventFilter()
+    '''
 def processChildEvent():
-'''public void processChildEvent(final ActivityEvent activityEvent)
-'''
-pass
+    '''    public void processChildEvent(final ActivityEvent activityEvent)
+    '''
 def getStartTime():
-'''public Date getStartTime()
-'''
-pass
+    '''    public Date getStartTime()
+    '''
 def setStartTime():
-'''public void setStartTime(final Date date)
-'''
-pass
+    '''    public void setStartTime(final Date date)
+    '''
 def getEndTime():
-'''public Date getEndTime()
-'''
-pass
+    '''    public Date getEndTime()
+    '''
 def setEndTime():
-'''public void setEndTime(final Date date)
-'''
-pass
+    '''    public void setEndTime(final Date date)
+    '''
 def getDuration():
-'''public IlvDuration getDuration()
-'''
-pass
+    '''    public IlvDuration getDuration()
+    '''
 def setDuration():
-'''public void setDuration(final IlvDuration ilvDuration)
-'''
-pass
+    '''    public void setDuration(final IlvDuration ilvDuration)
+    '''
 def setTimeInterval():
-'''public void setTimeInterval(final Date date, final Date date2)
-'''
-pass
+    '''    public void setTimeInterval(final Date date, final Date date2)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

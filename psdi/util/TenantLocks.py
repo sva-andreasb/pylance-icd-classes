@@ -1,8 +1,6 @@
 def TenantLocks():
-'''public TenantLocks()
-'''
-pass
+    '''    public TenantLocks()
+    '''
 def getTenantLockObj():
-'''public Object getTenantLockObj()
-'''
-pass
+    '''    public Object getTenantLockObj()
+    '''

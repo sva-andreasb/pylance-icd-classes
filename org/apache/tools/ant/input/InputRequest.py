@@ -1,28 +1,21 @@
 def InputRequest():
-'''public InputRequest(final String prompt)
-'''
-pass
+    '''    public InputRequest(final String prompt)
+    '''
 def getPrompt():
-'''public String getPrompt()
-'''
-pass
+    '''    public String getPrompt()
+    '''
 def setInput():
-'''public void setInput(final String input)
-'''
-pass
+    '''    public void setInput(final String input)
+    '''
 def isInputValid():
-'''public boolean isInputValid()
-'''
-pass
+    '''    public boolean isInputValid()
+    '''
 def getInput():
-'''public String getInput()
-'''
-pass
+    '''    public String getInput()
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String d)
-'''
-pass
+    '''    public void setDefaultValue(final String d)
+    '''

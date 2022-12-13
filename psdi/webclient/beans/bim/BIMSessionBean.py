@@ -1,24 +1,18 @@
 def BIMSessionBean():
-'''public BIMSessionBean()
-'''
-pass
+    '''    public BIMSessionBean()
+    '''
 def delete():
-'''public synchronized void delete(final int nRow)
-'''
-pass
+    '''    public synchronized void delete(final int nRow)
+    '''
 def addNewRow():
-'''public int addNewRow()
-'''
-pass
+    '''    public int addNewRow()
+    '''
 def uploadCOBieCVSFiles():
-'''public int uploadCOBieCVSFiles()
-'''
-pass
+    '''    public int uploadCOBieCVSFiles()
+    '''
 def getSessionId():
-'''public long getSessionId()
-'''
-pass
+    '''    public long getSessionId()
+    '''
 def setSessionId():
-'''public void setSessionId(final long sessionId)
-'''
-pass
+    '''    public void setSessionId(final long sessionId)
+    '''

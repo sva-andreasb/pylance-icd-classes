@@ -1,8 +1,6 @@
 def PlusPFldGBTransLocation():
-'''public PlusPFldGBTransLocation(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransLocation(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

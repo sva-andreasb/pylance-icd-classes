@@ -1,12 +1,9 @@
 def XMLStringProvider():
-'''public XMLStringProvider(final String xmlConfiguration)
-'''
-pass
+    '''    public XMLStringProvider(final String xmlConfiguration)
+    '''
 def writeEngineConfig():
-'''public void writeEngineConfig(final AxisEngine engine)
-'''
-pass
+    '''    public void writeEngineConfig(final AxisEngine engine)
+    '''
 def configureEngine():
-'''public void configureEngine(final AxisEngine engine)
-'''
-pass
+    '''    public void configureEngine(final AxisEngine engine)
+    '''

@@ -1,4 +1,3 @@
 def UnexternalizablePageException():
-'''public UnexternalizablePageException(final String message)
-'''
-pass
+    '''    public UnexternalizablePageException(final String message)
+    '''

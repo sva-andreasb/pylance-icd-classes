@@ -1,12 +1,9 @@
 def MaxApiKeyProcess():
-'''public MaxApiKeyProcess()
-'''
-pass
+    '''    public MaxApiKeyProcess()
+    '''
 def encApiKey():
-'''public String encApiKey(final String apikey)
-'''
-pass
+    '''    public String encApiKey(final String apikey)
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules()
-'''
-pass
+    '''    public int checkBusinessRules()
+    '''

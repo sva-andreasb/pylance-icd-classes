@@ -1,20 +1,15 @@
 def GraphAddList():
-'''public GraphAddList(final Triple match)
-'''
-pass
+    '''    public GraphAddList(final Triple match)
+    '''
 def add():
-'''public void add(final Triple t)
-'''
-pass
+    '''    public void add(final Triple t)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def removeLast():
-'''public Triple removeLast()
-'''
-pass
+    '''    public Triple removeLast()
+    '''
 def iterator():
-'''public Iterator<Triple> iterator()
-'''
-pass
+    '''    public Iterator<Triple> iterator()
+    '''

@@ -1,4 +1,3 @@
 def FldMRLineWonum():
-'''public FldMRLineWonum(final MboValue mbv)
-'''
-pass
+    '''    public FldMRLineWonum(final MboValue mbv)
+    '''

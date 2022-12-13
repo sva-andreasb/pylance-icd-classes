@@ -1,12 +1,9 @@
 def FldViewContInputContractNum():
-'''public FldViewContInputContractNum(final MboValue mbv)
-'''
-pass
+    '''    public FldViewContInputContractNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

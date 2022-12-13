@@ -1,8 +1,6 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def run():
-'''public Field run()
-'''
-pass
+    '''    public Field run()
+    '''

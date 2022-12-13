@@ -1,4 +1,3 @@
 def NoSpecificTypeException():
-'''public NoSpecificTypeException(final Resource root)
-'''
-pass
+    '''    public NoSpecificTypeException(final Resource root)
+    '''

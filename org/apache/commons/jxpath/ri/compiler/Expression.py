@@ -1,39 +1,30 @@
 def Expression():
-'''public Expression()
-'''
-pass
+    '''    public Expression()
+    '''
 def isContextDependent():
-'''public boolean isContextDependent()
-'''
-pass
+    '''    public boolean isContextDependent()
+    '''
 def iterate():
-'''public Iterator iterate(final EvalContext context)
-'''
-pass
+    '''    public Iterator iterate(final EvalContext context)
+    '''
 def iteratePointers():
-'''public Iterator iteratePointers(final EvalContext context)
-'''
-pass
+    '''    public Iterator iteratePointers(final EvalContext context)
+    '''
 def PointerIterator():
-'''public PointerIterator(final Iterator it, final QName qname, final Locale locale)
-'''
-pass
+    '''    public PointerIterator(final Iterator it, final QName qname, final Locale locale)
+    '''
 def hasNext():
-'''public boolean hasNext()
-public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-public Object next()
-'''
-pass
+    '''    public Object next()
+    public Object next()
+    '''
 def remove():
-'''public void remove()
-public void remove()
-'''
-pass
+    '''    public void remove()
+    public void remove()
+    '''
 def ValueIterator():
-'''public ValueIterator(final Iterator it)
-'''
-pass
+    '''    public ValueIterator(final Iterator it)
+    '''

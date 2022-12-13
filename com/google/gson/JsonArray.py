@@ -1,80 +1,60 @@
 def JsonArray():
-'''public JsonArray()
-'''
-pass
+    '''    public JsonArray()
+    '''
 def add():
-'''public void add(JsonElement element)
-'''
-pass
+    '''    public void add(JsonElement element)
+    '''
 def addAll():
-'''public void addAll(final JsonArray array)
-'''
-pass
+    '''    public void addAll(final JsonArray array)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def iterator():
-'''public Iterator<JsonElement> iterator()
-'''
-pass
+    '''    public Iterator<JsonElement> iterator()
+    '''
 def get():
-'''public JsonElement get(final int i)
-'''
-pass
+    '''    public JsonElement get(final int i)
+    '''
 def getAsNumber():
-'''public Number getAsNumber()
-'''
-pass
+    '''    public Number getAsNumber()
+    '''
 def getAsString():
-'''public String getAsString()
-'''
-pass
+    '''    public String getAsString()
+    '''
 def getAsDouble():
-'''public double getAsDouble()
-'''
-pass
+    '''    public double getAsDouble()
+    '''
 def getAsBigDecimal():
-'''public BigDecimal getAsBigDecimal()
-'''
-pass
+    '''    public BigDecimal getAsBigDecimal()
+    '''
 def getAsBigInteger():
-'''public BigInteger getAsBigInteger()
-'''
-pass
+    '''    public BigInteger getAsBigInteger()
+    '''
 def getAsFloat():
-'''public float getAsFloat()
-'''
-pass
+    '''    public float getAsFloat()
+    '''
 def getAsLong():
-'''public long getAsLong()
-'''
-pass
+    '''    public long getAsLong()
+    '''
 def getAsInt():
-'''public int getAsInt()
-'''
-pass
+    '''    public int getAsInt()
+    '''
 def getAsByte():
-'''public byte getAsByte()
-'''
-pass
+    '''    public byte getAsByte()
+    '''
 def getAsCharacter():
-'''public char getAsCharacter()
-'''
-pass
+    '''    public char getAsCharacter()
+    '''
 def getAsShort():
-'''public short getAsShort()
-'''
-pass
+    '''    public short getAsShort()
+    '''
 def getAsBoolean():
-'''public boolean getAsBoolean()
-'''
-pass
+    '''    public boolean getAsBoolean()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

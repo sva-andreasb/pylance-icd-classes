@@ -1,8 +1,6 @@
 def FldRelationUseWith():
-'''public FldRelationUseWith(final MboValue mbv)
-'''
-pass
+    '''    public FldRelationUseWith(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

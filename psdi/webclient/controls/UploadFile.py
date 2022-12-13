@@ -1,4 +1,3 @@
 def hasImageAttached():
-'''public boolean hasImageAttached()
-'''
-pass
+    '''    public boolean hasImageAttached()
+    '''

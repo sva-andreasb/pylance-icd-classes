@@ -1,48 +1,36 @@
 def MaxIfaceIn():
-'''public MaxIfaceIn(final MboSet ms)
-'''
-pass
+    '''    public MaxIfaceIn(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote newSet)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote newSet)
+    '''
 def createXML():
-'''public void createXML()
-'''
-pass
+    '''    public void createXML()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setFields():
-'''public void setFields(final MboRemote mbo)
-'''
-pass
+    '''    public void setFields(final MboRemote mbo)
+    '''

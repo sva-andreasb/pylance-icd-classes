@@ -1,12 +1,9 @@
 def DefaultClassCondition():
-'''public DefaultClassCondition(final String namespaceURI, final String value)
-'''
-pass
+    '''    public DefaultClassCondition(final String namespaceURI, final String value)
+    '''
 def getConditionType():
-'''public short getConditionType()
-'''
-pass
+    '''    public short getConditionType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,92 +1,71 @@
 def _throws():
-'''public JMethod _throws(final JClass exception)
-public JMethod _throws(final Class<? extends Throwable> exception)
-'''
-pass
+    '''    public JMethod _throws(final JClass exception)
+    public JMethod _throws(final Class<? extends Throwable> exception)
+    '''
 def params():
-'''public List<JVar> params()
-'''
-pass
+    '''    public List<JVar> params()
+    '''
 def param():
-'''public JVar param(final int mods, final JType type, final String name)
-public JVar param(final JType type, final String name)
-public JVar param(final int mods, final Class<?> type, final String name)
-public JVar param(final Class<?> type, final String name)
-'''
-pass
+    '''    public JVar param(final int mods, final JType type, final String name)
+    public JVar param(final JType type, final String name)
+    public JVar param(final int mods, final Class<?> type, final String name)
+    public JVar param(final Class<?> type, final String name)
+    '''
 def varParam():
-'''public JVar varParam(final Class<?> type, final String name)
-public JVar varParam(final JType type, final String name)
-'''
-pass
+    '''    public JVar varParam(final Class<?> type, final String name)
+    public JVar varParam(final JType type, final String name)
+    '''
 def annotate():
-'''public JAnnotationUse annotate(final JClass clazz)
-public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
-'''
-pass
+    '''    public JAnnotationUse annotate(final JClass clazz)
+    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
+    '''
 def annotate2():
-'''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
-'''
-pass
+    '''    public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''
 def annotations():
-'''public Collection<JAnnotationUse> annotations()
-'''
-pass
+    '''    public Collection<JAnnotationUse> annotations()
+    '''
 def hasVarArgs():
-'''public boolean hasVarArgs()
-'''
-pass
+    '''    public boolean hasVarArgs()
+    '''
 def name():
-'''public String name()
-public void name(final String n)
-'''
-pass
+    '''    public String name()
+    public void name(final String n)
+    '''
 def type():
-'''public JType type()
-public void type(final JType t)
-'''
-pass
+    '''    public JType type()
+    public void type(final JType t)
+    '''
 def listParamTypes():
-'''public JType[] listParamTypes()
-'''
-pass
+    '''    public JType[] listParamTypes()
+    '''
 def listVarParamType():
-'''public JType listVarParamType()
-'''
-pass
+    '''    public JType listVarParamType()
+    '''
 def listParams():
-'''public JVar[] listParams()
-'''
-pass
+    '''    public JVar[] listParams()
+    '''
 def listVarParam():
-'''public JVar listVarParam()
-'''
-pass
+    '''    public JVar listVarParam()
+    '''
 def hasSignature():
-'''public boolean hasSignature(final JType[] argTypes)
-'''
-pass
+    '''    public boolean hasSignature(final JType[] argTypes)
+    '''
 def body():
-'''public JBlock body()
-'''
-pass
+    '''    public JBlock body()
+    '''
 def declareDefaultValue():
-'''public void declareDefaultValue(final JExpression value)
-'''
-pass
+    '''    public void declareDefaultValue(final JExpression value)
+    '''
 def javadoc():
-'''public JDocComment javadoc()
-'''
-pass
+    '''    public JDocComment javadoc()
+    '''
 def declare():
-'''public void declare(final JFormatter f)
-'''
-pass
+    '''    public void declare(final JFormatter f)
+    '''
 def mods():
-'''public JMods mods()
-'''
-pass
+    '''    public JMods mods()
+    '''
 def getMods():
-'''public JMods getMods()
-'''
-pass
+    '''    public JMods getMods()
+    '''

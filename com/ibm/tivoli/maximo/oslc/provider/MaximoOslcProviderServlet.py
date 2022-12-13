@@ -1,32 +1,24 @@
 def MaximoOslcProviderServlet():
-'''public MaximoOslcProviderServlet()
-'''
-pass
+    '''    public MaximoOslcProviderServlet()
+    '''
 def init():
-'''public void init(final ServletConfig sc)
-'''
-pass
+    '''    public void init(final ServletConfig sc)
+    '''
 def doOptions():
-'''public void doOptions(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public void doOptions(final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def doPost():
-'''public void doPost(final HttpServletRequest request, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doPost(final HttpServletRequest request, final HttpServletResponse resp)
+    '''
 def doPut():
-'''public void doPut(final HttpServletRequest request, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doPut(final HttpServletRequest request, final HttpServletResponse resp)
+    '''
 def doDelete():
-'''public void doDelete(final HttpServletRequest request, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doDelete(final HttpServletRequest request, final HttpServletResponse resp)
+    '''
 def doGet():
-'''public void doGet(final HttpServletRequest request, final HttpServletResponse resp)
-'''
-pass
+    '''    public void doGet(final HttpServletRequest request, final HttpServletResponse resp)
+    '''
 def streamBinaryData():
-'''public void streamBinaryData(final InputStream in, final OutputStream out)
-'''
-pass
+    '''    public void streamBinaryData(final InputStream in, final OutputStream out)
+    '''

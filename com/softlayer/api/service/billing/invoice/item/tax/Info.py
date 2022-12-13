@@ -1,360 +1,270 @@
 def getInvoiceItem():
-'''public Item getInvoiceItem()
-'''
-pass
+    '''    public Item getInvoiceItem()
+    '''
 def setInvoiceItem():
-'''public void setInvoiceItem(final Item invoiceItem)
-'''
-pass
+    '''    public void setInvoiceItem(final Item invoiceItem)
+    '''
 def setInvoiceTaxInfo():
-'''public void setInvoiceTaxInfo(final com.softlayer.api.service.billing.invoice.tax.Info invoiceTaxInfo)
-'''
-pass
+    '''    public void setInvoiceTaxInfo(final com.softlayer.api.service.billing.invoice.tax.Info invoiceTaxInfo)
+    '''
 def getToCurrency():
-'''public Currency getToCurrency()
-'''
-pass
+    '''    public Currency getToCurrency()
+    '''
 def setToCurrency():
-'''public void setToCurrency(final Currency toCurrency)
-'''
-pass
+    '''    public void setToCurrency(final Currency toCurrency)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getEffectiveTaxRate():
-'''public BigDecimal getEffectiveTaxRate()
-'''
-pass
+    '''    public BigDecimal getEffectiveTaxRate()
+    '''
 def setEffectiveTaxRate():
-'''public void setEffectiveTaxRate(final BigDecimal effectiveTaxRate)
-'''
-pass
+    '''    public void setEffectiveTaxRate(final BigDecimal effectiveTaxRate)
+    '''
 def isEffectiveTaxRateSpecified():
-'''public boolean isEffectiveTaxRateSpecified()
-'''
-pass
+    '''    public boolean isEffectiveTaxRateSpecified()
+    '''
 def unsetEffectiveTaxRate():
-'''public void unsetEffectiveTaxRate()
-'''
-pass
+    '''    public void unsetEffectiveTaxRate()
+    '''
 def getExemptAmount():
-'''public BigDecimal getExemptAmount()
-'''
-pass
+    '''    public BigDecimal getExemptAmount()
+    '''
 def setExemptAmount():
-'''public void setExemptAmount(final BigDecimal exemptAmount)
-'''
-pass
+    '''    public void setExemptAmount(final BigDecimal exemptAmount)
+    '''
 def isExemptAmountSpecified():
-'''public boolean isExemptAmountSpecified()
-'''
-pass
+    '''    public boolean isExemptAmountSpecified()
+    '''
 def unsetExemptAmount():
-'''public void unsetExemptAmount()
-'''
-pass
+    '''    public void unsetExemptAmount()
+    '''
 def getFeeProperty():
-'''public String getFeeProperty()
-'''
-pass
+    '''    public String getFeeProperty()
+    '''
 def setFeeProperty():
-'''public void setFeeProperty(final String feeProperty)
-'''
-pass
+    '''    public void setFeeProperty(final String feeProperty)
+    '''
 def isFeePropertySpecified():
-'''public boolean isFeePropertySpecified()
-'''
-pass
+    '''    public boolean isFeePropertySpecified()
+    '''
 def unsetFeeProperty():
-'''public void unsetFeeProperty()
-'''
-pass
+    '''    public void unsetFeeProperty()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getInvoiceItemId():
-'''public Long getInvoiceItemId()
-'''
-pass
+    '''    public Long getInvoiceItemId()
+    '''
 def setInvoiceItemId():
-'''public void setInvoiceItemId(final Long invoiceItemId)
-'''
-pass
+    '''    public void setInvoiceItemId(final Long invoiceItemId)
+    '''
 def isInvoiceItemIdSpecified():
-'''public boolean isInvoiceItemIdSpecified()
-'''
-pass
+    '''    public boolean isInvoiceItemIdSpecified()
+    '''
 def unsetInvoiceItemId():
-'''public void unsetInvoiceItemId()
-'''
-pass
+    '''    public void unsetInvoiceItemId()
+    '''
 def getInvoiceTaxInfoId():
-'''public Long getInvoiceTaxInfoId()
-'''
-pass
+    '''    public Long getInvoiceTaxInfoId()
+    '''
 def setInvoiceTaxInfoId():
-'''public void setInvoiceTaxInfoId(final Long invoiceTaxInfoId)
-'''
-pass
+    '''    public void setInvoiceTaxInfoId(final Long invoiceTaxInfoId)
+    '''
 def isInvoiceTaxInfoIdSpecified():
-'''public boolean isInvoiceTaxInfoIdSpecified()
-'''
-pass
+    '''    public boolean isInvoiceTaxInfoIdSpecified()
+    '''
 def unsetInvoiceTaxInfoId():
-'''public void unsetInvoiceTaxInfoId()
-'''
-pass
+    '''    public void unsetInvoiceTaxInfoId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNonTaxableBasis():
-'''public BigDecimal getNonTaxableBasis()
-'''
-pass
+    '''    public BigDecimal getNonTaxableBasis()
+    '''
 def setNonTaxableBasis():
-'''public void setNonTaxableBasis(final BigDecimal nonTaxableBasis)
-'''
-pass
+    '''    public void setNonTaxableBasis(final BigDecimal nonTaxableBasis)
+    '''
 def isNonTaxableBasisSpecified():
-'''public boolean isNonTaxableBasisSpecified()
-'''
-pass
+    '''    public boolean isNonTaxableBasisSpecified()
+    '''
 def unsetNonTaxableBasis():
-'''public void unsetNonTaxableBasis()
-'''
-pass
+    '''    public void unsetNonTaxableBasis()
+    '''
 def getReportedFlag():
-'''public Boolean getReportedFlag()
-'''
-pass
+    '''    public Boolean getReportedFlag()
+    '''
 def setReportedFlag():
-'''public void setReportedFlag(final Boolean reportedFlag)
-'''
-pass
+    '''    public void setReportedFlag(final Boolean reportedFlag)
+    '''
 def isReportedFlagSpecified():
-'''public boolean isReportedFlagSpecified()
-'''
-pass
+    '''    public boolean isReportedFlagSpecified()
+    '''
 def unsetReportedFlag():
-'''public void unsetReportedFlag()
-'''
-pass
+    '''    public void unsetReportedFlag()
+    '''
 def getSellerRegistration():
-'''public String getSellerRegistration()
-'''
-pass
+    '''    public String getSellerRegistration()
+    '''
 def setSellerRegistration():
-'''public void setSellerRegistration(final String sellerRegistration)
-'''
-pass
+    '''    public void setSellerRegistration(final String sellerRegistration)
+    '''
 def isSellerRegistrationSpecified():
-'''public boolean isSellerRegistrationSpecified()
-'''
-pass
+    '''    public boolean isSellerRegistrationSpecified()
+    '''
 def unsetSellerRegistration():
-'''public void unsetSellerRegistration()
-'''
-pass
+    '''    public void unsetSellerRegistration()
+    '''
 def getTaxAmount():
-'''public BigDecimal getTaxAmount()
-'''
-pass
+    '''    public BigDecimal getTaxAmount()
+    '''
 def setTaxAmount():
-'''public void setTaxAmount(final BigDecimal taxAmount)
-'''
-pass
+    '''    public void setTaxAmount(final BigDecimal taxAmount)
+    '''
 def isTaxAmountSpecified():
-'''public boolean isTaxAmountSpecified()
-'''
-pass
+    '''    public boolean isTaxAmountSpecified()
+    '''
 def unsetTaxAmount():
-'''public void unsetTaxAmount()
-'''
-pass
+    '''    public void unsetTaxAmount()
+    '''
 def getTaxAmountToCurrency():
-'''public BigDecimal getTaxAmountToCurrency()
-'''
-pass
+    '''    public BigDecimal getTaxAmountToCurrency()
+    '''
 def setTaxAmountToCurrency():
-'''public void setTaxAmountToCurrency(final BigDecimal taxAmountToCurrency)
-'''
-pass
+    '''    public void setTaxAmountToCurrency(final BigDecimal taxAmountToCurrency)
+    '''
 def isTaxAmountToCurrencySpecified():
-'''public boolean isTaxAmountToCurrencySpecified()
-'''
-pass
+    '''    public boolean isTaxAmountToCurrencySpecified()
+    '''
 def unsetTaxAmountToCurrency():
-'''public void unsetTaxAmountToCurrency()
-'''
-pass
+    '''    public void unsetTaxAmountToCurrency()
+    '''
 def getTaxRate():
-'''public BigDecimal getTaxRate()
-'''
-pass
+    '''    public BigDecimal getTaxRate()
+    '''
 def setTaxRate():
-'''public void setTaxRate(final BigDecimal taxRate)
-'''
-pass
+    '''    public void setTaxRate(final BigDecimal taxRate)
+    '''
 def isTaxRateSpecified():
-'''public boolean isTaxRateSpecified()
-'''
-pass
+    '''    public boolean isTaxRateSpecified()
+    '''
 def unsetTaxRate():
-'''public void unsetTaxRate()
-'''
-pass
+    '''    public void unsetTaxRate()
+    '''
 def getTaxableBasis():
-'''public BigDecimal getTaxableBasis()
-'''
-pass
+    '''    public BigDecimal getTaxableBasis()
+    '''
 def setTaxableBasis():
-'''public void setTaxableBasis(final BigDecimal taxableBasis)
-'''
-pass
+    '''    public void setTaxableBasis(final BigDecimal taxableBasis)
+    '''
 def isTaxableBasisSpecified():
-'''public boolean isTaxableBasisSpecified()
-'''
-pass
+    '''    public boolean isTaxableBasisSpecified()
+    '''
 def unsetTaxableBasis():
-'''public void unsetTaxableBasis()
-'''
-pass
+    '''    public void unsetTaxableBasis()
+    '''
 def getToCurrencyId():
-'''public Long getToCurrencyId()
-'''
-pass
+    '''    public Long getToCurrencyId()
+    '''
 def setToCurrencyId():
-'''public void setToCurrencyId(final Long toCurrencyId)
-'''
-pass
+    '''    public void setToCurrencyId(final Long toCurrencyId)
+    '''
 def isToCurrencyIdSpecified():
-'''public boolean isToCurrencyIdSpecified()
-'''
-pass
+    '''    public boolean isToCurrencyIdSpecified()
+    '''
 def unsetToCurrencyId():
-'''public void unsetToCurrencyId()
-'''
-pass
+    '''    public void unsetToCurrencyId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def effectiveTaxRate():
-'''public Mask effectiveTaxRate()
-'''
-pass
+    '''    public Mask effectiveTaxRate()
+    '''
 def exemptAmount():
-'''public Mask exemptAmount()
-'''
-pass
+    '''    public Mask exemptAmount()
+    '''
 def feeProperty():
-'''public Mask feeProperty()
-'''
-pass
+    '''    public Mask feeProperty()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def invoiceItemId():
-'''public Mask invoiceItemId()
-'''
-pass
+    '''    public Mask invoiceItemId()
+    '''
 def invoiceTaxInfoId():
-'''public Mask invoiceTaxInfoId()
-'''
-pass
+    '''    public Mask invoiceTaxInfoId()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def nonTaxableBasis():
-'''public Mask nonTaxableBasis()
-'''
-pass
+    '''    public Mask nonTaxableBasis()
+    '''
 def reportedFlag():
-'''public Mask reportedFlag()
-'''
-pass
+    '''    public Mask reportedFlag()
+    '''
 def sellerRegistration():
-'''public Mask sellerRegistration()
-'''
-pass
+    '''    public Mask sellerRegistration()
+    '''
 def taxAmount():
-'''public Mask taxAmount()
-'''
-pass
+    '''    public Mask taxAmount()
+    '''
 def taxAmountToCurrency():
-'''public Mask taxAmountToCurrency()
-'''
-pass
+    '''    public Mask taxAmountToCurrency()
+    '''
 def taxRate():
-'''public Mask taxRate()
-'''
-pass
+    '''    public Mask taxRate()
+    '''
 def taxableBasis():
-'''public Mask taxableBasis()
-'''
-pass
+    '''    public Mask taxableBasis()
+    '''
 def toCurrencyId():
-'''public Mask toCurrencyId()
-'''
-pass
+    '''    public Mask toCurrencyId()
+    '''

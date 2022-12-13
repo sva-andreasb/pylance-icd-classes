@@ -1,4 +1,3 @@
 def selectobject():
-'''public int selectobject()
-'''
-pass
+    '''    public int selectobject()
+    '''

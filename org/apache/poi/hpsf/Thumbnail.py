@@ -10,27 +10,21 @@ CF_DIB = "int  8"
 CF_ENHMETAFILE = "int  14"
 CF_BITMAP = "int  2"
 def Thumbnail():
-'''public Thumbnail()
-public Thumbnail(final byte[] thumbnailData)
-'''
-pass
+    '''    public Thumbnail()
+    public Thumbnail(final byte[] thumbnailData)
+    '''
 def getThumbnail():
-'''public byte[] getThumbnail()
-'''
-pass
+    '''    public byte[] getThumbnail()
+    '''
 def setThumbnail():
-'''public void setThumbnail(final byte[] thumbnail)
-'''
-pass
+    '''    public void setThumbnail(final byte[] thumbnail)
+    '''
 def getClipboardFormatTag():
-'''public long getClipboardFormatTag()
-'''
-pass
+    '''    public long getClipboardFormatTag()
+    '''
 def getClipboardFormat():
-'''public long getClipboardFormat()
-'''
-pass
+    '''    public long getClipboardFormat()
+    '''
 def getThumbnailAsWMF():
-'''public byte[] getThumbnailAsWMF()
-'''
-pass
+    '''    public byte[] getThumbnailAsWMF()
+    '''

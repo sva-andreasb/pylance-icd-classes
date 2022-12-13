@@ -1,16 +1,12 @@
 def getNodeRefColName():
-'''public String getNodeRefColName()
-'''
-pass
+    '''    public String getNodeRefColName()
+    '''
 def getIdColName():
-'''public String getIdColName()
-'''
-pass
+    '''    public String getIdColName()
+    '''
 def getNodeRefTypeString():
-'''public String getNodeRefTypeString()
-'''
-pass
+    '''    public String getNodeRefTypeString()
+    '''
 def getNodeRefTypeNum():
-'''public int getNodeRefTypeNum()
-'''
-pass
+    '''    public int getNodeRefTypeNum()
+    '''

@@ -1,8 +1,6 @@
 def JobPlanClassSet():
-'''public JobPlanClassSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JobPlanClassSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

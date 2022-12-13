@@ -1,12 +1,9 @@
 def ChatopsAssignChannelBean():
-'''public ChatopsAssignChannelBean()
-'''
-pass
+    '''    public ChatopsAssignChannelBean()
+    '''
 def loadChannels():
-'''public void loadChannels(final int teamPosition)
-'''
-pass
+    '''    public void loadChannels(final int teamPosition)
+    '''
 def assignChannel():
-'''public synchronized int assignChannel()
-'''
-pass
+    '''    public synchronized int assignChannel()
+    '''

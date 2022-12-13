@@ -1,65 +1,49 @@
 def CreationFactory():
-'''public CreationFactory()
-public CreationFactory(final String title, final URI creation)
-'''
-pass
+    '''    public CreationFactory()
+    public CreationFactory(final String title, final URI creation)
+    '''
 def addResourceShape():
-'''public void addResourceShape(final URI resourceShape)
-'''
-pass
+    '''    public void addResourceShape(final URI resourceShape)
+    '''
 def addResourceType():
-'''public void addResourceType(final URI resourceType)
-'''
-pass
+    '''    public void addResourceType(final URI resourceType)
+    '''
 def addUsage():
-'''public void addUsage(final URI usage)
-'''
-pass
+    '''    public void addUsage(final URI usage)
+    '''
 def getCreation():
-'''public URI getCreation()
-'''
-pass
+    '''    public URI getCreation()
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def getResourceShapes():
-'''public URI[] getResourceShapes()
-'''
-pass
+    '''    public URI[] getResourceShapes()
+    '''
 def getResourceTypes():
-'''public URI[] getResourceTypes()
-'''
-pass
+    '''    public URI[] getResourceTypes()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getUsages():
-'''public URI[] getUsages()
-'''
-pass
+    '''    public URI[] getUsages()
+    '''
 def setCreation():
-'''public void setCreation(final URI creation)
-'''
-pass
+    '''    public void setCreation(final URI creation)
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def setResourceShapes():
-'''public void setResourceShapes(final URI[] resourceShapes)
-'''
-pass
+    '''    public void setResourceShapes(final URI[] resourceShapes)
+    '''
 def setResourceTypes():
-'''public void setResourceTypes(final URI[] resourceTypes)
-'''
-pass
+    '''    public void setResourceTypes(final URI[] resourceTypes)
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def setUsages():
-'''public void setUsages(final URI[] usages)
-'''
-pass
+    '''    public void setUsages(final URI[] usages)
+    '''

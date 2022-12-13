@@ -1,63 +1,48 @@
 def DoublyIndexedTable():
-'''public DoublyIndexedTable()
-public DoublyIndexedTable(final int c)
-public DoublyIndexedTable(final DoublyIndexedTable other)
-'''
-pass
+    '''    public DoublyIndexedTable()
+    public DoublyIndexedTable(final int c)
+    public DoublyIndexedTable(final DoublyIndexedTable other)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def put():
-'''public Object put(final Object o1, final Object o2, final Object value)
-'''
-pass
+    '''    public Object put(final Object o1, final Object o2, final Object value)
+    '''
 def get():
-'''public Object get(final Object o1, final Object o2)
-'''
-pass
+    '''    public Object get(final Object o1, final Object o2)
+    '''
 def remove():
-'''public Object remove(final Object o1, final Object o2)
-public void remove()
-'''
-pass
+    '''    public Object remove(final Object o1, final Object o2)
+    public void remove()
+    '''
 def getValuesArray():
-'''public Object[] getValuesArray()
-'''
-pass
+    '''    public Object[] getValuesArray()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def Entry():
-'''public Entry(final int hash, final Object key1, final Object key2, final Object value, final Entry next)
-'''
-pass
+    '''    public Entry(final int hash, final Object key1, final Object key2, final Object value, final Entry next)
+    '''
 def getKey1():
-'''public Object getKey1()
-'''
-pass
+    '''    public Object getKey1()
+    '''
 def getKey2():
-'''public Object getKey2()
-'''
-pass
+    '''    public Object getKey2()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def TableIterator():
-'''public TableIterator()
-'''
-pass
+    '''    public TableIterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

@@ -1,4 +1,3 @@
 def SKDOPASCPSParamSet():
-'''public SKDOPASCPSParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDOPASCPSParamSet(final MboServerInterface ms)
+    '''

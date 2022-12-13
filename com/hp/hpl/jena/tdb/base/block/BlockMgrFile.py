@@ -1,24 +1,18 @@
 def BlockMgrFile():
-'''public BlockMgrFile(final String filename, final int blockSize)
-'''
-pass
+    '''    public BlockMgrFile(final String filename, final int blockSize)
+    '''
 def isEmpty():
-'''public final boolean isEmpty()
-'''
-pass
+    '''    public final boolean isEmpty()
+    '''
 def allocateId():
-'''public final synchronized int allocateId()
-'''
-pass
+    '''    public final synchronized int allocateId()
+    '''
 def valid():
-'''public final synchronized boolean valid(final int id)
-'''
-pass
+    '''    public final synchronized boolean valid(final int id)
+    '''
 def isClosed():
-'''public final boolean isClosed()
-'''
-pass
+    '''    public final boolean isClosed()
+    '''
 def close():
-'''public final void close()
-'''
-pass
+    '''    public final void close()
+    '''

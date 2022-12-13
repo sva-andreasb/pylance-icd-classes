@@ -1,9 +1,7 @@
 def FldLastRun():
-'''public FldLastRun()
-public FldLastRun(final MboValue mbv)
-'''
-pass
+    '''    public FldLastRun()
+    public FldLastRun(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

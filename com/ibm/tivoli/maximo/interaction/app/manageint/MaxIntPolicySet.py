@@ -1,4 +1,3 @@
 def MaxIntPolicySet():
-'''public MaxIntPolicySet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIntPolicySet(final MboServerInterface ms)
+    '''

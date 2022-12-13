@@ -1,8 +1,6 @@
 def MWUDump():
-'''public MWUDump(final Dictionary dict, final BufferedWriter writer)
-'''
-pass
+    '''    public MWUDump(final Dictionary dict, final BufferedWriter writer)
+    '''
 def main():
-'''public static void main(final String[] array)
-'''
-pass
+    '''    public static void main(final String[] array)
+    '''

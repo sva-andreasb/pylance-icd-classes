@@ -1,12 +1,9 @@
 def FldPromoteDefaultClassstructureID():
-'''public FldPromoteDefaultClassstructureID(final MboValue mbv)
-'''
-pass
+    '''    public FldPromoteDefaultClassstructureID(final MboValue mbv)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

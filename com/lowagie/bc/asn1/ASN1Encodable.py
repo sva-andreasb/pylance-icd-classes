@@ -1,16 +1,12 @@
 def getEncoded():
-'''public byte[] getEncoded()
-'''
-pass
+    '''    public byte[] getEncoded()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getDERObject():
-'''public DERObject getDERObject()
-'''
-pass
+    '''    public DERObject getDERObject()
+    '''

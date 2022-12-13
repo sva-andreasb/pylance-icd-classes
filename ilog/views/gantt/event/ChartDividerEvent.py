@@ -1,12 +1,9 @@
 def ChartDividerEvent():
-'''public ChartDividerEvent(final IlvHierarchyChart source, final int a)
-'''
-pass
+    '''    public ChartDividerEvent(final IlvHierarchyChart source, final int a)
+    '''
 def getChart():
-'''public IlvHierarchyChart getChart()
-'''
-pass
+    '''    public IlvHierarchyChart getChart()
+    '''
 def getDividerLocation():
-'''public int getDividerLocation()
-'''
-pass
+    '''    public int getDividerLocation()
+    '''

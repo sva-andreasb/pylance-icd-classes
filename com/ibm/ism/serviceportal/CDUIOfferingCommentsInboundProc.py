@@ -1,8 +1,6 @@
 def CDUIOfferingCommentsInboundProc():
-'''public CDUIOfferingCommentsInboundProc()
-'''
-pass
+    '''    public CDUIOfferingCommentsInboundProc()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

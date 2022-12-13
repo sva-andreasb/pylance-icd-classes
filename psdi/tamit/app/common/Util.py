@@ -1,12 +1,9 @@
 def getGenericAssetClassID():
-'''public static String getGenericAssetClassID()
-'''
-pass
+    '''    public static String getGenericAssetClassID()
+    '''
 def getGenericCIClassID():
-'''public static String getGenericCIClassID()
-'''
-pass
+    '''    public static String getGenericCIClassID()
+    '''
 def isGeneric():
-'''public static boolean isGeneric(final MboRemote mbo)
-'''
-pass
+    '''    public static boolean isGeneric(final MboRemote mbo)
+    '''

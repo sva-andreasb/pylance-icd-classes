@@ -1,12 +1,9 @@
 def pluspacust():
-'''public int pluspacust()
-'''
-pass
+    '''    public int pluspacust()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def pluspcustassoc():
-'''public int pluspcustassoc()
-'''
-pass
+    '''    public int pluspcustassoc()
+    '''

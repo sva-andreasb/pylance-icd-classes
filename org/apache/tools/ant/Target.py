@@ -1,97 +1,73 @@
 def Target():
-'''public Target()
-public Target(final Target other)
-'''
-pass
+    '''    public Target()
+    public Target(final Target other)
+    '''
 def setProject():
-'''public void setProject(final Project project)
-'''
-pass
+    '''    public void setProject(final Project project)
+    '''
 def getProject():
-'''public Project getProject()
-'''
-pass
+    '''    public Project getProject()
+    '''
 def setLocation():
-'''public void setLocation(final Location location)
-'''
-pass
+    '''    public void setLocation(final Location location)
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def setDepends():
-'''public void setDepends(final String depS)
-'''
-pass
+    '''    public void setDepends(final String depS)
+    '''
 def parseDepends():
-'''public static List parseDepends(final String depends, final String targetName, final String attributeName)
-'''
-pass
+    '''    public static List parseDepends(final String depends, final String targetName, final String attributeName)
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def addTask():
-'''public void addTask(final Task task)
-'''
-pass
+    '''    public void addTask(final Task task)
+    '''
 def addDataType():
-'''public void addDataType(final RuntimeConfigurable r)
-'''
-pass
+    '''    public void addDataType(final RuntimeConfigurable r)
+    '''
 def getTasks():
-'''public Task[] getTasks()
-'''
-pass
+    '''    public Task[] getTasks()
+    '''
 def addDependency():
-'''public void addDependency(final String dependency)
-'''
-pass
+    '''    public void addDependency(final String dependency)
+    '''
 def getDependencies():
-'''public Enumeration getDependencies()
-'''
-pass
+    '''    public Enumeration getDependencies()
+    '''
 def dependsOn():
-'''public boolean dependsOn(final String other)
-'''
-pass
+    '''    public boolean dependsOn(final String other)
+    '''
 def setIf():
-'''public void setIf(final String property)
-'''
-pass
+    '''    public void setIf(final String property)
+    '''
 def getIf():
-'''public String getIf()
-'''
-pass
+    '''    public String getIf()
+    '''
 def setUnless():
-'''public void setUnless(final String property)
-'''
-pass
+    '''    public void setUnless(final String property)
+    '''
 def getUnless():
-'''public String getUnless()
-'''
-pass
+    '''    public String getUnless()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def performTasks():
-'''public final void performTasks()
-'''
-pass
+    '''    public final void performTasks()
+    '''

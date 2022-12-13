@@ -1,12 +1,9 @@
 def FWMResGanttPropSet():
-'''public FWMResGanttPropSet(final MboServerInterface ms)
-'''
-pass
+    '''    public FWMResGanttPropSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def newSKDUserProp():
-'''public void newSKDUserProp()
-'''
-pass
+    '''    public void newSKDUserProp()
+    '''

@@ -1,32 +1,24 @@
 def getDataListener():
-'''public DataBeanListener getDataListener()
-'''
-pass
+    '''    public DataBeanListener getDataListener()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def loadResource():
-'''public String loadResource(final String path)
-'''
-pass
+    '''    public String loadResource(final String path)
+    '''
 def filterCss():
-'''public String filterCss(final String css, final MiniAppControl miniAppControl)
-'''
-pass
+    '''    public String filterCss(final String css, final MiniAppControl miniAppControl)
+    '''
 def editChange():
-'''public int editChange()
-'''
-pass
+    '''    public int editChange()
+    '''
 def updateConfig():
-'''public int updateConfig()
-'''
-pass
+    '''    public int updateConfig()
+    '''
 def restoreConfig():
-'''public JSONObject restoreConfig(final WebClientSession sess)
-'''
-pass
+    '''    public JSONObject restoreConfig(final WebClientSession sess)
+    '''
 def getSymbologyConfig():
-'''public JSONObject getSymbologyConfig(final WebClientSession sess)
-'''
-pass
+    '''    public JSONObject getSymbologyConfig(final WebClientSession sess)
+    '''

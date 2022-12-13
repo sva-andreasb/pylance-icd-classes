@@ -1,28 +1,21 @@
 def WogenForecast():
-'''public WogenForecast(final MboSet ms)
-'''
-pass
+    '''    public WogenForecast(final MboSet ms)
+    '''
 def getWogen():
-'''public MboRemote getWogen()
-'''
-pass
+    '''    public MboRemote getWogen()
+    '''
 def isTask():
-'''public boolean isTask()
-'''
-pass
+    '''    public boolean isTask()
+    '''
 def isStop():
-'''public boolean isStop()
-'''
-pass
+    '''    public boolean isStop()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def taskInUse():
-'''public void taskInUse(final int taskID)
-'''
-pass
+    '''    public void taskInUse(final int taskID)
+    '''
 def getNextTask():
-'''public int getNextTask()
-'''
-pass
+    '''    public int getNextTask()
+    '''

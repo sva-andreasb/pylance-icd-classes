@@ -1,16 +1,12 @@
 def SKDInputParamDataBean():
-'''public SKDInputParamDataBean()
-'''
-pass
+    '''    public SKDInputParamDataBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def copytemplate():
-'''public int copytemplate(final String inputobjrelation)
-'''
-pass
+    '''    public int copytemplate(final String inputobjrelation)
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''

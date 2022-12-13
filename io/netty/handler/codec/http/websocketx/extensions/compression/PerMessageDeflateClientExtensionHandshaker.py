@@ -1,26 +1,20 @@
 def PerMessageDeflateClientExtensionHandshaker():
-'''public PerMessageDeflateClientExtensionHandshaker()
-public PerMessageDeflateClientExtensionHandshaker(final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext)
-public PerMessageDeflateClientExtensionHandshaker(final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext, final WebSocketExtensionFilterProvider extensionFilterProvider)
-'''
-pass
+    '''    public PerMessageDeflateClientExtensionHandshaker()
+    public PerMessageDeflateClientExtensionHandshaker(final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext)
+    public PerMessageDeflateClientExtensionHandshaker(final int compressionLevel, final boolean allowClientWindowSize, final int requestedServerWindowSize, final boolean allowClientNoContext, final boolean requestedServerNoContext, final WebSocketExtensionFilterProvider extensionFilterProvider)
+    '''
 def newRequestData():
-'''public WebSocketExtensionData newRequestData()
-'''
-pass
+    '''    public WebSocketExtensionData newRequestData()
+    '''
 def handshakeExtension():
-'''public WebSocketClientExtension handshakeExtension(final WebSocketExtensionData extensionData)
-'''
-pass
+    '''    public WebSocketClientExtension handshakeExtension(final WebSocketExtensionData extensionData)
+    '''
 def rsv():
-'''public int rsv()
-'''
-pass
+    '''    public int rsv()
+    '''
 def newExtensionEncoder():
-'''public WebSocketExtensionEncoder newExtensionEncoder()
-'''
-pass
+    '''    public WebSocketExtensionEncoder newExtensionEncoder()
+    '''
 def newExtensionDecoder():
-'''public WebSocketExtensionDecoder newExtensionDecoder()
-'''
-pass
+    '''    public WebSocketExtensionDecoder newExtensionDecoder()
+    '''

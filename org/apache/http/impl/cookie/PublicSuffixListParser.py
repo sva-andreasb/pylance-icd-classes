@@ -1,4 +1,3 @@
 def parse():
-'''public void parse(final Reader reader)
-'''
-pass
+    '''    public void parse(final Reader reader)
+    '''

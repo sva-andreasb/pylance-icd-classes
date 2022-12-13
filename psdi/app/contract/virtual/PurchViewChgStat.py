@@ -1,8 +1,6 @@
 def PurchViewChgStat():
-'''public PurchViewChgStat(final MboSet ms)
-'''
-pass
+    '''    public PurchViewChgStat(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,12 +1,9 @@
 def ReachabilityRule():
-'''public ReachabilityRule()
-'''
-pass
+    '''    public ReachabilityRule()
+    '''
 def subset():
-'''public void subset(final List identities, final StringBuffer reason)
-'''
-pass
+    '''    public void subset(final List identities, final StringBuffer reason)
+    '''
 def registerRuleArbitrator():
-'''public void registerRuleArbitrator(final RuleArbitrator coordinator)
-'''
-pass
+    '''    public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''

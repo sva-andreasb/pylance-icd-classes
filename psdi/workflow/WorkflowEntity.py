@@ -1,4 +1,3 @@
 def hasProperties():
-'''public boolean hasProperties()
-'''
-pass
+    '''    public boolean hasProperties()
+    '''

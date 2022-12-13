@@ -1,44 +1,33 @@
 def WoHazard():
-'''public WoHazard(final MboSet ms)
-'''
-pass
+    '''    public WoHazard(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def isHazardEnabled():
-'''public boolean isHazardEnabled()
-'''
-pass
+    '''    public boolean isHazardEnabled()
+    '''
 def isPrecautionEnabled():
-'''public boolean isPrecautionEnabled()
-'''
-pass
+    '''    public boolean isPrecautionEnabled()
+    '''
 def isTagOutEnabled():
-'''public boolean isTagOutEnabled()
-'''
-pass
+    '''    public boolean isTagOutEnabled()
+    '''
 def setAssetDescription():
-'''public void setAssetDescription()
-'''
-pass
+    '''    public void setAssetDescription()
+    '''

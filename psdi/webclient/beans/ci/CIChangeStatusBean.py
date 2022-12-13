@@ -1,8 +1,6 @@
 def CIChangeStatusBean():
-'''public CIChangeStatusBean()
-'''
-pass
+    '''    public CIChangeStatusBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

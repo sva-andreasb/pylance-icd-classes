@@ -1,4 +1,3 @@
 def FldWorkTypeCompleteStatus():
-'''public FldWorkTypeCompleteStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkTypeCompleteStatus(final MboValue mbv)
+    '''

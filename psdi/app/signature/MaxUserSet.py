@@ -1,36 +1,27 @@
 def MaxUserSet():
-'''public MaxUserSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxUserSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def getMaxGroupAdminWhereMain():
-'''public String getMaxGroupAdminWhereMain()
-'''
-pass
+    '''    public String getMaxGroupAdminWhereMain()
+    '''
 def getMaxGroupAdminWhereSiteSubselect():
-'''public String getMaxGroupAdminWhereSiteSubselect()
-'''
-pass
+    '''    public String getMaxGroupAdminWhereSiteSubselect()
+    '''
 def setIsLookup():
-'''public void setIsLookup(final boolean is)
-'''
-pass
+    '''    public void setIsLookup(final boolean is)
+    '''
 def isLookup():
-'''public boolean isLookup()
-'''
-pass
+    '''    public boolean isLookup()
+    '''
 def isESigNeeded():
-'''public boolean isESigNeeded(String optionName)
-'''
-pass
+    '''    public boolean isESigNeeded(String optionName)
+    '''
 def addUserToReloadList():
-'''public void addUserToReloadList(final String user, final String action)
-'''
-pass
+    '''    public void addUserToReloadList(final String user, final String action)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

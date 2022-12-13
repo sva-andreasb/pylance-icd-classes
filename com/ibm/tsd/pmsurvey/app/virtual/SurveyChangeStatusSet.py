@@ -1,4 +1,3 @@
 def SurveyChangeStatusSet():
-'''public SurveyChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SurveyChangeStatusSet(final MboServerInterface ms)
+    '''

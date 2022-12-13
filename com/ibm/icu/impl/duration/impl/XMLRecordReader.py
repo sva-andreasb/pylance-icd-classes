@@ -1,48 +1,36 @@
 def XMLRecordReader():
-'''public XMLRecordReader(final Reader r)
-'''
-pass
+    '''    public XMLRecordReader(final Reader r)
+    '''
 def open():
-'''public boolean open(final String title)
-'''
-pass
+    '''    public boolean open(final String title)
+    '''
 def close():
-'''public boolean close()
-'''
-pass
+    '''    public boolean close()
+    '''
 def bool():
-'''public boolean bool(final String name)
-'''
-pass
+    '''    public boolean bool(final String name)
+    '''
 def boolArray():
-'''public boolean[] boolArray(final String name)
-'''
-pass
+    '''    public boolean[] boolArray(final String name)
+    '''
 def character():
-'''public char character(final String name)
-'''
-pass
+    '''    public char character(final String name)
+    '''
 def characterArray():
-'''public char[] characterArray(final String name)
-'''
-pass
+    '''    public char[] characterArray(final String name)
+    '''
 def namedIndex():
-'''public byte namedIndex(final String name, final String[] names)
-'''
-pass
+    '''    public byte namedIndex(final String name, final String[] names)
+    '''
 def namedIndexArray():
-'''public byte[] namedIndexArray(final String name, final String[] names)
-'''
-pass
+    '''    public byte[] namedIndexArray(final String name, final String[] names)
+    '''
 def string():
-'''public String string(final String name)
-'''
-pass
+    '''    public String string(final String name)
+    '''
 def stringArray():
-'''public String[] stringArray(final String name)
-'''
-pass
+    '''    public String[] stringArray(final String name)
+    '''
 def stringTable():
-'''public String[][] stringTable(final String name)
-'''
-pass
+    '''    public String[][] stringTable(final String name)
+    '''

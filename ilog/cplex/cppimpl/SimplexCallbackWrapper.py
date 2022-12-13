@@ -1,77 +1,58 @@
 def SimplexCallbackWrapper():
-'''public SimplexCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-public SimplexCallbackWrapper(final IloEnv env)
-'''
-pass
+    '''    public SimplexCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
+    public SimplexCallbackWrapper(final IloEnv env)
+    '''
 def getCPtr():
-'''public static long getCPtr(final SimplexCallbackWrapper obj)
-'''
-pass
+    '''    public static long getCPtr(final SimplexCallbackWrapper obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def main_cpp():
-'''public void main_cpp()
-'''
-pass
+    '''    public void main_cpp()
+    '''
 def duplicateCallback():
-'''public IloCplex__CallbackI duplicateCallback()
-'''
-pass
+    '''    public IloCplex__CallbackI duplicateCallback()
+    '''
 def callbackImpl():
-'''public void callbackImpl()
-'''
-pass
+    '''    public void callbackImpl()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getEnv():
-'''public IloEnv getEnv()
-'''
-pass
+    '''    public IloEnv getEnv()
+    '''
 def getModel():
-'''public IloModel getModel()
-'''
-pass
+    '''    public IloModel getModel()
+    '''
 def getNcols():
-'''public int getNcols()
-'''
-pass
+    '''    public int getNcols()
+    '''
 def getNrows():
-'''public int getNrows()
-'''
-pass
+    '''    public int getNrows()
+    '''
 def getNQCs():
-'''public int getNQCs()
-'''
-pass
+    '''    public int getNQCs()
+    '''
 def getObjValue():
-'''public double getObjValue()
-'''
-pass
+    '''    public double getObjValue()
+    '''
 def getInfeasibility():
-'''public double getInfeasibility()
-'''
-pass
+    '''    public double getInfeasibility()
+    '''
 def getDualInfeasibility():
-'''public double getDualInfeasibility()
-'''
-pass
+    '''    public double getDualInfeasibility()
+    '''
 def isFeasible():
-'''public boolean isFeasible()
-'''
-pass
+    '''    public boolean isFeasible()
+    '''
 def isDualFeasible():
-'''public boolean isDualFeasible()
-'''
-pass
+    '''    public boolean isDualFeasible()
+    '''
 def getNiterations():
-'''public int getNiterations()
-'''
-pass
+    '''    public int getNiterations()
+    '''
 def getNiterations64():
-'''public long getNiterations64()
-'''
-pass
+    '''    public long getNiterations64()
+    '''

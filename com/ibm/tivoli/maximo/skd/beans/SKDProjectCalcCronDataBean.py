@@ -1,16 +1,12 @@
 def SKDProjectCalcCronDataBean():
-'''public SKDProjectCalcCronDataBean()
-'''
-pass
+    '''    public SKDProjectCalcCronDataBean()
+    '''
 def runOK():
-'''public int runOK()
-'''
-pass
+    '''    public int runOK()
+    '''
 def saveCalc():
-'''public int saveCalc()
-'''
-pass
+    '''    public int saveCalc()
+    '''
 def runCalc():
-'''public int runCalc()
-'''
-pass
+    '''    public int runCalc()
+    '''

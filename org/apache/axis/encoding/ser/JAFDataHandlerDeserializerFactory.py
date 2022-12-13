@@ -1,5 +1,4 @@
 def JAFDataHandlerDeserializerFactory():
-'''public JAFDataHandlerDeserializerFactory(final Class javaType, final QName xmlType)
-public JAFDataHandlerDeserializerFactory()
-'''
-pass
+    '''    public JAFDataHandlerDeserializerFactory(final Class javaType, final QName xmlType)
+    public JAFDataHandlerDeserializerFactory()
+    '''

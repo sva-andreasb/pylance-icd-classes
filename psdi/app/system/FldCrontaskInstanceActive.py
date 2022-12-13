@@ -1,8 +1,6 @@
 def FldCrontaskInstanceActive():
-'''public FldCrontaskInstanceActive(final MboValue mbv)
-'''
-pass
+    '''    public FldCrontaskInstanceActive(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

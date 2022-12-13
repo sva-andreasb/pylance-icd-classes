@@ -1,12 +1,9 @@
 def decode():
-'''public JobExecutionStatus decode(final BsonReader reader, final DecoderContext decoderContext)
-'''
-pass
+    '''    public JobExecutionStatus decode(final BsonReader reader, final DecoderContext decoderContext)
+    '''
 def encode():
-'''public void encode(final BsonWriter writer, final JobExecutionStatus value, final EncoderContext encoderContext)
-'''
-pass
+    '''    public void encode(final BsonWriter writer, final JobExecutionStatus value, final EncoderContext encoderContext)
+    '''
 def getEncoderClass():
-'''public Class<JobExecutionStatus> getEncoderClass()
-'''
-pass
+    '''    public Class<JobExecutionStatus> getEncoderClass()
+    '''

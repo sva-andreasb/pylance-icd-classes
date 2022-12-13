@@ -1,8 +1,6 @@
 def refreshStatus():
-'''public int refreshStatus()
-'''
-pass
+    '''    public int refreshStatus()
+    '''
 def dook():
-'''public int dook()
-'''
-pass
+    '''    public int dook()
+    '''

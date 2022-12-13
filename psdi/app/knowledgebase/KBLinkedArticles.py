@@ -1,8 +1,6 @@
 def KBLinkedArticles():
-'''public KBLinkedArticles(final MboSet ms)
-'''
-pass
+    '''    public KBLinkedArticles(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

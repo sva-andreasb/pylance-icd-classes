@@ -1,32 +1,24 @@
 def PlusPFldAllowPriceQuote():
-'''public PlusPFldAllowPriceQuote(final MboValue mboValue)
-'''
-pass
+    '''    public PlusPFldAllowPriceQuote(final MboValue mboValue)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def isValidObjectForSpecialPricing():
-'''public boolean isValidObjectForSpecialPricing()
-'''
-pass
+    '''    public boolean isValidObjectForSpecialPricing()
+    '''
 def isAnyOtherAllowQuoteFilled():
-'''public boolean isAnyOtherAllowQuoteFilled()
-'''
-pass
+    '''    public boolean isAnyOtherAllowQuoteFilled()
+    '''
 def isConflictAllowQuoteFilled():
-'''public boolean isConflictAllowQuoteFilled()
-'''
-pass
+    '''    public boolean isConflictAllowQuoteFilled()
+    '''
 def clearFieldsAndSetReadOnlyConflictQuotes():
-'''public void clearFieldsAndSetReadOnlyConflictQuotes()
-'''
-pass
+    '''    public void clearFieldsAndSetReadOnlyConflictQuotes()
+    '''
 def setReadOnlyConflictQuotes():
-'''public void setReadOnlyConflictQuotes(final boolean readOnly)
-'''
-pass
+    '''    public void setReadOnlyConflictQuotes(final boolean readOnly)
+    '''

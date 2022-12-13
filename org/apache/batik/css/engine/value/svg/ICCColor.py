@@ -1,33 +1,25 @@
-ICC_COLOR_FUNCTION = "String  icc-color""
+ICC_COLOR_FUNCTION = "String  \"icc-color\""
 def ICCColor():
-'''public ICCColor(final String name)
-'''
-pass
+    '''    public ICCColor(final String name)
+    '''
 def getCssValueType():
-'''public short getCssValueType()
-'''
-pass
+    '''    public short getCssValueType()
+    '''
 def getColorProfile():
-'''public String getColorProfile()
-'''
-pass
+    '''    public String getColorProfile()
+    '''
 def getNumberOfColors():
-'''public int getNumberOfColors()
-'''
-pass
+    '''    public int getNumberOfColors()
+    '''
 def getColor():
-'''public float getColor(final int i)
-'''
-pass
+    '''    public float getColor(final int i)
+    '''
 def getCssText():
-'''public String getCssText()
-'''
-pass
+    '''    public String getCssText()
+    '''
 def append():
-'''public void append(final float c)
-'''
-pass
+    '''    public void append(final float c)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

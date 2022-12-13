@@ -1,48 +1,36 @@
 def toSQLOperand():
-'''public String toSQLOperand()
-'''
-pass
+    '''    public String toSQLOperand()
+    '''
 def toSQLValue():
-'''public String toSQLValue()
-'''
-pass
+    '''    public String toSQLValue()
+    '''
 def Filter():
-'''public Filter(final String column, final Operation operation, final String value)
-'''
-pass
+    '''    public Filter(final String column, final Operation operation, final String value)
+    '''
 def getColumn():
-'''public String getColumn()
-'''
-pass
+    '''    public String getColumn()
+    '''
 def setColumn():
-'''public void setColumn(final String column)
-'''
-pass
+    '''    public void setColumn(final String column)
+    '''
 def getOperation():
-'''public Operation getOperation()
-'''
-pass
+    '''    public Operation getOperation()
+    '''
 def setOperation():
-'''public void setOperation(final Operation operation)
-'''
-pass
+    '''    public void setOperation(final Operation operation)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,17 +1,13 @@
 def MamIntegrationTest():
-'''public MamIntegrationTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public MamIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def mamTest():
-'''public void mamTest()
-'''
-pass
+    '''    public void mamTest()
+    '''
 def processStanza():
-'''public void processStanza(final Stanza stanza)
-public void processStanza(final Stanza stanza)
-'''
-pass
+    '''    public void processStanza(final Stanza stanza)
+    public void processStanza(final Stanza stanza)
+    '''
 def mamPageTest():
-'''public void mamPageTest()
-'''
-pass
+    '''    public void mamPageTest()
+    '''

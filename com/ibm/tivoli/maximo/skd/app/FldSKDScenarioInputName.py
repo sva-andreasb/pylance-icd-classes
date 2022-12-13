@@ -1,12 +1,9 @@
 def FldSKDScenarioInputName():
-'''public FldSKDScenarioInputName(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDScenarioInputName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

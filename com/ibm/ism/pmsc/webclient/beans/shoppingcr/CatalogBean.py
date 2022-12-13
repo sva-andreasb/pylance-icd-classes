@@ -1,17 +1,13 @@
-COPYRIGHT = "String  IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def CatalogBean():
-'''public CatalogBean()
-'''
-pass
+    '''    public CatalogBean()
+    '''
 def selectcatalog():
-'''public int selectcatalog()
-'''
-pass
+    '''    public int selectcatalog()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''
 def searchOffers():
-'''public int searchOffers()
-'''
-pass
+    '''    public int searchOffers()
+    '''

@@ -1,8 +1,6 @@
 def GroupAuthorizationException():
-'''public GroupAuthorizationException(final String groupId)
-'''
-pass
+    '''    public GroupAuthorizationException(final String groupId)
+    '''
 def groupId():
-'''public String groupId()
-'''
-pass
+    '''    public String groupId()
+    '''

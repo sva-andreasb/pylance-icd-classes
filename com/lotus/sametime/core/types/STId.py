@@ -1,29 +1,22 @@
 def STId():
-'''public STId(final String s, final String s2)
-public STId(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public STId(final String s, final String s2)
+    public STId(final NdrInputStream ndrInputStream)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getCommunityName():
-'''public String getCommunityName()
-'''
-pass
+    '''    public String getCommunityName()
+    '''
 def dump():
-'''public void dump(final NdrOutputStream ndrOutputStream)
-'''
-pass
+    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,22 +1,17 @@
 sid = "short  235"
 def DrawingGroupRecord():
-'''public DrawingGroupRecord()
-public DrawingGroupRecord(final RecordInputStream in)
-'''
-pass
+    '''    public DrawingGroupRecord()
+    public DrawingGroupRecord(final RecordInputStream in)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def serialize():
-'''public int serialize(final int offset, final byte[] data)
-'''
-pass
+    '''    public int serialize(final int offset, final byte[] data)
+    '''
 def processChildRecords():
-'''public void processChildRecords()
-'''
-pass
+    '''    public void processChildRecords()
+    '''
 def getRecordSize():
-'''public int getRecordSize()
-'''
-pass
+    '''    public int getRecordSize()
+    '''

@@ -1,12 +1,9 @@
 def FldJobPlanDefaultWOClass():
-'''public FldJobPlanDefaultWOClass(final MboValue mbv)
-'''
-pass
+    '''    public FldJobPlanDefaultWOClass(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

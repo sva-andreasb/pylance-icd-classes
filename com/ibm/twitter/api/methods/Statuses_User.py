@@ -1,8 +1,6 @@
 def Statuses_User():
-'''public Statuses_User(final String str)
-'''
-pass
+    '''    public Statuses_User(final String str)
+    '''
 def getResult():
-'''public List<Status> getResult()
-'''
-pass
+    '''    public List<Status> getResult()
+    '''

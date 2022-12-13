@@ -1,8 +1,6 @@
 def TsdFldExtSystTktId():
-'''public TsdFldExtSystTktId(final MboValue mbv)
-'''
-pass
+    '''    public TsdFldExtSystTktId(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

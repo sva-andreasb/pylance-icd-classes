@@ -1,16 +1,12 @@
 def parse():
-'''public void parse(final SetCookie cookie, final String portValue)
-'''
-pass
+    '''    public void parse(final SetCookie cookie, final String portValue)
+    '''
 def validate():
-'''public void validate(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public void validate(final Cookie cookie, final CookieOrigin origin)
+    '''
 def match():
-'''public boolean match(final Cookie cookie, final CookieOrigin origin)
-'''
-pass
+    '''    public boolean match(final Cookie cookie, final CookieOrigin origin)
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''

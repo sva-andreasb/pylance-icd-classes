@@ -1,136 +1,102 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getServiceProvider():
-'''public Provider getServiceProvider()
-'''
-pass
+    '''    public Provider getServiceProvider()
+    '''
 def setServiceProvider():
-'''public void setServiceProvider(final Provider serviceProvider)
-'''
-pass
+    '''    public void setServiceProvider(final Provider serviceProvider)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDestinationAccountAlphanumericId():
-'''public String getDestinationAccountAlphanumericId()
-'''
-pass
+    '''    public String getDestinationAccountAlphanumericId()
+    '''
 def setDestinationAccountAlphanumericId():
-'''public void setDestinationAccountAlphanumericId(final String destinationAccountAlphanumericId)
-'''
-pass
+    '''    public void setDestinationAccountAlphanumericId(final String destinationAccountAlphanumericId)
+    '''
 def isDestinationAccountAlphanumericIdSpecified():
-'''public boolean isDestinationAccountAlphanumericIdSpecified()
-'''
-pass
+    '''    public boolean isDestinationAccountAlphanumericIdSpecified()
+    '''
 def unsetDestinationAccountAlphanumericId():
-'''public void unsetDestinationAccountAlphanumericId()
-'''
-pass
+    '''    public void unsetDestinationAccountAlphanumericId()
+    '''
 def getDestinationAccountId():
-'''public Long getDestinationAccountId()
-'''
-pass
+    '''    public Long getDestinationAccountId()
+    '''
 def setDestinationAccountId():
-'''public void setDestinationAccountId(final Long destinationAccountId)
-'''
-pass
+    '''    public void setDestinationAccountId(final Long destinationAccountId)
+    '''
 def isDestinationAccountIdSpecified():
-'''public boolean isDestinationAccountIdSpecified()
-'''
-pass
+    '''    public boolean isDestinationAccountIdSpecified()
+    '''
 def unsetDestinationAccountId():
-'''public void unsetDestinationAccountId()
-'''
-pass
+    '''    public void unsetDestinationAccountId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getServiceProviderId():
-'''public Long getServiceProviderId()
-'''
-pass
+    '''    public Long getServiceProviderId()
+    '''
 def setServiceProviderId():
-'''public void setServiceProviderId(final Long serviceProviderId)
-'''
-pass
+    '''    public void setServiceProviderId(final Long serviceProviderId)
+    '''
 def isServiceProviderIdSpecified():
-'''public boolean isServiceProviderIdSpecified()
-'''
-pass
+    '''    public boolean isServiceProviderIdSpecified()
+    '''
 def unsetServiceProviderId():
-'''public void unsetServiceProviderId()
-'''
-pass
+    '''    public void unsetServiceProviderId()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def destinationAccountAlphanumericId():
-'''public Mask destinationAccountAlphanumericId()
-'''
-pass
+    '''    public Mask destinationAccountAlphanumericId()
+    '''
 def destinationAccountId():
-'''public Mask destinationAccountId()
-'''
-pass
+    '''    public Mask destinationAccountId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def serviceProviderId():
-'''public Mask serviceProviderId()
-'''
-pass
+    '''    public Mask serviceProviderId()
+    '''

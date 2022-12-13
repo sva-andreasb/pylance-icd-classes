@@ -1,16 +1,12 @@
 def PMRepairFacilityFields():
-'''public PMRepairFacilityFields(final MboRemote pm)
-'''
-pass
+    '''    public PMRepairFacilityFields(final MboRemote pm)
+    '''
 def getRepairFacilitySiteID():
-'''public String getRepairFacilitySiteID()
-'''
-pass
+    '''    public String getRepairFacilitySiteID()
+    '''
 def getRepairFacility():
-'''public String getRepairFacility()
-'''
-pass
+    '''    public String getRepairFacility()
+    '''
 def useAssetDefaultRepairFacility():
-'''public boolean useAssetDefaultRepairFacility()
-'''
-pass
+    '''    public boolean useAssetDefaultRepairFacility()
+    '''

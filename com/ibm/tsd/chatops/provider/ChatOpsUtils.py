@@ -1,22 +1,17 @@
-CHAT_BOT_USER = "String CHATBOT""
-SP_URL_PROPERTY = "String portal.URL""
+CHAT_BOT_USER = "String  \"CHATBOT\""
+SP_URL_PROPERTY = "String  \"portal.URL\""
 def getProperty():
-'''public static String getProperty(final String propName)
-'''
-pass
+    '''    public static String getProperty(final String propName)
+    '''
 def createTicketTemplate():
-'''public static JSONObject createTicketTemplate(final MboRemote ticketMbo, final List<String> attributes, final UserInfo userInfo)
-'''
-pass
+    '''    public static JSONObject createTicketTemplate(final MboRemote ticketMbo, final List<String> attributes, final UserInfo userInfo)
+    '''
 def getAttributeListForCommand():
-'''public static List<String> getAttributeListForCommand(final String propertyName)
-'''
-pass
+    '''    public static List<String> getAttributeListForCommand(final String propertyName)
+    '''
 def loadAttributeInfo():
-'''public static JSONObject loadAttributeInfo(final MboRemote obj, final String attributeName)
-'''
-pass
+    '''    public static JSONObject loadAttributeInfo(final MboRemote obj, final String attributeName)
+    '''
 def getSearchTemplate():
-'''public static JSONObject getSearchTemplate(final MboRemote mbo, final String mboName)
-'''
-pass
+    '''    public static JSONObject getSearchTemplate(final MboRemote mbo, final String mboName)
+    '''

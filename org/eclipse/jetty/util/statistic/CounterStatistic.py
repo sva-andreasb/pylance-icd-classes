@@ -1,37 +1,28 @@
 def CounterStatistic():
-'''public CounterStatistic()
-'''
-pass
+    '''    public CounterStatistic()
+    '''
 def reset():
-'''public void reset()
-public void reset(final long value)
-'''
-pass
+    '''    public void reset()
+    public void reset(final long value)
+    '''
 def add():
-'''public void add(final long delta)
-'''
-pass
+    '''    public void add(final long delta)
+    '''
 def subtract():
-'''public void subtract(final long delta)
-'''
-pass
+    '''    public void subtract(final long delta)
+    '''
 def increment():
-'''public void increment()
-'''
-pass
+    '''    public void increment()
+    '''
 def decrement():
-'''public void decrement()
-'''
-pass
+    '''    public void decrement()
+    '''
 def getMax():
-'''public long getMax()
-'''
-pass
+    '''    public long getMax()
+    '''
 def getCurrent():
-'''public long getCurrent()
-'''
-pass
+    '''    public long getCurrent()
+    '''
 def getTotal():
-'''public long getTotal()
-'''
-pass
+    '''    public long getTotal()
+    '''

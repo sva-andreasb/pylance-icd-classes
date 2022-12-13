@@ -1,28 +1,21 @@
 def FldAMCrewLaborLaborCode():
-'''public FldAMCrewLaborLaborCode(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewLaborLaborCode(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getSqlForEnteredFields():
-'''public SqlFormat getSqlForEnteredFields()
-'''
-pass
+    '''    public SqlFormat getSqlForEnteredFields()
+    '''
 def smartFind():
-'''public MboSetRemote smartFind(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFind(final String value, final boolean exact)
+    '''

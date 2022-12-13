@@ -1,4 +1,3 @@
 def CIStatusSet():
-'''public CIStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CIStatusSet(final MboServerInterface ms)
+    '''

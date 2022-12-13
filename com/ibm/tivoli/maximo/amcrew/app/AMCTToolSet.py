@@ -1,8 +1,6 @@
 def AMCTToolSet():
-'''public AMCTToolSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AMCTToolSet(final MboServerInterface ms)
+    '''
 def findByQualId():
-'''public MboRemote findByQualId(final String qualId)
-'''
-pass
+    '''    public MboRemote findByQualId(final String qualId)
+    '''

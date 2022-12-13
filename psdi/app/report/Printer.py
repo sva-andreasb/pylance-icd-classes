@@ -1,4 +1,3 @@
 def Printer():
-'''public Printer(final MboSet ms)
-'''
-pass
+    '''    public Printer(final MboSet ms)
+    '''

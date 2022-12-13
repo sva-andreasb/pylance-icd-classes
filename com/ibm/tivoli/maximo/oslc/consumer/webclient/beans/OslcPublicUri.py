@@ -1,12 +1,9 @@
 def OslcPublicUri():
-'''public OslcPublicUri()
-'''
-pass
+    '''    public OslcPublicUri()
+    '''
 def insert():
-'''public synchronized void insert()
-'''
-pass
+    '''    public synchronized void insert()
+    '''
 def changepublicuri():
-'''public int changepublicuri()
-'''
-pass
+    '''    public int changepublicuri()
+    '''

@@ -1,12 +1,9 @@
 def JMFInit():
-'''public JMFInit(final String[] args, final boolean visible)
-'''
-pass
+    '''    public JMFInit(final String[] args, final boolean visible)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def start():
-'''public static void start(final boolean visible)
-'''
-pass
+    '''    public static void start(final boolean visible)
+    '''

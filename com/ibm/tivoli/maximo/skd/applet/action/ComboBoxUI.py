@@ -1,8 +1,6 @@
 def createUI():
-'''public static ComponentUI createUI(final JComponent x)
-'''
-pass
+    '''    public static ComponentUI createUI(final JComponent x)
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent e)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent e)
+    '''

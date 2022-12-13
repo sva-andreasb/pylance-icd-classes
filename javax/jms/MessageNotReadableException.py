@@ -1,5 +1,4 @@
 def MessageNotReadableException():
-'''public MessageNotReadableException(final String reason)
-public MessageNotReadableException(final String reason, final String errorCode)
-'''
-pass
+    '''    public MessageNotReadableException(final String reason)
+    public MessageNotReadableException(final String reason, final String errorCode)
+    '''

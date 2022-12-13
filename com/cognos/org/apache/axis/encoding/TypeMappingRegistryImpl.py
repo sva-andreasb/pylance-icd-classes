@@ -1,50 +1,38 @@
 def TypeMappingRegistryImpl():
-'''public TypeMappingRegistryImpl(final TypeMappingImpl tm)
-public TypeMappingRegistryImpl()
-public TypeMappingRegistryImpl(final boolean registerDefaults)
-'''
-pass
+    '''    public TypeMappingRegistryImpl(final TypeMappingImpl tm)
+    public TypeMappingRegistryImpl()
+    public TypeMappingRegistryImpl(final boolean registerDefaults)
+    '''
 def delegate():
-'''public void delegate(final TypeMappingRegistry secondaryTMR)
-'''
-pass
+    '''    public void delegate(final TypeMappingRegistry secondaryTMR)
+    '''
 def register():
-'''public TypeMapping register(final String namespaceURI, final TypeMapping mapping)
-'''
-pass
+    '''    public TypeMapping register(final String namespaceURI, final TypeMapping mapping)
+    '''
 def registerDefault():
-'''public void registerDefault(final TypeMapping mapping)
-'''
-pass
+    '''    public void registerDefault(final TypeMapping mapping)
+    '''
 def doRegisterFromVersion():
-'''public void doRegisterFromVersion(final String version)
-'''
-pass
+    '''    public void doRegisterFromVersion(final String version)
+    '''
 def getTypeMapping():
-'''public TypeMapping getTypeMapping(final String namespaceURI)
-'''
-pass
+    '''    public TypeMapping getTypeMapping(final String namespaceURI)
+    '''
 def unregisterTypeMapping():
-'''public TypeMapping unregisterTypeMapping(final String namespaceURI)
-'''
-pass
+    '''    public TypeMapping unregisterTypeMapping(final String namespaceURI)
+    '''
 def removeTypeMapping():
-'''public boolean removeTypeMapping(final TypeMapping mapping)
-'''
-pass
+    '''    public boolean removeTypeMapping(final TypeMapping mapping)
+    '''
 def createTypeMapping():
-'''public TypeMapping createTypeMapping()
-'''
-pass
+    '''    public TypeMapping createTypeMapping()
+    '''
 def getRegisteredEncodingStyleURIs():
-'''public String[] getRegisteredEncodingStyleURIs()
-'''
-pass
+    '''    public String[] getRegisteredEncodingStyleURIs()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getDefaultTypeMapping():
-'''public TypeMapping getDefaultTypeMapping()
-'''
-pass
+    '''    public TypeMapping getDefaultTypeMapping()
+    '''

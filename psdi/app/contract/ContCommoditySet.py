@@ -1,16 +1,12 @@
 def ContCommoditySet():
-'''public ContCommoditySet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContCommoditySet(final MboServerInterface ms)
+    '''
 def copyFromCommodityGroupSet():
-'''public void copyFromCommodityGroupSet(final MboSetRemote commoditySet)
-'''
-pass
+    '''    public void copyFromCommodityGroupSet(final MboSetRemote commoditySet)
+    '''
 def copyFromCommodityCodeSet():
-'''public void copyFromCommodityCodeSet(final MboSetRemote commoditySet, final String parent)
-'''
-pass
+    '''    public void copyFromCommodityCodeSet(final MboSetRemote commoditySet, final String parent)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

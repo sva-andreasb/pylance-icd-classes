@@ -1,8 +1,6 @@
 def ERROR():
-'''public ERROR(final Expression exp, final String name, final int numParams)
-'''
-pass
+    '''    public ERROR(final Expression exp, final String name, final int numParams)
+    '''
 def eval():
-'''public BigDecimal eval(final List<BigDecimal> parameters)
-'''
-pass
+    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''

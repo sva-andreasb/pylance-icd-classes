@@ -1,8 +1,6 @@
 def getPolicyText():
-'''public String getPolicyText()
-'''
-pass
+    '''    public String getPolicyText()
+    '''
 def setPolicyText():
-'''public void setPolicyText(final String policyText)
-'''
-pass
+    '''    public void setPolicyText(final String policyText)
+    '''

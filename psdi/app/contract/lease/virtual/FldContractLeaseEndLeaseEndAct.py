@@ -1,8 +1,6 @@
 def FldContractLeaseEndLeaseEndAct():
-'''public FldContractLeaseEndLeaseEndAct(final MboValue mbv)
-'''
-pass
+    '''    public FldContractLeaseEndLeaseEndAct(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

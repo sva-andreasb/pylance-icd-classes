@@ -1,24 +1,18 @@
 def create():
-'''public static ID create(final String str, final HelpSet set)
-'''
-pass
+    '''    public static ID create(final String str, final HelpSet set)
+    '''
 def getHelpSet():
-'''public HelpSet getHelpSet()
-'''
-pass
+    '''    public HelpSet getHelpSet()
+    '''
 def getIDString():
-'''public String getIDString()
-'''
-pass
+    '''    public String getIDString()
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

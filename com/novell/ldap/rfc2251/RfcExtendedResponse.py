@@ -1,35 +1,27 @@
 RESPONSE_NAME = "int  10"
 RESPONSE = "int  11"
 def RfcExtendedResponse():
-'''public RfcExtendedResponse(final ASN1Enumerated asn1Enumerated, final RfcLDAPDN rfcLDAPDN, final RfcLDAPString rfcLDAPString, final RfcReferral rfcReferral, final RfcLDAPOID rfcLDAPOID, final ASN1OctetString asn1OctetString)
-public RfcExtendedResponse(final ASN1Decoder asn1Decoder, final InputStream inputStream, final int n)
-'''
-pass
+    '''    public RfcExtendedResponse(final ASN1Enumerated asn1Enumerated, final RfcLDAPDN rfcLDAPDN, final RfcLDAPString rfcLDAPString, final RfcReferral rfcReferral, final RfcLDAPOID rfcLDAPOID, final ASN1OctetString asn1OctetString)
+    public RfcExtendedResponse(final ASN1Decoder asn1Decoder, final InputStream inputStream, final int n)
+    '''
 def getResultCode():
-'''public final ASN1Enumerated getResultCode()
-'''
-pass
+    '''    public final ASN1Enumerated getResultCode()
+    '''
 def getMatchedDN():
-'''public final RfcLDAPDN getMatchedDN()
-'''
-pass
+    '''    public final RfcLDAPDN getMatchedDN()
+    '''
 def getErrorMessage():
-'''public final RfcLDAPString getErrorMessage()
-'''
-pass
+    '''    public final RfcLDAPString getErrorMessage()
+    '''
 def getReferral():
-'''public final RfcReferral getReferral()
-'''
-pass
+    '''    public final RfcReferral getReferral()
+    '''
 def getResponseName():
-'''public final RfcLDAPOID getResponseName()
-'''
-pass
+    '''    public final RfcLDAPOID getResponseName()
+    '''
 def getResponse():
-'''public final ASN1OctetString getResponse()
-'''
-pass
+    '''    public final ASN1OctetString getResponse()
+    '''
 def getIdentifier():
-'''public final ASN1Identifier getIdentifier()
-'''
-pass
+    '''    public final ASN1Identifier getIdentifier()
+    '''

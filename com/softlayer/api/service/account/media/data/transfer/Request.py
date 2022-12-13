@@ -1,253 +1,190 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getActiveTickets():
-'''public List<Ticket> getActiveTickets()
-'''
-pass
+    '''    public List<Ticket> getActiveTickets()
+    '''
 def getBillingItem():
-'''public Item getBillingItem()
-'''
-pass
+    '''    public Item getBillingItem()
+    '''
 def setBillingItem():
-'''public void setBillingItem(final Item billingItem)
-'''
-pass
+    '''    public void setBillingItem(final Item billingItem)
+    '''
 def getCreateUser():
-'''public Customer getCreateUser()
-'''
-pass
+    '''    public Customer getCreateUser()
+    '''
 def setCreateUser():
-'''public void setCreateUser(final Customer createUser)
-'''
-pass
+    '''    public void setCreateUser(final Customer createUser)
+    '''
 def getMedia():
-'''public Media getMedia()
-'''
-pass
+    '''    public Media getMedia()
+    '''
 def setMedia():
-'''public void setMedia(final Media media)
-'''
-pass
+    '''    public void setMedia(final Media media)
+    '''
 def getModifyEmployee():
-'''public Employee getModifyEmployee()
-'''
-pass
+    '''    public Employee getModifyEmployee()
+    '''
 def setModifyEmployee():
-'''public void setModifyEmployee(final Employee modifyEmployee)
-'''
-pass
+    '''    public void setModifyEmployee(final Employee modifyEmployee)
+    '''
 def getModifyUser():
-'''public Customer getModifyUser()
-'''
-pass
+    '''    public Customer getModifyUser()
+    '''
 def setModifyUser():
-'''public void setModifyUser(final Customer modifyUser)
-'''
-pass
+    '''    public void setModifyUser(final Customer modifyUser)
+    '''
 def getShipments():
-'''public List<Shipment> getShipments()
-'''
-pass
+    '''    public List<Shipment> getShipments()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final Status status)
-'''
-pass
+    '''    public void setStatus(final Status status)
+    '''
 def getTickets():
-'''public List<Ticket> getTickets()
-'''
-pass
+    '''    public List<Ticket> getTickets()
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCreateUserId():
-'''public Long getCreateUserId()
-'''
-pass
+    '''    public Long getCreateUserId()
+    '''
 def setCreateUserId():
-'''public void setCreateUserId(final Long createUserId)
-'''
-pass
+    '''    public void setCreateUserId(final Long createUserId)
+    '''
 def isCreateUserIdSpecified():
-'''public boolean isCreateUserIdSpecified()
-'''
-pass
+    '''    public boolean isCreateUserIdSpecified()
+    '''
 def unsetCreateUserId():
-'''public void unsetCreateUserId()
-'''
-pass
+    '''    public void unsetCreateUserId()
+    '''
 def getEndDate():
-'''public GregorianCalendar getEndDate()
-'''
-pass
+    '''    public GregorianCalendar getEndDate()
+    '''
 def setEndDate():
-'''public void setEndDate(final GregorianCalendar endDate)
-'''
-pass
+    '''    public void setEndDate(final GregorianCalendar endDate)
+    '''
 def isEndDateSpecified():
-'''public boolean isEndDateSpecified()
-'''
-pass
+    '''    public boolean isEndDateSpecified()
+    '''
 def unsetEndDate():
-'''public void unsetEndDate()
-'''
-pass
+    '''    public void unsetEndDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyUserId():
-'''public Long getModifyUserId()
-'''
-pass
+    '''    public Long getModifyUserId()
+    '''
 def setModifyUserId():
-'''public void setModifyUserId(final Long modifyUserId)
-'''
-pass
+    '''    public void setModifyUserId(final Long modifyUserId)
+    '''
 def isModifyUserIdSpecified():
-'''public boolean isModifyUserIdSpecified()
-'''
-pass
+    '''    public boolean isModifyUserIdSpecified()
+    '''
 def unsetModifyUserId():
-'''public void unsetModifyUserId()
-'''
-pass
+    '''    public void unsetModifyUserId()
+    '''
 def getStartDate():
-'''public GregorianCalendar getStartDate()
-'''
-pass
+    '''    public GregorianCalendar getStartDate()
+    '''
 def setStartDate():
-'''public void setStartDate(final GregorianCalendar startDate)
-'''
-pass
+    '''    public void setStartDate(final GregorianCalendar startDate)
+    '''
 def isStartDateSpecified():
-'''public boolean isStartDateSpecified()
-'''
-pass
+    '''    public boolean isStartDateSpecified()
+    '''
 def unsetStartDate():
-'''public void unsetStartDate()
-'''
-pass
+    '''    public void unsetStartDate()
+    '''
 def getStatusId():
-'''public Long getStatusId()
-'''
-pass
+    '''    public Long getStatusId()
+    '''
 def setStatusId():
-'''public void setStatusId(final Long statusId)
-'''
-pass
+    '''    public void setStatusId(final Long statusId)
+    '''
 def isStatusIdSpecified():
-'''public boolean isStatusIdSpecified()
-'''
-pass
+    '''    public boolean isStatusIdSpecified()
+    '''
 def unsetStatusId():
-'''public void unsetStatusId()
-'''
-pass
+    '''    public void unsetStatusId()
+    '''
 def getActiveTicketCount():
-'''public Long getActiveTicketCount()
-'''
-pass
+    '''    public Long getActiveTicketCount()
+    '''
 def setActiveTicketCount():
-'''public void setActiveTicketCount(final Long activeTicketCount)
-'''
-pass
+    '''    public void setActiveTicketCount(final Long activeTicketCount)
+    '''
 def getShipmentCount():
-'''public Long getShipmentCount()
-'''
-pass
+    '''    public Long getShipmentCount()
+    '''
 def setShipmentCount():
-'''public void setShipmentCount(final Long shipmentCount)
-'''
-pass
+    '''    public void setShipmentCount(final Long shipmentCount)
+    '''
 def getTicketCount():
-'''public Long getTicketCount()
-'''
-pass
+    '''    public Long getTicketCount()
+    '''
 def setTicketCount():
-'''public void setTicketCount(final Long ticketCount)
-'''
-pass
+    '''    public void setTicketCount(final Long ticketCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def createUserId():
-'''public Mask createUserId()
-'''
-pass
+    '''    public Mask createUserId()
+    '''
 def endDate():
-'''public Mask endDate()
-'''
-pass
+    '''    public Mask endDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyUserId():
-'''public Mask modifyUserId()
-'''
-pass
+    '''    public Mask modifyUserId()
+    '''
 def startDate():
-'''public Mask startDate()
-'''
-pass
+    '''    public Mask startDate()
+    '''
 def statusId():
-'''public Mask statusId()
-'''
-pass
+    '''    public Mask statusId()
+    '''
 def activeTicketCount():
-'''public Mask activeTicketCount()
-'''
-pass
+    '''    public Mask activeTicketCount()
+    '''
 def shipmentCount():
-'''public Mask shipmentCount()
-'''
-pass
+    '''    public Mask shipmentCount()
+    '''
 def ticketCount():
-'''public Mask ticketCount()
-'''
-pass
+    '''    public Mask ticketCount()
+    '''

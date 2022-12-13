@@ -1,8 +1,6 @@
 def PmTcoFldCICRTVCINum():
-'''public PmTcoFldCICRTVCINum(final MboValue mbv)
-'''
-pass
+    '''    public PmTcoFldCICRTVCINum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

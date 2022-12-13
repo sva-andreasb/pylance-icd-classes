@@ -1,16 +1,12 @@
 def extendedRcode():
-'''public int extendedRcode()
-'''
-pass
+    '''    public int extendedRcode()
+    '''
 def version():
-'''public int version()
-'''
-pass
+    '''    public int version()
+    '''
 def flags():
-'''public int flags()
-'''
-pass
+    '''    public int flags()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

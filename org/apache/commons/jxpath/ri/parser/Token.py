@@ -1,8 +1,6 @@
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def newToken():
-'''public static final Token newToken(final int ofKind)
-'''
-pass
+    '''    public static final Token newToken(final int ofKind)
+    '''

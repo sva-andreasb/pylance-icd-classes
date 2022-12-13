@@ -1,8 +1,6 @@
 def GroupReassignAuth():
-'''public GroupReassignAuth(final MboSet ms)
-'''
-pass
+    '''    public GroupReassignAuth(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

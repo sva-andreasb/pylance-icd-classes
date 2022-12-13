@@ -1,325 +1,244 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getAccountContact():
-'''public Contact getAccountContact()
-'''
-pass
+    '''    public Contact getAccountContact()
+    '''
 def setAccountContact():
-'''public void setAccountContact(final Contact accountContact)
-'''
-pass
+    '''    public void setAccountContact(final Contact accountContact)
+    '''
 def setReportType():
-'''public void setReportType(final com.softlayer.api.service.compliance.report.Type reportType)
-'''
-pass
+    '''    public void setReportType(final com.softlayer.api.service.compliance.report.Type reportType)
+    '''
 def getTicket():
-'''public Ticket getTicket()
-'''
-pass
+    '''    public Ticket getTicket()
+    '''
 def setTicket():
-'''public void setTicket(final Ticket ticket)
-'''
-pass
+    '''    public void setTicket(final Ticket ticket)
+    '''
 def getUser():
-'''public Customer getUser()
-'''
-pass
+    '''    public Customer getUser()
+    '''
 def setUser():
-'''public void setUser(final Customer user)
-'''
-pass
+    '''    public void setUser(final Customer user)
+    '''
 def getAccountContactId():
-'''public Long getAccountContactId()
-'''
-pass
+    '''    public Long getAccountContactId()
+    '''
 def setAccountContactId():
-'''public void setAccountContactId(final Long accountContactId)
-'''
-pass
+    '''    public void setAccountContactId(final Long accountContactId)
+    '''
 def isAccountContactIdSpecified():
-'''public boolean isAccountContactIdSpecified()
-'''
-pass
+    '''    public boolean isAccountContactIdSpecified()
+    '''
 def unsetAccountContactId():
-'''public void unsetAccountContactId()
-'''
-pass
+    '''    public void unsetAccountContactId()
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getComplianceReportTypeId():
-'''public String getComplianceReportTypeId()
-'''
-pass
+    '''    public String getComplianceReportTypeId()
+    '''
 def setComplianceReportTypeId():
-'''public void setComplianceReportTypeId(final String complianceReportTypeId)
-'''
-pass
+    '''    public void setComplianceReportTypeId(final String complianceReportTypeId)
+    '''
 def isComplianceReportTypeIdSpecified():
-'''public boolean isComplianceReportTypeIdSpecified()
-'''
-pass
+    '''    public boolean isComplianceReportTypeIdSpecified()
+    '''
 def unsetComplianceReportTypeId():
-'''public void unsetComplianceReportTypeId()
-'''
-pass
+    '''    public void unsetComplianceReportTypeId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getEmployeeRecordId():
-'''public Long getEmployeeRecordId()
-'''
-pass
+    '''    public Long getEmployeeRecordId()
+    '''
 def setEmployeeRecordId():
-'''public void setEmployeeRecordId(final Long employeeRecordId)
-'''
-pass
+    '''    public void setEmployeeRecordId(final Long employeeRecordId)
+    '''
 def isEmployeeRecordIdSpecified():
-'''public boolean isEmployeeRecordIdSpecified()
-'''
-pass
+    '''    public boolean isEmployeeRecordIdSpecified()
+    '''
 def unsetEmployeeRecordId():
-'''public void unsetEmployeeRecordId()
-'''
-pass
+    '''    public void unsetEmployeeRecordId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNda():
-'''public String getNda()
-'''
-pass
+    '''    public String getNda()
+    '''
 def setNda():
-'''public void setNda(final String nda)
-'''
-pass
+    '''    public void setNda(final String nda)
+    '''
 def isNdaSpecified():
-'''public boolean isNdaSpecified()
-'''
-pass
+    '''    public boolean isNdaSpecified()
+    '''
 def unsetNda():
-'''public void unsetNda()
-'''
-pass
+    '''    public void unsetNda()
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def isNotesSpecified():
-'''public boolean isNotesSpecified()
-'''
-pass
+    '''    public boolean isNotesSpecified()
+    '''
 def unsetNotes():
-'''public void unsetNotes()
-'''
-pass
+    '''    public void unsetNotes()
+    '''
 def getReport():
-'''public String getReport()
-'''
-pass
+    '''    public String getReport()
+    '''
 def setReport():
-'''public void setReport(final String report)
-'''
-pass
+    '''    public void setReport(final String report)
+    '''
 def isReportSpecified():
-'''public boolean isReportSpecified()
-'''
-pass
+    '''    public boolean isReportSpecified()
+    '''
 def unsetReport():
-'''public void unsetReport()
-'''
-pass
+    '''    public void unsetReport()
+    '''
 def getRequestKey():
-'''public String getRequestKey()
-'''
-pass
+    '''    public String getRequestKey()
+    '''
 def setRequestKey():
-'''public void setRequestKey(final String requestKey)
-'''
-pass
+    '''    public void setRequestKey(final String requestKey)
+    '''
 def isRequestKeySpecified():
-'''public boolean isRequestKeySpecified()
-'''
-pass
+    '''    public boolean isRequestKeySpecified()
+    '''
 def unsetRequestKey():
-'''public void unsetRequestKey()
-'''
-pass
+    '''    public void unsetRequestKey()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def isStatusSpecified():
-'''public boolean isStatusSpecified()
-'''
-pass
+    '''    public boolean isStatusSpecified()
+    '''
 def unsetStatus():
-'''public void unsetStatus()
-'''
-pass
+    '''    public void unsetStatus()
+    '''
 def getTicketId():
-'''public Long getTicketId()
-'''
-pass
+    '''    public Long getTicketId()
+    '''
 def setTicketId():
-'''public void setTicketId(final Long ticketId)
-'''
-pass
+    '''    public void setTicketId(final Long ticketId)
+    '''
 def isTicketIdSpecified():
-'''public boolean isTicketIdSpecified()
-'''
-pass
+    '''    public boolean isTicketIdSpecified()
+    '''
 def unsetTicketId():
-'''public void unsetTicketId()
-'''
-pass
+    '''    public void unsetTicketId()
+    '''
 def getUsrRecordId():
-'''public Long getUsrRecordId()
-'''
-pass
+    '''    public Long getUsrRecordId()
+    '''
 def setUsrRecordId():
-'''public void setUsrRecordId(final Long usrRecordId)
-'''
-pass
+    '''    public void setUsrRecordId(final Long usrRecordId)
+    '''
 def isUsrRecordIdSpecified():
-'''public boolean isUsrRecordIdSpecified()
-'''
-pass
+    '''    public boolean isUsrRecordIdSpecified()
+    '''
 def unsetUsrRecordId():
-'''public void unsetUsrRecordId()
-'''
-pass
+    '''    public void unsetUsrRecordId()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountContactId():
-'''public Mask accountContactId()
-'''
-pass
+    '''    public Mask accountContactId()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def complianceReportTypeId():
-'''public Mask complianceReportTypeId()
-'''
-pass
+    '''    public Mask complianceReportTypeId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def employeeRecordId():
-'''public Mask employeeRecordId()
-'''
-pass
+    '''    public Mask employeeRecordId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def nda():
-'''public Mask nda()
-'''
-pass
+    '''    public Mask nda()
+    '''
 def notes():
-'''public Mask notes()
-'''
-pass
+    '''    public Mask notes()
+    '''
 def report():
-'''public Mask report()
-'''
-pass
+    '''    public Mask report()
+    '''
 def requestKey():
-'''public Mask requestKey()
-'''
-pass
+    '''    public Mask requestKey()
+    '''
 def status():
-'''public Mask status()
-'''
-pass
+    '''    public Mask status()
+    '''
 def ticketId():
-'''public Mask ticketId()
-'''
-pass
+    '''    public Mask ticketId()
+    '''
 def usrRecordId():
-'''public Mask usrRecordId()
-'''
-pass
+    '''    public Mask usrRecordId()
+    '''

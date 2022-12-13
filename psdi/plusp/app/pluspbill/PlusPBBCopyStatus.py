@@ -1,8 +1,6 @@
 def PlusPBBCopyStatus():
-'''public PlusPBBCopyStatus(final MboSet ms)
-'''
-pass
+    '''    public PlusPBBCopyStatus(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

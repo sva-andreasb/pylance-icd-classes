@@ -1,64 +1,48 @@
 def RelationshipNodeData():
-'''public RelationshipNodeData(final long uniqueID)
-'''
-pass
+    '''    public RelationshipNodeData(final long uniqueID)
+    '''
 def getUniqueID():
-'''public long getUniqueID()
-'''
-pass
+    '''    public long getUniqueID()
+    '''
 def getUserFriendlyLabel():
-'''public String getUserFriendlyLabel()
-'''
-pass
+    '''    public String getUserFriendlyLabel()
+    '''
 def getLineage():
-'''public String getLineage()
-'''
-pass
+    '''    public String getLineage()
+    '''
 def getParentLine():
-'''public String getParentLine()
-'''
-pass
+    '''    public String getParentLine()
+    '''
 def getNodeType():
-'''public String getNodeType()
-'''
-pass
+    '''    public String getNodeType()
+    '''
 def getImmediateLineage():
-'''public long getImmediateLineage()
-'''
-pass
+    '''    public long getImmediateLineage()
+    '''
 def getMboUniqueID():
-'''public long getMboUniqueID()
-'''
-pass
+    '''    public long getMboUniqueID()
+    '''
 def isParent():
-'''public boolean isParent()
-'''
-pass
+    '''    public boolean isParent()
+    '''
 def setUserFriendlyLabel():
-'''public void setUserFriendlyLabel(final String label)
-'''
-pass
+    '''    public void setUserFriendlyLabel(final String label)
+    '''
 def setLineage():
-'''public void setLineage(final String lineage)
-'''
-pass
+    '''    public void setLineage(final String lineage)
+    '''
 def setParentLine():
-'''public void setParentLine(final String parent)
-'''
-pass
+    '''    public void setParentLine(final String parent)
+    '''
 def setParent():
-'''public void setParent(final boolean flag)
-'''
-pass
+    '''    public void setParent(final boolean flag)
+    '''
 def setNodeType():
-'''public void setNodeType(final String type)
-'''
-pass
+    '''    public void setNodeType(final String type)
+    '''
 def setImmediateLineage():
-'''public void setImmediateLineage(final long uniqueID)
-'''
-pass
+    '''    public void setImmediateLineage(final long uniqueID)
+    '''
 def setMboUniqueID():
-'''public void setMboUniqueID(final long uniqueID)
-'''
-pass
+    '''    public void setMboUniqueID(final long uniqueID)
+    '''

@@ -1,16 +1,12 @@
 def BarcodeEANSUPP():
-'''public BarcodeEANSUPP(final Barcode ean, final Barcode supp)
-'''
-pass
+    '''    public BarcodeEANSUPP(final Barcode ean, final Barcode supp)
+    '''
 def getBarcodeSize():
-'''public Rectangle getBarcodeSize()
-'''
-pass
+    '''    public Rectangle getBarcodeSize()
+    '''
 def placeBarcode():
-'''public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
-'''
-pass
+    '''    public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''
 def createAwtImage():
-'''public Image createAwtImage(final Color foreground, final Color background)
-'''
-pass
+    '''    public Image createAwtImage(final Color foreground, final Color background)
+    '''

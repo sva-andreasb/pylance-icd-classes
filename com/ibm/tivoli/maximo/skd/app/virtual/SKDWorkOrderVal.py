@@ -1,4 +1,3 @@
 def SKDWorkOrderVal():
-'''public SKDWorkOrderVal(final MboSet ms)
-'''
-pass
+    '''    public SKDWorkOrderVal(final MboSet ms)
+    '''

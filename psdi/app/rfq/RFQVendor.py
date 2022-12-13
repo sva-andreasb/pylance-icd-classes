@@ -1,68 +1,51 @@
 def RFQVendor():
-'''public RFQVendor(final MboSet ms)
-'''
-pass
+    '''    public RFQVendor(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def createPOHeaderFromRFQ():
-'''public MboRemote createPOHeaderFromRFQ(final String ponum, final String description)
-'''
-pass
+    '''    public MboRemote createPOHeaderFromRFQ(final String ponum, final String description)
+    '''
 def getRFQLinesForQuotation():
-'''public MboSetRemote getRFQLinesForQuotation()
-'''
-pass
+    '''    public MboSetRemote getRFQLinesForQuotation()
+    '''
 def copyRFQToQuotation():
-'''public void copyRFQToQuotation(final MboSetRemote sourceRFQLineSet)
-'''
-pass
+    '''    public void copyRFQToQuotation(final MboSetRemote sourceRFQLineSet)
+    '''
 def createPOFromRFQ():
-'''public MboRemote createPOFromRFQ(final String ponum, final String description)
-'''
-pass
+    '''    public MboRemote createPOFromRFQ(final String ponum, final String description)
+    '''
 def checkSentCompStatus():
-'''public void checkSentCompStatus(final String message)
-'''
-pass
+    '''    public void checkSentCompStatus(final String message)
+    '''
 def checkSentStatus():
-'''public void checkSentStatus()
-'''
-pass
+    '''    public void checkSentStatus()
+    '''
 def checkingBeforeCreatePOCont():
-'''public void checkingBeforeCreatePOCont(final boolean fromPO)
-'''
-pass
+    '''    public void checkingBeforeCreatePOCont(final boolean fromPO)
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def setRelatedMboEditibility():
-'''public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
+    '''
 def createNewMboFromRFQ():
-'''public void createNewMboFromRFQ(final String number, final String description, final String contractType)
-'''
-pass
+    '''    public void createNewMboFromRFQ(final String number, final String description, final String contractType)
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def copyVendorTerms():
-'''public void copyVendorTerms(final MboSetRemote termsSet)
-'''
-pass
+    '''    public void copyVendorTerms(final MboSetRemote termsSet)
+    '''
 def delete():
-'''public void delete(final long accessmodifier)
-'''
-pass
+    '''    public void delete(final long accessmodifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

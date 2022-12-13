@@ -1,4 +1,3 @@
 def SKDWorkPlanExtCap():
-'''public SKDWorkPlanExtCap(final MboSet ms)
-'''
-pass
+    '''    public SKDWorkPlanExtCap(final MboSet ms)
+    '''

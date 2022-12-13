@@ -1,44 +1,33 @@
 def IlvPolyPointsSelection():
-'''public IlvPolyPointsSelection(final IlvPolyPointsInterface ilvPolyPointsInterface)
-'''
-pass
+    '''    public IlvPolyPointsSelection(final IlvPolyPointsInterface ilvPolyPointsInterface)
+    '''
 def getPolyPoints():
-'''public IlvPolyPointsInterface getPolyPoints()
-'''
-pass
+    '''    public IlvPolyPointsInterface getPolyPoints()
+    '''
 def getHandle():
-'''public IlvPoint getHandle(final int n, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvPoint getHandle(final int n, final IlvTransformer ilvTransformer)
+    '''
 def getHandleCardinal():
-'''public int getHandleCardinal()
-'''
-pass
+    '''    public int getHandleCardinal()
+    '''
 def setClosedMode():
-'''public void setClosedMode(final boolean b)
-'''
-pass
+    '''    public void setClosedMode(final boolean b)
+    '''
 def isClosedMode():
-'''public boolean isClosedMode()
-'''
-pass
+    '''    public boolean isClosedMode()
+    '''
 def contains():
-'''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''
 def boundingBox():
-'''public IlvRect boundingBox(final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvRect boundingBox(final IlvTransformer ilvTransformer)
+    '''
 def isOptimizedDrawingEnabled():
-'''public boolean isOptimizedDrawingEnabled()
-'''
-pass
+    '''    public boolean isOptimizedDrawingEnabled()
+    '''
 def getDefaultInteractor():
-'''public String getDefaultInteractor()
-'''
-pass
+    '''    public String getDefaultInteractor()
+    '''
 def SetDefaultInteractor():
-'''public static void SetDefaultInteractor(final String a)
-'''
-pass
+    '''    public static void SetDefaultInteractor(final String a)
+    '''

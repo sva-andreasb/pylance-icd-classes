@@ -1,36 +1,27 @@
 def ProductInfo():
-'''public ProductInfo()
-'''
-pass
+    '''    public ProductInfo()
+    '''
 def setDescription():
-'''public void setDescription(final String desc)
-'''
-pass
+    '''    public void setDescription(final String desc)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setResult():
-'''public void setResult(final int res)
-'''
-pass
+    '''    public void setResult(final int res)
+    '''
 def getResult():
-'''public int getResult()
-'''
-pass
+    '''    public int getResult()
+    '''
 def setExcluded():
-'''public void setExcluded(final boolean flag)
-'''
-pass
+    '''    public void setExcluded(final boolean flag)
+    '''
 def isExcluded():
-'''public boolean isExcluded()
-'''
-pass
+    '''    public boolean isExcluded()
+    '''
 def setSourceFlag():
-'''public void setSourceFlag(final boolean flag)
-'''
-pass
+    '''    public void setSourceFlag(final boolean flag)
+    '''
 def getSourceFlag():
-'''public boolean getSourceFlag()
-'''
-pass
+    '''    public boolean getSourceFlag()
+    '''

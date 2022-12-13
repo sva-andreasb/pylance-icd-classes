@@ -1,8 +1,6 @@
 def unmarshall():
-'''public EnableKeyRotationResult unmarshall(final JsonUnmarshallerContext context)
-'''
-pass
+    '''    public EnableKeyRotationResult unmarshall(final JsonUnmarshallerContext context)
+    '''
 def getInstance():
-'''public static EnableKeyRotationResultJsonUnmarshaller getInstance()
-'''
-pass
+    '''    public static EnableKeyRotationResultJsonUnmarshaller getInstance()
+    '''

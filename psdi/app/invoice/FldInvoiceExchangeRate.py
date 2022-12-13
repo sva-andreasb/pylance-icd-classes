@@ -1,8 +1,6 @@
 def FldInvoiceExchangeRate():
-'''public FldInvoiceExchangeRate(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceExchangeRate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

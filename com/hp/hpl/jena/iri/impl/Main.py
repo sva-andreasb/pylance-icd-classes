@@ -1,8 +1,6 @@
 def Main():
-'''public Main()
-'''
-pass
+    '''    public Main()
+    '''
 def main():
-'''public void main(final String[] args)
-'''
-pass
+    '''    public void main(final String[] args)
+    '''

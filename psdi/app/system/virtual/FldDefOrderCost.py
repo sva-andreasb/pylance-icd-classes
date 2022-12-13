@@ -1,8 +1,6 @@
 def FldDefOrderCost():
-'''public FldDefOrderCost(final MboValue mbv)
-'''
-pass
+    '''    public FldDefOrderCost(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

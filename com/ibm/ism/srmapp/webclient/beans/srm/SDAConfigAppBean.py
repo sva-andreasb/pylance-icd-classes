@@ -2,104 +2,80 @@ NOVALIDATION = "long  1L"
 NOACCESSCHECK = "long  2L"
 NOACTION = "long  8L"
 NOVALIDATION_AND_NOACTION = "long  9L"
-LDAPVALUERELATIONSHIP = "String  MAXPROPVALUE""
-ORGVALUERELATIONSHIP = "String  MAXPROPVALUEORG""
-SCVALUERELATIONSHIP = "String  MAXPROPVALUESC""
-LOGOUTMINUTES = "String  mxe.adminmode.logoutmin""
-WAS_ADMINPASSWORD = "String  WAS.AdminPassword""
+LDAPVALUERELATIONSHIP = "String  \"MAXPROPVALUE\""
+ORGVALUERELATIONSHIP = "String  \"MAXPROPVALUEORG\""
+SCVALUERELATIONSHIP = "String  \"MAXPROPVALUESC\""
+LOGOUTMINUTES = "String  \"mxe.adminmode.logoutmin\""
+WAS_ADMINPASSWORD = "String  \"WAS.AdminPassword\""
 def SDAConfigAppBean():
-'''public SDAConfigAppBean()
-'''
-pass
+    '''    public SDAConfigAppBean()
+    '''
 def SDALDAP():
-'''public int SDALDAP()
-'''
-pass
+    '''    public int SDALDAP()
+    '''
 def executeMSAD():
-'''public int executeMSAD()
-'''
-pass
+    '''    public int executeMSAD()
+    '''
 def executeScriptAction():
-'''public int executeScriptAction()
-'''
-pass
+    '''    public int executeScriptAction()
+    '''
 def SDASCSITE():
-'''public int SDASCSITE()
-'''
-pass
+    '''    public int SDASCSITE()
+    '''
 def webSphereRestart():
-'''public int webSphereRestart()
-'''
-pass
+    '''    public int webSphereRestart()
+    '''
 def executeSCSiteConfig():
-'''public int executeSCSiteConfig()
-'''
-pass
+    '''    public int executeSCSiteConfig()
+    '''
 def executeCatalogScriptAction():
-'''public int executeCatalogScriptAction()
-'''
-pass
+    '''    public int executeCatalogScriptAction()
+    '''
 def SDAORG():
-'''public int SDAORG()
-'''
-pass
+    '''    public int SDAORG()
+    '''
 def executeOrg():
-'''public int executeOrg()
-'''
-pass
+    '''    public int executeOrg()
+    '''
 def executeCreateOrgAction():
-'''public int executeCreateOrgAction()
-'''
-pass
+    '''    public int executeCreateOrgAction()
+    '''
 def admin_ON():
-'''public int admin_ON()
-'''
-pass
+    '''    public int admin_ON()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def savePropSet():
-'''public void savePropSet(final MboSetRemote propSet, final String relationship)
-'''
-pass
+    '''    public void savePropSet(final MboSetRemote propSet, final String relationship)
+    '''
 def configUI():
-'''public int configUI()
-'''
-pass
+    '''    public int configUI()
+    '''
 def configDNS():
-'''public int configDNS()
-'''
-pass
+    '''    public int configDNS()
+    '''
 def saveForwardDns():
-'''public void saveForwardDns(final MXLogger sdaLogger)
-'''
-pass
+    '''    public void saveForwardDns(final MXLogger sdaLogger)
+    '''
 def executeDnsForward():
-'''public int executeDnsForward(String ipAddress, final MXLogger sdaLogger)
-'''
-pass
+    '''    public int executeDnsForward(String ipAddress, final MXLogger sdaLogger)
+    '''
 def updateLastSiteConfigLog():
-'''public static void updateLastSiteConfigLog(final String oldStatus, final String newStatus)
-'''
-pass
+    '''    public static void updateLastSiteConfigLog(final String oldStatus, final String newStatus)
+    '''
 def updateRunningSiteConfigLog():
-'''public static void updateRunningSiteConfigLog()
-'''
-pass
+    '''    public static void updateRunningSiteConfigLog()
+    '''
 def isWindows():
-'''public boolean isWindows()
-'''
-pass
+    '''    public boolean isWindows()
+    '''
 def isUnix():
-'''public boolean isUnix()
-'''
-pass
+    '''    public boolean isUnix()
+    '''
 def getMaximoInstallLoc():
-'''public String getMaximoInstallLoc()
-'''
-pass
+    '''    public String getMaximoInstallLoc()
+    '''

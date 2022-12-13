@@ -1,5 +1,4 @@
 def ClientExecuteException():
-'''public ClientExecuteException()
-public ClientExecuteException(final String msg)
-'''
-pass
+    '''    public ClientExecuteException()
+    public ClientExecuteException(final String msg)
+    '''

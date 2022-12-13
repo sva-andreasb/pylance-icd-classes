@@ -1,45 +1,34 @@
 def IlvSwingFormReader():
-'''public IlvSwingFormReader()
-'''
-pass
+    '''    public IlvSwingFormReader()
+    '''
 def createForm():
-'''public IlvForm createForm()
-'''
-pass
+    '''    public IlvForm createForm()
+    '''
 def readForm():
-'''public IlvSwingForm readForm(final Container container, final Element element, final IlvServicesProvider ilvServicesProvider)
-public IlvSwingForm readForm(final Container container, final URL url, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public IlvSwingForm readForm(final Container container, final Element element, final IlvServicesProvider ilvServicesProvider)
+    public IlvSwingForm readForm(final Container container, final URL url, final IlvServicesProvider ilvServicesProvider)
+    '''
 def readComponent():
-'''public Component readComponent(final Element element, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public Component readComponent(final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''
 def readComponentContent():
-'''public IlvSwingForm readComponentContent(final Component component, final Element element, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public IlvSwingForm readComponentContent(final Component component, final Element element, final IlvServicesProvider ilvServicesProvider)
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def getString():
-'''public String getString(final String s)
-'''
-pass
+    '''    public String getString(final String s)
+    '''
 def getIcon():
-'''public Icon getIcon(final String s)
-'''
-pass
+    '''    public Icon getIcon(final String s)
+    '''
 def getOrientation():
-'''public ComponentOrientation getOrientation()
-'''
-pass
+    '''    public ComponentOrientation getOrientation()
+    '''
 def setServicesDelegate():
-'''public void setServicesDelegate(final IlvServices ilvServices)
-'''
-pass
+    '''    public void setServicesDelegate(final IlvServices ilvServices)
+    '''
 def getServicesDelegate():
-'''public IlvServices getServicesDelegate()
-'''
-pass
+    '''    public IlvServices getServicesDelegate()
+    '''

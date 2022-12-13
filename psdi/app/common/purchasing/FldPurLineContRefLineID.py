@@ -1,8 +1,6 @@
 def FldPurLineContRefLineID():
-'''public FldPurLineContRefLineID(final MboValue mbv)
-'''
-pass
+    '''    public FldPurLineContRefLineID(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

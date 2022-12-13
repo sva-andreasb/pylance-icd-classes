@@ -1,49 +1,37 @@
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getFieldType():
-'''public DurationFieldType getFieldType(final int n)
-'''
-pass
+    '''    public DurationFieldType getFieldType(final int n)
+    '''
 def getFieldTypes():
-'''public DurationFieldType[] getFieldTypes()
-'''
-pass
+    '''    public DurationFieldType[] getFieldTypes()
+    '''
 def getValues():
-'''public int[] getValues()
-'''
-pass
+    '''    public int[] getValues()
+    '''
 def get():
-'''public int get(final DurationFieldType durationFieldType)
-'''
-pass
+    '''    public int get(final DurationFieldType durationFieldType)
+    '''
 def isSupported():
-'''public boolean isSupported(final DurationFieldType durationFieldType)
-'''
-pass
+    '''    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''
 def indexOf():
-'''public int indexOf(final DurationFieldType durationFieldType)
-'''
-pass
+    '''    public int indexOf(final DurationFieldType durationFieldType)
+    '''
 def toPeriod():
-'''public Period toPeriod()
-'''
-pass
+    '''    public Period toPeriod()
+    '''
 def toMutablePeriod():
-'''public MutablePeriod toMutablePeriod()
-'''
-pass
+    '''    public MutablePeriod toMutablePeriod()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-public String toString(final PeriodFormatter periodFormatter)
-'''
-pass
+    '''    public String toString()
+    public String toString(final PeriodFormatter periodFormatter)
+    '''

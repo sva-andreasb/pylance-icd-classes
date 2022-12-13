@@ -1,12 +1,9 @@
 def getTargetModuleID():
-'''public TargetModuleID getTargetModuleID()
-'''
-pass
+    '''    public TargetModuleID getTargetModuleID()
+    '''
 def getDeploymentStatus():
-'''public DeploymentStatus getDeploymentStatus()
-'''
-pass
+    '''    public DeploymentStatus getDeploymentStatus()
+    '''
 def ProgressEvent():
-'''public ProgressEvent(final Object source, final TargetModuleID targetModuleID, final DeploymentStatus sCode)
-'''
-pass
+    '''    public ProgressEvent(final Object source, final TargetModuleID targetModuleID, final DeploymentStatus sCode)
+    '''

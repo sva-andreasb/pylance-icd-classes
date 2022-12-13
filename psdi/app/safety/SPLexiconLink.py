@@ -1,44 +1,33 @@
 def SPLexiconLink():
-'''public SPLexiconLink(final MboSet ms)
-'''
-pass
+    '''    public SPLexiconLink(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setDupSP():
-'''public void setDupSP(final boolean value)
-'''
-pass
+    '''    public void setDupSP(final boolean value)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def getSafetyLexicon():
-'''public MboRemote getSafetyLexicon()
-'''
-pass
+    '''    public MboRemote getSafetyLexicon()
+    '''
 def setTAGOUTSRelationshipFromParentHazard():
-'''public void setTAGOUTSRelationshipFromParentHazard(final String relToParent)
-'''
-pass
+    '''    public void setTAGOUTSRelationshipFromParentHazard(final String relToParent)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

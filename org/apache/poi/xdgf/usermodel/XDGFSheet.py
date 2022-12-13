@@ -1,52 +1,39 @@
 def XDGFSheet():
-'''public XDGFSheet(final SheetType sheet, final XDGFDocument document)
-'''
-pass
+    '''    public XDGFSheet(final SheetType sheet, final XDGFDocument document)
+    '''
 def getDocument():
-'''public XDGFDocument getDocument()
-'''
-pass
+    '''    public XDGFDocument getDocument()
+    '''
 def getCell():
-'''public XDGFCell getCell(final String cellName)
-'''
-pass
+    '''    public XDGFCell getCell(final String cellName)
+    '''
 def getSection():
-'''public XDGFSection getSection(final String sectionName)
-'''
-pass
+    '''    public XDGFSection getSection(final String sectionName)
+    '''
 def getLineStyle():
-'''public XDGFStyleSheet getLineStyle()
-'''
-pass
+    '''    public XDGFStyleSheet getLineStyle()
+    '''
 def getFillStyle():
-'''public XDGFStyleSheet getFillStyle()
-'''
-pass
+    '''    public XDGFStyleSheet getFillStyle()
+    '''
 def getTextStyle():
-'''public XDGFStyleSheet getTextStyle()
-'''
-pass
+    '''    public XDGFStyleSheet getTextStyle()
+    '''
 def getFontColor():
-'''public Color getFontColor()
-'''
-pass
+    '''    public Color getFontColor()
+    '''
 def getFontSize():
-'''public Double getFontSize()
-'''
-pass
+    '''    public Double getFontSize()
+    '''
 def getLineCap():
-'''public Integer getLineCap()
-'''
-pass
+    '''    public Integer getLineCap()
+    '''
 def getLineColor():
-'''public Color getLineColor()
-'''
-pass
+    '''    public Color getLineColor()
+    '''
 def getLinePattern():
-'''public Integer getLinePattern()
-'''
-pass
+    '''    public Integer getLinePattern()
+    '''
 def getLineWeight():
-'''public Double getLineWeight()
-'''
-pass
+    '''    public Double getLineWeight()
+    '''

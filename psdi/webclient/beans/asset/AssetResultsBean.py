@@ -1,8 +1,6 @@
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def recHasChanged():
-'''public void recHasChanged(final int oper)
-'''
-pass
+    '''    public void recHasChanged(final int oper)
+    '''

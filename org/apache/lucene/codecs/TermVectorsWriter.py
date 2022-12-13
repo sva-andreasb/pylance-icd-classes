@@ -1,28 +1,21 @@
 def finishDocument():
-'''public void finishDocument()
-'''
-pass
+    '''    public void finishDocument()
+    '''
 def finishField():
-'''public void finishField()
-'''
-pass
+    '''    public void finishField()
+    '''
 def finishTerm():
-'''public void finishTerm()
-'''
-pass
+    '''    public void finishTerm()
+    '''
 def addProx():
-'''public void addProx(final int numProx, final DataInput positions, final DataInput offsets)
-'''
-pass
+    '''    public void addProx(final int numProx, final DataInput positions, final DataInput offsets)
+    '''
 def merge():
-'''public int merge(final MergeState mergeState)
-'''
-pass
+    '''    public int merge(final MergeState mergeState)
+    '''
 def TermVectorsMergeSub():
-'''public TermVectorsMergeSub(final MergeState.DocMap docMap, final TermVectorsReader reader, final int maxDoc)
-'''
-pass
+    '''    public TermVectorsMergeSub(final MergeState.DocMap docMap, final TermVectorsReader reader, final int maxDoc)
+    '''
 def nextDoc():
-'''public int nextDoc()
-'''
-pass
+    '''    public int nextDoc()
+    '''

@@ -1,17 +1,13 @@
-REL_GET_ATTRIBUTES_FOR_A_NAMINGRULE = "String NMRATTR""
+REL_GET_ATTRIBUTES_FOR_A_NAMINGRULE = "String  \"NMRATTR\""
 def Nmr():
-'''public Nmr(final MboSet ms)
-'''
-pass
+    '''    public Nmr(final MboSet ms)
+    '''
 def getNMRAttributes():
-'''public MboSetRemote getNMRAttributes()
-'''
-pass
+    '''    public MboSetRemote getNMRAttributes()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

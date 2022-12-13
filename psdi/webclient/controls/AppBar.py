@@ -1,20 +1,15 @@
 def AppBar():
-'''public AppBar()
-'''
-pass
+    '''    public AppBar()
+    '''
 def setReRenderFlags():
-'''public void setReRenderFlags()
-'''
-pass
+    '''    public void setReRenderFlags()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def getProperty():
-'''public String getProperty(final String prop)
-'''
-pass
+    '''    public String getProperty(final String prop)
+    '''
 def setMenuBar():
-'''public void setMenuBar(final MenuBar menuBar)
-'''
-pass
+    '''    public void setMenuBar(final MenuBar menuBar)
+    '''

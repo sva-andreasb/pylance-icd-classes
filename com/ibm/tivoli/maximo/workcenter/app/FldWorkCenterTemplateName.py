@@ -1,4 +1,3 @@
 def FldWorkCenterTemplateName():
-'''public FldWorkCenterTemplateName(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkCenterTemplateName(final MboValue mbv)
+    '''

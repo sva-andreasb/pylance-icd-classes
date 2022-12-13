@@ -1,4 +1,3 @@
 def listExceptions():
-'''public static List<Throwable> listExceptions(final Throwable t)
-'''
-pass
+    '''    public static List<Throwable> listExceptions(final Throwable t)
+    '''

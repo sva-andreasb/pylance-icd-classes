@@ -1,20 +1,15 @@
 def ReflectiveTypeAdapterFactory():
-'''public ReflectiveTypeAdapterFactory(final ConstructorConstructor constructorConstructor, final FieldNamingStrategy fieldNamingPolicy, final Excluder excluder)
-'''
-pass
+    '''    public ReflectiveTypeAdapterFactory(final ConstructorConstructor constructorConstructor, final FieldNamingStrategy fieldNamingPolicy, final Excluder excluder)
+    '''
 def excludeField():
-'''public boolean excludeField(final Field f, final boolean serialize)
-'''
-pass
+    '''    public boolean excludeField(final Field f, final boolean serialize)
+    '''
 def create():
-'''public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> type)
-'''
-pass
+    '''    public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> type)
+    '''
 def read():
-'''public T read(final JsonReader in)
-'''
-pass
+    '''    public T read(final JsonReader in)
+    '''
 def write():
-'''public void write(final JsonWriter out, final T value)
-'''
-pass
+    '''    public void write(final JsonWriter out, final T value)
+    '''

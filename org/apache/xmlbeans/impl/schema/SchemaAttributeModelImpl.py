@@ -1,37 +1,28 @@
 def SchemaAttributeModelImpl():
-'''public SchemaAttributeModelImpl()
-public SchemaAttributeModelImpl(final SchemaAttributeModel sam)
-'''
-pass
+    '''    public SchemaAttributeModelImpl()
+    public SchemaAttributeModelImpl(final SchemaAttributeModel sam)
+    '''
 def getAttributes():
-'''public SchemaLocalAttribute[] getAttributes()
-'''
-pass
+    '''    public SchemaLocalAttribute[] getAttributes()
+    '''
 def getAttribute():
-'''public SchemaLocalAttribute getAttribute(final QName name)
-'''
-pass
+    '''    public SchemaLocalAttribute getAttribute(final QName name)
+    '''
 def addAttribute():
-'''public void addAttribute(final SchemaLocalAttribute attruse)
-'''
-pass
+    '''    public void addAttribute(final SchemaLocalAttribute attruse)
+    '''
 def removeProhibitedAttribute():
-'''public void removeProhibitedAttribute(final QName name)
-'''
-pass
+    '''    public void removeProhibitedAttribute(final QName name)
+    '''
 def getWildcardSet():
-'''public QNameSet getWildcardSet()
-'''
-pass
+    '''    public QNameSet getWildcardSet()
+    '''
 def setWildcardSet():
-'''public void setWildcardSet(final QNameSet set)
-'''
-pass
+    '''    public void setWildcardSet(final QNameSet set)
+    '''
 def getWildcardProcess():
-'''public int getWildcardProcess()
-'''
-pass
+    '''    public int getWildcardProcess()
+    '''
 def setWildcardProcess():
-'''public void setWildcardProcess(final int proc)
-'''
-pass
+    '''    public void setWildcardProcess(final int proc)
+    '''

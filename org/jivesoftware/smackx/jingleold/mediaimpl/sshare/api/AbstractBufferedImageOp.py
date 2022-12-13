@@ -1,28 +1,21 @@
 def createCompatibleDestImage():
-'''public BufferedImage createCompatibleDestImage(final BufferedImage src, ColorModel dstCM)
-'''
-pass
+    '''    public BufferedImage createCompatibleDestImage(final BufferedImage src, ColorModel dstCM)
+    '''
 def getBounds2D():
-'''public Rectangle2D getBounds2D(final BufferedImage src)
-'''
-pass
+    '''    public Rectangle2D getBounds2D(final BufferedImage src)
+    '''
 def getPoint2D():
-'''public Point2D getPoint2D(final Point2D srcPt, Point2D dstPt)
-'''
-pass
+    '''    public Point2D getPoint2D(final Point2D srcPt, Point2D dstPt)
+    '''
 def getRenderingHints():
-'''public RenderingHints getRenderingHints()
-'''
-pass
+    '''    public RenderingHints getRenderingHints()
+    '''
 def getRGB():
-'''public int[] getRGB(final BufferedImage image, final int x, final int y, final int width, final int height, final int[] pixels)
-'''
-pass
+    '''    public int[] getRGB(final BufferedImage image, final int x, final int y, final int width, final int height, final int[] pixels)
+    '''
 def setRGB():
-'''public void setRGB(final BufferedImage image, final int x, final int y, final int width, final int height, final int[] pixels)
-'''
-pass
+    '''    public void setRGB(final BufferedImage image, final int x, final int y, final int width, final int height, final int[] pixels)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

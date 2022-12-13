@@ -1,8 +1,6 @@
 def FldAssetLRMIsBase():
-'''public FldAssetLRMIsBase(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetLRMIsBase(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

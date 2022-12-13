@@ -1,24 +1,18 @@
 def IndexMultiValue():
-'''public IndexMultiValue()
-'''
-pass
+    '''    public IndexMultiValue()
+    '''
 def get():
-'''public Set<V> get(final K key)
-'''
-pass
+    '''    public Set<V> get(final K key)
+    '''
 def put():
-'''public void put(final K key, final V value)
-'''
-pass
+    '''    public void put(final K key, final V value)
+    '''
 def flatten():
-'''public Iterator<V> flatten()
-'''
-pass
+    '''    public Iterator<V> flatten()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''

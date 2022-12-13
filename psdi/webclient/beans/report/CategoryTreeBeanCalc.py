@@ -1,20 +1,15 @@
 def CategoryTreeBeanCalc():
-'''public CategoryTreeBeanCalc()
-'''
-pass
+    '''    public CategoryTreeBeanCalc()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def getCurrentTargetId():
-'''public String getCurrentTargetId()
-'''
-pass
+    '''    public String getCurrentTargetId()
+    '''

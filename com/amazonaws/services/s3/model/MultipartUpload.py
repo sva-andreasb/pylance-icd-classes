@@ -1,48 +1,36 @@
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getUploadId():
-'''public String getUploadId()
-'''
-pass
+    '''    public String getUploadId()
+    '''
 def setUploadId():
-'''public void setUploadId(final String uploadId)
-'''
-pass
+    '''    public void setUploadId(final String uploadId)
+    '''
 def getOwner():
-'''public Owner getOwner()
-'''
-pass
+    '''    public Owner getOwner()
+    '''
 def setOwner():
-'''public void setOwner(final Owner owner)
-'''
-pass
+    '''    public void setOwner(final Owner owner)
+    '''
 def getInitiator():
-'''public Owner getInitiator()
-'''
-pass
+    '''    public Owner getInitiator()
+    '''
 def setInitiator():
-'''public void setInitiator(final Owner initiator)
-'''
-pass
+    '''    public void setInitiator(final Owner initiator)
+    '''
 def getStorageClass():
-'''public String getStorageClass()
-'''
-pass
+    '''    public String getStorageClass()
+    '''
 def setStorageClass():
-'''public void setStorageClass(final String storageClass)
-'''
-pass
+    '''    public void setStorageClass(final String storageClass)
+    '''
 def getInitiated():
-'''public Date getInitiated()
-'''
-pass
+    '''    public Date getInitiated()
+    '''
 def setInitiated():
-'''public void setInitiated(final Date initiated)
-'''
-pass
+    '''    public void setInitiated(final Date initiated)
+    '''

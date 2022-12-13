@@ -1,8 +1,6 @@
 def CIChangeStatus():
-'''public CIChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public CIChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

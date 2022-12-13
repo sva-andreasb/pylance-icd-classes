@@ -1,71 +1,54 @@
 def CircularFifoQueue():
-'''public CircularFifoQueue()
-public CircularFifoQueue(final int size)
-public CircularFifoQueue(final Collection<? extends E> coll)
-'''
-pass
+    '''    public CircularFifoQueue()
+    public CircularFifoQueue(final int size)
+    public CircularFifoQueue(final Collection<? extends E> coll)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def isFull():
-'''public boolean isFull()
-'''
-pass
+    '''    public boolean isFull()
+    '''
 def isAtFullCapacity():
-'''public boolean isAtFullCapacity()
-'''
-pass
+    '''    public boolean isAtFullCapacity()
+    '''
 def maxSize():
-'''public int maxSize()
-'''
-pass
+    '''    public int maxSize()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def add():
-'''public boolean add(final E element)
-'''
-pass
+    '''    public boolean add(final E element)
+    '''
 def get():
-'''public E get(final int index)
-'''
-pass
+    '''    public E get(final int index)
+    '''
 def offer():
-'''public boolean offer(final E element)
-'''
-pass
+    '''    public boolean offer(final E element)
+    '''
 def poll():
-'''public E poll()
-'''
-pass
+    '''    public E poll()
+    '''
 def element():
-'''public E element()
-'''
-pass
+    '''    public E element()
+    '''
 def peek():
-'''public E peek()
-'''
-pass
+    '''    public E peek()
+    '''
 def remove():
-'''public E remove()
-public void remove()
-'''
-pass
+    '''    public E remove()
+    public void remove()
+    '''
 def iterator():
-'''public Iterator<E> iterator()
-'''
-pass
+    '''    public Iterator<E> iterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''

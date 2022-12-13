@@ -1,60 +1,45 @@
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setText():
-'''public void setText(final String s)
-'''
-pass
+    '''    public void setText(final String s)
+    '''
 def getHtmlFor():
-'''public String getHtmlFor()
-'''
-pass
+    '''    public String getHtmlFor()
+    '''
 def setHtmlFor():
-'''public void setHtmlFor(final String s)
-'''
-pass
+    '''    public void setHtmlFor(final String s)
+    '''
 def getEvent():
-'''public String getEvent()
-'''
-pass
+    '''    public String getEvent()
+    '''
 def setEvent():
-'''public void setEvent(final String s)
-'''
-pass
+    '''    public void setEvent(final String s)
+    '''
 def getCharset():
-'''public String getCharset()
-'''
-pass
+    '''    public String getCharset()
+    '''
 def setCharset():
-'''public void setCharset(final String s)
-'''
-pass
+    '''    public void setCharset(final String s)
+    '''
 def getDefer():
-'''public boolean getDefer()
-'''
-pass
+    '''    public boolean getDefer()
+    '''
 def setDefer():
-'''public void setDefer(final boolean b)
-'''
-pass
+    '''    public void setDefer(final boolean b)
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''
 def setSrc():
-'''public void setSrc(final String s)
-'''
-pass
+    '''    public void setSrc(final String s)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String s)
-'''
-pass
+    '''    public void setType(final String s)
+    '''
 def HTMLScriptElementImpl():
-'''public HTMLScriptElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLScriptElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

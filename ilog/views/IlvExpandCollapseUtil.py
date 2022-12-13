@@ -15,18 +15,16 @@ RADIAL_RECURSIVE_WITHOUT_LINKS = "int  11"
 RADIAL_STABLE_WITH_LINKS = "int  23"
 RADIAL_STABLE_WITHOUT_LINKS = "int  7"
 def expandOrCollapse():
-'''public static void expandOrCollapse(final IlvManager ilvManager, final CustomAdjustmentPolicy customAdjustmentPolicy, final int i, final boolean b, final IlvTransformer ilvTransformer, final boolean b2)
-public static void expandOrCollapse(final IlvManager ilvManager, final int n, final boolean b, final IlvTransformer ilvTransformer, final boolean b2)
-public static void expandOrCollapse(final IlvManager ilvManager, final CustomAdjustmentPolicy customAdjustmentPolicy, int n, final boolean b, final IlvApplyObject ilvApplyObject, final IlvTransformer ilvTransformer, final boolean b2)
-'''
-pass
+    '''    public static void expandOrCollapse(final IlvManager ilvManager, final CustomAdjustmentPolicy customAdjustmentPolicy, final int i, final boolean b, final IlvTransformer ilvTransformer, final boolean b2)
+    public static void expandOrCollapse(final IlvManager ilvManager, final int n, final boolean b, final IlvTransformer ilvTransformer, final boolean b2)
+    public static void expandOrCollapse(final IlvManager ilvManager, final CustomAdjustmentPolicy customAdjustmentPolicy, int n, final boolean b, final IlvApplyObject ilvApplyObject, final IlvTransformer ilvTransformer, final boolean b2)
+    '''
 def apply():
-'''public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvGraphic ilvGraphic, final Object o)
-public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
-public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
-public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
-public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
-'''
-pass
+    '''    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
+    public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
+    public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
+    public void apply(final IlvManager ilvManager, final IlvManager ilvManager2, final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer, final boolean b)
+    '''

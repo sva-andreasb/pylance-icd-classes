@@ -1,8 +1,6 @@
 def AssetLRMSet():
-'''public AssetLRMSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetLRMSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

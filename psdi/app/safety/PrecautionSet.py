@@ -1,8 +1,6 @@
 def PrecautionSet():
-'''public PrecautionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PrecautionSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

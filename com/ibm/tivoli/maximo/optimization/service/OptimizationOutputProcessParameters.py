@@ -1,20 +1,15 @@
 def OptimizationOutputProcessParameters():
-'''public OptimizationOutputProcessParameters()
-'''
-pass
+    '''    public OptimizationOutputProcessParameters()
+    '''
 def setOutputProcessParameter():
-'''public void setOutputProcessParameter(final String parameterName, final String value)
-'''
-pass
+    '''    public void setOutputProcessParameter(final String parameterName, final String value)
+    '''
 def getOutputProcessParameter():
-'''public String getOutputProcessParameter(final String parameterName)
-'''
-pass
+    '''    public String getOutputProcessParameter(final String parameterName)
+    '''
 def setOutputProcessUserInfo():
-'''public void setOutputProcessUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setOutputProcessUserInfo(final UserInfo userInfo)
+    '''
 def getOutputProcessUserInfo():
-'''public UserInfo getOutputProcessUserInfo()
-'''
-pass
+    '''    public UserInfo getOutputProcessUserInfo()
+    '''

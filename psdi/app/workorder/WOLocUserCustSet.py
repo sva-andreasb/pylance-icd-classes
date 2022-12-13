@@ -1,4 +1,3 @@
 def WOLocUserCustSet():
-'''public WOLocUserCustSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOLocUserCustSet(final MboServerInterface ms)
+    '''

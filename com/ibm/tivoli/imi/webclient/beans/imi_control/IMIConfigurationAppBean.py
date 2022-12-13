@@ -1,8 +1,6 @@
 def APPLY():
-'''public int APPLY()
-'''
-pass
+    '''    public int APPLY()
+    '''
 def CLOSE_CON():
-'''public int CLOSE_CON()
-'''
-pass
+    '''    public int CLOSE_CON()
+    '''

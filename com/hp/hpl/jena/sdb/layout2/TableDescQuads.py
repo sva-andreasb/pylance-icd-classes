@@ -1,24 +1,18 @@
 def name():
-'''public static String name()
-'''
-pass
+    '''    public static String name()
+    '''
 def TableDescQuads():
-'''public TableDescQuads()
-'''
-pass
+    '''    public TableDescQuads()
+    '''
 def getGraphColName():
-'''public String getGraphColName()
-'''
-pass
+    '''    public String getGraphColName()
+    '''
 def getSubjectColName():
-'''public String getSubjectColName()
-'''
-pass
+    '''    public String getSubjectColName()
+    '''
 def getPredicateColName():
-'''public String getPredicateColName()
-'''
-pass
+    '''    public String getPredicateColName()
+    '''
 def getObjectColName():
-'''public String getObjectColName()
-'''
-pass
+    '''    public String getObjectColName()
+    '''

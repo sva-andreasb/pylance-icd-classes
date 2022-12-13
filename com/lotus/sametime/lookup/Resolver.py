@@ -1,29 +1,22 @@
 def addResolveListener():
-'''public synchronized void addResolveListener(final ResolveListener obj)
-'''
-pass
+    '''    public synchronized void addResolveListener(final ResolveListener obj)
+    '''
 def removeResolveListener():
-'''public synchronized void removeResolveListener(final ResolveListener obj)
-'''
-pass
+    '''    public synchronized void removeResolveListener(final ResolveListener obj)
+    '''
 def resolve():
-'''public void resolve(final String[] array)
-public void resolve(final String s)
-'''
-pass
+    '''    public void resolve(final String[] array)
+    public void resolve(final String s)
+    '''
 def isOnlyUnique():
-'''public boolean isOnlyUnique()
-'''
-pass
+    '''    public boolean isOnlyUnique()
+    '''
 def isExhaustiveLookup():
-'''public boolean isExhaustiveLookup()
-'''
-pass
+    '''    public boolean isExhaustiveLookup()
+    '''
 def isResolveUsers():
-'''public boolean isResolveUsers()
-'''
-pass
+    '''    public boolean isResolveUsers()
+    '''
 def isResolveGroups():
-'''public boolean isResolveGroups()
-'''
-pass
+    '''    public boolean isResolveGroups()
+    '''

@@ -1,8 +1,6 @@
 def FldRepeat():
-'''public FldRepeat(final MboValue mbv)
-'''
-pass
+    '''    public FldRepeat(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

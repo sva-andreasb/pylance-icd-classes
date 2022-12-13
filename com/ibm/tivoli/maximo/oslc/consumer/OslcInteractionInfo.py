@@ -1,140 +1,105 @@
 def getPrefillIfoList():
-'''public List<OslcPrefillInfo> getPrefillIfoList()
-'''
-pass
+    '''    public List<OslcPrefillInfo> getPrefillIfoList()
+    '''
 def setPrefillIfoList():
-'''public void setPrefillIfoList(final List<OslcPrefillInfo> list)
-'''
-pass
+    '''    public void setPrefillIfoList(final List<OslcPrefillInfo> list)
+    '''
 def getQueryIfoList():
-'''public List<QueryInfo> getQueryIfoList()
-'''
-pass
+    '''    public List<QueryInfo> getQueryIfoList()
+    '''
 def setQueryfoList():
-'''public void setQueryfoList(final List<QueryInfo> list)
-'''
-pass
+    '''    public void setQueryfoList(final List<QueryInfo> list)
+    '''
 def OslcInteractionInfo():
-'''public OslcInteractionInfo(final String interactionName, final String interactionType, final String providerName, final String resourceType, final String usage, final String spURI, final String prefillClass, final String resourceURI, final String appName, final String appObject, final String linkType, final String linkRelation, final String intObjectName, final String mapOption, final String updatePropNs, final String updatePropName, final String resourceTypeURI, final String tabName, final String linkPropName, final String linkPropLabel, final String buttonId, final String selectClause)
-'''
-pass
+    '''    public OslcInteractionInfo(final String interactionName, final String interactionType, final String providerName, final String resourceType, final String usage, final String spURI, final String prefillClass, final String resourceURI, final String appName, final String appObject, final String linkType, final String linkRelation, final String intObjectName, final String mapOption, final String updatePropNs, final String updatePropName, final String resourceTypeURI, final String tabName, final String linkPropName, final String linkPropLabel, final String buttonId, final String selectClause)
+    '''
 def getResourceTypeURI():
-'''public String getResourceTypeURI()
-'''
-pass
+    '''    public String getResourceTypeURI()
+    '''
 def getInteractionName():
-'''public String getInteractionName()
-'''
-pass
+    '''    public String getInteractionName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getProviderName():
-'''public String getProviderName()
-'''
-pass
+    '''    public String getProviderName()
+    '''
 def getResourceType():
-'''public String getResourceType()
-'''
-pass
+    '''    public String getResourceType()
+    '''
 def getResourceTypeQName():
-'''public QName getResourceTypeQName()
-'''
-pass
+    '''    public QName getResourceTypeQName()
+    '''
 def getUsage():
-'''public String getUsage()
-'''
-pass
+    '''    public String getUsage()
+    '''
 def getDomainURI():
-'''public String getDomainURI()
-'''
-pass
+    '''    public String getDomainURI()
+    '''
 def getSpURI():
-'''public String getSpURI()
-'''
-pass
+    '''    public String getSpURI()
+    '''
 def getUpdatePropertyName():
-'''public String getUpdatePropertyName()
-'''
-pass
+    '''    public String getUpdatePropertyName()
+    '''
 def getUpdatePropertyNs():
-'''public String getUpdatePropertyNs()
-'''
-pass
+    '''    public String getUpdatePropertyNs()
+    '''
 def getResourceNs():
-'''public String getResourceNs()
-'''
-pass
+    '''    public String getResourceNs()
+    '''
 def isForAServiceProvider():
-'''public boolean isForAServiceProvider()
-'''
-pass
+    '''    public boolean isForAServiceProvider()
+    '''
 def getInteractionType():
-'''public String getInteractionType()
-'''
-pass
+    '''    public String getInteractionType()
+    '''
 def getPrefillClass():
-'''public String getPrefillClass()
-'''
-pass
+    '''    public String getPrefillClass()
+    '''
 def getResourceName():
-'''public String getResourceName()
-'''
-pass
+    '''    public String getResourceName()
+    '''
 def getResourceURI():
-'''public String getResourceURI()
-'''
-pass
+    '''    public String getResourceURI()
+    '''
 def getUpdatePropName():
-'''public String getUpdatePropName()
-'''
-pass
+    '''    public String getUpdatePropName()
+    '''
 def getUpdatePropNs():
-'''public String getUpdatePropNs()
-'''
-pass
+    '''    public String getUpdatePropNs()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getAppObject():
-'''public String getAppObject()
-'''
-pass
+    '''    public String getAppObject()
+    '''
 def getLinkType():
-'''public String getLinkType()
-'''
-pass
+    '''    public String getLinkType()
+    '''
 def getLinkRelation():
-'''public String getLinkRelation()
-'''
-pass
+    '''    public String getLinkRelation()
+    '''
 def getIntObjectName():
-'''public String getIntObjectName()
-'''
-pass
+    '''    public String getIntObjectName()
+    '''
 def getMapOption():
-'''public String getMapOption()
-'''
-pass
+    '''    public String getMapOption()
+    '''
 def getTabName():
-'''public String getTabName()
-'''
-pass
+    '''    public String getTabName()
+    '''
 def getLinkPropName():
-'''public String getLinkPropName()
-'''
-pass
+    '''    public String getLinkPropName()
+    '''
 def getLinkPropLabel():
-'''public String getLinkPropLabel()
-'''
-pass
+    '''    public String getLinkPropLabel()
+    '''
 def getButtonId():
-'''public String getButtonId()
-'''
-pass
+    '''    public String getButtonId()
+    '''
 def getSelectClause():
-'''public String getSelectClause()
-'''
-pass
+    '''    public String getSelectClause()
+    '''

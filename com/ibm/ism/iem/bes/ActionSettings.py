@@ -1,8 +1,6 @@
 def getSettings():
-'''public ActionSettingsType getSettings()
-'''
-pass
+    '''    public ActionSettingsType getSettings()
+    '''
 def setSettings():
-'''public void setSettings(final ActionSettingsType value)
-'''
-pass
+    '''    public void setSettings(final ActionSettingsType value)
+    '''

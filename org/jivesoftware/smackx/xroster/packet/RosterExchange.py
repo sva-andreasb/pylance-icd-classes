@@ -1,30 +1,23 @@
 def RosterExchange():
-'''public RosterExchange()
-public RosterExchange(final Roster roster)
-'''
-pass
+    '''    public RosterExchange()
+    public RosterExchange(final Roster roster)
+    '''
 def addRosterEntry():
-'''public void addRosterEntry(final RosterEntry rosterEntry)
-public void addRosterEntry(final RemoteRosterEntry remoteRosterEntry)
-'''
-pass
+    '''    public void addRosterEntry(final RosterEntry rosterEntry)
+    public void addRosterEntry(final RemoteRosterEntry remoteRosterEntry)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getRosterEntries():
-'''public Iterator<RemoteRosterEntry> getRosterEntries()
-'''
-pass
+    '''    public Iterator<RemoteRosterEntry> getRosterEntries()
+    '''
 def getEntryCount():
-'''public int getEntryCount()
-'''
-pass
+    '''    public int getEntryCount()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''

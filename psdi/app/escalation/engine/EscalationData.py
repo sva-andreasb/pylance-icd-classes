@@ -1,76 +1,57 @@
 def EscalationData():
-'''public EscalationData()
-'''
-pass
+    '''    public EscalationData()
+    '''
 def isSLA():
-'''public boolean isSLA()
-'''
-pass
+    '''    public boolean isSLA()
+    '''
 def setSLA():
-'''public void setSLA(final boolean b)
-'''
-pass
+    '''    public void setSLA(final boolean b)
+    '''
 def setSlaNum():
-'''public void setSlaNum(final String string)
-'''
-pass
+    '''    public void setSlaNum(final String string)
+    '''
 def getSlaNum():
-'''public String getSlaNum()
-'''
-pass
+    '''    public String getSlaNum()
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def setActive():
-'''public void setActive(final boolean b)
-'''
-pass
+    '''    public void setActive(final boolean b)
+    '''
 def getCondition():
-'''public String getCondition()
-'''
-pass
+    '''    public String getCondition()
+    '''
 def setCondition():
-'''public void setCondition(final String string)
-'''
-pass
+    '''    public void setCondition(final String string)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String string)
-'''
-pass
+    '''    public void setObjectName(final String string)
+    '''
 def getOrg():
-'''public String getOrg()
-'''
-pass
+    '''    public String getOrg()
+    '''
 def setOrg():
-'''public void setOrg(final String string)
-'''
-pass
+    '''    public void setOrg(final String string)
+    '''
 def getSite():
-'''public String getSite()
-'''
-pass
+    '''    public String getSite()
+    '''
 def setSite():
-'''public void setSite(final String string)
-'''
-pass
+    '''    public void setSite(final String string)
+    '''
 def getEscalation():
-'''public String getEscalation()
-'''
-pass
+    '''    public String getEscalation()
+    '''
 def setEscalation():
-'''public void setEscalation(final String string)
-'''
-pass
+    '''    public void setEscalation(final String string)
+    '''
 def getEscStatusFlag():
-'''public boolean getEscStatusFlag()
-'''
-pass
+    '''    public boolean getEscStatusFlag()
+    '''
 def setEscStatusFlag():
-'''public void setEscStatusFlag(final boolean escStatusFlag)
-'''
-pass
+    '''    public void setEscStatusFlag(final boolean escStatusFlag)
+    '''

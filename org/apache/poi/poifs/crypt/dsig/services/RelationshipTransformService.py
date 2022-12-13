@@ -1,43 +1,33 @@
-TRANSFORM_URI = "String  http://schemas.openxmlformats.org/package/2006/RelationshipTransform""
+TRANSFORM_URI = "String  \"http://schemas.openxmlformats.org/package/2006/RelationshipTransform\""
 def RelationshipTransformService():
-'''public RelationshipTransformService()
-'''
-pass
+    '''    public RelationshipTransformService()
+    '''
 def registerDsigProvider():
-'''public static synchronized void registerDsigProvider()
-'''
-pass
+    '''    public static synchronized void registerDsigProvider()
+    '''
 def init():
-'''public void init(final TransformParameterSpec params)
-public void init(final XMLStructure parent, final XMLCryptoContext context)
-'''
-pass
+    '''    public void init(final TransformParameterSpec params)
+    public void init(final XMLStructure parent, final XMLCryptoContext context)
+    '''
 def marshalParams():
-'''public void marshalParams(final XMLStructure parent, final XMLCryptoContext context)
-'''
-pass
+    '''    public void marshalParams(final XMLStructure parent, final XMLCryptoContext context)
+    '''
 def getParameterSpec():
-'''public AlgorithmParameterSpec getParameterSpec()
-'''
-pass
+    '''    public AlgorithmParameterSpec getParameterSpec()
+    '''
 def transform():
-'''public Data transform(final Data data, final XMLCryptoContext context)
-public Data transform(final Data data, final XMLCryptoContext context, final OutputStream os)
-'''
-pass
+    '''    public Data transform(final Data data, final XMLCryptoContext context)
+    public Data transform(final Data data, final XMLCryptoContext context, final OutputStream os)
+    '''
 def isFeatureSupported():
-'''public boolean isFeatureSupported(final String feature)
-'''
-pass
+    '''    public boolean isFeatureSupported(final String feature)
+    '''
 def RelationshipTransformParameterSpec():
-'''public RelationshipTransformParameterSpec()
-'''
-pass
+    '''    public RelationshipTransformParameterSpec()
+    '''
 def addRelationshipReference():
-'''public void addRelationshipReference(final String relationshipId)
-'''
-pass
+    '''    public void addRelationshipReference(final String relationshipId)
+    '''
 def hasSourceIds():
-'''public boolean hasSourceIds()
-'''
-pass
+    '''    public boolean hasSourceIds()
+    '''

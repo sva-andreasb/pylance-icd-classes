@@ -1,108 +1,81 @@
 def getSoftwareComponent():
-'''public Component getSoftwareComponent()
-'''
-pass
+    '''    public Component getSoftwareComponent()
+    '''
 def setSoftwareComponent():
-'''public void setSoftwareComponent(final Component softwareComponent)
-'''
-pass
+    '''    public void setSoftwareComponent(final Component softwareComponent)
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def isNotesSpecified():
-'''public boolean isNotesSpecified()
-'''
-pass
+    '''    public boolean isNotesSpecified()
+    '''
 def unsetNotes():
-'''public void unsetNotes()
-'''
-pass
+    '''    public void unsetNotes()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''
 def isPasswordSpecified():
-'''public boolean isPasswordSpecified()
-'''
-pass
+    '''    public boolean isPasswordSpecified()
+    '''
 def unsetPassword():
-'''public void unsetPassword()
-'''
-pass
+    '''    public void unsetPassword()
+    '''
 def getSoftwareComponentId():
-'''public Long getSoftwareComponentId()
-'''
-pass
+    '''    public Long getSoftwareComponentId()
+    '''
 def setSoftwareComponentId():
-'''public void setSoftwareComponentId(final Long softwareComponentId)
-'''
-pass
+    '''    public void setSoftwareComponentId(final Long softwareComponentId)
+    '''
 def isSoftwareComponentIdSpecified():
-'''public boolean isSoftwareComponentIdSpecified()
-'''
-pass
+    '''    public boolean isSoftwareComponentIdSpecified()
+    '''
 def unsetSoftwareComponentId():
-'''public void unsetSoftwareComponentId()
-'''
-pass
+    '''    public void unsetSoftwareComponentId()
+    '''
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''
 def setUsername():
-'''public void setUsername(final String username)
-'''
-pass
+    '''    public void setUsername(final String username)
+    '''
 def isUsernameSpecified():
-'''public boolean isUsernameSpecified()
-'''
-pass
+    '''    public boolean isUsernameSpecified()
+    '''
 def unsetUsername():
-'''public void unsetUsername()
-'''
-pass
+    '''    public void unsetUsername()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def notes():
-'''public Mask notes()
-'''
-pass
+    '''    public Mask notes()
+    '''
 def password():
-'''public Mask password()
-'''
-pass
+    '''    public Mask password()
+    '''
 def softwareComponentId():
-'''public Mask softwareComponentId()
-'''
-pass
+    '''    public Mask softwareComponentId()
+    '''
 def username():
-'''public Mask username()
-'''
-pass
+    '''    public Mask username()
+    '''

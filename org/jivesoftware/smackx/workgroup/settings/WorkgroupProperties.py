@@ -1,42 +1,32 @@
-ELEMENT_NAME = "String  workgroup-properties""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"workgroup-properties\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def isAuthRequired():
-'''public boolean isAuthRequired()
-'''
-pass
+    '''    public boolean isAuthRequired()
+    '''
 def setAuthRequired():
-'''public void setAuthRequired(final boolean authRequired)
-'''
-pass
+    '''    public void setAuthRequired(final boolean authRequired)
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def getFullName():
-'''public String getFullName()
-'''
-pass
+    '''    public String getFullName()
+    '''
 def setFullName():
-'''public void setFullName(final String fullName)
-'''
-pass
+    '''    public void setFullName(final String fullName)
+    '''
 def getJid():
-'''public String getJid()
-'''
-pass
+    '''    public String getJid()
+    '''
 def setJid():
-'''public void setJid(final String jid)
-'''
-pass
+    '''    public void setJid(final String jid)
+    '''
 def WorkgroupProperties():
-'''public WorkgroupProperties()
-'''
-pass
+    '''    public WorkgroupProperties()
+    '''
 def parse():
-'''public WorkgroupProperties parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public WorkgroupProperties parse(final XmlPullParser parser, final int initialDepth)
+    '''

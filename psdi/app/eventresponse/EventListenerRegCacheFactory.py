@@ -1,12 +1,9 @@
 def getInstance():
-'''public static EventListenerRegCacheFactory getInstance()
-'''
-pass
+    '''    public static EventListenerRegCacheFactory getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCache():
-'''public MaximoCache getCache()
-'''
-pass
+    '''    public MaximoCache getCache()
+    '''

@@ -1,5 +1,4 @@
 def IMProfileService():
-'''public IMProfileService()
-public IMProfileService(final MXServer mxServer)
-'''
-pass
+    '''    public IMProfileService()
+    public IMProfileService(final MXServer mxServer)
+    '''

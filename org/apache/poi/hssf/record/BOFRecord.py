@@ -14,75 +14,57 @@ TYPE_CHART = "int  32"
 TYPE_EXCEL_4_MACRO = "int  64"
 TYPE_WORKSPACE_FILE = "int  256"
 def BOFRecord():
-'''public BOFRecord()
-public BOFRecord(final RecordInputStream in)
-'''
-pass
+    '''    public BOFRecord()
+    public BOFRecord(final RecordInputStream in)
+    '''
 def createSheetBOF():
-'''public static BOFRecord createSheetBOF()
-'''
-pass
+    '''    public static BOFRecord createSheetBOF()
+    '''
 def setVersion():
-'''public void setVersion(final int version)
-'''
-pass
+    '''    public void setVersion(final int version)
+    '''
 def setType():
-'''public void setType(final int type)
-'''
-pass
+    '''    public void setType(final int type)
+    '''
 def setBuild():
-'''public void setBuild(final int build)
-'''
-pass
+    '''    public void setBuild(final int build)
+    '''
 def setBuildYear():
-'''public void setBuildYear(final int year)
-'''
-pass
+    '''    public void setBuildYear(final int year)
+    '''
 def setHistoryBitMask():
-'''public void setHistoryBitMask(final int bitmask)
-'''
-pass
+    '''    public void setHistoryBitMask(final int bitmask)
+    '''
 def setRequiredVersion():
-'''public void setRequiredVersion(final int version)
-'''
-pass
+    '''    public void setRequiredVersion(final int version)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getBuild():
-'''public int getBuild()
-'''
-pass
+    '''    public int getBuild()
+    '''
 def getBuildYear():
-'''public int getBuildYear()
-'''
-pass
+    '''    public int getBuildYear()
+    '''
 def getHistoryBitMask():
-'''public int getHistoryBitMask()
-'''
-pass
+    '''    public int getHistoryBitMask()
+    '''
 def getRequiredVersion():
-'''public int getRequiredVersion()
-'''
-pass
+    '''    public int getRequiredVersion()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public BOFRecord clone()
-'''
-pass
+    '''    public BOFRecord clone()
+    '''

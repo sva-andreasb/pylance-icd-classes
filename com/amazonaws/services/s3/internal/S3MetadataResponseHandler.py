@@ -1,4 +1,3 @@
 def handle():
-'''public AmazonWebServiceResponse<ObjectMetadata> handle(final HttpResponse response)
-'''
-pass
+    '''    public AmazonWebServiceResponse<ObjectMetadata> handle(final HttpResponse response)
+    '''

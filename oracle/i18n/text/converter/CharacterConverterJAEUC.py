@@ -1,28 +1,21 @@
 def CharacterConverterJAEUC():
-'''public CharacterConverterJAEUC()
-'''
-pass
+    '''    public CharacterConverterJAEUC()
+    '''
 def toUnicodeString():
-'''public String toUnicodeString(final byte[] array, int n, int i)
-'''
-pass
+    '''    public String toUnicodeString(final byte[] array, int n, int i)
+    '''
 def toUnicodeStringWithReplacement():
-'''public String toUnicodeStringWithReplacement(final byte[] array, int n, int i)
-'''
-pass
+    '''    public String toUnicodeStringWithReplacement(final byte[] array, int n, int i)
+    '''
 def extractCodepoints():
-'''public void extractCodepoints(final Vector vector)
-'''
-pass
+    '''    public void extractCodepoints(final Vector vector)
+    '''
 def ByteToCharConvert():
-'''public int ByteToCharConvert(final byte[] array, final int n, final int n2, final char[] array2, final int n3, final int n4)
-'''
-pass
+    '''    public int ByteToCharConvert(final byte[] array, final int n, final int n2, final char[] array2, final int n3, final int n4)
+    '''
 def CharToByteConvert():
-'''public int CharToByteConvert(final char[] array, final int n, final int n2, final byte[] array2, final int n3, final int n4)
-'''
-pass
+    '''    public int CharToByteConvert(final char[] array, final int n, final int n2, final byte[] array2, final int n3, final int n4)
+    '''
 def toUnicodeCharsWithReplacement():
-'''public int toUnicodeCharsWithReplacement(final byte[] array, final int n, final char[] array2, final int n2, final int n3)
-'''
-pass
+    '''    public int toUnicodeCharsWithReplacement(final byte[] array, final int n, final char[] array2, final int n2, final int n3)
+    '''

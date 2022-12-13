@@ -1,4 +1,3 @@
 def FldPropMaintCachedValue():
-'''public FldPropMaintCachedValue(final MboValue mbv)
-'''
-pass
+    '''    public FldPropMaintCachedValue(final MboValue mbv)
+    '''

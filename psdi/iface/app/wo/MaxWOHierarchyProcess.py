@@ -1,12 +1,9 @@
 def MaxWOHierarchyProcess():
-'''public MaxWOHierarchyProcess()
-'''
-pass
+    '''    public MaxWOHierarchyProcess()
+    '''
 def afterProcess():
-'''public void afterProcess()
-'''
-pass
+    '''    public void afterProcess()
+    '''
 def processStatefulSet():
-'''public void processStatefulSet(final MboSetRemote set)
-'''
-pass
+    '''    public void processStatefulSet(final MboSetRemote set)
+    '''

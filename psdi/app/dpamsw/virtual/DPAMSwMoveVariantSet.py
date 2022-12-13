@@ -1,4 +1,3 @@
 def DPAMSwMoveVariantSet():
-'''public DPAMSwMoveVariantSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DPAMSwMoveVariantSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def UnknownSelectorException():
-'''public UnknownSelectorException(final String selectorName)
-'''
-pass
+    '''    public UnknownSelectorException(final String selectorName)
+    '''
 def getSelectorName():
-'''public String getSelectorName()
-'''
-pass
+    '''    public String getSelectorName()
+    '''

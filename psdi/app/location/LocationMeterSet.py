@@ -1,8 +1,6 @@
 def LocationMeterSet():
-'''public LocationMeterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LocationMeterSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

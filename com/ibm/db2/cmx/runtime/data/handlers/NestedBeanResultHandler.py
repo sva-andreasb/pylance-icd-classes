@@ -1,12 +1,9 @@
 def NestedBeanResultHandler():
-'''public NestedBeanResultHandler(final Class<T> beanClass_)
-'''
-pass
+    '''    public NestedBeanResultHandler(final Class<T> beanClass_)
+    '''
 def handle():
-'''public List<T> handle(final ResultSet resultSet_)
-'''
-pass
+    '''    public List<T> handle(final ResultSet resultSet_)
+    '''
 def close():
-'''public void close(final ResultSet set)
-'''
-pass
+    '''    public void close(final ResultSet set)
+    '''

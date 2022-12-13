@@ -1,8 +1,6 @@
 def DrawingTextBody():
-'''public DrawingTextBody(final CTTextBody textBody)
-'''
-pass
+    '''    public DrawingTextBody(final CTTextBody textBody)
+    '''
 def getParagraphs():
-'''public DrawingParagraph[] getParagraphs()
-'''
-pass
+    '''    public DrawingParagraph[] getParagraphs()
+    '''

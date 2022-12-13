@@ -1,4 +1,3 @@
 def structureChanged():
-'''public void structureChanged(final OSEvent osEvent)
-'''
-pass
+    '''    public void structureChanged(final OSEvent osEvent)
+    '''

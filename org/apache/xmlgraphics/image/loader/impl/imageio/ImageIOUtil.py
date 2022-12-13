@@ -1,12 +1,9 @@
 def extractResolution():
-'''public static void extractResolution(final IIOMetadata iiometa, final ImageSize size)
-'''
-pass
+    '''    public static void extractResolution(final IIOMetadata iiometa, final ImageSize size)
+    '''
 def getChild():
-'''public static Element getChild(final Element el, final String name)
-'''
-pass
+    '''    public static Element getChild(final Element el, final String name)
+    '''
 def dumpMetadataToSystemOut():
-'''public static void dumpMetadataToSystemOut(final IIOMetadata iiometa)
-'''
-pass
+    '''    public static void dumpMetadataToSystemOut(final IIOMetadata iiometa)
+    '''

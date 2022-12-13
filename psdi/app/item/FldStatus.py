@@ -1,8 +1,6 @@
 def FldStatus():
-'''public FldStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldStatus(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

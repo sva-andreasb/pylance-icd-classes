@@ -1,118 +1,90 @@
 def JHelp():
-'''public JHelp(final HelpSet set)
-public JHelp()
-public JHelp(final TextHelpModel textHelpModel)
-public JHelp(final TextHelpModel model, final HelpHistoryModel historyModel, final HelpSet.Presentation hsPres)
-'''
-pass
+    '''    public JHelp(final HelpSet set)
+    public JHelp()
+    public JHelp(final TextHelpModel textHelpModel)
+    public JHelp(final TextHelpModel model, final HelpHistoryModel historyModel, final HelpSet.Presentation hsPres)
+    '''
 def setModel():
-'''public void setModel(final TextHelpModel helpModel)
-'''
-pass
+    '''    public void setModel(final TextHelpModel helpModel)
+    '''
 def getModel():
-'''public TextHelpModel getModel()
-'''
-pass
+    '''    public TextHelpModel getModel()
+    '''
 def getHistoryModel():
-'''public HelpHistoryModel getHistoryModel()
-'''
-pass
+    '''    public HelpHistoryModel getHistoryModel()
+    '''
 def setHelpSetPresentation():
-'''public void setHelpSetPresentation(final HelpSet.Presentation hsPres)
-'''
-pass
+    '''    public void setHelpSetPresentation(final HelpSet.Presentation hsPres)
+    '''
 def setHelpSetSpec():
-'''public void setHelpSetSpec(final String s)
-'''
-pass
+    '''    public void setHelpSetSpec(final String s)
+    '''
 def getHelpSetURL():
-'''public URL getHelpSetURL()
-'''
-pass
+    '''    public URL getHelpSetURL()
+    '''
 def setUI():
-'''public void setUI(final HelpUI ui)
-'''
-pass
+    '''    public void setUI(final HelpUI ui)
+    '''
 def getUI():
-'''public HelpUI getUI()
-'''
-pass
+    '''    public HelpUI getUI()
+    '''
 def updateUI():
-'''public void updateUI()
-'''
-pass
+    '''    public void updateUI()
+    '''
 def getUIClassID():
-'''public String getUIClassID()
-'''
-pass
+    '''    public String getUIClassID()
+    '''
 def helpSetAdded():
-'''public void helpSetAdded(final HelpSetEvent obj)
-'''
-pass
+    '''    public void helpSetAdded(final HelpSetEvent obj)
+    '''
 def helpSetRemoved():
-'''public void helpSetRemoved(final HelpSetEvent obj)
-'''
-pass
+    '''    public void helpSetRemoved(final HelpSetEvent obj)
+    '''
 def setCurrentID():
-'''public void setCurrentID(final Map.ID currentID)
-public void setCurrentID(final Map.ID id, final String s, final JHelpNavigator helpNavigator)
-public void setCurrentID(final String s)
-'''
-pass
+    '''    public void setCurrentID(final Map.ID currentID)
+    public void setCurrentID(final Map.ID id, final String s, final JHelpNavigator helpNavigator)
+    public void setCurrentID(final String s)
+    '''
 def setCurrentURL():
-'''public void setCurrentURL(final URL currentURL)
-public void setCurrentURL(final URL url, final String s, final JHelpNavigator helpNavigator)
-'''
-pass
+    '''    public void setCurrentURL(final URL currentURL)
+    public void setCurrentURL(final URL url, final String s, final JHelpNavigator helpNavigator)
+    '''
 def getSelectedItems():
-'''public TreeItem[] getSelectedItems()
-'''
-pass
+    '''    public TreeItem[] getSelectedItems()
+    '''
 def addHelpNavigator():
-'''public void addHelpNavigator(final JHelpNavigator helpNavigator)
-'''
-pass
+    '''    public void addHelpNavigator(final JHelpNavigator helpNavigator)
+    '''
 def removeHelpNavigator():
-'''public void removeHelpNavigator(final JHelpNavigator helpNavigator)
-'''
-pass
+    '''    public void removeHelpNavigator(final JHelpNavigator helpNavigator)
+    '''
 def getHelpNavigators():
-'''public Enumeration getHelpNavigators()
-'''
-pass
+    '''    public Enumeration getHelpNavigators()
+    '''
 def setCurrentNavigator():
-'''public void setCurrentNavigator(final JHelpNavigator currentNavigator)
-'''
-pass
+    '''    public void setCurrentNavigator(final JHelpNavigator currentNavigator)
+    '''
 def getCurrentNavigator():
-'''public JHelpNavigator getCurrentNavigator()
-'''
-pass
+    '''    public JHelpNavigator getCurrentNavigator()
+    '''
 def setNavigatorDisplayed():
-'''public void setNavigatorDisplayed(final boolean b)
-'''
-pass
+    '''    public void setNavigatorDisplayed(final boolean b)
+    '''
 def isNavigatorDisplayed():
-'''public boolean isNavigatorDisplayed()
-'''
-pass
+    '''    public boolean isNavigatorDisplayed()
+    '''
 def setToolbarDisplayed():
-'''public void setToolbarDisplayed(final boolean b)
-'''
-pass
+    '''    public void setToolbarDisplayed(final boolean b)
+    '''
 def isToolbarDisplayed():
-'''public boolean isToolbarDisplayed()
-'''
-pass
+    '''    public boolean isToolbarDisplayed()
+    '''
 def getContentViewer():
-'''public JHelpContentViewer getContentViewer()
-'''
-pass
+    '''    public JHelpContentViewer getContentViewer()
+    '''
 def getAccessibleContext():
-'''public AccessibleContext getAccessibleContext()
-'''
-pass
+    '''    public AccessibleContext getAccessibleContext()
+    '''
 def getAccessibleRole():
-'''public AccessibleRole getAccessibleRole()
-'''
-pass
+    '''    public AccessibleRole getAccessibleRole()
+    '''

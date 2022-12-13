@@ -1,8 +1,6 @@
 def createpo():
-'''public int createpo()
-'''
-pass
+    '''    public int createpo()
+    '''
 def createcont():
-'''public int createcont()
-'''
-pass
+    '''    public int createcont()
+    '''

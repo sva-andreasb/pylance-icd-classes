@@ -1,52 +1,39 @@
 def QuietAppender():
-'''public QuietAppender()
-'''
-pass
+    '''    public QuietAppender()
+    '''
 def addFilter():
-'''public void addFilter(final Filter arg0)
-'''
-pass
+    '''    public void addFilter(final Filter arg0)
+    '''
 def clearFilters():
-'''public void clearFilters()
-'''
-pass
+    '''    public void clearFilters()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def doAppend():
-'''public void doAppend(final LoggingEvent arg0)
-'''
-pass
+    '''    public void doAppend(final LoggingEvent arg0)
+    '''
 def getErrorHandler():
-'''public ErrorHandler getErrorHandler()
-'''
-pass
+    '''    public ErrorHandler getErrorHandler()
+    '''
 def getFilter():
-'''public Filter getFilter()
-'''
-pass
+    '''    public Filter getFilter()
+    '''
 def getLayout():
-'''public Layout getLayout()
-'''
-pass
+    '''    public Layout getLayout()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def requiresLayout():
-'''public boolean requiresLayout()
-'''
-pass
+    '''    public boolean requiresLayout()
+    '''
 def setErrorHandler():
-'''public void setErrorHandler(final ErrorHandler arg0)
-'''
-pass
+    '''    public void setErrorHandler(final ErrorHandler arg0)
+    '''
 def setLayout():
-'''public void setLayout(final Layout arg0)
-'''
-pass
+    '''    public void setLayout(final Layout arg0)
+    '''
 def setName():
-'''public void setName(final String arg0)
-'''
-pass
+    '''    public void setName(final String arg0)
+    '''

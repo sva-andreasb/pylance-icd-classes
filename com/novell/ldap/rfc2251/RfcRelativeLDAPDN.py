@@ -1,4 +1,3 @@
 def RfcRelativeLDAPDN():
-'''public RfcRelativeLDAPDN(final String s)
-'''
-pass
+    '''    public RfcRelativeLDAPDN(final String s)
+    '''

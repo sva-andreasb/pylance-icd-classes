@@ -1,4 +1,3 @@
 def parse():
-'''public FileTooLargeError parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public FileTooLargeError parse(final XmlPullParser parser, final int initialDepth)
+    '''

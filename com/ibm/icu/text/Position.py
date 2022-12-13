@@ -1,27 +1,21 @@
 def Position():
-'''public Position()
-public Position(final int contextStart, final int contextLimit, final int start)
-public Position(final int contextStart, final int contextLimit, final int start, final int limit)
-public Position(final Position pos)
-'''
-pass
+    '''    public Position()
+    public Position(final int contextStart, final int contextLimit, final int start)
+    public Position(final int contextStart, final int contextLimit, final int start, final int limit)
+    public Position(final Position pos)
+    '''
 def set():
-'''public void set(final Position pos)
-'''
-pass
+    '''    public void set(final Position pos)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def validate():
-'''public final void validate(final int length)
-'''
-pass
+    '''    public final void validate(final int length)
+    '''

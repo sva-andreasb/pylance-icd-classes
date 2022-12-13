@@ -1,20 +1,15 @@
 def FldSolutionProblemCode():
-'''public FldSolutionProblemCode(final MboValue mbv)
-'''
-pass
+    '''    public FldSolutionProblemCode(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

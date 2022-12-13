@@ -1,8 +1,6 @@
 def StoreroomAncestor():
-'''public StoreroomAncestor(final MboSet ms)
-'''
-pass
+    '''    public StoreroomAncestor(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

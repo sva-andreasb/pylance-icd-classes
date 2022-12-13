@@ -1,12 +1,9 @@
 def allocate():
-'''public byte[] allocate(final int n)
-'''
-pass
+    '''    public byte[] allocate(final int n)
+    '''
 def release():
-'''public void release(final byte[] array)
-'''
-pass
+    '''    public void release(final byte[] array)
+    '''
 def getBufferAllocator():
-'''public BufferAllocator getBufferAllocator(final int n)
-'''
-pass
+    '''    public BufferAllocator getBufferAllocator(final int n)
+    '''

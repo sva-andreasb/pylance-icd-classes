@@ -1,58 +1,44 @@
 def KB():
-'''public KB(final MboSet ms)
-'''
-pass
+    '''    public KB(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def increaseTicketUseCount():
-'''public void increaseTicketUseCount()
-public void increaseTicketUseCount(final int count)
-'''
-pass
+    '''    public void increaseTicketUseCount()
+    public void increaseTicketUseCount(final int count)
+    '''
 def getTicketUseCount():
-'''public int getTicketUseCount()
-'''
-pass
+    '''    public int getTicketUseCount()
+    '''
 def increasePageViewCount():
-'''public void increasePageViewCount()
-public void increasePageViewCount(final int count)
-'''
-pass
+    '''    public void increasePageViewCount()
+    public void increasePageViewCount(final int count)
+    '''
 def getPageViewCount():
-'''public int getPageViewCount()
-'''
-pass
+    '''    public int getPageViewCount()
+    '''
 def updateAverageUsefulRank():
-'''public void updateAverageUsefulRank(final double newrank)
-'''
-pass
+    '''    public void updateAverageUsefulRank(final double newrank)
+    '''
 def getAverageUsefulRank():
-'''public int getAverageUsefulRank()
-'''
-pass
+    '''    public int getAverageUsefulRank()
+    '''
 def isStartDateValid():
-'''public boolean isStartDateValid()
-'''
-pass
+    '''    public boolean isStartDateValid()
+    '''
 def isEndDateValid():
-'''public boolean isEndDateValid()
-'''
-pass
+    '''    public boolean isEndDateValid()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''

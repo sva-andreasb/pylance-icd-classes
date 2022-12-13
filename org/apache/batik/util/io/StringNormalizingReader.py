@@ -1,20 +1,15 @@
 def StringNormalizingReader():
-'''public StringNormalizingReader(final String s)
-'''
-pass
+    '''    public StringNormalizingReader(final String s)
+    '''
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''
 def getLine():
-'''public int getLine()
-'''
-pass
+    '''    public int getLine()
+    '''
 def getColumn():
-'''public int getColumn()
-'''
-pass
+    '''    public int getColumn()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

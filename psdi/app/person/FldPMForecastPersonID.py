@@ -1,8 +1,6 @@
 def FldPMForecastPersonID():
-'''public FldPMForecastPersonID(final MboValue mbv)
-'''
-pass
+    '''    public FldPMForecastPersonID(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

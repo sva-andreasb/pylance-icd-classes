@@ -1,12 +1,9 @@
 def MaxLogMSGToolDispSet():
-'''public MaxLogMSGToolDispSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxLogMSGToolDispSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

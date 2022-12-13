@@ -1,123 +1,94 @@
 def ParserAdapter():
-'''public ParserAdapter()
-public ParserAdapter(final Parser parser)
-'''
-pass
+    '''    public ParserAdapter()
+    public ParserAdapter(final Parser parser)
+    '''
 def setFeature():
-'''public void setFeature(final String str, final boolean uris)
-'''
-pass
+    '''    public void setFeature(final String str, final boolean uris)
+    '''
 def getFeature():
-'''public boolean getFeature(final String str)
-'''
-pass
+    '''    public boolean getFeature(final String str)
+    '''
 def setProperty():
-'''public void setProperty(final String str, final Object o)
-'''
-pass
+    '''    public void setProperty(final String str, final Object o)
+    '''
 def getProperty():
-'''public Object getProperty(final String str)
-'''
-pass
+    '''    public Object getProperty(final String str)
+    '''
 def setEntityResolver():
-'''public void setEntityResolver(final EntityResolver entityResolver)
-'''
-pass
+    '''    public void setEntityResolver(final EntityResolver entityResolver)
+    '''
 def getEntityResolver():
-'''public EntityResolver getEntityResolver()
-'''
-pass
+    '''    public EntityResolver getEntityResolver()
+    '''
 def setDTDHandler():
-'''public void setDTDHandler(final DTDHandler dtdHandler)
-'''
-pass
+    '''    public void setDTDHandler(final DTDHandler dtdHandler)
+    '''
 def getDTDHandler():
-'''public DTDHandler getDTDHandler()
-'''
-pass
+    '''    public DTDHandler getDTDHandler()
+    '''
 def setContentHandler():
-'''public void setContentHandler(final ContentHandler contentHandler)
-'''
-pass
+    '''    public void setContentHandler(final ContentHandler contentHandler)
+    '''
 def getContentHandler():
-'''public ContentHandler getContentHandler()
-'''
-pass
+    '''    public ContentHandler getContentHandler()
+    '''
 def setErrorHandler():
-'''public void setErrorHandler(final ErrorHandler errorHandler)
-'''
-pass
+    '''    public void setErrorHandler(final ErrorHandler errorHandler)
+    '''
 def getErrorHandler():
-'''public ErrorHandler getErrorHandler()
-'''
-pass
+    '''    public ErrorHandler getErrorHandler()
+    '''
 def parse():
-'''public void parse(final String s)
-public void parse(final InputSource inputSource)
-'''
-pass
+    '''    public void parse(final String s)
+    public void parse(final InputSource inputSource)
+    '''
 def setDocumentLocator():
-'''public void setDocumentLocator(final Locator locator)
-'''
-pass
+    '''    public void setDocumentLocator(final Locator locator)
+    '''
 def startDocument():
-'''public void startDocument()
-'''
-pass
+    '''    public void startDocument()
+    '''
 def endDocument():
-'''public void endDocument()
-'''
-pass
+    '''    public void endDocument()
+    '''
 def startElement():
-'''public void startElement(final String s, final AttributeList attributeList)
-'''
-pass
+    '''    public void startElement(final String s, final AttributeList attributeList)
+    '''
 def endElement():
-'''public void endElement(final String s)
-'''
-pass
+    '''    public void endElement(final String s)
+    '''
 def characters():
-'''public void characters(final char[] array, final int n, final int n2)
-'''
-pass
+    '''    public void characters(final char[] array, final int n, final int n2)
+    '''
 def ignorableWhitespace():
-'''public void ignorableWhitespace(final char[] array, final int n, final int n2)
-'''
-pass
+    '''    public void ignorableWhitespace(final char[] array, final int n, final int n2)
+    '''
 def processingInstruction():
-'''public void processingInstruction(final String s, final String s2)
-'''
-pass
+    '''    public void processingInstruction(final String s, final String s2)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getURI():
-'''public String getURI(final int n)
-'''
-pass
+    '''    public String getURI(final int n)
+    '''
 def getLocalName():
-'''public String getLocalName(final int n)
-'''
-pass
+    '''    public String getLocalName(final int n)
+    '''
 def getQName():
-'''public String getQName(final int n)
-'''
-pass
+    '''    public String getQName(final int n)
+    '''
 def getType():
-'''public String getType(final int n)
-public String getType(final String s, final String s2)
-public String getType(final String s)
-'''
-pass
+    '''    public String getType(final int n)
+    public String getType(final String s, final String s2)
+    public String getType(final String s)
+    '''
 def getValue():
-'''public String getValue(final int n)
-public String getValue(final String s, final String s2)
-public String getValue(final String s)
-'''
-pass
+    '''    public String getValue(final int n)
+    public String getValue(final String s, final String s2)
+    public String getValue(final String s)
+    '''
 def getIndex():
-'''public int getIndex(final String s, final String s2)
-public int getIndex(final String anObject)
-'''
-pass
+    '''    public int getIndex(final String s, final String s2)
+    public int getIndex(final String anObject)
+    '''

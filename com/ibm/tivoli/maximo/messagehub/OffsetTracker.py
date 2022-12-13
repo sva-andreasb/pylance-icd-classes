@@ -1,16 +1,12 @@
 def OffsetTracker():
-'''public OffsetTracker(final String provider, final String topic, final Connection conn)
-'''
-pass
+    '''    public OffsetTracker(final String provider, final String topic, final Connection conn)
+    '''
 def getOffset():
-'''public Long getOffset(final int tpart)
-'''
-pass
+    '''    public Long getOffset(final int tpart)
+    '''
 def setOffset():
-'''public void setOffset(final Long offset, final int tpart)
-'''
-pass
+    '''    public void setOffset(final Long offset, final int tpart)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

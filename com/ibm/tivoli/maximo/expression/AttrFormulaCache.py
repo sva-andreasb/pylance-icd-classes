@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final AttrFormulaCache getInstance()
-'''
-pass
+    '''    public static final AttrFormulaCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getFormula():
-'''public AttrFormulaInfo getFormula(final String objectName, final String attrName)
-'''
-pass
+    '''    public AttrFormulaInfo getFormula(final String objectName, final String attrName)
+    '''
 def getAllFormulasForObject():
-'''public Map<String, AttrFormulaInfo> getAllFormulasForObject(final String objectName)
-'''
-pass
+    '''    public Map<String, AttrFormulaInfo> getAllFormulasForObject(final String objectName)
+    '''
 def getAllFormulas():
-'''public Map<String, Map<String, AttrFormulaInfo>> getAllFormulas()
-'''
-pass
+    '''    public Map<String, Map<String, AttrFormulaInfo>> getAllFormulas()
+    '''

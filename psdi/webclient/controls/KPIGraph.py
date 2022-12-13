@@ -1,52 +1,39 @@
 def KPIGraph():
-'''public KPIGraph()
-'''
-pass
+    '''    public KPIGraph()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getKPIData():
-'''public Vector getKPIData()
-'''
-pass
+    '''    public Vector getKPIData()
+    '''
 def getLabels():
-'''public String[] getLabels()
-'''
-pass
+    '''    public String[] getLabels()
+    '''
 def updatekpis():
-'''public void updatekpis()
-'''
-pass
+    '''    public void updatekpis()
+    '''
 def setGraphInfo():
-'''public String setGraphInfo(final String graphType)
-'''
-pass
+    '''    public String setGraphInfo(final String graphType)
+    '''
 def refreshChart():
-'''public void refreshChart()
-'''
-pass
+    '''    public void refreshChart()
+    '''
 def formatNumber():
-'''public String formatNumber(final Object variance)
-'''
-pass
+    '''    public String formatNumber(final Object variance)
+    '''
 def isNewKPI():
-'''public boolean isNewKPI()
-'''
-pass
+    '''    public boolean isNewKPI()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def refreshchart():
-'''public int refreshchart()
-'''
-pass
+    '''    public int refreshchart()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''

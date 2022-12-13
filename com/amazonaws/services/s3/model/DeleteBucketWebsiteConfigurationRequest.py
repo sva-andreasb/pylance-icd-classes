@@ -1,4 +1,3 @@
 def DeleteBucketWebsiteConfigurationRequest():
-'''public DeleteBucketWebsiteConfigurationRequest(final String bucketName)
-'''
-pass
+    '''    public DeleteBucketWebsiteConfigurationRequest(final String bucketName)
+    '''

@@ -1,41 +1,31 @@
 def AgentState():
-'''public AgentState()
-public AgentState(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final BaseClassArrayProp definition, final RetentionRuleArrayProp retentions)
-'''
-pass
+    '''    public AgentState()
+    public AgentState(final AncestorInfoArrayProp ancestors, final DateTimeProp creationTime, final TokenProp defaultName, final BooleanProp disabled, final BooleanProp hasChildren, final DateTimeProp modificationTime, final MultilingualTokenProp name, final ClassEnumProp objectClass, final BaseClassArrayProp owner, final BaseClassArrayProp parent, final NmtokenArrayProp permissions, final PolicyArrayProp policies, final NonNegativeIntegerProp position, final StringProp searchPath, final GuidProp storeID, final StringProp tenantID, final NmtokenProp usage, final PositiveIntegerProp version, final BaseClassArrayProp definition, final RetentionRuleArrayProp retentions)
+    '''
 def getDefinition():
-'''public BaseClassArrayProp getDefinition()
-'''
-pass
+    '''    public BaseClassArrayProp getDefinition()
+    '''
 def setDefinition():
-'''public void setDefinition(final BaseClassArrayProp definition)
-'''
-pass
+    '''    public void setDefinition(final BaseClassArrayProp definition)
+    '''
 def getRetentions():
-'''public RetentionRuleArrayProp getRetentions()
-'''
-pass
+    '''    public RetentionRuleArrayProp getRetentions()
+    '''
 def setRetentions():
-'''public void setRetentions(final RetentionRuleArrayProp retentions)
-'''
-pass
+    '''    public void setRetentions(final RetentionRuleArrayProp retentions)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

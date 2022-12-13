@@ -1,73 +1,55 @@
 def DocumentTypeImpl():
-'''public DocumentTypeImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
-public DocumentTypeImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String publicID, final String systemID)
-'''
-pass
+    '''    public DocumentTypeImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+    public DocumentTypeImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String publicID, final String systemID)
+    '''
 def getPublicId():
-'''public String getPublicId()
-'''
-pass
+    '''    public String getPublicId()
+    '''
 def getSystemId():
-'''public String getSystemId()
-'''
-pass
+    '''    public String getSystemId()
+    '''
 def setInternalSubset():
-'''public void setInternalSubset(final String internalSubset)
-'''
-pass
+    '''    public void setInternalSubset(final String internalSubset)
+    '''
 def getInternalSubset():
-'''public String getInternalSubset()
-'''
-pass
+    '''    public String getInternalSubset()
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def getTextContent():
-'''public String getTextContent()
-'''
-pass
+    '''    public String getTextContent()
+    '''
 def setTextContent():
-'''public void setTextContent(final String s)
-'''
-pass
+    '''    public void setTextContent(final String s)
+    '''
 def isEqualNode():
-'''public boolean isEqualNode(final Node node)
-'''
-pass
+    '''    public boolean isEqualNode(final Node node)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getEntities():
-'''public NamedNodeMap getEntities()
-'''
-pass
+    '''    public NamedNodeMap getEntities()
+    '''
 def getNotations():
-'''public NamedNodeMap getNotations()
-'''
-pass
+    '''    public NamedNodeMap getNotations()
+    '''
 def setReadOnly():
-'''public void setReadOnly(final boolean b, final boolean b2)
-'''
-pass
+    '''    public void setReadOnly(final boolean b, final boolean b2)
+    '''
 def getElements():
-'''public NamedNodeMap getElements()
-'''
-pass
+    '''    public NamedNodeMap getElements()
+    '''
 def setUserData():
-'''public Object setUserData(final String s, final Object o, final UserDataHandler userDataHandler)
-'''
-pass
+    '''    public Object setUserData(final String s, final Object o, final UserDataHandler userDataHandler)
+    '''
 def getUserData():
-'''public Object getUserData(final String key)
-'''
-pass
+    '''    public Object getUserData(final String key)
+    '''

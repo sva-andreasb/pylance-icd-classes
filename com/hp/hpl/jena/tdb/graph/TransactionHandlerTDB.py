@@ -1,20 +1,15 @@
 def TransactionHandlerTDB():
-'''public TransactionHandlerTDB(final GraphTDB graph)
-'''
-pass
+    '''    public TransactionHandlerTDB(final GraphTDB graph)
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def begin():
-'''public void begin()
-'''
-pass
+    '''    public void begin()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def transactionsSupported():
-'''public boolean transactionsSupported()
-'''
-pass
+    '''    public boolean transactionsSupported()
+    '''

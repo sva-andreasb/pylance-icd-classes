@@ -1,13 +1,10 @@
-NAME = "String  CRAM-MD5""
+NAME = "String  \"CRAM-MD5\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLCramMD5Mechanism newInstance()
-'''
-pass
+    '''    public SASLCramMD5Mechanism newInstance()
+    '''

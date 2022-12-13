@@ -1,16 +1,12 @@
 def Element():
-'''public Element(final Element parent, final String name, final Object object)
-'''
-pass
+    '''    public Element(final Element parent, final String name, final Object object)
+    '''
 def getParent():
-'''public Element getParent()
-'''
-pass
+    '''    public Element getParent()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''

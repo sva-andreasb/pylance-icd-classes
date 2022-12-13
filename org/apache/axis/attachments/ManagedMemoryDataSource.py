@@ -2,64 +2,49 @@ MIN_MEMORY_DISK_CACHED = "int  -1"
 MAX_MEMORY_DISK_CACHED = "int  16384"
 READ_CHUNK_SZ = "int  32768"
 def ManagedMemoryDataSource():
-'''public ManagedMemoryDataSource(final InputStream ss, final int maxCached, final String contentType)
-public ManagedMemoryDataSource(final InputStream ss, final int maxCached, final String contentType, final boolean readall)
-'''
-pass
+    '''    public ManagedMemoryDataSource(final InputStream ss, final int maxCached, final String contentType)
+    public ManagedMemoryDataSource(final InputStream ss, final int maxCached, final String contentType, final boolean readall)
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getInputStream():
-'''public synchronized InputStream getInputStream()
-'''
-pass
+    '''    public synchronized InputStream getInputStream()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def delete():
-'''public synchronized boolean delete()
-'''
-pass
+    '''    public synchronized boolean delete()
+    '''
 def main():
-'''public static void main(final String[] arg)
-'''
-pass
+    '''    public static void main(final String[] arg)
+    '''
 def getDiskCacheFile():
-'''public File getDiskCacheFile()
-'''
-pass
+    '''    public File getDiskCacheFile()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, int len)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def mark():
-'''public void mark(final int readlimit)
-'''
-pass
+    '''    public void mark(final int readlimit)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def skip():
-'''public long skip(long skipped)
-'''
-pass
+    '''    public long skip(long skipped)
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''

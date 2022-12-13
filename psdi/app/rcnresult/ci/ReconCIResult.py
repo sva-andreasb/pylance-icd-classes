@@ -1,4 +1,3 @@
 def ReconCIResult():
-'''public ReconCIResult(final MboSet ms)
-'''
-pass
+    '''    public ReconCIResult(final MboSet ms)
+    '''

@@ -1,188 +1,141 @@
 def FragmentInfo():
-'''public FragmentInfo()
-'''
-pass
+    '''    public FragmentInfo()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getESICacheId():
-'''public String getESICacheId()
-'''
-pass
+    '''    public String getESICacheId()
+    '''
 def setESICacheId():
-'''public void setESICacheId(final String s)
-'''
-pass
+    '''    public void setESICacheId(final String s)
+    '''
 def getESIQueryString():
-'''public String getESIQueryString()
-'''
-pass
+    '''    public String getESIQueryString()
+    '''
 def setESIQueryString():
-'''public void setESIQueryString(final String l)
-'''
-pass
+    '''    public void setESIQueryString(final String l)
+    '''
 def isEdgeable():
-'''public boolean isEdgeable()
-'''
-pass
+    '''    public boolean isEdgeable()
+    '''
 def setEdgeable():
-'''public void setEdgeable(final boolean s)
-'''
-pass
+    '''    public void setEdgeable(final boolean s)
+    '''
 def setAlternateUrl():
-'''public void setAlternateUrl(final String url)
-'''
-pass
+    '''    public void setAlternateUrl(final String url)
+    '''
 def getAlternateUrl():
-'''public String getAlternateUrl()
-'''
-pass
+    '''    public String getAlternateUrl()
+    '''
 def setBuildEsiInclude():
-'''public void setBuildEsiInclude(final boolean b)
-'''
-pass
+    '''    public void setBuildEsiInclude(final boolean b)
+    '''
 def getBuildEsiInclude():
-'''public boolean getBuildEsiInclude()
-'''
-pass
+    '''    public boolean getBuildEsiInclude()
+    '''
 def setStoreAttributes():
-'''public void setStoreAttributes(final boolean b)
-'''
-pass
+    '''    public void setStoreAttributes(final boolean b)
+    '''
 def getStoreAttributes():
-'''public boolean getStoreAttributes()
-'''
-pass
+    '''    public boolean getStoreAttributes()
+    '''
 def setStoreCookies():
-'''public void setStoreCookies(final boolean b)
-'''
-pass
+    '''    public void setStoreCookies(final boolean b)
+    '''
 def getStoreCookies():
-'''public boolean getStoreCookies()
-'''
-pass
+    '''    public boolean getStoreCookies()
+    '''
 def isUncacheable():
-'''public boolean isUncacheable()
-'''
-pass
+    '''    public boolean isUncacheable()
+    '''
 def setUncacheable():
-'''public void setUncacheable(final boolean uncacheable)
-'''
-pass
+    '''    public void setUncacheable(final boolean uncacheable)
+    '''
 def getConsumeSubfragments():
-'''public boolean getConsumeSubfragments()
-'''
-pass
+    '''    public boolean getConsumeSubfragments()
+    '''
 def setConsumeSubfragments():
-'''public void setConsumeSubfragments(final boolean consumeSubfragments)
-'''
-pass
+    '''    public void setConsumeSubfragments(final boolean consumeSubfragments)
+    '''
 def getDoNotConsume():
-'''public boolean getDoNotConsume()
-'''
-pass
+    '''    public boolean getDoNotConsume()
+    '''
 def setDoNotConsume():
-'''public void setDoNotConsume(final boolean doNotConsume)
-'''
-pass
+    '''    public void setDoNotConsume(final boolean doNotConsume)
+    '''
 def setExternalCacheGroupId():
-'''public void setExternalCacheGroupId(final String externalCacheGroupId)
-'''
-pass
+    '''    public void setExternalCacheGroupId(final String externalCacheGroupId)
+    '''
 def wasExternalCacheGroupIdSet():
-'''public boolean wasExternalCacheGroupIdSet()
-'''
-pass
+    '''    public boolean wasExternalCacheGroupIdSet()
+    '''
 def getURI():
-'''public String getURI()
-'''
-pass
+    '''    public String getURI()
+    '''
 def setURI():
-'''public void setURI(final String uri)
-'''
-pass
+    '''    public void setURI(final String uri)
+    '''
 def wasURISet():
-'''public boolean wasURISet()
-'''
-pass
+    '''    public boolean wasURISet()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def setAttributeExcludeList():
-'''public void setAttributeExcludeList(final String[] excludeList)
-'''
-pass
+    '''    public void setAttributeExcludeList(final String[] excludeList)
+    '''
 def getAttributeExcludeList():
-'''public String[] getAttributeExcludeList()
-'''
-pass
+    '''    public String[] getAttributeExcludeList()
+    '''
 def setCookieExcludeList():
-'''public void setCookieExcludeList(final String[] excludeList)
-'''
-pass
+    '''    public void setCookieExcludeList(final String[] excludeList)
+    '''
 def getCookieExcludeList():
-'''public String[] getCookieExcludeList()
-'''
-pass
+    '''    public String[] getCookieExcludeList()
+    '''
 def setConsumeExcludeList():
-'''public void setConsumeExcludeList(final String[] consumeExcludeList)
-'''
-pass
+    '''    public void setConsumeExcludeList(final String[] consumeExcludeList)
+    '''
 def getConsumeExcludeList():
-'''public String[] getConsumeExcludeList()
-'''
-pass
+    '''    public String[] getConsumeExcludeList()
+    '''
 def setInstanceName():
-'''public void setInstanceName(final String instanceName)
-'''
-pass
+    '''    public void setInstanceName(final String instanceName)
+    '''
 def getInstanceName():
-'''public String getInstanceName()
-'''
-pass
+    '''    public String getInstanceName()
+    '''
 def setIgnoreGetPost():
-'''public void setIgnoreGetPost(final boolean b)
-'''
-pass
+    '''    public void setIgnoreGetPost(final boolean b)
+    '''
 def setIgnoreCharEnc():
-'''public void setIgnoreCharEnc(final boolean b)
-'''
-pass
+    '''    public void setIgnoreCharEnc(final boolean b)
+    '''
 def isIgnoreGetPost():
-'''public boolean isIgnoreGetPost()
-'''
-pass
+    '''    public boolean isIgnoreGetPost()
+    '''
 def isIgnoreCharEncoding():
-'''public boolean isIgnoreCharEncoding()
-'''
-pass
+    '''    public boolean isIgnoreCharEncoding()
+    '''
 def setSkipCacheAttribute():
-'''public void setSkipCacheAttribute(final String skipCacheAttribute)
-'''
-pass
+    '''    public void setSkipCacheAttribute(final String skipCacheAttribute)
+    '''
 def getSkipCacheAttribute():
-'''public String getSkipCacheAttribute()
-'''
-pass
+    '''    public String getSkipCacheAttribute()
+    '''
 def setDoNotCache():
-'''public void setDoNotCache(final boolean b)
-'''
-pass
+    '''    public void setDoNotCache(final boolean b)
+    '''
 def getDoNotCache():
-'''public boolean getDoNotCache()
-'''
-pass
+    '''    public boolean getDoNotCache()
+    '''
 def setHasCacheableConsumingParent():
-'''public void setHasCacheableConsumingParent(final boolean b)
-'''
-pass
+    '''    public void setHasCacheableConsumingParent(final boolean b)
+    '''
 def getHasCacheableConsumingParent():
-'''public boolean getHasCacheableConsumingParent()
-'''
-pass
+    '''    public boolean getHasCacheableConsumingParent()
+    '''
 def getExternalCacheGroupId():
-'''public String getExternalCacheGroupId()
-'''
-pass
+    '''    public String getExternalCacheGroupId()
+    '''

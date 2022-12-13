@@ -1,20 +1,15 @@
 def getPatternString():
-'''public String getPatternString()
-'''
-pass
+    '''    public String getPatternString()
+    '''
 def getOverrideString():
-'''public String getOverrideString()
-'''
-pass
+    '''    public String getOverrideString()
+    '''
 def getCalendar():
-'''public Calendar getCalendar()
-'''
-pass
+    '''    public Calendar getCalendar()
+    '''
 def getLocale():
-'''public ULocale getLocale()
-'''
-pass
+    '''    public ULocale getLocale()
+    '''
 def getDateFormatSymbols():
-'''public DateFormatSymbols getDateFormatSymbols()
-'''
-pass
+    '''    public DateFormatSymbols getDateFormatSymbols()
+    '''

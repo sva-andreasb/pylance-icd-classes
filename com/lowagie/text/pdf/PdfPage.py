@@ -1,4 +1,3 @@
 def isParent():
-'''public boolean isParent()
-'''
-pass
+    '''    public boolean isParent()
+    '''

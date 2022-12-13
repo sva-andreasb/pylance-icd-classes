@@ -1,4 +1,3 @@
 def SKDCapacityPlanParamSet():
-'''public SKDCapacityPlanParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDCapacityPlanParamSet(final MboServerInterface ms)
+    '''

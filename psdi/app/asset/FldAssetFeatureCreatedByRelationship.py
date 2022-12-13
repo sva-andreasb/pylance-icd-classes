@@ -1,8 +1,6 @@
 def FldAssetFeatureCreatedByRelationship():
-'''public FldAssetFeatureCreatedByRelationship(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetFeatureCreatedByRelationship(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

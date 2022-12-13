@@ -1,4 +1,3 @@
 def InspCascadeOptionSet():
-'''public InspCascadeOptionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspCascadeOptionSet(final MboServerInterface ms)
+    '''

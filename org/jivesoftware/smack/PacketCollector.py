@@ -1,17 +1,13 @@
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''
 def getPacketFilter():
-'''public PacketFilter getPacketFilter()
-'''
-pass
+    '''    public PacketFilter getPacketFilter()
+    '''
 def pollResult():
-'''public synchronized Packet pollResult()
-'''
-pass
+    '''    public synchronized Packet pollResult()
+    '''
 def nextResult():
-'''public synchronized Packet nextResult()
-public synchronized Packet nextResult(final long timeout)
-'''
-pass
+    '''    public synchronized Packet nextResult()
+    public synchronized Packet nextResult(final long timeout)
+    '''

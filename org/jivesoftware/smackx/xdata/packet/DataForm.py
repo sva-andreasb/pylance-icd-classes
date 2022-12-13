@@ -1,114 +1,87 @@
-NAMESPACE = "String  jabber:x:data""
-ELEMENT = "String  item""
+NAMESPACE = "String  \"jabber:x:data\""
+ELEMENT = "String  \"item\""
 def DataForm():
-'''public DataForm(final Type type)
-'''
-pass
+    '''    public DataForm(final Type type)
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getInstructions():
-'''public List<String> getInstructions()
-'''
-pass
+    '''    public List<String> getInstructions()
+    '''
 def getReportedData():
-'''public ReportedData getReportedData()
-'''
-pass
+    '''    public ReportedData getReportedData()
+    '''
 def getItems():
-'''public List<Item> getItems()
-'''
-pass
+    '''    public List<Item> getItems()
+    '''
 def getFields():
-'''public List<FormField> getFields()
-public List<FormField> getFields()
-public List<FormField> getFields()
-'''
-pass
+    '''    public List<FormField> getFields()
+    public List<FormField> getFields()
+    public List<FormField> getFields()
+    '''
 def getField():
-'''public FormField getField(final String variableName)
-'''
-pass
+    '''    public FormField getField(final String variableName)
+    '''
 def hasField():
-'''public boolean hasField(final String variableName)
-'''
-pass
+    '''    public boolean hasField(final String variableName)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def setInstructions():
-'''public void setInstructions(final List<String> instructions)
-'''
-pass
+    '''    public void setInstructions(final List<String> instructions)
+    '''
 def setReportedData():
-'''public void setReportedData(final ReportedData reportedData)
-'''
-pass
+    '''    public void setReportedData(final ReportedData reportedData)
+    '''
 def addField():
-'''public void addField(final FormField field)
-'''
-pass
+    '''    public void addField(final FormField field)
+    '''
 def addFields():
-'''public boolean addFields(final Collection<FormField> fieldsToAdd)
-'''
-pass
+    '''    public boolean addFields(final Collection<FormField> fieldsToAdd)
+    '''
 def addInstruction():
-'''public void addInstruction(final String instruction)
-'''
-pass
+    '''    public void addInstruction(final String instruction)
+    '''
 def addItem():
-'''public void addItem(final Item item)
-'''
-pass
+    '''    public void addItem(final Item item)
+    '''
 def addExtensionElement():
-'''public void addExtensionElement(final Element element)
-'''
-pass
+    '''    public void addExtensionElement(final Element element)
+    '''
 def getExtensionElements():
-'''public List<Element> getExtensionElements()
-'''
-pass
+    '''    public List<Element> getExtensionElements()
+    '''
 def getHiddenFormTypeField():
-'''public FormField getHiddenFormTypeField()
-'''
-pass
+    '''    public FormField getHiddenFormTypeField()
+    '''
 def hasHiddenFormTypeField():
-'''public boolean hasHiddenFormTypeField()
-'''
-pass
+    '''    public boolean hasHiddenFormTypeField()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public CharSequence toXML()
-public CharSequence toXML()
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public CharSequence toXML()
+    public CharSequence toXML()
+    '''
 def from():
-'''public static DataForm from(final Stanza packet)
-'''
-pass
+    '''    public static DataForm from(final Stanza packet)
+    '''
 def fromString():
-'''public static Type fromString(final String string)
-'''
-pass
+    '''    public static Type fromString(final String string)
+    '''
 def ReportedData():
-'''public ReportedData(final List<FormField> fields)
-'''
-pass
+    '''    public ReportedData(final List<FormField> fields)
+    '''
 def Item():
-'''public Item(final List<FormField> fields)
-'''
-pass
+    '''    public Item(final List<FormField> fields)
+    '''

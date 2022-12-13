@@ -1,12 +1,9 @@
 def LinkValidatorMetaLoader():
-'''public LinkValidatorMetaLoader(final ReconInfo reconInfo)
-'''
-pass
+    '''    public LinkValidatorMetaLoader(final ReconInfo reconInfo)
+    '''
 def buildExpression():
-'''public ReconLinkExpression buildExpression(final MboRemote linkRule)
-'''
-pass
+    '''    public ReconLinkExpression buildExpression(final MboRemote linkRule)
+    '''
 def getReconTaskName():
-'''public String getReconTaskName()
-'''
-pass
+    '''    public String getReconTaskName()
+    '''

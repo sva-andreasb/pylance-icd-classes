@@ -1,4 +1,3 @@
 def LburpStartRequest():
-'''public LburpStartRequest(final String s)
-'''
-pass
+    '''    public LburpStartRequest(final String s)
+    '''

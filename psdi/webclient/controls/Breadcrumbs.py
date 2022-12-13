@@ -1,24 +1,18 @@
 def Breadcrumbs():
-'''public Breadcrumbs()
-'''
-pass
+    '''    public Breadcrumbs()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getactiveCrumb():
-'''public long getactiveCrumb()
-'''
-pass
+    '''    public long getactiveCrumb()
+    '''
 def setactiveCrumb():
-'''public void setactiveCrumb(final long activeCrumb)
-'''
-pass
+    '''    public void setactiveCrumb(final long activeCrumb)
+    '''
 def selectbreadcrumb():
-'''public int selectbreadcrumb()
-'''
-pass
+    '''    public int selectbreadcrumb()
+    '''

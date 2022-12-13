@@ -1,130 +1,98 @@
 sid = "short  61"
 def WindowOneRecord():
-'''public WindowOneRecord()
-public WindowOneRecord(final RecordInputStream in)
-'''
-pass
+    '''    public WindowOneRecord()
+    public WindowOneRecord(final RecordInputStream in)
+    '''
 def setHorizontalHold():
-'''public void setHorizontalHold(final short h)
-'''
-pass
+    '''    public void setHorizontalHold(final short h)
+    '''
 def setVerticalHold():
-'''public void setVerticalHold(final short v)
-'''
-pass
+    '''    public void setVerticalHold(final short v)
+    '''
 def setWidth():
-'''public void setWidth(final short w)
-'''
-pass
+    '''    public void setWidth(final short w)
+    '''
 def setHeight():
-'''public void setHeight(final short h)
-'''
-pass
+    '''    public void setHeight(final short h)
+    '''
 def setOptions():
-'''public void setOptions(final short o)
-'''
-pass
+    '''    public void setOptions(final short o)
+    '''
 def setHidden():
-'''public void setHidden(final boolean ishidden)
-'''
-pass
+    '''    public void setHidden(final boolean ishidden)
+    '''
 def setIconic():
-'''public void setIconic(final boolean isiconic)
-'''
-pass
+    '''    public void setIconic(final boolean isiconic)
+    '''
 def setDisplayHorizonalScrollbar():
-'''public void setDisplayHorizonalScrollbar(final boolean scroll)
-'''
-pass
+    '''    public void setDisplayHorizonalScrollbar(final boolean scroll)
+    '''
 def setDisplayVerticalScrollbar():
-'''public void setDisplayVerticalScrollbar(final boolean scroll)
-'''
-pass
+    '''    public void setDisplayVerticalScrollbar(final boolean scroll)
+    '''
 def setDisplayTabs():
-'''public void setDisplayTabs(final boolean disptabs)
-'''
-pass
+    '''    public void setDisplayTabs(final boolean disptabs)
+    '''
 def setActiveSheetIndex():
-'''public void setActiveSheetIndex(final int index)
-'''
-pass
+    '''    public void setActiveSheetIndex(final int index)
+    '''
 def setFirstVisibleTab():
-'''public void setFirstVisibleTab(final int t)
-'''
-pass
+    '''    public void setFirstVisibleTab(final int t)
+    '''
 def setNumSelectedTabs():
-'''public void setNumSelectedTabs(final short n)
-'''
-pass
+    '''    public void setNumSelectedTabs(final short n)
+    '''
 def setTabWidthRatio():
-'''public void setTabWidthRatio(final short r)
-'''
-pass
+    '''    public void setTabWidthRatio(final short r)
+    '''
 def getHorizontalHold():
-'''public short getHorizontalHold()
-'''
-pass
+    '''    public short getHorizontalHold()
+    '''
 def getVerticalHold():
-'''public short getVerticalHold()
-'''
-pass
+    '''    public short getVerticalHold()
+    '''
 def getWidth():
-'''public short getWidth()
-'''
-pass
+    '''    public short getWidth()
+    '''
 def getHeight():
-'''public short getHeight()
-'''
-pass
+    '''    public short getHeight()
+    '''
 def getOptions():
-'''public short getOptions()
-'''
-pass
+    '''    public short getOptions()
+    '''
 def getHidden():
-'''public boolean getHidden()
-'''
-pass
+    '''    public boolean getHidden()
+    '''
 def getIconic():
-'''public boolean getIconic()
-'''
-pass
+    '''    public boolean getIconic()
+    '''
 def getDisplayHorizontalScrollbar():
-'''public boolean getDisplayHorizontalScrollbar()
-'''
-pass
+    '''    public boolean getDisplayHorizontalScrollbar()
+    '''
 def getDisplayVerticalScrollbar():
-'''public boolean getDisplayVerticalScrollbar()
-'''
-pass
+    '''    public boolean getDisplayVerticalScrollbar()
+    '''
 def getDisplayTabs():
-'''public boolean getDisplayTabs()
-'''
-pass
+    '''    public boolean getDisplayTabs()
+    '''
 def getActiveSheetIndex():
-'''public int getActiveSheetIndex()
-'''
-pass
+    '''    public int getActiveSheetIndex()
+    '''
 def getFirstVisibleTab():
-'''public int getFirstVisibleTab()
-'''
-pass
+    '''    public int getFirstVisibleTab()
+    '''
 def getNumSelectedTabs():
-'''public short getNumSelectedTabs()
-'''
-pass
+    '''    public short getNumSelectedTabs()
+    '''
 def getTabWidthRatio():
-'''public short getTabWidthRatio()
-'''
-pass
+    '''    public short getTabWidthRatio()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''

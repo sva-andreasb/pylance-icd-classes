@@ -1,12 +1,9 @@
 def dogenerate():
-'''public int dogenerate()
-'''
-pass
+    '''    public int dogenerate()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def beforedialogok():
-'''public int beforedialogok()
-'''
-pass
+    '''    public int beforedialogok()
+    '''

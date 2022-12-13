@@ -1,8 +1,6 @@
 def FldLicLocation():
-'''public FldLicLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldLicLocation(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

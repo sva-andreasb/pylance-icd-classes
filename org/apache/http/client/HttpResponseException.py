@@ -1,8 +1,6 @@
 def HttpResponseException():
-'''public HttpResponseException(final int statusCode, final String s)
-'''
-pass
+    '''    public HttpResponseException(final int statusCode, final String s)
+    '''
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''

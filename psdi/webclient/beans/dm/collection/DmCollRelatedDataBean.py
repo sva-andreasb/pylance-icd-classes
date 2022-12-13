@@ -1,8 +1,6 @@
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def saverecords():
-'''public int saverecords()
-'''
-pass
+    '''    public int saverecords()
+    '''

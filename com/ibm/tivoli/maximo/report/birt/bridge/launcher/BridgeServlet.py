@@ -1,20 +1,15 @@
 def BridgeServlet():
-'''public BridgeServlet()
-'''
-pass
+    '''    public BridgeServlet()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def registerServletDelegate():
-'''public static synchronized void registerServletDelegate(final HttpServlet servletDelegate)
-'''
-pass
+    '''    public static synchronized void registerServletDelegate(final HttpServlet servletDelegate)
+    '''
 def unregisterServletDelegate():
-'''public static synchronized void unregisterServletDelegate(final HttpServlet servletDelegate)
-'''
-pass
+    '''    public static synchronized void unregisterServletDelegate(final HttpServlet servletDelegate)
+    '''

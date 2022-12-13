@@ -1,37 +1,28 @@
 def getDataSourceCache():
-'''public static DataSourceCache getDataSourceCache()
-'''
-pass
+    '''    public static DataSourceCache getDataSourceCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isInitialized():
-'''public boolean isInitialized()
-'''
-pass
+    '''    public boolean isInitialized()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getDataSourceConnectionPool():
-'''public DataSourceConnectionPool getDataSourceConnectionPool(final String name)
-'''
-pass
+    '''    public DataSourceConnectionPool getDataSourceConnectionPool(final String name)
+    '''
 def initLandlordUserInfo():
-'''public void initLandlordUserInfo()
-'''
-pass
+    '''    public void initLandlordUserInfo()
+    '''
 def ConnectionPoolManager():
-'''public ConnectionPoolManager()
-'''
-pass
+    '''    public ConnectionPoolManager()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

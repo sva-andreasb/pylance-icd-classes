@@ -1,37 +1,28 @@
 def PayloadAttributeImpl():
-'''public PayloadAttributeImpl()
-public PayloadAttributeImpl(final BytesRef payload)
-'''
-pass
+    '''    public PayloadAttributeImpl()
+    public PayloadAttributeImpl(final BytesRef payload)
+    '''
 def getPayload():
-'''public BytesRef getPayload()
-'''
-pass
+    '''    public BytesRef getPayload()
+    '''
 def setPayload():
-'''public void setPayload(final BytesRef payload)
-'''
-pass
+    '''    public void setPayload(final BytesRef payload)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def clone():
-'''public PayloadAttributeImpl clone()
-'''
-pass
+    '''    public PayloadAttributeImpl clone()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def copyTo():
-'''public void copyTo(final AttributeImpl target)
-'''
-pass
+    '''    public void copyTo(final AttributeImpl target)
+    '''
 def reflectWith():
-'''public void reflectWith(final AttributeReflector reflector)
-'''
-pass
+    '''    public void reflectWith(final AttributeReflector reflector)
+    '''

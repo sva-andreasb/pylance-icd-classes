@@ -1,8 +1,6 @@
 def getCustomErrorCodeFieldName():
-'''public String getCustomErrorCodeFieldName()
-'''
-pass
+    '''    public String getCustomErrorCodeFieldName()
+    '''
 def withCustomErrorCodeFieldName():
-'''public JsonErrorResponseMetadata withCustomErrorCodeFieldName(final String errorCodeFieldName)
-'''
-pass
+    '''    public JsonErrorResponseMetadata withCustomErrorCodeFieldName(final String errorCodeFieldName)
+    '''

@@ -1,16 +1,12 @@
 def getInstance():
-'''public static MaxLookupMapCacheFactory getInstance()
-'''
-pass
+    '''    public static MaxLookupMapCacheFactory getInstance()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getCache():
-'''public MaximoCache getCache()
-'''
-pass
+    '''    public MaximoCache getCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

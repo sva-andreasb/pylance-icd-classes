@@ -1,29 +1,22 @@
 def OslcResource():
-'''public OslcResource(final Model model, final String resourceURI, final String etag)
-public OslcResource(final Model model, final String resourceURI, final String etag, final int status, final String statusText)
-'''
-pass
+    '''    public OslcResource(final Model model, final String resourceURI, final String etag)
+    public OslcResource(final Model model, final String resourceURI, final String etag, final int status, final String statusText)
+    '''
 def getModel():
-'''public Model getModel()
-'''
-pass
+    '''    public Model getModel()
+    '''
 def getResourceURI():
-'''public String getResourceURI()
-'''
-pass
+    '''    public String getResourceURI()
+    '''
 def getEtag():
-'''public String getEtag()
-'''
-pass
+    '''    public String getEtag()
+    '''
 def getResource():
-'''public Resource getResource()
-'''
-pass
+    '''    public Resource getResource()
+    '''
 def getResponseStatus():
-'''public int getResponseStatus()
-'''
-pass
+    '''    public int getResponseStatus()
+    '''
 def getResponseCode():
-'''public String getResponseCode()
-'''
-pass
+    '''    public String getResponseCode()
+    '''

@@ -1,16 +1,12 @@
 def PlusPFldEscNotificatTemplId():
-'''public PlusPFldEscNotificatTemplId(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldEscNotificatTemplId(final MboValue arg0)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

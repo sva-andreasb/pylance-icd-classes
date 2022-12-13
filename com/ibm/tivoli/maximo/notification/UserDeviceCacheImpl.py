@@ -1,25 +1,19 @@
 def UserDeviceCacheImpl():
-'''public UserDeviceCacheImpl()
-'''
-pass
+    '''    public UserDeviceCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getDevicesForUser():
-'''public Map<String, DeviceInfo> getDevicesForUser(final String userName)
-'''
-pass
+    '''    public Map<String, DeviceInfo> getDevicesForUser(final String userName)
+    '''
 def getActiveDeviceForUser():
-'''public DeviceInfo getActiveDeviceForUser(final String userName)
-'''
-pass
+    '''    public DeviceInfo getActiveDeviceForUser(final String userName)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

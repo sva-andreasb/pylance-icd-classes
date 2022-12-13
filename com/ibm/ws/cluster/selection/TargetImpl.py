@@ -1,72 +1,54 @@
 def TargetImpl():
-'''public TargetImpl(final Identity[] clusters, final Identity member, final EndPoint[] endPoints)
-'''
-pass
+    '''    public TargetImpl(final Identity[] clusters, final Identity member, final EndPoint[] endPoints)
+    '''
 def getMemberIdentity():
-'''public Identity getMemberIdentity()
-'''
-pass
+    '''    public Identity getMemberIdentity()
+    '''
 def getClusterIdentities():
-'''public Identity[] getClusterIdentities()
-'''
-pass
+    '''    public Identity[] getClusterIdentities()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def selectEndPoint():
-'''public EndPoint selectEndPoint(final Identity dataIdentity)
-'''
-pass
+    '''    public EndPoint selectEndPoint(final Identity dataIdentity)
+    '''
 def matchEndPoints():
-'''public EndPoint[] matchEndPoints(final Map propertyNames)
-'''
-pass
+    '''    public EndPoint[] matchEndPoints(final Map propertyNames)
+    '''
 def setAvailability():
-'''public void setAvailability(final boolean available)
-'''
-pass
+    '''    public void setAvailability(final boolean available)
+    '''
 def isTargetInHost():
-'''public boolean isTargetInHost()
-'''
-pass
+    '''    public boolean isTargetInHost()
+    '''
 def isTargetInProcess():
-'''public boolean isTargetInProcess()
-'''
-pass
+    '''    public boolean isTargetInProcess()
+    '''
 def getMember():
-'''public ClusterMemberDescription getMember()
-'''
-pass
+    '''    public ClusterMemberDescription getMember()
+    '''
 def isAvailable():
-'''public boolean isAvailable()
-'''
-pass
+    '''    public boolean isAvailable()
+    '''
 def isTargetInServer():
-'''public boolean isTargetInServer()
-'''
-pass
+    '''    public boolean isTargetInServer()
+    '''
 def getEndPointVersion():
-'''public long getEndPointVersion()
-'''
-pass
+    '''    public long getEndPointVersion()
+    '''
 def getEndPointMutex():
-'''public Object getEndPointMutex()
-'''
-pass
+    '''    public Object getEndPointMutex()
+    '''
 def handleNotification():
-'''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
-'''
-pass
+    '''    public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''
 def endPointsExist():
-'''public boolean endPointsExist()
-'''
-pass
+    '''    public boolean endPointsExist()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

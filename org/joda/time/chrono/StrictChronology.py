@@ -1,24 +1,18 @@
 def getInstance():
-'''public static StrictChronology getInstance(final Chronology chronology)
-'''
-pass
+    '''    public static StrictChronology getInstance(final Chronology chronology)
+    '''
 def withUTC():
-'''public Chronology withUTC()
-'''
-pass
+    '''    public Chronology withUTC()
+    '''
 def withZone():
-'''public Chronology withZone(DateTimeZone default1)
-'''
-pass
+    '''    public Chronology withZone(DateTimeZone default1)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def FldAutokeySeed():
-'''public FldAutokeySeed(final MboValue mbv)
-'''
-pass
+    '''    public FldAutokeySeed(final MboValue mbv)
+    '''

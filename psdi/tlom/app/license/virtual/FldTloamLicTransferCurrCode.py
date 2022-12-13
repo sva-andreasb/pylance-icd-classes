@@ -1,8 +1,6 @@
 def FldTloamLicTransferCurrCode():
-'''public FldTloamLicTransferCurrCode(final MboValue mbv)
-'''
-pass
+    '''    public FldTloamLicTransferCurrCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

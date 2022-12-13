@@ -1,8 +1,6 @@
 def FldIssueCurrentItemLotNum():
-'''public FldIssueCurrentItemLotNum(final MboValue mbv)
-'''
-pass
+    '''    public FldIssueCurrentItemLotNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

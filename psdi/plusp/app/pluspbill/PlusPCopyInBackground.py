@@ -1,8 +1,6 @@
 def PlusPCopyInBackground():
-'''public PlusPCopyInBackground(final MboRemote mboRemote, final String filter, final String email)
-'''
-pass
+    '''    public PlusPCopyInBackground(final MboRemote mboRemote, final String filter, final String email)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

@@ -1,20 +1,15 @@
 def setupBean():
-'''public void setupBean(final SessionContext sc)
-'''
-pass
+    '''    public void setupBean(final SessionContext sc)
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def createNewSR():
-'''public int createNewSR()
-'''
-pass
+    '''    public int createNewSR()
+    '''
 def returnSolution():
-'''public int returnSolution()
-'''
-pass
+    '''    public int returnSolution()
+    '''
 def createSR():
-'''public int createSR()
-'''
-pass
+    '''    public int createSR()
+    '''

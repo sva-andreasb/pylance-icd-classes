@@ -1,4 +1,3 @@
 def TaxTypeSet():
-'''public TaxTypeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TaxTypeSet(final MboServerInterface ms)
+    '''

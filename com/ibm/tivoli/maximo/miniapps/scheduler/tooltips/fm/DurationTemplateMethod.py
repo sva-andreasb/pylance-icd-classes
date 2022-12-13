@@ -1,8 +1,6 @@
 def exec():
-'''public Object exec(final Object arg1, final Object arg2)
-'''
-pass
+    '''    public Object exec(final Object arg1, final Object arg2)
+    '''
 def formatDuration():
-'''public String formatDuration(Double durationInDouble)
-'''
-pass
+    '''    public String formatDuration(Double durationInDouble)
+    '''

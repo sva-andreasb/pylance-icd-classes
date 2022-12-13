@@ -1,8 +1,6 @@
 def FldWOLocUserCustRemovePerson():
-'''public FldWOLocUserCustRemovePerson(final MboValue mbv)
-'''
-pass
+    '''    public FldWOLocUserCustRemovePerson(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

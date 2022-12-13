@@ -1,4 +1,3 @@
 def FldOslcQueryUserName():
-'''public FldOslcQueryUserName(final MboValue mbv)
-'''
-pass
+    '''    public FldOslcQueryUserName(final MboValue mbv)
+    '''

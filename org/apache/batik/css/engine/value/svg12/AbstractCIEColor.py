@@ -1,20 +1,15 @@
 def getColorValues():
-'''public float[] getColorValues()
-'''
-pass
+    '''    public float[] getColorValues()
+    '''
 def getWhitePoint():
-'''public float[] getWhitePoint()
-'''
-pass
+    '''    public float[] getWhitePoint()
+    '''
 def getCssValueType():
-'''public short getCssValueType()
-'''
-pass
+    '''    public short getCssValueType()
+    '''
 def getCssText():
-'''public String getCssText()
-'''
-pass
+    '''    public String getCssText()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

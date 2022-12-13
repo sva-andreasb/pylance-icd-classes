@@ -1,8 +1,6 @@
 def ApptBookChangeStatusBean():
-'''public ApptBookChangeStatusBean()
-'''
-pass
+    '''    public ApptBookChangeStatusBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

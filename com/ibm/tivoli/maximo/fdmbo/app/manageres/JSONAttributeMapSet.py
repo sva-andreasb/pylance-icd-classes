@@ -1,8 +1,6 @@
 def JSONAttributeMapSet():
-'''public JSONAttributeMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONAttributeMapSet(final MboServerInterface ms)
+    '''
 def getExistingAttributes():
-'''public Set<String> getExistingAttributes(final MboRemote thisMbo)
-'''
-pass
+    '''    public Set<String> getExistingAttributes(final MboRemote thisMbo)
+    '''

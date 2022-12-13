@@ -1,8 +1,6 @@
 def FldInvUsePicked():
-'''public FldInvUsePicked(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUsePicked(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,141 +1,106 @@
 def InputFile():
-'''public InputFile(final String fileName, final String sheetName)
-public InputFile(final InputStream fileStream, final String sheetName)
-'''
-pass
+    '''    public InputFile(final String fileName, final String sheetName)
+    public InputFile(final InputStream fileStream, final String sheetName)
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def getFileStream():
-'''public InputStream getFileStream()
-'''
-pass
+    '''    public InputStream getFileStream()
+    '''
 def getSheetName():
-'''public String getSheetName()
-'''
-pass
+    '''    public String getSheetName()
+    '''
 def isExcel():
-'''public boolean isExcel()
-'''
-pass
+    '''    public boolean isExcel()
+    '''
 def isUseTabAttribute():
-'''public boolean isUseTabAttribute()
-'''
-pass
+    '''    public boolean isUseTabAttribute()
+    '''
 def isUseTabAssembly():
-'''public boolean isUseTabAssembly()
-'''
-pass
+    '''    public boolean isUseTabAssembly()
+    '''
 def isUseTabComponent():
-'''public boolean isUseTabComponent()
-'''
-pass
+    '''    public boolean isUseTabComponent()
+    '''
 def isUseTabContact():
-'''public boolean isUseTabContact()
-'''
-pass
+    '''    public boolean isUseTabContact()
+    '''
 def isUseTabDocument():
-'''public boolean isUseTabDocument()
-'''
-pass
+    '''    public boolean isUseTabDocument()
+    '''
 def isUseTabFacility():
-'''public boolean isUseTabFacility()
-'''
-pass
+    '''    public boolean isUseTabFacility()
+    '''
 def isUseTabFloor():
-'''public boolean isUseTabFloor()
-'''
-pass
+    '''    public boolean isUseTabFloor()
+    '''
 def isUseTabIssue():
-'''public boolean isUseTabIssue()
-'''
-pass
+    '''    public boolean isUseTabIssue()
+    '''
 def isUseTabJob():
-'''public boolean isUseTabJob()
-'''
-pass
+    '''    public boolean isUseTabJob()
+    '''
 def isUseTabResource():
-'''public boolean isUseTabResource()
-'''
-pass
+    '''    public boolean isUseTabResource()
+    '''
 def isUseTabSpace():
-'''public boolean isUseTabSpace()
-'''
-pass
+    '''    public boolean isUseTabSpace()
+    '''
 def isUseTabSpare():
-'''public boolean isUseTabSpare()
-'''
-pass
+    '''    public boolean isUseTabSpare()
+    '''
 def isUseTabSystem():
-'''public boolean isUseTabSystem()
-'''
-pass
+    '''    public boolean isUseTabSystem()
+    '''
 def isUseTabType():
-'''public boolean isUseTabType()
-'''
-pass
+    '''    public boolean isUseTabType()
+    '''
 def isUseTabZone():
-'''public boolean isUseTabZone()
-'''
-pass
+    '''    public boolean isUseTabZone()
+    '''
 def setUseTabAttribute():
-'''public void setUseTabAttribute(final boolean useTabAttribute)
-'''
-pass
+    '''    public void setUseTabAttribute(final boolean useTabAttribute)
+    '''
 def setUseTabAssembly():
-'''public void setUseTabAssembly(final boolean useTabAssembly)
-'''
-pass
+    '''    public void setUseTabAssembly(final boolean useTabAssembly)
+    '''
 def setUseTabComponent():
-'''public void setUseTabComponent(final boolean useTabComponent)
-'''
-pass
+    '''    public void setUseTabComponent(final boolean useTabComponent)
+    '''
 def setUseTabContact():
-'''public void setUseTabContact(final boolean useTabContact)
-'''
-pass
+    '''    public void setUseTabContact(final boolean useTabContact)
+    '''
 def setUseTabDocument():
-'''public void setUseTabDocument(final boolean useTabDocument)
-'''
-pass
+    '''    public void setUseTabDocument(final boolean useTabDocument)
+    '''
 def setUseTabFacility():
-'''public void setUseTabFacility(final boolean useTabFacility)
-'''
-pass
+    '''    public void setUseTabFacility(final boolean useTabFacility)
+    '''
 def setUseTabFloor():
-'''public void setUseTabFloor(final boolean useTabFloor)
-'''
-pass
+    '''    public void setUseTabFloor(final boolean useTabFloor)
+    '''
 def setUseTabIssue():
-'''public void setUseTabIssue(final boolean useTabIssue)
-'''
-pass
+    '''    public void setUseTabIssue(final boolean useTabIssue)
+    '''
 def setUseTabJob():
-'''public void setUseTabJob(final boolean useTabJob)
-'''
-pass
+    '''    public void setUseTabJob(final boolean useTabJob)
+    '''
 def setUseTabResource():
-'''public void setUseTabResource(final boolean useTabResource)
-'''
-pass
+    '''    public void setUseTabResource(final boolean useTabResource)
+    '''
 def setUseTabSpace():
-'''public void setUseTabSpace(final boolean useTabSpace)
-'''
-pass
+    '''    public void setUseTabSpace(final boolean useTabSpace)
+    '''
 def setUseTabSpare():
-'''public void setUseTabSpare(final boolean useTabSpare)
-'''
-pass
+    '''    public void setUseTabSpare(final boolean useTabSpare)
+    '''
 def setUseTabSystem():
-'''public void setUseTabSystem(final boolean useTabSystem)
-'''
-pass
+    '''    public void setUseTabSystem(final boolean useTabSystem)
+    '''
 def setUseTabType():
-'''public void setUseTabType(final boolean useTabType)
-'''
-pass
+    '''    public void setUseTabType(final boolean useTabType)
+    '''
 def setUseTabZone():
-'''public void setUseTabZone(final boolean useTabZone)
-'''
-pass
+    '''    public void setUseTabZone(final boolean useTabZone)
+    '''

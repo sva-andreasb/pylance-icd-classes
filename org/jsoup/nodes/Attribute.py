@@ -1,45 +1,34 @@
 def Attribute():
-'''public Attribute(final String key, final String value)
-public Attribute(String key, final String val, final Attributes parent)
-'''
-pass
+    '''    public Attribute(final String key, final String value)
+    public Attribute(String key, final String val, final Attributes parent)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(String key)
-'''
-pass
+    '''    public void setKey(String key)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public String setValue(final String val)
-'''
-pass
+    '''    public String setValue(final String val)
+    '''
 def html():
-'''public String html()
-'''
-pass
+    '''    public String html()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def createFromEncoded():
-'''public static Attribute createFromEncoded(final String unencodedKey, final String encodedValue)
-'''
-pass
+    '''    public static Attribute createFromEncoded(final String unencodedKey, final String encodedValue)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Attribute clone()
-'''
-pass
+    '''    public Attribute clone()
+    '''

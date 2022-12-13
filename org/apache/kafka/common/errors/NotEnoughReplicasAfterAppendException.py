@@ -1,4 +1,3 @@
 def NotEnoughReplicasAfterAppendException():
-'''public NotEnoughReplicasAfterAppendException(final String message)
-'''
-pass
+    '''    public NotEnoughReplicasAfterAppendException(final String message)
+    '''

@@ -1,8 +1,6 @@
 def FldAuthObjectName():
-'''public FldAuthObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldAuthObjectName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

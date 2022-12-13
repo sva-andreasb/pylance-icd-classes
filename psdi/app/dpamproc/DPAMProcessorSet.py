@@ -1,4 +1,3 @@
 def DPAMProcessorSet():
-'''public DPAMProcessorSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DPAMProcessorSet(final MboServerInterface ms)
+    '''

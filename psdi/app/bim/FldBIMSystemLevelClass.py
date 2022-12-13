@@ -1,8 +1,6 @@
 def FldBIMSystemLevelClass():
-'''public FldBIMSystemLevelClass(final MboValue mbv)
-'''
-pass
+    '''    public FldBIMSystemLevelClass(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

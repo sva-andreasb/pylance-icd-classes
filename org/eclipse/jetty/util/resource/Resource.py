@@ -1,69 +1,53 @@
 def setDefaultUseCaches():
-'''public static void setDefaultUseCaches(final boolean useCaches)
-'''
-pass
+    '''    public static void setDefaultUseCaches(final boolean useCaches)
+    '''
 def getDefaultUseCaches():
-'''public static boolean getDefaultUseCaches()
-'''
-pass
+    '''    public static boolean getDefaultUseCaches()
+    '''
 def newResource():
-'''public static Resource newResource(final URI uri)
-public static Resource newResource(final URL url)
-public static Resource newResource(final String resource)
-public static Resource newResource(String resource, final boolean useCaches)
-public static Resource newResource(File file)
-'''
-pass
+    '''    public static Resource newResource(final URI uri)
+    public static Resource newResource(final URL url)
+    public static Resource newResource(final String resource)
+    public static Resource newResource(String resource, final boolean useCaches)
+    public static Resource newResource(File file)
+    '''
 def newSystemResource():
-'''public static Resource newSystemResource(final String resource)
-'''
-pass
+    '''    public static Resource newSystemResource(final String resource)
+    '''
 def newClassPathResource():
-'''public static Resource newClassPathResource(final String resource)
-public static Resource newClassPathResource(final String name, final boolean useCaches, final boolean checkParents)
-'''
-pass
+    '''    public static Resource newClassPathResource(final String resource)
+    public static Resource newClassPathResource(final String name, final boolean useCaches, final boolean checkParents)
+    '''
 def isContainedIn():
-'''public static boolean isContainedIn(final Resource r, final Resource containingResource)
-'''
-pass
+    '''    public static boolean isContainedIn(final Resource r, final Resource containingResource)
+    '''
 def getURI():
-'''public URI getURI()
-'''
-pass
+    '''    public URI getURI()
+    '''
 def getResource():
-'''public Resource getResource(final String path)
-'''
-pass
+    '''    public Resource getResource(final String path)
+    '''
 def encode():
-'''public String encode(final String uri)
-'''
-pass
+    '''    public String encode(final String uri)
+    '''
 def getAssociate():
-'''public Object getAssociate()
-'''
-pass
+    '''    public Object getAssociate()
+    '''
 def setAssociate():
-'''public void setAssociate(final Object o)
-'''
-pass
+    '''    public void setAssociate(final Object o)
+    '''
 def getAlias():
-'''public URL getAlias()
-'''
-pass
+    '''    public URL getAlias()
+    '''
 def getListHTML():
-'''public String getListHTML(String base, final boolean parent)
-'''
-pass
+    '''    public String getListHTML(String base, final boolean parent)
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out, final long start, final long count)
-'''
-pass
+    '''    public void writeTo(final OutputStream out, final long start, final long count)
+    '''
 def copyTo():
-'''public void copyTo(final File destination)
-'''
-pass
+    '''    public void copyTo(final File destination)
+    '''
 def toURL():
-'''public static URL toURL(final File file)
-'''
-pass
+    '''    public static URL toURL(final File file)
+    '''

@@ -1,8 +1,6 @@
 def FldReportTitle():
-'''public FldReportTitle(final MboValue mbv)
-'''
-pass
+    '''    public FldReportTitle(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

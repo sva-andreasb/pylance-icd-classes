@@ -1,8 +1,6 @@
 def PmtcoFldTicketLocation():
-'''public PmtcoFldTicketLocation(final MboValue mbv)
-'''
-pass
+    '''    public PmtcoFldTicketLocation(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

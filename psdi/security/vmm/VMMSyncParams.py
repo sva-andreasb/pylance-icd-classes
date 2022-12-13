@@ -1,4 +1,3 @@
 def VMMSyncParams():
-'''public VMMSyncParams(final MboSet ms)
-'''
-pass
+    '''    public VMMSyncParams(final MboSet ms)
+    '''

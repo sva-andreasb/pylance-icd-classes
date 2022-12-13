@@ -1,8 +1,6 @@
 def refreshHistoryData():
-'''public void refreshHistoryData()
-'''
-pass
+    '''    public void refreshHistoryData()
+    '''
 def refreshhistory():
-'''public int refreshhistory()
-'''
-pass
+    '''    public int refreshhistory()
+    '''

@@ -1,36 +1,27 @@
 def TAMITDpaHwm():
-'''public TAMITDpaHwm(final MboSet ms)
-'''
-pass
+    '''    public TAMITDpaHwm(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def validateDuplicateKey():
-'''public void validateDuplicateKey()
-'''
-pass
+    '''    public void validateDuplicateKey()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def getDpaSoftwareListWhereClause():
-'''public String getDpaSoftwareListWhereClause()
-'''
-pass
+    '''    public String getDpaSoftwareListWhereClause()
+    '''
 def validateKey():
-'''public void validateKey(final String attrKeyID, final String attrKeyName)
-'''
-pass
+    '''    public void validateKey(final String attrKeyID, final String attrKeyName)
+    '''

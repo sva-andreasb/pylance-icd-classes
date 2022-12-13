@@ -1,157 +1,119 @@
 def PurchView():
-'''public PurchView(final MboSet ms)
-'''
-pass
+    '''    public PurchView(final MboSet ms)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def copyPOLinesToCurrentContract():
-'''public void copyPOLinesToCurrentContract(final MboSetRemote sourcePOLineSet)
-'''
-pass
+    '''    public void copyPOLinesToCurrentContract(final MboSetRemote sourcePOLineSet)
+    '''
 def copyPRLinesToCurrentContract():
-'''public void copyPRLinesToCurrentContract(final MboSetRemote sourcePRLineSet)
-'''
-pass
+    '''    public void copyPRLinesToCurrentContract(final MboSetRemote sourcePRLineSet)
+    '''
 def copyPRLineToContract():
-'''public MboRemote copyPRLineToContract(final MboRemote sourcePRLine, final MboSetRemote contractLineSetRemote)
-'''
-pass
+    '''    public MboRemote copyPRLineToContract(final MboRemote sourcePRLine, final MboSetRemote contractLineSetRemote)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def createRelease():
-'''public MboRemote createRelease(final MboSetRemote contractLineSetRemote)
-public MboRemote createRelease(final String ponum, final MboSetRemote contractLineSetRemote)
-public MboRemote createRelease(final String ponum, final MboSetRemote contractLineSetRemote, final String siteID)
-'''
-pass
+    '''    public MboRemote createRelease(final MboSetRemote contractLineSetRemote)
+    public MboRemote createRelease(final String ponum, final MboSetRemote contractLineSetRemote)
+    public MboRemote createRelease(final String ponum, final MboSetRemote contractLineSetRemote, final String siteID)
+    '''
 def createReleaseHeaderAndLines():
-'''public MboRemote createReleaseHeaderAndLines(final MboSetRemote contractLineSetRemote)
-public MboRemote createReleaseHeaderAndLines(final MboSetRemote contractLineSetRemote, final String siteID)
-'''
-pass
+    '''    public MboRemote createReleaseHeaderAndLines(final MboSetRemote contractLineSetRemote)
+    public MboRemote createReleaseHeaderAndLines(final MboSetRemote contractLineSetRemote, final String siteID)
+    '''
 def copySelectedLinesToRelease():
-'''public void copySelectedLinesToRelease(final MboRemote releasePOHeader, final Vector selectedMbos)
-'''
-pass
+    '''    public void copySelectedLinesToRelease(final MboRemote releasePOHeader, final Vector selectedMbos)
+    '''
 def canCreateRelease():
-'''public void canCreateRelease()
-'''
-pass
+    '''    public void canCreateRelease()
+    '''
 def canCreateRFQ():
-'''public void canCreateRFQ()
-'''
-pass
+    '''    public void canCreateRFQ()
+    '''
 def createPOHeader():
-'''public MboRemote createPOHeader()
-public MboRemote createPOHeader(final String siteID)
-'''
-pass
+    '''    public MboRemote createPOHeader()
+    public MboRemote createPOHeader(final String siteID)
+    '''
 def copyPurchContractValuesToPOHeader():
-'''public void copyPurchContractValuesToPOHeader(final MboRemote poHeaderRemote)
-public void copyPurchContractValuesToPOHeader(final MboRemote poHeaderRemote, final String siteID)
-'''
-pass
+    '''    public void copyPurchContractValuesToPOHeader(final MboRemote poHeaderRemote)
+    public void copyPurchContractValuesToPOHeader(final MboRemote poHeaderRemote, final String siteID)
+    '''
 def applyPriceAdjustment():
-'''public void applyPriceAdjustment(final MboSetRemote contractLineSetRemote)
-'''
-pass
+    '''    public void applyPriceAdjustment(final MboSetRemote contractLineSetRemote)
+    '''
 def createRFQ():
-'''public MboRemote createRFQ(final MboSetRemote contractLineSetRemote)
-'''
-pass
+    '''    public MboRemote createRFQ(final MboSetRemote contractLineSetRemote)
+    '''
 def nullVendor():
-'''public void nullVendor()
-'''
-pass
+    '''    public void nullVendor()
+    '''
 def canChangeLineStatus():
-'''public void canChangeLineStatus()
-'''
-pass
+    '''    public void canChangeLineStatus()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def getUnCommittedReleases():
-'''public double getUnCommittedReleases()
-'''
-pass
+    '''    public double getUnCommittedReleases()
+    '''
 def getCommittedReleases():
-'''public double getCommittedReleases()
-'''
-pass
+    '''    public double getCommittedReleases()
+    '''
 def getUnCommitedCost():
-'''public double getUnCommitedCost()
-'''
-pass
+    '''    public double getUnCommitedCost()
+    '''
 def getAmountOnOrder():
-'''public double getAmountOnOrder()
-'''
-pass
+    '''    public double getAmountOnOrder()
+    '''
 def getInvoiceVariance():
-'''public double getInvoiceVariance()
-'''
-pass
+    '''    public double getInvoiceVariance()
+    '''
 def getAmountReceived():
-'''public double getAmountReceived()
-'''
-pass
+    '''    public double getAmountReceived()
+    '''
 def canViewRelCost():
-'''public void canViewRelCost()
-'''
-pass
+    '''    public void canViewRelCost()
+    '''
 def createSWLic():
-'''public void createSWLic()
-'''
-pass
+    '''    public void createSWLic()
+    '''
 def deleteSWLic():
-'''public void deleteSWLic()
-'''
-pass
+    '''    public void deleteSWLic()
+    '''
 def canCreateSWLic():
-'''public void canCreateSWLic()
-'''
-pass
+    '''    public void canCreateSWLic()
+    '''
 def copyPersonsToNamedUsers():
-'''public void copyPersonsToNamedUsers(final MboSetRemote personSetRemote)
-'''
-pass
+    '''    public void copyPersonsToNamedUsers(final MboSetRemote personSetRemote)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def removeContractReferencesFromPR():
-'''public void removeContractReferencesFromPR()
-'''
-pass
+    '''    public void removeContractReferencesFromPR()
+    '''
 def removeContractReferencesFromRFQ():
-'''public void removeContractReferencesFromRFQ()
-'''
-pass
+    '''    public void removeContractReferencesFromRFQ()
+    '''
 def applyPriceToLines():
-'''public void applyPriceToLines()
-'''
-pass
+    '''    public void applyPriceToLines()
+    '''
 def getPOCurrency():
-'''public void getPOCurrency(final String[] statuses)
-'''
-pass
+    '''    public void getPOCurrency(final String[] statuses)
+    '''
 def getSqlLineOrLoadedCost():
-'''public void getSqlLineOrLoadedCost()
-'''
-pass
+    '''    public void getSqlLineOrLoadedCost()
+    '''

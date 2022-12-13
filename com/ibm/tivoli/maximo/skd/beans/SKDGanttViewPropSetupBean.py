@@ -1,8 +1,6 @@
 def modified():
-'''public int modified()
-'''
-pass
+    '''    public int modified()
+    '''
 def apply():
-'''public int apply()
-'''
-pass
+    '''    public int apply()
+    '''

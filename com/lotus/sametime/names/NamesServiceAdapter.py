@@ -1,8 +1,6 @@
 def nameChanged():
-'''public void nameChanged(final NamesEvent namesEvent)
-'''
-pass
+    '''    public void nameChanged(final NamesEvent namesEvent)
+    '''
 def nameDelimiterChanged():
-'''public void nameDelimiterChanged(final NamesEvent namesEvent)
-'''
-pass
+    '''    public void nameDelimiterChanged(final NamesEvent namesEvent)
+    '''

@@ -1,4 +1,3 @@
 def register():
-'''public int register()
-'''
-pass
+    '''    public int register()
+    '''

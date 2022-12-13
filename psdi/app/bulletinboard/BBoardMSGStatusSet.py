@@ -1,4 +1,3 @@
 def BBoardMSGStatusSet():
-'''public BBoardMSGStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BBoardMSGStatusSet(final MboServerInterface ms)
+    '''

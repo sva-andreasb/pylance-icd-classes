@@ -1,8 +1,6 @@
 def DeployedMeterSet():
-'''public DeployedMeterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DeployedMeterSet(final MboServerInterface ms)
+    '''
 def resetMeters():
-'''public void resetMeters()
-'''
-pass
+    '''    public void resetMeters()
+    '''

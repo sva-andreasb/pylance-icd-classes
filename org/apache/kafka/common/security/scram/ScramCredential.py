@@ -1,20 +1,15 @@
 def ScramCredential():
-'''public ScramCredential(final byte[] salt, final byte[] storedKey, final byte[] serverKey, final int iterations)
-'''
-pass
+    '''    public ScramCredential(final byte[] salt, final byte[] storedKey, final byte[] serverKey, final int iterations)
+    '''
 def salt():
-'''public byte[] salt()
-'''
-pass
+    '''    public byte[] salt()
+    '''
 def serverKey():
-'''public byte[] serverKey()
-'''
-pass
+    '''    public byte[] serverKey()
+    '''
 def storedKey():
-'''public byte[] storedKey()
-'''
-pass
+    '''    public byte[] storedKey()
+    '''
 def iterations():
-'''public int iterations()
-'''
-pass
+    '''    public int iterations()
+    '''

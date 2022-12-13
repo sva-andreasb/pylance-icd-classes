@@ -1,8 +1,6 @@
 def OSRecordTouchedSet():
-'''public OSRecordTouchedSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OSRecordTouchedSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

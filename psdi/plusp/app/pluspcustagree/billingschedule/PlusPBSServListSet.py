@@ -1,4 +1,3 @@
 def PlusPBSServListSet():
-'''public PlusPBSServListSet(final MboServerInterface mboServerInterface)
-'''
-pass
+    '''    public PlusPBSServListSet(final MboServerInterface mboServerInterface)
+    '''

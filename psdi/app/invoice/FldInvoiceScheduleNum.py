@@ -1,4 +1,3 @@
 def FldInvoiceScheduleNum():
-'''public FldInvoiceScheduleNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceScheduleNum(final MboValue mbv)
+    '''

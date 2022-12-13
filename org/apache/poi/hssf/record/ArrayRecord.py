@@ -1,30 +1,23 @@
 sid = "short  545"
 def ArrayRecord():
-'''public ArrayRecord(final RecordInputStream in)
-public ArrayRecord(final Formula formula, final CellRangeAddress8Bit range)
-'''
-pass
+    '''    public ArrayRecord(final RecordInputStream in)
+    public ArrayRecord(final Formula formula, final CellRangeAddress8Bit range)
+    '''
 def isAlwaysRecalculate():
-'''public boolean isAlwaysRecalculate()
-'''
-pass
+    '''    public boolean isAlwaysRecalculate()
+    '''
 def isCalculateOnOpen():
-'''public boolean isCalculateOnOpen()
-'''
-pass
+    '''    public boolean isCalculateOnOpen()
+    '''
 def getFormulaTokens():
-'''public Ptg[] getFormulaTokens()
-'''
-pass
+    '''    public Ptg[] getFormulaTokens()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public ArrayRecord clone()
-'''
-pass
+    '''    public ArrayRecord clone()
+    '''

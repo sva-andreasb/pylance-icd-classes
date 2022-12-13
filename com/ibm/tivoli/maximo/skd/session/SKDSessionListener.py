@@ -1,8 +1,6 @@
 def sessionCreated():
-'''public void sessionCreated(final HttpSessionEvent event)
-'''
-pass
+    '''    public void sessionCreated(final HttpSessionEvent event)
+    '''
 def sessionDestroyed():
-'''public void sessionDestroyed(final HttpSessionEvent event)
-'''
-pass
+    '''    public void sessionDestroyed(final HttpSessionEvent event)
+    '''

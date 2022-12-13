@@ -1,8 +1,6 @@
 def FldMeasurePointMeasureUnitId():
-'''public FldMeasurePointMeasureUnitId(final MboValue mbv)
-'''
-pass
+    '''    public FldMeasurePointMeasureUnitId(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,12 +1,9 @@
 def PlusPAgreeSalesOrders():
-'''public PlusPAgreeSalesOrders(final MboSet ms)
-'''
-pass
+    '''    public PlusPAgreeSalesOrders(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def calculateTotals():
-'''public void calculateTotals()
-'''
-pass
+    '''    public void calculateTotals()
+    '''

@@ -1,8 +1,6 @@
 def DERNull():
-'''public DERNull()
-'''
-pass
+    '''    public DERNull()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

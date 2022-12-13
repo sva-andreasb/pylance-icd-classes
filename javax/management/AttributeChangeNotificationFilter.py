@@ -1,24 +1,18 @@
 def AttributeChangeNotificationFilter():
-'''public AttributeChangeNotificationFilter()
-'''
-pass
+    '''    public AttributeChangeNotificationFilter()
+    '''
 def disableAllAttributes():
-'''public synchronized void disableAllAttributes()
-'''
-pass
+    '''    public synchronized void disableAllAttributes()
+    '''
 def disableAttribute():
-'''public synchronized void disableAttribute(final String obj)
-'''
-pass
+    '''    public synchronized void disableAttribute(final String obj)
+    '''
 def enableAttribute():
-'''public synchronized void enableAttribute(final String s)
-'''
-pass
+    '''    public synchronized void enableAttribute(final String s)
+    '''
 def getEnabledAttributes():
-'''public synchronized Vector getEnabledAttributes()
-'''
-pass
+    '''    public synchronized Vector getEnabledAttributes()
+    '''
 def isNotificationEnabled():
-'''public synchronized boolean isNotificationEnabled(final Notification notification)
-'''
-pass
+    '''    public synchronized boolean isNotificationEnabled(final Notification notification)
+    '''

@@ -1,4 +1,3 @@
 def FldLaborStoreLocation():
-'''public FldLaborStoreLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborStoreLocation(final MboValue mbv)
+    '''

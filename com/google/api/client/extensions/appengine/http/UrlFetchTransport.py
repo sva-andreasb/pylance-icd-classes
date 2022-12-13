@@ -1,36 +1,27 @@
 def UrlFetchTransport():
-'''public UrlFetchTransport()
-'''
-pass
+    '''    public UrlFetchTransport()
+    '''
 def getDefaultInstance():
-'''public static UrlFetchTransport getDefaultInstance()
-'''
-pass
+    '''    public static UrlFetchTransport getDefaultInstance()
+    '''
 def supportsMethod():
-'''public boolean supportsMethod(final String method)
-'''
-pass
+    '''    public boolean supportsMethod(final String method)
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def doNotValidateCertificate():
-'''public Builder doNotValidateCertificate()
-'''
-pass
+    '''    public Builder doNotValidateCertificate()
+    '''
 def validateCertificate():
-'''public Builder validateCertificate()
-'''
-pass
+    '''    public Builder validateCertificate()
+    '''
 def getValidateCertificate():
-'''public boolean getValidateCertificate()
-'''
-pass
+    '''    public boolean getValidateCertificate()
+    '''
 def getDoNotValidateCertificate():
-'''public boolean getDoNotValidateCertificate()
-'''
-pass
+    '''    public boolean getDoNotValidateCertificate()
+    '''
 def build():
-'''public UrlFetchTransport build()
-'''
-pass
+    '''    public UrlFetchTransport build()
+    '''

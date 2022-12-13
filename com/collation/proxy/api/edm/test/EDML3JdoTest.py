@@ -1,16 +1,12 @@
 def EDML3JdoTest():
-'''public EDML3JdoTest(final String testName)
-'''
-pass
+    '''    public EDML3JdoTest(final String testName)
+    '''
 def testDataView1():
-'''public void testDataView1()
-'''
-pass
+    '''    public void testDataView1()
+    '''
 def testDataView2():
-'''public void testDataView2()
-'''
-pass
+    '''    public void testDataView2()
+    '''
 def testDataView3():
-'''public void testDataView3()
-'''
-pass
+    '''    public void testDataView3()
+    '''

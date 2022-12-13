@@ -1,16 +1,12 @@
 def AssocContInputSet():
-'''public AssocContInputSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssocContInputSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def appsSigOptionAccessAuthorized():
-'''public void appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String orgId)
-'''
-pass
+    '''    public void appsSigOptionAccessAuthorized(final String objName, final String sigoption, final String orgId)
+    '''

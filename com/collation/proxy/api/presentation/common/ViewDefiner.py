@@ -1,69 +1,53 @@
-SVG = "String  svg""
-GIF = "String  gif""
-JPEG = "String  jpeg""
+SVG = "String  \"svg\""
+GIF = "String  \"gif\""
+JPEG = "String  \"jpeg\""
 def ViewDefiner():
-'''public ViewDefiner(final String imageType, final String viewType, final long zoomLevel, final long version)
-public ViewDefiner(final String imageType, final String viewName, final long version)
-public ViewDefiner(final String viewName, final long version)
-'''
-pass
+    '''    public ViewDefiner(final String imageType, final String viewType, final long zoomLevel, final long version)
+    public ViewDefiner(final String imageType, final String viewName, final long version)
+    public ViewDefiner(final String viewName, final long version)
+    '''
 def getImageType():
-'''public String getImageType()
-'''
-pass
+    '''    public String getImageType()
+    '''
 def setImageType():
-'''public void setImageType(final String imageType)
-'''
-pass
+    '''    public void setImageType(final String imageType)
+    '''
 def getViewName():
-'''public String getViewName()
-'''
-pass
+    '''    public String getViewName()
+    '''
 def setViewName():
-'''public void setViewName(final String viewType)
-'''
-pass
+    '''    public void setViewName(final String viewType)
+    '''
 def getZoomLevel():
-'''public long getZoomLevel()
-'''
-pass
+    '''    public long getZoomLevel()
+    '''
 def setZoomLevel():
-'''public void setZoomLevel(final long zoomLevel)
-'''
-pass
+    '''    public void setZoomLevel(final long zoomLevel)
+    '''
 def getReferringComponentId():
-'''public Guid getReferringComponentId()
-'''
-pass
+    '''    public Guid getReferringComponentId()
+    '''
 def setReferringComponentId():
-'''public void setReferringComponentId(final Guid referringComponentId)
-'''
-pass
+    '''    public void setReferringComponentId(final Guid referringComponentId)
+    '''
 def getVersion():
-'''public long getVersion()
-'''
-pass
+    '''    public long getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final long version)
-'''
-pass
+    '''    public void setVersion(final long version)
+    '''
 def getDomainHostName():
-'''public String getDomainHostName()
-'''
-pass
+    '''    public String getDomainHostName()
+    '''
 def setDomainHostName():
-'''public void setDomainHostName(final String domainHostName)
-'''
-pass
+    '''    public void setDomainHostName(final String domainHostName)
+    '''
 def getDomainPort():
-'''public int getDomainPort()
-'''
-pass
+    '''    public int getDomainPort()
+    '''
 def setDomainPort():
-'''public void setDomainPort(final int domainPort)
-'''
-pass
+    '''    public void setDomainPort(final int domainPort)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

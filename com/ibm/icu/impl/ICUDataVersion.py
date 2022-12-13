@@ -1,12 +1,9 @@
 def isDataOlder():
-'''public static boolean isDataOlder(VersionInfo dataVersionFillin)
-'''
-pass
+    '''    public static boolean isDataOlder(VersionInfo dataVersionFillin)
+    '''
 def isDataModified():
-'''public static boolean isDataModified()
-'''
-pass
+    '''    public static boolean isDataModified()
+    '''
 def getDataVersion():
-'''public static VersionInfo getDataVersion()
-'''
-pass
+    '''    public static VersionInfo getDataVersion()
+    '''

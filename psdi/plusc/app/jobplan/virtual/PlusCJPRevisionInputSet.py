@@ -1,4 +1,3 @@
 def PlusCJPRevisionInputSet():
-'''public PlusCJPRevisionInputSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCJPRevisionInputSet(final MboServerInterface ms)
+    '''

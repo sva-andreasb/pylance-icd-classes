@@ -1,109 +1,82 @@
-COPYRIGHT = "String  IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def DesktopReqAppBean():
-'''public DesktopReqAppBean()
-'''
-pass
+    '''    public DesktopReqAppBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def newrecord():
-'''public int newrecord()
-'''
-pass
+    '''    public int newrecord()
+    '''
 def editdr():
-'''public void editdr()
-'''
-pass
+    '''    public void editdr()
+    '''
 def editdrfromlist():
-'''public void editdrfromlist()
-'''
-pass
+    '''    public void editdrfromlist()
+    '''
 def editdraft():
-'''public int editdraft(final long uid)
-'''
-pass
+    '''    public int editdraft(final long uid)
+    '''
 def createdrfromtmpl():
-'''public void createdrfromtmpl()
-'''
-pass
+    '''    public void createdrfromtmpl()
+    '''
 def createdrfromtmpllist():
-'''public void createdrfromtmpllist()
-'''
-pass
+    '''    public void createdrfromtmpllist()
+    '''
 def createdrfromtemplate():
-'''public int createdrfromtemplate(final PmScCRRemote cr)
-'''
-pass
+    '''    public int createdrfromtemplate(final PmScCRRemote cr)
+    '''
 def viewreqdrftdetails():
-'''public int viewreqdrftdetails()
-'''
-pass
+    '''    public int viewreqdrftdetails()
+    '''
 def viewreqdetails():
-'''public int viewreqdetails()
-'''
-pass
+    '''    public int viewreqdetails()
+    '''
 def gotoshoppingexp():
-'''public int gotoshoppingexp()
-'''
-pass
+    '''    public int gotoshoppingexp()
+    '''
 def gototicketapp():
-'''public int gototicketapp()
-'''
-pass
+    '''    public int gototicketapp()
+    '''
 def viewallcarts():
-'''public int viewallcarts()
-'''
-pass
+    '''    public int viewallcarts()
+    '''
 def viewdraftdetails():
-'''public int viewdraftdetails()
-'''
-pass
+    '''    public int viewdraftdetails()
+    '''
 def submitQuickOrder():
-'''public void submitQuickOrder()
-'''
-pass
+    '''    public void submitQuickOrder()
+    '''
 def submit():
-'''public void submit()
-'''
-pass
+    '''    public void submit()
+    '''
 def checkSRs():
-'''public void checkSRs(final PmScCRRemote cr)
-'''
-pass
+    '''    public void checkSRs(final PmScCRRemote cr)
+    '''
 def submit0():
-'''public void submit0(PmScCRRemote cr)
-'''
-pass
+    '''    public void submit0(PmScCRRemote cr)
+    '''
 def fakesave():
-'''public void fakesave()
-'''
-pass
+    '''    public void fakesave()
+    '''
 def saveCRChanges():
-'''public void saveCRChanges()
-'''
-pass
+    '''    public void saveCRChanges()
+    '''
 def nexttabvalidate():
-'''public int nexttabvalidate()
-'''
-pass
+    '''    public int nexttabvalidate()
+    '''
 def newtemplate():
-'''public int newtemplate()
-'''
-pass
+    '''    public int newtemplate()
+    '''
 def updtemplate():
-'''public int updtemplate()
-'''
-pass
+    '''    public int updtemplate()
+    '''
 def createtemplate():
-'''public int createtemplate()
-'''
-pass
+    '''    public int createtemplate()
+    '''
 def emptyCart():
-'''public void emptyCart()
-'''
-pass
+    '''    public void emptyCart()
+    '''

@@ -1,24 +1,18 @@
 def NodeHashIndex():
-'''public NodeHashIndex(final Node first)
-'''
-pass
+    '''    public NodeHashIndex(final Node first)
+    '''
 def getNodeCount():
-'''public int getNodeCount()
-'''
-pass
+    '''    public int getNodeCount()
+    '''
 def getGlossCollectionCount():
-'''public int getGlossCollectionCount()
-'''
-pass
+    '''    public int getGlossCollectionCount()
+    '''
 def write_nodes():
-'''public void write_nodes(final DataOutput dataOutput, final int n)
-'''
-pass
+    '''    public void write_nodes(final DataOutput dataOutput, final int n)
+    '''
 def write_gloss_header():
-'''public int write_gloss_header(final DataOutput dataOutput, final GlossMapper glossMapper)
-'''
-pass
+    '''    public int write_gloss_header(final DataOutput dataOutput, final GlossMapper glossMapper)
+    '''
 def newHash():
-'''public static int newHash(int n)
-'''
-pass
+    '''    public static int newHash(int n)
+    '''

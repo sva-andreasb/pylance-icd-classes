@@ -1,17 +1,13 @@
 def MapTipAttributeTreeBean():
-'''public MapTipAttributeTreeBean()
-public MapTipAttributeTreeBean(final String templateFld)
-'''
-pass
+    '''    public MapTipAttributeTreeBean()
+    public MapTipAttributeTreeBean(final String templateFld)
+    '''
 def getTreeControlObjectName():
-'''public String getTreeControlObjectName()
-'''
-pass
+    '''    public String getTreeControlObjectName()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

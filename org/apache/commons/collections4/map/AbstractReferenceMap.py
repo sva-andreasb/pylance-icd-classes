@@ -1,113 +1,88 @@
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def get():
-'''public V get(final Object key)
-'''
-pass
+    '''    public V get(final Object key)
+    '''
 def put():
-'''public V put(final K key, final V value)
-'''
-pass
+    '''    public V put(final K key, final V value)
+    '''
 def remove():
-'''public V remove(final Object key)
-public void remove()
-'''
-pass
+    '''    public V remove(final Object key)
+    public void remove()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def mapIterator():
-'''public MapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public MapIterator<K, V> mapIterator()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def resolve():
-'''public static ReferenceStrength resolve(final int value)
-'''
-pass
+    '''    public static ReferenceStrength resolve(final int value)
+    '''
 def toArray():
-'''public Object[] toArray()
-public <T> T[] toArray(final T[] arr)
-public Object[] toArray()
-public <T> T[] toArray(final T[] arr)
-public Object[] toArray()
-public <T> T[] toArray(final T[] arr)
-'''
-pass
+    '''    public Object[] toArray()
+    public <T> T[] toArray(final T[] arr)
+    public Object[] toArray()
+    public <T> T[] toArray(final T[] arr)
+    public Object[] toArray()
+    public <T> T[] toArray(final T[] arr)
+    '''
 def ReferenceEntry():
-'''public ReferenceEntry(final AbstractReferenceMap<K, V> parent, final HashEntry<K, V> next, final int hashCode, final K key, final V value)
-'''
-pass
+    '''    public ReferenceEntry(final AbstractReferenceMap<K, V> parent, final HashEntry<K, V> next, final int hashCode, final K key, final V value)
+    '''
 def getKey():
-'''public K getKey()
-public K getKey()
-'''
-pass
+    '''    public K getKey()
+    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-public V getValue()
-'''
-pass
+    '''    public V getValue()
+    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V obj)
-public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V obj)
+    public V setValue(final V value)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    '''
 def ReferenceBaseIterator():
-'''public ReferenceBaseIterator(final AbstractReferenceMap<K, V> parent)
-'''
-pass
+    '''    public ReferenceBaseIterator(final AbstractReferenceMap<K, V> parent)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def ReferenceEntrySetIterator():
-'''public ReferenceEntrySetIterator(final AbstractReferenceMap<K, V> parent)
-'''
-pass
+    '''    public ReferenceEntrySetIterator(final AbstractReferenceMap<K, V> parent)
+    '''
 def next():
-'''public K next()
-public V next()
-public K next()
-'''
-pass
+    '''    public K next()
+    public V next()
+    public K next()
+    '''
 def SoftRef():
-'''public SoftRef(final int hash, final T r, final ReferenceQueue<? super T> q)
-'''
-pass
+    '''    public SoftRef(final int hash, final T r, final ReferenceQueue<? super T> q)
+    '''
 def WeakRef():
-'''public WeakRef(final int hash, final T r, final ReferenceQueue<? super T> q)
-'''
-pass
+    '''    public WeakRef(final int hash, final T r, final ReferenceQueue<? super T> q)
+    '''

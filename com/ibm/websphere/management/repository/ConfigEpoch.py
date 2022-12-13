@@ -1,24 +1,18 @@
 def ConfigEpoch():
-'''public ConfigEpoch()
-'''
-pass
+    '''    public ConfigEpoch()
+    '''
 def update():
-'''public void update()
-'''
-pass
+    '''    public void update()
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def compareTo():
-'''public int compareTo(final Object obj)
-'''
-pass
+    '''    public int compareTo(final Object obj)
+    '''

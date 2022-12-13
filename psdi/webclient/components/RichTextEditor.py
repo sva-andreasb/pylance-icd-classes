@@ -1,12 +1,9 @@
 def getPlugins():
-'''public String getPlugins()
-'''
-pass
+    '''    public String getPlugins()
+    '''
 def getExtraPlugins():
-'''public String getExtraPlugins()
-'''
-pass
+    '''    public String getExtraPlugins()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''

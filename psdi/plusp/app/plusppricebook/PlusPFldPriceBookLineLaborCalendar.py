@@ -1,8 +1,6 @@
 def PlusPFldPriceBookLineLaborCalendar():
-'''public PlusPFldPriceBookLineLaborCalendar(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceBookLineLaborCalendar(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

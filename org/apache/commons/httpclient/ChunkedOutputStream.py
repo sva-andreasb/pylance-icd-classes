@@ -1,23 +1,18 @@
 def ChunkedOutputStream():
-'''public ChunkedOutputStream(final OutputStream stream, final int bufferSize)
-public ChunkedOutputStream(final OutputStream stream)
-'''
-pass
+    '''    public ChunkedOutputStream(final OutputStream stream, final int bufferSize)
+    public ChunkedOutputStream(final OutputStream stream)
+    '''
 def finish():
-'''public void finish()
-'''
-pass
+    '''    public void finish()
+    '''
 def write():
-'''public void write(final int b)
-public void write(final byte[] b)
-public void write(final byte[] src, final int off, final int len)
-'''
-pass
+    '''    public void write(final int b)
+    public void write(final byte[] b)
+    public void write(final byte[] src, final int off, final int len)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

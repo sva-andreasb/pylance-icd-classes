@@ -1,24 +1,18 @@
 def StatusLine():
-'''public StatusLine(final String statusLine)
-'''
-pass
+    '''    public StatusLine(final String statusLine)
+    '''
 def getStatusCode():
-'''public final int getStatusCode()
-'''
-pass
+    '''    public final int getStatusCode()
+    '''
 def getHttpVersion():
-'''public final String getHttpVersion()
-'''
-pass
+    '''    public final String getHttpVersion()
+    '''
 def getReasonPhrase():
-'''public final String getReasonPhrase()
-'''
-pass
+    '''    public final String getReasonPhrase()
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def startsWithHTTP():
-'''public static boolean startsWithHTTP(final String s)
-'''
-pass
+    '''    public static boolean startsWithHTTP(final String s)
+    '''

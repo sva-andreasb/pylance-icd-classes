@@ -1,32 +1,24 @@
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def saveYesNoCheck():
-'''public boolean saveYesNoCheck()
-'''
-pass
+    '''    public boolean saveYesNoCheck()
+    '''
 def APPLYPS():
-'''public int APPLYPS()
-'''
-pass
+    '''    public int APPLYPS()
+    '''
 def VIEWCOSTPR():
-'''public int VIEWCOSTPR()
-'''
-pass
+    '''    public int VIEWCOSTPR()
+    '''
 def PLUSPQUOTE():
-'''public int PLUSPQUOTE()
-'''
-pass
+    '''    public int PLUSPQUOTE()
+    '''
 def undoQuoteChanges():
-'''public int undoQuoteChanges()
-'''
-pass
+    '''    public int undoQuoteChanges()
+    '''
 def MODIFYPS():
-'''public int MODIFYPS()
-'''
-pass
+    '''    public int MODIFYPS()
+    '''
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''

@@ -1,8 +1,6 @@
 def BudgetGen():
-'''public BudgetGen(final MboSet ms)
-'''
-pass
+    '''    public BudgetGen(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

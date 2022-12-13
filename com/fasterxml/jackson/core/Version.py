@@ -1,61 +1,46 @@
 def Version():
-'''public Version(final int major, final int minor, final int patchLevel, final String snapshotInfo)
-public Version(final int major, final int minor, final int patchLevel, final String snapshotInfo, final String groupId, final String artifactId)
-'''
-pass
+    '''    public Version(final int major, final int minor, final int patchLevel, final String snapshotInfo)
+    public Version(final int major, final int minor, final int patchLevel, final String snapshotInfo, final String groupId, final String artifactId)
+    '''
 def unknownVersion():
-'''public static Version unknownVersion()
-'''
-pass
+    '''    public static Version unknownVersion()
+    '''
 def isUnknownVersion():
-'''public boolean isUnknownVersion()
-'''
-pass
+    '''    public boolean isUnknownVersion()
+    '''
 def isSnapshot():
-'''public boolean isSnapshot()
-'''
-pass
+    '''    public boolean isSnapshot()
+    '''
 def isUknownVersion():
-'''public boolean isUknownVersion()
-'''
-pass
+    '''    public boolean isUknownVersion()
+    '''
 def getMajorVersion():
-'''public int getMajorVersion()
-'''
-pass
+    '''    public int getMajorVersion()
+    '''
 def getMinorVersion():
-'''public int getMinorVersion()
-'''
-pass
+    '''    public int getMinorVersion()
+    '''
 def getPatchLevel():
-'''public int getPatchLevel()
-'''
-pass
+    '''    public int getPatchLevel()
+    '''
 def getGroupId():
-'''public String getGroupId()
-'''
-pass
+    '''    public String getGroupId()
+    '''
 def getArtifactId():
-'''public String getArtifactId()
-'''
-pass
+    '''    public String getArtifactId()
+    '''
 def toFullString():
-'''public String toFullString()
-'''
-pass
+    '''    public String toFullString()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def compareTo():
-'''public int compareTo(final Version other)
-'''
-pass
+    '''    public int compareTo(final Version other)
+    '''

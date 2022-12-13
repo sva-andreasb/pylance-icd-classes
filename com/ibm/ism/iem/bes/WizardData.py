@@ -1,32 +1,24 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def getDataStore():
-'''public String getDataStore()
-'''
-pass
+    '''    public String getDataStore()
+    '''
 def setDataStore():
-'''public void setDataStore(final String value)
-'''
-pass
+    '''    public void setDataStore(final String value)
+    '''
 def getStartURL():
-'''public String getStartURL()
-'''
-pass
+    '''    public String getStartURL()
+    '''
 def setStartURL():
-'''public void setStartURL(final String value)
-'''
-pass
+    '''    public void setStartURL(final String value)
+    '''
 def getSkipUI():
-'''public String getSkipUI()
-'''
-pass
+    '''    public String getSkipUI()
+    '''
 def setSkipUI():
-'''public void setSkipUI(final String value)
-'''
-pass
+    '''    public void setSkipUI(final String value)
+    '''

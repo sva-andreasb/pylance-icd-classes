@@ -1,38 +1,29 @@
 def getInstance():
-'''public static DateTimeComparator getInstance()
-public static DateTimeComparator getInstance(final DateTimeFieldType dateTimeFieldType)
-public static DateTimeComparator getInstance(final DateTimeFieldType dateTimeFieldType, final DateTimeFieldType dateTimeFieldType2)
-'''
-pass
+    '''    public static DateTimeComparator getInstance()
+    public static DateTimeComparator getInstance(final DateTimeFieldType dateTimeFieldType)
+    public static DateTimeComparator getInstance(final DateTimeFieldType dateTimeFieldType, final DateTimeFieldType dateTimeFieldType2)
+    '''
 def getDateOnlyInstance():
-'''public static DateTimeComparator getDateOnlyInstance()
-'''
-pass
+    '''    public static DateTimeComparator getDateOnlyInstance()
+    '''
 def getTimeOnlyInstance():
-'''public static DateTimeComparator getTimeOnlyInstance()
-'''
-pass
+    '''    public static DateTimeComparator getTimeOnlyInstance()
+    '''
 def getLowerLimit():
-'''public DateTimeFieldType getLowerLimit()
-'''
-pass
+    '''    public DateTimeFieldType getLowerLimit()
+    '''
 def getUpperLimit():
-'''public DateTimeFieldType getUpperLimit()
-'''
-pass
+    '''    public DateTimeFieldType getUpperLimit()
+    '''
 def compare():
-'''public int compare(final Object o, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o, final Object o2)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

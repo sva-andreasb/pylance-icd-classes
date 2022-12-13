@@ -1,8 +1,6 @@
 def FldLicReceiptLicenseNum():
-'''public FldLicReceiptLicenseNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLicReceiptLicenseNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

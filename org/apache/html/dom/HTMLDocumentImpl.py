@@ -1,117 +1,88 @@
 def HTMLDocumentImpl():
-'''public HTMLDocumentImpl()
-'''
-pass
+    '''    public HTMLDocumentImpl()
+    '''
 def getDocumentElement():
-'''public synchronized Element getDocumentElement()
-'''
-pass
+    '''    public synchronized Element getDocumentElement()
+    '''
 def getHead():
-'''public synchronized HTMLElement getHead()
-'''
-pass
+    '''    public synchronized HTMLElement getHead()
+    '''
 def getTitle():
-'''public synchronized String getTitle()
-'''
-pass
+    '''    public synchronized String getTitle()
+    '''
 def setTitle():
-'''public synchronized void setTitle(final String s)
-'''
-pass
+    '''    public synchronized void setTitle(final String s)
+    '''
 def getBody():
-'''public synchronized HTMLElement getBody()
-'''
-pass
+    '''    public synchronized HTMLElement getBody()
+    '''
 def setBody():
-'''public synchronized void setBody(final HTMLElement htmlElement)
-'''
-pass
+    '''    public synchronized void setBody(final HTMLElement htmlElement)
+    '''
 def getElementById():
-'''public synchronized Element getElementById(final String s)
-'''
-pass
+    '''    public synchronized Element getElementById(final String s)
+    '''
 def getElementsByName():
-'''public NodeList getElementsByName(final String s)
-'''
-pass
+    '''    public NodeList getElementsByName(final String s)
+    '''
 def getElementsByTagName():
-'''public final NodeList getElementsByTagName(final String s)
-'''
-pass
+    '''    public final NodeList getElementsByTagName(final String s)
+    '''
 def getElementsByTagNameNS():
-'''public final NodeList getElementsByTagNameNS(final String s, final String s2)
-'''
-pass
+    '''    public final NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''
 def createElementNS():
-'''public Element createElementNS(final String s, final String s2, final String s3)
-public Element createElementNS(final String s, final String s2)
-'''
-pass
+    '''    public Element createElementNS(final String s, final String s2, final String s3)
+    public Element createElementNS(final String s, final String s2)
+    '''
 def createElement():
-'''public Element createElement(String upperCase)
-'''
-pass
+    '''    public Element createElement(String upperCase)
+    '''
 def createAttribute():
-'''public Attr createAttribute(final String s)
-'''
-pass
+    '''    public Attr createAttribute(final String s)
+    '''
 def getReferrer():
-'''public String getReferrer()
-'''
-pass
+    '''    public String getReferrer()
+    '''
 def getDomain():
-'''public String getDomain()
-'''
-pass
+    '''    public String getDomain()
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def getCookie():
-'''public String getCookie()
-'''
-pass
+    '''    public String getCookie()
+    '''
 def setCookie():
-'''public void setCookie(final String s)
-'''
-pass
+    '''    public void setCookie(final String s)
+    '''
 def getImages():
-'''public HTMLCollection getImages()
-'''
-pass
+    '''    public HTMLCollection getImages()
+    '''
 def getApplets():
-'''public HTMLCollection getApplets()
-'''
-pass
+    '''    public HTMLCollection getApplets()
+    '''
 def getLinks():
-'''public HTMLCollection getLinks()
-'''
-pass
+    '''    public HTMLCollection getLinks()
+    '''
 def getForms():
-'''public HTMLCollection getForms()
-'''
-pass
+    '''    public HTMLCollection getForms()
+    '''
 def getAnchors():
-'''public HTMLCollection getAnchors()
-'''
-pass
+    '''    public HTMLCollection getAnchors()
+    '''
 def open():
-'''public void open()
-'''
-pass
+    '''    public void open()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def write():
-'''public void write(final String str)
-'''
-pass
+    '''    public void write(final String str)
+    '''
 def writeln():
-'''public void writeln(final String str)
-'''
-pass
+    '''    public void writeln(final String str)
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''

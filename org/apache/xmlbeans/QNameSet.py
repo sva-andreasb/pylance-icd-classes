@@ -1,72 +1,54 @@
 def forSets():
-'''public static QNameSet forSets(final Set excludedURIs, final Set includedURIs, final Set excludedQNamesInIncludedURIs, final Set includedQNamesInExcludedURIs)
-'''
-pass
+    '''    public static QNameSet forSets(final Set excludedURIs, final Set includedURIs, final Set excludedQNamesInIncludedURIs, final Set includedQNamesInExcludedURIs)
+    '''
 def forArray():
-'''public static QNameSet forArray(final QName[] includedQNames)
-'''
-pass
+    '''    public static QNameSet forArray(final QName[] includedQNames)
+    '''
 def forSpecification():
-'''public static QNameSet forSpecification(final QNameSetSpecification spec)
-'''
-pass
+    '''    public static QNameSet forSpecification(final QNameSetSpecification spec)
+    '''
 def forWildcardNamespaceString():
-'''public static QNameSet forWildcardNamespaceString(final String wildcard, final String targetURI)
-'''
-pass
+    '''    public static QNameSet forWildcardNamespaceString(final String wildcard, final String targetURI)
+    '''
 def singleton():
-'''public static QNameSet singleton(final QName name)
-'''
-pass
+    '''    public static QNameSet singleton(final QName name)
+    '''
 def contains():
-'''public boolean contains(final QName name)
-'''
-pass
+    '''    public boolean contains(final QName name)
+    '''
 def isAll():
-'''public boolean isAll()
-'''
-pass
+    '''    public boolean isAll()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def intersect():
-'''public QNameSet intersect(final QNameSetSpecification set)
-'''
-pass
+    '''    public QNameSet intersect(final QNameSetSpecification set)
+    '''
 def union():
-'''public QNameSet union(final QNameSetSpecification set)
-'''
-pass
+    '''    public QNameSet union(final QNameSetSpecification set)
+    '''
 def inverse():
-'''public QNameSet inverse()
-'''
-pass
+    '''    public QNameSet inverse()
+    '''
 def containsAll():
-'''public boolean containsAll(final QNameSetSpecification set)
-'''
-pass
+    '''    public boolean containsAll(final QNameSetSpecification set)
+    '''
 def isDisjoint():
-'''public boolean isDisjoint(final QNameSetSpecification set)
-'''
-pass
+    '''    public boolean isDisjoint(final QNameSetSpecification set)
+    '''
 def excludedURIs():
-'''public Set excludedURIs()
-'''
-pass
+    '''    public Set excludedURIs()
+    '''
 def includedURIs():
-'''public Set includedURIs()
-'''
-pass
+    '''    public Set includedURIs()
+    '''
 def excludedQNamesInIncludedURIs():
-'''public Set excludedQNamesInIncludedURIs()
-'''
-pass
+    '''    public Set excludedQNamesInIncludedURIs()
+    '''
 def includedQNamesInExcludedURIs():
-'''public Set includedQNamesInExcludedURIs()
-'''
-pass
+    '''    public Set includedQNamesInExcludedURIs()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

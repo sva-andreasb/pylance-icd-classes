@@ -1,12 +1,9 @@
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def request():
-'''public Message request(final Message message)
-'''
-pass
+    '''    public Message request(final Message message)
+    '''
 def TopicRequestor():
-'''public TopicRequestor(final TopicSession session, final Topic topic)
-'''
-pass
+    '''    public TopicRequestor(final TopicSession session, final Topic topic)
+    '''

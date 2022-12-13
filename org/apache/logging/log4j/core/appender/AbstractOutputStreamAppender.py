@@ -1,48 +1,36 @@
 def getImmediateFlush():
-'''public boolean getImmediateFlush()
-'''
-pass
+    '''    public boolean getImmediateFlush()
+    '''
 def getManager():
-'''public M getManager()
-'''
-pass
+    '''    public M getManager()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public boolean stop(final long timeout, final TimeUnit timeUnit)
-'''
-pass
+    '''    public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''
 def append():
-'''public void append(final LogEvent event)
-'''
-pass
+    '''    public void append(final LogEvent event)
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def getBufferSize():
-'''public int getBufferSize()
-'''
-pass
+    '''    public int getBufferSize()
+    '''
 def isBufferedIo():
-'''public boolean isBufferedIo()
-'''
-pass
+    '''    public boolean isBufferedIo()
+    '''
 def isImmediateFlush():
-'''public boolean isImmediateFlush()
-'''
-pass
+    '''    public boolean isImmediateFlush()
+    '''
 def withImmediateFlush():
-'''public B withImmediateFlush(final boolean immediateFlush)
-'''
-pass
+    '''    public B withImmediateFlush(final boolean immediateFlush)
+    '''
 def withBufferedIo():
-'''public B withBufferedIo(final boolean bufferedIo)
-'''
-pass
+    '''    public B withBufferedIo(final boolean bufferedIo)
+    '''
 def withBufferSize():
-'''public B withBufferSize(final int bufferSize)
-'''
-pass
+    '''    public B withBufferSize(final int bufferSize)
+    '''

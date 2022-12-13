@@ -1,35 +1,27 @@
-NAMESPACE = "String  urn:xmpp:time""
-ELEMENT = "String  time""
+NAMESPACE = "String  \"urn:xmpp:time\""
+ELEMENT = "String  \"time\""
 def Time():
-'''public Time()
-public Time(final Calendar cal)
-'''
-pass
+    '''    public Time()
+    public Time(final Calendar cal)
+    '''
 def getTime():
-'''public Date getTime()
-'''
-pass
+    '''    public Date getTime()
+    '''
 def setTime():
-'''public void setTime(final Date time)
-'''
-pass
+    '''    public void setTime(final Date time)
+    '''
 def getUtc():
-'''public String getUtc()
-'''
-pass
+    '''    public String getUtc()
+    '''
 def setUtc():
-'''public void setUtc(final String utc)
-'''
-pass
+    '''    public void setUtc(final String utc)
+    '''
 def getTzo():
-'''public String getTzo()
-'''
-pass
+    '''    public String getTzo()
+    '''
 def setTzo():
-'''public void setTzo(final String tzo)
-'''
-pass
+    '''    public void setTzo(final String tzo)
+    '''
 def createResponse():
-'''public static Time createResponse(final IQ request)
-'''
-pass
+    '''    public static Time createResponse(final IQ request)
+    '''

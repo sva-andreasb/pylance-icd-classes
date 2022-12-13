@@ -1,117 +1,88 @@
 def getProviderName():
-'''public String getProviderName()
-'''
-pass
+    '''    public String getProviderName()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getPluginVersion():
-'''public IlvPluginVersion getPluginVersion()
-'''
-pass
+    '''    public IlvPluginVersion getPluginVersion()
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def setApplication():
-'''public void setApplication(final IlvApplication n)
-'''
-pass
+    '''    public void setApplication(final IlvApplication n)
+    '''
 def getApplication():
-'''public IlvApplication getApplication()
-'''
-pass
+    '''    public IlvApplication getApplication()
+    '''
 def getDirectory():
-'''public File getDirectory()
-'''
-pass
+    '''    public File getDirectory()
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getNameKey():
-'''public String getNameKey()
-'''
-pass
+    '''    public String getNameKey()
+    '''
 def getClassLoaders():
-'''public ClassLoader[] getClassLoaders()
-'''
-pass
+    '''    public ClassLoader[] getClassLoaders()
+    '''
 def getURLResolver():
-'''public IlvURLResolver getURLResolver()
-'''
-pass
+    '''    public IlvURLResolver getURLResolver()
+    '''
 def getResourceBundle():
-'''public ResourceBundle getResourceBundle()
-'''
-pass
+    '''    public ResourceBundle getResourceBundle()
+    '''
 def getPropertyFileCount():
-'''public int getPropertyFileCount()
-'''
-pass
+    '''    public int getPropertyFileCount()
+    '''
 def getPropertyFile():
-'''public String getPropertyFile(final int n)
-'''
-pass
+    '''    public String getPropertyFile(final int n)
+    '''
 def getClassLoader():
-'''public ClassLoader getClassLoader()
-'''
-pass
+    '''    public ClassLoader getClassLoader()
+    '''
 def isInstalled():
-'''public boolean isInstalled()
-'''
-pass
+    '''    public boolean isInstalled()
+    '''
 def getPlugin():
-'''public IlvPlugin getPlugin(final String s)
-public IlvPlugin getPlugin(final int n)
-'''
-pass
+    '''    public IlvPlugin getPlugin(final String s)
+    public IlvPlugin getPlugin(final int n)
+    '''
 def getPlugins():
-'''public IlvPlugin[] getPlugins()
-'''
-pass
+    '''    public IlvPlugin[] getPlugins()
+    '''
 def getPluginCount():
-'''public int getPluginCount()
-'''
-pass
+    '''    public int getPluginCount()
+    '''
 def getSettingsManager():
-'''public IlvSettingsManager getSettingsManager()
-'''
-pass
+    '''    public IlvSettingsManager getSettingsManager()
+    '''
 def getParentPlugin():
-'''public IlvPlugin getParentPlugin()
-'''
-pass
+    '''    public IlvPlugin getParentPlugin()
+    '''
 def getDependentPluginCount():
-'''public int getDependentPluginCount()
-'''
-pass
+    '''    public int getDependentPluginCount()
+    '''
 def getDependentPlugin():
-'''public IlvPlugin getDependentPlugin(final int index)
-'''
-pass
+    '''    public IlvPlugin getDependentPlugin(final int index)
+    '''
 def getInstallMode():
-'''public String getInstallMode()
-'''
-pass
+    '''    public String getInstallMode()
+    '''
 def getInstaller():
-'''public IlvPluginInstaller getInstaller()
-'''
-pass
+    '''    public IlvPluginInstaller getInstaller()
+    '''
 def getSettingsElement():
-'''public IlvSettingsElement getSettingsElement()
-'''
-pass
+    '''    public IlvSettingsElement getSettingsElement()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getPluginManager():
-'''public IlvPluginManager getPluginManager()
-'''
-pass
+    '''    public IlvPluginManager getPluginManager()
+    '''

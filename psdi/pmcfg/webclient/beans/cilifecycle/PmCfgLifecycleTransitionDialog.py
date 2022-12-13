@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def structureChangedEvent():
-'''public synchronized void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void structureChangedEvent(final DataBean speaker)
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

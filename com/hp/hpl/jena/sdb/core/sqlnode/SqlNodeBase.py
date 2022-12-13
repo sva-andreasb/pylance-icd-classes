@@ -1,97 +1,73 @@
 def SqlNodeBase():
-'''public SqlNodeBase(final String aliasName)
-'''
-pass
+    '''    public SqlNodeBase(final String aliasName)
+    '''
 def isJoin():
-'''public boolean isJoin()
-'''
-pass
+    '''    public boolean isJoin()
+    '''
 def isInnerJoin():
-'''public boolean isInnerJoin()
-'''
-pass
+    '''    public boolean isInnerJoin()
+    '''
 def isLeftJoin():
-'''public boolean isLeftJoin()
-'''
-pass
+    '''    public boolean isLeftJoin()
+    '''
 def asJoin():
-'''public SqlJoin asJoin()
-'''
-pass
+    '''    public SqlJoin asJoin()
+    '''
 def asLeftJoin():
-'''public SqlJoinLeftOuter asLeftJoin()
-'''
-pass
+    '''    public SqlJoinLeftOuter asLeftJoin()
+    '''
 def asInnerJoin():
-'''public SqlJoinInner asInnerJoin()
-'''
-pass
+    '''    public SqlJoinInner asInnerJoin()
+    '''
 def isRestrict():
-'''public boolean isRestrict()
-'''
-pass
+    '''    public boolean isRestrict()
+    '''
 def asRestrict():
-'''public SqlRestrict asRestrict()
-'''
-pass
+    '''    public SqlRestrict asRestrict()
+    '''
 def isProject():
-'''public boolean isProject()
-'''
-pass
+    '''    public boolean isProject()
+    '''
 def asProject():
-'''public SqlProject asProject()
-'''
-pass
+    '''    public SqlProject asProject()
+    '''
 def isDistinct():
-'''public boolean isDistinct()
-'''
-pass
+    '''    public boolean isDistinct()
+    '''
 def asDistinct():
-'''public SqlDistinct asDistinct()
-'''
-pass
+    '''    public SqlDistinct asDistinct()
+    '''
 def isCoalesce():
-'''public boolean isCoalesce()
-'''
-pass
+    '''    public boolean isCoalesce()
+    '''
 def asCoalesce():
-'''public SqlCoalesce asCoalesce()
-'''
-pass
+    '''    public SqlCoalesce asCoalesce()
+    '''
 def isTable():
-'''public boolean isTable()
-'''
-pass
+    '''    public boolean isTable()
+    '''
 def asTable():
-'''public SqlTable asTable()
-'''
-pass
+    '''    public SqlTable asTable()
+    '''
 def isSelectBlock():
-'''public boolean isSelectBlock()
-'''
-pass
+    '''    public boolean isSelectBlock()
+    '''
 def asSelectBlock():
-'''public SqlSelectBlock asSelectBlock()
-'''
-pass
+    '''    public SqlSelectBlock asSelectBlock()
+    '''
 def output():
-'''public void output(final IndentedWriter out)
-public void output(final IndentedWriter out, final boolean withAnnotations)
-'''
-pass
+    '''    public void output(final IndentedWriter out)
+    public void output(final IndentedWriter out, final boolean withAnnotations)
+    '''
 def usesColumn():
-'''public boolean usesColumn(final SqlColumn c)
-'''
-pass
+    '''    public boolean usesColumn(final SqlColumn c)
+    '''
 def getAliasName():
-'''public final String getAliasName()
-'''
-pass
+    '''    public final String getAliasName()
+    '''
 def tablesInvolved():
-'''public Set<SqlTable> tablesInvolved()
-'''
-pass
+    '''    public Set<SqlTable> tablesInvolved()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

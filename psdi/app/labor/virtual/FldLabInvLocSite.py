@@ -1,8 +1,6 @@
 def FldLabInvLocSite():
-'''public FldLabInvLocSite(final MboValue mbv)
-'''
-pass
+    '''    public FldLabInvLocSite(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

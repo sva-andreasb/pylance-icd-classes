@@ -1,112 +1,87 @@
 def LDAPAttribute():
-'''public LDAPAttribute()
-public LDAPAttribute(final LDAPAttribute ldapAttribute)
-public LDAPAttribute(final String name)
-public LDAPAttribute(final String s, final byte[] array)
-public LDAPAttribute(final String s, final String s2)
-public LDAPAttribute(final String s, final String[] array)
-'''
-pass
+    '''    public LDAPAttribute()
+    public LDAPAttribute(final LDAPAttribute ldapAttribute)
+    public LDAPAttribute(final String name)
+    public LDAPAttribute(final String s, final byte[] array)
+    public LDAPAttribute(final String s, final String s2)
+    public LDAPAttribute(final String s, final String[] array)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def addValue():
-'''public void addValue(final String s)
-public void addValue(final byte[] array)
-'''
-pass
+    '''    public void addValue(final String s)
+    public void addValue(final byte[] array)
+    '''
 def addBase64Value():
-'''public void addBase64Value(final String s)
-public void addBase64Value(final StringBuffer sb, final int n, final int n2)
-public void addBase64Value(final char[] array)
-'''
-pass
+    '''    public void addBase64Value(final String s)
+    public void addBase64Value(final StringBuffer sb, final int n, final int n2)
+    public void addBase64Value(final char[] array)
+    '''
 def addURLValue():
-'''public void addURLValue(final String spec)
-public void addURLValue(final URL url)
-'''
-pass
+    '''    public void addURLValue(final String spec)
+    public void addURLValue(final URL url)
+    '''
 def getByteValues():
-'''public Enumeration getByteValues()
-'''
-pass
+    '''    public Enumeration getByteValues()
+    '''
 def getStringValues():
-'''public Enumeration getStringValues()
-'''
-pass
+    '''    public Enumeration getStringValues()
+    '''
 def getByteValueArray():
-'''public byte[][] getByteValueArray()
-'''
-pass
+    '''    public byte[][] getByteValueArray()
+    '''
 def getStringValueArray():
-'''public String[] getStringValueArray()
-'''
-pass
+    '''    public String[] getStringValueArray()
+    '''
 def getStringValue():
-'''public String getStringValue()
-'''
-pass
+    '''    public String getStringValue()
+    '''
 def getByteValue():
-'''public byte[] getByteValue()
-'''
-pass
+    '''    public byte[] getByteValue()
+    '''
 def getLangSubtype():
-'''public String getLangSubtype()
-'''
-pass
+    '''    public String getLangSubtype()
+    '''
 def getBaseName():
-'''public String getBaseName()
-public static String getBaseName(final String s)
-'''
-pass
+    '''    public String getBaseName()
+    public static String getBaseName(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSubtypes():
-'''public String[] getSubtypes()
-public static String[] getSubtypes(final String str)
-'''
-pass
+    '''    public String[] getSubtypes()
+    public static String[] getSubtypes(final String str)
+    '''
 def hasSubtype():
-'''public boolean hasSubtype(final String anotherString)
-'''
-pass
+    '''    public boolean hasSubtype(final String anotherString)
+    '''
 def hasSubtypes():
-'''public boolean hasSubtypes(final String[] array)
-'''
-pass
+    '''    public boolean hasSubtypes(final String[] array)
+    '''
 def removeValue():
-'''public void removeValue(final String s)
-public void removeValue(final byte[] array)
-'''
-pass
+    '''    public void removeValue(final String s)
+    public void removeValue(final byte[] array)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeDSML():
-'''public void writeDSML(final OutputStream out)
-'''
-pass
+    '''    public void writeDSML(final OutputStream out)
+    '''
 def readDSML():
-'''public static Object readDSML(final InputStream inputStream)
-'''
-pass
+    '''    public static Object readDSML(final InputStream inputStream)
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput objectOutput)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput objectOutput)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput objectInput)
-'''
-pass
+    '''    public void readExternal(final ObjectInput objectInput)
+    '''

@@ -1,12 +1,9 @@
 def FldMosIsDefault():
-'''public FldMosIsDefault(final MboValue mbv)
-'''
-pass
+    '''    public FldMosIsDefault(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getDefaultMbo():
-'''public MboRemote getDefaultMbo()
-'''
-pass
+    '''    public MboRemote getDefaultMbo()
+    '''

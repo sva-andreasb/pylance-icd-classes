@@ -1,108 +1,81 @@
 def ScriptParamInfo():
-'''public ScriptParamInfo(final String name, final String inOutType, final String varSource, final String varSourceType, final long accessFlag, final String literalValueType, final boolean allowOverride)
-'''
-pass
+    '''    public ScriptParamInfo(final String name, final String inOutType, final String varSource, final String varSourceType, final long accessFlag, final String literalValueType, final boolean allowOverride)
+    '''
 def isUsesSelectorExpression():
-'''public boolean isUsesSelectorExpression()
-'''
-pass
+    '''    public boolean isUsesSelectorExpression()
+    '''
 def isAllowOverride():
-'''public boolean isAllowOverride()
-'''
-pass
+    '''    public boolean isAllowOverride()
+    '''
 def isBindingMaxProp():
-'''public boolean isBindingMaxProp()
-'''
-pass
+    '''    public boolean isBindingMaxProp()
+    '''
 def isBindingMaxVar():
-'''public boolean isBindingMaxVar()
-'''
-pass
+    '''    public boolean isBindingMaxVar()
+    '''
 def isBindingMboAttr():
-'''public boolean isBindingMboAttr()
-'''
-pass
+    '''    public boolean isBindingMboAttr()
+    '''
 def isBindingLiteral():
-'''public boolean isBindingLiteral()
-'''
-pass
+    '''    public boolean isBindingLiteral()
+    '''
 def getLiteralValueType():
-'''public String getLiteralValueType()
-'''
-pass
+    '''    public String getLiteralValueType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInoutType():
-'''public String getInoutType()
-'''
-pass
+    '''    public String getInoutType()
+    '''
 def getVarBindingValue():
-'''public String getVarBindingValue()
-'''
-pass
+    '''    public String getVarBindingValue()
+    '''
 def getVarBindingType():
-'''public String getVarBindingType()
-'''
-pass
+    '''    public String getVarBindingType()
+    '''
 def hasVarBindingValue():
-'''public boolean hasVarBindingValue()
-'''
-pass
+    '''    public boolean hasVarBindingValue()
+    '''
 def getAccessFlag():
-'''public long getAccessFlag()
-'''
-pass
+    '''    public long getAccessFlag()
+    '''
 def isArrayType():
-'''public boolean isArrayType()
-'''
-pass
+    '''    public boolean isArrayType()
+    '''
 def getMboRelationPath():
-'''public String getMboRelationPath()
-'''
-pass
+    '''    public String getMboRelationPath()
+    '''
 def isMboAttributeFlag():
-'''public boolean isMboAttributeFlag()
-'''
-pass
+    '''    public boolean isMboAttributeFlag()
+    '''
 def getMboAttributeFlagName():
-'''public String getMboAttributeFlagName()
-'''
-pass
+    '''    public String getMboAttributeFlagName()
+    '''
 def getMboAttributeName():
-'''public String getMboAttributeName()
-'''
-pass
+    '''    public String getMboAttributeName()
+    '''
 def getMboAttributeNameLocalPart():
-'''public String getMboAttributeNameLocalPart()
-'''
-pass
+    '''    public String getMboAttributeNameLocalPart()
+    '''
 def isMboAttributeFlagRequired():
-'''public boolean isMboAttributeFlagRequired()
-'''
-pass
+    '''    public boolean isMboAttributeFlagRequired()
+    '''
 def isMboAttributeFlagHidden():
-'''public boolean isMboAttributeFlagHidden()
-'''
-pass
+    '''    public boolean isMboAttributeFlagHidden()
+    '''
 def isMboAttributeFlagReadonly():
-'''public boolean isMboAttributeFlagReadonly()
-'''
-pass
+    '''    public boolean isMboAttributeFlagReadonly()
+    '''
 def isMboAttributeFlagInternal():
-'''public boolean isMboAttributeFlagInternal()
-'''
-pass
+    '''    public boolean isMboAttributeFlagInternal()
+    '''
 def isMboAttributeFlagInitial():
-'''public boolean isMboAttributeFlagInitial()
-'''
-pass
+    '''    public boolean isMboAttributeFlagInitial()
+    '''
 def isMboAttributeFlagPrevious():
-'''public boolean isMboAttributeFlagPrevious()
-'''
-pass
+    '''    public boolean isMboAttributeFlagPrevious()
+    '''
 def isMboAttributeFlagModified():
-'''public boolean isMboAttributeFlagModified()
-'''
-pass
+    '''    public boolean isMboAttributeFlagModified()
+    '''

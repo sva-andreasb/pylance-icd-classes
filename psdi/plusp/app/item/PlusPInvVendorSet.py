@@ -1,4 +1,3 @@
 def PlusPInvVendorSet():
-'''public PlusPInvVendorSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPInvVendorSet(final MboServerInterface arg0)
+    '''

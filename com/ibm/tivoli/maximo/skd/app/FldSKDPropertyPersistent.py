@@ -1,8 +1,6 @@
 def FldSKDPropertyPersistent():
-'''public FldSKDPropertyPersistent(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDPropertyPersistent(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

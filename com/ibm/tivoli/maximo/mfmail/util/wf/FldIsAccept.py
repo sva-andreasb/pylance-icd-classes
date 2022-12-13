@@ -1,12 +1,9 @@
 def FldIsAccept():
-'''public FldIsAccept(final MboValue mbv)
-'''
-pass
+    '''    public FldIsAccept(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

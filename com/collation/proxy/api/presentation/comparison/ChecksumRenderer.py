@@ -1,46 +1,35 @@
-START = "String  <html><font color='blue'><u>""
-END = "String  </u></font></html>""
+START = "String  \"<html><font color='blue'><u>\""
+END = "String  \"</u></font></html>\""
 def ChecksumRenderer():
-'''public ChecksumRenderer()
-'''
-pass
+    '''    public ChecksumRenderer()
+    '''
 def setValuesForCompare():
-'''public void setValuesForCompare(final Object obj, final BlobCompareResults compareResults, final int column, final long version, final String fieldName)
-'''
-pass
+    '''    public void setValuesForCompare(final Object obj, final BlobCompareResults compareResults, final int column, final long version, final String fieldName)
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getObj():
-'''public Object getObj()
-'''
-pass
+    '''    public Object getObj()
+    '''
 def getCompareResults():
-'''public BlobCompareResults getCompareResults()
-'''
-pass
+    '''    public BlobCompareResults getCompareResults()
+    '''
 def getVersion():
-'''public long getVersion()
-'''
-pass
+    '''    public long getVersion()
+    '''
 def getFirstDisplayName():
-'''public String getFirstDisplayName()
-'''
-pass
+    '''    public String getFirstDisplayName()
+    '''
 def getSecondDisplayName():
-'''public String getSecondDisplayName()
-'''
-pass
+    '''    public String getSecondDisplayName()
+    '''
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def getColumn():
-'''public int getColumn()
-'''
-pass
+    '''    public int getColumn()
+    '''

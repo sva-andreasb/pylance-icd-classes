@@ -1,4 +1,3 @@
 def javaEncoding():
-'''public static String javaEncoding(final String encoding)
-'''
-pass
+    '''    public static String javaEncoding(final String encoding)
+    '''

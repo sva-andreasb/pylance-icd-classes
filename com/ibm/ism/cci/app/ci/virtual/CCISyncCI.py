@@ -1,16 +1,12 @@
 def CCISyncCI():
-'''public CCISyncCI(final MboSet ms)
-'''
-pass
+    '''    public CCISyncCI(final MboSet ms)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def disableHierarchyChoices():
-'''public void disableHierarchyChoices()
-'''
-pass
+    '''    public void disableHierarchyChoices()
+    '''
 def getSynchronizationOptions():
-'''public long getSynchronizationOptions()
-'''
-pass
+    '''    public long getSynchronizationOptions()
+    '''

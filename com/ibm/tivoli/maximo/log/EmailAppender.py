@@ -1,12 +1,9 @@
 def EmailAppender():
-'''public EmailAppender(final UserInfo userInfo)
-'''
-pass
+    '''    public EmailAppender(final UserInfo userInfo)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def requiresLayout():
-'''public boolean requiresLayout()
-'''
-pass
+    '''    public boolean requiresLayout()
+    '''

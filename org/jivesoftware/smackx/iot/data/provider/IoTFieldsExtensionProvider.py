@@ -1,12 +1,9 @@
 def parse():
-'''public IoTFieldsExtension parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public IoTFieldsExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''
 def parseNode():
-'''public NodeElement parseNode(final XmlPullParser parser)
-'''
-pass
+    '''    public NodeElement parseNode(final XmlPullParser parser)
+    '''
 def parseTimestampElement():
-'''public TimestampElement parseTimestampElement(final XmlPullParser parser)
-'''
-pass
+    '''    public TimestampElement parseTimestampElement(final XmlPullParser parser)
+    '''

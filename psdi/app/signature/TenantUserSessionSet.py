@@ -1,28 +1,21 @@
 def TenantUserSessionSet():
-'''public TenantUserSessionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TenantUserSessionSet(final MboServerInterface ms)
+    '''
 def count():
-'''public int count(final int countConstant)
-'''
-pass
+    '''    public int count(final int countConstant)
+    '''
 def sum():
-'''public double sum(final String attributeName)
-'''
-pass
+    '''    public double sum(final String attributeName)
+    '''
 def getMbo():
-'''public synchronized MboRemote getMbo(final int row)
-'''
-pass
+    '''    public synchronized MboRemote getMbo(final int row)
+    '''
 def setTenant():
-'''public void setTenant(final int id)
-'''
-pass
+    '''    public void setTenant(final int id)
+    '''
 def setLandlordInfo():
-'''public void setLandlordInfo(final UserInfo landlord)
-'''
-pass
+    '''    public void setLandlordInfo(final UserInfo landlord)
+    '''
 def getLandlordInfo():
-'''public UserInfo getLandlordInfo()
-'''
-pass
+    '''    public UserInfo getLandlordInfo()
+    '''

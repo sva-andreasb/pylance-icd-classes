@@ -1,4 +1,3 @@
 def AssetZeroCostsSet():
-'''public AssetZeroCostsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetZeroCostsSet(final MboServerInterface ms)
+    '''

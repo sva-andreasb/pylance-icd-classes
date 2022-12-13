@@ -1,12 +1,9 @@
 def ReportDialogDetSet():
-'''public ReportDialogDetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportDialogDetSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

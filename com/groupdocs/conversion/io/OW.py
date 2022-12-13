@@ -1,4 +1,3 @@
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''

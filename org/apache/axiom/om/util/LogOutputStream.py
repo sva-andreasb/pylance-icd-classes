@@ -1,22 +1,17 @@
 def LogOutputStream():
-'''public LogOutputStream(final Log log, final int limit)
-'''
-pass
+    '''    public LogOutputStream(final Log log, final int limit)
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def write():
-'''public void write(final byte[] b, final int off, int len)
-public void write(final byte[] b)
-public void write(final int b)
-'''
-pass
+    '''    public void write(final byte[] b, final int off, int len)
+    public void write(final byte[] b)
+    public void write(final int b)
+    '''

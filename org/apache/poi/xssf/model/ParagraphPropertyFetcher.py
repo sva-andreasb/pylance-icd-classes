@@ -1,16 +1,12 @@
 def getValue():
-'''public T getValue()
-'''
-pass
+    '''    public T getValue()
+    '''
 def setValue():
-'''public void setValue(final T val)
-'''
-pass
+    '''    public void setValue(final T val)
+    '''
 def ParagraphPropertyFetcher():
-'''public ParagraphPropertyFetcher(final int level)
-'''
-pass
+    '''    public ParagraphPropertyFetcher(final int level)
+    '''
 def fetch():
-'''public boolean fetch(final CTShape shape)
-'''
-pass
+    '''    public boolean fetch(final CTShape shape)
+    '''

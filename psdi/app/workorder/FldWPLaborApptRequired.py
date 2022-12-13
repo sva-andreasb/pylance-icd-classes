@@ -1,8 +1,6 @@
 def FldWPLaborApptRequired():
-'''public FldWPLaborApptRequired(final MboValue mbv)
-'''
-pass
+    '''    public FldWPLaborApptRequired(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

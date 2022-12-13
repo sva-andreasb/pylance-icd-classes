@@ -1,8 +1,6 @@
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def setValue():
-'''public synchronized void setValue(final int nRow, final String attribute, final String value)
-'''
-pass
+    '''    public synchronized void setValue(final int nRow, final String attribute, final String value)
+    '''

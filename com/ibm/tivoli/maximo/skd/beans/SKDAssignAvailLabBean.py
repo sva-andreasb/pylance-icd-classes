@@ -1,12 +1,9 @@
 def SKDAssignAvailLabBean():
-'''public SKDAssignAvailLabBean()
-'''
-pass
+    '''    public SKDAssignAvailLabBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

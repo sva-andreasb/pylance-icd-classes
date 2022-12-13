@@ -1,17 +1,13 @@
 def PrefixLines():
-'''public PrefixLines()
-public PrefixLines(final Reader in)
-'''
-pass
+    '''    public PrefixLines()
+    public PrefixLines(final Reader in)
+    '''
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def chain():
-'''public Reader chain(final Reader rdr)
-'''
-pass
+    '''    public Reader chain(final Reader rdr)
+    '''

@@ -1,16 +1,12 @@
 def HeaderHeightChangedEvent():
-'''public HeaderHeightChangedEvent(final Component source, final int a, final int b)
-'''
-pass
+    '''    public HeaderHeightChangedEvent(final Component source, final int a, final int b)
+    '''
 def getHeader():
-'''public Component getHeader()
-'''
-pass
+    '''    public Component getHeader()
+    '''
 def getOldHeight():
-'''public int getOldHeight()
-'''
-pass
+    '''    public int getOldHeight()
+    '''
 def getNewHeight():
-'''public int getNewHeight()
-'''
-pass
+    '''    public int getNewHeight()
+    '''

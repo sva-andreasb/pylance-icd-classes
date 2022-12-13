@@ -1,24 +1,18 @@
 def onReset():
-'''public void onReset()
-'''
-pass
+    '''    public void onReset()
+    '''
 def updateSource():
-'''public void updateSource(@MXEventParam("source") final String source)
-'''
-pass
+    '''    public void updateSource(@MXEventParam("source") final String source)
+    '''
 def getSource():
-'''public JSONObject getSource()
-'''
-pass
+    '''    public JSONObject getSource()
+    '''
 def getScriptType():
-'''public JSONObject getScriptType()
-'''
-pass
+    '''    public JSONObject getScriptType()
+    '''
 def getDataAttribute():
-'''public String getDataAttribute()
-'''
-pass
+    '''    public String getDataAttribute()
+    '''
 def getPresentationOptions():
-'''public JSONObject getPresentationOptions()
-'''
-pass
+    '''    public JSONObject getPresentationOptions()
+    '''

@@ -1,44 +1,33 @@
 def MboRelationPath():
-'''public MboRelationPath(final String relationship)
-'''
-pass
+    '''    public MboRelationPath(final String relationship)
+    '''
 def getRelationship():
-'''public String getRelationship()
-'''
-pass
+    '''    public String getRelationship()
+    '''
 def getSpecificMbo():
-'''public Integer getSpecificMbo()
-'''
-pass
+    '''    public Integer getSpecificMbo()
+    '''
 def setSpecificMbo():
-'''public void setSpecificMbo(final Integer specificMbo)
-'''
-pass
+    '''    public void setSpecificMbo(final Integer specificMbo)
+    '''
 def setCondition():
-'''public void setCondition(final String condition)
-'''
-pass
+    '''    public void setCondition(final String condition)
+    '''
 def setWhereFilter():
-'''public void setWhereFilter(final String whereFilter)
-'''
-pass
+    '''    public void setWhereFilter(final String whereFilter)
+    '''
 def getMaxCondition():
-'''public MaxCondition getMaxCondition()
-'''
-pass
+    '''    public MaxCondition getMaxCondition()
+    '''
 def isOnTheFly():
-'''public boolean isOnTheFly()
-'''
-pass
+    '''    public boolean isOnTheFly()
+    '''
 def getOnTheFlySet():
-'''public MboSetRemote getOnTheFlySet(final MboRemote mbo)
-'''
-pass
+    '''    public MboSetRemote getOnTheFlySet(final MboRemote mbo)
+    '''
 def parseRelationshipPath():
-'''public static List<MboRelationPath> parseRelationshipPath(String relationshipChain)
-'''
-pass
+    '''    public static List<MboRelationPath> parseRelationshipPath(String relationshipChain)
+    '''
 def getDiscardable():
-'''public Boolean getDiscardable()
-'''
-pass
+    '''    public Boolean getDiscardable()
+    '''

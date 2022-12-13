@@ -1,12 +1,9 @@
 def extractScheme():
-'''public static String extractScheme(final String challengeStr)
-'''
-pass
+    '''    public static String extractScheme(final String challengeStr)
+    '''
 def extractParams():
-'''public static Map extractParams(final String challengeStr)
-'''
-pass
+    '''    public static Map extractParams(final String challengeStr)
+    '''
 def parseChallenges():
-'''public static Map parseChallenges(final Header[] headers)
-'''
-pass
+    '''    public static Map parseChallenges(final Header[] headers)
+    '''

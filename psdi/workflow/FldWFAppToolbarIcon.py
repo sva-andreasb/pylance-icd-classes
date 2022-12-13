@@ -1,4 +1,3 @@
 def FldWFAppToolbarIcon():
-'''public FldWFAppToolbarIcon(final MboValue mbv)
-'''
-pass
+    '''    public FldWFAppToolbarIcon(final MboValue mbv)
+    '''

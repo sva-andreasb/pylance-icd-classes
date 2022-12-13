@@ -1,44 +1,33 @@
 def DBInfoBean():
-'''public DBInfoBean()
-'''
-pass
+    '''    public DBInfoBean()
+    '''
 def APPLYCFG():
-'''public int APPLYCFG()
-'''
-pass
+    '''    public int APPLYCFG()
+    '''
 def ADMINMODE():
-'''public int ADMINMODE()
-'''
-pass
+    '''    public int ADMINMODE()
+    '''
 def MESSAGES():
-'''public int MESSAGES()
-'''
-pass
+    '''    public int MESSAGES()
+    '''
 def GLCONFIG():
-'''public int GLCONFIG()
-'''
-pass
+    '''    public int GLCONFIG()
+    '''
 def ESIGOPTION():
-'''public int ESIGOPTION()
-'''
-pass
+    '''    public int ESIGOPTION()
+    '''
 def DISCARDCFG():
-'''public int DISCARDCFG()
-'''
-pass
+    '''    public int DISCARDCFG()
+    '''
 def apply_longOp():
-'''public int apply_longOp()
-'''
-pass
+    '''    public int apply_longOp()
+    '''
 def remove_longOp():
-'''public int remove_longOp()
-'''
-pass
+    '''    public int remove_longOp()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

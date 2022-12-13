@@ -1,8 +1,6 @@
 def ESIInvalidatorDriver():
-'''public ESIInvalidatorDriver()
-'''
-pass
+    '''    public ESIInvalidatorDriver()
+    '''
 def sendCommand():
-'''public synchronized String sendCommand()
-'''
-pass
+    '''    public synchronized String sendCommand()
+    '''

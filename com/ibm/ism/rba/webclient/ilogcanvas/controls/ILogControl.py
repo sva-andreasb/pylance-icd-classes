@@ -1,104 +1,78 @@
 def ILogControl():
-'''public ILogControl()
-'''
-pass
+    '''    public ILogControl()
+    '''
 def needsRender():
-'''public boolean needsRender()
-'''
-pass
+    '''    public boolean needsRender()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def getDataChanged():
-'''public boolean getDataChanged()
-'''
-pass
+    '''    public boolean getDataChanged()
+    '''
 def setDataChanged():
-'''public void setDataChanged(final boolean dataChanged)
-'''
-pass
+    '''    public void setDataChanged(final boolean dataChanged)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getAppId():
-'''public String getAppId()
-'''
-pass
+    '''    public String getAppId()
+    '''
 def getUiSessionId():
-'''public String getUiSessionId()
-'''
-pass
+    '''    public String getUiSessionId()
+    '''
 def logJspMessage():
-'''public void logJspMessage(final String msg)
-'''
-pass
+    '''    public void logJspMessage(final String msg)
+    '''
 def checkVisibility():
-'''public int checkVisibility()
-'''
-pass
+    '''    public int checkVisibility()
+    '''
 def getAppletVisible():
-'''public boolean getAppletVisible()
-'''
-pass
+    '''    public boolean getAppletVisible()
+    '''
 def getRefreshVisibility():
-'''public boolean getRefreshVisibility()
-'''
-pass
+    '''    public boolean getRefreshVisibility()
+    '''
 def setRefreshVisibility():
-'''public void setRefreshVisibility(final boolean vis)
-'''
-pass
+    '''    public void setRefreshVisibility(final boolean vis)
+    '''
 def updateapplet():
-'''public int updateapplet()
-'''
-pass
+    '''    public int updateapplet()
+    '''
 def showerror():
-'''public int showerror()
-'''
-pass
+    '''    public int showerror()
+    '''
 def getError():
-'''public String getError()
-'''
-pass
+    '''    public String getError()
+    '''
 def setError():
-'''public void setError(final String error)
-'''
-pass
+    '''    public void setError(final String error)
+    '''
 def getSkinName():
-'''public String getSkinName()
-'''
-pass
+    '''    public String getSkinName()
+    '''
 def bidiPrepareForWrap():
-'''public String bidiPrepareForWrap(final String str)
-'''
-pass
+    '''    public String bidiPrepareForWrap(final String str)
+    '''
 def getAppletLoadingMsg():
-'''public String getAppletLoadingMsg()
-'''
-pass
+    '''    public String getAppletLoadingMsg()
+    '''
 def getAppletLoadingTimeout():
-'''public int getAppletLoadingTimeout()
-'''
-pass
+    '''    public int getAppletLoadingTimeout()
+    '''
 def getProcessId():
-'''public String getProcessId()
-'''
-pass
+    '''    public String getProcessId()
+    '''
 def setProcessId():
-'''public void setProcessId(final String processId)
-'''
-pass
+    '''    public void setProcessId(final String processId)
+    '''
 def getJarsLoaded():
-'''public boolean getJarsLoaded()
-'''
-pass
+    '''    public boolean getJarsLoaded()
+    '''

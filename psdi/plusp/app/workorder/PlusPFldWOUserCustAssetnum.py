@@ -1,8 +1,6 @@
 def PlusPFldWOUserCustAssetnum():
-'''public PlusPFldWOUserCustAssetnum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWOUserCustAssetnum(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

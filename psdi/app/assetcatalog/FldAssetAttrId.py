@@ -1,4 +1,3 @@
 def FldAssetAttrId():
-'''public FldAssetAttrId(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetAttrId(final MboValue mbv)
+    '''

@@ -1,12 +1,9 @@
 def FldAMCTQualPosition():
-'''public FldAMCTQualPosition(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCTQualPosition(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

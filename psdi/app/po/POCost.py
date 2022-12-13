@@ -1,32 +1,24 @@
 def POCost():
-'''public POCost(final MboSet ms)
-'''
-pass
+    '''    public POCost(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def checkPOCostValidity():
-'''public void checkPOCostValidity()
-'''
-pass
+    '''    public void checkPOCostValidity()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def getInternalRevStatus():
-'''public String getInternalRevStatus()
-'''
-pass
+    '''    public String getInternalRevStatus()
+    '''

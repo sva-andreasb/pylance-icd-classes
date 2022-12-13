@@ -1,70 +1,54 @@
 def MutableLong():
-'''public MutableLong()
-public MutableLong(final long value)
-public MutableLong(final Number value)
-public MutableLong(final String value)
-'''
-pass
+    '''    public MutableLong()
+    public MutableLong(final long value)
+    public MutableLong(final Number value)
+    public MutableLong(final String value)
+    '''
 def getValue():
-'''public Long getValue()
-'''
-pass
+    '''    public Long getValue()
+    '''
 def setValue():
-'''public void setValue(final long value)
-public void setValue(final Number value)
-'''
-pass
+    '''    public void setValue(final long value)
+    public void setValue(final Number value)
+    '''
 def increment():
-'''public void increment()
-'''
-pass
+    '''    public void increment()
+    '''
 def decrement():
-'''public void decrement()
-'''
-pass
+    '''    public void decrement()
+    '''
 def add():
-'''public void add(final long operand)
-public void add(final Number operand)
-'''
-pass
+    '''    public void add(final long operand)
+    public void add(final Number operand)
+    '''
 def subtract():
-'''public void subtract(final long operand)
-public void subtract(final Number operand)
-'''
-pass
+    '''    public void subtract(final long operand)
+    public void subtract(final Number operand)
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def longValue():
-'''public long longValue()
-'''
-pass
+    '''    public long longValue()
+    '''
 def floatValue():
-'''public float floatValue()
-'''
-pass
+    '''    public float floatValue()
+    '''
 def doubleValue():
-'''public double doubleValue()
-'''
-pass
+    '''    public double doubleValue()
+    '''
 def toLong():
-'''public Long toLong()
-'''
-pass
+    '''    public Long toLong()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def compareTo():
-'''public int compareTo(final MutableLong other)
-'''
-pass
+    '''    public int compareTo(final MutableLong other)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

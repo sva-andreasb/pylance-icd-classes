@@ -1,38 +1,29 @@
 def BuildEvent():
-'''public BuildEvent(final Project project)
-public BuildEvent(final Target target)
-public BuildEvent(final Task task)
-'''
-pass
+    '''    public BuildEvent(final Project project)
+    public BuildEvent(final Target target)
+    public BuildEvent(final Task task)
+    '''
 def setMessage():
-'''public void setMessage(final String message, final int priority)
-'''
-pass
+    '''    public void setMessage(final String message, final int priority)
+    '''
 def setException():
-'''public void setException(final Throwable exception)
-'''
-pass
+    '''    public void setException(final Throwable exception)
+    '''
 def getProject():
-'''public Project getProject()
-'''
-pass
+    '''    public Project getProject()
+    '''
 def getTarget():
-'''public Target getTarget()
-'''
-pass
+    '''    public Target getTarget()
+    '''
 def getTask():
-'''public Task getTask()
-'''
-pass
+    '''    public Task getTask()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def getException():
-'''public Throwable getException()
-'''
-pass
+    '''    public Throwable getException()
+    '''

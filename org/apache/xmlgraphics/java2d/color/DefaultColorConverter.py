@@ -1,8 +1,6 @@
 def getInstance():
-'''public static DefaultColorConverter getInstance()
-'''
-pass
+    '''    public static DefaultColorConverter getInstance()
+    '''
 def convert():
-'''public Color convert(final Color color)
-'''
-pass
+    '''    public Color convert(final Color color)
+    '''

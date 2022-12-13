@@ -1,25 +1,19 @@
 def LDAPModifyDNRequest():
-'''public LDAPModifyDNRequest()
-public LDAPModifyDNRequest(final String s, final String s2, final String s3, final boolean b, final LDAPControl[] array)
-'''
-pass
+    '''    public LDAPModifyDNRequest()
+    public LDAPModifyDNRequest(final String s, final String s2, final String s3, final boolean b, final LDAPControl[] array)
+    '''
 def getDN():
-'''public String getDN()
-'''
-pass
+    '''    public String getDN()
+    '''
 def getNewRDN():
-'''public String getNewRDN()
-'''
-pass
+    '''    public String getNewRDN()
+    '''
 def getDeleteOldRDN():
-'''public boolean getDeleteOldRDN()
-'''
-pass
+    '''    public boolean getDeleteOldRDN()
+    '''
 def getParentDN():
-'''public String getParentDN()
-'''
-pass
+    '''    public String getParentDN()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

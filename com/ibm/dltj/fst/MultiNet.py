@@ -1,4 +1,4 @@
-COPYRIGHT = "String  \n\n(C) Copyright IBM Corp. 2003, 2007.\n\n""
+COPYRIGHT = "String  \"\n\n(C) Copyright IBM Corp. 2003, 2007.\n\n\""
 SIGNATURE_FST = "int  -1161904401"
 SIGNATURE_INTFST = "int  1766224756"
 SIGNATURE_FOOTER = "int  -84230466"

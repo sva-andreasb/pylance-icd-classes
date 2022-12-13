@@ -1,28 +1,21 @@
 def RunConfigDBBean():
-'''public RunConfigDBBean()
-'''
-pass
+    '''    public RunConfigDBBean()
+    '''
 def configdb_nonstruct_start():
-'''public int configdb_nonstruct_start()
-'''
-pass
+    '''    public int configdb_nonstruct_start()
+    '''
 def configdb_struct_start():
-'''public int configdb_struct_start()
-'''
-pass
+    '''    public int configdb_struct_start()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def refreshStatus():
-'''public int refreshStatus()
-'''
-pass
+    '''    public int refreshStatus()
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(String option)
+    '''

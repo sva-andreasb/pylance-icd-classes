@@ -1,16 +1,12 @@
 def RBAWFInstance():
-'''public RBAWFInstance(final MboSet ms)
-'''
-pass
+    '''    public RBAWFInstance(final MboSet ms)
+    '''
 def copySpecificationParams():
-'''public void copySpecificationParams(final RBAWFProcess processMbo)
-'''
-pass
+    '''    public void copySpecificationParams(final RBAWFProcess processMbo)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def initiateWorkflow():
-'''public void initiateWorkflow(final String memo, final WFProcess wfProcess)
-'''
-pass
+    '''    public void initiateWorkflow(final String memo, final WFProcess wfProcess)
+    '''

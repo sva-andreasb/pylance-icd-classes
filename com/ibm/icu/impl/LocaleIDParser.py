@@ -1,65 +1,49 @@
 def LocaleIDParser():
-'''public LocaleIDParser(final String localeID)
-public LocaleIDParser(final String localeID, final boolean canonicalize)
-'''
-pass
+    '''    public LocaleIDParser(final String localeID)
+    public LocaleIDParser(final String localeID, final boolean canonicalize)
+    '''
 def getLanguage():
-'''public String getLanguage()
-'''
-pass
+    '''    public String getLanguage()
+    '''
 def getScript():
-'''public String getScript()
-'''
-pass
+    '''    public String getScript()
+    '''
 def getCountry():
-'''public String getCountry()
-'''
-pass
+    '''    public String getCountry()
+    '''
 def getVariant():
-'''public String getVariant()
-'''
-pass
+    '''    public String getVariant()
+    '''
 def getLanguageScriptCountryVariant():
-'''public String[] getLanguageScriptCountryVariant()
-'''
-pass
+    '''    public String[] getLanguageScriptCountryVariant()
+    '''
 def setBaseName():
-'''public void setBaseName(final String baseName)
-'''
-pass
+    '''    public void setBaseName(final String baseName)
+    '''
 def parseBaseName():
-'''public void parseBaseName()
-'''
-pass
+    '''    public void parseBaseName()
+    '''
 def getBaseName():
-'''public String getBaseName()
-'''
-pass
+    '''    public String getBaseName()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def compare():
-'''public int compare(final String lhs, final String rhs)
-'''
-pass
+    '''    public int compare(final String lhs, final String rhs)
+    '''
 def getKeywordMap():
-'''public Map<String, String> getKeywordMap()
-'''
-pass
+    '''    public Map<String, String> getKeywordMap()
+    '''
 def getKeywords():
-'''public Iterator<String> getKeywords()
-'''
-pass
+    '''    public Iterator<String> getKeywords()
+    '''
 def getKeywordValue():
-'''public String getKeywordValue(final String keywordName)
-'''
-pass
+    '''    public String getKeywordValue(final String keywordName)
+    '''
 def defaultKeywordValue():
-'''public void defaultKeywordValue(final String keywordName, final String value)
-'''
-pass
+    '''    public void defaultKeywordValue(final String keywordName, final String value)
+    '''
 def setKeywordValue():
-'''public void setKeywordValue(final String keywordName, final String value)
-'''
-pass
+    '''    public void setKeywordValue(final String keywordName, final String value)
+    '''

@@ -1,68 +1,51 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String newName)
-'''
-pass
+    '''    public void setName(final String newName)
+    '''
 def getTargetObject():
-'''public ObjectValue getTargetObject()
-'''
-pass
+    '''    public ObjectValue getTargetObject()
+    '''
 def basicSetTargetObject():
-'''public NotificationChain basicSetTargetObject(final ObjectValue newTargetObject, NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain basicSetTargetObject(final ObjectValue newTargetObject, NotificationChain msgs)
+    '''
 def setTargetObject():
-'''public void setTargetObject(final ObjectValue newTargetObject)
-'''
-pass
+    '''    public void setTargetObject(final ObjectValue newTargetObject)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final String newVersion)
-'''
-pass
+    '''    public void setVersion(final String newVersion)
+    '''
 def getCmdParams():
-'''public EList getCmdParams()
-'''
-pass
+    '''    public EList getCmdParams()
+    '''
 def getUserData():
-'''public UserData getUserData()
-'''
-pass
+    '''    public UserData getUserData()
+    '''
 def basicSetUserData():
-'''public NotificationChain basicSetUserData(final UserData newUserData, NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain basicSetUserData(final UserData newUserData, NotificationChain msgs)
+    '''
 def setUserData():
-'''public void setUserData(final UserData newUserData)
-'''
-pass
+    '''    public void setUserData(final UserData newUserData)
+    '''
 def eInverseRemove():
-'''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

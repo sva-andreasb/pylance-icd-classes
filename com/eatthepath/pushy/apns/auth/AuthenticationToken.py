@@ -1,37 +1,28 @@
 def AuthenticationToken():
-'''public AuthenticationToken(final ApnsSigningKey signingKey, final Instant issuedAt)
-public AuthenticationToken(final String base64EncodedToken)
-'''
-pass
+    '''    public AuthenticationToken(final ApnsSigningKey signingKey, final Instant issuedAt)
+    public AuthenticationToken(final String base64EncodedToken)
+    '''
 def getIssuedAt():
-'''public Instant getIssuedAt()
-'''
-pass
+    '''    public Instant getIssuedAt()
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def getTeamId():
-'''public String getTeamId()
-'''
-pass
+    '''    public String getTeamId()
+    '''
 def verifySignature():
-'''public boolean verifySignature(final ApnsVerificationKey verificationKey)
-'''
-pass
+    '''    public boolean verifySignature(final ApnsVerificationKey verificationKey)
+    '''
 def getAuthorizationHeader():
-'''public AsciiString getAuthorizationHeader()
-'''
-pass
+    '''    public AsciiString getAuthorizationHeader()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

@@ -1,32 +1,24 @@
 def AWS4SignerRequestParams():
-'''public AWS4SignerRequestParams(final SignableRequest<?> request, final Date signingDateOverride, final String regionNameOverride, final String serviceName, final String signingAlgorithm)
-'''
-pass
+    '''    public AWS4SignerRequestParams(final SignableRequest<?> request, final Date signingDateOverride, final String regionNameOverride, final String serviceName, final String signingAlgorithm)
+    '''
 def getScope():
-'''public String getScope()
-'''
-pass
+    '''    public String getScope()
+    '''
 def getFormattedSigningDateTime():
-'''public String getFormattedSigningDateTime()
-'''
-pass
+    '''    public String getFormattedSigningDateTime()
+    '''
 def getSigningDateTimeMilli():
-'''public long getSigningDateTimeMilli()
-'''
-pass
+    '''    public long getSigningDateTimeMilli()
+    '''
 def getRegionName():
-'''public String getRegionName()
-'''
-pass
+    '''    public String getRegionName()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getFormattedSigningDate():
-'''public String getFormattedSigningDate()
-'''
-pass
+    '''    public String getFormattedSigningDate()
+    '''
 def getSigningAlgorithm():
-'''public String getSigningAlgorithm()
-'''
-pass
+    '''    public String getSigningAlgorithm()
+    '''

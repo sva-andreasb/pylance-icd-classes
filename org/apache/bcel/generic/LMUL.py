@@ -1,8 +1,6 @@
 def LMUL():
-'''public LMUL()
-'''
-pass
+    '''    public LMUL()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

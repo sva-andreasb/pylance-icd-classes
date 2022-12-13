@@ -1,2 +1,2 @@
-DRAFT = "String  DRAFT""
-ACTIVE = "String  ACTIVE""
+DRAFT = "String  \"DRAFT\""
+ACTIVE = "String  \"ACTIVE\""

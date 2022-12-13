@@ -1,8 +1,6 @@
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def ObjectSearchSet():
-'''public ObjectSearchSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ObjectSearchSet(final MboServerInterface ms)
+    '''

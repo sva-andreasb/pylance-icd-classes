@@ -1,12 +1,9 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def newProviderInstance():
-'''public Handler newProviderInstance(final WSDDService service, final EngineConfiguration registry)
-'''
-pass
+    '''    public Handler newProviderInstance(final WSDDService service, final EngineConfiguration registry)
+    '''
 def writeToContext():
-'''public void writeToContext(final SerializationContext context)
-'''
-pass
+    '''    public void writeToContext(final SerializationContext context)
+    '''

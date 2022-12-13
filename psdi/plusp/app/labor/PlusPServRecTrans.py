@@ -1,28 +1,21 @@
 def PlusPServRecTrans():
-'''public PlusPServRecTrans(final MboSet arg0)
-'''
-pass
+    '''    public PlusPServRecTrans(final MboSet arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setPriceRecalculated():
-'''public void setPriceRecalculated(final boolean priceRecalculated)
-'''
-pass
+    '''    public void setPriceRecalculated(final boolean priceRecalculated)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def getWorkOrder():
-'''public MboRemote getWorkOrder()
-'''
-pass
+    '''    public MboRemote getWorkOrder()
+    '''

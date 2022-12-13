@@ -1,4 +1,3 @@
 def MIGRATE():
-'''public int MIGRATE()
-'''
-pass
+    '''    public int MIGRATE()
+    '''

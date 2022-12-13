@@ -1,184 +1,139 @@
 def RowTypeImpl():
-'''public RowTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public RowTypeImpl(final SchemaType schemaType)
+    '''
 def getCellList():
-'''public List<CellType> getCellList()
-'''
-pass
+    '''    public List<CellType> getCellList()
+    '''
 def getCellArray():
-'''public CellType[] getCellArray()
-public CellType getCellArray(final int n)
-'''
-pass
+    '''    public CellType[] getCellArray()
+    public CellType getCellArray(final int n)
+    '''
 def sizeOfCellArray():
-'''public int sizeOfCellArray()
-'''
-pass
+    '''    public int sizeOfCellArray()
+    '''
 def setCellArray():
-'''public void setCellArray(final CellType[] array)
-public void setCellArray(final int n, final CellType cellType)
-'''
-pass
+    '''    public void setCellArray(final CellType[] array)
+    public void setCellArray(final int n, final CellType cellType)
+    '''
 def insertNewCell():
-'''public CellType insertNewCell(final int n)
-'''
-pass
+    '''    public CellType insertNewCell(final int n)
+    '''
 def addNewCell():
-'''public CellType addNewCell()
-'''
-pass
+    '''    public CellType addNewCell()
+    '''
 def removeCell():
-'''public void removeCell(final int n)
-'''
-pass
+    '''    public void removeCell(final int n)
+    '''
 def getTriggerList():
-'''public List<TriggerType> getTriggerList()
-'''
-pass
+    '''    public List<TriggerType> getTriggerList()
+    '''
 def getTriggerArray():
-'''public TriggerType[] getTriggerArray()
-public TriggerType getTriggerArray(final int n)
-'''
-pass
+    '''    public TriggerType[] getTriggerArray()
+    public TriggerType getTriggerArray(final int n)
+    '''
 def sizeOfTriggerArray():
-'''public int sizeOfTriggerArray()
-'''
-pass
+    '''    public int sizeOfTriggerArray()
+    '''
 def setTriggerArray():
-'''public void setTriggerArray(final TriggerType[] array)
-public void setTriggerArray(final int n, final TriggerType triggerType)
-'''
-pass
+    '''    public void setTriggerArray(final TriggerType[] array)
+    public void setTriggerArray(final int n, final TriggerType triggerType)
+    '''
 def insertNewTrigger():
-'''public TriggerType insertNewTrigger(final int n)
-'''
-pass
+    '''    public TriggerType insertNewTrigger(final int n)
+    '''
 def addNewTrigger():
-'''public TriggerType addNewTrigger()
-'''
-pass
+    '''    public TriggerType addNewTrigger()
+    '''
 def removeTrigger():
-'''public void removeTrigger(final int n)
-'''
-pass
+    '''    public void removeTrigger(final int n)
+    '''
 def getN():
-'''public String getN()
-'''
-pass
+    '''    public String getN()
+    '''
 def xgetN():
-'''public XmlString xgetN()
-'''
-pass
+    '''    public XmlString xgetN()
+    '''
 def isSetN():
-'''public boolean isSetN()
-'''
-pass
+    '''    public boolean isSetN()
+    '''
 def setN():
-'''public void setN(final String stringValue)
-'''
-pass
+    '''    public void setN(final String stringValue)
+    '''
 def xsetN():
-'''public void xsetN(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetN(final XmlString xmlString)
+    '''
 def unsetN():
-'''public void unsetN()
-'''
-pass
+    '''    public void unsetN()
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def xgetLocalName():
-'''public XmlString xgetLocalName()
-'''
-pass
+    '''    public XmlString xgetLocalName()
+    '''
 def isSetLocalName():
-'''public boolean isSetLocalName()
-'''
-pass
+    '''    public boolean isSetLocalName()
+    '''
 def setLocalName():
-'''public void setLocalName(final String stringValue)
-'''
-pass
+    '''    public void setLocalName(final String stringValue)
+    '''
 def xsetLocalName():
-'''public void xsetLocalName(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetLocalName(final XmlString xmlString)
+    '''
 def unsetLocalName():
-'''public void unsetLocalName()
-'''
-pass
+    '''    public void unsetLocalName()
+    '''
 def getIX():
-'''public long getIX()
-'''
-pass
+    '''    public long getIX()
+    '''
 def xgetIX():
-'''public XmlUnsignedInt xgetIX()
-'''
-pass
+    '''    public XmlUnsignedInt xgetIX()
+    '''
 def isSetIX():
-'''public boolean isSetIX()
-'''
-pass
+    '''    public boolean isSetIX()
+    '''
 def setIX():
-'''public void setIX(final long longValue)
-'''
-pass
+    '''    public void setIX(final long longValue)
+    '''
 def xsetIX():
-'''public void xsetIX(final XmlUnsignedInt xmlUnsignedInt)
-'''
-pass
+    '''    public void xsetIX(final XmlUnsignedInt xmlUnsignedInt)
+    '''
 def unsetIX():
-'''public void unsetIX()
-'''
-pass
+    '''    public void unsetIX()
+    '''
 def getT():
-'''public String getT()
-'''
-pass
+    '''    public String getT()
+    '''
 def xgetT():
-'''public XmlString xgetT()
-'''
-pass
+    '''    public XmlString xgetT()
+    '''
 def isSetT():
-'''public boolean isSetT()
-'''
-pass
+    '''    public boolean isSetT()
+    '''
 def setT():
-'''public void setT(final String stringValue)
-'''
-pass
+    '''    public void setT(final String stringValue)
+    '''
 def xsetT():
-'''public void xsetT(final XmlString xmlString)
-'''
-pass
+    '''    public void xsetT(final XmlString xmlString)
+    '''
 def unsetT():
-'''public void unsetT()
-'''
-pass
+    '''    public void unsetT()
+    '''
 def getDel():
-'''public boolean getDel()
-'''
-pass
+    '''    public boolean getDel()
+    '''
 def xgetDel():
-'''public XmlBoolean xgetDel()
-'''
-pass
+    '''    public XmlBoolean xgetDel()
+    '''
 def isSetDel():
-'''public boolean isSetDel()
-'''
-pass
+    '''    public boolean isSetDel()
+    '''
 def setDel():
-'''public void setDel(final boolean booleanValue)
-'''
-pass
+    '''    public void setDel(final boolean booleanValue)
+    '''
 def xsetDel():
-'''public void xsetDel(final XmlBoolean xmlBoolean)
-'''
-pass
+    '''    public void xsetDel(final XmlBoolean xmlBoolean)
+    '''
 def unsetDel():
-'''public void unsetDel()
-'''
-pass
+    '''    public void unsetDel()
+    '''

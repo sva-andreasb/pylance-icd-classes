@@ -1,12 +1,9 @@
 def ObjectFactory():
-'''public ObjectFactory()
-'''
-pass
+    '''    public ObjectFactory()
+    '''
 def put():
-'''public void put(final String typeName, final Class<? extends T> cls, final Class<?>... varargs)
-'''
-pass
+    '''    public void put(final String typeName, final Class<? extends T> cls, final Class<?>... varargs)
+    '''
 def load():
-'''public T load(final String name, final Object... varargs)
-'''
-pass
+    '''    public T load(final String name, final Object... varargs)
+    '''

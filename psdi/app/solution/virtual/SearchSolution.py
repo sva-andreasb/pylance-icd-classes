@@ -1,8 +1,6 @@
 def SearchSolution():
-'''public SearchSolution(final MboSet ms)
-'''
-pass
+    '''    public SearchSolution(final MboSet ms)
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''

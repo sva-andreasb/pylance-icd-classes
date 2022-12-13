@@ -1,16 +1,12 @@
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def checkCol():
-'''public int checkCol(int col)
-'''
-pass
+    '''    public int checkCol(int col)
+    '''
 def checkMeta():
-'''public void checkMeta()
-'''
-pass
+    '''    public void checkMeta()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

@@ -1,56 +1,42 @@
 def ReconCompRule():
-'''public ReconCompRule(final MboSet ms)
-'''
-pass
+    '''    public ReconCompRule(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def buildAssetFilterExpression():
-'''public void buildAssetFilterExpression()
-'''
-pass
+    '''    public void buildAssetFilterExpression()
+    '''
 def buildDPAFilterExpression():
-'''public void buildDPAFilterExpression()
-'''
-pass
+    '''    public void buildDPAFilterExpression()
+    '''
 def buildMatchesFoundExpression():
-'''public void buildMatchesFoundExpression()
-'''
-pass
+    '''    public void buildMatchesFoundExpression()
+    '''
 def buildAttributesEqualityExpression():
-'''public void buildAttributesEqualityExpression()
-'''
-pass
+    '''    public void buildAttributesEqualityExpression()
+    '''
 def resetRuleNames():
-'''public void resetRuleNames()
-'''
-pass
+    '''    public void resetRuleNames()
+    '''
 def resetRuleName():
-'''public void resetRuleName(final String relationshipName)
-'''
-pass
+    '''    public void resetRuleName(final String relationshipName)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def compAppValidate():
-'''public void compAppValidate()
-'''
-pass
+    '''    public void compAppValidate()
+    '''
 def validateSet():
-'''public void validateSet(final String relationshipName)
-'''
-pass
+    '''    public void validateSet(final String relationshipName)
+    '''

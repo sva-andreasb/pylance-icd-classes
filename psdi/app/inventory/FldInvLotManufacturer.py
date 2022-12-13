@@ -1,8 +1,6 @@
 def FldInvLotManufacturer():
-'''public FldInvLotManufacturer(final MboValue mbv)
-'''
-pass
+    '''    public FldInvLotManufacturer(final MboValue mbv)
+    '''
 def onlyEnabled():
-'''public boolean onlyEnabled()
-'''
-pass
+    '''    public boolean onlyEnabled()
+    '''

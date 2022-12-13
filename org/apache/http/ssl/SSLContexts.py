@@ -1,12 +1,9 @@
 def createDefault():
-'''public static SSLContext createDefault()
-'''
-pass
+    '''    public static SSLContext createDefault()
+    '''
 def createSystemDefault():
-'''public static SSLContext createSystemDefault()
-'''
-pass
+    '''    public static SSLContext createSystemDefault()
+    '''
 def custom():
-'''public static SSLContextBuilder custom()
-'''
-pass
+    '''    public static SSLContextBuilder custom()
+    '''

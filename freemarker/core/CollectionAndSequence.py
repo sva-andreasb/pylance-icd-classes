@@ -1,25 +1,19 @@
 def CollectionAndSequence():
-'''public CollectionAndSequence(final TemplateCollectionModel collection)
-public CollectionAndSequence(final TemplateSequenceModel sequence)
-'''
-pass
+    '''    public CollectionAndSequence(final TemplateCollectionModel collection)
+    public CollectionAndSequence(final TemplateSequenceModel sequence)
+    '''
 def iterator():
-'''public TemplateModelIterator iterator()
-'''
-pass
+    '''    public TemplateModelIterator iterator()
+    '''
 def get():
-'''public TemplateModel get(final int i)
-'''
-pass
+    '''    public TemplateModel get(final int i)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def next():
-'''public TemplateModel next()
-'''
-pass
+    '''    public TemplateModel next()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''

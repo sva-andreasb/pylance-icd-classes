@@ -1,8 +1,6 @@
 def MaxLaunchContextSet():
-'''public MaxLaunchContextSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxLaunchContextSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

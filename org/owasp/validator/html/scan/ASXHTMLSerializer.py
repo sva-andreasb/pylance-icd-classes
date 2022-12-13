@@ -1,8 +1,6 @@
 def ASXHTMLSerializer():
-'''public ASXHTMLSerializer(final Writer w, final OutputFormat format, final InternalPolicy policy)
-'''
-pass
+    '''    public ASXHTMLSerializer(final Writer w, final OutputFormat format, final InternalPolicy policy)
+    '''
 def endElementIO():
-'''public void endElementIO(final String namespaceURI, final String localName, final String rawName)
-'''
-pass
+    '''    public void endElementIO(final String namespaceURI, final String localName, final String rawName)
+    '''

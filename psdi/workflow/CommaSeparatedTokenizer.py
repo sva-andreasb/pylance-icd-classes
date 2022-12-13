@@ -1,12 +1,9 @@
 def CommaSeparatedTokenizer():
-'''public CommaSeparatedTokenizer(final String text)
-'''
-pass
+    '''    public CommaSeparatedTokenizer(final String text)
+    '''
 def hasMoreTokens():
-'''public boolean hasMoreTokens()
-'''
-pass
+    '''    public boolean hasMoreTokens()
+    '''
 def nextToken():
-'''public String nextToken()
-'''
-pass
+    '''    public String nextToken()
+    '''

@@ -1,20 +1,15 @@
 def CheckGroupPrivs():
-'''public CheckGroupPrivs(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
-'''
-pass
+    '''    public CheckGroupPrivs(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
+    '''
 def checkPerConnection():
-'''public void checkPerConnection(final Connection dc, final ValidateLogger vl)
-'''
-pass
+    '''    public void checkPerConnection(final Connection dc, final ValidateLogger vl)
+    '''
 def conditionsCheck():
-'''public boolean conditionsCheck()
-'''
-pass
+    '''    public boolean conditionsCheck()
+    '''
 def getTitle():
-'''public MXException getTitle()
-'''
-pass
+    '''    public MXException getTitle()
+    '''
 def prerequisitesCheck():
-'''public boolean prerequisitesCheck()
-'''
-pass
+    '''    public boolean prerequisitesCheck()
+    '''

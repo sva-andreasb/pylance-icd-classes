@@ -1,36 +1,27 @@
 def BudgetFlag():
-'''public BudgetFlag(final MboSet ms)
-'''
-pass
+    '''    public BudgetFlag(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getTransactionObject():
-'''public String getTransactionObject()
-'''
-pass
+    '''    public String getTransactionObject()
+    '''
 def getTransactionId():
-'''public long getTransactionId()
-'''
-pass
+    '''    public long getTransactionId()
+    '''
 def getTransactionRowstamp():
-'''public String getTransactionRowstamp()
-'''
-pass
+    '''    public String getTransactionRowstamp()
+    '''
 def getRuleId():
-'''public long getRuleId()
-'''
-pass
+    '''    public long getRuleId()
+    '''
 def getBudgetLineId():
-'''public long getBudgetLineId()
-'''
-pass
+    '''    public long getBudgetLineId()
+    '''
 def getTransactionAmount():
-'''public double getTransactionAmount()
-'''
-pass
+    '''    public double getTransactionAmount()
+    '''
 def updateFlag():
-'''public void updateFlag(final double amount, String rowstamp)
-'''
-pass
+    '''    public void updateFlag(final double amount, String rowstamp)
+    '''

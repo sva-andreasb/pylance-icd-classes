@@ -1,8 +1,6 @@
 def CopyPartCallable():
-'''public CopyPartCallable(final AmazonS3 s3, final CopyPartRequest request)
-'''
-pass
+    '''    public CopyPartCallable(final AmazonS3 s3, final CopyPartRequest request)
+    '''
 def call():
-'''public PartETag call()
-'''
-pass
+    '''    public PartETag call()
+    '''

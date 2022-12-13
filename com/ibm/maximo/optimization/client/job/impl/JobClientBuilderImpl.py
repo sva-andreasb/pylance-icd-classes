@@ -1,12 +1,9 @@
 def JobClientBuilderImpl():
-'''public JobClientBuilderImpl(final String baseURL, final String clientid, final String secret)
-'''
-pass
+    '''    public JobClientBuilderImpl(final String baseURL, final String clientid, final String secret)
+    '''
 def http():
-'''public JobClientBuilder http(final CloseableHttpClient httpClient)
-'''
-pass
+    '''    public JobClientBuilder http(final CloseableHttpClient httpClient)
+    '''
 def build():
-'''public JobClientImpl build()
-'''
-pass
+    '''    public JobClientImpl build()
+    '''

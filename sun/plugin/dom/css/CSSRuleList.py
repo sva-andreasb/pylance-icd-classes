@@ -1,12 +1,9 @@
 def CSSRuleList():
-'''public CSSRuleList(final DOMObject obj, final CSSStyleSheet parentStyleSheet, final CSSRule parentRule)
-'''
-pass
+    '''    public CSSRuleList(final DOMObject obj, final CSSStyleSheet parentStyleSheet, final CSSRule parentRule)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def item():
-'''public CSSRule item(final int n)
-'''
-pass
+    '''    public CSSRule item(final int n)
+    '''

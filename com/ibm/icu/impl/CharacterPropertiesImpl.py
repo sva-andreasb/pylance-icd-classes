@@ -1,8 +1,6 @@
 def clear():
-'''public static synchronized void clear()
-'''
-pass
+    '''    public static synchronized void clear()
+    '''
 def getInclusionsForProperty():
-'''public static synchronized UnicodeSet getInclusionsForProperty(final int prop)
-'''
-pass
+    '''    public static synchronized UnicodeSet getInclusionsForProperty(final int prop)
+    '''

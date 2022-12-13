@@ -1,72 +1,55 @@
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def firstKey():
-'''public K firstKey()
-'''
-pass
+    '''    public K firstKey()
+    '''
 def lastKey():
-'''public K lastKey()
-'''
-pass
+    '''    public K lastKey()
+    '''
 def nextKey():
-'''public K nextKey(final Object key)
-'''
-pass
+    '''    public K nextKey(final Object key)
+    '''
 def previousKey():
-'''public K previousKey(final Object key)
-'''
-pass
+    '''    public K previousKey(final Object key)
+    '''
 def mapIterator():
-'''public OrderedMapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public OrderedMapIterator<K, V> mapIterator()
+    '''
 def next():
-'''public K next()
-public K next()
-public V next()
-'''
-pass
+    '''    public K next()
+    public K next()
+    public V next()
+    '''
 def previous():
-'''public K previous()
-public K previous()
-public V previous()
-'''
-pass
+    '''    public K previous()
+    public K previous()
+    public V previous()
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

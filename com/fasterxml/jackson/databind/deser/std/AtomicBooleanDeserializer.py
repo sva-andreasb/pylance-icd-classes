@@ -1,8 +1,6 @@
 def AtomicBooleanDeserializer():
-'''public AtomicBooleanDeserializer()
-'''
-pass
+    '''    public AtomicBooleanDeserializer()
+    '''
 def deserialize():
-'''public AtomicBoolean deserialize(final JsonParser jp, final DeserializationContext ctxt)
-'''
-pass
+    '''    public AtomicBoolean deserialize(final JsonParser jp, final DeserializationContext ctxt)
+    '''

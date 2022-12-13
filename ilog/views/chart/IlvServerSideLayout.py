@@ -1,1 +1,1 @@
-BOUNDS_PROPERTY = "String  _IlvServerSideBounds""
+BOUNDS_PROPERTY = "String  \"_IlvServerSideBounds\""

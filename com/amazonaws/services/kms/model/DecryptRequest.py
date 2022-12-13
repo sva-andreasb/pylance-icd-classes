@@ -1,61 +1,46 @@
 def setCiphertextBlob():
-'''public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
-'''
-pass
+    '''    public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''
 def getCiphertextBlob():
-'''public ByteBuffer getCiphertextBlob()
-'''
-pass
+    '''    public ByteBuffer getCiphertextBlob()
+    '''
 def withCiphertextBlob():
-'''public DecryptRequest withCiphertextBlob(final ByteBuffer ciphertextBlob)
-'''
-pass
+    '''    public DecryptRequest withCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''
 def getEncryptionContext():
-'''public Map<String, String> getEncryptionContext()
-'''
-pass
+    '''    public Map<String, String> getEncryptionContext()
+    '''
 def setEncryptionContext():
-'''public void setEncryptionContext(final Map<String, String> encryptionContext)
-'''
-pass
+    '''    public void setEncryptionContext(final Map<String, String> encryptionContext)
+    '''
 def withEncryptionContext():
-'''public DecryptRequest withEncryptionContext(final Map<String, String> encryptionContext)
-'''
-pass
+    '''    public DecryptRequest withEncryptionContext(final Map<String, String> encryptionContext)
+    '''
 def addEncryptionContextEntry():
-'''public DecryptRequest addEncryptionContextEntry(final String key, final String value)
-'''
-pass
+    '''    public DecryptRequest addEncryptionContextEntry(final String key, final String value)
+    '''
 def clearEncryptionContextEntries():
-'''public DecryptRequest clearEncryptionContextEntries()
-'''
-pass
+    '''    public DecryptRequest clearEncryptionContextEntries()
+    '''
 def getGrantTokens():
-'''public List<String> getGrantTokens()
-'''
-pass
+    '''    public List<String> getGrantTokens()
+    '''
 def setGrantTokens():
-'''public void setGrantTokens(final Collection<String> grantTokens)
-'''
-pass
+    '''    public void setGrantTokens(final Collection<String> grantTokens)
+    '''
 def withGrantTokens():
-'''public DecryptRequest withGrantTokens(final String... grantTokens)
-public DecryptRequest withGrantTokens(final Collection<String> grantTokens)
-'''
-pass
+    '''    public DecryptRequest withGrantTokens(final String... grantTokens)
+    public DecryptRequest withGrantTokens(final Collection<String> grantTokens)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public DecryptRequest clone()
-'''
-pass
+    '''    public DecryptRequest clone()
+    '''

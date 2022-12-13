@@ -1,28 +1,21 @@
 def WorkflowNodeProxy():
-'''public WorkflowNodeProxy(final WorkflowNode node, final boolean copying)
-'''
-pass
+    '''    public WorkflowNodeProxy(final WorkflowNode node, final boolean copying)
+    '''
 def getNode():
-'''public WorkflowNode getNode()
-'''
-pass
+    '''    public WorkflowNode getNode()
+    '''
 def isCopying():
-'''public boolean isCopying()
-'''
-pass
+    '''    public boolean isCopying()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getTransferData():
-'''public Object getTransferData(final DataFlavor flavor)
-'''
-pass
+    '''    public Object getTransferData(final DataFlavor flavor)
+    '''
 def getTransferDataFlavors():
-'''public DataFlavor[] getTransferDataFlavors()
-'''
-pass
+    '''    public DataFlavor[] getTransferDataFlavors()
+    '''
 def isDataFlavorSupported():
-'''public boolean isDataFlavorSupported(final DataFlavor flavor)
-'''
-pass
+    '''    public boolean isDataFlavorSupported(final DataFlavor flavor)
+    '''

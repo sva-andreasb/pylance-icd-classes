@@ -1,8 +1,6 @@
 def FldJobPlanOwnerGroup():
-'''public FldJobPlanOwnerGroup(final MboValue mbv)
-'''
-pass
+    '''    public FldJobPlanOwnerGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

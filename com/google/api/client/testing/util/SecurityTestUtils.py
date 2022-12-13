@@ -1,16 +1,12 @@
 def newEncodedRsaPrivateKeyBytes():
-'''public static byte[] newEncodedRsaPrivateKeyBytes()
-'''
-pass
+    '''    public static byte[] newEncodedRsaPrivateKeyBytes()
+    '''
 def newEncodedRsaPublicKeyBytes():
-'''public static byte[] newEncodedRsaPublicKeyBytes()
-'''
-pass
+    '''    public static byte[] newEncodedRsaPublicKeyBytes()
+    '''
 def newRsaPrivateKey():
-'''public static RSAPrivateKey newRsaPrivateKey()
-'''
-pass
+    '''    public static RSAPrivateKey newRsaPrivateKey()
+    '''
 def newRsaPublicKey():
-'''public static RSAPublicKey newRsaPublicKey()
-'''
-pass
+    '''    public static RSAPublicKey newRsaPublicKey()
+    '''

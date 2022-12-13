@@ -1,4 +1,3 @@
 def OldExcelFormatException():
-'''public OldExcelFormatException(final String s)
-'''
-pass
+    '''    public OldExcelFormatException(final String s)
+    '''

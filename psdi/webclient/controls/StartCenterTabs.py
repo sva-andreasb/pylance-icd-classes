@@ -1,24 +1,18 @@
 def StartCenterTabs():
-'''public StartCenterTabs()
-'''
-pass
+    '''    public StartCenterTabs()
+    '''
 def getRenderData():
-'''public ArrayList getRenderData()
-'''
-pass
+    '''    public ArrayList getRenderData()
+    '''
 def getCurrentStartCenterId():
-'''public String getCurrentStartCenterId()
-'''
-pass
+    '''    public String getCurrentStartCenterId()
+    '''
 def changesc():
-'''public void changesc()
-'''
-pass
+    '''    public void changesc()
+    '''
 def getNewTab():
-'''public String getNewTab()
-'''
-pass
+    '''    public String getNewTab()
+    '''
 def setStartCenters():
-'''public void setStartCenters(final ArrayList sc)
-'''
-pass
+    '''    public void setStartCenters(final ArrayList sc)
+    '''

@@ -1,116 +1,87 @@
 def TransactionGLMerger():
-'''public TransactionGLMerger(final Mbo mbo)
-'''
-pass
+    '''    public TransactionGLMerger(final Mbo mbo)
+    '''
 def getMergedDebitGLAccount():
-'''public String getMergedDebitGLAccount()
-'''
-pass
+    '''    public String getMergedDebitGLAccount()
+    '''
 def mergedGL():
-'''public String mergedGL(final String topGL, final String bottomGL)
-'''
-pass
+    '''    public String mergedGL(final String topGL, final String bottomGL)
+    '''
 def getInventoryGLAccount():
-'''public String getInventoryGLAccount()
-'''
-pass
+    '''    public String getInventoryGLAccount()
+    '''
 def getItemOrgInfoGLAccount():
-'''public String getItemOrgInfoGLAccount()
-'''
-pass
+    '''    public String getItemOrgInfoGLAccount()
+    '''
 def getItemResourceAccount():
-'''public String getItemResourceAccount()
-'''
-pass
+    '''    public String getItemResourceAccount()
+    '''
 def setMRInfo():
-'''public void setMRInfo(final String mrnum, final String mrlinenum)
-'''
-pass
+    '''    public void setMRInfo(final String mrnum, final String mrlinenum)
+    '''
 def setItem():
-'''public void setItem(final String itemnum)
-'''
-pass
+    '''    public void setItem(final String itemnum)
+    '''
 def setOrgID():
-'''public void setOrgID(final String orgid)
-'''
-pass
+    '''    public void setOrgID(final String orgid)
+    '''
 def setItemSetID():
-'''public void setItemSetID(final String itemsetid)
-'''
-pass
+    '''    public void setItemSetID(final String itemsetid)
+    '''
 def setAssetnum():
-'''public void setAssetnum(final String assetnum)
-'''
-pass
+    '''    public void setAssetnum(final String assetnum)
+    '''
 def setWonum():
-'''public void setWonum(final String wonum)
-'''
-pass
+    '''    public void setWonum(final String wonum)
+    '''
 def setWO():
-'''public void setWO(final MboRemote wo)
-'''
-pass
+    '''    public void setWO(final MboRemote wo)
+    '''
 def setLocation():
-'''public void setLocation(final String location)
-'''
-pass
+    '''    public void setLocation(final String location)
+    '''
 def setMRGLAccount():
-'''public void setMRGLAccount(final String glAcct)
-'''
-pass
+    '''    public void setMRGLAccount(final String glAcct)
+    '''
 def setStoreLoc():
-'''public void setStoreLoc(final String storeloc)
-'''
-pass
+    '''    public void setStoreLoc(final String storeloc)
+    '''
 def setChargeToStore():
-'''public void setChargeToStore(final boolean chargeToStore)
-'''
-pass
+    '''    public void setChargeToStore(final boolean chargeToStore)
+    '''
 def setLaborcode():
-'''public void setLaborcode(final String laborcode)
-'''
-pass
+    '''    public void setLaborcode(final String laborcode)
+    '''
 def setCraft():
-'''public void setCraft(final String craft)
-'''
-pass
+    '''    public void setCraft(final String craft)
+    '''
 def setSkillLevel():
-'''public void setSkillLevel(final String skilllevel)
-'''
-pass
+    '''    public void setSkillLevel(final String skilllevel)
+    '''
 def setVendor():
-'''public void setVendor(final String vendor)
-'''
-pass
+    '''    public void setVendor(final String vendor)
+    '''
 def setContractnum():
-'''public void setContractnum(final String contractnum)
-'''
-pass
+    '''    public void setContractnum(final String contractnum)
+    '''
 def setToolnum():
-'''public void setToolnum(final String toolnum)
-'''
-pass
+    '''    public void setToolnum(final String toolnum)
+    '''
 def getTicketResourceAccount():
-'''public String getTicketResourceAccount()
-'''
-pass
+    '''    public String getTicketResourceAccount()
+    '''
 def setTicketID():
-'''public void setTicketID(final String ticket)
-'''
-pass
+    '''    public void setTicketID(final String ticket)
+    '''
 def setTicketClass():
-'''public void setTicketClass(final String ticketclass)
-'''
-pass
+    '''    public void setTicketClass(final String ticketclass)
+    '''
 def setTicket():
-'''public void setTicket(final MboRemote ticketMbo)
-'''
-pass
+    '''    public void setTicket(final MboRemote ticketMbo)
+    '''
 def setConditionCode():
-'''public void setConditionCode(final String condCode)
-'''
-pass
+    '''    public void setConditionCode(final String condCode)
+    '''
 def getInventorySetLIFOFIFO():
-'''public MboSetRemote getInventorySetLIFOFIFO()
-'''
-pass
+    '''    public MboSetRemote getInventorySetLIFOFIFO()
+    '''

@@ -1,12 +1,9 @@
 def HazardPrecSet():
-'''public HazardPrecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public HazardPrecSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def getMultiSiteWhere():
-'''public String getMultiSiteWhere()
-'''
-pass
+    '''    public String getMultiSiteWhere()
+    '''

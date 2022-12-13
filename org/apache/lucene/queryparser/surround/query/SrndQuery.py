@@ -1,44 +1,33 @@
 def SrndQuery():
-'''public SrndQuery()
-'''
-pass
+    '''    public SrndQuery()
+    '''
 def setWeight():
-'''public void setWeight(final float w)
-'''
-pass
+    '''    public void setWeight(final float w)
+    '''
 def isWeighted():
-'''public boolean isWeighted()
-'''
-pass
+    '''    public boolean isWeighted()
+    '''
 def getWeight():
-'''public float getWeight()
-'''
-pass
+    '''    public float getWeight()
+    '''
 def getWeightString():
-'''public String getWeightString()
-'''
-pass
+    '''    public String getWeightString()
+    '''
 def getWeightOperator():
-'''public String getWeightOperator()
-'''
-pass
+    '''    public String getWeightOperator()
+    '''
 def makeLuceneQueryField():
-'''public Query makeLuceneQueryField(final String fieldName, final BasicQueryFactory qf)
-'''
-pass
+    '''    public Query makeLuceneQueryField(final String fieldName, final BasicQueryFactory qf)
+    '''
 def isFieldsSubQueryAcceptable():
-'''public boolean isFieldsSubQueryAcceptable()
-'''
-pass
+    '''    public boolean isFieldsSubQueryAcceptable()
+    '''
 def clone():
-'''public SrndQuery clone()
-'''
-pass
+    '''    public SrndQuery clone()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

@@ -1,24 +1,18 @@
 def WFNodeDetail():
-'''public WFNodeDetail(final MboSet ms)
-'''
-pass
+    '''    public WFNodeDetail(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getWFCallStack():
-'''public WFCallStack getWFCallStack()
-'''
-pass
+    '''    public WFCallStack getWFCallStack()
+    '''
 def getWFInstance():
-'''public WFInstance getWFInstance()
-'''
-pass
+    '''    public WFInstance getWFInstance()
+    '''
 def getNode():
-'''public WFNode getNode()
-'''
-pass
+    '''    public WFNode getNode()
+    '''

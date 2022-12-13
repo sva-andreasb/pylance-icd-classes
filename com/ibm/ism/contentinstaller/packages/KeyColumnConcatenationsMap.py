@@ -1,16 +1,12 @@
 def KeyColumnConcatenationsMap():
-'''public KeyColumnConcatenationsMap()
-'''
-pass
+    '''    public KeyColumnConcatenationsMap()
+    '''
 def put():
-'''public KeyColumn put(final String key, final KeyColumn value)
-'''
-pass
+    '''    public KeyColumn put(final String key, final KeyColumn value)
+    '''
 def addKeyColumnPrefix():
-'''public void addKeyColumnPrefix(final KeyColumn kcc, final String appendValue)
-'''
-pass
+    '''    public void addKeyColumnPrefix(final KeyColumn kcc, final String appendValue)
+    '''
 def addKeyColumnSuffix():
-'''public void addKeyColumnSuffix(final KeyColumn kcc, final String appendValue)
-'''
-pass
+    '''    public void addKeyColumnSuffix(final KeyColumn kcc, final String appendValue)
+    '''

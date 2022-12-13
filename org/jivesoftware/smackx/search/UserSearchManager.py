@@ -1,16 +1,12 @@
 def UserSearchManager():
-'''public UserSearchManager(final XMPPConnection con)
-'''
-pass
+    '''    public UserSearchManager(final XMPPConnection con)
+    '''
 def getSearchForm():
-'''public Form getSearchForm(final DomainBareJid searchService)
-'''
-pass
+    '''    public Form getSearchForm(final DomainBareJid searchService)
+    '''
 def getSearchResults():
-'''public ReportedData getSearchResults(final Form searchForm, final DomainBareJid searchService)
-'''
-pass
+    '''    public ReportedData getSearchResults(final Form searchForm, final DomainBareJid searchService)
+    '''
 def getSearchServices():
-'''public List<DomainBareJid> getSearchServices()
-'''
-pass
+    '''    public List<DomainBareJid> getSearchServices()
+    '''

@@ -1,24 +1,18 @@
 def LicReceipt():
-'''public LicReceipt(final MboSet ms)
-'''
-pass
+    '''    public LicReceipt(final MboSet ms)
+    '''
 def updateMatRecTrans():
-'''public void updateMatRecTrans()
-'''
-pass
+    '''    public void updateMatRecTrans()
+    '''
 def updateLicense():
-'''public void updateLicense(final String ponum)
-'''
-pass
+    '''    public void updateLicense(final String ponum)
+    '''
 def createDefaultLicense():
-'''public String createDefaultLicense(final String licensenum)
-'''
-pass
+    '''    public String createDefaultLicense(final String licensenum)
+    '''
 def valueChanged():
-'''public void valueChanged()
-'''
-pass
+    '''    public void valueChanged()
+    '''
 def createLicRecTrans():
-'''public void createLicRecTrans()
-'''
-pass
+    '''    public void createLicRecTrans()
+    '''

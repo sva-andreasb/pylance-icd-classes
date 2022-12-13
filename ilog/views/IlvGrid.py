@@ -1,69 +1,52 @@
 def IlvGrid():
-'''public IlvGrid()
-public IlvGrid(final Color i, final IlvPoint ilvPoint, final float c, final float d, final boolean b, final boolean a)
-'''
-pass
+    '''    public IlvGrid()
+    public IlvGrid(final Color i, final IlvPoint ilvPoint, final float c, final float d, final boolean b, final boolean a)
+    '''
 def setVisible():
-'''public final void setVisible(final boolean b)
-'''
-pass
+    '''    public final void setVisible(final boolean b)
+    '''
 def isVisible():
-'''public final boolean isVisible()
-'''
-pass
+    '''    public final boolean isVisible()
+    '''
 def setActive():
-'''public final void setActive(final boolean a)
-'''
-pass
+    '''    public final void setActive(final boolean a)
+    '''
 def isActive():
-'''public final boolean isActive()
-'''
-pass
+    '''    public final boolean isActive()
+    '''
 def setColor():
-'''public final void setColor(final Color i)
-'''
-pass
+    '''    public final void setColor(final Color i)
+    '''
 def getColor():
-'''public final Color getColor()
-'''
-pass
+    '''    public final Color getColor()
+    '''
 def setOrigin():
-'''public void setOrigin(final IlvPoint ilvPoint)
-'''
-pass
+    '''    public void setOrigin(final IlvPoint ilvPoint)
+    '''
 def getOrigin():
-'''public IlvPoint getOrigin()
-'''
-pass
+    '''    public IlvPoint getOrigin()
+    '''
 def setHorizontalSpacing():
-'''public final void setHorizontalSpacing(final float c)
-'''
-pass
+    '''    public final void setHorizontalSpacing(final float c)
+    '''
 def getHorizontalSpacing():
-'''public final float getHorizontalSpacing()
-'''
-pass
+    '''    public final float getHorizontalSpacing()
+    '''
 def setVerticalSpacing():
-'''public final void setVerticalSpacing(final float d)
-'''
-pass
+    '''    public final void setVerticalSpacing(final float d)
+    '''
 def getVerticalSpacing():
-'''public final float getVerticalSpacing()
-'''
-pass
+    '''    public final float getVerticalSpacing()
+    '''
 def setHorizontalShown():
-'''public final void setHorizontalShown(final int g)
-'''
-pass
+    '''    public final void setHorizontalShown(final int g)
+    '''
 def getHorizontalShown():
-'''public final int getHorizontalShown()
-'''
-pass
+    '''    public final int getHorizontalShown()
+    '''
 def setVerticalShown():
-'''public final void setVerticalShown(final int h)
-'''
-pass
+    '''    public final void setVerticalShown(final int h)
+    '''
 def getVerticalShown():
-'''public final int getVerticalShown()
-'''
-pass
+    '''    public final int getVerticalShown()
+    '''

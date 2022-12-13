@@ -1,9 +1,7 @@
 def PlusPFldWOTotalOutstanding():
-'''public PlusPFldWOTotalOutstanding()
-public PlusPFldWOTotalOutstanding(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldWOTotalOutstanding()
+    public PlusPFldWOTotalOutstanding(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

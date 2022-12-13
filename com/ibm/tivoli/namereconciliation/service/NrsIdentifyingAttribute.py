@@ -1,36 +1,27 @@
 def getGUID():
-'''public byte[] getGUID()
-'''
-pass
+    '''    public byte[] getGUID()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getStandardizedValue():
-'''public String getStandardizedValue()
-'''
-pass
+    '''    public String getStandardizedValue()
+    '''
 def getOldValue():
-'''public String getOldValue()
-'''
-pass
+    '''    public String getOldValue()
+    '''
 def setGUID():
-'''public void setGUID(final byte[] guid)
-'''
-pass
+    '''    public void setGUID(final byte[] guid)
+    '''
 def setAttributeName():
-'''public void setAttributeName(final String attributeName)
-'''
-pass
+    '''    public void setAttributeName(final String attributeName)
+    '''
 def setStandardizedValue():
-'''public void setStandardizedValue(final String standardizedValue)
-'''
-pass
+    '''    public void setStandardizedValue(final String standardizedValue)
+    '''
 def setOldValue():
-'''public void setOldValue(final String oldValue)
-'''
-pass
+    '''    public void setOldValue(final String oldValue)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,9 +1,7 @@
 def getMasterSecretValidator():
-'''public static MasterSecretValidator getMasterSecretValidator()
-public static MasterSecretValidator getMasterSecretValidator(final JavaVersionParser.JavaVersion javaVersion)
-'''
-pass
+    '''    public static MasterSecretValidator getMasterSecretValidator()
+    public static MasterSecretValidator getMasterSecretValidator(final JavaVersionParser.JavaVersion javaVersion)
+    '''
 def isMasterSecretValid():
-'''public boolean isMasterSecretValid(final Socket socket)
-'''
-pass
+    '''    public boolean isMasterSecretValid(final Socket socket)
+    '''

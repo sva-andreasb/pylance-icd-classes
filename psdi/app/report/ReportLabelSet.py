@@ -1,4 +1,3 @@
 def ReportLabelSet():
-'''public ReportLabelSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportLabelSet(final MboServerInterface ms)
+    '''

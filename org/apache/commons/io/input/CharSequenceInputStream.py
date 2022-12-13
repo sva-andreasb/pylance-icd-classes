@@ -1,37 +1,29 @@
 def CharSequenceInputStream():
-'''public CharSequenceInputStream(final CharSequence cs, final Charset charset, final int bufferSize)
-public CharSequenceInputStream(final CharSequence cs, final String charset, final int bufferSize)
-public CharSequenceInputStream(final CharSequence cs, final Charset charset)
-public CharSequenceInputStream(final CharSequence cs, final String charset)
-'''
-pass
+    '''    public CharSequenceInputStream(final CharSequence cs, final Charset charset, final int bufferSize)
+    public CharSequenceInputStream(final CharSequence cs, final String charset, final int bufferSize)
+    public CharSequenceInputStream(final CharSequence cs, final Charset charset)
+    public CharSequenceInputStream(final CharSequence cs, final String charset)
+    '''
 def read():
-'''public int read(final byte[] b, int off, int len)
-public int read()
-public int read(final byte[] b)
-'''
-pass
+    '''    public int read(final byte[] b, int off, int len)
+    public int read()
+    public int read(final byte[] b)
+    '''
 def skip():
-'''public long skip(long n)
-'''
-pass
+    '''    public long skip(long n)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def mark():
-'''public synchronized void mark(final int readlimit)
-'''
-pass
+    '''    public synchronized void mark(final int readlimit)
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''

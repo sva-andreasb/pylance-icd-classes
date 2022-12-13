@@ -1,8 +1,6 @@
 def EventRecordFactory():
-'''public EventRecordFactory(final ERFListener listener, final short[] sids)
-'''
-pass
+    '''    public EventRecordFactory(final ERFListener listener, final short[] sids)
+    '''
 def processRecords():
-'''public void processRecords(final InputStream in)
-'''
-pass
+    '''    public void processRecords(final InputStream in)
+    '''

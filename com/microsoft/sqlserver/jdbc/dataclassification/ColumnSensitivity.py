@@ -1,8 +1,6 @@
 def ColumnSensitivity():
-'''public ColumnSensitivity(final List<SensitivityProperty> sensitivityProperties)
-'''
-pass
+    '''    public ColumnSensitivity(final List<SensitivityProperty> sensitivityProperties)
+    '''
 def getSensitivityProperties():
-'''public List<SensitivityProperty> getSensitivityProperties()
-'''
-pass
+    '''    public List<SensitivityProperty> getSensitivityProperties()
+    '''

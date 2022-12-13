@@ -1,4 +1,3 @@
 def UnsupportedFileFormatException():
-'''public UnsupportedFileFormatException(final String s)
-'''
-pass
+    '''    public UnsupportedFileFormatException(final String s)
+    '''

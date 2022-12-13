@@ -1,8 +1,6 @@
 def StackTraceElementDeserializer():
-'''public StackTraceElementDeserializer()
-'''
-pass
+    '''    public StackTraceElementDeserializer()
+    '''
 def deserialize():
-'''public StackTraceElement deserialize(final JsonParser p, final DeserializationContext ctxt)
-'''
-pass
+    '''    public StackTraceElement deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''

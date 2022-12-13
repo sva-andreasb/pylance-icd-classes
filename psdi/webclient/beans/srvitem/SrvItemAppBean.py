@@ -1,8 +1,6 @@
 def RELLOCKS():
-'''public int RELLOCKS()
-'''
-pass
+    '''    public int RELLOCKS()
+    '''
 def RELLOCKSNODIALOG():
-'''public int RELLOCKSNODIALOG()
-'''
-pass
+    '''    public int RELLOCKSNODIALOG()
+    '''

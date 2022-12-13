@@ -1,4 +1,3 @@
 def DeploymentManagerCreationException():
-'''public DeploymentManagerCreationException(final String s)
-'''
-pass
+    '''    public DeploymentManagerCreationException(final String s)
+    '''

@@ -1,24 +1,18 @@
 def DETAILREP():
-'''public int DETAILREP()
-'''
-pass
+    '''    public int DETAILREP()
+    '''
 def PRINTDOCS():
-'''public int PRINTDOCS()
-'''
-pass
+    '''    public int PRINTDOCS()
+    '''
 def ASSOCCOMM():
-'''public int ASSOCCOMM()
-'''
-pass
+    '''    public int ASSOCCOMM()
+    '''
 def AUTHSITES():
-'''public int AUTHSITES()
-'''
-pass
+    '''    public int AUTHSITES()
+    '''
 def PMTSCHED():
-'''public int PMTSCHED()
-'''
-pass
+    '''    public int PMTSCHED()
+    '''
 def REVCONT():
-'''public int REVCONT()
-'''
-pass
+    '''    public int REVCONT()
+    '''

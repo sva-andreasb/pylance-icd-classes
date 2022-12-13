@@ -1,91 +1,72 @@
 def size():
-'''public int size()
-public int size()
-public int size()
-'''
-pass
+    '''    public int size()
+    public int size()
+    public int size()
+    '''
 def getCount():
-'''public int getCount(final Object object)
-'''
-pass
+    '''    public int getCount(final Object object)
+    '''
 def setCount():
-'''public int setCount(final E object, final int count)
-'''
-pass
+    '''    public int setCount(final E object, final int count)
+    '''
 def contains():
-'''public boolean contains(final Object object)
-public boolean contains(final Object key)
-public boolean contains(final Object obj)
-'''
-pass
+    '''    public boolean contains(final Object object)
+    public boolean contains(final Object key)
+    public boolean contains(final Object obj)
+    '''
 def iterator():
-'''public Iterator<E> iterator()
-public Iterator<E> iterator()
-public Iterator<Entry<E>> iterator()
-'''
-pass
+    '''    public Iterator<E> iterator()
+    public Iterator<E> iterator()
+    public Iterator<Entry<E>> iterator()
+    '''
 def add():
-'''public boolean add(final E object)
-public int add(final E object, final int occurrences)
-'''
-pass
+    '''    public boolean add(final E object)
+    public int add(final E object, final int occurrences)
+    '''
 def clear():
-'''public void clear()
-public void clear()
-'''
-pass
+    '''    public void clear()
+    public void clear()
+    '''
 def remove():
-'''public boolean remove(final Object object)
-public int remove(final Object object, final int occurrences)
-public void remove()
-public boolean remove(final Object key)
-public boolean remove(final Object obj)
-'''
-pass
+    '''    public boolean remove(final Object object)
+    public int remove(final Object object, final int occurrences)
+    public void remove()
+    public boolean remove(final Object key)
+    public boolean remove(final Object obj)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean removeAll(final Collection<?> coll)
+    '''
 def uniqueSet():
-'''public Set<E> uniqueSet()
-'''
-pass
+    '''    public Set<E> uniqueSet()
+    '''
 def transform():
-'''public E transform(final Entry<E> entry)
-'''
-pass
+    '''    public E transform(final Entry<E> entry)
+    '''
 def entrySet():
-'''public Set<Entry<E>> entrySet()
-'''
-pass
+    '''    public Set<Entry<E>> entrySet()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def MultiSetIterator():
-'''public MultiSetIterator(final AbstractMultiSet<E> parent)
-'''
-pass
+    '''    public MultiSetIterator(final AbstractMultiSet<E> parent)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean containsAll(final Collection<?> coll)
+    '''

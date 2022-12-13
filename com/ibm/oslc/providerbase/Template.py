@@ -1,56 +1,43 @@
 def Template():
-'''public Template()
-'''
-pass
+    '''    public Template()
+    '''
 def getNodes():
-'''public List<Entity> getNodes()
-public List<Entity> getNodes(final String requestedType)
-'''
-pass
+    '''    public List<Entity> getNodes()
+    public List<Entity> getNodes(final String requestedType)
+    '''
 def setNodes():
-'''public void setNodes(final List<Entity> nodes)
-'''
-pass
+    '''    public void setNodes(final List<Entity> nodes)
+    '''
 def addNode():
-'''public void addNode(final Entity node)
-'''
-pass
+    '''    public void addNode(final Entity node)
+    '''
 def getNode():
-'''public Entity getNode(final String type, final String identifier)
-'''
-pass
+    '''    public Entity getNode(final String type, final String identifier)
+    '''
 def getContainer():
-'''public URI getContainer()
-'''
-pass
+    '''    public URI getContainer()
+    '''
 def setContainer():
-'''public void setContainer(final URI container)
-public void setContainer(final String container)
-'''
-pass
+    '''    public void setContainer(final URI container)
+    public void setContainer(final String container)
+    '''
 def getParent():
-'''public URI getParent()
-'''
-pass
+    '''    public URI getParent()
+    '''
 def setParent():
-'''public void setParent(final URI parent)
-public void setParent(final String parent)
-'''
-pass
+    '''    public void setParent(final URI parent)
+    public void setParent(final String parent)
+    '''
 def getSubType():
-'''public URI getSubType()
-'''
-pass
+    '''    public URI getSubType()
+    '''
 def setSubType():
-'''public void setSubType(final URI subType)
-public void setSubType(final String subType)
-'''
-pass
+    '''    public void setSubType(final URI subType)
+    public void setSubType(final String subType)
+    '''
 def getActionState():
-'''public String getActionState()
-'''
-pass
+    '''    public String getActionState()
+    '''
 def setActionState():
-'''public void setActionState(final String actionState)
-'''
-pass
+    '''    public void setActionState(final String actionState)
+    '''

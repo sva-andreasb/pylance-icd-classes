@@ -1,76 +1,58 @@
-COPYRIGHT = "String IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def Catalog():
-'''public Catalog(final MboSet ms)
-'''
-pass
+    '''    public Catalog(final MboSet ms)
+    '''
 def addCatsToGroup():
-'''public void addCatsToGroup()
-'''
-pass
+    '''    public void addCatsToGroup()
+    '''
 def openLastCR():
-'''public void openLastCR(final String launchfrmmboname, final String tktid)
-'''
-pass
+    '''    public void openLastCR(final String launchfrmmboname, final String tktid)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getCRID():
-'''public long getCRID()
-'''
-pass
+    '''    public long getCRID()
+    '''
 def resetCRID():
-'''public void resetCRID()
-'''
-pass
+    '''    public void resetCRID()
+    '''
 def setCRID():
-'''public void setCRID(final long crIDToSet)
-'''
-pass
+    '''    public void setCRID(final long crIDToSet)
+    '''
 def setCartValues():
-'''public void setCartValues(final long pmsccrid)
-'''
-pass
+    '''    public void setCartValues(final long pmsccrid)
+    '''
 def getCorrectObjectName():
-'''public String getCorrectObjectName(final MboRemote mbo)
-'''
-pass
+    '''    public String getCorrectObjectName(final MboRemote mbo)
+    '''
 def generateSpecSet():
-'''public MboSetRemote generateSpecSet(final MboRemote mbo, final String itemNum)
-'''
-pass
+    '''    public MboSetRemote generateSpecSet(final MboRemote mbo, final String itemNum)
+    '''
 def createCRInfo():
-'''public long createCRInfo(final OfferingRemote off)
-public long createCRInfo(final OfferingRemote off, final SRRemote oldsr)
-public long createCRInfo(final OfferingRemote off, SRRemote oldsr, final String mboName, final String tktUid)
-'''
-pass
+    '''    public long createCRInfo(final OfferingRemote off)
+    public long createCRInfo(final OfferingRemote off, final SRRemote oldsr)
+    public long createCRInfo(final OfferingRemote off, SRRemote oldsr, final String mboName, final String tktUid)
+    '''
 def updateTktInfoForDescSrv():
-'''public void updateTktInfoForDescSrv(final OfferingRemote off, final String mbobnx, final String id)
-'''
-pass
+    '''    public void updateTktInfoForDescSrv(final OfferingRemote off, final String mbobnx, final String id)
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def createEmptyCR():
-'''public long createEmptyCR()
-public long createEmptyCR(final String tktMboName, final String tktUid)
-'''
-pass
+    '''    public long createEmptyCR()
+    public long createEmptyCR(final String tktMboName, final String tktUid)
+    '''

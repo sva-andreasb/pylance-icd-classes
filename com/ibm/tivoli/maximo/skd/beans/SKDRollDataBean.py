@@ -1,12 +1,9 @@
 def SKDRollDataBean():
-'''public SKDRollDataBean()
-'''
-pass
+    '''    public SKDRollDataBean()
+    '''
 def saveroll():
-'''public int saveroll()
-'''
-pass
+    '''    public int saveroll()
+    '''
 def runroll():
-'''public int runroll()
-'''
-pass
+    '''    public int runroll()
+    '''

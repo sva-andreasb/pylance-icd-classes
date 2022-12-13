@@ -1,28 +1,21 @@
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def addContact():
-'''public void addContact(final ItemCONTACT contact)
-'''
-pass
+    '''    public void addContact(final ItemCONTACT contact)
+    '''
 def contacts():
-'''public Enumeration<ItemCONTACT> contacts()
-'''
-pass
+    '''    public Enumeration<ItemCONTACT> contacts()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def isManufacture():
-'''public boolean isManufacture()
-'''
-pass
+    '''    public boolean isManufacture()
+    '''
 def setManufacturer():
-'''public void setManufacturer(final boolean manufacture)
-'''
-pass
+    '''    public void setManufacturer(final boolean manufacture)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

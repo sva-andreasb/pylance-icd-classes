@@ -1,8 +1,6 @@
 def FldRangeFromUsageCount():
-'''public FldRangeFromUsageCount(final MboValue mbv)
-'''
-pass
+    '''    public FldRangeFromUsageCount(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

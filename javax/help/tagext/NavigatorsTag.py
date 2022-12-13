@@ -1,24 +1,18 @@
 def NavigatorsTag():
-'''public NavigatorsTag()
-'''
-pass
+    '''    public NavigatorsTag()
+    '''
 def setHelpBroker():
-'''public void setHelpBroker(final HelpBroker hb)
-'''
-pass
+    '''    public void setHelpBroker(final HelpBroker hb)
+    '''
 def setCurrentNav():
-'''public void setCurrentNav(final String curNav)
-'''
-pass
+    '''    public void setCurrentNav(final String curNav)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def doStartTag():
-'''public int doStartTag()
-'''
-pass
+    '''    public int doStartTag()
+    '''
 def doAfterBody():
-'''public int doAfterBody()
-'''
-pass
+    '''    public int doAfterBody()
+    '''

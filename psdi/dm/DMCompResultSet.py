@@ -1,4 +1,3 @@
 def DMCompResultSet():
-'''public DMCompResultSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMCompResultSet(final MboServerInterface ms)
+    '''

@@ -1,108 +1,82 @@
 def PackagePart():
-'''public PackagePart(final OPCPackage pack, final PackagePartName partName, final String contentType)
-'''
-pass
+    '''    public PackagePart(final OPCPackage pack, final PackagePartName partName, final String contentType)
+    '''
 def findExistingRelation():
-'''public PackageRelationship findExistingRelation(final PackagePart packagePart)
-'''
-pass
+    '''    public PackageRelationship findExistingRelation(final PackagePart packagePart)
+    '''
 def addExternalRelationship():
-'''public PackageRelationship addExternalRelationship(final String target, final String relationshipType)
-public PackageRelationship addExternalRelationship(final String target, final String relationshipType, final String id)
-'''
-pass
+    '''    public PackageRelationship addExternalRelationship(final String target, final String relationshipType)
+    public PackageRelationship addExternalRelationship(final String target, final String relationshipType, final String id)
+    '''
 def addRelationship():
-'''public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType)
-public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType, final String id)
-public PackageRelationship addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType)
-public PackageRelationship addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType, final String id)
-'''
-pass
+    '''    public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType)
+    public PackageRelationship addRelationship(final PackagePartName targetPartName, final TargetMode targetMode, final String relationshipType, final String id)
+    public PackageRelationship addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType)
+    public PackageRelationship addRelationship(final URI targetURI, final TargetMode targetMode, final String relationshipType, final String id)
+    '''
 def clearRelationships():
-'''public void clearRelationships()
-'''
-pass
+    '''    public void clearRelationships()
+    '''
 def removeRelationship():
-'''public void removeRelationship(final String id)
-'''
-pass
+    '''    public void removeRelationship(final String id)
+    '''
 def getRelationships():
-'''public PackageRelationshipCollection getRelationships()
-'''
-pass
+    '''    public PackageRelationshipCollection getRelationships()
+    '''
 def getRelationship():
-'''public PackageRelationship getRelationship(final String id)
-'''
-pass
+    '''    public PackageRelationship getRelationship(final String id)
+    '''
 def getRelationshipsByType():
-'''public PackageRelationshipCollection getRelationshipsByType(final String relationshipType)
-'''
-pass
+    '''    public PackageRelationshipCollection getRelationshipsByType(final String relationshipType)
+    '''
 def hasRelationships():
-'''public boolean hasRelationships()
-'''
-pass
+    '''    public boolean hasRelationships()
+    '''
 def isRelationshipExists():
-'''public boolean isRelationshipExists(final PackageRelationship rel)
-'''
-pass
+    '''    public boolean isRelationshipExists(final PackageRelationship rel)
+    '''
 def getRelatedPart():
-'''public PackagePart getRelatedPart(final PackageRelationship rel)
-'''
-pass
+    '''    public PackagePart getRelatedPart(final PackageRelationship rel)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getPartName():
-'''public PackagePartName getPartName()
-'''
-pass
+    '''    public PackagePartName getPartName()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getContentTypeDetails():
-'''public ContentType getContentTypeDetails()
-'''
-pass
+    '''    public ContentType getContentTypeDetails()
+    '''
 def setContentType():
-'''public void setContentType(final String contentType)
-'''
-pass
+    '''    public void setContentType(final String contentType)
+    '''
 def getPackage():
-'''public OPCPackage getPackage()
-'''
-pass
+    '''    public OPCPackage getPackage()
+    '''
 def isRelationshipPart():
-'''public boolean isRelationshipPart()
-'''
-pass
+    '''    public boolean isRelationshipPart()
+    '''
 def isDeleted():
-'''public boolean isDeleted()
-'''
-pass
+    '''    public boolean isDeleted()
+    '''
 def setDeleted():
-'''public void setDeleted(final boolean isDeleted)
-'''
-pass
+    '''    public void setDeleted(final boolean isDeleted)
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def compareTo():
-'''public int compareTo(final PackagePart other)
-'''
-pass
+    '''    public int compareTo(final PackagePart other)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''

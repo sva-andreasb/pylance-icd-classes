@@ -1,4 +1,3 @@
 def WoSchedActivity():
-'''public WoSchedActivity(final MboSet ms)
-'''
-pass
+    '''    public WoSchedActivity(final MboSet ms)
+    '''

@@ -1,4 +1,3 @@
 def process():
-'''public synchronized int process()
-'''
-pass
+    '''    public synchronized int process()
+    '''

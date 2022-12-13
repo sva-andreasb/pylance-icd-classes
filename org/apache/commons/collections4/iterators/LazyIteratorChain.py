@@ -1,16 +1,12 @@
 def LazyIteratorChain():
-'''public LazyIteratorChain()
-'''
-pass
+    '''    public LazyIteratorChain()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

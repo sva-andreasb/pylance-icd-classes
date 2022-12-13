@@ -1,4 +1,3 @@
 def nextResourceName():
-'''public String nextResourceName()
-'''
-pass
+    '''    public String nextResourceName()
+    '''

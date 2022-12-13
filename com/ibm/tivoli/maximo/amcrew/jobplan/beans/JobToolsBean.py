@@ -1,4 +1,3 @@
 def dataChangedEvent():
-'''public synchronized void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void dataChangedEvent(final DataBean speaker)
+    '''

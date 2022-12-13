@@ -1,12 +1,9 @@
 def FromMatchesFilter():
-'''public FromMatchesFilter(final String address)
-'''
-pass
+    '''    public FromMatchesFilter(final String address)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,136 +1,102 @@
 def InventorySet():
-'''public InventorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public InventorySet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getCustomInventorySet():
-'''public void getCustomInventorySet(final String[] attributes, final String[] values)
-'''
-pass
+    '''    public void getCustomInventorySet(final String[] attributes, final String[] values)
+    '''
 def setIncludesNonReorder():
-'''public void setIncludesNonReorder(final boolean nr)
-'''
-pass
+    '''    public void setIncludesNonReorder(final boolean nr)
+    '''
 def getIncludesNonReorder():
-'''public boolean getIncludesNonReorder()
-'''
-pass
+    '''    public boolean getIncludesNonReorder()
+    '''
 def setIncludesReorder():
-'''public void setIncludesReorder(final boolean reorder)
-'''
-pass
+    '''    public void setIncludesReorder(final boolean reorder)
+    '''
 def getIncludesReorder():
-'''public boolean getIncludesReorder()
-'''
-pass
+    '''    public boolean getIncludesReorder()
+    '''
 def setInventoryLocation():
-'''public void setInventoryLocation(final String storeLoc)
-'''
-pass
+    '''    public void setInventoryLocation(final String storeLoc)
+    '''
 def getInventoryLocation():
-'''public String getInventoryLocation()
-'''
-pass
+    '''    public String getInventoryLocation()
+    '''
 def setLocListIncludesStores():
-'''public void setLocListIncludesStores(final boolean stores)
-'''
-pass
+    '''    public void setLocListIncludesStores(final boolean stores)
+    '''
 def getLocListIncludesStores():
-'''public boolean getLocListIncludesStores()
-'''
-pass
+    '''    public boolean getLocListIncludesStores()
+    '''
 def setLocListIncludesLabor():
-'''public void setLocListIncludesLabor(final boolean labor)
-'''
-pass
+    '''    public void setLocListIncludesLabor(final boolean labor)
+    '''
 def getLocListIncludesLabor():
-'''public boolean getLocListIncludesLabor()
-'''
-pass
+    '''    public boolean getLocListIncludesLabor()
+    '''
 def setLocListIncludesCourier():
-'''public void setLocListIncludesCourier(final boolean courier)
-'''
-pass
+    '''    public void setLocListIncludesCourier(final boolean courier)
+    '''
 def getLocListIncludesCourier():
-'''public boolean getLocListIncludesCourier()
-'''
-pass
+    '''    public boolean getLocListIncludesCourier()
+    '''
 def getUserPrefWhere():
-'''public String getUserPrefWhere()
-'''
-pass
+    '''    public String getUserPrefWhere()
+    '''
 def canReorderForStoreroom():
-'''public void canReorderForStoreroom()
-'''
-pass
+    '''    public void canReorderForStoreroom()
+    '''
 def reconcileSet():
-'''public void reconcileSet()
-'''
-pass
+    '''    public void reconcileSet()
+    '''
 def totalReconcileErrors():
-'''public void totalReconcileErrors()
-'''
-pass
+    '''    public void totalReconcileErrors()
+    '''
 def zeroYTDQuantities():
-'''public void zeroYTDQuantities()
-'''
-pass
+    '''    public void zeroYTDQuantities()
+    '''
 def setPrimaryVendor():
-'''public void setPrimaryVendor()
-'''
-pass
+    '''    public void setPrimaryVendor()
+    '''
 def setInvbalancesSet():
-'''public void setInvbalancesSet(final MboSetRemote invBalances)
-'''
-pass
+    '''    public void setInvbalancesSet(final MboSetRemote invBalances)
+    '''
 def getInvbalancesSet():
-'''public MboSetRemote getInvbalancesSet()
-'''
-pass
+    '''    public MboSetRemote getInvbalancesSet()
+    '''
 def addItemstoStorewarning():
-'''public void addItemstoStorewarning()
-'''
-pass
+    '''    public void addItemstoStorewarning()
+    '''
 def addToolstoStorewarning():
-'''public void addToolstoStorewarning()
-'''
-pass
+    '''    public void addToolstoStorewarning()
+    '''
 def addZeroYTDWarning():
-'''public void addZeroYTDWarning()
-'''
-pass
+    '''    public void addZeroYTDWarning()
+    '''
 def addItemsWarning():
-'''public void addItemsWarning()
-'''
-pass
+    '''    public void addItemsWarning()
+    '''
 def updateCostType():
-'''public void updateCostType()
-'''
-pass
+    '''    public void updateCostType()
+    '''
 def checkInvLifoFifoCostForReconcile():
-'''public boolean checkInvLifoFifoCostForReconcile()
-'''
-pass
+    '''    public boolean checkInvLifoFifoCostForReconcile()
+    '''
 def availLifoFifoSetforReconcile():
-'''public void availLifoFifoSetforReconcile(final MboRemote invMbo)
-'''
-pass
+    '''    public void availLifoFifoSetforReconcile(final MboRemote invMbo)
+    '''
 def needLifoFifoforReconcile():
-'''public boolean needLifoFifoforReconcile()
-'''
-pass
+    '''    public boolean needLifoFifoforReconcile()
+    '''
 def getLifoFifoSet():
-'''public LifoFifoCostSet getLifoFifoSet()
-'''
-pass
+    '''    public LifoFifoCostSet getLifoFifoSet()
+    '''
 def getInventorySetForReconcile():
-'''public MboSetRemote getInventorySetForReconcile()
-'''
-pass
+    '''    public MboSetRemote getInventorySetForReconcile()
+    '''
 def previewReconcileSet():
-'''public MboRemote previewReconcileSet()
-'''
-pass
+    '''    public MboRemote previewReconcileSet()
+    '''

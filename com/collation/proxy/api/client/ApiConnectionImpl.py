@@ -1,74 +1,56 @@
 def ApiConnectionImpl():
-'''public ApiConnectionImpl()
-'''
-pass
+    '''    public ApiConnectionImpl()
+    '''
 def getConnection():
-'''public static ApiConnection getConnection(final String host, final int port, final boolean useSSL)
-public static ApiConnection getConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)
-public static ApiConnection getConnection(final String host, final boolean useSSL)
-'''
-pass
+    '''    public static ApiConnection getConnection(final String host, final int port, final boolean useSSL)
+    public static ApiConnection getConnection(final String host, final int port, final String trustStoreLocation, final boolean useSSL)
+    public static ApiConnection getConnection(final String host, final boolean useSSL)
+    '''
 def enableSSLDebug():
-'''public static void enableSSLDebug()
-'''
-pass
+    '''    public static void enableSSLDebug()
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def closeAll():
-'''public static void closeAll()
-'''
-pass
+    '''    public static void closeAll()
+    '''
 def init():
-'''public void init(final String host, int port, final boolean ssl, final String trustStore)
-'''
-pass
+    '''    public void init(final String host, int port, final boolean ssl, final String trustStore)
+    '''
 def getPresentationApi():
-'''public ApiServerInterface getPresentationApi()
-'''
-pass
+    '''    public ApiServerInterface getPresentationApi()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isSSL():
-'''public boolean isSSL()
-'''
-pass
+    '''    public boolean isSSL()
+    '''
 def getTrustStore():
-'''public String getTrustStore()
-'''
-pass
+    '''    public String getTrustStore()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getFingerPrint():
-'''public long getFingerPrint()
-'''
-pass
+    '''    public long getFingerPrint()
+    '''
 def addSession():
-'''public void addSession(final ApiSession session)
-'''
-pass
+    '''    public void addSession(final ApiSession session)
+    '''
 def removeSession():
-'''public void removeSession(final ApiSession session)
-'''
-pass
+    '''    public void removeSession(final ApiSession session)
+    '''

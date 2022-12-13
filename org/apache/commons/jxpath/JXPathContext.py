@@ -1,89 +1,67 @@
 def newContext():
-'''public static JXPathContext newContext(final Object contextBean)
-public static JXPathContext newContext(final JXPathContext parentContext, final Object contextBean)
-'''
-pass
+    '''    public static JXPathContext newContext(final Object contextBean)
+    public static JXPathContext newContext(final JXPathContext parentContext, final Object contextBean)
+    '''
 def getParentContext():
-'''public JXPathContext getParentContext()
-'''
-pass
+    '''    public JXPathContext getParentContext()
+    '''
 def getContextBean():
-'''public Object getContextBean()
-'''
-pass
+    '''    public Object getContextBean()
+    '''
 def setVariables():
-'''public void setVariables(final Variables vars)
-'''
-pass
+    '''    public void setVariables(final Variables vars)
+    '''
 def getVariables():
-'''public Variables getVariables()
-'''
-pass
+    '''    public Variables getVariables()
+    '''
 def setFunctions():
-'''public void setFunctions(final Functions functions)
-'''
-pass
+    '''    public void setFunctions(final Functions functions)
+    '''
 def getFunctions():
-'''public Functions getFunctions()
-'''
-pass
+    '''    public Functions getFunctions()
+    '''
 def setFactory():
-'''public void setFactory(final AbstractFactory factory)
-'''
-pass
+    '''    public void setFactory(final AbstractFactory factory)
+    '''
 def getFactory():
-'''public AbstractFactory getFactory()
-'''
-pass
+    '''    public AbstractFactory getFactory()
+    '''
 def setLocale():
-'''public void setLocale(final Locale locale)
-'''
-pass
+    '''    public void setLocale(final Locale locale)
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def setDecimalFormatSymbols():
-'''public void setDecimalFormatSymbols(final String name, final DecimalFormatSymbols symbols)
-'''
-pass
+    '''    public void setDecimalFormatSymbols(final String name, final DecimalFormatSymbols symbols)
+    '''
 def getDecimalFormatSymbols():
-'''public DecimalFormatSymbols getDecimalFormatSymbols(final String name)
-'''
-pass
+    '''    public DecimalFormatSymbols getDecimalFormatSymbols(final String name)
+    '''
 def setLenient():
-'''public void setLenient(final boolean lenient)
-'''
-pass
+    '''    public void setLenient(final boolean lenient)
+    '''
 def isLenient():
-'''public boolean isLenient()
-'''
-pass
+    '''    public boolean isLenient()
+    '''
 def compile():
-'''public static CompiledExpression compile(final String xpath)
-'''
-pass
+    '''    public static CompiledExpression compile(final String xpath)
+    '''
 def setIdentityManager():
-'''public void setIdentityManager(final IdentityManager idManager)
-'''
-pass
+    '''    public void setIdentityManager(final IdentityManager idManager)
+    '''
 def getIdentityManager():
-'''public IdentityManager getIdentityManager()
-'''
-pass
+    '''    public IdentityManager getIdentityManager()
+    '''
 def getPointerByID():
-'''public Pointer getPointerByID(final String id)
-'''
-pass
+    '''    public Pointer getPointerByID(final String id)
+    '''
 def setKeyManager():
-'''public void setKeyManager(final KeyManager keyManager)
-'''
-pass
+    '''    public void setKeyManager(final KeyManager keyManager)
+    '''
 def getKeyManager():
-'''public KeyManager getKeyManager()
-'''
-pass
+    '''    public KeyManager getKeyManager()
+    '''
 def getPointerByKey():
-'''public Pointer getPointerByKey(final String key, final String value)
-'''
-pass
+    '''    public Pointer getPointerByKey(final String key, final String value)
+    '''

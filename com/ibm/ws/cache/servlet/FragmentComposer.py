@@ -4,332 +4,250 @@ POPULATED_CACHE = "int  2"
 SERVLET_REQUEST = "int  1"
 PORTLET_CACHE_REQUEST = "int  2"
 def FragmentComposer():
-'''public FragmentComposer(final CacheProxyRequest request, final CacheProxyResponse response)
-public FragmentComposer()
-'''
-pass
+    '''    public FragmentComposer(final CacheProxyRequest request, final CacheProxyResponse response)
+    public FragmentComposer()
+    '''
 def resetRequestAndResponseOnly():
-'''public void resetRequestAndResponseOnly(final CacheProxyRequest request, final CacheProxyResponse response)
-'''
-pass
+    '''    public void resetRequestAndResponseOnly(final CacheProxyRequest request, final CacheProxyResponse response)
+    '''
 def reset():
-'''public void reset(final CacheProxyRequest request, final CacheProxyResponse response)
-'''
-pass
+    '''    public void reset(final CacheProxyRequest request, final CacheProxyResponse response)
+    '''
 def addContents():
-'''public void addContents(final Object[] contents)
-'''
-pass
+    '''    public void addContents(final Object[] contents)
+    '''
 def setDoNotConsume():
-'''public void setDoNotConsume(final boolean dnc)
-'''
-pass
+    '''    public void setDoNotConsume(final boolean dnc)
+    '''
 def getDoNotConsume():
-'''public boolean getDoNotConsume()
-'''
-pass
+    '''    public boolean getDoNotConsume()
+    '''
 def setConsumeSubfragments():
-'''public void setConsumeSubfragments(final boolean csf)
-'''
-pass
+    '''    public void setConsumeSubfragments(final boolean csf)
+    '''
 def getConsumeSubfragments():
-'''public boolean getConsumeSubfragments()
-'''
-pass
+    '''    public boolean getConsumeSubfragments()
+    '''
 def getHasCacheableConsumingParent():
-'''public boolean getHasCacheableConsumingParent()
-'''
-pass
+    '''    public boolean getHasCacheableConsumingParent()
+    '''
 def setHasCacheableConsumingParent():
-'''public void setHasCacheableConsumingParent(final boolean hccp)
-'''
-pass
+    '''    public void setHasCacheableConsumingParent(final boolean hccp)
+    '''
 def setBufferSize():
-'''public void setBufferSize(final int size)
-'''
-pass
+    '''    public void setBufferSize(final int size)
+    '''
 def getBufferSize():
-'''public int getBufferSize()
-'''
-pass
+    '''    public int getBufferSize()
+    '''
 def resetBuffer():
-'''public void resetBuffer()
-'''
-pass
+    '''    public void resetBuffer()
+    '''
 def requestFinished():
-'''public void requestFinished()
-'''
-pass
+    '''    public void requestFinished()
+    '''
 def shouldCacheOutput():
-'''public boolean shouldCacheOutput()
-'''
-pass
+    '''    public boolean shouldCacheOutput()
+    '''
 def isExternallyCached():
-'''public boolean isExternallyCached()
-'''
-pass
+    '''    public boolean isExternallyCached()
+    '''
 def setParentExternallyCacheable():
-'''public void setParentExternallyCacheable(final boolean parentExternal)
-'''
-pass
+    '''    public void setParentExternallyCacheable(final boolean parentExternal)
+    '''
 def shouldExternalCacheOutput():
-'''public boolean shouldExternalCacheOutput()
-'''
-pass
+    '''    public boolean shouldExternalCacheOutput()
+    '''
 def startChildFragmentComposer():
-'''public void startChildFragmentComposer(final FragmentComposer fragmentComposer)
-'''
-pass
+    '''    public void startChildFragmentComposer(final FragmentComposer fragmentComposer)
+    '''
 def endChildFragmentComposer():
-'''public void endChildFragmentComposer(final FragmentComposer child)
-'''
-pass
+    '''    public void endChildFragmentComposer(final FragmentComposer child)
+    '''
 def saveCachedData():
-'''public void saveCachedData()
-'''
-pass
+    '''    public void saveCachedData()
+    '''
 def getOutputStream():
-'''public ServletOutputStream getOutputStream()
-'''
-pass
+    '''    public ServletOutputStream getOutputStream()
+    '''
 def getPrintWriter():
-'''public PrintWriter getPrintWriter()
-'''
-pass
+    '''    public PrintWriter getPrintWriter()
+    '''
 def getMemento():
-'''public FragmentComposerMemento getMemento(final CacheProxyRequest request)
-'''
-pass
+    '''    public FragmentComposerMemento getMemento(final CacheProxyRequest request)
+    '''
 def copyContentForParents():
-'''public void copyContentForParents()
-'''
-pass
+    '''    public void copyContentForParents()
+    '''
 def getContextPath():
-'''public String getContextPath()
-'''
-pass
+    '''    public String getContextPath()
+    '''
 def toByteArray():
-'''public byte[] toByteArray(final String charEnc)
-'''
-pass
+    '''    public byte[] toByteArray(final String charEnc)
+    '''
 def getCacheType():
-'''public int getCacheType()
-'''
-pass
+    '''    public int getCacheType()
+    '''
 def setCacheType():
-'''public void setCacheType(final int cacheType)
-'''
-pass
+    '''    public void setCacheType(final int cacheType)
+    '''
 def getParent():
-'''public FragmentComposer getParent()
-'''
-pass
+    '''    public FragmentComposer getParent()
+    '''
 def setParent():
-'''public void setParent(final FragmentComposer fc)
-'''
-pass
+    '''    public void setParent(final FragmentComposer fc)
+    '''
 def isExternalPage():
-'''public boolean isExternalPage()
-'''
-pass
+    '''    public boolean isExternalPage()
+    '''
 def setExternalPage():
-'''public void setExternalPage(final boolean externalPage)
-'''
-pass
+    '''    public void setExternalPage(final boolean externalPage)
+    '''
 def setAttributeTableBytes():
-'''public void setAttributeTableBytes(final byte[] attributeTableBytes)
-'''
-pass
+    '''    public void setAttributeTableBytes(final byte[] attributeTableBytes)
+    '''
 def getAttributeTableBytes():
-'''public byte[] getAttributeTableBytes()
-'''
-pass
+    '''    public byte[] getAttributeTableBytes()
+    '''
 def setAttributeTable():
-'''public void setAttributeTable(final CacheProxyRequest.Attribute[] attributeTable)
-'''
-pass
+    '''    public void setAttributeTable(final CacheProxyRequest.Attribute[] attributeTable)
+    '''
 def getFragmentInfo():
-'''public FragmentInfo getFragmentInfo()
-'''
-pass
+    '''    public FragmentInfo getFragmentInfo()
+    '''
 def setFragmentInfo():
-'''public void setFragmentInfo(final FragmentInfo fragmentInfo)
-'''
-pass
+    '''    public void setFragmentInfo(final FragmentInfo fragmentInfo)
+    '''
 def getURI():
-'''public String getURI()
-'''
-pass
+    '''    public String getURI()
+    '''
 def setURI():
-'''public void setURI(final String uri)
-'''
-pass
+    '''    public void setURI(final String uri)
+    '''
 def getServletClassName():
-'''public String getServletClassName()
-'''
-pass
+    '''    public String getServletClassName()
+    '''
 def setServletClassName():
-'''public void setServletClassName(final String servletClassName)
-'''
-pass
+    '''    public void setServletClassName(final String servletClassName)
+    '''
 def getInclude():
-'''public boolean getInclude()
-'''
-pass
+    '''    public boolean getInclude()
+    '''
 def setInclude():
-'''public void setInclude(final boolean include)
-'''
-pass
+    '''    public void setInclude(final boolean include)
+    '''
 def getNamedDispatch():
-'''public boolean getNamedDispatch()
-'''
-pass
+    '''    public boolean getNamedDispatch()
+    '''
 def setNamedDispatch():
-'''public void setNamedDispatch(final boolean namedDispatch)
-'''
-pass
+    '''    public void setNamedDispatch(final boolean namedDispatch)
+    '''
 def setExpirationTime():
-'''public void setExpirationTime(final long expirationTime)
-'''
-pass
+    '''    public void setExpirationTime(final long expirationTime)
+    '''
 def getExpirationTime():
-'''public long getExpirationTime()
-'''
-pass
+    '''    public long getExpirationTime()
+    '''
 def getTimeStamp():
-'''public long getTimeStamp()
-'''
-pass
+    '''    public long getTimeStamp()
+    '''
 def setTimeStamp():
-'''public void setTimeStamp(final long timeStamp)
-'''
-pass
+    '''    public void setTimeStamp(final long timeStamp)
+    '''
 def getAllInvalidationIds():
-'''public ValueSet getAllInvalidationIds()
-'''
-pass
+    '''    public ValueSet getAllInvalidationIds()
+    '''
 def getAllTemplates():
-'''public ValueSet getAllTemplates()
-'''
-pass
+    '''    public ValueSet getAllTemplates()
+    '''
 def setHeader():
-'''public void setHeader(final String key, final String value, final boolean isSet)
-'''
-pass
+    '''    public void setHeader(final String key, final String value, final boolean isSet)
+    '''
 def sendRedirect():
-'''public void sendRedirect(final String location)
-'''
-pass
+    '''    public void sendRedirect(final String location)
+    '''
 def addDynamicContentProvider():
-'''public void addDynamicContentProvider(final DynamicContentProvider dynamicContentProvider)
-'''
-pass
+    '''    public void addDynamicContentProvider(final DynamicContentProvider dynamicContentProvider)
+    '''
 def addCookie():
-'''public void addCookie(final Cookie cookie)
-'''
-pass
+    '''    public void addCookie(final Cookie cookie)
+    '''
 def setDateHeader():
-'''public void setDateHeader(final String name, final long value, final boolean isSet)
-'''
-pass
+    '''    public void setDateHeader(final String name, final long value, final boolean isSet)
+    '''
 def setIntHeader():
-'''public void setIntHeader(final String name, final int value, final boolean isSet)
-'''
-pass
+    '''    public void setIntHeader(final String name, final int value, final boolean isSet)
+    '''
 def setStatus():
-'''public void setStatus(final int statusCode)
-public void setStatus(final int statusCode, final String comment)
-'''
-pass
+    '''    public void setStatus(final int statusCode)
+    public void setStatus(final int statusCode, final String comment)
+    '''
 def setContentLength():
-'''public void setContentLength(final int contentLength)
-'''
-pass
+    '''    public void setContentLength(final int contentLength)
+    '''
 def setContentType():
-'''public void setContentType(final String contentType)
-'''
-pass
+    '''    public void setContentType(final String contentType)
+    '''
 def setCharacterEncoding():
-'''public void setCharacterEncoding(final String charEnc)
-'''
-pass
+    '''    public void setCharacterEncoding(final String charEnc)
+    '''
 def setLocale():
-'''public void setLocale(final Locale locale)
-'''
-pass
+    '''    public void setLocale(final Locale locale)
+    '''
 def setESIVersion():
-'''public void setESIVersion(final int esiVersion)
-'''
-pass
+    '''    public void setESIVersion(final int esiVersion)
+    '''
 def getESIVersion():
-'''public int getESIVersion()
-'''
-pass
+    '''    public int getESIVersion()
+    '''
 def isArdChild():
-'''public boolean isArdChild()
-'''
-pass
+    '''    public boolean isArdChild()
+    '''
 def setArdChild():
-'''public void setArdChild(final boolean ardChild)
-'''
-pass
+    '''    public void setArdChild(final boolean ardChild)
+    '''
 def isArdParent():
-'''public boolean isArdParent()
-'''
-pass
+    '''    public boolean isArdParent()
+    '''
 def setArdParent():
-'''public void setArdParent(final boolean ardParent)
-'''
-pass
+    '''    public void setArdParent(final boolean ardParent)
+    '''
 def getNumOfUnprocessedARDChildren():
-'''public synchronized int getNumOfUnprocessedARDChildren()
-'''
-pass
+    '''    public synchronized int getNumOfUnprocessedARDChildren()
+    '''
 def finishedProcessingARDChild():
-'''public synchronized void finishedProcessingARDChild()
-'''
-pass
+    '''    public synchronized void finishedProcessingARDChild()
+    '''
 def addARDChildForProcessing():
-'''public synchronized void addARDChildForProcessing()
-'''
-pass
+    '''    public synchronized void addARDChildForProcessing()
+    '''
 def getArdChildID():
-'''public String getArdChildID()
-'''
-pass
+    '''    public String getArdChildID()
+    '''
 def setArdChildID():
-'''public void setArdChildID(final String childID)
-'''
-pass
+    '''    public void setArdChildID(final String childID)
+    '''
 def getArdChildren():
-'''public int getArdChildren()
-'''
-pass
+    '''    public int getArdChildren()
+    '''
 def isFinishedProcessing():
-'''public boolean isFinishedProcessing()
-'''
-pass
+    '''    public boolean isFinishedProcessing()
+    '''
 def setFinishedProcessing():
-'''public void setFinishedProcessing(final boolean finishedProcessing)
-'''
-pass
+    '''    public void setFinishedProcessing(final boolean finishedProcessing)
+    '''
 def getARDChildFragmentComposer():
-'''public FragmentComposer getARDChildFragmentComposer(final String ardID)
-'''
-pass
+    '''    public FragmentComposer getARDChildFragmentComposer(final String ardID)
+    '''
 def addChildARDFragmentComposer():
-'''public void addChildARDFragmentComposer(final String ardID, final FragmentComposer fragmentComposer)
-'''
-pass
+    '''    public void addChildARDFragmentComposer(final String ardID, final FragmentComposer fragmentComposer)
+    '''
 def removeChildARDFragmentComposer():
-'''public FragmentComposer removeChildARDFragmentComposer(final String ardID)
-'''
-pass
+    '''    public FragmentComposer removeChildARDFragmentComposer(final String ardID)
+    '''
 def isDiscardJSPContent():
-'''public boolean isDiscardJSPContent()
-'''
-pass
+    '''    public boolean isDiscardJSPContent()
+    '''
 def setDiscardJSPContent():
-'''public void setDiscardJSPContent(final boolean discardJSPContent)
-'''
-pass
+    '''    public void setDiscardJSPContent(final boolean discardJSPContent)
+    '''

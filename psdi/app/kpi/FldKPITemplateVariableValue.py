@@ -1,8 +1,6 @@
 def FldKPITemplateVariableValue():
-'''public FldKPITemplateVariableValue(final MboValue mbv)
-'''
-pass
+    '''    public FldKPITemplateVariableValue(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

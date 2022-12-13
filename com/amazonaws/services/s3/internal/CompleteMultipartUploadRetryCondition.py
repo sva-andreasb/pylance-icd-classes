@@ -1,8 +1,6 @@
 def CompleteMultipartUploadRetryCondition():
-'''public CompleteMultipartUploadRetryCondition()
-'''
-pass
+    '''    public CompleteMultipartUploadRetryCondition()
+    '''
 def shouldRetry():
-'''public boolean shouldRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
-'''
-pass
+    '''    public boolean shouldRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
+    '''

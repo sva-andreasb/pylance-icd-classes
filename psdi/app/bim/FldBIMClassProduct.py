@@ -1,8 +1,6 @@
 def FldBIMClassProduct():
-'''public FldBIMClassProduct(final MboValue mbv)
-'''
-pass
+    '''    public FldBIMClassProduct(final MboValue mbv)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

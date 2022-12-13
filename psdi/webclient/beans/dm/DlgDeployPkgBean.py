@@ -1,20 +1,15 @@
 def DlgDeployPkgBean():
-'''public DlgDeployPkgBean()
-'''
-pass
+    '''    public DlgDeployPkgBean()
+    '''
 def deploy():
-'''public int deploy()
-'''
-pass
+    '''    public int deploy()
+    '''
 def viewmanifest():
-'''public int viewmanifest()
-'''
-pass
+    '''    public int viewmanifest()
+    '''
 def toggleselectrow():
-'''public int toggleselectrow()
-'''
-pass
+    '''    public int toggleselectrow()
+    '''
 def deleterow():
-'''public int deleterow()
-'''
-pass
+    '''    public int deleterow()
+    '''

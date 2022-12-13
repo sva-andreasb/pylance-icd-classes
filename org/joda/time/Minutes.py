@@ -1,87 +1,66 @@
 def minutes():
-'''public static Minutes minutes(final int n)
-'''
-pass
+    '''    public static Minutes minutes(final int n)
+    '''
 def minutesBetween():
-'''public static Minutes minutesBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
-public static Minutes minutesBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
-'''
-pass
+    '''    public static Minutes minutesBetween(final ReadableInstant readableInstant, final ReadableInstant readableInstant2)
+    public static Minutes minutesBetween(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
+    '''
 def minutesIn():
-'''public static Minutes minutesIn(final ReadableInterval readableInterval)
-'''
-pass
+    '''    public static Minutes minutesIn(final ReadableInterval readableInterval)
+    '''
 def standardMinutesIn():
-'''public static Minutes standardMinutesIn(final ReadablePeriod readablePeriod)
-'''
-pass
+    '''    public static Minutes standardMinutesIn(final ReadablePeriod readablePeriod)
+    '''
 def parseMinutes():
-'''public static Minutes parseMinutes(final String s)
-'''
-pass
+    '''    public static Minutes parseMinutes(final String s)
+    '''
 def getFieldType():
-'''public DurationFieldType getFieldType()
-'''
-pass
+    '''    public DurationFieldType getFieldType()
+    '''
 def getPeriodType():
-'''public PeriodType getPeriodType()
-'''
-pass
+    '''    public PeriodType getPeriodType()
+    '''
 def toStandardWeeks():
-'''public Weeks toStandardWeeks()
-'''
-pass
+    '''    public Weeks toStandardWeeks()
+    '''
 def toStandardDays():
-'''public Days toStandardDays()
-'''
-pass
+    '''    public Days toStandardDays()
+    '''
 def toStandardHours():
-'''public Hours toStandardHours()
-'''
-pass
+    '''    public Hours toStandardHours()
+    '''
 def toStandardSeconds():
-'''public Seconds toStandardSeconds()
-'''
-pass
+    '''    public Seconds toStandardSeconds()
+    '''
 def toStandardDuration():
-'''public Duration toStandardDuration()
-'''
-pass
+    '''    public Duration toStandardDuration()
+    '''
 def getMinutes():
-'''public int getMinutes()
-'''
-pass
+    '''    public int getMinutes()
+    '''
 def plus():
-'''public Minutes plus(final int n)
-public Minutes plus(final Minutes minutes)
-'''
-pass
+    '''    public Minutes plus(final int n)
+    public Minutes plus(final Minutes minutes)
+    '''
 def minus():
-'''public Minutes minus(final int n)
-public Minutes minus(final Minutes minutes)
-'''
-pass
+    '''    public Minutes minus(final int n)
+    public Minutes minus(final Minutes minutes)
+    '''
 def multipliedBy():
-'''public Minutes multipliedBy(final int n)
-'''
-pass
+    '''    public Minutes multipliedBy(final int n)
+    '''
 def dividedBy():
-'''public Minutes dividedBy(final int n)
-'''
-pass
+    '''    public Minutes dividedBy(final int n)
+    '''
 def negated():
-'''public Minutes negated()
-'''
-pass
+    '''    public Minutes negated()
+    '''
 def isGreaterThan():
-'''public boolean isGreaterThan(final Minutes minutes)
-'''
-pass
+    '''    public boolean isGreaterThan(final Minutes minutes)
+    '''
 def isLessThan():
-'''public boolean isLessThan(final Minutes minutes)
-'''
-pass
+    '''    public boolean isLessThan(final Minutes minutes)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

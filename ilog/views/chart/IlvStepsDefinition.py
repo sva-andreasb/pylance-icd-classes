@@ -1,44 +1,33 @@
 def getScale():
-'''public final IlvScale getScale()
-'''
-pass
+    '''    public final IlvScale getScale()
+    '''
 def update():
-'''public void update()
-'''
-pass
+    '''    public void update()
+    '''
 def hasNext():
-'''public boolean hasNext(final double n)
-'''
-pass
+    '''    public boolean hasNext(final double n)
+    '''
 def nextStep():
-'''public double nextStep(final double n)
-'''
-pass
+    '''    public double nextStep(final double n)
+    '''
 def hasSubStep():
-'''public boolean hasSubStep()
-'''
-pass
+    '''    public boolean hasSubStep()
+    '''
 def previousSubStep():
-'''public double previousSubStep(final double n)
-'''
-pass
+    '''    public double previousSubStep(final double n)
+    '''
 def nextSubStep():
-'''public double nextSubStep(final double n)
-'''
-pass
+    '''    public double nextSubStep(final double n)
+    '''
 def incrementSubStep():
-'''public double incrementSubStep(final double n)
-'''
-pass
+    '''    public double incrementSubStep(final double n)
+    '''
 def getULocale():
-'''public ULocale getULocale()
-'''
-pass
+    '''    public ULocale getULocale()
+    '''
 def getLocale():
-'''public final Locale getLocale()
-'''
-pass
+    '''    public final Locale getLocale()
+    '''
 def localeChanged():
-'''public void localeChanged()
-'''
-pass
+    '''    public void localeChanged()
+    '''

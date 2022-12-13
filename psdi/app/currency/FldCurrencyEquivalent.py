@@ -1,8 +1,6 @@
 def FldCurrencyEquivalent():
-'''public FldCurrencyEquivalent(final MboValue mbv)
-'''
-pass
+    '''    public FldCurrencyEquivalent(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

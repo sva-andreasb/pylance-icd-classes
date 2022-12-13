@@ -1,32 +1,24 @@
 def AppContentTreeBean():
-'''public AppContentTreeBean()
-'''
-pass
+    '''    public AppContentTreeBean()
+    '''
 def getTop():
-'''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
-'''
-pass
+    '''    public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''
 def getChildren():
-'''public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
-'''
-pass
+    '''    public Object[][] getChildren(final String objectname, final String uniqueid, final String[] dataattributes, final int maxchildren)
+    '''
 def setHierarchy():
-'''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
-'''
-pass
+    '''    public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''
 def getMboValueData():
-'''public Object[] getMboValueData(final String[] dataattributes)
-'''
-pass
+    '''    public Object[] getMboValueData(final String[] dataattributes)
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def setcurrentnode():
-'''public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
-'''
-pass
+    '''    public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
+    '''

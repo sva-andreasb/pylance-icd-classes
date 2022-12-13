@@ -1,8 +1,6 @@
 def WOChange():
-'''public WOChange(final MboSet ms)
-'''
-pass
+    '''    public WOChange(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,4 +1,3 @@
 def CCIGuidLoaderParamSet():
-'''public CCIGuidLoaderParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CCIGuidLoaderParamSet(final MboServerInterface ms)
+    '''

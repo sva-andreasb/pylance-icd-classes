@@ -1,12 +1,9 @@
 def HttpRequestMessage():
-'''public HttpRequestMessage(final HttpServletRequest request, final String URL)
-'''
-pass
+    '''    public HttpRequestMessage(final HttpServletRequest request, final String URL)
+    '''
 def getBodyAsStream():
-'''public InputStream getBodyAsStream()
-'''
-pass
+    '''    public InputStream getBodyAsStream()
+    '''
 def getBodyEncoding():
-'''public String getBodyEncoding()
-'''
-pass
+    '''    public String getBodyEncoding()
+    '''

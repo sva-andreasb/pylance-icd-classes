@@ -1,4 +1,3 @@
 def FldQueueType():
-'''public FldQueueType(final MboValue mbv)
-'''
-pass
+    '''    public FldQueueType(final MboValue mbv)
+    '''

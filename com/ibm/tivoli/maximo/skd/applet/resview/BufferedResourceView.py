@@ -1,72 +1,54 @@
 def BufferedResourceView():
-'''public BufferedResourceView(final Container stubView)
-'''
-pass
+    '''    public BufferedResourceView(final Container stubView)
+    '''
 def initializeView():
-'''public Component initializeView()
-'''
-pass
+    '''    public Component initializeView()
+    '''
 def attachModel():
-'''public void attachModel(final AppletGanttModel model)
-'''
-pass
+    '''    public void attachModel(final AppletGanttModel model)
+    '''
 def setResourceViewContext():
-'''public void setResourceViewContext(final ResourceViewContext context)
-'''
-pass
+    '''    public void setResourceViewContext(final ResourceViewContext context)
+    '''
 def setDividerLocation():
-'''public void setDividerLocation(final int location)
-'''
-pass
+    '''    public void setDividerLocation(final int location)
+    '''
 def print():
-'''public void print()
-'''
-pass
+    '''    public void print()
+    '''
 def printPreview():
-'''public void printPreview()
-'''
-pass
+    '''    public void printPreview()
+    '''
 def printSetup():
-'''public void printSetup()
-'''
-pass
+    '''    public void printSetup()
+    '''
 def attachGanttModelToViewComponents():
-'''public void attachGanttModelToViewComponents()
-'''
-pass
+    '''    public void attachGanttModelToViewComponents()
+    '''
 def detachGanttModelFromViewComponents():
-'''public void detachGanttModelFromViewComponents()
-'''
-pass
+    '''    public void detachGanttModelFromViewComponents()
+    '''
 def activate():
-'''public void activate()
-'''
-pass
+    '''    public void activate()
+    '''
 def deactivate():
-'''public void deactivate()
-'''
-pass
+    '''    public void deactivate()
+    '''
 def applyActivityQbeFilter():
-'''public void applyActivityQbeFilter(final Map<String, String> map)
-'''
-pass
+    '''    public void applyActivityQbeFilter(final Map<String, String> map)
+    '''
 def applyActivityFilter():
-'''public void applyActivityFilter(final String s)
-'''
-pass
+    '''    public void applyActivityFilter(final String s)
+    '''
 def setViewId():
-'''public void setViewId(final String id)
-'''
-pass
+    '''    public void setViewId(final String id)
+    '''
 def getViewId():
-'''public String getViewId()
-'''
-pass
+    '''    public String getViewId()
+    '''
 def getResourceViewContext():
-'''public ResourceViewContext getResourceViewContext()
-'''
-pass
+    '''    public ResourceViewContext getResourceViewContext()
+    '''
 def getModel():
-'''public AppletGanttModel getModel()
-'''
-pass
+    '''    public AppletGanttModel getModel()
+    '''

@@ -1,97 +1,74 @@
 sid = "short  2170"
 def create():
-'''public static CFRule12Record create(final HSSFSheet sheet, final String formulaText)
-public static CFRule12Record create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2)
-public static CFRule12Record create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2, final String formulaTextScale)
-public static CFRule12Record create(final HSSFSheet sheet, final ExtendedColor color)
-public static CFRule12Record create(final HSSFSheet sheet, final org.apache.poi.ss.usermodel.IconMultiStateFormatting.IconSet iconSet)
-'''
-pass
+    '''    public static CFRule12Record create(final HSSFSheet sheet, final String formulaText)
+    public static CFRule12Record create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2)
+    public static CFRule12Record create(final HSSFSheet sheet, final byte comparisonOperation, final String formulaText1, final String formulaText2, final String formulaTextScale)
+    public static CFRule12Record create(final HSSFSheet sheet, final ExtendedColor color)
+    public static CFRule12Record create(final HSSFSheet sheet, final org.apache.poi.ss.usermodel.IconMultiStateFormatting.IconSet iconSet)
+    '''
 def createColorScale():
-'''public static CFRule12Record createColorScale(final HSSFSheet sheet)
-'''
-pass
+    '''    public static CFRule12Record createColorScale(final HSSFSheet sheet)
+    '''
 def CFRule12Record():
-'''public CFRule12Record(final RecordInputStream in)
-'''
-pass
+    '''    public CFRule12Record(final RecordInputStream in)
+    '''
 def containsDataBarBlock():
-'''public boolean containsDataBarBlock()
-'''
-pass
+    '''    public boolean containsDataBarBlock()
+    '''
 def getDataBarFormatting():
-'''public DataBarFormatting getDataBarFormatting()
-'''
-pass
+    '''    public DataBarFormatting getDataBarFormatting()
+    '''
 def createDataBarFormatting():
-'''public DataBarFormatting createDataBarFormatting()
-'''
-pass
+    '''    public DataBarFormatting createDataBarFormatting()
+    '''
 def containsMultiStateBlock():
-'''public boolean containsMultiStateBlock()
-'''
-pass
+    '''    public boolean containsMultiStateBlock()
+    '''
 def getMultiStateFormatting():
-'''public IconMultiStateFormatting getMultiStateFormatting()
-'''
-pass
+    '''    public IconMultiStateFormatting getMultiStateFormatting()
+    '''
 def createMultiStateFormatting():
-'''public IconMultiStateFormatting createMultiStateFormatting()
-'''
-pass
+    '''    public IconMultiStateFormatting createMultiStateFormatting()
+    '''
 def containsColorGradientBlock():
-'''public boolean containsColorGradientBlock()
-'''
-pass
+    '''    public boolean containsColorGradientBlock()
+    '''
 def getColorGradientFormatting():
-'''public ColorGradientFormatting getColorGradientFormatting()
-'''
-pass
+    '''    public ColorGradientFormatting getColorGradientFormatting()
+    '''
 def createColorGradientFormatting():
-'''public ColorGradientFormatting createColorGradientFormatting()
-'''
-pass
+    '''    public ColorGradientFormatting createColorGradientFormatting()
+    '''
 def getParsedExpressionScale():
-'''public Ptg[] getParsedExpressionScale()
-'''
-pass
+    '''    public Ptg[] getParsedExpressionScale()
+    '''
 def setParsedExpressionScale():
-'''public void setParsedExpressionScale(final Ptg[] ptgs)
-'''
-pass
+    '''    public void setParsedExpressionScale(final Ptg[] ptgs)
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def setPriority():
-'''public void setPriority(final int priority)
-'''
-pass
+    '''    public void setPriority(final int priority)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public CFRule12Record clone()
-'''
-pass
+    '''    public CFRule12Record clone()
+    '''
 def getFutureRecordType():
-'''public short getFutureRecordType()
-'''
-pass
+    '''    public short getFutureRecordType()
+    '''
 def getFutureHeader():
-'''public FtrHeader getFutureHeader()
-'''
-pass
+    '''    public FtrHeader getFutureHeader()
+    '''
 def getAssociatedRange():
-'''public CellRangeAddress getAssociatedRange()
-'''
-pass
+    '''    public CellRangeAddress getAssociatedRange()
+    '''

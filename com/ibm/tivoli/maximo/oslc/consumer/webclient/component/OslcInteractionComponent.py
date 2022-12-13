@@ -1,12 +1,9 @@
 def CREATIONDIALOG():
-'''public void CREATIONDIALOG()
-'''
-pass
+    '''    public void CREATIONDIALOG()
+    '''
 def SELECTIONDIALOG():
-'''public void SELECTIONDIALOG()
-'''
-pass
+    '''    public void SELECTIONDIALOG()
+    '''
 def PREVIEWDIALOG():
-'''public void PREVIEWDIALOG()
-'''
-pass
+    '''    public void PREVIEWDIALOG()
+    '''

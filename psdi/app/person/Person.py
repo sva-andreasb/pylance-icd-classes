@@ -1,142 +1,108 @@
 def Person():
-'''public Person(final MboSet ms)
-'''
-pass
+    '''    public Person(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def getDefaultDisplayName():
-'''public String getDefaultDisplayName()
-'''
-pass
+    '''    public String getDefaultDisplayName()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def isDelegateLoopCreated():
-'''public void isDelegateLoopCreated()
-'''
-pass
+    '''    public void isDelegateLoopCreated()
+    '''
 def getSupervisees():
-'''public String getSupervisees()
-'''
-pass
+    '''    public String getSupervisees()
+    '''
 def setPrimaryPhone():
-'''public void setPrimaryPhone(final MboRemote inPhone)
-'''
-pass
+    '''    public void setPrimaryPhone(final MboRemote inPhone)
+    '''
 def setPrimaryEmail():
-'''public void setPrimaryEmail(final MboRemote inEmail)
-'''
-pass
+    '''    public void setPrimaryEmail(final MboRemote inEmail)
+    '''
 def getPrimaryPhone():
-'''public MboRemote getPrimaryPhone()
-'''
-pass
+    '''    public MboRemote getPrimaryPhone()
+    '''
 def getPrimaryEmail():
-'''public MboRemote getPrimaryEmail()
-'''
-pass
+    '''    public MboRemote getPrimaryEmail()
+    '''
 def getEndDateFromCalendar():
-'''public Date getEndDateFromCalendar(Date startDate, final String duration, final String orgid)
-'''
-pass
+    '''    public Date getEndDateFromCalendar(Date startDate, final String duration, final String orgid)
+    '''
 def getTodaysHours():
-'''public double getTodaysHours(final Date startDate, final String orgid)
-'''
-pass
+    '''    public double getTodaysHours(final Date startDate, final String orgid)
+    '''
 def getAvailableHours():
-'''public double getAvailableHours(final Date startDate, final String orgid)
-public double getAvailableHours(final Date startDate, final String orgid, final AvailCalc availCalc)
-public double getAvailableHours(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
-'''
-pass
+    '''    public double getAvailableHours(final Date startDate, final String orgid)
+    public double getAvailableHours(final Date startDate, final String orgid, final AvailCalc availCalc)
+    public double getAvailableHours(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
+    '''
 def getAvailableMbo():
-'''public MboRemote getAvailableMbo(final Date startDate, final String orgid)
-public MboRemote getAvailableMbo(final Date startDate, final String orgid, final AvailCalc availCalc)
-public MboRemote getAvailableMbo(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
-'''
-pass
+    '''    public MboRemote getAvailableMbo(final Date startDate, final String orgid)
+    public MboRemote getAvailableMbo(final Date startDate, final String orgid, final AvailCalc availCalc)
+    public MboRemote getAvailableMbo(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
+    '''
 def getAvailableMboList():
-'''public List<MboRemote> getAvailableMboList(final Date startDate, final String orgid)
-public List<MboRemote> getAvailableMboList(final Date startDate, final String orgid, final AvailCalc availCalc)
-public List<MboRemote> getAvailableMboList(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
-'''
-pass
+    '''    public List<MboRemote> getAvailableMboList(final Date startDate, final String orgid)
+    public List<MboRemote> getAvailableMboList(final Date startDate, final String orgid, final AvailCalc availCalc)
+    public List<MboRemote> getAvailableMboList(final Date startDate, final PersonCalRemote personCal, AvailCalc availCalc)
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo)
+    '''
 def getDelegate():
-'''public PersonRemote getDelegate(final Date asof)
-'''
-pass
+    '''    public PersonRemote getDelegate(final Date asof)
+    '''
 def getLastDelegate():
-'''public PersonRemote getLastDelegate(final PersonRemote person, final Date asof)
-'''
-pass
+    '''    public PersonRemote getLastDelegate(final PersonRemote person, final Date asof)
+    '''
 def getCalType():
-'''public String getCalType()
-'''
-pass
+    '''    public String getCalType()
+    '''
 def getLocaleStr():
-'''public String getLocaleStr()
-'''
-pass
+    '''    public String getLocaleStr()
+    '''
 def getTimezoneStr():
-'''public String getTimezoneStr()
-'''
-pass
+    '''    public String getTimezoneStr()
+    '''
 def updatePrimaryCalendar():
-'''public void updatePrimaryCalendar()
-'''
-pass
+    '''    public void updatePrimaryCalendar()
+    '''
 def deletePrimaryCalendar():
-'''public void deletePrimaryCalendar()
-'''
-pass
+    '''    public void deletePrimaryCalendar()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def getStartApp():
-'''public String getStartApp()
-'''
-pass
+    '''    public String getStartApp()
+    '''
 def toChangeStatusAfterInactive():
-'''public boolean toChangeStatusAfterInactive()
-'''
-pass
+    '''    public boolean toChangeStatusAfterInactive()
+    '''
 def setDateTo():
-'''public void setDateTo(final Date dateTo)
-'''
-pass
+    '''    public void setDateTo(final Date dateTo)
+    '''
 def getDateTo():
-'''public Date getDateTo()
-'''
-pass
+    '''    public Date getDateTo()
+    '''
 def deletePersonData():
-'''public void deletePersonData()
-'''
-pass
+    '''    public void deletePersonData()
+    '''

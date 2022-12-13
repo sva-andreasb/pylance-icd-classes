@@ -1,8 +1,6 @@
 def FldProcSequence():
-'''public FldProcSequence(final MboValue mbv)
-'''
-pass
+    '''    public FldProcSequence(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

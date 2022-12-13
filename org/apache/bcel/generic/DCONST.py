@@ -1,16 +1,12 @@
 def DCONST():
-'''public DCONST(final double f)
-'''
-pass
+    '''    public DCONST(final double f)
+    '''
 def getValue():
-'''public Number getValue()
-'''
-pass
+    '''    public Number getValue()
+    '''
 def getType():
-'''public Type getType(final ConstantPoolGen cp)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cp)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

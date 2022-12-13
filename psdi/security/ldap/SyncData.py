@@ -1,24 +1,18 @@
 def SyncData():
-'''public SyncData()
-'''
-pass
+    '''    public SyncData()
+    '''
 def get():
-'''public String get(final String attributeName)
-'''
-pass
+    '''    public String get(final String attributeName)
+    '''
 def put():
-'''public void put(final String attributeName, final String value)
-'''
-pass
+    '''    public void put(final String attributeName, final String value)
+    '''
 def getAttributes():
-'''public Iterator getAttributes()
-'''
-pass
+    '''    public Iterator getAttributes()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,40 +1,30 @@
 def CSSPseudoClassCondition():
-'''public CSSPseudoClassCondition(final String namespaceURI, final String value)
-'''
-pass
+    '''    public CSSPseudoClassCondition(final String namespaceURI, final String value)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getConditionType():
-'''public short getConditionType()
-'''
-pass
+    '''    public short getConditionType()
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def getSpecified():
-'''public boolean getSpecified()
-'''
-pass
+    '''    public boolean getSpecified()
+    '''
 def match():
-'''public boolean match(final Element e, final String pseudoE)
-'''
-pass
+    '''    public boolean match(final Element e, final String pseudoE)
+    '''
 def fillAttributeSet():
-'''public void fillAttributeSet(final Set attrSet)
-'''
-pass
+    '''    public void fillAttributeSet(final Set attrSet)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def VpkMsgSetUserStatus():
-'''public VpkMsgSetUserStatus(final int n, final STUserStatus stUserStatus)
-'''
-pass
+    '''    public VpkMsgSetUserStatus(final int n, final STUserStatus stUserStatus)
+    '''

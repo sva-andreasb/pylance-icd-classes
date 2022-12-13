@@ -1,8 +1,6 @@
 def FldProcReplaceValue():
-'''public FldProcReplaceValue(final MboValue mbv)
-'''
-pass
+    '''    public FldProcReplaceValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

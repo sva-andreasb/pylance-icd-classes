@@ -1,9 +1,7 @@
 def PlusPFldTotal():
-'''public PlusPFldTotal()
-public PlusPFldTotal(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTotal()
+    public PlusPFldTotal(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

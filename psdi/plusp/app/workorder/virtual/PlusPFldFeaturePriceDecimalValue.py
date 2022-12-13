@@ -1,13 +1,10 @@
 def PlusPFldFeaturePriceDecimalValue():
-'''public PlusPFldFeaturePriceDecimalValue()
-public PlusPFldFeaturePriceDecimalValue(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldFeaturePriceDecimalValue()
+    public PlusPFldFeaturePriceDecimalValue(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def overrideScale():
-'''public void overrideScale()
-'''
-pass
+    '''    public void overrideScale()
+    '''

@@ -1,24 +1,18 @@
 def ModTDBDataset():
-'''public ModTDBDataset()
-'''
-pass
+    '''    public ModTDBDataset()
+    '''
 def registerWith():
-'''public void registerWith(final CmdGeneral cmdLine)
-'''
-pass
+    '''    public void registerWith(final CmdGeneral cmdLine)
+    '''
 def processArgs():
-'''public void processArgs(final CmdArgModule cmdLine)
-'''
-pass
+    '''    public void processArgs(final CmdArgModule cmdLine)
+    '''
 def createDataset():
-'''public Dataset createDataset()
-'''
-pass
+    '''    public Dataset createDataset()
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def locations():
-'''public List<String> locations()
-'''
-pass
+    '''    public List<String> locations()
+    '''

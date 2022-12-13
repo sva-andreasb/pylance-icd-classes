@@ -1,4 +1,3 @@
 def PlusPFldBillSched():
-'''public PlusPFldBillSched(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBillSched(final MboValue mbv)
+    '''

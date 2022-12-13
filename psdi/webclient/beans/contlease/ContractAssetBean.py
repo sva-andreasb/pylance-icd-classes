@@ -1,8 +1,6 @@
 def selectleaseassets():
-'''public int selectleaseassets()
-'''
-pass
+    '''    public int selectleaseassets()
+    '''
 def selectmoreassets():
-'''public int selectmoreassets()
-'''
-pass
+    '''    public int selectmoreassets()
+    '''

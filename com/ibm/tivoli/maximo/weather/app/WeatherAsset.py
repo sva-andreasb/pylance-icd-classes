@@ -1,8 +1,6 @@
 def WeatherAsset():
-'''public WeatherAsset(final MboSet ms)
-'''
-pass
+    '''    public WeatherAsset(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

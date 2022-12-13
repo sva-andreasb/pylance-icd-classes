@@ -1,8 +1,6 @@
 def FldInventoryPickedQty():
-'''public FldInventoryPickedQty(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryPickedQty(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

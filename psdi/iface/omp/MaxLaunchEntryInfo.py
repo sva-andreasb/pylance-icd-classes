@@ -1,40 +1,30 @@
 def MaxLaunchEntryInfo():
-'''public MaxLaunchEntryInfo(final String launchentryname, final String displayname, final String portnumber, final String consoleurl, final String targetwindow, final String ompproductname, final String ompversion)
-'''
-pass
+    '''    public MaxLaunchEntryInfo(final String launchentryname, final String displayname, final String portnumber, final String consoleurl, final String targetwindow, final String ompproductname, final String ompversion)
+    '''
 def getLaunchEntryName():
-'''public String getLaunchEntryName()
-'''
-pass
+    '''    public String getLaunchEntryName()
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def getPortNumber():
-'''public String getPortNumber()
-'''
-pass
+    '''    public String getPortNumber()
+    '''
 def getConsoleURL():
-'''public String getConsoleURL()
-'''
-pass
+    '''    public String getConsoleURL()
+    '''
 def getTargetWindow():
-'''public String getTargetWindow()
-'''
-pass
+    '''    public String getTargetWindow()
+    '''
 def getOMPProductName():
-'''public String getOMPProductName()
-'''
-pass
+    '''    public String getOMPProductName()
+    '''
 def getOMPVersion():
-'''public String getOMPVersion()
-'''
-pass
+    '''    public String getOMPVersion()
+    '''
 def setContexts():
-'''public void setContexts(final ArrayList<MaxLEContextInfo> contexts)
-'''
-pass
+    '''    public void setContexts(final ArrayList<MaxLEContextInfo> contexts)
+    '''
 def getContexts():
-'''public ArrayList<MaxLEContextInfo> getContexts()
-'''
-pass
+    '''    public ArrayList<MaxLEContextInfo> getContexts()
+    '''

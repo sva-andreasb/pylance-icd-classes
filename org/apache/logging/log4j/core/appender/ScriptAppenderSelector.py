@@ -1,44 +1,33 @@
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def append():
-'''public void append(final LogEvent event)
-'''
-pass
+    '''    public void append(final LogEvent event)
+    '''
 def build():
-'''public Appender build()
-'''
-pass
+    '''    public Appender build()
+    '''
 def getAppenderSet():
-'''public AppenderSet getAppenderSet()
-'''
-pass
+    '''    public AppenderSet getAppenderSet()
+    '''
 def getConfiguration():
-'''public Configuration getConfiguration()
-'''
-pass
+    '''    public Configuration getConfiguration()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getScript():
-'''public AbstractScript getScript()
-'''
-pass
+    '''    public AbstractScript getScript()
+    '''
 def withAppenderNodeSet():
-'''public Builder withAppenderNodeSet(final AppenderSet appenderSet)
-'''
-pass
+    '''    public Builder withAppenderNodeSet(final AppenderSet appenderSet)
+    '''
 def withConfiguration():
-'''public Builder withConfiguration(final Configuration configuration)
-'''
-pass
+    '''    public Builder withConfiguration(final Configuration configuration)
+    '''
 def withName():
-'''public Builder withName(final String name)
-'''
-pass
+    '''    public Builder withName(final String name)
+    '''
 def withScript():
-'''public Builder withScript(final AbstractScript script)
-'''
-pass
+    '''    public Builder withScript(final AbstractScript script)
+    '''

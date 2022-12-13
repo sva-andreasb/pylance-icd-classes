@@ -1,16 +1,12 @@
 def KerberosCredentials():
-'''public KerberosCredentials(final GSSCredential gssCredential)
-'''
-pass
+    '''    public KerberosCredentials(final GSSCredential gssCredential)
+    '''
 def getGSSCredential():
-'''public GSSCredential getGSSCredential()
-'''
-pass
+    '''    public GSSCredential getGSSCredential()
+    '''
 def getUserPrincipal():
-'''public Principal getUserPrincipal()
-'''
-pass
+    '''    public Principal getUserPrincipal()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''

@@ -1,52 +1,39 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def showMsgDisplayAsMessageBox():
-'''public int showMsgDisplayAsMessageBox()
-'''
-pass
+    '''    public int showMsgDisplayAsMessageBox()
+    '''
 def showMsgDisplayAsStatus():
-'''public int showMsgDisplayAsStatus()
-'''
-pass
+    '''    public int showMsgDisplayAsStatus()
+    '''
 def showMsgGroupKey():
-'''public int showMsgGroupKey()
-'''
-pass
+    '''    public int showMsgGroupKey()
+    '''
 def showMsgException():
-'''public int showMsgException()
-'''
-pass
+    '''    public int showMsgException()
+    '''
 def showMsgMessageString():
-'''public int showMsgMessageString()
-'''
-pass
+    '''    public int showMsgMessageString()
+    '''
 def showMsgTwoForOne():
-'''public int showMsgTwoForOne()
-'''
-pass
+    '''    public int showMsgTwoForOne()
+    '''
 def showMsgButtonOk():
-'''public int showMsgButtonOk()
-'''
-pass
+    '''    public int showMsgButtonOk()
+    '''
 def showMsgButtonClose():
-'''public int showMsgButtonClose()
-'''
-pass
+    '''    public int showMsgButtonClose()
+    '''
 def showMsgButtonOkCancel():
-'''public int showMsgButtonOkCancel()
-'''
-pass
+    '''    public int showMsgButtonOkCancel()
+    '''
 def showMsgButtonYesNo():
-'''public int showMsgButtonYesNo()
-'''
-pass
+    '''    public int showMsgButtonYesNo()
+    '''
 def showMsgButtonYesNoCancel():
-'''public int showMsgButtonYesNoCancel()
-'''
-pass
+    '''    public int showMsgButtonYesNoCancel()
+    '''
 def forceSave():
-'''public int forceSave()
-'''
-pass
+    '''    public int forceSave()
+    '''

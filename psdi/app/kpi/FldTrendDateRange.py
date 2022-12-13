@@ -1,12 +1,9 @@
 def FldTrendDateRange():
-'''public FldTrendDateRange(final MboValue mv)
-'''
-pass
+    '''    public FldTrendDateRange(final MboValue mv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

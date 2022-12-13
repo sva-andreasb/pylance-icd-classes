@@ -1,8 +1,6 @@
 def FldInvVendorQtyReceived():
-'''public FldInvVendorQtyReceived(final MboValue mbv)
-'''
-pass
+    '''    public FldInvVendorQtyReceived(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

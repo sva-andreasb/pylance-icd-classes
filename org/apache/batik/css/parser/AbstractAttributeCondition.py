@@ -1,4 +1,3 @@
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

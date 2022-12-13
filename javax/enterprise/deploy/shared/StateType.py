@@ -1,12 +1,9 @@
 def getValue():
-'''public int getValue()
-'''
-pass
+    '''    public int getValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getStateType():
-'''public static StateType getStateType(final int value)
-'''
-pass
+    '''    public static StateType getStateType(final int value)
+    '''

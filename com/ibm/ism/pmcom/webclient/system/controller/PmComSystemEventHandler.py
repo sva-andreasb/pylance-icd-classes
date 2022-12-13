@@ -1,16 +1,12 @@
 def gotoapp():
-'''public int gotoapp()
-'''
-pass
+    '''    public int gotoapp()
+    '''
 def goToLIC():
-'''public int goToLIC()
-'''
-pass
+    '''    public int goToLIC()
+    '''
 def launchServicePortal():
-'''public int launchServicePortal()
-'''
-pass
+    '''    public int launchServicePortal()
+    '''
 def CHATOPSLINK():
-'''public int CHATOPSLINK()
-'''
-pass
+    '''    public int CHATOPSLINK()
+    '''

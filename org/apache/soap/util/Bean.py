@@ -1,4 +1,3 @@
 def Bean():
-'''public Bean(final Class type, final Object value)
-'''
-pass
+    '''    public Bean(final Class type, final Object value)
+    '''

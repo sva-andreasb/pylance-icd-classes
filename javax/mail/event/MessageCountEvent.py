@@ -1,22 +1,17 @@
 ADDED = "int  1"
 REMOVED = "int  2"
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def isRemoved():
-'''public boolean isRemoved()
-'''
-pass
+    '''    public boolean isRemoved()
+    '''
 def dispatch():
-'''public void dispatch(final Object listener)
-'''
-pass
+    '''    public void dispatch(final Object listener)
+    '''
 def getMessages():
-'''public Message[] getMessages()
-'''
-pass
+    '''    public Message[] getMessages()
+    '''
 def MessageCountEvent():
-'''public MessageCountEvent(final Folder folder, final int type, final boolean removed, final Message[] msgs)
-'''
-pass
+    '''    public MessageCountEvent(final Folder folder, final int type, final boolean removed, final Message[] msgs)
+    '''

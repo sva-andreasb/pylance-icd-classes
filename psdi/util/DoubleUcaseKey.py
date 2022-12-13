@@ -1,28 +1,21 @@
 def DoubleUcaseKey():
-'''public DoubleUcaseKey(final String tbname, final String name)
-'''
-pass
+    '''    public DoubleUcaseKey(final String tbname, final String name)
+    '''
 def getFirstKey():
-'''public String getFirstKey()
-'''
-pass
+    '''    public String getFirstKey()
+    '''
 def getSecondKey():
-'''public String getSecondKey()
-'''
-pass
+    '''    public String getSecondKey()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def compareTo():
-'''public int compareTo(final DoubleUcaseKey o)
-'''
-pass
+    '''    public int compareTo(final DoubleUcaseKey o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

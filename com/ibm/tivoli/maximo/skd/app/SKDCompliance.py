@@ -1,8 +1,6 @@
 def SKDCompliance():
-'''public SKDCompliance(final MboSet ms)
-'''
-pass
+    '''    public SKDCompliance(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

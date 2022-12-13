@@ -1,32 +1,24 @@
 def AutoScriptVars():
-'''public AutoScriptVars(final MboSet ms)
-'''
-pass
+    '''    public AutoScriptVars(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def isFlagExist():
-'''public boolean isFlagExist(final long dbValue, final long compValue)
-'''
-pass
+    '''    public boolean isFlagExist(final long dbValue, final long compValue)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

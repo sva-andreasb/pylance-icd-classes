@@ -1,8 +1,6 @@
 def FldMaxObjectCfgLangColumnName():
-'''public FldMaxObjectCfgLangColumnName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxObjectCfgLangColumnName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

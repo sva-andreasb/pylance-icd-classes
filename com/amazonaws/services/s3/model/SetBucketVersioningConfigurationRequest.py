@@ -1,41 +1,31 @@
 def SetBucketVersioningConfigurationRequest():
-'''public SetBucketVersioningConfigurationRequest(final String bucketName, final BucketVersioningConfiguration configuration)
-public SetBucketVersioningConfigurationRequest(final String bucketName, final BucketVersioningConfiguration configuration, final MultiFactorAuthentication mfa)
-'''
-pass
+    '''    public SetBucketVersioningConfigurationRequest(final String bucketName, final BucketVersioningConfiguration configuration)
+    public SetBucketVersioningConfigurationRequest(final String bucketName, final BucketVersioningConfiguration configuration, final MultiFactorAuthentication mfa)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def withBucketName():
-'''public SetBucketVersioningConfigurationRequest withBucketName(final String bucketName)
-'''
-pass
+    '''    public SetBucketVersioningConfigurationRequest withBucketName(final String bucketName)
+    '''
 def getVersioningConfiguration():
-'''public BucketVersioningConfiguration getVersioningConfiguration()
-'''
-pass
+    '''    public BucketVersioningConfiguration getVersioningConfiguration()
+    '''
 def setVersioningConfiguration():
-'''public void setVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)
-'''
-pass
+    '''    public void setVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)
+    '''
 def withVersioningConfiguration():
-'''public SetBucketVersioningConfigurationRequest withVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)
-'''
-pass
+    '''    public SetBucketVersioningConfigurationRequest withVersioningConfiguration(final BucketVersioningConfiguration versioningConfiguration)
+    '''
 def getMfa():
-'''public MultiFactorAuthentication getMfa()
-'''
-pass
+    '''    public MultiFactorAuthentication getMfa()
+    '''
 def setMfa():
-'''public void setMfa(final MultiFactorAuthentication mfa)
-'''
-pass
+    '''    public void setMfa(final MultiFactorAuthentication mfa)
+    '''
 def withMfa():
-'''public SetBucketVersioningConfigurationRequest withMfa(final MultiFactorAuthentication mfa)
-'''
-pass
+    '''    public SetBucketVersioningConfigurationRequest withMfa(final MultiFactorAuthentication mfa)
+    '''

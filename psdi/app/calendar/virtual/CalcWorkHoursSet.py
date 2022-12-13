@@ -1,8 +1,6 @@
 def CalcWorkHoursSet():
-'''public CalcWorkHoursSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CalcWorkHoursSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

@@ -1,12 +1,9 @@
 def ViewWOPMsBeanAsset():
-'''public ViewWOPMsBeanAsset()
-'''
-pass
+    '''    public ViewWOPMsBeanAsset()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def doRefresh():
-'''public void doRefresh()
-'''
-pass
+    '''    public void doRefresh()
+    '''

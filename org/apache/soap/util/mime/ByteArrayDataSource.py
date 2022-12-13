@@ -1,43 +1,33 @@
 def ByteArrayDataSource():
-'''public ByteArrayDataSource(final File file, final String s)
-public ByteArrayDataSource(final InputStream inputStream, final String type)
-public ByteArrayDataSource(final String s, final String type)
-public ByteArrayDataSource(final byte[] data, final String type)
-'''
-pass
+    '''    public ByteArrayDataSource(final File file, final String s)
+    public ByteArrayDataSource(final InputStream inputStream, final String type)
+    public ByteArrayDataSource(final String s, final String type)
+    public ByteArrayDataSource(final byte[] data, final String type)
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setContentType():
-'''public void setContentType(final String type)
-'''
-pass
+    '''    public void setContentType(final String type)
+    '''
 def toByteArray():
-'''public byte[] toByteArray()
-'''
-pass
+    '''    public byte[] toByteArray()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outputStream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outputStream)
+    '''

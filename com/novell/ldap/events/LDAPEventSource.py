@@ -1,28 +1,21 @@
 def LDAPEventSource():
-'''public LDAPEventSource()
-'''
-pass
+    '''    public LDAPEventSource()
+    '''
 def getSleepTime():
-'''public long getSleepTime()
-'''
-pass
+    '''    public long getSleepTime()
+    '''
 def setSleepTime():
-'''public void setSleepTime(final long sleepTime)
-'''
-pass
+    '''    public void setSleepTime(final long sleepTime)
+    '''
 def compare():
-'''public int compare(final Object o, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o, final Object o2)
+    '''
 def EventsGenerator():
-'''public EventsGenerator(final LDAPEventSource eventsource, final LDAPMessageQueue searchqueue, final LDAPEventListener eventlistener, final LDAPConnection ldapconnection, final int messageid)
-'''
-pass
+    '''    public EventsGenerator(final LDAPEventSource eventsource, final LDAPMessageQueue searchqueue, final LDAPEventListener eventlistener, final LDAPConnection ldapconnection, final int messageid)
+    '''
 def run():
-'''public final void run()
-'''
-pass
+    '''    public final void run()
+    '''
 def stopEventGeneration():
-'''public final void stopEventGeneration()
-'''
-pass
+    '''    public final void stopEventGeneration()
+    '''

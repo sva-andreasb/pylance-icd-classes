@@ -1,4 +1,3 @@
 def AMCrewModAvailSet():
-'''public AMCrewModAvailSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AMCrewModAvailSet(final MboServerInterface ms)
+    '''

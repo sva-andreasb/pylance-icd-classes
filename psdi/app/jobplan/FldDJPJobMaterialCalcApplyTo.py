@@ -1,8 +1,6 @@
 def FldDJPJobMaterialCalcApplyTo():
-'''public FldDJPJobMaterialCalcApplyTo(final MboValue mv)
-'''
-pass
+    '''    public FldDJPJobMaterialCalcApplyTo(final MboValue mv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

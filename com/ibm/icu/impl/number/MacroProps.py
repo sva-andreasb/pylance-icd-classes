@@ -1,16 +1,12 @@
 def fallback():
-'''public void fallback(final MacroProps fallback)
-'''
-pass
+    '''    public void fallback(final MacroProps fallback)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object _other)
-'''
-pass
+    '''    public boolean equals(final Object _other)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

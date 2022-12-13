@@ -1,8 +1,6 @@
 def KafkaTenantErrorsCleanUp():
-'''public KafkaTenantErrorsCleanUp()
-'''
-pass
+    '''    public KafkaTenantErrorsCleanUp()
+    '''
 def cleanErrors():
-'''public void cleanErrors()
-'''
-pass
+    '''    public void cleanErrors()
+    '''

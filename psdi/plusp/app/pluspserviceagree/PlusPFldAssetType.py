@@ -1,8 +1,6 @@
 def PlusPFldAssetType():
-'''public PlusPFldAssetType(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldAssetType(final MboValue mv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

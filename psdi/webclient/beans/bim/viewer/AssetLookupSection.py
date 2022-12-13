@@ -1,16 +1,12 @@
 def bimviewer():
-'''public int bimviewer()
-'''
-pass
+    '''    public int bimviewer()
+    '''
 def bimModelListChanged():
-'''public int bimModelListChanged()
-'''
-pass
+    '''    public int bimModelListChanged()
+    '''
 def eventMultiSelect():
-'''public int eventMultiSelect()
-'''
-pass
+    '''    public int eventMultiSelect()
+    '''
 def appendSelection():
-'''public int appendSelection()
-'''
-pass
+    '''    public int appendSelection()
+    '''

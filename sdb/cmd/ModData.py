@@ -1,12 +1,9 @@
 def ModData():
-'''public ModData()
-'''
-pass
+    '''    public ModData()
+    '''
 def registerWith():
-'''public void registerWith(final CmdGeneral cmdLine)
-'''
-pass
+    '''    public void registerWith(final CmdGeneral cmdLine)
+    '''
 def processArgs():
-'''public void processArgs(final CmdArgModule cmdLine)
-'''
-pass
+    '''    public void processArgs(final CmdArgModule cmdLine)
+    '''

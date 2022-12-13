@@ -1,4 +1,3 @@
 def SubmitDetailsSet():
-'''public SubmitDetailsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SubmitDetailsSet(final MboServerInterface ms)
+    '''

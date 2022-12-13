@@ -1,8 +1,6 @@
 def FldPMUseAssetDefRepFac():
-'''public FldPMUseAssetDefRepFac(final MboValue mbv)
-'''
-pass
+    '''    public FldPMUseAssetDefRepFac(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''

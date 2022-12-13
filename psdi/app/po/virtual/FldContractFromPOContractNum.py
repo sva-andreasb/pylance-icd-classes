@@ -1,8 +1,6 @@
 def FldContractFromPOContractNum():
-'''public FldContractFromPOContractNum(final MboValue mbv)
-'''
-pass
+    '''    public FldContractFromPOContractNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

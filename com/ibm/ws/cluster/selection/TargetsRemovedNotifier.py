@@ -1,8 +1,6 @@
 def registerCallback():
-'''public static void registerCallback(final TargetsRemovedCallback object)
-'''
-pass
+    '''    public static void registerCallback(final TargetsRemovedCallback object)
+    '''
 def callRegisteredCallbacks():
-'''public static void callRegisteredCallbacks(final Collection<Target> targets)
-'''
-pass
+    '''    public static void callRegisteredCallbacks(final Collection<Target> targets)
+    '''

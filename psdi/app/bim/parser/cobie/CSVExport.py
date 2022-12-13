@@ -1,24 +1,18 @@
 def CSVExport():
-'''public CSVExport(final MessageLogger logger, final InputStream templateStream)
-'''
-pass
+    '''    public CSVExport(final MessageLogger logger, final InputStream templateStream)
+    '''
 def getLogger():
-'''public MessageLogger getLogger()
-'''
-pass
+    '''    public MessageLogger getLogger()
+    '''
 def addRow():
-'''public void addRow(final String[] columnNames)
-'''
-pass
+    '''    public void addRow(final String[] columnNames)
+    '''
 def processPage():
-'''public void processPage(final String pageName, final String[] colNames)
-'''
-pass
+    '''    public void processPage(final String pageName, final String[] colNames)
+    '''
 def getColumnNames():
-'''public String[] getColumnNames()
-'''
-pass
+    '''    public String[] getColumnNames()
+    '''
 def write():
-'''public void write(final String fileName)
-'''
-pass
+    '''    public void write(final String fileName)
+    '''

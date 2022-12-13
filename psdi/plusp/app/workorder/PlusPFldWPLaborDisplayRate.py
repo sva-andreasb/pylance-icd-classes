@@ -1,8 +1,6 @@
 def PlusPFldWPLaborDisplayRate():
-'''public PlusPFldWPLaborDisplayRate(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWPLaborDisplayRate(final MboValue arg0)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

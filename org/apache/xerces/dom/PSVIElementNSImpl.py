@@ -1,89 +1,67 @@
 def PSVIElementNSImpl():
-'''public PSVIElementNSImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String s2, final String s3)
-public PSVIElementNSImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String s2)
-'''
-pass
+    '''    public PSVIElementNSImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String s2, final String s3)
+    public PSVIElementNSImpl(final CoreDocumentImpl coreDocumentImpl, final String s, final String s2)
+    '''
 def constant():
-'''public ItemPSVI constant()
-'''
-pass
+    '''    public ItemPSVI constant()
+    '''
 def isConstant():
-'''public boolean isConstant()
-'''
-pass
+    '''    public boolean isConstant()
+    '''
 def getSchemaDefault():
-'''public String getSchemaDefault()
-'''
-pass
+    '''    public String getSchemaDefault()
+    '''
 def getSchemaNormalizedValue():
-'''public String getSchemaNormalizedValue()
-'''
-pass
+    '''    public String getSchemaNormalizedValue()
+    '''
 def getIsSchemaSpecified():
-'''public boolean getIsSchemaSpecified()
-'''
-pass
+    '''    public boolean getIsSchemaSpecified()
+    '''
 def getValidationAttempted():
-'''public short getValidationAttempted()
-'''
-pass
+    '''    public short getValidationAttempted()
+    '''
 def getValidity():
-'''public short getValidity()
-'''
-pass
+    '''    public short getValidity()
+    '''
 def getErrorCodes():
-'''public StringList getErrorCodes()
-'''
-pass
+    '''    public StringList getErrorCodes()
+    '''
 def getErrorMessages():
-'''public StringList getErrorMessages()
-'''
-pass
+    '''    public StringList getErrorMessages()
+    '''
 def getValidationContext():
-'''public String getValidationContext()
-'''
-pass
+    '''    public String getValidationContext()
+    '''
 def getNil():
-'''public boolean getNil()
-'''
-pass
+    '''    public boolean getNil()
+    '''
 def getNotation():
-'''public XSNotationDeclaration getNotation()
-'''
-pass
+    '''    public XSNotationDeclaration getNotation()
+    '''
 def getTypeDefinition():
-'''public XSTypeDefinition getTypeDefinition()
-'''
-pass
+    '''    public XSTypeDefinition getTypeDefinition()
+    '''
 def getMemberTypeDefinition():
-'''public XSSimpleTypeDefinition getMemberTypeDefinition()
-'''
-pass
+    '''    public XSSimpleTypeDefinition getMemberTypeDefinition()
+    '''
 def getElementDeclaration():
-'''public XSElementDeclaration getElementDeclaration()
-'''
-pass
+    '''    public XSElementDeclaration getElementDeclaration()
+    '''
 def getSchemaInformation():
-'''public XSModel getSchemaInformation()
-'''
-pass
+    '''    public XSModel getSchemaInformation()
+    '''
 def setPSVI():
-'''public void setPSVI(final ElementPSVI elementPSVI)
-'''
-pass
+    '''    public void setPSVI(final ElementPSVI elementPSVI)
+    '''
 def getActualNormalizedValue():
-'''public Object getActualNormalizedValue()
-'''
-pass
+    '''    public Object getActualNormalizedValue()
+    '''
 def getActualNormalizedValueType():
-'''public short getActualNormalizedValueType()
-'''
-pass
+    '''    public short getActualNormalizedValueType()
+    '''
 def getItemValueTypes():
-'''public ShortList getItemValueTypes()
-'''
-pass
+    '''    public ShortList getItemValueTypes()
+    '''
 def getSchemaValue():
-'''public XSValue getSchemaValue()
-'''
-pass
+    '''    public XSValue getSchemaValue()
+    '''

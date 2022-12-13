@@ -1,4 +1,3 @@
 def FldRCDAssetObjectName():
-'''public FldRCDAssetObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldRCDAssetObjectName(final MboValue mbv)
+    '''

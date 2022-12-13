@@ -1,8 +1,6 @@
 def FldFilterDate():
-'''public FldFilterDate(final MboValue mbv)
-'''
-pass
+    '''    public FldFilterDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

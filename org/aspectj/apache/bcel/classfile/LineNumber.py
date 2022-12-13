@@ -1,29 +1,22 @@
 def LineNumber():
-'''public LineNumber(final LineNumber c)
-public LineNumber(final int startPC, final int lineNumber)
-'''
-pass
+    '''    public LineNumber(final LineNumber c)
+    public LineNumber(final int startPC, final int lineNumber)
+    '''
 def accept():
-'''public void accept(final ClassVisitor v)
-'''
-pass
+    '''    public void accept(final ClassVisitor v)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getLineNumber():
-'''public final int getLineNumber()
-'''
-pass
+    '''    public final int getLineNumber()
+    '''
 def getStartPC():
-'''public final int getStartPC()
-'''
-pass
+    '''    public final int getStartPC()
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def copy():
-'''public LineNumber copy()
-'''
-pass
+    '''    public LineNumber copy()
+    '''

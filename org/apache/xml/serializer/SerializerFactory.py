@@ -1,4 +1,3 @@
 def getSerializer():
-'''public static Serializer getSerializer(final Properties format)
-'''
-pass
+    '''    public static Serializer getSerializer(final Properties format)
+    '''

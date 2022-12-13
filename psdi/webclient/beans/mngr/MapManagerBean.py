@@ -1,16 +1,12 @@
 def RESTOREMAPSYMBOLOGY():
-'''public int RESTOREMAPSYMBOLOGY()
-'''
-pass
+    '''    public int RESTOREMAPSYMBOLOGY()
+    '''
 def VALIDATEMAPSYMBOLOGY():
-'''public int VALIDATEMAPSYMBOLOGY()
-'''
-pass
+    '''    public int VALIDATEMAPSYMBOLOGY()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def REFRESH():
-'''public int REFRESH()
-'''
-pass
+    '''    public int REFRESH()
+    '''

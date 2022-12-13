@@ -1,104 +1,78 @@
 def SchemaParser():
-'''public SchemaParser(final String rawString)
-'''
-pass
+    '''    public SchemaParser(final String rawString)
+    '''
 def setRawString():
-'''public final void setRawString(final String rawString)
-'''
-pass
+    '''    public final void setRawString(final String rawString)
+    '''
 def getRawString():
-'''public final String getRawString()
-'''
-pass
+    '''    public final String getRawString()
+    '''
 def getNames():
-'''public final String[] getNames()
-'''
-pass
+    '''    public final String[] getNames()
+    '''
 def getQualifiers():
-'''public final Enumeration getQualifiers()
-'''
-pass
+    '''    public final Enumeration getQualifiers()
+    '''
 def getID():
-'''public final String getID()
-'''
-pass
+    '''    public final String getID()
+    '''
 def getDescription():
-'''public final String getDescription()
-'''
-pass
+    '''    public final String getDescription()
+    '''
 def getSyntax():
-'''public final String getSyntax()
-'''
-pass
+    '''    public final String getSyntax()
+    '''
 def getSuperior():
-'''public final String getSuperior()
-'''
-pass
+    '''    public final String getSuperior()
+    '''
 def getSingle():
-'''public final boolean getSingle()
-'''
-pass
+    '''    public final boolean getSingle()
+    '''
 def getObsolete():
-'''public final boolean getObsolete()
-'''
-pass
+    '''    public final boolean getObsolete()
+    '''
 def getEquality():
-'''public final String getEquality()
-'''
-pass
+    '''    public final String getEquality()
+    '''
 def getOrdering():
-'''public final String getOrdering()
-'''
-pass
+    '''    public final String getOrdering()
+    '''
 def getSubstring():
-'''public final String getSubstring()
-'''
-pass
+    '''    public final String getSubstring()
+    '''
 def getCollective():
-'''public final boolean getCollective()
-'''
-pass
+    '''    public final boolean getCollective()
+    '''
 def getUserMod():
-'''public final boolean getUserMod()
-'''
-pass
+    '''    public final boolean getUserMod()
+    '''
 def getUsage():
-'''public final int getUsage()
-'''
-pass
+    '''    public final int getUsage()
+    '''
 def getType():
-'''public final int getType()
-'''
-pass
+    '''    public final int getType()
+    '''
 def getSuperiors():
-'''public final String[] getSuperiors()
-'''
-pass
+    '''    public final String[] getSuperiors()
+    '''
 def getRequired():
-'''public final String[] getRequired()
-'''
-pass
+    '''    public final String[] getRequired()
+    '''
 def getOptional():
-'''public final String[] getOptional()
-'''
-pass
+    '''    public final String[] getOptional()
+    '''
 def getAuxiliary():
-'''public final String[] getAuxiliary()
-'''
-pass
+    '''    public final String[] getAuxiliary()
+    '''
 def getPrecluded():
-'''public final String[] getPrecluded()
-'''
-pass
+    '''    public final String[] getPrecluded()
+    '''
 def getApplies():
-'''public final String[] getApplies()
-'''
-pass
+    '''    public final String[] getApplies()
+    '''
 def getNameForm():
-'''public final String getNameForm()
-'''
-pass
+    '''    public final String getNameForm()
+    '''
 def getObjectClass():
-'''public final String getObjectClass()
-'''
-pass
+    '''    public final String getObjectClass()
+    '''

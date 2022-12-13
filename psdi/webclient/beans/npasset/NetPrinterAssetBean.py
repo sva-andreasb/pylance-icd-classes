@@ -1,4 +1,3 @@
 def PROMOTE():
-'''public int PROMOTE()
-'''
-pass
+    '''    public int PROMOTE()
+    '''

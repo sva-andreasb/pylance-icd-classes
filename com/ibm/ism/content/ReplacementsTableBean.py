@@ -1,8 +1,6 @@
 def ReplacementsTableBean():
-'''public ReplacementsTableBean()
-'''
-pass
+    '''    public ReplacementsTableBean()
+    '''
 def setvalue():
-'''public int setvalue()
-'''
-pass
+    '''    public int setvalue()
+    '''

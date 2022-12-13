@@ -1,76 +1,57 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getGroup():
-'''public Group getGroup()
-'''
-pass
+    '''    public Group getGroup()
+    '''
 def setGroup():
-'''public void setGroup(final Group group)
-'''
-pass
+    '''    public void setGroup(final Group group)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getGroupId():
-'''public Long getGroupId()
-'''
-pass
+    '''    public Long getGroupId()
+    '''
 def setGroupId():
-'''public void setGroupId(final Long groupId)
-'''
-pass
+    '''    public void setGroupId(final Long groupId)
+    '''
 def isGroupIdSpecified():
-'''public boolean isGroupIdSpecified()
-'''
-pass
+    '''    public boolean isGroupIdSpecified()
+    '''
 def unsetGroupId():
-'''public void unsetGroupId()
-'''
-pass
+    '''    public void unsetGroupId()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def groupId():
-'''public Mask groupId()
-'''
-pass
+    '''    public Mask groupId()
+    '''

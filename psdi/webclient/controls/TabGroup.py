@@ -1,91 +1,69 @@
 def TabGroup():
-'''public TabGroup()
-'''
-pass
+    '''    public TabGroup()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def isMainTabGroup():
-'''public boolean isMainTabGroup()
-'''
-pass
+    '''    public boolean isMainTabGroup()
+    '''
 def getCurrentTab():
-'''public Tab getCurrentTab()
-'''
-pass
+    '''    public Tab getCurrentTab()
+    '''
 def gotolisttab():
-'''public int gotolisttab()
-'''
-pass
+    '''    public int gotolisttab()
+    '''
 def setCurrentTab():
-'''public int setCurrentTab(final String tabType)
-public void setCurrentTab(final Tab tab)
-public void setCurrentTab(final Tab tab, final boolean setFocus)
-'''
-pass
+    '''    public int setCurrentTab(final String tabType)
+    public void setCurrentTab(final Tab tab)
+    public void setCurrentTab(final Tab tab, final boolean setFocus)
+    '''
 def getLastId():
-'''public String getLastId()
-'''
-pass
+    '''    public String getLastId()
+    '''
 def changetab():
-'''public int changetab()
-'''
-pass
+    '''    public int changetab()
+    '''
 def nexttab():
-'''public int nexttab()
-public int nexttab(final boolean wrapAround)
-'''
-pass
+    '''    public int nexttab()
+    public int nexttab(final boolean wrapAround)
+    '''
 def previoustab():
-'''public int previoustab()
-'''
-pass
+    '''    public int previoustab()
+    '''
 def tabWasChanged():
-'''public boolean tabWasChanged()
-'''
-pass
+    '''    public boolean tabWasChanged()
+    '''
 def setDesignerSelected():
-'''public ControlInstance setDesignerSelected(final boolean selected)
-'''
-pass
+    '''    public ControlInstance setDesignerSelected(final boolean selected)
+    '''
 def canRemove():
-'''public boolean canRemove()
-'''
-pass
+    '''    public boolean canRemove()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def removeChild():
-'''public void removeChild(final ControlInstance child)
-'''
-pass
+    '''    public void removeChild(final ControlInstance child)
+    '''
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def setReRenderFlags():
-'''public void setReRenderFlags()
-'''
-pass
+    '''    public void setReRenderFlags()
+    '''
 def gotofirsttab():
-'''public int gotofirsttab()
-'''
-pass
+    '''    public int gotofirsttab()
+    '''
 def getChangeToTab():
-'''public Tab getChangeToTab()
-'''
-pass
+    '''    public Tab getChangeToTab()
+    '''
 def isMainTab():
-'''public boolean isMainTab()
-'''
-pass
+    '''    public boolean isMainTab()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''

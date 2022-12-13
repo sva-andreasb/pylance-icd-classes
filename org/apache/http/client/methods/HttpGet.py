@@ -1,11 +1,9 @@
-METHOD_NAME = "String  GET""
+METHOD_NAME = "String  \"GET\""
 def HttpGet():
-'''public HttpGet()
-public HttpGet(final URI uri)
-public HttpGet(final String uri)
-'''
-pass
+    '''    public HttpGet()
+    public HttpGet(final URI uri)
+    public HttpGet(final String uri)
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''

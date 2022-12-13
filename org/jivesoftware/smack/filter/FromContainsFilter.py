@@ -1,8 +1,6 @@
 def FromContainsFilter():
-'''public FromContainsFilter(final String from)
-'''
-pass
+    '''    public FromContainsFilter(final String from)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''

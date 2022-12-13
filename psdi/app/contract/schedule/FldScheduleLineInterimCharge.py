@@ -1,8 +1,6 @@
 def FldScheduleLineInterimCharge():
-'''public FldScheduleLineInterimCharge(final MboValue mbv)
-'''
-pass
+    '''    public FldScheduleLineInterimCharge(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

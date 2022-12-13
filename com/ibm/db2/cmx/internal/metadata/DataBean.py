@@ -10,7 +10,6 @@ POST_TRANSACTION_DATA = "int  220"
 PRE_EXECUTION_DATA = "int  230"
 PQ_METADATA_CORRELATOR = "int  310"
 def get():
-'''public static Object get(final Object[] array, final int n)
-public static long get(final long[] array, final int n)
-'''
-pass
+    '''    public static Object get(final Object[] array, final int n)
+    public static long get(final long[] array, final int n)
+    '''

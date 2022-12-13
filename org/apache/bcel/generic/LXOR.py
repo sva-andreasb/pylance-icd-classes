@@ -1,8 +1,6 @@
 def LXOR():
-'''public LXOR()
-'''
-pass
+    '''    public LXOR()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

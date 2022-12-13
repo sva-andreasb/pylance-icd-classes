@@ -1,76 +1,57 @@
 def PackedTokenAttributeImpl():
-'''public PackedTokenAttributeImpl()
-'''
-pass
+    '''    public PackedTokenAttributeImpl()
+    '''
 def setPositionIncrement():
-'''public void setPositionIncrement(final int positionIncrement)
-'''
-pass
+    '''    public void setPositionIncrement(final int positionIncrement)
+    '''
 def getPositionIncrement():
-'''public int getPositionIncrement()
-'''
-pass
+    '''    public int getPositionIncrement()
+    '''
 def setPositionLength():
-'''public void setPositionLength(final int positionLength)
-'''
-pass
+    '''    public void setPositionLength(final int positionLength)
+    '''
 def getPositionLength():
-'''public int getPositionLength()
-'''
-pass
+    '''    public int getPositionLength()
+    '''
 def startOffset():
-'''public final int startOffset()
-'''
-pass
+    '''    public final int startOffset()
+    '''
 def endOffset():
-'''public final int endOffset()
-'''
-pass
+    '''    public final int endOffset()
+    '''
 def setOffset():
-'''public void setOffset(final int startOffset, final int endOffset)
-'''
-pass
+    '''    public void setOffset(final int startOffset, final int endOffset)
+    '''
 def type():
-'''public final String type()
-'''
-pass
+    '''    public final String type()
+    '''
 def setType():
-'''public final void setType(final String type)
-'''
-pass
+    '''    public final void setType(final String type)
+    '''
 def setTermFrequency():
-'''public final void setTermFrequency(final int termFrequency)
-'''
-pass
+    '''    public final void setTermFrequency(final int termFrequency)
+    '''
 def getTermFrequency():
-'''public final int getTermFrequency()
-'''
-pass
+    '''    public final int getTermFrequency()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''
 def clone():
-'''public PackedTokenAttributeImpl clone()
-'''
-pass
+    '''    public PackedTokenAttributeImpl clone()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def copyTo():
-'''public void copyTo(final AttributeImpl target)
-'''
-pass
+    '''    public void copyTo(final AttributeImpl target)
+    '''
 def reflectWith():
-'''public void reflectWith(final AttributeReflector reflector)
-'''
-pass
+    '''    public void reflectWith(final AttributeReflector reflector)
+    '''

@@ -1,4 +1,3 @@
 def PlusPPricesSet():
-'''public PlusPPricesSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPPricesSet(final MboServerInterface ms)
+    '''

@@ -1,16 +1,12 @@
 def GLComponentMaintenanceBean():
-'''public GLComponentMaintenanceBean()
-'''
-pass
+    '''    public GLComponentMaintenanceBean()
+    '''
 def glcompok():
-'''public int glcompok()
-'''
-pass
+    '''    public int glcompok()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''

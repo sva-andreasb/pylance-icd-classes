@@ -1,218 +1,164 @@
 serialVersionUID = "long  1L"
 def DefinitionImpl():
-'''public DefinitionImpl()
-'''
-pass
+    '''    public DefinitionImpl()
+    '''
 def setDocumentBaseURI():
-'''public void setDocumentBaseURI(final String documentBaseURI)
-'''
-pass
+    '''    public void setDocumentBaseURI(final String documentBaseURI)
+    '''
 def getDocumentBaseURI():
-'''public String getDocumentBaseURI()
-'''
-pass
+    '''    public String getDocumentBaseURI()
+    '''
 def setQName():
-'''public void setQName(final QName name)
-'''
-pass
+    '''    public void setQName(final QName name)
+    '''
 def getQName():
-'''public QName getQName()
-'''
-pass
+    '''    public QName getQName()
+    '''
 def setTargetNamespace():
-'''public void setTargetNamespace(final String targetNamespace)
-'''
-pass
+    '''    public void setTargetNamespace(final String targetNamespace)
+    '''
 def getTargetNamespace():
-'''public String getTargetNamespace()
-'''
-pass
+    '''    public String getTargetNamespace()
+    '''
 def addNamespace():
-'''public void addNamespace(String s, final String s2)
-'''
-pass
+    '''    public void addNamespace(String s, final String s2)
+    '''
 def getNamespace():
-'''public String getNamespace(String s)
-'''
-pass
+    '''    public String getNamespace(String s)
+    '''
 def getPrefix():
-'''public String getPrefix(final String s)
-'''
-pass
+    '''    public String getPrefix(final String s)
+    '''
 def getNamespaces():
-'''public Map getNamespaces()
-'''
-pass
+    '''    public Map getNamespaces()
+    '''
 def setTypes():
-'''public void setTypes(final Types types)
-'''
-pass
+    '''    public void setTypes(final Types types)
+    '''
 def getTypes():
-'''public Types getTypes()
-'''
-pass
+    '''    public Types getTypes()
+    '''
 def addImport():
-'''public void addImport(final Import import1)
-'''
-pass
+    '''    public void addImport(final Import import1)
+    '''
 def getImports():
-'''public List getImports(final String s)
-public Map getImports()
-'''
-pass
+    '''    public List getImports(final String s)
+    public Map getImports()
+    '''
 def addMessage():
-'''public void addMessage(final Message message)
-'''
-pass
+    '''    public void addMessage(final Message message)
+    '''
 def getMessage():
-'''public Message getMessage(final QName qName)
-'''
-pass
+    '''    public Message getMessage(final QName qName)
+    '''
 def removeMessage():
-'''public Message removeMessage(final QName qName)
-'''
-pass
+    '''    public Message removeMessage(final QName qName)
+    '''
 def getMessages():
-'''public Map getMessages()
-'''
-pass
+    '''    public Map getMessages()
+    '''
 def addBinding():
-'''public void addBinding(final Binding binding)
-'''
-pass
+    '''    public void addBinding(final Binding binding)
+    '''
 def getBinding():
-'''public Binding getBinding(final QName qName)
-'''
-pass
+    '''    public Binding getBinding(final QName qName)
+    '''
 def removeBinding():
-'''public Binding removeBinding(final QName qName)
-'''
-pass
+    '''    public Binding removeBinding(final QName qName)
+    '''
 def getBindings():
-'''public Map getBindings()
-'''
-pass
+    '''    public Map getBindings()
+    '''
 def addPortType():
-'''public void addPortType(final PortType portType)
-'''
-pass
+    '''    public void addPortType(final PortType portType)
+    '''
 def getPortType():
-'''public PortType getPortType(final QName qName)
-'''
-pass
+    '''    public PortType getPortType(final QName qName)
+    '''
 def removePortType():
-'''public PortType removePortType(final QName qName)
-'''
-pass
+    '''    public PortType removePortType(final QName qName)
+    '''
 def getPortTypes():
-'''public Map getPortTypes()
-'''
-pass
+    '''    public Map getPortTypes()
+    '''
 def addService():
-'''public void addService(final Service service)
-'''
-pass
+    '''    public void addService(final Service service)
+    '''
 def getService():
-'''public Service getService(final QName qName)
-'''
-pass
+    '''    public Service getService(final QName qName)
+    '''
 def removeService():
-'''public Service removeService(final QName qName)
-'''
-pass
+    '''    public Service removeService(final QName qName)
+    '''
 def getServices():
-'''public Map getServices()
-'''
-pass
+    '''    public Map getServices()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def addExtensibilityElement():
-'''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
-'''
-pass
+    '''    public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''
 def getExtensibilityElements():
-'''public List getExtensibilityElements()
-'''
-pass
+    '''    public List getExtensibilityElements()
+    '''
 def createBinding():
-'''public Binding createBinding()
-'''
-pass
+    '''    public Binding createBinding()
+    '''
 def createBindingFault():
-'''public BindingFault createBindingFault()
-'''
-pass
+    '''    public BindingFault createBindingFault()
+    '''
 def createBindingInput():
-'''public BindingInput createBindingInput()
-'''
-pass
+    '''    public BindingInput createBindingInput()
+    '''
 def createBindingOperation():
-'''public BindingOperation createBindingOperation()
-'''
-pass
+    '''    public BindingOperation createBindingOperation()
+    '''
 def createBindingOutput():
-'''public BindingOutput createBindingOutput()
-'''
-pass
+    '''    public BindingOutput createBindingOutput()
+    '''
 def createFault():
-'''public Fault createFault()
-'''
-pass
+    '''    public Fault createFault()
+    '''
 def createImport():
-'''public Import createImport()
-'''
-pass
+    '''    public Import createImport()
+    '''
 def createInput():
-'''public Input createInput()
-'''
-pass
+    '''    public Input createInput()
+    '''
 def createMessage():
-'''public Message createMessage()
-'''
-pass
+    '''    public Message createMessage()
+    '''
 def createOperation():
-'''public Operation createOperation()
-'''
-pass
+    '''    public Operation createOperation()
+    '''
 def createOutput():
-'''public Output createOutput()
-'''
-pass
+    '''    public Output createOutput()
+    '''
 def createPart():
-'''public Part createPart()
-'''
-pass
+    '''    public Part createPart()
+    '''
 def createPort():
-'''public Port createPort()
-'''
-pass
+    '''    public Port createPort()
+    '''
 def createPortType():
-'''public PortType createPortType()
-'''
-pass
+    '''    public PortType createPortType()
+    '''
 def createService():
-'''public Service createService()
-'''
-pass
+    '''    public Service createService()
+    '''
 def createTypes():
-'''public Types createTypes()
-'''
-pass
+    '''    public Types createTypes()
+    '''
 def setExtensionRegistry():
-'''public void setExtensionRegistry(final ExtensionRegistry extReg)
-'''
-pass
+    '''    public void setExtensionRegistry(final ExtensionRegistry extReg)
+    '''
 def getExtensionRegistry():
-'''public ExtensionRegistry getExtensionRegistry()
-'''
-pass
+    '''    public ExtensionRegistry getExtensionRegistry()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

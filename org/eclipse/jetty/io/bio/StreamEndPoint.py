@@ -1,106 +1,80 @@
 def StreamEndPoint():
-'''public StreamEndPoint(final InputStream in, final OutputStream out)
-'''
-pass
+    '''    public StreamEndPoint(final InputStream in, final OutputStream out)
+    '''
 def isBlocking():
-'''public boolean isBlocking()
-'''
-pass
+    '''    public boolean isBlocking()
+    '''
 def blockReadable():
-'''public boolean blockReadable(final long millisecs)
-'''
-pass
+    '''    public boolean blockReadable(final long millisecs)
+    '''
 def blockWritable():
-'''public boolean blockWritable(final long millisecs)
-'''
-pass
+    '''    public boolean blockWritable(final long millisecs)
+    '''
 def isOpen():
-'''public boolean isOpen()
-'''
-pass
+    '''    public boolean isOpen()
+    '''
 def isClosed():
-'''public final boolean isClosed()
-'''
-pass
+    '''    public final boolean isClosed()
+    '''
 def shutdownOutput():
-'''public void shutdownOutput()
-'''
-pass
+    '''    public void shutdownOutput()
+    '''
 def isInputShutdown():
-'''public boolean isInputShutdown()
-'''
-pass
+    '''    public boolean isInputShutdown()
+    '''
 def shutdownInput():
-'''public void shutdownInput()
-'''
-pass
+    '''    public void shutdownInput()
+    '''
 def isOutputShutdown():
-'''public boolean isOutputShutdown()
-'''
-pass
+    '''    public boolean isOutputShutdown()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def fill():
-'''public int fill(final Buffer buffer)
-'''
-pass
+    '''    public int fill(final Buffer buffer)
+    '''
 def flush():
-'''public int flush(final Buffer buffer)
-public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
-public void flush()
-'''
-pass
+    '''    public int flush(final Buffer buffer)
+    public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
+    public void flush()
+    '''
 def getLocalAddr():
-'''public String getLocalAddr()
-'''
-pass
+    '''    public String getLocalAddr()
+    '''
 def getLocalHost():
-'''public String getLocalHost()
-'''
-pass
+    '''    public String getLocalHost()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getRemoteAddr():
-'''public String getRemoteAddr()
-'''
-pass
+    '''    public String getRemoteAddr()
+    '''
 def getRemoteHost():
-'''public String getRemoteHost()
-'''
-pass
+    '''    public String getRemoteHost()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def getTransport():
-'''public Object getTransport()
-'''
-pass
+    '''    public Object getTransport()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def setInputStream():
-'''public void setInputStream(final InputStream in)
-'''
-pass
+    '''    public void setInputStream(final InputStream in)
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def setOutputStream():
-'''public void setOutputStream(final OutputStream out)
-'''
-pass
+    '''    public void setOutputStream(final OutputStream out)
+    '''
 def getMaxIdleTime():
-'''public int getMaxIdleTime()
-'''
-pass
+    '''    public int getMaxIdleTime()
+    '''
 def setMaxIdleTime():
-'''public void setMaxIdleTime(final int timeMs)
-'''
-pass
+    '''    public void setMaxIdleTime(final int timeMs)
+    '''

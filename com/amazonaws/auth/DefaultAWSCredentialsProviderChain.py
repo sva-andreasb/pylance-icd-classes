@@ -1,4 +1,3 @@
 def DefaultAWSCredentialsProviderChain():
-'''public DefaultAWSCredentialsProviderChain()
-'''
-pass
+    '''    public DefaultAWSCredentialsProviderChain()
+    '''

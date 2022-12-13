@@ -1,4 +1,3 @@
 def TloamCurrencySet():
-'''public TloamCurrencySet(final MboServerInterface ms)
-'''
-pass
+    '''    public TloamCurrencySet(final MboServerInterface ms)
+    '''

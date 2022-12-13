@@ -1,16 +1,12 @@
 def MXODMApp():
-'''public MXODMApp(final MboSet ms)
-'''
-pass
+    '''    public MXODMApp(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def getOptimizationService():
-'''public String getOptimizationService(final UserInfo userInfo)
-'''
-pass
+    '''    public String getOptimizationService(final UserInfo userInfo)
+    '''

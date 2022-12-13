@@ -1,12 +1,9 @@
 def DataSourceProvider():
-'''public DataSourceProvider()
-'''
-pass
+    '''    public DataSourceProvider()
+    '''
 def getDataSourceProvider():
-'''public static DataSourceProvider getDataSourceProvider()
-'''
-pass
+    '''    public static DataSourceProvider getDataSourceProvider()
+    '''
 def getDataSource():
-'''public DataSource getDataSource(final String name)
-'''
-pass
+    '''    public DataSource getDataSource(final String name)
+    '''

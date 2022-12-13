@@ -1,48 +1,36 @@
 def VIEWXML():
-'''public int VIEWXML()
-'''
-pass
+    '''    public int VIEWXML()
+    '''
 def ALIAS():
-'''public int ALIAS()
-'''
-pass
+    '''    public int ALIAS()
+    '''
 def APPIMPORT():
-'''public int APPIMPORT()
-'''
-pass
+    '''    public int APPIMPORT()
+    '''
 def ADDOSAPP():
-'''public int ADDOSAPP()
-'''
-pass
+    '''    public int ADDOSAPP()
+    '''
 def handlecancel():
-'''public int handlecancel()
-'''
-pass
+    '''    public int handlecancel()
+    '''
 def OSLCACTION():
-'''public int OSLCACTION()
-'''
-pass
+    '''    public int OSLCACTION()
+    '''
 def INTQUERY():
-'''public int INTQUERY()
-'''
-pass
+    '''    public int INTQUERY()
+    '''
 def APPEXPORT():
-'''public int APPEXPORT()
-'''
-pass
+    '''    public int APPEXPORT()
+    '''
 def handletree():
-'''public int handletree()
-'''
-pass
+    '''    public int handletree()
+    '''
 def copySigOption():
-'''public void copySigOption()
-'''
-pass
+    '''    public void copySigOption()
+    '''
 def PUBLISH():
-'''public int PUBLISH()
-'''
-pass
+    '''    public int PUBLISH()
+    '''
 def setValue():
-'''public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-'''
-pass
+    '''    public synchronized void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''

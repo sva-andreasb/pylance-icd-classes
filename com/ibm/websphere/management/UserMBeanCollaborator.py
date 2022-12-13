@@ -1,8 +1,6 @@
 def UserMBeanCollaborator():
-'''public UserMBeanCollaborator(final Object runtimeObject)
-'''
-pass
+    '''    public UserMBeanCollaborator(final Object runtimeObject)
+    '''
 def bindMBean():
-'''public void bindMBean(final ModelMBeanInfo info, final ModelMBean bean)
-'''
-pass
+    '''    public void bindMBean(final ModelMBeanInfo info, final ModelMBean bean)
+    '''

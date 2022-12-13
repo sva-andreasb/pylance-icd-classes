@@ -1,40 +1,30 @@
 def ALNDomainInfo():
-'''public ALNDomainInfo(final String name)
-'''
-pass
+    '''    public ALNDomainInfo(final String name)
+    '''
 def getDomainObject():
-'''public MboValueListener getDomainObject(final MboValue mbv)
-'''
-pass
+    '''    public MboValueListener getDomainObject(final MboValue mbv)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def initDetailObject():
-'''public Detail initDetailObject()
-'''
-pass
+    '''    public Detail initDetailObject()
+    '''
 def addConditionObj():
-'''public void addConditionObj(final String obj)
-'''
-pass
+    '''    public void addConditionObj(final String obj)
+    '''
 def hasValueCondition():
-'''public boolean hasValueCondition(final String object)
-'''
-pass
+    '''    public boolean hasValueCondition(final String object)
+    '''
 def getSiteOrgWhere():
-'''public String getSiteOrgWhere(final ALNDomain domain)
-'''
-pass
+    '''    public String getSiteOrgWhere(final ALNDomain domain)
+    '''
 def Detail():
-'''public Detail()
-'''
-pass
+    '''    public Detail()
+    '''
 def getSiteId():
-'''public String getSiteId()
-'''
-pass
+    '''    public String getSiteId()
+    '''
 def getOrgId():
-'''public String getOrgId()
-'''
-pass
+    '''    public String getOrgId()
+    '''

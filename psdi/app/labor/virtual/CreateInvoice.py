@@ -1,8 +1,6 @@
 def CreateInvoice():
-'''public CreateInvoice(final MboSet ms)
-'''
-pass
+    '''    public CreateInvoice(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

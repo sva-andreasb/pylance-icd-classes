@@ -1,4 +1,3 @@
 def testPerformXSLTransformation():
-'''public void testPerformXSLTransformation()
-'''
-pass
+    '''    public void testPerformXSLTransformation()
+    '''

@@ -1,20 +1,15 @@
 def allocateBuffer():
-'''public ByteBuffer allocateBuffer(final int id)
-'''
-pass
+    '''    public ByteBuffer allocateBuffer(final int id)
+    '''
 def get():
-'''public ByteBuffer get(final int id)
-'''
-pass
+    '''    public ByteBuffer get(final int id)
+    '''
 def put():
-'''public void put(final int id, final ByteBuffer block)
-'''
-pass
+    '''    public void put(final int id, final ByteBuffer block)
+    '''
 def freeBlock():
-'''public void freeBlock(final int id)
-'''
-pass
+    '''    public void freeBlock(final int id)
+    '''
 def sync():
-'''public void sync(final boolean force)
-'''
-pass
+    '''    public void sync(final boolean force)
+    '''

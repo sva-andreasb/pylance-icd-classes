@@ -21,30 +21,23 @@ HTML = "int  19"
 PROCESSINGCAPACITYUNITS = "int  20"
 GROUPFUNCTION = "int  21"
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def setDisplayName():
-'''public void setDisplayName(final String displayName)
-'''
-pass
+    '''    public void setDisplayName(final String displayName)
+    '''
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def setFieldName():
-'''public void setFieldName(final String v)
-'''
-pass
+    '''    public void setFieldName(final String v)
+    '''
 def getDisplayType():
-'''public String getDisplayType()
-'''
-pass
+    '''    public String getDisplayType()
+    '''
 def setDisplayType():
-'''public void setDisplayType(final String v)
-'''
-pass
+    '''    public void setDisplayType(final String v)
+    '''
 def getIntDisplayType():
-'''public static int getIntDisplayType(final String type)
-'''
-pass
+    '''    public static int getIntDisplayType(final String type)
+    '''

@@ -1,8 +1,6 @@
 def FldSchLeaseViewLeaseRateFactor():
-'''public FldSchLeaseViewLeaseRateFactor(final MboValue mbv)
-'''
-pass
+    '''    public FldSchLeaseViewLeaseRateFactor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

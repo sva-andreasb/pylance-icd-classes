@@ -1,8 +1,6 @@
 def textReceived():
-'''public void textReceived(final MyselfEvent myselfEvent)
-'''
-pass
+    '''    public void textReceived(final MyselfEvent myselfEvent)
+    '''
 def dataReceived():
-'''public void dataReceived(final MyselfEvent myselfEvent)
-'''
-pass
+    '''    public void dataReceived(final MyselfEvent myselfEvent)
+    '''

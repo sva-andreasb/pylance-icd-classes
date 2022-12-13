@@ -1,12 +1,9 @@
 def AssetFeatureSpecSet():
-'''public AssetFeatureSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetFeatureSpecSet(final MboServerInterface ms)
+    '''
 def whereClauseOnAttrAndValues():
-'''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classStructureid)
-'''
-pass
+    '''    public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classStructureid)
+    '''
 def checkCommonSpecDuplicates():
-'''public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
-'''
-pass
+    '''    public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
+    '''

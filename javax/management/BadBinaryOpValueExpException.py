@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getExp():
-'''public ValueExp getExp()
-'''
-pass
+    '''    public ValueExp getExp()
+    '''
 def BadBinaryOpValueExpException():
-'''public BadBinaryOpValueExpException(final ValueExp exp)
-'''
-pass
+    '''    public BadBinaryOpValueExpException(final ValueExp exp)
+    '''

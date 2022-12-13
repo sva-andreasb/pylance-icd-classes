@@ -1,12 +1,9 @@
 def IFGT():
-'''public IFGT(final InstructionHandle target)
-'''
-pass
+    '''    public IFGT(final InstructionHandle target)
+    '''
 def negate():
-'''public IfInstruction negate()
-'''
-pass
+    '''    public IfInstruction negate()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

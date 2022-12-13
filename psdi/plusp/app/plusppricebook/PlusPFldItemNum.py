@@ -1,20 +1,15 @@
 def PlusPFldItemNum():
-'''public PlusPFldItemNum(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldItemNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def calculateAverageUnitCost():
-'''public void calculateAverageUnitCost()
-'''
-pass
+    '''    public void calculateAverageUnitCost()
+    '''

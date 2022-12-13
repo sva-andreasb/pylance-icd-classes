@@ -1,8 +1,6 @@
 def PatternColor():
-'''public PatternColor(final PdfPatternPainter painter)
-'''
-pass
+    '''    public PatternColor(final PdfPatternPainter painter)
+    '''
 def getPainter():
-'''public PdfPatternPainter getPainter()
-'''
-pass
+    '''    public PdfPatternPainter getPainter()
+    '''

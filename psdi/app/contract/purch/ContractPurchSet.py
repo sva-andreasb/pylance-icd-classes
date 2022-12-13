@@ -1,4 +1,3 @@
 def ContractPurchSet():
-'''public ContractPurchSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContractPurchSet(final MboServerInterface ms)
+    '''

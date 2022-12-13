@@ -21,10 +21,8 @@ SUSP = "int  237"
 EOF = "int  236"
 SYNCH = "int  242"
 def getCommand():
-'''public static final String getCommand(final int code)
-'''
-pass
+    '''    public static final String getCommand(final int code)
+    '''
 def isValidCommand():
-'''public static final boolean isValidCommand(final int code)
-'''
-pass
+    '''    public static final boolean isValidCommand(final int code)
+    '''

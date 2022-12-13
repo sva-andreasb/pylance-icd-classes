@@ -1,12 +1,9 @@
 def XDGFPageContents():
-'''public XDGFPageContents(final PackagePart part, final XDGFDocument document)
-'''
-pass
+    '''    public XDGFPageContents(final PackagePart part, final XDGFDocument document)
+    '''
 def getPage():
-'''public XDGFPage getPage()
-'''
-pass
+    '''    public XDGFPage getPage()
+    '''
 def getMasterById():
-'''public XDGFMaster getMasterById(final long id)
-'''
-pass
+    '''    public XDGFMaster getMasterById(final long id)
+    '''

@@ -1,8 +1,6 @@
 def FldWpSerQty():
-'''public FldWpSerQty(final MboValue mbv)
-'''
-pass
+    '''    public FldWpSerQty(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

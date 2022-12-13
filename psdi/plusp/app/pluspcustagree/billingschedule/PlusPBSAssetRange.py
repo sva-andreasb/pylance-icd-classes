@@ -1,16 +1,12 @@
 def PlusPBSAssetRange():
-'''public PlusPBSAssetRange(final MboSet ms)
-'''
-pass
+    '''    public PlusPBSAssetRange(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def hasRange():
-'''public boolean hasRange()
-'''
-pass
+    '''    public boolean hasRange()
+    '''
 def rangeContains():
-'''public boolean rangeContains(final int n)
-'''
-pass
+    '''    public boolean rangeContains(final int n)
+    '''

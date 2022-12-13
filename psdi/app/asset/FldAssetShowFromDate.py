@@ -1,8 +1,6 @@
 def FldAssetShowFromDate():
-'''public FldAssetShowFromDate(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetShowFromDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

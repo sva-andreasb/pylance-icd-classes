@@ -1,32 +1,24 @@
 def StartCenterPane():
-'''public StartCenterPane()
-'''
-pass
+    '''    public StartCenterPane()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getCurrentStartCenterId():
-'''public String getCurrentStartCenterId()
-'''
-pass
+    '''    public String getCurrentStartCenterId()
+    '''
 def removePortletInstance():
-'''public void removePortletInstance(final DatasrcInstance portlet)
-'''
-pass
+    '''    public void removePortletInstance(final DatasrcInstance portlet)
+    '''
 def getAppBean():
-'''public StartCenterAppBean getAppBean()
-'''
-pass
+    '''    public StartCenterAppBean getAppBean()
+    '''
 def portletDeleted():
-'''public String portletDeleted()
-'''
-pass
+    '''    public String portletDeleted()
+    '''
 def setPortletDeleted():
-'''public void setPortletDeleted(final String portletDeleted)
-'''
-pass
+    '''    public void setPortletDeleted(final String portletDeleted)
+    '''
 def setPortlets():
-'''public void setPortlets(final TreeMap portlets)
-'''
-pass
+    '''    public void setPortlets(final TreeMap portlets)
+    '''

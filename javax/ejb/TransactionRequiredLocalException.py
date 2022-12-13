@@ -1,5 +1,4 @@
 def TransactionRequiredLocalException():
-'''public TransactionRequiredLocalException()
-public TransactionRequiredLocalException(final String message)
-'''
-pass
+    '''    public TransactionRequiredLocalException()
+    public TransactionRequiredLocalException(final String message)
+    '''

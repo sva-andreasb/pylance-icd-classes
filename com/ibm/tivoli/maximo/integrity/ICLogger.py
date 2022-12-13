@@ -1,16 +1,12 @@
 def ICLogger():
-'''public ICLogger(final PrintStream... outputs)
-'''
-pass
+    '''    public ICLogger(final PrintStream... outputs)
+    '''
 def doAppend():
-'''public void doAppend(final LoggingEvent event)
-'''
-pass
+    '''    public void doAppend(final LoggingEvent event)
+    '''
 def info():
-'''public boolean info(final String loggerName, final Object msg)
-'''
-pass
+    '''    public boolean info(final String loggerName, final Object msg)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

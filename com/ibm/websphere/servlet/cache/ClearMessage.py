@@ -1,4 +1,3 @@
 def ClearMessage():
-'''public ClearMessage()
-'''
-pass
+    '''    public ClearMessage()
+    '''

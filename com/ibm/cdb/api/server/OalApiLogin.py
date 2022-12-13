@@ -1,55 +1,42 @@
 def OalApiLogin():
-'''public OalApiLogin()
-public OalApiLogin(final String user, final String pass, final ApiPrincipal pr, final String clientIp, final long verison)
-'''
-pass
+    '''    public OalApiLogin()
+    public OalApiLogin(final String user, final String pass, final ApiPrincipal pr, final String clientIp, final long verison)
+    '''
 def init():
-'''public void init(final long sess, final long version)
-public void init(final ApiPrincipal pr, final String user, final String pass, final String clientIp, final long verison)
-'''
-pass
+    '''    public void init(final long sess, final long version)
+    public void init(final ApiPrincipal pr, final String user, final String pass, final String clientIp, final long verison)
+    '''
 def checkSessionId():
-'''public ApiLoginInterface checkSessionId(final String sessionId)
-'''
-pass
+    '''    public ApiLoginInterface checkSessionId(final String sessionId)
+    '''
 def getTopoMgr():
-'''public TopologyManager getTopoMgr(final TopologyManagerFactory tmf)
-public TopologyManager getTopoMgr()
-'''
-pass
+    '''    public TopologyManager getTopoMgr(final TopologyManagerFactory tmf)
+    public TopologyManager getTopoMgr()
+    '''
 def getSessionId():
-'''public long getSessionId()
-'''
-pass
+    '''    public long getSessionId()
+    '''
 def getSession():
-'''public SessionContext getSession()
-'''
-pass
+    '''    public SessionContext getSession()
+    '''
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def logout():
-'''public void logout()
-'''
-pass
+    '''    public void logout()
+    '''
 def checkPermission():
-'''public SessionContext checkPermission(final int type)
-'''
-pass
+    '''    public SessionContext checkPermission(final int type)
+    '''
 def ping():
-'''public static boolean ping()
-'''
-pass
+    '''    public static boolean ping()
+    '''
 def getTxTimer():
-'''public Timer getTxTimer()
-'''
-pass
+    '''    public Timer getTxTimer()
+    '''
 def setTxTimer():
-'''public void setTxTimer(final Timer t)
-'''
-pass
+    '''    public void setTxTimer(final Timer t)
+    '''
 def getVersion():
-'''public long getVersion()
-'''
-pass
+    '''    public long getVersion()
+    '''

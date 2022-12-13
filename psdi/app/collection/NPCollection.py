@@ -1,8 +1,6 @@
 def NPCollection():
-'''public NPCollection(final MboSet ms)
-'''
-pass
+    '''    public NPCollection(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

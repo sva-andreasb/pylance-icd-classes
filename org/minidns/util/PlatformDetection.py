@@ -1,4 +1,3 @@
 def isAndroid():
-'''public static boolean isAndroid()
-'''
-pass
+    '''    public static boolean isAndroid()
+    '''

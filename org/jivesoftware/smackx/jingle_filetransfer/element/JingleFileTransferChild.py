@@ -1,86 +1,66 @@
-ELEMENT = "String  file""
-ELEM_DATE = "String  date""
-ELEM_DESC = "String  desc""
-ELEM_MEDIA_TYPE = "String  media-type""
-ELEM_NAME = "String  name""
-ELEM_SIZE = "String  size""
+ELEMENT = "String  \"file\""
+ELEM_DATE = "String  \"date\""
+ELEM_DESC = "String  \"desc\""
+ELEM_MEDIA_TYPE = "String  \"media-type\""
+ELEM_NAME = "String  \"name\""
+ELEM_SIZE = "String  \"size\""
 def JingleFileTransferChild():
-'''public JingleFileTransferChild(final Date date, final String desc, final HashElement hash, final String mediaType, final String name, final int size, final Range range)
-'''
-pass
+    '''    public JingleFileTransferChild(final Date date, final String desc, final HashElement hash, final String mediaType, final String name, final int size, final Range range)
+    '''
 def getDate():
-'''public Date getDate()
-'''
-pass
+    '''    public Date getDate()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getHash():
-'''public HashElement getHash()
-'''
-pass
+    '''    public HashElement getHash()
+    '''
 def getMediaType():
-'''public String getMediaType()
-'''
-pass
+    '''    public String getMediaType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getRange():
-'''public Range getRange()
-'''
-pass
+    '''    public Range getRange()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public CharSequence toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public CharSequence toXML(final String enclosingNamespace)
+    '''
 def getBuilder():
-'''public static Builder getBuilder()
-'''
-pass
+    '''    public static Builder getBuilder()
+    '''
 def setDate():
-'''public Builder setDate(final Date date)
-'''
-pass
+    '''    public Builder setDate(final Date date)
+    '''
 def setDescription():
-'''public Builder setDescription(final String desc)
-'''
-pass
+    '''    public Builder setDescription(final String desc)
+    '''
 def setHash():
-'''public Builder setHash(final HashElement hash)
-'''
-pass
+    '''    public Builder setHash(final HashElement hash)
+    '''
 def setMediaType():
-'''public Builder setMediaType(final String mediaType)
-'''
-pass
+    '''    public Builder setMediaType(final String mediaType)
+    '''
 def setName():
-'''public Builder setName(final String name)
-'''
-pass
+    '''    public Builder setName(final String name)
+    '''
 def setSize():
-'''public Builder setSize(final int size)
-'''
-pass
+    '''    public Builder setSize(final int size)
+    '''
 def setRange():
-'''public Builder setRange(final Range range)
-'''
-pass
+    '''    public Builder setRange(final Range range)
+    '''
 def build():
-'''public JingleFileTransferChild build()
-'''
-pass
+    '''    public JingleFileTransferChild build()
+    '''
 def setFile():
-'''public Builder setFile(final File file)
-'''
-pass
+    '''    public Builder setFile(final File file)
+    '''

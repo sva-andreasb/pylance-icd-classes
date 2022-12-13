@@ -1,42 +1,32 @@
 def getPath():
-'''public static TreePath getPath(final CompilationUnitTree compilationUnitTree, final Tree tree)
-public static TreePath getPath(final TreePath treePath, final Tree tree)
-'''
-pass
+    '''    public static TreePath getPath(final CompilationUnitTree compilationUnitTree, final Tree tree)
+    public static TreePath getPath(final TreePath treePath, final Tree tree)
+    '''
 def scan():
-'''public TreePath scan(final Tree tree, final Tree tree2)
-'''
-pass
+    '''    public TreePath scan(final Tree tree, final Tree tree2)
+    '''
 def TreePath():
-'''public TreePath(final CompilationUnitTree compilationUnitTree)
-public TreePath(final TreePath parent, final Tree leaf)
-'''
-pass
+    '''    public TreePath(final CompilationUnitTree compilationUnitTree)
+    public TreePath(final TreePath parent, final Tree leaf)
+    '''
 def getCompilationUnit():
-'''public CompilationUnitTree getCompilationUnit()
-'''
-pass
+    '''    public CompilationUnitTree getCompilationUnit()
+    '''
 def getLeaf():
-'''public Tree getLeaf()
-'''
-pass
+    '''    public Tree getLeaf()
+    '''
 def getParentPath():
-'''public TreePath getParentPath()
-'''
-pass
+    '''    public TreePath getParentPath()
+    '''
 def iterator():
-'''public Iterator<Tree> iterator()
-'''
-pass
+    '''    public Iterator<Tree> iterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Tree next()
-'''
-pass
+    '''    public Tree next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

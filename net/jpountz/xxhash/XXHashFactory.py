@@ -1,44 +1,33 @@
 def nativeInstance():
-'''public static synchronized XXHashFactory nativeInstance()
-'''
-pass
+    '''    public static synchronized XXHashFactory nativeInstance()
+    '''
 def safeInstance():
-'''public static synchronized XXHashFactory safeInstance()
-'''
-pass
+    '''    public static synchronized XXHashFactory safeInstance()
+    '''
 def unsafeInstance():
-'''public static synchronized XXHashFactory unsafeInstance()
-'''
-pass
+    '''    public static synchronized XXHashFactory unsafeInstance()
+    '''
 def fastestJavaInstance():
-'''public static XXHashFactory fastestJavaInstance()
-'''
-pass
+    '''    public static XXHashFactory fastestJavaInstance()
+    '''
 def fastestInstance():
-'''public static XXHashFactory fastestInstance()
-'''
-pass
+    '''    public static XXHashFactory fastestInstance()
+    '''
 def hash32():
-'''public XXHash32 hash32()
-'''
-pass
+    '''    public XXHash32 hash32()
+    '''
 def hash64():
-'''public XXHash64 hash64()
-'''
-pass
+    '''    public XXHash64 hash64()
+    '''
 def newStreamingHash32():
-'''public StreamingXXHash32 newStreamingHash32(final int seed)
-'''
-pass
+    '''    public StreamingXXHash32 newStreamingHash32(final int seed)
+    '''
 def newStreamingHash64():
-'''public StreamingXXHash64 newStreamingHash64(final long seed)
-'''
-pass
+    '''    public StreamingXXHash64 newStreamingHash64(final long seed)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

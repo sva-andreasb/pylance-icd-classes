@@ -1,8 +1,6 @@
 def FldContractAssetStartDate():
-'''public FldContractAssetStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldContractAssetStartDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

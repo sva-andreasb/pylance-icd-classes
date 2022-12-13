@@ -1,4 +1,3 @@
 def ObjectFormulaConditionSet():
-'''public ObjectFormulaConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ObjectFormulaConditionSet(final MboServerInterface ms)
+    '''

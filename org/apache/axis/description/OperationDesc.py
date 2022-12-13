@@ -4,203 +4,154 @@ MSG_METHOD_ELEMENTARRAY = "int  3"
 MSG_METHOD_DOCUMENT = "int  4"
 MSG_METHOD_NONCONFORMING = "int  -4"
 def OperationDesc():
-'''public OperationDesc()
-public OperationDesc(final String name, final ParameterDesc[] parameters, final QName returnQName)
-'''
-pass
+    '''    public OperationDesc()
+    public OperationDesc(final String name, final ParameterDesc[] parameters, final QName returnQName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getDocumentation():
-'''public String getDocumentation()
-'''
-pass
+    '''    public String getDocumentation()
+    '''
 def setDocumentation():
-'''public void setDocumentation(final String documentation)
-'''
-pass
+    '''    public void setDocumentation(final String documentation)
+    '''
 def getReturnQName():
-'''public QName getReturnQName()
-'''
-pass
+    '''    public QName getReturnQName()
+    '''
 def setReturnQName():
-'''public void setReturnQName(final QName returnQName)
-'''
-pass
+    '''    public void setReturnQName(final QName returnQName)
+    '''
 def getReturnType():
-'''public QName getReturnType()
-'''
-pass
+    '''    public QName getReturnType()
+    '''
 def setReturnType():
-'''public void setReturnType(final QName returnType)
-'''
-pass
+    '''    public void setReturnType(final QName returnType)
+    '''
 def getReturnClass():
-'''public Class getReturnClass()
-'''
-pass
+    '''    public Class getReturnClass()
+    '''
 def setReturnClass():
-'''public void setReturnClass(final Class returnClass)
-'''
-pass
+    '''    public void setReturnClass(final Class returnClass)
+    '''
 def getElementQName():
-'''public QName getElementQName()
-'''
-pass
+    '''    public QName getElementQName()
+    '''
 def setElementQName():
-'''public void setElementQName(final QName elementQName)
-'''
-pass
+    '''    public void setElementQName(final QName elementQName)
+    '''
 def getParent():
-'''public ServiceDesc getParent()
-'''
-pass
+    '''    public ServiceDesc getParent()
+    '''
 def setParent():
-'''public void setParent(final ServiceDesc parent)
-'''
-pass
+    '''    public void setParent(final ServiceDesc parent)
+    '''
 def getSoapAction():
-'''public String getSoapAction()
-'''
-pass
+    '''    public String getSoapAction()
+    '''
 def setSoapAction():
-'''public void setSoapAction(final String soapAction)
-'''
-pass
+    '''    public void setSoapAction(final String soapAction)
+    '''
 def setStyle():
-'''public void setStyle(final Style style)
-'''
-pass
+    '''    public void setStyle(final Style style)
+    '''
 def getStyle():
-'''public Style getStyle()
-'''
-pass
+    '''    public Style getStyle()
+    '''
 def setUse():
-'''public void setUse(final Use use)
-'''
-pass
+    '''    public void setUse(final Use use)
+    '''
 def getUse():
-'''public Use getUse()
-'''
-pass
+    '''    public Use getUse()
+    '''
 def addParameter():
-'''public void addParameter(final ParameterDesc param)
-public void addParameter(final QName paramName, final QName xmlType, final Class javaType, final byte parameterMode, final boolean inHeader, final boolean outHeader)
-'''
-pass
+    '''    public void addParameter(final ParameterDesc param)
+    public void addParameter(final QName paramName, final QName xmlType, final Class javaType, final byte parameterMode, final boolean inHeader, final boolean outHeader)
+    '''
 def getParameter():
-'''public ParameterDesc getParameter(final int i)
-'''
-pass
+    '''    public ParameterDesc getParameter(final int i)
+    '''
 def getParameters():
-'''public ArrayList getParameters()
-'''
-pass
+    '''    public ArrayList getParameters()
+    '''
 def setParameters():
-'''public void setParameters(final ArrayList newParameters)
-'''
-pass
+    '''    public void setParameters(final ArrayList newParameters)
+    '''
 def getNumInParams():
-'''public int getNumInParams()
-'''
-pass
+    '''    public int getNumInParams()
+    '''
 def getNumOutParams():
-'''public int getNumOutParams()
-'''
-pass
+    '''    public int getNumOutParams()
+    '''
 def getNumParams():
-'''public int getNumParams()
-'''
-pass
+    '''    public int getNumParams()
+    '''
 def getMethod():
-'''public Method getMethod()
-'''
-pass
+    '''    public Method getMethod()
+    '''
 def setMethod():
-'''public void setMethod(final Method method)
-'''
-pass
+    '''    public void setMethod(final Method method)
+    '''
 def isReturnHeader():
-'''public boolean isReturnHeader()
-'''
-pass
+    '''    public boolean isReturnHeader()
+    '''
 def setReturnHeader():
-'''public void setReturnHeader(final boolean value)
-'''
-pass
+    '''    public void setReturnHeader(final boolean value)
+    '''
 def getParamByQName():
-'''public ParameterDesc getParamByQName(final QName qname)
-'''
-pass
+    '''    public ParameterDesc getParamByQName(final QName qname)
+    '''
 def getInputParamByQName():
-'''public ParameterDesc getInputParamByQName(final QName qname)
-'''
-pass
+    '''    public ParameterDesc getInputParamByQName(final QName qname)
+    '''
 def getOutputParamByQName():
-'''public ParameterDesc getOutputParamByQName(final QName qname)
-'''
-pass
+    '''    public ParameterDesc getOutputParamByQName(final QName qname)
+    '''
 def getAllInParams():
-'''public ArrayList getAllInParams()
-'''
-pass
+    '''    public ArrayList getAllInParams()
+    '''
 def getAllOutParams():
-'''public ArrayList getAllOutParams()
-'''
-pass
+    '''    public ArrayList getAllOutParams()
+    '''
 def getOutParams():
-'''public ArrayList getOutParams()
-'''
-pass
+    '''    public ArrayList getOutParams()
+    '''
 def addFault():
-'''public void addFault(final FaultDesc fault)
-'''
-pass
+    '''    public void addFault(final FaultDesc fault)
+    '''
 def getFaults():
-'''public ArrayList getFaults()
-'''
-pass
+    '''    public ArrayList getFaults()
+    '''
 def getFaultByClass():
-'''public FaultDesc getFaultByClass(Class cls)
-public FaultDesc getFaultByClass(final Class cls, final boolean checkParents)
-'''
-pass
+    '''    public FaultDesc getFaultByClass(Class cls)
+    public FaultDesc getFaultByClass(final Class cls, final boolean checkParents)
+    '''
 def getFaultByQName():
-'''public FaultDesc getFaultByQName(final QName qname)
-'''
-pass
+    '''    public FaultDesc getFaultByQName(final QName qname)
+    '''
 def getFaultByXmlType():
-'''public FaultDesc getFaultByXmlType(final QName xmlType)
-'''
-pass
+    '''    public FaultDesc getFaultByXmlType(final QName xmlType)
+    '''
 def getReturnParamDesc():
-'''public ParameterDesc getReturnParamDesc()
-'''
-pass
+    '''    public ParameterDesc getReturnParamDesc()
+    '''
 def toString():
-'''public String toString()
-public String toString(final String indent)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String indent)
+    '''
 def getMessageOperationStyle():
-'''public int getMessageOperationStyle()
-'''
-pass
+    '''    public int getMessageOperationStyle()
+    '''
 def setMessageOperationStyle():
-'''public void setMessageOperationStyle(final int messageOperationStyle)
-'''
-pass
+    '''    public void setMessageOperationStyle(final int messageOperationStyle)
+    '''
 def getMep():
-'''public OperationType getMep()
-'''
-pass
+    '''    public OperationType getMep()
+    '''
 def setMep():
-'''public void setMep(final OperationType mep)
-public void setMep(final String mepString)
-'''
-pass
+    '''    public void setMep(final OperationType mep)
+    public void setMep(final String mepString)
+    '''

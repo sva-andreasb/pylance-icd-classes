@@ -1,16 +1,12 @@
 def ReportDialogListBean():
-'''public ReportDialogListBean()
-'''
-pass
+    '''    public ReportDialogListBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def sort():
-'''public void sort(final String sOrderByClause)
-'''
-pass
+    '''    public void sort(final String sOrderByClause)
+    '''
 def filterrows():
-'''public int filterrows()
-'''
-pass
+    '''    public int filterrows()
+    '''

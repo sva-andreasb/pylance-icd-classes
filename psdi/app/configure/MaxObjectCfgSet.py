@@ -1,40 +1,30 @@
 def MaxObjectCfgSet():
-'''public MaxObjectCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxObjectCfgSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def finalize():
-'''public void finalize()
-'''
-pass
+    '''    public void finalize()
+    '''
 def getViewChangedOrderBy():
-'''public String getViewChangedOrderBy()
-'''
-pass
+    '''    public String getViewChangedOrderBy()
+    '''
 def setOrderBy():
-'''public void setOrderBy(String orderByClause)
-'''
-pass
+    '''    public void setOrderBy(String orderByClause)
+    '''
 def getValueCHANGE():
-'''public String getValueCHANGE()
-'''
-pass
+    '''    public String getValueCHANGE()
+    '''
 def getGLMaxtypeLength():
-'''public int getGLMaxtypeLength()
-'''
-pass
+    '''    public int getGLMaxtypeLength()
+    '''
 def setGLMaxtypeLength():
-'''public void setGLMaxtypeLength(final int newLength)
-'''
-pass
+    '''    public void setGLMaxtypeLength(final int newLength)
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    '''
 def resetQbe():
-'''public void resetQbe()
-'''
-pass
+    '''    public void resetQbe()
+    '''

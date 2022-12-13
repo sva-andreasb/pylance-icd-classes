@@ -1,19 +1,15 @@
-ELEMENT = "String  slot""
-NAMESPACE = "String  urn:xmpp:http:upload:0""
+ELEMENT = "String  \"slot\""
+NAMESPACE = "String  \"urn:xmpp:http:upload:0\""
 def Slot():
-'''public Slot(final URL putUrl, final URL getUrl)
-public Slot(final URL putUrl, final URL getUrl, final Map<String, String> headers)
-'''
-pass
+    '''    public Slot(final URL putUrl, final URL getUrl)
+    public Slot(final URL putUrl, final URL getUrl, final Map<String, String> headers)
+    '''
 def getPutUrl():
-'''public URL getPutUrl()
-'''
-pass
+    '''    public URL getPutUrl()
+    '''
 def getGetUrl():
-'''public URL getGetUrl()
-'''
-pass
+    '''    public URL getGetUrl()
+    '''
 def getHeaders():
-'''public Map<String, String> getHeaders()
-'''
-pass
+    '''    public Map<String, String> getHeaders()
+    '''

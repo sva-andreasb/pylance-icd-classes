@@ -1,28 +1,21 @@
 def AMCrewWoLab():
-'''public AMCrewWoLab(final MboSet ms)
-'''
-pass
+    '''    public AMCrewWoLab(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setAllReadOny():
-'''public void setAllReadOny()
-'''
-pass
+    '''    public void setAllReadOny()
+    '''
 def hasActiveLabor():
-'''public boolean hasActiveLabor()
-'''
-pass
+    '''    public boolean hasActiveLabor()
+    '''
 def exceedsActDuration():
-'''public boolean exceedsActDuration(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)
-'''
-pass
+    '''    public boolean exceedsActDuration(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)
+    '''
 def actDurationExceeds():
-'''public boolean actDurationExceeds(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)
-'''
-pass
+    '''    public boolean actDurationExceeds(final double totalacthrs, final double totalreghrs, final double totalprempayhrs)
+    '''

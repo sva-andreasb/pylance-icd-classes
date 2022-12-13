@@ -1,12 +1,9 @@
 def StatefulInfo():
-'''public StatefulInfo(final String st, final String memo)
-'''
-pass
+    '''    public StatefulInfo(final String st, final String memo)
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def getMemo():
-'''public String getMemo()
-'''
-pass
+    '''    public String getMemo()
+    '''

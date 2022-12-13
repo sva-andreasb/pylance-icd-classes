@@ -1,60 +1,45 @@
 def SKDObjectInfo():
-'''public SKDObjectInfo()
-'''
-pass
+    '''    public SKDObjectInfo()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getSKDObjectName():
-'''public String getSKDObjectName()
-'''
-pass
+    '''    public String getSKDObjectName()
+    '''
 def setSKDObjectName():
-'''public void setSKDObjectName(final String skdObjectName)
-'''
-pass
+    '''    public void setSKDObjectName(final String skdObjectName)
+    '''
 def getSameAsObjectName():
-'''public String getSameAsObjectName()
-'''
-pass
+    '''    public String getSameAsObjectName()
+    '''
 def setSameAsObjectName():
-'''public void setSameAsObjectName(final String sameAsObjectName)
-'''
-pass
+    '''    public void setSameAsObjectName(final String sameAsObjectName)
+    '''
 def getDataGroupName():
-'''public String getDataGroupName()
-'''
-pass
+    '''    public String getDataGroupName()
+    '''
 def setDataGroupName():
-'''public void setDataGroupName(final String dataGroupName)
-'''
-pass
+    '''    public void setDataGroupName(final String dataGroupName)
+    '''
 def getObjectSequence():
-'''public int getObjectSequence()
-'''
-pass
+    '''    public int getObjectSequence()
+    '''
 def setObjectSequence():
-'''public void setObjectSequence(final int objectSequence)
-'''
-pass
+    '''    public void setObjectSequence(final int objectSequence)
+    '''
 def addObjectManagerInfo():
-'''public void addObjectManagerInfo(final SKDObjectManagerInfo objectManagerInfo)
-'''
-pass
+    '''    public void addObjectManagerInfo(final SKDObjectManagerInfo objectManagerInfo)
+    '''
 def getObjectManagerInfoIterator():
-'''public Iterator<SKDObjectManagerInfo> getObjectManagerInfoIterator()
-'''
-pass
+    '''    public Iterator<SKDObjectManagerInfo> getObjectManagerInfoIterator()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def compare():
-'''public int compare(final SKDObjectManagerInfo info1, final SKDObjectManagerInfo info2)
-'''
-pass
+    '''    public int compare(final SKDObjectManagerInfo info1, final SKDObjectManagerInfo info2)
+    '''

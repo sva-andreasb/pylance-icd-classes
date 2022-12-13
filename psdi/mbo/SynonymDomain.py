@@ -1,8 +1,6 @@
 def SynonymDomain():
-'''public SynonymDomain(final MboValue mv)
-'''
-pass
+    '''    public SynonymDomain(final MboValue mv)
+    '''
 def chooseActualDomainValues():
-'''public void chooseActualDomainValues()
-'''
-pass
+    '''    public void chooseActualDomainValues()
+    '''

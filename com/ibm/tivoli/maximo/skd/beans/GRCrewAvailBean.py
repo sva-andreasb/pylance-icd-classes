@@ -1,8 +1,6 @@
 def GRCrewAvailBean():
-'''public GRCrewAvailBean()
-'''
-pass
+    '''    public GRCrewAvailBean()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

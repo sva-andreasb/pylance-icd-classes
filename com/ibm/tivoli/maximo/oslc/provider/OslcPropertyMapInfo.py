@@ -1,56 +1,42 @@
 def OslcPropertyMapInfo():
-'''public OslcPropertyMapInfo(final String attributeName, final String propName, final String propNs, final boolean required, final boolean resourceRef, final String linkOSName, final String linkRelation, final Map<String, String> keyMap, final boolean useKeyMapForURI, final int overrideType)
-'''
-pass
+    '''    public OslcPropertyMapInfo(final String attributeName, final String propName, final String propNs, final boolean required, final boolean resourceRef, final String linkOSName, final String linkRelation, final Map<String, String> keyMap, final boolean useKeyMapForURI, final int overrideType)
+    '''
 def getOverrideType():
-'''public int getOverrideType()
-'''
-pass
+    '''    public int getOverrideType()
+    '''
 def getKeyMap():
-'''public Map<String, String> getKeyMap()
-'''
-pass
+    '''    public Map<String, String> getKeyMap()
+    '''
 def getLinkRelation():
-'''public String getLinkRelation()
-'''
-pass
+    '''    public String getLinkRelation()
+    '''
 def getLinkOSName():
-'''public String getLinkOSName()
-'''
-pass
+    '''    public String getLinkOSName()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getPropName():
-'''public String getPropName()
-'''
-pass
+    '''    public String getPropName()
+    '''
 def getPropNs():
-'''public String getPropNs()
-'''
-pass
+    '''    public String getPropNs()
+    '''
 def isResourceRef():
-'''public boolean isResourceRef()
-'''
-pass
+    '''    public boolean isResourceRef()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def isUseKeyMapForURI():
-'''public boolean isUseKeyMapForURI()
-'''
-pass
+    '''    public boolean isUseKeyMapForURI()
+    '''
 def isKeyMapHasLiteral():
-'''public boolean isKeyMapHasLiteral()
-'''
-pass
+    '''    public boolean isKeyMapHasLiteral()
+    '''
 def getInClauseAttr():
-'''public String getInClauseAttr()
-'''
-pass
+    '''    public String getInClauseAttr()
+    '''
 def isKeyMapAsURIID():
-'''public boolean isKeyMapAsURIID()
-'''
-pass
+    '''    public boolean isKeyMapAsURIID()
+    '''

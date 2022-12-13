@@ -1,4 +1,3 @@
 def TloamLocationSet():
-'''public TloamLocationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TloamLocationSet(final MboServerInterface ms)
+    '''

@@ -1,61 +1,46 @@
 def CommonWOSR():
-'''public CommonWOSR(final MboSet ms)
-'''
-pass
+    '''    public CommonWOSR(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isAddressChanged():
-'''public boolean isAddressChanged()
-'''
-pass
+    '''    public boolean isAddressChanged()
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def hasServiceAddress():
-'''public boolean hasServiceAddress()
-'''
-pass
+    '''    public boolean hasServiceAddress()
+    '''
 def saveGISData():
-'''public void saveGISData(final String address, final String lat, final String lng)
-'''
-pass
+    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''
 def getServiceAddress():
-'''public MboRemote getServiceAddress()
-'''
-pass
+    '''    public MboRemote getServiceAddress()
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''
 def isAllFieldsBlank():
-'''public boolean isAllFieldsBlank(final ArrayList<String> filter)
-'''
-pass
+    '''    public boolean isAllFieldsBlank(final ArrayList<String> filter)
+    '''
 def clearAllFields():
-'''public void clearAllFields()
-'''
-pass
+    '''    public void clearAllFields()
+    '''
 def copyDataFromOtherCommonWOSR():
-'''public void copyDataFromOtherCommonWOSR(final CommonWOSR sa)
-'''
-pass
+    '''    public void copyDataFromOtherCommonWOSR(final CommonWOSR sa)
+    '''
 def getAutoLocateObject():
-'''public MboRemote getAutoLocateObject(final AutoLocatable parent)
-public MboRemote getAutoLocateObject()
-'''
-pass
+    '''    public MboRemote getAutoLocateObject(final AutoLocatable parent)
+    public MboRemote getAutoLocateObject()
+    '''
 def hasCoords():
-'''public Boolean hasCoords()
-'''
-pass
+    '''    public Boolean hasCoords()
+    '''

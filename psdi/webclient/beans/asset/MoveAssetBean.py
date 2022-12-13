@@ -1,48 +1,36 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def applymovedflt():
-'''public int applymovedflt()
-'''
-pass
+    '''    public int applymovedflt()
+    '''
 def applymovesite():
-'''public int applymovesite()
-'''
-pass
+    '''    public int applymovesite()
+    '''
 def applymoveparent():
-'''public int applymoveparent()
-'''
-pass
+    '''    public int applymoveparent()
+    '''
 def applymoveloc():
-'''public int applymoveloc()
-'''
-pass
+    '''    public int applymoveloc()
+    '''
 def applymovebin():
-'''public int applymovebin()
-'''
-pass
+    '''    public int applymovebin()
+    '''
 def applyusercustdfld():
-'''public int applyusercustdfld()
-'''
-pass
+    '''    public int applyusercustdfld()
+    '''
 def applyattrdfld():
-'''public int applyattrdfld()
-'''
-pass
+    '''    public int applyattrdfld()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def applymovegla():
-'''public int applymovegla()
-'''
-pass
+    '''    public int applymovegla()
+    '''
 def applypersongroupfld():
-'''public int applypersongroupfld()
-'''
-pass
+    '''    public int applypersongroupfld()
+    '''
 def pluscapplymovelploc():
-'''public int pluscapplymovelploc()
-'''
-pass
+    '''    public int pluscapplymovelploc()
+    '''

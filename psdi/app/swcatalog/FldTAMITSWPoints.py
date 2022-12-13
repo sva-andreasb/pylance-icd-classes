@@ -1,8 +1,6 @@
 def FldTAMITSWPoints():
-'''public FldTAMITSWPoints(final MboValue mbv)
-'''
-pass
+    '''    public FldTAMITSWPoints(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,21 +1,16 @@
 def DelegatedTo():
-'''public DelegatedTo(final String aValue)
-public DelegatedTo(final AddressList aList)
-'''
-pass
+    '''    public DelegatedTo(final String aValue)
+    public DelegatedTo(final AddressList aList)
+    '''
 def getDelegatees():
-'''public final AddressList getDelegatees()
-'''
-pass
+    '''    public final AddressList getDelegatees()
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

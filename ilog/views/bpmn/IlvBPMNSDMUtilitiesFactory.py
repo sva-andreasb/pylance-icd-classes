@@ -1,16 +1,12 @@
 def IlvBPMNSDMUtilitiesFactory():
-'''public IlvBPMNSDMUtilitiesFactory(final IlvBPMNModeler a)
-'''
-pass
+    '''    public IlvBPMNSDMUtilitiesFactory(final IlvBPMNModeler a)
+    '''
 def getModeler():
-'''public IlvBPMNModeler getModeler()
-'''
-pass
+    '''    public IlvBPMNModeler getModeler()
+    '''
 def createMakeSDMNodeInteractor():
-'''public IlvMakeSDMNodeInteractor createMakeSDMNodeInteractor(final IlvSDMEngine ilvSDMEngine, final IlvManagerView ilvManagerView)
-'''
-pass
+    '''    public IlvMakeSDMNodeInteractor createMakeSDMNodeInteractor(final IlvSDMEngine ilvSDMEngine, final IlvManagerView ilvManagerView)
+    '''
 def createMakeSDMLinkInteractor():
-'''public IlvMakeSDMLinkInteractor createMakeSDMLinkInteractor(final IlvSDMEngine ilvSDMEngine, final IlvManagerView ilvManagerView)
-'''
-pass
+    '''    public IlvMakeSDMLinkInteractor createMakeSDMLinkInteractor(final IlvSDMEngine ilvSDMEngine, final IlvManagerView ilvManagerView)
+    '''

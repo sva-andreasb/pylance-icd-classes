@@ -1,133 +1,101 @@
 def XOPDecodingStreamReader():
-'''public XOPDecodingStreamReader(final XMLStreamReader parent, final MimePartProvider mimePartProvider)
-'''
-pass
+    '''    public XOPDecodingStreamReader(final XMLStreamReader parent, final MimePartProvider mimePartProvider)
+    '''
 def next():
-'''public int next()
-'''
-pass
+    '''    public int next()
+    '''
 def getEventType():
-'''public int getEventType()
-'''
-pass
+    '''    public int getEventType()
+    '''
 def nextTag():
-'''public int nextTag()
-'''
-pass
+    '''    public int nextTag()
+    '''
 def getProperty():
-'''public Object getProperty(final String name)
-'''
-pass
+    '''    public Object getProperty(final String name)
+    '''
 def getElementText():
-'''public String getElementText()
-'''
-pass
+    '''    public String getElementText()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-public String getNamespaceURI(final String prefix)
-public String getNamespaceURI(final int index)
-'''
-pass
+    '''    public String getNamespaceURI()
+    public String getNamespaceURI(final String prefix)
+    public String getNamespaceURI(final int index)
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def getNamespaceCount():
-'''public int getNamespaceCount()
-'''
-pass
+    '''    public int getNamespaceCount()
+    '''
 def getNamespacePrefix():
-'''public String getNamespacePrefix(final int index)
-'''
-pass
+    '''    public String getNamespacePrefix(final int index)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getTextCharacters():
-'''public char[] getTextCharacters()
-public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
-'''
-pass
+    '''    public char[] getTextCharacters()
+    public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
+    '''
 def getTextLength():
-'''public int getTextLength()
-'''
-pass
+    '''    public int getTextLength()
+    '''
 def getTextStart():
-'''public int getTextStart()
-'''
-pass
+    '''    public int getTextStart()
+    '''
 def hasText():
-'''public boolean hasText()
-'''
-pass
+    '''    public boolean hasText()
+    '''
 def isCharacters():
-'''public boolean isCharacters()
-'''
-pass
+    '''    public boolean isCharacters()
+    '''
 def isStartElement():
-'''public boolean isStartElement()
-'''
-pass
+    '''    public boolean isStartElement()
+    '''
 def isEndElement():
-'''public boolean isEndElement()
-'''
-pass
+    '''    public boolean isEndElement()
+    '''
 def hasName():
-'''public boolean hasName()
-'''
-pass
+    '''    public boolean hasName()
+    '''
 def isWhiteSpace():
-'''public boolean isWhiteSpace()
-'''
-pass
+    '''    public boolean isWhiteSpace()
+    '''
 def require():
-'''public void require(final int type, final String namespaceURI, final String localName)
-'''
-pass
+    '''    public void require(final int type, final String namespaceURI, final String localName)
+    '''
 def isBinary():
-'''public boolean isBinary()
-'''
-pass
+    '''    public boolean isBinary()
+    '''
 def isOptimized():
-'''public boolean isOptimized()
-'''
-pass
+    '''    public boolean isOptimized()
+    '''
 def isDeferred():
-'''public boolean isDeferred()
-'''
-pass
+    '''    public boolean isDeferred()
+    '''
 def getContentID():
-'''public String getContentID()
-public String getContentID()
-'''
-pass
+    '''    public String getContentID()
+    public String getContentID()
+    '''
 def getDataHandler():
-'''public DataHandler getDataHandler()
-public DataHandler getDataHandler()
-'''
-pass
+    '''    public DataHandler getDataHandler()
+    public DataHandler getDataHandler()
+    '''
 def getDataHandlerProvider():
-'''public DataHandlerProvider getDataHandlerProvider()
-'''
-pass
+    '''    public DataHandlerProvider getDataHandlerProvider()
+    '''
 def DataHandlerProviderImpl():
-'''public DataHandlerProviderImpl(final MimePartProvider mimePartProvider, final String contentID)
-'''
-pass
+    '''    public DataHandlerProviderImpl(final MimePartProvider mimePartProvider, final String contentID)
+    '''
 def isLoaded():
-'''public boolean isLoaded()
-'''
-pass
+    '''    public boolean isLoaded()
+    '''

@@ -1,8 +1,6 @@
 def append():
-'''public JCommentPart append(final Object o)
-'''
-pass
+    '''    public JCommentPart append(final Object o)
+    '''
 def add():
-'''public boolean add(final Object o)
-'''
-pass
+    '''    public boolean add(final Object o)
+    '''

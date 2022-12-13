@@ -1,4 +1,3 @@
 def ToolInvSet():
-'''public ToolInvSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ToolInvSet(final MboServerInterface ms)
+    '''

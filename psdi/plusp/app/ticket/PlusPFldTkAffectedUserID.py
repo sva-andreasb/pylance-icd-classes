@@ -1,12 +1,9 @@
 def PlusPFldTkAffectedUserID():
-'''public PlusPFldTkAffectedUserID(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldTkAffectedUserID(final MboValue arg0)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

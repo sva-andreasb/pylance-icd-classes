@@ -1,41 +1,31 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def CreateAclsRequest():
-'''public CreateAclsRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public CreateAclsRequest(final Struct struct, final short version)
+    '''
 def aclCreations():
-'''public List<AclCreation> aclCreations()
-'''
-pass
+    '''    public List<AclCreation> aclCreations()
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
+    '''
 def parse():
-'''public static CreateAclsRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static CreateAclsRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def AclCreation():
-'''public AclCreation(final AclBinding acl)
-'''
-pass
+    '''    public AclCreation(final AclBinding acl)
+    '''
 def acl():
-'''public AclBinding acl()
-'''
-pass
+    '''    public AclBinding acl()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def Builder():
-'''public Builder(final List<AclCreation> creations)
-'''
-pass
+    '''    public Builder(final List<AclCreation> creations)
+    '''
 def build():
-'''public CreateAclsRequest build(final short version)
-'''
-pass
+    '''    public CreateAclsRequest build(final short version)
+    '''

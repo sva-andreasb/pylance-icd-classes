@@ -1,8 +1,6 @@
 def FldInvBalancesItemnum():
-'''public FldInvBalancesItemnum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvBalancesItemnum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

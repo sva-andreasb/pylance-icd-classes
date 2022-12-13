@@ -1,8 +1,6 @@
 def HelpResourceView():
-'''public HelpResourceView(final String help)
-'''
-pass
+    '''    public HelpResourceView(final String help)
+    '''
 def initializeView():
-'''public Component initializeView()
-'''
-pass
+    '''    public Component initializeView()
+    '''

@@ -1,8 +1,6 @@
 def resettableEmptyIterator():
-'''public static <E> ResettableIterator<E> resettableEmptyIterator()
-'''
-pass
+    '''    public static <E> ResettableIterator<E> resettableEmptyIterator()
+    '''
 def emptyIterator():
-'''public static <E> Iterator<E> emptyIterator()
-'''
-pass
+    '''    public static <E> Iterator<E> emptyIterator()
+    '''

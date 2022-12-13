@@ -1,12 +1,9 @@
 def MaxVarInputForInvDefs():
-'''public MaxVarInputForInvDefs(final MboSet ms)
-'''
-pass
+    '''    public MaxVarInputForInvDefs(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

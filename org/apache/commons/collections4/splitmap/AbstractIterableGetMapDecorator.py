@@ -1,52 +1,39 @@
 def AbstractIterableGetMapDecorator():
-'''public AbstractIterableGetMapDecorator(final Map<K, V> map)
-'''
-pass
+    '''    public AbstractIterableGetMapDecorator(final Map<K, V> map)
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def get():
-'''public V get(final Object key)
-'''
-pass
+    '''    public V get(final Object key)
+    '''
 def remove():
-'''public V remove(final Object key)
-'''
-pass
+    '''    public V remove(final Object key)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def mapIterator():
-'''public MapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public MapIterator<K, V> mapIterator()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

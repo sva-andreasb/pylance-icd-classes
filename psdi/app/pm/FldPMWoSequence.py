@@ -1,8 +1,6 @@
 def FldPMWoSequence():
-'''public FldPMWoSequence(final MboValue mbv)
-'''
-pass
+    '''    public FldPMWoSequence(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

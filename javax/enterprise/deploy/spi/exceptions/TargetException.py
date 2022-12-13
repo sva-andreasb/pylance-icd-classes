@@ -1,4 +1,3 @@
 def TargetException():
-'''public TargetException(final String s)
-'''
-pass
+    '''    public TargetException(final String s)
+    '''

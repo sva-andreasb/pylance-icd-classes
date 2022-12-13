@@ -1,8 +1,6 @@
 def MessageHubType():
-'''public MessageHubType(final MboSet ms)
-'''
-pass
+    '''    public MessageHubType(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

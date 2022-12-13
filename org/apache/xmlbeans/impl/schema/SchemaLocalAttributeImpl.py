@@ -1,72 +1,54 @@
 def init():
-'''public void init(final QName name, final SchemaType.Ref typeref, final int use, final String deftext, final XmlObject parseObject, final XmlValueRef defvalue, final boolean isFixed, final SOAPArrayType wsdlArray, final SchemaAnnotation ann, final Object userData)
-'''
-pass
+    '''    public void init(final QName name, final SchemaType.Ref typeref, final int use, final String deftext, final XmlObject parseObject, final XmlValueRef defvalue, final boolean isFixed, final SOAPArrayType wsdlArray, final SchemaAnnotation ann, final Object userData)
+    '''
 def isTypeResolved():
-'''public boolean isTypeResolved()
-'''
-pass
+    '''    public boolean isTypeResolved()
+    '''
 def resolveTypeRef():
-'''public void resolveTypeRef(final SchemaType.Ref typeref)
-'''
-pass
+    '''    public void resolveTypeRef(final SchemaType.Ref typeref)
+    '''
 def getUse():
-'''public int getUse()
-'''
-pass
+    '''    public int getUse()
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getDefaultText():
-'''public String getDefaultText()
-'''
-pass
+    '''    public String getDefaultText()
+    '''
 def isDefault():
-'''public boolean isDefault()
-'''
-pass
+    '''    public boolean isDefault()
+    '''
 def isFixed():
-'''public boolean isFixed()
-'''
-pass
+    '''    public boolean isFixed()
+    '''
 def isAttribute():
-'''public boolean isAttribute()
-'''
-pass
+    '''    public boolean isAttribute()
+    '''
 def getAnnotation():
-'''public SchemaAnnotation getAnnotation()
-'''
-pass
+    '''    public SchemaAnnotation getAnnotation()
+    '''
 def getType():
-'''public SchemaType getType()
-'''
-pass
+    '''    public SchemaType getType()
+    '''
 def getMinOccurs():
-'''public BigInteger getMinOccurs()
-'''
-pass
+    '''    public BigInteger getMinOccurs()
+    '''
 def getMaxOccurs():
-'''public BigInteger getMaxOccurs()
-'''
-pass
+    '''    public BigInteger getMaxOccurs()
+    '''
 def isNillable():
-'''public boolean isNillable()
-'''
-pass
+    '''    public boolean isNillable()
+    '''
 def getWSDLArrayType():
-'''public SOAPArrayType getWSDLArrayType()
-'''
-pass
+    '''    public SOAPArrayType getWSDLArrayType()
+    '''
 def getDefaultValue():
-'''public XmlAnySimpleType getDefaultValue()
-'''
-pass
+    '''    public XmlAnySimpleType getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final XmlValueRef defaultRef)
-'''
-pass
+    '''    public void setDefaultValue(final XmlValueRef defaultRef)
+    '''
 def getUserData():
-'''public Object getUserData()
-'''
-pass
+    '''    public Object getUserData()
+    '''

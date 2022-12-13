@@ -1,16 +1,12 @@
 def PlusPOwnerBean():
-'''public PlusPOwnerBean()
-'''
-pass
+    '''    public PlusPOwnerBean()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def REFRESHLIST():
-'''public int REFRESHLIST()
-'''
-pass
+    '''    public int REFRESHLIST()
+    '''
 def buildAppWhere():
-'''public String buildAppWhere()
-'''
-pass
+    '''    public String buildAppWhere()
+    '''

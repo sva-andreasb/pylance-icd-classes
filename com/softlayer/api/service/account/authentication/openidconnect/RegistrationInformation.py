@@ -1,56 +1,42 @@
 def getExistingBlueIdFlag():
-'''public Boolean getExistingBlueIdFlag()
-'''
-pass
+    '''    public Boolean getExistingBlueIdFlag()
+    '''
 def setExistingBlueIdFlag():
-'''public void setExistingBlueIdFlag(final Boolean existingBlueIdFlag)
-'''
-pass
+    '''    public void setExistingBlueIdFlag(final Boolean existingBlueIdFlag)
+    '''
 def isExistingBlueIdFlagSpecified():
-'''public boolean isExistingBlueIdFlagSpecified()
-'''
-pass
+    '''    public boolean isExistingBlueIdFlagSpecified()
+    '''
 def unsetExistingBlueIdFlag():
-'''public void unsetExistingBlueIdFlag()
-'''
-pass
+    '''    public void unsetExistingBlueIdFlag()
+    '''
 def getFederatedEmailDomainFlag():
-'''public Boolean getFederatedEmailDomainFlag()
-'''
-pass
+    '''    public Boolean getFederatedEmailDomainFlag()
+    '''
 def setFederatedEmailDomainFlag():
-'''public void setFederatedEmailDomainFlag(final Boolean federatedEmailDomainFlag)
-'''
-pass
+    '''    public void setFederatedEmailDomainFlag(final Boolean federatedEmailDomainFlag)
+    '''
 def isFederatedEmailDomainFlagSpecified():
-'''public boolean isFederatedEmailDomainFlagSpecified()
-'''
-pass
+    '''    public boolean isFederatedEmailDomainFlagSpecified()
+    '''
 def unsetFederatedEmailDomainFlag():
-'''public void unsetFederatedEmailDomainFlag()
-'''
-pass
+    '''    public void unsetFederatedEmailDomainFlag()
+    '''
 def getUser():
-'''public Customer getUser()
-'''
-pass
+    '''    public Customer getUser()
+    '''
 def setUser():
-'''public void setUser(final Customer user)
-'''
-pass
+    '''    public void setUser(final Customer user)
+    '''
 def isUserSpecified():
-'''public boolean isUserSpecified()
-'''
-pass
+    '''    public boolean isUserSpecified()
+    '''
 def unsetUser():
-'''public void unsetUser()
-'''
-pass
+    '''    public void unsetUser()
+    '''
 def existingBlueIdFlag():
-'''public Mask existingBlueIdFlag()
-'''
-pass
+    '''    public Mask existingBlueIdFlag()
+    '''
 def federatedEmailDomainFlag():
-'''public Mask federatedEmailDomainFlag()
-'''
-pass
+    '''    public Mask federatedEmailDomainFlag()
+    '''

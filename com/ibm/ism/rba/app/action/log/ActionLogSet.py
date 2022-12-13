@@ -1,4 +1,3 @@
 def ActionLogSet():
-'''public ActionLogSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ActionLogSet(final MboServerInterface ms)
+    '''

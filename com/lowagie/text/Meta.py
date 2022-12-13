@@ -1,52 +1,39 @@
 def Meta():
-'''public Meta(final String tag, final String content)
-'''
-pass
+    '''    public Meta(final String tag, final String content)
+    '''
 def process():
-'''public boolean process(final ElementListener listener)
-'''
-pass
+    '''    public boolean process(final ElementListener listener)
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def getChunks():
-'''public ArrayList getChunks()
-'''
-pass
+    '''    public ArrayList getChunks()
+    '''
 def append():
-'''public StringBuffer append(final String string)
-'''
-pass
+    '''    public StringBuffer append(final String string)
+    '''
 def content():
-'''public String content()
-'''
-pass
+    '''    public String content()
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def getType():
-'''public static int getType(final String tag)
-'''
-pass
+    '''    public static int getType(final String tag)
+    '''
 def setMarkupAttribute():
-'''public void setMarkupAttribute(final String name, final String value)
-'''
-pass
+    '''    public void setMarkupAttribute(final String name, final String value)
+    '''
 def setMarkupAttributes():
-'''public void setMarkupAttributes(final Properties markupAttributes)
-'''
-pass
+    '''    public void setMarkupAttributes(final Properties markupAttributes)
+    '''
 def getMarkupAttribute():
-'''public String getMarkupAttribute(final String name)
-'''
-pass
+    '''    public String getMarkupAttribute(final String name)
+    '''
 def getMarkupAttributeNames():
-'''public Set getMarkupAttributeNames()
-'''
-pass
+    '''    public Set getMarkupAttributeNames()
+    '''
 def getMarkupAttributes():
-'''public Properties getMarkupAttributes()
-'''
-pass
+    '''    public Properties getMarkupAttributes()
+    '''

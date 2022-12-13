@@ -1,8 +1,6 @@
 def FldWOGenerationDays():
-'''public FldWOGenerationDays(final MboValue mbv)
-'''
-pass
+    '''    public FldWOGenerationDays(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,8 +1,6 @@
 def FldIssueCurrentItemRefWO():
-'''public FldIssueCurrentItemRefWO(final MboValue mbv)
-'''
-pass
+    '''    public FldIssueCurrentItemRefWO(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

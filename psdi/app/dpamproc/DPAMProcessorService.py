@@ -1,5 +1,4 @@
 def DPAMProcessorService():
-'''public DPAMProcessorService()
-public DPAMProcessorService(final MXServer mxServer)
-'''
-pass
+    '''    public DPAMProcessorService()
+    public DPAMProcessorService(final MXServer mxServer)
+    '''

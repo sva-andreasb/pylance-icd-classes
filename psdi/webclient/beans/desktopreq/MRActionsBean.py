@@ -1,24 +1,18 @@
 def instantdelete():
-'''public int instantdelete()
-'''
-pass
+    '''    public int instantdelete()
+    '''
 def createtmplt():
-'''public int createtmplt()
-'''
-pass
+    '''    public int createtmplt()
+    '''
 def addtofav():
-'''public int addtofav()
-'''
-pass
+    '''    public int addtofav()
+    '''
 def distcosts():
-'''public int distcosts()
-'''
-pass
+    '''    public int distcosts()
+    '''
 def addfromreq():
-'''public int addfromreq()
-'''
-pass
+    '''    public int addfromreq()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

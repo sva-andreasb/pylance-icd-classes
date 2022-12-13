@@ -1,507 +1,386 @@
 def Inventory():
-'''public Inventory(final MboSet ms)
-'''
-pass
+    '''    public Inventory(final MboSet ms)
+    '''
 def getProcess():
-'''public String getProcess()
-'''
-pass
+    '''    public String getProcess()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def setIsKitComponentToAddToStore():
-'''public void setIsKitComponentToAddToStore(final boolean isKitComponentToAddToStore)
-'''
-pass
+    '''    public void setIsKitComponentToAddToStore(final boolean isKitComponentToAddToStore)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setCostType():
-'''public void setCostType()
-'''
-pass
+    '''    public void setCostType()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def isKit():
-'''public boolean isKit()
-'''
-pass
+    '''    public boolean isKit()
+    '''
 def isCapitalized():
-'''public boolean isCapitalized()
-'''
-pass
+    '''    public boolean isCapitalized()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def addUpdateInvVendor():
-'''public void addUpdateInvVendor()
-'''
-pass
+    '''    public void addUpdateInvVendor()
+    '''
 def getPrimaryInvVendor():
-'''public MboRemote getPrimaryInvVendor(final MboSetRemote invVendSet)
-'''
-pass
+    '''    public MboRemote getPrimaryInvVendor(final MboSetRemote invVendSet)
+    '''
 def doAdjustment():
-'''public MboRemote doAdjustment(final NonPersistentMboRemote invAdj)
-'''
-pass
+    '''    public MboRemote doAdjustment(final NonPersistentMboRemote invAdj)
+    '''
 def adjustCurrentBalance():
-'''public MboRemote adjustCurrentBalance(final String binnum, final String lotnum, final double newBalance, final String conditionCode)
-'''
-pass
+    '''    public MboRemote adjustCurrentBalance(final String binnum, final String lotnum, final double newBalance, final String conditionCode)
+    '''
 def adjustPhysicalCount():
-'''public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate)
-public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid)
-public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid, final String conditionCode)
-'''
-pass
+    '''    public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate)
+    public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid)
+    public MboRemote adjustPhysicalCount(final String binnum, final String lotnum, final double quantity, final Date pCountDate, final String ownersysid, final String conditionCode)
+    '''
 def getDefaultIssueCost():
-'''public double getDefaultIssueCost(final AssetRemote assetRemote, final String conditionCode)
-public double getDefaultIssueCost(final AssetRemote assetRemote)
-public double getDefaultIssueCost()
-public double getDefaultIssueCost(final String conditionCode)
-public double getDefaultIssueCost(final ArrayList<InvLifoFifoCost> invLifoFifoCostList)
-'''
-pass
+    '''    public double getDefaultIssueCost(final AssetRemote assetRemote, final String conditionCode)
+    public double getDefaultIssueCost(final AssetRemote assetRemote)
+    public double getDefaultIssueCost()
+    public double getDefaultIssueCost(final String conditionCode)
+    public double getDefaultIssueCost(final ArrayList<InvLifoFifoCost> invLifoFifoCostList)
+    '''
 def updateInventoryAverageCost():
-'''public void updateInventoryAverageCost(final double quantity, final double totalvalue)
-public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr)
-public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final InvCost invCost)
-public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, InvCost invCost, final boolean transferWithinStore)
-public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final String conditionCode)
-'''
-pass
+    '''    public void updateInventoryAverageCost(final double quantity, final double totalvalue)
+    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr)
+    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final InvCost invCost)
+    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, InvCost invCost, final boolean transferWithinStore)
+    public void updateInventoryAverageCost(final double quantity, final double totalvalue, final double exr, final String conditionCode)
+    '''
 def getInvCostRecord():
-'''public MboRemote getInvCostRecord(final String conditionCode)
-'''
-pass
+    '''    public MboRemote getInvCostRecord(final String conditionCode)
+    '''
 def addInvLifoFifoCostRecord():
-'''public MboRemote addInvLifoFifoCostRecord(final String conditioncode)
-public MboRemote addInvLifoFifoCostRecord(final double quantity, final double unitcost, final String conditioncode, final String getName, final long matrectransid)
-'''
-pass
+    '''    public MboRemote addInvLifoFifoCostRecord(final String conditioncode)
+    public MboRemote addInvLifoFifoCostRecord(final double quantity, final double unitcost, final String conditioncode, final String getName, final long matrectransid)
+    '''
 def updateInventoryIssueDetails():
-'''public void updateInventoryIssueDetails(final Date issDate, final double quantity)
-'''
-pass
+    '''    public void updateInventoryIssueDetails(final Date issDate, final double quantity)
+    '''
 def updateInventoryLastCost():
-'''public void updateInventoryLastCost(final double unitcost)
-public void updateInventoryLastCost(final double unitcost, final double exr)
-public void updateInventoryLastCost(final double unitcost, final double exr, InvCost invcost)
-'''
-pass
+    '''    public void updateInventoryLastCost(final double unitcost)
+    public void updateInventoryLastCost(final double unitcost, final double exr)
+    public void updateInventoryLastCost(final double unitcost, final double exr, InvCost invcost)
+    '''
 def updateInventoryDeliveryTime():
-'''public void updateInventoryDeliveryTime(final double deliveryTime)
-'''
-pass
+    '''    public void updateInventoryDeliveryTime(final double deliveryTime)
+    '''
 def adjustAverageCost():
-'''public MboRemote adjustAverageCost(final double newcost, final String conditionCode)
-'''
-pass
+    '''    public MboRemote adjustAverageCost(final double newcost, final String conditionCode)
+    '''
 def changeStockCategory():
-'''public void changeStockCategory(final String newcat)
-'''
-pass
+    '''    public void changeStockCategory(final String newcat)
+    '''
 def adjustStandardCost():
-'''public MboRemote adjustStandardCost(final double newcost, final String conditionCode)
-'''
-pass
+    '''    public MboRemote adjustStandardCost(final double newcost, final String conditionCode)
+    '''
 def getDefaultAverageCost():
-'''public double getDefaultAverageCost()
-'''
-pass
+    '''    public double getDefaultAverageCost()
+    '''
 def zeroYTDQuantities():
-'''public void zeroYTDQuantities()
-'''
-pass
+    '''    public void zeroYTDQuantities()
+    '''
 def reconcileBalances():
-'''public void reconcileBalances()
-public void reconcileBalances(final String controlacc, final String shrinkageacc, final String remark)
-public MboRemote reconcileBalances(final String binnum, final String lotnum)
-'''
-pass
+    '''    public void reconcileBalances()
+    public void reconcileBalances(final String controlacc, final String shrinkageacc, final String remark)
+    public MboRemote reconcileBalances(final String binnum, final String lotnum)
+    '''
 def getCurrentBalance():
-'''public double getCurrentBalance(final String binnum, final String lotnum)
-public double getCurrentBalance(final String binnum, final String lotnum, final String conditionCode)
-'''
-pass
+    '''    public double getCurrentBalance(final String binnum, final String lotnum)
+    public double getCurrentBalance(final String binnum, final String lotnum, final String conditionCode)
+    '''
 def getPhysicalCount():
-'''public double getPhysicalCount(final String binnum, final String lotnum)
-public double getPhysicalCount(final String binnum, final String lotnum, final String conditionCode)
-'''
-pass
+    '''    public double getPhysicalCount(final String binnum, final String lotnum)
+    public double getPhysicalCount(final String binnum, final String lotnum, final String conditionCode)
+    '''
 def addInvBalancesRecord():
-'''public InvBalancesRemote addInvBalancesRecord(final String binnum, final String lotnum, final double curbal)
-public InvBalancesRemote addInvBalancesRecord(String binnum, String lotnum, final double curbal, String conditionCode)
-'''
-pass
+    '''    public InvBalancesRemote addInvBalancesRecord(final String binnum, final String lotnum, final double curbal)
+    public InvBalancesRemote addInvBalancesRecord(String binnum, String lotnum, final double curbal, String conditionCode)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def getInvBalanceRecord():
-'''public InvBalances getInvBalanceRecord(final String binnum, final String lotnum, final String conditionCode)
-public InvBalances getInvBalanceRecord(String binnum, String lotnum, String conditionCode, String storeLoc, String storeSite)
-'''
-pass
+    '''    public InvBalances getInvBalanceRecord(final String binnum, final String lotnum, final String conditionCode)
+    public InvBalances getInvBalanceRecord(String binnum, String lotnum, String conditionCode, String storeLoc, String storeSite)
+    '''
 def getInvBalancesSetForKitComponent():
-'''public MboSetRemote getInvBalancesSetForKitComponent(String binnum)
-'''
-pass
+    '''    public MboSetRemote getInvBalancesSetForKitComponent(String binnum)
+    '''
 def createIssue():
-'''public MboRemote createIssue()
-'''
-pass
+    '''    public MboRemote createIssue()
+    '''
 def isStocked():
-'''public boolean isStocked()
-'''
-pass
+    '''    public boolean isStocked()
+    '''
 def isNonStocked():
-'''public boolean isNonStocked()
-'''
-pass
+    '''    public boolean isNonStocked()
+    '''
 def isSpecialOrder():
-'''public boolean isSpecialOrder()
-'''
-pass
+    '''    public boolean isSpecialOrder()
+    '''
 def changeCapitalizedStatus():
-'''public void changeCapitalizedStatus(final boolean capitalized)
-public void changeCapitalizedStatus(final boolean capitalized, final String capitalacc, final String memo)
-'''
-pass
+    '''    public void changeCapitalizedStatus(final boolean capitalized)
+    public void changeCapitalizedStatus(final boolean capitalized, final String capitalacc, final String memo)
+    '''
 def calculateCurrentBalance():
-'''public double calculateCurrentBalance()
-'''
-pass
+    '''    public double calculateCurrentBalance()
+    '''
 def calculateRQtyNotStaged():
-'''public double calculateRQtyNotStaged()
-'''
-pass
+    '''    public double calculateRQtyNotStaged()
+    '''
 def calculateStagedQty():
-'''public double calculateStagedQty()
-'''
-pass
+    '''    public double calculateStagedQty()
+    '''
 def calculatePickedQty():
-'''public double calculatePickedQty()
-'''
-pass
+    '''    public double calculatePickedQty()
+    '''
 def calculateShippedQty():
-'''public double calculateShippedQty()
-'''
-pass
+    '''    public double calculateShippedQty()
+    '''
 def calculateReceivedQty():
-'''public double calculateReceivedQty()
-'''
-pass
+    '''    public double calculateReceivedQty()
+    '''
 def calculateHardShippedQty():
-'''public double calculateHardShippedQty()
-'''
-pass
+    '''    public double calculateHardShippedQty()
+    '''
 def calculateAvailableQty():
-'''public double calculateAvailableQty()
-'''
-pass
+    '''    public double calculateAvailableQty()
+    '''
 def calculateOverShippedQty():
-'''public double calculateOverShippedQty()
-'''
-pass
+    '''    public double calculateOverShippedQty()
+    '''
 def setAutoCreateInvCost():
-'''public void setAutoCreateInvCost(final boolean flag)
-'''
-pass
+    '''    public void setAutoCreateInvCost(final boolean flag)
+    '''
 def setAutoCreateInvBalances():
-'''public void setAutoCreateInvBalances(final boolean flag)
-'''
-pass
+    '''    public void setAutoCreateInvBalances(final boolean flag)
+    '''
 def canTransferCurrentItem():
-'''public void canTransferCurrentItem()
-'''
-pass
+    '''    public void canTransferCurrentItem()
+    '''
 def canIssueCurrentItem():
-'''public void canIssueCurrentItem()
-'''
-pass
+    '''    public void canIssueCurrentItem()
+    '''
 def getInventoryStatus():
-'''public String getInventoryStatus()
-'''
-pass
+    '''    public String getInventoryStatus()
+    '''
 def canAdjustStdCost():
-'''public void canAdjustStdCost()
-'''
-pass
+    '''    public void canAdjustStdCost()
+    '''
 def canAdjustAvgCost():
-'''public void canAdjustAvgCost()
-'''
-pass
+    '''    public void canAdjustAvgCost()
+    '''
 def canAdjustBalance():
-'''public void canAdjustBalance()
-'''
-pass
+    '''    public void canAdjustBalance()
+    '''
 def canReconcileBalances():
-'''public void canReconcileBalances()
-'''
-pass
+    '''    public void canReconcileBalances()
+    '''
 def updateCurrentBalance():
-'''public MboRemote updateCurrentBalance(final String binnum, final String lotnum, final String conditionCode, final double toIncrement)
-'''
-pass
+    '''    public MboRemote updateCurrentBalance(final String binnum, final String lotnum, final String conditionCode, final double toIncrement)
+    '''
 def getErrorMsg():
-'''public MXApplicationException getErrorMsg()
-'''
-pass
+    '''    public MXApplicationException getErrorMsg()
+    '''
 def canDoAction():
-'''public void canDoAction()
-'''
-pass
+    '''    public void canDoAction()
+    '''
 def siteReceiptsAndTransfers():
-'''public MboSetRemote siteReceiptsAndTransfers()
-'''
-pass
+    '''    public MboSetRemote siteReceiptsAndTransfers()
+    '''
 def setKitAction():
-'''public void setKitAction(final String makeOrBreak)
-'''
-pass
+    '''    public void setKitAction(final String makeOrBreak)
+    '''
 def getKitAction():
-'''public String getKitAction()
-'''
-pass
+    '''    public String getKitAction()
+    '''
 def kitMakeOrBreak():
-'''public void kitMakeOrBreak(final KitRemote kit)
-public void kitMakeOrBreak(final KitRemote kit, final boolean useSourceBinForInvKitAction)
-'''
-pass
+    '''    public void kitMakeOrBreak(final KitRemote kit)
+    public void kitMakeOrBreak(final KitRemote kit, final boolean useSourceBinForInvKitAction)
+    '''
 def canKit():
-'''public void canKit()
-'''
-pass
+    '''    public void canKit()
+    '''
 def refreshCountDate():
-'''public void refreshCountDate()
-'''
-pass
+    '''    public void refreshCountDate()
+    '''
 def copyAssetsForIssue():
-'''public void copyAssetsForIssue(final MboSetRemote assetSet, final MboRemote issueItemToAssetMbo)
-'''
-pass
+    '''    public void copyAssetsForIssue(final MboSetRemote assetSet, final MboRemote issueItemToAssetMbo)
+    '''
 def checkRequestAgainstItemMaxIssue():
-'''public void checkRequestAgainstItemMaxIssue(final String assetnum, final double qtyRequested)
-'''
-pass
+    '''    public void checkRequestAgainstItemMaxIssue(final String assetnum, final double qtyRequested)
+    '''
 def checkWOExists():
-'''public boolean checkWOExists()
-'''
-pass
+    '''    public boolean checkWOExists()
+    '''
 def checkInvBalancesExists():
-'''public boolean checkInvBalancesExists()
-'''
-pass
+    '''    public boolean checkInvBalancesExists()
+    '''
 def checkAssetExists():
-'''public boolean checkAssetExists()
-'''
-pass
+    '''    public boolean checkAssetExists()
+    '''
 def checkJPExists():
-'''public boolean checkJPExists()
-'''
-pass
+    '''    public boolean checkJPExists()
+    '''
 def checkMRExists():
-'''public boolean checkMRExists()
-'''
-pass
+    '''    public boolean checkMRExists()
+    '''
 def checkPRExists():
-'''public boolean checkPRExists()
-'''
-pass
+    '''    public boolean checkPRExists()
+    '''
 def checkPOExists():
-'''public boolean checkPOExists()
-'''
-pass
+    '''    public boolean checkPOExists()
+    '''
 def checkContractExists():
-'''public boolean checkContractExists()
-'''
-pass
+    '''    public boolean checkContractExists()
+    '''
 def checkCIExists():
-'''public boolean checkCIExists()
-'''
-pass
+    '''    public boolean checkCIExists()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''
 def validateChangeStatus():
-'''public void validateChangeStatus(final String status, final Date date, final String memo)
-'''
-pass
+    '''    public void validateChangeStatus(final String status, final Date date, final String memo)
+    '''
 def isPendobs():
-'''public boolean isPendobs()
-'''
-pass
+    '''    public boolean isPendobs()
+    '''
 def isObsolete():
-'''public boolean isObsolete()
-'''
-pass
+    '''    public boolean isObsolete()
+    '''
 def isPlanning():
-'''public boolean isPlanning()
-'''
-pass
+    '''    public boolean isPlanning()
+    '''
 def checkInvUseStatusForPlanning():
-'''public boolean checkInvUseStatusForPlanning()
-'''
-pass
+    '''    public boolean checkInvUseStatusForPlanning()
+    '''
 def checkInvUseStatusForPndObs():
-'''public boolean checkInvUseStatusForPndObs()
-'''
-pass
+    '''    public boolean checkInvUseStatusForPndObs()
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def getCostType():
-'''public String getCostType()
-'''
-pass
+    '''    public String getCostType()
+    '''
 def getInvLifoFifoCostRecordSetSorted():
-'''public MboSetRemote getInvLifoFifoCostRecordSetSorted(final String conditionCode)
-'''
-pass
+    '''    public MboSetRemote getInvLifoFifoCostRecordSetSorted(final String conditionCode)
+    '''
 def getInvLifoFifoCostRecordSet():
-'''public MboSetRemote getInvLifoFifoCostRecordSet(final String conditionCode)
-public MboSetRemote getInvLifoFifoCostRecordSet(final String conditionCode, final long transid)
-'''
-pass
+    '''    public MboSetRemote getInvLifoFifoCostRecordSet(final String conditionCode)
+    public MboSetRemote getInvLifoFifoCostRecordSet(final String conditionCode, final long transid)
+    '''
 def consumeInvLifoFifoCostRecord():
-'''public void consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode)
-public void consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode, final long transid)
-'''
-pass
+    '''    public void consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode)
+    public void consumeInvLifoFifoCostRecord(final double quantity, final String conditionCode, final long transid)
+    '''
 def consumeInvLifoFifoCostRecordRemaining():
-'''public void consumeInvLifoFifoCostRecordRemaining(final double quantity, final String conditionCode, final long transid)
-'''
-pass
+    '''    public void consumeInvLifoFifoCostRecordRemaining(final double quantity, final String conditionCode, final long transid)
+    '''
 def getAverageCost():
-'''public double getAverageCost(final MboSetRemote invLifoFifoCostSet)
-'''
-pass
+    '''    public double getAverageCost(final MboSetRemote invLifoFifoCostSet)
+    '''
 def setAutoCreateInvLifoFifoCost():
-'''public void setAutoCreateInvLifoFifoCost(final boolean flag)
-'''
-pass
+    '''    public void setAutoCreateInvLifoFifoCost(final boolean flag)
+    '''
 def getAutoCreateInvLifoFifoCost():
-'''public boolean getAutoCreateInvLifoFifoCost()
-'''
-pass
+    '''    public boolean getAutoCreateInvLifoFifoCost()
+    '''
 def getInvLifoFifoCostRecord():
-'''public MboRemote getInvLifoFifoCostRecord(final String conditionCode)
-'''
-pass
+    '''    public MboRemote getInvLifoFifoCostRecord(final String conditionCode)
+    '''
 def setNextInvoiceDate():
-'''public void setNextInvoiceDate()
-'''
-pass
+    '''    public void setNextInvoiceDate()
+    '''
 def getNextDate():
-'''public Date getNextDate()
-'''
-pass
+    '''    public Date getNextDate()
+    '''
 def addMonths():
-'''public Date addMonths(final int addMonths, final Date fromDate)
-'''
-pass
+    '''    public Date addMonths(final int addMonths, final Date fromDate)
+    '''
 def addYears():
-'''public Date addYears(final int addYears, final Date fromDate)
-'''
-pass
+    '''    public Date addYears(final int addYears, final Date fromDate)
+    '''
 def isConsignment():
-'''public boolean isConsignment()
-'''
-pass
+    '''    public boolean isConsignment()
+    '''
 def updateConsignment():
-'''public void updateConsignment()
-'''
-pass
+    '''    public void updateConsignment()
+    '''
 def checkReconcileFlag():
-'''public boolean checkReconcileFlag()
-'''
-pass
+    '''    public boolean checkReconcileFlag()
+    '''
 def POPRExists():
-'''public boolean POPRExists()
-'''
-pass
+    '''    public boolean POPRExists()
+    '''
 def pendingTransactionExists():
-'''public boolean pendingTransactionExists(final MboSetRemote transSet)
-'''
-pass
+    '''    public boolean pendingTransactionExists(final MboSetRemote transSet)
+    '''
 def getInvGenType():
-'''public String getInvGenType()
-'''
-pass
+    '''    public String getInvGenType()
+    '''
 def invUpdateCostType():
-'''public void invUpdateCostType()
-'''
-pass
+    '''    public void invUpdateCostType()
+    '''
 def checkBalandPOPR():
-'''public void checkBalandPOPR()
-'''
-pass
+    '''    public void checkBalandPOPR()
+    '''
 def setEditabilityFlags():
-'''public void setEditabilityFlags()
-'''
-pass
+    '''    public void setEditabilityFlags()
+    '''
 def increaseAccumulativeTotalCurBal():
-'''public void increaseAccumulativeTotalCurBal(final double currentReceiptQty)
-'''
-pass
+    '''    public void increaseAccumulativeTotalCurBal(final double currentReceiptQty)
+    '''
 def getAccumulativeTotalCurBal():
-'''public double getAccumulativeTotalCurBal()
-'''
-pass
+    '''    public double getAccumulativeTotalCurBal()
+    '''
 def checkComponentCostType():
-'''public void checkComponentCostType(final MboSetRemote itemStructKitSet)
-'''
-pass
+    '''    public void checkComponentCostType(final MboSetRemote itemStructKitSet)
+    '''
 def getStatusSetByMaxvarFlag():
-'''public boolean getStatusSetByMaxvarFlag()
-'''
-pass
+    '''    public boolean getStatusSetByMaxvarFlag()
+    '''
 def calculateRQtyNotStagedForAvailBal():
-'''public double calculateRQtyNotStagedForAvailBal()
-'''
-pass
+    '''    public double calculateRQtyNotStagedForAvailBal()
+    '''
 def calculateBinCnt():
-'''public String calculateBinCnt()
-'''
-pass
+    '''    public String calculateBinCnt()
+    '''
 def calculateLotCnt():
-'''public String calculateLotCnt()
-'''
-pass
+    '''    public String calculateLotCnt()
+    '''
 def hasMultipleInvBalance():
-'''public Boolean hasMultipleInvBalance()
-'''
-pass
+    '''    public Boolean hasMultipleInvBalance()
+    '''
 def previewReconcileBalances():
-'''public MboRemote previewReconcileBalances(final String controlacc, final String shrinkageacc, final String remark)
-'''
-pass
+    '''    public MboRemote previewReconcileBalances(final String controlacc, final String shrinkageacc, final String remark)
+    '''
 def updateGLAccount():
-'''public void updateGLAccount(final String controlacc, final String shrinkageacc)
-'''
-pass
+    '''    public void updateGLAccount(final String controlacc, final String shrinkageacc)
+    '''
 def calculateConditionCodeCnt():
-'''public String calculateConditionCodeCnt()
-'''
-pass
+    '''    public String calculateConditionCodeCnt()
+    '''

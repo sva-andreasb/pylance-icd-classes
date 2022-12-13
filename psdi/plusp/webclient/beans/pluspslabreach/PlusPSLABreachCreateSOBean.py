@@ -1,16 +1,12 @@
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def CLEARPREVIEW():
-'''public int CLEARPREVIEW()
-'''
-pass
+    '''    public int CLEARPREVIEW()
+    '''
 def CREATEPREVIEW():
-'''public int CREATEPREVIEW()
-'''
-pass
+    '''    public int CREATEPREVIEW()
+    '''

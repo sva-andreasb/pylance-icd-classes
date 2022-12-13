@@ -1,20 +1,15 @@
 def VpkMsgIn():
-'''public VpkMsgIn(final byte[] originalMessage)
-'''
-pass
+    '''    public VpkMsgIn(final byte[] originalMessage)
+    '''
 def getType():
-'''public short getType()
-'''
-pass
+    '''    public short getType()
+    '''
 def getChannelId():
-'''public int getChannelId()
-'''
-pass
+    '''    public int getChannelId()
+    '''
 def isEncrypted():
-'''public boolean isEncrypted()
-'''
-pass
+    '''    public boolean isEncrypted()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

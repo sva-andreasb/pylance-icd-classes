@@ -1,8 +1,6 @@
 def CdmCiTypeChangeStatus():
-'''public CdmCiTypeChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public CdmCiTypeChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

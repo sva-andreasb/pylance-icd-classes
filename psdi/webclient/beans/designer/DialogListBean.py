@@ -1,20 +1,15 @@
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def scrollnext():
-'''public int scrollnext()
-'''
-pass
+    '''    public int scrollnext()
+    '''
 def scrollprev():
-'''public int scrollprev()
-'''
-pass
+    '''    public int scrollprev()
+    '''
 def nextrow():
-'''public int nextrow()
-'''
-pass
+    '''    public int nextrow()
+    '''
 def prevrow():
-'''public int prevrow()
-'''
-pass
+    '''    public int prevrow()
+    '''

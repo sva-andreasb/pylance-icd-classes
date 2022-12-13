@@ -1,42 +1,32 @@
-ELEMENT_NAME = "String  invite""
-NAMESPACE = "String  http://jabber.org/protocol/workgroup""
+ELEMENT_NAME = "String  \"invite\""
+NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def RoomInvitation():
-'''public RoomInvitation(final Type type, final Jid invitee, final String sessionID, final String reason)
-'''
-pass
+    '''    public RoomInvitation(final Type type, final Jid invitee, final String sessionID, final String reason)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getInviter():
-'''public EntityJid getInviter()
-'''
-pass
+    '''    public EntityJid getInviter()
+    '''
 def getRoom():
-'''public EntityBareJid getRoom()
-'''
-pass
+    '''    public EntityBareJid getRoom()
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def RoomInvitationIQ():
-'''public RoomInvitationIQ(final RoomInvitation roomInvitation)
-'''
-pass
+    '''    public RoomInvitationIQ(final RoomInvitation roomInvitation)
+    '''
 def parse():
-'''public RoomInvitation parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public RoomInvitation parse(final XmlPullParser parser, final int initialDepth)
+    '''

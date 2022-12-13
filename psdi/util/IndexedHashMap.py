@@ -1,16 +1,12 @@
 def IndexedHashMap():
-'''public IndexedHashMap()
-'''
-pass
+    '''    public IndexedHashMap()
+    '''
 def put():
-'''public V put(final I idx, final K key, final V value)
-'''
-pass
+    '''    public V put(final I idx, final K key, final V value)
+    '''
 def getIndexed():
-'''public V getIndexed(final I idx)
-'''
-pass
+    '''    public V getIndexed(final I idx)
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''

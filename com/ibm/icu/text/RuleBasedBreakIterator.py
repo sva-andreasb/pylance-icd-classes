@@ -1,82 +1,62 @@
 def getInstanceFromCompiledRules():
-'''public static RuleBasedBreakIterator getInstanceFromCompiledRules(final InputStream is)
-public static RuleBasedBreakIterator getInstanceFromCompiledRules(final ByteBuffer bytes)
-'''
-pass
+    '''    public static RuleBasedBreakIterator getInstanceFromCompiledRules(final InputStream is)
+    public static RuleBasedBreakIterator getInstanceFromCompiledRules(final ByteBuffer bytes)
+    '''
 def RuleBasedBreakIterator():
-'''public RuleBasedBreakIterator(final String rules)
-'''
-pass
+    '''    public RuleBasedBreakIterator(final String rules)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def equals():
-'''public boolean equals(final Object that)
-'''
-pass
+    '''    public boolean equals(final Object that)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def dump():
-'''public void dump(PrintStream out)
-'''
-pass
+    '''    public void dump(PrintStream out)
+    '''
 def compileRules():
-'''public static void compileRules(final String rules, final OutputStream ruleBinary)
-'''
-pass
+    '''    public static void compileRules(final String rules, final OutputStream ruleBinary)
+    '''
 def first():
-'''public int first()
-'''
-pass
+    '''    public int first()
+    '''
 def last():
-'''public int last()
-'''
-pass
+    '''    public int last()
+    '''
 def next():
-'''public int next(int n)
-public int next()
-'''
-pass
+    '''    public int next(int n)
+    public int next()
+    '''
 def previous():
-'''public int previous()
-'''
-pass
+    '''    public int previous()
+    '''
 def following():
-'''public int following(int startPos)
-'''
-pass
+    '''    public int following(int startPos)
+    '''
 def preceding():
-'''public int preceding(final int offset)
-'''
-pass
+    '''    public int preceding(final int offset)
+    '''
 def isBoundary():
-'''public boolean isBoundary(final int offset)
-'''
-pass
+    '''    public boolean isBoundary(final int offset)
+    '''
 def current():
-'''public int current()
-'''
-pass
+    '''    public int current()
+    '''
 def getRuleStatus():
-'''public int getRuleStatus()
-'''
-pass
+    '''    public int getRuleStatus()
+    '''
 def getRuleStatusVec():
-'''public int getRuleStatusVec(final int[] fillInArray)
-'''
-pass
+    '''    public int getRuleStatusVec(final int[] fillInArray)
+    '''
 def getText():
-'''public CharacterIterator getText()
-'''
-pass
+    '''    public CharacterIterator getText()
+    '''
 def setText():
-'''public void setText(final CharacterIterator newText)
-'''
-pass
+    '''    public void setText(final CharacterIterator newText)
+    '''

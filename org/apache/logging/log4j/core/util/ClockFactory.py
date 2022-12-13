@@ -1,5 +1,4 @@
-PROPERTY_NAME = "String  log4j.Clock""
+PROPERTY_NAME = "String  \"log4j.Clock\""
 def getClock():
-'''public static Clock getClock()
-'''
-pass
+    '''    public static Clock getClock()
+    '''

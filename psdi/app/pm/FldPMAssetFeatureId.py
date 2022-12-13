@@ -1,8 +1,6 @@
 def FldPMAssetFeatureId():
-'''public FldPMAssetFeatureId(final MboValue mbv)
-'''
-pass
+    '''    public FldPMAssetFeatureId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

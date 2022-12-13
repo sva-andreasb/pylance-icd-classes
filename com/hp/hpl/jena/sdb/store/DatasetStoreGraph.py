@@ -1,25 +1,19 @@
 def DatasetStoreGraph():
-'''public DatasetStoreGraph(final Store store, final Context context)
-public DatasetStoreGraph(final Store store, final GraphSDB graph, final Context context)
-'''
-pass
+    '''    public DatasetStoreGraph(final Store store, final Context context)
+    public DatasetStoreGraph(final Store store, final GraphSDB graph, final Context context)
+    '''
 def getStore():
-'''public Store getStore()
-'''
-pass
+    '''    public Store getStore()
+    '''
 def listGraphNodes():
-'''public Iterator<Node> listGraphNodes()
-'''
-pass
+    '''    public Iterator<Node> listGraphNodes()
+    '''
 def startRequest():
-'''public void startRequest()
-'''
-pass
+    '''    public void startRequest()
+    '''
 def finishRequest():
-'''public void finishRequest()
-'''
-pass
+    '''    public void finishRequest()
+    '''
 def toDataset():
-'''public Dataset toDataset()
-'''
-pass
+    '''    public Dataset toDataset()
+    '''

@@ -1,44 +1,33 @@
 def AuthenticatedAccessToken():
-'''public AuthenticatedAccessToken()
-'''
-pass
+    '''    public AuthenticatedAccessToken()
+    '''
 def getMaximoBindingName():
-'''public String getMaximoBindingName()
-'''
-pass
+    '''    public String getMaximoBindingName()
+    '''
 def setMaximoBindingName():
-'''public void setMaximoBindingName(final String string)
-'''
-pass
+    '''    public void setMaximoBindingName(final String string)
+    '''
 def getSessionCreationTime():
-'''public long getSessionCreationTime()
-'''
-pass
+    '''    public long getSessionCreationTime()
+    '''
 def setSessionCreationTime():
-'''public void setSessionCreationTime(final long l)
-'''
-pass
+    '''    public void setSessionCreationTime(final long l)
+    '''
 def getSessionData():
-'''public byte[] getSessionData()
-'''
-pass
+    '''    public byte[] getSessionData()
+    '''
 def setSessionData():
-'''public void setSessionData(final byte[] bs)
-'''
-pass
+    '''    public void setSessionData(final byte[] bs)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def setUserName():
-'''public void setUserName(final String string)
-'''
-pass
+    '''    public void setUserName(final String string)
+    '''
 def getTenant():
-'''public String getTenant()
-'''
-pass
+    '''    public String getTenant()
+    '''
 def setTenant():
-'''public void setTenant(final String tenant)
-'''
-pass
+    '''    public void setTenant(final String tenant)
+    '''

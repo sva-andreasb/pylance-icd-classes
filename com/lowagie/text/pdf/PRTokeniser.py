@@ -9,116 +9,88 @@ TK_END_DIC = "int  8"
 TK_REF = "int  9"
 TK_OTHER = "int  10"
 def PRTokeniser():
-'''public PRTokeniser(final String filename)
-public PRTokeniser(final byte[] pdfIn)
-public PRTokeniser(final RandomAccessFileOrArray file)
-'''
-pass
+    '''    public PRTokeniser(final String filename)
+    public PRTokeniser(final byte[] pdfIn)
+    public PRTokeniser(final RandomAccessFileOrArray file)
+    '''
 def seek():
-'''public void seek(final int pos)
-'''
-pass
+    '''    public void seek(final int pos)
+    '''
 def getFilePointer():
-'''public int getFilePointer()
-'''
-pass
+    '''    public int getFilePointer()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''
 def getSafeFile():
-'''public RandomAccessFileOrArray getSafeFile()
-'''
-pass
+    '''    public RandomAccessFileOrArray getSafeFile()
+    '''
 def getFile():
-'''public RandomAccessFileOrArray getFile()
-'''
-pass
+    '''    public RandomAccessFileOrArray getFile()
+    '''
 def readString():
-'''public String readString(int size)
-'''
-pass
+    '''    public String readString(int size)
+    '''
 def isWhitespace():
-'''public static final boolean isWhitespace(final int ch)
-'''
-pass
+    '''    public static final boolean isWhitespace(final int ch)
+    '''
 def isDelimiter():
-'''public static final boolean isDelimiter(final int ch)
-'''
-pass
+    '''    public static final boolean isDelimiter(final int ch)
+    '''
 def isDelimiterWhitespace():
-'''public static final boolean isDelimiterWhitespace(final int ch)
-'''
-pass
+    '''    public static final boolean isDelimiterWhitespace(final int ch)
+    '''
 def getTokenType():
-'''public int getTokenType()
-'''
-pass
+    '''    public int getTokenType()
+    '''
 def getStringValue():
-'''public String getStringValue()
-'''
-pass
+    '''    public String getStringValue()
+    '''
 def getReference():
-'''public int getReference()
-'''
-pass
+    '''    public int getReference()
+    '''
 def getGeneration():
-'''public int getGeneration()
-'''
-pass
+    '''    public int getGeneration()
+    '''
 def backOnePosition():
-'''public void backOnePosition(final int ch)
-'''
-pass
+    '''    public void backOnePosition(final int ch)
+    '''
 def throwError():
-'''public void throwError(final String error)
-'''
-pass
+    '''    public void throwError(final String error)
+    '''
 def checkPdfHeader():
-'''public char checkPdfHeader()
-'''
-pass
+    '''    public char checkPdfHeader()
+    '''
 def checkFdfHeader():
-'''public void checkFdfHeader()
-'''
-pass
+    '''    public void checkFdfHeader()
+    '''
 def getStartxref():
-'''public int getStartxref()
-'''
-pass
+    '''    public int getStartxref()
+    '''
 def getHex():
-'''public static int getHex(final int v)
-'''
-pass
+    '''    public static int getHex(final int v)
+    '''
 def nextValidToken():
-'''public void nextValidToken()
-'''
-pass
+    '''    public void nextValidToken()
+    '''
 def nextToken():
-'''public boolean nextToken()
-'''
-pass
+    '''    public boolean nextToken()
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def readLineSegment():
-'''public boolean readLineSegment(final byte[] input)
-'''
-pass
+    '''    public boolean readLineSegment(final byte[] input)
+    '''
 def checkObjectStart():
-'''public static int[] checkObjectStart(final byte[] line)
-'''
-pass
+    '''    public static int[] checkObjectStart(final byte[] line)
+    '''
 def isHexString():
-'''public boolean isHexString()
-'''
-pass
+    '''    public boolean isHexString()
+    '''

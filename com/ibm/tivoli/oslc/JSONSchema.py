@@ -1,150 +1,114 @@
 def JSONSchema():
-'''public JSONSchema()
-public JSONSchema(final boolean orderNeeded, final boolean sortAsc, final boolean oasSchemaCompliance)
-public JSONSchema(final String id, final boolean oasSchemaCompliance)
-public JSONSchema(final String schemaURIVer, final boolean orderNeeded, final boolean sortAsc, final boolean oasSchemaCompliance)
-public JSONSchema(final JSONObject obj, final boolean oasSchemaCompliance)
-public JSONSchema(final String schemaURI, final String title, final String description, final String type, final boolean oasSchemaCompliance)
-public JSONSchema(final String schemaURI, final String title, final String description, final String type, final boolean orderNeeded, final boolean sortAsc, final boolean oasSchemaCompliance)
-'''
-pass
+    '''    public JSONSchema()
+    public JSONSchema(final boolean orderNeeded, final boolean sortAsc, final boolean oasSchemaCompliance)
+    public JSONSchema(final String id, final boolean oasSchemaCompliance)
+    public JSONSchema(final String schemaURIVer, final boolean orderNeeded, final boolean sortAsc, final boolean oasSchemaCompliance)
+    public JSONSchema(final JSONObject obj, final boolean oasSchemaCompliance)
+    public JSONSchema(final String schemaURI, final String title, final String description, final String type, final boolean oasSchemaCompliance)
+    public JSONSchema(final String schemaURI, final String title, final String description, final String type, final boolean orderNeeded, final boolean sortAsc, final boolean oasSchemaCompliance)
+    '''
 def addExtendedSchema():
-'''public JSONSchema addExtendedSchema(final String key, final JSONObject jo)
-'''
-pass
+    '''    public JSONSchema addExtendedSchema(final String key, final JSONObject jo)
+    '''
 def isItem():
-'''public JSONSchema isItem(final boolean isItem)
-'''
-pass
+    '''    public JSONSchema isItem(final boolean isItem)
+    '''
 def isOrderNeeded():
-'''public boolean isOrderNeeded()
-'''
-pass
+    '''    public boolean isOrderNeeded()
+    '''
 def getTermSchemaURI():
-'''public String getTermSchemaURI()
-'''
-pass
+    '''    public String getTermSchemaURI()
+    '''
 def schemaURI():
-'''public JSONSchema schemaURI(final String schemaURI)
-'''
-pass
+    '''    public JSONSchema schemaURI(final String schemaURI)
+    '''
 def getTermTitle():
-'''public String getTermTitle()
-'''
-pass
+    '''    public String getTermTitle()
+    '''
 def title():
-'''public JSONSchema title(final String title)
-'''
-pass
+    '''    public JSONSchema title(final String title)
+    '''
 def getTermDescription():
-'''public String getTermDescription()
-'''
-pass
+    '''    public String getTermDescription()
+    '''
 def descripton():
-'''public JSONSchema descripton(final String description)
-'''
-pass
+    '''    public JSONSchema descripton(final String description)
+    '''
 def resource():
-'''public JSONSchema resource(final String resource)
-'''
-pass
+    '''    public JSONSchema resource(final String resource)
+    '''
 def getTermType():
-'''public String getTermType()
-'''
-pass
+    '''    public String getTermType()
+    '''
 def type():
-'''public JSONSchema type(final String type)
-'''
-pass
+    '''    public JSONSchema type(final String type)
+    '''
 def getTermRef():
-'''public String getTermRef()
-'''
-pass
+    '''    public String getTermRef()
+    '''
 def ref():
-'''public JSONSchema ref(final String ref)
-'''
-pass
+    '''    public JSONSchema ref(final String ref)
+    '''
 def getTermSubType():
-'''public String getTermSubType()
-'''
-pass
+    '''    public String getTermSubType()
+    '''
 def setTermSubType():
-'''public JSONSchema setTermSubType(final String termSubType)
-'''
-pass
+    '''    public JSONSchema setTermSubType(final String termSubType)
+    '''
 def getTermDefinition():
-'''public JSONObject getTermDefinition()
-'''
-pass
+    '''    public JSONObject getTermDefinition()
+    '''
 def addTermDefinition():
-'''public JSONSchema addTermDefinition(final JSONObject termDefinition)
-'''
-pass
+    '''    public JSONSchema addTermDefinition(final JSONObject termDefinition)
+    '''
 def addTermSubDefinition():
-'''public JSONSchema addTermSubDefinition(final String subSchemaName, final Object subSchema)
-'''
-pass
+    '''    public JSONSchema addTermSubDefinition(final String subSchemaName, final Object subSchema)
+    '''
 def getRequired():
-'''public JSONArray getRequired()
-'''
-pass
+    '''    public JSONArray getRequired()
+    '''
 def addSubRequired():
-'''public JSONSchema addSubRequired(final String requiredItem)
-'''
-pass
+    '''    public JSONSchema addSubRequired(final String requiredItem)
+    '''
 def addRequired():
-'''public JSONSchema addRequired(final JSONArray required)
-'''
-pass
+    '''    public JSONSchema addRequired(final JSONArray required)
+    '''
 def getPK():
-'''public JSONArray getPK()
-'''
-pass
+    '''    public JSONArray getPK()
+    '''
 def addPrimaryKey():
-'''public JSONSchema addPrimaryKey(final String pkName)
-'''
-pass
+    '''    public JSONSchema addPrimaryKey(final String pkName)
+    '''
 def addPrimaryKeys():
-'''public JSONSchema addPrimaryKeys(final JSONArray pk)
-'''
-pass
+    '''    public JSONSchema addPrimaryKeys(final JSONArray pk)
+    '''
 def addProperty():
-'''public JSONSchema addProperty(final JSONProperty jp)
-'''
-pass
+    '''    public JSONSchema addProperty(final JSONProperty jp)
+    '''
 def removeProperty():
-'''public void removeProperty(final String propName)
-'''
-pass
+    '''    public void removeProperty(final String propName)
+    '''
 def getProperty():
-'''public JSONSchema getProperty(final String propName)
-'''
-pass
+    '''    public JSONSchema getProperty(final String propName)
+    '''
 def addItem():
-'''public JSONSchema addItem(final JSONSchema js)
-'''
-pass
+    '''    public JSONSchema addItem(final JSONSchema js)
+    '''
 def build():
-'''public JSONObject build()
-'''
-pass
+    '''    public JSONObject build()
+    '''
 def schemaPrinter():
-'''public void schemaPrinter()
-'''
-pass
+    '''    public void schemaPrinter()
+    '''
 def toJSONByte():
-'''public byte[] toJSONByte()
-'''
-pass
+    '''    public byte[] toJSONByte()
+    '''
 def toJSON():
-'''public JSONObject toJSON()
-'''
-pass
+    '''    public JSONObject toJSON()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def isOasSchemaCompliance():
-'''public boolean isOasSchemaCompliance()
-'''
-pass
+    '''    public boolean isOasSchemaCompliance()
+    '''

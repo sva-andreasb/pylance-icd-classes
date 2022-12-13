@@ -1,27 +1,21 @@
-URL = "String  URL""
-APIKEY = "String  APIKEY""
+URL = "String  \"URL\""
+APIKEY = "String  \"APIKEY\""
 def WatsonVRHandler():
-'''public WatsonVRHandler(final MaxEndPointInfo endPointInfo)
-public WatsonVRHandler()
-'''
-pass
+    '''    public WatsonVRHandler(final MaxEndPointInfo endPointInfo)
+    public WatsonVRHandler()
+    '''
 def invoke():
-'''public byte[] invoke(final Map metaData, byte[] data)
-'''
-pass
+    '''    public byte[] invoke(final Map metaData, byte[] data)
+    '''
 def getProperties():
-'''public List<RouterPropsInfo> getProperties()
-'''
-pass
+    '''    public List<RouterPropsInfo> getProperties()
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def getAPIKEY():
-'''public String getAPIKEY()
-'''
-pass
+    '''    public String getAPIKEY()
+    '''
 def getVRUrl():
-'''public String getVRUrl()
-'''
-pass
+    '''    public String getVRUrl()
+    '''

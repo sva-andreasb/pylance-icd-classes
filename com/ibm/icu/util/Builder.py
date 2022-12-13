@@ -1,49 +1,42 @@
-def setSupportedLocales():
-'''public Builder setSupportedLocales(final String locales)
-public Builder setSupportedLocales(final Collection<Locale> locales)
-'''
-pass
-def setSupportedULocales():
-'''public Builder setSupportedULocales(final Collection<ULocale> locales)
-'''
-pass
-def addSupportedULocale():
-'''public Builder addSupportedULocale(final ULocale locale)
-'''
-pass
-def addSupportedLocale():
-'''public Builder addSupportedLocale(final Locale locale)
-'''
-pass
-def setDefaultULocale():
-'''public Builder setDefaultULocale(final ULocale defaultLocale)
-'''
-pass
-def setDefaultLocale():
-'''public Builder setDefaultLocale(final Locale defaultLocale)
-'''
-pass
-def setFavorSubtag():
-'''public Builder setFavorSubtag(final FavorSubtag subtag)
-'''
-pass
-def setDemotionPerDesiredLocale():
-'''public Builder setDemotionPerDesiredLocale(final Demotion demotion)
-'''
-pass
-def setDirection():
-'''public Builder setDirection(final Direction direction)
-'''
-pass
-def internalSetThresholdDistance():
-'''public Builder internalSetThresholdDistance(int thresholdDistance)
-'''
-pass
+def Builder():
+    '''    public Builder()
+    '''
+def setLocale():
+    '''    public Builder setLocale(final ULocale locale)
+    '''
+def setLanguageTag():
+    '''    public Builder setLanguageTag(final String languageTag)
+    '''
+def setLanguage():
+    '''    public Builder setLanguage(final String language)
+    '''
+def setScript():
+    '''    public Builder setScript(final String script)
+    '''
+def setRegion():
+    '''    public Builder setRegion(final String region)
+    '''
+def setVariant():
+    '''    public Builder setVariant(final String variant)
+    '''
+def setExtension():
+    '''    public Builder setExtension(final char key, final String value)
+    '''
+def setUnicodeLocaleKeyword():
+    '''    public Builder setUnicodeLocaleKeyword(final String key, final String type)
+    '''
+def addUnicodeLocaleAttribute():
+    '''    public Builder addUnicodeLocaleAttribute(final String attribute)
+    '''
+def removeUnicodeLocaleAttribute():
+    '''    public Builder removeUnicodeLocaleAttribute(final String attribute)
+    '''
+def clear():
+    '''    public Builder clear()
+    '''
+def clearExtensions():
+    '''    public Builder clearExtensions()
+    '''
 def build():
-'''public LocaleMatcher build()
-'''
-pass
-def toString():
-'''public String toString()
-'''
-pass
+    '''    public ULocale build()
+    '''

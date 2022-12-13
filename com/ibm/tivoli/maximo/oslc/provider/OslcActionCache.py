@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final OslcActionCache getInstance()
-'''
-pass
+    '''    public static final OslcActionCache getInstance()
+    '''
 def getActionInfo():
-'''public OslcActionInfo getActionInfo(final String osName, final String action)
-'''
-pass
+    '''    public OslcActionInfo getActionInfo(final String osName, final String action)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getActions():
-'''public Map<String, OslcActionInfo> getActions(final String osName)
-'''
-pass
+    '''    public Map<String, OslcActionInfo> getActions(final String osName)
+    '''
 def getDescForAction():
-'''public String getDescForAction(final String osName, final String name, final UserInfo userInfo)
-'''
-pass
+    '''    public String getDescForAction(final String osName, final String name, final UserInfo userInfo)
+    '''

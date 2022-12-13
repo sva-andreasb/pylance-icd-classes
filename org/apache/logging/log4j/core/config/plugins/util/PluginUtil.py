@@ -1,8 +1,6 @@
 def instantiatePlugin():
-'''public static <V> V instantiatePlugin(final Class<V> pluginClass)
-'''
-pass
+    '''    public static <V> V instantiatePlugin(final Class<V> pluginClass)
+    '''
 def findPluginFactoryMethod():
-'''public static Method findPluginFactoryMethod(final Class<?> pluginClass)
-'''
-pass
+    '''    public static Method findPluginFactoryMethod(final Class<?> pluginClass)
+    '''

@@ -1,104 +1,78 @@
 def StatefulEJBProvider():
-'''public StatefulEJBProvider()
-'''
-pass
+    '''    public StatefulEJBProvider()
+    '''
 def deSerialize():
-'''public EJBObject deSerialize(final String s)
-'''
-pass
+    '''    public EJBObject deSerialize(final String s)
+    '''
 def getCall():
-'''public Call getCall()
-'''
-pass
+    '''    public Call getCall()
+    '''
 def getContxt():
-'''public Context getContxt()
-'''
-pass
+    '''    public Context getContxt()
+    '''
 def getDd():
-'''public DeploymentDescriptor getDd()
-'''
-pass
+    '''    public DeploymentDescriptor getDd()
+    '''
 def getMethodName():
-'''public String getMethodName()
-'''
-pass
+    '''    public String getMethodName()
+    '''
 def getMethodParameters():
-'''public Vector getMethodParameters()
-'''
-pass
+    '''    public Vector getMethodParameters()
+    '''
 def getRemoteObjRef():
-'''public Remote getRemoteObjRef()
-'''
-pass
+    '''    public Remote getRemoteObjRef()
+    '''
 def getRespEncStyle():
-'''public String getRespEncStyle()
-'''
-pass
+    '''    public String getRespEncStyle()
+    '''
 def getServlet():
-'''public HttpServlet getServlet()
-'''
-pass
+    '''    public HttpServlet getServlet()
+    '''
 def getSession():
-'''public HttpSession getSession()
-'''
-pass
+    '''    public HttpSession getSession()
+    '''
 def getTargetObjectURI():
-'''public String getTargetObjectURI()
-'''
-pass
+    '''    public String getTargetObjectURI()
+    '''
 def getUniqueId():
-'''public static String getUniqueId(final String s)
-'''
-pass
+    '''    public static String getUniqueId(final String s)
+    '''
 def invoke():
-'''public void invoke(final SOAPContext soapContext, final SOAPContext soapContext2)
-'''
-pass
+    '''    public void invoke(final SOAPContext soapContext, final SOAPContext soapContext2)
+    '''
 def locate():
-'''public void locate(final DeploymentDescriptor dd, final Envelope envelope, final Call call, final String s, final String s2, final SOAPContext soapContext)
-'''
-pass
+    '''    public void locate(final DeploymentDescriptor dd, final Envelope envelope, final Call call, final String s, final String s2, final SOAPContext soapContext)
+    '''
 def serialize():
-'''public void serialize()
-'''
-pass
+    '''    public void serialize()
+    '''
 def setCall():
-'''public void setCall(final Call call)
-'''
-pass
+    '''    public void setCall(final Call call)
+    '''
 def setContxt():
-'''public void setContxt(final Context contxt)
-'''
-pass
+    '''    public void setContxt(final Context contxt)
+    '''
 def setDd():
-'''public void setDd(final DeploymentDescriptor dd)
-'''
-pass
+    '''    public void setDd(final DeploymentDescriptor dd)
+    '''
 def setMethodName():
-'''public void setMethodName(final String methodName)
-'''
-pass
+    '''    public void setMethodName(final String methodName)
+    '''
 def setMethodParameters():
-'''public void setMethodParameters(final Vector methodParameters)
-'''
-pass
+    '''    public void setMethodParameters(final Vector methodParameters)
+    '''
 def setRemoteObjRef():
-'''public void setRemoteObjRef(final Remote remoteObjRef)
-'''
-pass
+    '''    public void setRemoteObjRef(final Remote remoteObjRef)
+    '''
 def setRespEncStyle():
-'''public void setRespEncStyle(final String respEncStyle)
-'''
-pass
+    '''    public void setRespEncStyle(final String respEncStyle)
+    '''
 def setServlet():
-'''public void setServlet(final HttpServlet servlet)
-'''
-pass
+    '''    public void setServlet(final HttpServlet servlet)
+    '''
 def setSession():
-'''public void setSession(final HttpSession session)
-'''
-pass
+    '''    public void setSession(final HttpSession session)
+    '''
 def setTargetObjectURI():
-'''public void setTargetObjectURI(final String targetObjectURI)
-'''
-pass
+    '''    public void setTargetObjectURI(final String targetObjectURI)
+    '''

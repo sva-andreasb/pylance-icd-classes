@@ -1,4 +1,3 @@
 def FldWorkManagementEndFeatureLabel():
-'''public FldWorkManagementEndFeatureLabel(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkManagementEndFeatureLabel(final MboValue mbv)
+    '''

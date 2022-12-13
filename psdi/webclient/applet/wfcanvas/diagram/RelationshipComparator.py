@@ -1,12 +1,9 @@
 def RelationshipComparator():
-'''public RelationshipComparator(final int type)
-'''
-pass
+    '''    public RelationshipComparator(final int type)
+    '''
 def compare():
-'''public int compare(final Object o1, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o1, final Object o2)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

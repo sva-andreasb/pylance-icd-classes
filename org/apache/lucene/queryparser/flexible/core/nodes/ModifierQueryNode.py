@@ -1,37 +1,28 @@
 def ModifierQueryNode():
-'''public ModifierQueryNode(final QueryNode query, final Modifier mod)
-'''
-pass
+    '''    public ModifierQueryNode(final QueryNode query, final Modifier mod)
+    '''
 def getChild():
-'''public QueryNode getChild()
-'''
-pass
+    '''    public QueryNode getChild()
+    '''
 def getModifier():
-'''public Modifier getModifier()
-'''
-pass
+    '''    public Modifier getModifier()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def toQueryString():
-'''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
-'''
-pass
+    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''
 def cloneTree():
-'''public QueryNode cloneTree()
-'''
-pass
+    '''    public QueryNode cloneTree()
+    '''
 def setChild():
-'''public void setChild(final QueryNode child)
-'''
-pass
+    '''    public void setChild(final QueryNode child)
+    '''
 def toDigitString():
-'''public String toDigitString()
-'''
-pass
+    '''    public String toDigitString()
+    '''
 def toLargeString():
-'''public String toLargeString()
-'''
-pass
+    '''    public String toLargeString()
+    '''

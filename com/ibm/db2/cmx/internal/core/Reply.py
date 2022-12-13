@@ -1,12 +1,9 @@
 def Reply():
-'''public Reply(final ConnectionImpl connection_)
-'''
-pass
+    '''    public Reply(final ConnectionImpl connection_)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def parseReply():
-'''public Message parseReply()
-'''
-pass
+    '''    public Message parseReply()
+    '''

@@ -1,16 +1,12 @@
 def getInstance():
-'''public static synchronized MaxLaunchEntryCache getInstance()
-'''
-pass
+    '''    public static synchronized MaxLaunchEntryCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getMaxLaunchEntryMap():
-'''public Map getMaxLaunchEntryMap()
-'''
-pass
+    '''    public Map getMaxLaunchEntryMap()
+    '''
 def getMaxLaunchEntry():
-'''public MaxLaunchEntryInfo getMaxLaunchEntry(final String launchentryname)
-'''
-pass
+    '''    public MaxLaunchEntryInfo getMaxLaunchEntry(final String launchentryname)
+    '''

@@ -1,4 +1,3 @@
 def ArtifactContainer():
-'''public ArtifactContainer(final MboSet ms)
-'''
-pass
+    '''    public ArtifactContainer(final MboSet ms)
+    '''

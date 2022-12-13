@@ -1,8 +1,6 @@
 def Wogen():
-'''public Wogen(final MboSet ms)
-'''
-pass
+    '''    public Wogen(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

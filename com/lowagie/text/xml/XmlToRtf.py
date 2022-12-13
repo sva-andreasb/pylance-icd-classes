@@ -1,9 +1,7 @@
 def XmlToRtf():
-'''public XmlToRtf()
-public XmlToRtf(final String pageSize)
-'''
-pass
+    '''    public XmlToRtf()
+    public XmlToRtf(final String pageSize)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

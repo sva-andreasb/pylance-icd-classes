@@ -1,5 +1,4 @@
 def CCIFldLinkCIPreviewMode():
-'''public CCIFldLinkCIPreviewMode()
-public CCIFldLinkCIPreviewMode(final MboValue mbv)
-'''
-pass
+    '''    public CCIFldLinkCIPreviewMode()
+    public CCIFldLinkCIPreviewMode(final MboValue mbv)
+    '''

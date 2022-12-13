@@ -1,8 +1,6 @@
 def ToggleViewTypeAction():
-'''public ToggleViewTypeAction()
-'''
-pass
+    '''    public ToggleViewTypeAction()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''

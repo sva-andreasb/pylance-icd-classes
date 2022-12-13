@@ -1,8 +1,6 @@
 def SCCDUIIncidentOutboundProc():
-'''public SCCDUIIncidentOutboundProc()
-'''
-pass
+    '''    public SCCDUIIncidentOutboundProc()
+    '''
 def search():
-'''public void search(final MboSetRemote mboSet, final String text)
-'''
-pass
+    '''    public void search(final MboSetRemote mboSet, final String text)
+    '''

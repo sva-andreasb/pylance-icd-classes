@@ -1,8 +1,6 @@
 def MaxIfaceConditionSet():
-'''public MaxIfaceConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIfaceConditionSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

@@ -1,16 +1,12 @@
 def OMChildrenWithSpecificAttributeIterator():
-'''public OMChildrenWithSpecificAttributeIterator(final OMNode currentChild, final QName attributeName, final String attributeValue, final boolean detach)
-'''
-pass
+    '''    public OMChildrenWithSpecificAttributeIterator(final OMNode currentChild, final QName attributeName, final String attributeValue, final boolean detach)
+    '''
 def setCaseInsensitiveValueChecks():
-'''public void setCaseInsensitiveValueChecks(final boolean val)
-'''
-pass
+    '''    public void setCaseInsensitiveValueChecks(final boolean val)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

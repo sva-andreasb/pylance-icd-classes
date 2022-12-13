@@ -1,8 +1,6 @@
 def FldCrontaskParamValue():
-'''public FldCrontaskParamValue(final MboValue mbv)
-'''
-pass
+    '''    public FldCrontaskParamValue(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

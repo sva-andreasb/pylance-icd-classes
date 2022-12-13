@@ -1,32 +1,24 @@
 def ExtendedClassInfo():
-'''public ExtendedClassInfo(final boolean exact, final String location, final String version)
-'''
-pass
+    '''    public ExtendedClassInfo(final boolean exact, final String location, final String version)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getExact():
-'''public boolean getExact()
-'''
-pass
+    '''    public boolean getExact()
+    '''
 def getLocation():
-'''public String getLocation()
-'''
-pass
+    '''    public String getLocation()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def renderOn():
-'''public void renderOn(final StringBuilder output, final TextRenderer textRenderer)
-'''
-pass
+    '''    public void renderOn(final StringBuilder output, final TextRenderer textRenderer)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

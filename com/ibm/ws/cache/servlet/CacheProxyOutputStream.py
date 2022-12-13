@@ -1,65 +1,50 @@
 def CacheProxyOutputStream():
-'''public CacheProxyOutputStream(final FragmentComposer fc)
-public CacheProxyOutputStream(final OutputStream outputStream, final FragmentComposer fc)
-public CacheProxyOutputStream()
-public CacheProxyOutputStream(final OutputStream outputStream)
-'''
-pass
+    '''    public CacheProxyOutputStream(final FragmentComposer fc)
+    public CacheProxyOutputStream(final OutputStream outputStream, final FragmentComposer fc)
+    public CacheProxyOutputStream()
+    public CacheProxyOutputStream(final OutputStream outputStream)
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def setOutputStream():
-'''public void setOutputStream(final OutputStream outputStream)
-'''
-pass
+    '''    public void setOutputStream(final OutputStream outputStream)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def resetBuffer():
-'''public void resetBuffer()
-'''
-pass
+    '''    public void resetBuffer()
+    '''
 def setCaching():
-'''public void setCaching(final boolean caching)
-'''
-pass
+    '''    public void setCaching(final boolean caching)
+    '''
 def isCaching():
-'''public boolean isCaching()
-'''
-pass
+    '''    public boolean isCaching()
+    '''
 def setDelayWrite():
-'''public void setDelayWrite(final boolean flag, final boolean pdcv)
-'''
-pass
+    '''    public void setDelayWrite(final boolean flag, final boolean pdcv)
+    '''
 def getCachedData():
-'''public byte[] getCachedData()
-'''
-pass
+    '''    public byte[] getCachedData()
+    '''
 def write():
-'''public void write(final int character)
-public void write(final byte[] array)
-public void write(final byte[] array, final int offset, final int length)
-'''
-pass
+    '''    public void write(final int character)
+    public void write(final byte[] array)
+    public void write(final byte[] array, final int offset, final int length)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getArdListener():
-'''public ARDIncludeListener getArdListener()
-'''
-pass
+    '''    public ARDIncludeListener getArdListener()
+    '''
 def initListener():
-'''public void initListener(final FragmentComposer fc)
-'''
-pass
+    '''    public void initListener(final FragmentComposer fc)
+    '''

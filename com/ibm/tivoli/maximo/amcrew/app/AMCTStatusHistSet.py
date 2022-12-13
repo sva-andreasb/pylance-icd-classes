@@ -1,4 +1,3 @@
 def AMCTStatusHistSet():
-'''public AMCTStatusHistSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AMCTStatusHistSet(final MboServerInterface ms)
+    '''

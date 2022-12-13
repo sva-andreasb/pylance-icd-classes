@@ -1,24 +1,18 @@
 def getSignature():
-'''public String getSignature(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public String getSignature(final ConstantPoolGen cpg)
+    '''
 def getName():
-'''public String getName(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public String getName(final ConstantPoolGen cpg)
+    '''
 def getClassName():
-'''public String getClassName(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public String getClassName(final ConstantPoolGen cpg)
+    '''
 def getClassType():
-'''public ObjectType getClassType(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public ObjectType getClassType(final ConstantPoolGen cpg)
+    '''
 def getReferenceType():
-'''public ReferenceType getReferenceType(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public ReferenceType getReferenceType(final ConstantPoolGen cpg)
+    '''
 def getLoadClassType():
-'''public ObjectType getLoadClassType(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public ObjectType getLoadClassType(final ConstantPoolGen cpg)
+    '''

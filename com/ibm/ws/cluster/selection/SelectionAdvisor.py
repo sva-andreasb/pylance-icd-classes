@@ -1,20 +1,15 @@
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''
 def select():
-'''public ClusterMemberDescription select()
-'''
-pass
+    '''    public ClusterMemberDescription select()
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def handleNotification():
-'''public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
-'''
-pass
+    '''    public void handleNotification(final DescriptionKey key, final String type, final Object userData, final Object handback)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

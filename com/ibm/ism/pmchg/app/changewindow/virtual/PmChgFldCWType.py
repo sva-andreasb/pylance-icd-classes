@@ -1,8 +1,6 @@
 def PmChgFldCWType():
-'''public PmChgFldCWType(final MboValue mbv)
-'''
-pass
+    '''    public PmChgFldCWType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

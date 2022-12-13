@@ -1,8 +1,6 @@
 def FldLinkedToAttribute():
-'''public FldLinkedToAttribute(final MboValue mbv)
-'''
-pass
+    '''    public FldLinkedToAttribute(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

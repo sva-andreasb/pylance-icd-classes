@@ -1,8 +1,6 @@
 def SimpleLoggerFactory():
-'''public SimpleLoggerFactory()
-'''
-pass
+    '''    public SimpleLoggerFactory()
+    '''
 def getLogger():
-'''public Logger getLogger(final String name)
-'''
-pass
+    '''    public Logger getLogger(final String name)
+    '''

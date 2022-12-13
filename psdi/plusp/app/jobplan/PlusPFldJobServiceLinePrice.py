@@ -1,8 +1,6 @@
 def PlusPFldJobServiceLinePrice():
-'''public PlusPFldJobServiceLinePrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldJobServiceLinePrice(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

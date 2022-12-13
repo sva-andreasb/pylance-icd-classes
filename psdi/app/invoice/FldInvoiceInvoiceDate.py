@@ -1,8 +1,6 @@
 def FldInvoiceInvoiceDate():
-'''public FldInvoiceInvoiceDate(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceInvoiceDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

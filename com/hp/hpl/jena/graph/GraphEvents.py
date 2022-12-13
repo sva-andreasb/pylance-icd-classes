@@ -1,34 +1,26 @@
 def GraphEvents():
-'''public GraphEvents(final String title, final Object content)
-'''
-pass
+    '''    public GraphEvents(final String title, final Object content)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def same():
-'''public boolean same(final GraphEvents o)
-'''
-pass
+    '''    public boolean same(final GraphEvents o)
+    '''
 def remove():
-'''public static GraphEvents remove(final Node s, final Node p, final Node o)
-'''
-pass
+    '''    public static GraphEvents remove(final Node s, final Node p, final Node o)
+    '''
 def getTriple():
-'''public Triple getTriple()
-public Triple getTriple()
-public Triple getTriple()
-'''
-pass
+    '''    public Triple getTriple()
+    public Triple getTriple()
+    public Triple getTriple()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getContent():
-'''public Object getContent()
-'''
-pass
+    '''    public Object getContent()
+    '''
 def getTitle():
-'''public Object getTitle()
-'''
-pass
+    '''    public Object getTitle()
+    '''

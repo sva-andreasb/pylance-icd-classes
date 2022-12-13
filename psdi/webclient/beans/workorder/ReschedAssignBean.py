@@ -1,13 +1,10 @@
 def ReschedAssignBean():
-'''public ReschedAssignBean()
-'''
-pass
+    '''    public ReschedAssignBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def BulkRescheduleSaveWO():
-'''public void BulkRescheduleSaveWO(final WO thePassedWO, final boolean resched, final Date reschedDate, final boolean fromListTab)
-public void BulkRescheduleSaveWO(final WO thePassedWO, final boolean resched, final Date reschedDate)
-'''
-pass
+    '''    public void BulkRescheduleSaveWO(final WO thePassedWO, final boolean resched, final Date reschedDate, final boolean fromListTab)
+    public void BulkRescheduleSaveWO(final WO thePassedWO, final boolean resched, final Date reschedDate)
+    '''

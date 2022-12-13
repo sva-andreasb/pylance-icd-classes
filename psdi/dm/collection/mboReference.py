@@ -1,8 +1,6 @@
 def getMboFromReference():
-'''public MboRemote getMboFromReference(final UserInfo userInfo)
-'''
-pass
+    '''    public MboRemote getMboFromReference(final UserInfo userInfo)
+    '''
 def setMboeference():
-'''public void setMboeference(final MboRemote mbo)
-'''
-pass
+    '''    public void setMboeference(final MboRemote mbo)
+    '''

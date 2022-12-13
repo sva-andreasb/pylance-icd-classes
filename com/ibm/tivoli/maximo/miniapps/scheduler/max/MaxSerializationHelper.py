@@ -1,20 +1,15 @@
 def MaxSerializationHelper():
-'''public MaxSerializationHelper(final AbstractTreeGridMiniAppBean bean)
-'''
-pass
+    '''    public MaxSerializationHelper(final AbstractTreeGridMiniAppBean bean)
+    '''
 def get():
-'''public UserInfo get()
-'''
-pass
+    '''    public UserInfo get()
+    '''
 def getBaseUIJson():
-'''public JSONObject getBaseUIJson()
-'''
-pass
+    '''    public JSONObject getBaseUIJson()
+    '''
 def getProperty():
-'''public Object getProperty(final String prop)
-'''
-pass
+    '''    public Object getProperty(final String prop)
+    '''
 def getBean():
-'''public AbstractTreeGridMiniAppBean getBean()
-'''
-pass
+    '''    public AbstractTreeGridMiniAppBean getBean()
+    '''

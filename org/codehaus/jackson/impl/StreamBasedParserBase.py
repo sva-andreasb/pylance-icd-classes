@@ -1,8 +1,6 @@
 def releaseBuffered():
-'''public int releaseBuffered(final OutputStream out)
-'''
-pass
+    '''    public int releaseBuffered(final OutputStream out)
+    '''
 def getInputSource():
-'''public Object getInputSource()
-'''
-pass
+    '''    public Object getInputSource()
+    '''

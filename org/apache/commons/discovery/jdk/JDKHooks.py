@@ -1,4 +1,3 @@
 def getJDKHooks():
-'''public static final JDKHooks getJDKHooks()
-'''
-pass
+    '''    public static final JDKHooks getJDKHooks()
+    '''

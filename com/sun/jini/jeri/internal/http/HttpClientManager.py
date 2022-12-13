@@ -1,16 +1,12 @@
 def HttpClientManager():
-'''public HttpClientManager(final long n)
-'''
-pass
+    '''    public HttpClientManager(final long n)
+    '''
 def clearServerInfo():
-'''public void clearServerInfo()
-'''
-pass
+    '''    public void clearServerInfo()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

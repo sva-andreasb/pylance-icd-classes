@@ -1,4 +1,3 @@
 def TAMITCoreMultiplierGroupSet():
-'''public TAMITCoreMultiplierGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TAMITCoreMultiplierGroupSet(final MboServerInterface ms)
+    '''

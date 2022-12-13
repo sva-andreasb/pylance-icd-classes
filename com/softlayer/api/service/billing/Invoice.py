@@ -1,753 +1,565 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getAmount():
-'''public BigDecimal getAmount()
-'''
-pass
+    '''    public BigDecimal getAmount()
+    '''
 def setAmount():
-'''public void setAmount(final BigDecimal amount)
-'''
-pass
+    '''    public void setAmount(final BigDecimal amount)
+    '''
 def getBrandAtInvoiceCreation():
-'''public Brand getBrandAtInvoiceCreation()
-'''
-pass
+    '''    public Brand getBrandAtInvoiceCreation()
+    '''
 def setBrandAtInvoiceCreation():
-'''public void setBrandAtInvoiceCreation(final Brand brandAtInvoiceCreation)
-'''
-pass
+    '''    public void setBrandAtInvoiceCreation(final Brand brandAtInvoiceCreation)
+    '''
 def getDetailedPdfGeneratedFlag():
-'''public Boolean getDetailedPdfGeneratedFlag()
-'''
-pass
+    '''    public Boolean getDetailedPdfGeneratedFlag()
+    '''
 def setDetailedPdfGeneratedFlag():
-'''public void setDetailedPdfGeneratedFlag(final Boolean detailedPdfGeneratedFlag)
-'''
-pass
+    '''    public void setDetailedPdfGeneratedFlag(final Boolean detailedPdfGeneratedFlag)
+    '''
 def getInvoiceTopLevelItems():
-'''public List<Item> getInvoiceTopLevelItems()
-'''
-pass
+    '''    public List<Item> getInvoiceTopLevelItems()
+    '''
 def getInvoiceTotalAmount():
-'''public BigDecimal getInvoiceTotalAmount()
-'''
-pass
+    '''    public BigDecimal getInvoiceTotalAmount()
+    '''
 def setInvoiceTotalAmount():
-'''public void setInvoiceTotalAmount(final BigDecimal invoiceTotalAmount)
-'''
-pass
+    '''    public void setInvoiceTotalAmount(final BigDecimal invoiceTotalAmount)
+    '''
 def getInvoiceTotalOneTimeAmount():
-'''public BigDecimal getInvoiceTotalOneTimeAmount()
-'''
-pass
+    '''    public BigDecimal getInvoiceTotalOneTimeAmount()
+    '''
 def setInvoiceTotalOneTimeAmount():
-'''public void setInvoiceTotalOneTimeAmount(final BigDecimal invoiceTotalOneTimeAmount)
-'''
-pass
+    '''    public void setInvoiceTotalOneTimeAmount(final BigDecimal invoiceTotalOneTimeAmount)
+    '''
 def getInvoiceTotalOneTimeTaxAmount():
-'''public BigDecimal getInvoiceTotalOneTimeTaxAmount()
-'''
-pass
+    '''    public BigDecimal getInvoiceTotalOneTimeTaxAmount()
+    '''
 def setInvoiceTotalOneTimeTaxAmount():
-'''public void setInvoiceTotalOneTimeTaxAmount(final BigDecimal invoiceTotalOneTimeTaxAmount)
-'''
-pass
+    '''    public void setInvoiceTotalOneTimeTaxAmount(final BigDecimal invoiceTotalOneTimeTaxAmount)
+    '''
 def getInvoiceTotalPreTaxAmount():
-'''public BigDecimal getInvoiceTotalPreTaxAmount()
-'''
-pass
+    '''    public BigDecimal getInvoiceTotalPreTaxAmount()
+    '''
 def setInvoiceTotalPreTaxAmount():
-'''public void setInvoiceTotalPreTaxAmount(final BigDecimal invoiceTotalPreTaxAmount)
-'''
-pass
+    '''    public void setInvoiceTotalPreTaxAmount(final BigDecimal invoiceTotalPreTaxAmount)
+    '''
 def getInvoiceTotalRecurringAmount():
-'''public BigDecimal getInvoiceTotalRecurringAmount()
-'''
-pass
+    '''    public BigDecimal getInvoiceTotalRecurringAmount()
+    '''
 def setInvoiceTotalRecurringAmount():
-'''public void setInvoiceTotalRecurringAmount(final BigDecimal invoiceTotalRecurringAmount)
-'''
-pass
+    '''    public void setInvoiceTotalRecurringAmount(final BigDecimal invoiceTotalRecurringAmount)
+    '''
 def getInvoiceTotalRecurringTaxAmount():
-'''public BigDecimal getInvoiceTotalRecurringTaxAmount()
-'''
-pass
+    '''    public BigDecimal getInvoiceTotalRecurringTaxAmount()
+    '''
 def setInvoiceTotalRecurringTaxAmount():
-'''public void setInvoiceTotalRecurringTaxAmount(final BigDecimal invoiceTotalRecurringTaxAmount)
-'''
-pass
+    '''    public void setInvoiceTotalRecurringTaxAmount(final BigDecimal invoiceTotalRecurringTaxAmount)
+    '''
 def getItems():
-'''public List<Item> getItems()
-'''
-pass
+    '''    public List<Item> getItems()
+    '''
 def getPayment():
-'''public BigDecimal getPayment()
-'''
-pass
+    '''    public BigDecimal getPayment()
+    '''
 def setPayment():
-'''public void setPayment(final BigDecimal payment)
-'''
-pass
+    '''    public void setPayment(final BigDecimal payment)
+    '''
 def getPayments():
-'''public List<Payment> getPayments()
-'''
-pass
+    '''    public List<Payment> getPayments()
+    '''
 def getSellerRegistration():
-'''public String getSellerRegistration()
-'''
-pass
+    '''    public String getSellerRegistration()
+    '''
 def setSellerRegistration():
-'''public void setSellerRegistration(final String sellerRegistration)
-'''
-pass
+    '''    public void setSellerRegistration(final String sellerRegistration)
+    '''
 def getTaxInfo():
-'''public Info getTaxInfo()
-'''
-pass
+    '''    public Info getTaxInfo()
+    '''
 def setTaxInfo():
-'''public void setTaxInfo(final Info taxInfo)
-'''
-pass
+    '''    public void setTaxInfo(final Info taxInfo)
+    '''
 def getTaxInfoHistory():
-'''public List<Info> getTaxInfoHistory()
-'''
-pass
+    '''    public List<Info> getTaxInfoHistory()
+    '''
 def getTaxMessage():
-'''public String getTaxMessage()
-'''
-pass
+    '''    public String getTaxMessage()
+    '''
 def setTaxMessage():
-'''public void setTaxMessage(final String taxMessage)
-'''
-pass
+    '''    public void setTaxMessage(final String taxMessage)
+    '''
 def setTaxType():
-'''public void setTaxType(final com.softlayer.api.service.billing.invoice.tax.Type taxType)
-'''
-pass
+    '''    public void setTaxType(final com.softlayer.api.service.billing.invoice.tax.Type taxType)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getAddress1():
-'''public String getAddress1()
-'''
-pass
+    '''    public String getAddress1()
+    '''
 def setAddress1():
-'''public void setAddress1(final String address1)
-'''
-pass
+    '''    public void setAddress1(final String address1)
+    '''
 def isAddress1Specified():
-'''public boolean isAddress1Specified()
-'''
-pass
+    '''    public boolean isAddress1Specified()
+    '''
 def unsetAddress1():
-'''public void unsetAddress1()
-'''
-pass
+    '''    public void unsetAddress1()
+    '''
 def getAddress2():
-'''public String getAddress2()
-'''
-pass
+    '''    public String getAddress2()
+    '''
 def setAddress2():
-'''public void setAddress2(final String address2)
-'''
-pass
+    '''    public void setAddress2(final String address2)
+    '''
 def isAddress2Specified():
-'''public boolean isAddress2Specified()
-'''
-pass
+    '''    public boolean isAddress2Specified()
+    '''
 def unsetAddress2():
-'''public void unsetAddress2()
-'''
-pass
+    '''    public void unsetAddress2()
+    '''
 def getCity():
-'''public String getCity()
-'''
-pass
+    '''    public String getCity()
+    '''
 def setCity():
-'''public void setCity(final String city)
-'''
-pass
+    '''    public void setCity(final String city)
+    '''
 def isCitySpecified():
-'''public boolean isCitySpecified()
-'''
-pass
+    '''    public boolean isCitySpecified()
+    '''
 def unsetCity():
-'''public void unsetCity()
-'''
-pass
+    '''    public void unsetCity()
+    '''
 def getClaimedTaxExemptTxFlag():
-'''public Boolean getClaimedTaxExemptTxFlag()
-'''
-pass
+    '''    public Boolean getClaimedTaxExemptTxFlag()
+    '''
 def setClaimedTaxExemptTxFlag():
-'''public void setClaimedTaxExemptTxFlag(final Boolean claimedTaxExemptTxFlag)
-'''
-pass
+    '''    public void setClaimedTaxExemptTxFlag(final Boolean claimedTaxExemptTxFlag)
+    '''
 def isClaimedTaxExemptTxFlagSpecified():
-'''public boolean isClaimedTaxExemptTxFlagSpecified()
-'''
-pass
+    '''    public boolean isClaimedTaxExemptTxFlagSpecified()
+    '''
 def unsetClaimedTaxExemptTxFlag():
-'''public void unsetClaimedTaxExemptTxFlag()
-'''
-pass
+    '''    public void unsetClaimedTaxExemptTxFlag()
+    '''
 def getClosedDate():
-'''public GregorianCalendar getClosedDate()
-'''
-pass
+    '''    public GregorianCalendar getClosedDate()
+    '''
 def setClosedDate():
-'''public void setClosedDate(final GregorianCalendar closedDate)
-'''
-pass
+    '''    public void setClosedDate(final GregorianCalendar closedDate)
+    '''
 def isClosedDateSpecified():
-'''public boolean isClosedDateSpecified()
-'''
-pass
+    '''    public boolean isClosedDateSpecified()
+    '''
 def unsetClosedDate():
-'''public void unsetClosedDate()
-'''
-pass
+    '''    public void unsetClosedDate()
+    '''
 def getCompanyName():
-'''public String getCompanyName()
-'''
-pass
+    '''    public String getCompanyName()
+    '''
 def setCompanyName():
-'''public void setCompanyName(final String companyName)
-'''
-pass
+    '''    public void setCompanyName(final String companyName)
+    '''
 def isCompanyNameSpecified():
-'''public boolean isCompanyNameSpecified()
-'''
-pass
+    '''    public boolean isCompanyNameSpecified()
+    '''
 def unsetCompanyName():
-'''public void unsetCompanyName()
-'''
-pass
+    '''    public void unsetCompanyName()
+    '''
 def getCountry():
-'''public String getCountry()
-'''
-pass
+    '''    public String getCountry()
+    '''
 def setCountry():
-'''public void setCountry(final String country)
-'''
-pass
+    '''    public void setCountry(final String country)
+    '''
 def isCountrySpecified():
-'''public boolean isCountrySpecified()
-'''
-pass
+    '''    public boolean isCountrySpecified()
+    '''
 def unsetCountry():
-'''public void unsetCountry()
-'''
-pass
+    '''    public void unsetCountry()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDocumentsGeneratedFlag():
-'''public Boolean getDocumentsGeneratedFlag()
-'''
-pass
+    '''    public Boolean getDocumentsGeneratedFlag()
+    '''
 def setDocumentsGeneratedFlag():
-'''public void setDocumentsGeneratedFlag(final Boolean documentsGeneratedFlag)
-'''
-pass
+    '''    public void setDocumentsGeneratedFlag(final Boolean documentsGeneratedFlag)
+    '''
 def isDocumentsGeneratedFlagSpecified():
-'''public boolean isDocumentsGeneratedFlagSpecified()
-'''
-pass
+    '''    public boolean isDocumentsGeneratedFlagSpecified()
+    '''
 def unsetDocumentsGeneratedFlag():
-'''public void unsetDocumentsGeneratedFlag()
-'''
-pass
+    '''    public void unsetDocumentsGeneratedFlag()
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def isEmailSpecified():
-'''public boolean isEmailSpecified()
-'''
-pass
+    '''    public boolean isEmailSpecified()
+    '''
 def unsetEmail():
-'''public void unsetEmail()
-'''
-pass
+    '''    public void unsetEmail()
+    '''
 def getEndingBalance():
-'''public BigDecimal getEndingBalance()
-'''
-pass
+    '''    public BigDecimal getEndingBalance()
+    '''
 def setEndingBalance():
-'''public void setEndingBalance(final BigDecimal endingBalance)
-'''
-pass
+    '''    public void setEndingBalance(final BigDecimal endingBalance)
+    '''
 def isEndingBalanceSpecified():
-'''public boolean isEndingBalanceSpecified()
-'''
-pass
+    '''    public boolean isEndingBalanceSpecified()
+    '''
 def unsetEndingBalance():
-'''public void unsetEndingBalance()
-'''
-pass
+    '''    public void unsetEndingBalance()
+    '''
 def getFaxPhone():
-'''public String getFaxPhone()
-'''
-pass
+    '''    public String getFaxPhone()
+    '''
 def setFaxPhone():
-'''public void setFaxPhone(final String faxPhone)
-'''
-pass
+    '''    public void setFaxPhone(final String faxPhone)
+    '''
 def isFaxPhoneSpecified():
-'''public boolean isFaxPhoneSpecified()
-'''
-pass
+    '''    public boolean isFaxPhoneSpecified()
+    '''
 def unsetFaxPhone():
-'''public void unsetFaxPhone()
-'''
-pass
+    '''    public void unsetFaxPhone()
+    '''
 def getFirstName():
-'''public String getFirstName()
-'''
-pass
+    '''    public String getFirstName()
+    '''
 def setFirstName():
-'''public void setFirstName(final String firstName)
-'''
-pass
+    '''    public void setFirstName(final String firstName)
+    '''
 def isFirstNameSpecified():
-'''public boolean isFirstNameSpecified()
-'''
-pass
+    '''    public boolean isFirstNameSpecified()
+    '''
 def unsetFirstName():
-'''public void unsetFirstName()
-'''
-pass
+    '''    public void unsetFirstName()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getLastName():
-'''public String getLastName()
-'''
-pass
+    '''    public String getLastName()
+    '''
 def setLastName():
-'''public void setLastName(final String lastName)
-'''
-pass
+    '''    public void setLastName(final String lastName)
+    '''
 def isLastNameSpecified():
-'''public boolean isLastNameSpecified()
-'''
-pass
+    '''    public boolean isLastNameSpecified()
+    '''
 def unsetLastName():
-'''public void unsetLastName()
-'''
-pass
+    '''    public void unsetLastName()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getOfficePhone():
-'''public String getOfficePhone()
-'''
-pass
+    '''    public String getOfficePhone()
+    '''
 def setOfficePhone():
-'''public void setOfficePhone(final String officePhone)
-'''
-pass
+    '''    public void setOfficePhone(final String officePhone)
+    '''
 def isOfficePhoneSpecified():
-'''public boolean isOfficePhoneSpecified()
-'''
-pass
+    '''    public boolean isOfficePhoneSpecified()
+    '''
 def unsetOfficePhone():
-'''public void unsetOfficePhone()
-'''
-pass
+    '''    public void unsetOfficePhone()
+    '''
 def getPostalCode():
-'''public String getPostalCode()
-'''
-pass
+    '''    public String getPostalCode()
+    '''
 def setPostalCode():
-'''public void setPostalCode(final String postalCode)
-'''
-pass
+    '''    public void setPostalCode(final String postalCode)
+    '''
 def isPostalCodeSpecified():
-'''public boolean isPostalCodeSpecified()
-'''
-pass
+    '''    public boolean isPostalCodeSpecified()
+    '''
 def unsetPostalCode():
-'''public void unsetPostalCode()
-'''
-pass
+    '''    public void unsetPostalCode()
+    '''
 def getPurchaseOrderNumber():
-'''public String getPurchaseOrderNumber()
-'''
-pass
+    '''    public String getPurchaseOrderNumber()
+    '''
 def setPurchaseOrderNumber():
-'''public void setPurchaseOrderNumber(final String purchaseOrderNumber)
-'''
-pass
+    '''    public void setPurchaseOrderNumber(final String purchaseOrderNumber)
+    '''
 def isPurchaseOrderNumberSpecified():
-'''public boolean isPurchaseOrderNumberSpecified()
-'''
-pass
+    '''    public boolean isPurchaseOrderNumberSpecified()
+    '''
 def unsetPurchaseOrderNumber():
-'''public void unsetPurchaseOrderNumber()
-'''
-pass
+    '''    public void unsetPurchaseOrderNumber()
+    '''
 def getStartingBalance():
-'''public BigDecimal getStartingBalance()
-'''
-pass
+    '''    public BigDecimal getStartingBalance()
+    '''
 def setStartingBalance():
-'''public void setStartingBalance(final BigDecimal startingBalance)
-'''
-pass
+    '''    public void setStartingBalance(final BigDecimal startingBalance)
+    '''
 def isStartingBalanceSpecified():
-'''public boolean isStartingBalanceSpecified()
-'''
-pass
+    '''    public boolean isStartingBalanceSpecified()
+    '''
 def unsetStartingBalance():
-'''public void unsetStartingBalance()
-'''
-pass
+    '''    public void unsetStartingBalance()
+    '''
 def getState():
-'''public String getState()
-'''
-pass
+    '''    public String getState()
+    '''
 def setState():
-'''public void setState(final String state)
-'''
-pass
+    '''    public void setState(final String state)
+    '''
 def isStateSpecified():
-'''public boolean isStateSpecified()
-'''
-pass
+    '''    public boolean isStateSpecified()
+    '''
 def unsetState():
-'''public void unsetState()
-'''
-pass
+    '''    public void unsetState()
+    '''
 def getStatusCode():
-'''public String getStatusCode()
-'''
-pass
+    '''    public String getStatusCode()
+    '''
 def setStatusCode():
-'''public void setStatusCode(final String statusCode)
-'''
-pass
+    '''    public void setStatusCode(final String statusCode)
+    '''
 def isStatusCodeSpecified():
-'''public boolean isStatusCodeSpecified()
-'''
-pass
+    '''    public boolean isStatusCodeSpecified()
+    '''
 def unsetStatusCode():
-'''public void unsetStatusCode()
-'''
-pass
+    '''    public void unsetStatusCode()
+    '''
 def getTaxStatusId():
-'''public Long getTaxStatusId()
-'''
-pass
+    '''    public Long getTaxStatusId()
+    '''
 def setTaxStatusId():
-'''public void setTaxStatusId(final Long taxStatusId)
-'''
-pass
+    '''    public void setTaxStatusId(final Long taxStatusId)
+    '''
 def isTaxStatusIdSpecified():
-'''public boolean isTaxStatusIdSpecified()
-'''
-pass
+    '''    public boolean isTaxStatusIdSpecified()
+    '''
 def unsetTaxStatusId():
-'''public void unsetTaxStatusId()
-'''
-pass
+    '''    public void unsetTaxStatusId()
+    '''
 def getTaxTypeId():
-'''public Long getTaxTypeId()
-'''
-pass
+    '''    public Long getTaxTypeId()
+    '''
 def setTaxTypeId():
-'''public void setTaxTypeId(final Long taxTypeId)
-'''
-pass
+    '''    public void setTaxTypeId(final Long taxTypeId)
+    '''
 def isTaxTypeIdSpecified():
-'''public boolean isTaxTypeIdSpecified()
-'''
-pass
+    '''    public boolean isTaxTypeIdSpecified()
+    '''
 def unsetTaxTypeId():
-'''public void unsetTaxTypeId()
-'''
-pass
+    '''    public void unsetTaxTypeId()
+    '''
 def getTypeCode():
-'''public String getTypeCode()
-'''
-pass
+    '''    public String getTypeCode()
+    '''
 def setTypeCode():
-'''public void setTypeCode(final String typeCode)
-'''
-pass
+    '''    public void setTypeCode(final String typeCode)
+    '''
 def isTypeCodeSpecified():
-'''public boolean isTypeCodeSpecified()
-'''
-pass
+    '''    public boolean isTypeCodeSpecified()
+    '''
 def unsetTypeCode():
-'''public void unsetTypeCode()
-'''
-pass
+    '''    public void unsetTypeCode()
+    '''
 def getInvoiceTopLevelItemCount():
-'''public Long getInvoiceTopLevelItemCount()
-'''
-pass
+    '''    public Long getInvoiceTopLevelItemCount()
+    '''
 def setInvoiceTopLevelItemCount():
-'''public void setInvoiceTopLevelItemCount(final Long invoiceTopLevelItemCount)
-'''
-pass
+    '''    public void setInvoiceTopLevelItemCount(final Long invoiceTopLevelItemCount)
+    '''
 def getItemCount():
-'''public Long getItemCount()
-'''
-pass
+    '''    public Long getItemCount()
+    '''
 def setItemCount():
-'''public void setItemCount(final Long itemCount)
-'''
-pass
+    '''    public void setItemCount(final Long itemCount)
+    '''
 def getPaymentCount():
-'''public Long getPaymentCount()
-'''
-pass
+    '''    public Long getPaymentCount()
+    '''
 def setPaymentCount():
-'''public void setPaymentCount(final Long paymentCount)
-'''
-pass
+    '''    public void setPaymentCount(final Long paymentCount)
+    '''
 def getTaxInfoHistoryCount():
-'''public Long getTaxInfoHistoryCount()
-'''
-pass
+    '''    public Long getTaxInfoHistoryCount()
+    '''
 def setTaxInfoHistoryCount():
-'''public void setTaxInfoHistoryCount(final Long taxInfoHistoryCount)
-'''
-pass
+    '''    public void setTaxInfoHistoryCount(final Long taxInfoHistoryCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def amount():
-'''public Mask amount()
-'''
-pass
+    '''    public Mask amount()
+    '''
 def detailedPdfGeneratedFlag():
-'''public Mask detailedPdfGeneratedFlag()
-'''
-pass
+    '''    public Mask detailedPdfGeneratedFlag()
+    '''
 def invoiceTotalAmount():
-'''public Mask invoiceTotalAmount()
-'''
-pass
+    '''    public Mask invoiceTotalAmount()
+    '''
 def invoiceTotalOneTimeAmount():
-'''public Mask invoiceTotalOneTimeAmount()
-'''
-pass
+    '''    public Mask invoiceTotalOneTimeAmount()
+    '''
 def invoiceTotalOneTimeTaxAmount():
-'''public Mask invoiceTotalOneTimeTaxAmount()
-'''
-pass
+    '''    public Mask invoiceTotalOneTimeTaxAmount()
+    '''
 def invoiceTotalPreTaxAmount():
-'''public Mask invoiceTotalPreTaxAmount()
-'''
-pass
+    '''    public Mask invoiceTotalPreTaxAmount()
+    '''
 def invoiceTotalRecurringAmount():
-'''public Mask invoiceTotalRecurringAmount()
-'''
-pass
+    '''    public Mask invoiceTotalRecurringAmount()
+    '''
 def invoiceTotalRecurringTaxAmount():
-'''public Mask invoiceTotalRecurringTaxAmount()
-'''
-pass
+    '''    public Mask invoiceTotalRecurringTaxAmount()
+    '''
 def payment():
-'''public Mask payment()
-'''
-pass
+    '''    public Mask payment()
+    '''
 def sellerRegistration():
-'''public Mask sellerRegistration()
-'''
-pass
+    '''    public Mask sellerRegistration()
+    '''
 def taxMessage():
-'''public Mask taxMessage()
-'''
-pass
+    '''    public Mask taxMessage()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def address1():
-'''public Mask address1()
-'''
-pass
+    '''    public Mask address1()
+    '''
 def address2():
-'''public Mask address2()
-'''
-pass
+    '''    public Mask address2()
+    '''
 def city():
-'''public Mask city()
-'''
-pass
+    '''    public Mask city()
+    '''
 def claimedTaxExemptTxFlag():
-'''public Mask claimedTaxExemptTxFlag()
-'''
-pass
+    '''    public Mask claimedTaxExemptTxFlag()
+    '''
 def closedDate():
-'''public Mask closedDate()
-'''
-pass
+    '''    public Mask closedDate()
+    '''
 def companyName():
-'''public Mask companyName()
-'''
-pass
+    '''    public Mask companyName()
+    '''
 def country():
-'''public Mask country()
-'''
-pass
+    '''    public Mask country()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def documentsGeneratedFlag():
-'''public Mask documentsGeneratedFlag()
-'''
-pass
+    '''    public Mask documentsGeneratedFlag()
+    '''
 def email():
-'''public Mask email()
-'''
-pass
+    '''    public Mask email()
+    '''
 def endingBalance():
-'''public Mask endingBalance()
-'''
-pass
+    '''    public Mask endingBalance()
+    '''
 def faxPhone():
-'''public Mask faxPhone()
-'''
-pass
+    '''    public Mask faxPhone()
+    '''
 def firstName():
-'''public Mask firstName()
-'''
-pass
+    '''    public Mask firstName()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def lastName():
-'''public Mask lastName()
-'''
-pass
+    '''    public Mask lastName()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def officePhone():
-'''public Mask officePhone()
-'''
-pass
+    '''    public Mask officePhone()
+    '''
 def postalCode():
-'''public Mask postalCode()
-'''
-pass
+    '''    public Mask postalCode()
+    '''
 def purchaseOrderNumber():
-'''public Mask purchaseOrderNumber()
-'''
-pass
+    '''    public Mask purchaseOrderNumber()
+    '''
 def startingBalance():
-'''public Mask startingBalance()
-'''
-pass
+    '''    public Mask startingBalance()
+    '''
 def state():
-'''public Mask state()
-'''
-pass
+    '''    public Mask state()
+    '''
 def statusCode():
-'''public Mask statusCode()
-'''
-pass
+    '''    public Mask statusCode()
+    '''
 def taxStatusId():
-'''public Mask taxStatusId()
-'''
-pass
+    '''    public Mask taxStatusId()
+    '''
 def taxTypeId():
-'''public Mask taxTypeId()
-'''
-pass
+    '''    public Mask taxTypeId()
+    '''
 def typeCode():
-'''public Mask typeCode()
-'''
-pass
+    '''    public Mask typeCode()
+    '''
 def invoiceTopLevelItemCount():
-'''public Mask invoiceTopLevelItemCount()
-'''
-pass
+    '''    public Mask invoiceTopLevelItemCount()
+    '''
 def itemCount():
-'''public Mask itemCount()
-'''
-pass
+    '''    public Mask itemCount()
+    '''
 def paymentCount():
-'''public Mask paymentCount()
-'''
-pass
+    '''    public Mask paymentCount()
+    '''
 def taxInfoHistoryCount():
-'''public Mask taxInfoHistoryCount()
-'''
-pass
+    '''    public Mask taxInfoHistoryCount()
+    '''

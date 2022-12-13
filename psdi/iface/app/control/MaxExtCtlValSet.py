@@ -1,4 +1,3 @@
 def MaxExtCtlValSet():
-'''public MaxExtCtlValSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxExtCtlValSet(final MboServerInterface ms)
+    '''

@@ -1,16 +1,12 @@
 def AbstractTask():
-'''public AbstractTask()
-'''
-pass
+    '''    public AbstractTask()
+    '''
 def setLocale():
-'''public void setLocale(final Locale loc)
-'''
-pass
+    '''    public void setLocale(final Locale loc)
+    '''
 def setAppTaskName():
-'''public void setAppTaskName(final String s)
-'''
-pass
+    '''    public void setAppTaskName(final String s)
+    '''
 def setScheduler():
-'''public void setScheduler(final Scheduler sc)
-'''
-pass
+    '''    public void setScheduler(final Scheduler sc)
+    '''

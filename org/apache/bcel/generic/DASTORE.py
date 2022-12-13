@@ -1,8 +1,6 @@
 def DASTORE():
-'''public DASTORE()
-'''
-pass
+    '''    public DASTORE()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

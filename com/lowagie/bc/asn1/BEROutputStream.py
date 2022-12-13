@@ -1,8 +1,6 @@
 def BEROutputStream():
-'''public BEROutputStream(final OutputStream os)
-'''
-pass
+    '''    public BEROutputStream(final OutputStream os)
+    '''
 def writeObject():
-'''public void writeObject(final Object obj)
-'''
-pass
+    '''    public void writeObject(final Object obj)
+    '''

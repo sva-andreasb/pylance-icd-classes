@@ -1,1 +1,1 @@
-CATEGORY = "String  Lookup""
+CATEGORY = "String  \"Lookup\""

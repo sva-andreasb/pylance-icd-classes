@@ -1,4 +1,3 @@
 def PmCfgCISet():
-'''public PmCfgCISet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmCfgCISet(final MboServerInterface ms)
+    '''

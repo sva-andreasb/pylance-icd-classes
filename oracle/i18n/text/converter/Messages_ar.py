@@ -1,8 +1,6 @@
 def Messages_ar():
-'''public Messages_ar()
-'''
-pass
+    '''    public Messages_ar()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

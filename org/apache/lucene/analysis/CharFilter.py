@@ -1,12 +1,9 @@
 def CharFilter():
-'''public CharFilter(final Reader input)
-'''
-pass
+    '''    public CharFilter(final Reader input)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def correctOffset():
-'''public final int correctOffset(final int currentOff)
-'''
-pass
+    '''    public final int correctOffset(final int currentOff)
+    '''

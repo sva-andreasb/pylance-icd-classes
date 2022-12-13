@@ -1,4 +1,3 @@
 def AttachOperationFailedException():
-'''public AttachOperationFailedException(final String message)
-'''
-pass
+    '''    public AttachOperationFailedException(final String message)
+    '''

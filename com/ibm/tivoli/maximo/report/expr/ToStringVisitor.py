@@ -1,17 +1,13 @@
 def ToStringVisitor():
-'''public ToStringVisitor()
-public ToStringVisitor(final Transformer transformer)
-'''
-pass
+    '''    public ToStringVisitor()
+    public ToStringVisitor(final Transformer transformer)
+    '''
 def visit():
-'''public Status visit(final Node n, final State state)
-'''
-pass
+    '''    public Status visit(final Node n, final State state)
+    '''
 def print():
-'''public void print(final PrintStream ps)
-'''
-pass
+    '''    public void print(final PrintStream ps)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

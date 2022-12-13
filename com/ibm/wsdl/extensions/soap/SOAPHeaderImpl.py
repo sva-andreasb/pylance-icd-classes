@@ -1,73 +1,55 @@
 serialVersionUID = "long  1L"
 def SOAPHeaderImpl():
-'''public SOAPHeaderImpl()
-'''
-pass
+    '''    public SOAPHeaderImpl()
+    '''
 def setElementType():
-'''public void setElementType(final QName elementType)
-'''
-pass
+    '''    public void setElementType(final QName elementType)
+    '''
 def getElementType():
-'''public QName getElementType()
-'''
-pass
+    '''    public QName getElementType()
+    '''
 def setRequired():
-'''public void setRequired(final Boolean required)
-'''
-pass
+    '''    public void setRequired(final Boolean required)
+    '''
 def getRequired():
-'''public Boolean getRequired()
-'''
-pass
+    '''    public Boolean getRequired()
+    '''
 def setMessage():
-'''public void setMessage(final QName message)
-'''
-pass
+    '''    public void setMessage(final QName message)
+    '''
 def getMessage():
-'''public QName getMessage()
-'''
-pass
+    '''    public QName getMessage()
+    '''
 def setPart():
-'''public void setPart(final String part)
-'''
-pass
+    '''    public void setPart(final String part)
+    '''
 def getPart():
-'''public String getPart()
-'''
-pass
+    '''    public String getPart()
+    '''
 def setUse():
-'''public void setUse(final String use)
-'''
-pass
+    '''    public void setUse(final String use)
+    '''
 def getUse():
-'''public String getUse()
-'''
-pass
+    '''    public String getUse()
+    '''
 def setEncodingStyles():
-'''public void setEncodingStyles(final List encodingStyles)
-'''
-pass
+    '''    public void setEncodingStyles(final List encodingStyles)
+    '''
 def getEncodingStyles():
-'''public List getEncodingStyles()
-'''
-pass
+    '''    public List getEncodingStyles()
+    '''
 def setNamespaceURI():
-'''public void setNamespaceURI(final String namespaceURI)
-'''
-pass
+    '''    public void setNamespaceURI(final String namespaceURI)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def addSOAPHeaderFault():
-'''public void addSOAPHeaderFault(final SOAPHeaderFault soapHeaderFault)
-'''
-pass
+    '''    public void addSOAPHeaderFault(final SOAPHeaderFault soapHeaderFault)
+    '''
 def getSOAPHeaderFaults():
-'''public List getSOAPHeaderFaults()
-'''
-pass
+    '''    public List getSOAPHeaderFaults()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

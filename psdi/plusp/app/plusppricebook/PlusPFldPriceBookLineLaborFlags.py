@@ -1,8 +1,6 @@
 def PlusPFldPriceBookLineLaborFlags():
-'''public PlusPFldPriceBookLineLaborFlags(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceBookLineLaborFlags(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,24 +1,18 @@
 def getInstance():
-'''public static final JSONResourceCache getInstance()
-'''
-pass
+    '''    public static final JSONResourceCache getInstance()
+    '''
 def getResourceMap():
-'''public Map<String, JSONResourceInfo> getResourceMap()
-'''
-pass
+    '''    public Map<String, JSONResourceInfo> getResourceMap()
+    '''
 def getResourceInfo():
-'''public JSONResourceInfo getResourceInfo(final String resourceName)
-'''
-pass
+    '''    public JSONResourceInfo getResourceInfo(final String resourceName)
+    '''
 def getResourceTypeInfo():
-'''public ResourceTypeInfo getResourceTypeInfo(final String resourceType)
-'''
-pass
+    '''    public ResourceTypeInfo getResourceTypeInfo(final String resourceType)
+    '''
 def getPropToObjectMap():
-'''public Map<String, JSONObjectInfo> getPropToObjectMap(final String resourceName)
-'''
-pass
+    '''    public Map<String, JSONObjectInfo> getPropToObjectMap(final String resourceName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

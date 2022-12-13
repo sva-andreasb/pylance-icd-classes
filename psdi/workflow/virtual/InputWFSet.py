@@ -1,8 +1,6 @@
 def InputWFSet():
-'''public InputWFSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InputWFSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

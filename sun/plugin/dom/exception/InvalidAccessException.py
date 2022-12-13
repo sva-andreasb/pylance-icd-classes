@@ -1,4 +1,3 @@
 def InvalidAccessException():
-'''public InvalidAccessException(final String message)
-'''
-pass
+    '''    public InvalidAccessException(final String message)
+    '''

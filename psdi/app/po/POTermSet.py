@@ -1,8 +1,6 @@
 def POTermSet():
-'''public POTermSet(final MboServerInterface ms)
-'''
-pass
+    '''    public POTermSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

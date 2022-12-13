@@ -1,4 +1,3 @@
 def testProcessObject():
-'''public void testProcessObject()
-'''
-pass
+    '''    public void testProcessObject()
+    '''

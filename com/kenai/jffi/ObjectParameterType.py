@@ -1,12 +1,9 @@
 def create():
-'''public static ObjectParameterType create(final ObjectType objectType, final ComponentType componentType)
-'''
-pass
+    '''    public static ObjectParameterType create(final ObjectType objectType, final ComponentType componentType)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

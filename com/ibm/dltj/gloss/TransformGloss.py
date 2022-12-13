@@ -1,57 +1,43 @@
 def TransformGloss():
-'''public TransformGloss()
-public TransformGloss(final TransformClassGloss classGloss, final TransformRuleGloss[] array)
-'''
-pass
+    '''    public TransformGloss()
+    public TransformGloss(final TransformClassGloss classGloss, final TransformRuleGloss[] array)
+    '''
 def getTransformClassGloss():
-'''public Gloss getTransformClassGloss()
-'''
-pass
+    '''    public Gloss getTransformClassGloss()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def recalcPointers():
-'''public void recalcPointers(final Gloss[] array)
-'''
-pass
+    '''    public void recalcPointers(final Gloss[] array)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def doesRuleApply():
-'''public boolean doesRuleApply(final int n, final String s)
-'''
-pass
+    '''    public boolean doesRuleApply(final int n, final String s)
+    '''
 def getPOS():
-'''public int getPOS(final int n)
-'''
-pass
+    '''    public int getPOS(final int n)
+    '''
 def getFeatureMaskCount():
-'''public int getFeatureMaskCount(final int n)
-'''
-pass
+    '''    public int getFeatureMaskCount(final int n)
+    '''
 def getFeatureMask():
-'''public int getFeatureMask(final int n, final int n2)
-'''
-pass
+    '''    public int getFeatureMask(final int n, final int n2)
+    '''
 def getSurfaceform():
-'''public String getSurfaceform(final int n, final String s)
-'''
-pass
+    '''    public String getSurfaceform(final int n, final String s)
+    '''

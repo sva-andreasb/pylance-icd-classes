@@ -1,18 +1,14 @@
 def ToNetASCIIInputStream():
-'''public ToNetASCIIInputStream(final InputStream input)
-'''
-pass
+    '''    public ToNetASCIIInputStream(final InputStream input)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] buffer)
-public int read(final byte[] buffer, int offset, int length)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] buffer)
+    public int read(final byte[] buffer, int offset, int length)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''

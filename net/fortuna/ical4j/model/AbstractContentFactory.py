@@ -1,8 +1,6 @@
 def AbstractContentFactory():
-'''public AbstractContentFactory(final ServiceLoader factoryLoader)
-'''
-pass
+    '''    public AbstractContentFactory(final ServiceLoader factoryLoader)
+    '''
 def get():
-'''public List<T> get()
-'''
-pass
+    '''    public List<T> get()
+    '''

@@ -1,21 +1,16 @@
 def SentBy():
-'''public SentBy(final String aValue)
-public SentBy(final URI aUri)
-'''
-pass
+    '''    public SentBy(final String aValue)
+    public SentBy(final URI aUri)
+    '''
 def getAddress():
-'''public final URI getAddress()
-'''
-pass
+    '''    public final URI getAddress()
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

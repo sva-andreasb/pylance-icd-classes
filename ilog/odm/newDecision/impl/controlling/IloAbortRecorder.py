@@ -1,17 +1,13 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloAbortRecorder():
-'''public IloAbortRecorder()
-'''
-pass
+    '''    public IloAbortRecorder()
+    '''
 def sendControllingOrder():
-'''public void sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)
-'''
-pass
+    '''    public void sendControllingOrder(final long orderId, final String orderType, final Serializable[] orderParameter)
+    '''
 def isAborted():
-'''public boolean isAborted()
-'''
-pass
+    '''    public boolean isAborted()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

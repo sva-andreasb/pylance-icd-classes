@@ -1,12 +1,9 @@
 def AlternateAvailData():
-'''public AlternateAvailData(final List<DateRangeWithValue> availLoadRangeList, final double defaultValue)
-'''
-pass
+    '''    public AlternateAvailData(final List<DateRangeWithValue> availLoadRangeList, final double defaultValue)
+    '''
 def getAvailLoadRangeList():
-'''public List<DateRangeWithValue> getAvailLoadRangeList()
-'''
-pass
+    '''    public List<DateRangeWithValue> getAvailLoadRangeList()
+    '''
 def getDefaultValue():
-'''public double getDefaultValue()
-'''
-pass
+    '''    public double getDefaultValue()
+    '''

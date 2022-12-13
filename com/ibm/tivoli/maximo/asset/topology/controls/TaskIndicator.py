@@ -1,8 +1,6 @@
 def getIndicator():
-'''public int getIndicator()
-'''
-pass
+    '''    public int getIndicator()
+    '''
 def resolveTaskIndicator():
-'''public static TaskIndicator resolveTaskIndicator(final WOSet wos)
-'''
-pass
+    '''    public static TaskIndicator resolveTaskIndicator(final WOSet wos)
+    '''

@@ -1,44 +1,33 @@
 def SDAConfig():
-'''public SDAConfig(final MboSet ms)
-'''
-pass
+    '''    public SDAConfig(final MboSet ms)
+    '''
 def setRanConfig():
-'''public void setRanConfig(final boolean hasRun)
-'''
-pass
+    '''    public void setRanConfig(final boolean hasRun)
+    '''
 def validateProperties():
-'''public void validateProperties(final String[] propertyNames, final String type)
-'''
-pass
+    '''    public void validateProperties(final String[] propertyNames, final String type)
+    '''
 def validateOrg():
-'''public void validateOrg(final Mbo propMbo, final String propertyName, final String propertyValue)
-'''
-pass
+    '''    public void validateOrg(final Mbo propMbo, final String propertyName, final String propertyValue)
+    '''
 def validateMSAD():
-'''public void validateMSAD(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)
-'''
-pass
+    '''    public void validateMSAD(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)
+    '''
 def validateSC():
-'''public void validateSC(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)
-'''
-pass
+    '''    public void validateSC(final Mbo propMbo, final String propertyName, final String propertyValue, final String attrTitle)
+    '''
 def checkConfigDBRunning():
-'''public void checkConfigDBRunning()
-'''
-pass
+    '''    public void checkConfigDBRunning()
+    '''
 def setLDAPScriptSuccessStatus():
-'''public void setLDAPScriptSuccessStatus(final boolean success)
-'''
-pass
+    '''    public void setLDAPScriptSuccessStatus(final boolean success)
+    '''
 def getLDAPScriptSuccessStatus():
-'''public boolean getLDAPScriptSuccessStatus()
-'''
-pass
+    '''    public boolean getLDAPScriptSuccessStatus()
+    '''
 def setSCScriptSuccessStatus():
-'''public void setSCScriptSuccessStatus(final boolean success)
-'''
-pass
+    '''    public void setSCScriptSuccessStatus(final boolean success)
+    '''
 def getSCScriptSuccessStatus():
-'''public boolean getSCScriptSuccessStatus()
-'''
-pass
+    '''    public boolean getSCScriptSuccessStatus()
+    '''

@@ -1,16 +1,12 @@
 def PmTKSolChangeStatusBean():
-'''public PmTKSolChangeStatusBean()
-'''
-pass
+    '''    public PmTKSolChangeStatusBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

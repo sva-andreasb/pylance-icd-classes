@@ -1,4 +1,3 @@
 def getOperand():
-'''public RegexpTree getOperand()
-'''
-pass
+    '''    public RegexpTree getOperand()
+    '''

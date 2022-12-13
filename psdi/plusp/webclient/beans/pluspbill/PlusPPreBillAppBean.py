@@ -1,16 +1,12 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def approveLines():
-'''public int approveLines()
-'''
-pass
+    '''    public int approveLines()
+    '''
 def VIEWCOSTS():
-'''public int VIEWCOSTS()
-'''
-pass
+    '''    public int VIEWCOSTS()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''

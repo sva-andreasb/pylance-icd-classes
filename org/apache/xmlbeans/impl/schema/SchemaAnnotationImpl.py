@@ -1,46 +1,35 @@
 def setFilename():
-'''public void setFilename(final String filename)
-'''
-pass
+    '''    public void setFilename(final String filename)
+    '''
 def getSourceName():
-'''public String getSourceName()
-'''
-pass
+    '''    public String getSourceName()
+    '''
 def getApplicationInformation():
-'''public XmlObject[] getApplicationInformation()
-'''
-pass
+    '''    public XmlObject[] getApplicationInformation()
+    '''
 def getUserInformation():
-'''public XmlObject[] getUserInformation()
-'''
-pass
+    '''    public XmlObject[] getUserInformation()
+    '''
 def getAttributes():
-'''public Attribute[] getAttributes()
-'''
-pass
+    '''    public Attribute[] getAttributes()
+    '''
 def getComponentType():
-'''public int getComponentType()
-'''
-pass
+    '''    public int getComponentType()
+    '''
 def getTypeSystem():
-'''public SchemaTypeSystem getTypeSystem()
-'''
-pass
+    '''    public SchemaTypeSystem getTypeSystem()
+    '''
 def getName():
-'''public QName getName()
-public QName getName()
-'''
-pass
+    '''    public QName getName()
+    public QName getName()
+    '''
 def getAnnotation():
-'''public static SchemaAnnotationImpl getAnnotation(final SchemaContainer c, final Annotated elem)
-public static SchemaAnnotationImpl getAnnotation(final SchemaContainer c, final XmlObject elem, final AnnotationDocument.Annotation ann)
-'''
-pass
+    '''    public static SchemaAnnotationImpl getAnnotation(final SchemaContainer c, final Annotated elem)
+    public static SchemaAnnotationImpl getAnnotation(final SchemaContainer c, final XmlObject elem, final AnnotationDocument.Annotation ann)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getValueUri():
-'''public String getValueUri()
-'''
-pass
+    '''    public String getValueUri()
+    '''

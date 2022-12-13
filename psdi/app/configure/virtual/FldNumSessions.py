@@ -1,8 +1,6 @@
 def FldNumSessions():
-'''public FldNumSessions(final MboValue mbv)
-'''
-pass
+    '''    public FldNumSessions(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

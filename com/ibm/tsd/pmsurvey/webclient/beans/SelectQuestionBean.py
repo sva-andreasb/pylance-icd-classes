@@ -1,8 +1,6 @@
 def SelectQuestionBean():
-'''public SelectQuestionBean()
-'''
-pass
+    '''    public SelectQuestionBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

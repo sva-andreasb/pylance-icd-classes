@@ -1,8 +1,6 @@
 def FldOrgDefault():
-'''public FldOrgDefault(final MboValue mbv)
-'''
-pass
+    '''    public FldOrgDefault(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def CharPointActionSet():
-'''public CharPointActionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CharPointActionSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

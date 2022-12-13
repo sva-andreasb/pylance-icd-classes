@@ -1,32 +1,24 @@
 def PositionLengthAttributeImpl():
-'''public PositionLengthAttributeImpl()
-'''
-pass
+    '''    public PositionLengthAttributeImpl()
+    '''
 def setPositionLength():
-'''public void setPositionLength(final int positionLength)
-'''
-pass
+    '''    public void setPositionLength(final int positionLength)
+    '''
 def getPositionLength():
-'''public int getPositionLength()
-'''
-pass
+    '''    public int getPositionLength()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def copyTo():
-'''public void copyTo(final AttributeImpl target)
-'''
-pass
+    '''    public void copyTo(final AttributeImpl target)
+    '''
 def reflectWith():
-'''public void reflectWith(final AttributeReflector reflector)
-'''
-pass
+    '''    public void reflectWith(final AttributeReflector reflector)
+    '''

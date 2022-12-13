@@ -1,36 +1,27 @@
 def RowCollapsedEvent():
-'''public RowCollapsedEvent(final IlvGanttConfiguration source, final IlvHierarchyNode a, final IlvHierarchyNode[] b, final int c)
-'''
-pass
+    '''    public RowCollapsedEvent(final IlvGanttConfiguration source, final IlvHierarchyNode a, final IlvHierarchyNode[] b, final int c)
+    '''
 def getGanttConfiguration():
-'''public IlvGanttConfiguration getGanttConfiguration()
-'''
-pass
+    '''    public IlvGanttConfiguration getGanttConfiguration()
+    '''
 def getGanttModel():
-'''public IlvGanttModel getGanttModel()
-'''
-pass
+    '''    public IlvGanttModel getGanttModel()
+    '''
 def getCollapsedNode():
-'''public IlvHierarchyNode getCollapsedNode()
-'''
-pass
+    '''    public IlvHierarchyNode getCollapsedNode()
+    '''
 def getHiddenNodes():
-'''public IlvHierarchyNode[] getHiddenNodes()
-'''
-pass
+    '''    public IlvHierarchyNode[] getHiddenNodes()
+    '''
 def getHiddenNodeCount():
-'''public int getHiddenNodeCount()
-'''
-pass
+    '''    public int getHiddenNodeCount()
+    '''
 def getFirstHiddenRow():
-'''public int getFirstHiddenRow()
-'''
-pass
+    '''    public int getFirstHiddenRow()
+    '''
 def getLastHiddenRow():
-'''public int getLastHiddenRow()
-'''
-pass
+    '''    public int getLastHiddenRow()
+    '''
 def getHiddenRowCount():
-'''public int getHiddenRowCount()
-'''
-pass
+    '''    public int getHiddenRowCount()
+    '''

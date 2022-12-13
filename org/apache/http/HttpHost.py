@@ -1,56 +1,44 @@
-DEFAULT_SCHEME_NAME = "String  http""
+DEFAULT_SCHEME_NAME = "String  \"http\""
 def HttpHost():
-'''public HttpHost(final String hostname, final int port, final String scheme)
-public HttpHost(final String hostname, final int port)
-public HttpHost(final String hostname)
-public HttpHost(final InetAddress address, final int port, final String scheme)
-public HttpHost(final InetAddress address, final String hostname, final int port, final String scheme)
-public HttpHost(final InetAddress address, final int port)
-public HttpHost(final InetAddress address)
-public HttpHost(final HttpHost httphost)
-'''
-pass
+    '''    public HttpHost(final String hostname, final int port, final String scheme)
+    public HttpHost(final String hostname, final int port)
+    public HttpHost(final String hostname)
+    public HttpHost(final InetAddress address, final int port, final String scheme)
+    public HttpHost(final InetAddress address, final String hostname, final int port, final String scheme)
+    public HttpHost(final InetAddress address, final int port)
+    public HttpHost(final InetAddress address)
+    public HttpHost(final HttpHost httphost)
+    '''
 def create():
-'''public static HttpHost create(final String s)
-'''
-pass
+    '''    public static HttpHost create(final String s)
+    '''
 def getHostName():
-'''public String getHostName()
-'''
-pass
+    '''    public String getHostName()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getSchemeName():
-'''public String getSchemeName()
-'''
-pass
+    '''    public String getSchemeName()
+    '''
 def getAddress():
-'''public InetAddress getAddress()
-'''
-pass
+    '''    public InetAddress getAddress()
+    '''
 def toURI():
-'''public String toURI()
-'''
-pass
+    '''    public String toURI()
+    '''
 def toHostString():
-'''public String toHostString()
-'''
-pass
+    '''    public String toHostString()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

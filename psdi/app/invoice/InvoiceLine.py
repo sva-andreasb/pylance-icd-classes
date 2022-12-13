@@ -1,290 +1,218 @@
 def InvoiceLine():
-'''public InvoiceLine(final MboSet ms)
-'''
-pass
+    '''    public InvoiceLine(final MboSet ms)
+    '''
 def getNewInvoiceCost():
-'''public InvoiceCostRemote getNewInvoiceCost()
-'''
-pass
+    '''    public InvoiceCostRemote getNewInvoiceCost()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getPOToInvCur():
-'''public double getPOToInvCur()
-'''
-pass
+    '''    public double getPOToInvCur()
+    '''
 def recalculatePreTaxTotalWhenDelete():
-'''public void recalculatePreTaxTotalWhenDelete()
-'''
-pass
+    '''    public void recalculatePreTaxTotalWhenDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def validateInvoiceMatch():
-'''public void validateInvoiceMatch()
-'''
-pass
+    '''    public void validateInvoiceMatch()
+    '''
 def copyPOLine():
-'''public void copyPOLine()
-'''
-pass
+    '''    public void copyPOLine()
+    '''
 def clearPOLine():
-'''public void clearPOLine()
-'''
-pass
+    '''    public void clearPOLine()
+    '''
 def validateCurrency():
-'''public void validateCurrency(final String invoiceCurrency)
-'''
-pass
+    '''    public void validateCurrency(final String invoiceCurrency)
+    '''
 def validateInvoiceMatchForApproval():
-'''public void validateInvoiceMatchForApproval()
-'''
-pass
+    '''    public void validateInvoiceMatchForApproval()
+    '''
 def checkForServiceProrating():
-'''public void checkForServiceProrating()
-'''
-pass
+    '''    public void checkForServiceProrating()
+    '''
 def checkForPOLineTolerance():
-'''public void checkForPOLineTolerance(final Double upperTolerancePct, final Double lowerTolerancePct, final Double upperToleranceAmt, final Double lowerToleranceAmt)
-'''
-pass
+    '''    public void checkForPOLineTolerance(final Double upperTolerancePct, final Double lowerTolerancePct, final Double upperToleranceAmt, final Double lowerToleranceAmt)
+    '''
 def createDefaultServiceReceipt():
-'''public MboRemote createDefaultServiceReceipt()
-'''
-pass
+    '''    public MboRemote createDefaultServiceReceipt()
+    '''
 def createDefaultMaterialReceipt():
-'''public MboRemote createDefaultMaterialReceipt()
-'''
-pass
+    '''    public MboRemote createDefaultMaterialReceipt()
+    '''
 def createDefaultReceipt():
-'''public MboRemote createDefaultReceipt()
-public MboRemote createDefaultReceipt(final MboSetRemote desiredReceipts)
-'''
-pass
+    '''    public MboRemote createDefaultReceipt()
+    public MboRemote createDefaultReceipt(final MboSetRemote desiredReceipts)
+    '''
 def getInvoiceMatchSet():
-'''public InvoiceMatchSetRemote getInvoiceMatchSet()
-'''
-pass
+    '''    public InvoiceMatchSetRemote getInvoiceMatchSet()
+    '''
 def createReceipts():
-'''public void createReceipts()
-'''
-pass
+    '''    public void createReceipts()
+    '''
 def calcProrateCostForReceipt():
-'''public double calcProrateCostForReceipt()
-'''
-pass
+    '''    public double calcProrateCostForReceipt()
+    '''
 def getRatioForTransaction():
-'''public double getRatioForTransaction()
-'''
-pass
+    '''    public double getRatioForTransaction()
+    '''
 def needProcessVariance():
-'''public boolean needProcessVariance()
-'''
-pass
+    '''    public boolean needProcessVariance()
+    '''
 def createReceiptOrTransactionForVariance():
-'''public void createReceiptOrTransactionForVariance()
-'''
-pass
+    '''    public void createReceiptOrTransactionForVariance()
+    '''
 def createTransactionsAfterAppr():
-'''public void createTransactionsAfterAppr(final double currencyVar, final double priceVar)
-'''
-pass
+    '''    public void createTransactionsAfterAppr(final double currencyVar, final double priceVar)
+    '''
 def findOrigReceiptSum():
-'''public double findOrigReceiptSum(final String attribute)
-'''
-pass
+    '''    public double findOrigReceiptSum(final String attribute)
+    '''
 def createInvoiceTrans():
-'''public void createInvoiceTrans()
-'''
-pass
+    '''    public void createInvoiceTrans()
+    '''
 def returnGls():
-'''public Vector returnGls(final boolean updateInventory, final boolean varType)
-public Vector returnGls(final boolean updateInventory, final boolean varType, final MboRemote transMbo)
-'''
-pass
+    '''    public Vector returnGls(final boolean updateInventory, final boolean varType)
+    public Vector returnGls(final boolean updateInventory, final boolean varType, final MboRemote transMbo)
+    '''
 def getIssue():
-'''public boolean getIssue()
-'''
-pass
+    '''    public boolean getIssue()
+    '''
 def moveToTop():
-'''public synchronized void moveToTop(final Vector<MboRemote> receipts, final String receiptId)
-'''
-pass
+    '''    public synchronized void moveToTop(final Vector<MboRemote> receipts, final String receiptId)
+    '''
 def getUnmatched():
-'''public double getUnmatched()
-'''
-pass
+    '''    public double getUnmatched()
+    '''
 def afterAdd():
-'''public void afterAdd()
-'''
-pass
+    '''    public void afterAdd()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def setCurVarTotal():
-'''public void setCurVarTotal(final double currencyVariance)
-'''
-pass
+    '''    public void setCurVarTotal(final double currencyVariance)
+    '''
 def setPriceVarTotal():
-'''public void setPriceVarTotal(final double priceVariance)
-'''
-pass
+    '''    public void setPriceVarTotal(final double priceVariance)
+    '''
 def copyReceiptPOLineToInvoiceLine():
-'''public void copyReceiptPOLineToInvoiceLine(final MboRemote receiptOrPOLine, final double qty, final double cost)
-'''
-pass
+    '''    public void copyReceiptPOLineToInvoiceLine(final MboRemote receiptOrPOLine, final double qty, final double cost)
+    '''
 def copyReceiptToInvoiceLine():
-'''public void copyReceiptToInvoiceLine(final MboRemote receipt, final double qty, final double cost)
-'''
-pass
+    '''    public void copyReceiptToInvoiceLine(final MboRemote receipt, final double qty, final double cost)
+    '''
 def copyPOLineToInvoiceLine():
-'''public void copyPOLineToInvoiceLine(final MboRemote poLine, final double qty, final double cost)
-'''
-pass
+    '''    public void copyPOLineToInvoiceLine(final MboRemote poLine, final double qty, final double cost)
+    '''
 def createInvoiceCostFromInvoiceLine():
-'''public void createInvoiceCostFromInvoiceLine(final MboRemote newInvoiceLine, final MboRemote poLine)
-'''
-pass
+    '''    public void createInvoiceCostFromInvoiceLine(final MboRemote newInvoiceLine, final MboRemote poLine)
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboSet)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboSet)
+    '''
 def canDistributeInvoiceLine():
-'''public void canDistributeInvoiceLine()
-'''
-pass
+    '''    public void canDistributeInvoiceLine()
+    '''
 def canDistributeProrateInvoiceLine():
-'''public void canDistributeProrateInvoiceLine()
-'''
-pass
+    '''    public void canDistributeProrateInvoiceLine()
+    '''
 def canAllocateServices():
-'''public void canAllocateServices()
-'''
-pass
+    '''    public void canAllocateServices()
+    '''
 def CanAllocateServIfEnteredOrWappr():
-'''public void CanAllocateServIfEnteredOrWappr()
-'''
-pass
+    '''    public void CanAllocateServIfEnteredOrWappr()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def canDistributeIssueInvoiceLine():
-'''public void canDistributeIssueInvoiceLine()
-'''
-pass
+    '''    public void canDistributeIssueInvoiceLine()
+    '''
 def updateWOCosts():
-'''public void updateWOCosts()
-'''
-pass
+    '''    public void updateWOCosts()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def creatInvTransForProrate():
-'''public void creatInvTransForProrate(final double prorateCostForInvTrans)
-'''
-pass
+    '''    public void creatInvTransForProrate(final double prorateCostForInvTrans)
+    '''
 def getRatioGoesToReceipt():
-'''public double getRatioGoesToReceipt()
-'''
-pass
+    '''    public double getRatioGoesToReceipt()
+    '''
 def recalcDistribution():
-'''public void recalcDistribution()
-'''
-pass
+    '''    public void recalcDistribution()
+    '''
 def getInternalLineType():
-'''public String getInternalLineType()
-'''
-pass
+    '''    public String getInternalLineType()
+    '''
 def addCostFromPOLine():
-'''public void addCostFromPOLine(final InvoiceCostSetRemote invCostSet, final MboRemote poLine)
-'''
-pass
+    '''    public void addCostFromPOLine(final InvoiceCostSetRemote invCostSet, final MboRemote poLine)
+    '''
 def isServiceType():
-'''public boolean isServiceType()
-'''
-pass
+    '''    public boolean isServiceType()
+    '''
 def setPriceQtyFields():
-'''public void setPriceQtyFields()
-'''
-pass
+    '''    public void setPriceQtyFields()
+    '''
 def checkWOAssetLocGLDebitForLine():
-'''public void checkWOAssetLocGLDebitForLine()
-'''
-pass
+    '''    public void checkWOAssetLocGLDebitForLine()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def getDefaultTaxExempt():
-'''public void getDefaultTaxExempt(final MboRemote itemRemote, final MboRemote invVendor)
-'''
-pass
+    '''    public void getDefaultTaxExempt(final MboRemote itemRemote, final MboRemote invVendor)
+    '''
 def getDefaultTaxCodes():
-'''public void getDefaultTaxCodes(final MboRemote itemRemote, final MboRemote invVendor)
-'''
-pass
+    '''    public void getDefaultTaxCodes(final MboRemote itemRemote, final MboRemote invVendor)
+    '''
 def getInventoryCurbal():
-'''public double getInventoryCurbal()
-'''
-pass
+    '''    public double getInventoryCurbal()
+    '''
 def getActivePO():
-'''public MboRemote getActivePO()
-'''
-pass
+    '''    public MboRemote getActivePO()
+    '''
 def copyConsTransToInvoiceLine():
-'''public void copyConsTransToInvoiceLine(final MboRemote transMbo)
-'''
-pass
+    '''    public void copyConsTransToInvoiceLine(final MboRemote transMbo)
+    '''
 def updateConsTransInvoiceNum():
-'''public void updateConsTransInvoiceNum(final boolean clearInvoiceNum)
-'''
-pass
+    '''    public void updateConsTransInvoiceNum(final boolean clearInvoiceNum)
+    '''
 def createVarTransForConsInvoiceLine():
-'''public void createVarTransForConsInvoiceLine()
-'''
-pass
+    '''    public void createVarTransForConsInvoiceLine()
+    '''
 def setReadOnlyForConsInvoice():
-'''public void setReadOnlyForConsInvoice()
-'''
-pass
+    '''    public void setReadOnlyForConsInvoice()
+    '''
 def getConsTransMbo():
-'''public MboRemote getConsTransMbo(final String origTransaction, final int transID)
-'''
-pass
+    '''    public MboRemote getConsTransMbo(final String origTransaction, final int transID)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def clearLabTransOnDelete():
-'''public void clearLabTransOnDelete()
-'''
-pass
+    '''    public void clearLabTransOnDelete()
+    '''
 def setPOLineFromCopyPOLine():
-'''public void setPOLineFromCopyPOLine(final MboRemote poLineFromCopyPOline)
-'''
-pass
+    '''    public void setPOLineFromCopyPOLine(final MboRemote poLineFromCopyPOline)
+    '''
 def getPOLineFromCopyPOLine():
-'''public MboRemote getPOLineFromCopyPOLine()
-'''
-pass
+    '''    public MboRemote getPOLineFromCopyPOLine()
+    '''

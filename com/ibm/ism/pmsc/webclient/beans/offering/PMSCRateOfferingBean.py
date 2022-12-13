@@ -1,12 +1,9 @@
 def PMSCRateOfferingBean():
-'''public PMSCRateOfferingBean()
-'''
-pass
+    '''    public PMSCRateOfferingBean()
+    '''
 def getMbo():
-'''public synchronized MboRemote getMbo()
-'''
-pass
+    '''    public synchronized MboRemote getMbo()
+    '''
 def saveCommentsRating():
-'''public void saveCommentsRating()
-'''
-pass
+    '''    public void saveCommentsRating()
+    '''

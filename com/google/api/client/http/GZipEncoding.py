@@ -1,12 +1,9 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def encode():
-'''public void encode(final StreamingContent content, final OutputStream out)
-'''
-pass
+    '''    public void encode(final StreamingContent content, final OutputStream out)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

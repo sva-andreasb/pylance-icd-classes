@@ -1,4 +1,3 @@
 def InvalidMethodException():
-'''public InvalidMethodException(final String message)
-'''
-pass
+    '''    public InvalidMethodException(final String message)
+    '''

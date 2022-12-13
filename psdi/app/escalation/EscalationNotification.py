@@ -1,33 +1,25 @@
 def EscalationNotification():
-'''public EscalationNotification(final MboSet ms)
-'''
-pass
+    '''    public EscalationNotification(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setCopyDefaults():
-'''public void setCopyDefaults()
-'''
-pass
+    '''    public void setCopyDefaults()
+    '''
 def createCommTemplate():
-'''public CommTemplate createCommTemplate(final boolean createSendto)
-public CommTemplate createCommTemplate()
-'''
-pass
+    '''    public CommTemplate createCommTemplate(final boolean createSendto)
+    public CommTemplate createCommTemplate()
+    '''
 def loadSkipFieldCopyHashSet():
-'''public static void loadSkipFieldCopyHashSet()
-'''
-pass
+    '''    public static void loadSkipFieldCopyHashSet()
+    '''

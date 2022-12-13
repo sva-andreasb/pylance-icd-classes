@@ -1,8 +1,6 @@
 def FldDomainId():
-'''public FldDomainId(final MboValue mbv)
-'''
-pass
+    '''    public FldDomainId(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

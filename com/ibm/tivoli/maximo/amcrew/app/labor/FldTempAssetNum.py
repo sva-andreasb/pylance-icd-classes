@@ -1,8 +1,6 @@
 def FldTempAssetNum():
-'''public FldTempAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public FldTempAssetNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

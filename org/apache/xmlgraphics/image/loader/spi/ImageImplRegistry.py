@@ -1,80 +1,61 @@
 INFINITE_PENALTY = "int  Integer.MAX_VALUE"
 def ImageImplRegistry():
-'''public ImageImplRegistry(final boolean discover)
-public ImageImplRegistry()
-'''
-pass
+    '''    public ImageImplRegistry(final boolean discover)
+    public ImageImplRegistry()
+    '''
 def getDefaultInstance():
-'''public static ImageImplRegistry getDefaultInstance()
-'''
-pass
+    '''    public static ImageImplRegistry getDefaultInstance()
+    '''
 def discoverClasspathImplementations():
-'''public void discoverClasspathImplementations()
-'''
-pass
+    '''    public void discoverClasspathImplementations()
+    '''
 def registerPreloader():
-'''public void registerPreloader(final ImagePreloader preloader)
-'''
-pass
+    '''    public void registerPreloader(final ImagePreloader preloader)
+    '''
 def compare():
-'''public int compare(final Object o1, final Object o2)
-public int compare(final Object o1, final Object o2)
-'''
-pass
+    '''    public int compare(final Object o1, final Object o2)
+    public int compare(final Object o1, final Object o2)
+    '''
 def registerLoaderFactory():
-'''public void registerLoaderFactory(final ImageLoaderFactory loaderFactory)
-'''
-pass
+    '''    public void registerLoaderFactory(final ImageLoaderFactory loaderFactory)
+    '''
 def getImageConverters():
-'''public Collection getImageConverters()
-'''
-pass
+    '''    public Collection getImageConverters()
+    '''
 def getImageConverterModifications():
-'''public int getImageConverterModifications()
-'''
-pass
+    '''    public int getImageConverterModifications()
+    '''
 def registerConverter():
-'''public void registerConverter(final ImageConverter converter)
-'''
-pass
+    '''    public void registerConverter(final ImageConverter converter)
+    '''
 def getPreloaderIterator():
-'''public Iterator getPreloaderIterator()
-'''
-pass
+    '''    public Iterator getPreloaderIterator()
+    '''
 def getImageLoaderFactory():
-'''public ImageLoaderFactory getImageLoaderFactory(final ImageInfo imageInfo, final ImageFlavor flavor)
-'''
-pass
+    '''    public ImageLoaderFactory getImageLoaderFactory(final ImageInfo imageInfo, final ImageFlavor flavor)
+    '''
 def getImageLoaderFactories():
-'''public ImageLoaderFactory[] getImageLoaderFactories(final ImageInfo imageInfo, final ImageFlavor flavor)
-public ImageLoaderFactory[] getImageLoaderFactories(final String mime)
-'''
-pass
+    '''    public ImageLoaderFactory[] getImageLoaderFactories(final ImageInfo imageInfo, final ImageFlavor flavor)
+    public ImageLoaderFactory[] getImageLoaderFactories(final String mime)
+    '''
 def setAdditionalPenalty():
-'''public void setAdditionalPenalty(final String className, final Penalty penalty)
-'''
-pass
+    '''    public void setAdditionalPenalty(final String className, final Penalty penalty)
+    '''
 def getAdditionalPenalty():
-'''public Penalty getAdditionalPenalty(final String className)
-'''
-pass
+    '''    public Penalty getAdditionalPenalty(final String className)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def ImageLoaderFactoryComparator():
-'''public ImageLoaderFactoryComparator(final ImageFlavor targetFlavor)
-'''
-pass
+    '''    public ImageLoaderFactoryComparator(final ImageFlavor targetFlavor)
+    '''

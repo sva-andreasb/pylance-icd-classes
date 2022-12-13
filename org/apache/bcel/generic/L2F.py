@@ -1,8 +1,6 @@
 def L2F():
-'''public L2F()
-'''
-pass
+    '''    public L2F()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

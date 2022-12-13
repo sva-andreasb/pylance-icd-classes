@@ -1,12 +1,9 @@
 def ContCompCommoditySet():
-'''public ContCompCommoditySet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContCompCommoditySet(final MboServerInterface ms)
+    '''
 def copyFromCommodityGroupSet():
-'''public void copyFromCommodityGroupSet(final MboSetRemote commoditySet)
-'''
-pass
+    '''    public void copyFromCommodityGroupSet(final MboSetRemote commoditySet)
+    '''
 def copyFromCommodityCodeSet():
-'''public void copyFromCommodityCodeSet(final MboSetRemote commoditySet, final String parent)
-'''
-pass
+    '''    public void copyFromCommodityCodeSet(final MboSetRemote commoditySet, final String parent)
+    '''

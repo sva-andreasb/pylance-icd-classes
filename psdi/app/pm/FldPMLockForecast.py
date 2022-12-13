@@ -1,8 +1,6 @@
 def FldPMLockForecast():
-'''public FldPMLockForecast(final MboValue mbv)
-'''
-pass
+    '''    public FldPMLockForecast(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

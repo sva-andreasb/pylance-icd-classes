@@ -1,8 +1,6 @@
 def OslcErrorMapSet():
-'''public OslcErrorMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OslcErrorMapSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

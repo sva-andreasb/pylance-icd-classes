@@ -1,4 +1,3 @@
 def ExtDrillDownSet():
-'''public ExtDrillDownSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ExtDrillDownSet(final MboServerInterface ms)
+    '''

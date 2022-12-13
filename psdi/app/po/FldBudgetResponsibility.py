@@ -1,4 +1,3 @@
 def FldBudgetResponsibility():
-'''public FldBudgetResponsibility(final MboValue mbv)
-'''
-pass
+    '''    public FldBudgetResponsibility(final MboValue mbv)
+    '''

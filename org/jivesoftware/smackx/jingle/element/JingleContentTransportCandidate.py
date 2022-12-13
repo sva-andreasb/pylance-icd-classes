@@ -1,5 +1,4 @@
-ELEMENT = "String  candidate""
+ELEMENT = "String  \"candidate\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''

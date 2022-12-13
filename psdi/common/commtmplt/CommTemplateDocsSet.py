@@ -1,8 +1,6 @@
 def CommTemplateDocsSet():
-'''public CommTemplateDocsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CommTemplateDocsSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

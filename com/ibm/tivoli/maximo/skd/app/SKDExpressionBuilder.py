@@ -1,8 +1,6 @@
 def SKDExpressionBuilder():
-'''public SKDExpressionBuilder(final MboSet ms)
-'''
-pass
+    '''    public SKDExpressionBuilder(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

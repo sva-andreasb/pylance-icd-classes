@@ -1,28 +1,21 @@
 def addPropertyChangeListener():
-'''public synchronized void addPropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public synchronized void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def removePropertyChangeListener():
-'''public synchronized void removePropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public synchronized void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean b)
-'''
-pass
+    '''    public void setEnabled(final boolean b)
+    '''
 def getControl():
-'''public Object getControl()
-'''
-pass
+    '''    public Object getControl()
+    '''
 def getValue():
-'''public Object getValue(final String key)
-'''
-pass
+    '''    public Object getValue(final String key)
+    '''
 def putValue():
-'''public void putValue(final String s, final Object value)
-'''
-pass
+    '''    public void putValue(final String s, final Object value)
+    '''

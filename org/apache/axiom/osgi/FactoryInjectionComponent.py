@@ -1,4 +1,3 @@
 def FactoryInjectionComponent():
-'''public FactoryInjectionComponent()
-'''
-pass
+    '''    public FactoryInjectionComponent()
+    '''

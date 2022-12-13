@@ -1,58 +1,44 @@
 def StoredChannel():
-'''public StoredChannel(final UnparsedNotificationCallback notificationCallback)
-public StoredChannel(final UnparsedNotificationCallback notificationCallback, final String id)
-'''
-pass
+    '''    public StoredChannel(final UnparsedNotificationCallback notificationCallback)
+    public StoredChannel(final UnparsedNotificationCallback notificationCallback, final String id)
+    '''
 def store():
-'''public StoredChannel store(final DataStoreFactory dataStoreFactory)
-public StoredChannel store(final DataStore<StoredChannel> dataStore)
-'''
-pass
+    '''    public StoredChannel store(final DataStoreFactory dataStoreFactory)
+    public StoredChannel store(final DataStore<StoredChannel> dataStore)
+    '''
 def getNotificationCallback():
-'''public UnparsedNotificationCallback getNotificationCallback()
-'''
-pass
+    '''    public UnparsedNotificationCallback getNotificationCallback()
+    '''
 def getClientToken():
-'''public String getClientToken()
-'''
-pass
+    '''    public String getClientToken()
+    '''
 def setClientToken():
-'''public StoredChannel setClientToken(final String clientToken)
-'''
-pass
+    '''    public StoredChannel setClientToken(final String clientToken)
+    '''
 def getExpiration():
-'''public Long getExpiration()
-'''
-pass
+    '''    public Long getExpiration()
+    '''
 def setExpiration():
-'''public StoredChannel setExpiration(final Long expiration)
-'''
-pass
+    '''    public StoredChannel setExpiration(final Long expiration)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getTopicId():
-'''public String getTopicId()
-'''
-pass
+    '''    public String getTopicId()
+    '''
 def setTopicId():
-'''public StoredChannel setTopicId(final String topicId)
-'''
-pass
+    '''    public StoredChannel setTopicId(final String topicId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getDefaultDataStore():
-'''public static DataStore<StoredChannel> getDefaultDataStore(final DataStoreFactory dataStoreFactory)
-'''
-pass
+    '''    public static DataStore<StoredChannel> getDefaultDataStore(final DataStoreFactory dataStoreFactory)
+    '''

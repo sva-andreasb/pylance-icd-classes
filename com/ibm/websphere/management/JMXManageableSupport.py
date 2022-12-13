@@ -1,25 +1,19 @@
 def JMXManageableSupport():
-'''public JMXManageableSupport()
-'''
-pass
+    '''    public JMXManageableSupport()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getMBeanProperties():
-'''public Properties getMBeanProperties()
-'''
-pass
+    '''    public Properties getMBeanProperties()
+    '''
 def getModelMBean():
-'''public ModelMBean getModelMBean()
-'''
-pass
+    '''    public ModelMBean getModelMBean()
+    '''
 def setModelMBean():
-'''public final void setModelMBean(final ModelMBean srcModelMBean)
-'''
-pass
+    '''    public final void setModelMBean(final ModelMBean srcModelMBean)
+    '''
 def sendNotification():
-'''public void sendNotification(final String type)
-public void sendNotification(final Notification ntfyObj)
-'''
-pass
+    '''    public void sendNotification(final String type)
+    public void sendNotification(final Notification ntfyObj)
+    '''

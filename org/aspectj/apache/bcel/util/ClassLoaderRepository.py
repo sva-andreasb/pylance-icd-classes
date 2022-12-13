@@ -1,65 +1,50 @@
 def ClassLoaderRepository():
-'''public ClassLoaderRepository(final ClassLoader loader)
-public ClassLoaderRepository(final ClassLoaderReference loaderRef)
-'''
-pass
+    '''    public ClassLoaderRepository(final ClassLoader loader)
+    public ClassLoaderRepository(final ClassLoaderReference loaderRef)
+    '''
 def storeClass():
-'''public void storeClass(final JavaClass clazz)
-'''
-pass
+    '''    public void storeClass(final JavaClass clazz)
+    '''
 def removeClass():
-'''public void removeClass(final JavaClass clazz)
-'''
-pass
+    '''    public void removeClass(final JavaClass clazz)
+    '''
 def findClass():
-'''public JavaClass findClass(final String className)
-'''
-pass
+    '''    public JavaClass findClass(final String className)
+    '''
 def loadClass():
-'''public JavaClass loadClass(final String className)
-public JavaClass loadClass(final Class clazz)
-'''
-pass
+    '''    public JavaClass loadClass(final String className)
+    public JavaClass loadClass(final Class clazz)
+    '''
 def report():
-'''public String report()
-'''
-pass
+    '''    public String report()
+    '''
 def reportStats():
-'''public long[] reportStats()
-'''
-pass
+    '''    public long[] reportStats()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def clear():
-'''public void clear()
-public void clear()
-'''
-pass
+    '''    public void clear()
+    public void clear()
+    '''
 def SoftHashMap():
-'''public SoftHashMap(final Map<Object, SpecialValue> map)
-public SoftHashMap()
-public SoftHashMap(final Map map, final boolean b)
-'''
-pass
+    '''    public SoftHashMap(final Map<Object, SpecialValue> map)
+    public SoftHashMap()
+    public SoftHashMap(final Map map, final boolean b)
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def put():
-'''public Object put(final Object k, final Object v)
-'''
-pass
+    '''    public Object put(final Object k, final Object v)
+    '''
 def entrySet():
-'''public Set entrySet()
-'''
-pass
+    '''    public Set entrySet()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def remove():
-'''public Object remove(final Object k)
-'''
-pass
+    '''    public Object remove(final Object k)
+    '''

@@ -1,29 +1,22 @@
 def Session():
-'''public Session()
-public Session(final String userName, final boolean shareWorkspace)
-'''
-pass
+    '''    public Session()
+    public Session(final String userName, final boolean shareWorkspace)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def getSessionId():
-'''public String getSessionId()
-'''
-pass
+    '''    public String getSessionId()
+    '''
 def isShareWorkspace():
-'''public boolean isShareWorkspace()
-'''
-pass
+    '''    public boolean isShareWorkspace()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

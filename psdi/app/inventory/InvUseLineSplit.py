@@ -1,56 +1,42 @@
 def InvUseLineSplit():
-'''public InvUseLineSplit(final MboSet ms)
-'''
-pass
+    '''    public InvUseLineSplit(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def checkForNegativeBalance():
-'''public void checkForNegativeBalance()
-'''
-pass
+    '''    public void checkForNegativeBalance()
+    '''
 def getSharedInventory():
-'''public MboRemote getSharedInventory()
-'''
-pass
+    '''    public MboRemote getSharedInventory()
+    '''
 def getSharedInvBalance():
-'''public MboRemote getSharedInvBalance()
-'''
-pass
+    '''    public MboRemote getSharedInvBalance()
+    '''
 def checkLot():
-'''public void checkLot(final MboRemote invBal)
-'''
-pass
+    '''    public void checkLot(final MboRemote invBal)
+    '''
 def canGoNegative():
-'''public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
-'''
-pass
+    '''    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def chkPickListMbo():
-'''public boolean chkPickListMbo(final MboRemote owner)
-'''
-pass
+    '''    public boolean chkPickListMbo(final MboRemote owner)
+    '''
 def loadSkipFieldCopyHashSet():
-'''public static void loadSkipFieldCopyHashSet()
-'''
-pass
+    '''    public static void loadSkipFieldCopyHashSet()
+    '''
 def setCheckNegBalanceFlag():
-'''public void setCheckNegBalanceFlag(final boolean flag)
-'''
-pass
+    '''    public void setCheckNegBalanceFlag(final boolean flag)
+    '''

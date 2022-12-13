@@ -1,33 +1,26 @@
 AH = "int  1"
 def getInstanceUTC():
-'''public static IslamicChronology getInstanceUTC()
-'''
-pass
+    '''    public static IslamicChronology getInstanceUTC()
+    '''
 def getInstance():
-'''public static IslamicChronology getInstance()
-public static IslamicChronology getInstance(final DateTimeZone dateTimeZone)
-public static IslamicChronology getInstance(DateTimeZone default1, final LeapYearPatternType leapYearPatternType)
-'''
-pass
+    '''    public static IslamicChronology getInstance()
+    public static IslamicChronology getInstance(final DateTimeZone dateTimeZone)
+    public static IslamicChronology getInstance(DateTimeZone default1, final LeapYearPatternType leapYearPatternType)
+    '''
 def getLeapYearPatternType():
-'''public LeapYearPatternType getLeapYearPatternType()
-'''
-pass
+    '''    public LeapYearPatternType getLeapYearPatternType()
+    '''
 def withUTC():
-'''public Chronology withUTC()
-'''
-pass
+    '''    public Chronology withUTC()
+    '''
 def withZone():
-'''public Chronology withZone(DateTimeZone default1)
-'''
-pass
+    '''    public Chronology withZone(DateTimeZone default1)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''

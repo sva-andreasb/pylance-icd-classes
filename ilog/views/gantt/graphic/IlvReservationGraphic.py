@@ -1,4 +1,3 @@
 def getReservation():
-'''public IlvReservation getReservation()
-'''
-pass
+    '''    public IlvReservation getReservation()
+    '''

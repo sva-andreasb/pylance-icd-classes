@@ -1,24 +1,18 @@
 def setDisplayType():
-'''public void setDisplayType(final int type)
-'''
-pass
+    '''    public void setDisplayType(final int type)
+    '''
 def setModelObject():
-'''public void setModelObject(final ModelObject mo)
-'''
-pass
+    '''    public void setModelObject(final ModelObject mo)
+    '''
 def getDisplaytype():
-'''public int getDisplaytype()
-'''
-pass
+    '''    public int getDisplaytype()
+    '''
 def getModelObject():
-'''public ModelObject getModelObject()
-'''
-pass
+    '''    public ModelObject getModelObject()
+    '''
 def getVersion():
-'''public long getVersion()
-'''
-pass
+    '''    public long getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final long version)
-'''
-pass
+    '''    public void setVersion(final long version)
+    '''

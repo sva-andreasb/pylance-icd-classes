@@ -1,13 +1,10 @@
 def AttributePrioDefinitionsJdoKey():
-'''public AttributePrioDefinitionsJdoKey()
-public AttributePrioDefinitionsJdoKey(final String pk)
-'''
-pass
+    '''    public AttributePrioDefinitionsJdoKey()
+    public AttributePrioDefinitionsJdoKey(final String pk)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

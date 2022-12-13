@@ -1,70 +1,53 @@
 def ClusterMemberDescriptionImpl():
-'''public ClusterMemberDescriptionImpl(final DescriptionKey key)
-'''
-pass
+    '''    public ClusterMemberDescriptionImpl(final DescriptionKey key)
+    '''
 def setState():
-'''public synchronized void setState(final byte state)
-'''
-pass
+    '''    public synchronized void setState(final byte state)
+    '''
 def setReachability():
-'''public void setReachability(final byte state)
-'''
-pass
+    '''    public void setReachability(final byte state)
+    '''
 def getReachability():
-'''public byte getReachability()
-public byte getReachability()
-'''
-pass
+    '''    public byte getReachability()
+    public byte getReachability()
+    '''
 def setAvailability():
-'''public void setAvailability(final byte state)
-'''
-pass
+    '''    public void setAvailability(final byte state)
+    '''
 def setVersion():
-'''public synchronized void setVersion(final String version)
-'''
-pass
+    '''    public synchronized void setVersion(final String version)
+    '''
 def setClusterAssociation():
-'''public synchronized void setClusterAssociation(final DescriptionKey association)
-'''
-pass
+    '''    public synchronized void setClusterAssociation(final DescriptionKey association)
+    '''
 def removeClusterAssociation():
-'''public synchronized void removeClusterAssociation(final DescriptionKey association)
-'''
-pass
+    '''    public synchronized void removeClusterAssociation(final DescriptionKey association)
+    '''
 def getDefinitionKey():
-'''public String getDefinitionKey()
-'''
-pass
+    '''    public String getDefinitionKey()
+    '''
 def exportToStream():
-'''public synchronized void exportToStream(final DataOutput out, final Format format)
-'''
-pass
+    '''    public synchronized void exportToStream(final DataOutput out, final Format format)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def setMemento():
-'''public void setMemento(final Description.Memento memento)
-'''
-pass
+    '''    public void setMemento(final Description.Memento memento)
+    '''
 def getState():
-'''public byte getState()
-'''
-pass
+    '''    public byte getState()
+    '''
 def getAvailability():
-'''public byte getAvailability()
-'''
-pass
+    '''    public byte getAvailability()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def isLeaf():
-'''public boolean isLeaf()
-'''
-pass
+    '''    public boolean isLeaf()
+    '''
 def getClusterAssociations():
-'''public Set getClusterAssociations()
-'''
-pass
+    '''    public Set getClusterAssociations()
+    '''

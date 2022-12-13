@@ -1,12 +1,9 @@
 def SKDAssignmentValSet():
-'''public SKDAssignmentValSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDAssignmentValSet(final MboServerInterface ms)
+    '''
 def preSetValues():
-'''public void preSetValues(final MboSetRemote mboSet)
-'''
-pass
+    '''    public void preSetValues(final MboSetRemote mboSet)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

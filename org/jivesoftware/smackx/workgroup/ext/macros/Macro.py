@@ -2,34 +2,26 @@ TEXT = "int  0"
 URL = "int  1"
 IMAGE = "int  2"
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getResponse():
-'''public String getResponse()
-'''
-pass
+    '''    public String getResponse()
+    '''
 def setResponse():
-'''public void setResponse(final String response)
-'''
-pass
+    '''    public void setResponse(final String response)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def setType():
-'''public void setType(final int type)
-'''
-pass
+    '''    public void setType(final int type)
+    '''

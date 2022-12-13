@@ -1,103 +1,79 @@
 def DualTreeBidiMap():
-'''public DualTreeBidiMap()
-public DualTreeBidiMap(final Map<? extends K, ? extends V> map)
-public DualTreeBidiMap(final Comparator<? super K> keyComparator, final Comparator<? super V> valueComparator)
-'''
-pass
+    '''    public DualTreeBidiMap()
+    public DualTreeBidiMap(final Map<? extends K, ? extends V> map)
+    public DualTreeBidiMap(final Comparator<? super K> keyComparator, final Comparator<? super V> valueComparator)
+    '''
 def firstKey():
-'''public K firstKey()
-'''
-pass
+    '''    public K firstKey()
+    '''
 def lastKey():
-'''public K lastKey()
-'''
-pass
+    '''    public K lastKey()
+    '''
 def nextKey():
-'''public K nextKey(final K key)
-public K nextKey(final K key)
-'''
-pass
+    '''    public K nextKey(final K key)
+    public K nextKey(final K key)
+    '''
 def previousKey():
-'''public K previousKey(final K key)
-public K previousKey(final K key)
-'''
-pass
+    '''    public K previousKey(final K key)
+    public K previousKey(final K key)
+    '''
 def mapIterator():
-'''public OrderedMapIterator<K, V> mapIterator()
-'''
-pass
+    '''    public OrderedMapIterator<K, V> mapIterator()
+    '''
 def inverseSortedBidiMap():
-'''public SortedBidiMap<V, K> inverseSortedBidiMap()
-'''
-pass
+    '''    public SortedBidiMap<V, K> inverseSortedBidiMap()
+    '''
 def inverseOrderedBidiMap():
-'''public OrderedBidiMap<V, K> inverseOrderedBidiMap()
-'''
-pass
+    '''    public OrderedBidiMap<V, K> inverseOrderedBidiMap()
+    '''
 def headMap():
-'''public SortedMap<K, V> headMap(final K toKey)
-public SortedMap<K, V> headMap(final K toKey)
-'''
-pass
+    '''    public SortedMap<K, V> headMap(final K toKey)
+    public SortedMap<K, V> headMap(final K toKey)
+    '''
 def tailMap():
-'''public SortedMap<K, V> tailMap(final K fromKey)
-public SortedMap<K, V> tailMap(final K fromKey)
-'''
-pass
+    '''    public SortedMap<K, V> tailMap(final K fromKey)
+    public SortedMap<K, V> tailMap(final K fromKey)
+    '''
 def subMap():
-'''public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-public SortedMap<K, V> subMap(final K fromKey, final K toKey)
-'''
-pass
+    '''    public SortedMap<K, V> subMap(final K fromKey, final K toKey)
+    public SortedMap<K, V> subMap(final K fromKey, final K toKey)
+    '''
 def inverseBidiMap():
-'''public SortedBidiMap<V, K> inverseBidiMap()
-'''
-pass
+    '''    public SortedBidiMap<V, K> inverseBidiMap()
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public K next()
-'''
-pass
+    '''    public K next()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def previous():
-'''public K previous()
-'''
-pass
+    '''    public K previous()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

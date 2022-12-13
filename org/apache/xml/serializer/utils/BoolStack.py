@@ -1,45 +1,34 @@
 def BoolStack():
-'''public BoolStack()
-public BoolStack(final int size)
-'''
-pass
+    '''    public BoolStack()
+    public BoolStack(final int size)
+    '''
 def size():
-'''public final int size()
-'''
-pass
+    '''    public final int size()
+    '''
 def clear():
-'''public final void clear()
-'''
-pass
+    '''    public final void clear()
+    '''
 def push():
-'''public final boolean push(final boolean val)
-'''
-pass
+    '''    public final boolean push(final boolean val)
+    '''
 def pop():
-'''public final boolean pop()
-'''
-pass
+    '''    public final boolean pop()
+    '''
 def popAndTop():
-'''public final boolean popAndTop()
-'''
-pass
+    '''    public final boolean popAndTop()
+    '''
 def setTop():
-'''public final void setTop(final boolean b)
-'''
-pass
+    '''    public final void setTop(final boolean b)
+    '''
 def peek():
-'''public final boolean peek()
-'''
-pass
+    '''    public final boolean peek()
+    '''
 def peekOrFalse():
-'''public final boolean peekOrFalse()
-'''
-pass
+    '''    public final boolean peekOrFalse()
+    '''
 def peekOrTrue():
-'''public final boolean peekOrTrue()
-'''
-pass
+    '''    public final boolean peekOrTrue()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''

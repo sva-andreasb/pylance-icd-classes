@@ -1,20 +1,15 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def okLocDefOp():
-'''public int okLocDefOp()
-'''
-pass
+    '''    public int okLocDefOp()
+    '''
 def okLocDefMnt():
-'''public int okLocDefMnt()
-'''
-pass
+    '''    public int okLocDefMnt()
+    '''
 def cancelLocDefMnt():
-'''public void cancelLocDefMnt()
-'''
-pass
+    '''    public void cancelLocDefMnt()
+    '''
 def cancelLocDefop():
-'''public void cancelLocDefop()
-'''
-pass
+    '''    public void cancelLocDefop()
+    '''

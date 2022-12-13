@@ -1,12 +1,9 @@
 def MfMailCfgValidator():
-'''public MfMailCfgValidator(final MfMailCfgRemote configuration)
-'''
-pass
+    '''    public MfMailCfgValidator(final MfMailCfgRemote configuration)
+    '''
 def getErrorMessages():
-'''public String getErrorMessages()
-'''
-pass
+    '''    public String getErrorMessages()
+    '''
 def validate():
-'''public boolean validate()
-'''
-pass
+    '''    public boolean validate()
+    '''

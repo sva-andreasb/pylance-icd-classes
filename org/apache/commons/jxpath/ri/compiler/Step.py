@@ -1,24 +1,18 @@
 def getAxis():
-'''public int getAxis()
-'''
-pass
+    '''    public int getAxis()
+    '''
 def getNodeTest():
-'''public NodeTest getNodeTest()
-'''
-pass
+    '''    public NodeTest getNodeTest()
+    '''
 def getPredicates():
-'''public Expression[] getPredicates()
-'''
-pass
+    '''    public Expression[] getPredicates()
+    '''
 def isContextDependent():
-'''public boolean isContextDependent()
-'''
-pass
+    '''    public boolean isContextDependent()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def axisToString():
-'''public static String axisToString(final int axis)
-'''
-pass
+    '''    public static String axisToString(final int axis)
+    '''

@@ -1,36 +1,27 @@
 def CramMD5():
-'''public CramMD5(final String username, final byte[] pw)
-'''
-pass
+    '''    public CramMD5(final String username, final byte[] pw)
+    '''
 def dispose():
-'''public void dispose()
-'''
-pass
+    '''    public void dispose()
+    '''
 def evaluateChallenge():
-'''public byte[] evaluateChallenge(final byte[] array)
-'''
-pass
+    '''    public byte[] evaluateChallenge(final byte[] array)
+    '''
 def getMechanismName():
-'''public String getMechanismName()
-'''
-pass
+    '''    public String getMechanismName()
+    '''
 def getNegotiatedProperty():
-'''public String getNegotiatedProperty(final String s)
-'''
-pass
+    '''    public String getNegotiatedProperty(final String s)
+    '''
 def hasInitialResponse():
-'''public boolean hasInitialResponse()
-'''
-pass
+    '''    public boolean hasInitialResponse()
+    '''
 def isComplete():
-'''public boolean isComplete()
-'''
-pass
+    '''    public boolean isComplete()
+    '''
 def unwrap():
-'''public byte[] unwrap(final byte[] array, final int n, final int n2)
-'''
-pass
+    '''    public byte[] unwrap(final byte[] array, final int n, final int n2)
+    '''
 def wrap():
-'''public byte[] wrap(final byte[] array, final int n, final int n2)
-'''
-pass
+    '''    public byte[] wrap(final byte[] array, final int n, final int n2)
+    '''

@@ -6,22 +6,17 @@ PS_DASHDOTDOT = "int  4"
 PS_NULL = "int  5"
 PS_INSIDEFRAME = "int  6"
 def MetaPen():
-'''public MetaPen()
-'''
-pass
+    '''    public MetaPen()
+    '''
 def init():
-'''public void init(final InputMeta in)
-'''
-pass
+    '''    public void init(final InputMeta in)
+    '''
 def getStyle():
-'''public int getStyle()
-'''
-pass
+    '''    public int getStyle()
+    '''
 def getPenWidth():
-'''public int getPenWidth()
-'''
-pass
+    '''    public int getPenWidth()
+    '''
 def getColor():
-'''public Color getColor()
-'''
-pass
+    '''    public Color getColor()
+    '''

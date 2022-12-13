@@ -1,28 +1,21 @@
 def PlusCFldSpecNumValue():
-'''public PlusCFldSpecNumValue(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldSpecNumValue(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def overrideScale():
-'''public void overrideScale()
-'''
-pass
+    '''    public void overrideScale()
+    '''
 def numberOfDecialPlaces():
-'''public int numberOfDecialPlaces()
-'''
-pass
+    '''    public int numberOfDecialPlaces()
+    '''
 def parseStringAsNumber():
-'''public Number parseStringAsNumber(String val)
-'''
-pass
+    '''    public Number parseStringAsNumber(String val)
+    '''

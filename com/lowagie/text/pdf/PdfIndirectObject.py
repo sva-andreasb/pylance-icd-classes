@@ -1,4 +1,3 @@
 def getIndirectReference():
-'''public PdfIndirectReference getIndirectReference()
-'''
-pass
+    '''    public PdfIndirectReference getIndirectReference()
+    '''

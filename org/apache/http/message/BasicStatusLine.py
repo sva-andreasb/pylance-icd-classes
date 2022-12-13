@@ -1,24 +1,18 @@
 def BasicStatusLine():
-'''public BasicStatusLine(final ProtocolVersion version, final int statusCode, final String reasonPhrase)
-'''
-pass
+    '''    public BasicStatusLine(final ProtocolVersion version, final int statusCode, final String reasonPhrase)
+    '''
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''
 def getProtocolVersion():
-'''public ProtocolVersion getProtocolVersion()
-'''
-pass
+    '''    public ProtocolVersion getProtocolVersion()
+    '''
 def getReasonPhrase():
-'''public String getReasonPhrase()
-'''
-pass
+    '''    public String getReasonPhrase()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

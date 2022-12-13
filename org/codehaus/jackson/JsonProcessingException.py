@@ -1,12 +1,9 @@
 def getLocation():
-'''public JsonLocation getLocation()
-'''
-pass
+    '''    public JsonLocation getLocation()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

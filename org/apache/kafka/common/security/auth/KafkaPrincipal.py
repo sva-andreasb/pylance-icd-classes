@@ -1,34 +1,26 @@
-USER_TYPE = "String  User""
+USER_TYPE = "String  \"User\""
 def KafkaPrincipal():
-'''public KafkaPrincipal(final String principalType, final String name)
-'''
-pass
+    '''    public KafkaPrincipal(final String principalType, final String name)
+    '''
 def fromString():
-'''public static KafkaPrincipal fromString(final String str)
-'''
-pass
+    '''    public static KafkaPrincipal fromString(final String str)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPrincipalType():
-'''public String getPrincipalType()
-'''
-pass
+    '''    public String getPrincipalType()
+    '''
 def tokenAuthenticated():
-'''public void tokenAuthenticated(final boolean tokenAuthenticated)
-public boolean tokenAuthenticated()
-'''
-pass
+    '''    public void tokenAuthenticated(final boolean tokenAuthenticated)
+    public boolean tokenAuthenticated()
+    '''

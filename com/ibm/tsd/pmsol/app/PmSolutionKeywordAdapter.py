@@ -1,13 +1,10 @@
 def PmSolutionKeywordAdapter():
-'''public PmSolutionKeywordAdapter()
-public PmSolutionKeywordAdapter(final MboValue arg0)
-'''
-pass
+    '''    public PmSolutionKeywordAdapter()
+    public PmSolutionKeywordAdapter(final MboValue arg0)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

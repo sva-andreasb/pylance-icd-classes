@@ -1,28 +1,21 @@
 def VariableReference():
-'''public VariableReference(final QName varName)
-'''
-pass
+    '''    public VariableReference(final QName varName)
+    '''
 def getVariableName():
-'''public QName getVariableName()
-'''
-pass
+    '''    public QName getVariableName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isContextDependent():
-'''public boolean isContextDependent()
-'''
-pass
+    '''    public boolean isContextDependent()
+    '''
 def computeContextDependent():
-'''public boolean computeContextDependent()
-'''
-pass
+    '''    public boolean computeContextDependent()
+    '''
 def compute():
-'''public Object compute(final EvalContext context)
-'''
-pass
+    '''    public Object compute(final EvalContext context)
+    '''
 def computeValue():
-'''public Object computeValue(final EvalContext context)
-'''
-pass
+    '''    public Object computeValue(final EvalContext context)
+    '''

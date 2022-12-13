@@ -1,184 +1,138 @@
 def getFamily():
-'''public String getFamily()
-'''
-pass
+    '''    public String getFamily()
+    '''
 def getComponentType():
-'''public static String getComponentType()
-'''
-pass
+    '''    public static String getComponentType()
+    '''
 def IlvFacesHierarchyChartView():
-'''public IlvFacesHierarchyChartView()
-'''
-pass
+    '''    public IlvFacesHierarchyChartView()
+    '''
 def getChart():
-'''public IlvHierarchyChart getChart()
-'''
-pass
+    '''    public IlvHierarchyChart getChart()
+    '''
 def setChart():
-'''public void setChart(final IlvHierarchyChart a)
-'''
-pass
+    '''    public void setChart(final IlvHierarchyChart a)
+    '''
 def getStartVisibleInterval():
-'''public Date getStartVisibleInterval()
-'''
-pass
+    '''    public Date getStartVisibleInterval()
+    '''
 def setStartVisibleInterval():
-'''public void setStartVisibleInterval(Date b)
-'''
-pass
+    '''    public void setStartVisibleInterval(Date b)
+    '''
 def getEndVisibleInterval():
-'''public Date getEndVisibleInterval()
-'''
-pass
+    '''    public Date getEndVisibleInterval()
+    '''
 def isSheetHScrollable():
-'''public boolean isSheetHScrollable()
-'''
-pass
+    '''    public boolean isSheetHScrollable()
+    '''
 def setSheetHScrollable():
-'''public void setSheetHScrollable(final boolean q)
-'''
-pass
+    '''    public void setSheetHScrollable(final boolean q)
+    '''
 def isSheetVScrollable():
-'''public boolean isSheetVScrollable()
-'''
-pass
+    '''    public boolean isSheetVScrollable()
+    '''
 def setSheetVScrollable():
-'''public void setSheetVScrollable(final boolean r)
-'''
-pass
+    '''    public void setSheetVScrollable(final boolean r)
+    '''
 def setEndVisibleInterval():
-'''public void setEndVisibleInterval(Date c)
-'''
-pass
+    '''    public void setEndVisibleInterval(Date c)
+    '''
 def getTableInteractor():
-'''public IlvFacesInteractor getTableInteractor()
-'''
-pass
+    '''    public IlvFacesInteractor getTableInteractor()
+    '''
 def setTableInteractor():
-'''public void setTableInteractor(final IlvFacesInteractor d)
-'''
-pass
+    '''    public void setTableInteractor(final IlvFacesInteractor d)
+    '''
 def getTableInteractorId():
-'''public String getTableInteractorId()
-'''
-pass
+    '''    public String getTableInteractorId()
+    '''
 def setTableInteractorId():
-'''public void setTableInteractorId(final String e)
-'''
-pass
+    '''    public void setTableInteractorId(final String e)
+    '''
 def getSheetInteractor():
-'''public IlvFacesInteractor getSheetInteractor()
-'''
-pass
+    '''    public IlvFacesInteractor getSheetInteractor()
+    '''
 def setSheetInteractor():
-'''public void setSheetInteractor(final IlvFacesInteractor f)
-'''
-pass
+    '''    public void setSheetInteractor(final IlvFacesInteractor f)
+    '''
 def getSheetInteractorId():
-'''public String getSheetInteractorId()
-'''
-pass
+    '''    public String getSheetInteractorId()
+    '''
 def setSheetInteractorId():
-'''public void setSheetInteractorId(final String g)
-'''
-pass
+    '''    public void setSheetInteractorId(final String g)
+    '''
 def getZoomFactor():
-'''public double getZoomFactor()
-'''
-pass
+    '''    public double getZoomFactor()
+    '''
 def setZoomFactor():
-'''public void setZoomFactor(final double h)
-'''
-pass
+    '''    public void setZoomFactor(final double h)
+    '''
 def getDataSource():
-'''public IlvFacesGanttDataSource getDataSource()
-'''
-pass
+    '''    public IlvFacesGanttDataSource getDataSource()
+    '''
 def setDataSource():
-'''public void setDataSource(final IlvFacesGanttDataSource i)
-'''
-pass
+    '''    public void setDataSource(final IlvFacesGanttDataSource i)
+    '''
 def getDataSourceId():
-'''public String getDataSourceId()
-'''
-pass
+    '''    public String getDataSourceId()
+    '''
 def setDataSourceId():
-'''public void setDataSourceId(final String j)
-'''
-pass
+    '''    public void setDataSourceId(final String j)
+    '''
 def getDividerLocation():
-'''public int getDividerLocation()
-'''
-pass
+    '''    public int getDividerLocation()
+    '''
 def setDividerLocation():
-'''public void setDividerLocation(final int k)
-'''
-pass
+    '''    public void setDividerLocation(final int k)
+    '''
 def getProject():
-'''public String getProject()
-'''
-pass
+    '''    public String getProject()
+    '''
 def setProject():
-'''public void setProject(final String l)
-'''
-pass
+    '''    public void setProject(final String l)
+    '''
 def getStyleSheets():
-'''public String getStyleSheets()
-'''
-pass
+    '''    public String getStyleSheets()
+    '''
 def setStyleSheets():
-'''public void setStyleSheets(final String n)
-'''
-pass
+    '''    public void setStyleSheets(final String n)
+    '''
 def getStyleSheet():
-'''public String getStyleSheet()
-'''
-pass
+    '''    public String getStyleSheet()
+    '''
 def setStyleSheet():
-'''public void setStyleSheet(final String o)
-'''
-pass
+    '''    public void setStyleSheet(final String o)
+    '''
 def isEditable():
-'''public boolean isEditable()
-'''
-pass
+    '''    public boolean isEditable()
+    '''
 def setEditable():
-'''public void setEditable(final boolean p)
-'''
-pass
+    '''    public void setEditable(final boolean p)
+    '''
 def getConverter():
-'''public Converter getConverter()
-'''
-pass
+    '''    public Converter getConverter()
+    '''
 def setConverter():
-'''public void setConverter(final Converter s)
-'''
-pass
+    '''    public void setConverter(final Converter s)
+    '''
 def getLocalValue():
-'''public Object getLocalValue()
-'''
-pass
+    '''    public Object getLocalValue()
+    '''
 def getDefaultObjectFinder():
-'''public IlvObjectSelectedFinder getDefaultObjectFinder()
-'''
-pass
+    '''    public IlvObjectSelectedFinder getDefaultObjectFinder()
+    '''
 def updateModel():
-'''public void updateModel(final FacesContext facesContext)
-'''
-pass
+    '''    public void updateModel(final FacesContext facesContext)
+    '''
 def saveState():
-'''public Object saveState(final FacesContext facesContext)
-'''
-pass
+    '''    public Object saveState(final FacesContext facesContext)
+    '''
 def restoreState():
-'''public void restoreState(final FacesContext facesContext, final Object o)
-'''
-pass
+    '''    public void restoreState(final FacesContext facesContext, final Object o)
+    '''
 def getSplitterArrowsVisible():
-'''public boolean getSplitterArrowsVisible()
-'''
-pass
+    '''    public boolean getSplitterArrowsVisible()
+    '''
 def setSplitterArrowsVisible():
-'''public void setSplitterArrowsVisible(final boolean m)
-'''
-pass
+    '''    public void setSplitterArrowsVisible(final boolean m)
+    '''

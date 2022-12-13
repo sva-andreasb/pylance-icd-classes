@@ -1,8 +1,6 @@
 def FldRelatedRecClass():
-'''public FldRelatedRecClass(final MboValue mbv)
-'''
-pass
+    '''    public FldRelatedRecClass(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

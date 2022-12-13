@@ -1,4 +1,3 @@
 def FldLASMeasure():
-'''public FldLASMeasure(final MboValue mbv)
-'''
-pass
+    '''    public FldLASMeasure(final MboValue mbv)
+    '''

@@ -1,4 +1,3 @@
 def PPAFldDelimiter():
-'''public PPAFldDelimiter(final MboValue mbv)
-'''
-pass
+    '''    public PPAFldDelimiter(final MboValue mbv)
+    '''

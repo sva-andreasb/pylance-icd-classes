@@ -1,4 +1,3 @@
 def PlusCFldSpotCheckWONum():
-'''public PlusCFldSpotCheckWONum(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldSpotCheckWONum(final MboValue mbv)
+    '''

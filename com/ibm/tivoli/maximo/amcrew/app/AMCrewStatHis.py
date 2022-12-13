@@ -1,12 +1,9 @@
 def AMCrewStatHis():
-'''public AMCrewStatHis(final MboSet ms)
-'''
-pass
+    '''    public AMCrewStatHis(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

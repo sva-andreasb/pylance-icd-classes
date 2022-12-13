@@ -1,8 +1,6 @@
 def FldWPTaskID():
-'''public FldWPTaskID(final MboValue mbv)
-'''
-pass
+    '''    public FldWPTaskID(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

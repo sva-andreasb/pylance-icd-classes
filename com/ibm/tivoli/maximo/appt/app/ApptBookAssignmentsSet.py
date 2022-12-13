@@ -1,4 +1,3 @@
 def ApptBookAssignmentsSet():
-'''public ApptBookAssignmentsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApptBookAssignmentsSet(final MboServerInterface ms)
+    '''

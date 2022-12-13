@@ -1,16 +1,12 @@
 def IlvFacesGanttScriptDescriptor():
-'''public IlvFacesGanttScriptDescriptor()
-'''
-pass
+    '''    public IlvFacesGanttScriptDescriptor()
+    '''
 def addScriptsToLoad():
-'''public void addScriptsToLoad(final IlvScriptManager ilvScriptManager, final Writer writer)
-'''
-pass
+    '''    public void addScriptsToLoad(final IlvScriptManager ilvScriptManager, final Writer writer)
+    '''
 def getJSIdentifier():
-'''public String getJSIdentifier()
-'''
-pass
+    '''    public String getJSIdentifier()
+    '''
 def getBundleId():
-'''public String getBundleId()
-'''
-pass
+    '''    public String getBundleId()
+    '''

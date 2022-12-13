@@ -1,22 +1,17 @@
 def BaseGraphMaker():
-'''public BaseGraphMaker(final ReificationStyle style)
-'''
-pass
+    '''    public BaseGraphMaker(final ReificationStyle style)
+    '''
 def getReificationStyle():
-'''public ReificationStyle getReificationStyle()
-'''
-pass
+    '''    public ReificationStyle getReificationStyle()
+    '''
 def getGraph():
-'''public Graph getGraph()
-'''
-pass
+    '''    public Graph getGraph()
+    '''
 def openGraph():
-'''public Graph openGraph()
-public Graph openGraph(final String name)
-'''
-pass
+    '''    public Graph openGraph()
+    public Graph openGraph(final String name)
+    '''
 def createGraph():
-'''public Graph createGraph()
-public Graph createGraph(final String name)
-'''
-pass
+    '''    public Graph createGraph()
+    public Graph createGraph(final String name)
+    '''

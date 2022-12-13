@@ -1,4 +1,3 @@
 def ReconLinkRuleSet():
-'''public ReconLinkRuleSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReconLinkRuleSet(final MboServerInterface ms)
+    '''

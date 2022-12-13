@@ -1,9 +1,7 @@
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def DLTException():
-'''public DLTException()
-public DLTException(final String message)
-'''
-pass
+    '''    public DLTException()
+    public DLTException(final String message)
+    '''

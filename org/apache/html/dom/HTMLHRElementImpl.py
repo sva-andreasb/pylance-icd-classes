@@ -1,36 +1,27 @@
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getNoShade():
-'''public boolean getNoShade()
-'''
-pass
+    '''    public boolean getNoShade()
+    '''
 def setNoShade():
-'''public void setNoShade(final boolean b)
-'''
-pass
+    '''    public void setNoShade(final boolean b)
+    '''
 def getSize():
-'''public String getSize()
-'''
-pass
+    '''    public String getSize()
+    '''
 def setSize():
-'''public void setSize(final String s)
-'''
-pass
+    '''    public void setSize(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''
 def HTMLHRElementImpl():
-'''public HTMLHRElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLHRElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

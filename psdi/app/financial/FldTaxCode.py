@@ -1,12 +1,9 @@
 def FldTaxCode():
-'''public FldTaxCode(final MboValue mbv)
-'''
-pass
+    '''    public FldTaxCode(final MboValue mbv)
+    '''
 def getTypeCode():
-'''public int getTypeCode()
-'''
-pass
+    '''    public int getTypeCode()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

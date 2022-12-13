@@ -1,46 +1,35 @@
 sid = "short  9"
 def EmbeddedObjectRefSubRecord():
-'''public EmbeddedObjectRefSubRecord()
-public EmbeddedObjectRefSubRecord(final LittleEndianInput in, final int size)
-'''
-pass
+    '''    public EmbeddedObjectRefSubRecord()
+    public EmbeddedObjectRefSubRecord(final LittleEndianInput in, final int size)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getStreamId():
-'''public Integer getStreamId()
-'''
-pass
+    '''    public Integer getStreamId()
+    '''
 def getOLEClassName():
-'''public String getOLEClassName()
-'''
-pass
+    '''    public String getOLEClassName()
+    '''
 def getObjectData():
-'''public byte[] getObjectData()
-'''
-pass
+    '''    public byte[] getObjectData()
+    '''
 def clone():
-'''public EmbeddedObjectRefSubRecord clone()
-'''
-pass
+    '''    public EmbeddedObjectRefSubRecord clone()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setUnknownFormulaData():
-'''public void setUnknownFormulaData(final byte[] formularData)
-'''
-pass
+    '''    public void setUnknownFormulaData(final byte[] formularData)
+    '''
 def setOleClassname():
-'''public void setOleClassname(final String oleClassname)
-'''
-pass
+    '''    public void setOleClassname(final String oleClassname)
+    '''
 def setStorageId():
-'''public void setStorageId(final int storageId)
-'''
-pass
+    '''    public void setStorageId(final int storageId)
+    '''

@@ -1,4 +1,3 @@
 def SFWViewLineSet():
-'''public SFWViewLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SFWViewLineSet(final MboServerInterface ms)
+    '''

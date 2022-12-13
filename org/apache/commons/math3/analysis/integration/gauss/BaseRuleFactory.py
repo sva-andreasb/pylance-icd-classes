@@ -1,8 +1,6 @@
 def BaseRuleFactory():
-'''public BaseRuleFactory()
-'''
-pass
+    '''    public BaseRuleFactory()
+    '''
 def getRule():
-'''public Pair<double[], double[]> getRule(final int numberOfPoints)
-'''
-pass
+    '''    public Pair<double[], double[]> getRule(final int numberOfPoints)
+    '''

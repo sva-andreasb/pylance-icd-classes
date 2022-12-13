@@ -1,4 +1,3 @@
 def MessageHubPropSet():
-'''public MessageHubPropSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MessageHubPropSet(final MboServerInterface ms)
+    '''

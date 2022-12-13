@@ -1,76 +1,57 @@
 def IlvListActionHandler():
-'''public IlvListActionHandler(final String s)
-'''
-pass
+    '''    public IlvListActionHandler(final String s)
+    '''
 def getListItems():
-'''public Object[] getListItems()
-'''
-pass
+    '''    public Object[] getListItems()
+    '''
 def setListItems():
-'''public void setListItems(final Object[] array)
-'''
-pass
+    '''    public void setListItems(final Object[] array)
+    '''
 def getSelectedItem():
-'''public int getSelectedItem()
-'''
-pass
+    '''    public int getSelectedItem()
+    '''
 def setSelectedItem():
-'''public void setSelectedItem(final int value)
-'''
-pass
+    '''    public void setSelectedItem(final int value)
+    '''
 def isDynamicList():
-'''public boolean isDynamicList()
-'''
-pass
+    '''    public boolean isDynamicList()
+    '''
 def setDynamicList():
-'''public void setDynamicList(final boolean b)
-'''
-pass
+    '''    public void setDynamicList(final boolean b)
+    '''
 def isSubMenuItems():
-'''public boolean isSubMenuItems()
-'''
-pass
+    '''    public boolean isSubMenuItems()
+    '''
 def setSubMenuItems():
-'''public void setSubMenuItems(final boolean b)
-'''
-pass
+    '''    public void setSubMenuItems(final boolean b)
+    '''
 def getMenuItemMaximumLength():
-'''public int getMenuItemMaximumLength()
-'''
-pass
+    '''    public int getMenuItemMaximumLength()
+    '''
 def setMenuItemMaximumLength():
-'''public void setMenuItemMaximumLength(final int value)
-'''
-pass
+    '''    public void setMenuItemMaximumLength(final int value)
+    '''
 def isNumbering():
-'''public boolean isNumbering()
-'''
-pass
+    '''    public boolean isNumbering()
+    '''
 def setNumbering():
-'''public void setNumbering(final boolean b)
-'''
-pass
+    '''    public void setNumbering(final boolean b)
+    '''
 def getFirstNumberingCharacter():
-'''public char getFirstNumberingCharacter()
-'''
-pass
+    '''    public char getFirstNumberingCharacter()
+    '''
 def setFirstNumberingCharacter():
-'''public void setFirstNumberingCharacter(final char c)
-'''
-pass
+    '''    public void setFirstNumberingCharacter(final char c)
+    '''
 def getEmptyString():
-'''public String getEmptyString()
-'''
-pass
+    '''    public String getEmptyString()
+    '''
 def setEmptyString():
-'''public void setEmptyString(final String s)
-'''
-pass
+    '''    public void setEmptyString(final String s)
+    '''
 def setAction():
-'''public void setAction(final Action action)
-'''
-pass
+    '''    public void setAction(final Action action)
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''

@@ -1,105 +1,79 @@
 def getEcoreEnum():
-'''public EEnum getEcoreEnum()
-'''
-pass
+    '''    public EEnum getEcoreEnum()
+    '''
 def basicGetEcoreEnum():
-'''public EEnum basicGetEcoreEnum()
-'''
-pass
+    '''    public EEnum basicGetEcoreEnum()
+    '''
 def setEcoreEnum():
-'''public void setEcoreEnum(final EEnum newEcoreEnum)
-'''
-pass
+    '''    public void setEcoreEnum(final EEnum newEcoreEnum)
+    '''
 def getGenEnumLiterals():
-'''public EList getGenEnumLiterals()
-'''
-pass
+    '''    public EList getGenEnumLiterals()
+    '''
 def eInverseAdd():
-'''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''
 def eInverseRemove():
-'''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def getEcoreClassifier():
-'''public EClassifier getEcoreClassifier()
-'''
-pass
+    '''    public EClassifier getEcoreClassifier()
+    '''
 def getEcoreDataType():
-'''public EDataType getEcoreDataType()
-'''
-pass
+    '''    public EDataType getEcoreDataType()
+    '''
 def getImportedMetaType():
-'''public String getImportedMetaType()
-'''
-pass
+    '''    public String getImportedMetaType()
+    '''
 def getQualifiedName():
-'''public String getQualifiedName()
-'''
-pass
+    '''    public String getQualifiedName()
+    '''
 def getImportedName():
-'''public String getImportedName()
-'''
-pass
+    '''    public String getImportedName()
+    '''
 def getEnumLiteralID():
-'''public String getEnumLiteralID(final GenEnumLiteral genEnumLiteral)
-'''
-pass
+    '''    public String getEnumLiteralID(final GenEnumLiteral genEnumLiteral)
+    '''
 def getEnumLiteralValue():
-'''public int getEnumLiteralValue(final GenEnumLiteral genEnumLiteral)
-'''
-pass
+    '''    public int getEnumLiteralValue(final GenEnumLiteral genEnumLiteral)
+    '''
 def getGenEnumLiteral():
-'''public GenEnumLiteral getGenEnumLiteral(final String literalName)
-'''
-pass
+    '''    public GenEnumLiteral getGenEnumLiteral(final String literalName)
+    '''
 def getUniqueValuedGenEnumLiterals():
-'''public List getUniqueValuedGenEnumLiterals()
-'''
-pass
+    '''    public List getUniqueValuedGenEnumLiterals()
+    '''
 def isSerializable():
-'''public boolean isSerializable()
-'''
-pass
+    '''    public boolean isSerializable()
+    '''
 def initialize():
-'''public void initialize(final EEnum eEnum)
-'''
-pass
+    '''    public void initialize(final EEnum eEnum)
+    '''
 def generate():
-'''public void generate(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generate(final IProgressMonitor progressMonitor)
+    '''
 def canGenerateEdit():
-'''public boolean canGenerateEdit()
-'''
-pass
+    '''    public boolean canGenerateEdit()
+    '''
 def canGenerateEditor():
-'''public boolean canGenerateEditor()
-'''
-pass
+    '''    public boolean canGenerateEditor()
+    '''
 def reconcile():
-'''public boolean reconcile(final GenEnum oldGenEnumVersion)
-public boolean reconcile()
-'''
-pass
+    '''    public boolean reconcile(final GenEnum oldGenEnumVersion)
+    public boolean reconcile()
+    '''
 def getStaticValue():
-'''public String getStaticValue(final String literal)
-'''
-pass
+    '''    public String getStaticValue(final String literal)
+    '''

@@ -1,12 +1,9 @@
 def InvStatus():
-'''public InvStatus(final MboSet ms)
-'''
-pass
+    '''    public InvStatus(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

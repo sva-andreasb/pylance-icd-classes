@@ -1,12 +1,9 @@
 def WeatherOrganization():
-'''public WeatherOrganization(final MboSet ms)
-'''
-pass
+    '''    public WeatherOrganization(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

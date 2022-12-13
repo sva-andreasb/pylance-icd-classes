@@ -1,4 +1,3 @@
 def OslcTransactionSet():
-'''public OslcTransactionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OslcTransactionSet(final MboServerInterface ms)
+    '''

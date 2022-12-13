@@ -1,4 +1,3 @@
 def PlusPSLAContractSet():
-'''public PlusPSLAContractSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPSLAContractSet(final MboServerInterface arg0)
+    '''

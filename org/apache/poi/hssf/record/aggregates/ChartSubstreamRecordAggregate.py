@@ -1,8 +1,6 @@
 def ChartSubstreamRecordAggregate():
-'''public ChartSubstreamRecordAggregate(final RecordStream rs)
-'''
-pass
+    '''    public ChartSubstreamRecordAggregate(final RecordStream rs)
+    '''
 def visitContainedRecords():
-'''public void visitContainedRecords(final RecordVisitor rv)
-'''
-pass
+    '''    public void visitContainedRecords(final RecordVisitor rv)
+    '''

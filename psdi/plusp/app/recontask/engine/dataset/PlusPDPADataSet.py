@@ -1,4 +1,3 @@
 def getFixedTaskFilterWhereClause():
-'''public String getFixedTaskFilterWhereClause()
-'''
-pass
+    '''    public String getFixedTaskFilterWhereClause()
+    '''

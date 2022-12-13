@@ -1,12 +1,9 @@
 def createconfirm():
-'''public int createconfirm()
-'''
-pass
+    '''    public int createconfirm()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def confirmok():
-'''public int confirmok()
-'''
-pass
+    '''    public int confirmok()
+    '''

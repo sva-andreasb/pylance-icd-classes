@@ -1,8 +1,6 @@
 def FldInvUseLineSplitPLState():
-'''public FldInvUseLineSplitPLState(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUseLineSplitPLState(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,1 +1,1 @@
-DEFAULT_TYPE = "String  word""
+DEFAULT_TYPE = "String  \"word\""

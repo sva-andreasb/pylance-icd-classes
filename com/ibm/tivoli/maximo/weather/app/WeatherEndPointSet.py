@@ -1,4 +1,3 @@
 def WeatherEndPointSet():
-'''public WeatherEndPointSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WeatherEndPointSet(final MboServerInterface ms)
+    '''

@@ -1,5 +1,4 @@
 def ParseException():
-'''public ParseException()
-public ParseException(final String s)
-'''
-pass
+    '''    public ParseException()
+    public ParseException(final String s)
+    '''

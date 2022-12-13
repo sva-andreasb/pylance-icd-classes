@@ -1,8 +1,6 @@
 def PlusPToolItemSet():
-'''public PlusPToolItemSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPToolItemSet(final MboServerInterface arg0)
+    '''
 def setQbe():
-'''public void setQbe(final String s, final String s2)
-'''
-pass
+    '''    public void setQbe(final String s, final String s2)
+    '''

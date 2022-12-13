@@ -1,8 +1,6 @@
 def FldWorkTypeWOClass():
-'''public FldWorkTypeWOClass(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkTypeWOClass(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,16 +1,12 @@
 def AutoKeySet():
-'''public AutoKeySet(final MboServerInterface ms)
-'''
-pass
+    '''    public AutoKeySet(final MboServerInterface ms)
+    '''
 def addOrgAutokeys():
-'''public void addOrgAutokeys()
-'''
-pass
+    '''    public void addOrgAutokeys()
+    '''
 def addSetAutokeys():
-'''public void addSetAutokeys()
-'''
-pass
+    '''    public void addSetAutokeys()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

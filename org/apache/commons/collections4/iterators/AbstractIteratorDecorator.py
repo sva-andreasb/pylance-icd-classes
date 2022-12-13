@@ -1,4 +1,3 @@
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''

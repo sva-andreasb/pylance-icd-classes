@@ -1,8 +1,6 @@
 def OslcCoreMisusedOccursException():
-'''public OslcCoreMisusedOccursException(final Class<?> resourceClass, final Method method)
-'''
-pass
+    '''    public OslcCoreMisusedOccursException(final Class<?> resourceClass, final Method method)
+    '''
 def getMethod():
-'''public Method getMethod()
-'''
-pass
+    '''    public Method getMethod()
+    '''

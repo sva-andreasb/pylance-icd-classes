@@ -1,4 +1,3 @@
 def selectcraftrateonplans():
-'''public int selectcraftrateonplans()
-'''
-pass
+    '''    public int selectcraftrateonplans()
+    '''

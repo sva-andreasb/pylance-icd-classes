@@ -1,56 +1,42 @@
 def ModDowntimeHist():
-'''public ModDowntimeHist(final MboSet ms)
-'''
-pass
+    '''    public ModDowntimeHist(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setAssetMbo():
-'''public void setAssetMbo(final AssetRemote asset)
-'''
-pass
+    '''    public void setAssetMbo(final AssetRemote asset)
+    '''
 def getAssetMbo():
-'''public AssetRemote getAssetMbo()
-'''
-pass
+    '''    public AssetRemote getAssetMbo()
+    '''
 def getInitialDownTime():
-'''public double getInitialDownTime()
-'''
-pass
+    '''    public double getInitialDownTime()
+    '''
 def setEndAssetStatus():
-'''public void setEndAssetStatus(final MboRemote assetStatus)
-'''
-pass
+    '''    public void setEndAssetStatus(final MboRemote assetStatus)
+    '''
 def setStartAssetStatus():
-'''public void setStartAssetStatus(final MboRemote assetStatus)
-'''
-pass
+    '''    public void setStartAssetStatus(final MboRemote assetStatus)
+    '''
 def getEndAssetStatus():
-'''public MboRemote getEndAssetStatus()
-'''
-pass
+    '''    public MboRemote getEndAssetStatus()
+    '''
 def getStartAssetStatus():
-'''public MboRemote getStartAssetStatus()
-'''
-pass
+    '''    public MboRemote getStartAssetStatus()
+    '''
 def writeChangesToAssetStatus():
-'''public void writeChangesToAssetStatus()
-'''
-pass
+    '''    public void writeChangesToAssetStatus()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def makeStartAssetStatusReadonly():
-'''public void makeStartAssetStatusReadonly()
-'''
-pass
+    '''    public void makeStartAssetStatusReadonly()
+    '''
 def makeEndAssetStatusReadonly():
-'''public void makeEndAssetStatusReadonly()
-'''
-pass
+    '''    public void makeEndAssetStatusReadonly()
+    '''

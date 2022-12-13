@@ -1,12 +1,9 @@
 def FldMatRecTransLocation():
-'''public FldMatRecTransLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransLocation(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

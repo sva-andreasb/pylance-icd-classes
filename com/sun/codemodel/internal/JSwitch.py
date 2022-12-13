@@ -1,20 +1,15 @@
 def test():
-'''public JExpression test()
-'''
-pass
+    '''    public JExpression test()
+    '''
 def cases():
-'''public Iterator<JCase> cases()
-'''
-pass
+    '''    public Iterator<JCase> cases()
+    '''
 def _case():
-'''public JCase _case(final JExpression label)
-'''
-pass
+    '''    public JCase _case(final JExpression label)
+    '''
 def _default():
-'''public JCase _default()
-'''
-pass
+    '''    public JCase _default()
+    '''
 def state():
-'''public void state(final JFormatter f)
-'''
-pass
+    '''    public void state(final JFormatter f)
+    '''

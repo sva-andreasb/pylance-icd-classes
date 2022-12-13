@@ -1,20 +1,15 @@
 def SKDProjectSet():
-'''public SKDProjectSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDProjectSet(final MboServerInterface ms)
+    '''
 def getBaseLineUniqueId():
-'''public long getBaseLineUniqueId()
-'''
-pass
+    '''    public long getBaseLineUniqueId()
+    '''
 def setBaseLineUniqueId():
-'''public void setBaseLineUniqueId(final long uniqueId)
-'''
-pass
+    '''    public void setBaseLineUniqueId(final long uniqueId)
+    '''
 def getDefaultScenarioUniqueId():
-'''public long getDefaultScenarioUniqueId(final String SKDProjectName)
-'''
-pass
+    '''    public long getDefaultScenarioUniqueId(final String SKDProjectName)
+    '''
 def recalculatePercentComplete():
-'''public void recalculatePercentComplete(final SKDAppServiceBeanRemote appService, final IMXGanttModel model)
-'''
-pass
+    '''    public void recalculatePercentComplete(final SKDAppServiceBeanRemote appService, final IMXGanttModel model)
+    '''

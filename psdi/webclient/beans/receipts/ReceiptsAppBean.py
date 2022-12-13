@@ -1,36 +1,27 @@
 def SHIPRECPTS():
-'''public int SHIPRECPTS()
-'''
-pass
+    '''    public int SHIPRECPTS()
+    '''
 def APPRRCPTS():
-'''public int APPRRCPTS()
-'''
-pass
+    '''    public int APPRRCPTS()
+    '''
 def approvereceipts():
-'''public int approvereceipts()
-'''
-pass
+    '''    public int approvereceipts()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def CLEAR():
-'''public int CLEAR()
-'''
-pass
+    '''    public int CLEAR()
+    '''
 def canExit():
-'''public boolean canExit()
-'''
-pass
+    '''    public boolean canExit()
+    '''
 def wasProblemsPosted():
-'''public MboRemote wasProblemsPosted()
-'''
-pass
+    '''    public MboRemote wasProblemsPosted()
+    '''
 def removeFromPosting():
-'''public void removeFromPosting()
-'''
-pass
+    '''    public void removeFromPosting()
+    '''

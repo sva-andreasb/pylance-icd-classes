@@ -1,95 +1,73 @@
-GENERATING_WORK = "String  MEASUREPOINT.GeneratingWork""
+GENERATING_WORK = "String  \"MEASUREPOINT.GeneratingWork\""
 def MeasurePoint():
-'''public MeasurePoint(final MboSet ms)
-'''
-pass
+    '''    public MeasurePoint(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getJobPlanOrPMToGenWO():
-'''public Object getJobPlanOrPMToGenWO()
-'''
-pass
+    '''    public Object getJobPlanOrPMToGenWO()
+    '''
 def getJobPlanOrPMToGenWOForGaugeMeter():
-'''public Object getJobPlanOrPMToGenWOForGaugeMeter()
-'''
-pass
+    '''    public Object getJobPlanOrPMToGenWOForGaugeMeter()
+    '''
 def getJobPlanOrPMToGenWOForCharacteristicMeter():
-'''public Object getJobPlanOrPMToGenWOForCharacteristicMeter()
-public Object getJobPlanOrPMToGenWOForCharacteristicMeter(final MboRemote measurement)
-'''
-pass
+    '''    public Object getJobPlanOrPMToGenWOForCharacteristicMeter()
+    public Object getJobPlanOrPMToGenWOForCharacteristicMeter(final MboRemote measurement)
+    '''
 def generateWorkOrder():
-'''public void generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
-public void generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
-'''
-pass
+    '''    public void generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
+    public void generateWorkOrder(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
+    '''
 def generateWorkOrderForCharacteristicMeter():
-'''public void generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
-public void generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
-'''
-pass
+    '''    public void generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
+    public void generateWorkOrderForCharacteristicMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
+    '''
 def generateWorkOrderForGaugeMeter():
-'''public void generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
-public void generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
-'''
-pass
+    '''    public void generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria)
+    public void generateWorkOrderForGaugeMeter(final Date effectiveDate, final String memo, final boolean actionsAsCriteria, final MboRemote measurement)
+    '''
 def genWOAndPointWOFromPM():
-'''public void genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, final int priority)
-public void genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, int priority, final MboRemote measurement)
-'''
-pass
+    '''    public void genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, final int priority)
+    public void genWOAndPointWOFromPM(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String pmnum, int priority, final MboRemote measurement)
+    '''
 def genWOAndPointWOFromJobPlan():
-'''public void genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, final int priority)
-public void genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, int priority, final MboRemote measurement)
-'''
-pass
+    '''    public void genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, final int priority)
+    public void genWOAndPointWOFromJobPlan(final Date effectiveDate, final String memo, final boolean useActionLimitCriteria, final String jpnum, int priority, final MboRemote measurement)
+    '''
 def getDeployedMeter():
-'''public MboRemote getDeployedMeter()
-'''
-pass
+    '''    public MboRemote getDeployedMeter()
+    '''
 def getDeployedMeterForUpdate():
-'''public MboRemote getDeployedMeterForUpdate()
-'''
-pass
+    '''    public MboRemote getDeployedMeterForUpdate()
+    '''
 def updateMeterOnMeasureDeletion():
-'''public void updateMeterOnMeasureDeletion()
-'''
-pass
+    '''    public void updateMeterOnMeasureDeletion()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def setMoveAssetFlag():
-'''public void setMoveAssetFlag(final boolean flag)
-'''
-pass
+    '''    public void setMoveAssetFlag(final boolean flag)
+    '''
 def isChangeByUserWhenSetFromLookup():
-'''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
-'''
-pass
+    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''

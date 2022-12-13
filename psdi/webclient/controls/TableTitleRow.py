@@ -1,28 +1,21 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getRowType():
-'''public int getRowType()
-'''
-pass
+    '''    public int getRowType()
+    '''
 def sort():
-'''public int sort()
-'''
-pass
+    '''    public int sort()
+    '''
 def toggleselectallrecords():
-'''public int toggleselectallrecords()
-'''
-pass
+    '''    public int toggleselectallrecords()
+    '''
 def allrecordsselected():
-'''public String allrecordsselected()
-'''
-pass
+    '''    public String allrecordsselected()
+    '''
 def rowVisible():
-'''public boolean rowVisible()
-'''
-pass
+    '''    public boolean rowVisible()
+    '''
 def maintainControlId():
-'''public boolean maintainControlId()
-'''
-pass
+    '''    public boolean maintainControlId()
+    '''

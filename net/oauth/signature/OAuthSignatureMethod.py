@@ -1,58 +1,44 @@
-_ACCESSOR = "String  -Accessor""
+_ACCESSOR = "String  \"-Accessor\""
 def sign():
-'''public void sign(final OAuthMessage message)
-'''
-pass
+    '''    public void sign(final OAuthMessage message)
+    '''
 def validate():
-'''public void validate(final OAuthMessage message)
-'''
-pass
+    '''    public void validate(final OAuthMessage message)
+    '''
 def getTokenSecret():
-'''public String getTokenSecret()
-'''
-pass
+    '''    public String getTokenSecret()
+    '''
 def setTokenSecret():
-'''public void setTokenSecret(final String tokenSecret)
-'''
-pass
+    '''    public void setTokenSecret(final String tokenSecret)
+    '''
 def getBaseString():
-'''public static String getBaseString(final OAuthMessage message)
-'''
-pass
+    '''    public static String getBaseString(final OAuthMessage message)
+    '''
 def equals():
-'''public static boolean equals(final String x, final String y)
-public static boolean equals(final byte[] a, final byte[] b)
-'''
-pass
+    '''    public static boolean equals(final String x, final String y)
+    public static boolean equals(final byte[] a, final byte[] b)
+    '''
 def decodeBase64():
-'''public static byte[] decodeBase64(final String s)
-'''
-pass
+    '''    public static byte[] decodeBase64(final String s)
+    '''
 def base64Encode():
-'''public static String base64Encode(final byte[] b)
-'''
-pass
+    '''    public static String base64Encode(final byte[] b)
+    '''
 def newSigner():
-'''public static OAuthSignatureMethod newSigner(final OAuthMessage message, final OAuthAccessor accessor)
-'''
-pass
+    '''    public static OAuthSignatureMethod newSigner(final OAuthMessage message, final OAuthAccessor accessor)
+    '''
 def newMethod():
-'''public static OAuthSignatureMethod newMethod(final String name, final OAuthAccessor accessor)
-'''
-pass
+    '''    public static OAuthSignatureMethod newMethod(final String name, final OAuthAccessor accessor)
+    '''
 def registerMethodClass():
-'''public static void registerMethodClass(final String name, final Class clazz)
-'''
-pass
+    '''    public static void registerMethodClass(final String name, final Class clazz)
+    '''
 def unregisterMethod():
-'''public static void unregisterMethod(final String name)
-'''
-pass
+    '''    public static void unregisterMethod(final String name)
+    '''
 def compareTo():
-'''public int compareTo(final ComparableParameter that)
-'''
-pass
+    '''    public int compareTo(final ComparableParameter that)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,11 +1,9 @@
-skdprojectname = "String  skdprojectname""
-starttimeinc = "String  starttimeinc""
-endtimeinc = "String  endtimeinc""
+skdprojectname = "String  \"skdprojectname\""
+starttimeinc = "String  \"starttimeinc\""
+endtimeinc = "String  \"endtimeinc\""
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''

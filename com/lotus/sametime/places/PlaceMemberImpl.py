@@ -1,44 +1,33 @@
 def sendText():
-'''public void sendText(final String s)
-'''
-pass
+    '''    public void sendText(final String s)
+    '''
 def sendData():
-'''public void sendData(final int n, final byte[] array)
-'''
-pass
+    '''    public void sendData(final int n, final byte[] array)
+    '''
 def queryAttrContent():
-'''public void queryAttrContent(final int n)
-'''
-pass
+    '''    public void queryAttrContent(final int n)
+    '''
 def changeAttribute():
-'''public void changeAttribute(final STExtendedAttribute stExtendedAttribute)
-'''
-pass
+    '''    public void changeAttribute(final STExtendedAttribute stExtendedAttribute)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final int n)
-'''
-pass
+    '''    public void removeAttribute(final int n)
+    '''
 def getMemberId():
-'''public Integer getMemberId()
-'''
-pass
+    '''    public Integer getMemberId()
+    '''
 def getPlace():
-'''public Place getPlace()
-'''
-pass
+    '''    public Place getPlace()
+    '''
 def getAttributes():
-'''public Enumeration getAttributes()
-'''
-pass
+    '''    public Enumeration getAttributes()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def processPlacesEvent():
-'''public void processPlacesEvent(final PlacesEvent placesEvent)
-'''
-pass
+    '''    public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''

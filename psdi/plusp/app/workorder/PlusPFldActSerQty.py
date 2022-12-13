@@ -1,8 +1,6 @@
 def PlusPFldActSerQty():
-'''public PlusPFldActSerQty(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldActSerQty(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

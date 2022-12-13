@@ -1,68 +1,51 @@
 def ImportOptions():
-'''public ImportOptions()
-'''
-pass
+    '''    public ImportOptions()
+    '''
 def getColumnValueReplacements():
-'''public Map<String, String> getColumnValueReplacements()
-'''
-pass
+    '''    public Map<String, String> getColumnValueReplacements()
+    '''
 def addColumnValueReplacements():
-'''public void addColumnValueReplacements(final Map<String, String> newColumnValueReplacements)
-'''
-pass
+    '''    public void addColumnValueReplacements(final Map<String, String> newColumnValueReplacements)
+    '''
 def isNoXmlValidate():
-'''public boolean isNoXmlValidate()
-'''
-pass
+    '''    public boolean isNoXmlValidate()
+    '''
 def setNoXmlValidate():
-'''public void setNoXmlValidate(final boolean noXmlValidate)
-'''
-pass
+    '''    public void setNoXmlValidate(final boolean noXmlValidate)
+    '''
 def isValidateOnly():
-'''public boolean isValidateOnly()
-'''
-pass
+    '''    public boolean isValidateOnly()
+    '''
 def setValidateOnly():
-'''public void setValidateOnly(final boolean validateOnly)
-'''
-pass
+    '''    public void setValidateOnly(final boolean validateOnly)
+    '''
 def isDisableUpdates():
-'''public boolean isDisableUpdates()
-'''
-pass
+    '''    public boolean isDisableUpdates()
+    '''
 def setDisableUpdates():
-'''public void setDisableUpdates(final boolean disableUpdates)
-'''
-pass
+    '''    public void setDisableUpdates(final boolean disableUpdates)
+    '''
 def isContinueOnError():
-'''public boolean isContinueOnError()
-'''
-pass
+    '''    public boolean isContinueOnError()
+    '''
 def setContinueOnError():
-'''public void setContinueOnError(final boolean continueOnError)
-'''
-pass
+    '''    public void setContinueOnError(final boolean continueOnError)
+    '''
 def isUseKeyColumnsForUpdates():
-'''public boolean isUseKeyColumnsForUpdates()
-'''
-pass
+    '''    public boolean isUseKeyColumnsForUpdates()
+    '''
 def setUseKeyColumns():
-'''public void setUseKeyColumns(final boolean useKeyColumnsForUpdates)
-'''
-pass
+    '''    public void setUseKeyColumns(final boolean useKeyColumnsForUpdates)
+    '''
 def isVerbose():
-'''public boolean isVerbose()
-'''
-pass
+    '''    public boolean isVerbose()
+    '''
 def setVerbose():
-'''public void setVerbose(final boolean verbose)
-'''
-pass
+    '''    public void setVerbose(final boolean verbose)
+    '''
 def getShiftDate():
-'''public int getShiftDate()
-'''
-pass
+    '''    public int getShiftDate()
+    '''
 def setShiftDate():
-'''public void setShiftDate(final int shiftDate)
-'''
-pass
+    '''    public void setShiftDate(final int shiftDate)
+    '''

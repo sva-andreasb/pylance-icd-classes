@@ -1,8 +1,6 @@
 def PlusPFldTaxExemptCode():
-'''public PlusPFldTaxExemptCode(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTaxExemptCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

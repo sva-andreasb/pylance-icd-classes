@@ -1,61 +1,46 @@
 def Pf():
-'''public Pf(final InputStream inputStream)
-'''
-pass
+    '''    public Pf(final InputStream inputStream)
+    '''
 def readBoolean():
-'''public boolean readBoolean()
-'''
-pass
+    '''    public boolean readBoolean()
+    '''
 def readByte():
-'''public byte readByte()
-'''
-pass
+    '''    public byte readByte()
+    '''
 def readChar():
-'''public char readChar()
-'''
-pass
+    '''    public char readChar()
+    '''
 def readDouble():
-'''public double readDouble()
-'''
-pass
+    '''    public double readDouble()
+    '''
 def readFloat():
-'''public float readFloat()
-'''
-pass
+    '''    public float readFloat()
+    '''
 def readFully():
-'''public void readFully(final byte[] data)
-public void readFully(final byte[] data, final int offset, final int length)
-'''
-pass
+    '''    public void readFully(final byte[] data)
+    public void readFully(final byte[] data, final int offset, final int length)
+    '''
 def readInt():
-'''public int readInt()
-'''
-pass
+    '''    public int readInt()
+    '''
 def readLine():
-'''public String readLine()
-'''
-pass
+    '''    public String readLine()
+    '''
 def readLong():
-'''public long readLong()
-'''
-pass
+    '''    public long readLong()
+    '''
 def readShort():
-'''public short readShort()
-'''
-pass
+    '''    public short readShort()
+    '''
 def readUnsignedByte():
-'''public int readUnsignedByte()
-'''
-pass
+    '''    public int readUnsignedByte()
+    '''
 def readUnsignedShort():
-'''public int readUnsignedShort()
-'''
-pass
+    '''    public int readUnsignedShort()
+    '''
 def readUTF():
-'''public String readUTF()
-'''
-pass
+    '''    public String readUTF()
+    '''
 def skipBytes():
-'''public int skipBytes(final int count)
-'''
-pass
+    '''    public int skipBytes(final int count)
+    '''

@@ -1,8 +1,6 @@
 def relate():
-'''public int relate()
-'''
-pass
+    '''    public int relate()
+    '''
 def relateToGlobal():
-'''public int relateToGlobal()
-'''
-pass
+    '''    public int relateToGlobal()
+    '''

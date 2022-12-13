@@ -1,12 +1,9 @@
 def FldQuestionId():
-'''public FldQuestionId(final MboValue mbv)
-'''
-pass
+    '''    public FldQuestionId(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''

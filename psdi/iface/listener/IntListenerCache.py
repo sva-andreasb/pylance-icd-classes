@@ -1,30 +1,23 @@
-NAME = "String  INTLISTENER""
+NAME = "String  \"INTLISTENER\""
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstance():
-'''public static IntListenerCache getInstance()
-'''
-pass
+    '''    public static IntListenerCache getInstance()
+    '''
 def getListenerInfo():
-'''public IntListenerInfo getListenerInfo(final String objectName)
-'''
-pass
+    '''    public IntListenerInfo getListenerInfo(final String objectName)
+    '''
 def getListenerImpl():
-'''public ListenerHandler getListenerImpl(final String objectName, final IntListenerInfo info)
-'''
-pass
+    '''    public ListenerHandler getListenerImpl(final String objectName, final IntListenerInfo info)
+    '''
 def unregisterAllListeners():
-'''public void unregisterAllListeners()
-'''
-pass
+    '''    public void unregisterAllListeners()
+    '''

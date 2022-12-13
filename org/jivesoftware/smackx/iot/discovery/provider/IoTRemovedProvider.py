@@ -1,4 +1,3 @@
 def parse():
-'''public IoTRemoved parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public IoTRemoved parse(final XmlPullParser parser, final int initialDepth)
+    '''

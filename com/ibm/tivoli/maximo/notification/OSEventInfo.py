@@ -1,68 +1,51 @@
 def OSEventInfo():
-'''public OSEventInfo(final String osName, final String eventName, final String eventFilter, final boolean eventConditionAnded, final String applyTo, final boolean onAdd, final boolean onUpdate, final boolean onDelete, final String msgTemplate, final String useWith, final boolean enfOSRelations, final String msgTopic, final String templateName)
-'''
-pass
+    '''    public OSEventInfo(final String osName, final String eventName, final String eventFilter, final boolean eventConditionAnded, final String applyTo, final boolean onAdd, final boolean onUpdate, final boolean onDelete, final String msgTemplate, final String useWith, final boolean enfOSRelations, final String msgTopic, final String templateName)
+    '''
 def getTemplateName():
-'''public String getTemplateName()
-'''
-pass
+    '''    public String getTemplateName()
+    '''
 def getUseWith():
-'''public String getUseWith()
-'''
-pass
+    '''    public String getUseWith()
+    '''
 def getMsgTopic():
-'''public String getMsgTopic()
-'''
-pass
+    '''    public String getMsgTopic()
+    '''
 def isEnforceOSRelations():
-'''public boolean isEnforceOSRelations()
-'''
-pass
+    '''    public boolean isEnforceOSRelations()
+    '''
 def getMessageTemplate():
-'''public String getMessageTemplate()
-'''
-pass
+    '''    public String getMessageTemplate()
+    '''
 def getMessageTemplateInfo():
-'''public MessageTemplateInfo getMessageTemplateInfo()
-'''
-pass
+    '''    public MessageTemplateInfo getMessageTemplateInfo()
+    '''
 def isOnAdd():
-'''public boolean isOnAdd()
-'''
-pass
+    '''    public boolean isOnAdd()
+    '''
 def isOnDelete():
-'''public boolean isOnDelete()
-'''
-pass
+    '''    public boolean isOnDelete()
+    '''
 def isOnUpdate():
-'''public boolean isOnUpdate()
-'''
-pass
+    '''    public boolean isOnUpdate()
+    '''
 def getApplyTo():
-'''public String getApplyTo()
-'''
-pass
+    '''    public String getApplyTo()
+    '''
 def isEventConditionAnded():
-'''public boolean isEventConditionAnded()
-'''
-pass
+    '''    public boolean isEventConditionAnded()
+    '''
 def getOSName():
-'''public String getOSName()
-'''
-pass
+    '''    public String getOSName()
+    '''
 def getEventName():
-'''public String getEventName()
-'''
-pass
+    '''    public String getEventName()
+    '''
 def getEventFilter():
-'''public String getEventFilter()
-'''
-pass
+    '''    public String getEventFilter()
+    '''
 def getConditions():
-'''public List<OSEventConditionInfo> getConditions()
-'''
-pass
+    '''    public List<OSEventConditionInfo> getConditions()
+    '''
 def isFireEvent():
-'''public boolean isFireEvent(final MboRemote mmbo)
-'''
-pass
+    '''    public boolean isFireEvent(final MboRemote mmbo)
+    '''

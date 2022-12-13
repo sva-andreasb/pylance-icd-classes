@@ -1,5 +1,4 @@
 def HttpParseException():
-'''public HttpParseException()
-public HttpParseException(final String message)
-'''
-pass
+    '''    public HttpParseException()
+    public HttpParseException(final String message)
+    '''

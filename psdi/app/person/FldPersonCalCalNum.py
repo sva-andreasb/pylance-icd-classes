@@ -1,12 +1,9 @@
 def FldPersonCalCalNum():
-'''public FldPersonCalCalNum(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonCalCalNum(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

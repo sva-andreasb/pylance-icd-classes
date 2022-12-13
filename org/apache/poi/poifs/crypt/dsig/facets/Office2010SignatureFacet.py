@@ -1,4 +1,3 @@
 def postSign():
-'''public void postSign(final Document document)
-'''
-pass
+    '''    public void postSign(final Document document)
+    '''

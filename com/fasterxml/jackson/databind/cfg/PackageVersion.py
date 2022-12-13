@@ -1,4 +1,3 @@
 def version():
-'''public Version version()
-'''
-pass
+    '''    public Version version()
+    '''

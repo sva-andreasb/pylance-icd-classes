@@ -1,28 +1,22 @@
 def BasicScheme():
-'''public BasicScheme()
-public BasicScheme(final String challenge)
-'''
-pass
+    '''    public BasicScheme()
+    public BasicScheme(final String challenge)
+    '''
 def getSchemeName():
-'''public String getSchemeName()
-'''
-pass
+    '''    public String getSchemeName()
+    '''
 def processChallenge():
-'''public void processChallenge(final String challenge)
-'''
-pass
+    '''    public void processChallenge(final String challenge)
+    '''
 def isComplete():
-'''public boolean isComplete()
-'''
-pass
+    '''    public boolean isComplete()
+    '''
 def authenticate():
-'''public String authenticate(final Credentials credentials, final String method, final String uri)
-public String authenticate(final Credentials credentials, final HttpMethod method)
-public static String authenticate(final UsernamePasswordCredentials credentials)
-public static String authenticate(final UsernamePasswordCredentials credentials, final String charset)
-'''
-pass
+    '''    public String authenticate(final Credentials credentials, final String method, final String uri)
+    public String authenticate(final Credentials credentials, final HttpMethod method)
+    public static String authenticate(final UsernamePasswordCredentials credentials)
+    public static String authenticate(final UsernamePasswordCredentials credentials, final String charset)
+    '''
 def isConnectionBased():
-'''public boolean isConnectionBased()
-'''
-pass
+    '''    public boolean isConnectionBased()
+    '''

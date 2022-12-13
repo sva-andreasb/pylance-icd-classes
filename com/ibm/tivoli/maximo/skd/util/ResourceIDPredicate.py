@@ -1,8 +1,6 @@
 def ResourceIDPredicate():
-'''public ResourceIDPredicate(final String id)
-'''
-pass
+    '''    public ResourceIDPredicate(final String id)
+    '''
 def test():
-'''public boolean test(final IlvResource in)
-'''
-pass
+    '''    public boolean test(final IlvResource in)
+    '''

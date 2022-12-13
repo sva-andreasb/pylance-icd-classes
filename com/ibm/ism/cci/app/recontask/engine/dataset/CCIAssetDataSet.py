@@ -1,12 +1,9 @@
 def getReconLinker():
-'''public ReconLinkerI getReconLinker()
-'''
-pass
+    '''    public ReconLinkerI getReconLinker()
+    '''
 def getFixedTaskFilterWhereClause():
-'''public String getFixedTaskFilterWhereClause()
-'''
-pass
+    '''    public String getFixedTaskFilterWhereClause()
+    '''
 def getReconLinkAttributeNamesForLink():
-'''public ResultTableAttributes getReconLinkAttributeNamesForLink(final boolean isDataSet1)
-'''
-pass
+    '''    public ResultTableAttributes getReconLinkAttributeNamesForLink(final boolean isDataSet1)
+    '''

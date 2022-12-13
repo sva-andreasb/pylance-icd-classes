@@ -1,13 +1,10 @@
 def ImageArgument():
-'''public ImageArgument(final AbstractTool tool, final String name, final String description, final FileFilter filter)
-public ImageArgument(final AbstractTool tool, final String name, final String description)
-'''
-pass
+    '''    public ImageArgument(final AbstractTool tool, final String name, final String description, final FileFilter filter)
+    public ImageArgument(final AbstractTool tool, final String name, final String description)
+    '''
 def getArgument():
-'''public Object getArgument()
-'''
-pass
+    '''    public Object getArgument()
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''

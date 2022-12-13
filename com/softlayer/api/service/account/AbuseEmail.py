@@ -1,28 +1,21 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def isEmailSpecified():
-'''public boolean isEmailSpecified()
-'''
-pass
+    '''    public boolean isEmailSpecified()
+    '''
 def unsetEmail():
-'''public void unsetEmail()
-'''
-pass
+    '''    public void unsetEmail()
+    '''
 def email():
-'''public Mask email()
-'''
-pass
+    '''    public Mask email()
+    '''

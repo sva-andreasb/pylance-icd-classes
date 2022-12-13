@@ -1,24 +1,18 @@
 def PredicateSet():
-'''public PredicateSet()
-'''
-pass
+    '''    public PredicateSet()
+    '''
 def addPredicate():
-'''public void addPredicate(final Predicate predicate)
-'''
-pass
+    '''    public void addPredicate(final Predicate predicate)
+    '''
 def getPredicates():
-'''public List getPredicates()
-'''
-pass
+    '''    public List getPredicates()
+    '''
 def simplify():
-'''public void simplify()
-'''
-pass
+    '''    public void simplify()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def applyPredicate():
-'''public List applyPredicate(final Predicate predicate, final List nodes2Filter, final ContextSupport support)
-'''
-pass
+    '''    public List applyPredicate(final Predicate predicate, final List nodes2Filter, final ContextSupport support)
+    '''

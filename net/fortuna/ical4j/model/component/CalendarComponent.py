@@ -1,41 +1,31 @@
 def CalendarComponent():
-'''public CalendarComponent(final String name)
-public CalendarComponent(final String name, final PropertyList properties)
-'''
-pass
+    '''    public CalendarComponent(final String name)
+    public CalendarComponent(final String name, final PropertyList properties)
+    '''
 def validate():
-'''public final void validate(final Method method)
-'''
-pass
+    '''    public final void validate(final Method method)
+    '''
 def validatePublish():
-'''public final void validatePublish()
-'''
-pass
+    '''    public final void validatePublish()
+    '''
 def validateRequest():
-'''public final void validateRequest()
-'''
-pass
+    '''    public final void validateRequest()
+    '''
 def validateReply():
-'''public final void validateReply()
-'''
-pass
+    '''    public final void validateReply()
+    '''
 def validateAdd():
-'''public final void validateAdd()
-'''
-pass
+    '''    public final void validateAdd()
+    '''
 def validateCancel():
-'''public final void validateCancel()
-'''
-pass
+    '''    public final void validateCancel()
+    '''
 def validateRefresh():
-'''public final void validateRefresh()
-'''
-pass
+    '''    public final void validateRefresh()
+    '''
 def validateCounter():
-'''public final void validateCounter()
-'''
-pass
+    '''    public final void validateCounter()
+    '''
 def validateDeclineCounter():
-'''public final void validateDeclineCounter()
-'''
-pass
+    '''    public final void validateDeclineCounter()
+    '''

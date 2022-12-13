@@ -1,4 +1,3 @@
 def UnsupportedSchemeException():
-'''public UnsupportedSchemeException(final String message)
-'''
-pass
+    '''    public UnsupportedSchemeException(final String message)
+    '''

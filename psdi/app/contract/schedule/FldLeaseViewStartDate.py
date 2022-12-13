@@ -1,8 +1,6 @@
 def FldLeaseViewStartDate():
-'''public FldLeaseViewStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldLeaseViewStartDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,16 +1,12 @@
 def WOLinearSearch():
-'''public WOLinearSearch(final MboSet ms)
-'''
-pass
+    '''    public WOLinearSearch(final MboSet ms)
+    '''
 def clearLinearAssetFields():
-'''public void clearLinearAssetFields()
-'''
-pass
+    '''    public void clearLinearAssetFields()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setMeasureInfoEditability():
-'''public void setMeasureInfoEditability()
-'''
-pass
+    '''    public void setMeasureInfoEditability()
+    '''

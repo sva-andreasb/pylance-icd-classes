@@ -1,4 +1,3 @@
 def clearListTable():
-'''public int clearListTable()
-'''
-pass
+    '''    public int clearListTable()
+    '''

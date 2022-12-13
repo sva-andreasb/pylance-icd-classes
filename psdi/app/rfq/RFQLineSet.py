@@ -1,20 +1,15 @@
 def RFQLineSet():
-'''public RFQLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RFQLineSet(final MboServerInterface ms)
+    '''
 def awardAll():
-'''public void awardAll()
-'''
-pass
+    '''    public void awardAll()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def returnIPCParts():
-'''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
-'''
-pass
+    '''    public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''
 def preValidateIpcBom():
-'''public void preValidateIpcBom(final IpcBomSetRemote bomset)
-'''
-pass
+    '''    public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''

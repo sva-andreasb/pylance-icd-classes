@@ -1,16 +1,12 @@
 def getInstance():
-'''public static final OslcResourceTypeCache getInstance()
-'''
-pass
+    '''    public static final OslcResourceTypeCache getInstance()
+    '''
 def getResourceTypeInfo():
-'''public OslcResourceTypeInfo getResourceTypeInfo(final String resourceTypeName)
-'''
-pass
+    '''    public OslcResourceTypeInfo getResourceTypeInfo(final String resourceTypeName)
+    '''
 def getAllResourceTypes():
-'''public Map<String, OslcResourceTypeInfo> getAllResourceTypes()
-'''
-pass
+    '''    public Map<String, OslcResourceTypeInfo> getAllResourceTypes()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

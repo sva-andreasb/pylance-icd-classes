@@ -1,10 +1,8 @@
 def getTemplateSourceName():
-'''public String getTemplateSourceName()
-public String getTemplateSourceName()
-'''
-pass
+    '''    public String getTemplateSourceName()
+    public String getTemplateSourceName()
+    '''
 def isPositive():
-'''public boolean isPositive()
-public boolean isPositive()
-'''
-pass
+    '''    public boolean isPositive()
+    public boolean isPositive()
+    '''

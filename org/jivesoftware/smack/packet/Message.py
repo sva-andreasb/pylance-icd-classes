@@ -1,109 +1,85 @@
 def Message():
-'''public Message()
-public Message(final String to)
-public Message(final String to, final Type type)
-'''
-pass
+    '''    public Message()
+    public Message(final String to)
+    public Message(final String to, final Type type)
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def getSubject():
-'''public String getSubject()
-public String getSubject(final String language)
-public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    public String getSubject(final String language)
+    public String getSubject()
+    '''
 def getSubjects():
-'''public Collection<Subject> getSubjects()
-'''
-pass
+    '''    public Collection<Subject> getSubjects()
+    '''
 def setSubject():
-'''public void setSubject(final String subject)
-'''
-pass
+    '''    public void setSubject(final String subject)
+    '''
 def addSubject():
-'''public Subject addSubject(String language, final String subject)
-'''
-pass
+    '''    public Subject addSubject(String language, final String subject)
+    '''
 def removeSubject():
-'''public boolean removeSubject(String language)
-public boolean removeSubject(final Subject subject)
-'''
-pass
+    '''    public boolean removeSubject(String language)
+    public boolean removeSubject(final Subject subject)
+    '''
 def getSubjectLanguages():
-'''public Collection<String> getSubjectLanguages()
-'''
-pass
+    '''    public Collection<String> getSubjectLanguages()
+    '''
 def getBody():
-'''public String getBody()
-public String getBody(final String language)
-'''
-pass
+    '''    public String getBody()
+    public String getBody(final String language)
+    '''
 def getBodies():
-'''public Collection<Body> getBodies()
-'''
-pass
+    '''    public Collection<Body> getBodies()
+    '''
 def setBody():
-'''public void setBody(final String body)
-'''
-pass
+    '''    public void setBody(final String body)
+    '''
 def addBody():
-'''public Body addBody(String language, final String body)
-'''
-pass
+    '''    public Body addBody(String language, final String body)
+    '''
 def removeBody():
-'''public boolean removeBody(String language)
-public boolean removeBody(final Body body)
-'''
-pass
+    '''    public boolean removeBody(String language)
+    public boolean removeBody(final Body body)
+    '''
 def getBodyLanguages():
-'''public Collection<String> getBodyLanguages()
-'''
-pass
+    '''    public Collection<String> getBodyLanguages()
+    '''
 def getThread():
-'''public String getThread()
-'''
-pass
+    '''    public String getThread()
+    '''
 def setThread():
-'''public void setThread(final String thread)
-'''
-pass
+    '''    public void setThread(final String thread)
+    '''
 def getLanguage():
-'''public String getLanguage()
-public String getLanguage()
-public String getLanguage()
-'''
-pass
+    '''    public String getLanguage()
+    public String getLanguage()
+    public String getLanguage()
+    '''
 def setLanguage():
-'''public void setLanguage(final String language)
-'''
-pass
+    '''    public void setLanguage(final String language)
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-public boolean equals(final Object obj)
-public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    public boolean equals(final Object obj)
+    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def fromString():
-'''public static Type fromString(final String name)
-'''
-pass
+    '''    public static Type fromString(final String name)
+    '''

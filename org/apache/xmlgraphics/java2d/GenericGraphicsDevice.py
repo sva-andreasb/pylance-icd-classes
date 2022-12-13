@@ -1,24 +1,18 @@
 def GenericGraphicsDevice():
-'''public GenericGraphicsDevice(final GraphicsConfiguration gc)
-'''
-pass
+    '''    public GenericGraphicsDevice(final GraphicsConfiguration gc)
+    '''
 def getBestConfiguration():
-'''public GraphicsConfiguration getBestConfiguration(final GraphicsConfigTemplate gct)
-'''
-pass
+    '''    public GraphicsConfiguration getBestConfiguration(final GraphicsConfigTemplate gct)
+    '''
 def getConfigurations():
-'''public GraphicsConfiguration[] getConfigurations()
-'''
-pass
+    '''    public GraphicsConfiguration[] getConfigurations()
+    '''
 def getDefaultConfiguration():
-'''public GraphicsConfiguration getDefaultConfiguration()
-'''
-pass
+    '''    public GraphicsConfiguration getDefaultConfiguration()
+    '''
 def getIDstring():
-'''public String getIDstring()
-'''
-pass
+    '''    public String getIDstring()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''

@@ -1,49 +1,37 @@
 def DeleteObjectsResult():
-'''public DeleteObjectsResult(final List<DeletedObject> deletedObjects)
-public DeleteObjectsResult(final List<DeletedObject> deletedObjects, final boolean isRequesterCharged)
-'''
-pass
+    '''    public DeleteObjectsResult(final List<DeletedObject> deletedObjects)
+    public DeleteObjectsResult(final List<DeletedObject> deletedObjects, final boolean isRequesterCharged)
+    '''
 def getDeletedObjects():
-'''public List<DeletedObject> getDeletedObjects()
-'''
-pass
+    '''    public List<DeletedObject> getDeletedObjects()
+    '''
 def isRequesterCharged():
-'''public boolean isRequesterCharged()
-'''
-pass
+    '''    public boolean isRequesterCharged()
+    '''
 def setRequesterCharged():
-'''public void setRequesterCharged(final boolean isRequesterCharged)
-'''
-pass
+    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''
 def isDeleteMarker():
-'''public boolean isDeleteMarker()
-'''
-pass
+    '''    public boolean isDeleteMarker()
+    '''
 def setDeleteMarker():
-'''public void setDeleteMarker(final boolean deleteMarker)
-'''
-pass
+    '''    public void setDeleteMarker(final boolean deleteMarker)
+    '''
 def getDeleteMarkerVersionId():
-'''public String getDeleteMarkerVersionId()
-'''
-pass
+    '''    public String getDeleteMarkerVersionId()
+    '''
 def setDeleteMarkerVersionId():
-'''public void setDeleteMarkerVersionId(final String deleteMarkerVersionId)
-'''
-pass
+    '''    public void setDeleteMarkerVersionId(final String deleteMarkerVersionId)
+    '''

@@ -1,8 +1,6 @@
 def MultiInteractionBean():
-'''public MultiInteractionBean()
-'''
-pass
+    '''    public MultiInteractionBean()
+    '''
 def callMethod():
-'''public int callMethod(final WebClientEvent event)
-'''
-pass
+    '''    public int callMethod(final WebClientEvent event)
+    '''

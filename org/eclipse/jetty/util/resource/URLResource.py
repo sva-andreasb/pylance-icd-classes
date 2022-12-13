@@ -1,76 +1,57 @@
 def release():
-'''public synchronized void release()
-'''
-pass
+    '''    public synchronized void release()
+    '''
 def exists():
-'''public boolean exists()
-'''
-pass
+    '''    public boolean exists()
+    '''
 def isDirectory():
-'''public boolean isDirectory()
-'''
-pass
+    '''    public boolean isDirectory()
+    '''
 def lastModified():
-'''public long lastModified()
-'''
-pass
+    '''    public long lastModified()
+    '''
 def length():
-'''public long length()
-'''
-pass
+    '''    public long length()
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInputStream():
-'''public synchronized InputStream getInputStream()
-'''
-pass
+    '''    public synchronized InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def delete():
-'''public boolean delete()
-'''
-pass
+    '''    public boolean delete()
+    '''
 def renameTo():
-'''public boolean renameTo(final Resource dest)
-'''
-pass
+    '''    public boolean renameTo(final Resource dest)
+    '''
 def list():
-'''public String[] list()
-'''
-pass
+    '''    public String[] list()
+    '''
 def addPath():
-'''public Resource addPath(String path)
-'''
-pass
+    '''    public Resource addPath(String path)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getUseCaches():
-'''public boolean getUseCaches()
-'''
-pass
+    '''    public boolean getUseCaches()
+    '''
 def isContainedIn():
-'''public boolean isContainedIn(final Resource containingResource)
-'''
-pass
+    '''    public boolean isContainedIn(final Resource containingResource)
+    '''

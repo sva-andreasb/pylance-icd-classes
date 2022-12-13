@@ -1,168 +1,130 @@
-NAME_COLUMN = "String  Name""
+NAME_COLUMN = "String  \"Name\""
 def ResourceScheduleView():
-'''public ResourceScheduleView()
-'''
-pass
+    '''    public ResourceScheduleView()
+    '''
 def setResourceViewContext():
-'''public void setResourceViewContext(final ResourceViewContext context)
-'''
-pass
+    '''    public void setResourceViewContext(final ResourceViewContext context)
+    '''
 def initializeView():
-'''public Component initializeView()
-'''
-pass
+    '''    public Component initializeView()
+    '''
 def componentResized():
-'''public void componentResized(final ComponentEvent e)
-'''
-pass
+    '''    public void componentResized(final ComponentEvent e)
+    '''
 def handleMessage():
-'''public void handleMessage(final String msgId, final Object... args)
-public void handleMessage(final String msgId, final Object... args)
-'''
-pass
+    '''    public void handleMessage(final String msgId, final Object... args)
+    public void handleMessage(final String msgId, final Object... args)
+    '''
 def adjustmentValueChanged():
-'''public void adjustmentValueChanged(final AdjustmentEvent e)
-'''
-pass
+    '''    public void adjustmentValueChanged(final AdjustmentEvent e)
+    '''
 def getMenu():
-'''public JPopupMenu getMenu(final MouseEvent e)
-'''
-pass
+    '''    public JPopupMenu getMenu(final MouseEvent e)
+    '''
 def selectionChanged():
-'''public void selectionChanged(final SelectionEvent evt)
-public void selectionChanged(final ManagerSelectionChangedEvent event)
-'''
-pass
+    '''    public void selectionChanged(final SelectionEvent evt)
+    public void selectionChanged(final ManagerSelectionChangedEvent event)
+    '''
 def attachModel():
-'''public void attachModel(final AppletGanttModel model)
-'''
-pass
+    '''    public void attachModel(final AppletGanttModel model)
+    '''
 def getScheduleChart():
-'''public IlvScheduleChart getScheduleChart()
-'''
-pass
+    '''    public IlvScheduleChart getScheduleChart()
+    '''
 def addCustomerColumnsForResource():
-'''public static void addCustomerColumnsForResource(final IlvScheduleChart chart)
-'''
-pass
+    '''    public static void addCustomerColumnsForResource(final IlvScheduleChart chart)
+    '''
 def isEditable():
-'''public boolean isEditable(final IlvHierarchyNode row)
-'''
-pass
+    '''    public boolean isEditable(final IlvHierarchyNode row)
+    '''
 def mousePressed():
-'''public void mousePressed(final MouseEvent e)
-'''
-pass
+    '''    public void mousePressed(final MouseEvent e)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent e)
-public void actionPerformed(final ActionEvent event)
-public void actionPerformed(final ActionEvent event)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent e)
+    public void actionPerformed(final ActionEvent event)
+    public void actionPerformed(final ActionEvent event)
+    '''
 def contentsChanged():
-'''public void contentsChanged(final ManagerContentChangedEvent evt)
-'''
-pass
+    '''    public void contentsChanged(final ManagerContentChangedEvent evt)
+    '''
 def getChart():
-'''public IlvScheduleChart getChart()
-'''
-pass
+    '''    public IlvScheduleChart getChart()
+    '''
 def isStylable():
-'''public boolean isStylable()
-'''
-pass
+    '''    public boolean isStylable()
+    '''
 def updateReadonlyActivityGraphic():
-'''public void updateReadonlyActivityGraphic(final IlvReservationGraphic ag)
-'''
-pass
+    '''    public void updateReadonlyActivityGraphic(final IlvReservationGraphic ag)
+    '''
 def createNewAssignment():
-'''public MXActivity createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvActivity parentActivity, final long start, final long end)
-'''
-pass
+    '''    public MXActivity createNewAssignment(final SortGanttModel model, final IlvActivity activity, final IlvActivity parentActivity, final long start, final long end)
+    '''
 def ReAssignAssignment():
-'''public void ReAssignAssignment(final SortGanttModel model, final IlvActivity activity)
-'''
-pass
+    '''    public void ReAssignAssignment(final SortGanttModel model, final IlvActivity activity)
+    '''
 def reattachmodel():
-'''public void reattachmodel()
-'''
-pass
+    '''    public void reattachmodel()
+    '''
 def addLayoutMenu():
-'''public void addLayoutMenu(final JPopupMenu popupmenu)
-'''
-pass
+    '''    public void addLayoutMenu(final JPopupMenu popupmenu)
+    '''
 def print():
-'''public void print()
-'''
-pass
+    '''    public void print()
+    '''
 def printSetup():
-'''public void printSetup()
-'''
-pass
+    '''    public void printSetup()
+    '''
 def printPreview():
-'''public void printPreview()
-'''
-pass
+    '''    public void printPreview()
+    '''
 def initPrintingController():
-'''public static void initPrintingController(final IlvScheduleChart chart)
-'''
-pass
+    '''    public static void initPrintingController(final IlvScheduleChart chart)
+    '''
 def activate():
-'''public void activate()
-'''
-pass
+    '''    public void activate()
+    '''
 def deactivate():
-'''public void deactivate()
-'''
-pass
+    '''    public void deactivate()
+    '''
 def applyActivityQbeFilter():
-'''public void applyActivityQbeFilter(final Map<String, String> qbeActivityFilter)
-'''
-pass
+    '''    public void applyActivityQbeFilter(final Map<String, String> qbeActivityFilter)
+    '''
 def applyActivityQbeFilterX():
-'''public void applyActivityQbeFilterX(final Map<String, String> qbeActivityFilter)
-'''
-pass
+    '''    public void applyActivityQbeFilterX(final Map<String, String> qbeActivityFilter)
+    '''
 def applyActivityFilter():
-'''public void applyActivityFilter(final String regEx)
-'''
-pass
+    '''    public void applyActivityFilter(final String regEx)
+    '''
 def applyActivityFilterX():
-'''public void applyActivityFilterX(final String regEx)
-'''
-pass
+    '''    public void applyActivityFilterX(final String regEx)
+    '''
 def attachGanttModelToViewComponents():
-'''public void attachGanttModelToViewComponents()
-'''
-pass
+    '''    public void attachGanttModelToViewComponents()
+    '''
 def RefreshModelBasedonFilter():
-'''public void RefreshModelBasedonFilter()
-'''
-pass
+    '''    public void RefreshModelBasedonFilter()
+    '''
 def detachGanttModelFromViewComponents():
-'''public void detachGanttModelFromViewComponents()
-'''
-pass
+    '''    public void detachGanttModelFromViewComponents()
+    '''
 def getResourceChart():
-'''public IlvScheduleChart getResourceChart()
-'''
-pass
+    '''    public IlvScheduleChart getResourceChart()
+    '''
 def getChartId():
-'''public String getChartId()
-'''
-pass
+    '''    public String getChartId()
+    '''
 def getDividerComponent():
-'''public Object getDividerComponent()
-'''
-pass
+    '''    public Object getDividerComponent()
+    '''

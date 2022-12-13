@@ -1,1 +1,1 @@
-LOSSY_PREFIX = "String  lossyPrefix""
+LOSSY_PREFIX = "String  \"lossyPrefix\""

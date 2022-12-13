@@ -1,4 +1,3 @@
 def WFHelp():
-'''public WFHelp(final MboSet ms)
-'''
-pass
+    '''    public WFHelp(final MboSet ms)
+    '''

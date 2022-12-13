@@ -1,12 +1,9 @@
 def CDATASectionImpl():
-'''public CDATASectionImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
-'''
-pass
+    '''    public CDATASectionImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''

@@ -1,148 +1,111 @@
 def MaxObjectCfg():
-'''public MaxObjectCfg(final MboSet ms)
-'''
-pass
+    '''    public MaxObjectCfg(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def isModified():
-'''public boolean isModified()
-'''
-pass
+    '''    public boolean isModified()
+    '''
 def setQuickUpdate():
-'''public void setQuickUpdate(final boolean value)
-'''
-pass
+    '''    public void setQuickUpdate(final boolean value)
+    '''
 def clearNonEssentialRelatedSets():
-'''public void clearNonEssentialRelatedSets()
-'''
-pass
+    '''    public void clearNonEssentialRelatedSets()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def canUndelete():
-'''public void canUndelete()
-'''
-pass
+    '''    public void canUndelete()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def setChanged():
-'''public void setChanged()
-'''
-pass
+    '''    public void setChanged()
+    '''
 def getMaxTable():
-'''public MboRemote getMaxTable(final boolean getCfg)
-'''
-pass
+    '''    public MboRemote getMaxTable(final boolean getCfg)
+    '''
 def getMaxView():
-'''public MboRemote getMaxView(final boolean getCfg)
-'''
-pass
+    '''    public MboRemote getMaxView(final boolean getCfg)
+    '''
 def getSameAsParentObject():
-'''public MboRemote getSameAsParentObject(final String objectname)
-'''
-pass
+    '''    public MboRemote getSameAsParentObject(final String objectname)
+    '''
 def tableIsEmpty():
-'''public boolean tableIsEmpty(final String tbname)
-'''
-pass
+    '''    public boolean tableIsEmpty(final String tbname)
+    '''
 def getIndexMetaForColumn():
-'''public HashMap<String, String> getIndexMetaForColumn(final String columnname)
-'''
-pass
+    '''    public HashMap<String, String> getIndexMetaForColumn(final String columnname)
+    '''
 def checkIndexTotalLength():
-'''public void checkIndexTotalLength(MboSetRemote cols)
-'''
-pass
+    '''    public void checkIndexTotalLength(MboSetRemote cols)
+    '''
 def isTextSearchEnabled():
-'''public boolean isTextSearchEnabled()
-'''
-pass
+    '''    public boolean isTextSearchEnabled()
+    '''
 def setLoadDefaultAttributes():
-'''public void setLoadDefaultAttributes(final boolean value)
-'''
-pass
+    '''    public void setLoadDefaultAttributes(final boolean value)
+    '''
 def loadCreateTable():
-'''public void loadCreateTable()
-'''
-pass
+    '''    public void loadCreateTable()
+    '''
 def loadCreateView():
-'''public void loadCreateView()
-'''
-pass
+    '''    public void loadCreateView()
+    '''
 def setupTableOrView():
-'''public void setupTableOrView(final String attributename)
-'''
-pass
+    '''    public void setupTableOrView(final String attributename)
+    '''
 def setViewWhere():
-'''public void setViewWhere()
-'''
-pass
+    '''    public void setViewWhere()
+    '''
 def adjustViews():
-'''public void adjustViews(final MboRemote attr)
-'''
-pass
+    '''    public void adjustViews(final MboRemote attr)
+    '''
 def setMeaFlag():
-'''public void setMeaFlag(final boolean value)
-'''
-pass
+    '''    public void setMeaFlag(final boolean value)
+    '''
 def getMeaFlag():
-'''public boolean getMeaFlag()
-'''
-pass
+    '''    public boolean getMeaFlag()
+    '''
 def fireEvent():
-'''public void fireEvent(final String type)
-'''
-pass
+    '''    public void fireEvent(final String type)
+    '''
 def canNumTax():
-'''public void canNumTax(final MboRemote object)
-'''
-pass
+    '''    public void canNumTax(final MboRemote object)
+    '''
 def setTaxAttributes():
-'''public void setTaxAttributes(final int numOfTax)
-'''
-pass
+    '''    public void setTaxAttributes(final int numOfTax)
+    '''
 def getCurrentNumberOfTaxes():
-'''public int getCurrentNumberOfTaxes()
-'''
-pass
+    '''    public int getCurrentNumberOfTaxes()
+    '''
 def setCurrentNumberOfTaxes():
-'''public void setCurrentNumberOfTaxes(final int currNumberOfTaxes)
-'''
-pass
+    '''    public void setCurrentNumberOfTaxes(final int currNumberOfTaxes)
+    '''
 def setNewNumberOfTaxes():
-'''public void setNewNumberOfTaxes(final int currNumberOfTaxes)
-'''
-pass
+    '''    public void setNewNumberOfTaxes(final int currNumberOfTaxes)
+    '''
 def resetNewNumberOfTaxes():
-'''public void resetNewNumberOfTaxes(final int currNumberOfTaxes)
-'''
-pass
+    '''    public void resetNewNumberOfTaxes(final int currNumberOfTaxes)
+    '''
 def setTaxData():
-'''public void setTaxData()
-'''
-pass
+    '''    public void setTaxData()
+    '''
 def createExtensionTable():
-'''public boolean createExtensionTable()
-'''
-pass
+    '''    public boolean createExtensionTable()
+    '''

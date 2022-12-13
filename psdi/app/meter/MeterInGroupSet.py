@@ -1,4 +1,3 @@
 def MeterInGroupSet():
-'''public MeterInGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MeterInGroupSet(final MboServerInterface ms)
+    '''

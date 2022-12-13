@@ -1,123 +1,95 @@
-ELEMENT = "String  option""
-FORM_TYPE = "String  FORM_TYPE""
+ELEMENT = "String  \"option\""
+FORM_TYPE = "String  \"FORM_TYPE\""
 def FormField():
-'''public FormField(final String variable)
-public FormField()
-'''
-pass
+    '''    public FormField(final String variable)
+    public FormField()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getLabel():
-'''public String getLabel()
-public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    public String getLabel()
+    '''
 def getOptions():
-'''public List<Option> getOptions()
-'''
-pass
+    '''    public List<Option> getOptions()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getValues():
-'''public List<CharSequence> getValues()
-'''
-pass
+    '''    public List<CharSequence> getValues()
+    '''
 def getValuesAsString():
-'''public List<String> getValuesAsString()
-'''
-pass
+    '''    public List<String> getValuesAsString()
+    '''
 def getFirstValue():
-'''public String getFirstValue()
-'''
-pass
+    '''    public String getFirstValue()
+    '''
 def getFirstValueAsDate():
-'''public Date getFirstValueAsDate()
-'''
-pass
+    '''    public Date getFirstValueAsDate()
+    '''
 def getVariable():
-'''public String getVariable()
-'''
-pass
+    '''    public String getVariable()
+    '''
 def getValidateElement():
-'''public ValidateElement getValidateElement()
-'''
-pass
+    '''    public ValidateElement getValidateElement()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def setRequired():
-'''public void setRequired(final boolean required)
-'''
-pass
+    '''    public void setRequired(final boolean required)
+    '''
 def setValidateElement():
-'''public void setValidateElement(final ValidateElement validateElement)
-'''
-pass
+    '''    public void setValidateElement(final ValidateElement validateElement)
+    '''
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def addValue():
-'''public void addValue(final CharSequence value)
-public void addValue(final Date date)
-'''
-pass
+    '''    public void addValue(final CharSequence value)
+    public void addValue(final Date date)
+    '''
 def addValues():
-'''public void addValues(final List<? extends CharSequence> newValues)
-'''
-pass
+    '''    public void addValues(final List<? extends CharSequence> newValues)
+    '''
 def addOption():
-'''public void addOption(final Option option)
-'''
-pass
+    '''    public void addOption(final Option option)
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def fromString():
-'''public static Type fromString(String string)
-'''
-pass
+    '''    public static Type fromString(String string)
+    '''
 def Option():
-'''public Option(final String value)
-public Option(final String label, final String value)
-'''
-pass
+    '''    public Option(final String value)
+    public Option(final String label, final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

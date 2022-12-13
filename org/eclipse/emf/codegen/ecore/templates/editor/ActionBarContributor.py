@@ -1,13 +1,10 @@
-copyright = "String  \"""
+copyright = "String  \\"\""
 def ActionBarContributor():
-'''public ActionBarContributor()
-'''
-pass
+    '''    public ActionBarContributor()
+    '''
 def create():
-'''public static synchronized ActionBarContributor create(final String lineSeparator)
-'''
-pass
+    '''    public static synchronized ActionBarContributor create(final String lineSeparator)
+    '''
 def generate():
-'''public String generate(final Object argument)
-'''
-pass
+    '''    public String generate(final Object argument)
+    '''

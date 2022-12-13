@@ -1,20 +1,15 @@
 def PlusCFldAssetLoopLocation():
-'''public PlusCFldAssetLoopLocation(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldAssetLoopLocation(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

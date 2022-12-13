@@ -1,4 +1,3 @@
 def FldSecurityRestrictConditionNum():
-'''public FldSecurityRestrictConditionNum(final MboValue mbv)
-'''
-pass
+    '''    public FldSecurityRestrictConditionNum(final MboValue mbv)
+    '''

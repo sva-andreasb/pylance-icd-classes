@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def setValue():
-'''public synchronized void setValue(final String attribute, String value, final long accessModifier)
-'''
-pass
+    '''    public synchronized void setValue(final String attribute, String value, final long accessModifier)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

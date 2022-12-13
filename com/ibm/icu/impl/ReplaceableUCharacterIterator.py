@@ -1,42 +1,32 @@
 def ReplaceableUCharacterIterator():
-'''public ReplaceableUCharacterIterator(final Replaceable replaceable)
-public ReplaceableUCharacterIterator(final String str)
-public ReplaceableUCharacterIterator(final StringBuffer buf)
-'''
-pass
+    '''    public ReplaceableUCharacterIterator(final Replaceable replaceable)
+    public ReplaceableUCharacterIterator(final String str)
+    public ReplaceableUCharacterIterator(final StringBuffer buf)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def current():
-'''public int current()
-'''
-pass
+    '''    public int current()
+    '''
 def currentCodePoint():
-'''public int currentCodePoint()
-'''
-pass
+    '''    public int currentCodePoint()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def next():
-'''public int next()
-'''
-pass
+    '''    public int next()
+    '''
 def previous():
-'''public int previous()
-'''
-pass
+    '''    public int previous()
+    '''
 def setIndex():
-'''public void setIndex(final int currentIndex)
-'''
-pass
+    '''    public void setIndex(final int currentIndex)
+    '''
 def getText():
-'''public int getText(final char[] fillIn, final int offset)
-'''
-pass
+    '''    public int getText(final char[] fillIn, final int offset)
+    '''

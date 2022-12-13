@@ -1,8 +1,6 @@
 def CycleException():
-'''public CycleException(final String message, final List<String> cyclePath)
-'''
-pass
+    '''    public CycleException(final String message, final List<String> cyclePath)
+    '''
 def getCyclePath():
-'''public List<String> getCyclePath()
-'''
-pass
+    '''    public List<String> getCyclePath()
+    '''

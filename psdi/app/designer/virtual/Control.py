@@ -1,8 +1,6 @@
 def Control():
-'''public Control(final MboSet ms)
-'''
-pass
+    '''    public Control(final MboSet ms)
+    '''
 def getMapControlToolItemMboSet():
-'''public MapControlToolItemMboSet getMapControlToolItemMboSet()
-'''
-pass
+    '''    public MapControlToolItemMboSet getMapControlToolItemMboSet()
+    '''

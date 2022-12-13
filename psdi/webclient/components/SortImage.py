@@ -1,24 +1,18 @@
 def SortImage():
-'''public SortImage()
-'''
-pass
+    '''    public SortImage()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getTableControl():
-'''public Table getTableControl()
-'''
-pass
+    '''    public Table getTableControl()
+    '''
 def getSortOrder():
-'''public String getSortOrder()
-'''
-pass
+    '''    public String getSortOrder()
+    '''
 def getSortLabel():
-'''public String getSortLabel(final String order)
-'''
-pass
+    '''    public String getSortLabel(final String order)
+    '''
 def getSortLevel():
-'''public String getSortLevel()
-'''
-pass
+    '''    public String getSortLevel()
+    '''

@@ -1,310 +1,233 @@
-TYPE = "String  job""
+TYPE = "String  \"job\""
 def JobImpl():
-'''public JobImpl()
-'''
-pass
+    '''    public JobImpl()
+    '''
 def getInitialQueueIndex():
-'''public Integer getInitialQueueIndex()
-'''
-pass
+    '''    public Integer getInitialQueueIndex()
+    '''
 def setInitialQueueIndex():
-'''public void setInitialQueueIndex(final Integer initialQueueIndex)
-'''
-pass
+    '''    public void setInitialQueueIndex(final Integer initialQueueIndex)
+    '''
 def getCurrentQueueIndex():
-'''public Integer getCurrentQueueIndex()
-'''
-pass
+    '''    public Integer getCurrentQueueIndex()
+    '''
 def setCurrentQueueIndex():
-'''public void setCurrentQueueIndex(final Integer currentQueueIndex)
-'''
-pass
+    '''    public void setCurrentQueueIndex(final Integer currentQueueIndex)
+    '''
 def getMerged():
-'''public List<String> getMerged()
-'''
-pass
+    '''    public List<String> getMerged()
+    '''
 def addToMerged():
-'''public void addToMerged(final List<String> tomerge)
-'''
-pass
+    '''    public void addToMerged(final List<String> tomerge)
+    '''
 def getUnmergedConflicts():
-'''public List<String> getUnmergedConflicts()
-'''
-pass
+    '''    public List<String> getUnmergedConflicts()
+    '''
 def needMerge():
-'''public boolean needMerge()
-'''
-pass
+    '''    public boolean needMerge()
+    '''
 def getApplicationId():
-'''public String getApplicationId()
-'''
-pass
+    '''    public String getApplicationId()
+    '''
 def setApplicationId():
-'''public void setApplicationId(final String applicationId)
-'''
-pass
+    '''    public void setApplicationId(final String applicationId)
+    '''
 def getApplicationVersion():
-'''public String getApplicationVersion()
-'''
-pass
+    '''    public String getApplicationVersion()
+    '''
 def setApplicationVersion():
-'''public void setApplicationVersion(final String applicationVersion)
-'''
-pass
+    '''    public void setApplicationVersion(final String applicationVersion)
+    '''
 def getApplicationVersionUsed():
-'''public String getApplicationVersionUsed()
-'''
-pass
+    '''    public String getApplicationVersionUsed()
+    '''
 def setApplicationVersionUsed():
-'''public void setApplicationVersionUsed(final String applicationVersionUsed)
-'''
-pass
+    '''    public void setApplicationVersionUsed(final String applicationVersionUsed)
+    '''
 def getExecutionStatus():
-'''public JobExecutionStatus getExecutionStatus()
-'''
-pass
+    '''    public JobExecutionStatus getExecutionStatus()
+    '''
 def setExecutionStatus():
-'''public void setExecutionStatus(final JobExecutionStatus status)
-'''
-pass
+    '''    public void setExecutionStatus(final JobExecutionStatus status)
+    '''
 def getCreatedAt():
-'''public Date getCreatedAt()
-'''
-pass
+    '''    public Date getCreatedAt()
+    '''
 def setCreatedAt():
-'''public void setCreatedAt(final Date createdAt)
-'''
-pass
+    '''    public void setCreatedAt(final Date createdAt)
+    '''
 def getStartedAt():
-'''public Date getStartedAt()
-'''
-pass
+    '''    public Date getStartedAt()
+    '''
 def setStartedAt():
-'''public void setStartedAt(final Date startedAt)
-'''
-pass
+    '''    public void setStartedAt(final Date startedAt)
+    '''
 def getEndedAt():
-'''public Date getEndedAt()
-'''
-pass
+    '''    public Date getEndedAt()
+    '''
 def setEndedAt():
-'''public void setEndedAt(final Date endedAt)
-'''
-pass
+    '''    public void setEndedAt(final Date endedAt)
+    '''
 def getEndRecordedAt():
-'''public Date getEndRecordedAt()
-'''
-pass
+    '''    public Date getEndRecordedAt()
+    '''
 def setEndRecordedAt():
-'''public void setEndRecordedAt(final Date endRecordedAt)
-'''
-pass
+    '''    public void setEndRecordedAt(final Date endRecordedAt)
+    '''
 def getUpdatedAt():
-'''public Date getUpdatedAt()
-'''
-pass
+    '''    public Date getUpdatedAt()
+    '''
 def setUpdatedAt():
-'''public void setUpdatedAt(final Date updatedAt)
-'''
-pass
+    '''    public void setUpdatedAt(final Date updatedAt)
+    '''
 def getParameters():
-'''public JobParameters getParameters()
-'''
-pass
+    '''    public JobParameters getParameters()
+    '''
 def setParameter():
-'''public void setParameter(final String name, final String value)
-'''
-pass
+    '''    public void setParameter(final String name, final String value)
+    '''
 def setParameters():
-'''public void setParameters(final Map<String, String> parameters)
-public void setParameters(final JobParameters parameters)
-'''
-pass
+    '''    public void setParameters(final Map<String, String> parameters)
+    public void setParameters(final JobParameters parameters)
+    '''
 def getProcessingOwner():
-'''public String getProcessingOwner()
-'''
-pass
+    '''    public String getProcessingOwner()
+    '''
 def setProcessingOwner():
-'''public void setProcessingOwner(final String owner)
-'''
-pass
+    '''    public void setProcessingOwner(final String owner)
+    '''
 def getLastProcessingOwner():
-'''public String getLastProcessingOwner()
-'''
-pass
+    '''    public String getLastProcessingOwner()
+    '''
 def getOwner():
-'''public String getOwner()
-'''
-pass
+    '''    public String getOwner()
+    '''
 def setOwner():
-'''public void setOwner(final String owner)
-'''
-pass
+    '''    public void setOwner(final String owner)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getAttachments():
-'''public List<JobAttachment> getAttachments()
-'''
-pass
+    '''    public List<JobAttachment> getAttachments()
+    '''
 def getImplAttachments():
-'''public List<JobAttachmentImpl> getImplAttachments()
-'''
-pass
+    '''    public List<JobAttachmentImpl> getImplAttachments()
+    '''
 def setAttachments():
-'''public void setAttachments(final List<JobAttachmentImpl> attachments)
-'''
-pass
+    '''    public void setAttachments(final List<JobAttachmentImpl> attachments)
+    '''
 def getAttachment():
-'''public JobAttachmentImpl getAttachment(final String name)
-'''
-pass
+    '''    public JobAttachmentImpl getAttachment(final String name)
+    '''
 def getFailureInfo():
-'''public JobFailureInfoImpl getFailureInfo()
-'''
-pass
+    '''    public JobFailureInfoImpl getFailureInfo()
+    '''
 def setFailureInfo():
-'''public void setFailureInfo(final JobFailureInfoImpl failure)
-'''
-pass
+    '''    public void setFailureInfo(final JobFailureInfoImpl failure)
+    '''
 def getLanguage():
-'''public String getLanguage()
-'''
-pass
+    '''    public String getLanguage()
+    '''
 def setLanguage():
-'''public void setLanguage(final String language)
-'''
-pass
+    '''    public void setLanguage(final String language)
+    '''
 def getDetails():
-'''public Map<String, String> getDetails()
-'''
-pass
+    '''    public Map<String, String> getDetails()
+    '''
 def setSystemDetails():
-'''public void setSystemDetails(final Map<String, String> details)
-'''
-pass
+    '''    public void setSystemDetails(final Map<String, String> details)
+    '''
 def getSystemDetails():
-'''public Map<String, String> getSystemDetails()
-'''
-pass
+    '''    public Map<String, String> getSystemDetails()
+    '''
 def setDetails():
-'''public void setDetails(final Map<String, String> details)
-'''
-pass
+    '''    public void setDetails(final Map<String, String> details)
+    '''
 def getSolveStatus():
-'''public JobSolveStatus getSolveStatus()
-'''
-pass
+    '''    public JobSolveStatus getSolveStatus()
+    '''
 def setSolveStatus():
-'''public void setSolveStatus(final JobSolveStatus solveStatus)
-'''
-pass
+    '''    public void setSolveStatus(final JobSolveStatus solveStatus)
+    '''
 def getInterruptionStatus():
-'''public JobInterruptionStatus getInterruptionStatus()
-'''
-pass
+    '''    public JobInterruptionStatus getInterruptionStatus()
+    '''
 def setInterruptionStatus():
-'''public void setInterruptionStatus(final JobInterruptionStatus interruptionStatus)
-'''
-pass
+    '''    public void setInterruptionStatus(final JobInterruptionStatus interruptionStatus)
+    '''
 def getInterruptedAt():
-'''public Date getInterruptedAt()
-'''
-pass
+    '''    public Date getInterruptedAt()
+    '''
 def setInterruptedAt():
-'''public void setInterruptedAt(final Date interruptedAt)
-'''
-pass
+    '''    public void setInterruptedAt(final Date interruptedAt)
+    '''
 def getSubmittedAt():
-'''public Date getSubmittedAt()
-'''
-pass
+    '''    public Date getSubmittedAt()
+    '''
 def setSubmittedAt():
-'''public void setSubmittedAt(final Date submittedAt)
-'''
-pass
+    '''    public void setSubmittedAt(final Date submittedAt)
+    '''
 def getSubmittedToProcessorAt():
-'''public Date getSubmittedToProcessorAt()
-'''
-pass
+    '''    public Date getSubmittedToProcessorAt()
+    '''
 def setSubmittedToProcessorAt():
-'''public void setSubmittedToProcessorAt(final Date submittedToProcessorAt)
-'''
-pass
+    '''    public void setSubmittedToProcessorAt(final Date submittedToProcessorAt)
+    '''
 def getNbLogItems():
-'''public Long getNbLogItems()
-'''
-pass
+    '''    public Long getNbLogItems()
+    '''
 def setNbLogItems():
-'''public void setNbLogItems(final Long nbLogItems)
-'''
-pass
+    '''    public void setNbLogItems(final Long nbLogItems)
+    '''
 def getSubscription():
-'''public JobSubscriptionImpl getSubscription()
-'''
-pass
+    '''    public JobSubscriptionImpl getSubscription()
+    '''
 def setSubscription():
-'''public void setSubscription(final JobSubscriptionImpl subscription)
-'''
-pass
+    '''    public void setSubscription(final JobSubscriptionImpl subscription)
+    '''
 def getToken():
-'''public String getToken()
-'''
-pass
+    '''    public String getToken()
+    '''
 def setToken():
-'''public void setToken(final String token)
-'''
-pass
+    '''    public void setToken(final String token)
+    '''
 def getSubscriptionId():
-'''public String getSubscriptionId()
-'''
-pass
+    '''    public String getSubscriptionId()
+    '''
 def getApiClient():
-'''public JobApiClientImpl getApiClient()
-'''
-pass
+    '''    public JobApiClientImpl getApiClient()
+    '''
 def setApiClient():
-'''public void setApiClient(final JobApiClientImpl apiClient)
-'''
-pass
+    '''    public void setApiClient(final JobApiClientImpl apiClient)
+    '''
 def getSubscriber():
-'''public JobSubscriberImpl getSubscriber()
-'''
-pass
+    '''    public JobSubscriberImpl getSubscriber()
+    '''
 def setSubscriber():
-'''public void setSubscriber(final JobSubscriberImpl subscriber)
-'''
-pass
+    '''    public void setSubscriber(final JobSubscriberImpl subscriber)
+    '''
 def getStorageVersion():
-'''public int getStorageVersion()
-'''
-pass
+    '''    public int getStorageVersion()
+    '''
 def setStorageVersion():
-'''public void setStorageVersion(final int storageVersion)
-'''
-pass
+    '''    public void setStorageVersion(final int storageVersion)
+    '''
 def getLastDetails():
-'''public JobDetailsImpl getLastDetails()
-'''
-pass
+    '''    public JobDetailsImpl getLastDetails()
+    '''
 def setLastDetails():
-'''public void setLastDetails(final JobDetailsImpl lastDetails)
-'''
-pass
+    '''    public void setLastDetails(final JobDetailsImpl lastDetails)
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def isIgnoreJobCount():
-'''public boolean isIgnoreJobCount()
-'''
-pass
+    '''    public boolean isIgnoreJobCount()
+    '''
 def setIgnoreJobCount():
-'''public void setIgnoreJobCount(final boolean ignoreJobCount)
-'''
-pass
+    '''    public void setIgnoreJobCount(final boolean ignoreJobCount)
+    '''
 def getEmailForNotification():
-'''public String getEmailForNotification()
-'''
-pass
+    '''    public String getEmailForNotification()
+    '''

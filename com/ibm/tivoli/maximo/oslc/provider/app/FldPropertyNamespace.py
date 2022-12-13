@@ -1,12 +1,9 @@
 def FldPropertyNamespace():
-'''public FldPropertyNamespace(final MboValue mbv)
-'''
-pass
+    '''    public FldPropertyNamespace(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

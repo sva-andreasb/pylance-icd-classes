@@ -1,16 +1,12 @@
 def create():
-'''public static <I> RegistryBuilder<I> create()
-'''
-pass
+    '''    public static <I> RegistryBuilder<I> create()
+    '''
 def register():
-'''public RegistryBuilder<I> register(final String id, final I item)
-'''
-pass
+    '''    public RegistryBuilder<I> register(final String id, final I item)
+    '''
 def build():
-'''public Registry<I> build()
-'''
-pass
+    '''    public Registry<I> build()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

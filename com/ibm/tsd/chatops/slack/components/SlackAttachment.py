@@ -1,104 +1,78 @@
 def setColor():
-'''public void setColor(final String color)
-'''
-pass
+    '''    public void setColor(final String color)
+    '''
 def setPretext():
-'''public void setPretext(final String pretext)
-'''
-pass
+    '''    public void setPretext(final String pretext)
+    '''
 def setAuthorName():
-'''public void setAuthorName(final String authorName)
-'''
-pass
+    '''    public void setAuthorName(final String authorName)
+    '''
 def setAuthorLink():
-'''public void setAuthorLink(final String authorLink)
-'''
-pass
+    '''    public void setAuthorLink(final String authorLink)
+    '''
 def setAuthorIcon():
-'''public void setAuthorIcon(final String authorIcon)
-'''
-pass
+    '''    public void setAuthorIcon(final String authorIcon)
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def setTitleLink():
-'''public void setTitleLink(final String titleLink)
-'''
-pass
+    '''    public void setTitleLink(final String titleLink)
+    '''
 def setText():
-'''public void setText(final String text)
-'''
-pass
+    '''    public void setText(final String text)
+    '''
 def setFields():
-'''public void setFields(final JSONArray fields)
-'''
-pass
+    '''    public void setFields(final JSONArray fields)
+    '''
 def setThumUrl():
-'''public void setThumUrl(final String thumUrl)
-'''
-pass
+    '''    public void setThumUrl(final String thumUrl)
+    '''
 def setFooter():
-'''public void setFooter(final String footer)
-'''
-pass
+    '''    public void setFooter(final String footer)
+    '''
 def setFooterIcon():
-'''public void setFooterIcon(final String footerIcon)
-'''
-pass
+    '''    public void setFooterIcon(final String footerIcon)
+    '''
 def setTS():
-'''public void setTS(final int ts)
-'''
-pass
+    '''    public void setTS(final int ts)
+    '''
 def getColor():
-'''public String getColor()
-'''
-pass
+    '''    public String getColor()
+    '''
 def getPretext():
-'''public String getPretext()
-'''
-pass
+    '''    public String getPretext()
+    '''
 def getAuthorName():
-'''public String getAuthorName()
-'''
-pass
+    '''    public String getAuthorName()
+    '''
 def getAuthorLink():
-'''public String getAuthorLink()
-'''
-pass
+    '''    public String getAuthorLink()
+    '''
 def getAuthorIcon():
-'''public String getAuthorIcon()
-'''
-pass
+    '''    public String getAuthorIcon()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getTitleLink():
-'''public String getTitleLink()
-'''
-pass
+    '''    public String getTitleLink()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getFields():
-'''public String getFields()
-'''
-pass
+    '''    public String getFields()
+    '''
 def getThumUrl():
-'''public String getThumUrl()
-'''
-pass
+    '''    public String getThumUrl()
+    '''
 def getFooter():
-'''public String getFooter()
-'''
-pass
+    '''    public String getFooter()
+    '''
 def getFooterIcon():
-'''public String getFooterIcon()
-'''
-pass
+    '''    public String getFooterIcon()
+    '''
 def getTS():
-'''public String getTS()
-'''
-pass
+    '''    public String getTS()
+    '''

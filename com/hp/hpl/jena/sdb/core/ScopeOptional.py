@@ -1,28 +1,21 @@
 def ScopeOptional():
-'''public ScopeOptional(final Scope subScope)
-'''
-pass
+    '''    public ScopeOptional(final Scope subScope)
+    '''
 def findScopeForVar():
-'''public ScopeEntry findScopeForVar(final Var var)
-'''
-pass
+    '''    public ScopeEntry findScopeForVar(final Var var)
+    '''
 def getVars():
-'''public Set<Var> getVars()
-'''
-pass
+    '''    public Set<Var> getVars()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def findScopes():
-'''public Set<ScopeEntry> findScopes()
-'''
-pass
+    '''    public Set<ScopeEntry> findScopes()
+    '''
 def hasColumnForVar():
-'''public boolean hasColumnForVar(final Var var)
-'''
-pass
+    '''    public boolean hasColumnForVar(final Var var)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

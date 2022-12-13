@@ -1,8 +1,6 @@
 def FldLaborTotalDailyTime():
-'''public FldLaborTotalDailyTime(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborTotalDailyTime(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

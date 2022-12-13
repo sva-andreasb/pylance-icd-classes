@@ -1,20 +1,15 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def getBean():
-'''public Component getBean()
-'''
-pass
+    '''    public Component getBean()
+    '''

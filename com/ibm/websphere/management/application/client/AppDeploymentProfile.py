@@ -1,28 +1,21 @@
 def getProfile():
-'''public static Vector getProfile(final long op)
-'''
-pass
+    '''    public static Vector getProfile(final long op)
+    '''
 def getHidden():
-'''public static Vector getHidden(final long op)
-'''
-pass
+    '''    public static Vector getHidden(final long op)
+    '''
 def getHiddenProfile():
-'''public Vector getHiddenProfile()
-'''
-pass
+    '''    public Vector getHiddenProfile()
+    '''
 def getDeployEJBProfile():
-'''public static Vector getDeployEJBProfile()
-'''
-pass
+    '''    public static Vector getDeployEJBProfile()
+    '''
 def getDeployWSProfile():
-'''public static Vector getDeployWSProfile()
-'''
-pass
+    '''    public static Vector getDeployWSProfile()
+    '''
 def DeplOption():
-'''public DeplOption(final String n, final Object d, final long a, final long r, final EAttribute at)
-'''
-pass
+    '''    public DeplOption(final String n, final Object d, final long a, final long r, final EAttribute at)
+    '''
 def setHidden():
-'''public void setHidden(final boolean b)
-'''
-pass
+    '''    public void setHidden(final boolean b)
+    '''

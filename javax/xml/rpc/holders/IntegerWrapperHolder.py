@@ -1,5 +1,4 @@
 def IntegerWrapperHolder():
-'''public IntegerWrapperHolder()
-public IntegerWrapperHolder(final Integer value)
-'''
-pass
+    '''    public IntegerWrapperHolder()
+    public IntegerWrapperHolder(final Integer value)
+    '''

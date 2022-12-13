@@ -1,12 +1,9 @@
 def FldInvUseLineFromBin():
-'''public FldInvUseLineFromBin(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUseLineFromBin(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

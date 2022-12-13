@@ -1,4 +1,3 @@
 def initialize():
-'''public void initialize(final Element controlElement)
-'''
-pass
+    '''    public void initialize(final Element controlElement)
+    '''

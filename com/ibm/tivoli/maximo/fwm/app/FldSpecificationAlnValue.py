@@ -1,8 +1,6 @@
 def FldSpecificationAlnValue():
-'''public FldSpecificationAlnValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSpecificationAlnValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

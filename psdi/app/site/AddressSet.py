@@ -1,4 +1,3 @@
 def AddressSet():
-'''public AddressSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AddressSet(final MboServerInterface ms)
+    '''

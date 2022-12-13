@@ -1,28 +1,21 @@
 def WOModelLocBean():
-'''public WOModelLocBean()
-'''
-pass
+    '''    public WOModelLocBean()
+    '''
 def eventAddSelection():
-'''public void eventAddSelection()
-'''
-pass
+    '''    public void eventAddSelection()
+    '''
 def eventRemoveSelection():
-'''public void eventRemoveSelection()
-'''
-pass
+    '''    public void eventRemoveSelection()
+    '''
 def getMainTree():
-'''public WOTreeBaseBean getMainTree()
-'''
-pass
+    '''    public WOTreeBaseBean getMainTree()
+    '''
 def setMainTree():
-'''public void setMainTree(final WOTreeBaseBean mainTree)
-'''
-pass
+    '''    public void setMainTree(final WOTreeBaseBean mainTree)
+    '''
 def getMultiTree():
-'''public WOTreeBaseBean getMultiTree()
-'''
-pass
+    '''    public WOTreeBaseBean getMultiTree()
+    '''
 def setMultiTree():
-'''public void setMultiTree(final WOTreeBaseBean multiTree)
-'''
-pass
+    '''    public void setMultiTree(final WOTreeBaseBean multiTree)
+    '''

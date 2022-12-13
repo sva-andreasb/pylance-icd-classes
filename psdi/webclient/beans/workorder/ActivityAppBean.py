@@ -1,16 +1,12 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def selectpredtasks():
-'''public int selectpredtasks()
-'''
-pass
+    '''    public int selectpredtasks()
+    '''
 def appSupportsRepairFacilities():
-'''public boolean appSupportsRepairFacilities()
-'''
-pass
+    '''    public boolean appSupportsRepairFacilities()
+    '''
 def pmcom_launch():
-'''public void pmcom_launch()
-'''
-pass
+    '''    public void pmcom_launch()
+    '''

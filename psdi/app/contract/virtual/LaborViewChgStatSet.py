@@ -1,4 +1,3 @@
 def LaborViewChgStatSet():
-'''public LaborViewChgStatSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LaborViewChgStatSet(final MboServerInterface ms)
+    '''

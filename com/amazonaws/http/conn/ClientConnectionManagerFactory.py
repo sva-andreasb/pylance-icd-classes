@@ -1,8 +1,6 @@
 def wrap():
-'''public static HttpClientConnectionManager wrap(final HttpClientConnectionManager orig)
-'''
-pass
+    '''    public static HttpClientConnectionManager wrap(final HttpClientConnectionManager orig)
+    '''
 def invoke():
-'''public Object invoke(final Object proxy, final Method method, final Object[] args)
-'''
-pass
+    '''    public Object invoke(final Object proxy, final Method method, final Object[] args)
+    '''

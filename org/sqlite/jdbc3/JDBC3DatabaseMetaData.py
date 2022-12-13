@@ -1,723 +1,543 @@
 def getConnection():
-'''public Connection getConnection()
-'''
-pass
+    '''    public Connection getConnection()
+    '''
 def getDatabaseMajorVersion():
-'''public int getDatabaseMajorVersion()
-'''
-pass
+    '''    public int getDatabaseMajorVersion()
+    '''
 def getDatabaseMinorVersion():
-'''public int getDatabaseMinorVersion()
-'''
-pass
+    '''    public int getDatabaseMinorVersion()
+    '''
 def getDriverMajorVersion():
-'''public int getDriverMajorVersion()
-'''
-pass
+    '''    public int getDriverMajorVersion()
+    '''
 def getDriverMinorVersion():
-'''public int getDriverMinorVersion()
-'''
-pass
+    '''    public int getDriverMinorVersion()
+    '''
 def getJDBCMajorVersion():
-'''public int getJDBCMajorVersion()
-'''
-pass
+    '''    public int getJDBCMajorVersion()
+    '''
 def getJDBCMinorVersion():
-'''public int getJDBCMinorVersion()
-'''
-pass
+    '''    public int getJDBCMinorVersion()
+    '''
 def getDefaultTransactionIsolation():
-'''public int getDefaultTransactionIsolation()
-'''
-pass
+    '''    public int getDefaultTransactionIsolation()
+    '''
 def getMaxBinaryLiteralLength():
-'''public int getMaxBinaryLiteralLength()
-'''
-pass
+    '''    public int getMaxBinaryLiteralLength()
+    '''
 def getMaxCatalogNameLength():
-'''public int getMaxCatalogNameLength()
-'''
-pass
+    '''    public int getMaxCatalogNameLength()
+    '''
 def getMaxCharLiteralLength():
-'''public int getMaxCharLiteralLength()
-'''
-pass
+    '''    public int getMaxCharLiteralLength()
+    '''
 def getMaxColumnNameLength():
-'''public int getMaxColumnNameLength()
-'''
-pass
+    '''    public int getMaxColumnNameLength()
+    '''
 def getMaxColumnsInGroupBy():
-'''public int getMaxColumnsInGroupBy()
-'''
-pass
+    '''    public int getMaxColumnsInGroupBy()
+    '''
 def getMaxColumnsInIndex():
-'''public int getMaxColumnsInIndex()
-'''
-pass
+    '''    public int getMaxColumnsInIndex()
+    '''
 def getMaxColumnsInOrderBy():
-'''public int getMaxColumnsInOrderBy()
-'''
-pass
+    '''    public int getMaxColumnsInOrderBy()
+    '''
 def getMaxColumnsInSelect():
-'''public int getMaxColumnsInSelect()
-'''
-pass
+    '''    public int getMaxColumnsInSelect()
+    '''
 def getMaxColumnsInTable():
-'''public int getMaxColumnsInTable()
-'''
-pass
+    '''    public int getMaxColumnsInTable()
+    '''
 def getMaxConnections():
-'''public int getMaxConnections()
-'''
-pass
+    '''    public int getMaxConnections()
+    '''
 def getMaxCursorNameLength():
-'''public int getMaxCursorNameLength()
-'''
-pass
+    '''    public int getMaxCursorNameLength()
+    '''
 def getMaxIndexLength():
-'''public int getMaxIndexLength()
-'''
-pass
+    '''    public int getMaxIndexLength()
+    '''
 def getMaxProcedureNameLength():
-'''public int getMaxProcedureNameLength()
-'''
-pass
+    '''    public int getMaxProcedureNameLength()
+    '''
 def getMaxRowSize():
-'''public int getMaxRowSize()
-'''
-pass
+    '''    public int getMaxRowSize()
+    '''
 def getMaxSchemaNameLength():
-'''public int getMaxSchemaNameLength()
-'''
-pass
+    '''    public int getMaxSchemaNameLength()
+    '''
 def getMaxStatementLength():
-'''public int getMaxStatementLength()
-'''
-pass
+    '''    public int getMaxStatementLength()
+    '''
 def getMaxStatements():
-'''public int getMaxStatements()
-'''
-pass
+    '''    public int getMaxStatements()
+    '''
 def getMaxTableNameLength():
-'''public int getMaxTableNameLength()
-'''
-pass
+    '''    public int getMaxTableNameLength()
+    '''
 def getMaxTablesInSelect():
-'''public int getMaxTablesInSelect()
-'''
-pass
+    '''    public int getMaxTablesInSelect()
+    '''
 def getMaxUserNameLength():
-'''public int getMaxUserNameLength()
-'''
-pass
+    '''    public int getMaxUserNameLength()
+    '''
 def getResultSetHoldability():
-'''public int getResultSetHoldability()
-'''
-pass
+    '''    public int getResultSetHoldability()
+    '''
 def getSQLStateType():
-'''public int getSQLStateType()
-'''
-pass
+    '''    public int getSQLStateType()
+    '''
 def getDatabaseProductName():
-'''public String getDatabaseProductName()
-'''
-pass
+    '''    public String getDatabaseProductName()
+    '''
 def getDatabaseProductVersion():
-'''public String getDatabaseProductVersion()
-'''
-pass
+    '''    public String getDatabaseProductVersion()
+    '''
 def getDriverName():
-'''public String getDriverName()
-'''
-pass
+    '''    public String getDriverName()
+    '''
 def getDriverVersion():
-'''public String getDriverVersion()
-'''
-pass
+    '''    public String getDriverVersion()
+    '''
 def getExtraNameCharacters():
-'''public String getExtraNameCharacters()
-'''
-pass
+    '''    public String getExtraNameCharacters()
+    '''
 def getCatalogSeparator():
-'''public String getCatalogSeparator()
-'''
-pass
+    '''    public String getCatalogSeparator()
+    '''
 def getCatalogTerm():
-'''public String getCatalogTerm()
-'''
-pass
+    '''    public String getCatalogTerm()
+    '''
 def getSchemaTerm():
-'''public String getSchemaTerm()
-'''
-pass
+    '''    public String getSchemaTerm()
+    '''
 def getProcedureTerm():
-'''public String getProcedureTerm()
-'''
-pass
+    '''    public String getProcedureTerm()
+    '''
 def getSearchStringEscape():
-'''public String getSearchStringEscape()
-'''
-pass
+    '''    public String getSearchStringEscape()
+    '''
 def getIdentifierQuoteString():
-'''public String getIdentifierQuoteString()
-'''
-pass
+    '''    public String getIdentifierQuoteString()
+    '''
 def getSQLKeywords():
-'''public String getSQLKeywords()
-'''
-pass
+    '''    public String getSQLKeywords()
+    '''
 def getNumericFunctions():
-'''public String getNumericFunctions()
-'''
-pass
+    '''    public String getNumericFunctions()
+    '''
 def getStringFunctions():
-'''public String getStringFunctions()
-'''
-pass
+    '''    public String getStringFunctions()
+    '''
 def getSystemFunctions():
-'''public String getSystemFunctions()
-'''
-pass
+    '''    public String getSystemFunctions()
+    '''
 def getTimeDateFunctions():
-'''public String getTimeDateFunctions()
-'''
-pass
+    '''    public String getTimeDateFunctions()
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def allProceduresAreCallable():
-'''public boolean allProceduresAreCallable()
-'''
-pass
+    '''    public boolean allProceduresAreCallable()
+    '''
 def allTablesAreSelectable():
-'''public boolean allTablesAreSelectable()
-'''
-pass
+    '''    public boolean allTablesAreSelectable()
+    '''
 def dataDefinitionCausesTransactionCommit():
-'''public boolean dataDefinitionCausesTransactionCommit()
-'''
-pass
+    '''    public boolean dataDefinitionCausesTransactionCommit()
+    '''
 def dataDefinitionIgnoredInTransactions():
-'''public boolean dataDefinitionIgnoredInTransactions()
-'''
-pass
+    '''    public boolean dataDefinitionIgnoredInTransactions()
+    '''
 def doesMaxRowSizeIncludeBlobs():
-'''public boolean doesMaxRowSizeIncludeBlobs()
-'''
-pass
+    '''    public boolean doesMaxRowSizeIncludeBlobs()
+    '''
 def deletesAreDetected():
-'''public boolean deletesAreDetected(final int type)
-'''
-pass
+    '''    public boolean deletesAreDetected(final int type)
+    '''
 def insertsAreDetected():
-'''public boolean insertsAreDetected(final int type)
-'''
-pass
+    '''    public boolean insertsAreDetected(final int type)
+    '''
 def isCatalogAtStart():
-'''public boolean isCatalogAtStart()
-'''
-pass
+    '''    public boolean isCatalogAtStart()
+    '''
 def locatorsUpdateCopy():
-'''public boolean locatorsUpdateCopy()
-'''
-pass
+    '''    public boolean locatorsUpdateCopy()
+    '''
 def nullPlusNonNullIsNull():
-'''public boolean nullPlusNonNullIsNull()
-'''
-pass
+    '''    public boolean nullPlusNonNullIsNull()
+    '''
 def nullsAreSortedAtEnd():
-'''public boolean nullsAreSortedAtEnd()
-'''
-pass
+    '''    public boolean nullsAreSortedAtEnd()
+    '''
 def nullsAreSortedAtStart():
-'''public boolean nullsAreSortedAtStart()
-'''
-pass
+    '''    public boolean nullsAreSortedAtStart()
+    '''
 def nullsAreSortedHigh():
-'''public boolean nullsAreSortedHigh()
-'''
-pass
+    '''    public boolean nullsAreSortedHigh()
+    '''
 def nullsAreSortedLow():
-'''public boolean nullsAreSortedLow()
-'''
-pass
+    '''    public boolean nullsAreSortedLow()
+    '''
 def othersDeletesAreVisible():
-'''public boolean othersDeletesAreVisible(final int type)
-'''
-pass
+    '''    public boolean othersDeletesAreVisible(final int type)
+    '''
 def othersInsertsAreVisible():
-'''public boolean othersInsertsAreVisible(final int type)
-'''
-pass
+    '''    public boolean othersInsertsAreVisible(final int type)
+    '''
 def othersUpdatesAreVisible():
-'''public boolean othersUpdatesAreVisible(final int type)
-'''
-pass
+    '''    public boolean othersUpdatesAreVisible(final int type)
+    '''
 def ownDeletesAreVisible():
-'''public boolean ownDeletesAreVisible(final int type)
-'''
-pass
+    '''    public boolean ownDeletesAreVisible(final int type)
+    '''
 def ownInsertsAreVisible():
-'''public boolean ownInsertsAreVisible(final int type)
-'''
-pass
+    '''    public boolean ownInsertsAreVisible(final int type)
+    '''
 def ownUpdatesAreVisible():
-'''public boolean ownUpdatesAreVisible(final int type)
-'''
-pass
+    '''    public boolean ownUpdatesAreVisible(final int type)
+    '''
 def storesLowerCaseIdentifiers():
-'''public boolean storesLowerCaseIdentifiers()
-'''
-pass
+    '''    public boolean storesLowerCaseIdentifiers()
+    '''
 def storesLowerCaseQuotedIdentifiers():
-'''public boolean storesLowerCaseQuotedIdentifiers()
-'''
-pass
+    '''    public boolean storesLowerCaseQuotedIdentifiers()
+    '''
 def storesMixedCaseIdentifiers():
-'''public boolean storesMixedCaseIdentifiers()
-'''
-pass
+    '''    public boolean storesMixedCaseIdentifiers()
+    '''
 def storesMixedCaseQuotedIdentifiers():
-'''public boolean storesMixedCaseQuotedIdentifiers()
-'''
-pass
+    '''    public boolean storesMixedCaseQuotedIdentifiers()
+    '''
 def storesUpperCaseIdentifiers():
-'''public boolean storesUpperCaseIdentifiers()
-'''
-pass
+    '''    public boolean storesUpperCaseIdentifiers()
+    '''
 def storesUpperCaseQuotedIdentifiers():
-'''public boolean storesUpperCaseQuotedIdentifiers()
-'''
-pass
+    '''    public boolean storesUpperCaseQuotedIdentifiers()
+    '''
 def supportsAlterTableWithAddColumn():
-'''public boolean supportsAlterTableWithAddColumn()
-'''
-pass
+    '''    public boolean supportsAlterTableWithAddColumn()
+    '''
 def supportsAlterTableWithDropColumn():
-'''public boolean supportsAlterTableWithDropColumn()
-'''
-pass
+    '''    public boolean supportsAlterTableWithDropColumn()
+    '''
 def supportsANSI92EntryLevelSQL():
-'''public boolean supportsANSI92EntryLevelSQL()
-'''
-pass
+    '''    public boolean supportsANSI92EntryLevelSQL()
+    '''
 def supportsANSI92FullSQL():
-'''public boolean supportsANSI92FullSQL()
-'''
-pass
+    '''    public boolean supportsANSI92FullSQL()
+    '''
 def supportsANSI92IntermediateSQL():
-'''public boolean supportsANSI92IntermediateSQL()
-'''
-pass
+    '''    public boolean supportsANSI92IntermediateSQL()
+    '''
 def supportsBatchUpdates():
-'''public boolean supportsBatchUpdates()
-'''
-pass
+    '''    public boolean supportsBatchUpdates()
+    '''
 def supportsCatalogsInDataManipulation():
-'''public boolean supportsCatalogsInDataManipulation()
-'''
-pass
+    '''    public boolean supportsCatalogsInDataManipulation()
+    '''
 def supportsCatalogsInIndexDefinitions():
-'''public boolean supportsCatalogsInIndexDefinitions()
-'''
-pass
+    '''    public boolean supportsCatalogsInIndexDefinitions()
+    '''
 def supportsCatalogsInPrivilegeDefinitions():
-'''public boolean supportsCatalogsInPrivilegeDefinitions()
-'''
-pass
+    '''    public boolean supportsCatalogsInPrivilegeDefinitions()
+    '''
 def supportsCatalogsInProcedureCalls():
-'''public boolean supportsCatalogsInProcedureCalls()
-'''
-pass
+    '''    public boolean supportsCatalogsInProcedureCalls()
+    '''
 def supportsCatalogsInTableDefinitions():
-'''public boolean supportsCatalogsInTableDefinitions()
-'''
-pass
+    '''    public boolean supportsCatalogsInTableDefinitions()
+    '''
 def supportsColumnAliasing():
-'''public boolean supportsColumnAliasing()
-'''
-pass
+    '''    public boolean supportsColumnAliasing()
+    '''
 def supportsConvert():
-'''public boolean supportsConvert()
-public boolean supportsConvert(final int fromType, final int toType)
-'''
-pass
+    '''    public boolean supportsConvert()
+    public boolean supportsConvert(final int fromType, final int toType)
+    '''
 def supportsCorrelatedSubqueries():
-'''public boolean supportsCorrelatedSubqueries()
-'''
-pass
+    '''    public boolean supportsCorrelatedSubqueries()
+    '''
 def supportsDataDefinitionAndDataManipulationTransactions():
-'''public boolean supportsDataDefinitionAndDataManipulationTransactions()
-'''
-pass
+    '''    public boolean supportsDataDefinitionAndDataManipulationTransactions()
+    '''
 def supportsDataManipulationTransactionsOnly():
-'''public boolean supportsDataManipulationTransactionsOnly()
-'''
-pass
+    '''    public boolean supportsDataManipulationTransactionsOnly()
+    '''
 def supportsDifferentTableCorrelationNames():
-'''public boolean supportsDifferentTableCorrelationNames()
-'''
-pass
+    '''    public boolean supportsDifferentTableCorrelationNames()
+    '''
 def supportsExpressionsInOrderBy():
-'''public boolean supportsExpressionsInOrderBy()
-'''
-pass
+    '''    public boolean supportsExpressionsInOrderBy()
+    '''
 def supportsMinimumSQLGrammar():
-'''public boolean supportsMinimumSQLGrammar()
-'''
-pass
+    '''    public boolean supportsMinimumSQLGrammar()
+    '''
 def supportsCoreSQLGrammar():
-'''public boolean supportsCoreSQLGrammar()
-'''
-pass
+    '''    public boolean supportsCoreSQLGrammar()
+    '''
 def supportsExtendedSQLGrammar():
-'''public boolean supportsExtendedSQLGrammar()
-'''
-pass
+    '''    public boolean supportsExtendedSQLGrammar()
+    '''
 def supportsLimitedOuterJoins():
-'''public boolean supportsLimitedOuterJoins()
-'''
-pass
+    '''    public boolean supportsLimitedOuterJoins()
+    '''
 def supportsFullOuterJoins():
-'''public boolean supportsFullOuterJoins()
-'''
-pass
+    '''    public boolean supportsFullOuterJoins()
+    '''
 def supportsGetGeneratedKeys():
-'''public boolean supportsGetGeneratedKeys()
-'''
-pass
+    '''    public boolean supportsGetGeneratedKeys()
+    '''
 def supportsGroupBy():
-'''public boolean supportsGroupBy()
-'''
-pass
+    '''    public boolean supportsGroupBy()
+    '''
 def supportsGroupByBeyondSelect():
-'''public boolean supportsGroupByBeyondSelect()
-'''
-pass
+    '''    public boolean supportsGroupByBeyondSelect()
+    '''
 def supportsGroupByUnrelated():
-'''public boolean supportsGroupByUnrelated()
-'''
-pass
+    '''    public boolean supportsGroupByUnrelated()
+    '''
 def supportsIntegrityEnhancementFacility():
-'''public boolean supportsIntegrityEnhancementFacility()
-'''
-pass
+    '''    public boolean supportsIntegrityEnhancementFacility()
+    '''
 def supportsLikeEscapeClause():
-'''public boolean supportsLikeEscapeClause()
-'''
-pass
+    '''    public boolean supportsLikeEscapeClause()
+    '''
 def supportsMixedCaseIdentifiers():
-'''public boolean supportsMixedCaseIdentifiers()
-'''
-pass
+    '''    public boolean supportsMixedCaseIdentifiers()
+    '''
 def supportsMixedCaseQuotedIdentifiers():
-'''public boolean supportsMixedCaseQuotedIdentifiers()
-'''
-pass
+    '''    public boolean supportsMixedCaseQuotedIdentifiers()
+    '''
 def supportsMultipleOpenResults():
-'''public boolean supportsMultipleOpenResults()
-'''
-pass
+    '''    public boolean supportsMultipleOpenResults()
+    '''
 def supportsMultipleResultSets():
-'''public boolean supportsMultipleResultSets()
-'''
-pass
+    '''    public boolean supportsMultipleResultSets()
+    '''
 def supportsMultipleTransactions():
-'''public boolean supportsMultipleTransactions()
-'''
-pass
+    '''    public boolean supportsMultipleTransactions()
+    '''
 def supportsNamedParameters():
-'''public boolean supportsNamedParameters()
-'''
-pass
+    '''    public boolean supportsNamedParameters()
+    '''
 def supportsNonNullableColumns():
-'''public boolean supportsNonNullableColumns()
-'''
-pass
+    '''    public boolean supportsNonNullableColumns()
+    '''
 def supportsOpenCursorsAcrossCommit():
-'''public boolean supportsOpenCursorsAcrossCommit()
-'''
-pass
+    '''    public boolean supportsOpenCursorsAcrossCommit()
+    '''
 def supportsOpenCursorsAcrossRollback():
-'''public boolean supportsOpenCursorsAcrossRollback()
-'''
-pass
+    '''    public boolean supportsOpenCursorsAcrossRollback()
+    '''
 def supportsOpenStatementsAcrossCommit():
-'''public boolean supportsOpenStatementsAcrossCommit()
-'''
-pass
+    '''    public boolean supportsOpenStatementsAcrossCommit()
+    '''
 def supportsOpenStatementsAcrossRollback():
-'''public boolean supportsOpenStatementsAcrossRollback()
-'''
-pass
+    '''    public boolean supportsOpenStatementsAcrossRollback()
+    '''
 def supportsOrderByUnrelated():
-'''public boolean supportsOrderByUnrelated()
-'''
-pass
+    '''    public boolean supportsOrderByUnrelated()
+    '''
 def supportsOuterJoins():
-'''public boolean supportsOuterJoins()
-'''
-pass
+    '''    public boolean supportsOuterJoins()
+    '''
 def supportsPositionedDelete():
-'''public boolean supportsPositionedDelete()
-'''
-pass
+    '''    public boolean supportsPositionedDelete()
+    '''
 def supportsPositionedUpdate():
-'''public boolean supportsPositionedUpdate()
-'''
-pass
+    '''    public boolean supportsPositionedUpdate()
+    '''
 def supportsResultSetConcurrency():
-'''public boolean supportsResultSetConcurrency(final int t, final int c)
-'''
-pass
+    '''    public boolean supportsResultSetConcurrency(final int t, final int c)
+    '''
 def supportsResultSetHoldability():
-'''public boolean supportsResultSetHoldability(final int h)
-'''
-pass
+    '''    public boolean supportsResultSetHoldability(final int h)
+    '''
 def supportsResultSetType():
-'''public boolean supportsResultSetType(final int t)
-'''
-pass
+    '''    public boolean supportsResultSetType(final int t)
+    '''
 def supportsSavepoints():
-'''public boolean supportsSavepoints()
-'''
-pass
+    '''    public boolean supportsSavepoints()
+    '''
 def supportsSchemasInDataManipulation():
-'''public boolean supportsSchemasInDataManipulation()
-'''
-pass
+    '''    public boolean supportsSchemasInDataManipulation()
+    '''
 def supportsSchemasInIndexDefinitions():
-'''public boolean supportsSchemasInIndexDefinitions()
-'''
-pass
+    '''    public boolean supportsSchemasInIndexDefinitions()
+    '''
 def supportsSchemasInPrivilegeDefinitions():
-'''public boolean supportsSchemasInPrivilegeDefinitions()
-'''
-pass
+    '''    public boolean supportsSchemasInPrivilegeDefinitions()
+    '''
 def supportsSchemasInProcedureCalls():
-'''public boolean supportsSchemasInProcedureCalls()
-'''
-pass
+    '''    public boolean supportsSchemasInProcedureCalls()
+    '''
 def supportsSchemasInTableDefinitions():
-'''public boolean supportsSchemasInTableDefinitions()
-'''
-pass
+    '''    public boolean supportsSchemasInTableDefinitions()
+    '''
 def supportsSelectForUpdate():
-'''public boolean supportsSelectForUpdate()
-'''
-pass
+    '''    public boolean supportsSelectForUpdate()
+    '''
 def supportsStatementPooling():
-'''public boolean supportsStatementPooling()
-'''
-pass
+    '''    public boolean supportsStatementPooling()
+    '''
 def supportsStoredProcedures():
-'''public boolean supportsStoredProcedures()
-'''
-pass
+    '''    public boolean supportsStoredProcedures()
+    '''
 def supportsSubqueriesInComparisons():
-'''public boolean supportsSubqueriesInComparisons()
-'''
-pass
+    '''    public boolean supportsSubqueriesInComparisons()
+    '''
 def supportsSubqueriesInExists():
-'''public boolean supportsSubqueriesInExists()
-'''
-pass
+    '''    public boolean supportsSubqueriesInExists()
+    '''
 def supportsSubqueriesInIns():
-'''public boolean supportsSubqueriesInIns()
-'''
-pass
+    '''    public boolean supportsSubqueriesInIns()
+    '''
 def supportsSubqueriesInQuantifieds():
-'''public boolean supportsSubqueriesInQuantifieds()
-'''
-pass
+    '''    public boolean supportsSubqueriesInQuantifieds()
+    '''
 def supportsTableCorrelationNames():
-'''public boolean supportsTableCorrelationNames()
-'''
-pass
+    '''    public boolean supportsTableCorrelationNames()
+    '''
 def supportsTransactionIsolationLevel():
-'''public boolean supportsTransactionIsolationLevel(final int level)
-'''
-pass
+    '''    public boolean supportsTransactionIsolationLevel(final int level)
+    '''
 def supportsTransactions():
-'''public boolean supportsTransactions()
-'''
-pass
+    '''    public boolean supportsTransactions()
+    '''
 def supportsUnion():
-'''public boolean supportsUnion()
-'''
-pass
+    '''    public boolean supportsUnion()
+    '''
 def supportsUnionAll():
-'''public boolean supportsUnionAll()
-'''
-pass
+    '''    public boolean supportsUnionAll()
+    '''
 def updatesAreDetected():
-'''public boolean updatesAreDetected(final int type)
-'''
-pass
+    '''    public boolean updatesAreDetected(final int type)
+    '''
 def usesLocalFilePerTable():
-'''public boolean usesLocalFilePerTable()
-'''
-pass
+    '''    public boolean usesLocalFilePerTable()
+    '''
 def usesLocalFiles():
-'''public boolean usesLocalFiles()
-'''
-pass
+    '''    public boolean usesLocalFiles()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''
 def getAttributes():
-'''public ResultSet getAttributes(final String c, final String s, final String t, final String a)
-'''
-pass
+    '''    public ResultSet getAttributes(final String c, final String s, final String t, final String a)
+    '''
 def getBestRowIdentifier():
-'''public ResultSet getBestRowIdentifier(final String c, final String s, final String t, final int scope, final boolean n)
-'''
-pass
+    '''    public ResultSet getBestRowIdentifier(final String c, final String s, final String t, final int scope, final boolean n)
+    '''
 def getColumnPrivileges():
-'''public ResultSet getColumnPrivileges(final String c, final String s, final String t, final String colPat)
-'''
-pass
+    '''    public ResultSet getColumnPrivileges(final String c, final String s, final String t, final String colPat)
+    '''
 def getColumns():
-'''public ResultSet getColumns(final String c, final String s, final String tblNamePattern, final String colNamePattern)
-public String[] getColumns()
-'''
-pass
+    '''    public ResultSet getColumns(final String c, final String s, final String tblNamePattern, final String colNamePattern)
+    public String[] getColumns()
+    '''
 def getCrossReference():
-'''public ResultSet getCrossReference(final String pc, final String ps, final String pt, final String fc, final String fs, final String ft)
-'''
-pass
+    '''    public ResultSet getCrossReference(final String pc, final String ps, final String pt, final String fc, final String fs, final String ft)
+    '''
 def getSchemas():
-'''public ResultSet getSchemas()
-'''
-pass
+    '''    public ResultSet getSchemas()
+    '''
 def getCatalogs():
-'''public ResultSet getCatalogs()
-'''
-pass
+    '''    public ResultSet getCatalogs()
+    '''
 def getPrimaryKeys():
-'''public ResultSet getPrimaryKeys(final String c, final String s, final String table)
-'''
-pass
+    '''    public ResultSet getPrimaryKeys(final String c, final String s, final String table)
+    '''
 def getExportedKeys():
-'''public ResultSet getExportedKeys(String catalog, String schema, final String table)
-'''
-pass
+    '''    public ResultSet getExportedKeys(String catalog, String schema, final String table)
+    '''
 def getImportedKeys():
-'''public ResultSet getImportedKeys(final String catalog, final String schema, final String table)
-'''
-pass
+    '''    public ResultSet getImportedKeys(final String catalog, final String schema, final String table)
+    '''
 def getIndexInfo():
-'''public ResultSet getIndexInfo(final String c, final String s, final String table, final boolean u, final boolean approximate)
-'''
-pass
+    '''    public ResultSet getIndexInfo(final String c, final String s, final String table, final boolean u, final boolean approximate)
+    '''
 def getProcedureColumns():
-'''public ResultSet getProcedureColumns(final String c, final String s, final String p, final String colPat)
-'''
-pass
+    '''    public ResultSet getProcedureColumns(final String c, final String s, final String p, final String colPat)
+    '''
 def getProcedures():
-'''public ResultSet getProcedures(final String c, final String s, final String p)
-'''
-pass
+    '''    public ResultSet getProcedures(final String c, final String s, final String p)
+    '''
 def getSuperTables():
-'''public ResultSet getSuperTables(final String c, final String s, final String t)
-'''
-pass
+    '''    public ResultSet getSuperTables(final String c, final String s, final String t)
+    '''
 def getSuperTypes():
-'''public ResultSet getSuperTypes(final String c, final String s, final String t)
-'''
-pass
+    '''    public ResultSet getSuperTypes(final String c, final String s, final String t)
+    '''
 def getTablePrivileges():
-'''public ResultSet getTablePrivileges(final String c, final String s, final String t)
-'''
-pass
+    '''    public ResultSet getTablePrivileges(final String c, final String s, final String t)
+    '''
 def getTables():
-'''public synchronized ResultSet getTables(final String c, final String s, String tblNamePattern, final String[] types)
-'''
-pass
+    '''    public synchronized ResultSet getTables(final String c, final String s, String tblNamePattern, final String[] types)
+    '''
 def getTableTypes():
-'''public ResultSet getTableTypes()
-'''
-pass
+    '''    public ResultSet getTableTypes()
+    '''
 def getTypeInfo():
-'''public ResultSet getTypeInfo()
-'''
-pass
+    '''    public ResultSet getTypeInfo()
+    '''
 def getUDTs():
-'''public ResultSet getUDTs(final String c, final String s, final String t, final int[] types)
-'''
-pass
+    '''    public ResultSet getUDTs(final String c, final String s, final String t, final int[] types)
+    '''
 def getVersionColumns():
-'''public ResultSet getVersionColumns(final String c, final String s, final String t)
-'''
-pass
+    '''    public ResultSet getVersionColumns(final String c, final String s, final String t)
+    '''
 def getGeneratedKeys():
-'''public ResultSet getGeneratedKeys()
-'''
-pass
+    '''    public ResultSet getGeneratedKeys()
+    '''
 def createStruct():
-'''public Struct createStruct(final String t, final Object[] attr)
-'''
-pass
+    '''    public Struct createStruct(final String t, final Object[] attr)
+    '''
 def getFunctionColumns():
-'''public ResultSet getFunctionColumns(final String a, final String b, final String c, final String d)
-'''
-pass
+    '''    public ResultSet getFunctionColumns(final String a, final String b, final String c, final String d)
+    '''
 def PrimaryKeyFinder():
-'''public PrimaryKeyFinder(final String table)
-'''
-pass
+    '''    public PrimaryKeyFinder(final String table)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def ImportedKeyFinder():
-'''public ImportedKeyFinder(final String table)
-'''
-pass
+    '''    public ImportedKeyFinder(final String table)
+    '''
 def getFkTableName():
-'''public String getFkTableName()
-public String getFkTableName()
-'''
-pass
+    '''    public String getFkTableName()
+    public String getFkTableName()
+    '''
 def getFkList():
-'''public List<ForeignKey> getFkList()
-'''
-pass
+    '''    public List<ForeignKey> getFkList()
+    '''
 def getFkName():
-'''public String getFkName()
-'''
-pass
+    '''    public String getFkName()
+    '''
 def getColumnMapping():
-'''public String[] getColumnMapping(final int colSeq)
-'''
-pass
+    '''    public String[] getColumnMapping(final int colSeq)
+    '''
 def getColumnMappingCount():
-'''public int getColumnMappingCount()
-'''
-pass
+    '''    public int getColumnMappingCount()
+    '''
 def getPkTableName():
-'''public String getPkTableName()
-'''
-pass
+    '''    public String getPkTableName()
+    '''
 def getOnUpdate():
-'''public String getOnUpdate()
-'''
-pass
+    '''    public String getOnUpdate()
+    '''
 def getOnDelete():
-'''public String getOnDelete()
-'''
-pass
+    '''    public String getOnDelete()
+    '''
 def getMatch():
-'''public String getMatch()
-'''
-pass
+    '''    public String getMatch()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

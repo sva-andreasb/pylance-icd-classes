@@ -1,48 +1,36 @@
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''
 def addpackage():
-'''public int addpackage()
-'''
-pass
+    '''    public int addpackage()
+    '''
 def completedeploy():
-'''public int completedeploy()
-'''
-pass
+    '''    public int completedeploy()
+    '''
 def redistributePkg():
-'''public int redistributePkg()
-'''
-pass
+    '''    public int redistributePkg()
+    '''
 def distributePkg():
-'''public int distributePkg()
-'''
-pass
+    '''    public int distributePkg()
+    '''
 def closePkg():
-'''public int closePkg()
-'''
-pass
+    '''    public int closePkg()
+    '''
 def downloadpkg():
-'''public int downloadpkg()
-'''
-pass
+    '''    public int downloadpkg()
+    '''
 def continueCreatePackage():
-'''public int continueCreatePackage()
-'''
-pass
+    '''    public int continueCreatePackage()
+    '''
 def contDistributePkg():
-'''public int contDistributePkg()
-'''
-pass
+    '''    public int contDistributePkg()
+    '''
 def toggledeleterow():
-'''public int toggledeleterow()
-'''
-pass
+    '''    public int toggledeleterow()
+    '''
 def downloadpreview():
-'''public int downloadpreview()
-'''
-pass
+    '''    public int downloadpreview()
+    '''
 def downloadscript():
-'''public int downloadscript()
-'''
-pass
+    '''    public int downloadscript()
+    '''

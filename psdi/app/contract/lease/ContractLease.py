@@ -1,4 +1,3 @@
 def ContractLease():
-'''public ContractLease(final MboSet ms)
-'''
-pass
+    '''    public ContractLease(final MboSet ms)
+    '''

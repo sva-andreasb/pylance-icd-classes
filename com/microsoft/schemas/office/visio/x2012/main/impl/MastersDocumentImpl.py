@@ -1,16 +1,12 @@
 def MastersDocumentImpl():
-'''public MastersDocumentImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public MastersDocumentImpl(final SchemaType schemaType)
+    '''
 def getMasters():
-'''public MastersType getMasters()
-'''
-pass
+    '''    public MastersType getMasters()
+    '''
 def setMasters():
-'''public void setMasters(final MastersType mastersType)
-'''
-pass
+    '''    public void setMasters(final MastersType mastersType)
+    '''
 def addNewMasters():
-'''public MastersType addNewMasters()
-'''
-pass
+    '''    public MastersType addNewMasters()
+    '''

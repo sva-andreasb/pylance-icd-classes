@@ -1,51 +1,39 @@
 SHARED = "int  0"
 NOT_SHARED = "int  1"
 def ExternalCacheGroup():
-'''public ExternalCacheGroup(final String id, final int type)
-'''
-pass
+    '''    public ExternalCacheGroup(final String id, final int type)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def addExternalCacheAdapter():
-'''public void addExternalCacheAdapter(final String address, final String beanName)
-'''
-pass
+    '''    public void addExternalCacheAdapter(final String address, final String beanName)
+    '''
 def removeExternalCacheAdapter():
-'''public void removeExternalCacheAdapter(final String address)
-'''
-pass
+    '''    public void removeExternalCacheAdapter(final String address)
+    '''
 def invalidatePages():
-'''public void invalidatePages(final ValueSet urlValueSet)
-'''
-pass
+    '''    public void invalidatePages(final ValueSet urlValueSet)
+    '''
 def invalidateIds():
-'''public void invalidateIds(final HashMap ids)
-public void invalidateIds(final HashSet ids)
-'''
-pass
+    '''    public void invalidateIds(final HashMap ids)
+    public void invalidateIds(final HashSet ids)
+    '''
 def clear():
-'''public void clear(final InvalidateByTemplateEvent ie)
-'''
-pass
+    '''    public void clear(final InvalidateByTemplateEvent ie)
+    '''
 def invalidateTemplate():
-'''public void invalidateTemplate(final InvalidateByTemplateEvent ie)
-'''
-pass
+    '''    public void invalidateTemplate(final InvalidateByTemplateEvent ie)
+    '''
 def writePages():
-'''public void writePages(final ArrayList contentVector)
-'''
-pass
+    '''    public void writePages(final ArrayList contentVector)
+    '''
 def preInvoke():
-'''public void preInvoke(final ServletCacheRequest req, final HttpServletResponse resp)
-'''
-pass
+    '''    public void preInvoke(final ServletCacheRequest req, final HttpServletResponse resp)
+    '''
 def postInvoke():
-'''public void postInvoke(final ServletCacheRequest req, final HttpServletResponse resp)
-'''
-pass
+    '''    public void postInvoke(final ServletCacheRequest req, final HttpServletResponse resp)
+    '''

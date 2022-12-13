@@ -1,10 +1,8 @@
 def _ids():
-'''public String[] _ids()
-'''
-pass
+    '''    public String[] _ids()
+    '''
 def append():
-'''public Appendable append(final char c)
-public Appendable append(final CharSequence charSequence)
-public Appendable append(final CharSequence charSequence, final int n, final int n2)
-'''
-pass
+    '''    public Appendable append(final char c)
+    public Appendable append(final CharSequence charSequence)
+    public Appendable append(final CharSequence charSequence, final int n, final int n2)
+    '''

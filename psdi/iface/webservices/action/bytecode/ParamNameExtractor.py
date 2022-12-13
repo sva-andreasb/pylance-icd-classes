@@ -1,4 +1,3 @@
 def getParameterNamesFromDebugInfo():
-'''public static String[] getParameterNamesFromDebugInfo(final Method method)
-'''
-pass
+    '''    public static String[] getParameterNamesFromDebugInfo(final Method method)
+    '''

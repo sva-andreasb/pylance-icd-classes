@@ -1,17 +1,13 @@
 def getValue():
-'''public int getValue(final int n)
-'''
-pass
+    '''    public int getValue(final int n)
+    '''
 def getValues():
-'''public int[] getValues()
-'''
-pass
+    '''    public int[] getValues()
+    '''
 def getChronology():
-'''public Chronology getChronology()
-'''
-pass
+    '''    public Chronology getChronology()
+    '''
 def toString():
-'''public String toString(final String s)
-public String toString(final String s, final Locale locale)
-'''
-pass
+    '''    public String toString(final String s)
+    public String toString(final String s, final Locale locale)
+    '''

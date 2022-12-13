@@ -1,60 +1,45 @@
 def MapFacade():
-'''public MapFacade(final FWMActionsFacade actions)
-'''
-pass
+    '''    public MapFacade(final FWMActionsFacade actions)
+    '''
 def compare():
-'''public int compare(final JSONObject o1, final JSONObject o2)
-'''
-pass
+    '''    public int compare(final JSONObject o1, final JSONObject o2)
+    '''
 def onRouteError():
-'''public void onRouteError(final String errorCode)
-'''
-pass
+    '''    public void onRouteError(final String errorCode)
+    '''
 def drawCallback():
-'''public void drawCallback(final String json)
-'''
-pass
+    '''    public void drawCallback(final String json)
+    '''
 def convertActivityToAssignmentJson():
-'''public JSONObject convertActivityToAssignmentJson(final MXActivity activity)
-'''
-pass
+    '''    public JSONObject convertActivityToAssignmentJson(final MXActivity activity)
+    '''
 def convertResourceToJson():
-'''public JSONObject convertResourceToJson(final MXResource activity)
-'''
-pass
+    '''    public JSONObject convertResourceToJson(final MXResource activity)
+    '''
 def updateRoutes():
-'''public void updateRoutes(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
-'''
-pass
+    '''    public void updateRoutes(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
+    '''
 def clearCache():
-'''public void clearCache()
-'''
-pass
+    '''    public void clearCache()
+    '''
 def clearRoutes():
-'''public void clearRoutes()
-'''
-pass
+    '''    public void clearRoutes()
+    '''
 def refreshRoutes():
-'''public void refreshRoutes(final IlvGanttModel ganttModel)
-'''
-pass
+    '''    public void refreshRoutes(final IlvGanttModel ganttModel)
+    '''
 def updateUnassignedWOs():
-'''public void updateUnassignedWOs(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
-'''
-pass
+    '''    public void updateUnassignedWOs(final IlvTimeInterval visibleTimeInterval, final IlvGanttModel ganttModel, final JSONObject refreshOptions)
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''

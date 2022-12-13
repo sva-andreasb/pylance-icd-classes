@@ -1,8 +1,6 @@
 def process():
-'''public String process(final String s, String personID)
-'''
-pass
+    '''    public String process(final String s, String personID)
+    '''
 def help():
-'''public String help()
-'''
-pass
+    '''    public String help()
+    '''

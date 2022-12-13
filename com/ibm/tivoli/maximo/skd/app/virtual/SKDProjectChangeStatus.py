@@ -1,8 +1,6 @@
 def SKDProjectChangeStatus():
-'''public SKDProjectChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public SKDProjectChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

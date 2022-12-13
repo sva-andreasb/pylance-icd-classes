@@ -1,4 +1,3 @@
 def ReportAdHocCalcSet():
-'''public ReportAdHocCalcSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportAdHocCalcSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def updated():
-'''public void updated(final SubjectSubscription subscription, final SubjectValue[] values)
-'''
-pass
+    '''    public void updated(final SubjectSubscription subscription, final SubjectValue[] values)
+    '''
 def getSubjects():
-'''public SubjectInfo[] getSubjects()
-'''
-pass
+    '''    public SubjectInfo[] getSubjects()
+    '''

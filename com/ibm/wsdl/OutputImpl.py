@@ -1,33 +1,25 @@
 serialVersionUID = "long  1L"
 def OutputImpl():
-'''public OutputImpl()
-'''
-pass
+    '''    public OutputImpl()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setMessage():
-'''public void setMessage(final Message message)
-'''
-pass
+    '''    public void setMessage(final Message message)
+    '''
 def getMessage():
-'''public Message getMessage()
-'''
-pass
+    '''    public Message getMessage()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

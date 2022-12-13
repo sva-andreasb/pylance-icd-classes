@@ -1,4 +1,3 @@
 def FldAppIntMainObject():
-'''public FldAppIntMainObject(final MboValue mbv)
-'''
-pass
+    '''    public FldAppIntMainObject(final MboValue mbv)
+    '''

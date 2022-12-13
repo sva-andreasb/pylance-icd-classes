@@ -1,8 +1,6 @@
 def FRETURN():
-'''public FRETURN()
-'''
-pass
+    '''    public FRETURN()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

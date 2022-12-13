@@ -1,16 +1,12 @@
 def ShiftPatternDay():
-'''public ShiftPatternDay(final MboSet ms)
-'''
-pass
+    '''    public ShiftPatternDay(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def patternDayToInt():
-'''public int patternDayToInt()
-'''
-pass
+    '''    public int patternDayToInt()
+    '''

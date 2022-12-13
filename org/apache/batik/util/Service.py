@@ -1,4 +1,3 @@
 def providers():
-'''public static synchronized Iterator providers(final Class cls)
-'''
-pass
+    '''    public static synchronized Iterator providers(final Class cls)
+    '''

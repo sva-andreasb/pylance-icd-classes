@@ -1,8 +1,6 @@
 def JSONResourceAPISet():
-'''public JSONResourceAPISet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONResourceAPISet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

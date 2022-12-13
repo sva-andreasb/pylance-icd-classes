@@ -1,4 +1,3 @@
 def TKTempltActySpecSet():
-'''public TKTempltActySpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TKTempltActySpecSet(final MboServerInterface ms)
+    '''

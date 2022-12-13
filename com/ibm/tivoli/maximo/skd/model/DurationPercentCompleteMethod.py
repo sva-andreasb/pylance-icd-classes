@@ -1,8 +1,6 @@
 def DurationPercentCompleteMethod():
-'''public DurationPercentCompleteMethod(final String pcCol, final String durCol)
-'''
-pass
+    '''    public DurationPercentCompleteMethod(final String pcCol, final String durCol)
+    '''
 def updatePercentCompleteSummary():
-'''public boolean updatePercentCompleteSummary(final IMXActivity mxa, final List<IMXActivity> children)
-'''
-pass
+    '''    public boolean updatePercentCompleteSummary(final IMXActivity mxa, final List<IMXActivity> children)
+    '''

@@ -1,16 +1,12 @@
 def IlvFacesGanttPropertyAccessor():
-'''public IlvFacesGanttPropertyAccessor()
-'''
-pass
+    '''    public IlvFacesGanttPropertyAccessor()
+    '''
 def getProperties():
-'''public Map<String, String> getProperties(final IlvHierarchyChart ilvHierarchyChart, final Object o)
-'''
-pass
+    '''    public Map<String, String> getProperties(final IlvHierarchyChart ilvHierarchyChart, final Object o)
+    '''
 def setProperties():
-'''public Map setProperties(final IlvHierarchyChart ilvHierarchyChart, final Object o, final Map map)
-'''
-pass
+    '''    public Map setProperties(final IlvHierarchyChart ilvHierarchyChart, final Object o, final Map map)
+    '''
 def registerType():
-'''public final void registerType(final Class clazz, final String str, final Class clazz2)
-'''
-pass
+    '''    public final void registerType(final Class clazz, final String str, final Class clazz2)
+    '''

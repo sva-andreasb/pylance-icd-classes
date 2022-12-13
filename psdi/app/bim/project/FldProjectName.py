@@ -1,8 +1,6 @@
 def FldProjectName():
-'''public FldProjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldProjectName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

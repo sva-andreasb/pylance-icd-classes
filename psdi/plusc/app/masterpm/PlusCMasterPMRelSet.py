@@ -1,4 +1,3 @@
 def PlusCMasterPMRelSet():
-'''public PlusCMasterPMRelSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCMasterPMRelSet(final MboServerInterface ms)
+    '''

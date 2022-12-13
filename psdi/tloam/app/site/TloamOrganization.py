@@ -1,8 +1,6 @@
 def TloamOrganization():
-'''public TloamOrganization(final MboSet ms)
-'''
-pass
+    '''    public TloamOrganization(final MboSet ms)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

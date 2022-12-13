@@ -1,20 +1,15 @@
 def DefaultUnionExpr():
-'''public DefaultUnionExpr(final Expr lhs, final Expr rhs)
-'''
-pass
+    '''    public DefaultUnionExpr(final Expr lhs, final Expr rhs)
+    '''
 def getOperator():
-'''public String getOperator()
-'''
-pass
+    '''    public String getOperator()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def evaluate():
-'''public Object evaluate(final Context context)
-'''
-pass
+    '''    public Object evaluate(final Context context)
+    '''
 def accept():
-'''public void accept(final Visitor visitor)
-'''
-pass
+    '''    public void accept(final Visitor visitor)
+    '''

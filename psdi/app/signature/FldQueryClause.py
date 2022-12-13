@@ -1,9 +1,7 @@
 def FldQueryClause():
-'''public FldQueryClause()
-public FldQueryClause(final MboValue mbv)
-'''
-pass
+    '''    public FldQueryClause()
+    public FldQueryClause(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

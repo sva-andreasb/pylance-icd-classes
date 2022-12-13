@@ -1,122 +1,94 @@
 def SelectorManager():
-'''public SelectorManager()
-'''
-pass
+    '''    public SelectorManager()
+    '''
 def setMaxIdleTime():
-'''public void setMaxIdleTime(final long maxIdleTime)
-'''
-pass
+    '''    public void setMaxIdleTime(final long maxIdleTime)
+    '''
 def setSelectSets():
-'''public void setSelectSets(final int selectSets)
-'''
-pass
+    '''    public void setSelectSets(final int selectSets)
+    '''
 def getMaxIdleTime():
-'''public long getMaxIdleTime()
-'''
-pass
+    '''    public long getMaxIdleTime()
+    '''
 def getSelectSets():
-'''public int getSelectSets()
-'''
-pass
+    '''    public int getSelectSets()
+    '''
 def getSelectSet():
-'''public SelectSet getSelectSet(final int i)
-'''
-pass
+    '''    public SelectSet getSelectSet(final int i)
+    '''
 def register():
-'''public void register(final SocketChannel channel, final Object att)
-public void register(final SocketChannel channel)
-public void register(final ServerSocketChannel acceptChannel)
-'''
-pass
+    '''    public void register(final SocketChannel channel, final Object att)
+    public void register(final SocketChannel channel)
+    public void register(final ServerSocketChannel acceptChannel)
+    '''
 def getSelectorPriorityDelta():
-'''public int getSelectorPriorityDelta()
-'''
-pass
+    '''    public int getSelectorPriorityDelta()
+    '''
 def setSelectorPriorityDelta():
-'''public void setSelectorPriorityDelta(final int delta)
-'''
-pass
+    '''    public void setSelectorPriorityDelta(final int delta)
+    '''
 def getLowResourcesConnections():
-'''public long getLowResourcesConnections()
-'''
-pass
+    '''    public long getLowResourcesConnections()
+    '''
 def setLowResourcesConnections():
-'''public void setLowResourcesConnections(final long lowResourcesConnections)
-'''
-pass
+    '''    public void setLowResourcesConnections(final long lowResourcesConnections)
+    '''
 def getLowResourcesMaxIdleTime():
-'''public long getLowResourcesMaxIdleTime()
-'''
-pass
+    '''    public long getLowResourcesMaxIdleTime()
+    '''
 def setLowResourcesMaxIdleTime():
-'''public void setLowResourcesMaxIdleTime(final long lowResourcesMaxIdleTime)
-'''
-pass
+    '''    public void setLowResourcesMaxIdleTime(final long lowResourcesMaxIdleTime)
+    '''
 def run():
-'''public void run()
-public void run()
-public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public void run()
+    public void run()
+    '''
 def dump():
-'''public String dump()
-public void dump(final Appendable out, final String indent)
-public String dump()
-public void dump(final Appendable out, final String indent)
-'''
-pass
+    '''    public String dump()
+    public void dump(final Appendable out, final String indent)
+    public String dump()
+    public void dump(final Appendable out, final String indent)
+    '''
 def isDeferringInterestedOps0():
-'''public boolean isDeferringInterestedOps0()
-'''
-pass
+    '''    public boolean isDeferringInterestedOps0()
+    '''
 def setDeferringInterestedOps0():
-'''public void setDeferringInterestedOps0(final boolean deferringInterestedOps0)
-'''
-pass
+    '''    public void setDeferringInterestedOps0(final boolean deferringInterestedOps0)
+    '''
 def addChange():
-'''public void addChange(final Object change)
-public void addChange(final SelectableChannel channel, final Object att)
-'''
-pass
+    '''    public void addChange(final Object change)
+    public void addChange(final SelectableChannel channel, final Object att)
+    '''
 def doSelect():
-'''public void doSelect()
-'''
-pass
+    '''    public void doSelect()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def getManager():
-'''public SelectorManager getManager()
-'''
-pass
+    '''    public SelectorManager getManager()
+    '''
 def getNow():
-'''public long getNow()
-'''
-pass
+    '''    public long getNow()
+    '''
 def scheduleTimeout():
-'''public void scheduleTimeout(final Timeout.Task task, final long timeoutMs)
-'''
-pass
+    '''    public void scheduleTimeout(final Timeout.Task task, final long timeoutMs)
+    '''
 def cancelTimeout():
-'''public void cancelTimeout(final Timeout.Task task)
-'''
-pass
+    '''    public void cancelTimeout(final Timeout.Task task)
+    '''
 def wakeup():
-'''public void wakeup()
-'''
-pass
+    '''    public void wakeup()
+    '''
 def destroyEndPoint():
-'''public void destroyEndPoint(final SelectChannelEndPoint endp)
-'''
-pass
+    '''    public void destroyEndPoint(final SelectChannelEndPoint endp)
+    '''
 def dumpKeyState():
-'''public void dumpKeyState(final List<Object> dumpto)
-'''
-pass
+    '''    public void dumpKeyState(final List<Object> dumpto)
+    '''
 def ChannelAndAttachment():
-'''public ChannelAndAttachment(final SelectableChannel channel, final Object attachment)
-'''
-pass
+    '''    public ChannelAndAttachment(final SelectableChannel channel, final Object attachment)
+    '''

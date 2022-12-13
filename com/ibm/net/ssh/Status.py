@@ -40,19 +40,15 @@ STATUS_REQUEST_NOT_SUPPORTED = "int  8"
 SFTP_STATUS = "int  0"
 PUBLICKEY_STATUS = "int  1"
 def getErrorCode():
-'''public int getErrorCode()
-'''
-pass
+    '''    public int getErrorCode()
+    '''
 def getErrorCodeAsString():
-'''public String getErrorCodeAsString()
-public static String getErrorCodeAsString(final int statusType, final int errorNum)
-'''
-pass
+    '''    public String getErrorCodeAsString()
+    public static String getErrorCodeAsString(final int statusType, final int errorNum)
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def getUnknownNames():
-'''public String[] getUnknownNames()
-'''
-pass
+    '''    public String[] getUnknownNames()
+    '''

@@ -1,4 +1,3 @@
 def unmarshall():
-'''public Void unmarshall(final Node in)
-'''
-pass
+    '''    public Void unmarshall(final Node in)
+    '''

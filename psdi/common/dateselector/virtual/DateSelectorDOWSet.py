@@ -1,8 +1,6 @@
 def DateSelectorDOWSet():
-'''public DateSelectorDOWSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DateSelectorDOWSet(final MboServerInterface ms)
+    '''
 def getDaysOfWeek():
-'''public MboSetRemote getDaysOfWeek()
-'''
-pass
+    '''    public MboSetRemote getDaysOfWeek()
+    '''

@@ -1,28 +1,21 @@
 def OslcGbTemplateCondInfo():
-'''public OslcGbTemplateCondInfo(final String conditionname, final String condition, final String color)
-'''
-pass
+    '''    public OslcGbTemplateCondInfo(final String conditionname, final String condition, final String color)
+    '''
 def getCondition():
-'''public String getCondition()
-'''
-pass
+    '''    public String getCondition()
+    '''
 def setCondition():
-'''public void setCondition(final String condition)
-'''
-pass
+    '''    public void setCondition(final String condition)
+    '''
 def getColor():
-'''public String getColor()
-'''
-pass
+    '''    public String getColor()
+    '''
 def setColor():
-'''public void setColor(final String color)
-'''
-pass
+    '''    public void setColor(final String color)
+    '''
 def getConditionname():
-'''public String getConditionname()
-'''
-pass
+    '''    public String getConditionname()
+    '''
 def setConditionname():
-'''public void setConditionname(final String conditionname)
-'''
-pass
+    '''    public void setConditionname(final String conditionname)
+    '''

@@ -1,26 +1,20 @@
-MBO_PRMDFLT = "String  TLOAMPRMDFLT""
+MBO_PRMDFLT = "String  \"TLOAMPRMDFLT\""
 def PromoteValues():
-'''public PromoteValues(final MboSet ms)
-'''
-pass
+    '''    public PromoteValues(final MboSet ms)
+    '''
 def setDefaultValues():
-'''public void setDefaultValues(final String defaultName, final long validation)
-'''
-pass
+    '''    public void setDefaultValues(final String defaultName, final long validation)
+    '''
 def applyDefaults():
-'''public int applyDefaults(final long accessModifier)
-public void applyDefaults()
-'''
-pass
+    '''    public int applyDefaults(final long accessModifier)
+    public void applyDefaults()
+    '''
 def clearDefaults():
-'''public void clearDefaults()
-'''
-pass
+    '''    public void clearDefaults()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def setAttributeFlags():
-'''public void setAttributeFlags()
-'''
-pass
+    '''    public void setAttributeFlags()
+    '''

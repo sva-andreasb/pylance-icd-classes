@@ -1,63 +1,48 @@
 def ReconValueSet():
-'''public ReconValueSet(final boolean isDataSet1, final DataSet dataSet)
-public ReconValueSet(final boolean isDataSet1, final int initialCapacity)
-'''
-pass
+    '''    public ReconValueSet(final boolean isDataSet1, final DataSet dataSet)
+    public ReconValueSet(final boolean isDataSet1, final int initialCapacity)
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def isDataSet1():
-'''public boolean isDataSet1()
-'''
-pass
+    '''    public boolean isDataSet1()
+    '''
 def getUniqueIDIndex():
-'''public int getUniqueIDIndex()
-'''
-pass
+    '''    public int getUniqueIDIndex()
+    '''
 def getAttributeCount():
-'''public int getAttributeCount()
-'''
-pass
+    '''    public int getAttributeCount()
+    '''
 def getIndexOfAttribute():
-'''public int getIndexOfAttribute(final String attributeName)
-'''
-pass
+    '''    public int getIndexOfAttribute(final String attributeName)
+    '''
 def getValue():
-'''public ReconValue getValue(final int index)
-'''
-pass
+    '''    public ReconValue getValue(final int index)
+    '''
 def getValueCount():
-'''public int getValueCount()
-'''
-pass
+    '''    public int getValueCount()
+    '''
 def addAttribute():
-'''public void addAttribute(final String attributeName)
-'''
-pass
+    '''    public void addAttribute(final String attributeName)
+    '''
 def clearValues():
-'''public void clearValues()
-'''
-pass
+    '''    public void clearValues()
+    '''
 def addValue():
-'''public ReconValue addValue(final Object[] values)
-public ReconValue addValue(final Object[] values, final Object[] units)
-public ReconValue addValue(final ReconValue valueContainer)
-'''
-pass
+    '''    public ReconValue addValue(final Object[] values)
+    public ReconValue addValue(final Object[] values, final Object[] units)
+    public ReconValue addValue(final ReconValue valueContainer)
+    '''
 def getShallowCopyOValuesContainer():
-'''public List getShallowCopyOValuesContainer()
-'''
-pass
+    '''    public List getShallowCopyOValuesContainer()
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def getDataSet():
-'''public DataSet getDataSet()
-'''
-pass
+    '''    public DataSet getDataSet()
+    '''

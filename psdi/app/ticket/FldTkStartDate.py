@@ -1,8 +1,6 @@
 def FldTkStartDate():
-'''public FldTkStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldTkStartDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

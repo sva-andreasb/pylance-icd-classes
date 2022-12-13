@@ -1,8 +1,6 @@
 def FldLicReceiptItemNum():
-'''public FldLicReceiptItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLicReceiptItemNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

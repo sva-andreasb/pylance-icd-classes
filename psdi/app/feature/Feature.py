@@ -1,32 +1,24 @@
 def Feature():
-'''public Feature(final MboSet ms)
-'''
-pass
+    '''    public Feature(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo)
+    '''

@@ -1,8 +1,6 @@
 def dosync():
-'''public int dosync()
-'''
-pass
+    '''    public int dosync()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

@@ -1,16 +1,12 @@
 def RowStampData():
-'''public RowStampData(final RowStampInfo rowStampInfo)
-'''
-pass
+    '''    public RowStampData(final RowStampInfo rowStampInfo)
+    '''
 def addRowStamp():
-'''public void addRowStamp(final String tableName, final Object rowStampValue)
-'''
-pass
+    '''    public void addRowStamp(final String tableName, final Object rowStampValue)
+    '''
 def getRowStampValue():
-'''public Object getRowStampValue(final String tableName)
-'''
-pass
+    '''    public Object getRowStampValue(final String tableName)
+    '''
 def getRowStampValues():
-'''public ArrayList<Object> getRowStampValues()
-'''
-pass
+    '''    public ArrayList<Object> getRowStampValues()
+    '''

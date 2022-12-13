@@ -1,41 +1,31 @@
 serialVersionUID = "long  1L"
 def PortImpl():
-'''public PortImpl()
-'''
-pass
+    '''    public PortImpl()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setBinding():
-'''public void setBinding(final Binding binding)
-'''
-pass
+    '''    public void setBinding(final Binding binding)
+    '''
 def getBinding():
-'''public Binding getBinding()
-'''
-pass
+    '''    public Binding getBinding()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def addExtensibilityElement():
-'''public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
-'''
-pass
+    '''    public void addExtensibilityElement(final ExtensibilityElement extensibilityElement)
+    '''
 def getExtensibilityElements():
-'''public List getExtensibilityElements()
-'''
-pass
+    '''    public List getExtensibilityElements()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

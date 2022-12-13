@@ -1,52 +1,39 @@
 def getClassType():
-'''public String getClassType()
-'''
-pass
+    '''    public String getClassType()
+    '''
 def getCreateTS():
-'''public Date getCreateTS()
-'''
-pass
+    '''    public Date getCreateTS()
+    '''
 def getNewMasterGUID():
-'''public Guid getNewMasterGUID()
-'''
-pass
+    '''    public Guid getNewMasterGUID()
+    '''
 def getNewMasterName():
-'''public String getNewMasterName()
-'''
-pass
+    '''    public String getNewMasterName()
+    '''
 def getOldMasterGUID():
-'''public Guid getOldMasterGUID()
-'''
-pass
+    '''    public Guid getOldMasterGUID()
+    '''
 def getOldMasterName():
-'''public String getOldMasterName()
-'''
-pass
+    '''    public String getOldMasterName()
+    '''
 def setClassType():
-'''public void setClassType(final String classString)
-'''
-pass
+    '''    public void setClassType(final String classString)
+    '''
 def setCreateTS():
-'''public void setCreateTS(final Date createDate)
-'''
-pass
+    '''    public void setCreateTS(final Date createDate)
+    '''
 def setNewMasterGUID():
-'''public void setNewMasterGUID(final Guid guid)
-'''
-pass
+    '''    public void setNewMasterGUID(final Guid guid)
+    '''
 def setNewMasterName():
-'''public void setNewMasterName(final String name)
-'''
-pass
+    '''    public void setNewMasterName(final String name)
+    '''
 def setOldMasterGUID():
-'''public void setOldMasterGUID(final Guid guid)
-'''
-pass
+    '''    public void setOldMasterGUID(final Guid guid)
+    '''
 def setOldMasterName():
-'''public void setOldMasterName(final String name)
-'''
-pass
+    '''    public void setOldMasterName(final String name)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def PmChgFldOtherApproversApproverGroup():
-'''public PmChgFldOtherApproversApproverGroup(final MboValue mbv)
-'''
-pass
+    '''    public PmChgFldOtherApproversApproverGroup(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

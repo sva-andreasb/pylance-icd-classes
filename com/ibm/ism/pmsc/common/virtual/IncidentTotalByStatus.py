@@ -1,4 +1,3 @@
 def IncidentTotalByStatus():
-'''public IncidentTotalByStatus(final MboSet ms)
-'''
-pass
+    '''    public IncidentTotalByStatus(final MboSet ms)
+    '''

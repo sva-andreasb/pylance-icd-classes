@@ -1,33 +1,25 @@
 def parseCognosExpression():
-'''public static Node parseCognosExpression(final String cognosExpression)
-'''
-pass
+    '''    public static Node parseCognosExpression(final String cognosExpression)
+    '''
 def toCognosActionLogXml():
-'''public static String toCognosActionLogXml(final Node parsedExpressions)
-public static String toCognosActionLogXml(final String expr)
-'''
-pass
+    '''    public static String toCognosActionLogXml(final Node parsedExpressions)
+    public static String toCognosActionLogXml(final String expr)
+    '''
 def CDATA():
-'''public static String CDATA(final String in)
-'''
-pass
+    '''    public static String CDATA(final String in)
+    '''
 def parseComplexExpression():
-'''public static String parseComplexExpression(final String childName, final String parentName, final String relationshipName, final String whereClause, final String dataSourceViewNamespace, final String databaseType)
-'''
-pass
+    '''    public static String parseComplexExpression(final String childName, final String parentName, final String relationshipName, final String whereClause, final String dataSourceViewNamespace, final String databaseType)
+    '''
 def CognosObjectTypeExpressionHelper():
-'''public CognosObjectTypeExpressionHelper()
-'''
-pass
+    '''    public CognosObjectTypeExpressionHelper()
+    '''
 def CognosReferenceExpressionHelper():
-'''public CognosReferenceExpressionHelper()
-'''
-pass
+    '''    public CognosReferenceExpressionHelper()
+    '''
 def CognosObjectCombinerExpressionHelper():
-'''public CognosObjectCombinerExpressionHelper()
-'''
-pass
+    '''    public CognosObjectCombinerExpressionHelper()
+    '''
 def transform():
-'''public String transform(final Node n)
-'''
-pass
+    '''    public String transform(final Node n)
+    '''

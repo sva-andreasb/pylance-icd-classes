@@ -1,20 +1,15 @@
 def CssValidator():
-'''public CssValidator(final Policy policy)
-'''
-pass
+    '''    public CssValidator(final Policy policy)
+    '''
 def isValidProperty():
-'''public boolean isValidProperty(final String name, LexicalUnit lu)
-'''
-pass
+    '''    public boolean isValidProperty(final String name, LexicalUnit lu)
+    '''
 def isValidSelector():
-'''public boolean isValidSelector(final String selectorName, final Selector selector)
-'''
-pass
+    '''    public boolean isValidSelector(final String selectorName, final Selector selector)
+    '''
 def isValidCondition():
-'''public boolean isValidCondition(final String selectorName, final Condition condition)
-'''
-pass
+    '''    public boolean isValidCondition(final String selectorName, final Condition condition)
+    '''
 def lexicalValueToString():
-'''public String lexicalValueToString(final LexicalUnit lu)
-'''
-pass
+    '''    public String lexicalValueToString(final LexicalUnit lu)
+    '''

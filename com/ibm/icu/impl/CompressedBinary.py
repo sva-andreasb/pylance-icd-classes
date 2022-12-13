@@ -1,8 +1,6 @@
 def CompressedBinary():
-'''public CompressedBinary(final String str)
-'''
-pass
+    '''    public CompressedBinary(final String str)
+    '''
 def getResource():
-'''public Object getResource(final Object obj)
-'''
-pass
+    '''    public Object getResource(final Object obj)
+    '''

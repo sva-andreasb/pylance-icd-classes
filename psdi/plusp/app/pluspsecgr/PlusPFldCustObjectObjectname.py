@@ -1,4 +1,3 @@
 def PlusPFldCustObjectObjectname():
-'''public PlusPFldCustObjectObjectname(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldCustObjectObjectname(final MboValue mbv)
+    '''

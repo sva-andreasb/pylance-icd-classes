@@ -1,52 +1,39 @@
 def getWrappedFactory():
-'''public final ThreadFactory getWrappedFactory()
-'''
-pass
+    '''    public final ThreadFactory getWrappedFactory()
+    '''
 def getNamingPattern():
-'''public final String getNamingPattern()
-'''
-pass
+    '''    public final String getNamingPattern()
+    '''
 def getDaemonFlag():
-'''public final Boolean getDaemonFlag()
-'''
-pass
+    '''    public final Boolean getDaemonFlag()
+    '''
 def getPriority():
-'''public final Integer getPriority()
-'''
-pass
+    '''    public final Integer getPriority()
+    '''
 def getThreadCount():
-'''public long getThreadCount()
-'''
-pass
+    '''    public long getThreadCount()
+    '''
 def newThread():
-'''public Thread newThread(final Runnable r)
-'''
-pass
+    '''    public Thread newThread(final Runnable r)
+    '''
 def wrappedFactory():
-'''public Builder wrappedFactory(final ThreadFactory factory)
-'''
-pass
+    '''    public Builder wrappedFactory(final ThreadFactory factory)
+    '''
 def namingPattern():
-'''public Builder namingPattern(final String pattern)
-'''
-pass
+    '''    public Builder namingPattern(final String pattern)
+    '''
 def daemon():
-'''public Builder daemon(final boolean f)
-'''
-pass
+    '''    public Builder daemon(final boolean f)
+    '''
 def priority():
-'''public Builder priority(final int prio)
-'''
-pass
+    '''    public Builder priority(final int prio)
+    '''
 def uncaughtExceptionHandler():
-'''public Builder uncaughtExceptionHandler(final Thread.UncaughtExceptionHandler handler)
-'''
-pass
+    '''    public Builder uncaughtExceptionHandler(final Thread.UncaughtExceptionHandler handler)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def build():
-'''public BasicThreadFactory build()
-'''
-pass
+    '''    public BasicThreadFactory build()
+    '''

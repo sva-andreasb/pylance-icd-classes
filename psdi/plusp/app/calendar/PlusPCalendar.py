@@ -1,8 +1,6 @@
 def PlusPCalendar():
-'''public PlusPCalendar(final MboSet arg0)
-'''
-pass
+    '''    public PlusPCalendar(final MboSet arg0)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

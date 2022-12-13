@@ -1,8 +1,6 @@
 def Threader():
-'''public Threader()
-'''
-pass
+    '''    public Threader()
+    '''
 def thread():
-'''public Threadable thread(final Threadable[] messages)
-'''
-pass
+    '''    public Threadable thread(final Threadable[] messages)
+    '''

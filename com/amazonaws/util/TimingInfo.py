@@ -1,132 +1,100 @@
 def startTiming():
-'''public static TimingInfo startTiming()
-'''
-pass
+    '''    public static TimingInfo startTiming()
+    '''
 def startTimingFullSupport():
-'''public static TimingInfo startTimingFullSupport()
-public static TimingInfo startTimingFullSupport(final long startTimeNano)
-'''
-pass
+    '''    public static TimingInfo startTimingFullSupport()
+    public static TimingInfo startTimingFullSupport(final long startTimeNano)
+    '''
 def newTimingInfoFullSupport():
-'''public static TimingInfo newTimingInfoFullSupport(final long startTimeNano, final long endTimeNano)
-public static TimingInfo newTimingInfoFullSupport(final long startEpochTimeMilli, final long startTimeNano, final long endTimeNano)
-'''
-pass
+    '''    public static TimingInfo newTimingInfoFullSupport(final long startTimeNano, final long endTimeNano)
+    public static TimingInfo newTimingInfoFullSupport(final long startEpochTimeMilli, final long startTimeNano, final long endTimeNano)
+    '''
 def unmodifiableTimingInfo():
-'''public static TimingInfo unmodifiableTimingInfo(final long startTimeNano, final Long endTimeNano)
-public static TimingInfo unmodifiableTimingInfo(final long startEpochTimeMilli, final long startTimeNano, final Long endTimeNano)
-'''
-pass
+    '''    public static TimingInfo unmodifiableTimingInfo(final long startTimeNano, final Long endTimeNano)
+    public static TimingInfo unmodifiableTimingInfo(final long startEpochTimeMilli, final long startTimeNano, final Long endTimeNano)
+    '''
 def getStartTime():
-'''public final long getStartTime()
-'''
-pass
+    '''    public final long getStartTime()
+    '''
 def getStartEpochTimeMilli():
-'''public final long getStartEpochTimeMilli()
-'''
-pass
+    '''    public final long getStartEpochTimeMilli()
+    '''
 def getStartEpochTimeMilliIfKnown():
-'''public final Long getStartEpochTimeMilliIfKnown()
-'''
-pass
+    '''    public final Long getStartEpochTimeMilliIfKnown()
+    '''
 def getStartTimeNano():
-'''public final long getStartTimeNano()
-'''
-pass
+    '''    public final long getStartTimeNano()
+    '''
 def getEndTime():
-'''public final long getEndTime()
-'''
-pass
+    '''    public final long getEndTime()
+    '''
 def getEndEpochTimeMilli():
-'''public final long getEndEpochTimeMilli()
-'''
-pass
+    '''    public final long getEndEpochTimeMilli()
+    '''
 def getEndEpochTimeMilliIfKnown():
-'''public final Long getEndEpochTimeMilliIfKnown()
-'''
-pass
+    '''    public final Long getEndEpochTimeMilliIfKnown()
+    '''
 def getEndTimeNano():
-'''public final long getEndTimeNano()
-'''
-pass
+    '''    public final long getEndTimeNano()
+    '''
 def getEndTimeNanoIfKnown():
-'''public final Long getEndTimeNanoIfKnown()
-'''
-pass
+    '''    public final Long getEndTimeNanoIfKnown()
+    '''
 def getTimeTakenMillis():
-'''public final double getTimeTakenMillis()
-'''
-pass
+    '''    public final double getTimeTakenMillis()
+    '''
 def getTimeTakenMillisIfKnown():
-'''public final Double getTimeTakenMillisIfKnown()
-'''
-pass
+    '''    public final Double getTimeTakenMillisIfKnown()
+    '''
 def durationMilliOf():
-'''public static double durationMilliOf(final long startTimeNano, final long endTimeNano)
-'''
-pass
+    '''    public static double durationMilliOf(final long startTimeNano, final long endTimeNano)
+    '''
 def getElapsedTimeMillis():
-'''public final long getElapsedTimeMillis()
-'''
-pass
+    '''    public final long getElapsedTimeMillis()
+    '''
 def isEndTimeKnown():
-'''public final boolean isEndTimeKnown()
-'''
-pass
+    '''    public final boolean isEndTimeKnown()
+    '''
 def isStartEpochTimeMilliKnown():
-'''public final boolean isStartEpochTimeMilliKnown()
-'''
-pass
+    '''    public final boolean isStartEpochTimeMilliKnown()
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def setEndTime():
-'''public void setEndTime(final long endTimeMilli)
-'''
-pass
+    '''    public void setEndTime(final long endTimeMilli)
+    '''
 def setEndTimeNano():
-'''public void setEndTimeNano(final long endTimeNano)
-'''
-pass
+    '''    public void setEndTimeNano(final long endTimeNano)
+    '''
 def endTiming():
-'''public TimingInfo endTiming()
-'''
-pass
+    '''    public TimingInfo endTiming()
+    '''
 def addSubMeasurement():
-'''public void addSubMeasurement(final String subMeasurementName, final TimingInfo timingInfo)
-'''
-pass
+    '''    public void addSubMeasurement(final String subMeasurementName, final TimingInfo timingInfo)
+    '''
 def getSubMeasurement():
-'''public TimingInfo getSubMeasurement(final String subMeasurementName)
-public TimingInfo getSubMeasurement(final String subMesurementName, final int index)
-'''
-pass
+    '''    public TimingInfo getSubMeasurement(final String subMeasurementName)
+    public TimingInfo getSubMeasurement(final String subMesurementName, final int index)
+    '''
 def getLastSubMeasurement():
-'''public TimingInfo getLastSubMeasurement(final String subMeasurementName)
-'''
-pass
+    '''    public TimingInfo getLastSubMeasurement(final String subMeasurementName)
+    '''
 def getAllSubMeasurements():
-'''public List<TimingInfo> getAllSubMeasurements(final String subMeasurementName)
-'''
-pass
+    '''    public List<TimingInfo> getAllSubMeasurements(final String subMeasurementName)
+    '''
 def getSubMeasurementsByName():
-'''public Map<String, List<TimingInfo>> getSubMeasurementsByName()
-'''
-pass
+    '''    public Map<String, List<TimingInfo>> getSubMeasurementsByName()
+    '''
 def getCounter():
-'''public Number getCounter(final String key)
-'''
-pass
+    '''    public Number getCounter(final String key)
+    '''
 def getAllCounters():
-'''public Map<String, Number> getAllCounters()
-'''
-pass
+    '''    public Map<String, Number> getAllCounters()
+    '''
 def setCounter():
-'''public void setCounter(final String key, final long count)
-'''
-pass
+    '''    public void setCounter(final String key, final long count)
+    '''
 def incrementCounter():
-'''public void incrementCounter(final String key)
-'''
-pass
+    '''    public void incrementCounter(final String key)
+    '''

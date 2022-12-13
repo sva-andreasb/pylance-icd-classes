@@ -1,8 +1,6 @@
 def FldWogenEstDur():
-'''public FldWogenEstDur(final MboValue mbv)
-'''
-pass
+    '''    public FldWogenEstDur(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

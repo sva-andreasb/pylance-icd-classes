@@ -1,8 +1,6 @@
 def DateSelectorMinuteSet():
-'''public DateSelectorMinuteSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DateSelectorMinuteSet(final MboServerInterface ms)
+    '''
 def getMinutesForHour():
-'''public MboSetRemote getMinutesForHour()
-'''
-pass
+    '''    public MboSetRemote getMinutesForHour()
+    '''

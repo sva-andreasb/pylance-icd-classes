@@ -1,36 +1,27 @@
 def LoaderCompany():
-'''public LoaderCompany(final ModelLoaderBase loader)
-'''
-pass
+    '''    public LoaderCompany(final ModelLoaderBase loader)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def matchItem():
-'''public MboRemote matchItem(final ItemCompany company, final MboSetRemote companySet)
-'''
-pass
+    '''    public MboRemote matchItem(final ItemCompany company, final MboSetRemote companySet)
+    '''
 def addItem():
-'''public MboRemote addItem(final ItemCompany company, final MboSetRemote companySet)
-'''
-pass
+    '''    public MboRemote addItem(final ItemCompany company, final MboSetRemote companySet)
+    '''
 def set():
-'''public void set(final MboRemote companyMbo, final ItemCompany company)
-'''
-pass
+    '''    public void set(final MboRemote companyMbo, final ItemCompany company)
+    '''
 def update():
-'''public void update(final MboRemote companyMbo, final ItemCompany company)
-'''
-pass
+    '''    public void update(final MboRemote companyMbo, final ItemCompany company)
+    '''
 def validateItem():
-'''public void validateItem(final ItemCompany company, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void validateItem(final ItemCompany company, final MboSetRemote mboSet)
+    '''
 def addAttributeValues():
-'''public int addAttributeValues(final MboRemote mbo, final ItemCompany item)
-'''
-pass
+    '''    public int addAttributeValues(final MboRemote mbo, final ItemCompany item)
+    '''
 def lookupCompanyContact():
-'''public static MboRemote lookupCompanyContact(final String email, final String orgId, final UserInfo userInfo)
-'''
-pass
+    '''    public static MboRemote lookupCompanyContact(final String email, final String orgId, final UserInfo userInfo)
+    '''

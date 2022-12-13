@@ -1,8 +1,6 @@
 def MaxIntPolicyParamSet():
-'''public MaxIntPolicyParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIntPolicyParamSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

@@ -1,64 +1,48 @@
 def setSourceName():
-'''public void setSourceName(final String sourceName)
-'''
-pass
+    '''    public void setSourceName(final String sourceName)
+    '''
 def getSourceName():
-'''public String getSourceName()
-'''
-pass
+    '''    public String getSourceName()
+    '''
 def setEncoding():
-'''public void setEncoding(final String encoding)
-'''
-pass
+    '''    public void setEncoding(final String encoding)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setVersion():
-'''public void setVersion(final String version)
-'''
-pass
+    '''    public void setVersion(final String version)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setStandalone():
-'''public void setStandalone(final boolean standalone)
-'''
-pass
+    '''    public void setStandalone(final boolean standalone)
+    '''
 def getStandalone():
-'''public boolean getStandalone()
-'''
-pass
+    '''    public boolean getStandalone()
+    '''
 def setDoctypeName():
-'''public void setDoctypeName(final String doctypename)
-'''
-pass
+    '''    public void setDoctypeName(final String doctypename)
+    '''
 def getDoctypeName():
-'''public String getDoctypeName()
-'''
-pass
+    '''    public String getDoctypeName()
+    '''
 def setDoctypePublicId():
-'''public void setDoctypePublicId(final String publicid)
-'''
-pass
+    '''    public void setDoctypePublicId(final String publicid)
+    '''
 def getDoctypePublicId():
-'''public String getDoctypePublicId()
-'''
-pass
+    '''    public String getDoctypePublicId()
+    '''
 def setDoctypeSystemId():
-'''public void setDoctypeSystemId(final String systemid)
-'''
-pass
+    '''    public void setDoctypeSystemId(final String systemid)
+    '''
 def getDoctypeSystemId():
-'''public String getDoctypeSystemId()
-'''
-pass
+    '''    public String getDoctypeSystemId()
+    '''
 def setMessageDigest():
-'''public void setMessageDigest(final byte[] digest)
-'''
-pass
+    '''    public void setMessageDigest(final byte[] digest)
+    '''
 def getMessageDigest():
-'''public byte[] getMessageDigest()
-'''
-pass
+    '''    public byte[] getMessageDigest()
+    '''

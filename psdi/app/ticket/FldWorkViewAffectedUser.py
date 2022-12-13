@@ -1,8 +1,6 @@
 def FldWorkViewAffectedUser():
-'''public FldWorkViewAffectedUser(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkViewAffectedUser(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

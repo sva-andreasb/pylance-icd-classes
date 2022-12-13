@@ -1,73 +1,55 @@
 def PresolveCallbackWrapper():
-'''public PresolveCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-public PresolveCallbackWrapper(final IloEnv env)
-'''
-pass
+    '''    public PresolveCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
+    public PresolveCallbackWrapper(final IloEnv env)
+    '''
 def getCPtr():
-'''public static long getCPtr(final PresolveCallbackWrapper obj)
-'''
-pass
+    '''    public static long getCPtr(final PresolveCallbackWrapper obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def main_cpp():
-'''public void main_cpp()
-'''
-pass
+    '''    public void main_cpp()
+    '''
 def duplicateCallback():
-'''public IloCplex__CallbackI duplicateCallback()
-'''
-pass
+    '''    public IloCplex__CallbackI duplicateCallback()
+    '''
 def callbackImpl():
-'''public void callbackImpl()
-'''
-pass
+    '''    public void callbackImpl()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getEnv():
-'''public IloEnv getEnv()
-'''
-pass
+    '''    public IloEnv getEnv()
+    '''
 def getModel():
-'''public IloModel getModel()
-'''
-pass
+    '''    public IloModel getModel()
+    '''
 def getNcols():
-'''public int getNcols()
-'''
-pass
+    '''    public int getNcols()
+    '''
 def getNrows():
-'''public int getNrows()
-'''
-pass
+    '''    public int getNrows()
+    '''
 def getNQCs():
-'''public int getNQCs()
-'''
-pass
+    '''    public int getNQCs()
+    '''
 def getNremovedRows():
-'''public int getNremovedRows()
-'''
-pass
+    '''    public int getNremovedRows()
+    '''
 def getNremovedCols():
-'''public int getNremovedCols()
-'''
-pass
+    '''    public int getNremovedCols()
+    '''
 def getNaggregations():
-'''public int getNaggregations()
-'''
-pass
+    '''    public int getNaggregations()
+    '''
 def getNaggregations64():
-'''public long getNaggregations64()
-'''
-pass
+    '''    public long getNaggregations64()
+    '''
 def getNmodifiedCoeffs():
-'''public int getNmodifiedCoeffs()
-'''
-pass
+    '''    public int getNmodifiedCoeffs()
+    '''
 def getNmodifiedCoeffs64():
-'''public long getNmodifiedCoeffs64()
-'''
-pass
+    '''    public long getNmodifiedCoeffs64()
+    '''

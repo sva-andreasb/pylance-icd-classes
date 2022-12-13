@@ -1,2 +1,2 @@
-NodeName = "String  Zoom""
-_Z_ = "String  <Z>""
+NodeName = "String  \"Zoom\""
+_Z_ = "String  \"<Z>\""

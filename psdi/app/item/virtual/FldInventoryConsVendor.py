@@ -1,8 +1,6 @@
 def FldInventoryConsVendor():
-'''public FldInventoryConsVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryConsVendor(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

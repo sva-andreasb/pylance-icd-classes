@@ -1,4 +1,3 @@
 def ReportDesignSet():
-'''public ReportDesignSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportDesignSet(final MboServerInterface ms)
+    '''

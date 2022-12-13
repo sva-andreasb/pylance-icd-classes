@@ -1,8 +1,6 @@
 def IMPDEP1():
-'''public IMPDEP1()
-'''
-pass
+    '''    public IMPDEP1()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

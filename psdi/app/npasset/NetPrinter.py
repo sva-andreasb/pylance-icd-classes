@@ -1,8 +1,6 @@
 def NetPrinter():
-'''public NetPrinter(final MboSet ms)
-'''
-pass
+    '''    public NetPrinter(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''

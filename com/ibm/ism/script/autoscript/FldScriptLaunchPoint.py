@@ -1,8 +1,6 @@
 def FldScriptLaunchPoint():
-'''public FldScriptLaunchPoint(final MboValue mbv)
-'''
-pass
+    '''    public FldScriptLaunchPoint(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

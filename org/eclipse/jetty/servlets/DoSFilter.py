@@ -1,167 +1,126 @@
 def DoSFilter():
-'''public DoSFilter()
-'''
-pass
+    '''    public DoSFilter()
+    '''
 def init():
-'''public void init(final FilterConfig filterConfig)
-'''
-pass
+    '''    public void init(final FilterConfig filterConfig)
+    '''
 def onComplete():
-'''public void onComplete(final Continuation continuation)
-'''
-pass
+    '''    public void onComplete(final Continuation continuation)
+    '''
 def onTimeout():
-'''public void onTimeout(final Continuation continuation)
-'''
-pass
+    '''    public void onTimeout(final Continuation continuation)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def doFilter():
-'''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain filterchain)
-'''
-pass
+    '''    public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain filterchain)
+    '''
 def expired():
-'''public void expired()
-public void expired()
-'''
-pass
+    '''    public void expired()
+    public void expired()
+    '''
 def getRateTracker():
-'''public RateTracker getRateTracker(final ServletRequest request)
-'''
-pass
+    '''    public RateTracker getRateTracker(final ServletRequest request)
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''
 def getMaxRequestsPerSec():
-'''public int getMaxRequestsPerSec()
-'''
-pass
+    '''    public int getMaxRequestsPerSec()
+    '''
 def setMaxRequestsPerSec():
-'''public void setMaxRequestsPerSec(final int value)
-'''
-pass
+    '''    public void setMaxRequestsPerSec(final int value)
+    '''
 def getDelayMs():
-'''public long getDelayMs()
-'''
-pass
+    '''    public long getDelayMs()
+    '''
 def setDelayMs():
-'''public void setDelayMs(final long value)
-'''
-pass
+    '''    public void setDelayMs(final long value)
+    '''
 def getMaxWaitMs():
-'''public long getMaxWaitMs()
-'''
-pass
+    '''    public long getMaxWaitMs()
+    '''
 def setMaxWaitMs():
-'''public void setMaxWaitMs(final long value)
-'''
-pass
+    '''    public void setMaxWaitMs(final long value)
+    '''
 def getThrottledRequests():
-'''public int getThrottledRequests()
-'''
-pass
+    '''    public int getThrottledRequests()
+    '''
 def setThrottledRequests():
-'''public void setThrottledRequests(final int value)
-'''
-pass
+    '''    public void setThrottledRequests(final int value)
+    '''
 def getThrottleMs():
-'''public long getThrottleMs()
-'''
-pass
+    '''    public long getThrottleMs()
+    '''
 def setThrottleMs():
-'''public void setThrottleMs(final long value)
-'''
-pass
+    '''    public void setThrottleMs(final long value)
+    '''
 def getMaxRequestMs():
-'''public long getMaxRequestMs()
-'''
-pass
+    '''    public long getMaxRequestMs()
+    '''
 def setMaxRequestMs():
-'''public void setMaxRequestMs(final long value)
-'''
-pass
+    '''    public void setMaxRequestMs(final long value)
+    '''
 def getMaxIdleTrackerMs():
-'''public long getMaxIdleTrackerMs()
-'''
-pass
+    '''    public long getMaxIdleTrackerMs()
+    '''
 def setMaxIdleTrackerMs():
-'''public void setMaxIdleTrackerMs(final long value)
-'''
-pass
+    '''    public void setMaxIdleTrackerMs(final long value)
+    '''
 def isInsertHeaders():
-'''public boolean isInsertHeaders()
-'''
-pass
+    '''    public boolean isInsertHeaders()
+    '''
 def setInsertHeaders():
-'''public void setInsertHeaders(final boolean value)
-'''
-pass
+    '''    public void setInsertHeaders(final boolean value)
+    '''
 def isTrackSessions():
-'''public boolean isTrackSessions()
-'''
-pass
+    '''    public boolean isTrackSessions()
+    '''
 def setTrackSessions():
-'''public void setTrackSessions(final boolean value)
-'''
-pass
+    '''    public void setTrackSessions(final boolean value)
+    '''
 def isRemotePort():
-'''public boolean isRemotePort()
-'''
-pass
+    '''    public boolean isRemotePort()
+    '''
 def setRemotePort():
-'''public void setRemotePort(final boolean value)
-'''
-pass
+    '''    public void setRemotePort(final boolean value)
+    '''
 def getWhitelist():
-'''public String getWhitelist()
-'''
-pass
+    '''    public String getWhitelist()
+    '''
 def setWhitelist():
-'''public void setWhitelist(final String value)
-'''
-pass
+    '''    public void setWhitelist(final String value)
+    '''
 def RateTracker():
-'''public RateTracker(final String id, final int type, final int maxRequestsPerSecond)
-'''
-pass
+    '''    public RateTracker(final String id, final int type, final int maxRequestsPerSecond)
+    '''
 def isRateExceeded():
-'''public boolean isRateExceeded(final long now)
-public boolean isRateExceeded(final long now)
-'''
-pass
+    '''    public boolean isRateExceeded(final long now)
+    public boolean isRateExceeded(final long now)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def valueBound():
-'''public void valueBound(final HttpSessionBindingEvent event)
-'''
-pass
+    '''    public void valueBound(final HttpSessionBindingEvent event)
+    '''
 def valueUnbound():
-'''public void valueUnbound(final HttpSessionBindingEvent event)
-'''
-pass
+    '''    public void valueUnbound(final HttpSessionBindingEvent event)
+    '''
 def sessionWillPassivate():
-'''public void sessionWillPassivate(final HttpSessionEvent se)
-'''
-pass
+    '''    public void sessionWillPassivate(final HttpSessionEvent se)
+    '''
 def sessionDidActivate():
-'''public void sessionDidActivate(final HttpSessionEvent se)
-'''
-pass
+    '''    public void sessionDidActivate(final HttpSessionEvent se)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def FixedRateTracker():
-'''public FixedRateTracker(final String id, final int type, final int numRecentRequestsTracked)
-'''
-pass
+    '''    public FixedRateTracker(final String id, final int type, final int numRecentRequestsTracked)
+    '''

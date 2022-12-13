@@ -1,4 +1,3 @@
 def generateResource():
-'''public byte[] generateResource()
-'''
-pass
+    '''    public byte[] generateResource()
+    '''

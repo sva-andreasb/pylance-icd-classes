@@ -1,28 +1,21 @@
 def SupChainInfo():
-'''public SupChainInfo(final Guid alGuid, final Guid supGuid, final int supOrder, final Timestamp createTs, final String role)
-'''
-pass
+    '''    public SupChainInfo(final Guid alGuid, final Guid supGuid, final int supOrder, final Timestamp createTs, final String role)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getAlGuid():
-'''public Guid getAlGuid()
-'''
-pass
+    '''    public Guid getAlGuid()
+    '''
 def getSupGuid():
-'''public Guid getSupGuid()
-'''
-pass
+    '''    public Guid getSupGuid()
+    '''
 def getRole():
-'''public String getRole()
-'''
-pass
+    '''    public String getRole()
+    '''
 def getSupOrder():
-'''public int getSupOrder()
-'''
-pass
+    '''    public int getSupOrder()
+    '''
 def getCreateTs():
-'''public Timestamp getCreateTs()
-'''
-pass
+    '''    public Timestamp getCreateTs()
+    '''

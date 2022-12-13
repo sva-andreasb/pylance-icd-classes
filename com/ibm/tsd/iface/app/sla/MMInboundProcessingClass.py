@@ -1,8 +1,6 @@
 def MMInboundProcessingClass():
-'''public MMInboundProcessingClass()
-'''
-pass
+    '''    public MMInboundProcessingClass()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

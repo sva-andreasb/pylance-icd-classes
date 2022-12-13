@@ -1,8 +1,6 @@
 def ProtocolExec():
-'''public ProtocolExec(final ClientExecChain requestExecutor, final HttpProcessor httpProcessor)
-'''
-pass
+    '''    public ProtocolExec(final ClientExecChain requestExecutor, final HttpProcessor httpProcessor)
+    '''
 def execute():
-'''public CloseableHttpResponse execute(final HttpRoute route, final HttpRequestWrapper request, final HttpClientContext context, final HttpExecutionAware execAware)
-'''
-pass
+    '''    public CloseableHttpResponse execute(final HttpRoute route, final HttpRequestWrapper request, final HttpClientContext context, final HttpExecutionAware execAware)
+    '''

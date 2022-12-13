@@ -1,4 +1,3 @@
 def DoctypesSet():
-'''public DoctypesSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DoctypesSet(final MboServerInterface ms)
+    '''

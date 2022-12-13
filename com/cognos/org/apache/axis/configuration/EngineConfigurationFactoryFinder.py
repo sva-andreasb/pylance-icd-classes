@@ -1,9 +1,7 @@
 def newFactory():
-'''public static EngineConfigurationFactory newFactory(final Object obj)
-public static EngineConfigurationFactory newFactory()
-'''
-pass
+    '''    public static EngineConfigurationFactory newFactory(final Object obj)
+    public static EngineConfigurationFactory newFactory()
+    '''
 def run():
-'''public Object run()
-'''
-pass
+    '''    public Object run()
+    '''

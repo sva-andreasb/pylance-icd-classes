@@ -1,91 +1,70 @@
 def setApplication():
-'''public void setApplication(final IlvApplication a)
-'''
-pass
+    '''    public void setApplication(final IlvApplication a)
+    '''
 def getApplication():
-'''public IlvApplication getApplication()
-'''
-pass
+    '''    public IlvApplication getApplication()
+    '''
 def insertFileReference():
-'''public Object insertFileReference(final Object o, final String s, final int n)
-public Object insertFileReference(final Object o, final URL url, final int n)
-'''
-pass
+    '''    public Object insertFileReference(final Object o, final String s, final int n)
+    public Object insertFileReference(final Object o, final URL url, final int n)
+    '''
 def getFileReference():
-'''public String getFileReference(final Object o)
-public FileReference getFileReference()
-'''
-pass
+    '''    public String getFileReference(final Object o)
+    public FileReference getFileReference()
+    '''
 def getFileReferenceURL():
-'''public URL getFileReferenceURL(final Object o)
-'''
-pass
+    '''    public URL getFileReferenceURL(final Object o)
+    '''
 def isFileReference():
-'''public boolean isFileReference(final Object o)
-'''
-pass
+    '''    public boolean isFileReference(final Object o)
+    '''
 def insertFolder():
-'''public Object insertFolder(final Object o, final String s, final int n)
-'''
-pass
+    '''    public Object insertFolder(final Object o, final String s, final int n)
+    '''
 def getFolderName():
-'''public String getFolderName(final Object o)
-'''
-pass
+    '''    public String getFolderName(final Object o)
+    '''
 def canRemove():
-'''public boolean canRemove(final Object o, final Object o2)
-'''
-pass
+    '''    public boolean canRemove(final Object o, final Object o2)
+    '''
 def FileReference():
-'''public FileReference(final URL b)
-public FileReference(final String a)
-public FileReference(final String a, final URL b)
-'''
-pass
+    '''    public FileReference(final URL b)
+    public FileReference(final String a)
+    public FileReference(final String a, final URL b)
+    '''
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def ProjectFileNode():
-'''public ProjectFileNode(final FileReference fileReference)
-'''
-pass
+    '''    public ProjectFileNode(final FileReference fileReference)
+    '''
 def getCategory():
-'''public String getCategory()
-public String getCategory()
-public String getCategory()
-'''
-pass
+    '''    public String getCategory()
+    public String getCategory()
+    public String getCategory()
+    '''
 def acceptChild():
-'''public boolean acceptChild(final String s)
-public boolean acceptChild(final String s)
-'''
-pass
+    '''    public boolean acceptChild(final String s)
+    public boolean acceptChild(final String s)
+    '''
 def FileNode():
-'''public FileNode(final FileReference a)
-'''
-pass
+    '''    public FileNode(final FileReference a)
+    '''
 def FolderNode():
-'''public FolderNode(final String a)
-'''
-pass
+    '''    public FolderNode(final String a)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String a)
-'''
-pass
+    '''    public void setName(final String a)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String name)
-'''
-pass
+    '''    public void setTitle(final String name)
+    '''

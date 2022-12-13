@@ -1,12 +1,9 @@
 def DebugComponent():
-'''public DebugComponent()
-'''
-pass
+    '''    public DebugComponent()
+    '''
 def putProperty():
-'''public void putProperty(final String s, final Object value)
-'''
-pass
+    '''    public void putProperty(final String s, final Object value)
+    '''
 def getProperty():
-'''public Object getProperty(final String key)
-'''
-pass
+    '''    public Object getProperty(final String key)
+    '''

@@ -1,4 +1,3 @@
 def FldServRecTransItemNum():
-'''public FldServRecTransItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldServRecTransItemNum(final MboValue mbv)
+    '''

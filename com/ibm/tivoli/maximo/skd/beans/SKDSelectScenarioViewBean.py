@@ -1,4 +1,3 @@
 def skdscenariotoview():
-'''public int skdscenariotoview()
-'''
-pass
+    '''    public int skdscenariotoview()
+    '''

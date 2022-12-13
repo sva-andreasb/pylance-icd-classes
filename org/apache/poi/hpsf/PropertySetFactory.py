@@ -1,13 +1,10 @@
 def create():
-'''public static PropertySet create(final DirectoryEntry dir, final String name)
-public static PropertySet create(final InputStream stream)
-'''
-pass
+    '''    public static PropertySet create(final DirectoryEntry dir, final String name)
+    public static PropertySet create(final InputStream stream)
+    '''
 def newSummaryInformation():
-'''public static SummaryInformation newSummaryInformation()
-'''
-pass
+    '''    public static SummaryInformation newSummaryInformation()
+    '''
 def newDocumentSummaryInformation():
-'''public static DocumentSummaryInformation newDocumentSummaryInformation()
-'''
-pass
+    '''    public static DocumentSummaryInformation newDocumentSummaryInformation()
+    '''

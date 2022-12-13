@@ -1,5 +1,4 @@
 def PmSolutionService():
-'''public PmSolutionService()
-public PmSolutionService(final MXServer mxServer)
-'''
-pass
+    '''    public PmSolutionService()
+    public PmSolutionService(final MXServer mxServer)
+    '''

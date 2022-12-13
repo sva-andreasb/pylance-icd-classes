@@ -1,55 +1,42 @@
 def XSLFColor():
-'''public XSLFColor(final XmlObject obj, final XSLFTheme theme, final CTSchemeColor phClr)
-'''
-pass
+    '''    public XSLFColor(final XmlObject obj, final XSLFTheme theme, final CTSchemeColor phClr)
+    '''
 def getXmlObject():
-'''public XmlObject getXmlObject()
-'''
-pass
+    '''    public XmlObject getXmlObject()
+    '''
 def getColor():
-'''public Color getColor()
-public Color getColor()
-'''
-pass
+    '''    public Color getColor()
+    public Color getColor()
+    '''
 def getColorStyle():
-'''public ColorStyle getColorStyle()
-'''
-pass
+    '''    public ColorStyle getColorStyle()
+    '''
 def getAlpha():
-'''public int getAlpha()
-'''
-pass
+    '''    public int getAlpha()
+    '''
 def getHueOff():
-'''public int getHueOff()
-'''
-pass
+    '''    public int getHueOff()
+    '''
 def getHueMod():
-'''public int getHueMod()
-'''
-pass
+    '''    public int getHueMod()
+    '''
 def getSatOff():
-'''public int getSatOff()
-'''
-pass
+    '''    public int getSatOff()
+    '''
 def getSatMod():
-'''public int getSatMod()
-'''
-pass
+    '''    public int getSatMod()
+    '''
 def getLumOff():
-'''public int getLumOff()
-'''
-pass
+    '''    public int getLumOff()
+    '''
 def getLumMod():
-'''public int getLumMod()
-'''
-pass
+    '''    public int getLumMod()
+    '''
 def getShade():
-'''public int getShade()
-public int getShade()
-'''
-pass
+    '''    public int getShade()
+    public int getShade()
+    '''
 def getTint():
-'''public int getTint()
-public int getTint()
-'''
-pass
+    '''    public int getTint()
+    public int getTint()
+    '''

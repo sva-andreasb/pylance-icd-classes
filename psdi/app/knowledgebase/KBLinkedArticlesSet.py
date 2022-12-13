@@ -1,4 +1,3 @@
 def KBLinkedArticlesSet():
-'''public KBLinkedArticlesSet(final MboServerInterface ms)
-'''
-pass
+    '''    public KBLinkedArticlesSet(final MboServerInterface ms)
+    '''

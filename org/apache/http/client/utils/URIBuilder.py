@@ -1,116 +1,88 @@
 def URIBuilder():
-'''public URIBuilder()
-public URIBuilder(final String string)
-public URIBuilder(final URI uri)
-'''
-pass
+    '''    public URIBuilder()
+    public URIBuilder(final String string)
+    public URIBuilder(final URI uri)
+    '''
 def setCharset():
-'''public URIBuilder setCharset(final Charset charset)
-'''
-pass
+    '''    public URIBuilder setCharset(final Charset charset)
+    '''
 def getCharset():
-'''public Charset getCharset()
-'''
-pass
+    '''    public Charset getCharset()
+    '''
 def build():
-'''public URI build()
-'''
-pass
+    '''    public URI build()
+    '''
 def setScheme():
-'''public URIBuilder setScheme(final String scheme)
-'''
-pass
+    '''    public URIBuilder setScheme(final String scheme)
+    '''
 def setUserInfo():
-'''public URIBuilder setUserInfo(final String userInfo)
-public URIBuilder setUserInfo(final String username, final String password)
-'''
-pass
+    '''    public URIBuilder setUserInfo(final String userInfo)
+    public URIBuilder setUserInfo(final String username, final String password)
+    '''
 def setHost():
-'''public URIBuilder setHost(final String host)
-'''
-pass
+    '''    public URIBuilder setHost(final String host)
+    '''
 def setPort():
-'''public URIBuilder setPort(final int port)
-'''
-pass
+    '''    public URIBuilder setPort(final int port)
+    '''
 def setPath():
-'''public URIBuilder setPath(final String path)
-'''
-pass
+    '''    public URIBuilder setPath(final String path)
+    '''
 def removeQuery():
-'''public URIBuilder removeQuery()
-'''
-pass
+    '''    public URIBuilder removeQuery()
+    '''
 def setQuery():
-'''public URIBuilder setQuery(final String query)
-'''
-pass
+    '''    public URIBuilder setQuery(final String query)
+    '''
 def setParameters():
-'''public URIBuilder setParameters(final List<NameValuePair> nvps)
-public URIBuilder setParameters(final NameValuePair... nvps)
-'''
-pass
+    '''    public URIBuilder setParameters(final List<NameValuePair> nvps)
+    public URIBuilder setParameters(final NameValuePair... nvps)
+    '''
 def addParameters():
-'''public URIBuilder addParameters(final List<NameValuePair> nvps)
-'''
-pass
+    '''    public URIBuilder addParameters(final List<NameValuePair> nvps)
+    '''
 def addParameter():
-'''public URIBuilder addParameter(final String param, final String value)
-'''
-pass
+    '''    public URIBuilder addParameter(final String param, final String value)
+    '''
 def setParameter():
-'''public URIBuilder setParameter(final String param, final String value)
-'''
-pass
+    '''    public URIBuilder setParameter(final String param, final String value)
+    '''
 def clearParameters():
-'''public URIBuilder clearParameters()
-'''
-pass
+    '''    public URIBuilder clearParameters()
+    '''
 def setCustomQuery():
-'''public URIBuilder setCustomQuery(final String query)
-'''
-pass
+    '''    public URIBuilder setCustomQuery(final String query)
+    '''
 def setFragment():
-'''public URIBuilder setFragment(final String fragment)
-'''
-pass
+    '''    public URIBuilder setFragment(final String fragment)
+    '''
 def isAbsolute():
-'''public boolean isAbsolute()
-'''
-pass
+    '''    public boolean isAbsolute()
+    '''
 def isOpaque():
-'''public boolean isOpaque()
-'''
-pass
+    '''    public boolean isOpaque()
+    '''
 def getScheme():
-'''public String getScheme()
-'''
-pass
+    '''    public String getScheme()
+    '''
 def getUserInfo():
-'''public String getUserInfo()
-'''
-pass
+    '''    public String getUserInfo()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def getQueryParams():
-'''public List<NameValuePair> getQueryParams()
-'''
-pass
+    '''    public List<NameValuePair> getQueryParams()
+    '''
 def getFragment():
-'''public String getFragment()
-'''
-pass
+    '''    public String getFragment()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

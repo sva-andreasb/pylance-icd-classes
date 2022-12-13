@@ -1,39 +1,30 @@
 def parse():
-'''public static XMLElement parse(final Reader in)
-public static XMLElement parse(final InputStream in)
-public static XMLElement parse(final InputSource in)
-'''
-pass
+    '''    public static XMLElement parse(final Reader in)
+    public static XMLElement parse(final InputStream in)
+    public static XMLElement parse(final InputSource in)
+    '''
 def getChild():
-'''public XMLElement getChild(final String name)
-'''
-pass
+    '''    public XMLElement getChild(final String name)
+    '''
 def getChildren():
-'''public List<XMLElement> getChildren()
-public List<XMLElement> getChildren(final String name)
-'''
-pass
+    '''    public List<XMLElement> getChildren()
+    public List<XMLElement> getChildren(final String name)
+    '''
 def find():
-'''public List<XMLElement> find(final String query)
-'''
-pass
+    '''    public List<XMLElement> find(final String query)
+    '''
 def findElement():
-'''public XMLElement findElement(final String query)
-'''
-pass
+    '''    public XMLElement findElement(final String query)
+    '''
 def getAttribute():
-'''public String getAttribute(final String attrName)
-'''
-pass
+    '''    public String getAttribute(final String attrName)
+    '''
 def getChildValue():
-'''public String getChildValue(final String childName)
-'''
-pass
+    '''    public String getChildValue(final String childName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getXML():
-'''public String getXML()
-'''
-pass
+    '''    public String getXML()
+    '''

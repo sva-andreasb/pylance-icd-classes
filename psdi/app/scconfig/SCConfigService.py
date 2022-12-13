@@ -1,46 +1,35 @@
 def SCConfigService():
-'''public SCConfigService()
-public SCConfigService(final MXServer mxServer)
-'''
-pass
+    '''    public SCConfigService()
+    public SCConfigService(final MXServer mxServer)
+    '''
 def loadStartCenter():
-'''public void loadStartCenter(final String groupName, final UserInfo ui)
-'''
-pass
+    '''    public void loadStartCenter(final String groupName, final UserInfo ui)
+    '''
 def loadStartCenterFromTemplate():
-'''public long loadStartCenterFromTemplate(final String templateId, final String groupName, final UserInfo ui, final boolean modifyTemplate)
-'''
-pass
+    '''    public long loadStartCenterFromTemplate(final String templateId, final String groupName, final UserInfo ui, final boolean modifyTemplate)
+    '''
 def saveAsTemplate():
-'''public void saveAsTemplate(final String startCenterToCopy, final UserInfo ui)
-'''
-pass
+    '''    public void saveAsTemplate(final String startCenterToCopy, final UserInfo ui)
+    '''
 def getStartCenters():
-'''public Object[] getStartCenters(final UserInfo ui)
-'''
-pass
+    '''    public Object[] getStartCenters(final UserInfo ui)
+    '''
 def checkGroupAssociation():
-'''public Hashtable checkGroupAssociation(final UserInfo ui)
-public Hashtable checkGroupAssociation(final MboSetRemote scconfigSet)
-'''
-pass
+    '''    public Hashtable checkGroupAssociation(final UserInfo ui)
+    public Hashtable checkGroupAssociation(final MboSetRemote scconfigSet)
+    '''
 def updateStartCenter():
-'''public synchronized long updateStartCenter(final MboRemote startCenter)
-'''
-pass
+    '''    public synchronized long updateStartCenter(final MboRemote startCenter)
+    '''
 def doesAttributeExist():
-'''public boolean doesAttributeExist(final MboSetRemote msr, final String attributeName)
-'''
-pass
+    '''    public boolean doesAttributeExist(final MboSetRemote msr, final String attributeName)
+    '''
 def getPortletControlNameMap():
-'''public Hashtable getPortletControlNameMap(final UserInfo ui)
-'''
-pass
+    '''    public Hashtable getPortletControlNameMap(final UserInfo ui)
+    '''
 def templateBeingModified():
-'''public boolean templateBeingModified(final UserInfo ui, final long templateID)
-'''
-pass
+    '''    public boolean templateBeingModified(final UserInfo ui, final long templateID)
+    '''
 def isTemplate():
-'''public boolean isTemplate(final UserInfo ui, final long startCenterId)
-'''
-pass
+    '''    public boolean isTemplate(final UserInfo ui, final long startCenterId)
+    '''

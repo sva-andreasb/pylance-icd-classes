@@ -1,5 +1,4 @@
 def ToolService():
-'''public ToolService()
-public ToolService(final MXServer mxServer)
-'''
-pass
+    '''    public ToolService()
+    public ToolService(final MXServer mxServer)
+    '''

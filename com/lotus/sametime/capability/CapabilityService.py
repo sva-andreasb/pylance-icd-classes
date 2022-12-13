@@ -1,1 +1,1 @@
-COMP_NAME = "String  com.lotus.sametime.capability.CapabilityComp""
+COMP_NAME = "String  \"com.lotus.sametime.capability.CapabilityComp\""

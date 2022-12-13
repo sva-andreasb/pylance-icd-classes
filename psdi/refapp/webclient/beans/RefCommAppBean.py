@@ -1,28 +1,21 @@
 def withlongop():
-'''public int withlongop()
-'''
-pass
+    '''    public int withlongop()
+    '''
 def lostrequesttest():
-'''public int lostrequesttest()
-'''
-pass
+    '''    public int lostrequesttest()
+    '''
 def withoutlongop():
-'''public int withoutlongop()
-'''
-pass
+    '''    public int withoutlongop()
+    '''
 def retry_pass():
-'''public int retry_pass()
-'''
-pass
+    '''    public int retry_pass()
+    '''
 def retry_fail():
-'''public int retry_fail()
-'''
-pass
+    '''    public int retry_fail()
+    '''
 def wogen_dialog():
-'''public int wogen_dialog()
-'''
-pass
+    '''    public int wogen_dialog()
+    '''
 def outoforder():
-'''public int outoforder()
-'''
-pass
+    '''    public int outoforder()
+    '''

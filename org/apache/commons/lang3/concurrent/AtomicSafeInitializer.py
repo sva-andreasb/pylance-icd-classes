@@ -1,8 +1,6 @@
 def AtomicSafeInitializer():
-'''public AtomicSafeInitializer()
-'''
-pass
+    '''    public AtomicSafeInitializer()
+    '''
 def get():
-'''public final T get()
-'''
-pass
+    '''    public final T get()
+    '''

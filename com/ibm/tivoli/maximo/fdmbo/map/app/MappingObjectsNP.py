@@ -1,4 +1,3 @@
 def MappingObjectsNP():
-'''public MappingObjectsNP(final MboSet ms)
-'''
-pass
+    '''    public MappingObjectsNP(final MboSet ms)
+    '''

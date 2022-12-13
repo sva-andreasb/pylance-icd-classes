@@ -1,16 +1,12 @@
 def FldLDAPOrgUnit():
-'''public FldLDAPOrgUnit(final MboValue mbv)
-'''
-pass
+    '''    public FldLDAPOrgUnit(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

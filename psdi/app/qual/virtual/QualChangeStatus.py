@@ -1,8 +1,6 @@
 def QualChangeStatus():
-'''public QualChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public QualChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

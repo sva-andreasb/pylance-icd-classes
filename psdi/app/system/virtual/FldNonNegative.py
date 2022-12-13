@@ -1,8 +1,6 @@
 def FldNonNegative():
-'''public FldNonNegative(final MboValue mbv)
-'''
-pass
+    '''    public FldNonNegative(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

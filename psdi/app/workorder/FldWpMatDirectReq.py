@@ -1,16 +1,12 @@
 def FldWpMatDirectReq():
-'''public FldWpMatDirectReq(final MboValue mbv)
-'''
-pass
+    '''    public FldWpMatDirectReq(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

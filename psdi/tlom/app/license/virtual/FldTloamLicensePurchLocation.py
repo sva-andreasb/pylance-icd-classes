@@ -1,4 +1,3 @@
 def FldTloamLicensePurchLocation():
-'''public FldTloamLicensePurchLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldTloamLicensePurchLocation(final MboValue mbv)
+    '''

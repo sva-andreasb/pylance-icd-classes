@@ -1,4 +1,3 @@
 def PromoteActCISet():
-'''public PromoteActCISet(final MboServerInterface ms)
-'''
-pass
+    '''    public PromoteActCISet(final MboServerInterface ms)
+    '''

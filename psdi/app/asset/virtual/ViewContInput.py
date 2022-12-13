@@ -1,4 +1,3 @@
 def ViewContInput():
-'''public ViewContInput(final MboSet ms)
-'''
-pass
+    '''    public ViewContInput(final MboSet ms)
+    '''

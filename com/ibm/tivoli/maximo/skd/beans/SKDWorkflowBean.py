@@ -1,25 +1,19 @@
 def SKDWorkflowBean():
-'''public SKDWorkflowBean()
-'''
-pass
+    '''    public SKDWorkflowBean()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-public void setupBean(final SessionContext sc)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    public void setupBean(final SessionContext sc)
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def directorinput():
-'''public int directorinput()
-'''
-pass
+    '''    public int directorinput()
+    '''

@@ -1,16 +1,12 @@
 def StringAbbrev():
-'''public StringAbbrev()
-'''
-pass
+    '''    public StringAbbrev()
+    '''
 def add():
-'''public void add(final String prefix, final String string)
-'''
-pass
+    '''    public void add(final String prefix, final String string)
+    '''
 def abbreviate():
-'''public String abbreviate(String s)
-'''
-pass
+    '''    public String abbreviate(String s)
+    '''
 def expand():
-'''public String expand(final String s)
-'''
-pass
+    '''    public String expand(final String s)
+    '''

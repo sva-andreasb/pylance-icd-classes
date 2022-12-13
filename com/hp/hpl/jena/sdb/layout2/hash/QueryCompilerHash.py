@@ -1,8 +1,6 @@
 def QueryCompilerHash():
-'''public QueryCompilerHash(final SDBRequest request)
-'''
-pass
+    '''    public QueryCompilerHash(final SDBRequest request)
+    '''
 def createQuadBlockCompiler():
-'''public QuadBlockCompiler createQuadBlockCompiler()
-'''
-pass
+    '''    public QuadBlockCompiler createQuadBlockCompiler()
+    '''

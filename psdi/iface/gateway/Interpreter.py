@@ -1,8 +1,6 @@
 def Interpreter():
-'''public Interpreter(final Map<String, String> props)
-'''
-pass
+    '''    public Interpreter(final Map<String, String> props)
+    '''
 def interpreteMessage():
-'''public Map<String, String> interpreteMessage(final byte[] extData)
-'''
-pass
+    '''    public Map<String, String> interpreteMessage(final byte[] extData)
+    '''

@@ -1,4 +1,3 @@
 def MissingException():
-'''public MissingException(final Resource type, final String string)
-'''
-pass
+    '''    public MissingException(final Resource type, final String string)
+    '''

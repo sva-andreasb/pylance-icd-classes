@@ -1,212 +1,159 @@
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final String newVersion)
-'''
-pass
+    '''    public void setVersion(final String newVersion)
+    '''
 def unsetVersion():
-'''public void unsetVersion()
-'''
-pass
+    '''    public void unsetVersion()
+    '''
 def isSetVersion():
-'''public boolean isSetVersion()
-'''
-pass
+    '''    public boolean isSetVersion()
+    '''
 def getPriority():
-'''public String getPriority()
-'''
-pass
+    '''    public String getPriority()
+    '''
 def setPriority():
-'''public void setPriority(final String newPriority)
-'''
-pass
+    '''    public void setPriority(final String newPriority)
+    '''
 def unsetPriority():
-'''public void unsetPriority()
-'''
-pass
+    '''    public void unsetPriority()
+    '''
 def isSetPriority():
-'''public boolean isSetPriority()
-'''
-pass
+    '''    public boolean isSetPriority()
+    '''
 def isPublic():
-'''public boolean isPublic()
-'''
-pass
+    '''    public boolean isPublic()
+    '''
 def setPublic():
-'''public void setPublic(final boolean newPublic)
-'''
-pass
+    '''    public void setPublic(final boolean newPublic)
+    '''
 def unsetPublic():
-'''public void unsetPublic()
-'''
-pass
+    '''    public void unsetPublic()
+    '''
 def isSetPublic():
-'''public boolean isSetPublic()
-'''
-pass
+    '''    public boolean isSetPublic()
+    '''
 def isPrivate():
-'''public boolean isPrivate()
-'''
-pass
+    '''    public boolean isPrivate()
+    '''
 def setPrivate():
-'''public void setPrivate(final boolean newPrivate)
-'''
-pass
+    '''    public void setPrivate(final boolean newPrivate)
+    '''
 def unsetPrivate():
-'''public void unsetPrivate()
-'''
-pass
+    '''    public void unsetPrivate()
+    '''
 def isSetPrivate():
-'''public boolean isSetPrivate()
-'''
-pass
+    '''    public boolean isSetPrivate()
+    '''
 def isSupportLocalMode():
-'''public boolean isSupportLocalMode()
-'''
-pass
+    '''    public boolean isSupportLocalMode()
+    '''
 def setSupportLocalMode():
-'''public void setSupportLocalMode(final boolean newSupportLocalMode)
-'''
-pass
+    '''    public void setSupportLocalMode(final boolean newSupportLocalMode)
+    '''
 def unsetSupportLocalMode():
-'''public void unsetSupportLocalMode()
-'''
-pass
+    '''    public void unsetSupportLocalMode()
+    '''
 def isSetSupportLocalMode():
-'''public boolean isSetSupportLocalMode()
-'''
-pass
+    '''    public boolean isSetSupportLocalMode()
+    '''
 def isTargetObjectRequired():
-'''public boolean isTargetObjectRequired()
-'''
-pass
+    '''    public boolean isTargetObjectRequired()
+    '''
 def setTargetObjectRequired():
-'''public void setTargetObjectRequired(final boolean newTargetObjectRequired)
-'''
-pass
+    '''    public void setTargetObjectRequired(final boolean newTargetObjectRequired)
+    '''
 def unsetTargetObjectRequired():
-'''public void unsetTargetObjectRequired()
-'''
-pass
+    '''    public void unsetTargetObjectRequired()
+    '''
 def isSetTargetObjectRequired():
-'''public boolean isSetTargetObjectRequired()
-'''
-pass
+    '''    public boolean isSetTargetObjectRequired()
+    '''
 def isTargetObjectAllowed():
-'''public boolean isTargetObjectAllowed()
-'''
-pass
+    '''    public boolean isTargetObjectAllowed()
+    '''
 def setTargetObjectAllowed():
-'''public void setTargetObjectAllowed(final boolean newTargetObjectAllowed)
-'''
-pass
+    '''    public void setTargetObjectAllowed(final boolean newTargetObjectAllowed)
+    '''
 def unsetTargetObjectAllowed():
-'''public void unsetTargetObjectAllowed()
-'''
-pass
+    '''    public void unsetTargetObjectAllowed()
+    '''
 def isSetTargetObjectAllowed():
-'''public boolean isSetTargetObjectAllowed()
-'''
-pass
+    '''    public boolean isSetTargetObjectAllowed()
+    '''
 def getTargetObjectConfigType():
-'''public String getTargetObjectConfigType()
-'''
-pass
+    '''    public String getTargetObjectConfigType()
+    '''
 def setTargetObjectConfigType():
-'''public void setTargetObjectConfigType(final String newTargetObjectConfigType)
-'''
-pass
+    '''    public void setTargetObjectConfigType(final String newTargetObjectConfigType)
+    '''
 def unsetTargetObjectConfigType():
-'''public void unsetTargetObjectConfigType()
-'''
-pass
+    '''    public void unsetTargetObjectConfigType()
+    '''
 def isSetTargetObjectConfigType():
-'''public boolean isSetTargetObjectConfigType()
-'''
-pass
+    '''    public boolean isSetTargetObjectConfigType()
+    '''
 def getTargetObjectType():
-'''public String getTargetObjectType()
-'''
-pass
+    '''    public String getTargetObjectType()
+    '''
 def setTargetObjectType():
-'''public void setTargetObjectType(final String newTargetObjectType)
-'''
-pass
+    '''    public void setTargetObjectType(final String newTargetObjectType)
+    '''
 def getTargetObjectTitleKey():
-'''public String getTargetObjectTitleKey()
-'''
-pass
+    '''    public String getTargetObjectTitleKey()
+    '''
 def setTargetObjectTitleKey():
-'''public void setTargetObjectTitleKey(final String newTargetObjectTitleKey)
-'''
-pass
+    '''    public void setTargetObjectTitleKey(final String newTargetObjectTitleKey)
+    '''
 def getTargetObjectTitle():
-'''public String getTargetObjectTitle()
-'''
-pass
+    '''    public String getTargetObjectTitle()
+    '''
 def setTargetObjectTitle():
-'''public void setTargetObjectTitle(final String newTargetObjectTitle)
-'''
-pass
+    '''    public void setTargetObjectTitle(final String newTargetObjectTitle)
+    '''
 def getTargetObjectDescriptionKey():
-'''public String getTargetObjectDescriptionKey()
-'''
-pass
+    '''    public String getTargetObjectDescriptionKey()
+    '''
 def setTargetObjectDescriptionKey():
-'''public void setTargetObjectDescriptionKey(final String newTargetObjectDescriptionKey)
-'''
-pass
+    '''    public void setTargetObjectDescriptionKey(final String newTargetObjectDescriptionKey)
+    '''
 def getTargetObjectDescription():
-'''public String getTargetObjectDescription()
-'''
-pass
+    '''    public String getTargetObjectDescription()
+    '''
 def setTargetObjectDescription():
-'''public void setTargetObjectDescription(final String newTargetObjectDescription)
-'''
-pass
+    '''    public void setTargetObjectDescription(final String newTargetObjectDescription)
+    '''
 def getExperienceLevel():
-'''public String getExperienceLevel()
-'''
-pass
+    '''    public String getExperienceLevel()
+    '''
 def setExperienceLevel():
-'''public void setExperienceLevel(final String newExperienceLevel)
-'''
-pass
+    '''    public void setExperienceLevel(final String newExperienceLevel)
+    '''
 def unsetExperienceLevel():
-'''public void unsetExperienceLevel()
-'''
-pass
+    '''    public void unsetExperienceLevel()
+    '''
 def isSetExperienceLevel():
-'''public boolean isSetExperienceLevel()
-'''
-pass
+    '''    public boolean isSetExperienceLevel()
+    '''
 def getParameters():
-'''public EList getParameters()
-'''
-pass
+    '''    public EList getParameters()
+    '''
 def eInverseRemove():
-'''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,16 +1,12 @@
 def PlusPFldActionGroupMember():
-'''public PlusPFldActionGroupMember(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldActionGroupMember(final MboValue arg0)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

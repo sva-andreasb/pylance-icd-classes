@@ -1,8 +1,6 @@
 def DMMaxExtSystemProcess():
-'''public DMMaxExtSystemProcess()
-'''
-pass
+    '''    public DMMaxExtSystemProcess()
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''

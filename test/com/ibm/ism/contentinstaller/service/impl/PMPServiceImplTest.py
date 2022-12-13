@@ -1,28 +1,21 @@
 def testGetMaximoConnection():
-'''public void testGetMaximoConnection()
-'''
-pass
+    '''    public void testGetMaximoConnection()
+    '''
 def testImportFromFile():
-'''public void testImportFromFile()
-'''
-pass
+    '''    public void testImportFromFile()
+    '''
 def testExportToFile():
-'''public void testExportToFile()
-'''
-pass
+    '''    public void testExportToFile()
+    '''
 def testExportFiles():
-'''public void testExportFiles()
-'''
-pass
+    '''    public void testExportFiles()
+    '''
 def testImportFilesNoReplacements():
-'''public void testImportFilesNoReplacements()
-'''
-pass
+    '''    public void testImportFilesNoReplacements()
+    '''
 def testImportFilesWithReplacements():
-'''public void testImportFilesWithReplacements()
-'''
-pass
+    '''    public void testImportFilesWithReplacements()
+    '''
 def testExportObjectStructure():
-'''public void testExportObjectStructure()
-'''
-pass
+    '''    public void testExportObjectStructure()
+    '''

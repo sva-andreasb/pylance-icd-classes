@@ -1,44 +1,33 @@
 def ShowWFObjectSet():
-'''public ShowWFObjectSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ShowWFObjectSet(final MboServerInterface ms)
+    '''
 def setRelatedSetName():
-'''public void setRelatedSetName(final String name)
-'''
-pass
+    '''    public void setRelatedSetName(final String name)
+    '''
 def setRelationships():
-'''public void setRelationships(final String[] rs)
-'''
-pass
+    '''    public void setRelationships(final String[] rs)
+    '''
 def getRelationships():
-'''public String[] getRelationships()
-'''
-pass
+    '''    public String[] getRelationships()
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def updateMboSetMbos():
-'''public void updateMboSetMbos(final MboSetRemote fromMboSet, final MboSetRemote toMboSet)
-'''
-pass
+    '''    public void updateMboSetMbos(final MboSetRemote fromMboSet, final MboSetRemote toMboSet)
+    '''
 def copyTo():
-'''public void copyTo(final MboRemote srcMbo1, final MboRemote srcMbo2, final MboRemote toMbo)
-'''
-pass
+    '''    public void copyTo(final MboRemote srcMbo1, final MboRemote srcMbo2, final MboRemote toMbo)
+    '''
 def copyFrom():
-'''public void copyFrom(final MboRemote destMbo1, final MboRemote destMbo2, final MboRemote fromMbo)
-'''
-pass
+    '''    public void copyFrom(final MboRemote destMbo1, final MboRemote destMbo2, final MboRemote fromMbo)
+    '''
 def validateSqlExpression():
-'''public void validateSqlExpression(final String objectname, final String expression)
-'''
-pass
+    '''    public void validateSqlExpression(final String objectname, final String expression)
+    '''
 def handleActionZero():
-'''public void handleActionZero(final MboRemote wfAction, final MboSetRemote wfRealSet)
-'''
-pass
+    '''    public void handleActionZero(final MboRemote wfAction, final MboSetRemote wfRealSet)
+    '''

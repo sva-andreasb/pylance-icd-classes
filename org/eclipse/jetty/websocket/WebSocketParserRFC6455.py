@@ -1,36 +1,27 @@
 def WebSocketParserRFC6455():
-'''public WebSocketParserRFC6455(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler, final boolean shouldBeMasked)
-'''
-pass
+    '''    public WebSocketParserRFC6455(final WebSocketBuffers buffers, final EndPoint endp, final FrameHandler handler, final boolean shouldBeMasked)
+    '''
 def isFakeFragments():
-'''public boolean isFakeFragments()
-'''
-pass
+    '''    public boolean isFakeFragments()
+    '''
 def setFakeFragments():
-'''public void setFakeFragments(final boolean fakeFragments)
-'''
-pass
+    '''    public void setFakeFragments(final boolean fakeFragments)
+    '''
 def isBufferEmpty():
-'''public boolean isBufferEmpty()
-'''
-pass
+    '''    public boolean isBufferEmpty()
+    '''
 def getBuffer():
-'''public Buffer getBuffer()
-'''
-pass
+    '''    public Buffer getBuffer()
+    '''
 def parseNext():
-'''public int parseNext()
-'''
-pass
+    '''    public int parseNext()
+    '''
 def fill():
-'''public void fill(final Buffer buffer)
-'''
-pass
+    '''    public void fill(final Buffer buffer)
+    '''
 def returnBuffer():
-'''public void returnBuffer()
-'''
-pass
+    '''    public void returnBuffer()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

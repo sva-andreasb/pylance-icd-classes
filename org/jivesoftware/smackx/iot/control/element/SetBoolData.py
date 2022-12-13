@@ -1,8 +1,6 @@
 def SetBoolData():
-'''public SetBoolData(final String name, final boolean value)
-'''
-pass
+    '''    public SetBoolData(final String name, final boolean value)
+    '''
 def getBooleanValue():
-'''public Boolean getBooleanValue()
-'''
-pass
+    '''    public Boolean getBooleanValue()
+    '''

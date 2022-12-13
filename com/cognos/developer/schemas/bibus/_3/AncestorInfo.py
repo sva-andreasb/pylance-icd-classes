@@ -1,57 +1,43 @@
 def AncestorInfo():
-'''public AncestorInfo()
-public AncestorInfo(final ClassEnum objectClass, final String searchPath, final Guid storeID, final String title)
-'''
-pass
+    '''    public AncestorInfo()
+    public AncestorInfo(final ClassEnum objectClass, final String searchPath, final Guid storeID, final String title)
+    '''
 def getObjectClass():
-'''public ClassEnum getObjectClass()
-'''
-pass
+    '''    public ClassEnum getObjectClass()
+    '''
 def setObjectClass():
-'''public void setObjectClass(final ClassEnum objectClass)
-'''
-pass
+    '''    public void setObjectClass(final ClassEnum objectClass)
+    '''
 def getSearchPath():
-'''public String getSearchPath()
-'''
-pass
+    '''    public String getSearchPath()
+    '''
 def setSearchPath():
-'''public void setSearchPath(final String searchPath)
-'''
-pass
+    '''    public void setSearchPath(final String searchPath)
+    '''
 def getStoreID():
-'''public Guid getStoreID()
-'''
-pass
+    '''    public Guid getStoreID()
+    '''
 def setStoreID():
-'''public void setStoreID(final Guid storeID)
-'''
-pass
+    '''    public void setStoreID(final Guid storeID)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

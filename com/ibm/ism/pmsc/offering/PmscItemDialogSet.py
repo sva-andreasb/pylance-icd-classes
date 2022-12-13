@@ -1,41 +1,31 @@
-COPYRIGHT = "String IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def PmscItemDialogSet():
-'''public PmscItemDialogSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmscItemDialogSet(final MboServerInterface ms)
+    '''
 def getCRSpecColumn():
-'''public String getCRSpecColumn(final String attribute)
-'''
-pass
+    '''    public String getCRSpecColumn(final String attribute)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def incrementCRSpecColumn():
-'''public synchronized int incrementCRSpecColumn(final String dataType)
-'''
-pass
+    '''    public synchronized int incrementCRSpecColumn(final String dataType)
+    '''
 def decrementCRSpecColumn():
-'''public synchronized int decrementCRSpecColumn(final String dataType)
-'''
-pass
+    '''    public synchronized int decrementCRSpecColumn(final String dataType)
+    '''
 def getAttributeCount():
-'''public Hashtable<String, Integer> getAttributeCount()
-'''
-pass
+    '''    public Hashtable<String, Integer> getAttributeCount()
+    '''
 def getAttributeMax():
-'''public Hashtable<String, Integer> getAttributeMax()
-'''
-pass
+    '''    public Hashtable<String, Integer> getAttributeMax()
+    '''
 def initCRSpecMapping():
-'''public void initCRSpecMapping()
-'''
-pass
+    '''    public void initCRSpecMapping()
+    '''
 def resetCRSpecMapping():
-'''public void resetCRSpecMapping()
-'''
-pass
+    '''    public void resetCRSpecMapping()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

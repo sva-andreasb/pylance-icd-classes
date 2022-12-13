@@ -1,12 +1,9 @@
 def FldMyProfilePasswordOld():
-'''public FldMyProfilePasswordOld(final MboValue mbv)
-'''
-pass
+    '''    public FldMyProfilePasswordOld(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

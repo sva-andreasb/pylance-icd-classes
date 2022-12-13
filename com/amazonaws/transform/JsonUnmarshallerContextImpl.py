@@ -1,86 +1,65 @@
 def JsonUnmarshallerContextImpl():
-'''public JsonUnmarshallerContextImpl(final JsonParser jsonParser, final Map<Class<?>, Unmarshaller<?, JsonUnmarshallerContext>> mapper, final HttpResponse httpResponse)
-'''
-pass
+    '''    public JsonUnmarshallerContextImpl(final JsonParser jsonParser, final Map<Class<?>, Unmarshaller<?, JsonUnmarshallerContext>> mapper, final HttpResponse httpResponse)
+    '''
 def getHeader():
-'''public String getHeader(final String header)
-'''
-pass
+    '''    public String getHeader(final String header)
+    '''
 def getHttpResponse():
-'''public HttpResponse getHttpResponse()
-'''
-pass
+    '''    public HttpResponse getHttpResponse()
+    '''
 def getCurrentDepth():
-'''public int getCurrentDepth()
-'''
-pass
+    '''    public int getCurrentDepth()
+    '''
 def readText():
-'''public String readText()
-'''
-pass
+    '''    public String readText()
+    '''
 def isInsideResponseHeader():
-'''public boolean isInsideResponseHeader()
-'''
-pass
+    '''    public boolean isInsideResponseHeader()
+    '''
 def isStartOfDocument():
-'''public boolean isStartOfDocument()
-'''
-pass
+    '''    public boolean isStartOfDocument()
+    '''
 def testExpression():
-'''public boolean testExpression(final String expression)
-public boolean testExpression(final String expression, final int stackDepth)
-'''
-pass
+    '''    public boolean testExpression(final String expression)
+    public boolean testExpression(final String expression, final int stackDepth)
+    '''
 def getCurrentParentElement():
-'''public String getCurrentParentElement()
-'''
-pass
+    '''    public String getCurrentParentElement()
+    '''
 def nextToken():
-'''public JsonToken nextToken()
-'''
-pass
+    '''    public JsonToken nextToken()
+    '''
 def peek():
-'''public JsonToken peek()
-'''
-pass
+    '''    public JsonToken peek()
+    '''
 def getJsonParser():
-'''public JsonParser getJsonParser()
-'''
-pass
+    '''    public JsonParser getJsonParser()
+    '''
 def getMetadata():
-'''public Map<String, String> getMetadata()
-'''
-pass
+    '''    public Map<String, String> getMetadata()
+    '''
 def setCurrentHeader():
-'''public void setCurrentHeader(final String currentHeader)
-'''
-pass
+    '''    public void setCurrentHeader(final String currentHeader)
+    '''
 def getUnmarshaller():
-'''public <T> Unmarshaller<T, JsonUnmarshallerContext> getUnmarshaller(final Class<T> type)
-'''
-pass
+    '''    public <T> Unmarshaller<T, JsonUnmarshallerContext> getUnmarshaller(final Class<T> type)
+    '''
 def getCurrentToken():
-'''public JsonToken getCurrentToken()
-'''
-pass
+    '''    public JsonToken getCurrentToken()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def getLastParsedParentElement():
-'''public String getLastParsedParentElement()
-'''
-pass
+    '''    public String getLastParsedParentElement()
+    '''
 def JsonFieldTokenPair():
-'''public JsonFieldTokenPair(final String fieldString, final JsonToken token)
-'''
-pass
+    '''    public JsonFieldTokenPair(final String fieldString, final JsonToken token)
+    '''
 def getField():
-'''public String getField()
-'''
-pass
+    '''    public String getField()
+    '''
 def getToken():
-'''public JsonToken getToken()
-'''
-pass
+    '''    public JsonToken getToken()
+    '''

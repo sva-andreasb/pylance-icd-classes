@@ -1,8 +1,6 @@
 def FldAssetAssetHealth():
-'''public FldAssetAssetHealth(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetAssetHealth(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

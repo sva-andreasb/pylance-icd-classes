@@ -1,12 +1,9 @@
 def ForgotPassword():
-'''public ForgotPassword(final MboSet ms)
-'''
-pass
+    '''    public ForgotPassword(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def requestPassword():
-'''public void requestPassword()
-'''
-pass
+    '''    public void requestPassword()
+    '''

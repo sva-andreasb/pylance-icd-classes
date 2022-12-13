@@ -1,32 +1,24 @@
 def getURI():
-'''public String getURI()
-'''
-pass
+    '''    public String getURI()
+    '''
 def visitWith():
-'''public Object visitWith(final NodeVisitor v)
-'''
-pass
+    '''    public Object visitWith(final NodeVisitor v)
+    '''
 def isURI():
-'''public boolean isURI()
-'''
-pass
+    '''    public boolean isURI()
+    '''
 def toString():
-'''public String toString(final PrefixMapping pm, final boolean quoting)
-'''
-pass
+    '''    public String toString(final PrefixMapping pm, final boolean quoting)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def getNameSpace():
-'''public String getNameSpace()
-'''
-pass
+    '''    public String getNameSpace()
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def hasURI():
-'''public boolean hasURI(final String uri)
-'''
-pass
+    '''    public boolean hasURI(final String uri)
+    '''

@@ -1,8 +1,6 @@
 def getServerClusterContextFactory():
-'''public static ServerClusterContextFactory getServerClusterContextFactory()
-'''
-pass
+    '''    public static ServerClusterContextFactory getServerClusterContextFactory()
+    '''
 def createServerClusterContext():
-'''public ServerClusterContext createServerClusterContext()
-'''
-pass
+    '''    public ServerClusterContext createServerClusterContext()
+    '''

@@ -1,4 +1,3 @@
 def autonumber():
-'''public int autonumber()
-'''
-pass
+    '''    public int autonumber()
+    '''

@@ -1,16 +1,12 @@
 def getRendererType():
-'''public static String getRendererType()
-'''
-pass
+    '''    public static String getRendererType()
+    '''
 def getScriptDescriptor():
-'''public IlvScriptDescriptor getScriptDescriptor()
-'''
-pass
+    '''    public IlvScriptDescriptor getScriptDescriptor()
+    '''
 def decode():
-'''public void decode(final FacesContext facesContext, final UIComponent uiComponent)
-'''
-pass
+    '''    public void decode(final FacesContext facesContext, final UIComponent uiComponent)
+    '''
 def encodeEnd():
-'''public void encodeEnd(final FacesContext facesContext, final UIComponent uiComponent)
-'''
-pass
+    '''    public void encodeEnd(final FacesContext facesContext, final UIComponent uiComponent)
+    '''

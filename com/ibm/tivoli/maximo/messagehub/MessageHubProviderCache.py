@@ -1,16 +1,12 @@
 def getInstance():
-'''public static MessageHubProviderCache getInstance()
-'''
-pass
+    '''    public static MessageHubProviderCache getInstance()
+    '''
 def getProviderFactory():
-'''public MessageHubProviderFactory getProviderFactory(final String provider)
-'''
-pass
+    '''    public MessageHubProviderFactory getProviderFactory(final String provider)
+    '''
 def getDefaultProviderFactory():
-'''public MessageHubProviderFactory getDefaultProviderFactory()
-'''
-pass
+    '''    public MessageHubProviderFactory getDefaultProviderFactory()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

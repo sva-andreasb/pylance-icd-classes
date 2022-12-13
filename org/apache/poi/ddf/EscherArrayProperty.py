@@ -1,69 +1,52 @@
 def EscherArrayProperty():
-'''public EscherArrayProperty(final short id, final byte[] complexData)
-public EscherArrayProperty(final short propertyNumber, final boolean isBlipId, final byte[] complexData)
-'''
-pass
+    '''    public EscherArrayProperty(final short id, final byte[] complexData)
+    public EscherArrayProperty(final short propertyNumber, final boolean isBlipId, final byte[] complexData)
+    '''
 def getNumberOfElementsInArray():
-'''public int getNumberOfElementsInArray()
-'''
-pass
+    '''    public int getNumberOfElementsInArray()
+    '''
 def setNumberOfElementsInArray():
-'''public void setNumberOfElementsInArray(final int numberOfElements)
-'''
-pass
+    '''    public void setNumberOfElementsInArray(final int numberOfElements)
+    '''
 def getNumberOfElementsInMemory():
-'''public int getNumberOfElementsInMemory()
-'''
-pass
+    '''    public int getNumberOfElementsInMemory()
+    '''
 def setNumberOfElementsInMemory():
-'''public void setNumberOfElementsInMemory(final int numberOfElements)
-'''
-pass
+    '''    public void setNumberOfElementsInMemory(final int numberOfElements)
+    '''
 def getSizeOfElements():
-'''public short getSizeOfElements()
-'''
-pass
+    '''    public short getSizeOfElements()
+    '''
 def setSizeOfElements():
-'''public void setSizeOfElements(final int sizeOfElements)
-'''
-pass
+    '''    public void setSizeOfElements(final int sizeOfElements)
+    '''
 def getElement():
-'''public byte[] getElement(final int index)
-'''
-pass
+    '''    public byte[] getElement(final int index)
+    '''
 def setElement():
-'''public void setElement(final int index, final byte[] element)
-'''
-pass
+    '''    public void setElement(final int index, final byte[] element)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toXml():
-'''public String toXml(final String tab)
-'''
-pass
+    '''    public String toXml(final String tab)
+    '''
 def setArrayData():
-'''public int setArrayData(final byte[] data, final int offset)
-'''
-pass
+    '''    public int setArrayData(final byte[] data, final int offset)
+    '''
 def serializeSimplePart():
-'''public int serializeSimplePart(final byte[] data, final int pos)
-'''
-pass
+    '''    public int serializeSimplePart(final byte[] data, final int pos)
+    '''
 def iterator():
-'''public Iterator<byte[]> iterator()
-'''
-pass
+    '''    public Iterator<byte[]> iterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public byte[] next()
-'''
-pass
+    '''    public byte[] next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

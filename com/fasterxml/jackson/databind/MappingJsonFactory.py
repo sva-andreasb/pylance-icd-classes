@@ -1,22 +1,17 @@
 def MappingJsonFactory():
-'''public MappingJsonFactory()
-public MappingJsonFactory(final ObjectMapper mapper)
-public MappingJsonFactory(final JsonFactory src, final ObjectMapper mapper)
-'''
-pass
+    '''    public MappingJsonFactory()
+    public MappingJsonFactory(final ObjectMapper mapper)
+    public MappingJsonFactory(final JsonFactory src, final ObjectMapper mapper)
+    '''
 def getCodec():
-'''public final ObjectMapper getCodec()
-'''
-pass
+    '''    public final ObjectMapper getCodec()
+    '''
 def copy():
-'''public JsonFactory copy()
-'''
-pass
+    '''    public JsonFactory copy()
+    '''
 def getFormatName():
-'''public String getFormatName()
-'''
-pass
+    '''    public String getFormatName()
+    '''
 def hasFormat():
-'''public MatchStrength hasFormat(final InputAccessor acc)
-'''
-pass
+    '''    public MatchStrength hasFormat(final InputAccessor acc)
+    '''

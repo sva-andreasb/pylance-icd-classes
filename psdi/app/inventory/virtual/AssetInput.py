@@ -1,36 +1,27 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def AssetInput():
-'''public AssetInput(final MboSet ms)
-'''
-pass
+    '''    public AssetInput(final MboSet ms)
+    '''
 def setAutoKey():
-'''public void setAutoKey()
-'''
-pass
+    '''    public void setAutoKey()
+    '''
 def applyIASAutoNumAll():
-'''public void applyIASAutoNumAll()
-'''
-pass
+    '''    public void applyIASAutoNumAll()
+    '''
 def applyIASAutoKeyChildren():
-'''public void applyIASAutoKeyChildren(final MboSetRemote rotatingChildren)
-'''
-pass
+    '''    public void applyIASAutoKeyChildren(final MboSetRemote rotatingChildren)
+    '''
 def applyIASCreateChild():
-'''public MboRemote applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)
-'''
-pass
+    '''    public MboRemote applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)
+    '''
 def getIASApplied():
-'''public boolean getIASApplied()
-'''
-pass
+    '''    public boolean getIASApplied()
+    '''
 def setIASApplied():
-'''public void setIASApplied()
-'''
-pass
+    '''    public void setIASApplied()
+    '''
 def getChildAssetCreatedViaApplyIAS():
-'''public boolean getChildAssetCreatedViaApplyIAS()
-'''
-pass
+    '''    public boolean getChildAssetCreatedViaApplyIAS()
+    '''

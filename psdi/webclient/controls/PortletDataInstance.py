@@ -1,168 +1,126 @@
 def PortletDataInstance():
-'''public PortletDataInstance()
-'''
-pass
+    '''    public PortletDataInstance()
+    '''
 def getPortletCacheId():
-'''public String getPortletCacheId()
-'''
-pass
+    '''    public String getPortletCacheId()
+    '''
 def instantiatedatasrc():
-'''public void instantiatedatasrc()
-'''
-pass
+    '''    public void instantiatedatasrc()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getAppId():
-'''public String getAppId()
-'''
-pass
+    '''    public String getAppId()
+    '''
 def createRenderData():
-'''public void createRenderData()
-'''
-pass
+    '''    public void createRenderData()
+    '''
 def hasData():
-'''public boolean hasData()
-'''
-pass
+    '''    public boolean hasData()
+    '''
 def setHasData():
-'''public void setHasData(final boolean newFlag)
-'''
-pass
+    '''    public void setHasData(final boolean newFlag)
+    '''
 def isPortletVisible():
-'''public String isPortletVisible(final String sMinOrMax)
-'''
-pass
+    '''    public String isPortletVisible(final String sMinOrMax)
+    '''
 def getKPIImage():
-'''public String getKPIImage(final String status, final String trend)
-'''
-pass
+    '''    public String getKPIImage(final String status, final String trend)
+    '''
 def percentKPIMark():
-'''public String percentKPIMark()
-'''
-pass
+    '''    public String percentKPIMark()
+    '''
 def formatNumber():
-'''public String formatNumber(final Object objNumber)
-'''
-pass
+    '''    public String formatNumber(final Object objNumber)
+    '''
 def getLabels():
-'''public String[] getLabels(final String group, final String[] keys)
-'''
-pass
+    '''    public String[] getLabels(final String group, final String[] keys)
+    '''
 def getAppBean():
-'''public StartCenterAppBean getAppBean()
-'''
-pass
+    '''    public StartCenterAppBean getAppBean()
+    '''
 def deleteportlet():
-'''public int deleteportlet()
-'''
-pass
+    '''    public int deleteportlet()
+    '''
 def editportlet():
-'''public void editportlet()
-'''
-pass
+    '''    public void editportlet()
+    '''
 def getStartCenterPane():
-'''public StartCenterPane getStartCenterPane()
-'''
-pass
+    '''    public StartCenterPane getStartCenterPane()
+    '''
 def toggleportlet():
-'''public void toggleportlet()
-'''
-pass
+    '''    public void toggleportlet()
+    '''
 def togglefilter():
-'''public void togglefilter()
-'''
-pass
+    '''    public void togglefilter()
+    '''
 def filter():
-'''public void filter()
-'''
-pass
+    '''    public void filter()
+    '''
 def refreshdata():
-'''public void refreshdata()
-'''
-pass
+    '''    public void refreshdata()
+    '''
 def sort():
-'''public int sort()
-'''
-pass
+    '''    public int sort()
+    '''
 def getSortAttribute():
-'''public String getSortAttribute(final String colIndex)
-'''
-pass
+    '''    public String getSortAttribute(final String colIndex)
+    '''
 def scroll():
-'''public void scroll()
-'''
-pass
+    '''    public void scroll()
+    '''
 def isMaximised():
-'''public String isMaximised()
-'''
-pass
+    '''    public String isMaximised()
+    '''
 def isFilterOpen():
-'''public String isFilterOpen()
-'''
-pass
+    '''    public String isFilterOpen()
+    '''
 def isFilterToggled():
-'''public boolean isFilterToggled()
-'''
-pass
+    '''    public boolean isFilterToggled()
+    '''
 def setFilterToggled():
-'''public void setFilterToggled(final boolean flag)
-'''
-pass
+    '''    public void setFilterToggled(final boolean flag)
+    '''
 def isFiltered():
-'''public boolean isFiltered()
-'''
-pass
+    '''    public boolean isFiltered()
+    '''
 def setFiltered():
-'''public void setFiltered(final boolean newFlag)
-'''
-pass
+    '''    public void setFiltered(final boolean newFlag)
+    '''
 def isPortletStateChanged():
-'''public boolean isPortletStateChanged()
-'''
-pass
+    '''    public boolean isPortletStateChanged()
+    '''
 def setPortletStateChanged():
-'''public void setPortletStateChanged(final boolean newPortletState)
-'''
-pass
+    '''    public void setPortletStateChanged(final boolean newPortletState)
+    '''
 def openrecord():
-'''public int openrecord(final String gotoApp, final String uniqueId)
-'''
-pass
+    '''    public int openrecord(final String gotoApp, final String uniqueId)
+    '''
 def setHasLinkedReportsOrKPIs():
-'''public void setHasLinkedReportsOrKPIs(final Vector kpis)
-'''
-pass
+    '''    public void setHasLinkedReportsOrKPIs(final Vector kpis)
+    '''
 def isLinkedToReport():
-'''public boolean isLinkedToReport()
-'''
-pass
+    '''    public boolean isLinkedToReport()
+    '''
 def isLinkedToKPI():
-'''public boolean isLinkedToKPI()
-'''
-pass
+    '''    public boolean isLinkedToKPI()
+    '''
 def openreport():
-'''public int openreport()
-'''
-pass
+    '''    public int openreport()
+    '''
 def isPortletUpdated():
-'''public boolean isPortletUpdated()
-'''
-pass
+    '''    public boolean isPortletUpdated()
+    '''
 def setPortletUpdated():
-'''public void setPortletUpdated(final boolean portletUpdated)
-'''
-pass
+    '''    public void setPortletUpdated(final boolean portletUpdated)
+    '''
 def checkOrStoreCachedProperty():
-'''public String checkOrStoreCachedProperty(String cacheId, final String prop)
-'''
-pass
+    '''    public String checkOrStoreCachedProperty(String cacheId, final String prop)
+    '''
 def getStateManager():
-'''public PortletStateImpl getStateManager()
-'''
-pass
+    '''    public PortletStateImpl getStateManager()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''

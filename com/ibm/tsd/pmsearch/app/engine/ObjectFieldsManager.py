@@ -1,65 +1,49 @@
 def ObjectFieldsManager():
-'''public ObjectFieldsManager(final String workingDirectory)
-'''
-pass
+    '''    public ObjectFieldsManager(final String workingDirectory)
+    '''
 def getObjectList():
-'''public Collection<String> getObjectList()
-'''
-pass
+    '''    public Collection<String> getObjectList()
+    '''
 def getAllObjectsFields():
-'''public Map<String, ObjectFields> getAllObjectsFields()
-'''
-pass
+    '''    public Map<String, ObjectFields> getAllObjectsFields()
+    '''
 def getSolutionField():
-'''public ObjectFields getSolutionField()
-'''
-pass
+    '''    public ObjectFields getSolutionField()
+    '''
 def getBBField():
-'''public ObjectFields getBBField()
-'''
-pass
+    '''    public ObjectFields getBBField()
+    '''
 def getOfferingField():
-'''public ObjectFields getOfferingField()
-'''
-pass
+    '''    public ObjectFields getOfferingField()
+    '''
 def getTicketTemplateField():
-'''public ObjectFields getTicketTemplateField()
-'''
-pass
+    '''    public ObjectFields getTicketTemplateField()
+    '''
 def getCatalogRequestField():
-'''public ObjectFields getCatalogRequestField()
-'''
-pass
+    '''    public ObjectFields getCatalogRequestField()
+    '''
 def getSRField():
-'''public ObjectFields getSRField()
-'''
-pass
+    '''    public ObjectFields getSRField()
+    '''
 def getProblemField():
-'''public ObjectFields getProblemField()
-'''
-pass
+    '''    public ObjectFields getProblemField()
+    '''
 def getIncidentField():
-'''public ObjectFields getIncidentField()
-'''
-pass
+    '''    public ObjectFields getIncidentField()
+    '''
 def existFileTemplate():
-'''public boolean existFileTemplate()
-'''
-pass
+    '''    public boolean existFileTemplate()
+    '''
 def createUpdateFileTemplate():
-'''public void createUpdateFileTemplate()
-public void createUpdateFileTemplate(final Map<String, String[]> objectToFieldsMap)
-'''
-pass
+    '''    public void createUpdateFileTemplate()
+    public void createUpdateFileTemplate(final Map<String, String[]> objectToFieldsMap)
+    '''
 def storeFileTemplate():
-'''public void storeFileTemplate(final Properties prop)
-'''
-pass
+    '''    public void storeFileTemplate(final Properties prop)
+    '''
 def createCommaString():
-'''public static String createCommaString(final Iterable<String> items)
-'''
-pass
+    '''    public static String createCommaString(final Iterable<String> items)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

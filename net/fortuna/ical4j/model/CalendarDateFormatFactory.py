@@ -1,72 +1,55 @@
 def CalendarDateFormat():
-'''public CalendarDateFormat(final String pattern)
-'''
-pass
+    '''    public CalendarDateFormat(final String pattern)
+    '''
 def getTimeZone():
-'''public TimeZone getTimeZone()
-'''
-pass
+    '''    public TimeZone getTimeZone()
+    '''
 def setTimeZone():
-'''public void setTimeZone(final TimeZone tz)
-'''
-pass
+    '''    public void setTimeZone(final TimeZone tz)
+    '''
 def setLenient():
-'''public void setLenient(final boolean lenient)
-'''
-pass
+    '''    public void setLenient(final boolean lenient)
+    '''
 def isLenient():
-'''public boolean isLenient()
-'''
-pass
+    '''    public boolean isLenient()
+    '''
 def getCalendar():
-'''public Calendar getCalendar()
-'''
-pass
+    '''    public Calendar getCalendar()
+    '''
 def setCalendar():
-'''public void setCalendar(final Calendar c)
-'''
-pass
+    '''    public void setCalendar(final Calendar c)
+    '''
 def getNumberFormat():
-'''public NumberFormat getNumberFormat()
-'''
-pass
+    '''    public NumberFormat getNumberFormat()
+    '''
 def setNumberFormat():
-'''public void setNumberFormat(final NumberFormat n)
-'''
-pass
+    '''    public void setNumberFormat(final NumberFormat n)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def DateTimeFormat():
-'''public DateTimeFormat(final String pattern)
-'''
-pass
+    '''    public DateTimeFormat(final String pattern)
+    '''
 def format():
-'''public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
-public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
-public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
-'''
-pass
+    '''    public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
+    public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
+    public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
+    '''
 def parse():
-'''public Date parse(final String source, final ParsePosition pos)
-public Date parse(final String source, final ParsePosition pos)
-public Date parse(final String source, final ParsePosition pos)
-'''
-pass
+    '''    public Date parse(final String source, final ParsePosition pos)
+    public Date parse(final String source, final ParsePosition pos)
+    public Date parse(final String source, final ParsePosition pos)
+    '''
 def DateFormat():
-'''public DateFormat(final String pattern)
-'''
-pass
+    '''    public DateFormat(final String pattern)
+    '''
 def TimeFormat():
-'''public TimeFormat(final String pattern)
-'''
-pass
+    '''    public TimeFormat(final String pattern)
+    '''

@@ -1,8 +1,6 @@
 def RangeDomSegmentSet():
-'''public RangeDomSegmentSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RangeDomSegmentSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

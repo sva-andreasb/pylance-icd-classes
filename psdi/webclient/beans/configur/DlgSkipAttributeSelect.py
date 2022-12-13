@@ -1,4 +1,3 @@
 def copyAttributes():
-'''public int copyAttributes()
-'''
-pass
+    '''    public int copyAttributes()
+    '''

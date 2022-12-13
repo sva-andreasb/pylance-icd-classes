@@ -1,4 +1,3 @@
 def TAMITCoreMultiplierAssignmentSet():
-'''public TAMITCoreMultiplierAssignmentSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TAMITCoreMultiplierAssignmentSet(final MboServerInterface ms)
+    '''

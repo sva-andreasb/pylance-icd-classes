@@ -1,16 +1,12 @@
 def WorkflowRelationshipEnter():
-'''public WorkflowRelationshipEnter(final WorkflowRelationship workflowRelationship)
-'''
-pass
+    '''    public WorkflowRelationshipEnter(final WorkflowRelationship workflowRelationship)
+    '''
 def getWorkflowRelationship():
-'''public WorkflowRelationship getWorkflowRelationship()
-'''
-pass
+    '''    public WorkflowRelationship getWorkflowRelationship()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''

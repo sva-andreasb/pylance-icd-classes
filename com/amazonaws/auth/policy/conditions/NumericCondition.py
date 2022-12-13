@@ -1,4 +1,3 @@
 def NumericCondition():
-'''public NumericCondition(final NumericComparisonType type, final String key, final String value)
-'''
-pass
+    '''    public NumericCondition(final NumericComparisonType type, final String key, final String value)
+    '''

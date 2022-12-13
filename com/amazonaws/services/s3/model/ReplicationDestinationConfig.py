@@ -1,30 +1,23 @@
 def getBucketARN():
-'''public String getBucketARN()
-'''
-pass
+    '''    public String getBucketARN()
+    '''
 def setBucketARN():
-'''public void setBucketARN(final String bucketARN)
-'''
-pass
+    '''    public void setBucketARN(final String bucketARN)
+    '''
 def withBucketARN():
-'''public ReplicationDestinationConfig withBucketARN(final String bucketARN)
-'''
-pass
+    '''    public ReplicationDestinationConfig withBucketARN(final String bucketARN)
+    '''
 def setStorageClass():
-'''public void setStorageClass(final String storageClass)
-public void setStorageClass(final StorageClass storageClass)
-'''
-pass
+    '''    public void setStorageClass(final String storageClass)
+    public void setStorageClass(final StorageClass storageClass)
+    '''
 def withStorageClass():
-'''public ReplicationDestinationConfig withStorageClass(final String storageClass)
-public ReplicationDestinationConfig withStorageClass(final StorageClass storageClass)
-'''
-pass
+    '''    public ReplicationDestinationConfig withStorageClass(final String storageClass)
+    public ReplicationDestinationConfig withStorageClass(final StorageClass storageClass)
+    '''
 def getStorageClass():
-'''public String getStorageClass()
-'''
-pass
+    '''    public String getStorageClass()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

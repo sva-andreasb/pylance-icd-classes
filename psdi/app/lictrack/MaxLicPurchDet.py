@@ -1,16 +1,12 @@
 def MaxLicPurchDet():
-'''public MaxLicPurchDet(final MboSet ms)
-'''
-pass
+    '''    public MaxLicPurchDet(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

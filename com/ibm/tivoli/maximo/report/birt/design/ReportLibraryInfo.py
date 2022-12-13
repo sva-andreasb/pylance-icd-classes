@@ -1,20 +1,15 @@
 def ReportLibraryInfo():
-'''public ReportLibraryInfo()
-'''
-pass
+    '''    public ReportLibraryInfo()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def setFileName():
-'''public void setFileName(final String fileName)
-'''
-pass
+    '''    public void setFileName(final String fileName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''

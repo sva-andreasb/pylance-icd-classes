@@ -2,18 +2,14 @@ CONFIG_LEVEL = "int  1"
 INFO_LEVEL = "int  2"
 DEBUG_LEVEL = "int  3"
 def CometdServlet():
-'''public CometdServlet()
-'''
-pass
+    '''    public CometdServlet()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getBayeux():
-'''public BayeuxServerImpl getBayeux()
-'''
-pass
+    '''    public BayeuxServerImpl getBayeux()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''

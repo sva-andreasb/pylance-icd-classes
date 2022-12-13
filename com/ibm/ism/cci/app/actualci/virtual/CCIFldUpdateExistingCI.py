@@ -1,9 +1,7 @@
 def CCIFldUpdateExistingCI():
-'''public CCIFldUpdateExistingCI()
-public CCIFldUpdateExistingCI(final MboValue mbv)
-'''
-pass
+    '''    public CCIFldUpdateExistingCI()
+    public CCIFldUpdateExistingCI(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

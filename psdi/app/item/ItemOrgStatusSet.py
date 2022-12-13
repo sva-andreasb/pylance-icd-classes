@@ -1,12 +1,9 @@
 def ItemOrgStatusSet():
-'''public ItemOrgStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ItemOrgStatusSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

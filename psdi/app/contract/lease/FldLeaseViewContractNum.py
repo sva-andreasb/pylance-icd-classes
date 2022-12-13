@@ -1,8 +1,6 @@
 def FldLeaseViewContractNum():
-'''public FldLeaseViewContractNum(final MboValue mbv)
-'''
-pass
+    '''    public FldLeaseViewContractNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

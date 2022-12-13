@@ -1,12 +1,9 @@
 def FldPRNoVendor():
-'''public FldPRNoVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldPRNoVendor(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

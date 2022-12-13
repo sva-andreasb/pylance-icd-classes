@@ -1,8 +1,6 @@
 def FldWoHazardPrecHazardId():
-'''public FldWoHazardPrecHazardId(final MboValue mbv)
-'''
-pass
+    '''    public FldWoHazardPrecHazardId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

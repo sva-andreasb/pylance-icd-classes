@@ -1,4 +1,3 @@
 def FldLicenseVendor():
-'''public FldLicenseVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldLicenseVendor(final MboValue mbv)
+    '''

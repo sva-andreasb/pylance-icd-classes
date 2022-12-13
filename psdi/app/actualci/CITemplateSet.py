@@ -1,4 +1,3 @@
 def CITemplateSet():
-'''public CITemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CITemplateSet(final MboServerInterface ms)
+    '''

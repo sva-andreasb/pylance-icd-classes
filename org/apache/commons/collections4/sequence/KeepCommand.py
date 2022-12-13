@@ -1,8 +1,6 @@
 def KeepCommand():
-'''public KeepCommand(final T object)
-'''
-pass
+    '''    public KeepCommand(final T object)
+    '''
 def accept():
-'''public void accept(final CommandVisitor<T> visitor)
-'''
-pass
+    '''    public void accept(final CommandVisitor<T> visitor)
+    '''

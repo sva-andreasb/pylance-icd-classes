@@ -1,8 +1,6 @@
 def FldTkVendor():
-'''public FldTkVendor(final MboValue mbv)
-'''
-pass
+    '''    public FldTkVendor(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

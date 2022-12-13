@@ -1,12 +1,9 @@
 def PlusPFldTransactionCustPayer():
-'''public PlusPFldTransactionCustPayer(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTransactionCustPayer(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,12 +1,9 @@
 def AppUserPropCfgSet():
-'''public AppUserPropCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AppUserPropCfgSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

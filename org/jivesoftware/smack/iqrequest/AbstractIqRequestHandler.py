@@ -1,12 +1,9 @@
 def getMode():
-'''public Mode getMode()
-'''
-pass
+    '''    public Mode getMode()
+    '''
 def getElement():
-'''public String getElement()
-'''
-pass
+    '''    public String getElement()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''

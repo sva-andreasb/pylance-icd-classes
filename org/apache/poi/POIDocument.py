@@ -1,24 +1,18 @@
 def getDocumentSummaryInformation():
-'''public DocumentSummaryInformation getDocumentSummaryInformation()
-'''
-pass
+    '''    public DocumentSummaryInformation getDocumentSummaryInformation()
+    '''
 def getSummaryInformation():
-'''public SummaryInformation getSummaryInformation()
-'''
-pass
+    '''    public SummaryInformation getSummaryInformation()
+    '''
 def createInformationProperties():
-'''public void createInformationProperties()
-'''
-pass
+    '''    public void createInformationProperties()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getDirectory():
-'''public DirectoryNode getDirectory()
-'''
-pass
+    '''    public DirectoryNode getDirectory()
+    '''
 def getEncryptionInfo():
-'''public EncryptionInfo getEncryptionInfo()
-'''
-pass
+    '''    public EncryptionInfo getEncryptionInfo()
+    '''

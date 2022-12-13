@@ -1,4 +1,3 @@
 def getSQLServerError():
-'''public SQLServerError getSQLServerError()
-'''
-pass
+    '''    public SQLServerError getSQLServerError()
+    '''

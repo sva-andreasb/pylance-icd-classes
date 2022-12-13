@@ -1,12 +1,9 @@
 def localeFromString():
-'''public static final Locale localeFromString(final String s)
-'''
-pass
+    '''    public static final Locale localeFromString(final String s)
+    '''
 def chineseNumber():
-'''public static String chineseNumber(long n, final ChineseDigits zh)
-'''
-pass
+    '''    public static String chineseNumber(long n, final ChineseDigits zh)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

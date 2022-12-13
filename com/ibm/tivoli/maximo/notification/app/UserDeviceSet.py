@@ -1,8 +1,6 @@
 def UserDeviceSet():
-'''public UserDeviceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public UserDeviceSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

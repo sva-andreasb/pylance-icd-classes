@@ -1,4 +1,3 @@
 def openIMConnection():
-'''public int openIMConnection()
-'''
-pass
+    '''    public int openIMConnection()
+    '''

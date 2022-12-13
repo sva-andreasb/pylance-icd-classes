@@ -1,16 +1,12 @@
 def FldShiptoAddressCode():
-'''public FldShiptoAddressCode(final MboValue mbv)
-'''
-pass
+    '''    public FldShiptoAddressCode(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

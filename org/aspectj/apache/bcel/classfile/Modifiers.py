@@ -1,69 +1,52 @@
 def Modifiers():
-'''public Modifiers()
-public Modifiers(final int a)
-'''
-pass
+    '''    public Modifiers()
+    public Modifiers(final int a)
+    '''
 def getModifiers():
-'''public final int getModifiers()
-'''
-pass
+    '''    public final int getModifiers()
+    '''
 def setModifiers():
-'''public final void setModifiers(final int modifiers)
-'''
-pass
+    '''    public final void setModifiers(final int modifiers)
+    '''
 def isPublic():
-'''public final boolean isPublic()
-'''
-pass
+    '''    public final boolean isPublic()
+    '''
 def isPrivate():
-'''public final boolean isPrivate()
-'''
-pass
+    '''    public final boolean isPrivate()
+    '''
 def isProtected():
-'''public final boolean isProtected()
-'''
-pass
+    '''    public final boolean isProtected()
+    '''
 def isStatic():
-'''public final boolean isStatic()
-'''
-pass
+    '''    public final boolean isStatic()
+    '''
 def isFinal():
-'''public final boolean isFinal()
-'''
-pass
+    '''    public final boolean isFinal()
+    '''
 def isSynchronized():
-'''public final boolean isSynchronized()
-'''
-pass
+    '''    public final boolean isSynchronized()
+    '''
 def isVolatile():
-'''public final boolean isVolatile()
-'''
-pass
+    '''    public final boolean isVolatile()
+    '''
 def isTransient():
-'''public final boolean isTransient()
-'''
-pass
+    '''    public final boolean isTransient()
+    '''
 def isNative():
-'''public final boolean isNative()
-'''
-pass
+    '''    public final boolean isNative()
+    '''
 def isInterface():
-'''public final boolean isInterface()
-'''
-pass
+    '''    public final boolean isInterface()
+    '''
 def isAbstract():
-'''public final boolean isAbstract()
-'''
-pass
+    '''    public final boolean isAbstract()
+    '''
 def isStrictfp():
-'''public final boolean isStrictfp()
-'''
-pass
+    '''    public final boolean isStrictfp()
+    '''
 def isVarargs():
-'''public final boolean isVarargs()
-'''
-pass
+    '''    public final boolean isVarargs()
+    '''
 def isBridge():
-'''public final boolean isBridge()
-'''
-pass
+    '''    public final boolean isBridge()
+    '''

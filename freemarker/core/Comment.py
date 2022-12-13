@@ -1,4 +1,3 @@
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''

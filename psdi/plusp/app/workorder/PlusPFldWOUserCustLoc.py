@@ -1,12 +1,9 @@
 def PlusPFldWOUserCustLoc():
-'''public PlusPFldWOUserCustLoc(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWOUserCustLoc(final MboValue arg0)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def PRTermSet():
-'''public PRTermSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PRTermSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

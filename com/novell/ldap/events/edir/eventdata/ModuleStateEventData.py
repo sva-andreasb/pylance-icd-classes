@@ -1,28 +1,21 @@
 def ModuleStateEventData():
-'''public ModuleStateEventData(final ASN1Object asn1Object)
-'''
-pass
+    '''    public ModuleStateEventData(final ASN1Object asn1Object)
+    '''
 def getConnectionDN():
-'''public String getConnectionDN()
-'''
-pass
+    '''    public String getConnectionDN()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getFlags():
-'''public int getFlags()
-'''
-pass
+    '''    public int getFlags()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSource():
-'''public String getSource()
-'''
-pass
+    '''    public String getSource()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

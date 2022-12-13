@@ -1,51 +1,39 @@
 def QueryParamsInfo():
-'''public QueryParamsInfo(final String name, final String description)
-public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description)
-public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet)
-public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet, final Long maxVal, final Long minVal, final Integer maxLength)
-'''
-pass
+    '''    public QueryParamsInfo(final String name, final String description)
+    public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description)
+    public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet)
+    public QueryParamsInfo(final String name, final String type, final boolean required, final Object defaultVal, final String description, final Set<String> enumSet, final Long maxVal, final Long minVal, final Integer maxLength)
+    '''
 def getMaxLength():
-'''public Integer getMaxLength()
-'''
-pass
+    '''    public Integer getMaxLength()
+    '''
 def getMaxVal():
-'''public Long getMaxVal()
-'''
-pass
+    '''    public Long getMaxVal()
+    '''
 def getMinVal():
-'''public Long getMinVal()
-'''
-pass
+    '''    public Long getMinVal()
+    '''
 def getEnumSet():
-'''public Set<String> getEnumSet()
-'''
-pass
+    '''    public Set<String> getEnumSet()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def getDefaultVal():
-'''public Object getDefaultVal()
-'''
-pass
+    '''    public Object getDefaultVal()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def isNumeric():
-'''public boolean isNumeric()
-'''
-pass
+    '''    public boolean isNumeric()
+    '''
 def isAln():
-'''public boolean isAln()
-'''
-pass
+    '''    public boolean isAln()
+    '''

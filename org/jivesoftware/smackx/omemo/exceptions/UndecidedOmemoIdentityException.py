@@ -1,12 +1,9 @@
 def UndecidedOmemoIdentityException():
-'''public UndecidedOmemoIdentityException(final OmemoDevice contact)
-'''
-pass
+    '''    public UndecidedOmemoIdentityException(final OmemoDevice contact)
+    '''
 def getUndecidedDevices():
-'''public HashSet<OmemoDevice> getUndecidedDevices()
-'''
-pass
+    '''    public HashSet<OmemoDevice> getUndecidedDevices()
+    '''
 def join():
-'''public void join(final UndecidedOmemoIdentityException other)
-'''
-pass
+    '''    public void join(final UndecidedOmemoIdentityException other)
+    '''

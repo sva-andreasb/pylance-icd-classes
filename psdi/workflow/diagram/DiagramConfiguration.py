@@ -1,144 +1,108 @@
 def DiagramConfiguration():
-'''public DiagramConfiguration()
-'''
-pass
+    '''    public DiagramConfiguration()
+    '''
 def getLineColor():
-'''public Color getLineColor()
-'''
-pass
+    '''    public Color getLineColor()
+    '''
 def setLineColor():
-'''public void setLineColor(final Color lineColor)
-'''
-pass
+    '''    public void setLineColor(final Color lineColor)
+    '''
 def getSelectedLineColor():
-'''public Color getSelectedLineColor()
-'''
-pass
+    '''    public Color getSelectedLineColor()
+    '''
 def setSelectedLineColor():
-'''public void setSelectedLineColor(final Color selectedLineColor)
-'''
-pass
+    '''    public void setSelectedLineColor(final Color selectedLineColor)
+    '''
 def getNegativeLineColor():
-'''public Color getNegativeLineColor()
-'''
-pass
+    '''    public Color getNegativeLineColor()
+    '''
 def setNegativeLineColor():
-'''public void setNegativeLineColor(final Color negativeLineColor)
-'''
-pass
+    '''    public void setNegativeLineColor(final Color negativeLineColor)
+    '''
 def getForeground():
-'''public Color getForeground()
-'''
-pass
+    '''    public Color getForeground()
+    '''
 def setForeground():
-'''public void setForeground(final Color foreground)
-'''
-pass
+    '''    public void setForeground(final Color foreground)
+    '''
 def getBackground():
-'''public Color getBackground()
-'''
-pass
+    '''    public Color getBackground()
+    '''
 def setBackground():
-'''public void setBackground(final Color background)
-'''
-pass
+    '''    public void setBackground(final Color background)
+    '''
 def getSelectedForeground():
-'''public Color getSelectedForeground()
-'''
-pass
+    '''    public Color getSelectedForeground()
+    '''
 def setSelectedForeground():
-'''public void setSelectedForeground(final Color selectedForeground)
-'''
-pass
+    '''    public void setSelectedForeground(final Color selectedForeground)
+    '''
 def getSelectedBackground():
-'''public Color getSelectedBackground()
-'''
-pass
+    '''    public Color getSelectedBackground()
+    '''
 def setSelectedBackground():
-'''public void setSelectedBackground(final Color selectedBackground)
-'''
-pass
+    '''    public void setSelectedBackground(final Color selectedBackground)
+    '''
 def getCurrentNodeColor():
-'''public Color getCurrentNodeColor()
-'''
-pass
+    '''    public Color getCurrentNodeColor()
+    '''
 def setCurrentNodeColor():
-'''public void setCurrentNodeColor(final Color currentNodeColor)
-'''
-pass
+    '''    public void setCurrentNodeColor(final Color currentNodeColor)
+    '''
 def getFont():
-'''public Font getFont()
-'''
-pass
+    '''    public Font getFont()
+    '''
 def setFont():
-'''public void setFont(final Font font)
-'''
-pass
+    '''    public void setFont(final Font font)
+    '''
 def getVerticalLineSpacing():
-'''public int getVerticalLineSpacing()
-'''
-pass
+    '''    public int getVerticalLineSpacing()
+    '''
 def setVerticalLineSpacing():
-'''public void setVerticalLineSpacing(final int verticalLineSpacing)
-'''
-pass
+    '''    public void setVerticalLineSpacing(final int verticalLineSpacing)
+    '''
 def getHorizontalLineSpacing():
-'''public int getHorizontalLineSpacing()
-'''
-pass
+    '''    public int getHorizontalLineSpacing()
+    '''
 def setHorizontalLineSpacing():
-'''public void setHorizontalLineSpacing(final int horizontalLineSpacing)
-'''
-pass
+    '''    public void setHorizontalLineSpacing(final int horizontalLineSpacing)
+    '''
 def getArrowHeight():
-'''public int getArrowHeight()
-'''
-pass
+    '''    public int getArrowHeight()
+    '''
 def setArrowHeight():
-'''public void setArrowHeight(final int arrowHeight)
-'''
-pass
+    '''    public void setArrowHeight(final int arrowHeight)
+    '''
 def getNodeInsets():
-'''public Insets getNodeInsets()
-'''
-pass
+    '''    public Insets getNodeInsets()
+    '''
 def setNodeInsets():
-'''public void setNodeInsets(final Insets nodeInsets)
-'''
-pass
+    '''    public void setNodeInsets(final Insets nodeInsets)
+    '''
 def setNodeBorderInsets():
-'''public void setNodeBorderInsets(final Insets nodeBorderInsets)
-'''
-pass
+    '''    public void setNodeBorderInsets(final Insets nodeBorderInsets)
+    '''
 def getNodeBorderInsets():
-'''public Insets getNodeBorderInsets()
-'''
-pass
+    '''    public Insets getNodeBorderInsets()
+    '''
 def getEmptyRowHeight():
-'''public int getEmptyRowHeight()
-'''
-pass
+    '''    public int getEmptyRowHeight()
+    '''
 def setEmptyRowHeight():
-'''public void setEmptyRowHeight(final int emptyRowHeight)
-'''
-pass
+    '''    public void setEmptyRowHeight(final int emptyRowHeight)
+    '''
 def getEmptyColumnWidth():
-'''public int getEmptyColumnWidth()
-'''
-pass
+    '''    public int getEmptyColumnWidth()
+    '''
 def setEmptyColumnWidth():
-'''public void setEmptyColumnWidth(final int emptyColumnWidth)
-'''
-pass
+    '''    public void setEmptyColumnWidth(final int emptyColumnWidth)
+    '''
 def getImageScaleFactor():
-'''public int getImageScaleFactor()
-'''
-pass
+    '''    public int getImageScaleFactor()
+    '''
 def setImageScaleFactor():
-'''public void setImageScaleFactor(final int imageScaleFactor)
-'''
-pass
+    '''    public void setImageScaleFactor(final int imageScaleFactor)
+    '''
 def scale():
-'''public DiagramConfiguration scale(final int scaleFactor)
-'''
-pass
+    '''    public DiagramConfiguration scale(final int scaleFactor)
+    '''

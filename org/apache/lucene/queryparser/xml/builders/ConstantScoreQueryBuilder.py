@@ -1,8 +1,6 @@
 def ConstantScoreQueryBuilder():
-'''public ConstantScoreQueryBuilder(final QueryBuilderFactory queryFactory)
-'''
-pass
+    '''    public ConstantScoreQueryBuilder(final QueryBuilderFactory queryFactory)
+    '''
 def getQuery():
-'''public Query getQuery(final Element e)
-'''
-pass
+    '''    public Query getQuery(final Element e)
+    '''

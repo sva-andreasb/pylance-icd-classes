@@ -1,4 +1,3 @@
 def getParent():
-'''public Multipart getParent()
-'''
-pass
+    '''    public Multipart getParent()
+    '''

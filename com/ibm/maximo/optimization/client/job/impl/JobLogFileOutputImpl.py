@@ -1,16 +1,12 @@
 def JobLogFileOutputImpl():
-'''public JobLogFileOutputImpl(final File file)
-'''
-pass
+    '''    public JobLogFileOutputImpl(final File file)
+    '''
 def download():
-'''public void download(final JobClient client, final String jobid)
-'''
-pass
+    '''    public void download(final JobClient client, final String jobid)
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def getContent():
-'''public File getContent()
-'''
-pass
+    '''    public File getContent()
+    '''

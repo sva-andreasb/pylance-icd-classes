@@ -1,8 +1,6 @@
 def DMDependencySet():
-'''public DMDependencySet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMDependencySet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

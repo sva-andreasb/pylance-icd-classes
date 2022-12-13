@@ -1,61 +1,46 @@
 def SelectionClusterMemberDescriptionImpl():
-'''public SelectionClusterMemberDescriptionImpl(final DescriptionKey key)
-'''
-pass
+    '''    public SelectionClusterMemberDescriptionImpl(final DescriptionKey key)
+    '''
 def getDefinitionKey():
-'''public String getDefinitionKey()
-'''
-pass
+    '''    public String getDefinitionKey()
+    '''
 def setClusterMemberAssociation():
-'''public void setClusterMemberAssociation(final DescriptionKey association)
-'''
-pass
+    '''    public void setClusterMemberAssociation(final DescriptionKey association)
+    '''
 def exportToStream():
-'''public void exportToStream(final DataOutput out, final Format format)
-'''
-pass
+    '''    public void exportToStream(final DataOutput out, final Format format)
+    '''
 def setHost():
-'''public void setHost(final String host)
-'''
-pass
+    '''    public void setHost(final String host)
+    '''
 def addAttribute():
-'''public void addAttribute(final String attribute)
-'''
-pass
+    '''    public void addAttribute(final String attribute)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final String attribute)
-'''
-pass
+    '''    public void removeAttribute(final String attribute)
+    '''
 def isAttributeEmpty():
-'''public boolean isAttributeEmpty()
-'''
-pass
+    '''    public boolean isAttributeEmpty()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def setMemento():
-'''public void setMemento(final Description.Memento memento)
-'''
-pass
+    '''    public void setMemento(final Description.Memento memento)
+    '''
 def MementoImpl():
-'''public MementoImpl()
-'''
-pass
+    '''    public MementoImpl()
+    '''
 def getConcern():
-'''public Concern getConcern()
-'''
-pass
+    '''    public Concern getConcern()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getClusterMemberAssociation():
-'''public DescriptionKey getClusterMemberAssociation()
-'''
-pass
+    '''    public DescriptionKey getClusterMemberAssociation()
+    '''
 def getAttributes():
-'''public Set getAttributes()
-'''
-pass
+    '''    public Set getAttributes()
+    '''

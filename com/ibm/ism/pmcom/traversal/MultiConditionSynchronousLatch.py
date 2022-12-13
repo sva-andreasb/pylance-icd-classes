@@ -1,20 +1,15 @@
 def MultiConditionSynchronousLatch():
-'''public MultiConditionSynchronousLatch()
-'''
-pass
+    '''    public MultiConditionSynchronousLatch()
+    '''
 def addLatchCondition():
-'''public void addLatchCondition(final ILatchCondition condition)
-'''
-pass
+    '''    public void addLatchCondition(final ILatchCondition condition)
+    '''
 def countUp():
-'''public void countUp()
-'''
-pass
+    '''    public void countUp()
+    '''
 def countDown():
-'''public void countDown()
-'''
-pass
+    '''    public void countDown()
+    '''
 def waitOnLatch():
-'''public void waitOnLatch()
-'''
-pass
+    '''    public void waitOnLatch()
+    '''

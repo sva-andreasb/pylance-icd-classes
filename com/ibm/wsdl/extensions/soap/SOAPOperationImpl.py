@@ -1,41 +1,31 @@
 serialVersionUID = "long  1L"
 def SOAPOperationImpl():
-'''public SOAPOperationImpl()
-'''
-pass
+    '''    public SOAPOperationImpl()
+    '''
 def setElementType():
-'''public void setElementType(final QName elementType)
-'''
-pass
+    '''    public void setElementType(final QName elementType)
+    '''
 def getElementType():
-'''public QName getElementType()
-'''
-pass
+    '''    public QName getElementType()
+    '''
 def setRequired():
-'''public void setRequired(final Boolean required)
-'''
-pass
+    '''    public void setRequired(final Boolean required)
+    '''
 def getRequired():
-'''public Boolean getRequired()
-'''
-pass
+    '''    public Boolean getRequired()
+    '''
 def setSoapActionURI():
-'''public void setSoapActionURI(final String soapActionURI)
-'''
-pass
+    '''    public void setSoapActionURI(final String soapActionURI)
+    '''
 def getSoapActionURI():
-'''public String getSoapActionURI()
-'''
-pass
+    '''    public String getSoapActionURI()
+    '''
 def setStyle():
-'''public void setStyle(final String style)
-'''
-pass
+    '''    public void setStyle(final String style)
+    '''
 def getStyle():
-'''public String getStyle()
-'''
-pass
+    '''    public String getStyle()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

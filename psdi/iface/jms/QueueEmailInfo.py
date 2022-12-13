@@ -1,36 +1,27 @@
 def QueueEmailInfo():
-'''public QueueEmailInfo()
-'''
-pass
+    '''    public QueueEmailInfo()
+    '''
 def getEmailFrom():
-'''public String getEmailFrom()
-'''
-pass
+    '''    public String getEmailFrom()
+    '''
 def setEmailFrom():
-'''public void setEmailFrom(final String emailFrom)
-'''
-pass
+    '''    public void setEmailFrom(final String emailFrom)
+    '''
 def getEmailSubject():
-'''public String getEmailSubject()
-'''
-pass
+    '''    public String getEmailSubject()
+    '''
 def setEmailSubject():
-'''public void setEmailSubject(final String emailSubject)
-'''
-pass
+    '''    public void setEmailSubject(final String emailSubject)
+    '''
 def isSendEmail():
-'''public boolean isSendEmail()
-'''
-pass
+    '''    public boolean isSendEmail()
+    '''
 def setSendEmail():
-'''public void setSendEmail(final boolean sendEmail)
-'''
-pass
+    '''    public void setSendEmail(final boolean sendEmail)
+    '''
 def getToAddresses():
-'''public String[] getToAddresses()
-'''
-pass
+    '''    public String[] getToAddresses()
+    '''
 def setToAddresses():
-'''public void setToAddresses(final String[] toAddresses)
-'''
-pass
+    '''    public void setToAddresses(final String[] toAddresses)
+    '''

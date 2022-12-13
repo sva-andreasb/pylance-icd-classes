@@ -1,21 +1,16 @@
 def getInstance():
-'''public static DERUTF8String getInstance(final Object obj)
-public static DERUTF8String getInstance(final ASN1TaggedObject obj, final boolean explicit)
-'''
-pass
+    '''    public static DERUTF8String getInstance(final Object obj)
+    public static DERUTF8String getInstance(final ASN1TaggedObject obj, final boolean explicit)
+    '''
 def DERUTF8String():
-'''public DERUTF8String(final String string)
-'''
-pass
+    '''    public DERUTF8String(final String string)
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

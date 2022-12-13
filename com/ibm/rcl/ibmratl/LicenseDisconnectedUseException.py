@@ -1,7 +1,6 @@
-CLASSNAME = "String  LicenseExceptionDisconnectedUse""
-VERSION = "String  (%filespec: LicenseExceptionDisconnectedUse.java~6 %)""
+CLASSNAME = "String  \"LicenseExceptionDisconnectedUse\""
+VERSION = "String  \"(%filespec: LicenseExceptionDisconnectedUse.java~6 %)\""
 def LicenseDisconnectedUseException():
-'''public LicenseDisconnectedUseException(final LicenseControl licenseControl)
-public LicenseDisconnectedUseException(final String s)
-'''
-pass
+    '''    public LicenseDisconnectedUseException(final LicenseControl licenseControl)
+    public LicenseDisconnectedUseException(final String s)
+    '''

@@ -1,4 +1,3 @@
 def SurveyResultsSet():
-'''public SurveyResultsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SurveyResultsSet(final MboServerInterface ms)
+    '''

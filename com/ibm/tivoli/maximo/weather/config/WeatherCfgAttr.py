@@ -1,4 +1,3 @@
 def WeatherCfgAttr():
-'''public WeatherCfgAttr(final MboSet ms)
-'''
-pass
+    '''    public WeatherCfgAttr(final MboSet ms)
+    '''

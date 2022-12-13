@@ -1,16 +1,12 @@
 def getDocumentURL():
-'''public static String getDocumentURL(final String documentFile)
-'''
-pass
+    '''    public static String getDocumentURL(final String documentFile)
+    '''
 def getProperties():
-'''public static Properties getProperties()
-'''
-pass
+    '''    public static Properties getProperties()
+    '''
 def getTopLevelFolders():
-'''public static ArrayList getTopLevelFolders()
-'''
-pass
+    '''    public static ArrayList getTopLevelFolders()
+    '''
 def clearDocProps():
-'''public static synchronized void clearDocProps()
-'''
-pass
+    '''    public static synchronized void clearDocProps()
+    '''

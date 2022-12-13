@@ -1,21 +1,16 @@
 def AltRep():
-'''public AltRep(final String aValue)
-public AltRep(final URI aUri)
-'''
-pass
+    '''    public AltRep(final String aValue)
+    public AltRep(final URI aUri)
+    '''
 def getUri():
-'''public final URI getUri()
-'''
-pass
+    '''    public final URI getUri()
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createParameter():
-'''public Parameter createParameter(final String value)
-'''
-pass
+    '''    public Parameter createParameter(final String value)
+    '''

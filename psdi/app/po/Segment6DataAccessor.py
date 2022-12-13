@@ -1,4 +1,3 @@
 def Segment6DataAccessor():
-'''public Segment6DataAccessor()
-'''
-pass
+    '''    public Segment6DataAccessor()
+    '''

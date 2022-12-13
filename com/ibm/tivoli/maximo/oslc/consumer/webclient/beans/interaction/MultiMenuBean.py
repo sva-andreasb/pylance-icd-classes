@@ -1,8 +1,6 @@
 def MultiMenuBean():
-'''public MultiMenuBean()
-'''
-pass
+    '''    public MultiMenuBean()
+    '''
 def callMethod():
-'''public int callMethod(final WebClientEvent event)
-'''
-pass
+    '''    public int callMethod(final WebClientEvent event)
+    '''

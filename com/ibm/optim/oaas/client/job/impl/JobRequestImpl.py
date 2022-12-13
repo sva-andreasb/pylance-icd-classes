@@ -1,72 +1,54 @@
 def JobRequestImpl():
-'''public JobRequestImpl(final JobClientImpl client, final JobCreationDataImpl data, final List<JobInput> input, final List<JobOutput> output, final List<JobLogOutputImpl> logoutput, final boolean delete, final long timeout, final OutputStream livelog, final DateFormat livelogDateFormat, final String copy, final boolean shallow, final String recreate, final boolean batchSubmitMode)
-'''
-pass
+    '''    public JobRequestImpl(final JobClientImpl client, final JobCreationDataImpl data, final List<JobInput> input, final List<JobOutput> output, final List<JobLogOutputImpl> logoutput, final boolean delete, final long timeout, final OutputStream livelog, final DateFormat livelogDateFormat, final String copy, final boolean shallow, final String recreate, final boolean batchSubmitMode)
+    '''
 def getClient():
-'''public JobClientImpl getClient()
-'''
-pass
+    '''    public JobClientImpl getClient()
+    '''
 def getData():
-'''public JobCreationDataImpl getData()
-'''
-pass
+    '''    public JobCreationDataImpl getData()
+    '''
 def getInput():
-'''public List<JobInput> getInput()
-'''
-pass
+    '''    public List<JobInput> getInput()
+    '''
 def getOutput():
-'''public List<JobOutput> getOutput()
-'''
-pass
+    '''    public List<JobOutput> getOutput()
+    '''
 def getLogOutput():
-'''public List<JobLogOutputImpl> getLogOutput()
-'''
-pass
+    '''    public List<JobLogOutputImpl> getLogOutput()
+    '''
 def isDeleteOnCompletion():
-'''public boolean isDeleteOnCompletion()
-'''
-pass
+    '''    public boolean isDeleteOnCompletion()
+    '''
 def getTimeout():
-'''public long getTimeout()
-'''
-pass
+    '''    public long getTimeout()
+    '''
 def getLivelog():
-'''public OutputStream getLivelog()
-'''
-pass
+    '''    public OutputStream getLivelog()
+    '''
 def execute():
-'''public Future<JobResponse> execute(final JobExecutor executor)
-'''
-pass
+    '''    public Future<JobResponse> execute(final JobExecutor executor)
+    '''
 def create():
-'''public Future<JobResponse> create(final JobExecutor executor)
-'''
-pass
+    '''    public Future<JobResponse> create(final JobExecutor executor)
+    '''
 def getJobId():
-'''public String getJobId()
-'''
-pass
+    '''    public String getJobId()
+    '''
 def setJobId():
-'''public void setJobId(final String jobid)
-'''
-pass
+    '''    public void setJobId(final String jobid)
+    '''
 def getLivelogDateFormat():
-'''public DateFormat getLivelogDateFormat()
-'''
-pass
+    '''    public DateFormat getLivelogDateFormat()
+    '''
 def getCopyJobId():
-'''public String getCopyJobId()
-'''
-pass
+    '''    public String getCopyJobId()
+    '''
 def getShallowCopy():
-'''public boolean getShallowCopy()
-'''
-pass
+    '''    public boolean getShallowCopy()
+    '''
 def getRecreateJobId():
-'''public String getRecreateJobId()
-'''
-pass
+    '''    public String getRecreateJobId()
+    '''
 def isBatchSubmitMode():
-'''public boolean isBatchSubmitMode()
-'''
-pass
+    '''    public boolean isBatchSubmitMode()
+    '''

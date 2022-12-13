@@ -1,17 +1,13 @@
 def getModuleName():
-'''public String getModuleName()
-'''
-pass
+    '''    public String getModuleName()
+    '''
 def getDescription():
-'''public String getDescription(final UserInfo ui)
-public String getDescription()
-'''
-pass
+    '''    public String getDescription(final UserInfo ui)
+    public String getDescription()
+    '''
 def getTypedReference():
-'''public MaxModuleInfoBase getTypedReference()
-'''
-pass
+    '''    public MaxModuleInfoBase getTypedReference()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

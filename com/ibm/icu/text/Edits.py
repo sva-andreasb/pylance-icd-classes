@@ -1,96 +1,72 @@
 def Edits():
-'''public Edits()
-'''
-pass
+    '''    public Edits()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def addUnchanged():
-'''public void addUnchanged(int unchangedLength)
-'''
-pass
+    '''    public void addUnchanged(int unchangedLength)
+    '''
 def addReplace():
-'''public void addReplace(final int oldLength, final int newLength)
-'''
-pass
+    '''    public void addReplace(final int oldLength, final int newLength)
+    '''
 def lengthDelta():
-'''public int lengthDelta()
-'''
-pass
+    '''    public int lengthDelta()
+    '''
 def hasChanges():
-'''public boolean hasChanges()
-'''
-pass
+    '''    public boolean hasChanges()
+    '''
 def numberOfChanges():
-'''public int numberOfChanges()
-'''
-pass
+    '''    public int numberOfChanges()
+    '''
 def getCoarseChangesIterator():
-'''public Iterator getCoarseChangesIterator()
-'''
-pass
+    '''    public Iterator getCoarseChangesIterator()
+    '''
 def getCoarseIterator():
-'''public Iterator getCoarseIterator()
-'''
-pass
+    '''    public Iterator getCoarseIterator()
+    '''
 def getFineChangesIterator():
-'''public Iterator getFineChangesIterator()
-'''
-pass
+    '''    public Iterator getFineChangesIterator()
+    '''
 def getFineIterator():
-'''public Iterator getFineIterator()
-'''
-pass
+    '''    public Iterator getFineIterator()
+    '''
 def mergeAndAppend():
-'''public Edits mergeAndAppend(final Edits ab, final Edits bc)
-'''
-pass
+    '''    public Edits mergeAndAppend(final Edits ab, final Edits bc)
+    '''
 def next():
-'''public boolean next()
-'''
-pass
+    '''    public boolean next()
+    '''
 def findSourceIndex():
-'''public boolean findSourceIndex(final int i)
-'''
-pass
+    '''    public boolean findSourceIndex(final int i)
+    '''
 def findDestinationIndex():
-'''public boolean findDestinationIndex(final int i)
-'''
-pass
+    '''    public boolean findDestinationIndex(final int i)
+    '''
 def destinationIndexFromSourceIndex():
-'''public int destinationIndexFromSourceIndex(final int i)
-'''
-pass
+    '''    public int destinationIndexFromSourceIndex(final int i)
+    '''
 def sourceIndexFromDestinationIndex():
-'''public int sourceIndexFromDestinationIndex(final int i)
-'''
-pass
+    '''    public int sourceIndexFromDestinationIndex(final int i)
+    '''
 def hasChange():
-'''public boolean hasChange()
-'''
-pass
+    '''    public boolean hasChange()
+    '''
 def oldLength():
-'''public int oldLength()
-'''
-pass
+    '''    public int oldLength()
+    '''
 def newLength():
-'''public int newLength()
-'''
-pass
+    '''    public int newLength()
+    '''
 def sourceIndex():
-'''public int sourceIndex()
-'''
-pass
+    '''    public int sourceIndex()
+    '''
 def replacementIndex():
-'''public int replacementIndex()
-'''
-pass
+    '''    public int replacementIndex()
+    '''
 def destinationIndex():
-'''public int destinationIndex()
-'''
-pass
+    '''    public int destinationIndex()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

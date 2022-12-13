@@ -1,28 +1,21 @@
 def OslcFileImportCronTask():
-'''public OslcFileImportCronTask()
-'''
-pass
+    '''    public OslcFileImportCronTask()
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def getParameters():
-'''public CrontaskParamInfo[] getParameters()
-'''
-pass
+    '''    public CrontaskParamInfo[] getParameters()
+    '''
 def setCrontaskInstance():
-'''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
-'''
-pass
+    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''
 def action():
-'''public void action(final MboRemote fileimportQueueMbo, final OslcRequest request, final byte[] actionData, final String osName)
-'''
-pass
+    '''    public void action(final MboRemote fileimportQueueMbo, final OslcRequest request, final byte[] actionData, final String osName)
+    '''
 def importData():
-'''public void importData(final MboRemote fileImportQueueMbo, final InputStream in, final UserInfo userInfo, final String osName, final String fileType, final String delimiter, final String textqualifier, final String action, final String transLangCode, final String messageType)
-'''
-pass
+    '''    public void importData(final MboRemote fileImportQueueMbo, final InputStream in, final UserInfo userInfo, final String osName, final String fileType, final String delimiter, final String textqualifier, final String action, final String transLangCode, final String messageType)
+    '''

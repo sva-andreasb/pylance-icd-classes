@@ -1,3 +1,3 @@
-NodeName = "String  Search_cell""
-Label = "String  Label""
-Left = "String  Left""
+NodeName = "String  \"Search_cell\""
+Label = "String  \"Label\""
+Left = "String  \"Left\""

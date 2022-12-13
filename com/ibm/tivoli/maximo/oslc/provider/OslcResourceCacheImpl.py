@@ -1,41 +1,31 @@
 def OslcResourceCacheImpl():
-'''public OslcResourceCacheImpl()
-'''
-pass
+    '''    public OslcResourceCacheImpl()
+    '''
 def getOslcResourcesForDomain():
-'''public List<OslcResourceInfo> getOslcResourcesForDomain(final String nsURI)
-'''
-pass
+    '''    public List<OslcResourceInfo> getOslcResourcesForDomain(final String nsURI)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getKeyMap():
-'''public static Map<String, String> getKeyMap(final String keyMap)
-'''
-pass
+    '''    public static Map<String, String> getKeyMap(final String keyMap)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isValidUseWith():
-'''public boolean isValidUseWith(final String useWith)
-'''
-pass
+    '''    public boolean isValidUseWith(final String useWith)
+    '''
 def getOslcResourceInfo():
-'''public OslcResourceInfo getOslcResourceInfo(final String osName)
-'''
-pass
+    '''    public OslcResourceInfo getOslcResourceInfo(final String osName)
+    '''
 def getOslcResourceMap():
-'''public Map<String, OslcResourceInfo> getOslcResourceMap()
-'''
-pass
+    '''    public Map<String, OslcResourceInfo> getOslcResourceMap()
+    '''
 def isAllowIntegrationOSAsResource():
-'''public boolean isAllowIntegrationOSAsResource()
-'''
-pass
+    '''    public boolean isAllowIntegrationOSAsResource()
+    '''

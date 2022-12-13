@@ -1,43 +1,33 @@
 def getInstance():
-'''public static Region getInstance(final String id)
-public static Region getInstance(final int code)
-'''
-pass
+    '''    public static Region getInstance(final String id)
+    public static Region getInstance(final int code)
+    '''
 def getAvailable():
-'''public static Set<Region> getAvailable(final RegionType type)
-'''
-pass
+    '''    public static Set<Region> getAvailable(final RegionType type)
+    '''
 def getContainingRegion():
-'''public Region getContainingRegion()
-public Region getContainingRegion(final RegionType type)
-'''
-pass
+    '''    public Region getContainingRegion()
+    public Region getContainingRegion(final RegionType type)
+    '''
 def getContainedRegions():
-'''public Set<Region> getContainedRegions()
-public Set<Region> getContainedRegions(final RegionType type)
-'''
-pass
+    '''    public Set<Region> getContainedRegions()
+    public Set<Region> getContainedRegions(final RegionType type)
+    '''
 def getPreferredValues():
-'''public List<Region> getPreferredValues()
-'''
-pass
+    '''    public List<Region> getPreferredValues()
+    '''
 def contains():
-'''public boolean contains(final Region other)
-'''
-pass
+    '''    public boolean contains(final Region other)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getNumericCode():
-'''public int getNumericCode()
-'''
-pass
+    '''    public int getNumericCode()
+    '''
 def getType():
-'''public RegionType getType()
-'''
-pass
+    '''    public RegionType getType()
+    '''
 def compareTo():
-'''public int compareTo(final Region other)
-'''
-pass
+    '''    public int compareTo(final Region other)
+    '''

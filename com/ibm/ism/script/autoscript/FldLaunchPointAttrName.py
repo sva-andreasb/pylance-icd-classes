@@ -1,4 +1,3 @@
 def FldLaunchPointAttrName():
-'''public FldLaunchPointAttrName(final MboValue mbv)
-'''
-pass
+    '''    public FldLaunchPointAttrName(final MboValue mbv)
+    '''

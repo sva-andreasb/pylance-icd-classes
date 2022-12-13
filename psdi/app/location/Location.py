@@ -1,545 +1,411 @@
 def Location():
-'''public Location(final MboSet ms)
-'''
-pass
+    '''    public Location(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def setReadonlyForOperORStoreAfterAdd():
-'''public void setReadonlyForOperORStoreAfterAdd()
-'''
-pass
+    '''    public void setReadonlyForOperORStoreAfterAdd()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def getLocationMeterNowDate():
-'''public Date getLocationMeterNowDate()
-'''
-pass
+    '''    public Date getLocationMeterNowDate()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def cannotChangeStatus():
-'''public void cannotChangeStatus(final MboSetRemote msr)
-'''
-pass
+    '''    public void cannotChangeStatus(final MboSetRemote msr)
+    '''
 def isStore():
-'''public boolean isStore()
-'''
-pass
+    '''    public boolean isStore()
+    '''
 def isCourier():
-'''public boolean isCourier()
-'''
-pass
+    '''    public boolean isCourier()
+    '''
 def isHolding():
-'''public boolean isHolding()
-'''
-pass
+    '''    public boolean isHolding()
+    '''
 def isLabor():
-'''public boolean isLabor()
-'''
-pass
+    '''    public boolean isLabor()
+    '''
 def isOperating():
-'''public boolean isOperating()
-'''
-pass
+    '''    public boolean isOperating()
+    '''
 def isDecommissioned():
-'''public boolean isDecommissioned()
-'''
-pass
+    '''    public boolean isDecommissioned()
+    '''
 def isVendor():
-'''public boolean isVendor()
-'''
-pass
+    '''    public boolean isVendor()
+    '''
 def authorizeUserStore():
-'''public void authorizeUserStore(final String user)
-'''
-pass
+    '''    public void authorizeUserStore(final String user)
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def getChildrenInAllSystems():
-'''public MboSetRemote getChildrenInAllSystems()
-'''
-pass
+    '''    public MboSetRemote getChildrenInAllSystems()
+    '''
 def getParents():
-'''public MboSetRemote getParents()
-public MboSetRemote getParents(final String SystemId)
-'''
-pass
+    '''    public MboSetRemote getParents()
+    public MboSetRemote getParents(final String SystemId)
+    '''
 def getTop():
-'''public MboSetRemote getTop()
-'''
-pass
+    '''    public MboSetRemote getTop()
+    '''
 def getHierarchies():
-'''public String[] getHierarchies()
-'''
-pass
+    '''    public String[] getHierarchies()
+    '''
 def showHierarchy():
-'''public MboSetRemote showHierarchy()
-'''
-pass
+    '''    public MboSetRemote showHierarchy()
+    '''
 def walkUpHierarchy():
-'''public Vector walkUpHierarchy()
-'''
-pass
+    '''    public Vector walkUpHierarchy()
+    '''
 def getChildrenInPrimary():
-'''public MboSetRemote getChildrenInPrimary()
-public MboSetRemote getChildrenInPrimary(final String locSiteId)
-'''
-pass
+    '''    public MboSetRemote getChildrenInPrimary()
+    public MboSetRemote getChildrenInPrimary(final String locSiteId)
+    '''
 def inPrimarySystem():
-'''public boolean inPrimarySystem()
-public boolean inPrimarySystem(final String locSiteId)
-'''
-pass
+    '''    public boolean inPrimarySystem()
+    public boolean inPrimarySystem(final String locSiteId)
+    '''
 def getPrimaryLocations():
-'''public MboSetRemote getPrimaryLocations()
-'''
-pass
+    '''    public MboSetRemote getPrimaryLocations()
+    '''
 def getNonPrimaryLocations():
-'''public MboSetRemote getNonPrimaryLocations()
-'''
-pass
+    '''    public MboSetRemote getNonPrimaryLocations()
+    '''
 def getLocItem():
-'''public String getLocItem()
-'''
-pass
+    '''    public String getLocItem()
+    '''
 def isLocationOccupied():
-'''public boolean isLocationOccupied(final MboRemote asset)
-public boolean isLocationOccupied(final String itemnum)
-'''
-pass
+    '''    public boolean isLocationOccupied(final MboRemote asset)
+    public boolean isLocationOccupied(final String itemnum)
+    '''
 def doesHoldingLocationExistForSite():
-'''public boolean doesHoldingLocationExistForSite(final String siteid)
-'''
-pass
+    '''    public boolean doesHoldingLocationExistForSite(final String siteid)
+    '''
 def getHoldingLocationForSite():
-'''public MboRemote getHoldingLocationForSite(final String siteid)
-'''
-pass
+    '''    public MboRemote getHoldingLocationForSite(final String siteid)
+    '''
 def isInventory():
-'''public boolean isInventory()
-'''
-pass
+    '''    public boolean isInventory()
+    '''
 def updateDesc():
-'''public void updateDesc()
-'''
-pass
+    '''    public void updateDesc()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def updateGLInfo():
-'''public void updateGLInfo()
-'''
-pass
+    '''    public void updateGLInfo()
+    '''
 def generateLocationMetersForMeterGroup():
-'''public void generateLocationMetersForMeterGroup()
-'''
-pass
+    '''    public void generateLocationMetersForMeterGroup()
+    '''
 def getClearDupSeqNumsOnMeterGroupChange():
-'''public boolean getClearDupSeqNumsOnMeterGroupChange()
-'''
-pass
+    '''    public boolean getClearDupSeqNumsOnMeterGroupChange()
+    '''
 def checkForDuplicateMeterSequenceValues():
-'''public void checkForDuplicateMeterSequenceValues()
-'''
-pass
+    '''    public void checkForDuplicateMeterSequenceValues()
+    '''
 def appendDescription():
-'''public void appendDescription(final String descSpec)
-'''
-pass
+    '''    public void appendDescription(final String descSpec)
+    '''
 def generateLocationSpec():
-'''public MboSetRemote generateLocationSpec()
-'''
-pass
+    '''    public MboSetRemote generateLocationSpec()
+    '''
 def canApplyIAS():
-'''public boolean canApplyIAS()
-'''
-pass
+    '''    public boolean canApplyIAS()
+    '''
 def applyIAS():
-'''public Object[] applyIAS(final boolean autokey)
-'''
-pass
+    '''    public Object[] applyIAS(final boolean autokey)
+    '''
 def applyIASAutoNumAll():
-'''public void applyIASAutoNumAll()
-'''
-pass
+    '''    public void applyIASAutoNumAll()
+    '''
 def applyIASCreateChild():
-'''public MboRemote applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)
-'''
-pass
+    '''    public MboRemote applyIASCreateChild(final MboRemote itemStruct, final boolean autokey)
+    '''
 def applyIASGenPMs():
-'''public MboSetRemote applyIASGenPMs(final boolean autokey)
-'''
-pass
+    '''    public MboSetRemote applyIASGenPMs(final boolean autokey)
+    '''
 def canChangeStatus():
-'''public void canChangeStatus(final String changeToStatus, final long accessModifier)
-'''
-pass
+    '''    public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''
 def setInitNonInteractiveStatChange():
-'''public void setInitNonInteractiveStatChange(final boolean value)
-'''
-pass
+    '''    public void setInitNonInteractiveStatChange(final boolean value)
+    '''
 def getInitNonInteractiveStatChange():
-'''public boolean getInitNonInteractiveStatChange()
-'''
-pass
+    '''    public boolean getInitNonInteractiveStatChange()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
-public void changeStatus(final String changedStatus, final Date asOfDate, final String memo, boolean rolltoallchildren, final boolean removefromallroutes, boolean rolltoallassets, final boolean removefromalljp, final boolean removefromactivesp, final boolean changepmstatus)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date asOfDate, final String memo, final long accessModifier)
+    public void changeStatus(final String changedStatus, final Date asOfDate, final String memo, boolean rolltoallchildren, final boolean removefromallroutes, boolean rolltoallassets, final boolean removefromalljp, final boolean removefromactivesp, final boolean changepmstatus)
+    '''
 def trackStatusChangedAssetInLocations():
-'''public void trackStatusChangedAssetInLocations(final long assetuid)
-'''
-pass
+    '''    public void trackStatusChangedAssetInLocations(final long assetuid)
+    '''
 def hasAssetStatusChangedAlready():
-'''public boolean hasAssetStatusChangedAlready(final long assetuid)
-'''
-pass
+    '''    public boolean hasAssetStatusChangedAlready(final long assetuid)
+    '''
 def isReferencedByOpenWO():
-'''public boolean isReferencedByOpenWO()
-'''
-pass
+    '''    public boolean isReferencedByOpenWO()
+    '''
 def isReferencedByPM():
-'''public boolean isReferencedByPM()
-'''
-pass
+    '''    public boolean isReferencedByPM()
+    '''
 def isReferencedByActiveRoutes():
-'''public boolean isReferencedByActiveRoutes()
-'''
-pass
+    '''    public boolean isReferencedByActiveRoutes()
+    '''
 def isReferencedByActiveSP():
-'''public boolean isReferencedByActiveSP()
-'''
-pass
+    '''    public boolean isReferencedByActiveSP()
+    '''
 def isReferencedByJobPlans():
-'''public boolean isReferencedByJobPlans()
-'''
-pass
+    '''    public boolean isReferencedByJobPlans()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copyInvReserveSetForIssues():
-'''public void copyInvReserveSetForIssues(final MboSetRemote invReserveSet)
-'''
-pass
+    '''    public void copyInvReserveSetForIssues(final MboSetRemote invReserveSet)
+    '''
 def copyInvReserveSetForTransferOut():
-'''public void copyInvReserveSetForTransferOut(final MboSetRemote invReserveSet)
-'''
-pass
+    '''    public void copyInvReserveSetForTransferOut(final MboSetRemote invReserveSet)
+    '''
 def copyInvReserveSetForTransferIn():
-'''public void copyInvReserveSetForTransferIn(final MboSetRemote invReserveSet)
-'''
-pass
+    '''    public void copyInvReserveSetForTransferIn(final MboSetRemote invReserveSet)
+    '''
 def copyMatUseTransSetForReturn():
-'''public void copyMatUseTransSetForReturn(final MboSetRemote matUseSet)
-'''
-pass
+    '''    public void copyMatUseTransSetForReturn(final MboSetRemote matUseSet)
+    '''
 def receiveRotableAssetOnMoveFromNonInventoryWithPOLine():
-'''public MboRemote receiveRotableAssetOnMoveFromNonInventoryWithPOLine(final MboRemote asset, final String glCredit, final String glDebit, final MboRemote mrtMbo)
-'''
-pass
+    '''    public MboRemote receiveRotableAssetOnMoveFromNonInventoryWithPOLine(final MboRemote asset, final String glCredit, final String glDebit, final MboRemote mrtMbo)
+    '''
 def receiveRotableAssetOnMoveFromNonInventory():
-'''public MboRemote receiveRotableAssetOnMoveFromNonInventory(final MboRemote asset, final String glCredit, final String glDebit)
-'''
-pass
+    '''    public MboRemote receiveRotableAssetOnMoveFromNonInventory(final MboRemote asset, final String glCredit, final String glDebit)
+    '''
 def copySparePartSetForIssues():
-'''public void copySparePartSetForIssues(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySparePartSetForIssues(final MboSetRemote sparePartSet)
+    '''
 def copySparePartSetForTransferOut():
-'''public void copySparePartSetForTransferOut(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySparePartSetForTransferOut(final MboSetRemote sparePartSet)
+    '''
 def copySparePartSetForTransferIn():
-'''public void copySparePartSetForTransferIn(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySparePartSetForTransferIn(final MboSetRemote sparePartSet)
+    '''
 def copyInvBalancesSetForTransferOut():
-'''public void copyInvBalancesSetForTransferOut(final MboSetRemote invBalancesSet)
-'''
-pass
+    '''    public void copyInvBalancesSetForTransferOut(final MboSetRemote invBalancesSet)
+    '''
 def copyInvBalancesSetForTransferIn():
-'''public void copyInvBalancesSetForTransferIn(final MboSetRemote invBalancesSet)
-'''
-pass
+    '''    public void copyInvBalancesSetForTransferIn(final MboSetRemote invBalancesSet)
+    '''
 def copyPOLineSetForTransferOut():
-'''public void copyPOLineSetForTransferOut(final MboSetRemote poLineSet)
-'''
-pass
+    '''    public void copyPOLineSetForTransferOut(final MboSetRemote poLineSet)
+    '''
 def warningsCopyPOLineSetForTransferOut():
-'''public void warningsCopyPOLineSetForTransferOut()
-'''
-pass
+    '''    public void warningsCopyPOLineSetForTransferOut()
+    '''
 def copyPOLineSetForTransferIn():
-'''public void copyPOLineSetForTransferIn(final MboSetRemote poLineSet)
-'''
-pass
+    '''    public void copyPOLineSetForTransferIn(final MboSetRemote poLineSet)
+    '''
 def copyMatRecTransSetForTransferIn():
-'''public void copyMatRecTransSetForTransferIn(final MboSetRemote matRecTransSet)
-'''
-pass
+    '''    public void copyMatRecTransSetForTransferIn(final MboSetRemote matRecTransSet)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def warningsCopyPOLineSetForTransferIn():
-'''public void warningsCopyPOLineSetForTransferIn()
-'''
-pass
+    '''    public void warningsCopyPOLineSetForTransferIn()
+    '''
 def warningsCopyMatRecTransSetForTransferIn():
-'''public void warningsCopyMatRecTransSetForTransferIn()
-'''
-pass
+    '''    public void warningsCopyMatRecTransSetForTransferIn()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def selectPOItemsOut():
-'''public MboSetRemote selectPOItemsOut()
-'''
-pass
+    '''    public MboSetRemote selectPOItemsOut()
+    '''
 def selectReservedItemsOut():
-'''public MboSetRemote selectReservedItemsOut()
-'''
-pass
+    '''    public MboSetRemote selectReservedItemsOut()
+    '''
 def selectItemsForTransferOut():
-'''public MboSetRemote selectItemsForTransferOut()
-'''
-pass
+    '''    public MboSetRemote selectItemsForTransferOut()
+    '''
 def selectPOItemsIn():
-'''public MboSetRemote selectPOItemsIn()
-'''
-pass
+    '''    public MboSetRemote selectPOItemsIn()
+    '''
 def selectMatRecTransIn():
-'''public MboSetRemote selectMatRecTransIn()
-'''
-pass
+    '''    public MboSetRemote selectMatRecTransIn()
+    '''
 def selectReservedItemsIn():
-'''public MboSetRemote selectReservedItemsIn()
-'''
-pass
+    '''    public MboSetRemote selectReservedItemsIn()
+    '''
 def selectItemsForTransferIn():
-'''public MboSetRemote selectItemsForTransferIn()
-'''
-pass
+    '''    public MboSetRemote selectItemsForTransferIn()
+    '''
 def selectItemsForReturn():
-'''public MboSetRemote selectItemsForReturn()
-'''
-pass
+    '''    public MboSetRemote selectItemsForReturn()
+    '''
 def selectReservedItems():
-'''public MboSetRemote selectReservedItems()
-'''
-pass
+    '''    public MboSetRemote selectReservedItems()
+    '''
 def canAssociateSystem():
-'''public boolean canAssociateSystem()
-'''
-pass
+    '''    public boolean canAssociateSystem()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def setLocationAttributesForWO():
-'''public void setLocationAttributesForWO()
-public void setLocationAttributesForWO(final AutoAttrUpdateSetRemote autoAttrUpdateSet)
-'''
-pass
+    '''    public void setLocationAttributesForWO()
+    public void setLocationAttributesForWO(final AutoAttrUpdateSetRemote autoAttrUpdateSet)
+    '''
 def getWarrantyInfo():
-'''public List getWarrantyInfo(final Date woDate, final boolean isParent)
-public List getWarrantyInfo(final Date woDate, final boolean isParent, final String type)
-'''
-pass
+    '''    public List getWarrantyInfo(final Date woDate, final boolean isParent)
+    public List getWarrantyInfo(final Date woDate, final boolean isParent, final String type)
+    '''
 def hasMeters():
-'''public void hasMeters()
-'''
-pass
+    '''    public void hasMeters()
+    '''
 def hasReadings():
-'''public void hasReadings()
-'''
-pass
+    '''    public void hasReadings()
+    '''
 def getAssetForLocation():
-'''public String getAssetForLocation()
-'''
-pass
+    '''    public String getAssetForLocation()
+    '''
 def getLeaseContractForLocation():
-'''public MboSetRemote getLeaseContractForLocation()
-'''
-pass
+    '''    public MboSetRemote getLeaseContractForLocation()
+    '''
 def getWarranty():
-'''public MboSetRemote getWarranty()
-'''
-pass
+    '''    public MboSetRemote getWarranty()
+    '''
 def getWarrantyContractForLocation():
-'''public MboSetRemote getWarrantyContractForLocation()
-'''
-pass
+    '''    public MboSetRemote getWarrantyContractForLocation()
+    '''
 def autoWogen():
-'''public void autoWogen()
-public void autoWogen(final MboRemote locationMeter)
-'''
-pass
+    '''    public void autoWogen()
+    public void autoWogen(final MboRemote locationMeter)
+    '''
 def createTicket():
-'''public void createTicket(final MboRemote tkMbo)
-'''
-pass
+    '''    public void createTicket(final MboRemote tkMbo)
+    '''
 def createWO():
-'''public void createWO(final MboRemote workorderMbo)
-'''
-pass
+    '''    public void createWO(final MboRemote workorderMbo)
+    '''
 def copyLocationToCollectDetailsSet():
-'''public void copyLocationToCollectDetailsSet(final MboSetRemote collectionSet)
-'''
-pass
+    '''    public void copyLocationToCollectDetailsSet(final MboSetRemote collectionSet)
+    '''
 def addLocationsToCollectDetails():
-'''public void addLocationsToCollectDetails(final String collectionNum)
-'''
-pass
+    '''    public void addLocationsToCollectDetails(final String collectionNum)
+    '''
 def createWorkorder():
-'''public MboRemote createWorkorder(final String jpnum)
-'''
-pass
+    '''    public MboRemote createWorkorder(final String jpnum)
+    '''
 def createChange():
-'''public MboRemote createChange(final String jpnum)
-'''
-pass
+    '''    public MboRemote createChange(final String jpnum)
+    '''
 def createRelease():
-'''public MboRemote createRelease(final String jpnum)
-'''
-pass
+    '''    public MboRemote createRelease(final String jpnum)
+    '''
 def createServiceRequest():
-'''public MboRemote createServiceRequest(final String tickettemplateid)
-'''
-pass
+    '''    public MboRemote createServiceRequest(final String tickettemplateid)
+    '''
 def createProblem():
-'''public MboRemote createProblem(final String tickettemplateid)
-'''
-pass
+    '''    public MboRemote createProblem(final String tickettemplateid)
+    '''
 def createIncident():
-'''public MboRemote createIncident(final String tickettemplateid)
-'''
-pass
+    '''    public MboRemote createIncident(final String tickettemplateid)
+    '''
 def validateOrderQty():
-'''public void validateOrderQty()
-'''
-pass
+    '''    public void validateOrderQty()
+    '''
 def queryDataSheets():
-'''public void queryDataSheets(final PlusCWODSSetRemote woDsSet, final boolean loopCalibrations, final Date fromDate, final Date toDate)
-'''
-pass
+    '''    public void queryDataSheets(final PlusCWODSSetRemote woDsSet, final boolean loopCalibrations, final Date fromDate, final Date toDate)
+    '''
 def canBeUsedAsTagId():
-'''public boolean canBeUsedAsTagId()
-'''
-pass
+    '''    public boolean canBeUsedAsTagId()
+    '''
 def getAssociatedAsset():
-'''public AssetRemote getAssociatedAsset()
-'''
-pass
+    '''    public AssetRemote getAssociatedAsset()
+    '''
 def getAddressSystemForLocationMbo():
-'''public MboRemote getAddressSystemForLocationMbo()
-'''
-pass
+    '''    public MboRemote getAddressSystemForLocationMbo()
+    '''
 def getAncestorSABasedOnAddressSystem():
-'''public MboRemote getAncestorSABasedOnAddressSystem(final MboRemote child)
-'''
-pass
+    '''    public MboRemote getAncestorSABasedOnAddressSystem(final MboRemote child)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def getServiceAddress():
-'''public ServiceAddressRemote getServiceAddress()
-'''
-pass
+    '''    public ServiceAddressRemote getServiceAddress()
+    '''
 def hasServiceAddress():
-'''public boolean hasServiceAddress()
-'''
-pass
+    '''    public boolean hasServiceAddress()
+    '''
 def saveGISData():
-'''public void saveGISData(final String address, final String lat, final String lng)
-'''
-pass
+    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def addMoreLocationsToSet():
-'''public void addMoreLocationsToSet(final MboSetRemote selectedMoreMboSet, final MboSetRemote selectedMboSet)
-'''
-pass
+    '''    public void addMoreLocationsToSet(final MboSetRemote selectedMoreMboSet, final MboSetRemote selectedMboSet)
+    '''
 def getAutoLocateObject():
-'''public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
-public MboRemote getAutoLocateObject()
-'''
-pass
+    '''    public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
+    public MboRemote getAutoLocateObject()
+    '''
 def hasCoords():
-'''public Boolean hasCoords()
-'''
-pass
+    '''    public Boolean hasCoords()
+    '''
 def getTopParentInSystem():
-'''public MboRemote getTopParentInSystem(final String SystemId)
-'''
-pass
+    '''    public MboRemote getTopParentInSystem(final String SystemId)
+    '''
 def managePMMeterTallyOnMeterDeleteUndelete():
-'''public void managePMMeterTallyOnMeterDeleteUndelete(final MboRemote pmMeter, final String action)
-'''
-pass
+    '''    public void managePMMeterTallyOnMeterDeleteUndelete(final MboRemote pmMeter, final String action)
+    '''
 def getPMMeterTally():
-'''public int getPMMeterTally(final MboRemote pmMeter)
-'''
-pass
+    '''    public int getPMMeterTally(final MboRemote pmMeter)
+    '''
 def getChildrenInSystem():
-'''public MboSetRemote getChildrenInSystem()
-'''
-pass
+    '''    public MboSetRemote getChildrenInSystem()
+    '''

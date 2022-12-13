@@ -1,8 +1,6 @@
 def FldWpToolRate():
-'''public FldWpToolRate(final MboValue mbv)
-'''
-pass
+    '''    public FldWpToolRate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

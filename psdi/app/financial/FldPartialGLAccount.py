@@ -1,8 +1,6 @@
 def FldPartialGLAccount():
-'''public FldPartialGLAccount(final MboValue mbv)
-'''
-pass
+    '''    public FldPartialGLAccount(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

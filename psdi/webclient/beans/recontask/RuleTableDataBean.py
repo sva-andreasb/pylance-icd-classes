@@ -1,8 +1,6 @@
 def selectlinkrecord():
-'''public int selectlinkrecord()
-'''
-pass
+    '''    public int selectlinkrecord()
+    '''
 def selectcomprecord():
-'''public int selectcomprecord()
-'''
-pass
+    '''    public int selectcomprecord()
+    '''

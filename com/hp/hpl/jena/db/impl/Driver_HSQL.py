@@ -1,24 +1,18 @@
 def Driver_HSQL():
-'''public Driver_HSQL()
-'''
-pass
+    '''    public Driver_HSQL()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def graphIdAlloc():
-'''public int graphIdAlloc(final String graphName)
-'''
-pass
+    '''    public int graphIdAlloc(final String graphName)
+    '''
 def graphIdDealloc():
-'''public void graphIdDealloc(final int graphId)
-'''
-pass
+    '''    public void graphIdDealloc(final int graphId)
+    '''
 def setConnection():
-'''public void setConnection(final IDBConnection dbcon)
-'''
-pass
+    '''    public void setConnection(final IDBConnection dbcon)
+    '''

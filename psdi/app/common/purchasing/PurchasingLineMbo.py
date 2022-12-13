@@ -1,129 +1,97 @@
 def PurchasingLineMbo():
-'''public PurchasingLineMbo(final MboSet ms)
-'''
-pass
+    '''    public PurchasingLineMbo(final MboSet ms)
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def setDefaultValues():
-'''public void setDefaultValues()
-'''
-pass
+    '''    public void setDefaultValues()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def getTaxCodes():
-'''public void getTaxCodes()
-'''
-pass
+    '''    public void getTaxCodes()
+    '''
 def getDefaultTaxExempt():
-'''public void getDefaultTaxExempt(final MboRemote itemRemote, final MboRemote invVendor)
-'''
-pass
+    '''    public void getDefaultTaxExempt(final MboRemote itemRemote, final MboRemote invVendor)
+    '''
 def getDefaultTaxCodes():
-'''public void getDefaultTaxCodes(final MboRemote itemRemote, final MboRemote invVendor)
-'''
-pass
+    '''    public void getDefaultTaxCodes(final MboRemote itemRemote, final MboRemote invVendor)
+    '''
 def setReceiptTolerance():
-'''public void setReceiptTolerance(final MboRemote Itemorg, final MboRemote Invvendor)
-'''
-pass
+    '''    public void setReceiptTolerance(final MboRemote Itemorg, final MboRemote Invvendor)
+    '''
 def setMRPassedIn():
-'''public void setMRPassedIn(final MRRemote mr)
-'''
-pass
+    '''    public void setMRPassedIn(final MRRemote mr)
+    '''
 def getMRPassedIn():
-'''public MRRemote getMRPassedIn()
-'''
-pass
+    '''    public MRRemote getMRPassedIn()
+    '''
 def isValidMRIfAny():
-'''public void isValidMRIfAny()
-'''
-pass
+    '''    public void isValidMRIfAny()
+    '''
 def setOrderUnit():
-'''public void setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)
-'''
-pass
+    '''    public void setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)
+    '''
 def setDefaultOrderPrice():
-'''public void setDefaultOrderPrice()
-'''
-pass
+    '''    public void setDefaultOrderPrice()
+    '''
 def getInvVendorValues():
-'''public void getInvVendorValues()
-public void getInvVendorValues(final boolean callingfromContition)
-'''
-pass
+    '''    public void getInvVendorValues()
+    public void getInvVendorValues(final boolean callingfromContition)
+    '''
 def setUnitCost():
-'''public void setUnitCost(final boolean gettingPriceFromInvCost, double price)
-'''
-pass
+    '''    public void setUnitCost(final boolean gettingPriceFromInvCost, double price)
+    '''
 def createContractLine():
-'''public void createContractLine(final MboRemote newContract)
-'''
-pass
+    '''    public void createContractLine(final MboRemote newContract)
+    '''
 def setPriceQtyFields():
-'''public void setPriceQtyFields()
-'''
-pass
+    '''    public void setPriceQtyFields()
+    '''
 def isAddLinesOnUse():
-'''public boolean isAddLinesOnUse(final MboRemote contractRemote)
-'''
-pass
+    '''    public boolean isAddLinesOnUse(final MboRemote contractRemote)
+    '''
 def foundOtherLines():
-'''public boolean foundOtherLines()
-'''
-pass
+    '''    public boolean foundOtherLines()
+    '''
 def validateDeliveryDate():
-'''public void validateDeliveryDate()
-'''
-pass
+    '''    public void validateDeliveryDate()
+    '''
 def compareContractWithPOPR():
-'''public boolean compareContractWithPOPR(final MboRemote contractRemote, final MboRemote poprHeader, final MboRemote contractAuth)
-'''
-pass
+    '''    public boolean compareContractWithPOPR(final MboRemote contractRemote, final MboRemote poprHeader, final MboRemote contractAuth)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setConversionFactor():
-'''public void setConversionFactor()
-'''
-pass
+    '''    public void setConversionFactor()
+    '''
 def setFieldsInitDuplicate():
-'''public void setFieldsInitDuplicate()
-'''
-pass
+    '''    public void setFieldsInitDuplicate()
+    '''
 def copyLeaseSuspAcct():
-'''public void copyLeaseSuspAcct(final MboRemote contractRemote)
-'''
-pass
+    '''    public void copyLeaseSuspAcct(final MboRemote contractRemote)
+    '''
 def isValidRefWOIfAny():
-'''public void isValidRefWOIfAny()
-'''
-pass
+    '''    public void isValidRefWOIfAny()
+    '''
 def isValidAssetIfAny():
-'''public void isValidAssetIfAny()
-'''
-pass
+    '''    public void isValidAssetIfAny()
+    '''
 def isValidLocationIfAny():
-'''public void isValidLocationIfAny()
-'''
-pass
+    '''    public void isValidLocationIfAny()
+    '''
 def isValidStoreLocIfAny():
-'''public void isValidStoreLocIfAny()
-'''
-pass
+    '''    public void isValidStoreLocIfAny()
+    '''
 def checkConsignment():
-'''public void checkConsignment(final MboRemote lineMboRemote, final MboRemote inventoryRec)
-'''
-pass
+    '''    public void checkConsignment(final MboRemote lineMboRemote, final MboRemote inventoryRec)
+    '''
 def setRecentItemNum():
-'''public void setRecentItemNum(final String itemNum)
-'''
-pass
+    '''    public void setRecentItemNum(final String itemNum)
+    '''
 def getRecentItemNum():
-'''public String getRecentItemNum()
-'''
-pass
+    '''    public String getRecentItemNum()
+    '''

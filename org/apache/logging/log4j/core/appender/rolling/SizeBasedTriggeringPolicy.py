@@ -1,20 +1,15 @@
 def getMaxFileSize():
-'''public long getMaxFileSize()
-'''
-pass
+    '''    public long getMaxFileSize()
+    '''
 def initialize():
-'''public void initialize(final RollingFileManager aManager)
-'''
-pass
+    '''    public void initialize(final RollingFileManager aManager)
+    '''
 def isTriggeringEvent():
-'''public boolean isTriggeringEvent(final LogEvent event)
-'''
-pass
+    '''    public boolean isTriggeringEvent(final LogEvent event)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def createPolicy():
-'''public static SizeBasedTriggeringPolicy createPolicy(@PluginAttribute("size") final String size)
-'''
-pass
+    '''    public static SizeBasedTriggeringPolicy createPolicy(@PluginAttribute("size") final String size)
+    '''

@@ -1,28 +1,21 @@
 def PlusPWorkLogSet():
-'''public PlusPWorkLogSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPWorkLogSet(final MboServerInterface arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def appendToWhere():
-'''public String appendToWhere()
-'''
-pass
+    '''    public String appendToWhere()
+    '''
 def getWorkLogForRelatedRecords():
-'''public void getWorkLogForRelatedRecords(final boolean viewSRApp)
-'''
-pass
+    '''    public void getWorkLogForRelatedRecords(final boolean viewSRApp)
+    '''
 def getNextLineNum():
-'''public int getNextLineNum()
-'''
-pass
+    '''    public int getNextLineNum()
+    '''
 def acceptAllEstimates():
-'''public void acceptAllEstimates()
-'''
-pass
+    '''    public void acceptAllEstimates()
+    '''
 def rejectAllEstimates():
-'''public void rejectAllEstimates()
-'''
-pass
+    '''    public void rejectAllEstimates()
+    '''

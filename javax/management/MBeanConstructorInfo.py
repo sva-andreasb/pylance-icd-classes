@@ -1,21 +1,16 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getSignature():
-'''public MBeanParameterInfo[] getSignature()
-'''
-pass
+    '''    public MBeanParameterInfo[] getSignature()
+    '''
 def MBeanConstructorInfo():
-'''public MBeanConstructorInfo(final String s, final Constructor constructor)
-public MBeanConstructorInfo(final String s, final String s2, MBeanParameterInfo[] no_PARAMS)
-'''
-pass
+    '''    public MBeanConstructorInfo(final String s, final Constructor constructor)
+    public MBeanConstructorInfo(final String s, final String s2, MBeanParameterInfo[] no_PARAMS)
+    '''

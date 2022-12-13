@@ -1,18 +1,14 @@
-ELEMENT = "String  node""
+ELEMENT = "String  \"node\""
 def NodeElement():
-'''public NodeElement(final NodeInfo nodeInfo, final TimestampElement timestampElement)
-public NodeElement(final NodeInfo nodeInfo, final List<TimestampElement> timestampElements)
-'''
-pass
+    '''    public NodeElement(final NodeInfo nodeInfo, final TimestampElement timestampElement)
+    public NodeElement(final NodeInfo nodeInfo, final List<TimestampElement> timestampElements)
+    '''
 def getTimestampElements():
-'''public List<TimestampElement> getTimestampElements()
-'''
-pass
+    '''    public List<TimestampElement> getTimestampElements()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

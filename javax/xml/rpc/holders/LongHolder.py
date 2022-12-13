@@ -1,5 +1,4 @@
 def LongHolder():
-'''public LongHolder()
-public LongHolder(final long value)
-'''
-pass
+    '''    public LongHolder()
+    public LongHolder(final long value)
+    '''

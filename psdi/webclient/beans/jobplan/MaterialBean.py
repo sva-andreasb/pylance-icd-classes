@@ -1,4 +1,3 @@
 def copySpareParts():
-'''public int copySpareParts(final MboSetRemote spareParts)
-'''
-pass
+    '''    public int copySpareParts(final MboSetRemote spareParts)
+    '''

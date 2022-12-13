@@ -1,89 +1,67 @@
 def forPattern():
-'''public static DateTimeFormatter forPattern(final String s)
-'''
-pass
+    '''    public static DateTimeFormatter forPattern(final String s)
+    '''
 def forStyle():
-'''public static DateTimeFormatter forStyle(final String s)
-'''
-pass
+    '''    public static DateTimeFormatter forStyle(final String s)
+    '''
 def patternForStyle():
-'''public static String patternForStyle(final String s, Locale default1)
-'''
-pass
+    '''    public static String patternForStyle(final String s, Locale default1)
+    '''
 def shortDate():
-'''public static DateTimeFormatter shortDate()
-'''
-pass
+    '''    public static DateTimeFormatter shortDate()
+    '''
 def shortTime():
-'''public static DateTimeFormatter shortTime()
-'''
-pass
+    '''    public static DateTimeFormatter shortTime()
+    '''
 def shortDateTime():
-'''public static DateTimeFormatter shortDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter shortDateTime()
+    '''
 def mediumDate():
-'''public static DateTimeFormatter mediumDate()
-'''
-pass
+    '''    public static DateTimeFormatter mediumDate()
+    '''
 def mediumTime():
-'''public static DateTimeFormatter mediumTime()
-'''
-pass
+    '''    public static DateTimeFormatter mediumTime()
+    '''
 def mediumDateTime():
-'''public static DateTimeFormatter mediumDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter mediumDateTime()
+    '''
 def longDate():
-'''public static DateTimeFormatter longDate()
-'''
-pass
+    '''    public static DateTimeFormatter longDate()
+    '''
 def longTime():
-'''public static DateTimeFormatter longTime()
-'''
-pass
+    '''    public static DateTimeFormatter longTime()
+    '''
 def longDateTime():
-'''public static DateTimeFormatter longDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter longDateTime()
+    '''
 def fullDate():
-'''public static DateTimeFormatter fullDate()
-'''
-pass
+    '''    public static DateTimeFormatter fullDate()
+    '''
 def fullTime():
-'''public static DateTimeFormatter fullTime()
-'''
-pass
+    '''    public static DateTimeFormatter fullTime()
+    '''
 def fullDateTime():
-'''public static DateTimeFormatter fullDateTime()
-'''
-pass
+    '''    public static DateTimeFormatter fullDateTime()
+    '''
 def estimatePrintedLength():
-'''public int estimatePrintedLength()
-'''
-pass
+    '''    public int estimatePrintedLength()
+    '''
 def printTo():
-'''public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
-public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
-'''
-pass
+    '''    public void printTo(final Appendable appendable, final long n, final Chronology chronology, final int n2, final DateTimeZone dateTimeZone, final Locale locale)
+    public void printTo(final Appendable appendable, final ReadablePartial readablePartial, final Locale locale)
+    '''
 def estimateParsedLength():
-'''public int estimateParsedLength()
-'''
-pass
+    '''    public int estimateParsedLength()
+    '''
 def parseInto():
-'''public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
-'''
-pass
+    '''    public int parseInto(final DateTimeParserBucket dateTimeParserBucket, final CharSequence charSequence, final int n)
+    '''
 def StyleFormatterCacheKey():
-'''public StyleFormatterCacheKey(final int n, final int n2, final int n3, final Locale locale)
-'''
-pass
+    '''    public StyleFormatterCacheKey(final int n, final int n2, final int n3, final Locale locale)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

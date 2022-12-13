@@ -1,8 +1,6 @@
 def IoTFDeviceTypeMappingSet():
-'''public IoTFDeviceTypeMappingSet(final MboServerInterface ms)
-'''
-pass
+    '''    public IoTFDeviceTypeMappingSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

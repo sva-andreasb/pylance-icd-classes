@@ -1,16 +1,12 @@
 def RecordTimeZoneDialogSet():
-'''public RecordTimeZoneDialogSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RecordTimeZoneDialogSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def passSelectionToMboSet():
-'''public void passSelectionToMboSet(final Vector selectedObjects)
-'''
-pass
+    '''    public void passSelectionToMboSet(final Vector selectedObjects)
+    '''

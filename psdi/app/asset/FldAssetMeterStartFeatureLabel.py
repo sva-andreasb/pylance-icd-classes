@@ -1,4 +1,3 @@
 def FldAssetMeterStartFeatureLabel():
-'''public FldAssetMeterStartFeatureLabel(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetMeterStartFeatureLabel(final MboValue mbv)
+    '''

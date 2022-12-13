@@ -1,4 +1,3 @@
 def rewrite():
-'''public LoggingEvent rewrite(final LoggingEvent source)
-'''
-pass
+    '''    public LoggingEvent rewrite(final LoggingEvent source)
+    '''

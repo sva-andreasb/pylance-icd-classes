@@ -1,24 +1,18 @@
 def parse():
-'''public static Duration parse(final CharSequence text)
-'''
-pass
+    '''    public static Duration parse(final CharSequence text)
+    '''
 def toMillis():
-'''public long toMillis()
-'''
-pass
+    '''    public long toMillis()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def compareTo():
-'''public int compareTo(final Duration other)
-'''
-pass
+    '''    public int compareTo(final Duration other)
+    '''

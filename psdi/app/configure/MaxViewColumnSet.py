@@ -1,4 +1,3 @@
 def MaxViewColumnSet():
-'''public MaxViewColumnSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxViewColumnSet(final MboServerInterface ms)
+    '''

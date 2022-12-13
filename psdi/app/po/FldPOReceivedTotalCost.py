@@ -1,8 +1,6 @@
 def FldPOReceivedTotalCost():
-'''public FldPOReceivedTotalCost(final MboValue mbv)
-'''
-pass
+    '''    public FldPOReceivedTotalCost(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,18 +1,14 @@
-WFINSTANCE = "String  &WFINSTANCE&""
-WFASSIGNMENT = "String  &WFASSIGNMENT&""
+WFINSTANCE = "String  \"&WFINSTANCE&\""
+WFASSIGNMENT = "String  \"&WFASSIGNMENT&\""
 def ReferencedMboStore():
-'''public ReferencedMboStore()
-'''
-pass
+    '''    public ReferencedMboStore()
+    '''
 def store():
-'''public void store(final String token, final MboRemote refMbo)
-'''
-pass
+    '''    public void store(final String token, final MboRemote refMbo)
+    '''
 def getMbo():
-'''public MboRemote getMbo(final String token)
-'''
-pass
+    '''    public MboRemote getMbo(final String token)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final MboRemote owner, String token)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final MboRemote owner, String token)
+    '''

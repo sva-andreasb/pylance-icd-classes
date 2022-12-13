@@ -1,118 +1,89 @@
 def IlvGrid():
-'''public IlvGrid()
-public IlvGrid(final Paint paint)
-public IlvGrid(final Paint majorPaint, final Paint minorPaint)
-'''
-pass
+    '''    public IlvGrid()
+    public IlvGrid(final Paint paint)
+    public IlvGrid(final Paint majorPaint, final Paint minorPaint)
+    '''
 def getDrawOrder():
-'''public final int getDrawOrder()
-'''
-pass
+    '''    public final int getDrawOrder()
+    '''
 def setDrawOrder():
-'''public void setDrawOrder(final int h)
-'''
-pass
+    '''    public void setDrawOrder(final int h)
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def setVisible():
-'''public final void setVisible(final boolean b)
-'''
-pass
+    '''    public final void setVisible(final boolean b)
+    '''
 def isMajorLineVisible():
-'''public final boolean isMajorLineVisible()
-'''
-pass
+    '''    public final boolean isMajorLineVisible()
+    '''
 def setMajorLineVisible():
-'''public void setMajorLineVisible(final boolean d)
-'''
-pass
+    '''    public void setMajorLineVisible(final boolean d)
+    '''
 def isMinorLineVisible():
-'''public final boolean isMinorLineVisible()
-'''
-pass
+    '''    public final boolean isMinorLineVisible()
+    '''
 def setMinorLineVisible():
-'''public void setMinorLineVisible(final boolean e)
-'''
-pass
+    '''    public void setMinorLineVisible(final boolean e)
+    '''
 def getMajorStyle():
-'''public final IlvStyle getMajorStyle()
-'''
-pass
+    '''    public final IlvStyle getMajorStyle()
+    '''
 def getMajorStroke():
-'''public final Stroke getMajorStroke()
-'''
-pass
+    '''    public final Stroke getMajorStroke()
+    '''
 def setMajorStroke():
-'''public void setMajorStroke(final Stroke stroke)
-'''
-pass
+    '''    public void setMajorStroke(final Stroke stroke)
+    '''
 def getMajorPaint():
-'''public final Paint getMajorPaint()
-'''
-pass
+    '''    public final Paint getMajorPaint()
+    '''
 def setMajorPaint():
-'''public void setMajorPaint(final Paint strokePaint)
-'''
-pass
+    '''    public void setMajorPaint(final Paint strokePaint)
+    '''
 def getMinorStyle():
-'''public final IlvStyle getMinorStyle()
-'''
-pass
+    '''    public final IlvStyle getMinorStyle()
+    '''
 def getMinorStroke():
-'''public final Stroke getMinorStroke()
-'''
-pass
+    '''    public final Stroke getMinorStroke()
+    '''
 def setMinorStroke():
-'''public void setMinorStroke(final Stroke stroke)
-'''
-pass
+    '''    public void setMinorStroke(final Stroke stroke)
+    '''
 def getMinorPaint():
-'''public final Paint getMinorPaint()
-'''
-pass
+    '''    public final Paint getMinorPaint()
+    '''
 def setMinorPaint():
-'''public void setMinorPaint(final Paint strokePaint)
-'''
-pass
+    '''    public void setMinorPaint(final Paint strokePaint)
+    '''
 def getChart():
-'''public final IlvChart getChart()
-'''
-pass
+    '''    public final IlvChart getChart()
+    '''
 def getAxis():
-'''public final IlvAxis getAxis()
-'''
-pass
+    '''    public final IlvAxis getAxis()
+    '''
 def getCoordinateSystem():
-'''public final IlvCoordinateSystem getCoordinateSystem()
-'''
-pass
+    '''    public final IlvCoordinateSystem getCoordinateSystem()
+    '''
 def has3DSupport():
-'''public boolean has3DSupport()
-'''
-pass
+    '''    public boolean has3DSupport()
+    '''
 def draw():
-'''public void draw(final Graphics graphics)
-'''
-pass
+    '''    public void draw(final Graphics graphics)
+    '''
 def getBounds():
-'''public Rectangle2D getBounds(Rectangle2D rectangle2D)
-'''
-pass
+    '''    public Rectangle2D getBounds(Rectangle2D rectangle2D)
+    '''
 def getGridShapes():
-'''public final Shape[] getGridShapes(final IlvDoubleArray ilvDoubleArray)
-'''
-pass
+    '''    public final Shape[] getGridShapes(final IlvDoubleArray ilvDoubleArray)
+    '''
 def setDefaultGridColor():
-'''public static void setDefaultGridColor(final Color b)
-'''
-pass
+    '''    public static void setDefaultGridColor(final Color b)
+    '''
 def getDefaultGridColor():
-'''public static Color getDefaultGridColor()
-'''
-pass
+    '''    public static Color getDefaultGridColor()
+    '''
 def getAxisIndex():
-'''public static int getAxisIndex(final IlvGrid ilvGrid)
-'''
-pass
+    '''    public static int getAxisIndex(final IlvGrid ilvGrid)
+    '''

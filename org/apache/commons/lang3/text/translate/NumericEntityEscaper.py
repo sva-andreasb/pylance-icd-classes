@@ -1,24 +1,18 @@
 def NumericEntityEscaper():
-'''public NumericEntityEscaper()
-'''
-pass
+    '''    public NumericEntityEscaper()
+    '''
 def below():
-'''public static NumericEntityEscaper below(final int codepoint)
-'''
-pass
+    '''    public static NumericEntityEscaper below(final int codepoint)
+    '''
 def above():
-'''public static NumericEntityEscaper above(final int codepoint)
-'''
-pass
+    '''    public static NumericEntityEscaper above(final int codepoint)
+    '''
 def between():
-'''public static NumericEntityEscaper between(final int codepointLow, final int codepointHigh)
-'''
-pass
+    '''    public static NumericEntityEscaper between(final int codepointLow, final int codepointHigh)
+    '''
 def outsideOf():
-'''public static NumericEntityEscaper outsideOf(final int codepointLow, final int codepointHigh)
-'''
-pass
+    '''    public static NumericEntityEscaper outsideOf(final int codepointLow, final int codepointHigh)
+    '''
 def translate():
-'''public boolean translate(final int codepoint, final Writer out)
-'''
-pass
+    '''    public boolean translate(final int codepoint, final Writer out)
+    '''

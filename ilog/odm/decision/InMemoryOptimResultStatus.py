@@ -1,45 +1,34 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getGap():
-'''public double getGap()
-'''
-pass
+    '''    public double getGap()
+    '''
 def hasGap():
-'''public boolean hasGap()
-'''
-pass
+    '''    public boolean hasGap()
+    '''
 def hasRelaxation():
-'''public boolean hasRelaxation()
-'''
-pass
+    '''    public boolean hasRelaxation()
+    '''
 def hasSolution():
-'''public boolean hasSolution()
-'''
-pass
+    '''    public boolean hasSolution()
+    '''
 def hasStatus():
-'''public boolean hasStatus()
-'''
-pass
+    '''    public boolean hasStatus()
+    '''
 def isOptimal():
-'''public boolean isOptimal()
-'''
-pass
+    '''    public boolean isOptimal()
+    '''
 def setGap():
-'''public void setGap(final double gap)
-'''
-pass
+    '''    public void setGap(final double gap)
+    '''
 def setHasGap():
-'''public void setHasGap(final boolean hasGap)
-'''
-pass
+    '''    public void setHasGap(final boolean hasGap)
+    '''
 def setIsOptimal():
-'''public void setIsOptimal(final boolean isOptimal)
-'''
-pass
+    '''    public void setIsOptimal(final boolean isOptimal)
+    '''
 def setHasRelaxation():
-'''public void setHasRelaxation(final boolean hasRelaxation)
-'''
-pass
+    '''    public void setHasRelaxation(final boolean hasRelaxation)
+    '''
 def setHasSolution():
-'''public void setHasSolution(final boolean hasSolution)
-'''
-pass
+    '''    public void setHasSolution(final boolean hasSolution)
+    '''

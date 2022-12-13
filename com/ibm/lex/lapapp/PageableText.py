@@ -1,25 +1,19 @@
 def PageableText():
-'''public PageableText(final String[] paragraphs, final Locale locale)
-'''
-pass
+    '''    public PageableText(final String[] paragraphs, final Locale locale)
+    '''
 def print():
-'''public void print()
-public int print(final Graphics graphics, final PageFormat pageFormat, final int n)
-'''
-pass
+    '''    public void print()
+    public int print(final Graphics graphics, final PageFormat pageFormat, final int n)
+    '''
 def getNumberOfPages():
-'''public int getNumberOfPages()
-'''
-pass
+    '''    public int getNumberOfPages()
+    '''
 def getPageFormat():
-'''public PageFormat getPageFormat(final int n)
-'''
-pass
+    '''    public PageFormat getPageFormat(final int n)
+    '''
 def getPrintable():
-'''public Printable getPrintable(final int n)
-'''
-pass
+    '''    public Printable getPrintable(final int n)
+    '''
 def breakText():
-'''public Vector breakText(final double n, final String[] array, final Locale locale)
-'''
-pass
+    '''    public Vector breakText(final double n, final String[] array, final Locale locale)
+    '''

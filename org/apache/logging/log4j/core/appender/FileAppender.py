@@ -1,94 +1,71 @@
-PLUGIN_NAME = "String  File""
+PLUGIN_NAME = "String  \"File\""
 def createAppender():
-'''public static <B extends Builder<B>> FileAppender createAppender(final String fileName, final String append, final String locking, final String name, final String immediateFlush, final String ignoreExceptions, final String bufferedIo, final String bufferSizeStr, final Layout<? extends Serializable> layout, final Filter filter, final String advertise, final String advertiseUri, final Configuration config)
-'''
-pass
+    '''    public static <B extends Builder<B>> FileAppender createAppender(final String fileName, final String append, final String locking, final String name, final String immediateFlush, final String ignoreExceptions, final String bufferedIo, final String bufferSizeStr, final Layout<? extends Serializable> layout, final Filter filter, final String advertise, final String advertiseUri, final Configuration config)
+    '''
 def newBuilder():
-'''public static <B extends Builder<B>> B newBuilder()
-'''
-pass
+    '''    public static <B extends Builder<B>> B newBuilder()
+    '''
 def getFileName():
-'''public String getFileName()
-public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    public String getFileName()
+    '''
 def stop():
-'''public boolean stop(final long timeout, final TimeUnit timeUnit)
-'''
-pass
+    '''    public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public FileAppender build()
-'''
-pass
+    '''    public FileAppender build()
+    '''
 def getAdvertiseUri():
-'''public String getAdvertiseUri()
-'''
-pass
+    '''    public String getAdvertiseUri()
+    '''
 def isAdvertise():
-'''public boolean isAdvertise()
-'''
-pass
+    '''    public boolean isAdvertise()
+    '''
 def isAppend():
-'''public boolean isAppend()
-'''
-pass
+    '''    public boolean isAppend()
+    '''
 def isCreateOnDemand():
-'''public boolean isCreateOnDemand()
-'''
-pass
+    '''    public boolean isCreateOnDemand()
+    '''
 def isLocking():
-'''public boolean isLocking()
-'''
-pass
+    '''    public boolean isLocking()
+    '''
 def getFilePermissions():
-'''public String getFilePermissions()
-'''
-pass
+    '''    public String getFilePermissions()
+    '''
 def getFileOwner():
-'''public String getFileOwner()
-'''
-pass
+    '''    public String getFileOwner()
+    '''
 def getFileGroup():
-'''public String getFileGroup()
-'''
-pass
+    '''    public String getFileGroup()
+    '''
 def withAdvertise():
-'''public B withAdvertise(final boolean advertise)
-'''
-pass
+    '''    public B withAdvertise(final boolean advertise)
+    '''
 def withAdvertiseUri():
-'''public B withAdvertiseUri(final String advertiseUri)
-'''
-pass
+    '''    public B withAdvertiseUri(final String advertiseUri)
+    '''
 def withAppend():
-'''public B withAppend(final boolean append)
-'''
-pass
+    '''    public B withAppend(final boolean append)
+    '''
 def withFileName():
-'''public B withFileName(final String fileName)
-'''
-pass
+    '''    public B withFileName(final String fileName)
+    '''
 def withCreateOnDemand():
-'''public B withCreateOnDemand(final boolean createOnDemand)
-'''
-pass
+    '''    public B withCreateOnDemand(final boolean createOnDemand)
+    '''
 def withLocking():
-'''public B withLocking(final boolean locking)
-'''
-pass
+    '''    public B withLocking(final boolean locking)
+    '''
 def withFilePermissions():
-'''public B withFilePermissions(final String filePermissions)
-'''
-pass
+    '''    public B withFilePermissions(final String filePermissions)
+    '''
 def withFileOwner():
-'''public B withFileOwner(final String fileOwner)
-'''
-pass
+    '''    public B withFileOwner(final String fileOwner)
+    '''
 def withFileGroup():
-'''public B withFileGroup(final String fileGroup)
-'''
-pass
+    '''    public B withFileGroup(final String fileGroup)
+    '''

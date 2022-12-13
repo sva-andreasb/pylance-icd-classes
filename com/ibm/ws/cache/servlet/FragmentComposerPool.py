@@ -1,4 +1,3 @@
 def FragmentComposerPool():
-'''public FragmentComposerPool(final int size)
-'''
-pass
+    '''    public FragmentComposerPool(final int size)
+    '''

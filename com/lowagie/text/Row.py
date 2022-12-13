@@ -2,66 +2,50 @@ NULL = "int  0"
 CELL = "int  1"
 TABLE = "int  2"
 def process():
-'''public boolean process(final ElementListener listener)
-'''
-pass
+    '''    public boolean process(final ElementListener listener)
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def getChunks():
-'''public ArrayList getChunks()
-'''
-pass
+    '''    public ArrayList getChunks()
+    '''
 def setHorizontalAlignment():
-'''public void setHorizontalAlignment(final int value)
-'''
-pass
+    '''    public void setHorizontalAlignment(final int value)
+    '''
 def setVerticalAlignment():
-'''public void setVerticalAlignment(final int value)
-'''
-pass
+    '''    public void setVerticalAlignment(final int value)
+    '''
 def getCell():
-'''public Object getCell(final int column)
-'''
-pass
+    '''    public Object getCell(final int column)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def columns():
-'''public int columns()
-'''
-pass
+    '''    public int columns()
+    '''
 def horizontalAlignment():
-'''public int horizontalAlignment()
-'''
-pass
+    '''    public int horizontalAlignment()
+    '''
 def verticalAlignment():
-'''public int verticalAlignment()
-'''
-pass
+    '''    public int verticalAlignment()
+    '''
 def isTag():
-'''public static boolean isTag(final String tag)
-'''
-pass
+    '''    public static boolean isTag(final String tag)
+    '''
 def setMarkupAttribute():
-'''public void setMarkupAttribute(final String name, final String value)
-'''
-pass
+    '''    public void setMarkupAttribute(final String name, final String value)
+    '''
 def setMarkupAttributes():
-'''public void setMarkupAttributes(final Properties markupAttributes)
-'''
-pass
+    '''    public void setMarkupAttributes(final Properties markupAttributes)
+    '''
 def getMarkupAttribute():
-'''public String getMarkupAttribute(final String name)
-'''
-pass
+    '''    public String getMarkupAttribute(final String name)
+    '''
 def getMarkupAttributeNames():
-'''public Set getMarkupAttributeNames()
-'''
-pass
+    '''    public Set getMarkupAttributeNames()
+    '''
 def getMarkupAttributes():
-'''public Properties getMarkupAttributes()
-'''
-pass
+    '''    public Properties getMarkupAttributes()
+    '''

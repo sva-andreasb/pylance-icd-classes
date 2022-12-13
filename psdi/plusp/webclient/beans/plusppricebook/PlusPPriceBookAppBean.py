@@ -1,8 +1,6 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def REVISION():
-'''public int REVISION()
-'''
-pass
+    '''    public int REVISION()
+    '''

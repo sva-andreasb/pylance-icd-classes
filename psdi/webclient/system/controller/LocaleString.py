@@ -1,24 +1,18 @@
 def LocaleString():
-'''public LocaleString(final String id, final String property, final String value)
-'''
-pass
+    '''    public LocaleString(final String id, final String property, final String value)
+    '''
 def getUniqueKey():
-'''public String getUniqueKey()
-'''
-pass
+    '''    public String getUniqueKey()
+    '''
 def makeUniqueKey():
-'''public static String makeUniqueKey(final String id, final String property)
-'''
-pass
+    '''    public static String makeUniqueKey(final String id, final String property)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getProperty():
-'''public String getProperty()
-'''
-pass
+    '''    public String getProperty()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

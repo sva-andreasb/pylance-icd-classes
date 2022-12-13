@@ -1,4 +1,3 @@
 def getAdvisorMediator():
-'''public static AdvisorMediator getAdvisorMediator()
-'''
-pass
+    '''    public static AdvisorMediator getAdvisorMediator()
+    '''

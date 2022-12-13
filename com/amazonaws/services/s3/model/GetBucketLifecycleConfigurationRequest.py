@@ -1,4 +1,3 @@
 def GetBucketLifecycleConfigurationRequest():
-'''public GetBucketLifecycleConfigurationRequest(final String bucketName)
-'''
-pass
+    '''    public GetBucketLifecycleConfigurationRequest(final String bucketName)
+    '''

@@ -1,4 +1,3 @@
 def PasswordHistorySet():
-'''public PasswordHistorySet(final MboServerInterface ms)
-'''
-pass
+    '''    public PasswordHistorySet(final MboServerInterface ms)
+    '''

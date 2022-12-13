@@ -1,24 +1,18 @@
 def AnnotationsBase():
-'''public AnnotationsBase()
-'''
-pass
+    '''    public AnnotationsBase()
+    '''
 def getNotes():
-'''public List<String> getNotes()
-'''
-pass
+    '''    public List<String> getNotes()
+    '''
 def hasNotes():
-'''public boolean hasNotes()
-'''
-pass
+    '''    public boolean hasNotes()
+    '''
 def hasOneNote():
-'''public boolean hasOneNote()
-'''
-pass
+    '''    public boolean hasOneNote()
+    '''
 def addNote():
-'''public void addNote(final String s)
-'''
-pass
+    '''    public void addNote(final String s)
+    '''
 def addNotes():
-'''public void addNotes(final List<String> annotations)
-'''
-pass
+    '''    public void addNotes(final List<String> annotations)
+    '''

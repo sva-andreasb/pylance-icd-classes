@@ -1,26 +1,20 @@
-ELEMENT_NAME = "String  monitor""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"monitor\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def isMonitor():
-'''public boolean isMonitor()
-'''
-pass
+    '''    public boolean isMonitor()
+    '''
 def setMonitor():
-'''public void setMonitor(final boolean monitor)
-'''
-pass
+    '''    public void setMonitor(final boolean monitor)
+    '''
 def getSessionID():
-'''public String getSessionID()
-'''
-pass
+    '''    public String getSessionID()
+    '''
 def setSessionID():
-'''public void setSessionID(final String sessionID)
-'''
-pass
+    '''    public void setSessionID(final String sessionID)
+    '''
 def MonitorPacket():
-'''public MonitorPacket()
-'''
-pass
+    '''    public MonitorPacket()
+    '''
 def parse():
-'''public MonitorPacket parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public MonitorPacket parse(final XmlPullParser parser, final int initialDepth)
+    '''

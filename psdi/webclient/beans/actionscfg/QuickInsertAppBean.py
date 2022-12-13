@@ -1,4 +1,3 @@
 def gotostartcenter():
-'''public int gotostartcenter()
-'''
-pass
+    '''    public int gotostartcenter()
+    '''

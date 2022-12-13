@@ -1,46 +1,35 @@
 def Range():
-'''public Range()
-public Range(final T start, final T end)
-'''
-pass
+    '''    public Range()
+    public Range(final T start, final T end)
+    '''
 def getStart():
-'''public T getStart()
-'''
-pass
+    '''    public T getStart()
+    '''
 def getEnd():
-'''public T getEnd()
-'''
-pass
+    '''    public T getEnd()
+    '''
 def setStart():
-'''public void setStart(final T start)
-'''
-pass
+    '''    public void setStart(final T start)
+    '''
 def setEnd():
-'''public void setEnd(final T end)
-'''
-pass
+    '''    public void setEnd(final T end)
+    '''
 def copy():
-'''public Range<T> copy()
-'''
-pass
+    '''    public Range<T> copy()
+    '''
 def set():
-'''public Range<T> set(final Range<T> range)
-public Range<T> set(final T start, final T end)
-'''
-pass
+    '''    public Range<T> set(final Range<T> range)
+    public Range<T> set(final T start, final T end)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

@@ -1,121 +1,91 @@
 def getImpactedResources():
-'''public List<Resource> getImpactedResources()
-'''
-pass
+    '''    public List<Resource> getImpactedResources()
+    '''
 def getNotificationOccurrenceEvent():
-'''public Event getNotificationOccurrenceEvent()
-'''
-pass
+    '''    public Event getNotificationOccurrenceEvent()
+    '''
 def setNotificationOccurrenceEvent():
-'''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
-'''
-pass
+    '''    public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''
 def getUser():
-'''public Customer getUser()
-'''
-pass
+    '''    public Customer getUser()
+    '''
 def setUser():
-'''public void setUser(final Customer user)
-'''
-pass
+    '''    public void setUser(final Customer user)
+    '''
 def getAcknowledgedFlag():
-'''public Long getAcknowledgedFlag()
-'''
-pass
+    '''    public Long getAcknowledgedFlag()
+    '''
 def setAcknowledgedFlag():
-'''public void setAcknowledgedFlag(final Long acknowledgedFlag)
-'''
-pass
+    '''    public void setAcknowledgedFlag(final Long acknowledgedFlag)
+    '''
 def isAcknowledgedFlagSpecified():
-'''public boolean isAcknowledgedFlagSpecified()
-'''
-pass
+    '''    public boolean isAcknowledgedFlagSpecified()
+    '''
 def unsetAcknowledgedFlag():
-'''public void unsetAcknowledgedFlag()
-'''
-pass
+    '''    public void unsetAcknowledgedFlag()
+    '''
 def getActive():
-'''public Long getActive()
-'''
-pass
+    '''    public Long getActive()
+    '''
 def setActive():
-'''public void setActive(final Long active)
-'''
-pass
+    '''    public void setActive(final Long active)
+    '''
 def isActiveSpecified():
-'''public boolean isActiveSpecified()
-'''
-pass
+    '''    public boolean isActiveSpecified()
+    '''
 def unsetActive():
-'''public void unsetActive()
-'''
-pass
+    '''    public void unsetActive()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getUsrRecordId():
-'''public Long getUsrRecordId()
-'''
-pass
+    '''    public Long getUsrRecordId()
+    '''
 def setUsrRecordId():
-'''public void setUsrRecordId(final Long usrRecordId)
-'''
-pass
+    '''    public void setUsrRecordId(final Long usrRecordId)
+    '''
 def isUsrRecordIdSpecified():
-'''public boolean isUsrRecordIdSpecified()
-'''
-pass
+    '''    public boolean isUsrRecordIdSpecified()
+    '''
 def unsetUsrRecordId():
-'''public void unsetUsrRecordId()
-'''
-pass
+    '''    public void unsetUsrRecordId()
+    '''
 def getImpactedResourceCount():
-'''public Long getImpactedResourceCount()
-'''
-pass
+    '''    public Long getImpactedResourceCount()
+    '''
 def setImpactedResourceCount():
-'''public void setImpactedResourceCount(final Long impactedResourceCount)
-'''
-pass
+    '''    public void setImpactedResourceCount(final Long impactedResourceCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def acknowledgedFlag():
-'''public Mask acknowledgedFlag()
-'''
-pass
+    '''    public Mask acknowledgedFlag()
+    '''
 def active():
-'''public Mask active()
-'''
-pass
+    '''    public Mask active()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def usrRecordId():
-'''public Mask usrRecordId()
-'''
-pass
+    '''    public Mask usrRecordId()
+    '''
 def impactedResourceCount():
-'''public Mask impactedResourceCount()
-'''
-pass
+    '''    public Mask impactedResourceCount()
+    '''

@@ -1,20 +1,15 @@
 def ImageResources():
-'''public ImageResources()
-'''
-pass
+    '''    public ImageResources()
+    '''
 def getInstance():
-'''public static ImageResources getInstance()
-'''
-pass
+    '''    public static ImageResources getInstance()
+    '''
 def getImage():
-'''public Image getImage(final String key)
-'''
-pass
+    '''    public Image getImage(final String key)
+    '''
 def setURL():
-'''public static void setURL(final URL imagesURL)
-'''
-pass
+    '''    public static void setURL(final URL imagesURL)
+    '''
 def getURL():
-'''public static URL getURL()
-'''
-pass
+    '''    public static URL getURL()
+    '''

@@ -1,182 +1,138 @@
 def XOPEncodingStreamReader():
-'''public XOPEncodingStreamReader(final XMLStreamReader parent, final ContentIDGenerator contentIDGenerator, final OptimizationPolicy optimizationPolicy)
-'''
-pass
+    '''    public XOPEncodingStreamReader(final XMLStreamReader parent, final ContentIDGenerator contentIDGenerator, final OptimizationPolicy optimizationPolicy)
+    '''
 def next():
-'''public int next()
-'''
-pass
+    '''    public int next()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def nextTag():
-'''public int nextTag()
-'''
-pass
+    '''    public int nextTag()
+    '''
 def require():
-'''public void require(final int type, final String namespaceURI, final String localName)
-'''
-pass
+    '''    public void require(final int type, final String namespaceURI, final String localName)
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getProperty():
-'''public Object getProperty(final String name)
-'''
-pass
+    '''    public Object getProperty(final String name)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def getCharacterEncodingScheme():
-'''public String getCharacterEncodingScheme()
-'''
-pass
+    '''    public String getCharacterEncodingScheme()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def isStandalone():
-'''public boolean isStandalone()
-'''
-pass
+    '''    public boolean isStandalone()
+    '''
 def standaloneSet():
-'''public boolean standaloneSet()
-'''
-pass
+    '''    public boolean standaloneSet()
+    '''
 def getPIData():
-'''public String getPIData()
-'''
-pass
+    '''    public String getPIData()
+    '''
 def getPITarget():
-'''public String getPITarget()
-'''
-pass
+    '''    public String getPITarget()
+    '''
 def getAttributeCount():
-'''public int getAttributeCount()
-'''
-pass
+    '''    public int getAttributeCount()
+    '''
 def getAttributeLocalName():
-'''public String getAttributeLocalName(final int index)
-'''
-pass
+    '''    public String getAttributeLocalName(final int index)
+    '''
 def getAttributeName():
-'''public QName getAttributeName(final int index)
-'''
-pass
+    '''    public QName getAttributeName(final int index)
+    '''
 def getAttributeNamespace():
-'''public String getAttributeNamespace(final int index)
-'''
-pass
+    '''    public String getAttributeNamespace(final int index)
+    '''
 def getAttributePrefix():
-'''public String getAttributePrefix(final int index)
-'''
-pass
+    '''    public String getAttributePrefix(final int index)
+    '''
 def getAttributeType():
-'''public String getAttributeType(final int index)
-'''
-pass
+    '''    public String getAttributeType(final int index)
+    '''
 def getAttributeValue():
-'''public String getAttributeValue(final int index)
-public String getAttributeValue(final String namespaceURI, final String localName)
-'''
-pass
+    '''    public String getAttributeValue(final int index)
+    public String getAttributeValue(final String namespaceURI, final String localName)
+    '''
 def isAttributeSpecified():
-'''public boolean isAttributeSpecified(final int index)
-'''
-pass
+    '''    public boolean isAttributeSpecified(final int index)
+    '''
 def getElementText():
-'''public String getElementText()
-'''
-pass
+    '''    public String getElementText()
+    '''
 def getEventType():
-'''public int getEventType()
-'''
-pass
+    '''    public int getEventType()
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-public String getNamespaceURI(final String prefix)
-public String getNamespaceURI(final int index)
-public String getNamespaceURI(final String prefix)
-'''
-pass
+    '''    public String getNamespaceURI()
+    public String getNamespaceURI(final String prefix)
+    public String getNamespaceURI(final int index)
+    public String getNamespaceURI(final String prefix)
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def getPrefix():
-'''public String getPrefix()
-public String getPrefix(final String namespaceURI)
-'''
-pass
+    '''    public String getPrefix()
+    public String getPrefix(final String namespaceURI)
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getNamespaceContext():
-'''public NamespaceContext getNamespaceContext()
-'''
-pass
+    '''    public NamespaceContext getNamespaceContext()
+    '''
 def getNamespaceCount():
-'''public int getNamespaceCount()
-'''
-pass
+    '''    public int getNamespaceCount()
+    '''
 def getNamespacePrefix():
-'''public String getNamespacePrefix(final int index)
-'''
-pass
+    '''    public String getNamespacePrefix(final int index)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getTextStart():
-'''public int getTextStart()
-'''
-pass
+    '''    public int getTextStart()
+    '''
 def getTextLength():
-'''public int getTextLength()
-'''
-pass
+    '''    public int getTextLength()
+    '''
 def getTextCharacters():
-'''public char[] getTextCharacters()
-public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
-'''
-pass
+    '''    public char[] getTextCharacters()
+    public int getTextCharacters(final int sourceStart, final char[] target, final int targetStart, final int length)
+    '''
 def hasName():
-'''public boolean hasName()
-'''
-pass
+    '''    public boolean hasName()
+    '''
 def hasText():
-'''public boolean hasText()
-'''
-pass
+    '''    public boolean hasText()
+    '''
 def isCharacters():
-'''public boolean isCharacters()
-'''
-pass
+    '''    public boolean isCharacters()
+    '''
 def isWhiteSpace():
-'''public boolean isWhiteSpace()
-'''
-pass
+    '''    public boolean isWhiteSpace()
+    '''
 def isStartElement():
-'''public boolean isStartElement()
-'''
-pass
+    '''    public boolean isStartElement()
+    '''
 def isEndElement():
-'''public boolean isEndElement()
-'''
-pass
+    '''    public boolean isEndElement()
+    '''
 def NamespaceContextWrapper():
-'''public NamespaceContextWrapper(final NamespaceContext parent)
-'''
-pass
+    '''    public NamespaceContextWrapper(final NamespaceContext parent)
+    '''
 def getPrefixes():
-'''public Iterator getPrefixes(final String namespaceURI)
-'''
-pass
+    '''    public Iterator getPrefixes(final String namespaceURI)
+    '''

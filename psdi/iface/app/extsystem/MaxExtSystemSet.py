@@ -1,8 +1,6 @@
 def MaxExtSystemSet():
-'''public MaxExtSystemSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxExtSystemSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

@@ -1,12 +1,9 @@
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final int i)
-'''
-pass
+    '''    public void setWidth(final int i)
+    '''
 def HTMLPreElementImpl():
-'''public HTMLPreElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLPreElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

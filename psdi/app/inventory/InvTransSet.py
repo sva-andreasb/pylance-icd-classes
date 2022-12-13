@@ -1,4 +1,3 @@
 def InvTransSet():
-'''public InvTransSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvTransSet(final MboServerInterface ms)
+    '''

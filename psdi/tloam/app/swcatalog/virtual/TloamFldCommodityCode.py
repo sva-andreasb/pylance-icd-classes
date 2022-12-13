@@ -1,4 +1,3 @@
 def TloamFldCommodityCode():
-'''public TloamFldCommodityCode(final MboValue mbv)
-'''
-pass
+    '''    public TloamFldCommodityCode(final MboValue mbv)
+    '''

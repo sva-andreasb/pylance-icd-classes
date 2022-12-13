@@ -1,8 +1,6 @@
 def pluspselectplannedinternalservice():
-'''public int pluspselectplannedinternalservice()
-'''
-pass
+    '''    public int pluspselectplannedinternalservice()
+    '''
 def pluspselectinternalservice():
-'''public int pluspselectinternalservice()
-'''
-pass
+    '''    public int pluspselectinternalservice()
+    '''

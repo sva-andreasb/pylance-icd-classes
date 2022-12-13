@@ -1,8 +1,6 @@
 def FldDomainName():
-'''public FldDomainName(final MboValue mbv)
-'''
-pass
+    '''    public FldDomainName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

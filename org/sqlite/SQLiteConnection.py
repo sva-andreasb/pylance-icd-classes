@@ -1,90 +1,68 @@
 def SQLiteConnection():
-'''public SQLiteConnection(final DB db)
-public SQLiteConnection(final String url, final String fileName)
-public SQLiteConnection(final String url, final String fileName, final Properties prop)
-'''
-pass
+    '''    public SQLiteConnection(final DB db)
+    public SQLiteConnection(final String url, final String fileName)
+    public SQLiteConnection(final String url, final String fileName, final Properties prop)
+    '''
 def getConnectionConfig():
-'''public SQLiteConnectionConfig getConnectionConfig()
-'''
-pass
+    '''    public SQLiteConnectionConfig getConnectionConfig()
+    '''
 def getSQLiteDatabaseMetaData():
-'''public CoreDatabaseMetaData getSQLiteDatabaseMetaData()
-'''
-pass
+    '''    public CoreDatabaseMetaData getSQLiteDatabaseMetaData()
+    '''
 def getMetaData():
-'''public DatabaseMetaData getMetaData()
-'''
-pass
+    '''    public DatabaseMetaData getMetaData()
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def setSchema():
-'''public void setSchema(final String schema)
-'''
-pass
+    '''    public void setSchema(final String schema)
+    '''
 def getSchema():
-'''public String getSchema()
-'''
-pass
+    '''    public String getSchema()
+    '''
 def abort():
-'''public void abort(final Executor executor)
-'''
-pass
+    '''    public void abort(final Executor executor)
+    '''
 def setNetworkTimeout():
-'''public void setNetworkTimeout(final Executor executor, final int milliseconds)
-'''
-pass
+    '''    public void setNetworkTimeout(final Executor executor, final int milliseconds)
+    '''
 def getNetworkTimeout():
-'''public int getNetworkTimeout()
-'''
-pass
+    '''    public int getNetworkTimeout()
+    '''
 def getTransactionIsolation():
-'''public int getTransactionIsolation()
-'''
-pass
+    '''    public int getTransactionIsolation()
+    '''
 def setTransactionIsolation():
-'''public void setTransactionIsolation(final int level)
-'''
-pass
+    '''    public void setTransactionIsolation(final int level)
+    '''
 def getDatabase():
-'''public DB getDatabase()
-'''
-pass
+    '''    public DB getDatabase()
+    '''
 def getAutoCommit():
-'''public boolean getAutoCommit()
-'''
-pass
+    '''    public boolean getAutoCommit()
+    '''
 def setAutoCommit():
-'''public void setAutoCommit(final boolean ac)
-'''
-pass
+    '''    public void setAutoCommit(final boolean ac)
+    '''
 def getBusyTimeout():
-'''public int getBusyTimeout()
-'''
-pass
+    '''    public int getBusyTimeout()
+    '''
 def setBusyTimeout():
-'''public void setBusyTimeout(final int timeoutMillis)
-'''
-pass
+    '''    public void setBusyTimeout(final int timeoutMillis)
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def libversion():
-'''public String libversion()
-'''
-pass
+    '''    public String libversion()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def rollback():
-'''public void rollback()
-'''
-pass
+    '''    public void rollback()
+    '''

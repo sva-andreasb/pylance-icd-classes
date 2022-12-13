@@ -1,19 +1,15 @@
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def parse():
-'''public Document parse(final InputStream inputStream)
-public Document parse(final InputStream inputStream, final String systemId)
-public Document parse(final String s)
-public Document parse(final File file)
-'''
-pass
+    '''    public Document parse(final InputStream inputStream)
+    public Document parse(final InputStream inputStream, final String systemId)
+    public Document parse(final String s)
+    public Document parse(final File file)
+    '''
 def getSchema():
-'''public Schema getSchema()
-'''
-pass
+    '''    public Schema getSchema()
+    '''
 def isXIncludeAware():
-'''public boolean isXIncludeAware()
-'''
-pass
+    '''    public boolean isXIncludeAware()
+    '''

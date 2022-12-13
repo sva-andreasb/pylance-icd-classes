@@ -1,162 +1,123 @@
 sid = "short  440"
 ENCODED_SIZE = "int  16"
 def HyperlinkRecord():
-'''public HyperlinkRecord()
-public HyperlinkRecord(final RecordInputStream in)
-'''
-pass
+    '''    public HyperlinkRecord()
+    public HyperlinkRecord(final RecordInputStream in)
+    '''
 def getFirstColumn():
-'''public int getFirstColumn()
-'''
-pass
+    '''    public int getFirstColumn()
+    '''
 def setFirstColumn():
-'''public void setFirstColumn(final int firstCol)
-'''
-pass
+    '''    public void setFirstColumn(final int firstCol)
+    '''
 def getLastColumn():
-'''public int getLastColumn()
-'''
-pass
+    '''    public int getLastColumn()
+    '''
 def setLastColumn():
-'''public void setLastColumn(final int lastCol)
-'''
-pass
+    '''    public void setLastColumn(final int lastCol)
+    '''
 def getFirstRow():
-'''public int getFirstRow()
-'''
-pass
+    '''    public int getFirstRow()
+    '''
 def setFirstRow():
-'''public void setFirstRow(final int firstRow)
-'''
-pass
+    '''    public void setFirstRow(final int firstRow)
+    '''
 def getLastRow():
-'''public int getLastRow()
-'''
-pass
+    '''    public int getLastRow()
+    '''
 def setLastRow():
-'''public void setLastRow(final int lastRow)
-'''
-pass
+    '''    public void setLastRow(final int lastRow)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def getTargetFrame():
-'''public String getTargetFrame()
-'''
-pass
+    '''    public String getTargetFrame()
+    '''
 def getAddress():
-'''public String getAddress()
-'''
-pass
+    '''    public String getAddress()
+    '''
 def setAddress():
-'''public void setAddress(final String address)
-'''
-pass
+    '''    public void setAddress(final String address)
+    '''
 def getShortFilename():
-'''public String getShortFilename()
-'''
-pass
+    '''    public String getShortFilename()
+    '''
 def setShortFilename():
-'''public void setShortFilename(final String shortFilename)
-'''
-pass
+    '''    public void setShortFilename(final String shortFilename)
+    '''
 def getTextMark():
-'''public String getTextMark()
-'''
-pass
+    '''    public String getTextMark()
+    '''
 def setTextMark():
-'''public void setTextMark(final String textMark)
-'''
-pass
+    '''    public void setTextMark(final String textMark)
+    '''
 def getLabelOptions():
-'''public int getLabelOptions()
-'''
-pass
+    '''    public int getLabelOptions()
+    '''
 def getFileOptions():
-'''public int getFileOptions()
-'''
-pass
+    '''    public int getFileOptions()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def isUrlLink():
-'''public boolean isUrlLink()
-'''
-pass
+    '''    public boolean isUrlLink()
+    '''
 def isFileLink():
-'''public boolean isFileLink()
-'''
-pass
+    '''    public boolean isFileLink()
+    '''
 def isDocumentLink():
-'''public boolean isDocumentLink()
-'''
-pass
+    '''    public boolean isDocumentLink()
+    '''
 def newUrlLink():
-'''public void newUrlLink()
-'''
-pass
+    '''    public void newUrlLink()
+    '''
 def newFileLink():
-'''public void newFileLink()
-'''
-pass
+    '''    public void newFileLink()
+    '''
 def newDocumentLink():
-'''public void newDocumentLink()
-'''
-pass
+    '''    public void newDocumentLink()
+    '''
 def clone():
-'''public HyperlinkRecord clone()
-'''
-pass
+    '''    public HyperlinkRecord clone()
+    '''
 def GUID():
-'''public GUID(final LittleEndianInput in)
-public GUID(final int d1, final int d2, final int d3, final long d4)
-'''
-pass
+    '''    public GUID(final LittleEndianInput in)
+    public GUID(final int d1, final int d2, final int d3, final long d4)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getD1():
-'''public int getD1()
-'''
-pass
+    '''    public int getD1()
+    '''
 def getD2():
-'''public int getD2()
-'''
-pass
+    '''    public int getD2()
+    '''
 def getD3():
-'''public int getD3()
-'''
-pass
+    '''    public int getD3()
+    '''
 def getD4():
-'''public long getD4()
-'''
-pass
+    '''    public long getD4()
+    '''
 def formatAsString():
-'''public String formatAsString()
-'''
-pass
+    '''    public String formatAsString()
+    '''
 def parse():
-'''public static GUID parse(final String rep)
-'''
-pass
+    '''    public static GUID parse(final String rep)
+    '''

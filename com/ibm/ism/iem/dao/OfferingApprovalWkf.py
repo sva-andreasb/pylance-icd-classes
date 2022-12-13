@@ -1,52 +1,39 @@
 def OfferingApprovalWkf():
-'''public OfferingApprovalWkf(final boolean applm, final boolean appfm, final boolean defaultlmwf, final boolean defaultfmwf, final String srApprProcess, final String mgrApprProcess)
-'''
-pass
+    '''    public OfferingApprovalWkf(final boolean applm, final boolean appfm, final boolean defaultlmwf, final boolean defaultfmwf, final String srApprProcess, final String mgrApprProcess)
+    '''
 def isApplm():
-'''public boolean isApplm()
-'''
-pass
+    '''    public boolean isApplm()
+    '''
 def setApplm():
-'''public void setApplm(final boolean applm)
-'''
-pass
+    '''    public void setApplm(final boolean applm)
+    '''
 def isAppfm():
-'''public boolean isAppfm()
-'''
-pass
+    '''    public boolean isAppfm()
+    '''
 def setAppfm():
-'''public void setAppfm(final boolean appfm)
-'''
-pass
+    '''    public void setAppfm(final boolean appfm)
+    '''
 def getSrApprProcess():
-'''public String getSrApprProcess()
-'''
-pass
+    '''    public String getSrApprProcess()
+    '''
 def setSrApprProcess():
-'''public void setSrApprProcess(final String srApprProcess)
-'''
-pass
+    '''    public void setSrApprProcess(final String srApprProcess)
+    '''
 def getMgrApprProcess():
-'''public String getMgrApprProcess()
-'''
-pass
+    '''    public String getMgrApprProcess()
+    '''
 def setMgrApprProcess():
-'''public void setMgrApprProcess(final String mgrApprProcess)
-'''
-pass
+    '''    public void setMgrApprProcess(final String mgrApprProcess)
+    '''
 def setDefaultlmwf():
-'''public void setDefaultlmwf(final boolean defaultlmwf)
-'''
-pass
+    '''    public void setDefaultlmwf(final boolean defaultlmwf)
+    '''
 def isDefaultlmwf():
-'''public boolean isDefaultlmwf()
-'''
-pass
+    '''    public boolean isDefaultlmwf()
+    '''
 def setDefaultfmwf():
-'''public void setDefaultfmwf(final boolean defaultfmwf)
-'''
-pass
+    '''    public void setDefaultfmwf(final boolean defaultfmwf)
+    '''
 def isDefaultfmwf():
-'''public boolean isDefaultfmwf()
-'''
-pass
+    '''    public boolean isDefaultfmwf()
+    '''

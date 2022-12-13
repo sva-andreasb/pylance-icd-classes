@@ -1,4 +1,3 @@
 def FldCommonUseType():
-'''public FldCommonUseType(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonUseType(final MboValue mbv)
+    '''

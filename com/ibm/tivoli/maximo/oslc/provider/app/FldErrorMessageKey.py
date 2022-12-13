@@ -1,12 +1,9 @@
 def FldErrorMessageKey():
-'''public FldErrorMessageKey(final MboValue mbv)
-'''
-pass
+    '''    public FldErrorMessageKey(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

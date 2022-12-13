@@ -1,43 +1,33 @@
 def WFAssignmentSet():
-'''public WFAssignmentSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFAssignmentSet(final MboServerInterface ms)
+    '''
 def getInboxAssignments():
-'''public void getInboxAssignments()
-'''
-pass
+    '''    public void getInboxAssignments()
+    '''
 def getCrontaskInboxAssignments():
-'''public void getCrontaskInboxAssignments()
-'''
-pass
+    '''    public void getCrontaskInboxAssignments()
+    '''
 def getAllInboxAssignments():
-'''public void getAllInboxAssignments()
-'''
-pass
+    '''    public void getAllInboxAssignments()
+    '''
 def getAssignment():
-'''public WFAssignment getAssignment(final int assignid)
-public WFAssignment getAssignment(final String assignid)
-'''
-pass
+    '''    public WFAssignment getAssignment(final int assignid)
+    public WFAssignment getAssignment(final String assignid)
+    '''
 def hasActiveAssignments():
-'''public boolean hasActiveAssignments()
-public boolean hasActiveAssignments(final int groupNum)
-'''
-pass
+    '''    public boolean hasActiveAssignments()
+    public boolean hasActiveAssignments(final int groupNum)
+    '''
 def deactivateAssignments():
-'''public void deactivateAssignments()
-public void deactivateAssignments(final int groupNum)
-'''
-pass
+    '''    public void deactivateAssignments()
+    public void deactivateAssignments(final int groupNum)
+    '''
 def getExpiredAssignments():
-'''public void getExpiredAssignments()
-'''
-pass
+    '''    public void getExpiredAssignments()
+    '''
 def wfValidate():
-'''public void wfValidate(final Vector<MXException> errs)
-'''
-pass
+    '''    public void wfValidate(final Vector<MXException> errs)
+    '''
 def getNextAssignID():
-'''public int getNextAssignID()
-'''
-pass
+    '''    public int getNextAssignID()
+    '''

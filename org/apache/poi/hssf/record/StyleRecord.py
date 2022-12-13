@@ -1,46 +1,35 @@
 sid = "short  659"
 def StyleRecord():
-'''public StyleRecord()
-public StyleRecord(final RecordInputStream in)
-'''
-pass
+    '''    public StyleRecord()
+    public StyleRecord(final RecordInputStream in)
+    '''
 def setXFIndex():
-'''public void setXFIndex(final int xfIndex)
-'''
-pass
+    '''    public void setXFIndex(final int xfIndex)
+    '''
 def getXFIndex():
-'''public int getXFIndex()
-'''
-pass
+    '''    public int getXFIndex()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def setBuiltinStyle():
-'''public void setBuiltinStyle(final int builtinStyleId)
-'''
-pass
+    '''    public void setBuiltinStyle(final int builtinStyleId)
+    '''
 def setOutlineStyleLevel():
-'''public void setOutlineStyleLevel(final int level)
-'''
-pass
+    '''    public void setOutlineStyleLevel(final int level)
+    '''
 def isBuiltin():
-'''public boolean isBuiltin()
-'''
-pass
+    '''    public boolean isBuiltin()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''

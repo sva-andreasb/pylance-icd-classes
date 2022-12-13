@@ -1,16 +1,12 @@
 def TIFFImageEncoder():
-'''public TIFFImageEncoder(final OutputStream output, final ImageEncodeParam param)
-'''
-pass
+    '''    public TIFFImageEncoder(final OutputStream output, final ImageEncodeParam param)
+    '''
 def encode():
-'''public void encode(final RenderedImage im)
-'''
-pass
+    '''    public void encode(final RenderedImage im)
+    '''
 def encodeMultiple():
-'''public Object encodeMultiple(final Object context, final RenderedImage img)
-'''
-pass
+    '''    public Object encodeMultiple(final Object context, final RenderedImage img)
+    '''
 def finishMultiple():
-'''public void finishMultiple(final Object context)
-'''
-pass
+    '''    public void finishMultiple(final Object context)
+    '''

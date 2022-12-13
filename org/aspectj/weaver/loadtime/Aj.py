@@ -1,61 +1,46 @@
 def Aj():
-'''public Aj()
-public Aj(final IWeavingContext context)
-'''
-pass
+    '''    public Aj()
+    public Aj(final IWeavingContext context)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def preProcess():
-'''public byte[] preProcess(final String className, final byte[] bytes, final ClassLoader loader, final ProtectionDomain protectionDomain)
-'''
-pass
+    '''    public byte[] preProcess(final String className, final byte[] bytes, final ClassLoader loader, final ProtectionDomain protectionDomain)
+    '''
 def removeStaleAdaptors():
-'''public static int removeStaleAdaptors(final boolean displayProgress)
-'''
-pass
+    '''    public static int removeStaleAdaptors(final boolean displayProgress)
+    '''
 def getActiveAdaptorCount():
-'''public static int getActiveAdaptorCount()
-'''
-pass
+    '''    public static int getActiveAdaptorCount()
+    '''
 def checkQ():
-'''public static void checkQ()
-'''
-pass
+    '''    public static void checkQ()
+    '''
 def getNamespace():
-'''public String getNamespace(final ClassLoader loader)
-'''
-pass
+    '''    public String getNamespace(final ClassLoader loader)
+    '''
 def generatedClassesExist():
-'''public boolean generatedClassesExist(final ClassLoader loader)
-'''
-pass
+    '''    public boolean generatedClassesExist(final ClassLoader loader)
+    '''
 def flushGeneratedClasses():
-'''public void flushGeneratedClasses(final ClassLoader loader)
-'''
-pass
+    '''    public void flushGeneratedClasses(final ClassLoader loader)
+    '''
 def AdaptorKey():
-'''public AdaptorKey(final ClassLoader loader)
-'''
-pass
+    '''    public AdaptorKey(final ClassLoader loader)
+    '''
 def getClassLoader():
-'''public ClassLoader getClassLoader()
-'''
-pass
+    '''    public ClassLoader getClassLoader()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def ExplicitlyInitializedClassLoaderWeavingAdaptor():
-'''public ExplicitlyInitializedClassLoaderWeavingAdaptor(final ClassLoaderWeavingAdaptor weavingAdaptor)
-'''
-pass
+    '''    public ExplicitlyInitializedClassLoaderWeavingAdaptor(final ClassLoaderWeavingAdaptor weavingAdaptor)
+    '''
 def getWeavingAdaptor():
-'''public ClassLoaderWeavingAdaptor getWeavingAdaptor(final ClassLoader loader, final IWeavingContext weavingContext)
-'''
-pass
+    '''    public ClassLoaderWeavingAdaptor getWeavingAdaptor(final ClassLoader loader, final IWeavingContext weavingContext)
+    '''

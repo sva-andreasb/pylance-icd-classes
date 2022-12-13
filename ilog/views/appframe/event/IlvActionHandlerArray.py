@@ -1,28 +1,21 @@
 def IlvActionHandlerArray():
-'''public IlvActionHandlerArray()
-'''
-pass
+    '''    public IlvActionHandlerArray()
+    '''
 def isProcessingAction():
-'''public boolean isProcessingAction(final String s)
-'''
-pass
+    '''    public boolean isProcessingAction(final String s)
+    '''
 def getActionHandler():
-'''public ActionHandler getActionHandler(final String s)
-'''
-pass
+    '''    public ActionHandler getActionHandler(final String s)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def updateAction():
-'''public boolean updateAction(final Action action)
-'''
-pass
+    '''    public boolean updateAction(final Action action)
+    '''
 def addActionHandler():
-'''public void addActionHandler(final ActionHandler e)
-'''
-pass
+    '''    public void addActionHandler(final ActionHandler e)
+    '''
 def removeActionHandler():
-'''public boolean removeActionHandler(final ActionHandler o)
-'''
-pass
+    '''    public boolean removeActionHandler(final ActionHandler o)
+    '''

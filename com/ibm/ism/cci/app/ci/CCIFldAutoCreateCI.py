@@ -1,9 +1,7 @@
 def CCIFldAutoCreateCI():
-'''public CCIFldAutoCreateCI()
-public CCIFldAutoCreateCI(final MboValue mbv)
-'''
-pass
+    '''    public CCIFldAutoCreateCI()
+    public CCIFldAutoCreateCI(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

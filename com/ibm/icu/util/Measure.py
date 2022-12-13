@@ -1,24 +1,18 @@
 def Measure():
-'''public Measure(final Number number, final MeasureUnit unit)
-'''
-pass
+    '''    public Measure(final Number number, final MeasureUnit unit)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getNumber():
-'''public Number getNumber()
-'''
-pass
+    '''    public Number getNumber()
+    '''
 def getUnit():
-'''public MeasureUnit getUnit()
-'''
-pass
+    '''    public MeasureUnit getUnit()
+    '''

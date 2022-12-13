@@ -1,8 +1,6 @@
 def SoftwareFixTableGenerator():
-'''public SoftwareFixTableGenerator()
-'''
-pass
+    '''    public SoftwareFixTableGenerator()
+    '''
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''

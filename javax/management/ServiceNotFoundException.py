@@ -1,5 +1,4 @@
 def ServiceNotFoundException():
-'''public ServiceNotFoundException()
-public ServiceNotFoundException(final String s)
-'''
-pass
+    '''    public ServiceNotFoundException()
+    public ServiceNotFoundException(final String s)
+    '''

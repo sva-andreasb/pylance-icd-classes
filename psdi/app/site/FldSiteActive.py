@@ -1,8 +1,6 @@
 def FldSiteActive():
-'''public FldSiteActive(final MboValue mbv)
-'''
-pass
+    '''    public FldSiteActive(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

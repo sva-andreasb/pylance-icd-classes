@@ -1,4 +1,3 @@
 def getMergeInstance():
-'''public NormsProducer getMergeInstance()
-'''
-pass
+    '''    public NormsProducer getMergeInstance()
+    '''

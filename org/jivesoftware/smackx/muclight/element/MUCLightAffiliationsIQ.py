@@ -1,14 +1,11 @@
-ELEMENT = "String  query""
-NAMESPACE = "String  urn:xmpp:muclight:0#affiliations""
+ELEMENT = "String  \"query\""
+NAMESPACE = "String  \"urn:xmpp:muclight:0#affiliations\""
 def MUCLightAffiliationsIQ():
-'''public MUCLightAffiliationsIQ(final String version, final HashMap<Jid, MUCLightAffiliation> affiliations)
-'''
-pass
+    '''    public MUCLightAffiliationsIQ(final String version, final HashMap<Jid, MUCLightAffiliation> affiliations)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getAffiliations():
-'''public HashMap<Jid, MUCLightAffiliation> getAffiliations()
-'''
-pass
+    '''    public HashMap<Jid, MUCLightAffiliation> getAffiliations()
+    '''

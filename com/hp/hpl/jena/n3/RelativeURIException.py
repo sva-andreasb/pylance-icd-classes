@@ -1,4 +1,3 @@
 def RelativeURIException():
-'''public RelativeURIException(final String msg)
-'''
-pass
+    '''    public RelativeURIException(final String msg)
+    '''

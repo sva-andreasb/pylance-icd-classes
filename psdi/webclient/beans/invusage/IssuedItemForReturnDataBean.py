@@ -1,12 +1,9 @@
 def IssuedItemForReturnDataBean():
-'''public IssuedItemForReturnDataBean()
-'''
-pass
+    '''    public IssuedItemForReturnDataBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

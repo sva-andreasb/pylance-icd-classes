@@ -1,51 +1,39 @@
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getClrtag():
-'''public short getClrtag()
-'''
-pass
+    '''    public short getClrtag()
+    '''
 def getFreq():
-'''public int getFreq()
-'''
-pass
+    '''    public int getFreq()
+    '''
 def getKwetag():
-'''public short getKwetag()
-'''
-pass
+    '''    public short getKwetag()
+    '''
 def setClrtag():
-'''public void setClrtag(final byte b)
-public void setClrtag(final int n)
-'''
-pass
+    '''    public void setClrtag(final byte b)
+    public void setClrtag(final int n)
+    '''
 def setFreq():
-'''public void setFreq(final char freq)
-public void setFreq(int freq)
-'''
-pass
+    '''    public void setFreq(final char freq)
+    public void setFreq(int freq)
+    '''
 def setKwetag():
-'''public void setKwetag(final byte b)
-public void setKwetag(final int n)
-'''
-pass
+    '''    public void setKwetag(final byte b)
+    public void setKwetag(final int n)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,23 +1,18 @@
-ELEMENT = "String  starttls""
-NAMESPACE = "String  urn:ietf:params:xml:ns:xmpp-tls""
+ELEMENT = "String  \"starttls\""
+NAMESPACE = "String  \"urn:ietf:params:xml:ns:xmpp-tls\""
 def StartTls():
-'''public StartTls()
-public StartTls(final boolean required)
-'''
-pass
+    '''    public StartTls()
+    public StartTls(final boolean required)
+    '''
 def required():
-'''public boolean required()
-'''
-pass
+    '''    public boolean required()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

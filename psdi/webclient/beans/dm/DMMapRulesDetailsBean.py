@@ -1,8 +1,6 @@
 def handlecancel():
-'''public int handlecancel()
-'''
-pass
+    '''    public int handlecancel()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

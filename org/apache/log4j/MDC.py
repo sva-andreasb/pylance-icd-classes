@@ -1,21 +1,16 @@
 def put():
-'''public static void put(final String key, final String value)
-public static void put(final String key, final Object value)
-'''
-pass
+    '''    public static void put(final String key, final String value)
+    public static void put(final String key, final Object value)
+    '''
 def get():
-'''public static Object get(final String key)
-'''
-pass
+    '''    public static Object get(final String key)
+    '''
 def remove():
-'''public static void remove(final String key)
-'''
-pass
+    '''    public static void remove(final String key)
+    '''
 def clear():
-'''public static void clear()
-'''
-pass
+    '''    public static void clear()
+    '''
 def getContext():
-'''public static Hashtable<String, Object> getContext()
-'''
-pass
+    '''    public static Hashtable<String, Object> getContext()
+    '''

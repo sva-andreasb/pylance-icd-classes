@@ -1,4 +1,3 @@
 def ShowWFCondition():
-'''public ShowWFCondition(final MboSet ms)
-'''
-pass
+    '''    public ShowWFCondition(final MboSet ms)
+    '''

@@ -1,36 +1,27 @@
 def ChainReaderHelper():
-'''public ChainReaderHelper()
-'''
-pass
+    '''    public ChainReaderHelper()
+    '''
 def setPrimaryReader():
-'''public void setPrimaryReader(final Reader rdr)
-'''
-pass
+    '''    public void setPrimaryReader(final Reader rdr)
+    '''
 def setProject():
-'''public void setProject(final Project project)
-'''
-pass
+    '''    public void setProject(final Project project)
+    '''
 def getProject():
-'''public Project getProject()
-'''
-pass
+    '''    public Project getProject()
+    '''
 def setBufferSize():
-'''public void setBufferSize(final int size)
-'''
-pass
+    '''    public void setBufferSize(final int size)
+    '''
 def setFilterChains():
-'''public void setFilterChains(final Vector fchain)
-'''
-pass
+    '''    public void setFilterChains(final Vector fchain)
+    '''
 def getAssembledReader():
-'''public Reader getAssembledReader()
-'''
-pass
+    '''    public Reader getAssembledReader()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def readFully():
-'''public String readFully(final Reader rdr)
-'''
-pass
+    '''    public String readFully(final Reader rdr)
+    '''

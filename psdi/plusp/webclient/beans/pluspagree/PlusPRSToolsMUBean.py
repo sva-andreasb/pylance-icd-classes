@@ -1,12 +1,9 @@
 def select_tools_mu():
-'''public int select_tools_mu()
-'''
-pass
+    '''    public int select_tools_mu()
+    '''
 def getNoChargeFieldName():
-'''public String getNoChargeFieldName()
-'''
-pass
+    '''    public String getNoChargeFieldName()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

@@ -1,12 +1,9 @@
 def configure():
-'''public void configure(final Map<String, ?> configs)
-'''
-pass
+    '''    public void configure(final Map<String, ?> configs)
+    '''
 def buildPrincipal():
-'''public Principal buildPrincipal(final TransportLayer transportLayer, final Authenticator authenticator)
-'''
-pass
+    '''    public Principal buildPrincipal(final TransportLayer transportLayer, final Authenticator authenticator)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

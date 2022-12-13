@@ -1,20 +1,15 @@
 def Pw():
-'''public Pw(final OutputStream outputStream)
-'''
-pass
+    '''    public Pw(final OutputStream outputStream)
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def resetCount():
-'''public int resetCount()
-'''
-pass
+    '''    public int resetCount()
+    '''
 def getByteCount():
-'''public synchronized long getByteCount()
-'''
-pass
+    '''    public synchronized long getByteCount()
+    '''
 def resetByteCount():
-'''public synchronized long resetByteCount()
-'''
-pass
+    '''    public synchronized long resetByteCount()
+    '''

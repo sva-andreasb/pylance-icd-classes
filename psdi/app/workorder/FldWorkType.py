@@ -1,8 +1,6 @@
 def FldWorkType():
-'''public FldWorkType(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkType(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

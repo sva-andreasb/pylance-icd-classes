@@ -1,86 +1,65 @@
 def DefaultHelpModel():
-'''public DefaultHelpModel(final HelpSet helpset)
-'''
-pass
+    '''    public DefaultHelpModel(final HelpSet helpset)
+    '''
 def setHelpSet():
-'''public void setHelpSet(final HelpSet set)
-'''
-pass
+    '''    public void setHelpSet(final HelpSet set)
+    '''
 def getHelpSet():
-'''public HelpSet getHelpSet()
-'''
-pass
+    '''    public HelpSet getHelpSet()
+    '''
 def setCurrentID():
-'''public void setCurrentID(final Map.ID id)
-public void setCurrentID(Map.ID homeID, final String s, final JHelpNavigator helpNavigator)
-'''
-pass
+    '''    public void setCurrentID(final Map.ID id)
+    public void setCurrentID(Map.ID homeID, final String s, final JHelpNavigator helpNavigator)
+    '''
 def setCurrentURL():
-'''public void setCurrentURL(final URL url)
-public void setCurrentURL(final URL currentURL, final String s, final JHelpNavigator helpNavigator)
-'''
-pass
+    '''    public void setCurrentURL(final URL url)
+    public void setCurrentURL(final URL currentURL, final String s, final JHelpNavigator helpNavigator)
+    '''
 def getCurrentURL():
-'''public URL getCurrentURL()
-'''
-pass
+    '''    public URL getCurrentURL()
+    '''
 def addHighlight():
-'''public void addHighlight(final int i, final int j)
-'''
-pass
+    '''    public void addHighlight(final int i, final int j)
+    '''
 def removeAllHighlights():
-'''public void removeAllHighlights()
-'''
-pass
+    '''    public void removeAllHighlights()
+    '''
 def setHighlights():
-'''public void setHighlights(final Highlight[] array)
-'''
-pass
+    '''    public void setHighlights(final Highlight[] array)
+    '''
 def getHighlights():
-'''public Highlight[] getHighlights()
-'''
-pass
+    '''    public Highlight[] getHighlights()
+    '''
 def addHelpModelListener():
-'''public void addHelpModelListener(final HelpModelListener obj)
-'''
-pass
+    '''    public void addHelpModelListener(final HelpModelListener obj)
+    '''
 def removeHelpModelListener():
-'''public void removeHelpModelListener(final HelpModelListener helpModelListener)
-'''
-pass
+    '''    public void removeHelpModelListener(final HelpModelListener helpModelListener)
+    '''
 def addTextHelpModelListener():
-'''public void addTextHelpModelListener(final TextHelpModelListener obj)
-'''
-pass
+    '''    public void addTextHelpModelListener(final TextHelpModelListener obj)
+    '''
 def removeTextHelpModelListener():
-'''public void removeTextHelpModelListener(final TextHelpModelListener textHelpModelListener)
-'''
-pass
+    '''    public void removeTextHelpModelListener(final TextHelpModelListener textHelpModelListener)
+    '''
 def addPropertyChangeListener():
-'''public void addPropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public void addPropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def removePropertyChangeListener():
-'''public void removePropertyChangeListener(final PropertyChangeListener listener)
-'''
-pass
+    '''    public void removePropertyChangeListener(final PropertyChangeListener listener)
+    '''
 def setDocumentTitle():
-'''public void setDocumentTitle(final String s)
-'''
-pass
+    '''    public void setDocumentTitle(final String s)
+    '''
 def getDocumentTitle():
-'''public String getDocumentTitle()
-'''
-pass
+    '''    public String getDocumentTitle()
+    '''
 def DefaultHighlight():
-'''public DefaultHighlight(final int start, final int end)
-'''
-pass
+    '''    public DefaultHighlight(final int start, final int end)
+    '''
 def getStartOffset():
-'''public int getStartOffset()
-'''
-pass
+    '''    public int getStartOffset()
+    '''
 def getEndOffset():
-'''public int getEndOffset()
-'''
-pass
+    '''    public int getEndOffset()
+    '''

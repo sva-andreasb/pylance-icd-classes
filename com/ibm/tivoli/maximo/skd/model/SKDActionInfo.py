@@ -1,172 +1,129 @@
 def SKDActionInfo():
-'''public SKDActionInfo()
-'''
-pass
+    '''    public SKDActionInfo()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getDialogName():
-'''public String getDialogName()
-'''
-pass
+    '''    public String getDialogName()
+    '''
 def setDialogName():
-'''public void setDialogName(final String name)
-'''
-pass
+    '''    public void setDialogName(final String name)
+    '''
 def getSKDObjectName():
-'''public String getSKDObjectName()
-'''
-pass
+    '''    public String getSKDObjectName()
+    '''
 def setSKDObjectName():
-'''public void setSKDObjectName(final String skdObjectName)
-'''
-pass
+    '''    public void setSKDObjectName(final String skdObjectName)
+    '''
 def getAppletClassName():
-'''public String getAppletClassName()
-'''
-pass
+    '''    public String getAppletClassName()
+    '''
 def setAppletClassName():
-'''public void setAppletClassName(final String appletClassName)
-'''
-pass
+    '''    public void setAppletClassName(final String appletClassName)
+    '''
 def getSkdClassName():
-'''public String getSkdClassName()
-'''
-pass
+    '''    public String getSkdClassName()
+    '''
 def setSkdClassName():
-'''public void setSkdClassName(final String skdClassName)
-'''
-pass
+    '''    public void setSkdClassName(final String skdClassName)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getActionName():
-'''public String getActionName()
-'''
-pass
+    '''    public String getActionName()
+    '''
 def setActionName():
-'''public void setActionName(final String name)
-'''
-pass
+    '''    public void setActionName(final String name)
+    '''
 def getMultiRec():
-'''public String getMultiRec()
-'''
-pass
+    '''    public String getMultiRec()
+    '''
 def setMultiRec():
-'''public void setMultiRec(final String multirec)
-'''
-pass
+    '''    public void setMultiRec(final String multirec)
+    '''
 def getMenuOrder():
-'''public String getMenuOrder()
-'''
-pass
+    '''    public String getMenuOrder()
+    '''
 def setMenuOrder():
-'''public void setMenuOrder(final String menuorder)
-'''
-pass
+    '''    public void setMenuOrder(final String menuorder)
+    '''
 def getMenuOrderAsInt():
-'''public int getMenuOrderAsInt()
-'''
-pass
+    '''    public int getMenuOrderAsInt()
+    '''
 def getUid():
-'''public long getUid()
-'''
-pass
+    '''    public long getUid()
+    '''
 def setUid():
-'''public void setUid(final long id)
-'''
-pass
+    '''    public void setUid(final long id)
+    '''
 def setUseWith():
-'''public void setUseWith(final String usewith)
-'''
-pass
+    '''    public void setUseWith(final String usewith)
+    '''
 def getUseWith():
-'''public String getUseWith()
-'''
-pass
+    '''    public String getUseWith()
+    '''
 def setFrame():
-'''public void setFrame(final String frame)
-'''
-pass
+    '''    public void setFrame(final String frame)
+    '''
 def getFrame():
-'''public String getFrame()
-'''
-pass
+    '''    public String getFrame()
+    '''
 def setLicense():
-'''public void setLicense(final String license)
-'''
-pass
+    '''    public void setLicense(final String license)
+    '''
 def getLicense():
-'''public String getLicense()
-'''
-pass
+    '''    public String getLicense()
+    '''
 def setIcon():
-'''public void setIcon(final String icon)
-'''
-pass
+    '''    public void setIcon(final String icon)
+    '''
 def getIcon():
-'''public String getIcon()
-'''
-pass
+    '''    public String getIcon()
+    '''
 def setIconWidth():
-'''public void setIconWidth(final int iconwidth)
-'''
-pass
+    '''    public void setIconWidth(final int iconwidth)
+    '''
 def getIconwidth():
-'''public int getIconwidth()
-'''
-pass
+    '''    public int getIconwidth()
+    '''
 def setIconHeigth():
-'''public void setIconHeigth(final int iconheight)
-'''
-pass
+    '''    public void setIconHeigth(final int iconheight)
+    '''
 def getIconHeigth():
-'''public int getIconHeigth()
-'''
-pass
+    '''    public int getIconHeigth()
+    '''
 def setIconType():
-'''public void setIconType(final String type)
-'''
-pass
+    '''    public void setIconType(final String type)
+    '''
 def getIconType():
-'''public String getIconType()
-'''
-pass
+    '''    public String getIconType()
+    '''
 def getSKDActionClass():
-'''public Class getSKDActionClass()
-'''
-pass
+    '''    public Class getSKDActionClass()
+    '''
 def copyFrom():
-'''public void copyFrom(final SKDActionInfo info)
-'''
-pass
+    '''    public void copyFrom(final SKDActionInfo info)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getIconConfig():
-'''public String getIconConfig()
-'''
-pass
+    '''    public String getIconConfig()
+    '''
 def setIconConfig():
-'''public void setIconConfig(final String iconConfig)
-'''
-pass
+    '''    public void setIconConfig(final String iconConfig)
+    '''
 def isSelectiveRefresh():
-'''public boolean isSelectiveRefresh()
-'''
-pass
+    '''    public boolean isSelectiveRefresh()
+    '''
 def setSelectiveRefresh():
-'''public void setSelectiveRefresh(final boolean isSelectiveRefresh)
-'''
-pass
+    '''    public void setSelectiveRefresh(final boolean isSelectiveRefresh)
+    '''

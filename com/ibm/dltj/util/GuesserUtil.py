@@ -1,4 +1,3 @@
 def adaptLemmaForGuess():
-'''public static GlossCollection adaptLemmaForGuess(final String s, final GlossCollection collection)
-'''
-pass
+    '''    public static GlossCollection adaptLemmaForGuess(final String s, final GlossCollection collection)
+    '''

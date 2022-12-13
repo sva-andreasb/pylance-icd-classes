@@ -1,4 +1,3 @@
 def TAMITLicenseTemplateSet():
-'''public TAMITLicenseTemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TAMITLicenseTemplateSet(final MboServerInterface ms)
+    '''

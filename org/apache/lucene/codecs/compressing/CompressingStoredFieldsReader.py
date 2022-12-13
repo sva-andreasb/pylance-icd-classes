@@ -1,44 +1,33 @@
 def CompressingStoredFieldsReader():
-'''public CompressingStoredFieldsReader(final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)
-'''
-pass
+    '''    public CompressingStoredFieldsReader(final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def visitDocument():
-'''public void visitDocument(final int docID, final StoredFieldVisitor visitor)
-'''
-pass
+    '''    public void visitDocument(final int docID, final StoredFieldVisitor visitor)
+    '''
 def clone():
-'''public StoredFieldsReader clone()
-'''
-pass
+    '''    public StoredFieldsReader clone()
+    '''
 def getMergeInstance():
-'''public StoredFieldsReader getMergeInstance()
-'''
-pass
+    '''    public StoredFieldsReader getMergeInstance()
+    '''
 def ramBytesUsed():
-'''public long ramBytesUsed()
-'''
-pass
+    '''    public long ramBytesUsed()
+    '''
 def getChildResources():
-'''public Collection<Accountable> getChildResources()
-'''
-pass
+    '''    public Collection<Accountable> getChildResources()
+    '''
 def checkIntegrity():
-'''public void checkIntegrity()
-'''
-pass
+    '''    public void checkIntegrity()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def readByte():
-'''public byte readByte()
-'''
-pass
+    '''    public byte readByte()
+    '''
 def readBytes():
-'''public void readBytes(final byte[] b, int offset, int len)
-'''
-pass
+    '''    public void readBytes(final byte[] b, int offset, int len)
+    '''

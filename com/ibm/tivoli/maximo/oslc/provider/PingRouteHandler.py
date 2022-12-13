@@ -1,8 +1,6 @@
 def handleRequest():
-'''public OslcResourceResponse handleRequest(final OslcRequest request)
-'''
-pass
+    '''    public OslcResourceResponse handleRequest(final OslcRequest request)
+    '''
 def getPathTokensMeta():
-'''public Map<String, String> getPathTokensMeta()
-'''
-pass
+    '''    public Map<String, String> getPathTokensMeta()
+    '''

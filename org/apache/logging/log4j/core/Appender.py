@@ -1,1 +1,1 @@
-ELEMENT_TYPE = "String  appender""
+ELEMENT_TYPE = "String  \"appender\""

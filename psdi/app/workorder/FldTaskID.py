@@ -1,17 +1,13 @@
 def FldTaskID():
-'''public FldTaskID(final MboValue mbv, final String wonumName, final String refwoName, String criteriaName)
-public FldTaskID(final MboValue mbv)
-'''
-pass
+    '''    public FldTaskID(final MboValue mbv, final String wonumName, final String refwoName, String criteriaName)
+    public FldTaskID(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

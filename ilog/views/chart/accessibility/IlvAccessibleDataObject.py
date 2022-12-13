@@ -1,41 +1,31 @@
 def IlvAccessibleDataObject():
-'''public IlvAccessibleDataObject(final IlvChartRenderer a, final IlvObjectModelWithColumns b, final Object c)
-public IlvAccessibleDataObject(final IlvChartRenderer a, final IlvTreeModelWithColumns b, final Object c, final TreePath d)
-'''
-pass
+    '''    public IlvAccessibleDataObject(final IlvChartRenderer a, final IlvObjectModelWithColumns b, final Object c)
+    public IlvAccessibleDataObject(final IlvChartRenderer a, final IlvTreeModelWithColumns b, final Object c, final TreePath d)
+    '''
 def getRenderer():
-'''public final IlvChartRenderer getRenderer()
-'''
-pass
+    '''    public final IlvChartRenderer getRenderer()
+    '''
 def getModel():
-'''public IlvObjectModelWithColumns getModel()
-'''
-pass
+    '''    public IlvObjectModelWithColumns getModel()
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''
 def getPath():
-'''public TreePath getPath()
-'''
-pass
+    '''    public TreePath getPath()
+    '''
 def isViewable():
-'''public boolean isViewable()
-'''
-pass
+    '''    public boolean isViewable()
+    '''
 def drawSelectionHandles():
-'''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
-'''
-pass
+    '''    public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,57 +1,43 @@
 def Action():
-'''public Action(final MboSet ms)
-'''
-pass
+    '''    public Action(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setFieldFlags():
-'''public void setFieldFlags(final String type)
-'''
-pass
+    '''    public void setFieldFlags(final String type)
+    '''
 def isWoTktAppAction():
-'''public boolean isWoTktAppAction()
-'''
-pass
+    '''    public boolean isWoTktAppAction()
+    '''
 def isParameterPMAppAction():
-'''public boolean isParameterPMAppAction()
-'''
-pass
+    '''    public boolean isParameterPMAppAction()
+    '''
 def isParameterInvoiceAppAction():
-'''public boolean isParameterInvoiceAppAction()
-'''
-pass
+    '''    public boolean isParameterInvoiceAppAction()
+    '''
 def addMembers():
-'''public void addMembers(final MboSetRemote actionSet)
-'''
-pass
+    '''    public void addMembers(final MboSetRemote actionSet)
+    '''
 def executeAction():
-'''public void executeAction(final MboRemote target, final Object[] parameters)
-public void executeAction(final MboRemote mbo)
-'''
-pass
+    '''    public void executeAction(final MboRemote target, final Object[] parameters)
+    public void executeAction(final MboRemote mbo)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def isObjectStatusable():
-'''public boolean isObjectStatusable()
-'''
-pass
+    '''    public boolean isObjectStatusable()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''

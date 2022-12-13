@@ -1,8 +1,6 @@
 def MfMailSTSendAction():
-'''public MfMailSTSendAction()
-'''
-pass
+    '''    public MfMailSTSendAction()
+    '''
 def applyCustomAction():
-'''public void applyCustomAction(final MboRemote originalMbo, final Object[] arg1)
-'''
-pass
+    '''    public void applyCustomAction(final MboRemote originalMbo, final Object[] arg1)
+    '''

@@ -1,48 +1,36 @@
 def TKTemplateSet():
-'''public TKTemplateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TKTemplateSet(final MboServerInterface ms)
+    '''
 def reprocessSortOrder():
-'''public void reprocessSortOrder()
-'''
-pass
+    '''    public void reprocessSortOrder()
+    '''
 def SortableTkTemplate():
-'''public SortableTkTemplate(final Integer id, final String parent, final Integer sortOrder)
-'''
-pass
+    '''    public SortableTkTemplate(final Integer id, final String parent, final Integer sortOrder)
+    '''
 def getId():
-'''public Integer getId()
-'''
-pass
+    '''    public Integer getId()
+    '''
 def setId():
-'''public void setId(final Integer id)
-'''
-pass
+    '''    public void setId(final Integer id)
+    '''
 def getParent():
-'''public String getParent()
-'''
-pass
+    '''    public String getParent()
+    '''
 def setParent():
-'''public void setParent(final String parent)
-'''
-pass
+    '''    public void setParent(final String parent)
+    '''
 def getSortOrder():
-'''public Integer getSortOrder()
-'''
-pass
+    '''    public Integer getSortOrder()
+    '''
 def setSortOrder():
-'''public void setSortOrder(final Integer sortOrder)
-'''
-pass
+    '''    public void setSortOrder(final Integer sortOrder)
+    '''
 def compareTo():
-'''public int compareTo(final SortableTkTemplate o)
-'''
-pass
+    '''    public int compareTo(final SortableTkTemplate o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

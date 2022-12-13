@@ -1,8 +1,6 @@
 def format():
-'''public String format(final LoggingEvent theEvent)
-'''
-pass
+    '''    public String format(final LoggingEvent theEvent)
+    '''
 def ignoresThrowable():
-'''public boolean ignoresThrowable()
-'''
-pass
+    '''    public boolean ignoresThrowable()
+    '''

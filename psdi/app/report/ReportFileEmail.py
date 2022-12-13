@@ -1,8 +1,6 @@
 def ReportFileEmail():
-'''public ReportFileEmail(final MboSet ms)
-'''
-pass
+    '''    public ReportFileEmail(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

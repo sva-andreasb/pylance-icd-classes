@@ -1,24 +1,18 @@
 def DPAMConversionVariant():
-'''public DPAMConversionVariant(final MboSet ms)
-'''
-pass
+    '''    public DPAMConversionVariant(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def canDeleteConversionVariant():
-'''public static void canDeleteConversionVariant(final MboRemote variantObject, final String variantAttributeName, final String[] objectRelationshipPairs, final String dmapErrorMessageCode)
-'''
-pass
+    '''    public static void canDeleteConversionVariant(final MboRemote variantObject, final String variantAttributeName, final String[] objectRelationshipPairs, final String dmapErrorMessageCode)
+    '''

@@ -1,33 +1,25 @@
 def HeaderFooter():
-'''public HeaderFooter(final Phrase before, final Phrase after)
-public HeaderFooter(final Phrase before, final boolean numbered)
-'''
-pass
+    '''    public HeaderFooter(final Phrase before, final Phrase after)
+    public HeaderFooter(final Phrase before, final boolean numbered)
+    '''
 def isNumbered():
-'''public boolean isNumbered()
-'''
-pass
+    '''    public boolean isNumbered()
+    '''
 def getBefore():
-'''public Phrase getBefore()
-'''
-pass
+    '''    public Phrase getBefore()
+    '''
 def getAfter():
-'''public Phrase getAfter()
-'''
-pass
+    '''    public Phrase getAfter()
+    '''
 def setPageNumber():
-'''public void setPageNumber(final int pageN)
-'''
-pass
+    '''    public void setPageNumber(final int pageN)
+    '''
 def setAlignment():
-'''public void setAlignment(final int alignment)
-'''
-pass
+    '''    public void setAlignment(final int alignment)
+    '''
 def paragraph():
-'''public Paragraph paragraph()
-'''
-pass
+    '''    public Paragraph paragraph()
+    '''
 def alignment():
-'''public int alignment()
-'''
-pass
+    '''    public int alignment()
+    '''

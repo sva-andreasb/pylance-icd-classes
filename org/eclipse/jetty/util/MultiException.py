@@ -1,42 +1,32 @@
 def MultiException():
-'''public MultiException()
-'''
-pass
+    '''    public MultiException()
+    '''
 def add():
-'''public void add(final Throwable e)
-'''
-pass
+    '''    public void add(final Throwable e)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getThrowables():
-'''public List<Throwable> getThrowables()
-'''
-pass
+    '''    public List<Throwable> getThrowables()
+    '''
 def getThrowable():
-'''public Throwable getThrowable(final int i)
-'''
-pass
+    '''    public Throwable getThrowable(final int i)
+    '''
 def ifExceptionThrow():
-'''public void ifExceptionThrow()
-'''
-pass
+    '''    public void ifExceptionThrow()
+    '''
 def ifExceptionThrowRuntime():
-'''public void ifExceptionThrowRuntime()
-'''
-pass
+    '''    public void ifExceptionThrowRuntime()
+    '''
 def ifExceptionThrowMulti():
-'''public void ifExceptionThrowMulti()
-'''
-pass
+    '''    public void ifExceptionThrowMulti()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def printStackTrace():
-'''public void printStackTrace()
-public void printStackTrace(final PrintStream out)
-public void printStackTrace(final PrintWriter out)
-'''
-pass
+    '''    public void printStackTrace()
+    public void printStackTrace(final PrintStream out)
+    public void printStackTrace(final PrintWriter out)
+    '''

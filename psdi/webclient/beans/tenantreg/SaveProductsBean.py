@@ -1,8 +1,6 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def saveenabledproducts():
-'''public int saveenabledproducts()
-'''
-pass
+    '''    public int saveenabledproducts()
+    '''

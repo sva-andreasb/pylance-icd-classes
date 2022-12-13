@@ -1,4 +1,3 @@
 def WebSocket13FrameEncoder():
-'''public WebSocket13FrameEncoder(final boolean maskPayload)
-'''
-pass
+    '''    public WebSocket13FrameEncoder(final boolean maskPayload)
+    '''

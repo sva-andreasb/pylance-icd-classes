@@ -1,12 +1,9 @@
 def Audio():
-'''public Audio(final String value)
-'''
-pass
+    '''    public Audio(final String value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def fromString():
-'''public static ContentInfo fromString(String value)
-'''
-pass
+    '''    public static ContentInfo fromString(String value)
+    '''

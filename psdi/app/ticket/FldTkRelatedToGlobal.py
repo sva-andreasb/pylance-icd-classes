@@ -1,12 +1,9 @@
 def FldTkRelatedToGlobal():
-'''public FldTkRelatedToGlobal(final MboValue mbv)
-'''
-pass
+    '''    public FldTkRelatedToGlobal(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

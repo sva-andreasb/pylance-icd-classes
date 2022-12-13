@@ -1,12 +1,9 @@
 def PlusPAppliesToLoc():
-'''public PlusPAppliesToLoc(final MboSet set)
-'''
-pass
+    '''    public PlusPAppliesToLoc(final MboSet set)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setDescription():
-'''public void setDescription()
-'''
-pass
+    '''    public void setDescription()
+    '''

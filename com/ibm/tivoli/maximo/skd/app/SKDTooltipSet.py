@@ -1,4 +1,3 @@
 def SKDTooltipSet():
-'''public SKDTooltipSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDTooltipSet(final MboServerInterface ms)
+    '''

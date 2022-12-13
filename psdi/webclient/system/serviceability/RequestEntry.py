@@ -1,32 +1,24 @@
 def RequestEntry():
-'''public RequestEntry(final HttpServletRequest request, final WebClientSession session)
-'''
-pass
+    '''    public RequestEntry(final HttpServletRequest request, final WebClientSession session)
+    '''
 def getEvents():
-'''public Events getEvents()
-'''
-pass
+    '''    public Events getEvents()
+    '''
 def getLogs():
-'''public LogEntry[] getLogs()
-'''
-pass
+    '''    public LogEntry[] getLogs()
+    '''
 def setHandling():
-'''public void setHandling(final WebClientEvent event, final boolean handling)
-'''
-pass
+    '''    public void setHandling(final WebClientEvent event, final boolean handling)
+    '''
 def addHandledBy():
-'''public void addHandledBy(final WebClientEvent event, final Object handler)
-'''
-pass
+    '''    public void addHandledBy(final WebClientEvent event, final Object handler)
+    '''
 def finish():
-'''public void finish()
-'''
-pass
+    '''    public void finish()
+    '''
 def isFinished():
-'''public boolean isFinished()
-'''
-pass
+    '''    public boolean isFinished()
+    '''
 def setRequestEvent():
-'''public void setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)
-'''
-pass
+    '''    public void setRequestEvent(final WebClientEvent event, final boolean isRequestEvent)
+    '''

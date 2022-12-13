@@ -1,8 +1,6 @@
 def PlusPFldLaborPriceBook():
-'''public PlusPFldLaborPriceBook(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldLaborPriceBook(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

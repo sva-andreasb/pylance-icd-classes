@@ -1,12 +1,9 @@
 def DefaultMetaDataGeneratorImpl():
-'''public DefaultMetaDataGeneratorImpl()
-'''
-pass
+    '''    public DefaultMetaDataGeneratorImpl()
+    '''
 def setMetaData():
-'''public void setMetaData(final ServletCacheRequest req, final HttpServletResponse resp)
-'''
-pass
+    '''    public void setMetaData(final ServletCacheRequest req, final HttpServletResponse resp)
+    '''
 def initialize():
-'''public void initialize(final CacheConfig cc)
-'''
-pass
+    '''    public void initialize(final CacheConfig cc)
+    '''

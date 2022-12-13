@@ -1,8 +1,6 @@
 def ByteSequence():
-'''public ByteSequence(final byte[] bytes)
-'''
-pass
+    '''    public ByteSequence(final byte[] bytes)
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''

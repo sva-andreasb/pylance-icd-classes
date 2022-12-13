@@ -1,16 +1,12 @@
 def getJid():
-'''public Jid getJid()
-'''
-pass
+    '''    public Jid getJid()
+    '''
 def getAffiliation():
-'''public MUCAffiliation getAffiliation()
-'''
-pass
+    '''    public MUCAffiliation getAffiliation()
+    '''
 def getRole():
-'''public MUCRole getRole()
-'''
-pass
+    '''    public MUCRole getRole()
+    '''
 def getNick():
-'''public Resourcepart getNick()
-'''
-pass
+    '''    public Resourcepart getNick()
+    '''

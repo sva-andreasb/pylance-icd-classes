@@ -1,8 +1,6 @@
 def JMSNotificationProcessor():
-'''public JMSNotificationProcessor()
-'''
-pass
+    '''    public JMSNotificationProcessor()
+    '''
 def ejbCreate():
-'''public void ejbCreate()
-'''
-pass
+    '''    public void ejbCreate()
+    '''

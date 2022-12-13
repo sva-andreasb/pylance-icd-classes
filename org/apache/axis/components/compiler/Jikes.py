@@ -1,20 +1,15 @@
 def compile():
-'''public boolean compile()
-'''
-pass
+    '''    public boolean compile()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def StreamPumper():
-'''public StreamPumper(final BufferedInputStream is, final OutputStream out)
-'''
-pass
+    '''    public StreamPumper(final BufferedInputStream is, final OutputStream out)
+    '''
 def pumpStream():
-'''public void pumpStream()
-'''
-pass
+    '''    public void pumpStream()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

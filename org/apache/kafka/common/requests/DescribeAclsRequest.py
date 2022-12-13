@@ -1,32 +1,24 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def DescribeAclsRequest():
-'''public DescribeAclsRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public DescribeAclsRequest(final Struct struct, final short version)
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
+    '''
 def parse():
-'''public static DescribeAclsRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static DescribeAclsRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def filter():
-'''public AclBindingFilter filter()
-'''
-pass
+    '''    public AclBindingFilter filter()
+    '''
 def Builder():
-'''public Builder(final AclBindingFilter filter)
-'''
-pass
+    '''    public Builder(final AclBindingFilter filter)
+    '''
 def build():
-'''public DescribeAclsRequest build(final short version)
-'''
-pass
+    '''    public DescribeAclsRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

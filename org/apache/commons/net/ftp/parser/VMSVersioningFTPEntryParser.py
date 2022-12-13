@@ -1,9 +1,7 @@
 def VMSVersioningFTPEntryParser():
-'''public VMSVersioningFTPEntryParser()
-public VMSVersioningFTPEntryParser(final FTPClientConfig config)
-'''
-pass
+    '''    public VMSVersioningFTPEntryParser()
+    public VMSVersioningFTPEntryParser(final FTPClientConfig config)
+    '''
 def preParse():
-'''public List preParse(List original)
-'''
-pass
+    '''    public List preParse(List original)
+    '''

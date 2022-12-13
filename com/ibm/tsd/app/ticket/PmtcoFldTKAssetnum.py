@@ -1,8 +1,6 @@
 def PmtcoFldTKAssetnum():
-'''public PmtcoFldTKAssetnum(final MboValue mbv)
-'''
-pass
+    '''    public PmtcoFldTKAssetnum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

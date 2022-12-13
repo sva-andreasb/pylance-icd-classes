@@ -1,50 +1,38 @@
-SCRIPT_LOGGER = "String maximo.script""
+SCRIPT_LOGGER = "String  \"maximo.script\""
 def JSR223ScriptDriver():
-'''public JSR223ScriptDriver()
-'''
-pass
+    '''    public JSR223ScriptDriver()
+    '''
 def readBinaryData():
-'''public static byte[] readBinaryData(final InputStream input)
-'''
-pass
+    '''    public static byte[] readBinaryData(final InputStream input)
+    '''
 def getSupportedScriptEngineNames():
-'''public static Set<String> getSupportedScriptEngineNames()
-'''
-pass
+    '''    public static Set<String> getSupportedScriptEngineNames()
+    '''
 def getAllSupportedScriptEngines():
-'''public static Map<String, ScriptEngineInfo> getAllSupportedScriptEngines()
-'''
-pass
+    '''    public static Map<String, ScriptEngineInfo> getAllSupportedScriptEngines()
+    '''
 def getSupportedScriptEngineInfo():
-'''public static ScriptEngineInfo getSupportedScriptEngineInfo(final String engShortName)
-'''
-pass
+    '''    public static ScriptEngineInfo getSupportedScriptEngineInfo(final String engShortName)
+    '''
 def canRun():
-'''public boolean canRun(final String scriptLang)
-'''
-pass
+    '''    public boolean canRun(final String scriptLang)
+    '''
 def releaseResources():
-'''public void releaseResources()
-public void releaseResources(final String scriptName)
-'''
-pass
+    '''    public void releaseResources()
+    public void releaseResources(final String scriptName)
+    '''
 def preCompileScript():
-'''public boolean preCompileScript(final ScriptInfo scriptInfo)
-'''
-pass
+    '''    public boolean preCompileScript(final ScriptInfo scriptInfo)
+    '''
 def getSupportedEngines():
-'''public Map<String, ScriptEngineInfo> getSupportedEngines()
-'''
-pass
+    '''    public Map<String, ScriptEngineInfo> getSupportedEngines()
+    '''
 def isBinaryScript():
-'''public boolean isBinaryScript()
-'''
-pass
+    '''    public boolean isBinaryScript()
+    '''
 def parseScriptForParams():
-'''public List<ScriptParamInfo> parseScriptForParams(final byte[] scriptBytes)
-'''
-pass
+    '''    public List<ScriptParamInfo> parseScriptForParams(final byte[] scriptBytes)
+    '''
 def compileScript():
-'''public void compileScript(final String scriptName, final String scriptSource, final String scriptLanguage)
-'''
-pass
+    '''    public void compileScript(final String scriptName, final String scriptSource, final String scriptLanguage)
+    '''

@@ -1,4 +1,3 @@
 def getRules():
-'''public String getRules()
-'''
-pass
+    '''    public String getRules()
+    '''

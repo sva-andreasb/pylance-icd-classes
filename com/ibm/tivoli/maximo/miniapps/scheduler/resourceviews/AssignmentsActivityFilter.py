@@ -1,8 +1,6 @@
 def AssignmentsActivityFilter():
-'''public AssignmentsActivityFilter(final List filter)
-'''
-pass
+    '''    public AssignmentsActivityFilter(final List filter)
+    '''
 def canAccept():
-'''public boolean canAccept(final IMXGanttModel model, final IMXActivity act)
-'''
-pass
+    '''    public boolean canAccept(final IMXGanttModel model, final IMXActivity act)
+    '''

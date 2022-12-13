@@ -1,36 +1,27 @@
 def AdminModeBean():
-'''public AdminModeBean()
-'''
-pass
+    '''    public AdminModeBean()
+    '''
 def admin_ON():
-'''public int admin_ON()
-'''
-pass
+    '''    public int admin_ON()
+    '''
 def admin_OFF():
-'''public int admin_OFF()
-'''
-pass
+    '''    public int admin_OFF()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def refreshStatus():
-'''public int refreshStatus()
-'''
-pass
+    '''    public int refreshStatus()
+    '''
 def saveProperties():
-'''public int saveProperties()
-'''
-pass
+    '''    public int saveProperties()
+    '''
 def cancelPendingAdmin():
-'''public int cancelPendingAdmin()
-'''
-pass
+    '''    public int cancelPendingAdmin()
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(String option)
+    '''

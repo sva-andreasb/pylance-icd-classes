@@ -1,4 +1,3 @@
 def GetBucketLoggingConfigurationRequest():
-'''public GetBucketLoggingConfigurationRequest(final String bucketName)
-'''
-pass
+    '''    public GetBucketLoggingConfigurationRequest(final String bucketName)
+    '''

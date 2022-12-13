@@ -1,12 +1,9 @@
 def FldCrewWorkDate():
-'''public FldCrewWorkDate(final MboValue mbv)
-'''
-pass
+    '''    public FldCrewWorkDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def createAMGrid():
-'''public void createAMGrid(final AMCrewRemote crewMbo)
-'''
-pass
+    '''    public void createAMGrid(final AMCrewRemote crewMbo)
+    '''

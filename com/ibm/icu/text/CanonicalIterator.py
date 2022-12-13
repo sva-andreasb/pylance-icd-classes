@@ -1,24 +1,18 @@
 def CanonicalIterator():
-'''public CanonicalIterator(final String source)
-'''
-pass
+    '''    public CanonicalIterator(final String source)
+    '''
 def getSource():
-'''public String getSource()
-'''
-pass
+    '''    public String getSource()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def next():
-'''public String next()
-'''
-pass
+    '''    public String next()
+    '''
 def setSource():
-'''public void setSource(final String newSource)
-'''
-pass
+    '''    public void setSource(final String newSource)
+    '''
 def permute():
-'''public static void permute(final String source, final boolean skipZeros, final Set<String> output)
-'''
-pass
+    '''    public static void permute(final String source, final boolean skipZeros, final Set<String> output)
+    '''

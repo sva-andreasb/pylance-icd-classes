@@ -1,21 +1,16 @@
 def SlackOption():
-'''public SlackOption()
-public SlackOption(final String text, final String value)
-'''
-pass
+    '''    public SlackOption()
+    public SlackOption(final String text, final String value)
+    '''
 def setText():
-'''public void setText(final String text)
-'''
-pass
+    '''    public void setText(final String text)
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

@@ -1,8 +1,6 @@
 def FldAssetFeatureHistToMeasure():
-'''public FldAssetFeatureHistToMeasure(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetFeatureHistToMeasure(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

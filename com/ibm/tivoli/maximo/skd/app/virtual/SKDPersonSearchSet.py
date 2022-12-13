@@ -1,4 +1,3 @@
 def SKDPersonSearchSet():
-'''public SKDPersonSearchSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDPersonSearchSet(final MboServerInterface ms)
+    '''

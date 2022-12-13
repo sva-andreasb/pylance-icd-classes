@@ -1,4 +1,3 @@
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''

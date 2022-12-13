@@ -1,21 +1,16 @@
 def MultiPartOutputStream():
-'''public MultiPartOutputStream(final OutputStream out)
-'''
-pass
+    '''    public MultiPartOutputStream(final OutputStream out)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getBoundary():
-'''public String getBoundary()
-'''
-pass
+    '''    public String getBoundary()
+    '''
 def getOut():
-'''public OutputStream getOut()
-'''
-pass
+    '''    public OutputStream getOut()
+    '''
 def startPart():
-'''public void startPart(final String contentType)
-public void startPart(final String contentType, final String[] headers)
-'''
-pass
+    '''    public void startPart(final String contentType)
+    public void startPart(final String contentType, final String[] headers)
+    '''

@@ -1,76 +1,59 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def InternetAddress():
-'''public InternetAddress()
-public InternetAddress(final String address)
-public InternetAddress(final String address, final boolean strict)
-public InternetAddress(final String address, final String personal)
-public InternetAddress(final String address, final String personal, final String charset)
-'''
-pass
+    '''    public InternetAddress()
+    public InternetAddress(final String address)
+    public InternetAddress(final String address, final boolean strict)
+    public InternetAddress(final String address, final String personal)
+    public InternetAddress(final String address, final String personal, final String charset)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def isGroup():
-'''public boolean isGroup()
-'''
-pass
+    '''    public boolean isGroup()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def equals():
-'''public boolean equals(final Object a)
-'''
-pass
+    '''    public boolean equals(final Object a)
+    '''
 def getAddress():
-'''public String getAddress()
-'''
-pass
+    '''    public String getAddress()
+    '''
 def getPersonal():
-'''public String getPersonal()
-'''
-pass
+    '''    public String getPersonal()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def toString():
-'''public String toString()
-public static String toString(final Address[] addresses)
-public static String toString(final Address[] addresses, int used)
-'''
-pass
+    '''    public String toString()
+    public static String toString(final Address[] addresses)
+    public static String toString(final Address[] addresses, int used)
+    '''
 def toUnicodeString():
-'''public String toUnicodeString()
-'''
-pass
+    '''    public String toUnicodeString()
+    '''
 def setAddress():
-'''public void setAddress(final String address)
-'''
-pass
+    '''    public void setAddress(final String address)
+    '''
 def setPersonal():
-'''public void setPersonal(final String name)
-public void setPersonal(final String name, final String charset)
-'''
-pass
+    '''    public void setPersonal(final String name)
+    public void setPersonal(final String name, final String charset)
+    '''
 def getGroup():
-'''public InternetAddress[] getGroup(final boolean strict)
-'''
-pass
+    '''    public InternetAddress[] getGroup(final boolean strict)
+    '''
 def parse():
-'''public static InternetAddress[] parse(final String addresslist)
-public static InternetAddress[] parse(final String addresslist, final boolean strict)
-'''
-pass
+    '''    public static InternetAddress[] parse(final String addresslist)
+    public static InternetAddress[] parse(final String addresslist, final boolean strict)
+    '''
 def parseHeader():
-'''public static InternetAddress[] parseHeader(final String addresslist, final boolean strict)
-'''
-pass
+    '''    public static InternetAddress[] parseHeader(final String addresslist, final boolean strict)
+    '''
 def getLocalAddress():
-'''public static InternetAddress getLocalAddress(final Session session)
-'''
-pass
+    '''    public static InternetAddress getLocalAddress(final Session session)
+    '''

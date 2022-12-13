@@ -1,39 +1,30 @@
 def LDAPResponse():
-'''public LDAPResponse()
-public LDAPResponse(final InterThreadException exception, final ReferralInfo activeReferral)
-public LDAPResponse(final int n)
-public LDAPResponse(final int n, final int n2, final String s, final String s2, final String[] array, final LDAPControl[] array2)
-'''
-pass
+    '''    public LDAPResponse()
+    public LDAPResponse(final InterThreadException exception, final ReferralInfo activeReferral)
+    public LDAPResponse(final int n)
+    public LDAPResponse(final int n, final int n2, final String s, final String s2, final String[] array, final LDAPControl[] array2)
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def getMatchedDN():
-'''public String getMatchedDN()
-'''
-pass
+    '''    public String getMatchedDN()
+    '''
 def getReferrals():
-'''public String[] getReferrals()
-'''
-pass
+    '''    public String[] getReferrals()
+    '''
 def getResultCode():
-'''public int getResultCode()
-'''
-pass
+    '''    public int getResultCode()
+    '''
 def chkResultCode():
-'''public void chkResultCode()
-'''
-pass
+    '''    public void chkResultCode()
+    '''
 def getControls():
-'''public LDAPControl[] getControls()
-'''
-pass
+    '''    public LDAPControl[] getControls()
+    '''
 def getMessageID():
-'''public int getMessageID()
-'''
-pass
+    '''    public int getMessageID()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''

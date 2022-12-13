@@ -1,8 +1,6 @@
 def testexpressions():
-'''public int testexpressions()
-'''
-pass
+    '''    public int testexpressions()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

@@ -1,25 +1,19 @@
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''
 def complete():
-'''public void complete(final Form form)
-'''
-pass
+    '''    public void complete(final Form form)
+    '''
 def execute():
-'''public void execute()
-public void execute(final Form form)
-'''
-pass
+    '''    public void execute()
+    public void execute(final Form form)
+    '''
 def next():
-'''public void next(final Form form)
-'''
-pass
+    '''    public void next(final Form form)
+    '''
 def prev():
-'''public void prev()
-'''
-pass
+    '''    public void prev()
+    '''
 def getOwnerJID():
-'''public Jid getOwnerJID()
-'''
-pass
+    '''    public Jid getOwnerJID()
+    '''

@@ -1,29 +1,22 @@
 def DPASWUsageCache():
-'''public DPASWUsageCache()
-'''
-pass
+    '''    public DPASWUsageCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def convertValue():
-'''public String convertValue(final String swdetectiontool, final int usagecount)
-'''
-pass
+    '''    public String convertValue(final String swdetectiontool, final int usagecount)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initInstance():
-'''public void initInstance()
-'''
-pass
+    '''    public void initInstance()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def Range():
-'''public Range(final int valLow, final int valHigh, final String valText)
-'''
-pass
+    '''    public Range(final int valLow, final int valHigh, final String valText)
+    '''

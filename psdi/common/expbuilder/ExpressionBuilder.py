@@ -1,249 +1,187 @@
 def ExpressionBuilder():
-'''public ExpressionBuilder(final MboSet ms)
-'''
-pass
+    '''    public ExpressionBuilder(final MboSet ms)
+    '''
 def setWorkFlowParser():
-'''public void setWorkFlowParser(final boolean flag)
-'''
-pass
+    '''    public void setWorkFlowParser(final boolean flag)
+    '''
 def isWorkFlowParserOn():
-'''public boolean isWorkFlowParserOn()
-'''
-pass
+    '''    public boolean isWorkFlowParserOn()
+    '''
 def setColonize():
-'''public void setColonize(final boolean flag)
-'''
-pass
+    '''    public void setColonize(final boolean flag)
+    '''
 def getColonize():
-'''public boolean getColonize()
-'''
-pass
+    '''    public boolean getColonize()
+    '''
 def setValueAND():
-'''public void setValueAND()
-'''
-pass
+    '''    public void setValueAND()
+    '''
 def setValueOR():
-'''public void setValueOR()
-'''
-pass
+    '''    public void setValueOR()
+    '''
 def setValueNOT():
-'''public void setValueNOT()
-'''
-pass
+    '''    public void setValueNOT()
+    '''
 def setValueLIKE():
-'''public void setValueLIKE()
-'''
-pass
+    '''    public void setValueLIKE()
+    '''
 def setValueIN():
-'''public void setValueIN()
-'''
-pass
+    '''    public void setValueIN()
+    '''
 def setValueOPENPAREN():
-'''public void setValueOPENPAREN()
-'''
-pass
+    '''    public void setValueOPENPAREN()
+    '''
 def setValueCLOSEPAREN():
-'''public void setValueCLOSEPAREN()
-'''
-pass
+    '''    public void setValueCLOSEPAREN()
+    '''
 def setValueNULL():
-'''public void setValueNULL()
-'''
-pass
+    '''    public void setValueNULL()
+    '''
 def setValueNOTNULL():
-'''public void setValueNOTNULL()
-'''
-pass
+    '''    public void setValueNOTNULL()
+    '''
 def setValueBETWEEN():
-'''public void setValueBETWEEN()
-'''
-pass
+    '''    public void setValueBETWEEN()
+    '''
 def setValueEQUALTO():
-'''public void setValueEQUALTO()
-'''
-pass
+    '''    public void setValueEQUALTO()
+    '''
 def setValueNOTEQUALTO():
-'''public void setValueNOTEQUALTO()
-'''
-pass
+    '''    public void setValueNOTEQUALTO()
+    '''
 def setValueLESSERTHAN():
-'''public void setValueLESSERTHAN()
-'''
-pass
+    '''    public void setValueLESSERTHAN()
+    '''
 def setValueGREATERTHAN():
-'''public void setValueGREATERTHAN()
-'''
-pass
+    '''    public void setValueGREATERTHAN()
+    '''
 def setValueLESSEREQUAL():
-'''public void setValueLESSEREQUAL()
-'''
-pass
+    '''    public void setValueLESSEREQUAL()
+    '''
 def setValueGREATEREQUAL():
-'''public void setValueGREATEREQUAL()
-'''
-pass
+    '''    public void setValueGREATEREQUAL()
+    '''
 def setValueMIN():
-'''public void setValueMIN()
-'''
-pass
+    '''    public void setValueMIN()
+    '''
 def setValueMAX():
-'''public void setValueMAX()
-'''
-pass
+    '''    public void setValueMAX()
+    '''
 def setValueAVG():
-'''public void setValueAVG()
-'''
-pass
+    '''    public void setValueAVG()
+    '''
 def setValuePERIOD():
-'''public void setValuePERIOD()
-'''
-pass
+    '''    public void setValuePERIOD()
+    '''
 def setValuePLUS():
-'''public void setValuePLUS()
-'''
-pass
+    '''    public void setValuePLUS()
+    '''
 def setValueMINUS():
-'''public void setValueMINUS()
-'''
-pass
+    '''    public void setValueMINUS()
+    '''
 def setValueDIVIDE():
-'''public void setValueDIVIDE()
-'''
-pass
+    '''    public void setValueDIVIDE()
+    '''
 def setValueMULTIPLY():
-'''public void setValueMULTIPLY()
-'''
-pass
+    '''    public void setValueMULTIPLY()
+    '''
 def setValueSQRT():
-'''public void setValueSQRT()
-'''
-pass
+    '''    public void setValueSQRT()
+    '''
 def setValueEXPONENT():
-'''public void setValueEXPONENT()
-'''
-pass
+    '''    public void setValueEXPONENT()
+    '''
 def setValueSTDDEV():
-'''public void setValueSTDDEV()
-'''
-pass
+    '''    public void setValueSTDDEV()
+    '''
 def setValueDATE():
-'''public void setValueDATE()
-'''
-pass
+    '''    public void setValueDATE()
+    '''
 def setValueDATETIME():
-'''public void setValueDATETIME()
-'''
-pass
+    '''    public void setValueDATETIME()
+    '''
 def setPopUpDate():
-'''public void setPopUpDate(final Date selectedDate)
-'''
-pass
+    '''    public void setPopUpDate(final Date selectedDate)
+    '''
 def setValueYES():
-'''public void setValueYES()
-'''
-pass
+    '''    public void setValueYES()
+    '''
 def setValueNO():
-'''public void setValueNO()
-'''
-pass
+    '''    public void setValueNO()
+    '''
 def setValueUSER():
-'''public void setValueUSER()
-'''
-pass
+    '''    public void setValueUSER()
+    '''
 def setValuePERSON():
-'''public void setValuePERSON()
-'''
-pass
+    '''    public void setValuePERSON()
+    '''
 def setValueOWNER():
-'''public void setValueOWNER()
-'''
-pass
+    '''    public void setValueOWNER()
+    '''
 def setValueOWNERNAME():
-'''public void setValueOWNERNAME()
-'''
-pass
+    '''    public void setValueOWNERNAME()
+    '''
 def setValueAPPNAME():
-'''public void setValueAPPNAME()
-'''
-pass
+    '''    public void setValueAPPNAME()
+    '''
 def setValueHOSTNAME():
-'''public void setValueHOSTNAME()
-'''
-pass
+    '''    public void setValueHOSTNAME()
+    '''
 def setValueSEQUENCE():
-'''public void setValueSEQUENCE()
-'''
-pass
+    '''    public void setValueSEQUENCE()
+    '''
 def setValueUNIQUEID():
-'''public void setValueUNIQUEID()
-'''
-pass
+    '''    public void setValueUNIQUEID()
+    '''
 def setValueMBONAME():
-'''public void setValueMBONAME()
-'''
-pass
+    '''    public void setValueMBONAME()
+    '''
 def setClassification():
-'''public void setClassification()
-'''
-pass
+    '''    public void setClassification()
+    '''
 def validateWithWFParser():
-'''public void validateWithWFParser()
-'''
-pass
+    '''    public void validateWithWFParser()
+    '''
 def validateExpression():
-'''public void validateExpression()
-'''
-pass
+    '''    public void validateExpression()
+    '''
 def validateWithExpBldFormatter():
-'''public void validateWithExpBldFormatter()
-'''
-pass
+    '''    public void validateWithExpBldFormatter()
+    '''
 def validateCustomClass():
-'''public void validateCustomClass(final String customClass)
-'''
-pass
+    '''    public void validateCustomClass(final String customClass)
+    '''
 def getOwnerMbo():
-'''public MboRemote getOwnerMbo()
-'''
-pass
+    '''    public MboRemote getOwnerMbo()
+    '''
 def getOwnerMboName():
-'''public String getOwnerMboName()
-'''
-pass
+    '''    public String getOwnerMboName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getTreeObjectName():
-'''public String getTreeObjectName()
-'''
-pass
+    '''    public String getTreeObjectName()
+    '''
 def loadRelationshipTree():
-'''public void loadRelationshipTree()
-'''
-pass
+    '''    public void loadRelationshipTree()
+    '''
 def setSubSelectNodeValue():
-'''public void setSubSelectNodeValue(final String attr)
-'''
-pass
+    '''    public void setSubSelectNodeValue(final String attr)
+    '''
 def setNodeValue():
-'''public void setNodeValue(final long uniqueId, final String dotnotation)
-public void setNodeValue(final long uniqueId)
-'''
-pass
+    '''    public void setNodeValue(final long uniqueId, final String dotnotation)
+    public void setNodeValue(final long uniqueId)
+    '''
 def getRelationshipTree():
-'''public HashMap getRelationshipTree()
-'''
-pass
+    '''    public HashMap getRelationshipTree()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''

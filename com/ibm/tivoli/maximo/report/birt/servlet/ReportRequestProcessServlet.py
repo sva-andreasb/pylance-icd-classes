@@ -1,8 +1,6 @@
 def ReportRequestProcessServlet():
-'''public ReportRequestProcessServlet()
-'''
-pass
+    '''    public ReportRequestProcessServlet()
+    '''
 def init():
-'''public void init(final ServletConfig config)
-'''
-pass
+    '''    public void init(final ServletConfig config)
+    '''

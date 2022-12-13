@@ -1,5 +1,4 @@
 def CdmCiTypeService():
-'''public CdmCiTypeService()
-public CdmCiTypeService(final MXServer mxServer)
-'''
-pass
+    '''    public CdmCiTypeService()
+    public CdmCiTypeService(final MXServer mxServer)
+    '''

@@ -1,8 +1,6 @@
 def FldPropMaintFileOverride():
-'''public FldPropMaintFileOverride(final MboValue mbv)
-'''
-pass
+    '''    public FldPropMaintFileOverride(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

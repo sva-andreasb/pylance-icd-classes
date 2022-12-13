@@ -1,8 +1,6 @@
 def LMOSet():
-'''public LMOSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LMOSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

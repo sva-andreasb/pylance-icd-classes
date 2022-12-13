@@ -1,8 +1,6 @@
 def FldPerpetual():
-'''public FldPerpetual(final MboValue mbv)
-'''
-pass
+    '''    public FldPerpetual(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

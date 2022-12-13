@@ -1,55 +1,42 @@
 def SimpleReifierTripleMap():
-'''public SimpleReifierTripleMap()
-'''
-pass
+    '''    public SimpleReifierTripleMap()
+    '''
 def getTriple():
-'''public Triple getTriple(final Node tag)
-'''
-pass
+    '''    public Triple getTriple(final Node tag)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def hasTriple():
-'''public boolean hasTriple(final Triple t)
-'''
-pass
+    '''    public boolean hasTriple(final Triple t)
+    '''
 def putTriple():
-'''public Triple putTriple(final Node key, final Triple value)
-'''
-pass
+    '''    public Triple putTriple(final Node key, final Triple value)
+    '''
 def removeTriple():
-'''public void removeTriple(final Node key)
-public void removeTriple(final Node key, final Triple value)
-public void removeTriple(final Triple t)
-'''
-pass
+    '''    public void removeTriple(final Node key)
+    public void removeTriple(final Node key, final Triple value)
+    public void removeTriple(final Triple t)
+    '''
 def tagIterator():
-'''public ExtendedIterator<Node> tagIterator(final Triple t)
-public ExtendedIterator<Node> tagIterator()
-'''
-pass
+    '''    public ExtendedIterator<Node> tagIterator(final Triple t)
+    public ExtendedIterator<Node> tagIterator()
+    '''
 def fill():
-'''public void fill(final GraphAdd ga, final Node n, final Triple t)
-'''
-pass
+    '''    public void fill(final GraphAdd ga, final Node n, final Triple t)
+    '''
 def explodeTriple():
-'''public static ExtendedIterator<Triple> explodeTriple(final Triple pattern, final Node tag, final Triple toExplode)
-'''
-pass
+    '''    public static ExtendedIterator<Triple> explodeTriple(final Triple pattern, final Node tag, final Triple toExplode)
+    '''
 def asGraph():
-'''public Graph asGraph()
-'''
-pass
+    '''    public Graph asGraph()
+    '''
 def graphBaseFind():
-'''public ExtendedIterator<Triple> graphBaseFind(final TripleMatch tm)
-'''
-pass
+    '''    public ExtendedIterator<Triple> graphBaseFind(final TripleMatch tm)
+    '''
 def find():
-'''public ExtendedIterator<Triple> find(final TripleMatch m)
-'''
-pass
+    '''    public ExtendedIterator<Triple> find(final TripleMatch m)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''

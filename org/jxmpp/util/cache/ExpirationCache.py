@@ -1,89 +1,67 @@
 def ExpirationCache():
-'''public ExpirationCache(final int maxSize, final long defaultExpirationTime)
-'''
-pass
+    '''    public ExpirationCache(final int maxSize, final long defaultExpirationTime)
+    '''
 def setDefaultExpirationTime():
-'''public void setDefaultExpirationTime(final long defaultExpirationTime)
-'''
-pass
+    '''    public void setDefaultExpirationTime(final long defaultExpirationTime)
+    '''
 def put():
-'''public V put(final K key, final V value)
-public V put(final K key, final V value, final long expirationTime)
-'''
-pass
+    '''    public V put(final K key, final V value)
+    public V put(final K key, final V value, final long expirationTime)
+    '''
 def lookup():
-'''public V lookup(final K key)
-'''
-pass
+    '''    public V lookup(final K key)
+    '''
 def get():
-'''public V get(final Object key)
-'''
-pass
+    '''    public V get(final Object key)
+    '''
 def remove():
-'''public V remove(final Object key)
-'''
-pass
+    '''    public V remove(final Object key)
+    '''
 def getMaxCacheSize():
-'''public int getMaxCacheSize()
-'''
-pass
+    '''    public int getMaxCacheSize()
+    '''
 def setMaxCacheSize():
-'''public void setMaxCacheSize(final int maxCacheSize)
-'''
-pass
+    '''    public void setMaxCacheSize(final int maxCacheSize)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ? extends V> m)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ? extends V> m)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def entrySet():
-'''public Set<Entry<K, V>> entrySet()
-'''
-pass
+    '''    public Set<Entry<K, V>> entrySet()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V value)
-'''
-pass
+    '''    public V setValue(final V value)
+    '''

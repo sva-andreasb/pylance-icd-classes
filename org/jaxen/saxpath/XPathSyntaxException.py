@@ -1,20 +1,15 @@
 def XPathSyntaxException():
-'''public XPathSyntaxException(final String xpath, final int position, final String message)
-'''
-pass
+    '''    public XPathSyntaxException(final String xpath, final int position, final String message)
+    '''
 def getPosition():
-'''public int getPosition()
-'''
-pass
+    '''    public int getPosition()
+    '''
 def getXPath():
-'''public String getXPath()
-'''
-pass
+    '''    public String getXPath()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getMultilineMessage():
-'''public String getMultilineMessage()
-'''
-pass
+    '''    public String getMultilineMessage()
+    '''

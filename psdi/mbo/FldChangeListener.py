@@ -1,8 +1,6 @@
 def FldChangeListener():
-'''public FldChangeListener(final MboValue mbv)
-'''
-pass
+    '''    public FldChangeListener(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

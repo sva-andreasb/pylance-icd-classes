@@ -1,8 +1,6 @@
 def IQTypeFilter():
-'''public IQTypeFilter(final IQ.Type type)
-'''
-pass
+    '''    public IQTypeFilter(final IQ.Type type)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''

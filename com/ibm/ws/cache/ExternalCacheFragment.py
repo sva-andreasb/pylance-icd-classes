@@ -1,96 +1,72 @@
 def ExternalCacheFragment():
-'''public ExternalCacheFragment()
-'''
-pass
+    '''    public ExternalCacheFragment()
+    '''
 def getExternalCacheGroupId():
-'''public String getExternalCacheGroupId()
-'''
-pass
+    '''    public String getExternalCacheGroupId()
+    '''
 def setExternalCacheGroupId():
-'''public void setExternalCacheGroupId(final String externalCacheGroupId)
-'''
-pass
+    '''    public void setExternalCacheGroupId(final String externalCacheGroupId)
+    '''
 def getUri():
-'''public String getUri()
-'''
-pass
+    '''    public String getUri()
+    '''
 def setUri():
-'''public void setUri(final String uri)
-'''
-pass
+    '''    public void setUri(final String uri)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def setHost():
-'''public void setHost(final String host)
-'''
-pass
+    '''    public void setHost(final String host)
+    '''
 def addHostToList():
-'''public void addHostToList(final String host)
-'''
-pass
+    '''    public void addHostToList(final String host)
+    '''
 def getHostList():
-'''public ArrayList getHostList()
-'''
-pass
+    '''    public ArrayList getHostList()
+    '''
 def getContent():
-'''public byte[] getContent()
-'''
-pass
+    '''    public byte[] getContent()
+    '''
 def setContent():
-'''public void setContent(final byte[] content)
-'''
-pass
+    '''    public void setContent(final byte[] content)
+    '''
 def getInvalidationIds():
-'''public Enumeration getInvalidationIds()
-'''
-pass
+    '''    public Enumeration getInvalidationIds()
+    '''
 def setInvalidationIds():
-'''public void setInvalidationIds(final ValueSet invalidationIds)
-'''
-pass
+    '''    public void setInvalidationIds(final ValueSet invalidationIds)
+    '''
 def getTemplates():
-'''public Enumeration getTemplates()
-'''
-pass
+    '''    public Enumeration getTemplates()
+    '''
 def setTemplates():
-'''public void setTemplates(final ValueSet uris)
-'''
-pass
+    '''    public void setTemplates(final ValueSet uris)
+    '''
 def getHeaderTable():
-'''public Vector[] getHeaderTable()
-'''
-pass
+    '''    public Vector[] getHeaderTable()
+    '''
 def setHeaderTable():
-'''public void setHeaderTable(final Vector[] headerTable)
-'''
-pass
+    '''    public void setHeaderTable(final Vector[] headerTable)
+    '''
 def getExpirationTime():
-'''public long getExpirationTime()
-'''
-pass
+    '''    public long getExpirationTime()
+    '''
 def setExpirationTime():
-'''public void setExpirationTime(final long expirationTime)
-'''
-pass
+    '''    public void setExpirationTime(final long expirationTime)
+    '''
 def getTimeStamp():
-'''public long getTimeStamp()
-'''
-pass
+    '''    public long getTimeStamp()
+    '''
 def setTimeStamp():
-'''public void setTimeStamp(final long timeStamp)
-'''
-pass
+    '''    public void setTimeStamp(final long timeStamp)
+    '''
 def getEntry():
-'''public ExternalCacheEntry getEntry()
-'''
-pass
+    '''    public ExternalCacheEntry getEntry()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

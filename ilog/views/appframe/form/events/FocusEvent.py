@@ -1,4 +1,3 @@
 def FocusEvent():
-'''public FocusEvent(final Object o)
-'''
-pass
+    '''    public FocusEvent(final Object o)
+    '''

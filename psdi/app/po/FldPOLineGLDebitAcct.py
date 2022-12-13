@@ -1,8 +1,6 @@
 def FldPOLineGLDebitAcct():
-'''public FldPOLineGLDebitAcct(final MboValue mbv)
-'''
-pass
+    '''    public FldPOLineGLDebitAcct(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

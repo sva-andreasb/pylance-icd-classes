@@ -1,8 +1,6 @@
 def fireBuildStarted():
-'''public void fireBuildStarted()
-'''
-pass
+    '''    public void fireBuildStarted()
+    '''
 def fireBuildFinished():
-'''public void fireBuildFinished(final Throwable ex)
-'''
-pass
+    '''    public void fireBuildFinished(final Throwable ex)
+    '''

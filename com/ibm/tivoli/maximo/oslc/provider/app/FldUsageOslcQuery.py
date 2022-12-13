@@ -1,9 +1,7 @@
 def FldUsageOslcQuery():
-'''public FldUsageOslcQuery()
-public FldUsageOslcQuery(final MboValue mbv)
-'''
-pass
+    '''    public FldUsageOslcQuery()
+    public FldUsageOslcQuery(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

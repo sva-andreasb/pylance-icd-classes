@@ -41,162 +41,122 @@ LT = "byte  6"
 GE = "byte  7"
 LE = "byte  8"
 def getConditionType():
-'''public byte getConditionType()
-'''
-pass
+    '''    public byte getConditionType()
+    '''
 def setComparisonOperation():
-'''public void setComparisonOperation(final byte operation)
-'''
-pass
+    '''    public void setComparisonOperation(final byte operation)
+    '''
 def getComparisonOperation():
-'''public byte getComparisonOperation()
-'''
-pass
+    '''    public byte getComparisonOperation()
+    '''
 def containsFontFormattingBlock():
-'''public boolean containsFontFormattingBlock()
-'''
-pass
+    '''    public boolean containsFontFormattingBlock()
+    '''
 def setFontFormatting():
-'''public void setFontFormatting(final FontFormatting fontFormatting)
-'''
-pass
+    '''    public void setFontFormatting(final FontFormatting fontFormatting)
+    '''
 def getFontFormatting():
-'''public FontFormatting getFontFormatting()
-'''
-pass
+    '''    public FontFormatting getFontFormatting()
+    '''
 def containsAlignFormattingBlock():
-'''public boolean containsAlignFormattingBlock()
-'''
-pass
+    '''    public boolean containsAlignFormattingBlock()
+    '''
 def setAlignFormattingUnchanged():
-'''public void setAlignFormattingUnchanged()
-'''
-pass
+    '''    public void setAlignFormattingUnchanged()
+    '''
 def containsBorderFormattingBlock():
-'''public boolean containsBorderFormattingBlock()
-'''
-pass
+    '''    public boolean containsBorderFormattingBlock()
+    '''
 def setBorderFormatting():
-'''public void setBorderFormatting(final BorderFormatting borderFormatting)
-'''
-pass
+    '''    public void setBorderFormatting(final BorderFormatting borderFormatting)
+    '''
 def getBorderFormatting():
-'''public BorderFormatting getBorderFormatting()
-'''
-pass
+    '''    public BorderFormatting getBorderFormatting()
+    '''
 def containsPatternFormattingBlock():
-'''public boolean containsPatternFormattingBlock()
-'''
-pass
+    '''    public boolean containsPatternFormattingBlock()
+    '''
 def setPatternFormatting():
-'''public void setPatternFormatting(final PatternFormatting patternFormatting)
-'''
-pass
+    '''    public void setPatternFormatting(final PatternFormatting patternFormatting)
+    '''
 def getPatternFormatting():
-'''public PatternFormatting getPatternFormatting()
-'''
-pass
+    '''    public PatternFormatting getPatternFormatting()
+    '''
 def containsProtectionFormattingBlock():
-'''public boolean containsProtectionFormattingBlock()
-'''
-pass
+    '''    public boolean containsProtectionFormattingBlock()
+    '''
 def setProtectionFormattingUnchanged():
-'''public void setProtectionFormattingUnchanged()
-'''
-pass
+    '''    public void setProtectionFormattingUnchanged()
+    '''
 def getOptions():
-'''public int getOptions()
-'''
-pass
+    '''    public int getOptions()
+    '''
 def isLeftBorderModified():
-'''public boolean isLeftBorderModified()
-'''
-pass
+    '''    public boolean isLeftBorderModified()
+    '''
 def setLeftBorderModified():
-'''public void setLeftBorderModified(final boolean modified)
-'''
-pass
+    '''    public void setLeftBorderModified(final boolean modified)
+    '''
 def isRightBorderModified():
-'''public boolean isRightBorderModified()
-'''
-pass
+    '''    public boolean isRightBorderModified()
+    '''
 def setRightBorderModified():
-'''public void setRightBorderModified(final boolean modified)
-'''
-pass
+    '''    public void setRightBorderModified(final boolean modified)
+    '''
 def isTopBorderModified():
-'''public boolean isTopBorderModified()
-'''
-pass
+    '''    public boolean isTopBorderModified()
+    '''
 def setTopBorderModified():
-'''public void setTopBorderModified(final boolean modified)
-'''
-pass
+    '''    public void setTopBorderModified(final boolean modified)
+    '''
 def isBottomBorderModified():
-'''public boolean isBottomBorderModified()
-'''
-pass
+    '''    public boolean isBottomBorderModified()
+    '''
 def setBottomBorderModified():
-'''public void setBottomBorderModified(final boolean modified)
-'''
-pass
+    '''    public void setBottomBorderModified(final boolean modified)
+    '''
 def isTopLeftBottomRightBorderModified():
-'''public boolean isTopLeftBottomRightBorderModified()
-'''
-pass
+    '''    public boolean isTopLeftBottomRightBorderModified()
+    '''
 def setTopLeftBottomRightBorderModified():
-'''public void setTopLeftBottomRightBorderModified(final boolean modified)
-'''
-pass
+    '''    public void setTopLeftBottomRightBorderModified(final boolean modified)
+    '''
 def isBottomLeftTopRightBorderModified():
-'''public boolean isBottomLeftTopRightBorderModified()
-'''
-pass
+    '''    public boolean isBottomLeftTopRightBorderModified()
+    '''
 def setBottomLeftTopRightBorderModified():
-'''public void setBottomLeftTopRightBorderModified(final boolean modified)
-'''
-pass
+    '''    public void setBottomLeftTopRightBorderModified(final boolean modified)
+    '''
 def isPatternStyleModified():
-'''public boolean isPatternStyleModified()
-'''
-pass
+    '''    public boolean isPatternStyleModified()
+    '''
 def setPatternStyleModified():
-'''public void setPatternStyleModified(final boolean modified)
-'''
-pass
+    '''    public void setPatternStyleModified(final boolean modified)
+    '''
 def isPatternColorModified():
-'''public boolean isPatternColorModified()
-'''
-pass
+    '''    public boolean isPatternColorModified()
+    '''
 def setPatternColorModified():
-'''public void setPatternColorModified(final boolean modified)
-'''
-pass
+    '''    public void setPatternColorModified(final boolean modified)
+    '''
 def isPatternBackgroundColorModified():
-'''public boolean isPatternBackgroundColorModified()
-'''
-pass
+    '''    public boolean isPatternBackgroundColorModified()
+    '''
 def setPatternBackgroundColorModified():
-'''public void setPatternBackgroundColorModified(final boolean modified)
-'''
-pass
+    '''    public void setPatternBackgroundColorModified(final boolean modified)
+    '''
 def getParsedExpression1():
-'''public Ptg[] getParsedExpression1()
-'''
-pass
+    '''    public Ptg[] getParsedExpression1()
+    '''
 def setParsedExpression1():
-'''public void setParsedExpression1(final Ptg[] ptgs)
-'''
-pass
+    '''    public void setParsedExpression1(final Ptg[] ptgs)
+    '''
 def getParsedExpression2():
-'''public Ptg[] getParsedExpression2()
-'''
-pass
+    '''    public Ptg[] getParsedExpression2()
+    '''
 def setParsedExpression2():
-'''public void setParsedExpression2(final Ptg[] ptgs)
-'''
-pass
+    '''    public void setParsedExpression2(final Ptg[] ptgs)
+    '''
 def parseFormula():
-'''public static Ptg[] parseFormula(final String formula, final HSSFSheet sheet)
-'''
-pass
+    '''    public static Ptg[] parseFormula(final String formula, final HSSFSheet sheet)
+    '''

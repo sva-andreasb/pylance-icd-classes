@@ -1,4 +1,3 @@
 def AttrFormulaConditionSet():
-'''public AttrFormulaConditionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AttrFormulaConditionSet(final MboServerInterface ms)
+    '''

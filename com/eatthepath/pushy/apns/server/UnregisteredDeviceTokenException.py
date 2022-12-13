@@ -1,4 +1,3 @@
 def UnregisteredDeviceTokenException():
-'''public UnregisteredDeviceTokenException(final Instant deviceTokenExpirationTimestamp)
-'''
-pass
+    '''    public UnregisteredDeviceTokenException(final Instant deviceTokenExpirationTimestamp)
+    '''

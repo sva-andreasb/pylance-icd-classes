@@ -1,8 +1,6 @@
 def TestDB():
-'''public TestDB(final Connection jdbc, final boolean verbose)
-'''
-pass
+    '''    public TestDB(final Connection jdbc, final boolean verbose)
+    '''
 def setVerbose():
-'''public void setVerbose(final boolean newValue)
-'''
-pass
+    '''    public void setVerbose(final boolean newValue)
+    '''

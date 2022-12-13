@@ -1,20 +1,15 @@
 def MatchedObjectCompareResults():
-'''public MatchedObjectCompareResults()
-'''
-pass
+    '''    public MatchedObjectCompareResults()
+    '''
 def addNestedResultsMatch():
-'''public void addNestedResultsMatch(final CompareResults r)
-'''
-pass
+    '''    public void addNestedResultsMatch(final CompareResults r)
+    '''
 def getNestedResultsMatch():
-'''public CompareResults[] getNestedResultsMatch()
-'''
-pass
+    '''    public CompareResults[] getNestedResultsMatch()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def dump():
-'''public void dump(final int indent)
-'''
-pass
+    '''    public void dump(final int indent)
+    '''

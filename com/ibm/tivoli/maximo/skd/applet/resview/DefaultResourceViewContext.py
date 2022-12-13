@@ -1,36 +1,27 @@
 def DefaultResourceViewContext():
-'''public DefaultResourceViewContext()
-'''
-pass
+    '''    public DefaultResourceViewContext()
+    '''
 def setGanttChart():
-'''public void setGanttChart(final IlvGanttChart ganttChart)
-'''
-pass
+    '''    public void setGanttChart(final IlvGanttChart ganttChart)
+    '''
 def getGanttChart():
-'''public IlvGanttChart getGanttChart()
-'''
-pass
+    '''    public IlvGanttChart getGanttChart()
+    '''
 def setNonWorkingHourGrid():
-'''public void setNonWorkingHourGrid(final SKDNonWorkingHourGrid nonWorkingHourGrid)
-'''
-pass
+    '''    public void setNonWorkingHourGrid(final SKDNonWorkingHourGrid nonWorkingHourGrid)
+    '''
 def getNonWorkingHourGrid():
-'''public SKDNonWorkingHourGrid getNonWorkingHourGrid()
-'''
-pass
+    '''    public SKDNonWorkingHourGrid getNonWorkingHourGrid()
+    '''
 def setTimeScale():
-'''public void setTimeScale(final IlvTimeScale timeScale)
-'''
-pass
+    '''    public void setTimeScale(final IlvTimeScale timeScale)
+    '''
 def getTimeScale():
-'''public IlvTimeScale getTimeScale()
-'''
-pass
+    '''    public IlvTimeScale getTimeScale()
+    '''
 def setTimeScrollController():
-'''public void setTimeScrollController(final IlvTimeScrollController timeScrollController)
-'''
-pass
+    '''    public void setTimeScrollController(final IlvTimeScrollController timeScrollController)
+    '''
 def getTimeScrollController():
-'''public IlvTimeScrollController getTimeScrollController()
-'''
-pass
+    '''    public IlvTimeScrollController getTimeScrollController()
+    '''

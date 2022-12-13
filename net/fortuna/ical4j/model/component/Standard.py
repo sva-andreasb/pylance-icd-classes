@@ -1,15 +1,12 @@
 def Standard():
-'''public Standard()
-public Standard(final PropertyList properties)
-'''
-pass
+    '''    public Standard()
+    public Standard(final PropertyList properties)
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createComponent():
-'''public Standard createComponent()
-public Standard createComponent(final PropertyList properties)
-public Standard createComponent(final PropertyList properties, final ComponentList subComponents)
-'''
-pass
+    '''    public Standard createComponent()
+    public Standard createComponent(final PropertyList properties)
+    public Standard createComponent(final PropertyList properties, final ComponentList subComponents)
+    '''

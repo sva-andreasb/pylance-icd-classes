@@ -1,8 +1,6 @@
 def WaitForClosingStreamElementTest():
-'''public WaitForClosingStreamElementTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public WaitForClosingStreamElementTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def waitForClosingStreamElementTest():
-'''public void waitForClosingStreamElementTest(final XMPPTCPConnection connection)
-'''
-pass
+    '''    public void waitForClosingStreamElementTest(final XMPPTCPConnection connection)
+    '''

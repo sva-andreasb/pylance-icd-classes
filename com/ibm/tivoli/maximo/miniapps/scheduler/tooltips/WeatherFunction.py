@@ -1,5 +1,4 @@
-FUNCTION_NAME = "String  weather""
+FUNCTION_NAME = "String  \"weather\""
 def apply():
-'''public String apply(final String fName, final String fValue, final GanttTextResolver<?> textResolver)
-'''
-pass
+    '''    public String apply(final String fName, final String fValue, final GanttTextResolver<?> textResolver)
+    '''

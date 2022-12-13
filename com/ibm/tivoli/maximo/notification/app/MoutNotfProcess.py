@@ -1,12 +1,9 @@
 def MoutNotfProcess():
-'''public MoutNotfProcess()
-'''
-pass
+    '''    public MoutNotfProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-'''
-pass
+    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''
 def notTouchedNotfs():
-'''public void notTouchedNotfs(final MboSet notfSet)
-'''
-pass
+    '''    public void notTouchedNotfs(final MboSet notfSet)
+    '''

@@ -1,17 +1,13 @@
 def Queue():
-'''public Queue()
-public Queue(final int capacity)
-'''
-pass
+    '''    public Queue()
+    public Queue(final int capacity)
+    '''
 def enqueue():
-'''public synchronized void enqueue(final Object element)
-'''
-pass
+    '''    public synchronized void enqueue(final Object element)
+    '''
 def dequeue():
-'''public synchronized Object dequeue()
-'''
-pass
+    '''    public synchronized Object dequeue()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''

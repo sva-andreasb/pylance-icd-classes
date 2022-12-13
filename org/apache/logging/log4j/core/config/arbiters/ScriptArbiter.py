@@ -1,24 +1,18 @@
 def isCondition():
-'''public boolean isCondition()
-'''
-pass
+    '''    public boolean isCondition()
+    '''
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def setConfiguration():
-'''public Builder setConfiguration(final AbstractConfiguration configuration)
-'''
-pass
+    '''    public Builder setConfiguration(final AbstractConfiguration configuration)
+    '''
 def setNode():
-'''public Builder setNode(final Node node)
-'''
-pass
+    '''    public Builder setNode(final Node node)
+    '''
 def asBuilder():
-'''public Builder asBuilder()
-'''
-pass
+    '''    public Builder asBuilder()
+    '''
 def build():
-'''public ScriptArbiter build()
-'''
-pass
+    '''    public ScriptArbiter build()
+    '''

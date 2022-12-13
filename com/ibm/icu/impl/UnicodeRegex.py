@@ -1,67 +1,51 @@
 def UnicodeRegex():
-'''public UnicodeRegex()
-'''
-pass
+    '''    public UnicodeRegex()
+    '''
 def compare():
-'''public int compare(final Object obj0, final Object obj1)
-'''
-pass
+    '''    public int compare(final Object obj0, final Object obj1)
+    '''
 def transform():
-'''public String transform(final String regex)
-'''
-pass
+    '''    public String transform(final String regex)
+    '''
 def fix():
-'''public static String fix(final String regex)
-'''
-pass
+    '''    public static String fix(final String regex)
+    '''
 def compile():
-'''public static Pattern compile(final String regex)
-public static Pattern compile(final String regex, final int options)
-'''
-pass
+    '''    public static Pattern compile(final String regex)
+    public static Pattern compile(final String regex, final int options)
+    '''
 def compileBnf():
-'''public String compileBnf(final String bnfLines)
-public String compileBnf(final List<String> lines)
-'''
-pass
+    '''    public String compileBnf(final String bnfLines)
+    public String compileBnf(final List<String> lines)
+    '''
 def getBnfCommentString():
-'''public String getBnfCommentString()
-'''
-pass
+    '''    public String getBnfCommentString()
+    '''
 def setBnfCommentString():
-'''public void setBnfCommentString(final String bnfCommentString)
-'''
-pass
+    '''    public void setBnfCommentString(final String bnfCommentString)
+    '''
 def getBnfVariableInfix():
-'''public String getBnfVariableInfix()
-'''
-pass
+    '''    public String getBnfVariableInfix()
+    '''
 def setBnfVariableInfix():
-'''public void setBnfVariableInfix(final String bnfVariableInfix)
-'''
-pass
+    '''    public void setBnfVariableInfix(final String bnfVariableInfix)
+    '''
 def getBnfLineSeparator():
-'''public String getBnfLineSeparator()
-'''
-pass
+    '''    public String getBnfLineSeparator()
+    '''
 def setBnfLineSeparator():
-'''public void setBnfLineSeparator(final String bnfLineSeparator)
-'''
-pass
+    '''    public void setBnfLineSeparator(final String bnfLineSeparator)
+    '''
 def appendLines():
-'''public static List<String> appendLines(final List<String> result, final String file, final String encoding)
-public static List<String> appendLines(final List<String> result, final InputStream inputStream, final String encoding)
-'''
-pass
+    '''    public static List<String> appendLines(final List<String> result, final String file, final String encoding)
+    public static List<String> appendLines(final List<String> result, final InputStream inputStream, final String encoding)
+    '''
 def cloneAsThawed():
-'''public UnicodeRegex cloneAsThawed()
-'''
-pass
+    '''    public UnicodeRegex cloneAsThawed()
+    '''
 def freeze():
-'''public UnicodeRegex freeze()
-'''
-pass
+    '''    public UnicodeRegex freeze()
+    '''
 def isFrozen():
-'''public boolean isFrozen()
-'''
-pass
+    '''    public boolean isFrozen()
+    '''

@@ -1,12 +1,9 @@
 def ActionsCfgSet():
-'''public ActionsCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ActionsCfgSet(final MboServerInterface ms)
+    '''
 def getFavoriteActions():
-'''public ArrayList getFavoriteActions()
-'''
-pass
+    '''    public ArrayList getFavoriteActions()
+    '''
 def updateActions():
-'''public void updateActions(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void updateActions(final MboSetRemote dataSet)
+    '''

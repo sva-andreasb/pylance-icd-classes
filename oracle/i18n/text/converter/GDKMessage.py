@@ -5,12 +5,10 @@ CANNOT_MAP_ORA_UNICODE = "int  17154"
 CANNOT_MAP_UNICODE_ORA = "int  17155"
 INVALID_UNICODE_SURROGATE = "int  7002"
 def getMessage():
-'''public static String getMessage(final String str, final Object o)
-public static String getMessage(final int n)
-public static String getMessage(final int value, final Object o)
-'''
-pass
+    '''    public static String getMessage(final String str, final Object o)
+    public static String getMessage(final int n)
+    public static String getMessage(final int value, final Object o)
+    '''
 def getORAMessage():
-'''public static String getORAMessage(final int value)
-'''
-pass
+    '''    public static String getORAMessage(final int value)
+    '''

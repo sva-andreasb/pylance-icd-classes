@@ -1,4 +1,3 @@
 def FldIntObjectCol():
-'''public FldIntObjectCol(final MboValue mbv)
-'''
-pass
+    '''    public FldIntObjectCol(final MboValue mbv)
+    '''

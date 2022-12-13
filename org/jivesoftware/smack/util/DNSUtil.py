@@ -1,24 +1,18 @@
 def resolveXMPPDomain():
-'''public static HostAddress resolveXMPPDomain(final String domain)
-'''
-pass
+    '''    public static HostAddress resolveXMPPDomain(final String domain)
+    '''
 def resolveXMPPServerDomain():
-'''public static HostAddress resolveXMPPServerDomain(final String domain)
-'''
-pass
+    '''    public static HostAddress resolveXMPPServerDomain(final String domain)
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

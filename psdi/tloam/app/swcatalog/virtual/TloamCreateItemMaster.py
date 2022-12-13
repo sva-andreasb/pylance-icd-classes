@@ -1,12 +1,9 @@
 def TloamCreateItemMaster():
-'''public TloamCreateItemMaster(final MboSet ms)
-'''
-pass
+    '''    public TloamCreateItemMaster(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''

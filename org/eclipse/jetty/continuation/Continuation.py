@@ -1,1 +1,1 @@
-ATTRIBUTE = "String  org.eclipse.jetty.continuation""
+ATTRIBUTE = "String  \"org.eclipse.jetty.continuation\""

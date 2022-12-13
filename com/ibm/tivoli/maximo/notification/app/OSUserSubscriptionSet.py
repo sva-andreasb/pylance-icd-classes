@@ -1,8 +1,6 @@
 def OSUserSubscriptionSet():
-'''public OSUserSubscriptionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OSUserSubscriptionSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

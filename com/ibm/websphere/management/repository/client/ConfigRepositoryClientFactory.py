@@ -1,4 +1,3 @@
 def getConfigRepositoryClient():
-'''public static ConfigRepository getConfigRepositoryClient(final Properties rProps)
-'''
-pass
+    '''    public static ConfigRepository getConfigRepositoryClient(final Properties rProps)
+    '''

@@ -1,4 +1,3 @@
 def ApptBookCommitGroupSet():
-'''public ApptBookCommitGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ApptBookCommitGroupSet(final MboServerInterface ms)
+    '''

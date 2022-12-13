@@ -1,8 +1,6 @@
 def FldLicenseChangeStatus():
-'''public FldLicenseChangeStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldLicenseChangeStatus(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

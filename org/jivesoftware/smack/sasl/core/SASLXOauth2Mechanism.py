@@ -1,17 +1,13 @@
-NAME = "String  X-OAUTH2""
+NAME = "String  \"X-OAUTH2\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLXOauth2Mechanism newInstance()
-'''
-pass
+    '''    public SASLXOauth2Mechanism newInstance()
+    '''
 def checkIfSuccessfulOrThrow():
-'''public void checkIfSuccessfulOrThrow()
-'''
-pass
+    '''    public void checkIfSuccessfulOrThrow()
+    '''

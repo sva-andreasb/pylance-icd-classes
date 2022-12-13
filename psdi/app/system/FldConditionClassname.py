@@ -1,8 +1,6 @@
 def FldConditionClassname():
-'''public FldConditionClassname(final MboValue mbv)
-'''
-pass
+    '''    public FldConditionClassname(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

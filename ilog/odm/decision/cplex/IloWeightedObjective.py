@@ -1,41 +1,31 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getWeight():
-'''public double getWeight(final double defaultVal)
-'''
-pass
+    '''    public double getWeight(final double defaultVal)
+    '''
 def setWeight():
-'''public void setWeight(final double v)
-'''
-pass
+    '''    public void setWeight(final double v)
+    '''
 def getValue():
-'''public Double getValue()
-'''
-pass
+    '''    public Double getValue()
+    '''
 def getDecisionVariable():
-'''public IloCplexDecisionVariable getDecisionVariable()
-'''
-pass
+    '''    public IloCplexDecisionVariable getDecisionVariable()
+    '''
 def getObjectiveSense():
-'''public IloObjectiveSense getObjectiveSense()
-'''
-pass
+    '''    public IloObjectiveSense getObjectiveSense()
+    '''
 def needEngineUpdate():
-'''public boolean needEngineUpdate(final int propIndex)
-'''
-pass
+    '''    public boolean needEngineUpdate(final int propIndex)
+    '''
 def registerMe():
-'''public void registerMe(final IloDecisionModel model, final boolean force)
-'''
-pass
+    '''    public void registerMe(final IloDecisionModel model, final boolean force)
+    '''
 def unregisterMe():
-'''public void unregisterMe()
-'''
-pass
+    '''    public void unregisterMe()
+    '''
 def isPublished():
-'''public boolean isPublished()
-'''
-pass
+    '''    public boolean isPublished()
+    '''
 def isMonitored():
-'''public boolean isMonitored()
-'''
-pass
+    '''    public boolean isMonitored()
+    '''

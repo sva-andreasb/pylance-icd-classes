@@ -1,29 +1,22 @@
 def SimpleMaterialProvider():
-'''public SimpleMaterialProvider()
-'''
-pass
+    '''    public SimpleMaterialProvider()
+    '''
 def getEncryptionMaterials():
-'''public EncryptionMaterials getEncryptionMaterials(final Map<String, String> md)
-public EncryptionMaterials getEncryptionMaterials()
-'''
-pass
+    '''    public EncryptionMaterials getEncryptionMaterials(final Map<String, String> md)
+    public EncryptionMaterials getEncryptionMaterials()
+    '''
 def addMaterial():
-'''public SimpleMaterialProvider addMaterial(final EncryptionMaterials m)
-'''
-pass
+    '''    public SimpleMaterialProvider addMaterial(final EncryptionMaterials m)
+    '''
 def withLatest():
-'''public SimpleMaterialProvider withLatest(final EncryptionMaterials m)
-'''
-pass
+    '''    public SimpleMaterialProvider withLatest(final EncryptionMaterials m)
+    '''
 def removeMaterial():
-'''public SimpleMaterialProvider removeMaterial(final Map<String, String> md)
-'''
-pass
+    '''    public SimpleMaterialProvider removeMaterial(final Map<String, String> md)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''

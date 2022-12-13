@@ -1,8 +1,6 @@
 def FldDmCollObjObjId():
-'''public FldDmCollObjObjId(final MboValue mbv)
-'''
-pass
+    '''    public FldDmCollObjObjId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

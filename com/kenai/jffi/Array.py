@@ -1,24 +1,18 @@
 def newArray():
-'''public static Array newArray(final Type elementType, final int length)
-'''
-pass
+    '''    public static Array newArray(final Type elementType, final int length)
+    '''
 def Array():
-'''public Array(final Type elementType, final int length)
-'''
-pass
+    '''    public Array(final Type elementType, final int length)
+    '''
 def getElementType():
-'''public final Type getElementType()
-'''
-pass
+    '''    public final Type getElementType()
+    '''
 def length():
-'''public final int length()
-'''
-pass
+    '''    public final int length()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

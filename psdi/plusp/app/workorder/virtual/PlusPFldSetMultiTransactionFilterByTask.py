@@ -1,8 +1,6 @@
 def PlusPFldSetMultiTransactionFilterByTask():
-'''public PlusPFldSetMultiTransactionFilterByTask(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldSetMultiTransactionFilterByTask(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

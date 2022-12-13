@@ -1,8 +1,6 @@
 def FldDefaultNamespace():
-'''public FldDefaultNamespace(final MboValue mbv)
-'''
-pass
+    '''    public FldDefaultNamespace(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

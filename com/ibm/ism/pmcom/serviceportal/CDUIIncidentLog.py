@@ -1,4 +1,3 @@
 def CDUIIncidentLog():
-'''public CDUIIncidentLog(final MboSet ms)
-'''
-pass
+    '''    public CDUIIncidentLog(final MboSet ms)
+    '''

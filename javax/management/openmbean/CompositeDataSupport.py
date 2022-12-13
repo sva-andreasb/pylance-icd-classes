@@ -1,41 +1,31 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def containsValue():
-'''public boolean containsValue(final Object o)
-'''
-pass
+    '''    public boolean containsValue(final Object o)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def containsKey():
-'''public boolean containsKey(final String s)
-'''
-pass
+    '''    public boolean containsKey(final String s)
+    '''
 def values():
-'''public Collection values()
-'''
-pass
+    '''    public Collection values()
+    '''
 def getCompositeType():
-'''public CompositeType getCompositeType()
-'''
-pass
+    '''    public CompositeType getCompositeType()
+    '''
 def get():
-'''public Object get(final String s)
-'''
-pass
+    '''    public Object get(final String s)
+    '''
 def getAll():
-'''public Object[] getAll(final String[] array)
-'''
-pass
+    '''    public Object[] getAll(final String[] array)
+    '''
 def CompositeDataSupport():
-'''public CompositeDataSupport(final CompositeType compositeType, final Map map)
-public CompositeDataSupport(final CompositeType compositeType, final String[] a, final Object[] array)
-'''
-pass
+    '''    public CompositeDataSupport(final CompositeType compositeType, final Map map)
+    public CompositeDataSupport(final CompositeType compositeType, final String[] a, final Object[] array)
+    '''

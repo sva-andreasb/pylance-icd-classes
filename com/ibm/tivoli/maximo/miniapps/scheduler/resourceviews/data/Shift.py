@@ -1,40 +1,30 @@
 def Shift():
-'''public Shift(final String name, final Date shiftStartDate, final Date shiftEndDate)
-'''
-pass
+    '''    public Shift(final String name, final Date shiftStartDate, final Date shiftEndDate)
+    '''
 def getShiftStartDate():
-'''public Date getShiftStartDate()
-'''
-pass
+    '''    public Date getShiftStartDate()
+    '''
 def setShiftStartDate():
-'''public void setShiftStartDate(final Date shiftStartDate)
-'''
-pass
+    '''    public void setShiftStartDate(final Date shiftStartDate)
+    '''
 def getShiftEndDate():
-'''public Date getShiftEndDate()
-'''
-pass
+    '''    public Date getShiftEndDate()
+    '''
 def setShiftEndDate():
-'''public void setShiftEndDate(final Date shiftEndDate)
-'''
-pass
+    '''    public void setShiftEndDate(final Date shiftEndDate)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def compareTo():
-'''public int compareTo(final Shift s)
-'''
-pass
+    '''    public int compareTo(final Shift s)
+    '''

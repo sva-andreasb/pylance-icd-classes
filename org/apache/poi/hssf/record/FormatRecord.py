@@ -1,30 +1,23 @@
 sid = "short  1054"
 def FormatRecord():
-'''public FormatRecord(final int indexCode, final String fs)
-public FormatRecord(final RecordInputStream in)
-'''
-pass
+    '''    public FormatRecord(final int indexCode, final String fs)
+    public FormatRecord(final RecordInputStream in)
+    '''
 def getIndexCode():
-'''public int getIndexCode()
-'''
-pass
+    '''    public int getIndexCode()
+    '''
 def getFormatString():
-'''public String getFormatString()
-'''
-pass
+    '''    public String getFormatString()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public FormatRecord clone()
-'''
-pass
+    '''    public FormatRecord clone()
+    '''

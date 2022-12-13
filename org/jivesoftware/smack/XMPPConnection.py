@@ -1,79 +1,60 @@
 def XMPPConnection():
-'''public XMPPConnection(final String serviceName, final CallbackHandler callbackHandler)
-public XMPPConnection(final String serviceName)
-public XMPPConnection(final ConnectionConfiguration config)
-public XMPPConnection(final ConnectionConfiguration config, final CallbackHandler callbackHandler)
-'''
-pass
+    '''    public XMPPConnection(final String serviceName, final CallbackHandler callbackHandler)
+    public XMPPConnection(final String serviceName)
+    public XMPPConnection(final ConnectionConfiguration config)
+    public XMPPConnection(final ConnectionConfiguration config, final CallbackHandler callbackHandler)
+    '''
 def getConnectionID():
-'''public String getConnectionID()
-'''
-pass
+    '''    public String getConnectionID()
+    '''
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def login():
-'''public synchronized void login(String username, final String password, final String resource)
-'''
-pass
+    '''    public synchronized void login(String username, final String password, final String resource)
+    '''
 def loginAnonymously():
-'''public synchronized void loginAnonymously()
-'''
-pass
+    '''    public synchronized void loginAnonymously()
+    '''
 def getRoster():
-'''public Roster getRoster()
-'''
-pass
+    '''    public Roster getRoster()
+    '''
 def isConnected():
-'''public boolean isConnected()
-'''
-pass
+    '''    public boolean isConnected()
+    '''
 def isSecureConnection():
-'''public boolean isSecureConnection()
-'''
-pass
+    '''    public boolean isSecureConnection()
+    '''
 def isAuthenticated():
-'''public boolean isAuthenticated()
-'''
-pass
+    '''    public boolean isAuthenticated()
+    '''
 def isAnonymous():
-'''public boolean isAnonymous()
-'''
-pass
+    '''    public boolean isAnonymous()
+    '''
 def disconnect():
-'''public synchronized void disconnect(final Presence unavailablePresence)
-'''
-pass
+    '''    public synchronized void disconnect(final Presence unavailablePresence)
+    '''
 def sendPacket():
-'''public void sendPacket(final Packet packet)
-'''
-pass
+    '''    public void sendPacket(final Packet packet)
+    '''
 def addPacketWriterInterceptor():
-'''public void addPacketWriterInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)
-'''
-pass
+    '''    public void addPacketWriterInterceptor(final PacketInterceptor packetInterceptor, final PacketFilter packetFilter)
+    '''
 def removePacketWriterInterceptor():
-'''public void removePacketWriterInterceptor(final PacketInterceptor packetInterceptor)
-'''
-pass
+    '''    public void removePacketWriterInterceptor(final PacketInterceptor packetInterceptor)
+    '''
 def addPacketWriterListener():
-'''public void addPacketWriterListener(final PacketListener packetListener, final PacketFilter packetFilter)
-'''
-pass
+    '''    public void addPacketWriterListener(final PacketListener packetListener, final PacketFilter packetFilter)
+    '''
 def removePacketWriterListener():
-'''public void removePacketWriterListener(final PacketListener packetListener)
-'''
-pass
+    '''    public void removePacketWriterListener(final PacketListener packetListener)
+    '''
 def isUsingTLS():
-'''public boolean isUsingTLS()
-'''
-pass
+    '''    public boolean isUsingTLS()
+    '''
 def isUsingCompression():
-'''public boolean isUsingCompression()
-'''
-pass
+    '''    public boolean isUsingCompression()
+    '''
 def connect():
-'''public void connect()
-'''
-pass
+    '''    public void connect()
+    '''

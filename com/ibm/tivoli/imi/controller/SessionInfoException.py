@@ -1,5 +1,4 @@
 def SessionInfoException():
-'''public SessionInfoException()
-public SessionInfoException(final String message)
-'''
-pass
+    '''    public SessionInfoException()
+    public SessionInfoException(final String message)
+    '''

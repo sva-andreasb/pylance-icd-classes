@@ -1,68 +1,51 @@
 def MRSet():
-'''public MRSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MRSet(final MboServerInterface ms)
+    '''
 def checkWFEnabled():
-'''public boolean checkWFEnabled()
-'''
-pass
+    '''    public boolean checkWFEnabled()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def findMR():
-'''public void findMR(final String mrnum)
-'''
-pass
+    '''    public void findMR(final String mrnum)
+    '''
 def findAllRecurringMRs():
-'''public void findAllRecurringMRs()
-'''
-pass
+    '''    public void findAllRecurringMRs()
+    '''
 def findAllOpenMRsForCurrentUser():
-'''public void findAllOpenMRsForCurrentUser()
-'''
-pass
+    '''    public void findAllOpenMRsForCurrentUser()
+    '''
 def findAllMRsForCurrentUser():
-'''public void findAllMRsForCurrentUser()
-'''
-pass
+    '''    public void findAllMRsForCurrentUser()
+    '''
 def findAllOpenMRs():
-'''public void findAllOpenMRs()
-'''
-pass
+    '''    public void findAllOpenMRs()
+    '''
 def findAllReceivingMRsForCurrentUser():
-'''public void findAllReceivingMRsForCurrentUser()
-'''
-pass
+    '''    public void findAllReceivingMRsForCurrentUser()
+    '''
 def findAllReceivingMRs():
-'''public void findAllReceivingMRs()
-'''
-pass
+    '''    public void findAllReceivingMRs()
+    '''
 def findAllOpenMRsForPersonCode():
-'''public void findAllOpenMRsForPersonCode(final String personCode)
-'''
-pass
+    '''    public void findAllOpenMRsForPersonCode(final String personCode)
+    '''
 def findAllMRsForPersonCode():
-'''public void findAllMRsForPersonCode(final String personCode)
-'''
-pass
+    '''    public void findAllMRsForPersonCode(final String personCode)
+    '''
 def findAllDraftMRsForCurrentUser():
-'''public void findAllDraftMRsForCurrentUser()
-'''
-pass
+    '''    public void findAllDraftMRsForCurrentUser()
+    '''
 def findAllDraftMRsForPersonCode():
-'''public void findAllDraftMRsForPersonCode(final String personCode)
-'''
-pass
+    '''    public void findAllDraftMRsForPersonCode(final String personCode)
+    '''
 def findAllRecurringMRsForCurrentUser():
-'''public void findAllRecurringMRsForCurrentUser()
-'''
-pass
+    '''    public void findAllRecurringMRsForCurrentUser()
+    '''
 def findAllRecurringMRsForPersonCode():
-'''public void findAllRecurringMRsForPersonCode(final String personId)
-'''
-pass
+    '''    public void findAllRecurringMRsForPersonCode(final String personId)
+    '''
 def deleteInvReserves():
-'''public void deleteInvReserves()
-'''
-pass
+    '''    public void deleteInvReserves()
+    '''

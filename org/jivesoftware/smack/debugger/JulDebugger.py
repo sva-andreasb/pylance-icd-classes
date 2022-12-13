@@ -1,4 +1,3 @@
 def JulDebugger():
-'''public JulDebugger(final XMPPConnection connection)
-'''
-pass
+    '''    public JulDebugger(final XMPPConnection connection)
+    '''

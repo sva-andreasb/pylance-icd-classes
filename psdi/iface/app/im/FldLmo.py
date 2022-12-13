@@ -1,8 +1,6 @@
 def FldLmo():
-'''public FldLmo(final MboValue mbv)
-'''
-pass
+    '''    public FldLmo(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

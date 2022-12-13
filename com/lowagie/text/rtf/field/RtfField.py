@@ -1,60 +1,45 @@
 def setRtfDocument():
-'''public void setRtfDocument(final RtfDocument doc)
-'''
-pass
+    '''    public void setRtfDocument(final RtfDocument doc)
+    '''
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''
 def isFieldAlt():
-'''public boolean isFieldAlt()
-'''
-pass
+    '''    public boolean isFieldAlt()
+    '''
 def setFieldAlt():
-'''public void setFieldAlt(final boolean fieldAlt)
-'''
-pass
+    '''    public void setFieldAlt(final boolean fieldAlt)
+    '''
 def isFieldDirty():
-'''public boolean isFieldDirty()
-'''
-pass
+    '''    public boolean isFieldDirty()
+    '''
 def setFieldDirty():
-'''public void setFieldDirty(final boolean fieldDirty)
-'''
-pass
+    '''    public void setFieldDirty(final boolean fieldDirty)
+    '''
 def isFieldEdit():
-'''public boolean isFieldEdit()
-'''
-pass
+    '''    public boolean isFieldEdit()
+    '''
 def setFieldEdit():
-'''public void setFieldEdit(final boolean fieldEdit)
-'''
-pass
+    '''    public void setFieldEdit(final boolean fieldEdit)
+    '''
 def isFieldLocked():
-'''public boolean isFieldLocked()
-'''
-pass
+    '''    public boolean isFieldLocked()
+    '''
 def setFieldLocked():
-'''public void setFieldLocked(final boolean fieldLocked)
-'''
-pass
+    '''    public void setFieldLocked(final boolean fieldLocked)
+    '''
 def isFieldPrivate():
-'''public boolean isFieldPrivate()
-'''
-pass
+    '''    public boolean isFieldPrivate()
+    '''
 def setFieldPrivate():
-'''public void setFieldPrivate(final boolean fieldPrivate)
-'''
-pass
+    '''    public void setFieldPrivate(final boolean fieldPrivate)
+    '''
 def setInTable():
-'''public void setInTable(final boolean inTable)
-'''
-pass
+    '''    public void setInTable(final boolean inTable)
+    '''
 def setInHeader():
-'''public void setInHeader(final boolean inHeader)
-'''
-pass
+    '''    public void setInHeader(final boolean inHeader)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''

@@ -1,4 +1,3 @@
 def getRestStatusCode():
-'''public int getRestStatusCode()
-'''
-pass
+    '''    public int getRestStatusCode()
+    '''

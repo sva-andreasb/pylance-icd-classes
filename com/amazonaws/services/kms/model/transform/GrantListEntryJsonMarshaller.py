@@ -1,8 +1,6 @@
 def marshall():
-'''public void marshall(final GrantListEntry grantListEntry, final StructuredJsonGenerator jsonGenerator)
-'''
-pass
+    '''    public void marshall(final GrantListEntry grantListEntry, final StructuredJsonGenerator jsonGenerator)
+    '''
 def getInstance():
-'''public static GrantListEntryJsonMarshaller getInstance()
-'''
-pass
+    '''    public static GrantListEntryJsonMarshaller getInstance()
+    '''

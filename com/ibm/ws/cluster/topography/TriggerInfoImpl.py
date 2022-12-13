@@ -1,40 +1,30 @@
 def TriggerInfoImpl():
-'''public TriggerInfoImpl()
-'''
-pass
+    '''    public TriggerInfoImpl()
+    '''
 def getEventType():
-'''public String getEventType()
-'''
-pass
+    '''    public String getEventType()
+    '''
 def isStructural():
-'''public boolean isStructural()
-'''
-pass
+    '''    public boolean isStructural()
+    '''
 def isInfluential():
-'''public boolean isInfluential()
-'''
-pass
+    '''    public boolean isInfluential()
+    '''
 def getSuperType():
-'''public TriggerInfo getSuperType()
-'''
-pass
+    '''    public TriggerInfo getSuperType()
+    '''
 def equals():
-'''public boolean equals(final Object arg0)
-'''
-pass
+    '''    public boolean equals(final Object arg0)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput out)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput out)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput in)
-'''
-pass
+    '''    public void readExternal(final ObjectInput in)
+    '''

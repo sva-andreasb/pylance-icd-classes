@@ -1,24 +1,18 @@
 def LazilyParsedNumber():
-'''public LazilyParsedNumber(final String value)
-'''
-pass
+    '''    public LazilyParsedNumber(final String value)
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def longValue():
-'''public long longValue()
-'''
-pass
+    '''    public long longValue()
+    '''
 def floatValue():
-'''public float floatValue()
-'''
-pass
+    '''    public float floatValue()
+    '''
 def doubleValue():
-'''public double doubleValue()
-'''
-pass
+    '''    public double doubleValue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

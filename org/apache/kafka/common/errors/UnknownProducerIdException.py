@@ -1,4 +1,3 @@
 def UnknownProducerIdException():
-'''public UnknownProducerIdException(final String message)
-'''
-pass
+    '''    public UnknownProducerIdException(final String message)
+    '''

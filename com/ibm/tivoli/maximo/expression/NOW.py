@@ -1,8 +1,6 @@
 def NOW():
-'''public NOW(final Expression exp, final String name, final int numParams)
-'''
-pass
+    '''    public NOW(final Expression exp, final String name, final int numParams)
+    '''
 def eval():
-'''public BigDecimal eval(final List<BigDecimal> parameters)
-'''
-pass
+    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''

@@ -1,33 +1,25 @@
 def DOMErrorImpl():
-'''public DOMErrorImpl()
-public DOMErrorImpl(final short fSeverity, final XMLParseException fException)
-'''
-pass
+    '''    public DOMErrorImpl()
+    public DOMErrorImpl(final short fSeverity, final XMLParseException fException)
+    '''
 def getSeverity():
-'''public short getSeverity()
-'''
-pass
+    '''    public short getSeverity()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getLocation():
-'''public DOMLocator getLocation()
-'''
-pass
+    '''    public DOMLocator getLocation()
+    '''
 def getRelatedException():
-'''public Object getRelatedException()
-'''
-pass
+    '''    public Object getRelatedException()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getRelatedData():
-'''public Object getRelatedData()
-'''
-pass
+    '''    public Object getRelatedData()
+    '''

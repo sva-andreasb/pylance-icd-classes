@@ -1,73 +1,55 @@
 def BaseExit():
-'''public BaseExit()
-'''
-pass
+    '''    public BaseExit()
+    '''
 def initExitsOut():
-'''public void initExitsOut(final String extSystem, final String mosName, final String ifaceName, final MXTransaction mxTrans, final UserInfo userInfo, final String messageType)
-'''
-pass
+    '''    public void initExitsOut(final String extSystem, final String mosName, final String ifaceName, final MXTransaction mxTrans, final UserInfo userInfo, final String messageType)
+    '''
 def initExitsIn():
-'''public void initExitsIn(final String extSystem, final MXTransaction mxTrans, final UserInfo userInfo, final String ifaceName, final String ifaceType, final String intPointName, final String messageType)
-'''
-pass
+    '''    public void initExitsIn(final String extSystem, final MXTransaction mxTrans, final UserInfo userInfo, final String ifaceName, final String ifaceType, final String intPointName, final String messageType)
+    '''
 def getMosName():
-'''public String getMosName()
-'''
-pass
+    '''    public String getMosName()
+    '''
 def getMXTransaction():
-'''public MXTransaction getMXTransaction()
-'''
-pass
+    '''    public MXTransaction getMXTransaction()
+    '''
 def getAdapterType():
-'''public String getAdapterType()
-'''
-pass
+    '''    public String getAdapterType()
+    '''
 def getIfaceName():
-'''public String getIfaceName()
-'''
-pass
+    '''    public String getIfaceName()
+    '''
 def getMessageType():
-'''public String getMessageType()
-'''
-pass
+    '''    public String getMessageType()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def getNewUserInfo():
-'''public UserInfo getNewUserInfo()
-'''
-pass
+    '''    public UserInfo getNewUserInfo()
+    '''
 def getExtSystem():
-'''public String getExtSystem()
-'''
-pass
+    '''    public String getExtSystem()
+    '''
 def getConnection():
-'''public Connection getConnection()
-'''
-pass
+    '''    public Connection getConnection()
+    '''
 def findValueList():
-'''public String findValueList(final String listName, final String maxValue)
-public String findValueList(final String listName, final String maxValue, final String siteid, final String orgid)
-'''
-pass
+    '''    public String findValueList(final String listName, final String maxValue)
+    public String findValueList(final String listName, final String maxValue, final String siteid, final String orgid)
+    '''
 def findMaxVar():
-'''public String findMaxVar(final String varName, final String orgId, final String siteId)
-'''
-pass
+    '''    public String findMaxVar(final String varName, final String orgId, final String siteId)
+    '''
 def getMaxIfaceControl():
-'''public ControlsCache getMaxIfaceControl()
-'''
-pass
+    '''    public ControlsCache getMaxIfaceControl()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def checkStatus():
-'''public boolean checkStatus(final StructureData irData, final String sendListName, final String orgId, final String siteId)
-'''
-pass
+    '''    public boolean checkStatus(final StructureData irData, final String sendListName, final String orgId, final String siteId)
+    '''
 def cloneData():
-'''public StructureData cloneData(final StructureData strucData, final String namespacePrefix, final String namespaceURI, final boolean isIR)
-'''
-pass
+    '''    public StructureData cloneData(final StructureData strucData, final String namespacePrefix, final String namespaceURI, final boolean isIR)
+    '''

@@ -1,4 +1,3 @@
 def FldUserSecControlPasswordTemplate():
-'''public FldUserSecControlPasswordTemplate(final MboValue mbv)
-'''
-pass
+    '''    public FldUserSecControlPasswordTemplate(final MboValue mbv)
+    '''

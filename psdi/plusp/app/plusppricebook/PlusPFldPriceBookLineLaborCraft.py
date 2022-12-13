@@ -1,8 +1,6 @@
 def PlusPFldPriceBookLineLaborCraft():
-'''public PlusPFldPriceBookLineLaborCraft(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPriceBookLineLaborCraft(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

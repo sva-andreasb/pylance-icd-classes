@@ -1,8 +1,6 @@
 def FldHasRequiredQuestion():
-'''public FldHasRequiredQuestion(final MboValue mbv)
-'''
-pass
+    '''    public FldHasRequiredQuestion(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

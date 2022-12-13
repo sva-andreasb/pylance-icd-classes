@@ -1,4 +1,3 @@
 def FSNSchemaSet():
-'''public FSNSchemaSet(final MboServerInterface ms)
-'''
-pass
+    '''    public FSNSchemaSet(final MboServerInterface ms)
+    '''

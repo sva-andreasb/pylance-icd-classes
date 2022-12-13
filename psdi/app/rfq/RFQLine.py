@@ -1,76 +1,57 @@
 def RFQLine():
-'''public RFQLine(final MboSet ms)
-'''
-pass
+    '''    public RFQLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setNullValuesToPOVariables():
-'''public void setNullValuesToPOVariables()
-'''
-pass
+    '''    public void setNullValuesToPOVariables()
+    '''
 def delete():
-'''public void delete(final long accessmodifier)
-'''
-pass
+    '''    public void delete(final long accessmodifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def relinkPRLineToModifiedRFQLineNum():
-'''public void relinkPRLineToModifiedRFQLineNum()
-'''
-pass
+    '''    public void relinkPRLineToModifiedRFQLineNum()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def copyRFQLinesToQuotationLines():
-'''public void copyRFQLinesToQuotationLines(final String vendor)
-'''
-pass
+    '''    public void copyRFQLinesToQuotationLines(final String vendor)
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def copyLineValuesFromContractLine():
-'''public void copyLineValuesFromContractLine(final MboRemote contractLine, final MboRemote createRelInput)
-'''
-pass
+    '''    public void copyLineValuesFromContractLine(final MboRemote contractLine, final MboRemote createRelInput)
+    '''
 def setOrderUnit():
-'''public void setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)
-'''
-pass
+    '''    public void setOrderUnit(final MboRemote inventory, final String orderOrIssueUnitAttr)
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def smartFindByObjectName():
-'''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''
 def setRecentItemNum():
-'''public void setRecentItemNum(final String itemNum)
-'''
-pass
+    '''    public void setRecentItemNum(final String itemNum)
+    '''

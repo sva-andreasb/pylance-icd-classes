@@ -1,12 +1,9 @@
 def DefaultResourceProcessor():
-'''public DefaultResourceProcessor()
-'''
-pass
+    '''    public DefaultResourceProcessor()
+    '''
 def processResource():
-'''public JSONArtifact processResource(final JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
-'''
-pass
+    '''    public JSONArtifact processResource(final JSONResourceInfo resourceInfo, final MboRemote owner, final UserInfo userInfo, final int pageSize, final int currentPage, final JSONAnalyzer jsonAnalyzer)
+    '''
 def getPagingParams():
-'''public List<String> getPagingParams()
-'''
-pass
+    '''    public List<String> getPagingParams()
+    '''

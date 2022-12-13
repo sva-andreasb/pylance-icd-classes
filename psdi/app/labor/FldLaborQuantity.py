@@ -1,8 +1,6 @@
 def FldLaborQuantity():
-'''public FldLaborQuantity(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborQuantity(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

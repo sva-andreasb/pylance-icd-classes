@@ -1,25 +1,19 @@
 def BasicAuthCache():
-'''public BasicAuthCache(final SchemePortResolver schemePortResolver)
-public BasicAuthCache()
-'''
-pass
+    '''    public BasicAuthCache(final SchemePortResolver schemePortResolver)
+    public BasicAuthCache()
+    '''
 def put():
-'''public void put(final HttpHost host, final AuthScheme authScheme)
-'''
-pass
+    '''    public void put(final HttpHost host, final AuthScheme authScheme)
+    '''
 def get():
-'''public AuthScheme get(final HttpHost host)
-'''
-pass
+    '''    public AuthScheme get(final HttpHost host)
+    '''
 def remove():
-'''public void remove(final HttpHost host)
-'''
-pass
+    '''    public void remove(final HttpHost host)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

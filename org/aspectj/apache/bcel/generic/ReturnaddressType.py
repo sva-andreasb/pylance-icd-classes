@@ -1,12 +1,9 @@
 def ReturnaddressType():
-'''public ReturnaddressType(final InstructionHandle returnTarget)
-'''
-pass
+    '''    public ReturnaddressType(final InstructionHandle returnTarget)
+    '''
 def equals():
-'''public boolean equals(final Object rat)
-'''
-pass
+    '''    public boolean equals(final Object rat)
+    '''
 def getTarget():
-'''public InstructionHandle getTarget()
-'''
-pass
+    '''    public InstructionHandle getTarget()
+    '''

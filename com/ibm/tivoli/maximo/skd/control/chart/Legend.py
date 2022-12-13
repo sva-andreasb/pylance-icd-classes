@@ -1,1 +1,1 @@
-HORIZONTAL = "String  horizontal""
+HORIZONTAL = "String  \"horizontal\""

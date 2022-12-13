@@ -1,8 +1,6 @@
 def PlusPFldPSFirstBillPeriod():
-'''public PlusPFldPSFirstBillPeriod(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldPSFirstBillPeriod(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

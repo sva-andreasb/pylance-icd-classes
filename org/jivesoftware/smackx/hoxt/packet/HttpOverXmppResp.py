@@ -1,25 +1,19 @@
-ELEMENT = "String  resp""
+ELEMENT = "String  \"resp\""
 def getStatusCode():
-'''public int getStatusCode()
-'''
-pass
+    '''    public int getStatusCode()
+    '''
 def getStatusMessage():
-'''public String getStatusMessage()
-'''
-pass
+    '''    public String getStatusMessage()
+    '''
 def builder():
-'''public static Builder builder()
-'''
-pass
+    '''    public static Builder builder()
+    '''
 def setStatusCode():
-'''public Builder setStatusCode(final int statusCode)
-'''
-pass
+    '''    public Builder setStatusCode(final int statusCode)
+    '''
 def setStatusMessage():
-'''public Builder setStatusMessage(final String statusMessage)
-'''
-pass
+    '''    public Builder setStatusMessage(final String statusMessage)
+    '''
 def build():
-'''public HttpOverXmppResp build()
-'''
-pass
+    '''    public HttpOverXmppResp build()
+    '''

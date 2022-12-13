@@ -1,12 +1,9 @@
 def TestImportPackage():
-'''public TestImportPackage(final IProgressMonitor monitor)
-'''
-pass
+    '''    public TestImportPackage(final IProgressMonitor monitor)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def parseAndImportPackageXml():
-'''public void parseAndImportPackageXml(final String pkgFile)
-'''
-pass
+    '''    public void parseAndImportPackageXml(final String pkgFile)
+    '''

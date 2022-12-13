@@ -1,28 +1,21 @@
 def get():
-'''public V get(final K key)
-'''
-pass
+    '''    public V get(final K key)
+    '''
 def put():
-'''public boolean put(final K key, final V value)
-'''
-pass
+    '''    public boolean put(final K key, final V value)
+    '''
 def remove():
-'''public boolean remove(final K key)
-'''
-pass
+    '''    public boolean remove(final K key)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def values():
-'''public Collection<V> values()
-'''
-pass
+    '''    public Collection<V> values()
+    '''
 def keys():
-'''public Set<K> keys()
-'''
-pass
+    '''    public Set<K> keys()
+    '''

@@ -1,8 +1,6 @@
 def AlwaysPredicate():
-'''public AlwaysPredicate(final boolean always)
-'''
-pass
+    '''    public AlwaysPredicate(final boolean always)
+    '''
 def evaluate():
-'''public boolean evaluate(final IlvHierarchyChart chart, final T in)
-'''
-pass
+    '''    public boolean evaluate(final IlvHierarchyChart chart, final T in)
+    '''

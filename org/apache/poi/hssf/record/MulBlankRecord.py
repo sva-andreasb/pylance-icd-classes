@@ -1,42 +1,32 @@
 sid = "short  190"
 def MulBlankRecord():
-'''public MulBlankRecord(final int row, final int firstCol, final short[] xfs)
-public MulBlankRecord(final RecordInputStream in)
-'''
-pass
+    '''    public MulBlankRecord(final int row, final int firstCol, final short[] xfs)
+    public MulBlankRecord(final RecordInputStream in)
+    '''
 def getRow():
-'''public int getRow()
-'''
-pass
+    '''    public int getRow()
+    '''
 def getFirstColumn():
-'''public int getFirstColumn()
-'''
-pass
+    '''    public int getFirstColumn()
+    '''
 def getLastColumn():
-'''public int getLastColumn()
-'''
-pass
+    '''    public int getLastColumn()
+    '''
 def getNumColumns():
-'''public int getNumColumns()
-'''
-pass
+    '''    public int getNumColumns()
+    '''
 def getXFAt():
-'''public short getXFAt(final int coffset)
-'''
-pass
+    '''    public short getXFAt(final int coffset)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def clone():
-'''public MulBlankRecord clone()
-'''
-pass
+    '''    public MulBlankRecord clone()
+    '''

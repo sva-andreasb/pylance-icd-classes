@@ -1,8 +1,6 @@
 def DeserializerTarget():
-'''public DeserializerTarget(final Deserializer target, final Object hint)
-'''
-pass
+    '''    public DeserializerTarget(final Deserializer target, final Object hint)
+    '''
 def set():
-'''public void set(final Object value)
-'''
-pass
+    '''    public void set(final Object value)
+    '''

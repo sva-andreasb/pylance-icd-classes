@@ -1,74 +1,56 @@
 def OBPSchemaElement():
-'''public OBPSchemaElement(final SchemaParticle particle)
-public OBPSchemaElement(final SchemaLocalElement element)
-public OBPSchemaElement(final SchemaLocalElement element, final boolean root)
-'''
-pass
+    '''    public OBPSchemaElement(final SchemaParticle particle)
+    public OBPSchemaElement(final SchemaLocalElement element)
+    public OBPSchemaElement(final SchemaLocalElement element, final boolean root)
+    '''
 def getDefaultText():
-'''public String getDefaultText()
-'''
-pass
+    '''    public String getDefaultText()
+    '''
 def getMaxOccurs():
-'''public BigInteger getMaxOccurs()
-'''
-pass
+    '''    public BigInteger getMaxOccurs()
+    '''
 def getMinOccurs():
-'''public BigInteger getMinOccurs()
-'''
-pass
+    '''    public BigInteger getMinOccurs()
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getType():
-'''public SchemaType getType()
-'''
-pass
+    '''    public SchemaType getType()
+    '''
 def isDefault():
-'''public boolean isDefault()
-'''
-pass
+    '''    public boolean isDefault()
+    '''
 def isFixed():
-'''public boolean isFixed()
-'''
-pass
+    '''    public boolean isFixed()
+    '''
 def isNillable():
-'''public boolean isNillable()
-'''
-pass
+    '''    public boolean isNillable()
+    '''
 def setCombinedMaxOccurs():
-'''public void setCombinedMaxOccurs(final int combinedMaxOccurs)
-'''
-pass
+    '''    public void setCombinedMaxOccurs(final int combinedMaxOccurs)
+    '''
 def setCombinedMinOccurs():
-'''public void setCombinedMinOccurs(final int combinedMinOccurs)
-'''
-pass
+    '''    public void setCombinedMinOccurs(final int combinedMinOccurs)
+    '''
 def getCombinedMaxOccurs():
-'''public int getCombinedMaxOccurs()
-'''
-pass
+    '''    public int getCombinedMaxOccurs()
+    '''
 def getCombinedMinOccurs():
-'''public int getCombinedMinOccurs()
-'''
-pass
+    '''    public int getCombinedMinOccurs()
+    '''
 def setXmlRequired():
-'''public void setXmlRequired(final boolean xmlRequired)
-'''
-pass
+    '''    public void setXmlRequired(final boolean xmlRequired)
+    '''
 def isXmlRequired():
-'''public boolean isXmlRequired()
-'''
-pass
+    '''    public boolean isXmlRequired()
+    '''
 def hasCombinedMaxOccurs():
-'''public boolean hasCombinedMaxOccurs()
-'''
-pass
+    '''    public boolean hasCombinedMaxOccurs()
+    '''
 def isRoot():
-'''public boolean isRoot()
-'''
-pass
+    '''    public boolean isRoot()
+    '''
 def isAttribute():
-'''public boolean isAttribute()
-'''
-pass
+    '''    public boolean isAttribute()
+    '''

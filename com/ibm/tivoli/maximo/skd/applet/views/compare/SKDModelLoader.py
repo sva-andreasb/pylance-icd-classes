@@ -1,8 +1,6 @@
 def SKDModelLoader():
-'''public SKDModelLoader()
-'''
-pass
+    '''    public SKDModelLoader()
+    '''
 def isCompressed():
-'''public boolean isCompressed()
-'''
-pass
+    '''    public boolean isCompressed()
+    '''

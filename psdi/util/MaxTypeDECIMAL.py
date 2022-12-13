@@ -1,57 +1,44 @@
 def MaxTypeDECIMAL():
-'''public MaxTypeDECIMAL(final Locale locale, final int scale)
-'''
-pass
+    '''    public MaxTypeDECIMAL(final Locale locale, final int scale)
+    '''
 def setScale():
-'''public void setScale(final int s)
-'''
-pass
+    '''    public void setScale(final int s)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getScale():
-'''public int getScale()
-'''
-pass
+    '''    public int getScale()
+    '''
 def setValue():
-'''public void setValue(final String value)
-public void setValue(final double value)
-public void setValue(final long value)
-public void setValue(final MaxType value)
-'''
-pass
+    '''    public void setValue(final String value)
+    public void setValue(final double value)
+    public void setValue(final long value)
+    public void setValue(final MaxType value)
+    '''
 def asString():
-'''public String asString()
-'''
-pass
+    '''    public String asString()
+    '''
 def asLocaleString():
-'''public String asLocaleString(final Locale l)
-public String asLocaleString(final Locale l, final TimeZone tz)
-public String asLocaleString()
-'''
-pass
+    '''    public String asLocaleString(final Locale l)
+    public String asLocaleString(final Locale l, final TimeZone tz)
+    public String asLocaleString()
+    '''
 def asDouble():
-'''public double asDouble()
-'''
-pass
+    '''    public double asDouble()
+    '''
 def asFloat():
-'''public float asFloat()
-'''
-pass
+    '''    public float asFloat()
+    '''
 def asInt():
-'''public int asInt()
-'''
-pass
+    '''    public int asInt()
+    '''
 def asLong():
-'''public long asLong()
-'''
-pass
+    '''    public long asLong()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

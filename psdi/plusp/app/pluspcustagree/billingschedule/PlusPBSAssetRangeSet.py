@@ -1,8 +1,6 @@
 def PlusPBSAssetRangeSet():
-'''public PlusPBSAssetRangeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPBSAssetRangeSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

@@ -5,425 +5,320 @@ FORM_BYTES = "int  4"
 FORM_BODYINSTREAM = "int  5"
 FORM_FAULT = "int  6"
 FORM_OPTIMIZED = "int  7"
-ALLOW_FORM_OPTIMIZATION = "String  axis.form.optimization""
+ALLOW_FORM_OPTIMIZATION = "String  \"axis.form.optimization\""
 def SOAPPart():
-'''public SOAPPart(final Message parent, final Object initialContents, final boolean isBodyStream)
-'''
-pass
+    '''    public SOAPPart(final Message parent, final Object initialContents, final boolean isBodyStream)
+    '''
 def getMessage():
-'''public Message getMessage()
-'''
-pass
+    '''    public Message getMessage()
+    '''
 def setMessage():
-'''public void setMessage(final Message msg)
-'''
-pass
+    '''    public void setMessage(final Message msg)
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def setSOAPEnvelope():
-'''public void setSOAPEnvelope(final SOAPEnvelope env)
-'''
-pass
+    '''    public void setSOAPEnvelope(final SOAPEnvelope env)
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream os)
-public void writeTo(final Writer writer)
-'''
-pass
+    '''    public void writeTo(final OutputStream os)
+    public void writeTo(final Writer writer)
+    '''
 def getCurrentMessage():
-'''public Object getCurrentMessage()
-'''
-pass
+    '''    public Object getCurrentMessage()
+    '''
 def setCurrentMessage():
-'''public void setCurrentMessage(final Object currMsg, final int form)
-'''
-pass
+    '''    public void setCurrentMessage(final Object currMsg, final int form)
+    '''
 def getCurrentForm():
-'''public int getCurrentForm()
-'''
-pass
+    '''    public int getCurrentForm()
+    '''
 def getAsBytes():
-'''public byte[] getAsBytes()
-'''
-pass
+    '''    public byte[] getAsBytes()
+    '''
 def saveChanges():
-'''public void saveChanges()
-'''
-pass
+    '''    public void saveChanges()
+    '''
 def getAsString():
-'''public String getAsString()
-'''
-pass
+    '''    public String getAsString()
+    '''
 def getAsSOAPEnvelope():
-'''public SOAPEnvelope getAsSOAPEnvelope()
-'''
-pass
+    '''    public SOAPEnvelope getAsSOAPEnvelope()
+    '''
 def addMimeHeader():
-'''public void addMimeHeader(final String header, final String value)
-'''
-pass
+    '''    public void addMimeHeader(final String header, final String value)
+    '''
 def getContentLocation():
-'''public String getContentLocation()
-'''
-pass
+    '''    public String getContentLocation()
+    '''
 def setContentLocation():
-'''public void setContentLocation(final String loc)
-'''
-pass
+    '''    public void setContentLocation(final String loc)
+    '''
 def setContentId():
-'''public void setContentId(final String newCid)
-'''
-pass
+    '''    public void setContentId(final String newCid)
+    '''
 def getContentId():
-'''public String getContentId()
-'''
-pass
+    '''    public String getContentId()
+    '''
 def getContentIdRef():
-'''public String getContentIdRef()
-'''
-pass
+    '''    public String getContentIdRef()
+    '''
 def getMatchingMimeHeaders():
-'''public Iterator getMatchingMimeHeaders(final String[] match)
-'''
-pass
+    '''    public Iterator getMatchingMimeHeaders(final String[] match)
+    '''
 def getNonMatchingMimeHeaders():
-'''public Iterator getNonMatchingMimeHeaders(final String[] match)
-'''
-pass
+    '''    public Iterator getNonMatchingMimeHeaders(final String[] match)
+    '''
 def setContent():
-'''public void setContent(final Source source)
-'''
-pass
+    '''    public void setContent(final Source source)
+    '''
 def getContent():
-'''public Source getContent()
-'''
-pass
+    '''    public Source getContent()
+    '''
 def getAllMimeHeaders():
-'''public Iterator getAllMimeHeaders()
-'''
-pass
+    '''    public Iterator getAllMimeHeaders()
+    '''
 def setMimeHeader():
-'''public void setMimeHeader(final String name, final String value)
-'''
-pass
+    '''    public void setMimeHeader(final String name, final String value)
+    '''
 def getMimeHeader():
-'''public String[] getMimeHeader(final String name)
-'''
-pass
+    '''    public String[] getMimeHeader(final String name)
+    '''
 def removeAllMimeHeaders():
-'''public void removeAllMimeHeaders()
-'''
-pass
+    '''    public void removeAllMimeHeaders()
+    '''
 def removeMimeHeader():
-'''public void removeMimeHeader(final String header)
-'''
-pass
+    '''    public void removeMimeHeader(final String header)
+    '''
 def getSOAPDocument():
-'''public Document getSOAPDocument()
-'''
-pass
+    '''    public Document getSOAPDocument()
+    '''
 def getDoctype():
-'''public DocumentType getDoctype()
-'''
-pass
+    '''    public DocumentType getDoctype()
+    '''
 def getImplementation():
-'''public DOMImplementation getImplementation()
-'''
-pass
+    '''    public DOMImplementation getImplementation()
+    '''
 def getDocumentElement():
-'''public Element getDocumentElement()
-'''
-pass
+    '''    public Element getDocumentElement()
+    '''
 def createElement():
-'''public Element createElement(final String tagName)
-'''
-pass
+    '''    public Element createElement(final String tagName)
+    '''
 def createDocumentFragment():
-'''public DocumentFragment createDocumentFragment()
-'''
-pass
+    '''    public DocumentFragment createDocumentFragment()
+    '''
 def createTextNode():
-'''public Text createTextNode(final String data)
-'''
-pass
+    '''    public Text createTextNode(final String data)
+    '''
 def createComment():
-'''public Comment createComment(final String data)
-'''
-pass
+    '''    public Comment createComment(final String data)
+    '''
 def createCDATASection():
-'''public CDATASection createCDATASection(final String data)
-'''
-pass
+    '''    public CDATASection createCDATASection(final String data)
+    '''
 def createProcessingInstruction():
-'''public ProcessingInstruction createProcessingInstruction(final String target, final String data)
-'''
-pass
+    '''    public ProcessingInstruction createProcessingInstruction(final String target, final String data)
+    '''
 def createAttribute():
-'''public Attr createAttribute(final String name)
-'''
-pass
+    '''    public Attr createAttribute(final String name)
+    '''
 def createEntityReference():
-'''public EntityReference createEntityReference(final String name)
-'''
-pass
+    '''    public EntityReference createEntityReference(final String name)
+    '''
 def getElementsByTagName():
-'''public NodeList getElementsByTagName(final String tagname)
-'''
-pass
+    '''    public NodeList getElementsByTagName(final String tagname)
+    '''
 def importNode():
-'''public Node importNode(final Node importedNode, final boolean deep)
-'''
-pass
+    '''    public Node importNode(final Node importedNode, final boolean deep)
+    '''
 def createElementNS():
-'''public Element createElementNS(final String namespaceURI, final String qualifiedName)
-'''
-pass
+    '''    public Element createElementNS(final String namespaceURI, final String qualifiedName)
+    '''
 def createAttributeNS():
-'''public Attr createAttributeNS(final String namespaceURI, final String qualifiedName)
-'''
-pass
+    '''    public Attr createAttributeNS(final String namespaceURI, final String qualifiedName)
+    '''
 def getElementsByTagNameNS():
-'''public NodeList getElementsByTagNameNS(final String namespaceURI, final String localName)
-'''
-pass
+    '''    public NodeList getElementsByTagNameNS(final String namespaceURI, final String localName)
+    '''
 def getElementById():
-'''public Element getElementById(final String elementId)
-'''
-pass
+    '''    public Element getElementById(final String elementId)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setEncoding():
-'''public void setEncoding(final String s)
-'''
-pass
+    '''    public void setEncoding(final String s)
+    '''
 def getStandalone():
-'''public boolean getStandalone()
-'''
-pass
+    '''    public boolean getStandalone()
+    '''
 def setStandalone():
-'''public void setStandalone(final boolean flag)
-'''
-pass
+    '''    public void setStandalone(final boolean flag)
+    '''
 def getStrictErrorChecking():
-'''public boolean getStrictErrorChecking()
-'''
-pass
+    '''    public boolean getStrictErrorChecking()
+    '''
 def setStrictErrorChecking():
-'''public void setStrictErrorChecking(final boolean flag)
-'''
-pass
+    '''    public void setStrictErrorChecking(final boolean flag)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final String s)
-'''
-pass
+    '''    public void setVersion(final String s)
+    '''
 def adoptNode():
-'''public Node adoptNode(final Node node)
-'''
-pass
+    '''    public Node adoptNode(final Node node)
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String nodeValue)
-'''
-pass
+    '''    public void setNodeValue(final String nodeValue)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getParentNode():
-'''public Node getParentNode()
-'''
-pass
+    '''    public Node getParentNode()
+    '''
 def getChildNodes():
-'''public NodeList getChildNodes()
-'''
-pass
+    '''    public NodeList getChildNodes()
+    '''
 def getFirstChild():
-'''public Node getFirstChild()
-'''
-pass
+    '''    public Node getFirstChild()
+    '''
 def getLastChild():
-'''public Node getLastChild()
-'''
-pass
+    '''    public Node getLastChild()
+    '''
 def getPreviousSibling():
-'''public Node getPreviousSibling()
-'''
-pass
+    '''    public Node getPreviousSibling()
+    '''
 def getNextSibling():
-'''public Node getNextSibling()
-'''
-pass
+    '''    public Node getNextSibling()
+    '''
 def getAttributes():
-'''public NamedNodeMap getAttributes()
-'''
-pass
+    '''    public NamedNodeMap getAttributes()
+    '''
 def getOwnerDocument():
-'''public Document getOwnerDocument()
-'''
-pass
+    '''    public Document getOwnerDocument()
+    '''
 def insertBefore():
-'''public Node insertBefore(final Node newChild, final Node refChild)
-'''
-pass
+    '''    public Node insertBefore(final Node newChild, final Node refChild)
+    '''
 def replaceChild():
-'''public Node replaceChild(final Node newChild, final Node oldChild)
-'''
-pass
+    '''    public Node replaceChild(final Node newChild, final Node oldChild)
+    '''
 def removeChild():
-'''public Node removeChild(final Node oldChild)
-'''
-pass
+    '''    public Node removeChild(final Node oldChild)
+    '''
 def appendChild():
-'''public Node appendChild(final Node newChild)
-'''
-pass
+    '''    public Node appendChild(final Node newChild)
+    '''
 def hasChildNodes():
-'''public boolean hasChildNodes()
-'''
-pass
+    '''    public boolean hasChildNodes()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean deep)
-'''
-pass
+    '''    public Node cloneNode(final boolean deep)
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''
 def isSupported():
-'''public boolean isSupported(final String feature, final String version)
-'''
-pass
+    '''    public boolean isSupported(final String feature, final String version)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def hasAttributes():
-'''public boolean hasAttributes()
-'''
-pass
+    '''    public boolean hasAttributes()
+    '''
 def isBodyStream():
-'''public boolean isBodyStream()
-'''
-pass
+    '''    public boolean isBodyStream()
+    '''
 def getDocumentURI():
-'''public String getDocumentURI()
-'''
-pass
+    '''    public String getDocumentURI()
+    '''
 def getDomConfig():
-'''public DOMConfiguration getDomConfig()
-'''
-pass
+    '''    public DOMConfiguration getDomConfig()
+    '''
 def getInputEncoding():
-'''public String getInputEncoding()
-'''
-pass
+    '''    public String getInputEncoding()
+    '''
 def getXmlEncoding():
-'''public String getXmlEncoding()
-'''
-pass
+    '''    public String getXmlEncoding()
+    '''
 def getXmlStandalone():
-'''public boolean getXmlStandalone()
-'''
-pass
+    '''    public boolean getXmlStandalone()
+    '''
 def getXmlVersion():
-'''public String getXmlVersion()
-'''
-pass
+    '''    public String getXmlVersion()
+    '''
 def normalizeDocument():
-'''public void normalizeDocument()
-'''
-pass
+    '''    public void normalizeDocument()
+    '''
 def renameNode():
-'''public Node renameNode(final Node n, final String namespaceURI, final String qualifiedName)
-'''
-pass
+    '''    public Node renameNode(final Node n, final String namespaceURI, final String qualifiedName)
+    '''
 def setDocumentURI():
-'''public void setDocumentURI(final String documentURI)
-'''
-pass
+    '''    public void setDocumentURI(final String documentURI)
+    '''
 def setXmlStandalone():
-'''public void setXmlStandalone(final boolean xmlStandalone)
-'''
-pass
+    '''    public void setXmlStandalone(final boolean xmlStandalone)
+    '''
 def setXmlVersion():
-'''public void setXmlVersion(final String xmlVersion)
-'''
-pass
+    '''    public void setXmlVersion(final String xmlVersion)
+    '''
 def compareDocumentPosition():
-'''public short compareDocumentPosition(final Node other)
-'''
-pass
+    '''    public short compareDocumentPosition(final Node other)
+    '''
 def getBaseURI():
-'''public String getBaseURI()
-'''
-pass
+    '''    public String getBaseURI()
+    '''
 def getFeature():
-'''public Object getFeature(final String feature, final String version)
-'''
-pass
+    '''    public Object getFeature(final String feature, final String version)
+    '''
 def getTextContent():
-'''public String getTextContent()
-'''
-pass
+    '''    public String getTextContent()
+    '''
 def getUserData():
-'''public Object getUserData(final String key)
-'''
-pass
+    '''    public Object getUserData(final String key)
+    '''
 def isDefaultNamespace():
-'''public boolean isDefaultNamespace(final String namespaceURI)
-'''
-pass
+    '''    public boolean isDefaultNamespace(final String namespaceURI)
+    '''
 def isEqualNode():
-'''public boolean isEqualNode(final Node arg)
-'''
-pass
+    '''    public boolean isEqualNode(final Node arg)
+    '''
 def isSameNode():
-'''public boolean isSameNode(final Node other)
-'''
-pass
+    '''    public boolean isSameNode(final Node other)
+    '''
 def lookupNamespaceURI():
-'''public String lookupNamespaceURI(final String prefix)
-'''
-pass
+    '''    public String lookupNamespaceURI(final String prefix)
+    '''
 def lookupPrefix():
-'''public String lookupPrefix(final String namespaceURI)
-'''
-pass
+    '''    public String lookupPrefix(final String namespaceURI)
+    '''
 def setTextContent():
-'''public void setTextContent(final String textContent)
-'''
-pass
+    '''    public void setTextContent(final String textContent)
+    '''
 def setUserData():
-'''public Object setUserData(final String key, final Object data, final UserDataHandler handler)
-'''
-pass
+    '''    public Object setUserData(final String key, final Object data, final UserDataHandler handler)
+    '''

@@ -1,8 +1,6 @@
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def isUseWithActCISet():
-'''public boolean isUseWithActCISet()
-'''
-pass
+    '''    public boolean isUseWithActCISet()
+    '''

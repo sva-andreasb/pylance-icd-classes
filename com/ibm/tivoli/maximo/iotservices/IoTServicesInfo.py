@@ -1,74 +1,56 @@
 def IoTServicesInfo():
-'''public IoTServicesInfo(final Map data)
-'''
-pass
+    '''    public IoTServicesInfo(final Map data)
+    '''
 def getIoTServiceName():
-'''public String getIoTServiceName()
-'''
-pass
+    '''    public String getIoTServiceName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def getPingEndPoint():
-'''public String getPingEndPoint()
-'''
-pass
+    '''    public String getPingEndPoint()
+    '''
 def getDeviceIdTag():
-'''public String getDeviceIdTag()
-'''
-pass
+    '''    public String getDeviceIdTag()
+    '''
 def getDeviceTypeTag():
-'''public String getDeviceTypeTag()
-'''
-pass
+    '''    public String getDeviceTypeTag()
+    '''
 def getDeviceTypeDescrTag():
-'''public String getDeviceTypeDescrTag()
-'''
-pass
+    '''    public String getDeviceTypeDescrTag()
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def getIoTCfg():
-'''public String getIoTCfg()
-'''
-pass
+    '''    public String getIoTCfg()
+    '''
 def getHasIoTCfg():
-'''public String getHasIoTCfg()
-'''
-pass
+    '''    public String getHasIoTCfg()
+    '''
 def getProcessor():
-'''public String getProcessor()
-'''
-pass
+    '''    public String getProcessor()
+    '''
 def getDeviceTypeInfo():
-'''public Map<String, IoTFDeviceTypeInfo> getDeviceTypeInfo()
-public IoTFDeviceTypeInfo getDeviceTypeInfo(final String deviceType)
-'''
-pass
+    '''    public Map<String, IoTFDeviceTypeInfo> getDeviceTypeInfo()
+    public IoTFDeviceTypeInfo getDeviceTypeInfo(final String deviceType)
+    '''
 def addDeviceTypeInfo():
-'''public void addDeviceTypeInfo(final IoTFDeviceTypeInfo devicetypeInfo)
-'''
-pass
+    '''    public void addDeviceTypeInfo(final IoTFDeviceTypeInfo devicetypeInfo)
+    '''
 def getServiceDeviceTypeInfo():
-'''public IoTServiceDeviceTypeInfo getServiceDeviceTypeInfo(final String deviceType)
-public Map<String, IoTServiceDeviceTypeInfo> getServiceDeviceTypeInfo()
-'''
-pass
+    '''    public IoTServiceDeviceTypeInfo getServiceDeviceTypeInfo(final String deviceType)
+    public Map<String, IoTServiceDeviceTypeInfo> getServiceDeviceTypeInfo()
+    '''
 def addServiceDeviceTypeInfo():
-'''public void addServiceDeviceTypeInfo(final IoTServiceDeviceTypeInfo devicetypeInfo)
-'''
-pass
+    '''    public void addServiceDeviceTypeInfo(final IoTServiceDeviceTypeInfo devicetypeInfo)
+    '''
 def getDevicetypedesc():
-'''public String getDevicetypedesc()
-'''
-pass
+    '''    public String getDevicetypedesc()
+    '''
 def setDevicetypedesc():
-'''public void setDevicetypedesc(final String devicetypedesc)
-'''
-pass
+    '''    public void setDevicetypedesc(final String devicetypedesc)
+    '''

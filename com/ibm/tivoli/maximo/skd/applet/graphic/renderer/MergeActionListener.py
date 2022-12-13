@@ -1,8 +1,6 @@
 def MergeActionListener():
-'''public MergeActionListener(final IlvReservation reservation, final MXActivity parentActivity)
-'''
-pass
+    '''    public MergeActionListener(final IlvReservation reservation, final MXActivity parentActivity)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''

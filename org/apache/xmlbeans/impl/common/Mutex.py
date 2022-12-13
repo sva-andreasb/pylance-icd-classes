@@ -1,16 +1,12 @@
 def Mutex():
-'''public Mutex()
-'''
-pass
+    '''    public Mutex()
+    '''
 def acquire():
-'''public synchronized void acquire()
-'''
-pass
+    '''    public synchronized void acquire()
+    '''
 def tryToAcquire():
-'''public synchronized boolean tryToAcquire()
-'''
-pass
+    '''    public synchronized boolean tryToAcquire()
+    '''
 def release():
-'''public synchronized void release()
-'''
-pass
+    '''    public synchronized void release()
+    '''

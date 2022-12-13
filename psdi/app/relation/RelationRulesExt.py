@@ -1,24 +1,18 @@
 def RelationRulesExt():
-'''public RelationRulesExt(final MboSet ms)
-'''
-pass
+    '''    public RelationRulesExt(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def clearSourceClassification():
-'''public void clearSourceClassification()
-'''
-pass
+    '''    public void clearSourceClassification()
+    '''
 def clearTargetClassification():
-'''public void clearTargetClassification()
-'''
-pass
+    '''    public void clearTargetClassification()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

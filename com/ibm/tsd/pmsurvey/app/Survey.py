@@ -1,77 +1,58 @@
 def Survey():
-'''public Survey(final MboSet ms)
-'''
-pass
+    '''    public Survey(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setSurveyURLValue():
-'''public void setSurveyURLValue()
-'''
-pass
+    '''    public void setSurveyURLValue()
+    '''
 def processEscalation():
-'''public boolean processEscalation(final int row)
-'''
-pass
+    '''    public boolean processEscalation(final int row)
+    '''
 def addQuestionToSurvey():
-'''public void addQuestionToSurvey(final QuestionSetRemote questionset)
-'''
-pass
+    '''    public void addQuestionToSurvey(final QuestionSetRemote questionset)
+    '''
 def updateSurveyRequest():
-'''public void updateSurveyRequest(final MboRemote commLog)
-public void updateSurveyRequest(final String email, final String subject, final String message)
-'''
-pass
+    '''    public void updateSurveyRequest(final MboRemote commLog)
+    public void updateSurveyRequest(final String email, final String subject, final String message)
+    '''
 def updateSurveyRequestInClosedStatus():
-'''public void updateSurveyRequestInClosedStatus()
-'''
-pass
+    '''    public void updateSurveyRequestInClosedStatus()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def setClosedDate():
-'''public void setClosedDate()
-'''
-pass
+    '''    public void setClosedDate()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def changeStatus():
-'''public void changeStatus(final String status)
-'''
-pass
+    '''    public void changeStatus(final String status)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def isActiveOrClosed():
-'''public boolean isActiveOrClosed()
-'''
-pass
+    '''    public boolean isActiveOrClosed()
+    '''
 def isActiveOrClosedStatus():
-'''public boolean isActiveOrClosedStatus(String status)
-'''
-pass
+    '''    public boolean isActiveOrClosedStatus(String status)
+    '''
 def isDraftOrClosedStatus():
-'''public boolean isDraftOrClosedStatus(String status)
-'''
-pass
+    '''    public boolean isDraftOrClosedStatus(String status)
+    '''
 def isClosedStatus():
-'''public boolean isClosedStatus(String status)
-'''
-pass
+    '''    public boolean isClosedStatus(String status)
+    '''
 def enableFields():
-'''public void enableFields(final boolean enable)
-'''
-pass
+    '''    public void enableFields(final boolean enable)
+    '''

@@ -1,4 +1,3 @@
 def FldApptAssignSiteID():
-'''public FldApptAssignSiteID(final MboValue mbv)
-'''
-pass
+    '''    public FldApptAssignSiteID(final MboValue mbv)
+    '''

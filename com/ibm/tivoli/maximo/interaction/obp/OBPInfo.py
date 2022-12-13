@@ -1,65 +1,49 @@
 def OBPInfo():
-'''public OBPInfo(final String serviceName, final String portName, final String wsdlOperation, final String doc, final WSIO request, final WSIO response, final Map<String, String> nsContext)
-public OBPInfo(final String wsdlOperation)
-'''
-pass
+    '''    public OBPInfo(final String serviceName, final String portName, final String wsdlOperation, final String doc, final WSIO request, final WSIO response, final Map<String, String> nsContext)
+    public OBPInfo(final String wsdlOperation)
+    '''
 def getDoc():
-'''public String getDoc()
-'''
-pass
+    '''    public String getDoc()
+    '''
 def setDoc():
-'''public void setDoc(final String doc)
-'''
-pass
+    '''    public void setDoc(final String doc)
+    '''
 def getWsdlOperationName():
-'''public String getWsdlOperationName()
-'''
-pass
+    '''    public String getWsdlOperationName()
+    '''
 def getRequest():
-'''public WSIO getRequest()
-'''
-pass
+    '''    public WSIO getRequest()
+    '''
 def setRequest():
-'''public void setRequest(final WSIO request)
-'''
-pass
+    '''    public void setRequest(final WSIO request)
+    '''
 def getResponse():
-'''public WSIO getResponse()
-'''
-pass
+    '''    public WSIO getResponse()
+    '''
 def setResponse():
-'''public void setResponse(final WSIO response)
-'''
-pass
+    '''    public void setResponse(final WSIO response)
+    '''
 def getNsContext():
-'''public Map<String, String> getNsContext()
-'''
-pass
+    '''    public Map<String, String> getNsContext()
+    '''
 def setNsContext():
-'''public void setNsContext(final Map<String, String> nsContext)
-'''
-pass
+    '''    public void setNsContext(final Map<String, String> nsContext)
+    '''
 def isRequestMultiple():
-'''public boolean isRequestMultiple()
-'''
-pass
+    '''    public boolean isRequestMultiple()
+    '''
 def isResponseMultiple():
-'''public boolean isResponseMultiple()
-'''
-pass
+    '''    public boolean isResponseMultiple()
+    '''
 def getWsdlOperation():
-'''public String getWsdlOperation()
-'''
-pass
+    '''    public String getWsdlOperation()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getPortName():
-'''public String getPortName()
-'''
-pass
+    '''    public String getPortName()
+    '''
 def createNewInstance():
-'''public OBPInfo createNewInstance(final WSIO request, final WSIO response)
-'''
-pass
+    '''    public OBPInfo createNewInstance(final WSIO request, final WSIO response)
+    '''

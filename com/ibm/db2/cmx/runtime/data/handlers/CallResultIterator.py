@@ -1,8 +1,6 @@
 def CallResultIterator():
-'''public CallResultIterator(final ResultSet set, final RowHandler<T> rowHandler)
-'''
-pass
+    '''    public CallResultIterator(final ResultSet set, final RowHandler<T> rowHandler)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

@@ -1,30 +1,24 @@
 def ResourceReader():
-'''public ResourceReader(final String resourceName, final String encoding)
-public ResourceReader(final String resourceName)
-public ResourceReader(final Class<?> rootClass, final String resourceName, final String encoding)
-public ResourceReader(final InputStream is, final String resourceName, final String encoding)
-public ResourceReader(final InputStream is, final String resourceName)
-public ResourceReader(final Class<?> rootClass, final String resourceName)
-'''
-pass
+    '''    public ResourceReader(final String resourceName, final String encoding)
+    public ResourceReader(final String resourceName)
+    public ResourceReader(final Class<?> rootClass, final String resourceName, final String encoding)
+    public ResourceReader(final InputStream is, final String resourceName, final String encoding)
+    public ResourceReader(final InputStream is, final String resourceName)
+    public ResourceReader(final Class<?> rootClass, final String resourceName)
+    '''
 def readLine():
-'''public String readLine()
-'''
-pass
+    '''    public String readLine()
+    '''
 def readLineSkippingComments():
-'''public String readLineSkippingComments(final boolean trim)
-public String readLineSkippingComments()
-'''
-pass
+    '''    public String readLineSkippingComments(final boolean trim)
+    public String readLineSkippingComments()
+    '''
 def getLineNumber():
-'''public int getLineNumber()
-'''
-pass
+    '''    public int getLineNumber()
+    '''
 def describePosition():
-'''public String describePosition()
-'''
-pass
+    '''    public String describePosition()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

@@ -123,63 +123,49 @@ EMPTY = "int  4"
 CONTAINER = "int  8"
 SPECIAL = "int  16"
 def getElement():
-'''public static final Element getElement(final short code)
-public static final Element getElement(final String ename)
-public static final Element getElement(final String ename, final Element element)
-'''
-pass
+    '''    public static final Element getElement(final short code)
+    public static final Element getElement(final String ename)
+    public static final Element getElement(final String ename, final Element element)
+    '''
 def Element():
-'''public Element(final short code, final String name, final int flags, final short parent, final short[] closes)
-public Element(final short code, final String name, final int flags, final short parent, final short bounds, final short[] closes)
-public Element(final short code, final String name, final int flags, final short[] parents, final short[] closes)
-public Element(final short code, final String name, final int flags, final short[] parents, final short bounds, final short[] closes)
-'''
-pass
+    '''    public Element(final short code, final String name, final int flags, final short parent, final short[] closes)
+    public Element(final short code, final String name, final int flags, final short parent, final short bounds, final short[] closes)
+    public Element(final short code, final String name, final int flags, final short[] parents, final short[] closes)
+    public Element(final short code, final String name, final int flags, final short[] parents, final short bounds, final short[] closes)
+    '''
 def isInline():
-'''public final boolean isInline()
-'''
-pass
+    '''    public final boolean isInline()
+    '''
 def isBlock():
-'''public final boolean isBlock()
-'''
-pass
+    '''    public final boolean isBlock()
+    '''
 def isEmpty():
-'''public final boolean isEmpty()
-'''
-pass
+    '''    public final boolean isEmpty()
+    '''
 def isContainer():
-'''public final boolean isContainer()
-'''
-pass
+    '''    public final boolean isContainer()
+    '''
 def isSpecial():
-'''public final boolean isSpecial()
-'''
-pass
+    '''    public final boolean isSpecial()
+    '''
 def closes():
-'''public boolean closes(final short tag)
-'''
-pass
+    '''    public boolean closes(final short tag)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isParent():
-'''public boolean isParent(final Element element)
-'''
-pass
+    '''    public boolean isParent(final Element element)
+    '''
 def ElementList():
-'''public ElementList()
-'''
-pass
+    '''    public ElementList()
+    '''
 def addElement():
-'''public void addElement(final Element element)
-'''
-pass
+    '''    public void addElement(final Element element)
+    '''

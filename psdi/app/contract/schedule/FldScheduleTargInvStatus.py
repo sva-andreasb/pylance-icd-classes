@@ -1,8 +1,6 @@
 def FldScheduleTargInvStatus():
-'''public FldScheduleTargInvStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldScheduleTargInvStatus(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

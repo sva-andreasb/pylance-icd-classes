@@ -1,5 +1,4 @@
-ACTION_NAME = "String  facesServletAction""
+ACTION_NAME = "String  \"facesServletAction\""
 def actionPerformed():
-'''public void actionPerformed(final ServerActionEvent serverActionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ServerActionEvent serverActionEvent)
+    '''

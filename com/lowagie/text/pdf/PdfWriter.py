@@ -46,266 +46,204 @@ RUN_DIRECTION_NO_BIDI = "int  1"
 RUN_DIRECTION_LTR = "int  2"
 RUN_DIRECTION_RTL = "int  3"
 def getInstance():
-'''public static PdfWriter getInstance(final Document document, final OutputStream os)
-public static PdfWriter getInstance(final Document document, final OutputStream os, final DocListener listener)
-'''
-pass
+    '''    public static PdfWriter getInstance(final Document document, final OutputStream os)
+    public static PdfWriter getInstance(final Document document, final OutputStream os, final DocListener listener)
+    '''
 def open():
-'''public void open()
-'''
-pass
+    '''    public void open()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def getTableBottom():
-'''public float getTableBottom(final Table table)
-'''
-pass
+    '''    public float getTableBottom(final Table table)
+    '''
 def getPdfTable():
-'''public PdfTable getPdfTable(final Table table)
-'''
-pass
+    '''    public PdfTable getPdfTable(final Table table)
+    '''
 def breakTableIfDoesntFit():
-'''public boolean breakTableIfDoesntFit(final PdfTable table)
-'''
-pass
+    '''    public boolean breakTableIfDoesntFit(final PdfTable table)
+    '''
 def fitsPage():
-'''public boolean fitsPage(final Table table, final float margin)
-public boolean fitsPage(final Table table)
-public boolean fitsPage(final PdfPTable table, final float margin)
-public boolean fitsPage(final PdfPTable table)
-'''
-pass
+    '''    public boolean fitsPage(final Table table, final float margin)
+    public boolean fitsPage(final Table table)
+    public boolean fitsPage(final PdfPTable table, final float margin)
+    public boolean fitsPage(final PdfPTable table)
+    '''
 def getVerticalPosition():
-'''public float getVerticalPosition(final boolean ensureNewLine)
-'''
-pass
+    '''    public float getVerticalPosition(final boolean ensureNewLine)
+    '''
 def getDirectContent():
-'''public PdfContentByte getDirectContent()
-'''
-pass
+    '''    public PdfContentByte getDirectContent()
+    '''
 def getDirectContentUnder():
-'''public PdfContentByte getDirectContentUnder()
-'''
-pass
+    '''    public PdfContentByte getDirectContentUnder()
+    '''
 def getAcroForm():
-'''public PdfAcroForm getAcroForm()
-'''
-pass
+    '''    public PdfAcroForm getAcroForm()
+    '''
 def getRootOutline():
-'''public PdfOutline getRootOutline()
-'''
-pass
+    '''    public PdfOutline getRootOutline()
+    '''
 def getOs():
-'''public OutputStreamCounter getOs()
-'''
-pass
+    '''    public OutputStreamCounter getOs()
+    '''
 def getPdfIndirectReference():
-'''public PdfIndirectReference getPdfIndirectReference()
-'''
-pass
+    '''    public PdfIndirectReference getPdfIndirectReference()
+    '''
 def setPageEvent():
-'''public void setPageEvent(final PdfPageEvent pageEvent)
-'''
-pass
+    '''    public void setPageEvent(final PdfPageEvent pageEvent)
+    '''
 def getPageEvent():
-'''public PdfPageEvent getPageEvent()
-'''
-pass
+    '''    public PdfPageEvent getPageEvent()
+    '''
 def getPageNumber():
-'''public int getPageNumber()
-'''
-pass
+    '''    public int getPageNumber()
+    '''
 def setViewerPreferences():
-'''public void setViewerPreferences(final int preferences)
-'''
-pass
+    '''    public void setViewerPreferences(final int preferences)
+    '''
 def setEncryption():
-'''public void setEncryption(final byte[] userPassword, final byte[] ownerPassword, final int permissions, final boolean strength128Bits)
-public void setEncryption(final boolean strength, final String userPassword, final String ownerPassword, final int permissions)
-'''
-pass
+    '''    public void setEncryption(final byte[] userPassword, final byte[] ownerPassword, final int permissions, final boolean strength128Bits)
+    public void setEncryption(final boolean strength, final String userPassword, final String ownerPassword, final int permissions)
+    '''
 def addToBody():
-'''public PdfIndirectObject addToBody(final PdfObject object)
-public PdfIndirectObject addToBody(final PdfObject object, final boolean inObjStm)
-public PdfIndirectObject addToBody(final PdfObject object, final PdfIndirectReference ref)
-public PdfIndirectObject addToBody(final PdfObject object, final PdfIndirectReference ref, final boolean inObjStm)
-public PdfIndirectObject addToBody(final PdfObject object, final int refNumber)
-public PdfIndirectObject addToBody(final PdfObject object, final int refNumber, final boolean inObjStm)
-'''
-pass
+    '''    public PdfIndirectObject addToBody(final PdfObject object)
+    public PdfIndirectObject addToBody(final PdfObject object, final boolean inObjStm)
+    public PdfIndirectObject addToBody(final PdfObject object, final PdfIndirectReference ref)
+    public PdfIndirectObject addToBody(final PdfObject object, final PdfIndirectReference ref, final boolean inObjStm)
+    public PdfIndirectObject addToBody(final PdfObject object, final int refNumber)
+    public PdfIndirectObject addToBody(final PdfObject object, final int refNumber, final boolean inObjStm)
+    '''
 def setOpenAction():
-'''public void setOpenAction(final String name)
-public void setOpenAction(final PdfAction action)
-'''
-pass
+    '''    public void setOpenAction(final String name)
+    public void setOpenAction(final PdfAction action)
+    '''
 def setAdditionalAction():
-'''public void setAdditionalAction(final PdfName actionType, final PdfAction action)
-'''
-pass
+    '''    public void setAdditionalAction(final PdfName actionType, final PdfAction action)
+    '''
 def setPageLabels():
-'''public void setPageLabels(final PdfPageLabels pageLabels)
-'''
-pass
+    '''    public void setPageLabels(final PdfPageLabels pageLabels)
+    '''
 def getImportedPage():
-'''public PdfImportedPage getImportedPage(final PdfReader reader, final int pageNumber)
-'''
-pass
+    '''    public PdfImportedPage getImportedPage(final PdfReader reader, final int pageNumber)
+    '''
 def addJavaScript():
-'''public void addJavaScript(final PdfAction js)
-public void addJavaScript(final String code, final boolean unicode)
-public void addJavaScript(final String code)
-'''
-pass
+    '''    public void addJavaScript(final PdfAction js)
+    public void addJavaScript(final String code, final boolean unicode)
+    public void addJavaScript(final String code)
+    '''
 def setCropBoxSize():
-'''public void setCropBoxSize(final Rectangle crop)
-'''
-pass
+    '''    public void setCropBoxSize(final Rectangle crop)
+    '''
 def getPageReference():
-'''public PdfIndirectReference getPageReference(int page)
-'''
-pass
+    '''    public PdfIndirectReference getPageReference(int page)
+    '''
 def addCalculationOrder():
-'''public void addCalculationOrder(final PdfFormField annot)
-'''
-pass
+    '''    public void addCalculationOrder(final PdfFormField annot)
+    '''
 def setSigFlags():
-'''public void setSigFlags(final int f)
-'''
-pass
+    '''    public void setSigFlags(final int f)
+    '''
 def addAnnotation():
-'''public void addAnnotation(final PdfAnnotation annot)
-'''
-pass
+    '''    public void addAnnotation(final PdfAnnotation annot)
+    '''
 def setPdfVersion():
-'''public void setPdfVersion(final char version)
-'''
-pass
+    '''    public void setPdfVersion(final char version)
+    '''
 def reorderPages():
-'''public int reorderPages(final int[] order)
-'''
-pass
+    '''    public int reorderPages(final int[] order)
+    '''
 def getSpaceCharRatio():
-'''public float getSpaceCharRatio()
-'''
-pass
+    '''    public float getSpaceCharRatio()
+    '''
 def setSpaceCharRatio():
-'''public void setSpaceCharRatio(final float spaceCharRatio)
-'''
-pass
+    '''    public void setSpaceCharRatio(final float spaceCharRatio)
+    '''
 def setRunDirection():
-'''public void setRunDirection(final int runDirection)
-'''
-pass
+    '''    public void setRunDirection(final int runDirection)
+    '''
 def getRunDirection():
-'''public int getRunDirection()
-'''
-pass
+    '''    public int getRunDirection()
+    '''
 def setDuration():
-'''public void setDuration(final int seconds)
-'''
-pass
+    '''    public void setDuration(final int seconds)
+    '''
 def setTransition():
-'''public void setTransition(final PdfTransition transition)
-'''
-pass
+    '''    public void setTransition(final PdfTransition transition)
+    '''
 def freeReader():
-'''public void freeReader(final PdfReader reader)
-'''
-pass
+    '''    public void freeReader(final PdfReader reader)
+    '''
 def setPageAction():
-'''public void setPageAction(final PdfName actionType, final PdfAction action)
-'''
-pass
+    '''    public void setPageAction(final PdfName actionType, final PdfAction action)
+    '''
 def getCurrentDocumentSize():
-'''public int getCurrentDocumentSize()
-'''
-pass
+    '''    public int getCurrentDocumentSize()
+    '''
 def isStrictImageSequence():
-'''public boolean isStrictImageSequence()
-'''
-pass
+    '''    public boolean isStrictImageSequence()
+    '''
 def setStrictImageSequence():
-'''public void setStrictImageSequence(final boolean strictImageSequence)
-'''
-pass
+    '''    public void setStrictImageSequence(final boolean strictImageSequence)
+    '''
 def setPageEmpty():
-'''public void setPageEmpty(final boolean pageEmpty)
-'''
-pass
+    '''    public void setPageEmpty(final boolean pageEmpty)
+    '''
 def getInfo():
-'''public PdfDictionary getInfo()
-'''
-pass
+    '''    public PdfDictionary getInfo()
+    '''
 def getExtraCatalog():
-'''public PdfDictionary getExtraCatalog()
-'''
-pass
+    '''    public PdfDictionary getExtraCatalog()
+    '''
 def setLinearPageMode():
-'''public void setLinearPageMode()
-'''
-pass
+    '''    public void setLinearPageMode()
+    '''
 def getGroup():
-'''public PdfDictionary getGroup()
-'''
-pass
+    '''    public PdfDictionary getGroup()
+    '''
 def setGroup():
-'''public void setGroup(final PdfDictionary group)
-'''
-pass
+    '''    public void setGroup(final PdfDictionary group)
+    '''
 def setPDFXConformance():
-'''public void setPDFXConformance(final int pdfxConformance)
-'''
-pass
+    '''    public void setPDFXConformance(final int pdfxConformance)
+    '''
 def getPDFXConformance():
-'''public int getPDFXConformance()
-'''
-pass
+    '''    public int getPDFXConformance()
+    '''
 def setOutputIntents():
-'''public void setOutputIntents(final String outputConditionIdentifier, final String outputCondition, final String registryName, final String info, final byte[] destOutputProfile)
-public boolean setOutputIntents(final PdfReader reader, final boolean checkExistence)
-'''
-pass
+    '''    public void setOutputIntents(final String outputConditionIdentifier, final String outputCondition, final String registryName, final String info, final byte[] destOutputProfile)
+    public boolean setOutputIntents(final PdfReader reader, final boolean checkExistence)
+    '''
 def setBoxSize():
-'''public void setBoxSize(final String boxName, final Rectangle size)
-'''
-pass
+    '''    public void setBoxSize(final String boxName, final Rectangle size)
+    '''
 def getDefaultColorspace():
-'''public PdfDictionary getDefaultColorspace()
-'''
-pass
+    '''    public PdfDictionary getDefaultColorspace()
+    '''
 def setDefaultColorspace():
-'''public void setDefaultColorspace(final PdfName key, final PdfObject cs)
-'''
-pass
+    '''    public void setDefaultColorspace(final PdfName key, final PdfObject cs)
+    '''
 def isFullCompression():
-'''public boolean isFullCompression()
-'''
-pass
+    '''    public boolean isFullCompression()
+    '''
 def setFullCompression():
-'''public void setFullCompression()
-'''
-pass
+    '''    public void setFullCompression()
+    '''
 def getOCProperties():
-'''public PdfOCProperties getOCProperties()
-'''
-pass
+    '''    public PdfOCProperties getOCProperties()
+    '''
 def addOCGRadioGroup():
-'''public void addOCGRadioGroup(final ArrayList group)
-'''
-pass
+    '''    public void addOCGRadioGroup(final ArrayList group)
+    '''
 def toPdf():
-'''public void toPdf(final OutputStream os)
-public void toPdf(int midSize, final OutputStream os)
-public void toPdf(final PdfWriter writer, final OutputStream os)
-'''
-pass
+    '''    public void toPdf(final OutputStream os)
+    public void toPdf(int midSize, final OutputStream os)
+    public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

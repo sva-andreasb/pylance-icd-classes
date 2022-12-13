@@ -1,16 +1,12 @@
 def ClearTextMessage():
-'''public ClearTextMessage(final String message, final Message original, final OmemoMessageInformation messageInfo)
-'''
-pass
+    '''    public ClearTextMessage(final String message, final Message original, final OmemoMessageInformation messageInfo)
+    '''
 def getBody():
-'''public String getBody()
-'''
-pass
+    '''    public String getBody()
+    '''
 def getOriginalMessage():
-'''public Message getOriginalMessage()
-'''
-pass
+    '''    public Message getOriginalMessage()
+    '''
 def getMessageInformation():
-'''public OmemoMessageInformation getMessageInformation()
-'''
-pass
+    '''    public OmemoMessageInformation getMessageInformation()
+    '''

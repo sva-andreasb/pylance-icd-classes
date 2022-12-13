@@ -1,8 +1,6 @@
 def MeasurePointFormulaSet():
-'''public MeasurePointFormulaSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MeasurePointFormulaSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

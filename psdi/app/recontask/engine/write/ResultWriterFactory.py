@@ -1,12 +1,9 @@
 def getReconResultWriter():
-'''public static ReconResultWriter getReconResultWriter()
-'''
-pass
+    '''    public static ReconResultWriter getReconResultWriter()
+    '''
 def getReconLinkWriter():
-'''public static ReconLinkWriter getReconLinkWriter()
-'''
-pass
+    '''    public static ReconLinkWriter getReconLinkWriter()
+    '''
 def getReconMultiLinkWriter():
-'''public static ReconMultiLinkWriter getReconMultiLinkWriter()
-'''
-pass
+    '''    public static ReconMultiLinkWriter getReconMultiLinkWriter()
+    '''

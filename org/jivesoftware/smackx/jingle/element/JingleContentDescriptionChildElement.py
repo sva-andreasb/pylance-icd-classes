@@ -1,5 +1,4 @@
-ELEMENT = "String  payload-type""
+ELEMENT = "String  \"payload-type\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''

@@ -1,4 +1,3 @@
 def randomUuidString():
-'''public static String randomUuidString()
-'''
-pass
+    '''    public static String randomUuidString()
+    '''

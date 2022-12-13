@@ -1,8 +1,6 @@
 def CollectionAuthSet():
-'''public CollectionAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CollectionAuthSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

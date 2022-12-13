@@ -1,8 +1,6 @@
 def FldCommentOwnerTable():
-'''public FldCommentOwnerTable(final MboValue mbv)
-'''
-pass
+    '''    public FldCommentOwnerTable(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

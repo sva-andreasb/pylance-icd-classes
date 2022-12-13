@@ -1,36 +1,27 @@
 def ReportData():
-'''public ReportData()
-'''
-pass
+    '''    public ReportData()
+    '''
 def getReportInfo():
-'''public ReportInfo getReportInfo()
-'''
-pass
+    '''    public ReportInfo getReportInfo()
+    '''
 def setReportInfo():
-'''public void setReportInfo(final ReportInfo reportInfo)
-'''
-pass
+    '''    public void setReportInfo(final ReportInfo reportInfo)
+    '''
 def getReportName():
-'''public String getReportName()
-'''
-pass
+    '''    public String getReportName()
+    '''
 def setReportName():
-'''public void setReportName(final String reportName)
-'''
-pass
+    '''    public void setReportName(final String reportName)
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def setAppName():
-'''public void setAppName(final String appName)
-'''
-pass
+    '''    public void setAppName(final String appName)
+    '''
 def getReportParameterData():
-'''public ReportParameterData getReportParameterData()
-'''
-pass
+    '''    public ReportParameterData getReportParameterData()
+    '''
 def setReportParameterData():
-'''public void setReportParameterData(final ReportParameterData reportParameterData)
-'''
-pass
+    '''    public void setReportParameterData(final ReportParameterData reportParameterData)
+    '''

@@ -1,56 +1,42 @@
 def create():
-'''public EObject create(final EClass eClass)
-'''
-pass
+    '''    public EObject create(final EClass eClass)
+    '''
 def createFromString():
-'''public Object createFromString(final EDataType eDataType, final String initialValue)
-'''
-pass
+    '''    public Object createFromString(final EDataType eDataType, final String initialValue)
+    '''
 def convertToString():
-'''public String convertToString(final EDataType eDataType, final Object instanceValue)
-'''
-pass
+    '''    public String convertToString(final EDataType eDataType, final Object instanceValue)
+    '''
 def createGenModel():
-'''public GenModel createGenModel()
-'''
-pass
+    '''    public GenModel createGenModel()
+    '''
 def createGenPackage():
-'''public GenPackage createGenPackage()
-'''
-pass
+    '''    public GenPackage createGenPackage()
+    '''
 def createGenClass():
-'''public GenClass createGenClass()
-'''
-pass
+    '''    public GenClass createGenClass()
+    '''
 def createGenFeature():
-'''public GenFeature createGenFeature()
-'''
-pass
+    '''    public GenFeature createGenFeature()
+    '''
 def createGenEnum():
-'''public GenEnum createGenEnum()
-'''
-pass
+    '''    public GenEnum createGenEnum()
+    '''
 def createGenEnumLiteral():
-'''public GenEnumLiteral createGenEnumLiteral()
-'''
-pass
+    '''    public GenEnumLiteral createGenEnumLiteral()
+    '''
 def createGenDataType():
-'''public GenDataType createGenDataType()
-'''
-pass
+    '''    public GenDataType createGenDataType()
+    '''
 def createGenOperation():
-'''public GenOperation createGenOperation()
-'''
-pass
+    '''    public GenOperation createGenOperation()
+    '''
 def createGenParameter():
-'''public GenParameter createGenParameter()
-'''
-pass
+    '''    public GenParameter createGenParameter()
+    '''
 def getGenModelPackage():
-'''public GenModelPackage getGenModelPackage()
-'''
-pass
+    '''    public GenModelPackage getGenModelPackage()
+    '''
 def getPackage():
-'''public static GenModelPackage getPackage()
-'''
-pass
+    '''    public static GenModelPackage getPackage()
+    '''

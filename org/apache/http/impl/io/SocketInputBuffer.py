@@ -1,12 +1,9 @@
 def SocketInputBuffer():
-'''public SocketInputBuffer(final Socket socket, final int buffersize, final HttpParams params)
-'''
-pass
+    '''    public SocketInputBuffer(final Socket socket, final int buffersize, final HttpParams params)
+    '''
 def isDataAvailable():
-'''public boolean isDataAvailable(final int timeout)
-'''
-pass
+    '''    public boolean isDataAvailable(final int timeout)
+    '''
 def isEof():
-'''public boolean isEof()
-'''
-pass
+    '''    public boolean isEof()
+    '''

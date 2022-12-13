@@ -1,12 +1,9 @@
 def NullsAsEmptyProvider():
-'''public NullsAsEmptyProvider(final JsonDeserializer<?> deser)
-'''
-pass
+    '''    public NullsAsEmptyProvider(final JsonDeserializer<?> deser)
+    '''
 def getNullAccessPattern():
-'''public AccessPattern getNullAccessPattern()
-'''
-pass
+    '''    public AccessPattern getNullAccessPattern()
+    '''
 def getNullValue():
-'''public Object getNullValue(final DeserializationContext ctxt)
-'''
-pass
+    '''    public Object getNullValue(final DeserializationContext ctxt)
+    '''

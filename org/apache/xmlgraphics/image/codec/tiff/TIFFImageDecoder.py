@@ -26,14 +26,11 @@ TIFF_S_MIN_SAMPLE_VALUE = "int  340"
 TIFF_S_MAX_SAMPLE_VALUE = "int  341"
 TIFF_ICC_PROFILE = "int  34675"
 def TIFFImageDecoder():
-'''public TIFFImageDecoder(final SeekableStream input, final TIFFDecodeParam param)
-'''
-pass
+    '''    public TIFFImageDecoder(final SeekableStream input, final TIFFDecodeParam param)
+    '''
 def getNumPages():
-'''public int getNumPages()
-'''
-pass
+    '''    public int getNumPages()
+    '''
 def decodeAsRenderedImage():
-'''public RenderedImage decodeAsRenderedImage(final int page)
-'''
-pass
+    '''    public RenderedImage decodeAsRenderedImage(final int page)
+    '''

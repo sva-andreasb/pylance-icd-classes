@@ -1,4 +1,3 @@
 def getCompiler():
-'''public static Compiler getCompiler()
-'''
-pass
+    '''    public static Compiler getCompiler()
+    '''

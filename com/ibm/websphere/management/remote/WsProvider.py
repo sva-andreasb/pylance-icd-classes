@@ -1,8 +1,6 @@
 def WsProvider():
-'''public WsProvider()
-'''
-pass
+    '''    public WsProvider()
+    '''
 def newJMXConnector():
-'''public JMXConnector newJMXConnector(final JMXServiceURL jmxServiceURL, final Map _map)
-'''
-pass
+    '''    public JMXConnector newJMXConnector(final JMXServiceURL jmxServiceURL, final Map _map)
+    '''

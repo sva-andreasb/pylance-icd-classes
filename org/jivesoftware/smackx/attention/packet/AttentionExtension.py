@@ -1,18 +1,14 @@
-ELEMENT_NAME = "String  attention""
-NAMESPACE = "String  urn:xmpp:attention:0""
+ELEMENT_NAME = "String  \"attention\""
+NAMESPACE = "String  \"urn:xmpp:attention:0\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''
 def parse():
-'''public AttentionExtension parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public AttentionExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''

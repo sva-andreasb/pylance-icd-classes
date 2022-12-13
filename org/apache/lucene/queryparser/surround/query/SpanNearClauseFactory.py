@@ -1,36 +1,27 @@
 def SpanNearClauseFactory():
-'''public SpanNearClauseFactory(final IndexReader reader, final String fieldName, final BasicQueryFactory qf)
-'''
-pass
+    '''    public SpanNearClauseFactory(final IndexReader reader, final String fieldName, final BasicQueryFactory qf)
+    '''
 def getIndexReader():
-'''public IndexReader getIndexReader()
-'''
-pass
+    '''    public IndexReader getIndexReader()
+    '''
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def getBasicQueryFactory():
-'''public BasicQueryFactory getBasicQueryFactory()
-'''
-pass
+    '''    public BasicQueryFactory getBasicQueryFactory()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def addTermWeighted():
-'''public void addTermWeighted(final Term t, final float weight)
-'''
-pass
+    '''    public void addTermWeighted(final Term t, final float weight)
+    '''
 def addSpanQuery():
-'''public void addSpanQuery(Query q)
-'''
-pass
+    '''    public void addSpanQuery(Query q)
+    '''
 def makeSpanClause():
-'''public SpanQuery makeSpanClause()
-'''
-pass
+    '''    public SpanQuery makeSpanClause()
+    '''

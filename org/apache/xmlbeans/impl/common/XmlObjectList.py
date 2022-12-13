@@ -1,28 +1,21 @@
 def XmlObjectList():
-'''public XmlObjectList(final int objectCount)
-'''
-pass
+    '''    public XmlObjectList(final int objectCount)
+    '''
 def set():
-'''public boolean set(final XmlObject o, final int index)
-'''
-pass
+    '''    public boolean set(final XmlObject o, final int index)
+    '''
 def filled():
-'''public boolean filled()
-'''
-pass
+    '''    public boolean filled()
+    '''
 def unfilled():
-'''public int unfilled()
-'''
-pass
+    '''    public int unfilled()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -11,72 +11,55 @@ GROUP_COMPOUND = "int  1"
 GROUP_SENTENCE = "int  2"
 GROUP_PARAGRAPH = "int  3"
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def ok():
-'''public boolean ok()
-'''
-pass
+    '''    public boolean ok()
+    '''
 def valid():
-'''public boolean valid()
-'''
-pass
+    '''    public boolean valid()
+    '''
 def first():
-'''public final void first()
-'''
-pass
+    '''    public final void first()
+    '''
 def getProbability():
-'''public final int getProbability()
-'''
-pass
+    '''    public final int getProbability()
+    '''
 def getType():
-'''public final int getType()
-'''
-pass
+    '''    public final int getType()
+    '''
 def getBegin():
-'''public final int getBegin()
-'''
-pass
+    '''    public final int getBegin()
+    '''
 def getEnd():
-'''public final int getEnd()
-'''
-pass
+    '''    public final int getEnd()
+    '''
 def getSize():
-'''public final int getSize(final int n)
-'''
-pass
+    '''    public final int getSize(final int n)
+    '''
 def nextProbable():
-'''public final void nextProbable()
-'''
-pass
+    '''    public final void nextProbable()
+    '''
 def getNumNext():
-'''public final int getNumNext()
-'''
-pass
+    '''    public final int getNumNext()
+    '''
 def getNumDecomp():
-'''public final int getNumDecomp()
-'''
-pass
+    '''    public final int getNumDecomp()
+    '''
 def getDecomp():
-'''public final LPS getDecomp(final int n)
-public final void getDecomp(final LPS lps, final int n)
-'''
-pass
+    '''    public final LPS getDecomp(final int n)
+    public final void getDecomp(final LPS lps, final int n)
+    '''
 def next():
-'''public final void next(final int n)
-'''
-pass
+    '''    public final void next(final int n)
+    '''
 def getEntry():
-'''public final Entry getEntry()
-public final void getEntry(final Entry entry)
-'''
-pass
+    '''    public final Entry getEntry()
+    public final void getEntry(final Entry entry)
+    '''
 def getGlosses():
-'''public final GlossCollection getGlosses()
-'''
-pass
+    '''    public final GlossCollection getGlosses()
+    '''
 def getData():
-'''public final int getData()
-'''
-pass
+    '''    public final int getData()
+    '''

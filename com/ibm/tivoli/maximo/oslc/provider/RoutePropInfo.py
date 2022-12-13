@@ -1,16 +1,12 @@
 def RoutePropInfo():
-'''public RoutePropInfo(final String propName, final String value, final String valueType)
-'''
-pass
+    '''    public RoutePropInfo(final String propName, final String value, final String valueType)
+    '''
 def getPropName():
-'''public String getPropName()
-'''
-pass
+    '''    public String getPropName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getValueType():
-'''public String getValueType()
-'''
-pass
+    '''    public String getValueType()
+    '''

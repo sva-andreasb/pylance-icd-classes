@@ -1,16 +1,12 @@
 def ResourceIDEvent():
-'''public ResourceIDEvent(final IlvResource ilvResource, final String s, final String s2, final boolean b)
-'''
-pass
+    '''    public ResourceIDEvent(final IlvResource ilvResource, final String s, final String s2, final boolean b)
+    '''
 def getOldID():
-'''public String getOldID()
-'''
-pass
+    '''    public String getOldID()
+    '''
 def getNewID():
-'''public String getNewID()
-'''
-pass
+    '''    public String getNewID()
+    '''
 def setNewID():
-'''public void setNewID(final String newValue)
-'''
-pass
+    '''    public void setNewID(final String newValue)
+    '''

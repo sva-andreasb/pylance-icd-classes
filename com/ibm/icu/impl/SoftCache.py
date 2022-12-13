@@ -1,8 +1,6 @@
 def SoftCache():
-'''public SoftCache()
-'''
-pass
+    '''    public SoftCache()
+    '''
 def getInstance():
-'''public final V getInstance(final K key, final D data)
-'''
-pass
+    '''    public final V getInstance(final K key, final D data)
+    '''

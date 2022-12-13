@@ -1,5 +1,4 @@
 def ApptBookService():
-'''public ApptBookService()
-public ApptBookService(final MXServer mxServer)
-'''
-pass
+    '''    public ApptBookService()
+    public ApptBookService(final MXServer mxServer)
+    '''

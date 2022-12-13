@@ -1,4 +1,3 @@
 def SASLPlainMechanism():
-'''public SASLPlainMechanism(final SASLAuthentication saslAuthentication)
-'''
-pass
+    '''    public SASLPlainMechanism(final SASLAuthentication saslAuthentication)
+    '''

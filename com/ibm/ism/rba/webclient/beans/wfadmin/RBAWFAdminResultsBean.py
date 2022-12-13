@@ -1,8 +1,6 @@
 def ASSIGNWF():
-'''public int ASSIGNWF()
-'''
-pass
+    '''    public int ASSIGNWF()
+    '''
 def STOPWF():
-'''public int STOPWF()
-'''
-pass
+    '''    public int STOPWF()
+    '''

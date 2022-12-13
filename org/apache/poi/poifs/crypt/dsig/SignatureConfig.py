@@ -1,305 +1,229 @@
 def SignatureConfig():
-'''public SignatureConfig()
-'''
-pass
+    '''    public SignatureConfig()
+    '''
 def addSignatureFacet():
-'''public void addSignatureFacet(final SignatureFacet signatureFacet)
-'''
-pass
+    '''    public void addSignatureFacet(final SignatureFacet signatureFacet)
+    '''
 def getSignatureFacets():
-'''public List<SignatureFacet> getSignatureFacets()
-'''
-pass
+    '''    public List<SignatureFacet> getSignatureFacets()
+    '''
 def setSignatureFacets():
-'''public void setSignatureFacets(final List<SignatureFacet> signatureFacets)
-'''
-pass
+    '''    public void setSignatureFacets(final List<SignatureFacet> signatureFacets)
+    '''
 def getDigestAlgo():
-'''public HashAlgorithm getDigestAlgo()
-'''
-pass
+    '''    public HashAlgorithm getDigestAlgo()
+    '''
 def setDigestAlgo():
-'''public void setDigestAlgo(final HashAlgorithm digestAlgo)
-'''
-pass
+    '''    public void setDigestAlgo(final HashAlgorithm digestAlgo)
+    '''
 def getOpcPackage():
-'''public OPCPackage getOpcPackage()
-'''
-pass
+    '''    public OPCPackage getOpcPackage()
+    '''
 def setOpcPackage():
-'''public void setOpcPackage(final OPCPackage opcPackage)
-'''
-pass
+    '''    public void setOpcPackage(final OPCPackage opcPackage)
+    '''
 def getKey():
-'''public PrivateKey getKey()
-'''
-pass
+    '''    public PrivateKey getKey()
+    '''
 def setKey():
-'''public void setKey(final PrivateKey key)
-'''
-pass
+    '''    public void setKey(final PrivateKey key)
+    '''
 def getSigningCertificateChain():
-'''public List<X509Certificate> getSigningCertificateChain()
-'''
-pass
+    '''    public List<X509Certificate> getSigningCertificateChain()
+    '''
 def setSigningCertificateChain():
-'''public void setSigningCertificateChain(final List<X509Certificate> signingCertificateChain)
-'''
-pass
+    '''    public void setSigningCertificateChain(final List<X509Certificate> signingCertificateChain)
+    '''
 def getExecutionTime():
-'''public Date getExecutionTime()
-'''
-pass
+    '''    public Date getExecutionTime()
+    '''
 def setExecutionTime():
-'''public void setExecutionTime(final Date executionTime)
-'''
-pass
+    '''    public void setExecutionTime(final Date executionTime)
+    '''
 def getSignaturePolicyService():
-'''public SignaturePolicyService getSignaturePolicyService()
-'''
-pass
+    '''    public SignaturePolicyService getSignaturePolicyService()
+    '''
 def setSignaturePolicyService():
-'''public void setSignaturePolicyService(final SignaturePolicyService signaturePolicyService)
-'''
-pass
+    '''    public void setSignaturePolicyService(final SignaturePolicyService signaturePolicyService)
+    '''
 def getUriDereferencer():
-'''public URIDereferencer getUriDereferencer()
-'''
-pass
+    '''    public URIDereferencer getUriDereferencer()
+    '''
 def setUriDereferencer():
-'''public void setUriDereferencer(final URIDereferencer uriDereferencer)
-'''
-pass
+    '''    public void setUriDereferencer(final URIDereferencer uriDereferencer)
+    '''
 def getSignatureDescription():
-'''public String getSignatureDescription()
-'''
-pass
+    '''    public String getSignatureDescription()
+    '''
 def setSignatureDescription():
-'''public void setSignatureDescription(final String signatureDescription)
-'''
-pass
+    '''    public void setSignatureDescription(final String signatureDescription)
+    '''
 def getCanonicalizationMethod():
-'''public String getCanonicalizationMethod()
-'''
-pass
+    '''    public String getCanonicalizationMethod()
+    '''
 def setCanonicalizationMethod():
-'''public void setCanonicalizationMethod(final String canonicalizationMethod)
-'''
-pass
+    '''    public void setCanonicalizationMethod(final String canonicalizationMethod)
+    '''
 def getPackageSignatureId():
-'''public String getPackageSignatureId()
-'''
-pass
+    '''    public String getPackageSignatureId()
+    '''
 def setPackageSignatureId():
-'''public void setPackageSignatureId(final String packageSignatureId)
-'''
-pass
+    '''    public void setPackageSignatureId(final String packageSignatureId)
+    '''
 def getTspUrl():
-'''public String getTspUrl()
-'''
-pass
+    '''    public String getTspUrl()
+    '''
 def setTspUrl():
-'''public void setTspUrl(final String tspUrl)
-'''
-pass
+    '''    public void setTspUrl(final String tspUrl)
+    '''
 def isTspOldProtocol():
-'''public boolean isTspOldProtocol()
-'''
-pass
+    '''    public boolean isTspOldProtocol()
+    '''
 def setTspOldProtocol():
-'''public void setTspOldProtocol(final boolean tspOldProtocol)
-'''
-pass
+    '''    public void setTspOldProtocol(final boolean tspOldProtocol)
+    '''
 def getTspDigestAlgo():
-'''public HashAlgorithm getTspDigestAlgo()
-'''
-pass
+    '''    public HashAlgorithm getTspDigestAlgo()
+    '''
 def setTspDigestAlgo():
-'''public void setTspDigestAlgo(final HashAlgorithm tspDigestAlgo)
-'''
-pass
+    '''    public void setTspDigestAlgo(final HashAlgorithm tspDigestAlgo)
+    '''
 def getProxyUrl():
-'''public String getProxyUrl()
-'''
-pass
+    '''    public String getProxyUrl()
+    '''
 def setProxyUrl():
-'''public void setProxyUrl(final String proxyUrl)
-'''
-pass
+    '''    public void setProxyUrl(final String proxyUrl)
+    '''
 def getTspService():
-'''public TimeStampService getTspService()
-'''
-pass
+    '''    public TimeStampService getTspService()
+    '''
 def setTspService():
-'''public void setTspService(final TimeStampService tspService)
-'''
-pass
+    '''    public void setTspService(final TimeStampService tspService)
+    '''
 def getTspUser():
-'''public String getTspUser()
-'''
-pass
+    '''    public String getTspUser()
+    '''
 def setTspUser():
-'''public void setTspUser(final String tspUser)
-'''
-pass
+    '''    public void setTspUser(final String tspUser)
+    '''
 def getTspPass():
-'''public String getTspPass()
-'''
-pass
+    '''    public String getTspPass()
+    '''
 def setTspPass():
-'''public void setTspPass(final String tspPass)
-'''
-pass
+    '''    public void setTspPass(final String tspPass)
+    '''
 def getTspValidator():
-'''public TimeStampServiceValidator getTspValidator()
-'''
-pass
+    '''    public TimeStampServiceValidator getTspValidator()
+    '''
 def setTspValidator():
-'''public void setTspValidator(final TimeStampServiceValidator tspValidator)
-'''
-pass
+    '''    public void setTspValidator(final TimeStampServiceValidator tspValidator)
+    '''
 def getRevocationDataService():
-'''public RevocationDataService getRevocationDataService()
-'''
-pass
+    '''    public RevocationDataService getRevocationDataService()
+    '''
 def setRevocationDataService():
-'''public void setRevocationDataService(final RevocationDataService revocationDataService)
-'''
-pass
+    '''    public void setRevocationDataService(final RevocationDataService revocationDataService)
+    '''
 def getXadesDigestAlgo():
-'''public HashAlgorithm getXadesDigestAlgo()
-'''
-pass
+    '''    public HashAlgorithm getXadesDigestAlgo()
+    '''
 def setXadesDigestAlgo():
-'''public void setXadesDigestAlgo(final HashAlgorithm xadesDigestAlgo)
-'''
-pass
+    '''    public void setXadesDigestAlgo(final HashAlgorithm xadesDigestAlgo)
+    '''
 def getUserAgent():
-'''public String getUserAgent()
-'''
-pass
+    '''    public String getUserAgent()
+    '''
 def setUserAgent():
-'''public void setUserAgent(final String userAgent)
-'''
-pass
+    '''    public void setUserAgent(final String userAgent)
+    '''
 def getTspRequestPolicy():
-'''public String getTspRequestPolicy()
-'''
-pass
+    '''    public String getTspRequestPolicy()
+    '''
 def setTspRequestPolicy():
-'''public void setTspRequestPolicy(final String tspRequestPolicy)
-'''
-pass
+    '''    public void setTspRequestPolicy(final String tspRequestPolicy)
+    '''
 def isIncludeEntireCertificateChain():
-'''public boolean isIncludeEntireCertificateChain()
-'''
-pass
+    '''    public boolean isIncludeEntireCertificateChain()
+    '''
 def setIncludeEntireCertificateChain():
-'''public void setIncludeEntireCertificateChain(final boolean includeEntireCertificateChain)
-'''
-pass
+    '''    public void setIncludeEntireCertificateChain(final boolean includeEntireCertificateChain)
+    '''
 def isIncludeIssuerSerial():
-'''public boolean isIncludeIssuerSerial()
-'''
-pass
+    '''    public boolean isIncludeIssuerSerial()
+    '''
 def setIncludeIssuerSerial():
-'''public void setIncludeIssuerSerial(final boolean includeIssuerSerial)
-'''
-pass
+    '''    public void setIncludeIssuerSerial(final boolean includeIssuerSerial)
+    '''
 def isIncludeKeyValue():
-'''public boolean isIncludeKeyValue()
-'''
-pass
+    '''    public boolean isIncludeKeyValue()
+    '''
 def setIncludeKeyValue():
-'''public void setIncludeKeyValue(final boolean includeKeyValue)
-'''
-pass
+    '''    public void setIncludeKeyValue(final boolean includeKeyValue)
+    '''
 def getXadesRole():
-'''public String getXadesRole()
-'''
-pass
+    '''    public String getXadesRole()
+    '''
 def setXadesRole():
-'''public void setXadesRole(final String xadesRole)
-'''
-pass
+    '''    public void setXadesRole(final String xadesRole)
+    '''
 def getXadesSignatureId():
-'''public String getXadesSignatureId()
-'''
-pass
+    '''    public String getXadesSignatureId()
+    '''
 def setXadesSignatureId():
-'''public void setXadesSignatureId(final String xadesSignatureId)
-'''
-pass
+    '''    public void setXadesSignatureId(final String xadesSignatureId)
+    '''
 def isXadesSignaturePolicyImplied():
-'''public boolean isXadesSignaturePolicyImplied()
-'''
-pass
+    '''    public boolean isXadesSignaturePolicyImplied()
+    '''
 def setXadesSignaturePolicyImplied():
-'''public void setXadesSignaturePolicyImplied(final boolean xadesSignaturePolicyImplied)
-'''
-pass
+    '''    public void setXadesSignaturePolicyImplied(final boolean xadesSignaturePolicyImplied)
+    '''
 def isXadesIssuerNameNoReverseOrder():
-'''public boolean isXadesIssuerNameNoReverseOrder()
-'''
-pass
+    '''    public boolean isXadesIssuerNameNoReverseOrder()
+    '''
 def setXadesIssuerNameNoReverseOrder():
-'''public void setXadesIssuerNameNoReverseOrder(final boolean xadesIssuerNameNoReverseOrder)
-'''
-pass
+    '''    public void setXadesIssuerNameNoReverseOrder(final boolean xadesIssuerNameNoReverseOrder)
+    '''
 def getSignatureMarshalListener():
-'''public EventListener getSignatureMarshalListener()
-'''
-pass
+    '''    public EventListener getSignatureMarshalListener()
+    '''
 def setSignatureMarshalListener():
-'''public void setSignatureMarshalListener(final EventListener signatureMarshalListener)
-'''
-pass
+    '''    public void setSignatureMarshalListener(final EventListener signatureMarshalListener)
+    '''
 def getNamespacePrefixes():
-'''public Map<String, String> getNamespacePrefixes()
-'''
-pass
+    '''    public Map<String, String> getNamespacePrefixes()
+    '''
 def setNamespacePrefixes():
-'''public void setNamespacePrefixes(final Map<String, String> namespacePrefixes)
-'''
-pass
+    '''    public void setNamespacePrefixes(final Map<String, String> namespacePrefixes)
+    '''
 def getHashMagic():
-'''public byte[] getHashMagic()
-'''
-pass
+    '''    public byte[] getHashMagic()
+    '''
 def getSignatureMethodUri():
-'''public String getSignatureMethodUri()
-'''
-pass
+    '''    public String getSignatureMethodUri()
+    '''
 def getDigestMethodUri():
-'''public String getDigestMethodUri()
-public static String getDigestMethodUri(final HashAlgorithm digestAlgo)
-'''
-pass
+    '''    public String getDigestMethodUri()
+    public static String getDigestMethodUri(final HashAlgorithm digestAlgo)
+    '''
 def setSignatureFactory():
-'''public void setSignatureFactory(final XMLSignatureFactory signatureFactory)
-'''
-pass
+    '''    public void setSignatureFactory(final XMLSignatureFactory signatureFactory)
+    '''
 def getSignatureFactory():
-'''public XMLSignatureFactory getSignatureFactory()
-'''
-pass
+    '''    public XMLSignatureFactory getSignatureFactory()
+    '''
 def setKeyInfoFactory():
-'''public void setKeyInfoFactory(final KeyInfoFactory keyInfoFactory)
-'''
-pass
+    '''    public void setKeyInfoFactory(final KeyInfoFactory keyInfoFactory)
+    '''
 def getKeyInfoFactory():
-'''public KeyInfoFactory getKeyInfoFactory()
-'''
-pass
+    '''    public KeyInfoFactory getKeyInfoFactory()
+    '''
 def getProvider():
-'''public Provider getProvider()
-'''
-pass
+    '''    public Provider getProvider()
+    '''
 def getXadesCanonicalizationMethod():
-'''public String getXadesCanonicalizationMethod()
-'''
-pass
+    '''    public String getXadesCanonicalizationMethod()
+    '''
 def setXadesCanonicalizationMethod():
-'''public void setXadesCanonicalizationMethod(final String xadesCanonicalizationMethod)
-'''
-pass
+    '''    public void setXadesCanonicalizationMethod(final String xadesCanonicalizationMethod)
+    '''

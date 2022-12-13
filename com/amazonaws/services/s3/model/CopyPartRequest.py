@@ -1,192 +1,144 @@
 def CopyPartRequest():
-'''public CopyPartRequest()
-'''
-pass
+    '''    public CopyPartRequest()
+    '''
 def getUploadId():
-'''public String getUploadId()
-'''
-pass
+    '''    public String getUploadId()
+    '''
 def setUploadId():
-'''public void setUploadId(final String uploadId)
-'''
-pass
+    '''    public void setUploadId(final String uploadId)
+    '''
 def withUploadId():
-'''public CopyPartRequest withUploadId(final String uploadId)
-'''
-pass
+    '''    public CopyPartRequest withUploadId(final String uploadId)
+    '''
 def getPartNumber():
-'''public int getPartNumber()
-'''
-pass
+    '''    public int getPartNumber()
+    '''
 def setPartNumber():
-'''public void setPartNumber(final int partNumber)
-'''
-pass
+    '''    public void setPartNumber(final int partNumber)
+    '''
 def withPartNumber():
-'''public CopyPartRequest withPartNumber(final int partNumber)
-'''
-pass
+    '''    public CopyPartRequest withPartNumber(final int partNumber)
+    '''
 def getSourceBucketName():
-'''public String getSourceBucketName()
-'''
-pass
+    '''    public String getSourceBucketName()
+    '''
 def setSourceBucketName():
-'''public void setSourceBucketName(final String sourceBucketName)
-'''
-pass
+    '''    public void setSourceBucketName(final String sourceBucketName)
+    '''
 def withSourceBucketName():
-'''public CopyPartRequest withSourceBucketName(final String sourceBucketName)
-'''
-pass
+    '''    public CopyPartRequest withSourceBucketName(final String sourceBucketName)
+    '''
 def getSourceKey():
-'''public String getSourceKey()
-'''
-pass
+    '''    public String getSourceKey()
+    '''
 def setSourceKey():
-'''public void setSourceKey(final String sourceKey)
-'''
-pass
+    '''    public void setSourceKey(final String sourceKey)
+    '''
 def withSourceKey():
-'''public CopyPartRequest withSourceKey(final String sourceKey)
-'''
-pass
+    '''    public CopyPartRequest withSourceKey(final String sourceKey)
+    '''
 def getSourceVersionId():
-'''public String getSourceVersionId()
-'''
-pass
+    '''    public String getSourceVersionId()
+    '''
 def setSourceVersionId():
-'''public void setSourceVersionId(final String sourceVersionId)
-'''
-pass
+    '''    public void setSourceVersionId(final String sourceVersionId)
+    '''
 def withSourceVersionId():
-'''public CopyPartRequest withSourceVersionId(final String sourceVersionId)
-'''
-pass
+    '''    public CopyPartRequest withSourceVersionId(final String sourceVersionId)
+    '''
 def getDestinationBucketName():
-'''public String getDestinationBucketName()
-'''
-pass
+    '''    public String getDestinationBucketName()
+    '''
 def setDestinationBucketName():
-'''public void setDestinationBucketName(final String destinationBucketName)
-'''
-pass
+    '''    public void setDestinationBucketName(final String destinationBucketName)
+    '''
 def withDestinationBucketName():
-'''public CopyPartRequest withDestinationBucketName(final String destinationBucketName)
-'''
-pass
+    '''    public CopyPartRequest withDestinationBucketName(final String destinationBucketName)
+    '''
 def getDestinationKey():
-'''public String getDestinationKey()
-'''
-pass
+    '''    public String getDestinationKey()
+    '''
 def setDestinationKey():
-'''public void setDestinationKey(final String destinationKey)
-'''
-pass
+    '''    public void setDestinationKey(final String destinationKey)
+    '''
 def withDestinationKey():
-'''public CopyPartRequest withDestinationKey(final String destinationKey)
-'''
-pass
+    '''    public CopyPartRequest withDestinationKey(final String destinationKey)
+    '''
 def getFirstByte():
-'''public Long getFirstByte()
-'''
-pass
+    '''    public Long getFirstByte()
+    '''
 def setFirstByte():
-'''public void setFirstByte(final Long firstByte)
-'''
-pass
+    '''    public void setFirstByte(final Long firstByte)
+    '''
 def withFirstByte():
-'''public CopyPartRequest withFirstByte(final Long firstByte)
-'''
-pass
+    '''    public CopyPartRequest withFirstByte(final Long firstByte)
+    '''
 def getLastByte():
-'''public Long getLastByte()
-'''
-pass
+    '''    public Long getLastByte()
+    '''
 def setLastByte():
-'''public void setLastByte(final Long lastByte)
-'''
-pass
+    '''    public void setLastByte(final Long lastByte)
+    '''
 def withLastByte():
-'''public CopyPartRequest withLastByte(final Long lastByte)
-'''
-pass
+    '''    public CopyPartRequest withLastByte(final Long lastByte)
+    '''
 def getMatchingETagConstraints():
-'''public List<String> getMatchingETagConstraints()
-'''
-pass
+    '''    public List<String> getMatchingETagConstraints()
+    '''
 def setMatchingETagConstraints():
-'''public void setMatchingETagConstraints(final List<String> eTagList)
-'''
-pass
+    '''    public void setMatchingETagConstraints(final List<String> eTagList)
+    '''
 def withMatchingETagConstraints():
-'''public CopyPartRequest withMatchingETagConstraints(final List<String> eTagList)
-'''
-pass
+    '''    public CopyPartRequest withMatchingETagConstraints(final List<String> eTagList)
+    '''
 def withMatchingETagConstraint():
-'''public CopyPartRequest withMatchingETagConstraint(final String eTag)
-'''
-pass
+    '''    public CopyPartRequest withMatchingETagConstraint(final String eTag)
+    '''
 def getNonmatchingETagConstraints():
-'''public List<String> getNonmatchingETagConstraints()
-'''
-pass
+    '''    public List<String> getNonmatchingETagConstraints()
+    '''
 def setNonmatchingETagConstraints():
-'''public void setNonmatchingETagConstraints(final List<String> eTagList)
-'''
-pass
+    '''    public void setNonmatchingETagConstraints(final List<String> eTagList)
+    '''
 def withNonmatchingETagConstraints():
-'''public CopyPartRequest withNonmatchingETagConstraints(final List<String> eTagList)
-'''
-pass
+    '''    public CopyPartRequest withNonmatchingETagConstraints(final List<String> eTagList)
+    '''
 def withNonmatchingETagConstraint():
-'''public CopyPartRequest withNonmatchingETagConstraint(final String eTag)
-'''
-pass
+    '''    public CopyPartRequest withNonmatchingETagConstraint(final String eTag)
+    '''
 def getUnmodifiedSinceConstraint():
-'''public Date getUnmodifiedSinceConstraint()
-'''
-pass
+    '''    public Date getUnmodifiedSinceConstraint()
+    '''
 def setUnmodifiedSinceConstraint():
-'''public void setUnmodifiedSinceConstraint(final Date date)
-'''
-pass
+    '''    public void setUnmodifiedSinceConstraint(final Date date)
+    '''
 def withUnmodifiedSinceConstraint():
-'''public CopyPartRequest withUnmodifiedSinceConstraint(final Date date)
-'''
-pass
+    '''    public CopyPartRequest withUnmodifiedSinceConstraint(final Date date)
+    '''
 def getModifiedSinceConstraint():
-'''public Date getModifiedSinceConstraint()
-'''
-pass
+    '''    public Date getModifiedSinceConstraint()
+    '''
 def setModifiedSinceConstraint():
-'''public void setModifiedSinceConstraint(final Date date)
-'''
-pass
+    '''    public void setModifiedSinceConstraint(final Date date)
+    '''
 def withModifiedSinceConstraint():
-'''public CopyPartRequest withModifiedSinceConstraint(final Date date)
-'''
-pass
+    '''    public CopyPartRequest withModifiedSinceConstraint(final Date date)
+    '''
 def getSourceSSECustomerKey():
-'''public SSECustomerKey getSourceSSECustomerKey()
-'''
-pass
+    '''    public SSECustomerKey getSourceSSECustomerKey()
+    '''
 def setSourceSSECustomerKey():
-'''public void setSourceSSECustomerKey(final SSECustomerKey sseKey)
-'''
-pass
+    '''    public void setSourceSSECustomerKey(final SSECustomerKey sseKey)
+    '''
 def withSourceSSECustomerKey():
-'''public CopyPartRequest withSourceSSECustomerKey(final SSECustomerKey sseKey)
-'''
-pass
+    '''    public CopyPartRequest withSourceSSECustomerKey(final SSECustomerKey sseKey)
+    '''
 def getDestinationSSECustomerKey():
-'''public SSECustomerKey getDestinationSSECustomerKey()
-'''
-pass
+    '''    public SSECustomerKey getDestinationSSECustomerKey()
+    '''
 def setDestinationSSECustomerKey():
-'''public void setDestinationSSECustomerKey(final SSECustomerKey sseKey)
-'''
-pass
+    '''    public void setDestinationSSECustomerKey(final SSECustomerKey sseKey)
+    '''
 def withDestinationSSECustomerKey():
-'''public CopyPartRequest withDestinationSSECustomerKey(final SSECustomerKey sseKey)
-'''
-pass
+    '''    public CopyPartRequest withDestinationSSECustomerKey(final SSECustomerKey sseKey)
+    '''

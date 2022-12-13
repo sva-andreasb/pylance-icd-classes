@@ -1,28 +1,21 @@
 def getLastDate():
-'''public String getLastDate()
-'''
-pass
+    '''    public String getLastDate()
+    '''
 def getKPIs():
-'''public Vector getKPIs()
-'''
-pass
+    '''    public Vector getKPIs()
+    '''
 def displayList():
-'''public boolean displayList()
-'''
-pass
+    '''    public boolean displayList()
+    '''
 def updatekpis():
-'''public void updatekpis()
-'''
-pass
+    '''    public void updatekpis()
+    '''
 def getLabels():
-'''public String[] getLabels()
-'''
-pass
+    '''    public String[] getLabels()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getDialChartValues():
-'''public String[] getDialChartValues()
-'''
-pass
+    '''    public String[] getDialChartValues()
+    '''

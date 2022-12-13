@@ -1,8 +1,6 @@
 def getLeft():
-'''public SqlNode getLeft()
-'''
-pass
+    '''    public SqlNode getLeft()
+    '''
 def getRight():
-'''public SqlNode getRight()
-'''
-pass
+    '''    public SqlNode getRight()
+    '''

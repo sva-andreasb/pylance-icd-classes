@@ -1,12 +1,9 @@
 def SRMSSMyNewsDetails():
-'''public SRMSSMyNewsDetails()
-'''
-pass
+    '''    public SRMSSMyNewsDetails()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

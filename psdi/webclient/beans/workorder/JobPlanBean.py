@@ -1,8 +1,6 @@
 def REFRESHLIST():
-'''public int REFRESHLIST()
-'''
-pass
+    '''    public int REFRESHLIST()
+    '''
 def REVISE():
-'''public int REVISE()
-'''
-pass
+    '''    public int REVISE()
+    '''

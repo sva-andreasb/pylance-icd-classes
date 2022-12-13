@@ -1,12 +1,9 @@
 def RSConfigLookupBean():
-'''public RSConfigLookupBean()
-'''
-pass
+    '''    public RSConfigLookupBean()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''

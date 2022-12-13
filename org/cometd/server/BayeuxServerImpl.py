@@ -1,169 +1,130 @@
-LOG_LEVEL = "String  logLevel""
+LOG_LEVEL = "String  \"logLevel\""
 OFF_LOG_LEVEL = "int  0"
 CONFIG_LOG_LEVEL = "int  1"
 INFO_LOG_LEVEL = "int  2"
 DEBUG_LOG_LEVEL = "int  3"
-JSON_CONTEXT = "String  jsonContext""
+JSON_CONTEXT = "String  \"jsonContext\""
 def BayeuxServerImpl():
-'''public BayeuxServerImpl()
-'''
-pass
+    '''    public BayeuxServerImpl()
+    '''
 def getLogger():
-'''public Logger getLogger()
-'''
-pass
+    '''    public Logger getLogger()
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def startTimeout():
-'''public void startTimeout(final Timeout.Task task, final long interval)
-'''
-pass
+    '''    public void startTimeout(final Timeout.Task task, final long interval)
+    '''
 def cancelTimeout():
-'''public void cancelTimeout(final Timeout.Task task)
-'''
-pass
+    '''    public void cancelTimeout(final Timeout.Task task)
+    '''
 def newChannelId():
-'''public ChannelId newChannelId(final String id)
-'''
-pass
+    '''    public ChannelId newChannelId(final String id)
+    '''
 def getOptions():
-'''public Map<String, Object> getOptions()
-'''
-pass
+    '''    public Map<String, Object> getOptions()
+    '''
 def getOption():
-'''public Object getOption(final String qualifiedName)
-'''
-pass
+    '''    public Object getOption(final String qualifiedName)
+    '''
 def getOptionNames():
-'''public Set<String> getOptionNames()
-'''
-pass
+    '''    public Set<String> getOptionNames()
+    '''
 def setOption():
-'''public void setOption(final String qualifiedName, final Object value)
-'''
-pass
+    '''    public void setOption(final String qualifiedName, final Object value)
+    '''
 def setOptions():
-'''public void setOptions(final Map<String, Object> options)
-'''
-pass
+    '''    public void setOptions(final Map<String, Object> options)
+    '''
 def randomLong():
-'''public long randomLong()
-'''
-pass
+    '''    public long randomLong()
+    '''
 def setCurrentTransport():
-'''public void setCurrentTransport(final AbstractServerTransport transport)
-'''
-pass
+    '''    public void setCurrentTransport(final AbstractServerTransport transport)
+    '''
 def getCurrentTransport():
-'''public ServerTransport getCurrentTransport()
-'''
-pass
+    '''    public ServerTransport getCurrentTransport()
+    '''
 def getContext():
-'''public BayeuxContext getContext()
-'''
-pass
+    '''    public BayeuxContext getContext()
+    '''
 def getSecurityPolicy():
-'''public SecurityPolicy getSecurityPolicy()
-'''
-pass
+    '''    public SecurityPolicy getSecurityPolicy()
+    '''
 def createIfAbsent():
-'''public boolean createIfAbsent(final String channelName, final ConfigurableServerChannel.Initializer... initializers)
-'''
-pass
+    '''    public boolean createIfAbsent(final String channelName, final ConfigurableServerChannel.Initializer... initializers)
+    '''
 def getSessions():
-'''public List<ServerSession> getSessions()
-'''
-pass
+    '''    public List<ServerSession> getSessions()
+    '''
 def getSession():
-'''public ServerSession getSession(final String clientId)
-'''
-pass
+    '''    public ServerSession getSession(final String clientId)
+    '''
 def removeServerSession():
-'''public boolean removeServerSession(final ServerSession session, final boolean timedout)
-'''
-pass
+    '''    public boolean removeServerSession(final ServerSession session, final boolean timedout)
+    '''
 def newLocalSession():
-'''public LocalSession newLocalSession(final String idHint)
-'''
-pass
+    '''    public LocalSession newLocalSession(final String idHint)
+    '''
 def setSecurityPolicy():
-'''public void setSecurityPolicy(final SecurityPolicy securityPolicy)
-'''
-pass
+    '''    public void setSecurityPolicy(final SecurityPolicy securityPolicy)
+    '''
 def addExtension():
-'''public void addExtension(final BayeuxServer.Extension extension)
-'''
-pass
+    '''    public void addExtension(final BayeuxServer.Extension extension)
+    '''
 def removeExtension():
-'''public void removeExtension(final BayeuxServer.Extension extension)
-'''
-pass
+    '''    public void removeExtension(final BayeuxServer.Extension extension)
+    '''
 def addListener():
-'''public void addListener(final BayeuxServer.BayeuxServerListener listener)
-'''
-pass
+    '''    public void addListener(final BayeuxServer.BayeuxServerListener listener)
+    '''
 def getChannel():
-'''public ServerChannel getChannel(final String channelId)
-'''
-pass
+    '''    public ServerChannel getChannel(final String channelId)
+    '''
 def getChannels():
-'''public List<ServerChannel> getChannels()
-'''
-pass
+    '''    public List<ServerChannel> getChannels()
+    '''
 def getChannelChildren():
-'''public List<ServerChannelImpl> getChannelChildren(final ChannelId channelId)
-'''
-pass
+    '''    public List<ServerChannelImpl> getChannelChildren(final ChannelId channelId)
+    '''
 def removeListener():
-'''public void removeListener(final BayeuxServer.BayeuxServerListener listener)
-'''
-pass
+    '''    public void removeListener(final BayeuxServer.BayeuxServerListener listener)
+    '''
 def freeze():
-'''public void freeze(final ServerMessage.Mutable mutable)
-'''
-pass
+    '''    public void freeze(final ServerMessage.Mutable mutable)
+    '''
 def getKnownTransportNames():
-'''public Set<String> getKnownTransportNames()
-'''
-pass
+    '''    public Set<String> getKnownTransportNames()
+    '''
 def getTransport():
-'''public ServerTransport getTransport(final String transport)
-'''
-pass
+    '''    public ServerTransport getTransport(final String transport)
+    '''
 def addTransport():
-'''public void addTransport(final ServerTransport transport)
-'''
-pass
+    '''    public void addTransport(final ServerTransport transport)
+    '''
 def setTransports():
-'''public void setTransports(final ServerTransport... transports)
-public void setTransports(final List<ServerTransport> transports)
-'''
-pass
+    '''    public void setTransports(final ServerTransport... transports)
+    public void setTransports(final List<ServerTransport> transports)
+    '''
 def getAllowedTransports():
-'''public List<String> getAllowedTransports()
-'''
-pass
+    '''    public List<String> getAllowedTransports()
+    '''
 def setAllowedTransports():
-'''public void setAllowedTransports(final String... allowed)
-public void setAllowedTransports(final List<String> allowed)
-'''
-pass
+    '''    public void setAllowedTransports(final String... allowed)
+    public void setAllowedTransports(final List<String> allowed)
+    '''
 def sweep():
-'''public void sweep()
-'''
-pass
+    '''    public void sweep()
+    '''
 def dump():
-'''public String dump()
-'''
-pass
+    '''    public String dump()
+    '''
 def onMessage():
-'''public void onMessage(ServerSessionImpl session, final ServerMessage.Mutable message)
-public void onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)
-public void onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)
-public void onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)
-public void onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)
-'''
-pass
+    '''    public void onMessage(ServerSessionImpl session, final ServerMessage.Mutable message)
+    public void onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)
+    public void onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)
+    public void onMessage(final ServerSessionImpl from, final ServerMessage.Mutable message)
+    public void onMessage(final ServerSessionImpl session, final ServerMessage.Mutable message)
+    '''

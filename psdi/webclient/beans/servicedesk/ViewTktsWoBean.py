@@ -1,4 +1,3 @@
 def commonField():
-'''public String commonField()
-'''
-pass
+    '''    public String commonField()
+    '''

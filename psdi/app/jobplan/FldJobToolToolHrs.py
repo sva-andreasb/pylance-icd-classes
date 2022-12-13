@@ -1,8 +1,6 @@
 def FldJobToolToolHrs():
-'''public FldJobToolToolHrs(final MboValue mbv)
-'''
-pass
+    '''    public FldJobToolToolHrs(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,4 +1,3 @@
 def getSubscriptions():
-'''public List<String> getSubscriptions()
-'''
-pass
+    '''    public List<String> getSubscriptions()
+    '''

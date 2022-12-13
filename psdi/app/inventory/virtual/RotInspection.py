@@ -1,12 +1,9 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def RotInspection():
-'''public RotInspection(final MboSet ms)
-'''
-pass
+    '''    public RotInspection(final MboSet ms)
+    '''
 def shipRecChangeStatus():
-'''public void shipRecChangeStatus(final MboSetRemote rotInspectionLineSet)
-'''
-pass
+    '''    public void shipRecChangeStatus(final MboSetRemote rotInspectionLineSet)
+    '''

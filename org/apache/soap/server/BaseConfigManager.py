@@ -1,28 +1,21 @@
 def BaseConfigManager():
-'''public BaseConfigManager()
-'''
-pass
+    '''    public BaseConfigManager()
+    '''
 def deploy():
-'''public void deploy(final DeploymentDescriptor value)
-'''
-pass
+    '''    public void deploy(final DeploymentDescriptor value)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def list():
-'''public String[] list()
-'''
-pass
+    '''    public String[] list()
+    '''
 def query():
-'''public DeploymentDescriptor query(final String key)
-'''
-pass
+    '''    public DeploymentDescriptor query(final String key)
+    '''
 def setContext():
-'''public void setContext(final ServletContext context)
-'''
-pass
+    '''    public void setContext(final ServletContext context)
+    '''
 def undeploy():
-'''public DeploymentDescriptor undeploy(final String s)
-'''
-pass
+    '''    public DeploymentDescriptor undeploy(final String s)
+    '''

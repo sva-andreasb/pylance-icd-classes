@@ -1,52 +1,39 @@
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getCh():
-'''public String getCh()
-'''
-pass
+    '''    public String getCh()
+    '''
 def setCh():
-'''public void setCh(String substring)
-'''
-pass
+    '''    public void setCh(String substring)
+    '''
 def getChOff():
-'''public String getChOff()
-'''
-pass
+    '''    public String getChOff()
+    '''
 def setChOff():
-'''public void setChOff(final String s)
-'''
-pass
+    '''    public void setChOff(final String s)
+    '''
 def getVAlign():
-'''public String getVAlign()
-'''
-pass
+    '''    public String getVAlign()
+    '''
 def setVAlign():
-'''public void setVAlign(final String s)
-'''
-pass
+    '''    public void setVAlign(final String s)
+    '''
 def getRows():
-'''public HTMLCollection getRows()
-'''
-pass
+    '''    public HTMLCollection getRows()
+    '''
 def insertRow():
-'''public HTMLElement insertRow(final int n)
-'''
-pass
+    '''    public HTMLElement insertRow(final int n)
+    '''
 def deleteRow():
-'''public void deleteRow(final int n)
-'''
-pass
+    '''    public void deleteRow(final int n)
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def HTMLTableSectionElementImpl():
-'''public HTMLTableSectionElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLTableSectionElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

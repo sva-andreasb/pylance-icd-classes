@@ -1,41 +1,31 @@
-__OBFUSCATE = "String  OBF:""
+__OBFUSCATE = "String  \"OBF:\""
 def Password():
-'''public Password(final String password)
-'''
-pass
+    '''    public Password(final String password)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toStarString():
-'''public String toStarString()
-'''
-pass
+    '''    public String toStarString()
+    '''
 def check():
-'''public boolean check(final Object credentials)
-'''
-pass
+    '''    public boolean check(final Object credentials)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def obfuscate():
-'''public static String obfuscate(final String s)
-'''
-pass
+    '''    public static String obfuscate(final String s)
+    '''
 def deobfuscate():
-'''public static String deobfuscate(String s)
-'''
-pass
+    '''    public static String deobfuscate(String s)
+    '''
 def getPassword():
-'''public static Password getPassword(final String realm, final String dft, final String promptDft)
-'''
-pass
+    '''    public static Password getPassword(final String realm, final String dft, final String promptDft)
+    '''
 def main():
-'''public static void main(final String[] arg)
-'''
-pass
+    '''    public static void main(final String[] arg)
+    '''

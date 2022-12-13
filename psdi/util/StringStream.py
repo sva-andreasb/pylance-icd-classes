@@ -1,16 +1,12 @@
 def StringStream():
-'''public StringStream(final String text)
-'''
-pass
+    '''    public StringStream(final String text)
+    '''
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''

@@ -1,8 +1,6 @@
 def releaseBuffered():
-'''public int releaseBuffered(final Writer w)
-'''
-pass
+    '''    public int releaseBuffered(final Writer w)
+    '''
 def getInputSource():
-'''public Object getInputSource()
-'''
-pass
+    '''    public Object getInputSource()
+    '''

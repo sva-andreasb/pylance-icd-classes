@@ -1,4 +1,3 @@
 def FldMeterDomainId():
-'''public FldMeterDomainId(final MboValue mbv)
-'''
-pass
+    '''    public FldMeterDomainId(final MboValue mbv)
+    '''

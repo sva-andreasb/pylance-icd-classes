@@ -1,20 +1,15 @@
 def JMSListenerBean():
-'''public JMSListenerBean()
-'''
-pass
+    '''    public JMSListenerBean()
+    '''
 def setMessageDrivenContext():
-'''public void setMessageDrivenContext(final MessageDrivenContext ctx)
-'''
-pass
+    '''    public void setMessageDrivenContext(final MessageDrivenContext ctx)
+    '''
 def ejbCreate():
-'''public void ejbCreate()
-'''
-pass
+    '''    public void ejbCreate()
+    '''
 def ejbRemove():
-'''public void ejbRemove()
-'''
-pass
+    '''    public void ejbRemove()
+    '''
 def onMessage():
-'''public void onMessage(final Message msg)
-'''
-pass
+    '''    public void onMessage(final Message msg)
+    '''

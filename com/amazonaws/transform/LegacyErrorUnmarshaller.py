@@ -1,17 +1,13 @@
 def LegacyErrorUnmarshaller():
-'''public LegacyErrorUnmarshaller()
-'''
-pass
+    '''    public LegacyErrorUnmarshaller()
+    '''
 def unmarshall():
-'''public AmazonServiceException unmarshall(final Node in)
-'''
-pass
+    '''    public AmazonServiceException unmarshall(final Node in)
+    '''
 def parseErrorCode():
-'''public String parseErrorCode(final Node in)
-public String parseErrorCode(final Node in, final XPath xpath)
-'''
-pass
+    '''    public String parseErrorCode(final Node in)
+    public String parseErrorCode(final Node in, final XPath xpath)
+    '''
 def getErrorPropertyPath():
-'''public String getErrorPropertyPath(final String property)
-'''
-pass
+    '''    public String getErrorPropertyPath(final String property)
+    '''

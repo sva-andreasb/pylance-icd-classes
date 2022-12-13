@@ -1,4 +1,3 @@
 def newInstance():
-'''public static EqualsReplacementConverter newInstance(final Configuration config, final String[] options)
-'''
-pass
+    '''    public static EqualsReplacementConverter newInstance(final Configuration config, final String[] options)
+    '''

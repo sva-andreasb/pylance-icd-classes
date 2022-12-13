@@ -1,8 +1,6 @@
 def OOXMLPrettyPrint():
-'''public OOXMLPrettyPrint()
-'''
-pass
+    '''    public OOXMLPrettyPrint()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

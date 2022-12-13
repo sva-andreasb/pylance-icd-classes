@@ -1,64 +1,49 @@
 def Pr():
-'''public Pr(final File file)
-public Pr(final Pr b, final File d)
-'''
-pass
+    '''    public Pr(final File file)
+    public Pr(final Pr b, final File d)
+    '''
 def refresh():
-'''public boolean refresh(final File file)
-'''
-pass
+    '''    public boolean refresh(final File file)
+    '''
 def a():
-'''public Pr a(final File file)
-public Pr a()
-public Pr[] a()
-public void a(final Pr[] b)
-'''
-pass
+    '''    public Pr a(final File file)
+    public Pr a()
+    public Pr[] a()
+    public void a(final Pr[] b)
+    '''
 def getLevel():
-'''public int getLevel()
-'''
-pass
+    '''    public int getLevel()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getLastModified():
-'''public long getLastModified()
-'''
-pass
+    '''    public long getLastModified()
+    '''
 def setLastModified():
-'''public void setLastModified(final long lastModified)
-'''
-pass
+    '''    public void setLastModified(final long lastModified)
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def setLength():
-'''public void setLength(final long length)
-'''
-pass
+    '''    public void setLength(final long length)
+    '''
 def isExists():
-'''public boolean isExists()
-'''
-pass
+    '''    public boolean isExists()
+    '''
 def setExists():
-'''public void setExists(final boolean exists)
-'''
-pass
+    '''    public void setExists(final boolean exists)
+    '''
 def isDirectory():
-'''public boolean isDirectory()
-'''
-pass
+    '''    public boolean isDirectory()
+    '''
 def setDirectory():
-'''public void setDirectory(final boolean directory)
-'''
-pass
+    '''    public void setDirectory(final boolean directory)
+    '''

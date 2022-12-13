@@ -5,83 +5,63 @@ INSIDE_TRAILING = "int  111"
 ABOVE = "int  101"
 BELOW = "int  103"
 def IlvBasicActivityLabel():
-'''public IlvBasicActivityLabel()
-public IlvBasicActivityLabel(final IlvActivityRenderer mainRenderer)
-'''
-pass
+    '''    public IlvBasicActivityLabel()
+    public IlvBasicActivityLabel(final IlvActivityRenderer mainRenderer)
+    '''
 def getMainRenderer():
-'''public IlvActivityRenderer getMainRenderer()
-'''
-pass
+    '''    public IlvActivityRenderer getMainRenderer()
+    '''
 def setMainRenderer():
-'''public void setMainRenderer(final IlvActivityRenderer a)
-'''
-pass
+    '''    public void setMainRenderer(final IlvActivityRenderer a)
+    '''
 def getForeground():
-'''public Color getForeground()
-'''
-pass
+    '''    public Color getForeground()
+    '''
 def getFont():
-'''public Font getFont()
-'''
-pass
+    '''    public Font getFont()
+    '''
 def setFont():
-'''public void setFont(final Font font)
-'''
-pass
+    '''    public void setFont(final Font font)
+    '''
 def isAntialiasing():
-'''public final boolean isAntialiasing()
-'''
-pass
+    '''    public final boolean isAntialiasing()
+    '''
 def setAntialiasing():
-'''public void setAntialiasing(final boolean b)
-'''
-pass
+    '''    public void setAntialiasing(final boolean b)
+    '''
 def getHorizontalAlignment():
-'''public int getHorizontalAlignment()
-'''
-pass
+    '''    public int getHorizontalAlignment()
+    '''
 def setHorizontalAlignment():
-'''public void setHorizontalAlignment(final int b)
-'''
-pass
+    '''    public void setHorizontalAlignment(final int b)
+    '''
 def getVerticalAlignment():
-'''public int getVerticalAlignment()
-'''
-pass
+    '''    public int getVerticalAlignment()
+    '''
 def setVerticalAlignment():
-'''public void setVerticalAlignment(final int c)
-'''
-pass
+    '''    public void setVerticalAlignment(final int c)
+    '''
 def getOffset():
-'''public float getOffset()
-'''
-pass
+    '''    public float getOffset()
+    '''
 def setOffset():
-'''public void setOffset(final float d)
-'''
-pass
+    '''    public void setOffset(final float d)
+    '''
 def getYOffset():
-'''public float getYOffset()
-'''
-pass
+    '''    public float getYOffset()
+    '''
 def setYOffset():
-'''public void setYOffset(final float e)
-'''
-pass
+    '''    public void setYOffset(final float e)
+    '''
 def getLabel():
-'''public String getLabel()
-'''
-pass
+    '''    public String getLabel()
+    '''
 def setLabel():
-'''public void setLabel(final String label)
-'''
-pass
+    '''    public void setLabel(final String label)
+    '''
 def setGraphic():
-'''public void setGraphic(final IlvGraphic graphic)
-'''
-pass
+    '''    public void setGraphic(final IlvGraphic graphic)
+    '''
 def getBounds():
-'''public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvRect getBounds(final IlvActivityGraphic ilvActivityGraphic, final IlvTransformer ilvTransformer)
+    '''

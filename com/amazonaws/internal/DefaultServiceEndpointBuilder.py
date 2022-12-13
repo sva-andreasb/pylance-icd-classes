@@ -1,16 +1,12 @@
 def DefaultServiceEndpointBuilder():
-'''public DefaultServiceEndpointBuilder(final String serviceName, final String protocol)
-'''
-pass
+    '''    public DefaultServiceEndpointBuilder(final String serviceName, final String protocol)
+    '''
 def withRegion():
-'''public DefaultServiceEndpointBuilder withRegion(final Region region)
-'''
-pass
+    '''    public DefaultServiceEndpointBuilder withRegion(final Region region)
+    '''
 def getServiceEndpoint():
-'''public URI getServiceEndpoint()
-'''
-pass
+    '''    public URI getServiceEndpoint()
+    '''
 def getRegion():
-'''public Region getRegion()
-'''
-pass
+    '''    public Region getRegion()
+    '''

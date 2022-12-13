@@ -1,12 +1,9 @@
 def flush():
-'''public synchronized void flush()
-'''
-pass
+    '''    public synchronized void flush()
+    '''
 def SoftRefKey():
-'''public SoftRefKey(final Object o, final Object key)
-'''
-pass
+    '''    public SoftRefKey(final Object o, final Object key)
+    '''
 def cleared():
-'''public void cleared()
-'''
-pass
+    '''    public void cleared()
+    '''

@@ -1,109 +1,82 @@
 def AttachmentPart():
-'''public AttachmentPart()
-public AttachmentPart(final DataHandler dh)
-'''
-pass
+    '''    public AttachmentPart()
+    public AttachmentPart(final DataHandler dh)
+    '''
 def getActivationDataHandler():
-'''public DataHandler getActivationDataHandler()
-'''
-pass
+    '''    public DataHandler getActivationDataHandler()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def addMimeHeader():
-'''public void addMimeHeader(final String header, final String value)
-'''
-pass
+    '''    public void addMimeHeader(final String header, final String value)
+    '''
 def getFirstMimeHeader():
-'''public String getFirstMimeHeader(final String header)
-'''
-pass
+    '''    public String getFirstMimeHeader(final String header)
+    '''
 def matches():
-'''public boolean matches(final MimeHeaders headers)
-'''
-pass
+    '''    public boolean matches(final MimeHeaders headers)
+    '''
 def getContentLocation():
-'''public String getContentLocation()
-'''
-pass
+    '''    public String getContentLocation()
+    '''
 def setContentLocation():
-'''public void setContentLocation(final String loc)
-'''
-pass
+    '''    public void setContentLocation(final String loc)
+    '''
 def setContentId():
-'''public void setContentId(final String newCid)
-'''
-pass
+    '''    public void setContentId(final String newCid)
+    '''
 def getContentId():
-'''public String getContentId()
-'''
-pass
+    '''    public String getContentId()
+    '''
 def getMatchingMimeHeaders():
-'''public Iterator getMatchingMimeHeaders(final String[] match)
-'''
-pass
+    '''    public Iterator getMatchingMimeHeaders(final String[] match)
+    '''
 def getNonMatchingMimeHeaders():
-'''public Iterator getNonMatchingMimeHeaders(final String[] match)
-'''
-pass
+    '''    public Iterator getNonMatchingMimeHeaders(final String[] match)
+    '''
 def getAllMimeHeaders():
-'''public Iterator getAllMimeHeaders()
-'''
-pass
+    '''    public Iterator getAllMimeHeaders()
+    '''
 def setMimeHeader():
-'''public void setMimeHeader(final String name, final String value)
-'''
-pass
+    '''    public void setMimeHeader(final String name, final String value)
+    '''
 def removeAllMimeHeaders():
-'''public void removeAllMimeHeaders()
-'''
-pass
+    '''    public void removeAllMimeHeaders()
+    '''
 def removeMimeHeader():
-'''public void removeMimeHeader(final String header)
-'''
-pass
+    '''    public void removeMimeHeader(final String header)
+    '''
 def getDataHandler():
-'''public DataHandler getDataHandler()
-'''
-pass
+    '''    public DataHandler getDataHandler()
+    '''
 def setDataHandler():
-'''public void setDataHandler(final DataHandler datahandler)
-'''
-pass
+    '''    public void setDataHandler(final DataHandler datahandler)
+    '''
 def getContent():
-'''public Object getContent()
-'''
-pass
+    '''    public Object getContent()
+    '''
 def setContent():
-'''public void setContent(final Object object, final String contentType)
-'''
-pass
+    '''    public void setContent(final Object object, final String contentType)
+    '''
 def clearContent():
-'''public void clearContent()
-'''
-pass
+    '''    public void clearContent()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getMimeHeader():
-'''public String[] getMimeHeader(final String name)
-'''
-pass
+    '''    public String[] getMimeHeader(final String name)
+    '''
 def getContentIdRef():
-'''public String getContentIdRef()
-'''
-pass
+    '''    public String getContentIdRef()
+    '''
 def detachAttachmentFile():
-'''public void detachAttachmentFile()
-'''
-pass
+    '''    public void detachAttachmentFile()
+    '''
 def getAttachmentFile():
-'''public String getAttachmentFile()
-'''
-pass
+    '''    public String getAttachmentFile()
+    '''
 def dispose():
-'''public synchronized void dispose()
-'''
-pass
+    '''    public synchronized void dispose()
+    '''

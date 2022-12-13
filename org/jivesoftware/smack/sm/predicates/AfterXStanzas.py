@@ -1,12 +1,9 @@
 def AfterXStanzas():
-'''public AfterXStanzas(final int count)
-'''
-pass
+    '''    public AfterXStanzas(final int count)
+    '''
 def accept():
-'''public synchronized boolean accept(final Stanza packet)
-'''
-pass
+    '''    public synchronized boolean accept(final Stanza packet)
+    '''
 def resetCounter():
-'''public synchronized void resetCounter()
-'''
-pass
+    '''    public synchronized void resetCounter()
+    '''

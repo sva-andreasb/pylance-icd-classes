@@ -1,8 +1,6 @@
 def PlusPFldGBTransConditionCode():
-'''public PlusPFldGBTransConditionCode(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransConditionCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

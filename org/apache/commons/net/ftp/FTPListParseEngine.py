@@ -1,33 +1,25 @@
 def FTPListParseEngine():
-'''public FTPListParseEngine(final FTPFileEntryParser parser)
-'''
-pass
+    '''    public FTPListParseEngine(final FTPFileEntryParser parser)
+    '''
 def readServerList():
-'''public void readServerList(final InputStream stream, final String encoding)
-public void readServerList(final InputStream stream)
-'''
-pass
+    '''    public void readServerList(final InputStream stream, final String encoding)
+    public void readServerList(final InputStream stream)
+    '''
 def getNext():
-'''public FTPFile[] getNext(final int quantityRequested)
-'''
-pass
+    '''    public FTPFile[] getNext(final int quantityRequested)
+    '''
 def getPrevious():
-'''public FTPFile[] getPrevious(final int quantityRequested)
-'''
-pass
+    '''    public FTPFile[] getPrevious(final int quantityRequested)
+    '''
 def getFiles():
-'''public FTPFile[] getFiles()
-'''
-pass
+    '''    public FTPFile[] getFiles()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def resetIterator():
-'''public void resetIterator()
-'''
-pass
+    '''    public void resetIterator()
+    '''

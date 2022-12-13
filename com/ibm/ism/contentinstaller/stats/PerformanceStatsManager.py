@@ -1,12 +1,9 @@
 def PerformanceStatsManager():
-'''public PerformanceStatsManager()
-'''
-pass
+    '''    public PerformanceStatsManager()
+    '''
 def newTaskStatistic():
-'''public TaskStatistic newTaskStatistic(final File processingFile)
-'''
-pass
+    '''    public TaskStatistic newTaskStatistic(final File processingFile)
+    '''
 def visit():
-'''public void visit(final TaskVisitor visitor)
-'''
-pass
+    '''    public void visit(final TaskVisitor visitor)
+    '''

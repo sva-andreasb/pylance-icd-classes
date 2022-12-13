@@ -1,9 +1,7 @@
 def DPAMSWUsageService():
-'''public DPAMSWUsageService()
-public DPAMSWUsageService(final MXServer mxServer)
-'''
-pass
+    '''    public DPAMSWUsageService()
+    public DPAMSWUsageService(final MXServer mxServer)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

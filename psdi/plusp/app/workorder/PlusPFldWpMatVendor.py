@@ -1,4 +1,3 @@
 def PlusPFldWpMatVendor():
-'''public PlusPFldWpMatVendor(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWpMatVendor(final MboValue arg0)
+    '''

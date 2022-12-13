@@ -1,8 +1,6 @@
 def NmrGroupMapping():
-'''public NmrGroupMapping(final MboSet ms)
-'''
-pass
+    '''    public NmrGroupMapping(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

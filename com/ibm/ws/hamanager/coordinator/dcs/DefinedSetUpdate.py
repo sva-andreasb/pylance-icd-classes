@@ -1,8 +1,6 @@
 def getMembersToAdd():
-'''public Map getMembersToAdd()
-'''
-pass
+    '''    public Map getMembersToAdd()
+    '''
 def getMembersToRemove():
-'''public String[] getMembersToRemove()
-'''
-pass
+    '''    public String[] getMembersToRemove()
+    '''

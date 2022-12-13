@@ -1,48 +1,36 @@
 def Company():
-'''public Company(final MboSet ms)
-'''
-pass
+    '''    public Company(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def isDisabled():
-'''public boolean isDisabled()
-'''
-pass
+    '''    public boolean isDisabled()
+    '''
 def setDisabled():
-'''public void setDisabled(final boolean disabled)
-'''
-pass
+    '''    public void setDisabled(final boolean disabled)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def createMasterForCompany():
-'''public CompMasterRemote createMasterForCompany()
-'''
-pass
+    '''    public CompMasterRemote createMasterForCompany()
+    '''

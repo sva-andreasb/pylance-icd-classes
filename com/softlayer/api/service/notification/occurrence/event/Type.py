@@ -1,20 +1,15 @@
 def getKeyName():
-'''public String getKeyName()
-'''
-pass
+    '''    public String getKeyName()
+    '''
 def setKeyName():
-'''public void setKeyName(final String keyName)
-'''
-pass
+    '''    public void setKeyName(final String keyName)
+    '''
 def isKeyNameSpecified():
-'''public boolean isKeyNameSpecified()
-'''
-pass
+    '''    public boolean isKeyNameSpecified()
+    '''
 def unsetKeyName():
-'''public void unsetKeyName()
-'''
-pass
+    '''    public void unsetKeyName()
+    '''
 def keyName():
-'''public Mask keyName()
-'''
-pass
+    '''    public Mask keyName()
+    '''

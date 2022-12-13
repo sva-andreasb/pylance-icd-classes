@@ -1,4 +1,3 @@
 def IoTFeedMapNP():
-'''public IoTFeedMapNP(final MboSet ms)
-'''
-pass
+    '''    public IoTFeedMapNP(final MboSet ms)
+    '''

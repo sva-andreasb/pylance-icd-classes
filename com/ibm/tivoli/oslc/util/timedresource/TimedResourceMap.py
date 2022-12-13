@@ -1,140 +1,106 @@
 def TimedResourceMap():
-'''public TimedResourceMap()
-public TimedResourceMap(final int lifespan, final int terminationInterval)
-public TimedResourceMap(final ConcurrentHashMap<K, SelfTerminatingValue> envoy, final int lifespan, final int terminationInterval)
-'''
-pass
+    '''    public TimedResourceMap()
+    public TimedResourceMap(final int lifespan, final int terminationInterval)
+    public TimedResourceMap(final ConcurrentHashMap<K, SelfTerminatingValue> envoy, final int lifespan, final int terminationInterval)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def entrySet():
-'''public Set<Entry<K, TimedResource>> entrySet()
-'''
-pass
+    '''    public Set<Entry<K, TimedResource>> entrySet()
+    '''
 def get():
-'''public TimedResource get(final Object key)
-'''
-pass
+    '''    public TimedResource get(final Object key)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def keySet():
-'''public Set<K> keySet()
-'''
-pass
+    '''    public Set<K> keySet()
+    '''
 def put():
-'''public TimedResource put(final K key, final TimedResource value)
-'''
-pass
+    '''    public TimedResource put(final K key, final TimedResource value)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends K, ? extends TimedResource> map)
-'''
-pass
+    '''    public void putAll(final Map<? extends K, ? extends TimedResource> map)
+    '''
 def remove():
-'''public TimedResource remove(final Object key)
-'''
-pass
+    '''    public TimedResource remove(final Object key)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def values():
-'''public Collection<TimedResource> values()
-'''
-pass
+    '''    public Collection<TimedResource> values()
+    '''
 def keys():
-'''public Enumeration keys()
-'''
-pass
+    '''    public Enumeration keys()
+    '''
 def getTerminatorThread():
-'''public Terminator getTerminatorThread()
-'''
-pass
+    '''    public Terminator getTerminatorThread()
+    '''
 def getTerminatorInterval():
-'''public int getTerminatorInterval()
-public int getTerminatorInterval()
-'''
-pass
+    '''    public int getTerminatorInterval()
+    public int getTerminatorInterval()
+    '''
 def getLifeSpan():
-'''public int getLifeSpan()
-'''
-pass
+    '''    public int getLifeSpan()
+    '''
 def setTerminationInterval():
-'''public void setTerminationInterval(final int terminationInterval)
-public void setTerminationInterval(final long terminationInterval)
-'''
-pass
+    '''    public void setTerminationInterval(final int terminationInterval)
+    public void setTerminationInterval(final long terminationInterval)
+    '''
 def setLifeSpan():
-'''public void setLifeSpan(final int timeToLive)
-'''
-pass
+    '''    public void setLifeSpan(final int timeToLive)
+    '''
 def setKey():
-'''public void setKey(final K key)
-'''
-pass
+    '''    public void setKey(final K key)
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def setValue():
-'''public void setValue(final TimedResource value)
-'''
-pass
+    '''    public void setValue(final TimedResource value)
+    '''
 def getValue():
-'''public TimedResource getValue()
-'''
-pass
+    '''    public TimedResource getValue()
+    '''
 def setLastAccessed():
-'''public void setLastAccessed(final long lastAccessed)
-'''
-pass
+    '''    public void setLastAccessed(final long lastAccessed)
+    '''
 def getLastAccessed():
-'''public long getLastAccessed()
-'''
-pass
+    '''    public long getLastAccessed()
+    '''
 def Terminator():
-'''public Terminator(final boolean startWorkerThread)
-'''
-pass
+    '''    public Terminator(final boolean startWorkerThread)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def isThreadRunning():
-'''public boolean isThreadRunning()
-'''
-pass
+    '''    public boolean isThreadRunning()
+    '''
 def stopTerminating():
-'''public void stopTerminating()
-'''
-pass
+    '''    public void stopTerminating()
+    '''
 def startWorkerThread():
-'''public void startWorkerThread()
-'''
-pass
+    '''    public void startWorkerThread()
+    '''
 def setLifespan():
-'''public void setLifespan(final long lifespan)
-'''
-pass
+    '''    public void setLifespan(final long lifespan)
+    '''
 def getLifespan():
-'''public int getLifespan()
-'''
-pass
+    '''    public int getLifespan()
+    '''

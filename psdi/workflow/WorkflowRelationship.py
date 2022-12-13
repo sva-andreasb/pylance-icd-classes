@@ -1,64 +1,48 @@
 def WorkflowRelationship():
-'''public WorkflowRelationship(final WorkflowNode predecessorNode, final WorkflowNode successorNode)
-'''
-pass
+    '''    public WorkflowRelationship(final WorkflowNode predecessorNode, final WorkflowNode successorNode)
+    '''
 def getWorkflow():
-'''public Workflow getWorkflow()
-'''
-pass
+    '''    public Workflow getWorkflow()
+    '''
 def setWorkflow():
-'''public void setWorkflow(final Workflow workflow)
-'''
-pass
+    '''    public void setWorkflow(final Workflow workflow)
+    '''
 def getPredecessorNode():
-'''public WorkflowNode getPredecessorNode()
-'''
-pass
+    '''    public WorkflowNode getPredecessorNode()
+    '''
 def getSuccessorNode():
-'''public WorkflowNode getSuccessorNode()
-'''
-pass
+    '''    public WorkflowNode getSuccessorNode()
+    '''
 def getAction():
-'''public Object getAction()
-'''
-pass
+    '''    public Object getAction()
+    '''
 def setAction():
-'''public void setAction(final Object action)
-'''
-pass
+    '''    public void setAction(final Object action)
+    '''
 def getInstruction():
-'''public Object getInstruction()
-'''
-pass
+    '''    public Object getInstruction()
+    '''
 def setInstruction():
-'''public void setInstruction(final Object instruction)
-'''
-pass
+    '''    public void setInstruction(final Object instruction)
+    '''
 def setNegative():
-'''public void setNegative(final boolean isNegative)
-'''
-pass
+    '''    public void setNegative(final boolean isNegative)
+    '''
 def isNegative():
-'''public boolean isNegative()
-'''
-pass
+    '''    public boolean isNegative()
+    '''
 def getHorizontalRelationship():
-'''public int getHorizontalRelationship()
-'''
-pass
+    '''    public int getHorizontalRelationship()
+    '''
 def getVerticalRelationship():
-'''public int getVerticalRelationship()
-'''
-pass
+    '''    public int getVerticalRelationship()
+    '''
 def copy():
-'''public WorkflowEntity copy()
-'''
-pass
+    '''    public WorkflowEntity copy()
+    '''
 def restoreFrom():
-'''public void restoreFrom(final WorkflowEntity entity)
-'''
-pass
+    '''    public void restoreFrom(final WorkflowEntity entity)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

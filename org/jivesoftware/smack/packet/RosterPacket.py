@@ -1,76 +1,57 @@
 def RosterPacket():
-'''public RosterPacket()
-'''
-pass
+    '''    public RosterPacket()
+    '''
 def addRosterItem():
-'''public void addRosterItem(final Item item)
-'''
-pass
+    '''    public void addRosterItem(final Item item)
+    '''
 def getRosterItemCount():
-'''public int getRosterItemCount()
-'''
-pass
+    '''    public int getRosterItemCount()
+    '''
 def getRosterItems():
-'''public Collection<Item> getRosterItems()
-'''
-pass
+    '''    public Collection<Item> getRosterItems()
+    '''
 def getChildElementXML():
-'''public String getChildElementXML()
-'''
-pass
+    '''    public String getChildElementXML()
+    '''
 def Item():
-'''public Item(final String user, final String name)
-'''
-pass
+    '''    public Item(final String user, final String name)
+    '''
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getItemType():
-'''public ItemType getItemType()
-'''
-pass
+    '''    public ItemType getItemType()
+    '''
 def setItemType():
-'''public void setItemType(final ItemType itemType)
-'''
-pass
+    '''    public void setItemType(final ItemType itemType)
+    '''
 def getItemStatus():
-'''public ItemStatus getItemStatus()
-'''
-pass
+    '''    public ItemStatus getItemStatus()
+    '''
 def setItemStatus():
-'''public void setItemStatus(final ItemStatus itemStatus)
-'''
-pass
+    '''    public void setItemStatus(final ItemStatus itemStatus)
+    '''
 def getGroupNames():
-'''public Set<String> getGroupNames()
-'''
-pass
+    '''    public Set<String> getGroupNames()
+    '''
 def addGroupName():
-'''public void addGroupName(final String groupName)
-'''
-pass
+    '''    public void addGroupName(final String groupName)
+    '''
 def removeGroupName():
-'''public void removeGroupName(final String groupName)
-'''
-pass
+    '''    public void removeGroupName(final String groupName)
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def fromString():
-'''public static ItemStatus fromString(String value)
-'''
-pass
+    '''    public static ItemStatus fromString(String value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

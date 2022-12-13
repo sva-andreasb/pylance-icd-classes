@@ -1,16 +1,12 @@
 def UserProfileHierarchy():
-'''public UserProfileHierarchy(final MboSet ms)
-'''
-pass
+    '''    public UserProfileHierarchy(final MboSet ms)
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''

@@ -1,12 +1,9 @@
 def ContextSelectorAdmin():
-'''public ContextSelectorAdmin(final String contextName, final ContextSelector selector)
-'''
-pass
+    '''    public ContextSelectorAdmin(final String contextName, final ContextSelector selector)
+    '''
 def getObjectName():
-'''public ObjectName getObjectName()
-'''
-pass
+    '''    public ObjectName getObjectName()
+    '''
 def getImplementationClassName():
-'''public String getImplementationClassName()
-'''
-pass
+    '''    public String getImplementationClassName()
+    '''

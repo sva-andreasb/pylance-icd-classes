@@ -1,4 +1,3 @@
 def CompareID():
-'''public CompareID(final String id)
-'''
-pass
+    '''    public CompareID(final String id)
+    '''

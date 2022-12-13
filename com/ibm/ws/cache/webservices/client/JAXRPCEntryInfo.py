@@ -1,28 +1,21 @@
 def JAXRPCEntryInfo():
-'''public JAXRPCEntryInfo()
-'''
-pass
+    '''    public JAXRPCEntryInfo()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getCopyingMethod():
-'''public String getCopyingMethod()
-'''
-pass
+    '''    public String getCopyingMethod()
+    '''
 def setCopyingMethod():
-'''public void setCopyingMethod(final String copyingMethod)
-'''
-pass
+    '''    public void setCopyingMethod(final String copyingMethod)
+    '''
 def getSerializationMethod():
-'''public String getSerializationMethod()
-'''
-pass
+    '''    public String getSerializationMethod()
+    '''
 def setSerializationMethod():
-'''public void setSerializationMethod(final String serializationMethod)
-'''
-pass
+    '''    public void setSerializationMethod(final String serializationMethod)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

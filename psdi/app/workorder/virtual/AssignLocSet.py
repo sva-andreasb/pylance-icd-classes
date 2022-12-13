@@ -1,41 +1,31 @@
 def AssignLocSet():
-'''public AssignLocSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssignLocSet(final MboServerInterface ms)
+    '''
 def setRefresh():
-'''public void setRefresh(final boolean refresh)
-'''
-pass
+    '''    public void setRefresh(final boolean refresh)
+    '''
 def getLocationSet():
-'''public MboSetRemote getLocationSet()
-public MboSetRemote getLocationSet(final MboSetRemote locationQuerySet)
-'''
-pass
+    '''    public MboSetRemote getLocationSet()
+    public MboSetRemote getLocationSet(final MboSetRemote locationQuerySet)
+    '''
 def getDatesDiff():
-'''public double getDatesDiff(final Date toDate, final Date fromDate)
-'''
-pass
+    '''    public double getDatesDiff(final Date toDate, final Date fromDate)
+    '''
 def setFromSKD():
-'''public void setFromSKD(final boolean fromSKD)
-'''
-pass
+    '''    public void setFromSKD(final boolean fromSKD)
+    '''
 def getFromSKD():
-'''public boolean getFromSKD()
-'''
-pass
+    '''    public boolean getFromSKD()
+    '''
 def setWO():
-'''public void setWO(final WO wo)
-'''
-pass
+    '''    public void setWO(final WO wo)
+    '''
 def getWO():
-'''public WO getWO()
-'''
-pass
+    '''    public WO getWO()
+    '''
 def setSKDProject():
-'''public void setSKDProject(final SKDProject skdProject)
-'''
-pass
+    '''    public void setSKDProject(final SKDProject skdProject)
+    '''
 def getSKDProject():
-'''public SKDProject getSKDProject()
-'''
-pass
+    '''    public SKDProject getSKDProject()
+    '''

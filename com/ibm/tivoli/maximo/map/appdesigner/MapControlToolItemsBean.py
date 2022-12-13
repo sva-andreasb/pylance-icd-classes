@@ -1,12 +1,9 @@
 def select():
-'''public synchronized void select(final int row)
-'''
-pass
+    '''    public synchronized void select(final int row)
+    '''
 def toggleselectrow():
-'''public int toggleselectrow()
-'''
-pass
+    '''    public int toggleselectrow()
+    '''
 def unselect():
-'''public synchronized void unselect(final int row)
-'''
-pass
+    '''    public synchronized void unselect(final int row)
+    '''

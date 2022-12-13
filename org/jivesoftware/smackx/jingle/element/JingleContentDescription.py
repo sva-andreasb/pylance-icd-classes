@@ -1,13 +1,10 @@
-ELEMENT = "String  description""
+ELEMENT = "String  \"description\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getJingleContentDescriptionChildren():
-'''public List<NamedElement> getJingleContentDescriptionChildren()
-'''
-pass
+    '''    public List<NamedElement> getJingleContentDescriptionChildren()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''

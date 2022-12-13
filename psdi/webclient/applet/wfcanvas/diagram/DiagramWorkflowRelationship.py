@@ -1,56 +1,42 @@
 def DiagramWorkflowRelationship():
-'''public DiagramWorkflowRelationship(final WorkflowRelationship workflowRelationship)
-'''
-pass
+    '''    public DiagramWorkflowRelationship(final WorkflowRelationship workflowRelationship)
+    '''
 def getWorkflowRelationship():
-'''public WorkflowRelationship getWorkflowRelationship()
-'''
-pass
+    '''    public WorkflowRelationship getWorkflowRelationship()
+    '''
 def setIsStraight():
-'''public void setIsStraight(final boolean isStraight)
-'''
-pass
+    '''    public void setIsStraight(final boolean isStraight)
+    '''
 def isStraight():
-'''public boolean isStraight()
-'''
-pass
+    '''    public boolean isStraight()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def compareTo():
-'''public int compareTo(final int type, final DiagramWorkflowRelationship rel)
-'''
-pass
+    '''    public int compareTo(final int type, final DiagramWorkflowRelationship rel)
+    '''
 def getPositionIndex():
-'''public int getPositionIndex(final int type)
-'''
-pass
+    '''    public int getPositionIndex(final int type)
+    '''
 def setPositionIndex():
-'''public void setPositionIndex(final int type, final int positionIndex)
-'''
-pass
+    '''    public void setPositionIndex(final int type, final int positionIndex)
+    '''
 def getHorizontalRelationship():
-'''public int getHorizontalRelationship()
-'''
-pass
+    '''    public int getHorizontalRelationship()
+    '''
 def getVerticalRelationship():
-'''public int getVerticalRelationship()
-'''
-pass
+    '''    public int getVerticalRelationship()
+    '''
 def getPredecessorNode():
-'''public WorkflowNode getPredecessorNode()
-'''
-pass
+    '''    public WorkflowNode getPredecessorNode()
+    '''
 def getSuccessorNode():
-'''public WorkflowNode getSuccessorNode()
-'''
-pass
+    '''    public WorkflowNode getSuccessorNode()
+    '''
 def isNegative():
-'''public boolean isNegative()
-'''
-pass
+    '''    public boolean isNegative()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

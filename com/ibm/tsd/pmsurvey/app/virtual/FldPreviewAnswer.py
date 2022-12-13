@@ -1,20 +1,15 @@
 def FldPreviewAnswer():
-'''public FldPreviewAnswer(final MboValue mbv)
-'''
-pass
+    '''    public FldPreviewAnswer(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def agetList():
-'''public MboSetRemote agetList()
-'''
-pass
+    '''    public MboSetRemote agetList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''

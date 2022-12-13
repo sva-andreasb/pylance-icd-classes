@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def initializeRow():
-'''public void initializeRow()
-'''
-pass
+    '''    public void initializeRow()
+    '''

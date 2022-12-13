@@ -1,4 +1,3 @@
 def GroupRestrictionSet():
-'''public GroupRestrictionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public GroupRestrictionSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def FldPMSeasonStrDay():
-'''public FldPMSeasonStrDay(final MboValue mbv)
-'''
-pass
+    '''    public FldPMSeasonStrDay(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

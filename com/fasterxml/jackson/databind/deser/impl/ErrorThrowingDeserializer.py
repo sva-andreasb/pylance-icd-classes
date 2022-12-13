@@ -1,8 +1,6 @@
 def ErrorThrowingDeserializer():
-'''public ErrorThrowingDeserializer(final NoClassDefFoundError cause)
-'''
-pass
+    '''    public ErrorThrowingDeserializer(final NoClassDefFoundError cause)
+    '''
 def deserialize():
-'''public Object deserialize(final JsonParser jp, final DeserializationContext ctxt)
-'''
-pass
+    '''    public Object deserialize(final JsonParser jp, final DeserializationContext ctxt)
+    '''

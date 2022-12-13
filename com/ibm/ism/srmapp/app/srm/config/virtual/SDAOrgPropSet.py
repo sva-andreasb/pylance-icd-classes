@@ -1,16 +1,12 @@
 def SDAOrgPropSet():
-'''public SDAOrgPropSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SDAOrgPropSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

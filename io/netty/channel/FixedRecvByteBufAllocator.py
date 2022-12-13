@@ -1,12 +1,9 @@
 def FixedRecvByteBufAllocator():
-'''public FixedRecvByteBufAllocator(final int bufferSize)
-'''
-pass
+    '''    public FixedRecvByteBufAllocator(final int bufferSize)
+    '''
 def respectMaybeMoreData():
-'''public FixedRecvByteBufAllocator respectMaybeMoreData(final boolean respectMaybeMoreData)
-'''
-pass
+    '''    public FixedRecvByteBufAllocator respectMaybeMoreData(final boolean respectMaybeMoreData)
+    '''
 def guess():
-'''public int guess()
-'''
-pass
+    '''    public int guess()
+    '''

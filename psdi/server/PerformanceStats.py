@@ -1,103 +1,78 @@
 def put():
-'''public static void put(final String trans, final PerformanceStats ps)
-'''
-pass
+    '''    public static void put(final String trans, final PerformanceStats ps)
+    '''
 def getList():
-'''public static Iterator getList()
-'''
-pass
+    '''    public static Iterator getList()
+    '''
 def get():
-'''public static PerformanceStats get(final Object trans)
-'''
-pass
+    '''    public static PerformanceStats get(final Object trans)
+    '''
 def reset():
-'''public static void reset()
-'''
-pass
+    '''    public static void reset()
+    '''
 def enable():
-'''public static void enable()
-'''
-pass
+    '''    public static void enable()
+    '''
 def disable():
-'''public static void disable()
-'''
-pass
+    '''    public static void disable()
+    '''
 def isEnabled():
-'''public static boolean isEnabled()
-'''
-pass
+    '''    public static boolean isEnabled()
+    '''
 def PerformanceStats():
-'''public PerformanceStats()
-'''
-pass
+    '''    public PerformanceStats()
+    '''
 def incrementSQLTime():
-'''public void incrementSQLTime(long t)
-'''
-pass
+    '''    public void incrementSQLTime(long t)
+    '''
 def incrementSQLCount():
-'''public void incrementSQLCount()
-public void incrementSQLCount(final String stmt)
-'''
-pass
+    '''    public void incrementSQLCount()
+    public void incrementSQLCount(final String stmt)
+    '''
 def getSQLStatements():
-'''public Iterator getSQLStatements()
-'''
-pass
+    '''    public Iterator getSQLStatements()
+    '''
 def getStatementIndividualTime():
-'''public String getStatementIndividualTime(final Object obj)
-'''
-pass
+    '''    public String getStatementIndividualTime(final Object obj)
+    '''
 def getStatementCount():
-'''public int getStatementCount(final Object obj)
-'''
-pass
+    '''    public int getStatementCount(final Object obj)
+    '''
 def getSQLCount():
-'''public long getSQLCount()
-'''
-pass
+    '''    public long getSQLCount()
+    '''
 def getSQLTime():
-'''public long getSQLTime()
-'''
-pass
+    '''    public long getSQLTime()
+    '''
 def incrementMboCount():
-'''public void incrementMboCount()
-public void incrementMboCount(final String name)
-'''
-pass
+    '''    public void incrementMboCount()
+    public void incrementMboCount(final String name)
+    '''
 def getMboString():
-'''public String getMboString()
-'''
-pass
+    '''    public String getMboString()
+    '''
 def getMboCount():
-'''public long getMboCount()
-'''
-pass
+    '''    public long getMboCount()
+    '''
 def incrementMboSetCount():
-'''public void incrementMboSetCount()
-public void incrementMboSetCount(final String name)
-'''
-pass
+    '''    public void incrementMboSetCount()
+    public void incrementMboSetCount(final String name)
+    '''
 def getMboSetString():
-'''public String getMboSetString()
-'''
-pass
+    '''    public String getMboSetString()
+    '''
 def getMboSetCount():
-'''public long getMboSetCount()
-'''
-pass
+    '''    public long getMboSetCount()
+    '''
 def hasValue():
-'''public boolean hasValue()
-'''
-pass
+    '''    public boolean hasValue()
+    '''
 def addStackTrace():
-'''public void addStackTrace(final String stm, final Object obj)
-'''
-pass
+    '''    public void addStackTrace(final String stm, final Object obj)
+    '''
 def normalizeStackTrace():
-'''public Vector normalizeStackTrace(final Throwable e)
-'''
-pass
+    '''    public Vector normalizeStackTrace(final Throwable e)
+    '''
 def display():
-'''public String display(final String stmt)
-'''
-pass
+    '''    public String display(final String stmt)
+    '''

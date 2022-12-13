@@ -1,8 +1,6 @@
 def FldQuotationLineIsAwarded():
-'''public FldQuotationLineIsAwarded(final MboValue mbv)
-'''
-pass
+    '''    public FldQuotationLineIsAwarded(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

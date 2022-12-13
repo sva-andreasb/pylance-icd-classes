@@ -1,24 +1,18 @@
 def ClassSet():
-'''public ClassSet()
-'''
-pass
+    '''    public ClassSet()
+    '''
 def add():
-'''public boolean add(final JavaClass clazz)
-'''
-pass
+    '''    public boolean add(final JavaClass clazz)
+    '''
 def remove():
-'''public void remove(final JavaClass clazz)
-'''
-pass
+    '''    public void remove(final JavaClass clazz)
+    '''
 def empty():
-'''public boolean empty()
-'''
-pass
+    '''    public boolean empty()
+    '''
 def toArray():
-'''public JavaClass[] toArray()
-'''
-pass
+    '''    public JavaClass[] toArray()
+    '''
 def getClassNames():
-'''public String[] getClassNames()
-'''
-pass
+    '''    public String[] getClassNames()
+    '''

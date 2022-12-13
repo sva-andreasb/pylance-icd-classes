@@ -1,5 +1,4 @@
 def StringDecoder():
-'''public StringDecoder()
-public StringDecoder(final Charset charset)
-'''
-pass
+    '''    public StringDecoder()
+    public StringDecoder(final Charset charset)
+    '''

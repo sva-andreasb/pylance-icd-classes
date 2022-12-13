@@ -1,18 +1,14 @@
-ELEMENT = "String  disown""
-NAMESPACE = "String  urn:xmpp:iot:discovery""
+ELEMENT = "String  \"disown\""
+NAMESPACE = "String  \"urn:xmpp:iot:discovery\""
 def IoTDisowned():
-'''public IoTDisowned(final NodeInfo nodeInfo)
-'''
-pass
+    '''    public IoTDisowned(final NodeInfo nodeInfo)
+    '''
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''
 def getSourceId():
-'''public String getSourceId()
-'''
-pass
+    '''    public String getSourceId()
+    '''
 def getNodeInfo():
-'''public NodeInfo getNodeInfo()
-'''
-pass
+    '''    public NodeInfo getNodeInfo()
+    '''

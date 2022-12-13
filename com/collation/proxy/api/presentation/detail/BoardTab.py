@@ -1,12 +1,9 @@
 def BoardTab():
-'''public BoardTab(final Tab tab, final Layout layout, final Guid guid, final long version, final SessionContext session)
-'''
-pass
+    '''    public BoardTab(final Tab tab, final Layout layout, final Guid guid, final long version, final SessionContext session)
+    '''
 def fillIn():
-'''public void fillIn()
-'''
-pass
+    '''    public void fillIn()
+    '''
 def fillInGeneral():
-'''public void fillInGeneral()
-'''
-pass
+    '''    public void fillInGeneral()
+    '''

@@ -1,29 +1,22 @@
 def AddressList():
-'''public AddressList()
-public AddressList(final String aValue)
-'''
-pass
+    '''    public AddressList()
+    public AddressList(final String aValue)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def add():
-'''public final boolean add(final URI address)
-'''
-pass
+    '''    public final boolean add(final URI address)
+    '''
 def isEmpty():
-'''public final boolean isEmpty()
-'''
-pass
+    '''    public final boolean isEmpty()
+    '''
 def iterator():
-'''public final Iterator<URI> iterator()
-'''
-pass
+    '''    public final Iterator<URI> iterator()
+    '''
 def remove():
-'''public final boolean remove(final URI address)
-'''
-pass
+    '''    public final boolean remove(final URI address)
+    '''
 def size():
-'''public final int size()
-'''
-pass
+    '''    public final int size()
+    '''

@@ -1,4 +1,3 @@
 def ItemOrgChgStatusSet():
-'''public ItemOrgChgStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ItemOrgChgStatusSet(final MboServerInterface ms)
+    '''

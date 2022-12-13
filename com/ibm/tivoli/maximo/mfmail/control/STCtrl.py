@@ -1,4 +1,3 @@
 def STCtrl():
-'''public STCtrl(final MboSet ms)
-'''
-pass
+    '''    public STCtrl(final MboSet ms)
+    '''

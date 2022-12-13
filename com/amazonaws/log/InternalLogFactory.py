@@ -1,13 +1,10 @@
 def getLog():
-'''public static InternalLogApi getLog(final Class<?> clazz)
-public static InternalLogApi getLog(final String name)
-'''
-pass
+    '''    public static InternalLogApi getLog(final Class<?> clazz)
+    public static InternalLogApi getLog(final String name)
+    '''
 def getFactory():
-'''public static InternalLogFactory getFactory()
-'''
-pass
+    '''    public static InternalLogFactory getFactory()
+    '''
 def configureFactory():
-'''public static synchronized boolean configureFactory(final InternalLogFactory factory)
-'''
-pass
+    '''    public static synchronized boolean configureFactory(final InternalLogFactory factory)
+    '''

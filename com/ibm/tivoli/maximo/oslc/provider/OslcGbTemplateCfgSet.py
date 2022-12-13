@@ -1,8 +1,6 @@
 def OslcGbTemplateCfgSet():
-'''public OslcGbTemplateCfgSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OslcGbTemplateCfgSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

@@ -1,8 +1,6 @@
 def FldWOEstAtApprTotalCost():
-'''public FldWOEstAtApprTotalCost(final MboValue mbv)
-'''
-pass
+    '''    public FldWOEstAtApprTotalCost(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

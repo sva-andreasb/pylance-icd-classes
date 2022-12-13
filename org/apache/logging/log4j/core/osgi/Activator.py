@@ -1,16 +1,12 @@
 def Activator():
-'''public Activator()
-'''
-pass
+    '''    public Activator()
+    '''
 def start():
-'''public void start(final BundleContext context)
-'''
-pass
+    '''    public void start(final BundleContext context)
+    '''
 def stop():
-'''public void stop(final BundleContext context)
-'''
-pass
+    '''    public void stop(final BundleContext context)
+    '''
 def bundleChanged():
-'''public void bundleChanged(final BundleEvent event)
-'''
-pass
+    '''    public void bundleChanged(final BundleEvent event)
+    '''

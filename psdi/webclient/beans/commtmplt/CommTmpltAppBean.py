@@ -1,20 +1,15 @@
 def save():
-'''public synchronized void save()
-'''
-pass
+    '''    public synchronized void save()
+    '''
 def relationshiptree():
-'''public int relationshiptree()
-'''
-pass
+    '''    public int relationshiptree()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def setValue():
-'''public synchronized void setValue(final String attribute, final MboRemote mboRemote)
-'''
-pass
+    '''    public synchronized void setValue(final String attribute, final MboRemote mboRemote)
+    '''
 def getMbo():
-'''public synchronized MboRemote getMbo()
-'''
-pass
+    '''    public synchronized MboRemote getMbo()
+    '''

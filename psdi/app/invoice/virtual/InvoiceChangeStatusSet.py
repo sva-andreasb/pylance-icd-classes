@@ -1,4 +1,3 @@
 def InvoiceChangeStatusSet():
-'''public InvoiceChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvoiceChangeStatusSet(final MboServerInterface ms)
+    '''

@@ -1,12 +1,9 @@
 def JSONStream():
-'''public JSONStream(final InputStream inputStream)
-'''
-pass
+    '''    public JSONStream(final InputStream inputStream)
+    '''
 def getJsonObject():
-'''public JSONObject getJsonObject()
-'''
-pass
+    '''    public JSONObject getJsonObject()
+    '''
 def clean4Json4J():
-'''public static String clean4Json4J(String s)
-'''
-pass
+    '''    public static String clean4Json4J(String s)
+    '''

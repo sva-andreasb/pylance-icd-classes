@@ -1,12 +1,9 @@
 def WatsonVRImg():
-'''public WatsonVRImg(final MboSet ms)
-'''
-pass
+    '''    public WatsonVRImg(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

@@ -1,12 +1,9 @@
 def pluspselectitems():
-'''public int pluspselectitems()
-'''
-pass
+    '''    public int pluspselectitems()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def delete():
-'''public synchronized void delete(final int nRow)
-'''
-pass
+    '''    public synchronized void delete(final int nRow)
+    '''

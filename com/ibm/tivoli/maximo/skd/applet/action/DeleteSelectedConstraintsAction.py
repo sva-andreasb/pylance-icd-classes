@@ -1,12 +1,9 @@
 def DeleteSelectedConstraintsAction():
-'''public DeleteSelectedConstraintsAction(final IlvHierarchyChart chart)
-'''
-pass
+    '''    public DeleteSelectedConstraintsAction(final IlvHierarchyChart chart)
+    '''
 def selectionChanged():
-'''public void selectionChanged(final SelectionEvent event)
-'''
-pass
+    '''    public void selectionChanged(final SelectionEvent event)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent event)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent event)
+    '''

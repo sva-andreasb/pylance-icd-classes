@@ -67,34 +67,26 @@ META_CREATEFONTINDIRECT = "int  763"
 META_CREATEBRUSHINDIRECT = "int  764"
 META_CREATEREGION = "int  1791"
 def MetaDo():
-'''public MetaDo(final InputStream in, final PdfContentByte cb)
-'''
-pass
+    '''    public MetaDo(final InputStream in, final PdfContentByte cb)
+    '''
 def readAll():
-'''public void readAll()
-'''
-pass
+    '''    public void readAll()
+    '''
 def outputText():
-'''public void outputText(final int x, final int y, final int flag, final int x1, final int y1, final int x2, final int y2, final String text)
-'''
-pass
+    '''    public void outputText(final int x, final int y, final int flag, final int x1, final int y1, final int x2, final int y2, final String text)
+    '''
 def isNullStrokeFill():
-'''public boolean isNullStrokeFill(final boolean isRectangle)
-'''
-pass
+    '''    public boolean isNullStrokeFill(final boolean isRectangle)
+    '''
 def strokeAndFill():
-'''public void strokeAndFill()
-'''
-pass
+    '''    public void strokeAndFill()
+    '''
 def wrapBMP():
-'''public static byte[] wrapBMP(final Image image)
-'''
-pass
+    '''    public static byte[] wrapBMP(final Image image)
+    '''
 def writeWord():
-'''public static void writeWord(final OutputStream os, final int v)
-'''
-pass
+    '''    public static void writeWord(final OutputStream os, final int v)
+    '''
 def writeDWord():
-'''public static void writeDWord(final OutputStream os, final int v)
-'''
-pass
+    '''    public static void writeDWord(final OutputStream os, final int v)
+    '''

@@ -1,4 +1,3 @@
 def getString():
-'''public static String getString(final String key)
-'''
-pass
+    '''    public static String getString(final String key)
+    '''

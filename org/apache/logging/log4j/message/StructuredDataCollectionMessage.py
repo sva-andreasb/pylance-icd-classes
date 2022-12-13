@@ -1,28 +1,21 @@
 def StructuredDataCollectionMessage():
-'''public StructuredDataCollectionMessage(final List<StructuredDataMessage> messages)
-'''
-pass
+    '''    public StructuredDataCollectionMessage(final List<StructuredDataMessage> messages)
+    '''
 def iterator():
-'''public Iterator<StructuredDataMessage> iterator()
-'''
-pass
+    '''    public Iterator<StructuredDataMessage> iterator()
+    '''
 def getFormattedMessage():
-'''public String getFormattedMessage()
-'''
-pass
+    '''    public String getFormattedMessage()
+    '''
 def getFormat():
-'''public String getFormat()
-'''
-pass
+    '''    public String getFormat()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder buffer)
-'''
-pass
+    '''    public void formatTo(final StringBuilder buffer)
+    '''
 def getParameters():
-'''public Object[] getParameters()
-'''
-pass
+    '''    public Object[] getParameters()
+    '''
 def getThrowable():
-'''public Throwable getThrowable()
-'''
-pass
+    '''    public Throwable getThrowable()
+    '''

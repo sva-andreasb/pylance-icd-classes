@@ -1,4 +1,3 @@
 def applyToSelected():
-'''public int applyToSelected()
-'''
-pass
+    '''    public int applyToSelected()
+    '''

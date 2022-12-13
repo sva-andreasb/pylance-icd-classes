@@ -1,20 +1,15 @@
 def isNode():
-'''public boolean isNode()
-'''
-pass
+    '''    public boolean isNode()
+    '''
 def isLink():
-'''public boolean isLink()
-'''
-pass
+    '''    public boolean isLink()
+    '''
 def isHyperEdge():
-'''public boolean isHyperEdge()
-'''
-pass
+    '''    public boolean isHyperEdge()
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public IlvGraphic nextElement()
-'''
-pass
+    '''    public IlvGraphic nextElement()
+    '''

@@ -1,12 +1,9 @@
 def getCredentials():
-'''public AWSCredentials getCredentials()
-'''
-pass
+    '''    public AWSCredentials getCredentials()
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

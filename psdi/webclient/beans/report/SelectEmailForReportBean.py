@@ -1,8 +1,6 @@
 def SelectEmailForReportBean():
-'''public SelectEmailForReportBean()
-'''
-pass
+    '''    public SelectEmailForReportBean()
+    '''
 def copyEmailToReportSet():
-'''public int copyEmailToReportSet()
-'''
-pass
+    '''    public int copyEmailToReportSet()
+    '''

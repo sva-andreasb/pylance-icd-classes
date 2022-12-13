@@ -1,12 +1,9 @@
 def setcurrentnode():
-'''public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
-'''
-pass
+    '''    public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def structureChangedEvent():
-'''public synchronized void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void structureChangedEvent(final DataBean speaker)
+    '''

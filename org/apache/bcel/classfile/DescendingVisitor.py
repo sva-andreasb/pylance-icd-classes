@@ -1,145 +1,109 @@
 def predecessor():
-'''public Object predecessor()
-public Object predecessor(final int level)
-'''
-pass
+    '''    public Object predecessor()
+    public Object predecessor(final int level)
+    '''
 def current():
-'''public Object current()
-'''
-pass
+    '''    public Object current()
+    '''
 def DescendingVisitor():
-'''public DescendingVisitor(final JavaClass clazz, final Visitor visitor)
-'''
-pass
+    '''    public DescendingVisitor(final JavaClass clazz, final Visitor visitor)
+    '''
 def visit():
-'''public void visit()
-'''
-pass
+    '''    public void visit()
+    '''
 def visitJavaClass():
-'''public void visitJavaClass(final JavaClass _clazz)
-'''
-pass
+    '''    public void visitJavaClass(final JavaClass _clazz)
+    '''
 def visitField():
-'''public void visitField(final Field field)
-'''
-pass
+    '''    public void visitField(final Field field)
+    '''
 def visitConstantValue():
-'''public void visitConstantValue(final ConstantValue cv)
-'''
-pass
+    '''    public void visitConstantValue(final ConstantValue cv)
+    '''
 def visitMethod():
-'''public void visitMethod(final Method method)
-'''
-pass
+    '''    public void visitMethod(final Method method)
+    '''
 def visitExceptionTable():
-'''public void visitExceptionTable(final ExceptionTable table)
-'''
-pass
+    '''    public void visitExceptionTable(final ExceptionTable table)
+    '''
 def visitCode():
-'''public void visitCode(final Code code)
-'''
-pass
+    '''    public void visitCode(final Code code)
+    '''
 def visitCodeException():
-'''public void visitCodeException(final CodeException ce)
-'''
-pass
+    '''    public void visitCodeException(final CodeException ce)
+    '''
 def visitLineNumberTable():
-'''public void visitLineNumberTable(final LineNumberTable table)
-'''
-pass
+    '''    public void visitLineNumberTable(final LineNumberTable table)
+    '''
 def visitLineNumber():
-'''public void visitLineNumber(final LineNumber number)
-'''
-pass
+    '''    public void visitLineNumber(final LineNumber number)
+    '''
 def visitLocalVariableTable():
-'''public void visitLocalVariableTable(final LocalVariableTable table)
-'''
-pass
+    '''    public void visitLocalVariableTable(final LocalVariableTable table)
+    '''
 def visitStackMap():
-'''public void visitStackMap(final StackMap table)
-'''
-pass
+    '''    public void visitStackMap(final StackMap table)
+    '''
 def visitStackMapEntry():
-'''public void visitStackMapEntry(final StackMapEntry var)
-'''
-pass
+    '''    public void visitStackMapEntry(final StackMapEntry var)
+    '''
 def visitLocalVariable():
-'''public void visitLocalVariable(final LocalVariable var)
-'''
-pass
+    '''    public void visitLocalVariable(final LocalVariable var)
+    '''
 def visitConstantPool():
-'''public void visitConstantPool(final ConstantPool cp)
-'''
-pass
+    '''    public void visitConstantPool(final ConstantPool cp)
+    '''
 def visitConstantClass():
-'''public void visitConstantClass(final ConstantClass constant)
-'''
-pass
+    '''    public void visitConstantClass(final ConstantClass constant)
+    '''
 def visitConstantDouble():
-'''public void visitConstantDouble(final ConstantDouble constant)
-'''
-pass
+    '''    public void visitConstantDouble(final ConstantDouble constant)
+    '''
 def visitConstantFieldref():
-'''public void visitConstantFieldref(final ConstantFieldref constant)
-'''
-pass
+    '''    public void visitConstantFieldref(final ConstantFieldref constant)
+    '''
 def visitConstantFloat():
-'''public void visitConstantFloat(final ConstantFloat constant)
-'''
-pass
+    '''    public void visitConstantFloat(final ConstantFloat constant)
+    '''
 def visitConstantInteger():
-'''public void visitConstantInteger(final ConstantInteger constant)
-'''
-pass
+    '''    public void visitConstantInteger(final ConstantInteger constant)
+    '''
 def visitConstantInterfaceMethodref():
-'''public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref constant)
-'''
-pass
+    '''    public void visitConstantInterfaceMethodref(final ConstantInterfaceMethodref constant)
+    '''
 def visitConstantLong():
-'''public void visitConstantLong(final ConstantLong constant)
-'''
-pass
+    '''    public void visitConstantLong(final ConstantLong constant)
+    '''
 def visitConstantMethodref():
-'''public void visitConstantMethodref(final ConstantMethodref constant)
-'''
-pass
+    '''    public void visitConstantMethodref(final ConstantMethodref constant)
+    '''
 def visitConstantNameAndType():
-'''public void visitConstantNameAndType(final ConstantNameAndType constant)
-'''
-pass
+    '''    public void visitConstantNameAndType(final ConstantNameAndType constant)
+    '''
 def visitConstantString():
-'''public void visitConstantString(final ConstantString constant)
-'''
-pass
+    '''    public void visitConstantString(final ConstantString constant)
+    '''
 def visitConstantUtf8():
-'''public void visitConstantUtf8(final ConstantUtf8 constant)
-'''
-pass
+    '''    public void visitConstantUtf8(final ConstantUtf8 constant)
+    '''
 def visitInnerClasses():
-'''public void visitInnerClasses(final InnerClasses ic)
-'''
-pass
+    '''    public void visitInnerClasses(final InnerClasses ic)
+    '''
 def visitInnerClass():
-'''public void visitInnerClass(final InnerClass inner)
-'''
-pass
+    '''    public void visitInnerClass(final InnerClass inner)
+    '''
 def visitDeprecated():
-'''public void visitDeprecated(final Deprecated attribute)
-'''
-pass
+    '''    public void visitDeprecated(final Deprecated attribute)
+    '''
 def visitSignature():
-'''public void visitSignature(final Signature attribute)
-'''
-pass
+    '''    public void visitSignature(final Signature attribute)
+    '''
 def visitSourceFile():
-'''public void visitSourceFile(final SourceFile attribute)
-'''
-pass
+    '''    public void visitSourceFile(final SourceFile attribute)
+    '''
 def visitSynthetic():
-'''public void visitSynthetic(final Synthetic attribute)
-'''
-pass
+    '''    public void visitSynthetic(final Synthetic attribute)
+    '''
 def visitUnknown():
-'''public void visitUnknown(final Unknown attribute)
-'''
-pass
+    '''    public void visitUnknown(final Unknown attribute)
+    '''

@@ -1,20 +1,15 @@
 def DemuxOutputStream():
-'''public DemuxOutputStream()
-'''
-pass
+    '''    public DemuxOutputStream()
+    '''
 def bindStream():
-'''public OutputStream bindStream(final OutputStream output)
-'''
-pass
+    '''    public OutputStream bindStream(final OutputStream output)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def write():
-'''public void write(final int ch)
-'''
-pass
+    '''    public void write(final int ch)
+    '''

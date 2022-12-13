@@ -1,8 +1,6 @@
 def submit():
-'''public int submit()
-'''
-pass
+    '''    public int submit()
+    '''
 def initQuickFIndRemote():
-'''public MboSetRemote initQuickFIndRemote()
-'''
-pass
+    '''    public MboSetRemote initQuickFIndRemote()
+    '''

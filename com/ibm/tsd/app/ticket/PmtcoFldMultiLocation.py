@@ -1,8 +1,6 @@
 def PmtcoFldMultiLocation():
-'''public PmtcoFldMultiLocation(final MboValue mbv)
-'''
-pass
+    '''    public PmtcoFldMultiLocation(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

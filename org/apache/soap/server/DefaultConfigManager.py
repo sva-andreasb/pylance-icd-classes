@@ -1,16 +1,12 @@
 def DefaultConfigManager():
-'''public DefaultConfigManager()
-'''
-pass
+    '''    public DefaultConfigManager()
+    '''
 def loadRegistry():
-'''public void loadRegistry()
-'''
-pass
+    '''    public void loadRegistry()
+    '''
 def saveRegistry():
-'''public void saveRegistry()
-'''
-pass
+    '''    public void saveRegistry()
+    '''
 def setOptions():
-'''public void setOptions(final Hashtable hashtable)
-'''
-pass
+    '''    public void setOptions(final Hashtable hashtable)
+    '''

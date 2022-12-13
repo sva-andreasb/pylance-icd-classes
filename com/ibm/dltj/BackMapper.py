@@ -1,16 +1,12 @@
 def BackMapper():
-'''public BackMapper(final long n)
-'''
-pass
+    '''    public BackMapper(final long n)
+    '''
 def setGloss():
-'''public void setGloss(final int n, final Gloss gloss)
-'''
-pass
+    '''    public void setGloss(final int n, final Gloss gloss)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def process():
-'''public Object process(final Object o)
-'''
-pass
+    '''    public Object process(final Object o)
+    '''

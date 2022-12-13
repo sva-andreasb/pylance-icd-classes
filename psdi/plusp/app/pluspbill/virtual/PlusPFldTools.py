@@ -1,9 +1,7 @@
 def PlusPFldTools():
-'''public PlusPFldTools()
-public PlusPFldTools(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldTools()
+    public PlusPFldTools(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

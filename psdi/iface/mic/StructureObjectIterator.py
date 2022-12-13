@@ -1,17 +1,13 @@
 def StructureObjectIterator():
-'''public StructureObjectIterator()
-public StructureObjectIterator(final Iterator ir)
-'''
-pass
+    '''    public StructureObjectIterator()
+    public StructureObjectIterator(final Iterator ir)
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

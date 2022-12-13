@@ -1,16 +1,12 @@
 def fromOldPrincipalBuilder():
-'''public static DefaultKafkaPrincipalBuilder fromOldPrincipalBuilder(final Authenticator authenticator, final TransportLayer transportLayer, final PrincipalBuilder oldPrincipalBuilder, final KerberosShortNamer kerberosShortNamer)
-'''
-pass
+    '''    public static DefaultKafkaPrincipalBuilder fromOldPrincipalBuilder(final Authenticator authenticator, final TransportLayer transportLayer, final PrincipalBuilder oldPrincipalBuilder, final KerberosShortNamer kerberosShortNamer)
+    '''
 def DefaultKafkaPrincipalBuilder():
-'''public DefaultKafkaPrincipalBuilder(final KerberosShortNamer kerberosShortNamer)
-'''
-pass
+    '''    public DefaultKafkaPrincipalBuilder(final KerberosShortNamer kerberosShortNamer)
+    '''
 def build():
-'''public KafkaPrincipal build(final AuthenticationContext context)
-'''
-pass
+    '''    public KafkaPrincipal build(final AuthenticationContext context)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

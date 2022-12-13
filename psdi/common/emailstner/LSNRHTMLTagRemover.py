@@ -1,4 +1,3 @@
 def removeTag():
-'''public String removeTag(String msgBody)
-'''
-pass
+    '''    public String removeTag(String msgBody)
+    '''

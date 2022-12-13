@@ -1,4 +1,3 @@
 def testGetUniqueKeyColumns():
-'''public void testGetUniqueKeyColumns()
-'''
-pass
+    '''    public void testGetUniqueKeyColumns()
+    '''

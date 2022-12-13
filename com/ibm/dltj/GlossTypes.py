@@ -1,4 +1,4 @@
-COPYRIGHT = "String  \n\n(C) Copyright IBM Corp. 2003, 2007.\n\n""
+COPYRIGHT = "String  \"\n\n(C) Copyright IBM Corp. 2003, 2007.\n\n\""
 NUMBER_OF_TYPES = "int  255"
 TYPE_ANY = "int  0"
 TYPE_VOID = "int  0"

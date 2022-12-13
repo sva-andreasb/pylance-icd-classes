@@ -1,5 +1,4 @@
 def KeyAlreadyExistsException():
-'''public KeyAlreadyExistsException()
-public KeyAlreadyExistsException(final String s)
-'''
-pass
+    '''    public KeyAlreadyExistsException()
+    public KeyAlreadyExistsException(final String s)
+    '''

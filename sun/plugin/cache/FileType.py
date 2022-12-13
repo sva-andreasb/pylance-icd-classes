@@ -8,10 +8,8 @@ JPEG_IMAGE = "int  34"
 AU_SOUND = "int  65"
 WAV_SOUND = "int  66"
 def getType():
-'''public static int getType(final String s)
-'''
-pass
+    '''    public static int getType(final String s)
+    '''
 def getFileDescription():
-'''public static String getFileDescription(final String s)
-'''
-pass
+    '''    public static String getFileDescription(final String s)
+    '''

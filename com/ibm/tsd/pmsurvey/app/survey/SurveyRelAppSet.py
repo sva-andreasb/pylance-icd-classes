@@ -1,4 +1,3 @@
 def SurveyRelAppSet():
-'''public SurveyRelAppSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SurveyRelAppSet(final MboServerInterface ms)
+    '''

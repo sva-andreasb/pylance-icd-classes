@@ -1,4 +1,3 @@
 def PlusCATMeterSet():
-'''public PlusCATMeterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCATMeterSet(final MboServerInterface ms)
+    '''

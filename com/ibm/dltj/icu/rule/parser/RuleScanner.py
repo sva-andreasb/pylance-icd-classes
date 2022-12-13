@@ -1,20 +1,15 @@
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def RuleScanner():
-'''public RuleScanner()
-'''
-pass
+    '''    public RuleScanner()
+    '''
 def getStatements():
-'''public StringBuffer getStatements()
-'''
-pass
+    '''    public StringBuffer getStatements()
+    '''
 def getTypeDataMap():
-'''public Map getTypeDataMap()
-'''
-pass
+    '''    public Map getTypeDataMap()
+    '''
 def parse():
-'''public void parse(final RuleCharReader ruleCharReader)
-'''
-pass
+    '''    public void parse(final RuleCharReader ruleCharReader)
+    '''

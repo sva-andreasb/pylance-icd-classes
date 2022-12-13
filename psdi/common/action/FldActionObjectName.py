@@ -1,16 +1,12 @@
 def FldActionObjectName():
-'''public FldActionObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldActionObjectName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

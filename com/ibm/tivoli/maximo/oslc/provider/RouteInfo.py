@@ -1,24 +1,18 @@
 def RouteInfo():
-'''public RouteInfo(final String implClass, final String routePath, final String sigOption, final String sigApp, final String method)
-'''
-pass
+    '''    public RouteInfo(final String implClass, final String routePath, final String sigOption, final String sigApp, final String method)
+    '''
 def getImplClass():
-'''public String getImplClass()
-'''
-pass
+    '''    public String getImplClass()
+    '''
 def getRoutePath():
-'''public String getRoutePath()
-'''
-pass
+    '''    public String getRoutePath()
+    '''
 def getSigOption():
-'''public String getSigOption()
-'''
-pass
+    '''    public String getSigOption()
+    '''
 def getSigApp():
-'''public String getSigApp()
-'''
-pass
+    '''    public String getSigApp()
+    '''
 def getProps():
-'''public Map<String, RoutePropInfo> getProps()
-'''
-pass
+    '''    public Map<String, RoutePropInfo> getProps()
+    '''

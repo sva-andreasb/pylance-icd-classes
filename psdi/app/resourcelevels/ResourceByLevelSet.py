@@ -1,24 +1,18 @@
 def ResourceByLevelSet():
-'''public ResourceByLevelSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ResourceByLevelSet(final MboServerInterface ms)
+    '''
 def getLevelForValue():
-'''public ResourceByLevelRemote getLevelForValue(final double value)
-'''
-pass
+    '''    public ResourceByLevelRemote getLevelForValue(final double value)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def Segment():
-'''public Segment(final double start, final double end)
-'''
-pass
+    '''    public Segment(final double start, final double end)
+    '''
 def intersect():
-'''public boolean intersect(final Segment s)
-'''
-pass
+    '''    public boolean intersect(final Segment s)
+    '''

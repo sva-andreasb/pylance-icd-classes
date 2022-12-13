@@ -1,8 +1,6 @@
 def FldLaborDay7():
-'''public FldLaborDay7(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborDay7(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

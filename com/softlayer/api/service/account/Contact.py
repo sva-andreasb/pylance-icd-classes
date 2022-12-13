@@ -1,441 +1,331 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def setType():
-'''public void setType(final com.softlayer.api.service.account.contact.Type type)
-'''
-pass
+    '''    public void setType(final com.softlayer.api.service.account.contact.Type type)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getAddress1():
-'''public String getAddress1()
-'''
-pass
+    '''    public String getAddress1()
+    '''
 def setAddress1():
-'''public void setAddress1(final String address1)
-'''
-pass
+    '''    public void setAddress1(final String address1)
+    '''
 def isAddress1Specified():
-'''public boolean isAddress1Specified()
-'''
-pass
+    '''    public boolean isAddress1Specified()
+    '''
 def unsetAddress1():
-'''public void unsetAddress1()
-'''
-pass
+    '''    public void unsetAddress1()
+    '''
 def getAddress2():
-'''public String getAddress2()
-'''
-pass
+    '''    public String getAddress2()
+    '''
 def setAddress2():
-'''public void setAddress2(final String address2)
-'''
-pass
+    '''    public void setAddress2(final String address2)
+    '''
 def isAddress2Specified():
-'''public boolean isAddress2Specified()
-'''
-pass
+    '''    public boolean isAddress2Specified()
+    '''
 def unsetAddress2():
-'''public void unsetAddress2()
-'''
-pass
+    '''    public void unsetAddress2()
+    '''
 def getAlternatePhone():
-'''public String getAlternatePhone()
-'''
-pass
+    '''    public String getAlternatePhone()
+    '''
 def setAlternatePhone():
-'''public void setAlternatePhone(final String alternatePhone)
-'''
-pass
+    '''    public void setAlternatePhone(final String alternatePhone)
+    '''
 def isAlternatePhoneSpecified():
-'''public boolean isAlternatePhoneSpecified()
-'''
-pass
+    '''    public boolean isAlternatePhoneSpecified()
+    '''
 def unsetAlternatePhone():
-'''public void unsetAlternatePhone()
-'''
-pass
+    '''    public void unsetAlternatePhone()
+    '''
 def getCity():
-'''public String getCity()
-'''
-pass
+    '''    public String getCity()
+    '''
 def setCity():
-'''public void setCity(final String city)
-'''
-pass
+    '''    public void setCity(final String city)
+    '''
 def isCitySpecified():
-'''public boolean isCitySpecified()
-'''
-pass
+    '''    public boolean isCitySpecified()
+    '''
 def unsetCity():
-'''public void unsetCity()
-'''
-pass
+    '''    public void unsetCity()
+    '''
 def getCompanyName():
-'''public String getCompanyName()
-'''
-pass
+    '''    public String getCompanyName()
+    '''
 def setCompanyName():
-'''public void setCompanyName(final String companyName)
-'''
-pass
+    '''    public void setCompanyName(final String companyName)
+    '''
 def isCompanyNameSpecified():
-'''public boolean isCompanyNameSpecified()
-'''
-pass
+    '''    public boolean isCompanyNameSpecified()
+    '''
 def unsetCompanyName():
-'''public void unsetCompanyName()
-'''
-pass
+    '''    public void unsetCompanyName()
+    '''
 def getCountry():
-'''public String getCountry()
-'''
-pass
+    '''    public String getCountry()
+    '''
 def setCountry():
-'''public void setCountry(final String country)
-'''
-pass
+    '''    public void setCountry(final String country)
+    '''
 def isCountrySpecified():
-'''public boolean isCountrySpecified()
-'''
-pass
+    '''    public boolean isCountrySpecified()
+    '''
 def unsetCountry():
-'''public void unsetCountry()
-'''
-pass
+    '''    public void unsetCountry()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def isEmailSpecified():
-'''public boolean isEmailSpecified()
-'''
-pass
+    '''    public boolean isEmailSpecified()
+    '''
 def unsetEmail():
-'''public void unsetEmail()
-'''
-pass
+    '''    public void unsetEmail()
+    '''
 def getFaxPhone():
-'''public String getFaxPhone()
-'''
-pass
+    '''    public String getFaxPhone()
+    '''
 def setFaxPhone():
-'''public void setFaxPhone(final String faxPhone)
-'''
-pass
+    '''    public void setFaxPhone(final String faxPhone)
+    '''
 def isFaxPhoneSpecified():
-'''public boolean isFaxPhoneSpecified()
-'''
-pass
+    '''    public boolean isFaxPhoneSpecified()
+    '''
 def unsetFaxPhone():
-'''public void unsetFaxPhone()
-'''
-pass
+    '''    public void unsetFaxPhone()
+    '''
 def getFirstName():
-'''public String getFirstName()
-'''
-pass
+    '''    public String getFirstName()
+    '''
 def setFirstName():
-'''public void setFirstName(final String firstName)
-'''
-pass
+    '''    public void setFirstName(final String firstName)
+    '''
 def isFirstNameSpecified():
-'''public boolean isFirstNameSpecified()
-'''
-pass
+    '''    public boolean isFirstNameSpecified()
+    '''
 def unsetFirstName():
-'''public void unsetFirstName()
-'''
-pass
+    '''    public void unsetFirstName()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getJobTitle():
-'''public String getJobTitle()
-'''
-pass
+    '''    public String getJobTitle()
+    '''
 def setJobTitle():
-'''public void setJobTitle(final String jobTitle)
-'''
-pass
+    '''    public void setJobTitle(final String jobTitle)
+    '''
 def isJobTitleSpecified():
-'''public boolean isJobTitleSpecified()
-'''
-pass
+    '''    public boolean isJobTitleSpecified()
+    '''
 def unsetJobTitle():
-'''public void unsetJobTitle()
-'''
-pass
+    '''    public void unsetJobTitle()
+    '''
 def getLastName():
-'''public String getLastName()
-'''
-pass
+    '''    public String getLastName()
+    '''
 def setLastName():
-'''public void setLastName(final String lastName)
-'''
-pass
+    '''    public void setLastName(final String lastName)
+    '''
 def isLastNameSpecified():
-'''public boolean isLastNameSpecified()
-'''
-pass
+    '''    public boolean isLastNameSpecified()
+    '''
 def unsetLastName():
-'''public void unsetLastName()
-'''
-pass
+    '''    public void unsetLastName()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getOfficePhone():
-'''public String getOfficePhone()
-'''
-pass
+    '''    public String getOfficePhone()
+    '''
 def setOfficePhone():
-'''public void setOfficePhone(final String officePhone)
-'''
-pass
+    '''    public void setOfficePhone(final String officePhone)
+    '''
 def isOfficePhoneSpecified():
-'''public boolean isOfficePhoneSpecified()
-'''
-pass
+    '''    public boolean isOfficePhoneSpecified()
+    '''
 def unsetOfficePhone():
-'''public void unsetOfficePhone()
-'''
-pass
+    '''    public void unsetOfficePhone()
+    '''
 def getPostalCode():
-'''public String getPostalCode()
-'''
-pass
+    '''    public String getPostalCode()
+    '''
 def setPostalCode():
-'''public void setPostalCode(final String postalCode)
-'''
-pass
+    '''    public void setPostalCode(final String postalCode)
+    '''
 def isPostalCodeSpecified():
-'''public boolean isPostalCodeSpecified()
-'''
-pass
+    '''    public boolean isPostalCodeSpecified()
+    '''
 def unsetPostalCode():
-'''public void unsetPostalCode()
-'''
-pass
+    '''    public void unsetPostalCode()
+    '''
 def getProfileName():
-'''public String getProfileName()
-'''
-pass
+    '''    public String getProfileName()
+    '''
 def setProfileName():
-'''public void setProfileName(final String profileName)
-'''
-pass
+    '''    public void setProfileName(final String profileName)
+    '''
 def isProfileNameSpecified():
-'''public boolean isProfileNameSpecified()
-'''
-pass
+    '''    public boolean isProfileNameSpecified()
+    '''
 def unsetProfileName():
-'''public void unsetProfileName()
-'''
-pass
+    '''    public void unsetProfileName()
+    '''
 def getState():
-'''public String getState()
-'''
-pass
+    '''    public String getState()
+    '''
 def setState():
-'''public void setState(final String state)
-'''
-pass
+    '''    public void setState(final String state)
+    '''
 def isStateSpecified():
-'''public boolean isStateSpecified()
-'''
-pass
+    '''    public boolean isStateSpecified()
+    '''
 def unsetState():
-'''public void unsetState()
-'''
-pass
+    '''    public void unsetState()
+    '''
 def getTypeId():
-'''public Long getTypeId()
-'''
-pass
+    '''    public Long getTypeId()
+    '''
 def setTypeId():
-'''public void setTypeId(final Long typeId)
-'''
-pass
+    '''    public void setTypeId(final Long typeId)
+    '''
 def isTypeIdSpecified():
-'''public boolean isTypeIdSpecified()
-'''
-pass
+    '''    public boolean isTypeIdSpecified()
+    '''
 def unsetTypeId():
-'''public void unsetTypeId()
-'''
-pass
+    '''    public void unsetTypeId()
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def setUrl():
-'''public void setUrl(final String url)
-'''
-pass
+    '''    public void setUrl(final String url)
+    '''
 def isUrlSpecified():
-'''public boolean isUrlSpecified()
-'''
-pass
+    '''    public boolean isUrlSpecified()
+    '''
 def unsetUrl():
-'''public void unsetUrl()
-'''
-pass
+    '''    public void unsetUrl()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def address1():
-'''public Mask address1()
-'''
-pass
+    '''    public Mask address1()
+    '''
 def address2():
-'''public Mask address2()
-'''
-pass
+    '''    public Mask address2()
+    '''
 def alternatePhone():
-'''public Mask alternatePhone()
-'''
-pass
+    '''    public Mask alternatePhone()
+    '''
 def city():
-'''public Mask city()
-'''
-pass
+    '''    public Mask city()
+    '''
 def companyName():
-'''public Mask companyName()
-'''
-pass
+    '''    public Mask companyName()
+    '''
 def country():
-'''public Mask country()
-'''
-pass
+    '''    public Mask country()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def email():
-'''public Mask email()
-'''
-pass
+    '''    public Mask email()
+    '''
 def faxPhone():
-'''public Mask faxPhone()
-'''
-pass
+    '''    public Mask faxPhone()
+    '''
 def firstName():
-'''public Mask firstName()
-'''
-pass
+    '''    public Mask firstName()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def jobTitle():
-'''public Mask jobTitle()
-'''
-pass
+    '''    public Mask jobTitle()
+    '''
 def lastName():
-'''public Mask lastName()
-'''
-pass
+    '''    public Mask lastName()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def officePhone():
-'''public Mask officePhone()
-'''
-pass
+    '''    public Mask officePhone()
+    '''
 def postalCode():
-'''public Mask postalCode()
-'''
-pass
+    '''    public Mask postalCode()
+    '''
 def profileName():
-'''public Mask profileName()
-'''
-pass
+    '''    public Mask profileName()
+    '''
 def state():
-'''public Mask state()
-'''
-pass
+    '''    public Mask state()
+    '''
 def typeId():
-'''public Mask typeId()
-'''
-pass
+    '''    public Mask typeId()
+    '''
 def url():
-'''public Mask url()
-'''
-pass
+    '''    public Mask url()
+    '''

@@ -1,32 +1,24 @@
 def get():
-'''public static synchronized LocalProperties get(final Project project)
-'''
-pass
+    '''    public static synchronized LocalProperties get(final Project project)
+    '''
 def addLocal():
-'''public void addLocal(final String property)
-'''
-pass
+    '''    public void addLocal(final String property)
+    '''
 def enterScope():
-'''public void enterScope()
-'''
-pass
+    '''    public void enterScope()
+    '''
 def exitScope():
-'''public void exitScope()
-'''
-pass
+    '''    public void exitScope()
+    '''
 def copy():
-'''public void copy()
-'''
-pass
+    '''    public void copy()
+    '''
 def evaluate():
-'''public Object evaluate(final String property, final PropertyHelper helper)
-'''
-pass
+    '''    public Object evaluate(final String property, final PropertyHelper helper)
+    '''
 def setNew():
-'''public boolean setNew(final String property, final Object value, final PropertyHelper propertyHelper)
-'''
-pass
+    '''    public boolean setNew(final String property, final Object value, final PropertyHelper propertyHelper)
+    '''
 def set():
-'''public boolean set(final String property, final Object value, final PropertyHelper propertyHelper)
-'''
-pass
+    '''    public boolean set(final String property, final Object value, final PropertyHelper propertyHelper)
+    '''

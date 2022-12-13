@@ -1,20 +1,15 @@
 def ApptBookWorkOrderBean():
-'''public ApptBookWorkOrderBean()
-'''
-pass
+    '''    public ApptBookWorkOrderBean()
+    '''
 def clearapptbk():
-'''public int clearapptbk()
-'''
-pass
+    '''    public int clearapptbk()
+    '''
 def searchapptbk():
-'''public int searchapptbk()
-'''
-pass
+    '''    public int searchapptbk()
+    '''
 def setApptBook():
-'''public void setApptBook()
-'''
-pass
+    '''    public void setApptBook()
+    '''
 def getApptBook():
-'''public MboRemote getApptBook()
-'''
-pass
+    '''    public MboRemote getApptBook()
+    '''

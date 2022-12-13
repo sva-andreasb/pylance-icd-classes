@@ -1,16 +1,12 @@
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def RSConfigFldQueryClauseName():
-'''public RSConfigFldQueryClauseName(final MboValue mbv)
-'''
-pass
+    '''    public RSConfigFldQueryClauseName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

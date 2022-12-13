@@ -1,4 +1,3 @@
 def BIMProjectSet():
-'''public BIMProjectSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMProjectSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def SKDAppletException():
-'''public SKDAppletException(final String key)
-'''
-pass
+    '''    public SKDAppletException(final String key)
+    '''
 def getErrorKey():
-'''public String getErrorKey()
-'''
-pass
+    '''    public String getErrorKey()
+    '''

@@ -1,4 +1,3 @@
 def newInstance():
-'''public static MessageFactory newInstance()
-'''
-pass
+    '''    public static MessageFactory newInstance()
+    '''

@@ -1,12 +1,9 @@
 def FldMatServLineCost():
-'''public FldMatServLineCost(final MboValue mbv)
-'''
-pass
+    '''    public FldMatServLineCost(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,12 +1,9 @@
 def C():
-'''public C(final ToImageOptions toImageOptions)
-'''
-pass
+    '''    public C(final ToImageOptions toImageOptions)
+    '''
 def a():
-'''public void a(final OutputStream dst, final int n)
-'''
-pass
+    '''    public void a(final OutputStream dst, final int n)
+    '''
 def c():
-'''public void c(final OutputStream dst)
-'''
-pass
+    '''    public void c(final OutputStream dst)
+    '''

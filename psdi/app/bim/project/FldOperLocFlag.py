@@ -1,8 +1,6 @@
 def FldOperLocFlag():
-'''public FldOperLocFlag(final MboValue mbv)
-'''
-pass
+    '''    public FldOperLocFlag(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,12 +1,9 @@
 def Dependency():
-'''public Dependency()
-'''
-pass
+    '''    public Dependency()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''

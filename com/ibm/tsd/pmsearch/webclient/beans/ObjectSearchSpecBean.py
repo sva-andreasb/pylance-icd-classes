@@ -1,4 +1,3 @@
 def ObjectSearchSpecBean():
-'''public ObjectSearchSpecBean()
-'''
-pass
+    '''    public ObjectSearchSpecBean()
+    '''

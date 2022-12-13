@@ -1,12 +1,9 @@
 def setValue():
-'''public synchronized void setValue(final String attribute, final String value)
-'''
-pass
+    '''    public synchronized void setValue(final String attribute, final String value)
+    '''
 def refreshrecords():
-'''public int refreshrecords()
-'''
-pass
+    '''    public int refreshrecords()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

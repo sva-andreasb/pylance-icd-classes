@@ -1,92 +1,69 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def setAccountAttributeType():
-'''public void setAccountAttributeType(final com.softlayer.api.service.account.attribute.Type accountAttributeType)
-'''
-pass
+    '''    public void setAccountAttributeType(final com.softlayer.api.service.account.attribute.Type accountAttributeType)
+    '''
 def getAccountAttributeTypeId():
-'''public Long getAccountAttributeTypeId()
-'''
-pass
+    '''    public Long getAccountAttributeTypeId()
+    '''
 def setAccountAttributeTypeId():
-'''public void setAccountAttributeTypeId(final Long accountAttributeTypeId)
-'''
-pass
+    '''    public void setAccountAttributeTypeId(final Long accountAttributeTypeId)
+    '''
 def isAccountAttributeTypeIdSpecified():
-'''public boolean isAccountAttributeTypeIdSpecified()
-'''
-pass
+    '''    public boolean isAccountAttributeTypeIdSpecified()
+    '''
 def unsetAccountAttributeTypeId():
-'''public void unsetAccountAttributeTypeId()
-'''
-pass
+    '''    public void unsetAccountAttributeTypeId()
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def isValueSpecified():
-'''public boolean isValueSpecified()
-'''
-pass
+    '''    public boolean isValueSpecified()
+    '''
 def unsetValue():
-'''public void unsetValue()
-'''
-pass
+    '''    public void unsetValue()
+    '''
 def accountAttributeTypeId():
-'''public Mask accountAttributeTypeId()
-'''
-pass
+    '''    public Mask accountAttributeTypeId()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def value():
-'''public Mask value()
-'''
-pass
+    '''    public Mask value()
+    '''

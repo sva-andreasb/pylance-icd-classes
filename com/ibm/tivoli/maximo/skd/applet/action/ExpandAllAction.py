@@ -1,8 +1,6 @@
 def ExpandAllAction():
-'''public ExpandAllAction(final IlvHierarchyChart chart)
-'''
-pass
+    '''    public ExpandAllAction(final IlvHierarchyChart chart)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''

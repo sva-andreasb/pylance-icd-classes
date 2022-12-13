@@ -1,4 +1,3 @@
 def DDParamsSet():
-'''public DDParamsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DDParamsSet(final MboServerInterface ms)
+    '''

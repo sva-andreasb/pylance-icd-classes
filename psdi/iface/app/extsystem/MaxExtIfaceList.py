@@ -1,4 +1,3 @@
 def MaxExtIfaceList():
-'''public MaxExtIfaceList(final MboSet ms)
-'''
-pass
+    '''    public MaxExtIfaceList(final MboSet ms)
+    '''

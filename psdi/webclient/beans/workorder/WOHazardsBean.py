@@ -1,4 +1,3 @@
 def AddHazardsToWOActionHandler():
-'''public int AddHazardsToWOActionHandler()
-'''
-pass
+    '''    public int AddHazardsToWOActionHandler()
+    '''

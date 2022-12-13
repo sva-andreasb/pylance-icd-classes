@@ -1,16 +1,12 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def larger():
-'''public TimeUnit larger()
-'''
-pass
+    '''    public TimeUnit larger()
+    '''
 def smaller():
-'''public TimeUnit smaller()
-'''
-pass
+    '''    public TimeUnit smaller()
+    '''
 def ordinal():
-'''public int ordinal()
-'''
-pass
+    '''    public int ordinal()
+    '''

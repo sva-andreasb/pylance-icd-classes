@@ -1,26 +1,20 @@
-ELEMENT = "String  file-too-large""
-NAMESPACE = "String  urn:xmpp:http:upload:0""
+ELEMENT = "String  \"file-too-large\""
+NAMESPACE = "String  \"urn:xmpp:http:upload:0\""
 def FileTooLargeError():
-'''public FileTooLargeError(final long maxFileSize)
-'''
-pass
+    '''    public FileTooLargeError(final long maxFileSize)
+    '''
 def getMaxFileSize():
-'''public long getMaxFileSize()
-'''
-pass
+    '''    public long getMaxFileSize()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def from():
-'''public static FileTooLargeError from(final IQ iq)
-'''
-pass
+    '''    public static FileTooLargeError from(final IQ iq)
+    '''

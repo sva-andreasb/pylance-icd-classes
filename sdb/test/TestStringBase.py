@@ -1,20 +1,15 @@
 def TestStringBase():
-'''public TestStringBase(final String testLabel, final String baseString, final Connection jdbc, final Params params, final boolean verbose)
-'''
-pass
+    '''    public TestStringBase(final String testLabel, final String baseString, final Connection jdbc, final Params params, final boolean verbose)
+    '''
 def before():
-'''public void before()
-'''
-pass
+    '''    public void before()
+    '''
 def after():
-'''public void after()
-'''
-pass
+    '''    public void after()
+    '''
 def text():
-'''public void text()
-'''
-pass
+    '''    public void text()
+    '''
 def binary():
-'''public void binary()
-'''
-pass
+    '''    public void binary()
+    '''

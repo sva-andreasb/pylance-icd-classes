@@ -1,38 +1,29 @@
 def ArrayListIterator():
-'''public ArrayListIterator(final Object array)
-public ArrayListIterator(final Object array, final int startIndex)
-public ArrayListIterator(final Object array, final int startIndex, final int endIndex)
-'''
-pass
+    '''    public ArrayListIterator(final Object array)
+    public ArrayListIterator(final Object array, final int startIndex)
+    public ArrayListIterator(final Object array, final int startIndex, final int endIndex)
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def previous():
-'''public E previous()
-'''
-pass
+    '''    public E previous()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def nextIndex():
-'''public int nextIndex()
-'''
-pass
+    '''    public int nextIndex()
+    '''
 def previousIndex():
-'''public int previousIndex()
-'''
-pass
+    '''    public int previousIndex()
+    '''
 def add():
-'''public void add(final Object o)
-'''
-pass
+    '''    public void add(final Object o)
+    '''
 def set():
-'''public void set(final Object o)
-'''
-pass
+    '''    public void set(final Object o)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

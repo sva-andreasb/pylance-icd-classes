@@ -1,4 +1,3 @@
 def FldSecurityRestrictAttributeName():
-'''public FldSecurityRestrictAttributeName(final MboValue mbv)
-'''
-pass
+    '''    public FldSecurityRestrictAttributeName(final MboValue mbv)
+    '''

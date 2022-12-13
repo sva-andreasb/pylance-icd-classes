@@ -1,8 +1,6 @@
 def FldReorderItemsDirectIssue():
-'''public FldReorderItemsDirectIssue(final MboValue mbv)
-'''
-pass
+    '''    public FldReorderItemsDirectIssue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

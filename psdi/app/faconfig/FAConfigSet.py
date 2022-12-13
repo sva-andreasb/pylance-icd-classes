@@ -1,12 +1,9 @@
 def FAConfigSet():
-'''public FAConfigSet(final MboServerInterface ms)
-'''
-pass
+    '''    public FAConfigSet(final MboServerInterface ms)
+    '''
 def updateFavApps():
-'''public void updateFavApps(final MboSetRemote dataSet)
-'''
-pass
+    '''    public void updateFavApps(final MboSetRemote dataSet)
+    '''
 def getFavoriteApps():
-'''public TreeMap getFavoriteApps()
-'''
-pass
+    '''    public TreeMap getFavoriteApps()
+    '''

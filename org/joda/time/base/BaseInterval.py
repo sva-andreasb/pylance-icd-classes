@@ -1,12 +1,9 @@
 def getChronology():
-'''public Chronology getChronology()
-'''
-pass
+    '''    public Chronology getChronology()
+    '''
 def getStartMillis():
-'''public long getStartMillis()
-'''
-pass
+    '''    public long getStartMillis()
+    '''
 def getEndMillis():
-'''public long getEndMillis()
-'''
-pass
+    '''    public long getEndMillis()
+    '''

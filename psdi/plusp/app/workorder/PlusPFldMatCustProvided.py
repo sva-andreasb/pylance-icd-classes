@@ -1,8 +1,6 @@
 def PlusPFldMatCustProvided():
-'''public PlusPFldMatCustProvided(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldMatCustProvided(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

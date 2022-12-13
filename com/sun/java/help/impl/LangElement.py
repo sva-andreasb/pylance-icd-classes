@@ -1,12 +1,9 @@
 def LangElement():
-'''public LangElement(final Tag tag, final Locale locale)
-'''
-pass
+    '''    public LangElement(final Tag tag, final Locale locale)
+    '''
 def getTag():
-'''public Tag getTag()
-'''
-pass
+    '''    public Tag getTag()
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''

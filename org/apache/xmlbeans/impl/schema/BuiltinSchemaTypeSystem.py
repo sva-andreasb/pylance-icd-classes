@@ -1,108 +1,81 @@
 def get():
-'''public static SchemaTypeSystem get()
-'''
-pass
+    '''    public static SchemaTypeSystem get()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isNamespaceDefined():
-'''public boolean isNamespaceDefined(final String namespace)
-'''
-pass
+    '''    public boolean isNamespaceDefined(final String namespace)
+    '''
 def findType():
-'''public SchemaType findType(final QName name)
-'''
-pass
+    '''    public SchemaType findType(final QName name)
+    '''
 def findDocumentType():
-'''public SchemaType findDocumentType(final QName name)
-'''
-pass
+    '''    public SchemaType findDocumentType(final QName name)
+    '''
 def findAttributeType():
-'''public SchemaType findAttributeType(final QName name)
-'''
-pass
+    '''    public SchemaType findAttributeType(final QName name)
+    '''
 def findElement():
-'''public SchemaGlobalElement findElement(final QName name)
-'''
-pass
+    '''    public SchemaGlobalElement findElement(final QName name)
+    '''
 def findAttribute():
-'''public SchemaGlobalAttribute findAttribute(final QName name)
-'''
-pass
+    '''    public SchemaGlobalAttribute findAttribute(final QName name)
+    '''
 def typeForClassname():
-'''public SchemaType typeForClassname(final String classname)
-'''
-pass
+    '''    public SchemaType typeForClassname(final String classname)
+    '''
 def getSourceAsStream():
-'''public InputStream getSourceAsStream(final String sourceName)
-'''
-pass
+    '''    public InputStream getSourceAsStream(final String sourceName)
+    '''
 def globalTypes():
-'''public SchemaType[] globalTypes()
-'''
-pass
+    '''    public SchemaType[] globalTypes()
+    '''
 def documentTypes():
-'''public SchemaType[] documentTypes()
-'''
-pass
+    '''    public SchemaType[] documentTypes()
+    '''
 def attributeTypes():
-'''public SchemaType[] attributeTypes()
-'''
-pass
+    '''    public SchemaType[] attributeTypes()
+    '''
 def globalElements():
-'''public SchemaGlobalElement[] globalElements()
-'''
-pass
+    '''    public SchemaGlobalElement[] globalElements()
+    '''
 def globalAttributes():
-'''public SchemaGlobalAttribute[] globalAttributes()
-'''
-pass
+    '''    public SchemaGlobalAttribute[] globalAttributes()
+    '''
 def modelGroups():
-'''public SchemaModelGroup[] modelGroups()
-'''
-pass
+    '''    public SchemaModelGroup[] modelGroups()
+    '''
 def attributeGroups():
-'''public SchemaAttributeGroup[] attributeGroups()
-'''
-pass
+    '''    public SchemaAttributeGroup[] attributeGroups()
+    '''
 def annotations():
-'''public SchemaAnnotation[] annotations()
-'''
-pass
+    '''    public SchemaAnnotation[] annotations()
+    '''
 def handleForType():
-'''public String handleForType(final SchemaType type)
-'''
-pass
+    '''    public String handleForType(final SchemaType type)
+    '''
 def getClassLoader():
-'''public ClassLoader getClassLoader()
-'''
-pass
+    '''    public ClassLoader getClassLoader()
+    '''
 def saveToDirectory():
-'''public void saveToDirectory(final File classDir)
-'''
-pass
+    '''    public void saveToDirectory(final File classDir)
+    '''
 def save():
-'''public void save(final Filer filer)
-'''
-pass
+    '''    public void save(final Filer filer)
+    '''
 def resolve():
-'''public void resolve()
-'''
-pass
+    '''    public void resolve()
+    '''
 def typeForHandle():
-'''public SchemaType typeForHandle(final String handle)
-'''
-pass
+    '''    public SchemaType typeForHandle(final String handle)
+    '''
 def resolveHandle():
-'''public SchemaComponent resolveHandle(final String handle)
-'''
-pass
+    '''    public SchemaComponent resolveHandle(final String handle)
+    '''
 def fillInType():
-'''public void fillInType(final int btc)
-'''
-pass
+    '''    public void fillInType(final int btc)
+    '''
 def getNoType():
-'''public static SchemaType getNoType()
-'''
-pass
+    '''    public static SchemaType getNoType()
+    '''

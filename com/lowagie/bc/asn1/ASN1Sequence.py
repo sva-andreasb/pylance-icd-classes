@@ -1,29 +1,22 @@
 def ASN1Sequence():
-'''public ASN1Sequence()
-'''
-pass
+    '''    public ASN1Sequence()
+    '''
 def getInstance():
-'''public static ASN1Sequence getInstance(final Object obj)
-public static ASN1Sequence getInstance(final ASN1TaggedObject obj, final boolean explicit)
-'''
-pass
+    '''    public static ASN1Sequence getInstance(final Object obj)
+    public static ASN1Sequence getInstance(final ASN1TaggedObject obj, final boolean explicit)
+    '''
 def getObjects():
-'''public Enumeration getObjects()
-'''
-pass
+    '''    public Enumeration getObjects()
+    '''
 def getObjectAt():
-'''public DEREncodable getObjectAt(final int index)
-'''
-pass
+    '''    public DEREncodable getObjectAt(final int index)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

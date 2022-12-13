@@ -1,12 +1,9 @@
 def ViewWOByAssetBean():
-'''public ViewWOByAssetBean()
-'''
-pass
+    '''    public ViewWOByAssetBean()
+    '''
 def doRefresh():
-'''public int doRefresh()
-'''
-pass
+    '''    public int doRefresh()
+    '''
 def setRefreshHistoryTaskValue():
-'''public int setRefreshHistoryTaskValue(final String[] historyAndTaskFromViewWOPMs)
-'''
-pass
+    '''    public int setRefreshHistoryTaskValue(final String[] historyAndTaskFromViewWOPMs)
+    '''

@@ -1,8 +1,6 @@
 def nextResource():
-'''public Resource nextResource()
-'''
-pass
+    '''    public Resource nextResource()
+    '''
 def nextResourceName():
-'''public String nextResourceName()
-'''
-pass
+    '''    public String nextResourceName()
+    '''

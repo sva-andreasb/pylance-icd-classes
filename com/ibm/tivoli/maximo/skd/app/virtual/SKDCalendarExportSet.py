@@ -1,24 +1,18 @@
 def SKDCalendarExportSet():
-'''public SKDCalendarExportSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDCalendarExportSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def isExportToFiles():
-'''public boolean isExportToFiles()
-'''
-pass
+    '''    public boolean isExportToFiles()
+    '''
 def setResources():
-'''public void setResources(final Map<Long, String> resources)
-'''
-pass
+    '''    public void setResources(final Map<Long, String> resources)
+    '''
 def setProjectName():
-'''public void setProjectName(final String projectName)
-'''
-pass
+    '''    public void setProjectName(final String projectName)
+    '''

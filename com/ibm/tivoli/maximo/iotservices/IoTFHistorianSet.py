@@ -1,8 +1,6 @@
 def IoTFHistorianSet():
-'''public IoTFHistorianSet(final MboServerInterface ms)
-'''
-pass
+    '''    public IoTFHistorianSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

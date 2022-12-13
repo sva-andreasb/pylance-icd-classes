@@ -1,164 +1,123 @@
 def SKDPropertyInfo():
-'''public SKDPropertyInfo()
-'''
-pass
+    '''    public SKDPropertyInfo()
+    '''
 def getPropertyName():
-'''public String getPropertyName()
-'''
-pass
+    '''    public String getPropertyName()
+    '''
 def setPropertyName():
-'''public void setPropertyName(final String propertyName)
-'''
-pass
+    '''    public void setPropertyName(final String propertyName)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getAttrName():
-'''public String getAttrName()
-'''
-pass
+    '''    public String getAttrName()
+    '''
 def setAttrName():
-'''public void setAttrName(final String attrName)
-'''
-pass
+    '''    public void setAttrName(final String attrName)
+    '''
 def getSKDObjectName():
-'''public String getSKDObjectName()
-'''
-pass
+    '''    public String getSKDObjectName()
+    '''
 def setSKDObjectName():
-'''public void setSKDObjectName(final String skdObjectName)
-'''
-pass
+    '''    public void setSKDObjectName(final String skdObjectName)
+    '''
 def getSKDAttrName():
-'''public String getSKDAttrName()
-'''
-pass
+    '''    public String getSKDAttrName()
+    '''
 def setSKDAttrName():
-'''public void setSKDAttrName(final String skdAttrName)
-'''
-pass
+    '''    public void setSKDAttrName(final String skdAttrName)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def setPersistent():
-'''public void setPersistent(final boolean persistent)
-'''
-pass
+    '''    public void setPersistent(final boolean persistent)
+    '''
 def isInternal():
-'''public boolean isInternal()
-'''
-pass
+    '''    public boolean isInternal()
+    '''
 def setInternal():
-'''public void setInternal(final boolean internal)
-'''
-pass
+    '''    public void setInternal(final boolean internal)
+    '''
 def hasApplink():
-'''public boolean hasApplink()
-'''
-pass
+    '''    public boolean hasApplink()
+    '''
 def setApplink():
-'''public void setApplink(final boolean hasApplink)
-'''
-pass
+    '''    public void setApplink(final boolean hasApplink)
+    '''
 def showTable():
-'''public boolean showTable()
-'''
-pass
+    '''    public boolean showTable()
+    '''
 def setShowTable():
-'''public void setShowTable(final boolean showTable)
-'''
-pass
+    '''    public void setShowTable(final boolean showTable)
+    '''
 def isFilterable():
-'''public boolean isFilterable()
-'''
-pass
+    '''    public boolean isFilterable()
+    '''
 def setFilterable():
-'''public void setFilterable(final boolean filterable)
-'''
-pass
+    '''    public void setFilterable(final boolean filterable)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final int order)
-'''
-pass
+    '''    public void setOrder(final int order)
+    '''
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final int width)
-'''
-pass
+    '''    public void setWidth(final int width)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getApplinkAppList():
-'''public List<String> getApplinkAppList()
-'''
-pass
+    '''    public List<String> getApplinkAppList()
+    '''
 def setApplinkAppList():
-'''public void setApplinkAppList(final List<String> applinkAppList)
-'''
-pass
+    '''    public void setApplinkAppList(final List<String> applinkAppList)
+    '''
 def getApplinkObject():
-'''public String getApplinkObject()
-'''
-pass
+    '''    public String getApplinkObject()
+    '''
 def setApplinkObject():
-'''public void setApplinkObject(final String applinkObject)
-'''
-pass
+    '''    public void setApplinkObject(final String applinkObject)
+    '''
 def isAlwaysVisible():
-'''public boolean isAlwaysVisible()
-'''
-pass
+    '''    public boolean isAlwaysVisible()
+    '''
 def setAlwaysVisible():
-'''public void setAlwaysVisible(final boolean alwaysVisible)
-'''
-pass
+    '''    public void setAlwaysVisible(final boolean alwaysVisible)
+    '''
 def canBeSorted():
-'''public boolean canBeSorted()
-'''
-pass
+    '''    public boolean canBeSorted()
+    '''
 def setCanBeSorted():
-'''public void setCanBeSorted(final boolean canBeSorted)
-'''
-pass
+    '''    public void setCanBeSorted(final boolean canBeSorted)
+    '''
 def canBeGrouped():
-'''public boolean canBeGrouped()
-'''
-pass
+    '''    public boolean canBeGrouped()
+    '''
 def setCanBeGrouped():
-'''public void setCanBeGrouped(final boolean canBeGrouped)
-'''
-pass
+    '''    public void setCanBeGrouped(final boolean canBeGrouped)
+    '''
 def isLocked():
-'''public boolean isLocked()
-'''
-pass
+    '''    public boolean isLocked()
+    '''
 def setLocked():
-'''public void setLocked(final boolean locked)
-'''
-pass
+    '''    public void setLocked(final boolean locked)
+    '''

@@ -1,4 +1,3 @@
 def SourceOrTargetAssetBean():
-'''public SourceOrTargetAssetBean()
-'''
-pass
+    '''    public SourceOrTargetAssetBean()
+    '''

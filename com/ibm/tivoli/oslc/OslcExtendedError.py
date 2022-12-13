@@ -1,45 +1,34 @@
 def OslcExtendedError():
-'''public OslcExtendedError()
-public OslcExtendedError(final String moreInfo, final String rel, final String hintWidth, final String hintHeight)
-'''
-pass
+    '''    public OslcExtendedError()
+    public OslcExtendedError(final String moreInfo, final String rel, final String hintWidth, final String hintHeight)
+    '''
 def toJSON():
-'''public String toJSON()
-'''
-pass
+    '''    public String toJSON()
+    '''
 def toRDF():
-'''public String toRDF()
-'''
-pass
+    '''    public String toRDF()
+    '''
 def getMoreInfo():
-'''public String getMoreInfo()
-'''
-pass
+    '''    public String getMoreInfo()
+    '''
 def getRel():
-'''public String getRel()
-'''
-pass
+    '''    public String getRel()
+    '''
 def getHintWidth():
-'''public String getHintWidth()
-'''
-pass
+    '''    public String getHintWidth()
+    '''
 def getHintHeight():
-'''public String getHintHeight()
-'''
-pass
+    '''    public String getHintHeight()
+    '''
 def setMoreInfo():
-'''public void setMoreInfo(final String moreInfo)
-'''
-pass
+    '''    public void setMoreInfo(final String moreInfo)
+    '''
 def setRel():
-'''public void setRel(final String rel)
-'''
-pass
+    '''    public void setRel(final String rel)
+    '''
 def setHintWidth():
-'''public void setHintWidth(final String hintWidth)
-'''
-pass
+    '''    public void setHintWidth(final String hintWidth)
+    '''
 def setHintHeight():
-'''public void setHintHeight(final String hintHeight)
-'''
-pass
+    '''    public void setHintHeight(final String hintHeight)
+    '''

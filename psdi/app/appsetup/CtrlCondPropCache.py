@@ -1,42 +1,32 @@
 def CtrlCondPropCache():
-'''public CtrlCondPropCache()
-'''
-pass
+    '''    public CtrlCondPropCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-public void init(final MXServer mxs)
-'''
-pass
+    '''    public void init()
+    public void init(final MXServer mxs)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getPropertyCache():
-'''public HashMap<String, String> getPropertyCache(final UserInfo ui, final String ctrlConditionID, final String result)
-'''
-pass
+    '''    public HashMap<String, String> getPropertyCache(final UserInfo ui, final String ctrlConditionID, final String result)
+    '''
 def getLoadedProperties():
-'''public HashMap<String, String> getLoadedProperties(final String langCode, final String ctrlConditionID, final String result)
-'''
-pass
+    '''    public HashMap<String, String> getLoadedProperties(final String langCode, final String ctrlConditionID, final String result)
+    '''
 def getCtrlGroups():
-'''public TreeMap<Integer, HashMap<String, Object>> getCtrlGroups(final String app, final String optionname)
-'''
-pass
+    '''    public TreeMap<Integer, HashMap<String, Object>> getCtrlGroups(final String app, final String optionname)
+    '''
 def getCtrlConditions():
-'''public TreeMap<Integer, String[]> getCtrlConditions(final String app, final String optionname, final HashSet groupNames)
-'''
-pass
+    '''    public TreeMap<Integer, String[]> getCtrlConditions(final String app, final String optionname, final HashSet groupNames)
+    '''
 def getPropertyList():
-'''public TreeSet<String> getPropertyList()
-'''
-pass
+    '''    public TreeSet<String> getPropertyList()
+    '''
 def setPropertyList():
-'''public void setPropertyList(final TreeSet<String> propertyList)
-'''
-pass
+    '''    public void setPropertyList(final TreeSet<String> propertyList)
+    '''

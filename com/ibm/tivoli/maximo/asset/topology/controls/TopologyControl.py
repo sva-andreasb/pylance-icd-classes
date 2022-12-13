@@ -1,52 +1,39 @@
 def TopologyControl():
-'''public TopologyControl()
-'''
-pass
+    '''    public TopologyControl()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def handleServletRequest():
-'''public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public boolean handleServletRequest(final ServletContext context, final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def getTopologyMaxNodes():
-'''public int getTopologyMaxNodes()
-'''
-pass
+    '''    public int getTopologyMaxNodes()
+    '''
 def setTopologyMaxNodes():
-'''public void setTopologyMaxNodes(final int topologyMaxNodes)
-'''
-pass
+    '''    public void setTopologyMaxNodes(final int topologyMaxNodes)
+    '''
 def getTopologyDepth():
-'''public String getTopologyDepth()
-'''
-pass
+    '''    public String getTopologyDepth()
+    '''
 def setTopologyDepth():
-'''public void setTopologyDepth(final String topologyDepth)
-'''
-pass
+    '''    public void setTopologyDepth(final String topologyDepth)
+    '''
 def getTopologyInitDepth():
-'''public String getTopologyInitDepth()
-'''
-pass
+    '''    public String getTopologyInitDepth()
+    '''
 def setTopologyInitDepth():
-'''public void setTopologyInitDepth(final String topologyInitDepth)
-'''
-pass
+    '''    public void setTopologyInitDepth(final String topologyInitDepth)
+    '''
 def isDetailView():
-'''public boolean isDetailView()
-'''
-pass
+    '''    public boolean isDetailView()
+    '''
 def setDetailView():
-'''public void setDetailView(final String detailView)
-'''
-pass
+    '''    public void setDetailView(final String detailView)
+    '''
 def getImpactedAsset():
-'''public Hashtable<String, Boolean> getImpactedAsset()
-'''
-pass
+    '''    public Hashtable<String, Boolean> getImpactedAsset()
+    '''
 def setImpactedAsset():
-'''public void setImpactedAsset(final Hashtable<String, Boolean> impactedAsset)
-'''
-pass
+    '''    public void setImpactedAsset(final Hashtable<String, Boolean> impactedAsset)
+    '''

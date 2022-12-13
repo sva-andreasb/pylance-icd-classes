@@ -1,70 +1,53 @@
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setDescription():
-'''public void setDescription(final String desc)
-'''
-pass
+    '''    public void setDescription(final String desc)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setOrder():
-'''public void setOrder(final int c)
-'''
-pass
+    '''    public void setOrder(final int c)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def SimpleAuth():
-'''public SimpleAuth()
-public SimpleAuth(final String usr, final String pass)
-public SimpleAuth(final String usr, final String pass, final String name, final String desc)
-'''
-pass
+    '''    public SimpleAuth()
+    public SimpleAuth(final String usr, final String pass)
+    public SimpleAuth(final String usr, final String pass, final String name, final String desc)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def setUserName():
-'''public void setUserName(final String name)
-'''
-pass
+    '''    public void setUserName(final String name)
+    '''
 def setPassword():
-'''public void setPassword(final String pwd)
-'''
-pass
+    '''    public void setPassword(final String pwd)
+    '''
 def setTrustStoreSSLAuth():
-'''public void setTrustStoreSSLAuth(final SSLAuth truststore)
-'''
-pass
+    '''    public void setTrustStoreSSLAuth(final SSLAuth truststore)
+    '''
 def setKeyStoreSSLAuth():
-'''public void setKeyStoreSSLAuth(final SSLAuth keystore)
-'''
-pass
+    '''    public void setKeyStoreSSLAuth(final SSLAuth keystore)
+    '''
 def getTrustStoreSSLAuth():
-'''public SSLAuth getTrustStoreSSLAuth()
-'''
-pass
+    '''    public SSLAuth getTrustStoreSSLAuth()
+    '''
 def getKeyStoreSSLAuth():
-'''public SSLAuth getKeyStoreSSLAuth()
-'''
-pass
+    '''    public SSLAuth getKeyStoreSSLAuth()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

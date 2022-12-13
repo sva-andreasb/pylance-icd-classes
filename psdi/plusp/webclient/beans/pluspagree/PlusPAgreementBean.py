@@ -1,16 +1,12 @@
 def REVISION():
-'''public int REVISION()
-'''
-pass
+    '''    public int REVISION()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def previewbillingdates():
-'''public void previewbillingdates()
-'''
-pass
+    '''    public void previewbillingdates()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''

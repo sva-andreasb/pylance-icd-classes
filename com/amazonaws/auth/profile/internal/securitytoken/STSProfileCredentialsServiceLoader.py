@@ -1,8 +1,6 @@
 def getAssumeRoleCredentialsProvider():
-'''public AWSCredentialsProvider getAssumeRoleCredentialsProvider(final RoleInfo targetRoleInfo)
-'''
-pass
+    '''    public AWSCredentialsProvider getAssumeRoleCredentialsProvider(final RoleInfo targetRoleInfo)
+    '''
 def getInstance():
-'''public static STSProfileCredentialsServiceLoader getInstance()
-'''
-pass
+    '''    public static STSProfileCredentialsServiceLoader getInstance()
+    '''

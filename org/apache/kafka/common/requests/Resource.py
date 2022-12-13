@@ -1,24 +1,18 @@
 def Resource():
-'''public Resource(final ResourceType type, final String name)
-'''
-pass
+    '''    public Resource(final ResourceType type, final String name)
+    '''
 def type():
-'''public ResourceType type()
-'''
-pass
+    '''    public ResourceType type()
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

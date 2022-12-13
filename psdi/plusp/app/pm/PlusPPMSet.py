@@ -1,4 +1,3 @@
 def PlusPPMSet():
-'''public PlusPPMSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPPMSet(final MboServerInterface arg0)
+    '''

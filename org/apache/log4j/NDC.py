@@ -1,40 +1,30 @@
 def clear():
-'''public static void clear()
-'''
-pass
+    '''    public static void clear()
+    '''
 def cloneStack():
-'''public static Stack cloneStack()
-'''
-pass
+    '''    public static Stack cloneStack()
+    '''
 def inherit():
-'''public static void inherit(final Stack<String> stack)
-'''
-pass
+    '''    public static void inherit(final Stack<String> stack)
+    '''
 def get():
-'''public static String get()
-'''
-pass
+    '''    public static String get()
+    '''
 def getDepth():
-'''public static int getDepth()
-'''
-pass
+    '''    public static int getDepth()
+    '''
 def pop():
-'''public static String pop()
-'''
-pass
+    '''    public static String pop()
+    '''
 def peek():
-'''public static String peek()
-'''
-pass
+    '''    public static String peek()
+    '''
 def push():
-'''public static void push(final String message)
-'''
-pass
+    '''    public static void push(final String message)
+    '''
 def remove():
-'''public static void remove()
-'''
-pass
+    '''    public static void remove()
+    '''
 def setMaxDepth():
-'''public static void setMaxDepth(final int maxDepth)
-'''
-pass
+    '''    public static void setMaxDepth(final int maxDepth)
+    '''

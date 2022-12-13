@@ -1,73 +1,55 @@
 def Jetty6Continuation():
-'''public Jetty6Continuation(final ServletRequest request, final org.mortbay.util.ajax.Continuation continuation)
-'''
-pass
+    '''    public Jetty6Continuation(final ServletRequest request, final org.mortbay.util.ajax.Continuation continuation)
+    '''
 def addContinuationListener():
-'''public void addContinuationListener(final ContinuationListener listener)
-'''
-pass
+    '''    public void addContinuationListener(final ContinuationListener listener)
+    '''
 def complete():
-'''public void complete()
-'''
-pass
+    '''    public void complete()
+    '''
 def getAttribute():
-'''public Object getAttribute(final String name)
-'''
-pass
+    '''    public Object getAttribute(final String name)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final String name)
-'''
-pass
+    '''    public void removeAttribute(final String name)
+    '''
 def setAttribute():
-'''public void setAttribute(final String name, final Object attribute)
-'''
-pass
+    '''    public void setAttribute(final String name, final Object attribute)
+    '''
 def getServletResponse():
-'''public ServletResponse getServletResponse()
-'''
-pass
+    '''    public ServletResponse getServletResponse()
+    '''
 def isExpired():
-'''public boolean isExpired()
-'''
-pass
+    '''    public boolean isExpired()
+    '''
 def isInitial():
-'''public boolean isInitial()
-'''
-pass
+    '''    public boolean isInitial()
+    '''
 def isResumed():
-'''public boolean isResumed()
-'''
-pass
+    '''    public boolean isResumed()
+    '''
 def isSuspended():
-'''public boolean isSuspended()
-'''
-pass
+    '''    public boolean isSuspended()
+    '''
 def resume():
-'''public void resume()
-'''
-pass
+    '''    public void resume()
+    '''
 def setTimeout():
-'''public void setTimeout(final long timeoutMs)
-'''
-pass
+    '''    public void setTimeout(final long timeoutMs)
+    '''
 def suspend():
-'''public void suspend(final ServletResponse response)
-public void suspend()
-'''
-pass
+    '''    public void suspend(final ServletResponse response)
+    public void suspend()
+    '''
 def isResponseWrapped():
-'''public boolean isResponseWrapped()
-'''
-pass
+    '''    public boolean isResponseWrapped()
+    '''
 def undispatch():
-'''public void undispatch()
-'''
-pass
+    '''    public void undispatch()
+    '''
 def enter():
-'''public boolean enter(final ServletResponse response)
-'''
-pass
+    '''    public boolean enter(final ServletResponse response)
+    '''
 def exit():
-'''public boolean exit()
-'''
-pass
+    '''    public boolean exit()
+    '''

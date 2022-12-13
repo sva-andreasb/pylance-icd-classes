@@ -1,5 +1,4 @@
 def WeightTableEntryOutOfRangeException():
-'''public WeightTableEntryOutOfRangeException()
-public WeightTableEntryOutOfRangeException(final String message)
-'''
-pass
+    '''    public WeightTableEntryOutOfRangeException()
+    public WeightTableEntryOutOfRangeException(final String message)
+    '''

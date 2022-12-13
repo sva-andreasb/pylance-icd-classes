@@ -1,170 +1,129 @@
-NONE = "String  "
-LRE = "String  \u202a""
-RLE = "String  \u202b""
-PDF = "String  \u202c""
-LRM = "String  \u200e""
-RLM = "String  \u200f""
+NONE = "String  \"\""
+LRE = "String  \"\u202a\""
+RLE = "String  \"\u202b\""
+PDF = "String  \"\u202c\""
+LRM = "String  \"\u200e\""
+RLM = "String  \"\u200f\""
 def setDefaultscenario():
-'''public void setDefaultscenario(final boolean defaultscenario)
-'''
-pass
+    '''    public void setDefaultscenario(final boolean defaultscenario)
+    '''
 def getDefaultscenario():
-'''public boolean getDefaultscenario()
-'''
-pass
+    '''    public boolean getDefaultscenario()
+    '''
 def setSnapshot():
-'''public void setSnapshot(final boolean snapshot)
-'''
-pass
+    '''    public void setSnapshot(final boolean snapshot)
+    '''
 def getSnapshot():
-'''public boolean getSnapshot()
-'''
-pass
+    '''    public boolean getSnapshot()
+    '''
 def setDailyView():
-'''public void setDailyView(final boolean dailyview)
-'''
-pass
+    '''    public void setDailyView(final boolean dailyview)
+    '''
 def getDailyView():
-'''public boolean getDailyView()
-'''
-pass
+    '''    public boolean getDailyView()
+    '''
 def getSKDFormat():
-'''public SKDFormat getSKDFormat()
-'''
-pass
+    '''    public SKDFormat getSKDFormat()
+    '''
 def getUserLocale():
-'''public Locale getUserLocale()
-'''
-pass
+    '''    public Locale getUserLocale()
+    '''
 def getUserTimeZone():
-'''public TimeZone getUserTimeZone()
-'''
-pass
+    '''    public TimeZone getUserTimeZone()
+    '''
 def getServerTimeZone():
-'''public TimeZone getServerTimeZone()
-'''
-pass
+    '''    public TimeZone getServerTimeZone()
+    '''
 def getSKDUtility():
-'''public static synchronized SKDUtility getSKDUtility()
-'''
-pass
+    '''    public static synchronized SKDUtility getSKDUtility()
+    '''
 def reset():
-'''public static synchronized void reset()
-'''
-pass
+    '''    public static synchronized void reset()
+    '''
 def SKDUtility():
-'''public SKDUtility()
-'''
-pass
+    '''    public SKDUtility()
+    '''
 def isDebugMode():
-'''public boolean isDebugMode()
-'''
-pass
+    '''    public boolean isDebugMode()
+    '''
 def setDebugMode():
-'''public void setDebugMode(final boolean debugMode)
-'''
-pass
+    '''    public void setDebugMode(final boolean debugMode)
+    '''
 def getResourceString():
-'''public String getResourceString(final String key)
-'''
-pass
+    '''    public String getResourceString(final String key)
+    '''
 def getResourceStrings():
-'''public Hashtable getResourceStrings()
-'''
-pass
+    '''    public Hashtable getResourceStrings()
+    '''
 def decodeColor():
-'''public Color decodeColor(final String hexValue)
-'''
-pass
+    '''    public Color decodeColor(final String hexValue)
+    '''
 def enforceOrientation():
-'''public void enforceOrientation(final JComponent comp)
-'''
-pass
+    '''    public void enforceOrientation(final JComponent comp)
+    '''
 def isGUIMirrored():
-'''public boolean isGUIMirrored()
-'''
-pass
+    '''    public boolean isGUIMirrored()
+    '''
 def removeMarkersForApplink():
-'''public static String removeMarkersForApplink(final String str)
-'''
-pass
+    '''    public static String removeMarkersForApplink(final String str)
+    '''
 def setGUIMirrored():
-'''public void setGUIMirrored(final String langcode)
-'''
-pass
+    '''    public void setGUIMirrored(final String langcode)
+    '''
 def isBIDIEnabled():
-'''public boolean isBIDIEnabled()
-'''
-pass
+    '''    public boolean isBIDIEnabled()
+    '''
 def setBIDIEnabled():
-'''public void setBIDIEnabled(final String value)
-'''
-pass
+    '''    public void setBIDIEnabled(final String value)
+    '''
 def replaceString():
-'''public static String replaceString(String str, final String pattern, final String replacement)
-'''
-pass
+    '''    public static String replaceString(String str, final String pattern, final String replacement)
+    '''
 def removeMarkers():
-'''public static String removeMarkers(final String str)
-'''
-pass
+    '''    public static String removeMarkers(final String str)
+    '''
 def isBiDiString():
-'''public static boolean isBiDiString(final String str)
-'''
-pass
+    '''    public static boolean isBiDiString(final String str)
+    '''
 def todaysDate():
-'''public Date todaysDate()
-'''
-pass
+    '''    public Date todaysDate()
+    '''
 def getServerDate():
-'''public Date getServerDate(Date oldDate)
-'''
-pass
+    '''    public Date getServerDate(Date oldDate)
+    '''
 def getServerDateForUser():
-'''public Date getServerDateForUser(Date serverDate)
-'''
-pass
+    '''    public Date getServerDateForUser(Date serverDate)
+    '''
 def getDate():
-'''public Date getDate(final Locale l, final TimeZone tz, final Date date)
-'''
-pass
+    '''    public Date getDate(final Locale l, final TimeZone tz, final Date date)
+    '''
 def areServerAndUserTZDifferent():
-'''public boolean areServerAndUserTZDifferent()
-'''
-pass
+    '''    public boolean areServerAndUserTZDifferent()
+    '''
 def isComplianceEnabled():
-'''public boolean isComplianceEnabled()
-'''
-pass
+    '''    public boolean isComplianceEnabled()
+    '''
 def setComplianceEnabled():
-'''public void setComplianceEnabled(final boolean complianceEnabled)
-'''
-pass
+    '''    public void setComplianceEnabled(final boolean complianceEnabled)
+    '''
 def needSendModelChange():
-'''public boolean needSendModelChange()
-'''
-pass
+    '''    public boolean needSendModelChange()
+    '''
 def setSendModelchange():
-'''public void setSendModelchange(final boolean sendModelchange)
-'''
-pass
+    '''    public void setSendModelchange(final boolean sendModelchange)
+    '''
 def sendToBeSaved():
-'''public boolean sendToBeSaved()
-'''
-pass
+    '''    public boolean sendToBeSaved()
+    '''
 def setToBeSaved():
-'''public void setToBeSaved(final boolean sendtobesaved)
-'''
-pass
+    '''    public void setToBeSaved(final boolean sendtobesaved)
+    '''
 def isEmpty():
-'''public static boolean isEmpty(final String text)
-'''
-pass
+    '''    public static boolean isEmpty(final String text)
+    '''
 def getColorProperty():
-'''public Color getColorProperty(final String propName, Color defaultColor)
-'''
-pass
+    '''    public Color getColorProperty(final String propName, Color defaultColor)
+    '''
 def getSnapToGridIntervalMins():
-'''public int getSnapToGridIntervalMins(final UISerializationHelper helper)
-'''
-pass
+    '''    public int getSnapToGridIntervalMins(final UISerializationHelper helper)
+    '''

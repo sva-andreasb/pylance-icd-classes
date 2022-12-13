@@ -1,8 +1,6 @@
 def KPITemplateMainSet():
-'''public KPITemplateMainSet(final MboServerInterface ms)
-'''
-pass
+    '''    public KPITemplateMainSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

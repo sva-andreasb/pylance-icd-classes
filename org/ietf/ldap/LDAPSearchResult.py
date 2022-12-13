@@ -1,4 +1,3 @@
 def getEntry():
-'''public LDAPEntry getEntry()
-'''
-pass
+    '''    public LDAPEntry getEntry()
+    '''

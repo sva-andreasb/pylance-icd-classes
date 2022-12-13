@@ -1,29 +1,22 @@
 def GResourceProjectAppBean():
-'''public GResourceProjectAppBean()
-'''
-pass
+    '''    public GResourceProjectAppBean()
+    '''
 def REFRESH():
-'''public int REFRESH()
-'''
-pass
+    '''    public int REFRESH()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def loadSchedule():
-'''public GRSchedule loadSchedule()
-'''
-pass
+    '''    public GRSchedule loadSchedule()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    public UserInfo getUserInfo()
+    '''
 def toJsonObject():
-'''public static JSONObject toJsonObject(final MboRemote mbo)
-'''
-pass
+    '''    public static JSONObject toJsonObject(final MboRemote mbo)
+    '''

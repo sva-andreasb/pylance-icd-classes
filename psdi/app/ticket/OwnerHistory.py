@@ -1,8 +1,6 @@
 def OwnerHistory():
-'''public OwnerHistory(final MboSet ms)
-'''
-pass
+    '''    public OwnerHistory(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

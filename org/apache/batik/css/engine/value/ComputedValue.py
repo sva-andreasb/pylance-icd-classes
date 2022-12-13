@@ -1,84 +1,63 @@
 def ComputedValue():
-'''public ComputedValue(final Value cv)
-'''
-pass
+    '''    public ComputedValue(final Value cv)
+    '''
 def getComputedValue():
-'''public Value getComputedValue()
-'''
-pass
+    '''    public Value getComputedValue()
+    '''
 def getCascadedValue():
-'''public Value getCascadedValue()
-'''
-pass
+    '''    public Value getCascadedValue()
+    '''
 def setComputedValue():
-'''public void setComputedValue(final Value v)
-'''
-pass
+    '''    public void setComputedValue(final Value v)
+    '''
 def getCssText():
-'''public String getCssText()
-'''
-pass
+    '''    public String getCssText()
+    '''
 def getCssValueType():
-'''public short getCssValueType()
-'''
-pass
+    '''    public short getCssValueType()
+    '''
 def getPrimitiveType():
-'''public short getPrimitiveType()
-'''
-pass
+    '''    public short getPrimitiveType()
+    '''
 def getFloatValue():
-'''public float getFloatValue()
-'''
-pass
+    '''    public float getFloatValue()
+    '''
 def getStringValue():
-'''public String getStringValue()
-'''
-pass
+    '''    public String getStringValue()
+    '''
 def getRed():
-'''public Value getRed()
-'''
-pass
+    '''    public Value getRed()
+    '''
 def getGreen():
-'''public Value getGreen()
-'''
-pass
+    '''    public Value getGreen()
+    '''
 def getBlue():
-'''public Value getBlue()
-'''
-pass
+    '''    public Value getBlue()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def item():
-'''public Value item(final int index)
-'''
-pass
+    '''    public Value item(final int index)
+    '''
 def getTop():
-'''public Value getTop()
-'''
-pass
+    '''    public Value getTop()
+    '''
 def getRight():
-'''public Value getRight()
-'''
-pass
+    '''    public Value getRight()
+    '''
 def getBottom():
-'''public Value getBottom()
-'''
-pass
+    '''    public Value getBottom()
+    '''
 def getLeft():
-'''public Value getLeft()
-'''
-pass
+    '''    public Value getLeft()
+    '''
 def getIdentifier():
-'''public String getIdentifier()
-'''
-pass
+    '''    public String getIdentifier()
+    '''
 def getListStyle():
-'''public String getListStyle()
-'''
-pass
+    '''    public String getListStyle()
+    '''
 def getSeparator():
-'''public String getSeparator()
-'''
-pass
+    '''    public String getSeparator()
+    '''

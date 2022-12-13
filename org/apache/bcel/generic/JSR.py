@@ -1,12 +1,9 @@
 def JSR():
-'''public JSR(final InstructionHandle target)
-'''
-pass
+    '''    public JSR(final InstructionHandle target)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

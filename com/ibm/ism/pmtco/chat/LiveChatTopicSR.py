@@ -1,8 +1,6 @@
 def LiveChatTopicSR():
-'''public LiveChatTopicSR(final MboSet ms)
-'''
-pass
+    '''    public LiveChatTopicSR(final MboSet ms)
+    '''
 def addTopic():
-'''public void addTopic(final String tktemplate)
-'''
-pass
+    '''    public void addTopic(final String tktemplate)
+    '''

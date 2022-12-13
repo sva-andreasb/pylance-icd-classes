@@ -1,65 +1,49 @@
 def NullElementPointer():
-'''public NullElementPointer(final NodePointer parent, final int index)
-'''
-pass
+    '''    public NullElementPointer(final NodePointer parent, final int index)
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getBaseValue():
-'''public Object getBaseValue()
-'''
-pass
+    '''    public Object getBaseValue()
+    '''
 def getImmediateNode():
-'''public Object getImmediateNode()
-'''
-pass
+    '''    public Object getImmediateNode()
+    '''
 def isLeaf():
-'''public boolean isLeaf()
-'''
-pass
+    '''    public boolean isLeaf()
+    '''
 def isCollection():
-'''public boolean isCollection()
-'''
-pass
+    '''    public boolean isCollection()
+    '''
 def getPropertyPointer():
-'''public PropertyPointer getPropertyPointer()
-'''
-pass
+    '''    public PropertyPointer getPropertyPointer()
+    '''
 def getValuePointer():
-'''public NodePointer getValuePointer()
-'''
-pass
+    '''    public NodePointer getValuePointer()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def isActual():
-'''public boolean isActual()
-'''
-pass
+    '''    public boolean isActual()
+    '''
 def isContainer():
-'''public boolean isContainer()
-'''
-pass
+    '''    public boolean isContainer()
+    '''
 def createPath():
-'''public NodePointer createPath(final JXPathContext context)
-public NodePointer createPath(final JXPathContext context, final Object value)
-'''
-pass
+    '''    public NodePointer createPath(final JXPathContext context)
+    public NodePointer createPath(final JXPathContext context, final Object value)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def asPath():
-'''public String asPath()
-'''
-pass
+    '''    public String asPath()
+    '''

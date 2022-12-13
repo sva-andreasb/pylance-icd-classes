@@ -1,5 +1,4 @@
 def JMException():
-'''public JMException()
-public JMException(final String message)
-'''
-pass
+    '''    public JMException()
+    public JMException(final String message)
+    '''

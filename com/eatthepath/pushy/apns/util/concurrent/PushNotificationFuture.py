@@ -1,8 +1,6 @@
 def PushNotificationFuture():
-'''public PushNotificationFuture(final P pushNotification)
-'''
-pass
+    '''    public PushNotificationFuture(final P pushNotification)
+    '''
 def getPushNotification():
-'''public P getPushNotification()
-'''
-pass
+    '''    public P getPushNotification()
+    '''

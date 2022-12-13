@@ -1,8 +1,6 @@
 def MasterPMSeqSet():
-'''public MasterPMSeqSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MasterPMSeqSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

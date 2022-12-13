@@ -1,4 +1,3 @@
 def SKDActivityQBE():
-'''public SKDActivityQBE(final MboSet ms)
-'''
-pass
+    '''    public SKDActivityQBE(final MboSet ms)
+    '''

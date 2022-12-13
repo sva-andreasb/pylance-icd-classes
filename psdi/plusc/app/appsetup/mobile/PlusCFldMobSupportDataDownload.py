@@ -1,8 +1,6 @@
 def PlusCFldMobSupportDataDownload():
-'''public PlusCFldMobSupportDataDownload(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldMobSupportDataDownload(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

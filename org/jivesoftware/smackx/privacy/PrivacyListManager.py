@@ -1,93 +1,71 @@
-NAMESPACE = "String  jabber:iq:privacy""
+NAMESPACE = "String  \"jabber:iq:privacy\""
 def handleIQRequest():
-'''public IQ handleIQRequest(final IQ iqRequest)
-'''
-pass
+    '''    public IQ handleIQRequest(final IQ iqRequest)
+    '''
 def processStanza():
-'''public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-public void processStanza(final Stanza packet)
-'''
-pass
+    '''    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    public void processStanza(final Stanza packet)
+    '''
 def authenticated():
-'''public void authenticated(final XMPPConnection connection, final boolean resumed)
-'''
-pass
+    '''    public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''
 def getInstanceFor():
-'''public static synchronized PrivacyListManager getInstanceFor(final XMPPConnection connection)
-'''
-pass
+    '''    public static synchronized PrivacyListManager getInstanceFor(final XMPPConnection connection)
+    '''
 def getActiveList():
-'''public PrivacyList getActiveList()
-'''
-pass
+    '''    public PrivacyList getActiveList()
+    '''
 def getActiveListName():
-'''public String getActiveListName()
-'''
-pass
+    '''    public String getActiveListName()
+    '''
 def getDefaultList():
-'''public PrivacyList getDefaultList()
-'''
-pass
+    '''    public PrivacyList getDefaultList()
+    '''
 def getDefaultListName():
-'''public String getDefaultListName()
-'''
-pass
+    '''    public String getDefaultListName()
+    '''
 def getEffectiveListName():
-'''public String getEffectiveListName()
-'''
-pass
+    '''    public String getEffectiveListName()
+    '''
 def getPrivacyList():
-'''public PrivacyList getPrivacyList(String listName)
-'''
-pass
+    '''    public PrivacyList getPrivacyList(String listName)
+    '''
 def getPrivacyLists():
-'''public List<PrivacyList> getPrivacyLists()
-'''
-pass
+    '''    public List<PrivacyList> getPrivacyLists()
+    '''
 def setActiveListName():
-'''public void setActiveListName(final String listName)
-'''
-pass
+    '''    public void setActiveListName(final String listName)
+    '''
 def declineActiveList():
-'''public void declineActiveList()
-'''
-pass
+    '''    public void declineActiveList()
+    '''
 def setDefaultListName():
-'''public void setDefaultListName(final String listName)
-'''
-pass
+    '''    public void setDefaultListName(final String listName)
+    '''
 def declineDefaultList():
-'''public void declineDefaultList()
-'''
-pass
+    '''    public void declineDefaultList()
+    '''
 def createPrivacyList():
-'''public void createPrivacyList(final String listName, final List<PrivacyItem> privacyItems)
-'''
-pass
+    '''    public void createPrivacyList(final String listName, final List<PrivacyItem> privacyItems)
+    '''
 def updatePrivacyList():
-'''public void updatePrivacyList(final String listName, final List<PrivacyItem> privacyItems)
-'''
-pass
+    '''    public void updatePrivacyList(final String listName, final List<PrivacyItem> privacyItems)
+    '''
 def deletePrivacyList():
-'''public void deletePrivacyList(final String listName)
-'''
-pass
+    '''    public void deletePrivacyList(final String listName)
+    '''
 def addListener():
-'''public boolean addListener(final PrivacyListListener listener)
-'''
-pass
+    '''    public boolean addListener(final PrivacyListListener listener)
+    '''
 def removeListener():
-'''public boolean removeListener(final PrivacyListListener listener)
-'''
-pass
+    '''    public boolean removeListener(final PrivacyListListener listener)
+    '''
 def isSupported():
-'''public boolean isSupported()
-'''
-pass
+    '''    public boolean isSupported()
+    '''
 def connectionCreated():
-'''public void connectionCreated(final XMPPConnection connection)
-'''
-pass
+    '''    public void connectionCreated(final XMPPConnection connection)
+    '''

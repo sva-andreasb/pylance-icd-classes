@@ -1,93 +1,70 @@
-USER_AGENT_SUFFIX = "String  Google-API-Java-Client""
+USER_AGENT_SUFFIX = "String  \"Google-API-Java-Client\""
 def getDisableGZipContent():
-'''public final boolean getDisableGZipContent()
-'''
-pass
+    '''    public final boolean getDisableGZipContent()
+    '''
 def setDisableGZipContent():
-'''public AbstractGoogleClientRequest<T> setDisableGZipContent(final boolean disableGZipContent)
-'''
-pass
+    '''    public AbstractGoogleClientRequest<T> setDisableGZipContent(final boolean disableGZipContent)
+    '''
 def getRequestMethod():
-'''public final String getRequestMethod()
-'''
-pass
+    '''    public final String getRequestMethod()
+    '''
 def getUriTemplate():
-'''public final String getUriTemplate()
-'''
-pass
+    '''    public final String getUriTemplate()
+    '''
 def getHttpContent():
-'''public final HttpContent getHttpContent()
-'''
-pass
+    '''    public final HttpContent getHttpContent()
+    '''
 def getAbstractGoogleClient():
-'''public AbstractGoogleClient getAbstractGoogleClient()
-'''
-pass
+    '''    public AbstractGoogleClient getAbstractGoogleClient()
+    '''
 def getRequestHeaders():
-'''public final HttpHeaders getRequestHeaders()
-'''
-pass
+    '''    public final HttpHeaders getRequestHeaders()
+    '''
 def setRequestHeaders():
-'''public AbstractGoogleClientRequest<T> setRequestHeaders(final HttpHeaders headers)
-'''
-pass
+    '''    public AbstractGoogleClientRequest<T> setRequestHeaders(final HttpHeaders headers)
+    '''
 def getLastResponseHeaders():
-'''public final HttpHeaders getLastResponseHeaders()
-'''
-pass
+    '''    public final HttpHeaders getLastResponseHeaders()
+    '''
 def getLastStatusCode():
-'''public final int getLastStatusCode()
-'''
-pass
+    '''    public final int getLastStatusCode()
+    '''
 def getLastStatusMessage():
-'''public final String getLastStatusMessage()
-'''
-pass
+    '''    public final String getLastStatusMessage()
+    '''
 def getResponseClass():
-'''public final Class<T> getResponseClass()
-'''
-pass
+    '''    public final Class<T> getResponseClass()
+    '''
 def getMediaHttpUploader():
-'''public final MediaHttpUploader getMediaHttpUploader()
-'''
-pass
+    '''    public final MediaHttpUploader getMediaHttpUploader()
+    '''
 def getMediaHttpDownloader():
-'''public final MediaHttpDownloader getMediaHttpDownloader()
-'''
-pass
+    '''    public final MediaHttpDownloader getMediaHttpDownloader()
+    '''
 def buildHttpRequestUrl():
-'''public GenericUrl buildHttpRequestUrl()
-'''
-pass
+    '''    public GenericUrl buildHttpRequestUrl()
+    '''
 def buildHttpRequest():
-'''public HttpRequest buildHttpRequest()
-'''
-pass
+    '''    public HttpRequest buildHttpRequest()
+    '''
 def interceptResponse():
-'''public void interceptResponse(final HttpResponse response)
-'''
-pass
+    '''    public void interceptResponse(final HttpResponse response)
+    '''
 def executeUnparsed():
-'''public HttpResponse executeUnparsed()
-'''
-pass
+    '''    public HttpResponse executeUnparsed()
+    '''
 def execute():
-'''public T execute()
-'''
-pass
+    '''    public T execute()
+    '''
 def executeAsInputStream():
-'''public InputStream executeAsInputStream()
-'''
-pass
+    '''    public InputStream executeAsInputStream()
+    '''
 def executeAndDownloadTo():
-'''public void executeAndDownloadTo(final OutputStream outputStream)
-'''
-pass
+    '''    public void executeAndDownloadTo(final OutputStream outputStream)
+    '''
 def queue():
-'''public final <E> void queue(final BatchRequest batchRequest, final Class<E> errorClass, final BatchCallback<T, E> callback)
-'''
-pass
+    '''    public final <E> void queue(final BatchRequest batchRequest, final Class<E> errorClass, final BatchCallback<T, E> callback)
+    '''
 def set():
-'''public AbstractGoogleClientRequest<T> set(final String fieldName, final Object value)
-'''
-pass
+    '''    public AbstractGoogleClientRequest<T> set(final String fieldName, final Object value)
+    '''

@@ -1,8 +1,6 @@
 def FldKPIHistoryRange():
-'''public FldKPIHistoryRange(final MboValue mbv)
-'''
-pass
+    '''    public FldKPIHistoryRange(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

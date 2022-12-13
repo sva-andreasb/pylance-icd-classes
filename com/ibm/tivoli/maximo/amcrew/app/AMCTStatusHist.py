@@ -1,8 +1,6 @@
 def AMCTStatusHist():
-'''public AMCTStatusHist(final MboSet ms)
-'''
-pass
+    '''    public AMCTStatusHist(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

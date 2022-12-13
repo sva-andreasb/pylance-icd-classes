@@ -1,24 +1,18 @@
 def InvoiceTerm():
-'''public InvoiceTerm(final MboSet ms)
-'''
-pass
+    '''    public InvoiceTerm(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete(final long accessmodifier)
-'''
-pass
+    '''    public void delete(final long accessmodifier)
+    '''

@@ -1,137 +1,104 @@
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Violation next()
-'''
-pass
+    '''    public Violation next()
+    '''
 def isAbsolute():
-'''public boolean isAbsolute()
-'''
-pass
+    '''    public boolean isAbsolute()
+    '''
 def isRelative():
-'''public boolean isRelative()
-'''
-pass
+    '''    public boolean isRelative()
+    '''
 def hasViolation():
-'''public boolean hasViolation(final boolean includeWarnings)
-'''
-pass
+    '''    public boolean hasViolation(final boolean includeWarnings)
+    '''
 def violations():
-'''public Iterator<Violation> violations(final boolean includeWarnings)
-'''
-pass
+    '''    public Iterator<Violation> violations(final boolean includeWarnings)
+    '''
 def toURL():
-'''public URL toURL()
-'''
-pass
+    '''    public URL toURL()
+    '''
 def toASCIIString():
-'''public String toASCIIString()
-'''
-pass
+    '''    public String toASCIIString()
+    '''
 def relativize():
-'''public IRI relativize(final String abs, final int flags)
-public IRI relativize(final String abs)
-public IRI relativize(final IRI abs)
-public IRI relativize(final IRI abs, final int flags)
-'''
-pass
+    '''    public IRI relativize(final String abs, final int flags)
+    public IRI relativize(final String abs)
+    public IRI relativize(final IRI abs)
+    public IRI relativize(final IRI abs, final int flags)
+    '''
 def allViolations():
-'''public Iterator<Violation> allViolations()
-'''
-pass
+    '''    public Iterator<Violation> allViolations()
+    '''
 def getRawUserinfo():
-'''public String getRawUserinfo()
-'''
-pass
+    '''    public String getRawUserinfo()
+    '''
 def getPort():
-'''public int getPort()
-'''
-pass
+    '''    public int getPort()
+    '''
 def getRawQuery():
-'''public String getRawQuery()
-'''
-pass
+    '''    public String getRawQuery()
+    '''
 def getRawFragment():
-'''public String getRawFragment()
-'''
-pass
+    '''    public String getRawFragment()
+    '''
 def getRawHost():
-'''public String getRawHost()
-'''
-pass
+    '''    public String getRawHost()
+    '''
 def getScheme():
-'''public String getScheme()
-'''
-pass
+    '''    public String getScheme()
+    '''
 def getRawPath():
-'''public String getRawPath()
-'''
-pass
+    '''    public String getRawPath()
+    '''
 def isRootless():
-'''public boolean isRootless()
-'''
-pass
+    '''    public boolean isRootless()
+    '''
 def getRawAuthority():
-'''public String getRawAuthority()
-'''
-pass
+    '''    public String getRawAuthority()
+    '''
 def create():
-'''public IRI create(final IRI i)
-public IRI create(final String s)
-'''
-pass
+    '''    public IRI create(final IRI i)
+    public IRI create(final String s)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getAuthority():
-'''public String getAuthority()
-'''
-pass
+    '''    public String getAuthority()
+    '''
 def getFragment():
-'''public String getFragment()
-'''
-pass
+    '''    public String getFragment()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getPath():
-'''public String getPath()
-'''
-pass
+    '''    public String getPath()
+    '''
 def getQuery():
-'''public String getQuery()
-'''
-pass
+    '''    public String getQuery()
+    '''
 def getUserinfo():
-'''public String getUserinfo()
-'''
-pass
+    '''    public String getUserinfo()
+    '''
 def normalize():
-'''public IRI normalize(final boolean useDns)
-'''
-pass
+    '''    public IRI normalize(final boolean useDns)
+    '''
 def toDisplayString():
-'''public String toDisplayString()
-'''
-pass
+    '''    public String toDisplayString()
+    '''
 def getASCIIHost():
-'''public String getASCIIHost()
-'''
-pass
+    '''    public String getASCIIHost()
+    '''
 def ladderEquals():
-'''public boolean ladderEquals(final IRI iri, final int other)
-public int ladderEquals(final IRI iri)
-'''
-pass
+    '''    public boolean ladderEquals(final IRI iri, final int other)
+    public int ladderEquals(final IRI iri)
+    '''

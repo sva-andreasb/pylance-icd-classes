@@ -1,12 +1,9 @@
 def FldInvUseLineNewAssetNum():
-'''public FldInvUseLineNewAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUseLineNewAssetNum(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

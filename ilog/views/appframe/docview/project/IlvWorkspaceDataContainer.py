@@ -1,16 +1,12 @@
 def addFileProjectReference():
-'''public Object addFileProjectReference(final Object o, final String s, final int n)
-'''
-pass
+    '''    public Object addFileProjectReference(final Object o, final String s, final int n)
+    '''
 def WorkspaceFileNode():
-'''public WorkspaceFileNode(final FileReference fileReference)
-'''
-pass
+    '''    public WorkspaceFileNode(final FileReference fileReference)
+    '''
 def getCategory():
-'''public String getCategory()
-'''
-pass
+    '''    public String getCategory()
+    '''
 def acceptChild():
-'''public boolean acceptChild(final String anObject)
-'''
-pass
+    '''    public boolean acceptChild(final String anObject)
+    '''

@@ -1,40 +1,30 @@
 def PORECEIPTS():
-'''public int PORECEIPTS()
-'''
-pass
+    '''    public int PORECEIPTS()
+    '''
 def find():
-'''public int find()
-'''
-pass
+    '''    public int find()
+    '''
 def refreshThisPage():
-'''public int refreshThisPage(String searchValue)
-'''
-pass
+    '''    public int refreshThisPage(String searchValue)
+    '''
 def approvereceipts():
-'''public int approvereceipts()
-'''
-pass
+    '''    public int approvereceipts()
+    '''
 def changestatus():
-'''public int changestatus()
-'''
-pass
+    '''    public int changestatus()
+    '''
 def acceptall():
-'''public int acceptall()
-'''
-pass
+    '''    public int acceptall()
+    '''
 def rejectall():
-'''public int rejectall()
-'''
-pass
+    '''    public int rejectall()
+    '''
 def unacceptall():
-'''public int unacceptall()
-'''
-pass
+    '''    public int unacceptall()
+    '''
 def unrejectall():
-'''public int unrejectall()
-'''
-pass
+    '''    public int unrejectall()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

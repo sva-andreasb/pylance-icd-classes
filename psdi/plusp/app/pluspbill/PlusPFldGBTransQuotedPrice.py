@@ -1,8 +1,6 @@
 def PlusPFldGBTransQuotedPrice():
-'''public PlusPFldGBTransQuotedPrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransQuotedPrice(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,5 +1,4 @@
 def LabTransService():
-'''public LabTransService()
-public LabTransService(final MXServer mxServer)
-'''
-pass
+    '''    public LabTransService()
+    public LabTransService(final MXServer mxServer)
+    '''

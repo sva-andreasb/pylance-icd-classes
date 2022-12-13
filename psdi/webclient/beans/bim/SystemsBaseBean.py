@@ -1,28 +1,21 @@
 def SystemsBaseBean():
-'''public SystemsBaseBean()
-'''
-pass
+    '''    public SystemsBaseBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getViewer():
-'''public BIMViewer getViewer()
-'''
-pass
+    '''    public BIMViewer getViewer()
+    '''
 def getModelLocation():
-'''public String getModelLocation()
-'''
-pass
+    '''    public String getModelLocation()
+    '''
 def getTree():
-'''public SystemsTreeBean getTree()
-'''
-pass
+    '''    public SystemsTreeBean getTree()
+    '''
 def lookupAllLocationsForSystem():
-'''public MboSetRemote lookupAllLocationsForSystem(final String systemId, final String siteId)
-'''
-pass
+    '''    public MboSetRemote lookupAllLocationsForSystem(final String systemId, final String siteId)
+    '''
 def setSetStartingLoc():
-'''public void setSetStartingLoc(final boolean setStartingLoc)
-'''
-pass
+    '''    public void setSetStartingLoc(final boolean setStartingLoc)
+    '''

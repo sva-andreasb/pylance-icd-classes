@@ -1,8 +1,6 @@
 def PmChgFldRadioMonth():
-'''public PmChgFldRadioMonth(final MboValue mbv)
-'''
-pass
+    '''    public PmChgFldRadioMonth(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def FldLicTypeTokenLicense():
-'''public FldLicTypeTokenLicense(final MboValue mbv)
-'''
-pass
+    '''    public FldLicTypeTokenLicense(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

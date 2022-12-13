@@ -1,4 +1,3 @@
 def UnsupportedVariantTypeException():
-'''public UnsupportedVariantTypeException(final long variantType, final Object value)
-'''
-pass
+    '''    public UnsupportedVariantTypeException(final long variantType, final Object value)
+    '''

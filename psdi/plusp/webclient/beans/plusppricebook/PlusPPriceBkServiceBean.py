@@ -1,12 +1,9 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def setQbe():
-'''public void setQbe(final String s, final String expression)
-'''
-pass
+    '''    public void setQbe(final String s, final String expression)
+    '''
 def getQbe():
-'''public synchronized String getQbe(final String s)
-'''
-pass
+    '''    public synchronized String getQbe(final String s)
+    '''

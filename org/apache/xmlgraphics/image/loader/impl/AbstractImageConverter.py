@@ -1,4 +1,3 @@
 def getConversionPenalty():
-'''public int getConversionPenalty()
-'''
-pass
+    '''    public int getConversionPenalty()
+    '''

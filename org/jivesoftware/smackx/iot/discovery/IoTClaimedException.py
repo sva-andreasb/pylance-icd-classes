@@ -1,8 +1,6 @@
 def IoTClaimedException():
-'''public IoTClaimedException(final IoTClaimed iotClaimed)
-'''
-pass
+    '''    public IoTClaimedException(final IoTClaimed iotClaimed)
+    '''
 def getIoTClaimed():
-'''public IoTClaimed getIoTClaimed()
-'''
-pass
+    '''    public IoTClaimed getIoTClaimed()
+    '''

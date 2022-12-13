@@ -1,38 +1,29 @@
 def BusResource():
-'''public BusResource(final String uri)
-public BusResource()
-public BusResource(final JSONObject jo)
-'''
-pass
+    '''    public BusResource(final String uri)
+    public BusResource()
+    public BusResource(final JSONObject jo)
+    '''
 def getJSON():
-'''public JSONObject getJSON()
-'''
-pass
+    '''    public JSONObject getJSON()
+    '''
 def isStructured():
-'''public boolean isStructured()
-'''
-pass
+    '''    public boolean isStructured()
+    '''
 def isURINode():
-'''public boolean isURINode()
-'''
-pass
+    '''    public boolean isURINode()
+    '''
 def getURI():
-'''public String getURI()
-'''
-pass
+    '''    public String getURI()
+    '''
 def setProperty():
-'''public void setProperty(final String name, final Object value)
-'''
-pass
+    '''    public void setProperty(final String name, final Object value)
+    '''
 def getProperty():
-'''public Object getProperty(final String name)
-'''
-pass
+    '''    public Object getProperty(final String name)
+    '''
 def getProperties():
-'''public Map<String, Object> getProperties()
-'''
-pass
+    '''    public Map<String, Object> getProperties()
+    '''
 def toPropertiesString():
-'''public String toPropertiesString()
-'''
-pass
+    '''    public String toPropertiesString()
+    '''

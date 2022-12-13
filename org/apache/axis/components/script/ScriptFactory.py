@@ -1,4 +1,3 @@
 def getScript():
-'''public static Script getScript()
-'''
-pass
+    '''    public static Script getScript()
+    '''

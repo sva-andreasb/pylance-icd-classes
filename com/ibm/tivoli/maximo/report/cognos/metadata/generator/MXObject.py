@@ -1,20 +1,15 @@
 def MXObject():
-'''public MXObject(final String app, final String objectName, final String siteOrgType, final String querySubject, final String parentObject, final String querySubjectSeqNum)
-'''
-pass
+    '''    public MXObject(final String app, final String objectName, final String siteOrgType, final String querySubject, final String parentObject, final String querySubjectSeqNum)
+    '''
 def compareTo():
-'''public int compareTo(final MXObject o)
-'''
-pass
+    '''    public int compareTo(final MXObject o)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

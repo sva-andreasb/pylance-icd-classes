@@ -1,9 +1,7 @@
 def FldCfgObjectOrder():
-'''public FldCfgObjectOrder()
-public FldCfgObjectOrder(final MboValue mbv)
-'''
-pass
+    '''    public FldCfgObjectOrder()
+    public FldCfgObjectOrder(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

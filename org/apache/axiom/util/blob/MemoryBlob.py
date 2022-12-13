@@ -1,69 +1,53 @@
 def isSupportingReadUncommitted():
-'''public boolean isSupportingReadUncommitted()
-'''
-pass
+    '''    public boolean isSupportingReadUncommitted()
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def getOutputStream():
-'''public BlobOutputStream getOutputStream()
-'''
-pass
+    '''    public BlobOutputStream getOutputStream()
+    '''
 def readFrom():
-'''public long readFrom(final InputStream in, long length, final boolean commit)
-public long readFrom(final InputStream in, final long length)
-'''
-pass
+    '''    public long readFrom(final InputStream in, long length, final boolean commit)
+    public long readFrom(final InputStream in, final long length)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream os)
-'''
-pass
+    '''    public void writeTo(final OutputStream os)
+    '''
 def release():
-'''public void release()
-'''
-pass
+    '''    public void release()
+    '''
 def getBlob():
-'''public WritableBlob getBlob()
-'''
-pass
+    '''    public WritableBlob getBlob()
+    '''
 def write():
-'''public void write(final byte[] b, int off, final int len)
-public void write(final byte[] b)
-public void write(final int b)
-'''
-pass
+    '''    public void write(final byte[] b, int off, final int len)
+    public void write(final byte[] b)
+    public void write(final int b)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def InputStreamImpl():
-'''public InputStreamImpl()
-'''
-pass
+    '''    public InputStreamImpl()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, int off, final int len)
-public int read(final byte[] b)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, int off, final int len)
+    public int read(final byte[] b)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def mark():
-'''public synchronized void mark(final int readlimit)
-'''
-pass
+    '''    public synchronized void mark(final int readlimit)
+    '''
 def markSupported():
-'''public boolean markSupported()
-'''
-pass
+    '''    public boolean markSupported()
+    '''
 def reset():
-'''public synchronized void reset()
-'''
-pass
+    '''    public synchronized void reset()
+    '''

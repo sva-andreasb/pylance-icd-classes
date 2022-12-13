@@ -1,20 +1,15 @@
 def getLoadChart():
-'''public SKDResourceHourDataChart getLoadChart()
-'''
-pass
+    '''    public SKDResourceHourDataChart getLoadChart()
+    '''
 def setAppletGanttModel():
-'''public void setAppletGanttModel(final AppletGanttModel model)
-'''
-pass
+    '''    public void setAppletGanttModel(final AppletGanttModel model)
+    '''
 def SKDResourceHourAndAvailabilityChart():
-'''public SKDResourceHourAndAvailabilityChart(final IlvScheduleChart scheduleChart, final IlvGanttChart gChart, final ResourceHourViewStyleResolver styleResolver)
-'''
-pass
+    '''    public SKDResourceHourAndAvailabilityChart(final IlvScheduleChart scheduleChart, final IlvGanttChart gChart, final ResourceHourViewStyleResolver styleResolver)
+    '''
 def sync():
-'''public void sync()
-'''
-pass
+    '''    public void sync()
+    '''
 def unsync():
-'''public void unsync()
-'''
-pass
+    '''    public void unsync()
+    '''

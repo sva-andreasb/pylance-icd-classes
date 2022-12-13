@@ -1,4 +1,3 @@
 def checkQuery():
-'''public void checkQuery(final DataBean results)
-'''
-pass
+    '''    public void checkQuery(final DataBean results)
+    '''

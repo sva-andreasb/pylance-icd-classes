@@ -1,8 +1,6 @@
 def SRMSSApprovalsTabDataBean():
-'''public SRMSSApprovalsTabDataBean()
-'''
-pass
+    '''    public SRMSSApprovalsTabDataBean()
+    '''
 def getExtendedToolTip():
-'''public JSONObject getExtendedToolTip(final JSONObject definition)
-'''
-pass
+    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''

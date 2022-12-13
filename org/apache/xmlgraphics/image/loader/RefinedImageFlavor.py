@@ -1,16 +1,12 @@
 def getParentFlavor():
-'''public ImageFlavor getParentFlavor()
-'''
-pass
+    '''    public ImageFlavor getParentFlavor()
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def isCompatible():
-'''public boolean isCompatible(final ImageFlavor flavor)
-'''
-pass
+    '''    public boolean isCompatible(final ImageFlavor flavor)
+    '''

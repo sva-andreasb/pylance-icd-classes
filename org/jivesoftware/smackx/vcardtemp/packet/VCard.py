@@ -1,183 +1,139 @@
-ELEMENT = "String  vCard""
-NAMESPACE = "String  vcard-temp""
+ELEMENT = "String  \"vCard\""
+NAMESPACE = "String  \"vcard-temp\""
 def VCard():
-'''public VCard()
-'''
-pass
+    '''    public VCard()
+    '''
 def getField():
-'''public String getField(final String field)
-'''
-pass
+    '''    public String getField(final String field)
+    '''
 def setField():
-'''public void setField(final String field, final String value)
-public void setField(final String field, final String value, final boolean isUnescapable)
-'''
-pass
+    '''    public void setField(final String field, final String value)
+    public void setField(final String field, final String value, final boolean isUnescapable)
+    '''
 def getFirstName():
-'''public String getFirstName()
-'''
-pass
+    '''    public String getFirstName()
+    '''
 def setFirstName():
-'''public void setFirstName(final String firstName)
-'''
-pass
+    '''    public void setFirstName(final String firstName)
+    '''
 def getLastName():
-'''public String getLastName()
-'''
-pass
+    '''    public String getLastName()
+    '''
 def setLastName():
-'''public void setLastName(final String lastName)
-'''
-pass
+    '''    public void setLastName(final String lastName)
+    '''
 def getMiddleName():
-'''public String getMiddleName()
-'''
-pass
+    '''    public String getMiddleName()
+    '''
 def setMiddleName():
-'''public void setMiddleName(final String middleName)
-'''
-pass
+    '''    public void setMiddleName(final String middleName)
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def getSuffix():
-'''public String getSuffix()
-'''
-pass
+    '''    public String getSuffix()
+    '''
 def setSuffix():
-'''public void setSuffix(final String suffix)
-'''
-pass
+    '''    public void setSuffix(final String suffix)
+    '''
 def getNickName():
-'''public String getNickName()
-'''
-pass
+    '''    public String getNickName()
+    '''
 def setNickName():
-'''public void setNickName(final String nickName)
-'''
-pass
+    '''    public void setNickName(final String nickName)
+    '''
 def getEmailHome():
-'''public String getEmailHome()
-'''
-pass
+    '''    public String getEmailHome()
+    '''
 def setEmailHome():
-'''public void setEmailHome(final String email)
-'''
-pass
+    '''    public void setEmailHome(final String email)
+    '''
 def getEmailWork():
-'''public String getEmailWork()
-'''
-pass
+    '''    public String getEmailWork()
+    '''
 def setEmailWork():
-'''public void setEmailWork(final String emailWork)
-'''
-pass
+    '''    public void setEmailWork(final String emailWork)
+    '''
 def getJabberId():
-'''public String getJabberId()
-'''
-pass
+    '''    public String getJabberId()
+    '''
 def setJabberId():
-'''public void setJabberId(final CharSequence jabberId)
-'''
-pass
+    '''    public void setJabberId(final CharSequence jabberId)
+    '''
 def getOrganization():
-'''public String getOrganization()
-'''
-pass
+    '''    public String getOrganization()
+    '''
 def setOrganization():
-'''public void setOrganization(final String organization)
-'''
-pass
+    '''    public void setOrganization(final String organization)
+    '''
 def getOrganizationUnit():
-'''public String getOrganizationUnit()
-'''
-pass
+    '''    public String getOrganizationUnit()
+    '''
 def setOrganizationUnit():
-'''public void setOrganizationUnit(final String organizationUnit)
-'''
-pass
+    '''    public void setOrganizationUnit(final String organizationUnit)
+    '''
 def getAddressFieldHome():
-'''public String getAddressFieldHome(final String addrField)
-'''
-pass
+    '''    public String getAddressFieldHome(final String addrField)
+    '''
 def setAddressFieldHome():
-'''public void setAddressFieldHome(final String addrField, final String value)
-'''
-pass
+    '''    public void setAddressFieldHome(final String addrField, final String value)
+    '''
 def getAddressFieldWork():
-'''public String getAddressFieldWork(final String addrField)
-'''
-pass
+    '''    public String getAddressFieldWork(final String addrField)
+    '''
 def setAddressFieldWork():
-'''public void setAddressFieldWork(final String addrField, final String value)
-'''
-pass
+    '''    public void setAddressFieldWork(final String addrField, final String value)
+    '''
 def setPhoneHome():
-'''public void setPhoneHome(final String phoneType, final String phoneNum)
-'''
-pass
+    '''    public void setPhoneHome(final String phoneType, final String phoneNum)
+    '''
 def getPhoneHome():
-'''public String getPhoneHome(final String phoneType)
-'''
-pass
+    '''    public String getPhoneHome(final String phoneType)
+    '''
 def setPhoneWork():
-'''public void setPhoneWork(final String phoneType, final String phoneNum)
-'''
-pass
+    '''    public void setPhoneWork(final String phoneType, final String phoneNum)
+    '''
 def getPhoneWork():
-'''public String getPhoneWork(final String phoneType)
-'''
-pass
+    '''    public String getPhoneWork(final String phoneType)
+    '''
 def setAvatar():
-'''public void setAvatar(final URL avatarURL)
-public void setAvatar(final byte[] bytes)
-public void setAvatar(final byte[] bytes, final String mimeType)
-public void setAvatar(final String encodedImage, final String mimeType)
-'''
-pass
+    '''    public void setAvatar(final URL avatarURL)
+    public void setAvatar(final byte[] bytes)
+    public void setAvatar(final byte[] bytes, final String mimeType)
+    public void setAvatar(final String encodedImage, final String mimeType)
+    '''
 def removeAvatar():
-'''public void removeAvatar()
-'''
-pass
+    '''    public void removeAvatar()
+    '''
 def setEncodedImage():
-'''public void setEncodedImage(final String encodedAvatar)
-'''
-pass
+    '''    public void setEncodedImage(final String encodedAvatar)
+    '''
 def getAvatar():
-'''public byte[] getAvatar()
-'''
-pass
+    '''    public byte[] getAvatar()
+    '''
 def getAvatarMimeType():
-'''public String getAvatarMimeType()
-'''
-pass
+    '''    public String getAvatarMimeType()
+    '''
 def getBytes():
-'''public static byte[] getBytes(final URL url)
-'''
-pass
+    '''    public static byte[] getBytes(final URL url)
+    '''
 def getAvatarHash():
-'''public String getAvatarHash()
-'''
-pass
+    '''    public String getAvatarHash()
+    '''
 def save():
-'''public void save(final XMPPConnection connection)
-'''
-pass
+    '''    public void save(final XMPPConnection connection)
+    '''
 def load():
-'''public void load(final XMPPConnection connection)
-public void load(final XMPPConnection connection, final EntityBareJid user)
-'''
-pass
+    '''    public void load(final XMPPConnection connection)
+    public void load(final XMPPConnection connection, final EntityBareJid user)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

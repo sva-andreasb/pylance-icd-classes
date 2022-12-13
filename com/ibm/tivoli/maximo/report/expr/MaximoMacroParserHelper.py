@@ -1,8 +1,6 @@
 def MaximoMacroParserHelper():
-'''public MaximoMacroParserHelper()
-'''
-pass
+    '''    public MaximoMacroParserHelper()
+    '''
 def getNodeType():
-'''public int getNodeType()
-'''
-pass
+    '''    public int getNodeType()
+    '''

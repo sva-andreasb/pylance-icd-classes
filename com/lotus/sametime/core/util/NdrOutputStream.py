@@ -1,37 +1,28 @@
 def NdrOutputStream():
-'''public NdrOutputStream()
-'''
-pass
+    '''    public NdrOutputStream()
+    '''
 def startMark():
-'''public void startMark()
-'''
-pass
+    '''    public void startMark()
+    '''
 def dumpMarks():
-'''public void dumpMarks()
-public void dumpMarks(final int n)
-'''
-pass
+    '''    public void dumpMarks()
+    public void dumpMarks(final int n)
+    '''
 def position():
-'''public int position()
-'''
-pass
+    '''    public int position()
+    '''
 def writeBytes():
-'''public void writeBytes(final byte[] b)
-'''
-pass
+    '''    public void writeBytes(final byte[] b)
+    '''
 def writeInetAddress():
-'''public void writeInetAddress(final InetAddress inetAddress)
-'''
-pass
+    '''    public void writeInetAddress(final InetAddress inetAddress)
+    '''
 def writeMark():
-'''public void writeMark(final int n, final int n2)
-'''
-pass
+    '''    public void writeMark(final int n, final int n2)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def toByteArray():
-'''public byte[] toByteArray()
-'''
-pass
+    '''    public byte[] toByteArray()
+    '''

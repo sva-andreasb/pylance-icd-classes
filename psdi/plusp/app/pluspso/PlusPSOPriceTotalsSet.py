@@ -1,4 +1,3 @@
 def PlusPSOPriceTotalsSet():
-'''public PlusPSOPriceTotalsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPSOPriceTotalsSet(final MboServerInterface ms)
+    '''

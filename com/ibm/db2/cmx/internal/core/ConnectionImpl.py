@@ -1,86 +1,65 @@
 def getUID():
-'''public String getUID()
-'''
-pass
+    '''    public String getUID()
+    '''
 def ConnectionImpl():
-'''public ConnectionImpl(final SocketAddress socketAddress_, final Processor[] array)
-public ConnectionImpl(final SocketChannel socketChannel_, final Processor[] array, final Logger logger_)
-'''
-pass
+    '''    public ConnectionImpl(final SocketAddress socketAddress_, final Processor[] array)
+    public ConnectionImpl(final SocketChannel socketChannel_, final Processor[] array, final Logger logger_)
+    '''
 def incrementSharedCount():
-'''public synchronized void incrementSharedCount()
-'''
-pass
+    '''    public synchronized void incrementSharedCount()
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def addConnectionEventListner():
-'''public void addConnectionEventListner(final CMXConnectionEventListener cmxConnectionEventListener)
-'''
-pass
+    '''    public void addConnectionEventListner(final CMXConnectionEventListener cmxConnectionEventListener)
+    '''
 def removeConnectionEventListner():
-'''public void removeConnectionEventListner(final CMXConnectionEventListener o)
-'''
-pass
+    '''    public void removeConnectionEventListner(final CMXConnectionEventListener o)
+    '''
 def isConnected():
-'''public boolean isConnected()
-'''
-pass
+    '''    public boolean isConnected()
+    '''
 def queueMessage():
-'''public void queueMessage(final Message e)
-'''
-pass
+    '''    public void queueMessage(final Message e)
+    '''
 def sendRequest():
-'''public synchronized Message sendRequest(final Message message)
-'''
-pass
+    '''    public synchronized Message sendRequest(final Message message)
+    '''
 def reconnect():
-'''public void reconnect()
-'''
-pass
+    '''    public void reconnect()
+    '''
 def isProcessorSupported():
-'''public boolean isProcessorSupported(final String key)
-'''
-pass
+    '''    public boolean isProcessorSupported(final String key)
+    '''
 def run():
-'''public void run()
-public Thread run()
-'''
-pass
+    '''    public void run()
+    public Thread run()
+    '''
 def sendMessage():
-'''public void sendMessage(final Message message)
-'''
-pass
+    '''    public void sendMessage(final Message message)
+    '''
 def connectToProcessor():
-'''public int connectToProcessor(final Processor value)
-'''
-pass
+    '''    public int connectToProcessor(final Processor value)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getConnectTimestamp():
-'''public long getConnectTimestamp()
-'''
-pass
+    '''    public long getConnectTimestamp()
+    '''
 def getNegotiatedProcessorVersion():
-'''public int getNegotiatedProcessorVersion(final String key)
-'''
-pass
+    '''    public int getNegotiatedProcessorVersion(final String key)
+    '''
 def getHostAdress():
-'''public String getHostAdress()
-'''
-pass
+    '''    public String getHostAdress()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def NewThreadAction():
-'''public NewThreadAction(final Runnable runnable_, final String name_, final boolean daemon_, final int priority_)
-'''
-pass
+    '''    public NewThreadAction(final Runnable runnable_, final String name_, final boolean daemon_, final int priority_)
+    '''

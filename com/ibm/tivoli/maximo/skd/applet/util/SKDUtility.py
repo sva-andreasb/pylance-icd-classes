@@ -1,428 +1,325 @@
-VIEWER_SCHEDULER = "String  SKDViewer""
-VIEWER_GRPASSIGN = "String  ASNViewer""
-VIEWER_CREWASSIGN = "String  CASNViewer""
-NONE = "String  "
-LRE = "String  \u202a""
-RLE = "String  \u202b""
-PDF = "String  \u202c""
-LRM = "String  \u200e""
-RLM = "String  \u200f""
+VIEWER_SCHEDULER = "String  \"SKDViewer\""
+VIEWER_GRPASSIGN = "String  \"ASNViewer\""
+VIEWER_CREWASSIGN = "String  \"CASNViewer\""
+NONE = "String  \"\""
+LRE = "String  \"\u202a\""
+RLE = "String  \"\u202b\""
+PDF = "String  \"\u202c\""
+LRM = "String  \"\u200e\""
+RLM = "String  \"\u200f\""
 def getApplet():
-'''public SKDViewerApplet getApplet()
-'''
-pass
+    '''    public SKDViewerApplet getApplet()
+    '''
 def setApplet():
-'''public void setApplet(final SKDViewerApplet applet)
-'''
-pass
+    '''    public void setApplet(final SKDViewerApplet applet)
+    '''
 def setDefaultscenario():
-'''public void setDefaultscenario(final boolean defaultscenario)
-'''
-pass
+    '''    public void setDefaultscenario(final boolean defaultscenario)
+    '''
 def getDefaultscenario():
-'''public boolean getDefaultscenario()
-'''
-pass
+    '''    public boolean getDefaultscenario()
+    '''
 def setSnapshot():
-'''public void setSnapshot(final boolean snapshot)
-'''
-pass
+    '''    public void setSnapshot(final boolean snapshot)
+    '''
 def getSnapshot():
-'''public boolean getSnapshot()
-'''
-pass
+    '''    public boolean getSnapshot()
+    '''
 def setDailyView():
-'''public void setDailyView(final boolean dailyview)
-'''
-pass
+    '''    public void setDailyView(final boolean dailyview)
+    '''
 def getDailyView():
-'''public boolean getDailyView()
-'''
-pass
+    '''    public boolean getDailyView()
+    '''
 def getMessages():
-'''public SKDAppletMessages getMessages()
-'''
-pass
+    '''    public SKDAppletMessages getMessages()
+    '''
 def getGanttConfigInfo():
-'''public IGanttConfigInfo getGanttConfigInfo()
-'''
-pass
+    '''    public IGanttConfigInfo getGanttConfigInfo()
+    '''
 def setGanttConfigInfo():
-'''public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
-'''
-pass
+    '''    public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
+    '''
 def setSkdActionInfo():
-'''public void setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)
-'''
-pass
+    '''    public void setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)
+    '''
 def getSkdActionInfo():
-'''public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo()
-'''
-pass
+    '''    public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo()
+    '''
 def setSkdActionUidInfo():
-'''public void setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)
-'''
-pass
+    '''    public void setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)
+    '''
 def getSkdActionUidInfo():
-'''public HashMap<Long, SKDActionInfo> getSkdActionUidInfo()
-'''
-pass
+    '''    public HashMap<Long, SKDActionInfo> getSkdActionUidInfo()
+    '''
 def getSKDFormat():
-'''public SKDFormat getSKDFormat()
-'''
-pass
+    '''    public SKDFormat getSKDFormat()
+    '''
 def setDateFormat():
-'''public void setDateFormat(final DateFormat dateFormat)
-'''
-pass
+    '''    public void setDateFormat(final DateFormat dateFormat)
+    '''
 def getUserLocale():
-'''public Locale getUserLocale()
-'''
-pass
+    '''    public Locale getUserLocale()
+    '''
 def getUserTimeZone():
-'''public TimeZone getUserTimeZone()
-'''
-pass
+    '''    public TimeZone getUserTimeZone()
+    '''
 def getServerTimeZone():
-'''public TimeZone getServerTimeZone()
-'''
-pass
+    '''    public TimeZone getServerTimeZone()
+    '''
 def getSKDUtility():
-'''public static synchronized SKDUtility getSKDUtility()
-'''
-pass
+    '''    public static synchronized SKDUtility getSKDUtility()
+    '''
 def reset():
-'''public static synchronized void reset()
-'''
-pass
+    '''    public static synchronized void reset()
+    '''
 def SKDUtility():
-'''public SKDUtility()
-'''
-pass
+    '''    public SKDUtility()
+    '''
 def isDebugMode():
-'''public boolean isDebugMode()
-'''
-pass
+    '''    public boolean isDebugMode()
+    '''
 def setDebugMode():
-'''public void setDebugMode(final boolean debugMode)
-'''
-pass
+    '''    public void setDebugMode(final boolean debugMode)
+    '''
 def logMessage():
-'''public void logMessage(final String message, final Throwable t)
-'''
-pass
+    '''    public void logMessage(final String message, final Throwable t)
+    '''
 def logDebugMessage():
-'''public void logDebugMessage(final Object o)
-public void logDebugMessage(final String message, final Throwable t)
-'''
-pass
+    '''    public void logDebugMessage(final Object o)
+    public void logDebugMessage(final String message, final Throwable t)
+    '''
 def sendEventAsync():
-'''public void sendEventAsync(final String event)
-public void sendEventAsync(final String event, final Hashtable<String, String> values)
-public void sendEventAsync(final String event, final String target, final Hashtable<String, String> values)
-'''
-pass
+    '''    public void sendEventAsync(final String event)
+    public void sendEventAsync(final String event, final Hashtable<String, String> values)
+    public void sendEventAsync(final String event, final String target, final Hashtable<String, String> values)
+    '''
 def sendEvent():
-'''public void sendEvent(final String event)
-public void sendEvent(final String event, final Hashtable<String, String> values)
-public void sendEvent(final String event, final String target, final Hashtable<String, String> values)
-'''
-pass
+    '''    public void sendEvent(final String event)
+    public void sendEvent(final String event, final Hashtable<String, String> values)
+    public void sendEvent(final String event, final String target, final Hashtable<String, String> values)
+    '''
 def evalJSResult():
-'''public Object evalJSResult(final JApplet applet, final String cmdString)
-'''
-pass
+    '''    public Object evalJSResult(final JApplet applet, final String cmdString)
+    '''
 def isFirefox():
-'''public boolean isFirefox(final JApplet applet)
-'''
-pass
+    '''    public boolean isFirefox(final JApplet applet)
+    '''
 def callJavascriptEval():
-'''public void callJavascriptEval(final String eval)
-'''
-pass
+    '''    public void callJavascriptEval(final String eval)
+    '''
 def run():
-'''public void run()
-public Void run()
-'''
-pass
+    '''    public void run()
+    public Void run()
+    '''
 def getMessage():
-'''public String getMessage(final String msgkey)
-'''
-pass
+    '''    public String getMessage(final String msgkey)
+    '''
 def getSKDUserLocaleData():
-'''public SKDUserLocaleData getSKDUserLocaleData()
-'''
-pass
+    '''    public SKDUserLocaleData getSKDUserLocaleData()
+    '''
 def getMessageWithPrefix():
-'''public String getMessageWithPrefix(final String msgkey)
-'''
-pass
+    '''    public String getMessageWithPrefix(final String msgkey)
+    '''
 def setSKDUserLocaleData():
-'''public void setSKDUserLocaleData()
-'''
-pass
+    '''    public void setSKDUserLocaleData()
+    '''
 def getResourceString():
-'''public String getResourceString(final String key)
-'''
-pass
+    '''    public String getResourceString(final String key)
+    '''
 def getResourceStrings():
-'''public Hashtable getResourceStrings()
-'''
-pass
+    '''    public Hashtable getResourceStrings()
+    '''
 def getDateFormat():
-'''public DateFormat getDateFormat(final int propDataType)
-'''
-pass
+    '''    public DateFormat getDateFormat(final int propDataType)
+    '''
 def getAppletName():
-'''public String getAppletName()
-'''
-pass
+    '''    public String getAppletName()
+    '''
 def getConstraintType():
-'''public IlvConstraintType getConstraintType(final String num)
-'''
-pass
+    '''    public IlvConstraintType getConstraintType(final String num)
+    '''
 def getConstraintTypeInt():
-'''public Integer getConstraintTypeInt(final IlvConstraintType type)
-'''
-pass
+    '''    public Integer getConstraintTypeInt(final IlvConstraintType type)
+    '''
 def getViewerProperty():
-'''public String getViewerProperty(final String prop, final String defaultValue)
-'''
-pass
+    '''    public String getViewerProperty(final String prop, final String defaultValue)
+    '''
 def setViewerProperty():
-'''public void setViewerProperty(final String key, final String value)
-'''
-pass
+    '''    public void setViewerProperty(final String key, final String value)
+    '''
 def decodeColor():
-'''public Color decodeColor(final String hexValue)
-'''
-pass
+    '''    public Color decodeColor(final String hexValue)
+    '''
 def getStatusColors():
-'''public Color[] getStatusColors(String status, String groupname)
-'''
-pass
+    '''    public Color[] getStatusColors(String status, String groupname)
+    '''
 def canShowCurrentTimeIndicatorOnDrag():
-'''public boolean canShowCurrentTimeIndicatorOnDrag()
-'''
-pass
+    '''    public boolean canShowCurrentTimeIndicatorOnDrag()
+    '''
 def getSnapToGridIntervalMins():
-'''public int getSnapToGridIntervalMins()
-'''
-pass
+    '''    public int getSnapToGridIntervalMins()
+    '''
 def getDefaultRowHeight():
-'''public int getDefaultRowHeight()
-'''
-pass
+    '''    public int getDefaultRowHeight()
+    '''
 def getPriorityColors():
-'''public Color[] getPriorityColors(String priority, String groupname)
-'''
-pass
+    '''    public Color[] getPriorityColors(String priority, String groupname)
+    '''
 def usingStatusColors():
-'''public boolean usingStatusColors()
-'''
-pass
+    '''    public boolean usingStatusColors()
+    '''
 def hidingYAxis():
-'''public boolean hidingYAxis()
-'''
-pass
+    '''    public boolean hidingYAxis()
+    '''
 def hidingLegend():
-'''public boolean hidingLegend()
-'''
-pass
+    '''    public boolean hidingLegend()
+    '''
 def IlvDurationToDouble():
-'''public double IlvDurationToDouble(final IlvDuration lv)
-'''
-pass
+    '''    public double IlvDurationToDouble(final IlvDuration lv)
+    '''
 def enforceOrientation():
-'''public void enforceOrientation(final JComponent comp)
-'''
-pass
+    '''    public void enforceOrientation(final JComponent comp)
+    '''
 def enforceBIDIColumnLayout():
-'''public void enforceBIDIColumnLayout(final JTable table)
-'''
-pass
+    '''    public void enforceBIDIColumnLayout(final JTable table)
+    '''
 def isGUIMirrored():
-'''public boolean isGUIMirrored()
-'''
-pass
+    '''    public boolean isGUIMirrored()
+    '''
 def enforceBidiDirection():
-'''public String enforceBidiDirection(String str, final String bidiDirection)
-'''
-pass
+    '''    public String enforceBidiDirection(String str, final String bidiDirection)
+    '''
 def removeMarkersForApplink():
-'''public static String removeMarkersForApplink(final String str)
-'''
-pass
+    '''    public static String removeMarkersForApplink(final String str)
+    '''
 def setGUIMirrored():
-'''public void setGUIMirrored(final String langcode)
-'''
-pass
+    '''    public void setGUIMirrored(final String langcode)
+    '''
 def isBIDIEnabled():
-'''public boolean isBIDIEnabled()
-'''
-pass
+    '''    public boolean isBIDIEnabled()
+    '''
 def setBIDIEnabled():
-'''public void setBIDIEnabled(final String value)
-'''
-pass
+    '''    public void setBIDIEnabled(final String value)
+    '''
 def replaceString():
-'''public static String replaceString(String str, final String pattern, final String replacement)
-'''
-pass
+    '''    public static String replaceString(String str, final String pattern, final String replacement)
+    '''
 def makeTooltipStringBasedOnDirection():
-'''public String makeTooltipStringBasedOnDirection(final String direction, final String value, final String property)
-public String makeTooltipStringBasedOnDirection(final String direction, final String value)
-'''
-pass
+    '''    public String makeTooltipStringBasedOnDirection(final String direction, final String value, final String property)
+    public String makeTooltipStringBasedOnDirection(final String direction, final String value)
+    '''
 def removeMarkers():
-'''public static String removeMarkers(final String str)
-'''
-pass
+    '''    public static String removeMarkers(final String str)
+    '''
 def isBiDiString():
-'''public static boolean isBiDiString(final String str)
-'''
-pass
+    '''    public static boolean isBiDiString(final String str)
+    '''
 def fireEscapeKeyDown():
-'''public void fireEscapeKeyDown()
-'''
-pass
+    '''    public void fireEscapeKeyDown()
+    '''
 def todaysDate():
-'''public Date todaysDate()
-'''
-pass
+    '''    public Date todaysDate()
+    '''
 def getServerDate():
-'''public Date getServerDate(Date oldDate)
-'''
-pass
+    '''    public Date getServerDate(Date oldDate)
+    '''
 def getServerDateForUser():
-'''public Date getServerDateForUser(Date serverDate)
-'''
-pass
+    '''    public Date getServerDateForUser(Date serverDate)
+    '''
 def getDate():
-'''public Date getDate(final Locale l, final TimeZone tz, final Date date)
-'''
-pass
+    '''    public Date getDate(final Locale l, final TimeZone tz, final Date date)
+    '''
 def getFixedTimeIndicatorFromGSheet():
-'''public IlvFixedTimeIndicator getFixedTimeIndicatorFromGSheet(final IlvGanttSheet gsheet)
-'''
-pass
+    '''    public IlvFixedTimeIndicator getFixedTimeIndicatorFromGSheet(final IlvGanttSheet gsheet)
+    '''
 def areServerAndUserTZDifferent():
-'''public boolean areServerAndUserTZDifferent()
-'''
-pass
+    '''    public boolean areServerAndUserTZDifferent()
+    '''
 def removeTimeIndicator():
-'''public void removeTimeIndicator(final IlvGanttSheet gSheet)
-'''
-pass
+    '''    public void removeTimeIndicator(final IlvGanttSheet gSheet)
+    '''
 def refreshActivityTable():
-'''public void refreshActivityTable()
-'''
-pass
+    '''    public void refreshActivityTable()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def isAssignmentManager():
-'''public boolean isAssignmentManager()
-'''
-pass
+    '''    public boolean isAssignmentManager()
+    '''
 def setupSnapToGrid():
-'''public void setupSnapToGrid(final IlvGanttSheet ganttSheet)
-'''
-pass
+    '''    public void setupSnapToGrid(final IlvGanttSheet ganttSheet)
+    '''
 def keyPressed():
-'''public void keyPressed(final KeyEvent e)
-'''
-pass
+    '''    public void keyPressed(final KeyEvent e)
+    '''
 def keyReleased():
-'''public void keyReleased(final KeyEvent e)
-'''
-pass
+    '''    public void keyReleased(final KeyEvent e)
+    '''
 def getToolTipPropertyMaxWidth():
-'''public int getToolTipPropertyMaxWidth()
-'''
-pass
+    '''    public int getToolTipPropertyMaxWidth()
+    '''
 def getModifiedLabelColorString():
-'''public String getModifiedLabelColorString()
-'''
-pass
+    '''    public String getModifiedLabelColorString()
+    '''
 def getModifiedLabelPrefix():
-'''public String getModifiedLabelPrefix()
-'''
-pass
+    '''    public String getModifiedLabelPrefix()
+    '''
 def isComplianceEnabled():
-'''public boolean isComplianceEnabled()
-'''
-pass
+    '''    public boolean isComplianceEnabled()
+    '''
 def setComplianceEnabled():
-'''public void setComplianceEnabled(final boolean complianceEnabled)
-'''
-pass
+    '''    public void setComplianceEnabled(final boolean complianceEnabled)
+    '''
 def needSendModelChange():
-'''public boolean needSendModelChange()
-'''
-pass
+    '''    public boolean needSendModelChange()
+    '''
 def setSendModelchange():
-'''public void setSendModelchange(final boolean sendModelchange)
-'''
-pass
+    '''    public void setSendModelchange(final boolean sendModelchange)
+    '''
 def sendToBeSaved():
-'''public boolean sendToBeSaved()
-'''
-pass
+    '''    public boolean sendToBeSaved()
+    '''
 def setToBeSaved():
-'''public void setToBeSaved(final boolean sendtobesaved)
-'''
-pass
+    '''    public void setToBeSaved(final boolean sendtobesaved)
+    '''
 def getColorProperty():
-'''public Color getColorProperty(final String propName, Color defaultColor)
-'''
-pass
+    '''    public Color getColorProperty(final String propName, Color defaultColor)
+    '''
 def isUsingCompressedData():
-'''public boolean isUsingCompressedData()
-'''
-pass
+    '''    public boolean isUsingCompressedData()
+    '''
 def getLegendColors():
-'''public static IlvStyle[] getLegendColors()
-'''
-pass
+    '''    public static IlvStyle[] getLegendColors()
+    '''
 def getLegendColorsforResourceHourView():
-'''public static IlvStyle[] getLegendColorsforResourceHourView()
-'''
-pass
+    '''    public static IlvStyle[] getLegendColorsforResourceHourView()
+    '''
 def getBooleanProperty():
-'''public boolean getBooleanProperty(final String propName, final boolean defVal)
-'''
-pass
+    '''    public boolean getBooleanProperty(final String propName, final boolean defVal)
+    '''
 def getLongProperty():
-'''public long getLongProperty(final String propName, final long defVal)
-'''
-pass
+    '''    public long getLongProperty(final String propName, final long defVal)
+    '''
 def getIntProperty():
-'''public int getIntProperty(final String propName, final int defVal)
-'''
-pass
+    '''    public int getIntProperty(final String propName, final int defVal)
+    '''
 def setUserOverrideProperties():
-'''public void setUserOverrideProperties(final Properties props)
-'''
-pass
+    '''    public void setUserOverrideProperties(final Properties props)
+    '''
 def isEmpty():
-'''public static boolean isEmpty(final String text)
-'''
-pass
+    '''    public static boolean isEmpty(final String text)
+    '''
 def enableHttpOnlyWorkaroundIfNeeded():
-'''public void enableHttpOnlyWorkaroundIfNeeded(final JApplet applet)
-'''
-pass
+    '''    public void enableHttpOnlyWorkaroundIfNeeded(final JApplet applet)
+    '''
 def setDefaultUserTimeZone():
-'''public boolean setDefaultUserTimeZone(final String userTimeZoneId)
-'''
-pass
+    '''    public boolean setDefaultUserTimeZone(final String userTimeZoneId)
+    '''
 def getReservationLiveUpdateThreshold():
-'''public long getReservationLiveUpdateThreshold()
-'''
-pass
+    '''    public long getReservationLiveUpdateThreshold()
+    '''
 def hideDurationCheckEnabled():
-'''public boolean hideDurationCheckEnabled()
-'''
-pass
+    '''    public boolean hideDurationCheckEnabled()
+    '''

@@ -1,32 +1,24 @@
 def AuthorizationCodeRequestUrl():
-'''public AuthorizationCodeRequestUrl(final String authorizationServerEncodedUrl, final String clientId)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl(final String authorizationServerEncodedUrl, final String clientId)
+    '''
 def setResponseTypes():
-'''public AuthorizationCodeRequestUrl setResponseTypes(final Collection<String> responseTypes)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl setResponseTypes(final Collection<String> responseTypes)
+    '''
 def setRedirectUri():
-'''public AuthorizationCodeRequestUrl setRedirectUri(final String redirectUri)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl setRedirectUri(final String redirectUri)
+    '''
 def setScopes():
-'''public AuthorizationCodeRequestUrl setScopes(final Collection<String> scopes)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl setScopes(final Collection<String> scopes)
+    '''
 def setClientId():
-'''public AuthorizationCodeRequestUrl setClientId(final String clientId)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl setClientId(final String clientId)
+    '''
 def setState():
-'''public AuthorizationCodeRequestUrl setState(final String state)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl setState(final String state)
+    '''
 def set():
-'''public AuthorizationCodeRequestUrl set(final String fieldName, final Object value)
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl set(final String fieldName, final Object value)
+    '''
 def clone():
-'''public AuthorizationCodeRequestUrl clone()
-'''
-pass
+    '''    public AuthorizationCodeRequestUrl clone()
+    '''

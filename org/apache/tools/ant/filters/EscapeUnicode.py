@@ -1,13 +1,10 @@
 def EscapeUnicode():
-'''public EscapeUnicode()
-public EscapeUnicode(final Reader in)
-'''
-pass
+    '''    public EscapeUnicode()
+    public EscapeUnicode(final Reader in)
+    '''
 def read():
-'''public final int read()
-'''
-pass
+    '''    public final int read()
+    '''
 def chain():
-'''public final Reader chain(final Reader rdr)
-'''
-pass
+    '''    public final Reader chain(final Reader rdr)
+    '''

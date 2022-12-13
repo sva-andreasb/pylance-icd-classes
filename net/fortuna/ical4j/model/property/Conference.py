@@ -1,27 +1,21 @@
-PROPERTY_NAME = "String  CONFERENCE""
+PROPERTY_NAME = "String  \"CONFERENCE\""
 def Conference():
-'''public Conference()
-public Conference(final ParameterList params, final String value)
-'''
-pass
+    '''    public Conference()
+    public Conference(final ParameterList params, final String value)
+    '''
 def setValue():
-'''public void setValue(final String aValue)
-'''
-pass
+    '''    public void setValue(final String aValue)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createProperty():
-'''public Conference createProperty()
-public Conference createProperty(final ParameterList parameters, final String value)
-'''
-pass
+    '''    public Conference createProperty()
+    public Conference createProperty(final ParameterList parameters, final String value)
+    '''

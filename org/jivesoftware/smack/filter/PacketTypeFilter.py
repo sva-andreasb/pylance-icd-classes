@@ -1,12 +1,9 @@
 def PacketTypeFilter():
-'''public PacketTypeFilter(final Class packetType)
-'''
-pass
+    '''    public PacketTypeFilter(final Class packetType)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

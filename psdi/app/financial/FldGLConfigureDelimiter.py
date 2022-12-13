@@ -1,8 +1,6 @@
 def FldGLConfigureDelimiter():
-'''public FldGLConfigureDelimiter(final MboValue mbv)
-'''
-pass
+    '''    public FldGLConfigureDelimiter(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

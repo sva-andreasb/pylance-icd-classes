@@ -1,4 +1,3 @@
 def RelatedObjectInfo():
-'''public RelatedObjectInfo()
-'''
-pass
+    '''    public RelatedObjectInfo()
+    '''

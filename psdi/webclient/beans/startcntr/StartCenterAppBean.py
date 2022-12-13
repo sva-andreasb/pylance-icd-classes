@@ -1,116 +1,87 @@
 def StartCenterAppBean():
-'''public StartCenterAppBean()
-'''
-pass
+    '''    public StartCenterAppBean()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def isSCAdmin():
-'''public boolean isSCAdmin()
-'''
-pass
+    '''    public boolean isSCAdmin()
+    '''
 def getCurrentStartCenterUId():
-'''public String getCurrentStartCenterUId()
-'''
-pass
+    '''    public String getCurrentStartCenterUId()
+    '''
 def getPageLeftLayoutPercent():
-'''public String getPageLeftLayoutPercent()
-'''
-pass
+    '''    public String getPageLeftLayoutPercent()
+    '''
 def getPageRightLayoutPercent():
-'''public String getPageRightLayoutPercent()
-'''
-pass
+    '''    public String getPageRightLayoutPercent()
+    '''
 def getAllowedPortlets():
-'''public HashSet getAllowedPortlets()
-'''
-pass
+    '''    public HashSet getAllowedPortlets()
+    '''
 def getAllPortletsByColumns():
-'''public TreeMap getAllPortletsByColumns()
-'''
-pass
+    '''    public TreeMap getAllPortletsByColumns()
+    '''
 def getBean():
-'''public PortletBean getBean(final String portletId)
-'''
-pass
+    '''    public PortletBean getBean(final String portletId)
+    '''
 def getPageLayout():
-'''public String getPageLayout()
-'''
-pass
+    '''    public String getPageLayout()
+    '''
 def canConfigureSC():
-'''public boolean canConfigureSC()
-'''
-pass
+    '''    public boolean canConfigureSC()
+    '''
 def getStartCenters():
-'''public Object[] getStartCenters()
-'''
-pass
+    '''    public Object[] getStartCenters()
+    '''
 def getGroupAssociationMessage():
-'''public String getGroupAssociationMessage(final Hashtable messageInfo)
-'''
-pass
+    '''    public String getGroupAssociationMessage(final Hashtable messageInfo)
+    '''
 def getGroupAssociationMessageTemplateLink():
-'''public String getGroupAssociationMessageTemplateLink(final Hashtable messageInfo)
-'''
-pass
+    '''    public String getGroupAssociationMessageTemplateLink(final Hashtable messageInfo)
+    '''
 def isTemplate():
-'''public boolean isTemplate()
-'''
-pass
+    '''    public boolean isTemplate()
+    '''
 def savetemplate():
-'''public int savetemplate()
-'''
-pass
+    '''    public int savetemplate()
+    '''
 def deletetemplate():
-'''public int deletetemplate()
-'''
-pass
+    '''    public int deletetemplate()
+    '''
 def updatestartcenter():
-'''public int updatestartcenter()
-'''
-pass
+    '''    public int updatestartcenter()
+    '''
 def cancelchanges():
-'''public int cancelchanges()
-'''
-pass
+    '''    public int cancelchanges()
+    '''
 def createtemplate():
-'''public int createtemplate()
-'''
-pass
+    '''    public int createtemplate()
+    '''
 def isEditingTemplates():
-'''public boolean isEditingTemplates(final ArrayList startCenters)
-'''
-pass
+    '''    public boolean isEditingTemplates(final ArrayList startCenters)
+    '''
 def getUserStartCenter():
-'''public void getUserStartCenter()
-'''
-pass
+    '''    public void getUserStartCenter()
+    '''
 def isPortletAppAllowed():
-'''public boolean isPortletAppAllowed(final String portletId)
-'''
-pass
+    '''    public boolean isPortletAppAllowed(final String portletId)
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final int row, final String sigOption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final int row, final String sigOption)
+    '''
 def canUpdateSC():
-'''public boolean canUpdateSC()
-'''
-pass
+    '''    public boolean canUpdateSC()
+    '''
 def showPortlet():
-'''public boolean showPortlet(final String portletName)
-'''
-pass
+    '''    public boolean showPortlet(final String portletName)
+    '''
 def getPortletControlNameMap():
-'''public Hashtable getPortletControlNameMap()
-'''
-pass
+    '''    public Hashtable getPortletControlNameMap()
+    '''
 def checkGroupAssociation():
-'''public String checkGroupAssociation()
-'''
-pass
+    '''    public String checkGroupAssociation()
+    '''
 def getPortletLoadingSync():
-'''public Object getPortletLoadingSync()
-'''
-pass
+    '''    public Object getPortletLoadingSync()
+    '''

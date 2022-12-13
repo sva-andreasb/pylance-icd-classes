@@ -1,29 +1,22 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def DescribeAclsResponse():
-'''public DescribeAclsResponse(final int throttleTimeMs, final ApiError error, final Collection<AclBinding> acls)
-public DescribeAclsResponse(final Struct struct)
-'''
-pass
+    '''    public DescribeAclsResponse(final int throttleTimeMs, final ApiError error, final Collection<AclBinding> acls)
+    public DescribeAclsResponse(final Struct struct)
+    '''
 def throttleTimeMs():
-'''public int throttleTimeMs()
-'''
-pass
+    '''    public int throttleTimeMs()
+    '''
 def error():
-'''public ApiError error()
-'''
-pass
+    '''    public ApiError error()
+    '''
 def errorCounts():
-'''public Map<Errors, Integer> errorCounts()
-'''
-pass
+    '''    public Map<Errors, Integer> errorCounts()
+    '''
 def acls():
-'''public Collection<AclBinding> acls()
-'''
-pass
+    '''    public Collection<AclBinding> acls()
+    '''
 def parse():
-'''public static DescribeAclsResponse parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static DescribeAclsResponse parse(final ByteBuffer buffer, final short version)
+    '''

@@ -1,8 +1,6 @@
 def create():
-'''public static void create()
-'''
-pass
+    '''    public static void create()
+    '''
 def getAdminAuthorizer():
-'''public static AdminAuthorizer getAdminAuthorizer()
-'''
-pass
+    '''    public static AdminAuthorizer getAdminAuthorizer()
+    '''

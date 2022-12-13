@@ -1,20 +1,15 @@
 def getCopyright():
-'''public static String getCopyright()
-'''
-pass
+    '''    public static String getCopyright()
+    '''
 def setLookAheadEnd():
-'''public void setLookAheadEnd(final boolean lookAheadEnd)
-'''
-pass
+    '''    public void setLookAheadEnd(final boolean lookAheadEnd)
+    '''
 def flatten():
-'''public void flatten(final StringBuffer sb)
-'''
-pass
+    '''    public void flatten(final StringBuffer sb)
+    '''
 def getStatementName():
-'''public String getStatementName()
-'''
-pass
+    '''    public String getStatementName()
+    '''
 def isType():
-'''public boolean isType(final int n)
-'''
-pass
+    '''    public boolean isType(final int n)
+    '''

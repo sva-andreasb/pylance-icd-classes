@@ -1,48 +1,36 @@
 def getSourceFixlet():
-'''public BESActionSourceFixlet getSourceFixlet()
-'''
-pass
+    '''    public BESActionSourceFixlet getSourceFixlet()
+    '''
 def setSourceFixlet():
-'''public void setSourceFixlet(final BESActionSourceFixlet value)
-'''
-pass
+    '''    public void setSourceFixlet(final BESActionSourceFixlet value)
+    '''
 def getTarget():
-'''public BESActionTarget getTarget()
-'''
-pass
+    '''    public BESActionTarget getTarget()
+    '''
 def setTarget():
-'''public void setTarget(final BESActionTarget value)
-'''
-pass
+    '''    public void setTarget(final BESActionTarget value)
+    '''
 def getParameter():
-'''public List<BESActionParameter> getParameter()
-'''
-pass
+    '''    public List<BESActionParameter> getParameter()
+    '''
 def getSecureParameter():
-'''public List<BESActionParameter> getSecureParameter()
-'''
-pass
+    '''    public List<BESActionParameter> getSecureParameter()
+    '''
 def getSettings():
-'''public ActionSettingsType getSettings()
-'''
-pass
+    '''    public ActionSettingsType getSettings()
+    '''
 def setSettings():
-'''public void setSettings(final ActionSettingsType value)
-'''
-pass
+    '''    public void setSettings(final ActionSettingsType value)
+    '''
 def isIsUrgent():
-'''public Boolean isIsUrgent()
-'''
-pass
+    '''    public Boolean isIsUrgent()
+    '''
 def setIsUrgent():
-'''public void setIsUrgent(final Boolean value)
-'''
-pass
+    '''    public void setIsUrgent(final Boolean value)
+    '''
 def isSkipUI():
-'''public Boolean isSkipUI()
-'''
-pass
+    '''    public Boolean isSkipUI()
+    '''
 def setSkipUI():
-'''public void setSkipUI(final Boolean value)
-'''
-pass
+    '''    public void setSkipUI(final Boolean value)
+    '''

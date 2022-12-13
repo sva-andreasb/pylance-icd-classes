@@ -1,26 +1,20 @@
-CACHENAME = "String  CTRLCONDPROP""
+CACHENAME = "String  \"CTRLCONDPROP\""
 def getInstance():
-'''public static CtrlCondPropCacheFactory getInstance()
-'''
-pass
+    '''    public static CtrlCondPropCacheFactory getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCache():
-'''public MaximoCache getCache()
-'''
-pass
+    '''    public MaximoCache getCache()
+    '''
 def init():
-'''public void init()
-public void init(final MXServer mxs)
-'''
-pass
+    '''    public void init()
+    public void init(final MXServer mxs)
+    '''
 def getPropertyList():
-'''public TreeSet<String> getPropertyList()
-'''
-pass
+    '''    public TreeSet<String> getPropertyList()
+    '''
 def setPropertyList():
-'''public void setPropertyList(final TreeSet<String> propertyList)
-'''
-pass
+    '''    public void setPropertyList(final TreeSet<String> propertyList)
+    '''

@@ -1,6 +1,6 @@
 AMPERSAND = "char  '&'"
 COLON = "char  ':'"
-DQUOTE = "char  '\"'"
+DQUOTE = "char  '\\"'"
 EQUALS = "char  '='"
 EXCLAIM = "char  '!'"
 HASH = "char  '#'"

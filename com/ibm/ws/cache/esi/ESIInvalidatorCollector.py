@@ -1,16 +1,12 @@
 def ESIInvalidatorCollector():
-'''public ESIInvalidatorCollector()
-'''
-pass
+    '''    public ESIInvalidatorCollector()
+    '''
 def initialValue():
-'''public Object initialValue()
-'''
-pass
+    '''    public Object initialValue()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

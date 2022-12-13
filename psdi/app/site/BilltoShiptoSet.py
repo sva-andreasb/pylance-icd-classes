@@ -1,4 +1,3 @@
 def BilltoShiptoSet():
-'''public BilltoShiptoSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BilltoShiptoSet(final MboServerInterface ms)
+    '''

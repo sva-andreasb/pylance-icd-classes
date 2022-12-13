@@ -1,8 +1,6 @@
 def FldContLineAssetAssetNum():
-'''public FldContLineAssetAssetNum(final MboValue mbv)
-'''
-pass
+    '''    public FldContLineAssetAssetNum(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

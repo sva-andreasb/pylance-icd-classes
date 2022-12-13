@@ -1,36 +1,27 @@
 def TIFFDecodeParam():
-'''public TIFFDecodeParam()
-'''
-pass
+    '''    public TIFFDecodeParam()
+    '''
 def setDecodePaletteAsShorts():
-'''public void setDecodePaletteAsShorts(final boolean decodePaletteAsShorts)
-'''
-pass
+    '''    public void setDecodePaletteAsShorts(final boolean decodePaletteAsShorts)
+    '''
 def getDecodePaletteAsShorts():
-'''public boolean getDecodePaletteAsShorts()
-'''
-pass
+    '''    public boolean getDecodePaletteAsShorts()
+    '''
 def decode16BitsTo8Bits():
-'''public byte decode16BitsTo8Bits(final int s)
-'''
-pass
+    '''    public byte decode16BitsTo8Bits(final int s)
+    '''
 def decodeSigned16BitsTo8Bits():
-'''public byte decodeSigned16BitsTo8Bits(final short s)
-'''
-pass
+    '''    public byte decodeSigned16BitsTo8Bits(final short s)
+    '''
 def setIFDOffset():
-'''public void setIFDOffset(final long offset)
-'''
-pass
+    '''    public void setIFDOffset(final long offset)
+    '''
 def getIFDOffset():
-'''public Long getIFDOffset()
-'''
-pass
+    '''    public Long getIFDOffset()
+    '''
 def setJPEGDecompressYCbCrToRGB():
-'''public void setJPEGDecompressYCbCrToRGB(final boolean convertJPEGYCbCrToRGB)
-'''
-pass
+    '''    public void setJPEGDecompressYCbCrToRGB(final boolean convertJPEGYCbCrToRGB)
+    '''
 def getJPEGDecompressYCbCrToRGB():
-'''public boolean getJPEGDecompressYCbCrToRGB()
-'''
-pass
+    '''    public boolean getJPEGDecompressYCbCrToRGB()
+    '''

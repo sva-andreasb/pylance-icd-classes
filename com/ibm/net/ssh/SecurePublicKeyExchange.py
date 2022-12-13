@@ -1,32 +1,24 @@
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getErrorStream():
-'''public InputStream getErrorStream()
-'''
-pass
+    '''    public InputStream getErrorStream()
+    '''
 def add():
-'''public Status add(final PublicKeyFile publicKeyFile, final boolean overwrite)
-'''
-pass
+    '''    public Status add(final PublicKeyFile publicKeyFile, final boolean overwrite)
+    '''
 def remove():
-'''public Status remove(final PublicKey publicKey)
-'''
-pass
+    '''    public Status remove(final PublicKey publicKey)
+    '''
 def list():
-'''public PublicKeyFile[] list()
-'''
-pass
+    '''    public PublicKeyFile[] list()
+    '''
 def listAttributes():
-'''public void listAttributes()
-'''
-pass
+    '''    public void listAttributes()
+    '''
 def writePublicKey():
-'''public static boolean writePublicKey(final SecureSession secureSession, final PublicKeyFile publicKeyFile)
-'''
-pass
+    '''    public static boolean writePublicKey(final SecureSession secureSession, final PublicKeyFile publicKeyFile)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

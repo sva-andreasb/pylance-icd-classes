@@ -1,8 +1,6 @@
 def FldTenantCode():
-'''public FldTenantCode(final MboValue mbv)
-'''
-pass
+    '''    public FldTenantCode(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

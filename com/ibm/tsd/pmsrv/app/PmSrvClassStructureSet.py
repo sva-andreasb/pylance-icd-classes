@@ -1,8 +1,6 @@
 def PmSrvClassStructureSet():
-'''public PmSrvClassStructureSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmSrvClassStructureSet(final MboServerInterface ms)
+    '''
 def getUseWithSql():
-'''public String getUseWithSql()
-'''
-pass
+    '''    public String getUseWithSql()
+    '''

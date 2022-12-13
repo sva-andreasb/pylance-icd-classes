@@ -1,4 +1,3 @@
 def setResource():
-'''public void setResource(final com.softlayer.api.service.network.Vlan resource)
-'''
-pass
+    '''    public void setResource(final com.softlayer.api.service.network.Vlan resource)
+    '''

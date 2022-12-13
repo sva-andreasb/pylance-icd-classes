@@ -1,33 +1,25 @@
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def generate():
-'''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
-'''
-pass
+    '''    public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''
 def generator():
-'''public Generator generator()
-'''
-pass
+    '''    public Generator generator()
+    '''
 def addBranch():
-'''public void addBranch(final UnionBranch obj)
-'''
-pass
+    '''    public void addBranch(final UnionBranch obj)
+    '''
 def branches():
-'''public Vector branches()
-'''
-pass
+    '''    public Vector branches()
+    '''
 def defaultBranch():
-'''public void defaultBranch(final TypedefEntry defaultBranch)
-public TypedefEntry defaultBranch()
-'''
-pass
+    '''    public void defaultBranch(final TypedefEntry defaultBranch)
+    public TypedefEntry defaultBranch()
+    '''
 def addContained():
-'''public void addContained(final SymtabEntry obj)
-'''
-pass
+    '''    public void addContained(final SymtabEntry obj)
+    '''
 def contained():
-'''public Vector contained()
-'''
-pass
+    '''    public Vector contained()
+    '''

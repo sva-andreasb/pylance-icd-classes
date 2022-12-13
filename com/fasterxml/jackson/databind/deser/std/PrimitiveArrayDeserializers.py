@@ -1,60 +1,47 @@
 def supportsUpdate():
-'''public Boolean supportsUpdate(final DeserializationConfig config)
-'''
-pass
+    '''    public Boolean supportsUpdate(final DeserializationConfig config)
+    '''
 def getEmptyAccessPattern():
-'''public AccessPattern getEmptyAccessPattern()
-'''
-pass
+    '''    public AccessPattern getEmptyAccessPattern()
+    '''
 def getEmptyValue():
-'''public Object getEmptyValue(final DeserializationContext ctxt)
-'''
-pass
+    '''    public Object getEmptyValue(final DeserializationContext ctxt)
+    '''
 def deserializeWithType():
-'''public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
-'''
-pass
+    '''    public Object deserializeWithType(final JsonParser p, final DeserializationContext ctxt, final TypeDeserializer typeDeserializer)
+    '''
 def deserialize():
-'''public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T existing)
-public char[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public boolean[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public byte[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public short[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public int[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public long[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public float[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-public double[] deserialize(final JsonParser p, final DeserializationContext ctxt)
-'''
-pass
+    '''    public T deserialize(final JsonParser p, final DeserializationContext ctxt, final T existing)
+    public char[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public boolean[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public byte[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public short[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public int[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public long[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public float[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    public double[] deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''
 def CharDeser():
-'''public CharDeser()
-'''
-pass
+    '''    public CharDeser()
+    '''
 def BooleanDeser():
-'''public BooleanDeser()
-'''
-pass
+    '''    public BooleanDeser()
+    '''
 def ByteDeser():
-'''public ByteDeser()
-'''
-pass
+    '''    public ByteDeser()
+    '''
 def ShortDeser():
-'''public ShortDeser()
-'''
-pass
+    '''    public ShortDeser()
+    '''
 def IntDeser():
-'''public IntDeser()
-'''
-pass
+    '''    public IntDeser()
+    '''
 def LongDeser():
-'''public LongDeser()
-'''
-pass
+    '''    public LongDeser()
+    '''
 def FloatDeser():
-'''public FloatDeser()
-'''
-pass
+    '''    public FloatDeser()
+    '''
 def DoubleDeser():
-'''public DoubleDeser()
-'''
-pass
+    '''    public DoubleDeser()
+    '''

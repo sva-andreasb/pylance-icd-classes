@@ -1,13 +1,10 @@
 def NodeDeserializer():
-'''public NodeDeserializer()
-'''
-pass
+    '''    public NodeDeserializer()
+    '''
 def _deserialize():
-'''public Node _deserialize(final String value, final DeserializationContext ctxt)
-public Document _deserialize(final String value, final DeserializationContext ctxt)
-'''
-pass
+    '''    public Node _deserialize(final String value, final DeserializationContext ctxt)
+    public Document _deserialize(final String value, final DeserializationContext ctxt)
+    '''
 def DocumentDeserializer():
-'''public DocumentDeserializer()
-'''
-pass
+    '''    public DocumentDeserializer()
+    '''

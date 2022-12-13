@@ -1,85 +1,65 @@
 def TreeList():
-'''public TreeList()
-public TreeList(final Collection<? extends E> coll)
-'''
-pass
+    '''    public TreeList()
+    public TreeList(final Collection<? extends E> coll)
+    '''
 def get():
-'''public E get(final int index)
-'''
-pass
+    '''    public E get(final int index)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def iterator():
-'''public Iterator<E> iterator()
-'''
-pass
+    '''    public Iterator<E> iterator()
+    '''
 def listIterator():
-'''public ListIterator<E> listIterator()
-public ListIterator<E> listIterator(final int fromIndex)
-'''
-pass
+    '''    public ListIterator<E> listIterator()
+    public ListIterator<E> listIterator(final int fromIndex)
+    '''
 def indexOf():
-'''public int indexOf(final Object object)
-'''
-pass
+    '''    public int indexOf(final Object object)
+    '''
 def contains():
-'''public boolean contains(final Object object)
-'''
-pass
+    '''    public boolean contains(final Object object)
+    '''
 def toArray():
-'''public Object[] toArray()
-'''
-pass
+    '''    public Object[] toArray()
+    '''
 def add():
-'''public void add(final int index, final E obj)
-public void add(final E obj)
-'''
-pass
+    '''    public void add(final int index, final E obj)
+    public void add(final E obj)
+    '''
 def addAll():
-'''public boolean addAll(final Collection<? extends E> c)
-'''
-pass
+    '''    public boolean addAll(final Collection<? extends E> c)
+    '''
 def set():
-'''public E set(final int index, final E obj)
-public void set(final E obj)
-'''
-pass
+    '''    public E set(final int index, final E obj)
+    public void set(final E obj)
+    '''
 def remove():
-'''public E remove(final int index)
-public void remove()
-'''
-pass
+    '''    public E remove(final int index)
+    public void remove()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def previous():
-'''public E previous()
-'''
-pass
+    '''    public E previous()
+    '''
 def nextIndex():
-'''public int nextIndex()
-'''
-pass
+    '''    public int nextIndex()
+    '''
 def previousIndex():
-'''public int previousIndex()
-'''
-pass
+    '''    public int previousIndex()
+    '''

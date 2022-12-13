@@ -1,4 +1,3 @@
 def PlusPFldSLAContractSLANum():
-'''public PlusPFldSLAContractSLANum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldSLAContractSLANum(final MboValue arg0)
+    '''

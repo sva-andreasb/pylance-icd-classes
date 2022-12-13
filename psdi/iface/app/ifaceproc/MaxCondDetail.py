@@ -1,40 +1,30 @@
 def MaxCondDetail():
-'''public MaxCondDetail(final MboSet ms)
-'''
-pass
+    '''    public MaxCondDetail(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def checkCompareType():
-'''public void checkCompareType(final String type)
-'''
-pass
+    '''    public void checkCompareType(final String type)
+    '''
 def checkEvalType():
-'''public void checkEvalType(final String type, final boolean fromInit)
-'''
-pass
+    '''    public void checkEvalType(final String type, final boolean fromInit)
+    '''
 def checkConditionType():
-'''public void checkConditionType(final String type)
-'''
-pass
+    '''    public void checkConditionType(final String type)
+    '''
 def checkRetainMbo():
-'''public void checkRetainMbo()
-'''
-pass
+    '''    public void checkRetainMbo()
+    '''

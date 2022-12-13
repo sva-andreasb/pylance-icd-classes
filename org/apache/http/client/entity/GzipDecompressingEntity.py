@@ -1,8 +1,6 @@
 def GzipDecompressingEntity():
-'''public GzipDecompressingEntity(final HttpEntity entity)
-'''
-pass
+    '''    public GzipDecompressingEntity(final HttpEntity entity)
+    '''
 def create():
-'''public InputStream create(final InputStream instream)
-'''
-pass
+    '''    public InputStream create(final InputStream instream)
+    '''

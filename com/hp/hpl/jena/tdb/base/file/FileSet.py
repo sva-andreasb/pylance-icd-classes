@@ -1,38 +1,29 @@
 def mem():
-'''public static FileSet mem()
-'''
-pass
+    '''    public static FileSet mem()
+    '''
 def FileSet():
-'''public FileSet(final String directory, final String basename)
-public FileSet(final String filename)
-public FileSet(final Location directory, final String basename)
-'''
-pass
+    '''    public FileSet(final String directory, final String basename)
+    public FileSet(final String filename)
+    public FileSet(final Location directory, final String basename)
+    '''
 def getLocation():
-'''public Location getLocation()
-'''
-pass
+    '''    public Location getLocation()
+    '''
 def getBasename():
-'''public String getBasename()
-'''
-pass
+    '''    public String getBasename()
+    '''
 def getMetaFile():
-'''public MetaFile getMetaFile()
-'''
-pass
+    '''    public MetaFile getMetaFile()
+    '''
 def isMem():
-'''public boolean isMem()
-'''
-pass
+    '''    public boolean isMem()
+    '''
 def exists():
-'''public boolean exists(final String ext)
-'''
-pass
+    '''    public boolean exists(final String ext)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def filename():
-'''public String filename(final String ext)
-'''
-pass
+    '''    public String filename(final String ext)
+    '''

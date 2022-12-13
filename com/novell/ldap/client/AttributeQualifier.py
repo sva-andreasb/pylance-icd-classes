@@ -1,12 +1,9 @@
 def AttributeQualifier():
-'''public AttributeQualifier(final String name, final String[] array)
-'''
-pass
+    '''    public AttributeQualifier(final String name, final String[] array)
+    '''
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def getValues():
-'''public final String[] getValues()
-'''
-pass
+    '''    public final String[] getValues()
+    '''

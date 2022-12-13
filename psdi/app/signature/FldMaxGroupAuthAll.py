@@ -1,8 +1,6 @@
 def FldMaxGroupAuthAll():
-'''public FldMaxGroupAuthAll(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxGroupAuthAll(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

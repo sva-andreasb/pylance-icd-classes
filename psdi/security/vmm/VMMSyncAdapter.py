@@ -1,24 +1,18 @@
 def VMMSyncAdapter():
-'''public VMMSyncAdapter()
-'''
-pass
+    '''    public VMMSyncAdapter()
+    '''
 def syncStarting():
-'''public void syncStarting(final VMMSyncEvent event)
-'''
-pass
+    '''    public void syncStarting(final VMMSyncEvent event)
+    '''
 def syncEnded():
-'''public void syncEnded(final VMMSyncEvent event)
-'''
-pass
+    '''    public void syncEnded(final VMMSyncEvent event)
+    '''
 def syncUser():
-'''public void syncUser(final VMMSyncEvent event)
-'''
-pass
+    '''    public void syncUser(final VMMSyncEvent event)
+    '''
 def syncGroup():
-'''public void syncGroup(final VMMSyncEvent event)
-'''
-pass
+    '''    public void syncGroup(final VMMSyncEvent event)
+    '''
 def syncGroupMembers():
-'''public void syncGroupMembers(final VMMSyncEvent event)
-'''
-pass
+    '''    public void syncGroupMembers(final VMMSyncEvent event)
+    '''

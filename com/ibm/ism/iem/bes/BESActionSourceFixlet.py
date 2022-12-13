@@ -1,32 +1,24 @@
 def getSitename():
-'''public String getSitename()
-'''
-pass
+    '''    public String getSitename()
+    '''
 def setSitename():
-'''public void setSitename(final String value)
-'''
-pass
+    '''    public void setSitename(final String value)
+    '''
 def getSiteID():
-'''public BigInteger getSiteID()
-'''
-pass
+    '''    public BigInteger getSiteID()
+    '''
 def setSiteID():
-'''public void setSiteID(final BigInteger value)
-'''
-pass
+    '''    public void setSiteID(final BigInteger value)
+    '''
 def getFixletID():
-'''public BigInteger getFixletID()
-'''
-pass
+    '''    public BigInteger getFixletID()
+    '''
 def setFixletID():
-'''public void setFixletID(final BigInteger value)
-'''
-pass
+    '''    public void setFixletID(final BigInteger value)
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def setAction():
-'''public void setAction(final String value)
-'''
-pass
+    '''    public void setAction(final String value)
+    '''

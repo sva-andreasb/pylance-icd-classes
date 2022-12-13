@@ -1,5 +1,4 @@
 def ConfigFile():
-'''public ConfigFile()
-public ConfigFile(final String propFileName)
-'''
-pass
+    '''    public ConfigFile()
+    public ConfigFile(final String propFileName)
+    '''

@@ -11,169 +11,129 @@ GLOBAL_SPACE_CHAR_RATIO = "float  0.0f"
 NO_MORE_TEXT = "int  1"
 NO_MORE_COLUMN = "int  2"
 def ColumnText():
-'''public ColumnText(final PdfContentByte canvas)
-'''
-pass
+    '''    public ColumnText(final PdfContentByte canvas)
+    '''
 def duplicate():
-'''public static ColumnText duplicate(final ColumnText org)
-'''
-pass
+    '''    public static ColumnText duplicate(final ColumnText org)
+    '''
 def setACopy():
-'''public ColumnText setACopy(final ColumnText org)
-'''
-pass
+    '''    public ColumnText setACopy(final ColumnText org)
+    '''
 def addText():
-'''public void addText(final Phrase phrase)
-public void addText(final Chunk chunk)
-'''
-pass
+    '''    public void addText(final Phrase phrase)
+    public void addText(final Chunk chunk)
+    '''
 def setText():
-'''public void setText(final Phrase phrase)
-'''
-pass
+    '''    public void setText(final Phrase phrase)
+    '''
 def addElement():
-'''public void addElement(Element element)
-'''
-pass
+    '''    public void addElement(Element element)
+    '''
 def setColumns():
-'''public void setColumns(final float[] leftLine, final float[] rightLine)
-'''
-pass
+    '''    public void setColumns(final float[] leftLine, final float[] rightLine)
+    '''
 def setSimpleColumn():
-'''public void setSimpleColumn(final Phrase phrase, final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)
-public void setSimpleColumn(final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)
-public void setSimpleColumn(final float llx, final float lly, final float urx, final float ury)
-'''
-pass
+    '''    public void setSimpleColumn(final Phrase phrase, final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)
+    public void setSimpleColumn(final float llx, final float lly, final float urx, final float ury, final float leading, final int alignment)
+    public void setSimpleColumn(final float llx, final float lly, final float urx, final float ury)
+    '''
 def setLeading():
-'''public void setLeading(final float leading)
-public void setLeading(final float fixedLeading, final float multipliedLeading)
-'''
-pass
+    '''    public void setLeading(final float leading)
+    public void setLeading(final float fixedLeading, final float multipliedLeading)
+    '''
 def getLeading():
-'''public float getLeading()
-'''
-pass
+    '''    public float getLeading()
+    '''
 def getMultipliedLeading():
-'''public float getMultipliedLeading()
-'''
-pass
+    '''    public float getMultipliedLeading()
+    '''
 def setYLine():
-'''public void setYLine(final float yLine)
-'''
-pass
+    '''    public void setYLine(final float yLine)
+    '''
 def getYLine():
-'''public float getYLine()
-'''
-pass
+    '''    public float getYLine()
+    '''
 def setAlignment():
-'''public void setAlignment(final int alignment)
-'''
-pass
+    '''    public void setAlignment(final int alignment)
+    '''
 def getAlignment():
-'''public int getAlignment()
-'''
-pass
+    '''    public int getAlignment()
+    '''
 def setIndent():
-'''public void setIndent(final float indent)
-'''
-pass
+    '''    public void setIndent(final float indent)
+    '''
 def getIndent():
-'''public float getIndent()
-'''
-pass
+    '''    public float getIndent()
+    '''
 def setFollowingIndent():
-'''public void setFollowingIndent(final float indent)
-'''
-pass
+    '''    public void setFollowingIndent(final float indent)
+    '''
 def getFollowingIndent():
-'''public float getFollowingIndent()
-'''
-pass
+    '''    public float getFollowingIndent()
+    '''
 def setRightIndent():
-'''public void setRightIndent(final float indent)
-'''
-pass
+    '''    public void setRightIndent(final float indent)
+    '''
 def getRightIndent():
-'''public float getRightIndent()
-'''
-pass
+    '''    public float getRightIndent()
+    '''
 def go():
-'''public int go()
-public int go(final boolean simulate)
-'''
-pass
+    '''    public int go()
+    public int go(final boolean simulate)
+    '''
 def getExtraParagraphSpace():
-'''public float getExtraParagraphSpace()
-'''
-pass
+    '''    public float getExtraParagraphSpace()
+    '''
 def setExtraParagraphSpace():
-'''public void setExtraParagraphSpace(final float extraParagraphSpace)
-'''
-pass
+    '''    public void setExtraParagraphSpace(final float extraParagraphSpace)
+    '''
 def clearChunks():
-'''public void clearChunks()
-'''
-pass
+    '''    public void clearChunks()
+    '''
 def getSpaceCharRatio():
-'''public float getSpaceCharRatio()
-'''
-pass
+    '''    public float getSpaceCharRatio()
+    '''
 def setSpaceCharRatio():
-'''public void setSpaceCharRatio(final float spaceCharRatio)
-'''
-pass
+    '''    public void setSpaceCharRatio(final float spaceCharRatio)
+    '''
 def setRunDirection():
-'''public void setRunDirection(final int runDirection)
-'''
-pass
+    '''    public void setRunDirection(final int runDirection)
+    '''
 def getRunDirection():
-'''public int getRunDirection()
-'''
-pass
+    '''    public int getRunDirection()
+    '''
 def getLinesWritten():
-'''public int getLinesWritten()
-'''
-pass
+    '''    public int getLinesWritten()
+    '''
 def getArabicOptions():
-'''public int getArabicOptions()
-'''
-pass
+    '''    public int getArabicOptions()
+    '''
 def setArabicOptions():
-'''public void setArabicOptions(final int arabicOptions)
-'''
-pass
+    '''    public void setArabicOptions(final int arabicOptions)
+    '''
 def getDescender():
-'''public float getDescender()
-'''
-pass
+    '''    public float getDescender()
+    '''
 def getWidth():
-'''public static float getWidth(final Phrase phrase, final int runDirection, final int arabicOptions)
-public static float getWidth(final Phrase phrase)
-'''
-pass
+    '''    public static float getWidth(final Phrase phrase, final int runDirection, final int arabicOptions)
+    public static float getWidth(final Phrase phrase)
+    '''
 def showTextAligned():
-'''public static void showTextAligned(final PdfContentByte canvas, int alignment, final Phrase phrase, final float x, final float y, final float rotation, final int runDirection, final int arabicOptions)
-public static void showTextAligned(final PdfContentByte canvas, final int alignment, final Phrase phrase, final float x, final float y, final float rotation)
-'''
-pass
+    '''    public static void showTextAligned(final PdfContentByte canvas, int alignment, final Phrase phrase, final float x, final float y, final float rotation, final int runDirection, final int arabicOptions)
+    public static void showTextAligned(final PdfContentByte canvas, final int alignment, final Phrase phrase, final float x, final float y, final float rotation)
+    '''
 def getCanvas():
-'''public PdfContentByte getCanvas()
-'''
-pass
+    '''    public PdfContentByte getCanvas()
+    '''
 def setCanvas():
-'''public void setCanvas(final PdfContentByte canvas)
-'''
-pass
+    '''    public void setCanvas(final PdfContentByte canvas)
+    '''
 def zeroHeightElement():
-'''public boolean zeroHeightElement()
-'''
-pass
+    '''    public boolean zeroHeightElement()
+    '''
 def isUseAscender():
-'''public boolean isUseAscender()
-'''
-pass
+    '''    public boolean isUseAscender()
+    '''
 def setUseAscender():
-'''public void setUseAscender(final boolean use)
-'''
-pass
+    '''    public void setUseAscender(final boolean use)
+    '''

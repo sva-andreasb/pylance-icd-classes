@@ -1,19 +1,15 @@
-XHR_SEQ_NUM = "String  xhrseqnum""
-PAGE_SEQ_NUM = "String  pageseqnum""
-DUP_SEQ_NUM = "String  dupseqnum""
+XHR_SEQ_NUM = "String  \"xhrseqnum\""
+PAGE_SEQ_NUM = "String  \"pageseqnum\""
+DUP_SEQ_NUM = "String  \"dupseqnum\""
 def manageRequest():
-'''public void manageRequest(final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public void manageRequest(final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def resetRequestSequenceNumber():
-'''public synchronized void resetRequestSequenceNumber()
-'''
-pass
+    '''    public synchronized void resetRequestSequenceNumber()
+    '''
 def getNextPageRenderSeqNumber():
-'''public long getNextPageRenderSeqNumber()
-'''
-pass
+    '''    public long getNextPageRenderSeqNumber()
+    '''
 def getLastRequestSeqNumHandled():
-'''public long getLastRequestSeqNumHandled()
-'''
-pass
+    '''    public long getLastRequestSeqNumHandled()
+    '''

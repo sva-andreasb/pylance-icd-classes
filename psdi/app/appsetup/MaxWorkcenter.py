@@ -1,8 +1,6 @@
 def MaxWorkcenter():
-'''public MaxWorkcenter(final MboSet ms)
-'''
-pass
+    '''    public MaxWorkcenter(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''

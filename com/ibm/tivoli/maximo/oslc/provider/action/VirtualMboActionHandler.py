@@ -1,12 +1,9 @@
 def VirtualMboActionHandler():
-'''public VirtualMboActionHandler()
-'''
-pass
+    '''    public VirtualMboActionHandler()
+    '''
 def isGET():
-'''public boolean isGET()
-'''
-pass
+    '''    public boolean isGET()
+    '''
 def action():
-'''public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
-'''
-pass
+    '''    public OslcResourceResponse action(final OslcRequest request, final byte[] actionData)
+    '''

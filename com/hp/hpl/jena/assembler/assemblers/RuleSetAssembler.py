@@ -1,12 +1,9 @@
 def open():
-'''public Object open(final Assembler a, final Resource root, final Mode irrelevant)
-'''
-pass
+    '''    public Object open(final Assembler a, final Resource root, final Mode irrelevant)
+    '''
 def createRuleSet():
-'''public static RuleSet createRuleSet(final Assembler a, final Resource root)
-'''
-pass
+    '''    public static RuleSet createRuleSet(final Assembler a, final Resource root)
+    '''
 def addRules():
-'''public static List<Rule> addRules(final List<Rule> result, final Assembler a, final Resource root)
-'''
-pass
+    '''    public static List<Rule> addRules(final List<Rule> result, final Assembler a, final Resource root)
+    '''

@@ -1,20 +1,15 @@
 def UserSecControl():
-'''public UserSecControl(final MboSet ms)
-'''
-pass
+    '''    public UserSecControl(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setValue():
-'''public void setValue(final String attributeName, final boolean val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final String attributeName, final boolean val, final long accessModifier)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

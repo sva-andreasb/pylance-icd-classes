@@ -1,8 +1,6 @@
 def HomeAction():
-'''public HomeAction(final Object o)
-'''
-pass
+    '''    public HomeAction(final Object o)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''

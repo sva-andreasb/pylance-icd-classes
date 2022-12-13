@@ -1,25 +1,19 @@
 def SequencesComparator():
-'''public SequencesComparator(final List<T> sequence1, final List<T> sequence2)
-public SequencesComparator(final List<T> sequence1, final List<T> sequence2, final Equator<? super T> equator)
-'''
-pass
+    '''    public SequencesComparator(final List<T> sequence1, final List<T> sequence2)
+    public SequencesComparator(final List<T> sequence1, final List<T> sequence2, final Equator<? super T> equator)
+    '''
 def getScript():
-'''public EditScript<T> getScript()
-'''
-pass
+    '''    public EditScript<T> getScript()
+    '''
 def Snake():
-'''public Snake(final int start, final int end, final int diag)
-'''
-pass
+    '''    public Snake(final int start, final int end, final int diag)
+    '''
 def getStart():
-'''public int getStart()
-'''
-pass
+    '''    public int getStart()
+    '''
 def getEnd():
-'''public int getEnd()
-'''
-pass
+    '''    public int getEnd()
+    '''
 def getDiag():
-'''public int getDiag()
-'''
-pass
+    '''    public int getDiag()
+    '''

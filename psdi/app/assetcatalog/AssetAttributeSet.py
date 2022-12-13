@@ -1,8 +1,6 @@
 def AssetAttributeSet():
-'''public AssetAttributeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetAttributeSet(final MboServerInterface ms)
+    '''
 def getNewAttributeVector():
-'''public Vector getNewAttributeVector()
-'''
-pass
+    '''    public Vector getNewAttributeVector()
+    '''

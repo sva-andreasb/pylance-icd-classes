@@ -1,8 +1,6 @@
 def cancelReport():
-'''public int cancelReport()
-'''
-pass
+    '''    public int cancelReport()
+    '''
 def refreshReport():
-'''public int refreshReport()
-'''
-pass
+    '''    public int refreshReport()
+    '''

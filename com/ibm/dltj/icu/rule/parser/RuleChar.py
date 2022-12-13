@@ -1,17 +1,13 @@
 EOF = "int  -1"
 def isEscaped():
-'''public boolean isEscaped()
-'''
-pass
+    '''    public boolean isEscaped()
+    '''
 def isEOF():
-'''public boolean isEOF()
-'''
-pass
+    '''    public boolean isEOF()
+    '''
 def getChar32():
-'''public int getChar32()
-'''
-pass
+    '''    public int getChar32()
+    '''
 def getCharString():
-'''public String getCharString()
-'''
-pass
+    '''    public String getCharString()
+    '''

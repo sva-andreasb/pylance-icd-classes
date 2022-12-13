@@ -1,8 +1,6 @@
 def isOptimizeMode():
-'''public static boolean isOptimizeMode()
-'''
-pass
+    '''    public static boolean isOptimizeMode()
+    '''
 def setOptimizeMode():
-'''public static void setOptimizeMode(final boolean z)
-'''
-pass
+    '''    public static void setOptimizeMode(final boolean z)
+    '''

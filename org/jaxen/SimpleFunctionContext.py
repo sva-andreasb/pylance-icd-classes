@@ -1,12 +1,9 @@
 def SimpleFunctionContext():
-'''public SimpleFunctionContext()
-'''
-pass
+    '''    public SimpleFunctionContext()
+    '''
 def registerFunction():
-'''public void registerFunction(final String namespaceURI, final String localName, final Function function)
-'''
-pass
+    '''    public void registerFunction(final String namespaceURI, final String localName, final Function function)
+    '''
 def getFunction():
-'''public Function getFunction(final String namespaceURI, final String prefix, final String localName)
-'''
-pass
+    '''    public Function getFunction(final String namespaceURI, final String prefix, final String localName)
+    '''

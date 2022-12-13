@@ -1,4 +1,3 @@
 def getProcessorInstance():
-'''public static IotProcessor getProcessorInstance(final String histProcessor)
-'''
-pass
+    '''    public static IotProcessor getProcessorInstance(final String histProcessor)
+    '''

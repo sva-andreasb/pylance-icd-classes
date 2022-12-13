@@ -1,4 +1,3 @@
 def PlusPAgmtStatusSet():
-'''public PlusPAgmtStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPAgmtStatusSet(final MboServerInterface ms)
+    '''

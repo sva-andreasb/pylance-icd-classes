@@ -1,8 +1,6 @@
 def FldCalendarStartDate():
-'''public FldCalendarStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldCalendarStartDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

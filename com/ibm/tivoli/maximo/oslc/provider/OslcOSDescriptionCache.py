@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final OslcOSDescriptionCache getInstance()
-'''
-pass
+    '''    public static final OslcOSDescriptionCache getInstance()
+    '''
 def getDescMap():
-'''public Map<String, Map<String, String>> getDescMap()
-'''
-pass
+    '''    public Map<String, Map<String, String>> getDescMap()
+    '''
 def getDescForOS():
-'''public String getDescForOS(final String osName, final UserInfo userInfo)
-'''
-pass
+    '''    public String getDescForOS(final String osName, final UserInfo userInfo)
+    '''
 def reload():
-'''public void reload()
-'''
-pass
+    '''    public void reload()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

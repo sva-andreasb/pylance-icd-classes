@@ -1,8 +1,6 @@
 def clear():
-'''public int clear()
-'''
-pass
+    '''    public int clear()
+    '''
 def find():
-'''public int find()
-'''
-pass
+    '''    public int find()
+    '''

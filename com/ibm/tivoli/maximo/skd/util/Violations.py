@@ -1,36 +1,27 @@
 def Violations():
-'''public Violations()
-'''
-pass
+    '''    public Violations()
+    '''
 def getCircularDependencies():
-'''public Map<String, List<String>> getCircularDependencies()
-'''
-pass
+    '''    public Map<String, List<String>> getCircularDependencies()
+    '''
 def getInconsistentActualDates():
-'''public Set<String> getInconsistentActualDates()
-'''
-pass
+    '''    public Set<String> getInconsistentActualDates()
+    '''
 def getInconsistentStatus():
-'''public Set<String> getInconsistentStatus()
-'''
-pass
+    '''    public Set<String> getInconsistentStatus()
+    '''
 def getMissingOriginConstraints():
-'''public Set<String> getMissingOriginConstraints()
-'''
-pass
+    '''    public Set<String> getMissingOriginConstraints()
+    '''
 def getMissingTargetConstraints():
-'''public Set<String> getMissingTargetConstraints()
-'''
-pass
+    '''    public Set<String> getMissingTargetConstraints()
+    '''
 def setCircularDependencies():
-'''public void setCircularDependencies(final Map<String, List<String>> circularDependencies)
-'''
-pass
+    '''    public void setCircularDependencies(final Map<String, List<String>> circularDependencies)
+    '''
 def setInconsistentActualDates():
-'''public void setInconsistentActualDates(final Set<String> inconsistentActualDates)
-'''
-pass
+    '''    public void setInconsistentActualDates(final Set<String> inconsistentActualDates)
+    '''
 def setInconsistentStatus():
-'''public void setInconsistentStatus(final Set<String> inconsistentStatus)
-'''
-pass
+    '''    public void setInconsistentStatus(final Set<String> inconsistentStatus)
+    '''

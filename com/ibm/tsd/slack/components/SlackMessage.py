@@ -1,46 +1,35 @@
 def SlackMessage():
-'''public SlackMessage(final String text)
-public SlackMessage(final JSONArray blocks)
-public SlackMessage()
-'''
-pass
+    '''    public SlackMessage(final String text)
+    public SlackMessage(final JSONArray blocks)
+    public SlackMessage()
+    '''
 def setText():
-'''public void setText(final String text)
-'''
-pass
+    '''    public void setText(final String text)
+    '''
 def setBlocks():
-'''public void setBlocks(final JSONArray blocks)
-'''
-pass
+    '''    public void setBlocks(final JSONArray blocks)
+    '''
 def setAttachments():
-'''public void setAttachments(final JSONArray attachments)
-'''
-pass
+    '''    public void setAttachments(final JSONArray attachments)
+    '''
 def setThreadTs():
-'''public void setThreadTs(final String threadTs)
-'''
-pass
+    '''    public void setThreadTs(final String threadTs)
+    '''
 def setMrkdwn():
-'''public void setMrkdwn(final boolean mrkdwn)
-'''
-pass
+    '''    public void setMrkdwn(final boolean mrkdwn)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getBlocks():
-'''public JSONArray getBlocks()
-'''
-pass
+    '''    public JSONArray getBlocks()
+    '''
 def getAttachments():
-'''public JSONArray getAttachments()
-'''
-pass
+    '''    public JSONArray getAttachments()
+    '''
 def getThreadTs():
-'''public String getThreadTs()
-'''
-pass
+    '''    public String getThreadTs()
+    '''
 def getMrkdwn():
-'''public boolean getMrkdwn()
-'''
-pass
+    '''    public boolean getMrkdwn()
+    '''

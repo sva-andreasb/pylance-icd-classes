@@ -1,65 +1,49 @@
 CHECK_TIMEOUT = "int  3000"
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def setType():
-'''public void setType(final Type type)
-'''
-pass
+    '''    public void setType(final Type type)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def isResolving():
-'''public boolean isResolving()
-'''
-pass
+    '''    public boolean isResolving()
+    '''
 def isResolved():
-'''public boolean isResolved()
-'''
-pass
+    '''    public boolean isResolved()
+    '''
 def setInitialized():
-'''public synchronized void setInitialized()
-'''
-pass
+    '''    public synchronized void setInitialized()
+    '''
 def isInitialized():
-'''public synchronized boolean isInitialized()
-'''
-pass
+    '''    public synchronized boolean isInitialized()
+    '''
 def addListener():
-'''public void addListener(final TransportResolverListener li)
-'''
-pass
+    '''    public void addListener(final TransportResolverListener li)
+    '''
 def removeListener():
-'''public void removeListener(final TransportResolverListener li)
-'''
-pass
+    '''    public void removeListener(final TransportResolverListener li)
+    '''
 def getListenersList():
-'''public ArrayList<TransportResolverListener> getListenersList()
-'''
-pass
+    '''    public ArrayList<TransportResolverListener> getListenersList()
+    '''
 def getCandidates():
-'''public Iterator<TransportCandidate> getCandidates()
-'''
-pass
+    '''    public Iterator<TransportCandidate> getCandidates()
+    '''
 def getPreferredCandidate():
-'''public TransportCandidate getPreferredCandidate()
-'''
-pass
+    '''    public TransportCandidate getPreferredCandidate()
+    '''
 def getCandidateCount():
-'''public int getCandidateCount()
-'''
-pass
+    '''    public int getCandidateCount()
+    '''
 def getCandidatesList():
-'''public List<TransportCandidate> getCandidatesList()
-'''
-pass
+    '''    public List<TransportCandidate> getCandidatesList()
+    '''
 def getCandidate():
-'''public TransportCandidate getCandidate(final int i)
-'''
-pass
+    '''    public TransportCandidate getCandidate(final int i)
+    '''
 def initializeAndWait():
-'''public void initializeAndWait()
-'''
-pass
+    '''    public void initializeAndWait()
+    '''

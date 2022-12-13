@@ -1,136 +1,102 @@
 def setProcName():
-'''public void setProcName(final String t)
-'''
-pass
+    '''    public void setProcName(final String t)
+    '''
 def getProcName():
-'''public String getProcName()
-'''
-pass
+    '''    public String getProcName()
+    '''
 def getProcType():
-'''public String getProcType()
-'''
-pass
+    '''    public String getProcType()
+    '''
 def setProcType():
-'''public void setProcType(final String c)
-'''
-pass
+    '''    public void setProcType(final String c)
+    '''
 def getProcessOrder():
-'''public int getProcessOrder()
-'''
-pass
+    '''    public int getProcessOrder()
+    '''
 def setProcessOrder():
-'''public void setProcessOrder(final int e)
-'''
-pass
+    '''    public void setProcessOrder(final int e)
+    '''
 def getHierarchyPath():
-'''public String getHierarchyPath()
-'''
-pass
+    '''    public String getHierarchyPath()
+    '''
 def setHierarchyPath():
-'''public void setHierarchyPath(final String e)
-'''
-pass
+    '''    public void setHierarchyPath(final String e)
+    '''
 def getInterface():
-'''public String getInterface()
-'''
-pass
+    '''    public String getInterface()
+    '''
 def setInterface():
-'''public void setInterface(final String e)
-'''
-pass
+    '''    public void setInterface(final String e)
+    '''
 def getMosName():
-'''public String getMosName()
-'''
-pass
+    '''    public String getMosName()
+    '''
 def setMosName():
-'''public void setMosName(final String e)
-'''
-pass
+    '''    public void setMosName(final String e)
+    '''
 def setTableName():
-'''public void setTableName(final String t)
-'''
-pass
+    '''    public void setTableName(final String t)
+    '''
 def getTableName():
-'''public String getTableName()
-'''
-pass
+    '''    public String getTableName()
+    '''
 def setProcMessage():
-'''public void setProcMessage(final String t)
-'''
-pass
+    '''    public void setProcMessage(final String t)
+    '''
 def getProcMessage():
-'''public String getProcMessage()
-'''
-pass
+    '''    public String getProcMessage()
+    '''
 def setClassName():
-'''public void setClassName(final String t)
-'''
-pass
+    '''    public void setClassName(final String t)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def isInsert():
-'''public boolean isInsert()
-'''
-pass
+    '''    public boolean isInsert()
+    '''
 def isUpdate():
-'''public boolean isUpdate()
-'''
-pass
+    '''    public boolean isUpdate()
+    '''
 def isDelete():
-'''public boolean isDelete()
-'''
-pass
+    '''    public boolean isDelete()
+    '''
 def setEnabled():
-'''public void setEnabled(final int e)
-'''
-pass
+    '''    public void setEnabled(final int e)
+    '''
 def setIsInsert():
-'''public void setIsInsert(final int e)
-'''
-pass
+    '''    public void setIsInsert(final int e)
+    '''
 def setIsUpdate():
-'''public void setIsUpdate(final int e)
-'''
-pass
+    '''    public void setIsUpdate(final int e)
+    '''
 def setIsDelete():
-'''public void setIsDelete(final int e)
-'''
-pass
+    '''    public void setIsDelete(final int e)
+    '''
 def getConditions():
-'''public Map<String, List<MaxIfaceCondDetailInfo>> getConditions()
-'''
-pass
+    '''    public Map<String, List<MaxIfaceCondDetailInfo>> getConditions()
+    '''
 def hasConditions():
-'''public boolean hasConditions()
-'''
-pass
+    '''    public boolean hasConditions()
+    '''
 def setConditions():
-'''public void setConditions(final Map<String, List<MaxIfaceCondDetailInfo>> d)
-'''
-pass
+    '''    public void setConditions(final Map<String, List<MaxIfaceCondDetailInfo>> d)
+    '''
 def getReplaceDetails():
-'''public Map<String, List<MaxReplaceProcInfo>> getReplaceDetails()
-'''
-pass
+    '''    public Map<String, List<MaxReplaceProcInfo>> getReplaceDetails()
+    '''
 def setReplaceDetails():
-'''public void setReplaceDetails(final Map<String, List<MaxReplaceProcInfo>> d)
-'''
-pass
+    '''    public void setReplaceDetails(final Map<String, List<MaxReplaceProcInfo>> d)
+    '''
 def getTransformDetails():
-'''public Map<String, List<MaxTransformProcInfo>> getTransformDetails()
-'''
-pass
+    '''    public Map<String, List<MaxTransformProcInfo>> getTransformDetails()
+    '''
 def setTransformDetails():
-'''public void setTransformDetails(final Map<String, List<MaxTransformProcInfo>> d)
-'''
-pass
+    '''    public void setTransformDetails(final Map<String, List<MaxTransformProcInfo>> d)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,293 +1,221 @@
 def CoreDocumentImpl():
-'''public CoreDocumentImpl()
-public CoreDocumentImpl(final boolean allowGrammarAccess)
-public CoreDocumentImpl(final DocumentType documentType)
-public CoreDocumentImpl(final DocumentType documentType, final boolean b)
-'''
-pass
+    '''    public CoreDocumentImpl()
+    public CoreDocumentImpl(final boolean allowGrammarAccess)
+    public CoreDocumentImpl(final DocumentType documentType)
+    public CoreDocumentImpl(final DocumentType documentType, final boolean b)
+    '''
 def getOwnerDocument():
-'''public final Document getOwnerDocument()
-'''
-pass
+    '''    public final Document getOwnerDocument()
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def cloneNode():
-'''public Node cloneNode(final boolean b)
-'''
-pass
+    '''    public Node cloneNode(final boolean b)
+    '''
 def insertBefore():
-'''public Node insertBefore(final Node node, final Node node2)
-'''
-pass
+    '''    public Node insertBefore(final Node node, final Node node2)
+    '''
 def removeChild():
-'''public Node removeChild(final Node node)
-'''
-pass
+    '''    public Node removeChild(final Node node)
+    '''
 def replaceChild():
-'''public Node replaceChild(final Node node, final Node node2)
-'''
-pass
+    '''    public Node replaceChild(final Node node, final Node node2)
+    '''
 def getTextContent():
-'''public String getTextContent()
-'''
-pass
+    '''    public String getTextContent()
+    '''
 def setTextContent():
-'''public void setTextContent(final String s)
-'''
-pass
+    '''    public void setTextContent(final String s)
+    '''
 def getFeature():
-'''public Object getFeature(final String s, final String s2)
-'''
-pass
+    '''    public Object getFeature(final String s, final String s2)
+    '''
 def createAttribute():
-'''public Attr createAttribute(final String s)
-'''
-pass
+    '''    public Attr createAttribute(final String s)
+    '''
 def createCDATASection():
-'''public CDATASection createCDATASection(final String s)
-'''
-pass
+    '''    public CDATASection createCDATASection(final String s)
+    '''
 def createComment():
-'''public Comment createComment(final String s)
-'''
-pass
+    '''    public Comment createComment(final String s)
+    '''
 def createDocumentFragment():
-'''public DocumentFragment createDocumentFragment()
-'''
-pass
+    '''    public DocumentFragment createDocumentFragment()
+    '''
 def createElement():
-'''public Element createElement(final String s)
-'''
-pass
+    '''    public Element createElement(final String s)
+    '''
 def createEntityReference():
-'''public EntityReference createEntityReference(final String s)
-'''
-pass
+    '''    public EntityReference createEntityReference(final String s)
+    '''
 def createProcessingInstruction():
-'''public ProcessingInstruction createProcessingInstruction(final String s, final String s2)
-'''
-pass
+    '''    public ProcessingInstruction createProcessingInstruction(final String s, final String s2)
+    '''
 def createTextNode():
-'''public Text createTextNode(final String s)
-'''
-pass
+    '''    public Text createTextNode(final String s)
+    '''
 def getDoctype():
-'''public DocumentType getDoctype()
-'''
-pass
+    '''    public DocumentType getDoctype()
+    '''
 def getDocumentElement():
-'''public Element getDocumentElement()
-'''
-pass
+    '''    public Element getDocumentElement()
+    '''
 def getElementsByTagName():
-'''public NodeList getElementsByTagName(final String s)
-'''
-pass
+    '''    public NodeList getElementsByTagName(final String s)
+    '''
 def getImplementation():
-'''public DOMImplementation getImplementation()
-'''
-pass
+    '''    public DOMImplementation getImplementation()
+    '''
 def setErrorChecking():
-'''public void setErrorChecking(final boolean errorChecking)
-'''
-pass
+    '''    public void setErrorChecking(final boolean errorChecking)
+    '''
 def setStrictErrorChecking():
-'''public void setStrictErrorChecking(final boolean errorChecking)
-'''
-pass
+    '''    public void setStrictErrorChecking(final boolean errorChecking)
+    '''
 def getErrorChecking():
-'''public boolean getErrorChecking()
-'''
-pass
+    '''    public boolean getErrorChecking()
+    '''
 def getStrictErrorChecking():
-'''public boolean getStrictErrorChecking()
-'''
-pass
+    '''    public boolean getStrictErrorChecking()
+    '''
 def getInputEncoding():
-'''public String getInputEncoding()
-'''
-pass
+    '''    public String getInputEncoding()
+    '''
 def setInputEncoding():
-'''public void setInputEncoding(final String actualEncoding)
-'''
-pass
+    '''    public void setInputEncoding(final String actualEncoding)
+    '''
 def setXmlEncoding():
-'''public void setXmlEncoding(final String encoding)
-'''
-pass
+    '''    public void setXmlEncoding(final String encoding)
+    '''
 def setEncoding():
-'''public void setEncoding(final String xmlEncoding)
-'''
-pass
+    '''    public void setEncoding(final String xmlEncoding)
+    '''
 def getXmlEncoding():
-'''public String getXmlEncoding()
-'''
-pass
+    '''    public String getXmlEncoding()
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setXmlVersion():
-'''public void setXmlVersion(final String s)
-'''
-pass
+    '''    public void setXmlVersion(final String s)
+    '''
 def setVersion():
-'''public void setVersion(final String xmlVersion)
-'''
-pass
+    '''    public void setVersion(final String xmlVersion)
+    '''
 def getXmlVersion():
-'''public String getXmlVersion()
-'''
-pass
+    '''    public String getXmlVersion()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setXmlStandalone():
-'''public void setXmlStandalone(final boolean standalone)
-'''
-pass
+    '''    public void setXmlStandalone(final boolean standalone)
+    '''
 def setStandalone():
-'''public void setStandalone(final boolean xmlStandalone)
-'''
-pass
+    '''    public void setStandalone(final boolean xmlStandalone)
+    '''
 def getXmlStandalone():
-'''public boolean getXmlStandalone()
-'''
-pass
+    '''    public boolean getXmlStandalone()
+    '''
 def getStandalone():
-'''public boolean getStandalone()
-'''
-pass
+    '''    public boolean getStandalone()
+    '''
 def getDocumentURI():
-'''public String getDocumentURI()
-'''
-pass
+    '''    public String getDocumentURI()
+    '''
 def renameNode():
-'''public Node renameNode(final Node node, final String s, final String s2)
-'''
-pass
+    '''    public Node renameNode(final Node node, final String s, final String s2)
+    '''
 def normalizeDocument():
-'''public void normalizeDocument()
-'''
-pass
+    '''    public void normalizeDocument()
+    '''
 def getDomConfig():
-'''public DOMConfiguration getDomConfig()
-'''
-pass
+    '''    public DOMConfiguration getDomConfig()
+    '''
 def getBaseURI():
-'''public String getBaseURI()
-'''
-pass
+    '''    public String getBaseURI()
+    '''
 def setDocumentURI():
-'''public void setDocumentURI(final String fDocumentURI)
-'''
-pass
+    '''    public void setDocumentURI(final String fDocumentURI)
+    '''
 def getAsync():
-'''public boolean getAsync()
-'''
-pass
+    '''    public boolean getAsync()
+    '''
 def setAsync():
-'''public void setAsync(final boolean b)
-'''
-pass
+    '''    public void setAsync(final boolean b)
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def load():
-'''public boolean load(final String s)
-'''
-pass
+    '''    public boolean load(final String s)
+    '''
 def loadXML():
-'''public boolean loadXML(final String s)
-'''
-pass
+    '''    public boolean loadXML(final String s)
+    '''
 def saveXML():
-'''public String saveXML(Node node)
-'''
-pass
+    '''    public String saveXML(Node node)
+    '''
 def createDocumentType():
-'''public DocumentType createDocumentType(final String s, final String s2, final String s3)
-'''
-pass
+    '''    public DocumentType createDocumentType(final String s, final String s2, final String s3)
+    '''
 def createEntity():
-'''public Entity createEntity(final String s)
-'''
-pass
+    '''    public Entity createEntity(final String s)
+    '''
 def createNotation():
-'''public Notation createNotation(final String s)
-'''
-pass
+    '''    public Notation createNotation(final String s)
+    '''
 def createElementDefinition():
-'''public ElementDefinitionImpl createElementDefinition(final String s)
-'''
-pass
+    '''    public ElementDefinitionImpl createElementDefinition(final String s)
+    '''
 def importNode():
-'''public Node importNode(final Node node, final boolean b)
-'''
-pass
+    '''    public Node importNode(final Node node, final boolean b)
+    '''
 def adoptNode():
-'''public Node adoptNode(final Node node)
-'''
-pass
+    '''    public Node adoptNode(final Node node)
+    '''
 def getElementById():
-'''public Element getElementById(final String s)
-'''
-pass
+    '''    public Element getElementById(final String s)
+    '''
 def putIdentifier():
-'''public void putIdentifier(final String key, final Element value)
-'''
-pass
+    '''    public void putIdentifier(final String key, final Element value)
+    '''
 def getIdentifier():
-'''public Element getIdentifier(final String key)
-'''
-pass
+    '''    public Element getIdentifier(final String key)
+    '''
 def removeIdentifier():
-'''public void removeIdentifier(final String key)
-'''
-pass
+    '''    public void removeIdentifier(final String key)
+    '''
 def getIdentifiers():
-'''public Enumeration getIdentifiers()
-'''
-pass
+    '''    public Enumeration getIdentifiers()
+    '''
 def createElementNS():
-'''public Element createElementNS(final String s, final String s2)
-public Element createElementNS(final String s, final String s2, final String s3)
-'''
-pass
+    '''    public Element createElementNS(final String s, final String s2)
+    public Element createElementNS(final String s, final String s2, final String s3)
+    '''
 def createAttributeNS():
-'''public Attr createAttributeNS(final String s, final String s2)
-public Attr createAttributeNS(final String s, final String s2, final String s3)
-'''
-pass
+    '''    public Attr createAttributeNS(final String s, final String s2)
+    public Attr createAttributeNS(final String s, final String s2, final String s3)
+    '''
 def getElementsByTagNameNS():
-'''public NodeList getElementsByTagNameNS(final String s, final String s2)
-'''
-pass
+    '''    public NodeList getElementsByTagNameNS(final String s, final String s2)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def isXMLName():
-'''public static final boolean isXMLName(final String s, final boolean b)
-'''
-pass
+    '''    public static final boolean isXMLName(final String s, final boolean b)
+    '''
 def isValidQName():
-'''public static final boolean isValidQName(final String s, final String s2, final boolean b)
-'''
-pass
+    '''    public static final boolean isValidQName(final String s, final String s2, final boolean b)
+    '''
 def setUserData():
-'''public Object setUserData(final Node node, final String s, final Object o, final UserDataHandler userDataHandler)
-'''
-pass
+    '''    public Object setUserData(final Node node, final String s, final Object o, final UserDataHandler userDataHandler)
+    '''
 def getUserData():
-'''public Object getUserData(final Node node, final String key)
-'''
-pass
+    '''    public Object getUserData(final Node node, final String key)
+    '''

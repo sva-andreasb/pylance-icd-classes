@@ -1,16 +1,12 @@
 def MaxTableDomain():
-'''public MaxTableDomain(final MboSet ms)
-'''
-pass
+    '''    public MaxTableDomain(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''

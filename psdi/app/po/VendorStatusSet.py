@@ -1,4 +1,3 @@
 def VendorStatusSet():
-'''public VendorStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public VendorStatusSet(final MboServerInterface ms)
+    '''

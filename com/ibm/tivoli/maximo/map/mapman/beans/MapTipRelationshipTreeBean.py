@@ -1,8 +1,6 @@
 def getTreeControlObjectName():
-'''public String getTreeControlObjectName()
-'''
-pass
+    '''    public String getTreeControlObjectName()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''

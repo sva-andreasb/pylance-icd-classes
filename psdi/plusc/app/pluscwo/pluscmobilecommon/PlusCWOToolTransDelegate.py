@@ -1,12 +1,9 @@
 def PlusCWOToolTransDelegate():
-'''public PlusCWOToolTransDelegate(final MboAdapter mbo)
-'''
-pass
+    '''    public PlusCWOToolTransDelegate(final MboAdapter mbo)
+    '''
 def validateBufferSolution():
-'''public void validateBufferSolution()
-'''
-pass
+    '''    public void validateBufferSolution()
+    '''
 def validateDates():
-'''public void validateDates()
-'''
-pass
+    '''    public void validateDates()
+    '''

@@ -1,4 +1,3 @@
 def doCheck():
-'''public static void doCheck(final Mbo mbo)
-'''
-pass
+    '''    public static void doCheck(final Mbo mbo)
+    '''

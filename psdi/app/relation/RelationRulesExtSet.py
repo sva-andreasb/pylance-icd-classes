@@ -1,4 +1,3 @@
 def RelationRulesExtSet():
-'''public RelationRulesExtSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RelationRulesExtSet(final MboServerInterface ms)
+    '''

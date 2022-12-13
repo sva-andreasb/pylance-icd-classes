@@ -1,8 +1,6 @@
 def PlusCFldReviewer():
-'''public PlusCFldReviewer(final MboValue mbovalue)
-'''
-pass
+    '''    public PlusCFldReviewer(final MboValue mbovalue)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

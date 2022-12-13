@@ -1,8 +1,6 @@
 def init():
-'''public static void init()
-'''
-pass
+    '''    public static void init()
+    '''
 def createThreadContextMap():
-'''public static ThreadContextMap createThreadContextMap()
-'''
-pass
+    '''    public static ThreadContextMap createThreadContextMap()
+    '''

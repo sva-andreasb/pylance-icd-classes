@@ -1,16 +1,12 @@
 def ExternalUser():
-'''public ExternalUser(final String id, final String name, final String desc)
-'''
-pass
+    '''    public ExternalUser(final String id, final String name, final String desc)
+    '''
 def getBLId():
-'''public String getBLId()
-'''
-pass
+    '''    public String getBLId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDesc():
-'''public String getDesc()
-'''
-pass
+    '''    public String getDesc()
+    '''

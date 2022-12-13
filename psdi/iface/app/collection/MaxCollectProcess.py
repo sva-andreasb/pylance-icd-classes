@@ -1,12 +1,9 @@
 def MaxCollectProcess():
-'''public MaxCollectProcess()
-'''
-pass
+    '''    public MaxCollectProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''
 def deleteAll():
-'''public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void deleteAll(final MboRemote owner, final MboSetRemote mboSet)
+    '''

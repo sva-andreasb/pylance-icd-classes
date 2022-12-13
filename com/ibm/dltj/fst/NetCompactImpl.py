@@ -1,62 +1,47 @@
 def NetCompactImpl():
-'''public NetCompactImpl()
-'''
-pass
+    '''    public NetCompactImpl()
+    '''
 def startBuild():
-'''public void startBuild(final boolean b)
-'''
-pass
+    '''    public void startBuild(final boolean b)
+    '''
 def endBuild():
-'''public int endBuild()
-'''
-pass
+    '''    public int endBuild()
+    '''
 def add():
-'''public void add(final CharacterIterator characterIterator, int n, final Object o)
-'''
-pass
+    '''    public void add(final CharacterIterator characterIterator, int n, final Object o)
+    '''
 def remove():
-'''public int remove(final CharacterIterator characterIterator, int n)
-'''
-pass
+    '''    public int remove(final CharacterIterator characterIterator, int n)
+    '''
 def removeGloss():
-'''public void removeGloss(final CharacterIterator characterIterator, int n, final Gloss gloss)
-'''
-pass
+    '''    public void removeGloss(final CharacterIterator characterIterator, int n, final Gloss gloss)
+    '''
 def contract():
-'''public void contract()
-'''
-pass
+    '''    public void contract()
+    '''
 def newNode():
-'''public WritableNode newNode(final int n, final int n2)
-'''
-pass
+    '''    public WritableNode newNode(final int n, final int n2)
+    '''
 def setFirstNode():
-'''public void setFirstNode(final Node node)
-'''
-pass
+    '''    public void setFirstNode(final Node node)
+    '''
 def setCharMapping():
-'''public void setCharMapping(final char c, final char c2)
-'''
-pass
+    '''    public void setCharMapping(final char c, final char c2)
+    '''
 def readContents():
-'''public long readContents(final DataInput dataInput, final int n)
-'''
-pass
+    '''    public long readContents(final DataInput dataInput, final int n)
+    '''
 def dumpNet():
-'''public void dumpNet(final PrintStream printStream)
-'''
-pass
+    '''    public void dumpNet(final PrintStream printStream)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def Apply():
-'''public int Apply(final int n)
-public int Apply(final int n)
-public int Apply(final int n)
-'''
-pass
+    '''    public int Apply(final int n)
+    public int Apply(final int n)
+    public int Apply(final int n)
+    '''

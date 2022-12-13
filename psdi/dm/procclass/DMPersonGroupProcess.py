@@ -1,16 +1,12 @@
 def DMPersonGroupProcess():
-'''public DMPersonGroupProcess()
-'''
-pass
+    '''    public DMPersonGroupProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String objectName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String objectName)
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''

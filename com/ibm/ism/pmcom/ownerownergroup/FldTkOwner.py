@@ -1,12 +1,9 @@
 def FldTkOwner():
-'''public FldTkOwner(final MboValue mbv)
-'''
-pass
+    '''    public FldTkOwner(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def isSRfromCatalog():
-'''public static boolean isSRfromCatalog(final TicketRemote ticket)
-'''
-pass
+    '''    public static boolean isSRfromCatalog(final TicketRemote ticket)
+    '''

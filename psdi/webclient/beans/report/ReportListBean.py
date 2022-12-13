@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def saveandclose():
-'''public int saveandclose()
-'''
-pass
+    '''    public int saveandclose()
+    '''
 def saveandcreate():
-'''public int saveandcreate()
-'''
-pass
+    '''    public int saveandcreate()
+    '''

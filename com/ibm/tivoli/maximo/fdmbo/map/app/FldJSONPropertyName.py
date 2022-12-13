@@ -1,20 +1,15 @@
 def FldJSONPropertyName():
-'''public FldJSONPropertyName(final MboValue mbv)
-'''
-pass
+    '''    public FldJSONPropertyName(final MboValue mbv)
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def replaceInvalidChar():
-'''public static String replaceInvalidChar(final String checkString)
-'''
-pass
+    '''    public static String replaceInvalidChar(final String checkString)
+    '''

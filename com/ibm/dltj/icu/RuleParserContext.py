@@ -1,60 +1,45 @@
 def RuleParserContext():
-'''public RuleParserContext()
-'''
-pass
+    '''    public RuleParserContext()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def getInput():
-'''public EncodedFilePath getInput()
-'''
-pass
+    '''    public EncodedFilePath getInput()
+    '''
 def setInput():
-'''public void setInput(final File path)
-'''
-pass
+    '''    public void setInput(final File path)
+    '''
 def setInputCharset():
-'''public void setInputCharset(final String charset)
-'''
-pass
+    '''    public void setInputCharset(final String charset)
+    '''
 def getTypeSystem():
-'''public File getTypeSystem()
-'''
-pass
+    '''    public File getTypeSystem()
+    '''
 def setTypeSystem():
-'''public void setTypeSystem(final File typeSystem)
-'''
-pass
+    '''    public void setTypeSystem(final File typeSystem)
+    '''
 def getJar():
-'''public File getJar()
-'''
-pass
+    '''    public File getJar()
+    '''
 def setJar():
-'''public void setJar(final File jar)
-'''
-pass
+    '''    public void setJar(final File jar)
+    '''
 def getTagOutput():
-'''public File getTagOutput()
-'''
-pass
+    '''    public File getTagOutput()
+    '''
 def getRuleOutput():
-'''public File getRuleOutput()
-'''
-pass
+    '''    public File getRuleOutput()
+    '''
 def getBrkOutput():
-'''public File getBrkOutput()
-'''
-pass
+    '''    public File getBrkOutput()
+    '''
 def isKeepBrk():
-'''public boolean isKeepBrk()
-'''
-pass
+    '''    public boolean isKeepBrk()
+    '''
 def setBrkOutput():
-'''public void setBrkOutput(final File brkFile)
-'''
-pass
+    '''    public void setBrkOutput(final File brkFile)
+    '''
 def setIcuDir():
-'''public void setIcuDir(final File icuDir)
-'''
-pass
+    '''    public void setIcuDir(final File icuDir)
+    '''

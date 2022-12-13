@@ -1,8 +1,6 @@
 def SelectOslcServiceProviderBean():
-'''public SelectOslcServiceProviderBean()
-'''
-pass
+    '''    public SelectOslcServiceProviderBean()
+    '''
 def SELECT():
-'''public int SELECT()
-'''
-pass
+    '''    public int SELECT()
+    '''

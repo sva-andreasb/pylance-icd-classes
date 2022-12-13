@@ -1,4 +1,3 @@
 def FldMatUseTransActualDate():
-'''public FldMatUseTransActualDate(final MboValue mbv)
-'''
-pass
+    '''    public FldMatUseTransActualDate(final MboValue mbv)
+    '''

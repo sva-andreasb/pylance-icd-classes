@@ -1,8 +1,6 @@
 def FldSolOwner():
-'''public FldSolOwner(final MboValue mbv)
-'''
-pass
+    '''    public FldSolOwner(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def FldMatUseTransNewPhyscnt():
-'''public FldMatUseTransNewPhyscnt(final MboValue mbv)
-'''
-pass
+    '''    public FldMatUseTransNewPhyscnt(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

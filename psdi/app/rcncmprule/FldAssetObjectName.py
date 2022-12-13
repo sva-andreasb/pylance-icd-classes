@@ -1,4 +1,3 @@
 def FldAssetObjectName():
-'''public FldAssetObjectName(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetObjectName(final MboValue mbv)
+    '''

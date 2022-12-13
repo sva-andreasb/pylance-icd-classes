@@ -1,16 +1,12 @@
 def ResultsItemsBean():
-'''public ResultsItemsBean()
-'''
-pass
+    '''    public ResultsItemsBean()
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def count():
-'''public int count()
-'''
-pass
+    '''    public int count()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''

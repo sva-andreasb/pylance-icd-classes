@@ -1,12 +1,9 @@
 def FldReportSchedEmailUsers():
-'''public FldReportSchedEmailUsers(final MboValue mbv)
-'''
-pass
+    '''    public FldReportSchedEmailUsers(final MboValue mbv)
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

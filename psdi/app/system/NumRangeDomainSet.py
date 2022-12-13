@@ -1,8 +1,6 @@
 def NumRangeDomainSet():
-'''public NumRangeDomainSet(final MboServerInterface ms)
-'''
-pass
+    '''    public NumRangeDomainSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

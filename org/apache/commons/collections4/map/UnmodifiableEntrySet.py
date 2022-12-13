@@ -1,34 +1,26 @@
 def add():
-'''public boolean add(final Map.Entry<K, V> object)
-'''
-pass
+    '''    public boolean add(final Map.Entry<K, V> object)
+    '''
 def addAll():
-'''public boolean addAll(final Collection<? extends Map.Entry<K, V>> coll)
-'''
-pass
+    '''    public boolean addAll(final Collection<? extends Map.Entry<K, V>> coll)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def remove():
-'''public boolean remove(final Object object)
-public void remove()
-'''
-pass
+    '''    public boolean remove(final Object object)
+    public void remove()
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean removeAll(final Collection<?> coll)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection<?> coll)
-'''
-pass
+    '''    public boolean retainAll(final Collection<?> coll)
+    '''
 def toArray():
-'''public Object[] toArray()
-public <T> T[] toArray(final T[] array)
-'''
-pass
+    '''    public Object[] toArray()
+    public <T> T[] toArray(final T[] array)
+    '''
 def setValue():
-'''public V setValue(final V obj)
-'''
-pass
+    '''    public V setValue(final V obj)
+    '''

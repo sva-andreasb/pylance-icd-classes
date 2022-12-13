@@ -1,8 +1,6 @@
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''
 def toList():
-'''public ArrayList toList(final Collection col)
-'''
-pass
+    '''    public ArrayList toList(final Collection col)
+    '''

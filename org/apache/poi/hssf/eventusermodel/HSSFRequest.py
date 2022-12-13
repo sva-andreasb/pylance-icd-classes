@@ -1,12 +1,9 @@
 def HSSFRequest():
-'''public HSSFRequest()
-'''
-pass
+    '''    public HSSFRequest()
+    '''
 def addListener():
-'''public void addListener(final HSSFListener lsnr, final short sid)
-'''
-pass
+    '''    public void addListener(final HSSFListener lsnr, final short sid)
+    '''
 def addListenerForAllRecords():
-'''public void addListenerForAllRecords(final HSSFListener lsnr)
-'''
-pass
+    '''    public void addListenerForAllRecords(final HSSFListener lsnr)
+    '''

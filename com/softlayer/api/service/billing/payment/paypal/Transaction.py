@@ -1,776 +1,582 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getOrder():
-'''public Order getOrder()
-'''
-pass
+    '''    public Order getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final Order order)
-'''
-pass
+    '''    public void setOrder(final Order order)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getAddressCityName():
-'''public String getAddressCityName()
-'''
-pass
+    '''    public String getAddressCityName()
+    '''
 def setAddressCityName():
-'''public void setAddressCityName(final String addressCityName)
-'''
-pass
+    '''    public void setAddressCityName(final String addressCityName)
+    '''
 def isAddressCityNameSpecified():
-'''public boolean isAddressCityNameSpecified()
-'''
-pass
+    '''    public boolean isAddressCityNameSpecified()
+    '''
 def unsetAddressCityName():
-'''public void unsetAddressCityName()
-'''
-pass
+    '''    public void unsetAddressCityName()
+    '''
 def getAddressCountry():
-'''public String getAddressCountry()
-'''
-pass
+    '''    public String getAddressCountry()
+    '''
 def setAddressCountry():
-'''public void setAddressCountry(final String addressCountry)
-'''
-pass
+    '''    public void setAddressCountry(final String addressCountry)
+    '''
 def isAddressCountrySpecified():
-'''public boolean isAddressCountrySpecified()
-'''
-pass
+    '''    public boolean isAddressCountrySpecified()
+    '''
 def unsetAddressCountry():
-'''public void unsetAddressCountry()
-'''
-pass
+    '''    public void unsetAddressCountry()
+    '''
 def getAddressName():
-'''public String getAddressName()
-'''
-pass
+    '''    public String getAddressName()
+    '''
 def setAddressName():
-'''public void setAddressName(final String addressName)
-'''
-pass
+    '''    public void setAddressName(final String addressName)
+    '''
 def isAddressNameSpecified():
-'''public boolean isAddressNameSpecified()
-'''
-pass
+    '''    public boolean isAddressNameSpecified()
+    '''
 def unsetAddressName():
-'''public void unsetAddressName()
-'''
-pass
+    '''    public void unsetAddressName()
+    '''
 def getAddressPostalCode():
-'''public String getAddressPostalCode()
-'''
-pass
+    '''    public String getAddressPostalCode()
+    '''
 def setAddressPostalCode():
-'''public void setAddressPostalCode(final String addressPostalCode)
-'''
-pass
+    '''    public void setAddressPostalCode(final String addressPostalCode)
+    '''
 def isAddressPostalCodeSpecified():
-'''public boolean isAddressPostalCodeSpecified()
-'''
-pass
+    '''    public boolean isAddressPostalCodeSpecified()
+    '''
 def unsetAddressPostalCode():
-'''public void unsetAddressPostalCode()
-'''
-pass
+    '''    public void unsetAddressPostalCode()
+    '''
 def getAddressStateProvence():
-'''public String getAddressStateProvence()
-'''
-pass
+    '''    public String getAddressStateProvence()
+    '''
 def setAddressStateProvence():
-'''public void setAddressStateProvence(final String addressStateProvence)
-'''
-pass
+    '''    public void setAddressStateProvence(final String addressStateProvence)
+    '''
 def isAddressStateProvenceSpecified():
-'''public boolean isAddressStateProvenceSpecified()
-'''
-pass
+    '''    public boolean isAddressStateProvenceSpecified()
+    '''
 def unsetAddressStateProvence():
-'''public void unsetAddressStateProvence()
-'''
-pass
+    '''    public void unsetAddressStateProvence()
+    '''
 def getAddressStatus():
-'''public String getAddressStatus()
-'''
-pass
+    '''    public String getAddressStatus()
+    '''
 def setAddressStatus():
-'''public void setAddressStatus(final String addressStatus)
-'''
-pass
+    '''    public void setAddressStatus(final String addressStatus)
+    '''
 def isAddressStatusSpecified():
-'''public boolean isAddressStatusSpecified()
-'''
-pass
+    '''    public boolean isAddressStatusSpecified()
+    '''
 def unsetAddressStatus():
-'''public void unsetAddressStatus()
-'''
-pass
+    '''    public void unsetAddressStatus()
+    '''
 def getAddressStreet1():
-'''public String getAddressStreet1()
-'''
-pass
+    '''    public String getAddressStreet1()
+    '''
 def setAddressStreet1():
-'''public void setAddressStreet1(final String addressStreet1)
-'''
-pass
+    '''    public void setAddressStreet1(final String addressStreet1)
+    '''
 def isAddressStreet1Specified():
-'''public boolean isAddressStreet1Specified()
-'''
-pass
+    '''    public boolean isAddressStreet1Specified()
+    '''
 def unsetAddressStreet1():
-'''public void unsetAddressStreet1()
-'''
-pass
+    '''    public void unsetAddressStreet1()
+    '''
 def getAddressStreet2():
-'''public String getAddressStreet2()
-'''
-pass
+    '''    public String getAddressStreet2()
+    '''
 def setAddressStreet2():
-'''public void setAddressStreet2(final String addressStreet2)
-'''
-pass
+    '''    public void setAddressStreet2(final String addressStreet2)
+    '''
 def isAddressStreet2Specified():
-'''public boolean isAddressStreet2Specified()
-'''
-pass
+    '''    public boolean isAddressStreet2Specified()
+    '''
 def unsetAddressStreet2():
-'''public void unsetAddressStreet2()
-'''
-pass
+    '''    public void unsetAddressStreet2()
+    '''
 def getContactPhone():
-'''public String getContactPhone()
-'''
-pass
+    '''    public String getContactPhone()
+    '''
 def setContactPhone():
-'''public void setContactPhone(final String contactPhone)
-'''
-pass
+    '''    public void setContactPhone(final String contactPhone)
+    '''
 def isContactPhoneSpecified():
-'''public boolean isContactPhoneSpecified()
-'''
-pass
+    '''    public boolean isContactPhoneSpecified()
+    '''
 def unsetContactPhone():
-'''public void unsetContactPhone()
-'''
-pass
+    '''    public void unsetContactPhone()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getExchangeRate():
-'''public String getExchangeRate()
-'''
-pass
+    '''    public String getExchangeRate()
+    '''
 def setExchangeRate():
-'''public void setExchangeRate(final String exchangeRate)
-'''
-pass
+    '''    public void setExchangeRate(final String exchangeRate)
+    '''
 def isExchangeRateSpecified():
-'''public boolean isExchangeRateSpecified()
-'''
-pass
+    '''    public boolean isExchangeRateSpecified()
+    '''
 def unsetExchangeRate():
-'''public void unsetExchangeRate()
-'''
-pass
+    '''    public void unsetExchangeRate()
+    '''
 def getFeeAmount():
-'''public BigDecimal getFeeAmount()
-'''
-pass
+    '''    public BigDecimal getFeeAmount()
+    '''
 def setFeeAmount():
-'''public void setFeeAmount(final BigDecimal feeAmount)
-'''
-pass
+    '''    public void setFeeAmount(final BigDecimal feeAmount)
+    '''
 def isFeeAmountSpecified():
-'''public boolean isFeeAmountSpecified()
-'''
-pass
+    '''    public boolean isFeeAmountSpecified()
+    '''
 def unsetFeeAmount():
-'''public void unsetFeeAmount()
-'''
-pass
+    '''    public void unsetFeeAmount()
+    '''
 def getGrossAmount():
-'''public BigDecimal getGrossAmount()
-'''
-pass
+    '''    public BigDecimal getGrossAmount()
+    '''
 def setGrossAmount():
-'''public void setGrossAmount(final BigDecimal grossAmount)
-'''
-pass
+    '''    public void setGrossAmount(final BigDecimal grossAmount)
+    '''
 def isGrossAmountSpecified():
-'''public boolean isGrossAmountSpecified()
-'''
-pass
+    '''    public boolean isGrossAmountSpecified()
+    '''
 def unsetGrossAmount():
-'''public void unsetGrossAmount()
-'''
-pass
+    '''    public void unsetGrossAmount()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getInvoiceId():
-'''public Long getInvoiceId()
-'''
-pass
+    '''    public Long getInvoiceId()
+    '''
 def setInvoiceId():
-'''public void setInvoiceId(final Long invoiceId)
-'''
-pass
+    '''    public void setInvoiceId(final Long invoiceId)
+    '''
 def isInvoiceIdSpecified():
-'''public boolean isInvoiceIdSpecified()
-'''
-pass
+    '''    public boolean isInvoiceIdSpecified()
+    '''
 def unsetInvoiceId():
-'''public void unsetInvoiceId()
-'''
-pass
+    '''    public void unsetInvoiceId()
+    '''
 def getLastPaypalCommand():
-'''public String getLastPaypalCommand()
-'''
-pass
+    '''    public String getLastPaypalCommand()
+    '''
 def setLastPaypalCommand():
-'''public void setLastPaypalCommand(final String lastPaypalCommand)
-'''
-pass
+    '''    public void setLastPaypalCommand(final String lastPaypalCommand)
+    '''
 def isLastPaypalCommandSpecified():
-'''public boolean isLastPaypalCommandSpecified()
-'''
-pass
+    '''    public boolean isLastPaypalCommandSpecified()
+    '''
 def unsetLastPaypalCommand():
-'''public void unsetLastPaypalCommand()
-'''
-pass
+    '''    public void unsetLastPaypalCommand()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getOrderFromIpAddress():
-'''public String getOrderFromIpAddress()
-'''
-pass
+    '''    public String getOrderFromIpAddress()
+    '''
 def setOrderFromIpAddress():
-'''public void setOrderFromIpAddress(final String orderFromIpAddress)
-'''
-pass
+    '''    public void setOrderFromIpAddress(final String orderFromIpAddress)
+    '''
 def isOrderFromIpAddressSpecified():
-'''public boolean isOrderFromIpAddressSpecified()
-'''
-pass
+    '''    public boolean isOrderFromIpAddressSpecified()
+    '''
 def unsetOrderFromIpAddress():
-'''public void unsetOrderFromIpAddress()
-'''
-pass
+    '''    public void unsetOrderFromIpAddress()
+    '''
 def getOrderTotal():
-'''public BigDecimal getOrderTotal()
-'''
-pass
+    '''    public BigDecimal getOrderTotal()
+    '''
 def setOrderTotal():
-'''public void setOrderTotal(final BigDecimal orderTotal)
-'''
-pass
+    '''    public void setOrderTotal(final BigDecimal orderTotal)
+    '''
 def isOrderTotalSpecified():
-'''public boolean isOrderTotalSpecified()
-'''
-pass
+    '''    public boolean isOrderTotalSpecified()
+    '''
 def unsetOrderTotal():
-'''public void unsetOrderTotal()
-'''
-pass
+    '''    public void unsetOrderTotal()
+    '''
 def getPayer():
-'''public String getPayer()
-'''
-pass
+    '''    public String getPayer()
+    '''
 def setPayer():
-'''public void setPayer(final String payer)
-'''
-pass
+    '''    public void setPayer(final String payer)
+    '''
 def isPayerSpecified():
-'''public boolean isPayerSpecified()
-'''
-pass
+    '''    public boolean isPayerSpecified()
+    '''
 def unsetPayer():
-'''public void unsetPayer()
-'''
-pass
+    '''    public void unsetPayer()
+    '''
 def getPayerBusiness():
-'''public String getPayerBusiness()
-'''
-pass
+    '''    public String getPayerBusiness()
+    '''
 def setPayerBusiness():
-'''public void setPayerBusiness(final String payerBusiness)
-'''
-pass
+    '''    public void setPayerBusiness(final String payerBusiness)
+    '''
 def isPayerBusinessSpecified():
-'''public boolean isPayerBusinessSpecified()
-'''
-pass
+    '''    public boolean isPayerBusinessSpecified()
+    '''
 def unsetPayerBusiness():
-'''public void unsetPayerBusiness()
-'''
-pass
+    '''    public void unsetPayerBusiness()
+    '''
 def getPayerCountry():
-'''public String getPayerCountry()
-'''
-pass
+    '''    public String getPayerCountry()
+    '''
 def setPayerCountry():
-'''public void setPayerCountry(final String payerCountry)
-'''
-pass
+    '''    public void setPayerCountry(final String payerCountry)
+    '''
 def isPayerCountrySpecified():
-'''public boolean isPayerCountrySpecified()
-'''
-pass
+    '''    public boolean isPayerCountrySpecified()
+    '''
 def unsetPayerCountry():
-'''public void unsetPayerCountry()
-'''
-pass
+    '''    public void unsetPayerCountry()
+    '''
 def getPayerFirstName():
-'''public String getPayerFirstName()
-'''
-pass
+    '''    public String getPayerFirstName()
+    '''
 def setPayerFirstName():
-'''public void setPayerFirstName(final String payerFirstName)
-'''
-pass
+    '''    public void setPayerFirstName(final String payerFirstName)
+    '''
 def isPayerFirstNameSpecified():
-'''public boolean isPayerFirstNameSpecified()
-'''
-pass
+    '''    public boolean isPayerFirstNameSpecified()
+    '''
 def unsetPayerFirstName():
-'''public void unsetPayerFirstName()
-'''
-pass
+    '''    public void unsetPayerFirstName()
+    '''
 def getPayerId():
-'''public String getPayerId()
-'''
-pass
+    '''    public String getPayerId()
+    '''
 def setPayerId():
-'''public void setPayerId(final String payerId)
-'''
-pass
+    '''    public void setPayerId(final String payerId)
+    '''
 def isPayerIdSpecified():
-'''public boolean isPayerIdSpecified()
-'''
-pass
+    '''    public boolean isPayerIdSpecified()
+    '''
 def unsetPayerId():
-'''public void unsetPayerId()
-'''
-pass
+    '''    public void unsetPayerId()
+    '''
 def getPayerLastName():
-'''public String getPayerLastName()
-'''
-pass
+    '''    public String getPayerLastName()
+    '''
 def setPayerLastName():
-'''public void setPayerLastName(final String payerLastName)
-'''
-pass
+    '''    public void setPayerLastName(final String payerLastName)
+    '''
 def isPayerLastNameSpecified():
-'''public boolean isPayerLastNameSpecified()
-'''
-pass
+    '''    public boolean isPayerLastNameSpecified()
+    '''
 def unsetPayerLastName():
-'''public void unsetPayerLastName()
-'''
-pass
+    '''    public void unsetPayerLastName()
+    '''
 def getPayerStatus():
-'''public String getPayerStatus()
-'''
-pass
+    '''    public String getPayerStatus()
+    '''
 def setPayerStatus():
-'''public void setPayerStatus(final String payerStatus)
-'''
-pass
+    '''    public void setPayerStatus(final String payerStatus)
+    '''
 def isPayerStatusSpecified():
-'''public boolean isPayerStatusSpecified()
-'''
-pass
+    '''    public boolean isPayerStatusSpecified()
+    '''
 def unsetPayerStatus():
-'''public void unsetPayerStatus()
-'''
-pass
+    '''    public void unsetPayerStatus()
+    '''
 def getPaymentDate():
-'''public GregorianCalendar getPaymentDate()
-'''
-pass
+    '''    public GregorianCalendar getPaymentDate()
+    '''
 def setPaymentDate():
-'''public void setPaymentDate(final GregorianCalendar paymentDate)
-'''
-pass
+    '''    public void setPaymentDate(final GregorianCalendar paymentDate)
+    '''
 def isPaymentDateSpecified():
-'''public boolean isPaymentDateSpecified()
-'''
-pass
+    '''    public boolean isPaymentDateSpecified()
+    '''
 def unsetPaymentDate():
-'''public void unsetPaymentDate()
-'''
-pass
+    '''    public void unsetPaymentDate()
+    '''
 def getPaymentStatus():
-'''public String getPaymentStatus()
-'''
-pass
+    '''    public String getPaymentStatus()
+    '''
 def setPaymentStatus():
-'''public void setPaymentStatus(final String paymentStatus)
-'''
-pass
+    '''    public void setPaymentStatus(final String paymentStatus)
+    '''
 def isPaymentStatusSpecified():
-'''public boolean isPaymentStatusSpecified()
-'''
-pass
+    '''    public boolean isPaymentStatusSpecified()
+    '''
 def unsetPaymentStatus():
-'''public void unsetPaymentStatus()
-'''
-pass
+    '''    public void unsetPaymentStatus()
+    '''
 def getPaymentType():
-'''public String getPaymentType()
-'''
-pass
+    '''    public String getPaymentType()
+    '''
 def setPaymentType():
-'''public void setPaymentType(final String paymentType)
-'''
-pass
+    '''    public void setPaymentType(final String paymentType)
+    '''
 def isPaymentTypeSpecified():
-'''public boolean isPaymentTypeSpecified()
-'''
-pass
+    '''    public boolean isPaymentTypeSpecified()
+    '''
 def unsetPaymentType():
-'''public void unsetPaymentType()
-'''
-pass
+    '''    public void unsetPaymentType()
+    '''
 def getPendingReason():
-'''public String getPendingReason()
-'''
-pass
+    '''    public String getPendingReason()
+    '''
 def setPendingReason():
-'''public void setPendingReason(final String pendingReason)
-'''
-pass
+    '''    public void setPendingReason(final String pendingReason)
+    '''
 def isPendingReasonSpecified():
-'''public boolean isPendingReasonSpecified()
-'''
-pass
+    '''    public boolean isPendingReasonSpecified()
+    '''
 def unsetPendingReason():
-'''public void unsetPendingReason()
-'''
-pass
+    '''    public void unsetPendingReason()
+    '''
 def getSerializedReply():
-'''public String getSerializedReply()
-'''
-pass
+    '''    public String getSerializedReply()
+    '''
 def setSerializedReply():
-'''public void setSerializedReply(final String serializedReply)
-'''
-pass
+    '''    public void setSerializedReply(final String serializedReply)
+    '''
 def isSerializedReplySpecified():
-'''public boolean isSerializedReplySpecified()
-'''
-pass
+    '''    public boolean isSerializedReplySpecified()
+    '''
 def unsetSerializedReply():
-'''public void unsetSerializedReply()
-'''
-pass
+    '''    public void unsetSerializedReply()
+    '''
 def getSerializedRequest():
-'''public String getSerializedRequest()
-'''
-pass
+    '''    public String getSerializedRequest()
+    '''
 def setSerializedRequest():
-'''public void setSerializedRequest(final String serializedRequest)
-'''
-pass
+    '''    public void setSerializedRequest(final String serializedRequest)
+    '''
 def isSerializedRequestSpecified():
-'''public boolean isSerializedRequestSpecified()
-'''
-pass
+    '''    public boolean isSerializedRequestSpecified()
+    '''
 def unsetSerializedRequest():
-'''public void unsetSerializedRequest()
-'''
-pass
+    '''    public void unsetSerializedRequest()
+    '''
 def getSettleAmount():
-'''public BigDecimal getSettleAmount()
-'''
-pass
+    '''    public BigDecimal getSettleAmount()
+    '''
 def setSettleAmount():
-'''public void setSettleAmount(final BigDecimal settleAmount)
-'''
-pass
+    '''    public void setSettleAmount(final BigDecimal settleAmount)
+    '''
 def isSettleAmountSpecified():
-'''public boolean isSettleAmountSpecified()
-'''
-pass
+    '''    public boolean isSettleAmountSpecified()
+    '''
 def unsetSettleAmount():
-'''public void unsetSettleAmount()
-'''
-pass
+    '''    public void unsetSettleAmount()
+    '''
 def getTaxAmount():
-'''public BigDecimal getTaxAmount()
-'''
-pass
+    '''    public BigDecimal getTaxAmount()
+    '''
 def setTaxAmount():
-'''public void setTaxAmount(final BigDecimal taxAmount)
-'''
-pass
+    '''    public void setTaxAmount(final BigDecimal taxAmount)
+    '''
 def isTaxAmountSpecified():
-'''public boolean isTaxAmountSpecified()
-'''
-pass
+    '''    public boolean isTaxAmountSpecified()
+    '''
 def unsetTaxAmount():
-'''public void unsetTaxAmount()
-'''
-pass
+    '''    public void unsetTaxAmount()
+    '''
 def getToken():
-'''public String getToken()
-'''
-pass
+    '''    public String getToken()
+    '''
 def setToken():
-'''public void setToken(final String token)
-'''
-pass
+    '''    public void setToken(final String token)
+    '''
 def isTokenSpecified():
-'''public boolean isTokenSpecified()
-'''
-pass
+    '''    public boolean isTokenSpecified()
+    '''
 def unsetToken():
-'''public void unsetToken()
-'''
-pass
+    '''    public void unsetToken()
+    '''
 def getTransactionId():
-'''public String getTransactionId()
-'''
-pass
+    '''    public String getTransactionId()
+    '''
 def setTransactionId():
-'''public void setTransactionId(final String transactionId)
-'''
-pass
+    '''    public void setTransactionId(final String transactionId)
+    '''
 def isTransactionIdSpecified():
-'''public boolean isTransactionIdSpecified()
-'''
-pass
+    '''    public boolean isTransactionIdSpecified()
+    '''
 def unsetTransactionId():
-'''public void unsetTransactionId()
-'''
-pass
+    '''    public void unsetTransactionId()
+    '''
 def getTransactionType():
-'''public String getTransactionType()
-'''
-pass
+    '''    public String getTransactionType()
+    '''
 def setTransactionType():
-'''public void setTransactionType(final String transactionType)
-'''
-pass
+    '''    public void setTransactionType(final String transactionType)
+    '''
 def isTransactionTypeSpecified():
-'''public boolean isTransactionTypeSpecified()
-'''
-pass
+    '''    public boolean isTransactionTypeSpecified()
+    '''
 def unsetTransactionType():
-'''public void unsetTransactionType()
-'''
-pass
+    '''    public void unsetTransactionType()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def addressCityName():
-'''public Mask addressCityName()
-'''
-pass
+    '''    public Mask addressCityName()
+    '''
 def addressCountry():
-'''public Mask addressCountry()
-'''
-pass
+    '''    public Mask addressCountry()
+    '''
 def addressName():
-'''public Mask addressName()
-'''
-pass
+    '''    public Mask addressName()
+    '''
 def addressPostalCode():
-'''public Mask addressPostalCode()
-'''
-pass
+    '''    public Mask addressPostalCode()
+    '''
 def addressStateProvence():
-'''public Mask addressStateProvence()
-'''
-pass
+    '''    public Mask addressStateProvence()
+    '''
 def addressStatus():
-'''public Mask addressStatus()
-'''
-pass
+    '''    public Mask addressStatus()
+    '''
 def addressStreet1():
-'''public Mask addressStreet1()
-'''
-pass
+    '''    public Mask addressStreet1()
+    '''
 def addressStreet2():
-'''public Mask addressStreet2()
-'''
-pass
+    '''    public Mask addressStreet2()
+    '''
 def contactPhone():
-'''public Mask contactPhone()
-'''
-pass
+    '''    public Mask contactPhone()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def exchangeRate():
-'''public Mask exchangeRate()
-'''
-pass
+    '''    public Mask exchangeRate()
+    '''
 def feeAmount():
-'''public Mask feeAmount()
-'''
-pass
+    '''    public Mask feeAmount()
+    '''
 def grossAmount():
-'''public Mask grossAmount()
-'''
-pass
+    '''    public Mask grossAmount()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def invoiceId():
-'''public Mask invoiceId()
-'''
-pass
+    '''    public Mask invoiceId()
+    '''
 def lastPaypalCommand():
-'''public Mask lastPaypalCommand()
-'''
-pass
+    '''    public Mask lastPaypalCommand()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def orderFromIpAddress():
-'''public Mask orderFromIpAddress()
-'''
-pass
+    '''    public Mask orderFromIpAddress()
+    '''
 def orderTotal():
-'''public Mask orderTotal()
-'''
-pass
+    '''    public Mask orderTotal()
+    '''
 def payer():
-'''public Mask payer()
-'''
-pass
+    '''    public Mask payer()
+    '''
 def payerBusiness():
-'''public Mask payerBusiness()
-'''
-pass
+    '''    public Mask payerBusiness()
+    '''
 def payerCountry():
-'''public Mask payerCountry()
-'''
-pass
+    '''    public Mask payerCountry()
+    '''
 def payerFirstName():
-'''public Mask payerFirstName()
-'''
-pass
+    '''    public Mask payerFirstName()
+    '''
 def payerId():
-'''public Mask payerId()
-'''
-pass
+    '''    public Mask payerId()
+    '''
 def payerLastName():
-'''public Mask payerLastName()
-'''
-pass
+    '''    public Mask payerLastName()
+    '''
 def payerStatus():
-'''public Mask payerStatus()
-'''
-pass
+    '''    public Mask payerStatus()
+    '''
 def paymentDate():
-'''public Mask paymentDate()
-'''
-pass
+    '''    public Mask paymentDate()
+    '''
 def paymentStatus():
-'''public Mask paymentStatus()
-'''
-pass
+    '''    public Mask paymentStatus()
+    '''
 def paymentType():
-'''public Mask paymentType()
-'''
-pass
+    '''    public Mask paymentType()
+    '''
 def pendingReason():
-'''public Mask pendingReason()
-'''
-pass
+    '''    public Mask pendingReason()
+    '''
 def serializedReply():
-'''public Mask serializedReply()
-'''
-pass
+    '''    public Mask serializedReply()
+    '''
 def serializedRequest():
-'''public Mask serializedRequest()
-'''
-pass
+    '''    public Mask serializedRequest()
+    '''
 def settleAmount():
-'''public Mask settleAmount()
-'''
-pass
+    '''    public Mask settleAmount()
+    '''
 def taxAmount():
-'''public Mask taxAmount()
-'''
-pass
+    '''    public Mask taxAmount()
+    '''
 def token():
-'''public Mask token()
-'''
-pass
+    '''    public Mask token()
+    '''
 def transactionId():
-'''public Mask transactionId()
-'''
-pass
+    '''    public Mask transactionId()
+    '''
 def transactionType():
-'''public Mask transactionType()
-'''
-pass
+    '''    public Mask transactionType()
+    '''

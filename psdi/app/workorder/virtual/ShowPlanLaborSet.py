@@ -1,8 +1,6 @@
 def ShowPlanLaborSet():
-'''public ShowPlanLaborSet(final MboRemote owner)
-'''
-pass
+    '''    public ShowPlanLaborSet(final MboRemote owner)
+    '''
 def updateHours():
-'''public void updateHours()
-'''
-pass
+    '''    public void updateHours()
+    '''

@@ -1,101 +1,76 @@
 def ObjectAttribute():
-'''public ObjectAttribute()
-public ObjectAttribute(final String attributeName, final String className, final String valueType)
-'''
-pass
+    '''    public ObjectAttribute()
+    public ObjectAttribute(final String attributeName, final String className, final String valueType)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def setNamespace():
-'''public void setNamespace(final String namespace)
-'''
-pass
+    '''    public void setNamespace(final String namespace)
+    '''
 def getValueType():
-'''public String getValueType()
-'''
-pass
+    '''    public String getValueType()
+    '''
 def getMaximumLength():
-'''public int getMaximumLength()
-'''
-pass
+    '''    public int getMaximumLength()
+    '''
 def getDisplayString():
-'''public String getDisplayString()
-'''
-pass
+    '''    public String getDisplayString()
+    '''
 def getIsNamingAttribute():
-'''public boolean getIsNamingAttribute()
-'''
-pass
+    '''    public boolean getIsNamingAttribute()
+    '''
 def getHasRelationship():
-'''public boolean getHasRelationship()
-'''
-pass
+    '''    public boolean getHasRelationship()
+    '''
 def getRelationshipType():
-'''public String getRelationshipType()
-'''
-pass
+    '''    public String getRelationshipType()
+    '''
 def getIsReverseRelationship():
-'''public boolean getIsReverseRelationship()
-'''
-pass
+    '''    public boolean getIsReverseRelationship()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def setValueType():
-'''public void setValueType(final String valueType)
-'''
-pass
+    '''    public void setValueType(final String valueType)
+    '''
 def setMaximumLength():
-'''public void setMaximumLength(final int maximumLength)
-'''
-pass
+    '''    public void setMaximumLength(final int maximumLength)
+    '''
 def setDisplayString():
-'''public void setDisplayString(final String displayString)
-'''
-pass
+    '''    public void setDisplayString(final String displayString)
+    '''
 def setIsNamingAttribute():
-'''public void setIsNamingAttribute(final boolean isNamingAttribute)
-'''
-pass
+    '''    public void setIsNamingAttribute(final boolean isNamingAttribute)
+    '''
 def setHasRelationship():
-'''public void setHasRelationship(final boolean hasRelationship)
-'''
-pass
+    '''    public void setHasRelationship(final boolean hasRelationship)
+    '''
 def setRelationshipType():
-'''public void setRelationshipType(final String relationshipType)
-'''
-pass
+    '''    public void setRelationshipType(final String relationshipType)
+    '''
 def setIsReverseRelationship():
-'''public void setIsReverseRelationship(final boolean isReverseRelationship)
-'''
-pass
+    '''    public void setIsReverseRelationship(final boolean isReverseRelationship)
+    '''
 def getGuid():
-'''public Guid getGuid()
-'''
-pass
+    '''    public Guid getGuid()
+    '''
 def setGuid():
-'''public void setGuid(final Guid guid)
-'''
-pass
+    '''    public void setGuid(final Guid guid)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

@@ -1,160 +1,120 @@
 def loadapp():
-'''public int loadapp()
-'''
-pass
+    '''    public int loadapp()
+    '''
 def leavesession():
-'''public int leavesession()
-'''
-pass
+    '''    public int leavesession()
+    '''
 def rerender():
-'''public int rerender()
-'''
-pass
+    '''    public int rerender()
+    '''
 def gotoapp():
-'''public int gotoapp()
-'''
-pass
+    '''    public int gotoapp()
+    '''
 def resetui():
-'''public int resetui()
-'''
-pass
+    '''    public int resetui()
+    '''
 def clearqueue():
-'''public int clearqueue()
-'''
-pass
+    '''    public int clearqueue()
+    '''
 def changeapp():
-'''public int changeapp()
-'''
-pass
+    '''    public int changeapp()
+    '''
 def execevent():
-'''public int execevent()
-'''
-pass
+    '''    public int execevent()
+    '''
 def startcenter():
-'''public int startcenter()
-'''
-pass
+    '''    public int startcenter()
+    '''
 def setWebClientSession():
-'''public void setWebClientSession(final WebClientSession wcs)
-'''
-pass
+    '''    public void setWebClientSession(final WebClientSession wcs)
+    '''
 def showwarnings():
-'''public int showwarnings()
-'''
-pass
+    '''    public int showwarnings()
+    '''
 def downloadtable():
-'''public int downloadtable()
-'''
-pass
+    '''    public int downloadtable()
+    '''
 def signout():
-'''public int signout()
-'''
-pass
+    '''    public int signout()
+    '''
 def DEFAULT():
-'''public int DEFAULT()
-'''
-pass
+    '''    public int DEFAULT()
+    '''
 def PASSWORD():
-'''public int PASSWORD()
-'''
-pass
+    '''    public int PASSWORD()
+    '''
 def PERSONAL():
-'''public int PERSONAL()
-'''
-pass
+    '''    public int PERSONAL()
+    '''
 def helpabout():
-'''public int helpabout()
-'''
-pass
+    '''    public int helpabout()
+    '''
 def importapp():
-'''public int importapp()
-'''
-pass
+    '''    public int importapp()
+    '''
 def exportsqlall():
-'''public int exportsqlall()
-'''
-pass
+    '''    public int exportsqlall()
+    '''
 def exportsql():
-'''public int exportsql()
-'''
-pass
+    '''    public int exportsql()
+    '''
 def exportxml():
-'''public int exportxml()
-'''
-pass
+    '''    public int exportxml()
+    '''
 def exportall():
-'''public int exportall()
-'''
-pass
+    '''    public int exportall()
+    '''
 def maximohelp():
-'''public int maximohelp()
-'''
-pass
+    '''    public int maximohelp()
+    '''
 def apphelp():
-'''public int apphelp()
-'''
-pass
+    '''    public int apphelp()
+    '''
 def morefieldhelp():
-'''public int morefieldhelp()
-'''
-pass
+    '''    public int morefieldhelp()
+    '''
 def starttracking():
-'''public int starttracking()
-'''
-pass
+    '''    public int starttracking()
+    '''
 def stoptracking():
-'''public int stoptracking()
-'''
-pass
+    '''    public int stoptracking()
+    '''
 def clearstats():
-'''public int clearstats()
-'''
-pass
+    '''    public int clearstats()
+    '''
 def viewstats():
-'''public int viewstats()
-'''
-pass
+    '''    public int viewstats()
+    '''
 def LISTWARNING():
-'''public int LISTWARNING()
-'''
-pass
+    '''    public int LISTWARNING()
+    '''
 def WFACTION():
-'''public int WFACTION()
-'''
-pass
+    '''    public int WFACTION()
+    '''
 def uploadfile():
-'''public int uploadfile()
-'''
-pass
+    '''    public int uploadfile()
+    '''
 def uploadimage():
-'''public int uploadimage()
-'''
-pass
+    '''    public int uploadimage()
+    '''
 def LAUNCHENTRYDIRECT():
-'''public int LAUNCHENTRYDIRECT()
-'''
-pass
+    '''    public int LAUNCHENTRYDIRECT()
+    '''
 def stoplongopquery():
-'''public int stoplongopquery()
-'''
-pass
+    '''    public int stoplongopquery()
+    '''
 def COGNOSHOME():
-'''public int COGNOSHOME()
-'''
-pass
+    '''    public int COGNOSHOME()
+    '''
 def movetorecordbyid():
-'''public int movetorecordbyid()
-'''
-pass
+    '''    public int movetorecordbyid()
+    '''
 def oslcpreviewinteraction():
-'''public int oslcpreviewinteraction()
-'''
-pass
+    '''    public int oslcpreviewinteraction()
+    '''
 def oslcinteraction():
-'''public int oslcinteraction()
-'''
-pass
+    '''    public int oslcinteraction()
+    '''
 def setleftnavwidth():
-'''public int setleftnavwidth()
-'''
-pass
+    '''    public int setleftnavwidth()
+    '''

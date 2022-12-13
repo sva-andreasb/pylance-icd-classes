@@ -1,9 +1,7 @@
 def encode():
-'''public static String encode(final String string)
-public static String encode(final Color color)
-'''
-pass
+    '''    public static String encode(final String string)
+    public static String encode(final Color color)
+    '''
 def getAlignment():
-'''public static String getAlignment(final int alignment)
-'''
-pass
+    '''    public static String getAlignment(final int alignment)
+    '''

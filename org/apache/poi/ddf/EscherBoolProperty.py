@@ -1,16 +1,12 @@
 def EscherBoolProperty():
-'''public EscherBoolProperty(final short propertyNumber, final int value)
-'''
-pass
+    '''    public EscherBoolProperty(final short propertyNumber, final int value)
+    '''
 def isTrue():
-'''public boolean isTrue()
-'''
-pass
+    '''    public boolean isTrue()
+    '''
 def isFalse():
-'''public boolean isFalse()
-'''
-pass
+    '''    public boolean isFalse()
+    '''
 def toXml():
-'''public String toXml(final String tab)
-'''
-pass
+    '''    public String toXml(final String tab)
+    '''

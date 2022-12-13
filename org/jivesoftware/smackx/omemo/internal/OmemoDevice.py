@@ -1,24 +1,18 @@
 def OmemoDevice():
-'''public OmemoDevice(final BareJid jid, final int deviceId)
-'''
-pass
+    '''    public OmemoDevice(final BareJid jid, final int deviceId)
+    '''
 def getJid():
-'''public BareJid getJid()
-'''
-pass
+    '''    public BareJid getJid()
+    '''
 def getDeviceId():
-'''public int getDeviceId()
-'''
-pass
+    '''    public int getDeviceId()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

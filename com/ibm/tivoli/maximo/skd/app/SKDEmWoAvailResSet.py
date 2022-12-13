@@ -1,4 +1,3 @@
 def SKDEmWoAvailResSet():
-'''public SKDEmWoAvailResSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDEmWoAvailResSet(final MboServerInterface ms)
+    '''

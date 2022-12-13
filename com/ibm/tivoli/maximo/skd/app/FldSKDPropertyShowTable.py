@@ -1,8 +1,6 @@
 def FldSKDPropertyShowTable():
-'''public FldSKDPropertyShowTable(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDPropertyShowTable(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

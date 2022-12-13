@@ -1,4 +1,3 @@
 def PdfNull():
-'''public PdfNull()
-'''
-pass
+    '''    public PdfNull()
+    '''

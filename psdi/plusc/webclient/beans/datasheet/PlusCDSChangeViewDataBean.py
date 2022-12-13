@@ -1,32 +1,24 @@
 def canChangeView():
-'''public boolean canChangeView()
-'''
-pass
+    '''    public boolean canChangeView()
+    '''
 def changeview():
-'''public int changeview()
-'''
-pass
+    '''    public int changeview()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def changeviewtopoints():
-'''public int changeviewtopoints()
-'''
-pass
+    '''    public int changeviewtopoints()
+    '''
 def changeRelationShip():
-'''public void changeRelationShip(final DataBean dsBean, final boolean isAltered)
-'''
-pass
+    '''    public void changeRelationShip(final DataBean dsBean, final boolean isAltered)
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def setValue():
-'''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''
 def validatePointsSet():
-'''public void validatePointsSet(final DataBean pointsBean)
-'''
-pass
+    '''    public void validatePointsSet(final DataBean pointsBean)
+    '''

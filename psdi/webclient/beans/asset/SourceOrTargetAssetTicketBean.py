@@ -1,4 +1,3 @@
 def SourceOrTargetAssetTicketBean():
-'''public SourceOrTargetAssetTicketBean()
-'''
-pass
+    '''    public SourceOrTargetAssetTicketBean()
+    '''

@@ -1,9 +1,7 @@
 def PmAttSearchValidatorAddl():
-'''public PmAttSearchValidatorAddl()
-public PmAttSearchValidatorAddl(final MboValue mbv)
-'''
-pass
+    '''    public PmAttSearchValidatorAddl()
+    public PmAttSearchValidatorAddl(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

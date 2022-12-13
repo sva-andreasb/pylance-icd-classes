@@ -1,32 +1,24 @@
 def Query():
-'''public Query(final MboSet ms)
-'''
-pass
+    '''    public Query(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def isUnique():
-'''public boolean isUnique()
-'''
-pass
+    '''    public boolean isUnique()
+    '''
 def getDefaultQuerySet():
-'''public MboSetRemote getDefaultQuerySet()
-'''
-pass
+    '''    public MboSetRemote getDefaultQuerySet()
+    '''

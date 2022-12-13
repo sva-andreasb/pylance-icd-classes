@@ -1,91 +1,69 @@
-CLASS = "String  class""
+CLASS = "String  \"class\""
 def ObjectSearchAppBean():
-'''public ObjectSearchAppBean()
-'''
-pass
+    '''    public ObjectSearchAppBean()
+    '''
 def copyField():
-'''public int copyField()
-'''
-pass
+    '''    public int copyField()
+    '''
 def incidentTabSelected():
-'''public int incidentTabSelected()
-'''
-pass
+    '''    public int incidentTabSelected()
+    '''
 def newincidentsearch():
-'''public int newincidentsearch()
-'''
-pass
+    '''    public int newincidentsearch()
+    '''
 def srTabSelected():
-'''public int srTabSelected()
-'''
-pass
+    '''    public int srTabSelected()
+    '''
 def newsrsearch():
-'''public int newsrsearch()
-'''
-pass
+    '''    public int newsrsearch()
+    '''
 def problemTabSelected():
-'''public int problemTabSelected()
-'''
-pass
+    '''    public int problemTabSelected()
+    '''
 def newproblemsearch():
-'''public int newproblemsearch()
-'''
-pass
+    '''    public int newproblemsearch()
+    '''
 def solutionTabSelected():
-'''public int solutionTabSelected()
-'''
-pass
+    '''    public int solutionTabSelected()
+    '''
 def newsolutionsearch():
-'''public int newsolutionsearch()
-'''
-pass
+    '''    public int newsolutionsearch()
+    '''
 def newkmsearch():
-'''public int newkmsearch()
-'''
-pass
+    '''    public int newkmsearch()
+    '''
 def setQbe():
-'''public void setQbe(final String attribute, final String expression)
-public void setQbe(final String attribute, final MboSetRemote expression)
-'''
-pass
+    '''    public void setQbe(final String attribute, final String expression)
+    public void setQbe(final String attribute, final MboSetRemote expression)
+    '''
 def setQbeNoPropagate():
-'''public void setQbeNoPropagate(final String arg0, final MboSetRemote arg1)
-public void setQbeNoPropagate(final String arg0, final String arg1)
-'''
-pass
+    '''    public void setQbeNoPropagate(final String arg0, final MboSetRemote arg1)
+    public void setQbeNoPropagate(final String arg0, final String arg1)
+    '''
 def applySolution():
-'''public int applySolution()
-'''
-pass
+    '''    public int applySolution()
+    '''
 def relateTicket():
-'''public int relateTicket()
-'''
-pass
+    '''    public int relateTicket()
+    '''
 def relateMultipleTickets():
-'''public int relateMultipleTickets()
-'''
-pass
+    '''    public int relateMultipleTickets()
+    '''
 def relateSolution():
-'''public int relateSolution()
-'''
-pass
+    '''    public int relateSolution()
+    '''
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def clearfilterOld():
-'''public int clearfilterOld()
-'''
-pass
+    '''    public int clearfilterOld()
+    '''
 def doClearfilter():
-'''public int doClearfilter()
-'''
-pass
+    '''    public int doClearfilter()
+    '''
 def getExtendedToolTip():
-'''public JSONObject getExtendedToolTip(final JSONObject definition)
-'''
-pass
+    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''

@@ -1,37 +1,28 @@
 def MqttConnectPayload():
-'''public MqttConnectPayload(final String clientIdentifier, final String willTopic, final String willMessage, final String userName, final String password)
-public MqttConnectPayload(final String clientIdentifier, final String willTopic, final byte[] willMessage, final String userName, final byte[] password)
-'''
-pass
+    '''    public MqttConnectPayload(final String clientIdentifier, final String willTopic, final String willMessage, final String userName, final String password)
+    public MqttConnectPayload(final String clientIdentifier, final String willTopic, final byte[] willMessage, final String userName, final byte[] password)
+    '''
 def clientIdentifier():
-'''public String clientIdentifier()
-'''
-pass
+    '''    public String clientIdentifier()
+    '''
 def willTopic():
-'''public String willTopic()
-'''
-pass
+    '''    public String willTopic()
+    '''
 def willMessage():
-'''public String willMessage()
-'''
-pass
+    '''    public String willMessage()
+    '''
 def willMessageInBytes():
-'''public byte[] willMessageInBytes()
-'''
-pass
+    '''    public byte[] willMessageInBytes()
+    '''
 def userName():
-'''public String userName()
-'''
-pass
+    '''    public String userName()
+    '''
 def password():
-'''public String password()
-'''
-pass
+    '''    public String password()
+    '''
 def passwordInBytes():
-'''public byte[] passwordInBytes()
-'''
-pass
+    '''    public byte[] passwordInBytes()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

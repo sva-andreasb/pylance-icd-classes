@@ -1,41 +1,31 @@
 def InputStreamDataSource():
-'''public InputStreamDataSource(final InputStream is, final String encoding)
-'''
-pass
+    '''    public InputStreamDataSource(final InputStream is, final String encoding)
+    '''
 def serialize():
-'''public void serialize(final OutputStream output, final OMOutputFormat format)
-public void serialize(final XMLStreamWriter xmlWriter)
-'''
-pass
+    '''    public void serialize(final OutputStream output, final OMOutputFormat format)
+    public void serialize(final XMLStreamWriter xmlWriter)
+    '''
 def getReader():
-'''public XMLStreamReader getReader()
-'''
-pass
+    '''    public XMLStreamReader getReader()
+    '''
 def getXMLInputStream():
-'''public InputStream getXMLInputStream(final String encoding)
-'''
-pass
+    '''    public InputStream getXMLInputStream(final String encoding)
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''
 def isDestructiveRead():
-'''public boolean isDestructiveRead()
-'''
-pass
+    '''    public boolean isDestructiveRead()
+    '''
 def isDestructiveWrite():
-'''public boolean isDestructiveWrite()
-'''
-pass
+    '''    public boolean isDestructiveWrite()
+    '''
 def getXMLBytes():
-'''public byte[] getXMLBytes(final String encoding)
-'''
-pass
+    '''    public byte[] getXMLBytes(final String encoding)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def copy():
-'''public OMDataSourceExt copy()
-'''
-pass
+    '''    public OMDataSourceExt copy()
+    '''

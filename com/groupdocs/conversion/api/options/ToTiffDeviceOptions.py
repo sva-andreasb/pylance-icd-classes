@@ -14,95 +14,72 @@ SHAPE_TYPE_NONE = "int  0"
 SHAPE_TYPE_PORTRAIT = "int  2"
 SHAPE_TYPE_LANDSCAPE = "int  1"
 def ToTiffDeviceOptions():
-'''public ToTiffDeviceOptions()
-public ToTiffDeviceOptions(final boolean multipage)
-'''
-pass
+    '''    public ToTiffDeviceOptions()
+    public ToTiffDeviceOptions(final boolean multipage)
+    '''
 def isMultipage():
-'''public boolean isMultipage()
-'''
-pass
+    '''    public boolean isMultipage()
+    '''
 def setMultipage():
-'''public void setMultipage(final boolean multipage)
-'''
-pass
+    '''    public void setMultipage(final boolean multipage)
+    '''
 def getFormPresentationMode():
-'''public int getFormPresentationMode()
-'''
-pass
+    '''    public int getFormPresentationMode()
+    '''
 def setFormPresentationMode():
-'''public void setFormPresentationMode(final int formPresentationMode)
-'''
-pass
+    '''    public void setFormPresentationMode(final int formPresentationMode)
+    '''
 def isUseNewImagingEngine():
-'''public boolean isUseNewImagingEngine()
-'''
-pass
+    '''    public boolean isUseNewImagingEngine()
+    '''
 def setUseNewImagingEngine():
-'''public void setUseNewImagingEngine(final boolean useNewImagingEngine)
-'''
-pass
+    '''    public void setUseNewImagingEngine(final boolean useNewImagingEngine)
+    '''
 def isSystemFontsNativeRendering():
-'''public boolean isSystemFontsNativeRendering()
-'''
-pass
+    '''    public boolean isSystemFontsNativeRendering()
+    '''
 def setSystemFontsNativeRendering():
-'''public void setSystemFontsNativeRendering(final boolean systemFontsNativeRendering)
-'''
-pass
+    '''    public void setSystemFontsNativeRendering(final boolean systemFontsNativeRendering)
+    '''
 def isBarcodeOptimization():
-'''public boolean isBarcodeOptimization()
-'''
-pass
+    '''    public boolean isBarcodeOptimization()
+    '''
 def setBarcodeOptimization():
-'''public void setBarcodeOptimization(final boolean barcodeOptimization)
-'''
-pass
+    '''    public void setBarcodeOptimization(final boolean barcodeOptimization)
+    '''
 def getShape():
-'''public int getShape()
-'''
-pass
+    '''    public int getShape()
+    '''
 def setShape():
-'''public void setShape(final int shape)
-'''
-pass
+    '''    public void setShape(final int shape)
+    '''
 def isSkipBlankPages():
-'''public boolean isSkipBlankPages()
-'''
-pass
+    '''    public boolean isSkipBlankPages()
+    '''
 def setSkipBlankPages():
-'''public void setSkipBlankPages(final boolean skipBlankPages)
-'''
-pass
+    '''    public void setSkipBlankPages(final boolean skipBlankPages)
+    '''
 def getBrightness():
-'''public float getBrightness()
-'''
-pass
+    '''    public float getBrightness()
+    '''
 def setBrightness():
-'''public void setBrightness(final float brightness)
-'''
-pass
+    '''    public void setBrightness(final float brightness)
+    '''
 def getCompression():
-'''public int getCompression()
-'''
-pass
+    '''    public int getCompression()
+    '''
 def setCompression():
-'''public void setCompression(final int compression)
-'''
-pass
+    '''    public void setCompression(final int compression)
+    '''
 def getCoordinateType():
-'''public int getCoordinateType()
-'''
-pass
+    '''    public int getCoordinateType()
+    '''
 def setCoordinateType():
-'''public void setCoordinateType(final int coordinateType)
-'''
-pass
+    '''    public void setCoordinateType(final int coordinateType)
+    '''
 def getDepth():
-'''public int getDepth()
-'''
-pass
+    '''    public int getDepth()
+    '''
 def setDepth():
-'''public void setDepth(final int depth)
-'''
-pass
+    '''    public void setDepth(final int depth)
+    '''

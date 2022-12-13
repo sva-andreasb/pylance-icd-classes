@@ -1,27 +1,21 @@
 def capacity():
-'''public int capacity()
-'''
-pass
+    '''    public int capacity()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    '''
 def readLine():
-'''public int readLine(final CharArrayBuffer charbuffer)
-public String readLine()
-'''
-pass
+    '''    public int readLine(final CharArrayBuffer charbuffer)
+    public String readLine()
+    '''
 def getMetrics():
-'''public HttpTransportMetrics getMetrics()
-'''
-pass
+    '''    public HttpTransportMetrics getMetrics()
+    '''

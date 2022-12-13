@@ -1,12 +1,9 @@
 def FldMapProvider():
-'''public FldMapProvider(final MboValue mv)
-'''
-pass
+    '''    public FldMapProvider(final MboValue mv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

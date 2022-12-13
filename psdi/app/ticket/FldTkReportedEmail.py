@@ -1,8 +1,6 @@
 def FldTkReportedEmail():
-'''public FldTkReportedEmail(final MboValue mbv)
-'''
-pass
+    '''    public FldTkReportedEmail(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,29 +1,22 @@
 def getDataHandler():
-'''public DataHandler getDataHandler()
-'''
-pass
+    '''    public DataHandler getDataHandler()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    public InputStream getInputStream()
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''

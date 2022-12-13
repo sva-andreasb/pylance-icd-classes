@@ -1,4 +1,3 @@
 def GetBindDNRequest():
-'''public GetBindDNRequest()
-'''
-pass
+    '''    public GetBindDNRequest()
+    '''

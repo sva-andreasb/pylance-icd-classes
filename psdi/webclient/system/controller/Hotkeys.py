@@ -5,38 +5,29 @@ IDX_TARGET = "int  3"
 IDX_EVENT = "int  4"
 IDX_CHAR = "int  5"
 def Hotkeys():
-'''public Hotkeys()
-'''
-pass
+    '''    public Hotkeys()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def addHotkey():
-'''public String addHotkey(final WebClientSession wcs, String hotkey, final String target, final String eventname)
-'''
-pass
+    '''    public String addHotkey(final WebClientSession wcs, String hotkey, final String target, final String eventname)
+    '''
 def localize():
-'''public String localize(final WebClientSession wcs, String hotkey)
-'''
-pass
+    '''    public String localize(final WebClientSession wcs, String hotkey)
+    '''
 def getKeycodes():
-'''public Set<Integer> getKeycodes()
-'''
-pass
+    '''    public Set<Integer> getKeycodes()
+    '''
 def getHotkeysForKeycode():
-'''public List<List<Object>> getHotkeysForKeycode(final int keycode)
-'''
-pass
+    '''    public List<List<Object>> getHotkeysForKeycode(final int keycode)
+    '''
 def getCtrlState():
-'''public boolean getCtrlState(final String hotkey)
-'''
-pass
+    '''    public boolean getCtrlState(final String hotkey)
+    '''
 def getAltState():
-'''public boolean getAltState(final String hotkey)
-'''
-pass
+    '''    public boolean getAltState(final String hotkey)
+    '''
 def getAccessKey():
-'''public char getAccessKey(final String hotkey)
-'''
-pass
+    '''    public char getAccessKey(final String hotkey)
+    '''

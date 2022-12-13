@@ -1,1 +1,1 @@
-MAX_STATUS_LINE_GARBAGE = "String  http.connection.max-status-line-garbage""
+MAX_STATUS_LINE_GARBAGE = "String  \"http.connection.max-status-line-garbage\""

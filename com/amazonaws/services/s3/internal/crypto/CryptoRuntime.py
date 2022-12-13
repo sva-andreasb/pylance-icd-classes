@@ -1,16 +1,12 @@
 def isBouncyCastleAvailable():
-'''public static boolean isBouncyCastleAvailable()
-'''
-pass
+    '''    public static boolean isBouncyCastleAvailable()
+    '''
 def enableBouncyCastle():
-'''public static void enableBouncyCastle()
-'''
-pass
+    '''    public static void enableBouncyCastle()
+    '''
 def isAesGcmAvailable():
-'''public static boolean isAesGcmAvailable()
-'''
-pass
+    '''    public static boolean isAesGcmAvailable()
+    '''
 def recheckAesGcmAvailablility():
-'''public static void recheckAesGcmAvailablility()
-'''
-pass
+    '''    public static void recheckAesGcmAvailablility()
+    '''

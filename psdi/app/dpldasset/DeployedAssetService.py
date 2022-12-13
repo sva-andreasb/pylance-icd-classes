@@ -1,9 +1,7 @@
 def DeployedAssetService():
-'''public DeployedAssetService()
-public DeployedAssetService(final MXServer mxServer)
-'''
-pass
+    '''    public DeployedAssetService()
+    public DeployedAssetService(final MXServer mxServer)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

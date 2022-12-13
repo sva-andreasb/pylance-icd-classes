@@ -1,20 +1,15 @@
 def FldInvUseLineWoNum():
-'''public FldInvUseLineWoNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUseLineWoNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getWoOwner():
-'''public MboRemote getWoOwner()
-'''
-pass
+    '''    public MboRemote getWoOwner()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

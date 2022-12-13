@@ -1,8 +1,6 @@
 def setAsText():
-'''public void setAsText(final String s)
-'''
-pass
+    '''    public void setAsText(final String s)
+    '''
 def getAsText():
-'''public String getAsText()
-'''
-pass
+    '''    public String getAsText()
+    '''

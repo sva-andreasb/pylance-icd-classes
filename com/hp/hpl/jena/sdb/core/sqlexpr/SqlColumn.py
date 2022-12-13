@@ -1,36 +1,27 @@
 def SqlColumn():
-'''public SqlColumn(final SqlTable sqlTable, final String colName)
-'''
-pass
+    '''    public SqlColumn(final SqlTable sqlTable, final String colName)
+    '''
 def getColumnName():
-'''public String getColumnName()
-'''
-pass
+    '''    public String getColumnName()
+    '''
 def getTable():
-'''public SqlTable getTable()
-'''
-pass
+    '''    public SqlTable getTable()
+    '''
 def getFullColumnName():
-'''public String getFullColumnName()
-'''
-pass
+    '''    public String getFullColumnName()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def isColumn():
-'''public boolean isColumn()
-'''
-pass
+    '''    public boolean isColumn()
+    '''
 def asString():
-'''public String asString()
-'''
-pass
+    '''    public String asString()
+    '''
 def visit():
-'''public void visit(final SqlExprVisitor visitor)
-'''
-pass
+    '''    public void visit(final SqlExprVisitor visitor)
+    '''

@@ -1,41 +1,31 @@
 serialVersionUID = "long  1L"
 def ImportImpl():
-'''public ImportImpl()
-'''
-pass
+    '''    public ImportImpl()
+    '''
 def setNamespaceURI():
-'''public void setNamespaceURI(final String namespaceURI)
-'''
-pass
+    '''    public void setNamespaceURI(final String namespaceURI)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def setLocationURI():
-'''public void setLocationURI(final String locationURI)
-'''
-pass
+    '''    public void setLocationURI(final String locationURI)
+    '''
 def getLocationURI():
-'''public String getLocationURI()
-'''
-pass
+    '''    public String getLocationURI()
+    '''
 def setDefinition():
-'''public void setDefinition(final Definition definition)
-'''
-pass
+    '''    public void setDefinition(final Definition definition)
+    '''
 def getDefinition():
-'''public Definition getDefinition()
-'''
-pass
+    '''    public Definition getDefinition()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

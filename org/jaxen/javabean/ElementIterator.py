@@ -1,16 +1,12 @@
 def ElementIterator():
-'''public ElementIterator(final Element parent, final String name, final Iterator iterator)
-'''
-pass
+    '''    public ElementIterator(final Element parent, final String name, final Iterator iterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

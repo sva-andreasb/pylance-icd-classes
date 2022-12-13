@@ -1,9 +1,7 @@
-CACHENAME = "String  DMCOLLEVENTLISTENERCACHE""
+CACHENAME = "String  \"DMCOLLEVENTLISTENERCACHE\""
 def getInstance():
-'''public static final DMCollEventListnerCache getInstance()
-'''
-pass
+    '''    public static final DMCollEventListnerCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

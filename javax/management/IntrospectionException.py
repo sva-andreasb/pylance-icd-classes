@@ -1,5 +1,4 @@
 def IntrospectionException():
-'''public IntrospectionException()
-public IntrospectionException(final String s)
-'''
-pass
+    '''    public IntrospectionException()
+    public IntrospectionException(final String s)
+    '''

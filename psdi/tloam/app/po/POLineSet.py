@@ -1,4 +1,3 @@
 def POLineSet():
-'''public POLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public POLineSet(final MboServerInterface ms)
+    '''

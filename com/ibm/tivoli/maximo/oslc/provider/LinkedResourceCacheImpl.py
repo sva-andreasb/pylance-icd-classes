@@ -1,21 +1,16 @@
 def LinkedResourceCacheImpl():
-'''public LinkedResourceCacheImpl()
-'''
-pass
+    '''    public LinkedResourceCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getMatchingExpr():
-'''public String[] getMatchingExpr(final MboRemote parent, final String relation)
-'''
-pass
+    '''    public String[] getMatchingExpr(final MboRemote parent, final String relation)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

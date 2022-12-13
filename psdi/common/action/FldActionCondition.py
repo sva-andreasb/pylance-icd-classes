@@ -1,8 +1,6 @@
 def FldActionCondition():
-'''public FldActionCondition(final MboValue mbv)
-'''
-pass
+    '''    public FldActionCondition(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,24 +1,18 @@
 def CannotEstablishOmemoSessionException():
-'''public CannotEstablishOmemoSessionException(final OmemoDevice failed, final Throwable reason)
-'''
-pass
+    '''    public CannotEstablishOmemoSessionException(final OmemoDevice failed, final Throwable reason)
+    '''
 def addFailures():
-'''public void addFailures(final CannotEstablishOmemoSessionException otherFailures)
-'''
-pass
+    '''    public void addFailures(final CannotEstablishOmemoSessionException otherFailures)
+    '''
 def addSuccess():
-'''public void addSuccess(final OmemoDevice success)
-'''
-pass
+    '''    public void addSuccess(final OmemoDevice success)
+    '''
 def getFailures():
-'''public HashMap<BareJid, HashMap<OmemoDevice, Throwable>> getFailures()
-'''
-pass
+    '''    public HashMap<BareJid, HashMap<OmemoDevice, Throwable>> getFailures()
+    '''
 def getSuccesses():
-'''public HashMap<BareJid, ArrayList<OmemoDevice>> getSuccesses()
-'''
-pass
+    '''    public HashMap<BareJid, ArrayList<OmemoDevice>> getSuccesses()
+    '''
 def requiresThrowing():
-'''public boolean requiresThrowing()
-'''
-pass
+    '''    public boolean requiresThrowing()
+    '''

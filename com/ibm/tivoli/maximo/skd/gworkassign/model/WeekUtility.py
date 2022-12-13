@@ -1,33 +1,25 @@
 def WeekUtility():
-'''public WeekUtility()
-'''
-pass
+    '''    public WeekUtility()
+    '''
 def init():
-'''public void init(final IWeekGanttModel schedule)
-'''
-pass
+    '''    public void init(final IWeekGanttModel schedule)
+    '''
 def reset():
-'''public void reset(final GWASchedule schedule, final Date selectedDate)
-public void reset(final GRSchedule schedule, final Date selectedDate)
-'''
-pass
+    '''    public void reset(final GWASchedule schedule, final Date selectedDate)
+    public void reset(final GRSchedule schedule, final Date selectedDate)
+    '''
 def getWeekIndex():
-'''public int getWeekIndex(final Date selectedDay)
-'''
-pass
+    '''    public int getWeekIndex(final Date selectedDay)
+    '''
 def getWeekStart():
-'''public Date getWeekStart(final Date selectedDay)
-'''
-pass
+    '''    public Date getWeekStart(final Date selectedDay)
+    '''
 def getDayIndex():
-'''public int getDayIndex(Date selectedDay)
-'''
-pass
+    '''    public int getDayIndex(Date selectedDay)
+    '''
 def markAsLoaded():
-'''public void markAsLoaded(final int week)
-'''
-pass
+    '''    public void markAsLoaded(final int week)
+    '''
 def isLoaded():
-'''public boolean isLoaded(final int week)
-'''
-pass
+    '''    public boolean isLoaded(final int week)
+    '''

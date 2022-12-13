@@ -1,41 +1,32 @@
-NAMESPACE = "String  urn:xmpp:carbons:2""
-ELEMENT = "String  private""
+NAMESPACE = "String  \"urn:xmpp:carbons:2\""
+ELEMENT = "String  \"private\""
 def CarbonExtension():
-'''public CarbonExtension(final Direction dir, final Forwarded fwd)
-'''
-pass
+    '''    public CarbonExtension(final Direction dir, final Forwarded fwd)
+    '''
 def getDirection():
-'''public Direction getDirection()
-'''
-pass
+    '''    public Direction getDirection()
+    '''
 def getForwarded():
-'''public Forwarded getForwarded()
-'''
-pass
+    '''    public Forwarded getForwarded()
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public String toXML(final String enclosingNamespace)
+    '''
 def getFrom():
-'''public static CarbonExtension getFrom(final Message msg)
-'''
-pass
+    '''    public static CarbonExtension getFrom(final Message msg)
+    '''
 def from():
-'''public static CarbonExtension from(final Message msg)
-'''
-pass
+    '''    public static CarbonExtension from(final Message msg)
+    '''
 def addTo():
-'''public static void addTo(final Message message)
-'''
-pass
+    '''    public static void addTo(final Message message)
+    '''

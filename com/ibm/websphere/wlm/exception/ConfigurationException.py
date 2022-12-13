@@ -1,5 +1,4 @@
 def ConfigurationException():
-'''public ConfigurationException()
-public ConfigurationException(final String message)
-'''
-pass
+    '''    public ConfigurationException()
+    public ConfigurationException(final String message)
+    '''

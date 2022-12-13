@@ -11,20 +11,16 @@ ERR_NULL_ATTRIBUTES = "int  103"
 ERR_NULL_XML_DOCUMENT = "int  104"
 ERR_ARABIC_SHAPING = "int  1000"
 def BidiTransformationException():
-'''public BidiTransformationException(final Throwable cause)
-public BidiTransformationException(final int errorCode)
-public BidiTransformationException(final int errorCode, final Object messageData)
-'''
-pass
+    '''    public BidiTransformationException(final Throwable cause)
+    public BidiTransformationException(final int errorCode)
+    public BidiTransformationException(final int errorCode, final Object messageData)
+    '''
 def getTracingMessage():
-'''public static String getTracingMessage(final int errorCode, final Object messageData)
-'''
-pass
+    '''    public static String getTracingMessage(final int errorCode, final Object messageData)
+    '''
 def getErrorCode():
-'''public final int getErrorCode()
-'''
-pass
+    '''    public final int getErrorCode()
+    '''
 def getMessageData():
-'''public final Object getMessageData()
-'''
-pass
+    '''    public final Object getMessageData()
+    '''

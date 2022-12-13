@@ -1,40 +1,30 @@
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public RevokeGrantRequest withKeyId(final String keyId)
-'''
-pass
+    '''    public RevokeGrantRequest withKeyId(final String keyId)
+    '''
 def setGrantId():
-'''public void setGrantId(final String grantId)
-'''
-pass
+    '''    public void setGrantId(final String grantId)
+    '''
 def getGrantId():
-'''public String getGrantId()
-'''
-pass
+    '''    public String getGrantId()
+    '''
 def withGrantId():
-'''public RevokeGrantRequest withGrantId(final String grantId)
-'''
-pass
+    '''    public RevokeGrantRequest withGrantId(final String grantId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public RevokeGrantRequest clone()
-'''
-pass
+    '''    public RevokeGrantRequest clone()
+    '''

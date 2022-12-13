@@ -1,8 +1,6 @@
 def PlusCFldToolTransToolnum():
-'''public PlusCFldToolTransToolnum(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldToolTransToolnum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

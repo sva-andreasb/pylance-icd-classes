@@ -1,20 +1,15 @@
 def RtfRow():
-'''public RtfRow(final RtfWriter writer, final RtfTable mainTable)
-'''
-pass
+    '''    public RtfRow(final RtfWriter writer, final RtfTable mainTable)
+    '''
 def pregenerateRows():
-'''public void pregenerateRows(final int columns)
-'''
-pass
+    '''    public void pregenerateRows(final int columns)
+    '''
 def importRow():
-'''public boolean importRow(final Row row, final float[] propWidths, final int tableWidth, final int pageWidth, final int cellpadding, final int cellspacing, final int borders, final Color borderColor, final float borderWidth, final int y)
-'''
-pass
+    '''    public boolean importRow(final Row row, final float[] propWidths, final int tableWidth, final int pageWidth, final int cellpadding, final int cellspacing, final int borders, final Color borderColor, final float borderWidth, final int y)
+    '''
 def writeRow():
-'''public boolean writeRow(final ByteArrayOutputStream os, final int rowNum, final Table table)
-'''
-pass
+    '''    public boolean writeRow(final ByteArrayOutputStream os, final int rowNum, final Table table)
+    '''
 def setMerge():
-'''public void setMerge(final int x, final int mergeType, final RtfCell mergeCell)
-'''
-pass
+    '''    public void setMerge(final int x, final int mergeType, final RtfCell mergeCell)
+    '''

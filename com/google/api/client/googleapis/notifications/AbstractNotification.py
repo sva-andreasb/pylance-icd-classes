@@ -1,68 +1,51 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getMessageNumber():
-'''public final long getMessageNumber()
-'''
-pass
+    '''    public final long getMessageNumber()
+    '''
 def setMessageNumber():
-'''public AbstractNotification setMessageNumber(final long messageNumber)
-'''
-pass
+    '''    public AbstractNotification setMessageNumber(final long messageNumber)
+    '''
 def getResourceState():
-'''public final String getResourceState()
-'''
-pass
+    '''    public final String getResourceState()
+    '''
 def setResourceState():
-'''public AbstractNotification setResourceState(final String resourceState)
-'''
-pass
+    '''    public AbstractNotification setResourceState(final String resourceState)
+    '''
 def getResourceId():
-'''public final String getResourceId()
-'''
-pass
+    '''    public final String getResourceId()
+    '''
 def setResourceId():
-'''public AbstractNotification setResourceId(final String resourceId)
-'''
-pass
+    '''    public AbstractNotification setResourceId(final String resourceId)
+    '''
 def getResourceUri():
-'''public final String getResourceUri()
-'''
-pass
+    '''    public final String getResourceUri()
+    '''
 def setResourceUri():
-'''public AbstractNotification setResourceUri(final String resourceUri)
-'''
-pass
+    '''    public AbstractNotification setResourceUri(final String resourceUri)
+    '''
 def getChannelId():
-'''public final String getChannelId()
-'''
-pass
+    '''    public final String getChannelId()
+    '''
 def setChannelId():
-'''public AbstractNotification setChannelId(final String channelId)
-'''
-pass
+    '''    public AbstractNotification setChannelId(final String channelId)
+    '''
 def getChannelExpiration():
-'''public final String getChannelExpiration()
-'''
-pass
+    '''    public final String getChannelExpiration()
+    '''
 def setChannelExpiration():
-'''public AbstractNotification setChannelExpiration(final String channelExpiration)
-'''
-pass
+    '''    public AbstractNotification setChannelExpiration(final String channelExpiration)
+    '''
 def getChannelToken():
-'''public final String getChannelToken()
-'''
-pass
+    '''    public final String getChannelToken()
+    '''
 def setChannelToken():
-'''public AbstractNotification setChannelToken(final String channelToken)
-'''
-pass
+    '''    public AbstractNotification setChannelToken(final String channelToken)
+    '''
 def getChanged():
-'''public final String getChanged()
-'''
-pass
+    '''    public final String getChanged()
+    '''
 def setChanged():
-'''public AbstractNotification setChanged(final String changed)
-'''
-pass
+    '''    public AbstractNotification setChanged(final String changed)
+    '''

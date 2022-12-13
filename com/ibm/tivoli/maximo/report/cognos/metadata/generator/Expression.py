@@ -1,20 +1,15 @@
 def Expression():
-'''public Expression()
-'''
-pass
+    '''    public Expression()
+    '''
 def getLeftColumns():
-'''public List<String> getLeftColumns()
-'''
-pass
+    '''    public List<String> getLeftColumns()
+    '''
 def addLeftColumn():
-'''public void addLeftColumn(final String leftColumn)
-'''
-pass
+    '''    public void addLeftColumn(final String leftColumn)
+    '''
 def getRightColumns():
-'''public List<String> getRightColumns()
-'''
-pass
+    '''    public List<String> getRightColumns()
+    '''
 def addRightColumn():
-'''public void addRightColumn(final String rightColumn)
-'''
-pass
+    '''    public void addRightColumn(final String rightColumn)
+    '''

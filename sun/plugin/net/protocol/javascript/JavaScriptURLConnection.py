@@ -1,8 +1,6 @@
 def JavaScriptURLConnection():
-'''public JavaScriptURLConnection(final URL url)
-'''
-pass
+    '''    public JavaScriptURLConnection(final URL url)
+    '''
 def connect():
-'''public void connect()
-'''
-pass
+    '''    public void connect()
+    '''

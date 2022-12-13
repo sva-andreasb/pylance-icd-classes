@@ -1,64 +1,48 @@
 def getLocation():
-'''public String getLocation()
-'''
-pass
+    '''    public String getLocation()
+    '''
 def setLocation():
-'''public void setLocation(final String location)
-'''
-pass
+    '''    public void setLocation(final String location)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getETag():
-'''public String getETag()
-'''
-pass
+    '''    public String getETag()
+    '''
 def setETag():
-'''public void setETag(final String etag)
-'''
-pass
+    '''    public void setETag(final String etag)
+    '''
 def getVersionId():
-'''public String getVersionId()
-'''
-pass
+    '''    public String getVersionId()
+    '''
 def setVersionId():
-'''public void setVersionId(final String versionId)
-'''
-pass
+    '''    public void setVersionId(final String versionId)
+    '''
 def getExpirationTime():
-'''public Date getExpirationTime()
-'''
-pass
+    '''    public Date getExpirationTime()
+    '''
 def setExpirationTime():
-'''public void setExpirationTime(final Date expirationTime)
-'''
-pass
+    '''    public void setExpirationTime(final Date expirationTime)
+    '''
 def getExpirationTimeRuleId():
-'''public String getExpirationTimeRuleId()
-'''
-pass
+    '''    public String getExpirationTimeRuleId()
+    '''
 def setExpirationTimeRuleId():
-'''public void setExpirationTimeRuleId(final String expirationTimeRuleId)
-'''
-pass
+    '''    public void setExpirationTimeRuleId(final String expirationTimeRuleId)
+    '''
 def isRequesterCharged():
-'''public boolean isRequesterCharged()
-'''
-pass
+    '''    public boolean isRequesterCharged()
+    '''
 def setRequesterCharged():
-'''public void setRequesterCharged(final boolean isRequesterCharged)
-'''
-pass
+    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''

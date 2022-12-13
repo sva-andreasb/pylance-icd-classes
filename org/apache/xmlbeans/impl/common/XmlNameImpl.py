@@ -1,47 +1,36 @@
 def XmlNameImpl():
-'''public XmlNameImpl()
-public XmlNameImpl(final String localName)
-public XmlNameImpl(final String namespaceUri, final String localName)
-public XmlNameImpl(final String namespaceUri, final String localName, final String prefix)
-'''
-pass
+    '''    public XmlNameImpl()
+    public XmlNameImpl(final String localName)
+    public XmlNameImpl(final String namespaceUri, final String localName)
+    public XmlNameImpl(final String namespaceUri, final String localName, final String prefix)
+    '''
 def getNamespaceUri():
-'''public String getNamespaceUri()
-'''
-pass
+    '''    public String getNamespaceUri()
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setNamespaceUri():
-'''public void setNamespaceUri(final String namespaceUri)
-'''
-pass
+    '''    public void setNamespaceUri(final String namespaceUri)
+    '''
 def setLocalName():
-'''public void setLocalName(final String localName)
-'''
-pass
+    '''    public void setLocalName(final String localName)
+    '''
 def setPrefix():
-'''public void setPrefix(final String prefix)
-'''
-pass
+    '''    public void setPrefix(final String prefix)
+    '''
 def getQualifiedName():
-'''public String getQualifiedName()
-'''
-pass
+    '''    public String getQualifiedName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def hashCode():
-'''public final int hashCode()
-'''
-pass
+    '''    public final int hashCode()
+    '''
 def equals():
-'''public final boolean equals(final Object obj)
-'''
-pass
+    '''    public final boolean equals(final Object obj)
+    '''

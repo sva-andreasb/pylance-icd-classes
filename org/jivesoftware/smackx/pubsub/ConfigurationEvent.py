@@ -1,13 +1,10 @@
 def ConfigurationEvent():
-'''public ConfigurationEvent(final String nodeId)
-public ConfigurationEvent(final String nodeId, final ConfigureForm configForm)
-'''
-pass
+    '''    public ConfigurationEvent(final String nodeId)
+    public ConfigurationEvent(final String nodeId, final ConfigureForm configForm)
+    '''
 def getConfiguration():
-'''public ConfigureForm getConfiguration()
-'''
-pass
+    '''    public ConfigureForm getConfiguration()
+    '''
 def getExtensions():
-'''public List<ExtensionElement> getExtensions()
-'''
-pass
+    '''    public List<ExtensionElement> getExtensions()
+    '''

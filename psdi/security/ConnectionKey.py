@@ -1,65 +1,49 @@
 def ConnectionKey():
-'''public ConnectionKey()
-public ConnectionKey(final UserInfo userInfo)
-'''
-pass
+    '''    public ConnectionKey()
+    public ConnectionKey(final UserInfo userInfo)
+    '''
 def isPreview():
-'''public boolean isPreview()
-'''
-pass
+    '''    public boolean isPreview()
+    '''
 def getUID():
-'''public UID getUID()
-'''
-pass
+    '''    public UID getUID()
+    '''
 def getLoginUserName():
-'''public String getLoginUserName()
-'''
-pass
+    '''    public String getLoginUserName()
+    '''
 def getInetAddress():
-'''public InetAddress getInetAddress()
-'''
-pass
+    '''    public InetAddress getInetAddress()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getCredential():
-'''public Object getCredential()
-'''
-pass
+    '''    public Object getCredential()
+    '''
 def setUID():
-'''public void setUID(final UID setuid)
-'''
-pass
+    '''    public void setUID(final UID setuid)
+    '''
 def setInetAddress():
-'''public void setInetAddress(final InetAddress setinetAddress)
-'''
-pass
+    '''    public void setInetAddress(final InetAddress setinetAddress)
+    '''
 def commitOnConnectionFree():
-'''public boolean commitOnConnectionFree()
-'''
-pass
+    '''    public boolean commitOnConnectionFree()
+    '''
 def setRollbackOnConnectionFree():
-'''public void setRollbackOnConnectionFree()
-'''
-pass
+    '''    public void setRollbackOnConnectionFree()
+    '''
 def setCommitOnConnectionFree():
-'''public void setCommitOnConnectionFree(final boolean val)
-'''
-pass
+    '''    public void setCommitOnConnectionFree(final boolean val)
+    '''
 def getMTDBUser():
-'''public String getMTDBUser()
-'''
-pass
+    '''    public String getMTDBUser()
+    '''
 def getTenantID():
-'''public int getTenantID()
-'''
-pass
+    '''    public int getTenantID()
+    '''
 def getConKeyLight():
-'''public ConnectionKeyLight getConKeyLight()
-'''
-pass
+    '''    public ConnectionKeyLight getConKeyLight()
+    '''

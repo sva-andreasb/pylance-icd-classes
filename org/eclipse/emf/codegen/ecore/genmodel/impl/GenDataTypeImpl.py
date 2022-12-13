@@ -1,193 +1,145 @@
 def getEcoreDataType():
-'''public EDataType getEcoreDataType()
-'''
-pass
+    '''    public EDataType getEcoreDataType()
+    '''
 def basicGetEcoreDataType():
-'''public EDataType basicGetEcoreDataType()
-'''
-pass
+    '''    public EDataType basicGetEcoreDataType()
+    '''
 def setEcoreDataType():
-'''public void setEcoreDataType(final EDataType newEcoreDataType)
-'''
-pass
+    '''    public void setEcoreDataType(final EDataType newEcoreDataType)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def getEcoreClassifier():
-'''public EClassifier getEcoreClassifier()
-'''
-pass
+    '''    public EClassifier getEcoreClassifier()
+    '''
 def getImportedMetaType():
-'''public String getImportedMetaType()
-'''
-pass
+    '''    public String getImportedMetaType()
+    '''
 def getQualifiedInstanceClassName():
-'''public String getQualifiedInstanceClassName()
-'''
-pass
+    '''    public String getQualifiedInstanceClassName()
+    '''
 def getRawQualifiedInstanceClassName():
-'''public String getRawQualifiedInstanceClassName()
-'''
-pass
+    '''    public String getRawQualifiedInstanceClassName()
+    '''
 def getImportedInstanceClassName():
-'''public String getImportedInstanceClassName()
-'''
-pass
+    '''    public String getImportedInstanceClassName()
+    '''
 def getObjectInstanceClassName():
-'''public String getObjectInstanceClassName()
-'''
-pass
+    '''    public String getObjectInstanceClassName()
+    '''
 def isSerializable():
-'''public boolean isSerializable()
-'''
-pass
+    '''    public boolean isSerializable()
+    '''
 def getSerializableFlag():
-'''public String getSerializableFlag()
-'''
-pass
+    '''    public String getSerializableFlag()
+    '''
 def getGeneratedInstanceClassFlag():
-'''public String getGeneratedInstanceClassFlag()
-'''
-pass
+    '''    public String getGeneratedInstanceClassFlag()
+    '''
 def isPrimitiveType():
-'''public boolean isPrimitiveType()
-'''
-pass
+    '''    public boolean isPrimitiveType()
+    '''
 def isArrayType():
-'''public boolean isArrayType()
-'''
-pass
+    '''    public boolean isArrayType()
+    '''
 def isObjectType():
-'''public boolean isObjectType()
-'''
-pass
+    '''    public boolean isObjectType()
+    '''
 def getPrimitiveValueFunction():
-'''public String getPrimitiveValueFunction()
-'''
-pass
+    '''    public String getPrimitiveValueFunction()
+    '''
 def getModelInfo():
-'''public String getModelInfo()
-'''
-pass
+    '''    public String getModelInfo()
+    '''
 def getBaseType():
-'''public GenDataType getBaseType()
-'''
-pass
+    '''    public GenDataType getBaseType()
+    '''
 def getItemType():
-'''public GenDataType getItemType()
-'''
-pass
+    '''    public GenDataType getItemType()
+    '''
 def getEffectiveItemType():
-'''public GenDataType getEffectiveItemType()
-'''
-pass
+    '''    public GenDataType getEffectiveItemType()
+    '''
 def getMemberTypes():
-'''public List getMemberTypes()
-'''
-pass
+    '''    public List getMemberTypes()
+    '''
 def getEffectiveMemberTypes():
-'''public List getEffectiveMemberTypes()
-'''
-pass
+    '''    public List getEffectiveMemberTypes()
+    '''
 def getMinLiteral():
-'''public String getMinLiteral()
-'''
-pass
+    '''    public String getMinLiteral()
+    '''
 def isMinInclusive():
-'''public boolean isMinInclusive()
-'''
-pass
+    '''    public boolean isMinInclusive()
+    '''
 def getMaxLiteral():
-'''public String getMaxLiteral()
-'''
-pass
+    '''    public String getMaxLiteral()
+    '''
 def isMaxInclusive():
-'''public boolean isMaxInclusive()
-'''
-pass
+    '''    public boolean isMaxInclusive()
+    '''
 def getLengthAccessorFunction():
-'''public String getLengthAccessorFunction()
-'''
-pass
+    '''    public String getLengthAccessorFunction()
+    '''
 def getMinLength():
-'''public int getMinLength()
-'''
-pass
+    '''    public int getMinLength()
+    '''
 def getMaxLength():
-'''public int getMaxLength()
-'''
-pass
+    '''    public int getMaxLength()
+    '''
 def getTotalDigits():
-'''public int getTotalDigits()
-'''
-pass
+    '''    public int getTotalDigits()
+    '''
 def getFractionDigits():
-'''public int getFractionDigits()
-'''
-pass
+    '''    public int getFractionDigits()
+    '''
 def getEnumerationLiterals():
-'''public List getEnumerationLiterals()
-'''
-pass
+    '''    public List getEnumerationLiterals()
+    '''
 def getWhiteSpace():
-'''public String getWhiteSpace()
-'''
-pass
+    '''    public String getWhiteSpace()
+    '''
 def isXMLCalendar():
-'''public boolean isXMLCalendar()
-'''
-pass
+    '''    public boolean isXMLCalendar()
+    '''
 def isXMLDuration():
-'''public boolean isXMLDuration()
-'''
-pass
+    '''    public boolean isXMLDuration()
+    '''
 def isXMLBoolean():
-'''public boolean isXMLBoolean()
-'''
-pass
+    '''    public boolean isXMLBoolean()
+    '''
 def getPatterns():
-'''public List getPatterns()
-'''
-pass
+    '''    public List getPatterns()
+    '''
 def initialize():
-'''public void initialize(final EDataType eDataType)
-'''
-pass
+    '''    public void initialize(final EDataType eDataType)
+    '''
 def reconcile():
-'''public boolean reconcile(final GenDataType oldGenDataTypeVersion)
-public boolean reconcile()
-'''
-pass
+    '''    public boolean reconcile(final GenDataType oldGenDataTypeVersion)
+    public boolean reconcile()
+    '''
 def getGenConstraints():
-'''public List getGenConstraints()
-'''
-pass
+    '''    public List getGenConstraints()
+    '''
 def getAllGenConstraints():
-'''public List getAllGenConstraints()
-'''
-pass
+    '''    public List getAllGenConstraints()
+    '''
 def getConstraintImplementor():
-'''public GenClassifier getConstraintImplementor(final String constraint)
-'''
-pass
+    '''    public GenClassifier getConstraintImplementor(final String constraint)
+    '''
 def getConstraintDelegate():
-'''public GenClassifier getConstraintDelegate(final String constraint)
-'''
-pass
+    '''    public GenClassifier getConstraintDelegate(final String constraint)
+    '''
 def getStaticValue():
-'''public String getStaticValue(final String literal)
-'''
-pass
+    '''    public String getStaticValue(final String literal)
+    '''

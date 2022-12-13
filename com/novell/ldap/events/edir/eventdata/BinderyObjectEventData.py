@@ -1,28 +1,21 @@
 def BinderyObjectEventData():
-'''public BinderyObjectEventData(final ASN1Object asn1Object)
-'''
-pass
+    '''    public BinderyObjectEventData(final ASN1Object asn1Object)
+    '''
 def getEmuObjFlags():
-'''public int getEmuObjFlags()
-'''
-pass
+    '''    public int getEmuObjFlags()
+    '''
 def getEntryDN():
-'''public String getEntryDN()
-'''
-pass
+    '''    public String getEntryDN()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSecurity():
-'''public int getSecurity()
-'''
-pass
+    '''    public int getSecurity()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

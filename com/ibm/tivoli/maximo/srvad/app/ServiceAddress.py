@@ -1,85 +1,64 @@
 def ServiceAddress():
-'''public ServiceAddress(final MboSet ms)
-'''
-pass
+    '''    public ServiceAddress(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getParent():
-'''public MboRemote getParent()
-'''
-pass
+    '''    public MboRemote getParent()
+    '''
 def getChildren():
-'''public MboSetRemote getChildren()
-'''
-pass
+    '''    public MboSetRemote getChildren()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def isParent():
-'''public Boolean isParent()
-'''
-pass
+    '''    public Boolean isParent()
+    '''
 def makeSAParent():
-'''public void makeSAParent()
-'''
-pass
+    '''    public void makeSAParent()
+    '''
 def getServiceAddress():
-'''public ServiceAddressRemote getServiceAddress()
-'''
-pass
+    '''    public ServiceAddressRemote getServiceAddress()
+    '''
 def saveGISData():
-'''public void saveGISData(final String address, final String lat, final String lng)
-'''
-pass
+    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''
 def makeEditableOnSAInfoEdit():
-'''public boolean makeEditableOnSAInfoEdit(final MboRemote checker)
-'''
-pass
+    '''    public boolean makeEditableOnSAInfoEdit(final MboRemote checker)
+    '''
 def getOrgSiteForMaxvar():
-'''public String getOrgSiteForMaxvar(final String maxvarName)
-'''
-pass
+    '''    public String getOrgSiteForMaxvar(final String maxvarName)
+    '''
 def getLatitudeY():
-'''public Double getLatitudeY()
-'''
-pass
+    '''    public Double getLatitudeY()
+    '''
 def getLongitudeX():
-'''public Double getLongitudeX()
-'''
-pass
+    '''    public Double getLongitudeX()
+    '''
 def getAddressString():
-'''public String getAddressString()
-'''
-pass
+    '''    public String getAddressString()
+    '''
 def hasServiceAddress():
-'''public boolean hasServiceAddress()
-'''
-pass
+    '''    public boolean hasServiceAddress()
+    '''
 def isGISDataReadonly():
-'''public boolean isGISDataReadonly()
-'''
-pass
+    '''    public boolean isGISDataReadonly()
+    '''
 def getAutoLocateObject():
-'''public MboRemote getAutoLocateObject(final AutoLocatable parent)
-public MboRemote getAutoLocateObject()
-'''
-pass
+    '''    public MboRemote getAutoLocateObject(final AutoLocatable parent)
+    public MboRemote getAutoLocateObject()
+    '''
 def hasCoords():
-'''public Boolean hasCoords()
-'''
-pass
+    '''    public Boolean hasCoords()
+    '''

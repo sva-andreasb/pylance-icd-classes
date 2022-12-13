@@ -1,20 +1,15 @@
 def needssave():
-'''public int needssave()
-'''
-pass
+    '''    public int needssave()
+    '''
 def taskstatus():
-'''public int taskstatus()
-'''
-pass
+    '''    public int taskstatus()
+    '''
 def insert():
-'''public void insert(final int nRow)
-'''
-pass
+    '''    public void insert(final int nRow)
+    '''
 def insertAtEnd():
-'''public synchronized void insertAtEnd()
-'''
-pass
+    '''    public synchronized void insertAtEnd()
+    '''
 def setInspFormNum():
-'''public void setInspFormNum(final String inspformnum)
-'''
-pass
+    '''    public void setInspFormNum(final String inspformnum)
+    '''

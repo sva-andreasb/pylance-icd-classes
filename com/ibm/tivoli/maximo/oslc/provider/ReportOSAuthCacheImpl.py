@@ -1,21 +1,16 @@
 def ReportOSAuthCacheImpl():
-'''public ReportOSAuthCacheImpl()
-'''
-pass
+    '''    public ReportOSAuthCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def hasPermission():
-'''public boolean hasPermission(final String osName, final UserInfo userInfo)
-'''
-pass
+    '''    public boolean hasPermission(final String osName, final UserInfo userInfo)
+    '''

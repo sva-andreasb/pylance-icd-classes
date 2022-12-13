@@ -1,21 +1,16 @@
 def HeadMethod():
-'''public HeadMethod()
-public HeadMethod(final String uri)
-'''
-pass
+    '''    public HeadMethod()
+    public HeadMethod(final String uri)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def recycle():
-'''public void recycle()
-'''
-pass
+    '''    public void recycle()
+    '''
 def getBodyCheckTimeout():
-'''public int getBodyCheckTimeout()
-'''
-pass
+    '''    public int getBodyCheckTimeout()
+    '''
 def setBodyCheckTimeout():
-'''public void setBodyCheckTimeout(final int timeout)
-'''
-pass
+    '''    public void setBodyCheckTimeout(final int timeout)
+    '''

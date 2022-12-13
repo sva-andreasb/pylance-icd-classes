@@ -1,36 +1,27 @@
 def Service():
-'''public Service(@JsonProperty("endpoints") final Map<String, Endpoint> endpoints)
-'''
-pass
+    '''    public Service(@JsonProperty("endpoints") final Map<String, Endpoint> endpoints)
+    '''
 def getEndpoints():
-'''public Map<String, Endpoint> getEndpoints()
-'''
-pass
+    '''    public Map<String, Endpoint> getEndpoints()
+    '''
 def getDefaults():
-'''public Endpoint getDefaults()
-'''
-pass
+    '''    public Endpoint getDefaults()
+    '''
 def setDefaults():
-'''public void setDefaults(final Endpoint defaults)
-'''
-pass
+    '''    public void setDefaults(final Endpoint defaults)
+    '''
 def getPartitionEndpoint():
-'''public String getPartitionEndpoint()
-'''
-pass
+    '''    public String getPartitionEndpoint()
+    '''
 def setPartitionEndpoint():
-'''public void setPartitionEndpoint(final String partitionEndpoint)
-'''
-pass
+    '''    public void setPartitionEndpoint(final String partitionEndpoint)
+    '''
 def isRegionalized():
-'''public boolean isRegionalized()
-'''
-pass
+    '''    public boolean isRegionalized()
+    '''
 def setRegionalized():
-'''public void setRegionalized(final boolean regionalized)
-'''
-pass
+    '''    public void setRegionalized(final boolean regionalized)
+    '''
 def isPartitionWideEndpointAvailable():
-'''public boolean isPartitionWideEndpointAvailable()
-'''
-pass
+    '''    public boolean isPartitionWideEndpointAvailable()
+    '''

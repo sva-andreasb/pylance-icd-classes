@@ -1,12 +1,9 @@
 def SystemsNewBean():
-'''public SystemsNewBean()
-'''
-pass
+    '''    public SystemsNewBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

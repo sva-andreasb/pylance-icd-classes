@@ -1,8 +1,6 @@
 def PlusCFldGroupName():
-'''public PlusCFldGroupName(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldGroupName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

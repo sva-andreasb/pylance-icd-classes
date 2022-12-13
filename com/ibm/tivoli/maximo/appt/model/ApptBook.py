@@ -1,32 +1,24 @@
 def ApptBook():
-'''public ApptBook(final ModelLoader loader)
-'''
-pass
+    '''    public ApptBook(final ModelLoader loader)
+    '''
 def loadAppointments():
-'''public void loadAppointments(final Date start, final Date end)
-'''
-pass
+    '''    public void loadAppointments(final Date start, final Date end)
+    '''
 def addWindow():
-'''public ApptWindow addWindow(final String name)
-'''
-pass
+    '''    public ApptWindow addWindow(final String name)
+    '''
 def getWindow():
-'''public ApptWindow getWindow(final String name, final boolean create)
-'''
-pass
+    '''    public ApptWindow getWindow(final String name, final boolean create)
+    '''
 def getStart():
-'''public Date getStart()
-'''
-pass
+    '''    public Date getStart()
+    '''
 def iterator():
-'''public Iterator<ApptWindow> iterator()
-'''
-pass
+    '''    public Iterator<ApptWindow> iterator()
+    '''
 def sort():
-'''public ApptBook sort()
-'''
-pass
+    '''    public ApptBook sort()
+    '''
 def compare():
-'''public int compare(final ApptWindow o1, final ApptWindow o2)
-'''
-pass
+    '''    public int compare(final ApptWindow o1, final ApptWindow o2)
+    '''

@@ -1,16 +1,12 @@
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getType():
-'''public RelevanceValueType getType()
-'''
-pass
+    '''    public RelevanceValueType getType()
+    '''
 def setType():
-'''public void setType(final RelevanceValueType value)
-'''
-pass
+    '''    public void setType(final RelevanceValueType value)
+    '''

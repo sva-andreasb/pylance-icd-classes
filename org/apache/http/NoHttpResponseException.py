@@ -1,4 +1,3 @@
 def NoHttpResponseException():
-'''public NoHttpResponseException(final String message)
-'''
-pass
+    '''    public NoHttpResponseException(final String message)
+    '''

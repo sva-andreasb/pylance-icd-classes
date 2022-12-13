@@ -1,8 +1,6 @@
 def FldJobMatStoreLocSite():
-'''public FldJobMatStoreLocSite(final MboValue mbv)
-'''
-pass
+    '''    public FldJobMatStoreLocSite(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

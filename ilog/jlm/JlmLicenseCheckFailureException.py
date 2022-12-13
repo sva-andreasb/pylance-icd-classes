@@ -1,14 +1,11 @@
 def getAllMessages():
-'''public String[] getAllMessages()
-'''
-pass
+    '''    public String[] getAllMessages()
+    '''
 def getAlternativeProducts():
-'''public String[] getAlternativeProducts()
-'''
-pass
+    '''    public String[] getAlternativeProducts()
+    '''
 def JlmLicenseCheckFailureException():
-'''public JlmLicenseCheckFailureException()
-public JlmLicenseCheckFailureException(final String[] b, final String message)
-public JlmLicenseCheckFailureException(final String[] b, final String[] a)
-'''
-pass
+    '''    public JlmLicenseCheckFailureException()
+    public JlmLicenseCheckFailureException(final String[] b, final String message)
+    public JlmLicenseCheckFailureException(final String[] b, final String[] a)
+    '''

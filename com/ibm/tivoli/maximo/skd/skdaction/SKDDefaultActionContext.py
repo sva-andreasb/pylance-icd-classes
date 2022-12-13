@@ -1,76 +1,57 @@
 def SKDDefaultActionContext():
-'''public SKDDefaultActionContext()
-'''
-pass
+    '''    public SKDDefaultActionContext()
+    '''
 def getProjectId():
-'''public String getProjectId()
-'''
-pass
+    '''    public String getProjectId()
+    '''
 def setProjectId():
-'''public void setProjectId(final String id)
-'''
-pass
+    '''    public void setProjectId(final String id)
+    '''
 def getActionName():
-'''public String getActionName()
-'''
-pass
+    '''    public String getActionName()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getSKDObjectName():
-'''public String getSKDObjectName()
-'''
-pass
+    '''    public String getSKDObjectName()
+    '''
 def setActionName():
-'''public void setActionName(final String str)
-'''
-pass
+    '''    public void setActionName(final String str)
+    '''
 def getMultiRec():
-'''public String getMultiRec()
-'''
-pass
+    '''    public String getMultiRec()
+    '''
 def setMultiRec():
-'''public void setMultiRec(final String multirec)
-'''
-pass
+    '''    public void setMultiRec(final String multirec)
+    '''
 def getMenuOrder():
-'''public String getMenuOrder()
-'''
-pass
+    '''    public String getMenuOrder()
+    '''
 def setMenuOrder():
-'''public void setMenuOrder(final String menuorder)
-'''
-pass
+    '''    public void setMenuOrder(final String menuorder)
+    '''
 def setUseWith():
-'''public void setUseWith(final String usewith)
-'''
-pass
+    '''    public void setUseWith(final String usewith)
+    '''
 def getUseWith():
-'''public String getUseWith()
-'''
-pass
+    '''    public String getUseWith()
+    '''
 def setObjectName():
-'''public void setObjectName(final String str)
-'''
-pass
+    '''    public void setObjectName(final String str)
+    '''
 def setSKDObjectName():
-'''public void setSKDObjectName(final String str)
-'''
-pass
+    '''    public void setSKDObjectName(final String str)
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo info)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo info)
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''
 def setLogger():
-'''public void setLogger(final MXLogger l)
-'''
-pass
+    '''    public void setLogger(final MXLogger l)
+    '''
 def getLogger():
-'''public MXLogger getLogger()
-'''
-pass
+    '''    public MXLogger getLogger()
+    '''

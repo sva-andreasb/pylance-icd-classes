@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def getOrgsSelected():
-'''public static ArrayList<String> getOrgsSelected(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public static ArrayList<String> getOrgsSelected(final MboSetRemote mboSetRemote)
+    '''

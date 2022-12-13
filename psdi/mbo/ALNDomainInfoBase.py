@@ -1,32 +1,24 @@
 def ALNDomainInfoBase():
-'''public ALNDomainInfoBase(final String name, final long id)
-'''
-pass
+    '''    public ALNDomainInfoBase(final String name, final long id)
+    '''
 def initDetailObject():
-'''public Detail initDetailObject()
-'''
-pass
+    '''    public Detail initDetailObject()
+    '''
 def addConditionObj():
-'''public void addConditionObj(final String obj)
-'''
-pass
+    '''    public void addConditionObj(final String obj)
+    '''
 def hasValueCondition():
-'''public boolean hasValueCondition(final String object)
-'''
-pass
+    '''    public boolean hasValueCondition(final String object)
+    '''
 def getSiteOrgWhere():
-'''public String getSiteOrgWhere(final ALNDomain domain)
-'''
-pass
+    '''    public String getSiteOrgWhere(final ALNDomain domain)
+    '''
 def Detail():
-'''public Detail()
-'''
-pass
+    '''    public Detail()
+    '''
 def getSiteId():
-'''public String getSiteId()
-'''
-pass
+    '''    public String getSiteId()
+    '''
 def getOrgId():
-'''public String getOrgId()
-'''
-pass
+    '''    public String getOrgId()
+    '''

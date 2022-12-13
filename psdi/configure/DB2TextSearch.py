@@ -1,12 +1,9 @@
 def getHelper():
-'''public static DB2TextSearch getHelper(final Connection dbcon, final String schemaOwner)
-'''
-pass
+    '''    public static DB2TextSearch getHelper(final Connection dbcon, final String schemaOwner)
+    '''
 def generateTextSearchIndexName():
-'''public String generateTextSearchIndexName(final String tableName, final String colName)
-'''
-pass
+    '''    public String generateTextSearchIndexName(final String tableName, final String colName)
+    '''
 def addHandleUpdates():
-'''public List<String> addHandleUpdates(List<String> list, final String ixName, final String tbname, final String colName)
-'''
-pass
+    '''    public List<String> addHandleUpdates(List<String> list, final String ixName, final String tbname, final String colName)
+    '''

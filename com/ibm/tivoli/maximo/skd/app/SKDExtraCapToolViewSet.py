@@ -1,4 +1,3 @@
 def SKDExtraCapToolViewSet():
-'''public SKDExtraCapToolViewSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDExtraCapToolViewSet(final MboServerInterface ms)
+    '''

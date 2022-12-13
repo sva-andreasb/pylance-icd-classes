@@ -1,4 +1,3 @@
 def updateCustomerReferencesOk():
-'''public void updateCustomerReferencesOk()
-'''
-pass
+    '''    public void updateCustomerReferencesOk()
+    '''

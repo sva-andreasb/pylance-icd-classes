@@ -1,24 +1,18 @@
 def WOActivity():
-'''public WOActivity(final MboSet ms)
-'''
-pass
+    '''    public WOActivity(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def addmultiassetlocci():
-'''public void addmultiassetlocci()
-'''
-pass
+    '''    public void addmultiassetlocci()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''

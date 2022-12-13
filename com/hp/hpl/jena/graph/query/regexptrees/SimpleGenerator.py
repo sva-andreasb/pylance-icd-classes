@@ -1,52 +1,39 @@
 def getAnySingle():
-'''public RegexpTree getAnySingle()
-'''
-pass
+    '''    public RegexpTree getAnySingle()
+    '''
 def getStartOfLine():
-'''public RegexpTree getStartOfLine()
-'''
-pass
+    '''    public RegexpTree getStartOfLine()
+    '''
 def getEndOfLine():
-'''public RegexpTree getEndOfLine()
-'''
-pass
+    '''    public RegexpTree getEndOfLine()
+    '''
 def getNothing():
-'''public RegexpTree getNothing()
-'''
-pass
+    '''    public RegexpTree getNothing()
+    '''
 def getText():
-'''public RegexpTree getText(final char ch)
-'''
-pass
+    '''    public RegexpTree getText(final char ch)
+    '''
 def getZeroOrMore():
-'''public RegexpTree getZeroOrMore(final RegexpTree d)
-'''
-pass
+    '''    public RegexpTree getZeroOrMore(final RegexpTree d)
+    '''
 def getOneOrMore():
-'''public RegexpTree getOneOrMore(final RegexpTree d)
-'''
-pass
+    '''    public RegexpTree getOneOrMore(final RegexpTree d)
+    '''
 def getOptional():
-'''public RegexpTree getOptional(final RegexpTree d)
-'''
-pass
+    '''    public RegexpTree getOptional(final RegexpTree d)
+    '''
 def getSequence():
-'''public RegexpTree getSequence(final List<? extends RegexpTree> operands)
-'''
-pass
+    '''    public RegexpTree getSequence(final List<? extends RegexpTree> operands)
+    '''
 def getAlternatives():
-'''public RegexpTree getAlternatives(final List<? extends RegexpTree> operands)
-'''
-pass
+    '''    public RegexpTree getAlternatives(final List<? extends RegexpTree> operands)
+    '''
 def getBackReference():
-'''public RegexpTree getBackReference(final int n)
-'''
-pass
+    '''    public RegexpTree getBackReference(final int n)
+    '''
 def getClass():
-'''public RegexpTree getClass(final String chars, final boolean reject)
-'''
-pass
+    '''    public RegexpTree getClass(final String chars, final boolean reject)
+    '''
 def getParen():
-'''public RegexpTree getParen(final RegexpTree operand, final int index)
-'''
-pass
+    '''    public RegexpTree getParen(final RegexpTree operand, final int index)
+    '''

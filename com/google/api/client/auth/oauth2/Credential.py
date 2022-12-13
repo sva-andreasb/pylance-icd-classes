@@ -1,143 +1,109 @@
 def Credential():
-'''public Credential(final AccessMethod method)
-'''
-pass
+    '''    public Credential(final AccessMethod method)
+    '''
 def intercept():
-'''public void intercept(final HttpRequest request)
-'''
-pass
+    '''    public void intercept(final HttpRequest request)
+    '''
 def handleResponse():
-'''public boolean handleResponse(final HttpRequest request, final HttpResponse response, final boolean supportsRetry)
-'''
-pass
+    '''    public boolean handleResponse(final HttpRequest request, final HttpResponse response, final boolean supportsRetry)
+    '''
 def initialize():
-'''public void initialize(final HttpRequest request)
-'''
-pass
+    '''    public void initialize(final HttpRequest request)
+    '''
 def getAccessToken():
-'''public final String getAccessToken()
-'''
-pass
+    '''    public final String getAccessToken()
+    '''
 def setAccessToken():
-'''public Credential setAccessToken(final String accessToken)
-'''
-pass
+    '''    public Credential setAccessToken(final String accessToken)
+    '''
 def getMethod():
-'''public final AccessMethod getMethod()
-public final AccessMethod getMethod()
-'''
-pass
+    '''    public final AccessMethod getMethod()
+    public final AccessMethod getMethod()
+    '''
 def getClock():
-'''public final Clock getClock()
-public final Clock getClock()
-'''
-pass
+    '''    public final Clock getClock()
+    public final Clock getClock()
+    '''
 def getTransport():
-'''public final HttpTransport getTransport()
-public final HttpTransport getTransport()
-'''
-pass
+    '''    public final HttpTransport getTransport()
+    public final HttpTransport getTransport()
+    '''
 def getJsonFactory():
-'''public final JsonFactory getJsonFactory()
-public final JsonFactory getJsonFactory()
-'''
-pass
+    '''    public final JsonFactory getJsonFactory()
+    public final JsonFactory getJsonFactory()
+    '''
 def getTokenServerEncodedUrl():
-'''public final String getTokenServerEncodedUrl()
-'''
-pass
+    '''    public final String getTokenServerEncodedUrl()
+    '''
 def getRefreshToken():
-'''public final String getRefreshToken()
-'''
-pass
+    '''    public final String getRefreshToken()
+    '''
 def setRefreshToken():
-'''public Credential setRefreshToken(final String refreshToken)
-'''
-pass
+    '''    public Credential setRefreshToken(final String refreshToken)
+    '''
 def getExpirationTimeMilliseconds():
-'''public final Long getExpirationTimeMilliseconds()
-'''
-pass
+    '''    public final Long getExpirationTimeMilliseconds()
+    '''
 def setExpirationTimeMilliseconds():
-'''public Credential setExpirationTimeMilliseconds(final Long expirationTimeMilliseconds)
-'''
-pass
+    '''    public Credential setExpirationTimeMilliseconds(final Long expirationTimeMilliseconds)
+    '''
 def getExpiresInSeconds():
-'''public final Long getExpiresInSeconds()
-'''
-pass
+    '''    public final Long getExpiresInSeconds()
+    '''
 def setExpiresInSeconds():
-'''public Credential setExpiresInSeconds(final Long expiresIn)
-'''
-pass
+    '''    public Credential setExpiresInSeconds(final Long expiresIn)
+    '''
 def getClientAuthentication():
-'''public final HttpExecuteInterceptor getClientAuthentication()
-public final HttpExecuteInterceptor getClientAuthentication()
-'''
-pass
+    '''    public final HttpExecuteInterceptor getClientAuthentication()
+    public final HttpExecuteInterceptor getClientAuthentication()
+    '''
 def getRequestInitializer():
-'''public final HttpRequestInitializer getRequestInitializer()
-public final HttpRequestInitializer getRequestInitializer()
-'''
-pass
+    '''    public final HttpRequestInitializer getRequestInitializer()
+    public final HttpRequestInitializer getRequestInitializer()
+    '''
 def refreshToken():
-'''public final boolean refreshToken()
-'''
-pass
+    '''    public final boolean refreshToken()
+    '''
 def setFromTokenResponse():
-'''public Credential setFromTokenResponse(final TokenResponse tokenResponse)
-'''
-pass
+    '''    public Credential setFromTokenResponse(final TokenResponse tokenResponse)
+    '''
 def getRefreshListeners():
-'''public final Collection<CredentialRefreshListener> getRefreshListeners()
-public final Collection<CredentialRefreshListener> getRefreshListeners()
-'''
-pass
+    '''    public final Collection<CredentialRefreshListener> getRefreshListeners()
+    public final Collection<CredentialRefreshListener> getRefreshListeners()
+    '''
 def Builder():
-'''public Builder(final AccessMethod method)
-'''
-pass
+    '''    public Builder(final AccessMethod method)
+    '''
 def build():
-'''public Credential build()
-'''
-pass
+    '''    public Credential build()
+    '''
 def setTransport():
-'''public Builder setTransport(final HttpTransport transport)
-'''
-pass
+    '''    public Builder setTransport(final HttpTransport transport)
+    '''
 def setClock():
-'''public Builder setClock(final Clock clock)
-'''
-pass
+    '''    public Builder setClock(final Clock clock)
+    '''
 def setJsonFactory():
-'''public Builder setJsonFactory(final JsonFactory jsonFactory)
-'''
-pass
+    '''    public Builder setJsonFactory(final JsonFactory jsonFactory)
+    '''
 def getTokenServerUrl():
-'''public final GenericUrl getTokenServerUrl()
-'''
-pass
+    '''    public final GenericUrl getTokenServerUrl()
+    '''
 def setTokenServerUrl():
-'''public Builder setTokenServerUrl(final GenericUrl tokenServerUrl)
-'''
-pass
+    '''    public Builder setTokenServerUrl(final GenericUrl tokenServerUrl)
+    '''
 def setTokenServerEncodedUrl():
-'''public Builder setTokenServerEncodedUrl(final String tokenServerEncodedUrl)
-'''
-pass
+    '''    public Builder setTokenServerEncodedUrl(final String tokenServerEncodedUrl)
+    '''
 def setClientAuthentication():
-'''public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
-'''
-pass
+    '''    public Builder setClientAuthentication(final HttpExecuteInterceptor clientAuthentication)
+    '''
 def setRequestInitializer():
-'''public Builder setRequestInitializer(final HttpRequestInitializer requestInitializer)
-'''
-pass
+    '''    public Builder setRequestInitializer(final HttpRequestInitializer requestInitializer)
+    '''
 def addRefreshListener():
-'''public Builder addRefreshListener(final CredentialRefreshListener refreshListener)
-'''
-pass
+    '''    public Builder addRefreshListener(final CredentialRefreshListener refreshListener)
+    '''
 def setRefreshListeners():
-'''public Builder setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)
-'''
-pass
+    '''    public Builder setRefreshListeners(final Collection<CredentialRefreshListener> refreshListeners)
+    '''

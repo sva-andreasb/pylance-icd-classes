@@ -1,12 +1,9 @@
 def Link():
-'''public Link()
-'''
-pass
+    '''    public Link()
+    '''
 def addLinkElem():
-'''public void addLinkElem(final LinkElem linkElem)
-'''
-pass
+    '''    public void addLinkElem(final LinkElem linkElem)
+    '''
 def getLinkElems():
-'''public List getLinkElems()
-'''
-pass
+    '''    public List getLinkElems()
+    '''

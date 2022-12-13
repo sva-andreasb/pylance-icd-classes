@@ -1,4 +1,3 @@
 def IlvFacesGanttTableSelectionSupport():
-'''public IlvFacesGanttTableSelectionSupport(final IlvGanttServletSupport ilvGanttServletSupport)
-'''
-pass
+    '''    public IlvFacesGanttTableSelectionSupport(final IlvGanttServletSupport ilvGanttServletSupport)
+    '''

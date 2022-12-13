@@ -1,44 +1,33 @@
 def ApptActionInfo():
-'''public ApptActionInfo()
-'''
-pass
+    '''    public ApptActionInfo()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def setObjectName():
-'''public void setObjectName(final String objectName)
-'''
-pass
+    '''    public void setObjectName(final String objectName)
+    '''
 def getDialogName():
-'''public String getDialogName()
-'''
-pass
+    '''    public String getDialogName()
+    '''
 def setDialogName():
-'''public void setDialogName(final String name)
-'''
-pass
+    '''    public void setDialogName(final String name)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getActionName():
-'''public String getActionName()
-'''
-pass
+    '''    public String getActionName()
+    '''
 def setActionName():
-'''public void setActionName(final String name)
-'''
-pass
+    '''    public void setActionName(final String name)
+    '''
 def getUid():
-'''public long getUid()
-'''
-pass
+    '''    public long getUid()
+    '''
 def setUid():
-'''public void setUid(final long id)
-'''
-pass
+    '''    public void setUid(final long id)
+    '''

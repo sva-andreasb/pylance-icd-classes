@@ -1,8 +1,6 @@
 def PlusPFldCopyParentsBusAddr():
-'''public PlusPFldCopyParentsBusAddr(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldCopyParentsBusAddr(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

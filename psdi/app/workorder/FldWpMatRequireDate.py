@@ -1,8 +1,6 @@
 def FldWpMatRequireDate():
-'''public FldWpMatRequireDate(final MboValue mbv)
-'''
-pass
+    '''    public FldWpMatRequireDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

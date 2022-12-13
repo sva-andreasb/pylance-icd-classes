@@ -1,58 +1,44 @@
 def FilteringCharacterIterator():
-'''public FilteringCharacterIterator(final String text)
-public FilteringCharacterIterator(final String text, final int pos)
-public FilteringCharacterIterator(final String text, final int begin, final int end, final int pos)
-'''
-pass
+    '''    public FilteringCharacterIterator(final String text)
+    public FilteringCharacterIterator(final String text, final int pos)
+    public FilteringCharacterIterator(final String text, final int begin, final int end, final int pos)
+    '''
 def setText():
-'''public void setText(final String text)
-'''
-pass
+    '''    public void setText(final String text)
+    '''
 def current():
-'''public char current()
-'''
-pass
+    '''    public char current()
+    '''
 def first():
-'''public char first()
-'''
-pass
+    '''    public char first()
+    '''
 def last():
-'''public char last()
-'''
-pass
+    '''    public char last()
+    '''
 def next():
-'''public char next()
-'''
-pass
+    '''    public char next()
+    '''
 def previous():
-'''public char previous()
-'''
-pass
+    '''    public char previous()
+    '''
 def getBeginIndex():
-'''public int getBeginIndex()
-'''
-pass
+    '''    public int getBeginIndex()
+    '''
 def getEndIndex():
-'''public int getEndIndex()
-'''
-pass
+    '''    public int getEndIndex()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def setIndex():
-'''public char setIndex(final int index)
-'''
-pass
+    '''    public char setIndex(final int index)
+    '''
 def setCharsToFilter():
-'''public void setCharsToFilter(final char[] charsToFilter)
-'''
-pass
+    '''    public void setCharsToFilter(final char[] charsToFilter)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def trimFirstAndEnd():
-'''public void trimFirstAndEnd()
-'''
-pass
+    '''    public void trimFirstAndEnd()
+    '''

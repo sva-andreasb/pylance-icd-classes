@@ -1,61 +1,46 @@
 def S3Object():
-'''public S3Object()
-'''
-pass
+    '''    public S3Object()
+    '''
 def getObjectMetadata():
-'''public ObjectMetadata getObjectMetadata()
-'''
-pass
+    '''    public ObjectMetadata getObjectMetadata()
+    '''
 def setObjectMetadata():
-'''public void setObjectMetadata(final ObjectMetadata metadata)
-'''
-pass
+    '''    public void setObjectMetadata(final ObjectMetadata metadata)
+    '''
 def getObjectContent():
-'''public S3ObjectInputStream getObjectContent()
-'''
-pass
+    '''    public S3ObjectInputStream getObjectContent()
+    '''
 def setObjectContent():
-'''public void setObjectContent(final S3ObjectInputStream objectContent)
-public void setObjectContent(final InputStream objectContent)
-'''
-pass
+    '''    public void setObjectContent(final S3ObjectInputStream objectContent)
+    public void setObjectContent(final InputStream objectContent)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''
 def setBucketName():
-'''public void setBucketName(final String bucketName)
-'''
-pass
+    '''    public void setBucketName(final String bucketName)
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getRedirectLocation():
-'''public String getRedirectLocation()
-'''
-pass
+    '''    public String getRedirectLocation()
+    '''
 def setRedirectLocation():
-'''public void setRedirectLocation(final String redirectLocation)
-'''
-pass
+    '''    public void setRedirectLocation(final String redirectLocation)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isRequesterCharged():
-'''public boolean isRequesterCharged()
-'''
-pass
+    '''    public boolean isRequesterCharged()
+    '''
 def setRequesterCharged():
-'''public void setRequesterCharged(final boolean isRequesterCharged)
-'''
-pass
+    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''

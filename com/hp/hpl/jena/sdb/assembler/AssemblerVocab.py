@@ -1,12 +1,9 @@
 def getURI():
-'''public static String getURI()
-'''
-pass
+    '''    public static String getURI()
+    '''
 def init():
-'''public static void init()
-'''
-pass
+    '''    public static void init()
+    '''
 def register():
-'''public static void register(final AssemblerGroup g)
-'''
-pass
+    '''    public static void register(final AssemblerGroup g)
+    '''

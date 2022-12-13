@@ -1,10 +1,8 @@
-LOCATION_SYSTEM = "String  LocationSystem""
-LOCATION_INCLUDESELF = "String  IncludSelfLocation""
+LOCATION_SYSTEM = "String  \"LocationSystem\""
+LOCATION_INCLUDESELF = "String  \"IncludSelfLocation\""
 def LocationDataHelper():
-'''public LocationDataHelper()
-'''
-pass
+    '''    public LocationDataHelper()
+    '''
 def getAncestors():
-'''public Stack<Object[]> getAncestors(final MboRemote hierarchicalMbo, final Map<String, Object> params)
-'''
-pass
+    '''    public Stack<Object[]> getAncestors(final MboRemote hierarchicalMbo, final Map<String, Object> params)
+    '''

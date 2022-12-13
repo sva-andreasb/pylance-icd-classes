@@ -1,25 +1,19 @@
 def getXmlObject():
-'''public CTSlideMaster getXmlObject()
-'''
-pass
+    '''    public CTSlideMaster getXmlObject()
+    '''
 def getMasterSheet():
-'''public XSLFSlideMaster getMasterSheet()
-'''
-pass
+    '''    public XSLFSlideMaster getMasterSheet()
+    '''
 def getSlideLayouts():
-'''public XSLFSlideLayout[] getSlideLayouts()
-'''
-pass
+    '''    public XSLFSlideLayout[] getSlideLayouts()
+    '''
 def getLayout():
-'''public XSLFSlideLayout getLayout(final SlideLayout type)
-public XSLFSlideLayout getLayout(final String name)
-'''
-pass
+    '''    public XSLFSlideLayout getLayout(final SlideLayout type)
+    public XSLFSlideLayout getLayout(final String name)
+    '''
 def getTheme():
-'''public XSLFTheme getTheme()
-'''
-pass
+    '''    public XSLFTheme getTheme()
+    '''
 def getBackground():
-'''public XSLFBackground getBackground()
-'''
-pass
+    '''    public XSLFBackground getBackground()
+    '''

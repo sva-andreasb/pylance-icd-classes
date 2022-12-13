@@ -1,12 +1,9 @@
 def SKDDailyCrewReassignBean():
-'''public SKDDailyCrewReassignBean()
-'''
-pass
+    '''    public SKDDailyCrewReassignBean()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def dialog_close():
-'''public int dialog_close()
-'''
-pass
+    '''    public int dialog_close()
+    '''

@@ -1,4 +1,3 @@
 def CognosObjectCombinerExpressionHelper():
-'''public CognosObjectCombinerExpressionHelper()
-'''
-pass
+    '''    public CognosObjectCombinerExpressionHelper()
+    '''

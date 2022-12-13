@@ -1,8 +1,6 @@
 def PlusCFldRepeatable():
-'''public PlusCFldRepeatable(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldRepeatable(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

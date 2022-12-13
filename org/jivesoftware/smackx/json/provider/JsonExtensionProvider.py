@@ -1,4 +1,3 @@
 def from():
-'''public AbstractJsonPacketExtension from(final String json)
-'''
-pass
+    '''    public AbstractJsonPacketExtension from(final String json)
+    '''

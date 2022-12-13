@@ -1,4 +1,3 @@
 def MonitorFilterEventRequest():
-'''public MonitorFilterEventRequest(final EdirEventSpecifier[] array)
-'''
-pass
+    '''    public MonitorFilterEventRequest(final EdirEventSpecifier[] array)
+    '''

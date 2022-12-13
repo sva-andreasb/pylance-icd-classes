@@ -1,8 +1,6 @@
 def FldSKDActGanttPropFilterable():
-'''public FldSKDActGanttPropFilterable(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDActGanttPropFilterable(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -18,10 +18,8 @@ FIELD_UNDEFINED = "int  Integer.MIN_VALUE"
 MAX_TIMEZONE_OFFSET = "int  -840"
 MIN_TIMEZONE_OFFSET = "int  840"
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''

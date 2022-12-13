@@ -1,12 +1,9 @@
 def ContractFromRFQSet():
-'''public ContractFromRFQSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContractFromRFQSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

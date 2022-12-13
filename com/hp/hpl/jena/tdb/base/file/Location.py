@@ -1,47 +1,36 @@
 def mem():
-'''public static Location mem()
-'''
-pass
+    '''    public static Location mem()
+    '''
 def Location():
-'''public Location(String rootname)
-'''
-pass
+    '''    public Location(String rootname)
+    '''
 def getDirectoryPath():
-'''public String getDirectoryPath()
-'''
-pass
+    '''    public String getDirectoryPath()
+    '''
 def getMetaFile():
-'''public MetaFile getMetaFile()
-'''
-pass
+    '''    public MetaFile getMetaFile()
+    '''
 def isMem():
-'''public boolean isMem()
-'''
-pass
+    '''    public boolean isMem()
+    '''
 def getSubLocation():
-'''public Location getSubLocation(final String dirname)
-'''
-pass
+    '''    public Location getSubLocation(final String dirname)
+    '''
 def getSubDirectory():
-'''public String getSubDirectory(final String dirname)
-'''
-pass
+    '''    public String getSubDirectory(final String dirname)
+    '''
 def absolute():
-'''public String absolute(final String filename, final String extension)
-public String absolute(String filename)
-'''
-pass
+    '''    public String absolute(final String filename, final String extension)
+    public String absolute(String filename)
+    '''
 def exists():
-'''public boolean exists(final String filename)
-public boolean exists(final String filename, final String ext)
-'''
-pass
+    '''    public boolean exists(final String filename)
+    public boolean exists(final String filename, final String ext)
+    '''
 def getPath():
-'''public String getPath(final String filename)
-public String getPath(final String filename, final String ext)
-'''
-pass
+    '''    public String getPath(final String filename)
+    public String getPath(final String filename, final String ext)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

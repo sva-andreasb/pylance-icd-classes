@@ -1,12 +1,9 @@
 def ComparisonDataLoader():
-'''public ComparisonDataLoader(final ReconInfo reconInfo, final DataSet dataSet)
-'''
-pass
+    '''    public ComparisonDataLoader(final ReconInfo reconInfo, final DataSet dataSet)
+    '''
 def setMainStatement():
-'''public void setMainStatement(final ComparisonStatementHelper mainStatement)
-'''
-pass
+    '''    public void setMainStatement(final ComparisonStatementHelper mainStatement)
+    '''
 def load():
-'''public void load(final ComparisonStatementHelper sh, final Map linkValue)
-'''
-pass
+    '''    public void load(final ComparisonStatementHelper sh, final Map linkValue)
+    '''

@@ -1,40 +1,30 @@
 def Attr():
-'''public Attr(final DOMObject domObject, final Document doc)
-'''
-pass
+    '''    public Attr(final DOMObject domObject, final Document doc)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSpecified():
-'''public boolean getSpecified()
-'''
-pass
+    '''    public boolean getSpecified()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String s)
-'''
-pass
+    '''    public void setValue(final String s)
+    '''
 def getOwnerElement():
-'''public Element getOwnerElement()
-'''
-pass
+    '''    public Element getOwnerElement()
+    '''
 def getNodeName():
-'''public String getNodeName()
-'''
-pass
+    '''    public String getNodeName()
+    '''
 def getNodeValue():
-'''public String getNodeValue()
-'''
-pass
+    '''    public String getNodeValue()
+    '''
 def setNodeValue():
-'''public void setNodeValue(final String value)
-'''
-pass
+    '''    public void setNodeValue(final String value)
+    '''
 def getNodeType():
-'''public short getNodeType()
-'''
-pass
+    '''    public short getNodeType()
+    '''

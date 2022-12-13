@@ -1,24 +1,18 @@
 def PointsConfig():
-'''public PointsConfig(final NumberFormat format, final Class<? extends Number> type)
-'''
-pass
+    '''    public PointsConfig(final NumberFormat format, final Class<? extends Number> type)
+    '''
 def getNumberFormat():
-'''public NumberFormat getNumberFormat()
-'''
-pass
+    '''    public NumberFormat getNumberFormat()
+    '''
 def setType():
-'''public void setType(final Class<? extends Number> type)
-'''
-pass
+    '''    public void setType(final Class<? extends Number> type)
+    '''
 def setNumberFormat():
-'''public void setNumberFormat(final NumberFormat format)
-'''
-pass
+    '''    public void setNumberFormat(final NumberFormat format)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''

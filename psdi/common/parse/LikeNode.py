@@ -1,8 +1,6 @@
 def LikeNode():
-'''public LikeNode(final TreeNode oper, final TreeNode pat)
-'''
-pass
+    '''    public LikeNode(final TreeNode oper, final TreeNode pat)
+    '''
 def getBoolean():
-'''public boolean getBoolean(final MboRemote mbo)
-'''
-pass
+    '''    public boolean getBoolean(final MboRemote mbo)
+    '''

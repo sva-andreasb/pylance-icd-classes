@@ -1,12 +1,9 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def SELRFQLINE():
-'''public int SELRFQLINE()
-'''
-pass
+    '''    public int SELRFQLINE()
+    '''
 def PRTORFQ():
-'''public int PRTORFQ()
-'''
-pass
+    '''    public int PRTORFQ()
+    '''

@@ -1,100 +1,75 @@
 def enableDefaultMetrics():
-'''public boolean enableDefaultMetrics()
-'''
-pass
+    '''    public boolean enableDefaultMetrics()
+    '''
 def disableMetrics():
-'''public void disableMetrics()
-'''
-pass
+    '''    public void disableMetrics()
+    '''
 def getRequestMetricCollector():
-'''public String getRequestMetricCollector()
-'''
-pass
+    '''    public String getRequestMetricCollector()
+    '''
 def getServiceMetricCollector():
-'''public String getServiceMetricCollector()
-'''
-pass
+    '''    public String getServiceMetricCollector()
+    '''
 def isMetricsEnabled():
-'''public boolean isMetricsEnabled()
-'''
-pass
+    '''    public boolean isMetricsEnabled()
+    '''
 def isMachineMetricsExcluded():
-'''public boolean isMachineMetricsExcluded()
-'''
-pass
+    '''    public boolean isMachineMetricsExcluded()
+    '''
 def setMachineMetricsExcluded():
-'''public void setMachineMetricsExcluded(final boolean excludeJvmMetrics)
-'''
-pass
+    '''    public void setMachineMetricsExcluded(final boolean excludeJvmMetrics)
+    '''
 def getRegion():
-'''public String getRegion()
-'''
-pass
+    '''    public String getRegion()
+    '''
 def setRegion():
-'''public void setRegion(final String region)
-'''
-pass
+    '''    public void setRegion(final String region)
+    '''
 def getMetricQueueSize():
-'''public Integer getMetricQueueSize()
-'''
-pass
+    '''    public Integer getMetricQueueSize()
+    '''
 def setMetricQueueSize():
-'''public void setMetricQueueSize(final Integer metricQueueSize)
-'''
-pass
+    '''    public void setMetricQueueSize(final Integer metricQueueSize)
+    '''
 def getQueuePollTimeoutMilli():
-'''public Integer getQueuePollTimeoutMilli()
-'''
-pass
+    '''    public Integer getQueuePollTimeoutMilli()
+    '''
 def setQueuePollTimeoutMilli():
-'''public void setQueuePollTimeoutMilli(final Integer timeoutMilli)
-'''
-pass
+    '''    public void setQueuePollTimeoutMilli(final Integer timeoutMilli)
+    '''
 def getMetricNameSpace():
-'''public String getMetricNameSpace()
-'''
-pass
+    '''    public String getMetricNameSpace()
+    '''
 def setMetricNameSpace():
-'''public void setMetricNameSpace(final String metricNameSpace)
-'''
-pass
+    '''    public void setMetricNameSpace(final String metricNameSpace)
+    '''
 def isPerHostMetricsIncluded():
-'''public boolean isPerHostMetricsIncluded()
-'''
-pass
+    '''    public boolean isPerHostMetricsIncluded()
+    '''
 def setPerHostMetricsIncluded():
-'''public void setPerHostMetricsIncluded(final boolean includePerHostMetrics)
-'''
-pass
+    '''    public void setPerHostMetricsIncluded(final boolean includePerHostMetrics)
+    '''
 def getJvmMetricName():
-'''public String getJvmMetricName()
-'''
-pass
+    '''    public String getJvmMetricName()
+    '''
 def setJvmMetricName():
-'''public void setJvmMetricName(final String jvmMetricName)
-'''
-pass
+    '''    public void setJvmMetricName(final String jvmMetricName)
+    '''
 def getHostMetricName():
-'''public String getHostMetricName()
-'''
-pass
+    '''    public String getHostMetricName()
+    '''
 def setHostMetricName():
-'''public void setHostMetricName(final String hostMetricName)
-'''
-pass
+    '''    public void setHostMetricName(final String hostMetricName)
+    '''
 def getCredentialFile():
-'''public String getCredentialFile()
-'''
-pass
+    '''    public String getCredentialFile()
+    '''
 def setCredentialFile():
-'''public void setCredentialFile(final String filepath)
-'''
-pass
+    '''    public void setCredentialFile(final String filepath)
+    '''
 def isSingleMetricNamespace():
-'''public boolean isSingleMetricNamespace()
-'''
-pass
+    '''    public boolean isSingleMetricNamespace()
+    '''
 def setSingleMetricNamespace():
-'''public void setSingleMetricNamespace(final boolean singleMetricNamespace)
-'''
-pass
+    '''    public void setSingleMetricNamespace(final boolean singleMetricNamespace)
+    '''

@@ -1,4 +1,3 @@
 def MaxLicUserAscSet():
-'''public MaxLicUserAscSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxLicUserAscSet(final MboServerInterface ms)
+    '''

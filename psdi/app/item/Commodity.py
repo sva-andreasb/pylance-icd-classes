@@ -1,44 +1,33 @@
 def Commodity():
-'''public Commodity(final MboSet ms)
-'''
-pass
+    '''    public Commodity(final MboSet ms)
+    '''
 def isServiceCommodity():
-'''public boolean isServiceCommodity()
-'''
-pass
+    '''    public boolean isServiceCommodity()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long access)
-'''
-pass
+    '''    public void delete(final long access)
+    '''
 def isCommodityCode():
-'''public boolean isCommodityCode()
-'''
-pass
+    '''    public boolean isCommodityCode()
+    '''
 def saveMultiList():
-'''public void saveMultiList(final MboSetRemote msr, final String company, final String parent)
-'''
-pass
+    '''    public void saveMultiList(final MboSetRemote msr, final String company, final String parent)
+    '''
 def addServiceCommodityChildren():
-'''public void addServiceCommodityChildren(final MboSetRemote commodities, final String parentcommodity)
-'''
-pass
+    '''    public void addServiceCommodityChildren(final MboSetRemote commodities, final String parentcommodity)
+    '''
 def associateAssetsToCommodity():
-'''public void associateAssetsToCommodity(final MboSetRemote assets)
-'''
-pass
+    '''    public void associateAssetsToCommodity(final MboSetRemote assets)
+    '''
 def associateLocationsToCommodity():
-'''public void associateLocationsToCommodity(final MboSetRemote locations)
-'''
-pass
+    '''    public void associateLocationsToCommodity(final MboSetRemote locations)
+    '''

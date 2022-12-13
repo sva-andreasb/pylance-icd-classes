@@ -1,12 +1,9 @@
 def ItemProvider():
-'''public ItemProvider()
-'''
-pass
+    '''    public ItemProvider()
+    '''
 def create():
-'''public static synchronized ItemProvider create(final String lineSeparator)
-'''
-pass
+    '''    public static synchronized ItemProvider create(final String lineSeparator)
+    '''
 def generate():
-'''public String generate(final Object argument)
-'''
-pass
+    '''    public String generate(final Object argument)
+    '''

@@ -1,8 +1,6 @@
 def LikeThisQueryBuilder():
-'''public LikeThisQueryBuilder(final Analyzer analyzer, final String[] defaultFieldNames)
-'''
-pass
+    '''    public LikeThisQueryBuilder(final Analyzer analyzer, final String[] defaultFieldNames)
+    '''
 def getQuery():
-'''public Query getQuery(final Element e)
-'''
-pass
+    '''    public Query getQuery(final Element e)
+    '''

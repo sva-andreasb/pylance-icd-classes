@@ -1,5 +1,4 @@
 def InvalidFetchSessionEpochException():
-'''public InvalidFetchSessionEpochException()
-public InvalidFetchSessionEpochException(final String message)
-'''
-pass
+    '''    public InvalidFetchSessionEpochException()
+    public InvalidFetchSessionEpochException(final String message)
+    '''

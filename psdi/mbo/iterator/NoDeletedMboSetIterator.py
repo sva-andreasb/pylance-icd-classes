@@ -1,16 +1,12 @@
 def NoDeletedMboSetIterator():
-'''public NoDeletedMboSetIterator(final MboSetIterator iter)
-'''
-pass
+    '''    public NoDeletedMboSetIterator(final MboSetIterator iter)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public MboRemote next()
-'''
-pass
+    '''    public MboRemote next()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

@@ -1,4 +1,3 @@
 def CISpecSet():
-'''public CISpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CISpecSet(final MboServerInterface ms)
+    '''

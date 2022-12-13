@@ -1,16 +1,12 @@
 def PlusPFldWOLoc():
-'''public PlusPFldWOLoc(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldWOLoc(final MboValue arg0)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

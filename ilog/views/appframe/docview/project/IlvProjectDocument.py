@@ -1,29 +1,22 @@
 def getURL():
-'''public URL getURL()
-'''
-pass
+    '''    public URL getURL()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''
 def canOpenDocument():
-'''public boolean canOpenDocument(final Object o)
-'''
-pass
+    '''    public boolean canOpenDocument(final Object o)
+    '''
 def ProjectPropertyListener():
-'''public ProjectPropertyListener(final IlvDataContainer b)
-'''
-pass
+    '''    public ProjectPropertyListener(final IlvDataContainer b)
+    '''
 def addProjectNode():
-'''public void addProjectNode(final Object o)
-'''
-pass
+    '''    public void addProjectNode(final Object o)
+    '''
 def removeProjectNode():
-'''public boolean removeProjectNode(final Object o)
-'''
-pass
+    '''    public boolean removeProjectNode(final Object o)
+    '''

@@ -1,52 +1,39 @@
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def setKey():
-'''public void setKey(final String key)
-'''
-pass
+    '''    public void setKey(final String key)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setClassName():
-'''public void setClassName(final String className)
-'''
-pass
+    '''    public void setClassName(final String className)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isPrintable():
-'''public boolean isPrintable()
-'''
-pass
+    '''    public boolean isPrintable()
+    '''
 def setPrintable():
-'''public void setPrintable(final boolean printable)
-'''
-pass
+    '''    public void setPrintable(final boolean printable)
+    '''
 def isDefer():
-'''public boolean isDefer()
-'''
-pass
+    '''    public boolean isDefer()
+    '''
 def setDefer():
-'''public void setDefer(final boolean defer)
-'''
-pass
+    '''    public void setDefer(final boolean defer)
+    '''
 def getCategory():
-'''public String getCategory()
-'''
-pass
+    '''    public String getCategory()
+    '''
 def setCategory():
-'''public void setCategory(final String category)
-'''
-pass
+    '''    public void setCategory(final String category)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,25 +1,19 @@
 def FileCacheSeekableStream():
-'''public FileCacheSeekableStream(final InputStream stream)
-'''
-pass
+    '''    public FileCacheSeekableStream(final InputStream stream)
+    '''
 def canSeekBackwards():
-'''public boolean canSeekBackwards()
-'''
-pass
+    '''    public boolean canSeekBackwards()
+    '''
 def getFilePointer():
-'''public long getFilePointer()
-'''
-pass
+    '''    public long getFilePointer()
+    '''
 def seek():
-'''public void seek(final long pos)
-'''
-pass
+    '''    public void seek(final long pos)
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, int len)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, int len)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

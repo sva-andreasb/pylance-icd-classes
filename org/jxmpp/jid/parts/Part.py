@@ -1,28 +1,21 @@
 def length():
-'''public final int length()
-'''
-pass
+    '''    public final int length()
+    '''
 def charAt():
-'''public final char charAt(final int index)
-'''
-pass
+    '''    public final char charAt(final int index)
+    '''
 def subSequence():
-'''public final CharSequence subSequence(final int start, final int end)
-'''
-pass
+    '''    public final CharSequence subSequence(final int start, final int end)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def equals():
-'''public final boolean equals(final Object other)
-'''
-pass
+    '''    public final boolean equals(final Object other)
+    '''
 def hashCode():
-'''public final int hashCode()
-'''
-pass
+    '''    public final int hashCode()
+    '''
 def intern():
-'''public final String intern()
-'''
-pass
+    '''    public final String intern()
+    '''

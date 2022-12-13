@@ -1,9 +1,7 @@
 def InvalidArgument():
-'''public InvalidArgument(final String s)
-public InvalidArgument()
-'''
-pass
+    '''    public InvalidArgument(final String s)
+    public InvalidArgument()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

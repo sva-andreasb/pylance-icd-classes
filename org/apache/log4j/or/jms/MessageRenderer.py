@@ -1,4 +1,3 @@
 def doRender():
-'''public String doRender(final Object obj)
-'''
-pass
+    '''    public String doRender(final Object obj)
+    '''

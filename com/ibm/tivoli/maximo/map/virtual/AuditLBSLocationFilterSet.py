@@ -1,4 +1,3 @@
 def AuditLBSLocationFilterSet():
-'''public AuditLBSLocationFilterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AuditLBSLocationFilterSet(final MboServerInterface ms)
+    '''

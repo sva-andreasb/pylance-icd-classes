@@ -1,4 +1,3 @@
 def SolnSurvey():
-'''public SolnSurvey(final MboSet ms)
-'''
-pass
+    '''    public SolnSurvey(final MboSet ms)
+    '''

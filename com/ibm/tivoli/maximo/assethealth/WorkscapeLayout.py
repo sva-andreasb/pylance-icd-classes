@@ -1,8 +1,6 @@
 def WorkscapeLayout():
-'''public WorkscapeLayout(final MboSet ms)
-'''
-pass
+    '''    public WorkscapeLayout(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

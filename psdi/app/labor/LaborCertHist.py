@@ -1,16 +1,12 @@
 def LaborCertHist():
-'''public LaborCertHist(final MboSet ms)
-'''
-pass
+    '''    public LaborCertHist(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def copyToLaborQual():
-'''public void copyToLaborQual()
-'''
-pass
+    '''    public void copyToLaborQual()
+    '''

@@ -1,20 +1,15 @@
 def getContextPath():
-'''public static String getContextPath()
-'''
-pass
+    '''    public static String getContextPath()
+    '''
 def setContextPath():
-'''public static void setContextPath(final String contextPat)
-'''
-pass
+    '''    public static void setContextPath(final String contextPat)
+    '''
 def getQuestionNumber():
-'''public static int getQuestionNumber()
-'''
-pass
+    '''    public static int getQuestionNumber()
+    '''
 def setQuestionNumber():
-'''public static void setQuestionNumber(final int questionNumber)
-'''
-pass
+    '''    public static void setQuestionNumber(final int questionNumber)
+    '''
 def removeHTML():
-'''public static String removeHTML(String value)
-'''
-pass
+    '''    public static String removeHTML(String value)
+    '''

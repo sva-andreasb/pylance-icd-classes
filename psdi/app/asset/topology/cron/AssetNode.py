@@ -1,36 +1,27 @@
 def getAssetNum():
-'''public String getAssetNum()
-'''
-pass
+    '''    public String getAssetNum()
+    '''
 def setAssetNum():
-'''public void setAssetNum(final String assetNum)
-'''
-pass
+    '''    public void setAssetNum(final String assetNum)
+    '''
 def isVisited():
-'''public boolean isVisited()
-'''
-pass
+    '''    public boolean isVisited()
+    '''
 def setVisited():
-'''public void setVisited(final boolean visited)
-'''
-pass
+    '''    public void setVisited(final boolean visited)
+    '''
 def isShowInAssetTopo():
-'''public boolean isShowInAssetTopo()
-'''
-pass
+    '''    public boolean isShowInAssetTopo()
+    '''
 def setShowInAssetTopo():
-'''public void setShowInAssetTopo(final boolean showInAssetTopo)
-'''
-pass
+    '''    public void setShowInAssetTopo(final boolean showInAssetTopo)
+    '''
 def getNodeDepth():
-'''public int getNodeDepth()
-'''
-pass
+    '''    public int getNodeDepth()
+    '''
 def setNodeDepth():
-'''public void setNodeDepth(final int nodeDepth)
-'''
-pass
+    '''    public void setNodeDepth(final int nodeDepth)
+    '''
 def AssetNode():
-'''public AssetNode(final String assetNum, final boolean showInAssetTopo)
-'''
-pass
+    '''    public AssetNode(final String assetNum, final boolean showInAssetTopo)
+    '''

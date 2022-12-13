@@ -1,8 +1,6 @@
 def FldMaxLogger():
-'''public FldMaxLogger(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxLogger(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

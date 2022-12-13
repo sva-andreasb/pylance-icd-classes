@@ -1,12 +1,9 @@
 def InMemoryDnsResolver():
-'''public InMemoryDnsResolver()
-'''
-pass
+    '''    public InMemoryDnsResolver()
+    '''
 def add():
-'''public void add(final String host, final InetAddress... ips)
-'''
-pass
+    '''    public void add(final String host, final InetAddress... ips)
+    '''
 def resolve():
-'''public InetAddress[] resolve(final String host)
-'''
-pass
+    '''    public InetAddress[] resolve(final String host)
+    '''

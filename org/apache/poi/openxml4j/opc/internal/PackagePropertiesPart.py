@@ -1,166 +1,126 @@
-NAMESPACE_DC_URI = "String  http://purl.org/dc/elements/1.1/""
-NAMESPACE_CP_URI = "String  http://schemas.openxmlformats.org/package/2006/metadata/core-properties""
-NAMESPACE_DCTERMS_URI = "String  http://purl.org/dc/terms/""
+NAMESPACE_DC_URI = "String  \"http://purl.org/dc/elements/1.1/\""
+NAMESPACE_CP_URI = "String  \"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\""
+NAMESPACE_DCTERMS_URI = "String  \"http://purl.org/dc/terms/\""
 def PackagePropertiesPart():
-'''public PackagePropertiesPart(final OPCPackage pack, final PackagePartName partName)
-'''
-pass
+    '''    public PackagePropertiesPart(final OPCPackage pack, final PackagePartName partName)
+    '''
 def getCategoryProperty():
-'''public Nullable<String> getCategoryProperty()
-'''
-pass
+    '''    public Nullable<String> getCategoryProperty()
+    '''
 def getContentStatusProperty():
-'''public Nullable<String> getContentStatusProperty()
-'''
-pass
+    '''    public Nullable<String> getContentStatusProperty()
+    '''
 def getContentTypeProperty():
-'''public Nullable<String> getContentTypeProperty()
-'''
-pass
+    '''    public Nullable<String> getContentTypeProperty()
+    '''
 def getCreatedProperty():
-'''public Nullable<Date> getCreatedProperty()
-'''
-pass
+    '''    public Nullable<Date> getCreatedProperty()
+    '''
 def getCreatedPropertyString():
-'''public String getCreatedPropertyString()
-'''
-pass
+    '''    public String getCreatedPropertyString()
+    '''
 def getCreatorProperty():
-'''public Nullable<String> getCreatorProperty()
-'''
-pass
+    '''    public Nullable<String> getCreatorProperty()
+    '''
 def getDescriptionProperty():
-'''public Nullable<String> getDescriptionProperty()
-'''
-pass
+    '''    public Nullable<String> getDescriptionProperty()
+    '''
 def getIdentifierProperty():
-'''public Nullable<String> getIdentifierProperty()
-'''
-pass
+    '''    public Nullable<String> getIdentifierProperty()
+    '''
 def getKeywordsProperty():
-'''public Nullable<String> getKeywordsProperty()
-'''
-pass
+    '''    public Nullable<String> getKeywordsProperty()
+    '''
 def getLanguageProperty():
-'''public Nullable<String> getLanguageProperty()
-'''
-pass
+    '''    public Nullable<String> getLanguageProperty()
+    '''
 def getLastModifiedByProperty():
-'''public Nullable<String> getLastModifiedByProperty()
-'''
-pass
+    '''    public Nullable<String> getLastModifiedByProperty()
+    '''
 def getLastPrintedProperty():
-'''public Nullable<Date> getLastPrintedProperty()
-'''
-pass
+    '''    public Nullable<Date> getLastPrintedProperty()
+    '''
 def getLastPrintedPropertyString():
-'''public String getLastPrintedPropertyString()
-'''
-pass
+    '''    public String getLastPrintedPropertyString()
+    '''
 def getModifiedProperty():
-'''public Nullable<Date> getModifiedProperty()
-'''
-pass
+    '''    public Nullable<Date> getModifiedProperty()
+    '''
 def getModifiedPropertyString():
-'''public String getModifiedPropertyString()
-'''
-pass
+    '''    public String getModifiedPropertyString()
+    '''
 def getRevisionProperty():
-'''public Nullable<String> getRevisionProperty()
-'''
-pass
+    '''    public Nullable<String> getRevisionProperty()
+    '''
 def getSubjectProperty():
-'''public Nullable<String> getSubjectProperty()
-'''
-pass
+    '''    public Nullable<String> getSubjectProperty()
+    '''
 def getTitleProperty():
-'''public Nullable<String> getTitleProperty()
-'''
-pass
+    '''    public Nullable<String> getTitleProperty()
+    '''
 def getVersionProperty():
-'''public Nullable<String> getVersionProperty()
-'''
-pass
+    '''    public Nullable<String> getVersionProperty()
+    '''
 def setCategoryProperty():
-'''public void setCategoryProperty(final String category)
-'''
-pass
+    '''    public void setCategoryProperty(final String category)
+    '''
 def setContentStatusProperty():
-'''public void setContentStatusProperty(final String contentStatus)
-'''
-pass
+    '''    public void setContentStatusProperty(final String contentStatus)
+    '''
 def setContentTypeProperty():
-'''public void setContentTypeProperty(final String contentType)
-'''
-pass
+    '''    public void setContentTypeProperty(final String contentType)
+    '''
 def setCreatedProperty():
-'''public void setCreatedProperty(final String created)
-public void setCreatedProperty(final Nullable<Date> created)
-'''
-pass
+    '''    public void setCreatedProperty(final String created)
+    public void setCreatedProperty(final Nullable<Date> created)
+    '''
 def setCreatorProperty():
-'''public void setCreatorProperty(final String creator)
-'''
-pass
+    '''    public void setCreatorProperty(final String creator)
+    '''
 def setDescriptionProperty():
-'''public void setDescriptionProperty(final String description)
-'''
-pass
+    '''    public void setDescriptionProperty(final String description)
+    '''
 def setIdentifierProperty():
-'''public void setIdentifierProperty(final String identifier)
-'''
-pass
+    '''    public void setIdentifierProperty(final String identifier)
+    '''
 def setKeywordsProperty():
-'''public void setKeywordsProperty(final String keywords)
-'''
-pass
+    '''    public void setKeywordsProperty(final String keywords)
+    '''
 def setLanguageProperty():
-'''public void setLanguageProperty(final String language)
-'''
-pass
+    '''    public void setLanguageProperty(final String language)
+    '''
 def setLastModifiedByProperty():
-'''public void setLastModifiedByProperty(final String lastModifiedBy)
-'''
-pass
+    '''    public void setLastModifiedByProperty(final String lastModifiedBy)
+    '''
 def setLastPrintedProperty():
-'''public void setLastPrintedProperty(final String lastPrinted)
-public void setLastPrintedProperty(final Nullable<Date> lastPrinted)
-'''
-pass
+    '''    public void setLastPrintedProperty(final String lastPrinted)
+    public void setLastPrintedProperty(final Nullable<Date> lastPrinted)
+    '''
 def setModifiedProperty():
-'''public void setModifiedProperty(final String modified)
-public void setModifiedProperty(final Nullable<Date> modified)
-'''
-pass
+    '''    public void setModifiedProperty(final String modified)
+    public void setModifiedProperty(final Nullable<Date> modified)
+    '''
 def setRevisionProperty():
-'''public void setRevisionProperty(final String revision)
-'''
-pass
+    '''    public void setRevisionProperty(final String revision)
+    '''
 def setSubjectProperty():
-'''public void setSubjectProperty(final String subject)
-'''
-pass
+    '''    public void setSubjectProperty(final String subject)
+    '''
 def setTitleProperty():
-'''public void setTitleProperty(final String title)
-'''
-pass
+    '''    public void setTitleProperty(final String title)
+    '''
 def setVersionProperty():
-'''public void setVersionProperty(final String version)
-'''
-pass
+    '''    public void setVersionProperty(final String version)
+    '''
 def save():
-'''public boolean save(final OutputStream zos)
-'''
-pass
+    '''    public boolean save(final OutputStream zos)
+    '''
 def load():
-'''public boolean load(final InputStream ios)
-'''
-pass
+    '''    public boolean load(final InputStream ios)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''

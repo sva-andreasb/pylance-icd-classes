@@ -1,8 +1,6 @@
 def FldAssignedTo():
-'''public FldAssignedTo(final MboValue mbv)
-'''
-pass
+    '''    public FldAssignedTo(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

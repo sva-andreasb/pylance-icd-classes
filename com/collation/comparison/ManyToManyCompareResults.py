@@ -1,28 +1,21 @@
 def ManyToManyCompareResults():
-'''public ManyToManyCompareResults()
-'''
-pass
+    '''    public ManyToManyCompareResults()
+    '''
 def addNestedResultsLeft():
-'''public void addNestedResultsLeft(final CompareResults r)
-'''
-pass
+    '''    public void addNestedResultsLeft(final CompareResults r)
+    '''
 def addNestedResultsRight():
-'''public void addNestedResultsRight(final CompareResults r)
-'''
-pass
+    '''    public void addNestedResultsRight(final CompareResults r)
+    '''
 def getNestedResultsLeft():
-'''public CompareResults[] getNestedResultsLeft()
-'''
-pass
+    '''    public CompareResults[] getNestedResultsLeft()
+    '''
 def getNestedResultsRight():
-'''public CompareResults[] getNestedResultsRight()
-'''
-pass
+    '''    public CompareResults[] getNestedResultsRight()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def dump():
-'''public void dump(final int indent)
-'''
-pass
+    '''    public void dump(final int indent)
+    '''

@@ -1,8 +1,6 @@
 def getOption():
-'''public String getOption()
-'''
-pass
+    '''    public String getOption()
+    '''
 def setOption():
-'''public void setOption(final String value)
-'''
-pass
+    '''    public void setOption(final String value)
+    '''

@@ -1,163 +1,126 @@
 def NodeCallbackWrapper():
-'''public NodeCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-public NodeCallbackWrapper(final IloEnv env)
-'''
-pass
+    '''    public NodeCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
+    public NodeCallbackWrapper(final IloEnv env)
+    '''
 def getCPtr():
-'''public static long getCPtr(final NodeCallbackWrapper obj)
-'''
-pass
+    '''    public static long getCPtr(final NodeCallbackWrapper obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def main_cpp():
-'''public void main_cpp()
-'''
-pass
+    '''    public void main_cpp()
+    '''
 def duplicateCallback():
-'''public IloCplex__CallbackI duplicateCallback()
-'''
-pass
+    '''    public IloCplex__CallbackI duplicateCallback()
+    '''
 def callbackImpl():
-'''public void callbackImpl()
-'''
-pass
+    '''    public void callbackImpl()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getEnv():
-'''public IloEnv getEnv()
-'''
-pass
+    '''    public IloEnv getEnv()
+    '''
 def getModel():
-'''public IloModel getModel()
-'''
-pass
+    '''    public IloModel getModel()
+    '''
 def getNcols():
-'''public int getNcols()
-'''
-pass
+    '''    public int getNcols()
+    '''
 def getNrows():
-'''public int getNrows()
-'''
-pass
+    '''    public int getNrows()
+    '''
 def getNQCs():
-'''public int getNQCs()
-'''
-pass
+    '''    public int getNQCs()
+    '''
 def getBestObjValue():
-'''public double getBestObjValue()
-'''
-pass
+    '''    public double getBestObjValue()
+    '''
 def getIncumbentObjValue():
-'''public double getIncumbentObjValue()
-'''
-pass
+    '''    public double getIncumbentObjValue()
+    '''
 def getIncumbentValue():
-'''public double getIncumbentValue(final IloNumVar var)
-public double getIncumbentValue(final IloIntVar var)
-public double getIncumbentValue(final IloNumExprArg ex)
-'''
-pass
+    '''    public double getIncumbentValue(final IloNumVar var)
+    public double getIncumbentValue(final IloIntVar var)
+    public double getIncumbentValue(final IloNumExprArg ex)
+    '''
 def getIncumbentValues():
-'''public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
-public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
+    public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getMyThreadNum():
-'''public int getMyThreadNum()
-'''
-pass
+    '''    public int getMyThreadNum()
+    '''
 def hasIncumbent():
-'''public boolean hasIncumbent()
-'''
-pass
+    '''    public boolean hasIncumbent()
+    '''
 def getNnodes():
-'''public int getNnodes()
-'''
-pass
+    '''    public int getNnodes()
+    '''
 def getNremainingNodes():
-'''public int getNremainingNodes()
-'''
-pass
+    '''    public int getNremainingNodes()
+    '''
 def getNiterations():
-'''public int getNiterations()
-'''
-pass
+    '''    public int getNiterations()
+    '''
 def getCutoff():
-'''public double getCutoff()
-'''
-pass
+    '''    public double getCutoff()
+    '''
 def getPriority():
-'''public double getPriority(final IloNumVar sos)
-public double getPriority(final IloIntVar sos)
-'''
-pass
+    '''    public double getPriority(final IloNumVar sos)
+    public double getPriority(final IloIntVar sos)
+    '''
 def getUserThreads():
-'''public int getUserThreads()
-'''
-pass
+    '''    public int getUserThreads()
+    '''
 def getObjCoef():
-'''public double getObjCoef(final IloNumVar var)
-public double getObjCoef(final IloIntVar var)
-'''
-pass
+    '''    public double getObjCoef(final IloNumVar var)
+    public double getObjCoef(final IloIntVar var)
+    '''
 def getObjCoefs():
-'''public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
-public void getObjCoefs(final IloNumArray val, final IloIntVarArray vars)
-'''
-pass
+    '''    public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
+    public void getObjCoefs(final IloNumArray val, final IloIntVarArray vars)
+    '''
 def getNodeId():
-'''public NodeId getNodeId(final long node)
-'''
-pass
+    '''    public NodeId getNodeId(final long node)
+    '''
 def getObjValue():
-'''public double getObjValue(final long node)
-public double getObjValue(final NodeId nodeid)
-'''
-pass
+    '''    public double getObjValue(final long node)
+    public double getObjValue(final NodeId nodeid)
+    '''
 def getEstimatedObjValue():
-'''public double getEstimatedObjValue(final long node)
-public double getEstimatedObjValue(final NodeId nodeid)
-'''
-pass
+    '''    public double getEstimatedObjValue(final long node)
+    public double getEstimatedObjValue(final NodeId nodeid)
+    '''
 def getDepth():
-'''public int getDepth(final long node)
-public int getDepth(final NodeId nodeid)
-'''
-pass
+    '''    public int getDepth(final long node)
+    public int getDepth(final NodeId nodeid)
+    '''
 def getInfeasibilitySum():
-'''public double getInfeasibilitySum(final long node)
-public double getInfeasibilitySum(final NodeId nodeid)
-'''
-pass
+    '''    public double getInfeasibilitySum(final long node)
+    public double getInfeasibilitySum(final NodeId nodeid)
+    '''
 def getNinfeasibilities():
-'''public int getNinfeasibilities(final long node)
-public int getNinfeasibilities(final NodeId nodeid)
-'''
-pass
+    '''    public int getNinfeasibilities(final long node)
+    public int getNinfeasibilities(final NodeId nodeid)
+    '''
 def getNodeData():
-'''public SWIGTYPE_p_NodeData getNodeData(final long node)
-public SWIGTYPE_p_NodeData getNodeData(final NodeId nodeid)
-'''
-pass
+    '''    public SWIGTYPE_p_NodeData getNodeData(final long node)
+    public SWIGTYPE_p_NodeData getNodeData(final NodeId nodeid)
+    '''
 def selectNode():
-'''public void selectNode(final long node)
-public void selectNode(final NodeId nodeid)
-'''
-pass
+    '''    public void selectNode(final long node)
+    public void selectNode(final NodeId nodeid)
+    '''
 def getBranchVar():
-'''public IloNumVar getBranchVar(final long node)
-public IloNumVar getBranchVar(final NodeId nodeid)
-'''
-pass
+    '''    public IloNumVar getBranchVar(final long node)
+    public IloNumVar getBranchVar(final NodeId nodeid)
+    '''
 def getNodeNumber64():
-'''public long getNodeNumber64(final NodeId nodeid)
-'''
-pass
+    '''    public long getNodeNumber64(final NodeId nodeid)
+    '''
 def setNodeData():
-'''public SWIGTYPE_p_NodeData setNodeData(final long node, final SWIGTYPE_p_NodeData data)
-'''
-pass
+    '''    public SWIGTYPE_p_NodeData setNodeData(final long node, final SWIGTYPE_p_NodeData data)
+    '''

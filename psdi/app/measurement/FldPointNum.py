@@ -1,4 +1,3 @@
 def FldPointNum():
-'''public FldPointNum(final MboValue mbv)
-'''
-pass
+    '''    public FldPointNum(final MboValue mbv)
+    '''

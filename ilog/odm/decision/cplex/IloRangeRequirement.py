@@ -1,41 +1,31 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def getRange():
-'''public IloRange getRange()
-'''
-pass
+    '''    public IloRange getRange()
+    '''
 def addRangeInList():
-'''public void addRangeInList(final ArrayList<IloRange> list)
-'''
-pass
+    '''    public void addRangeInList(final ArrayList<IloRange> list)
+    '''
 def postToCplex():
-'''public void postToCplex(final IloCplexController ctl, final boolean propagate)
-'''
-pass
+    '''    public void postToCplex(final IloCplexController ctl, final boolean propagate)
+    '''
 def removeFromCplex():
-'''public void removeFromCplex(final IloCplexController ctl, final boolean propagate)
-'''
-pass
+    '''    public void removeFromCplex(final IloCplexController ctl, final boolean propagate)
+    '''
 def changeRangesPriority():
-'''public void changeRangesPriority(final IloCplexController ctl)
-'''
-pass
+    '''    public void changeRangesPriority(final IloCplexController ctl)
+    '''
 def onSetController():
-'''public void onSetController(final IloEngineController ctl)
-'''
-pass
+    '''    public void onSetController(final IloEngineController ctl)
+    '''
 def getChildCount():
-'''public int getChildCount()
-'''
-pass
+    '''    public int getChildCount()
+    '''
 def isComposite():
-'''public boolean isComposite()
-'''
-pass
+    '''    public boolean isComposite()
+    '''
 def isLeaf():
-'''public boolean isLeaf()
-'''
-pass
+    '''    public boolean isLeaf()
+    '''
 def getParent():
-'''public IloRequirementNode getParent()
-'''
-pass
+    '''    public IloRequirementNode getParent()
+    '''

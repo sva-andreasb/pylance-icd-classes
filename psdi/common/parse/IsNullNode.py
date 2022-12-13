@@ -1,8 +1,6 @@
 def IsNullNode():
-'''public IsNullNode(final String attribute)
-'''
-pass
+    '''    public IsNullNode(final String attribute)
+    '''
 def getBoolean():
-'''public boolean getBoolean(final MboRemote mbo)
-'''
-pass
+    '''    public boolean getBoolean(final MboRemote mbo)
+    '''

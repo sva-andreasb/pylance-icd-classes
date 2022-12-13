@@ -1,24 +1,18 @@
 def OneToOneCompareResults():
-'''public OneToOneCompareResults(final Object left, final Object right)
-'''
-pass
+    '''    public OneToOneCompareResults(final Object left, final Object right)
+    '''
 def addNestedResults():
-'''public void addNestedResults(final String name, final CompareResults value)
-'''
-pass
+    '''    public void addNestedResults(final String name, final CompareResults value)
+    '''
 def getNestedResults():
-'''public Map getNestedResults()
-'''
-pass
+    '''    public Map getNestedResults()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def dump():
-'''public void dump(final int indent)
-'''
-pass
+    '''    public void dump(final int indent)
+    '''
 def finalize():
-'''public void finalize()
-'''
-pass
+    '''    public void finalize()
+    '''

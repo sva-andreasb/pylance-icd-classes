@@ -45,66 +45,50 @@ PID_MAX = "int  31"
 PID_LOCALE = "int  Integer.MIN_VALUE"
 PID_BEHAVIOUR = "int  -2147483645"
 def getSummaryInformationProperties():
-'''public static synchronized PropertyIDMap getSummaryInformationProperties()
-'''
-pass
+    '''    public static synchronized PropertyIDMap getSummaryInformationProperties()
+    '''
 def getDocumentSummaryInformationProperties():
-'''public static synchronized PropertyIDMap getDocumentSummaryInformationProperties()
-'''
-pass
+    '''    public static synchronized PropertyIDMap getDocumentSummaryInformationProperties()
+    '''
 def getFallbackProperties():
-'''public static synchronized PropertyIDMap getFallbackProperties()
-'''
-pass
+    '''    public static synchronized PropertyIDMap getFallbackProperties()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def get():
-'''public String get(final Object key)
-'''
-pass
+    '''    public String get(final Object key)
+    '''
 def put():
-'''public String put(final Long key, final String value)
-'''
-pass
+    '''    public String put(final Long key, final String value)
+    '''
 def remove():
-'''public String remove(final Object key)
-'''
-pass
+    '''    public String remove(final Object key)
+    '''
 def putAll():
-'''public void putAll(final Map<? extends Long, ? extends String> m)
-'''
-pass
+    '''    public void putAll(final Map<? extends Long, ? extends String> m)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def keySet():
-'''public Set<Long> keySet()
-'''
-pass
+    '''    public Set<Long> keySet()
+    '''
 def values():
-'''public Collection<String> values()
-'''
-pass
+    '''    public Collection<String> values()
+    '''
 def entrySet():
-'''public Set<Entry<Long, String>> entrySet()
-'''
-pass
+    '''    public Set<Entry<Long, String>> entrySet()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

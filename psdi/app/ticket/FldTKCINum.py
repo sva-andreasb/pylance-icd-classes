@@ -1,16 +1,12 @@
 def FldTKCINum():
-'''public FldTKCINum(final MboValue mbv)
-'''
-pass
+    '''    public FldTKCINum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setAssetForCI():
-'''public void setAssetForCI()
-'''
-pass
+    '''    public void setAssetForCI()
+    '''

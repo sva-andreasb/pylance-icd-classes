@@ -1,27 +1,21 @@
-BOOTSTRAPSERVERS = "String  BOOTSTRAPSERVERS""
-TOPIC = "String  TOPIC""
+BOOTSTRAPSERVERS = "String  \"BOOTSTRAPSERVERS\""
+TOPIC = "String  \"TOPIC\""
 def KafkaHandler():
-'''public KafkaHandler(final MaxEndPointInfo endPointInfo)
-public KafkaHandler()
-'''
-pass
+    '''    public KafkaHandler(final MaxEndPointInfo endPointInfo)
+    public KafkaHandler()
+    '''
 def invoke():
-'''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
-'''
-pass
+    '''    public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''
 def getProperties():
-'''public List<RouterPropsInfo> getProperties()
-'''
-pass
+    '''    public List<RouterPropsInfo> getProperties()
+    '''
 def getTopic():
-'''public String getTopic()
-'''
-pass
+    '''    public String getTopic()
+    '''
 def getServersString():
-'''public String getServersString()
-'''
-pass
+    '''    public String getServersString()
+    '''
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''

@@ -1,8 +1,6 @@
 def accept():
-'''public final boolean accept(final Stanza stanza)
-'''
-pass
+    '''    public final boolean accept(final Stanza stanza)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''

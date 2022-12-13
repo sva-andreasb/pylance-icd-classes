@@ -1,36 +1,27 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def SmackIntegrationTestFramework():
-'''public SmackIntegrationTestFramework(final Configuration configuration)
-'''
-pass
+    '''    public SmackIntegrationTestFramework(final Configuration configuration)
+    '''
 def run():
-'''public synchronized TestRunResult run()
-'''
-pass
+    '''    public synchronized TestRunResult run()
+    '''
 def getTestRunId():
-'''public String getTestRunId()
-'''
-pass
+    '''    public String getTestRunId()
+    '''
 def getNumberOfAvailableTests():
-'''public int getNumberOfAvailableTests()
-'''
-pass
+    '''    public int getNumberOfAvailableTests()
+    '''
 def getNumberOfPossibleTests():
-'''public int getNumberOfPossibleTests()
-'''
-pass
+    '''    public int getNumberOfPossibleTests()
+    '''
 def getSuccessfulTests():
-'''public List<SuccessfulTest> getSuccessfulTests()
-'''
-pass
+    '''    public List<SuccessfulTest> getSuccessfulTests()
+    '''
 def getFailedTests():
-'''public List<FailedTest> getFailedTests()
-'''
-pass
+    '''    public List<FailedTest> getFailedTests()
+    '''
 def getNotPossibleTests():
-'''public List<TestNotPossible> getNotPossibleTests()
-'''
-pass
+    '''    public List<TestNotPossible> getNotPossibleTests()
+    '''

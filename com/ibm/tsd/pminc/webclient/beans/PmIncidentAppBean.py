@@ -1,84 +1,63 @@
 def PmIncidentAppBean():
-'''public PmIncidentAppBean()
-'''
-pass
+    '''    public PmIncidentAppBean()
+    '''
 def CREATESOL():
-'''public int CREATESOL()
-'''
-pass
+    '''    public int CREATESOL()
+    '''
 def PMINCCRWF():
-'''public int PMINCCRWF()
-'''
-pass
+    '''    public int PMINCCRWF()
+    '''
 def PMSCINCWF():
-'''public int PMSCINCWF()
-'''
-pass
+    '''    public int PMSCINCWF()
+    '''
 def ticketmeterread():
-'''public int ticketmeterread()
-'''
-pass
+    '''    public int ticketmeterread()
+    '''
 def ticketrepdown():
-'''public int ticketrepdown()
-'''
-pass
+    '''    public int ticketrepdown()
+    '''
 def checkpmp():
-'''public int checkpmp()
-'''
-pass
+    '''    public int checkpmp()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def VIEWRPH():
-'''public int VIEWRPH()
-'''
-pass
+    '''    public int VIEWRPH()
+    '''
 def jsplaunch():
-'''public int jsplaunch()
-'''
-pass
+    '''    public int jsplaunch()
+    '''
 def RDLAUNCH():
-'''public int RDLAUNCH()
-'''
-pass
+    '''    public int RDLAUNCH()
+    '''
 def pmClearClassification():
-'''public int pmClearClassification()
-'''
-pass
+    '''    public int pmClearClassification()
+    '''
 def PMINCSHWTOPO():
-'''public int PMINCSHWTOPO()
-'''
-pass
+    '''    public int PMINCSHWTOPO()
+    '''
 def INSERT():
-'''public int INSERT()
-'''
-pass
+    '''    public int INSERT()
+    '''
 def cancelSimpleIncident():
-'''public int cancelSimpleIncident()
-'''
-pass
+    '''    public int cancelSimpleIncident()
+    '''
 def saveSimpleIncident():
-'''public int saveSimpleIncident()
-'''
-pass
+    '''    public int saveSimpleIncident()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def VIEWAUTOLOGS():
-'''public int VIEWAUTOLOGS()
-'''
-pass
+    '''    public int VIEWAUTOLOGS()
+    '''
 def checkSyncAndRefreshClassification():
-'''public void checkSyncAndRefreshClassification(final MboRemote incidentMbo, final String changedAttribute, final String updateAttribute, final boolean toSync, final boolean toRefresh)
-'''
-pass
+    '''    public void checkSyncAndRefreshClassification(final MboRemote incidentMbo, final String changedAttribute, final String updateAttribute, final boolean toSync, final boolean toRefresh)
+    '''
 def getExtendedToolTip():
-'''public JSONObject getExtendedToolTip(final JSONObject definition)
-'''
-pass
+    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''

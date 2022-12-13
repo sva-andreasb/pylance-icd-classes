@@ -1,4 +1,3 @@
 def PlusCServerWODsDelegate():
-'''public PlusCServerWODsDelegate(final MboAdapter mbo)
-'''
-pass
+    '''    public PlusCServerWODsDelegate(final MboAdapter mbo)
+    '''

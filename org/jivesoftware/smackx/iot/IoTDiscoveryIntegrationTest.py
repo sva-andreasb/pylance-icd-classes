@@ -1,12 +1,9 @@
 def IoTDiscoveryIntegrationTest():
-'''public IoTDiscoveryIntegrationTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public IoTDiscoveryIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def registerClaimAndUnregisterThing():
-'''public void registerClaimAndUnregisterThing()
-'''
-pass
+    '''    public void registerClaimAndUnregisterThing()
+    '''
 def registerThing():
-'''public static ThingState registerThing(final IoTDiscoveryManager iotDiscoveryManager, final Thing thing)
-'''
-pass
+    '''    public static ThingState registerThing(final IoTDiscoveryManager iotDiscoveryManager, final Thing thing)
+    '''

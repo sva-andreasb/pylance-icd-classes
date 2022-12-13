@@ -1,8 +1,6 @@
 def ItemChangeStatus():
-'''public ItemChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public ItemChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

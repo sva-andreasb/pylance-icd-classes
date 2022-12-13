@@ -1,4 +1,3 @@
 def handleUnparsableStanza():
-'''public void handleUnparsableStanza(final UnparseableStanza packetData)
-'''
-pass
+    '''    public void handleUnparsableStanza(final UnparseableStanza packetData)
+    '''

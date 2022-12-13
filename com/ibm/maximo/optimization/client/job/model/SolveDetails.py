@@ -1,32 +1,24 @@
 def getSequenceVars():
-'''public String getSequenceVars()
-'''
-pass
+    '''    public String getSequenceVars()
+    '''
 def setSequenceVars():
-'''public void setSequenceVars(final String sequenceVars)
-'''
-pass
+    '''    public void setSequenceVars(final String sequenceVars)
+    '''
 def getIntegerVars():
-'''public String getIntegerVars()
-'''
-pass
+    '''    public String getIntegerVars()
+    '''
 def setIntegerVars():
-'''public void setIntegerVars(final String integerVars)
-'''
-pass
+    '''    public void setIntegerVars(final String integerVars)
+    '''
 def getConstraints():
-'''public String getConstraints()
-'''
-pass
+    '''    public String getConstraints()
+    '''
 def setConstraints():
-'''public void setConstraints(final String constraints)
-'''
-pass
+    '''    public void setConstraints(final String constraints)
+    '''
 def getIntervalVals():
-'''public String getIntervalVals()
-'''
-pass
+    '''    public String getIntervalVals()
+    '''
 def setIntervalVals():
-'''public void setIntervalVals(final String intervalVals)
-'''
-pass
+    '''    public void setIntervalVals(final String intervalVals)
+    '''

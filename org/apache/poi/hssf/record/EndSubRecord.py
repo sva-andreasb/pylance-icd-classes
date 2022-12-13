@@ -1,26 +1,20 @@
 sid = "short  0"
 def EndSubRecord():
-'''public EndSubRecord()
-public EndSubRecord(final LittleEndianInput in, final int size)
-'''
-pass
+    '''    public EndSubRecord()
+    public EndSubRecord(final LittleEndianInput in, final int size)
+    '''
 def isTerminating():
-'''public boolean isTerminating()
-'''
-pass
+    '''    public boolean isTerminating()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public EndSubRecord clone()
-'''
-pass
+    '''    public EndSubRecord clone()
+    '''

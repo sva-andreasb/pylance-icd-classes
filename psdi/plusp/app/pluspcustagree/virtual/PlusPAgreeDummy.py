@@ -1,4 +1,3 @@
 def PlusPAgreeDummy():
-'''public PlusPAgreeDummy(final MboSet ms)
-'''
-pass
+    '''    public PlusPAgreeDummy(final MboSet ms)
+    '''

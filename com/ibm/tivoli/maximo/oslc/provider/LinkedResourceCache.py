@@ -1,12 +1,9 @@
 def getInstance():
-'''public static final LinkedResourceCache getInstance()
-'''
-pass
+    '''    public static final LinkedResourceCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getMatchingExpr():
-'''public String[] getMatchingExpr(final MboRemote parent, final String relation)
-'''
-pass
+    '''    public String[] getMatchingExpr(final MboRemote parent, final String relation)
+    '''

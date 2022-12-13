@@ -1,22 +1,17 @@
-CONTENT_TYPE = "String  text/xml""
+CONTENT_TYPE = "String  \"text/xml\""
 def SourceDataSource():
-'''public SourceDataSource(final String name, final StreamSource data)
-public SourceDataSource(final String name, final String contentType, final StreamSource data)
-'''
-pass
+    '''    public SourceDataSource(final String name, final StreamSource data)
+    public SourceDataSource(final String name, final String contentType, final StreamSource data)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''

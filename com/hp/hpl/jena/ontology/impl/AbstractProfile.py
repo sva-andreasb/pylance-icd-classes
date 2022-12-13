@@ -1,16 +1,12 @@
 def hasAliasFor():
-'''public boolean hasAliasFor(final Resource res)
-'''
-pass
+    '''    public boolean hasAliasFor(final Resource res)
+    '''
 def getAliasFor():
-'''public Resource getAliasFor(final Resource res)
-'''
-pass
+    '''    public Resource getAliasFor(final Resource res)
+    '''
 def listAliasesFor():
-'''public Iterator<Resource> listAliasesFor(final Resource res)
-'''
-pass
+    '''    public Iterator<Resource> listAliasesFor(final Resource res)
+    '''
 def containsSome():
-'''public static boolean containsSome(final EnhGraph g, final Node n, final Property p)
-'''
-pass
+    '''    public static boolean containsSome(final EnhGraph g, final Node n, final Property p)
+    '''

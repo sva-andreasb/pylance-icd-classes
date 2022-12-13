@@ -1,33 +1,25 @@
 def DefaultFTPFileEntryParserFactory():
-'''public DefaultFTPFileEntryParserFactory()
-'''
-pass
+    '''    public DefaultFTPFileEntryParserFactory()
+    '''
 def createFileEntryParser():
-'''public FTPFileEntryParser createFileEntryParser(final String key)
-public FTPFileEntryParser createFileEntryParser(final FTPClientConfig config)
-'''
-pass
+    '''    public FTPFileEntryParser createFileEntryParser(final String key)
+    public FTPFileEntryParser createFileEntryParser(final FTPClientConfig config)
+    '''
 def createUnixFTPEntryParser():
-'''public FTPFileEntryParser createUnixFTPEntryParser()
-'''
-pass
+    '''    public FTPFileEntryParser createUnixFTPEntryParser()
+    '''
 def createVMSVersioningFTPEntryParser():
-'''public FTPFileEntryParser createVMSVersioningFTPEntryParser()
-'''
-pass
+    '''    public FTPFileEntryParser createVMSVersioningFTPEntryParser()
+    '''
 def createNTFTPEntryParser():
-'''public FTPFileEntryParser createNTFTPEntryParser()
-'''
-pass
+    '''    public FTPFileEntryParser createNTFTPEntryParser()
+    '''
 def createOS2FTPEntryParser():
-'''public FTPFileEntryParser createOS2FTPEntryParser()
-'''
-pass
+    '''    public FTPFileEntryParser createOS2FTPEntryParser()
+    '''
 def createOS400FTPEntryParser():
-'''public FTPFileEntryParser createOS400FTPEntryParser()
-'''
-pass
+    '''    public FTPFileEntryParser createOS400FTPEntryParser()
+    '''
 def createMVSEntryParser():
-'''public FTPFileEntryParser createMVSEntryParser()
-'''
-pass
+    '''    public FTPFileEntryParser createMVSEntryParser()
+    '''

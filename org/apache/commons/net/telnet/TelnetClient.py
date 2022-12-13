@@ -1,61 +1,46 @@
 def TelnetClient():
-'''public TelnetClient()
-public TelnetClient(final String termtype)
-'''
-pass
+    '''    public TelnetClient()
+    public TelnetClient(final String termtype)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getLocalOptionState():
-'''public boolean getLocalOptionState(final int option)
-'''
-pass
+    '''    public boolean getLocalOptionState(final int option)
+    '''
 def getRemoteOptionState():
-'''public boolean getRemoteOptionState(final int option)
-'''
-pass
+    '''    public boolean getRemoteOptionState(final int option)
+    '''
 def sendAYT():
-'''public boolean sendAYT(final long timeout)
-'''
-pass
+    '''    public boolean sendAYT(final long timeout)
+    '''
 def addOptionHandler():
-'''public void addOptionHandler(final TelnetOptionHandler opthand)
-'''
-pass
+    '''    public void addOptionHandler(final TelnetOptionHandler opthand)
+    '''
 def deleteOptionHandler():
-'''public void deleteOptionHandler(final int optcode)
-'''
-pass
+    '''    public void deleteOptionHandler(final int optcode)
+    '''
 def registerSpyStream():
-'''public void registerSpyStream(final OutputStream spystream)
-'''
-pass
+    '''    public void registerSpyStream(final OutputStream spystream)
+    '''
 def stopSpyStream():
-'''public void stopSpyStream()
-'''
-pass
+    '''    public void stopSpyStream()
+    '''
 def registerNotifHandler():
-'''public void registerNotifHandler(final TelnetNotificationHandler notifhand)
-'''
-pass
+    '''    public void registerNotifHandler(final TelnetNotificationHandler notifhand)
+    '''
 def unregisterNotifHandler():
-'''public void unregisterNotifHandler()
-'''
-pass
+    '''    public void unregisterNotifHandler()
+    '''
 def setReaderThread():
-'''public void setReaderThread(final boolean flag)
-'''
-pass
+    '''    public void setReaderThread(final boolean flag)
+    '''
 def getReaderThread():
-'''public boolean getReaderThread()
-'''
-pass
+    '''    public boolean getReaderThread()
+    '''

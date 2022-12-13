@@ -1,5 +1,4 @@
 def DiscoveryInProgressException():
-'''public DiscoveryInProgressException()
-public DiscoveryInProgressException(final String msg)
-'''
-pass
+    '''    public DiscoveryInProgressException()
+    public DiscoveryInProgressException(final String msg)
+    '''

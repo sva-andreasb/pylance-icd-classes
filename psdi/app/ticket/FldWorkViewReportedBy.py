@@ -1,8 +1,6 @@
 def FldWorkViewReportedBy():
-'''public FldWorkViewReportedBy(final MboValue mbv)
-'''
-pass
+    '''    public FldWorkViewReportedBy(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

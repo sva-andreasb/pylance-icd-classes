@@ -1,16 +1,12 @@
 def getInstance():
-'''public static final UserDeviceCache getInstance()
-'''
-pass
+    '''    public static final UserDeviceCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDevicesForUser():
-'''public Map<String, DeviceInfo> getDevicesForUser(final String userName)
-'''
-pass
+    '''    public Map<String, DeviceInfo> getDevicesForUser(final String userName)
+    '''
 def getActiveDeviceForUser():
-'''public DeviceInfo getActiveDeviceForUser(final String userName)
-'''
-pass
+    '''    public DeviceInfo getActiveDeviceForUser(final String userName)
+    '''

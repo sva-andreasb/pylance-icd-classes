@@ -1,38 +1,29 @@
-ELEMENT_NAME = "String  search-settings""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"search-settings\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def isSearchEnabled():
-'''public boolean isSearchEnabled()
-'''
-pass
+    '''    public boolean isSearchEnabled()
+    '''
 def getForumsLocation():
-'''public String getForumsLocation()
-'''
-pass
+    '''    public String getForumsLocation()
+    '''
 def setForumsLocation():
-'''public void setForumsLocation(final String forumsLocation)
-'''
-pass
+    '''    public void setForumsLocation(final String forumsLocation)
+    '''
 def getKbLocation():
-'''public String getKbLocation()
-'''
-pass
+    '''    public String getKbLocation()
+    '''
 def setKbLocation():
-'''public void setKbLocation(final String kbLocation)
-'''
-pass
+    '''    public void setKbLocation(final String kbLocation)
+    '''
 def hasKB():
-'''public boolean hasKB()
-'''
-pass
+    '''    public boolean hasKB()
+    '''
 def hasForums():
-'''public boolean hasForums()
-'''
-pass
+    '''    public boolean hasForums()
+    '''
 def SearchSettings():
-'''public SearchSettings()
-'''
-pass
+    '''    public SearchSettings()
+    '''
 def parse():
-'''public SearchSettings parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public SearchSettings parse(final XmlPullParser parser, final int initialDepth)
+    '''

@@ -1,9 +1,7 @@
 def GLLookupHandler():
-'''public GLLookupHandler(final MboSetRemote glcompSet, final OslcRequest oslcRequest)
-'''
-pass
+    '''    public GLLookupHandler(final MboSetRemote glcompSet, final OslcRequest oslcRequest)
+    '''
 def lookupSegment():
-'''public MboSetRemote lookupSegment(final String originalGL)
-public MboSetRemote lookupSegment()
-'''
-pass
+    '''    public MboSetRemote lookupSegment(final String originalGL)
+    public MboSetRemote lookupSegment()
+    '''

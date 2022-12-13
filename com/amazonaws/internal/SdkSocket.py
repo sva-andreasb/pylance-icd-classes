@@ -1,21 +1,16 @@
 def SdkSocket():
-'''public SdkSocket(final Socket sock)
-'''
-pass
+    '''    public SdkSocket(final Socket sock)
+    '''
 def connect():
-'''public void connect(final SocketAddress endpoint)
-public void connect(final SocketAddress endpoint, final int timeout)
-'''
-pass
+    '''    public void connect(final SocketAddress endpoint)
+    public void connect(final SocketAddress endpoint, final int timeout)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def shutdownInput():
-'''public void shutdownInput()
-'''
-pass
+    '''    public void shutdownInput()
+    '''
 def shutdownOutput():
-'''public void shutdownOutput()
-'''
-pass
+    '''    public void shutdownOutput()
+    '''

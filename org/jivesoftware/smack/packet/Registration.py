@@ -1,24 +1,18 @@
 def Registration():
-'''public Registration()
-'''
-pass
+    '''    public Registration()
+    '''
 def getInstructions():
-'''public String getInstructions()
-'''
-pass
+    '''    public String getInstructions()
+    '''
 def setInstructions():
-'''public void setInstructions(final String instructions)
-'''
-pass
+    '''    public void setInstructions(final String instructions)
+    '''
 def getAttributes():
-'''public Map<String, String> getAttributes()
-'''
-pass
+    '''    public Map<String, String> getAttributes()
+    '''
 def setAttributes():
-'''public void setAttributes(final Map<String, String> attributes)
-'''
-pass
+    '''    public void setAttributes(final Map<String, String> attributes)
+    '''
 def getChildElementXML():
-'''public String getChildElementXML()
-'''
-pass
+    '''    public String getChildElementXML()
+    '''

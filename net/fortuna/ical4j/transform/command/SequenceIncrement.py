@@ -1,4 +1,3 @@
 def transform():
-'''public CalendarComponent transform(final CalendarComponent object)
-'''
-pass
+    '''    public CalendarComponent transform(final CalendarComponent object)
+    '''

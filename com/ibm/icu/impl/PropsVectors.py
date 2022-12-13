@@ -6,62 +6,47 @@ INITIAL_ROWS = "int  4096"
 MEDIUM_ROWS = "int  65536"
 MAX_ROWS = "int  1114114"
 def PropsVectors():
-'''public PropsVectors(final int numOfColumns)
-'''
-pass
+    '''    public PropsVectors(final int numOfColumns)
+    '''
 def setValue():
-'''public void setValue(final int start, final int end, int column, int value, int mask)
-'''
-pass
+    '''    public void setValue(final int start, final int end, int column, int value, int mask)
+    '''
 def getValue():
-'''public int getValue(final int c, final int column)
-'''
-pass
+    '''    public int getValue(final int c, final int column)
+    '''
 def getRow():
-'''public int[] getRow(final int rowIndex)
-'''
-pass
+    '''    public int[] getRow(final int rowIndex)
+    '''
 def getRowStart():
-'''public int getRowStart(final int rowIndex)
-'''
-pass
+    '''    public int getRowStart(final int rowIndex)
+    '''
 def getRowEnd():
-'''public int getRowEnd(final int rowIndex)
-'''
-pass
+    '''    public int getRowEnd(final int rowIndex)
+    '''
 def compact():
-'''public void compact(final CompactHandler compactor)
-'''
-pass
+    '''    public void compact(final CompactHandler compactor)
+    '''
 def compare():
-'''public int compare(final Integer o1, final Integer o2)
-'''
-pass
+    '''    public int compare(final Integer o1, final Integer o2)
+    '''
 def getCompactedArray():
-'''public int[] getCompactedArray()
-'''
-pass
+    '''    public int[] getCompactedArray()
+    '''
 def getCompactedRows():
-'''public int getCompactedRows()
-'''
-pass
+    '''    public int getCompactedRows()
+    '''
 def getCompactedColumns():
-'''public int getCompactedColumns()
-'''
-pass
+    '''    public int getCompactedColumns()
+    '''
 def compactToTrieWithRowIndexes():
-'''public IntTrie compactToTrieWithRowIndexes()
-'''
-pass
+    '''    public IntTrie compactToTrieWithRowIndexes()
+    '''
 def getFoldingOffset():
-'''public int getFoldingOffset(final int value)
-'''
-pass
+    '''    public int getFoldingOffset(final int value)
+    '''
 def DefaultGetFoldedValue():
-'''public DefaultGetFoldedValue(final IntTrieBuilder inBuilder)
-'''
-pass
+    '''    public DefaultGetFoldedValue(final IntTrieBuilder inBuilder)
+    '''
 def getFoldedValue():
-'''public int getFoldedValue(int start, final int offset)
-'''
-pass
+    '''    public int getFoldedValue(int start, final int offset)
+    '''

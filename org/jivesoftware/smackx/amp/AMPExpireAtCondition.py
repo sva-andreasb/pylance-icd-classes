@@ -1,18 +1,14 @@
-NAME = "String  expire-at""
+NAME = "String  \"expire-at\""
 def isSupported():
-'''public static boolean isSupported(final XMPPConnection connection)
-'''
-pass
+    '''    public static boolean isSupported(final XMPPConnection connection)
+    '''
 def AMPExpireAtCondition():
-'''public AMPExpireAtCondition(final Date utcDateTime)
-public AMPExpireAtCondition(final String utcDateTime)
-'''
-pass
+    '''    public AMPExpireAtCondition(final Date utcDateTime)
+    public AMPExpireAtCondition(final String utcDateTime)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

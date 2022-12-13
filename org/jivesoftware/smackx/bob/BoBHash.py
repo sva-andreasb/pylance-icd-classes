@@ -1,36 +1,27 @@
 def BoBHash():
-'''public BoBHash(final String hash, final String hashType)
-'''
-pass
+    '''    public BoBHash(final String hash, final String hashType)
+    '''
 def getHash():
-'''public String getHash()
-'''
-pass
+    '''    public String getHash()
+    '''
 def getHashType():
-'''public String getHashType()
-'''
-pass
+    '''    public String getHashType()
+    '''
 def toSrc():
-'''public String toSrc()
-'''
-pass
+    '''    public String toSrc()
+    '''
 def getCid():
-'''public String getCid()
-'''
-pass
+    '''    public String getCid()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def fromSrc():
-'''public static BoBHash fromSrc(final String src)
-'''
-pass
+    '''    public static BoBHash fromSrc(final String src)
+    '''
 def fromCid():
-'''public static BoBHash fromCid(final String cid)
-'''
-pass
+    '''    public static BoBHash fromCid(final String cid)
+    '''

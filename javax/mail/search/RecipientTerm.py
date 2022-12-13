@@ -1,16 +1,12 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def match():
-'''public boolean match(final Message msg)
-'''
-pass
+    '''    public boolean match(final Message msg)
+    '''
 def RecipientTerm():
-'''public RecipientTerm(final Message.RecipientType type, final Address address)
-'''
-pass
+    '''    public RecipientTerm(final Message.RecipientType type, final Address address)
+    '''

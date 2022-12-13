@@ -1,36 +1,27 @@
 def CLIParseResult():
-'''public CLIParseResult()
-'''
-pass
+    '''    public CLIParseResult()
+    '''
 def formatAndAddMessage():
-'''public void formatAndAddMessage(final Level msgLevel, final String key, final Object[] parms)
-'''
-pass
+    '''    public void formatAndAddMessage(final Level msgLevel, final String key, final Object[] parms)
+    '''
 def addMessage():
-'''public void addMessage(final String message)
-'''
-pass
+    '''    public void addMessage(final String message)
+    '''
 def getMessages():
-'''public List<String> getMessages()
-'''
-pass
+    '''    public List<String> getMessages()
+    '''
 def getFilteredCommand():
-'''public String getFilteredCommand()
-'''
-pass
+    '''    public String getFilteredCommand()
+    '''
 def setFilteredCommand():
-'''public void setFilteredCommand(final String filteredCommand)
-'''
-pass
+    '''    public void setFilteredCommand(final String filteredCommand)
+    '''
 def getParameterMap():
-'''public Map getParameterMap()
-'''
-pass
+    '''    public Map getParameterMap()
+    '''
 def setParameterMap():
-'''public void setParameterMap(final Map parameterMap)
-'''
-pass
+    '''    public void setParameterMap(final Map parameterMap)
+    '''
 def getPassthruMap():
-'''public Map<String, String> getPassthruMap()
-'''
-pass
+    '''    public Map<String, String> getPassthruMap()
+    '''

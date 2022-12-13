@@ -1,8 +1,6 @@
 def throwStackOverflowError():
-'''public static void throwStackOverflowError()
-'''
-pass
+    '''    public static void throwStackOverflowError()
+    '''
 def causeStackOverflowError():
-'''public static void causeStackOverflowError()
-'''
-pass
+    '''    public static void causeStackOverflowError()
+    '''

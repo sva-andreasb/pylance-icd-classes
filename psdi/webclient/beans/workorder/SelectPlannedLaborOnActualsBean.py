@@ -1,8 +1,6 @@
 def getPlannedLaborCriteria():
-'''public String getPlannedLaborCriteria(final MboRemote mbo)
-'''
-pass
+    '''    public String getPlannedLaborCriteria(final MboRemote mbo)
+    '''
 def getCriteriaForContract():
-'''public String getCriteriaForContract(final MboRemote mbo)
-'''
-pass
+    '''    public String getCriteriaForContract(final MboRemote mbo)
+    '''

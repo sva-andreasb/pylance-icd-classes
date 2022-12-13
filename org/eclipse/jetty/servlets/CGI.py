@@ -1,24 +1,18 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def service():
-'''public void service(final HttpServletRequest req, final HttpServletResponse res)
-'''
-pass
+    '''    public void service(final HttpServletRequest req, final HttpServletResponse res)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def set():
-'''public void set(final String name, final String value)
-'''
-pass
+    '''    public void set(final String name, final String value)
+    '''
 def getEnvArray():
-'''public String[] getEnvArray()
-'''
-pass
+    '''    public String[] getEnvArray()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

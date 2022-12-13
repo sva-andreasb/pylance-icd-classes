@@ -1,8 +1,6 @@
 def FldConditionNoCaching():
-'''public FldConditionNoCaching(final MboValue mbv)
-'''
-pass
+    '''    public FldConditionNoCaching(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

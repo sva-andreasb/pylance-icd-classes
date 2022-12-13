@@ -1,8 +1,6 @@
 def AssetGrpDfltSet():
-'''public AssetGrpDfltSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetGrpDfltSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

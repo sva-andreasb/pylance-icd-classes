@@ -1,33 +1,25 @@
 def Domain():
-'''public Domain(final Node[] value)
-public Domain(final int size)
-'''
-pass
+    '''    public Domain(final Node[] value)
+    public Domain(final int size)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def get():
-'''public Node get(final int i)
-'''
-pass
+    '''    public Node get(final int i)
+    '''
 def setElement():
-'''public void setElement(final int i, final Node x)
-'''
-pass
+    '''    public void setElement(final int i, final Node x)
+    '''
 def getElement():
-'''public Node getElement(final int i)
-'''
-pass
+    '''    public Node getElement(final int i)
+    '''
 def copy():
-'''public Domain copy()
-'''
-pass
+    '''    public Domain copy()
+    '''
 def equals():
-'''public boolean equals(final Object x)
-'''
-pass
+    '''    public boolean equals(final Object x)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

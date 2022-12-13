@@ -1,4 +1,3 @@
 def PlusPPSMatPricSet():
-'''public PlusPPSMatPricSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPPSMatPricSet(final MboServerInterface ms)
+    '''

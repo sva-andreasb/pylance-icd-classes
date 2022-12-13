@@ -1,12 +1,9 @@
 def transformerPredicate():
-'''public static <T> Predicate<T> transformerPredicate(final Transformer<? super T, Boolean> transformer)
-'''
-pass
+    '''    public static <T> Predicate<T> transformerPredicate(final Transformer<? super T, Boolean> transformer)
+    '''
 def TransformerPredicate():
-'''public TransformerPredicate(final Transformer<? super T, Boolean> transformer)
-'''
-pass
+    '''    public TransformerPredicate(final Transformer<? super T, Boolean> transformer)
+    '''
 def evaluate():
-'''public boolean evaluate(final T object)
-'''
-pass
+    '''    public boolean evaluate(final T object)
+    '''

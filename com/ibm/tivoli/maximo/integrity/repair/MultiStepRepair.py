@@ -1,12 +1,9 @@
 def MultiStepRepair():
-'''public MultiStepRepair()
-'''
-pass
+    '''    public MultiStepRepair()
+    '''
 def doRepair():
-'''public void doRepair()
-'''
-pass
+    '''    public void doRepair()
+    '''
 def add():
-'''public void add(final Repair e)
-'''
-pass
+    '''    public void add(final Repair e)
+    '''

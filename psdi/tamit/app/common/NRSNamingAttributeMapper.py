@@ -1,82 +1,62 @@
 def NRSNamingAttributeMapper():
-'''public NRSNamingAttributeMapper(final InputStream stream1, final InputStream stream2, final InputStream xsd, final Connection con)
-'''
-pass
+    '''    public NRSNamingAttributeMapper(final InputStream stream1, final InputStream stream2, final InputStream xsd, final Connection con)
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def getCDMClass():
-'''public String getCDMClass(final String objectName, final String classstructureid)
-'''
-pass
+    '''    public String getCDMClass(final String objectName, final String classstructureid)
+    '''
 def getAllClassesForMBO():
-'''public List<String> getAllClassesForMBO(final String mboObjectName)
-'''
-pass
+    '''    public List<String> getAllClassesForMBO(final String mboObjectName)
+    '''
 def getAllMBONamingAttributes():
-'''public List<MboAttribute> getAllMBONamingAttributes(final String objectName, final String classstructureid)
-'''
-pass
+    '''    public List<MboAttribute> getAllMBONamingAttributes(final String objectName, final String classstructureid)
+    '''
 def getCDMNamingAttribute():
-'''public CdmAttribute getCDMNamingAttribute(final MboAttribute mboAttribute)
-'''
-pass
+    '''    public CdmAttribute getCDMNamingAttribute(final MboAttribute mboAttribute)
+    '''
 def startElement():
-'''public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
-'''
-pass
+    '''    public void startElement(final String namespaceURI, final String localName, final String qName, final Attributes attrs)
+    '''
 def endElement():
-'''public void endElement(final String namespaceURI, final String localName, final String qName)
-'''
-pass
+    '''    public void endElement(final String namespaceURI, final String localName, final String qName)
+    '''
 def fatalError():
-'''public void fatalError(final SAXParseException e)
-'''
-pass
+    '''    public void fatalError(final SAXParseException e)
+    '''
 def error():
-'''public void error(final SAXParseException e)
-'''
-pass
+    '''    public void error(final SAXParseException e)
+    '''
 def getVersionStr():
-'''public String getVersionStr()
-'''
-pass
+    '''    public String getVersionStr()
+    '''
 def MboAttribute():
-'''public MboAttribute(final String tableName, final String attributeName, final String assetattrid)
-'''
-pass
+    '''    public MboAttribute(final String tableName, final String attributeName, final String assetattrid)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getTableName():
-'''public String getTableName()
-'''
-pass
+    '''    public String getTableName()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    public String getAttributeName()
+    '''
 def getAssetattrid():
-'''public String getAssetattrid()
-'''
-pass
+    '''    public String getAssetattrid()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def CdmAttribute():
-'''public CdmAttribute(final String className, final String attributeName)
-'''
-pass
+    '''    public CdmAttribute(final String className, final String attributeName)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''

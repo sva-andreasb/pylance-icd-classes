@@ -1,9 +1,7 @@
 def Window():
-'''public Window(final int n, final String s)
-public Window(final int n)
-'''
-pass
+    '''    public Window(final int n, final String s)
+    public Window(final int n)
+    '''
 def getMember():
-'''public Object getMember(final String s)
-'''
-pass
+    '''    public Object getMember(final String s)
+    '''

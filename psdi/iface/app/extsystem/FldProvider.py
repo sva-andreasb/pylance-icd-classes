@@ -1,12 +1,9 @@
 def FldProvider():
-'''public FldProvider(final MboValue mbv)
-'''
-pass
+    '''    public FldProvider(final MboValue mbv)
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def crypt():
-'''public static String crypt(final String key, final String setting)
-'''
-pass
+    '''    public static String crypt(final String key, final String setting)
+    '''
 def main():
-'''public static void main(final String[] arg)
-'''
-pass
+    '''    public static void main(final String[] arg)
+    '''

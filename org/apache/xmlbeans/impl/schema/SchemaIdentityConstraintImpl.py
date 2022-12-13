@@ -1,120 +1,90 @@
 def SchemaIdentityConstraintImpl():
-'''public SchemaIdentityConstraintImpl(final SchemaContainer c)
-'''
-pass
+    '''    public SchemaIdentityConstraintImpl(final SchemaContainer c)
+    '''
 def setFilename():
-'''public void setFilename(final String filename)
-'''
-pass
+    '''    public void setFilename(final String filename)
+    '''
 def getSourceName():
-'''public String getSourceName()
-'''
-pass
+    '''    public String getSourceName()
+    '''
 def getSelector():
-'''public String getSelector()
-'''
-pass
+    '''    public String getSelector()
+    '''
 def getSelectorPath():
-'''public Object getSelectorPath()
-'''
-pass
+    '''    public Object getSelectorPath()
+    '''
 def setAnnotation():
-'''public void setAnnotation(final SchemaAnnotation ann)
-'''
-pass
+    '''    public void setAnnotation(final SchemaAnnotation ann)
+    '''
 def getAnnotation():
-'''public SchemaAnnotation getAnnotation()
-'''
-pass
+    '''    public SchemaAnnotation getAnnotation()
+    '''
 def setNSMap():
-'''public void setNSMap(final Map nsMap)
-'''
-pass
+    '''    public void setNSMap(final Map nsMap)
+    '''
 def getNSMap():
-'''public Map getNSMap()
-'''
-pass
+    '''    public Map getNSMap()
+    '''
 def setSelector():
-'''public void setSelector(final String selector)
-'''
-pass
+    '''    public void setSelector(final String selector)
+    '''
 def setFields():
-'''public void setFields(final String[] fields)
-'''
-pass
+    '''    public void setFields(final String[] fields)
+    '''
 def getFields():
-'''public String[] getFields()
-'''
-pass
+    '''    public String[] getFields()
+    '''
 def getFieldPath():
-'''public Object getFieldPath(final int index)
-'''
-pass
+    '''    public Object getFieldPath(final int index)
+    '''
 def buildPaths():
-'''public void buildPaths()
-'''
-pass
+    '''    public void buildPaths()
+    '''
 def setReferencedKey():
-'''public void setReferencedKey(final Ref key)
-'''
-pass
+    '''    public void setReferencedKey(final Ref key)
+    '''
 def getReferencedKey():
-'''public SchemaIdentityConstraint getReferencedKey()
-'''
-pass
+    '''    public SchemaIdentityConstraint getReferencedKey()
+    '''
 def setConstraintCategory():
-'''public void setConstraintCategory(final int type)
-'''
-pass
+    '''    public void setConstraintCategory(final int type)
+    '''
 def getConstraintCategory():
-'''public int getConstraintCategory()
-'''
-pass
+    '''    public int getConstraintCategory()
+    '''
 def setName():
-'''public void setName(final QName name)
-'''
-pass
+    '''    public void setName(final QName name)
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getComponentType():
-'''public int getComponentType()
-'''
-pass
+    '''    public int getComponentType()
+    '''
 def getTypeSystem():
-'''public SchemaTypeSystem getTypeSystem()
-'''
-pass
+    '''    public SchemaTypeSystem getTypeSystem()
+    '''
 def setParseContext():
-'''public void setParseContext(final XmlObject o, final String targetNamespace, final boolean chameleon)
-'''
-pass
+    '''    public void setParseContext(final XmlObject o, final String targetNamespace, final boolean chameleon)
+    '''
 def getParseObject():
-'''public XmlObject getParseObject()
-'''
-pass
+    '''    public XmlObject getParseObject()
+    '''
 def getTargetNamespace():
-'''public String getTargetNamespace()
-'''
-pass
+    '''    public String getTargetNamespace()
+    '''
 def getChameleonNamespace():
-'''public String getChameleonNamespace()
-'''
-pass
+    '''    public String getChameleonNamespace()
+    '''
 def isResolved():
-'''public boolean isResolved()
-'''
-pass
+    '''    public boolean isResolved()
+    '''
 def getRef():
-'''public Ref getRef()
-'''
-pass
+    '''    public Ref getRef()
+    '''
 def getUserData():
-'''public Object getUserData()
-'''
-pass
+    '''    public Object getUserData()
+    '''
 def setUserData():
-'''public void setUserData(final Object data)
-'''
-pass
+    '''    public void setUserData(final Object data)
+    '''

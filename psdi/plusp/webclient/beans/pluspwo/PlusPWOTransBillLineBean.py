@@ -1,20 +1,15 @@
 def PlusPWOTransBillLineBean():
-'''public PlusPWOTransBillLineBean()
-'''
-pass
+    '''    public PlusPWOTransBillLineBean()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def filterrows():
-'''public int filterrows()
-'''
-pass
+    '''    public int filterrows()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def getBillLineSet():
-'''public MboSetRemote getBillLineSet(final MboRemote mboRemote)
-'''
-pass
+    '''    public MboSetRemote getBillLineSet(final MboRemote mboRemote)
+    '''

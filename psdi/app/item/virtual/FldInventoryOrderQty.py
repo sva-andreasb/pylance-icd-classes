@@ -1,8 +1,6 @@
 def FldInventoryOrderQty():
-'''public FldInventoryOrderQty(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryOrderQty(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

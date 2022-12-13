@@ -1,20 +1,15 @@
 def NodeCache():
-'''public NodeCache()
-'''
-pass
+    '''    public NodeCache()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def get():
-'''public Node get(final Object label)
-'''
-pass
+    '''    public Node get(final Object label)
+    '''
 def put():
-'''public void put(final Object label, final Node cached)
-'''
-pass
+    '''    public void put(final Object label, final Node cached)
+    '''

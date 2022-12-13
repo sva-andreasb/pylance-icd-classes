@@ -1,36 +1,27 @@
 def WMAssignment():
-'''public WMAssignment(final MboSet ms)
-'''
-pass
+    '''    public WMAssignment(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setUniqueIDValue():
-'''public void setUniqueIDValue()
-'''
-pass
+    '''    public void setUniqueIDValue()
+    '''
 def validateKeyUniqueness():
-'''public void validateKeyUniqueness()
-'''
-pass
+    '''    public void validateKeyUniqueness()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''

@@ -1,20 +1,15 @@
 def ReservationProdiderImpl():
-'''public ReservationProdiderImpl(final CrewAssignViewBean bean)
-'''
-pass
+    '''    public ReservationProdiderImpl(final CrewAssignViewBean bean)
+    '''
 def getDailyView():
-'''public boolean getDailyView()
-'''
-pass
+    '''    public boolean getDailyView()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getModel():
-'''public MXGanttModel getModel()
-'''
-pass
+    '''    public MXGanttModel getModel()
+    '''
 def getModelChangesManager():
-'''public ModelChangesManager getModelChangesManager()
-'''
-pass
+    '''    public ModelChangesManager getModelChangesManager()
+    '''

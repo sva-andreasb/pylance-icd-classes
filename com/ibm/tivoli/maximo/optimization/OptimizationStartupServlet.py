@@ -1,8 +1,6 @@
 def OptimizationStartupServlet():
-'''public OptimizationStartupServlet()
-'''
-pass
+    '''    public OptimizationStartupServlet()
+    '''
 def init():
-'''public void init(final ServletConfig config)
-'''
-pass
+    '''    public void init(final ServletConfig config)
+    '''

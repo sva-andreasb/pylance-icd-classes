@@ -1,21 +1,16 @@
 def ServerMboSetAdapter():
-'''public ServerMboSetAdapter(final MboSetRemote mboSet)
-'''
-pass
+    '''    public ServerMboSetAdapter(final MboSetRemote mboSet)
+    '''
 def getMbo():
-'''public MboAdapter getMbo()
-public MboAdapter getMbo(final int index)
-'''
-pass
+    '''    public MboAdapter getMbo()
+    public MboAdapter getMbo(final int index)
+    '''
 def count():
-'''public int count()
-'''
-pass
+    '''    public int count()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

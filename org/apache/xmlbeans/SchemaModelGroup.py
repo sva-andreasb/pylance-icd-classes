@@ -1,13 +1,10 @@
 def Ref():
-'''public Ref(final SchemaModelGroup modelGroup)
-public Ref(final SchemaTypeSystem system, final String handle)
-'''
-pass
+    '''    public Ref(final SchemaModelGroup modelGroup)
+    public Ref(final SchemaTypeSystem system, final String handle)
+    '''
 def getComponentType():
-'''public final int getComponentType()
-'''
-pass
+    '''    public final int getComponentType()
+    '''
 def get():
-'''public final SchemaModelGroup get()
-'''
-pass
+    '''    public final SchemaModelGroup get()
+    '''

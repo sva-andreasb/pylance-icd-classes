@@ -1,8 +1,6 @@
 def Messages_da():
-'''public Messages_da()
-'''
-pass
+    '''    public Messages_da()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

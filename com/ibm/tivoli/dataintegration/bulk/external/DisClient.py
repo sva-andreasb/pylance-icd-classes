@@ -1,60 +1,45 @@
 def DisClient():
-'''public DisClient(final BulkLoaderProperties props)
-'''
-pass
+    '''    public DisClient(final BulkLoaderProperties props)
+    '''
 def setConnProps():
-'''public void setConnProps(final Properties props)
-'''
-pass
+    '''    public void setConnProps(final Properties props)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def commitWork():
-'''public void commitWork()
-'''
-pass
+    '''    public void commitWork()
+    '''
 def rollbackWork():
-'''public void rollbackWork()
-'''
-pass
+    '''    public void rollbackWork()
+    '''
 def getNamingContext():
-'''public Map getNamingContext(final String[] classTypes)
-'''
-pass
+    '''    public Map getNamingContext(final String[] classTypes)
+    '''
 def registerMSS():
-'''public Guid registerMSS(final HashMap mss)
-'''
-pass
+    '''    public Guid registerMSS(final HashMap mss)
+    '''
 def register():
-'''public Guid[] register(final Guid mssGuid, final HashMap[] attributeMaps)
-'''
-pass
+    '''    public Guid[] register(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''
 def registerAbstractResources():
-'''public Guid[] registerAbstractResources(final Guid mssGuid, final HashMap[] attributeMaps)
-'''
-pass
+    '''    public Guid[] registerAbstractResources(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''
 def getNames():
-'''public NrsMasterAliasInfo[] getNames(final Guid[] guids)
-'''
-pass
+    '''    public NrsMasterAliasInfo[] getNames(final Guid[] guids)
+    '''
 def addRelationship():
-'''public int[] addRelationship(final Guid mssGuid, final HashMap[] attributeMaps)
-'''
-pass
+    '''    public int[] addRelationship(final Guid mssGuid, final HashMap[] attributeMaps)
+    '''
 def removeStale():
-'''public void removeStale(final Guid mssGuid, final Date date)
-'''
-pass
+    '''    public void removeStale(final Guid mssGuid, final Date date)
+    '''
 def getParentClassTypes():
-'''public String[] getParentClassTypes(final String className)
-'''
-pass
+    '''    public String[] getParentClassTypes(final String className)
+    '''

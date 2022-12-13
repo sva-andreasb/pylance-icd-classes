@@ -1,4 +1,3 @@
 def natpreview():
-'''public int natpreview()
-'''
-pass
+    '''    public int natpreview()
+    '''

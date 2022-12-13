@@ -1,16 +1,12 @@
 def getRegion():
-'''public String getRegion()
-'''
-pass
+    '''    public String getRegion()
+    '''
 def setRegion():
-'''public void setRegion(final String region)
-'''
-pass
+    '''    public void setRegion(final String region)
+    '''
 def getService():
-'''public String getService()
-'''
-pass
+    '''    public String getService()
+    '''
 def setService():
-'''public void setService(final String service)
-'''
-pass
+    '''    public void setService(final String service)
+    '''

@@ -1,17 +1,13 @@
 def ParsedURLDefaultProtocolHandler():
-'''public ParsedURLDefaultProtocolHandler()
-'''
-pass
+    '''    public ParsedURLDefaultProtocolHandler()
+    '''
 def parseURL():
-'''public ParsedURLData parseURL(String urlStr)
-public ParsedURLData parseURL(final ParsedURL baseURL, String urlStr)
-'''
-pass
+    '''    public ParsedURLData parseURL(String urlStr)
+    public ParsedURLData parseURL(final ParsedURL baseURL, String urlStr)
+    '''
 def unescapeStr():
-'''public static String unescapeStr(final String str)
-'''
-pass
+    '''    public static String unescapeStr(final String str)
+    '''
 def charToHex():
-'''public static int charToHex(final int ch)
-'''
-pass
+    '''    public static int charToHex(final int ch)
+    '''

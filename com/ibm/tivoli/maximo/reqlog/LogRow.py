@@ -1,44 +1,33 @@
 def LogRow():
-'''public LogRow(final String type, final String userid, final Date reqTime, final String resReq, final String method, final Long reqSize, final Long respSize, final String errorMsg, final String queryString, final int status)
-'''
-pass
+    '''    public LogRow(final String type, final String userid, final Date reqTime, final String resReq, final String method, final Long reqSize, final Long respSize, final String errorMsg, final String queryString, final int status)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getUserid():
-'''public String getUserid()
-'''
-pass
+    '''    public String getUserid()
+    '''
 def getReqTime():
-'''public Date getReqTime()
-'''
-pass
+    '''    public Date getReqTime()
+    '''
 def getResReq():
-'''public String getResReq()
-'''
-pass
+    '''    public String getResReq()
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''
 def getReqSize():
-'''public Long getReqSize()
-'''
-pass
+    '''    public Long getReqSize()
+    '''
 def getRespSize():
-'''public Long getRespSize()
-'''
-pass
+    '''    public Long getRespSize()
+    '''
 def getErrorMsg():
-'''public String getErrorMsg()
-'''
-pass
+    '''    public String getErrorMsg()
+    '''
 def getQueryString():
-'''public String getQueryString()
-'''
-pass
+    '''    public String getQueryString()
+    '''
 def getStatus():
-'''public int getStatus()
-'''
-pass
+    '''    public int getStatus()
+    '''

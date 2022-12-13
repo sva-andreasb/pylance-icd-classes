@@ -1,54 +1,41 @@
-VERSION = "String  8.1""
+VERSION = "String  \"8.1\""
 def IlvDashboardContext():
-'''public IlvDashboardContext()
-public IlvDashboardContext(ResourceBundle bundle)
-'''
-pass
+    '''    public IlvDashboardContext()
+    public IlvDashboardContext(ResourceBundle bundle)
+    '''
 def getResourceBundle():
-'''public ResourceBundle getResourceBundle()
-'''
-pass
+    '''    public ResourceBundle getResourceBundle()
+    '''
 def getDialogParent():
-'''public Component getDialogParent()
-'''
-pass
+    '''    public Component getDialogParent()
+    '''
 def setDialogParent():
-'''public void setDialogParent(final Component b)
-'''
-pass
+    '''    public void setDialogParent(final Component b)
+    '''
 def getStyleSheetURL():
-'''public URL getStyleSheetURL()
-'''
-pass
+    '''    public URL getStyleSheetURL()
+    '''
 def setStyleSheetURL():
-'''public void setStyleSheetURL(final URL c)
-'''
-pass
+    '''    public void setStyleSheetURL(final URL c)
+    '''
 def getPaletteManager():
-'''public IlvPaletteManager getPaletteManager()
-'''
-pass
+    '''    public IlvPaletteManager getPaletteManager()
+    '''
 def loadPalette():
-'''public IlvPalette loadPalette(final String str)
-'''
-pass
+    '''    public IlvPalette loadPalette(final String str)
+    '''
 def loadPalettes():
-'''public IlvPalette[] loadPalettes(final URL url)
-'''
-pass
+    '''    public IlvPalette[] loadPalettes(final URL url)
+    '''
 def isDefaultMappingEnabled():
-'''public boolean isDefaultMappingEnabled()
-'''
-pass
+    '''    public boolean isDefaultMappingEnabled()
+    '''
 def setDefaultMappingEnabled():
-'''public void setDefaultMappingEnabled(final boolean e)
-'''
-pass
+    '''    public void setDefaultMappingEnabled(final boolean e)
+    '''
 def getLogger():
-'''public Logger getLogger()
-'''
-pass
+    '''    public Logger getLogger()
+    '''
 def logMessage():
-'''public void logMessage(final Level level, final String msg)
-'''
-pass
+    '''    public void logMessage(final Level level, final String msg)
+    '''

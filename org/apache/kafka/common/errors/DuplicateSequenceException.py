@@ -1,4 +1,3 @@
 def DuplicateSequenceException():
-'''public DuplicateSequenceException(final String message)
-'''
-pass
+    '''    public DuplicateSequenceException(final String message)
+    '''

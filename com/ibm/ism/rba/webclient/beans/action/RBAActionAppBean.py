@@ -1,4 +1,3 @@
 def ACTIONLOGS():
-'''public int ACTIONLOGS()
-'''
-pass
+    '''    public int ACTIONLOGS()
+    '''

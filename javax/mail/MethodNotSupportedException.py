@@ -1,5 +1,4 @@
 def MethodNotSupportedException():
-'''public MethodNotSupportedException()
-public MethodNotSupportedException(final String s)
-'''
-pass
+    '''    public MethodNotSupportedException()
+    public MethodNotSupportedException(final String s)
+    '''

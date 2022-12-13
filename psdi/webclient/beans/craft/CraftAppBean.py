@@ -1,4 +1,3 @@
 def MKISCREW():
-'''public int MKISCREW()
-'''
-pass
+    '''    public int MKISCREW()
+    '''

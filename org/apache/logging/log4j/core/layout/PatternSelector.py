@@ -1,1 +1,1 @@
-ELEMENT_TYPE = "String  patternSelector""
+ELEMENT_TYPE = "String  \"patternSelector\""

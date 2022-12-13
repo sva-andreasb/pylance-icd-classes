@@ -1,9 +1,7 @@
 def CCIFldAsync():
-'''public CCIFldAsync()
-public CCIFldAsync(final MboValue mbv)
-'''
-pass
+    '''    public CCIFldAsync()
+    public CCIFldAsync(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

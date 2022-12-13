@@ -1,20 +1,15 @@
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def generate():
-'''public void generate(final Hashtable hashtable, final PrintWriter printWriter)
-'''
-pass
+    '''    public void generate(final Hashtable hashtable, final PrintWriter printWriter)
+    '''
 def generator():
-'''public Generator generator()
-'''
-pass
+    '''    public Generator generator()
+    '''
 def addContained():
-'''public void addContained(final SymtabEntry obj)
-'''
-pass
+    '''    public void addContained(final SymtabEntry obj)
+    '''
 def contained():
-'''public Vector contained()
-'''
-pass
+    '''    public Vector contained()
+    '''

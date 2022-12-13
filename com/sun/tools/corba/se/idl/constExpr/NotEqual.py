@@ -1,4 +1,3 @@
 def evaluate():
-'''public Object evaluate()
-'''
-pass
+    '''    public Object evaluate()
+    '''

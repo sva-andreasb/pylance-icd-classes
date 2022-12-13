@@ -1,4 +1,3 @@
 def DPAMManuMoveVariantSet():
-'''public DPAMManuMoveVariantSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DPAMManuMoveVariantSet(final MboServerInterface ms)
+    '''

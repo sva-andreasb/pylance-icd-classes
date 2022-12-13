@@ -1,8 +1,6 @@
 def MeterUpperAction():
-'''public MeterUpperAction(final Expression exp, final String name, final int numParams)
-'''
-pass
+    '''    public MeterUpperAction(final Expression exp, final String name, final int numParams)
+    '''
 def eval():
-'''public BigDecimal eval(final List<BigDecimal> parameters)
-'''
-pass
+    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''

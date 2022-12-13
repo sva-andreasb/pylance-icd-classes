@@ -1,24 +1,18 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getNumber():
-'''public int getNumber()
-'''
-pass
+    '''    public int getNumber()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''
 def getSimpleStyle():
-'''public String getSimpleStyle()
-'''
-pass
+    '''    public String getSimpleStyle()
+    '''
 def getComplexStyle():
-'''public ComplexArgStyleNode getComplexStyle()
-'''
-pass
+    '''    public ComplexArgStyleNode getComplexStyle()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

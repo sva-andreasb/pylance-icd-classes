@@ -1,8 +1,6 @@
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def isNotRequired():
-'''public boolean isNotRequired()
-'''
-pass
+    '''    public boolean isNotRequired()
+    '''

@@ -1,9 +1,7 @@
 def DpldNPAssetService():
-'''public DpldNPAssetService()
-public DpldNPAssetService(final MXServer mxServer)
-'''
-pass
+    '''    public DpldNPAssetService()
+    public DpldNPAssetService(final MXServer mxServer)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

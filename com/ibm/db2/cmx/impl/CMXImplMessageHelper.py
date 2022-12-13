@@ -1,16 +1,12 @@
 def getInstance():
-'''public static CMXImplMessageHelper getInstance()
-'''
-pass
+    '''    public static CMXImplMessageHelper getInstance()
+    '''
 def newDataSourceDescriptor():
-'''public DataSourceDescriptor newDataSourceDescriptor(final Map<String, Object> map)
-'''
-pass
+    '''    public DataSourceDescriptor newDataSourceDescriptor(final Map<String, Object> map)
+    '''
 def newDriverDescriptor():
-'''public DriverDescriptor newDriverDescriptor()
-'''
-pass
+    '''    public DriverDescriptor newDriverDescriptor()
+    '''
 def createTransportPoolStatistics():
-'''public TransportPoolStatistics createTransportPoolStatistics(final Database database)
-'''
-pass
+    '''    public TransportPoolStatistics createTransportPoolStatistics(final Database database)
+    '''

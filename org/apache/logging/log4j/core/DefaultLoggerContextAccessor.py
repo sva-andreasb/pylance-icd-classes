@@ -1,4 +1,3 @@
 def getLoggerContext():
-'''public LoggerContext getLoggerContext()
-'''
-pass
+    '''    public LoggerContext getLoggerContext()
+    '''

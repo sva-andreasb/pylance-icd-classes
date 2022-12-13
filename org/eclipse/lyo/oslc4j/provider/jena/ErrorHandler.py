@@ -1,12 +1,9 @@
 def error():
-'''public void error(final Exception exception)
-'''
-pass
+    '''    public void error(final Exception exception)
+    '''
 def fatalError():
-'''public void fatalError(final Exception exception)
-'''
-pass
+    '''    public void fatalError(final Exception exception)
+    '''
 def warning():
-'''public void warning(final Exception exception)
-'''
-pass
+    '''    public void warning(final Exception exception)
+    '''

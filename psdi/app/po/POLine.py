@@ -1,182 +1,137 @@
 def POLine():
-'''public POLine(final MboSet ms)
-'''
-pass
+    '''    public POLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def isInspectionRequired():
-'''public boolean isInspectionRequired()
-'''
-pass
+    '''    public boolean isInspectionRequired()
+    '''
 def updatePOPOLine():
-'''public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, double conversion)
-public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)
-public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, final double conversion, final boolean fromMeaUsingUpdateReceipt)
-'''
-pass
+    '''    public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, double conversion)
+    public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)
+    public void updatePOPOLine(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po, final double conversion, final boolean fromMeaUsingUpdateReceipt)
+    '''
 def receiptComplete():
-'''public void receiptComplete()
-'''
-pass
+    '''    public void receiptComplete()
+    '''
 def updateWOAssetOnReceipt():
-'''public void updateWOAssetOnReceipt(final double cost)
-'''
-pass
+    '''    public void updateWOAssetOnReceipt(final double cost)
+    '''
 def delete():
-'''public void delete(final long accessmodifier)
-'''
-pass
+    '''    public void delete(final long accessmodifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def checkPOCostValidity():
-'''public void checkPOCostValidity()
-'''
-pass
+    '''    public void checkPOCostValidity()
+    '''
 def isServicePOLineByCost():
-'''public boolean isServicePOLineByCost()
-'''
-pass
+    '''    public boolean isServicePOLineByCost()
+    '''
 def doPOLineReceiptsExist():
-'''public boolean doPOLineReceiptsExist()
-'''
-pass
+    '''    public boolean doPOLineReceiptsExist()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def updateCost1s():
-'''public void updateCost1s()
-'''
-pass
+    '''    public void updateCost1s()
+    '''
 def updateInvVendor():
-'''public MboRemote updateInvVendor()
-'''
-pass
+    '''    public MboRemote updateInvVendor()
+    '''
 def generateWO():
-'''public void generateWO()
-'''
-pass
+    '''    public void generateWO()
+    '''
 def loadSkipFieldCopyHashSet():
-'''public static void loadSkipFieldCopyHashSet()
-'''
-pass
+    '''    public static void loadSkipFieldCopyHashSet()
+    '''
 def getHashSet():
-'''public static HashSet getHashSet()
-'''
-pass
+    '''    public static HashSet getHashSet()
+    '''
 def afterAdd():
-'''public void afterAdd()
-'''
-pass
+    '''    public void afterAdd()
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def canDistribute():
-'''public void canDistribute()
-'''
-pass
+    '''    public void canDistribute()
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def calculateUnInvoicedQtyCost():
-'''public double[] calculateUnInvoicedQtyCost()
-'''
-pass
+    '''    public double[] calculateUnInvoicedQtyCost()
+    '''
 def setVendorItem():
-'''public void setVendorItem(final boolean value)
-'''
-pass
+    '''    public void setVendorItem(final boolean value)
+    '''
 def getVendorItem():
-'''public boolean getVendorItem()
-'''
-pass
+    '''    public boolean getVendorItem()
+    '''
 def getInternalLineType():
-'''public String getInternalLineType()
-'''
-pass
+    '''    public String getInternalLineType()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def isServiceType():
-'''public boolean isServiceType()
-'''
-pass
+    '''    public boolean isServiceType()
+    '''
 def canCancelIfScheduleInvoice():
-'''public void canCancelIfScheduleInvoice()
-'''
-pass
+    '''    public void canCancelIfScheduleInvoice()
+    '''
 def cancelScheduleInvoice():
-'''public void cancelScheduleInvoice()
-'''
-pass
+    '''    public void cancelScheduleInvoice()
+    '''
 def deleteReservation():
-'''public void deleteReservation()
-'''
-pass
+    '''    public void deleteReservation()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def getInternalRevStatus():
-'''public String getInternalRevStatus()
-'''
-pass
+    '''    public String getInternalRevStatus()
+    '''
 def checkInvUseStatus():
-'''public void checkInvUseStatus()
-'''
-pass
+    '''    public void checkInvUseStatus()
+    '''
 def setConsignmentFlags():
-'''public void setConsignmentFlags()
-'''
-pass
+    '''    public void setConsignmentFlags()
+    '''
 def setReceiptQtyAndCostInfo():
-'''public void setReceiptQtyAndCostInfo(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)
-'''
-pass
+    '''    public void setReceiptQtyAndCostInfo(final double receivedQty, final double rejectedQty, final double receivedTotalCost, final MboRemote po)
+    '''
 def getQtyAndCostsFromReceipt():
-'''public double[] getQtyAndCostsFromReceipt()
-'''
-pass
+    '''    public double[] getQtyAndCostsFromReceipt()
+    '''
 def getPOFromReceipt():
-'''public MboRemote getPOFromReceipt()
-'''
-pass
+    '''    public MboRemote getPOFromReceipt()
+    '''
 def isPOLineReceived():
-'''public boolean isPOLineReceived()
-'''
-pass
+    '''    public boolean isPOLineReceived()
+    '''
 def checkPOLineReceipts():
-'''public void checkPOLineReceipts(final int source)
-'''
-pass
+    '''    public void checkPOLineReceipts(final int source)
+    '''

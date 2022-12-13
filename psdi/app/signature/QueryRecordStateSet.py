@@ -1,4 +1,3 @@
 def QueryRecordStateSet():
-'''public QueryRecordStateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public QueryRecordStateSet(final MboServerInterface ms)
+    '''

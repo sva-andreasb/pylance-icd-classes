@@ -1,5 +1,4 @@
 def LongWrapperHolder():
-'''public LongWrapperHolder()
-public LongWrapperHolder(final Long value)
-'''
-pass
+    '''    public LongWrapperHolder()
+    public LongWrapperHolder(final Long value)
+    '''

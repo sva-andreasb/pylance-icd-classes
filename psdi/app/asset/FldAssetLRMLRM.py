@@ -1,4 +1,3 @@
 def FldAssetLRMLRM():
-'''public FldAssetLRMLRM(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetLRMLRM(final MboValue mbv)
+    '''

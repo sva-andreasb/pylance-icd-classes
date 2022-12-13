@@ -1,24 +1,18 @@
 def NotificationFilterSupport():
-'''public NotificationFilterSupport()
-'''
-pass
+    '''    public NotificationFilterSupport()
+    '''
 def disableAllTypes():
-'''public synchronized void disableAllTypes()
-'''
-pass
+    '''    public synchronized void disableAllTypes()
+    '''
 def disableType():
-'''public synchronized void disableType(final String s)
-'''
-pass
+    '''    public synchronized void disableType(final String s)
+    '''
 def enableType():
-'''public synchronized void enableType(final String s)
-'''
-pass
+    '''    public synchronized void enableType(final String s)
+    '''
 def getEnabledTypes():
-'''public synchronized Vector getEnabledTypes()
-'''
-pass
+    '''    public synchronized Vector getEnabledTypes()
+    '''
 def isNotificationEnabled():
-'''public synchronized boolean isNotificationEnabled(final Notification notification)
-'''
-pass
+    '''    public synchronized boolean isNotificationEnabled(final Notification notification)
+    '''

@@ -1,8 +1,6 @@
 def PlusPFldJobMaterialVendor():
-'''public PlusPFldJobMaterialVendor(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldJobMaterialVendor(final MboValue arg0)
+    '''
 def getVendorCustomerFilterWhere():
-'''public static String getVendorCustomerFilterWhere()
-'''
-pass
+    '''    public static String getVendorCustomerFilterWhere()
+    '''

@@ -1,24 +1,18 @@
 def gather():
-'''public static Item gather(final Graph graph)
-'''
-pass
+    '''    public static Item gather(final Graph graph)
+    '''
 def gatherTDB():
-'''public static Item gatherTDB(final GraphTDB graph)
-'''
-pass
+    '''    public static Item gatherTDB(final GraphTDB graph)
+    '''
 def format():
-'''public static Item format(final Map<Node, Integer> predicates, final long count)
-'''
-pass
+    '''    public static Item format(final Map<Node, Integer> predicates, final long count)
+    '''
 def StatsGraph_OLD():
-'''public StatsGraph_OLD()
-'''
-pass
+    '''    public StatsGraph_OLD()
+    '''
 def performAdd():
-'''public void performAdd(final Triple t)
-'''
-pass
+    '''    public void performAdd(final Triple t)
+    '''
 def printStats():
-'''public void printStats()
-'''
-pass
+    '''    public void printStats()
+    '''

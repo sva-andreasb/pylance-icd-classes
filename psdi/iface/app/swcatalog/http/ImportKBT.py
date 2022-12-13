@@ -1,80 +1,60 @@
 def ImportKBT():
-'''public ImportKBT()
-'''
-pass
+    '''    public ImportKBT()
+    '''
 def performImport():
-'''public boolean performImport()
-'''
-pass
+    '''    public boolean performImport()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def getDataVersion():
-'''public String getDataVersion(final Properties props)
-'''
-pass
+    '''    public String getDataVersion(final Properties props)
+    '''
 def getDatabaseInstanceId():
-'''public String getDatabaseInstanceId(final Properties props)
-'''
-pass
+    '''    public String getDatabaseInstanceId(final Properties props)
+    '''
 def getProperties():
-'''public Properties getProperties(final ImportClient client)
-'''
-pass
+    '''    public Properties getProperties(final ImportClient client)
+    '''
 def getHost_():
-'''public String getHost_()
-'''
-pass
+    '''    public String getHost_()
+    '''
 def setHost_():
-'''public void setHost_(final String host)
-'''
-pass
+    '''    public void setHost_(final String host)
+    '''
 def getPort_():
-'''public int getPort_()
-'''
-pass
+    '''    public int getPort_()
+    '''
 def setPort_():
-'''public void setPort_(final int port)
-'''
-pass
+    '''    public void setPort_(final int port)
+    '''
 def getImportFile_():
-'''public String getImportFile_()
-'''
-pass
+    '''    public String getImportFile_()
+    '''
 def setImportFile_():
-'''public void setImportFile_(final String importFile)
-'''
-pass
+    '''    public void setImportFile_(final String importFile)
+    '''
 def getRepositoryId_():
-'''public String getRepositoryId_()
-'''
-pass
+    '''    public String getRepositoryId_()
+    '''
 def setRepositoryId_():
-'''public void setRepositoryId_(final String repositoryId)
-'''
-pass
+    '''    public void setRepositoryId_(final String repositoryId)
+    '''
 def getNumOfRetries_():
-'''public int getNumOfRetries_()
-'''
-pass
+    '''    public int getNumOfRetries_()
+    '''
 def setNumOfRetries_():
-'''public void setNumOfRetries_(final int numOfRetries)
-'''
-pass
+    '''    public void setNumOfRetries_(final int numOfRetries)
+    '''
 def getSecBetweenRetries_():
-'''public int getSecBetweenRetries_()
-'''
-pass
+    '''    public int getSecBetweenRetries_()
+    '''
 def setSecBetweenRetries_():
-'''public void setSecBetweenRetries_(final int secBetweenRetries)
-'''
-pass
+    '''    public void setSecBetweenRetries_(final int secBetweenRetries)
+    '''
 def getSourceDir_():
-'''public String getSourceDir_()
-'''
-pass
+    '''    public String getSourceDir_()
+    '''
 def setSourceDir_():
-'''public void setSourceDir_(final String sourceDir)
-'''
-pass
+    '''    public void setSourceDir_(final String sourceDir)
+    '''

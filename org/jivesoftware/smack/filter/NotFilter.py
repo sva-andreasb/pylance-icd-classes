@@ -1,8 +1,6 @@
 def NotFilter():
-'''public NotFilter(final PacketFilter filter)
-'''
-pass
+    '''    public NotFilter(final PacketFilter filter)
+    '''
 def accept():
-'''public boolean accept(final Packet packet)
-'''
-pass
+    '''    public boolean accept(final Packet packet)
+    '''

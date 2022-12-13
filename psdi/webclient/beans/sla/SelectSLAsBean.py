@@ -1,16 +1,12 @@
 def SelectSLAsBean():
-'''public SelectSLAsBean()
-'''
-pass
+    '''    public SelectSLAsBean()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def refreshSLAs():
-'''public int refreshSLAs()
-'''
-pass
+    '''    public int refreshSLAs()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

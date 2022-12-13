@@ -1,28 +1,21 @@
 def getFiles():
-'''public FTPFile[] getFiles()
-'''
-pass
+    '''    public FTPFile[] getFiles()
+    '''
 def getNext():
-'''public FTPFile[] getNext(final int quantityRequested)
-'''
-pass
+    '''    public FTPFile[] getNext(final int quantityRequested)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public FTPFile next()
-'''
-pass
+    '''    public FTPFile next()
+    '''
 def getPrevious():
-'''public FTPFile[] getPrevious(final int quantityRequested)
-'''
-pass
+    '''    public FTPFile[] getPrevious(final int quantityRequested)
+    '''
 def hasPrevious():
-'''public boolean hasPrevious()
-'''
-pass
+    '''    public boolean hasPrevious()
+    '''
 def previous():
-'''public FTPFile previous()
-'''
-pass
+    '''    public FTPFile previous()
+    '''

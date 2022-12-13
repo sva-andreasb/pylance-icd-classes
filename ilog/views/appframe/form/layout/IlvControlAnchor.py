@@ -1,28 +1,21 @@
 def setValue():
-'''public void setValue(final float n)
-'''
-pass
+    '''    public void setValue(final float n)
+    '''
 def getValue():
-'''public float getValue()
-'''
-pass
+    '''    public float getValue()
+    '''
 def isSameThan():
-'''public void isSameThan(final IlvControlAnchor ilvControlAnchor)
-'''
-pass
+    '''    public void isSameThan(final IlvControlAnchor ilvControlAnchor)
+    '''
 def isAtFixedDistanceFrom():
-'''public void isAtFixedDistanceFrom(final IlvControlAnchor ilvControlAnchor, final float n)
-'''
-pass
+    '''    public void isAtFixedDistanceFrom(final IlvControlAnchor ilvControlAnchor, final float n)
+    '''
 def isEqualTo():
-'''public void isEqualTo(final float n)
-'''
-pass
+    '''    public void isEqualTo(final float n)
+    '''
 def getAnchor():
-'''public Anchor getAnchor()
-'''
-pass
+    '''    public Anchor getAnchor()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

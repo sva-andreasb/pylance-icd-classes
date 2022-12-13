@@ -1,4 +1,3 @@
 def ServiceObject():
-'''public ServiceObject(final MboSet ms)
-'''
-pass
+    '''    public ServiceObject(final MboSet ms)
+    '''

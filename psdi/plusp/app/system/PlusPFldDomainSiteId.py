@@ -1,8 +1,6 @@
 def PlusPFldDomainSiteId():
-'''public PlusPFldDomainSiteId(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldDomainSiteId(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

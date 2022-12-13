@@ -1,64 +1,48 @@
 def getFormModel():
-'''public IlvFormModel getFormModel()
-'''
-pass
+    '''    public IlvFormModel getFormModel()
+    '''
 def setFormModel():
-'''public void setFormModel(final IlvFormModel a)
-'''
-pass
+    '''    public void setFormModel(final IlvFormModel a)
+    '''
 def getForm():
-'''public IlvForm getForm()
-'''
-pass
+    '''    public IlvForm getForm()
+    '''
 def setForm():
-'''public void setForm(final IlvForm c)
-'''
-pass
+    '''    public void setForm(final IlvForm c)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def getServicesProvider():
-'''public IlvServicesProvider getServicesProvider()
-'''
-pass
+    '''    public IlvServicesProvider getServicesProvider()
+    '''
 def setServicesProvider():
-'''public IlvServicesProvider setServicesProvider(final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public IlvServicesProvider setServicesProvider(final IlvServicesProvider ilvServicesProvider)
+    '''
 def getEditionContext():
-'''public IlvEditionContext getEditionContext()
-'''
-pass
+    '''    public IlvEditionContext getEditionContext()
+    '''
 def setEditionContext():
-'''public void setEditionContext(final IlvEditionContext f)
-'''
-pass
+    '''    public void setEditionContext(final IlvEditionContext f)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def addValidationError():
-'''public void addValidationError(final IlvValidationError ilvValidationError)
-'''
-pass
+    '''    public void addValidationError(final IlvValidationError ilvValidationError)
+    '''
 def removeValidationError():
-'''public void removeValidationError(final IlvValidationError ilvValidationError)
-'''
-pass
+    '''    public void removeValidationError(final IlvValidationError ilvValidationError)
+    '''
 def addValidationListener():
-'''public void addValidationListener(final ValidationListener validationListener)
-'''
-pass
+    '''    public void addValidationListener(final ValidationListener validationListener)
+    '''
 def removeValidationListener():
-'''public boolean removeValidationListener(final ValidationListener validationListener)
-'''
-pass
+    '''    public boolean removeValidationListener(final ValidationListener validationListener)
+    '''
 def GetFormController():
-'''public static IlvFormController GetFormController(final IlvForm ilvForm)
-'''
-pass
+    '''    public static IlvFormController GetFormController(final IlvForm ilvForm)
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''

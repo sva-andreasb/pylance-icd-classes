@@ -1,28 +1,21 @@
 def UserInfo():
-'''public UserInfo(final String szName, final String szHost, final String szKey, final String szTime, final String szDisplayName, final int iNumLicenses)
-'''
-pass
+    '''    public UserInfo(final String szName, final String szHost, final String szKey, final String szTime, final String szDisplayName, final int iNumLicenses)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getHost():
-'''public String getHost()
-'''
-pass
+    '''    public String getHost()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def getTime():
-'''public String getTime()
-'''
-pass
+    '''    public String getTime()
+    '''
 def getNoOfLicenses():
-'''public int getNoOfLicenses()
-'''
-pass
+    '''    public int getNoOfLicenses()
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''

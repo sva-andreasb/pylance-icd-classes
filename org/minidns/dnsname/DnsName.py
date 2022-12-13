@@ -1,105 +1,80 @@
 MAX_LABELS = "int  128"
 def writeToStream():
-'''public void writeToStream(final OutputStream os)
-'''
-pass
+    '''    public void writeToStream(final OutputStream os)
+    '''
 def getBytes():
-'''public byte[] getBytes()
-'''
-pass
+    '''    public byte[] getBytes()
+    '''
 def getRawBytes():
-'''public byte[] getRawBytes()
-'''
-pass
+    '''    public byte[] getRawBytes()
+    '''
 def getRawAce():
-'''public String getRawAce()
-'''
-pass
+    '''    public String getRawAce()
+    '''
 def asIdn():
-'''public String asIdn()
-'''
-pass
+    '''    public String asIdn()
+    '''
 def getDomainpart():
-'''public String getDomainpart()
-'''
-pass
+    '''    public String getDomainpart()
+    '''
 def getHostpart():
-'''public String getHostpart()
-'''
-pass
+    '''    public String getHostpart()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def charAt():
-'''public char charAt(final int index)
-'''
-pass
+    '''    public char charAt(final int index)
+    '''
 def subSequence():
-'''public CharSequence subSequence(final int start, final int end)
-'''
-pass
+    '''    public CharSequence subSequence(final int start, final int end)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def from():
-'''public static DnsName from(final CharSequence name)
-public static DnsName from(final String name)
-public static DnsName from(final DnsName child, final DnsName parent)
-public static DnsName from(final DnsName... nameComponents)
-public static DnsName from(final String[] parts)
-'''
-pass
+    '''    public static DnsName from(final CharSequence name)
+    public static DnsName from(final String name)
+    public static DnsName from(final DnsName child, final DnsName parent)
+    public static DnsName from(final DnsName... nameComponents)
+    public static DnsName from(final String[] parts)
+    '''
 def parse():
-'''public static DnsName parse(final DataInputStream dis, final byte[] data)
-'''
-pass
+    '''    public static DnsName parse(final DataInputStream dis, final byte[] data)
+    '''
 def compareTo():
-'''public int compareTo(final DnsName other)
-'''
-pass
+    '''    public int compareTo(final DnsName other)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isDirectChildOf():
-'''public boolean isDirectChildOf(final DnsName parent)
-'''
-pass
+    '''    public boolean isDirectChildOf(final DnsName parent)
+    '''
 def isChildOf():
-'''public boolean isChildOf(final DnsName parent)
-'''
-pass
+    '''    public boolean isChildOf(final DnsName parent)
+    '''
 def getLabelCount():
-'''public int getLabelCount()
-'''
-pass
+    '''    public int getLabelCount()
+    '''
 def getLabels():
-'''public DnsLabel[] getLabels()
-'''
-pass
+    '''    public DnsLabel[] getLabels()
+    '''
 def getRawLabels():
-'''public DnsLabel[] getRawLabels()
-'''
-pass
+    '''    public DnsLabel[] getRawLabels()
+    '''
 def stripToLabels():
-'''public DnsName stripToLabels(final int labelCount)
-'''
-pass
+    '''    public DnsName stripToLabels(final int labelCount)
+    '''
 def getParent():
-'''public DnsName getParent()
-'''
-pass
+    '''    public DnsName getParent()
+    '''
 def isRootLabel():
-'''public boolean isRootLabel()
-'''
-pass
+    '''    public boolean isRootLabel()
+    '''

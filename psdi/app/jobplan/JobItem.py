@@ -1,60 +1,45 @@
 def JobItem():
-'''public JobItem(final MboSet ms)
-'''
-pass
+    '''    public JobItem(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def setLineCost():
-'''public void setLineCost()
-'''
-pass
+    '''    public void setLineCost()
+    '''
 def setUnitCost():
-'''public void setUnitCost()
-'''
-pass
+    '''    public void setUnitCost()
+    '''
 def setVendor():
-'''public void setVendor()
-'''
-pass
+    '''    public void setVendor()
+    '''
 def setUnitCostFromInvvendor():
-'''public void setUnitCostFromInvvendor()
-'''
-pass
+    '''    public void setUnitCostFromInvvendor()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setToolRate():
-'''public void setToolRate()
-'''
-pass
+    '''    public void setToolRate()
+    '''
 def validateStoreLocSite():
-'''public void validateStoreLocSite()
-'''
-pass
+    '''    public void validateStoreLocSite()
+    '''
 def getOrgForGL():
-'''public String getOrgForGL(final String lookupAttr)
-'''
-pass
+    '''    public String getOrgForGL(final String lookupAttr)
+    '''

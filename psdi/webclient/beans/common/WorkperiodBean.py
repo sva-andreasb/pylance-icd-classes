@@ -1,12 +1,9 @@
 def DodifyDays():
-'''public int DodifyDays()
-'''
-pass
+    '''    public int DodifyDays()
+    '''
 def ModifySelectedDays():
-'''public int ModifySelectedDays()
-'''
-pass
+    '''    public int ModifySelectedDays()
+    '''
 def ModifySelectedDaysCrew():
-'''public int ModifySelectedDaysCrew()
-'''
-pass
+    '''    public int ModifySelectedDaysCrew()
+    '''

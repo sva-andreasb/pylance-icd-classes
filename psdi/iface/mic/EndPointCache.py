@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final EndPointCache getInstance()
-'''
-pass
+    '''    public static final EndPointCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getAllEndpoints():
-'''public Map<String, MaxEndPointInfo> getAllEndpoints()
-'''
-pass
+    '''    public Map<String, MaxEndPointInfo> getAllEndpoints()
+    '''
 def getEndPointInfo():
-'''public MaxEndPointInfo getEndPointInfo(final String endPointName)
-'''
-pass
+    '''    public MaxEndPointInfo getEndPointInfo(final String endPointName)
+    '''
 def getEndPointProperties():
-'''public Map<String, MaxEndPointPropInfo> getEndPointProperties(final String endPointName)
-'''
-pass
+    '''    public Map<String, MaxEndPointPropInfo> getEndPointProperties(final String endPointName)
+    '''

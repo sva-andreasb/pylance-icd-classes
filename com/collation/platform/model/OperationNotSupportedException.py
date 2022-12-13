@@ -1,4 +1,3 @@
 def OperationNotSupportedException():
-'''public OperationNotSupportedException(final String msg)
-'''
-pass
+    '''    public OperationNotSupportedException(final String msg)
+    '''

@@ -1,8 +1,6 @@
 def DMCollToolIcon():
-'''public DMCollToolIcon(final MboSet ms)
-'''
-pass
+    '''    public DMCollToolIcon(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

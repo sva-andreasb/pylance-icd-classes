@@ -1,9 +1,7 @@
 def getFolder():
-'''public Folder getFolder()
-'''
-pass
+    '''    public Folder getFolder()
+    '''
 def FolderClosedException():
-'''public FolderClosedException(final Folder folder)
-public FolderClosedException(final Folder folder, final String message)
-'''
-pass
+    '''    public FolderClosedException(final Folder folder)
+    public FolderClosedException(final Folder folder, final String message)
+    '''

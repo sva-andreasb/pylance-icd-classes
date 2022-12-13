@@ -10,126 +10,98 @@ HOUR_MS = "int  3600000"
 DAY_MS = "long  86400000L"
 JULIAN_EPOCH_MS = "long  -210866760000000L"
 def CalendarAstronomer():
-'''public CalendarAstronomer()
-public CalendarAstronomer(final Date d)
-public CalendarAstronomer(final long aTime)
-public CalendarAstronomer(final double longitude, final double latitude)
-'''
-pass
+    '''    public CalendarAstronomer()
+    public CalendarAstronomer(final Date d)
+    public CalendarAstronomer(final long aTime)
+    public CalendarAstronomer(final double longitude, final double latitude)
+    '''
 def setTime():
-'''public void setTime(final long aTime)
-'''
-pass
+    '''    public void setTime(final long aTime)
+    '''
 def setDate():
-'''public void setDate(final Date date)
-'''
-pass
+    '''    public void setDate(final Date date)
+    '''
 def setJulianDay():
-'''public void setJulianDay(final double jdn)
-'''
-pass
+    '''    public void setJulianDay(final double jdn)
+    '''
 def getTime():
-'''public long getTime()
-'''
-pass
+    '''    public long getTime()
+    '''
 def getDate():
-'''public Date getDate()
-'''
-pass
+    '''    public Date getDate()
+    '''
 def getJulianDay():
-'''public double getJulianDay()
-'''
-pass
+    '''    public double getJulianDay()
+    '''
 def getJulianCentury():
-'''public double getJulianCentury()
-'''
-pass
+    '''    public double getJulianCentury()
+    '''
 def getGreenwichSidereal():
-'''public double getGreenwichSidereal()
-'''
-pass
+    '''    public double getGreenwichSidereal()
+    '''
 def getLocalSidereal():
-'''public double getLocalSidereal()
-'''
-pass
+    '''    public double getLocalSidereal()
+    '''
 def eclipticToEquatorial():
-'''public final Equatorial eclipticToEquatorial(final Ecliptic ecliptic)
-public final Equatorial eclipticToEquatorial(final double eclipLong, final double eclipLat)
-public final Equatorial eclipticToEquatorial(final double eclipLong)
-'''
-pass
+    '''    public final Equatorial eclipticToEquatorial(final Ecliptic ecliptic)
+    public final Equatorial eclipticToEquatorial(final double eclipLong, final double eclipLat)
+    public final Equatorial eclipticToEquatorial(final double eclipLong)
+    '''
 def eclipticToHorizon():
-'''public Horizon eclipticToHorizon(final double eclipLong)
-'''
-pass
+    '''    public Horizon eclipticToHorizon(final double eclipLong)
+    '''
 def getSunLongitude():
-'''public double getSunLongitude()
-'''
-pass
+    '''    public double getSunLongitude()
+    '''
 def getSunPosition():
-'''public Equatorial getSunPosition()
-'''
-pass
+    '''    public Equatorial getSunPosition()
+    '''
 def getSunTime():
-'''public long getSunTime(final double desired, final boolean next)
-public long getSunTime(final SolarLongitude desired, final boolean next)
-'''
-pass
+    '''    public long getSunTime(final double desired, final boolean next)
+    public long getSunTime(final SolarLongitude desired, final boolean next)
+    '''
 def eval():
-'''public double eval()
-public Equatorial eval()
-public double eval()
-public Equatorial eval()
-'''
-pass
+    '''    public double eval()
+    public Equatorial eval()
+    public double eval()
+    public Equatorial eval()
+    '''
 def getSunRiseSet():
-'''public long getSunRiseSet(final boolean rise)
-'''
-pass
+    '''    public long getSunRiseSet(final boolean rise)
+    '''
 def getMoonPosition():
-'''public Equatorial getMoonPosition()
-'''
-pass
+    '''    public Equatorial getMoonPosition()
+    '''
 def getMoonAge():
-'''public double getMoonAge()
-'''
-pass
+    '''    public double getMoonAge()
+    '''
 def getMoonPhase():
-'''public double getMoonPhase()
-'''
-pass
+    '''    public double getMoonPhase()
+    '''
 def getMoonTime():
-'''public long getMoonTime(final double desired, final boolean next)
-public long getMoonTime(final MoonAge desired, final boolean next)
-'''
-pass
+    '''    public long getMoonTime(final double desired, final boolean next)
+    public long getMoonTime(final MoonAge desired, final boolean next)
+    '''
 def getMoonRiseSet():
-'''public long getMoonRiseSet(final boolean rise)
-'''
-pass
+    '''    public long getMoonRiseSet(final boolean rise)
+    '''
 def local():
-'''public String local(final long localMillis)
-'''
-pass
+    '''    public String local(final long localMillis)
+    '''
 def Ecliptic():
-'''public Ecliptic(final double lat, final double lon)
-'''
-pass
+    '''    public Ecliptic(final double lat, final double lon)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    '''
 def Equatorial():
-'''public Equatorial(final double asc, final double dec)
-'''
-pass
+    '''    public Equatorial(final double asc, final double dec)
+    '''
 def toHmsString():
-'''public String toHmsString()
-'''
-pass
+    '''    public String toHmsString()
+    '''
 def Horizon():
-'''public Horizon(final double alt, final double azim)
-'''
-pass
+    '''    public Horizon(final double alt, final double azim)
+    '''

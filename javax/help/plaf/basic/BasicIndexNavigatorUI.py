@@ -1,84 +1,63 @@
 def createUI():
-'''public static ComponentUI createUI(final JComponent component)
-'''
-pass
+    '''    public static ComponentUI createUI(final JComponent component)
+    '''
 def BasicIndexNavigatorUI():
-'''public BasicIndexNavigatorUI(final JHelpIndexNavigator helpIndexNavigator)
-'''
-pass
+    '''    public BasicIndexNavigatorUI(final JHelpIndexNavigator helpIndexNavigator)
+    '''
 def installUI():
-'''public void installUI(final JComponent component)
-'''
-pass
+    '''    public void installUI(final JComponent component)
+    '''
 def uninstallUI():
-'''public void uninstallUI(final JComponent component)
-'''
-pass
+    '''    public void uninstallUI(final JComponent component)
+    '''
 def getPreferredSize():
-'''public Dimension getPreferredSize(final JComponent component)
-'''
-pass
+    '''    public Dimension getPreferredSize(final JComponent component)
+    '''
 def getMinimumSize():
-'''public Dimension getMinimumSize(final JComponent component)
-'''
-pass
+    '''    public Dimension getMinimumSize(final JComponent component)
+    '''
 def getMaximumSize():
-'''public Dimension getMaximumSize(final JComponent component)
-'''
-pass
+    '''    public Dimension getMaximumSize(final JComponent component)
+    '''
 def doMerge():
-'''public void doMerge(final NavigatorView navigatorView)
-'''
-pass
+    '''    public void doMerge(final NavigatorView navigatorView)
+    '''
 def merge():
-'''public void merge(final NavigatorView navigatorView)
-'''
-pass
+    '''    public void merge(final NavigatorView navigatorView)
+    '''
 def remove():
-'''public void remove(final NavigatorView obj)
-'''
-pass
+    '''    public void remove(final NavigatorView obj)
+    '''
 def idChanged():
-'''public synchronized void idChanged(final HelpModelEvent obj)
-'''
-pass
+    '''    public synchronized void idChanged(final HelpModelEvent obj)
+    '''
 def valueChanged():
-'''public void valueChanged(final TreeSelectionEvent obj)
-'''
-pass
+    '''    public void valueChanged(final TreeSelectionEvent obj)
+    '''
 def propertyChange():
-'''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
-'''
-pass
+    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''
 def componentResized():
-'''public void componentResized(final ComponentEvent componentEvent)
-'''
-pass
+    '''    public void componentResized(final ComponentEvent componentEvent)
+    '''
 def componentMoved():
-'''public void componentMoved(final ComponentEvent componentEvent)
-'''
-pass
+    '''    public void componentMoved(final ComponentEvent componentEvent)
+    '''
 def componentShown():
-'''public void componentShown(final ComponentEvent componentEvent)
-'''
-pass
+    '''    public void componentShown(final ComponentEvent componentEvent)
+    '''
 def componentHidden():
-'''public void componentHidden(final ComponentEvent componentEvent)
-'''
-pass
+    '''    public void componentHidden(final ComponentEvent componentEvent)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def NavSwingWorker():
-'''public NavSwingWorker(final IndexView view)
-'''
-pass
+    '''    public NavSwingWorker(final IndexView view)
+    '''
 def construct():
-'''public Object construct()
-'''
-pass
+    '''    public Object construct()
+    '''
 def finished():
-'''public void finished()
-'''
-pass
+    '''    public void finished()
+    '''

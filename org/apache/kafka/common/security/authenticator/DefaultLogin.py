@@ -1,8 +1,6 @@
 def serviceName():
-'''public String serviceName()
-'''
-pass
+    '''    public String serviceName()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

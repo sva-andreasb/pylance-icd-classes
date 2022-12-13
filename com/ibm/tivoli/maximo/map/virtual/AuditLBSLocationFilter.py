@@ -1,8 +1,6 @@
 def AuditLBSLocationFilter():
-'''public AuditLBSLocationFilter(final MboSet ms)
-'''
-pass
+    '''    public AuditLBSLocationFilter(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

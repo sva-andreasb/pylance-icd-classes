@@ -1,9 +1,7 @@
 def FldJpTask():
-'''public FldJpTask(final MboValue mbv, final String jpnumAttr)
-public FldJpTask(final MboValue mbv)
-'''
-pass
+    '''    public FldJpTask(final MboValue mbv, final String jpnumAttr)
+    public FldJpTask(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

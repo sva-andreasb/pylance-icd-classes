@@ -1,44 +1,33 @@
 def EventImpl():
-'''public EventImpl()
-'''
-pass
+    '''    public EventImpl()
+    '''
 def initEvent():
-'''public void initEvent(final String type, final boolean bubbles, final boolean cancelable)
-'''
-pass
+    '''    public void initEvent(final String type, final boolean bubbles, final boolean cancelable)
+    '''
 def getBubbles():
-'''public boolean getBubbles()
-'''
-pass
+    '''    public boolean getBubbles()
+    '''
 def getCancelable():
-'''public boolean getCancelable()
-'''
-pass
+    '''    public boolean getCancelable()
+    '''
 def getCurrentTarget():
-'''public EventTarget getCurrentTarget()
-'''
-pass
+    '''    public EventTarget getCurrentTarget()
+    '''
 def getEventPhase():
-'''public short getEventPhase()
-'''
-pass
+    '''    public short getEventPhase()
+    '''
 def getTarget():
-'''public EventTarget getTarget()
-'''
-pass
+    '''    public EventTarget getTarget()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getTimeStamp():
-'''public long getTimeStamp()
-'''
-pass
+    '''    public long getTimeStamp()
+    '''
 def stopPropagation():
-'''public void stopPropagation()
-'''
-pass
+    '''    public void stopPropagation()
+    '''
 def preventDefault():
-'''public void preventDefault()
-'''
-pass
+    '''    public void preventDefault()
+    '''

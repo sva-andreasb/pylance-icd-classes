@@ -1,8 +1,6 @@
 def FldInvVendorQtyRejected():
-'''public FldInvVendorQtyRejected(final MboValue mbv)
-'''
-pass
+    '''    public FldInvVendorQtyRejected(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

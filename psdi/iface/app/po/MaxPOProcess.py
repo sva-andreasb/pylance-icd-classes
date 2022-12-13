@@ -1,36 +1,27 @@
 def MaxPOProcess():
-'''public MaxPOProcess()
-'''
-pass
+    '''    public MaxPOProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''
 def createMboSet():
-'''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
-'''
-pass
+    '''    public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''
 def addMbo():
-'''public MboRemote addMbo(final MboSetRemote mboSet)
-'''
-pass
+    '''    public MboRemote addMbo(final MboSetRemote mboSet)
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote MboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote MboSet, final String tableName)
+    '''
 def checkAdditionalRules():
-'''public void checkAdditionalRules()
-'''
-pass
+    '''    public void checkAdditionalRules()
+    '''
 def findValidStatusPO():
-'''public MboRemote findValidStatusPO()
-'''
-pass
+    '''    public MboRemote findValidStatusPO()
+    '''
 def findApprovedPO():
-'''public MboRemote findApprovedPO()
-'''
-pass
+    '''    public MboRemote findApprovedPO()
+    '''
 def getPR():
-'''public MboRemote getPR(final String prnum, final String siteid)
-'''
-pass
+    '''    public MboRemote getPR(final String prnum, final String siteid)
+    '''

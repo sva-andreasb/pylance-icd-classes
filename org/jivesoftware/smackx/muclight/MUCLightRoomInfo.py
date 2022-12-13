@@ -1,20 +1,15 @@
 def MUCLightRoomInfo():
-'''public MUCLightRoomInfo(final String version, final Jid roomJid, final MUCLightRoomConfiguration configuration, final HashMap<Jid, MUCLightAffiliation> occupants)
-'''
-pass
+    '''    public MUCLightRoomInfo(final String version, final Jid roomJid, final MUCLightRoomConfiguration configuration, final HashMap<Jid, MUCLightAffiliation> occupants)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getRoom():
-'''public Jid getRoom()
-'''
-pass
+    '''    public Jid getRoom()
+    '''
 def getConfiguration():
-'''public MUCLightRoomConfiguration getConfiguration()
-'''
-pass
+    '''    public MUCLightRoomConfiguration getConfiguration()
+    '''
 def getOccupants():
-'''public HashMap<Jid, MUCLightAffiliation> getOccupants()
-'''
-pass
+    '''    public HashMap<Jid, MUCLightAffiliation> getOccupants()
+    '''

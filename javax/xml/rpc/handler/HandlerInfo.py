@@ -1,29 +1,22 @@
 def HandlerInfo():
-'''public HandlerInfo()
-public HandlerInfo(final Class handlerClass, final Map config, final QName[] headers)
-'''
-pass
+    '''    public HandlerInfo()
+    public HandlerInfo(final Class handlerClass, final Map config, final QName[] headers)
+    '''
 def setHandlerClass():
-'''public void setHandlerClass(final Class handlerClass)
-'''
-pass
+    '''    public void setHandlerClass(final Class handlerClass)
+    '''
 def getHandlerClass():
-'''public Class getHandlerClass()
-'''
-pass
+    '''    public Class getHandlerClass()
+    '''
 def setHandlerConfig():
-'''public void setHandlerConfig(final Map config)
-'''
-pass
+    '''    public void setHandlerConfig(final Map config)
+    '''
 def getHandlerConfig():
-'''public Map getHandlerConfig()
-'''
-pass
+    '''    public Map getHandlerConfig()
+    '''
 def setHeaders():
-'''public void setHeaders(final QName[] headers)
-'''
-pass
+    '''    public void setHeaders(final QName[] headers)
+    '''
 def getHeaders():
-'''public QName[] getHeaders()
-'''
-pass
+    '''    public QName[] getHeaders()
+    '''

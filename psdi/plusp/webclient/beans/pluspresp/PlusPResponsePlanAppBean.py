@@ -1,8 +1,6 @@
 def DUPLICATE():
-'''public int DUPLICATE()
-'''
-pass
+    '''    public int DUPLICATE()
+    '''
 def reallyDuplicate():
-'''public int reallyDuplicate()
-'''
-pass
+    '''    public int reallyDuplicate()
+    '''

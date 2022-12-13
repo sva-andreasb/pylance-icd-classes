@@ -1,4 +1,3 @@
 def displaymsg():
-'''public int displaymsg()
-'''
-pass
+    '''    public int displaymsg()
+    '''

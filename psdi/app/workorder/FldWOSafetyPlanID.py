@@ -1,20 +1,15 @@
 def FldWOSafetyPlanID():
-'''public FldWOSafetyPlanID(final MboValue mbv)
-'''
-pass
+    '''    public FldWOSafetyPlanID(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,4 +1,3 @@
 def LabAmCrewWorkGroupSet():
-'''public LabAmCrewWorkGroupSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LabAmCrewWorkGroupSet(final MboServerInterface ms)
+    '''

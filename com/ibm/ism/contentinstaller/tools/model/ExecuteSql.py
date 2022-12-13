@@ -1,24 +1,18 @@
 def getCommand():
-'''public String getCommand()
-'''
-pass
+    '''    public String getCommand()
+    '''
 def setCommand():
-'''public void setCommand(final String command)
-'''
-pass
+    '''    public void setCommand(final String command)
+    '''
 def getDatabase():
-'''public String getDatabase()
-'''
-pass
+    '''    public String getDatabase()
+    '''
 def setDatabase():
-'''public void setDatabase(final String database)
-'''
-pass
+    '''    public void setDatabase(final String database)
+    '''
 def getFailOnError():
-'''public String getFailOnError()
-'''
-pass
+    '''    public String getFailOnError()
+    '''
 def setFailOnError():
-'''public void setFailOnError(final String failOnError)
-'''
-pass
+    '''    public void setFailOnError(final String failOnError)
+    '''

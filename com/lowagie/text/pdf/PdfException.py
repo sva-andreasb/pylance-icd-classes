@@ -1,4 +1,3 @@
 def PdfException():
-'''public PdfException(final Exception ex)
-'''
-pass
+    '''    public PdfException(final Exception ex)
+    '''

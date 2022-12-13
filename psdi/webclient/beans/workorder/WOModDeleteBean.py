@@ -1,4 +1,3 @@
 def APPLYALLUSER():
-'''public int APPLYALLUSER()
-'''
-pass
+    '''    public int APPLYALLUSER()
+    '''

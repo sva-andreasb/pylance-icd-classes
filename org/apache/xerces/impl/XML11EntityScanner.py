@@ -1,48 +1,36 @@
 def peekChar():
-'''public int peekChar()
-'''
-pass
+    '''    public int peekChar()
+    '''
 def scanChar():
-'''public int scanChar()
-'''
-pass
+    '''    public int scanChar()
+    '''
 def scanNmtoken():
-'''public String scanNmtoken()
-'''
-pass
+    '''    public String scanNmtoken()
+    '''
 def scanName():
-'''public String scanName()
-'''
-pass
+    '''    public String scanName()
+    '''
 def scanNCName():
-'''public String scanNCName()
-'''
-pass
+    '''    public String scanNCName()
+    '''
 def scanQName():
-'''public boolean scanQName(final QName qName)
-'''
-pass
+    '''    public boolean scanQName(final QName qName)
+    '''
 def scanContent():
-'''public int scanContent(final XMLString xmlString)
-'''
-pass
+    '''    public int scanContent(final XMLString xmlString)
+    '''
 def scanLiteral():
-'''public int scanLiteral(final int n, final XMLString xmlString)
-'''
-pass
+    '''    public int scanLiteral(final int n, final XMLString xmlString)
+    '''
 def scanData():
-'''public boolean scanData(final String s, final XMLStringBuffer xmlStringBuffer)
-'''
-pass
+    '''    public boolean scanData(final String s, final XMLStringBuffer xmlStringBuffer)
+    '''
 def skipChar():
-'''public boolean skipChar(final int n)
-'''
-pass
+    '''    public boolean skipChar(final int n)
+    '''
 def skipSpaces():
-'''public boolean skipSpaces()
-'''
-pass
+    '''    public boolean skipSpaces()
+    '''
 def skipString():
-'''public boolean skipString(final String s)
-'''
-pass
+    '''    public boolean skipString(final String s)
+    '''

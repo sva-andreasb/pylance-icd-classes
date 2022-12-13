@@ -1,4 +1,3 @@
 def validate():
-'''public void validate(final T target)
-'''
-pass
+    '''    public void validate(final T target)
+    '''

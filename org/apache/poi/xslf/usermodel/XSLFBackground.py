@@ -1,12 +1,9 @@
 def getAnchor():
-'''public Rectangle2D getAnchor()
-'''
-pass
+    '''    public Rectangle2D getAnchor()
+    '''
 def setPlaceholder():
-'''public void setPlaceholder(final Placeholder placeholder)
-'''
-pass
+    '''    public void setPlaceholder(final Placeholder placeholder)
+    '''
 def setFillColor():
-'''public void setFillColor(final Color color)
-'''
-pass
+    '''    public void setFillColor(final Color color)
+    '''

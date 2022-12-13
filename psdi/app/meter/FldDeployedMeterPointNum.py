@@ -1,8 +1,6 @@
 def FldDeployedMeterPointNum():
-'''public FldDeployedMeterPointNum(final MboValue mbv)
-'''
-pass
+    '''    public FldDeployedMeterPointNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

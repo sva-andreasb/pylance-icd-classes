@@ -1,72 +1,54 @@
 def DiamondIterableMapMRO():
-'''public DiamondIterableMapMRO()
-'''
-pass
+    '''    public DiamondIterableMapMRO()
+    '''
 def call():
-'''public Object call()
-'''
-pass
+    '''    public Object call()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def entrySet():
-'''public Set entrySet()
-'''
-pass
+    '''    public Set entrySet()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''
 def containsValue():
-'''public boolean containsValue(final Object value)
-'''
-pass
+    '''    public boolean containsValue(final Object value)
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def put():
-'''public Object put(final Object key, final Object value)
-'''
-pass
+    '''    public Object put(final Object key, final Object value)
+    '''
 def remove():
-'''public Object remove(final Object key)
-'''
-pass
+    '''    public Object remove(final Object key)
+    '''
 def putAll():
-'''public void putAll(final Map m)
-'''
-pass
+    '''    public void putAll(final Map m)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def keySet():
-'''public Set keySet()
-'''
-pass
+    '''    public Set keySet()
+    '''
 def values():
-'''public Collection values()
-'''
-pass
+    '''    public Collection values()
+    '''

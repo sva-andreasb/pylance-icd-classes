@@ -1,12 +1,9 @@
 def MoutLocProcess():
-'''public MoutLocProcess()
-'''
-pass
+    '''    public MoutLocProcess()
+    '''
 def createNewMbo():
-'''public MboRemote createNewMbo(final MboSetRemote mboSet)
-'''
-pass
+    '''    public MboRemote createNewMbo(final MboSetRemote mboSet)
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
-'''
-pass
+    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''

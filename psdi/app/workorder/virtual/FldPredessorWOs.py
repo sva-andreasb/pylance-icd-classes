@@ -1,8 +1,6 @@
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def FldPredessorWOs():
-'''public FldPredessorWOs(final MboValue mbv)
-'''
-pass
+    '''    public FldPredessorWOs(final MboValue mbv)
+    '''

@@ -1,4 +1,3 @@
 def OslcErrorMap():
-'''public OslcErrorMap(final MboSet ms)
-'''
-pass
+    '''    public OslcErrorMap(final MboSet ms)
+    '''

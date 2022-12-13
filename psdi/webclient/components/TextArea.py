@@ -1,4 +1,3 @@
 def resize():
-'''public int resize()
-'''
-pass
+    '''    public int resize()
+    '''

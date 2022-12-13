@@ -1,4 +1,3 @@
 def InspFieldResultSelectionSet():
-'''public InspFieldResultSelectionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InspFieldResultSelectionSet(final MboServerInterface ms)
+    '''

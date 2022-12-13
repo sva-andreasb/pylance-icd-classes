@@ -1,4 +1,3 @@
 def ReportAttachedDocsServlet():
-'''public ReportAttachedDocsServlet()
-'''
-pass
+    '''    public ReportAttachedDocsServlet()
+    '''

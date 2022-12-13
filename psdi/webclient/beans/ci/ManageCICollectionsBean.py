@@ -1,8 +1,6 @@
 def ManageCICollectionsBean():
-'''public ManageCICollectionsBean()
-'''
-pass
+    '''    public ManageCICollectionsBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

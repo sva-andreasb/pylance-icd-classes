@@ -1,8 +1,6 @@
 def POStatusHandler():
-'''public POStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public POStatusHandler(final StatefulMbo sm)
+    '''
 def approve():
-'''public void approve(final Date date)
-'''
-pass
+    '''    public void approve(final Date date)
+    '''

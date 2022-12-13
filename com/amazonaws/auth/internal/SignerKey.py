@@ -1,12 +1,9 @@
 def SignerKey():
-'''public SignerKey(final long numberOfDaysSinceEpoch, final byte[] signingKey)
-'''
-pass
+    '''    public SignerKey(final long numberOfDaysSinceEpoch, final byte[] signingKey)
+    '''
 def getNumberOfDaysSinceEpoch():
-'''public long getNumberOfDaysSinceEpoch()
-'''
-pass
+    '''    public long getNumberOfDaysSinceEpoch()
+    '''
 def getSigningKey():
-'''public byte[] getSigningKey()
-'''
-pass
+    '''    public byte[] getSigningKey()
+    '''

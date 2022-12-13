@@ -1,172 +1,129 @@
 def getBillingCycleBandwidthUsage():
-'''public List<Usage> getBillingCycleBandwidthUsage()
-'''
-pass
+    '''    public List<Usage> getBillingCycleBandwidthUsage()
+    '''
 def getBillingCyclePrivateBandwidthUsage():
-'''public List<Usage> getBillingCyclePrivateBandwidthUsage()
-'''
-pass
+    '''    public List<Usage> getBillingCyclePrivateBandwidthUsage()
+    '''
 def getBillingCyclePrivateUsageIn():
-'''public BigDecimal getBillingCyclePrivateUsageIn()
-'''
-pass
+    '''    public BigDecimal getBillingCyclePrivateUsageIn()
+    '''
 def setBillingCyclePrivateUsageIn():
-'''public void setBillingCyclePrivateUsageIn(final BigDecimal billingCyclePrivateUsageIn)
-'''
-pass
+    '''    public void setBillingCyclePrivateUsageIn(final BigDecimal billingCyclePrivateUsageIn)
+    '''
 def getBillingCyclePrivateUsageOut():
-'''public BigDecimal getBillingCyclePrivateUsageOut()
-'''
-pass
+    '''    public BigDecimal getBillingCyclePrivateUsageOut()
+    '''
 def setBillingCyclePrivateUsageOut():
-'''public void setBillingCyclePrivateUsageOut(final BigDecimal billingCyclePrivateUsageOut)
-'''
-pass
+    '''    public void setBillingCyclePrivateUsageOut(final BigDecimal billingCyclePrivateUsageOut)
+    '''
 def getBillingCyclePrivateUsageTotal():
-'''public Long getBillingCyclePrivateUsageTotal()
-'''
-pass
+    '''    public Long getBillingCyclePrivateUsageTotal()
+    '''
 def setBillingCyclePrivateUsageTotal():
-'''public void setBillingCyclePrivateUsageTotal(final Long billingCyclePrivateUsageTotal)
-'''
-pass
+    '''    public void setBillingCyclePrivateUsageTotal(final Long billingCyclePrivateUsageTotal)
+    '''
 def getBillingCyclePublicBandwidthUsage():
-'''public List<Usage> getBillingCyclePublicBandwidthUsage()
-'''
-pass
+    '''    public List<Usage> getBillingCyclePublicBandwidthUsage()
+    '''
 def getBillingCyclePublicUsageIn():
-'''public BigDecimal getBillingCyclePublicUsageIn()
-'''
-pass
+    '''    public BigDecimal getBillingCyclePublicUsageIn()
+    '''
 def setBillingCyclePublicUsageIn():
-'''public void setBillingCyclePublicUsageIn(final BigDecimal billingCyclePublicUsageIn)
-'''
-pass
+    '''    public void setBillingCyclePublicUsageIn(final BigDecimal billingCyclePublicUsageIn)
+    '''
 def getBillingCyclePublicUsageOut():
-'''public BigDecimal getBillingCyclePublicUsageOut()
-'''
-pass
+    '''    public BigDecimal getBillingCyclePublicUsageOut()
+    '''
 def setBillingCyclePublicUsageOut():
-'''public void setBillingCyclePublicUsageOut(final BigDecimal billingCyclePublicUsageOut)
-'''
-pass
+    '''    public void setBillingCyclePublicUsageOut(final BigDecimal billingCyclePublicUsageOut)
+    '''
 def getBillingCyclePublicUsageTotal():
-'''public Long getBillingCyclePublicUsageTotal()
-'''
-pass
+    '''    public Long getBillingCyclePublicUsageTotal()
+    '''
 def setBillingCyclePublicUsageTotal():
-'''public void setBillingCyclePublicUsageTotal(final Long billingCyclePublicUsageTotal)
-'''
-pass
+    '''    public void setBillingCyclePublicUsageTotal(final Long billingCyclePublicUsageTotal)
+    '''
 def getLockboxNetworkStorage():
-'''public Storage getLockboxNetworkStorage()
-'''
-pass
+    '''    public Storage getLockboxNetworkStorage()
+    '''
 def setLockboxNetworkStorage():
-'''public void setLockboxNetworkStorage(final Storage lockboxNetworkStorage)
-'''
-pass
+    '''    public void setLockboxNetworkStorage(final Storage lockboxNetworkStorage)
+    '''
 def getMonitoringBillingItems():
-'''public List<Item> getMonitoringBillingItems()
-'''
-pass
+    '''    public List<Item> getMonitoringBillingItems()
+    '''
 def getResource():
-'''public Server getResource()
-'''
-pass
+    '''    public Server getResource()
+    '''
 def setResource():
-'''public void setResource(final Server resource)
-'''
-pass
+    '''    public void setResource(final Server resource)
+    '''
 def getResourceTableId():
-'''public Long getResourceTableId()
-'''
-pass
+    '''    public Long getResourceTableId()
+    '''
 def setResourceTableId():
-'''public void setResourceTableId(final Long resourceTableId)
-'''
-pass
+    '''    public void setResourceTableId(final Long resourceTableId)
+    '''
 def isResourceTableIdSpecified():
-'''public boolean isResourceTableIdSpecified()
-'''
-pass
+    '''    public boolean isResourceTableIdSpecified()
+    '''
 def unsetResourceTableId():
-'''public void unsetResourceTableId()
-'''
-pass
+    '''    public void unsetResourceTableId()
+    '''
 def getBillingCycleBandwidthUsageCount():
-'''public Long getBillingCycleBandwidthUsageCount()
-'''
-pass
+    '''    public Long getBillingCycleBandwidthUsageCount()
+    '''
 def setBillingCycleBandwidthUsageCount():
-'''public void setBillingCycleBandwidthUsageCount(final Long billingCycleBandwidthUsageCount)
-'''
-pass
+    '''    public void setBillingCycleBandwidthUsageCount(final Long billingCycleBandwidthUsageCount)
+    '''
 def getBillingCyclePrivateBandwidthUsageCount():
-'''public Long getBillingCyclePrivateBandwidthUsageCount()
-'''
-pass
+    '''    public Long getBillingCyclePrivateBandwidthUsageCount()
+    '''
 def setBillingCyclePrivateBandwidthUsageCount():
-'''public void setBillingCyclePrivateBandwidthUsageCount(final Long billingCyclePrivateBandwidthUsageCount)
-'''
-pass
+    '''    public void setBillingCyclePrivateBandwidthUsageCount(final Long billingCyclePrivateBandwidthUsageCount)
+    '''
 def getBillingCyclePublicBandwidthUsageCount():
-'''public Long getBillingCyclePublicBandwidthUsageCount()
-'''
-pass
+    '''    public Long getBillingCyclePublicBandwidthUsageCount()
+    '''
 def setBillingCyclePublicBandwidthUsageCount():
-'''public void setBillingCyclePublicBandwidthUsageCount(final Long billingCyclePublicBandwidthUsageCount)
-'''
-pass
+    '''    public void setBillingCyclePublicBandwidthUsageCount(final Long billingCyclePublicBandwidthUsageCount)
+    '''
 def getMonitoringBillingItemCount():
-'''public Long getMonitoringBillingItemCount()
-'''
-pass
+    '''    public Long getMonitoringBillingItemCount()
+    '''
 def setMonitoringBillingItemCount():
-'''public void setMonitoringBillingItemCount(final Long monitoringBillingItemCount)
-'''
-pass
+    '''    public void setMonitoringBillingItemCount(final Long monitoringBillingItemCount)
+    '''
 def billingCyclePrivateUsageIn():
-'''public Mask billingCyclePrivateUsageIn()
-'''
-pass
+    '''    public Mask billingCyclePrivateUsageIn()
+    '''
 def billingCyclePrivateUsageOut():
-'''public Mask billingCyclePrivateUsageOut()
-'''
-pass
+    '''    public Mask billingCyclePrivateUsageOut()
+    '''
 def billingCyclePrivateUsageTotal():
-'''public Mask billingCyclePrivateUsageTotal()
-'''
-pass
+    '''    public Mask billingCyclePrivateUsageTotal()
+    '''
 def billingCyclePublicUsageIn():
-'''public Mask billingCyclePublicUsageIn()
-'''
-pass
+    '''    public Mask billingCyclePublicUsageIn()
+    '''
 def billingCyclePublicUsageOut():
-'''public Mask billingCyclePublicUsageOut()
-'''
-pass
+    '''    public Mask billingCyclePublicUsageOut()
+    '''
 def billingCyclePublicUsageTotal():
-'''public Mask billingCyclePublicUsageTotal()
-'''
-pass
+    '''    public Mask billingCyclePublicUsageTotal()
+    '''
 def resourceTableId():
-'''public Mask resourceTableId()
-'''
-pass
+    '''    public Mask resourceTableId()
+    '''
 def billingCycleBandwidthUsageCount():
-'''public Mask billingCycleBandwidthUsageCount()
-'''
-pass
+    '''    public Mask billingCycleBandwidthUsageCount()
+    '''
 def billingCyclePrivateBandwidthUsageCount():
-'''public Mask billingCyclePrivateBandwidthUsageCount()
-'''
-pass
+    '''    public Mask billingCyclePrivateBandwidthUsageCount()
+    '''
 def billingCyclePublicBandwidthUsageCount():
-'''public Mask billingCyclePublicBandwidthUsageCount()
-'''
-pass
+    '''    public Mask billingCyclePublicBandwidthUsageCount()
+    '''
 def monitoringBillingItemCount():
-'''public Mask monitoringBillingItemCount()
-'''
-pass
+    '''    public Mask monitoringBillingItemCount()
+    '''

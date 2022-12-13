@@ -1,4 +1,3 @@
 def FSNLastScan():
-'''public FSNLastScan(final MboSet ms)
-'''
-pass
+    '''    public FSNLastScan(final MboSet ms)
+    '''

@@ -1,4 +1,3 @@
 def getLogger():
-'''public Logger getLogger(final String name)
-'''
-pass
+    '''    public Logger getLogger(final String name)
+    '''

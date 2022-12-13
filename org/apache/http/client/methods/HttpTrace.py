@@ -1,11 +1,9 @@
-METHOD_NAME = "String  TRACE""
+METHOD_NAME = "String  \"TRACE\""
 def HttpTrace():
-'''public HttpTrace()
-public HttpTrace(final URI uri)
-public HttpTrace(final String uri)
-'''
-pass
+    '''    public HttpTrace()
+    public HttpTrace(final URI uri)
+    public HttpTrace(final String uri)
+    '''
 def getMethod():
-'''public String getMethod()
-'''
-pass
+    '''    public String getMethod()
+    '''

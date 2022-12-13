@@ -1,4 +1,3 @@
 def PlusPAgreeSalesOrdersSet():
-'''public PlusPAgreeSalesOrdersSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPAgreeSalesOrdersSet(final MboServerInterface ms)
+    '''

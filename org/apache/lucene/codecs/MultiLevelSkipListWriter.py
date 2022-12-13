@@ -1,8 +1,6 @@
 def bufferSkip():
-'''public void bufferSkip(int df)
-'''
-pass
+    '''    public void bufferSkip(int df)
+    '''
 def writeSkip():
-'''public long writeSkip(final IndexOutput output)
-'''
-pass
+    '''    public long writeSkip(final IndexOutput output)
+    '''

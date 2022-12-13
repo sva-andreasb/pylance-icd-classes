@@ -1,12 +1,9 @@
 def selectitemsagreepsmatpricitems():
-'''public int selectitemsagreepsmatpricitems()
-'''
-pass
+    '''    public int selectitemsagreepsmatpricitems()
+    '''
 def selectitemsagreepsmatpricassets():
-'''public int selectitemsagreepsmatpricassets()
-'''
-pass
+    '''    public int selectitemsagreepsmatpricassets()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

@@ -1,8 +1,6 @@
 def PlusPBillLineFilterListSet():
-'''public PlusPBillLineFilterListSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPBillLineFilterListSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

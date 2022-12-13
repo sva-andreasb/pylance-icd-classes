@@ -1,16 +1,12 @@
 def getEISProductName():
-'''public String getEISProductName()
-'''
-pass
+    '''    public String getEISProductName()
+    '''
 def getEISProductVersion():
-'''public String getEISProductVersion()
-'''
-pass
+    '''    public String getEISProductVersion()
+    '''
 def getMaxConnections():
-'''public int getMaxConnections()
-'''
-pass
+    '''    public int getMaxConnections()
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''

@@ -1,12 +1,9 @@
 def getViolation():
-'''public Violation getViolation()
-'''
-pass
+    '''    public Violation getViolation()
+    '''
 def IRIImplException():
-'''public IRIImplException(final Violation e)
-'''
-pass
+    '''    public IRIImplException(final Violation e)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

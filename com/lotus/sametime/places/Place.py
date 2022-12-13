@@ -1,101 +1,76 @@
 def addPlaceListener():
-'''public void addPlaceListener(final PlaceListener obj)
-'''
-pass
+    '''    public void addPlaceListener(final PlaceListener obj)
+    '''
 def removePlaceListener():
-'''public void removePlaceListener(final PlaceListener obj)
-'''
-pass
+    '''    public void removePlaceListener(final PlaceListener obj)
+    '''
 def enter():
-'''public void enter()
-public void enter(final String password, final short creationMode, final boolean toStage)
-'''
-pass
+    '''    public void enter()
+    public void enter(final String password, final short creationMode, final boolean toStage)
+    '''
 def leave():
-'''public void leave(final int n)
-'''
-pass
+    '''    public void leave(final int n)
+    '''
 def addActivity():
-'''public void addActivity(final int n, final byte[] array)
-'''
-pass
+    '''    public void addActivity(final int n, final byte[] array)
+    '''
 def addAllowedUsers():
-'''public void addAllowedUsers(final STUser[] array)
-'''
-pass
+    '''    public void addAllowedUsers(final STUser[] array)
+    '''
 def removeAllowedUsers():
-'''public void removeAllowedUsers(final STUser[] array)
-'''
-pass
+    '''    public void removeAllowedUsers(final STUser[] array)
+    '''
 def invite15User():
-'''public void invite15User(final STUser stUser, final String s, final boolean b)
-'''
-pass
+    '''    public void invite15User(final STUser stUser, final String s, final boolean b)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getMembers():
-'''public Enumeration getMembers()
-'''
-pass
+    '''    public Enumeration getMembers()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def getMySection():
-'''public Section getMySection()
-'''
-pass
+    '''    public Section getMySection()
+    '''
 def getPlaceType():
-'''public int getPlaceType()
-'''
-pass
+    '''    public int getPlaceType()
+    '''
 def getMyselfInPlace():
-'''public MyselfInPlace getMyselfInPlace()
-'''
-pass
+    '''    public MyselfInPlace getMyselfInPlace()
+    '''
 def getServer():
-'''public STServer getServer()
-'''
-pass
+    '''    public STServer getServer()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def getEncLevel():
-'''public EncLevel getEncLevel()
-'''
-pass
+    '''    public EncLevel getEncLevel()
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def getPublishMode():
-'''public short getPublishMode()
-'''
-pass
+    '''    public short getPublishMode()
+    '''
 def getCreationMode():
-'''public short getCreationMode()
-'''
-pass
+    '''    public short getCreationMode()
+    '''
 def isInPlace():
-'''public boolean isInPlace()
-'''
-pass
+    '''    public boolean isInPlace()
+    '''
 def getActivitiesNum():
-'''public int getActivitiesNum()
-'''
-pass
+    '''    public int getActivitiesNum()
+    '''
 def getPlace():
-'''public Place getPlace()
-'''
-pass
+    '''    public Place getPlace()
+    '''
 def processPlacesEvent():
-'''public void processPlacesEvent(final PlacesEvent placesEvent)
-'''
-pass
+    '''    public void processPlacesEvent(final PlacesEvent placesEvent)
+    '''

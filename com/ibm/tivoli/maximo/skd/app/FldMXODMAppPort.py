@@ -1,8 +1,6 @@
 def FldMXODMAppPort():
-'''public FldMXODMAppPort(final MboValue mbv)
-'''
-pass
+    '''    public FldMXODMAppPort(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

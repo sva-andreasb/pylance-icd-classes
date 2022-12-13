@@ -1,25 +1,19 @@
 def OslcCommonBean():
-'''public OslcCommonBean()
-'''
-pass
+    '''    public OslcCommonBean()
+    '''
 def setValueFromComponent():
-'''public void setValueFromComponent(final BoundComponentInstance changedComponent, final WebClientEvent event, final String newValue)
-'''
-pass
+    '''    public void setValueFromComponent(final BoundComponentInstance changedComponent, final WebClientEvent event, final String newValue)
+    '''
 def returnLookupValue():
-'''public int returnLookupValue(final MboRemote lookupMbo)
-public int returnLookupValue(final String lookupValue)
-'''
-pass
+    '''    public int returnLookupValue(final MboRemote lookupMbo)
+    public int returnLookupValue(final String lookupValue)
+    '''
 def discover():
-'''public int discover()
-'''
-pass
+    '''    public int discover()
+    '''
 def getPresentataion():
-'''public byte[] getPresentataion(final String appName)
-'''
-pass
+    '''    public byte[] getPresentataion(final String appName)
+    '''
 def importXML():
-'''public void importXML(final String presentationXML)
-'''
-pass
+    '''    public void importXML(final String presentationXML)
+    '''

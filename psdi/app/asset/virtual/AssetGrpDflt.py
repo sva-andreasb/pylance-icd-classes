@@ -1,4 +1,3 @@
 def AssetGrpDflt():
-'''public AssetGrpDflt(final MboSet ms)
-'''
-pass
+    '''    public AssetGrpDflt(final MboSet ms)
+    '''

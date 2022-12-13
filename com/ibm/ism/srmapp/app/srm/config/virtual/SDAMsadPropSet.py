@@ -1,8 +1,6 @@
 def SDAMsadPropSet():
-'''public SDAMsadPropSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SDAMsadPropSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

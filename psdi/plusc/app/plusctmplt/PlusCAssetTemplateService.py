@@ -1,5 +1,4 @@
 def PlusCAssetTemplateService():
-'''public PlusCAssetTemplateService()
-public PlusCAssetTemplateService(final MXServer mxServer)
-'''
-pass
+    '''    public PlusCAssetTemplateService()
+    public PlusCAssetTemplateService(final MXServer mxServer)
+    '''

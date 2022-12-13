@@ -1,46 +1,36 @@
-_complete = "String  complete""
-_conversationComplete = "String  conversationComplete""
-_prompting = "String  prompting""
-_responseReady = "String  responseReady""
-_stillWorking = "String  stillWorking""
-_working = "String  working""
+_complete = "String  \"complete\""
+_conversationComplete = "String  \"conversationComplete\""
+_prompting = "String  \"prompting\""
+_responseReady = "String  \"responseReady\""
+_stillWorking = "String  \"stillWorking\""
+_working = "String  \"working\""
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def fromValue():
-'''public static AsynchStatusEnum fromValue(final String value)
-'''
-pass
+    '''    public static AsynchStatusEnum fromValue(final String value)
+    '''
 def fromString():
-'''public static AsynchStatusEnum fromString(final String value)
-'''
-pass
+    '''    public static AsynchStatusEnum fromString(final String value)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def readResolve():
-'''public Object readResolve()
-'''
-pass
+    '''    public Object readResolve()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''

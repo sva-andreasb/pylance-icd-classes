@@ -1,4 +1,3 @@
 def MaxDomainLinkSet():
-'''public MaxDomainLinkSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxDomainLinkSet(final MboServerInterface ms)
+    '''

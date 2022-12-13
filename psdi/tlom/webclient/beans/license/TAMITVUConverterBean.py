@@ -1,8 +1,6 @@
 def calculate():
-'''public void calculate()
-'''
-pass
+    '''    public void calculate()
+    '''
 def clearAll():
-'''public void clearAll()
-'''
-pass
+    '''    public void clearAll()
+    '''

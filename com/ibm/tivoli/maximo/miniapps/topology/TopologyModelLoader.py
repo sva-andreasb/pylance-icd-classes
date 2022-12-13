@@ -1,40 +1,30 @@
 def TopologyModelLoader():
-'''public TopologyModelLoader(final String appName, final String assetLocRelation)
-'''
-pass
+    '''    public TopologyModelLoader(final String appName, final String assetLocRelation)
+    '''
 def createModel():
-'''public IlvDefaultSDMModel createModel(final WebClientSession sess, final int depth, final String assetnum)
-'''
-pass
+    '''    public IlvDefaultSDMModel createModel(final WebClientSession sess, final int depth, final String assetnum)
+    '''
 def isDetailView():
-'''public boolean isDetailView()
-'''
-pass
+    '''    public boolean isDetailView()
+    '''
 def setDetailView():
-'''public void setDetailView(final boolean detailView)
-'''
-pass
+    '''    public void setDetailView(final boolean detailView)
+    '''
 def getTopologyMaxNodes():
-'''public int getTopologyMaxNodes()
-'''
-pass
+    '''    public int getTopologyMaxNodes()
+    '''
 def setTopologyMaxNodes():
-'''public void setTopologyMaxNodes(final int topologyMaxNodes)
-'''
-pass
+    '''    public void setTopologyMaxNodes(final int topologyMaxNodes)
+    '''
 def getTopologyDepth():
-'''public String getTopologyDepth()
-'''
-pass
+    '''    public String getTopologyDepth()
+    '''
 def setTopologyDepth():
-'''public void setTopologyDepth(final String topologyDepth)
-'''
-pass
+    '''    public void setTopologyDepth(final String topologyDepth)
+    '''
 def getTopologyInitDepth():
-'''public String getTopologyInitDepth()
-'''
-pass
+    '''    public String getTopologyInitDepth()
+    '''
 def setTopologyInitDepth():
-'''public void setTopologyInitDepth(final String topologyInitDepth)
-'''
-pass
+    '''    public void setTopologyInitDepth(final String topologyInitDepth)
+    '''

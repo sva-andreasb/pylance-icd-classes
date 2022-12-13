@@ -1,41 +1,31 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def RobustIdeInterface():
-'''public RobustIdeInterface(final IloOPLIDEInterface oplIdeInterface)
-'''
-pass
+    '''    public RobustIdeInterface(final IloOPLIDEInterface oplIdeInterface)
+    '''
 def prepareModel():
-'''public void prepareModel(final IloOplModel model)
-'''
-pass
+    '''    public void prepareModel(final IloOplModel model)
+    '''
 def startSolve():
-'''public void startSolve()
-'''
-pass
+    '''    public void startSolve()
+    '''
 def stopSolve():
-'''public void stopSolve()
-'''
-pass
+    '''    public void stopSolve()
+    '''
 def deleteModel():
-'''public void deleteModel()
-'''
-pass
+    '''    public void deleteModel()
+    '''
 def getReportHandler():
-'''public IloReportHandler getReportHandler()
-'''
-pass
+    '''    public IloReportHandler getReportHandler()
+    '''
 def clearAllOutputsAndProblems():
-'''public void clearAllOutputsAndProblems()
-'''
-pass
+    '''    public void clearAllOutputsAndProblems()
+    '''
 def keepModelForInteraction():
-'''public boolean keepModelForInteraction()
-'''
-pass
+    '''    public boolean keepModelForInteraction()
+    '''
 def dispose():
-'''public void dispose()
-'''
-pass
+    '''    public void dispose()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''

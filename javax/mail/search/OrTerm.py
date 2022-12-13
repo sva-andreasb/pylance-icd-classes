@@ -1,21 +1,16 @@
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def match():
-'''public boolean match(final Message msg)
-'''
-pass
+    '''    public boolean match(final Message msg)
+    '''
 def getTerms():
-'''public SearchTerm[] getTerms()
-'''
-pass
+    '''    public SearchTerm[] getTerms()
+    '''
 def OrTerm():
-'''public OrTerm(final SearchTerm[] t)
-public OrTerm(final SearchTerm t1, final SearchTerm t2)
-'''
-pass
+    '''    public OrTerm(final SearchTerm[] t)
+    public OrTerm(final SearchTerm t1, final SearchTerm t2)
+    '''

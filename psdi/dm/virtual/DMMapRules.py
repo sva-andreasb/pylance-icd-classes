@@ -1,8 +1,6 @@
 def DMMapRules():
-'''public DMMapRules(final MboSet ms)
-'''
-pass
+    '''    public DMMapRules(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

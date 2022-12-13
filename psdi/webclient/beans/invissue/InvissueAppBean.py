@@ -1,16 +1,12 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def EDITRESV():
-'''public int EDITRESV()
-'''
-pass
+    '''    public int EDITRESV()
+    '''
 def saveYesNoCheckForAddModifyRes():
-'''public boolean saveYesNoCheckForAddModifyRes()
-'''
-pass
+    '''    public boolean saveYesNoCheckForAddModifyRes()
+    '''
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''

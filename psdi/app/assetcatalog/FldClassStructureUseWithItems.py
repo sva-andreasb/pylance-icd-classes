@@ -1,8 +1,6 @@
 def FldClassStructureUseWithItems():
-'''public FldClassStructureUseWithItems(final MboValue mbv)
-'''
-pass
+    '''    public FldClassStructureUseWithItems(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

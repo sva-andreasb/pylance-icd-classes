@@ -1,80 +1,60 @@
 def RFQ():
-'''public RFQ(final MboSet ms)
-'''
-pass
+    '''    public RFQ(final MboSet ms)
+    '''
 def getProcess():
-'''public String getProcess()
-'''
-pass
+    '''    public String getProcess()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def createRFQLineFromPR():
-'''public void createRFQLineFromPR(final MboRemote fromPR, final MboRemote fromPRLine)
-'''
-pass
+    '''    public void createRFQLineFromPR(final MboRemote fromPR, final MboRemote fromPRLine)
+    '''
 def createRFQVendorFromPR():
-'''public void createRFQVendorFromPR(final MboRemote fromPR)
-'''
-pass
+    '''    public void createRFQVendorFromPR(final MboRemote fromPR)
+    '''
 def copyPRToCurrentRFQ():
-'''public void copyPRToCurrentRFQ(final MboSetRemote sourcePRLineSet)
-'''
-pass
+    '''    public void copyPRToCurrentRFQ(final MboSetRemote sourcePRLineSet)
+    '''
 def copyTerms():
-'''public void copyTerms(final MboSetRemote termsSet)
-'''
-pass
+    '''    public void copyTerms(final MboSetRemote termsSet)
+    '''
 def compareCopyTerms():
-'''public void compareCopyTerms(final MboRemote prMbo)
-'''
-pass
+    '''    public void compareCopyTerms(final MboRemote prMbo)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copySpareParts():
-'''public void copySpareParts(final MboSetRemote sparePartSet)
-'''
-pass
+    '''    public void copySpareParts(final MboSetRemote sparePartSet)
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def setRelatedMboEditibility():
-'''public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void setRelatedMboEditibility(final String relationName, final MboSetRemote mboSet)
+    '''
 def changeStatus():
-'''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''

@@ -1,113 +1,86 @@
 def empty():
-'''public static <T> FluentIterable<T> empty()
-'''
-pass
+    '''    public static <T> FluentIterable<T> empty()
+    '''
 def of():
-'''public static <T> FluentIterable<T> of(final T singleton)
-public static <T> FluentIterable<T> of(final T... elements)
-public static <T> FluentIterable<T> of(final Iterable<T> iterable)
-'''
-pass
+    '''    public static <T> FluentIterable<T> of(final T singleton)
+    public static <T> FluentIterable<T> of(final T... elements)
+    public static <T> FluentIterable<T> of(final Iterable<T> iterable)
+    '''
 def append():
-'''public FluentIterable<E> append(final E... elements)
-public FluentIterable<E> append(final Iterable<? extends E> other)
-'''
-pass
+    '''    public FluentIterable<E> append(final E... elements)
+    public FluentIterable<E> append(final Iterable<? extends E> other)
+    '''
 def collate():
-'''public FluentIterable<E> collate(final Iterable<? extends E> other)
-public FluentIterable<E> collate(final Iterable<? extends E> other, final Comparator<? super E> comparator)
-'''
-pass
+    '''    public FluentIterable<E> collate(final Iterable<? extends E> other)
+    public FluentIterable<E> collate(final Iterable<? extends E> other, final Comparator<? super E> comparator)
+    '''
 def eval():
-'''public FluentIterable<E> eval()
-'''
-pass
+    '''    public FluentIterable<E> eval()
+    '''
 def filter():
-'''public FluentIterable<E> filter(final Predicate<? super E> predicate)
-'''
-pass
+    '''    public FluentIterable<E> filter(final Predicate<? super E> predicate)
+    '''
 def limit():
-'''public FluentIterable<E> limit(final long maxSize)
-'''
-pass
+    '''    public FluentIterable<E> limit(final long maxSize)
+    '''
 def loop():
-'''public FluentIterable<E> loop()
-'''
-pass
+    '''    public FluentIterable<E> loop()
+    '''
 def reverse():
-'''public FluentIterable<E> reverse()
-'''
-pass
+    '''    public FluentIterable<E> reverse()
+    '''
 def skip():
-'''public FluentIterable<E> skip(final long elementsToSkip)
-'''
-pass
+    '''    public FluentIterable<E> skip(final long elementsToSkip)
+    '''
 def transform():
-'''public <O> FluentIterable<O> transform(final Transformer<? super E, ? extends O> transformer)
-'''
-pass
+    '''    public <O> FluentIterable<O> transform(final Transformer<? super E, ? extends O> transformer)
+    '''
 def unique():
-'''public FluentIterable<E> unique()
-'''
-pass
+    '''    public FluentIterable<E> unique()
+    '''
 def unmodifiable():
-'''public FluentIterable<E> unmodifiable()
-'''
-pass
+    '''    public FluentIterable<E> unmodifiable()
+    '''
 def zip():
-'''public FluentIterable<E> zip(final Iterable<? extends E> other)
-public FluentIterable<E> zip(final Iterable<? extends E>... others)
-'''
-pass
+    '''    public FluentIterable<E> zip(final Iterable<? extends E> other)
+    public FluentIterable<E> zip(final Iterable<? extends E>... others)
+    '''
 def iterator():
-'''public Iterator<E> iterator()
-'''
-pass
+    '''    public Iterator<E> iterator()
+    '''
 def asEnumeration():
-'''public Enumeration<E> asEnumeration()
-'''
-pass
+    '''    public Enumeration<E> asEnumeration()
+    '''
 def allMatch():
-'''public boolean allMatch(final Predicate<? super E> predicate)
-'''
-pass
+    '''    public boolean allMatch(final Predicate<? super E> predicate)
+    '''
 def anyMatch():
-'''public boolean anyMatch(final Predicate<? super E> predicate)
-'''
-pass
+    '''    public boolean anyMatch(final Predicate<? super E> predicate)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final Object object)
-'''
-pass
+    '''    public boolean contains(final Object object)
+    '''
 def forEach():
-'''public void forEach(final Closure<? super E> closure)
-'''
-pass
+    '''    public void forEach(final Closure<? super E> closure)
+    '''
 def get():
-'''public E get(final int position)
-'''
-pass
+    '''    public E get(final int position)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def copyInto():
-'''public void copyInto(final Collection<? super E> collection)
-'''
-pass
+    '''    public void copyInto(final Collection<? super E> collection)
+    '''
 def toArray():
-'''public E[] toArray(final Class<E> arrayClass)
-'''
-pass
+    '''    public E[] toArray(final Class<E> arrayClass)
+    '''
 def toList():
-'''public List<E> toList()
-'''
-pass
+    '''    public List<E> toList()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

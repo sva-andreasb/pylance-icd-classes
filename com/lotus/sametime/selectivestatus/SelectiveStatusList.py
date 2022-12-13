@@ -1,76 +1,57 @@
 def addUser():
-'''public synchronized void addUser(final STUser value)
-'''
-pass
+    '''    public synchronized void addUser(final STUser value)
+    '''
 def addGroup():
-'''public synchronized void addGroup(final STGroup value)
-'''
-pass
+    '''    public synchronized void addGroup(final STGroup value)
+    '''
 def addUsers():
-'''public synchronized void addUsers(final STUser[] array)
-'''
-pass
+    '''    public synchronized void addUsers(final STUser[] array)
+    '''
 def addGroups():
-'''public synchronized void addGroups(final STGroup[] array)
-'''
-pass
+    '''    public synchronized void addGroups(final STGroup[] array)
+    '''
 def removeUser():
-'''public synchronized void removeUser(final STUser stUser)
-'''
-pass
+    '''    public synchronized void removeUser(final STUser stUser)
+    '''
 def removeGroup():
-'''public synchronized void removeGroup(final STGroup stGroup)
-'''
-pass
+    '''    public synchronized void removeGroup(final STGroup stGroup)
+    '''
 def removeUsers():
-'''public synchronized void removeUsers(final STUser[] array)
-'''
-pass
+    '''    public synchronized void removeUsers(final STUser[] array)
+    '''
 def removeGroups():
-'''public synchronized void removeGroups(final STGroup[] array)
-'''
-pass
+    '''    public synchronized void removeGroups(final STGroup[] array)
+    '''
 def removeAll():
-'''public synchronized void removeAll()
-'''
-pass
+    '''    public synchronized void removeAll()
+    '''
 def getListId():
-'''public String getListId()
-'''
-pass
+    '''    public String getListId()
+    '''
 def getTriggerStatus():
-'''public short getTriggerStatus()
-'''
-pass
+    '''    public short getTriggerStatus()
+    '''
 def getDisplayStatus():
-'''public short getDisplayStatus()
-'''
-pass
+    '''    public short getDisplayStatus()
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def getAll():
-'''public synchronized STObject[] getAll()
-'''
-pass
+    '''    public synchronized STObject[] getAll()
+    '''
 def getUsers():
-'''public synchronized STUser[] getUsers()
-'''
-pass
+    '''    public synchronized STUser[] getUsers()
+    '''
 def getGroups():
-'''public synchronized STGroup[] getGroups()
-'''
-pass
+    '''    public synchronized STGroup[] getGroups()
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def isPrivacyOverridden():
-'''public boolean isPrivacyOverridden()
-'''
-pass
+    '''    public boolean isPrivacyOverridden()
+    '''
 def toString():
-'''public synchronized String toString()
-'''
-pass
+    '''    public synchronized String toString()
+    '''

@@ -1,72 +1,54 @@
 def CiTopologyNodeInfo():
-'''public CiTopologyNodeInfo()
-'''
-pass
+    '''    public CiTopologyNodeInfo()
+    '''
 def getIsImpackted():
-'''public String getIsImpackted()
-'''
-pass
+    '''    public String getIsImpackted()
+    '''
 def setIsImpackted():
-'''public void setIsImpackted(final String isImpackted)
-'''
-pass
+    '''    public void setIsImpackted(final String isImpackted)
+    '''
 def packCidata():
-'''public void packCidata(final MboRemote t)
-'''
-pass
+    '''    public void packCidata(final MboRemote t)
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def setTag():
-'''public void setTag(final String tag)
-'''
-pass
+    '''    public void setTag(final String tag)
+    '''
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''
 def setNodeId():
-'''public void setNodeId(final String nodeId)
-'''
-pass
+    '''    public void setNodeId(final String nodeId)
+    '''
 def getCiname():
-'''public String getCiname()
-'''
-pass
+    '''    public String getCiname()
+    '''
 def setCiname():
-'''public void setCiname(final String ciname)
-'''
-pass
+    '''    public void setCiname(final String ciname)
+    '''
 def getClassStrID():
-'''public String getClassStrID()
-'''
-pass
+    '''    public String getClassStrID()
+    '''
 def setClassStrID():
-'''public void setClassStrID(final String classStrID)
-'''
-pass
+    '''    public void setClassStrID(final String classStrID)
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final String status)
-'''
-pass
+    '''    public void setStatus(final String status)
+    '''
 def getClassification():
-'''public String getClassification()
-'''
-pass
+    '''    public String getClassification()
+    '''
 def setClassification():
-'''public void setClassification(final String classification)
-'''
-pass
+    '''    public void setClassification(final String classification)
+    '''
 def getBidiclassification():
-'''public String getBidiclassification()
-'''
-pass
+    '''    public String getBidiclassification()
+    '''
 def setBidiclassification():
-'''public void setBidiclassification(final String bidiclassification)
-'''
-pass
+    '''    public void setBidiclassification(final String bidiclassification)
+    '''

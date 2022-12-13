@@ -1,8 +1,6 @@
 def findRoute():
-'''public MBeanRoute findRoute(final ObjectName objName)
-'''
-pass
+    '''    public MBeanRoute findRoute(final ObjectName objName)
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''

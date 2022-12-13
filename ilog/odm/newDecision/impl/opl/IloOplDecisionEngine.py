@@ -1,133 +1,100 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def notifyChanged():
-'''public void notifyChanged(final Object source)
-'''
-pass
+    '''    public void notifyChanged(final Object source)
+    '''
 def getMappingAccessor():
-'''public IloOplMappingAccessor getMappingAccessor()
-'''
-pass
+    '''    public IloOplMappingAccessor getMappingAccessor()
+    '''
 def getOplModelAccessor():
-'''public IloOplModelAccessor getOplModelAccessor()
-'''
-pass
+    '''    public IloOplModelAccessor getOplModelAccessor()
+    '''
 def freeMemory():
-'''public void freeMemory()
-'''
-pass
+    '''    public void freeMemory()
+    '''
 def postProcessResult():
-'''public void postProcessResult()
-'''
-pass
+    '''    public void postProcessResult()
+    '''
 def getCurrentScenario():
-'''public IloScenario getCurrentScenario()
-'''
-pass
+    '''    public IloScenario getCurrentScenario()
+    '''
 def getMonitoringManager():
-'''public IloMonitoringManager getMonitoringManager()
-'''
-pass
+    '''    public IloMonitoringManager getMonitoringManager()
+    '''
 def beginSession():
-'''public void beginSession(final IloEngineRequest request, final IloErrorReport errorReport, final IloIssueReporter issueReport)
-'''
-pass
+    '''    public void beginSession(final IloEngineRequest request, final IloErrorReport errorReport, final IloIssueReporter issueReport)
+    '''
 def getMonitor():
-'''public IloMonitoringAdapter getMonitor()
-'''
-pass
+    '''    public IloMonitoringAdapter getMonitor()
+    '''
 def isAborted():
-'''public boolean isAborted()
-'''
-pass
+    '''    public boolean isAborted()
+    '''
 def getModelId():
-'''public String getModelId()
-'''
-pass
+    '''    public String getModelId()
+    '''
 def getModelName():
-'''public String getModelName()
-'''
-pass
+    '''    public String getModelName()
+    '''
 def setModelName():
-'''public void setModelName(final String modelName)
-'''
-pass
+    '''    public void setModelName(final String modelName)
+    '''
 def getErrorReport():
-'''public IloErrorReport getErrorReport()
-'''
-pass
+    '''    public IloErrorReport getErrorReport()
+    '''
 def getOptimModelDescription():
-'''public IloOptimDesc getOptimModelDescription()
-'''
-pass
+    '''    public IloOptimDesc getOptimModelDescription()
+    '''
 def addDecisionVariableConstraints():
-'''public void addDecisionVariableConstraints()
-'''
-pass
+    '''    public void addDecisionVariableConstraints()
+    '''
 def buildObjective():
-'''public void buildObjective()
-'''
-pass
+    '''    public void buildObjective()
+    '''
 def changeRequirementPriorities():
-'''public void changeRequirementPriorities()
-'''
-pass
+    '''    public void changeRequirementPriorities()
+    '''
 def publishEngineResultsData():
-'''public void publishEngineResultsData()
-'''
-pass
+    '''    public void publishEngineResultsData()
+    '''
 def publishEngineResultsState():
-'''public void publishEngineResultsState()
-'''
-pass
+    '''    public void publishEngineResultsState()
+    '''
 def publishGoalsBreadown():
-'''public void publishGoalsBreadown()
-'''
-pass
+    '''    public void publishGoalsBreadown()
+    '''
 def publishGoalsValues():
-'''public void publishGoalsValues()
-'''
-pass
+    '''    public void publishGoalsValues()
+    '''
 def publishRequirements():
-'''public void publishRequirements()
-'''
-pass
+    '''    public void publishRequirements()
+    '''
 def getIssueReporter():
-'''public IloIssueReporter getIssueReporter()
-'''
-pass
+    '''    public IloIssueReporter getIssueReporter()
+    '''
 def getEngineRequest():
-'''public IloEngineRequest getEngineRequest()
-'''
-pass
+    '''    public IloEngineRequest getEngineRequest()
+    '''
 def publishErrorReport():
-'''public void publishErrorReport()
-'''
-pass
+    '''    public void publishErrorReport()
+    '''
 def getMessageFormatter():
-'''public IloMessageParameterFormatter getMessageFormatter()
-'''
-pass
+    '''    public IloMessageParameterFormatter getMessageFormatter()
+    '''
 def generateRequirementsPreview():
-'''public IloTable generateRequirementsPreview(final boolean solve)
-'''
-pass
+    '''    public IloTable generateRequirementsPreview(final boolean solve)
+    '''
 def endSession():
-'''public void endSession()
-'''
-pass
+    '''    public void endSession()
+    '''
 def getExecutionController():
-'''public IloEngineExecutionController getExecutionController()
-'''
-pass
+    '''    public IloEngineExecutionController getExecutionController()
+    '''
 def addEngineListener():
-'''public void addEngineListener(final IloIntermediateResultListener listener)
-'''
-pass
+    '''    public void addEngineListener(final IloIntermediateResultListener listener)
+    '''
 def buildDecisionModel():
-'''public final void buildDecisionModel()
-'''
-pass
+    '''    public final void buildDecisionModel()
+    '''
 def publishGoalBounds():
-'''public void publishGoalBounds()
-'''
-pass
+    '''    public void publishGoalBounds()
+    '''

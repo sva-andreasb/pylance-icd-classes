@@ -1,4 +1,3 @@
 def InvalidDataStoreElementException():
-'''public InvalidDataStoreElementException(final String message)
-'''
-pass
+    '''    public InvalidDataStoreElementException(final String message)
+    '''

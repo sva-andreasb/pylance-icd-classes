@@ -1,44 +1,33 @@
 def BuiltConfiguration():
-'''public BuiltConfiguration(final LoggerContext loggerContext, final ConfigurationSource source, final Component rootComponent)
-'''
-pass
+    '''    public BuiltConfiguration(final LoggerContext loggerContext, final ConfigurationSource source, final Component rootComponent)
+    '''
 def setup():
-'''public void setup()
-'''
-pass
+    '''    public void setup()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def setContentType():
-'''public void setContentType(final String contentType)
-'''
-pass
+    '''    public void setContentType(final String contentType)
+    '''
 def createAdvertiser():
-'''public void createAdvertiser(final String advertiserString, final ConfigurationSource configSource)
-'''
-pass
+    '''    public void createAdvertiser(final String advertiserString, final ConfigurationSource configSource)
+    '''
 def getStatusConfiguration():
-'''public StatusConfiguration getStatusConfiguration()
-'''
-pass
+    '''    public StatusConfiguration getStatusConfiguration()
+    '''
 def setPluginPackages():
-'''public void setPluginPackages(final String packages)
-'''
-pass
+    '''    public void setPluginPackages(final String packages)
+    '''
 def setShutdownHook():
-'''public void setShutdownHook(final String flag)
-'''
-pass
+    '''    public void setShutdownHook(final String flag)
+    '''
 def setShutdownTimeoutMillis():
-'''public void setShutdownTimeoutMillis(final long shutdownTimeoutMillis)
-'''
-pass
+    '''    public void setShutdownTimeoutMillis(final long shutdownTimeoutMillis)
+    '''
 def setMonitorInterval():
-'''public void setMonitorInterval(final int intervalSeconds)
-'''
-pass
+    '''    public void setMonitorInterval(final int intervalSeconds)
+    '''
 def getPluginManager():
-'''public PluginManager getPluginManager()
-'''
-pass
+    '''    public PluginManager getPluginManager()
+    '''

@@ -1,29 +1,22 @@
 def InsightCacheImpl():
-'''public InsightCacheImpl()
-'''
-pass
+    '''    public InsightCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getAllInsights():
-'''public Map<String, InsightInfo> getAllInsights()
-'''
-pass
+    '''    public Map<String, InsightInfo> getAllInsights()
+    '''
 def getInsightByName():
-'''public InsightInfo getInsightByName(final String insightName)
-'''
-pass
+    '''    public InsightInfo getInsightByName(final String insightName)
+    '''
 def getAllInsightInfo():
-'''public Map<String, InsightInfo> getAllInsightInfo()
-'''
-pass
+    '''    public Map<String, InsightInfo> getAllInsightInfo()
+    '''

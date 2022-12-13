@@ -1,8 +1,6 @@
 def PmComFldTkTicketId():
-'''public PmComFldTkTicketId(final MboValue mbv)
-'''
-pass
+    '''    public PmComFldTkTicketId(final MboValue mbv)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

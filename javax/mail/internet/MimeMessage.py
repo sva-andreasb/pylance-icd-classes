@@ -1,247 +1,188 @@
 def getLineCount():
-'''public int getLineCount()
-'''
-pass
+    '''    public int getLineCount()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def saveChanges():
-'''public void saveChanges()
-'''
-pass
+    '''    public void saveChanges()
+    '''
 def setFrom():
-'''public void setFrom()
-public void setFrom(final Address address)
-'''
-pass
+    '''    public void setFrom()
+    public void setFrom(final Address address)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getRawInputStream():
-'''public InputStream getRawInputStream()
-'''
-pass
+    '''    public InputStream getRawInputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream os)
-public void writeTo(final OutputStream os, final String[] ignoreList)
-'''
-pass
+    '''    public void writeTo(final OutputStream os)
+    public void writeTo(final OutputStream os, final String[] ignoreList)
+    '''
 def getContent():
-'''public Object getContent()
-'''
-pass
+    '''    public Object getContent()
+    '''
 def getContentID():
-'''public String getContentID()
-'''
-pass
+    '''    public String getContentID()
+    '''
 def getContentMD5():
-'''public String getContentMD5()
-'''
-pass
+    '''    public String getContentMD5()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getDisposition():
-'''public String getDisposition()
-'''
-pass
+    '''    public String getDisposition()
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def getMessageID():
-'''public String getMessageID()
-'''
-pass
+    '''    public String getMessageID()
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def getContentLanguage():
-'''public String[] getContentLanguage()
-'''
-pass
+    '''    public String[] getContentLanguage()
+    '''
 def addHeaderLine():
-'''public void addHeaderLine(final String line)
-'''
-pass
+    '''    public void addHeaderLine(final String line)
+    '''
 def removeHeader():
-'''public void removeHeader(final String name)
-'''
-pass
+    '''    public void removeHeader(final String name)
+    '''
 def setContentID():
-'''public void setContentID(final String cid)
-'''
-pass
+    '''    public void setContentID(final String cid)
+    '''
 def setContentMD5():
-'''public void setContentMD5(final String md5)
-'''
-pass
+    '''    public void setContentMD5(final String md5)
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-public void setDescription(final String description, final String charset)
-'''
-pass
+    '''    public void setDescription(final String description)
+    public void setDescription(final String description, final String charset)
+    '''
 def setDisposition():
-'''public void setDisposition(final String disposition)
-'''
-pass
+    '''    public void setDisposition(final String disposition)
+    '''
 def setFileName():
-'''public void setFileName(final String filename)
-'''
-pass
+    '''    public void setFileName(final String filename)
+    '''
 def setSubject():
-'''public void setSubject(final String subject)
-public void setSubject(final String subject, final String charset)
-'''
-pass
+    '''    public void setSubject(final String subject)
+    public void setSubject(final String subject, final String charset)
+    '''
 def setText():
-'''public void setText(final String text)
-public void setText(final String text, final String charset)
-'''
-pass
+    '''    public void setText(final String text)
+    public void setText(final String text, final String charset)
+    '''
 def isMimeType():
-'''public boolean isMimeType(final String mimeType)
-'''
-pass
+    '''    public boolean isMimeType(final String mimeType)
+    '''
 def setContentLanguage():
-'''public void setContentLanguage(final String[] languages)
-'''
-pass
+    '''    public void setContentLanguage(final String[] languages)
+    '''
 def getReceivedDate():
-'''public Date getReceivedDate()
-'''
-pass
+    '''    public Date getReceivedDate()
+    '''
 def getSentDate():
-'''public Date getSentDate()
-'''
-pass
+    '''    public Date getSentDate()
+    '''
 def setSentDate():
-'''public void setSentDate(final Date d)
-'''
-pass
+    '''    public void setSentDate(final Date d)
+    '''
 def getAllHeaderLines():
-'''public Enumeration getAllHeaderLines()
-'''
-pass
+    '''    public Enumeration getAllHeaderLines()
+    '''
 def getAllHeaders():
-'''public Enumeration getAllHeaders()
-'''
-pass
+    '''    public Enumeration getAllHeaders()
+    '''
 def getDataHandler():
-'''public synchronized DataHandler getDataHandler()
-'''
-pass
+    '''    public synchronized DataHandler getDataHandler()
+    '''
 def setDataHandler():
-'''public synchronized void setDataHandler(final DataHandler dh)
-'''
-pass
+    '''    public synchronized void setDataHandler(final DataHandler dh)
+    '''
 def getSender():
-'''public Address getSender()
-'''
-pass
+    '''    public Address getSender()
+    '''
 def getAllRecipients():
-'''public Address[] getAllRecipients()
-'''
-pass
+    '''    public Address[] getAllRecipients()
+    '''
 def getFrom():
-'''public Address[] getFrom()
-'''
-pass
+    '''    public Address[] getFrom()
+    '''
 def getReplyTo():
-'''public Address[] getReplyTo()
-'''
-pass
+    '''    public Address[] getReplyTo()
+    '''
 def setSender():
-'''public void setSender(final Address address)
-'''
-pass
+    '''    public void setSender(final Address address)
+    '''
 def addFrom():
-'''public void addFrom(final Address[] addresses)
-'''
-pass
+    '''    public void addFrom(final Address[] addresses)
+    '''
 def setReplyTo():
-'''public void setReplyTo(final Address[] addresses)
-'''
-pass
+    '''    public void setReplyTo(final Address[] addresses)
+    '''
 def getFlags():
-'''public synchronized Flags getFlags()
-'''
-pass
+    '''    public synchronized Flags getFlags()
+    '''
 def setFlags():
-'''public synchronized void setFlags(final Flags flag, final boolean set)
-'''
-pass
+    '''    public synchronized void setFlags(final Flags flag, final boolean set)
+    '''
 def isSet():
-'''public synchronized boolean isSet(final Flags.Flag flag)
-'''
-pass
+    '''    public synchronized boolean isSet(final Flags.Flag flag)
+    '''
 def reply():
-'''public Message reply(final boolean replyToAll)
-'''
-pass
+    '''    public Message reply(final boolean replyToAll)
+    '''
 def setContent():
-'''public void setContent(final Multipart mp)
-public void setContent(final Object o, final String type)
-'''
-pass
+    '''    public void setContent(final Multipart mp)
+    public void setContent(final Object o, final String type)
+    '''
 def MimeMessage():
-'''public MimeMessage(final Session session)
-public MimeMessage(final MimeMessage source)
-public MimeMessage(final Session session, final InputStream is)
-'''
-pass
+    '''    public MimeMessage(final Session session)
+    public MimeMessage(final MimeMessage source)
+    public MimeMessage(final Session session, final InputStream is)
+    '''
 def getHeader():
-'''public String[] getHeader(final String name)
-public String getHeader(final String name, final String delimiter)
-'''
-pass
+    '''    public String[] getHeader(final String name)
+    public String getHeader(final String name, final String delimiter)
+    '''
 def addHeader():
-'''public void addHeader(final String name, final String value)
-'''
-pass
+    '''    public void addHeader(final String name, final String value)
+    '''
 def setHeader():
-'''public void setHeader(final String name, final String value)
-'''
-pass
+    '''    public void setHeader(final String name, final String value)
+    '''
 def addRecipients():
-'''public void addRecipients(final Message.RecipientType type, final String addresses)
-public void addRecipients(final Message.RecipientType type, final Address[] addresses)
-'''
-pass
+    '''    public void addRecipients(final Message.RecipientType type, final String addresses)
+    public void addRecipients(final Message.RecipientType type, final Address[] addresses)
+    '''
 def setRecipients():
-'''public void setRecipients(final Message.RecipientType type, final String addresses)
-public void setRecipients(final Message.RecipientType type, final Address[] addresses)
-'''
-pass
+    '''    public void setRecipients(final Message.RecipientType type, final String addresses)
+    public void setRecipients(final Message.RecipientType type, final Address[] addresses)
+    '''
 def getMatchingHeaderLines():
-'''public Enumeration getMatchingHeaderLines(final String[] names)
-'''
-pass
+    '''    public Enumeration getMatchingHeaderLines(final String[] names)
+    '''
 def getMatchingHeaders():
-'''public Enumeration getMatchingHeaders(final String[] names)
-'''
-pass
+    '''    public Enumeration getMatchingHeaders(final String[] names)
+    '''
 def getNonMatchingHeaderLines():
-'''public Enumeration getNonMatchingHeaderLines(final String[] names)
-'''
-pass
+    '''    public Enumeration getNonMatchingHeaderLines(final String[] names)
+    '''
 def getNonMatchingHeaders():
-'''public Enumeration getNonMatchingHeaders(final String[] names)
-'''
-pass
+    '''    public Enumeration getNonMatchingHeaders(final String[] names)
+    '''
 def getRecipients():
-'''public Address[] getRecipients(final Message.RecipientType type)
-'''
-pass
+    '''    public Address[] getRecipients(final Message.RecipientType type)
+    '''

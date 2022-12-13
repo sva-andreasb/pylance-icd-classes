@@ -1,20 +1,15 @@
 def RollUpModelUpdater():
-'''public RollUpModelUpdater(final IMXActivityModelProcessor processor, final ItemVisitor itemVisitor, final SummaryVisitor summaryVisitor, final IMXGanttModelChangedHandler changeHandler)
-'''
-pass
+    '''    public RollUpModelUpdater(final IMXActivityModelProcessor processor, final ItemVisitor itemVisitor, final SummaryVisitor summaryVisitor, final IMXGanttModelChangedHandler changeHandler)
+    '''
 def updateItems():
-'''public void updateItems(final List<IMXActivity> activities)
-'''
-pass
+    '''    public void updateItems(final List<IMXActivity> activities)
+    '''
 def update():
-'''public void update(final IMXActivity parent)
-'''
-pass
+    '''    public void update(final IMXActivity parent)
+    '''
 def getProcessed():
-'''public int getProcessed()
-'''
-pass
+    '''    public int getProcessed()
+    '''
 def getChanged():
-'''public int getChanged()
-'''
-pass
+    '''    public int getChanged()
+    '''

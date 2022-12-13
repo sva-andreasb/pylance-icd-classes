@@ -1,20 +1,15 @@
 def PlusPFldValue():
-'''public PlusPFldValue(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldValue(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String value, final boolean b)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String value, final boolean b)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def chooseActualDomainValues():
-'''public void chooseActualDomainValues()
-'''
-pass
+    '''    public void chooseActualDomainValues()
+    '''

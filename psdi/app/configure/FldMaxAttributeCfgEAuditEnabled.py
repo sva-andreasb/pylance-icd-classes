@@ -1,8 +1,6 @@
 def FldMaxAttributeCfgEAuditEnabled():
-'''public FldMaxAttributeCfgEAuditEnabled(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxAttributeCfgEAuditEnabled(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

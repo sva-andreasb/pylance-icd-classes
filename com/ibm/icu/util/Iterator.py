@@ -1,16 +1,12 @@
 def reset():
-'''public Iterator reset()
-'''
-pass
+    '''    public Iterator reset()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Entry next()
-'''
-pass
+    '''    public Entry next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

@@ -1,24 +1,18 @@
 def ASNPersavilBean():
-'''public ASNPersavilBean()
-'''
-pass
+    '''    public ASNPersavilBean()
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(final String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''
 def setPersonId():
-'''public void setPersonId(final String personId)
-'''
-pass
+    '''    public void setPersonId(final String personId)
+    '''
 def getPersonId():
-'''public String getPersonId()
-'''
-pass
+    '''    public String getPersonId()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

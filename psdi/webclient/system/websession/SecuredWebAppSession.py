@@ -1,12 +1,9 @@
 def SecuredWebAppSession():
-'''public SecuredWebAppSession()
-'''
-pass
+    '''    public SecuredWebAppSession()
+    '''
 def isConnected():
-'''public boolean isConnected()
-'''
-pass
+    '''    public boolean isConnected()
+    '''
 def connect():
-'''public synchronized void connect()
-'''
-pass
+    '''    public synchronized void connect()
+    '''

@@ -1,165 +1,125 @@
-ERROR_FILE_AND_SRCDIR = "String  <fixcrlf> error: srcdir and file are mutually exclusive""
+ERROR_FILE_AND_SRCDIR = "String  \"<fixcrlf> error: srcdir and file are mutually exclusive\""
 def FixCRLF():
-'''public FixCRLF()
-'''
-pass
+    '''    public FixCRLF()
+    '''
 def chain():
-'''public final Reader chain(final Reader rdr)
-'''
-pass
+    '''    public final Reader chain(final Reader rdr)
+    '''
 def setSrcdir():
-'''public void setSrcdir(final File srcDir)
-'''
-pass
+    '''    public void setSrcdir(final File srcDir)
+    '''
 def setDestdir():
-'''public void setDestdir(final File destDir)
-'''
-pass
+    '''    public void setDestdir(final File destDir)
+    '''
 def setJavafiles():
-'''public void setJavafiles(final boolean javafiles)
-'''
-pass
+    '''    public void setJavafiles(final boolean javafiles)
+    '''
 def setFile():
-'''public void setFile(final File file)
-'''
-pass
+    '''    public void setFile(final File file)
+    '''
 def setEol():
-'''public void setEol(final CrLf attr)
-'''
-pass
+    '''    public void setEol(final CrLf attr)
+    '''
 def setCr():
-'''public void setCr(final AddAsisRemove attr)
-'''
-pass
+    '''    public void setCr(final AddAsisRemove attr)
+    '''
 def setTab():
-'''public void setTab(final AddAsisRemove attr)
-'''
-pass
+    '''    public void setTab(final AddAsisRemove attr)
+    '''
 def setTablength():
-'''public void setTablength(final int tlength)
-'''
-pass
+    '''    public void setTablength(final int tlength)
+    '''
 def setEof():
-'''public void setEof(final AddAsisRemove attr)
-'''
-pass
+    '''    public void setEof(final AddAsisRemove attr)
+    '''
 def setEncoding():
-'''public void setEncoding(final String encoding)
-'''
-pass
+    '''    public void setEncoding(final String encoding)
+    '''
 def setOutputEncoding():
-'''public void setOutputEncoding(final String outputEncoding)
-'''
-pass
+    '''    public void setOutputEncoding(final String outputEncoding)
+    '''
 def setFixlast():
-'''public void setFixlast(final boolean fixlast)
-'''
-pass
+    '''    public void setFixlast(final boolean fixlast)
+    '''
 def setPreserveLastModified():
-'''public void setPreserveLastModified(final boolean preserve)
-'''
-pass
+    '''    public void setPreserveLastModified(final boolean preserve)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def OneLiner():
-'''public OneLiner(final File srcFile)
-'''
-pass
+    '''    public OneLiner(final File srcFile)
+    '''
 def getEofStr():
-'''public String getEofStr()
-'''
-pass
+    '''    public String getEofStr()
+    '''
 def getState():
-'''public int getState()
-public int getState()
-'''
-pass
+    '''    public int getState()
+    public int getState()
+    '''
 def setState():
-'''public void setState(final int state)
-public void setState(final int state)
-'''
-pass
+    '''    public void setState(final int state)
+    public void setState(final int state)
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def BufferLine():
-'''public BufferLine(final String line, final String eolStr)
-'''
-pass
+    '''    public BufferLine(final String line, final String eolStr)
+    '''
 def getNext():
-'''public int getNext()
-'''
-pass
+    '''    public int getNext()
+    '''
 def setNext():
-'''public void setNext(final int next)
-'''
-pass
+    '''    public void setNext(final int next)
+    '''
 def getLookahead():
-'''public int getLookahead()
-'''
-pass
+    '''    public int getLookahead()
+    '''
 def setLookahead():
-'''public void setLookahead(final int lookahead)
-'''
-pass
+    '''    public void setLookahead(final int lookahead)
+    '''
 def getChar():
-'''public char getChar(final int i)
-'''
-pass
+    '''    public char getChar(final int i)
+    '''
 def getNextChar():
-'''public char getNextChar()
-'''
-pass
+    '''    public char getNextChar()
+    '''
 def getNextCharInc():
-'''public char getNextCharInc()
-'''
-pass
+    '''    public char getNextCharInc()
+    '''
 def getColumn():
-'''public int getColumn()
-'''
-pass
+    '''    public int getColumn()
+    '''
 def setColumn():
-'''public void setColumn(final int col)
-'''
-pass
+    '''    public void setColumn(final int col)
+    '''
 def incColumn():
-'''public int incColumn()
-'''
-pass
+    '''    public int incColumn()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def getEolLength():
-'''public int getEolLength()
-'''
-pass
+    '''    public int getEolLength()
+    '''
 def getLineString():
-'''public String getLineString()
-'''
-pass
+    '''    public String getLineString()
+    '''
 def getEol():
-'''public String getEol()
-'''
-pass
+    '''    public String getEol()
+    '''
 def substring():
-'''public String substring(final int begin)
-public String substring(final int begin, final int end)
-'''
-pass
+    '''    public String substring(final int begin)
+    public String substring(final int begin, final int end)
+    '''
 def getValues():
-'''public String[] getValues()
-public String[] getValues()
-'''
-pass
+    '''    public String[] getValues()
+    public String[] getValues()
+    '''

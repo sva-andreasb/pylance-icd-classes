@@ -1,20 +1,15 @@
 def ExpBuilderObjectTree():
-'''public ExpBuilderObjectTree(final MboSet ms)
-'''
-pass
+    '''    public ExpBuilderObjectTree(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isTop():
-'''public boolean isTop()
-'''
-pass
+    '''    public boolean isTop()
+    '''
 def hasChildren():
-'''public boolean hasChildren()
-'''
-pass
+    '''    public boolean hasChildren()
+    '''
 def hasParents():
-'''public boolean hasParents()
-'''
-pass
+    '''    public boolean hasParents()
+    '''

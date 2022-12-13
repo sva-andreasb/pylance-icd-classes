@@ -1,56 +1,42 @@
 def SAVE():
-'''public int SAVE()
-'''
-pass
+    '''    public int SAVE()
+    '''
 def saveYesNoCheck():
-'''public boolean saveYesNoCheck()
-'''
-pass
+    '''    public boolean saveYesNoCheck()
+    '''
 def APPLYPS():
-'''public int APPLYPS()
-'''
-pass
+    '''    public int APPLYPS()
+    '''
 def APPLYPSLT():
-'''public int APPLYPSLT()
-'''
-pass
+    '''    public int APPLYPSLT()
+    '''
 def VIEWCOSTPR():
-'''public int VIEWCOSTPR()
-'''
-pass
+    '''    public int VIEWCOSTPR()
+    '''
 def PLUSPQUOTE():
-'''public int PLUSPQUOTE()
-'''
-pass
+    '''    public int PLUSPQUOTE()
+    '''
 def undoQuoteChanges():
-'''public int undoQuoteChanges()
-'''
-pass
+    '''    public int undoQuoteChanges()
+    '''
 def MODIFYPS():
-'''public int MODIFYPS()
-'''
-pass
+    '''    public int MODIFYPS()
+    '''
 def ASSOCIATEPSLT():
-'''public int ASSOCIATEPSLT()
-'''
-pass
+    '''    public int ASSOCIATEPSLT()
+    '''
 def PLUSPCREATEBILL():
-'''public int PLUSPCREATEBILL()
-'''
-pass
+    '''    public int PLUSPCREATEBILL()
+    '''
 def createWorkorder():
-'''public int createWorkorder()
-'''
-pass
+    '''    public int createWorkorder()
+    '''
 def PLUSPCREATEMEST():
-'''public int PLUSPCREATEMEST()
-'''
-pass
+    '''    public int PLUSPCREATEMEST()
+    '''
 def PLUSPSPLIT():
-'''public int PLUSPSPLIT()
-'''
-pass
+    '''    public int PLUSPSPLIT()
+    '''
 def PLUSPDOWNPMT():
-'''public int PLUSPDOWNPMT()
-'''
-pass
+    '''    public int PLUSPDOWNPMT()
+    '''

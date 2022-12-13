@@ -1,64 +1,48 @@
 def setInputModel():
-'''public void setInputModel(final String inputModel)
-'''
-pass
+    '''    public void setInputModel(final String inputModel)
+    '''
 def getInputModel():
-'''public String getInputModel()
-'''
-pass
+    '''    public String getInputModel()
+    '''
 def setDatabaseType():
-'''public void setDatabaseType(final String databaseType)
-'''
-pass
+    '''    public void setDatabaseType(final String databaseType)
+    '''
 def getDatabaseType():
-'''public String getDatabaseType()
-'''
-pass
+    '''    public String getDatabaseType()
+    '''
 def setDatabaseSchema():
-'''public void setDatabaseSchema(final String databaseSchema)
-'''
-pass
+    '''    public void setDatabaseSchema(final String databaseSchema)
+    '''
 def getDatabaseSchema():
-'''public String getDatabaseSchema()
-'''
-pass
+    '''    public String getDatabaseSchema()
+    '''
 def setDatabaseName():
-'''public void setDatabaseName(final String databaseName)
-'''
-pass
+    '''    public void setDatabaseName(final String databaseName)
+    '''
 def getDatabaseName():
-'''public String getDatabaseName()
-'''
-pass
+    '''    public String getDatabaseName()
+    '''
 def setDataSourceName():
-'''public void setDataSourceName(final String dataSourceName)
-'''
-pass
+    '''    public void setDataSourceName(final String dataSourceName)
+    '''
 def getDataSourceName():
-'''public String getDataSourceName()
-'''
-pass
+    '''    public String getDataSourceName()
+    '''
 def setContentStorePackageLocation():
-'''public void setContentStorePackageLocation(final String contentStorePackageLocation)
-'''
-pass
+    '''    public void setContentStorePackageLocation(final String contentStorePackageLocation)
+    '''
 def getContentStorePackageLocation():
-'''public String getContentStorePackageLocation()
-'''
-pass
+    '''    public String getContentStorePackageLocation()
+    '''
 def setQueryMode():
-'''public void setQueryMode(final String queryMode)
-'''
-pass
+    '''    public void setQueryMode(final String queryMode)
+    '''
 def getQueryMode():
-'''public String getQueryMode()
-'''
-pass
+    '''    public String getQueryMode()
+    '''
 def setMultiserver():
-'''public void setMultiserver(final boolean multiserver)
-'''
-pass
+    '''    public void setMultiserver(final boolean multiserver)
+    '''
 def isMultiserver():
-'''public boolean isMultiserver()
-'''
-pass
+    '''    public boolean isMultiserver()
+    '''

@@ -1,28 +1,21 @@
 def acceptsURL():
-'''public boolean acceptsURL(final String url)
-'''
-pass
+    '''    public boolean acceptsURL(final String url)
+    '''
 def connect():
-'''public Connection connect(final String url, final Properties info)
-'''
-pass
+    '''    public Connection connect(final String url, final Properties info)
+    '''
 def getMajorVersion():
-'''public int getMajorVersion()
-'''
-pass
+    '''    public int getMajorVersion()
+    '''
 def getMinorVersion():
-'''public int getMinorVersion()
-'''
-pass
+    '''    public int getMinorVersion()
+    '''
 def getPropertyInfo():
-'''public DriverPropertyInfo[] getPropertyInfo(final String url, final Properties info)
-'''
-pass
+    '''    public DriverPropertyInfo[] getPropertyInfo(final String url, final Properties info)
+    '''
 def jdbcCompliant():
-'''public boolean jdbcCompliant()
-'''
-pass
+    '''    public boolean jdbcCompliant()
+    '''
 def getParentLogger():
-'''public Logger getParentLogger()
-'''
-pass
+    '''    public Logger getParentLogger()
+    '''

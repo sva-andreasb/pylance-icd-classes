@@ -1,8 +1,6 @@
 def newInstance():
-'''public SmackDaneVerifier newInstance()
-'''
-pass
+    '''    public SmackDaneVerifier newInstance()
+    '''
 def setup():
-'''public static void setup()
-'''
-pass
+    '''    public static void setup()
+    '''

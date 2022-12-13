@@ -1,128 +1,96 @@
 def init():
-'''public void init(final InputStream inputStream, final String charSetEncoding, final String url, final String contentType)
-'''
-pass
+    '''    public void init(final InputStream inputStream, final String charSetEncoding, final String url, final String contentType)
+    '''
 def setOMBuilderFactory():
-'''public void setOMBuilderFactory(final OMFactory ombuilderFactory)
-'''
-pass
+    '''    public void setOMBuilderFactory(final OMFactory ombuilderFactory)
+    '''
 def reset():
-'''public void reset(final OMNode node)
-'''
-pass
+    '''    public void reset(final OMNode node)
+    '''
 def discard():
-'''public void discard(final OMElement element)
-'''
-pass
+    '''    public void discard(final OMElement element)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getNamespaceCount():
-'''public int getNamespaceCount()
-'''
-pass
+    '''    public int getNamespaceCount()
+    '''
 def getNamespacePrefix():
-'''public String getNamespacePrefix(final int index)
-'''
-pass
+    '''    public String getNamespacePrefix(final int index)
+    '''
 def getNamespaceUri():
-'''public String getNamespaceUri(final int index)
-'''
-pass
+    '''    public String getNamespaceUri(final int index)
+    '''
 def setCache():
-'''public void setCache(final boolean b)
-'''
-pass
+    '''    public void setCache(final boolean b)
+    '''
 def isCache():
-'''public boolean isCache()
-'''
-pass
+    '''    public boolean isCache()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def getAttributeCount():
-'''public int getAttributeCount()
-'''
-pass
+    '''    public int getAttributeCount()
+    '''
 def getAttributeNamespace():
-'''public String getAttributeNamespace(final int arg)
-'''
-pass
+    '''    public String getAttributeNamespace(final int arg)
+    '''
 def getAttributeName():
-'''public String getAttributeName(final int arg)
-'''
-pass
+    '''    public String getAttributeName(final int arg)
+    '''
 def getAttributePrefix():
-'''public String getAttributePrefix(final int arg)
-'''
-pass
+    '''    public String getAttributePrefix(final int arg)
+    '''
 def getParser():
-'''public Object getParser()
-'''
-pass
+    '''    public Object getParser()
+    '''
 def isCompleted():
-'''public boolean isCompleted()
-'''
-pass
+    '''    public boolean isCompleted()
+    '''
 def registerCustomBuilder():
-'''public CustomBuilder registerCustomBuilder(final QName qName, final int maxDepth, final CustomBuilder customBuilder)
-'''
-pass
+    '''    public CustomBuilder registerCustomBuilder(final QName qName, final int maxDepth, final CustomBuilder customBuilder)
+    '''
 def registerCustomBuilderForPayload():
-'''public CustomBuilder registerCustomBuilderForPayload(final CustomBuilder customBuilder)
-'''
-pass
+    '''    public CustomBuilder registerCustomBuilderForPayload(final CustomBuilder customBuilder)
+    '''
 def getBuilderType():
-'''public short getBuilderType()
-'''
-pass
+    '''    public short getBuilderType()
+    '''
 def registerExternalContentHandler():
-'''public void registerExternalContentHandler(final Object obj)
-'''
-pass
+    '''    public void registerExternalContentHandler(final Object obj)
+    '''
 def getRegisteredContentHandler():
-'''public Object getRegisteredContentHandler()
-'''
-pass
+    '''    public Object getRegisteredContentHandler()
+    '''
 def getDocument():
-'''public OMDocument getDocument()
-'''
-pass
+    '''    public OMDocument getDocument()
+    '''
 def getCharsetEncoding():
-'''public String getCharsetEncoding()
-'''
-pass
+    '''    public String getCharsetEncoding()
+    '''
 def getLastNode():
-'''public OMNode getLastNode()
-'''
-pass
+    '''    public OMNode getLastNode()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getReaderProperty():
-'''public Object getReaderProperty(final String name)
-'''
-pass
+    '''    public Object getReaderProperty(final String name)
+    '''
 def getCharacterEncoding():
-'''public String getCharacterEncoding()
-'''
-pass
+    '''    public String getCharacterEncoding()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def releaseParserOnClose():
-'''public void releaseParserOnClose(final boolean value)
-'''
-pass
+    '''    public void releaseParserOnClose(final boolean value)
+    '''

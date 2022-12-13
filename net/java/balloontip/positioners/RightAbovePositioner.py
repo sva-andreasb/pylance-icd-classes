@@ -1,4 +1,3 @@
 def RightAbovePositioner():
-'''public RightAbovePositioner(final int hO, final int vO)
-'''
-pass
+    '''    public RightAbovePositioner(final int hO, final int vO)
+    '''

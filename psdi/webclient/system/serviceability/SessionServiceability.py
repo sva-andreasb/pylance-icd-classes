@@ -1,8 +1,6 @@
 def SessionServiceability():
-'''public SessionServiceability(final WebClientSession session)
-'''
-pass
+    '''    public SessionServiceability(final WebClientSession session)
+    '''
 def entryAdded():
-'''public void entryAdded(final LogEntry entry)
-'''
-pass
+    '''    public void entryAdded(final LogEntry entry)
+    '''

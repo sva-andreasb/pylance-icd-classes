@@ -1,24 +1,18 @@
 def fromAffixPattern():
-'''public static AffixPatternMatcher fromAffixPattern(final String affixPattern, final AffixTokenMatcherFactory factory, final int parseFlags)
-'''
-pass
+    '''    public static AffixPatternMatcher fromAffixPattern(final String affixPattern, final AffixTokenMatcherFactory factory, final int parseFlags)
+    '''
 def consumeToken():
-'''public void consumeToken(final int typeOrCp)
-'''
-pass
+    '''    public void consumeToken(final int typeOrCp)
+    '''
 def getPattern():
-'''public String getPattern()
-'''
-pass
+    '''    public String getPattern()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

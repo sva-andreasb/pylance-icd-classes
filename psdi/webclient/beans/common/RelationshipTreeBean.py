@@ -1,32 +1,24 @@
 def RelationshipTreeBean():
-'''public RelationshipTreeBean()
-'''
-pass
+    '''    public RelationshipTreeBean()
+    '''
 def getTreeControlObjectName():
-'''public String getTreeControlObjectName()
-'''
-pass
+    '''    public String getTreeControlObjectName()
+    '''
 def setRelationshipTreeObject():
-'''public synchronized void setRelationshipTreeObject()
-'''
-pass
+    '''    public synchronized void setRelationshipTreeObject()
+    '''
 def getString():
-'''public synchronized String getString(final String attribute)
-'''
-pass
+    '''    public synchronized String getString(final String attribute)
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def getExpBuilder():
-'''public ExpressionBuilderRemote getExpBuilder()
-'''
-pass
+    '''    public ExpressionBuilderRemote getExpBuilder()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def setcurrentnode():
-'''public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
-'''
-pass
+    '''    public void setcurrentnode(final String newobjectname, final String newuniqueidname, final String newuniqueidvalue)
+    '''

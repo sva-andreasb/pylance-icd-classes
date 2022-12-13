@@ -1,37 +1,28 @@
 def PMForecast():
-'''public PMForecast(final MboSet ms)
-'''
-pass
+    '''    public PMForecast(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long modifier)
-'''
-pass
+    '''    public void delete(final long modifier)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def getForecastDateForSeqNo():
-'''public Date getForecastDateForSeqNo(final int forecastseqno)
-public Date getForecastDateForSeqNo(final MboSetRemote pmForecastSet, final int forecastseqno, final boolean addJPDurFlag)
-'''
-pass
+    '''    public Date getForecastDateForSeqNo(final int forecastseqno)
+    public Date getForecastDateForSeqNo(final MboSetRemote pmForecastSet, final int forecastseqno, final boolean addJPDurFlag)
+    '''
 def getFirstPMForecastRecord():
-'''public MboRemote getFirstPMForecastRecord()
-'''
-pass
+    '''    public MboRemote getFirstPMForecastRecord()
+    '''
 def isFirstForecastRecord():
-'''public boolean isFirstForecastRecord()
-'''
-pass
+    '''    public boolean isFirstForecastRecord()
+    '''

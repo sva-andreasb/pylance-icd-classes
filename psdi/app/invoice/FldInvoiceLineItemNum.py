@@ -1,32 +1,24 @@
 def FldInvoiceLineItemNum():
-'''public FldInvoiceLineItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvoiceLineItemNum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def isAddLinesOnUse():
-'''public boolean isAddLinesOnUse(final MboRemote contractRemote)
-'''
-pass
+    '''    public boolean isAddLinesOnUse(final MboRemote contractRemote)
+    '''
 def setContractOrderPrice():
-'''public void setContractOrderPrice()
-'''
-pass
+    '''    public void setContractOrderPrice()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def getGLDebitAcct():
-'''public void getGLDebitAcct(final MboRemote invCost)
-'''
-pass
+    '''    public void getGLDebitAcct(final MboRemote invCost)
+    '''

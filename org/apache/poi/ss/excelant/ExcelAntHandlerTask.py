@@ -1,8 +1,6 @@
 def setClassName():
-'''public void setClassName(final String cName)
-'''
-pass
+    '''    public void setClassName(final String cName)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

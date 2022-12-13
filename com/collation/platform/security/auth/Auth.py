@@ -1,12 +1,9 @@
 def Auth():
-'''public Auth()
-'''
-pass
+    '''    public Auth()
+    '''
 def getScopeName():
-'''public String getScopeName()
-'''
-pass
+    '''    public String getScopeName()
+    '''
 def setScopeName():
-'''public void setScopeName(final String scopeName)
-'''
-pass
+    '''    public void setScopeName(final String scopeName)
+    '''

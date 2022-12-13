@@ -1,8 +1,6 @@
 def DeleteAliasRequestMarshaller():
-'''public DeleteAliasRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public DeleteAliasRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<DeleteAliasRequest> marshall(final DeleteAliasRequest deleteAliasRequest)
-'''
-pass
+    '''    public Request<DeleteAliasRequest> marshall(final DeleteAliasRequest deleteAliasRequest)
+    '''

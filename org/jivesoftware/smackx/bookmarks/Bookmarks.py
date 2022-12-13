@@ -1,54 +1,41 @@
-NAMESPACE = "String  storage:bookmarks""
-ELEMENT = "String  storage""
+NAMESPACE = "String  \"storage:bookmarks\""
+ELEMENT = "String  \"storage\""
 def Bookmarks():
-'''public Bookmarks()
-'''
-pass
+    '''    public Bookmarks()
+    '''
 def addBookmarkedURL():
-'''public void addBookmarkedURL(final BookmarkedURL bookmarkedURL)
-'''
-pass
+    '''    public void addBookmarkedURL(final BookmarkedURL bookmarkedURL)
+    '''
 def removeBookmarkedURL():
-'''public void removeBookmarkedURL(final BookmarkedURL bookmarkedURL)
-'''
-pass
+    '''    public void removeBookmarkedURL(final BookmarkedURL bookmarkedURL)
+    '''
 def clearBookmarkedURLS():
-'''public void clearBookmarkedURLS()
-'''
-pass
+    '''    public void clearBookmarkedURLS()
+    '''
 def addBookmarkedConference():
-'''public void addBookmarkedConference(final BookmarkedConference bookmarkedConference)
-'''
-pass
+    '''    public void addBookmarkedConference(final BookmarkedConference bookmarkedConference)
+    '''
 def removeBookmarkedConference():
-'''public void removeBookmarkedConference(final BookmarkedConference bookmarkedConference)
-'''
-pass
+    '''    public void removeBookmarkedConference(final BookmarkedConference bookmarkedConference)
+    '''
 def clearBookmarkedConferences():
-'''public void clearBookmarkedConferences()
-'''
-pass
+    '''    public void clearBookmarkedConferences()
+    '''
 def getBookmarkedURLS():
-'''public List<BookmarkedURL> getBookmarkedURLS()
-'''
-pass
+    '''    public List<BookmarkedURL> getBookmarkedURLS()
+    '''
 def getBookmarkedConferences():
-'''public List<BookmarkedConference> getBookmarkedConferences()
-'''
-pass
+    '''    public List<BookmarkedConference> getBookmarkedConferences()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML()
-'''
-pass
+    '''    public XmlStringBuilder toXML()
+    '''
 def parsePrivateData():
-'''public PrivateData parsePrivateData(final XmlPullParser parser)
-'''
-pass
+    '''    public PrivateData parsePrivateData(final XmlPullParser parser)
+    '''

@@ -1,289 +1,217 @@
 def getClientEventCtrl():
-'''public MapControlClientEvent getClientEventCtrl()
-'''
-pass
+    '''    public MapControlClientEvent getClientEventCtrl()
+    '''
 def MapControl():
-'''public MapControl()
-'''
-pass
+    '''    public MapControl()
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def isContextPersistent():
-'''public Boolean isContextPersistent()
-'''
-pass
+    '''    public Boolean isContextPersistent()
+    '''
 def isZoomToDataInput():
-'''public Boolean isZoomToDataInput()
-'''
-pass
+    '''    public Boolean isZoomToDataInput()
+    '''
 def isDataSourceDynamic():
-'''public Boolean isDataSourceDynamic()
-'''
-pass
+    '''    public Boolean isDataSourceDynamic()
+    '''
 def getZoomLevel():
-'''public String getZoomLevel()
-'''
-pass
+    '''    public String getZoomLevel()
+    '''
 def getFullExtZoomLevel():
-'''public String getFullExtZoomLevel()
-'''
-pass
+    '''    public String getFullExtZoomLevel()
+    '''
 def isMapViewOnly():
-'''public Boolean isMapViewOnly()
-'''
-pass
+    '''    public Boolean isMapViewOnly()
+    '''
 def getInitialX():
-'''public Double getInitialX()
-'''
-pass
+    '''    public Double getInitialX()
+    '''
 def getInitialY():
-'''public Double getInitialY()
-'''
-pass
+    '''    public Double getInitialY()
+    '''
 def getFullX():
-'''public Double getFullX()
-'''
-pass
+    '''    public Double getFullX()
+    '''
 def getFullY():
-'''public Double getFullY()
-'''
-pass
+    '''    public Double getFullY()
+    '''
 def isMobile():
-'''public boolean isMobile()
-'''
-pass
+    '''    public boolean isMobile()
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def getRefreshMapInterval():
-'''public String getRefreshMapInterval()
-'''
-pass
+    '''    public String getRefreshMapInterval()
+    '''
 def getRouteConfiguration():
-'''public JSONObject getRouteConfiguration()
-'''
-pass
+    '''    public JSONObject getRouteConfiguration()
+    '''
 def getMapConfiguration():
-'''public JSONObject getMapConfiguration()
-'''
-pass
+    '''    public JSONObject getMapConfiguration()
+    '''
 def getPrintTimeout():
-'''public int getPrintTimeout()
-'''
-pass
+    '''    public int getPrintTimeout()
+    '''
 def loadToolsConfiguration():
-'''public JSONObject loadToolsConfiguration()
-'''
-pass
+    '''    public JSONObject loadToolsConfiguration()
+    '''
 def loadGISMapConfiguration():
-'''public void loadGISMapConfiguration()
-'''
-pass
+    '''    public void loadGISMapConfiguration()
+    '''
 def getGoogleMapConfiguration():
-'''public JSONObject getGoogleMapConfiguration(final MboRemote mbo)
-'''
-pass
+    '''    public JSONObject getGoogleMapConfiguration(final MboRemote mbo)
+    '''
 def getBingMapConfiguration():
-'''public JSONObject getBingMapConfiguration(final MboRemote mbo)
-'''
-pass
+    '''    public JSONObject getBingMapConfiguration(final MboRemote mbo)
+    '''
 def getSpatialMapConfiguration():
-'''public JSONObject getSpatialMapConfiguration(final MboRemote mbo)
-'''
-pass
+    '''    public JSONObject getSpatialMapConfiguration(final MboRemote mbo)
+    '''
 def loadSpatialMapDefinitions():
-'''public JSONObject loadSpatialMapDefinitions()
-'''
-pass
+    '''    public JSONObject loadSpatialMapDefinitions()
+    '''
 def addSpatialSecureTokenInfo():
-'''public void addSpatialSecureTokenInfo(final JSONObject mapConf)
-'''
-pass
+    '''    public void addSpatialSecureTokenInfo(final JSONObject mapConf)
+    '''
 def storeUserLocation():
-'''public int storeUserLocation()
-'''
-pass
+    '''    public int storeUserLocation()
+    '''
 def loadMenuItems():
-'''public int loadMenuItems()
-'''
-pass
+    '''    public int loadMenuItems()
+    '''
 def setCurrentSALocation():
-'''public int setCurrentSALocation()
-'''
-pass
+    '''    public int setCurrentSALocation()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def getCurrentState():
-'''public JSONArray getCurrentState()
-'''
-pass
+    '''    public JSONArray getCurrentState()
+    '''
 def getCurrentRecordData():
-'''public JSONObject getCurrentRecordData()
-'''
-pass
+    '''    public JSONObject getCurrentRecordData()
+    '''
 def getMainRecordMbo():
-'''public MboRemote getMainRecordMbo()
-'''
-pass
+    '''    public MboRemote getMainRecordMbo()
+    '''
 def showMaxMessage():
-'''public int showMaxMessage()
-'''
-pass
+    '''    public int showMaxMessage()
+    '''
 def showErrorsParamObject():
-'''public int showErrorsParamObject()
-'''
-pass
+    '''    public int showErrorsParamObject()
+    '''
 def showErrors():
-'''public int showErrors()
-'''
-pass
+    '''    public int showErrors()
+    '''
 def showDialog():
-'''public int showDialog()
-'''
-pass
+    '''    public int showDialog()
+    '''
 def showSelectDialog():
-'''public int showSelectDialog(final WebClientSession webClientSession, final JSONObject jsonObject)
-public int showSelectDialog(final JSONObject jsonObject)
-'''
-pass
+    '''    public int showSelectDialog(final WebClientSession webClientSession, final JSONObject jsonObject)
+    public int showSelectDialog(final JSONObject jsonObject)
+    '''
 def refreshQueryUnassignedWork():
-'''public int refreshQueryUnassignedWork()
-'''
-pass
+    '''    public int refreshQueryUnassignedWork()
+    '''
 def queryUnassignedWorkDispatcher():
-'''public int queryUnassignedWorkDispatcher()
-'''
-pass
+    '''    public int queryUnassignedWorkDispatcher()
+    '''
 def loadMapTipTemplate():
-'''public int loadMapTipTemplate()
-'''
-pass
+    '''    public int loadMapTipTemplate()
+    '''
 def loadAttributesFromLinearAttributeTemplate():
-'''public int loadAttributesFromLinearAttributeTemplate()
-'''
-pass
+    '''    public int loadAttributesFromLinearAttributeTemplate()
+    '''
 def getLinearGraphicsbyWhereClause():
-'''public int getLinearGraphicsbyWhereClause()
-'''
-pass
+    '''    public int getLinearGraphicsbyWhereClause()
+    '''
 def loadLinearLayerObjectAttributes():
-'''public int loadLinearLayerObjectAttributes()
-'''
-pass
+    '''    public int loadLinearLayerObjectAttributes()
+    '''
 def deleteLinearLayerSegmentObjects():
-'''public int deleteLinearLayerSegmentObjects()
-'''
-pass
+    '''    public int deleteLinearLayerSegmentObjects()
+    '''
 def tokenizerAttributes():
-'''public static Map<String, String> tokenizerAttributes(final String attributes)
-'''
-pass
+    '''    public static Map<String, String> tokenizerAttributes(final String attributes)
+    '''
 def loadMapTipSummaryTemplate():
-'''public int loadMapTipSummaryTemplate()
-'''
-pass
+    '''    public int loadMapTipSummaryTemplate()
+    '''
 def refreshMarkersPositions():
-'''public int refreshMarkersPositions()
-'''
-pass
+    '''    public int refreshMarkersPositions()
+    '''
 def createMapCallback():
-'''public void createMapCallback(final String actionName, final JSONObject data)
-'''
-pass
+    '''    public void createMapCallback(final String actionName, final JSONObject data)
+    '''
 def addRecordsToLayer():
-'''public void addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)
-'''
-pass
+    '''    public void addRecordsToLayer(final String layerName, final MboSetRemote mboSet, final boolean cleanOld)
+    '''
 def addEventToMap():
-'''public void addEventToMap(final String eventName, final JSONObject action)
-'''
-pass
+    '''    public void addEventToMap(final String eventName, final JSONObject action)
+    '''
 def removeRecordsFromLayer():
-'''public void removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void removeRecordsFromLayer(final String layerName, final MboSetRemote mboSet)
+    '''
 def getWeatherAlertsByQueryParams():
-'''public int getWeatherAlertsByQueryParams()
-'''
-pass
+    '''    public int getWeatherAlertsByQueryParams()
+    '''
 def getCrewLaborByQueryParams():
-'''public int getCrewLaborByQueryParams()
-'''
-pass
+    '''    public int getCrewLaborByQueryParams()
+    '''
 def getShowMarkersOnRouteError():
-'''public int getShowMarkersOnRouteError()
-'''
-pass
+    '''    public int getShowMarkersOnRouteError()
+    '''
 def removeCommentsFromJson():
-'''public static String removeCommentsFromJson(final String isStr)
-'''
-pass
+    '''    public static String removeCommentsFromJson(final String isStr)
+    '''
 def NOOP():
-'''public int NOOP()
-'''
-pass
+    '''    public int NOOP()
+    '''
 def clearNextEventData():
-'''public void clearNextEventData()
-'''
-pass
+    '''    public void clearNextEventData()
+    '''
 def refreshLinearLayers():
-'''public int refreshLinearLayers()
-'''
-pass
+    '''    public int refreshLinearLayers()
+    '''
 def getRelationshipLinearObject():
-'''public MboRemote getRelationshipLinearObject(final MboRemote appMbo, final String objectName, final String relationshipName)
-'''
-pass
+    '''    public MboRemote getRelationshipLinearObject(final MboRemote appMbo, final String objectName, final String relationshipName)
+    '''
 def loadLinearSegments():
-'''public JSONArray loadLinearSegments(final MboRemote linearLayerMbo, final MboRemote appMbo, final MboRemote relatedAsset, final String mapMeasureUnit)
-'''
-pass
+    '''    public JSONArray loadLinearSegments(final MboRemote linearLayerMbo, final MboRemote appMbo, final MboRemote relatedAsset, final String mapMeasureUnit)
+    '''
 def userHasMapServiceLayerPermission():
-'''public boolean userHasMapServiceLayerPermission(final MboRemote mapServiceLayerMbo, final String parent)
-'''
-pass
+    '''    public boolean userHasMapServiceLayerPermission(final MboRemote mapServiceLayerMbo, final String parent)
+    '''
 def getOpenMapReturnAttribute():
-'''public String getOpenMapReturnAttribute()
-'''
-pass
+    '''    public String getOpenMapReturnAttribute()
+    '''
 def getOpenMapMbo():
-'''public String getOpenMapMbo()
-'''
-pass
+    '''    public String getOpenMapMbo()
+    '''
 def getOriginalApp():
-'''public String getOriginalApp(final String app)
-'''
-pass
+    '''    public String getOriginalApp(final String app)
+    '''
 def getPropagateCloneStatus():
-'''public boolean getPropagateCloneStatus(final String mapName, final String app)
-'''
-pass
+    '''    public boolean getPropagateCloneStatus(final String mapName, final String app)
+    '''
 def pushMapControlClientEventHandler():
-'''public int pushMapControlClientEventHandler()
-'''
-pass
+    '''    public int pushMapControlClientEventHandler()
+    '''
 def isCurrentMboAddressable():
-'''public int isCurrentMboAddressable()
-'''
-pass
+    '''    public int isCurrentMboAddressable()
+    '''
 def isMboFormattedAddressEditable():
-'''public boolean isMboFormattedAddressEditable()
-'''
-pass
+    '''    public boolean isMboFormattedAddressEditable()
+    '''
 def getRecordsFromAppTable():
-'''public int getRecordsFromAppTable(final String tableId)
-'''
-pass
+    '''    public int getRecordsFromAppTable(final String tableId)
+    '''
 def getWOTaskRecords():
-'''public int getWOTaskRecords()
-'''
-pass
+    '''    public int getWOTaskRecords()
+    '''
 def getWOMultiAssetLocCIRecords():
-'''public int getWOMultiAssetLocCIRecords()
-'''
-pass
+    '''    public int getWOMultiAssetLocCIRecords()
+    '''

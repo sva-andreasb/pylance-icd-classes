@@ -1,8 +1,6 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def usage():
-'''public static void usage()
-'''
-pass
+    '''    public static void usage()
+    '''

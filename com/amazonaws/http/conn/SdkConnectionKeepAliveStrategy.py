@@ -1,8 +1,6 @@
 def SdkConnectionKeepAliveStrategy():
-'''public SdkConnectionKeepAliveStrategy(final long maxIdleTime)
-'''
-pass
+    '''    public SdkConnectionKeepAliveStrategy(final long maxIdleTime)
+    '''
 def getKeepAliveDuration():
-'''public long getKeepAliveDuration(final HttpResponse response, final HttpContext context)
-'''
-pass
+    '''    public long getKeepAliveDuration(final HttpResponse response, final HttpContext context)
+    '''

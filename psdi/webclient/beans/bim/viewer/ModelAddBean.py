@@ -1,28 +1,21 @@
 def ModelAddBean():
-'''public ModelAddBean()
-'''
-pass
+    '''    public ModelAddBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def loadModelFile():
-'''public int loadModelFile()
-'''
-pass
+    '''    public int loadModelFile()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''
 def setCurrentRow():
-'''public synchronized boolean setCurrentRow(final int nRow)
-'''
-pass
+    '''    public synchronized boolean setCurrentRow(final int nRow)
+    '''
 def dataChangedEvent():
-'''public synchronized void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void dataChangedEvent(final DataBean speaker)
+    '''

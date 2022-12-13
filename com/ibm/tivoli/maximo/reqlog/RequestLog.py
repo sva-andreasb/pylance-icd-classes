@@ -1,4 +1,3 @@
 def RequestLog():
-'''public RequestLog(final MboSet ms)
-'''
-pass
+    '''    public RequestLog(final MboSet ms)
+    '''

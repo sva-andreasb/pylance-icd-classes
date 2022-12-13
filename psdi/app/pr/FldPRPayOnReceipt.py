@@ -1,8 +1,6 @@
 def FldPRPayOnReceipt():
-'''public FldPRPayOnReceipt(final MboValue mbv)
-'''
-pass
+    '''    public FldPRPayOnReceipt(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

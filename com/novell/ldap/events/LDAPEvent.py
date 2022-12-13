@@ -1,28 +1,21 @@
 def LDAPEvent():
-'''public LDAPEvent(final LDAPEventSource source, final LDAPMessage eventmessage, final int eventclassification, final int eventtype)
-'''
-pass
+    '''    public LDAPEvent(final LDAPEventSource source, final LDAPMessage eventmessage, final int eventclassification, final int eventtype)
+    '''
 def getClassification():
-'''public final int getClassification()
-'''
-pass
+    '''    public final int getClassification()
+    '''
 def getType():
-'''public final int getType()
-'''
-pass
+    '''    public final int getType()
+    '''
 def getContainedEventInformation():
-'''public final LDAPMessage getContainedEventInformation()
-'''
-pass
+    '''    public final LDAPMessage getContainedEventInformation()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setEventclassification():
-'''public final void setEventclassification(final int eventclassification)
-'''
-pass
+    '''    public final void setEventclassification(final int eventclassification)
+    '''
 def setEventtype():
-'''public final void setEventtype(final int eventtype)
-'''
-pass
+    '''    public final void setEventtype(final int eventtype)
+    '''

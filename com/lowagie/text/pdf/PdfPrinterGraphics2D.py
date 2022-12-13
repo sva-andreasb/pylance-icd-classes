@@ -1,8 +1,6 @@
 def PdfPrinterGraphics2D():
-'''public PdfPrinterGraphics2D(final PdfContentByte cb, final float width, final float height, final FontMapper fontMapper, final boolean onlyShapes, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)
-'''
-pass
+    '''    public PdfPrinterGraphics2D(final PdfContentByte cb, final float width, final float height, final FontMapper fontMapper, final boolean onlyShapes, final boolean convertImagesToJPEG, final float quality, final PrinterJob printerJob)
+    '''
 def getPrinterJob():
-'''public PrinterJob getPrinterJob()
-'''
-pass
+    '''    public PrinterJob getPrinterJob()
+    '''

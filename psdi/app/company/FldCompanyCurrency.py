@@ -1,4 +1,3 @@
 def FldCompanyCurrency():
-'''public FldCompanyCurrency(final MboValue mbv)
-'''
-pass
+    '''    public FldCompanyCurrency(final MboValue mbv)
+    '''

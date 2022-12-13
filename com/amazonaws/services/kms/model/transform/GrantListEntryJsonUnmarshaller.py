@@ -1,8 +1,6 @@
 def unmarshall():
-'''public GrantListEntry unmarshall(final JsonUnmarshallerContext context)
-'''
-pass
+    '''    public GrantListEntry unmarshall(final JsonUnmarshallerContext context)
+    '''
 def getInstance():
-'''public static GrantListEntryJsonUnmarshaller getInstance()
-'''
-pass
+    '''    public static GrantListEntryJsonUnmarshaller getInstance()
+    '''

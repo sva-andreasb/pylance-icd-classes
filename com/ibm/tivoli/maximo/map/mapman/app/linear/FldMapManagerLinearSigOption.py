@@ -1,4 +1,3 @@
 def FldMapManagerLinearSigOption():
-'''public FldMapManagerLinearSigOption(final MboValue mbv)
-'''
-pass
+    '''    public FldMapManagerLinearSigOption(final MboValue mbv)
+    '''

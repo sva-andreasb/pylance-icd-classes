@@ -1,12 +1,9 @@
 def setCell():
-'''public void setCell(final String cellName)
-'''
-pass
+    '''    public void setCell(final String cellName)
+    '''
 def getCell():
-'''public String getCell()
-'''
-pass
+    '''    public String getCell()
+    '''
 def setWorkbookUtil():
-'''public void setWorkbookUtil(final ExcelAntWorkbookUtil wb)
-'''
-pass
+    '''    public void setWorkbookUtil(final ExcelAntWorkbookUtil wb)
+    '''

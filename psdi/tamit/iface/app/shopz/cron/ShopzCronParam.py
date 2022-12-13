@@ -1,4 +1,3 @@
 def ShopzCronParam():
-'''public ShopzCronParam(final MboSet ms)
-'''
-pass
+    '''    public ShopzCronParam(final MboSet ms)
+    '''

@@ -1,8 +1,6 @@
 def FldAssetLinkNodeID():
-'''public FldAssetLinkNodeID(final MboValue mbv)
-'''
-pass
+    '''    public FldAssetLinkNodeID(final MboValue mbv)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

@@ -1,8 +1,6 @@
 def marshall():
-'''public void marshall(final AliasListEntry aliasListEntry, final StructuredJsonGenerator jsonGenerator)
-'''
-pass
+    '''    public void marshall(final AliasListEntry aliasListEntry, final StructuredJsonGenerator jsonGenerator)
+    '''
 def getInstance():
-'''public static AliasListEntryJsonMarshaller getInstance()
-'''
-pass
+    '''    public static AliasListEntryJsonMarshaller getInstance()
+    '''

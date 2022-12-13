@@ -1,32 +1,24 @@
 def LookupBean():
-'''public LookupBean()
-'''
-pass
+    '''    public LookupBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def lucontinue():
-'''public int lucontinue()
-'''
-pass
+    '''    public int lucontinue()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def shouldCloseBean():
-'''public boolean shouldCloseBean()
-'''
-pass
+    '''    public boolean shouldCloseBean()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''

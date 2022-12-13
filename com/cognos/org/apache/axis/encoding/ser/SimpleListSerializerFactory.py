@@ -1,4 +1,3 @@
 def SimpleListSerializerFactory():
-'''public SimpleListSerializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public SimpleListSerializerFactory(final Class javaType, final QName xmlType)
+    '''

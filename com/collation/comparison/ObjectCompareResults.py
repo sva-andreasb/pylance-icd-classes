@@ -1,8 +1,6 @@
 def ObjectCompareResults():
-'''public ObjectCompareResults(final Object left, final Object right)
-'''
-pass
+    '''    public ObjectCompareResults(final Object left, final Object right)
+    '''
 def getObjectClass():
-'''public Class getObjectClass()
-'''
-pass
+    '''    public Class getObjectClass()
+    '''

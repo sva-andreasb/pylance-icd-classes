@@ -1,40 +1,30 @@
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public DecryptResult withKeyId(final String keyId)
-'''
-pass
+    '''    public DecryptResult withKeyId(final String keyId)
+    '''
 def setPlaintext():
-'''public void setPlaintext(final ByteBuffer plaintext)
-'''
-pass
+    '''    public void setPlaintext(final ByteBuffer plaintext)
+    '''
 def getPlaintext():
-'''public ByteBuffer getPlaintext()
-'''
-pass
+    '''    public ByteBuffer getPlaintext()
+    '''
 def withPlaintext():
-'''public DecryptResult withPlaintext(final ByteBuffer plaintext)
-'''
-pass
+    '''    public DecryptResult withPlaintext(final ByteBuffer plaintext)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public DecryptResult clone()
-'''
-pass
+    '''    public DecryptResult clone()
+    '''

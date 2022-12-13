@@ -1,9 +1,7 @@
 def ToPdfOptions():
-'''public ToPdfOptions()
-public ToPdfOptions(final PdfSaveOptions options)
-'''
-pass
+    '''    public ToPdfOptions()
+    public ToPdfOptions(final PdfSaveOptions options)
+    '''
 def getTargetFileType():
-'''public FileType getTargetFileType()
-'''
-pass
+    '''    public FileType getTargetFileType()
+    '''

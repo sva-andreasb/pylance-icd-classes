@@ -1,60 +1,45 @@
 def OslcInteractionGroupApps():
-'''public OslcInteractionGroupApps(final MboSet ms)
-'''
-pass
+    '''    public OslcInteractionGroupApps(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setPresentataion():
-'''public void setPresentataion(final byte[] data, final boolean setTabs)
-'''
-pass
+    '''    public void setPresentataion(final byte[] data, final boolean setTabs)
+    '''
 def setMenuPresentataion():
-'''public void setMenuPresentataion(final byte[] menuData)
-'''
-pass
+    '''    public void setMenuPresentataion(final byte[] menuData)
+    '''
 def setTabList():
-'''public void setTabList()
-'''
-pass
+    '''    public void setTabList()
+    '''
 def setMenuList():
-'''public void setMenuList()
-'''
-pass
+    '''    public void setMenuList()
+    '''
 def getMenuPresentataion():
-'''public byte[] getMenuPresentataion()
-'''
-pass
+    '''    public byte[] getMenuPresentataion()
+    '''
 def getPresentataion():
-'''public byte[] getPresentataion()
-'''
-pass
+    '''    public byte[] getPresentataion()
+    '''
 def getTabMap():
-'''public Map<String, String> getTabMap()
-'''
-pass
+    '''    public Map<String, String> getTabMap()
+    '''
 def saveInteractionGroupApp():
-'''public List<byte[]> saveInteractionGroupApp(final byte[] menuBytes)
-'''
-pass
+    '''    public List<byte[]> saveInteractionGroupApp(final byte[] menuBytes)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def deleteGroupApp():
-'''public String deleteGroupApp(final byte[] presentataion)
-'''
-pass
+    '''    public String deleteGroupApp(final byte[] presentataion)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''

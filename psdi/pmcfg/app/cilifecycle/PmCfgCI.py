@@ -1,49 +1,37 @@
-SKIP_COPY_RFC_FIELD_PROPERTY = "String  cci.duplicateci.skipcopyrfc""
+SKIP_COPY_RFC_FIELD_PROPERTY = "String  \"cci.duplicateci.skipcopyrfc\""
 def PmCfgCI():
-'''public PmCfgCI(final MboSet ms)
-'''
-pass
+    '''    public PmCfgCI(final MboSet ms)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def canChangeStatus():
-'''public void canChangeStatus(final String changeToStatus, final long accessModifier)
-'''
-pass
+    '''    public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''
 def setLinkToActualCI():
-'''public void setLinkToActualCI(final String actcinum, final long accessModifier)
-'''
-pass
+    '''    public void setLinkToActualCI(final String actcinum, final long accessModifier)
+    '''
 def statusAllowsChange():
-'''public boolean statusAllowsChange()
-'''
-pass
+    '''    public boolean statusAllowsChange()
+    '''
 def handleRFC():
-'''public void handleRFC(final MboRemote parentCI)
-'''
-pass
+    '''    public void handleRFC(final MboRemote parentCI)
+    '''
 def setChangeStatusDialogRFC():
-'''public void setChangeStatusDialogRFC(final String rfc)
-'''
-pass
+    '''    public void setChangeStatusDialogRFC(final String rfc)
+    '''
 def getChangeStatusDialogRFC():
-'''public String getChangeStatusDialogRFC()
-'''
-pass
+    '''    public String getChangeStatusDialogRFC()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def setRFCForChangeStatus():
-'''public void setRFCForChangeStatus(final String rfc)
-'''
-pass
+    '''    public void setRFCForChangeStatus(final String rfc)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''

@@ -1,16 +1,12 @@
 def setAdminServiceTempLocation():
-'''public static void setAdminServiceTempLocation(final String loc)
-'''
-pass
+    '''    public static void setAdminServiceTempLocation(final String loc)
+    '''
 def getAdminServiceTempLocation():
-'''public static String getAdminServiceTempLocation()
-'''
-pass
+    '''    public static String getAdminServiceTempLocation()
+    '''
 def getTemporaryImportLocation():
-'''public static String getTemporaryImportLocation()
-'''
-pass
+    '''    public static String getTemporaryImportLocation()
+    '''
 def getTemporaryCreateReportLocation():
-'''public static String getTemporaryCreateReportLocation()
-'''
-pass
+    '''    public static String getTemporaryCreateReportLocation()
+    '''

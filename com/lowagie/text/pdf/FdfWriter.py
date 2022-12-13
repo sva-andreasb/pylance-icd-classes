@@ -1,42 +1,32 @@
 def FdfWriter():
-'''public FdfWriter()
-'''
-pass
+    '''    public FdfWriter()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream os)
-'''
-pass
+    '''    public void writeTo(final OutputStream os)
+    '''
 def removeField():
-'''public boolean removeField(final String field)
-'''
-pass
+    '''    public boolean removeField(final String field)
+    '''
 def getFields():
-'''public HashMap getFields()
-'''
-pass
+    '''    public HashMap getFields()
+    '''
 def getField():
-'''public String getField(final String field)
-'''
-pass
+    '''    public String getField(final String field)
+    '''
 def setFieldAsName():
-'''public boolean setFieldAsName(final String field, final String value)
-'''
-pass
+    '''    public boolean setFieldAsName(final String field, final String value)
+    '''
 def setFieldAsString():
-'''public boolean setFieldAsString(final String field, final String value)
-'''
-pass
+    '''    public boolean setFieldAsString(final String field, final String value)
+    '''
 def setFields():
-'''public void setFields(final FdfReader fdf)
-public void setFields(final PdfReader pdf)
-public void setFields(final AcroFields acro)
-'''
-pass
+    '''    public void setFields(final FdfReader fdf)
+    public void setFields(final PdfReader pdf)
+    public void setFields(final AcroFields acro)
+    '''
 def getFile():
-'''public String getFile()
-'''
-pass
+    '''    public String getFile()
+    '''
 def setFile():
-'''public void setFile(final String file)
-'''
-pass
+    '''    public void setFile(final String file)
+    '''

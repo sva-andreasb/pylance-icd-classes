@@ -1,12 +1,9 @@
 def VToDoFactory():
-'''public VToDoFactory()
-'''
-pass
+    '''    public VToDoFactory()
+    '''
 def newInstance():
-'''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
-'''
-pass
+    '''    public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''
 def setChild():
-'''public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
-'''
-pass
+    '''    public void setChild(final FactoryBuilderSupport build, final Object parent, final Object child)
+    '''

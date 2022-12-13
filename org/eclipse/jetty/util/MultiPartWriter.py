@@ -1,21 +1,16 @@
 def MultiPartWriter():
-'''public MultiPartWriter(final Writer out)
-'''
-pass
+    '''    public MultiPartWriter(final Writer out)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getBoundary():
-'''public String getBoundary()
-'''
-pass
+    '''    public String getBoundary()
+    '''
 def startPart():
-'''public void startPart(final String contentType)
-public void startPart(final String contentType, final String[] headers)
-'''
-pass
+    '''    public void startPart(final String contentType)
+    public void startPart(final String contentType, final String[] headers)
+    '''
 def endPart():
-'''public void endPart()
-'''
-pass
+    '''    public void endPart()
+    '''

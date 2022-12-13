@@ -1,17 +1,13 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def InMemoryGoalReport():
-'''public InMemoryGoalReport()
-'''
-pass
+    '''    public InMemoryGoalReport()
+    '''
 def getGoalsTable():
-'''public IloOrderedTableImpl getGoalsTable()
-'''
-pass
+    '''    public IloOrderedTableImpl getGoalsTable()
+    '''
 def getOldGoalTable():
-'''public IloTable getOldGoalTable()
-'''
-pass
+    '''    public IloTable getOldGoalTable()
+    '''
 def setGoalTable():
-'''public void setGoalTable(final IloTable table)
-'''
-pass
+    '''    public void setGoalTable(final IloTable table)
+    '''

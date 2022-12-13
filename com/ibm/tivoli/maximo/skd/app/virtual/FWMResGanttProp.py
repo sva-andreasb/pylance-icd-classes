@@ -1,4 +1,3 @@
 def FWMResGanttProp():
-'''public FWMResGanttProp(final MboSet ms)
-'''
-pass
+    '''    public FWMResGanttProp(final MboSet ms)
+    '''

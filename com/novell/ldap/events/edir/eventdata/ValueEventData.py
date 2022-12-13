@@ -1,40 +1,30 @@
 def ValueEventData():
-'''public ValueEventData(final ASN1Object asn1Object)
-'''
-pass
+    '''    public ValueEventData(final ASN1Object asn1Object)
+    '''
 def getAttribute():
-'''public String getAttribute()
-'''
-pass
+    '''    public String getAttribute()
+    '''
 def getClassid():
-'''public String getClassid()
-'''
-pass
+    '''    public String getClassid()
+    '''
 def getData():
-'''public String getData()
-'''
-pass
+    '''    public String getData()
+    '''
 def getEntry():
-'''public String getEntry()
-'''
-pass
+    '''    public String getEntry()
+    '''
 def getPrepetratorDN():
-'''public String getPrepetratorDN()
-'''
-pass
+    '''    public String getPrepetratorDN()
+    '''
 def getSyntax():
-'''public String getSyntax()
-'''
-pass
+    '''    public String getSyntax()
+    '''
 def getTimeStamp():
-'''public DSETimeStamp getTimeStamp()
-'''
-pass
+    '''    public DSETimeStamp getTimeStamp()
+    '''
 def getVerb():
-'''public int getVerb()
-'''
-pass
+    '''    public int getVerb()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

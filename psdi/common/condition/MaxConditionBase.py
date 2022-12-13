@@ -1,28 +1,21 @@
 def isExpression():
-'''public boolean isExpression()
-'''
-pass
+    '''    public boolean isExpression()
+    '''
 def getConditionNum():
-'''public String getConditionNum()
-'''
-pass
+    '''    public String getConditionNum()
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getExpression():
-'''public String getExpression()
-'''
-pass
+    '''    public String getExpression()
+    '''
 def setMboCachable():
-'''public void setMboCachable(final boolean cachable)
-'''
-pass
+    '''    public void setMboCachable(final boolean cachable)
+    '''
 def isMboCachable():
-'''public boolean isMboCachable()
-'''
-pass
+    '''    public boolean isMboCachable()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

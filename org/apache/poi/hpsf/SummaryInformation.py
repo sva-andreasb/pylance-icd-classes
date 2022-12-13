@@ -1,231 +1,174 @@
-DEFAULT_STREAM_NAME = "String  \u0005SummaryInformation""
+DEFAULT_STREAM_NAME = "String  \"\u0005SummaryInformation\""
 def getPropertySetIDMap():
-'''public PropertyIDMap getPropertySetIDMap()
-'''
-pass
+    '''    public PropertyIDMap getPropertySetIDMap()
+    '''
 def SummaryInformation():
-'''public SummaryInformation()
-public SummaryInformation(final PropertySet ps)
-public SummaryInformation(final InputStream stream)
-'''
-pass
+    '''    public SummaryInformation()
+    public SummaryInformation(final PropertySet ps)
+    public SummaryInformation(final InputStream stream)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def removeTitle():
-'''public void removeTitle()
-'''
-pass
+    '''    public void removeTitle()
+    '''
 def getSubject():
-'''public String getSubject()
-'''
-pass
+    '''    public String getSubject()
+    '''
 def setSubject():
-'''public void setSubject(final String subject)
-'''
-pass
+    '''    public void setSubject(final String subject)
+    '''
 def removeSubject():
-'''public void removeSubject()
-'''
-pass
+    '''    public void removeSubject()
+    '''
 def getAuthor():
-'''public String getAuthor()
-'''
-pass
+    '''    public String getAuthor()
+    '''
 def setAuthor():
-'''public void setAuthor(final String author)
-'''
-pass
+    '''    public void setAuthor(final String author)
+    '''
 def removeAuthor():
-'''public void removeAuthor()
-'''
-pass
+    '''    public void removeAuthor()
+    '''
 def getKeywords():
-'''public String getKeywords()
-'''
-pass
+    '''    public String getKeywords()
+    '''
 def setKeywords():
-'''public void setKeywords(final String keywords)
-'''
-pass
+    '''    public void setKeywords(final String keywords)
+    '''
 def removeKeywords():
-'''public void removeKeywords()
-'''
-pass
+    '''    public void removeKeywords()
+    '''
 def getComments():
-'''public String getComments()
-'''
-pass
+    '''    public String getComments()
+    '''
 def setComments():
-'''public void setComments(final String comments)
-'''
-pass
+    '''    public void setComments(final String comments)
+    '''
 def removeComments():
-'''public void removeComments()
-'''
-pass
+    '''    public void removeComments()
+    '''
 def getTemplate():
-'''public String getTemplate()
-'''
-pass
+    '''    public String getTemplate()
+    '''
 def setTemplate():
-'''public void setTemplate(final String template)
-'''
-pass
+    '''    public void setTemplate(final String template)
+    '''
 def removeTemplate():
-'''public void removeTemplate()
-'''
-pass
+    '''    public void removeTemplate()
+    '''
 def getLastAuthor():
-'''public String getLastAuthor()
-'''
-pass
+    '''    public String getLastAuthor()
+    '''
 def setLastAuthor():
-'''public void setLastAuthor(final String lastAuthor)
-'''
-pass
+    '''    public void setLastAuthor(final String lastAuthor)
+    '''
 def removeLastAuthor():
-'''public void removeLastAuthor()
-'''
-pass
+    '''    public void removeLastAuthor()
+    '''
 def getRevNumber():
-'''public String getRevNumber()
-'''
-pass
+    '''    public String getRevNumber()
+    '''
 def setRevNumber():
-'''public void setRevNumber(final String revNumber)
-'''
-pass
+    '''    public void setRevNumber(final String revNumber)
+    '''
 def removeRevNumber():
-'''public void removeRevNumber()
-'''
-pass
+    '''    public void removeRevNumber()
+    '''
 def getEditTime():
-'''public long getEditTime()
-'''
-pass
+    '''    public long getEditTime()
+    '''
 def setEditTime():
-'''public void setEditTime(final long time)
-'''
-pass
+    '''    public void setEditTime(final long time)
+    '''
 def removeEditTime():
-'''public void removeEditTime()
-'''
-pass
+    '''    public void removeEditTime()
+    '''
 def getLastPrinted():
-'''public Date getLastPrinted()
-'''
-pass
+    '''    public Date getLastPrinted()
+    '''
 def setLastPrinted():
-'''public void setLastPrinted(final Date lastPrinted)
-'''
-pass
+    '''    public void setLastPrinted(final Date lastPrinted)
+    '''
 def removeLastPrinted():
-'''public void removeLastPrinted()
-'''
-pass
+    '''    public void removeLastPrinted()
+    '''
 def getCreateDateTime():
-'''public Date getCreateDateTime()
-'''
-pass
+    '''    public Date getCreateDateTime()
+    '''
 def setCreateDateTime():
-'''public void setCreateDateTime(final Date createDateTime)
-'''
-pass
+    '''    public void setCreateDateTime(final Date createDateTime)
+    '''
 def removeCreateDateTime():
-'''public void removeCreateDateTime()
-'''
-pass
+    '''    public void removeCreateDateTime()
+    '''
 def getLastSaveDateTime():
-'''public Date getLastSaveDateTime()
-'''
-pass
+    '''    public Date getLastSaveDateTime()
+    '''
 def setLastSaveDateTime():
-'''public void setLastSaveDateTime(final Date time)
-'''
-pass
+    '''    public void setLastSaveDateTime(final Date time)
+    '''
 def removeLastSaveDateTime():
-'''public void removeLastSaveDateTime()
-'''
-pass
+    '''    public void removeLastSaveDateTime()
+    '''
 def getPageCount():
-'''public int getPageCount()
-'''
-pass
+    '''    public int getPageCount()
+    '''
 def setPageCount():
-'''public void setPageCount(final int pageCount)
-'''
-pass
+    '''    public void setPageCount(final int pageCount)
+    '''
 def removePageCount():
-'''public void removePageCount()
-'''
-pass
+    '''    public void removePageCount()
+    '''
 def getWordCount():
-'''public int getWordCount()
-'''
-pass
+    '''    public int getWordCount()
+    '''
 def setWordCount():
-'''public void setWordCount(final int wordCount)
-'''
-pass
+    '''    public void setWordCount(final int wordCount)
+    '''
 def removeWordCount():
-'''public void removeWordCount()
-'''
-pass
+    '''    public void removeWordCount()
+    '''
 def getCharCount():
-'''public int getCharCount()
-'''
-pass
+    '''    public int getCharCount()
+    '''
 def setCharCount():
-'''public void setCharCount(final int charCount)
-'''
-pass
+    '''    public void setCharCount(final int charCount)
+    '''
 def removeCharCount():
-'''public void removeCharCount()
-'''
-pass
+    '''    public void removeCharCount()
+    '''
 def getThumbnail():
-'''public byte[] getThumbnail()
-'''
-pass
+    '''    public byte[] getThumbnail()
+    '''
 def getThumbnailThumbnail():
-'''public Thumbnail getThumbnailThumbnail()
-'''
-pass
+    '''    public Thumbnail getThumbnailThumbnail()
+    '''
 def setThumbnail():
-'''public void setThumbnail(final byte[] thumbnail)
-'''
-pass
+    '''    public void setThumbnail(final byte[] thumbnail)
+    '''
 def removeThumbnail():
-'''public void removeThumbnail()
-'''
-pass
+    '''    public void removeThumbnail()
+    '''
 def getApplicationName():
-'''public String getApplicationName()
-'''
-pass
+    '''    public String getApplicationName()
+    '''
 def setApplicationName():
-'''public void setApplicationName(final String applicationName)
-'''
-pass
+    '''    public void setApplicationName(final String applicationName)
+    '''
 def removeApplicationName():
-'''public void removeApplicationName()
-'''
-pass
+    '''    public void removeApplicationName()
+    '''
 def getSecurity():
-'''public int getSecurity()
-'''
-pass
+    '''    public int getSecurity()
+    '''
 def setSecurity():
-'''public void setSecurity(final int security)
-'''
-pass
+    '''    public void setSecurity(final int security)
+    '''
 def removeSecurity():
-'''public void removeSecurity()
-'''
-pass
+    '''    public void removeSecurity()
+    '''

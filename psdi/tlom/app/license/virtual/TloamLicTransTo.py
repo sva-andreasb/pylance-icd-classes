@@ -1,12 +1,9 @@
 def TloamLicTransTo():
-'''public TloamLicTransTo(final MboSet ms)
-'''
-pass
+    '''    public TloamLicTransTo(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setAytoKey():
-'''public void setAytoKey(final String orgid)
-'''
-pass
+    '''    public void setAytoKey(final String orgid)
+    '''

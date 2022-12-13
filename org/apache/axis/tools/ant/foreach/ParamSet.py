@@ -1,29 +1,22 @@
 def ParamSet():
-'''public ParamSet()
-'''
-pass
+    '''    public ParamSet()
+    '''
 def addFileset():
-'''public void addFileset(final FileSet fileset)
-'''
-pass
+    '''    public void addFileset(final FileSet fileset)
+    '''
 def createItem():
-'''public ParamItem createItem()
-'''
-pass
+    '''    public ParamItem createItem()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValues():
-'''public Enumeration getValues(final Project project)
-public String[] getValues()
-'''
-pass
+    '''    public Enumeration getValues(final Project project)
+    public String[] getValues()
+    '''
 def setType():
-'''public void setType(final FileDirBoth type)
-'''
-pass
+    '''    public void setType(final FileDirBoth type)
+    '''

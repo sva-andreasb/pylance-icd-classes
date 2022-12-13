@@ -1,70 +1,53 @@
 def Code():
-'''public Code(final Code c)
-public Code(final int name_index, final int length, final int max_stack, final int max_locals, final byte[] code, final CodeException[] exception_table, final Attribute[] attributes, final ConstantPool constant_pool)
-'''
-pass
+    '''    public Code(final Code c)
+    public Code(final int name_index, final int length, final int max_stack, final int max_locals, final byte[] code, final CodeException[] exception_table, final Attribute[] attributes, final ConstantPool constant_pool)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''
 def dump():
-'''public final void dump(final DataOutputStream file)
-'''
-pass
+    '''    public final void dump(final DataOutputStream file)
+    '''
 def getAttributes():
-'''public final Attribute[] getAttributes()
-'''
-pass
+    '''    public final Attribute[] getAttributes()
+    '''
 def getLineNumberTable():
-'''public LineNumberTable getLineNumberTable()
-'''
-pass
+    '''    public LineNumberTable getLineNumberTable()
+    '''
 def getLocalVariableTable():
-'''public LocalVariableTable getLocalVariableTable()
-'''
-pass
+    '''    public LocalVariableTable getLocalVariableTable()
+    '''
 def getCode():
-'''public final byte[] getCode()
-'''
-pass
+    '''    public final byte[] getCode()
+    '''
 def getExceptionTable():
-'''public final CodeException[] getExceptionTable()
-'''
-pass
+    '''    public final CodeException[] getExceptionTable()
+    '''
 def getMaxLocals():
-'''public final int getMaxLocals()
-'''
-pass
+    '''    public final int getMaxLocals()
+    '''
 def getMaxStack():
-'''public final int getMaxStack()
-'''
-pass
+    '''    public final int getMaxStack()
+    '''
 def setAttributes():
-'''public final void setAttributes(final Attribute[] attributes)
-'''
-pass
+    '''    public final void setAttributes(final Attribute[] attributes)
+    '''
 def setCode():
-'''public final void setCode(final byte[] code)
-'''
-pass
+    '''    public final void setCode(final byte[] code)
+    '''
 def setExceptionTable():
-'''public final void setExceptionTable(final CodeException[] exception_table)
-'''
-pass
+    '''    public final void setExceptionTable(final CodeException[] exception_table)
+    '''
 def setMaxLocals():
-'''public final void setMaxLocals(final int max_locals)
-'''
-pass
+    '''    public final void setMaxLocals(final int max_locals)
+    '''
 def setMaxStack():
-'''public final void setMaxStack(final int max_stack)
-'''
-pass
+    '''    public final void setMaxStack(final int max_stack)
+    '''
 def toString():
-'''public final String toString(final boolean verbose)
-public final String toString()
-'''
-pass
+    '''    public final String toString(final boolean verbose)
+    public final String toString()
+    '''
 def copy():
-'''public Attribute copy(final ConstantPool _constant_pool)
-'''
-pass
+    '''    public Attribute copy(final ConstantPool _constant_pool)
+    '''

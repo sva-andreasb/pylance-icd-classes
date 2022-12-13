@@ -1,49 +1,39 @@
-WSDL_NS = "String  http://schemas.xmlsoap.org/wsdl/""
-MAXIMO_WSDL_NS_PREFIX = "String  mxws""
-TRANSPORT_HTTP = "String  http://schemas.xmlsoap.org/soap/http""
-STYLE_DOCUMENT = "String  document""
-USE_LITERAL = "String  literal""
-WSDLDIR = "String  wsdl""
+WSDL_NS = "String  \"http://schemas.xmlsoap.org/wsdl/\""
+MAXIMO_WSDL_NS_PREFIX = "String  \"mxws\""
+TRANSPORT_HTTP = "String  \"http://schemas.xmlsoap.org/soap/http\""
+STYLE_DOCUMENT = "String  \"document\""
+USE_LITERAL = "String  \"literal\""
+WSDLDIR = "String  \"wsdl\""
 def WSDLGenerator():
-'''public WSDLGenerator(final String serviceName)
-public WSDLGenerator(final String serviceName, final String serviceDesc, final String serviceLongDesc)
-public WSDLGenerator(final String serviceName, final String serviceDesc, final String serviceLongDesc, final String soapVersion)
-public WSDLGenerator(final WSRegistryInfo wsRegInfo)
-'''
-pass
+    '''    public WSDLGenerator(final String serviceName)
+    public WSDLGenerator(final String serviceName, final String serviceDesc, final String serviceLongDesc)
+    public WSDLGenerator(final String serviceName, final String serviceDesc, final String serviceLongDesc, final String soapVersion)
+    public WSDLGenerator(final WSRegistryInfo wsRegInfo)
+    '''
 def getPortName():
-'''public QName getPortName(final boolean soap12)
-'''
-pass
+    '''    public QName getPortName(final boolean soap12)
+    '''
 def getBindingName():
-'''public String getBindingName(final boolean soap12)
-'''
-pass
+    '''    public String getBindingName(final boolean soap12)
+    '''
 def getServiceDescription():
-'''public String getServiceDescription()
-'''
-pass
+    '''    public String getServiceDescription()
+    '''
 def getWsdlFileName():
-'''public String getWsdlFileName()
-'''
-pass
+    '''    public String getWsdlFileName()
+    '''
 def getWsdlNSUri():
-'''public String getWsdlNSUri()
-'''
-pass
+    '''    public String getWsdlNSUri()
+    '''
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getWsdlUrl():
-'''public String getWsdlUrl()
-'''
-pass
+    '''    public String getWsdlUrl()
+    '''
 def getSoapAddressUrl():
-'''public String getSoapAddressUrl()
-'''
-pass
+    '''    public String getSoapAddressUrl()
+    '''
 def isWsdlGenerated():
-'''public boolean isWsdlGenerated()
-'''
-pass
+    '''    public boolean isWsdlGenerated()
+    '''

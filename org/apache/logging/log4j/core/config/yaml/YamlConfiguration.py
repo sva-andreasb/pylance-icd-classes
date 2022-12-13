@@ -1,8 +1,6 @@
 def YamlConfiguration():
-'''public YamlConfiguration(final LoggerContext loggerContext, final ConfigurationSource configSource)
-'''
-pass
+    '''    public YamlConfiguration(final LoggerContext loggerContext, final ConfigurationSource configSource)
+    '''
 def reconfigure():
-'''public Configuration reconfigure()
-'''
-pass
+    '''    public Configuration reconfigure()
+    '''

@@ -1,12 +1,9 @@
 def ModifyTemplates():
-'''public ModifyTemplates()
-'''
-pass
+    '''    public ModifyTemplates()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def deleterow():
-'''public int deleterow()
-'''
-pass
+    '''    public int deleterow()
+    '''

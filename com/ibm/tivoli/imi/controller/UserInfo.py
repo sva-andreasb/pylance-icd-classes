@@ -1,28 +1,21 @@
 def setIMUserID():
-'''public void setIMUserID(final String mxUserIMID)
-'''
-pass
+    '''    public void setIMUserID(final String mxUserIMID)
+    '''
 def setIMUserPassword():
-'''public void setIMUserPassword(final String mxUserIMPassword)
-'''
-pass
+    '''    public void setIMUserPassword(final String mxUserIMPassword)
+    '''
 def getMXUserID():
-'''public String getMXUserID()
-'''
-pass
+    '''    public String getMXUserID()
+    '''
 def getMXUserName():
-'''public String getMXUserName()
-'''
-pass
+    '''    public String getMXUserName()
+    '''
 def getIMUserID():
-'''public String getIMUserID()
-'''
-pass
+    '''    public String getIMUserID()
+    '''
 def getIMUserPassword():
-'''public String getIMUserPassword()
-'''
-pass
+    '''    public String getIMUserPassword()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

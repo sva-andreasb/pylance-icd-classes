@@ -1,20 +1,15 @@
 def RfcModifyRequest():
-'''public RfcModifyRequest(final RfcLDAPDN rfcLDAPDN, final ASN1SequenceOf asn1SequenceOf)
-'''
-pass
+    '''    public RfcModifyRequest(final RfcLDAPDN rfcLDAPDN, final ASN1SequenceOf asn1SequenceOf)
+    '''
 def getIdentifier():
-'''public final ASN1Identifier getIdentifier()
-'''
-pass
+    '''    public final ASN1Identifier getIdentifier()
+    '''
 def dupRequest():
-'''public final RfcRequest dupRequest(final String s, final String s2, final boolean b)
-'''
-pass
+    '''    public final RfcRequest dupRequest(final String s, final String s2, final boolean b)
+    '''
 def getRequestDN():
-'''public final String getRequestDN()
-'''
-pass
+    '''    public final String getRequestDN()
+    '''
 def getModifications():
-'''public final ASN1SequenceOf getModifications()
-'''
-pass
+    '''    public final ASN1SequenceOf getModifications()
+    '''

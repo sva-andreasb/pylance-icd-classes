@@ -13,22 +13,17 @@ MAX_NODE_TYPE = "short  14"
 ANY_NODE = "short  0"
 NO_NODE = "short  14"
 def getPriority():
-'''public double getPriority()
-'''
-pass
+    '''    public double getPriority()
+    '''
 def getUnionPatterns():
-'''public Pattern[] getUnionPatterns()
-'''
-pass
+    '''    public Pattern[] getUnionPatterns()
+    '''
 def getMatchType():
-'''public short getMatchType()
-'''
-pass
+    '''    public short getMatchType()
+    '''
 def getMatchesNodeName():
-'''public String getMatchesNodeName()
-'''
-pass
+    '''    public String getMatchesNodeName()
+    '''
 def simplify():
-'''public Pattern simplify()
-'''
-pass
+    '''    public Pattern simplify()
+    '''

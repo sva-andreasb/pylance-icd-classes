@@ -1,12 +1,9 @@
 def ReportSet():
-'''public ReportSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportSet(final MboServerInterface ms)
+    '''
 def getMaxAppsWhere():
-'''public String getMaxAppsWhere()
-'''
-pass
+    '''    public String getMaxAppsWhere()
+    '''
 def doNotRunInitForMbo():
-'''public void doNotRunInitForMbo()
-'''
-pass
+    '''    public void doNotRunInitForMbo()
+    '''

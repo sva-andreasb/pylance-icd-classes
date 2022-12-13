@@ -1,32 +1,24 @@
 def JingleError():
-'''public JingleError(final String message)
-'''
-pass
+    '''    public JingleError(final String message)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''
 def fromString():
-'''public static JingleError fromString(String value)
-'''
-pass
+    '''    public static JingleError fromString(String value)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def parse():
-'''public ExtensionElement parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public ExtensionElement parse(final XmlPullParser parser, final int initialDepth)
+    '''

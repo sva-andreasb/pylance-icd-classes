@@ -1,101 +1,76 @@
 def setDefaultPreference():
-'''public void setDefaultPreference(final com.softlayer.api.service.notification.Preference defaultPreference)
-'''
-pass
+    '''    public void setDefaultPreference(final com.softlayer.api.service.notification.Preference defaultPreference)
+    '''
 def getNotificationUserSubscriber():
-'''public Subscriber getNotificationUserSubscriber()
-'''
-pass
+    '''    public Subscriber getNotificationUserSubscriber()
+    '''
 def setNotificationUserSubscriber():
-'''public void setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)
-'''
-pass
+    '''    public void setNotificationUserSubscriber(final Subscriber notificationUserSubscriber)
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getNotificationPreferenceId():
-'''public Long getNotificationPreferenceId()
-'''
-pass
+    '''    public Long getNotificationPreferenceId()
+    '''
 def setNotificationPreferenceId():
-'''public void setNotificationPreferenceId(final Long notificationPreferenceId)
-'''
-pass
+    '''    public void setNotificationPreferenceId(final Long notificationPreferenceId)
+    '''
 def isNotificationPreferenceIdSpecified():
-'''public boolean isNotificationPreferenceIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationPreferenceIdSpecified()
+    '''
 def unsetNotificationPreferenceId():
-'''public void unsetNotificationPreferenceId()
-'''
-pass
+    '''    public void unsetNotificationPreferenceId()
+    '''
 def getNotificationUserSubscriberId():
-'''public Long getNotificationUserSubscriberId()
-'''
-pass
+    '''    public Long getNotificationUserSubscriberId()
+    '''
 def setNotificationUserSubscriberId():
-'''public void setNotificationUserSubscriberId(final Long notificationUserSubscriberId)
-'''
-pass
+    '''    public void setNotificationUserSubscriberId(final Long notificationUserSubscriberId)
+    '''
 def isNotificationUserSubscriberIdSpecified():
-'''public boolean isNotificationUserSubscriberIdSpecified()
-'''
-pass
+    '''    public boolean isNotificationUserSubscriberIdSpecified()
+    '''
 def unsetNotificationUserSubscriberId():
-'''public void unsetNotificationUserSubscriberId()
-'''
-pass
+    '''    public void unsetNotificationUserSubscriberId()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def isValueSpecified():
-'''public boolean isValueSpecified()
-'''
-pass
+    '''    public boolean isValueSpecified()
+    '''
 def unsetValue():
-'''public void unsetValue()
-'''
-pass
+    '''    public void unsetValue()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def notificationPreferenceId():
-'''public Mask notificationPreferenceId()
-'''
-pass
+    '''    public Mask notificationPreferenceId()
+    '''
 def notificationUserSubscriberId():
-'''public Mask notificationUserSubscriberId()
-'''
-pass
+    '''    public Mask notificationUserSubscriberId()
+    '''
 def value():
-'''public Mask value()
-'''
-pass
+    '''    public Mask value()
+    '''

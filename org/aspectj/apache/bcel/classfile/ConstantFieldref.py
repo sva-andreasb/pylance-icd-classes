@@ -1,12 +1,9 @@
 def ConstantFieldref():
-'''public ConstantFieldref(final int class_index, final int name_and_type_index)
-'''
-pass
+    '''    public ConstantFieldref(final int class_index, final int name_and_type_index)
+    '''
 def accept():
-'''public void accept(final ClassVisitor v)
-'''
-pass
+    '''    public void accept(final ClassVisitor v)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

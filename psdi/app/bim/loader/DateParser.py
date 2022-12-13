@@ -1,8 +1,6 @@
 def DateParser():
-'''public DateParser(final Locale locale)
-'''
-pass
+    '''    public DateParser(final Locale locale)
+    '''
 def parseDate():
-'''public Date parseDate(final String dateString)
-'''
-pass
+    '''    public Date parseDate(final String dateString)
+    '''

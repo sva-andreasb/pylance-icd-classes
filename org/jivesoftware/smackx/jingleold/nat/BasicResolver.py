@@ -1,12 +1,9 @@
 def resolve():
-'''public synchronized void resolve(final JingleSession session)
-'''
-pass
+    '''    public synchronized void resolve(final JingleSession session)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''

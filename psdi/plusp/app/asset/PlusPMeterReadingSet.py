@@ -1,4 +1,3 @@
 def PlusPMeterReadingSet():
-'''public PlusPMeterReadingSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPMeterReadingSet(final MboServerInterface arg0)
+    '''

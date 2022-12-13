@@ -1,28 +1,21 @@
 def ImageRendered():
-'''public ImageRendered(final ImageInfo info, final RenderedImage red, final Color transparentColor)
-'''
-pass
+    '''    public ImageRendered(final ImageInfo info, final RenderedImage red, final Color transparentColor)
+    '''
 def getFlavor():
-'''public ImageFlavor getFlavor()
-'''
-pass
+    '''    public ImageFlavor getFlavor()
+    '''
 def isCacheable():
-'''public boolean isCacheable()
-'''
-pass
+    '''    public boolean isCacheable()
+    '''
 def getRenderedImage():
-'''public RenderedImage getRenderedImage()
-'''
-pass
+    '''    public RenderedImage getRenderedImage()
+    '''
 def getColorSpace():
-'''public ColorSpace getColorSpace()
-'''
-pass
+    '''    public ColorSpace getColorSpace()
+    '''
 def getICCProfile():
-'''public ICC_Profile getICCProfile()
-'''
-pass
+    '''    public ICC_Profile getICCProfile()
+    '''
 def getTransparentColor():
-'''public Color getTransparentColor()
-'''
-pass
+    '''    public Color getTransparentColor()
+    '''

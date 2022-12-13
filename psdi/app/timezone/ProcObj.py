@@ -1,4 +1,3 @@
 def ProcObj():
-'''public ProcObj(final MboSet ms)
-'''
-pass
+    '''    public ProcObj(final MboSet ms)
+    '''

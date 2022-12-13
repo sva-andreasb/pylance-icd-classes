@@ -1,96 +1,72 @@
 def getNormalizedName():
-'''public String getNormalizedName()
-'''
-pass
+    '''    public String getNormalizedName()
+    '''
 def QueueConfig():
-'''public QueueConfig(final String queueName, final String initialCtxFactory, final String confactName, final String providerURL, final String emailAddr, final boolean sequential, final boolean inbound, final int maxtryCount, final String userid, final String password, final boolean isCompress, final boolean isText, final String providerUser, final String providerPassword, final String provider, final int retentionTime, final String errorqueue)
-'''
-pass
+    '''    public QueueConfig(final String queueName, final String initialCtxFactory, final String confactName, final String providerURL, final String emailAddr, final boolean sequential, final boolean inbound, final int maxtryCount, final String userid, final String password, final boolean isCompress, final boolean isText, final String providerUser, final String providerPassword, final String provider, final int retentionTime, final String errorqueue)
+    '''
 def getQueueName():
-'''public String getQueueName()
-'''
-pass
+    '''    public String getQueueName()
+    '''
 def getInitialCtxFactory():
-'''public String getInitialCtxFactory()
-'''
-pass
+    '''    public String getInitialCtxFactory()
+    '''
 def getConfactName():
-'''public String getConfactName()
-'''
-pass
+    '''    public String getConfactName()
+    '''
 def getProviderURL():
-'''public String getProviderURL()
-'''
-pass
+    '''    public String getProviderURL()
+    '''
 def isSequential():
-'''public boolean isSequential()
-'''
-pass
+    '''    public boolean isSequential()
+    '''
 def isCompress():
-'''public boolean isCompress()
-'''
-pass
+    '''    public boolean isCompress()
+    '''
 def isText():
-'''public boolean isText()
-'''
-pass
+    '''    public boolean isText()
+    '''
 def getProviderPassword():
-'''public String getProviderPassword()
-'''
-pass
+    '''    public String getProviderPassword()
+    '''
 def getProvider():
-'''public String getProvider()
-'''
-pass
+    '''    public String getProvider()
+    '''
 def getRetentionTime():
-'''public int getRetentionTime()
-'''
-pass
+    '''    public int getRetentionTime()
+    '''
 def getProviderUser():
-'''public String getProviderUser()
-'''
-pass
+    '''    public String getProviderUser()
+    '''
 def isInbound():
-'''public boolean isInbound()
-'''
-pass
+    '''    public boolean isInbound()
+    '''
 def getEmailAddr():
-'''public String getEmailAddr()
-'''
-pass
+    '''    public String getEmailAddr()
+    '''
 def getMaxTryCount():
-'''public int getMaxTryCount()
-'''
-pass
+    '''    public int getMaxTryCount()
+    '''
 def setEmailAddr():
-'''public void setEmailAddr(final String string)
-'''
-pass
+    '''    public void setEmailAddr(final String string)
+    '''
 def getEnv():
-'''public Properties getEnv()
-'''
-pass
+    '''    public Properties getEnv()
+    '''
 def getErrorQueue():
-'''public String getErrorQueue()
-'''
-pass
+    '''    public String getErrorQueue()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getQueueEmailInfo():
-'''public QueueEmailInfo getQueueEmailInfo()
-'''
-pass
+    '''    public QueueEmailInfo getQueueEmailInfo()
+    '''
 def setQueueEmailInfo():
-'''public void setQueueEmailInfo(final QueueEmailInfo queueEmailInfo)
-'''
-pass
+    '''    public void setQueueEmailInfo(final QueueEmailInfo queueEmailInfo)
+    '''
 def setServesAsErrorQueue():
-'''public void setServesAsErrorQueue(final boolean servesAsErrorQueue)
-'''
-pass
+    '''    public void setServesAsErrorQueue(final boolean servesAsErrorQueue)
+    '''
 def isServesAsErrorQueue():
-'''public boolean isServesAsErrorQueue()
-'''
-pass
+    '''    public boolean isServesAsErrorQueue()
+    '''

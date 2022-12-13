@@ -1,4 +1,3 @@
 def PlusPSecurityRestrictSet():
-'''public PlusPSecurityRestrictSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPSecurityRestrictSet(final MboServerInterface arg0)
+    '''

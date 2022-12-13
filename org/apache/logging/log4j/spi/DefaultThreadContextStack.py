@@ -1,97 +1,73 @@
 def DefaultThreadContextStack():
-'''public DefaultThreadContextStack(final boolean useStack)
-'''
-pass
+    '''    public DefaultThreadContextStack(final boolean useStack)
+    '''
 def add():
-'''public boolean add(final String s)
-'''
-pass
+    '''    public boolean add(final String s)
+    '''
 def addAll():
-'''public boolean addAll(final Collection<? extends String> strings)
-'''
-pass
+    '''    public boolean addAll(final Collection<? extends String> strings)
+    '''
 def asList():
-'''public List<String> asList()
-'''
-pass
+    '''    public List<String> asList()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection<?> objects)
-'''
-pass
+    '''    public boolean containsAll(final Collection<?> objects)
+    '''
 def copy():
-'''public ThreadContextStack copy()
-'''
-pass
+    '''    public ThreadContextStack copy()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getDepth():
-'''public int getDepth()
-'''
-pass
+    '''    public int getDepth()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def iterator():
-'''public Iterator<String> iterator()
-'''
-pass
+    '''    public Iterator<String> iterator()
+    '''
 def peek():
-'''public String peek()
-'''
-pass
+    '''    public String peek()
+    '''
 def pop():
-'''public String pop()
-'''
-pass
+    '''    public String pop()
+    '''
 def push():
-'''public void push(final String message)
-'''
-pass
+    '''    public void push(final String message)
+    '''
 def remove():
-'''public boolean remove(final Object o)
-'''
-pass
+    '''    public boolean remove(final Object o)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection<?> objects)
-'''
-pass
+    '''    public boolean removeAll(final Collection<?> objects)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection<?> objects)
-'''
-pass
+    '''    public boolean retainAll(final Collection<?> objects)
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def toArray():
-'''public Object[] toArray()
-public <T> T[] toArray(final T[] ts)
-'''
-pass
+    '''    public Object[] toArray()
+    public <T> T[] toArray(final T[] ts)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def formatTo():
-'''public void formatTo(final StringBuilder buffer)
-'''
-pass
+    '''    public void formatTo(final StringBuilder buffer)
+    '''
 def trim():
-'''public void trim(final int depth)
-'''
-pass
+    '''    public void trim(final int depth)
+    '''

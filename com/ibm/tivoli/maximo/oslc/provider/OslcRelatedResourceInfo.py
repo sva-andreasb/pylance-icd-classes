@@ -1,44 +1,33 @@
 def OslcRelatedResourceInfo():
-'''public OslcRelatedResourceInfo(final String propName, final String propNs, final String linkedOSName, final String relation, final boolean dependent, final String cardinality)
-'''
-pass
+    '''    public OslcRelatedResourceInfo(final String propName, final String propNs, final String linkedOSName, final String relation, final boolean dependent, final String cardinality)
+    '''
 def getPropName():
-'''public String getPropName()
-'''
-pass
+    '''    public String getPropName()
+    '''
 def getPropNs():
-'''public String getPropNs()
-'''
-pass
+    '''    public String getPropNs()
+    '''
 def getLinkedOSName():
-'''public String getLinkedOSName()
-'''
-pass
+    '''    public String getLinkedOSName()
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def isDependent():
-'''public boolean isDependent()
-'''
-pass
+    '''    public boolean isDependent()
+    '''
 def getCardinality():
-'''public String getCardinality()
-'''
-pass
+    '''    public String getCardinality()
+    '''
 def isExactlyOne():
-'''public boolean isExactlyOne()
-'''
-pass
+    '''    public boolean isExactlyOne()
+    '''
 def isZeroOrOne():
-'''public boolean isZeroOrOne()
-'''
-pass
+    '''    public boolean isZeroOrOne()
+    '''
 def isZeroOrMany():
-'''public boolean isZeroOrMany()
-'''
-pass
+    '''    public boolean isZeroOrMany()
+    '''
 def isOneOrMany():
-'''public boolean isOneOrMany()
-'''
-pass
+    '''    public boolean isOneOrMany()
+    '''

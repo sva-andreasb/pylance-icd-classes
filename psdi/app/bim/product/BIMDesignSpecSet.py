@@ -1,4 +1,3 @@
 def BIMDesignSpecSet():
-'''public BIMDesignSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BIMDesignSpecSet(final MboServerInterface ms)
+    '''

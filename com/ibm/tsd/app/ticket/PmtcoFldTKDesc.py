@@ -1,20 +1,15 @@
 def PmtcoFldTKDesc():
-'''public PmtcoFldTKDesc(final MboValue mbv)
-'''
-pass
+    '''    public PmtcoFldTKDesc(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

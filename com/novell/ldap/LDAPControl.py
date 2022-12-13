@@ -1,45 +1,34 @@
 def LDAPControl():
-'''public LDAPControl()
-public LDAPControl(final String s, final boolean b, final byte[] array)
-'''
-pass
+    '''    public LDAPControl()
+    public LDAPControl(final String s, final boolean b, final byte[] array)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getID():
-'''public String getID()
-'''
-pass
+    '''    public String getID()
+    '''
 def getValue():
-'''public byte[] getValue()
-'''
-pass
+    '''    public byte[] getValue()
+    '''
 def isCritical():
-'''public boolean isCritical()
-'''
-pass
+    '''    public boolean isCritical()
+    '''
 def register():
-'''public static void register(final String s, final Class clazz)
-'''
-pass
+    '''    public static void register(final String s, final Class clazz)
+    '''
 def writeDSML():
-'''public void writeDSML(final OutputStream out)
-'''
-pass
+    '''    public void writeDSML(final OutputStream out)
+    '''
 def readDSML():
-'''public static Object readDSML(final InputStream inputStream)
-'''
-pass
+    '''    public static Object readDSML(final InputStream inputStream)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput objectOutput)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput objectOutput)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput objectInput)
-'''
-pass
+    '''    public void readExternal(final ObjectInput objectInput)
+    '''

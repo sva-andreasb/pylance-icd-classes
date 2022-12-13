@@ -1,28 +1,21 @@
 def getType():
-'''public TYPE getType()
-'''
-pass
+    '''    public TYPE getType()
+    '''
 def setType():
-'''public void setType(final int type)
-'''
-pass
+    '''    public void setType(final int type)
+    '''
 def getResolution():
-'''public RESOLUTION getResolution()
-'''
-pass
+    '''    public RESOLUTION getResolution()
+    '''
 def setResolution():
-'''public void setResolution(final int resolution)
-'''
-pass
+    '''    public void setResolution(final int resolution)
+    '''
 def getThreat():
-'''public String getThreat()
-'''
-pass
+    '''    public String getThreat()
+    '''
 def setThreat():
-'''public void setThreat(final String threat)
-'''
-pass
+    '''    public void setThreat(final String threat)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

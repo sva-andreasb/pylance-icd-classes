@@ -1,24 +1,18 @@
 def getPropagator():
-'''public static String getPropagator()
-'''
-pass
+    '''    public static String getPropagator()
+    '''
 def isTestMode():
-'''public static boolean isTestMode()
-'''
-pass
+    '''    public static boolean isTestMode()
+    '''
 def getNagiosHome():
-'''public static String getNagiosHome()
-'''
-pass
+    '''    public static String getNagiosHome()
+    '''
 def getGenericAgentPort():
-'''public static int getGenericAgentPort()
-'''
-pass
+    '''    public static int getGenericAgentPort()
+    '''
 def getMaxStateMachineAge():
-'''public static int getMaxStateMachineAge()
-'''
-pass
+    '''    public static int getMaxStateMachineAge()
+    '''
 def getMaxDiscoverStateMachineAge():
-'''public static int getMaxDiscoverStateMachineAge()
-'''
-pass
+    '''    public static int getMaxDiscoverStateMachineAge()
+    '''

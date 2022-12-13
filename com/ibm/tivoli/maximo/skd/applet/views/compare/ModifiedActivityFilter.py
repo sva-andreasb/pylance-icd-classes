@@ -1,4 +1,3 @@
 def evaluate():
-'''public boolean evaluate(final IlvActivity mx)
-'''
-pass
+    '''    public boolean evaluate(final IlvActivity mx)
+    '''

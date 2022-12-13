@@ -1,4 +1,3 @@
 def fillInStackTrace():
-'''public Throwable fillInStackTrace()
-'''
-pass
+    '''    public Throwable fillInStackTrace()
+    '''

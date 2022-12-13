@@ -1,32 +1,24 @@
 def InspectionAudioUtil():
-'''public InspectionAudioUtil()
-'''
-pass
+    '''    public InspectionAudioUtil()
+    '''
 def convertToAudio():
-'''public static void convertToAudio(final MboRemote InspectionFormInput)
-'''
-pass
+    '''    public static void convertToAudio(final MboRemote InspectionFormInput)
+    '''
 def translate():
-'''public static byte[] translate(final String langcode, final String announcement, final String Object, final String ID)
-'''
-pass
+    '''    public static byte[] translate(final String langcode, final String announcement, final String Object, final String ID)
+    '''
 def getQuestions():
-'''public static MboSetRemote getQuestions(final MboRemote form)
-'''
-pass
+    '''    public static MboSetRemote getQuestions(final MboRemote form)
+    '''
 def getFields():
-'''public static MboSetRemote getFields(final MboRemote question)
-'''
-pass
+    '''    public static MboSetRemote getFields(final MboRemote question)
+    '''
 def getFieldOptions():
-'''public static MboSetRemote getFieldOptions(final MboRemote field)
-'''
-pass
+    '''    public static MboSetRemote getFieldOptions(final MboRemote field)
+    '''
 def IterateForm():
-'''public static void IterateForm(final MboRemote form)
-'''
-pass
+    '''    public static void IterateForm(final MboRemote form)
+    '''
 def IterateFields():
-'''public static void IterateFields(final MboRemote question)
-'''
-pass
+    '''    public static void IterateFields(final MboRemote question)
+    '''

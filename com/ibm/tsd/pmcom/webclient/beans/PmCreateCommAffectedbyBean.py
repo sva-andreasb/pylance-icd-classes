@@ -1,40 +1,30 @@
 def PmCreateCommAffectedbyBean():
-'''public PmCreateCommAffectedbyBean()
-'''
-pass
+    '''    public PmCreateCommAffectedbyBean()
+    '''
 def sendmessage():
-'''public int sendmessage()
-'''
-pass
+    '''    public int sendmessage()
+    '''
 def docancel():
-'''public int docancel()
-'''
-pass
+    '''    public int docancel()
+    '''
 def addrecipients():
-'''public int addrecipients()
-'''
-pass
+    '''    public int addrecipients()
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession sc)
-'''
-pass
+    '''    public void setupBean(final WebClientSession sc)
+    '''
 def spellcheck():
-'''public int spellcheck()
-'''
-pass
+    '''    public int spellcheck()
+    '''
 def spellcheckreturn():
-'''public int spellcheckreturn()
-'''
-pass
+    '''    public int spellcheckreturn()
+    '''
 def clearvalue():
-'''public int clearvalue()
-'''
-pass
+    '''    public int clearvalue()
+    '''
 def resetvalue():
-'''public int resetvalue()
-'''
-pass
+    '''    public int resetvalue()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

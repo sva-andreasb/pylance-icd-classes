@@ -1,8 +1,6 @@
 def createinvoices():
-'''public int createinvoices()
-'''
-pass
+    '''    public int createinvoices()
+    '''
 def selectasset():
-'''public int selectasset()
-'''
-pass
+    '''    public int selectasset()
+    '''

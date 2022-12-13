@@ -1,8 +1,6 @@
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''
 def updateINvFreq():
-'''public void updateINvFreq()
-'''
-pass
+    '''    public void updateINvFreq()
+    '''

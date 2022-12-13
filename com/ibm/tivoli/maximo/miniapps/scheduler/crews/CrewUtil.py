@@ -1,8 +1,6 @@
 def inspectActivity():
-'''public static void inspectActivity(final MXGanttModel model, final MXActivity mxa)
-'''
-pass
+    '''    public static void inspectActivity(final MXGanttModel model, final MXActivity mxa)
+    '''
 def fixModel():
-'''public static void fixModel(final MXGanttModel model)
-'''
-pass
+    '''    public static void fixModel(final MXGanttModel model)
+    '''

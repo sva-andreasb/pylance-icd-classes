@@ -1,87 +1,67 @@
-AUTH_SCHEME = "String  OAuth""
-GET = "String  GET""
-POST = "String  POST""
-PUT = "String  PUT""
-DELETE = "String  DELETE""
+AUTH_SCHEME = "String  \"OAuth\""
+GET = "String  \"GET\""
+POST = "String  \"POST\""
+PUT = "String  \"PUT\""
+DELETE = "String  \"DELETE\""
 def OAuthMessage():
-'''public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters)
-public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters, final InputStream bodyAsStream)
-'''
-pass
+    '''    public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters)
+    public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters, final InputStream bodyAsStream)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def addParameter():
-'''public void addParameter(final String key, final String value)
-public void addParameter(final Map.Entry<String, String> parameter)
-'''
-pass
+    '''    public void addParameter(final String key, final String value)
+    public void addParameter(final Map.Entry<String, String> parameter)
+    '''
 def addParameters():
-'''public void addParameters(final Collection<? extends Map.Entry<String, String>> parameters)
-'''
-pass
+    '''    public void addParameters(final Collection<? extends Map.Entry<String, String>> parameters)
+    '''
 def getParameter():
-'''public String getParameter(final String name)
-'''
-pass
+    '''    public String getParameter(final String name)
+    '''
 def getConsumerKey():
-'''public String getConsumerKey()
-'''
-pass
+    '''    public String getConsumerKey()
+    '''
 def getToken():
-'''public String getToken()
-'''
-pass
+    '''    public String getToken()
+    '''
 def getSignatureMethod():
-'''public String getSignatureMethod()
-'''
-pass
+    '''    public String getSignatureMethod()
+    '''
 def getSignature():
-'''public String getSignature()
-'''
-pass
+    '''    public String getSignature()
+    '''
 def getBodyType():
-'''public String getBodyType()
-'''
-pass
+    '''    public String getBodyType()
+    '''
 def getBodyEncoding():
-'''public String getBodyEncoding()
-'''
-pass
+    '''    public String getBodyEncoding()
+    '''
 def getHeader():
-'''public final String getHeader(final String name)
-'''
-pass
+    '''    public final String getHeader(final String name)
+    '''
 def readBodyAsString():
-'''public final String readBodyAsString()
-'''
-pass
+    '''    public final String readBodyAsString()
+    '''
 def getBodyAsStream():
-'''public InputStream getBodyAsStream()
-'''
-pass
+    '''    public InputStream getBodyAsStream()
+    '''
 def getDump():
-'''public Map<String, Object> getDump()
-'''
-pass
+    '''    public Map<String, Object> getDump()
+    '''
 def requireParameters():
-'''public void requireParameters(final String... names)
-'''
-pass
+    '''    public void requireParameters(final String... names)
+    '''
 def addRequiredParameters():
-'''public void addRequiredParameters(final OAuthAccessor accessor)
-'''
-pass
+    '''    public void addRequiredParameters(final OAuthAccessor accessor)
+    '''
 def sign():
-'''public void sign(final OAuthAccessor accessor)
-'''
-pass
+    '''    public void sign(final OAuthAccessor accessor)
+    '''
 def getAuthorizationHeader():
-'''public String getAuthorizationHeader(final String realm)
-'''
-pass
+    '''    public String getAuthorizationHeader(final String realm)
+    '''
 def readAll():
-'''public static String readAll(final InputStream from, final String encoding)
-'''
-pass
+    '''    public static String readAll(final InputStream from, final String encoding)
+    '''

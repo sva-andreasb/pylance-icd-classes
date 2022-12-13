@@ -1,12 +1,9 @@
 def ManifestMF():
-'''public ManifestMF()
-'''
-pass
+    '''    public ManifestMF()
+    '''
 def create():
-'''public static synchronized ManifestMF create(final String lineSeparator)
-'''
-pass
+    '''    public static synchronized ManifestMF create(final String lineSeparator)
+    '''
 def generate():
-'''public String generate(final Object argument)
-'''
-pass
+    '''    public String generate(final Object argument)
+    '''

@@ -1,56 +1,42 @@
 def SAX2Parser():
-'''public SAX2Parser()
-'''
-pass
+    '''    public SAX2Parser()
+    '''
 def consumeEvents():
-'''public boolean consumeEvents()
-'''
-pass
+    '''    public boolean consumeEvents()
+    '''
 def endDTD():
-'''public void endDTD()
-'''
-pass
+    '''    public void endDTD()
+    '''
 def skippedExternalSubsetEntity():
-'''public boolean skippedExternalSubsetEntity()
-'''
-pass
+    '''    public boolean skippedExternalSubsetEntity()
+    '''
 def startDTDEntity():
-'''public void startDTDEntity()
-'''
-pass
+    '''    public void startDTDEntity()
+    '''
 def endDTDEntity():
-'''public void endDTDEntity()
-'''
-pass
+    '''    public void endDTDEntity()
+    '''
 def startPE():
-'''public void startPE(final XMLString xmlString)
-'''
-pass
+    '''    public void startPE(final XMLString xmlString)
+    '''
 def endPE():
-'''public void endPE(final XMLString xmlString)
-'''
-pass
+    '''    public void endPE(final XMLString xmlString)
+    '''
 def processingInstructionInDTD():
-'''public void processingInstructionInDTD(final XMLString xmlString, final XMLString xmlString2)
-'''
-pass
+    '''    public void processingInstructionInDTD(final XMLString xmlString, final XMLString xmlString2)
+    '''
 def commentInDTD():
-'''public void commentInDTD(final XMLString xmlString)
-'''
-pass
+    '''    public void commentInDTD(final XMLString xmlString)
+    '''
 def getDTDHandler():
-'''public DTDHandler getDTDHandler()
-'''
-pass
+    '''    public DTDHandler getDTDHandler()
+    '''
 def setDTDHandler():
-'''public void setDTDHandler(final DTDHandler dtdHandler)
-'''
-pass
+    '''    public void setDTDHandler(final DTDHandler dtdHandler)
+    '''
 def getEntityResolver():
-'''public EntityResolver getEntityResolver()
-'''
-pass
+    '''    public EntityResolver getEntityResolver()
+    '''
 def setEntityResolver():
-'''public void setEntityResolver(final EntityResolver entityResolver)
-'''
-pass
+    '''    public void setEntityResolver(final EntityResolver entityResolver)
+    '''

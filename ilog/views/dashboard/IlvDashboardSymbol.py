@@ -1,212 +1,162 @@
 def IlvDashboardSymbol():
-'''public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol)
-public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol, final String s)
-public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol, final String s, final boolean b)
-public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol, final Object o, final String s, final boolean b)
-'''
-pass
+    '''    public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol)
+    public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol, final String s)
+    public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol, final String s, final boolean b)
+    public IlvDashboardSymbol(final IlvDashboardDiagram ilvDashboardDiagram, final IlvPaletteSymbol ilvPaletteSymbol, final Object o, final String s, final boolean b)
+    '''
 def getModel():
-'''public IlvSDMModel getModel()
-'''
-pass
+    '''    public IlvSDMModel getModel()
+    '''
 def getModelObject():
-'''public Object getModelObject()
-'''
-pass
+    '''    public Object getModelObject()
+    '''
 def getGraphicObject():
-'''public IlvGraphic getGraphicObject()
-'''
-pass
+    '''    public IlvGraphic getGraphicObject()
+    '''
 def getPaletteSymbol():
-'''public IlvPaletteSymbol getPaletteSymbol()
-'''
-pass
+    '''    public IlvPaletteSymbol getPaletteSymbol()
+    '''
 def getParameters():
-'''public ParameterIterator getParameters()
-'''
-pass
+    '''    public ParameterIterator getParameters()
+    '''
 def iterator():
-'''public Iterator<Parameter> iterator()
-'''
-pass
+    '''    public Iterator<Parameter> iterator()
+    '''
 def getParameterCount():
-'''public int getParameterCount()
-'''
-pass
+    '''    public int getParameterCount()
+    '''
 def getParameter():
-'''public Parameter getParameter(final int n)
-public Parameter getParameter(final String s)
-'''
-pass
+    '''    public Parameter getParameter(final int n)
+    public Parameter getParameter(final String s)
+    '''
 def getParameterMapping():
-'''public String getParameterMapping(final Parameter parameter)
-'''
-pass
+    '''    public String getParameterMapping(final Parameter parameter)
+    '''
 def setParameterMapping():
-'''public void setParameterMapping(final Parameter parameter, String b)
-'''
-pass
+    '''    public void setParameterMapping(final Parameter parameter, String b)
+    '''
 def getParameterValue():
-'''public Object getParameterValue(final int n)
-public Object getParameterValue(final Parameter parameter)
-public Object getParameterValue(final String s)
-'''
-pass
+    '''    public Object getParameterValue(final int n)
+    public Object getParameterValue(final Parameter parameter)
+    public Object getParameterValue(final String s)
+    '''
 def getParameterTextValue():
-'''public String getParameterTextValue(final Parameter parameter)
-'''
-pass
+    '''    public String getParameterTextValue(final Parameter parameter)
+    '''
 def setParameterValue():
-'''public void setParameterValue(final Parameter parameter, Object value)
-public void setParameterValue(final String s, final Object o)
-'''
-pass
+    '''    public void setParameterValue(final Parameter parameter, Object value)
+    public void setParameterValue(final String s, final Object o)
+    '''
 def getPaletteSymbolParameter():
-'''public IlvPaletteSymbolParameter getPaletteSymbolParameter(final Parameter parameter)
-public IlvPaletteSymbolParameter getPaletteSymbolParameter()
-'''
-pass
+    '''    public IlvPaletteSymbolParameter getPaletteSymbolParameter(final Parameter parameter)
+    public IlvPaletteSymbolParameter getPaletteSymbolParameter()
+    '''
 def getParameterID():
-'''public String getParameterID(final Parameter parameter)
-'''
-pass
+    '''    public String getParameterID(final Parameter parameter)
+    '''
 def isLink():
-'''public boolean isLink()
-'''
-pass
+    '''    public boolean isLink()
+    '''
 def getDiagram():
-'''public IlvDashboardDiagram getDiagram()
-'''
-pass
+    '''    public IlvDashboardDiagram getDiagram()
+    '''
 def getID():
-'''public String getID()
-public String getID()
-'''
-pass
+    '''    public String getID()
+    public String getID()
+    '''
 def setID():
-'''public void setID(final String id)
-'''
-pass
+    '''    public void setID(final String id)
+    '''
 def getPropertyEditor():
-'''public PropertyEditor getPropertyEditor(final Parameter parameter)
-'''
-pass
+    '''    public PropertyEditor getPropertyEditor(final Parameter parameter)
+    '''
 def createPropertyEditor():
-'''public PropertyEditor createPropertyEditor(final Parameter parameter)
-'''
-pass
+    '''    public PropertyEditor createPropertyEditor(final Parameter parameter)
+    '''
 def getX():
-'''public float getX()
-'''
-pass
+    '''    public float getX()
+    '''
 def setX():
-'''public void setX(final float value)
-'''
-pass
+    '''    public void setX(final float value)
+    '''
 def getY():
-'''public float getY()
-'''
-pass
+    '''    public float getY()
+    '''
 def setY():
-'''public void setY(final float value)
-'''
-pass
+    '''    public void setY(final float value)
+    '''
 def getWidth():
-'''public float getWidth()
-'''
-pass
+    '''    public float getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final float value)
-'''
-pass
+    '''    public void setWidth(final float value)
+    '''
 def getHeight():
-'''public float getHeight()
-'''
-pass
+    '''    public float getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final float value)
-'''
-pass
+    '''    public void setHeight(final float value)
+    '''
 def getSymbolBoundingBox():
-'''public IlvRect getSymbolBoundingBox()
-'''
-pass
+    '''    public IlvRect getSymbolBoundingBox()
+    '''
 def setSymbolBoundingBox():
-'''public void setSymbolBoundingBox(final IlvRect ilvRect)
-'''
-pass
+    '''    public void setSymbolBoundingBox(final IlvRect ilvRect)
+    '''
 def getTargetDashboardURL():
-'''public String getTargetDashboardURL()
-'''
-pass
+    '''    public String getTargetDashboardURL()
+    '''
 def setTargetDashboardURL():
-'''public void setTargetDashboardURL(final String s)
-'''
-pass
+    '''    public void setTargetDashboardURL(final String s)
+    '''
 def setIntermediateLinkPoints():
-'''public void setIntermediateLinkPoints(final IlvPoint[] array)
-'''
-pass
+    '''    public void setIntermediateLinkPoints(final IlvPoint[] array)
+    '''
 def getIntermediateLinkPoints():
-'''public IlvPoint[] getIntermediateLinkPoints()
-'''
-pass
+    '''    public IlvPoint[] getIntermediateLinkPoints()
+    '''
 def getLinkFrom():
-'''public IlvDashboardSymbol getLinkFrom()
-'''
-pass
+    '''    public IlvDashboardSymbol getLinkFrom()
+    '''
 def setLinkFrom():
-'''public void setLinkFrom(final IlvDashboardSymbol ilvDashboardSymbol)
-'''
-pass
+    '''    public void setLinkFrom(final IlvDashboardSymbol ilvDashboardSymbol)
+    '''
 def getLinkTo():
-'''public IlvDashboardSymbol getLinkTo()
-'''
-pass
+    '''    public IlvDashboardSymbol getLinkTo()
+    '''
 def setLinkTo():
-'''public void setLinkTo(final IlvDashboardSymbol ilvDashboardSymbol)
-'''
-pass
+    '''    public void setLinkTo(final IlvDashboardSymbol ilvDashboardSymbol)
+    '''
 def isSelected():
-'''public boolean isSelected()
-'''
-pass
+    '''    public boolean isSelected()
+    '''
 def Parameter():
-'''public Parameter(final IlvPaletteSymbolParameter a)
-'''
-pass
+    '''    public Parameter(final IlvPaletteSymbolParameter a)
+    '''
 def isMapped():
-'''public boolean isMapped()
-'''
-pass
+    '''    public boolean isMapped()
+    '''
 def isReadOnly():
-'''public boolean isReadOnly()
-'''
-pass
+    '''    public boolean isReadOnly()
+    '''
 def setReadOnly():
-'''public void setReadOnly(final boolean readOnly)
-'''
-pass
+    '''    public void setReadOnly(final boolean readOnly)
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def setVisible():
-'''public void setVisible(final boolean visible)
-'''
-pass
+    '''    public void setVisible(final boolean visible)
+    '''
 def hasNext():
-'''public boolean hasNext()
-public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    public boolean hasNext()
+    '''
 def next():
-'''public Parameter next()
-public Parameter next()
-'''
-pass
+    '''    public Parameter next()
+    public Parameter next()
+    '''
 def remove():
-'''public void remove()
-public void remove()
-'''
-pass
+    '''    public void remove()
+    public void remove()
+    '''

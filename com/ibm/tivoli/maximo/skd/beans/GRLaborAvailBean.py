@@ -1,8 +1,6 @@
 def GRLaborAvailBean():
-'''public GRLaborAvailBean()
-'''
-pass
+    '''    public GRLaborAvailBean()
+    '''
 def getUserInfo():
-'''public UserInfo getUserInfo()
-'''
-pass
+    '''    public UserInfo getUserInfo()
+    '''

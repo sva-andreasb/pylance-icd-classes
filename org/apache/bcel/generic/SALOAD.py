@@ -1,8 +1,6 @@
 def SALOAD():
-'''public SALOAD()
-'''
-pass
+    '''    public SALOAD()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

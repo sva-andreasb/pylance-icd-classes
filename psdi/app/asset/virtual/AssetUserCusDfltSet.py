@@ -1,8 +1,6 @@
 def AssetUserCusDfltSet():
-'''public AssetUserCusDfltSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AssetUserCusDfltSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

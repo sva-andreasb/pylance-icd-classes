@@ -1,4 +1,3 @@
 def PlusCAssetTemplateDumStatusSet():
-'''public PlusCAssetTemplateDumStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusCAssetTemplateDumStatusSet(final MboServerInterface ms)
+    '''

@@ -1,12 +1,9 @@
 def InvAdjustmentSet():
-'''public InvAdjustmentSet(final MboServerInterface ms)
-'''
-pass
+    '''    public InvAdjustmentSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

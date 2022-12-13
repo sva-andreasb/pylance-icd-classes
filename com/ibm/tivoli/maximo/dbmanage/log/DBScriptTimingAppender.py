@@ -1,20 +1,15 @@
 def DBScriptTimingAppender():
-'''public DBScriptTimingAppender()
-'''
-pass
+    '''    public DBScriptTimingAppender()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def doAppend():
-'''public void doAppend(final LoggingEvent event)
-'''
-pass
+    '''    public void doAppend(final LoggingEvent event)
+    '''
 def _doAppend():
-'''public void _doAppend(final LoggingEvent event)
-'''
-pass
+    '''    public void _doAppend(final LoggingEvent event)
+    '''
 def setup():
-'''public static void setup()
-'''
-pass
+    '''    public static void setup()
+    '''

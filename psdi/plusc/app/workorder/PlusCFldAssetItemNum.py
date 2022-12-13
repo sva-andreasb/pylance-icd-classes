@@ -1,4 +1,3 @@
 def PlusCFldAssetItemNum():
-'''public PlusCFldAssetItemNum(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldAssetItemNum(final MboValue mbv)
+    '''

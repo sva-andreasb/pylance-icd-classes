@@ -1,60 +1,45 @@
 def CallTarget():
-'''public CallTarget()
-'''
-pass
+    '''    public CallTarget()
+    '''
 def setInheritAll():
-'''public void setInheritAll(final boolean inherit)
-'''
-pass
+    '''    public void setInheritAll(final boolean inherit)
+    '''
 def setInheritRefs():
-'''public void setInheritRefs(final boolean inheritRefs)
-'''
-pass
+    '''    public void setInheritRefs(final boolean inheritRefs)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def createParam():
-'''public Property createParam()
-'''
-pass
+    '''    public Property createParam()
+    '''
 def addReference():
-'''public void addReference(final Ant.Reference r)
-'''
-pass
+    '''    public void addReference(final Ant.Reference r)
+    '''
 def addPropertyset():
-'''public void addPropertyset(final PropertySet ps)
-'''
-pass
+    '''    public void addPropertyset(final PropertySet ps)
+    '''
 def setTarget():
-'''public void setTarget(final String target)
-'''
-pass
+    '''    public void setTarget(final String target)
+    '''
 def addConfiguredTarget():
-'''public void addConfiguredTarget(final Ant.TargetElement t)
-'''
-pass
+    '''    public void addConfiguredTarget(final Ant.TargetElement t)
+    '''
 def handleOutput():
-'''public void handleOutput(final String output)
-'''
-pass
+    '''    public void handleOutput(final String output)
+    '''
 def handleInput():
-'''public int handleInput(final byte[] buffer, final int offset, final int length)
-'''
-pass
+    '''    public int handleInput(final byte[] buffer, final int offset, final int length)
+    '''
 def handleFlush():
-'''public void handleFlush(final String output)
-'''
-pass
+    '''    public void handleFlush(final String output)
+    '''
 def handleErrorOutput():
-'''public void handleErrorOutput(final String output)
-'''
-pass
+    '''    public void handleErrorOutput(final String output)
+    '''
 def handleErrorFlush():
-'''public void handleErrorFlush(final String output)
-'''
-pass
+    '''    public void handleErrorFlush(final String output)
+    '''

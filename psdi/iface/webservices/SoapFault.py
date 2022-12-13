@@ -1,4 +1,3 @@
 def makeSoapFault():
-'''public static AxisFault makeSoapFault(final Exception e)
-'''
-pass
+    '''    public static AxisFault makeSoapFault(final Exception e)
+    '''

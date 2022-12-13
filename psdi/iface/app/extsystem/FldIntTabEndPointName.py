@@ -1,12 +1,9 @@
 def FldIntTabEndPointName():
-'''public FldIntTabEndPointName(final MboValue mbv)
-'''
-pass
+    '''    public FldIntTabEndPointName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

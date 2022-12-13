@@ -1,8 +1,6 @@
 def DREM():
-'''public DREM()
-'''
-pass
+    '''    public DREM()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

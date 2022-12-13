@@ -1,20 +1,15 @@
 def ValidateLogger():
-'''public ValidateLogger(final PrintStream logStream, final PrintStream listStream)
-'''
-pass
+    '''    public ValidateLogger(final PrintStream logStream, final PrintStream listStream)
+    '''
 def getSQLLogger():
-'''public LogSQL getSQLLogger()
-'''
-pass
+    '''    public LogSQL getSQLLogger()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def doAppend():
-'''public void doAppend(final LoggingEvent event)
-'''
-pass
+    '''    public void doAppend(final LoggingEvent event)
+    '''
 def info():
-'''public void info(final String loggerName, final Object msg)
-'''
-pass
+    '''    public void info(final String loggerName, final Object msg)
+    '''

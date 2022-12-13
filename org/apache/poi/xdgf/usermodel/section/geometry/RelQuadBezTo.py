@@ -1,32 +1,24 @@
 def RelQuadBezTo():
-'''public RelQuadBezTo(final RowType row)
-'''
-pass
+    '''    public RelQuadBezTo(final RowType row)
+    '''
 def getDel():
-'''public boolean getDel()
-'''
-pass
+    '''    public boolean getDel()
+    '''
 def getX():
-'''public Double getX()
-'''
-pass
+    '''    public Double getX()
+    '''
 def getY():
-'''public Double getY()
-'''
-pass
+    '''    public Double getY()
+    '''
 def getA():
-'''public Double getA()
-'''
-pass
+    '''    public Double getA()
+    '''
 def getB():
-'''public Double getB()
-'''
-pass
+    '''    public Double getB()
+    '''
 def setupMaster():
-'''public void setupMaster(final GeometryRow row)
-'''
-pass
+    '''    public void setupMaster(final GeometryRow row)
+    '''
 def addToPath():
-'''public void addToPath(final Path2D.Double path, final XDGFShape parent)
-'''
-pass
+    '''    public void addToPath(final Path2D.Double path, final XDGFShape parent)
+    '''

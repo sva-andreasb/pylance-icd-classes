@@ -1,4 +1,3 @@
 def parse():
-'''public MessageCorrectExtension parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public MessageCorrectExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''

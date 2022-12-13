@@ -1,13 +1,10 @@
 def GenericRtfField():
-'''public GenericRtfField(final String fieldInst, final String fieldResult)
-public GenericRtfField(final String fieldInst, final String fieldResult, final Font font)
-'''
-pass
+    '''    public GenericRtfField(final String fieldInst, final String fieldResult)
+    public GenericRtfField(final String fieldInst, final String fieldResult, final Font font)
+    '''
 def writeRtfFieldInitializationStuff():
-'''public void writeRtfFieldInitializationStuff(final OutputStream out)
-'''
-pass
+    '''    public void writeRtfFieldInitializationStuff(final OutputStream out)
+    '''
 def writeRtfFieldResultStuff():
-'''public void writeRtfFieldResultStuff(final OutputStream out)
-'''
-pass
+    '''    public void writeRtfFieldResultStuff(final OutputStream out)
+    '''

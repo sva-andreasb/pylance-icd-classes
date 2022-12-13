@@ -1,25 +1,19 @@
 def Comment():
-'''public Comment(final String data)
-public Comment(final String data, final String baseUri)
-'''
-pass
+    '''    public Comment(final String data)
+    public Comment(final String data, final String baseUri)
+    '''
 def nodeName():
-'''public String nodeName()
-'''
-pass
+    '''    public String nodeName()
+    '''
 def getData():
-'''public String getData()
-'''
-pass
+    '''    public String getData()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isXmlDeclaration():
-'''public boolean isXmlDeclaration()
-'''
-pass
+    '''    public boolean isXmlDeclaration()
+    '''
 def asXmlDeclaration():
-'''public XmlDeclaration asXmlDeclaration()
-'''
-pass
+    '''    public XmlDeclaration asXmlDeclaration()
+    '''

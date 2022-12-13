@@ -1,16 +1,12 @@
 def FldMaxQueueQueueName():
-'''public FldMaxQueueQueueName(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxQueueQueueName(final MboValue mbv)
+    '''
 def hasList():
-'''public boolean hasList()
-'''
-pass
+    '''    public boolean hasList()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

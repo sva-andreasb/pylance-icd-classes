@@ -1,24 +1,18 @@
 def LdapSyncAdapter():
-'''public LdapSyncAdapter()
-'''
-pass
+    '''    public LdapSyncAdapter()
+    '''
 def syncStarting():
-'''public void syncStarting(final LdapSyncEvent event)
-'''
-pass
+    '''    public void syncStarting(final LdapSyncEvent event)
+    '''
 def syncEnded():
-'''public void syncEnded(final LdapSyncEvent event)
-'''
-pass
+    '''    public void syncEnded(final LdapSyncEvent event)
+    '''
 def syncUser():
-'''public void syncUser(final LdapSyncEvent event)
-'''
-pass
+    '''    public void syncUser(final LdapSyncEvent event)
+    '''
 def syncGroup():
-'''public void syncGroup(final LdapSyncEvent event)
-'''
-pass
+    '''    public void syncGroup(final LdapSyncEvent event)
+    '''
 def syncGroupMembers():
-'''public void syncGroupMembers(final LdapSyncEvent event)
-'''
-pass
+    '''    public void syncGroupMembers(final LdapSyncEvent event)
+    '''

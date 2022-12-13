@@ -1,264 +1,199 @@
 def setRestUser():
-'''public void setRestUser(final boolean restUser)
-'''
-pass
+    '''    public void setRestUser(final boolean restUser)
+    '''
 def isRestUser():
-'''public boolean isRestUser()
-'''
-pass
+    '''    public boolean isRestUser()
+    '''
 def getUserLoginDetails():
-'''public UserLoginDetails getUserLoginDetails()
-'''
-pass
+    '''    public UserLoginDetails getUserLoginDetails()
+    '''
 def getConnectionKey():
-'''public ConnectionKey getConnectionKey()
-'''
-pass
+    '''    public ConnectionKey getConnectionKey()
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def getIBMID():
-'''public String getIBMID()
-'''
-pass
+    '''    public String getIBMID()
+    '''
 def getDefaultUserNotfType():
-'''public String getDefaultUserNotfType()
-'''
-pass
+    '''    public String getDefaultUserNotfType()
+    '''
 def getIBMPass():
-'''public String getIBMPass()
-'''
-pass
+    '''    public String getIBMPass()
+    '''
 def getPersonId():
-'''public String getPersonId()
-'''
-pass
+    '''    public String getPersonId()
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getLoginUserName():
-'''public String getLoginUserName()
-'''
-pass
+    '''    public String getLoginUserName()
+    '''
 def getLoginID():
-'''public String getLoginID()
-'''
-pass
+    '''    public String getLoginID()
+    '''
 def setEmail():
-'''public void setEmail(final String email)
-'''
-pass
+    '''    public void setEmail(final String email)
+    '''
 def getEmail():
-'''public String getEmail()
-'''
-pass
+    '''    public String getEmail()
+    '''
 def setPhone():
-'''public void setPhone(final String phone)
-'''
-pass
+    '''    public void setPhone(final String phone)
+    '''
 def getPhone():
-'''public String getPhone()
-'''
-pass
+    '''    public String getPhone()
+    '''
 def setMaxSessionID():
-'''public void setMaxSessionID(final long maxsessionid)
-'''
-pass
+    '''    public void setMaxSessionID(final long maxsessionid)
+    '''
 def getMaxSessionID():
-'''public long getMaxSessionID()
-'''
-pass
+    '''    public long getMaxSessionID()
+    '''
 def setUserName():
-'''public void setUserName(final String s)
-'''
-pass
+    '''    public void setUserName(final String s)
+    '''
 def getSchemaOwner():
-'''public String getSchemaOwner()
-'''
-pass
+    '''    public String getSchemaOwner()
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def getICULocale():
-'''public ULocale getICULocale()
-'''
-pass
+    '''    public ULocale getICULocale()
+    '''
 def setLocale():
-'''public void setLocale(final Locale locale)
-public void setLocale(final String localeStr)
-'''
-pass
+    '''    public void setLocale(final Locale locale)
+    public void setLocale(final String localeStr)
+    '''
 def getTimeZone():
-'''public TimeZone getTimeZone()
-'''
-pass
+    '''    public TimeZone getTimeZone()
+    '''
 def setTimeZone():
-'''public void setTimeZone(final TimeZone timeZone)
-public void setTimeZone(final String tzStr)
-'''
-pass
+    '''    public void setTimeZone(final TimeZone timeZone)
+    public void setTimeZone(final String tzStr)
+    '''
 def getBaseCurrency():
-'''public String getBaseCurrency()
-'''
-pass
+    '''    public String getBaseCurrency()
+    '''
 def setMXServer():
-'''public void setMXServer(final MXServerRemote server)
-'''
-pass
+    '''    public void setMXServer(final MXServerRemote server)
+    '''
 def getServerGuid():
-'''public UUID getServerGuid()
-'''
-pass
+    '''    public UUID getServerGuid()
+    '''
 def getCaltype():
-'''public String getCaltype()
-'''
-pass
+    '''    public String getCaltype()
+    '''
 def setCalType():
-'''public void setCalType(final String Cal)
-'''
-pass
+    '''    public void setCalType(final String Cal)
+    '''
 def getBaseCaltype():
-'''public String getBaseCaltype()
-'''
-pass
+    '''    public String getBaseCaltype()
+    '''
 def getLangCode():
-'''public String getLangCode()
-'''
-pass
+    '''    public String getLangCode()
+    '''
 def setLangCode():
-'''public void setLangCode(final String langCode)
-public void setLangCode(final String langCode, final MXServerRemote server)
-'''
-pass
+    '''    public void setLangCode(final String langCode)
+    public void setLangCode(final String langCode, final MXServerRemote server)
+    '''
 def setInteractive():
-'''public void setInteractive(final boolean interactiveValue)
-'''
-pass
+    '''    public void setInteractive(final boolean interactiveValue)
+    '''
 def isInteractive():
-'''public boolean isInteractive()
-'''
-pass
+    '''    public boolean isInteractive()
+    '''
 def getDefaultLang():
-'''public String getDefaultLang()
-'''
-pass
+    '''    public String getDefaultLang()
+    '''
 def getDefaultLocaleStr():
-'''public String getDefaultLocaleStr()
-'''
-pass
+    '''    public String getDefaultLocaleStr()
+    '''
 def getDefaultTZStr():
-'''public String getDefaultTZStr()
-'''
-pass
+    '''    public String getDefaultTZStr()
+    '''
 def refreshLoginDetails():
-'''public void refreshLoginDetails(final UserLoginDetails newLoginDetails)
-'''
-pass
+    '''    public void refreshLoginDetails(final UserLoginDetails newLoginDetails)
+    '''
 def getInsertSite():
-'''public String getInsertSite()
-'''
-pass
+    '''    public String getInsertSite()
+    '''
 def setInsertSite():
-'''public void setInsertSite(String siteID)
-'''
-pass
+    '''    public void setInsertSite(String siteID)
+    '''
 def getScreenReader():
-'''public boolean getScreenReader()
-'''
-pass
+    '''    public boolean getScreenReader()
+    '''
 def getInactiveSites():
-'''public boolean getInactiveSites()
-'''
-pass
+    '''    public boolean getInactiveSites()
+    '''
 def clone():
-'''public Object clone()
-public Object clone(final boolean keepKey)
-'''
-pass
+    '''    public Object clone()
+    public Object clone(final boolean keepKey)
+    '''
 def getCredential():
-'''public Object getCredential()
-'''
-pass
+    '''    public Object getCredential()
+    '''
 def setCredential():
-'''public void setCredential(final Object cert)
-'''
-pass
+    '''    public void setCredential(final Object cert)
+    '''
 def isClonedFrom():
-'''public boolean isClonedFrom(final UserInfo ui)
-'''
-pass
+    '''    public boolean isClonedFrom(final UserInfo ui)
+    '''
 def getClientHost():
-'''public String getClientHost()
-'''
-pass
+    '''    public String getClientHost()
+    '''
 def getClientAddr():
-'''public String getClientAddr()
-'''
-pass
+    '''    public String getClientAddr()
+    '''
 def setPreview():
-'''public boolean setPreview(final boolean flag)
-'''
-pass
+    '''    public boolean setPreview(final boolean flag)
+    '''
 def isPreview():
-'''public boolean isPreview()
-'''
-pass
+    '''    public boolean isPreview()
+    '''
 def setLocalSession():
-'''public void setLocalSession(final boolean isLocalSession)
-'''
-pass
+    '''    public void setLocalSession(final boolean isLocalSession)
+    '''
 def isLocalSession():
-'''public boolean isLocalSession()
-'''
-pass
+    '''    public boolean isLocalSession()
+    '''
 def getStartApp():
-'''public String getStartApp()
-'''
-pass
+    '''    public String getStartApp()
+    '''
 def setStartApp():
-'''public void setStartApp(final String startApp)
-'''
-pass
+    '''    public void setStartApp(final String startApp)
+    '''
 def getLeftNav():
-'''public int getLeftNav()
-'''
-pass
+    '''    public int getLeftNav()
+    '''
 def setLeftNav():
-'''public void setLeftNav(final int leftNav)
-'''
-pass
+    '''    public void setLeftNav(final int leftNav)
+    '''
 def getTenantID():
-'''public int getTenantID()
-'''
-pass
+    '''    public int getTenantID()
+    '''
 def isLandlord():
-'''public boolean isLandlord()
-'''
-pass
+    '''    public boolean isLandlord()
+    '''
 def getSubscriptionId():
-'''public long getSubscriptionId()
-'''
-pass
+    '''    public long getSubscriptionId()
+    '''
 def getSubscriptionPartNumber():
-'''public String getSubscriptionPartNumber()
-'''
-pass
+    '''    public String getSubscriptionPartNumber()
+    '''
 def getSubscriberid():
-'''public long getSubscriberid()
-'''
-pass
+    '''    public long getSubscriberid()
+    '''
 def getSeatid():
-'''public String getSeatid()
-'''
-pass
+    '''    public String getSeatid()
+    '''
 def toJSON():
-'''public void toJSON(final JSONObject jsonObject, final boolean lean)
-'''
-pass
+    '''    public void toJSON(final JSONObject jsonObject, final boolean lean)
+    '''

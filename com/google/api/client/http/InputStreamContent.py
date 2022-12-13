@@ -1,32 +1,24 @@
 def InputStreamContent():
-'''public InputStreamContent(final String type, final InputStream inputStream)
-'''
-pass
+    '''    public InputStreamContent(final String type, final InputStream inputStream)
+    '''
 def getLength():
-'''public long getLength()
-'''
-pass
+    '''    public long getLength()
+    '''
 def retrySupported():
-'''public boolean retrySupported()
-'''
-pass
+    '''    public boolean retrySupported()
+    '''
 def setRetrySupported():
-'''public InputStreamContent setRetrySupported(final boolean retrySupported)
-'''
-pass
+    '''    public InputStreamContent setRetrySupported(final boolean retrySupported)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def setType():
-'''public InputStreamContent setType(final String type)
-'''
-pass
+    '''    public InputStreamContent setType(final String type)
+    '''
 def setCloseInputStream():
-'''public InputStreamContent setCloseInputStream(final boolean closeInputStream)
-'''
-pass
+    '''    public InputStreamContent setCloseInputStream(final boolean closeInputStream)
+    '''
 def setLength():
-'''public InputStreamContent setLength(final long length)
-'''
-pass
+    '''    public InputStreamContent setLength(final long length)
+    '''

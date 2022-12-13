@@ -1,28 +1,21 @@
 def EmptyDataSource():
-'''public EmptyDataSource(final String contentType)
-'''
-pass
+    '''    public EmptyDataSource(final String contentType)
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSize():
-'''public long getSize()
-'''
-pass
+    '''    public long getSize()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def read():
-'''public int read()
-'''
-pass
+    '''    public int read()
+    '''

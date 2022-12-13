@@ -1,163 +1,123 @@
 def CompressingTermVectorsReader():
-'''public CompressingTermVectorsReader(final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)
-'''
-pass
+    '''    public CompressingTermVectorsReader(final Directory d, final SegmentInfo si, final String segmentSuffix, final FieldInfos fn, final IOContext context, final String formatName, final CompressionMode compressionMode)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def clone():
-'''public TermVectorsReader clone()
-'''
-pass
+    '''    public TermVectorsReader clone()
+    '''
 def get():
-'''public Fields get(final int doc)
-'''
-pass
+    '''    public Fields get(final int doc)
+    '''
 def ramBytesUsed():
-'''public long ramBytesUsed()
-'''
-pass
+    '''    public long ramBytesUsed()
+    '''
 def getChildResources():
-'''public Collection<Accountable> getChildResources()
-'''
-pass
+    '''    public Collection<Accountable> getChildResources()
+    '''
 def checkIntegrity():
-'''public void checkIntegrity()
-'''
-pass
+    '''    public void checkIntegrity()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def TVFields():
-'''public TVFields(final int[] fieldNums, final int[] fieldFlags, final int[] fieldNumOffs, final int[] numTerms, final int[] fieldLengths, final int[][] prefixLengths, final int[][] suffixLengths, final int[][] termFreqs, final int[][] positionIndex, final int[][] positions, final int[][] startOffsets, final int[][] lengths, final BytesRef payloadBytes, final int[][] payloadIndex, final BytesRef suffixBytes)
-'''
-pass
+    '''    public TVFields(final int[] fieldNums, final int[] fieldFlags, final int[] fieldNumOffs, final int[] numTerms, final int[] fieldLengths, final int[][] prefixLengths, final int[][] suffixLengths, final int[][] termFreqs, final int[][] positionIndex, final int[][] positions, final int[][] startOffsets, final int[][] lengths, final BytesRef payloadBytes, final int[][] payloadIndex, final BytesRef suffixBytes)
+    '''
 def iterator():
-'''public Iterator<String> iterator()
-public TermsEnum iterator()
-'''
-pass
+    '''    public Iterator<String> iterator()
+    public TermsEnum iterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public String next()
-public BytesRef next()
-'''
-pass
+    '''    public String next()
+    public BytesRef next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def terms():
-'''public Terms terms(final String field)
-'''
-pass
+    '''    public Terms terms(final String field)
+    '''
 def size():
-'''public int size()
-public long size()
-'''
-pass
+    '''    public int size()
+    public long size()
+    '''
 def getSumTotalTermFreq():
-'''public long getSumTotalTermFreq()
-'''
-pass
+    '''    public long getSumTotalTermFreq()
+    '''
 def getSumDocFreq():
-'''public long getSumDocFreq()
-'''
-pass
+    '''    public long getSumDocFreq()
+    '''
 def getDocCount():
-'''public int getDocCount()
-'''
-pass
+    '''    public int getDocCount()
+    '''
 def hasFreqs():
-'''public boolean hasFreqs()
-'''
-pass
+    '''    public boolean hasFreqs()
+    '''
 def hasOffsets():
-'''public boolean hasOffsets()
-'''
-pass
+    '''    public boolean hasOffsets()
+    '''
 def hasPositions():
-'''public boolean hasPositions()
-'''
-pass
+    '''    public boolean hasPositions()
+    '''
 def hasPayloads():
-'''public boolean hasPayloads()
-'''
-pass
+    '''    public boolean hasPayloads()
+    '''
 def seekCeil():
-'''public SeekStatus seekCeil(final BytesRef text)
-'''
-pass
+    '''    public SeekStatus seekCeil(final BytesRef text)
+    '''
 def seekExact():
-'''public void seekExact(final long ord)
-'''
-pass
+    '''    public void seekExact(final long ord)
+    '''
 def term():
-'''public BytesRef term()
-'''
-pass
+    '''    public BytesRef term()
+    '''
 def ord():
-'''public long ord()
-'''
-pass
+    '''    public long ord()
+    '''
 def docFreq():
-'''public int docFreq()
-'''
-pass
+    '''    public int docFreq()
+    '''
 def totalTermFreq():
-'''public long totalTermFreq()
-'''
-pass
+    '''    public long totalTermFreq()
+    '''
 def postings():
-'''public final PostingsEnum postings(final PostingsEnum reuse, final int flags)
-'''
-pass
+    '''    public final PostingsEnum postings(final PostingsEnum reuse, final int flags)
+    '''
 def impacts():
-'''public ImpactsEnum impacts(final int flags)
-'''
-pass
+    '''    public ImpactsEnum impacts(final int flags)
+    '''
 def reset():
-'''public void reset(final int freq, final int positionIndex, final int[] positions, final int[] startOffsets, final int[] lengths, final BytesRef payloads, final int[] payloadIndex)
-'''
-pass
+    '''    public void reset(final int freq, final int positionIndex, final int[] positions, final int[] startOffsets, final int[] lengths, final BytesRef payloads, final int[] payloadIndex)
+    '''
 def nextPosition():
-'''public int nextPosition()
-'''
-pass
+    '''    public int nextPosition()
+    '''
 def startOffset():
-'''public int startOffset()
-'''
-pass
+    '''    public int startOffset()
+    '''
 def endOffset():
-'''public int endOffset()
-'''
-pass
+    '''    public int endOffset()
+    '''
 def getPayload():
-'''public BytesRef getPayload()
-'''
-pass
+    '''    public BytesRef getPayload()
+    '''
 def freq():
-'''public int freq()
-'''
-pass
+    '''    public int freq()
+    '''
 def docID():
-'''public int docID()
-'''
-pass
+    '''    public int docID()
+    '''
 def nextDoc():
-'''public int nextDoc()
-'''
-pass
+    '''    public int nextDoc()
+    '''
 def advance():
-'''public int advance(final int target)
-'''
-pass
+    '''    public int advance(final int target)
+    '''
 def cost():
-'''public long cost()
-'''
-pass
+    '''    public long cost()
+    '''

@@ -1,20 +1,15 @@
 def FormatterSimpleDB2():
-'''public FormatterSimpleDB2(final SDBConnection connection)
-'''
-pass
+    '''    public FormatterSimpleDB2(final SDBConnection connection)
+    '''
 def truncate():
-'''public void truncate()
-'''
-pass
+    '''    public void truncate()
+    '''
 def format():
-'''public void format()
-'''
-pass
+    '''    public void format()
+    '''
 def addIndexes():
-'''public void addIndexes()
-'''
-pass
+    '''    public void addIndexes()
+    '''
 def dropIndexes():
-'''public void dropIndexes()
-'''
-pass
+    '''    public void dropIndexes()
+    '''

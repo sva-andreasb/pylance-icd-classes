@@ -1,4 +1,3 @@
 def DMCollRelRuleSet():
-'''public DMCollRelRuleSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMCollRelRuleSet(final MboServerInterface ms)
+    '''

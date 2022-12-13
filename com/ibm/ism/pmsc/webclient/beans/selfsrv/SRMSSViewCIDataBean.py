@@ -1,28 +1,21 @@
 def SRMSSViewCIDataBean():
-'''public SRMSSViewCIDataBean()
-'''
-pass
+    '''    public SRMSSViewCIDataBean()
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def okviewci():
-'''public int okviewci()
-'''
-pass
+    '''    public int okviewci()
+    '''
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''
 def runwf():
-'''public int runwf()
-'''
-pass
+    '''    public int runwf()
+    '''
 def rundialogaction():
-'''public int rundialogaction()
-'''
-pass
+    '''    public int rundialogaction()
+    '''
 def srmsscreatesr():
-'''public int srmsscreatesr()
-'''
-pass
+    '''    public int srmsscreatesr()
+    '''

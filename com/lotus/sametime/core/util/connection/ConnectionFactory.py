@@ -1,24 +1,18 @@
 def ConnectionFactory():
-'''public ConnectionFactory()
-'''
-pass
+    '''    public ConnectionFactory()
+    '''
 def connect():
-'''public void connect(final Connection[] connectionsToTry, final String host, final byte[] initialMsg, final ConnectionListener listener)
-'''
-pass
+    '''    public void connect(final Connection[] connectionsToTry, final String host, final byte[] initialMsg, final ConnectionListener listener)
+    '''
 def cancelConnect():
-'''public synchronized void cancelConnect()
-'''
-pass
+    '''    public synchronized void cancelConnect()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def setConnectionsToTry():
-'''public void setConnectionsToTry(final Connection[] connectionsToTry)
-'''
-pass
+    '''    public void setConnectionsToTry(final Connection[] connectionsToTry)
+    '''
 def getConnectionsToTry():
-'''public Connection[] getConnectionsToTry()
-'''
-pass
+    '''    public Connection[] getConnectionsToTry()
+    '''

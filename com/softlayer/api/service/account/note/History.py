@@ -1,136 +1,102 @@
 def getAccountNote():
-'''public Note getAccountNote()
-'''
-pass
+    '''    public Note getAccountNote()
+    '''
 def setAccountNote():
-'''public void setAccountNote(final Note accountNote)
-'''
-pass
+    '''    public void setAccountNote(final Note accountNote)
+    '''
 def getCustomer():
-'''public Customer getCustomer()
-'''
-pass
+    '''    public Customer getCustomer()
+    '''
 def setCustomer():
-'''public void setCustomer(final Customer customer)
-'''
-pass
+    '''    public void setCustomer(final Customer customer)
+    '''
 def getAccountNoteId():
-'''public Long getAccountNoteId()
-'''
-pass
+    '''    public Long getAccountNoteId()
+    '''
 def setAccountNoteId():
-'''public void setAccountNoteId(final Long accountNoteId)
-'''
-pass
+    '''    public void setAccountNoteId(final Long accountNoteId)
+    '''
 def isAccountNoteIdSpecified():
-'''public boolean isAccountNoteIdSpecified()
-'''
-pass
+    '''    public boolean isAccountNoteIdSpecified()
+    '''
 def unsetAccountNoteId():
-'''public void unsetAccountNoteId()
-'''
-pass
+    '''    public void unsetAccountNoteId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getNote():
-'''public String getNote()
-'''
-pass
+    '''    public String getNote()
+    '''
 def setNote():
-'''public void setNote(final String note)
-'''
-pass
+    '''    public void setNote(final String note)
+    '''
 def isNoteSpecified():
-'''public boolean isNoteSpecified()
-'''
-pass
+    '''    public boolean isNoteSpecified()
+    '''
 def unsetNote():
-'''public void unsetNote()
-'''
-pass
+    '''    public void unsetNote()
+    '''
 def getUserId():
-'''public Long getUserId()
-'''
-pass
+    '''    public Long getUserId()
+    '''
 def setUserId():
-'''public void setUserId(final Long userId)
-'''
-pass
+    '''    public void setUserId(final Long userId)
+    '''
 def isUserIdSpecified():
-'''public boolean isUserIdSpecified()
-'''
-pass
+    '''    public boolean isUserIdSpecified()
+    '''
 def unsetUserId():
-'''public void unsetUserId()
-'''
-pass
+    '''    public void unsetUserId()
+    '''
 def accountNoteId():
-'''public Mask accountNoteId()
-'''
-pass
+    '''    public Mask accountNoteId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def note():
-'''public Mask note()
-'''
-pass
+    '''    public Mask note()
+    '''
 def userId():
-'''public Mask userId()
-'''
-pass
+    '''    public Mask userId()
+    '''

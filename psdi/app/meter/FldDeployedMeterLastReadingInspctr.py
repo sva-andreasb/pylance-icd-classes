@@ -1,8 +1,6 @@
 def FldDeployedMeterLastReadingInspctr():
-'''public FldDeployedMeterLastReadingInspctr(final MboValue mbv)
-'''
-pass
+    '''    public FldDeployedMeterLastReadingInspctr(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

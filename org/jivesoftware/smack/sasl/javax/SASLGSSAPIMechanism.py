@@ -1,17 +1,13 @@
-NAME = "String  GSSAPI""
+NAME = "String  \"GSSAPI\""
 def authzidSupported():
-'''public boolean authzidSupported()
-'''
-pass
+    '''    public boolean authzidSupported()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPriority():
-'''public int getPriority()
-'''
-pass
+    '''    public int getPriority()
+    '''
 def newInstance():
-'''public SASLGSSAPIMechanism newInstance()
-'''
-pass
+    '''    public SASLGSSAPIMechanism newInstance()
+    '''

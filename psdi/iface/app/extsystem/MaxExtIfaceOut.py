@@ -1,32 +1,24 @@
 def MaxExtIfaceOut():
-'''public MaxExtIfaceOut(final MboSet ms)
-'''
-pass
+    '''    public MaxExtIfaceOut(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def fillIfaceDetails():
-'''public void fillIfaceDetails()
-'''
-pass
+    '''    public void fillIfaceDetails()
+    '''
 def exportData():
-'''public void exportData()
-'''
-pass
+    '''    public void exportData()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''

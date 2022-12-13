@@ -1,5 +1,4 @@
 def ConnectionPoolTimeoutException():
-'''public ConnectionPoolTimeoutException()
-public ConnectionPoolTimeoutException(final String message)
-'''
-pass
+    '''    public ConnectionPoolTimeoutException()
+    public ConnectionPoolTimeoutException(final String message)
+    '''

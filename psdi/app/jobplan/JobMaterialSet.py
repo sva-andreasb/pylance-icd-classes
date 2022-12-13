@@ -1,12 +1,9 @@
 def JobMaterialSet():
-'''public JobMaterialSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JobMaterialSet(final MboServerInterface ms)
+    '''
 def returnIPCParts():
-'''public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
-'''
-pass
+    '''    public void returnIPCParts(final IpcSelectedPartsSetRemote partset)
+    '''
 def preValidateIpcBom():
-'''public void preValidateIpcBom(final IpcBomSetRemote bomset)
-'''
-pass
+    '''    public void preValidateIpcBom(final IpcBomSetRemote bomset)
+    '''

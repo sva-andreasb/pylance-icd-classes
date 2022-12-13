@@ -1,32 +1,24 @@
 def ByteArrayDataSource():
-'''public ByteArrayDataSource(final byte[] bytes, final String encoding)
-'''
-pass
+    '''    public ByteArrayDataSource(final byte[] bytes, final String encoding)
+    '''
 def getReader():
-'''public XMLStreamReader getReader()
-'''
-pass
+    '''    public XMLStreamReader getReader()
+    '''
 def getObject():
-'''public Object getObject()
-'''
-pass
+    '''    public Object getObject()
+    '''
 def isDestructiveRead():
-'''public boolean isDestructiveRead()
-'''
-pass
+    '''    public boolean isDestructiveRead()
+    '''
 def isDestructiveWrite():
-'''public boolean isDestructiveWrite()
-'''
-pass
+    '''    public boolean isDestructiveWrite()
+    '''
 def getXMLBytes():
-'''public byte[] getXMLBytes(String encoding)
-'''
-pass
+    '''    public byte[] getXMLBytes(String encoding)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def copy():
-'''public OMDataSourceExt copy()
-'''
-pass
+    '''    public OMDataSourceExt copy()
+    '''

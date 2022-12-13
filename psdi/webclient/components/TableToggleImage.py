@@ -1,4 +1,3 @@
 def getState():
-'''public String getState(final String methodName)
-'''
-pass
+    '''    public String getState(final String methodName)
+    '''

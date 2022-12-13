@@ -1,32 +1,24 @@
 def PostDeleteInfo():
-'''public PostDeleteInfo(final String deletedNodeAssetNum)
-'''
-pass
+    '''    public PostDeleteInfo(final String deletedNodeAssetNum)
+    '''
 def getLostInboundAssetNums():
-'''public List<String> getLostInboundAssetNums()
-'''
-pass
+    '''    public List<String> getLostInboundAssetNums()
+    '''
 def getLostOutboundAssetNums():
-'''public List<String> getLostOutboundAssetNums()
-'''
-pass
+    '''    public List<String> getLostOutboundAssetNums()
+    '''
 def getDeletedNodeAssetNum():
-'''public String getDeletedNodeAssetNum()
-'''
-pass
+    '''    public String getDeletedNodeAssetNum()
+    '''
 def addOneLostInboundAssetNum():
-'''public void addOneLostInboundAssetNum(final String assetNum)
-'''
-pass
+    '''    public void addOneLostInboundAssetNum(final String assetNum)
+    '''
 def addOneLostOutboundAssetNum():
-'''public void addOneLostOutboundAssetNum(final String assetNum)
-'''
-pass
+    '''    public void addOneLostOutboundAssetNum(final String assetNum)
+    '''
 def hasLostInboundAssetNodes():
-'''public boolean hasLostInboundAssetNodes()
-'''
-pass
+    '''    public boolean hasLostInboundAssetNodes()
+    '''
 def hasLostOutboundAssetNodes():
-'''public boolean hasLostOutboundAssetNodes()
-'''
-pass
+    '''    public boolean hasLostOutboundAssetNodes()
+    '''

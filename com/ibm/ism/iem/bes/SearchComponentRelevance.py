@@ -1,16 +1,12 @@
 def getRelevance():
-'''public RelevanceString getRelevance()
-'''
-pass
+    '''    public RelevanceString getRelevance()
+    '''
 def setRelevance():
-'''public void setRelevance(final RelevanceString value)
-'''
-pass
+    '''    public void setRelevance(final RelevanceString value)
+    '''
 def getComparison():
-'''public String getComparison()
-'''
-pass
+    '''    public String getComparison()
+    '''
 def setComparison():
-'''public void setComparison(final String value)
-'''
-pass
+    '''    public void setComparison(final String value)
+    '''

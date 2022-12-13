@@ -1,8 +1,6 @@
 def WOPOInfoSet():
-'''public WOPOInfoSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOPOInfoSet(final MboServerInterface ms)
+    '''
 def getMbo():
-'''public MboRemote getMbo(final int pos)
-'''
-pass
+    '''    public MboRemote getMbo(final int pos)
+    '''

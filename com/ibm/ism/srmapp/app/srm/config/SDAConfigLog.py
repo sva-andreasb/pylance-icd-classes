@@ -1,4 +1,3 @@
 def SDAConfigLog():
-'''public SDAConfigLog(final MboSet ms)
-'''
-pass
+    '''    public SDAConfigLog(final MboSet ms)
+    '''

@@ -1,4 +1,3 @@
 def FldKPILinkTo():
-'''public FldKPILinkTo(final MboValue mbv)
-'''
-pass
+    '''    public FldKPILinkTo(final MboValue mbv)
+    '''

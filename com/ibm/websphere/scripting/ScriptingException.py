@@ -1,14 +1,11 @@
 def ScriptingException():
-'''public ScriptingException()
-public ScriptingException(final String msg)
-public ScriptingException(final Throwable cause, final String msg)
-'''
-pass
+    '''    public ScriptingException()
+    public ScriptingException(final String msg)
+    public ScriptingException(final Throwable cause, final String msg)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''

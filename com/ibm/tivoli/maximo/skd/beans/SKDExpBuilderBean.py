@@ -1,8 +1,6 @@
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def smartFill():
-'''public MboSetRemote smartFill(final String attribute, final String value, final boolean exactMatch)
-'''
-pass
+    '''    public MboSetRemote smartFill(final String attribute, final String value, final boolean exactMatch)
+    '''

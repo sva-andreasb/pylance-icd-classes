@@ -1,18 +1,14 @@
-DONE = "char '\uffff'"
+DONE = "char  '\uffff'"
 def ComposedCharIter():
-'''public ComposedCharIter()
-public ComposedCharIter(final boolean compat, final int options)
-'''
-pass
+    '''    public ComposedCharIter()
+    public ComposedCharIter(final boolean compat, final int options)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public char next()
-'''
-pass
+    '''    public char next()
+    '''
 def decomposition():
-'''public String decomposition()
-'''
-pass
+    '''    public String decomposition()
+    '''

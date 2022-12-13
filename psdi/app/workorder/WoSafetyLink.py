@@ -1,76 +1,57 @@
 def WoSafetyLink():
-'''public WoSafetyLink(final MboSet ms)
-'''
-pass
+    '''    public WoSafetyLink(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setAssetDescription():
-'''public void setAssetDescription(final boolean tagout)
-'''
-pass
+    '''    public void setAssetDescription(final boolean tagout)
+    '''
 def copyAttributesFromHazard():
-'''public void copyAttributesFromHazard(final MboRemote hazardMbo)
-'''
-pass
+    '''    public void copyAttributesFromHazard(final MboRemote hazardMbo)
+    '''
 def copyAttributesFromTagout():
-'''public void copyAttributesFromTagout(final MboRemote tagMbo)
-'''
-pass
+    '''    public void copyAttributesFromTagout(final MboRemote tagMbo)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def initRelationship():
-'''public void initRelationship(final String relationName, final MboSetRemote mboSet)
-'''
-pass
+    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''
 def toBeSaved():
-'''public boolean toBeSaved()
-'''
-pass
+    '''    public boolean toBeSaved()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def maintainWoHazard():
-'''public void maintainWoHazard()
-'''
-pass
+    '''    public void maintainWoHazard()
+    '''
 def maintainWoTagout():
-'''public void maintainWoTagout()
-'''
-pass
+    '''    public void maintainWoTagout()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def isHazardEnabled():
-'''public boolean isHazardEnabled()
-'''
-pass
+    '''    public boolean isHazardEnabled()
+    '''
 def isPrecautionEnabled():
-'''public boolean isPrecautionEnabled()
-'''
-pass
+    '''    public boolean isPrecautionEnabled()
+    '''
 def isTagOutEnabled():
-'''public boolean isTagOutEnabled()
-'''
-pass
+    '''    public boolean isTagOutEnabled()
+    '''

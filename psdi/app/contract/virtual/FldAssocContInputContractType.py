@@ -1,8 +1,6 @@
 def FldAssocContInputContractType():
-'''public FldAssocContInputContractType(final MboValue mbv)
-'''
-pass
+    '''    public FldAssocContInputContractType(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

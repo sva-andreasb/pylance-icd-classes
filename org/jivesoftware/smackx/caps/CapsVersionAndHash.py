@@ -1,4 +1,3 @@
 def CapsVersionAndHash():
-'''public CapsVersionAndHash(final String version, final String hash)
-'''
-pass
+    '''    public CapsVersionAndHash(final String version, final String hash)
+    '''

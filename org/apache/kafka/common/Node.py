@@ -1,49 +1,37 @@
 def Node():
-'''public Node(final int id, final String host, final int port)
-public Node(final int id, final String host, final int port, final String rack)
-'''
-pass
+    '''    public Node(final int id, final String host, final int port)
+    public Node(final int id, final String host, final int port, final String rack)
+    '''
 def noNode():
-'''public static Node noNode()
-'''
-pass
+    '''    public static Node noNode()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def id():
-'''public int id()
-'''
-pass
+    '''    public int id()
+    '''
 def idString():
-'''public String idString()
-'''
-pass
+    '''    public String idString()
+    '''
 def host():
-'''public String host()
-'''
-pass
+    '''    public String host()
+    '''
 def port():
-'''public int port()
-'''
-pass
+    '''    public int port()
+    '''
 def hasRack():
-'''public boolean hasRack()
-'''
-pass
+    '''    public boolean hasRack()
+    '''
 def rack():
-'''public String rack()
-'''
-pass
+    '''    public String rack()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

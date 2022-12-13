@@ -1,4 +1,3 @@
 def FldMaxAppsModule():
-'''public FldMaxAppsModule(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxAppsModule(final MboValue mbv)
+    '''

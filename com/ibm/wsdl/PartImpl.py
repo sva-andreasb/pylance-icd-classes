@@ -1,53 +1,40 @@
 serialVersionUID = "long  1L"
 def PartImpl():
-'''public PartImpl()
-'''
-pass
+    '''    public PartImpl()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setElementName():
-'''public void setElementName(final QName elementName)
-'''
-pass
+    '''    public void setElementName(final QName elementName)
+    '''
 def getElementName():
-'''public QName getElementName()
-'''
-pass
+    '''    public QName getElementName()
+    '''
 def setTypeName():
-'''public void setTypeName(final QName typeName)
-'''
-pass
+    '''    public void setTypeName(final QName typeName)
+    '''
 def getTypeName():
-'''public QName getTypeName()
-'''
-pass
+    '''    public QName getTypeName()
+    '''
 def setExtensionAttribute():
-'''public void setExtensionAttribute(final QName qName, final QName qName2)
-'''
-pass
+    '''    public void setExtensionAttribute(final QName qName, final QName qName2)
+    '''
 def getExtensionAttribute():
-'''public QName getExtensionAttribute(final QName qName)
-'''
-pass
+    '''    public QName getExtensionAttribute(final QName qName)
+    '''
 def getExtensionAttributes():
-'''public Map getExtensionAttributes()
-'''
-pass
+    '''    public Map getExtensionAttributes()
+    '''
 def setDocumentationElement():
-'''public void setDocumentationElement(final Element docEl)
-'''
-pass
+    '''    public void setDocumentationElement(final Element docEl)
+    '''
 def getDocumentationElement():
-'''public Element getDocumentationElement()
-'''
-pass
+    '''    public Element getDocumentationElement()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

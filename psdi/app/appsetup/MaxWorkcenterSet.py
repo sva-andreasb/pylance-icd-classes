@@ -1,4 +1,3 @@
 def MaxWorkcenterSet():
-'''public MaxWorkcenterSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxWorkcenterSet(final MboServerInterface ms)
+    '''

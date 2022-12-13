@@ -1,28 +1,21 @@
 def RET():
-'''public RET(final int index)
-'''
-pass
+    '''    public RET(final int index)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def setIndex():
-'''public final void setIndex(final int n)
-'''
-pass
+    '''    public final void setIndex(final int n)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getType():
-'''public Type getType(final ConstantPoolGen cp)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cp)
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

@@ -1,4 +1,3 @@
 def FldOriginator():
-'''public FldOriginator(final MboValue mbv)
-'''
-pass
+    '''    public FldOriginator(final MboValue mbv)
+    '''

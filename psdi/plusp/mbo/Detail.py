@@ -1,4 +1,3 @@
 def Detail():
-'''public Detail()
-'''
-pass
+    '''    public Detail()
+    '''

@@ -1,8 +1,6 @@
 def FldMatRecTransPoLineNum():
-'''public FldMatRecTransPoLineNum(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransPoLineNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

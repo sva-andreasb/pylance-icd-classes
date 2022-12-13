@@ -1,19 +1,15 @@
-ELEMENT = "String  removed""
-NAMESPACE = "String  urn:xmpp:iot:discovery""
+ELEMENT = "String  \"removed\""
+NAMESPACE = "String  \"urn:xmpp:iot:discovery\""
 def IoTRemoved():
-'''public IoTRemoved()
-public IoTRemoved(final NodeInfo nodeInfo)
-'''
-pass
+    '''    public IoTRemoved()
+    public IoTRemoved(final NodeInfo nodeInfo)
+    '''
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''
 def getSourceId():
-'''public String getSourceId()
-'''
-pass
+    '''    public String getSourceId()
+    '''
 def getNodeInfo():
-'''public NodeInfo getNodeInfo()
-'''
-pass
+    '''    public NodeInfo getNodeInfo()
+    '''

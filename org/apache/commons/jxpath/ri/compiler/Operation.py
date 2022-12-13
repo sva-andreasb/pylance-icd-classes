@@ -1,12 +1,9 @@
 def Operation():
-'''public Operation(final Expression[] args)
-'''
-pass
+    '''    public Operation(final Expression[] args)
+    '''
 def getArguments():
-'''public Expression[] getArguments()
-'''
-pass
+    '''    public Expression[] getArguments()
+    '''
 def computeContextDependent():
-'''public boolean computeContextDependent()
-'''
-pass
+    '''    public boolean computeContextDependent()
+    '''

@@ -1,77 +1,58 @@
 def Location():
-'''public Location(final boolean callMe, final String city, final String countryName, final String state, final String phoneNumber, final String userDefinedLocationName, final String zipCode, final String timeZoneId)
-public Location()
-'''
-pass
+    '''    public Location(final boolean callMe, final String city, final String countryName, final String state, final String phoneNumber, final String userDefinedLocationName, final String zipCode, final String timeZoneId)
+    public Location()
+    '''
 def getCallMe():
-'''public boolean getCallMe()
-'''
-pass
+    '''    public boolean getCallMe()
+    '''
 def setCallMe():
-'''public void setCallMe(final boolean callMe)
-'''
-pass
+    '''    public void setCallMe(final boolean callMe)
+    '''
 def getCity():
-'''public String getCity()
-'''
-pass
+    '''    public String getCity()
+    '''
 def setCity():
-'''public void setCity(final String city)
-'''
-pass
+    '''    public void setCity(final String city)
+    '''
 def getCountryName():
-'''public String getCountryName()
-'''
-pass
+    '''    public String getCountryName()
+    '''
 def setCountryName():
-'''public void setCountryName(final String countryName)
-'''
-pass
+    '''    public void setCountryName(final String countryName)
+    '''
 def getPhoneNumber():
-'''public String getPhoneNumber()
-'''
-pass
+    '''    public String getPhoneNumber()
+    '''
 def setPhoneNumber():
-'''public void setPhoneNumber(final String phoneNumber)
-'''
-pass
+    '''    public void setPhoneNumber(final String phoneNumber)
+    '''
 def getState():
-'''public String getState()
-'''
-pass
+    '''    public String getState()
+    '''
 def setState():
-'''public void setState(final String state)
-'''
-pass
+    '''    public void setState(final String state)
+    '''
 def getUserDefinedLocationName():
-'''public String getUserDefinedLocationName()
-'''
-pass
+    '''    public String getUserDefinedLocationName()
+    '''
 def setUserDefinedLocationName():
-'''public void setUserDefinedLocationName(final String userDefinedLocationName)
-'''
-pass
+    '''    public void setUserDefinedLocationName(final String userDefinedLocationName)
+    '''
 def getZipCode():
-'''public String getZipCode()
-'''
-pass
+    '''    public String getZipCode()
+    '''
 def setZipCode():
-'''public void setZipCode(final String zipCode)
-'''
-pass
+    '''    public void setZipCode(final String zipCode)
+    '''
 def getTimeZoneId():
-'''public String getTimeZoneId()
-'''
-pass
+    '''    public String getTimeZoneId()
+    '''
 def dump():
-'''public void dump(final NdrOutputStream ndrOutputStream)
-'''
-pass
+    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    '''
 def load():
-'''public void load(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public void load(final NdrInputStream ndrInputStream)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

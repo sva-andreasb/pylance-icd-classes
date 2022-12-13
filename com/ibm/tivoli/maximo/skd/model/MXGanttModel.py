@@ -1,473 +1,355 @@
 def MXGanttModel():
-'''public MXGanttModel()
-'''
-pass
+    '''    public MXGanttModel()
+    '''
 def getUserData():
-'''public <T> T getUserData(final String key)
-'''
-pass
+    '''    public <T> T getUserData(final String key)
+    '''
 def setUserData():
-'''public void setUserData(final String key, final Object data)
-'''
-pass
+    '''    public void setUserData(final String key, final Object data)
+    '''
 def getGanttConfigInfo():
-'''public IGanttConfigInfo getGanttConfigInfo()
-'''
-pass
+    '''    public IGanttConfigInfo getGanttConfigInfo()
+    '''
 def setGanttConfigInfo():
-'''public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
-'''
-pass
+    '''    public void setGanttConfigInfo(final IGanttConfigInfo ganttConfigInfo)
+    '''
 def setWorkHourList():
-'''public void setWorkHourList(final HashMap<String, SKDCalendarInfo> skdCals)
-'''
-pass
+    '''    public void setWorkHourList(final HashMap<String, SKDCalendarInfo> skdCals)
+    '''
 def setSkdActionInfo():
-'''public void setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)
-'''
-pass
+    '''    public void setSkdActionInfo(final HashMap<String, HashMap<String, SKDActionInfo>> info)
+    '''
 def getSkdActionInfo():
-'''public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo()
-public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo(final String useWith)
-'''
-pass
+    '''    public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo()
+    public HashMap<String, HashMap<String, SKDActionInfo>> getSkdActionInfo(final String useWith)
+    '''
 def setSkdActionUidInfo():
-'''public void setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)
-'''
-pass
+    '''    public void setSkdActionUidInfo(final HashMap<Long, SKDActionInfo> info)
+    '''
 def getSkdActionUidInfo():
-'''public HashMap<Long, SKDActionInfo> getSkdActionUidInfo()
-'''
-pass
+    '''    public HashMap<Long, SKDActionInfo> getSkdActionUidInfo()
+    '''
 def getWorkHourList():
-'''public HashMap<String, SKDCalendarInfo> getWorkHourList()
-'''
-pass
+    '''    public HashMap<String, SKDCalendarInfo> getWorkHourList()
+    '''
 def setProjectStartDate():
-'''public void setProjectStartDate(final Date start)
-'''
-pass
+    '''    public void setProjectStartDate(final Date start)
+    '''
 def getProjectStartDate():
-'''public Date getProjectStartDate()
-'''
-pass
+    '''    public Date getProjectStartDate()
+    '''
 def setMergedNonWorkPeriod():
-'''public void setMergedNonWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
-'''
-pass
+    '''    public void setMergedNonWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
+    '''
 def getMergedNonWorkPeriod():
-'''public ArrayList<Date> getMergedNonWorkPeriod()
-'''
-pass
+    '''    public ArrayList<Date> getMergedNonWorkPeriod()
+    '''
 def setMergedWorkPeriod():
-'''public void setMergedWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
-'''
-pass
+    '''    public void setMergedWorkPeriod(final ArrayList<Date> mergedWorkPeriods)
+    '''
 def getMergedWorkPeriods():
-'''public ArrayList<Date> getMergedWorkPeriods()
-'''
-pass
+    '''    public ArrayList<Date> getMergedWorkPeriods()
+    '''
 def setSortedActivityChildren():
-'''public void setSortedActivityChildren(final Map<IlvActivity, List<IlvActivity>> sortedActivityChildren)
-'''
-pass
+    '''    public void setSortedActivityChildren(final Map<IlvActivity, List<IlvActivity>> sortedActivityChildren)
+    '''
 def getSortedActivityChildren():
-'''public Map<IlvActivity, List<IlvActivity>> getSortedActivityChildren()
-'''
-pass
+    '''    public Map<IlvActivity, List<IlvActivity>> getSortedActivityChildren()
+    '''
 def setSortedResourceChildren():
-'''public void setSortedResourceChildren(final Map<IlvResource, List<IlvResource>> sortedResourceChildren)
-'''
-pass
+    '''    public void setSortedResourceChildren(final Map<IlvResource, List<IlvResource>> sortedResourceChildren)
+    '''
 def getSortedResourceChildren():
-'''public Map<IlvResource, List<IlvResource>> getSortedResourceChildren()
-'''
-pass
+    '''    public Map<IlvResource, List<IlvResource>> getSortedResourceChildren()
+    '''
 def getParentActivityIndex():
-'''public int getParentActivityIndex(final IlvActivity activity)
-'''
-pass
+    '''    public int getParentActivityIndex(final IlvActivity activity)
+    '''
 def getChildActivity():
-'''public IlvActivity getChildActivity(final IlvActivity parent, final int index)
-'''
-pass
+    '''    public IlvActivity getChildActivity(final IlvActivity parent, final int index)
+    '''
 def getChildActivityIndex():
-'''public int getChildActivityIndex(final IlvActivity parent, final IlvActivity child)
-'''
-pass
+    '''    public int getChildActivityIndex(final IlvActivity parent, final IlvActivity child)
+    '''
 def childActivityIterator():
-'''public Iterator<IlvActivity> childActivityIterator(final IlvActivity parent)
-'''
-pass
+    '''    public Iterator<IlvActivity> childActivityIterator(final IlvActivity parent)
+    '''
 def getChildIndex():
-'''public int getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)
-'''
-pass
+    '''    public int getChildIndex(final IlvHierarchyNode parent, final IlvHierarchyNode child)
+    '''
 def getParentResourceIndex():
-'''public int getParentResourceIndex(final IlvResource resource)
-'''
-pass
+    '''    public int getParentResourceIndex(final IlvResource resource)
+    '''
 def getChildResource():
-'''public IlvResource getChildResource(final IlvResource parent, final int index)
-'''
-pass
+    '''    public IlvResource getChildResource(final IlvResource parent, final int index)
+    '''
 def getChildResourceIndex():
-'''public int getChildResourceIndex(final IlvResource parent, final IlvResource child)
-'''
-pass
+    '''    public int getChildResourceIndex(final IlvResource parent, final IlvResource child)
+    '''
 def childResourceIterator():
-'''public Iterator<IlvResource> childResourceIterator(final IlvResource parent)
-'''
-pass
+    '''    public Iterator<IlvResource> childResourceIterator(final IlvResource parent)
+    '''
 def setActivityApplinkList():
-'''public void setActivityApplinkList(final String className, final HashMap<String, HashMap<String, String>> list)
-'''
-pass
+    '''    public void setActivityApplinkList(final String className, final HashMap<String, HashMap<String, String>> list)
+    '''
 def getActivityApplinkList():
-'''public HashMap<String, HashMap<String, String>> getActivityApplinkList(final String className)
-'''
-pass
+    '''    public HashMap<String, HashMap<String, String>> getActivityApplinkList(final String className)
+    '''
 def setCalendarBreakPatternMap():
-'''public void setCalendarBreakPatternMap(final HashMap<String, ArrayList> calendarBreakPattern)
-'''
-pass
+    '''    public void setCalendarBreakPatternMap(final HashMap<String, ArrayList> calendarBreakPattern)
+    '''
 def getCalendarBreakPatternMap():
-'''public HashMap getCalendarBreakPatternMap()
-'''
-pass
+    '''    public HashMap getCalendarBreakPatternMap()
+    '''
 def setCalendarBreakPatternCount():
-'''public void setCalendarBreakPatternCount(final HashMap<String, Integer> daysInShiftPattern)
-'''
-pass
+    '''    public void setCalendarBreakPatternCount(final HashMap<String, Integer> daysInShiftPattern)
+    '''
 def getCalendarBreakPatternCount():
-'''public HashMap getCalendarBreakPatternCount()
-'''
-pass
+    '''    public HashMap getCalendarBreakPatternCount()
+    '''
 def getProjectEndDate():
-'''public Date getProjectEndDate()
-'''
-pass
+    '''    public Date getProjectEndDate()
+    '''
 def setProjectEndDate():
-'''public void setProjectEndDate(final Date endDate)
-'''
-pass
+    '''    public void setProjectEndDate(final Date endDate)
+    '''
 def isProjectReadOnly():
-'''public boolean isProjectReadOnly()
-'''
-pass
+    '''    public boolean isProjectReadOnly()
+    '''
 def setProjectReadOnly():
-'''public void setProjectReadOnly(final boolean projectReadOnly)
-'''
-pass
+    '''    public void setProjectReadOnly(final boolean projectReadOnly)
+    '''
 def setWorkPeriodPatternDaySeq():
-'''public void setWorkPeriodPatternDaySeq(final TreeMap<Date, String> workPeriodPatternDaySeq)
-'''
-pass
+    '''    public void setWorkPeriodPatternDaySeq(final TreeMap<Date, String> workPeriodPatternDaySeq)
+    '''
 def getWorkPeriodPatternDaySeq():
-'''public TreeMap<Date, String> getWorkPeriodPatternDaySeq()
-'''
-pass
+    '''    public TreeMap<Date, String> getWorkPeriodPatternDaySeq()
+    '''
 def setAssetLocOverlapMap():
-'''public void setAssetLocOverlapMap(final HashMap<String, ArrayList<SKDDateInterval>> assetLocOverlapCalMap)
-'''
-pass
+    '''    public void setAssetLocOverlapMap(final HashMap<String, ArrayList<SKDDateInterval>> assetLocOverlapCalMap)
+    '''
 def getAssetLocOverlapMap():
-'''public HashMap<String, ArrayList<SKDDateInterval>> getAssetLocOverlapMap()
-'''
-pass
+    '''    public HashMap<String, ArrayList<SKDDateInterval>> getAssetLocOverlapMap()
+    '''
 def setAssetLocNonWorkHourList():
-'''public void setAssetLocNonWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocNonWorkHourCals)
-'''
-pass
+    '''    public void setAssetLocNonWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocNonWorkHourCals)
+    '''
 def getAssetLocNonWorkHourList():
-'''public HashMap<String, SKDCalendarInfo> getAssetLocNonWorkHourList()
-'''
-pass
+    '''    public HashMap<String, SKDCalendarInfo> getAssetLocNonWorkHourList()
+    '''
 def setAssetLocWorkHourList():
-'''public void setAssetLocWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocWorkHourCals)
-'''
-pass
+    '''    public void setAssetLocWorkHourList(final HashMap<String, SKDCalendarInfo> skdAssetLocWorkHourCals)
+    '''
 def getAssetLocWorkHourList():
-'''public HashMap<String, SKDCalendarInfo> getAssetLocWorkHourList()
-'''
-pass
+    '''    public HashMap<String, SKDCalendarInfo> getAssetLocWorkHourList()
+    '''
 def setProjectType():
-'''public void setProjectType(final String projectType)
-'''
-pass
+    '''    public void setProjectType(final String projectType)
+    '''
 def getProjectType():
-'''public String getProjectType()
-'''
-pass
+    '''    public String getProjectType()
+    '''
 def setShowMaintOperFlag():
-'''public void setShowMaintOperFlag(final boolean showMaintOper)
-'''
-pass
+    '''    public void setShowMaintOperFlag(final boolean showMaintOper)
+    '''
 def getShowMaintOperFlag():
-'''public boolean getShowMaintOperFlag()
-'''
-pass
+    '''    public boolean getShowMaintOperFlag()
+    '''
 def getProjectId():
-'''public String getProjectId()
-'''
-pass
+    '''    public String getProjectId()
+    '''
 def setProjectId():
-'''public void setProjectId(final String projectId)
-'''
-pass
+    '''    public void setProjectId(final String projectId)
+    '''
 def getProjectName():
-'''public String getProjectName()
-'''
-pass
+    '''    public String getProjectName()
+    '''
 def setProjectName():
-'''public void setProjectName(final String projectName)
-'''
-pass
+    '''    public void setProjectName(final String projectName)
+    '''
 def getProjectDescription():
-'''public String getProjectDescription()
-'''
-pass
+    '''    public String getProjectDescription()
+    '''
 def setProjectDescription():
-'''public void setProjectDescription(final String projectDescription)
-'''
-pass
+    '''    public void setProjectDescription(final String projectDescription)
+    '''
 def getScenarioName():
-'''public String getScenarioName()
-'''
-pass
+    '''    public String getScenarioName()
+    '''
 def getUseWith():
-'''public String getUseWith()
-'''
-pass
+    '''    public String getUseWith()
+    '''
 def setScenarioName():
-'''public void setScenarioName(final String scenarioName)
-'''
-pass
+    '''    public void setScenarioName(final String scenarioName)
+    '''
 def isDefaultScenario():
-'''public boolean isDefaultScenario()
-'''
-pass
+    '''    public boolean isDefaultScenario()
+    '''
 def setDefaultScenario():
-'''public void setDefaultScenario(final boolean isDefaultScenario)
-'''
-pass
+    '''    public void setDefaultScenario(final boolean isDefaultScenario)
+    '''
 def getLocalizedScenarioFieldTitle():
-'''public String getLocalizedScenarioFieldTitle()
-'''
-pass
+    '''    public String getLocalizedScenarioFieldTitle()
+    '''
 def setLocalizedScenarioFieldTitle():
-'''public void setLocalizedScenarioFieldTitle(final String localizedScenarioFieldTitle)
-'''
-pass
+    '''    public void setLocalizedScenarioFieldTitle(final String localizedScenarioFieldTitle)
+    '''
 def setUseWith():
-'''public void setUseWith(final String useWith)
-'''
-pass
+    '''    public void setUseWith(final String useWith)
+    '''
 def getShifts():
-'''public List<String> getShifts()
-'''
-pass
+    '''    public List<String> getShifts()
+    '''
 def getShiftWorkTime():
-'''public SKDShiftWorkTime getShiftWorkTime(final String shift)
-'''
-pass
+    '''    public SKDShiftWorkTime getShiftWorkTime(final String shift)
+    '''
 def setAllowPastLoad():
-'''public void setAllowPastLoad(final boolean allowPastLoad)
-'''
-pass
+    '''    public void setAllowPastLoad(final boolean allowPastLoad)
+    '''
 def setAlternateAvail():
-'''public void setAlternateAvail(final boolean useAlternateAvail)
-'''
-pass
+    '''    public void setAlternateAvail(final boolean useAlternateAvail)
+    '''
 def setResourceDisplay():
-'''public void setResourceDisplay(final String resourceDisplay)
-'''
-pass
+    '''    public void setResourceDisplay(final String resourceDisplay)
+    '''
 def setWeekday():
-'''public void setWeekday(final String weekday)
-'''
-pass
+    '''    public void setWeekday(final String weekday)
+    '''
 def setProperties():
-'''public void setProperties(final Properties viewerProperties)
-'''
-pass
+    '''    public void setProperties(final Properties viewerProperties)
+    '''
 def getProperties():
-'''public Properties getProperties()
-'''
-pass
+    '''    public Properties getProperties()
+    '''
 def setUserTimezone():
-'''public void setUserTimezone(final TimeZone timeZone)
-'''
-pass
+    '''    public void setUserTimezone(final TimeZone timeZone)
+    '''
 def setUserLocale():
-'''public void setUserLocale(final Locale locale)
-'''
-pass
+    '''    public void setUserLocale(final Locale locale)
+    '''
 def getUserLocale():
-'''public Locale getUserLocale()
-'''
-pass
+    '''    public Locale getUserLocale()
+    '''
 def getUserTimezone():
-'''public TimeZone getUserTimezone()
-'''
-pass
+    '''    public TimeZone getUserTimezone()
+    '''
 def getUserULocale():
-'''public ULocale getUserULocale()
-'''
-pass
+    '''    public ULocale getUserULocale()
+    '''
 def getActualStartEnd():
-'''public Range<Date> getActualStartEnd()
-'''
-pass
+    '''    public Range<Date> getActualStartEnd()
+    '''
 def getProjectStartEnd():
-'''public Range<Date> getProjectStartEnd()
-'''
-pass
+    '''    public Range<Date> getProjectStartEnd()
+    '''
 def getShiftCalendarInfo():
-'''public HashMap<String, SKDCalendarInfo> getShiftCalendarInfo()
-'''
-pass
+    '''    public HashMap<String, SKDCalendarInfo> getShiftCalendarInfo()
+    '''
 def reservationIteratorForResource():
-'''public Iterator<IMXReservation> reservationIteratorForResource(final IMXResource resource)
-'''
-pass
+    '''    public Iterator<IMXReservation> reservationIteratorForResource(final IMXResource resource)
+    '''
 def containsActivity():
-'''public boolean containsActivity(final IMXActivity data)
-'''
-pass
+    '''    public boolean containsActivity(final IMXActivity data)
+    '''
 def getParentForActivity():
-'''public IMXActivity getParentForActivity(final IMXActivity data)
-'''
-pass
+    '''    public IMXActivity getParentForActivity(final IMXActivity data)
+    '''
 def getPercentCompleteType():
-'''public PercentCompleteType getPercentCompleteType()
-'''
-pass
+    '''    public PercentCompleteType getPercentCompleteType()
+    '''
 def setPercentCompleteType():
-'''public void setPercentCompleteType(PercentCompleteType type)
-'''
-pass
+    '''    public void setPercentCompleteType(PercentCompleteType type)
+    '''
 def getLoadDateTime():
-'''public Date getLoadDateTime()
-'''
-pass
+    '''    public Date getLoadDateTime()
+    '''
 def setLoadDateTime():
-'''public void setLoadDateTime(final Date loadDateTime)
-'''
-pass
+    '''    public void setLoadDateTime(final Date loadDateTime)
+    '''
 def getCalendarStartEnd():
-'''public DateRange getCalendarStartEnd()
-'''
-pass
+    '''    public DateRange getCalendarStartEnd()
+    '''
 def getCalculatedProjectMinMax():
-'''public DateRange getCalculatedProjectMinMax()
-'''
-pass
+    '''    public DateRange getCalculatedProjectMinMax()
+    '''
 def getProjectPercentComplete():
-'''public int getProjectPercentComplete(final PercentCompleteType pcType)
-'''
-pass
+    '''    public int getProjectPercentComplete(final PercentCompleteType pcType)
+    '''
 def setProjectPercentComplete():
-'''public void setProjectPercentComplete(final PercentCompleteType pcType, final int val)
-'''
-pass
+    '''    public void setProjectPercentComplete(final PercentCompleteType pcType, final int val)
+    '''
 def getDisplayRowCount():
-'''public int getDisplayRowCount()
-'''
-pass
+    '''    public int getDisplayRowCount()
+    '''
 def isPagingModel():
-'''public boolean isPagingModel()
-'''
-pass
+    '''    public boolean isPagingModel()
+    '''
 def getPages():
-'''public int getPages()
-'''
-pass
+    '''    public int getPages()
+    '''
 def getPageSize():
-'''public int getPageSize()
-'''
-pass
+    '''    public int getPageSize()
+    '''
 def getActivityForId():
-'''public IMXActivity getActivityForId(final String id)
-'''
-pass
+    '''    public IMXActivity getActivityForId(final String id)
+    '''
 def getResourceForId():
-'''public IMXResource getResourceForId(final String id)
-'''
-pass
+    '''    public IMXResource getResourceForId(final String id)
+    '''
 def setComplianceEnabled():
-'''public void setComplianceEnabled(final boolean val)
-'''
-pass
+    '''    public void setComplianceEnabled(final boolean val)
+    '''
 def isComplianceEnabled():
-'''public boolean isComplianceEnabled()
-'''
-pass
+    '''    public boolean isComplianceEnabled()
+    '''
 def getProjectStartOffsetDays():
-'''public int getProjectStartOffsetDays()
-'''
-pass
+    '''    public int getProjectStartOffsetDays()
+    '''
 def getProjectEndOffsetDays():
-'''public int getProjectEndOffsetDays()
-'''
-pass
+    '''    public int getProjectEndOffsetDays()
+    '''
 def setProjectStartOffsetDays():
-'''public void setProjectStartOffsetDays(final int projectStartOffsetDays)
-'''
-pass
+    '''    public void setProjectStartOffsetDays(final int projectStartOffsetDays)
+    '''
 def setProjectEndOffsetDays():
-'''public void setProjectEndOffsetDays(final int projectEndOffsetDays)
-'''
-pass
+    '''    public void setProjectEndOffsetDays(final int projectEndOffsetDays)
+    '''
 def isAlternateAvailEnabled():
-'''public boolean isAlternateAvailEnabled()
-'''
-pass
+    '''    public boolean isAlternateAvailEnabled()
+    '''
 def isAllowPastLoadEnabled():
-'''public boolean isAllowPastLoadEnabled()
-'''
-pass
+    '''    public boolean isAllowPastLoadEnabled()
+    '''
 def getResourceDisplay():
-'''public String getResourceDisplay()
-'''
-pass
+    '''    public String getResourceDisplay()
+    '''
 def getWeekDay():
-'''public String getWeekDay()
-'''
-pass
+    '''    public String getWeekDay()
+    '''
 def iterateConstraintsFromActivity():
-'''public Iterator<IMXConstraint> iterateConstraintsFromActivity(final IMXActivity activity)
-'''
-pass
+    '''    public Iterator<IMXConstraint> iterateConstraintsFromActivity(final IMXActivity activity)
+    '''
 def newConstraintFromActivity():
-'''public void newConstraintFromActivity(final Object projectMbo, final IMXActivity fromActivity, final ResultSet resultSet)
-'''
-pass
+    '''    public void newConstraintFromActivity(final Object projectMbo, final IMXActivity fromActivity, final ResultSet resultSet)
+    '''
 def getChildNodeCount():
-'''public int getChildNodeCount(final IMXActivity activity)
-'''
-pass
+    '''    public int getChildNodeCount(final IMXActivity activity)
+    '''
 def getChildNode():
-'''public IMXActivity getChildNode(final IMXActivity activity, final int index)
-'''
-pass
+    '''    public IMXActivity getChildNode(final IMXActivity activity, final int index)
+    '''
 def getRootNode():
-'''public IMXActivity getRootNode()
-'''
-pass
+    '''    public IMXActivity getRootNode()
+    '''
 def setRestrictWorkToDates():
-'''public void setRestrictWorkToDates(final boolean isRestrictWorkToDates)
-'''
-pass
+    '''    public void setRestrictWorkToDates(final boolean isRestrictWorkToDates)
+    '''
 def isRestrictWorkToDates():
-'''public boolean isRestrictWorkToDates()
-'''
-pass
+    '''    public boolean isRestrictWorkToDates()
+    '''
 def setEnabledRelatedAttributes():
-'''public void setEnabledRelatedAttributes(final boolean isEnabledRelatedAttributes)
-'''
-pass
+    '''    public void setEnabledRelatedAttributes(final boolean isEnabledRelatedAttributes)
+    '''
 def isEnabledRelatedAttributes():
-'''public boolean isEnabledRelatedAttributes()
-'''
-pass
+    '''    public boolean isEnabledRelatedAttributes()
+    '''

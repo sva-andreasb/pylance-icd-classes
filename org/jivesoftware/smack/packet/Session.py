@@ -1,8 +1,6 @@
 def Session():
-'''public Session()
-'''
-pass
+    '''    public Session()
+    '''
 def getChildElementXML():
-'''public String getChildElementXML()
-'''
-pass
+    '''    public String getChildElementXML()
+    '''

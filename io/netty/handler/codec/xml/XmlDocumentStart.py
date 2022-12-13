@@ -1,32 +1,24 @@
 def XmlDocumentStart():
-'''public XmlDocumentStart(final String encoding, final String version, final boolean standalone, final String encodingScheme)
-'''
-pass
+    '''    public XmlDocumentStart(final String encoding, final String version, final boolean standalone, final String encodingScheme)
+    '''
 def encoding():
-'''public String encoding()
-'''
-pass
+    '''    public String encoding()
+    '''
 def version():
-'''public String version()
-'''
-pass
+    '''    public String version()
+    '''
 def standalone():
-'''public boolean standalone()
-'''
-pass
+    '''    public boolean standalone()
+    '''
 def encodingScheme():
-'''public String encodingScheme()
-'''
-pass
+    '''    public String encodingScheme()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

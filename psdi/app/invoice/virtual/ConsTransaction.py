@@ -1,12 +1,9 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def ConsTransaction():
-'''public ConsTransaction(final MboSet ms)
-'''
-pass
+    '''    public ConsTransaction(final MboSet ms)
+    '''
 def compareTo():
-'''public int compareTo(final Object o)
-'''
-pass
+    '''    public int compareTo(final Object o)
+    '''

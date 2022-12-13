@@ -1,60 +1,46 @@
 def IlvAction():
-'''public IlvAction(final String s)
-public IlvAction(final String s, final Icon icon)
-public IlvAction(final String s, final Icon icon, final KeyStroke keyStroke)
-public IlvAction(final String name, final Icon icon, final KeyStroke accelerator, final String shortDescription, final String longDescription)
-'''
-pass
+    '''    public IlvAction(final String s)
+    public IlvAction(final String s, final Icon icon)
+    public IlvAction(final String s, final Icon icon, final KeyStroke keyStroke)
+    public IlvAction(final String name, final Icon icon, final KeyStroke accelerator, final String shortDescription, final String longDescription)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String newValue)
-'''
-pass
+    '''    public void setName(final String newValue)
+    '''
 def getIcon():
-'''public Icon getIcon()
-'''
-pass
+    '''    public Icon getIcon()
+    '''
 def setIcon():
-'''public void setIcon(final Icon newValue)
-public void setIcon(final Class clazz, final String str)
-'''
-pass
+    '''    public void setIcon(final Icon newValue)
+    public void setIcon(final Class clazz, final String str)
+    '''
 def getAccelerator():
-'''public KeyStroke getAccelerator()
-'''
-pass
+    '''    public KeyStroke getAccelerator()
+    '''
 def getAcceleratorText():
-'''public String getAcceleratorText()
-'''
-pass
+    '''    public String getAcceleratorText()
+    '''
 def setAccelerator():
-'''public void setAccelerator(final KeyStroke newValue)
-'''
-pass
+    '''    public void setAccelerator(final KeyStroke newValue)
+    '''
 def getMnemonic():
-'''public int getMnemonic()
-'''
-pass
+    '''    public int getMnemonic()
+    '''
 def setMnemonic():
-'''public void setMnemonic(final int value)
-'''
-pass
+    '''    public void setMnemonic(final int value)
+    '''
 def getShortDescription():
-'''public String getShortDescription()
-'''
-pass
+    '''    public String getShortDescription()
+    '''
 def setShortDescription():
-'''public void setShortDescription(final String newValue)
-'''
-pass
+    '''    public void setShortDescription(final String newValue)
+    '''
 def getLongDescription():
-'''public String getLongDescription()
-'''
-pass
+    '''    public String getLongDescription()
+    '''
 def setLongDescription():
-'''public void setLongDescription(final String newValue)
-'''
-pass
+    '''    public void setLongDescription(final String newValue)
+    '''

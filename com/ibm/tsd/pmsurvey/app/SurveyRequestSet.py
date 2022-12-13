@@ -1,17 +1,13 @@
 def SurveyRequestSet():
-'''public SurveyRequestSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SurveyRequestSet(final MboServerInterface ms)
+    '''
 def getUserSurveyMboSet():
-'''public MboSetRemote getUserSurveyMboSet()
-public MboSetRemote getUserSurveyMboSet(final String surveyId)
-'''
-pass
+    '''    public MboSetRemote getUserSurveyMboSet()
+    public MboSetRemote getUserSurveyMboSet(final String surveyId)
+    '''
 def modifySurveyRequest():
-'''public void modifySurveyRequest()
-'''
-pass
+    '''    public void modifySurveyRequest()
+    '''
 def removeUserSurveyRequest():
-'''public void removeUserSurveyRequest()
-'''
-pass
+    '''    public void removeUserSurveyRequest()
+    '''

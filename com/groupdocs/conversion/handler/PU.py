@@ -1,5 +1,4 @@
 def PU():
-'''public PU(final String message)
-public PU()
-'''
-pass
+    '''    public PU(final String message)
+    public PU()
+    '''

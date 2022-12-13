@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def doRefresh():
-'''public int doRefresh()
-'''
-pass
+    '''    public int doRefresh()
+    '''
 def cancelAstmngop():
-'''public void cancelAstmngop()
-'''
-pass
+    '''    public void cancelAstmngop()
+    '''

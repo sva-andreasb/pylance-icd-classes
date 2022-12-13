@@ -1,16 +1,12 @@
 def detail():
-'''public int detail()
-'''
-pass
+    '''    public int detail()
+    '''
 def refresh():
-'''public int refresh()
-'''
-pass
+    '''    public int refresh()
+    '''
 def processMessage():
-'''public int processMessage()
-'''
-pass
+    '''    public int processMessage()
+    '''
 def deleteMessage():
-'''public int deleteMessage()
-'''
-pass
+    '''    public int deleteMessage()
+    '''

@@ -1,8 +1,6 @@
 def FldWOAreasAffectedLocation():
-'''public FldWOAreasAffectedLocation(final MboValue mbv)
-'''
-pass
+    '''    public FldWOAreasAffectedLocation(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

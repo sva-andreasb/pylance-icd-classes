@@ -1,8 +1,6 @@
 def PlusPFldCraftPriceCalendar():
-'''public PlusPFldCraftPriceCalendar(final MboValue mboValue)
-'''
-pass
+    '''    public PlusPFldCraftPriceCalendar(final MboValue mboValue)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

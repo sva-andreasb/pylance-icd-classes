@@ -1,8 +1,6 @@
 def CommTemplateDocs():
-'''public CommTemplateDocs(final MboSet ms)
-'''
-pass
+    '''    public CommTemplateDocs(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

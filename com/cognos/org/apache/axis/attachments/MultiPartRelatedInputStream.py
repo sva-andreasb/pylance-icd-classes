@@ -1,35 +1,27 @@
-MIME_MULTIPART_RELATED = "String  multipart/related""
+MIME_MULTIPART_RELATED = "String  \"multipart/related\""
 def MultiPartRelatedInputStream():
-'''public MultiPartRelatedInputStream(String contentType, InputStream stream)
-'''
-pass
+    '''    public MultiPartRelatedInputStream(String contentType, InputStream stream)
+    '''
 def getAttachmentByReference():
-'''public Part getAttachmentByReference(final String[] id)
-'''
-pass
+    '''    public Part getAttachmentByReference(final String[] id)
+    '''
 def getAttachments():
-'''public Collection getAttachments()
-'''
-pass
+    '''    public Collection getAttachments()
+    '''
 def getContentLocation():
-'''public String getContentLocation()
-'''
-pass
+    '''    public String getContentLocation()
+    '''
 def getContentId():
-'''public String getContentId()
-'''
-pass
+    '''    public String getContentId()
+    '''
 def read():
-'''public int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-public int read()
-'''
-pass
+    '''    public int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    public int read()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''

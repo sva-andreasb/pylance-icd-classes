@@ -1,9 +1,7 @@
-VERSION_FILE = "String  VERSION.txt""
+VERSION_FILE = "String  \"VERSION.txt\""
 def versionFor():
-'''public static Version versionFor(final Class<?> cls)
-'''
-pass
+    '''    public static Version versionFor(final Class<?> cls)
+    '''
 def parseVersion():
-'''public static Version parseVersion(String versionStr)
-'''
-pass
+    '''    public static Version parseVersion(String versionStr)
+    '''

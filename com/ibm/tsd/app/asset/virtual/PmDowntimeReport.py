@@ -1,16 +1,12 @@
 def PmDowntimeReport():
-'''public PmDowntimeReport(final MboSet ms)
-'''
-pass
+    '''    public PmDowntimeReport(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getPmAssetMbo():
-'''public AssetRemote getPmAssetMbo()
-'''
-pass
+    '''    public AssetRemote getPmAssetMbo()
+    '''

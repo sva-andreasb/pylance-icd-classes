@@ -1,12 +1,9 @@
 def UserMTNPSet():
-'''public UserMTNPSet(final MboServerInterface ms)
-'''
-pass
+    '''    public UserMTNPSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def process():
-'''public List<ConsultantInfo> process()
-'''
-pass
+    '''    public List<ConsultantInfo> process()
+    '''

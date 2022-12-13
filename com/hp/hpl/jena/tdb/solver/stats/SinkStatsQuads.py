@@ -1,12 +1,9 @@
 def send():
-'''public void send(final Quad quad)
-'''
-pass
+    '''    public void send(final Quad quad)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

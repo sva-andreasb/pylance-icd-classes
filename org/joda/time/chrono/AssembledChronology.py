@@ -1,154 +1,116 @@
 def getZone():
-'''public DateTimeZone getZone()
-'''
-pass
+    '''    public DateTimeZone getZone()
+    '''
 def getDateTimeMillis():
-'''public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
-public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
-public long getDateTimeMillis(final long n, final int n2, final int n3, final int n4, final int n5)
-'''
-pass
+    '''    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4)
+    public long getDateTimeMillis(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7)
+    public long getDateTimeMillis(final long n, final int n2, final int n3, final int n4, final int n5)
+    '''
 def millis():
-'''public final DurationField millis()
-'''
-pass
+    '''    public final DurationField millis()
+    '''
 def millisOfSecond():
-'''public final DateTimeField millisOfSecond()
-'''
-pass
+    '''    public final DateTimeField millisOfSecond()
+    '''
 def millisOfDay():
-'''public final DateTimeField millisOfDay()
-'''
-pass
+    '''    public final DateTimeField millisOfDay()
+    '''
 def seconds():
-'''public final DurationField seconds()
-'''
-pass
+    '''    public final DurationField seconds()
+    '''
 def secondOfMinute():
-'''public final DateTimeField secondOfMinute()
-'''
-pass
+    '''    public final DateTimeField secondOfMinute()
+    '''
 def secondOfDay():
-'''public final DateTimeField secondOfDay()
-'''
-pass
+    '''    public final DateTimeField secondOfDay()
+    '''
 def minutes():
-'''public final DurationField minutes()
-'''
-pass
+    '''    public final DurationField minutes()
+    '''
 def minuteOfHour():
-'''public final DateTimeField minuteOfHour()
-'''
-pass
+    '''    public final DateTimeField minuteOfHour()
+    '''
 def minuteOfDay():
-'''public final DateTimeField minuteOfDay()
-'''
-pass
+    '''    public final DateTimeField minuteOfDay()
+    '''
 def hours():
-'''public final DurationField hours()
-'''
-pass
+    '''    public final DurationField hours()
+    '''
 def hourOfDay():
-'''public final DateTimeField hourOfDay()
-'''
-pass
+    '''    public final DateTimeField hourOfDay()
+    '''
 def clockhourOfDay():
-'''public final DateTimeField clockhourOfDay()
-'''
-pass
+    '''    public final DateTimeField clockhourOfDay()
+    '''
 def halfdays():
-'''public final DurationField halfdays()
-'''
-pass
+    '''    public final DurationField halfdays()
+    '''
 def hourOfHalfday():
-'''public final DateTimeField hourOfHalfday()
-'''
-pass
+    '''    public final DateTimeField hourOfHalfday()
+    '''
 def clockhourOfHalfday():
-'''public final DateTimeField clockhourOfHalfday()
-'''
-pass
+    '''    public final DateTimeField clockhourOfHalfday()
+    '''
 def halfdayOfDay():
-'''public final DateTimeField halfdayOfDay()
-'''
-pass
+    '''    public final DateTimeField halfdayOfDay()
+    '''
 def days():
-'''public final DurationField days()
-'''
-pass
+    '''    public final DurationField days()
+    '''
 def dayOfWeek():
-'''public final DateTimeField dayOfWeek()
-'''
-pass
+    '''    public final DateTimeField dayOfWeek()
+    '''
 def dayOfMonth():
-'''public final DateTimeField dayOfMonth()
-'''
-pass
+    '''    public final DateTimeField dayOfMonth()
+    '''
 def dayOfYear():
-'''public final DateTimeField dayOfYear()
-'''
-pass
+    '''    public final DateTimeField dayOfYear()
+    '''
 def weeks():
-'''public final DurationField weeks()
-'''
-pass
+    '''    public final DurationField weeks()
+    '''
 def weekOfWeekyear():
-'''public final DateTimeField weekOfWeekyear()
-'''
-pass
+    '''    public final DateTimeField weekOfWeekyear()
+    '''
 def weekyears():
-'''public final DurationField weekyears()
-'''
-pass
+    '''    public final DurationField weekyears()
+    '''
 def weekyear():
-'''public final DateTimeField weekyear()
-'''
-pass
+    '''    public final DateTimeField weekyear()
+    '''
 def weekyearOfCentury():
-'''public final DateTimeField weekyearOfCentury()
-'''
-pass
+    '''    public final DateTimeField weekyearOfCentury()
+    '''
 def months():
-'''public final DurationField months()
-'''
-pass
+    '''    public final DurationField months()
+    '''
 def monthOfYear():
-'''public final DateTimeField monthOfYear()
-'''
-pass
+    '''    public final DateTimeField monthOfYear()
+    '''
 def years():
-'''public final DurationField years()
-'''
-pass
+    '''    public final DurationField years()
+    '''
 def year():
-'''public final DateTimeField year()
-'''
-pass
+    '''    public final DateTimeField year()
+    '''
 def yearOfEra():
-'''public final DateTimeField yearOfEra()
-'''
-pass
+    '''    public final DateTimeField yearOfEra()
+    '''
 def yearOfCentury():
-'''public final DateTimeField yearOfCentury()
-'''
-pass
+    '''    public final DateTimeField yearOfCentury()
+    '''
 def centuries():
-'''public final DurationField centuries()
-'''
-pass
+    '''    public final DurationField centuries()
+    '''
 def centuryOfEra():
-'''public final DateTimeField centuryOfEra()
-'''
-pass
+    '''    public final DateTimeField centuryOfEra()
+    '''
 def eras():
-'''public final DurationField eras()
-'''
-pass
+    '''    public final DurationField eras()
+    '''
 def era():
-'''public final DateTimeField era()
-'''
-pass
+    '''    public final DateTimeField era()
+    '''
 def copyFieldsFrom():
-'''public void copyFieldsFrom(final Chronology chronology)
-'''
-pass
+    '''    public void copyFieldsFrom(final Chronology chronology)
+    '''

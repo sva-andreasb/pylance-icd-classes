@@ -1,16 +1,12 @@
 def FldWOAncestor():
-'''public FldWOAncestor(final MboValue mbv)
-'''
-pass
+    '''    public FldWOAncestor(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

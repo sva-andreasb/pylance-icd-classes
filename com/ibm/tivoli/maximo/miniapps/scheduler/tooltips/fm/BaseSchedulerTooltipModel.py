@@ -1,4 +1,3 @@
 def BaseSchedulerTooltipModel():
-'''public BaseSchedulerTooltipModel(final AbstractTreeGridMiniAppBean bean)
-'''
-pass
+    '''    public BaseSchedulerTooltipModel(final AbstractTreeGridMiniAppBean bean)
+    '''

@@ -1,8 +1,6 @@
 def NoServerDefinedException():
-'''public NoServerDefinedException(final String name)
-'''
-pass
+    '''    public NoServerDefinedException(final String name)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

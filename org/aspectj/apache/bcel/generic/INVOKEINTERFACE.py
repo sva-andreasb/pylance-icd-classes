@@ -1,28 +1,21 @@
 def INVOKEINTERFACE():
-'''public INVOKEINTERFACE(final int index, final int nargs, final int zerobyte)
-'''
-pass
+    '''    public INVOKEINTERFACE(final int index, final int nargs, final int zerobyte)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def toString():
-'''public String toString(final ConstantPool cp)
-'''
-pass
+    '''    public String toString(final ConstantPool cp)
+    '''
 def consumeStack():
-'''public int consumeStack(final ConstantPool cpg)
-'''
-pass
+    '''    public int consumeStack(final ConstantPool cpg)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

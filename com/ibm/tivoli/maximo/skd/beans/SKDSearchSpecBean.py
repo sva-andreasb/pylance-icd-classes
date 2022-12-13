@@ -1,12 +1,9 @@
 def SKDSearchSpecBean():
-'''public SKDSearchSpecBean()
-'''
-pass
+    '''    public SKDSearchSpecBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

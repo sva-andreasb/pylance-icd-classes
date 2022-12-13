@@ -1,12 +1,9 @@
 def ServiceProviderCollection():
-'''public ServiceProviderCollection(final String uri)
-'''
-pass
+    '''    public ServiceProviderCollection(final String uri)
+    '''
 def addServiceProvider():
-'''public void addServiceProvider(final ServiceProvider serviceProvider)
-'''
-pass
+    '''    public void addServiceProvider(final ServiceProvider serviceProvider)
+    '''
 def asRDFModel():
-'''public Model asRDFModel()
-'''
-pass
+    '''    public Model asRDFModel()
+    '''

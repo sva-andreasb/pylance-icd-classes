@@ -1,9 +1,7 @@
-FIELD_MULTIID = "String  MULTIID""
+FIELD_MULTIID = "String  \"MULTIID\""
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''

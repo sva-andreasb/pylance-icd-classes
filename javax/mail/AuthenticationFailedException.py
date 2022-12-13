@@ -1,5 +1,4 @@
 def AuthenticationFailedException():
-'''public AuthenticationFailedException()
-public AuthenticationFailedException(final String message)
-'''
-pass
+    '''    public AuthenticationFailedException()
+    public AuthenticationFailedException(final String message)
+    '''

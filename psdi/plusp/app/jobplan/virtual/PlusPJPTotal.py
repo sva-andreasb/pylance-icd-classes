@@ -1,16 +1,12 @@
 def PlusPJPTotal():
-'''public PlusPJPTotal(final MboSet arg0)
-'''
-pass
+    '''    public PlusPJPTotal(final MboSet arg0)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def calculatePriceTotals():
-'''public void calculatePriceTotals()
-'''
-pass
+    '''    public void calculatePriceTotals()
+    '''
 def setExchangeRate():
-'''public boolean setExchangeRate()
-'''
-pass
+    '''    public boolean setExchangeRate()
+    '''

@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def okevent():
-'''public synchronized int okevent()
-'''
-pass
+    '''    public synchronized int okevent()
+    '''

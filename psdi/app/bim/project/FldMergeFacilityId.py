@@ -1,8 +1,6 @@
 def FldMergeFacilityId():
-'''public FldMergeFacilityId(final MboValue mbv)
-'''
-pass
+    '''    public FldMergeFacilityId(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

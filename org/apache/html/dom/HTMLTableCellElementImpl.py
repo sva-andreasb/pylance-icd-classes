@@ -1,124 +1,93 @@
 def getCellIndex():
-'''public int getCellIndex()
-'''
-pass
+    '''    public int getCellIndex()
+    '''
 def setCellIndex():
-'''public void setCellIndex(int n)
-'''
-pass
+    '''    public void setCellIndex(int n)
+    '''
 def getAbbr():
-'''public String getAbbr()
-'''
-pass
+    '''    public String getAbbr()
+    '''
 def setAbbr():
-'''public void setAbbr(final String s)
-'''
-pass
+    '''    public void setAbbr(final String s)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getAxis():
-'''public String getAxis()
-'''
-pass
+    '''    public String getAxis()
+    '''
 def setAxis():
-'''public void setAxis(final String s)
-'''
-pass
+    '''    public void setAxis(final String s)
+    '''
 def getBgColor():
-'''public String getBgColor()
-'''
-pass
+    '''    public String getBgColor()
+    '''
 def setBgColor():
-'''public void setBgColor(final String s)
-'''
-pass
+    '''    public void setBgColor(final String s)
+    '''
 def getCh():
-'''public String getCh()
-'''
-pass
+    '''    public String getCh()
+    '''
 def setCh():
-'''public void setCh(String substring)
-'''
-pass
+    '''    public void setCh(String substring)
+    '''
 def getChOff():
-'''public String getChOff()
-'''
-pass
+    '''    public String getChOff()
+    '''
 def setChOff():
-'''public void setChOff(final String s)
-'''
-pass
+    '''    public void setChOff(final String s)
+    '''
 def getColSpan():
-'''public int getColSpan()
-'''
-pass
+    '''    public int getColSpan()
+    '''
 def setColSpan():
-'''public void setColSpan(final int i)
-'''
-pass
+    '''    public void setColSpan(final int i)
+    '''
 def getHeaders():
-'''public String getHeaders()
-'''
-pass
+    '''    public String getHeaders()
+    '''
 def setHeaders():
-'''public void setHeaders(final String s)
-'''
-pass
+    '''    public void setHeaders(final String s)
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final String s)
-'''
-pass
+    '''    public void setHeight(final String s)
+    '''
 def getNoWrap():
-'''public boolean getNoWrap()
-'''
-pass
+    '''    public boolean getNoWrap()
+    '''
 def setNoWrap():
-'''public void setNoWrap(final boolean b)
-'''
-pass
+    '''    public void setNoWrap(final boolean b)
+    '''
 def getRowSpan():
-'''public int getRowSpan()
-'''
-pass
+    '''    public int getRowSpan()
+    '''
 def setRowSpan():
-'''public void setRowSpan(final int i)
-'''
-pass
+    '''    public void setRowSpan(final int i)
+    '''
 def getScope():
-'''public String getScope()
-'''
-pass
+    '''    public String getScope()
+    '''
 def setScope():
-'''public void setScope(final String s)
-'''
-pass
+    '''    public void setScope(final String s)
+    '''
 def getVAlign():
-'''public String getVAlign()
-'''
-pass
+    '''    public String getVAlign()
+    '''
 def setVAlign():
-'''public void setVAlign(final String s)
-'''
-pass
+    '''    public void setVAlign(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''
 def HTMLTableCellElementImpl():
-'''public HTMLTableCellElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLTableCellElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

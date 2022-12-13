@@ -1,52 +1,39 @@
 def GanttModelChanges():
-'''public GanttModelChanges()
-'''
-pass
+    '''    public GanttModelChanges()
+    '''
 def addActivityChange():
-'''public void addActivityChange(final ActivityChange activityChange)
-'''
-pass
+    '''    public void addActivityChange(final ActivityChange activityChange)
+    '''
 def getActivityChange():
-'''public ActivityChange getActivityChange(final String id)
-'''
-pass
+    '''    public ActivityChange getActivityChange(final String id)
+    '''
 def getActivitiesChanged():
-'''public Iterator getActivitiesChanged()
-'''
-pass
+    '''    public Iterator getActivitiesChanged()
+    '''
 def getActivitiesChangedSize():
-'''public int getActivitiesChangedSize()
-'''
-pass
+    '''    public int getActivitiesChangedSize()
+    '''
 def addReservationChange():
-'''public void addReservationChange(final ReservationChange reservChange)
-'''
-pass
+    '''    public void addReservationChange(final ReservationChange reservChange)
+    '''
 def getReservationsChanged():
-'''public Iterator getReservationsChanged()
-'''
-pass
+    '''    public Iterator getReservationsChanged()
+    '''
 def getReservationsChangedSize():
-'''public int getReservationsChangedSize()
-'''
-pass
+    '''    public int getReservationsChangedSize()
+    '''
 def getProjectId():
-'''public String getProjectId()
-'''
-pass
+    '''    public String getProjectId()
+    '''
 def setProjectId():
-'''public void setProjectId(final String projectId)
-'''
-pass
+    '''    public void setProjectId(final String projectId)
+    '''
 def addConstraintChange():
-'''public void addConstraintChange(final ConstraintChange constraintChange)
-'''
-pass
+    '''    public void addConstraintChange(final ConstraintChange constraintChange)
+    '''
 def getConstraintsChanged():
-'''public Iterator getConstraintsChanged()
-'''
-pass
+    '''    public Iterator getConstraintsChanged()
+    '''
 def getConstraintsChangedSize():
-'''public int getConstraintsChangedSize()
-'''
-pass
+    '''    public int getConstraintsChangedSize()
+    '''

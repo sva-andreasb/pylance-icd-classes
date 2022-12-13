@@ -1,29 +1,22 @@
 def ExcelExportWriter():
-'''public ExcelExportWriter()
-public ExcelExportWriter(final String type)
-'''
-pass
+    '''    public ExcelExportWriter()
+    public ExcelExportWriter(final String type)
+    '''
 def beginDocument():
-'''public void beginDocument(final String name, final OutputStream out)
-'''
-pass
+    '''    public void beginDocument(final String name, final OutputStream out)
+    '''
 def endDocument():
-'''public void endDocument()
-'''
-pass
+    '''    public void endDocument()
+    '''
 def beginRow():
-'''public void beginRow()
-'''
-pass
+    '''    public void beginRow()
+    '''
 def endRow():
-'''public void endRow()
-'''
-pass
+    '''    public void endRow()
+    '''
 def emitCell():
-'''public void emitCell(final int cellPos, final Object val, final int maxType, final ICellStyle style, final IExportContext context)
-'''
-pass
+    '''    public void emitCell(final int cellPos, final Object val, final int maxType, final ICellStyle style, final IExportContext context)
+    '''
 def emitComma():
-'''public void emitComma()
-'''
-pass
+    '''    public void emitComma()
+    '''

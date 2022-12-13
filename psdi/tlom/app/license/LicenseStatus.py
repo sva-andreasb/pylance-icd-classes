@@ -1,8 +1,6 @@
 def LicenseStatus():
-'''public LicenseStatus(final MboSet ms)
-'''
-pass
+    '''    public LicenseStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

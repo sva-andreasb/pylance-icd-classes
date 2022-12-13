@@ -1,16 +1,12 @@
 def _then():
-'''public JBlock _then()
-'''
-pass
+    '''    public JBlock _then()
+    '''
 def _else():
-'''public JBlock _else()
-'''
-pass
+    '''    public JBlock _else()
+    '''
 def _elseif():
-'''public JConditional _elseif(final JExpression boolExp)
-'''
-pass
+    '''    public JConditional _elseif(final JExpression boolExp)
+    '''
 def state():
-'''public void state(final JFormatter f)
-'''
-pass
+    '''    public void state(final JFormatter f)
+    '''

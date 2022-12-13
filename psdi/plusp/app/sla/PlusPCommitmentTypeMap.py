@@ -1,4 +1,3 @@
 def getTypesForObject():
-'''public static List getTypesForObject(final String key)
-'''
-pass
+    '''    public static List getTypesForObject(final String key)
+    '''

@@ -1,12 +1,9 @@
 def defaultConfig():
-'''public static ClientConfiguration defaultConfig()
-'''
-pass
+    '''    public static ClientConfiguration defaultConfig()
+    '''
 def dynamoDefault():
-'''public static ClientConfiguration dynamoDefault()
-'''
-pass
+    '''    public static ClientConfiguration dynamoDefault()
+    '''
 def swfDefault():
-'''public static ClientConfiguration swfDefault()
-'''
-pass
+    '''    public static ClientConfiguration swfDefault()
+    '''

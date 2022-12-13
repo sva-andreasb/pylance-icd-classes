@@ -1,28 +1,21 @@
 def PortletRequestContext():
-'''public PortletRequestContext(final ActionRequest request)
-'''
-pass
+    '''    public PortletRequestContext(final ActionRequest request)
+    '''
 def getCharacterEncoding():
-'''public String getCharacterEncoding()
-'''
-pass
+    '''    public String getCharacterEncoding()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getContentLength():
-'''public int getContentLength()
-'''
-pass
+    '''    public int getContentLength()
+    '''
 def contentLength():
-'''public long contentLength()
-'''
-pass
+    '''    public long contentLength()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

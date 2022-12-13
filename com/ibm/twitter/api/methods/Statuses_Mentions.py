@@ -1,8 +1,6 @@
 def Statuses_Mentions():
-'''public Statuses_Mentions()
-'''
-pass
+    '''    public Statuses_Mentions()
+    '''
 def getResult():
-'''public List<Status> getResult()
-'''
-pass
+    '''    public List<Status> getResult()
+    '''

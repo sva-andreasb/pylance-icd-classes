@@ -1,32 +1,24 @@
 def getBeginLineNumber():
-'''public int getBeginLineNumber()
-'''
-pass
+    '''    public int getBeginLineNumber()
+    '''
 def getBeginColumnNumber():
-'''public int getBeginColumnNumber()
-'''
-pass
+    '''    public int getBeginColumnNumber()
+    '''
 def getBeginCharacterOffset():
-'''public int getBeginCharacterOffset()
-'''
-pass
+    '''    public int getBeginCharacterOffset()
+    '''
 def getEndLineNumber():
-'''public int getEndLineNumber()
-'''
-pass
+    '''    public int getEndLineNumber()
+    '''
 def getEndColumnNumber():
-'''public int getEndColumnNumber()
-'''
-pass
+    '''    public int getEndColumnNumber()
+    '''
 def getEndCharacterOffset():
-'''public int getEndCharacterOffset()
-'''
-pass
+    '''    public int getEndCharacterOffset()
+    '''
 def isSynthesized():
-'''public boolean isSynthesized()
-'''
-pass
+    '''    public boolean isSynthesized()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

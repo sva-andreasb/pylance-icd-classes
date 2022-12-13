@@ -1,8 +1,6 @@
 def FldItemConditionCondRate():
-'''public FldItemConditionCondRate(final MboValue mbv)
-'''
-pass
+    '''    public FldItemConditionCondRate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

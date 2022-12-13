@@ -1,8 +1,6 @@
 def RtfInfoElement():
-'''public RtfInfoElement(final RtfDocument doc, final Meta meta)
-'''
-pass
+    '''    public RtfInfoElement(final RtfDocument doc, final Meta meta)
+    '''
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''

@@ -1,8 +1,6 @@
 def DMCollEventTrkSet():
-'''public DMCollEventTrkSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DMCollEventTrkSet(final MboServerInterface ms)
+    '''
 def save():
-'''public void save(final long flags)
-'''
-pass
+    '''    public void save(final long flags)
+    '''

@@ -1,38 +1,29 @@
 def LDIFWriter():
-'''public LDIFWriter(final OutputStream outputStream)
-public LDIFWriter(final OutputStream outputStream, final String s, final boolean value)
-'''
-pass
+    '''    public LDIFWriter(final OutputStream outputStream)
+    public LDIFWriter(final OutputStream outputStream, final String s, final boolean value)
+    '''
 def writeEntry():
-'''public void writeEntry(final LDAPEntry ldapEntry)
-public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
-'''
-pass
+    '''    public void writeEntry(final LDAPEntry ldapEntry)
+    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
+    '''
 def writeMessage():
-'''public void writeMessage(final LDAPMessage ldapMessage)
-'''
-pass
+    '''    public void writeMessage(final LDAPMessage ldapMessage)
+    '''
 def writeComments():
-'''public void writeComments(final String s)
-'''
-pass
+    '''    public void writeComments(final String s)
+    '''
 def writeError():
-'''public void writeError(final Exception ex)
-'''
-pass
+    '''    public void writeError(final Exception ex)
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def isRequest():
-'''public boolean isRequest()
-'''
-pass
+    '''    public boolean isRequest()
+    '''
 def isPrintable():
-'''public boolean isPrintable(final byte[] array)
-'''
-pass
+    '''    public boolean isPrintable(final byte[] array)
+    '''
 def finish():
-'''public void finish()
-'''
-pass
+    '''    public void finish()
+    '''

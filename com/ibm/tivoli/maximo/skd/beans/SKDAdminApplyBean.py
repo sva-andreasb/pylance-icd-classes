@@ -1,8 +1,6 @@
 def apply():
-'''public int apply()
-'''
-pass
+    '''    public int apply()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''

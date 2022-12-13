@@ -1,8 +1,6 @@
 def FeatureChangeStatusSet():
-'''public FeatureChangeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public FeatureChangeStatusSet(final MboServerInterface ms)
+    '''
 def getMboIntoSet():
-'''public MboSetRemote getMboIntoSet(final MboRemote mbo)
-'''
-pass
+    '''    public MboSetRemote getMboIntoSet(final MboRemote mbo)
+    '''

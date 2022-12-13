@@ -1,12 +1,9 @@
 def getInstance():
-'''public static final OSUserEndPointCache getInstance()
-'''
-pass
+    '''    public static final OSUserEndPointCache getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getEndpointForUser():
-'''public List<UserEndPointInfo> getEndpointForUser(final String userName)
-'''
-pass
+    '''    public List<UserEndPointInfo> getEndpointForUser(final String userName)
+    '''

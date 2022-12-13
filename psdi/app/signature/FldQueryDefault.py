@@ -1,17 +1,13 @@
 def FldQueryDefault():
-'''public FldQueryDefault()
-public FldQueryDefault(final MboValue mbv)
-'''
-pass
+    '''    public FldQueryDefault()
+    public FldQueryDefault(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

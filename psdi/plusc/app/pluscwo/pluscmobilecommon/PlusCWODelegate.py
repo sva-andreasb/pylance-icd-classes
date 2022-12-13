@@ -1,16 +1,12 @@
 def PlusCWODelegate():
-'''public PlusCWODelegate(final MboAdapter mbo)
-'''
-pass
+    '''    public PlusCWODelegate(final MboAdapter mbo)
+    '''
 def copyLoopFlagFromLocation():
-'''public void copyLoopFlagFromLocation()
-'''
-pass
+    '''    public void copyLoopFlagFromLocation()
+    '''
 def isChangeOK():
-'''public boolean isChangeOK(final String currentStatus, final String desiredStatus)
-'''
-pass
+    '''    public boolean isChangeOK(final String currentStatus, final String desiredStatus)
+    '''
 def hasAssociatedTool():
-'''public boolean hasAssociatedTool()
-'''
-pass
+    '''    public boolean hasAssociatedTool()
+    '''

@@ -1,24 +1,18 @@
 def getCreatedCount():
-'''public int getCreatedCount()
-'''
-pass
+    '''    public int getCreatedCount()
+    '''
 def getUpdatedCount():
-'''public int getUpdatedCount()
-'''
-pass
+    '''    public int getUpdatedCount()
+    '''
 def getExceptionList():
-'''public List<CCICISyncCIsError> getExceptionList()
-'''
-pass
+    '''    public List<CCICISyncCIsError> getExceptionList()
+    '''
 def CCICISyncCIsAction():
-'''public CCICISyncCIsAction(final long _syncOpts)
-'''
-pass
+    '''    public CCICISyncCIsAction(final long _syncOpts)
+    '''
 def processState():
-'''public void processState(final TraversalState state, final UserInfo userInfo)
-'''
-pass
+    '''    public void processState(final TraversalState state, final UserInfo userInfo)
+    '''
 def postTraverseAction():
-'''public void postTraverseAction(final UserInfo userInfo)
-'''
-pass
+    '''    public void postTraverseAction(final UserInfo userInfo)
+    '''

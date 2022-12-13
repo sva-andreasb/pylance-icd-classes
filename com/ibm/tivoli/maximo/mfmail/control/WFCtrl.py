@@ -1,4 +1,3 @@
 def WFCtrl():
-'''public WFCtrl(final MboSet ms)
-'''
-pass
+    '''    public WFCtrl(final MboSet ms)
+    '''

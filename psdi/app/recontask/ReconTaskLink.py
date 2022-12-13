@@ -1,12 +1,9 @@
 def ReconTaskLink():
-'''public ReconTaskLink(final MboSet ms)
-'''
-pass
+    '''    public ReconTaskLink(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

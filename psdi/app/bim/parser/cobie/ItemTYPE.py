@@ -1,272 +1,204 @@
 def ItemTYPE():
-'''public ItemTYPE()
-'''
-pass
+    '''    public ItemTYPE()
+    '''
 def resolveRerefences():
-'''public void resolveRerefences(final Parser project, final long flags)
-'''
-pass
+    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''
 def skip():
-'''public boolean skip(final Parser parser, final long flags)
-'''
-pass
+    '''    public boolean skip(final Parser parser, final long flags)
+    '''
 def getNominalLength():
-'''public String getNominalLength()
-'''
-pass
+    '''    public String getNominalLength()
+    '''
 def setNominalLength():
-'''public void setNominalLength(final String nominalLength)
-'''
-pass
+    '''    public void setNominalLength(final String nominalLength)
+    '''
 def getNominalWidth():
-'''public String getNominalWidth()
-'''
-pass
+    '''    public String getNominalWidth()
+    '''
 def setNominalWidth():
-'''public void setNominalWidth(final String nominalWidth)
-'''
-pass
+    '''    public void setNominalWidth(final String nominalWidth)
+    '''
 def getNominalHeight():
-'''public String getNominalHeight()
-'''
-pass
+    '''    public String getNominalHeight()
+    '''
 def setNominalHeight():
-'''public void setNominalHeight(final String nominalHeight)
-'''
-pass
+    '''    public void setNominalHeight(final String nominalHeight)
+    '''
 def getModelReference():
-'''public String getModelReference()
-'''
-pass
+    '''    public String getModelReference()
+    '''
 def setModelReference():
-'''public void setModelReference(final String modelReference)
-'''
-pass
+    '''    public void setModelReference(final String modelReference)
+    '''
 def getShape():
-'''public String getShape()
-'''
-pass
+    '''    public String getShape()
+    '''
 def setShape():
-'''public void setShape(final String shape)
-'''
-pass
+    '''    public void setShape(final String shape)
+    '''
 def getSize():
-'''public String getSize()
-'''
-pass
+    '''    public String getSize()
+    '''
 def setSize():
-'''public void setSize(final String size)
-'''
-pass
+    '''    public void setSize(final String size)
+    '''
 def getColor():
-'''public String getColor()
-'''
-pass
+    '''    public String getColor()
+    '''
 def setColor():
-'''public void setColor(final String color)
-'''
-pass
+    '''    public void setColor(final String color)
+    '''
 def getFinish():
-'''public String getFinish()
-'''
-pass
+    '''    public String getFinish()
+    '''
 def setFinish():
-'''public void setFinish(final String finish)
-'''
-pass
+    '''    public void setFinish(final String finish)
+    '''
 def getGrade():
-'''public String getGrade()
-'''
-pass
+    '''    public String getGrade()
+    '''
 def setGrade():
-'''public void setGrade(final String grade)
-'''
-pass
+    '''    public void setGrade(final String grade)
+    '''
 def getMaterial():
-'''public String getMaterial()
-'''
-pass
+    '''    public String getMaterial()
+    '''
 def setMaterial():
-'''public void setMaterial(final String material)
-'''
-pass
+    '''    public void setMaterial(final String material)
+    '''
 def getConstituents():
-'''public String getConstituents()
-'''
-pass
+    '''    public String getConstituents()
+    '''
 def setConstituents():
-'''public void setConstituents(final String constituents)
-'''
-pass
+    '''    public void setConstituents(final String constituents)
+    '''
 def getFeatures():
-'''public String getFeatures()
-'''
-pass
+    '''    public String getFeatures()
+    '''
 def setFeatures():
-'''public void setFeatures(final String features)
-'''
-pass
+    '''    public void setFeatures(final String features)
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def addComponent():
-'''public void addComponent(final ItemCOMPONENT component)
-'''
-pass
+    '''    public void addComponent(final ItemCOMPONENT component)
+    '''
 def components():
-'''public Enumeration<ItemCOMPONENT> components()
-'''
-pass
+    '''    public Enumeration<ItemCOMPONENT> components()
+    '''
 def addSpare():
-'''public void addSpare(final ItemSPARE spare)
-'''
-pass
+    '''    public void addSpare(final ItemSPARE spare)
+    '''
 def spares():
-'''public Enumeration<ItemSPARE> spares()
-'''
-pass
+    '''    public Enumeration<ItemSPARE> spares()
+    '''
 def addJob():
-'''public void addJob(final ItemJOB job)
-'''
-pass
+    '''    public void addJob(final ItemJOB job)
+    '''
 def jobs():
-'''public Enumeration<ItemJOB> jobs()
-'''
-pass
+    '''    public Enumeration<ItemJOB> jobs()
+    '''
 def getAccessibilityPerformance():
-'''public String getAccessibilityPerformance()
-'''
-pass
+    '''    public String getAccessibilityPerformance()
+    '''
 def setAccessibilityPerformance():
-'''public void setAccessibilityPerformance(final String accessibilityPerformance)
-'''
-pass
+    '''    public void setAccessibilityPerformance(final String accessibilityPerformance)
+    '''
 def getCodePerformance():
-'''public String getCodePerformance()
-'''
-pass
+    '''    public String getCodePerformance()
+    '''
 def setCodePerformance():
-'''public void setCodePerformance(final String codePerformance)
-'''
-pass
+    '''    public void setCodePerformance(final String codePerformance)
+    '''
 def getSustainabilityPerformance():
-'''public String getSustainabilityPerformance()
-'''
-pass
+    '''    public String getSustainabilityPerformance()
+    '''
 def setSustainabilityPerformance():
-'''public void setSustainabilityPerformance(final String sustainabilityPerformance)
-'''
-pass
+    '''    public void setSustainabilityPerformance(final String sustainabilityPerformance)
+    '''
 def getAssetType():
-'''public String getAssetType()
-'''
-pass
+    '''    public String getAssetType()
+    '''
 def setAssetType():
-'''public void setAssetType(final String assetType)
-'''
-pass
+    '''    public void setAssetType(final String assetType)
+    '''
 def getManufacturer():
-'''public String getManufacturer()
-'''
-pass
+    '''    public String getManufacturer()
+    '''
 def setManufacturer():
-'''public void setManufacturer(final String manufacturer)
-'''
-pass
+    '''    public void setManufacturer(final String manufacturer)
+    '''
 def getManufacturerReference():
-'''public ItemCONTACT getManufacturerReference()
-'''
-pass
+    '''    public ItemCONTACT getManufacturerReference()
+    '''
 def getModelNumber():
-'''public String getModelNumber()
-'''
-pass
+    '''    public String getModelNumber()
+    '''
 def setModelNumber():
-'''public void setModelNumber(final String modelNumber)
-'''
-pass
+    '''    public void setModelNumber(final String modelNumber)
+    '''
 def getWarrantyGuarantorParts():
-'''public String getWarrantyGuarantorParts()
-'''
-pass
+    '''    public String getWarrantyGuarantorParts()
+    '''
 def getWarrantyGuarantorPartsRef():
-'''public ItemCONTACT getWarrantyGuarantorPartsRef()
-'''
-pass
+    '''    public ItemCONTACT getWarrantyGuarantorPartsRef()
+    '''
 def setWarrantyGuarantorParts():
-'''public void setWarrantyGuarantorParts(final String warrantyGuarantorParts)
-'''
-pass
+    '''    public void setWarrantyGuarantorParts(final String warrantyGuarantorParts)
+    '''
 def getWarrantyDurationParts():
-'''public String getWarrantyDurationParts()
-'''
-pass
+    '''    public String getWarrantyDurationParts()
+    '''
 def setWarrantyDurationParts():
-'''public void setWarrantyDurationParts(final String warrantyDurationParts)
-'''
-pass
+    '''    public void setWarrantyDurationParts(final String warrantyDurationParts)
+    '''
 def getWarrantyGuarantorLabor():
-'''public String getWarrantyGuarantorLabor()
-'''
-pass
+    '''    public String getWarrantyGuarantorLabor()
+    '''
 def getWarrantyGuarantorLaborRef():
-'''public ItemCONTACT getWarrantyGuarantorLaborRef()
-'''
-pass
+    '''    public ItemCONTACT getWarrantyGuarantorLaborRef()
+    '''
 def setWarrantyGuarantorLabor():
-'''public void setWarrantyGuarantorLabor(final String warrantyGuarantorLabor)
-'''
-pass
+    '''    public void setWarrantyGuarantorLabor(final String warrantyGuarantorLabor)
+    '''
 def getWarrantyDurationLabor():
-'''public String getWarrantyDurationLabor()
-'''
-pass
+    '''    public String getWarrantyDurationLabor()
+    '''
 def setWarrantyDurationLabor():
-'''public void setWarrantyDurationLabor(final String warrantyDurationLabor)
-'''
-pass
+    '''    public void setWarrantyDurationLabor(final String warrantyDurationLabor)
+    '''
 def getWarrantyDurationUnit():
-'''public String getWarrantyDurationUnit()
-'''
-pass
+    '''    public String getWarrantyDurationUnit()
+    '''
 def setWarrantyDurationUnit():
-'''public void setWarrantyDurationUnit(final String warrantyDurationUnit)
-'''
-pass
+    '''    public void setWarrantyDurationUnit(final String warrantyDurationUnit)
+    '''
 def getReplacementCost():
-'''public String getReplacementCost()
-'''
-pass
+    '''    public String getReplacementCost()
+    '''
 def setReplacementCost():
-'''public void setReplacementCost(final String replacementCost)
-'''
-pass
+    '''    public void setReplacementCost(final String replacementCost)
+    '''
 def getExpectedLife():
-'''public String getExpectedLife()
-'''
-pass
+    '''    public String getExpectedLife()
+    '''
 def setExpectedLife():
-'''public void setExpectedLife(final String expectedLife)
-'''
-pass
+    '''    public void setExpectedLife(final String expectedLife)
+    '''
 def getDurationUnit():
-'''public String getDurationUnit()
-'''
-pass
+    '''    public String getDurationUnit()
+    '''
 def setDurationUnit():
-'''public void setDurationUnit(final String durationUnit)
-'''
-pass
+    '''    public void setDurationUnit(final String durationUnit)
+    '''
 def getWarrantyDescription():
-'''public String getWarrantyDescription()
-'''
-pass
+    '''    public String getWarrantyDescription()
+    '''
 def setWarrantyDescription():
-'''public void setWarrantyDescription(final String warrantyDescription)
-'''
-pass
+    '''    public void setWarrantyDescription(final String warrantyDescription)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

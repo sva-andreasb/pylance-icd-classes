@@ -1,26 +1,20 @@
 def HttpThroughputResponseStream():
-'''public HttpThroughputResponseStream(final HttpServletResponse response)
-'''
-pass
+    '''    public HttpThroughputResponseStream(final HttpServletResponse response)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def write():
-'''public void write(final int b)
-public void write(final byte[] b)
-public void write(final byte[] b, final int off, final int len)
-'''
-pass
+    '''    public void write(final int b)
+    public void write(final byte[] b)
+    public void write(final byte[] b, final int off, final int len)
+    '''
 def closed():
-'''public boolean closed()
-'''
-pass
+    '''    public boolean closed()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

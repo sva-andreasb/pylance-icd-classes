@@ -1,8 +1,6 @@
 def PmScFldCustomMBOsMax():
-'''public PmScFldCustomMBOsMax(final MboValue mbv)
-'''
-pass
+    '''    public PmScFldCustomMBOsMax(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

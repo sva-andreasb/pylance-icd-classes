@@ -1,4 +1,3 @@
 def PlusPPreBillLine():
-'''public PlusPPreBillLine(final MboSet set)
-'''
-pass
+    '''    public PlusPPreBillLine(final MboSet set)
+    '''

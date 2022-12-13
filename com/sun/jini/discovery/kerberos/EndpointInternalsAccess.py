@@ -1,4 +1,3 @@
 def set():
-'''public static void set(final EndpointInternals endpointInternals)
-'''
-pass
+    '''    public static void set(final EndpointInternals endpointInternals)
+    '''

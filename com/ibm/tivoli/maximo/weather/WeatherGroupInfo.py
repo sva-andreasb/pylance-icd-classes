@@ -1,16 +1,12 @@
 def WeatherGroupInfo():
-'''public WeatherGroupInfo(final String org, final String groupName, final WeatherOrgInfo orgInfo)
-'''
-pass
+    '''    public WeatherGroupInfo(final String org, final String groupName, final WeatherOrgInfo orgInfo)
+    '''
 def getOrganization():
-'''public String getOrganization()
-'''
-pass
+    '''    public String getOrganization()
+    '''
 def getGroupName():
-'''public String getGroupName()
-'''
-pass
+    '''    public String getGroupName()
+    '''
 def regOrgInfo():
-'''public WeatherOrgInfo regOrgInfo()
-'''
-pass
+    '''    public WeatherOrgInfo regOrgInfo()
+    '''

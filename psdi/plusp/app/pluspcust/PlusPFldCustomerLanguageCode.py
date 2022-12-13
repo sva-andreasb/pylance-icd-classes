@@ -1,4 +1,3 @@
 def PlusPFldCustomerLanguageCode():
-'''public PlusPFldCustomerLanguageCode(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldCustomerLanguageCode(final MboValue mbv)
+    '''

@@ -1,4 +1,3 @@
 def GuestTrustDomain():
-'''public GuestTrustDomain(final MboSet ms)
-'''
-pass
+    '''    public GuestTrustDomain(final MboSet ms)
+    '''

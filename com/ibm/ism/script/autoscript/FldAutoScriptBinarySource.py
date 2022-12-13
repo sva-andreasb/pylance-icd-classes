@@ -1,12 +1,9 @@
 def FldAutoScriptBinarySource():
-'''public FldAutoScriptBinarySource(final MboValue mbv)
-'''
-pass
+    '''    public FldAutoScriptBinarySource(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

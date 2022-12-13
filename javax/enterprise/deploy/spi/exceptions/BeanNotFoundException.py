@@ -1,4 +1,3 @@
 def BeanNotFoundException():
-'''public BeanNotFoundException(final String s)
-'''
-pass
+    '''    public BeanNotFoundException(final String s)
+    '''

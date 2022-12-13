@@ -1,8 +1,6 @@
 def PmFldTkIsKnowError():
-'''public PmFldTkIsKnowError(final MboValue mbv)
-'''
-pass
+    '''    public PmFldTkIsKnowError(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

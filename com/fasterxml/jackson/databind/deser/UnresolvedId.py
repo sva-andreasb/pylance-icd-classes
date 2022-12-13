@@ -1,16 +1,12 @@
 def UnresolvedId():
-'''public UnresolvedId(final Object id, final Class<?> type, final JsonLocation where)
-'''
-pass
+    '''    public UnresolvedId(final Object id, final Class<?> type, final JsonLocation where)
+    '''
 def getId():
-'''public Object getId()
-'''
-pass
+    '''    public Object getId()
+    '''
 def getLocation():
-'''public JsonLocation getLocation()
-'''
-pass
+    '''    public JsonLocation getLocation()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

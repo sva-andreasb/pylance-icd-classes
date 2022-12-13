@@ -5,55 +5,42 @@ STATUS_OK_AFTER_SPACE = "int  3"
 STATUS_EXPECT_VALUE = "int  4"
 STATUS_EXPECT_NAME = "int  5"
 def withDupDetector():
-'''public JsonWriteContext withDupDetector(final DupDetector dups)
-'''
-pass
+    '''    public JsonWriteContext withDupDetector(final DupDetector dups)
+    '''
 def getCurrentValue():
-'''public Object getCurrentValue()
-'''
-pass
+    '''    public Object getCurrentValue()
+    '''
 def setCurrentValue():
-'''public void setCurrentValue(final Object v)
-'''
-pass
+    '''    public void setCurrentValue(final Object v)
+    '''
 def createRootContext():
-'''public static JsonWriteContext createRootContext()
-public static JsonWriteContext createRootContext(final DupDetector dd)
-'''
-pass
+    '''    public static JsonWriteContext createRootContext()
+    public static JsonWriteContext createRootContext(final DupDetector dd)
+    '''
 def createChildArrayContext():
-'''public JsonWriteContext createChildArrayContext()
-'''
-pass
+    '''    public JsonWriteContext createChildArrayContext()
+    '''
 def createChildObjectContext():
-'''public JsonWriteContext createChildObjectContext()
-'''
-pass
+    '''    public JsonWriteContext createChildObjectContext()
+    '''
 def getParent():
-'''public final JsonWriteContext getParent()
-'''
-pass
+    '''    public final JsonWriteContext getParent()
+    '''
 def getCurrentName():
-'''public final String getCurrentName()
-'''
-pass
+    '''    public final String getCurrentName()
+    '''
 def hasCurrentName():
-'''public boolean hasCurrentName()
-'''
-pass
+    '''    public boolean hasCurrentName()
+    '''
 def clearAndGetParent():
-'''public JsonWriteContext clearAndGetParent()
-'''
-pass
+    '''    public JsonWriteContext clearAndGetParent()
+    '''
 def getDupDetector():
-'''public DupDetector getDupDetector()
-'''
-pass
+    '''    public DupDetector getDupDetector()
+    '''
 def writeFieldName():
-'''public int writeFieldName(final String name)
-'''
-pass
+    '''    public int writeFieldName(final String name)
+    '''
 def writeValue():
-'''public int writeValue()
-'''
-pass
+    '''    public int writeValue()
+    '''

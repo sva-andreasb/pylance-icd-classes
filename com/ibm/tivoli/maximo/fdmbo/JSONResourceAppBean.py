@@ -1,8 +1,6 @@
 def DELETE():
-'''public int DELETE()
-'''
-pass
+    '''    public int DELETE()
+    '''
 def JSONMERGE():
-'''public int JSONMERGE()
-'''
-pass
+    '''    public int JSONMERGE()
+    '''

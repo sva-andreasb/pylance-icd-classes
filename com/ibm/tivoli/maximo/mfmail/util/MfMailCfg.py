@@ -1,76 +1,57 @@
 def MfMailCfg():
-'''public MfMailCfg(final MboSet ms)
-'''
-pass
+    '''    public MfMailCfg(final MboSet ms)
+    '''
 def activate():
-'''public void activate()
-'''
-pass
+    '''    public void activate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def deactivate():
-'''public void deactivate()
-'''
-pass
+    '''    public void deactivate()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def hasConfigChildren():
-'''public boolean hasConfigChildren()
-'''
-pass
+    '''    public boolean hasConfigChildren()
+    '''
 def getZombieFromMboName():
-'''public MboRemote getZombieFromMboName()
-'''
-pass
+    '''    public MboRemote getZombieFromMboName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def isActivated():
-'''public boolean isActivated()
-'''
-pass
+    '''    public boolean isActivated()
+    '''
 def isStatusChangeSupported():
-'''public boolean isStatusChangeSupported()
-'''
-pass
+    '''    public boolean isStatusChangeSupported()
+    '''
 def isWorkflowSupported():
-'''public boolean isWorkflowSupported()
-'''
-pass
+    '''    public boolean isWorkflowSupported()
+    '''
 def validateCfg():
-'''public void validateCfg(final boolean isDuringActivation)
-'''
-pass
+    '''    public void validateCfg(final boolean isDuringActivation)
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def canActivate():
-'''public void canActivate()
-'''
-pass
+    '''    public void canActivate()
+    '''
 def canDeactivate():
-'''public void canDeactivate()
-'''
-pass
+    '''    public void canDeactivate()
+    '''
 def doPostActivateProcessing():
-'''public void doPostActivateProcessing()
-'''
-pass
+    '''    public void doPostActivateProcessing()
+    '''
 def setFieldFlags():
-'''public void setFieldFlags(final String type)
-'''
-pass
+    '''    public void setFieldFlags(final String type)
+    '''

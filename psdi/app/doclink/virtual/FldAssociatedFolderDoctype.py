@@ -1,4 +1,3 @@
 def FldAssociatedFolderDoctype():
-'''public FldAssociatedFolderDoctype(final MboValue mbv)
-'''
-pass
+    '''    public FldAssociatedFolderDoctype(final MboValue mbv)
+    '''

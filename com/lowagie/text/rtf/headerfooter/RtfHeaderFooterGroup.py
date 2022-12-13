@@ -1,49 +1,38 @@
 def RtfHeaderFooterGroup():
-'''public RtfHeaderFooterGroup()
-public RtfHeaderFooterGroup(final RtfDocument doc, final int type)
-public RtfHeaderFooterGroup(final RtfDocument doc, final RtfHeaderFooterGroup headerFooter, final int type)
-public RtfHeaderFooterGroup(final RtfDocument doc, final RtfHeaderFooter headerFooter, final int type)
-public RtfHeaderFooterGroup(final RtfDocument doc, final HeaderFooter headerFooter, final int type)
-'''
-pass
+    '''    public RtfHeaderFooterGroup()
+    public RtfHeaderFooterGroup(final RtfDocument doc, final int type)
+    public RtfHeaderFooterGroup(final RtfDocument doc, final RtfHeaderFooterGroup headerFooter, final int type)
+    public RtfHeaderFooterGroup(final RtfDocument doc, final RtfHeaderFooter headerFooter, final int type)
+    public RtfHeaderFooterGroup(final RtfDocument doc, final HeaderFooter headerFooter, final int type)
+    '''
 def setRtfDocument():
-'''public void setRtfDocument(final RtfDocument doc)
-'''
-pass
+    '''    public void setRtfDocument(final RtfDocument doc)
+    '''
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''
 def setHeaderFooter():
-'''public void setHeaderFooter(final RtfHeaderFooter headerFooter, final int displayAt)
-public void setHeaderFooter(final HeaderFooter headerFooter, final int displayAt)
-'''
-pass
+    '''    public void setHeaderFooter(final RtfHeaderFooter headerFooter, final int displayAt)
+    public void setHeaderFooter(final HeaderFooter headerFooter, final int displayAt)
+    '''
 def setHasTitlePage():
-'''public void setHasTitlePage()
-'''
-pass
+    '''    public void setHasTitlePage()
+    '''
 def setHasFacingPages():
-'''public void setHasFacingPages()
-'''
-pass
+    '''    public void setHasFacingPages()
+    '''
 def hasTitlePage():
-'''public boolean hasTitlePage()
-'''
-pass
+    '''    public boolean hasTitlePage()
+    '''
 def hasFacingPages():
-'''public boolean hasFacingPages()
-'''
-pass
+    '''    public boolean hasFacingPages()
+    '''
 def setInTable():
-'''public void setInTable(final boolean inTable)
-'''
-pass
+    '''    public void setInTable(final boolean inTable)
+    '''
 def setInHeader():
-'''public void setInHeader(final boolean inHeader)
-'''
-pass
+    '''    public void setInHeader(final boolean inHeader)
+    '''
 def setType():
-'''public void setType(final int type)
-'''
-pass
+    '''    public void setType(final int type)
+    '''

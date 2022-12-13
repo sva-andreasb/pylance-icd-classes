@@ -1,16 +1,12 @@
 def CdmAttribute():
-'''public CdmAttribute(final String className, final String attributeName)
-'''
-pass
+    '''    public CdmAttribute(final String className, final String attributeName)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

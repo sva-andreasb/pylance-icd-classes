@@ -1,52 +1,40 @@
-ELEMENT = "String  affiliation""
+ELEMENT = "String  \"affiliation\""
 def Affiliation():
-'''public Affiliation(final String node, final Type affiliation)
-public Affiliation(final String node, final Type affiliation, final AffiliationNamespace namespace)
-public Affiliation(final BareJid jid, final Type affiliation)
-public Affiliation(final BareJid jid, final Type affiliation, final AffiliationNamespace namespace)
-'''
-pass
+    '''    public Affiliation(final String node, final Type affiliation)
+    public Affiliation(final String node, final Type affiliation, final AffiliationNamespace namespace)
+    public Affiliation(final BareJid jid, final Type affiliation)
+    public Affiliation(final BareJid jid, final Type affiliation, final AffiliationNamespace namespace)
+    '''
 def getNodeId():
-'''public String getNodeId()
-'''
-pass
+    '''    public String getNodeId()
+    '''
 def getNode():
-'''public String getNode()
-'''
-pass
+    '''    public String getNode()
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getAffiliation():
-'''public Type getAffiliation()
-'''
-pass
+    '''    public Type getAffiliation()
+    '''
 def getJid():
-'''public BareJid getJid()
-'''
-pass
+    '''    public BareJid getJid()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getPubSubNamespace():
-'''public PubSubNamespace getPubSubNamespace()
-'''
-pass
+    '''    public PubSubNamespace getPubSubNamespace()
+    '''
 def isAffiliationModification():
-'''public boolean isAffiliationModification()
-'''
-pass
+    '''    public boolean isAffiliationModification()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def fromXmlns():
-'''public static AffiliationNamespace fromXmlns(final String xmlns)
-'''
-pass
+    '''    public static AffiliationNamespace fromXmlns(final String xmlns)
+    '''

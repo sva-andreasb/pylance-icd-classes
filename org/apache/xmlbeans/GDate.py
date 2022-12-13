@@ -1,133 +1,101 @@
 def GDate():
-'''public GDate(final CharSequence string)
-public GDate(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-public GDate(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction, final int tzSign, final int tzHour, final int tzMinute)
-public GDate(final Date date)
-public GDate(final Calendar calendar)
-public GDate(final GDateSpecification gdate)
-'''
-pass
+    '''    public GDate(final CharSequence string)
+    public GDate(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
+    public GDate(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction, final int tzSign, final int tzHour, final int tzMinute)
+    public GDate(final Date date)
+    public GDate(final Calendar calendar)
+    public GDate(final GDateSpecification gdate)
+    '''
 def isImmutable():
-'''public final boolean isImmutable()
-'''
-pass
+    '''    public final boolean isImmutable()
+    '''
 def getFlags():
-'''public int getFlags()
-'''
-pass
+    '''    public int getFlags()
+    '''
 def hasTimeZone():
-'''public final boolean hasTimeZone()
-'''
-pass
+    '''    public final boolean hasTimeZone()
+    '''
 def hasYear():
-'''public final boolean hasYear()
-'''
-pass
+    '''    public final boolean hasYear()
+    '''
 def hasMonth():
-'''public final boolean hasMonth()
-'''
-pass
+    '''    public final boolean hasMonth()
+    '''
 def hasDay():
-'''public final boolean hasDay()
-'''
-pass
+    '''    public final boolean hasDay()
+    '''
 def hasTime():
-'''public final boolean hasTime()
-'''
-pass
+    '''    public final boolean hasTime()
+    '''
 def hasDate():
-'''public final boolean hasDate()
-'''
-pass
+    '''    public final boolean hasDate()
+    '''
 def getYear():
-'''public final int getYear()
-'''
-pass
+    '''    public final int getYear()
+    '''
 def getMonth():
-'''public final int getMonth()
-'''
-pass
+    '''    public final int getMonth()
+    '''
 def getDay():
-'''public final int getDay()
-'''
-pass
+    '''    public final int getDay()
+    '''
 def getHour():
-'''public final int getHour()
-'''
-pass
+    '''    public final int getHour()
+    '''
 def getMinute():
-'''public final int getMinute()
-'''
-pass
+    '''    public final int getMinute()
+    '''
 def getSecond():
-'''public final int getSecond()
-'''
-pass
+    '''    public final int getSecond()
+    '''
 def getFraction():
-'''public final BigDecimal getFraction()
-'''
-pass
+    '''    public final BigDecimal getFraction()
+    '''
 def getTimeZoneSign():
-'''public final int getTimeZoneSign()
-'''
-pass
+    '''    public final int getTimeZoneSign()
+    '''
 def getTimeZoneHour():
-'''public final int getTimeZoneHour()
-'''
-pass
+    '''    public final int getTimeZoneHour()
+    '''
 def getTimeZoneMinute():
-'''public final int getTimeZoneMinute()
-'''
-pass
+    '''    public final int getTimeZoneMinute()
+    '''
 def getMillisecond():
-'''public int getMillisecond()
-'''
-pass
+    '''    public int getMillisecond()
+    '''
 def canonicalString():
-'''public String canonicalString()
-'''
-pass
+    '''    public String canonicalString()
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def getJulianDate():
-'''public int getJulianDate()
-'''
-pass
+    '''    public int getJulianDate()
+    '''
 def getCalendar():
-'''public XmlCalendar getCalendar()
-'''
-pass
+    '''    public XmlCalendar getCalendar()
+    '''
 def getDate():
-'''public Date getDate()
-'''
-pass
+    '''    public Date getDate()
+    '''
 def compareToGDate():
-'''public int compareToGDate(final GDateSpecification datespec)
-'''
-pass
+    '''    public int compareToGDate(final GDateSpecification datespec)
+    '''
 def getBuiltinTypeCode():
-'''public int getBuiltinTypeCode()
-'''
-pass
+    '''    public int getBuiltinTypeCode()
+    '''
 def add():
-'''public GDate add(final GDurationSpecification duration)
-'''
-pass
+    '''    public GDate add(final GDurationSpecification duration)
+    '''
 def subtract():
-'''public GDate subtract(final GDurationSpecification duration)
-'''
-pass
+    '''    public GDate subtract(final GDurationSpecification duration)
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

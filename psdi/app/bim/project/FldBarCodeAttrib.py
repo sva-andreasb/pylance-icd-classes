@@ -1,4 +1,3 @@
 def FldBarCodeAttrib():
-'''public FldBarCodeAttrib(final MboValue mbv)
-'''
-pass
+    '''    public FldBarCodeAttrib(final MboValue mbv)
+    '''

@@ -1,16 +1,12 @@
 def FldClausenameOslcQuery():
-'''public FldClausenameOslcQuery(final MboValue mbv)
-'''
-pass
+    '''    public FldClausenameOslcQuery(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

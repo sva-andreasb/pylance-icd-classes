@@ -1,21 +1,16 @@
 def InvalidationMessage():
-'''public InvalidationMessage()
-public InvalidationMessage(final Set invalidationIDs, final String cacheInstanceName)
-'''
-pass
+    '''    public InvalidationMessage()
+    public InvalidationMessage(final Set invalidationIDs, final String cacheInstanceName)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput in)
-'''
-pass
+    '''    public void readExternal(final ObjectInput in)
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput out)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput out)
+    '''
 def getInvalidationIDs():
-'''public Set getInvalidationIDs()
-'''
-pass
+    '''    public Set getInvalidationIDs()
+    '''
 def getCacheInstanceName():
-'''public String getCacheInstanceName()
-'''
-pass
+    '''    public String getCacheInstanceName()
+    '''

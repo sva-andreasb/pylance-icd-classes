@@ -1,8 +1,6 @@
 def OSUserNotification():
-'''public OSUserNotification(final MboSet ms)
-'''
-pass
+    '''    public OSUserNotification(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

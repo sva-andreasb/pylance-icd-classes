@@ -1,120 +1,90 @@
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean required)
-'''
-pass
+    '''    public void setRequired(final boolean required)
+    '''
 def isAllowBlank():
-'''public boolean isAllowBlank()
-'''
-pass
+    '''    public boolean isAllowBlank()
+    '''
 def setAllowBlank():
-'''public void setAllowBlank(final boolean allowBlank)
-'''
-pass
+    '''    public void setAllowBlank(final boolean allowBlank)
+    '''
 def isAllowNull():
-'''public boolean isAllowNull()
-'''
-pass
+    '''    public boolean isAllowNull()
+    '''
 def setAllowNull():
-'''public void setAllowNull(final boolean allowNull)
-'''
-pass
+    '''    public void setAllowNull(final boolean allowNull)
+    '''
 def isConcealValue():
-'''public boolean isConcealValue()
-'''
-pass
+    '''    public boolean isConcealValue()
+    '''
 def setConcealValue():
-'''public void setConcealValue(final boolean concealValue)
-'''
-pass
+    '''    public void setConcealValue(final boolean concealValue)
+    '''
 def getControlType():
-'''public String getControlType()
-'''
-pass
+    '''    public String getControlType()
+    '''
 def setControlType():
-'''public void setControlType(final String controlType)
-'''
-pass
+    '''    public void setControlType(final String controlType)
+    '''
 def getDataType():
-'''public String getDataType()
-'''
-pass
+    '''    public String getDataType()
+    '''
 def setDataType():
-'''public void setDataType(final String dataType)
-'''
-pass
+    '''    public void setDataType(final String dataType)
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String defaultValue)
-'''
-pass
+    '''    public void setDefaultValue(final String defaultValue)
+    '''
 def getFormatCategory():
-'''public String getFormatCategory()
-'''
-pass
+    '''    public String getFormatCategory()
+    '''
 def setFormatCategory():
-'''public void setFormatCategory(final String formatCategory)
-'''
-pass
+    '''    public void setFormatCategory(final String formatCategory)
+    '''
 def getFormatPattern():
-'''public String getFormatPattern()
-'''
-pass
+    '''    public String getFormatPattern()
+    '''
 def setFormatPattern():
-'''public void setFormatPattern(final String formatPattern)
-'''
-pass
+    '''    public void setFormatPattern(final String formatPattern)
+    '''
 def getHelpText():
-'''public String getHelpText()
-'''
-pass
+    '''    public String getHelpText()
+    '''
 def setHelpText():
-'''public void setHelpText(final String helpText)
-'''
-pass
+    '''    public void setHelpText(final String helpText)
+    '''
 def isHidden():
-'''public boolean isHidden()
-'''
-pass
+    '''    public boolean isHidden()
+    '''
 def setHidden():
-'''public void setHidden(final boolean hidden)
-'''
-pass
+    '''    public void setHidden(final boolean hidden)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getPromptText():
-'''public String getPromptText()
-'''
-pass
+    '''    public String getPromptText()
+    '''
 def setPromptText():
-'''public void setPromptText(final String promptText)
-'''
-pass
+    '''    public void setPromptText(final String promptText)
+    '''
 def getHelpTextKey():
-'''public String getHelpTextKey()
-'''
-pass
+    '''    public String getHelpTextKey()
+    '''
 def setHelpTextKey():
-'''public void setHelpTextKey(final String helpTextKey)
-'''
-pass
+    '''    public void setHelpTextKey(final String helpTextKey)
+    '''
 def getPromptTextKey():
-'''public String getPromptTextKey()
-'''
-pass
+    '''    public String getPromptTextKey()
+    '''
 def setPromptTextKey():
-'''public void setPromptTextKey(final String promptTextKey)
-'''
-pass
+    '''    public void setPromptTextKey(final String promptTextKey)
+    '''

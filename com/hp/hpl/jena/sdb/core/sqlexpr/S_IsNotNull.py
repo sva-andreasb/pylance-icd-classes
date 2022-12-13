@@ -1,4 +1,3 @@
 def S_IsNotNull():
-'''public S_IsNotNull(final SqlExpr expr)
-'''
-pass
+    '''    public S_IsNotNull(final SqlExpr expr)
+    '''

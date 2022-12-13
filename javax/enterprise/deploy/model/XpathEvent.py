@@ -1,28 +1,21 @@
 def isAddEvent():
-'''public boolean isAddEvent()
-'''
-pass
+    '''    public boolean isAddEvent()
+    '''
 def isChangeEvent():
-'''public boolean isChangeEvent()
-'''
-pass
+    '''    public boolean isChangeEvent()
+    '''
 def isRemoveEvent():
-'''public boolean isRemoveEvent()
-'''
-pass
+    '''    public boolean isRemoveEvent()
+    '''
 def getChangeEvent():
-'''public PropertyChangeEvent getChangeEvent()
-'''
-pass
+    '''    public PropertyChangeEvent getChangeEvent()
+    '''
 def setChangeEvent():
-'''public void setChangeEvent(final PropertyChangeEvent pce)
-'''
-pass
+    '''    public void setChangeEvent(final PropertyChangeEvent pce)
+    '''
 def getBean():
-'''public DDBean getBean()
-'''
-pass
+    '''    public DDBean getBean()
+    '''
 def XpathEvent():
-'''public XpathEvent(final DDBean bean, final Object typ)
-'''
-pass
+    '''    public XpathEvent(final DDBean bean, final Object typ)
+    '''

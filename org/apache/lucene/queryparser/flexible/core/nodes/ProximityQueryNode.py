@@ -1,46 +1,35 @@
 def ProximityQueryNode():
-'''public ProximityQueryNode(final List<QueryNode> clauses, final CharSequence field, final Type type, final int distance, final boolean inorder)
-public ProximityQueryNode(final List<QueryNode> clauses, final CharSequence field, final Type type, final boolean inorder)
-'''
-pass
+    '''    public ProximityQueryNode(final List<QueryNode> clauses, final CharSequence field, final Type type, final int distance, final boolean inorder)
+    public ProximityQueryNode(final List<QueryNode> clauses, final CharSequence field, final Type type, final boolean inorder)
+    '''
 def getProximityType():
-'''public Type getProximityType()
-'''
-pass
+    '''    public Type getProximityType()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toQueryString():
-'''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
-'''
-pass
+    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''
 def cloneTree():
-'''public QueryNode cloneTree()
-'''
-pass
+    '''    public QueryNode cloneTree()
+    '''
 def getDistance():
-'''public int getDistance()
-'''
-pass
+    '''    public int getDistance()
+    '''
 def getField():
-'''public CharSequence getField()
-'''
-pass
+    '''    public CharSequence getField()
+    '''
 def getFieldAsString():
-'''public String getFieldAsString()
-'''
-pass
+    '''    public String getFieldAsString()
+    '''
 def setField():
-'''public void setField(final CharSequence field)
-'''
-pass
+    '''    public void setField(final CharSequence field)
+    '''
 def isInOrder():
-'''public boolean isInOrder()
-'''
-pass
+    '''    public boolean isInOrder()
+    '''
 def ProximityType():
-'''public ProximityType(final Type type)
-public ProximityType(final Type type, final int distance)
-'''
-pass
+    '''    public ProximityType(final Type type)
+    public ProximityType(final Type type, final int distance)
+    '''

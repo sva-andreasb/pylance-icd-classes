@@ -1,30 +1,23 @@
-ELEMENT_NAME = "String  queue-status""
-NAMESPACE = "String  http://jabber.org/protocol/workgroup""
+ELEMENT_NAME = "String  \"queue-status\""
+NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def QueueUpdate():
-'''public QueueUpdate(final int position, final int remainingTime)
-'''
-pass
+    '''    public QueueUpdate(final int position, final int remainingTime)
+    '''
 def getPosition():
-'''public int getPosition()
-'''
-pass
+    '''    public int getPosition()
+    '''
 def getRemaingTime():
-'''public int getRemaingTime()
-'''
-pass
+    '''    public int getRemaingTime()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def parse():
-'''public QueueUpdate parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public QueueUpdate parse(final XmlPullParser parser, final int initialDepth)
+    '''

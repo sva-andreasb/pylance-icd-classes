@@ -1,180 +1,136 @@
 def setCompiler():
-'''public void setCompiler(final Compiler compiler)
-'''
-pass
+    '''    public void setCompiler(final Compiler compiler)
+    '''
 def NCName():
-'''public final String NCName()
-'''
-pass
+    '''    public final String NCName()
+    '''
 def NCName_Without_CoreFunctions():
-'''public final String NCName_Without_CoreFunctions()
-'''
-pass
+    '''    public final String NCName_Without_CoreFunctions()
+    '''
 def CoreFunctionName():
-'''public final int CoreFunctionName()
-'''
-pass
+    '''    public final int CoreFunctionName()
+    '''
 def QName():
-'''public final Object QName()
-'''
-pass
+    '''    public final Object QName()
+    '''
 def QName_Without_CoreFunctions():
-'''public final Object QName_Without_CoreFunctions()
-'''
-pass
+    '''    public final Object QName_Without_CoreFunctions()
+    '''
 def parseExpression():
-'''public final Object parseExpression()
-'''
-pass
+    '''    public final Object parseExpression()
+    '''
 def LocationPath():
-'''public final Object LocationPath()
-'''
-pass
+    '''    public final Object LocationPath()
+    '''
 def AbsoluteLocationPath():
-'''public final Object AbsoluteLocationPath()
-'''
-pass
+    '''    public final Object AbsoluteLocationPath()
+    '''
 def RelativeLocationPath():
-'''public final Object RelativeLocationPath()
-'''
-pass
+    '''    public final Object RelativeLocationPath()
+    '''
 def LocationStep():
-'''public final void LocationStep(final ArrayList steps)
-'''
-pass
+    '''    public final void LocationStep(final ArrayList steps)
+    '''
 def NodeTest():
-'''public final void NodeTest(final ArrayList steps)
-'''
-pass
+    '''    public final void NodeTest(final ArrayList steps)
+    '''
 def AxisSpecifier():
-'''public final int AxisSpecifier()
-'''
-pass
+    '''    public final int AxisSpecifier()
+    '''
 def AxisName():
-'''public final int AxisName()
-'''
-pass
+    '''    public final int AxisName()
+    '''
 def Predicate():
-'''public final Object Predicate()
-'''
-pass
+    '''    public final Object Predicate()
+    '''
 def AbbreviatedAxisSpecifier():
-'''public final int AbbreviatedAxisSpecifier()
-'''
-pass
+    '''    public final int AbbreviatedAxisSpecifier()
+    '''
 def Expression():
-'''public final Object Expression()
-'''
-pass
+    '''    public final Object Expression()
+    '''
 def PrimaryExpr():
-'''public final Object PrimaryExpr()
-'''
-pass
+    '''    public final Object PrimaryExpr()
+    '''
 def FunctionCall():
-'''public final Object FunctionCall()
-'''
-pass
+    '''    public final Object FunctionCall()
+    '''
 def CoreFunctionCall():
-'''public final Object CoreFunctionCall()
-'''
-pass
+    '''    public final Object CoreFunctionCall()
+    '''
 def ArgumentList():
-'''public final ArrayList ArgumentList()
-'''
-pass
+    '''    public final ArrayList ArgumentList()
+    '''
 def Argument():
-'''public final Object Argument()
-'''
-pass
+    '''    public final Object Argument()
+    '''
 def UnionExpr():
-'''public final Object UnionExpr()
-'''
-pass
+    '''    public final Object UnionExpr()
+    '''
 def PathExpr():
-'''public final Object PathExpr()
-'''
-pass
+    '''    public final Object PathExpr()
+    '''
 def FilterExpr():
-'''public final Object FilterExpr()
-'''
-pass
+    '''    public final Object FilterExpr()
+    '''
 def OrExpr():
-'''public final Object OrExpr()
-'''
-pass
+    '''    public final Object OrExpr()
+    '''
 def AndExpr():
-'''public final Object AndExpr()
-'''
-pass
+    '''    public final Object AndExpr()
+    '''
 def EqualityExpr():
-'''public final Object EqualityExpr()
-'''
-pass
+    '''    public final Object EqualityExpr()
+    '''
 def RelationalExpr():
-'''public final Object RelationalExpr()
-'''
-pass
+    '''    public final Object RelationalExpr()
+    '''
 def AdditiveExpr():
-'''public final Object AdditiveExpr()
-'''
-pass
+    '''    public final Object AdditiveExpr()
+    '''
 def SubtractiveExpr():
-'''public final Object SubtractiveExpr()
-'''
-pass
+    '''    public final Object SubtractiveExpr()
+    '''
 def MultiplicativeExpr():
-'''public final Object MultiplicativeExpr()
-'''
-pass
+    '''    public final Object MultiplicativeExpr()
+    '''
 def UnaryExpr():
-'''public final Object UnaryExpr()
-'''
-pass
+    '''    public final Object UnaryExpr()
+    '''
 def FunctionName():
-'''public final Object FunctionName()
-'''
-pass
+    '''    public final Object FunctionName()
+    '''
 def VariableReference():
-'''public final Object VariableReference()
-'''
-pass
+    '''    public final Object VariableReference()
+    '''
 def WildcardName():
-'''public final Object WildcardName()
-'''
-pass
+    '''    public final Object WildcardName()
+    '''
 def NodeType():
-'''public final int NodeType()
-'''
-pass
+    '''    public final int NodeType()
+    '''
 def XPathParser():
-'''public XPathParser(final InputStream stream)
-public XPathParser(final Reader stream)
-public XPathParser(final XPathParserTokenManager tm)
-'''
-pass
+    '''    public XPathParser(final InputStream stream)
+    public XPathParser(final Reader stream)
+    public XPathParser(final XPathParserTokenManager tm)
+    '''
 def ReInit():
-'''public void ReInit(final InputStream stream)
-public void ReInit(final Reader stream)
-public void ReInit(final XPathParserTokenManager tm)
-'''
-pass
+    '''    public void ReInit(final InputStream stream)
+    public void ReInit(final Reader stream)
+    public void ReInit(final XPathParserTokenManager tm)
+    '''
 def getNextToken():
-'''public final Token getNextToken()
-'''
-pass
+    '''    public final Token getNextToken()
+    '''
 def getToken():
-'''public final Token getToken(final int index)
-'''
-pass
+    '''    public final Token getToken(final int index)
+    '''
 def generateParseException():
-'''public final ParseException generateParseException()
-'''
-pass
+    '''    public final ParseException generateParseException()
+    '''
 def enable_tracing():
-'''public final void enable_tracing()
-'''
-pass
+    '''    public final void enable_tracing()
+    '''
 def disable_tracing():
-'''public final void disable_tracing()
-'''
-pass
+    '''    public final void disable_tracing()
+    '''

@@ -1,8 +1,6 @@
 def FldTKAssetFilterBy():
-'''public FldTKAssetFilterBy(final MboValue mbv)
-'''
-pass
+    '''    public FldTKAssetFilterBy(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,12 +1,9 @@
 def SdkSSLMetricsSocket():
-'''public SdkSSLMetricsSocket(final SSLSocket sock)
-'''
-pass
+    '''    public SdkSSLMetricsSocket(final SSLSocket sock)
+    '''
 def setMetrics():
-'''public void setMetrics(final AWSRequestMetrics metrics)
-'''
-pass
+    '''    public void setMetrics(final AWSRequestMetrics metrics)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''

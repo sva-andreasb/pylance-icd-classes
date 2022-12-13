@@ -1,8 +1,6 @@
 def UnitConvertor():
-'''public UnitConvertor(final Class cls, final String attributeName, final String value)
-'''
-pass
+    '''    public UnitConvertor(final Class cls, final String attributeName, final String value)
+    '''
 def getValueInUnits():
-'''public String getValueInUnits()
-'''
-pass
+    '''    public String getValueInUnits()
+    '''

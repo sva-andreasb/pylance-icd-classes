@@ -1,4 +1,3 @@
 def ReportJobSet():
-'''public ReportJobSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReportJobSet(final MboServerInterface ms)
+    '''

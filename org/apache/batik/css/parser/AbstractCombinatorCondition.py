@@ -1,8 +1,6 @@
 def getFirstCondition():
-'''public Condition getFirstCondition()
-'''
-pass
+    '''    public Condition getFirstCondition()
+    '''
 def getSecondCondition():
-'''public Condition getSecondCondition()
-'''
-pass
+    '''    public Condition getSecondCondition()
+    '''

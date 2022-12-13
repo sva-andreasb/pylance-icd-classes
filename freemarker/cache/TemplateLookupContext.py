@@ -1,16 +1,12 @@
 def getTemplateName():
-'''public String getTemplateName()
-'''
-pass
+    '''    public String getTemplateName()
+    '''
 def getTemplateLocale():
-'''public Locale getTemplateLocale()
-'''
-pass
+    '''    public Locale getTemplateLocale()
+    '''
 def getCustomLookupCondition():
-'''public Object getCustomLookupCondition()
-'''
-pass
+    '''    public Object getCustomLookupCondition()
+    '''
 def createNegativeLookupResult():
-'''public TemplateLookupResult createNegativeLookupResult()
-'''
-pass
+    '''    public TemplateLookupResult createNegativeLookupResult()
+    '''

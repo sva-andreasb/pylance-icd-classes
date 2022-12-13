@@ -1,4 +1,3 @@
 def TAMITCustomerSet():
-'''public TAMITCustomerSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TAMITCustomerSet(final MboServerInterface ms)
+    '''

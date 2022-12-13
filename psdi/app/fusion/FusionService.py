@@ -1,5 +1,4 @@
 def FusionService():
-'''public FusionService()
-public FusionService(final MXServer mxServer)
-'''
-pass
+    '''    public FusionService()
+    public FusionService(final MXServer mxServer)
+    '''

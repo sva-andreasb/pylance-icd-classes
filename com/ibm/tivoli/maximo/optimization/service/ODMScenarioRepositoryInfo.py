@@ -1,60 +1,45 @@
 def ODMScenarioRepositoryInfo():
-'''public ODMScenarioRepositoryInfo()
-'''
-pass
+    '''    public ODMScenarioRepositoryInfo()
+    '''
 def getDatabaseType():
-'''public ODMScenarioDatabaseType getDatabaseType()
-'''
-pass
+    '''    public ODMScenarioDatabaseType getDatabaseType()
+    '''
 def setDatabaseType():
-'''public void setDatabaseType(final ODMScenarioDatabaseType databaseType)
-'''
-pass
+    '''    public void setDatabaseType(final ODMScenarioDatabaseType databaseType)
+    '''
 def getDatabaseHostName():
-'''public String getDatabaseHostName()
-'''
-pass
+    '''    public String getDatabaseHostName()
+    '''
 def setDatabaseHostName():
-'''public void setDatabaseHostName(final String databaseHostName)
-'''
-pass
+    '''    public void setDatabaseHostName(final String databaseHostName)
+    '''
 def getDatabasePort():
-'''public Integer getDatabasePort()
-'''
-pass
+    '''    public Integer getDatabasePort()
+    '''
 def setDatabasePort():
-'''public void setDatabasePort(final Integer databasePort)
-'''
-pass
+    '''    public void setDatabasePort(final Integer databasePort)
+    '''
 def getDatabaseInstanceName():
-'''public String getDatabaseInstanceName()
-'''
-pass
+    '''    public String getDatabaseInstanceName()
+    '''
 def setDatabaseInstanceName():
-'''public void setDatabaseInstanceName(final String databaseInstanceName)
-'''
-pass
+    '''    public void setDatabaseInstanceName(final String databaseInstanceName)
+    '''
 def getSchemaUserName():
-'''public String getSchemaUserName()
-'''
-pass
+    '''    public String getSchemaUserName()
+    '''
 def setSchemaUserName():
-'''public void setSchemaUserName(final String schemaUserName)
-'''
-pass
+    '''    public void setSchemaUserName(final String schemaUserName)
+    '''
 def getSchemaUserPassword():
-'''public String getSchemaUserPassword()
-'''
-pass
+    '''    public String getSchemaUserPassword()
+    '''
 def setSchemaUserPassword():
-'''public void setSchemaUserPassword(final String schemaUserPassword)
-'''
-pass
+    '''    public void setSchemaUserPassword(final String schemaUserPassword)
+    '''
 def getValidateDatabaseConnection():
-'''public Boolean getValidateDatabaseConnection()
-'''
-pass
+    '''    public Boolean getValidateDatabaseConnection()
+    '''
 def setValidateDatabaseConnection():
-'''public void setValidateDatabaseConnection(final Boolean setValidateDatabaseConnection)
-'''
-pass
+    '''    public void setValidateDatabaseConnection(final Boolean setValidateDatabaseConnection)
+    '''

@@ -1,4 +1,3 @@
 def convertToXmlByteArray():
-'''public byte[] convertToXmlByteArray(final RequestPaymentConfiguration requestPaymentConfiguration)
-'''
-pass
+    '''    public byte[] convertToXmlByteArray(final RequestPaymentConfiguration requestPaymentConfiguration)
+    '''

@@ -1,52 +1,39 @@
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String o)
-'''
-pass
+    '''    public void setValue(final String o)
+    '''
 def getValueType():
-'''public String getValueType()
-'''
-pass
+    '''    public String getValueType()
+    '''
 def setValueType():
-'''public void setValueType(final String n)
-'''
-pass
+    '''    public void setValueType(final String n)
+    '''
 def getMboTbName():
-'''public String getMboTbName()
-'''
-pass
+    '''    public String getMboTbName()
+    '''
 def setMboTbName():
-'''public void setMboTbName(final String n)
-'''
-pass
+    '''    public void setMboTbName(final String n)
+    '''
 def getFieldName():
-'''public String getFieldName()
-'''
-pass
+    '''    public String getFieldName()
+    '''
 def setFieldName():
-'''public void setFieldName(final String n)
-'''
-pass
+    '''    public void setFieldName(final String n)
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def setRelation():
-'''public void setRelation(final String n)
-'''
-pass
+    '''    public void setRelation(final String n)
+    '''
 def setReplaceNull():
-'''public void setReplaceNull(final int tr)
-'''
-pass
+    '''    public void setReplaceNull(final int tr)
+    '''
 def isReplaceNull():
-'''public boolean isReplaceNull()
-'''
-pass
+    '''    public boolean isReplaceNull()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

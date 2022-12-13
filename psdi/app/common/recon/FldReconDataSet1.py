@@ -1,16 +1,12 @@
 def FldReconDataSet1():
-'''public FldReconDataSet1(final MboValue mbv)
-'''
-pass
+    '''    public FldReconDataSet1(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,16 +1,12 @@
 def getComponentType():
-'''public String getComponentType()
-'''
-pass
+    '''    public String getComponentType()
+    '''
 def getRendererType():
-'''public String getRendererType()
-'''
-pass
+    '''    public String getRendererType()
+    '''
 def getFilename():
-'''public String getFilename()
-'''
-pass
+    '''    public String getFilename()
+    '''
 def setFilename():
-'''public void setFilename(final String a)
-'''
-pass
+    '''    public void setFilename(final String a)
+    '''

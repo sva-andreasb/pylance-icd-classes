@@ -1,8 +1,6 @@
 def FldShiftpatterndayDescription():
-'''public FldShiftpatterndayDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldShiftpatterndayDescription(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,8 +1,6 @@
 def hasChanged():
-'''public boolean hasChanged()
-'''
-pass
+    '''    public boolean hasChanged()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''

@@ -1,88 +1,66 @@
 def getControl():
-'''public Object getControl()
-'''
-pass
+    '''    public Object getControl()
+    '''
 def setControl():
-'''public void setControl(final Object o)
-'''
-pass
+    '''    public void setControl(final Object o)
+    '''
 def addChild():
-'''public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
-'''
-pass
+    '''    public void addChild(final AbstractControlNode abstractControlNode, final Object o, final int n)
+    '''
 def removeChild():
-'''public boolean removeChild(final AbstractControlNode abstractControlNode)
-'''
-pass
+    '''    public boolean removeChild(final AbstractControlNode abstractControlNode)
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def putProperty():
-'''public void putProperty(final String s, Object o, final IlvServicesProvider ilvServicesProvider)
-'''
-pass
+    '''    public void putProperty(final String s, Object o, final IlvServicesProvider ilvServicesProvider)
+    '''
 def setEnabled():
-'''public void setEnabled(final boolean enabled)
-'''
-pass
+    '''    public void setEnabled(final boolean enabled)
+    '''
 def isEnabled():
-'''public boolean isEnabled()
-'''
-pass
+    '''    public boolean isEnabled()
+    '''
 def getBounds():
-'''public Rectangle getBounds()
-'''
-pass
+    '''    public Rectangle getBounds()
+    '''
 def setBounds():
-'''public void setBounds(final Rectangle bounds)
-'''
-pass
+    '''    public void setBounds(final Rectangle bounds)
+    '''
 def getPreferredSize():
-'''public Dimension getPreferredSize()
-'''
-pass
+    '''    public Dimension getPreferredSize()
+    '''
 def setPreferredSize():
-'''public void setPreferredSize(final Dimension preferredSize)
-'''
-pass
+    '''    public void setPreferredSize(final Dimension preferredSize)
+    '''
 def getMinimumSize():
-'''public Dimension getMinimumSize()
-'''
-pass
+    '''    public Dimension getMinimumSize()
+    '''
 def setMinimumSize():
-'''public void setMinimumSize(final Dimension minimumSize)
-'''
-pass
+    '''    public void setMinimumSize(final Dimension minimumSize)
+    '''
 def getMaximumSize():
-'''public Dimension getMaximumSize()
-'''
-pass
+    '''    public Dimension getMaximumSize()
+    '''
 def setMaximumSize():
-'''public void setMaximumSize(final Dimension maximumSize)
-'''
-pass
+    '''    public void setMaximumSize(final Dimension maximumSize)
+    '''
 def isLocaleDependentProperty():
-'''public boolean isLocaleDependentProperty(final String s)
-'''
-pass
+    '''    public boolean isLocaleDependentProperty(final String s)
+    '''
 def FormActionListener():
-'''public FormActionListener(final ActivationListener a)
-'''
-pass
+    '''    public FormActionListener(final ActivationListener a)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''
 def SwingFocusListener():
-'''public SwingFocusListener(final ilog.views.appframe.form.events.FocusListener a)
-'''
-pass
+    '''    public SwingFocusListener(final ilog.views.appframe.form.events.FocusListener a)
+    '''
 def focusGained():
-'''public void focusGained(final FocusEvent focusEvent)
-'''
-pass
+    '''    public void focusGained(final FocusEvent focusEvent)
+    '''
 def focusLost():
-'''public void focusLost(final FocusEvent focusEvent)
-'''
-pass
+    '''    public void focusLost(final FocusEvent focusEvent)
+    '''

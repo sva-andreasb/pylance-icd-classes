@@ -1,24 +1,18 @@
 def pushbackIterator():
-'''public static <E> PushbackIterator<E> pushbackIterator(final Iterator<? extends E> iterator)
-'''
-pass
+    '''    public static <E> PushbackIterator<E> pushbackIterator(final Iterator<? extends E> iterator)
+    '''
 def PushbackIterator():
-'''public PushbackIterator(final Iterator<? extends E> iterator)
-'''
-pass
+    '''    public PushbackIterator(final Iterator<? extends E> iterator)
+    '''
 def pushback():
-'''public void pushback(final E item)
-'''
-pass
+    '''    public void pushback(final E item)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public E next()
-'''
-pass
+    '''    public E next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

@@ -1,25 +1,19 @@
 def SaslClientAuthenticator():
-'''public SaslClientAuthenticator(final Map<String, ?> configs, final String node, final Subject subject, final String servicePrincipal, final String host, final String mechanism, final boolean handshakeRequestEnable, final TransportLayer transportLayer)
-'''
-pass
+    '''    public SaslClientAuthenticator(final Map<String, ?> configs, final String node, final Subject subject, final String servicePrincipal, final String host, final String mechanism, final boolean handshakeRequestEnable, final TransportLayer transportLayer)
+    '''
 def run():
-'''public SaslClient run()
-public byte[] run()
-'''
-pass
+    '''    public SaslClient run()
+    public byte[] run()
+    '''
 def authenticate():
-'''public void authenticate()
-'''
-pass
+    '''    public void authenticate()
+    '''
 def principal():
-'''public KafkaPrincipal principal()
-'''
-pass
+    '''    public KafkaPrincipal principal()
+    '''
 def complete():
-'''public boolean complete()
-'''
-pass
+    '''    public boolean complete()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

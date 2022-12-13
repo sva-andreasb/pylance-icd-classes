@@ -1,12 +1,9 @@
 def TMenu():
-'''public TMenu()
-'''
-pass
+    '''    public TMenu()
+    '''
 def newItem():
-'''public TMenuItem newItem(final String title, final String actionName)
-'''
-pass
+    '''    public TMenuItem newItem(final String title, final String actionName)
+    '''
 def newSepartor():
-'''public void newSepartor()
-'''
-pass
+    '''    public void newSepartor()
+    '''

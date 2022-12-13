@@ -1,16 +1,12 @@
 def getAllValidKeys():
-'''public static JlmKey[] getAllValidKeys()
-'''
-pass
+    '''    public static JlmKey[] getAllValidKeys()
+    '''
 def prettyProductName():
-'''public static String prettyProductName(String str)
-'''
-pass
+    '''    public static String prettyProductName(String str)
+    '''
 def prettyVersionName():
-'''public static String prettyVersionName(final double number)
-'''
-pass
+    '''    public static String prettyVersionName(final double number)
+    '''
 def getEvalDaysLeft():
-'''public static int getEvalDaysLeft()
-'''
-pass
+    '''    public static int getEvalDaysLeft()
+    '''

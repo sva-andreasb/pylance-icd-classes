@@ -1,17 +1,13 @@
 def Ps():
-'''public Ps(final IOException a)
-public Ps()
-'''
-pass
+    '''    public Ps(final IOException a)
+    public Ps()
+    '''
 def write():
-'''public void write(final int b)
-'''
-pass
+    '''    public void write(final int b)
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

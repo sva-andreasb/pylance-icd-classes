@@ -1,36 +1,27 @@
 def DiscussionHistory():
-'''public DiscussionHistory()
-'''
-pass
+    '''    public DiscussionHistory()
+    '''
 def getMaxChars():
-'''public int getMaxChars()
-'''
-pass
+    '''    public int getMaxChars()
+    '''
 def getMaxStanzas():
-'''public int getMaxStanzas()
-'''
-pass
+    '''    public int getMaxStanzas()
+    '''
 def getSeconds():
-'''public int getSeconds()
-'''
-pass
+    '''    public int getSeconds()
+    '''
 def getSince():
-'''public Date getSince()
-'''
-pass
+    '''    public Date getSince()
+    '''
 def setMaxChars():
-'''public void setMaxChars(final int maxChars)
-'''
-pass
+    '''    public void setMaxChars(final int maxChars)
+    '''
 def setMaxStanzas():
-'''public void setMaxStanzas(final int maxStanzas)
-'''
-pass
+    '''    public void setMaxStanzas(final int maxStanzas)
+    '''
 def setSeconds():
-'''public void setSeconds(final int seconds)
-'''
-pass
+    '''    public void setSeconds(final int seconds)
+    '''
 def setSince():
-'''public void setSince(final Date since)
-'''
-pass
+    '''    public void setSince(final Date since)
+    '''

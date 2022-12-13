@@ -1,16 +1,12 @@
 def SKDAssignRecordsBean():
-'''public SKDAssignRecordsBean()
-'''
-pass
+    '''    public SKDAssignRecordsBean()
+    '''
 def getRemoteForDownload():
-'''public MboSetRemote getRemoteForDownload()
-'''
-pass
+    '''    public MboSetRemote getRemoteForDownload()
+    '''
 def filterByError():
-'''public void filterByError(final String valMsg)
-'''
-pass
+    '''    public void filterByError(final String valMsg)
+    '''
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''

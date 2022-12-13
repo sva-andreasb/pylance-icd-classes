@@ -1,4 +1,3 @@
 def isSyncCallSafe():
-'''public static boolean isSyncCallSafe(final ProgressListener listener)
-'''
-pass
+    '''    public static boolean isSyncCallSafe(final ProgressListener listener)
+    '''

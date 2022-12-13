@@ -1,13 +1,10 @@
 def getTargetException():
-'''public RuntimeException getTargetException()
-'''
-pass
+    '''    public RuntimeException getTargetException()
+    '''
 def RuntimeMBeanException():
-'''public RuntimeMBeanException(final RuntimeException runtimeException)
-public RuntimeMBeanException(final RuntimeException runtimeException, final String s)
-'''
-pass
+    '''    public RuntimeMBeanException(final RuntimeException runtimeException)
+    public RuntimeMBeanException(final RuntimeException runtimeException, final String s)
+    '''
 def getCause():
-'''public Throwable getCause()
-'''
-pass
+    '''    public Throwable getCause()
+    '''

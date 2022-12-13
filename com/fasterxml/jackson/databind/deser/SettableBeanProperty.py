@@ -1,169 +1,130 @@
 def withSimpleName():
-'''public SettableBeanProperty withSimpleName(final String simpleName)
-'''
-pass
+    '''    public SettableBeanProperty withSimpleName(final String simpleName)
+    '''
 def setManagedReferenceName():
-'''public void setManagedReferenceName(final String n)
-'''
-pass
+    '''    public void setManagedReferenceName(final String n)
+    '''
 def setObjectIdInfo():
-'''public void setObjectIdInfo(final ObjectIdInfo objectIdInfo)
-'''
-pass
+    '''    public void setObjectIdInfo(final ObjectIdInfo objectIdInfo)
+    '''
 def setViews():
-'''public void setViews(final Class<?>[] views)
-'''
-pass
+    '''    public void setViews(final Class<?>[] views)
+    '''
 def assignIndex():
-'''public void assignIndex(final int index)
-public void assignIndex(final int index)
-'''
-pass
+    '''    public void assignIndex(final int index)
+    public void assignIndex(final int index)
+    '''
 def fixAccess():
-'''public void fixAccess(final DeserializationConfig config)
-public void fixAccess(final DeserializationConfig config)
-'''
-pass
+    '''    public void fixAccess(final DeserializationConfig config)
+    public void fixAccess(final DeserializationConfig config)
+    '''
 def markAsIgnorable():
-'''public void markAsIgnorable()
-'''
-pass
+    '''    public void markAsIgnorable()
+    '''
 def isIgnorable():
-'''public boolean isIgnorable()
-'''
-pass
+    '''    public boolean isIgnorable()
+    '''
 def getName():
-'''public final String getName()
-'''
-pass
+    '''    public final String getName()
+    '''
 def getFullName():
-'''public PropertyName getFullName()
-'''
-pass
+    '''    public PropertyName getFullName()
+    '''
 def getType():
-'''public JavaType getType()
-'''
-pass
+    '''    public JavaType getType()
+    '''
 def getWrapperName():
-'''public PropertyName getWrapperName()
-'''
-pass
+    '''    public PropertyName getWrapperName()
+    '''
 def getContextAnnotation():
-'''public <A extends Annotation> A getContextAnnotation(final Class<A> acls)
-'''
-pass
+    '''    public <A extends Annotation> A getContextAnnotation(final Class<A> acls)
+    '''
 def depositSchemaProperty():
-'''public void depositSchemaProperty(final JsonObjectFormatVisitor objectVisitor, final SerializerProvider provider)
-'''
-pass
+    '''    public void depositSchemaProperty(final JsonObjectFormatVisitor objectVisitor, final SerializerProvider provider)
+    '''
 def getManagedReferenceName():
-'''public String getManagedReferenceName()
-public String getManagedReferenceName()
-'''
-pass
+    '''    public String getManagedReferenceName()
+    public String getManagedReferenceName()
+    '''
 def getObjectIdInfo():
-'''public ObjectIdInfo getObjectIdInfo()
-public ObjectIdInfo getObjectIdInfo()
-'''
-pass
+    '''    public ObjectIdInfo getObjectIdInfo()
+    public ObjectIdInfo getObjectIdInfo()
+    '''
 def hasValueDeserializer():
-'''public boolean hasValueDeserializer()
-public boolean hasValueDeserializer()
-'''
-pass
+    '''    public boolean hasValueDeserializer()
+    public boolean hasValueDeserializer()
+    '''
 def hasValueTypeDeserializer():
-'''public boolean hasValueTypeDeserializer()
-public boolean hasValueTypeDeserializer()
-'''
-pass
+    '''    public boolean hasValueTypeDeserializer()
+    public boolean hasValueTypeDeserializer()
+    '''
 def getValueDeserializer():
-'''public JsonDeserializer<Object> getValueDeserializer()
-public JsonDeserializer<Object> getValueDeserializer()
-'''
-pass
+    '''    public JsonDeserializer<Object> getValueDeserializer()
+    public JsonDeserializer<Object> getValueDeserializer()
+    '''
 def getValueTypeDeserializer():
-'''public TypeDeserializer getValueTypeDeserializer()
-public TypeDeserializer getValueTypeDeserializer()
-'''
-pass
+    '''    public TypeDeserializer getValueTypeDeserializer()
+    public TypeDeserializer getValueTypeDeserializer()
+    '''
 def getNullValueProvider():
-'''public NullValueProvider getNullValueProvider()
-'''
-pass
+    '''    public NullValueProvider getNullValueProvider()
+    '''
 def visibleInView():
-'''public boolean visibleInView(final Class<?> activeView)
-public boolean visibleInView(final Class<?> activeView)
-'''
-pass
+    '''    public boolean visibleInView(final Class<?> activeView)
+    public boolean visibleInView(final Class<?> activeView)
+    '''
 def hasViews():
-'''public boolean hasViews()
-public boolean hasViews()
-'''
-pass
+    '''    public boolean hasViews()
+    public boolean hasViews()
+    '''
 def getPropertyIndex():
-'''public int getPropertyIndex()
-public int getPropertyIndex()
-'''
-pass
+    '''    public int getPropertyIndex()
+    public int getPropertyIndex()
+    '''
 def getCreatorIndex():
-'''public int getCreatorIndex()
-public int getCreatorIndex()
-'''
-pass
+    '''    public int getCreatorIndex()
+    public int getCreatorIndex()
+    '''
 def getInjectableValueId():
-'''public Object getInjectableValueId()
-public Object getInjectableValueId()
-'''
-pass
+    '''    public Object getInjectableValueId()
+    public Object getInjectableValueId()
+    '''
 def deserialize():
-'''public final Object deserialize(final JsonParser p, final DeserializationContext ctxt)
-'''
-pass
+    '''    public final Object deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''
 def deserializeWith():
-'''public final Object deserializeWith(final JsonParser p, final DeserializationContext ctxt, final Object toUpdate)
-'''
-pass
+    '''    public final Object deserializeWith(final JsonParser p, final DeserializationContext ctxt, final Object toUpdate)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def withValueDeserializer():
-'''public SettableBeanProperty withValueDeserializer(final JsonDeserializer<?> deser)
-'''
-pass
+    '''    public SettableBeanProperty withValueDeserializer(final JsonDeserializer<?> deser)
+    '''
 def withName():
-'''public SettableBeanProperty withName(final PropertyName newName)
-'''
-pass
+    '''    public SettableBeanProperty withName(final PropertyName newName)
+    '''
 def withNullProvider():
-'''public SettableBeanProperty withNullProvider(final NullValueProvider nva)
-'''
-pass
+    '''    public SettableBeanProperty withNullProvider(final NullValueProvider nva)
+    '''
 def getMember():
-'''public AnnotatedMember getMember()
-'''
-pass
+    '''    public AnnotatedMember getMember()
+    '''
 def getAnnotation():
-'''public <A extends Annotation> A getAnnotation(final Class<A> acls)
-'''
-pass
+    '''    public <A extends Annotation> A getAnnotation(final Class<A> acls)
+    '''
 def getDelegate():
-'''public SettableBeanProperty getDelegate()
-'''
-pass
+    '''    public SettableBeanProperty getDelegate()
+    '''
 def deserializeAndSet():
-'''public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
-'''
-pass
+    '''    public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''
 def deserializeSetAndReturn():
-'''public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
-'''
-pass
+    '''    public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''
 def set():
-'''public void set(final Object instance, final Object value)
-'''
-pass
+    '''    public void set(final Object instance, final Object value)
+    '''
 def setAndReturn():
-'''public Object setAndReturn(final Object instance, final Object value)
-'''
-pass
+    '''    public Object setAndReturn(final Object instance, final Object value)
+    '''

@@ -1,4 +1,3 @@
 def TenantStagingSet():
-'''public TenantStagingSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TenantStagingSet(final MboServerInterface ms)
+    '''

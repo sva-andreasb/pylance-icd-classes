@@ -1,4 +1,3 @@
 def CsrfToken():
-'''public CsrfToken(final MboSet ms)
-'''
-pass
+    '''    public CsrfToken(final MboSet ms)
+    '''

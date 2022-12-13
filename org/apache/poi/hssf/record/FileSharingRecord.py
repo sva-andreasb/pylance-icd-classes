@@ -1,46 +1,35 @@
 sid = "short  91"
 def FileSharingRecord():
-'''public FileSharingRecord()
-public FileSharingRecord(final RecordInputStream in)
-'''
-pass
+    '''    public FileSharingRecord()
+    public FileSharingRecord(final RecordInputStream in)
+    '''
 def setReadOnly():
-'''public void setReadOnly(final short readonly)
-'''
-pass
+    '''    public void setReadOnly(final short readonly)
+    '''
 def getReadOnly():
-'''public short getReadOnly()
-'''
-pass
+    '''    public short getReadOnly()
+    '''
 def setPassword():
-'''public void setPassword(final short password)
-'''
-pass
+    '''    public void setPassword(final short password)
+    '''
 def getPassword():
-'''public short getPassword()
-'''
-pass
+    '''    public short getPassword()
+    '''
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''
 def setUsername():
-'''public void setUsername(final String username)
-'''
-pass
+    '''    public void setUsername(final String username)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public FileSharingRecord clone()
-'''
-pass
+    '''    public FileSharingRecord clone()
+    '''

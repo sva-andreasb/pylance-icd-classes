@@ -1,28 +1,21 @@
 def AbstractMapIteratorDecorator():
-'''public AbstractMapIteratorDecorator(final MapIterator<K, V> iterator)
-'''
-pass
+    '''    public AbstractMapIteratorDecorator(final MapIterator<K, V> iterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public K next()
-'''
-pass
+    '''    public K next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getKey():
-'''public K getKey()
-'''
-pass
+    '''    public K getKey()
+    '''
 def getValue():
-'''public V getValue()
-'''
-pass
+    '''    public V getValue()
+    '''
 def setValue():
-'''public V setValue(final V obj)
-'''
-pass
+    '''    public V setValue(final V obj)
+    '''

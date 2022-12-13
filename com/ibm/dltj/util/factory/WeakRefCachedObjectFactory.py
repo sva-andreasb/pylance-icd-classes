@@ -1,12 +1,9 @@
 def WeakRefCachedObjectFactory():
-'''public WeakRefCachedObjectFactory()
-'''
-pass
+    '''    public WeakRefCachedObjectFactory()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def getInstance():
-'''public Object getInstance(final Object o)
-'''
-pass
+    '''    public Object getInstance(final Object o)
+    '''

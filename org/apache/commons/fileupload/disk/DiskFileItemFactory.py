@@ -1,42 +1,32 @@
 DEFAULT_SIZE_THRESHOLD = "int  10240"
 def DiskFileItemFactory():
-'''public DiskFileItemFactory()
-public DiskFileItemFactory(final int sizeThreshold, final File repository)
-'''
-pass
+    '''    public DiskFileItemFactory()
+    public DiskFileItemFactory(final int sizeThreshold, final File repository)
+    '''
 def getRepository():
-'''public File getRepository()
-'''
-pass
+    '''    public File getRepository()
+    '''
 def setRepository():
-'''public void setRepository(final File repository)
-'''
-pass
+    '''    public void setRepository(final File repository)
+    '''
 def getSizeThreshold():
-'''public int getSizeThreshold()
-'''
-pass
+    '''    public int getSizeThreshold()
+    '''
 def setSizeThreshold():
-'''public void setSizeThreshold(final int sizeThreshold)
-'''
-pass
+    '''    public void setSizeThreshold(final int sizeThreshold)
+    '''
 def createItem():
-'''public FileItem createItem(final String fieldName, final String contentType, final boolean isFormField, final String fileName)
-'''
-pass
+    '''    public FileItem createItem(final String fieldName, final String contentType, final boolean isFormField, final String fileName)
+    '''
 def getFileCleaningTracker():
-'''public FileCleaningTracker getFileCleaningTracker()
-'''
-pass
+    '''    public FileCleaningTracker getFileCleaningTracker()
+    '''
 def setFileCleaningTracker():
-'''public void setFileCleaningTracker(final FileCleaningTracker pTracker)
-'''
-pass
+    '''    public void setFileCleaningTracker(final FileCleaningTracker pTracker)
+    '''
 def getDefaultCharset():
-'''public String getDefaultCharset()
-'''
-pass
+    '''    public String getDefaultCharset()
+    '''
 def setDefaultCharset():
-'''public void setDefaultCharset(final String pCharset)
-'''
-pass
+    '''    public void setDefaultCharset(final String pCharset)
+    '''

@@ -1,8 +1,6 @@
 def BooleanHolder():
-'''public BooleanHolder()
-'''
-pass
+    '''    public BooleanHolder()
+    '''
 def set():
-'''public void set(final Boolean value)
-'''
-pass
+    '''    public void set(final Boolean value)
+    '''

@@ -1,12 +1,9 @@
 def HostedRoom():
-'''public HostedRoom(final DiscoverItems.Item item)
-'''
-pass
+    '''    public HostedRoom(final DiscoverItems.Item item)
+    '''
 def getJid():
-'''public EntityBareJid getJid()
-'''
-pass
+    '''    public EntityBareJid getJid()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

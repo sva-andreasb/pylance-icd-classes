@@ -1,48 +1,36 @@
 def CreateReportSummaryInfo():
-'''public CreateReportSummaryInfo()
-'''
-pass
+    '''    public CreateReportSummaryInfo()
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final int order)
-'''
-pass
+    '''    public void setOrder(final int order)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getDataType():
-'''public String getDataType()
-'''
-pass
+    '''    public String getDataType()
+    '''
 def setDataType():
-'''public void setDataType(final String dataType)
-'''
-pass
+    '''    public void setDataType(final String dataType)
+    '''
 def getFunction():
-'''public String getFunction()
-'''
-pass
+    '''    public String getFunction()
+    '''
 def setFunction():
-'''public void setFunction(final String function)
-'''
-pass
+    '''    public void setFunction(final String function)
+    '''
 def getColumnBindingName():
-'''public String getColumnBindingName()
-'''
-pass
+    '''    public String getColumnBindingName()
+    '''
 def setColumnBindingName():
-'''public void setColumnBindingName(final String columnBindingName)
-'''
-pass
+    '''    public void setColumnBindingName(final String columnBindingName)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

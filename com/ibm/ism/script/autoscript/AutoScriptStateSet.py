@@ -1,12 +1,9 @@
 def AutoScriptStateSet():
-'''public AutoScriptStateSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AutoScriptStateSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

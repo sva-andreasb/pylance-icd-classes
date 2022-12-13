@@ -1,16 +1,12 @@
 def WebSocketHandler():
-'''public WebSocketHandler()
-'''
-pass
+    '''    public WebSocketHandler()
+    '''
 def getWebSocketFactory():
-'''public WebSocketFactory getWebSocketFactory()
-'''
-pass
+    '''    public WebSocketFactory getWebSocketFactory()
+    '''
 def handle():
-'''public void handle(final String target, final Request baseRequest, final HttpServletRequest request, final HttpServletResponse response)
-'''
-pass
+    '''    public void handle(final String target, final Request baseRequest, final HttpServletRequest request, final HttpServletResponse response)
+    '''
 def checkOrigin():
-'''public boolean checkOrigin(final HttpServletRequest request, final String origin)
-'''
-pass
+    '''    public boolean checkOrigin(final HttpServletRequest request, final String origin)
+    '''

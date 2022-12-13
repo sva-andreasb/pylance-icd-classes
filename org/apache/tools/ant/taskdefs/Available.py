@@ -1,78 +1,59 @@
 def Available():
-'''public Available()
-'''
-pass
+    '''    public Available()
+    '''
 def setSearchParents():
-'''public void setSearchParents(final boolean searchParents)
-'''
-pass
+    '''    public void setSearchParents(final boolean searchParents)
+    '''
 def setClasspath():
-'''public void setClasspath(final Path classpath)
-'''
-pass
+    '''    public void setClasspath(final Path classpath)
+    '''
 def createClasspath():
-'''public Path createClasspath()
-'''
-pass
+    '''    public Path createClasspath()
+    '''
 def setClasspathRef():
-'''public void setClasspathRef(final Reference r)
-'''
-pass
+    '''    public void setClasspathRef(final Reference r)
+    '''
 def setFilepath():
-'''public void setFilepath(final Path filepath)
-'''
-pass
+    '''    public void setFilepath(final Path filepath)
+    '''
 def createFilepath():
-'''public Path createFilepath()
-'''
-pass
+    '''    public Path createFilepath()
+    '''
 def setProperty():
-'''public void setProperty(final String property)
-'''
-pass
+    '''    public void setProperty(final String property)
+    '''
 def setValue():
-'''public void setValue(final Object value)
-public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    public void setValue(final String value)
+    '''
 def setClassname():
-'''public void setClassname(final String classname)
-'''
-pass
+    '''    public void setClassname(final String classname)
+    '''
 def setFile():
-'''public void setFile(final File file)
-'''
-pass
+    '''    public void setFile(final File file)
+    '''
 def setResource():
-'''public void setResource(final String resource)
-'''
-pass
+    '''    public void setResource(final String resource)
+    '''
 def setType():
-'''public void setType(final String type)
-public void setType(final FileDir type)
-'''
-pass
+    '''    public void setType(final String type)
+    public void setType(final FileDir type)
+    '''
 def setIgnoresystemclasses():
-'''public void setIgnoresystemclasses(final boolean ignore)
-'''
-pass
+    '''    public void setIgnoresystemclasses(final boolean ignore)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def eval():
-'''public boolean eval()
-'''
-pass
+    '''    public boolean eval()
+    '''
 def getValues():
-'''public String[] getValues()
-'''
-pass
+    '''    public String[] getValues()
+    '''
 def isDir():
-'''public boolean isDir()
-'''
-pass
+    '''    public boolean isDir()
+    '''
 def isFile():
-'''public boolean isFile()
-'''
-pass
+    '''    public boolean isFile()
+    '''

@@ -1,42 +1,32 @@
 def SimpleHttpConnectionManager():
-'''public SimpleHttpConnectionManager(final boolean alwaysClose)
-public SimpleHttpConnectionManager()
-'''
-pass
+    '''    public SimpleHttpConnectionManager(final boolean alwaysClose)
+    public SimpleHttpConnectionManager()
+    '''
 def getConnection():
-'''public HttpConnection getConnection(final HostConfiguration hostConfiguration)
-public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
-'''
-pass
+    '''    public HttpConnection getConnection(final HostConfiguration hostConfiguration)
+    public HttpConnection getConnection(final HostConfiguration hostConfiguration, final long timeout)
+    '''
 def isConnectionStaleCheckingEnabled():
-'''public boolean isConnectionStaleCheckingEnabled()
-'''
-pass
+    '''    public boolean isConnectionStaleCheckingEnabled()
+    '''
 def setConnectionStaleCheckingEnabled():
-'''public void setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)
-'''
-pass
+    '''    public void setConnectionStaleCheckingEnabled(final boolean connectionStaleCheckingEnabled)
+    '''
 def getConnectionWithTimeout():
-'''public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
-'''
-pass
+    '''    public HttpConnection getConnectionWithTimeout(final HostConfiguration hostConfiguration, final long timeout)
+    '''
 def releaseConnection():
-'''public void releaseConnection(final HttpConnection conn)
-'''
-pass
+    '''    public void releaseConnection(final HttpConnection conn)
+    '''
 def getParams():
-'''public HttpConnectionManagerParams getParams()
-'''
-pass
+    '''    public HttpConnectionManagerParams getParams()
+    '''
 def setParams():
-'''public void setParams(final HttpConnectionManagerParams params)
-'''
-pass
+    '''    public void setParams(final HttpConnectionManagerParams params)
+    '''
 def closeIdleConnections():
-'''public void closeIdleConnections(final long idleTimeout)
-'''
-pass
+    '''    public void closeIdleConnections(final long idleTimeout)
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''

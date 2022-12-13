@@ -1,62 +1,48 @@
 DEFAULT_TIME_SKEW_SECONDS = "long  300L"
 def IdTokenVerifier():
-'''public IdTokenVerifier()
-'''
-pass
+    '''    public IdTokenVerifier()
+    '''
 def getClock():
-'''public final Clock getClock()
-public final Clock getClock()
-'''
-pass
+    '''    public final Clock getClock()
+    public final Clock getClock()
+    '''
 def getAcceptableTimeSkewSeconds():
-'''public final long getAcceptableTimeSkewSeconds()
-public final long getAcceptableTimeSkewSeconds()
-'''
-pass
+    '''    public final long getAcceptableTimeSkewSeconds()
+    public final long getAcceptableTimeSkewSeconds()
+    '''
 def getIssuer():
-'''public final String getIssuer()
-public final String getIssuer()
-'''
-pass
+    '''    public final String getIssuer()
+    public final String getIssuer()
+    '''
 def getIssuers():
-'''public final Collection<String> getIssuers()
-public final Collection<String> getIssuers()
-'''
-pass
+    '''    public final Collection<String> getIssuers()
+    public final Collection<String> getIssuers()
+    '''
 def getAudience():
-'''public final Collection<String> getAudience()
-public final Collection<String> getAudience()
-'''
-pass
+    '''    public final Collection<String> getAudience()
+    public final Collection<String> getAudience()
+    '''
 def verify():
-'''public boolean verify(final IdToken idToken)
-'''
-pass
+    '''    public boolean verify(final IdToken idToken)
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def build():
-'''public IdTokenVerifier build()
-'''
-pass
+    '''    public IdTokenVerifier build()
+    '''
 def setClock():
-'''public Builder setClock(final Clock clock)
-'''
-pass
+    '''    public Builder setClock(final Clock clock)
+    '''
 def setIssuer():
-'''public Builder setIssuer(final String issuer)
-'''
-pass
+    '''    public Builder setIssuer(final String issuer)
+    '''
 def setIssuers():
-'''public Builder setIssuers(final Collection<String> issuers)
-'''
-pass
+    '''    public Builder setIssuers(final Collection<String> issuers)
+    '''
 def setAudience():
-'''public Builder setAudience(final Collection<String> audience)
-'''
-pass
+    '''    public Builder setAudience(final Collection<String> audience)
+    '''
 def setAcceptableTimeSkewSeconds():
-'''public Builder setAcceptableTimeSkewSeconds(final long acceptableTimeSkewSeconds)
-'''
-pass
+    '''    public Builder setAcceptableTimeSkewSeconds(final long acceptableTimeSkewSeconds)
+    '''

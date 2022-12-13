@@ -1,77 +1,58 @@
 def getInstanceFor():
-'''public static synchronized MultiUserChatManager getInstanceFor(final XMPPConnection connection)
-'''
-pass
+    '''    public static synchronized MultiUserChatManager getInstanceFor(final XMPPConnection connection)
+    '''
 def processStanza():
-'''public void processStanza(final Stanza packet)
-'''
-pass
+    '''    public void processStanza(final Stanza packet)
+    '''
 def authenticated():
-'''public void authenticated(final XMPPConnection connection, final boolean resumed)
-'''
-pass
+    '''    public void authenticated(final XMPPConnection connection, final boolean resumed)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def getMultiUserChat():
-'''public synchronized MultiUserChat getMultiUserChat(final EntityBareJid jid)
-'''
-pass
+    '''    public synchronized MultiUserChat getMultiUserChat(final EntityBareJid jid)
+    '''
 def isServiceEnabled():
-'''public boolean isServiceEnabled(final Jid user)
-'''
-pass
+    '''    public boolean isServiceEnabled(final Jid user)
+    '''
 def getJoinedRooms():
-'''public Set<EntityBareJid> getJoinedRooms()
-public List<EntityBareJid> getJoinedRooms(final EntityJid user)
-'''
-pass
+    '''    public Set<EntityBareJid> getJoinedRooms()
+    public List<EntityBareJid> getJoinedRooms(final EntityJid user)
+    '''
 def getRoomInfo():
-'''public RoomInfo getRoomInfo(final EntityBareJid room)
-'''
-pass
+    '''    public RoomInfo getRoomInfo(final EntityBareJid room)
+    '''
 def getMucServiceDomains():
-'''public List<DomainBareJid> getMucServiceDomains()
-'''
-pass
+    '''    public List<DomainBareJid> getMucServiceDomains()
+    '''
 def getXMPPServiceDomains():
-'''public List<DomainBareJid> getXMPPServiceDomains()
-'''
-pass
+    '''    public List<DomainBareJid> getXMPPServiceDomains()
+    '''
 def providesMucService():
-'''public boolean providesMucService(final DomainBareJid domainBareJid)
-'''
-pass
+    '''    public boolean providesMucService(final DomainBareJid domainBareJid)
+    '''
 def getHostedRooms():
-'''public List<HostedRoom> getHostedRooms(final DomainBareJid serviceName)
-'''
-pass
+    '''    public List<HostedRoom> getHostedRooms(final DomainBareJid serviceName)
+    '''
 def getRoomsHostedBy():
-'''public Map<EntityBareJid, HostedRoom> getRoomsHostedBy(final DomainBareJid serviceName)
-'''
-pass
+    '''    public Map<EntityBareJid, HostedRoom> getRoomsHostedBy(final DomainBareJid serviceName)
+    '''
 def decline():
-'''public void decline(final EntityBareJid room, final EntityBareJid inviter, final String reason)
-'''
-pass
+    '''    public void decline(final EntityBareJid room, final EntityBareJid inviter, final String reason)
+    '''
 def addInvitationListener():
-'''public void addInvitationListener(final InvitationListener listener)
-'''
-pass
+    '''    public void addInvitationListener(final InvitationListener listener)
+    '''
 def removeInvitationListener():
-'''public void removeInvitationListener(final InvitationListener listener)
-'''
-pass
+    '''    public void removeInvitationListener(final InvitationListener listener)
+    '''
 def setAutoJoinOnReconnect():
-'''public void setAutoJoinOnReconnect(final boolean autoJoin)
-'''
-pass
+    '''    public void setAutoJoinOnReconnect(final boolean autoJoin)
+    '''
 def setAutoJoinFailedCallback():
-'''public void setAutoJoinFailedCallback(final AutoJoinFailedCallback failedCallback)
-'''
-pass
+    '''    public void setAutoJoinFailedCallback(final AutoJoinFailedCallback failedCallback)
+    '''
 def connectionCreated():
-'''public void connectionCreated(final XMPPConnection connection)
-'''
-pass
+    '''    public void connectionCreated(final XMPPConnection connection)
+    '''

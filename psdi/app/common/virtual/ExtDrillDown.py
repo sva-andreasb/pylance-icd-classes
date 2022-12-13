@@ -1,40 +1,30 @@
 def ExtDrillDown():
-'''public ExtDrillDown(final MboSet ms)
-'''
-pass
+    '''    public ExtDrillDown(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setPointedMbo():
-'''public void setPointedMbo(final MboRemote mbo)
-'''
-pass
+    '''    public void setPointedMbo(final MboRemote mbo)
+    '''
 def getSystemId():
-'''public String getSystemId()
-'''
-pass
+    '''    public String getSystemId()
+    '''
 def getOrgId():
-'''public String getOrgId()
-'''
-pass
+    '''    public String getOrgId()
+    '''
 def getSiteId():
-'''public String getSiteId()
-'''
-pass
+    '''    public String getSiteId()
+    '''
 def getPointedMbo():
-'''public MboRemote getPointedMbo()
-'''
-pass
+    '''    public MboRemote getPointedMbo()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getObjectValue():
-'''public Long getObjectValue()
-'''
-pass
+    '''    public Long getObjectValue()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''

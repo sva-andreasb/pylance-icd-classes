@@ -1,4 +1,3 @@
 def SynonymQueryNode():
-'''public SynonymQueryNode(final List<QueryNode> clauses)
-'''
-pass
+    '''    public SynonymQueryNode(final List<QueryNode> clauses)
+    '''

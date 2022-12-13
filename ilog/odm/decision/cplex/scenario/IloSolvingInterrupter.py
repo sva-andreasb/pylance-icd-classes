@@ -1,97 +1,73 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloSolvingInterrupter():
-'''public IloSolvingInterrupter()
-'''
-pass
+    '''    public IloSolvingInterrupter()
+    '''
 def setIntermediateSolutionPublisher():
-'''public void setIntermediateSolutionPublisher(final IloIntermediateResultPublisher publisher)
-'''
-pass
+    '''    public void setIntermediateSolutionPublisher(final IloIntermediateResultPublisher publisher)
+    '''
 def setUpdateListener():
-'''public void setUpdateListener(final IloIntermediateResultListener listener)
-'''
-pass
+    '''    public void setUpdateListener(final IloIntermediateResultListener listener)
+    '''
 def requestResultRefresh():
-'''public void requestResultRefresh()
-'''
-pass
+    '''    public void requestResultRefresh()
+    '''
 def skipCurrentExecutionTask():
-'''public void skipCurrentExecutionTask()
-'''
-pass
+    '''    public void skipCurrentExecutionTask()
+    '''
 def skipRelaxationPriority():
-'''public synchronized void skipRelaxationPriority()
-'''
-pass
+    '''    public synchronized void skipRelaxationPriority()
+    '''
 def isSkippingRelaxationPriority():
-'''public boolean isSkippingRelaxationPriority()
-'''
-pass
+    '''    public boolean isSkippingRelaxationPriority()
+    '''
 def resetSkippingRelaxationPriority():
-'''public void resetSkippingRelaxationPriority()
-'''
-pass
+    '''    public void resetSkippingRelaxationPriority()
+    '''
 def skipRelaxationMinimization():
-'''public synchronized void skipRelaxationMinimization()
-'''
-pass
+    '''    public synchronized void skipRelaxationMinimization()
+    '''
 def isSkippingRelaxingPhase():
-'''public boolean isSkippingRelaxingPhase()
-'''
-pass
+    '''    public boolean isSkippingRelaxingPhase()
+    '''
 def resetSkippingRelaxingPhase():
-'''public void resetSkippingRelaxingPhase()
-'''
-pass
+    '''    public void resetSkippingRelaxingPhase()
+    '''
 def skipCurrentGoalBoundSearch():
-'''public synchronized void skipCurrentGoalBoundSearch()
-'''
-pass
+    '''    public synchronized void skipCurrentGoalBoundSearch()
+    '''
 def isSkippingGoal():
-'''public boolean isSkippingGoal()
-'''
-pass
+    '''    public boolean isSkippingGoal()
+    '''
 def resetSkipGoal():
-'''public void resetSkipGoal()
-'''
-pass
+    '''    public void resetSkipGoal()
+    '''
 def isInterruptionRequired():
-'''public boolean isInterruptionRequired()
-'''
-pass
+    '''    public boolean isInterruptionRequired()
+    '''
 def interrupt():
-'''public void interrupt()
-'''
-pass
+    '''    public void interrupt()
+    '''
 def getUpdateListener():
-'''public IloIntermediateResultListener getUpdateListener()
-'''
-pass
+    '''    public IloIntermediateResultListener getUpdateListener()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def acceptCurrentSolution():
-'''public void acceptCurrentSolution()
-'''
-pass
+    '''    public void acceptCurrentSolution()
+    '''
 def resetSolutionAccepted():
-'''public void resetSolutionAccepted()
-'''
-pass
+    '''    public void resetSolutionAccepted()
+    '''
 def isSolutionAccepted():
-'''public boolean isSolutionAccepted()
-'''
-pass
+    '''    public boolean isSolutionAccepted()
+    '''
 def addControlActionListener():
-'''public void addControlActionListener(final ControlActionListener listener)
-'''
-pass
+    '''    public void addControlActionListener(final ControlActionListener listener)
+    '''
 def removeControlActionListener():
-'''public void removeControlActionListener(final ControlActionListener listener)
-'''
-pass
+    '''    public void removeControlActionListener(final ControlActionListener listener)
+    '''
 def setController():
-'''public void setController(final IloConcertController controller)
-'''
-pass
+    '''    public void setController(final IloConcertController controller)
+    '''

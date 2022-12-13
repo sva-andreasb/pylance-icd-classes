@@ -1,36 +1,27 @@
 def CommandResultImpl():
-'''public CommandResultImpl()
-'''
-pass
+    '''    public CommandResultImpl()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def isSuccessful():
-'''public boolean isSuccessful()
-'''
-pass
+    '''    public boolean isSuccessful()
+    '''
 def getMessages():
-'''public Collection getMessages()
-'''
-pass
+    '''    public Collection getMessages()
+    '''
 def getException():
-'''public Throwable getException()
-'''
-pass
+    '''    public Throwable getException()
+    '''
 def getResult():
-'''public Object getResult()
-'''
-pass
+    '''    public Object getResult()
+    '''
 def setException():
-'''public void setException(final Throwable thisThrowable)
-'''
-pass
+    '''    public void setException(final Throwable thisThrowable)
+    '''
 def addWarnings():
-'''public void addWarnings(final String msg)
-'''
-pass
+    '''    public void addWarnings(final String msg)
+    '''
 def setResult():
-'''public void setResult(final Object obj)
-'''
-pass
+    '''    public void setResult(final Object obj)
+    '''

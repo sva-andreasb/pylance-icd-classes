@@ -1,134 +1,103 @@
 def JCodeModel():
-'''public JCodeModel()
-'''
-pass
+    '''    public JCodeModel()
+    '''
 def _package():
-'''public JPackage _package(final String name)
-public JPackage _package()
-'''
-pass
+    '''    public JPackage _package(final String name)
+    public JPackage _package()
+    '''
 def rootPackage():
-'''public final JPackage rootPackage()
-'''
-pass
+    '''    public final JPackage rootPackage()
+    '''
 def packages():
-'''public Iterator<JPackage> packages()
-'''
-pass
+    '''    public Iterator<JPackage> packages()
+    '''
 def _class():
-'''public JDefinedClass _class(final String fullyqualifiedName)
-public JDefinedClass _class(final int mods, final String fullyqualifiedName, final ClassType t)
-public JDefinedClass _class(final String fullyqualifiedName, final ClassType t)
-'''
-pass
+    '''    public JDefinedClass _class(final String fullyqualifiedName)
+    public JDefinedClass _class(final int mods, final String fullyqualifiedName, final ClassType t)
+    public JDefinedClass _class(final String fullyqualifiedName, final ClassType t)
+    '''
 def directClass():
-'''public JClass directClass(final String name)
-'''
-pass
+    '''    public JClass directClass(final String name)
+    '''
 def _getClass():
-'''public JDefinedClass _getClass(final String fullyQualifiedName)
-'''
-pass
+    '''    public JDefinedClass _getClass(final String fullyQualifiedName)
+    '''
 def newAnonymousClass():
-'''public JDefinedClass newAnonymousClass(final JClass baseType)
-'''
-pass
+    '''    public JDefinedClass newAnonymousClass(final JClass baseType)
+    '''
 def anonymousClass():
-'''public JDefinedClass anonymousClass(final JClass baseType)
-public JDefinedClass anonymousClass(final Class<?> baseType)
-'''
-pass
+    '''    public JDefinedClass anonymousClass(final JClass baseType)
+    public JDefinedClass anonymousClass(final Class<?> baseType)
+    '''
 def build():
-'''public void build(final File destDir, final PrintStream status)
-public void build(final File srcDir, final File resourceDir, final PrintStream status)
-public void build(final File destDir)
-public void build(final File srcDir, final File resourceDir)
-public void build(final CodeWriter out)
-public void build(final CodeWriter source, final CodeWriter resource)
-'''
-pass
+    '''    public void build(final File destDir, final PrintStream status)
+    public void build(final File srcDir, final File resourceDir, final PrintStream status)
+    public void build(final File destDir)
+    public void build(final File srcDir, final File resourceDir)
+    public void build(final CodeWriter out)
+    public void build(final CodeWriter source, final CodeWriter resource)
+    '''
 def countArtifacts():
-'''public int countArtifacts()
-'''
-pass
+    '''    public int countArtifacts()
+    '''
 def ref():
-'''public JClass ref(final Class<?> clazz)
-public JClass ref(final String fullyQualifiedClassName)
-'''
-pass
+    '''    public JClass ref(final Class<?> clazz)
+    public JClass ref(final String fullyQualifiedClassName)
+    '''
 def _ref():
-'''public JType _ref(final Class<?> c)
-'''
-pass
+    '''    public JType _ref(final Class<?> c)
+    '''
 def wildcard():
-'''public JClass wildcard()
-'''
-pass
+    '''    public JClass wildcard()
+    '''
 def parseType():
-'''public JType parseType(final String name)
-'''
-pass
+    '''    public JType parseType(final String name)
+    '''
 def TypeNameParser():
-'''public TypeNameParser(final String s)
-'''
-pass
+    '''    public TypeNameParser(final String s)
+    '''
 def name():
-'''public String name()
-'''
-pass
+    '''    public String name()
+    '''
 def fullName():
-'''public String fullName()
-'''
-pass
+    '''    public String fullName()
+    '''
 def binaryName():
-'''public String binaryName()
-'''
-pass
+    '''    public String binaryName()
+    '''
 def outer():
-'''public JClass outer()
-'''
-pass
+    '''    public JClass outer()
+    '''
 def _extends():
-'''public JClass _extends()
-'''
-pass
+    '''    public JClass _extends()
+    '''
 def _implements():
-'''public Iterator<JClass> _implements()
-'''
-pass
+    '''    public Iterator<JClass> _implements()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public JClass next()
-'''
-pass
+    '''    public JClass next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def isInterface():
-'''public boolean isInterface()
-'''
-pass
+    '''    public boolean isInterface()
+    '''
 def isAbstract():
-'''public boolean isAbstract()
-'''
-pass
+    '''    public boolean isAbstract()
+    '''
 def getPrimitiveType():
-'''public JPrimitiveType getPrimitiveType()
-'''
-pass
+    '''    public JPrimitiveType getPrimitiveType()
+    '''
 def isArray():
-'''public boolean isArray()
-'''
-pass
+    '''    public boolean isArray()
+    '''
 def declare():
-'''public void declare(final JFormatter f)
-'''
-pass
+    '''    public void declare(final JFormatter f)
+    '''
 def typeParams():
-'''public JTypeVar[] typeParams()
-'''
-pass
+    '''    public JTypeVar[] typeParams()
+    '''

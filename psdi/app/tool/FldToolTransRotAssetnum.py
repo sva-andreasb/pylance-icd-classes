@@ -1,24 +1,18 @@
 def FldToolTransRotAssetnum():
-'''public FldToolTransRotAssetnum(final MboValue mbv)
-'''
-pass
+    '''    public FldToolTransRotAssetnum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getListCalibration():
-'''public MboSetRemote getListCalibration()
-'''
-pass
+    '''    public MboSetRemote getListCalibration()
+    '''
 def setListCriteria():
-'''public void setListCriteria(final String listWhere)
-'''
-pass
+    '''    public void setListCriteria(final String listWhere)
+    '''

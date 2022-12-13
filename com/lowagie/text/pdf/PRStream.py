@@ -1,39 +1,30 @@
 def PRStream():
-'''public PRStream(final PRStream stream, final PdfDictionary newDic)
-public PRStream(final PRStream stream, final PdfDictionary newDic, final PdfReader reader)
-public PRStream(final PdfReader reader, final int offset)
-public PRStream(final PdfReader reader, final byte[] conts)
-'''
-pass
+    '''    public PRStream(final PRStream stream, final PdfDictionary newDic)
+    public PRStream(final PRStream stream, final PdfDictionary newDic, final PdfReader reader)
+    public PRStream(final PdfReader reader, final int offset)
+    public PRStream(final PdfReader reader, final byte[] conts)
+    '''
 def setData():
-'''public void setData(final byte[] data)
-'''
-pass
+    '''    public void setData(final byte[] data)
+    '''
 def setLength():
-'''public void setLength(final int length)
-'''
-pass
+    '''    public void setLength(final int length)
+    '''
 def getOffset():
-'''public int getOffset()
-'''
-pass
+    '''    public int getOffset()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getReader():
-'''public PdfReader getReader()
-'''
-pass
+    '''    public PdfReader getReader()
+    '''
 def getBytes():
-'''public byte[] getBytes()
-'''
-pass
+    '''    public byte[] getBytes()
+    '''
 def setObjNum():
-'''public void setObjNum(final int objNum, final int objGen)
-'''
-pass
+    '''    public void setObjNum(final int objNum, final int objGen)
+    '''
 def toPdf():
-'''public void toPdf(final PdfWriter writer, final OutputStream os)
-'''
-pass
+    '''    public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''

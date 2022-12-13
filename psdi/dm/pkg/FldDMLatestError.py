@@ -1,8 +1,6 @@
 def FldDMLatestError():
-'''public FldDMLatestError(final MboValue mbv)
-'''
-pass
+    '''    public FldDMLatestError(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

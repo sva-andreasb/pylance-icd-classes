@@ -1,12 +1,9 @@
 def RangeMacroProps():
-'''public RangeMacroProps()
-'''
-pass
+    '''    public RangeMacroProps()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object _other)
-'''
-pass
+    '''    public boolean equals(final Object _other)
+    '''

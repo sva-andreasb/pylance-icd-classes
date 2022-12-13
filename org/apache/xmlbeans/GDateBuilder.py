@@ -1,204 +1,155 @@
 def GDateBuilder():
-'''public GDateBuilder()
-public GDateBuilder(final GDateSpecification gdate)
-public GDateBuilder(final CharSequence string)
-public GDateBuilder(final Calendar calendar)
-public GDateBuilder(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-public GDateBuilder(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction, final int tzSign, final int tzHour, final int tzMinute)
-public GDateBuilder(final Date date)
-'''
-pass
+    '''    public GDateBuilder()
+    public GDateBuilder(final GDateSpecification gdate)
+    public GDateBuilder(final CharSequence string)
+    public GDateBuilder(final Calendar calendar)
+    public GDateBuilder(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
+    public GDateBuilder(final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction, final int tzSign, final int tzHour, final int tzMinute)
+    public GDateBuilder(final Date date)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def toGDate():
-'''public GDate toGDate()
-'''
-pass
+    '''    public GDate toGDate()
+    '''
 def isImmutable():
-'''public boolean isImmutable()
-'''
-pass
+    '''    public boolean isImmutable()
+    '''
 def getFlags():
-'''public int getFlags()
-'''
-pass
+    '''    public int getFlags()
+    '''
 def hasTimeZone():
-'''public final boolean hasTimeZone()
-'''
-pass
+    '''    public final boolean hasTimeZone()
+    '''
 def hasYear():
-'''public final boolean hasYear()
-'''
-pass
+    '''    public final boolean hasYear()
+    '''
 def hasMonth():
-'''public final boolean hasMonth()
-'''
-pass
+    '''    public final boolean hasMonth()
+    '''
 def hasDay():
-'''public final boolean hasDay()
-'''
-pass
+    '''    public final boolean hasDay()
+    '''
 def hasTime():
-'''public final boolean hasTime()
-'''
-pass
+    '''    public final boolean hasTime()
+    '''
 def hasDate():
-'''public final boolean hasDate()
-'''
-pass
+    '''    public final boolean hasDate()
+    '''
 def getYear():
-'''public final int getYear()
-'''
-pass
+    '''    public final int getYear()
+    '''
 def getMonth():
-'''public final int getMonth()
-'''
-pass
+    '''    public final int getMonth()
+    '''
 def getDay():
-'''public final int getDay()
-'''
-pass
+    '''    public final int getDay()
+    '''
 def getHour():
-'''public final int getHour()
-'''
-pass
+    '''    public final int getHour()
+    '''
 def getMinute():
-'''public final int getMinute()
-'''
-pass
+    '''    public final int getMinute()
+    '''
 def getSecond():
-'''public final int getSecond()
-'''
-pass
+    '''    public final int getSecond()
+    '''
 def getFraction():
-'''public final BigDecimal getFraction()
-'''
-pass
+    '''    public final BigDecimal getFraction()
+    '''
 def getMillisecond():
-'''public final int getMillisecond()
-'''
-pass
+    '''    public final int getMillisecond()
+    '''
 def getTimeZoneSign():
-'''public final int getTimeZoneSign()
-'''
-pass
+    '''    public final int getTimeZoneSign()
+    '''
 def getTimeZoneHour():
-'''public final int getTimeZoneHour()
-'''
-pass
+    '''    public final int getTimeZoneHour()
+    '''
 def getTimeZoneMinute():
-'''public final int getTimeZoneMinute()
-'''
-pass
+    '''    public final int getTimeZoneMinute()
+    '''
 def setYear():
-'''public void setYear(final int year)
-'''
-pass
+    '''    public void setYear(final int year)
+    '''
 def setMonth():
-'''public void setMonth(final int month)
-'''
-pass
+    '''    public void setMonth(final int month)
+    '''
 def setDay():
-'''public void setDay(final int day)
-'''
-pass
+    '''    public void setDay(final int day)
+    '''
 def setTime():
-'''public void setTime(final int hour, final int minute, final int second, final BigDecimal fraction)
-'''
-pass
+    '''    public void setTime(final int hour, final int minute, final int second, final BigDecimal fraction)
+    '''
 def setTimeZone():
-'''public void setTimeZone(final int tzSign, final int tzHour, final int tzMinute)
-public void setTimeZone(int tzTotalMinutes)
-'''
-pass
+    '''    public void setTimeZone(final int tzSign, final int tzHour, final int tzMinute)
+    public void setTimeZone(int tzTotalMinutes)
+    '''
 def clearYear():
-'''public void clearYear()
-'''
-pass
+    '''    public void clearYear()
+    '''
 def clearMonth():
-'''public void clearMonth()
-'''
-pass
+    '''    public void clearMonth()
+    '''
 def clearDay():
-'''public void clearDay()
-'''
-pass
+    '''    public void clearDay()
+    '''
 def clearTime():
-'''public void clearTime()
-'''
-pass
+    '''    public void clearTime()
+    '''
 def clearTimeZone():
-'''public void clearTimeZone()
-'''
-pass
+    '''    public void clearTimeZone()
+    '''
 def isValid():
-'''public boolean isValid()
-'''
-pass
+    '''    public boolean isValid()
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''
 def normalizeToTimeZone():
-'''public void normalizeToTimeZone(final int tzSign, final int tzHour, final int tzMinute)
-public void normalizeToTimeZone(int tzTotalMinutes)
-'''
-pass
+    '''    public void normalizeToTimeZone(final int tzSign, final int tzHour, final int tzMinute)
+    public void normalizeToTimeZone(int tzTotalMinutes)
+    '''
 def addGDuration():
-'''public void addGDuration(final GDurationSpecification duration)
-'''
-pass
+    '''    public void addGDuration(final GDurationSpecification duration)
+    '''
 def subtractGDuration():
-'''public void subtractGDuration(final GDurationSpecification duration)
-'''
-pass
+    '''    public void subtractGDuration(final GDurationSpecification duration)
+    '''
 def addDuration():
-'''public void addDuration(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
-'''
-pass
+    '''    public void addDuration(final int sign, final int year, final int month, final int day, final int hour, final int minute, final int second, final BigDecimal fraction)
+    '''
 def getJulianDate():
-'''public final int getJulianDate()
-'''
-pass
+    '''    public final int getJulianDate()
+    '''
 def setJulianDate():
-'''public void setJulianDate(final int julianday)
-'''
-pass
+    '''    public void setJulianDate(final int julianday)
+    '''
 def setDate():
-'''public void setDate(final Date date)
-'''
-pass
+    '''    public void setDate(final Date date)
+    '''
 def setGDate():
-'''public void setGDate(final GDateSpecification gdate)
-'''
-pass
+    '''    public void setGDate(final GDateSpecification gdate)
+    '''
 def getCalendar():
-'''public XmlCalendar getCalendar()
-'''
-pass
+    '''    public XmlCalendar getCalendar()
+    '''
 def getDate():
-'''public Date getDate()
-'''
-pass
+    '''    public Date getDate()
+    '''
 def compareToGDate():
-'''public final int compareToGDate(final GDateSpecification datespec)
-'''
-pass
+    '''    public final int compareToGDate(final GDateSpecification datespec)
+    '''
 def getBuiltinTypeCode():
-'''public final int getBuiltinTypeCode()
-'''
-pass
+    '''    public final int getBuiltinTypeCode()
+    '''
 def setBuiltinTypeCode():
-'''public void setBuiltinTypeCode(final int typeCode)
-'''
-pass
+    '''    public void setBuiltinTypeCode(final int typeCode)
+    '''
 def canonicalString():
-'''public String canonicalString()
-'''
-pass
+    '''    public String canonicalString()
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''

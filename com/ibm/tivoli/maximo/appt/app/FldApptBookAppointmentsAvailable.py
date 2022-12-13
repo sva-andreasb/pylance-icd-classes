@@ -1,8 +1,6 @@
 def FldApptBookAppointmentsAvailable():
-'''public FldApptBookAppointmentsAvailable(final MboValue mbv)
-'''
-pass
+    '''    public FldApptBookAppointmentsAvailable(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

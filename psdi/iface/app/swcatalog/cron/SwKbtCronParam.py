@@ -1,4 +1,3 @@
 def SwKbtCronParam():
-'''public SwKbtCronParam(final MboSet ms)
-'''
-pass
+    '''    public SwKbtCronParam(final MboSet ms)
+    '''

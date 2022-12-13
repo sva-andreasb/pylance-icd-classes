@@ -1,9 +1,7 @@
 def getFolder():
-'''public Folder getFolder()
-'''
-pass
+    '''    public Folder getFolder()
+    '''
 def ReadOnlyFolderException():
-'''public ReadOnlyFolderException(final Folder folder)
-public ReadOnlyFolderException(final Folder folder, final String message)
-'''
-pass
+    '''    public ReadOnlyFolderException(final Folder folder)
+    public ReadOnlyFolderException(final Folder folder, final String message)
+    '''

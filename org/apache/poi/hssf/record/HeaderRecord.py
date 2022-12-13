@@ -1,18 +1,14 @@
 sid = "short  20"
 def HeaderRecord():
-'''public HeaderRecord(final String text)
-public HeaderRecord(final RecordInputStream in)
-'''
-pass
+    '''    public HeaderRecord(final String text)
+    public HeaderRecord(final RecordInputStream in)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public HeaderRecord clone()
-'''
-pass
+    '''    public HeaderRecord clone()
+    '''

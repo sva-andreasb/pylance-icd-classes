@@ -1,8 +1,6 @@
 def FldIsOverride():
-'''public FldIsOverride(final MboValue mbv)
-'''
-pass
+    '''    public FldIsOverride(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,4 +1,3 @@
 def AuthRoleUserSet():
-'''public AuthRoleUserSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AuthRoleUserSet(final MboServerInterface ms)
+    '''

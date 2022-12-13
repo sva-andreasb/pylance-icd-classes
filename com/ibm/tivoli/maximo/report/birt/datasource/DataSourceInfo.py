@@ -1,76 +1,57 @@
 def DataSourceInfo():
-'''public DataSourceInfo()
-'''
-pass
+    '''    public DataSourceInfo()
+    '''
 def getDriver():
-'''public String getDriver()
-'''
-pass
+    '''    public String getDriver()
+    '''
 def setDriver():
-'''public void setDriver(final String driver)
-'''
-pass
+    '''    public void setDriver(final String driver)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''
 def getSchemaOwner():
-'''public String getSchemaOwner()
-'''
-pass
+    '''    public String getSchemaOwner()
+    '''
 def setSchemaOwner():
-'''public void setSchemaOwner(final String schemaOwner)
-'''
-pass
+    '''    public void setSchemaOwner(final String schemaOwner)
+    '''
 def getUrl():
-'''public String getUrl()
-'''
-pass
+    '''    public String getUrl()
+    '''
 def setUrl():
-'''public void setUrl(final String url)
-'''
-pass
+    '''    public void setUrl(final String url)
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def setUserName():
-'''public void setUserName(final String userName)
-'''
-pass
+    '''    public void setUserName(final String userName)
+    '''
 def getSslConnection():
-'''public String getSslConnection()
-'''
-pass
+    '''    public String getSslConnection()
+    '''
 def setSslConnection():
-'''public void setSslConnection(final String sslConnection)
-'''
-pass
+    '''    public void setSslConnection(final String sslConnection)
+    '''
 def getSslTrustStoreLocation():
-'''public String getSslTrustStoreLocation()
-'''
-pass
+    '''    public String getSslTrustStoreLocation()
+    '''
 def setSslTrustStoreLocation():
-'''public void setSslTrustStoreLocation(final String sslTrustStoreLocation)
-'''
-pass
+    '''    public void setSslTrustStoreLocation(final String sslTrustStoreLocation)
+    '''
 def getSslTrustStorePassword():
-'''public String getSslTrustStorePassword()
-'''
-pass
+    '''    public String getSslTrustStorePassword()
+    '''
 def setSslTrustStorePassword():
-'''public void setSslTrustStorePassword(final String sslTrustStorePassword)
-'''
-pass
+    '''    public void setSslTrustStorePassword(final String sslTrustStorePassword)
+    '''

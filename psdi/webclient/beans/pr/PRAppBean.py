@@ -1,24 +1,18 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def DETAILREP():
-'''public int DETAILREP()
-'''
-pass
+    '''    public int DETAILREP()
+    '''
 def PRINTDOCS():
-'''public int PRINTDOCS()
-'''
-pass
+    '''    public int PRINTDOCS()
+    '''
 def CREATEPO():
-'''public int CREATEPO()
-'''
-pass
+    '''    public int CREATEPO()
+    '''
 def CREATECONT():
-'''public int CREATECONT()
-'''
-pass
+    '''    public int CREATECONT()
+    '''
 def CREATECOMM():
-'''public int CREATECOMM()
-'''
-pass
+    '''    public int CREATECOMM()
+    '''

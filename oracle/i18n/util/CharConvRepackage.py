@@ -1,12 +1,9 @@
 def getCommand():
-'''public static final String getCommand()
-'''
-pass
+    '''    public static final String getCommand()
+    '''
 def printUsage():
-'''public static void printUsage()
-'''
-pass
+    '''    public static void printUsage()
+    '''
 def main():
-'''public static final void main(final List list)
-'''
-pass
+    '''    public static final void main(final List list)
+    '''

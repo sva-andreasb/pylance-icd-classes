@@ -1,12 +1,9 @@
 def setAllowedExtsSet():
-'''public static void setAllowedExtsSet(final Set<String> allowedExtsSet1)
-'''
-pass
+    '''    public static void setAllowedExtsSet(final Set<String> allowedExtsSet1)
+    '''
 def getAttachmentSize():
-'''public long getAttachmentSize(final MboRemote doclink)
-'''
-pass
+    '''    public long getAttachmentSize(final MboRemote doclink)
+    '''
 def isDefaultAttachmentStore():
-'''public static boolean isDefaultAttachmentStore()
-'''
-pass
+    '''    public static boolean isDefaultAttachmentStore()
+    '''

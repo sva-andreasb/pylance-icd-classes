@@ -1,8 +1,6 @@
 def FldUserSecControlLoginTracking():
-'''public FldUserSecControlLoginTracking(final MboValue mbv)
-'''
-pass
+    '''    public FldUserSecControlLoginTracking(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

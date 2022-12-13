@@ -1,94 +1,71 @@
-ID_NOT_AVAILABLE = "String  ID_NOT_AVAILABLE""
+ID_NOT_AVAILABLE = "String  \"ID_NOT_AVAILABLE\""
 def Packet():
-'''public Packet()
-'''
-pass
+    '''    public Packet()
+    '''
 def nextID():
-'''public static synchronized String nextID()
-'''
-pass
+    '''    public static synchronized String nextID()
+    '''
 def setDefaultXmlns():
-'''public static void setDefaultXmlns(final String defaultXmlns)
-'''
-pass
+    '''    public static void setDefaultXmlns(final String defaultXmlns)
+    '''
 def getPacketID():
-'''public String getPacketID()
-'''
-pass
+    '''    public String getPacketID()
+    '''
 def setPacketID():
-'''public void setPacketID(final String packetID)
-'''
-pass
+    '''    public void setPacketID(final String packetID)
+    '''
 def getTo():
-'''public String getTo()
-'''
-pass
+    '''    public String getTo()
+    '''
 def setTo():
-'''public void setTo(final String to)
-'''
-pass
+    '''    public void setTo(final String to)
+    '''
 def getFrom():
-'''public String getFrom()
-'''
-pass
+    '''    public String getFrom()
+    '''
 def setFrom():
-'''public void setFrom(final String from)
-'''
-pass
+    '''    public void setFrom(final String from)
+    '''
 def getError():
-'''public XMPPError getError()
-'''
-pass
+    '''    public XMPPError getError()
+    '''
 def setError():
-'''public void setError(final XMPPError error)
-'''
-pass
+    '''    public void setError(final XMPPError error)
+    '''
 def getExtensions():
-'''public synchronized Collection<PacketExtension> getExtensions()
-'''
-pass
+    '''    public synchronized Collection<PacketExtension> getExtensions()
+    '''
 def getExtension():
-'''public PacketExtension getExtension(final String namespace)
-public PacketExtension getExtension(final String elementName, final String namespace)
-'''
-pass
+    '''    public PacketExtension getExtension(final String namespace)
+    public PacketExtension getExtension(final String elementName, final String namespace)
+    '''
 def addExtension():
-'''public void addExtension(final PacketExtension extension)
-'''
-pass
+    '''    public void addExtension(final PacketExtension extension)
+    '''
 def removeExtension():
-'''public void removeExtension(final PacketExtension extension)
-'''
-pass
+    '''    public void removeExtension(final PacketExtension extension)
+    '''
 def getProperty():
-'''public synchronized Object getProperty(final String name)
-'''
-pass
+    '''    public synchronized Object getProperty(final String name)
+    '''
 def setProperty():
-'''public synchronized void setProperty(final String name, final Object value)
-'''
-pass
+    '''    public synchronized void setProperty(final String name, final Object value)
+    '''
 def deleteProperty():
-'''public synchronized void deleteProperty(final String name)
-'''
-pass
+    '''    public synchronized void deleteProperty(final String name)
+    '''
 def getPropertyNames():
-'''public synchronized Collection<String> getPropertyNames()
-'''
-pass
+    '''    public synchronized Collection<String> getPropertyNames()
+    '''
 def getXmlns():
-'''public String getXmlns()
-'''
-pass
+    '''    public String getXmlns()
+    '''
 def getDefaultLanguage():
-'''public static String getDefaultLanguage()
-'''
-pass
+    '''    public static String getDefaultLanguage()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

@@ -1,8 +1,6 @@
 def ValueFactory():
-'''public ValueFactory()
-'''
-pass
+    '''    public ValueFactory()
+    '''
 def newInstance():
-'''public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
-'''
-pass
+    '''    public Object newInstance(final FactoryBuilderSupport builder, final Object name, final Object value, final Map attributes)
+    '''

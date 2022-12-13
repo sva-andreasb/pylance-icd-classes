@@ -1,25 +1,19 @@
-COPYRIGHT = "String  IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.""
+COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def PmScCRShopCartAppBean():
-'''public PmScCRShopCartAppBean()
-'''
-pass
+    '''    public PmScCRShopCartAppBean()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def editdr():
-'''public void editdr()
-'''
-pass
+    '''    public void editdr()
+    '''
 def editdraft():
-'''public int editdraft(final long uid)
-'''
-pass
+    '''    public int editdraft(final long uid)
+    '''
 def returnToShopExp():
-'''public void returnToShopExp()
-'''
-pass
+    '''    public void returnToShopExp()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''

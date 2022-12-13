@@ -1,68 +1,51 @@
 def MockHttpURLConnection():
-'''public MockHttpURLConnection(final URL u)
-'''
-pass
+    '''    public MockHttpURLConnection(final URL u)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def usingProxy():
-'''public boolean usingProxy()
-'''
-pass
+    '''    public boolean usingProxy()
+    '''
 def connect():
-'''public void connect()
-'''
-pass
+    '''    public void connect()
+    '''
 def getResponseCode():
-'''public int getResponseCode()
-'''
-pass
+    '''    public int getResponseCode()
+    '''
 def setDoOutput():
-'''public void setDoOutput(final boolean dooutput)
-'''
-pass
+    '''    public void setDoOutput(final boolean dooutput)
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def doOutputCalled():
-'''public final boolean doOutputCalled()
-'''
-pass
+    '''    public final boolean doOutputCalled()
+    '''
 def setOutputStream():
-'''public MockHttpURLConnection setOutputStream(final OutputStream outputStream)
-'''
-pass
+    '''    public MockHttpURLConnection setOutputStream(final OutputStream outputStream)
+    '''
 def setResponseCode():
-'''public MockHttpURLConnection setResponseCode(final int responseCode)
-'''
-pass
+    '''    public MockHttpURLConnection setResponseCode(final int responseCode)
+    '''
 def addHeader():
-'''public MockHttpURLConnection addHeader(final String name, final String value)
-'''
-pass
+    '''    public MockHttpURLConnection addHeader(final String name, final String value)
+    '''
 def setInputStream():
-'''public MockHttpURLConnection setInputStream(final InputStream is)
-'''
-pass
+    '''    public MockHttpURLConnection setInputStream(final InputStream is)
+    '''
 def setErrorStream():
-'''public MockHttpURLConnection setErrorStream(final InputStream is)
-'''
-pass
+    '''    public MockHttpURLConnection setErrorStream(final InputStream is)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getErrorStream():
-'''public InputStream getErrorStream()
-'''
-pass
+    '''    public InputStream getErrorStream()
+    '''
 def getHeaderFields():
-'''public Map<String, List<String>> getHeaderFields()
-'''
-pass
+    '''    public Map<String, List<String>> getHeaderFields()
+    '''
 def getHeaderField():
-'''public String getHeaderField(final String name)
-'''
-pass
+    '''    public String getHeaderField(final String name)
+    '''

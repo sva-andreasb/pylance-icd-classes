@@ -1,20 +1,15 @@
 def ServiceDiscoveryTask():
-'''public ServiceDiscoveryTask()
-'''
-pass
+    '''    public ServiceDiscoveryTask()
+    '''
 def setServiceName():
-'''public void setServiceName(final String name)
-'''
-pass
+    '''    public void setServiceName(final String name)
+    '''
 def setDebug():
-'''public void setDebug(final int i)
-'''
-pass
+    '''    public void setDebug(final int i)
+    '''
 def getServiceInfo():
-'''public String[] getServiceInfo()
-'''
-pass
+    '''    public String[] getServiceInfo()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

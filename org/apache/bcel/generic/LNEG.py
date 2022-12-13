@@ -1,8 +1,6 @@
 def LNEG():
-'''public LNEG()
-'''
-pass
+    '''    public LNEG()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

@@ -1,58 +1,44 @@
 def StringBufferCharacterIterator():
-'''public StringBufferCharacterIterator(final StringBuffer sb)
-public StringBufferCharacterIterator(final StringBuffer sb, final int n)
-public StringBufferCharacterIterator(final StringBuffer text, final int begin, final int end, final int pos)
-'''
-pass
+    '''    public StringBufferCharacterIterator(final StringBuffer sb)
+    public StringBufferCharacterIterator(final StringBuffer sb, final int n)
+    public StringBufferCharacterIterator(final StringBuffer text, final int begin, final int end, final int pos)
+    '''
 def setText():
-'''public void setText(final StringBuffer text)
-'''
-pass
+    '''    public void setText(final StringBuffer text)
+    '''
 def first():
-'''public char first()
-'''
-pass
+    '''    public char first()
+    '''
 def last():
-'''public char last()
-'''
-pass
+    '''    public char last()
+    '''
 def setIndex():
-'''public char setIndex(final int pos)
-'''
-pass
+    '''    public char setIndex(final int pos)
+    '''
 def current():
-'''public char current()
-'''
-pass
+    '''    public char current()
+    '''
 def next():
-'''public char next()
-'''
-pass
+    '''    public char next()
+    '''
 def previous():
-'''public char previous()
-'''
-pass
+    '''    public char previous()
+    '''
 def getBeginIndex():
-'''public int getBeginIndex()
-'''
-pass
+    '''    public int getBeginIndex()
+    '''
 def getEndIndex():
-'''public int getEndIndex()
-'''
-pass
+    '''    public int getEndIndex()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

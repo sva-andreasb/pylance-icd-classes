@@ -1,12 +1,9 @@
 def getBackingByteBuffer():
-'''public final ByteBuffer getBackingByteBuffer()
-'''
-pass
+    '''    public final ByteBuffer getBackingByteBuffer()
+    '''
 def getId():
-'''public final int getId()
-'''
-pass
+    '''    public final int getId()
+    '''
 def setId():
-'''public final void setId(final int id)
-'''
-pass
+    '''    public final void setId(final int id)
+    '''

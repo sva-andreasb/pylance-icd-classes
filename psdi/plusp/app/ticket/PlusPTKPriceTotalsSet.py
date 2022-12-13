@@ -1,4 +1,3 @@
 def PlusPTKPriceTotalsSet():
-'''public PlusPTKPriceTotalsSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PlusPTKPriceTotalsSet(final MboServerInterface ms)
+    '''

@@ -1,4 +1,3 @@
 def process():
-'''public void process(final HttpResponse response, final HttpContext context)
-'''
-pass
+    '''    public void process(final HttpResponse response, final HttpContext context)
+    '''

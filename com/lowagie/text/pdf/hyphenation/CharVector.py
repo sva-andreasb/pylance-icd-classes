@@ -1,43 +1,33 @@
 def CharVector():
-'''public CharVector()
-public CharVector(final int capacity)
-public CharVector(final char[] a)
-public CharVector(final char[] a, final int capacity)
-'''
-pass
+    '''    public CharVector()
+    public CharVector(final int capacity)
+    public CharVector(final char[] a)
+    public CharVector(final char[] a, final int capacity)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getArray():
-'''public char[] getArray()
-'''
-pass
+    '''    public char[] getArray()
+    '''
 def length():
-'''public int length()
-'''
-pass
+    '''    public int length()
+    '''
 def capacity():
-'''public int capacity()
-'''
-pass
+    '''    public int capacity()
+    '''
 def put():
-'''public void put(final int index, final char val)
-'''
-pass
+    '''    public void put(final int index, final char val)
+    '''
 def get():
-'''public char get(final int index)
-'''
-pass
+    '''    public char get(final int index)
+    '''
 def alloc():
-'''public int alloc(final int size)
-'''
-pass
+    '''    public int alloc(final int size)
+    '''
 def trimToSize():
-'''public void trimToSize()
-'''
-pass
+    '''    public void trimToSize()
+    '''

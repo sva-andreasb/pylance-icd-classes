@@ -1,8 +1,6 @@
 def FldSigOptFlagCode():
-'''public FldSigOptFlagCode(final MboValue mbv)
-'''
-pass
+    '''    public FldSigOptFlagCode(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

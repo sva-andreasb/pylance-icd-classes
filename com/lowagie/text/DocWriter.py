@@ -7,87 +7,66 @@ QUOTE = "byte  34"
 GT = "byte  62"
 FORWARD = "byte  47"
 def add():
-'''public boolean add(final Element element)
-public boolean add(final Watermark watermark)
-'''
-pass
+    '''    public boolean add(final Element element)
+    public boolean add(final Watermark watermark)
+    '''
 def open():
-'''public void open()
-'''
-pass
+    '''    public void open()
+    '''
 def setPageSize():
-'''public boolean setPageSize(final Rectangle pageSize)
-'''
-pass
+    '''    public boolean setPageSize(final Rectangle pageSize)
+    '''
 def removeWatermark():
-'''public void removeWatermark()
-'''
-pass
+    '''    public void removeWatermark()
+    '''
 def setMargins():
-'''public boolean setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
-'''
-pass
+    '''    public boolean setMargins(final float marginLeft, final float marginRight, final float marginTop, final float marginBottom)
+    '''
 def newPage():
-'''public boolean newPage()
-'''
-pass
+    '''    public boolean newPage()
+    '''
 def setHeader():
-'''public void setHeader(final HeaderFooter header)
-'''
-pass
+    '''    public void setHeader(final HeaderFooter header)
+    '''
 def resetHeader():
-'''public void resetHeader()
-'''
-pass
+    '''    public void resetHeader()
+    '''
 def setFooter():
-'''public void setFooter(final HeaderFooter footer)
-'''
-pass
+    '''    public void setFooter(final HeaderFooter footer)
+    '''
 def resetFooter():
-'''public void resetFooter()
-'''
-pass
+    '''    public void resetFooter()
+    '''
 def resetPageCount():
-'''public void resetPageCount()
-'''
-pass
+    '''    public void resetPageCount()
+    '''
 def setPageCount():
-'''public void setPageCount(final int pageN)
-'''
-pass
+    '''    public void setPageCount(final int pageN)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getISOBytes():
-'''public static final byte[] getISOBytes(final String text)
-'''
-pass
+    '''    public static final byte[] getISOBytes(final String text)
+    '''
 def pause():
-'''public void pause()
-'''
-pass
+    '''    public void pause()
+    '''
 def resume():
-'''public void resume()
-'''
-pass
+    '''    public void resume()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def isCloseStream():
-'''public boolean isCloseStream()
-'''
-pass
+    '''    public boolean isCloseStream()
+    '''
 def setCloseStream():
-'''public void setCloseStream(final boolean closeStream)
-'''
-pass
+    '''    public void setCloseStream(final boolean closeStream)
+    '''
 def clearTextWrap():
-'''public void clearTextWrap()
-'''
-pass
+    '''    public void clearTextWrap()
+    '''
 def setMarginMirroring():
-'''public boolean setMarginMirroring(final boolean MarginMirroring)
-'''
-pass
+    '''    public boolean setMarginMirroring(final boolean MarginMirroring)
+    '''

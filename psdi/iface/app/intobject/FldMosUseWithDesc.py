@@ -1,8 +1,6 @@
 def FldMosUseWithDesc():
-'''public FldMosUseWithDesc(final MboValue mbv)
-'''
-pass
+    '''    public FldMosUseWithDesc(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

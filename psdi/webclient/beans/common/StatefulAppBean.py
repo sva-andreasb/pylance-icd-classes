@@ -1,64 +1,48 @@
 def StatefulAppBean():
-'''public StatefulAppBean()
-'''
-pass
+    '''    public StatefulAppBean()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def STATUSSUB():
-'''public int STATUSSUB()
-'''
-pass
+    '''    public int STATUSSUB()
+    '''
 def APPR():
-'''public int APPR()
-'''
-pass
+    '''    public int APPR()
+    '''
 def APPROVE():
-'''public int APPROVE()
-'''
-pass
+    '''    public int APPROVE()
+    '''
 def CLOSE():
-'''public int CLOSE()
-'''
-pass
+    '''    public int CLOSE()
+    '''
 def CLOSED():
-'''public int CLOSED()
-'''
-pass
+    '''    public int CLOSED()
+    '''
 def COMPLETE():
-'''public int COMPLETE()
-'''
-pass
+    '''    public int COMPLETE()
+    '''
 def COMP():
-'''public int COMP()
-'''
-pass
+    '''    public int COMP()
+    '''
 def INIT():
-'''public int INIT()
-'''
-pass
+    '''    public int INIT()
+    '''
 def SENT():
-'''public int SENT()
-'''
-pass
+    '''    public int SENT()
+    '''
 def PAID():
-'''public int PAID()
-'''
-pass
+    '''    public int PAID()
+    '''
 def QUEUED():
-'''public int QUEUED()
-'''
-pass
+    '''    public int QUEUED()
+    '''
 def INPROG():
-'''public int INPROG()
-'''
-pass
+    '''    public int INPROG()
+    '''
 def PENDING():
-'''public int PENDING()
-'''
-pass
+    '''    public int PENDING()
+    '''
 def RESOLVED():
-'''public int RESOLVED()
-'''
-pass
+    '''    public int RESOLVED()
+    '''

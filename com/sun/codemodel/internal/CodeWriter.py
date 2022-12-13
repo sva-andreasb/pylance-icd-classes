@@ -1,8 +1,6 @@
 def CodeWriter():
-'''public CodeWriter()
-'''
-pass
+    '''    public CodeWriter()
+    '''
 def openSource():
-'''public Writer openSource(final JPackage pkg, final String fileName)
-'''
-pass
+    '''    public Writer openSource(final JPackage pkg, final String fileName)
+    '''

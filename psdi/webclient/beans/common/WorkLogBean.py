@@ -1,16 +1,12 @@
 def servicelog():
-'''public int servicelog()
-'''
-pass
+    '''    public int servicelog()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def selectlog():
-'''public int selectlog()
-'''
-pass
+    '''    public int selectlog()
+    '''
 def dataChangedEvent():
-'''public synchronized void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void dataChangedEvent(final DataBean speaker)
+    '''

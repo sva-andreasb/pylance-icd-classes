@@ -1,40 +1,30 @@
 def getChildNodes():
-'''public NodeList getChildNodes()
-'''
-pass
+    '''    public NodeList getChildNodes()
+    '''
 def getAttributes():
-'''public NamedNodeMap getAttributes()
-'''
-pass
+    '''    public NamedNodeMap getAttributes()
+    '''
 def hasChildNodes():
-'''public boolean hasChildNodes()
-'''
-pass
+    '''    public boolean hasChildNodes()
+    '''
 def normalize():
-'''public void normalize()
-'''
-pass
+    '''    public void normalize()
+    '''
 def isSupported():
-'''public boolean isSupported(final String s, final String s2)
-'''
-pass
+    '''    public boolean isSupported(final String s, final String s2)
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String s)
-'''
-pass
+    '''    public void setPrefix(final String s)
+    '''
 def getLocalName():
-'''public String getLocalName()
-'''
-pass
+    '''    public String getLocalName()
+    '''
 def hasAttributes():
-'''public boolean hasAttributes()
-'''
-pass
+    '''    public boolean hasAttributes()
+    '''

@@ -1,8 +1,6 @@
 def FldMatServCurrencyLoadedCost():
-'''public FldMatServCurrencyLoadedCost(final MboValue mbv)
-'''
-pass
+    '''    public FldMatServCurrencyLoadedCost(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

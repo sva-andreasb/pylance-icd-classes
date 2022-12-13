@@ -1,8 +1,6 @@
 def FldCITypeStatus():
-'''public FldCITypeStatus(final MboValue mv)
-'''
-pass
+    '''    public FldCITypeStatus(final MboValue mv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,50 +1,38 @@
 def ConfigurationScheduler():
-'''public ConfigurationScheduler()
-public ConfigurationScheduler(final String name)
-'''
-pass
+    '''    public ConfigurationScheduler()
+    public ConfigurationScheduler(final String name)
+    '''
 def start():
-'''public void start()
-'''
-pass
+    '''    public void start()
+    '''
 def stop():
-'''public boolean stop(final long timeout, final TimeUnit timeUnit)
-'''
-pass
+    '''    public boolean stop(final long timeout, final TimeUnit timeUnit)
+    '''
 def isExecutorServiceSet():
-'''public boolean isExecutorServiceSet()
-'''
-pass
+    '''    public boolean isExecutorServiceSet()
+    '''
 def incrementScheduledItems():
-'''public void incrementScheduledItems()
-'''
-pass
+    '''    public void incrementScheduledItems()
+    '''
 def decrementScheduledItems():
-'''public void decrementScheduledItems()
-'''
-pass
+    '''    public void decrementScheduledItems()
+    '''
 def schedule():
-'''public <V> ScheduledFuture<V> schedule(final Callable<V> callable, final long delay, final TimeUnit unit)
-'''
-pass
+    '''    public <V> ScheduledFuture<V> schedule(final Callable<V> callable, final long delay, final TimeUnit unit)
+    '''
 def nextFireInterval():
-'''public long nextFireInterval(final Date fireDate)
-'''
-pass
+    '''    public long nextFireInterval(final Date fireDate)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def CronRunnable():
-'''public CronRunnable(final Runnable runnable, final CronExpression cronExpression)
-'''
-pass
+    '''    public CronRunnable(final Runnable runnable, final CronExpression cronExpression)
+    '''
 def setScheduledFuture():
-'''public void setScheduledFuture(final CronScheduledFuture<?> future)
-'''
-pass
+    '''    public void setScheduledFuture(final CronScheduledFuture<?> future)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

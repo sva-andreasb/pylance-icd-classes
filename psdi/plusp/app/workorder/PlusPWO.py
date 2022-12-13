@@ -1,131 +1,99 @@
 def PlusPWO():
-'''public PlusPWO(final MboSet arg0)
-'''
-pass
+    '''    public PlusPWO(final MboSet arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def changeStatus():
-'''public void changeStatus(final String s, final Date date, final String memo, final long accessModifier)
-'''
-pass
+    '''    public void changeStatus(final String s, final Date date, final String memo, final long accessModifier)
+    '''
 def deleteToBeBilledAndTr():
-'''public void deleteToBeBilledAndTr()
-'''
-pass
+    '''    public void deleteToBeBilledAndTr()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def recalculatePrices():
-'''public void recalculatePrices(final MboRemote mboRemote)
-'''
-pass
+    '''    public void recalculatePrices(final MboRemote mboRemote)
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def setBillBatchWarned():
-'''public void setBillBatchWarned(final boolean billBatchWarned)
-'''
-pass
+    '''    public void setBillBatchWarned(final boolean billBatchWarned)
+    '''
 def billBatchWarned():
-'''public boolean billBatchWarned()
-'''
-pass
+    '''    public boolean billBatchWarned()
+    '''
 def isWoInAnyBillBatch():
-'''public boolean isWoInAnyBillBatch()
-'''
-pass
+    '''    public boolean isWoInAnyBillBatch()
+    '''
 def warnAssociatedWithBillBatch():
-'''public boolean warnAssociatedWithBillBatch(final String s)
-public boolean warnAssociatedWithBillBatch()
-'''
-pass
+    '''    public boolean warnAssociatedWithBillBatch(final String s)
+    public boolean warnAssociatedWithBillBatch()
+    '''
 def copyPlanFeeChargeToGBTransSet():
-'''public void copyPlanFeeChargeToGBTransSet(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void copyPlanFeeChargeToGBTransSet(final MboSetRemote mboSetRemote)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def calculateTotals():
-'''public void calculateTotals()
-'''
-pass
+    '''    public void calculateTotals()
+    '''
 def initQuote():
-'''public void initQuote()
-public void initQuote(final String s)
-'''
-pass
+    '''    public void initQuote()
+    public void initQuote(final String s)
+    '''
 def copyQuoteFields():
-'''public void copyQuoteFields()
-public void copyQuoteFields(final String s)
-'''
-pass
+    '''    public void copyQuoteFields()
+    public void copyQuoteFields(final String s)
+    '''
 def setModifyPSFlags():
-'''public void setModifyPSFlags()
-'''
-pass
+    '''    public void setModifyPSFlags()
+    '''
 def removePS():
-'''public boolean removePS()
-'''
-pass
+    '''    public boolean removePS()
+    '''
 def getPlusPWOforWonum():
-'''public PlusPWORemote getPlusPWOforWonum(final String wonum)
-'''
-pass
+    '''    public PlusPWORemote getPlusPWOforWonum(final String wonum)
+    '''
 def getPlusPWOforTask():
-'''public MboRemote getPlusPWOforTask(final String task)
-'''
-pass
+    '''    public MboRemote getPlusPWOforTask(final String task)
+    '''
 def copy():
-'''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
-'''
-pass
+    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(String upperCase)
-'''
-pass
+    '''    public MboSetRemote getMboSet(String upperCase)
+    '''
 def getWOUtil():
-'''public PlusPWorkorderUtil getWOUtil()
-'''
-pass
+    '''    public PlusPWorkorderUtil getWOUtil()
+    '''
 def copyIntServItemsToServRecTransSet():
-'''public void copyIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void copyIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)
+    '''
 def copyPlanIntServItemsToServRecTransSet():
-'''public void copyPlanIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void copyPlanIntServItemsToServRecTransSet(final MboSetRemote mboSetRemote)
+    '''
 def copyJobPlanToWorkPlan():
-'''public void copyJobPlanToWorkPlan()
-'''
-pass
+    '''    public void copyJobPlanToWorkPlan()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def getValidStatusToCreateBill():
-'''public HashSet<String> getValidStatusToCreateBill()
-'''
-pass
+    '''    public HashSet<String> getValidStatusToCreateBill()
+    '''
 def copyPlanLaborToLabTransSet():
-'''public void copyPlanLaborToLabTransSet(final MboSetRemote planLaborSet)
-'''
-pass
+    '''    public void copyPlanLaborToLabTransSet(final MboSetRemote planLaborSet)
+    '''
 def copyInvresvItemsToMatUseSet():
-'''public void copyInvresvItemsToMatUseSet(final MboSetRemote invresvItemSet)
-'''
-pass
+    '''    public void copyInvresvItemsToMatUseSet(final MboSetRemote invresvItemSet)
+    '''

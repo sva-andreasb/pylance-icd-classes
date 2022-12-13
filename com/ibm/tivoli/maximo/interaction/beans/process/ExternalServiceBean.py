@@ -1,16 +1,12 @@
 def ExternalServiceBean():
-'''public ExternalServiceBean()
-'''
-pass
+    '''    public ExternalServiceBean()
+    '''
 def invokeservice():
-'''public int invokeservice()
-'''
-pass
+    '''    public int invokeservice()
+    '''
 def applychanges():
-'''public int applychanges()
-'''
-pass
+    '''    public int applychanges()
+    '''
 def silentmode():
-'''public int silentmode()
-'''
-pass
+    '''    public int silentmode()
+    '''

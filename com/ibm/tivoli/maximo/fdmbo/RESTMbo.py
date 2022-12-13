@@ -1,4 +1,3 @@
 def RESTMbo():
-'''public RESTMbo(final MboSet ms)
-'''
-pass
+    '''    public RESTMbo(final MboSet ms)
+    '''

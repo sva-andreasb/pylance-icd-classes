@@ -1,24 +1,18 @@
 def SystemsTreeBean():
-'''public SystemsTreeBean()
-'''
-pass
+    '''    public SystemsTreeBean()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def getRecordSelected():
-'''public boolean getRecordSelected()
-'''
-pass
+    '''    public boolean getRecordSelected()
+    '''
 def selectnode():
-'''public int selectnode()
-'''
-pass
+    '''    public int selectnode()
+    '''
 def getHighlightedUID():
-'''public long getHighlightedUID()
-'''
-pass
+    '''    public long getHighlightedUID()
+    '''
 def setHierarchy():
-'''public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
-'''
-pass
+    '''    public void setHierarchy(final String objectname, final String uniqueid, final String hierarchy)
+    '''

@@ -1,8 +1,6 @@
 def FldYZOffsetRef():
-'''public FldYZOffsetRef(final MboValue mbv)
-'''
-pass
+    '''    public FldYZOffsetRef(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

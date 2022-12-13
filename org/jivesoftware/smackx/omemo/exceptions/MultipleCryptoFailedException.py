@@ -1,8 +1,6 @@
 def from():
-'''public static MultipleCryptoFailedException from(final List<CryptoFailedException> cryptoFailedExceptions)
-'''
-pass
+    '''    public static MultipleCryptoFailedException from(final List<CryptoFailedException> cryptoFailedExceptions)
+    '''
 def getCryptoFailedExceptions():
-'''public List<CryptoFailedException> getCryptoFailedExceptions()
-'''
-pass
+    '''    public List<CryptoFailedException> getCryptoFailedExceptions()
+    '''

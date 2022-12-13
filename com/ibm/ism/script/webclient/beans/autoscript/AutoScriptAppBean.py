@@ -1,56 +1,42 @@
 def EXECUTE():
-'''public int EXECUTE()
-'''
-pass
+    '''    public int EXECUTE()
+    '''
 def executeScript():
-'''public void executeScript()
-'''
-pass
+    '''    public void executeScript()
+    '''
 def CREATEACT():
-'''public int CREATEACT()
-'''
-pass
+    '''    public int CREATEACT()
+    '''
 def createAction():
-'''public void createAction()
-'''
-pass
+    '''    public void createAction()
+    '''
 def properties():
-'''public int properties()
-'''
-pass
+    '''    public int properties()
+    '''
 def addobjectlaunchevent():
-'''public int addobjectlaunchevent()
-'''
-pass
+    '''    public int addobjectlaunchevent()
+    '''
 def addattributelaunchevent():
-'''public int addattributelaunchevent()
-'''
-pass
+    '''    public int addattributelaunchevent()
+    '''
 def addactionlaunchevent():
-'''public int addactionlaunchevent()
-'''
-pass
+    '''    public int addactionlaunchevent()
+    '''
 def addcustomconditionlaunchevent():
-'''public int addcustomconditionlaunchevent()
-'''
-pass
+    '''    public int addcustomconditionlaunchevent()
+    '''
 def addscriptevent():
-'''public int addscriptevent(final String intDomType)
-'''
-pass
+    '''    public int addscriptevent(final String intDomType)
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def insert():
-'''public synchronized void insert()
-'''
-pass
+    '''    public synchronized void insert()
+    '''
 def STATUS():
-'''public int STATUS()
-'''
-pass
+    '''    public int STATUS()
+    '''
 def complete():
-'''public int complete()
-'''
-pass
+    '''    public int complete()
+    '''

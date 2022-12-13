@@ -1,20 +1,15 @@
 def getPublicURI():
-'''public static String getPublicURI()
-'''
-pass
+    '''    public static String getPublicURI()
+    '''
 def setPublicURI():
-'''public static void setPublicURI(final String newPublicURI)
-'''
-pass
+    '''    public static void setPublicURI(final String newPublicURI)
+    '''
 def isHostResolutionDisabled():
-'''public static boolean isHostResolutionDisabled()
-'''
-pass
+    '''    public static boolean isHostResolutionDisabled()
+    '''
 def setHostResolutionDisabled():
-'''public static void setHostResolutionDisabled(final boolean hostResDisabled)
-'''
-pass
+    '''    public static void setHostResolutionDisabled(final boolean hostResDisabled)
+    '''
 def resolveURI():
-'''public static String resolveURI(final HttpServletRequest request, final boolean includePath)
-'''
-pass
+    '''    public static String resolveURI(final HttpServletRequest request, final boolean includePath)
+    '''

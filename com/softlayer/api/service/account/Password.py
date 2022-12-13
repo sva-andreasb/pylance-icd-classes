@@ -1,141 +1,106 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def setType():
-'''public void setType(final com.softlayer.api.service.account.password.Type type)
-'''
-pass
+    '''    public void setType(final com.softlayer.api.service.account.password.Type type)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getNotes():
-'''public String getNotes()
-'''
-pass
+    '''    public String getNotes()
+    '''
 def setNotes():
-'''public void setNotes(final String notes)
-'''
-pass
+    '''    public void setNotes(final String notes)
+    '''
 def isNotesSpecified():
-'''public boolean isNotesSpecified()
-'''
-pass
+    '''    public boolean isNotesSpecified()
+    '''
 def unsetNotes():
-'''public void unsetNotes()
-'''
-pass
+    '''    public void unsetNotes()
+    '''
 def getPassword():
-'''public String getPassword()
-'''
-pass
+    '''    public String getPassword()
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''
 def isPasswordSpecified():
-'''public boolean isPasswordSpecified()
-'''
-pass
+    '''    public boolean isPasswordSpecified()
+    '''
 def unsetPassword():
-'''public void unsetPassword()
-'''
-pass
+    '''    public void unsetPassword()
+    '''
 def getTypeId():
-'''public Long getTypeId()
-'''
-pass
+    '''    public Long getTypeId()
+    '''
 def setTypeId():
-'''public void setTypeId(final Long typeId)
-'''
-pass
+    '''    public void setTypeId(final Long typeId)
+    '''
 def isTypeIdSpecified():
-'''public boolean isTypeIdSpecified()
-'''
-pass
+    '''    public boolean isTypeIdSpecified()
+    '''
 def unsetTypeId():
-'''public void unsetTypeId()
-'''
-pass
+    '''    public void unsetTypeId()
+    '''
 def getUsername():
-'''public String getUsername()
-'''
-pass
+    '''    public String getUsername()
+    '''
 def setUsername():
-'''public void setUsername(final String username)
-'''
-pass
+    '''    public void setUsername(final String username)
+    '''
 def isUsernameSpecified():
-'''public boolean isUsernameSpecified()
-'''
-pass
+    '''    public boolean isUsernameSpecified()
+    '''
 def unsetUsername():
-'''public void unsetUsername()
-'''
-pass
+    '''    public void unsetUsername()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def notes():
-'''public Mask notes()
-'''
-pass
+    '''    public Mask notes()
+    '''
 def password():
-'''public Mask password()
-'''
-pass
+    '''    public Mask password()
+    '''
 def typeId():
-'''public Mask typeId()
-'''
-pass
+    '''    public Mask typeId()
+    '''
 def username():
-'''public Mask username()
-'''
-pass
+    '''    public Mask username()
+    '''

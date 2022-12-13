@@ -1,4 +1,4 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 NO_EXEC = "int  0"
 SOLVE = "int  2"
 SOLVE_ANYWAY = "int  3"

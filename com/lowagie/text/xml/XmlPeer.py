@@ -1,36 +1,27 @@
 def XmlPeer():
-'''public XmlPeer(final String name, final String alias)
-'''
-pass
+    '''    public XmlPeer(final String name, final String alias)
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def getAlias():
-'''public String getAlias()
-'''
-pass
+    '''    public String getAlias()
+    '''
 def getAttributes():
-'''public Properties getAttributes(final Attributes attrs)
-'''
-pass
+    '''    public Properties getAttributes(final Attributes attrs)
+    '''
 def addAlias():
-'''public void addAlias(final String name, final String alias)
-'''
-pass
+    '''    public void addAlias(final String name, final String alias)
+    '''
 def addValue():
-'''public void addValue(final String name, final String value)
-'''
-pass
+    '''    public void addValue(final String name, final String value)
+    '''
 def setContent():
-'''public void setContent(final String content)
-'''
-pass
+    '''    public void setContent(final String content)
+    '''
 def getName():
-'''public String getName(final String name)
-'''
-pass
+    '''    public String getName(final String name)
+    '''
 def getDefaultValues():
-'''public Properties getDefaultValues()
-'''
-pass
+    '''    public Properties getDefaultValues()
+    '''

@@ -1,9 +1,7 @@
 def PlusPFldItemListSerialNumber():
-'''public PlusPFldItemListSerialNumber()
-public PlusPFldItemListSerialNumber(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldItemListSerialNumber()
+    public PlusPFldItemListSerialNumber(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

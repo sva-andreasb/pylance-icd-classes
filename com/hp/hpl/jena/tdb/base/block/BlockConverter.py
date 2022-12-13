@@ -1,49 +1,37 @@
 def getBlockMgr():
-'''public BlockMgr getBlockMgr()
-'''
-pass
+    '''    public BlockMgr getBlockMgr()
+    '''
 def allocateId():
-'''public int allocateId()
-'''
-pass
+    '''    public int allocateId()
+    '''
 def create():
-'''public T create(final int id, final BlockType bType)
-'''
-pass
+    '''    public T create(final int id, final BlockType bType)
+    '''
 def get():
-'''public T get(final int id)
-'''
-pass
+    '''    public T get(final int id)
+    '''
 def put():
-'''public void put(final int id, final T page)
-public void put(final T page)
-'''
-pass
+    '''    public void put(final int id, final T page)
+    public void put(final T page)
+    '''
 def release():
-'''public void release(final int id)
-'''
-pass
+    '''    public void release(final int id)
+    '''
 def valid():
-'''public boolean valid(final int id)
-'''
-pass
+    '''    public boolean valid(final int id)
+    '''
 def dump():
-'''public void dump()
-'''
-pass
+    '''    public void dump()
+    '''
 def startUpdate():
-'''public void startUpdate()
-'''
-pass
+    '''    public void startUpdate()
+    '''
 def finishUpdate():
-'''public void finishUpdate()
-'''
-pass
+    '''    public void finishUpdate()
+    '''
 def startRead():
-'''public void startRead()
-'''
-pass
+    '''    public void startRead()
+    '''
 def finishRead():
-'''public void finishRead()
-'''
-pass
+    '''    public void finishRead()
+    '''

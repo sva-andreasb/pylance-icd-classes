@@ -1,25 +1,19 @@
 def Px():
-'''public Px(final int n, final File file)
-public Px(final int n, final String s, final String s2, final File file)
-'''
-pass
+    '''    public Px(final int n, final File file)
+    public Px(final int n, final String s, final String s2, final File file)
+    '''
 def isInMemory():
-'''public boolean isInMemory()
-'''
-pass
+    '''    public boolean isInMemory()
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream out)
-'''
-pass
+    '''    public void writeTo(final OutputStream out)
+    '''

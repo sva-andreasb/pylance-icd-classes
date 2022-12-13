@@ -1,24 +1,18 @@
 def AnalyzeSql():
-'''public AnalyzeSql(final String sql)
-'''
-pass
+    '''    public AnalyzeSql(final String sql)
+    '''
 def getTargetTable():
-'''public String getTargetTable()
-'''
-pass
+    '''    public String getTargetTable()
+    '''
 def isInsert():
-'''public boolean isInsert()
-'''
-pass
+    '''    public boolean isInsert()
+    '''
 def appendWhere():
-'''public String appendWhere(final String additionalWhere)
-'''
-pass
+    '''    public String appendWhere(final String additionalWhere)
+    '''
 def isUpdate():
-'''public boolean isUpdate()
-'''
-pass
+    '''    public boolean isUpdate()
+    '''
 def getUpdateWhere():
-'''public String getUpdateWhere()
-'''
-pass
+    '''    public String getUpdateWhere()
+    '''

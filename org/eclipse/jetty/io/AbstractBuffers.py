@@ -1,24 +1,18 @@
 def AbstractBuffers():
-'''public AbstractBuffers(final Type headerType, final int headerSize, final Type bufferType, final int bufferSize, final Type otherType)
-'''
-pass
+    '''    public AbstractBuffers(final Type headerType, final int headerSize, final Type bufferType, final int bufferSize, final Type otherType)
+    '''
 def getBufferSize():
-'''public int getBufferSize()
-'''
-pass
+    '''    public int getBufferSize()
+    '''
 def getHeaderSize():
-'''public int getHeaderSize()
-'''
-pass
+    '''    public int getHeaderSize()
+    '''
 def isHeader():
-'''public final boolean isHeader(final Buffer buffer)
-'''
-pass
+    '''    public final boolean isHeader(final Buffer buffer)
+    '''
 def isBuffer():
-'''public final boolean isBuffer(final Buffer buffer)
-'''
-pass
+    '''    public final boolean isBuffer(final Buffer buffer)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

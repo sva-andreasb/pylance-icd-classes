@@ -1,77 +1,61 @@
 TYPE_OMEMO_PREKEY_MESSAGE = "int  1"
 TYPE_OMEMO_MESSAGE = "int  0"
-ENCRYPTED = "String  encrypted""
-HEADER = "String  header""
-SID = "String  sid""
-KEY = "String  key""
-RID = "String  rid""
-PREKEY = "String  prekey""
-IV = "String  iv""
-PAYLOAD = "String  payload""
+ENCRYPTED = "String  \"encrypted\""
+HEADER = "String  \"header\""
+SID = "String  \"sid\""
+KEY = "String  \"key\""
+RID = "String  \"rid\""
+PREKEY = "String  \"prekey\""
+IV = "String  \"iv\""
+PAYLOAD = "String  \"payload\""
 def OmemoElement():
-'''public OmemoElement(final OmemoHeader header, final byte[] payload)
-'''
-pass
+    '''    public OmemoElement(final OmemoHeader header, final byte[] payload)
+    '''
 def getHeader():
-'''public OmemoHeader getHeader()
-'''
-pass
+    '''    public OmemoHeader getHeader()
+    '''
 def getPayload():
-'''public byte[] getPayload()
-'''
-pass
+    '''    public byte[] getPayload()
+    '''
 def isKeyTransportElement():
-'''public boolean isKeyTransportElement()
-'''
-pass
+    '''    public boolean isKeyTransportElement()
+    '''
 def isMessageElement():
-'''public boolean isMessageElement()
-'''
-pass
+    '''    public boolean isMessageElement()
+    '''
 def OmemoHeader():
-'''public OmemoHeader(final int sid, final ArrayList<Key> keys, final byte[] iv)
-'''
-pass
+    '''    public OmemoHeader(final int sid, final ArrayList<Key> keys, final byte[] iv)
+    '''
 def getSid():
-'''public int getSid()
-'''
-pass
+    '''    public int getSid()
+    '''
 def getKeys():
-'''public ArrayList<Key> getKeys()
-'''
-pass
+    '''    public ArrayList<Key> getKeys()
+    '''
 def getIv():
-'''public byte[] getIv()
-'''
-pass
+    '''    public byte[] getIv()
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    '''
 def toXML():
-'''public CharSequence toXML(final String enclosingNamespace)
-public CharSequence toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public CharSequence toXML(final String enclosingNamespace)
+    public CharSequence toXML(final String enclosingNamespace)
+    '''
 def Key():
-'''public Key(final byte[] data, final int id)
-public Key(final byte[] data, final int id, final boolean preKey)
-'''
-pass
+    '''    public Key(final byte[] data, final int id)
+    public Key(final byte[] data, final int id, final boolean preKey)
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def isPreKey():
-'''public boolean isPreKey()
-'''
-pass
+    '''    public boolean isPreKey()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

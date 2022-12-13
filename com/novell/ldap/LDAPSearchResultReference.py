@@ -1,9 +1,7 @@
 def LDAPSearchResultReference():
-'''public LDAPSearchResultReference()
-public LDAPSearchResultReference(final String[] array)
-'''
-pass
+    '''    public LDAPSearchResultReference()
+    public LDAPSearchResultReference(final String[] array)
+    '''
 def getReferrals():
-'''public String[] getReferrals()
-'''
-pass
+    '''    public String[] getReferrals()
+    '''

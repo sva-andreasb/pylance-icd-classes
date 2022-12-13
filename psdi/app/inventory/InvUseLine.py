@@ -1,425 +1,321 @@
 def InvUseLine():
-'''public InvUseLine(final MboSet ms)
-'''
-pass
+    '''    public InvUseLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def isIssue():
-'''public boolean isIssue()
-'''
-pass
+    '''    public boolean isIssue()
+    '''
 def isReturn():
-'''public boolean isReturn()
-'''
-pass
+    '''    public boolean isReturn()
+    '''
 def isMixed():
-'''public boolean isMixed()
-'''
-pass
+    '''    public boolean isMixed()
+    '''
 def isTransfer():
-'''public boolean isTransfer()
-'''
-pass
+    '''    public boolean isTransfer()
+    '''
 def isRotating():
-'''public boolean isRotating()
-'''
-pass
+    '''    public boolean isRotating()
+    '''
 def isLotted():
-'''public boolean isLotted()
-'''
-pass
+    '''    public boolean isLotted()
+    '''
 def isTool():
-'''public boolean isTool()
-'''
-pass
+    '''    public boolean isTool()
+    '''
 def getSharedInventory():
-'''public MboRemote getSharedInventory()
-public MboRemote getSharedInventory(final String storeLoc, final String siteid)
-'''
-pass
+    '''    public MboRemote getSharedInventory()
+    public MboRemote getSharedInventory(final String storeLoc, final String siteid)
+    '''
 def getSharedInvBalance():
-'''public MboRemote getSharedInvBalance()
-public MboRemote getSharedInvBalance(final String binnum, final String lotnum)
-public MboRemote getSharedInvBalance(final String binnum, final String lotnum, final boolean sameBin)
-public MboRemote getSharedInvBalance(final String binnum, final String lotnum, final String storeloc, final String siteid)
-'''
-pass
+    '''    public MboRemote getSharedInvBalance()
+    public MboRemote getSharedInvBalance(final String binnum, final String lotnum)
+    public MboRemote getSharedInvBalance(final String binnum, final String lotnum, final boolean sameBin)
+    public MboRemote getSharedInvBalance(final String binnum, final String lotnum, final String storeloc, final String siteid)
+    '''
 def setIssueForThisReturn():
-'''public void setIssueForThisReturn(final MboRemote issue)
-'''
-pass
+    '''    public void setIssueForThisReturn(final MboRemote issue)
+    '''
 def getWO():
-'''public MboRemote getWO()
-'''
-pass
+    '''    public MboRemote getWO()
+    '''
 def validateInvUseLine():
-'''public void validateInvUseLine(final ArrayList<InvUseLineSplitRemote> splitList)
-'''
-pass
+    '''    public void validateInvUseLine(final ArrayList<InvUseLineSplitRemote> splitList)
+    '''
 def preValidateLine():
-'''public void preValidateLine()
-'''
-pass
+    '''    public void preValidateLine()
+    '''
 def validateLine():
-'''public void validateLine()
-'''
-pass
+    '''    public void validateLine()
+    '''
 def checkInvBal():
-'''public void checkInvBal(final MboRemote invBal, final String parentInvUseStatus)
-'''
-pass
+    '''    public void checkInvBal(final MboRemote invBal, final String parentInvUseStatus)
+    '''
 def checkLotExpiry():
-'''public void checkLotExpiry(final MboRemote invBal, final ItemRemote item)
-'''
-pass
+    '''    public void checkLotExpiry(final MboRemote invBal, final ItemRemote item)
+    '''
 def checkAssetWOLocValidate():
-'''public void checkAssetWOLocValidate()
-'''
-pass
+    '''    public void checkAssetWOLocValidate()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def getBinNumFlag():
-'''public boolean getBinNumFlag()
-'''
-pass
+    '''    public boolean getBinNumFlag()
+    '''
 def setBinNumFlag():
-'''public void setBinNumFlag(final boolean binNumFlag)
-'''
-pass
+    '''    public void setBinNumFlag(final boolean binNumFlag)
+    '''
 def addUpdateInvUseLineSplit():
-'''public MboRemote addUpdateInvUseLineSplit()
-'''
-pass
+    '''    public MboRemote addUpdateInvUseLineSplit()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def setPickListStatus():
-'''public void setPickListStatus(final MboRemote owner)
-'''
-pass
+    '''    public void setPickListStatus(final MboRemote owner)
+    '''
 def setInvUseStatus():
-'''public void setInvUseStatus(final MboRemote owner)
-'''
-pass
+    '''    public void setInvUseStatus(final MboRemote owner)
+    '''
 def isPLActionApplied():
-'''public boolean isPLActionApplied(final String action)
-'''
-pass
+    '''    public boolean isPLActionApplied(final String action)
+    '''
 def chkPickListMbo():
-'''public boolean chkPickListMbo(final MboRemote owner)
-'''
-pass
+    '''    public boolean chkPickListMbo(final MboRemote owner)
+    '''
 def updateAutoCreatedInvUseLineSplit():
-'''public MboRemote updateAutoCreatedInvUseLineSplit()
-'''
-pass
+    '''    public MboRemote updateAutoCreatedInvUseLineSplit()
+    '''
 def restockPickedQty():
-'''public void restockPickedQty()
-'''
-pass
+    '''    public void restockPickedQty()
+    '''
 def restockStagedQty():
-'''public void restockStagedQty()
-'''
-pass
+    '''    public void restockStagedQty()
+    '''
 def setStagingBin():
-'''public void setStagingBin(final String binflag, final String stagingBin)
-'''
-pass
+    '''    public void setStagingBin(final String binflag, final String stagingBin)
+    '''
 def checkForNegativeBalance():
-'''public void checkForNegativeBalance(final MboRemote invBal, final MboRemote invuselinesplit)
-'''
-pass
+    '''    public void checkForNegativeBalance(final MboRemote invBal, final MboRemote invuselinesplit)
+    '''
 def checkForNegativeAvlBalanceBeforeSplitting():
-'''public void checkForNegativeAvlBalanceBeforeSplitting()
-'''
-pass
+    '''    public void checkForNegativeAvlBalanceBeforeSplitting()
+    '''
 def getSharedInvReserveSet():
-'''public MboSetRemote getSharedInvReserveSet()
-'''
-pass
+    '''    public MboSetRemote getSharedInvReserveSet()
+    '''
 def updateInvBalances():
-'''public void updateInvBalances(final MboRemote mbo, final double quantity, final String status)
-'''
-pass
+    '''    public void updateInvBalances(final MboRemote mbo, final double quantity, final String status)
+    '''
 def updateStagedInvBalances():
-'''public void updateStagedInvBalances(final String status)
-public void updateStagedInvBalances(final String status, final MboRemote mbo)
-'''
-pass
+    '''    public void updateStagedInvBalances(final String status)
+    public void updateStagedInvBalances(final String status, final MboRemote mbo)
+    '''
 def updateInvReservePendingQty():
-'''public void updateInvReservePendingQty()
-'''
-pass
+    '''    public void updateInvReservePendingQty()
+    '''
 def updateInvReserveStagedQty():
-'''public void updateInvReserveStagedQty()
-public void updateInvReserveStagedQty(final MboRemote mbo)
-'''
-pass
+    '''    public void updateInvReserveStagedQty()
+    public void updateInvReserveStagedQty(final MboRemote mbo)
+    '''
 def updateInvReservePickedQty():
-'''public void updateInvReservePickedQty(final MboRemote mbo)
-'''
-pass
+    '''    public void updateInvReservePickedQty(final MboRemote mbo)
+    '''
 def updateInvReserveActualQty():
-'''public void updateInvReserveActualQty()
-public void updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum)
-public void updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum, final MboRemote mbo)
-'''
-pass
+    '''    public void updateInvReserveActualQty()
+    public void updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum)
+    public void updateInvReserveActualQty(final boolean toUpdateWithNoRequestnum, final MboRemote mbo)
+    '''
 def updateInvReserveShippedQty():
-'''public void updateInvReserveShippedQty()
-'''
-pass
+    '''    public void updateInvReserveShippedQty()
+    '''
 def updateInvReserveForCancel():
-'''public void updateInvReserveForCancel()
-'''
-pass
+    '''    public void updateInvReserveForCancel()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def checkReservationExist():
-'''public boolean checkReservationExist()
-'''
-pass
+    '''    public boolean checkReservationExist()
+    '''
 def checkReservationExistForInfo():
-'''public void checkReservationExistForInfo()
-'''
-pass
+    '''    public void checkReservationExistForInfo()
+    '''
 def checkIssueExist():
-'''public boolean checkIssueExist()
-'''
-pass
+    '''    public boolean checkIssueExist()
+    '''
 def checkIssueExistForInfo():
-'''public void checkIssueExistForInfo()
-'''
-pass
+    '''    public void checkIssueExistForInfo()
+    '''
 def updateInvUseLineForReservation():
-'''public void updateInvUseLineForReservation(final MboRemote reservation)
-'''
-pass
+    '''    public void updateInvUseLineForReservation(final MboRemote reservation)
+    '''
 def updateInvUseLineForReturn():
-'''public void updateInvUseLineForReturn(final MboRemote issuedItemForReturn)
-'''
-pass
+    '''    public void updateInvUseLineForReturn(final MboRemote issuedItemForReturn)
+    '''
 def addRecordForStageTransfer():
-'''public void addRecordForStageTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
-'''
-pass
+    '''    public void addRecordForStageTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''
 def addMatRecTransRecordForPickTransfer():
-'''public MboRemote addMatRecTransRecordForPickTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForPickTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''
 def addMatRecTransRecordForRestockTransfer():
-'''public MboRemote addMatRecTransRecordForRestockTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForRestockTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''
 def addMatRecTransRecordForStageTransfer():
-'''public MboRemote addMatRecTransRecordForStageTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForStageTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''
 def addRecordForShipTransfer():
-'''public void addRecordForShipTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
-'''
-pass
+    '''    public void addRecordForShipTransfer(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''
 def addMatRecTransRecordForShipTransfer():
-'''public MboRemote addMatRecTransRecordForShipTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForShipTransfer(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''
 def addTransferRecordForComplete():
-'''public void addTransferRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
-'''
-pass
+    '''    public void addTransferRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''
 def addMatRecTransRecordForComplete():
-'''public MboRemote addMatRecTransRecordForComplete(final MboSetRemote matrecMboSet, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForComplete(final MboSetRemote matrecMboSet, final MboRemote mbo)
+    '''
 def addIssueReturnRecordForComplete():
-'''public void addIssueReturnRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
-'''
-pass
+    '''    public void addIssueReturnRecordForComplete(final MboSetRemote matrecMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit)
+    '''
 def addMatUseTransRecordForComplete():
-'''public MboRemote addMatUseTransRecordForComplete(final MboSetRemote matuseMboSet, final MboRemote mbo)
-'''
-pass
+    '''    public MboRemote addMatUseTransRecordForComplete(final MboSetRemote matuseMboSet, final MboRemote mbo)
+    '''
 def addMatRecTransRecordForCancelStageTransfer():
-'''public MboRemote addMatRecTransRecordForCancelStageTransfer()
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForCancelStageTransfer()
+    '''
 def addMatRecTransRecordForCancelShipTransfer():
-'''public MboRemote addMatRecTransRecordForCancelShipTransfer()
-'''
-pass
+    '''    public MboRemote addMatRecTransRecordForCancelShipTransfer()
+    '''
 def getPO():
-'''public MboRemote getPO()
-'''
-pass
+    '''    public MboRemote getPO()
+    '''
 def setOwnerPO():
-'''public void setOwnerPO(final MboRemote po)
-'''
-pass
+    '''    public void setOwnerPO(final MboRemote po)
+    '''
 def getPOLine():
-'''public MboRemote getPOLine()
-'''
-pass
+    '''    public MboRemote getPOLine()
+    '''
 def getTotalCurBalance():
-'''public double getTotalCurBalance()
-'''
-pass
+    '''    public double getTotalCurBalance()
+    '''
 def getInvUseLineQtyForReturn():
-'''public double getInvUseLineQtyForReturn(final long matusetransid)
-'''
-pass
+    '''    public double getInvUseLineQtyForReturn(final long matusetransid)
+    '''
 def getQtyForReturn():
-'''public double getQtyForReturn()
-'''
-pass
+    '''    public double getQtyForReturn()
+    '''
 def updateUnitCost():
-'''public void updateUnitCost()
-'''
-pass
+    '''    public void updateUnitCost()
+    '''
 def validateQty():
-'''public boolean validateQty()
-'''
-pass
+    '''    public boolean validateQty()
+    '''
 def needsSplitting():
-'''public boolean needsSplitting()
-'''
-pass
+    '''    public boolean needsSplitting()
+    '''
 def getDefaultLotNum():
-'''public String getDefaultLotNum()
-'''
-pass
+    '''    public String getDefaultLotNum()
+    '''
 def canGoNegative():
-'''public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
-public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double totalAvailable, final MboRemote sourceMbo)
-'''
-pass
+    '''    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double curbal, final double totalAvailable, final MboRemote sourceMbo)
+    public void canGoNegative(final UserInfo userInfo, final double toBeIssued, final double totalAvailable, final MboRemote sourceMbo)
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def checkItemStatus():
-'''public void checkItemStatus()
-'''
-pass
+    '''    public void checkItemStatus()
+    '''
 def setReservationUserPref():
-'''public void setReservationUserPref()
-'''
-pass
+    '''    public void setReservationUserPref()
+    '''
 def setReturnUserPref():
-'''public void setReturnUserPref()
-'''
-pass
+    '''    public void setReturnUserPref()
+    '''
 def setUserPref():
-'''public void setUserPref(final MboRemote mbo)
-'''
-pass
+    '''    public void setUserPref(final MboRemote mbo)
+    '''
 def getPendingQty():
-'''public double getPendingQty(final String requestnum, final String siteid)
-'''
-pass
+    '''    public double getPendingQty(final String requestnum, final String siteid)
+    '''
 def smartFindByObjectName():
-'''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''
 def checkRotatingAssetExistInToSite():
-'''public boolean checkRotatingAssetExistInToSite(final String rotassetnum, final MboRemote mbo)
-'''
-pass
+    '''    public boolean checkRotatingAssetExistInToSite(final String rotassetnum, final MboRemote mbo)
+    '''
 def updateAssetStatus():
-'''public void updateAssetStatus(final String rotassetnum, final String status)
-'''
-pass
+    '''    public void updateAssetStatus(final String rotassetnum, final String status)
+    '''
 def updateReceiptsComplete():
-'''public void updateReceiptsComplete()
-'''
-pass
+    '''    public void updateReceiptsComplete()
+    '''
 def updateReceivedQty():
-'''public void updateReceivedQty(final double receivedQty)
-'''
-pass
+    '''    public void updateReceivedQty(final double receivedQty)
+    '''
 def updateReturnedQty():
-'''public void updateReturnedQty(final double returnedQty)
-'''
-pass
+    '''    public void updateReturnedQty(final double returnedQty)
+    '''
 def isInspectionRequired():
-'''public boolean isInspectionRequired()
-'''
-pass
+    '''    public boolean isInspectionRequired()
+    '''
 def initFieldFlagsOnMbo():
-'''public void initFieldFlagsOnMbo(final String attrName)
-'''
-pass
+    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''
 def setDisplayUnitCost():
-'''public void setDisplayUnitCost()
-'''
-pass
+    '''    public void setDisplayUnitCost()
+    '''
 def updateLifoFifoTable():
-'''public void updateLifoFifoTable(final MboRemote invUseLineSplit)
-'''
-pass
+    '''    public void updateLifoFifoTable(final MboRemote invUseLineSplit)
+    '''
 def updateLifoFifoForCancelled():
-'''public void updateLifoFifoForCancelled(final MboRemote useLine)
-'''
-pass
+    '''    public void updateLifoFifoForCancelled(final MboRemote useLine)
+    '''
 def addTransactionRecordsLIFOFIFO():
-'''public void addTransactionRecordsLIFOFIFO(final MboSetRemote transMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit, final String status)
-'''
-pass
+    '''    public void addTransactionRecordsLIFOFIFO(final MboSetRemote transMboSet, final ArrayList<InvUseLineSplitRemote> splitLineSplit, final String status)
+    '''
 def updateInvLifoFifoCostSet():
-'''public double updateInvLifoFifoCostSet(final MboSetRemote transMboSet, MboRemote invUseLineSplit, final MboSetRemote invlifofifocostset, final String status)
-'''
-pass
+    '''    public double updateInvLifoFifoCostSet(final MboSetRemote transMboSet, MboRemote invUseLineSplit, final MboSetRemote invlifofifocostset, final String status)
+    '''
 def setAttributesEditibiltyForReturn():
-'''public void setAttributesEditibiltyForReturn()
-'''
-pass
+    '''    public void setAttributesEditibiltyForReturn()
+    '''
 def allKitComponentsAreInTransferToStore():
-'''public void allKitComponentsAreInTransferToStore()
-'''
-pass
+    '''    public void allKitComponentsAreInTransferToStore()
+    '''
 def updateMR():
-'''public void updateMR(final MboRemote invReserve)
-'''
-pass
+    '''    public void updateMR(final MboRemote invReserve)
+    '''
 def getPhyscntDate():
-'''public Date getPhyscntDate(Date phyCntDate, final Date actualDate)
-'''
-pass
+    '''    public Date getPhyscntDate(Date phyCntDate, final Date actualDate)
+    '''
 def getInvReserveInVector():
-'''public InvReserveRemote getInvReserveInVector(final Vector v, final MboRemote thisInvReserve)
-'''
-pass
+    '''    public InvReserveRemote getInvReserveInVector(final Vector v, final MboRemote thisInvReserve)
+    '''
 def isSameStoreTransfer():
-'''public boolean isSameStoreTransfer()
-'''
-pass
+    '''    public boolean isSameStoreTransfer()
+    '''
 def getInvUse():
-'''public MboRemote getInvUse()
-'''
-pass
+    '''    public MboRemote getInvUse()
+    '''
 def setCancelInvUseLines():
-'''public void setCancelInvUseLines(final boolean hasBeenCalled)
-'''
-pass
+    '''    public void setCancelInvUseLines(final boolean hasBeenCalled)
+    '''
 def setValue():
-'''public void setValue(final String attributeName, final String val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''

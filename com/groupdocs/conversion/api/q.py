@@ -1,17 +1,13 @@
 def q():
-'''public q(final InputStream inputStream, final FromImagesOptions a)
-'''
-pass
+    '''    public q(final InputStream inputStream, final FromImagesOptions a)
+    '''
 def a():
-'''public bp a()
-public FromImagesOptions a()
-'''
-pass
+    '''    public bp a()
+    public FromImagesOptions a()
+    '''
 def getPagesCount():
-'''public int getPagesCount()
-'''
-pass
+    '''    public int getPagesCount()
+    '''
 def bindSaveOptions():
-'''public ILoader<bp, FromImagesOptions> bindSaveOptions(final SaveOptions saveOptions)
-'''
-pass
+    '''    public ILoader<bp, FromImagesOptions> bindSaveOptions(final SaveOptions saveOptions)
+    '''

@@ -1,17 +1,13 @@
 def FldCommonConditionCode():
-'''public FldCommonConditionCode(final MboValue mbv)
-public FldCommonConditionCode(final MboValue mbv, final String locationAttribute, final String binAttribute, final String lotAttribute)
-'''
-pass
+    '''    public FldCommonConditionCode(final MboValue mbv)
+    public FldCommonConditionCode(final MboValue mbv, final String locationAttribute, final String binAttribute, final String lotAttribute)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

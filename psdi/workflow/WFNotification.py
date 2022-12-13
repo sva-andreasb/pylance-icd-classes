@@ -1,32 +1,24 @@
 def WFNotification():
-'''public WFNotification(final MboSet ms)
-'''
-pass
+    '''    public WFNotification(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getWFInstance():
-'''public WFInstance getWFInstance()
-'''
-pass
+    '''    public WFInstance getWFInstance()
+    '''
 def activate():
-'''public void activate()
-'''
-pass
+    '''    public void activate()
+    '''
 def createCommTemplate():
-'''public void createCommTemplate()
-'''
-pass
+    '''    public void createCommTemplate()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet(final String name)
-'''
-pass
+    '''    public MboSetRemote getMboSet(final String name)
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''

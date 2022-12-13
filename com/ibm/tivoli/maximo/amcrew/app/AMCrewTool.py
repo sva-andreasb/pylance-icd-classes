@@ -1,80 +1,60 @@
 def AMCrewTool():
-'''public AMCrewTool(final MboSet ms)
-'''
-pass
+    '''    public AMCrewTool(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def hasToolAssetAlreadyAssigned():
-'''public boolean hasToolAssetAlreadyAssigned()
-'''
-pass
+    '''    public boolean hasToolAssetAlreadyAssigned()
+    '''
 def getStandardRate():
-'''public double getStandardRate()
-'''
-pass
+    '''    public double getStandardRate()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def isHasToolAssetLoop():
-'''public boolean isHasToolAssetLoop()
-'''
-pass
+    '''    public boolean isHasToolAssetLoop()
+    '''
 def setHasToolAssetLoop():
-'''public void setHasToolAssetLoop(final boolean hasToolAssetLoop)
-'''
-pass
+    '''    public void setHasToolAssetLoop(final boolean hasToolAssetLoop)
+    '''
 def checkForAssetAlreadyAssigned():
-'''public void checkForAssetAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)
-'''
-pass
+    '''    public void checkForAssetAlreadyAssigned(final String laborCode, final Date SpecifiedEffectiveDate)
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def setUnableToDelete():
-'''public void setUnableToDelete(final boolean unableToDelete)
-'''
-pass
+    '''    public void setUnableToDelete(final boolean unableToDelete)
+    '''
 def setEffectiveDateIsLater():
-'''public void setEffectiveDateIsLater(final boolean laterEffectivedate)
-'''
-pass
+    '''    public void setEffectiveDateIsLater(final boolean laterEffectivedate)
+    '''
 def isLaterEffectiveDate():
-'''public boolean isLaterEffectiveDate()
-'''
-pass
+    '''    public boolean isLaterEffectiveDate()
+    '''
 def setEarlierEndDate():
-'''public void setEarlierEndDate(final boolean earlierEndDate)
-'''
-pass
+    '''    public void setEarlierEndDate(final boolean earlierEndDate)
+    '''
 def isEndDateEarlier():
-'''public boolean isEndDateEarlier()
-'''
-pass
+    '''    public boolean isEndDateEarlier()
+    '''
 def findAvailableTime():
-'''public double findAvailableTime(final Date shiftStart, final Date shiftEnd)
-'''
-pass
+    '''    public double findAvailableTime(final Date shiftStart, final Date shiftEnd)
+    '''
 def setCreatedBySplit():
-'''public void setCreatedBySplit(final boolean cbs)
-'''
-pass
+    '''    public void setCreatedBySplit(final boolean cbs)
+    '''
 def getCreatedBySplit():
-'''public boolean getCreatedBySplit()
-'''
-pass
+    '''    public boolean getCreatedBySplit()
+    '''
 def getHasCrewPrompt():
-'''public boolean getHasCrewPrompt()
-'''
-pass
+    '''    public boolean getHasCrewPrompt()
+    '''
 def setHasCrewPrompt():
-'''public void setHasCrewPrompt(final boolean prompt)
-'''
-pass
+    '''    public void setHasCrewPrompt(final boolean prompt)
+    '''

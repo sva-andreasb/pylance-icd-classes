@@ -1,16 +1,12 @@
 def Incident():
-'''public Incident(final MboSet ms)
-'''
-pass
+    '''    public Incident(final MboSet ms)
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def generateAutoKey():
-'''public void generateAutoKey()
-'''
-pass
+    '''    public void generateAutoKey()
+    '''

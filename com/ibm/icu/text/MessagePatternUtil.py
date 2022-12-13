@@ -1,78 +1,60 @@
 def buildMessageNode():
-'''public static MessageNode buildMessageNode(final String patternString)
-public static MessageNode buildMessageNode(final MessagePattern pattern)
-'''
-pass
+    '''    public static MessageNode buildMessageNode(final String patternString)
+    public static MessageNode buildMessageNode(final MessagePattern pattern)
+    '''
 def getContents():
-'''public List<MessageContentsNode> getContents()
-'''
-pass
+    '''    public List<MessageContentsNode> getContents()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    '''
 def getType():
-'''public Type getType()
-'''
-pass
+    '''    public Type getType()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getNumber():
-'''public int getNumber()
-'''
-pass
+    '''    public int getNumber()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''
 def getSimpleStyle():
-'''public String getSimpleStyle()
-'''
-pass
+    '''    public String getSimpleStyle()
+    '''
 def getComplexStyle():
-'''public ComplexArgStyleNode getComplexStyle()
-'''
-pass
+    '''    public ComplexArgStyleNode getComplexStyle()
+    '''
 def hasExplicitOffset():
-'''public boolean hasExplicitOffset()
-'''
-pass
+    '''    public boolean hasExplicitOffset()
+    '''
 def getOffset():
-'''public double getOffset()
-'''
-pass
+    '''    public double getOffset()
+    '''
 def getVariants():
-'''public List<VariantNode> getVariants()
-'''
-pass
+    '''    public List<VariantNode> getVariants()
+    '''
 def getVariantsByType():
-'''public VariantNode getVariantsByType(final List<VariantNode> numericVariants, final List<VariantNode> keywordVariants)
-'''
-pass
+    '''    public VariantNode getVariantsByType(final List<VariantNode> numericVariants, final List<VariantNode> keywordVariants)
+    '''
 def getSelector():
-'''public String getSelector()
-'''
-pass
+    '''    public String getSelector()
+    '''
 def isSelectorNumeric():
-'''public boolean isSelectorNumeric()
-'''
-pass
+    '''    public boolean isSelectorNumeric()
+    '''
 def getSelectorValue():
-'''public double getSelectorValue()
-'''
-pass
+    '''    public double getSelectorValue()
+    '''
 def getMessage():
-'''public MessageNode getMessage()
-'''
-pass
+    '''    public MessageNode getMessage()
+    '''

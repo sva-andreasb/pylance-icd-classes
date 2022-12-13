@@ -5,14 +5,11 @@ RIGHT_ALIGNED = "boolean  false"
 ASCENDING = "boolean  true"
 DESCENDING = "boolean  false"
 def JarCacheTableColumnModel():
-'''public JarCacheTableColumnModel()
-'''
-pass
+    '''    public JarCacheTableColumnModel()
+    '''
 def getColumnArray():
-'''public JarCacheTableColumn[] getColumnArray()
-'''
-pass
+    '''    public JarCacheTableColumn[] getColumnArray()
+    '''
 def getColumnNames():
-'''public String[] getColumnNames()
-'''
-pass
+    '''    public String[] getColumnNames()
+    '''

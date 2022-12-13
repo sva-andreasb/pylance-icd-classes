@@ -1,8 +1,6 @@
 def FldWOChangeStatus():
-'''public FldWOChangeStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldWOChangeStatus(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

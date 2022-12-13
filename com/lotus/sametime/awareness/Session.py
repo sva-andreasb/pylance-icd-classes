@@ -1,12 +1,9 @@
 def Session():
-'''public Session(final Integer id, final boolean visible)
-'''
-pass
+    '''    public Session(final Integer id, final boolean visible)
+    '''
 def getId():
-'''public Integer getId()
-'''
-pass
+    '''    public Integer getId()
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''

@@ -1,8 +1,6 @@
 def setAllowedMethods():
-'''public void setAllowedMethods(final String methods)
-'''
-pass
+    '''    public void setAllowedMethods(final String methods)
+    '''
 def getAllowedMethods():
-'''public String getAllowedMethods()
-'''
-pass
+    '''    public String getAllowedMethods()
+    '''

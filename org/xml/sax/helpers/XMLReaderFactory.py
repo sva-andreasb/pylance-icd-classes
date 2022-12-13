@@ -1,5 +1,4 @@
 def createXMLReader():
-'''public static XMLReader createXMLReader()
-public static XMLReader createXMLReader(final String s)
-'''
-pass
+    '''    public static XMLReader createXMLReader()
+    public static XMLReader createXMLReader(final String s)
+    '''

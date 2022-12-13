@@ -1,16 +1,12 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def LAUNCHENTRY():
-'''public int LAUNCHENTRY()
-'''
-pass
+    '''    public int LAUNCHENTRY()
+    '''
 def CREATEITEM():
-'''public int CREATEITEM()
-'''
-pass
+    '''    public int CREATEITEM()
+    '''
 def find():
-'''public int find()
-'''
-pass
+    '''    public int find()
+    '''

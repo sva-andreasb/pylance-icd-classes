@@ -1,4 +1,3 @@
 def XDGFXMLDocumentPart():
-'''public XDGFXMLDocumentPart(final PackagePart part, final XDGFDocument document)
-'''
-pass
+    '''    public XDGFXMLDocumentPart(final PackagePart part, final XDGFDocument document)
+    '''

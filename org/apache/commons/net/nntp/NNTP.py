@@ -1,124 +1,96 @@
 DEFAULT_PORT = "int  119"
 def NNTP():
-'''public NNTP()
-'''
-pass
+    '''    public NNTP()
+    '''
 def addProtocolCommandListener():
-'''public void addProtocolCommandListener(final ProtocolCommandListener listener)
-'''
-pass
+    '''    public void addProtocolCommandListener(final ProtocolCommandListener listener)
+    '''
 def removeProtocolCommandListener():
-'''public void removeProtocolCommandListener(final ProtocolCommandListener listener)
-'''
-pass
+    '''    public void removeProtocolCommandListener(final ProtocolCommandListener listener)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def isAllowedToPost():
-'''public boolean isAllowedToPost()
-'''
-pass
+    '''    public boolean isAllowedToPost()
+    '''
 def sendCommand():
-'''public int sendCommand(final String command, final String args)
-public int sendCommand(final int command, final String args)
-public int sendCommand(final String command)
-public int sendCommand(final int command)
-'''
-pass
+    '''    public int sendCommand(final String command, final String args)
+    public int sendCommand(final int command, final String args)
+    public int sendCommand(final String command)
+    public int sendCommand(final int command)
+    '''
 def getReplyCode():
-'''public int getReplyCode()
-'''
-pass
+    '''    public int getReplyCode()
+    '''
 def getReply():
-'''public int getReply()
-'''
-pass
+    '''    public int getReply()
+    '''
 def getReplyString():
-'''public String getReplyString()
-'''
-pass
+    '''    public String getReplyString()
+    '''
 def article():
-'''public int article(final String messageId)
-public int article(final int articleNumber)
-public int article()
-'''
-pass
+    '''    public int article(final String messageId)
+    public int article(final int articleNumber)
+    public int article()
+    '''
 def body():
-'''public int body(final String messageId)
-public int body(final int articleNumber)
-public int body()
-'''
-pass
+    '''    public int body(final String messageId)
+    public int body(final int articleNumber)
+    public int body()
+    '''
 def head():
-'''public int head(final String messageId)
-public int head(final int articleNumber)
-public int head()
-'''
-pass
+    '''    public int head(final String messageId)
+    public int head(final int articleNumber)
+    public int head()
+    '''
 def stat():
-'''public int stat(final String messageId)
-public int stat(final int articleNumber)
-public int stat()
-'''
-pass
+    '''    public int stat(final String messageId)
+    public int stat(final int articleNumber)
+    public int stat()
+    '''
 def group():
-'''public int group(final String newsgroup)
-'''
-pass
+    '''    public int group(final String newsgroup)
+    '''
 def help():
-'''public int help()
-'''
-pass
+    '''    public int help()
+    '''
 def ihave():
-'''public int ihave(final String messageId)
-'''
-pass
+    '''    public int ihave(final String messageId)
+    '''
 def last():
-'''public int last()
-'''
-pass
+    '''    public int last()
+    '''
 def list():
-'''public int list()
-'''
-pass
+    '''    public int list()
+    '''
 def next():
-'''public int next()
-'''
-pass
+    '''    public int next()
+    '''
 def newgroups():
-'''public int newgroups(final String date, final String time, final boolean GMT, final String distributions)
-'''
-pass
+    '''    public int newgroups(final String date, final String time, final boolean GMT, final String distributions)
+    '''
 def newnews():
-'''public int newnews(final String newsgroups, final String date, final String time, final boolean GMT, final String distributions)
-'''
-pass
+    '''    public int newnews(final String newsgroups, final String date, final String time, final boolean GMT, final String distributions)
+    '''
 def post():
-'''public int post()
-'''
-pass
+    '''    public int post()
+    '''
 def quit():
-'''public int quit()
-'''
-pass
+    '''    public int quit()
+    '''
 def authinfoUser():
-'''public int authinfoUser(final String username)
-'''
-pass
+    '''    public int authinfoUser(final String username)
+    '''
 def authinfoPass():
-'''public int authinfoPass(final String password)
-'''
-pass
+    '''    public int authinfoPass(final String password)
+    '''
 def xover():
-'''public int xover(final String selectedArticles)
-'''
-pass
+    '''    public int xover(final String selectedArticles)
+    '''
 def xhdr():
-'''public int xhdr(final String header, final String selectedArticles)
-'''
-pass
+    '''    public int xhdr(final String header, final String selectedArticles)
+    '''
 def listActive():
-'''public int listActive(final String wildmat)
-'''
-pass
+    '''    public int listActive(final String wildmat)
+    '''

@@ -1,16 +1,12 @@
 def FldTrendCustDateRange():
-'''public FldTrendCustDateRange(final MboValue mbv)
-'''
-pass
+    '''    public FldTrendCustDateRange(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

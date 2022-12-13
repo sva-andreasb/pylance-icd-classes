@@ -1,4 +1,3 @@
 def OslcMethodNPMbo():
-'''public OslcMethodNPMbo(final MboSet ms)
-'''
-pass
+    '''    public OslcMethodNPMbo(final MboSet ms)
+    '''

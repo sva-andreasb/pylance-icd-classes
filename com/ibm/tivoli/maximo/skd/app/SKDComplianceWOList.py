@@ -1,4 +1,3 @@
 def SKDComplianceWOList():
-'''public SKDComplianceWOList(final MboSet ms)
-'''
-pass
+    '''    public SKDComplianceWOList(final MboSet ms)
+    '''

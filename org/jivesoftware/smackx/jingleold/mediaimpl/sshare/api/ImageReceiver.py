@@ -1,49 +1,37 @@
 def ImageReceiver():
-'''public ImageReceiver(final InetAddress remoteHost, final int remotePort, final int localPort, final int width, final int height)
-'''
-pass
+    '''    public ImageReceiver(final InetAddress remoteHost, final int remotePort, final int localPort, final int width, final int height)
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def getLocalHost():
-'''public InetAddress getLocalHost()
-'''
-pass
+    '''    public InetAddress getLocalHost()
+    '''
 def getRemoteHost():
-'''public InetAddress getRemoteHost()
-'''
-pass
+    '''    public InetAddress getRemoteHost()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def getDatagramSocket():
-'''public DatagramSocket getDatagramSocket()
-'''
-pass
+    '''    public DatagramSocket getDatagramSocket()
+    '''
 def drawTile():
-'''public void drawTile(final int x, final int y, final BufferedImage bufferedImage)
-'''
-pass
+    '''    public void drawTile(final int x, final int y, final BufferedImage bufferedImage)
+    '''
 def paint():
-'''public void paint(final Graphics g)
-'''
-pass
+    '''    public void paint(final Graphics g)
+    '''
 def getDecoder():
-'''public ImageDecoder getDecoder()
-'''
-pass
+    '''    public ImageDecoder getDecoder()
+    '''
 def setDecoder():
-'''public void setDecoder(final ImageDecoder decoder)
-'''
-pass
+    '''    public void setDecoder(final ImageDecoder decoder)
+    '''
 def stop():
-'''public void stop()
-'''
-pass
+    '''    public void stop()
+    '''

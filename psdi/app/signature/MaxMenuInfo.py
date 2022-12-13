@@ -1,65 +1,49 @@
 def getMenuType():
-'''public String getMenuType()
-'''
-pass
+    '''    public String getMenuType()
+    '''
 def getModuleApp():
-'''public String getModuleApp()
-'''
-pass
+    '''    public String getModuleApp()
+    '''
 def getElementType():
-'''public String getElementType()
-'''
-pass
+    '''    public String getElementType()
+    '''
 def getPosition():
-'''public int getPosition()
-'''
-pass
+    '''    public int getPosition()
+    '''
 def getPositionAsString():
-'''public String getPositionAsString()
-'''
-pass
+    '''    public String getPositionAsString()
+    '''
 def getSubPosition():
-'''public int getSubPosition()
-'''
-pass
+    '''    public int getSubPosition()
+    '''
 def getSubPositionAsString():
-'''public String getSubPositionAsString()
-'''
-pass
+    '''    public String getSubPositionAsString()
+    '''
 def getKeyValue():
-'''public String getKeyValue()
-'''
-pass
+    '''    public String getKeyValue()
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def getAccessKey():
-'''public String getAccessKey()
-'''
-pass
+    '''    public String getAccessKey()
+    '''
 def getTabDisplay():
-'''public String getTabDisplay()
-'''
-pass
+    '''    public String getTabDisplay()
+    '''
 def getImage():
-'''public String getImage()
-'''
-pass
+    '''    public String getImage()
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def getHeaderDescription():
-'''public String getHeaderDescription()
-public String getHeaderDescription(final UserInfo ui)
-'''
-pass
+    '''    public String getHeaderDescription()
+    public String getHeaderDescription(final UserInfo ui)
+    '''
 def getTypedReference():
-'''public MaxMenuInfoBase getTypedReference()
-'''
-pass
+    '''    public MaxMenuInfoBase getTypedReference()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

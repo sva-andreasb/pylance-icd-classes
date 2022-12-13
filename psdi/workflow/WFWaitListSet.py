@@ -1,4 +1,3 @@
 def WFWaitListSet():
-'''public WFWaitListSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFWaitListSet(final MboServerInterface ms)
+    '''

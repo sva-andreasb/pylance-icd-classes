@@ -1,1 +1,1 @@
-SPACER = "String   - at ""
+SPACER = "String  \" - at \""

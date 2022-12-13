@@ -1,33 +1,26 @@
 def StringBuilderWriter():
-'''public StringBuilderWriter()
-public StringBuilderWriter(final int capacity)
-public StringBuilderWriter(final StringBuilder builder)
-'''
-pass
+    '''    public StringBuilderWriter()
+    public StringBuilderWriter(final int capacity)
+    public StringBuilderWriter(final StringBuilder builder)
+    '''
 def append():
-'''public Writer append(final char value)
-public Writer append(final CharSequence value)
-public Writer append(final CharSequence value, final int start, final int end)
-'''
-pass
+    '''    public Writer append(final char value)
+    public Writer append(final CharSequence value)
+    public Writer append(final CharSequence value, final int start, final int end)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def write():
-'''public void write(final String value)
-public void write(final char[] value, final int offset, final int length)
-'''
-pass
+    '''    public void write(final String value)
+    public void write(final char[] value, final int offset, final int length)
+    '''
 def getBuilder():
-'''public StringBuilder getBuilder()
-'''
-pass
+    '''    public StringBuilder getBuilder()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

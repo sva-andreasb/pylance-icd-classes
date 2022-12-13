@@ -1,12 +1,9 @@
 def PlusPNewBillBatch():
-'''public PlusPNewBillBatch(final MboSet ms)
-'''
-pass
+    '''    public PlusPNewBillBatch(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def isBillable():
-'''public boolean isBillable()
-'''
-pass
+    '''    public boolean isBillable()
+    '''

@@ -1,24 +1,18 @@
 def isCompressionEnabled():
-'''public boolean isCompressionEnabled()
-'''
-pass
+    '''    public boolean isCompressionEnabled()
+    '''
 def getConnectTimeout():
-'''public int getConnectTimeout()
-'''
-pass
+    '''    public int getConnectTimeout()
+    '''
 def builder():
-'''public static Builder builder()
-'''
-pass
+    '''    public static Builder builder()
+    '''
 def setCompressionEnabled():
-'''public Builder setCompressionEnabled(final boolean compressionEnabled)
-'''
-pass
+    '''    public Builder setCompressionEnabled(final boolean compressionEnabled)
+    '''
 def setConnectTimeout():
-'''public Builder setConnectTimeout(final int connectTimeout)
-'''
-pass
+    '''    public Builder setConnectTimeout(final int connectTimeout)
+    '''
 def build():
-'''public XMPPTCPConnectionConfiguration build()
-'''
-pass
+    '''    public XMPPTCPConnectionConfiguration build()
+    '''

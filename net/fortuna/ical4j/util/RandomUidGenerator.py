@@ -1,4 +1,3 @@
 def generateUid():
-'''public Uid generateUid()
-'''
-pass
+    '''    public Uid generateUid()
+    '''

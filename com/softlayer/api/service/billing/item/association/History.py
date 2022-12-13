@@ -1,96 +1,72 @@
 def getAssociatedBillingItem():
-'''public Item getAssociatedBillingItem()
-'''
-pass
+    '''    public Item getAssociatedBillingItem()
+    '''
 def setAssociatedBillingItem():
-'''public void setAssociatedBillingItem(final Item associatedBillingItem)
-'''
-pass
+    '''    public void setAssociatedBillingItem(final Item associatedBillingItem)
+    '''
 def getBillingItem():
-'''public Item getBillingItem()
-'''
-pass
+    '''    public Item getBillingItem()
+    '''
 def setBillingItem():
-'''public void setBillingItem(final Item billingItem)
-'''
-pass
+    '''    public void setBillingItem(final Item billingItem)
+    '''
 def getAssociatedBillingItemId():
-'''public Long getAssociatedBillingItemId()
-'''
-pass
+    '''    public Long getAssociatedBillingItemId()
+    '''
 def setAssociatedBillingItemId():
-'''public void setAssociatedBillingItemId(final Long associatedBillingItemId)
-'''
-pass
+    '''    public void setAssociatedBillingItemId(final Long associatedBillingItemId)
+    '''
 def isAssociatedBillingItemIdSpecified():
-'''public boolean isAssociatedBillingItemIdSpecified()
-'''
-pass
+    '''    public boolean isAssociatedBillingItemIdSpecified()
+    '''
 def unsetAssociatedBillingItemId():
-'''public void unsetAssociatedBillingItemId()
-'''
-pass
+    '''    public void unsetAssociatedBillingItemId()
+    '''
 def getBillingItemId():
-'''public Long getBillingItemId()
-'''
-pass
+    '''    public Long getBillingItemId()
+    '''
 def setBillingItemId():
-'''public void setBillingItemId(final Long billingItemId)
-'''
-pass
+    '''    public void setBillingItemId(final Long billingItemId)
+    '''
 def isBillingItemIdSpecified():
-'''public boolean isBillingItemIdSpecified()
-'''
-pass
+    '''    public boolean isBillingItemIdSpecified()
+    '''
 def unsetBillingItemId():
-'''public void unsetBillingItemId()
-'''
-pass
+    '''    public void unsetBillingItemId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def associatedBillingItemId():
-'''public Mask associatedBillingItemId()
-'''
-pass
+    '''    public Mask associatedBillingItemId()
+    '''
 def billingItemId():
-'''public Mask billingItemId()
-'''
-pass
+    '''    public Mask billingItemId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''

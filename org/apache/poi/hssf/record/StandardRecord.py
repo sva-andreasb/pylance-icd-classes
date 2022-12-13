@@ -1,8 +1,6 @@
 def getRecordSize():
-'''public final int getRecordSize()
-'''
-pass
+    '''    public final int getRecordSize()
+    '''
 def serialize():
-'''public final int serialize(final int offset, final byte[] data)
-'''
-pass
+    '''    public final int serialize(final int offset, final byte[] data)
+    '''

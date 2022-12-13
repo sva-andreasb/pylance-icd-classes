@@ -1,16 +1,12 @@
 def VerifyIndexRequired():
-'''public VerifyIndexRequired(final DatabaseInformation di, final ReportCollector rc, final ValidateLogger vl)
-'''
-pass
+    '''    public VerifyIndexRequired(final DatabaseInformation di, final ReportCollector rc, final ValidateLogger vl)
+    '''
 def getTitle():
-'''public MXException getTitle()
-'''
-pass
+    '''    public MXException getTitle()
+    '''
 def conditionsCheck():
-'''public boolean conditionsCheck()
-'''
-pass
+    '''    public boolean conditionsCheck()
+    '''
 def prerequisitesCheck():
-'''public boolean prerequisitesCheck()
-'''
-pass
+    '''    public boolean prerequisitesCheck()
+    '''

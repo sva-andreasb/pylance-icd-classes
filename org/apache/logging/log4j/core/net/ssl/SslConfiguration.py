@@ -1,45 +1,34 @@
 def clearSecrets():
-'''public void clearSecrets()
-'''
-pass
+    '''    public void clearSecrets()
+    '''
 def getSslSocketFactory():
-'''public SSLSocketFactory getSslSocketFactory()
-'''
-pass
+    '''    public SSLSocketFactory getSslSocketFactory()
+    '''
 def getSslServerSocketFactory():
-'''public SSLServerSocketFactory getSslServerSocketFactory()
-'''
-pass
+    '''    public SSLServerSocketFactory getSslServerSocketFactory()
+    '''
 def createSSLConfiguration():
-'''public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig)
-public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig, @PluginAttribute("verifyHostName") final boolean verifyHostName)
-'''
-pass
+    '''    public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig)
+    public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig, @PluginAttribute("verifyHostName") final boolean verifyHostName)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def getKeyStoreConfig():
-'''public KeyStoreConfiguration getKeyStoreConfig()
-'''
-pass
+    '''    public KeyStoreConfiguration getKeyStoreConfig()
+    '''
 def getTrustStoreConfig():
-'''public TrustStoreConfiguration getTrustStoreConfig()
-'''
-pass
+    '''    public TrustStoreConfiguration getTrustStoreConfig()
+    '''
 def getSslContext():
-'''public SSLContext getSslContext()
-'''
-pass
+    '''    public SSLContext getSslContext()
+    '''
 def getProtocol():
-'''public String getProtocol()
-'''
-pass
+    '''    public String getProtocol()
+    '''
 def isVerifyHostName():
-'''public boolean isVerifyHostName()
-'''
-pass
+    '''    public boolean isVerifyHostName()
+    '''

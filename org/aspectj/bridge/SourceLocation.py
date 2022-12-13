@@ -1,60 +1,46 @@
 def validLine():
-'''public static final void validLine(final int line)
-'''
-pass
+    '''    public static final void validLine(final int line)
+    '''
 def validColumn():
-'''public static final void validColumn(final int column)
-'''
-pass
+    '''    public static final void validColumn(final int column)
+    '''
 def SourceLocation():
-'''public SourceLocation(final File file, final int line)
-public SourceLocation(final File file, final int line, final int endLine)
-public SourceLocation(final File file, final int line, final int endLine, final int column)
-public SourceLocation(File file, final int line, final int endLine, int column, final String context)
-public SourceLocation(final File file, final int line, final int endLine, final int column, final String context, final String sourceFileName)
-'''
-pass
+    '''    public SourceLocation(final File file, final int line)
+    public SourceLocation(final File file, final int line, final int endLine)
+    public SourceLocation(final File file, final int line, final int endLine, final int column)
+    public SourceLocation(File file, final int line, final int endLine, int column, final String context)
+    public SourceLocation(final File file, final int line, final int endLine, final int column, final String context, final String sourceFileName)
+    '''
 def getSourceFile():
-'''public File getSourceFile()
-'''
-pass
+    '''    public File getSourceFile()
+    '''
 def getLine():
-'''public int getLine()
-'''
-pass
+    '''    public int getLine()
+    '''
 def getColumn():
-'''public int getColumn()
-'''
-pass
+    '''    public int getColumn()
+    '''
 def getEndLine():
-'''public int getEndLine()
-'''
-pass
+    '''    public int getEndLine()
+    '''
 def getContext():
-'''public String getContext()
-'''
-pass
+    '''    public String getContext()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getOffset():
-'''public int getOffset()
-'''
-pass
+    '''    public int getOffset()
+    '''
 def setOffset():
-'''public void setOffset(final int i)
-'''
-pass
+    '''    public void setOffset(final int i)
+    '''
 def getSourceFileName():
-'''public String getSourceFileName()
-'''
-pass
+    '''    public String getSourceFileName()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

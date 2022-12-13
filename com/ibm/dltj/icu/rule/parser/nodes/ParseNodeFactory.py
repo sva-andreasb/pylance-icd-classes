@@ -1,4 +1,3 @@
 def newNode():
-'''public static ParseNode newNode(final int n)
-'''
-pass
+    '''    public static ParseNode newNode(final int n)
+    '''

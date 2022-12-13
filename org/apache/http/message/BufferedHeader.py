@@ -1,32 +1,24 @@
 def BufferedHeader():
-'''public BufferedHeader(final CharArrayBuffer buffer)
-'''
-pass
+    '''    public BufferedHeader(final CharArrayBuffer buffer)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def getElements():
-'''public HeaderElement[] getElements()
-'''
-pass
+    '''    public HeaderElement[] getElements()
+    '''
 def getValuePos():
-'''public int getValuePos()
-'''
-pass
+    '''    public int getValuePos()
+    '''
 def getBuffer():
-'''public CharArrayBuffer getBuffer()
-'''
-pass
+    '''    public CharArrayBuffer getBuffer()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

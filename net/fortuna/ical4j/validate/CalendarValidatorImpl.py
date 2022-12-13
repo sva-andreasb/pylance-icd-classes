@@ -1,16 +1,14 @@
 def CalendarValidatorImpl():
-'''public CalendarValidatorImpl(final ValidationRule... rules)
-'''
-pass
+    '''    public CalendarValidatorImpl(final ValidationRule... rules)
+    '''
 def validate():
-'''public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-public void validate(final Calendar target)
-'''
-pass
+    '''    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    public void validate(final Calendar target)
+    '''

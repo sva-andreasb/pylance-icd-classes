@@ -1,4 +1,3 @@
 def OmpCiRelSet():
-'''public OmpCiRelSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OmpCiRelSet(final MboServerInterface ms)
+    '''

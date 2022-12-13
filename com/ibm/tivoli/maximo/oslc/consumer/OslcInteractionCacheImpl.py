@@ -1,33 +1,25 @@
 def OslcInteractionCacheImpl():
-'''public OslcInteractionCacheImpl()
-'''
-pass
+    '''    public OslcInteractionCacheImpl()
+    '''
 def getInteraction():
-'''public OslcInteractionInfo getInteraction(final String interactionName, final String oslcProviderName)
-'''
-pass
+    '''    public OslcInteractionInfo getInteraction(final String interactionName, final String oslcProviderName)
+    '''
 def getAllInteractions():
-'''public Map<String, Map<String, OslcInteractionInfo>> getAllInteractions()
-'''
-pass
+    '''    public Map<String, Map<String, OslcInteractionInfo>> getAllInteractions()
+    '''
 def getAllInteractionsForProvider():
-'''public Map<String, OslcInteractionInfo> getAllInteractionsForProvider(final String oslcProviderName)
-'''
-pass
+    '''    public Map<String, OslcInteractionInfo> getAllInteractionsForProvider(final String oslcProviderName)
+    '''
 def getInteractionInfo():
-'''public OslcInteractionInfo getInteractionInfo(final String oslcProviderName, final String interactionName)
-'''
-pass
+    '''    public OslcInteractionInfo getInteractionInfo(final String oslcProviderName, final String interactionName)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

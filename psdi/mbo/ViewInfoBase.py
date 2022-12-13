@@ -1,73 +1,55 @@
 def getColumnName():
-'''public String getColumnName(final String entityColumnName, final String tableName)
-'''
-pass
+    '''    public String getColumnName(final String entityColumnName, final String tableName)
+    '''
 def getEntityColumnName():
-'''public String getEntityColumnName(final String tableColumnName, final String tableName)
-'''
-pass
+    '''    public String getEntityColumnName(final String tableColumnName, final String tableName)
+    '''
 def getViewName():
-'''public String getViewName()
-'''
-pass
+    '''    public String getViewName()
+    '''
 def setViewName():
-'''public void setViewName(final String viewName)
-'''
-pass
+    '''    public void setViewName(final String viewName)
+    '''
 def getAutoSelect():
-'''public boolean getAutoSelect()
-'''
-pass
+    '''    public boolean getAutoSelect()
+    '''
 def setAutoSelect():
-'''public void setAutoSelect(final boolean autoselect)
-'''
-pass
+    '''    public void setAutoSelect(final boolean autoselect)
+    '''
 def getViewSelect():
-'''public String getViewSelect()
-'''
-pass
+    '''    public String getViewSelect()
+    '''
 def setViewSelect():
-'''public void setViewSelect(final String viewselect)
-'''
-pass
+    '''    public void setViewSelect(final String viewselect)
+    '''
 def setTablesInHierarchyOrder():
-'''public void setTablesInHierarchyOrder(final ArrayList<String> tableNames)
-'''
-pass
+    '''    public void setTablesInHierarchyOrder(final ArrayList<String> tableNames)
+    '''
 def getTablesInHierarchyOrder():
-'''public Iterator getTablesInHierarchyOrder()
-'''
-pass
+    '''    public Iterator getTablesInHierarchyOrder()
+    '''
 def getTablesInReverseHierarchyOrder():
-'''public Iterator getTablesInReverseHierarchyOrder()
-'''
-pass
+    '''    public Iterator getTablesInReverseHierarchyOrder()
+    '''
 def getRowStampInfo():
-'''public RowStampInfo getRowStampInfo()
-'''
-pass
+    '''    public RowStampInfo getRowStampInfo()
+    '''
 def getTenantIdInfo():
-'''public TenantIdInfo getTenantIdInfo()
-'''
-pass
+    '''    public TenantIdInfo getTenantIdInfo()
+    '''
 def setTenantIdInfo():
-'''public synchronized void setTenantIdInfo(final TenantIdInfo tenantIdInfo)
-'''
-pass
+    '''    public synchronized void setTenantIdInfo(final TenantIdInfo tenantIdInfo)
+    '''
 def setRowStampInfo():
-'''public synchronized void setRowStampInfo(final RowStampInfo rowStampInfo)
-'''
-pass
+    '''    public synchronized void setRowStampInfo(final RowStampInfo rowStampInfo)
+    '''
 def hasRowStamp():
-'''public boolean hasRowStamp()
-'''
-pass
+    '''    public boolean hasRowStamp()
+    '''
 def hasImplicitTenantId():
-'''public boolean hasImplicitTenantId(final String tableName)
-public boolean hasImplicitTenantId()
-'''
-pass
+    '''    public boolean hasImplicitTenantId(final String tableName)
+    public boolean hasImplicitTenantId()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

@@ -1,16 +1,12 @@
 def PingIntegrationTest():
-'''public PingIntegrationTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public PingIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def pingServer():
-'''public void pingServer()
-'''
-pass
+    '''    public void pingServer()
+    '''
 def pingAsync():
-'''public void pingAsync()
-'''
-pass
+    '''    public void pingAsync()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

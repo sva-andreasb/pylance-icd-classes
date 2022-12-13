@@ -1,32 +1,24 @@
 def StoreroomReorderSet():
-'''public StoreroomReorderSet(final MboServerInterface ms)
-'''
-pass
+    '''    public StoreroomReorderSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def updateInventoryReorderStore():
-'''public boolean updateInventoryReorderStore()
-'''
-pass
+    '''    public boolean updateInventoryReorderStore()
+    '''
 def confirmReorderNullNotNull():
-'''public boolean confirmReorderNullNotNull()
-'''
-pass
+    '''    public boolean confirmReorderNullNotNull()
+    '''
 def updateInventoryReorderStoreRun():
-'''public boolean updateInventoryReorderStoreRun(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)
-'''
-pass
+    '''    public boolean updateInventoryReorderStoreRun(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)
+    '''
 def writeEmail():
-'''public void writeEmail()
-'''
-pass
+    '''    public void writeEmail()
+    '''
 def AsyncProcess():
-'''public AsyncProcess(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)
-'''
-pass
+    '''    public AsyncProcess(final LocationRemote location, final LocationSetRemote locationSet, final String reorderFromStore, final String reorderFromStoreSiteId)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

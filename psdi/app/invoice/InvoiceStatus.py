@@ -1,12 +1,9 @@
 def InvoiceStatus():
-'''public InvoiceStatus(final MboSet ms)
-'''
-pass
+    '''    public InvoiceStatus(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

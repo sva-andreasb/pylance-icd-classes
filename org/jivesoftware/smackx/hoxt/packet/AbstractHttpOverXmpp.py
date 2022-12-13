@@ -1,90 +1,71 @@
-NAMESPACE = "String  urn:xmpp:http""
-ELEMENT = "String  ibb""
+NAMESPACE = "String  \"urn:xmpp:http\""
+ELEMENT = "String  \"ibb\""
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def getHeaders():
-'''public HeadersExtension getHeaders()
-'''
-pass
+    '''    public HeadersExtension getHeaders()
+    '''
 def getData():
-'''public Data getData()
-'''
-pass
+    '''    public Data getData()
+    '''
 def Builder():
-'''public Builder()
-'''
-pass
+    '''    public Builder()
+    '''
 def setData():
-'''public B setData(final Data data)
-'''
-pass
+    '''    public B setData(final Data data)
+    '''
 def setHeaders():
-'''public B setHeaders(final HeadersExtension headers)
-'''
-pass
+    '''    public B setHeaders(final HeadersExtension headers)
+    '''
 def setVersion():
-'''public B setVersion(final String version)
-'''
-pass
+    '''    public B setVersion(final String version)
+    '''
 def Data():
-'''public Data(final NamedElement child)
-'''
-pass
+    '''    public Data(final NamedElement child)
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def getChild():
-'''public NamedElement getChild()
-'''
-pass
+    '''    public NamedElement getChild()
+    '''
 def getElementName():
-'''public String getElementName()
-public String getElementName()
-public String getElementName()
-public String getElementName()
-public String getElementName()
-public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    public String getElementName()
+    '''
 def Text():
-'''public Text(final String text)
-'''
-pass
+    '''    public Text(final String text)
+    '''
 def getText():
-'''public String getText()
-public String getText()
-public String getText()
-'''
-pass
+    '''    public String getText()
+    public String getText()
+    public String getText()
+    '''
 def Base64():
-'''public Base64(final String text)
-'''
-pass
+    '''    public Base64(final String text)
+    '''
 def Xml():
-'''public Xml(final String text)
-'''
-pass
+    '''    public Xml(final String text)
+    '''
 def ChunkedBase64():
-'''public ChunkedBase64(final String streamId)
-'''
-pass
+    '''    public ChunkedBase64(final String streamId)
+    '''
 def getStreamId():
-'''public String getStreamId()
-'''
-pass
+    '''    public String getStreamId()
+    '''
 def Ibb():
-'''public Ibb(final String sid)
-'''
-pass
+    '''    public Ibb(final String sid)
+    '''
 def getSid():
-'''public String getSid()
-'''
-pass
+    '''    public String getSid()
+    '''

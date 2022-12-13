@@ -1,12 +1,10 @@
 def validateProperties():
-'''public boolean validateProperties(final Properties properties)
-'''
-pass
+    '''    public boolean validateProperties(final Properties properties)
+    '''
 def toString():
-'''public String toString()
-public String toString()
-public String toString()
-public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    public String toString()
+    '''

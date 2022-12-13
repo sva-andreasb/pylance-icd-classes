@@ -1,48 +1,36 @@
 def getDashboard():
-'''public String getDashboard()
-'''
-pass
+    '''    public String getDashboard()
+    '''
 def setDashboard():
-'''public void setDashboard(final String value)
-'''
-pass
+    '''    public void setDashboard(final String value)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def isIsPrivate():
-'''public Boolean isIsPrivate()
-'''
-pass
+    '''    public Boolean isIsPrivate()
+    '''
 def setIsPrivate():
-'''public void setIsPrivate(final Boolean value)
-'''
-pass
+    '''    public void setIsPrivate(final Boolean value)
+    '''
 def getUser():
-'''public String getUser()
-'''
-pass
+    '''    public String getUser()
+    '''
 def setUser():
-'''public void setUser(final String value)
-'''
-pass
+    '''    public void setUser(final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getResource():
-'''public String getResource()
-'''
-pass
+    '''    public String getResource()
+    '''
 def setResource():
-'''public void setResource(final String value)
-'''
-pass
+    '''    public void setResource(final String value)
+    '''

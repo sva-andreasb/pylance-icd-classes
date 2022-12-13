@@ -1,4 +1,3 @@
 def FldSysMapLoc():
-'''public FldSysMapLoc(final MboValue mbv)
-'''
-pass
+    '''    public FldSysMapLoc(final MboValue mbv)
+    '''

@@ -1,4 +1,3 @@
 def CdmCiTypeStatusSet():
-'''public CdmCiTypeStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CdmCiTypeStatusSet(final MboServerInterface ms)
+    '''

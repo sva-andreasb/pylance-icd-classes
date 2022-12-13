@@ -1,32 +1,24 @@
 def getGuest():
-'''public Guest getGuest()
-'''
-pass
+    '''    public Guest getGuest()
+    '''
 def setGuest():
-'''public void setGuest(final Guest guest)
-'''
-pass
+    '''    public void setGuest(final Guest guest)
+    '''
 def setType():
-'''public void setType(final com.softlayer.api.service.virtual.guest.attribute.Type type)
-'''
-pass
+    '''    public void setType(final com.softlayer.api.service.virtual.guest.attribute.Type type)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def isValueSpecified():
-'''public boolean isValueSpecified()
-'''
-pass
+    '''    public boolean isValueSpecified()
+    '''
 def unsetValue():
-'''public void unsetValue()
-'''
-pass
+    '''    public void unsetValue()
+    '''
 def value():
-'''public Mask value()
-'''
-pass
+    '''    public Mask value()
+    '''

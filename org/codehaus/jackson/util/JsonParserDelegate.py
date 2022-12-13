@@ -1,156 +1,117 @@
 def JsonParserDelegate():
-'''public JsonParserDelegate(final JsonParser d)
-'''
-pass
+    '''    public JsonParserDelegate(final JsonParser d)
+    '''
 def setCodec():
-'''public void setCodec(final ObjectCodec c)
-'''
-pass
+    '''    public void setCodec(final ObjectCodec c)
+    '''
 def getCodec():
-'''public ObjectCodec getCodec()
-'''
-pass
+    '''    public ObjectCodec getCodec()
+    '''
 def enable():
-'''public JsonParser enable(final Feature f)
-'''
-pass
+    '''    public JsonParser enable(final Feature f)
+    '''
 def disable():
-'''public JsonParser disable(final Feature f)
-'''
-pass
+    '''    public JsonParser disable(final Feature f)
+    '''
 def isEnabled():
-'''public boolean isEnabled(final Feature f)
-'''
-pass
+    '''    public boolean isEnabled(final Feature f)
+    '''
 def setSchema():
-'''public void setSchema(final FormatSchema schema)
-'''
-pass
+    '''    public void setSchema(final FormatSchema schema)
+    '''
 def canUseSchema():
-'''public boolean canUseSchema(final FormatSchema schema)
-'''
-pass
+    '''    public boolean canUseSchema(final FormatSchema schema)
+    '''
 def version():
-'''public Version version()
-'''
-pass
+    '''    public Version version()
+    '''
 def getInputSource():
-'''public Object getInputSource()
-'''
-pass
+    '''    public Object getInputSource()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def isClosed():
-'''public boolean isClosed()
-'''
-pass
+    '''    public boolean isClosed()
+    '''
 def getCurrentToken():
-'''public JsonToken getCurrentToken()
-'''
-pass
+    '''    public JsonToken getCurrentToken()
+    '''
 def hasCurrentToken():
-'''public boolean hasCurrentToken()
-'''
-pass
+    '''    public boolean hasCurrentToken()
+    '''
 def clearCurrentToken():
-'''public void clearCurrentToken()
-'''
-pass
+    '''    public void clearCurrentToken()
+    '''
 def getCurrentName():
-'''public String getCurrentName()
-'''
-pass
+    '''    public String getCurrentName()
+    '''
 def getCurrentLocation():
-'''public JsonLocation getCurrentLocation()
-'''
-pass
+    '''    public JsonLocation getCurrentLocation()
+    '''
 def getLastClearedToken():
-'''public JsonToken getLastClearedToken()
-'''
-pass
+    '''    public JsonToken getLastClearedToken()
+    '''
 def getParsingContext():
-'''public JsonStreamContext getParsingContext()
-'''
-pass
+    '''    public JsonStreamContext getParsingContext()
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def getTextCharacters():
-'''public char[] getTextCharacters()
-'''
-pass
+    '''    public char[] getTextCharacters()
+    '''
 def getTextLength():
-'''public int getTextLength()
-'''
-pass
+    '''    public int getTextLength()
+    '''
 def getTextOffset():
-'''public int getTextOffset()
-'''
-pass
+    '''    public int getTextOffset()
+    '''
 def getBooleanValue():
-'''public boolean getBooleanValue()
-'''
-pass
+    '''    public boolean getBooleanValue()
+    '''
 def getBigIntegerValue():
-'''public BigInteger getBigIntegerValue()
-'''
-pass
+    '''    public BigInteger getBigIntegerValue()
+    '''
 def getByteValue():
-'''public byte getByteValue()
-'''
-pass
+    '''    public byte getByteValue()
+    '''
 def getShortValue():
-'''public short getShortValue()
-'''
-pass
+    '''    public short getShortValue()
+    '''
 def getDecimalValue():
-'''public BigDecimal getDecimalValue()
-'''
-pass
+    '''    public BigDecimal getDecimalValue()
+    '''
 def getDoubleValue():
-'''public double getDoubleValue()
-'''
-pass
+    '''    public double getDoubleValue()
+    '''
 def getFloatValue():
-'''public float getFloatValue()
-'''
-pass
+    '''    public float getFloatValue()
+    '''
 def getIntValue():
-'''public int getIntValue()
-'''
-pass
+    '''    public int getIntValue()
+    '''
 def getLongValue():
-'''public long getLongValue()
-'''
-pass
+    '''    public long getLongValue()
+    '''
 def getNumberType():
-'''public NumberType getNumberType()
-'''
-pass
+    '''    public NumberType getNumberType()
+    '''
 def getNumberValue():
-'''public Number getNumberValue()
-'''
-pass
+    '''    public Number getNumberValue()
+    '''
 def getBinaryValue():
-'''public byte[] getBinaryValue(final Base64Variant b64variant)
-'''
-pass
+    '''    public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''
 def getEmbeddedObject():
-'''public Object getEmbeddedObject()
-'''
-pass
+    '''    public Object getEmbeddedObject()
+    '''
 def getTokenLocation():
-'''public JsonLocation getTokenLocation()
-'''
-pass
+    '''    public JsonLocation getTokenLocation()
+    '''
 def nextToken():
-'''public JsonToken nextToken()
-'''
-pass
+    '''    public JsonToken nextToken()
+    '''
 def skipChildren():
-'''public JsonParser skipChildren()
-'''
-pass
+    '''    public JsonParser skipChildren()
+    '''

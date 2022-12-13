@@ -1,8 +1,6 @@
 def loadData():
-'''public int loadData()
-'''
-pass
+    '''    public int loadData()
+    '''
 def loadGranted():
-'''public int loadGranted()
-'''
-pass
+    '''    public int loadGranted()
+    '''

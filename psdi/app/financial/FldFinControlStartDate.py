@@ -1,8 +1,6 @@
 def FldFinControlStartDate():
-'''public FldFinControlStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldFinControlStartDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

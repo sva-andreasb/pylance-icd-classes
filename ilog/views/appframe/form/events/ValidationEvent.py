@@ -1,13 +1,10 @@
 def ValidationEvent():
-'''public ValidationEvent(final Object source, final IlvValidationError a)
-public ValidationEvent(final Object source, final IlvValidationError a, final List b)
-'''
-pass
+    '''    public ValidationEvent(final Object source, final IlvValidationError a)
+    public ValidationEvent(final Object source, final IlvValidationError a, final List b)
+    '''
 def getError():
-'''public IlvValidationError getError()
-'''
-pass
+    '''    public IlvValidationError getError()
+    '''
 def getRemainingErrors():
-'''public List getRemainingErrors()
-'''
-pass
+    '''    public List getRemainingErrors()
+    '''

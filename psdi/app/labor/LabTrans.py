@@ -1,232 +1,174 @@
 def LabTrans():
-'''public LabTrans(final MboSet ms)
-'''
-pass
+    '''    public LabTrans(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def modify():
-'''public void modify()
-'''
-pass
+    '''    public void modify()
+    '''
 def checkOwner():
-'''public void checkOwner()
-'''
-pass
+    '''    public void checkOwner()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def approveLaborTransaction():
-'''public void approveLaborTransaction()
-'''
-pass
+    '''    public void approveLaborTransaction()
+    '''
 def validatePOforApproval():
-'''public void validatePOforApproval()
-'''
-pass
+    '''    public void validatePOforApproval()
+    '''
 def validatePOLineforApproval():
-'''public POLineRemote validatePOLineforApproval()
-'''
-pass
+    '''    public POLineRemote validatePOLineforApproval()
+    '''
 def setLineCost():
-'''public void setLineCost()
-'''
-pass
+    '''    public void setLineCost()
+    '''
 def getExchangeRate():
-'''public double getExchangeRate()
-'''
-pass
+    '''    public double getExchangeRate()
+    '''
 def getPO():
-'''public PORemote getPO()
-'''
-pass
+    '''    public PORemote getPO()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def checkforPORequired():
-'''public boolean checkforPORequired()
-'''
-pass
+    '''    public boolean checkforPORequired()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def checkTransType():
-'''public void checkTransType()
-'''
-pass
+    '''    public void checkTransType()
+    '''
 def getPayRate():
-'''public double getPayRate()
-'''
-pass
+    '''    public double getPayRate()
+    '''
 def updateActualLabwithRegularHrs():
-'''public void updateActualLabwithRegularHrs()
-'''
-pass
+    '''    public void updateActualLabwithRegularHrs()
+    '''
 def updateActualLabwithPremiumHrs():
-'''public void updateActualLabwithPremiumHrs()
-'''
-pass
+    '''    public void updateActualLabwithPremiumHrs()
+    '''
 def updateActualLabCost():
-'''public void updateActualLabCost()
-'''
-pass
+    '''    public void updateActualLabCost()
+    '''
 def validateVendor():
-'''public void validateVendor()
-'''
-pass
+    '''    public void validateVendor()
+    '''
 def validateWOAcceptsCharges():
-'''public void validateWOAcceptsCharges()
-'''
-pass
+    '''    public void validateWOAcceptsCharges()
+    '''
 def setSelectedValues():
-'''public void setSelectedValues(final MboRemote mbo)
-'''
-pass
+    '''    public void setSelectedValues(final MboRemote mbo)
+    '''
 def getCriteriaForContract():
-'''public String getCriteriaForContract()
-'''
-pass
+    '''    public String getCriteriaForContract()
+    '''
 def getCriteriaForContractWithRevision():
-'''public String getCriteriaForContractWithRevision()
-'''
-pass
+    '''    public String getCriteriaForContractWithRevision()
+    '''
 def setContractRevision():
-'''public void setContractRevision()
-'''
-pass
+    '''    public void setContractRevision()
+    '''
 def getTotalHrsinMinutes():
-'''public int getTotalHrsinMinutes()
-'''
-pass
+    '''    public int getTotalHrsinMinutes()
+    '''
 def getTotalHrs():
-'''public double getTotalHrs()
-'''
-pass
+    '''    public double getTotalHrs()
+    '''
 def setValuesForRegularPremiumHrs():
-'''public void setValuesForRegularPremiumHrs()
-'''
-pass
+    '''    public void setValuesForRegularPremiumHrs()
+    '''
 def setValuesForStartDtTm():
-'''public void setValuesForStartDtTm()
-'''
-pass
+    '''    public void setValuesForStartDtTm()
+    '''
 def setValuesForFinishDtTm():
-'''public void setValuesForFinishDtTm()
-'''
-pass
+    '''    public void setValuesForFinishDtTm()
+    '''
 def checkStartDateTime():
-'''public void checkStartDateTime()
-'''
-pass
+    '''    public void checkStartDateTime()
+    '''
 def checkFinishDateTime():
-'''public void checkFinishDateTime()
-'''
-pass
+    '''    public void checkFinishDateTime()
+    '''
 def checkValidFinishDtTm():
-'''public void checkValidFinishDtTm()
-'''
-pass
+    '''    public void checkValidFinishDtTm()
+    '''
 def checkValidStartDtTm():
-'''public void checkValidStartDtTm()
-'''
-pass
+    '''    public void checkValidStartDtTm()
+    '''
 def getDatesDiff():
-'''public double getDatesDiff()
-'''
-pass
+    '''    public double getDatesDiff()
+    '''
 def validDates():
-'''public boolean validDates()
-'''
-pass
+    '''    public boolean validDates()
+    '''
 def checkDates():
-'''public void checkDates()
-'''
-pass
+    '''    public void checkDates()
+    '''
 def checkRegularAndPremiumHrs():
-'''public void checkRegularAndPremiumHrs()
-'''
-pass
+    '''    public void checkRegularAndPremiumHrs()
+    '''
 def validateDateTime():
-'''public Date validateDateTime(final Date date, final Date time)
-'''
-pass
+    '''    public Date validateDateTime(final Date date, final Date time)
+    '''
 def validateDateTimeWithUserTimeZone():
-'''public Date validateDateTimeWithUserTimeZone(final Date date, final Date time)
-'''
-pass
+    '''    public Date validateDateTimeWithUserTimeZone(final Date date, final Date time)
+    '''
 def validateDateTimeWithTimeZone():
-'''public Date validateDateTimeWithTimeZone(final Date date, final Date time)
-'''
-pass
+    '''    public Date validateDateTimeWithTimeZone(final Date date, final Date time)
+    '''
 def validateFutureTolerance():
-'''public void validateFutureTolerance()
-'''
-pass
+    '''    public void validateFutureTolerance()
+    '''
 def isUncommitted():
-'''public boolean isUncommitted()
-'''
-pass
+    '''    public boolean isUncommitted()
+    '''
 def setUncommitted():
-'''public void setUncommitted(final boolean uncommitted)
-'''
-pass
+    '''    public void setUncommitted(final boolean uncommitted)
+    '''
 def smartFindByObjectName():
-'''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
-'''
-pass
+    '''    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''
 def checkForApprContractAsOfStartDate():
-'''public void checkForApprContractAsOfStartDate()
-'''
-pass
+    '''    public void checkForApprContractAsOfStartDate()
+    '''
 def setValue():
-'''public void setValue(final String attributeName, final String val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''
 def setContractException():
-'''public void setContractException(final MXApplicationYesNoCancelException mxe)
-'''
-pass
+    '''    public void setContractException(final MXApplicationYesNoCancelException mxe)
+    '''
 def setContractCountPrompt():
-'''public void setContractCountPrompt(final int count)
-'''
-pass
+    '''    public void setContractCountPrompt(final int count)
+    '''
 def getContractCountPrompt():
-'''public int getContractCountPrompt()
-'''
-pass
+    '''    public int getContractCountPrompt()
+    '''
 def getOffsetDateTime():
-'''public Date getOffsetDateTime(final Date dateValue, final Date timeValue, final boolean plus)
-'''
-pass
+    '''    public Date getOffsetDateTime(final Date dateValue, final Date timeValue, final boolean plus)
+    '''
 def setDateTimeEntered():
-'''public void setDateTimeEntered()
-'''
-pass
+    '''    public void setDateTimeEntered()
+    '''
 def getWorkOrderForUpdate():
-'''public WORemote getWorkOrderForUpdate()
-'''
-pass
+    '''    public WORemote getWorkOrderForUpdate()
+    '''
 def getTicketForUpdate():
-'''public TicketRemote getTicketForUpdate()
-'''
-pass
+    '''    public TicketRemote getTicketForUpdate()
+    '''
 def fireEvent():
-'''public synchronized void fireEvent(final String type)
-'''
-pass
+    '''    public synchronized void fireEvent(final String type)
+    '''

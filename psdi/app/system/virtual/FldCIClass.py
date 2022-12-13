@@ -1,4 +1,3 @@
 def FldCIClass():
-'''public FldCIClass(final MboValue mbv)
-'''
-pass
+    '''    public FldCIClass(final MboValue mbv)
+    '''

@@ -6,22 +6,17 @@ WF_ADDLINK = "int  8"
 WF_DELNODE = "int  18"
 WF_MVLINK = "int  10"
 def CanvasChangeHandler():
-'''public CanvasChangeHandler(final ILOGCanvasApplet applet)
-'''
-pass
+    '''    public CanvasChangeHandler(final ILOGCanvasApplet applet)
+    '''
 def contentsChanged():
-'''public void contentsChanged(final ManagerContentChangedEvent event)
-'''
-pass
+    '''    public void contentsChanged(final ManagerContentChangedEvent event)
+    '''
 def commitChangeToServer():
-'''public void commitChangeToServer()
-'''
-pass
+    '''    public void commitChangeToServer()
+    '''
 def sendStructureChangeEvent():
-'''public String sendStructureChangeEvent(final String eventType, final Hashtable<String, String> values)
-'''
-pass
+    '''    public String sendStructureChangeEvent(final String eventType, final Hashtable<String, String> values)
+    '''
 def getMoveNodeCount():
-'''public int getMoveNodeCount()
-'''
-pass
+    '''    public int getMoveNodeCount()
+    '''

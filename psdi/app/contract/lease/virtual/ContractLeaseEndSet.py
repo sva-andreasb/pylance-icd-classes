@@ -1,4 +1,3 @@
 def ContractLeaseEndSet():
-'''public ContractLeaseEndSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ContractLeaseEndSet(final MboServerInterface ms)
+    '''

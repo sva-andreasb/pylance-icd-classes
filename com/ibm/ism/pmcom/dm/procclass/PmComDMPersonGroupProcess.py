@@ -1,8 +1,6 @@
 def PmComDMPersonGroupProcess():
-'''public PmComDMPersonGroupProcess()
-'''
-pass
+    '''    public PmComDMPersonGroupProcess()
+    '''
 def checkValidateErrors():
-'''public void checkValidateErrors()
-'''
-pass
+    '''    public void checkValidateErrors()
+    '''

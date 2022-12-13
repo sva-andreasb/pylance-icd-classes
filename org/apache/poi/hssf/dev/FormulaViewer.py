@@ -1,24 +1,18 @@
 def FormulaViewer():
-'''public FormulaViewer()
-'''
-pass
+    '''    public FormulaViewer()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def parseFormulaRecord():
-'''public void parseFormulaRecord(final FormulaRecord record)
-'''
-pass
+    '''    public void parseFormulaRecord(final FormulaRecord record)
+    '''
 def setFile():
-'''public void setFile(final String file)
-'''
-pass
+    '''    public void setFile(final String file)
+    '''
 def setList():
-'''public void setList(final boolean list)
-'''
-pass
+    '''    public void setList(final boolean list)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

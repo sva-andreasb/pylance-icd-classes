@@ -1,8 +1,6 @@
 def SKDReservation():
-'''public SKDReservation(final MboSet ms)
-'''
-pass
+    '''    public SKDReservation(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

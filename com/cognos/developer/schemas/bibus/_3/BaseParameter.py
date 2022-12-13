@@ -1,81 +1,61 @@
 def BaseParameter():
-'''public BaseParameter()
-public BaseParameter(final ParameterCapabilityEnum[] capabilities, final MultilingualString[] caption, final ParmValueItem[] defaultValue, final String name, final PromptTypeEnum promptType, final ParameterDataTypeEnum type, final ParmValueItem[] values)
-'''
-pass
+    '''    public BaseParameter()
+    public BaseParameter(final ParameterCapabilityEnum[] capabilities, final MultilingualString[] caption, final ParmValueItem[] defaultValue, final String name, final PromptTypeEnum promptType, final ParameterDataTypeEnum type, final ParmValueItem[] values)
+    '''
 def getCapabilities():
-'''public ParameterCapabilityEnum[] getCapabilities()
-'''
-pass
+    '''    public ParameterCapabilityEnum[] getCapabilities()
+    '''
 def setCapabilities():
-'''public void setCapabilities(final ParameterCapabilityEnum[] capabilities)
-'''
-pass
+    '''    public void setCapabilities(final ParameterCapabilityEnum[] capabilities)
+    '''
 def getCaption():
-'''public MultilingualString[] getCaption()
-'''
-pass
+    '''    public MultilingualString[] getCaption()
+    '''
 def setCaption():
-'''public void setCaption(final MultilingualString[] caption)
-'''
-pass
+    '''    public void setCaption(final MultilingualString[] caption)
+    '''
 def getDefaultValue():
-'''public ParmValueItem[] getDefaultValue()
-'''
-pass
+    '''    public ParmValueItem[] getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final ParmValueItem[] defaultValue)
-'''
-pass
+    '''    public void setDefaultValue(final ParmValueItem[] defaultValue)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getPromptType():
-'''public PromptTypeEnum getPromptType()
-'''
-pass
+    '''    public PromptTypeEnum getPromptType()
+    '''
 def setPromptType():
-'''public void setPromptType(final PromptTypeEnum promptType)
-'''
-pass
+    '''    public void setPromptType(final PromptTypeEnum promptType)
+    '''
 def getType():
-'''public ParameterDataTypeEnum getType()
-'''
-pass
+    '''    public ParameterDataTypeEnum getType()
+    '''
 def setType():
-'''public void setType(final ParameterDataTypeEnum type)
-'''
-pass
+    '''    public void setType(final ParameterDataTypeEnum type)
+    '''
 def getValues():
-'''public ParmValueItem[] getValues()
-'''
-pass
+    '''    public ParmValueItem[] getValues()
+    '''
 def setValues():
-'''public void setValues(final ParmValueItem[] values)
-'''
-pass
+    '''    public void setValues(final ParmValueItem[] values)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

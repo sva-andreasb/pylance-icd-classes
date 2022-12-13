@@ -1,4 +1,3 @@
 def QualCraftSkillSet():
-'''public QualCraftSkillSet(final MboServerInterface ms)
-'''
-pass
+    '''    public QualCraftSkillSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def FldLocationInstallDate():
-'''public FldLocationInstallDate(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationInstallDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

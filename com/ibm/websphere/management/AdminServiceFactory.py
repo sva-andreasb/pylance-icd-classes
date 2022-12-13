@@ -1,8 +1,6 @@
 def getAdminService():
-'''public static AdminService getAdminService()
-'''
-pass
+    '''    public static AdminService getAdminService()
+    '''
 def getMBeanFactory():
-'''public static MBeanFactory getMBeanFactory()
-'''
-pass
+    '''    public static MBeanFactory getMBeanFactory()
+    '''

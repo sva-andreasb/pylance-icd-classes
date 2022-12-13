@@ -1,36 +1,28 @@
-ELEMENT = "String  reason""
-SID = "String  sid""
+ELEMENT = "String  \"reason\""
+SID = "String  \"sid\""
 def AlternativeSession():
-'''public static AlternativeSession AlternativeSession(final String sessionId)
-public AlternativeSession(final String sessionId)
-'''
-pass
+    '''    public static AlternativeSession AlternativeSession(final String sessionId)
+    public AlternativeSession(final String sessionId)
+    '''
 def JingleReason():
-'''public JingleReason(final Reason reason)
-'''
-pass
+    '''    public JingleReason(final Reason reason)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def asEnum():
-'''public Reason asEnum()
-'''
-pass
+    '''    public Reason asEnum()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def fromString():
-'''public static Reason fromString(final String string)
-'''
-pass
+    '''    public static Reason fromString(final String string)
+    '''
 def getAlternativeSessionId():
-'''public String getAlternativeSessionId()
-'''
-pass
+    '''    public String getAlternativeSessionId()
+    '''

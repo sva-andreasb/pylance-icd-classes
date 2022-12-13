@@ -1,44 +1,33 @@
 def PlusPSplitGBTrans():
-'''public PlusPSplitGBTrans(final MboSet ms)
-'''
-pass
+    '''    public PlusPSplitGBTrans(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long n)
-'''
-pass
+    '''    public void delete(final long n)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def applyReadonlyRules():
-'''public void applyReadonlyRules()
-'''
-pass
+    '''    public void applyReadonlyRules()
+    '''
 def createWOCreditTrans():
-'''public void createWOCreditTrans()
-'''
-pass
+    '''    public void createWOCreditTrans()
+    '''
 def createSO():
-'''public void createSO()
-'''
-pass
+    '''    public void createSO()
+    '''
 def getWOBillPriceForCurrentSplitType():
-'''public double getWOBillPriceForCurrentSplitType()
-'''
-pass
+    '''    public double getWOBillPriceForCurrentSplitType()
+    '''
 def setPercentage():
-'''public void setPercentage(final double n)
-'''
-pass
+    '''    public void setPercentage(final double n)
+    '''
 def setBillPrice():
-'''public void setBillPrice(final double n)
-'''
-pass
+    '''    public void setBillPrice(final double n)
+    '''

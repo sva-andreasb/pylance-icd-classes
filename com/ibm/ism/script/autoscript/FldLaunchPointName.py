@@ -1,8 +1,6 @@
 def FldLaunchPointName():
-'''public FldLaunchPointName(final MboValue mbv)
-'''
-pass
+    '''    public FldLaunchPointName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,4 +1,3 @@
 def IlvBPMNMakeSDMNodeInteractor():
-'''public IlvBPMNMakeSDMNodeInteractor()
-'''
-pass
+    '''    public IlvBPMNMakeSDMNodeInteractor()
+    '''

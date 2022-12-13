@@ -1,16 +1,12 @@
 def FldRouteStopsBecome():
-'''public FldRouteStopsBecome(final MboValue mbv)
-'''
-pass
+    '''    public FldRouteStopsBecome(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setJPNumsReadOnly():
-'''public void setJPNumsReadOnly(final MboSetRemote routestops, final boolean torf)
-'''
-pass
+    '''    public void setJPNumsReadOnly(final MboSetRemote routestops, final boolean torf)
+    '''

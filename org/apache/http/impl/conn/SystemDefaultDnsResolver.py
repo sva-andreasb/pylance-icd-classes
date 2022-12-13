@@ -1,4 +1,3 @@
 def resolve():
-'''public InetAddress[] resolve(final String host)
-'''
-pass
+    '''    public InetAddress[] resolve(final String host)
+    '''

@@ -1,12 +1,9 @@
 def sleep():
-'''public void sleep(final long millis)
-'''
-pass
+    '''    public void sleep(final long millis)
+    '''
 def getCount():
-'''public final int getCount()
-'''
-pass
+    '''    public final int getCount()
+    '''
 def getLastMillis():
-'''public final long getLastMillis()
-'''
-pass
+    '''    public final long getLastMillis()
+    '''

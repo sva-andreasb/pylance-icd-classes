@@ -1,36 +1,27 @@
 def LineNumberGen():
-'''public LineNumberGen(final InstructionHandle ih, final int src_line)
-'''
-pass
+    '''    public LineNumberGen(final InstructionHandle ih, final int src_line)
+    '''
 def containsTarget():
-'''public boolean containsTarget(final InstructionHandle ih)
-'''
-pass
+    '''    public boolean containsTarget(final InstructionHandle ih)
+    '''
 def updateTarget():
-'''public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
-'''
-pass
+    '''    public void updateTarget(final InstructionHandle old_ih, final InstructionHandle new_ih)
+    '''
 def getLineNumber():
-'''public LineNumber getLineNumber()
-'''
-pass
+    '''    public LineNumber getLineNumber()
+    '''
 def setInstruction():
-'''public void setInstruction(final InstructionHandle ih)
-'''
-pass
+    '''    public void setInstruction(final InstructionHandle ih)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getInstruction():
-'''public InstructionHandle getInstruction()
-'''
-pass
+    '''    public InstructionHandle getInstruction()
+    '''
 def setSourceLine():
-'''public void setSourceLine(final int src_line)
-'''
-pass
+    '''    public void setSourceLine(final int src_line)
+    '''
 def getSourceLine():
-'''public int getSourceLine()
-'''
-pass
+    '''    public int getSourceLine()
+    '''

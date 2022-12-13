@@ -1,4 +1,3 @@
 def emptyOrderedIterator():
-'''public static <E> OrderedIterator<E> emptyOrderedIterator()
-'''
-pass
+    '''    public static <E> OrderedIterator<E> emptyOrderedIterator()
+    '''

@@ -1,20 +1,15 @@
 def CipherAndAuthTag():
-'''public CipherAndAuthTag(final byte[] key, final byte[] iv, final byte[] authTag)
-'''
-pass
+    '''    public CipherAndAuthTag(final byte[] key, final byte[] iv, final byte[] authTag)
+    '''
 def getCipher():
-'''public Cipher getCipher()
-'''
-pass
+    '''    public Cipher getCipher()
+    '''
 def getAuthTag():
-'''public byte[] getAuthTag()
-'''
-pass
+    '''    public byte[] getAuthTag()
+    '''
 def getKey():
-'''public byte[] getKey()
-'''
-pass
+    '''    public byte[] getKey()
+    '''
 def getIv():
-'''public byte[] getIv()
-'''
-pass
+    '''    public byte[] getIv()
+    '''

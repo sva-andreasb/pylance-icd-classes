@@ -1,24 +1,18 @@
 def WhereClauseBean():
-'''public WhereClauseBean()
-'''
-pass
+    '''    public WhereClauseBean()
+    '''
 def setWhere():
-'''public void setWhere(final String s)
-'''
-pass
+    '''    public void setWhere(final String s)
+    '''
 def getWhere():
-'''public String getWhere()
-'''
-pass
+    '''    public String getWhere()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def setUserWhereAfterParse():
-'''public void setUserWhereAfterParse(final DataBean results, final String whereClause)
-'''
-pass
+    '''    public void setUserWhereAfterParse(final DataBean results, final String whereClause)
+    '''
 def docancel():
-'''public int docancel()
-'''
-pass
+    '''    public int docancel()
+    '''

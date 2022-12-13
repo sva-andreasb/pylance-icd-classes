@@ -1,4 +1,3 @@
 def PaletteItem():
-'''public PaletteItem(final MboSet ms)
-'''
-pass
+    '''    public PaletteItem(final MboSet ms)
+    '''

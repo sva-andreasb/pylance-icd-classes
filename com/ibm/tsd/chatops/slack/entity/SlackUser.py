@@ -1,16 +1,12 @@
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def isBot():
-'''public boolean isBot()
-'''
-pass
+    '''    public boolean isBot()
+    '''
 def isDeleted():
-'''public boolean isDeleted()
-'''
-pass
+    '''    public boolean isDeleted()
+    '''

@@ -1,20 +1,15 @@
 def FldPersonDisplayTo():
-'''public FldPersonDisplayTo(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonDisplayTo(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def saveYesNoCheck():
-'''public boolean saveYesNoCheck(final MboSetRemote personAvailSet)
-'''
-pass
+    '''    public boolean saveYesNoCheck(final MboSetRemote personAvailSet)
+    '''

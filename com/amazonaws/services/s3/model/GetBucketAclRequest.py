@@ -1,8 +1,6 @@
 def GetBucketAclRequest():
-'''public GetBucketAclRequest(final String bucketName)
-'''
-pass
+    '''    public GetBucketAclRequest(final String bucketName)
+    '''
 def getBucketName():
-'''public String getBucketName()
-'''
-pass
+    '''    public String getBucketName()
+    '''

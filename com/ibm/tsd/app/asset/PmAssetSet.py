@@ -1,4 +1,3 @@
 def PmAssetSet():
-'''public PmAssetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PmAssetSet(final MboServerInterface ms)
+    '''

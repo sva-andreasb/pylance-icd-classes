@@ -1,90 +1,68 @@
 def WMAssignmentSet():
-'''public WMAssignmentSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WMAssignmentSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def isShowPage():
-'''public boolean isShowPage()
-'''
-pass
+    '''    public boolean isShowPage()
+    '''
 def getAssignLaborSet():
-'''public AssignmentSetRemote getAssignLaborSet()
-'''
-pass
+    '''    public AssignmentSetRemote getAssignLaborSet()
+    '''
 def setAssignLaborSet():
-'''public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
-'''
-pass
+    '''    public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
+    '''
 def assignLabor():
-'''public MboSetRemote assignLabor(final MboSetRemote laborCraftRateSet, final String selectedday)
-'''
-pass
+    '''    public MboSetRemote assignLabor(final MboSetRemote laborCraftRateSet, final String selectedday)
+    '''
 def assignLaborManyToMany():
-'''public void assignLaborManyToMany(final MboSetRemote laborCraftRateSet, final String selectedday)
-public void assignLaborManyToMany(final MboSetRemote laborCraftRateSet, final String selectedday, final boolean deleteAsgnmentsOnYesNoCx)
-'''
-pass
+    '''    public void assignLaborManyToMany(final MboSetRemote laborCraftRateSet, final String selectedday)
+    public void assignLaborManyToMany(final MboSetRemote laborCraftRateSet, final String selectedday, final boolean deleteAsgnmentsOnYesNoCx)
+    '''
 def checkAssignSet():
-'''public void checkAssignSet(final String actionStr)
-'''
-pass
+    '''    public void checkAssignSet(final String actionStr)
+    '''
 def getAssignSet():
-'''public MboSetRemote getAssignSet()
-public MboSetRemote getAssignSet(final String selectedAssignStr)
-'''
-pass
+    '''    public MboSetRemote getAssignSet()
+    public MboSetRemote getAssignSet(final String selectedAssignStr)
+    '''
 def getDispatchStr():
-'''public String getDispatchStr()
-'''
-pass
+    '''    public String getDispatchStr()
+    '''
 def getDisplayDialog():
-'''public boolean getDisplayDialog()
-'''
-pass
+    '''    public boolean getDisplayDialog()
+    '''
 def filterByLabor():
-'''public void filterByLabor(final MboSetRemote matchSet)
-'''
-pass
+    '''    public void filterByLabor(final MboSetRemote matchSet)
+    '''
 def getOriginalWMQbe():
-'''public Hashtable getOriginalWMQbe()
-'''
-pass
+    '''    public Hashtable getOriginalWMQbe()
+    '''
 def getOriginalWMUserWhere():
-'''public String getOriginalWMUserWhere()
-'''
-pass
+    '''    public String getOriginalWMUserWhere()
+    '''
 def setOriginalWMUserWhere():
-'''public void setOriginalWMUserWhere(final String inWhere)
-'''
-pass
+    '''    public void setOriginalWMUserWhere(final String inWhere)
+    '''
 def setOriginalWMQbe():
-'''public void setOriginalWMQbe(final Hashtable inQbe)
-'''
-pass
+    '''    public void setOriginalWMQbe(final Hashtable inQbe)
+    '''
 def appendToWhere():
-'''public String appendToWhere()
-'''
-pass
+    '''    public String appendToWhere()
+    '''
 def filterByCrew():
-'''public void filterByCrew(final MboSetRemote matchSet)
-'''
-pass
+    '''    public void filterByCrew(final MboSetRemote matchSet)
+    '''
 def getAssignedCrewSet():
-'''public AssignmentSetRemote getAssignedCrewSet()
-'''
-pass
+    '''    public AssignmentSetRemote getAssignedCrewSet()
+    '''
 def setAssignCrewSet():
-'''public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
-'''
-pass
+    '''    public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
+    '''
 def assignCrew():
-'''public MboSetRemote assignCrew(final MboSetRemote crewSet, final String selectedday)
-'''
-pass
+    '''    public MboSetRemote assignCrew(final MboSetRemote crewSet, final String selectedday)
+    '''
 def assignCrewManyToMany():
-'''public void assignCrewManyToMany(final MboSetRemote crewSet, final String selectedday)
-'''
-pass
+    '''    public void assignCrewManyToMany(final MboSetRemote crewSet, final String selectedday)
+    '''

@@ -1,32 +1,24 @@
 def getDataHandlerReader():
-'''public static DataHandlerReader getDataHandlerReader(final XMLStreamReader reader)
-'''
-pass
+    '''    public static DataHandlerReader getDataHandlerReader(final XMLStreamReader reader)
+    '''
 def isBinary():
-'''public boolean isBinary()
-'''
-pass
+    '''    public boolean isBinary()
+    '''
 def isOptimized():
-'''public boolean isOptimized()
-'''
-pass
+    '''    public boolean isOptimized()
+    '''
 def isDeferred():
-'''public boolean isDeferred()
-'''
-pass
+    '''    public boolean isDeferred()
+    '''
 def getContentID():
-'''public String getContentID()
-'''
-pass
+    '''    public String getContentID()
+    '''
 def getDataHandler():
-'''public DataHandler getDataHandler()
-'''
-pass
+    '''    public DataHandler getDataHandler()
+    '''
 def getDataHandlerProvider():
-'''public DataHandlerProvider getDataHandlerProvider()
-'''
-pass
+    '''    public DataHandlerProvider getDataHandlerProvider()
+    '''
 def processGetProperty():
-'''public static Object processGetProperty(final DataHandlerReader extension, final String propertyName)
-'''
-pass
+    '''    public static Object processGetProperty(final DataHandlerReader extension, final String propertyName)
+    '''

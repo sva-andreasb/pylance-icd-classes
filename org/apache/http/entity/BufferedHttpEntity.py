@@ -1,28 +1,21 @@
 def BufferedHttpEntity():
-'''public BufferedHttpEntity(final HttpEntity entity)
-'''
-pass
+    '''    public BufferedHttpEntity(final HttpEntity entity)
+    '''
 def getContentLength():
-'''public long getContentLength()
-'''
-pass
+    '''    public long getContentLength()
+    '''
 def getContent():
-'''public InputStream getContent()
-'''
-pass
+    '''    public InputStream getContent()
+    '''
 def isChunked():
-'''public boolean isChunked()
-'''
-pass
+    '''    public boolean isChunked()
+    '''
 def isRepeatable():
-'''public boolean isRepeatable()
-'''
-pass
+    '''    public boolean isRepeatable()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream outstream)
-'''
-pass
+    '''    public void writeTo(final OutputStream outstream)
+    '''
 def isStreaming():
-'''public boolean isStreaming()
-'''
-pass
+    '''    public boolean isStreaming()
+    '''

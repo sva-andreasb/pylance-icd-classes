@@ -1,28 +1,21 @@
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''
 def intValue():
-'''public final int intValue()
-'''
-pass
+    '''    public final int intValue()
+    '''
 def hashCode():
-'''public final int hashCode()
-'''
-pass
+    '''    public final int hashCode()
+    '''
 def Table():
-'''public Table(final StringEnumAbstractBase[] array)
-'''
-pass
+    '''    public Table(final StringEnumAbstractBase[] array)
+    '''
 def forString():
-'''public StringEnumAbstractBase forString(final String s)
-'''
-pass
+    '''    public StringEnumAbstractBase forString(final String s)
+    '''
 def forInt():
-'''public StringEnumAbstractBase forInt(final int i)
-'''
-pass
+    '''    public StringEnumAbstractBase forInt(final int i)
+    '''
 def lastInt():
-'''public int lastInt()
-'''
-pass
+    '''    public int lastInt()
+    '''

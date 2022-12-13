@@ -1,40 +1,30 @@
 def ExternalResourceInfo():
-'''public ExternalResourceInfo(final String resourceName, final String description, final String endPointName, final String url, final String pagingParams, final int fetchLimit, final String nullFormat, final String stringQualifier, final String collectionProp)
-'''
-pass
+    '''    public ExternalResourceInfo(final String resourceName, final String description, final String endPointName, final String url, final String pagingParams, final int fetchLimit, final String nullFormat, final String stringQualifier, final String collectionProp)
+    '''
 def getResourceName():
-'''public String getResourceName()
-'''
-pass
+    '''    public String getResourceName()
+    '''
 def getPagingParams():
-'''public String getPagingParams()
-'''
-pass
+    '''    public String getPagingParams()
+    '''
 def getStringQualifier():
-'''public String getStringQualifier()
-'''
-pass
+    '''    public String getStringQualifier()
+    '''
 def getNullFormat():
-'''public String getNullFormat()
-'''
-pass
+    '''    public String getNullFormat()
+    '''
 def getEndPointName():
-'''public String getEndPointName()
-'''
-pass
+    '''    public String getEndPointName()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getURL():
-'''public String getURL()
-'''
-pass
+    '''    public String getURL()
+    '''
 def getCollectionProp():
-'''public String getCollectionProp()
-'''
-pass
+    '''    public String getCollectionProp()
+    '''
 def getFetchLimit():
-'''public int getFetchLimit()
-'''
-pass
+    '''    public int getFetchLimit()
+    '''

@@ -1,8 +1,6 @@
 def PlusPFldCopyBillingAddress():
-'''public PlusPFldCopyBillingAddress(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldCopyBillingAddress(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

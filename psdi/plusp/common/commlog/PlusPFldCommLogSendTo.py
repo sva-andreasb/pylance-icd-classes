@@ -1,8 +1,6 @@
 def PlusPFldCommLogSendTo():
-'''public PlusPFldCommLogSendTo(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldCommLogSendTo(final MboValue arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

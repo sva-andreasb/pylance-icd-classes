@@ -1,8 +1,6 @@
 def FldInventoryManufacturer():
-'''public FldInventoryManufacturer(final MboValue mbv)
-'''
-pass
+    '''    public FldInventoryManufacturer(final MboValue mbv)
+    '''
 def onlyEnabled():
-'''public boolean onlyEnabled()
-'''
-pass
+    '''    public boolean onlyEnabled()
+    '''

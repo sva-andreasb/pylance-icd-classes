@@ -1,4 +1,3 @@
 def delete():
-'''public synchronized void delete(final int nRow)
-'''
-pass
+    '''    public synchronized void delete(final int nRow)
+    '''

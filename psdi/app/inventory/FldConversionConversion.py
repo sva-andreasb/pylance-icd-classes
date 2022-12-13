@@ -1,8 +1,6 @@
 def FldConversionConversion():
-'''public FldConversionConversion(final MboValue mbv)
-'''
-pass
+    '''    public FldConversionConversion(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,4 +1,3 @@
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''

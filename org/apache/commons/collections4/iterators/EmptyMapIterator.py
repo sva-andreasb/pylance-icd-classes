@@ -1,4 +1,3 @@
 def emptyMapIterator():
-'''public static <K, V> MapIterator<K, V> emptyMapIterator()
-'''
-pass
+    '''    public static <K, V> MapIterator<K, V> emptyMapIterator()
+    '''

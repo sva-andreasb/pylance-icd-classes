@@ -1,16 +1,12 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def bookmark():
-'''public int bookmark(final MboRemote mbo)
-'''
-pass
+    '''    public int bookmark(final MboRemote mbo)
+    '''
 def deleteBookmark():
-'''public void deleteBookmark(final long keyValue)
-'''
-pass
+    '''    public void deleteBookmark(final long keyValue)
+    '''

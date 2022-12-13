@@ -1,4 +1,3 @@
 def LicenseException():
-'''public LicenseException()
-'''
-pass
+    '''    public LicenseException()
+    '''

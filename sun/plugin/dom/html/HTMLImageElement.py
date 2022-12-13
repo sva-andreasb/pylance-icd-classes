@@ -1,108 +1,81 @@
 def HTMLImageElement():
-'''public HTMLImageElement(final DOMObject domObject, final HTMLDocument htmlDocument)
-'''
-pass
+    '''    public HTMLImageElement(final DOMObject domObject, final HTMLDocument htmlDocument)
+    '''
 def getLowSrc():
-'''public String getLowSrc()
-'''
-pass
+    '''    public String getLowSrc()
+    '''
 def setLowSrc():
-'''public void setLowSrc(final String s)
-'''
-pass
+    '''    public void setLowSrc(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String s)
-'''
-pass
+    '''    public void setName(final String s)
+    '''
 def getAlign():
-'''public String getAlign()
-'''
-pass
+    '''    public String getAlign()
+    '''
 def setAlign():
-'''public void setAlign(final String s)
-'''
-pass
+    '''    public void setAlign(final String s)
+    '''
 def getAlt():
-'''public String getAlt()
-'''
-pass
+    '''    public String getAlt()
+    '''
 def setAlt():
-'''public void setAlt(final String s)
-'''
-pass
+    '''    public void setAlt(final String s)
+    '''
 def getBorder():
-'''public String getBorder()
-'''
-pass
+    '''    public String getBorder()
+    '''
 def setBorder():
-'''public void setBorder(final String s)
-'''
-pass
+    '''    public void setBorder(final String s)
+    '''
 def getHeight():
-'''public String getHeight()
-'''
-pass
+    '''    public String getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final String s)
-'''
-pass
+    '''    public void setHeight(final String s)
+    '''
 def getHspace():
-'''public String getHspace()
-'''
-pass
+    '''    public String getHspace()
+    '''
 def setHspace():
-'''public void setHspace(final String s)
-'''
-pass
+    '''    public void setHspace(final String s)
+    '''
 def getIsMap():
-'''public boolean getIsMap()
-'''
-pass
+    '''    public boolean getIsMap()
+    '''
 def setIsMap():
-'''public void setIsMap(final boolean b)
-'''
-pass
+    '''    public void setIsMap(final boolean b)
+    '''
 def getLongDesc():
-'''public String getLongDesc()
-'''
-pass
+    '''    public String getLongDesc()
+    '''
 def setLongDesc():
-'''public void setLongDesc(final String s)
-'''
-pass
+    '''    public void setLongDesc(final String s)
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''
 def setSrc():
-'''public void setSrc(final String s)
-'''
-pass
+    '''    public void setSrc(final String s)
+    '''
 def getUseMap():
-'''public String getUseMap()
-'''
-pass
+    '''    public String getUseMap()
+    '''
 def setUseMap():
-'''public void setUseMap(final String s)
-'''
-pass
+    '''    public void setUseMap(final String s)
+    '''
 def getVspace():
-'''public String getVspace()
-'''
-pass
+    '''    public String getVspace()
+    '''
 def setVspace():
-'''public void setVspace(final String s)
-'''
-pass
+    '''    public void setVspace(final String s)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String s)
-'''
-pass
+    '''    public void setWidth(final String s)
+    '''

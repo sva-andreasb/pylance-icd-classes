@@ -1,12 +1,9 @@
 def PlusPFldClassificationDesc():
-'''public PlusPFldClassificationDesc(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldClassificationDesc(final MboValue arg0)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

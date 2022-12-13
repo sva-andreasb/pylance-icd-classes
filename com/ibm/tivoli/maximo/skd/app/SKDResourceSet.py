@@ -1,4 +1,3 @@
 def SKDResourceSet():
-'''public SKDResourceSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDResourceSet(final MboServerInterface ms)
+    '''

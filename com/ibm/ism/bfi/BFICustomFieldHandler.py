@@ -1,8 +1,6 @@
 def BFICustomFieldHandler():
-'''public BFICustomFieldHandler(final BFIConnectionHandler connHandler)
-'''
-pass
+    '''    public BFICustomFieldHandler(final BFIConnectionHandler connHandler)
+    '''
 def getCustomFieldProperty():
-'''public String getCustomFieldProperty()
-'''
-pass
+    '''    public String getCustomFieldProperty()
+    '''

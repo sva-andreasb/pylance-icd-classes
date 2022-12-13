@@ -1,8 +1,6 @@
 def getOperations():
-'''public byte[] getOperations(final Resource resource)
-'''
-pass
+    '''    public byte[] getOperations(final Resource resource)
+    '''
 def getServices():
-'''public byte[] getServices()
-'''
-pass
+    '''    public byte[] getServices()
+    '''

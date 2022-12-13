@@ -1,5 +1,4 @@
 def RemoveException():
-'''public RemoveException()
-public RemoveException(final String message)
-'''
-pass
+    '''    public RemoveException()
+    public RemoveException(final String message)
+    '''

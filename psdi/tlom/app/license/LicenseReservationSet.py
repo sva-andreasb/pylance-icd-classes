@@ -1,4 +1,3 @@
 def LicenseReservationSet():
-'''public LicenseReservationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LicenseReservationSet(final MboServerInterface ms)
+    '''

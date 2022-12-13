@@ -1,12 +1,9 @@
 def LAUNCH():
-'''public int LAUNCH()
-'''
-pass
+    '''    public int LAUNCH()
+    '''
 def launchWorkflow():
-'''public int launchWorkflow(final RBAWFProcess proc, final WebClientEvent event)
-'''
-pass
+    '''    public int launchWorkflow(final RBAWFProcess proc, final WebClientEvent event)
+    '''
 def queryAllRecs():
-'''public void queryAllRecs()
-'''
-pass
+    '''    public void queryAllRecs()
+    '''

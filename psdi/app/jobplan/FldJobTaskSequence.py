@@ -1,8 +1,6 @@
 def FldJobTaskSequence():
-'''public FldJobTaskSequence(final MboValue mbv)
-'''
-pass
+    '''    public FldJobTaskSequence(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

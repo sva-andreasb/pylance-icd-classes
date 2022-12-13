@@ -1,189 +1,142 @@
 def getCreateEmployee():
-'''public Employee getCreateEmployee()
-'''
-pass
+    '''    public Employee getCreateEmployee()
+    '''
 def setCreateEmployee():
-'''public void setCreateEmployee(final Employee createEmployee)
-'''
-pass
+    '''    public void setCreateEmployee(final Employee createEmployee)
+    '''
 def getCreateUser():
-'''public Customer getCreateUser()
-'''
-pass
+    '''    public Customer getCreateUser()
+    '''
 def setCreateUser():
-'''public void setCreateUser(final Customer createUser)
-'''
-pass
+    '''    public void setCreateUser(final Customer createUser)
+    '''
 def getModifyEmployee():
-'''public Employee getModifyEmployee()
-'''
-pass
+    '''    public Employee getModifyEmployee()
+    '''
 def setModifyEmployee():
-'''public void setModifyEmployee(final Employee modifyEmployee)
-'''
-pass
+    '''    public void setModifyEmployee(final Employee modifyEmployee)
+    '''
 def getModifyUser():
-'''public Customer getModifyUser()
-'''
-pass
+    '''    public Customer getModifyUser()
+    '''
 def setModifyUser():
-'''public void setModifyUser(final Customer modifyUser)
-'''
-pass
+    '''    public void setModifyUser(final Customer modifyUser)
+    '''
 def getShipment():
-'''public Shipment getShipment()
-'''
-pass
+    '''    public Shipment getShipment()
+    '''
 def setShipment():
-'''public void setShipment(final Shipment shipment)
-'''
-pass
+    '''    public void setShipment(final Shipment shipment)
+    '''
 def getCreateUserId():
-'''public Long getCreateUserId()
-'''
-pass
+    '''    public Long getCreateUserId()
+    '''
 def setCreateUserId():
-'''public void setCreateUserId(final Long createUserId)
-'''
-pass
+    '''    public void setCreateUserId(final Long createUserId)
+    '''
 def isCreateUserIdSpecified():
-'''public boolean isCreateUserIdSpecified()
-'''
-pass
+    '''    public boolean isCreateUserIdSpecified()
+    '''
 def unsetCreateUserId():
-'''public void unsetCreateUserId()
-'''
-pass
+    '''    public void unsetCreateUserId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyUserId():
-'''public Long getModifyUserId()
-'''
-pass
+    '''    public Long getModifyUserId()
+    '''
 def setModifyUserId():
-'''public void setModifyUserId(final Long modifyUserId)
-'''
-pass
+    '''    public void setModifyUserId(final Long modifyUserId)
+    '''
 def isModifyUserIdSpecified():
-'''public boolean isModifyUserIdSpecified()
-'''
-pass
+    '''    public boolean isModifyUserIdSpecified()
+    '''
 def unsetModifyUserId():
-'''public void unsetModifyUserId()
-'''
-pass
+    '''    public void unsetModifyUserId()
+    '''
 def getPackageId():
-'''public Long getPackageId()
-'''
-pass
+    '''    public Long getPackageId()
+    '''
 def setPackageId():
-'''public void setPackageId(final Long packageId)
-'''
-pass
+    '''    public void setPackageId(final Long packageId)
+    '''
 def isPackageIdSpecified():
-'''public boolean isPackageIdSpecified()
-'''
-pass
+    '''    public boolean isPackageIdSpecified()
+    '''
 def unsetPackageId():
-'''public void unsetPackageId()
-'''
-pass
+    '''    public void unsetPackageId()
+    '''
 def getSequence():
-'''public Long getSequence()
-'''
-pass
+    '''    public Long getSequence()
+    '''
 def setSequence():
-'''public void setSequence(final Long sequence)
-'''
-pass
+    '''    public void setSequence(final Long sequence)
+    '''
 def isSequenceSpecified():
-'''public boolean isSequenceSpecified()
-'''
-pass
+    '''    public boolean isSequenceSpecified()
+    '''
 def unsetSequence():
-'''public void unsetSequence()
-'''
-pass
+    '''    public void unsetSequence()
+    '''
 def getShipmentId():
-'''public Long getShipmentId()
-'''
-pass
+    '''    public Long getShipmentId()
+    '''
 def setShipmentId():
-'''public void setShipmentId(final Long shipmentId)
-'''
-pass
+    '''    public void setShipmentId(final Long shipmentId)
+    '''
 def isShipmentIdSpecified():
-'''public boolean isShipmentIdSpecified()
-'''
-pass
+    '''    public boolean isShipmentIdSpecified()
+    '''
 def unsetShipmentId():
-'''public void unsetShipmentId()
-'''
-pass
+    '''    public void unsetShipmentId()
+    '''
 def getTrackingData():
-'''public String getTrackingData()
-'''
-pass
+    '''    public String getTrackingData()
+    '''
 def setTrackingData():
-'''public void setTrackingData(final String trackingData)
-'''
-pass
+    '''    public void setTrackingData(final String trackingData)
+    '''
 def isTrackingDataSpecified():
-'''public boolean isTrackingDataSpecified()
-'''
-pass
+    '''    public boolean isTrackingDataSpecified()
+    '''
 def unsetTrackingData():
-'''public void unsetTrackingData()
-'''
-pass
+    '''    public void unsetTrackingData()
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def createUserId():
-'''public Mask createUserId()
-'''
-pass
+    '''    public Mask createUserId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyUserId():
-'''public Mask modifyUserId()
-'''
-pass
+    '''    public Mask modifyUserId()
+    '''
 def packageId():
-'''public Mask packageId()
-'''
-pass
+    '''    public Mask packageId()
+    '''
 def sequence():
-'''public Mask sequence()
-'''
-pass
+    '''    public Mask sequence()
+    '''
 def shipmentId():
-'''public Mask shipmentId()
-'''
-pass
+    '''    public Mask shipmentId()
+    '''
 def trackingData():
-'''public Mask trackingData()
-'''
-pass
+    '''    public Mask trackingData()
+    '''

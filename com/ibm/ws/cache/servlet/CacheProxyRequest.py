@@ -1,229 +1,172 @@
 def CacheProxyRequest():
-'''public CacheProxyRequest(final HttpServletRequest proxiedRequest)
-public CacheProxyRequest()
-'''
-pass
+    '''    public CacheProxyRequest(final HttpServletRequest proxiedRequest)
+    public CacheProxyRequest()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''
 def setGeneratingId():
-'''public void setGeneratingId(final boolean b)
-'''
-pass
+    '''    public void setGeneratingId(final boolean b)
+    '''
 def isGeneratingId():
-'''public boolean isGeneratingId()
-'''
-pass
+    '''    public boolean isGeneratingId()
+    '''
 def getInputStream():
-'''public ServletInputStream getInputStream()
-'''
-pass
+    '''    public ServletInputStream getInputStream()
+    '''
 def getReader():
-'''public BufferedReader getReader()
-'''
-pass
+    '''    public BufferedReader getReader()
+    '''
 def setFragmentComposer():
-'''public void setFragmentComposer(final FragmentComposer fragmentComposer)
-'''
-pass
+    '''    public void setFragmentComposer(final FragmentComposer fragmentComposer)
+    '''
 def unionDependencies():
-'''public void unionDependencies(final EntryInfo entryInfo)
-'''
-pass
+    '''    public void unionDependencies(final EntryInfo entryInfo)
+    '''
 def _setFragmentInfo():
-'''public void _setFragmentInfo(final FragmentInfo fragmentInfo)
-'''
-pass
+    '''    public void _setFragmentInfo(final FragmentInfo fragmentInfo)
+    '''
 def getInclude():
-'''public boolean getInclude()
-'''
-pass
+    '''    public boolean getInclude()
+    '''
 def setInclude():
-'''public void setInclude(final boolean include)
-'''
-pass
+    '''    public void setInclude(final boolean include)
+    '''
 def getNamedDispatch():
-'''public boolean getNamedDispatch()
-'''
-pass
+    '''    public boolean getNamedDispatch()
+    '''
 def setNamedDispatch():
-'''public void setNamedDispatch(final boolean namedDispatch)
-'''
-pass
+    '''    public void setNamedDispatch(final boolean namedDispatch)
+    '''
 def getPortletMethod():
-'''public int getPortletMethod()
-'''
-pass
+    '''    public int getPortletMethod()
+    '''
 def setPortletMethod():
-'''public void setPortletMethod(final int portletMethod)
-'''
-pass
+    '''    public void setPortletMethod(final int portletMethod)
+    '''
 def getPortletRequest():
-'''public PortletRequest getPortletRequest()
-'''
-pass
+    '''    public PortletRequest getPortletRequest()
+    '''
 def setPortletRequest():
-'''public void setPortletRequest(final PortletRequest portletRequest)
-'''
-pass
+    '''    public void setPortletRequest(final PortletRequest portletRequest)
+    '''
 def setRelativeUri():
-'''public void setRelativeUri(final String relativeUri)
-'''
-pass
+    '''    public void setRelativeUri(final String relativeUri)
+    '''
 def getRelativeUri():
-'''public String getRelativeUri()
-'''
-pass
+    '''    public String getRelativeUri()
+    '''
 def setAbsoluteUri():
-'''public void setAbsoluteUri(final String absoluteUri)
-'''
-pass
+    '''    public void setAbsoluteUri(final String absoluteUri)
+    '''
 def getAbsoluteUri():
-'''public String getAbsoluteUri()
-'''
-pass
+    '''    public String getAbsoluteUri()
+    '''
 def _setContextPath():
-'''public void _setContextPath(final String contextPath)
-'''
-pass
+    '''    public void _setContextPath(final String contextPath)
+    '''
 def _getContextPath():
-'''public String _getContextPath()
-'''
-pass
+    '''    public String _getContextPath()
+    '''
 def setServletName():
-'''public void setServletName(final String servletName)
-'''
-pass
+    '''    public void setServletName(final String servletName)
+    '''
 def getServletName():
-'''public String getServletName()
-'''
-pass
+    '''    public String getServletName()
+    '''
 def setServletClassName():
-'''public void setServletClassName(final String servletClassName)
-'''
-pass
+    '''    public void setServletClassName(final String servletClassName)
+    '''
 def getServletClassName():
-'''public String getServletClassName()
-'''
-pass
+    '''    public String getServletClassName()
+    '''
 def getCaching():
-'''public boolean getCaching()
-'''
-pass
+    '''    public boolean getCaching()
+    '''
 def setCaching():
-'''public void setCaching(final boolean b)
-'''
-pass
+    '''    public void setCaching(final boolean b)
+    '''
 def setUncacheable():
-'''public void setUncacheable(final boolean uncacheable)
-'''
-pass
+    '''    public void setUncacheable(final boolean uncacheable)
+    '''
 def isUncacheable():
-'''public boolean isUncacheable()
-'''
-pass
+    '''    public boolean isUncacheable()
+    '''
 def setAsyncID():
-'''public void setAsyncID(final String id)
-'''
-pass
+    '''    public void setAsyncID(final String id)
+    '''
 def getAsyncID():
-'''public String getAsyncID()
-'''
-pass
+    '''    public String getAsyncID()
+    '''
 def isArdParent():
-'''public boolean isArdParent()
-'''
-pass
+    '''    public boolean isArdParent()
+    '''
 def setArdParent():
-'''public void setArdParent(final boolean ardParent)
-'''
-pass
+    '''    public void setArdParent(final boolean ardParent)
+    '''
 def getAttributeTable():
-'''public Hashtable getAttributeTable()
-'''
-pass
+    '''    public Hashtable getAttributeTable()
+    '''
 def getChangedAttributes():
-'''public Attribute[] getChangedAttributes()
-'''
-pass
+    '''    public Attribute[] getChangedAttributes()
+    '''
 def setAttributeTableUnReadied():
-'''public void setAttributeTableUnReadied(final Attribute[] unready)
-'''
-pass
+    '''    public void setAttributeTableUnReadied(final Attribute[] unready)
+    '''
 def removeAttributeTableUnReadied():
-'''public Attribute[] removeAttributeTableUnReadied()
-'''
-pass
+    '''    public Attribute[] removeAttributeTableUnReadied()
+    '''
 def setAttributeTableBytes():
-'''public void setAttributeTableBytes(final byte[] attributeTableBytes)
-'''
-pass
+    '''    public void setAttributeTableBytes(final byte[] attributeTableBytes)
+    '''
 def removeAttributeTableBytes():
-'''public byte[] removeAttributeTableBytes()
-'''
-pass
+    '''    public byte[] removeAttributeTableBytes()
+    '''
 def isUnReadied():
-'''public boolean isUnReadied()
-'''
-pass
+    '''    public boolean isUnReadied()
+    '''
 def getAttribute():
-'''public Object getAttribute(final String key)
-'''
-pass
+    '''    public Object getAttribute(final String key)
+    '''
 def setAttribute():
-'''public void setAttribute(final String key, final Object value)
-'''
-pass
+    '''    public void setAttribute(final String key, final Object value)
+    '''
 def readyAttributes():
-'''public void readyAttributes()
-'''
-pass
+    '''    public void readyAttributes()
+    '''
 def getPrivateAttribute():
-'''public Object getPrivateAttribute(final String name)
-'''
-pass
+    '''    public Object getPrivateAttribute(final String name)
+    '''
 def getPrivateAttributeNames():
-'''public Enumeration getPrivateAttributeNames()
-'''
-pass
+    '''    public Enumeration getPrivateAttributeNames()
+    '''
 def setPrivateAttribute():
-'''public void setPrivateAttribute(final String name, final Object value)
-'''
-pass
+    '''    public void setPrivateAttribute(final String name, final Object value)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def getFragmentComposer():
-'''public FragmentComposer getFragmentComposer()
-'''
-pass
+    '''    public FragmentComposer getFragmentComposer()
+    '''
 def isAsyncInclude():
-'''public boolean isAsyncInclude()
-'''
-pass
+    '''    public boolean isAsyncInclude()
+    '''
 def setAsyncInclude():
-'''public void setAsyncInclude(final boolean asyncInclude)
-'''
-pass
+    '''    public void setAsyncInclude(final boolean asyncInclude)
+    '''
 def isNestedDispatch():
-'''public boolean isNestedDispatch()
-'''
-pass
+    '''    public boolean isNestedDispatch()
+    '''
 def setNestedDispatch():
-'''public void setNestedDispatch(final boolean nestedDispatch)
-'''
-pass
+    '''    public void setNestedDispatch(final boolean nestedDispatch)
+    '''
 def isArdInThread():
-'''public boolean isArdInThread()
-'''
-pass
+    '''    public boolean isArdInThread()
+    '''
 def setArdInThread():
-'''public void setArdInThread(final boolean ardInThread)
-'''
-pass
+    '''    public void setArdInThread(final boolean ardInThread)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

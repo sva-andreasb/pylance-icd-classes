@@ -1,8 +1,6 @@
 def getMasthead():
-'''public String getMasthead()
-'''
-pass
+    '''    public String getMasthead()
+    '''
 def setMasthead():
-'''public void setMasthead(final String value)
-'''
-pass
+    '''    public void setMasthead(final String value)
+    '''

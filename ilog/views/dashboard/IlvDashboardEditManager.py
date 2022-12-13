@@ -1,4 +1,3 @@
 def getEditor():
-'''public IlvDashboardEditor getEditor()
-'''
-pass
+    '''    public IlvDashboardEditor getEditor()
+    '''

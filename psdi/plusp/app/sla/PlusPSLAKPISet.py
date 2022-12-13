@@ -1,8 +1,6 @@
 def PlusPSLAKPISet():
-'''public PlusPSLAKPISet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPSLAKPISet(final MboServerInterface arg0)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

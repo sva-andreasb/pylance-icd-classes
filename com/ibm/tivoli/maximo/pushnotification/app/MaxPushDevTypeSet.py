@@ -1,4 +1,3 @@
 def MaxPushDevTypeSet():
-'''public MaxPushDevTypeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxPushDevTypeSet(final MboServerInterface ms)
+    '''

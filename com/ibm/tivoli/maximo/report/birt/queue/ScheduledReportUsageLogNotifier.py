@@ -1,88 +1,66 @@
 def ScheduledReportUsageLogNotifier():
-'''public ScheduledReportUsageLogNotifier()
-'''
-pass
+    '''    public ScheduledReportUsageLogNotifier()
+    '''
 def setStatus():
-'''public void setStatus(final String status, final String msg)
-'''
-pass
+    '''    public void setStatus(final String status, final String msg)
+    '''
 def getStatus():
-'''public String getStatus()
-'''
-pass
+    '''    public String getStatus()
+    '''
 def getStatusMessage():
-'''public String getStatusMessage()
-'''
-pass
+    '''    public String getStatusMessage()
+    '''
 def setUserInfo():
-'''public void setUserInfo(final UserInfo userInfo)
-'''
-pass
+    '''    public void setUserInfo(final UserInfo userInfo)
+    '''
 def setReportLogger():
-'''public void setReportLogger(final MXLogger reportLogger)
-'''
-pass
+    '''    public void setReportLogger(final MXLogger reportLogger)
+    '''
 def setAppName():
-'''public void setAppName(final String appName)
-'''
-pass
+    '''    public void setAppName(final String appName)
+    '''
 def setReportName():
-'''public void setReportName(final String reportName)
-'''
-pass
+    '''    public void setReportName(final String reportName)
+    '''
 def setEnterDate():
-'''public void setEnterDate(final Date enterDate)
-'''
-pass
+    '''    public void setEnterDate(final Date enterDate)
+    '''
 def setStartDate():
-'''public void setStartDate(final Date startDate)
-'''
-pass
+    '''    public void setStartDate(final Date startDate)
+    '''
 def setEndDate():
-'''public void setEndDate(final Date endDate)
-'''
-pass
+    '''    public void setEndDate(final Date endDate)
+    '''
 def setRuntime():
-'''public void setRuntime(final long runtime)
-'''
-pass
+    '''    public void setRuntime(final long runtime)
+    '''
 def setSuccess():
-'''public void setSuccess(final boolean success)
-'''
-pass
+    '''    public void setSuccess(final boolean success)
+    '''
 def setReportFailed():
-'''public void setReportFailed()
-'''
-pass
+    '''    public void setReportFailed()
+    '''
 def isSuccess():
-'''public boolean isSuccess()
-'''
-pass
+    '''    public boolean isSuccess()
+    '''
 def setUserId():
-'''public void setUserId(final String userId)
-'''
-pass
+    '''    public void setUserId(final String userId)
+    '''
 def setHostName():
-'''public void setHostName(final String hostName)
-'''
-pass
+    '''    public void setHostName(final String hostName)
+    '''
 def setServerName():
-'''public void setServerName(final String serverName)
-'''
-pass
+    '''    public void setServerName(final String serverName)
+    '''
 def setReportExecuted():
-'''public void setReportExecuted()
-'''
-pass
+    '''    public void setReportExecuted()
+    '''
 def setEmailFileType():
-'''public void setEmailFileType(final String emailFileType)
-'''
-pass
+    '''    public void setEmailFileType(final String emailFileType)
+    '''
 def createUsageLog():
-'''public void createUsageLog()
-'''
-pass
+    '''    public void createUsageLog()
+    '''
 def setReportCancelled():
-'''public void setReportCancelled()
-'''
-pass
+    '''    public void setReportCancelled()
+    '''

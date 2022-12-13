@@ -1,8 +1,6 @@
 def FldResourceDateFormatType():
-'''public FldResourceDateFormatType(final MboValue mbv)
-'''
-pass
+    '''    public FldResourceDateFormatType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,93 +1,70 @@
 def XSSFEventBasedExcelExtractor():
-'''public XSSFEventBasedExcelExtractor(final String path)
-public XSSFEventBasedExcelExtractor(final OPCPackage container)
-'''
-pass
+    '''    public XSSFEventBasedExcelExtractor(final String path)
+    public XSSFEventBasedExcelExtractor(final OPCPackage container)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def setIncludeSheetNames():
-'''public void setIncludeSheetNames(final boolean includeSheetNames)
-'''
-pass
+    '''    public void setIncludeSheetNames(final boolean includeSheetNames)
+    '''
 def getIncludeSheetNames():
-'''public boolean getIncludeSheetNames()
-'''
-pass
+    '''    public boolean getIncludeSheetNames()
+    '''
 def setFormulasNotResults():
-'''public void setFormulasNotResults(final boolean formulasNotResults)
-'''
-pass
+    '''    public void setFormulasNotResults(final boolean formulasNotResults)
+    '''
 def getFormulasNotResults():
-'''public boolean getFormulasNotResults()
-'''
-pass
+    '''    public boolean getFormulasNotResults()
+    '''
 def setIncludeHeadersFooters():
-'''public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
-'''
-pass
+    '''    public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
+    '''
 def getIncludeHeadersFooters():
-'''public boolean getIncludeHeadersFooters()
-'''
-pass
+    '''    public boolean getIncludeHeadersFooters()
+    '''
 def setIncludeTextBoxes():
-'''public void setIncludeTextBoxes(final boolean includeTextBoxes)
-'''
-pass
+    '''    public void setIncludeTextBoxes(final boolean includeTextBoxes)
+    '''
 def getIncludeTextBoxes():
-'''public boolean getIncludeTextBoxes()
-'''
-pass
+    '''    public boolean getIncludeTextBoxes()
+    '''
 def setIncludeCellComments():
-'''public void setIncludeCellComments(final boolean includeCellComments)
-'''
-pass
+    '''    public void setIncludeCellComments(final boolean includeCellComments)
+    '''
 def getIncludeCellComments():
-'''public boolean getIncludeCellComments()
-'''
-pass
+    '''    public boolean getIncludeCellComments()
+    '''
 def setConcatenatePhoneticRuns():
-'''public void setConcatenatePhoneticRuns(final boolean concatenatePhoneticRuns)
-'''
-pass
+    '''    public void setConcatenatePhoneticRuns(final boolean concatenatePhoneticRuns)
+    '''
 def setLocale():
-'''public void setLocale(final Locale locale)
-'''
-pass
+    '''    public void setLocale(final Locale locale)
+    '''
 def getLocale():
-'''public Locale getLocale()
-'''
-pass
+    '''    public Locale getLocale()
+    '''
 def getPackage():
-'''public OPCPackage getPackage()
-'''
-pass
+    '''    public OPCPackage getPackage()
+    '''
 def processSheet():
-'''public void processSheet(final XSSFSheetXMLHandler.SheetContentsHandler sheetContentsExtractor, final StylesTable styles, final CommentsTable comments, final ReadOnlySharedStringsTable strings, final InputStream sheetInputStream)
-'''
-pass
+    '''    public void processSheet(final XSSFSheetXMLHandler.SheetContentsHandler sheetContentsExtractor, final StylesTable styles, final CommentsTable comments, final ReadOnlySharedStringsTable strings, final InputStream sheetInputStream)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def startRow():
-'''public void startRow(final int rowNum)
-'''
-pass
+    '''    public void startRow(final int rowNum)
+    '''
 def endRow():
-'''public void endRow(final int rowNum)
-'''
-pass
+    '''    public void endRow(final int rowNum)
+    '''
 def cell():
-'''public void cell(final String cellRef, final String formattedValue, final XSSFComment comment)
-'''
-pass
+    '''    public void cell(final String cellRef, final String formattedValue, final XSSFComment comment)
+    '''
 def headerFooter():
-'''public void headerFooter(final String text, final boolean isHeader, final String tagName)
-'''
-pass
+    '''    public void headerFooter(final String text, final boolean isHeader, final String tagName)
+    '''

@@ -1,8 +1,6 @@
 def VersionIntegrationTest():
-'''public VersionIntegrationTest(final SmackIntegrationTestEnvironment environment)
-'''
-pass
+    '''    public VersionIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''
 def testVersion():
-'''public void testVersion()
-'''
-pass
+    '''    public void testVersion()
+    '''

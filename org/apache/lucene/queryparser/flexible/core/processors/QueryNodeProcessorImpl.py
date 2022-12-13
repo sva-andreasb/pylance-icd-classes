@@ -1,17 +1,13 @@
 def QueryNodeProcessorImpl():
-'''public QueryNodeProcessorImpl()
-public QueryNodeProcessorImpl(final QueryConfigHandler queryConfigHandler)
-'''
-pass
+    '''    public QueryNodeProcessorImpl()
+    public QueryNodeProcessorImpl(final QueryConfigHandler queryConfigHandler)
+    '''
 def process():
-'''public QueryNode process(final QueryNode queryTree)
-'''
-pass
+    '''    public QueryNode process(final QueryNode queryTree)
+    '''
 def setQueryConfigHandler():
-'''public void setQueryConfigHandler(final QueryConfigHandler queryConfigHandler)
-'''
-pass
+    '''    public void setQueryConfigHandler(final QueryConfigHandler queryConfigHandler)
+    '''
 def getQueryConfigHandler():
-'''public QueryConfigHandler getQueryConfigHandler()
-'''
-pass
+    '''    public QueryConfigHandler getQueryConfigHandler()
+    '''

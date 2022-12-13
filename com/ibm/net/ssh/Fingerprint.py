@@ -1,20 +1,15 @@
 def getAlgorithm():
-'''public String getAlgorithm()
-'''
-pass
+    '''    public String getAlgorithm()
+    '''
 def getKeySize():
-'''public int getKeySize()
-'''
-pass
+    '''    public int getKeySize()
+    '''
 def getFingerprint():
-'''public byte[] getFingerprint()
-'''
-pass
+    '''    public byte[] getFingerprint()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

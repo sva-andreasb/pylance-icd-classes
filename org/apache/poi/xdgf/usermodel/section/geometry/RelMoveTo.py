@@ -1,24 +1,18 @@
 def RelMoveTo():
-'''public RelMoveTo(final RowType row)
-'''
-pass
+    '''    public RelMoveTo(final RowType row)
+    '''
 def getDel():
-'''public boolean getDel()
-'''
-pass
+    '''    public boolean getDel()
+    '''
 def getX():
-'''public Double getX()
-'''
-pass
+    '''    public Double getX()
+    '''
 def getY():
-'''public Double getY()
-'''
-pass
+    '''    public Double getY()
+    '''
 def setupMaster():
-'''public void setupMaster(final GeometryRow row)
-'''
-pass
+    '''    public void setupMaster(final GeometryRow row)
+    '''
 def addToPath():
-'''public void addToPath(final Path2D.Double path, final XDGFShape parent)
-'''
-pass
+    '''    public void addToPath(final Path2D.Double path, final XDGFShape parent)
+    '''

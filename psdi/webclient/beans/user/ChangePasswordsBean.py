@@ -1,4 +1,3 @@
 def genpswd():
-'''public int genpswd()
-'''
-pass
+    '''    public int genpswd()
+    '''

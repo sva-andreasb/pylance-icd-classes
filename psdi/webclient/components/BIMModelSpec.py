@@ -1,78 +1,59 @@
-TABLE_BUILDINGMODEL = "String  BUILDINGMODEL""
-FIELD_BUILDINGMODELID = "String  BUILDINGMODELID""
+TABLE_BUILDINGMODEL = "String  \"BUILDINGMODEL\""
+FIELD_BUILDINGMODELID = "String  \"BUILDINGMODELID\""
 def equals():
-'''public boolean equals(final BIMModelSpec modelSpec)
-'''
-pass
+    '''    public boolean equals(final BIMModelSpec modelSpec)
+    '''
 def getLocationName():
-'''public String getLocationName()
-'''
-pass
+    '''    public String getLocationName()
+    '''
 def getLocation():
-'''public String getLocation()
-'''
-pass
+    '''    public String getLocation()
+    '''
 def getBinding():
-'''public String getBinding()
-'''
-pass
+    '''    public String getBinding()
+    '''
 def getModelId():
-'''public long getModelId()
-'''
-pass
+    '''    public long getModelId()
+    '''
 def getModelURL():
-'''public String getModelURL()
-'''
-pass
+    '''    public String getModelURL()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getAssetView():
-'''public String getAssetView()
-'''
-pass
+    '''    public String getAssetView()
+    '''
 def getLookupView():
-'''public String getLookupView()
-'''
-pass
+    '''    public String getLookupView()
+    '''
 def getLocationView():
-'''public String getLocationView()
-'''
-pass
+    '''    public String getLocationView()
+    '''
 def getAttribClass():
-'''public String getAttribClass()
-'''
-pass
+    '''    public String getAttribClass()
+    '''
 def getAttribName():
-'''public String getAttribName()
-'''
-pass
+    '''    public String getAttribName()
+    '''
 def getParamName():
-'''public String getParamName()
-'''
-pass
+    '''    public String getParamName()
+    '''
 def getParamClass():
-'''public String getParamClass()
-'''
-pass
+    '''    public String getParamClass()
+    '''
 def getSelectionMode():
-'''public int getSelectionMode()
-'''
-pass
+    '''    public int getSelectionMode()
+    '''
 def getSiteId():
-'''public String getSiteId()
-'''
-pass
+    '''    public String getSiteId()
+    '''
 def getWorkOrderView():
-'''public String getWorkOrderView()
-'''
-pass
+    '''    public String getWorkOrderView()
+    '''
 def getModelHostname():
-'''public String getModelHostname()
-'''
-pass
+    '''    public String getModelHostname()
+    '''

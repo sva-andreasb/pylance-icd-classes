@@ -1,8 +1,6 @@
 def Messages_pl():
-'''public Messages_pl()
-'''
-pass
+    '''    public Messages_pl()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

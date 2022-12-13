@@ -1,4 +1,3 @@
 def StoreTriplesNodesHashDerby():
-'''public StoreTriplesNodesHashDerby(final SDBConnection connection, final StoreDesc desc)
-'''
-pass
+    '''    public StoreTriplesNodesHashDerby(final SDBConnection connection, final StoreDesc desc)
+    '''

@@ -1,56 +1,44 @@
-PRELIM_SUCCESS = "String  1""
-SUCCESS = "String  2""
-CLIENT_ERROR = "String  3""
-SCHEDULING_ERROR = "String  4""
+PRELIM_SUCCESS = "String  \"1\""
+SUCCESS = "String  \"2\""
+CLIENT_ERROR = "String  \"3\""
+SCHEDULING_ERROR = "String  \"4\""
 def RequestStatus():
-'''public RequestStatus()
-public RequestStatus(final ParameterList aList, final String aValue)
-public RequestStatus(final String aStatusCode, final String aDescription, final String data)
-public RequestStatus(final ParameterList aList, final String aStatusCode, final String aDescription, final String data)
-'''
-pass
+    '''    public RequestStatus()
+    public RequestStatus(final ParameterList aList, final String aValue)
+    public RequestStatus(final String aStatusCode, final String aDescription, final String data)
+    public RequestStatus(final ParameterList aList, final String aStatusCode, final String aDescription, final String data)
+    '''
 def getDescription():
-'''public final String getDescription()
-'''
-pass
+    '''    public final String getDescription()
+    '''
 def getExData():
-'''public final String getExData()
-'''
-pass
+    '''    public final String getExData()
+    '''
 def getStatusCode():
-'''public final String getStatusCode()
-'''
-pass
+    '''    public final String getStatusCode()
+    '''
 def setValue():
-'''public final void setValue(final String aValue)
-'''
-pass
+    '''    public final void setValue(final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def setDescription():
-'''public final void setDescription(final String description)
-'''
-pass
+    '''    public final void setDescription(final String description)
+    '''
 def setExData():
-'''public final void setExData(final String exData)
-'''
-pass
+    '''    public final void setExData(final String exData)
+    '''
 def setStatusCode():
-'''public final void setStatusCode(final String statusCode)
-'''
-pass
+    '''    public final void setStatusCode(final String statusCode)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createProperty():
-'''public Property createProperty(final ParameterList parameters, final String value)
-public Property createProperty()
-'''
-pass
+    '''    public Property createProperty(final ParameterList parameters, final String value)
+    public Property createProperty()
+    '''

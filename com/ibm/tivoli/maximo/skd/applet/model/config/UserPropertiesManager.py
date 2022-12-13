@@ -1,44 +1,33 @@
 def getInstance():
-'''public static UserPropertiesManager getInstance()
-'''
-pass
+    '''    public static UserPropertiesManager getInstance()
+    '''
 def UserPropertiesManager():
-'''public UserPropertiesManager()
-'''
-pass
+    '''    public UserPropertiesManager()
+    '''
 def isPost():
-'''public boolean isPost()
-'''
-pass
+    '''    public boolean isPost()
+    '''
 def convertReplyToObject():
-'''public boolean convertReplyToObject()
-'''
-pass
+    '''    public boolean convertReplyToObject()
+    '''
 def createActivityChangeRequest():
-'''public UserPropertyChanges createActivityChangeRequest()
-'''
-pass
+    '''    public UserPropertyChanges createActivityChangeRequest()
+    '''
 def createChangeRequest():
-'''public UserPropertyChanges createChangeRequest(final String objectName)
-'''
-pass
+    '''    public UserPropertyChanges createChangeRequest(final String objectName)
+    '''
 def createResourceChangeRequest():
-'''public UserPropertyChanges createResourceChangeRequest()
-'''
-pass
+    '''    public UserPropertyChanges createResourceChangeRequest()
+    '''
 def applyChanges():
-'''public void applyChanges(final UserPropertyChanges changes)
-'''
-pass
+    '''    public void applyChanges(final UserPropertyChanges changes)
+    '''
 def onSuccess():
-'''public void onSuccess(final Void data)
-'''
-pass
+    '''    public void onSuccess(final Void data)
+    '''
 def onError():
-'''public void onError(final Throwable t)
-'''
-pass
+    '''    public void onError(final Throwable t)
+    '''
 def cancel():
-'''public void cancel()
-'''
-pass
+    '''    public void cancel()
+    '''

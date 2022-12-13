@@ -1,36 +1,28 @@
 INVALID_OFFSET = "long  -1L"
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def ProduceResponse():
-'''public ProduceResponse(final Map<TopicPartition, PartitionResponse> responses)
-public ProduceResponse(final Map<TopicPartition, PartitionResponse> responses, final int throttleTime)
-public ProduceResponse(final Struct struct)
-'''
-pass
+    '''    public ProduceResponse(final Map<TopicPartition, PartitionResponse> responses)
+    public ProduceResponse(final Map<TopicPartition, PartitionResponse> responses, final int throttleTime)
+    public ProduceResponse(final Struct struct)
+    '''
 def responses():
-'''public Map<TopicPartition, PartitionResponse> responses()
-'''
-pass
+    '''    public Map<TopicPartition, PartitionResponse> responses()
+    '''
 def getThrottleTime():
-'''public int getThrottleTime()
-'''
-pass
+    '''    public int getThrottleTime()
+    '''
 def errorCounts():
-'''public Map<Errors, Integer> errorCounts()
-'''
-pass
+    '''    public Map<Errors, Integer> errorCounts()
+    '''
 def parse():
-'''public static ProduceResponse parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static ProduceResponse parse(final ByteBuffer buffer, final short version)
+    '''
 def PartitionResponse():
-'''public PartitionResponse(final Errors error)
-public PartitionResponse(final Errors error, final long baseOffset, final long logAppendTime, final long logStartOffset)
-'''
-pass
+    '''    public PartitionResponse(final Errors error)
+    public PartitionResponse(final Errors error, final long baseOffset, final long logAppendTime, final long logStartOffset)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

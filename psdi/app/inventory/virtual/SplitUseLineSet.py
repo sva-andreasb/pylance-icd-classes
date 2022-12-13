@@ -1,48 +1,36 @@
 def SplitUseLineSet():
-'''public SplitUseLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SplitUseLineSet(final MboServerInterface ms)
+    '''
 def setSplitUseLineSet():
-'''public MboSetRemote setSplitUseLineSet()
-'''
-pass
+    '''    public MboSetRemote setSplitUseLineSet()
+    '''
 def getSplitUseLineSet():
-'''public MboSetRemote getSplitUseLineSet(final MboSetRemote tempSetRemote)
-'''
-pass
+    '''    public MboSetRemote getSplitUseLineSet(final MboSetRemote tempSetRemote)
+    '''
 def autoSplitRecordSet():
-'''public MboSetRemote autoSplitRecordSet()
-'''
-pass
+    '''    public MboSetRemote autoSplitRecordSet()
+    '''
 def validateSplitLines():
-'''public void validateSplitLines()
-'''
-pass
+    '''    public void validateSplitLines()
+    '''
 def addInvUseLineSplitRecords():
-'''public void addInvUseLineSplitRecords()
-'''
-pass
+    '''    public void addInvUseLineSplitRecords()
+    '''
 def calculateAvailableQty():
-'''public double calculateAvailableQty(final MboRemote invUseLine)
-'''
-pass
+    '''    public double calculateAvailableQty(final MboRemote invUseLine)
+    '''
 def calculateRQtyNotStaged():
-'''public double calculateRQtyNotStaged(final MboRemote invUseLine)
-'''
-pass
+    '''    public double calculateRQtyNotStaged(final MboRemote invUseLine)
+    '''
 def calculateAvailableQtyforLottedItems():
-'''public double calculateAvailableQtyforLottedItems(final MboRemote invUseLine)
-'''
-pass
+    '''    public double calculateAvailableQtyforLottedItems(final MboRemote invUseLine)
+    '''
 def calculateRQtyNotStagedforLottedItems():
-'''public double calculateRQtyNotStagedforLottedItems(final MboRemote invUseLine)
-'''
-pass
+    '''    public double calculateRQtyNotStagedforLottedItems(final MboRemote invUseLine)
+    '''
 def getInvUseLineIdList():
-'''public ArrayList<Long> getInvUseLineIdList()
-'''
-pass
+    '''    public ArrayList<Long> getInvUseLineIdList()
+    '''
 def chkPickListMbo():
-'''public boolean chkPickListMbo(final MboRemote owner)
-'''
-pass
+    '''    public boolean chkPickListMbo(final MboRemote owner)
+    '''

@@ -1,12 +1,9 @@
 def getSynonymDomainIdFromMbo():
-'''public static String getSynonymDomainIdFromMbo(final Mbo mbo, final String attrName)
-'''
-pass
+    '''    public static String getSynonymDomainIdFromMbo(final Mbo mbo, final String attrName)
+    '''
 def getDomainIdFromMbo():
-'''public static String getDomainIdFromMbo(final MboValue mv)
-'''
-pass
+    '''    public static String getDomainIdFromMbo(final MboValue mv)
+    '''
 def getSelectStatementForMboSet():
-'''public static String getSelectStatementForMboSet(final MboSet mboSet, final Boolean appendEndOfSelectStatement)
-'''
-pass
+    '''    public static String getSelectStatementForMboSet(final MboSet mboSet, final Boolean appendEndOfSelectStatement)
+    '''

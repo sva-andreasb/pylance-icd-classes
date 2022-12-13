@@ -1,45 +1,34 @@
 def DN():
-'''public DN()
-public DN(final String s)
-'''
-pass
+    '''    public DN()
+    public DN(final String s)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final DN dn)
-'''
-pass
+    '''    public boolean equals(final DN dn)
+    '''
 def explodeDN():
-'''public String[] explodeDN(final boolean b)
-'''
-pass
+    '''    public String[] explodeDN(final boolean b)
+    '''
 def countRDNs():
-'''public int countRDNs()
-'''
-pass
+    '''    public int countRDNs()
+    '''
 def getRDNs():
-'''public Vector getRDNs()
-'''
-pass
+    '''    public Vector getRDNs()
+    '''
 def isDescendantOf():
-'''public boolean isDescendantOf(final DN dn)
-'''
-pass
+    '''    public boolean isDescendantOf(final DN dn)
+    '''
 def getParent():
-'''public DN getParent()
-'''
-pass
+    '''    public DN getParent()
+    '''
 def addRDN():
-'''public void addRDN(final RDN element)
-'''
-pass
+    '''    public void addRDN(final RDN element)
+    '''
 def addRDNToFront():
-'''public void addRDNToFront(final RDN element)
-'''
-pass
+    '''    public void addRDNToFront(final RDN element)
+    '''
 def addRDNToBack():
-'''public void addRDNToBack(final RDN e)
-'''
-pass
+    '''    public void addRDNToBack(final RDN e)
+    '''

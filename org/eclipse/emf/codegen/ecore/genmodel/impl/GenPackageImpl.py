@@ -1,763 +1,573 @@
 def getPrefixGen():
-'''public String getPrefixGen()
-'''
-pass
+    '''    public String getPrefixGen()
+    '''
 def getPrefix():
-'''public String getPrefix()
-'''
-pass
+    '''    public String getPrefix()
+    '''
 def setPrefix():
-'''public void setPrefix(final String newPrefix)
-'''
-pass
+    '''    public void setPrefix(final String newPrefix)
+    '''
 def getBasePackageGen():
-'''public String getBasePackageGen()
-'''
-pass
+    '''    public String getBasePackageGen()
+    '''
 def getBasePackage():
-'''public String getBasePackage()
-'''
-pass
+    '''    public String getBasePackage()
+    '''
 def setBasePackage():
-'''public void setBasePackage(final String newBasePackage)
-'''
-pass
+    '''    public void setBasePackage(final String newBasePackage)
+    '''
 def getResource():
-'''public GenResourceKind getResource()
-'''
-pass
+    '''    public GenResourceKind getResource()
+    '''
 def setResource():
-'''public void setResource(final GenResourceKind newResource)
-'''
-pass
+    '''    public void setResource(final GenResourceKind newResource)
+    '''
 def isDisposableProviderFactory():
-'''public boolean isDisposableProviderFactory()
-'''
-pass
+    '''    public boolean isDisposableProviderFactory()
+    '''
 def setDisposableProviderFactory():
-'''public void setDisposableProviderFactory(final boolean newDisposableProviderFactory)
-'''
-pass
+    '''    public void setDisposableProviderFactory(final boolean newDisposableProviderFactory)
+    '''
 def isAdapterFactory():
-'''public boolean isAdapterFactory()
-'''
-pass
+    '''    public boolean isAdapterFactory()
+    '''
 def setAdapterFactory():
-'''public void setAdapterFactory(final boolean newAdapterFactory)
-'''
-pass
+    '''    public void setAdapterFactory(final boolean newAdapterFactory)
+    '''
 def isLoadInitialization():
-'''public boolean isLoadInitialization()
-'''
-pass
+    '''    public boolean isLoadInitialization()
+    '''
 def setLoadInitialization():
-'''public void setLoadInitialization(final boolean newLoadInitialization)
-'''
-pass
+    '''    public void setLoadInitialization(final boolean newLoadInitialization)
+    '''
 def getInterfacePackageSuffix():
-'''public String getInterfacePackageSuffix()
-'''
-pass
+    '''    public String getInterfacePackageSuffix()
+    '''
 def setInterfacePackageSuffix():
-'''public void setInterfacePackageSuffix(final String newInterfacePackageSuffix)
-'''
-pass
+    '''    public void setInterfacePackageSuffix(final String newInterfacePackageSuffix)
+    '''
 def getClassPackageSuffix():
-'''public String getClassPackageSuffix()
-'''
-pass
+    '''    public String getClassPackageSuffix()
+    '''
 def setClassPackageSuffix():
-'''public void setClassPackageSuffix(final String newClassPackageSuffix)
-'''
-pass
+    '''    public void setClassPackageSuffix(final String newClassPackageSuffix)
+    '''
 def getUtilityPackageSuffix():
-'''public String getUtilityPackageSuffix()
-'''
-pass
+    '''    public String getUtilityPackageSuffix()
+    '''
 def setUtilityPackageSuffix():
-'''public void setUtilityPackageSuffix(final String newUtilityPackageSuffix)
-'''
-pass
+    '''    public void setUtilityPackageSuffix(final String newUtilityPackageSuffix)
+    '''
 def getProviderPackageSuffix():
-'''public String getProviderPackageSuffix()
-'''
-pass
+    '''    public String getProviderPackageSuffix()
+    '''
 def setProviderPackageSuffix():
-'''public void setProviderPackageSuffix(final String newProviderPackageSuffix)
-'''
-pass
+    '''    public void setProviderPackageSuffix(final String newProviderPackageSuffix)
+    '''
 def getPresentationPackageSuffix():
-'''public String getPresentationPackageSuffix()
-'''
-pass
+    '''    public String getPresentationPackageSuffix()
+    '''
 def setPresentationPackageSuffix():
-'''public void setPresentationPackageSuffix(final String newPresentationPackageSuffix)
-'''
-pass
+    '''    public void setPresentationPackageSuffix(final String newPresentationPackageSuffix)
+    '''
 def getTestsPackageSuffix():
-'''public String getTestsPackageSuffix()
-'''
-pass
+    '''    public String getTestsPackageSuffix()
+    '''
 def setTestsPackageSuffix():
-'''public void setTestsPackageSuffix(final String newTestsPackageSuffix)
-'''
-pass
+    '''    public void setTestsPackageSuffix(final String newTestsPackageSuffix)
+    '''
 def isGenerateExampleClass():
-'''public boolean isGenerateExampleClass()
-'''
-pass
+    '''    public boolean isGenerateExampleClass()
+    '''
 def setGenerateExampleClass():
-'''public void setGenerateExampleClass(final boolean newGenerateExampleClass)
-'''
-pass
+    '''    public void setGenerateExampleClass(final boolean newGenerateExampleClass)
+    '''
 def getEcoreModelElement():
-'''public EModelElement getEcoreModelElement()
-'''
-pass
+    '''    public EModelElement getEcoreModelElement()
+    '''
 def getEcorePackage():
-'''public EPackage getEcorePackage()
-'''
-pass
+    '''    public EPackage getEcorePackage()
+    '''
 def basicGetEcorePackage():
-'''public EPackage basicGetEcorePackage()
-'''
-pass
+    '''    public EPackage basicGetEcorePackage()
+    '''
 def setEcorePackage():
-'''public void setEcorePackage(final EPackage newEcorePackage)
-'''
-pass
+    '''    public void setEcorePackage(final EPackage newEcorePackage)
+    '''
 def getGenModel():
-'''public GenModel getGenModel()
-'''
-pass
+    '''    public GenModel getGenModel()
+    '''
 def getGenModelGen():
-'''public GenModel getGenModelGen()
-'''
-pass
+    '''    public GenModel getGenModelGen()
+    '''
 def setGenModel():
-'''public void setGenModel(final GenModel newGenModel)
-'''
-pass
+    '''    public void setGenModel(final GenModel newGenModel)
+    '''
 def getGenEnums():
-'''public EList getGenEnums()
-'''
-pass
+    '''    public EList getGenEnums()
+    '''
 def getGenDataTypes():
-'''public EList getGenDataTypes()
-'''
-pass
+    '''    public EList getGenDataTypes()
+    '''
 def getGenClasses():
-'''public EList getGenClasses()
-'''
-pass
+    '''    public EList getGenClasses()
+    '''
 def getNestedGenPackages():
-'''public EList getNestedGenPackages()
-'''
-pass
+    '''    public EList getNestedGenPackages()
+    '''
 def getGenClassifiers():
-'''public EList getGenClassifiers()
-'''
-pass
+    '''    public EList getGenClassifiers()
+    '''
 def eInverseAdd():
-'''public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseAdd(final InternalEObject otherEnd, final int featureID, final Class baseClass, NotificationChain msgs)
+    '''
 def eInverseRemove():
-'''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''
 def eBasicRemoveFromContainer():
-'''public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
-'''
-pass
+    '''    public NotificationChain eBasicRemoveFromContainer(final NotificationChain msgs)
+    '''
 def eGet():
-'''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
-'''
-pass
+    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''
 def eIsSet():
-'''public boolean eIsSet(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''
 def eSet():
-'''public void eSet(final EStructuralFeature eFeature, final Object newValue)
-'''
-pass
+    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''
 def eUnset():
-'''public void eUnset(final EStructuralFeature eFeature)
-'''
-pass
+    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getPackageName():
-'''public String getPackageName()
-'''
-pass
+    '''    public String getPackageName()
+    '''
 def getInterfacePackageName():
-'''public String getInterfacePackageName()
-'''
-pass
+    '''    public String getInterfacePackageName()
+    '''
 def getClassPackageName():
-'''public String getClassPackageName()
-'''
-pass
+    '''    public String getClassPackageName()
+    '''
 def getUtilitiesPackageName():
-'''public String getUtilitiesPackageName()
-'''
-pass
+    '''    public String getUtilitiesPackageName()
+    '''
 def getTestsPackageName():
-'''public String getTestsPackageName()
-'''
-pass
+    '''    public String getTestsPackageName()
+    '''
 def getPackageID():
-'''public String getPackageID()
-'''
-pass
+    '''    public String getPackageID()
+    '''
 def getNSName():
-'''public String getNSName()
-'''
-pass
+    '''    public String getNSName()
+    '''
 def getNSURI():
-'''public String getNSURI()
-'''
-pass
+    '''    public String getNSURI()
+    '''
 def getPackageInterfaceName():
-'''public String getPackageInterfaceName()
-'''
-pass
+    '''    public String getPackageInterfaceName()
+    '''
 def getQualifiedPackageInterfaceName():
-'''public String getQualifiedPackageInterfaceName()
-'''
-pass
+    '''    public String getQualifiedPackageInterfaceName()
+    '''
 def getImportedPackageInterfaceName():
-'''public String getImportedPackageInterfaceName()
-'''
-pass
+    '''    public String getImportedPackageInterfaceName()
+    '''
 def getUncapPackageInterfaceName():
-'''public String getUncapPackageInterfaceName()
-'''
-pass
+    '''    public String getUncapPackageInterfaceName()
+    '''
 def getPackageClassName():
-'''public String getPackageClassName()
-'''
-pass
+    '''    public String getPackageClassName()
+    '''
 def getQualifiedPackageClassName():
-'''public String getQualifiedPackageClassName()
-'''
-pass
+    '''    public String getQualifiedPackageClassName()
+    '''
 def getImportedPackageClassName():
-'''public String getImportedPackageClassName()
-'''
-pass
+    '''    public String getImportedPackageClassName()
+    '''
 def getFactoryInterfaceName():
-'''public String getFactoryInterfaceName()
-'''
-pass
+    '''    public String getFactoryInterfaceName()
+    '''
 def getQualifiedFactoryInterfaceName():
-'''public String getQualifiedFactoryInterfaceName()
-'''
-pass
+    '''    public String getQualifiedFactoryInterfaceName()
+    '''
 def getImportedFactoryInterfaceName():
-'''public String getImportedFactoryInterfaceName()
-'''
-pass
+    '''    public String getImportedFactoryInterfaceName()
+    '''
 def getUncapFactoryInterfaceName():
-'''public String getUncapFactoryInterfaceName()
-'''
-pass
+    '''    public String getUncapFactoryInterfaceName()
+    '''
 def getFactoryClassName():
-'''public String getFactoryClassName()
-'''
-pass
+    '''    public String getFactoryClassName()
+    '''
 def getQualifiedFactoryClassName():
-'''public String getQualifiedFactoryClassName()
-'''
-pass
+    '''    public String getQualifiedFactoryClassName()
+    '''
 def getImportedFactoryClassName():
-'''public String getImportedFactoryClassName()
-'''
-pass
+    '''    public String getImportedFactoryClassName()
+    '''
 def getAdapterFactoryClassName():
-'''public String getAdapterFactoryClassName()
-'''
-pass
+    '''    public String getAdapterFactoryClassName()
+    '''
 def getQualifiedAdapterFactoryClassName():
-'''public String getQualifiedAdapterFactoryClassName()
-'''
-pass
+    '''    public String getQualifiedAdapterFactoryClassName()
+    '''
 def getImportedAdapterFactoryClassName():
-'''public String getImportedAdapterFactoryClassName()
-'''
-pass
+    '''    public String getImportedAdapterFactoryClassName()
+    '''
 def getUncapAdapterFactoryClassName():
-'''public String getUncapAdapterFactoryClassName()
-'''
-pass
+    '''    public String getUncapAdapterFactoryClassName()
+    '''
 def getSwitchClassName():
-'''public String getSwitchClassName()
-'''
-pass
+    '''    public String getSwitchClassName()
+    '''
 def getTestSuiteClassName():
-'''public String getTestSuiteClassName()
-'''
-pass
+    '''    public String getTestSuiteClassName()
+    '''
 def getExampleClassName():
-'''public String getExampleClassName()
-'''
-pass
+    '''    public String getExampleClassName()
+    '''
 def getQualifiedTestSuiteClassName():
-'''public String getQualifiedTestSuiteClassName()
-'''
-pass
+    '''    public String getQualifiedTestSuiteClassName()
+    '''
 def getImportedTestSuiteClassName():
-'''public String getImportedTestSuiteClassName()
-'''
-pass
+    '''    public String getImportedTestSuiteClassName()
+    '''
 def hasConstraints():
-'''public boolean hasConstraints()
-'''
-pass
+    '''    public boolean hasConstraints()
+    '''
 def getValidatorClassName():
-'''public String getValidatorClassName()
-'''
-pass
+    '''    public String getValidatorClassName()
+    '''
 def getImportedValidatorClassName():
-'''public String getImportedValidatorClassName()
-'''
-pass
+    '''    public String getImportedValidatorClassName()
+    '''
 def getAllGenDataTypes():
-'''public List getAllGenDataTypes()
-'''
-pass
+    '''    public List getAllGenDataTypes()
+    '''
 def getOrderedGenClasses():
-'''public List getOrderedGenClasses()
-'''
-pass
+    '''    public List getOrderedGenClasses()
+    '''
 def getOrderedGenClassifiers():
-'''public List getOrderedGenClassifiers()
-'''
-pass
+    '''    public List getOrderedGenClassifiers()
+    '''
 def getClassifierID():
-'''public String getClassifierID(final GenClassifier genClassifier)
-'''
-pass
+    '''    public String getClassifierID(final GenClassifier genClassifier)
+    '''
 def getClassifierValue():
-'''public int getClassifierValue(final GenClassifier genClassifier)
-'''
-pass
+    '''    public int getClassifierValue(final GenClassifier genClassifier)
+    '''
 def getLocalClassifierIndex():
-'''public int getLocalClassifierIndex(final GenClassifier genClassifier)
-'''
-pass
+    '''    public int getLocalClassifierIndex(final GenClassifier genClassifier)
+    '''
 def getPackageSimpleDependencies():
-'''public List getPackageSimpleDependencies()
-'''
-pass
+    '''    public List getPackageSimpleDependencies()
+    '''
 def getPackageInterDependencies():
-'''public List getPackageInterDependencies()
-'''
-pass
+    '''    public List getPackageInterDependencies()
+    '''
 def getPackageLoadInterDependencies():
-'''public List getPackageLoadInterDependencies()
-'''
-pass
+    '''    public List getPackageLoadInterDependencies()
+    '''
 def getPackageBuildInterDependencies():
-'''public List getPackageBuildInterDependencies()
-'''
-pass
+    '''    public List getPackageBuildInterDependencies()
+    '''
 def getPackageInitializationDependencies():
-'''public List getPackageInitializationDependencies()
-'''
-pass
+    '''    public List getPackageInitializationDependencies()
+    '''
 def getPackageInstanceVariable():
-'''public String getPackageInstanceVariable(final GenPackage genPackage)
-'''
-pass
+    '''    public String getPackageInstanceVariable(final GenPackage genPackage)
+    '''
 def getSubGenPackages():
-'''public List getSubGenPackages()
-'''
-pass
+    '''    public List getSubGenPackages()
+    '''
 def getSuperGenPackage():
-'''public GenPackage getSuperGenPackage()
-'''
-pass
+    '''    public GenPackage getSuperGenPackage()
+    '''
 def getRootGenPackage():
-'''public GenPackage getRootGenPackage()
-'''
-pass
+    '''    public GenPackage getRootGenPackage()
+    '''
 def isLoadingInitialization():
-'''public boolean isLoadingInitialization()
-'''
-pass
+    '''    public boolean isLoadingInitialization()
+    '''
 def isLoadedInitialization():
-'''public boolean isLoadedInitialization()
-'''
-pass
+    '''    public boolean isLoadedInitialization()
+    '''
 def isEcorePackage():
-'''public boolean isEcorePackage()
-'''
-pass
+    '''    public boolean isEcorePackage()
+    '''
 def hasJavaLangConflict():
-'''public boolean hasJavaLangConflict()
-'''
-pass
+    '''    public boolean hasJavaLangConflict()
+    '''
 def getJavaLangConflicts():
-'''public List getJavaLangConflicts()
-'''
-pass
+    '''    public List getJavaLangConflicts()
+    '''
 def hasInterfaceImplConflict():
-'''public boolean hasInterfaceImplConflict()
-'''
-pass
+    '''    public boolean hasInterfaceImplConflict()
+    '''
 def getAllSwitchGenClasses():
-'''public List getAllSwitchGenClasses()
-'''
-pass
+    '''    public List getAllSwitchGenClasses()
+    '''
 def getClassUniqueName():
-'''public String getClassUniqueName(final GenClass genClass)
-'''
-pass
+    '''    public String getClassUniqueName(final GenClass genClass)
+    '''
 def getAllValidatorBaseGenPackages():
-'''public List getAllValidatorBaseGenPackages()
-'''
-pass
+    '''    public List getAllValidatorBaseGenPackages()
+    '''
 def getValidatorPackageUniqueSafeName():
-'''public String getValidatorPackageUniqueSafeName(final GenPackage genPackage)
-'''
-pass
+    '''    public String getValidatorPackageUniqueSafeName(final GenPackage genPackage)
+    '''
 def initialize():
-'''public void initialize(final EPackage ePackage)
-'''
-pass
+    '''    public void initialize(final EPackage ePackage)
+    '''
 def generate():
-'''public void generate(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generate(final IProgressMonitor progressMonitor)
+    '''
 def generateSchema():
-'''public void generateSchema()
-public void generateSchema(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generateSchema()
+    public void generateSchema(final IProgressMonitor progressMonitor)
+    '''
 def canGenerateSchema():
-'''public boolean canGenerateSchema()
-'''
-pass
+    '''    public boolean canGenerateSchema()
+    '''
 def generatePackageSerialization():
-'''public void generatePackageSerialization(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generatePackageSerialization(final IProgressMonitor progressMonitor)
+    '''
 def getProviderPackageName():
-'''public String getProviderPackageName()
-'''
-pass
+    '''    public String getProviderPackageName()
+    '''
 def getPresentationPackageName():
-'''public String getPresentationPackageName()
-'''
-pass
+    '''    public String getPresentationPackageName()
+    '''
 def getQualifiedPackageName():
-'''public String getQualifiedPackageName()
-'''
-pass
+    '''    public String getQualifiedPackageName()
+    '''
 def getItemProviderAdapterFactoryClassName():
-'''public String getItemProviderAdapterFactoryClassName()
-'''
-pass
+    '''    public String getItemProviderAdapterFactoryClassName()
+    '''
 def getQualifiedItemProviderAdapterFactoryClassName():
-'''public String getQualifiedItemProviderAdapterFactoryClassName()
-'''
-pass
+    '''    public String getQualifiedItemProviderAdapterFactoryClassName()
+    '''
 def getImportedItemProviderAdapterFactoryClassName():
-'''public String getImportedItemProviderAdapterFactoryClassName()
-'''
-pass
+    '''    public String getImportedItemProviderAdapterFactoryClassName()
+    '''
 def getEditorClassName():
-'''public String getEditorClassName()
-'''
-pass
+    '''    public String getEditorClassName()
+    '''
 def getQualifiedEditorClassName():
-'''public String getQualifiedEditorClassName()
-'''
-pass
+    '''    public String getQualifiedEditorClassName()
+    '''
 def getImportedEditorClassName():
-'''public String getImportedEditorClassName()
-'''
-pass
+    '''    public String getImportedEditorClassName()
+    '''
 def getModelWizardClassName():
-'''public String getModelWizardClassName()
-'''
-pass
+    '''    public String getModelWizardClassName()
+    '''
 def getQualifiedModelWizardClassName():
-'''public String getQualifiedModelWizardClassName()
-'''
-pass
+    '''    public String getQualifiedModelWizardClassName()
+    '''
 def getImportedModelWizardClassName():
-'''public String getImportedModelWizardClassName()
-'''
-pass
+    '''    public String getImportedModelWizardClassName()
+    '''
 def getActionBarContributorClassName():
-'''public String getActionBarContributorClassName()
-'''
-pass
+    '''    public String getActionBarContributorClassName()
+    '''
 def getQualifiedActionBarContributorClassName():
-'''public String getQualifiedActionBarContributorClassName()
-'''
-pass
+    '''    public String getQualifiedActionBarContributorClassName()
+    '''
 def getImportedActionBarContributorClassName():
-'''public String getImportedActionBarContributorClassName()
-'''
-pass
+    '''    public String getImportedActionBarContributorClassName()
+    '''
 def getAdapterFactoryDelegateName():
-'''public String getAdapterFactoryDelegateName(final GenPackage genDelegate)
-'''
-pass
+    '''    public String getAdapterFactoryDelegateName(final GenPackage genDelegate)
+    '''
 def getUncapAdapterFactoryDelegateName():
-'''public String getUncapAdapterFactoryDelegateName(final GenPackage genDelegate)
-'''
-pass
+    '''    public String getUncapAdapterFactoryDelegateName(final GenPackage genDelegate)
+    '''
 def getEditPluginClassName():
-'''public String getEditPluginClassName()
-'''
-pass
+    '''    public String getEditPluginClassName()
+    '''
 def getQualifiedEditPluginClassName():
-'''public String getQualifiedEditPluginClassName()
-'''
-pass
+    '''    public String getQualifiedEditPluginClassName()
+    '''
 def getImportedEditPluginClassName():
-'''public String getImportedEditPluginClassName()
-'''
-pass
+    '''    public String getImportedEditPluginClassName()
+    '''
 def getEditorPluginClassName():
-'''public String getEditorPluginClassName()
-'''
-pass
+    '''    public String getEditorPluginClassName()
+    '''
 def getQualifiedEditorPluginClassName():
-'''public String getQualifiedEditorPluginClassName()
-'''
-pass
+    '''    public String getQualifiedEditorPluginClassName()
+    '''
 def getImportedEditorPluginClassName():
-'''public String getImportedEditorPluginClassName()
-'''
-pass
+    '''    public String getImportedEditorPluginClassName()
+    '''
 def getCapPackageID():
-'''public String getCapPackageID()
-'''
-pass
+    '''    public String getCapPackageID()
+    '''
 def getAllGenFeatures():
-'''public List getAllGenFeatures()
-'''
-pass
+    '''    public List getAllGenFeatures()
+    '''
 def getFilteredAllGenFeatures():
-'''public List getFilteredAllGenFeatures()
-'''
-pass
+    '''    public List getFilteredAllGenFeatures()
+    '''
 def getAdapterDelegatePackages():
-'''public List getAdapterDelegatePackages()
-'''
-pass
+    '''    public List getAdapterDelegatePackages()
+    '''
 def getAdapterDelegateSuperClasses():
-'''public List getAdapterDelegateSuperClasses()
-'''
-pass
+    '''    public List getAdapterDelegateSuperClasses()
+    '''
 def hasStatefulProvider():
-'''public boolean hasStatefulProvider()
-'''
-pass
+    '''    public boolean hasStatefulProvider()
+    '''
 def generateEdit():
-'''public void generateEdit(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generateEdit(final IProgressMonitor progressMonitor)
+    '''
 def generateEditor():
-'''public void generateEditor(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generateEditor(final IProgressMonitor progressMonitor)
+    '''
 def hasTests():
-'''public boolean hasTests()
-'''
-pass
+    '''    public boolean hasTests()
+    '''
 def canGenerateTests():
-'''public boolean canGenerateTests()
-'''
-pass
+    '''    public boolean canGenerateTests()
+    '''
 def generateTests():
-'''public void generateTests(final IProgressMonitor progressMonitor)
-'''
-pass
+    '''    public void generateTests(final IProgressMonitor progressMonitor)
+    '''
 def getModelIconFileName():
-'''public String getModelIconFileName()
-'''
-pass
+    '''    public String getModelIconFileName()
+    '''
 def getModelWizardIconFileName():
-'''public String getModelWizardIconFileName()
-'''
-pass
+    '''    public String getModelWizardIconFileName()
+    '''
 def hasClassifiers():
-'''public boolean hasClassifiers()
-public boolean hasClassifiers(final boolean traverseNestedPackages)
-'''
-pass
+    '''    public boolean hasClassifiers()
+    public boolean hasClassifiers(final boolean traverseNestedPackages)
+    '''
 def getModelInfo():
-'''public String getModelInfo()
-'''
-pass
+    '''    public String getModelInfo()
+    '''
 def reconcile():
-'''public boolean reconcile(final GenPackage oldGenPackageVersion)
-public boolean reconcile()
-'''
-pass
+    '''    public boolean reconcile(final GenPackage oldGenPackageVersion)
+    public boolean reconcile()
+    '''
 def getAnnotationSources():
-'''public List getAnnotationSources()
-'''
-pass
+    '''    public List getAnnotationSources()
+    '''
 def getAnnotationSourceIdentifier():
-'''public String getAnnotationSourceIdentifier(final String annotationSource)
-'''
-pass
+    '''    public String getAnnotationSourceIdentifier(final String annotationSource)
+    '''
 def getAllAnnotations():
-'''public List getAllAnnotations()
-'''
-pass
+    '''    public List getAllAnnotations()
+    '''
 def getAnnotatedModelElementAccessor():
-'''public String getAnnotatedModelElementAccessor(final EAnnotation eAnnotation)
-'''
-pass
+    '''    public String getAnnotatedModelElementAccessor(final EAnnotation eAnnotation)
+    '''
 def caseEPackage():
-'''public Object caseEPackage(final EPackage ePackage)
-'''
-pass
+    '''    public Object caseEPackage(final EPackage ePackage)
+    '''
 def caseEClassifier():
-'''public Object caseEClassifier(final EClassifier eClassifier)
-'''
-pass
+    '''    public Object caseEClassifier(final EClassifier eClassifier)
+    '''
 def caseEStructuralFeature():
-'''public Object caseEStructuralFeature(final EStructuralFeature eStructuralFeature)
-'''
-pass
+    '''    public Object caseEStructuralFeature(final EStructuralFeature eStructuralFeature)
+    '''
 def caseEOperation():
-'''public Object caseEOperation(final EOperation eOperation)
-'''
-pass
+    '''    public Object caseEOperation(final EOperation eOperation)
+    '''
 def caseEEnumLiteral():
-'''public Object caseEEnumLiteral(final EEnumLiteral eEnumLiteral)
-'''
-pass
+    '''    public Object caseEEnumLiteral(final EEnumLiteral eEnumLiteral)
+    '''
 def caseEParameter():
-'''public Object caseEParameter(final EParameter eParameter)
-'''
-pass
+    '''    public Object caseEParameter(final EParameter eParameter)
+    '''
 def getResourceClassName():
-'''public String getResourceClassName()
-'''
-pass
+    '''    public String getResourceClassName()
+    '''
 def getQualifiedResourceClassName():
-'''public String getQualifiedResourceClassName()
-'''
-pass
+    '''    public String getQualifiedResourceClassName()
+    '''
 def getImportedResourceClassName():
-'''public String getImportedResourceClassName()
-'''
-pass
+    '''    public String getImportedResourceClassName()
+    '''
 def getImportedResourceBaseClassName():
-'''public String getImportedResourceBaseClassName()
-'''
-pass
+    '''    public String getImportedResourceBaseClassName()
+    '''
 def getResourceFactoryClassName():
-'''public String getResourceFactoryClassName()
-'''
-pass
+    '''    public String getResourceFactoryClassName()
+    '''
 def getQualifiedResourceFactoryClassName():
-'''public String getQualifiedResourceFactoryClassName()
-'''
-pass
+    '''    public String getQualifiedResourceFactoryClassName()
+    '''
 def getImportedResourceFactoryClassName():
-'''public String getImportedResourceFactoryClassName()
-'''
-pass
+    '''    public String getImportedResourceFactoryClassName()
+    '''
 def getImportedResourceFactoryBaseClassName():
-'''public String getImportedResourceFactoryBaseClassName()
-'''
-pass
+    '''    public String getImportedResourceFactoryBaseClassName()
+    '''
 def hasDocumentRoot():
-'''public boolean hasDocumentRoot()
-'''
-pass
+    '''    public boolean hasDocumentRoot()
+    '''
 def hasExtendedMetaData():
-'''public boolean hasExtendedMetaData()
-'''
-pass
+    '''    public boolean hasExtendedMetaData()
+    '''
 def hasXMLMap():
-'''public boolean hasXMLMap()
-'''
-pass
+    '''    public boolean hasXMLMap()
+    '''
 def hasTargetNamespace():
-'''public boolean hasTargetNamespace()
-'''
-pass
+    '''    public boolean hasTargetNamespace()
+    '''
 def getSerializedPackageFilename():
-'''public String getSerializedPackageFilename()
-'''
-pass
+    '''    public String getSerializedPackageFilename()
+    '''
 def getProviderSupportedTypes():
-'''public List getProviderSupportedTypes()
-'''
-pass
+    '''    public List getProviderSupportedTypes()
+    '''
 def getRootClass():
-'''public GenClass getRootClass()
-'''
-pass
+    '''    public GenClass getRootClass()
+    '''
 def getRootFeature():
-'''public GenFeature getRootFeature()
-'''
-pass
+    '''    public GenFeature getRootFeature()
+    '''
 def hasConcreteClasses():
-'''public boolean hasConcreteClasses()
-'''
-pass
+    '''    public boolean hasConcreteClasses()
+    '''
 def DependencyHelper():
-'''public DependencyHelper()
-'''
-pass
+    '''    public DependencyHelper()
+    '''
 def getSimpleDependencies():
-'''public List getSimpleDependencies()
-'''
-pass
+    '''    public List getSimpleDependencies()
+    '''
 def getInterDependencies():
-'''public List getInterDependencies()
-'''
-pass
+    '''    public List getInterDependencies()
+    '''
 def getLoadInterDependencies():
-'''public List getLoadInterDependencies()
-'''
-pass
+    '''    public List getLoadInterDependencies()
+    '''
 def getBuildInterDependencies():
-'''public List getBuildInterDependencies()
-'''
-pass
+    '''    public List getBuildInterDependencies()
+    '''
 def getInitializationDependencies():
-'''public List getInitializationDependencies()
-'''
-pass
+    '''    public List getInitializationDependencies()
+    '''
 def SwitchHelper():
-'''public SwitchHelper()
-'''
-pass
+    '''    public SwitchHelper()
+    '''
 def getAllGenClasses():
-'''public List getAllGenClasses()
-'''
-pass
+    '''    public List getAllGenClasses()
+    '''
 def ValidatorHelper():
-'''public ValidatorHelper()
-'''
-pass
+    '''    public ValidatorHelper()
+    '''
 def getAllBaseGenPackages():
-'''public List getAllBaseGenPackages()
-'''
-pass
+    '''    public List getAllBaseGenPackages()
+    '''
 def getPackageUniqueSafeName():
-'''public String getPackageUniqueSafeName(final GenPackage genPackage)
-'''
-pass
+    '''    public String getPackageUniqueSafeName(final GenPackage genPackage)
+    '''

@@ -1,12 +1,9 @@
 def InvalidHelpSetContextException():
-'''public InvalidHelpSetContextException(final String message, final HelpSet context, final HelpSet hs)
-'''
-pass
+    '''    public InvalidHelpSetContextException(final String message, final HelpSet context, final HelpSet hs)
+    '''
 def getContext():
-'''public HelpSet getContext()
-'''
-pass
+    '''    public HelpSet getContext()
+    '''
 def getHelpSet():
-'''public HelpSet getHelpSet()
-'''
-pass
+    '''    public HelpSet getHelpSet()
+    '''

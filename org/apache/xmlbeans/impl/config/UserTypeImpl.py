@@ -1,12 +1,9 @@
 def getJavaName():
-'''public String getJavaName()
-'''
-pass
+    '''    public String getJavaName()
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getStaticHandler():
-'''public String getStaticHandler()
-'''
-pass
+    '''    public String getStaticHandler()
+    '''

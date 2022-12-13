@@ -1,20 +1,15 @@
 def ButtonGroup():
-'''public ButtonGroup()
-'''
-pass
+    '''    public ButtonGroup()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def hasDialogCancelEvent():
-'''public boolean hasDialogCancelEvent()
-'''
-pass
+    '''    public boolean hasDialogCancelEvent()
+    '''
 def maintainControlId():
-'''public boolean maintainControlId()
-'''
-pass
+    '''    public boolean maintainControlId()
+    '''

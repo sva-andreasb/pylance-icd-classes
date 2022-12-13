@@ -1,78 +1,60 @@
 def MutableDouble():
-'''public MutableDouble()
-public MutableDouble(final double value)
-public MutableDouble(final Number value)
-public MutableDouble(final String value)
-'''
-pass
+    '''    public MutableDouble()
+    public MutableDouble(final double value)
+    public MutableDouble(final Number value)
+    public MutableDouble(final String value)
+    '''
 def getValue():
-'''public Double getValue()
-'''
-pass
+    '''    public Double getValue()
+    '''
 def setValue():
-'''public void setValue(final double value)
-public void setValue(final Number value)
-'''
-pass
+    '''    public void setValue(final double value)
+    public void setValue(final Number value)
+    '''
 def isNaN():
-'''public boolean isNaN()
-'''
-pass
+    '''    public boolean isNaN()
+    '''
 def isInfinite():
-'''public boolean isInfinite()
-'''
-pass
+    '''    public boolean isInfinite()
+    '''
 def increment():
-'''public void increment()
-'''
-pass
+    '''    public void increment()
+    '''
 def decrement():
-'''public void decrement()
-'''
-pass
+    '''    public void decrement()
+    '''
 def add():
-'''public void add(final double operand)
-public void add(final Number operand)
-'''
-pass
+    '''    public void add(final double operand)
+    public void add(final Number operand)
+    '''
 def subtract():
-'''public void subtract(final double operand)
-public void subtract(final Number operand)
-'''
-pass
+    '''    public void subtract(final double operand)
+    public void subtract(final Number operand)
+    '''
 def intValue():
-'''public int intValue()
-'''
-pass
+    '''    public int intValue()
+    '''
 def longValue():
-'''public long longValue()
-'''
-pass
+    '''    public long longValue()
+    '''
 def floatValue():
-'''public float floatValue()
-'''
-pass
+    '''    public float floatValue()
+    '''
 def doubleValue():
-'''public double doubleValue()
-'''
-pass
+    '''    public double doubleValue()
+    '''
 def toDouble():
-'''public Double toDouble()
-'''
-pass
+    '''    public Double toDouble()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def compareTo():
-'''public int compareTo(final MutableDouble other)
-'''
-pass
+    '''    public int compareTo(final MutableDouble other)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

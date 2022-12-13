@@ -1,76 +1,57 @@
 def getJmsManager():
-'''public static JmsManager getJmsManager(final String name, final Properties jndiProperties, final String connectionFactoryName, final String destinationName, final String userName, final char[] password, final boolean immediateFail, final long reconnectIntervalMillis)
-'''
-pass
+    '''    public static JmsManager getJmsManager(final String name, final Properties jndiProperties, final String connectionFactoryName, final String destinationName, final String userName, final char[] password, final boolean immediateFail, final long reconnectIntervalMillis)
+    '''
 def createMessage():
-'''public Message createMessage(final Serializable object)
-'''
-pass
+    '''    public Message createMessage(final Serializable object)
+    '''
 def createMessageConsumer():
-'''public MessageConsumer createMessageConsumer()
-'''
-pass
+    '''    public MessageConsumer createMessageConsumer()
+    '''
 def createMessageProducer():
-'''public MessageProducer createMessageProducer(final Session session, final Destination destination)
-'''
-pass
+    '''    public MessageProducer createMessageProducer(final Session session, final Destination destination)
+    '''
 def getJmsManagerConfiguration():
-'''public JmsManagerConfiguration getJmsManagerConfiguration()
-'''
-pass
+    '''    public JmsManagerConfiguration getJmsManagerConfiguration()
+    '''
 def getConnectionFactoryName():
-'''public String getConnectionFactoryName()
-'''
-pass
+    '''    public String getConnectionFactoryName()
+    '''
 def getDestinationName():
-'''public String getDestinationName()
-'''
-pass
+    '''    public String getDestinationName()
+    '''
 def getJndiManager():
-'''public JndiManager getJndiManager()
-'''
-pass
+    '''    public JndiManager getJndiManager()
+    '''
 def getJndiProperties():
-'''public Properties getJndiProperties()
-'''
-pass
+    '''    public Properties getJndiProperties()
+    '''
 def getPassword():
-'''public char[] getPassword()
-'''
-pass
+    '''    public char[] getPassword()
+    '''
 def getReconnectIntervalMillis():
-'''public long getReconnectIntervalMillis()
-'''
-pass
+    '''    public long getReconnectIntervalMillis()
+    '''
 def getUserName():
-'''public String getUserName()
-'''
-pass
+    '''    public String getUserName()
+    '''
 def isImmediateFail():
-'''public boolean isImmediateFail()
-'''
-pass
+    '''    public boolean isImmediateFail()
+    '''
 def isRetry():
-'''public boolean isRetry()
-'''
-pass
+    '''    public boolean isRetry()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def createManager():
-'''public JmsManager createManager(final String name, final JmsManagerConfiguration data)
-'''
-pass
+    '''    public JmsManager createManager(final String name, final JmsManagerConfiguration data)
+    '''
 def latch():
-'''public void latch()
-'''
-pass
+    '''    public void latch()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def shutdown():
-'''public void shutdown()
-'''
-pass
+    '''    public void shutdown()
+    '''

@@ -1,8 +1,6 @@
 def FldTloamLicensePurchGLDebitAccount():
-'''public FldTloamLicensePurchGLDebitAccount(final MboValue mbv)
-'''
-pass
+    '''    public FldTloamLicensePurchGLDebitAccount(final MboValue mbv)
+    '''
 def setValueFromLookup():
-'''public void setValueFromLookup(final MboRemote sourceMbo)
-'''
-pass
+    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''

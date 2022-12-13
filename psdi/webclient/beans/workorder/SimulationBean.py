@@ -1,8 +1,6 @@
 def SimulationBean():
-'''public SimulationBean()
-'''
-pass
+    '''    public SimulationBean()
+    '''
 def UPDATEWO():
-'''public int UPDATEWO()
-'''
-pass
+    '''    public int UPDATEWO()
+    '''

@@ -1,54 +1,41 @@
 def Instruction():
-'''public Instruction(final short opcode, final short length)
-'''
-pass
+    '''    public Instruction(final short opcode, final short length)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-public String toString()
-public String toString(final ConstantPool cp)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    public String toString()
+    public String toString(final ConstantPool cp)
+    '''
 def copy():
-'''public Instruction copy()
-'''
-pass
+    '''    public Instruction copy()
+    '''
 def readInstruction():
-'''public static final Instruction readInstruction(final ByteSequence bytes)
-'''
-pass
+    '''    public static final Instruction readInstruction(final ByteSequence bytes)
+    '''
 def consumeStack():
-'''public int consumeStack(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public int consumeStack(final ConstantPoolGen cpg)
+    '''
 def produceStack():
-'''public int produceStack(final ConstantPoolGen cpg)
-'''
-pass
+    '''    public int produceStack(final ConstantPoolGen cpg)
+    '''
 def getOpcode():
-'''public short getOpcode()
-'''
-pass
+    '''    public short getOpcode()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getComparator():
-'''public static InstructionComparator getComparator()
-'''
-pass
+    '''    public static InstructionComparator getComparator()
+    '''
 def setComparator():
-'''public static void setComparator(final InstructionComparator c)
-'''
-pass
+    '''    public static void setComparator(final InstructionComparator c)
+    '''
 def equals():
-'''public boolean equals(final Object that)
-'''
-pass
+    '''    public boolean equals(final Object that)
+    '''

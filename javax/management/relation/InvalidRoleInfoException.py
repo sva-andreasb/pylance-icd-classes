@@ -1,5 +1,4 @@
 def InvalidRoleInfoException():
-'''public InvalidRoleInfoException()
-public InvalidRoleInfoException(final String s)
-'''
-pass
+    '''    public InvalidRoleInfoException()
+    public InvalidRoleInfoException(final String s)
+    '''

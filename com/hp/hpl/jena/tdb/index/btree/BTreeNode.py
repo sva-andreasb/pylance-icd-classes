@@ -1,58 +1,44 @@
 def getCount():
-'''public final int getCount()
-'''
-pass
+    '''    public final int getCount()
+    '''
 def getId():
-'''public int getId()
-'''
-pass
+    '''    public int getId()
+    '''
 def getByteBuffer():
-'''public ByteBuffer getByteBuffer()
-'''
-pass
+    '''    public ByteBuffer getByteBuffer()
+    '''
 def search():
-'''public Record search(final Record rec)
-'''
-pass
+    '''    public Record search(final Record rec)
+    '''
 def insert():
-'''public Record insert(final Record record)
-'''
-pass
+    '''    public Record insert(final Record record)
+    '''
 def delete():
-'''public Record delete(final Record rec)
-'''
-pass
+    '''    public Record delete(final Record rec)
+    '''
 def maxRecord():
-'''public Record maxRecord()
-'''
-pass
+    '''    public Record maxRecord()
+    '''
 def minRecord():
-'''public Record minRecord()
-'''
-pass
+    '''    public Record minRecord()
+    '''
 def sizeByCounting():
-'''public long sizeByCounting()
-'''
-pass
+    '''    public long sizeByCounting()
+    '''
 def iterator():
-'''public Iterator<Record> iterator(final Record fromRec, final Record toRec)
-public Iterator<Record> iterator()
-'''
-pass
+    '''    public Iterator<Record> iterator(final Record fromRec, final Record toRec)
+    public Iterator<Record> iterator()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def dump():
-'''public void dump()
-public void dump(final PrintStream out, int level)
-'''
-pass
+    '''    public void dump()
+    public void dump(final PrintStream out, int level)
+    '''
 def dumpToString():
-'''public String dumpToString()
-'''
-pass
+    '''    public String dumpToString()
+    '''
 def checkNodeDeep():
-'''public final void checkNodeDeep()
-'''
-pass
+    '''    public final void checkNodeDeep()
+    '''

@@ -1,8 +1,6 @@
 def FldCIAsOfDate():
-'''public FldCIAsOfDate(final MboValue mbv)
-'''
-pass
+    '''    public FldCIAsOfDate(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

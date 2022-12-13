@@ -1,21 +1,16 @@
-RELATIONSHIP_MAXATTRIBUTE = "String  MAXATTRIBUTE""
+RELATIONSHIP_MAXATTRIBUTE = "String  \"MAXATTRIBUTE\""
 def RSConfigAttributesAvailableBean():
-'''public RSConfigAttributesAvailableBean()
-'''
-pass
+    '''    public RSConfigAttributesAvailableBean()
+    '''
 def isCurrentRootNodeSelected():
-'''public boolean isCurrentRootNodeSelected()
-'''
-pass
+    '''    public boolean isCurrentRootNodeSelected()
+    '''
 def selectAttribute():
-'''public int selectAttribute()
-'''
-pass
+    '''    public int selectAttribute()
+    '''
 def addselectedatt():
-'''public int addselectedatt()
-'''
-pass
+    '''    public int addselectedatt()
+    '''
 def addallatt():
-'''public int addallatt()
-'''
-pass
+    '''    public int addallatt()
+    '''

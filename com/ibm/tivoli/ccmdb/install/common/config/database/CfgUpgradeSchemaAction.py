@@ -1,20 +1,15 @@
 def existsAndIsConfigured():
-'''public boolean existsAndIsConfigured()
-'''
-pass
+    '''    public boolean existsAndIsConfigured()
+    '''
 def performAction():
-'''public TaskResult performAction()
-'''
-pass
+    '''    public TaskResult performAction()
+    '''
 def undoAction():
-'''public TaskResult undoAction()
-'''
-pass
+    '''    public TaskResult undoAction()
+    '''
 def getInstance():
-'''public static ICfgConfigurationAction getInstance()
-'''
-pass
+    '''    public static ICfgConfigurationAction getInstance()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

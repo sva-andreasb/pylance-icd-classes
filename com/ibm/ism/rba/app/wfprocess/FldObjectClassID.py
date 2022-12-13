@@ -1,8 +1,6 @@
 def FldObjectClassID():
-'''public FldObjectClassID(final MboValue mbv)
-'''
-pass
+    '''    public FldObjectClassID(final MboValue mbv)
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

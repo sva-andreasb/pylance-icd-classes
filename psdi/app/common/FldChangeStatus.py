@@ -1,16 +1,12 @@
 def FldChangeStatus():
-'''public FldChangeStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldChangeStatus(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getSiteOrgWhere():
-'''public String getSiteOrgWhere()
-'''
-pass
+    '''    public String getSiteOrgWhere()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

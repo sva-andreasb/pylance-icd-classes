@@ -1,8 +1,6 @@
 def PlusPMatRecTrans():
-'''public PlusPMatRecTrans(final MboSet arg0)
-'''
-pass
+    '''    public PlusPMatRecTrans(final MboSet arg0)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

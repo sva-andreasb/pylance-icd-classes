@@ -1,8 +1,6 @@
 def ConvertXML():
-'''public ConvertXML()
-'''
-pass
+    '''    public ConvertXML()
+    '''
 def serializationEnd():
-'''public byte[] serializationEnd(final byte[] serializedData)
-'''
-pass
+    '''    public byte[] serializationEnd(final byte[] serializedData)
+    '''

@@ -1,8 +1,6 @@
 def unmarshall():
-'''public GenerateRandomResult unmarshall(final JsonUnmarshallerContext context)
-'''
-pass
+    '''    public GenerateRandomResult unmarshall(final JsonUnmarshallerContext context)
+    '''
 def getInstance():
-'''public static GenerateRandomResultJsonUnmarshaller getInstance()
-'''
-pass
+    '''    public static GenerateRandomResultJsonUnmarshaller getInstance()
+    '''

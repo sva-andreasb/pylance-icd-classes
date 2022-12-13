@@ -1,4 +1,3 @@
 def getJobPlanSet():
-'''public MboSetRemote getJobPlanSet(final MboRemote mbo)
-'''
-pass
+    '''    public MboSetRemote getJobPlanSet(final MboRemote mbo)
+    '''

@@ -1,5 +1,4 @@
 def PersonGroupService():
-'''public PersonGroupService()
-public PersonGroupService(final MXServer mxServer)
-'''
-pass
+    '''    public PersonGroupService()
+    public PersonGroupService(final MXServer mxServer)
+    '''

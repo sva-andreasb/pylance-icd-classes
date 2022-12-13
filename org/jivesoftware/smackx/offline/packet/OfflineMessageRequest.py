@@ -1,62 +1,47 @@
-ELEMENT = "String  offline""
-NAMESPACE = "String  http://jabber.org/protocol/offline""
+ELEMENT = "String  \"offline\""
+NAMESPACE = "String  \"http://jabber.org/protocol/offline\""
 def OfflineMessageRequest():
-'''public OfflineMessageRequest()
-'''
-pass
+    '''    public OfflineMessageRequest()
+    '''
 def getItems():
-'''public List<Item> getItems()
-'''
-pass
+    '''    public List<Item> getItems()
+    '''
 def addItem():
-'''public void addItem(final Item item)
-'''
-pass
+    '''    public void addItem(final Item item)
+    '''
 def isPurge():
-'''public boolean isPurge()
-'''
-pass
+    '''    public boolean isPurge()
+    '''
 def setPurge():
-'''public void setPurge(final boolean purge)
-'''
-pass
+    '''    public void setPurge(final boolean purge)
+    '''
 def isFetch():
-'''public boolean isFetch()
-'''
-pass
+    '''    public boolean isFetch()
+    '''
 def setFetch():
-'''public void setFetch(final boolean fetch)
-'''
-pass
+    '''    public void setFetch(final boolean fetch)
+    '''
 def Item():
-'''public Item(final String node)
-'''
-pass
+    '''    public Item(final String node)
+    '''
 def getNode():
-'''public String getNode()
-'''
-pass
+    '''    public String getNode()
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def setAction():
-'''public void setAction(final String action)
-'''
-pass
+    '''    public void setAction(final String action)
+    '''
 def getJid():
-'''public String getJid()
-'''
-pass
+    '''    public String getJid()
+    '''
 def setJid():
-'''public void setJid(final String jid)
-'''
-pass
+    '''    public void setJid(final String jid)
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def parse():
-'''public OfflineMessageRequest parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public OfflineMessageRequest parse(final XmlPullParser parser, final int initialDepth)
+    '''

@@ -1,16 +1,12 @@
 def InvoiceSysCode():
-'''public InvoiceSysCode(final Mbo mbo)
-'''
-pass
+    '''    public InvoiceSysCode(final Mbo mbo)
+    '''
 def isChanged():
-'''public boolean isChanged(final long field)
-'''
-pass
+    '''    public boolean isChanged(final long field)
+    '''
 def set():
-'''public void set(final long field)
-'''
-pass
+    '''    public void set(final long field)
+    '''
 def clear():
-'''public void clear(final long field)
-'''
-pass
+    '''    public void clear(final long field)
+    '''

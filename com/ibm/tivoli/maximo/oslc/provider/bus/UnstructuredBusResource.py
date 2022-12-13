@@ -1,44 +1,33 @@
 def UnstructuredBusResource():
-'''public UnstructuredBusResource(final String uri)
-'''
-pass
+    '''    public UnstructuredBusResource(final String uri)
+    '''
 def isStructured():
-'''public boolean isStructured()
-'''
-pass
+    '''    public boolean isStructured()
+    '''
 def setMimeType():
-'''public void setMimeType(final String mimeType)
-'''
-pass
+    '''    public void setMimeType(final String mimeType)
+    '''
 def getMimeType():
-'''public String getMimeType()
-'''
-pass
+    '''    public String getMimeType()
+    '''
 def setData():
-'''public void setData(final byte[] data)
-'''
-pass
+    '''    public void setData(final byte[] data)
+    '''
 def setInputStream():
-'''public void setInputStream(final InputStream iStream)
-'''
-pass
+    '''    public void setInputStream(final InputStream iStream)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getData():
-'''public byte[] getData()
-'''
-pass
+    '''    public byte[] getData()
+    '''
 def setHeader():
-'''public void setHeader(final String header, final String value)
-'''
-pass
+    '''    public void setHeader(final String header, final String value)
+    '''
 def setFile():
-'''public void setFile(final File file)
-'''
-pass
+    '''    public void setFile(final File file)
+    '''
 def getFile():
-'''public File getFile()
-'''
-pass
+    '''    public File getFile()
+    '''

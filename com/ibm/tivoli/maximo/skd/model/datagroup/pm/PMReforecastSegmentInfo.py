@@ -1,36 +1,27 @@
 def PMReforecastSegmentInfo():
-'''public PMReforecastSegmentInfo()
-'''
-pass
+    '''    public PMReforecastSegmentInfo()
+    '''
 def getForecastSeqNo():
-'''public int getForecastSeqNo()
-'''
-pass
+    '''    public int getForecastSeqNo()
+    '''
 def setForecastSeqNo():
-'''public void setForecastSeqNo(final int number)
-'''
-pass
+    '''    public void setForecastSeqNo(final int number)
+    '''
 def isNewDateNotNull():
-'''public boolean isNewDateNotNull()
-'''
-pass
+    '''    public boolean isNewDateNotNull()
+    '''
 def setNewDateNotNull():
-'''public void setNewDateNotNull(final boolean flag)
-'''
-pass
+    '''    public void setNewDateNotNull(final boolean flag)
+    '''
 def isRegenerate():
-'''public boolean isRegenerate()
-'''
-pass
+    '''    public boolean isRegenerate()
+    '''
 def setRegenerate():
-'''public void setRegenerate(final boolean flag)
-'''
-pass
+    '''    public void setRegenerate(final boolean flag)
+    '''
 def getStartDate():
-'''public Date getStartDate()
-'''
-pass
+    '''    public Date getStartDate()
+    '''
 def setStartDate():
-'''public void setStartDate(final Date d)
-'''
-pass
+    '''    public void setStartDate(final Date d)
+    '''

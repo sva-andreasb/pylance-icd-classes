@@ -1,20 +1,15 @@
 def PDSpecSet():
-'''public PDSpecSet(final MboServerInterface ms)
-'''
-pass
+    '''    public PDSpecSet(final MboServerInterface ms)
+    '''
 def toCreateNewSpecRecordsInMainObject():
-'''public boolean toCreateNewSpecRecordsInMainObject()
-'''
-pass
+    '''    public boolean toCreateNewSpecRecordsInMainObject()
+    '''
 def checkCommonSpecDuplicates():
-'''public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
-'''
-pass
+    '''    public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
+    '''
 def getMainObject():
-'''public MboRemote getMainObject()
-'''
-pass
+    '''    public MboRemote getMainObject()
+    '''
 def toCheckClassSpecUseWith():
-'''public boolean toCheckClassSpecUseWith()
-'''
-pass
+    '''    public boolean toCheckClassSpecUseWith()
+    '''

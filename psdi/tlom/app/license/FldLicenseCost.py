@@ -1,8 +1,6 @@
 def FldLicenseCost():
-'''public FldLicenseCost(final MboValue mbv)
-'''
-pass
+    '''    public FldLicenseCost(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

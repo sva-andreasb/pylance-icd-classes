@@ -1,24 +1,18 @@
 def SKDActGanttPropSet():
-'''public SKDActGanttPropSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDActGanttPropSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def createSKDActGanttUserPropInput():
-'''public void createSKDActGanttUserPropInput(final MboSetRemote skdUserPropSet)
-'''
-pass
+    '''    public void createSKDActGanttUserPropInput(final MboSetRemote skdUserPropSet)
+    '''
 def createSKDActGanttPropInput():
-'''public void createSKDActGanttPropInput(final MboSetRemote skdPropSet)
-'''
-pass
+    '''    public void createSKDActGanttPropInput(final MboSetRemote skdPropSet)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def newSKDUserProp():
-'''public void newSKDUserProp()
-'''
-pass
+    '''    public void newSKDUserProp()
+    '''

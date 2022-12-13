@@ -1,8 +1,6 @@
 def FldDoclinksGetLatestVersion():
-'''public FldDoclinksGetLatestVersion(final MboValue mbv)
-'''
-pass
+    '''    public FldDoclinksGetLatestVersion(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

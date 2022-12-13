@@ -1,84 +1,63 @@
 def JSONMapDetailInfo():
-'''public JSONMapDetailInfo(final String mapName, final String objectName, final String objectPath, final String relpropPath, final String parentpropPath, final String relpropName, final int objectId, final int parentObjId, final int processOrder, final String condition, final String relation, final boolean isArray, final int relPropIndex)
-'''
-pass
+    '''    public JSONMapDetailInfo(final String mapName, final String objectName, final String objectPath, final String relpropPath, final String parentpropPath, final String relpropName, final int objectId, final int parentObjId, final int processOrder, final String condition, final String relation, final boolean isArray, final int relPropIndex)
+    '''
 def getMapName():
-'''public String getMapName()
-'''
-pass
+    '''    public String getMapName()
+    '''
 def getRelpropPath():
-'''public String getRelpropPath()
-'''
-pass
+    '''    public String getRelpropPath()
+    '''
 def getRelpropName():
-'''public String getRelpropName()
-'''
-pass
+    '''    public String getRelpropName()
+    '''
 def getParentPropPath():
-'''public String getParentPropPath()
-'''
-pass
+    '''    public String getParentPropPath()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getChildren():
-'''public List<JSONMapDetailInfo> getChildren()
-'''
-pass
+    '''    public List<JSONMapDetailInfo> getChildren()
+    '''
 def getSiblingsHier():
-'''public List<JSONMapDetailInfo> getSiblingsHier()
-'''
-pass
+    '''    public List<JSONMapDetailInfo> getSiblingsHier()
+    '''
 def getParentInfo():
-'''public JSONMapDetailInfo getParentInfo()
-'''
-pass
+    '''    public JSONMapDetailInfo getParentInfo()
+    '''
 def setParentInfo():
-'''public void setParentInfo(final JSONMapDetailInfo parent)
-'''
-pass
+    '''    public void setParentInfo(final JSONMapDetailInfo parent)
+    '''
 def getObjectId():
-'''public int getObjectId()
-'''
-pass
+    '''    public int getObjectId()
+    '''
 def getPropertyIndex():
-'''public int getPropertyIndex()
-'''
-pass
+    '''    public int getPropertyIndex()
+    '''
 def getParentObjId():
-'''public int getParentObjId()
-'''
-pass
+    '''    public int getParentObjId()
+    '''
 def getProcessOrder():
-'''public int getProcessOrder()
-'''
-pass
+    '''    public int getProcessOrder()
+    '''
 def setIsPrimary():
-'''public void setIsPrimary(final boolean o)
-'''
-pass
+    '''    public void setIsPrimary(final boolean o)
+    '''
 def isPrimary():
-'''public boolean isPrimary()
-'''
-pass
+    '''    public boolean isPrimary()
+    '''
 def getObjectPath():
-'''public String getObjectPath()
-'''
-pass
+    '''    public String getObjectPath()
+    '''
 def isArray():
-'''public boolean isArray()
-'''
-pass
+    '''    public boolean isArray()
+    '''
 def getCondition():
-'''public String getCondition()
-'''
-pass
+    '''    public String getCondition()
+    '''
 def getRelation():
-'''public String getRelation()
-'''
-pass
+    '''    public String getRelation()
+    '''
 def getProperties():
-'''public List<JSONMapPropertyInfo> getProperties()
-'''
-pass
+    '''    public List<JSONMapPropertyInfo> getProperties()
+    '''

@@ -20,46 +20,35 @@ EXTENDED_REQUEST = "int  23"
 EXTENDED_RESPONSE = "int  24"
 INTERMEDIATE_RESPONSE = "int  25"
 def getControls():
-'''public LDAPControl[] getControls()
-'''
-pass
+    '''    public LDAPControl[] getControls()
+    '''
 def getMessageID():
-'''public int getMessageID()
-'''
-pass
+    '''    public int getMessageID()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def isRequest():
-'''public boolean isRequest()
-'''
-pass
+    '''    public boolean isRequest()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setTag():
-'''public void setTag(final String stringTag)
-'''
-pass
+    '''    public void setTag(final String stringTag)
+    '''
 def getTag():
-'''public String getTag()
-'''
-pass
+    '''    public String getTag()
+    '''
 def writeDSML():
-'''public void writeDSML(final OutputStream outputStream)
-'''
-pass
+    '''    public void writeDSML(final OutputStream outputStream)
+    '''
 def readDSML():
-'''public static Object readDSML(final InputStream inputStream)
-'''
-pass
+    '''    public static Object readDSML(final InputStream inputStream)
+    '''
 def writeExternal():
-'''public void writeExternal(final ObjectOutput objectOutput)
-'''
-pass
+    '''    public void writeExternal(final ObjectOutput objectOutput)
+    '''
 def readExternal():
-'''public void readExternal(final ObjectInput objectInput)
-'''
-pass
+    '''    public void readExternal(final ObjectInput objectInput)
+    '''

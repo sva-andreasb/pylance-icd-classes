@@ -1,8 +1,6 @@
 def FldDoclinksKeycolumn():
-'''public FldDoclinksKeycolumn(final MboValue mbv)
-'''
-pass
+    '''    public FldDoclinksKeycolumn(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

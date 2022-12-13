@@ -1,28 +1,21 @@
 def getXmlObject():
-'''public CTTableRow getXmlObject()
-'''
-pass
+    '''    public CTTableRow getXmlObject()
+    '''
 def iterator():
-'''public Iterator<XSLFTableCell> iterator()
-'''
-pass
+    '''    public Iterator<XSLFTableCell> iterator()
+    '''
 def getCells():
-'''public List<XSLFTableCell> getCells()
-'''
-pass
+    '''    public List<XSLFTableCell> getCells()
+    '''
 def getHeight():
-'''public double getHeight()
-'''
-pass
+    '''    public double getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final double height)
-'''
-pass
+    '''    public void setHeight(final double height)
+    '''
 def addCell():
-'''public XSLFTableCell addCell()
-'''
-pass
+    '''    public XSLFTableCell addCell()
+    '''
 def mergeCells():
-'''public void mergeCells(final int firstCol, final int lastCol)
-'''
-pass
+    '''    public void mergeCells(final int firstCol, final int lastCol)
+    '''

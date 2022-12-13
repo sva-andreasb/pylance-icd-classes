@@ -1,50 +1,38 @@
 def NodeTupleTableWrapper():
-'''public NodeTupleTableWrapper(final NodeTupleTable ntt)
-'''
-pass
+    '''    public NodeTupleTableWrapper(final NodeTupleTable ntt)
+    '''
 def addRow():
-'''public boolean addRow(final Node... nodes)
-'''
-pass
+    '''    public boolean addRow(final Node... nodes)
+    '''
 def deleteRow():
-'''public boolean deleteRow(final Node... nodes)
-'''
-pass
+    '''    public boolean deleteRow(final Node... nodes)
+    '''
 def find():
-'''public Iterator<Tuple<Node>> find(final Node... nodes)
-public Iterator<Tuple<NodeId>> find(final NodeId... ids)
-'''
-pass
+    '''    public Iterator<Tuple<Node>> find(final Node... nodes)
+    public Iterator<Tuple<NodeId>> find(final NodeId... ids)
+    '''
 def findAsNodeIds():
-'''public Iterator<Tuple<NodeId>> findAsNodeIds(final Node... nodes)
-'''
-pass
+    '''    public Iterator<Tuple<NodeId>> findAsNodeIds(final Node... nodes)
+    '''
 def getNodeTable():
-'''public NodeTable getNodeTable()
-'''
-pass
+    '''    public NodeTable getNodeTable()
+    '''
 def getTupleTable():
-'''public TupleTable getTupleTable()
-'''
-pass
+    '''    public TupleTable getTupleTable()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def size():
-'''public long size()
-'''
-pass
+    '''    public long size()
+    '''
 def sync():
-'''public void sync()
-public void sync(final boolean force)
-'''
-pass
+    '''    public void sync()
+    public void sync(final boolean force)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

@@ -1,4 +1,3 @@
 def MapBasedNamespaceContext():
-'''public MapBasedNamespaceContext(final Map map)
-'''
-pass
+    '''    public MapBasedNamespaceContext(final Map map)
+    '''

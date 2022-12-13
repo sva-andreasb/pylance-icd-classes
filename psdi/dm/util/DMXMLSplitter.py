@@ -1,24 +1,18 @@
 def DMXMLSplitter():
-'''public DMXMLSplitter(final MXTransaction tn, final UserInfo ui, final boolean flag, final int memory)
-'''
-pass
+    '''    public DMXMLSplitter(final MXTransaction tn, final UserInfo ui, final boolean flag, final int memory)
+    '''
 def splitStart():
-'''public void splitStart()
-'''
-pass
+    '''    public void splitStart()
+    '''
 def splitPerformed():
-'''public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
-'''
-pass
+    '''    public boolean splitPerformed(final byte[] splitXMLData, final int splitIndex)
+    '''
 def splitEnd():
-'''public void splitEnd()
-'''
-pass
+    '''    public void splitEnd()
+    '''
 def anyFailure():
-'''public boolean anyFailure()
-'''
-pass
+    '''    public boolean anyFailure()
+    '''
 def memoryExceeded():
-'''public boolean memoryExceeded()
-'''
-pass
+    '''    public boolean memoryExceeded()
+    '''

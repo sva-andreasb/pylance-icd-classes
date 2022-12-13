@@ -1,4 +1,3 @@
 def decorate():
-'''public DataInput decorate(final IOContext ctxt, final DataInput input)
-'''
-pass
+    '''    public DataInput decorate(final IOContext ctxt, final DataInput input)
+    '''

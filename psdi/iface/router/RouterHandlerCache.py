@@ -1,17 +1,13 @@
-NAME = "String  ROUTER""
+NAME = "String  \"ROUTER\""
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getInstance():
-'''public static RouterHandlerCache getInstance()
-'''
-pass
+    '''    public static RouterHandlerCache getInstance()
+    '''
 def getHandlerClass():
-'''public String getHandlerClass(final String handlerName)
-'''
-pass
+    '''    public String getHandlerClass(final String handlerName)
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''

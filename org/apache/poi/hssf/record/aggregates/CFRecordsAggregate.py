@@ -1,44 +1,33 @@
 def CFRecordsAggregate():
-'''public CFRecordsAggregate(final CellRangeAddress[] regions, final CFRuleBase[] rules)
-'''
-pass
+    '''    public CFRecordsAggregate(final CellRangeAddress[] regions, final CFRuleBase[] rules)
+    '''
 def createCFAggregate():
-'''public static CFRecordsAggregate createCFAggregate(final RecordStream rs)
-'''
-pass
+    '''    public static CFRecordsAggregate createCFAggregate(final RecordStream rs)
+    '''
 def cloneCFAggregate():
-'''public CFRecordsAggregate cloneCFAggregate()
-'''
-pass
+    '''    public CFRecordsAggregate cloneCFAggregate()
+    '''
 def getHeader():
-'''public CFHeaderBase getHeader()
-'''
-pass
+    '''    public CFHeaderBase getHeader()
+    '''
 def getRule():
-'''public CFRuleBase getRule(final int idx)
-'''
-pass
+    '''    public CFRuleBase getRule(final int idx)
+    '''
 def setRule():
-'''public void setRule(final int idx, final CFRuleBase r)
-'''
-pass
+    '''    public void setRule(final int idx, final CFRuleBase r)
+    '''
 def addRule():
-'''public void addRule(final CFRuleBase r)
-'''
-pass
+    '''    public void addRule(final CFRuleBase r)
+    '''
 def getNumberOfRules():
-'''public int getNumberOfRules()
-'''
-pass
+    '''    public int getNumberOfRules()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def visitContainedRecords():
-'''public void visitContainedRecords(final RecordVisitor rv)
-'''
-pass
+    '''    public void visitContainedRecords(final RecordVisitor rv)
+    '''
 def updateFormulasAfterCellShift():
-'''public boolean updateFormulasAfterCellShift(final FormulaShifter shifter, final int currentExternSheetIx)
-'''
-pass
+    '''    public boolean updateFormulasAfterCellShift(final FormulaShifter shifter, final int currentExternSheetIx)
+    '''

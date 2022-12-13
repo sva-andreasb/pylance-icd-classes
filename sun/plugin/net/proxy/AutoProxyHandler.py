@@ -1,20 +1,15 @@
 def AutoProxyHandler():
-'''public AutoProxyHandler()
-'''
-pass
+    '''    public AutoProxyHandler()
+    '''
 def isSupported():
-'''public boolean isSupported(final int n)
-'''
-pass
+    '''    public boolean isSupported(final int n)
+    '''
 def isProxyCacheSupported():
-'''public boolean isProxyCacheSupported()
-'''
-pass
+    '''    public boolean isProxyCacheSupported()
+    '''
 def init():
-'''public void init(final BrowserProxyInfo bpi)
-'''
-pass
+    '''    public void init(final BrowserProxyInfo bpi)
+    '''
 def getProxyInfo():
-'''public ProxyInfo[] getProxyInfo(final URL obj)
-'''
-pass
+    '''    public ProxyInfo[] getProxyInfo(final URL obj)
+    '''

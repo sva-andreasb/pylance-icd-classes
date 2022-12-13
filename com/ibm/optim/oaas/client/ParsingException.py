@@ -1,8 +1,6 @@
 def ParsingException():
-'''public ParsingException(final Exception e, final String message)
-'''
-pass
+    '''    public ParsingException(final Exception e, final String message)
+    '''
 def getRestStatusCode():
-'''public int getRestStatusCode()
-'''
-pass
+    '''    public int getRestStatusCode()
+    '''

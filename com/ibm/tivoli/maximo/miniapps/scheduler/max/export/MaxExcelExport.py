@@ -1,12 +1,9 @@
 def MaxExcelExport():
-'''public MaxExcelExport(final Schedule schedule, final JSONObject exportConfig)
-'''
-pass
+    '''    public MaxExcelExport(final Schedule schedule, final JSONObject exportConfig)
+    '''
 def getColumnNames():
-'''public List<String> getColumnNames()
-'''
-pass
+    '''    public List<String> getColumnNames()
+    '''
 def export():
-'''public void export(final OutputStream os)
-'''
-pass
+    '''    public void export(final OutputStream os)
+    '''

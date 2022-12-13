@@ -1,52 +1,39 @@
 def getALink():
-'''public String getALink()
-'''
-pass
+    '''    public String getALink()
+    '''
 def setALink():
-'''public void setALink(final String s)
-'''
-pass
+    '''    public void setALink(final String s)
+    '''
 def getBackground():
-'''public String getBackground()
-'''
-pass
+    '''    public String getBackground()
+    '''
 def setBackground():
-'''public void setBackground(final String s)
-'''
-pass
+    '''    public void setBackground(final String s)
+    '''
 def getBgColor():
-'''public String getBgColor()
-'''
-pass
+    '''    public String getBgColor()
+    '''
 def setBgColor():
-'''public void setBgColor(final String s)
-'''
-pass
+    '''    public void setBgColor(final String s)
+    '''
 def getLink():
-'''public String getLink()
-'''
-pass
+    '''    public String getLink()
+    '''
 def setLink():
-'''public void setLink(final String s)
-'''
-pass
+    '''    public void setLink(final String s)
+    '''
 def getText():
-'''public String getText()
-'''
-pass
+    '''    public String getText()
+    '''
 def setText():
-'''public void setText(final String s)
-'''
-pass
+    '''    public void setText(final String s)
+    '''
 def getVLink():
-'''public String getVLink()
-'''
-pass
+    '''    public String getVLink()
+    '''
 def setVLink():
-'''public void setVLink(final String s)
-'''
-pass
+    '''    public void setVLink(final String s)
+    '''
 def HTMLBodyElementImpl():
-'''public HTMLBodyElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
-'''
-pass
+    '''    public HTMLBodyElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''

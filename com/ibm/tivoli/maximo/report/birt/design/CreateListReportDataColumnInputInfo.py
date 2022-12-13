@@ -1,176 +1,132 @@
 def CreateListReportDataColumnInputInfo():
-'''public CreateListReportDataColumnInputInfo()
-'''
-pass
+    '''    public CreateListReportDataColumnInputInfo()
+    '''
 def getEntityName():
-'''public String getEntityName()
-'''
-pass
+    '''    public String getEntityName()
+    '''
 def setEntityName():
-'''public void setEntityName(final String name)
-'''
-pass
+    '''    public void setEntityName(final String name)
+    '''
 def getEntityUIDColumnName():
-'''public String getEntityUIDColumnName()
-'''
-pass
+    '''    public String getEntityUIDColumnName()
+    '''
 def setEntityUIDColumnName():
-'''public void setEntityUIDColumnName(final String name)
-'''
-pass
+    '''    public void setEntityUIDColumnName(final String name)
+    '''
 def getColumnName():
-'''public String getColumnName()
-'''
-pass
+    '''    public String getColumnName()
+    '''
 def setColumnName():
-'''public void setColumnName(final String name)
-'''
-pass
+    '''    public void setColumnName(final String name)
+    '''
 def getColumnAlias():
-'''public String getColumnAlias()
-'''
-pass
+    '''    public String getColumnAlias()
+    '''
 def setColumnAlias():
-'''public void setColumnAlias(final String alias)
-'''
-pass
+    '''    public void setColumnAlias(final String alias)
+    '''
 def getColumnLength():
-'''public int getColumnLength()
-'''
-pass
+    '''    public int getColumnLength()
+    '''
 def setColumnLength():
-'''public void setColumnLength(final int columnLength)
-'''
-pass
+    '''    public void setColumnLength(final int columnLength)
+    '''
 def getWidth():
-'''public String getWidth()
-'''
-pass
+    '''    public String getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final String width)
-'''
-pass
+    '''    public void setWidth(final String width)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def getBirtDataType():
-'''public String getBirtDataType()
-'''
-pass
+    '''    public String getBirtDataType()
+    '''
 def setBirtDataType():
-'''public void setBirtDataType(final String birtDataType)
-'''
-pass
+    '''    public void setBirtDataType(final String birtDataType)
+    '''
 def getMxDataType():
-'''public String getMxDataType()
-'''
-pass
+    '''    public String getMxDataType()
+    '''
 def setMxDataType():
-'''public void setMxDataType(final String mxDataType)
-'''
-pass
+    '''    public void setMxDataType(final String mxDataType)
+    '''
 def getObjectID():
-'''public int getObjectID()
-'''
-pass
+    '''    public int getObjectID()
+    '''
 def setObjectID():
-'''public void setObjectID(final int objectID)
-'''
-pass
+    '''    public void setObjectID(final int objectID)
+    '''
 def getMboName():
-'''public String getMboName()
-'''
-pass
+    '''    public String getMboName()
+    '''
 def setMboName():
-'''public void setMboName(final String mboName)
-'''
-pass
+    '''    public void setMboName(final String mboName)
+    '''
 def getMboAttributeName():
-'''public String getMboAttributeName()
-'''
-pass
+    '''    public String getMboAttributeName()
+    '''
 def setMboAttributeName():
-'''public void setMboAttributeName(final String mboAttributeName)
-'''
-pass
+    '''    public void setMboAttributeName(final String mboAttributeName)
+    '''
 def getSortLevel():
-'''public int getSortLevel()
-'''
-pass
+    '''    public int getSortLevel()
+    '''
 def setSortLevel():
-'''public void setSortLevel(final int sortLevel)
-'''
-pass
+    '''    public void setSortLevel(final int sortLevel)
+    '''
 def isSortAscending():
-'''public boolean isSortAscending()
-'''
-pass
+    '''    public boolean isSortAscending()
+    '''
 def setSortAscending():
-'''public void setSortAscending(final boolean sortAscending)
-'''
-pass
+    '''    public void setSortAscending(final boolean sortAscending)
+    '''
 def isGroupAscending():
-'''public boolean isGroupAscending()
-'''
-pass
+    '''    public boolean isGroupAscending()
+    '''
 def setGroupAscending():
-'''public void setGroupAscending(final boolean groupAscending)
-'''
-pass
+    '''    public void setGroupAscending(final boolean groupAscending)
+    '''
 def getGroupLevel():
-'''public int getGroupLevel()
-'''
-pass
+    '''    public int getGroupLevel()
+    '''
 def setGroupLevel():
-'''public void setGroupLevel(final int groupLevel)
-'''
-pass
+    '''    public void setGroupLevel(final int groupLevel)
+    '''
 def setVisible():
-'''public void setVisible(final boolean displayField)
-'''
-pass
+    '''    public void setVisible(final boolean displayField)
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def setLocalized():
-'''public void setLocalized(final boolean localized)
-'''
-pass
+    '''    public void setLocalized(final boolean localized)
+    '''
 def isLocalized():
-'''public boolean isLocalized()
-'''
-pass
+    '''    public boolean isLocalized()
+    '''
 def setRichText():
-'''public void setRichText(final boolean richText)
-'''
-pass
+    '''    public void setRichText(final boolean richText)
+    '''
 def hasRichText():
-'''public boolean hasRichText()
-'''
-pass
+    '''    public boolean hasRichText()
+    '''
 def setExpression():
-'''public void setExpression(final boolean expression)
-'''
-pass
+    '''    public void setExpression(final boolean expression)
+    '''
 def isExpression():
-'''public boolean isExpression()
-'''
-pass
+    '''    public boolean isExpression()
+    '''
 def addSummaryInfo():
-'''public void addSummaryInfo(final CreateReportSummaryInfo summaryInfo)
-'''
-pass
+    '''    public void addSummaryInfo(final CreateReportSummaryInfo summaryInfo)
+    '''
 def getAllSummaryInfo():
-'''public Iterator getAllSummaryInfo()
-'''
-pass
+    '''    public Iterator getAllSummaryInfo()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

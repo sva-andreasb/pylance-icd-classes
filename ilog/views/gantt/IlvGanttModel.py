@@ -1,2 +1,2 @@
-ADJUSTING_PROPERTY = "String  adjusting""
-BATCHING_PROPERTY = "String  batching""
+ADJUSTING_PROPERTY = "String  \"adjusting\""
+BATCHING_PROPERTY = "String  \"batching\""

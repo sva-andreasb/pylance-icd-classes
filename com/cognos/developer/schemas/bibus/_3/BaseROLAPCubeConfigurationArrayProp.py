@@ -1,33 +1,25 @@
 def BaseROLAPCubeConfigurationArrayProp():
-'''public BaseROLAPCubeConfigurationArrayProp()
-public BaseROLAPCubeConfigurationArrayProp(final SchemaInfo schemaInfo, final BaseROLAPCubeConfiguration[] value)
-'''
-pass
+    '''    public BaseROLAPCubeConfigurationArrayProp()
+    public BaseROLAPCubeConfigurationArrayProp(final SchemaInfo schemaInfo, final BaseROLAPCubeConfiguration[] value)
+    '''
 def getValue():
-'''public BaseROLAPCubeConfiguration[] getValue()
-'''
-pass
+    '''    public BaseROLAPCubeConfiguration[] getValue()
+    '''
 def setValue():
-'''public void setValue(final BaseROLAPCubeConfiguration[] value)
-'''
-pass
+    '''    public void setValue(final BaseROLAPCubeConfiguration[] value)
+    '''
 def equals():
-'''public synchronized boolean equals(final Object obj)
-'''
-pass
+    '''    public synchronized boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public synchronized int hashCode()
-'''
-pass
+    '''    public synchronized int hashCode()
+    '''
 def getTypeDesc():
-'''public static TypeDesc getTypeDesc()
-'''
-pass
+    '''    public static TypeDesc getTypeDesc()
+    '''
 def getSerializer():
-'''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''
 def getDeserializer():
-'''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
-'''
-pass
+    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''

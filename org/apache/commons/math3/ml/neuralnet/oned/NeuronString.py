@@ -1,16 +1,12 @@
 def NeuronString():
-'''public NeuronString(final int num, final boolean wrap, final FeatureInitializer[] featureInit)
-'''
-pass
+    '''    public NeuronString(final int num, final boolean wrap, final FeatureInitializer[] featureInit)
+    '''
 def getNetwork():
-'''public Network getNetwork()
-'''
-pass
+    '''    public Network getNetwork()
+    '''
 def getSize():
-'''public int getSize()
-'''
-pass
+    '''    public int getSize()
+    '''
 def getFeatures():
-'''public double[] getFeatures(final int i)
-'''
-pass
+    '''    public double[] getFeatures(final int i)
+    '''

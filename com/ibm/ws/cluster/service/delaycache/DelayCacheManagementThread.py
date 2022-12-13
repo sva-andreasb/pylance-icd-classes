@@ -1,17 +1,13 @@
 def DelayCacheManagementThread():
-'''public DelayCacheManagementThread(final int cycleTime)
-'''
-pass
+    '''    public DelayCacheManagementThread(final int cycleTime)
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def Publish():
-'''public Publish(final DescriptionKey key)
-'''
-pass
+    '''    public Publish(final DescriptionKey key)
+    '''

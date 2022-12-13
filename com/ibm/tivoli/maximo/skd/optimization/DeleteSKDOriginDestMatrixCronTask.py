@@ -1,12 +1,9 @@
 def DeleteSKDOriginDestMatrixCronTask():
-'''public DeleteSKDOriginDestMatrixCronTask()
-'''
-pass
+    '''    public DeleteSKDOriginDestMatrixCronTask()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def cronAction():
-'''public void cronAction()
-'''
-pass
+    '''    public void cronAction()
+    '''

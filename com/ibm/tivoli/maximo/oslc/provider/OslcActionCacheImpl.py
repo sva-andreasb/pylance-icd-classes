@@ -1,29 +1,22 @@
 def OslcActionCacheImpl():
-'''public OslcActionCacheImpl()
-'''
-pass
+    '''    public OslcActionCacheImpl()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def getActionInfo():
-'''public OslcActionInfo getActionInfo(final String osName, final String action)
-'''
-pass
+    '''    public OslcActionInfo getActionInfo(final String osName, final String action)
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getDescForAction():
-'''public String getDescForAction(final String osName, final String actionName, final UserInfo userInfo)
-'''
-pass
+    '''    public String getDescForAction(final String osName, final String actionName, final UserInfo userInfo)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getActions():
-'''public Map<String, OslcActionInfo> getActions(final String osName)
-'''
-pass
+    '''    public Map<String, OslcActionInfo> getActions(final String osName)
+    '''

@@ -1,4 +1,3 @@
 def getLocker():
-'''public static Object getLocker()
-'''
-pass
+    '''    public static Object getLocker()
+    '''

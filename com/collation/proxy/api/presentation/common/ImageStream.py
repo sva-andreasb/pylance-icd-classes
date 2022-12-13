@@ -1,20 +1,15 @@
 def ImageStream():
-'''public ImageStream()
-'''
-pass
+    '''    public ImageStream()
+    '''
 def getContent():
-'''public byte[] getContent()
-'''
-pass
+    '''    public byte[] getContent()
+    '''
 def setContent():
-'''public void setContent(final byte[] content)
-'''
-pass
+    '''    public void setContent(final byte[] content)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def setType():
-'''public void setType(final String type)
-'''
-pass
+    '''    public void setType(final String type)
+    '''

@@ -1,20 +1,15 @@
 def FldInvUseLineItemNum():
-'''public FldInvUseLineItemNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvUseLineItemNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

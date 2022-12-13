@@ -1,4 +1,3 @@
 def getInstance():
-'''public static XSLFFactory getInstance()
-'''
-pass
+    '''    public static XSLFFactory getInstance()
+    '''

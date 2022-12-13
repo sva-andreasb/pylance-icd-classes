@@ -1,4 +1,3 @@
 def openConnection():
-'''public URLConnection openConnection(final URL url)
-'''
-pass
+    '''    public URLConnection openConnection(final URL url)
+    '''

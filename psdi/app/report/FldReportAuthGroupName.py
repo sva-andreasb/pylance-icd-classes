@@ -1,8 +1,6 @@
 def FldReportAuthGroupName():
-'''public FldReportAuthGroupName(final MboValue mbv)
-'''
-pass
+    '''    public FldReportAuthGroupName(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

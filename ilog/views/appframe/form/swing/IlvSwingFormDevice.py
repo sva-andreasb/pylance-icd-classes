@@ -1,22 +1,19 @@
-SWING_DEVICE_NAME = "String  Swing""
+SWING_DEVICE_NAME = "String  \"Swing\""
 def IlvSwingFormDevice():
-'''public IlvSwingFormDevice()
-'''
-pass
+    '''    public IlvSwingFormDevice()
+    '''
 def createControlNode():
-'''public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-public AbstractControlNode createControlNode(final String s, final Class clazz)
-'''
-pass
+    '''    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    public AbstractControlNode createControlNode(final String s, final Class clazz)
+    '''
 def createForm():
-'''public IlvForm createForm()
-'''
-pass
+    '''    public IlvForm createForm()
+    '''

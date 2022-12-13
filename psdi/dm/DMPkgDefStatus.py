@@ -1,8 +1,6 @@
 def DMPkgDefStatus():
-'''public DMPkgDefStatus(final MboSet ms)
-'''
-pass
+    '''    public DMPkgDefStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

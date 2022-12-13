@@ -1,8 +1,6 @@
 def LockActionListener():
-'''public LockActionListener(final IlvReservation reservation)
-'''
-pass
+    '''    public LockActionListener(final IlvReservation reservation)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''

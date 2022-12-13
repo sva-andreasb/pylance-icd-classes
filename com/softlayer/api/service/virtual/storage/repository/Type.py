@@ -1,56 +1,42 @@
 def getStorageRepositories():
-'''public List<Repository> getStorageRepositories()
-'''
-pass
+    '''    public List<Repository> getStorageRepositories()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getStorageRepositoryCount():
-'''public Long getStorageRepositoryCount()
-'''
-pass
+    '''    public Long getStorageRepositoryCount()
+    '''
 def setStorageRepositoryCount():
-'''public void setStorageRepositoryCount(final Long storageRepositoryCount)
-'''
-pass
+    '''    public void setStorageRepositoryCount(final Long storageRepositoryCount)
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def storageRepositoryCount():
-'''public Mask storageRepositoryCount()
-'''
-pass
+    '''    public Mask storageRepositoryCount()
+    '''

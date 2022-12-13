@@ -1,28 +1,21 @@
 def PerfTimer():
-'''public PerfTimer(final String baseMsg)
-'''
-pass
+    '''    public PerfTimer(final String baseMsg)
+    '''
 def restart():
-'''public void restart()
-'''
-pass
+    '''    public void restart()
+    '''
 def end():
-'''public void end()
-'''
-pass
+    '''    public void end()
+    '''
 def tick():
-'''public void tick()
-'''
-pass
+    '''    public void tick()
+    '''
 def logDelta():
-'''public void logDelta(final String msg)
-'''
-pass
+    '''    public void logDelta(final String msg)
+    '''
 def done():
-'''public void done()
-'''
-pass
+    '''    public void done()
+    '''
 def create():
-'''public static PerfTimer create(final String baseMsg)
-'''
-pass
+    '''    public static PerfTimer create(final String baseMsg)
+    '''

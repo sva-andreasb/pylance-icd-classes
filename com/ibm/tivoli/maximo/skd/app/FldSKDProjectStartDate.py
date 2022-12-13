@@ -1,8 +1,6 @@
 def FldSKDProjectStartDate():
-'''public FldSKDProjectStartDate(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDProjectStartDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

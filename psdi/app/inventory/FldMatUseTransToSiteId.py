@@ -1,12 +1,9 @@
 def FldMatUseTransToSiteId():
-'''public FldMatUseTransToSiteId(final MboValue mbv)
-'''
-pass
+    '''    public FldMatUseTransToSiteId(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

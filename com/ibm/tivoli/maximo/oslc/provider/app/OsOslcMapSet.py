@@ -1,4 +1,3 @@
 def OsOslcMapSet():
-'''public OsOslcMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public OsOslcMapSet(final MboServerInterface ms)
+    '''

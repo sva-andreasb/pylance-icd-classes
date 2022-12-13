@@ -1,8 +1,6 @@
 def ScheduleLineSet():
-'''public ScheduleLineSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ScheduleLineSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''

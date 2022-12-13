@@ -1,8 +1,6 @@
 def AutoCloseInputStream():
-'''public AutoCloseInputStream(final InputStream in)
-'''
-pass
+    '''    public AutoCloseInputStream(final InputStream in)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

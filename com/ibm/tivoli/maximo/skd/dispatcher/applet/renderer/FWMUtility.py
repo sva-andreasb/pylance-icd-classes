@@ -1,78 +1,59 @@
-RENDERED_COLOR = "String  ACTIVITY_RENDER_COLOR""
-FONT_COLOR = "String  ACTIVITY_FONT_COLOR""
+RENDERED_COLOR = "String  \"ACTIVITY_RENDER_COLOR\""
+FONT_COLOR = "String  \"ACTIVITY_FONT_COLOR\""
 def getUtility():
-'''public static synchronized FWMUtility getUtility()
-'''
-pass
+    '''    public static synchronized FWMUtility getUtility()
+    '''
 def getColormap():
-'''public Color[] getColormap()
-'''
-pass
+    '''    public Color[] getColormap()
+    '''
 def getFontcolormap():
-'''public Color[] getFontcolormap()
-'''
-pass
+    '''    public Color[] getFontcolormap()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def getDispatchControlId():
-'''public String getDispatchControlId()
-'''
-pass
+    '''    public String getDispatchControlId()
+    '''
 def setApplet():
-'''public static void setApplet(final DispatcherViewerApplet applet)
-'''
-pass
+    '''    public static void setApplet(final DispatcherViewerApplet applet)
+    '''
 def setUserInfo():
-'''public void setUserInfo(final ISKDUIInfo skdUIInfo)
-'''
-pass
+    '''    public void setUserInfo(final ISKDUIInfo skdUIInfo)
+    '''
 def getSKDUserLocaleData():
-'''public SKDUserLocaleData getSKDUserLocaleData()
-'''
-pass
+    '''    public SKDUserLocaleData getSKDUserLocaleData()
+    '''
 def getDispatcherApplet():
-'''public DispatcherViewerApplet getDispatcherApplet()
-'''
-pass
+    '''    public DispatcherViewerApplet getDispatcherApplet()
+    '''
 def isNull():
-'''public static boolean isNull(final String val)
-'''
-pass
+    '''    public static boolean isNull(final String val)
+    '''
 def getResourceForActivity():
-'''public static MXResource getResourceForActivity(final MXActivity activity)
-'''
-pass
+    '''    public static MXResource getResourceForActivity(final MXActivity activity)
+    '''
 def getMXToolTipText():
-'''public static String getMXToolTipText(final IlvActivityGraphic ag)
-'''
-pass
+    '''    public static String getMXToolTipText(final IlvActivityGraphic ag)
+    '''
 def getTableRowToolTipText():
-'''public static String getTableRowToolTipText(final IlvJTable table, final MouseEvent event, final IlvHierarchyNode row, final String value, final int rowIndex, final int columnIndex)
-'''
-pass
+    '''    public static String getTableRowToolTipText(final IlvJTable table, final MouseEvent event, final IlvHierarchyNode row, final String value, final int rowIndex, final int columnIndex)
+    '''
 def getTooltipCloseIcon():
-'''public ImageIcon getTooltipCloseIcon()
-'''
-pass
+    '''    public ImageIcon getTooltipCloseIcon()
+    '''
 def getTooltipOverIcon():
-'''public ImageIcon getTooltipOverIcon()
-'''
-pass
+    '''    public ImageIcon getTooltipOverIcon()
+    '''
 def setDefaultToolTipIcons():
-'''public void setDefaultToolTipIcons()
-'''
-pass
+    '''    public void setDefaultToolTipIcons()
+    '''
 def isLaborOrCrew():
-'''public static boolean isLaborOrCrew(final MXResource mxresource)
-'''
-pass
+    '''    public static boolean isLaborOrCrew(final MXResource mxresource)
+    '''
 def isCraftOrCrewType():
-'''public static boolean isCraftOrCrewType(final MXResource mxresource)
-'''
-pass
+    '''    public static boolean isCraftOrCrewType(final MXResource mxresource)
+    '''
 def isHierarchyStub():
-'''public static boolean isHierarchyStub(final MXResource mxresource)
-'''
-pass
+    '''    public static boolean isHierarchyStub(final MXResource mxresource)
+    '''

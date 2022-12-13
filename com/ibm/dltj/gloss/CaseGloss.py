@@ -1,67 +1,52 @@
 def CaseGloss():
-'''public CaseGloss()
-public CaseGloss(final String s)
-'''
-pass
+    '''    public CaseGloss()
+    public CaseGloss(final String s)
+    '''
 def getCase():
-'''public String getCase(final String s)
-public int getCase()
-'''
-pass
+    '''    public String getCase(final String s)
+    public int getCase()
+    '''
 def isLowerCase():
-'''public boolean isLowerCase()
-'''
-pass
+    '''    public boolean isLowerCase()
+    '''
 def isUpperCase():
-'''public boolean isUpperCase()
-'''
-pass
+    '''    public boolean isUpperCase()
+    '''
 def isFirstTitleCase():
-'''public boolean isFirstTitleCase()
-'''
-pass
+    '''    public boolean isFirstTitleCase()
+    '''
 def isAllTitleCase():
-'''public boolean isAllTitleCase()
-'''
-pass
+    '''    public boolean isAllTitleCase()
+    '''
 def isCrazyCase():
-'''public boolean isCrazyCase()
-'''
-pass
+    '''    public boolean isCrazyCase()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def read():
-'''public void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isValid():
-'''public boolean isValid(final String s)
-public boolean isValid(final String str)
-public boolean isValid(final String s)
-public boolean isValid(final String s)
-public boolean isValid(final String s)
-'''
-pass
+    '''    public boolean isValid(final String s)
+    public boolean isValid(final String str)
+    public boolean isValid(final String s)
+    public boolean isValid(final String s)
+    public boolean isValid(final String s)
+    '''
 def getCrazyBitSet():
-'''public BitSet getCrazyBitSet()
-public BitSet getCrazyBitSet()
-'''
-pass
+    '''    public BitSet getCrazyBitSet()
+    public BitSet getCrazyBitSet()
+    '''

@@ -1,16 +1,12 @@
 def ObjectIterator():
-'''public ObjectIterator(final Iterator<?> domain)
-'''
-pass
+    '''    public ObjectIterator(final Iterator<?> domain)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Node next()
-'''
-pass
+    '''    public Node next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

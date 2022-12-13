@@ -1,8 +1,6 @@
 def FldTrkStatus():
-'''public FldTrkStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldTrkStatus(final MboValue mbv)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

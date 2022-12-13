@@ -1,13 +1,10 @@
 def ScriptReader():
-'''public ScriptReader(final Reader in)
-public ScriptReader(final Reader in, final int sz)
-'''
-pass
+    '''    public ScriptReader(final Reader in)
+    public ScriptReader(final Reader in, final int sz)
+    '''
 def setTriggerScript():
-'''public void setTriggerScript(final boolean value)
-'''
-pass
+    '''    public void setTriggerScript(final boolean value)
+    '''
 def getNextSql():
-'''public String getNextSql()
-'''
-pass
+    '''    public String getNextSql()
+    '''

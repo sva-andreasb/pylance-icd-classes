@@ -1,4 +1,3 @@
 def ChatOpsChannelSet():
-'''public ChatOpsChannelSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ChatOpsChannelSet(final MboServerInterface ms)
+    '''

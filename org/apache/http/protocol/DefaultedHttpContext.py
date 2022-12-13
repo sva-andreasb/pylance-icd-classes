@@ -1,24 +1,18 @@
 def DefaultedHttpContext():
-'''public DefaultedHttpContext(final HttpContext local, final HttpContext defaults)
-'''
-pass
+    '''    public DefaultedHttpContext(final HttpContext local, final HttpContext defaults)
+    '''
 def getAttribute():
-'''public Object getAttribute(final String id)
-'''
-pass
+    '''    public Object getAttribute(final String id)
+    '''
 def removeAttribute():
-'''public Object removeAttribute(final String id)
-'''
-pass
+    '''    public Object removeAttribute(final String id)
+    '''
 def setAttribute():
-'''public void setAttribute(final String id, final Object obj)
-'''
-pass
+    '''    public void setAttribute(final String id, final Object obj)
+    '''
 def getDefaults():
-'''public HttpContext getDefaults()
-'''
-pass
+    '''    public HttpContext getDefaults()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

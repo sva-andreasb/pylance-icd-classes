@@ -1,60 +1,45 @@
 def ApptBookAppBean():
-'''public ApptBookAppBean()
-'''
-pass
+    '''    public ApptBookAppBean()
+    '''
 def clearapptbk():
-'''public int clearapptbk()
-'''
-pass
+    '''    public int clearapptbk()
+    '''
 def searchapptbk():
-'''public int searchapptbk()
-'''
-pass
+    '''    public int searchapptbk()
+    '''
 def BKAPPTFORSELECTEDWOS():
-'''public int BKAPPTFORSELECTEDWOS()
-'''
-pass
+    '''    public int BKAPPTFORSELECTEDWOS()
+    '''
 def RESCHEDEXISTWOS():
-'''public int RESCHEDEXISTWOS()
-'''
-pass
+    '''    public int RESCHEDEXISTWOS()
+    '''
 def setApptBook():
-'''public void setApptBook()
-'''
-pass
+    '''    public void setApptBook()
+    '''
 def getApptBook():
-'''public MboRemote getApptBook()
-'''
-pass
+    '''    public MboRemote getApptBook()
+    '''
 def getLocationMbo():
-'''public MboRemote getLocationMbo()
-'''
-pass
+    '''    public MboRemote getLocationMbo()
+    '''
 def setLocationMbo():
-'''public void setLocationMbo(final String location)
-'''
-pass
+    '''    public void setLocationMbo(final String location)
+    '''
 def initQuickFIndRemote():
-'''public MboSetRemote initQuickFIndRemote()
-'''
-pass
+    '''    public MboSetRemote initQuickFIndRemote()
+    '''
 def find():
-'''public int find()
-'''
-pass
+    '''    public int find()
+    '''
 def canExit():
-'''public boolean canExit()
-'''
-pass
+    '''    public boolean canExit()
+    '''
 def restoreUserTimeZone():
-'''public void restoreUserTimeZone()
-'''
-pass
+    '''    public void restoreUserTimeZone()
+    '''
 def setAppointmentBookTimeZone():
-'''public void setAppointmentBookTimeZone()
-'''
-pass
+    '''    public void setAppointmentBookTimeZone()
+    '''
 def CREATEWOWITHAPPTWIN():
-'''public int CREATEWOWITHAPPTWIN()
-'''
-pass
+    '''    public int CREATEWOWITHAPPTWIN()
+    '''

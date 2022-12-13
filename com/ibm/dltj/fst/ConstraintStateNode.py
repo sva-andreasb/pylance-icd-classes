@@ -1,18 +1,14 @@
 FIRST_TRANSITION_CODE = "char  '^'"
 LAST_TRANSITION_CODE = "char  '$'"
 def ConstraintStateNode():
-'''public ConstraintStateNode(final Map twoKeyMap)
-'''
-pass
+    '''    public ConstraintStateNode(final Map twoKeyMap)
+    '''
 def next():
-'''public Node next(final char value)
-'''
-pass
+    '''    public Node next(final char value)
+    '''
 def isFinal():
-'''public boolean isFinal()
-'''
-pass
+    '''    public boolean isFinal()
+    '''
 def dispose():
-'''public void dispose()
-'''
-pass
+    '''    public void dispose()
+    '''

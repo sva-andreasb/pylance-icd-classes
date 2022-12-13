@@ -1,13 +1,10 @@
 def BlinkTabTask():
-'''public BlinkTabTask(final int tab, final Color blinkColor)
-'''
-pass
+    '''    public BlinkTabTask(final int tab, final Color blinkColor)
+    '''
 def run():
-'''public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    '''
 def cancel():
-'''public boolean cancel()
-'''
-pass
+    '''    public boolean cancel()
+    '''

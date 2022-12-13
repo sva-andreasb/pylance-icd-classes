@@ -1,4 +1,3 @@
 def NameNodeListImpl():
-'''public NameNodeListImpl(final NodeImpl nodeImpl, final String s)
-'''
-pass
+    '''    public NameNodeListImpl(final NodeImpl nodeImpl, final String s)
+    '''

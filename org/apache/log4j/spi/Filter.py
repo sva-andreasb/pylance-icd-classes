@@ -2,18 +2,14 @@ DENY = "int  -1"
 NEUTRAL = "int  0"
 ACCEPT = "int  1"
 def Filter():
-'''public Filter()
-'''
-pass
+    '''    public Filter()
+    '''
 def activateOptions():
-'''public void activateOptions()
-'''
-pass
+    '''    public void activateOptions()
+    '''
 def setNext():
-'''public void setNext(final Filter next)
-'''
-pass
+    '''    public void setNext(final Filter next)
+    '''
 def getNext():
-'''public Filter getNext()
-'''
-pass
+    '''    public Filter getNext()
+    '''

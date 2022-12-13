@@ -1,8 +1,6 @@
 def FldReadingMeterReading():
-'''public FldReadingMeterReading(final MboValue mbv)
-'''
-pass
+    '''    public FldReadingMeterReading(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

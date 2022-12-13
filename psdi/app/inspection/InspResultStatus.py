@@ -1,8 +1,6 @@
 def InspResultStatus():
-'''public InspResultStatus(final MboSet ms)
-'''
-pass
+    '''    public InspResultStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

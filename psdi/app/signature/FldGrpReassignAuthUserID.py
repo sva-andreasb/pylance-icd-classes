@@ -1,4 +1,3 @@
 def FldGrpReassignAuthUserID():
-'''public FldGrpReassignAuthUserID(final MboValue mbv)
-'''
-pass
+    '''    public FldGrpReassignAuthUserID(final MboValue mbv)
+    '''

@@ -1,12 +1,9 @@
 def ReconLinkClause():
-'''public ReconLinkClause(final MboSet ms)
-'''
-pass
+    '''    public ReconLinkClause(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''

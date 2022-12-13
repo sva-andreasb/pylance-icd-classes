@@ -1,4 +1,3 @@
 def FldRFQReplyToAttn():
-'''public FldRFQReplyToAttn(final MboValue mbv)
-'''
-pass
+    '''    public FldRFQReplyToAttn(final MboValue mbv)
+    '''

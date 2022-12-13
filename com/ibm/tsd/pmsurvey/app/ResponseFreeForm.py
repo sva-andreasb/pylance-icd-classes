@@ -1,8 +1,6 @@
 def ResponseFreeForm():
-'''public ResponseFreeForm(final MboSet ms)
-'''
-pass
+    '''    public ResponseFreeForm(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,8 +1,6 @@
 def QueryRecordState():
-'''public QueryRecordState(final MboSet ms)
-'''
-pass
+    '''    public QueryRecordState(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

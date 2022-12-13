@@ -1,12 +1,9 @@
 def FldOwnerId():
-'''public FldOwnerId(final MboValue mbv)
-'''
-pass
+    '''    public FldOwnerId(final MboValue mbv)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

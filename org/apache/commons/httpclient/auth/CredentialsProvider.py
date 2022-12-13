@@ -1,1 +1,1 @@
-PROVIDER = "String  http.authentication.credential-provider""
+PROVIDER = "String  \"http.authentication.credential-provider\""

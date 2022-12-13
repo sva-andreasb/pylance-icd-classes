@@ -1,16 +1,12 @@
 def XMLVersionDetector():
-'''public XMLVersionDetector()
-'''
-pass
+    '''    public XMLVersionDetector()
+    '''
 def reset():
-'''public void reset(final XMLComponentManager xmlComponentManager)
-'''
-pass
+    '''    public void reset(final XMLComponentManager xmlComponentManager)
+    '''
 def startDocumentParsing():
-'''public void startDocumentParsing(final XMLEntityHandler entityHandler, final short n)
-'''
-pass
+    '''    public void startDocumentParsing(final XMLEntityHandler entityHandler, final short n)
+    '''
 def determineDocVersion():
-'''public short determineDocVersion(final XMLInputSource xmlInputSource)
-'''
-pass
+    '''    public short determineDocVersion(final XMLInputSource xmlInputSource)
+    '''

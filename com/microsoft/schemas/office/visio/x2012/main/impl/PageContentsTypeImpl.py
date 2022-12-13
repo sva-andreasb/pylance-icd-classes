@@ -1,44 +1,33 @@
 def PageContentsTypeImpl():
-'''public PageContentsTypeImpl(final SchemaType schemaType)
-'''
-pass
+    '''    public PageContentsTypeImpl(final SchemaType schemaType)
+    '''
 def getShapes():
-'''public ShapesType getShapes()
-'''
-pass
+    '''    public ShapesType getShapes()
+    '''
 def isSetShapes():
-'''public boolean isSetShapes()
-'''
-pass
+    '''    public boolean isSetShapes()
+    '''
 def setShapes():
-'''public void setShapes(final ShapesType shapesType)
-'''
-pass
+    '''    public void setShapes(final ShapesType shapesType)
+    '''
 def addNewShapes():
-'''public ShapesType addNewShapes()
-'''
-pass
+    '''    public ShapesType addNewShapes()
+    '''
 def unsetShapes():
-'''public void unsetShapes()
-'''
-pass
+    '''    public void unsetShapes()
+    '''
 def getConnects():
-'''public ConnectsType getConnects()
-'''
-pass
+    '''    public ConnectsType getConnects()
+    '''
 def isSetConnects():
-'''public boolean isSetConnects()
-'''
-pass
+    '''    public boolean isSetConnects()
+    '''
 def setConnects():
-'''public void setConnects(final ConnectsType connectsType)
-'''
-pass
+    '''    public void setConnects(final ConnectsType connectsType)
+    '''
 def addNewConnects():
-'''public ConnectsType addNewConnects()
-'''
-pass
+    '''    public ConnectsType addNewConnects()
+    '''
 def unsetConnects():
-'''public void unsetConnects()
-'''
-pass
+    '''    public void unsetConnects()
+    '''

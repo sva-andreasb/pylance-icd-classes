@@ -1,16 +1,12 @@
 def TamitLicenseVUConvert():
-'''public TamitLicenseVUConvert(final MboSet ms)
-'''
-pass
+    '''    public TamitLicenseVUConvert(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def calculateResults():
-'''public void calculateResults()
-'''
-pass
+    '''    public void calculateResults()
+    '''
 def clearAll():
-'''public void clearAll()
-'''
-pass
+    '''    public void clearAll()
+    '''

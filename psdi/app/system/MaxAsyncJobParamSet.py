@@ -1,4 +1,3 @@
 def MaxAsyncJobParamSet():
-'''public MaxAsyncJobParamSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxAsyncJobParamSet(final MboServerInterface ms)
+    '''

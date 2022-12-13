@@ -1,8 +1,6 @@
 def loadData():
-'''public int loadData()
-'''
-pass
+    '''    public int loadData()
+    '''
 def complete():
-'''public int complete()
-'''
-pass
+    '''    public int complete()
+    '''

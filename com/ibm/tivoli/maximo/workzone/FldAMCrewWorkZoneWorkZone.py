@@ -1,8 +1,6 @@
 def FldAMCrewWorkZoneWorkZone():
-'''public FldAMCrewWorkZoneWorkZone(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewWorkZoneWorkZone(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

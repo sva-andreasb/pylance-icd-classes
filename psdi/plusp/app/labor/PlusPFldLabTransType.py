@@ -1,8 +1,6 @@
 def PlusPFldLabTransType():
-'''public PlusPFldLabTransType(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldLabTransType(final MboValue arg0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

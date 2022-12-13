@@ -1,120 +1,90 @@
 def OslcResourceDetailInfo():
-'''public OslcResourceDetailInfo(final String osName, final String hPath, final String linkedOSName, final String oslcPropName, final String oslcPropValueName, final String oslcPropNs, final String oslcPropValNs, final String cardinality, final Map<String, String> keyMap, final boolean link, final boolean association, final String targetRelation, final boolean useKeyMapForURI, final Map<String, OslcPropertyMapInfo> oslcProps, final String defaultNs)
-'''
-pass
+    '''    public OslcResourceDetailInfo(final String osName, final String hPath, final String linkedOSName, final String oslcPropName, final String oslcPropValueName, final String oslcPropNs, final String oslcPropValNs, final String cardinality, final Map<String, String> keyMap, final boolean link, final boolean association, final String targetRelation, final boolean useKeyMapForURI, final Map<String, OslcPropertyMapInfo> oslcProps, final String defaultNs)
+    '''
 def addRelatedResourceInfo():
-'''public void addRelatedResourceInfo(final OslcRelatedResourceInfo relatedResInfo)
-'''
-pass
+    '''    public void addRelatedResourceInfo(final OslcRelatedResourceInfo relatedResInfo)
+    '''
 def isAttachment():
-'''public boolean isAttachment()
-'''
-pass
+    '''    public boolean isAttachment()
+    '''
 def isExactlyOne():
-'''public boolean isExactlyOne()
-'''
-pass
+    '''    public boolean isExactlyOne()
+    '''
 def isZeroOrOne():
-'''public boolean isZeroOrOne()
-'''
-pass
+    '''    public boolean isZeroOrOne()
+    '''
 def isZeroOrMany():
-'''public boolean isZeroOrMany()
-'''
-pass
+    '''    public boolean isZeroOrMany()
+    '''
 def isOneOrMany():
-'''public boolean isOneOrMany()
-'''
-pass
+    '''    public boolean isOneOrMany()
+    '''
 def isLocalResource():
-'''public boolean isLocalResource()
-'''
-pass
+    '''    public boolean isLocalResource()
+    '''
 def isSelfReferencingPrimary():
-'''public boolean isSelfReferencingPrimary()
-'''
-pass
+    '''    public boolean isSelfReferencingPrimary()
+    '''
 def getOslcColumns():
-'''public Map<QName, IfaceColumnInfo> getOslcColumns()
-'''
-pass
+    '''    public Map<QName, IfaceColumnInfo> getOslcColumns()
+    '''
 def getOslcPropertyQName():
-'''public QName getOslcPropertyQName()
-'''
-pass
+    '''    public QName getOslcPropertyQName()
+    '''
 def gethPath():
-'''public String gethPath()
-'''
-pass
+    '''    public String gethPath()
+    '''
 def getLinkedOSName():
-'''public String getLinkedOSName()
-'''
-pass
+    '''    public String getLinkedOSName()
+    '''
 def getOslcPropName():
-'''public String getOslcPropName()
-'''
-pass
+    '''    public String getOslcPropName()
+    '''
 def getOslcPropValueName():
-'''public String getOslcPropValueName()
-'''
-pass
+    '''    public String getOslcPropValueName()
+    '''
 def getOslcPropNamespace():
-'''public String getOslcPropNamespace()
-'''
-pass
+    '''    public String getOslcPropNamespace()
+    '''
 def getOslcPropValueNamespace():
-'''public String getOslcPropValueNamespace()
-'''
-pass
+    '''    public String getOslcPropValueNamespace()
+    '''
 def getCardinality():
-'''public String getCardinality()
-'''
-pass
+    '''    public String getCardinality()
+    '''
 def getTargetKeyMap():
-'''public Map<String, String> getTargetKeyMap()
-'''
-pass
+    '''    public Map<String, String> getTargetKeyMap()
+    '''
 def isLink():
-'''public boolean isLink()
-'''
-pass
+    '''    public boolean isLink()
+    '''
 def isAssociation():
-'''public boolean isAssociation()
-'''
-pass
+    '''    public boolean isAssociation()
+    '''
 def getTargetRelation():
-'''public String getTargetRelation()
-'''
-pass
+    '''    public String getTargetRelation()
+    '''
 def getOslcProps():
-'''public Map<String, OslcPropertyMapInfo> getOslcProps()
-'''
-pass
+    '''    public Map<String, OslcPropertyMapInfo> getOslcProps()
+    '''
 def getOslcPropertyMapInfo():
-'''public OslcPropertyMapInfo getOslcPropertyMapInfo(final String name)
-'''
-pass
+    '''    public OslcPropertyMapInfo getOslcPropertyMapInfo(final String name)
+    '''
 def isUseKeyMapForURI():
-'''public boolean isUseKeyMapForURI()
-'''
-pass
+    '''    public boolean isUseKeyMapForURI()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getMosDetailInfo():
-'''public MosDetailInfo getMosDetailInfo()
-'''
-pass
+    '''    public MosDetailInfo getMosDetailInfo()
+    '''
 def getResourceInfo():
-'''public OslcResourceInfo getResourceInfo()
-'''
-pass
+    '''    public OslcResourceInfo getResourceInfo()
+    '''
 def getResourceDetailInfo():
-'''public OslcResourceDetailInfo getResourceDetailInfo(String relation)
-'''
-pass
+    '''    public OslcResourceDetailInfo getResourceDetailInfo(String relation)
+    '''
 def getRelatedResourceInfo():
-'''public OslcRelatedResourceInfo getRelatedResourceInfo(final String relation)
-'''
-pass
+    '''    public OslcRelatedResourceInfo getRelatedResourceInfo(final String relation)
+    '''

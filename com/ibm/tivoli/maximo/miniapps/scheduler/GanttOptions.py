@@ -1,4 +1,3 @@
 def addPrintHeader():
-'''public void addPrintHeader(final String printHeader)
-'''
-pass
+    '''    public void addPrintHeader(final String printHeader)
+    '''

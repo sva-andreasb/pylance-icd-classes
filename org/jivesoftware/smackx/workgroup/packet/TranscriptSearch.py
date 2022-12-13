@@ -1,10 +1,8 @@
-ELEMENT_NAME = "String  transcript-search""
-NAMESPACE = "String  http://jivesoftware.com/protocol/workgroup""
+ELEMENT_NAME = "String  \"transcript-search\""
+NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def TranscriptSearch():
-'''public TranscriptSearch()
-'''
-pass
+    '''    public TranscriptSearch()
+    '''
 def parse():
-'''public TranscriptSearch parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public TranscriptSearch parse(final XmlPullParser parser, final int initialDepth)
+    '''

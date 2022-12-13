@@ -1,4 +1,3 @@
 def getMboValueInfo():
-'''public MboValueInfoStatic getMboValueInfo(final String attribute)
-'''
-pass
+    '''    public MboValueInfoStatic getMboValueInfo(final String attribute)
+    '''

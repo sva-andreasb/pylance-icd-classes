@@ -1,20 +1,15 @@
 def EndPointRule():
-'''public EndPointRule(final Map endpointMap)
-'''
-pass
+    '''    public EndPointRule(final Map endpointMap)
+    '''
 def subset():
-'''public void subset(final List identities, final StringBuffer reason)
-'''
-pass
+    '''    public void subset(final List identities, final StringBuffer reason)
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

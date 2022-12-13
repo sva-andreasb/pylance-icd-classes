@@ -1,8 +1,6 @@
 def FldWOHasLinear():
-'''public FldWOHasLinear(final MboValue mbv)
-'''
-pass
+    '''    public FldWOHasLinear(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

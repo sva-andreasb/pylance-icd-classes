@@ -1,8 +1,6 @@
 def WorkflowMapSet():
-'''public WorkflowMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WorkflowMapSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''

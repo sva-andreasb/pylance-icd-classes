@@ -1,8 +1,6 @@
 def UnknownEncodingException():
-'''public UnknownEncodingException(final Resource root, final String encoding)
-'''
-pass
+    '''    public UnknownEncodingException(final Resource root, final String encoding)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''

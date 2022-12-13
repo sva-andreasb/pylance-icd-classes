@@ -1,26 +1,20 @@
 def HttpException():
-'''public HttpException(final int status)
-public HttpException(final int status, final String reason)
-public HttpException(final int status, final String reason, final Throwable rootCause)
-'''
-pass
+    '''    public HttpException(final int status)
+    public HttpException(final int status, final String reason)
+    public HttpException(final int status, final String reason, final Throwable rootCause)
+    '''
 def getReason():
-'''public String getReason()
-'''
-pass
+    '''    public String getReason()
+    '''
 def setReason():
-'''public void setReason(final String reason)
-'''
-pass
+    '''    public void setReason(final String reason)
+    '''
 def getStatus():
-'''public int getStatus()
-'''
-pass
+    '''    public int getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final int status)
-'''
-pass
+    '''    public void setStatus(final int status)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

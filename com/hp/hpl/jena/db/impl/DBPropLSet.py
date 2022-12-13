@@ -1,29 +1,22 @@
 def DBPropLSet():
-'''public DBPropLSet(final SpecializedGraph g, final String name, final String type)
-public DBPropLSet(final SpecializedGraph g, final Node n)
-'''
-pass
+    '''    public DBPropLSet(final SpecializedGraph g, final String name, final String type)
+    public DBPropLSet(final SpecializedGraph g, final Node n)
+    '''
 def setPSet():
-'''public void setPSet(final DBPropPSet pset)
-'''
-pass
+    '''    public void setPSet(final DBPropPSet pset)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getPset():
-'''public DBPropPSet getPset()
-'''
-pass
+    '''    public DBPropPSet getPset()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def listTriples():
-'''public ExtendedIterator<Triple> listTriples()
-'''
-pass
+    '''    public ExtendedIterator<Triple> listTriples()
+    '''

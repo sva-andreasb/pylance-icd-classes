@@ -1,8 +1,6 @@
 def addFilter():
-'''public void addFilter(final StanzaFilter filter)
-'''
-pass
+    '''    public void addFilter(final StanzaFilter filter)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''

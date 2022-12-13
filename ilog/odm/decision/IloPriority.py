@@ -1,4 +1,4 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 LEVEL_COEF = "int  2"
 MANDATORY = "Predefined  Predefined.MANDATORY"
 VERY_HIGH = "Predefined  Predefined.VERY_HIGH"
@@ -11,52 +11,40 @@ VERY_LOW = "Predefined  Predefined.VERY_LOW"
 IGNORED = "Predefined  Predefined.IGNORED"
 PROPERTY_NAME = "String  IloProperties.REQ_PRIORITY"
 def compare():
-'''public int compare(final IloPriority p0, final IloPriority p1)
-'''
-pass
+    '''    public int compare(final IloPriority p0, final IloPriority p1)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getLocalizedName():
-'''public String getLocalizedName()
-public String getLocalizedName()
-'''
-pass
+    '''    public String getLocalizedName()
+    public String getLocalizedName()
+    '''
 def isGreaterThan():
-'''public boolean isGreaterThan(final IloPriority p)
-'''
-pass
+    '''    public boolean isGreaterThan(final IloPriority p)
+    '''
 def isLowerThan():
-'''public boolean isLowerThan(final IloPriority p)
-'''
-pass
+    '''    public boolean isLowerThan(final IloPriority p)
+    '''
 def equals():
-'''public boolean equals(final IloPriority p)
-public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final IloPriority p)
+    public boolean equals(final Object other)
+    '''
 def isMandatory():
-'''public boolean isMandatory()
-'''
-pass
+    '''    public boolean isMandatory()
+    '''
 def isIgnored():
-'''public boolean isIgnored()
-'''
-pass
+    '''    public boolean isIgnored()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getIndex():
-'''public int getIndex()
-'''
-pass
+    '''    public int getIndex()
+    '''
 def all():
-'''public static Predefined[] all()
-'''
-pass
+    '''    public static Predefined[] all()
+    '''
 def get():
-'''public static Predefined get(final String name)
-'''
-pass
+    '''    public static Predefined get(final String name)
+    '''

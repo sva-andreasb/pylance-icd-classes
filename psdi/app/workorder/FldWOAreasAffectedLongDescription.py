@@ -1,8 +1,6 @@
 def FldWOAreasAffectedLongDescription():
-'''public FldWOAreasAffectedLongDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldWOAreasAffectedLongDescription(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

@@ -1,4 +1,3 @@
 def toggledeleteselectedrows():
-'''public int toggledeleteselectedrows()
-'''
-pass
+    '''    public int toggledeleteselectedrows()
+    '''

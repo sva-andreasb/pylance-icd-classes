@@ -1,12 +1,9 @@
 def SummaryTenantUsageGenerator():
-'''public SummaryTenantUsageGenerator()
-'''
-pass
+    '''    public SummaryTenantUsageGenerator()
+    '''
 def process():
-'''public JSONArray process(final String endPoint)
-'''
-pass
+    '''    public JSONArray process(final String endPoint)
+    '''
 def getHeaders():
-'''public Map getHeaders(final String writeKey)
-'''
-pass
+    '''    public Map getHeaders(final String writeKey)
+    '''

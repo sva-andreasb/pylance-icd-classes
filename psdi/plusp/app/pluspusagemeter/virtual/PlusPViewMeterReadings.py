@@ -1,24 +1,18 @@
 def PlusPViewMeterReadings():
-'''public PlusPViewMeterReadings(final MboSet ms)
-'''
-pass
+    '''    public PlusPViewMeterReadings(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def populateDialogTables():
-'''public void populateDialogTables(final boolean b)
-'''
-pass
+    '''    public void populateDialogTables(final boolean b)
+    '''
 def populateDialogMetersForAsset():
-'''public void populateDialogMetersForAsset()
-'''
-pass
+    '''    public void populateDialogMetersForAsset()
+    '''
 def populateDialogMetersForLocation():
-'''public void populateDialogMetersForLocation()
-'''
-pass
+    '''    public void populateDialogMetersForLocation()
+    '''
 def populateIndirectMeter():
-'''public void populateIndirectMeter()
-'''
-pass
+    '''    public void populateIndirectMeter()
+    '''

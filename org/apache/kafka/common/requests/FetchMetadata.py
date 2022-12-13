@@ -2,46 +2,35 @@ INVALID_SESSION_ID = "int  0"
 INITIAL_EPOCH = "int  0"
 FINAL_EPOCH = "int  -1"
 def nextEpoch():
-'''public static int nextEpoch(final int prevEpoch)
-'''
-pass
+    '''    public static int nextEpoch(final int prevEpoch)
+    '''
 def FetchMetadata():
-'''public FetchMetadata(final int sessionId, final int epoch)
-'''
-pass
+    '''    public FetchMetadata(final int sessionId, final int epoch)
+    '''
 def isFull():
-'''public boolean isFull()
-'''
-pass
+    '''    public boolean isFull()
+    '''
 def sessionId():
-'''public int sessionId()
-'''
-pass
+    '''    public int sessionId()
+    '''
 def epoch():
-'''public int epoch()
-'''
-pass
+    '''    public int epoch()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def nextCloseExisting():
-'''public FetchMetadata nextCloseExisting()
-'''
-pass
+    '''    public FetchMetadata nextCloseExisting()
+    '''
 def newIncremental():
-'''public static FetchMetadata newIncremental(final int sessionId)
-'''
-pass
+    '''    public static FetchMetadata newIncremental(final int sessionId)
+    '''
 def nextIncremental():
-'''public FetchMetadata nextIncremental()
-'''
-pass
+    '''    public FetchMetadata nextIncremental()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

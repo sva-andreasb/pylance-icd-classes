@@ -1,8 +1,6 @@
 def FldSKDProjectProjectType():
-'''public FldSKDProjectProjectType(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDProjectProjectType(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

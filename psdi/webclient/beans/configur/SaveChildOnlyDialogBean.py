@@ -1,4 +1,3 @@
 def insertAtEnd():
-'''public synchronized void insertAtEnd()
-'''
-pass
+    '''    public synchronized void insertAtEnd()
+    '''

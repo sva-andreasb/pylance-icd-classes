@@ -1,109 +1,84 @@
 def Basic():
-'''public Basic(final String componentName_, final int majorVersion_, final int minorVersion_, final int microVersion_, final String buildQualifier_, final BuildCertification buildCertification_)
-'''
-pass
+    '''    public Basic(final String componentName_, final int majorVersion_, final int minorVersion_, final int microVersion_, final String buildQualifier_, final BuildCertification buildCertification_)
+    '''
 def getComponentName():
-'''public String getComponentName()
-'''
-pass
+    '''    public String getComponentName()
+    '''
 def getMajorVersion():
-'''public int getMajorVersion()
-'''
-pass
+    '''    public int getMajorVersion()
+    '''
 def getMinorVersion():
-'''public int getMinorVersion()
-'''
-pass
+    '''    public int getMinorVersion()
+    '''
 def getMicroVersion():
-'''public int getMicroVersion()
-'''
-pass
+    '''    public int getMicroVersion()
+    '''
 def getBuildQualifier():
-'''public String getBuildQualifier()
-'''
-pass
+    '''    public String getBuildQualifier()
+    '''
 def getBuildCertification():
-'''public BuildCertification getBuildCertification()
-'''
-pass
+    '''    public BuildCertification getBuildCertification()
+    '''
 def getFullVersionString():
-'''public String getFullVersionString()
-public String getFullVersionString()
-'''
-pass
+    '''    public String getFullVersionString()
+    public String getFullVersionString()
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-public int hashCode()
-public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-public boolean equals(final Object o)
-public boolean equals(final Object o)
-public boolean equals(final Object o)
-public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    public boolean equals(final Object o)
+    '''
 def CMX():
-'''public CMX(final String s, final int n, final int n2, final int n3, final String s2, final BuildCertification buildCertification, final int specVersion_)
-'''
-pass
+    '''    public CMX(final String s, final int n, final int n2, final int n3, final String s2, final BuildCertification buildCertification, final int specVersion_)
+    '''
 def getSpecVersion():
-'''public int getSpecVersion()
-'''
-pass
+    '''    public int getSpecVersion()
+    '''
 def OCM():
-'''public OCM(final String s, final int n, final int n2, final int n3, final String s2, final BuildCertification buildCertification)
-'''
-pass
+    '''    public OCM(final String s, final int n, final int n2, final int n3, final String s2, final BuildCertification buildCertification)
+    '''
 def WAS():
-'''public WAS(final String appServerName_, final String appServerVersion_)
-'''
-pass
+    '''    public WAS(final String appServerName_, final String appServerVersion_)
+    '''
 def getAppServerName():
-'''public String getAppServerName()
-'''
-pass
+    '''    public String getAppServerName()
+    '''
 def appServerVersion():
-'''public String appServerVersion()
-'''
-pass
+    '''    public String appServerVersion()
+    '''
 def Driver():
-'''public Driver(final DriverKind driverKind_, final String s, final int n, final int n2, final int n3, final String s2, final BuildCertification buildCertification)
-'''
-pass
+    '''    public Driver(final DriverKind driverKind_, final String s, final int n, final int n2, final int n3, final String s2, final BuildCertification buildCertification)
+    '''
 def DriverKind():
-'''public DriverKind DriverKind()
-'''
-pass
+    '''    public DriverKind DriverKind()
+    '''
 def Server():
-'''public Server(final OCM ocmServerProductInformation_, final CMX cmxServerProductInformation_)
-'''
-pass
+    '''    public Server(final OCM ocmServerProductInformation_, final CMX cmxServerProductInformation_)
+    '''
 def getOCMServerProductInformation():
-'''public OCM getOCMServerProductInformation()
-'''
-pass
+    '''    public OCM getOCMServerProductInformation()
+    '''
 def getCMXServerProductInformation():
-'''public CMX getCMXServerProductInformation()
-'''
-pass
+    '''    public CMX getCMXServerProductInformation()
+    '''
 def Client():
-'''public Client(final Driver driverProductInformation_, final CMX cmxClientProductInformation_, final WAS websphereProductInformation_)
-'''
-pass
+    '''    public Client(final Driver driverProductInformation_, final CMX cmxClientProductInformation_, final WAS websphereProductInformation_)
+    '''
 def getDriverProductInformation():
-'''public Driver getDriverProductInformation()
-'''
-pass
+    '''    public Driver getDriverProductInformation()
+    '''
 def getCMXClientProductInformation():
-'''public CMX getCMXClientProductInformation()
-'''
-pass
+    '''    public CMX getCMXClientProductInformation()
+    '''
 def getWebsphereProductInformation():
-'''public WAS getWebsphereProductInformation()
-'''
-pass
+    '''    public WAS getWebsphereProductInformation()
+    '''

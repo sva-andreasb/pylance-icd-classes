@@ -165,14 +165,11 @@ ST_USERINFO_UNKNOWN_USER = "int  -2147483643"
 ST_MAX_IM_SESSION_EXCEEDED = "int  -2147483584"
 ST_SELECTIVESTATUS_LIST_ALLREADY_EXISTS = "int  -2147482848"
 def VpkSucceeded():
-'''public static final boolean VpkSucceeded(final int n)
-'''
-pass
+    '''    public static final boolean VpkSucceeded(final int n)
+    '''
 def VpkFailed():
-'''public static final boolean VpkFailed(final int n)
-'''
-pass
+    '''    public static final boolean VpkFailed(final int n)
+    '''
 def getMessageString():
-'''public static final synchronized String getMessageString(final int value)
-'''
-pass
+    '''    public static final synchronized String getMessageString(final int value)
+    '''

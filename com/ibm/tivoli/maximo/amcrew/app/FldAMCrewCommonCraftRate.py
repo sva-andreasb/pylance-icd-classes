@@ -1,17 +1,13 @@
 def FldAMCrewCommonCraftRate():
-'''public FldAMCrewCommonCraftRate(final MboValue mbv)
-public FldAMCrewCommonCraftRate(final MboValue mbv, final boolean statusCriteria)
-'''
-pass
+    '''    public FldAMCrewCommonCraftRate(final MboValue mbv)
+    public FldAMCrewCommonCraftRate(final MboValue mbv, final boolean statusCriteria)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,63 +1,48 @@
 def PlusPServiceAgreement():
-'''public PlusPServiceAgreement(final MboSet ms)
-'''
-pass
+    '''    public PlusPServiceAgreement(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-public MboRemote duplicate(final boolean b)
-'''
-pass
+    '''    public MboRemote duplicate()
+    public MboRemote duplicate(final boolean b)
+    '''
 def getIdField():
-'''public String getIdField()
-'''
-pass
+    '''    public String getIdField()
+    '''
 def enableFields():
-'''public void enableFields(final String s)
-'''
-pass
+    '''    public void enableFields(final String s)
+    '''
 def addAssets():
-'''public void addAssets(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void addAssets(final MboSetRemote mboSetRemote)
+    '''
 def addLocations():
-'''public void addLocations(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void addLocations(final MboSetRemote mboSetRemote)
+    '''
 def isActive():
-'''public boolean isActive()
-'''
-pass
+    '''    public boolean isActive()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def getObjectBaseName():
-'''public String getObjectBaseName(final String s)
-public String getObjectBaseName()
-'''
-pass
+    '''    public String getObjectBaseName(final String s)
+    public String getObjectBaseName()
+    '''
 def isTicketOrWO():
-'''public boolean isTicketOrWO(final String s)
-public boolean isTicketOrWO()
-'''
-pass
+    '''    public boolean isTicketOrWO(final String s)
+    public boolean isTicketOrWO()
+    '''
 def addRecordsToPoolItems():
-'''public void addRecordsToPoolItems(final MboSetRemote mboSetRemote)
-'''
-pass
+    '''    public void addRecordsToPoolItems(final MboSetRemote mboSetRemote)
+    '''

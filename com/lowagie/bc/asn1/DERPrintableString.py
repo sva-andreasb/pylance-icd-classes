@@ -1,26 +1,20 @@
 def getInstance():
-'''public static DERPrintableString getInstance(final Object obj)
-public static DERPrintableString getInstance(final ASN1TaggedObject obj, final boolean explicit)
-'''
-pass
+    '''    public static DERPrintableString getInstance(final Object obj)
+    public static DERPrintableString getInstance(final ASN1TaggedObject obj, final boolean explicit)
+    '''
 def DERPrintableString():
-'''public DERPrintableString(final byte[] string)
-public DERPrintableString(final String string)
-'''
-pass
+    '''    public DERPrintableString(final byte[] string)
+    public DERPrintableString(final String string)
+    '''
 def getString():
-'''public String getString()
-'''
-pass
+    '''    public String getString()
+    '''
 def getOctets():
-'''public byte[] getOctets()
-'''
-pass
+    '''    public byte[] getOctets()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

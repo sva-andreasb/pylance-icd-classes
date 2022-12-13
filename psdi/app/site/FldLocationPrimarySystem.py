@@ -1,8 +1,6 @@
 def FldLocationPrimarySystem():
-'''public FldLocationPrimarySystem(final MboValue mbv)
-'''
-pass
+    '''    public FldLocationPrimarySystem(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

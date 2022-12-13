@@ -1,16 +1,12 @@
 def registerConnectionManager():
-'''public static synchronized boolean registerConnectionManager(final HttpClientConnectionManager connectionManager)
-'''
-pass
+    '''    public static synchronized boolean registerConnectionManager(final HttpClientConnectionManager connectionManager)
+    '''
 def removeConnectionManager():
-'''public static synchronized boolean removeConnectionManager(final HttpClientConnectionManager connectionManager)
-'''
-pass
+    '''    public static synchronized boolean removeConnectionManager(final HttpClientConnectionManager connectionManager)
+    '''
 def shutdown():
-'''public static synchronized boolean shutdown()
-'''
-pass
+    '''    public static synchronized boolean shutdown()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

@@ -1,16 +1,12 @@
 def ListenerHelper():
-'''public ListenerHelper()
-'''
-pass
+    '''    public ListenerHelper()
+    '''
 def attachToModel():
-'''public void attachToModel(final IlvGanttModel model)
-'''
-pass
+    '''    public void attachToModel(final IlvGanttModel model)
+    '''
 def disable():
-'''public void disable()
-'''
-pass
+    '''    public void disable()
+    '''
 def enable():
-'''public void enable()
-'''
-pass
+    '''    public void enable()
+    '''

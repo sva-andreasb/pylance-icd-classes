@@ -1,22 +1,17 @@
-CONTENT_TYPE = "String  image/jpeg""
+CONTENT_TYPE = "String  \"image/jpeg\""
 def ImageDataSource():
-'''public ImageDataSource(final String name, final Image data)
-public ImageDataSource(final String name, final String contentType, final Image data)
-'''
-pass
+    '''    public ImageDataSource(final String name, final Image data)
+    public ImageDataSource(final String name, final String contentType, final Image data)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''

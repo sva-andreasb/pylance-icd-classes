@@ -1,4 +1,3 @@
 def getSize():
-'''public static long getSize(final DataSource ds)
-'''
-pass
+    '''    public static long getSize(final DataSource ds)
+    '''

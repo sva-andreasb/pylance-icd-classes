@@ -1,20 +1,15 @@
 def WorkView():
-'''public WorkView(final MboSet ms)
-'''
-pass
+    '''    public WorkView(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def update():
-'''public void update()
-'''
-pass
+    '''    public void update()
+    '''
 def validateKeyUniqueness():
-'''public void validateKeyUniqueness()
-'''
-pass
+    '''    public void validateKeyUniqueness()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''

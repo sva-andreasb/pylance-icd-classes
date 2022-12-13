@@ -1,4 +1,3 @@
 def UResourceTypeMismatchException():
-'''public UResourceTypeMismatchException(final String msg)
-'''
-pass
+    '''    public UResourceTypeMismatchException(final String msg)
+    '''

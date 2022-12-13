@@ -1,8 +1,6 @@
 def FldLaborLabInventorySite():
-'''public FldLaborLabInventorySite(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborLabInventorySite(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

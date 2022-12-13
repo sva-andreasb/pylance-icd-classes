@@ -1,8 +1,6 @@
 def JSONMappingPropValuesSet():
-'''public JSONMappingPropValuesSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONMappingPropValuesSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

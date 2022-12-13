@@ -1,12 +1,9 @@
 def RefChildA():
-'''public RefChildA(final MboSet mboSet0)
-'''
-pass
+    '''    public RefChildA(final MboSet mboSet0)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,8 +1,6 @@
 def Messages_zh_TW():
-'''public Messages_zh_TW()
-'''
-pass
+    '''    public Messages_zh_TW()
+    '''
 def getContents():
-'''public Object[][] getContents()
-'''
-pass
+    '''    public Object[][] getContents()
+    '''

@@ -1,8 +1,6 @@
 def FldTargetFinishDate():
-'''public FldTargetFinishDate(final MboValue mbv)
-'''
-pass
+    '''    public FldTargetFinishDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

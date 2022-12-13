@@ -1,16 +1,12 @@
 def PlusPFldSLACommitmentsType():
-'''public PlusPFldSLACommitmentsType(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldSLACommitmentsType(final MboValue arg0)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def setListCriteria():
-'''public void setListCriteria(final String s)
-'''
-pass
+    '''    public void setListCriteria(final String s)
+    '''

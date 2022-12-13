@@ -1,12 +1,9 @@
 def TloamChangeComplianceSetting():
-'''public TloamChangeComplianceSetting(final MboSet ms)
-'''
-pass
+    '''    public TloamChangeComplianceSetting(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def valueChanged():
-'''public void valueChanged()
-'''
-pass
+    '''    public void valueChanged()
+    '''

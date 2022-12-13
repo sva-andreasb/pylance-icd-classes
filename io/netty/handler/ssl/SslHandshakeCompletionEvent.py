@@ -1,4 +1,3 @@
 def SslHandshakeCompletionEvent():
-'''public SslHandshakeCompletionEvent(final Throwable cause)
-'''
-pass
+    '''    public SslHandshakeCompletionEvent(final Throwable cause)
+    '''

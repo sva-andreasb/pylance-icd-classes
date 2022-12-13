@@ -1,12 +1,9 @@
 def IntegrityChecker():
-'''public IntegrityChecker()
-'''
-pass
+    '''    public IntegrityChecker()
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def report():
-'''public void report(final Report report)
-'''
-pass
+    '''    public void report(final Report report)
+    '''

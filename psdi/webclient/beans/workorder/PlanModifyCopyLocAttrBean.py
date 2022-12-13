@@ -1,4 +1,3 @@
 def COPYLOCATTRSET():
-'''public int COPYLOCATTRSET()
-'''
-pass
+    '''    public int COPYLOCATTRSET()
+    '''

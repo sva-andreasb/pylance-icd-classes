@@ -1,4 +1,3 @@
 def NonPersistentCustomMbo():
-'''public NonPersistentCustomMbo(final MboSet ms)
-'''
-pass
+    '''    public NonPersistentCustomMbo(final MboSet ms)
+    '''

@@ -1,4 +1,3 @@
 def MapTipSet():
-'''public MapTipSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MapTipSet(final MboServerInterface ms)
+    '''

@@ -1,25 +1,19 @@
-ELEMENT = "String  no-store""
+ELEMENT = "String  \"no-store\""
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''
 def getHintType():
-'''public MessageProcessingHintType getHintType()
-'''
-pass
+    '''    public MessageProcessingHintType getHintType()
+    '''
 def from():
-'''public static NoStoreHint from(final Message message)
-'''
-pass
+    '''    public static NoStoreHint from(final Message message)
+    '''
 def hasHint():
-'''public static boolean hasHint(final Message message)
-'''
-pass
+    '''    public static boolean hasHint(final Message message)
+    '''
 def set():
-'''public static void set(final Message message)
-'''
-pass
+    '''    public static void set(final Message message)
+    '''

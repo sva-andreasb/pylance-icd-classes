@@ -1,24 +1,18 @@
 def PlusCATDSPlan():
-'''public PlusCATDSPlan(final MboSet ms)
-'''
-pass
+    '''    public PlusCATDSPlan(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def validateDS():
-'''public void validateDS(final String dsNum, final String revNum)
-'''
-pass
+    '''    public void validateDS(final String dsNum, final String revNum)
+    '''
 def getAssetTemplateMboSetInfo():
-'''public MboSetInfo getAssetTemplateMboSetInfo()
-'''
-pass
+    '''    public MboSetInfo getAssetTemplateMboSetInfo()
+    '''

@@ -1,4 +1,3 @@
 def getClassContext():
-'''public Class[] getClassContext()
-'''
-pass
+    '''    public Class[] getClassContext()
+    '''

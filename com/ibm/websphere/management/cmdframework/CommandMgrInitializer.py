@@ -1,12 +1,9 @@
 def initializeClientMode():
-'''public static synchronized void initializeClientMode(final AdminClient adminclient)
-'''
-pass
+    '''    public static synchronized void initializeClientMode(final AdminClient adminclient)
+    '''
 def initializeServerMode():
-'''public static synchronized void initializeServerMode()
-'''
-pass
+    '''    public static synchronized void initializeServerMode()
+    '''
 def initializeLocalMode():
-'''public static void initializeLocalMode()
-'''
-pass
+    '''    public static void initializeLocalMode()
+    '''

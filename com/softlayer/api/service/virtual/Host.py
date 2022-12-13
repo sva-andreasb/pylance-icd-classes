@@ -1,269 +1,202 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def getBilledPerGuestFlag():
-'''public Boolean getBilledPerGuestFlag()
-'''
-pass
+    '''    public Boolean getBilledPerGuestFlag()
+    '''
 def setBilledPerGuestFlag():
-'''public void setBilledPerGuestFlag(final Boolean billedPerGuestFlag)
-'''
-pass
+    '''    public void setBilledPerGuestFlag(final Boolean billedPerGuestFlag)
+    '''
 def getBilledPerMemoryUsageFlag():
-'''public Boolean getBilledPerMemoryUsageFlag()
-'''
-pass
+    '''    public Boolean getBilledPerMemoryUsageFlag()
+    '''
 def setBilledPerMemoryUsageFlag():
-'''public void setBilledPerMemoryUsageFlag(final Boolean billedPerMemoryUsageFlag)
-'''
-pass
+    '''    public void setBilledPerMemoryUsageFlag(final Boolean billedPerMemoryUsageFlag)
+    '''
 def getGuests():
-'''public List<Guest> getGuests()
-'''
-pass
+    '''    public List<Guest> getGuests()
+    '''
 def getHardware():
-'''public Server getHardware()
-'''
-pass
+    '''    public Server getHardware()
+    '''
 def setHardware():
-'''public void setHardware(final Server hardware)
-'''
-pass
+    '''    public void setHardware(final Server hardware)
+    '''
 def setMetricTrackingObject():
-'''public void setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.Object metricTrackingObject)
-'''
-pass
+    '''    public void setMetricTrackingObject(final com.softlayer.api.service.metric.tracking.Object metricTrackingObject)
+    '''
 def getAccountId():
-'''public Long getAccountId()
-'''
-pass
+    '''    public Long getAccountId()
+    '''
 def setAccountId():
-'''public void setAccountId(final Long accountId)
-'''
-pass
+    '''    public void setAccountId(final Long accountId)
+    '''
 def isAccountIdSpecified():
-'''public boolean isAccountIdSpecified()
-'''
-pass
+    '''    public boolean isAccountIdSpecified()
+    '''
 def unsetAccountId():
-'''public void unsetAccountId()
-'''
-pass
+    '''    public void unsetAccountId()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isDescriptionSpecified():
-'''public boolean isDescriptionSpecified()
-'''
-pass
+    '''    public boolean isDescriptionSpecified()
+    '''
 def unsetDescription():
-'''public void unsetDescription()
-'''
-pass
+    '''    public void unsetDescription()
+    '''
 def getEnabledFlag():
-'''public Long getEnabledFlag()
-'''
-pass
+    '''    public Long getEnabledFlag()
+    '''
 def setEnabledFlag():
-'''public void setEnabledFlag(final Long enabledFlag)
-'''
-pass
+    '''    public void setEnabledFlag(final Long enabledFlag)
+    '''
 def isEnabledFlagSpecified():
-'''public boolean isEnabledFlagSpecified()
-'''
-pass
+    '''    public boolean isEnabledFlagSpecified()
+    '''
 def unsetEnabledFlag():
-'''public void unsetEnabledFlag()
-'''
-pass
+    '''    public void unsetEnabledFlag()
+    '''
 def getHardwareId():
-'''public Long getHardwareId()
-'''
-pass
+    '''    public Long getHardwareId()
+    '''
 def setHardwareId():
-'''public void setHardwareId(final Long hardwareId)
-'''
-pass
+    '''    public void setHardwareId(final Long hardwareId)
+    '''
 def isHardwareIdSpecified():
-'''public boolean isHardwareIdSpecified()
-'''
-pass
+    '''    public boolean isHardwareIdSpecified()
+    '''
 def unsetHardwareId():
-'''public void unsetHardwareId()
-'''
-pass
+    '''    public void unsetHardwareId()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getModifyDate():
-'''public GregorianCalendar getModifyDate()
-'''
-pass
+    '''    public GregorianCalendar getModifyDate()
+    '''
 def setModifyDate():
-'''public void setModifyDate(final GregorianCalendar modifyDate)
-'''
-pass
+    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''
 def isModifyDateSpecified():
-'''public boolean isModifyDateSpecified()
-'''
-pass
+    '''    public boolean isModifyDateSpecified()
+    '''
 def unsetModifyDate():
-'''public void unsetModifyDate()
-'''
-pass
+    '''    public void unsetModifyDate()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def isNameSpecified():
-'''public boolean isNameSpecified()
-'''
-pass
+    '''    public boolean isNameSpecified()
+    '''
 def unsetName():
-'''public void unsetName()
-'''
-pass
+    '''    public void unsetName()
+    '''
 def getPhysicalMemoryCapacity():
-'''public Long getPhysicalMemoryCapacity()
-'''
-pass
+    '''    public Long getPhysicalMemoryCapacity()
+    '''
 def setPhysicalMemoryCapacity():
-'''public void setPhysicalMemoryCapacity(final Long physicalMemoryCapacity)
-'''
-pass
+    '''    public void setPhysicalMemoryCapacity(final Long physicalMemoryCapacity)
+    '''
 def isPhysicalMemoryCapacitySpecified():
-'''public boolean isPhysicalMemoryCapacitySpecified()
-'''
-pass
+    '''    public boolean isPhysicalMemoryCapacitySpecified()
+    '''
 def unsetPhysicalMemoryCapacity():
-'''public void unsetPhysicalMemoryCapacity()
-'''
-pass
+    '''    public void unsetPhysicalMemoryCapacity()
+    '''
 def getUuid():
-'''public String getUuid()
-'''
-pass
+    '''    public String getUuid()
+    '''
 def setUuid():
-'''public void setUuid(final String uuid)
-'''
-pass
+    '''    public void setUuid(final String uuid)
+    '''
 def isUuidSpecified():
-'''public boolean isUuidSpecified()
-'''
-pass
+    '''    public boolean isUuidSpecified()
+    '''
 def unsetUuid():
-'''public void unsetUuid()
-'''
-pass
+    '''    public void unsetUuid()
+    '''
 def getGuestCount():
-'''public Long getGuestCount()
-'''
-pass
+    '''    public Long getGuestCount()
+    '''
 def setGuestCount():
-'''public void setGuestCount(final Long guestCount)
-'''
-pass
+    '''    public void setGuestCount(final Long guestCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def billedPerGuestFlag():
-'''public Mask billedPerGuestFlag()
-'''
-pass
+    '''    public Mask billedPerGuestFlag()
+    '''
 def billedPerMemoryUsageFlag():
-'''public Mask billedPerMemoryUsageFlag()
-'''
-pass
+    '''    public Mask billedPerMemoryUsageFlag()
+    '''
 def accountId():
-'''public Mask accountId()
-'''
-pass
+    '''    public Mask accountId()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def description():
-'''public Mask description()
-'''
-pass
+    '''    public Mask description()
+    '''
 def enabledFlag():
-'''public Mask enabledFlag()
-'''
-pass
+    '''    public Mask enabledFlag()
+    '''
 def hardwareId():
-'''public Mask hardwareId()
-'''
-pass
+    '''    public Mask hardwareId()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def modifyDate():
-'''public Mask modifyDate()
-'''
-pass
+    '''    public Mask modifyDate()
+    '''
 def name():
-'''public Mask name()
-'''
-pass
+    '''    public Mask name()
+    '''
 def physicalMemoryCapacity():
-'''public Mask physicalMemoryCapacity()
-'''
-pass
+    '''    public Mask physicalMemoryCapacity()
+    '''
 def uuid():
-'''public Mask uuid()
-'''
-pass
+    '''    public Mask uuid()
+    '''
 def guestCount():
-'''public Mask guestCount()
-'''
-pass
+    '''    public Mask guestCount()
+    '''

@@ -1,16 +1,12 @@
 def PlusPFldBSAssetAssetCI():
-'''public PlusPFldBSAssetAssetCI(final MboValue mv)
-'''
-pass
+    '''    public PlusPFldBSAssetAssetCI(final MboValue mv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''

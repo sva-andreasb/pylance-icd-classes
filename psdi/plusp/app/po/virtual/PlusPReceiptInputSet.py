@@ -1,4 +1,3 @@
 def PlusPReceiptInputSet():
-'''public PlusPReceiptInputSet(final MboServerInterface arg0)
-'''
-pass
+    '''    public PlusPReceiptInputSet(final MboServerInterface arg0)
+    '''

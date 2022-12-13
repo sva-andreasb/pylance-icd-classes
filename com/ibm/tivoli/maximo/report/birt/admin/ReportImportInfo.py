@@ -1,92 +1,69 @@
 def ReportImportInfo():
-'''public ReportImportInfo()
-'''
-pass
+    '''    public ReportImportInfo()
+    '''
 def getAppName():
-'''public String getAppName()
-'''
-pass
+    '''    public String getAppName()
+    '''
 def setAppName():
-'''public void setAppName(final String appName)
-'''
-pass
+    '''    public void setAppName(final String appName)
+    '''
 def getFileName():
-'''public String getFileName()
-'''
-pass
+    '''    public String getFileName()
+    '''
 def setFileName():
-'''public void setFileName(final String fileName)
-'''
-pass
+    '''    public void setFileName(final String fileName)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getResources():
-'''public byte[] getResources()
-'''
-pass
+    '''    public byte[] getResources()
+    '''
 def setResources():
-'''public void setResources(final byte[] resources)
-'''
-pass
+    '''    public void setResources(final byte[] resources)
+    '''
 def getXmlReportData():
-'''public byte[] getXmlReportData()
-'''
-pass
+    '''    public byte[] getXmlReportData()
+    '''
 def setXmlReportData():
-'''public void setXmlReportData(final byte[] xmlReportData)
-'''
-pass
+    '''    public void setXmlReportData(final byte[] xmlReportData)
+    '''
 def isLibrary():
-'''public boolean isLibrary()
-'''
-pass
+    '''    public boolean isLibrary()
+    '''
 def setLibrary():
-'''public void setLibrary(final boolean library)
-'''
-pass
+    '''    public void setLibrary(final boolean library)
+    '''
 def setAttribute():
-'''public void setAttribute(final String attributeName, final String attributeValue)
-'''
-pass
+    '''    public void setAttribute(final String attributeName, final String attributeValue)
+    '''
 def getAttribute():
-'''public String getAttribute(final String attributeName)
-'''
-pass
+    '''    public String getAttribute(final String attributeName)
+    '''
 def removeAttribute():
-'''public void removeAttribute(final String attributeName)
-'''
-pass
+    '''    public void removeAttribute(final String attributeName)
+    '''
 def getAttributes():
-'''public Iterator getAttributes()
-'''
-pass
+    '''    public Iterator getAttributes()
+    '''
 def isImportResourcesEnabled():
-'''public boolean isImportResourcesEnabled()
-'''
-pass
+    '''    public boolean isImportResourcesEnabled()
+    '''
 def setImportResourcesEnabled():
-'''public void setImportResourcesEnabled(final boolean importResourcesEnabled)
-'''
-pass
+    '''    public void setImportResourcesEnabled(final boolean importResourcesEnabled)
+    '''
 def setParameter():
-'''public void setParameter(final String parameterName, final ReportImportParamInfo paramInfo)
-'''
-pass
+    '''    public void setParameter(final String parameterName, final ReportImportParamInfo paramInfo)
+    '''
 def getParameter():
-'''public ReportImportParamInfo getParameter(final String parameterName)
-'''
-pass
+    '''    public ReportImportParamInfo getParameter(final String parameterName)
+    '''
 def removeParameter():
-'''public void removeParameter(final String parameterName)
-'''
-pass
+    '''    public void removeParameter(final String parameterName)
+    '''
 def getParameters():
-'''public Iterator getParameters()
-'''
-pass
+    '''    public Iterator getParameters()
+    '''

@@ -1,8 +1,6 @@
 def notNullPredicate():
-'''public static <T> Predicate<T> notNullPredicate()
-'''
-pass
+    '''    public static <T> Predicate<T> notNullPredicate()
+    '''
 def evaluate():
-'''public boolean evaluate(final T object)
-'''
-pass
+    '''    public boolean evaluate(final T object)
+    '''

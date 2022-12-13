@@ -1,47 +1,36 @@
-CACHE_NAME = "String  BMX.MAXIMODD.RI""
+CACHE_NAME = "String  \"BMX.MAXIMODD.RI\""
 def RelationInfo():
-'''public RelationInfo(final long id)
-public RelationInfo(final String name, final String src, final String dest, final String sqlexpr)
-public RelationInfo(final long uniqueId, final int tenantId, final String name, final String src, final String dest, final String sqlexpr, final String cardinality, final String dbjoinrequired)
-'''
-pass
+    '''    public RelationInfo(final long id)
+    public RelationInfo(final String name, final String src, final String dest, final String sqlexpr)
+    public RelationInfo(final long uniqueId, final int tenantId, final String name, final String src, final String dest, final String sqlexpr, final String cardinality, final String dbjoinrequired)
+    '''
 def getTypedReference():
-'''public RelationInfoBase getTypedReference()
-'''
-pass
+    '''    public RelationInfoBase getTypedReference()
+    '''
 def getDest():
-'''public String getDest()
-'''
-pass
+    '''    public String getDest()
+    '''
 def getSrc():
-'''public String getSrc()
-'''
-pass
+    '''    public String getSrc()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSqlExpr():
-'''public String getSqlExpr()
-'''
-pass
+    '''    public String getSqlExpr()
+    '''
 def getCardinality():
-'''public String getCardinality()
-'''
-pass
+    '''    public String getCardinality()
+    '''
 def getDbJoinReq():
-'''public boolean getDbJoinReq()
-'''
-pass
+    '''    public boolean getDbJoinReq()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def isTenantOwned():
-'''public boolean isTenantOwned()
-'''
-pass
+    '''    public boolean isTenantOwned()
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

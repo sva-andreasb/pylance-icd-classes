@@ -1,57 +1,43 @@
 def NamespacePointer():
-'''public NamespacePointer(final NodePointer parent, final String prefix)
-public NamespacePointer(final NodePointer parent, final String prefix, final String namespaceURI)
-'''
-pass
+    '''    public NamespacePointer(final NodePointer parent, final String prefix)
+    public NamespacePointer(final NodePointer parent, final String prefix, final String namespaceURI)
+    '''
 def getName():
-'''public QName getName()
-'''
-pass
+    '''    public QName getName()
+    '''
 def getBaseValue():
-'''public Object getBaseValue()
-'''
-pass
+    '''    public Object getBaseValue()
+    '''
 def isCollection():
-'''public boolean isCollection()
-'''
-pass
+    '''    public boolean isCollection()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def getImmediateNode():
-'''public Object getImmediateNode()
-'''
-pass
+    '''    public Object getImmediateNode()
+    '''
 def getNamespaceURI():
-'''public String getNamespaceURI()
-'''
-pass
+    '''    public String getNamespaceURI()
+    '''
 def isLeaf():
-'''public boolean isLeaf()
-'''
-pass
+    '''    public boolean isLeaf()
+    '''
 def setValue():
-'''public void setValue(final Object value)
-'''
-pass
+    '''    public void setValue(final Object value)
+    '''
 def testNode():
-'''public boolean testNode(final NodeTest nodeTest)
-'''
-pass
+    '''    public boolean testNode(final NodeTest nodeTest)
+    '''
 def asPath():
-'''public String asPath()
-'''
-pass
+    '''    public String asPath()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def compareChildNodePointers():
-'''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
-'''
-pass
+    '''    public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''

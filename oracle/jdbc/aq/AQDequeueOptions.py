@@ -2,109 +2,83 @@ DEQUEUE_WAIT_FOREVER = "int  -1"
 DEQUEUE_NO_WAIT = "int  0"
 MAX_RAW_PAYLOAD = "int  67108787"
 def AQDequeueOptions():
-'''public AQDequeueOptions()
-'''
-pass
+    '''    public AQDequeueOptions()
+    '''
 def setConsumerName():
-'''public void setConsumerName(final String attrConsumerName)
-'''
-pass
+    '''    public void setConsumerName(final String attrConsumerName)
+    '''
 def getConsumerName():
-'''public String getConsumerName()
-'''
-pass
+    '''    public String getConsumerName()
+    '''
 def setCorrelation():
-'''public void setCorrelation(final String attrCorrelation)
-'''
-pass
+    '''    public void setCorrelation(final String attrCorrelation)
+    '''
 def getCorrelation():
-'''public String getCorrelation()
-'''
-pass
+    '''    public String getCorrelation()
+    '''
 def setDequeueMode():
-'''public void setDequeueMode(final DequeueMode attrDeqMode)
-'''
-pass
+    '''    public void setDequeueMode(final DequeueMode attrDeqMode)
+    '''
 def getDequeueMode():
-'''public DequeueMode getDequeueMode()
-'''
-pass
+    '''    public DequeueMode getDequeueMode()
+    '''
 def setDequeueMessageId():
-'''public void setDequeueMessageId(final byte[] attrDeqMsgId)
-'''
-pass
+    '''    public void setDequeueMessageId(final byte[] attrDeqMsgId)
+    '''
 def getDequeueMessageId():
-'''public byte[] getDequeueMessageId()
-'''
-pass
+    '''    public byte[] getDequeueMessageId()
+    '''
 def setNavigation():
-'''public void setNavigation(final NavigationOption attrNavigation)
-'''
-pass
+    '''    public void setNavigation(final NavigationOption attrNavigation)
+    '''
 def getNavigation():
-'''public NavigationOption getNavigation()
-'''
-pass
+    '''    public NavigationOption getNavigation()
+    '''
 def setVisibility():
-'''public void setVisibility(final VisibilityOption attrVisibility)
-'''
-pass
+    '''    public void setVisibility(final VisibilityOption attrVisibility)
+    '''
 def getVisibility():
-'''public VisibilityOption getVisibility()
-'''
-pass
+    '''    public VisibilityOption getVisibility()
+    '''
 def setWait():
-'''public void setWait(final int attrWait)
-'''
-pass
+    '''    public void setWait(final int attrWait)
+    '''
 def getWait():
-'''public int getWait()
-'''
-pass
+    '''    public int getWait()
+    '''
 def setMaximumBufferLength():
-'''public void setMaximumBufferLength(final int maxBufferLength)
-'''
-pass
+    '''    public void setMaximumBufferLength(final int maxBufferLength)
+    '''
 def getMaximumBufferLength():
-'''public int getMaximumBufferLength()
-'''
-pass
+    '''    public int getMaximumBufferLength()
+    '''
 def setDeliveryFilter():
-'''public void setDeliveryFilter(final DeliveryFilter attrDeliveryMode)
-'''
-pass
+    '''    public void setDeliveryFilter(final DeliveryFilter attrDeliveryMode)
+    '''
 def getDeliveryFilter():
-'''public DeliveryFilter getDeliveryFilter()
-'''
-pass
+    '''    public DeliveryFilter getDeliveryFilter()
+    '''
 def setRetrieveMessageId():
-'''public void setRetrieveMessageId(final boolean retrieveMsgId)
-'''
-pass
+    '''    public void setRetrieveMessageId(final boolean retrieveMsgId)
+    '''
 def getRetrieveMessageId():
-'''public boolean getRetrieveMessageId()
-'''
-pass
+    '''    public boolean getRetrieveMessageId()
+    '''
 def setTransformation():
-'''public void setTransformation(final String transformation)
-'''
-pass
+    '''    public void setTransformation(final String transformation)
+    '''
 def getTransformation():
-'''public String getTransformation()
-'''
-pass
+    '''    public String getTransformation()
+    '''
 def setCondition():
-'''public void setCondition(final String condition)
-'''
-pass
+    '''    public void setCondition(final String condition)
+    '''
 def getCondition():
-'''public String getCondition()
-'''
-pass
+    '''    public String getCondition()
+    '''
 def getCode():
-'''public final int getCode()
-public final int getCode()
-public final int getCode()
-public final int getCode()
-'''
-pass
+    '''    public final int getCode()
+    public final int getCode()
+    public final int getCode()
+    public final int getCode()
+    '''

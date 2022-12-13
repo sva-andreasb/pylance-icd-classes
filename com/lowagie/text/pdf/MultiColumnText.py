@@ -1,66 +1,50 @@
 AUTOMATIC = "float  -1.0f"
 def MultiColumnText():
-'''public MultiColumnText()
-public MultiColumnText(final float height)
-'''
-pass
+    '''    public MultiColumnText()
+    public MultiColumnText(final float height)
+    '''
 def isOverflow():
-'''public boolean isOverflow()
-'''
-pass
+    '''    public boolean isOverflow()
+    '''
 def useColumnParams():
-'''public void useColumnParams(final ColumnText sourceColumn)
-'''
-pass
+    '''    public void useColumnParams(final ColumnText sourceColumn)
+    '''
 def addColumn():
-'''public void addColumn(final float[] left, final float[] right)
-'''
-pass
+    '''    public void addColumn(final float[] left, final float[] right)
+    '''
 def addSimpleColumn():
-'''public void addSimpleColumn(final float left, final float right)
-'''
-pass
+    '''    public void addSimpleColumn(final float left, final float right)
+    '''
 def addRegularColumns():
-'''public void addRegularColumns(final float left, final float right, final float gutterWidth, final int numColumns)
-'''
-pass
+    '''    public void addRegularColumns(final float left, final float right, final float gutterWidth, final int numColumns)
+    '''
 def addElement():
-'''public void addElement(final Element element)
-'''
-pass
+    '''    public void addElement(final Element element)
+    '''
 def write():
-'''public float write(final PdfContentByte canvas, final PdfDocument document, final float documentY)
-'''
-pass
+    '''    public float write(final PdfContentByte canvas, final PdfDocument document, final float documentY)
+    '''
 def process():
-'''public boolean process(final ElementListener listener)
-'''
-pass
+    '''    public boolean process(final ElementListener listener)
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def getChunks():
-'''public ArrayList getChunks()
-'''
-pass
+    '''    public ArrayList getChunks()
+    '''
 def nextColumn():
-'''public void nextColumn()
-'''
-pass
+    '''    public void nextColumn()
+    '''
 def getCurrentColumn():
-'''public int getCurrentColumn()
-'''
-pass
+    '''    public int getCurrentColumn()
+    '''
 def resetCurrentColumn():
-'''public void resetCurrentColumn()
-'''
-pass
+    '''    public void resetCurrentColumn()
+    '''
 def shiftCurrentColumn():
-'''public boolean shiftCurrentColumn()
-'''
-pass
+    '''    public boolean shiftCurrentColumn()
+    '''
 def setColumnsRightToLeft():
-'''public void setColumnsRightToLeft(final boolean direction)
-'''
-pass
+    '''    public void setColumnsRightToLeft(final boolean direction)
+    '''

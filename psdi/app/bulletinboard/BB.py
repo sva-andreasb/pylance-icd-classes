@@ -1,28 +1,21 @@
 def BB():
-'''public BB(final MboSet ms)
-'''
-pass
+    '''    public BB(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def copyAndReplaceId():
-'''public void copyAndReplaceId(final MboSetRemote currentSet, final MboSetRemote newSet, final String bbid)
-'''
-pass
+    '''    public void copyAndReplaceId(final MboSetRemote currentSet, final MboSetRemote newSet, final String bbid)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def associateBBAudienceToCommLog():
-'''public void associateBBAudienceToCommLog(final MboRemote commLog)
-'''
-pass
+    '''    public void associateBBAudienceToCommLog(final MboRemote commLog)
+    '''

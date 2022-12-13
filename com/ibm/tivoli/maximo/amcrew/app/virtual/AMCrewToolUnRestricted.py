@@ -1,44 +1,33 @@
 def AMCrewToolUnRestricted():
-'''public AMCrewToolUnRestricted(final MboSet ms)
-'''
-pass
+    '''    public AMCrewToolUnRestricted(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def checkRequiredTools():
-'''public void checkRequiredTools()
-'''
-pass
+    '''    public void checkRequiredTools()
+    '''
 def setToolSeqMatched():
-'''public void setToolSeqMatched(final boolean matched)
-'''
-pass
+    '''    public void setToolSeqMatched(final boolean matched)
+    '''
 def getToolSeqMatched():
-'''public boolean getToolSeqMatched()
-'''
-pass
+    '''    public boolean getToolSeqMatched()
+    '''
 def setToolItemNumMatched():
-'''public void setToolItemNumMatched(final boolean matched)
-'''
-pass
+    '''    public void setToolItemNumMatched(final boolean matched)
+    '''
 def getToolItemNumMatched():
-'''public boolean getToolItemNumMatched()
-'''
-pass
+    '''    public boolean getToolItemNumMatched()
+    '''
 def setToolItemNumMatchedSequence():
-'''public void setToolItemNumMatchedSequence(final String sequence)
-'''
-pass
+    '''    public void setToolItemNumMatchedSequence(final String sequence)
+    '''
 def getToolItemNumMatchedSequence():
-'''public String getToolItemNumMatchedSequence()
-'''
-pass
+    '''    public String getToolItemNumMatchedSequence()
+    '''
 def getCurrentShiftStartDate():
-'''public Date getCurrentShiftStartDate(final Date effectiveDate)
-'''
-pass
+    '''    public Date getCurrentShiftStartDate(final Date effectiveDate)
+    '''
 def getCurrentShiftEndate():
-'''public Date getCurrentShiftEndate(final Date endDate)
-'''
-pass
+    '''    public Date getCurrentShiftEndate(final Date endDate)
+    '''

@@ -1,81 +1,61 @@
 def construct():
-'''public static PropertyMetadata construct(final Boolean req, final String desc, final Integer index, final String defaultValue)
-public static PropertyMetadata construct(final boolean req, final String desc, final Integer index, final String defaultValue)
-'''
-pass
+    '''    public static PropertyMetadata construct(final Boolean req, final String desc, final Integer index, final String defaultValue)
+    public static PropertyMetadata construct(final boolean req, final String desc, final Integer index, final String defaultValue)
+    '''
 def withDescription():
-'''public PropertyMetadata withDescription(final String desc)
-'''
-pass
+    '''    public PropertyMetadata withDescription(final String desc)
+    '''
 def withMergeInfo():
-'''public PropertyMetadata withMergeInfo(final MergeInfo mergeInfo)
-'''
-pass
+    '''    public PropertyMetadata withMergeInfo(final MergeInfo mergeInfo)
+    '''
 def withNulls():
-'''public PropertyMetadata withNulls(final Nulls valueNulls, final Nulls contentNulls)
-'''
-pass
+    '''    public PropertyMetadata withNulls(final Nulls valueNulls, final Nulls contentNulls)
+    '''
 def withDefaultValue():
-'''public PropertyMetadata withDefaultValue(String def)
-'''
-pass
+    '''    public PropertyMetadata withDefaultValue(String def)
+    '''
 def withIndex():
-'''public PropertyMetadata withIndex(final Integer index)
-'''
-pass
+    '''    public PropertyMetadata withIndex(final Integer index)
+    '''
 def withRequired():
-'''public PropertyMetadata withRequired(final Boolean b)
-'''
-pass
+    '''    public PropertyMetadata withRequired(final Boolean b)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def hasDefaultValue():
-'''public boolean hasDefaultValue()
-'''
-pass
+    '''    public boolean hasDefaultValue()
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def getRequired():
-'''public Boolean getRequired()
-'''
-pass
+    '''    public Boolean getRequired()
+    '''
 def getIndex():
-'''public Integer getIndex()
-'''
-pass
+    '''    public Integer getIndex()
+    '''
 def hasIndex():
-'''public boolean hasIndex()
-'''
-pass
+    '''    public boolean hasIndex()
+    '''
 def getMergeInfo():
-'''public MergeInfo getMergeInfo()
-'''
-pass
+    '''    public MergeInfo getMergeInfo()
+    '''
 def getValueNulls():
-'''public Nulls getValueNulls()
-'''
-pass
+    '''    public Nulls getValueNulls()
+    '''
 def getContentNulls():
-'''public Nulls getContentNulls()
-'''
-pass
+    '''    public Nulls getContentNulls()
+    '''
 def createForDefaults():
-'''public static MergeInfo createForDefaults(final AnnotatedMember getter)
-'''
-pass
+    '''    public static MergeInfo createForDefaults(final AnnotatedMember getter)
+    '''
 def createForTypeOverride():
-'''public static MergeInfo createForTypeOverride(final AnnotatedMember getter)
-'''
-pass
+    '''    public static MergeInfo createForTypeOverride(final AnnotatedMember getter)
+    '''
 def createForPropertyOverride():
-'''public static MergeInfo createForPropertyOverride(final AnnotatedMember getter)
-'''
-pass
+    '''    public static MergeInfo createForPropertyOverride(final AnnotatedMember getter)
+    '''

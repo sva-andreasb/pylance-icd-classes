@@ -1,16 +1,12 @@
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getPermission():
-'''public String getPermission()
-'''
-pass
+    '''    public String getPermission()
+    '''
 def setPermission():
-'''public void setPermission(final String value)
-'''
-pass
+    '''    public void setPermission(final String value)
+    '''

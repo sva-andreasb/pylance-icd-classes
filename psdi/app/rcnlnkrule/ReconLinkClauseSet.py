@@ -1,4 +1,3 @@
 def ReconLinkClauseSet():
-'''public ReconLinkClauseSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ReconLinkClauseSet(final MboServerInterface ms)
+    '''

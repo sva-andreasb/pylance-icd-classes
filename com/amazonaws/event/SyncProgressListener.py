@@ -1,4 +1,3 @@
 def isSyncCallSafe():
-'''public boolean isSyncCallSafe()
-'''
-pass
+    '''    public boolean isSyncCallSafe()
+    '''

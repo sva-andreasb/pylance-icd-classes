@@ -1,8 +1,6 @@
 def EncryptRequestMarshaller():
-'''public EncryptRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
-'''
-pass
+    '''    public EncryptRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''
 def marshall():
-'''public Request<EncryptRequest> marshall(final EncryptRequest encryptRequest)
-'''
-pass
+    '''    public Request<EncryptRequest> marshall(final EncryptRequest encryptRequest)
+    '''

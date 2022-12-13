@@ -1,12 +1,9 @@
 def PmProblemChgStatusAppBean():
-'''public PmProblemChgStatusAppBean()
-'''
-pass
+    '''    public PmProblemChgStatusAppBean()
+    '''
 def execute():
-'''public synchronized int execute()
-'''
-pass
+    '''    public synchronized int execute()
+    '''
 def getProperty():
-'''public String getProperty(final String propName)
-'''
-pass
+    '''    public String getProperty(final String propName)
+    '''

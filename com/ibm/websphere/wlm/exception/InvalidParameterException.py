@@ -1,5 +1,4 @@
 def InvalidParameterException():
-'''public InvalidParameterException()
-public InvalidParameterException(final String message)
-'''
-pass
+    '''    public InvalidParameterException()
+    public InvalidParameterException(final String message)
+    '''

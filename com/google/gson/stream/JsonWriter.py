@@ -1,72 +1,55 @@
 def JsonWriter():
-'''public JsonWriter(final Writer out)
-'''
-pass
+    '''    public JsonWriter(final Writer out)
+    '''
 def setIndent():
-'''public final void setIndent(final String indent)
-'''
-pass
+    '''    public final void setIndent(final String indent)
+    '''
 def setLenient():
-'''public final void setLenient(final boolean lenient)
-'''
-pass
+    '''    public final void setLenient(final boolean lenient)
+    '''
 def isLenient():
-'''public boolean isLenient()
-'''
-pass
+    '''    public boolean isLenient()
+    '''
 def setHtmlSafe():
-'''public final void setHtmlSafe(final boolean htmlSafe)
-'''
-pass
+    '''    public final void setHtmlSafe(final boolean htmlSafe)
+    '''
 def isHtmlSafe():
-'''public final boolean isHtmlSafe()
-'''
-pass
+    '''    public final boolean isHtmlSafe()
+    '''
 def setSerializeNulls():
-'''public final void setSerializeNulls(final boolean serializeNulls)
-'''
-pass
+    '''    public final void setSerializeNulls(final boolean serializeNulls)
+    '''
 def getSerializeNulls():
-'''public final boolean getSerializeNulls()
-'''
-pass
+    '''    public final boolean getSerializeNulls()
+    '''
 def beginArray():
-'''public JsonWriter beginArray()
-'''
-pass
+    '''    public JsonWriter beginArray()
+    '''
 def endArray():
-'''public JsonWriter endArray()
-'''
-pass
+    '''    public JsonWriter endArray()
+    '''
 def beginObject():
-'''public JsonWriter beginObject()
-'''
-pass
+    '''    public JsonWriter beginObject()
+    '''
 def endObject():
-'''public JsonWriter endObject()
-'''
-pass
+    '''    public JsonWriter endObject()
+    '''
 def name():
-'''public JsonWriter name(final String name)
-'''
-pass
+    '''    public JsonWriter name(final String name)
+    '''
 def value():
-'''public JsonWriter value(final String value)
-public JsonWriter value(final boolean value)
-public JsonWriter value(final double value)
-public JsonWriter value(final long value)
-public JsonWriter value(final Number value)
-'''
-pass
+    '''    public JsonWriter value(final String value)
+    public JsonWriter value(final boolean value)
+    public JsonWriter value(final double value)
+    public JsonWriter value(final long value)
+    public JsonWriter value(final Number value)
+    '''
 def nullValue():
-'''public JsonWriter nullValue()
-'''
-pass
+    '''    public JsonWriter nullValue()
+    '''
 def flush():
-'''public void flush()
-'''
-pass
+    '''    public void flush()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''

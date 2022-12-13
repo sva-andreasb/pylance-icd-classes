@@ -1,40 +1,30 @@
 def setCiphertextBlob():
-'''public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
-'''
-pass
+    '''    public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''
 def getCiphertextBlob():
-'''public ByteBuffer getCiphertextBlob()
-'''
-pass
+    '''    public ByteBuffer getCiphertextBlob()
+    '''
 def withCiphertextBlob():
-'''public GenerateDataKeyWithoutPlaintextResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public GenerateDataKeyWithoutPlaintextResult withKeyId(final String keyId)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextResult withKeyId(final String keyId)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public GenerateDataKeyWithoutPlaintextResult clone()
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextResult clone()
+    '''

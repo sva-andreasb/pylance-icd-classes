@@ -1,8 +1,6 @@
 def QueryCompilerIndex():
-'''public QueryCompilerIndex(final SDBRequest request)
-'''
-pass
+    '''    public QueryCompilerIndex(final SDBRequest request)
+    '''
 def createQuadBlockCompiler():
-'''public QuadBlockCompiler createQuadBlockCompiler()
-'''
-pass
+    '''    public QuadBlockCompiler createQuadBlockCompiler()
+    '''

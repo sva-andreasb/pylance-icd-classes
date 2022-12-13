@@ -1,8 +1,6 @@
 def FldLogActionType():
-'''public FldLogActionType(final MboValue mbv)
-'''
-pass
+    '''    public FldLogActionType(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

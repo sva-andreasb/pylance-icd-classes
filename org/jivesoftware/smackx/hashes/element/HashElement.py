@@ -1,35 +1,27 @@
-ELEMENT = "String  hash""
-ATTR_ALGO = "String  algo""
+ELEMENT = "String  \"hash\""
+ATTR_ALGO = "String  \"algo\""
 def HashElement():
-'''public HashElement(final HashManager.ALGORITHM algorithm, final byte[] hash)
-public HashElement(final HashManager.ALGORITHM algorithm, final String hashB64)
-'''
-pass
+    '''    public HashElement(final HashManager.ALGORITHM algorithm, final byte[] hash)
+    public HashElement(final HashManager.ALGORITHM algorithm, final String hashB64)
+    '''
 def getHash():
-'''public byte[] getHash()
-'''
-pass
+    '''    public byte[] getHash()
+    '''
 def getHashB64():
-'''public String getHashB64()
-'''
-pass
+    '''    public String getHashB64()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public CharSequence toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public CharSequence toXML(final String enclosingNamespace)
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

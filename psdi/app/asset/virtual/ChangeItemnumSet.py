@@ -1,8 +1,6 @@
 def ChangeItemnumSet():
-'''public ChangeItemnumSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ChangeItemnumSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

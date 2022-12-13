@@ -1,4 +1,3 @@
 def MaxUserMTSet():
-'''public MaxUserMTSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxUserMTSet(final MboServerInterface ms)
+    '''

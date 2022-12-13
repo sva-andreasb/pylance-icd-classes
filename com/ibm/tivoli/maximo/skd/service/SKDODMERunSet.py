@@ -1,4 +1,3 @@
 def SKDODMERunSet():
-'''public SKDODMERunSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDODMERunSet(final MboServerInterface ms)
+    '''

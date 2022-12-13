@@ -1,132 +1,100 @@
 def setAWSAccountId():
-'''public void setAWSAccountId(final String aWSAccountId)
-'''
-pass
+    '''    public void setAWSAccountId(final String aWSAccountId)
+    '''
 def getAWSAccountId():
-'''public String getAWSAccountId()
-'''
-pass
+    '''    public String getAWSAccountId()
+    '''
 def withAWSAccountId():
-'''public KeyMetadata withAWSAccountId(final String aWSAccountId)
-'''
-pass
+    '''    public KeyMetadata withAWSAccountId(final String aWSAccountId)
+    '''
 def setKeyId():
-'''public void setKeyId(final String keyId)
-'''
-pass
+    '''    public void setKeyId(final String keyId)
+    '''
 def getKeyId():
-'''public String getKeyId()
-'''
-pass
+    '''    public String getKeyId()
+    '''
 def withKeyId():
-'''public KeyMetadata withKeyId(final String keyId)
-'''
-pass
+    '''    public KeyMetadata withKeyId(final String keyId)
+    '''
 def setArn():
-'''public void setArn(final String arn)
-'''
-pass
+    '''    public void setArn(final String arn)
+    '''
 def getArn():
-'''public String getArn()
-'''
-pass
+    '''    public String getArn()
+    '''
 def withArn():
-'''public KeyMetadata withArn(final String arn)
-'''
-pass
+    '''    public KeyMetadata withArn(final String arn)
+    '''
 def setCreationDate():
-'''public void setCreationDate(final Date creationDate)
-'''
-pass
+    '''    public void setCreationDate(final Date creationDate)
+    '''
 def getCreationDate():
-'''public Date getCreationDate()
-'''
-pass
+    '''    public Date getCreationDate()
+    '''
 def withCreationDate():
-'''public KeyMetadata withCreationDate(final Date creationDate)
-'''
-pass
+    '''    public KeyMetadata withCreationDate(final Date creationDate)
+    '''
 def setEnabled():
-'''public void setEnabled(final Boolean enabled)
-'''
-pass
+    '''    public void setEnabled(final Boolean enabled)
+    '''
 def getEnabled():
-'''public Boolean getEnabled()
-'''
-pass
+    '''    public Boolean getEnabled()
+    '''
 def withEnabled():
-'''public KeyMetadata withEnabled(final Boolean enabled)
-'''
-pass
+    '''    public KeyMetadata withEnabled(final Boolean enabled)
+    '''
 def isEnabled():
-'''public Boolean isEnabled()
-'''
-pass
+    '''    public Boolean isEnabled()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def withDescription():
-'''public KeyMetadata withDescription(final String description)
-'''
-pass
+    '''    public KeyMetadata withDescription(final String description)
+    '''
 def setKeyUsage():
-'''public void setKeyUsage(final String keyUsage)
-public void setKeyUsage(final KeyUsageType keyUsage)
-'''
-pass
+    '''    public void setKeyUsage(final String keyUsage)
+    public void setKeyUsage(final KeyUsageType keyUsage)
+    '''
 def getKeyUsage():
-'''public String getKeyUsage()
-'''
-pass
+    '''    public String getKeyUsage()
+    '''
 def withKeyUsage():
-'''public KeyMetadata withKeyUsage(final String keyUsage)
-public KeyMetadata withKeyUsage(final KeyUsageType keyUsage)
-'''
-pass
+    '''    public KeyMetadata withKeyUsage(final String keyUsage)
+    public KeyMetadata withKeyUsage(final KeyUsageType keyUsage)
+    '''
 def setKeyState():
-'''public void setKeyState(final String keyState)
-public void setKeyState(final KeyState keyState)
-'''
-pass
+    '''    public void setKeyState(final String keyState)
+    public void setKeyState(final KeyState keyState)
+    '''
 def getKeyState():
-'''public String getKeyState()
-'''
-pass
+    '''    public String getKeyState()
+    '''
 def withKeyState():
-'''public KeyMetadata withKeyState(final String keyState)
-public KeyMetadata withKeyState(final KeyState keyState)
-'''
-pass
+    '''    public KeyMetadata withKeyState(final String keyState)
+    public KeyMetadata withKeyState(final KeyState keyState)
+    '''
 def setDeletionDate():
-'''public void setDeletionDate(final Date deletionDate)
-'''
-pass
+    '''    public void setDeletionDate(final Date deletionDate)
+    '''
 def getDeletionDate():
-'''public Date getDeletionDate()
-'''
-pass
+    '''    public Date getDeletionDate()
+    '''
 def withDeletionDate():
-'''public KeyMetadata withDeletionDate(final Date deletionDate)
-'''
-pass
+    '''    public KeyMetadata withDeletionDate(final Date deletionDate)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public KeyMetadata clone()
-'''
-pass
+    '''    public KeyMetadata clone()
+    '''

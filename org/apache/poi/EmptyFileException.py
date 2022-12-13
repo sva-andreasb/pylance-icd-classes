@@ -1,4 +1,3 @@
 def EmptyFileException():
-'''public EmptyFileException()
-'''
-pass
+    '''    public EmptyFileException()
+    '''

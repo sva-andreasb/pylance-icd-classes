@@ -1,16 +1,12 @@
 def getServiceName():
-'''public String getServiceName()
-'''
-pass
+    '''    public String getServiceName()
+    '''
 def getMethodInfoMap():
-'''public Map<String, MethodInfo> getMethodInfoMap()
-'''
-pass
+    '''    public Map<String, MethodInfo> getMethodInfoMap()
+    '''
 def getOperationInfoMap():
-'''public Map<String, MethodInfo> getOperationInfoMap()
-'''
-pass
+    '''    public Map<String, MethodInfo> getOperationInfoMap()
+    '''
 def isAnnotated():
-'''public boolean isAnnotated()
-'''
-pass
+    '''    public boolean isAnnotated()
+    '''

@@ -1,28 +1,21 @@
 def DefaultPacketExtension():
-'''public DefaultPacketExtension(final String elementName, final String namespace)
-'''
-pass
+    '''    public DefaultPacketExtension(final String elementName, final String namespace)
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public String toXML()
-'''
-pass
+    '''    public String toXML()
+    '''
 def getNames():
-'''public synchronized Collection<String> getNames()
-'''
-pass
+    '''    public synchronized Collection<String> getNames()
+    '''
 def getValue():
-'''public synchronized String getValue(final String name)
-'''
-pass
+    '''    public synchronized String getValue(final String name)
+    '''
 def setValue():
-'''public synchronized void setValue(final String name, final String value)
-'''
-pass
+    '''    public synchronized void setValue(final String name, final String value)
+    '''

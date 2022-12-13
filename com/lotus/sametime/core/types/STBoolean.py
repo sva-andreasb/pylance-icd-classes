@@ -1,12 +1,9 @@
 def STBoolean():
-'''public STBoolean(final boolean data)
-'''
-pass
+    '''    public STBoolean(final boolean data)
+    '''
 def getValue():
-'''public boolean getValue()
-'''
-pass
+    '''    public boolean getValue()
+    '''
 def setValue():
-'''public void setValue(final boolean data)
-'''
-pass
+    '''    public void setValue(final boolean data)
+    '''

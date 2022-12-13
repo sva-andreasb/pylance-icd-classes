@@ -1,89 +1,67 @@
-COPYRIGHT = "String  \n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n""
+COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def CiTopologyViewBean():
-'''public CiTopologyViewBean()
-'''
-pass
+    '''    public CiTopologyViewBean()
+    '''
 def onReset():
-'''public void onReset()
-'''
-pass
+    '''    public void onReset()
+    '''
 def async_push_client_message():
-'''public void async_push_client_message()
-'''
-pass
+    '''    public void async_push_client_message()
+    '''
 def sendEventToClient():
-'''public void sendEventToClient(final String eventId, final String eventArg)
-'''
-pass
+    '''    public void sendEventToClient(final String eventId, final String eventArg)
+    '''
 def getPresentationOptions():
-'''public JSONObject getPresentationOptions()
-'''
-pass
+    '''    public JSONObject getPresentationOptions()
+    '''
 def filterCss():
-'''public String filterCss(String css, final MiniAppControl control)
-'''
-pass
+    '''    public String filterCss(String css, final MiniAppControl control)
+    '''
 def setupBean():
-'''public void setupBean(final WebClientSession wcs)
-'''
-pass
+    '''    public void setupBean(final WebClientSession wcs)
+    '''
 def getApplicationResource():
-'''public String getApplicationResource(final String path)
-'''
-pass
+    '''    public String getApplicationResource(final String path)
+    '''
 def getClientSession():
-'''public WebClientSession getClientSession()
-'''
-pass
+    '''    public WebClientSession getClientSession()
+    '''
 def getGloblizationData():
-'''public Map<Integer, Map<String, String>> getGloblizationData()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getGloblizationData()
+    '''
 def getConfigData():
-'''public Map<Integer, Map<String, String>> getConfigData()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getConfigData()
+    '''
 def getModelState():
-'''public Map<Integer, Map<String, String>> getModelState()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getModelState()
+    '''
 def setDepthValue():
-'''public void setDepthValue(@MXEventParam("depth") final String depthStr)
-'''
-pass
+    '''    public void setDepthValue(@MXEventParam("depth") final String depthStr)
+    '''
 def setShowImpacted():
-'''public void setShowImpacted(@MXEventParam("showImpact") final String impact)
-'''
-pass
+    '''    public void setShowImpacted(@MXEventParam("showImpact") final String impact)
+    '''
 def setDetailView():
-'''public void setDetailView(@MXEventParam("showDetail") final String detail)
-'''
-pass
+    '''    public void setDetailView(@MXEventParam("showDetail") final String detail)
+    '''
 def getAllCIs():
-'''public Map<Integer, Map<String, String>> getAllCIs()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getAllCIs()
+    '''
 def getAllClassifications():
-'''public ArrayList<String> getAllClassifications()
-'''
-pass
+    '''    public ArrayList<String> getAllClassifications()
+    '''
 def getAllRelationship():
-'''public ArrayList<String> getAllRelationship()
-'''
-pass
+    '''    public ArrayList<String> getAllRelationship()
+    '''
 def getRelatedCIs():
-'''public Map<Integer, Map<String, String>> getRelatedCIs()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getRelatedCIs()
+    '''
 def nodeCountExceeded():
-'''public boolean nodeCountExceeded()
-'''
-pass
+    '''    public boolean nodeCountExceeded()
+    '''
 def depthExceededExceeded():
-'''public boolean depthExceededExceeded()
-'''
-pass
+    '''    public boolean depthExceededExceeded()
+    '''
 def movetoadvci():
-'''public int movetoadvci()
-'''
-pass
+    '''    public int movetoadvci()
+    '''

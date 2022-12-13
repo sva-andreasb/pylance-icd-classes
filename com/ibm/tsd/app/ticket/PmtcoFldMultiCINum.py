@@ -1,8 +1,6 @@
 def PmtcoFldMultiCINum():
-'''public PmtcoFldMultiCINum(final MboValue mbv)
-'''
-pass
+    '''    public PmtcoFldMultiCINum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,16 +1,12 @@
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def waitTillCompletion():
-'''public static void waitTillCompletion()
-'''
-pass
+    '''    public static void waitTillCompletion()
+    '''
 def shutdown():
-'''public static void shutdown(final boolean now)
-'''
-pass
+    '''    public static void shutdown(final boolean now)
+    '''
 def newThread():
-'''public Thread newThread(final Runnable r)
-'''
-pass
+    '''    public Thread newThread(final Runnable r)
+    '''

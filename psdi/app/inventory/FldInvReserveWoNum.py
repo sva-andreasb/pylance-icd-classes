@@ -1,8 +1,6 @@
 def FldInvReserveWoNum():
-'''public FldInvReserveWoNum(final MboValue mbv)
-'''
-pass
+    '''    public FldInvReserveWoNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

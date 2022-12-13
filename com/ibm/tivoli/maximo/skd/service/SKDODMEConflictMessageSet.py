@@ -1,4 +1,3 @@
 def SKDODMEConflictMessageSet():
-'''public SKDODMEConflictMessageSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDODMEConflictMessageSet(final MboServerInterface ms)
+    '''

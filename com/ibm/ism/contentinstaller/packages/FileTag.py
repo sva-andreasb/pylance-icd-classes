@@ -1,32 +1,24 @@
 def FileTag():
-'''public FileTag(final BaseTag parent, final String name)
-'''
-pass
+    '''    public FileTag(final BaseTag parent, final String name)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getNonAbsolutePath():
-'''public String getNonAbsolutePath()
-'''
-pass
+    '''    public String getNonAbsolutePath()
+    '''
 def setNonAbsolutePath():
-'''public void setNonAbsolutePath(final String path)
-'''
-pass
+    '''    public void setNonAbsolutePath(final String path)
+    '''
 def getPathURI():
-'''public URI getPathURI()
-'''
-pass
+    '''    public URI getPathURI()
+    '''
 def setPathURI():
-'''public void setPathURI(final URI uri)
-'''
-pass
+    '''    public void setPathURI(final URI uri)
+    '''
 def getInputStream():
-'''public InputStream getInputStream()
-'''
-pass
+    '''    public InputStream getInputStream()
+    '''
 def getHasError():
-'''public boolean getHasError()
-'''
-pass
+    '''    public boolean getHasError()
+    '''

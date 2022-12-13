@@ -1,8 +1,6 @@
 def FldAutoPOCreation():
-'''public FldAutoPOCreation(final MboValue mbv)
-'''
-pass
+    '''    public FldAutoPOCreation(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

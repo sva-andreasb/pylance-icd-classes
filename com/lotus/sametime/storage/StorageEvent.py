@@ -4,26 +4,20 @@ STORAGE_SERVICE_UNAVAILABLE = "int  103"
 STORAGE_SERVICE_AVAILABLE = "int  104"
 STORAGE_ATTRIB_UPDATED = "int  105"
 def getRequestResult():
-'''public int getRequestResult()
-'''
-pass
+    '''    public int getRequestResult()
+    '''
 def getAttrList():
-'''public Vector getAttrList()
-'''
-pass
+    '''    public Vector getAttrList()
+    '''
 def getFailedAttrKeys():
-'''public Vector getFailedAttrKeys()
-'''
-pass
+    '''    public Vector getFailedAttrKeys()
+    '''
 def getUpdatedKeys():
-'''public int[] getUpdatedKeys()
-'''
-pass
+    '''    public int[] getUpdatedKeys()
+    '''
 def getRequestId():
-'''public Integer getRequestId()
-'''
-pass
+    '''    public Integer getRequestId()
+    '''
 def getSTUser():
-'''public STUser getSTUser()
-'''
-pass
+    '''    public STUser getSTUser()
+    '''

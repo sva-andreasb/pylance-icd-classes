@@ -1,16 +1,12 @@
 def GraphMemBase():
-'''public GraphMemBase(final ReificationStyle style)
-'''
-pass
+    '''    public GraphMemBase(final ReificationStyle style)
+    '''
 def openAgain():
-'''public GraphMemBase openAgain()
-'''
-pass
+    '''    public GraphMemBase openAgain()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getBulkUpdateHandler():
-'''public BulkUpdateHandler getBulkUpdateHandler()
-'''
-pass
+    '''    public BulkUpdateHandler getBulkUpdateHandler()
+    '''

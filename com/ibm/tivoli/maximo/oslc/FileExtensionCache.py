@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final FileExtensionCache getInstance()
-'''
-pass
+    '''    public static final FileExtensionCache getInstance()
+    '''
 def forFileName():
-'''public String forFileName(final String fileName)
-'''
-pass
+    '''    public String forFileName(final String fileName)
+    '''
 def forFileExtension():
-'''public String forFileExtension(final String fileExtension)
-'''
-pass
+    '''    public String forFileExtension(final String fileExtension)
+    '''
 def getDefaultContentType():
-'''public String getDefaultContentType()
-'''
-pass
+    '''    public String getDefaultContentType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''

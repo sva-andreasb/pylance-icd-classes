@@ -1,20 +1,15 @@
 def ScriptDesc():
-'''public ScriptDesc()
-'''
-pass
+    '''    public ScriptDesc()
+    '''
 def read():
-'''public static ScriptDesc read(final String filename)
-'''
-pass
+    '''    public static ScriptDesc read(final String filename)
+    '''
 def run():
-'''public static void run(final String filename)
-'''
-pass
+    '''    public static void run(final String filename)
+    '''
 def add():
-'''public void add(final CmdDesc step)
-'''
-pass
+    '''    public void add(final CmdDesc step)
+    '''
 def getSteps():
-'''public List<CmdDesc> getSteps()
-'''
-pass
+    '''    public List<CmdDesc> getSteps()
+    '''

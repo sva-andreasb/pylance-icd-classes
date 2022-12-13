@@ -1,12 +1,9 @@
 def VisibleTimeChangedEvent():
-'''public VisibleTimeChangedEvent(final IlvTimeScrollable ilvTimeScrollable, final Date date, final boolean a)
-'''
-pass
+    '''    public VisibleTimeChangedEvent(final IlvTimeScrollable ilvTimeScrollable, final Date date, final boolean a)
+    '''
 def isAdjusting():
-'''public boolean isAdjusting()
-'''
-pass
+    '''    public boolean isAdjusting()
+    '''
 def paramString():
-'''public String paramString()
-'''
-pass
+    '''    public String paramString()
+    '''

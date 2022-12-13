@@ -1,4 +1,3 @@
 def getContents():
-'''public synchronized Object[][] getContents()
-'''
-pass
+    '''    public synchronized Object[][] getContents()
+    '''

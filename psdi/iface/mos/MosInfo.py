@@ -1,132 +1,99 @@
 def getQueryApps():
-'''public String[] getQueryApps()
-'''
-pass
+    '''    public String[] getQueryApps()
+    '''
 def setQueryApps():
-'''public void setQueryApps(final String[] queryApps)
-'''
-pass
+    '''    public void setQueryApps(final String[] queryApps)
+    '''
 def getAutoPagingThreshold():
-'''public int getAutoPagingThreshold()
-'''
-pass
+    '''    public int getAutoPagingThreshold()
+    '''
 def setAutoPagingThreshold():
-'''public void setAutoPagingThreshold(final int autoPagingThreshold)
-'''
-pass
+    '''    public void setAutoPagingThreshold(final int autoPagingThreshold)
+    '''
 def getTimeLineAttr():
-'''public String getTimeLineAttr()
-'''
-pass
+    '''    public String getTimeLineAttr()
+    '''
 def setTimeLineAttr():
-'''public void setTimeLineAttr(final String timeLineAttr)
-'''
-pass
+    '''    public void setTimeLineAttr(final String timeLineAttr)
+    '''
 def getApp():
-'''public String getApp()
-'''
-pass
+    '''    public String getApp()
+    '''
 def setApp():
-'''public void setApp(final String app)
-'''
-pass
+    '''    public void setApp(final String app)
+    '''
 def MosInfo():
-'''public MosInfo(final String intObectName)
-'''
-pass
+    '''    public MosInfo(final String intObectName)
+    '''
 def getIntObjectName():
-'''public String getIntObjectName()
-'''
-pass
+    '''    public String getIntObjectName()
+    '''
 def getMosDetailList():
-'''public List<MosDetailInfo> getMosDetailList()
-'''
-pass
+    '''    public List<MosDetailInfo> getMosDetailList()
+    '''
 def getUseWithApp():
-'''public String getUseWithApp()
-'''
-pass
+    '''    public String getUseWithApp()
+    '''
 def getAuthApp():
-'''public String getAuthApp()
-'''
-pass
+    '''    public String getAuthApp()
+    '''
 def getDefClass():
-'''public String getDefClass()
-'''
-pass
+    '''    public String getDefClass()
+    '''
 def getProcClass():
-'''public String getProcClass()
-'''
-pass
+    '''    public String getProcClass()
+    '''
 def getModule():
-'''public String getModule()
-'''
-pass
+    '''    public String getModule()
+    '''
 def isQueryOnly():
-'''public boolean isQueryOnly()
-'''
-pass
+    '''    public boolean isQueryOnly()
+    '''
 def isInternal():
-'''public boolean isInternal()
-'''
-pass
+    '''    public boolean isInternal()
+    '''
 def isFlatSupported():
-'''public boolean isFlatSupported()
-'''
-pass
+    '''    public boolean isFlatSupported()
+    '''
 def isPrimaryAPI():
-'''public boolean isPrimaryAPI()
-'''
-pass
+    '''    public boolean isPrimaryAPI()
+    '''
 def getPrimaryMosDetailInfo():
-'''public MosDetailInfo getPrimaryMosDetailInfo()
-'''
-pass
+    '''    public MosDetailInfo getPrimaryMosDetailInfo()
+    '''
 def getMosDetailInfo():
-'''public MosDetailInfo getMosDetailInfo(final String hierarchyPath)
-'''
-pass
+    '''    public MosDetailInfo getMosDetailInfo(final String hierarchyPath)
+    '''
 def loadSortedKeyInfo():
-'''public void loadSortedKeyInfo(final MosDetailInfo info)
-'''
-pass
+    '''    public void loadSortedKeyInfo(final MosDetailInfo info)
+    '''
 def getSortedKeyList():
-'''public List<MboValueInfo> getSortedKeyList()
-'''
-pass
+    '''    public List<MboValueInfo> getSortedKeyList()
+    '''
 def isSelfReferencing():
-'''public boolean isSelfReferencing()
-'''
-pass
+    '''    public boolean isSelfReferencing()
+    '''
 def hasAliasConflict():
-'''public boolean hasAliasConflict()
-'''
-pass
+    '''    public boolean hasAliasConflict()
+    '''
 def getSearchAttributes():
-'''public String getSearchAttributes()
-'''
-pass
+    '''    public String getSearchAttributes()
+    '''
 def setLoadQueryFromApps():
-'''public void setLoadQueryFromApps(final boolean loadQueryFromApps)
-'''
-pass
+    '''    public void setLoadQueryFromApps(final boolean loadQueryFromApps)
+    '''
 def isLoadQueryFromApps():
-'''public boolean isLoadQueryFromApps()
-'''
-pass
+    '''    public boolean isLoadQueryFromApps()
+    '''
 def getRestrictWhere():
-'''public String getRestrictWhere()
-'''
-pass
+    '''    public String getRestrictWhere()
+    '''
 def setRestrictWhere():
-'''public void setRestrictWhere(final String restrictWhere)
-'''
-pass
+    '''    public void setRestrictWhere(final String restrictWhere)
+    '''
 def getTags():
-'''public String getTags()
-'''
-pass
+    '''    public String getTags()
+    '''
 def setTags():
-'''public void setTags(final String tags)
-'''
-pass
+    '''    public void setTags(final String tags)
+    '''

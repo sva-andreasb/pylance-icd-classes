@@ -1,20 +1,15 @@
 def BoBExtension():
-'''public BoBExtension(final BoBHash bobHash, final String alt, final String paragraph)
-'''
-pass
+    '''    public BoBExtension(final BoBHash bobHash, final String alt, final String paragraph)
+    '''
 def getBoBHash():
-'''public BoBHash getBoBHash()
-'''
-pass
+    '''    public BoBHash getBoBHash()
+    '''
 def getAlt():
-'''public String getAlt()
-'''
-pass
+    '''    public String getAlt()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def from():
-'''public static BoBExtension from(final Message message)
-'''
-pass
+    '''    public static BoBExtension from(final Message message)
+    '''

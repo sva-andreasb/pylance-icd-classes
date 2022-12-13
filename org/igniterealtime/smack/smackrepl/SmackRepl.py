@@ -1,4 +1,3 @@
 def init():
-'''public static void init()
-'''
-pass
+    '''    public static void init()
+    '''

@@ -1,16 +1,12 @@
 def OslcErrorInfo():
-'''public OslcErrorInfo(final String errorKey, final String errorGrp, final int httpErrorCode)
-'''
-pass
+    '''    public OslcErrorInfo(final String errorKey, final String errorGrp, final int httpErrorCode)
+    '''
 def getErrorKey():
-'''public String getErrorKey()
-'''
-pass
+    '''    public String getErrorKey()
+    '''
 def getErrorGrp():
-'''public String getErrorGrp()
-'''
-pass
+    '''    public String getErrorGrp()
+    '''
 def getHttpErrorCode():
-'''public int getHttpErrorCode()
-'''
-pass
+    '''    public int getHttpErrorCode()
+    '''

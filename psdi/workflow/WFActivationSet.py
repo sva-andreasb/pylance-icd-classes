@@ -1,4 +1,3 @@
 def WFActivationSet():
-'''public WFActivationSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WFActivationSet(final MboServerInterface ms)
+    '''

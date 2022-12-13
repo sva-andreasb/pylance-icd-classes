@@ -16,58 +16,44 @@ COLUMN_LICENSEID = "int  14"
 COLUMN_APPLICATION = "int  15"
 NUM_COLUMNS = "int  16"
 def getString():
-'''public static String getString(final String s)
-'''
-pass
+    '''    public static String getString(final String s)
+    '''
 def JlmKeyToRow():
-'''public static Object[] JlmKeyToRow(final JlmKey jlmKey)
-'''
-pass
+    '''    public static Object[] JlmKeyToRow(final JlmKey jlmKey)
+    '''
 def prettyLicenseType():
-'''public static String prettyLicenseType(final int n)
-'''
-pass
+    '''    public static String prettyLicenseType(final int n)
+    '''
 def prettyVersionName():
-'''public static String prettyVersionName(final double number)
-'''
-pass
+    '''    public static String prettyVersionName(final double number)
+    '''
 def prettyMaintenanceEnd():
-'''public static Date prettyMaintenanceEnd(final int n)
-'''
-pass
+    '''    public static Date prettyMaintenanceEnd(final int n)
+    '''
 def WellFormedKeys():
-'''public WellFormedKeys()
-'''
-pass
+    '''    public WellFormedKeys()
+    '''
 def getKeys():
-'''public JlmKey[] getKeys()
-'''
-pass
+    '''    public JlmKey[] getKeys()
+    '''
 def getPreferencesFile():
-'''public URL getPreferencesFile()
-'''
-pass
+    '''    public URL getPreferencesFile()
+    '''
 def shouldShowWarning():
-'''public boolean shouldShowWarning(final int n)
-'''
-pass
+    '''    public boolean shouldShowWarning(final int n)
+    '''
 def getHideExpireWarning1():
-'''public boolean getHideExpireWarning1()
-'''
-pass
+    '''    public boolean getHideExpireWarning1()
+    '''
 def setHideExpireWarning1():
-'''public void setHideExpireWarning1(final boolean e)
-'''
-pass
+    '''    public void setHideExpireWarning1(final boolean e)
+    '''
 def getHideExpireWarning7():
-'''public boolean getHideExpireWarning7()
-'''
-pass
+    '''    public boolean getHideExpireWarning7()
+    '''
 def setHideExpireWarning7():
-'''public void setHideExpireWarning7(final boolean f)
-'''
-pass
+    '''    public void setHideExpireWarning7(final boolean f)
+    '''
 def dialogDone():
-'''public void dialogDone(final int d)
-'''
-pass
+    '''    public void dialogDone(final int d)
+    '''

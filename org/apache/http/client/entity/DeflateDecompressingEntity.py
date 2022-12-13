@@ -1,8 +1,6 @@
 def DeflateDecompressingEntity():
-'''public DeflateDecompressingEntity(final HttpEntity entity)
-'''
-pass
+    '''    public DeflateDecompressingEntity(final HttpEntity entity)
+    '''
 def create():
-'''public InputStream create(final InputStream instream)
-'''
-pass
+    '''    public InputStream create(final InputStream instream)
+    '''

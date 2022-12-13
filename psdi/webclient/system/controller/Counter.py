@@ -1,20 +1,15 @@
 def Counter():
-'''public Counter()
-'''
-pass
+    '''    public Counter()
+    '''
 def increment():
-'''public int increment()
-'''
-pass
+    '''    public int increment()
+    '''
 def decrement():
-'''public int decrement()
-'''
-pass
+    '''    public int decrement()
+    '''
 def get():
-'''public int get()
-'''
-pass
+    '''    public int get()
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

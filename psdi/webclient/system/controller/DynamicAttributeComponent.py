@@ -1,53 +1,40 @@
-DYNAMICATTRIBUTE = "String  {CLASSSPECVALUE}""
+DYNAMICATTRIBUTE = "String  \"{CLASSSPECVALUE}\""
 def DynamicAttributeComponent():
-'''public DynamicAttributeComponent()
-'''
-pass
+    '''    public DynamicAttributeComponent()
+    '''
 def hasChanged():
-'''public boolean hasChanged()
-'''
-pass
+    '''    public boolean hasChanged()
+    '''
 def isDynamicAttribute():
-'''public boolean isDynamicAttribute()
-'''
-pass
+    '''    public boolean isDynamicAttribute()
+    '''
 def getProperty():
-'''public String getProperty(final String key)
-'''
-pass
+    '''    public String getProperty(final String key)
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def needsRender():
-'''public boolean needsRender()
-'''
-pass
+    '''    public boolean needsRender()
+    '''
 def hasAnyPropertyChanged():
-'''public boolean hasAnyPropertyChanged()
-'''
-pass
+    '''    public boolean hasAnyPropertyChanged()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def resetAttribute():
-'''public void resetAttribute()
-'''
-pass
+    '''    public void resetAttribute()
+    '''
 def click():
-'''public int click()
-'''
-pass
+    '''    public int click()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''

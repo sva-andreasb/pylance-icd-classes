@@ -1,29 +1,22 @@
 def EchoXML():
-'''public EchoXML()
-'''
-pass
+    '''    public EchoXML()
+    '''
 def setFile():
-'''public void setFile(final File f)
-'''
-pass
+    '''    public void setFile(final File f)
+    '''
 def setNamespacePolicy():
-'''public void setNamespacePolicy(final NamespacePolicy n)
-'''
-pass
+    '''    public void setNamespacePolicy(final NamespacePolicy n)
+    '''
 def setAppend():
-'''public void setAppend(final boolean b)
-'''
-pass
+    '''    public void setAppend(final boolean b)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def NamespacePolicy():
-'''public NamespacePolicy()
-public NamespacePolicy(final String s)
-'''
-pass
+    '''    public NamespacePolicy()
+    public NamespacePolicy(final String s)
+    '''
 def getValues():
-'''public String[] getValues()
-'''
-pass
+    '''    public String[] getValues()
+    '''

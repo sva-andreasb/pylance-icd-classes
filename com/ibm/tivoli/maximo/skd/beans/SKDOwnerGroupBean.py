@@ -1,12 +1,9 @@
 def SKDOwnerGroupBean():
-'''public SKDOwnerGroupBean()
-'''
-pass
+    '''    public SKDOwnerGroupBean()
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(final String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''

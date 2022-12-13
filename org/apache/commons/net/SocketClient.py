@@ -1,86 +1,66 @@
-NETASCII_EOL = "String  \r\n""
+NETASCII_EOL = "String  \"\r\n\""
 def SocketClient():
-'''public SocketClient()
-'''
-pass
+    '''    public SocketClient()
+    '''
 def connect():
-'''public void connect(final InetAddress host, final int port)
-public void connect(final String hostname, final int port)
-public void connect(final InetAddress host, final int port, final InetAddress localAddr, final int localPort)
-public void connect(final String hostname, final int port, final InetAddress localAddr, final int localPort)
-public void connect(final InetAddress host)
-public void connect(final String hostname)
-'''
-pass
+    '''    public void connect(final InetAddress host, final int port)
+    public void connect(final String hostname, final int port)
+    public void connect(final InetAddress host, final int port, final InetAddress localAddr, final int localPort)
+    public void connect(final String hostname, final int port, final InetAddress localAddr, final int localPort)
+    public void connect(final InetAddress host)
+    public void connect(final String hostname)
+    '''
 def disconnect():
-'''public void disconnect()
-'''
-pass
+    '''    public void disconnect()
+    '''
 def isConnected():
-'''public boolean isConnected()
-'''
-pass
+    '''    public boolean isConnected()
+    '''
 def setDefaultPort():
-'''public void setDefaultPort(final int port)
-'''
-pass
+    '''    public void setDefaultPort(final int port)
+    '''
 def getDefaultPort():
-'''public int getDefaultPort()
-'''
-pass
+    '''    public int getDefaultPort()
+    '''
 def setDefaultTimeout():
-'''public void setDefaultTimeout(final int timeout)
-'''
-pass
+    '''    public void setDefaultTimeout(final int timeout)
+    '''
 def getDefaultTimeout():
-'''public int getDefaultTimeout()
-'''
-pass
+    '''    public int getDefaultTimeout()
+    '''
 def setSoTimeout():
-'''public void setSoTimeout(final int timeout)
-'''
-pass
+    '''    public void setSoTimeout(final int timeout)
+    '''
 def getSoTimeout():
-'''public int getSoTimeout()
-'''
-pass
+    '''    public int getSoTimeout()
+    '''
 def setTcpNoDelay():
-'''public void setTcpNoDelay(final boolean on)
-'''
-pass
+    '''    public void setTcpNoDelay(final boolean on)
+    '''
 def getTcpNoDelay():
-'''public boolean getTcpNoDelay()
-'''
-pass
+    '''    public boolean getTcpNoDelay()
+    '''
 def setSoLinger():
-'''public void setSoLinger(final boolean on, final int val)
-'''
-pass
+    '''    public void setSoLinger(final boolean on, final int val)
+    '''
 def getSoLinger():
-'''public int getSoLinger()
-'''
-pass
+    '''    public int getSoLinger()
+    '''
 def getLocalPort():
-'''public int getLocalPort()
-'''
-pass
+    '''    public int getLocalPort()
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def getRemotePort():
-'''public int getRemotePort()
-'''
-pass
+    '''    public int getRemotePort()
+    '''
 def getRemoteAddress():
-'''public InetAddress getRemoteAddress()
-'''
-pass
+    '''    public InetAddress getRemoteAddress()
+    '''
 def verifyRemote():
-'''public boolean verifyRemote(final Socket socket)
-'''
-pass
+    '''    public boolean verifyRemote(final Socket socket)
+    '''
 def setSocketFactory():
-'''public void setSocketFactory(final SocketFactory factory)
-'''
-pass
+    '''    public void setSocketFactory(final SocketFactory factory)
+    '''

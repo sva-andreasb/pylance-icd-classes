@@ -1,12 +1,9 @@
 def PlusCFldSpotCheckItemNum():
-'''public PlusCFldSpotCheckItemNum(final MboValue mbv)
-'''
-pass
+    '''    public PlusCFldSpotCheckItemNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

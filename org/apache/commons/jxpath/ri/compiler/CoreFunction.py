@@ -1,40 +1,30 @@
 def CoreFunction():
-'''public CoreFunction(final int functionCode, final Expression[] args)
-'''
-pass
+    '''    public CoreFunction(final int functionCode, final Expression[] args)
+    '''
 def getFunctionCode():
-'''public int getFunctionCode()
-'''
-pass
+    '''    public int getFunctionCode()
+    '''
 def getArg1():
-'''public Expression getArg1()
-'''
-pass
+    '''    public Expression getArg1()
+    '''
 def getArg2():
-'''public Expression getArg2()
-'''
-pass
+    '''    public Expression getArg2()
+    '''
 def getArg3():
-'''public Expression getArg3()
-'''
-pass
+    '''    public Expression getArg3()
+    '''
 def getArgumentCount():
-'''public int getArgumentCount()
-'''
-pass
+    '''    public int getArgumentCount()
+    '''
 def computeContextDependent():
-'''public boolean computeContextDependent()
-'''
-pass
+    '''    public boolean computeContextDependent()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def compute():
-'''public Object compute(final EvalContext context)
-'''
-pass
+    '''    public Object compute(final EvalContext context)
+    '''
 def computeValue():
-'''public Object computeValue(final EvalContext context)
-'''
-pass
+    '''    public Object computeValue(final EvalContext context)
+    '''

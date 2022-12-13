@@ -1,12 +1,9 @@
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def SELECT():
-'''public int SELECT()
-'''
-pass
+    '''    public int SELECT()
+    '''
 def SELECTRETURN():
-'''public int SELECTRETURN()
-'''
-pass
+    '''    public int SELECTRETURN()
+    '''

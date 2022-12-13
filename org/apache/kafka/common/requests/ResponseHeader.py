@@ -1,21 +1,16 @@
 def ResponseHeader():
-'''public ResponseHeader(final Struct struct)
-public ResponseHeader(final int correlationId)
-'''
-pass
+    '''    public ResponseHeader(final Struct struct)
+    public ResponseHeader(final int correlationId)
+    '''
 def sizeOf():
-'''public int sizeOf()
-'''
-pass
+    '''    public int sizeOf()
+    '''
 def toStruct():
-'''public Struct toStruct()
-'''
-pass
+    '''    public Struct toStruct()
+    '''
 def correlationId():
-'''public int correlationId()
-'''
-pass
+    '''    public int correlationId()
+    '''
 def parse():
-'''public static ResponseHeader parse(final ByteBuffer buffer)
-'''
-pass
+    '''    public static ResponseHeader parse(final ByteBuffer buffer)
+    '''

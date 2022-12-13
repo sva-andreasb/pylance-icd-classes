@@ -1,8 +1,6 @@
 def PmActivityChangeStatus():
-'''public PmActivityChangeStatus()
-'''
-pass
+    '''    public PmActivityChangeStatus()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''

@@ -1,4 +1,3 @@
 def build():
-'''public MatchNoDocsQuery build(final QueryNode queryNode)
-'''
-pass
+    '''    public MatchNoDocsQuery build(final QueryNode queryNode)
+    '''

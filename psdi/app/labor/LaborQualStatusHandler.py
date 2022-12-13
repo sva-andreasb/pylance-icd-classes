@@ -1,12 +1,9 @@
 def LaborQualStatusHandler():
-'''public LaborQualStatusHandler(final StatefulMbo sm)
-'''
-pass
+    '''    public LaborQualStatusHandler(final StatefulMbo sm)
+    '''
 def changeStatus():
-'''public void changeStatus(final String currentStatus, final String status, final Date asOfDate, final String memo)
-'''
-pass
+    '''    public void changeStatus(final String currentStatus, final String status, final Date asOfDate, final String memo)
+    '''
 def checkStatusChangeAuthorization():
-'''public void checkStatusChangeAuthorization(final String desiredStatus)
-'''
-pass
+    '''    public void checkStatusChangeAuthorization(final String desiredStatus)
+    '''

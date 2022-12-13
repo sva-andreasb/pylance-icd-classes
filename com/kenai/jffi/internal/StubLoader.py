@@ -1,25 +1,19 @@
 def isLoaded():
-'''public static final boolean isLoaded()
-'''
-pass
+    '''    public static final boolean isLoaded()
+    '''
 def getFailureCause():
-'''public static final Throwable getFailureCause()
-'''
-pass
+    '''    public static final Throwable getFailureCause()
+    '''
 def getCPU():
-'''public static CPU getCPU()
-'''
-pass
+    '''    public static CPU getCPU()
+    '''
 def getOS():
-'''public static OS getOS()
-'''
-pass
+    '''    public static OS getOS()
+    '''
 def getPlatformName():
-'''public static String getPlatformName()
-'''
-pass
+    '''    public static String getPlatformName()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''

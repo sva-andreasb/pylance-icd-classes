@@ -1,67 +1,51 @@
-NATIVE_ENCODING = "String  native-encoding""
-ERROR_MULTIPLE_MAPPERS = "String  Cannot define more than one mapper""
+NATIVE_ENCODING = "String  \"native-encoding\""
+ERROR_MULTIPLE_MAPPERS = "String  \"Cannot define more than one mapper\""
 def Expand():
-'''public Expand()
-'''
-pass
+    '''    public Expand()
+    '''
 def setFailOnEmptyArchive():
-'''public void setFailOnEmptyArchive(final boolean b)
-'''
-pass
+    '''    public void setFailOnEmptyArchive(final boolean b)
+    '''
 def getFailOnEmptyArchive():
-'''public boolean getFailOnEmptyArchive()
-'''
-pass
+    '''    public boolean getFailOnEmptyArchive()
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def setDest():
-'''public void setDest(final File d)
-'''
-pass
+    '''    public void setDest(final File d)
+    '''
 def setSrc():
-'''public void setSrc(final File s)
-'''
-pass
+    '''    public void setSrc(final File s)
+    '''
 def setOverwrite():
-'''public void setOverwrite(final boolean b)
-'''
-pass
+    '''    public void setOverwrite(final boolean b)
+    '''
 def addPatternset():
-'''public void addPatternset(final PatternSet set)
-'''
-pass
+    '''    public void addPatternset(final PatternSet set)
+    '''
 def addFileset():
-'''public void addFileset(final FileSet set)
-'''
-pass
+    '''    public void addFileset(final FileSet set)
+    '''
 def add():
-'''public void add(final ResourceCollection rc)
-public void add(final FileNameMapper fileNameMapper)
-'''
-pass
+    '''    public void add(final ResourceCollection rc)
+    public void add(final FileNameMapper fileNameMapper)
+    '''
 def createMapper():
-'''public Mapper createMapper()
-'''
-pass
+    '''    public Mapper createMapper()
+    '''
 def setEncoding():
-'''public void setEncoding(final String encoding)
-'''
-pass
+    '''    public void setEncoding(final String encoding)
+    '''
 def getEncoding():
-'''public String getEncoding()
-'''
-pass
+    '''    public String getEncoding()
+    '''
 def setStripAbsolutePathSpec():
-'''public void setStripAbsolutePathSpec(final boolean b)
-'''
-pass
+    '''    public void setStripAbsolutePathSpec(final boolean b)
+    '''
 def setScanForUnicodeExtraFields():
-'''public void setScanForUnicodeExtraFields(final boolean b)
-'''
-pass
+    '''    public void setScanForUnicodeExtraFields(final boolean b)
+    '''
 def getScanForUnicodeExtraFields():
-'''public boolean getScanForUnicodeExtraFields()
-'''
-pass
+    '''    public boolean getScanForUnicodeExtraFields()
+    '''

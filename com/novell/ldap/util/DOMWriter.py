@@ -1,42 +1,32 @@
 def DOMWriter():
-'''public DOMWriter()
-'''
-pass
+    '''    public DOMWriter()
+    '''
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def isRequest():
-'''public boolean isRequest()
-'''
-pass
+    '''    public boolean isRequest()
+    '''
 def writeComments():
-'''public void writeComments(final String s)
-'''
-pass
+    '''    public void writeComments(final String s)
+    '''
 def writeMessage():
-'''public void writeMessage(final LDAPMessage ldapMessage)
-'''
-pass
+    '''    public void writeMessage(final LDAPMessage ldapMessage)
+    '''
 def writeEntry():
-'''public void writeEntry(final LDAPEntry ldapEntry)
-public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
-public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array, final String s)
-'''
-pass
+    '''    public void writeEntry(final LDAPEntry ldapEntry)
+    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array)
+    public void writeEntry(final LDAPEntry ldapEntry, final LDAPControl[] array, final String s)
+    '''
 def message2Element():
-'''public Element message2Element(final LDAPMessage ldapMessage)
-'''
-pass
+    '''    public Element message2Element(final LDAPMessage ldapMessage)
+    '''
 def writeError():
-'''public void writeError(final Exception ex)
-'''
-pass
+    '''    public void writeError(final Exception ex)
+    '''
 def getRootElement():
-'''public Element getRootElement()
-'''
-pass
+    '''    public Element getRootElement()
+    '''
 def finish():
-'''public void finish()
-'''
-pass
+    '''    public void finish()
+    '''

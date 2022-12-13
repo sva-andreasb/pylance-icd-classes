@@ -1,20 +1,15 @@
 def MemberAllocation():
-'''public MemberAllocation(final String memberAddress_, final int memberPort_, final int inUseTransports_, final int freeTransports_)
-'''
-pass
+    '''    public MemberAllocation(final String memberAddress_, final int memberPort_, final int inUseTransports_, final int freeTransports_)
+    '''
 def getMemberAddress():
-'''public String getMemberAddress()
-'''
-pass
+    '''    public String getMemberAddress()
+    '''
 def getMemberPort():
-'''public int getMemberPort()
-'''
-pass
+    '''    public int getMemberPort()
+    '''
 def getInUseTransports():
-'''public int getInUseTransports()
-'''
-pass
+    '''    public int getInUseTransports()
+    '''
 def getFreeTransports():
-'''public int getFreeTransports()
-'''
-pass
+    '''    public int getFreeTransports()
+    '''

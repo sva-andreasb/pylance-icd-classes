@@ -1,16 +1,12 @@
 def DataHandlerExtImpl():
-'''public DataHandlerExtImpl(final DataHandler dataHandler, final LifecycleManager manager)
-'''
-pass
+    '''    public DataHandlerExtImpl(final DataHandler dataHandler, final LifecycleManager manager)
+    '''
 def deleteWhenReadOnce():
-'''public void deleteWhenReadOnce()
-'''
-pass
+    '''    public void deleteWhenReadOnce()
+    '''
 def purgeDataSource():
-'''public void purgeDataSource()
-'''
-pass
+    '''    public void purgeDataSource()
+    '''
 def update():
-'''public void update(final Observable o, final Object arg)
-'''
-pass
+    '''    public void update(final Observable o, final Object arg)
+    '''

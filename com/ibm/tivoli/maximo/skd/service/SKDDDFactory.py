@@ -1,18 +1,14 @@
-CACHENAME = "String  SKDDD""
+CACHENAME = "String  \"SKDDD\""
 def getInstance():
-'''public static SKDDDFactory getInstance()
-'''
-pass
+    '''    public static SKDDDFactory getInstance()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getCache():
-'''public MaximoCache getCache()
-'''
-pass
+    '''    public MaximoCache getCache()
+    '''
 def init():
-'''public void init()
-public void init(final MXServer mxs)
-'''
-pass
+    '''    public void init()
+    public void init(final MXServer mxs)
+    '''

@@ -1,12 +1,9 @@
 def SubstituteLoggerFactory():
-'''public SubstituteLoggerFactory()
-'''
-pass
+    '''    public SubstituteLoggerFactory()
+    '''
 def getLogger():
-'''public Logger getLogger(final String name)
-'''
-pass
+    '''    public Logger getLogger(final String name)
+    '''
 def getLoggerNameList():
-'''public List getLoggerNameList()
-'''
-pass
+    '''    public List getLoggerNameList()
+    '''

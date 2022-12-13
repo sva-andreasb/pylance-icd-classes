@@ -1,8 +1,6 @@
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def isCalibrationInstalled():
-'''public boolean isCalibrationInstalled()
-'''
-pass
+    '''    public boolean isCalibrationInstalled()
+    '''

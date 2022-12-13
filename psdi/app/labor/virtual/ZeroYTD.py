@@ -1,4 +1,3 @@
 def ZeroYTD():
-'''public ZeroYTD(final MboSet ms)
-'''
-pass
+    '''    public ZeroYTD(final MboSet ms)
+    '''

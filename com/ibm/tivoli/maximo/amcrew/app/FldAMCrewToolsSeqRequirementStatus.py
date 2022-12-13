@@ -1,8 +1,6 @@
 def FldAMCrewToolsSeqRequirementStatus():
-'''public FldAMCrewToolsSeqRequirementStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldAMCrewToolsSeqRequirementStatus(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

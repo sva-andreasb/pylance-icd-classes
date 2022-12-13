@@ -1,16 +1,12 @@
 def XmlErrorPrinter():
-'''public XmlErrorPrinter(final boolean noisy, final URI baseURI)
-'''
-pass
+    '''    public XmlErrorPrinter(final boolean noisy, final URI baseURI)
+    '''
 def add():
-'''public boolean add(final Object o)
-'''
-pass
+    '''    public boolean add(final Object o)
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''

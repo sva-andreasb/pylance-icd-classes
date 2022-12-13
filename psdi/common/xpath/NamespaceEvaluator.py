@@ -1,16 +1,12 @@
 def NamespaceEvaluator():
-'''public NamespaceEvaluator(final Document doc)
-'''
-pass
+    '''    public NamespaceEvaluator(final Document doc)
+    '''
 def isXMLReservedNamespace():
-'''public static boolean isXMLReservedNamespace(final Namespace ns)
-'''
-pass
+    '''    public static boolean isXMLReservedNamespace(final Namespace ns)
+    '''
 def createNsPrefixMap():
-'''public Map<String, String> createNsPrefixMap()
-'''
-pass
+    '''    public Map<String, String> createNsPrefixMap()
+    '''
 def createPrefixNsMap():
-'''public Map<String, String> createPrefixNsMap()
-'''
-pass
+    '''    public Map<String, String> createPrefixNsMap()
+    '''

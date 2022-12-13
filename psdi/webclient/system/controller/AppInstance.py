@@ -1,495 +1,373 @@
 def AppInstance():
-'''public AppInstance()
-'''
-pass
+    '''    public AppInstance()
+    '''
 def addMXJSPostEvent():
-'''public void addMXJSPostEvent(final String id, final String eval)
-'''
-pass
+    '''    public void addMXJSPostEvent(final String id, final String eval)
+    '''
 def getMXJSPostEvent():
-'''public String[] getMXJSPostEvent()
-'''
-pass
+    '''    public String[] getMXJSPostEvent()
+    '''
 def getTrackInRecents():
-'''public boolean getTrackInRecents()
-'''
-pass
+    '''    public boolean getTrackInRecents()
+    '''
 def setSkin():
-'''public void setSkin(final String skin)
-'''
-pass
+    '''    public void setSkin(final String skin)
+    '''
 def getSkin():
-'''public String getSkin()
-'''
-pass
+    '''    public String getSkin()
+    '''
 def initialize():
-'''public AppInstance initialize(final WebClientSession wcs, final AppDescriptor ad)
-'''
-pass
+    '''    public AppInstance initialize(final WebClientSession wcs, final AppDescriptor ad)
+    '''
 def checkMBOShouldBeLocked():
-'''public void checkMBOShouldBeLocked()
-'''
-pass
+    '''    public void checkMBOShouldBeLocked()
+    '''
 def createPageInstance():
-'''public PageInstance createPageInstance(final WebClientSession wcs, final Element el)
-public PageInstance createPageInstance(final WebClientSession wcs, final Element el, final boolean loadDialogEntity)
-'''
-pass
+    '''    public PageInstance createPageInstance(final WebClientSession wcs, final Element el)
+    public PageInstance createPageInstance(final WebClientSession wcs, final Element el, final boolean loadDialogEntity)
+    '''
 def pushPage():
-'''public void pushPage(final PageInstance page)
-'''
-pass
+    '''    public void pushPage(final PageInstance page)
+    '''
 def getOrigId():
-'''public String getOrigId(final String renderId)
-'''
-pass
+    '''    public String getOrigId(final String renderId)
+    '''
 def addRenderId():
-'''public void addRenderId(final String renderId, final String origId)
-'''
-pass
+    '''    public void addRenderId(final String renderId, final String origId)
+    '''
 def removeRenderId():
-'''public void removeRenderId(final String renderId)
-'''
-pass
+    '''    public void removeRenderId(final String renderId)
+    '''
 def generateStaticId():
-'''public String generateStaticId(final String id)
-'''
-pass
+    '''    public String generateStaticId(final String id)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def popPage():
-'''public PageInstance popPage(PageInstance page, final boolean removeImmediately)
-public PageInstance popPage()
-public PageInstance popPage(final PageInstance page)
-'''
-pass
+    '''    public PageInstance popPage(PageInstance page, final boolean removeImmediately)
+    public PageInstance popPage()
+    public PageInstance popPage(final PageInstance page)
+    '''
 def cleanupPoppedDialog():
-'''public void cleanupPoppedDialog()
-'''
-pass
+    '''    public void cleanupPoppedDialog()
+    '''
 def storePageBeans():
-'''public void storePageBeans(final PageInstance page)
-'''
-pass
+    '''    public void storePageBeans(final PageInstance page)
+    '''
 def clearStoredPageBeans():
-'''public void clearStoredPageBeans()
-'''
-pass
+    '''    public void clearStoredPageBeans()
+    '''
 def getAppModule():
-'''public String getAppModule()
-'''
-pass
+    '''    public String getAppModule()
+    '''
 def getAppDescriptor():
-'''public AppDescriptor getAppDescriptor()
-'''
-pass
+    '''    public AppDescriptor getAppDescriptor()
+    '''
 def getChildren():
-'''public List getChildren()
-'''
-pass
+    '''    public List getChildren()
+    '''
 def getApplicationPage():
-'''public PageInstance getApplicationPage()
-'''
-pass
+    '''    public PageInstance getApplicationPage()
+    '''
 def getCurrentPage():
-'''public PageInstance getCurrentPage()
-'''
-pass
+    '''    public PageInstance getCurrentPage()
+    '''
 def getPageStack():
-'''public Stack<PageInstance> getPageStack()
-'''
-pass
+    '''    public Stack<PageInstance> getPageStack()
+    '''
 def getPoppedDialogs():
-'''public Vector<PageInstance> getPoppedDialogs()
-'''
-pass
+    '''    public Vector<PageInstance> getPoppedDialogs()
+    '''
 def getAppBean():
-'''public DataBean getAppBean()
-'''
-pass
+    '''    public DataBean getAppBean()
+    '''
 def getAppHandlerInstance():
-'''public ControlInstance getAppHandlerInstance()
-'''
-pass
+    '''    public ControlInstance getAppHandlerInstance()
+    '''
 def getAppHandler():
-'''public ControlHandler getAppHandler()
-'''
-pass
+    '''    public ControlHandler getAppHandler()
+    '''
 def getDataBean():
-'''public DataBean getDataBean(final String beanId)
-'''
-pass
+    '''    public DataBean getDataBean(final String beanId)
+    '''
 def getResultsBean():
-'''public ResultsBean getResultsBean()
-'''
-pass
+    '''    public ResultsBean getResultsBean()
+    '''
 def setAppLinkBean():
-'''public void setAppLinkBean(final DataBean bean)
-'''
-pass
+    '''    public void setAppLinkBean(final DataBean bean)
+    '''
 def getAppLinkBean():
-'''public DataBean getAppLinkBean()
-'''
-pass
+    '''    public DataBean getAppLinkBean()
+    '''
 def onListTab():
-'''public boolean onListTab()
-'''
-pass
+    '''    public boolean onListTab()
+    '''
 def getCurrentPageId():
-'''public String getCurrentPageId()
-'''
-pass
+    '''    public String getCurrentPageId()
+    '''
 def getApp():
-'''public String getApp()
-'''
-pass
+    '''    public String getApp()
+    '''
 def getAppTitle():
-'''public String getAppTitle()
-'''
-pass
+    '''    public String getAppTitle()
+    '''
 def getAppImage():
-'''public String getAppImage()
-'''
-pass
+    '''    public String getAppImage()
+    '''
 def getBeanForApp():
-'''public DataBean getBeanForApp()
-'''
-pass
+    '''    public DataBean getBeanForApp()
+    '''
 def inAppLinkMode():
-'''public boolean inAppLinkMode()
-'''
-pass
+    '''    public boolean inAppLinkMode()
+    '''
 def setAppLinkMode():
-'''public void setAppLinkMode()
-'''
-pass
+    '''    public void setAppLinkMode()
+    '''
 def getPreviousPage():
-'''public PageInstance getPreviousPage()
-'''
-pass
+    '''    public PageInstance getPreviousPage()
+    '''
 def isRendered():
-'''public boolean isRendered()
-'''
-pass
+    '''    public boolean isRendered()
+    '''
 def setRendered():
-'''public void setRendered(final boolean b)
-'''
-pass
+    '''    public void setRendered(final boolean b)
+    '''
 def hasSaveAccess():
-'''public boolean hasSaveAccess()
-'''
-pass
+    '''    public boolean hasSaveAccess()
+    '''
 def getAppQueryOptions():
-'''public Map<String, Map<String, String>> getAppQueryOptions()
-'''
-pass
+    '''    public Map<String, Map<String, String>> getAppQueryOptions()
+    '''
 def refreshQueryMap():
-'''public void refreshQueryMap()
-'''
-pass
+    '''    public void refreshQueryMap()
+    '''
 def getAppMenuOptions():
-'''public Map<Integer, Map<String, String>> getAppMenuOptions()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getAppMenuOptions()
+    '''
 def getAppActionMenuOptions():
-'''public Map<Integer, Map<String, String>> getAppActionMenuOptions()
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getAppActionMenuOptions()
+    '''
 def showOptionForRL():
-'''public boolean showOptionForRL(final String sigopt)
-'''
-pass
+    '''    public boolean showOptionForRL(final String sigopt)
+    '''
 def getAppSearchOptions():
-'''public Map<String, Map<String, String>> getAppSearchOptions()
-public Map<String, Map<String, String>> getAppSearchOptions(final String position)
-'''
-pass
+    '''    public Map<String, Map<String, String>> getAppSearchOptions()
+    public Map<String, Map<String, String>> getAppSearchOptions(final String position)
+    '''
 def getAppToolbarOptions():
-'''public Map<Integer, Map<String, String>> getAppToolbarOptions()
-public Map<Integer, Map<String, String>> getAppToolbarOptions(final boolean filterSavePrerequsite)
-'''
-pass
+    '''    public Map<Integer, Map<String, String>> getAppToolbarOptions()
+    public Map<Integer, Map<String, String>> getAppToolbarOptions(final boolean filterSavePrerequsite)
+    '''
 def setStartupWhereClause():
-'''public void setStartupWhereClause(final String startupWhereClause)
-'''
-pass
+    '''    public void setStartupWhereClause(final String startupWhereClause)
+    '''
 def getStartupWhereClause():
-'''public String getStartupWhereClause()
-'''
-pass
+    '''    public String getStartupWhereClause()
+    '''
 def setAppStartupQueryName():
-'''public void setAppStartupQueryName(final String appStartupQueryName)
-'''
-pass
+    '''    public void setAppStartupQueryName(final String appStartupQueryName)
+    '''
 def getStartupQueryName():
-'''public String getStartupQueryName()
-'''
-pass
+    '''    public String getStartupQueryName()
+    '''
 def getUserDefaultQuery():
-'''public Map<String, String> getUserDefaultQuery()
-'''
-pass
+    '''    public Map<String, String> getUserDefaultQuery()
+    '''
 def getAppQuickSearchOptions():
-'''public Map<String, Map<String, String>> getAppQuickSearchOptions()
-'''
-pass
+    '''    public Map<String, Map<String, String>> getAppQuickSearchOptions()
+    '''
 def hasBookmarkMenuOption():
-'''public boolean hasBookmarkMenuOption()
-'''
-pass
+    '''    public boolean hasBookmarkMenuOption()
+    '''
 def applinkreturn():
-'''public int applinkreturn()
-'''
-pass
+    '''    public int applinkreturn()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def gototab():
-'''public int gototab()
-'''
-pass
+    '''    public int gototab()
+    '''
 def changetab():
-'''public int changetab()
-'''
-pass
+    '''    public int changetab()
+    '''
 def changetabcond():
-'''public int changetabcond()
-'''
-pass
+    '''    public int changetabcond()
+    '''
 def setRefreshCanvas():
-'''public void setRefreshCanvas(final boolean state)
-'''
-pass
+    '''    public void setRefreshCanvas(final boolean state)
+    '''
 def getRefreshCanvas():
-'''public boolean getRefreshCanvas()
-'''
-pass
+    '''    public boolean getRefreshCanvas()
+    '''
 def setReload():
-'''public void setReload(final boolean state)
-'''
-pass
+    '''    public void setReload(final boolean state)
+    '''
 def getReload():
-'''public boolean getReload()
-'''
-pass
+    '''    public boolean getReload()
+    '''
 def removeDataBean():
-'''public DataBean removeDataBean(final String beanId)
-'''
-pass
+    '''    public DataBean removeDataBean(final String beanId)
+    '''
 def showwfinfo():
-'''public int showwfinfo()
-'''
-pass
+    '''    public int showwfinfo()
+    '''
 def getHotkeys():
-'''public Hotkeys getHotkeys()
-'''
-pass
+    '''    public Hotkeys getHotkeys()
+    '''
 def cleanup():
-'''public void cleanup()
-'''
-pass
+    '''    public void cleanup()
+    '''
 def isSigOptionCheck():
-'''public Map<String, String> isSigOptionCheck(final WebClientEvent wce)
-public boolean isSigOptionCheck(final String sigoption)
-'''
-pass
+    '''    public Map<String, String> isSigOptionCheck(final WebClientEvent wce)
+    public boolean isSigOptionCheck(final String sigoption)
+    '''
 def openURL():
-'''public void openURL(final String url, final boolean newWindow, String windowId, final String options)
-public void openURL(final String url, final boolean newWindow)
-'''
-pass
+    '''    public void openURL(final String url, final boolean newWindow, String windowId, final String options)
+    public void openURL(final String url, final boolean newWindow)
+    '''
 def hasSigOptionAccess():
-'''public boolean hasSigOptionAccess(final String sigoption)
-'''
-pass
+    '''    public boolean hasSigOptionAccess(final String sigoption)
+    '''
 def isSigOption():
-'''public boolean isSigOption(final String sigoption)
-'''
-pass
+    '''    public boolean isSigOption(final String sigoption)
+    '''
 def allowPageEdits():
-'''public boolean allowPageEdits()
-'''
-pass
+    '''    public boolean allowPageEdits()
+    '''
 def allowEvent():
-'''public boolean allowEvent(final WebClientEvent event)
-'''
-pass
+    '''    public boolean allowEvent(final WebClientEvent event)
+    '''
 def getDesignerDialogList():
-'''public HashMap<String, PageInstance> getDesignerDialogList()
-'''
-pass
+    '''    public HashMap<String, PageInstance> getDesignerDialogList()
+    '''
 def getTabManaged():
-'''public boolean getTabManaged()
-'''
-pass
+    '''    public boolean getTabManaged()
+    '''
 def setQueryCancelMboset():
-'''public synchronized void setQueryCancelMboset(final MboSetRemote qcMboset)
-'''
-pass
+    '''    public synchronized void setQueryCancelMboset(final MboSetRemote qcMboset)
+    '''
 def getQueryCancelMboset():
-'''public synchronized MboSetRemote getQueryCancelMboset()
-'''
-pass
+    '''    public synchronized MboSetRemote getQueryCancelMboset()
+    '''
 def setQueryCancelResultsBean():
-'''public synchronized void setQueryCancelResultsBean(final DataBean qcDatabean)
-'''
-pass
+    '''    public synchronized void setQueryCancelResultsBean(final DataBean qcDatabean)
+    '''
 def getQueryCancelResultsBean():
-'''public synchronized DataBean getQueryCancelResultsBean()
-'''
-pass
+    '''    public synchronized DataBean getQueryCancelResultsBean()
+    '''
 def isdoclinkweblogic():
-'''public boolean isdoclinkweblogic()
-'''
-pass
+    '''    public boolean isdoclinkweblogic()
+    '''
 def setApphelp():
-'''public void setApphelp(final String help)
-'''
-pass
+    '''    public void setApphelp(final String help)
+    '''
 def getApphelp():
-'''public String getApphelp()
-'''
-pass
+    '''    public String getApphelp()
+    '''
 def isAsyncEnabled():
-'''public boolean isAsyncEnabled()
-'''
-pass
+    '''    public boolean isAsyncEnabled()
+    '''
 def isMobile():
-'''public boolean isMobile()
-'''
-pass
+    '''    public boolean isMobile()
+    '''
 def getEntityRelationshipModel():
-'''public EntityRelationshipModel getEntityRelationshipModel()
-'''
-pass
+    '''    public EntityRelationshipModel getEntityRelationshipModel()
+    '''
 def hasAttributeErrors():
-'''public boolean hasAttributeErrors()
-'''
-pass
+    '''    public boolean hasAttributeErrors()
+    '''
 def hasAnyErrors():
-'''public boolean hasAnyErrors()
-'''
-pass
+    '''    public boolean hasAnyErrors()
+    '''
 def setAttributeErrorList():
-'''public void setAttributeErrorList(final List<ERMAttributeError> fieldErrorList)
-'''
-pass
+    '''    public void setAttributeErrorList(final List<ERMAttributeError> fieldErrorList)
+    '''
 def stillHasAttributeError():
-'''public boolean stillHasAttributeError(final ERMAttributeError error)
-'''
-pass
+    '''    public boolean stillHasAttributeError(final ERMAttributeError error)
+    '''
 def clearErrors():
-'''public void clearErrors()
-'''
-pass
+    '''    public void clearErrors()
+    '''
 def setRedirectURL():
-'''public void setRedirectURL(String url)
-'''
-pass
+    '''    public void setRedirectURL(String url)
+    '''
 def deepRequiredEnabled():
-'''public boolean deepRequiredEnabled()
-'''
-pass
+    '''    public boolean deepRequiredEnabled()
+    '''
 def getWarningType():
-'''public int getWarningType()
-'''
-pass
+    '''    public int getWarningType()
+    '''
 def getRedirectURL():
-'''public String getRedirectURL()
-'''
-pass
+    '''    public String getRedirectURL()
+    '''
 def isReferenceApp():
-'''public boolean isReferenceApp()
-'''
-pass
+    '''    public boolean isReferenceApp()
+    '''
 def addJavaScript():
-'''public void addJavaScript(final String script)
-'''
-pass
+    '''    public void addJavaScript(final String script)
+    '''
 def propagateRequiredErrors():
-'''public MXException propagateRequiredErrors(MXException e, final List<ERMAttributeError> requiredErrorList)
-'''
-pass
+    '''    public MXException propagateRequiredErrors(MXException e, final List<ERMAttributeError> requiredErrorList)
+    '''
 def propagateRequiredException():
-'''public MXRequiredFieldException propagateRequiredException(final MXRequiredFieldException e, final List<ERMAttributeError> requireds)
-'''
-pass
+    '''    public MXRequiredFieldException propagateRequiredException(final MXRequiredFieldException e, final List<ERMAttributeError> requireds)
+    '''
 def getNavigationHistory():
-'''public NavigationHistoryStack getNavigationHistory()
-'''
-pass
+    '''    public NavigationHistoryStack getNavigationHistory()
+    '''
 def getErrorLevel():
-'''public int getErrorLevel()
-'''
-pass
+    '''    public int getErrorLevel()
+    '''
 def setRetryErrorValues():
-'''public void setRetryErrorValues(final boolean retryErrorValues)
-'''
-pass
+    '''    public void setRetryErrorValues(final boolean retryErrorValues)
+    '''
 def hasHandledRequiredFieldException():
-'''public boolean hasHandledRequiredFieldException()
-'''
-pass
+    '''    public boolean hasHandledRequiredFieldException()
+    '''
 def isSigOptionConditional():
-'''public boolean isSigOptionConditional(String sigOption)
-'''
-pass
+    '''    public boolean isSigOptionConditional(String sigOption)
+    '''
 def addErrorToMasterList():
-'''public void addErrorToMasterList(final SetValueError setValueError)
-'''
-pass
+    '''    public void addErrorToMasterList(final SetValueError setValueError)
+    '''
 def getErrorFromMasterList():
-'''public SetValueError getErrorFromMasterList(final ApplicationError appError)
-'''
-pass
+    '''    public SetValueError getErrorFromMasterList(final ApplicationError appError)
+    '''
 def removeErrorFromMasterList():
-'''public void removeErrorFromMasterList(final SetValueError setValueError)
-'''
-pass
+    '''    public void removeErrorFromMasterList(final SetValueError setValueError)
+    '''
 def getAutoFillForPage():
-'''public JSONObject getAutoFillForPage(final PageInstance page)
-'''
-pass
+    '''    public JSONObject getAutoFillForPage(final PageInstance page)
+    '''
 def getDatastoreSet():
-'''public DatastoreSet getDatastoreSet()
-'''
-pass
+    '''    public DatastoreSet getDatastoreSet()
+    '''
 def getKeyLabel():
-'''public String getKeyLabel()
-'''
-pass
+    '''    public String getKeyLabel()
+    '''
 def setRecHover():
-'''public void setRecHover(final Element rhElement, final ComponentInstance sourceComponent)
-'''
-pass
+    '''    public void setRecHover(final Element rhElement, final ComponentInstance sourceComponent)
+    '''
 def getRecHover():
-'''public RecordHover getRecHover()
-'''
-pass
+    '''    public RecordHover getRecHover()
+    '''
 def clearRecHover():
-'''public void clearRecHover()
-'''
-pass
+    '''    public void clearRecHover()
+    '''
 def isMainrecActionMenu():
-'''public boolean isMainrecActionMenu()
-'''
-pass
+    '''    public boolean isMainrecActionMenu()
+    '''
 def setListTableOrderBy():
-'''public void setListTableOrderBy(final String orderBy)
-'''
-pass
+    '''    public void setListTableOrderBy(final String orderBy)
+    '''
 def getListTableOrderBy():
-'''public String getListTableOrderBy()
-'''
-pass
+    '''    public String getListTableOrderBy()
+    '''
 def getAppIdList():
-'''public Hashtable<String, String> getAppIdList()
-'''
-pass
+    '''    public Hashtable<String, String> getAppIdList()
+    '''
 def getNextToolbarNumber():
-'''public int getNextToolbarNumber()
-'''
-pass
+    '''    public int getNextToolbarNumber()
+    '''

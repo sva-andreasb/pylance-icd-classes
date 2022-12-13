@@ -1,4 +1,3 @@
 def SfwLicenseSet():
-'''public SfwLicenseSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SfwLicenseSet(final MboServerInterface ms)
+    '''

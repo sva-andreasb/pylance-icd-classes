@@ -1,52 +1,39 @@
 def init():
-'''public static Vector init(final Connection con, final String sqlExpr)
-'''
-pass
+    '''    public static Vector init(final Connection con, final String sqlExpr)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setNeverCache():
-'''public void setNeverCache(final boolean neverCacheParam)
-'''
-pass
+    '''    public void setNeverCache(final boolean neverCacheParam)
+    '''
 def getNeverCache():
-'''public boolean getNeverCache()
-'''
-pass
+    '''    public boolean getNeverCache()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getDetail():
-'''public Object getDetail(final Object[] signature)
-'''
-pass
+    '''    public Object getDetail(final Object[] signature)
+    '''
 def contains():
-'''public boolean contains(final String site, final String org)
-'''
-pass
+    '''    public boolean contains(final String site, final String org)
+    '''
 def setDetail():
-'''public void setDetail(final String site, final String org, final Object detail)
-'''
-pass
+    '''    public void setDetail(final String site, final String org, final Object detail)
+    '''
 def needToConsiderSiteOrg():
-'''public boolean needToConsiderSiteOrg()
-'''
-pass
+    '''    public boolean needToConsiderSiteOrg()
+    '''
 def getSignature():
-'''public Object[] getSignature(final MboValue value)
-'''
-pass
+    '''    public Object[] getSignature(final MboValue value)
+    '''
 def canSignatureChangeAfterInit():
-'''public boolean canSignatureChangeAfterInit(final MboValue value)
-'''
-pass
+    '''    public boolean canSignatureChangeAfterInit(final MboValue value)
+    '''
 def isDifferentSignature():
-'''public boolean isDifferentSignature(final Object[] lastSignature, final Object[] newSignature)
-'''
-pass
+    '''    public boolean isDifferentSignature(final Object[] lastSignature, final Object[] newSignature)
+    '''
 def getCacheName():
-'''public String getCacheName()
-'''
-pass
+    '''    public String getCacheName()
+    '''

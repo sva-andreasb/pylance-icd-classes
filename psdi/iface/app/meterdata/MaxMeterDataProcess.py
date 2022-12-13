@@ -1,24 +1,18 @@
 def MaxMeterDataProcess():
-'''public MaxMeterDataProcess()
-'''
-pass
+    '''    public MaxMeterDataProcess()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules()
-'''
-pass
+    '''    public int checkBusinessRules()
+    '''
 def createMboSet():
-'''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
-'''
-pass
+    '''    public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''
 def getWorkOrderMbo():
-'''public MboSetRemote getWorkOrderMbo()
-'''
-pass
+    '''    public MboSetRemote getWorkOrderMbo()
+    '''
 def getPointData():
-'''public void getPointData()
-'''
-pass
+    '''    public void getPointData()
+    '''

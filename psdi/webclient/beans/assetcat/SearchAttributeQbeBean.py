@@ -1,28 +1,21 @@
 def qbecancel():
-'''public int qbecancel()
-'''
-pass
+    '''    public int qbecancel()
+    '''
 def attributeSearch():
-'''public String attributeSearch(final String objectName)
-'''
-pass
+    '''    public String attributeSearch(final String objectName)
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def close():
-'''public synchronized void close()
-'''
-pass
+    '''    public synchronized void close()
+    '''
 def clearSearch():
-'''public int clearSearch()
-'''
-pass
+    '''    public int clearSearch()
+    '''
 def structureChangedEvent():
-'''public synchronized void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void structureChangedEvent(final DataBean speaker)
+    '''
 def newrow():
-'''public int newrow()
-'''
-pass
+    '''    public int newrow()
+    '''

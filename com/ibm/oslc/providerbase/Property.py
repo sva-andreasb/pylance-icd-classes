@@ -1,155 +1,118 @@
 def Property():
-'''public Property()
-public Property(final String name, final ValueType valueType)
-public Property(final String name, final String value)
-'''
-pass
+    '''    public Property()
+    public Property(final String name, final ValueType valueType)
+    public Property(final String name, final String value)
+    '''
 def compareTo():
-'''public int compareTo(final Property o)
-'''
-pass
+    '''    public int compareTo(final Property o)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getAllowedValues():
-'''public String[] getAllowedValues()
-'''
-pass
+    '''    public String[] getAllowedValues()
+    '''
 def addAllowedValue():
-'''public void addAllowedValue(final String allowedValue)
-'''
-pass
+    '''    public void addAllowedValue(final String allowedValue)
+    '''
 def setAllowedValues():
-'''public void setAllowedValues(final String[] allowedValues)
-'''
-pass
+    '''    public void setAllowedValues(final String[] allowedValues)
+    '''
 def getAllowedValuesRef():
-'''public URI getAllowedValuesRef()
-'''
-pass
+    '''    public URI getAllowedValuesRef()
+    '''
 def setAllowedValuesRef():
-'''public void setAllowedValuesRef(final URI allowedValuesRef)
-public void setAllowedValuesRef(final String allowedValuesRef)
-'''
-pass
+    '''    public void setAllowedValuesRef(final URI allowedValuesRef)
+    public void setAllowedValuesRef(final String allowedValuesRef)
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String value)
-'''
-pass
+    '''    public void setDefaultValue(final String value)
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''
 def setValue():
-'''public void setValue(final String value)
-'''
-pass
+    '''    public void setValue(final String value)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String description)
-'''
-pass
+    '''    public void setDescription(final String description)
+    '''
 def isHidden():
-'''public Boolean isHidden()
-'''
-pass
+    '''    public Boolean isHidden()
+    '''
 def setHidden():
-'''public void setHidden(final Boolean hidden)
-'''
-pass
+    '''    public void setHidden(final Boolean hidden)
+    '''
 def getMaxSize():
-'''public Integer getMaxSize()
-'''
-pass
+    '''    public Integer getMaxSize()
+    '''
 def setMaxSize():
-'''public void setMaxSize(final Integer maxSize)
-'''
-pass
+    '''    public void setMaxSize(final Integer maxSize)
+    '''
 def getMinSize():
-'''public Integer getMinSize()
-'''
-pass
+    '''    public Integer getMinSize()
+    '''
 def setMinSize():
-'''public void setMinSize(final Integer minSize)
-'''
-pass
+    '''    public void setMinSize(final Integer minSize)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def getOccurs():
-'''public URI getOccurs()
-'''
-pass
+    '''    public URI getOccurs()
+    '''
 def setOccurs():
-'''public void setOccurs(final Occurs occurs)
-public void setOccurs(final String occurs)
-public void setOccurs(final URI occurs)
-'''
-pass
+    '''    public void setOccurs(final Occurs occurs)
+    public void setOccurs(final String occurs)
+    public void setOccurs(final URI occurs)
+    '''
 def isPassword():
-'''public Boolean isPassword()
-'''
-pass
+    '''    public Boolean isPassword()
+    '''
 def setPassword():
-'''public void setPassword(final Boolean value)
-'''
-pass
+    '''    public void setPassword(final Boolean value)
+    '''
 def isReadOnly():
-'''public Boolean isReadOnly()
-'''
-pass
+    '''    public Boolean isReadOnly()
+    '''
 def setReadOnly():
-'''public void setReadOnly(final Boolean value)
-'''
-pass
+    '''    public void setReadOnly(final Boolean value)
+    '''
 def isRequired():
-'''public Boolean isRequired()
-'''
-pass
+    '''    public Boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final Boolean required)
-'''
-pass
+    '''    public void setRequired(final Boolean required)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def isUserConfigurable():
-'''public Boolean isUserConfigurable()
-'''
-pass
+    '''    public Boolean isUserConfigurable()
+    '''
 def setUserConfigurable():
-'''public void setUserConfigurable(final Boolean value)
-'''
-pass
+    '''    public void setUserConfigurable(final Boolean value)
+    '''
 def getValueType():
-'''public URI getValueType()
-'''
-pass
+    '''    public URI getValueType()
+    '''
 def setValueType():
-'''public void setValueType(final ValueType valueType)
-public void setValueType(final String valueType)
-public void setValueType(final URI valueType)
-'''
-pass
+    '''    public void setValueType(final ValueType valueType)
+    public void setValueType(final String valueType)
+    public void setValueType(final URI valueType)
+    '''

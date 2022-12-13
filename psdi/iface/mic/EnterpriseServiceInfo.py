@@ -1,124 +1,93 @@
 def EnterpriseServiceInfo():
-'''public EnterpriseServiceInfo()
-'''
-pass
+    '''    public EnterpriseServiceInfo()
+    '''
 def getMosName():
-'''public String getMosName()
-'''
-pass
+    '''    public String getMosName()
+    '''
 def getIfaceName():
-'''public String getIfaceName()
-'''
-pass
+    '''    public String getIfaceName()
+    '''
 def getIfaceType():
-'''public String getIfaceType()
-'''
-pass
+    '''    public String getIfaceType()
+    '''
 def useExternalSchema():
-'''public boolean useExternalSchema()
-'''
-pass
+    '''    public boolean useExternalSchema()
+    '''
 def getSchemaLocation():
-'''public String getSchemaLocation()
-'''
-pass
+    '''    public String getSchemaLocation()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def isReplyRequired():
-'''public boolean isReplyRequired()
-'''
-pass
+    '''    public boolean isReplyRequired()
+    '''
 def isPrimaryMos():
-'''public boolean isPrimaryMos()
-'''
-pass
+    '''    public boolean isPrimaryMos()
+    '''
 def getReplySchemaLocation():
-'''public String getReplySchemaLocation()
-'''
-pass
+    '''    public String getReplySchemaLocation()
+    '''
 def getReplyElementName():
-'''public String getReplyElementName()
-'''
-pass
+    '''    public String getReplyElementName()
+    '''
 def getExitClassName():
-'''public String getExitClassName()
-'''
-pass
+    '''    public String getExitClassName()
+    '''
 def getUserExitClassName():
-'''public String getUserExitClassName()
-'''
-pass
+    '''    public String getUserExitClassName()
+    '''
 def getMapName():
-'''public String getMapName()
-'''
-pass
+    '''    public String getMapName()
+    '''
 def getReplyExitClass():
-'''public String getReplyExitClass()
-'''
-pass
+    '''    public String getReplyExitClass()
+    '''
 def getReplyUserExitClass():
-'''public String getReplyUserExitClass()
-'''
-pass
+    '''    public String getReplyUserExitClass()
+    '''
 def getReplyMapName():
-'''public String getReplyMapName()
-'''
-pass
+    '''    public String getReplyMapName()
+    '''
 def getIfaceTbName():
-'''public String getIfaceTbName()
-'''
-pass
+    '''    public String getIfaceTbName()
+    '''
 def getMessageType():
-'''public String getMessageType()
-'''
-pass
+    '''    public String getMessageType()
+    '''
 def getIfacecontrol():
-'''public String getIfacecontrol()
-'''
-pass
+    '''    public String getIfacecontrol()
+    '''
 def getIfaceMapOrder():
-'''public int getIfaceMapOrder()
-'''
-pass
+    '''    public int getIfaceMapOrder()
+    '''
 def getInterpreterClassName():
-'''public String getInterpreterClassName()
-'''
-pass
+    '''    public String getInterpreterClassName()
+    '''
 def getSplitTag():
-'''public String getSplitTag()
-'''
-pass
+    '''    public String getSplitTag()
+    '''
 def getNamespaces():
-'''public Map<String, String> getNamespaces()
-'''
-pass
+    '''    public Map<String, String> getNamespaces()
+    '''
 def addTypeProperty():
-'''public void addTypeProperty(final int isXMLTag, final String param, final String value)
-'''
-pass
+    '''    public void addTypeProperty(final int isXMLTag, final String param, final String value)
+    '''
 def getInterpreter():
-'''public synchronized Interpreter getInterpreter()
-'''
-pass
+    '''    public synchronized Interpreter getInterpreter()
+    '''
 def getTypeProperties():
-'''public List<EnterpriseServicePropInfo> getTypeProperties()
-'''
-pass
+    '''    public List<EnterpriseServicePropInfo> getTypeProperties()
+    '''
 def isTxnTrkEnabled():
-'''public boolean isTxnTrkEnabled()
-'''
-pass
+    '''    public boolean isTxnTrkEnabled()
+    '''
 def isStoreMsg():
-'''public boolean isStoreMsg()
-'''
-pass
+    '''    public boolean isStoreMsg()
+    '''
 def getExtMsgIDField():
-'''public String getExtMsgIDField()
-'''
-pass
+    '''    public String getExtMsgIDField()
+    '''
 def getSearchField():
-'''public String getSearchField()
-'''
-pass
+    '''    public String getSearchField()
+    '''

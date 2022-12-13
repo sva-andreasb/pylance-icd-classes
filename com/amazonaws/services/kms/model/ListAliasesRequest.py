@@ -1,40 +1,30 @@
 def setLimit():
-'''public void setLimit(final Integer limit)
-'''
-pass
+    '''    public void setLimit(final Integer limit)
+    '''
 def getLimit():
-'''public Integer getLimit()
-'''
-pass
+    '''    public Integer getLimit()
+    '''
 def withLimit():
-'''public ListAliasesRequest withLimit(final Integer limit)
-'''
-pass
+    '''    public ListAliasesRequest withLimit(final Integer limit)
+    '''
 def setMarker():
-'''public void setMarker(final String marker)
-'''
-pass
+    '''    public void setMarker(final String marker)
+    '''
 def getMarker():
-'''public String getMarker()
-'''
-pass
+    '''    public String getMarker()
+    '''
 def withMarker():
-'''public ListAliasesRequest withMarker(final String marker)
-'''
-pass
+    '''    public ListAliasesRequest withMarker(final String marker)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def clone():
-'''public ListAliasesRequest clone()
-'''
-pass
+    '''    public ListAliasesRequest clone()
+    '''

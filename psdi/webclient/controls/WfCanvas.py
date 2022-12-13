@@ -1,80 +1,60 @@
 def WfCanvas():
-'''public WfCanvas()
-'''
-pass
+    '''    public WfCanvas()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getAppletVisible():
-'''public boolean getAppletVisible()
-'''
-pass
+    '''    public boolean getAppletVisible()
+    '''
 def setAppletVisible():
-'''public void setAppletVisible(final boolean vis)
-'''
-pass
+    '''    public void setAppletVisible(final boolean vis)
+    '''
 def getRefreshVisibility():
-'''public boolean getRefreshVisibility()
-'''
-pass
+    '''    public boolean getRefreshVisibility()
+    '''
 def setRefreshVisibility():
-'''public void setRefreshVisibility(final boolean vis)
-'''
-pass
+    '''    public void setRefreshVisibility(final boolean vis)
+    '''
 def newscale():
-'''public int newscale()
-'''
-pass
+    '''    public int newscale()
+    '''
 def showerror():
-'''public int showerror()
-'''
-pass
+    '''    public int showerror()
+    '''
 def checkVisibility():
-'''public int checkVisibility()
-'''
-pass
+    '''    public int checkVisibility()
+    '''
 def acceptselect():
-'''public int acceptselect()
-'''
-pass
+    '''    public int acceptselect()
+    '''
 def getError():
-'''public String getError()
-'''
-pass
+    '''    public String getError()
+    '''
 def setError():
-'''public void setError(final String error)
-'''
-pass
+    '''    public void setError(final String error)
+    '''
 def getProcessId():
-'''public String getProcessId()
-'''
-pass
+    '''    public String getProcessId()
+    '''
 def setProcessId():
-'''public void setProcessId(final String processId)
-'''
-pass
+    '''    public void setProcessId(final String processId)
+    '''
 def updateapplet():
-'''public int updateapplet()
-'''
-pass
+    '''    public int updateapplet()
+    '''
 def isSetCursor():
-'''public boolean isSetCursor()
-'''
-pass
+    '''    public boolean isSetCursor()
+    '''
 def setSetCursor():
-'''public void setSetCursor(final boolean setCursor)
-'''
-pass
+    '''    public void setSetCursor(final boolean setCursor)
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''

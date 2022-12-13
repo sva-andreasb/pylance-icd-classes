@@ -1,4 +1,3 @@
 def SKDExtraCapCraftViewSet():
-'''public SKDExtraCapCraftViewSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDExtraCapCraftViewSet(final MboServerInterface ms)
+    '''

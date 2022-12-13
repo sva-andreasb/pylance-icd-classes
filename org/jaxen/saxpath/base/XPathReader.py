@@ -1,16 +1,12 @@
 def XPathReader():
-'''public XPathReader()
-'''
-pass
+    '''    public XPathReader()
+    '''
 def setXPathHandler():
-'''public void setXPathHandler(final XPathHandler handler)
-'''
-pass
+    '''    public void setXPathHandler(final XPathHandler handler)
+    '''
 def getXPathHandler():
-'''public XPathHandler getXPathHandler()
-'''
-pass
+    '''    public XPathHandler getXPathHandler()
+    '''
 def parse():
-'''public void parse(final String xpath)
-'''
-pass
+    '''    public void parse(final String xpath)
+    '''

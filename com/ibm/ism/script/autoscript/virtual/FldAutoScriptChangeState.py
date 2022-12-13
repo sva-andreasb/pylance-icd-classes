@@ -1,4 +1,3 @@
 def FldAutoScriptChangeState():
-'''public FldAutoScriptChangeState(final MboValue mbv)
-'''
-pass
+    '''    public FldAutoScriptChangeState(final MboValue mbv)
+    '''

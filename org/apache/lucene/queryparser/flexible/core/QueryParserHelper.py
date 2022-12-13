@@ -1,40 +1,30 @@
 def QueryParserHelper():
-'''public QueryParserHelper(final QueryConfigHandler queryConfigHandler, final SyntaxParser syntaxParser, final QueryNodeProcessor processor, final QueryBuilder builder)
-'''
-pass
+    '''    public QueryParserHelper(final QueryConfigHandler queryConfigHandler, final SyntaxParser syntaxParser, final QueryNodeProcessor processor, final QueryBuilder builder)
+    '''
 def getQueryNodeProcessor():
-'''public QueryNodeProcessor getQueryNodeProcessor()
-'''
-pass
+    '''    public QueryNodeProcessor getQueryNodeProcessor()
+    '''
 def setQueryNodeProcessor():
-'''public void setQueryNodeProcessor(final QueryNodeProcessor processor)
-'''
-pass
+    '''    public void setQueryNodeProcessor(final QueryNodeProcessor processor)
+    '''
 def setSyntaxParser():
-'''public void setSyntaxParser(final SyntaxParser syntaxParser)
-'''
-pass
+    '''    public void setSyntaxParser(final SyntaxParser syntaxParser)
+    '''
 def setQueryBuilder():
-'''public void setQueryBuilder(final QueryBuilder queryBuilder)
-'''
-pass
+    '''    public void setQueryBuilder(final QueryBuilder queryBuilder)
+    '''
 def getQueryConfigHandler():
-'''public QueryConfigHandler getQueryConfigHandler()
-'''
-pass
+    '''    public QueryConfigHandler getQueryConfigHandler()
+    '''
 def getQueryBuilder():
-'''public QueryBuilder getQueryBuilder()
-'''
-pass
+    '''    public QueryBuilder getQueryBuilder()
+    '''
 def getSyntaxParser():
-'''public SyntaxParser getSyntaxParser()
-'''
-pass
+    '''    public SyntaxParser getSyntaxParser()
+    '''
 def setQueryConfigHandler():
-'''public void setQueryConfigHandler(final QueryConfigHandler config)
-'''
-pass
+    '''    public void setQueryConfigHandler(final QueryConfigHandler config)
+    '''
 def parse():
-'''public Object parse(final String query, final String defaultField)
-'''
-pass
+    '''    public Object parse(final String query, final String defaultField)
+    '''

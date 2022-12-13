@@ -1,12 +1,9 @@
 def FldNamedUsersPersonID():
-'''public FldNamedUsersPersonID(final MboValue mbv)
-'''
-pass
+    '''    public FldNamedUsersPersonID(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

@@ -1,54 +1,41 @@
 sid = "short  128"
 def GutsRecord():
-'''public GutsRecord()
-public GutsRecord(final RecordInputStream in)
-'''
-pass
+    '''    public GutsRecord()
+    public GutsRecord(final RecordInputStream in)
+    '''
 def setLeftRowGutter():
-'''public void setLeftRowGutter(final short gut)
-'''
-pass
+    '''    public void setLeftRowGutter(final short gut)
+    '''
 def setTopColGutter():
-'''public void setTopColGutter(final short gut)
-'''
-pass
+    '''    public void setTopColGutter(final short gut)
+    '''
 def setRowLevelMax():
-'''public void setRowLevelMax(final short max)
-'''
-pass
+    '''    public void setRowLevelMax(final short max)
+    '''
 def setColLevelMax():
-'''public void setColLevelMax(final short max)
-'''
-pass
+    '''    public void setColLevelMax(final short max)
+    '''
 def getLeftRowGutter():
-'''public short getLeftRowGutter()
-'''
-pass
+    '''    public short getLeftRowGutter()
+    '''
 def getTopColGutter():
-'''public short getTopColGutter()
-'''
-pass
+    '''    public short getTopColGutter()
+    '''
 def getRowLevelMax():
-'''public short getRowLevelMax()
-'''
-pass
+    '''    public short getRowLevelMax()
+    '''
 def getColLevelMax():
-'''public short getColLevelMax()
-'''
-pass
+    '''    public short getColLevelMax()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def serialize():
-'''public void serialize(final LittleEndianOutput out)
-'''
-pass
+    '''    public void serialize(final LittleEndianOutput out)
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def clone():
-'''public GutsRecord clone()
-'''
-pass
+    '''    public GutsRecord clone()
+    '''

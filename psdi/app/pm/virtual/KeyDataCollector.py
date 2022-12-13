@@ -1,33 +1,25 @@
 def KeyDataCollector():
-'''public KeyDataCollector(final MboRemote singleton)
-public KeyDataCollector(final MboSetRemote set)
-'''
-pass
+    '''    public KeyDataCollector(final MboRemote singleton)
+    public KeyDataCollector(final MboSetRemote set)
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def getRepairFacilityFields():
-'''public PMRepairFacilityFields getRepairFacilityFields(final Object keyValues)
-'''
-pass
+    '''    public PMRepairFacilityFields getRepairFacilityFields(final Object keyValues)
+    '''
 def PMRepairFacilityFields():
-'''public PMRepairFacilityFields(final MboRemote pm)
-'''
-pass
+    '''    public PMRepairFacilityFields(final MboRemote pm)
+    '''
 def getRepairFacilitySiteID():
-'''public String getRepairFacilitySiteID()
-'''
-pass
+    '''    public String getRepairFacilitySiteID()
+    '''
 def getRepairFacility():
-'''public String getRepairFacility()
-'''
-pass
+    '''    public String getRepairFacility()
+    '''
 def useAssetDefaultRepairFacility():
-'''public boolean useAssetDefaultRepairFacility()
-'''
-pass
+    '''    public boolean useAssetDefaultRepairFacility()
+    '''

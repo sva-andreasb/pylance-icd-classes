@@ -1,53 +1,41 @@
 def BulletinBoardCache():
-'''public BulletinBoardCache()
-'''
-pass
+    '''    public BulletinBoardCache()
+    '''
 def init():
-'''public void init()
-public void init(final MXServer mxserver)
-'''
-pass
+    '''    public void init()
+    public void init(final MXServer mxserver)
+    '''
 def getValidMessagesCount():
-'''public int getValidMessagesCount()
-'''
-pass
+    '''    public int getValidMessagesCount()
+    '''
 def getBBSetName():
-'''public String getBBSetName()
-'''
-pass
+    '''    public String getBBSetName()
+    '''
 def getResultSetAttributes():
-'''public Vector<String[]> getResultSetAttributes(final boolean reload)
-public Vector<String[]> getResultSetAttributes()
-public Vector getResultSetAttributes(final String isTrackViewedUnViewed)
-'''
-pass
+    '''    public Vector<String[]> getResultSetAttributes(final boolean reload)
+    public Vector<String[]> getResultSetAttributes()
+    public Vector getResultSetAttributes(final String isTrackViewedUnViewed)
+    '''
 def getValidMessages():
-'''public List getValidMessages(final boolean reload)
-public List getValidMessages()
-'''
-pass
+    '''    public List getValidMessages(final boolean reload)
+    public List getValidMessages()
+    '''
 def getViewedMessages():
-'''public List getViewedMessages(final String user)
-'''
-pass
+    '''    public List getViewedMessages(final String user)
+    '''
 def getBBMSgStatusCount():
-'''public int getBBMSgStatusCount()
-'''
-pass
+    '''    public int getBBMSgStatusCount()
+    '''
 def reload():
-'''public void reload()
-public void reload(final String key)
-'''
-pass
+    '''    public void reload()
+    public void reload(final String key)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setCurrentUserInfo():
-'''public void setCurrentUserInfo(final UserInfo info)
-'''
-pass
+    '''    public void setCurrentUserInfo(final UserInfo info)
+    '''
 def getCurrentUserInfo():
-'''public UserInfo getCurrentUserInfo()
-'''
-pass
+    '''    public UserInfo getCurrentUserInfo()
+    '''

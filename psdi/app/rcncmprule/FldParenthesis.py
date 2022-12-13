@@ -1,8 +1,6 @@
 def FldParenthesis():
-'''public FldParenthesis(final MboValue mbv)
-'''
-pass
+    '''    public FldParenthesis(final MboValue mbv)
+    '''
 def validateParenthesis():
-'''public void validateParenthesis(final char parenthesisType)
-'''
-pass
+    '''    public void validateParenthesis(final char parenthesisType)
+    '''

@@ -1,72 +1,54 @@
 def SignatureInfo():
-'''public SignatureInfo()
-'''
-pass
+    '''    public SignatureInfo()
+    '''
 def getSignatureConfig():
-'''public SignatureConfig getSignatureConfig()
-'''
-pass
+    '''    public SignatureConfig getSignatureConfig()
+    '''
 def setSignatureConfig():
-'''public void setSignatureConfig(final SignatureConfig signatureConfig)
-'''
-pass
+    '''    public void setSignatureConfig(final SignatureConfig signatureConfig)
+    '''
 def verifySignature():
-'''public boolean verifySignature()
-'''
-pass
+    '''    public boolean verifySignature()
+    '''
 def confirmSignature():
-'''public void confirmSignature()
-'''
-pass
+    '''    public void confirmSignature()
+    '''
 def signDigest():
-'''public byte[] signDigest(final byte[] digest)
-'''
-pass
+    '''    public byte[] signDigest(final byte[] digest)
+    '''
 def getSignatureParts():
-'''public Iterable<SignaturePart> getSignatureParts()
-'''
-pass
+    '''    public Iterable<SignaturePart> getSignatureParts()
+    '''
 def iterator():
-'''public Iterator<SignaturePart> iterator()
-'''
-pass
+    '''    public Iterator<SignaturePart> iterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public SignaturePart next()
-'''
-pass
+    '''    public SignaturePart next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def preSign():
-'''public DigestInfo preSign(final Document document, final List<DigestInfo> digestInfos)
-'''
-pass
+    '''    public DigestInfo preSign(final Document document, final List<DigestInfo> digestInfos)
+    '''
 def postSign():
-'''public void postSign(final Document document, final byte[] signatureValue)
-'''
-pass
+    '''    public void postSign(final Document document, final byte[] signatureValue)
+    '''
 def getPackagePart():
-'''public PackagePart getPackagePart()
-'''
-pass
+    '''    public PackagePart getPackagePart()
+    '''
 def getSigner():
-'''public X509Certificate getSigner()
-'''
-pass
+    '''    public X509Certificate getSigner()
+    '''
 def getCertChain():
-'''public List<X509Certificate> getCertChain()
-'''
-pass
+    '''    public List<X509Certificate> getCertChain()
+    '''
 def getSignatureDocument():
-'''public SignatureDocument getSignatureDocument()
-'''
-pass
+    '''    public SignatureDocument getSignatureDocument()
+    '''
 def validate():
-'''public boolean validate()
-'''
-pass
+    '''    public boolean validate()
+    '''

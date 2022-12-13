@@ -1,4 +1,3 @@
 def BudgetRuleProcTransSet():
-'''public BudgetRuleProcTransSet(final MboServerInterface ms)
-'''
-pass
+    '''    public BudgetRuleProcTransSet(final MboServerInterface ms)
+    '''

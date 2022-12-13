@@ -1,44 +1,33 @@
 def WMLAElementImpl():
-'''public WMLAElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
-'''
-pass
+    '''    public WMLAElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''
 def setHref():
-'''public void setHref(final String s)
-'''
-pass
+    '''    public void setHref(final String s)
+    '''
 def getHref():
-'''public String getHref()
-'''
-pass
+    '''    public String getHref()
+    '''
 def setClassName():
-'''public void setClassName(final String s)
-'''
-pass
+    '''    public void setClassName(final String s)
+    '''
 def getClassName():
-'''public String getClassName()
-'''
-pass
+    '''    public String getClassName()
+    '''
 def setXmlLang():
-'''public void setXmlLang(final String s)
-'''
-pass
+    '''    public void setXmlLang(final String s)
+    '''
 def getXmlLang():
-'''public String getXmlLang()
-'''
-pass
+    '''    public String getXmlLang()
+    '''
 def setTitle():
-'''public void setTitle(final String s)
-'''
-pass
+    '''    public void setTitle(final String s)
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setId():
-'''public void setId(final String s)
-'''
-pass
+    '''    public void setId(final String s)
+    '''
 def getId():
-'''public String getId()
-'''
-pass
+    '''    public String getId()
+    '''

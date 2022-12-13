@@ -1,20 +1,15 @@
 def getNode():
-'''public Node getNode()
-'''
-pass
+    '''    public Node getNode()
+    '''
 def getAppenderRef():
-'''public String getAppenderRef()
-'''
-pass
+    '''    public String getAppenderRef()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def createRoute():
-'''public static Route createRoute(@PluginAttribute("ref") final String appenderRef, @PluginAttribute("key") final String key, @PluginNode final Node node)
-'''
-pass
+    '''    public static Route createRoute(@PluginAttribute("ref") final String appenderRef, @PluginAttribute("key") final String key, @PluginNode final Node node)
+    '''

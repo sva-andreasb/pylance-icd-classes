@@ -1,8 +1,6 @@
 def setReturnAttribute():
-'''public void setReturnAttribute(final String returnAttribute)
-'''
-pass
+    '''    public void setReturnAttribute(final String returnAttribute)
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

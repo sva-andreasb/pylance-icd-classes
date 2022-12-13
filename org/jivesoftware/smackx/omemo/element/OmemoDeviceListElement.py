@@ -1,27 +1,21 @@
-DEVICE = "String  device""
-ID = "String  id""
-LIST = "String  list""
+DEVICE = "String  \"device\""
+ID = "String  \"id\""
+LIST = "String  \"list\""
 def OmemoDeviceListElement():
-'''public OmemoDeviceListElement(Set<Integer> deviceIds)
-'''
-pass
+    '''    public OmemoDeviceListElement(Set<Integer> deviceIds)
+    '''
 def getDeviceIds():
-'''public Set<Integer> getDeviceIds()
-'''
-pass
+    '''    public Set<Integer> getDeviceIds()
+    '''
 def copyDeviceIds():
-'''public Set<Integer> copyDeviceIds()
-'''
-pass
+    '''    public Set<Integer> copyDeviceIds()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def toXML():
-'''public final XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public final XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def toString():
-'''public final String toString()
-'''
-pass
+    '''    public final String toString()
+    '''

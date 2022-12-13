@@ -1,4 +1,3 @@
 def FldWOHazardPrecHazardType():
-'''public FldWOHazardPrecHazardType(final MboValue mbv)
-'''
-pass
+    '''    public FldWOHazardPrecHazardType(final MboValue mbv)
+    '''

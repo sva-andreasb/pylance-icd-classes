@@ -1,8 +1,6 @@
 def ViewLibraryFileSet():
-'''public ViewLibraryFileSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ViewLibraryFileSet(final MboServerInterface ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

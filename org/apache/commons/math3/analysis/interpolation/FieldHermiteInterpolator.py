@@ -1,16 +1,12 @@
 def FieldHermiteInterpolator():
-'''public FieldHermiteInterpolator()
-'''
-pass
+    '''    public FieldHermiteInterpolator()
+    '''
 def addSamplePoint():
-'''public void addSamplePoint(final T x, final T[]... value)
-'''
-pass
+    '''    public void addSamplePoint(final T x, final T[]... value)
+    '''
 def value():
-'''public T[] value(final T x)
-'''
-pass
+    '''    public T[] value(final T x)
+    '''
 def derivatives():
-'''public T[][] derivatives(final T x, final int order)
-'''
-pass
+    '''    public T[][] derivatives(final T x, final int order)
+    '''

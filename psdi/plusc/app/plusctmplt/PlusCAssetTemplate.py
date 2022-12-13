@@ -1,97 +1,73 @@
 def PlusCAssetTemplate():
-'''public PlusCAssetTemplate(final MboSet ms)
-'''
-pass
+    '''    public PlusCAssetTemplate(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getStatusListName():
-'''public String getStatusListName()
-'''
-pass
+    '''    public String getStatusListName()
+    '''
 def generateAssetSpec():
-'''public MboSetRemote generateAssetSpec()
-'''
-pass
+    '''    public MboSetRemote generateAssetSpec()
+    '''
 def clearClassification():
-'''public void clearClassification()
-'''
-pass
+    '''    public void clearClassification()
+    '''
 def initializeDepPeriodsFields():
-'''public void initializeDepPeriodsFields()
-'''
-pass
+    '''    public void initializeDepPeriodsFields()
+    '''
 def getSpec():
-'''public MboSetRemote getSpec()
-'''
-pass
+    '''    public MboSetRemote getSpec()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def duplicate():
-'''public MboRemote duplicate()
-'''
-pass
+    '''    public MboRemote duplicate()
+    '''
 def propagateKeyValue():
-'''public void propagateKeyValue(final String keyName, final String keyValue)
-'''
-pass
+    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''
 def setCopyDefaults():
-'''public void setCopyDefaults()
-'''
-pass
+    '''    public void setCopyDefaults()
+    '''
 def warrantyAuthorizedForSite():
-'''public boolean warrantyAuthorizedForSite(final MboRemote warranty, final String siteID)
-'''
-pass
+    '''    public boolean warrantyAuthorizedForSite(final MboRemote warranty, final String siteID)
+    '''
 def thereAreAuthorizedWarranties():
-'''public boolean thereAreAuthorizedWarranties(final String siteID)
-'''
-pass
+    '''    public boolean thereAreAuthorizedWarranties(final String siteID)
+    '''
 def isDuplicate():
-'''public boolean isDuplicate()
-'''
-pass
+    '''    public boolean isDuplicate()
+    '''
 def setDuplicate():
-'''public void setDuplicate(final boolean duplicate)
-'''
-pass
+    '''    public void setDuplicate(final boolean duplicate)
+    '''
 def getAssetTemplateMboSetInfo():
-'''public MboSetInfo getAssetTemplateMboSetInfo()
-'''
-pass
+    '''    public MboSetInfo getAssetTemplateMboSetInfo()
+    '''
 def setReadOnlyFields():
-'''public void setReadOnlyFields()
-'''
-pass
+    '''    public void setReadOnlyFields()
+    '''
 def updateDesc():
-'''public void updateDesc()
-'''
-pass
+    '''    public void updateDesc()
+    '''
 def generateDescription():
-'''public String generateDescription(final ClassStructureRemote classMbo, final PlusCATSpecSet specSet)
-'''
-pass
+    '''    public String generateDescription(final ClassStructureRemote classMbo, final PlusCATSpecSet specSet)
+    '''
 def getDescDelimiter():
-'''public String getDescDelimiter(final boolean isForClassDesc)
-public String getDescDelimiter()
-'''
-pass
+    '''    public String getDescDelimiter(final boolean isForClassDesc)
+    public String getDescDelimiter()
+    '''
 def sortedClassSpecSet():
-'''public Vector sortedClassSpecSet(final MboSetRemote classSpecSet)
-'''
-pass
+    '''    public Vector sortedClassSpecSet(final MboSetRemote classSpecSet)
+    '''
 def createNewDepreciation():
-'''public MboRemote createNewDepreciation()
-'''
-pass
+    '''    public MboRemote createNewDepreciation()
+    '''

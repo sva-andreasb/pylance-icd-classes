@@ -1,8 +1,6 @@
 def FldCrontaskParamDescription():
-'''public FldCrontaskParamDescription(final MboValue mbv)
-'''
-pass
+    '''    public FldCrontaskParamDescription(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

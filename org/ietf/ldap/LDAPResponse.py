@@ -1,32 +1,24 @@
 def LDAPResponse():
-'''public LDAPResponse(final com.novell.ldap.LDAPResponse response)
-'''
-pass
+    '''    public LDAPResponse(final com.novell.ldap.LDAPResponse response)
+    '''
 def getErrorMessage():
-'''public String getErrorMessage()
-'''
-pass
+    '''    public String getErrorMessage()
+    '''
 def getMatchedDN():
-'''public String getMatchedDN()
-'''
-pass
+    '''    public String getMatchedDN()
+    '''
 def getReferrals():
-'''public String[] getReferrals()
-'''
-pass
+    '''    public String[] getReferrals()
+    '''
 def getResultCode():
-'''public int getResultCode()
-'''
-pass
+    '''    public int getResultCode()
+    '''
 def getControls():
-'''public LDAPControl[] getControls()
-'''
-pass
+    '''    public LDAPControl[] getControls()
+    '''
 def getMessageID():
-'''public int getMessageID()
-'''
-pass
+    '''    public int getMessageID()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''

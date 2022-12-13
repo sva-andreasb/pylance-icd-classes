@@ -1,8 +1,6 @@
 def ApptWindowsRange():
-'''public ApptWindowsRange(final MboSet ms)
-'''
-pass
+    '''    public ApptWindowsRange(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

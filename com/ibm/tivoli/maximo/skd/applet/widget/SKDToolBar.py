@@ -1,4 +1,3 @@
 def SKDToolBar():
-'''public SKDToolBar()
-'''
-pass
+    '''    public SKDToolBar()
+    '''

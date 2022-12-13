@@ -1,36 +1,27 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def LeaveGroupRequest():
-'''public LeaveGroupRequest(final Struct struct, final short version)
-'''
-pass
+    '''    public LeaveGroupRequest(final Struct struct, final short version)
+    '''
 def getErrorResponse():
-'''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
-'''
-pass
+    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''
 def groupId():
-'''public String groupId()
-'''
-pass
+    '''    public String groupId()
+    '''
 def memberId():
-'''public String memberId()
-'''
-pass
+    '''    public String memberId()
+    '''
 def parse():
-'''public static LeaveGroupRequest parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static LeaveGroupRequest parse(final ByteBuffer buffer, final short version)
+    '''
 def Builder():
-'''public Builder(final String groupId, final String memberId)
-'''
-pass
+    '''    public Builder(final String groupId, final String memberId)
+    '''
 def build():
-'''public LeaveGroupRequest build(final short version)
-'''
-pass
+    '''    public LeaveGroupRequest build(final short version)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

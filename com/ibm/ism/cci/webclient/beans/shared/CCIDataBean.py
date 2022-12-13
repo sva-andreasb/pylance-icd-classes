@@ -1,4 +1,3 @@
 def hierarchicalmove():
-'''public int hierarchicalmove()
-'''
-pass
+    '''    public int hierarchicalmove()
+    '''

@@ -1,277 +1,208 @@
 def getAccount():
-'''public Account getAccount()
-'''
-pass
+    '''    public Account getAccount()
+    '''
 def setAccount():
-'''public void setAccount(final Account account)
-'''
-pass
+    '''    public void setAccount(final Account account)
+    '''
 def setAgreementType():
-'''public void setAgreementType(final com.softlayer.api.service.account.agreement.Type agreementType)
-'''
-pass
+    '''    public void setAgreementType(final com.softlayer.api.service.account.agreement.Type agreementType)
+    '''
 def getAttachedBillingAgreementFiles():
-'''public List<MasterServiceAgreement> getAttachedBillingAgreementFiles()
-'''
-pass
+    '''    public List<MasterServiceAgreement> getAttachedBillingAgreementFiles()
+    '''
 def getBillingItems():
-'''public List<Item> getBillingItems()
-'''
-pass
+    '''    public List<Item> getBillingItems()
+    '''
 def getStatus():
-'''public Status getStatus()
-'''
-pass
+    '''    public Status getStatus()
+    '''
 def setStatus():
-'''public void setStatus(final Status status)
-'''
-pass
+    '''    public void setStatus(final Status status)
+    '''
 def getTopLevelBillingItems():
-'''public List<Item> getTopLevelBillingItems()
-'''
-pass
+    '''    public List<Item> getTopLevelBillingItems()
+    '''
 def getAgreementTypeId():
-'''public Long getAgreementTypeId()
-'''
-pass
+    '''    public Long getAgreementTypeId()
+    '''
 def setAgreementTypeId():
-'''public void setAgreementTypeId(final Long agreementTypeId)
-'''
-pass
+    '''    public void setAgreementTypeId(final Long agreementTypeId)
+    '''
 def isAgreementTypeIdSpecified():
-'''public boolean isAgreementTypeIdSpecified()
-'''
-pass
+    '''    public boolean isAgreementTypeIdSpecified()
+    '''
 def unsetAgreementTypeId():
-'''public void unsetAgreementTypeId()
-'''
-pass
+    '''    public void unsetAgreementTypeId()
+    '''
 def getAutoRenew():
-'''public Long getAutoRenew()
-'''
-pass
+    '''    public Long getAutoRenew()
+    '''
 def setAutoRenew():
-'''public void setAutoRenew(final Long autoRenew)
-'''
-pass
+    '''    public void setAutoRenew(final Long autoRenew)
+    '''
 def isAutoRenewSpecified():
-'''public boolean isAutoRenewSpecified()
-'''
-pass
+    '''    public boolean isAutoRenewSpecified()
+    '''
 def unsetAutoRenew():
-'''public void unsetAutoRenew()
-'''
-pass
+    '''    public void unsetAutoRenew()
+    '''
 def getCancellationFee():
-'''public Long getCancellationFee()
-'''
-pass
+    '''    public Long getCancellationFee()
+    '''
 def setCancellationFee():
-'''public void setCancellationFee(final Long cancellationFee)
-'''
-pass
+    '''    public void setCancellationFee(final Long cancellationFee)
+    '''
 def isCancellationFeeSpecified():
-'''public boolean isCancellationFeeSpecified()
-'''
-pass
+    '''    public boolean isCancellationFeeSpecified()
+    '''
 def unsetCancellationFee():
-'''public void unsetCancellationFee()
-'''
-pass
+    '''    public void unsetCancellationFee()
+    '''
 def getCreateDate():
-'''public GregorianCalendar getCreateDate()
-'''
-pass
+    '''    public GregorianCalendar getCreateDate()
+    '''
 def setCreateDate():
-'''public void setCreateDate(final GregorianCalendar createDate)
-'''
-pass
+    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''
 def isCreateDateSpecified():
-'''public boolean isCreateDateSpecified()
-'''
-pass
+    '''    public boolean isCreateDateSpecified()
+    '''
 def unsetCreateDate():
-'''public void unsetCreateDate()
-'''
-pass
+    '''    public void unsetCreateDate()
+    '''
 def getDurationMonths():
-'''public Long getDurationMonths()
-'''
-pass
+    '''    public Long getDurationMonths()
+    '''
 def setDurationMonths():
-'''public void setDurationMonths(final Long durationMonths)
-'''
-pass
+    '''    public void setDurationMonths(final Long durationMonths)
+    '''
 def isDurationMonthsSpecified():
-'''public boolean isDurationMonthsSpecified()
-'''
-pass
+    '''    public boolean isDurationMonthsSpecified()
+    '''
 def unsetDurationMonths():
-'''public void unsetDurationMonths()
-'''
-pass
+    '''    public void unsetDurationMonths()
+    '''
 def getEndDate():
-'''public GregorianCalendar getEndDate()
-'''
-pass
+    '''    public GregorianCalendar getEndDate()
+    '''
 def setEndDate():
-'''public void setEndDate(final GregorianCalendar endDate)
-'''
-pass
+    '''    public void setEndDate(final GregorianCalendar endDate)
+    '''
 def isEndDateSpecified():
-'''public boolean isEndDateSpecified()
-'''
-pass
+    '''    public boolean isEndDateSpecified()
+    '''
 def unsetEndDate():
-'''public void unsetEndDate()
-'''
-pass
+    '''    public void unsetEndDate()
+    '''
 def getId():
-'''public Long getId()
-'''
-pass
+    '''    public Long getId()
+    '''
 def setId():
-'''public void setId(final Long id)
-'''
-pass
+    '''    public void setId(final Long id)
+    '''
 def isIdSpecified():
-'''public boolean isIdSpecified()
-'''
-pass
+    '''    public boolean isIdSpecified()
+    '''
 def unsetId():
-'''public void unsetId()
-'''
-pass
+    '''    public void unsetId()
+    '''
 def getStartDate():
-'''public GregorianCalendar getStartDate()
-'''
-pass
+    '''    public GregorianCalendar getStartDate()
+    '''
 def setStartDate():
-'''public void setStartDate(final GregorianCalendar startDate)
-'''
-pass
+    '''    public void setStartDate(final GregorianCalendar startDate)
+    '''
 def isStartDateSpecified():
-'''public boolean isStartDateSpecified()
-'''
-pass
+    '''    public boolean isStartDateSpecified()
+    '''
 def unsetStartDate():
-'''public void unsetStartDate()
-'''
-pass
+    '''    public void unsetStartDate()
+    '''
 def getStatusId():
-'''public Long getStatusId()
-'''
-pass
+    '''    public Long getStatusId()
+    '''
 def setStatusId():
-'''public void setStatusId(final Long statusId)
-'''
-pass
+    '''    public void setStatusId(final Long statusId)
+    '''
 def isStatusIdSpecified():
-'''public boolean isStatusIdSpecified()
-'''
-pass
+    '''    public boolean isStatusIdSpecified()
+    '''
 def unsetStatusId():
-'''public void unsetStatusId()
-'''
-pass
+    '''    public void unsetStatusId()
+    '''
 def getTitle():
-'''public String getTitle()
-'''
-pass
+    '''    public String getTitle()
+    '''
 def setTitle():
-'''public void setTitle(final String title)
-'''
-pass
+    '''    public void setTitle(final String title)
+    '''
 def isTitleSpecified():
-'''public boolean isTitleSpecified()
-'''
-pass
+    '''    public boolean isTitleSpecified()
+    '''
 def unsetTitle():
-'''public void unsetTitle()
-'''
-pass
+    '''    public void unsetTitle()
+    '''
 def getAttachedBillingAgreementFileCount():
-'''public Long getAttachedBillingAgreementFileCount()
-'''
-pass
+    '''    public Long getAttachedBillingAgreementFileCount()
+    '''
 def setAttachedBillingAgreementFileCount():
-'''public void setAttachedBillingAgreementFileCount(final Long attachedBillingAgreementFileCount)
-'''
-pass
+    '''    public void setAttachedBillingAgreementFileCount(final Long attachedBillingAgreementFileCount)
+    '''
 def getBillingItemCount():
-'''public Long getBillingItemCount()
-'''
-pass
+    '''    public Long getBillingItemCount()
+    '''
 def setBillingItemCount():
-'''public void setBillingItemCount(final Long billingItemCount)
-'''
-pass
+    '''    public void setBillingItemCount(final Long billingItemCount)
+    '''
 def getTopLevelBillingItemCount():
-'''public Long getTopLevelBillingItemCount()
-'''
-pass
+    '''    public Long getTopLevelBillingItemCount()
+    '''
 def setTopLevelBillingItemCount():
-'''public void setTopLevelBillingItemCount(final Long topLevelBillingItemCount)
-'''
-pass
+    '''    public void setTopLevelBillingItemCount(final Long topLevelBillingItemCount)
+    '''
 def asService():
-'''public Service asService(final ApiClient client)
-'''
-pass
+    '''    public Service asService(final ApiClient client)
+    '''
 def service():
-'''public static Service service(final ApiClient client)
-public static Service service(final ApiClient client, final Long id)
-'''
-pass
+    '''    public static Service service(final ApiClient client)
+    public static Service service(final ApiClient client, final Long id)
+    '''
 def agreementTypeId():
-'''public Mask agreementTypeId()
-'''
-pass
+    '''    public Mask agreementTypeId()
+    '''
 def autoRenew():
-'''public Mask autoRenew()
-'''
-pass
+    '''    public Mask autoRenew()
+    '''
 def cancellationFee():
-'''public Mask cancellationFee()
-'''
-pass
+    '''    public Mask cancellationFee()
+    '''
 def createDate():
-'''public Mask createDate()
-'''
-pass
+    '''    public Mask createDate()
+    '''
 def durationMonths():
-'''public Mask durationMonths()
-'''
-pass
+    '''    public Mask durationMonths()
+    '''
 def endDate():
-'''public Mask endDate()
-'''
-pass
+    '''    public Mask endDate()
+    '''
 def id():
-'''public Mask id()
-'''
-pass
+    '''    public Mask id()
+    '''
 def startDate():
-'''public Mask startDate()
-'''
-pass
+    '''    public Mask startDate()
+    '''
 def statusId():
-'''public Mask statusId()
-'''
-pass
+    '''    public Mask statusId()
+    '''
 def title():
-'''public Mask title()
-'''
-pass
+    '''    public Mask title()
+    '''
 def attachedBillingAgreementFileCount():
-'''public Mask attachedBillingAgreementFileCount()
-'''
-pass
+    '''    public Mask attachedBillingAgreementFileCount()
+    '''
 def billingItemCount():
-'''public Mask billingItemCount()
-'''
-pass
+    '''    public Mask billingItemCount()
+    '''
 def topLevelBillingItemCount():
-'''public Mask topLevelBillingItemCount()
-'''
-pass
+    '''    public Mask topLevelBillingItemCount()
+    '''

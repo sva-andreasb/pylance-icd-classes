@@ -1,12 +1,9 @@
 def LocSystemSet():
-'''public LocSystemSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LocSystemSet(final MboServerInterface ms)
+    '''
 def getCurrentPrimarySystemInSite():
-'''public MboRemote getCurrentPrimarySystemInSite(final MboRemote locSystem)
-'''
-pass
+    '''    public MboRemote getCurrentPrimarySystemInSite(final MboRemote locSystem)
+    '''
 def mustHaveOneAndOnlyOnePrimarySystemInSite():
-'''public void mustHaveOneAndOnlyOnePrimarySystemInSite()
-'''
-pass
+    '''    public void mustHaveOneAndOnlyOnePrimarySystemInSite()
+    '''

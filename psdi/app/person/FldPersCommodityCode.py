@@ -1,8 +1,6 @@
 def FldPersCommodityCode():
-'''public FldPersCommodityCode(final MboValue mbv)
-'''
-pass
+    '''    public FldPersCommodityCode(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

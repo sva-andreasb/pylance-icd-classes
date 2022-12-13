@@ -1,4 +1,3 @@
 def AssociateRelationshipBean():
-'''public AssociateRelationshipBean()
-'''
-pass
+    '''    public AssociateRelationshipBean()
+    '''

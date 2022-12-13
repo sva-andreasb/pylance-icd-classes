@@ -1,12 +1,9 @@
 def FldWMAssignTmpWoNum():
-'''public FldWMAssignTmpWoNum(final MboValue mbv)
-'''
-pass
+    '''    public FldWMAssignTmpWoNum(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,8 +1,6 @@
 def ExprPattern():
-'''public ExprPattern(final String pattern, final Var[] vars, final ActionMatch[] actions)
-'''
-pass
+    '''    public ExprPattern(final String pattern, final Var[] vars, final ActionMatch[] actions)
+    '''
 def match():
-'''public MapResult match(final Expr expression)
-'''
-pass
+    '''    public MapResult match(final Expr expression)
+    '''

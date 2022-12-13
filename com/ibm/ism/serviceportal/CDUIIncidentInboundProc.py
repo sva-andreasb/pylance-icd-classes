@@ -1,8 +1,6 @@
 def CDUIIncidentInboundProc():
-'''public CDUIIncidentInboundProc()
-'''
-pass
+    '''    public CDUIIncidentInboundProc()
+    '''
 def setAdditionalData():
-'''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''

@@ -1,2 +1,2 @@
-AllJavaPermission = "String  AllJavaPermission""
-AllJavaScriptPermission = "String  AllJavaScriptPermission""
+AllJavaPermission = "String  \"AllJavaPermission\""
+AllJavaScriptPermission = "String  \"AllJavaScriptPermission\""

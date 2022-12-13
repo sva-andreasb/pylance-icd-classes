@@ -1,59 +1,46 @@
-NODENAME = "String  payload-type""
-NAMESPACE = "String  urn:xmpp:tmp:jingle:apps:rtp""
+NODENAME = "String  \"payload-type\""
+NAMESPACE = "String  \"urn:xmpp:tmp:jingle:apps:rtp\""
 def JingleContentDescription():
-'''public JingleContentDescription()
-'''
-pass
+    '''    public JingleContentDescription()
+    '''
 def getElementName():
-'''public String getElementName()
-public static String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    public static String getElementName()
+    '''
 def addJinglePayloadType():
-'''public void addJinglePayloadType(final JinglePayloadType pt)
-'''
-pass
+    '''    public void addJinglePayloadType(final JinglePayloadType pt)
+    '''
 def addAudioPayloadTypes():
-'''public void addAudioPayloadTypes(final List<PayloadType.Audio> pts)
-'''
-pass
+    '''    public void addAudioPayloadTypes(final List<PayloadType.Audio> pts)
+    '''
 def getJinglePayloadTypes():
-'''public Iterator<JinglePayloadType> getJinglePayloadTypes()
-'''
-pass
+    '''    public Iterator<JinglePayloadType> getJinglePayloadTypes()
+    '''
 def getJinglePayloadTypesList():
-'''public ArrayList<JinglePayloadType> getJinglePayloadTypesList()
-'''
-pass
+    '''    public ArrayList<JinglePayloadType> getJinglePayloadTypesList()
+    '''
 def getJinglePayloadTypesCount():
-'''public int getJinglePayloadTypesCount()
-'''
-pass
+    '''    public int getJinglePayloadTypesCount()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-public String toXML()
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    public String toXML()
+    '''
 def Audio():
-'''public Audio()
-public Audio(final JinglePayloadType pt)
-public Audio(final PayloadType.Audio audio)
-'''
-pass
+    '''    public Audio()
+    public Audio(final JinglePayloadType pt)
+    public Audio(final PayloadType.Audio audio)
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def JinglePayloadType():
-'''public JinglePayloadType(final PayloadType payload)
-public JinglePayloadType()
-'''
-pass
+    '''    public JinglePayloadType(final PayloadType payload)
+    public JinglePayloadType()
+    '''
 def getPayloadType():
-'''public PayloadType getPayloadType()
-'''
-pass
+    '''    public PayloadType getPayloadType()
+    '''
 def setPayload():
-'''public void setPayload(final PayloadType payload)
-'''
-pass
+    '''    public void setPayload(final PayloadType payload)
+    '''

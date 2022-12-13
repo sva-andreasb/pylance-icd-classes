@@ -1,24 +1,18 @@
 def RunConfigDBBean():
-'''public RunConfigDBBean()
-'''
-pass
+    '''    public RunConfigDBBean()
+    '''
 def configdb_struct_start():
-'''public int configdb_struct_start()
-'''
-pass
+    '''    public int configdb_struct_start()
+    '''
 def admin_OFF():
-'''public int admin_OFF()
-'''
-pass
+    '''    public int admin_OFF()
+    '''
 def checkESigAuthenticated():
-'''public synchronized void checkESigAuthenticated(String option)
-'''
-pass
+    '''    public synchronized void checkESigAuthenticated(String option)
+    '''
 def CheckConfigDBThread():
-'''public CheckConfigDBThread()
-'''
-pass
+    '''    public CheckConfigDBThread()
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

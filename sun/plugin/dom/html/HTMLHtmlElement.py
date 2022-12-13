@@ -1,8 +1,6 @@
 def getVersion():
-'''public String getVersion()
-'''
-pass
+    '''    public String getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final String s)
-'''
-pass
+    '''    public void setVersion(final String s)
+    '''

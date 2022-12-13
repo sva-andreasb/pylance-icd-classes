@@ -1,154 +1,122 @@
 def InstructionList():
-'''public InstructionList()
-public InstructionList(final Instruction i)
-public InstructionList(final byte[] code)
-'''
-pass
+    '''    public InstructionList()
+    public InstructionList(final Instruction i)
+    public InstructionList(final byte[] code)
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def findHandle():
-'''public static InstructionHandle findHandle(final InstructionHandle[] ihs, final int[] pos, final int count, final int target)
-public static InstructionHandle findHandle(final InstructionHandle[] ihs, final int[] pos, final int count, final int target, final boolean returnClosestIfNoExactMatch)
-public InstructionHandle findHandle(final int pos)
-public InstructionHandle findHandle(final int pos, final InstructionHandle[] instructionArray)
-public InstructionHandle findHandle(final int pos, final InstructionHandle[] instructionArray, final boolean useClosestApproximationIfNoExactFound)
-'''
-pass
+    '''    public static InstructionHandle findHandle(final InstructionHandle[] ihs, final int[] pos, final int count, final int target)
+    public static InstructionHandle findHandle(final InstructionHandle[] ihs, final int[] pos, final int count, final int target, final boolean returnClosestIfNoExactMatch)
+    public InstructionHandle findHandle(final int pos)
+    public InstructionHandle findHandle(final int pos, final InstructionHandle[] instructionArray)
+    public InstructionHandle findHandle(final int pos, final InstructionHandle[] instructionArray, final boolean useClosestApproximationIfNoExactFound)
+    '''
 def getInstructionsAsArray():
-'''public InstructionHandle[] getInstructionsAsArray()
-'''
-pass
+    '''    public InstructionHandle[] getInstructionsAsArray()
+    '''
 def append():
-'''public InstructionHandle append(final InstructionHandle appendTo, final InstructionList appendee)
-public InstructionHandle append(final Instruction i, final InstructionList il)
-public InstructionHandle append(final InstructionList il)
-public InstructionHandle append(final Instruction i)
-public BranchHandle append(final InstructionBranch i)
-public InstructionHandle append(final Instruction i, final Instruction j)
-public InstructionHandle append(final InstructionHandle ih, final Instruction i)
-public BranchHandle append(final InstructionHandle ih, final InstructionBranch i)
-'''
-pass
+    '''    public InstructionHandle append(final InstructionHandle appendTo, final InstructionList appendee)
+    public InstructionHandle append(final Instruction i, final InstructionList il)
+    public InstructionHandle append(final InstructionList il)
+    public InstructionHandle append(final Instruction i)
+    public BranchHandle append(final InstructionBranch i)
+    public InstructionHandle append(final Instruction i, final Instruction j)
+    public InstructionHandle append(final InstructionHandle ih, final Instruction i)
+    public BranchHandle append(final InstructionHandle ih, final InstructionBranch i)
+    '''
 def appendDUP():
-'''public InstructionHandle appendDUP()
-'''
-pass
+    '''    public InstructionHandle appendDUP()
+    '''
 def appendNOP():
-'''public InstructionHandle appendNOP()
-'''
-pass
+    '''    public InstructionHandle appendNOP()
+    '''
 def appendPOP():
-'''public InstructionHandle appendPOP()
-'''
-pass
+    '''    public InstructionHandle appendPOP()
+    '''
 def insert():
-'''public InstructionHandle insert(final InstructionHandle ih, final InstructionList il)
-public InstructionHandle insert(final InstructionList il)
-public InstructionHandle insert(final Instruction i, final InstructionList il)
-public InstructionHandle insert(final Instruction i)
-public BranchHandle insert(final InstructionBranch i)
-public InstructionHandle insert(final Instruction i, final Instruction j)
-public InstructionHandle insert(final InstructionHandle ih, final Instruction i)
-public BranchHandle insert(final InstructionHandle ih, final InstructionBranch i)
-'''
-pass
+    '''    public InstructionHandle insert(final InstructionHandle ih, final InstructionList il)
+    public InstructionHandle insert(final InstructionList il)
+    public InstructionHandle insert(final Instruction i, final InstructionList il)
+    public InstructionHandle insert(final Instruction i)
+    public BranchHandle insert(final InstructionBranch i)
+    public InstructionHandle insert(final Instruction i, final Instruction j)
+    public InstructionHandle insert(final InstructionHandle ih, final Instruction i)
+    public BranchHandle insert(final InstructionHandle ih, final InstructionBranch i)
+    '''
 def move():
-'''public void move(final InstructionHandle start, final InstructionHandle end, final InstructionHandle target)
-public void move(final InstructionHandle ih, final InstructionHandle target)
-'''
-pass
+    '''    public void move(final InstructionHandle start, final InstructionHandle end, final InstructionHandle target)
+    public void move(final InstructionHandle ih, final InstructionHandle target)
+    '''
 def delete():
-'''public void delete(final InstructionHandle ih)
-public void delete(final InstructionHandle from, final InstructionHandle to)
-public void delete(final Instruction from, final Instruction to)
-'''
-pass
+    '''    public void delete(final InstructionHandle ih)
+    public void delete(final InstructionHandle from, final InstructionHandle to)
+    public void delete(final Instruction from, final Instruction to)
+    '''
 def contains():
-'''public boolean contains(final InstructionHandle i)
-public boolean contains(final Instruction i)
-'''
-pass
+    '''    public boolean contains(final InstructionHandle i)
+    public boolean contains(final Instruction i)
+    '''
 def setPositions():
-'''public void setPositions()
-public void setPositions(final boolean check)
-'''
-pass
+    '''    public void setPositions()
+    public void setPositions(final boolean check)
+    '''
 def getByteCode():
-'''public byte[] getByteCode()
-'''
-pass
+    '''    public byte[] getByteCode()
+    '''
 def getInstructions():
-'''public Instruction[] getInstructions()
-'''
-pass
+    '''    public Instruction[] getInstructions()
+    '''
 def toString():
-'''public String toString()
-public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString()
+    public String toString(final boolean verbose)
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def getInstructionHandles():
-'''public InstructionHandle[] getInstructionHandles()
-'''
-pass
+    '''    public InstructionHandle[] getInstructionHandles()
+    '''
 def getInstructionPositions():
-'''public int[] getInstructionPositions()
-'''
-pass
+    '''    public int[] getInstructionPositions()
+    '''
 def copy():
-'''public InstructionList copy()
-'''
-pass
+    '''    public InstructionList copy()
+    '''
 def replaceConstantPool():
-'''public void replaceConstantPool(final ConstantPool old_cp, final ConstantPool new_cp)
-'''
-pass
+    '''    public void replaceConstantPool(final ConstantPool old_cp, final ConstantPool new_cp)
+    '''
 def dispose():
-'''public void dispose()
-'''
-pass
+    '''    public void dispose()
+    '''
 def getStart():
-'''public InstructionHandle getStart()
-'''
-pass
+    '''    public InstructionHandle getStart()
+    '''
 def getEnd():
-'''public InstructionHandle getEnd()
-'''
-pass
+    '''    public InstructionHandle getEnd()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def redirectBranches():
-'''public void redirectBranches(final InstructionHandle old_target, final InstructionHandle new_target)
-'''
-pass
+    '''    public void redirectBranches(final InstructionHandle old_target, final InstructionHandle new_target)
+    '''
 def redirectLocalVariables():
-'''public void redirectLocalVariables(final LocalVariableGen[] lg, final InstructionHandle old_target, final InstructionHandle new_target)
-'''
-pass
+    '''    public void redirectLocalVariables(final LocalVariableGen[] lg, final InstructionHandle old_target, final InstructionHandle new_target)
+    '''
 def redirectExceptionHandlers():
-'''public void redirectExceptionHandlers(final CodeExceptionGen[] exceptions, final InstructionHandle old_target, final InstructionHandle new_target)
-'''
-pass
+    '''    public void redirectExceptionHandlers(final CodeExceptionGen[] exceptions, final InstructionHandle old_target, final InstructionHandle new_target)
+    '''

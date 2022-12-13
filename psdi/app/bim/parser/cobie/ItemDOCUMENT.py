@@ -1,100 +1,75 @@
 def ItemDOCUMENT():
-'''public ItemDOCUMENT()
-'''
-pass
+    '''    public ItemDOCUMENT()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def resolveRerefences():
-'''public void resolveRerefences(final Parser project, final long flags)
-'''
-pass
+    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''
 def skip():
-'''public boolean skip(final Parser parser, final long flags)
-'''
-pass
+    '''    public boolean skip(final Parser parser, final long flags)
+    '''
 def getCreatedOn():
-'''public String getCreatedOn()
-'''
-pass
+    '''    public String getCreatedOn()
+    '''
 def setCreatedOn():
-'''public void setCreatedOn(final String createdOn)
-'''
-pass
+    '''    public void setCreatedOn(final String createdOn)
+    '''
 def getCategory():
-'''public String getCategory()
-'''
-pass
+    '''    public String getCategory()
+    '''
 def setCategory():
-'''public void setCategory(final String category)
-'''
-pass
+    '''    public void setCategory(final String category)
+    '''
 def getApprovalBy():
-'''public String getApprovalBy()
-'''
-pass
+    '''    public String getApprovalBy()
+    '''
 def setApprovalBy():
-'''public void setApprovalBy(final String approvalBy)
-'''
-pass
+    '''    public void setApprovalBy(final String approvalBy)
+    '''
 def getStage():
-'''public String getStage()
-'''
-pass
+    '''    public String getStage()
+    '''
 def setStage():
-'''public void setStage(final String stage)
-'''
-pass
+    '''    public void setStage(final String stage)
+    '''
 def getSheetName():
-'''public String getSheetName()
-'''
-pass
+    '''    public String getSheetName()
+    '''
 def setSheetName():
-'''public void setSheetName(final String sheetName)
-'''
-pass
+    '''    public void setSheetName(final String sheetName)
+    '''
 def getRowName():
-'''public String getRowName()
-'''
-pass
+    '''    public String getRowName()
+    '''
 def setRowName():
-'''public void setRowName(final String rowName)
-'''
-pass
+    '''    public void setRowName(final String rowName)
+    '''
 def getDirectory():
-'''public String getDirectory()
-'''
-pass
+    '''    public String getDirectory()
+    '''
 def setDirectory():
-'''public void setDirectory(final String directory)
-'''
-pass
+    '''    public void setDirectory(final String directory)
+    '''
 def getFile():
-'''public String getFile()
-'''
-pass
+    '''    public String getFile()
+    '''
 def setFile():
-'''public void setFile(final String file)
-'''
-pass
+    '''    public void setFile(final String file)
+    '''
 def getQualifiedFileName():
-'''public String getQualifiedFileName()
-'''
-pass
+    '''    public String getQualifiedFileName()
+    '''
 def getReference():
-'''public String getReference()
-'''
-pass
+    '''    public String getReference()
+    '''
 def setReference():
-'''public void setReference(final String reference)
-'''
-pass
+    '''    public void setReference(final String reference)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

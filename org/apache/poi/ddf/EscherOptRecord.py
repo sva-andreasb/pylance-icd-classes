@@ -1,22 +1,17 @@
-RECORD_DESCRIPTION = "String  msofbtOPT""
+RECORD_DESCRIPTION = "String  \"msofbtOPT\""
 RECORD_ID = "short  -4085"
 def getInstance():
-'''public short getInstance()
-'''
-pass
+    '''    public short getInstance()
+    '''
 def getOptions():
-'''public short getOptions()
-'''
-pass
+    '''    public short getOptions()
+    '''
 def getRecordName():
-'''public String getRecordName()
-'''
-pass
+    '''    public String getRecordName()
+    '''
 def getVersion():
-'''public short getVersion()
-'''
-pass
+    '''    public short getVersion()
+    '''
 def setVersion():
-'''public void setVersion(final short value)
-'''
-pass
+    '''    public void setVersion(final short value)
+    '''

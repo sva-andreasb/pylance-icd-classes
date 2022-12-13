@@ -1,32 +1,24 @@
 def ExcelAntEvaluateCell():
-'''public ExcelAntEvaluateCell()
-'''
-pass
+    '''    public ExcelAntEvaluateCell()
+    '''
 def setShowDelta():
-'''public void setShowDelta(final boolean value)
-'''
-pass
+    '''    public void setShowDelta(final boolean value)
+    '''
 def setCell():
-'''public void setCell(final String cell)
-'''
-pass
+    '''    public void setCell(final String cell)
+    '''
 def setRequiredToPass():
-'''public void setRequiredToPass(final boolean val)
-'''
-pass
+    '''    public void setRequiredToPass(final boolean val)
+    '''
 def setExpectedValue():
-'''public void setExpectedValue(final double expectedValue)
-'''
-pass
+    '''    public void setExpectedValue(final double expectedValue)
+    '''
 def setPrecision():
-'''public void setPrecision(final double precision)
-'''
-pass
+    '''    public void setPrecision(final double precision)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''
 def getResult():
-'''public ExcelAntEvaluationResult getResult()
-'''
-pass
+    '''    public ExcelAntEvaluationResult getResult()
+    '''

@@ -1,4 +1,3 @@
 def WOAreasAffectedSet():
-'''public WOAreasAffectedSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WOAreasAffectedSet(final MboServerInterface ms)
+    '''

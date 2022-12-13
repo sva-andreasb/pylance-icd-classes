@@ -1,17 +1,13 @@
 def PmComSrService():
-'''public PmComSrService()
-public PmComSrService(final MXServer mxServer)
-'''
-pass
+    '''    public PmComSrService()
+    public PmComSrService(final MXServer mxServer)
+    '''
 def restart():
-'''public void restart()
-'''
-pass
+    '''    public void restart()
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''

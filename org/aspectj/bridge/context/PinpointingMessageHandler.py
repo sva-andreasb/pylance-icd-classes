@@ -1,93 +1,70 @@
 def PinpointingMessageHandler():
-'''public PinpointingMessageHandler(final IMessageHandler delegate)
-'''
-pass
+    '''    public PinpointingMessageHandler(final IMessageHandler delegate)
+    '''
 def handleMessage():
-'''public boolean handleMessage(final IMessage message)
-'''
-pass
+    '''    public boolean handleMessage(final IMessage message)
+    '''
 def isIgnoring():
-'''public boolean isIgnoring(final IMessage.Kind kind)
-'''
-pass
+    '''    public boolean isIgnoring(final IMessage.Kind kind)
+    '''
 def dontIgnore():
-'''public void dontIgnore(final IMessage.Kind kind)
-'''
-pass
+    '''    public void dontIgnore(final IMessage.Kind kind)
+    '''
 def ignore():
-'''public void ignore(final IMessage.Kind kind)
-'''
-pass
+    '''    public void ignore(final IMessage.Kind kind)
+    '''
 def PinpointedMessage():
-'''public PinpointedMessage(final IMessage delegate, final String pinpoint)
-'''
-pass
+    '''    public PinpointedMessage(final IMessage delegate, final String pinpoint)
+    '''
 def getMessage():
-'''public String getMessage()
-public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    public String getMessage()
+    '''
 def getKind():
-'''public Kind getKind()
-'''
-pass
+    '''    public Kind getKind()
+    '''
 def isError():
-'''public boolean isError()
-'''
-pass
+    '''    public boolean isError()
+    '''
 def isWarning():
-'''public boolean isWarning()
-'''
-pass
+    '''    public boolean isWarning()
+    '''
 def isDebug():
-'''public boolean isDebug()
-'''
-pass
+    '''    public boolean isDebug()
+    '''
 def isInfo():
-'''public boolean isInfo()
-'''
-pass
+    '''    public boolean isInfo()
+    '''
 def isAbort():
-'''public boolean isAbort()
-'''
-pass
+    '''    public boolean isAbort()
+    '''
 def isTaskTag():
-'''public boolean isTaskTag()
-'''
-pass
+    '''    public boolean isTaskTag()
+    '''
 def isFailed():
-'''public boolean isFailed()
-'''
-pass
+    '''    public boolean isFailed()
+    '''
 def getDeclared():
-'''public boolean getDeclared()
-'''
-pass
+    '''    public boolean getDeclared()
+    '''
 def getID():
-'''public int getID()
-'''
-pass
+    '''    public int getID()
+    '''
 def getSourceStart():
-'''public int getSourceStart()
-'''
-pass
+    '''    public int getSourceStart()
+    '''
 def getSourceEnd():
-'''public int getSourceEnd()
-'''
-pass
+    '''    public int getSourceEnd()
+    '''
 def getThrown():
-'''public Throwable getThrown()
-'''
-pass
+    '''    public Throwable getThrown()
+    '''
 def getSourceLocation():
-'''public ISourceLocation getSourceLocation()
-'''
-pass
+    '''    public ISourceLocation getSourceLocation()
+    '''
 def getDetails():
-'''public String getDetails()
-'''
-pass
+    '''    public String getDetails()
+    '''
 def getExtraSourceLocations():
-'''public List getExtraSourceLocations()
-'''
-pass
+    '''    public List getExtraSourceLocations()
+    '''

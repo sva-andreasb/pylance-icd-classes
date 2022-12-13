@@ -1,8 +1,6 @@
 def LayoutSet():
-'''public LayoutSet(final MboServerInterface ms)
-'''
-pass
+    '''    public LayoutSet(final MboServerInterface ms)
+    '''
 def displayConfiguration():
-'''public void displayConfiguration()
-'''
-pass
+    '''    public void displayConfiguration()
+    '''

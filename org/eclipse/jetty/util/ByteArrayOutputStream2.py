@@ -1,25 +1,19 @@
 def ByteArrayOutputStream2():
-'''public ByteArrayOutputStream2()
-public ByteArrayOutputStream2(final int size)
-'''
-pass
+    '''    public ByteArrayOutputStream2()
+    public ByteArrayOutputStream2(final int size)
+    '''
 def getBuf():
-'''public byte[] getBuf()
-'''
-pass
+    '''    public byte[] getBuf()
+    '''
 def getCount():
-'''public int getCount()
-'''
-pass
+    '''    public int getCount()
+    '''
 def setCount():
-'''public void setCount(final int count)
-'''
-pass
+    '''    public void setCount(final int count)
+    '''
 def reset():
-'''public void reset(final int minSize)
-'''
-pass
+    '''    public void reset(final int minSize)
+    '''
 def writeUnchecked():
-'''public void writeUnchecked(final int b)
-'''
-pass
+    '''    public void writeUnchecked(final int b)
+    '''

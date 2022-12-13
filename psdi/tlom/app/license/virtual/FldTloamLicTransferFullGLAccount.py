@@ -1,8 +1,6 @@
 def FldTloamLicTransferFullGLAccount():
-'''public FldTloamLicTransferFullGLAccount(final MboValue mbv)
-'''
-pass
+    '''    public FldTloamLicTransferFullGLAccount(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

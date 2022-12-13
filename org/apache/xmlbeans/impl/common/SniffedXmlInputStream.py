@@ -1,8 +1,6 @@
 def SniffedXmlInputStream():
-'''public SniffedXmlInputStream(final InputStream stream)
-'''
-pass
+    '''    public SniffedXmlInputStream(final InputStream stream)
+    '''
 def getXmlEncoding():
-'''public String getXmlEncoding()
-'''
-pass
+    '''    public String getXmlEncoding()
+    '''

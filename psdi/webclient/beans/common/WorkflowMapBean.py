@@ -1,28 +1,21 @@
 def getMapURL():
-'''public String getMapURL()
-'''
-pass
+    '''    public String getMapURL()
+    '''
 def nextlevel():
-'''public int nextlevel()
-'''
-pass
+    '''    public int nextlevel()
+    '''
 def prevlevel():
-'''public int prevlevel()
-'''
-pass
+    '''    public int prevlevel()
+    '''
 def fireDataChangedEvent():
-'''public synchronized void fireDataChangedEvent()
-'''
-pass
+    '''    public synchronized void fireDataChangedEvent()
+    '''
 def fireStructureChangedEvent():
-'''public synchronized void fireStructureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public synchronized void fireStructureChangedEvent(final DataBean speaker)
+    '''
 def hasPrevLevel():
-'''public boolean hasPrevLevel()
-'''
-pass
+    '''    public boolean hasPrevLevel()
+    '''
 def hasNextLevel():
-'''public boolean hasNextLevel()
-'''
-pass
+    '''    public boolean hasNextLevel()
+    '''

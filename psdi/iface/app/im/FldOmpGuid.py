@@ -1,8 +1,6 @@
 def FldOmpGuid():
-'''public FldOmpGuid(final MboValue mbv)
-'''
-pass
+    '''    public FldOmpGuid(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,21 +1,16 @@
 def BaseResultIterator():
-'''public BaseResultIterator(final ResultSet resultSet_, final RowHandler<T> singleRowHandler_)
-public BaseResultIterator(final ResultSet resultSet_, final RowHandler<T> singleRowHandler_, final Object[] methodParameters_)
-'''
-pass
+    '''    public BaseResultIterator(final ResultSet resultSet_, final RowHandler<T> singleRowHandler_)
+    public BaseResultIterator(final ResultSet resultSet_, final RowHandler<T> singleRowHandler_, final Object[] methodParameters_)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public T next()
-'''
-pass
+    '''    public T next()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

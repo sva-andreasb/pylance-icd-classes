@@ -1,16 +1,12 @@
 def DowntimeReport():
-'''public DowntimeReport(final MboSet ms)
-'''
-pass
+    '''    public DowntimeReport(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def getAssetMbo():
-'''public AssetRemote getAssetMbo()
-'''
-pass
+    '''    public AssetRemote getAssetMbo()
+    '''

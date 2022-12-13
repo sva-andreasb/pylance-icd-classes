@@ -1,21 +1,16 @@
 def schemaVersions():
-'''public static Schema[] schemaVersions()
-'''
-pass
+    '''    public static Schema[] schemaVersions()
+    '''
 def UpdateMetadataResponse():
-'''public UpdateMetadataResponse(final Errors error)
-public UpdateMetadataResponse(final Struct struct)
-'''
-pass
+    '''    public UpdateMetadataResponse(final Errors error)
+    public UpdateMetadataResponse(final Struct struct)
+    '''
 def error():
-'''public Errors error()
-'''
-pass
+    '''    public Errors error()
+    '''
 def errorCounts():
-'''public Map<Errors, Integer> errorCounts()
-'''
-pass
+    '''    public Map<Errors, Integer> errorCounts()
+    '''
 def parse():
-'''public static UpdateMetadataResponse parse(final ByteBuffer buffer, final short version)
-'''
-pass
+    '''    public static UpdateMetadataResponse parse(final ByteBuffer buffer, final short version)
+    '''

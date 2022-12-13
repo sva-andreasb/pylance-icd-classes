@@ -1,8 +1,6 @@
 def FldMatRecTransUnInvoicedCost():
-'''public FldMatRecTransUnInvoicedCost(final MboValue mbv)
-'''
-pass
+    '''    public FldMatRecTransUnInvoicedCost(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

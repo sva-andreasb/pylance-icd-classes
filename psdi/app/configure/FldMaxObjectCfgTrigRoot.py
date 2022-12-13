@@ -1,8 +1,6 @@
 def FldMaxObjectCfgTrigRoot():
-'''public FldMaxObjectCfgTrigRoot(final MboValue mbv)
-'''
-pass
+    '''    public FldMaxObjectCfgTrigRoot(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,105 +1,79 @@
 def SelectChannelEndPoint():
-'''public SelectChannelEndPoint(final SocketChannel channel, final SelectorManager.SelectSet selectSet, final SelectionKey key, final int maxIdleTime)
-'''
-pass
+    '''    public SelectChannelEndPoint(final SocketChannel channel, final SelectorManager.SelectSet selectSet, final SelectionKey key, final int maxIdleTime)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def getSelectionKey():
-'''public SelectionKey getSelectionKey()
-'''
-pass
+    '''    public SelectionKey getSelectionKey()
+    '''
 def getSelectManager():
-'''public SelectorManager getSelectManager()
-'''
-pass
+    '''    public SelectorManager getSelectManager()
+    '''
 def getConnection():
-'''public Connection getConnection()
-'''
-pass
+    '''    public Connection getConnection()
+    '''
 def setConnection():
-'''public void setConnection(final Connection connection)
-'''
-pass
+    '''    public void setConnection(final Connection connection)
+    '''
 def getIdleTimestamp():
-'''public long getIdleTimestamp()
-'''
-pass
+    '''    public long getIdleTimestamp()
+    '''
 def schedule():
-'''public void schedule()
-'''
-pass
+    '''    public void schedule()
+    '''
 def asyncDispatch():
-'''public void asyncDispatch()
-'''
-pass
+    '''    public void asyncDispatch()
+    '''
 def dispatch():
-'''public void dispatch()
-'''
-pass
+    '''    public void dispatch()
+    '''
 def cancelTimeout():
-'''public void cancelTimeout(final Timeout.Task task)
-'''
-pass
+    '''    public void cancelTimeout(final Timeout.Task task)
+    '''
 def scheduleTimeout():
-'''public void scheduleTimeout(final Timeout.Task task, final long timeoutMs)
-'''
-pass
+    '''    public void scheduleTimeout(final Timeout.Task task, final long timeoutMs)
+    '''
 def setCheckForIdle():
-'''public void setCheckForIdle(final boolean check)
-'''
-pass
+    '''    public void setCheckForIdle(final boolean check)
+    '''
 def isCheckForIdle():
-'''public boolean isCheckForIdle()
-'''
-pass
+    '''    public boolean isCheckForIdle()
+    '''
 def checkIdleTimestamp():
-'''public void checkIdleTimestamp(final long now)
-'''
-pass
+    '''    public void checkIdleTimestamp(final long now)
+    '''
 def onIdleExpired():
-'''public void onIdleExpired(final long idleForMs)
-'''
-pass
+    '''    public void onIdleExpired(final long idleForMs)
+    '''
 def fill():
-'''public int fill(final Buffer buffer)
-'''
-pass
+    '''    public int fill(final Buffer buffer)
+    '''
 def flush():
-'''public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
-public int flush(final Buffer buffer)
-'''
-pass
+    '''    public int flush(final Buffer header, final Buffer buffer, final Buffer trailer)
+    public int flush(final Buffer buffer)
+    '''
 def blockReadable():
-'''public boolean blockReadable(final long timeoutMs)
-'''
-pass
+    '''    public boolean blockReadable(final long timeoutMs)
+    '''
 def blockWritable():
-'''public boolean blockWritable(final long timeoutMs)
-'''
-pass
+    '''    public boolean blockWritable(final long timeoutMs)
+    '''
 def scheduleWrite():
-'''public void scheduleWrite()
-'''
-pass
+    '''    public void scheduleWrite()
+    '''
 def isWritable():
-'''public boolean isWritable()
-'''
-pass
+    '''    public boolean isWritable()
+    '''
 def hasProgressed():
-'''public boolean hasProgressed()
-'''
-pass
+    '''    public boolean hasProgressed()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setMaxIdleTime():
-'''public void setMaxIdleTime(final int timeMs)
-'''
-pass
+    '''    public void setMaxIdleTime(final int timeMs)
+    '''

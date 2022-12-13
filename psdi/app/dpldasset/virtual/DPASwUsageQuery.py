@@ -1,4 +1,3 @@
 def DPASwUsageQuery():
-'''public DPASwUsageQuery(final MboSet ms)
-'''
-pass
+    '''    public DPASwUsageQuery(final MboSet ms)
+    '''

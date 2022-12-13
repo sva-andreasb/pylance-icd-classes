@@ -1,80 +1,60 @@
 def CreateReportRelationshipInfo():
-'''public CreateReportRelationshipInfo()
-'''
-pass
+    '''    public CreateReportRelationshipInfo()
+    '''
 def getParentObjectID():
-'''public int getParentObjectID()
-'''
-pass
+    '''    public int getParentObjectID()
+    '''
 def setParentObjectID():
-'''public void setParentObjectID(final int parentObjectID)
-'''
-pass
+    '''    public void setParentObjectID(final int parentObjectID)
+    '''
 def getParentObjectName():
-'''public String getParentObjectName()
-'''
-pass
+    '''    public String getParentObjectName()
+    '''
 def setParentObjectName():
-'''public void setParentObjectName(final String mboName)
-'''
-pass
+    '''    public void setParentObjectName(final String mboName)
+    '''
 def getChildObjectID():
-'''public int getChildObjectID()
-'''
-pass
+    '''    public int getChildObjectID()
+    '''
 def setChildObjectID():
-'''public void setChildObjectID(final int childObjectID)
-'''
-pass
+    '''    public void setChildObjectID(final int childObjectID)
+    '''
 def getChildObjectName():
-'''public String getChildObjectName()
-'''
-pass
+    '''    public String getChildObjectName()
+    '''
 def setChildObjectName():
-'''public void setChildObjectName(final String mboName)
-'''
-pass
+    '''    public void setChildObjectName(final String mboName)
+    '''
 def getParentEntityName():
-'''public String getParentEntityName()
-'''
-pass
+    '''    public String getParentEntityName()
+    '''
 def setParentEntityName():
-'''public void setParentEntityName(final String entityName)
-'''
-pass
+    '''    public void setParentEntityName(final String entityName)
+    '''
 def getChildEntityName():
-'''public String getChildEntityName()
-'''
-pass
+    '''    public String getChildEntityName()
+    '''
 def setChildEntityName():
-'''public void setChildEntityName(final String entityName)
-'''
-pass
+    '''    public void setChildEntityName(final String entityName)
+    '''
 def getChildViewName():
-'''public String getChildViewName()
-'''
-pass
+    '''    public String getChildViewName()
+    '''
 def setChildViewName():
-'''public void setChildViewName(final String viewName)
-'''
-pass
+    '''    public void setChildViewName(final String viewName)
+    '''
 def getWhereClause():
-'''public String getWhereClause()
-'''
-pass
+    '''    public String getWhereClause()
+    '''
 def setWhereClause():
-'''public void setWhereClause(final String whereClause)
-'''
-pass
+    '''    public void setWhereClause(final String whereClause)
+    '''
 def isRequired():
-'''public boolean isRequired()
-'''
-pass
+    '''    public boolean isRequired()
+    '''
 def setRequired():
-'''public void setRequired(final boolean required)
-'''
-pass
+    '''    public void setRequired(final boolean required)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''

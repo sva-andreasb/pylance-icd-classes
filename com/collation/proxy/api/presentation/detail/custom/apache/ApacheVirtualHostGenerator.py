@@ -1,8 +1,6 @@
 def ApacheVirtualHostGenerator():
-'''public ApacheVirtualHostGenerator()
-'''
-pass
+    '''    public ApacheVirtualHostGenerator()
+    '''
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''

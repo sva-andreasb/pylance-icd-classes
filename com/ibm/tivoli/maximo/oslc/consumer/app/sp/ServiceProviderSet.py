@@ -1,4 +1,3 @@
 def ServiceProviderSet():
-'''public ServiceProviderSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ServiceProviderSet(final MboServerInterface ms)
+    '''

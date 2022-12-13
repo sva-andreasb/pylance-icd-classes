@@ -1,16 +1,12 @@
 def getNumberInUseConnection():
-'''public int getNumberInUseConnection()
-'''
-pass
+    '''    public int getNumberInUseConnection()
+    '''
 def getNumberFreeConnection():
-'''public int getNumberFreeConnection()
-'''
-pass
+    '''    public int getNumberFreeConnection()
+    '''
 def getMaxWaitTime():
-'''public int getMaxWaitTime()
-'''
-pass
+    '''    public int getMaxWaitTime()
+    '''
 def parseMonitoredWebsphereData():
-'''public static MonitoredWebsphereData parseMonitoredWebsphereData(final JSONArray jsonArray)
-'''
-pass
+    '''    public static MonitoredWebsphereData parseMonitoredWebsphereData(final JSONArray jsonArray)
+    '''

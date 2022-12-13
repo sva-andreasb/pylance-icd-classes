@@ -1,60 +1,45 @@
 def CloneApp():
-'''public CloneApp()
-'''
-pass
+    '''    public CloneApp()
+    '''
 def main():
-'''public static void main(final String[] argv)
-'''
-pass
+    '''    public static void main(final String[] argv)
+    '''
 def setUsername():
-'''public void setUsername(final String s)
-'''
-pass
+    '''    public void setUsername(final String s)
+    '''
 def setPassword():
-'''public void setPassword(final String s)
-'''
-pass
+    '''    public void setPassword(final String s)
+    '''
 def setDriver():
-'''public void setDriver(final String s)
-'''
-pass
+    '''    public void setDriver(final String s)
+    '''
 def setUrl():
-'''public void setUrl(final String s)
-'''
-pass
+    '''    public void setUrl(final String s)
+    '''
 def setJspRoot():
-'''public void setJspRoot(final String s)
-'''
-pass
+    '''    public void setJspRoot(final String s)
+    '''
 def setNewAppFolder():
-'''public void setNewAppFolder(final String s)
-'''
-pass
+    '''    public void setNewAppFolder(final String s)
+    '''
 def setOrigAppFolder():
-'''public void setOrigAppFolder(final String s)
-'''
-pass
+    '''    public void setOrigAppFolder(final String s)
+    '''
 def setModule():
-'''public void setModule(final String s)
-'''
-pass
+    '''    public void setModule(final String s)
+    '''
 def setPosition():
-'''public void setPosition(final String s)
-'''
-pass
+    '''    public void setPosition(final String s)
+    '''
 def setOutputFile():
-'''public void setOutputFile(final String s)
-'''
-pass
+    '''    public void setOutputFile(final String s)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def updateDB():
-'''public void updateDB()
-'''
-pass
+    '''    public void updateDB()
+    '''
 def generateAppFiles():
-'''public void generateAppFiles()
-'''
-pass
+    '''    public void generateAppFiles()
+    '''

@@ -1,8 +1,6 @@
 def FldSKDProjectRefreshDispatchInterval():
-'''public FldSKDProjectRefreshDispatchInterval(final MboValue mbv)
-'''
-pass
+    '''    public FldSKDProjectRefreshDispatchInterval(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,4 +1,3 @@
 def receivedEditorEvent():
-'''public void receivedEditorEvent(final FormEditorEvent formEditorEvent)
-'''
-pass
+    '''    public void receivedEditorEvent(final FormEditorEvent formEditorEvent)
+    '''

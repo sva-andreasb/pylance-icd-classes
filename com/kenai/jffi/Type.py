@@ -1,26 +1,20 @@
 def Type():
-'''public Type()
-'''
-pass
+    '''    public Type()
+    '''
 def type():
-'''public final int type()
-'''
-pass
+    '''    public final int type()
+    '''
 def size():
-'''public final int size()
-'''
-pass
+    '''    public final int size()
+    '''
 def alignment():
-'''public final int alignment()
-'''
-pass
+    '''    public final int alignment()
+    '''
 def equals():
-'''public boolean equals(final Object obj)
-public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object obj)
+    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''

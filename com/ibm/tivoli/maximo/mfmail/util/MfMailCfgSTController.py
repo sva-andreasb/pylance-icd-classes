@@ -1,28 +1,21 @@
 def MfMailCfgSTController():
-'''public MfMailCfgSTController(final MfMailCfgRemote config)
-'''
-pass
+    '''    public MfMailCfgSTController(final MfMailCfgRemote config)
+    '''
 def getActivator():
-'''public MfMailCfgActivator getActivator()
-'''
-pass
+    '''    public MfMailCfgActivator getActivator()
+    '''
 def getBaseNames():
-'''public String[] getBaseNames()
-'''
-pass
+    '''    public String[] getBaseNames()
+    '''
 def propagateActivateConfiguration():
-'''public void propagateActivateConfiguration(final boolean isActive)
-'''
-pass
+    '''    public void propagateActivateConfiguration(final boolean isActive)
+    '''
 def deleteAllChildren():
-'''public void deleteAllChildren(final long accessModifier)
-'''
-pass
+    '''    public void deleteAllChildren(final long accessModifier)
+    '''
 def getChildBaseName():
-'''public String getChildBaseName()
-'''
-pass
+    '''    public String getChildBaseName()
+    '''
 def getGrandChildBaseName():
-'''public String getGrandChildBaseName()
-'''
-pass
+    '''    public String getGrandChildBaseName()
+    '''

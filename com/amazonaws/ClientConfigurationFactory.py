@@ -1,4 +1,3 @@
 def getConfig():
-'''public final ClientConfiguration getConfig()
-'''
-pass
+    '''    public final ClientConfiguration getConfig()
+    '''

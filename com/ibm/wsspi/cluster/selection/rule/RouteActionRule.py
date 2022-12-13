@@ -1,28 +1,21 @@
 def RouteActionRule():
-'''public RouteActionRule(final List<TimePeriodRule> tpRules)
-'''
-pass
+    '''    public RouteActionRule(final List<TimePeriodRule> tpRules)
+    '''
 def subset():
-'''public void subset(final List identities, final StringBuffer reason)
-'''
-pass
+    '''    public void subset(final List identities, final StringBuffer reason)
+    '''
 def registerRuleArbitrator():
-'''public void registerRuleArbitrator(final RuleArbitrator coordinator)
-'''
-pass
+    '''    public void registerRuleArbitrator(final RuleArbitrator coordinator)
+    '''
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setDestroy():
-'''public void setDestroy()
-'''
-pass
+    '''    public void setDestroy()
+    '''

@@ -1,8 +1,6 @@
 def FldCommTmpltTrackFailedMsgs():
-'''public FldCommTmpltTrackFailedMsgs(final MboValue mbv)
-'''
-pass
+    '''    public FldCommTmpltTrackFailedMsgs(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

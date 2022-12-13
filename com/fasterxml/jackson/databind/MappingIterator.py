@@ -1,40 +1,30 @@
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public T next()
-'''
-pass
+    '''    public T next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def hasNextValue():
-'''public boolean hasNextValue()
-'''
-pass
+    '''    public boolean hasNextValue()
+    '''
 def nextValue():
-'''public T nextValue()
-'''
-pass
+    '''    public T nextValue()
+    '''
 def readAll():
-'''public List<T> readAll()
-'''
-pass
+    '''    public List<T> readAll()
+    '''
 def getParser():
-'''public JsonParser getParser()
-'''
-pass
+    '''    public JsonParser getParser()
+    '''
 def getParserSchema():
-'''public FormatSchema getParserSchema()
-'''
-pass
+    '''    public FormatSchema getParserSchema()
+    '''
 def getCurrentLocation():
-'''public JsonLocation getCurrentLocation()
-'''
-pass
+    '''    public JsonLocation getCurrentLocation()
+    '''

@@ -1,8 +1,6 @@
 def DeployedAsset():
-'''public DeployedAsset(final MboSet ms)
-'''
-pass
+    '''    public DeployedAsset(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

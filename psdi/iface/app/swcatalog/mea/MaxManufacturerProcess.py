@@ -1,8 +1,6 @@
 def MaxManufacturerProcess():
-'''public MaxManufacturerProcess()
-'''
-pass
+    '''    public MaxManufacturerProcess()
+    '''
 def checkBusinessRules():
-'''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
-'''
-pass
+    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''

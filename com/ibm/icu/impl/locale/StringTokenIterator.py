@@ -1,40 +1,30 @@
 def StringTokenIterator():
-'''public StringTokenIterator(final String text, final String dlms)
-'''
-pass
+    '''    public StringTokenIterator(final String text, final String dlms)
+    '''
 def first():
-'''public String first()
-'''
-pass
+    '''    public String first()
+    '''
 def current():
-'''public String current()
-'''
-pass
+    '''    public String current()
+    '''
 def currentStart():
-'''public int currentStart()
-'''
-pass
+    '''    public int currentStart()
+    '''
 def currentEnd():
-'''public int currentEnd()
-'''
-pass
+    '''    public int currentEnd()
+    '''
 def isDone():
-'''public boolean isDone()
-'''
-pass
+    '''    public boolean isDone()
+    '''
 def next():
-'''public String next()
-'''
-pass
+    '''    public String next()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def setStart():
-'''public StringTokenIterator setStart(final int offset)
-'''
-pass
+    '''    public StringTokenIterator setStart(final int offset)
+    '''
 def setText():
-'''public StringTokenIterator setText(final String text)
-'''
-pass
+    '''    public StringTokenIterator setText(final String text)
+    '''

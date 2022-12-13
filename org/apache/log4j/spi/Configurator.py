@@ -1,2 +1,2 @@
-INHERITED = "String  inherited""
-NULL = "String  null""
+INHERITED = "String  \"inherited\""
+NULL = "String  \"null\""

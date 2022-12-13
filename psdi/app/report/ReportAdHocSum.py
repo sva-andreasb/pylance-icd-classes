@@ -1,4 +1,3 @@
 def ReportAdHocSum():
-'''public ReportAdHocSum(final MboSet ms)
-'''
-pass
+    '''    public ReportAdHocSum(final MboSet ms)
+    '''

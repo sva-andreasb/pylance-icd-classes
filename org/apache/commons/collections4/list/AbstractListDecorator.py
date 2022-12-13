@@ -1,45 +1,34 @@
 def equals():
-'''public boolean equals(final Object object)
-'''
-pass
+    '''    public boolean equals(final Object object)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def add():
-'''public void add(final int index, final E object)
-'''
-pass
+    '''    public void add(final int index, final E object)
+    '''
 def addAll():
-'''public boolean addAll(final int index, final Collection<? extends E> coll)
-'''
-pass
+    '''    public boolean addAll(final int index, final Collection<? extends E> coll)
+    '''
 def get():
-'''public E get(final int index)
-'''
-pass
+    '''    public E get(final int index)
+    '''
 def indexOf():
-'''public int indexOf(final Object object)
-'''
-pass
+    '''    public int indexOf(final Object object)
+    '''
 def lastIndexOf():
-'''public int lastIndexOf(final Object object)
-'''
-pass
+    '''    public int lastIndexOf(final Object object)
+    '''
 def listIterator():
-'''public ListIterator<E> listIterator()
-public ListIterator<E> listIterator(final int index)
-'''
-pass
+    '''    public ListIterator<E> listIterator()
+    public ListIterator<E> listIterator(final int index)
+    '''
 def remove():
-'''public E remove(final int index)
-'''
-pass
+    '''    public E remove(final int index)
+    '''
 def set():
-'''public E set(final int index, final E object)
-'''
-pass
+    '''    public E set(final int index, final E object)
+    '''
 def subList():
-'''public List<E> subList(final int fromIndex, final int toIndex)
-'''
-pass
+    '''    public List<E> subList(final int fromIndex, final int toIndex)
+    '''

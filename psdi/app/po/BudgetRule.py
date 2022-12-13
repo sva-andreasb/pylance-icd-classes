@@ -1,80 +1,60 @@
 def BudgetRule():
-'''public BudgetRule(final MboSet ms)
-'''
-pass
+    '''    public BudgetRule(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getOperator():
-'''public Operator getOperator()
-'''
-pass
+    '''    public Operator getOperator()
+    '''
 def getObjectName():
-'''public String getObjectName()
-'''
-pass
+    '''    public String getObjectName()
+    '''
 def getOrgID():
-'''public String getOrgID()
-'''
-pass
+    '''    public String getOrgID()
+    '''
 def getAttributeName():
-'''public String getAttributeName()
-'''
-pass
+    '''    public String getAttributeName()
+    '''
 def getRelation2Owner():
-'''public String getRelation2Owner()
-'''
-pass
+    '''    public String getRelation2Owner()
+    '''
 def getCondition():
-'''public MaxCondition getCondition()
-'''
-pass
+    '''    public MaxCondition getCondition()
+    '''
 def getAssocations():
-'''public BudgetRuleAssociationSetRemote getAssocations()
-'''
-pass
+    '''    public BudgetRuleAssociationSetRemote getAssocations()
+    '''
 def getTransactionsDates():
-'''public BudgetRuleTransactionDateSetRemote getTransactionsDates()
-'''
-pass
+    '''    public BudgetRuleTransactionDateSetRemote getTransactionsDates()
+    '''
 def getTransactions():
-'''public MboSetRemote getTransactions()
-'''
-pass
+    '''    public MboSetRemote getTransactions()
+    '''
 def getBudgetCodeAttributeName():
-'''public String getBudgetCodeAttributeName(final String analysisAxis)
-'''
-pass
+    '''    public String getBudgetCodeAttributeName(final String analysisAxis)
+    '''
 def getWhereClause4FlaggedTransactions():
-'''public String getWhereClause4FlaggedTransactions()
-'''
-pass
+    '''    public String getWhereClause4FlaggedTransactions()
+    '''
 def getWhereClause4UnFlaggedTransactions():
-'''public String getWhereClause4UnFlaggedTransactions(final Period period)
-'''
-pass
+    '''    public String getWhereClause4UnFlaggedTransactions(final Period period)
+    '''
 def getWhereClause4UnFlaggedTransactions2():
-'''public String getWhereClause4UnFlaggedTransactions2(final Period period)
-'''
-pass
+    '''    public String getWhereClause4UnFlaggedTransactions2(final Period period)
+    '''
 def getAssociationForAxis():
-'''public BudgetRuleAssociationRemote getAssociationForAxis(final String analysisAxis)
-'''
-pass
+    '''    public BudgetRuleAssociationRemote getAssociationForAxis(final String analysisAxis)
+    '''
 def getBudgetCodeForTransaction():
-'''public String getBudgetCodeForTransaction(final MboRemote transaction)
-'''
-pass
+    '''    public String getBudgetCodeForTransaction(final MboRemote transaction)
+    '''
 def getBudgetRuleNum():
-'''public String getBudgetRuleNum()
-'''
-pass
+    '''    public String getBudgetRuleNum()
+    '''
 def hasAllAssociationForAxes():
-'''public boolean hasAllAssociationForAxes(final BudgetAnalysisAxisNumberSetRemote axes)
-'''
-pass
+    '''    public boolean hasAllAssociationForAxes(final BudgetAnalysisAxisNumberSetRemote axes)
+    '''

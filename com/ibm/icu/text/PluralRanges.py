@@ -1,56 +1,43 @@
 def PluralRanges():
-'''public PluralRanges()
-'''
-pass
+    '''    public PluralRanges()
+    '''
 def add():
-'''public void add(final StandardPlural rangeStart, final StandardPlural rangeEnd, final StandardPlural result)
-'''
-pass
+    '''    public void add(final StandardPlural rangeStart, final StandardPlural rangeEnd, final StandardPlural result)
+    '''
 def get():
-'''public StandardPlural get(final StandardPlural start, final StandardPlural end)
-'''
-pass
+    '''    public StandardPlural get(final StandardPlural start, final StandardPlural end)
+    '''
 def isExplicit():
-'''public boolean isExplicit(final StandardPlural start, final StandardPlural end)
-'''
-pass
+    '''    public boolean isExplicit(final StandardPlural start, final StandardPlural end)
+    '''
 def isExplicitlySet():
-'''public boolean isExplicitlySet(final StandardPlural count)
-'''
-pass
+    '''    public boolean isExplicitlySet(final StandardPlural count)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    public boolean equals(final Object other)
+    '''
 def hashCode():
-'''public int hashCode()
-public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    public int hashCode()
+    '''
 def compareTo():
-'''public int compareTo(final PluralRanges that)
-public int compareTo(final Matrix o)
-'''
-pass
+    '''    public int compareTo(final PluralRanges that)
+    public int compareTo(final Matrix o)
+    '''
 def isFrozen():
-'''public boolean isFrozen()
-'''
-pass
+    '''    public boolean isFrozen()
+    '''
 def freeze():
-'''public PluralRanges freeze()
-'''
-pass
+    '''    public PluralRanges freeze()
+    '''
 def cloneAsThawed():
-'''public PluralRanges cloneAsThawed()
-'''
-pass
+    '''    public PluralRanges cloneAsThawed()
+    '''
 def toString():
-'''public String toString()
-public String toString()
-'''
-pass
+    '''    public String toString()
+    public String toString()
+    '''
 def clone():
-'''public Matrix clone()
-'''
-pass
+    '''    public Matrix clone()
+    '''

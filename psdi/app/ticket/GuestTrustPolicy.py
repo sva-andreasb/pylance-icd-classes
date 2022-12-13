@@ -1,4 +1,3 @@
 def GuestTrustPolicy():
-'''public GuestTrustPolicy(final MboSet ms)
-'''
-pass
+    '''    public GuestTrustPolicy(final MboSet ms)
+    '''

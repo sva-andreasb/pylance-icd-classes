@@ -3,46 +3,35 @@ TIFF_COMPRESSION_CCITT4 = "int  1"
 TIFF_COMPRESSION_CCITT3 = "int  2"
 TIFF_COMPRESSION_NONE = "int  4"
 def ImageSaveOptions():
-'''public ImageSaveOptions()
-'''
-pass
+    '''    public ImageSaveOptions()
+    '''
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''
 def setWidth():
-'''public void setWidth(final int width)
-'''
-pass
+    '''    public void setWidth(final int width)
+    '''
 def getHeight():
-'''public int getHeight()
-'''
-pass
+    '''    public int getHeight()
+    '''
 def setHeight():
-'''public void setHeight(final int height)
-'''
-pass
+    '''    public void setHeight(final int height)
+    '''
 def isUseMultipagesTiff():
-'''public boolean isUseMultipagesTiff()
-'''
-pass
+    '''    public boolean isUseMultipagesTiff()
+    '''
 def setUseMultipagesTiff():
-'''public void setUseMultipagesTiff(final boolean useMultipagesTiff)
-'''
-pass
+    '''    public void setUseMultipagesTiff(final boolean useMultipagesTiff)
+    '''
 def getResolution():
-'''public int getResolution()
-'''
-pass
+    '''    public int getResolution()
+    '''
 def setResolution():
-'''public void setResolution(final int resolution)
-'''
-pass
+    '''    public void setResolution(final int resolution)
+    '''
 def getMultipageTiffCompression():
-'''public int getMultipageTiffCompression()
-'''
-pass
+    '''    public int getMultipageTiffCompression()
+    '''
 def setMultipageTiffCompression():
-'''public void setMultipageTiffCompression(final int multipageTiffCompression)
-'''
-pass
+    '''    public void setMultipageTiffCompression(final int multipageTiffCompression)
+    '''

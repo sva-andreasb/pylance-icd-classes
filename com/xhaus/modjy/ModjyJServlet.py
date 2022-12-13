@@ -1,12 +1,9 @@
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def service():
-'''public void service(final HttpServletRequest req, final HttpServletResponse resp)
-'''
-pass
+    '''    public void service(final HttpServletRequest req, final HttpServletResponse resp)
+    '''
 def destroy():
-'''public void destroy()
-'''
-pass
+    '''    public void destroy()
+    '''

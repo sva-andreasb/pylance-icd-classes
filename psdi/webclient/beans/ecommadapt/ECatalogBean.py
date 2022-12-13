@@ -1,8 +1,6 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def searchcatalog():
-'''public int searchcatalog()
-'''
-pass
+    '''    public int searchcatalog()
+    '''

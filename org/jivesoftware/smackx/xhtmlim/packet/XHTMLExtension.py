@@ -1,34 +1,26 @@
-ELEMENT = "String  html""
-NAMESPACE = "String  http://jabber.org/protocol/xhtml-im""
+ELEMENT = "String  \"html\""
+NAMESPACE = "String  \"http://jabber.org/protocol/xhtml-im\""
 def XHTMLExtension():
-'''public XHTMLExtension()
-'''
-pass
+    '''    public XHTMLExtension()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def toXML():
-'''public XmlStringBuilder toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''
 def getBodies():
-'''public List<CharSequence> getBodies()
-'''
-pass
+    '''    public List<CharSequence> getBodies()
+    '''
 def addBody():
-'''public void addBody(final CharSequence body)
-'''
-pass
+    '''    public void addBody(final CharSequence body)
+    '''
 def getBodiesCount():
-'''public int getBodiesCount()
-'''
-pass
+    '''    public int getBodiesCount()
+    '''
 def from():
-'''public static XHTMLExtension from(final Message message)
-'''
-pass
+    '''    public static XHTMLExtension from(final Message message)
+    '''

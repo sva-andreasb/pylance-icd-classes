@@ -1,8 +1,6 @@
 def PlusPFldBSPeriod():
-'''public PlusPFldBSPeriod(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBSPeriod(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

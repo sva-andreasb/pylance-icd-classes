@@ -1,8 +1,6 @@
 def SolChangeStatus():
-'''public SolChangeStatus(final MboSet ms)
-'''
-pass
+    '''    public SolChangeStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

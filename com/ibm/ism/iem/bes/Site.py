@@ -1,48 +1,36 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String value)
-'''
-pass
+    '''    public void setName(final String value)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String value)
-'''
-pass
+    '''    public void setDescription(final String value)
+    '''
 def getDomain():
-'''public String getDomain()
-'''
-pass
+    '''    public String getDomain()
+    '''
 def setDomain():
-'''public void setDomain(final String value)
-'''
-pass
+    '''    public void setDomain(final String value)
+    '''
 def isGlobalReadPermission():
-'''public Boolean isGlobalReadPermission()
-'''
-pass
+    '''    public Boolean isGlobalReadPermission()
+    '''
 def setGlobalReadPermission():
-'''public void setGlobalReadPermission(final Boolean value)
-'''
-pass
+    '''    public void setGlobalReadPermission(final Boolean value)
+    '''
 def getSubscriptionMode():
-'''public String getSubscriptionMode()
-'''
-pass
+    '''    public String getSubscriptionMode()
+    '''
 def setSubscriptionMode():
-'''public void setSubscriptionMode(final String value)
-'''
-pass
+    '''    public void setSubscriptionMode(final String value)
+    '''
 def getSiteRelevance():
-'''public String getSiteRelevance()
-'''
-pass
+    '''    public String getSiteRelevance()
+    '''
 def setSiteRelevance():
-'''public void setSiteRelevance(final String value)
-'''
-pass
+    '''    public void setSiteRelevance(final String value)
+    '''

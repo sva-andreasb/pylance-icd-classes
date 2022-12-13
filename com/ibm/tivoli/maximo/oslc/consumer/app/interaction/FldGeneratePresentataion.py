@@ -1,8 +1,6 @@
 def FldGeneratePresentataion():
-'''public FldGeneratePresentataion(final MboValue mbv)
-'''
-pass
+    '''    public FldGeneratePresentataion(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

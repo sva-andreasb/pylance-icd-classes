@@ -1,36 +1,27 @@
 def Messagebox():
-'''public Messagebox()
-'''
-pass
+    '''    public Messagebox()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def dialogok():
-'''public int dialogok()
-'''
-pass
+    '''    public int dialogok()
+    '''
 def dialogcancel():
-'''public int dialogcancel()
-'''
-pass
+    '''    public int dialogcancel()
+    '''
 def dialogyes():
-'''public int dialogyes()
-'''
-pass
+    '''    public int dialogyes()
+    '''
 def dialogno():
-'''public int dialogno()
-'''
-pass
+    '''    public int dialogno()
+    '''
 def dialogclose():
-'''public int dialogclose()
-'''
-pass
+    '''    public int dialogclose()
+    '''
 def dialogcloseOnly():
-'''public boolean dialogcloseOnly()
-'''
-pass
+    '''    public boolean dialogcloseOnly()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''

@@ -1,4 +1,3 @@
 def handle():
-'''public AmazonWebServiceResponse<HeadBucketResult> handle(final HttpResponse response)
-'''
-pass
+    '''    public AmazonWebServiceResponse<HeadBucketResult> handle(final HttpResponse response)
+    '''

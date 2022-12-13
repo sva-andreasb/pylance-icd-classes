@@ -1,4 +1,3 @@
 def ChatOpsUsersSet():
-'''public ChatOpsUsersSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ChatOpsUsersSet(final MboServerInterface ms)
+    '''

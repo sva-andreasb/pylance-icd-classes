@@ -1,129 +1,97 @@
 def ControlDataSourceImpl():
-'''public ControlDataSourceImpl(Service.ControllerType npx, final Map<String, Object> dataSourceDescriptorMap_, final String logicalName_, final String s, final String monitoredPortNumber_, final String monitoredDatabaseName_, final boolean b, final String monitoredLocationName_, final ProxiedJdbcDataSource registeredDatasourceOPM_)
-'''
-pass
+    '''    public ControlDataSourceImpl(Service.ControllerType npx, final Map<String, Object> dataSourceDescriptorMap_, final String logicalName_, final String s, final String monitoredPortNumber_, final String monitoredDatabaseName_, final boolean b, final String monitoredLocationName_, final ProxiedJdbcDataSource registeredDatasourceOPM_)
+    '''
 def updateCDSWithMonitorDataFromSP():
-'''public void updateCDSWithMonitorDataFromSP(final String s)
-'''
-pass
+    '''    public void updateCDSWithMonitorDataFromSP(final String s)
+    '''
 def initializeDataSourceLookupTask():
-'''public void initializeDataSourceLookupTask()
-'''
-pass
+    '''    public void initializeDataSourceLookupTask()
+    '''
 def hasInitialLookupOccurred():
-'''public boolean hasInitialLookupOccurred()
-'''
-pass
+    '''    public boolean hasInitialLookupOccurred()
+    '''
 def updateCDS():
-'''public void updateCDS(final String logicalName_, final String s, final String monitoredPortNumber_, final String monitoredDatabaseName_, final String monitoredLocationName_)
-'''
-pass
+    '''    public void updateCDS(final String logicalName_, final String s, final String monitoredPortNumber_, final String monitoredDatabaseName_, final String monitoredLocationName_)
+    '''
 def getMatchingKeySet():
-'''public int getMatchingKeySet()
-'''
-pass
+    '''    public int getMatchingKeySet()
+    '''
 def getDefaults():
-'''public Properties getDefaults()
-'''
-pass
+    '''    public Properties getDefaults()
+    '''
 def getLogicalName():
-'''public String getLogicalName()
-'''
-pass
+    '''    public String getLogicalName()
+    '''
 def getMonitoredServerName():
-'''public String getMonitoredServerName()
-'''
-pass
+    '''    public String getMonitoredServerName()
+    '''
 def getMonitoredServerHostname():
-'''public String getMonitoredServerHostname()
-'''
-pass
+    '''    public String getMonitoredServerHostname()
+    '''
 def getMonitoredPortNumber():
-'''public String getMonitoredPortNumber()
-'''
-pass
+    '''    public String getMonitoredPortNumber()
+    '''
 def getMonitoredDatabaseName():
-'''public String getMonitoredDatabaseName()
-'''
-pass
+    '''    public String getMonitoredDatabaseName()
+    '''
 def getMonitoredLocationName():
-'''public String getMonitoredLocationName()
-'''
-pass
+    '''    public String getMonitoredLocationName()
+    '''
 def getDataSourceDescriptorMap():
-'''public Map<String, Object> getDataSourceDescriptorMap()
-'''
-pass
+    '''    public Map<String, Object> getDataSourceDescriptorMap()
+    '''
 def getDataSourceId():
-'''public String getDataSourceId()
-'''
-pass
+    '''    public String getDataSourceId()
+    '''
 def getOverrides():
-'''public Properties getOverrides()
-'''
-pass
+    '''    public Properties getOverrides()
+    '''
 def containsPropertyValue():
-'''public boolean containsPropertyValue(final String key)
-'''
-pass
+    '''    public boolean containsPropertyValue(final String key)
+    '''
 def getPropertyValue():
-'''public String getPropertyValue(final String s, final String s2)
-public int getPropertyValue(final String s, final int n)
-'''
-pass
+    '''    public String getPropertyValue(final String s, final String s2)
+    public int getPropertyValue(final String s, final int n)
+    '''
 def getVersion():
-'''public int getVersion()
-'''
-pass
+    '''    public int getVersion()
+    '''
 def doInitialLookup():
-'''public void doInitialLookup(final boolean b)
-'''
-pass
+    '''    public void doInitialLookup(final boolean b)
+    '''
 def getControllerAgent():
-'''public ControllerAgent getControllerAgent()
-'''
-pass
+    '''    public ControllerAgent getControllerAgent()
+    '''
 def getOPMControllerVersion():
-'''public int getOPMControllerVersion()
-'''
-pass
+    '''    public int getOPMControllerVersion()
+    '''
 def registerDataSourceForUpdates():
-'''public void registerDataSourceForUpdates(final ProxiedJdbcDataSource registeredDatasource_)
-'''
-pass
+    '''    public void registerDataSourceForUpdates(final ProxiedJdbcDataSource registeredDatasource_)
+    '''
 def lock():
-'''public void lock()
-'''
-pass
+    '''    public void lock()
+    '''
 def unlock():
-'''public void unlock()
-'''
-pass
+    '''    public void unlock()
+    '''
 def sendDeregisterDataSource():
-'''public void sendDeregisterDataSource(final String s)
-'''
-pass
+    '''    public void sendDeregisterDataSource(final String s)
+    '''
 def applyDynamicProperties():
-'''public void applyDynamicProperties()
-'''
-pass
+    '''    public void applyDynamicProperties()
+    '''
 def rollbackDatasourceDynamicProperties():
-'''public void rollbackDatasourceDynamicProperties()
-'''
-pass
+    '''    public void rollbackDatasourceDynamicProperties()
+    '''
 def resetDataSourceProfileVersion():
-'''public void resetDataSourceProfileVersion()
-'''
-pass
+    '''    public void resetDataSourceProfileVersion()
+    '''
 def getMonitorEnabledFromCmxDirectives():
-'''public int getMonitorEnabledFromCmxDirectives(int i)
-'''
-pass
+    '''    public int getMonitorEnabledFromCmxDirectives(int i)
+    '''
 def getMonitorCollectionIntervalFromCmxDirectives():
-'''public int getMonitorCollectionIntervalFromCmxDirectives(int int1)
-'''
-pass
+    '''    public int getMonitorCollectionIntervalFromCmxDirectives(int int1)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''

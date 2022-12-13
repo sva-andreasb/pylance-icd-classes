@@ -1,8 +1,6 @@
 def FldIssueCurrentItemWONum():
-'''public FldIssueCurrentItemWONum(final MboValue mbv)
-'''
-pass
+    '''    public FldIssueCurrentItemWONum(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

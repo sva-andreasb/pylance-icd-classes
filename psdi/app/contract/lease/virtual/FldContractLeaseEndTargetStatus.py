@@ -1,8 +1,6 @@
 def FldContractLeaseEndTargetStatus():
-'''public FldContractLeaseEndTargetStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldContractLeaseEndTargetStatus(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

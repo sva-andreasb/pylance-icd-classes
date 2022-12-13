@@ -1,12 +1,9 @@
 def selectitemsagreeswitems():
-'''public int selectitemsagreeswitems()
-'''
-pass
+    '''    public int selectitemsagreeswitems()
+    '''
 def selectassetsagreeswitems():
-'''public int selectassetsagreeswitems()
-'''
-pass
+    '''    public int selectassetsagreeswitems()
+    '''
 def disableSelectAssetsButton():
-'''public void disableSelectAssetsButton(final boolean disabled)
-'''
-pass
+    '''    public void disableSelectAssetsButton(final boolean disabled)
+    '''

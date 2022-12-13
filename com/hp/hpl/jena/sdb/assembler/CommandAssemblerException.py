@@ -1,4 +1,3 @@
 def CommandAssemblerException():
-'''public CommandAssemblerException(final Resource cmd, final String string)
-'''
-pass
+    '''    public CommandAssemblerException(final Resource cmd, final String string)
+    '''

@@ -1,60 +1,45 @@
 def SaveOptions():
-'''public SaveOptions()
-'''
-pass
+    '''    public SaveOptions()
+    '''
 def getSaveFileType():
-'''public FileType getSaveFileType()
-'''
-pass
+    '''    public FileType getSaveFileType()
+    '''
 def setSaveFileType():
-'''public void setSaveFileType(final FileType saveFileType)
-'''
-pass
+    '''    public void setSaveFileType(final FileType saveFileType)
+    '''
 def getSavePath():
-'''public String getSavePath()
-'''
-pass
+    '''    public String getSavePath()
+    '''
 def setSavePath():
-'''public void setSavePath(final String savePath)
-'''
-pass
+    '''    public void setSavePath(final String savePath)
+    '''
 def getSaveName():
-'''public String getSaveName()
-'''
-pass
+    '''    public String getSaveName()
+    '''
 def setSaveName():
-'''public void setSaveName(final String saveName)
-'''
-pass
+    '''    public void setSaveName(final String saveName)
+    '''
 def getPage():
-'''public Integer getPage()
-'''
-pass
+    '''    public Integer getPage()
+    '''
 def setPage():
-'''public void setPage(final Integer page)
-'''
-pass
+    '''    public void setPage(final Integer page)
+    '''
 def getWorksheetIndex():
-'''public Integer getWorksheetIndex()
-'''
-pass
+    '''    public Integer getWorksheetIndex()
+    '''
 def setWorksheetIndex():
-'''public void setWorksheetIndex(final Integer worksheetIndex)
-'''
-pass
+    '''    public void setWorksheetIndex(final Integer worksheetIndex)
+    '''
 def isSplitWorksheetIntoPages():
-'''public boolean isSplitWorksheetIntoPages()
-'''
-pass
+    '''    public boolean isSplitWorksheetIntoPages()
+    '''
 def setSplitWorksheetIntoPages():
-'''public void setSplitWorksheetIntoPages(final boolean splitWorksheetIntoPages)
-'''
-pass
+    '''    public void setSplitWorksheetIntoPages(final boolean splitWorksheetIntoPages)
+    '''
 def isAsListItems():
-'''public boolean isAsListItems()
-'''
-pass
+    '''    public boolean isAsListItems()
+    '''
 def setAsListItems():
-'''public void setAsListItems(final boolean asListItems)
-'''
-pass
+    '''    public void setAsListItems(final boolean asListItems)
+    '''

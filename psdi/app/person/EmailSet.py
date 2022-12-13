@@ -1,4 +1,3 @@
 def EmailSet():
-'''public EmailSet(final MboServerInterface ms)
-'''
-pass
+    '''    public EmailSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def connectionClosed():
-'''public final void connectionClosed()
-'''
-pass
+    '''    public final void connectionClosed()
+    '''
 def connectionClosedOnError():
-'''public final void connectionClosedOnError(final Exception e)
-'''
-pass
+    '''    public final void connectionClosedOnError(final Exception e)
+    '''

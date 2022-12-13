@@ -1,28 +1,21 @@
 def ImportSchedulingAlternateResourcesBean():
-'''public ImportSchedulingAlternateResourcesBean()
-'''
-pass
+    '''    public ImportSchedulingAlternateResourcesBean()
+    '''
 def export():
-'''public int export()
-'''
-pass
+    '''    public int export()
+    '''
 def importdata():
-'''public int importdata()
-'''
-pass
+    '''    public int importdata()
+    '''
 def loadData():
-'''public int loadData()
-'''
-pass
+    '''    public int loadData()
+    '''
 def loadImport():
-'''public void loadImport(final UploadFile file)
-'''
-pass
+    '''    public void loadImport(final UploadFile file)
+    '''
 def showPreview():
-'''public int showPreview()
-'''
-pass
+    '''    public int showPreview()
+    '''
 def readCountFile():
-'''public int readCountFile()
-'''
-pass
+    '''    public int readCountFile()
+    '''

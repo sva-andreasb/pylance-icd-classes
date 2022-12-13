@@ -1,20 +1,15 @@
 def getInstance():
-'''public static final OSTemplateCache getInstance()
-'''
-pass
+    '''    public static final OSTemplateCache getInstance()
+    '''
 def getTemplateInfo():
-'''public OSTemplateInfo getTemplateInfo(final String osName, final String templateName)
-'''
-pass
+    '''    public OSTemplateInfo getTemplateInfo(final String osName, final String templateName)
+    '''
 def getListTemplateInfo():
-'''public OSTemplateInfo getListTemplateInfo(final String osName, final String userid)
-'''
-pass
+    '''    public OSTemplateInfo getListTemplateInfo(final String osName, final String userid)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getTemplates():
-'''public Map<String, OSTemplateInfo> getTemplates(final String osName)
-'''
-pass
+    '''    public Map<String, OSTemplateInfo> getTemplates(final String osName)
+    '''

@@ -3,43 +3,33 @@ FLAG_REVOKE = "short  128"
 FLAG_ZONE = "short  256"
 PROTOCOL_RFC4034 = "byte  3"
 def parse():
-'''public static DNSKEY parse(final DataInputStream dis, final int length)
-'''
-pass
+    '''    public static DNSKEY parse(final DataInputStream dis, final int length)
+    '''
 def DNSKEY():
-'''public DNSKEY(final short flags, final byte protocol, final byte algorithm, final byte[] key)
-public DNSKEY(final short flags, final byte protocol, final DnssecConstants.SignatureAlgorithm algorithm, final byte[] key)
-'''
-pass
+    '''    public DNSKEY(final short flags, final byte protocol, final byte algorithm, final byte[] key)
+    public DNSKEY(final short flags, final byte protocol, final DnssecConstants.SignatureAlgorithm algorithm, final byte[] key)
+    '''
 def getKeyTag():
-'''public int getKeyTag()
-'''
-pass
+    '''    public int getKeyTag()
+    '''
 def serialize():
-'''public void serialize(final DataOutputStream dos)
-'''
-pass
+    '''    public void serialize(final DataOutputStream dos)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getKeyLength():
-'''public int getKeyLength()
-'''
-pass
+    '''    public int getKeyLength()
+    '''
 def getKey():
-'''public byte[] getKey()
-'''
-pass
+    '''    public byte[] getKey()
+    '''
 def getKeyBase64():
-'''public String getKeyBase64()
-'''
-pass
+    '''    public String getKeyBase64()
+    '''
 def keyEquals():
-'''public boolean keyEquals(final byte[] otherKey)
-'''
-pass
+    '''    public boolean keyEquals(final byte[] otherKey)
+    '''
 def isSecureEntryPoint():
-'''public boolean isSecureEntryPoint()
-'''
-pass
+    '''    public boolean isSecureEntryPoint()
+    '''

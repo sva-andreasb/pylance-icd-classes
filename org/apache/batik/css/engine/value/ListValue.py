@@ -1,33 +1,25 @@
 def ListValue():
-'''public ListValue()
-public ListValue(final char s)
-'''
-pass
+    '''    public ListValue()
+    public ListValue(final char s)
+    '''
 def getSeparatorChar():
-'''public char getSeparatorChar()
-'''
-pass
+    '''    public char getSeparatorChar()
+    '''
 def getCssValueType():
-'''public short getCssValueType()
-'''
-pass
+    '''    public short getCssValueType()
+    '''
 def getCssText():
-'''public String getCssText()
-'''
-pass
+    '''    public String getCssText()
+    '''
 def getLength():
-'''public int getLength()
-'''
-pass
+    '''    public int getLength()
+    '''
 def item():
-'''public Value item(final int index)
-'''
-pass
+    '''    public Value item(final int index)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def append():
-'''public void append(final Value v)
-'''
-pass
+    '''    public void append(final Value v)
+    '''

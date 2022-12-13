@@ -1,4 +1,3 @@
 def UserPrefSet():
-'''public UserPrefSet(final MboServerInterface ms)
-'''
-pass
+    '''    public UserPrefSet(final MboServerInterface ms)
+    '''

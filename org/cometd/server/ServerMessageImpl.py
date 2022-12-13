@@ -1,64 +1,48 @@
 def ServerMessageImpl():
-'''public ServerMessageImpl()
-'''
-pass
+    '''    public ServerMessageImpl()
+    '''
 def setAssociated():
-'''public void setAssociated(final ServerMessage.Mutable associated)
-'''
-pass
+    '''    public void setAssociated(final ServerMessage.Mutable associated)
+    '''
 def isLazy():
-'''public boolean isLazy()
-'''
-pass
+    '''    public boolean isLazy()
+    '''
 def setLazy():
-'''public void setLazy(final boolean lazy)
-'''
-pass
+    '''    public void setLazy(final boolean lazy)
+    '''
 def getJSON():
-'''public String getJSON()
-'''
-pass
+    '''    public String getJSON()
+    '''
 def getData():
-'''public Object getData()
-'''
-pass
+    '''    public Object getData()
+    '''
 def put():
-'''public Object put(final String key, final Object value)
-'''
-pass
+    '''    public Object put(final String key, final Object value)
+    '''
 def getDataAsMap():
-'''public Map<String, Object> getDataAsMap()
-'''
-pass
+    '''    public Map<String, Object> getDataAsMap()
+    '''
 def getExt():
-'''public Map<String, Object> getExt()
-'''
-pass
+    '''    public Map<String, Object> getExt()
+    '''
 def getAdvice():
-'''public Map<String, Object> getAdvice()
-'''
-pass
+    '''    public Map<String, Object> getAdvice()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''
 def getKey():
-'''public String getKey()
-'''
-pass
+    '''    public String getKey()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setValue():
-'''public Object setValue(final Object value)
-'''
-pass
+    '''    public Object setValue(final Object value)
+    '''

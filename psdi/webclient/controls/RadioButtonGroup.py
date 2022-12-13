@@ -1,68 +1,51 @@
 def RadioButtonGroup():
-'''public RadioButtonGroup()
-'''
-pass
+    '''    public RadioButtonGroup()
+    '''
 def setValue():
-'''public int setValue(final String value)
-'''
-pass
+    '''    public int setValue(final String value)
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''
 def preRender():
-'''public boolean preRender()
-'''
-pass
+    '''    public boolean preRender()
+    '''
 def setRadioButtonsComponent():
-'''public void setRadioButtonsComponent(final ComponentInstance comp)
-'''
-pass
+    '''    public void setRadioButtonsComponent(final ComponentInstance comp)
+    '''
 def getRadioButtonsComponentId():
-'''public String getRadioButtonsComponentId()
-'''
-pass
+    '''    public String getRadioButtonsComponentId()
+    '''
 def getRadioButtonsComponentTrueId():
-'''public String getRadioButtonsComponentTrueId()
-'''
-pass
+    '''    public String getRadioButtonsComponentTrueId()
+    '''
 def addRadioButtonComponentId():
-'''public void addRadioButtonComponentId(final String id)
-'''
-pass
+    '''    public void addRadioButtonComponentId(final String id)
+    '''
 def getSiblingButtonComponents():
-'''public String[] getSiblingButtonComponents(final String id)
-'''
-pass
+    '''    public String[] getSiblingButtonComponents(final String id)
+    '''
 def isAsync():
-'''public boolean isAsync()
-'''
-pass
+    '''    public boolean isAsync()
+    '''
 def getTabindex():
-'''public int getTabindex(final RadioButton button)
-'''
-pass
+    '''    public int getTabindex(final RadioButton button)
+    '''
 def setRenderNumber():
-'''public void setRenderNumber(final int renderNumber)
-'''
-pass
+    '''    public void setRenderNumber(final int renderNumber)
+    '''
 def getRenderNumber():
-'''public int getRenderNumber()
-'''
-pass
+    '''    public int getRenderNumber()
+    '''
 def dataChangedEvent():
-'''public void dataChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void dataChangedEvent(final DataBean speaker)
+    '''
 def structureChangedEvent():
-'''public void structureChangedEvent(final DataBean speaker)
-'''
-pass
+    '''    public void structureChangedEvent(final DataBean speaker)
+    '''
 def getCheckedButton():
-'''public RadioButton getCheckedButton()
-'''
-pass
+    '''    public RadioButton getCheckedButton()
+    '''

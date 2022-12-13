@@ -1,3 +1,3 @@
-ADDEVENT = "String  add""
-UPDATEEVENT = "String  update""
-DELETEEVENT = "String  delete""
+ADDEVENT = "String  \"add\""
+UPDATEEVENT = "String  \"update\""
+DELETEEVENT = "String  \"delete\""

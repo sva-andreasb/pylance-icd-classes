@@ -1,20 +1,15 @@
 def CostCategoryTable():
-'''public CostCategoryTable(final IlvScheduleChart scheduleChart, final ScheduleCostView scheduleCostView)
-'''
-pass
+    '''    public CostCategoryTable(final IlvScheduleChart scheduleChart, final ScheduleCostView scheduleCostView)
+    '''
 def isEditable():
-'''public boolean isEditable(final IlvHierarchyNode row)
-'''
-pass
+    '''    public boolean isEditable(final IlvHierarchyNode row)
+    '''
 def setGanttModel():
-'''public void setGanttModel(final IlvGanttModel ganttModel)
-'''
-pass
+    '''    public void setGanttModel(final IlvGanttModel ganttModel)
+    '''
 def getCostModel():
-'''public IlvGanttModel getCostModel(final IlvGanttModel ganttModel)
-'''
-pass
+    '''    public IlvGanttModel getCostModel(final IlvGanttModel ganttModel)
+    '''
 def selectionChanged():
-'''public void selectionChanged(final SelectionEvent event)
-'''
-pass
+    '''    public void selectionChanged(final SelectionEvent event)
+    '''

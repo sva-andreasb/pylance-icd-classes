@@ -1,4 +1,3 @@
 def compare():
-'''public int compare(final JClass l, final JClass r)
-'''
-pass
+    '''    public int compare(final JClass l, final JClass r)
+    '''

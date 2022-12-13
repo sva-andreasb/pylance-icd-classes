@@ -1,16 +1,12 @@
 def Entry():
-'''public Entry(final String key, final Object value)
-'''
-pass
+    '''    public Entry(final String key, final Object value)
+    '''
 def getKey():
-'''public Object getKey()
-'''
-pass
+    '''    public Object getKey()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def setValue():
-'''public Object setValue(final Object o)
-'''
-pass
+    '''    public Object setValue(final Object o)
+    '''

@@ -1,40 +1,30 @@
 def XDGFBaseContents():
-'''public XDGFBaseContents(final PackagePart part, final XDGFDocument document)
-'''
-pass
+    '''    public XDGFBaseContents(final PackagePart part, final XDGFDocument document)
+    '''
 def getXmlObject():
-'''public PageContentsType getXmlObject()
-'''
-pass
+    '''    public PageContentsType getXmlObject()
+    '''
 def draw():
-'''public void draw(final Graphics2D graphics)
-'''
-pass
+    '''    public void draw(final Graphics2D graphics)
+    '''
 def getShapeById():
-'''public XDGFShape getShapeById(final long id)
-'''
-pass
+    '''    public XDGFShape getShapeById(final long id)
+    '''
 def getShapesMap():
-'''public Map<Long, XDGFShape> getShapesMap()
-'''
-pass
+    '''    public Map<Long, XDGFShape> getShapesMap()
+    '''
 def getShapes():
-'''public Collection<XDGFShape> getShapes()
-'''
-pass
+    '''    public Collection<XDGFShape> getShapes()
+    '''
 def getTopLevelShapes():
-'''public List<XDGFShape> getTopLevelShapes()
-'''
-pass
+    '''    public List<XDGFShape> getTopLevelShapes()
+    '''
 def getConnections():
-'''public List<XDGFConnection> getConnections()
-'''
-pass
+    '''    public List<XDGFConnection> getConnections()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def visitShapes():
-'''public void visitShapes(final ShapeVisitor visitor)
-'''
-pass
+    '''    public void visitShapes(final ShapeVisitor visitor)
+    '''

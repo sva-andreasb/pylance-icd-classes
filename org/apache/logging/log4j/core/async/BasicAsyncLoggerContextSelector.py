@@ -1,25 +1,19 @@
 def shutdown():
-'''public void shutdown(final String fqcn, final ClassLoader loader, final boolean currentContext, final boolean allContexts)
-'''
-pass
+    '''    public void shutdown(final String fqcn, final ClassLoader loader, final boolean currentContext, final boolean allContexts)
+    '''
 def hasContext():
-'''public boolean hasContext(final String fqcn, final ClassLoader loader, final boolean currentContext)
-'''
-pass
+    '''    public boolean hasContext(final String fqcn, final ClassLoader loader, final boolean currentContext)
+    '''
 def getContext():
-'''public LoggerContext getContext(final String fqcn, final ClassLoader loader, final boolean currentContext)
-public LoggerContext getContext(final String fqcn, final ClassLoader loader, final boolean currentContext, final URI configLocation)
-'''
-pass
+    '''    public LoggerContext getContext(final String fqcn, final ClassLoader loader, final boolean currentContext)
+    public LoggerContext getContext(final String fqcn, final ClassLoader loader, final boolean currentContext, final URI configLocation)
+    '''
 def removeContext():
-'''public void removeContext(final LoggerContext context)
-'''
-pass
+    '''    public void removeContext(final LoggerContext context)
+    '''
 def isClassLoaderDependent():
-'''public boolean isClassLoaderDependent()
-'''
-pass
+    '''    public boolean isClassLoaderDependent()
+    '''
 def getLoggerContexts():
-'''public List<LoggerContext> getLoggerContexts()
-'''
-pass
+    '''    public List<LoggerContext> getLoggerContexts()
+    '''

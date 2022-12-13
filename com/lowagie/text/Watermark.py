@@ -1,16 +1,12 @@
 def Watermark():
-'''public Watermark(final Image image, final float offsetX, final float offsetY)
-'''
-pass
+    '''    public Watermark(final Image image, final float offsetX, final float offsetY)
+    '''
 def type():
-'''public int type()
-'''
-pass
+    '''    public int type()
+    '''
 def offsetX():
-'''public float offsetX()
-'''
-pass
+    '''    public float offsetX()
+    '''
 def offsetY():
-'''public float offsetY()
-'''
-pass
+    '''    public float offsetY()
+    '''

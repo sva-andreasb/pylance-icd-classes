@@ -1,12 +1,9 @@
 def ChatopsPostToChannelBean():
-'''public ChatopsPostToChannelBean()
-'''
-pass
+    '''    public ChatopsPostToChannelBean()
+    '''
 def loadChannels():
-'''public void loadChannels(final int teamPosition)
-'''
-pass
+    '''    public void loadChannels(final int teamPosition)
+    '''
 def postToChannel():
-'''public synchronized int postToChannel()
-'''
-pass
+    '''    public synchronized int postToChannel()
+    '''

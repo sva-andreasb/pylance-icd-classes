@@ -1,24 +1,18 @@
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def setIndex():
-'''public void setIndex(final int n)
-'''
-pass
+    '''    public void setIndex(final int n)
+    '''
 def getCanonicalTag():
-'''public short getCanonicalTag()
-'''
-pass
+    '''    public short getCanonicalTag()
+    '''
 def getType():
-'''public Type getType(final ConstantPoolGen cp)
-'''
-pass
+    '''    public Type getType(final ConstantPoolGen cp)
+    '''

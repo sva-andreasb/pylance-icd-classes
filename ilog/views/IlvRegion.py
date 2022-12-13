@@ -1,32 +1,24 @@
 def IlvRegion():
-'''public IlvRegion()
-'''
-pass
+    '''    public IlvRegion()
+    '''
 def boundingBox():
-'''public IlvRect boundingBox()
-'''
-pass
+    '''    public IlvRect boundingBox()
+    '''
 def getCardinal():
-'''public int getCardinal()
-'''
-pass
+    '''    public int getCardinal()
+    '''
 def getRectAt():
-'''public IlvRect getRectAt(final int index)
-'''
-pass
+    '''    public IlvRect getRectAt(final int index)
+    '''
 def add():
-'''public void add(final IlvRect ilvRect)
-'''
-pass
+    '''    public void add(final IlvRect ilvRect)
+    '''
 def empty():
-'''public void empty()
-'''
-pass
+    '''    public void empty()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def elements():
-'''public Enumeration elements()
-'''
-pass
+    '''    public Enumeration elements()
+    '''

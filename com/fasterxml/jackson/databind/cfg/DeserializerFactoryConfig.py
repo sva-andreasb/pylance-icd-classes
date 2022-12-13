@@ -1,64 +1,48 @@
 def DeserializerFactoryConfig():
-'''public DeserializerFactoryConfig()
-'''
-pass
+    '''    public DeserializerFactoryConfig()
+    '''
 def withAdditionalDeserializers():
-'''public DeserializerFactoryConfig withAdditionalDeserializers(final Deserializers additional)
-'''
-pass
+    '''    public DeserializerFactoryConfig withAdditionalDeserializers(final Deserializers additional)
+    '''
 def withAdditionalKeyDeserializers():
-'''public DeserializerFactoryConfig withAdditionalKeyDeserializers(final KeyDeserializers additional)
-'''
-pass
+    '''    public DeserializerFactoryConfig withAdditionalKeyDeserializers(final KeyDeserializers additional)
+    '''
 def withDeserializerModifier():
-'''public DeserializerFactoryConfig withDeserializerModifier(final BeanDeserializerModifier modifier)
-'''
-pass
+    '''    public DeserializerFactoryConfig withDeserializerModifier(final BeanDeserializerModifier modifier)
+    '''
 def withAbstractTypeResolver():
-'''public DeserializerFactoryConfig withAbstractTypeResolver(final AbstractTypeResolver resolver)
-'''
-pass
+    '''    public DeserializerFactoryConfig withAbstractTypeResolver(final AbstractTypeResolver resolver)
+    '''
 def withValueInstantiators():
-'''public DeserializerFactoryConfig withValueInstantiators(final ValueInstantiators instantiators)
-'''
-pass
+    '''    public DeserializerFactoryConfig withValueInstantiators(final ValueInstantiators instantiators)
+    '''
 def hasDeserializers():
-'''public boolean hasDeserializers()
-'''
-pass
+    '''    public boolean hasDeserializers()
+    '''
 def hasKeyDeserializers():
-'''public boolean hasKeyDeserializers()
-'''
-pass
+    '''    public boolean hasKeyDeserializers()
+    '''
 def hasDeserializerModifiers():
-'''public boolean hasDeserializerModifiers()
-'''
-pass
+    '''    public boolean hasDeserializerModifiers()
+    '''
 def hasAbstractTypeResolvers():
-'''public boolean hasAbstractTypeResolvers()
-'''
-pass
+    '''    public boolean hasAbstractTypeResolvers()
+    '''
 def hasValueInstantiators():
-'''public boolean hasValueInstantiators()
-'''
-pass
+    '''    public boolean hasValueInstantiators()
+    '''
 def deserializers():
-'''public Iterable<Deserializers> deserializers()
-'''
-pass
+    '''    public Iterable<Deserializers> deserializers()
+    '''
 def keyDeserializers():
-'''public Iterable<KeyDeserializers> keyDeserializers()
-'''
-pass
+    '''    public Iterable<KeyDeserializers> keyDeserializers()
+    '''
 def deserializerModifiers():
-'''public Iterable<BeanDeserializerModifier> deserializerModifiers()
-'''
-pass
+    '''    public Iterable<BeanDeserializerModifier> deserializerModifiers()
+    '''
 def abstractTypeResolvers():
-'''public Iterable<AbstractTypeResolver> abstractTypeResolvers()
-'''
-pass
+    '''    public Iterable<AbstractTypeResolver> abstractTypeResolvers()
+    '''
 def valueInstantiators():
-'''public Iterable<ValueInstantiators> valueInstantiators()
-'''
-pass
+    '''    public Iterable<ValueInstantiators> valueInstantiators()
+    '''

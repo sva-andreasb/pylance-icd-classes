@@ -2,62 +2,47 @@ TYPE_TEMPLATE = "int  1"
 TYPE_IMPORTED = "int  2"
 TYPE_PATTERN = "int  3"
 def setWidth():
-'''public void setWidth(final float width)
-'''
-pass
+    '''    public void setWidth(final float width)
+    '''
 def setHeight():
-'''public void setHeight(final float height)
-'''
-pass
+    '''    public void setHeight(final float height)
+    '''
 def getWidth():
-'''public float getWidth()
-'''
-pass
+    '''    public float getWidth()
+    '''
 def getHeight():
-'''public float getHeight()
-'''
-pass
+    '''    public float getHeight()
+    '''
 def getBoundingBox():
-'''public Rectangle getBoundingBox()
-'''
-pass
+    '''    public Rectangle getBoundingBox()
+    '''
 def setBoundingBox():
-'''public void setBoundingBox(final Rectangle bBox)
-'''
-pass
+    '''    public void setBoundingBox(final Rectangle bBox)
+    '''
 def setLayer():
-'''public void setLayer(final PdfOCG layer)
-'''
-pass
+    '''    public void setLayer(final PdfOCG layer)
+    '''
 def getLayer():
-'''public PdfOCG getLayer()
-'''
-pass
+    '''    public PdfOCG getLayer()
+    '''
 def setMatrix():
-'''public void setMatrix(final float a, final float b, final float c, final float d, final float e, final float f)
-'''
-pass
+    '''    public void setMatrix(final float a, final float b, final float c, final float d, final float e, final float f)
+    '''
 def beginVariableText():
-'''public void beginVariableText()
-'''
-pass
+    '''    public void beginVariableText()
+    '''
 def endVariableText():
-'''public void endVariableText()
-'''
-pass
+    '''    public void endVariableText()
+    '''
 def getDuplicate():
-'''public PdfContentByte getDuplicate()
-'''
-pass
+    '''    public PdfContentByte getDuplicate()
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def getGroup():
-'''public PdfTransparencyGroup getGroup()
-'''
-pass
+    '''    public PdfTransparencyGroup getGroup()
+    '''
 def setGroup():
-'''public void setGroup(final PdfTransparencyGroup group)
-'''
-pass
+    '''    public void setGroup(final PdfTransparencyGroup group)
+    '''

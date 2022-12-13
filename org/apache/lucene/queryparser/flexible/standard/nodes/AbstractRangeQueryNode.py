@@ -1,36 +1,27 @@
 def getField():
-'''public CharSequence getField()
-'''
-pass
+    '''    public CharSequence getField()
+    '''
 def setField():
-'''public void setField(final CharSequence fieldName)
-'''
-pass
+    '''    public void setField(final CharSequence fieldName)
+    '''
 def getLowerBound():
-'''public T getLowerBound()
-'''
-pass
+    '''    public T getLowerBound()
+    '''
 def getUpperBound():
-'''public T getUpperBound()
-'''
-pass
+    '''    public T getUpperBound()
+    '''
 def isLowerInclusive():
-'''public boolean isLowerInclusive()
-'''
-pass
+    '''    public boolean isLowerInclusive()
+    '''
 def isUpperInclusive():
-'''public boolean isUpperInclusive()
-'''
-pass
+    '''    public boolean isUpperInclusive()
+    '''
 def setBounds():
-'''public void setBounds(final T lower, final T upper, final boolean lowerInclusive, final boolean upperInclusive)
-'''
-pass
+    '''    public void setBounds(final T lower, final T upper, final boolean lowerInclusive, final boolean upperInclusive)
+    '''
 def toQueryString():
-'''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
-'''
-pass
+    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

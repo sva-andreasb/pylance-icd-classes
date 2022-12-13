@@ -1,8 +1,6 @@
 def applyCalendarBreaks():
-'''public int applyCalendarBreaks()
-'''
-pass
+    '''    public int applyCalendarBreaks()
+    '''
 def clearCalendarBreaks():
-'''public int clearCalendarBreaks()
-'''
-pass
+    '''    public int clearCalendarBreaks()
+    '''

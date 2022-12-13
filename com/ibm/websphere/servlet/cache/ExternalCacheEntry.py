@@ -1,4 +1,3 @@
 def ExternalCacheEntry():
-'''public ExternalCacheEntry()
-'''
-pass
+    '''    public ExternalCacheEntry()
+    '''

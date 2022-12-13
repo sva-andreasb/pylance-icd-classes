@@ -1,4 +1,3 @@
 def AMCrewSegmentManager():
-'''public AMCrewSegmentManager()
-'''
-pass
+    '''    public AMCrewSegmentManager()
+    '''

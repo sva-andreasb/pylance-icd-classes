@@ -1,8 +1,6 @@
 def FldNodeName():
-'''public FldNodeName(final MboValue mbv)
-'''
-pass
+    '''    public FldNodeName(final MboValue mbv)
+    '''
 def getAppLink():
-'''public String[] getAppLink()
-'''
-pass
+    '''    public String[] getAppLink()
+    '''

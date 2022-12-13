@@ -1,4 +1,3 @@
 def SPRelatedAssetSet():
-'''public SPRelatedAssetSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SPRelatedAssetSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def CSSOMSVGViewCSS():
-'''public CSSOMSVGViewCSS(final CSSEngine engine)
-'''
-pass
+    '''    public CSSOMSVGViewCSS(final CSSEngine engine)
+    '''
 def getComputedStyle():
-'''public CSSStyleDeclaration getComputedStyle(final Element elt, final String pseudoElt)
-'''
-pass
+    '''    public CSSStyleDeclaration getComputedStyle(final Element elt, final String pseudoElt)
+    '''

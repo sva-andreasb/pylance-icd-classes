@@ -1,12 +1,9 @@
 def CREATECI():
-'''public int CREATECI()
-'''
-pass
+    '''    public int CREATECI()
+    '''
 def CREATECIS():
-'''public int CREATECIS()
-'''
-pass
+    '''    public int CREATECIS()
+    '''
 def LAUNCHENTRY():
-'''public int LAUNCHENTRY()
-'''
-pass
+    '''    public int LAUNCHENTRY()
+    '''

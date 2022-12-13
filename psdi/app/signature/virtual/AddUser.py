@@ -1,32 +1,24 @@
 def AddUser():
-'''public AddUser(final MboSet ms)
-'''
-pass
+    '''    public AddUser(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def setChildValues():
-'''public void setChildValues()
-'''
-pass
+    '''    public void setChildValues()
+    '''
 def setMorePersonFields():
-'''public void setMorePersonFields(final MboRemote personMbo)
-'''
-pass
+    '''    public void setMorePersonFields(final MboRemote personMbo)
+    '''
 def getUserMbo():
-'''public MboRemote getUserMbo()
-'''
-pass
+    '''    public MboRemote getUserMbo()
+    '''
 def getPersonMbo():
-'''public MboRemote getPersonMbo()
-'''
-pass
+    '''    public MboRemote getPersonMbo()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''
 def setValue():
-'''public void setValue(String attributeName, final String val, final long accessModifier)
-'''
-pass
+    '''    public void setValue(String attributeName, final String val, final long accessModifier)
+    '''

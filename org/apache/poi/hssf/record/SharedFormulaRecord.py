@@ -1,26 +1,20 @@
 sid = "short  1212"
 def SharedFormulaRecord():
-'''public SharedFormulaRecord()
-public SharedFormulaRecord(final RecordInputStream in)
-'''
-pass
+    '''    public SharedFormulaRecord()
+    public SharedFormulaRecord(final RecordInputStream in)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getSid():
-'''public short getSid()
-'''
-pass
+    '''    public short getSid()
+    '''
 def getFormulaTokens():
-'''public Ptg[] getFormulaTokens(final FormulaRecord formula)
-'''
-pass
+    '''    public Ptg[] getFormulaTokens(final FormulaRecord formula)
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def isFormulaSame():
-'''public boolean isFormulaSame(final SharedFormulaRecord other)
-'''
-pass
+    '''    public boolean isFormulaSame(final SharedFormulaRecord other)
+    '''

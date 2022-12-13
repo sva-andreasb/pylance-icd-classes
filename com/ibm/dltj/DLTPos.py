@@ -1,12 +1,9 @@
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def toId():
-'''public int toId()
-'''
-pass
+    '''    public int toId()
+    '''
 def parseId():
-'''public static final DLTPos parseId(final int value)
-'''
-pass
+    '''    public static final DLTPos parseId(final int value)
+    '''

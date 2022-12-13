@@ -1,121 +1,91 @@
 def AntXMLContext():
-'''public AntXMLContext(final Project project)
-'''
-pass
+    '''    public AntXMLContext(final Project project)
+    '''
 def setBuildFile():
-'''public void setBuildFile(final File buildFile)
-public void setBuildFile(final URL buildFile)
-'''
-pass
+    '''    public void setBuildFile(final File buildFile)
+    public void setBuildFile(final URL buildFile)
+    '''
 def getBuildFile():
-'''public File getBuildFile()
-'''
-pass
+    '''    public File getBuildFile()
+    '''
 def getBuildFileParent():
-'''public File getBuildFileParent()
-'''
-pass
+    '''    public File getBuildFileParent()
+    '''
 def getBuildFileURL():
-'''public URL getBuildFileURL()
-'''
-pass
+    '''    public URL getBuildFileURL()
+    '''
 def getBuildFileParentURL():
-'''public URL getBuildFileParentURL()
-'''
-pass
+    '''    public URL getBuildFileParentURL()
+    '''
 def getProject():
-'''public Project getProject()
-'''
-pass
+    '''    public Project getProject()
+    '''
 def getCurrentProjectName():
-'''public String getCurrentProjectName()
-'''
-pass
+    '''    public String getCurrentProjectName()
+    '''
 def setCurrentProjectName():
-'''public void setCurrentProjectName(final String name)
-'''
-pass
+    '''    public void setCurrentProjectName(final String name)
+    '''
 def currentWrapper():
-'''public RuntimeConfigurable currentWrapper()
-'''
-pass
+    '''    public RuntimeConfigurable currentWrapper()
+    '''
 def parentWrapper():
-'''public RuntimeConfigurable parentWrapper()
-'''
-pass
+    '''    public RuntimeConfigurable parentWrapper()
+    '''
 def pushWrapper():
-'''public void pushWrapper(final RuntimeConfigurable wrapper)
-'''
-pass
+    '''    public void pushWrapper(final RuntimeConfigurable wrapper)
+    '''
 def popWrapper():
-'''public void popWrapper()
-'''
-pass
+    '''    public void popWrapper()
+    '''
 def getWrapperStack():
-'''public Vector getWrapperStack()
-'''
-pass
+    '''    public Vector getWrapperStack()
+    '''
 def addTarget():
-'''public void addTarget(final Target target)
-'''
-pass
+    '''    public void addTarget(final Target target)
+    '''
 def getCurrentTarget():
-'''public Target getCurrentTarget()
-'''
-pass
+    '''    public Target getCurrentTarget()
+    '''
 def getImplicitTarget():
-'''public Target getImplicitTarget()
-'''
-pass
+    '''    public Target getImplicitTarget()
+    '''
 def setCurrentTarget():
-'''public void setCurrentTarget(final Target target)
-'''
-pass
+    '''    public void setCurrentTarget(final Target target)
+    '''
 def setImplicitTarget():
-'''public void setImplicitTarget(final Target target)
-'''
-pass
+    '''    public void setImplicitTarget(final Target target)
+    '''
 def getTargets():
-'''public Vector getTargets()
-'''
-pass
+    '''    public Vector getTargets()
+    '''
 def configureId():
-'''public void configureId(final Object element, final Attributes attr)
-'''
-pass
+    '''    public void configureId(final Object element, final Attributes attr)
+    '''
 def getLocator():
-'''public Locator getLocator()
-'''
-pass
+    '''    public Locator getLocator()
+    '''
 def setLocator():
-'''public void setLocator(final Locator locator)
-'''
-pass
+    '''    public void setLocator(final Locator locator)
+    '''
 def isIgnoringProjectTag():
-'''public boolean isIgnoringProjectTag()
-'''
-pass
+    '''    public boolean isIgnoringProjectTag()
+    '''
 def setIgnoreProjectTag():
-'''public void setIgnoreProjectTag(final boolean flag)
-'''
-pass
+    '''    public void setIgnoreProjectTag(final boolean flag)
+    '''
 def startPrefixMapping():
-'''public void startPrefixMapping(final String prefix, final String uri)
-'''
-pass
+    '''    public void startPrefixMapping(final String prefix, final String uri)
+    '''
 def endPrefixMapping():
-'''public void endPrefixMapping(final String prefix)
-'''
-pass
+    '''    public void endPrefixMapping(final String prefix)
+    '''
 def getPrefixMapping():
-'''public String getPrefixMapping(final String prefix)
-'''
-pass
+    '''    public String getPrefixMapping(final String prefix)
+    '''
 def getCurrentTargets():
-'''public Map getCurrentTargets()
-'''
-pass
+    '''    public Map getCurrentTargets()
+    '''
 def setCurrentTargets():
-'''public void setCurrentTargets(final Map currentTargets)
-'''
-pass
+    '''    public void setCurrentTargets(final Map currentTargets)
+    '''

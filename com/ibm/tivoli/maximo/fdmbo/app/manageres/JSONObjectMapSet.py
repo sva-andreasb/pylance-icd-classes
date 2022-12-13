@@ -1,4 +1,3 @@
 def JSONObjectMapSet():
-'''public JSONObjectMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public JSONObjectMapSet(final MboServerInterface ms)
+    '''

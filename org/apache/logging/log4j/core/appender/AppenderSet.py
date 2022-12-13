@@ -1,32 +1,24 @@
 def newBuilder():
-'''public static Builder newBuilder()
-'''
-pass
+    '''    public static Builder newBuilder()
+    '''
 def createAppender():
-'''public Appender createAppender(final String actualAppenderName, final String sourceAppenderName)
-'''
-pass
+    '''    public Appender createAppender(final String actualAppenderName, final String sourceAppenderName)
+    '''
 def build():
-'''public AppenderSet build()
-'''
-pass
+    '''    public AppenderSet build()
+    '''
 def getNode():
-'''public Node getNode()
-'''
-pass
+    '''    public Node getNode()
+    '''
 def getConfiguration():
-'''public Configuration getConfiguration()
-'''
-pass
+    '''    public Configuration getConfiguration()
+    '''
 def withNode():
-'''public Builder withNode(final Node node)
-'''
-pass
+    '''    public Builder withNode(final Node node)
+    '''
 def withConfiguration():
-'''public Builder withConfiguration(final Configuration configuration)
-'''
-pass
+    '''    public Builder withConfiguration(final Configuration configuration)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,8 +1,6 @@
 def MultiToStringTransformer():
-'''public MultiToStringTransformer(final ToStringVisitor.Transformer... transformers)
-'''
-pass
+    '''    public MultiToStringTransformer(final ToStringVisitor.Transformer... transformers)
+    '''
 def transform():
-'''public String transform(final Node n)
-'''
-pass
+    '''    public String transform(final Node n)
+    '''

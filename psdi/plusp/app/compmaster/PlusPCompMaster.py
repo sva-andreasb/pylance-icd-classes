@@ -1,12 +1,9 @@
 def PlusPCompMaster():
-'''public PlusPCompMaster(final MboSet arg0)
-'''
-pass
+    '''    public PlusPCompMaster(final MboSet arg0)
+    '''
 def associateCustomerToCompanies():
-'''public void associateCustomerToCompanies(final String s, final ArrayList<String> list)
-'''
-pass
+    '''    public void associateCustomerToCompanies(final String s, final ArrayList<String> list)
+    '''
 def checkQualifiedRestrictionForCompanies():
-'''public void checkQualifiedRestrictionForCompanies(final String s)
-'''
-pass
+    '''    public void checkQualifiedRestrictionForCompanies(final String s)
+    '''

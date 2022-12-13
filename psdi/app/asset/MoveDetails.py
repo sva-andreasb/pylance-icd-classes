@@ -1,53 +1,40 @@
 def MoveDetails():
-'''public MoveDetails(final Asset owner)
-'''
-pass
+    '''    public MoveDetails(final Asset owner)
+    '''
 def setWonum():
-'''public void setWonum(final String wonum)
-'''
-pass
+    '''    public void setWonum(final String wonum)
+    '''
 def setPonum():
-'''public void setPonum(final String ponum)
-'''
-pass
+    '''    public void setPonum(final String ponum)
+    '''
 def setCommonParameters():
-'''public void setCommonParameters(final String memo, final Date dateMoved, final String matUseTransID, final String matRecTransID)
-public void setCommonParameters(final String memo, final Date dateMoved, final String enterBy)
-'''
-pass
+    '''    public void setCommonParameters(final String memo, final Date dateMoved, final String matUseTransID, final String matRecTransID)
+    public void setCommonParameters(final String memo, final Date dateMoved, final String enterBy)
+    '''
 def setToInvLocParameters():
-'''public void setToInvLocParameters(final String newBinnum, final String glCreditAcct, final String glDebitAcct)
-'''
-pass
+    '''    public void setToInvLocParameters(final String newBinnum, final String glCreditAcct, final String glDebitAcct)
+    '''
 def setToParent():
-'''public void setToParent(final String newParent)
-'''
-pass
+    '''    public void setToParent(final String newParent)
+    '''
 def checkForItemMismatch():
-'''public void checkForItemMismatch(final boolean doCheck)
-'''
-pass
+    '''    public void checkForItemMismatch(final boolean doCheck)
+    '''
 def checkForLocationOccupied():
-'''public void checkForLocationOccupied(final boolean doCheck)
-'''
-pass
+    '''    public void checkForLocationOccupied(final boolean doCheck)
+    '''
 def updateOpenWorkorders():
-'''public void updateOpenWorkorders(final boolean doUpdate)
-'''
-pass
+    '''    public void updateOpenWorkorders(final boolean doUpdate)
+    '''
 def setupMove():
-'''public void setupMove(final MboRemote newAssetLocation)
-'''
-pass
+    '''    public void setupMove(final MboRemote newAssetLocation)
+    '''
 def doMove():
-'''public void doMove()
-'''
-pass
+    '''    public void doMove()
+    '''
 def updateParentChildrenField():
-'''public void updateParentChildrenField()
-'''
-pass
+    '''    public void updateParentChildrenField()
+    '''
 def createAssetTransactionForNullLocation():
-'''public void createAssetTransactionForNullLocation()
-'''
-pass
+    '''    public void createAssetTransactionForNullLocation()
+    '''

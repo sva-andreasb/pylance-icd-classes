@@ -1,24 +1,18 @@
 def replicateMe():
-'''public Inheritance replicateMe()
-'''
-pass
+    '''    public Inheritance replicateMe()
+    '''
 def replicateParent():
-'''public Inheritance replicateParent()
-'''
-pass
+    '''    public Inheritance replicateParent()
+    '''
 def build():
-'''public static Inheritance build()
-'''
-pass
+    '''    public static Inheritance build()
+    '''
 def buildParent():
-'''public static Inheritance buildParent()
-'''
-pass
+    '''    public static Inheritance buildParent()
+    '''
 def whoAmI():
-'''public String whoAmI()
-'''
-pass
+    '''    public String whoAmI()
+    '''
 def staticWhoAmI():
-'''public static String staticWhoAmI()
-'''
-pass
+    '''    public static String staticWhoAmI()
+    '''

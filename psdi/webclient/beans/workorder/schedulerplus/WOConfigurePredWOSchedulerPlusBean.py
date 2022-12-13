@@ -1,28 +1,21 @@
 def setJobPlan():
-'''public void setJobPlan(final String jobPlan)
-'''
-pass
+    '''    public void setJobPlan(final String jobPlan)
+    '''
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def configureWos():
-'''public int configureWos()
-'''
-pass
+    '''    public int configureWos()
+    '''
 def cancelDialog():
-'''public int cancelDialog()
-'''
-pass
+    '''    public int cancelDialog()
+    '''
 def copySelection():
-'''public void copySelection(final Vector selected)
-'''
-pass
+    '''    public void copySelection(final Vector selected)
+    '''
 def getDataSource():
-'''public String getDataSource()
-'''
-pass
+    '''    public String getDataSource()
+    '''
 def getAllLinkedRegisters():
-'''public StringBuffer getAllLinkedRegisters(final String wonum, Map visitedWonums)
-'''
-pass
+    '''    public StringBuffer getAllLinkedRegisters(final String wonum, Map visitedWonums)
+    '''

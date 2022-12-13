@@ -1,8 +1,6 @@
 def FldLabTransEnterDate():
-'''public FldLabTransEnterDate(final MboValue mbv)
-'''
-pass
+    '''    public FldLabTransEnterDate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,38 +1,31 @@
-DESCRIPTION = "String  description""
-SOLUTIONID = "String  solutionid""
-SOLUTION = "String  solution""
-STATUS = "String  status""
-PROBLEMCODE = "String  problemcode_longdescription""
-FR1CODE = "String  fr1code_longdescription""
-FR2CODE = "String  fr2code_longdescription""
-DESCRIPTION_LD = "String  description_longdescription""
-TICKETID = "String  ticketid""
-CLASS = "String  class""
+DESCRIPTION = "String  \"description\""
+SOLUTIONID = "String  \"solutionid\""
+SOLUTION = "String  \"solution\""
+STATUS = "String  \"status\""
+PROBLEMCODE = "String  \"problemcode_longdescription\""
+FR1CODE = "String  \"fr1code_longdescription\""
+FR2CODE = "String  \"fr2code_longdescription\""
+DESCRIPTION_LD = "String  \"description_longdescription\""
+TICKETID = "String  \"ticketid\""
+CLASS = "String  \"class\""
 def SrmSearchBean():
-'''public SrmSearchBean()
-'''
-pass
+    '''    public SrmSearchBean()
+    '''
 def execute():
-'''public int execute()
-'''
-pass
+    '''    public int execute()
+    '''
 def selectrecord():
-'''public int selectrecord()
-'''
-pass
+    '''    public int selectrecord()
+    '''
 def search():
-'''public int search()
-'''
-pass
+    '''    public int search()
+    '''
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def getMboSet():
-'''public MboSetRemote getMboSet()
-'''
-pass
+    '''    public MboSetRemote getMboSet()
+    '''
 def getSearchEngine():
-'''public SrmSearchEngine getSearchEngine()
-'''
-pass
+    '''    public SrmSearchEngine getSearchEngine()
+    '''

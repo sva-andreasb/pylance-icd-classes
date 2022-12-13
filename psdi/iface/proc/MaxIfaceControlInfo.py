@@ -1,116 +1,87 @@
 def getExtSystemName():
-'''public String getExtSystemName()
-'''
-pass
+    '''    public String getExtSystemName()
+    '''
 def setExtSystemName():
-'''public void setExtSystemName(final String e)
-'''
-pass
+    '''    public void setExtSystemName(final String e)
+    '''
 def getControlName():
-'''public String getControlName()
-'''
-pass
+    '''    public String getControlName()
+    '''
 def setControlName():
-'''public void setControlName(final String c)
-'''
-pass
+    '''    public void setControlName(final String c)
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def setDescription():
-'''public void setDescription(final String c)
-'''
-pass
+    '''    public void setDescription(final String c)
+    '''
 def getControlType():
-'''public String getControlType()
-'''
-pass
+    '''    public String getControlType()
+    '''
 def setControlType():
-'''public void setControlType(final String c)
-'''
-pass
+    '''    public void setControlType(final String c)
+    '''
 def getDomainId():
-'''public String getDomainId()
-'''
-pass
+    '''    public String getDomainId()
+    '''
 def setDomainId():
-'''public void setDomainId(final String d)
-'''
-pass
+    '''    public void setDomainId(final String d)
+    '''
 def getDefaultValue():
-'''public String getDefaultValue()
-'''
-pass
+    '''    public String getDefaultValue()
+    '''
 def setDefaultValue():
-'''public void setDefaultValue(final String d)
-'''
-pass
+    '''    public void setDefaultValue(final String d)
+    '''
 def isTrue():
-'''public boolean isTrue()
-'''
-pass
+    '''    public boolean isTrue()
+    '''
 def setIsTrue():
-'''public void setIsTrue(final int d)
-'''
-pass
+    '''    public void setIsTrue(final int d)
+    '''
 def getDefaultValueList():
-'''public ArrayList<String> getDefaultValueList()
-'''
-pass
+    '''    public ArrayList<String> getDefaultValueList()
+    '''
 def setDefaultValueList():
-'''public void setDefaultValueList(final ArrayList<String> vl)
-'''
-pass
+    '''    public void setDefaultValueList(final ArrayList<String> vl)
+    '''
 def getOrgOverrideData():
-'''public Map<String, Object> getOrgOverrideData()
-'''
-pass
+    '''    public Map<String, Object> getOrgOverrideData()
+    '''
 def setOrgOverrideData():
-'''public void setOrgOverrideData(final Map<String, Object> vl)
-'''
-pass
+    '''    public void setOrgOverrideData(final Map<String, Object> vl)
+    '''
 def getSiteOverrideData():
-'''public Map<String, Object> getSiteOverrideData()
-'''
-pass
+    '''    public Map<String, Object> getSiteOverrideData()
+    '''
 def setSiteOverrideData():
-'''public void setSiteOverrideData(final Map<String, Object> vl)
-'''
-pass
+    '''    public void setSiteOverrideData(final Map<String, Object> vl)
+    '''
 def getExtOrgOverrideData():
-'''public Map<String, Object> getExtOrgOverrideData()
-'''
-pass
+    '''    public Map<String, Object> getExtOrgOverrideData()
+    '''
 def setExtOrgOverrideData():
-'''public void setExtOrgOverrideData(final Map<String, Object> vl)
-'''
-pass
+    '''    public void setExtOrgOverrideData(final Map<String, Object> vl)
+    '''
 def getExtSiteOverrideData():
-'''public Map<String, Object> getExtSiteOverrideData()
-'''
-pass
+    '''    public Map<String, Object> getExtSiteOverrideData()
+    '''
 def setExtSiteOverrideData():
-'''public void setExtSiteOverrideData(final Map<String, Object> vl)
-'''
-pass
+    '''    public void setExtSiteOverrideData(final Map<String, Object> vl)
+    '''
 def getMaximoDefaultValue():
-'''public Map<String, List<String>> getMaximoDefaultValue()
-'''
-pass
+    '''    public Map<String, List<String>> getMaximoDefaultValue()
+    '''
 def setMaximoDefaultValue():
-'''public void setMaximoDefaultValue(final Map<String, List<String>> vl)
-'''
-pass
+    '''    public void setMaximoDefaultValue(final Map<String, List<String>> vl)
+    '''
 def getExtDefaultValue():
-'''public Map<String, List<String>> getExtDefaultValue()
-'''
-pass
+    '''    public Map<String, List<String>> getExtDefaultValue()
+    '''
 def setExtDefaultValue():
-'''public void setExtDefaultValue(final Map<String, List<String>> vl)
-'''
-pass
+    '''    public void setExtDefaultValue(final Map<String, List<String>> vl)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

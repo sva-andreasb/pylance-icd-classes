@@ -1,24 +1,18 @@
 def ConnectionStateEventData():
-'''public ConnectionStateEventData(final ASN1Object asn1Object)
-'''
-pass
+    '''    public ConnectionStateEventData(final ASN1Object asn1Object)
+    '''
 def getConnectiondn():
-'''public String getConnectiondn()
-'''
-pass
+    '''    public String getConnectiondn()
+    '''
 def getNewFlags():
-'''public int getNewFlags()
-'''
-pass
+    '''    public int getNewFlags()
+    '''
 def getOldFlags():
-'''public int getOldFlags()
-'''
-pass
+    '''    public int getOldFlags()
+    '''
 def getSourceModule():
-'''public String getSourceModule()
-'''
-pass
+    '''    public String getSourceModule()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

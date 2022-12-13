@@ -1,8 +1,6 @@
 def FldConditionAttribute():
-'''public FldConditionAttribute(final MboValue mbv)
-'''
-pass
+    '''    public FldConditionAttribute(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

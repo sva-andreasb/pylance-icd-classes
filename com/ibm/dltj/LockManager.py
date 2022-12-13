@@ -1,36 +1,27 @@
 def LockManager():
-'''public LockManager()
-'''
-pass
+    '''    public LockManager()
+    '''
 def lockClose():
-'''public void lockClose()
-'''
-pass
+    '''    public void lockClose()
+    '''
 def lockWrite():
-'''public void lockWrite()
-'''
-pass
+    '''    public void lockWrite()
+    '''
 def lockRead():
-'''public void lockRead()
-'''
-pass
+    '''    public void lockRead()
+    '''
 def unlockRead():
-'''public synchronized void unlockRead()
-'''
-pass
+    '''    public synchronized void unlockRead()
+    '''
 def unlockWrite():
-'''public synchronized void unlockWrite()
-'''
-pass
+    '''    public synchronized void unlockWrite()
+    '''
 def releaseLock():
-'''public synchronized void releaseLock()
-'''
-pass
+    '''    public synchronized void releaseLock()
+    '''
 def isOwner():
-'''public synchronized boolean isOwner()
-'''
-pass
+    '''    public synchronized boolean isOwner()
+    '''
 def isClosing():
-'''public synchronized boolean isClosing()
-'''
-pass
+    '''    public synchronized boolean isClosing()
+    '''

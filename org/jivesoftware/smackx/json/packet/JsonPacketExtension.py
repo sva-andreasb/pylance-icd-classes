@@ -1,18 +1,14 @@
-ELEMENT = "String  json""
-NAMESPACE = "String  urn:xmpp:json:0""
+ELEMENT = "String  \"json\""
+NAMESPACE = "String  \"urn:xmpp:json:0\""
 def JsonPacketExtension():
-'''public JsonPacketExtension(final String json)
-'''
-pass
+    '''    public JsonPacketExtension(final String json)
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def from():
-'''public static JsonPacketExtension from(final Stanza packet)
-'''
-pass
+    '''    public static JsonPacketExtension from(final Stanza packet)
+    '''

@@ -1,4 +1,3 @@
 def ServerSessionSet():
-'''public ServerSessionSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ServerSessionSet(final MboServerInterface ms)
+    '''

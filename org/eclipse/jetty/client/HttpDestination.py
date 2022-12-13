@@ -1,125 +1,94 @@
 def getHttpClient():
-'''public HttpClient getHttpClient()
-'''
-pass
+    '''    public HttpClient getHttpClient()
+    '''
 def getAddress():
-'''public Address getAddress()
-'''
-pass
+    '''    public Address getAddress()
+    '''
 def isSecure():
-'''public boolean isSecure()
-'''
-pass
+    '''    public boolean isSecure()
+    '''
 def getHostHeader():
-'''public Buffer getHostHeader()
-'''
-pass
+    '''    public Buffer getHostHeader()
+    '''
 def getMaxConnections():
-'''public int getMaxConnections()
-'''
-pass
+    '''    public int getMaxConnections()
+    '''
 def setMaxConnections():
-'''public void setMaxConnections(final int maxConnections)
-'''
-pass
+    '''    public void setMaxConnections(final int maxConnections)
+    '''
 def getMaxQueueSize():
-'''public int getMaxQueueSize()
-'''
-pass
+    '''    public int getMaxQueueSize()
+    '''
 def setMaxQueueSize():
-'''public void setMaxQueueSize(final int maxQueueSize)
-'''
-pass
+    '''    public void setMaxQueueSize(final int maxQueueSize)
+    '''
 def getConnections():
-'''public int getConnections()
-'''
-pass
+    '''    public int getConnections()
+    '''
 def getIdleConnections():
-'''public int getIdleConnections()
-'''
-pass
+    '''    public int getIdleConnections()
+    '''
 def addAuthorization():
-'''public void addAuthorization(final String pathSpec, final Authentication authorization)
-'''
-pass
+    '''    public void addAuthorization(final String pathSpec, final Authentication authorization)
+    '''
 def addCookie():
-'''public void addCookie(final HttpCookie cookie)
-'''
-pass
+    '''    public void addCookie(final HttpCookie cookie)
+    '''
 def reserveConnection():
-'''public AbstractHttpConnection reserveConnection(final long timeout)
-'''
-pass
+    '''    public AbstractHttpConnection reserveConnection(final long timeout)
+    '''
 def getIdleConnection():
-'''public AbstractHttpConnection getIdleConnection()
-'''
-pass
+    '''    public AbstractHttpConnection getIdleConnection()
+    '''
 def onConnectionFailed():
-'''public void onConnectionFailed(final Throwable throwable)
-'''
-pass
+    '''    public void onConnectionFailed(final Throwable throwable)
+    '''
 def onException():
-'''public void onException(final Throwable throwable)
-'''
-pass
+    '''    public void onException(final Throwable throwable)
+    '''
 def onNewConnection():
-'''public void onNewConnection(final AbstractHttpConnection connection)
-'''
-pass
+    '''    public void onNewConnection(final AbstractHttpConnection connection)
+    '''
 def returnConnection():
-'''public void returnConnection(final AbstractHttpConnection connection, final boolean close)
-'''
-pass
+    '''    public void returnConnection(final AbstractHttpConnection connection, final boolean close)
+    '''
 def returnIdleConnection():
-'''public void returnIdleConnection(final AbstractHttpConnection connection)
-'''
-pass
+    '''    public void returnIdleConnection(final AbstractHttpConnection connection)
+    '''
 def send():
-'''public void send(final HttpExchange ex)
-'''
-pass
+    '''    public void send(final HttpExchange ex)
+    '''
 def resend():
-'''public void resend(final HttpExchange ex)
-'''
-pass
+    '''    public void resend(final HttpExchange ex)
+    '''
 def toString():
-'''public synchronized String toString()
-'''
-pass
+    '''    public synchronized String toString()
+    '''
 def toDetailString():
-'''public synchronized String toDetailString()
-'''
-pass
+    '''    public synchronized String toDetailString()
+    '''
 def setProxy():
-'''public void setProxy(final Address proxy)
-'''
-pass
+    '''    public void setProxy(final Address proxy)
+    '''
 def getProxy():
-'''public Address getProxy()
-'''
-pass
+    '''    public Address getProxy()
+    '''
 def getProxyAuthentication():
-'''public Authentication getProxyAuthentication()
-'''
-pass
+    '''    public Authentication getProxyAuthentication()
+    '''
 def setProxyAuthentication():
-'''public void setProxyAuthentication(final Authentication authentication)
-'''
-pass
+    '''    public void setProxyAuthentication(final Authentication authentication)
+    '''
 def isProxied():
-'''public boolean isProxied()
-'''
-pass
+    '''    public boolean isProxied()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def dump():
-'''public String dump()
-public void dump(final Appendable out, final String indent)
-'''
-pass
+    '''    public String dump()
+    public void dump(final Appendable out, final String indent)
+    '''
 def ConnectExchange():
-'''public ConnectExchange(final Address serverAddress, final SelectConnector.UpgradableEndPoint proxyEndPoint, final HttpExchange exchange)
-'''
-pass
+    '''    public ConnectExchange(final Address serverAddress, final SelectConnector.UpgradableEndPoint proxyEndPoint, final HttpExchange exchange)
+    '''

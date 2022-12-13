@@ -1,16 +1,12 @@
 def FldGMapAuthMethod():
-'''public FldGMapAuthMethod(final MboValue mv)
-'''
-pass
+    '''    public FldGMapAuthMethod(final MboValue mv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

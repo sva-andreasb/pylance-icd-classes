@@ -1,8 +1,6 @@
 def FldLaborPayRate():
-'''public FldLaborPayRate(final MboValue mbv)
-'''
-pass
+    '''    public FldLaborPayRate(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

@@ -1,24 +1,18 @@
 def fieldsout():
-'''public int fieldsout()
-'''
-pass
+    '''    public int fieldsout()
+    '''
 def fieldsin():
-'''public int fieldsin()
-'''
-pass
+    '''    public int fieldsin()
+    '''
 def fieldsobjin():
-'''public int fieldsobjin()
-'''
-pass
+    '''    public int fieldsobjin()
+    '''
 def condout():
-'''public int condout()
-'''
-pass
+    '''    public int condout()
+    '''
 def condin():
-'''public int condin()
-'''
-pass
+    '''    public int condin()
+    '''
 def condobjin():
-'''public int condobjin()
-'''
-pass
+    '''    public int condobjin()
+    '''

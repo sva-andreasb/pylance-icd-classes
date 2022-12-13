@@ -1,8 +1,6 @@
 def WOMATStatusSync():
-'''public WOMATStatusSync(final MboSet ms)
-'''
-pass
+    '''    public WOMATStatusSync(final MboSet ms)
+    '''
 def updateMbo():
-'''public void updateMbo(final MboRemote mbo)
-'''
-pass
+    '''    public void updateMbo(final MboRemote mbo)
+    '''

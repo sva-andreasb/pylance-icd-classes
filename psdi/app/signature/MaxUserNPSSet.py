@@ -1,4 +1,3 @@
 def MaxUserNPSSet():
-'''public MaxUserNPSSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxUserNPSSet(final MboServerInterface ms)
+    '''

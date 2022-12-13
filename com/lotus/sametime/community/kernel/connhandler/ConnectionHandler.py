@@ -1,80 +1,60 @@
 def ConnectionHandler():
-'''public ConnectionHandler()
-'''
-pass
+    '''    public ConnectionHandler()
+    '''
 def setMasterCnlListener():
-'''public synchronized void setMasterCnlListener(final int value, final MasterCnlListener value2)
-'''
-pass
+    '''    public synchronized void setMasterCnlListener(final int value, final MasterCnlListener value2)
+    '''
 def removeMasterCnlListener():
-'''public synchronized void removeMasterCnlListener(final int value)
-'''
-pass
+    '''    public synchronized void removeMasterCnlListener(final int value)
+    '''
 def setListenerForCnl():
-'''public synchronized void setListenerForCnl(final int n, final CnlMsgListener cnlMsgListener)
-'''
-pass
+    '''    public synchronized void setListenerForCnl(final int n, final CnlMsgListener cnlMsgListener)
+    '''
 def removeListenerForCnl():
-'''public synchronized void removeListenerForCnl(final int n)
-'''
-pass
+    '''    public synchronized void removeListenerForCnl(final int n)
+    '''
 def setKeepAliveRate():
-'''public synchronized void setKeepAliveRate(final long keepAliveRate)
-'''
-pass
+    '''    public synchronized void setKeepAliveRate(final long keepAliveRate)
+    '''
 def connect():
-'''public synchronized void connect(final String s, Connection[] defaultConnectionList, final VpkMsgOut vpkMsgOut)
-'''
-pass
+    '''    public synchronized void connect(final String s, Connection[] defaultConnectionList, final VpkMsgOut vpkMsgOut)
+    '''
 def close():
-'''public synchronized void close(final int n)
-'''
-pass
+    '''    public synchronized void close(final int n)
+    '''
 def getLocalAddress():
-'''public InetAddress getLocalAddress()
-'''
-pass
+    '''    public InetAddress getLocalAddress()
+    '''
 def isReady():
-'''public synchronized boolean isReady()
-'''
-pass
+    '''    public synchronized boolean isReady()
+    '''
 def send():
-'''public synchronized boolean send(final VpkMsgOut vpkMsgOut, final byte b)
-'''
-pass
+    '''    public synchronized boolean send(final VpkMsgOut vpkMsgOut, final byte b)
+    '''
 def getConnectionInfo():
-'''public ConnectionInfo getConnectionInfo()
-'''
-pass
+    '''    public ConnectionInfo getConnectionInfo()
+    '''
 def encryptConnection():
-'''public void encryptConnection(final byte[] key)
-'''
-pass
+    '''    public void encryptConnection(final byte[] key)
+    '''
 def onConnectionClosed():
-'''public void onConnectionClosed(final int n, final Connection connection)
-'''
-pass
+    '''    public void onConnectionClosed(final int n, final Connection connection)
+    '''
 def onConnected():
-'''public void onConnected(final Connection connection)
-'''
-pass
+    '''    public void onConnected(final Connection connection)
+    '''
 def onConnectFailed():
-'''public void onConnectFailed()
-'''
-pass
+    '''    public void onConnectFailed()
+    '''
 def onProtocolErrorOccured():
-'''public void onProtocolErrorOccured()
-'''
-pass
+    '''    public void onProtocolErrorOccured()
+    '''
 def onReceive():
-'''public void onReceive(final byte[] array, final Connection connection)
-'''
-pass
+    '''    public void onReceive(final byte[] array, final Connection connection)
+    '''
 def toOpaque():
-'''public byte[] toOpaque(final VpkMsgOut vpkMsgOut)
-'''
-pass
+    '''    public byte[] toOpaque(final VpkMsgOut vpkMsgOut)
+    '''
 def getConnection():
-'''public Connection getConnection()
-'''
-pass
+    '''    public Connection getConnection()
+    '''

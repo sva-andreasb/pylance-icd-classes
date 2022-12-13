@@ -1,33 +1,26 @@
 def RRule():
-'''public RRule()
-public RRule(final String value)
-public RRule(final ParameterList aList, final String aValue)
-public RRule(final Recur aRecur)
-public RRule(final ParameterList aList, final Recur aRecur)
-'''
-pass
+    '''    public RRule()
+    public RRule(final String value)
+    public RRule(final ParameterList aList, final String aValue)
+    public RRule(final Recur aRecur)
+    public RRule(final ParameterList aList, final Recur aRecur)
+    '''
 def getRecur():
-'''public final Recur getRecur()
-'''
-pass
+    '''    public final Recur getRecur()
+    '''
 def setValue():
-'''public final void setValue(final String aValue)
-'''
-pass
+    '''    public final void setValue(final String aValue)
+    '''
 def getValue():
-'''public final String getValue()
-'''
-pass
+    '''    public final String getValue()
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def Factory():
-'''public Factory()
-'''
-pass
+    '''    public Factory()
+    '''
 def createProperty():
-'''public Property createProperty(final ParameterList parameters, final String value)
-public Property createProperty()
-'''
-pass
+    '''    public Property createProperty(final ParameterList parameters, final String value)
+    public Property createProperty()
+    '''

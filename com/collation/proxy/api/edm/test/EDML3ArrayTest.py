@@ -1,16 +1,12 @@
 def EDML3ArrayTest():
-'''public EDML3ArrayTest(final String testName)
-'''
-pass
+    '''    public EDML3ArrayTest(final String testName)
+    '''
 def testFilter1():
-'''public void testFilter1()
-'''
-pass
+    '''    public void testFilter1()
+    '''
 def testFilter2():
-'''public void testFilter2()
-'''
-pass
+    '''    public void testFilter2()
+    '''
 def testFindByFilter():
-'''public void testFindByFilter()
-'''
-pass
+    '''    public void testFindByFilter()
+    '''

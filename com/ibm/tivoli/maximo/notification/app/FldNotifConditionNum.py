@@ -1,4 +1,3 @@
 def FldNotifConditionNum():
-'''public FldNotifConditionNum(final MboValue mbv)
-'''
-pass
+    '''    public FldNotifConditionNum(final MboValue mbv)
+    '''

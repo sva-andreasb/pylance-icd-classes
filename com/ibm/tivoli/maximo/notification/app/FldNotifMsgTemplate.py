@@ -1,4 +1,3 @@
 def FldNotifMsgTemplate():
-'''public FldNotifMsgTemplate(final MboValue mbv)
-'''
-pass
+    '''    public FldNotifMsgTemplate(final MboValue mbv)
+    '''

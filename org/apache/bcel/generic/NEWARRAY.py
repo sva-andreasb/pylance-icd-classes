@@ -1,29 +1,22 @@
 def NEWARRAY():
-'''public NEWARRAY(final byte type)
-public NEWARRAY(final BasicType type)
-'''
-pass
+    '''    public NEWARRAY(final byte type)
+    public NEWARRAY(final BasicType type)
+    '''
 def dump():
-'''public void dump(final DataOutputStream out)
-'''
-pass
+    '''    public void dump(final DataOutputStream out)
+    '''
 def getTypecode():
-'''public final byte getTypecode()
-'''
-pass
+    '''    public final byte getTypecode()
+    '''
 def getType():
-'''public final Type getType()
-'''
-pass
+    '''    public final Type getType()
+    '''
 def toString():
-'''public String toString(final boolean verbose)
-'''
-pass
+    '''    public String toString(final boolean verbose)
+    '''
 def getExceptions():
-'''public Class[] getExceptions()
-'''
-pass
+    '''    public Class[] getExceptions()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

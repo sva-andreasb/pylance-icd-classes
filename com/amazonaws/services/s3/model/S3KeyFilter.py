@@ -1,26 +1,20 @@
 def S3KeyFilter():
-'''public S3KeyFilter()
-'''
-pass
+    '''    public S3KeyFilter()
+    '''
 def getFilterRules():
-'''public List<FilterRule> getFilterRules()
-'''
-pass
+    '''    public List<FilterRule> getFilterRules()
+    '''
 def setFilterRules():
-'''public void setFilterRules(final List<FilterRule> filterRules)
-'''
-pass
+    '''    public void setFilterRules(final List<FilterRule> filterRules)
+    '''
 def withFilterRules():
-'''public S3KeyFilter withFilterRules(final List<FilterRule> filterRules)
-public S3KeyFilter withFilterRules(final FilterRule... filterRules)
-'''
-pass
+    '''    public S3KeyFilter withFilterRules(final List<FilterRule> filterRules)
+    public S3KeyFilter withFilterRules(final FilterRule... filterRules)
+    '''
 def addFilterRule():
-'''public void addFilterRule(final FilterRule filterRule)
-'''
-pass
+    '''    public void addFilterRule(final FilterRule filterRule)
+    '''
 def newRule():
-'''public FilterRule newRule()
-public FilterRule newRule(final String value)
-'''
-pass
+    '''    public FilterRule newRule()
+    public FilterRule newRule(final String value)
+    '''

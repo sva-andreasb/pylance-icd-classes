@@ -1,85 +1,64 @@
 def CrossoverCallbackWrapper():
-'''public CrossoverCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
-public CrossoverCallbackWrapper(final IloEnv env)
-'''
-pass
+    '''    public CrossoverCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
+    public CrossoverCallbackWrapper(final IloEnv env)
+    '''
 def getCPtr():
-'''public static long getCPtr(final CrossoverCallbackWrapper obj)
-'''
-pass
+    '''    public static long getCPtr(final CrossoverCallbackWrapper obj)
+    '''
 def delete():
-'''public void delete()
-'''
-pass
+    '''    public void delete()
+    '''
 def main_cpp():
-'''public void main_cpp()
-'''
-pass
+    '''    public void main_cpp()
+    '''
 def duplicateCallback():
-'''public IloCplex__CallbackI duplicateCallback()
-'''
-pass
+    '''    public IloCplex__CallbackI duplicateCallback()
+    '''
 def callbackImpl():
-'''public void callbackImpl()
-'''
-pass
+    '''    public void callbackImpl()
+    '''
 def abort():
-'''public void abort()
-'''
-pass
+    '''    public void abort()
+    '''
 def getEnv():
-'''public IloEnv getEnv()
-'''
-pass
+    '''    public IloEnv getEnv()
+    '''
 def getModel():
-'''public IloModel getModel()
-'''
-pass
+    '''    public IloModel getModel()
+    '''
 def getNcols():
-'''public int getNcols()
-'''
-pass
+    '''    public int getNcols()
+    '''
 def getNrows():
-'''public int getNrows()
-'''
-pass
+    '''    public int getNrows()
+    '''
 def getNQCs():
-'''public int getNQCs()
-'''
-pass
+    '''    public int getNQCs()
+    '''
 def getNprimalPushes():
-'''public int getNprimalPushes()
-'''
-pass
+    '''    public int getNprimalPushes()
+    '''
 def getNprimalPushes64():
-'''public long getNprimalPushes64()
-'''
-pass
+    '''    public long getNprimalPushes64()
+    '''
 def getNprimalExchanges():
-'''public int getNprimalExchanges()
-'''
-pass
+    '''    public int getNprimalExchanges()
+    '''
 def getNprimalExchanges64():
-'''public long getNprimalExchanges64()
-'''
-pass
+    '''    public long getNprimalExchanges64()
+    '''
 def getNdualPushes():
-'''public int getNdualPushes()
-'''
-pass
+    '''    public int getNdualPushes()
+    '''
 def getNdualPushes64():
-'''public long getNdualPushes64()
-'''
-pass
+    '''    public long getNdualPushes64()
+    '''
 def getNdualExchanges():
-'''public int getNdualExchanges()
-'''
-pass
+    '''    public int getNdualExchanges()
+    '''
 def getNdualExchanges64():
-'''public long getNdualExchanges64()
-'''
-pass
+    '''    public long getNdualExchanges64()
+    '''
 def getNsuperbasics():
-'''public int getNsuperbasics()
-'''
-pass
+    '''    public int getNsuperbasics()
+    '''

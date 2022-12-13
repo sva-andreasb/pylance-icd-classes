@@ -1,30 +1,23 @@
-EXTERNAL_USER_PREFIX = "String  @E ""
+EXTERNAL_USER_PREFIX = "String  \"@E \""
 def STUser():
-'''public STUser(final STId stId, final String s, final String s2, final String s3)
-public STUser(final STId stId, final String s, final String s2)
-'''
-pass
+    '''    public STUser(final STId stId, final String s, final String s2, final String s3)
+    public STUser(final STId stId, final String s, final String s2)
+    '''
 def getNickName():
-'''public String getNickName()
-'''
-pass
+    '''    public String getNickName()
+    '''
 def setNickName():
-'''public void setNickName(final String s)
-'''
-pass
+    '''    public void setNickName(final String s)
+    '''
 def setNameDelimiter():
-'''public void setNameDelimiter(final String s)
-'''
-pass
+    '''    public void setNameDelimiter(final String s)
+    '''
 def getDisplayName():
-'''public String getDisplayName()
-'''
-pass
+    '''    public String getDisplayName()
+    '''
 def isExternalUser():
-'''public boolean isExternalUser()
-'''
-pass
+    '''    public boolean isExternalUser()
+    '''
 def setExternalUser():
-'''public void setExternalUser()
-'''
-pass
+    '''    public void setExternalUser()
+    '''

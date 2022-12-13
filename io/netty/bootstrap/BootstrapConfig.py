@@ -1,8 +1,6 @@
 def remoteAddress():
-'''public SocketAddress remoteAddress()
-'''
-pass
+    '''    public SocketAddress remoteAddress()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

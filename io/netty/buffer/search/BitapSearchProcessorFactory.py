@@ -1,12 +1,9 @@
 def newSearchProcessor():
-'''public Processor newSearchProcessor()
-'''
-pass
+    '''    public Processor newSearchProcessor()
+    '''
 def process():
-'''public boolean process(final byte value)
-'''
-pass
+    '''    public boolean process(final byte value)
+    '''
 def reset():
-'''public void reset()
-'''
-pass
+    '''    public void reset()
+    '''

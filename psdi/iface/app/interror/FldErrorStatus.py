@@ -1,8 +1,6 @@
 def FldErrorStatus():
-'''public FldErrorStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldErrorStatus(final MboValue mbv)
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

@@ -1,8 +1,6 @@
 def name():
-'''public static String name()
-'''
-pass
+    '''    public static String name()
+    '''
 def TableDescTriples():
-'''public TableDescTriples()
-'''
-pass
+    '''    public TableDescTriples()
+    '''

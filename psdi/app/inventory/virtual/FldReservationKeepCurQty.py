@@ -1,8 +1,6 @@
 def FldReservationKeepCurQty():
-'''public FldReservationKeepCurQty(final MboValue mbv)
-'''
-pass
+    '''    public FldReservationKeepCurQty(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

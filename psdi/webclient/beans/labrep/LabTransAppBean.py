@@ -1,28 +1,21 @@
 def LabTransAppBean():
-'''public LabTransAppBean()
-'''
-pass
+    '''    public LabTransAppBean()
+    '''
 def CREATEINVC():
-'''public int CREATEINVC()
-'''
-pass
+    '''    public int CREATEINVC()
+    '''
 def APPRLABOR():
-'''public int APPRLABOR()
-'''
-pass
+    '''    public int APPRLABOR()
+    '''
 def BYLABOR():
-'''public int BYLABOR()
-'''
-pass
+    '''    public int BYLABOR()
+    '''
 def BYTICKET():
-'''public int BYTICKET()
-'''
-pass
+    '''    public int BYTICKET()
+    '''
 def BYWORKORD():
-'''public int BYWORKORD()
-'''
-pass
+    '''    public int BYWORKORD()
+    '''
 def BYAMCREW():
-'''public int BYAMCREW()
-'''
-pass
+    '''    public int BYAMCREW()
+    '''

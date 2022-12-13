@@ -1,4 +1,3 @@
 def ChatOpsMbo():
-'''public ChatOpsMbo(final MboSet ms)
-'''
-pass
+    '''    public ChatOpsMbo(final MboSet ms)
+    '''

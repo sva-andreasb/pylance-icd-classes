@@ -1,86 +1,65 @@
 def GraphSDB():
-'''public GraphSDB(final Store store, final String uri)
-public GraphSDB(final Store store)
-public GraphSDB(final Store store, Node graphNode)
-'''
-pass
+    '''    public GraphSDB(final Store store, final String uri)
+    public GraphSDB(final Store store)
+    public GraphSDB(final Store store, Node graphNode)
+    '''
 def getCapabilities():
-'''public Capabilities getCapabilities()
-'''
-pass
+    '''    public Capabilities getCapabilities()
+    '''
 def handlesLiteralTyping():
-'''public boolean handlesLiteralTyping()
-'''
-pass
+    '''    public boolean handlesLiteralTyping()
+    '''
 def getStore():
-'''public Store getStore()
-'''
-pass
+    '''    public Store getStore()
+    '''
 def getConnection():
-'''public SDBConnection getConnection()
-'''
-pass
+    '''    public SDBConnection getConnection()
+    '''
 def createPrefixMapping():
-'''public PrefixMapping createPrefixMapping()
-'''
-pass
+    '''    public PrefixMapping createPrefixMapping()
+    '''
 def getBulkLoader():
-'''public StoreLoader getBulkLoader()
-'''
-pass
+    '''    public StoreLoader getBulkLoader()
+    '''
 def getBulkUpdateHandler():
-'''public BulkUpdateHandler getBulkUpdateHandler()
-'''
-pass
+    '''    public BulkUpdateHandler getBulkUpdateHandler()
+    '''
 def queryHandler():
-'''public QueryHandler queryHandler()
-'''
-pass
+    '''    public QueryHandler queryHandler()
+    '''
 def getEventManager():
-'''public GraphEventManager getEventManager()
-'''
-pass
+    '''    public GraphEventManager getEventManager()
+    '''
 def performAdd():
-'''public void performAdd(final Triple triple)
-'''
-pass
+    '''    public void performAdd(final Triple triple)
+    '''
 def performDelete():
-'''public void performDelete(final Triple triple)
-'''
-pass
+    '''    public void performDelete(final Triple triple)
+    '''
 def startBulkUpdate():
-'''public void startBulkUpdate()
-'''
-pass
+    '''    public void startBulkUpdate()
+    '''
 def finishBulkUpdate():
-'''public void finishBulkUpdate()
-'''
-pass
+    '''    public void finishBulkUpdate()
+    '''
 def getTransactionHandler():
-'''public TransactionHandler getTransactionHandler()
-'''
-pass
+    '''    public TransactionHandler getTransactionHandler()
+    '''
 def graphBaseSize():
-'''public int graphBaseSize()
-'''
-pass
+    '''    public int graphBaseSize()
+    '''
 def deleteAll():
-'''public void deleteAll()
-'''
-pass
+    '''    public void deleteAll()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Triple next()
-'''
-pass
+    '''    public Triple next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

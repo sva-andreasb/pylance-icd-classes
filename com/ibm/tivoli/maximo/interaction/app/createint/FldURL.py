@@ -1,8 +1,6 @@
 def FldURL():
-'''public FldURL(final MboValue mbv)
-'''
-pass
+    '''    public FldURL(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

@@ -1,28 +1,22 @@
 def KMeansPlusPlusClusterer():
-'''public KMeansPlusPlusClusterer(final int k)
-public KMeansPlusPlusClusterer(final int k, final int maxIterations)
-public KMeansPlusPlusClusterer(final int k, final int maxIterations, final DistanceMeasure measure)
-public KMeansPlusPlusClusterer(final int k, final int maxIterations, final DistanceMeasure measure, final RandomGenerator random)
-public KMeansPlusPlusClusterer(final int k, final int maxIterations, final DistanceMeasure measure, final RandomGenerator random, final EmptyClusterStrategy emptyStrategy)
-'''
-pass
+    '''    public KMeansPlusPlusClusterer(final int k)
+    public KMeansPlusPlusClusterer(final int k, final int maxIterations)
+    public KMeansPlusPlusClusterer(final int k, final int maxIterations, final DistanceMeasure measure)
+    public KMeansPlusPlusClusterer(final int k, final int maxIterations, final DistanceMeasure measure, final RandomGenerator random)
+    public KMeansPlusPlusClusterer(final int k, final int maxIterations, final DistanceMeasure measure, final RandomGenerator random, final EmptyClusterStrategy emptyStrategy)
+    '''
 def getK():
-'''public int getK()
-'''
-pass
+    '''    public int getK()
+    '''
 def getMaxIterations():
-'''public int getMaxIterations()
-'''
-pass
+    '''    public int getMaxIterations()
+    '''
 def getRandomGenerator():
-'''public RandomGenerator getRandomGenerator()
-'''
-pass
+    '''    public RandomGenerator getRandomGenerator()
+    '''
 def getEmptyClusterStrategy():
-'''public EmptyClusterStrategy getEmptyClusterStrategy()
-'''
-pass
+    '''    public EmptyClusterStrategy getEmptyClusterStrategy()
+    '''
 def cluster():
-'''public List<CentroidCluster<T>> cluster(final Collection<T> points)
-'''
-pass
+    '''    public List<CentroidCluster<T>> cluster(final Collection<T> points)
+    '''

@@ -1,4 +1,3 @@
 def FldUseCalForSLARefPoint():
-'''public FldUseCalForSLARefPoint(final MboValue mbv)
-'''
-pass
+    '''    public FldUseCalForSLARefPoint(final MboValue mbv)
+    '''

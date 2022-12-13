@@ -1,47 +1,36 @@
 def ArgParser():
-'''public ArgParser(final String[] args, final String[] argList)
-public ArgParser(final String[] args, final String[] argList, final boolean allArgParams)
-public ArgParser(final String[] args, final String[] argList, boolean[] argParams)
-'''
-pass
+    '''    public ArgParser(final String[] args, final String[] argList)
+    public ArgParser(final String[] args, final String[] argList, final boolean allArgParams)
+    public ArgParser(final String[] args, final String[] argList, boolean[] argParams)
+    '''
 def getArg():
-'''public String getArg(final String argToGet)
-'''
-pass
+    '''    public String getArg(final String argToGet)
+    '''
 def getArgExists():
-'''public boolean getArgExists(final String argToGet)
-'''
-pass
+    '''    public boolean getArgExists(final String argToGet)
+    '''
 def isExtraArgs():
-'''public boolean isExtraArgs()
-'''
-pass
+    '''    public boolean isExtraArgs()
+    '''
 def getExtraArgs():
-'''public Hashtable getExtraArgs()
-'''
-pass
+    '''    public Hashtable getExtraArgs()
+    '''
 def getArgumentWords():
-'''public Vector getArgumentWords()
-'''
-pass
+    '''    public Vector getArgumentWords()
+    '''
 def getArgumentWordCount():
-'''public int getArgumentWordCount()
-'''
-pass
+    '''    public int getArgumentWordCount()
+    '''
 def getArgumentWord():
-'''public String getArgumentWord(final int position)
-'''
-pass
+    '''    public String getArgumentWord(final int position)
+    '''
 def getArgumentCount():
-'''public int getArgumentCount()
-'''
-pass
+    '''    public int getArgumentCount()
+    '''
 def tokenize():
-'''public static String[] tokenize(final String in)
-public static String[] tokenize(String in, final boolean includeCmd)
-'''
-pass
+    '''    public static String[] tokenize(final String in)
+    public static String[] tokenize(String in, final boolean includeCmd)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

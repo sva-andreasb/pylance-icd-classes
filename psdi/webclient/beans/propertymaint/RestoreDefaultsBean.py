@@ -1,8 +1,6 @@
 def restdef():
-'''public int restdef()
-'''
-pass
+    '''    public int restdef()
+    '''
 def restglobdef():
-'''public int restglobdef()
-'''
-pass
+    '''    public int restglobdef()
+    '''

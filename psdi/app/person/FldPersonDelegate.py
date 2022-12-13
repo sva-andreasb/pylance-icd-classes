@@ -1,4 +1,3 @@
 def FldPersonDelegate():
-'''public FldPersonDelegate(final MboValue mbv)
-'''
-pass
+    '''    public FldPersonDelegate(final MboValue mbv)
+    '''

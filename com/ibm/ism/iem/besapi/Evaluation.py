@@ -1,16 +1,12 @@
 def getTime():
-'''public String getTime()
-'''
-pass
+    '''    public String getTime()
+    '''
 def setTime():
-'''public void setTime(final String value)
-'''
-pass
+    '''    public void setTime(final String value)
+    '''
 def getPlurality():
-'''public RelevancePlurality getPlurality()
-'''
-pass
+    '''    public RelevancePlurality getPlurality()
+    '''
 def setPlurality():
-'''public void setPlurality(final RelevancePlurality value)
-'''
-pass
+    '''    public void setPlurality(final RelevancePlurality value)
+    '''

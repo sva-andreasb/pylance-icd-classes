@@ -1,55 +1,42 @@
-NODENAME = "String  content""
-CREATOR = "String  creator""
-NAME = "String  name""
+NODENAME = "String  \"content\""
+CREATOR = "String  \"creator\""
+NAME = "String  \"name\""
 def JingleContent():
-'''public JingleContent(final String creator, final String name)
-'''
-pass
+    '''    public JingleContent(final String creator, final String name)
+    '''
 def getCreator():
-'''public String getCreator()
-'''
-pass
+    '''    public String getCreator()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def setDescription():
-'''public void setDescription(final JingleDescription description)
-'''
-pass
+    '''    public void setDescription(final JingleDescription description)
+    '''
 def getDescription():
-'''public JingleDescription getDescription()
-'''
-pass
+    '''    public JingleDescription getDescription()
+    '''
 def addJingleTransport():
-'''public void addJingleTransport(final JingleTransport transport)
-'''
-pass
+    '''    public void addJingleTransport(final JingleTransport transport)
+    '''
 def addTransports():
-'''public void addTransports(final List<JingleTransport> transports)
-'''
-pass
+    '''    public void addTransports(final List<JingleTransport> transports)
+    '''
 def getJingleTransports():
-'''public Iterator<JingleTransport> getJingleTransports()
-'''
-pass
+    '''    public Iterator<JingleTransport> getJingleTransports()
+    '''
 def getJingleTransportsList():
-'''public List<JingleTransport> getJingleTransportsList()
-'''
-pass
+    '''    public List<JingleTransport> getJingleTransportsList()
+    '''
 def getJingleTransportsCount():
-'''public int getJingleTransportsCount()
-'''
-pass
+    '''    public int getJingleTransportsCount()
+    '''
 def toXML():
-'''public String toXML(final String enclosingNamespace)
-'''
-pass
+    '''    public String toXML(final String enclosingNamespace)
+    '''

@@ -1,4 +1,3 @@
 def TsdObjSrchAttrbtesSet():
-'''public TsdObjSrchAttrbtesSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TsdObjSrchAttrbtesSet(final MboServerInterface ms)
+    '''

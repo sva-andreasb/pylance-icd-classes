@@ -1,65 +1,49 @@
 def HyphenationRuleGloss():
-'''public HyphenationRuleGloss()
-public HyphenationRuleGloss(final String rightContext, final String leftContext, final String s, final int llscreen, final int brscreen, final int ruleno, final int estate, final int nState, final int state, final int escapedCharacters)
-'''
-pass
+    '''    public HyphenationRuleGloss()
+    public HyphenationRuleGloss(final String rightContext, final String leftContext, final String s, final int llscreen, final int brscreen, final int ruleno, final int estate, final int nState, final int state, final int escapedCharacters)
+    '''
 def getType():
-'''public int getType()
-'''
-pass
+    '''    public int getType()
+    '''
 def read():
-'''public final void read(final DataInputStream dataInputStream, final int n)
-'''
-pass
+    '''    public final void read(final DataInputStream dataInputStream, final int n)
+    '''
 def write():
-'''public final void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
-'''
-pass
+    '''    public final void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def getBrscreen():
-'''public int getBrscreen()
-'''
-pass
+    '''    public int getBrscreen()
+    '''
 def getEstate():
-'''public int getEstate()
-'''
-pass
+    '''    public int getEstate()
+    '''
 def getLlscreen():
-'''public int getLlscreen()
-'''
-pass
+    '''    public int getLlscreen()
+    '''
 def getRuleno():
-'''public int getRuleno()
-'''
-pass
+    '''    public int getRuleno()
+    '''
 def getEscapedCharacters():
-'''public int getEscapedCharacters()
-'''
-pass
+    '''    public int getEscapedCharacters()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def getLeftContext():
-'''public String getLeftContext()
-'''
-pass
+    '''    public String getLeftContext()
+    '''
 def getRightContext():
-'''public String getRightContext()
-'''
-pass
+    '''    public String getRightContext()
+    '''
 def getNState():
-'''public int getNState()
-'''
-pass
+    '''    public int getNState()
+    '''
 def getState():
-'''public int getState()
-'''
-pass
+    '''    public int getState()
+    '''

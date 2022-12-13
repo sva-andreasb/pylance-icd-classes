@@ -1,4 +1,3 @@
 def MergeOptions():
-'''public MergeOptions()
-'''
-pass
+    '''    public MergeOptions()
+    '''

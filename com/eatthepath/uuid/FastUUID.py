@@ -1,8 +1,6 @@
 def parseUUID():
-'''public static UUID parseUUID(final CharSequence uuidSequence)
-'''
-pass
+    '''    public static UUID parseUUID(final CharSequence uuidSequence)
+    '''
 def toString():
-'''public static String toString(final UUID uuid)
-'''
-pass
+    '''    public static String toString(final UUID uuid)
+    '''

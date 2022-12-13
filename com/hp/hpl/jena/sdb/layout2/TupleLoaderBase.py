@@ -1,76 +1,57 @@
 def TupleLoaderBase():
-'''public TupleLoaderBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
-'''
-pass
+    '''    public TupleLoaderBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''
 def getArity():
-'''public int getArity()
-'''
-pass
+    '''    public int getArity()
+    '''
 def load():
-'''public void load(final Node... row)
-'''
-pass
+    '''    public void load(final Node... row)
+    '''
 def unload():
-'''public void unload(final Node... row)
-'''
-pass
+    '''    public void unload(final Node... row)
+    '''
 def finish():
-'''public void finish()
-'''
-pass
+    '''    public void finish()
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getNodeLoader():
-'''public String getNodeLoader()
-'''
-pass
+    '''    public String getNodeLoader()
+    '''
 def getTupleLoader():
-'''public String getTupleLoader()
-'''
-pass
+    '''    public String getTupleLoader()
+    '''
 def getCreateTempNodes():
-'''public String getCreateTempNodes()
-'''
-pass
+    '''    public String getCreateTempNodes()
+    '''
 def getCreateTempTuples():
-'''public String getCreateTempTuples()
-'''
-pass
+    '''    public String getCreateTempTuples()
+    '''
 def getInsertTempNodes():
-'''public String getInsertTempNodes()
-'''
-pass
+    '''    public String getInsertTempNodes()
+    '''
 def getInsertTempTuples():
-'''public String getInsertTempTuples()
-'''
-pass
+    '''    public String getInsertTempTuples()
+    '''
 def getLoadNodes():
-'''public String getLoadNodes()
-'''
-pass
+    '''    public String getLoadNodes()
+    '''
 def getClearTempNodes():
-'''public String getClearTempNodes()
-'''
-pass
+    '''    public String getClearTempNodes()
+    '''
 def getClearTempTuples():
-'''public String getClearTempTuples()
-'''
-pass
+    '''    public String getClearTempTuples()
+    '''
 def clearsOnCommit():
-'''public boolean clearsOnCommit()
-'''
-pass
+    '''    public boolean clearsOnCommit()
+    '''
 def addToStatement():
-'''public void addToStatement(final PreparedStatement s)
-'''
-pass
+    '''    public void addToStatement(final PreparedStatement s)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''

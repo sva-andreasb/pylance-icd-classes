@@ -3,14 +3,11 @@ ACTIVE = "int  1"
 INACTIVE = "int  2"
 NOTDELETED = "int  3"
 def TenantRegSet():
-'''public TenantRegSet(final MboServerInterface ms)
-'''
-pass
+    '''    public TenantRegSet(final MboServerInterface ms)
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def userInputChecks():
-'''public void userInputChecks()
-'''
-pass
+    '''    public void userInputChecks()
+    '''

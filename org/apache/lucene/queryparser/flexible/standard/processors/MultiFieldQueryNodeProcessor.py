@@ -1,4 +1,3 @@
 def MultiFieldQueryNodeProcessor():
-'''public MultiFieldQueryNodeProcessor()
-'''
-pass
+    '''    public MultiFieldQueryNodeProcessor()
+    '''

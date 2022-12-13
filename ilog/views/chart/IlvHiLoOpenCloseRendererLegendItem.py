@@ -1,16 +1,12 @@
 def IlvHiLoOpenCloseRendererLegendItem():
-'''public IlvHiLoOpenCloseRendererLegendItem(final IlvHiLoChartRenderer ilvHiLoChartRenderer, final IlvSingleHiLoRenderer a, final IlvSingleHiLoRenderer b)
-'''
-pass
+    '''    public IlvHiLoOpenCloseRendererLegendItem(final IlvHiLoChartRenderer ilvHiLoChartRenderer, final IlvSingleHiLoRenderer a, final IlvSingleHiLoRenderer b)
+    '''
 def getHiLoChildRenderer():
-'''public final IlvSingleHiLoRenderer getHiLoChildRenderer()
-'''
-pass
+    '''    public final IlvSingleHiLoRenderer getHiLoChildRenderer()
+    '''
 def getOpenCloseChildRenderer():
-'''public final IlvSingleHiLoRenderer getOpenCloseChildRenderer()
-'''
-pass
+    '''    public final IlvSingleHiLoRenderer getOpenCloseChildRenderer()
+    '''
 def getLegendText():
-'''public String getLegendText()
-'''
-pass
+    '''    public String getLegendText()
+    '''

@@ -1,12 +1,9 @@
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def attributeSearch():
-'''public int attributeSearch()
-'''
-pass
+    '''    public int attributeSearch()
+    '''
 def getSearchAttributeBean():
-'''public SearchAttributeBean getSearchAttributeBean()
-'''
-pass
+    '''    public SearchAttributeBean getSearchAttributeBean()
+    '''

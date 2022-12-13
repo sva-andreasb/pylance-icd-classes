@@ -1,52 +1,39 @@
 def BudgetAnalysisAxisNumber():
-'''public BudgetAnalysisAxisNumber(final MboSet ms)
-'''
-pass
+    '''    public BudgetAnalysisAxisNumber(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def getSequence():
-'''public int getSequence()
-'''
-pass
+    '''    public int getSequence()
+    '''
 def getBudgetAnalysisAxisNum():
-'''public String getBudgetAnalysisAxisNum()
-'''
-pass
+    '''    public String getBudgetAnalysisAxisNum()
+    '''
 def getBudgetNum():
-'''public String getBudgetNum()
-'''
-pass
+    '''    public String getBudgetNum()
+    '''
 def getOrgID():
-'''public String getOrgID()
-'''
-pass
+    '''    public String getOrgID()
+    '''
 def getSiteID():
-'''public String getSiteID()
-'''
-pass
+    '''    public String getSiteID()
+    '''
 def getBudgetAnalysisAxis():
-'''public BudgetAnalysisAxisRemote getBudgetAnalysisAxis()
-'''
-pass
+    '''    public BudgetAnalysisAxisRemote getBudgetAnalysisAxis()
+    '''
 def getCondition():
-'''public String getCondition()
-'''
-pass
+    '''    public String getCondition()
+    '''
 def getBudgetCodes():
-'''public Map<String, String> getBudgetCodes(final String orgID, final String siteID)
-'''
-pass
+    '''    public Map<String, String> getBudgetCodes(final String orgID, final String siteID)
+    '''

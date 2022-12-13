@@ -1,126 +1,95 @@
-COPYRIGHT_NOTICE = "String  Copyright IBM Corporation 2005,2012""
+COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloCplexReqPropsDef():
-'''public IloCplexReqPropsDef()
-'''
-pass
+    '''    public IloCplexReqPropsDef()
+    '''
 def execute():
-'''public Object execute(final IloDecisionModel.Element elt, final int index, final Object propValue, final IloEngineController ctl, final boolean inherited)
-'''
-pass
+    '''    public Object execute(final IloDecisionModel.Element elt, final int index, final Object propValue, final IloEngineController ctl, final boolean inherited)
+    '''
 def getWeightedPriorities():
-'''public IloWeightedPriority[] getWeightedPriorities()
-'''
-pass
+    '''    public IloWeightedPriority[] getWeightedPriorities()
+    '''
 def setWeightedPriorities():
-'''public void setWeightedPriorities(final IloWeightedPriority[] wps)
-'''
-pass
+    '''    public void setWeightedPriorities(final IloWeightedPriority[] wps)
+    '''
 def getDefautRangePref():
-'''public double getDefautRangePref()
-'''
-pass
+    '''    public double getDefautRangePref()
+    '''
 def setDefaultRangePref():
-'''public void setDefaultRangePref(final double v)
-'''
-pass
+    '''    public void setDefaultRangePref(final double v)
+    '''
 def getDefaultPriority():
-'''public IloPriority getDefaultPriority()
-'''
-pass
+    '''    public IloPriority getDefaultPriority()
+    '''
 def setDefaultPriority():
-'''public void setDefaultPriority(final IloPriority priority)
-'''
-pass
+    '''    public void setDefaultPriority(final IloPriority priority)
+    '''
 def getDummyContainer():
-'''public IloRequirementContainer getDummyContainer()
-'''
-pass
+    '''    public IloRequirementContainer getDummyContainer()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getModel():
-'''public IloDecisionModel getModel()
-'''
-pass
+    '''    public IloDecisionModel getModel()
+    '''
 def getRequirement():
-'''public IloRequirement getRequirement(final String name)
-'''
-pass
+    '''    public IloRequirement getRequirement(final String name)
+    '''
 def getReqPropertiesDef():
-'''public IloReqPropertiesDef getReqPropertiesDef()
-'''
-pass
+    '''    public IloReqPropertiesDef getReqPropertiesDef()
+    '''
 def registerRequirement():
-'''public void registerRequirement(final IloRequirement r, final boolean force)
-public void registerRequirement(final IloRequirement r)
-'''
-pass
+    '''    public void registerRequirement(final IloRequirement r, final boolean force)
+    public void registerRequirement(final IloRequirement r)
+    '''
 def onRenameRequirement():
-'''public void onRenameRequirement(final IloRequirement r, final String oldName)
-'''
-pass
+    '''    public void onRenameRequirement(final IloRequirement r, final String oldName)
+    '''
 def unregisterRequirement():
-'''public IloRequirement unregisterRequirement(final String name)
-'''
-pass
+    '''    public IloRequirement unregisterRequirement(final String name)
+    '''
 def internalPutReq():
-'''public void internalPutReq(final IloRequirement r)
-'''
-pass
+    '''    public void internalPutReq(final IloRequirement r)
+    '''
 def internalRemoveReq():
-'''public IloRequirement internalRemoveReq(final String name)
-'''
-pass
+    '''    public IloRequirement internalRemoveReq(final String name)
+    '''
 def getChildCount():
-'''public int getChildCount()
-'''
-pass
+    '''    public int getChildCount()
+    '''
 def isComposite():
-'''public boolean isComposite()
-'''
-pass
+    '''    public boolean isComposite()
+    '''
 def isLeaf():
-'''public boolean isLeaf()
-'''
-pass
+    '''    public boolean isLeaf()
+    '''
 def getParent():
-'''public IloRequirementNode getParent()
-'''
-pass
+    '''    public IloRequirementNode getParent()
+    '''
 def getDefaultProperty():
-'''public Object getDefaultProperty(final int index)
-'''
-pass
+    '''    public Object getDefaultProperty(final int index)
+    '''
 def getExplainMsgIndex():
-'''public int getExplainMsgIndex()
-'''
-pass
+    '''    public int getExplainMsgIndex()
+    '''
 def getRemovedFromEngineIndex():
-'''public int getRemovedFromEngineIndex()
-'''
-pass
+    '''    public int getRemovedFromEngineIndex()
+    '''
 def getRelaxMsgIndex():
-'''public int getRelaxMsgIndex()
-'''
-pass
+    '''    public int getRelaxMsgIndex()
+    '''
 def getIsVerifiedIndex():
-'''public int getIsVerifiedIndex()
-'''
-pass
+    '''    public int getIsVerifiedIndex()
+    '''
 def getRelaxPrefIndex():
-'''public int getRelaxPrefIndex()
-'''
-pass
+    '''    public int getRelaxPrefIndex()
+    '''
 def getExplainPriorityIndex():
-'''public int getExplainPriorityIndex()
-'''
-pass
+    '''    public int getExplainPriorityIndex()
+    '''
 def getRelaxEpsilonIndex():
-'''public int getRelaxEpsilonIndex()
-'''
-pass
+    '''    public int getRelaxEpsilonIndex()
+    '''
 def getRequirementDescriptionIndex():
-'''public int getRequirementDescriptionIndex()
-'''
-pass
+    '''    public int getRequirementDescriptionIndex()
+    '''

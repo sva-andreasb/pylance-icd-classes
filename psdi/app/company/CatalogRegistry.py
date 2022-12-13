@@ -1,20 +1,15 @@
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getBuyer():
-'''public String getBuyer()
-'''
-pass
+    '''    public String getBuyer()
+    '''
 def getVendor():
-'''public String getVendor()
-'''
-pass
+    '''    public String getVendor()
+    '''
 def getReplyUrl():
-'''public String getReplyUrl()
-'''
-pass
+    '''    public String getReplyUrl()
+    '''
 def getRedirectUrl():
-'''public String getRedirectUrl()
-'''
-pass
+    '''    public String getRedirectUrl()
+    '''

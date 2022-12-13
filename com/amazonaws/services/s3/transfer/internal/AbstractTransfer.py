@@ -1,58 +1,44 @@
 def isDone():
-'''public final synchronized boolean isDone()
-'''
-pass
+    '''    public final synchronized boolean isDone()
+    '''
 def waitForCompletion():
-'''public void waitForCompletion()
-'''
-pass
+    '''    public void waitForCompletion()
+    '''
 def waitForException():
-'''public AmazonClientException waitForException()
-'''
-pass
+    '''    public AmazonClientException waitForException()
+    '''
 def getDescription():
-'''public String getDescription()
-'''
-pass
+    '''    public String getDescription()
+    '''
 def getState():
-'''public synchronized TransferState getState()
-'''
-pass
+    '''    public synchronized TransferState getState()
+    '''
 def setState():
-'''public void setState(final TransferState state)
-'''
-pass
+    '''    public void setState(final TransferState state)
+    '''
 def notifyStateChangeListeners():
-'''public void notifyStateChangeListeners(final TransferState state)
-'''
-pass
+    '''    public void notifyStateChangeListeners(final TransferState state)
+    '''
 def addProgressListener():
-'''public synchronized void addProgressListener(final ProgressListener listener)
-public synchronized void addProgressListener(final com.amazonaws.services.s3.model.ProgressListener listener)
-'''
-pass
+    '''    public synchronized void addProgressListener(final ProgressListener listener)
+    public synchronized void addProgressListener(final com.amazonaws.services.s3.model.ProgressListener listener)
+    '''
 def removeProgressListener():
-'''public synchronized void removeProgressListener(final ProgressListener listener)
-public synchronized void removeProgressListener(final com.amazonaws.services.s3.model.ProgressListener listener)
-'''
-pass
+    '''    public synchronized void removeProgressListener(final ProgressListener listener)
+    public synchronized void removeProgressListener(final com.amazonaws.services.s3.model.ProgressListener listener)
+    '''
 def addStateChangeListener():
-'''public synchronized void addStateChangeListener(final TransferStateChangeListener listener)
-'''
-pass
+    '''    public synchronized void addStateChangeListener(final TransferStateChangeListener listener)
+    '''
 def removeStateChangeListener():
-'''public synchronized void removeStateChangeListener(final TransferStateChangeListener listener)
-'''
-pass
+    '''    public synchronized void removeStateChangeListener(final TransferStateChangeListener listener)
+    '''
 def getProgress():
-'''public TransferProgress getProgress()
-'''
-pass
+    '''    public TransferProgress getProgress()
+    '''
 def setMonitor():
-'''public void setMonitor(final TransferMonitor monitor)
-'''
-pass
+    '''    public void setMonitor(final TransferMonitor monitor)
+    '''
 def getMonitor():
-'''public TransferMonitor getMonitor()
-'''
-pass
+    '''    public TransferMonitor getMonitor()
+    '''

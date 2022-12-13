@@ -1,4 +1,3 @@
 def FileImportReqQueueSet():
-'''public FileImportReqQueueSet(final MboServerInterface ms)
-'''
-pass
+    '''    public FileImportReqQueueSet(final MboServerInterface ms)
+    '''

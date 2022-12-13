@@ -1,5 +1,4 @@
 def DPAMSWSuiteService():
-'''public DPAMSWSuiteService()
-public DPAMSWSuiteService(final MXServer mxServer)
-'''
-pass
+    '''    public DPAMSWSuiteService()
+    public DPAMSWSuiteService(final MXServer mxServer)
+    '''

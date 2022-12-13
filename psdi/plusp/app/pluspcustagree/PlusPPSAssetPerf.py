@@ -1,4 +1,3 @@
 def PlusPPSAssetPerf():
-'''public PlusPPSAssetPerf(final MboSet set)
-'''
-pass
+    '''    public PlusPPSAssetPerf(final MboSet set)
+    '''

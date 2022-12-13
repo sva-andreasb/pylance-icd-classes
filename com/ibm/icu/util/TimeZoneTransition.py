@@ -1,20 +1,15 @@
 def TimeZoneTransition():
-'''public TimeZoneTransition(final long time, final TimeZoneRule from, final TimeZoneRule to)
-'''
-pass
+    '''    public TimeZoneTransition(final long time, final TimeZoneRule from, final TimeZoneRule to)
+    '''
 def getTime():
-'''public long getTime()
-'''
-pass
+    '''    public long getTime()
+    '''
 def getTo():
-'''public TimeZoneRule getTo()
-'''
-pass
+    '''    public TimeZoneRule getTo()
+    '''
 def getFrom():
-'''public TimeZoneRule getFrom()
-'''
-pass
+    '''    public TimeZoneRule getFrom()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

@@ -1,4 +1,3 @@
 def CCILinkCISet():
-'''public CCILinkCISet(final MboServerInterface ms)
-'''
-pass
+    '''    public CCILinkCISet(final MboServerInterface ms)
+    '''

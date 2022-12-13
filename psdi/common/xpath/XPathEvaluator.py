@@ -1,18 +1,14 @@
 def XPathEvaluator():
-'''public XPathEvaluator(final String xpathExpression, Map<String, String> nsPrefixMap)
-public XPathEvaluator(final Map<String, String> nsPrefixMap, final Element sourceElem)
-'''
-pass
+    '''    public XPathEvaluator(final String xpathExpression, Map<String, String> nsPrefixMap)
+    public XPathEvaluator(final Map<String, String> nsPrefixMap, final Element sourceElem)
+    '''
 def getMatchingContents():
-'''public List getMatchingContents(final Document doc)
-public List getMatchingContents(final Element sourceElem)
-'''
-pass
+    '''    public List getMatchingContents(final Document doc)
+    public List getMatchingContents(final Element sourceElem)
+    '''
 def getContentValue():
-'''public Object getContentValue(final String xpathExpression, final String type)
-'''
-pass
+    '''    public Object getContentValue(final String xpathExpression, final String type)
+    '''
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''

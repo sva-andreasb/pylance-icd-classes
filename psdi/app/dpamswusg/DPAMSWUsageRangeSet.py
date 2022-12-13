@@ -1,4 +1,3 @@
 def DPAMSWUsageRangeSet():
-'''public DPAMSWUsageRangeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DPAMSWUsageRangeSet(final MboServerInterface ms)
+    '''

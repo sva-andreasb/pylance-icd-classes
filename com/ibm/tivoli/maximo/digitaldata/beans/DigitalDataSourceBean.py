@@ -1,9 +1,7 @@
-DIGITALDATA_LOGGER = "String  maximo.digitaldata""
+DIGITALDATA_LOGGER = "String  \"maximo.digitaldata\""
 def DigitalDataSourceBean():
-'''public DigitalDataSourceBean()
-'''
-pass
+    '''    public DigitalDataSourceBean()
+    '''
 def DATASRCEVENT():
-'''public int DATASRCEVENT()
-'''
-pass
+    '''    public int DATASRCEVENT()
+    '''

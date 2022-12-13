@@ -1,136 +1,102 @@
 def getItemReference():
-'''public MboRemote getItemReference()
-'''
-pass
+    '''    public MboRemote getItemReference()
+    '''
 def MRLine():
-'''public MRLine(final MboSet ms)
-'''
-pass
+    '''    public MRLine(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def isNullQty():
-'''public void isNullQty()
-'''
-pass
+    '''    public void isNullQty()
+    '''
 def save():
-'''public void save()
-'''
-pass
+    '''    public void save()
+    '''
 def appValidate():
-'''public void appValidate()
-'''
-pass
+    '''    public void appValidate()
+    '''
 def checkMRCostValidity():
-'''public void checkMRCostValidity()
-'''
-pass
+    '''    public void checkMRCostValidity()
+    '''
 def validateCombination():
-'''public void validateCombination()
-'''
-pass
+    '''    public void validateCombination()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def updateGlAccount():
-'''public void updateGlAccount()
-'''
-pass
+    '''    public void updateGlAccount()
+    '''
 def canHeaderUpdateLine():
-'''public boolean canHeaderUpdateLine()
-'''
-pass
+    '''    public boolean canHeaderUpdateLine()
+    '''
 def setPriceDetails():
-'''public void setPriceDetails()
-'''
-pass
+    '''    public void setPriceDetails()
+    '''
 def isStocked():
-'''public boolean isStocked()
-'''
-pass
+    '''    public boolean isStocked()
+    '''
 def isNonStocked():
-'''public boolean isNonStocked()
-'''
-pass
+    '''    public boolean isNonStocked()
+    '''
 def isSpecialOrder():
-'''public boolean isSpecialOrder()
-'''
-pass
+    '''    public boolean isSpecialOrder()
+    '''
 def setLineCosts():
-'''public void setLineCosts(final double lineCost)
-'''
-pass
+    '''    public void setLineCosts(final double lineCost)
+    '''
 def reCalculateTotalCost():
-'''public double reCalculateTotalCost()
-'''
-pass
+    '''    public double reCalculateTotalCost()
+    '''
 def isTotalCostInBaseCurrency():
-'''public boolean isTotalCostInBaseCurrency(final MboSetRemote mrLineSet)
-'''
-pass
+    '''    public boolean isTotalCostInBaseCurrency(final MboSetRemote mrLineSet)
+    '''
 def calBaseTotalCost():
-'''public double calBaseTotalCost(final MboSetRemote mrLineSet, double totalCost)
-'''
-pass
+    '''    public double calBaseTotalCost(final MboSetRemote mrLineSet, double totalCost)
+    '''
 def afterAdd():
-'''public void afterAdd()
-'''
-pass
+    '''    public void afterAdd()
+    '''
 def calBaseTotalCost2():
-'''public double calBaseTotalCost2(final MboSetRemote mrLineSet, double totalCost)
-'''
-pass
+    '''    public double calBaseTotalCost2(final MboSetRemote mrLineSet, double totalCost)
+    '''
 def getTotalCostCurrencyCode():
-'''public String getTotalCostCurrencyCode(final MboSetRemote mrLineSet)
-'''
-pass
+    '''    public String getTotalCostCurrencyCode(final MboSetRemote mrLineSet)
+    '''
 def canDeleteDoclinks():
-'''public void canDeleteDoclinks()
-'''
-pass
+    '''    public void canDeleteDoclinks()
+    '''
 def setNullValuesToSomeMRLineAttributes():
-'''public void setNullValuesToSomeMRLineAttributes()
-'''
-pass
+    '''    public void setNullValuesToSomeMRLineAttributes()
+    '''
 def isNullItemOrDescription():
-'''public void isNullItemOrDescription()
-'''
-pass
+    '''    public void isNullItemOrDescription()
+    '''
 def canDistribute():
-'''public void canDistribute()
-'''
-pass
+    '''    public void canDistribute()
+    '''
 def setInvReserveReference():
-'''public void setInvReserveReference(final MboRemote invReserveRemote)
-'''
-pass
+    '''    public void setInvReserveReference(final MboRemote invReserveRemote)
+    '''
 def getInvReserveReference():
-'''public MboRemote getInvReserveReference()
-'''
-pass
+    '''    public MboRemote getInvReserveReference()
+    '''
 def validateQty():
-'''public void validateQty()
-'''
-pass
+    '''    public void validateQty()
+    '''
 def getInternalLineType():
-'''public String getInternalLineType()
-'''
-pass
+    '''    public String getInternalLineType()
+    '''
 def getValidateOrder():
-'''public String[] getValidateOrder()
-'''
-pass
+    '''    public String[] getValidateOrder()
+    '''

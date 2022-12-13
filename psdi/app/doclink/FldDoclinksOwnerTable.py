@@ -1,8 +1,6 @@
 def FldDoclinksOwnerTable():
-'''public FldDoclinksOwnerTable(final MboValue mbv)
-'''
-pass
+    '''    public FldDoclinksOwnerTable(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

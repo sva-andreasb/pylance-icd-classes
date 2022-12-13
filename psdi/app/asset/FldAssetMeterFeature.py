@@ -1,13 +1,10 @@
 def FldAssetMeterFeature():
-'''public FldAssetMeterFeature(final MboValue mbv)
-public FldAssetMeterFeature(final MboValue mbv, final String criteriaName)
-'''
-pass
+    '''    public FldAssetMeterFeature(final MboValue mbv)
+    public FldAssetMeterFeature(final MboValue mbv, final String criteriaName)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''
 def getList():
-'''public MboSetRemote getList()
-'''
-pass
+    '''    public MboSetRemote getList()
+    '''

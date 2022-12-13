@@ -1,12 +1,9 @@
 def StaticCredentialsProvider():
-'''public StaticCredentialsProvider(final AWSCredentials credentials)
-'''
-pass
+    '''    public StaticCredentialsProvider(final AWSCredentials credentials)
+    '''
 def getCredentials():
-'''public AWSCredentials getCredentials()
-'''
-pass
+    '''    public AWSCredentials getCredentials()
+    '''
 def refresh():
-'''public void refresh()
-'''
-pass
+    '''    public void refresh()
+    '''

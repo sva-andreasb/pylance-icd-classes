@@ -1,16 +1,12 @@
 def MboSetEnumeration():
-'''public MboSetEnumeration(final MboSetRemote msr)
-'''
-pass
+    '''    public MboSetEnumeration(final MboSetRemote msr)
+    '''
 def hasMoreElements():
-'''public boolean hasMoreElements()
-'''
-pass
+    '''    public boolean hasMoreElements()
+    '''
 def nextElement():
-'''public Object nextElement()
-'''
-pass
+    '''    public Object nextElement()
+    '''
 def nextMbo():
-'''public MboRemote nextMbo()
-'''
-pass
+    '''    public MboRemote nextMbo()
+    '''

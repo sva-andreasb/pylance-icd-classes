@@ -1,12 +1,9 @@
 def getPrivateIndex():
-'''public char[] getPrivateIndex()
-'''
-pass
+    '''    public char[] getPrivateIndex()
+    '''
 def getPrivateData():
-'''public char[] getPrivateData()
-'''
-pass
+    '''    public char[] getPrivateData()
+    '''
 def getPrivateInitialValue():
-'''public int getPrivateInitialValue()
-'''
-pass
+    '''    public int getPrivateInitialValue()
+    '''

@@ -1,5 +1,4 @@
 def SqlExprList():
-'''public SqlExprList()
-public SqlExprList(final SqlExprList cl2)
-'''
-pass
+    '''    public SqlExprList()
+    public SqlExprList(final SqlExprList cl2)
+    '''

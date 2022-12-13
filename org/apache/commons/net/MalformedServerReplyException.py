@@ -1,5 +1,4 @@
 def MalformedServerReplyException():
-'''public MalformedServerReplyException()
-public MalformedServerReplyException(final String message)
-'''
-pass
+    '''    public MalformedServerReplyException()
+    public MalformedServerReplyException(final String message)
+    '''

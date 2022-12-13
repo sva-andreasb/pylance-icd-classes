@@ -1,4 +1,3 @@
 def PlusPFldGBTransWoNum():
-'''public PlusPFldGBTransWoNum(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldGBTransWoNum(final MboValue mbv)
+    '''

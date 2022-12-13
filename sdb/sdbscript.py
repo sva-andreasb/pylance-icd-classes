@@ -1,4 +1,3 @@
 def main():
-'''public static void main(String... a)
-'''
-pass
+    '''    public static void main(String... a)
+    '''

@@ -1,8 +1,6 @@
 def doit():
-'''public int doit()
-'''
-pass
+    '''    public int doit()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

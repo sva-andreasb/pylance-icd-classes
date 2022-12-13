@@ -1,105 +1,79 @@
 def LogEventWrapper():
-'''public LogEventWrapper(final LoggingEvent event)
-'''
-pass
+    '''    public LogEventWrapper(final LoggingEvent event)
+    '''
 def toImmutable():
-'''public LogEvent toImmutable()
-'''
-pass
+    '''    public LogEvent toImmutable()
+    '''
 def getContextMap():
-'''public Map<String, String> getContextMap()
-'''
-pass
+    '''    public Map<String, String> getContextMap()
+    '''
 def getContextData():
-'''public ReadOnlyStringMap getContextData()
-'''
-pass
+    '''    public ReadOnlyStringMap getContextData()
+    '''
 def getLoggerFqcn():
-'''public String getLoggerFqcn()
-'''
-pass
+    '''    public String getLoggerFqcn()
+    '''
 def getLevel():
-'''public Level getLevel()
-'''
-pass
+    '''    public Level getLevel()
+    '''
 def getLoggerName():
-'''public String getLoggerName()
-'''
-pass
+    '''    public String getLoggerName()
+    '''
 def getMarker():
-'''public Marker getMarker()
-'''
-pass
+    '''    public Marker getMarker()
+    '''
 def getMessage():
-'''public Message getMessage()
-'''
-pass
+    '''    public Message getMessage()
+    '''
 def getTimeMillis():
-'''public long getTimeMillis()
-'''
-pass
+    '''    public long getTimeMillis()
+    '''
 def getInstant():
-'''public Instant getInstant()
-'''
-pass
+    '''    public Instant getInstant()
+    '''
 def getSource():
-'''public StackTraceElement getSource()
-'''
-pass
+    '''    public StackTraceElement getSource()
+    '''
 def getThreadName():
-'''public String getThreadName()
-'''
-pass
+    '''    public String getThreadName()
+    '''
 def getThreadId():
-'''public long getThreadId()
-'''
-pass
+    '''    public long getThreadId()
+    '''
 def getThreadPriority():
-'''public int getThreadPriority()
-'''
-pass
+    '''    public int getThreadPriority()
+    '''
 def getThrown():
-'''public Throwable getThrown()
-'''
-pass
+    '''    public Throwable getThrown()
+    '''
 def getThrownProxy():
-'''public ThrowableProxy getThrownProxy()
-'''
-pass
+    '''    public ThrowableProxy getThrownProxy()
+    '''
 def isEndOfBatch():
-'''public boolean isEndOfBatch()
-'''
-pass
+    '''    public boolean isEndOfBatch()
+    '''
 def isIncludeLocation():
-'''public boolean isIncludeLocation()
-'''
-pass
+    '''    public boolean isIncludeLocation()
+    '''
 def setEndOfBatch():
-'''public void setEndOfBatch(final boolean endOfBatch)
-'''
-pass
+    '''    public void setEndOfBatch(final boolean endOfBatch)
+    '''
 def setIncludeLocation():
-'''public void setIncludeLocation(final boolean locationRequired)
-'''
-pass
+    '''    public void setIncludeLocation(final boolean locationRequired)
+    '''
 def getNanoTime():
-'''public long getNanoTime()
-'''
-pass
+    '''    public long getNanoTime()
+    '''
 def toMap():
-'''public Map<String, String> toMap()
-'''
-pass
+    '''    public Map<String, String> toMap()
+    '''
 def containsKey():
-'''public boolean containsKey(final String key)
-'''
-pass
+    '''    public boolean containsKey(final String key)
+    '''
 def forEach():
-'''public <V> void forEach(final BiConsumer<String, ? super V> action)
-public <V, S> void forEach(final TriConsumer<String, ? super V, S> action, final S state)
-'''
-pass
+    '''    public <V> void forEach(final BiConsumer<String, ? super V> action)
+    public <V, S> void forEach(final TriConsumer<String, ? super V, S> action, final S state)
+    '''
 def getValue():
-'''public <V> V getValue(final String key)
-'''
-pass
+    '''    public <V> V getValue(final String key)
+    '''

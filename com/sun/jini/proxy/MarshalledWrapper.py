@@ -1,29 +1,22 @@
 def integrityEnforced():
-'''public static boolean integrityEnforced(final ObjectInputStream objectInputStream)
-'''
-pass
+    '''    public static boolean integrityEnforced(final ObjectInputStream objectInputStream)
+    '''
 def MarshalledWrapper():
-'''public MarshalledWrapper(final Object o)
-public MarshalledWrapper(final MarshalledInstance instance)
-'''
-pass
+    '''    public MarshalledWrapper(final Object o)
+    public MarshalledWrapper(final MarshalledInstance instance)
+    '''
 def get():
-'''public Object get()
-'''
-pass
+    '''    public Object get()
+    '''
 def getMarshalledInstance():
-'''public MarshalledInstance getMarshalledInstance()
-'''
-pass
+    '''    public MarshalledInstance getMarshalledInstance()
+    '''
 def getIntegrity():
-'''public boolean getIntegrity()
-'''
-pass
+    '''    public boolean getIntegrity()
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''

@@ -1,8 +1,6 @@
 def unmarshall():
-'''public GenerateDataKeyWithoutPlaintextResult unmarshall(final JsonUnmarshallerContext context)
-'''
-pass
+    '''    public GenerateDataKeyWithoutPlaintextResult unmarshall(final JsonUnmarshallerContext context)
+    '''
 def getInstance():
-'''public static GenerateDataKeyWithoutPlaintextResultJsonUnmarshaller getInstance()
-'''
-pass
+    '''    public static GenerateDataKeyWithoutPlaintextResultJsonUnmarshaller getInstance()
+    '''

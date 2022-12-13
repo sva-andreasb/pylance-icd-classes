@@ -1,8 +1,6 @@
 def selrfqline():
-'''public int selrfqline()
-'''
-pass
+    '''    public int selrfqline()
+    '''
 def awardall():
-'''public int awardall()
-'''
-pass
+    '''    public int awardall()
+    '''

@@ -1,8 +1,6 @@
 def PlusPSOOwnerHist():
-'''public PlusPSOOwnerHist(final MboSet ms)
-'''
-pass
+    '''    public PlusPSOOwnerHist(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,9 +1,7 @@
 def getFileProperties():
-'''public static List<RouterPropsInfo> getFileProperties()
-'''
-pass
+    '''    public static List<RouterPropsInfo> getFileProperties()
+    '''
 def FileHandler():
-'''public FileHandler(final MaxEndPointInfo endPointInfo)
-public FileHandler()
-'''
-pass
+    '''    public FileHandler(final MaxEndPointInfo endPointInfo)
+    public FileHandler()
+    '''

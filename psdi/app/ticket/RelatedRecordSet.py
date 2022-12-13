@@ -1,12 +1,9 @@
 def RelatedRecordSet():
-'''public RelatedRecordSet(final MboServerInterface ms)
-'''
-pass
+    '''    public RelatedRecordSet(final MboServerInterface ms)
+    '''
 def otherDeletedFound():
-'''public boolean otherDeletedFound(final MboRemote otherRelInDB)
-'''
-pass
+    '''    public boolean otherDeletedFound(final MboRemote otherRelInDB)
+    '''
 def setOtherRelDeleted():
-'''public void setOtherRelDeleted(final MboRemote otherRelrecord)
-'''
-pass
+    '''    public void setOtherRelDeleted(final MboRemote otherRelrecord)
+    '''

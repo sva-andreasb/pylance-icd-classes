@@ -1,262 +1,197 @@
 def loadPropertiesFiles():
-'''public static void loadPropertiesFiles()
-'''
-pass
+    '''    public static void loadPropertiesFiles()
+    '''
 def setStartTime():
-'''public static void setStartTime(final long value)
-'''
-pass
+    '''    public static void setStartTime(final long value)
+    '''
 def initEnvironment():
-'''public static void initEnvironment(final int n, final long startTime)
-public static void initEnvironment(final int service)
-'''
-pass
+    '''    public static void initEnvironment(final int n, final long startTime)
+    public static void initEnvironment(final int service)
+    '''
 def AppletViewer():
-'''public AppletViewer()
-'''
-pass
+    '''    public AppletViewer()
+    '''
 def appletInit():
-'''public void appletInit()
-'''
-pass
+    '''    public void appletInit()
+    '''
 def appletStart():
-'''public void appletStart()
-'''
-pass
+    '''    public void appletStart()
+    '''
 def appletStop():
-'''public void appletStop()
-'''
-pass
+    '''    public void appletStop()
+    '''
 def appletDestroy():
-'''public void appletDestroy()
-public void appletDestroy(final long millis)
-'''
-pass
+    '''    public void appletDestroy()
+    public void appletDestroy(final long millis)
+    '''
 def run():
-'''public void run()
-'''
-pass
+    '''    public void run()
+    '''
 def preRefresh():
-'''public void preRefresh()
-'''
-pass
+    '''    public void preRefresh()
+    '''
 def getParameter():
-'''public String getParameter(String lowerCase)
-'''
-pass
+    '''    public String getParameter(String lowerCase)
+    '''
 def setParameter():
-'''public void setParameter(String lowerCase, final Object o)
-'''
-pass
+    '''    public void setParameter(String lowerCase, final Object o)
+    '''
 def setDocumentBase():
-'''public void setDocumentBase(final String s)
-'''
-pass
+    '''    public void setDocumentBase(final String s)
+    '''
 def canonicalizeDocumentURL():
-'''public String canonicalizeDocumentURL(final String s)
-'''
-pass
+    '''    public String canonicalizeDocumentURL(final String s)
+    '''
 def getDocumentBase():
-'''public URL getDocumentBase()
-'''
-pass
+    '''    public URL getDocumentBase()
+    '''
 def getCodeBase():
-'''public URL getCodeBase()
-'''
-pass
+    '''    public URL getCodeBase()
+    '''
 def getWidth():
-'''public int getWidth()
-'''
-pass
+    '''    public int getWidth()
+    '''
 def getHeight():
-'''public int getHeight()
-'''
-pass
+    '''    public int getHeight()
+    '''
 def getCode():
-'''public String getCode()
-'''
-pass
+    '''    public String getCode()
+    '''
 def isLegacyLifeCycle():
-'''public boolean isLegacyLifeCycle()
-'''
-pass
+    '''    public boolean isLegacyLifeCycle()
+    '''
 def getClassLoaderCacheKey():
-'''public String getClassLoaderCacheKey()
-'''
-pass
+    '''    public String getClassLoaderCacheKey()
+    '''
 def getJarFiles():
-'''public String getJarFiles()
-'''
-pass
+    '''    public String getJarFiles()
+    '''
 def accept():
-'''public boolean accept(final File file, final String s)
-'''
-pass
+    '''    public boolean accept(final File file, final String s)
+    '''
 def getSerializedObject():
-'''public String getSerializedObject()
-'''
-pass
+    '''    public String getSerializedObject()
+    '''
 def getApplet():
-'''public Applet getApplet()
-'''
-pass
+    '''    public Applet getApplet()
+    '''
 def getViewedObject():
-'''public Object getViewedObject()
-'''
-pass
+    '''    public Object getViewedObject()
+    '''
 def setAppletContext():
-'''public void setAppletContext(final AppletContext appletContext)
-'''
-pass
+    '''    public void setAppletContext(final AppletContext appletContext)
+    '''
 def getAppletContext():
-'''public AppletContext getAppletContext()
-'''
-pass
+    '''    public AppletContext getAppletContext()
+    '''
 def setColorAndText():
-'''public void setColorAndText()
-'''
-pass
+    '''    public void setColorAndText()
+    '''
 def paint():
-'''public void paint(final Graphics graphics)
-'''
-pass
+    '''    public void paint(final Graphics graphics)
+    '''
 def getForeground():
-'''public Color getForeground()
-'''
-pass
+    '''    public Color getForeground()
+    '''
 def paintForegrnd():
-'''public void paintForegrnd(final Graphics graphics)
-'''
-pass
+    '''    public void paintForegrnd(final Graphics graphics)
+    '''
 def getWaitingMessage():
-'''public String getWaitingMessage()
-'''
-pass
+    '''    public String getWaitingMessage()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getAcceleratorKey():
-'''public static int getAcceleratorKey(final String s)
-'''
-pass
+    '''    public static int getAcceleratorKey(final String s)
+    '''
 def addAppletStatusListener():
-'''public void addAppletStatusListener(final AppletStatusListener statusListener)
-'''
-pass
+    '''    public void addAppletStatusListener(final AppletStatusListener statusListener)
+    '''
 def removeAppletStatusListener():
-'''public void removeAppletStatusListener(final AppletStatusListener appletStatusListener)
-'''
-pass
+    '''    public void removeAppletStatusListener(final AppletStatusListener appletStatusListener)
+    '''
 def setStatus():
-'''public void setStatus(final int status)
-'''
-pass
+    '''    public void setStatus(final int status)
+    '''
 def showAppletLog():
-'''public void showAppletLog(final String s)
-'''
-pass
+    '''    public void showAppletLog(final String s)
+    '''
 def isStopped():
-'''public boolean isStopped()
-'''
-pass
+    '''    public boolean isStopped()
+    '''
 def showAppletStatus():
-'''public void showAppletStatus(final String s)
-'''
-pass
+    '''    public void showAppletStatus(final String s)
+    '''
 def setDoInit():
-'''public void setDoInit(final boolean doInit)
-'''
-pass
+    '''    public void setDoInit(final boolean doInit)
+    '''
 def getMessage():
-'''public static String getMessage(final String s)
-'''
-pass
+    '''    public static String getMessage(final String s)
+    '''
 def getMessageArray():
-'''public static String[] getMessageArray(final String s)
-'''
-pass
+    '''    public static String[] getMessageArray(final String s)
+    '''
 def showStatusText():
-'''public void showStatusText(final String s)
-'''
-pass
+    '''    public void showStatusText(final String s)
+    '''
 def onStartBinding():
-'''public void onStartBinding(final Object o)
-'''
-pass
+    '''    public void onStartBinding(final Object o)
+    '''
 def onProgressAvailable():
-'''public void onProgressAvailable(final Object o, final int n, final int n2)
-'''
-pass
+    '''    public void onProgressAvailable(final Object o, final int n, final int n2)
+    '''
 def update():
-'''public void update(final Graphics graphics)
-'''
-pass
+    '''    public void update(final Graphics graphics)
+    '''
 def onStopBinding():
-'''public void onStopBinding(final Object o)
-'''
-pass
+    '''    public void onStopBinding(final Object o)
+    '''
 def onProgressComplete():
-'''public void onProgressComplete(final Object o)
-'''
-pass
+    '''    public void onProgressComplete(final Object o)
+    '''
 def getLoadingStatus():
-'''public int getLoadingStatus()
-'''
-pass
+    '''    public int getLoadingStatus()
+    '''
 def windowActivated():
-'''public void windowActivated(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowActivated(final WindowEvent windowEvent)
+    '''
 def windowClosed():
-'''public void windowClosed(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowClosed(final WindowEvent windowEvent)
+    '''
 def windowClosing():
-'''public void windowClosing(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowClosing(final WindowEvent windowEvent)
+    '''
 def windowDeactivated():
-'''public void windowDeactivated(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowDeactivated(final WindowEvent windowEvent)
+    '''
 def windowDeiconified():
-'''public void windowDeiconified(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowDeiconified(final WindowEvent windowEvent)
+    '''
 def windowIconified():
-'''public void windowIconified(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowIconified(final WindowEvent windowEvent)
+    '''
 def windowOpened():
-'''public void windowOpened(final WindowEvent windowEvent)
-'''
-pass
+    '''    public void windowOpened(final WindowEvent windowEvent)
+    '''
 def appletStateChanged():
-'''public void appletStateChanged(final AppletEvent appletEvent)
-'''
-pass
+    '''    public void appletStateChanged(final AppletEvent appletEvent)
+    '''
 def mouseEntered():
-'''public void mouseEntered(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseEntered(final MouseEvent mouseEvent)
+    '''
 def mouseExited():
-'''public void mouseExited(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseExited(final MouseEvent mouseEvent)
+    '''
 def mousePressed():
-'''public void mousePressed(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mousePressed(final MouseEvent mouseEvent)
+    '''
 def mouseReleased():
-'''public void mouseReleased(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseReleased(final MouseEvent mouseEvent)
+    '''
 def mouseClicked():
-'''public void mouseClicked(final MouseEvent mouseEvent)
-'''
-pass
+    '''    public void mouseClicked(final MouseEvent mouseEvent)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''

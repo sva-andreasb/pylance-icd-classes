@@ -1,5 +1,4 @@
 def DPAMOSYSService():
-'''public DPAMOSYSService()
-public DPAMOSYSService(final MXServer mxServer)
-'''
-pass
+    '''    public DPAMOSYSService()
+    public DPAMOSYSService(final MXServer mxServer)
+    '''

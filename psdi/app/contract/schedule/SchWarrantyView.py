@@ -1,40 +1,30 @@
 def SchWarrantyView():
-'''public SchWarrantyView(final MboSet ms)
-'''
-pass
+    '''    public SchWarrantyView(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def setWarrantyViewCost():
-'''public void setWarrantyViewCost()
-'''
-pass
+    '''    public void setWarrantyViewCost()
+    '''
 def estimatePayment():
-'''public void estimatePayment()
-'''
-pass
+    '''    public void estimatePayment()
+    '''
 def dueDates():
-'''public Vector dueDates()
-'''
-pass
+    '''    public Vector dueDates()
+    '''
 def getPaidInvoices():
-'''public MboSetRemote getPaidInvoices()
-'''
-pass
+    '''    public MboSetRemote getPaidInvoices()
+    '''
 def setEstimatePmtUsed():
-'''public void setEstimatePmtUsed(final boolean estPmt)
-'''
-pass
+    '''    public void setEstimatePmtUsed(final boolean estPmt)
+    '''
 def getEstimatePmtUsed():
-'''public boolean getEstimatePmtUsed()
-'''
-pass
+    '''    public boolean getEstimatePmtUsed()
+    '''
 def checkForPaymentValue():
-'''public void checkForPaymentValue()
-'''
-pass
+    '''    public void checkForPaymentValue()
+    '''

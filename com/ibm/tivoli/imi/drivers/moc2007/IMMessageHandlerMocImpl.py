@@ -1,40 +1,30 @@
 def IMMessageHandlerMocImpl():
-'''public IMMessageHandlerMocImpl(final IMSessionMocImpl session, final IMUser imPartner)
-'''
-pass
+    '''    public IMMessageHandlerMocImpl(final IMSessionMocImpl session, final IMUser imPartner)
+    '''
 def getIMPartner():
-'''public IMUser getIMPartner()
-'''
-pass
+    '''    public IMUser getIMPartner()
+    '''
 def addListener():
-'''public void addListener(final IMMessageListener imMessageListener)
-'''
-pass
+    '''    public void addListener(final IMMessageListener imMessageListener)
+    '''
 def closeConversation():
-'''public void closeConversation()
-'''
-pass
+    '''    public void closeConversation()
+    '''
 def isOpened():
-'''public boolean isOpened()
-'''
-pass
+    '''    public boolean isOpened()
+    '''
 def removeAllListeners():
-'''public void removeAllListeners()
-'''
-pass
+    '''    public void removeAllListeners()
+    '''
 def removeListener():
-'''public void removeListener(final IMMessageListener imMessageListener)
-'''
-pass
+    '''    public void removeListener(final IMMessageListener imMessageListener)
+    '''
 def getListeners():
-'''public Set<IMMessageListener> getListeners()
-'''
-pass
+    '''    public Set<IMMessageListener> getListeners()
+    '''
 def sendMessage():
-'''public String sendMessage(final String s)
-'''
-pass
+    '''    public String sendMessage(final String s)
+    '''
 def setOpened():
-'''public void setOpened(final boolean opened)
-'''
-pass
+    '''    public void setOpened(final boolean opened)
+    '''

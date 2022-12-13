@@ -1,96 +1,74 @@
 def ObjectArray():
-'''public ObjectArray(Object[] copyArray)
-public ObjectArray(final ObjectArray objectArray)
-public ObjectArray()
-'''
-pass
+    '''    public ObjectArray(Object[] copyArray)
+    public ObjectArray(final ObjectArray objectArray)
+    public ObjectArray()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def isEmpty():
-'''public boolean isEmpty()
-'''
-pass
+    '''    public boolean isEmpty()
+    '''
 def contains():
-'''public boolean contains(final Object o)
-'''
-pass
+    '''    public boolean contains(final Object o)
+    '''
 def iterator():
-'''public Iterator iterator()
-'''
-pass
+    '''    public Iterator iterator()
+    '''
 def toArray():
-'''public Object[] toArray()
-public Object[] toArray(final Object[] array)
-'''
-pass
+    '''    public Object[] toArray()
+    public Object[] toArray(final Object[] array)
+    '''
 def add():
-'''public boolean add(final Object o)
-public void add(final int n, final Object o)
-'''
-pass
+    '''    public boolean add(final Object o)
+    public void add(final int n, final Object o)
+    '''
 def remove():
-'''public boolean remove(final Object o)
-public Object remove(final int n)
-public void remove()
-'''
-pass
+    '''    public boolean remove(final Object o)
+    public Object remove(final int n)
+    public void remove()
+    '''
 def containsAll():
-'''public boolean containsAll(final Collection collection)
-'''
-pass
+    '''    public boolean containsAll(final Collection collection)
+    '''
 def addAll():
-'''public boolean addAll(final Collection collection)
-public boolean addAll(int n, final Collection collection)
-'''
-pass
+    '''    public boolean addAll(final Collection collection)
+    public boolean addAll(int n, final Collection collection)
+    '''
 def removeAll():
-'''public boolean removeAll(final Collection collection)
-'''
-pass
+    '''    public boolean removeAll(final Collection collection)
+    '''
 def retainAll():
-'''public boolean retainAll(final Collection collection)
-'''
-pass
+    '''    public boolean retainAll(final Collection collection)
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def get():
-'''public Object get(final int n)
-'''
-pass
+    '''    public Object get(final int n)
+    '''
 def set():
-'''public Object set(final int n, final Object o)
-'''
-pass
+    '''    public Object set(final int n, final Object o)
+    '''
 def indexOf():
-'''public int indexOf(final Object o)
-'''
-pass
+    '''    public int indexOf(final Object o)
+    '''
 def lastIndexOf():
-'''public int lastIndexOf(final Object o)
-'''
-pass
+    '''    public int lastIndexOf(final Object o)
+    '''
 def listIterator():
-'''public ListIterator listIterator()
-public ListIterator listIterator(final int n)
-'''
-pass
+    '''    public ListIterator listIterator()
+    public ListIterator listIterator(final int n)
+    '''
 def subList():
-'''public List subList(final int n, final int n2)
-'''
-pass
+    '''    public List subList(final int n, final int n2)
+    '''
 def ObjectArrayIterator():
-'''public ObjectArrayIterator()
-'''
-pass
+    '''    public ObjectArrayIterator()
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def next():
-'''public Object next()
-'''
-pass
+    '''    public Object next()
+    '''

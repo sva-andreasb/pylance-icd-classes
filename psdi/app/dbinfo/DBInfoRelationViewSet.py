@@ -1,12 +1,9 @@
 def DBInfoRelationViewSet():
-'''public DBInfoRelationViewSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DBInfoRelationViewSet(final MboServerInterface ms)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def fireEventsAfterDBCommit():
-'''public void fireEventsAfterDBCommit(final MXTransaction txn)
-'''
-pass
+    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''

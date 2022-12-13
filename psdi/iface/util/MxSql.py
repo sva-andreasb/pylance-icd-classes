@@ -1,8 +1,6 @@
 def setConnection():
-'''public static void setConnection(final Connection con)
-'''
-pass
+    '''    public static void setConnection(final Connection con)
+    '''
 def execSql():
-'''public static ResultSet execSql(final String sql)
-'''
-pass
+    '''    public static ResultSet execSql(final String sql)
+    '''

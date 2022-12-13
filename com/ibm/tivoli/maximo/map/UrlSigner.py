@@ -1,12 +1,9 @@
 def main():
-'''public static void main(final String[] args)
-'''
-pass
+    '''    public static void main(final String[] args)
+    '''
 def UrlSigner():
-'''public UrlSigner(String keyString)
-'''
-pass
+    '''    public UrlSigner(String keyString)
+    '''
 def signRequest():
-'''public String[] signRequest(final String path, final String query)
-'''
-pass
+    '''    public String[] signRequest(final String path, final String query)
+    '''

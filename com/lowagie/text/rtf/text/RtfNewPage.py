@@ -1,8 +1,6 @@
 def RtfNewPage():
-'''public RtfNewPage(final RtfDocument doc)
-'''
-pass
+    '''    public RtfNewPage(final RtfDocument doc)
+    '''
 def write():
-'''public byte[] write()
-'''
-pass
+    '''    public byte[] write()
+    '''

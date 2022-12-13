@@ -1,8 +1,6 @@
 def ChangeCapStatusSet():
-'''public ChangeCapStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public ChangeCapStatusSet(final MboServerInterface ms)
+    '''
 def execute():
-'''public void execute()
-'''
-pass
+    '''    public void execute()
+    '''

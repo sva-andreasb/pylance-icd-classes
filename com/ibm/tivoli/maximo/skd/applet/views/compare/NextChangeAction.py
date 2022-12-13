@@ -1,8 +1,6 @@
 def NextChangeAction():
-'''public NextChangeAction(final HasNext next)
-'''
-pass
+    '''    public NextChangeAction(final HasNext next)
+    '''
 def actionPerformed():
-'''public void actionPerformed(final ActionEvent e)
-'''
-pass
+    '''    public void actionPerformed(final ActionEvent e)
+    '''

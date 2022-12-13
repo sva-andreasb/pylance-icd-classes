@@ -1,84 +1,63 @@
 def SOAPHTTPConnection():
-'''public SOAPHTTPConnection()
-'''
-pass
+    '''    public SOAPHTTPConnection()
+    '''
 def getHeaders():
-'''public Hashtable getHeaders()
-'''
-pass
+    '''    public Hashtable getHeaders()
+    '''
 def getMaintainSession():
-'''public boolean getMaintainSession()
-'''
-pass
+    '''    public boolean getMaintainSession()
+    '''
 def getOutputBufferSize():
-'''public int getOutputBufferSize()
-'''
-pass
+    '''    public int getOutputBufferSize()
+    '''
 def getProxyHost():
-'''public String getProxyHost()
-'''
-pass
+    '''    public String getProxyHost()
+    '''
 def getProxyPort():
-'''public int getProxyPort()
-'''
-pass
+    '''    public int getProxyPort()
+    '''
 def getResponseSOAPContext():
-'''public SOAPContext getResponseSOAPContext()
-'''
-pass
+    '''    public SOAPContext getResponseSOAPContext()
+    '''
 def getTcpNoDelay():
-'''public Boolean getTcpNoDelay()
-'''
-pass
+    '''    public Boolean getTcpNoDelay()
+    '''
 def getTimeout():
-'''public int getTimeout()
-'''
-pass
+    '''    public int getTimeout()
+    '''
 def receive():
-'''public BufferedReader receive()
-'''
-pass
+    '''    public BufferedReader receive()
+    '''
 def send():
-'''public void send(final URL url, final String str, Hashtable hashtable, final Envelope envelope, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)
-'''
-pass
+    '''    public void send(final URL url, final String str, Hashtable hashtable, final Envelope envelope, final SOAPMappingRegistry soapMappingRegistry, final SOAPContext soapContext)
+    '''
 def setMaintainSession():
-'''public void setMaintainSession(final boolean maintainSession)
-'''
-pass
+    '''    public void setMaintainSession(final boolean maintainSession)
+    '''
 def setOutputBufferSize():
-'''public void setOutputBufferSize(final int outputBufferSize)
-'''
-pass
+    '''    public void setOutputBufferSize(final int outputBufferSize)
+    '''
 def setPassword():
-'''public void setPassword(final String password)
-'''
-pass
+    '''    public void setPassword(final String password)
+    '''
 def setProxyHost():
-'''public void setProxyHost(final String httpProxyHost)
-'''
-pass
+    '''    public void setProxyHost(final String httpProxyHost)
+    '''
 def setProxyPassword():
-'''public void setProxyPassword(final String proxyPassword)
-'''
-pass
+    '''    public void setProxyPassword(final String proxyPassword)
+    '''
 def setProxyPort():
-'''public void setProxyPort(final int httpProxyPort)
-'''
-pass
+    '''    public void setProxyPort(final int httpProxyPort)
+    '''
 def setProxyUserName():
-'''public void setProxyUserName(final String proxyUserName)
-'''
-pass
+    '''    public void setProxyUserName(final String proxyUserName)
+    '''
 def setTcpNoDelay():
-'''public void setTcpNoDelay(final Boolean tcpNoDelay)
-'''
-pass
+    '''    public void setTcpNoDelay(final Boolean tcpNoDelay)
+    '''
 def setTimeout():
-'''public void setTimeout(final int timeout)
-'''
-pass
+    '''    public void setTimeout(final int timeout)
+    '''
 def setUserName():
-'''public void setUserName(final String userName)
-'''
-pass
+    '''    public void setUserName(final String userName)
+    '''

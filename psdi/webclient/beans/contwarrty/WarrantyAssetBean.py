@@ -1,12 +1,9 @@
 def selectwarrantyassets():
-'''public int selectwarrantyassets()
-'''
-pass
+    '''    public int selectwarrantyassets()
+    '''
 def selectwarrantylocations():
-'''public int selectwarrantylocations()
-'''
-pass
+    '''    public int selectwarrantylocations()
+    '''
 def selectmoreassets():
-'''public int selectmoreassets()
-'''
-pass
+    '''    public int selectmoreassets()
+    '''

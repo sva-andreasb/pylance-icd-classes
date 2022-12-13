@@ -1,3 +1,3 @@
-NodeName = "String  Header_cell""
-Levels = "String  Levels""
-value = "String  value""
+NodeName = "String  \"Header_cell\""
+Levels = "String  \"Levels\""
+value = "String  \"value\""

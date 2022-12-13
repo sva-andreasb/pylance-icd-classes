@@ -1,20 +1,15 @@
 def offer():
-'''public boolean offer(final E obj)
-'''
-pass
+    '''    public boolean offer(final E obj)
+    '''
 def poll():
-'''public E poll()
-'''
-pass
+    '''    public E poll()
+    '''
 def peek():
-'''public E peek()
-'''
-pass
+    '''    public E peek()
+    '''
 def element():
-'''public E element()
-'''
-pass
+    '''    public E element()
+    '''
 def remove():
-'''public E remove()
-'''
-pass
+    '''    public E remove()
+    '''

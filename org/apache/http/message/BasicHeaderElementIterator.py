@@ -1,21 +1,16 @@
 def BasicHeaderElementIterator():
-'''public BasicHeaderElementIterator(final HeaderIterator headerIterator, final HeaderValueParser parser)
-public BasicHeaderElementIterator(final HeaderIterator headerIterator)
-'''
-pass
+    '''    public BasicHeaderElementIterator(final HeaderIterator headerIterator, final HeaderValueParser parser)
+    public BasicHeaderElementIterator(final HeaderIterator headerIterator)
+    '''
 def hasNext():
-'''public boolean hasNext()
-'''
-pass
+    '''    public boolean hasNext()
+    '''
 def nextElement():
-'''public HeaderElement nextElement()
-'''
-pass
+    '''    public HeaderElement nextElement()
+    '''
 def next():
-'''public final Object next()
-'''
-pass
+    '''    public final Object next()
+    '''
 def remove():
-'''public void remove()
-'''
-pass
+    '''    public void remove()
+    '''

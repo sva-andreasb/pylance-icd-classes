@@ -1,28 +1,21 @@
 def TimePriorityQueue():
-'''public TimePriorityQueue()
-'''
-pass
+    '''    public TimePriorityQueue()
+    '''
 def push():
-'''public void push(final ERKey key)
-'''
-pass
+    '''    public void push(final ERKey key)
+    '''
 def remove():
-'''public void remove(final ERKey key)
-'''
-pass
+    '''    public void remove(final ERKey key)
+    '''
 def setExpirationTime():
-'''public void setExpirationTime(final int ms)
-'''
-pass
+    '''    public void setExpirationTime(final int ms)
+    '''
 def pop():
-'''public ERKey pop()
-'''
-pass
+    '''    public ERKey pop()
+    '''
 def compareTo():
-'''public int compareTo(final Object arg0)
-'''
-pass
+    '''    public int compareTo(final Object arg0)
+    '''
 def expired():
-'''public boolean expired()
-'''
-pass
+    '''    public boolean expired()
+    '''

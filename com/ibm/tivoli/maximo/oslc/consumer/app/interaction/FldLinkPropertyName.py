@@ -1,8 +1,6 @@
 def FldLinkPropertyName():
-'''public FldLinkPropertyName(final MboValue mbv)
-'''
-pass
+    '''    public FldLinkPropertyName(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

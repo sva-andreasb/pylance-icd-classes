@@ -1,4 +1,3 @@
 def MfMailCfgVars():
-'''public MfMailCfgVars(final MboSet ms)
-'''
-pass
+    '''    public MfMailCfgVars(final MboSet ms)
+    '''

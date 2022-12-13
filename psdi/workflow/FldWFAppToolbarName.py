@@ -1,8 +1,6 @@
 def FldWFAppToolbarName():
-'''public FldWFAppToolbarName(final MboValue mbv)
-'''
-pass
+    '''    public FldWFAppToolbarName(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

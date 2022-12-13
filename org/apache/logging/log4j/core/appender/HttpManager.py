@@ -1,8 +1,6 @@
 def getConfiguration():
-'''public Configuration getConfiguration()
-'''
-pass
+    '''    public Configuration getConfiguration()
+    '''
 def startup():
-'''public void startup()
-'''
-pass
+    '''    public void startup()
+    '''

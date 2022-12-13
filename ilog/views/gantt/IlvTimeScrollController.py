@@ -1,18 +1,14 @@
 def IlvTimeScrollController():
-'''public IlvTimeScrollController()
-'''
-pass
+    '''    public IlvTimeScrollController()
+    '''
 def getAnimationSteps():
-'''public final int getAnimationSteps()
-'''
-pass
+    '''    public final int getAnimationSteps()
+    '''
 def setAnimationSteps():
-'''public final void setAnimationSteps(final int d)
-'''
-pass
+    '''    public final void setAnimationSteps(final int d)
+    '''
 def run():
-'''public void run()
-public void run()
-public void run()
-'''
-pass
+    '''    public void run()
+    public void run()
+    public void run()
+    '''

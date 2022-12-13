@@ -1,8 +1,6 @@
 def FldMeasurePointPMNum():
-'''public FldMeasurePointPMNum(final MboValue mbv)
-'''
-pass
+    '''    public FldMeasurePointPMNum(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

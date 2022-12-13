@@ -1,8 +1,6 @@
 def UniqFilter():
-'''public UniqFilter()
-'''
-pass
+    '''    public UniqFilter()
+    '''
 def filter():
-'''public String filter(final String string)
-'''
-pass
+    '''    public String filter(final String string)
+    '''

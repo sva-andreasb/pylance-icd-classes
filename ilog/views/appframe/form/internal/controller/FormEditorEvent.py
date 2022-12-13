@@ -4,18 +4,14 @@ MODEL_VALUE_CHANGED = "int  101"
 VALIDATION_CHANGED = "int  102"
 RELEVANCY_CHANGED = "int  103"
 def FormEditorEvent():
-'''public FormEditorEvent(final int a, final IlvFormEditor b)
-'''
-pass
+    '''    public FormEditorEvent(final int a, final IlvFormEditor b)
+    '''
 def getID():
-'''public int getID()
-'''
-pass
+    '''    public int getID()
+    '''
 def getEditor():
-'''public IlvFormEditor getEditor()
-'''
-pass
+    '''    public IlvFormEditor getEditor()
+    '''
 def getSingleEditor():
-'''public IlvFormSingleEditor getSingleEditor()
-'''
-pass
+    '''    public IlvFormSingleEditor getSingleEditor()
+    '''

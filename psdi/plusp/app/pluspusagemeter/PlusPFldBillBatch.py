@@ -1,4 +1,3 @@
 def PlusPFldBillBatch():
-'''public PlusPFldBillBatch(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldBillBatch(final MboValue mbv)
+    '''

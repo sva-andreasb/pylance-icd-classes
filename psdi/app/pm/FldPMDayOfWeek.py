@@ -1,8 +1,6 @@
 def FldPMDayOfWeek():
-'''public FldPMDayOfWeek(final MboValue mbv)
-'''
-pass
+    '''    public FldPMDayOfWeek(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

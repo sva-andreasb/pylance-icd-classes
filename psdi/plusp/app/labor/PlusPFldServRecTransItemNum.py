@@ -1,12 +1,9 @@
 def PlusPFldServRecTransItemNum():
-'''public PlusPFldServRecTransItemNum(final MboValue arg0)
-'''
-pass
+    '''    public PlusPFldServRecTransItemNum(final MboValue arg0)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''
 def showWarningIfCustomerMismatch():
-'''public void showWarningIfCustomerMismatch()
-'''
-pass
+    '''    public void showWarningIfCustomerMismatch()
+    '''

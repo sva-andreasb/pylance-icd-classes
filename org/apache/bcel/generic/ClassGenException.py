@@ -1,5 +1,4 @@
 def ClassGenException():
-'''public ClassGenException()
-public ClassGenException(final String s)
-'''
-pass
+    '''    public ClassGenException()
+    public ClassGenException(final String s)
+    '''

@@ -1,4 +1,3 @@
 def bulkcopy():
-'''public int bulkcopy()
-'''
-pass
+    '''    public int bulkcopy()
+    '''

@@ -1,20 +1,15 @@
 def IoTPayloadPropsInfo():
-'''public IoTPayloadPropsInfo(final Map data)
-'''
-pass
+    '''    public IoTPayloadPropsInfo(final Map data)
+    '''
 def getIoTServiceName():
-'''public String getIoTServiceName()
-'''
-pass
+    '''    public String getIoTServiceName()
+    '''
 def getProperty():
-'''public String getProperty()
-'''
-pass
+    '''    public String getProperty()
+    '''
 def getUsedBy():
-'''public String getUsedBy()
-'''
-pass
+    '''    public String getUsedBy()
+    '''
 def getValue():
-'''public String getValue()
-'''
-pass
+    '''    public String getValue()
+    '''

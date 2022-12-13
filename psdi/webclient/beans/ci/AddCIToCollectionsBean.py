@@ -1,8 +1,6 @@
 def AddCIToCollectionsBean():
-'''public AddCIToCollectionsBean()
-'''
-pass
+    '''    public AddCIToCollectionsBean()
+    '''
 def addrow():
-'''public int addrow()
-'''
-pass
+    '''    public int addrow()
+    '''

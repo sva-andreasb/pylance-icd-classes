@@ -1,79 +1,60 @@
 def Catalog():
-'''public Catalog()
-public Catalog(final CatalogManager manager)
-'''
-pass
+    '''    public Catalog()
+    public Catalog(final CatalogManager manager)
+    '''
 def getCatalogManager():
-'''public CatalogManager getCatalogManager()
-'''
-pass
+    '''    public CatalogManager getCatalogManager()
+    '''
 def setCatalogManager():
-'''public void setCatalogManager(final CatalogManager manager)
-'''
-pass
+    '''    public void setCatalogManager(final CatalogManager manager)
+    '''
 def setupReaders():
-'''public void setupReaders()
-'''
-pass
+    '''    public void setupReaders()
+    '''
 def addReader():
-'''public void addReader(final String mimeType, final CatalogReader reader)
-'''
-pass
+    '''    public void addReader(final String mimeType, final CatalogReader reader)
+    '''
 def getCurrentBase():
-'''public String getCurrentBase()
-'''
-pass
+    '''    public String getCurrentBase()
+    '''
 def getDefaultOverride():
-'''public String getDefaultOverride()
-'''
-pass
+    '''    public String getDefaultOverride()
+    '''
 def loadSystemCatalogs():
-'''public void loadSystemCatalogs()
-'''
-pass
+    '''    public void loadSystemCatalogs()
+    '''
 def parseCatalog():
-'''public synchronized void parseCatalog(final String fileName)
-public synchronized void parseCatalog(final String mimeType, final InputStream is)
-public synchronized void parseCatalog(final URL aUrl)
-'''
-pass
+    '''    public synchronized void parseCatalog(final String fileName)
+    public synchronized void parseCatalog(final String mimeType, final InputStream is)
+    public synchronized void parseCatalog(final URL aUrl)
+    '''
 def addEntry():
-'''public void addEntry(final CatalogEntry entry)
-'''
-pass
+    '''    public void addEntry(final CatalogEntry entry)
+    '''
 def unknownEntry():
-'''public void unknownEntry(final Vector strings)
-'''
-pass
+    '''    public void unknownEntry(final Vector strings)
+    '''
 def parseAllCatalogs():
-'''public void parseAllCatalogs()
-'''
-pass
+    '''    public void parseAllCatalogs()
+    '''
 def resolveDoctype():
-'''public String resolveDoctype(final String entityName, String publicId, String systemId)
-'''
-pass
+    '''    public String resolveDoctype(final String entityName, String publicId, String systemId)
+    '''
 def resolveDocument():
-'''public String resolveDocument()
-'''
-pass
+    '''    public String resolveDocument()
+    '''
 def resolveEntity():
-'''public String resolveEntity(final String entityName, String publicId, String systemId)
-'''
-pass
+    '''    public String resolveEntity(final String entityName, String publicId, String systemId)
+    '''
 def resolveNotation():
-'''public String resolveNotation(final String notationName, String publicId, String systemId)
-'''
-pass
+    '''    public String resolveNotation(final String notationName, String publicId, String systemId)
+    '''
 def resolvePublic():
-'''public String resolvePublic(String publicId, String systemId)
-'''
-pass
+    '''    public String resolvePublic(String publicId, String systemId)
+    '''
 def resolveSystem():
-'''public String resolveSystem(String systemId)
-'''
-pass
+    '''    public String resolveSystem(String systemId)
+    '''
 def resolveURI():
-'''public String resolveURI(String uri)
-'''
-pass
+    '''    public String resolveURI(String uri)
+    '''

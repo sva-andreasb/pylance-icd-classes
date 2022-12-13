@@ -1,65 +1,49 @@
 def HeaderGroup():
-'''public HeaderGroup()
-'''
-pass
+    '''    public HeaderGroup()
+    '''
 def clear():
-'''public void clear()
-'''
-pass
+    '''    public void clear()
+    '''
 def addHeader():
-'''public void addHeader(final Header header)
-'''
-pass
+    '''    public void addHeader(final Header header)
+    '''
 def removeHeader():
-'''public void removeHeader(final Header header)
-'''
-pass
+    '''    public void removeHeader(final Header header)
+    '''
 def updateHeader():
-'''public void updateHeader(final Header header)
-'''
-pass
+    '''    public void updateHeader(final Header header)
+    '''
 def setHeaders():
-'''public void setHeaders(final Header[] headers)
-'''
-pass
+    '''    public void setHeaders(final Header[] headers)
+    '''
 def getCondensedHeader():
-'''public Header getCondensedHeader(final String name)
-'''
-pass
+    '''    public Header getCondensedHeader(final String name)
+    '''
 def getHeaders():
-'''public Header[] getHeaders(final String name)
-'''
-pass
+    '''    public Header[] getHeaders(final String name)
+    '''
 def getFirstHeader():
-'''public Header getFirstHeader(final String name)
-'''
-pass
+    '''    public Header getFirstHeader(final String name)
+    '''
 def getLastHeader():
-'''public Header getLastHeader(final String name)
-'''
-pass
+    '''    public Header getLastHeader(final String name)
+    '''
 def getAllHeaders():
-'''public Header[] getAllHeaders()
-'''
-pass
+    '''    public Header[] getAllHeaders()
+    '''
 def containsHeader():
-'''public boolean containsHeader(final String name)
-'''
-pass
+    '''    public boolean containsHeader(final String name)
+    '''
 def iterator():
-'''public HeaderIterator iterator()
-public HeaderIterator iterator(final String name)
-'''
-pass
+    '''    public HeaderIterator iterator()
+    public HeaderIterator iterator(final String name)
+    '''
 def copy():
-'''public HeaderGroup copy()
-'''
-pass
+    '''    public HeaderGroup copy()
+    '''
 def clone():
-'''public Object clone()
-'''
-pass
+    '''    public Object clone()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

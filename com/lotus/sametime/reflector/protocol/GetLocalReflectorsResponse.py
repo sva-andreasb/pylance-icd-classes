@@ -1,21 +1,16 @@
 def GetLocalReflectorsResponse():
-'''public GetLocalReflectorsResponse(final ReflectorInfo[] reflectors)
-public GetLocalReflectorsResponse(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public GetLocalReflectorsResponse(final ReflectorInfo[] reflectors)
+    public GetLocalReflectorsResponse(final NdrInputStream ndrInputStream)
+    '''
 def getMessageType():
-'''public short getMessageType()
-'''
-pass
+    '''    public short getMessageType()
+    '''
 def load():
-'''public void load(final NdrInputStream ndrInputStream)
-'''
-pass
+    '''    public void load(final NdrInputStream ndrInputStream)
+    '''
 def dump():
-'''public void dump(final NdrOutputStream ndrOutputStream)
-'''
-pass
+    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    '''
 def getReflectors():
-'''public ReflectorInfo[] getReflectors()
-'''
-pass
+    '''    public ReflectorInfo[] getReflectors()
+    '''

@@ -1,56 +1,42 @@
 def getLiteral():
-'''public LiteralLabel getLiteral()
-'''
-pass
+    '''    public LiteralLabel getLiteral()
+    '''
 def getLiteralValue():
-'''public final Object getLiteralValue()
-'''
-pass
+    '''    public final Object getLiteralValue()
+    '''
 def getLiteralLexicalForm():
-'''public final String getLiteralLexicalForm()
-'''
-pass
+    '''    public final String getLiteralLexicalForm()
+    '''
 def getLiteralLanguage():
-'''public final String getLiteralLanguage()
-'''
-pass
+    '''    public final String getLiteralLanguage()
+    '''
 def getLiteralDatatypeURI():
-'''public final String getLiteralDatatypeURI()
-'''
-pass
+    '''    public final String getLiteralDatatypeURI()
+    '''
 def getLiteralDatatype():
-'''public final RDFDatatype getLiteralDatatype()
-'''
-pass
+    '''    public final RDFDatatype getLiteralDatatype()
+    '''
 def getLiteralIsXML():
-'''public final boolean getLiteralIsXML()
-'''
-pass
+    '''    public final boolean getLiteralIsXML()
+    '''
 def toString():
-'''public String toString(final PrefixMapping pm, final boolean quoting)
-'''
-pass
+    '''    public String toString(final PrefixMapping pm, final boolean quoting)
+    '''
 def isLiteral():
-'''public boolean isLiteral()
-'''
-pass
+    '''    public boolean isLiteral()
+    '''
 def getIndexingValue():
-'''public Object getIndexingValue()
-'''
-pass
+    '''    public Object getIndexingValue()
+    '''
 def visitWith():
-'''public Object visitWith(final NodeVisitor v)
-'''
-pass
+    '''    public Object visitWith(final NodeVisitor v)
+    '''
 def equals():
-'''public boolean equals(final Object other)
-'''
-pass
+    '''    public boolean equals(final Object other)
+    '''
 def sameValueAs():
-'''public boolean sameValueAs(final Object o)
-'''
-pass
+    '''    public boolean sameValueAs(final Object o)
+    '''
 def matches():
-'''public boolean matches(final Node x)
-'''
-pass
+    '''    public boolean matches(final Node x)
+    '''

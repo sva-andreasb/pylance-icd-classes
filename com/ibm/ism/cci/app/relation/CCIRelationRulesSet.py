@@ -1,4 +1,3 @@
 def CCIRelationRulesSet():
-'''public CCIRelationRulesSet(final MboServerInterface ms)
-'''
-pass
+    '''    public CCIRelationRulesSet(final MboServerInterface ms)
+    '''

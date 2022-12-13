@@ -1,4 +1,3 @@
 def build():
-'''public TermRangeQuery build(final QueryNode queryNode)
-'''
-pass
+    '''    public TermRangeQuery build(final QueryNode queryNode)
+    '''

@@ -1,32 +1,24 @@
 def JsonClientMetadata():
-'''public JsonClientMetadata()
-'''
-pass
+    '''    public JsonClientMetadata()
+    '''
 def addErrorMetadata():
-'''public JsonClientMetadata addErrorMetadata(final JsonErrorShapeMetadata errorShapeMetadata)
-'''
-pass
+    '''    public JsonClientMetadata addErrorMetadata(final JsonErrorShapeMetadata errorShapeMetadata)
+    '''
 def addAllErrorMetadata():
-'''public JsonClientMetadata addAllErrorMetadata(final JsonErrorShapeMetadata... errorShapeMetadata)
-'''
-pass
+    '''    public JsonClientMetadata addAllErrorMetadata(final JsonErrorShapeMetadata... errorShapeMetadata)
+    '''
 def getErrorShapeMetadata():
-'''public List<JsonErrorShapeMetadata> getErrorShapeMetadata()
-'''
-pass
+    '''    public List<JsonErrorShapeMetadata> getErrorShapeMetadata()
+    '''
 def getProtocolVersion():
-'''public String getProtocolVersion()
-'''
-pass
+    '''    public String getProtocolVersion()
+    '''
 def withProtocolVersion():
-'''public JsonClientMetadata withProtocolVersion(final String protocolVersion)
-'''
-pass
+    '''    public JsonClientMetadata withProtocolVersion(final String protocolVersion)
+    '''
 def isSupportsCbor():
-'''public boolean isSupportsCbor()
-'''
-pass
+    '''    public boolean isSupportsCbor()
+    '''
 def withSupportsCbor():
-'''public JsonClientMetadata withSupportsCbor(final boolean supportsCbor)
-'''
-pass
+    '''    public JsonClientMetadata withSupportsCbor(final boolean supportsCbor)
+    '''

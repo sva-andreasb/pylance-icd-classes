@@ -1,8 +1,6 @@
 def instantiatedatasrc():
-'''public void instantiatedatasrc()
-'''
-pass
+    '''    public void instantiatedatasrc()
+    '''
 def render():
-'''public int render()
-'''
-pass
+    '''    public int render()
+    '''

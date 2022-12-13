@@ -1,16 +1,12 @@
 def DMCompResult():
-'''public DMCompResult(final MboSet ms)
-'''
-pass
+    '''    public DMCompResult(final MboSet ms)
+    '''
 def delete():
-'''public void delete(final long accessModifier)
-'''
-pass
+    '''    public void delete(final long accessModifier)
+    '''
 def undelete():
-'''public void undelete()
-'''
-pass
+    '''    public void undelete()
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

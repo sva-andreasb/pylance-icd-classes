@@ -1,8 +1,6 @@
 def ControlSoftwareTableGenerator():
-'''public ControlSoftwareTableGenerator()
-'''
-pass
+    '''    public ControlSoftwareTableGenerator()
+    '''
 def getModel():
-'''public DetailTableModel getModel()
-'''
-pass
+    '''    public DetailTableModel getModel()
+    '''

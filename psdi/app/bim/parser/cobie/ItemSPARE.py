@@ -1,60 +1,45 @@
 def ItemSPARE():
-'''public ItemSPARE()
-'''
-pass
+    '''    public ItemSPARE()
+    '''
 def addSupplier():
-'''public void addSupplier(final ItemCONTACT supplier)
-'''
-pass
+    '''    public void addSupplier(final ItemCONTACT supplier)
+    '''
 def resolveRerefences():
-'''public void resolveRerefences(final Parser project, final long flags)
-'''
-pass
+    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''
 def skip():
-'''public boolean skip(final Parser parser, final long flags)
-'''
-pass
+    '''    public boolean skip(final Parser parser, final long flags)
+    '''
 def getPageId():
-'''public String getPageId()
-'''
-pass
+    '''    public String getPageId()
+    '''
 def getTypeName():
-'''public String getTypeName()
-'''
-pass
+    '''    public String getTypeName()
+    '''
 def setTypeName():
-'''public void setTypeName(final String typeName)
-'''
-pass
+    '''    public void setTypeName(final String typeName)
+    '''
 def getSuppliers():
-'''public String getSuppliers()
-'''
-pass
+    '''    public String getSuppliers()
+    '''
 def setSuppliers():
-'''public void setSuppliers(String suppliers)
-'''
-pass
+    '''    public void setSuppliers(String suppliers)
+    '''
 def getSetNumber():
-'''public String getSetNumber()
-'''
-pass
+    '''    public String getSetNumber()
+    '''
 def setSetNumber():
-'''public void setSetNumber(final String setNumber)
-'''
-pass
+    '''    public void setSetNumber(final String setNumber)
+    '''
 def getPartNumber():
-'''public String getPartNumber()
-'''
-pass
+    '''    public String getPartNumber()
+    '''
 def setPartNumber():
-'''public void setPartNumber(final String partNumber)
-'''
-pass
+    '''    public void setPartNumber(final String partNumber)
+    '''
 def suppliers():
-'''public Enumeration<ItemCONTACT> suppliers()
-'''
-pass
+    '''    public Enumeration<ItemCONTACT> suppliers()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

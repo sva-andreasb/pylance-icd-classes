@@ -1,12 +1,9 @@
 def AdminMonitor():
-'''public AdminMonitor(final MboSet ms)
-'''
-pass
+    '''    public AdminMonitor(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def saveProperties():
-'''public void saveProperties()
-'''
-pass
+    '''    public void saveProperties()
+    '''

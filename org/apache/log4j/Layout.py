@@ -1,12 +1,9 @@
 def getContentType():
-'''public String getContentType()
-'''
-pass
+    '''    public String getContentType()
+    '''
 def getHeader():
-'''public String getHeader()
-'''
-pass
+    '''    public String getHeader()
+    '''
 def getFooter():
-'''public String getFooter()
-'''
-pass
+    '''    public String getFooter()
+    '''

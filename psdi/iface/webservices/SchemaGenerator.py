@@ -1,46 +1,36 @@
-UNIQUE_KEY_DOC = "String  Unique Key Component""
-ML_SUPPORTED_DOC = "String  Multiple languages supported""
-MAXOCCURSUNBOUNDED = "String  unbounded""
-BASESCHEMADIR = "String  schema""
-USEOPTIONAL = "String  optional""
+UNIQUE_KEY_DOC = "String  \"Unique Key Component\""
+ML_SUPPORTED_DOC = "String  \"Multiple languages supported\""
+MAXOCCURSUNBOUNDED = "String  \"unbounded\""
+BASESCHEMADIR = "String  \"schema\""
+USEOPTIONAL = "String  \"optional\""
 def SchemaGenerator():
-'''public SchemaGenerator()
-public SchemaGenerator(final Map<String, Element> schemaElements)
-'''
-pass
+    '''    public SchemaGenerator()
+    public SchemaGenerator(final Map<String, Element> schemaElements)
+    '''
 def getTargetNS():
-'''public String getTargetNS()
-'''
-pass
+    '''    public String getTargetNS()
+    '''
 def isSchemaGenerated():
-'''public boolean isSchemaGenerated()
-'''
-pass
+    '''    public boolean isSchemaGenerated()
+    '''
 def getSchemaFile():
-'''public File getSchemaFile()
-'''
-pass
+    '''    public File getSchemaFile()
+    '''
 def getSchemaElementFor():
-'''public String getSchemaElementFor(final String identifier)
-'''
-pass
+    '''    public String getSchemaElementFor(final String identifier)
+    '''
 def getSchemaDocument():
-'''public Document getSchemaDocument()
-'''
-pass
+    '''    public Document getSchemaDocument()
+    '''
 def generateSampleXml():
-'''public String generateSampleXml(final String identifier)
-'''
-pass
+    '''    public String generateSampleXml(final String identifier)
+    '''
 def generateSchemaElements():
-'''public void generateSchemaElements()
-'''
-pass
+    '''    public void generateSchemaElements()
+    '''
 def generateSchema():
-'''public void generateSchema()
-'''
-pass
+    '''    public void generateSchema()
+    '''
 def generateSchemaAsDcoument():
-'''public Document generateSchemaAsDcoument()
-'''
-pass
+    '''    public Document generateSchemaAsDcoument()
+    '''

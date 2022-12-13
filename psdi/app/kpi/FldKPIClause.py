@@ -1,8 +1,6 @@
 def FldKPIClause():
-'''public FldKPIClause(final MboValue mbv)
-'''
-pass
+    '''    public FldKPIClause(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

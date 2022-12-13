@@ -1,23 +1,18 @@
 def ChunkedInputStream():
-'''public ChunkedInputStream(final SessionInputBuffer in, final MessageConstraints constraints)
-public ChunkedInputStream(final SessionInputBuffer in)
-'''
-pass
+    '''    public ChunkedInputStream(final SessionInputBuffer in, final MessageConstraints constraints)
+    public ChunkedInputStream(final SessionInputBuffer in)
+    '''
 def available():
-'''public int available()
-'''
-pass
+    '''    public int available()
+    '''
 def read():
-'''public int read()
-public int read(final byte[] b, final int off, final int len)
-public int read(final byte[] b)
-'''
-pass
+    '''    public int read()
+    public int read(final byte[] b, final int off, final int len)
+    public int read(final byte[] b)
+    '''
 def close():
-'''public void close()
-'''
-pass
+    '''    public void close()
+    '''
 def getFooters():
-'''public Header[] getFooters()
-'''
-pass
+    '''    public Header[] getFooters()
+    '''

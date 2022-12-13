@@ -1,13 +1,10 @@
 def LDAPDeleteRequest():
-'''public LDAPDeleteRequest()
-public LDAPDeleteRequest(final String s, final LDAPControl[] array)
-'''
-pass
+    '''    public LDAPDeleteRequest()
+    public LDAPDeleteRequest(final String s, final LDAPControl[] array)
+    '''
 def getDN():
-'''public String getDN()
-'''
-pass
+    '''    public String getDN()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

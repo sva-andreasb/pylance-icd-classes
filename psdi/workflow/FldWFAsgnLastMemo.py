@@ -1,12 +1,9 @@
 def FldWFAsgnLastMemo():
-'''public FldWFAsgnLastMemo(final MboValue mbv)
-'''
-pass
+    '''    public FldWFAsgnLastMemo(final MboValue mbv)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''

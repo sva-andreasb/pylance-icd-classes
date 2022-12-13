@@ -1,16 +1,12 @@
 def SDataScriptBinding():
-'''public SDataScriptBinding(final StructureObject so, final MboSetInfo mboSetInfo)
-'''
-pass
+    '''    public SDataScriptBinding(final StructureObject so, final MboSetInfo mboSetInfo)
+    '''
 def get():
-'''public Object get(final Object key)
-'''
-pass
+    '''    public Object get(final Object key)
+    '''
 def put():
-'''public Object put(final String name, final Object value)
-'''
-pass
+    '''    public Object put(final String name, final Object value)
+    '''
 def containsKey():
-'''public boolean containsKey(final Object key)
-'''
-pass
+    '''    public boolean containsKey(final Object key)
+    '''

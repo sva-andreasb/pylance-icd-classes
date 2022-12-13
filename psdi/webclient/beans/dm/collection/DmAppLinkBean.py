@@ -1,8 +1,6 @@
 def launchAppLink():
-'''public int launchAppLink()
-'''
-pass
+    '''    public int launchAppLink()
+    '''
 def returnLookupValue():
-'''public synchronized int returnLookupValue(final MboRemote lookupMbo)
-'''
-pass
+    '''    public synchronized int returnLookupValue(final MboRemote lookupMbo)
+    '''

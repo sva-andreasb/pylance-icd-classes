@@ -1,16 +1,12 @@
 def WorkLogSet():
-'''public WorkLogSet(final MboServerInterface ms)
-'''
-pass
+    '''    public WorkLogSet(final MboServerInterface ms)
+    '''
 def setActionModify():
-'''public void setActionModify(final boolean flag)
-'''
-pass
+    '''    public void setActionModify(final boolean flag)
+    '''
 def canAdd():
-'''public void canAdd()
-'''
-pass
+    '''    public void canAdd()
+    '''
 def getWorkLogForRelatedRecords():
-'''public void getWorkLogForRelatedRecords(final boolean viewSRApp)
-'''
-pass
+    '''    public void getWorkLogForRelatedRecords(final boolean viewSRApp)
+    '''

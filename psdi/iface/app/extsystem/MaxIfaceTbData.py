@@ -1,12 +1,9 @@
 def MaxIfaceTbData():
-'''public MaxIfaceTbData(final MboSet ms)
-'''
-pass
+    '''    public MaxIfaceTbData(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''
 def validateEndPoint():
-'''public boolean validateEndPoint(final String endPointName)
-'''
-pass
+    '''    public boolean validateEndPoint(final String endPointName)
+    '''

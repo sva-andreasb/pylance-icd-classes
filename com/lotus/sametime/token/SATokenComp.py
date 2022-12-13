@@ -1,16 +1,12 @@
 def SATokenComp():
-'''public SATokenComp(final STSession stSession)
-'''
-pass
+    '''    public SATokenComp(final STSession stSession)
+    '''
 def addTokenServiceListener():
-'''public synchronized void addTokenServiceListener(final TokenServiceListener obj)
-'''
-pass
+    '''    public synchronized void addTokenServiceListener(final TokenServiceListener obj)
+    '''
 def removeTokenServiceListener():
-'''public synchronized void removeTokenServiceListener(final TokenServiceListener obj)
-'''
-pass
+    '''    public synchronized void removeTokenServiceListener(final TokenServiceListener obj)
+    '''
 def generateToken():
-'''public void generateToken(final STUser stUser)
-'''
-pass
+    '''    public void generateToken(final STUser stUser)
+    '''

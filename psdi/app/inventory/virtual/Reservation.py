@@ -1,8 +1,6 @@
 def Reservation():
-'''public Reservation(final MboSet ms)
-'''
-pass
+    '''    public Reservation(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

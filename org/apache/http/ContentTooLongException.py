@@ -1,4 +1,3 @@
 def ContentTooLongException():
-'''public ContentTooLongException(final String message)
-'''
-pass
+    '''    public ContentTooLongException(final String message)
+    '''

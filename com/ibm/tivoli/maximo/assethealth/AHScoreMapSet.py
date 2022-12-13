@@ -1,4 +1,3 @@
 def AHScoreMapSet():
-'''public AHScoreMapSet(final MboServerInterface ms)
-'''
-pass
+    '''    public AHScoreMapSet(final MboServerInterface ms)
+    '''

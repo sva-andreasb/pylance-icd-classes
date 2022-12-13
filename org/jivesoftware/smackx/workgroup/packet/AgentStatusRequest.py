@@ -1,42 +1,32 @@
-ELEMENT_NAME = "String  agent-status-request""
-NAMESPACE = "String  http://jabber.org/protocol/workgroup""
+ELEMENT_NAME = "String  \"agent-status-request\""
+NAMESPACE = "String  \"http://jabber.org/protocol/workgroup\""
 def AgentStatusRequest():
-'''public AgentStatusRequest()
-'''
-pass
+    '''    public AgentStatusRequest()
+    '''
 def getAgentCount():
-'''public int getAgentCount()
-'''
-pass
+    '''    public int getAgentCount()
+    '''
 def getAgents():
-'''public Set<Item> getAgents()
-'''
-pass
+    '''    public Set<Item> getAgents()
+    '''
 def getElementName():
-'''public String getElementName()
-'''
-pass
+    '''    public String getElementName()
+    '''
 def getNamespace():
-'''public String getNamespace()
-'''
-pass
+    '''    public String getNamespace()
+    '''
 def Item():
-'''public Item(final EntityBareJid jid, final String type, final String name)
-'''
-pass
+    '''    public Item(final EntityBareJid jid, final String type, final String name)
+    '''
 def getJID():
-'''public EntityBareJid getJID()
-'''
-pass
+    '''    public EntityBareJid getJID()
+    '''
 def getType():
-'''public String getType()
-'''
-pass
+    '''    public String getType()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def parse():
-'''public AgentStatusRequest parse(final XmlPullParser parser, final int initialDepth)
-'''
-pass
+    '''    public AgentStatusRequest parse(final XmlPullParser parser, final int initialDepth)
+    '''

@@ -1,4 +1,3 @@
 def DDUserAuthSet():
-'''public DDUserAuthSet(final MboServerInterface ms)
-'''
-pass
+    '''    public DDUserAuthSet(final MboServerInterface ms)
+    '''

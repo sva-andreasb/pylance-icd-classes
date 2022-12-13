@@ -1,4 +1,3 @@
 def createAnchor():
-'''public static EscherRecord createAnchor(final HSSFAnchor userAnchor)
-'''
-pass
+    '''    public static EscherRecord createAnchor(final HSSFAnchor userAnchor)
+    '''

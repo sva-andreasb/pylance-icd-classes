@@ -1,8 +1,6 @@
 def SKDODMEResourceSummarySet():
-'''public SKDODMEResourceSummarySet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDODMEResourceSummarySet(final MboServerInterface ms)
+    '''
 def getMboInstance():
-'''public Mbo getMboInstance(final MboSet ms)
-'''
-pass
+    '''    public Mbo getMboInstance(final MboSet ms)
+    '''

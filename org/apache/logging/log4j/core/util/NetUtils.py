@@ -1,16 +1,12 @@
 def getLocalHostname():
-'''public static String getLocalHostname()
-'''
-pass
+    '''    public static String getLocalHostname()
+    '''
 def getMacAddress():
-'''public static byte[] getMacAddress()
-'''
-pass
+    '''    public static byte[] getMacAddress()
+    '''
 def getMacAddressString():
-'''public static String getMacAddressString()
-'''
-pass
+    '''    public static String getMacAddressString()
+    '''
 def toURI():
-'''public static URI toURI(final String path)
-'''
-pass
+    '''    public static URI toURI(final String path)
+    '''

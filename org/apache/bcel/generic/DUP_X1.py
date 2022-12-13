@@ -1,8 +1,6 @@
 def DUP_X1():
-'''public DUP_X1()
-'''
-pass
+    '''    public DUP_X1()
+    '''
 def accept():
-'''public void accept(final Visitor v)
-'''
-pass
+    '''    public void accept(final Visitor v)
+    '''

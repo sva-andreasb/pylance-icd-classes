@@ -1,136 +1,102 @@
 def standard():
-'''public static PeriodType standard()
-'''
-pass
+    '''    public static PeriodType standard()
+    '''
 def yearMonthDayTime():
-'''public static PeriodType yearMonthDayTime()
-'''
-pass
+    '''    public static PeriodType yearMonthDayTime()
+    '''
 def yearMonthDay():
-'''public static PeriodType yearMonthDay()
-'''
-pass
+    '''    public static PeriodType yearMonthDay()
+    '''
 def yearWeekDayTime():
-'''public static PeriodType yearWeekDayTime()
-'''
-pass
+    '''    public static PeriodType yearWeekDayTime()
+    '''
 def yearWeekDay():
-'''public static PeriodType yearWeekDay()
-'''
-pass
+    '''    public static PeriodType yearWeekDay()
+    '''
 def yearDayTime():
-'''public static PeriodType yearDayTime()
-'''
-pass
+    '''    public static PeriodType yearDayTime()
+    '''
 def yearDay():
-'''public static PeriodType yearDay()
-'''
-pass
+    '''    public static PeriodType yearDay()
+    '''
 def dayTime():
-'''public static PeriodType dayTime()
-'''
-pass
+    '''    public static PeriodType dayTime()
+    '''
 def time():
-'''public static PeriodType time()
-'''
-pass
+    '''    public static PeriodType time()
+    '''
 def years():
-'''public static PeriodType years()
-'''
-pass
+    '''    public static PeriodType years()
+    '''
 def months():
-'''public static PeriodType months()
-'''
-pass
+    '''    public static PeriodType months()
+    '''
 def weeks():
-'''public static PeriodType weeks()
-'''
-pass
+    '''    public static PeriodType weeks()
+    '''
 def days():
-'''public static PeriodType days()
-'''
-pass
+    '''    public static PeriodType days()
+    '''
 def hours():
-'''public static PeriodType hours()
-'''
-pass
+    '''    public static PeriodType hours()
+    '''
 def minutes():
-'''public static PeriodType minutes()
-'''
-pass
+    '''    public static PeriodType minutes()
+    '''
 def seconds():
-'''public static PeriodType seconds()
-'''
-pass
+    '''    public static PeriodType seconds()
+    '''
 def millis():
-'''public static PeriodType millis()
-'''
-pass
+    '''    public static PeriodType millis()
+    '''
 def forFields():
-'''public static synchronized PeriodType forFields(final DurationFieldType[] a)
-'''
-pass
+    '''    public static synchronized PeriodType forFields(final DurationFieldType[] a)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def size():
-'''public int size()
-'''
-pass
+    '''    public int size()
+    '''
 def getFieldType():
-'''public DurationFieldType getFieldType(final int n)
-'''
-pass
+    '''    public DurationFieldType getFieldType(final int n)
+    '''
 def isSupported():
-'''public boolean isSupported(final DurationFieldType durationFieldType)
-'''
-pass
+    '''    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''
 def indexOf():
-'''public int indexOf(final DurationFieldType durationFieldType)
-'''
-pass
+    '''    public int indexOf(final DurationFieldType durationFieldType)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def withYearsRemoved():
-'''public PeriodType withYearsRemoved()
-'''
-pass
+    '''    public PeriodType withYearsRemoved()
+    '''
 def withMonthsRemoved():
-'''public PeriodType withMonthsRemoved()
-'''
-pass
+    '''    public PeriodType withMonthsRemoved()
+    '''
 def withWeeksRemoved():
-'''public PeriodType withWeeksRemoved()
-'''
-pass
+    '''    public PeriodType withWeeksRemoved()
+    '''
 def withDaysRemoved():
-'''public PeriodType withDaysRemoved()
-'''
-pass
+    '''    public PeriodType withDaysRemoved()
+    '''
 def withHoursRemoved():
-'''public PeriodType withHoursRemoved()
-'''
-pass
+    '''    public PeriodType withHoursRemoved()
+    '''
 def withMinutesRemoved():
-'''public PeriodType withMinutesRemoved()
-'''
-pass
+    '''    public PeriodType withMinutesRemoved()
+    '''
 def withSecondsRemoved():
-'''public PeriodType withSecondsRemoved()
-'''
-pass
+    '''    public PeriodType withSecondsRemoved()
+    '''
 def withMillisRemoved():
-'''public PeriodType withMillisRemoved()
-'''
-pass
+    '''    public PeriodType withMillisRemoved()
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''

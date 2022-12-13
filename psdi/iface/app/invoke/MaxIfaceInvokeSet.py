@@ -1,8 +1,6 @@
 def MaxIfaceInvokeSet():
-'''public MaxIfaceInvokeSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIfaceInvokeSet(final MboServerInterface ms)
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''

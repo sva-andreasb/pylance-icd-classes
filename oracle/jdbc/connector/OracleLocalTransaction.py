@@ -1,12 +1,9 @@
 def begin():
-'''public void begin()
-'''
-pass
+    '''    public void begin()
+    '''
 def commit():
-'''public void commit()
-'''
-pass
+    '''    public void commit()
+    '''
 def rollback():
-'''public void rollback()
-'''
-pass
+    '''    public void rollback()
+    '''

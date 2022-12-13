@@ -1,8 +1,6 @@
 def JClassAlreadyExistsException():
-'''public JClassAlreadyExistsException(final JDefinedClass _existing)
-'''
-pass
+    '''    public JClassAlreadyExistsException(final JDefinedClass _existing)
+    '''
 def getExistingClass():
-'''public JDefinedClass getExistingClass()
-'''
-pass
+    '''    public JDefinedClass getExistingClass()
+    '''

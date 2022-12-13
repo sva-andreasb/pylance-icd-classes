@@ -1,4 +1,3 @@
 def Base64EncodingStringBufferOutputStream():
-'''public Base64EncodingStringBufferOutputStream(final StringBuffer buffer)
-'''
-pass
+    '''    public Base64EncodingStringBufferOutputStream(final StringBuffer buffer)
+    '''

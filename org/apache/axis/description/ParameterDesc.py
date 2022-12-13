@@ -2,135 +2,103 @@ IN = "byte  1"
 OUT = "byte  2"
 INOUT = "byte  3"
 def ParameterDesc():
-'''public ParameterDesc()
-public ParameterDesc(final ParameterDesc copy)
-public ParameterDesc(final QName name, final byte mode, final QName typeQName)
-public ParameterDesc(final QName name, final byte mode, final QName typeQName, final Class javaType, final boolean inHeader, final boolean outHeader)
-public ParameterDesc(final QName name, final byte mode, final QName typeQName, final Class javaType)
-'''
-pass
+    '''    public ParameterDesc()
+    public ParameterDesc(final ParameterDesc copy)
+    public ParameterDesc(final QName name, final byte mode, final QName typeQName)
+    public ParameterDesc(final QName name, final byte mode, final QName typeQName, final Class javaType, final boolean inHeader, final boolean outHeader)
+    public ParameterDesc(final QName name, final byte mode, final QName typeQName, final Class javaType)
+    '''
 def toString():
-'''public String toString()
-public String toString(final String indent)
-'''
-pass
+    '''    public String toString()
+    public String toString(final String indent)
+    '''
 def modeFromString():
-'''public static byte modeFromString(final String modeStr)
-'''
-pass
+    '''    public static byte modeFromString(final String modeStr)
+    '''
 def getModeAsString():
-'''public static String getModeAsString(final byte mode)
-'''
-pass
+    '''    public static String getModeAsString(final byte mode)
+    '''
 def getQName():
-'''public QName getQName()
-'''
-pass
+    '''    public QName getQName()
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def setName():
-'''public void setName(final String name)
-'''
-pass
+    '''    public void setName(final String name)
+    '''
 def setQName():
-'''public void setQName(final QName name)
-'''
-pass
+    '''    public void setQName(final QName name)
+    '''
 def getTypeQName():
-'''public QName getTypeQName()
-'''
-pass
+    '''    public QName getTypeQName()
+    '''
 def setTypeQName():
-'''public void setTypeQName(final QName typeQName)
-'''
-pass
+    '''    public void setTypeQName(final QName typeQName)
+    '''
 def getJavaType():
-'''public Class getJavaType()
-'''
-pass
+    '''    public Class getJavaType()
+    '''
 def setJavaType():
-'''public void setJavaType(final Class javaType)
-'''
-pass
+    '''    public void setJavaType(final Class javaType)
+    '''
 def getMode():
-'''public byte getMode()
-'''
-pass
+    '''    public byte getMode()
+    '''
 def setMode():
-'''public void setMode(final byte mode)
-'''
-pass
+    '''    public void setMode(final byte mode)
+    '''
 def getOrder():
-'''public int getOrder()
-'''
-pass
+    '''    public int getOrder()
+    '''
 def setOrder():
-'''public void setOrder(final int order)
-'''
-pass
+    '''    public void setOrder(final int order)
+    '''
 def setInHeader():
-'''public void setInHeader(final boolean value)
-'''
-pass
+    '''    public void setInHeader(final boolean value)
+    '''
 def isInHeader():
-'''public boolean isInHeader()
-'''
-pass
+    '''    public boolean isInHeader()
+    '''
 def setOutHeader():
-'''public void setOutHeader(final boolean value)
-'''
-pass
+    '''    public void setOutHeader(final boolean value)
+    '''
 def isOutHeader():
-'''public boolean isOutHeader()
-'''
-pass
+    '''    public boolean isOutHeader()
+    '''
 def getIsReturn():
-'''public boolean getIsReturn()
-'''
-pass
+    '''    public boolean getIsReturn()
+    '''
 def setIsReturn():
-'''public void setIsReturn(final boolean value)
-'''
-pass
+    '''    public void setIsReturn(final boolean value)
+    '''
 def getDocumentation():
-'''public String getDocumentation()
-'''
-pass
+    '''    public String getDocumentation()
+    '''
 def setDocumentation():
-'''public void setDocumentation(final String documentation)
-'''
-pass
+    '''    public void setDocumentation(final String documentation)
+    '''
 def getItemQName():
-'''public QName getItemQName()
-'''
-pass
+    '''    public QName getItemQName()
+    '''
 def setItemQName():
-'''public void setItemQName(final QName itemQName)
-'''
-pass
+    '''    public void setItemQName(final QName itemQName)
+    '''
 def getItemType():
-'''public QName getItemType()
-'''
-pass
+    '''    public QName getItemType()
+    '''
 def setItemType():
-'''public void setItemType(final QName itemType)
-'''
-pass
+    '''    public void setItemType(final QName itemType)
+    '''
 def isOmittable():
-'''public boolean isOmittable()
-'''
-pass
+    '''    public boolean isOmittable()
+    '''
 def setOmittable():
-'''public void setOmittable(final boolean omittable)
-'''
-pass
+    '''    public void setOmittable(final boolean omittable)
+    '''
 def isNillable():
-'''public boolean isNillable()
-'''
-pass
+    '''    public boolean isNillable()
+    '''
 def setNillable():
-'''public void setNillable(final boolean nillable)
-'''
-pass
+    '''    public void setNillable(final boolean nillable)
+    '''

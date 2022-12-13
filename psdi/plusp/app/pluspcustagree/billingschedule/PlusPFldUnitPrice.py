@@ -1,9 +1,7 @@
 def PlusPFldUnitPrice():
-'''public PlusPFldUnitPrice()
-public PlusPFldUnitPrice(final MboValue mbv)
-'''
-pass
+    '''    public PlusPFldUnitPrice()
+    public PlusPFldUnitPrice(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

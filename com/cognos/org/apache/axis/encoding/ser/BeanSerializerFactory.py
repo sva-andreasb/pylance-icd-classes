@@ -1,8 +1,6 @@
 def BeanSerializerFactory():
-'''public BeanSerializerFactory(final Class javaType, final QName xmlType)
-'''
-pass
+    '''    public BeanSerializerFactory(final Class javaType, final QName xmlType)
+    '''
 def getSerializerAs():
-'''public Serializer getSerializerAs(final String mechanismType)
-'''
-pass
+    '''    public Serializer getSerializerAs(final String mechanismType)
+    '''

@@ -1,8 +1,6 @@
 def ApptBookModelLoader():
-'''public ApptBookModelLoader(final MboRemote apptBookMbo)
-'''
-pass
+    '''    public ApptBookModelLoader(final MboRemote apptBookMbo)
+    '''
 def loadAppointments():
-'''public void loadAppointments(final ApptBook apptBook, final Date start, final Date end)
-'''
-pass
+    '''    public void loadAppointments(final ApptBook apptBook, final Date start, final Date end)
+    '''

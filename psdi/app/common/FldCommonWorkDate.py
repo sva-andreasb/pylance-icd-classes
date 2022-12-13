@@ -1,8 +1,6 @@
 def FldCommonWorkDate():
-'''public FldCommonWorkDate(final MboValue mbv)
-'''
-pass
+    '''    public FldCommonWorkDate(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

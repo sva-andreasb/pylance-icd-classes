@@ -1,16 +1,12 @@
 def TokenIterator():
-'''public TokenIterator(final ResourceReader r)
-'''
-pass
+    '''    public TokenIterator(final ResourceReader r)
+    '''
 def next():
-'''public String next()
-'''
-pass
+    '''    public String next()
+    '''
 def getLineNumber():
-'''public int getLineNumber()
-'''
-pass
+    '''    public int getLineNumber()
+    '''
 def describePosition():
-'''public String describePosition()
-'''
-pass
+    '''    public String describePosition()
+    '''

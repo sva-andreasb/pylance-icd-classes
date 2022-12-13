@@ -1,46 +1,35 @@
 def IlvAccessibleDataPoint():
-'''public IlvAccessibleDataPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSetPoint ilvDataSetPoint)
-public IlvAccessibleDataPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSet set, final int n)
-public IlvAccessibleDataPoint(final IlvAccessibleDataSet a, final int b)
-'''
-pass
+    '''    public IlvAccessibleDataPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSetPoint ilvDataSetPoint)
+    public IlvAccessibleDataPoint(final IlvChartRenderer ilvChartRenderer, final IlvDataSet set, final int n)
+    public IlvAccessibleDataPoint(final IlvAccessibleDataSet a, final int b)
+    '''
 def getRenderer():
-'''public final IlvChartRenderer getRenderer()
-'''
-pass
+    '''    public final IlvChartRenderer getRenderer()
+    '''
 def getDataSet():
-'''public final IlvDataSet getDataSet()
-'''
-pass
+    '''    public final IlvDataSet getDataSet()
+    '''
 def getIndex():
-'''public final int getIndex()
-'''
-pass
+    '''    public final int getIndex()
+    '''
 def getAccessibleDataSet():
-'''public IlvAccessibleDataSet getAccessibleDataSet()
-'''
-pass
+    '''    public IlvAccessibleDataSet getAccessibleDataSet()
+    '''
 def getDataPoint():
-'''public IlvDataSetPoint getDataPoint()
-'''
-pass
+    '''    public IlvDataSetPoint getDataPoint()
+    '''
 def isViewable():
-'''public boolean isViewable()
-'''
-pass
+    '''    public boolean isViewable()
+    '''
 def drawSelectionHandles():
-'''public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
-'''
-pass
+    '''    public void drawSelectionHandles(final Graphics graphics, final IlvHandlesSelectionStyle ilvHandlesSelectionStyle)
+    '''
 def equals():
-'''public boolean equals(final Object o)
-'''
-pass
+    '''    public boolean equals(final Object o)
+    '''
 def hashCode():
-'''public int hashCode()
-'''
-pass
+    '''    public int hashCode()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

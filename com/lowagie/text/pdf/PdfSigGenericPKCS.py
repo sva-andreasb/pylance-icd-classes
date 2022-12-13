@@ -1,39 +1,30 @@
 def PdfSigGenericPKCS():
-'''public PdfSigGenericPKCS(final PdfName filter, final PdfName subFilter)
-'''
-pass
+    '''    public PdfSigGenericPKCS(final PdfName filter, final PdfName subFilter)
+    '''
 def setSignInfo():
-'''public void setSignInfo(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList)
-'''
-pass
+    '''    public void setSignInfo(final PrivateKey privKey, final Certificate[] certChain, final CRL[] crlList)
+    '''
 def setExternalDigest():
-'''public void setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)
-'''
-pass
+    '''    public void setExternalDigest(final byte[] digest, final byte[] RSAdata, final String digestEncryptionAlgorithm)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def getSigner():
-'''public PdfPKCS7 getSigner()
-'''
-pass
+    '''    public PdfPKCS7 getSigner()
+    '''
 def getSignerContents():
-'''public byte[] getSignerContents()
-'''
-pass
+    '''    public byte[] getSignerContents()
+    '''
 def VeriSign():
-'''public VeriSign()
-public VeriSign(final String provider)
-'''
-pass
+    '''    public VeriSign()
+    public VeriSign(final String provider)
+    '''
 def PPKLite():
-'''public PPKLite()
-public PPKLite(final String provider)
-'''
-pass
+    '''    public PPKLite()
+    public PPKLite(final String provider)
+    '''
 def PPKMS():
-'''public PPKMS()
-public PPKMS(final String provider)
-'''
-pass
+    '''    public PPKMS()
+    public PPKMS(final String provider)
+    '''

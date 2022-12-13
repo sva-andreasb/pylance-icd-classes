@@ -1,4 +1,3 @@
 def DefaultQuerySet():
-'''public DefaultQuerySet(final MboServerInterface ms)
-'''
-pass
+    '''    public DefaultQuerySet(final MboServerInterface ms)
+    '''

@@ -1,12 +1,9 @@
 def RtfMemoryCache():
-'''public RtfMemoryCache()
-'''
-pass
+    '''    public RtfMemoryCache()
+    '''
 def getOutputStream():
-'''public OutputStream getOutputStream()
-'''
-pass
+    '''    public OutputStream getOutputStream()
+    '''
 def writeTo():
-'''public void writeTo(final OutputStream target)
-'''
-pass
+    '''    public void writeTo(final OutputStream target)
+    '''

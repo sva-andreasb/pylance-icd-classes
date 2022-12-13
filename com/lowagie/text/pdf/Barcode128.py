@@ -17,38 +17,29 @@ STARTA = "char  '\u00cb'"
 STARTB = "char  '\u00cc'"
 STARTC = "char  '\u00cd'"
 def Barcode128():
-'''public Barcode128()
-'''
-pass
+    '''    public Barcode128()
+    '''
 def removeFNC1():
-'''public static String removeFNC1(final String code)
-'''
-pass
+    '''    public static String removeFNC1(final String code)
+    '''
 def getHumanReadableUCCEAN():
-'''public static String getHumanReadableUCCEAN(String code)
-'''
-pass
+    '''    public static String getHumanReadableUCCEAN(String code)
+    '''
 def getRawText():
-'''public static String getRawText(final String text, final boolean ucc)
-'''
-pass
+    '''    public static String getRawText(final String text, final boolean ucc)
+    '''
 def getBarsCode128Raw():
-'''public static byte[] getBarsCode128Raw(String text)
-'''
-pass
+    '''    public static byte[] getBarsCode128Raw(String text)
+    '''
 def getBarcodeSize():
-'''public Rectangle getBarcodeSize()
-'''
-pass
+    '''    public Rectangle getBarcodeSize()
+    '''
 def placeBarcode():
-'''public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
-'''
-pass
+    '''    public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''
 def createAwtImage():
-'''public Image createAwtImage(final Color foreground, final Color background)
-'''
-pass
+    '''    public Image createAwtImage(final Color foreground, final Color background)
+    '''
 def setCode():
-'''public void setCode(final String code)
-'''
-pass
+    '''    public void setCode(final String code)
+    '''

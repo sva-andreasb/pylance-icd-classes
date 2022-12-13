@@ -1,4 +1,3 @@
 def withCurrency():
-'''public Precision withCurrency(final Currency currency)
-'''
-pass
+    '''    public Precision withCurrency(final Currency currency)
+    '''

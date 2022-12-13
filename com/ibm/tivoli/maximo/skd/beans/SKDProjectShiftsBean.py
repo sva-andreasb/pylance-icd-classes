@@ -1,8 +1,6 @@
 def getMboSetRemote():
-'''public MboSetRemote getMboSetRemote()
-'''
-pass
+    '''    public MboSetRemote getMboSetRemote()
+    '''
 def selectShifts():
-'''public int selectShifts()
-'''
-pass
+    '''    public int selectShifts()
+    '''

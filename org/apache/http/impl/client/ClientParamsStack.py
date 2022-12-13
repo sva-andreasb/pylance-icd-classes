@@ -1,38 +1,29 @@
 def ClientParamsStack():
-'''public ClientParamsStack(final HttpParams aparams, final HttpParams cparams, final HttpParams rparams, final HttpParams oparams)
-public ClientParamsStack(final ClientParamsStack stack)
-public ClientParamsStack(final ClientParamsStack stack, final HttpParams aparams, final HttpParams cparams, final HttpParams rparams, final HttpParams oparams)
-'''
-pass
+    '''    public ClientParamsStack(final HttpParams aparams, final HttpParams cparams, final HttpParams rparams, final HttpParams oparams)
+    public ClientParamsStack(final ClientParamsStack stack)
+    public ClientParamsStack(final ClientParamsStack stack, final HttpParams aparams, final HttpParams cparams, final HttpParams rparams, final HttpParams oparams)
+    '''
 def getApplicationParams():
-'''public final HttpParams getApplicationParams()
-'''
-pass
+    '''    public final HttpParams getApplicationParams()
+    '''
 def getClientParams():
-'''public final HttpParams getClientParams()
-'''
-pass
+    '''    public final HttpParams getClientParams()
+    '''
 def getRequestParams():
-'''public final HttpParams getRequestParams()
-'''
-pass
+    '''    public final HttpParams getRequestParams()
+    '''
 def getOverrideParams():
-'''public final HttpParams getOverrideParams()
-'''
-pass
+    '''    public final HttpParams getOverrideParams()
+    '''
 def getParameter():
-'''public Object getParameter(final String name)
-'''
-pass
+    '''    public Object getParameter(final String name)
+    '''
 def setParameter():
-'''public HttpParams setParameter(final String name, final Object value)
-'''
-pass
+    '''    public HttpParams setParameter(final String name, final Object value)
+    '''
 def removeParameter():
-'''public boolean removeParameter(final String name)
-'''
-pass
+    '''    public boolean removeParameter(final String name)
+    '''
 def copy():
-'''public HttpParams copy()
-'''
-pass
+    '''    public HttpParams copy()
+    '''

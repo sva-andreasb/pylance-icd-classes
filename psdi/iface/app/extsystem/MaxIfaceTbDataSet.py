@@ -1,16 +1,12 @@
 def MaxIfaceTbDataSet():
-'''public MaxIfaceTbDataSet(final MboServerInterface ms)
-'''
-pass
+    '''    public MaxIfaceTbDataSet(final MboServerInterface ms)
+    '''
 def setup():
-'''public MboRemote setup()
-'''
-pass
+    '''    public MboRemote setup()
+    '''
 def populateMboSet():
-'''public void populateMboSet(final MboRemote parentMbo)
-'''
-pass
+    '''    public void populateMboSet(final MboRemote parentMbo)
+    '''
 def createTable():
-'''public void createTable()
-'''
-pass
+    '''    public void createTable()
+    '''

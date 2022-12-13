@@ -1,8 +1,6 @@
 def FldSetViewChangedMboValue():
-'''public FldSetViewChangedMboValue(final MboValue mbv)
-'''
-pass
+    '''    public FldSetViewChangedMboValue(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

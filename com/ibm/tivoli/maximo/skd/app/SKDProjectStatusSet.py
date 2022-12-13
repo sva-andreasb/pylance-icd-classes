@@ -1,4 +1,3 @@
 def SKDProjectStatusSet():
-'''public SKDProjectStatusSet(final MboServerInterface ms)
-'''
-pass
+    '''    public SKDProjectStatusSet(final MboServerInterface ms)
+    '''

@@ -1,8 +1,6 @@
 def FldLeaseViewTerm():
-'''public FldLeaseViewTerm(final MboValue mbv)
-'''
-pass
+    '''    public FldLeaseViewTerm(final MboValue mbv)
+    '''
 def action():
-'''public void action()
-'''
-pass
+    '''    public void action()
+    '''

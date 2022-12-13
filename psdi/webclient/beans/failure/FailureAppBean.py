@@ -1,12 +1,9 @@
 def initializeApp():
-'''public void initializeApp()
-'''
-pass
+    '''    public void initializeApp()
+    '''
 def initialize():
-'''public void initialize()
-'''
-pass
+    '''    public void initialize()
+    '''
 def getKeyAttribute():
-'''public String getKeyAttribute()
-'''
-pass
+    '''    public String getKeyAttribute()
+    '''

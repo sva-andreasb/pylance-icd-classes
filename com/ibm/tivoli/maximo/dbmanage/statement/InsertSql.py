@@ -1,44 +1,33 @@
 def InsertSql():
-'''public InsertSql(final String table, final Connection connection)
-'''
-pass
+    '''    public InsertSql(final String table, final Connection connection)
+    '''
 def addColumnValue():
-'''public void addColumnValue(final String column, final Object value)
-'''
-pass
+    '''    public void addColumnValue(final String column, final Object value)
+    '''
 def addColumnStringValue():
-'''public void addColumnStringValue(final String column, final String value)
-'''
-pass
+    '''    public void addColumnStringValue(final String column, final String value)
+    '''
 def generateInsertSql():
-'''public String generateInsertSql()
-'''
-pass
+    '''    public String generateInsertSql()
+    '''
 def generateInsertSelectSql():
-'''public String generateInsertSelectSql()
-'''
-pass
+    '''    public String generateInsertSelectSql()
+    '''
 def changeTable():
-'''public void changeTable(final String table)
-'''
-pass
+    '''    public void changeTable(final String table)
+    '''
 def setColumnValues():
-'''public void setColumnValues(final AttributeStorage sequenceDef)
-'''
-pass
+    '''    public void setColumnValues(final AttributeStorage sequenceDef)
+    '''
 def addHexColumnValue():
-'''public void addHexColumnValue(final String column, final String value)
-'''
-pass
+    '''    public void addHexColumnValue(final String column, final String value)
+    '''
 def addedUniqueIdPosition():
-'''public Integer addedUniqueIdPosition()
-'''
-pass
+    '''    public Integer addedUniqueIdPosition()
+    '''
 def getAddedUidSequence():
-'''public String getAddedUidSequence()
-'''
-pass
+    '''    public String getAddedUidSequence()
+    '''
 def getAddedUid():
-'''public String getAddedUid()
-'''
-pass
+    '''    public String getAddedUid()
+    '''

@@ -1,12 +1,9 @@
 def DescriptorParseException():
-'''public DescriptorParseException(final Exception ex, final String fileName)
-'''
-pass
+    '''    public DescriptorParseException(final Exception ex, final String fileName)
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''
 def getDescriptorFileName():
-'''public String getDescriptorFileName()
-'''
-pass
+    '''    public String getDescriptorFileName()
+    '''

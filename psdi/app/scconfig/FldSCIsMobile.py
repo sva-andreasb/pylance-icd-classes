@@ -1,8 +1,6 @@
 def FldSCIsMobile():
-'''public FldSCIsMobile(final MboValue mbv)
-'''
-pass
+    '''    public FldSCIsMobile(final MboValue mbv)
+    '''
 def validate():
-'''public void validate()
-'''
-pass
+    '''    public void validate()
+    '''

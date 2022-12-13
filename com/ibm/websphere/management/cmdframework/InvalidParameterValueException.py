@@ -1,17 +1,13 @@
 def InvalidParameterValueException():
-'''public InvalidParameterValueException(final String cmdName, final String paramName, final Object paramVal)
-public InvalidParameterValueException(final String cmdName, final String paramName, final Object paramVal, final String additionalInfo)
-'''
-pass
+    '''    public InvalidParameterValueException(final String cmdName, final String paramName, final Object paramVal)
+    public InvalidParameterValueException(final String cmdName, final String paramName, final Object paramVal, final String additionalInfo)
+    '''
 def getParamName():
-'''public String getParamName()
-'''
-pass
+    '''    public String getParamName()
+    '''
 def getValue():
-'''public Object getValue()
-'''
-pass
+    '''    public Object getValue()
+    '''
 def getMessage():
-'''public String getMessage()
-'''
-pass
+    '''    public String getMessage()
+    '''

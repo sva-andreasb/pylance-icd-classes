@@ -1,8 +1,6 @@
 def VendorStatus():
-'''public VendorStatus(final MboSet ms)
-'''
-pass
+    '''    public VendorStatus(final MboSet ms)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''

@@ -1,381 +1,287 @@
 def IlvGraphic():
-'''public IlvGraphic()
-public IlvGraphic(final IlvGraphic ilvGraphic)
-public IlvGraphic(final IlvInputStream ilvInputStream)
-'''
-pass
+    '''    public IlvGraphic()
+    public IlvGraphic(final IlvGraphic ilvGraphic)
+    public IlvGraphic(final IlvInputStream ilvInputStream)
+    '''
 def zoomable():
-'''public boolean zoomable()
-'''
-pass
+    '''    public boolean zoomable()
+    '''
 def setZOrderIndex():
-'''public final void setZOrderIndex(final int j)
-'''
-pass
+    '''    public final void setZOrderIndex(final int j)
+    '''
 def getZOrderIndex():
-'''public final int getZOrderIndex()
-'''
-pass
+    '''    public final int getZOrderIndex()
+    '''
 def callDraw():
-'''public final void callDraw(final Graphics graphics, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public final void callDraw(final Graphics graphics, final IlvTransformer ilvTransformer)
+    '''
 def boundingBox():
-'''public final IlvRect boundingBox()
-'''
-pass
+    '''    public final IlvRect boundingBox()
+    '''
 def getCenter():
-'''public IlvPoint getCenter(final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvPoint getCenter(final IlvTransformer ilvTransformer)
+    '''
 def contains():
-'''public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public boolean contains(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''
 def intersects():
-'''public boolean intersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public boolean intersects(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)
+    '''
 def inside():
-'''public boolean inside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public boolean inside(final IlvRect ilvRect, final IlvRect ilvRect2, final IlvTransformer ilvTransformer)
+    '''
 def getIntersectionWithOutline():
-'''public IlvPoint getIntersectionWithOutline(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public IlvPoint getIntersectionWithOutline(final IlvPoint ilvPoint, final IlvPoint ilvPoint2, final IlvTransformer ilvTransformer)
+    '''
 def move():
-'''public void move(final float n, final float n2)
-public void move(final IlvPoint ilvPoint)
-'''
-pass
+    '''    public void move(final float n, final float n2)
+    public void move(final IlvPoint ilvPoint)
+    '''
 def moveResize():
-'''public void moveResize(IlvRect a)
-'''
-pass
+    '''    public void moveResize(IlvRect a)
+    '''
 def translate():
-'''public void translate(final float n, final float n2)
-'''
-pass
+    '''    public void translate(final float n, final float n2)
+    '''
 def rotate():
-'''public void rotate(final IlvPoint ilvPoint, double degreesToRadians)
-'''
-pass
+    '''    public void rotate(final IlvPoint ilvPoint, double degreesToRadians)
+    '''
 def scale():
-'''public void scale(final double n, final double n2)
-'''
-pass
+    '''    public void scale(final double n, final double n2)
+    '''
 def resize():
-'''public void resize(final float n, final float n2)
-'''
-pass
+    '''    public void resize(final float n, final float n2)
+    '''
 def setGraphicBag():
-'''public void setGraphicBag(final IlvGraphicBag b)
-'''
-pass
+    '''    public void setGraphicBag(final IlvGraphicBag b)
+    '''
 def getGraphicBag():
-'''public final IlvGraphicBag getGraphicBag()
-'''
-pass
+    '''    public final IlvGraphicBag getGraphicBag()
+    '''
 def getTopLevelGraphicBag():
-'''public final synchronized IlvGraphicBag getTopLevelGraphicBag()
-'''
-pass
+    '''    public final synchronized IlvGraphicBag getTopLevelGraphicBag()
+    '''
 def setForeground():
-'''public void setForeground(final Color color)
-'''
-pass
+    '''    public void setForeground(final Color color)
+    '''
 def setBackground():
-'''public void setBackground(final Color color)
-'''
-pass
+    '''    public void setBackground(final Color color)
+    '''
 def setFillOn():
-'''public void setFillOn(final boolean b)
-'''
-pass
+    '''    public void setFillOn(final boolean b)
+    '''
 def setStrokeOn():
-'''public void setStrokeOn(final boolean b)
-'''
-pass
+    '''    public void setStrokeOn(final boolean b)
+    '''
 def reDraw():
-'''public void reDraw()
-'''
-pass
+    '''    public void reDraw()
+    '''
 def setName():
-'''public void setName(final String nameImpl)
-'''
-pass
+    '''    public void setName(final String nameImpl)
+    '''
 def setNameImpl():
-'''public void setNameImpl(final String s)
-'''
-pass
+    '''    public void setNameImpl(final String s)
+    '''
 def getName():
-'''public String getName()
-'''
-pass
+    '''    public String getName()
+    '''
 def removeProperty():
-'''public boolean removeProperty(final String s)
-'''
-pass
+    '''    public boolean removeProperty(final String s)
+    '''
 def setProperty():
-'''public void setProperty(final String s, final Object o)
-'''
-pass
+    '''    public void setProperty(final String s, final Object o)
+    '''
 def replaceProperty():
-'''public boolean replaceProperty(final String s, final Object o)
-'''
-pass
+    '''    public boolean replaceProperty(final String s, final Object o)
+    '''
 def getProperty():
-'''public Object getProperty(final String s)
-'''
-pass
+    '''    public Object getProperty(final String s)
+    '''
 def hasProperty():
-'''public boolean hasProperty(final String s, final Object o)
-'''
-pass
+    '''    public boolean hasProperty(final String s, final Object o)
+    '''
 def isVisible():
-'''public boolean isVisible()
-'''
-pass
+    '''    public boolean isVisible()
+    '''
 def setVisible():
-'''public final void setVisible(final boolean b)
-'''
-pass
+    '''    public final void setVisible(final boolean b)
+    '''
 def isMovable():
-'''public boolean isMovable()
-'''
-pass
+    '''    public boolean isMovable()
+    '''
 def setMovable():
-'''public final void setMovable(final boolean b)
-'''
-pass
+    '''    public final void setMovable(final boolean b)
+    '''
 def isEditable():
-'''public final boolean isEditable()
-'''
-pass
+    '''    public final boolean isEditable()
+    '''
 def setEditable():
-'''public final void setEditable(final boolean b)
-'''
-pass
+    '''    public final void setEditable(final boolean b)
+    '''
 def isSelectable():
-'''public boolean isSelectable()
-'''
-pass
+    '''    public boolean isSelectable()
+    '''
 def setSelectable():
-'''public final void setSelectable(final boolean b)
-'''
-pass
+    '''    public final void setSelectable(final boolean b)
+    '''
 def addActionListener():
-'''public final void addActionListener(final ActionListener l)
-'''
-pass
+    '''    public final void addActionListener(final ActionListener l)
+    '''
 def removeActionListener():
-'''public final void removeActionListener(final ActionListener l)
-'''
-pass
+    '''    public final void removeActionListener(final ActionListener l)
+    '''
 def processActionEvent():
-'''public void processActionEvent(final ActionEvent actionEvent)
-'''
-pass
+    '''    public void processActionEvent(final ActionEvent actionEvent)
+    '''
 def makeSelection():
-'''public IlvSelection makeSelection()
-'''
-pass
+    '''    public IlvSelection makeSelection()
+    '''
 def getDefaultInteractor():
-'''public String getDefaultInteractor()
-'''
-pass
+    '''    public String getDefaultInteractor()
+    '''
 def getObjectInteractor():
-'''public final IlvObjectInteractor getObjectInteractor()
-'''
-pass
+    '''    public final IlvObjectInteractor getObjectInteractor()
+    '''
 def setObjectInteractor():
-'''public final void setObjectInteractor(final IlvObjectInteractor ilvObjectInteractor)
-'''
-pass
+    '''    public final void setObjectInteractor(final IlvObjectInteractor ilvObjectInteractor)
+    '''
 def getAndAssociateObjectInteractor():
-'''public final IlvObjectInteractor getAndAssociateObjectInteractor()
-'''
-pass
+    '''    public final IlvObjectInteractor getAndAssociateObjectInteractor()
+    '''
 def write():
-'''public void write(final IlvOutputStream ilvOutputStream)
-'''
-pass
+    '''    public void write(final IlvOutputStream ilvOutputStream)
+    '''
 def isPersistent():
-'''public boolean isPersistent()
-'''
-pass
+    '''    public boolean isPersistent()
+    '''
 def getTransferDataFlavors():
-'''public DataFlavor[] getTransferDataFlavors()
-'''
-pass
+    '''    public DataFlavor[] getTransferDataFlavors()
+    '''
 def isDataFlavorSupported():
-'''public boolean isDataFlavorSupported(final DataFlavor dataFlavor)
-'''
-pass
+    '''    public boolean isDataFlavorSupported(final DataFlavor dataFlavor)
+    '''
 def getTransferData():
-'''public Object getTransferData(final DataFlavor flavor)
-'''
-pass
+    '''    public Object getTransferData(final DataFlavor flavor)
+    '''
 def GetGraphicObject():
-'''public static IlvGraphic GetGraphicObject(final Transferable transferable)
-'''
-pass
+    '''    public static IlvGraphic GetGraphicObject(final Transferable transferable)
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''
 def setBlinkingAction():
-'''public void setBlinkingAction(final IlvBlinkingAction a)
-'''
-pass
+    '''    public void setBlinkingAction(final IlvBlinkingAction a)
+    '''
 def getBlinkingAction():
-'''public IlvBlinkingAction getBlinkingAction()
-'''
-pass
+    '''    public IlvBlinkingAction getBlinkingAction()
+    '''
 def setBlinkingOnPeriod():
-'''public void setBlinkingOnPeriod(long c)
-'''
-pass
+    '''    public void setBlinkingOnPeriod(long c)
+    '''
 def getBlinkingOnPeriod():
-'''public long getBlinkingOnPeriod()
-'''
-pass
+    '''    public long getBlinkingOnPeriod()
+    '''
 def setBlinkingOffPeriod():
-'''public void setBlinkingOffPeriod(long d)
-'''
-pass
+    '''    public void setBlinkingOffPeriod(long d)
+    '''
 def getBlinkingOffPeriod():
-'''public long getBlinkingOffPeriod()
-'''
-pass
+    '''    public long getBlinkingOffPeriod()
+    '''
 def blinkingStateOn():
-'''public final void blinkingStateOn(final boolean e)
-'''
-pass
+    '''    public final void blinkingStateOn(final boolean e)
+    '''
 def getBlinkingObjectOwner():
-'''public IlvBlinkingObjectOwner getBlinkingObjectOwner()
-'''
-pass
+    '''    public IlvBlinkingObjectOwner getBlinkingObjectOwner()
+    '''
 def setToolTipText():
-'''public void setToolTipText(final String s)
-'''
-pass
+    '''    public void setToolTipText(final String s)
+    '''
 def getToolTipText():
-'''public String getToolTipText()
-public String getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
-'''
-pass
+    '''    public String getToolTipText()
+    public String getToolTipText(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer)
+    '''
 def setToolTipBaseTextDirection():
-'''public void setToolTipBaseTextDirection(final int value)
-'''
-pass
+    '''    public void setToolTipBaseTextDirection(final int value)
+    '''
 def getToolTipBaseTextDirection():
-'''public int getToolTipBaseTextDirection()
-'''
-pass
+    '''    public int getToolTipBaseTextDirection()
+    '''
 def setPopupMenu():
-'''public void setPopupMenu(final JPopupMenu popupMenu)
-'''
-pass
+    '''    public void setPopupMenu(final JPopupMenu popupMenu)
+    '''
 def getPopupMenu():
-'''public JPopupMenu getPopupMenu()
-public JPopupMenu getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
-'''
-pass
+    '''    public JPopupMenu getPopupMenu()
+    public JPopupMenu getPopupMenu(final IlvPoint ilvPoint, final IlvTransformer ilvTransformer, final IlvManagerView ilvManagerView, final IlvPopupMenuManager ilvPopupMenuManager)
+    '''
 def setPopupMenuName():
-'''public void setPopupMenuName(final String s)
-'''
-pass
+    '''    public void setPopupMenuName(final String s)
+    '''
 def getPopupMenuName():
-'''public String getPopupMenuName()
-'''
-pass
+    '''    public String getPopupMenuName()
+    '''
 def getLocale():
-'''public final Locale getLocale()
-'''
-pass
+    '''    public final Locale getLocale()
+    '''
 def getULocale():
-'''public ULocale getULocale()
-'''
-pass
+    '''    public ULocale getULocale()
+    '''
 def isLocaleSensitive():
-'''public boolean isLocaleSensitive()
-'''
-pass
+    '''    public boolean isLocaleSensitive()
+    '''
 def localeChanged():
-'''public void localeChanged(final ULocale uLocale, final ULocale uLocale2)
-'''
-pass
+    '''    public void localeChanged(final ULocale uLocale, final ULocale uLocale2)
+    '''
 def getComponentOrientation():
-'''public ComponentOrientation getComponentOrientation()
-'''
-pass
+    '''    public ComponentOrientation getComponentOrientation()
+    '''
 def isComponentOrientationSensitive():
-'''public boolean isComponentOrientationSensitive()
-'''
-pass
+    '''    public boolean isComponentOrientationSensitive()
+    '''
 def componentOrientationChanged():
-'''public void componentOrientationChanged(final ComponentOrientation componentOrientation, final ComponentOrientation componentOrientation2)
-'''
-pass
+    '''    public void componentOrientationChanged(final ComponentOrientation componentOrientation, final ComponentOrientation componentOrientation2)
+    '''
 def setBaseTextDirection():
-'''public void setBaseTextDirection(final int n)
-'''
-pass
+    '''    public void setBaseTextDirection(final int n)
+    '''
 def getBaseTextDirection():
-'''public int getBaseTextDirection()
-'''
-pass
+    '''    public int getBaseTextDirection()
+    '''
 def getResolvedBaseTextDirection():
-'''public int getResolvedBaseTextDirection()
-'''
-pass
+    '''    public int getResolvedBaseTextDirection()
+    '''
 def isBaseTextDirectionSensitive():
-'''public boolean isBaseTextDirectionSensitive()
-'''
-pass
+    '''    public boolean isBaseTextDirectionSensitive()
+    '''
 def usesBidiMarkers():
-'''public boolean usesBidiMarkers()
-'''
-pass
+    '''    public boolean usesBidiMarkers()
+    '''
 def baseTextDirectionChanged():
-'''public void baseTextDirectionChanged(final int n, final int n2)
-'''
-pass
+    '''    public void baseTextDirectionChanged(final int n, final int n2)
+    '''
 def addNamedPropertyListener():
-'''public void addNamedPropertyListener(final NamedPropertyListener l)
-'''
-pass
+    '''    public void addNamedPropertyListener(final NamedPropertyListener l)
+    '''
 def removeNamedPropertyListener():
-'''public void removeNamedPropertyListener(final NamedPropertyListener l)
-'''
-pass
+    '''    public void removeNamedPropertyListener(final NamedPropertyListener l)
+    '''
 def setNamedProperty():
-'''public IlvNamedProperty setNamedProperty(final IlvNamedProperty value)
-'''
-pass
+    '''    public IlvNamedProperty setNamedProperty(final IlvNamedProperty value)
+    '''
 def getNamedProperty():
-'''public IlvNamedProperty getNamedProperty(final String key)
-'''
-pass
+    '''    public IlvNamedProperty getNamedProperty(final String key)
+    '''
 def removeNamedProperty():
-'''public void removeNamedProperty(final String key)
-'''
-pass
+    '''    public void removeNamedProperty(final String key)
+    '''
 def isInApplyToObject():
-'''public final boolean isInApplyToObject()
-'''
-pass
+    '''    public final boolean isInApplyToObject()
+    '''
 def setInApplyToObject():
-'''public final boolean setInApplyToObject(final boolean b)
-'''
-pass
+    '''    public final boolean setInApplyToObject(final boolean b)
+    '''
 def apply():
-'''public void apply(final IlvGraphic ilvGraphic, final Object o)
-'''
-pass
+    '''    public void apply(final IlvGraphic ilvGraphic, final Object o)
+    '''
 def viewChanged():
-'''public void viewChanged(final ManagerViewsChangedEvent managerViewsChangedEvent)
-'''
-pass
+    '''    public void viewChanged(final ManagerViewsChangedEvent managerViewsChangedEvent)
+    '''

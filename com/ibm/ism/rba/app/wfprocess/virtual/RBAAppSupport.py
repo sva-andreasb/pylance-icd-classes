@@ -1,8 +1,6 @@
 def RBAAppSupport():
-'''public RBAAppSupport(final MboSet ms)
-'''
-pass
+    '''    public RBAAppSupport(final MboSet ms)
+    '''
 def addSupport():
-'''public void addSupport()
-'''
-pass
+    '''    public void addSupport()
+    '''

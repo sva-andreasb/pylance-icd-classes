@@ -1,4 +1,3 @@
 def AppServerConfigFilesGenerator():
-'''public AppServerConfigFilesGenerator()
-'''
-pass
+    '''    public AppServerConfigFilesGenerator()
+    '''

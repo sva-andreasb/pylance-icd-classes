@@ -1,36 +1,27 @@
 def SynchronizerSettings():
-'''public SynchronizerSettings()
-'''
-pass
+    '''    public SynchronizerSettings()
+    '''
 def getAdapterClassName():
-'''public String getAdapterClassName()
-'''
-pass
+    '''    public String getAdapterClassName()
+    '''
 def setAdapterClassName():
-'''public void setAdapterClassName(final String string)
-'''
-pass
+    '''    public void setAdapterClassName(final String string)
+    '''
 def getSynchronizerClassName():
-'''public String getSynchronizerClassName()
-'''
-pass
+    '''    public String getSynchronizerClassName()
+    '''
 def setSynchronizerClassName():
-'''public void setSynchronizerClassName(final String string)
-'''
-pass
+    '''    public void setSynchronizerClassName(final String string)
+    '''
 def addParameter():
-'''public void addParameter(final String parameterName, final String value)
-'''
-pass
+    '''    public void addParameter(final String parameterName, final String value)
+    '''
 def getParameterValue():
-'''public String getParameterValue(final String paramaterName)
-'''
-pass
+    '''    public String getParameterValue(final String paramaterName)
+    '''
 def getParameters():
-'''public Iterator getParameters()
-'''
-pass
+    '''    public Iterator getParameters()
+    '''
 def toString():
-'''public String toString()
-'''
-pass
+    '''    public String toString()
+    '''

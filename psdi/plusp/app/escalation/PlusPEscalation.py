@@ -1,28 +1,21 @@
 def PlusPEscalation():
-'''public PlusPEscalation(final MboSet arg0)
-'''
-pass
+    '''    public PlusPEscalation(final MboSet arg0)
+    '''
 def delete():
-'''public void delete(final long n)
-'''
-pass
+    '''    public void delete(final long n)
+    '''
 def add():
-'''public void add()
-'''
-pass
+    '''    public void add()
+    '''
 def externalEscalation():
-'''public void externalEscalation()
-'''
-pass
+    '''    public void externalEscalation()
+    '''
 def isEscalationActive():
-'''public boolean isEscalationActive()
-'''
-pass
+    '''    public boolean isEscalationActive()
+    '''
 def canDelete():
-'''public void canDelete()
-'''
-pass
+    '''    public void canDelete()
+    '''
 def activateCronTaskInstance():
-'''public void activateCronTaskInstance()
-'''
-pass
+    '''    public void activateCronTaskInstance()
+    '''

@@ -1,65 +1,50 @@
 def BaseFlatFileParser():
-'''public BaseFlatFileParser(final BufferedReader reader, final String delim, final int startPosition)
-public BaseFlatFileParser(final BufferedReader reader, final String delim, final int startPosition, final boolean useHeader)
-public BaseFlatFileParser(final BufferedReader reader, final String delim, final char textQualifier, final int startPosition)
-public BaseFlatFileParser(final BufferedReader reader, final String delim, final char textQualifier, final int startPosition, final boolean useHeader)
-public BaseFlatFileParser(final File file, final String delim, final char textQualifier, final int startPosition, final boolean useHeader)
-public BaseFlatFileParser(final BufferedReader reader, final String mosName, final String action, final String langCode, final String delim, final char textQualifier, final int startPosition)
-'''
-pass
+    '''    public BaseFlatFileParser(final BufferedReader reader, final String delim, final int startPosition)
+    public BaseFlatFileParser(final BufferedReader reader, final String delim, final int startPosition, final boolean useHeader)
+    public BaseFlatFileParser(final BufferedReader reader, final String delim, final char textQualifier, final int startPosition)
+    public BaseFlatFileParser(final BufferedReader reader, final String delim, final char textQualifier, final int startPosition, final boolean useHeader)
+    public BaseFlatFileParser(final File file, final String delim, final char textQualifier, final int startPosition, final boolean useHeader)
+    public BaseFlatFileParser(final BufferedReader reader, final String mosName, final String action, final String langCode, final String delim, final char textQualifier, final int startPosition)
+    '''
 def parseLine():
-'''public Map parseLine()
-'''
-pass
+    '''    public Map parseLine()
+    '''
 def getCurrentLineIndex():
-'''public int getCurrentLineIndex()
-'''
-pass
+    '''    public int getCurrentLineIndex()
+    '''
 def nextRecord():
-'''public List nextRecord()
-'''
-pass
+    '''    public List nextRecord()
+    '''
 def getRecordStart():
-'''public int getRecordStart()
-'''
-pass
+    '''    public int getRecordStart()
+    '''
 def getRecordEnd():
-'''public int getRecordEnd()
-'''
-pass
+    '''    public int getRecordEnd()
+    '''
 def getExtSysName():
-'''public String getExtSysName()
-'''
-pass
+    '''    public String getExtSysName()
+    '''
 def getOSName():
-'''public String getOSName()
-'''
-pass
+    '''    public String getOSName()
+    '''
 def getAction():
-'''public String getAction()
-'''
-pass
+    '''    public String getAction()
+    '''
 def getInterface():
-'''public String getInterface()
-'''
-pass
+    '''    public String getInterface()
+    '''
 def getTransLanguage():
-'''public String getTransLanguage()
-'''
-pass
+    '''    public String getTransLanguage()
+    '''
 def getColumnHeaders():
-'''public List getColumnHeaders()
-'''
-pass
+    '''    public List getColumnHeaders()
+    '''
 def getCurrentLine():
-'''public int getCurrentLine()
-'''
-pass
+    '''    public int getCurrentLine()
+    '''
 def getDelimiter():
-'''public String getDelimiter()
-'''
-pass
+    '''    public String getDelimiter()
+    '''
 def getColHeader():
-'''public String getColHeader()
-'''
-pass
+    '''    public String getColHeader()
+    '''

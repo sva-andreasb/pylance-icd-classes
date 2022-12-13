@@ -1,8 +1,6 @@
 def WeatherUsage():
-'''public WeatherUsage(final MboSet ms)
-'''
-pass
+    '''    public WeatherUsage(final MboSet ms)
+    '''
 def init():
-'''public void init()
-'''
-pass
+    '''    public void init()
+    '''

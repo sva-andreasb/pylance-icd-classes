@@ -1,9 +1,7 @@
 def FldAgentChatStatus():
-'''public FldAgentChatStatus()
-public FldAgentChatStatus(final MboValue mbv)
-'''
-pass
+    '''    public FldAgentChatStatus()
+    public FldAgentChatStatus(final MboValue mbv)
+    '''
 def initValue():
-'''public void initValue()
-'''
-pass
+    '''    public void initValue()
+    '''
