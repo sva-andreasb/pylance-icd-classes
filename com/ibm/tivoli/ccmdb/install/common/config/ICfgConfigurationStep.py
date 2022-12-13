@@ -1,0 +1,1 @@
+POINTS_PER_MINUTE = "int  10"

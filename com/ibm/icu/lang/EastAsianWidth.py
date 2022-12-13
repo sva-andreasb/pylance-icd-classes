@@ -1,0 +1,7 @@
+NEUTRAL = "int  0"
+AMBIGUOUS = "int  1"
+HALFWIDTH = "int  2"
+FULLWIDTH = "int  3"
+NARROW = "int  4"
+WIDE = "int  5"
+COUNT = "int  6"

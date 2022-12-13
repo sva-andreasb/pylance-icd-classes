@@ -1,0 +1,7 @@
+UNREACHABLE = "int  -1"
+COMPLETE = "int  0"
+CONNECT_TARGET = "int  1"
+CONNECT_PROXY = "int  2"
+TUNNEL_TARGET = "int  3"
+TUNNEL_PROXY = "int  4"
+LAYER_PROTOCOL = "int  5"

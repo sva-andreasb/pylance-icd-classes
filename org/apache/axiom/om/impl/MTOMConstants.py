@@ -1,0 +1,7 @@
+XOP_INCLUDE = "String  Include""
+XOP_NAMESPACE_URI = "String  http://www.w3.org/2004/08/xop/include""
+MTOM_TYPE = "String  application/xop+xml""
+SWA_TYPE = "String  text/xml""
+SWA_TYPE_12 = "String  application/soap+xml""
+ROOT_PART = "String  SoapPart""
+ATTACHMENTS = "String  Attachments""

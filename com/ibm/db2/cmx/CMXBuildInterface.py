@@ -1,0 +1,7 @@
+cmxComponentName__ = "String  CMX""
+cmxMajorVersion__ = "int  11"
+cmxClientMajorVersion__ = "int  11"
+cmxMinorVersion__ = "int  0"
+cmxMicroVersion__ = "int  0"
+cmxSpecVersion__ = "int  100"
+cmxBuildQualifier__ = "String  String.valueOf(100) + String.valueOf(3) + String.valueOf(3306) + String.valueOf(7)"

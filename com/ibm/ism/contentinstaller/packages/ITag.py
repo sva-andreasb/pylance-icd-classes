@@ -1,0 +1,5 @@
+TYPE_ROOT = "int  0"
+TYPE_GROUP = "int  1"
+TYPE_FILE = "int  2"
+TYPE_EXPORT_FILE = "int  3"
+TYPE_IMPORT_FILE = "int  4"

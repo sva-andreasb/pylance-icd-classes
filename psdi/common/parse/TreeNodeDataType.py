@@ -1,0 +1,5 @@
+UnknownNode = "int  -1"
+BooleanNode = "int  0"
+StringNode = "int  1"
+NumberNode = "int  2"
+DateTimeNode = "int  3"

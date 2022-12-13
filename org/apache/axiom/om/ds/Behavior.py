@@ -1,0 +1,3 @@
+DESTRUCTIVE = "int  0"
+NOT_DESTRUCTIVE = "int  1"
+ONE_USE_UNSAFE = "int  2"

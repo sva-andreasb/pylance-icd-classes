@@ -1,0 +1,1 @@
+eINSTANCE = "CommandMetadataFactory  new CommandMetadataFactoryImpl()"

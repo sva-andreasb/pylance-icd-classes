@@ -1,0 +1,8 @@
+def FldLicenseCoreMulti():
+'''public FldLicenseCoreMulti(final MboValue mbv)
+'''
+pass
+def initValue():
+'''public void initValue()
+'''
+pass

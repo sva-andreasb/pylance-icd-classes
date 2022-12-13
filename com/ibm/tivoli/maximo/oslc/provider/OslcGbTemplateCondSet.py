@@ -1,0 +1,8 @@
+def OslcGbTemplateCondSet():
+'''public OslcGbTemplateCondSet(final MboServerInterface ms)
+'''
+pass
+def commit():
+'''public void commit()
+'''
+pass

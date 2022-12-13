@@ -1,0 +1,5 @@
+Empty = "int  1"
+Error = "int  2"
+Success = "int  3"
+SERVER_STATE_STARTED = "String  STARTED""
+SERVER_STATE_STOPPED = "String  STOPPED""

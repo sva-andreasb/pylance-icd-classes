@@ -1,0 +1,2 @@
+DEFAULT_DPI = "int  72"
+DEFAULT_SAMPLE_DPI = "int  300"

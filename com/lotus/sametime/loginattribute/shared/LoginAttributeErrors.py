@@ -1,0 +1,1 @@
+LOGIN_ATTRIBUTE_OK = "int  0"

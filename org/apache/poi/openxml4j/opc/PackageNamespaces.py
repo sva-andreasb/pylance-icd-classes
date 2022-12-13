@@ -1,0 +1,5 @@
+CONTENT_TYPES = "String  http://schemas.openxmlformats.org/package/2006/content-types""
+CORE_PROPERTIES = "String  http://schemas.openxmlformats.org/package/2006/metadata/core-properties""
+DIGITAL_SIGNATURE = "String  http://schemas.openxmlformats.org/package/2006/digital-signature""
+RELATIONSHIPS = "String  http://schemas.openxmlformats.org/package/2006/relationships""
+MARKUP_COMPATIBILITY = "String  http://schemas.openxmlformats.org/markup-compatibility/2006""

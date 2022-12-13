@@ -1,0 +1,5 @@
+HAS_TIMEZONE = "int  1"
+HAS_YEAR = "int  2"
+HAS_MONTH = "int  4"
+HAS_DAY = "int  8"
+HAS_TIME = "int  16"

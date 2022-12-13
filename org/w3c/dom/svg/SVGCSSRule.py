@@ -1,0 +1,1 @@
+COLOR_PROFILE_RULE = "short  7"

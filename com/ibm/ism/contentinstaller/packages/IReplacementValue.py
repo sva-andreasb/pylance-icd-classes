@@ -1,0 +1,3 @@
+TYPE_INVALID = "int  0"
+TYPE_SELECTION = "int  1"
+TYPE_FREETEXT = "int  2"

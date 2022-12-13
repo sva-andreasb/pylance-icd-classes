@@ -1,0 +1,5 @@
+NS_URI_MIME = "String  http://schemas.xmlsoap.org/wsdl/mime/""
+ELEM_CONTENT = "String  content""
+ELEM_MULTIPART_RELATED = "String  multipartRelated""
+ELEM_MIME_XML = "String  mimeXml""
+ATTR_PART = "String  part""

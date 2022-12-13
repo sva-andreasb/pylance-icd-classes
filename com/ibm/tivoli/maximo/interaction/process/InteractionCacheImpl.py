@@ -1,0 +1,27 @@
+def InteractionCacheImpl():
+'''public InteractionCacheImpl()
+'''
+pass
+def init():
+'''public void init()
+'''
+pass
+def reload():
+'''public synchronized void reload()
+public void reload(final String key)
+'''
+pass
+def getName():
+'''public String getName()
+'''
+pass
+def getAllInteractions():
+'''public Map<String, InteractionInfo> getAllInteractions()
+'''
+pass
+def getInteractionInfo():
+'''public InteractionInfo getInteractionInfo(final String name)
+public InteractionInfo getInteractionInfo(final String sigoption, final String appname)
+public InteractionInfo getInteractionInfo(final String mainObjectName, final String relation, final String topObject)
+'''
+pass

@@ -1,0 +1,8 @@
+def getType():
+'''public int getType()
+'''
+pass
+def clone():
+'''public Object clone()
+'''
+pass

@@ -1,0 +1,1 @@
+DEFAULT_MINIMUM_DURATION = "IlvDuration  IlvDuration.ONE_MINUTE"

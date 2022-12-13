@@ -1,0 +1,5 @@
+DEFAULT = "byte  0"
+CHINESE_TRADITIONAL = "byte  1"
+CHINESE_SIMPLIFIED = "byte  2"
+KOREAN = "byte  3"
+names = "String[]  { "DEFAULT", "CHINESE_TRADITIONAL", "CHINESE_SIMPLIFIED", "KOREAN" }"

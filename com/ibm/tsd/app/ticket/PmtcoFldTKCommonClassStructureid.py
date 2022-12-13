@@ -1,0 +1,8 @@
+def PmtcoFldTKCommonClassStructureid():
+'''public PmtcoFldTKCommonClassStructureid(final MboValue mbv)
+'''
+pass
+def action():
+'''public void action()
+'''
+pass

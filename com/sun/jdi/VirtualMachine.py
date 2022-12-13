@@ -1,0 +1,7 @@
+TRACE_NONE = "int  0"
+TRACE_SENDS = "int  1"
+TRACE_RECEIVES = "int  2"
+TRACE_EVENTS = "int  4"
+TRACE_REFTYPES = "int  8"
+TRACE_OBJREFS = "int  16"
+TRACE_ALL = "int  16777215"

@@ -1,0 +1,2 @@
+INTERNAL_ENTITY = "short  1"
+EXTERNAL_ENTITY = "short  2"

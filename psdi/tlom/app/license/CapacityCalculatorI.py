@@ -1,0 +1,1 @@
+COPYRIGHT = "String  CopyRight.COPYRIGHT"

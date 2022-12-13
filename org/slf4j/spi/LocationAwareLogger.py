@@ -1,0 +1,5 @@
+TRACE_INT = "int  0"
+DEBUG_INT = "int  10"
+INFO_INT = "int  20"
+WARN_INT = "int  30"
+ERROR_INT = "int  40"

@@ -1,0 +1,5 @@
+SVG_CHANNEL_UNKNOWN = "short  0"
+SVG_CHANNEL_R = "short  1"
+SVG_CHANNEL_G = "short  2"
+SVG_CHANNEL_B = "short  3"
+SVG_CHANNEL_A = "short  4"

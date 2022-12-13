@@ -1,0 +1,5 @@
+APPLICATION_SCOPE = "String  application""
+SESSION_SCOPE = "String  session""
+REQUEST_SCOPE = "String  request""
+PAGE_SCOPE = "String  page""
+JXPATH_CONTEXT = "String  org.apache.commons.jxpath.JXPATH_CONTEXT""

@@ -1,0 +1,1 @@
+HORIZONTAL = "String  horizontal""

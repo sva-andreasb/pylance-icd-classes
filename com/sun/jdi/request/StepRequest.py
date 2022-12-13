@@ -1,0 +1,5 @@
+STEP_INTO = "int  1"
+STEP_OVER = "int  2"
+STEP_OUT = "int  3"
+STEP_MIN = "int  -1"
+STEP_LINE = "int  -2"

@@ -1,0 +1,4 @@
+ROTATED = "int  0"
+TRANSFORMED_ROTATED = "int  1"
+TRANSFORMED_UPRIGHT = "int  2"
+UPRIGHT = "int  3"

@@ -1,0 +1,1 @@
+NOOP = "LogBuilder  new LogBuilder() {}"

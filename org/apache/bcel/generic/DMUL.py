@@ -1,0 +1,8 @@
+def DMUL():
+'''public DMUL()
+'''
+pass
+def accept():
+'''public void accept(final Visitor v)
+'''
+pass

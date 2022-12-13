@@ -1,0 +1,3 @@
+SEVERITY_WARNING = "short  1"
+SEVERITY_ERROR = "short  2"
+SEVERITY_FATAL_ERROR = "short  3"

@@ -1,0 +1,7 @@
+LOG4J_CONTEXT_NAME = "String  log4jContextName""
+LOG4J_CONFIG_LOCATION = "String  log4jConfiguration""
+IS_LOG4J_CONTEXT_SELECTOR_NAMED = "String  isLog4jContextSelectorNamed""
+IS_LOG4J_AUTO_INITIALIZATION_DISABLED = "String  isLog4jAutoInitializationDisabled""
+IS_LOG4J_AUTO_SHUTDOWN_DISABLED = "String  isLog4jAutoShutdownDisabled""
+SUPPORT_ATTRIBUTE = "String  Log4jWebSupport.class.getName() + ".INSTANCE""
+CONTEXT_ATTRIBUTE = "String  LoggerContext.class.getName() + ".INSTANCE""

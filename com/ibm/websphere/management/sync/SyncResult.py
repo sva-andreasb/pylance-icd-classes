@@ -1,0 +1,5 @@
+IN_PROGRESS = "int  0"
+COMPLETE = "int  1"
+NOT_VERIFIED = "int  2"
+OUT_OF_SYNC = "int  3"
+ERROR = "int  4"

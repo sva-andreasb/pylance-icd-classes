@@ -1,0 +1,7 @@
+BROWSER_COMPATIBILITY = "String  compatibility""
+NETSCAPE = "String  netscape""
+STANDARD = "String  standard""
+STANDARD_STRICT = "String  standard-strict""
+BEST_MATCH = "String  best-match""
+DEFAULT = "String  default""
+IGNORE_COOKIES = "String  ignoreCookies""

@@ -1,0 +1,5 @@
+TYPE_NUMERIC = "int  1"
+TYPE_STRING = "int  2"
+TYPE_BOOLEAN = "int  3"
+TYPE_OBJECT = "int  4"
+TYPE_UNSUPPORTED = "int  5"

@@ -1,0 +1,5 @@
+DPLURAL = "byte  0"
+DSINGULAR = "byte  1"
+DSINGULAR_SUBONE = "byte  2"
+DPAUCAL = "byte  3"
+names = "String[]  { "DPLURAL", "DSINGULAR", "DSINGULAR_SUBONE", "DPAUCAL" }"

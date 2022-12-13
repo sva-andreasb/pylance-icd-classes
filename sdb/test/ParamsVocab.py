@@ -1,0 +1,5 @@
+TempTableName = "String  TempTable""
+BinaryType = "String  typeBinary""
+BinaryCol = "String  colBinary""
+VarcharType = "String  typeVarchar""
+VarcharCol = "String  colVarchar""

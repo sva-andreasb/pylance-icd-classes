@@ -1,0 +1,2 @@
+NOT_ACCEPTABLE = "int  0"
+DEFAULT_ACCEPTANCE = "int  1"

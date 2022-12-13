@@ -1,0 +1,7 @@
+UNKNOWN_RULE = "short  0"
+STYLE_RULE = "short  1"
+CHARSET_RULE = "short  2"
+IMPORT_RULE = "short  3"
+MEDIA_RULE = "short  4"
+FONT_FACE_RULE = "short  5"
+PAGE_RULE = "short  6"

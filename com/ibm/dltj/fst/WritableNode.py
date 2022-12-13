@@ -1,0 +1,4 @@
+COPYRIGHT = "String  \n\n(C) Copyright IBM Corp. 2003, 2007.\n\n""
+DLT_NODE_ADD = "int  536870912"
+DLT_NODE_ADD_REPLACE_EXISTING = "int  1073741824"
+DLT_NODE_ADD_REPLACE = "int  Integer.MIN_VALUE"

@@ -1,0 +1,1 @@
+eINSTANCE = "CommandDataFactory  new CommandDataFactoryImpl()"

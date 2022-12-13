@@ -1,0 +1,5 @@
+BASIC = "String  Basic""
+DIGEST = "String  Digest""
+NTLM = "String  NTLM""
+SPNEGO = "String  Negotiate""
+KERBEROS = "String  Kerberos""

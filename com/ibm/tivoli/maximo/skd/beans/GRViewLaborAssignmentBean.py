@@ -1,0 +1,12 @@
+def GRViewLaborAssignmentBean():
+'''public GRViewLaborAssignmentBean()
+'''
+pass
+def filterworkorder():
+'''public int filterworkorder()
+'''
+pass
+def getUserInfo():
+'''public UserInfo getUserInfo()
+'''
+pass

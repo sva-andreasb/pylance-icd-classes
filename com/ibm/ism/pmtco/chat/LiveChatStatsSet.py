@@ -1,0 +1,4 @@
+def LiveChatStatsSet():
+'''public LiveChatStatsSet(final MboServerInterface ms)
+'''
+pass

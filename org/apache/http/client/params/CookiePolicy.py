@@ -1,0 +1,6 @@
+BROWSER_COMPATIBILITY = "String  compatibility""
+NETSCAPE = "String  netscape""
+RFC_2109 = "String  rfc2109""
+RFC_2965 = "String  rfc2965""
+BEST_MATCH = "String  best-match""
+IGNORE_COOKIES = "String  ignoreCookies""

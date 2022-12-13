@@ -1,0 +1,5 @@
+TITLE = "String  title""
+TITLE_POS = "String  titlePos""
+TITLE_GAP = "String  titleGap""
+TITLE_FONT = "String  titleFont""
+TITLE_FONT_COLOR = "String  titleFontColor""

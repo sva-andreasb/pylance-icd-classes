@@ -1,0 +1,7 @@
+PACKAGE = "String  com.ibm.dltj.icu""
+UTF8 = "String  utf-8""
+ASCII = "String  Ascii""
+EXT_BRK = "String  .brk""
+EXT_RULE = "String  .rule""
+EXT_TAGS = "String  .tags""
+TMP_PREFIX = "String  irp""

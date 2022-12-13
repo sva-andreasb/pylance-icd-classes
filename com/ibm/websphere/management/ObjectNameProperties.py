@@ -1,0 +1,7 @@
+NAME = "String  name""
+CELL = "String  cell""
+NODE = "String  node""
+PROCESS = "String  process""
+TYPE = "String  type""
+MBEAN_IDENTIFIER = "String  mbeanIdentifier""
+PROCESS_TYPE = "String  processType""

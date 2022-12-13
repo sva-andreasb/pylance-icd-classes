@@ -1,0 +1,3 @@
+DELETE_ON_EXIT = "int  1"
+READ_ONCE_AND_DELETE = "int  2"
+DELETE_ON_TIME_INTERVAL = "int  3"

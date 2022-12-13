@@ -1,0 +1,7 @@
+INTEGER = "byte  0"
+INTEGER_CUSTOM = "byte  1"
+HALF_FRACTION = "byte  2"
+DECIMAL1 = "byte  3"
+DECIMAL2 = "byte  4"
+DECIMAL3 = "byte  5"
+names = "String[]  { "INTEGER", "INTEGER_CUSTOM", "HALF_FRACTION", "DECIMAL1", "DECIMAL2", "DECIMAL3" }"

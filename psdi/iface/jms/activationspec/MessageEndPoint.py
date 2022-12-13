@@ -1,0 +1,7 @@
+Active = "int  1"
+Inactive = "int  2"
+Stopped = "int  3"
+pause = "String  pause""
+resume = "String  resume""
+status = "String  getStatus""
+activationProps = "String  getActivationProperties""

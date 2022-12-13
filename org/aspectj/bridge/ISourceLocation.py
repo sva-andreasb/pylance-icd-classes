@@ -1,0 +1,5 @@
+MAX_LINE = "int  1073741823"
+MAX_COLUMN = "int  1073741823"
+NO_FILE = "File  new File("ISourceLocation.NO_FILE")"
+NO_COLUMN = "int  -2147483647"
+EMPTY = "ISourceLocation  new SourceLocation(ISourceLocation.NO_FILE, 0, 0, 0)"

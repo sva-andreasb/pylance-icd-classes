@@ -1,0 +1,5 @@
+NORMAL = "int  0"
+ABSTRACT = "int  1"
+LOCAL = "int  2"
+LOCALSERVANT = "int  3"
+LOCAL_SIGNATURE_ONLY = "int  4"

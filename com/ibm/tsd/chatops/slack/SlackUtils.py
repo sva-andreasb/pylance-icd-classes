@@ -1,0 +1,5 @@
+API_CONTEXT = "String /slack""
+SYNC_APP_PROPERTY = "String mxe.chatops.slack.synchApp""
+SHORT_TICKET_ATTRIBUTES_PROPERTY = "String mxe.chatops.slack.shortTicketAttributes""
+DETAILED_TICKET_ATTRIBUTES_PROPERTY = "String mxe.chatops.slack.detailedTicketAttributes""
+UPDATE_TICKET_ATTRIBUTES_PROPERTY = "String mxe.chatops.slack.udpateAttribute""

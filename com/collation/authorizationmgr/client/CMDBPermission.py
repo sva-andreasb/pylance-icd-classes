@@ -1,0 +1,5 @@
+READ = "String  Read""
+UPDATE = "String  Update""
+ADMIN = "String  Admin""
+DISCOVER = "String  Discover""
+ALL = "String  AllPermissions""

@@ -1,0 +1,2 @@
+STATUS_SUCCESS = "int  0"
+STATUS_FAILURE = "int  1"

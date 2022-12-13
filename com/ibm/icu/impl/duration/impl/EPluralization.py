@@ -1,0 +1,7 @@
+NONE = "byte  0"
+PLURAL = "byte  1"
+DUAL = "byte  2"
+PAUCAL = "byte  3"
+HEBREW = "byte  4"
+ARABIC = "byte  5"
+names = "String[]  { "NONE", "PLURAL", "DUAL", "PAUCAL", "HEBREW", "ARABIC" }"

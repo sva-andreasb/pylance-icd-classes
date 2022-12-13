@@ -1,0 +1,1 @@
+eINSTANCE = "GenModelFactory  new GenModelFactoryImpl()"

@@ -1,0 +1,8 @@
+def FldQuotationLineCurrencyCode():
+'''public FldQuotationLineCurrencyCode(final MboValue mbv)
+'''
+pass
+def initValue():
+'''public void initValue()
+'''
+pass

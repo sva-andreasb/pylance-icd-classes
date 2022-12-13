@@ -1,0 +1,12 @@
+def IF_ACMPEQ():
+'''public IF_ACMPEQ(final InstructionHandle target)
+'''
+pass
+def negate():
+'''public IfInstruction negate()
+'''
+pass
+def accept():
+'''public void accept(final Visitor v)
+'''
+pass

@@ -1,0 +1,4 @@
+SECONDS = "long  1000L"
+MINUTES = "long  60000L"
+HOURS = "long  3600000L"
+DAYS = "long  86400000L"

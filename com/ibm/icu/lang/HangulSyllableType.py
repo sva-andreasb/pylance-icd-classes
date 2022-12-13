@@ -1,0 +1,7 @@
+NOT_APPLICABLE = "int  0"
+LEADING_JAMO = "int  1"
+VOWEL_JAMO = "int  2"
+TRAILING_JAMO = "int  3"
+LV_SYLLABLE = "int  4"
+LVT_SYLLABLE = "int  5"
+COUNT = "int  6"

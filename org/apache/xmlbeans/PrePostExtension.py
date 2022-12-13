@@ -1,0 +1,3 @@
+OPERATION_SET = "int  1"
+OPERATION_INSERT = "int  2"
+OPERATION_REMOVE = "int  3"
